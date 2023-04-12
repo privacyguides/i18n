@@ -88,7 +88,7 @@
             <g transform="matrix(0.423185,0,0,0.423185,1011.71,453.118)">
                 <g transform="matrix(53.3092,0,0,53.3092,334.953,0)">
                 </g>
-                <text x="0px" y="0px" style="font-family:'Helvetica';font-size:53.309px;">hidden...onion</text>
+                <text x="0px" y="0px" style="font-family:'Helvetica';font-size:53.309px;">rejtett...onion</text>
             </g>
             <g transform="matrix(1,0,0,1.13387,0,-13.5981)">
                 <rect x="192.377" y="101.575" width="397.824" height="388.045" style="fill:none;stroke:rgb(62,44,177);stroke-width:6.08px;stroke-linecap:butt;stroke-miterlimit:1.5;stroke-dasharray:6.08,6.08;"/>
@@ -204,7 +204,7 @@
             <g transform="matrix(0.423185,0,0,0.453686,924.29,375.575)">
                 <g transform="matrix(53.3092,0,0,53.3092,124.423,0)">
                 </g>
-                <text x="0px" y="0px" style="font-family:'Helvetica';font-size:53.309px;">Entry</text>
+                <text x="0px" y="0px" style="font-family:'Helvetica';font-size:53.309px;">Belépő</text>
             </g>
             <g transform="matrix(0.438175,0,0,-0.438175,616.236,496.055)">
                 <path d="M330.234,166.032L193.058,348.322L196.941,351.246L334.117,168.955L330.234,166.032Z" style="fill-rule:nonzero;"/>

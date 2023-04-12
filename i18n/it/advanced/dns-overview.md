@@ -1,7 +1,7 @@
 ---
 title: "Panoramica DNS"
 icon: material/dns
-description: The Domain Name System is the "phonebook of the internet," helping your browser find the website it's looking for.
+description: Il sistema dei nomi di dominio è la "rubrica telefonica di Internet", che aiuta il browser a trovare il sito web che sta cercando.
 ---
 
 Il [Domain Name System](https://it.wikipedia.org/wiki/Domain_Name_System) è 'l'elenco telefonico di Internet'. Il DNS traduce i nomi di dominio in indirizzi IP, in modo che i browser e altri servizi possano caricare le risorse internet mediante un network decentralizzato di server.

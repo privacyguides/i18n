@@ -1,7 +1,7 @@
 ---
-title: "Adat és Metaadat Eltávolítás"
+title: "Adat és Metaadat Visszatartás"
 icon: material/tag-remove
-description: Use these tools to remove metadata like GPS location and other identifying information from photos and files you share.
+description: Ezekkel az eszközökkel eltávolíthatod a metaadatokat, például a GPS-helyadatokat és más azonosító információkat a megosztott fényképekről és fájlokról.
 ---
 
 Fájlok megosztásakor ügyelj a kapcsolódó metaadatok eltávolítsára. A képfájlok gyakran tartalmaznak [Exif](https://en.wikipedia.org/wiki/Exif) adatokat. A fényképek időnként még GPS-koordinátákat is tartalmaznak a fájl metaadataiban.
@@ -102,7 +102,7 @@ Az alkalmazás többféle módszert nyújt metaadatokat törléséhez a képekr�
 
 !!! warning
 
-    **Soha** ne használd a homályosítást [képekben lévő szöveg](https://bishopfox.com/blog/unredacter-tool-never-pixelation) szerkesztésére. Ha egy képen lévő szöveget szeretnél eltávolítani, rajzolj egy négyzetet a szöveg fölé. Ehhez olyan alkalmazásokat ajánlunk, mint a [Pocket Paint](https://github.com/Catrobat/Paintroid).
+    **Soha** ne használd a homályosítást [képekben lévő szöveg](https://bishopfox.com/blog/unredacter-tool-never-pixelation) szerkesztésére. Ha egy képen lévő szöveget szeretnél visszatartani, rajzolj egy négyzetet a szöveg fölé. Ehhez olyan alkalmazásokat ajánlunk, mint a [Pocket Paint](https://github.com/Catrobat/Paintroid).
 
 ## Parancssor
 
@@ -112,7 +112,7 @@ Az alkalmazás többféle módszert nyújt metaadatokat törléséhez a képekr�
 
     ![ExifTool logo](assets/img/data-redaction/exiftool.png){ align=right }
     
-    Az **ExifTool** az eredeti perl könyvtár és parancssor alkalmazás a metainformációk (Exif, IPTC, XMP stb.) olvasására, írására és szerkesztésére a legkülönbözőbb fájlformátumok (JPEG, TIFF, PNG, PDF, RAW stb.) esetében.
+    Az **ExifTool** az eredeti perl könyvtár és parancssor alkalmazás a metainformációk (Exif, IPTC, XMP, stb.) olvasására, írására és szerkesztésére a legkülönbözőbb fájlformátumok (JPEG, TIFF, PNG, PDF, RAW, stb.) esetében.
     
     Gyakran más Exif eltávolító alkalmazások része, és megtalálható a legtöbb Linux disztribúció addattáraiban.
     

@@ -1,37 +1,37 @@
 ---
-title: Cryptocurrency
+title: Криптовалюта
 icon: material/bank-circle
 ---
 
-Making payments online is one of the biggest challenges to privacy. These cryptocurrencies provide transaction privacy by default (something which is **not** guaranteed by the majority of cryptocurrencies), provided you have a strong understanding of how to make private payments effectively. We strongly encourage you first read our payments overview article before making any purchases:
+Платежи в Интернете - одна из самых серьезных проблем, связанных с конфиденциальностью. These cryptocurrencies provide transaction privacy by default (something which is **not** guaranteed by the majority of cryptocurrencies), provided you have a strong understanding of how to make private payments effectively. We strongly encourage you first read our payments overview article before making any purchases:
 
-[Making Private Payments :material-arrow-right-drop-circle:](advanced/payments.md ""){.md-button}
+[Совершение анонимных платежей :material-arrow-right-drop-circle:](advanced/payments.md ""){.md-button}
 
 !!! recommendation
 
-    Many if not most cryptocurrency projects are scams. Make transactions carefully with only projects you trust.
+    Многие, если не большинство, криптовалютных проектов - это мошеннические схемы. Осуществляйте транзакции осторожно, используя только те проекты, которым вы доверяете.
 
 ## Monero
 
 !!! recommendation
 
-    ![Monero logo](assets/img/cryptocurrency/monero.svg){ align=right }
+    ![Логотип Monero](assets/img/cryptocurrency/monero.svg){ align=right }
     
-    **Monero** uses a blockchain with privacy-enhancing technologies that obfuscate transactions to achieve anonymity. Every Monero transaction hides the transaction amount, sending and receiving addresses, and source of funds without any hoops to jump through, making it an ideal choice for cryptocurrency novices.
+    **Монеро (Monero)** использует блокчейн с технологиями повышения конфиденциальности, которые затрудняют отслеживание транзакций и обеспечивают анонимность. Каждая транзакция в Monero скрывает сумму транзакции, адреса отправителя и получателя, и источник средств, не требуя при этом дополнительных действий, что делает его идеальным выбором для новичков в области криптовалют.
     
     [:octicons-home-16: Homepage](https://www.getmonero.org/){ .md-button .md-button--primary }
     [:octicons-info-16:](https://www.getmonero.org/resources/user-guides/){ .card-link title=Documentation}
     [:octicons-code-16:](https://github.com/monero-project/monero){ .card-link title="Source Code" }
     [:octicons-heart-16:](https://www.getmonero.org/get-started/contributing/){ .card-link title=Contribute }
 
-With Monero, outside observers cannot decipher addresses trading Monero, transaction amounts, address balances, or transaction histories.
+С помощью Monero сторонние наблюдатели не могут расшифровать адреса, которые обмениваются Monero, суммы транзакций, балансы адресов или историю транзакций.
 
-For optimal privacy, make sure to use a noncustodial wallet where the view key stays on the device. This means that only you will have the ability to spend your funds and see incoming and outgoing transactions. If you use a custodial wallet, the provider can see **everything** you do; if you use a “lightweight” wallet where the provider retains your private view key, the provider can see almost everything you do. Some noncustodial wallets include:
+Для максимальной конфиденциальности убедитесь, что вы используете некастодиальный кошелек, где ключ просмотра остается на вашем устройстве, а не на удалённом сервере. Это означает то, что **только вы** будете иметь возможность расходовать свои средства и видеть входящие и исходящие транзакции. Если вы используете кастодиальный кошелек, провайдер может видеть **абсолютно всё**, что вы делаете; если вы используете "лёгкий" кошелек, где провайдер хранит ваш приватный ключ, он может видеть практически всё, что вы делаете. Некоторые некастодиальные кошельки включают в себя:
 
-- [Official Monero client](https://getmonero.org/downloads) (Desktop)
+- [Официальный клиент Monero](https://getmonero.org/ru/downloads/) (для ПК)
 - [Cake Wallet](https://cakewallet.com/) (iOS, Android)
-    - Cake Wallet supports multiple cryptocurrencies. A Monero-only version of Cake Wallet is available at [Monero.com](https://monero.com/).
-- [Feather Wallet](https://featherwallet.org/) (Desktop)
+    - Cake Wallet поддерживает множество криптовалют. Версия Cake Wallet, предназначенная только для Monero, доступна на сайте [Monero.com](https://monero.com/).
+- [Feather Wallet](https://featherwallet.org/) (для ПК)
 - [Monerujo](https://www.monerujo.io/) (Android)
 
 For maximum privacy (even with a noncustodial wallet), you should run your own Monero node. Using another person’s node will expose some information to them, such as the IP address that you connect to it from, the timestamps that you sync your wallet, and the transactions that you send from your wallet (though no other details about those transactions). Alternatively, you can connect to someone else’s Monero node over Tor or i2p.

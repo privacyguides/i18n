@@ -1,7 +1,7 @@
 ---
-title: "Common Threats"
+title: "Распространённые угрозы"
 icon: 'material/eye-outline'
-description: Your threat model is personal to you, but these are some of the things many visitors to this site care about.
+description: Модель угрозы уникальна для каждого, но здесь описаны некоторые из тех вещей, которые волнуют многих посетителей этого сайта.
 ---
 
 Broadly speaking, we categorize our recommendations into the [threats](threat-modeling.md) or goals that apply to most people. ==You may be concerned with none, one, a few, or all of these possibilities==, and the tools and services you use depend on what your goals are. You may have specific threats outside of these categories as well, which is perfectly fine! The important part is developing an understanding of the benefits and shortcomings of the tools you choose to use, because virtually none of them will protect you from every threat.
@@ -17,17 +17,17 @@ Broadly speaking, we categorize our recommendations into the [threats](threat-mo
 
 Some of these threats may be more important to you than others, depending on your specific concerns. For example, a software developer with access to valuable or critical data may be primarily concerned with <span class="pg-red">:material-target-account: Targeted Attacks</span>, but they probably still want to protect their personal data from being swept up in <span class="pg-blue">:material-eye-outline: Mass Surveillance</span> programs. Similarly, many people may be primarily concerned with <span class="pg-green">:material-account-search: Public Exposure</span> of their personal data, but they should still be wary of security-focused issues, such as <span class="pg-orange">:material-bug-outline: Passive Attacks</span>—like malware affecting their devices.
 
-## Anonymity vs. Privacy
+## Анонимность и Конфиденциальность
 
-<span class="pg-purple">:material-incognito: Anonymity</span>
+<span class="pg-purple">:material-incognito: Анонимность</span>
 
-Anonymity is often confused with privacy, but they're distinct concepts. While privacy is a set of choices you make about how your data is used and shared, anonymity is the complete disassociation of your online activities from your real identity.
+Анонимность часто путают с конфиденциальностью, но это разные понятия. В то время как конфиденциальность - это набор решений, которые вы принимаете относительно того, как ваши данные используются и передаются, анонимность - это полное отделение вашей деятельности в Интернете от вашей реальной личности.
 
-Whistleblowers and journalists, for example, can have a much more extreme threat model which requires total anonymity. That's not only hiding what they do, what data they have, and not getting hacked by malicious actors or governments, but also hiding who they are entirely. They will often sacrifice any kind of convenience if it means protecting their anonymity, privacy, or security, because their lives could depend on it. Most people don't need to go so far.
+Например, инсайдеры и журналисты могут иметь гораздо более экстремальную модель угрозы, которая требует полной анонимности. Это не только сокрытие того, чем они занимаются, какими данными располагают, чтобы не быть взломанными злоумышленниками или правительством, но и полное сокрытие того, кто они, на самом деле, такие. Они часто будут жертвовать любыми удобствами, если это означает защиту их анонимности, конфиденциальности или безопасности, потому что от этого может зависеть их жизнь. Большинству людей не нужно заходить так далеко.
 
-## Security and Privacy
+## Безопасность и Конфиденциальность
 
-<span class="pg-orange">:material-bug-outline: Passive Attacks</span>
+<span class="pg-orange">:material-bug-outline: Пассивные атаки</span>
 
 Security and privacy are also often confused, because you need security to obtain any semblance of privacy: Using tools—even if they're private by design—is futile if they could be easily exploited by attackers who later release your data. However, the inverse isn't necessarily true: The most secure service in the world *isn't necessarily* private. The best example of this is trusting data to Google who, given their scale, have had few security incidents by employing industry-leading security experts to secure their infrastructure. Even though Google provides very secure services, very few people would consider their data private in Google's free consumer products (Gmail, YouTube, etc.)
 
@@ -111,35 +111,35 @@ For many people, tracking and surveillance by private corporations is a growing 
 
 Additionally, even companies outside of the *AdTech* or tracking industry can share your information with [data brokers](https://en.wikipedia.org/wiki/Information_broker) (such as Cambridge Analytica, Experian, or Datalogix) or other parties. You can't automatically assume your data is safe just because the service you're using doesn't fall within the typical AdTech or tracking business model. The strongest protection against corporate data collection is to encrypt or obfuscate your data whenever possible, making it difficult for different providers to correlate data with each other and build a profile on you.
 
-## Limiting Public Information
+## Ограничение публичной информации
 
-<span class="pg-green">:material-account-search: Public Exposure</span>
+<span class="pg-green">:material-account-search: Общественное воздействие</span>
 
-The best way to keep your data private is simply not making it public in the first place. Deleting unwanted information you find about yourself online is one of the best first steps you can take to regain your privacy.
+Лучший способ сохранить свои данные в тайне - просто не предавать их огласке. Удаление нежелательной информации, которую вы нашли о себе в Интернете, - один из лучших первых шагов, которые вы можете предпринять для восстановления своей конфиденциальности.
 
-- [View our guide on account deletion :material-arrow-right-drop-circle:](account-deletion.md)
+- [Посмотрите наше руководство по удалению аккаунта :material-arrow-right-drop-circle:](account-deletion.md)
 
-On sites where you do share information, checking the privacy settings of your account to limit how widely that data is spread is very important. For example, enable "private mode" on your accounts if given the option: This ensures that your account isn't being indexed by search engines, and that it can't be viewed without your permission.
+На сайтах, где вы делитесь информацией, очень важно проверить настройки конфиденциальности вашего аккаунта, чтобы ограничить распространение этих данных. Например, включите "приватный режим" на своих аккаунтах, если у вас есть такая возможность: Это гарантирует, что ваш аккаунт не индексируется поисковыми системами и что он не может быть просмотрен без вашего разрешения.
 
-If you've already submitted your real information to sites which shouldn't have it, consider using disinformation tactics, like submitting fictitious information related to that online identity. This makes your real information indistinguishable from the false information.
+Если вы уже предоставили свою настоящую информацию на сайты, которые не должны ее иметь, рассмотрите возможность использования тактики дезинформации, например, представления фиктивной информации, связанной с этой онлайн-личностью. Это делает вашу настоящую информацию неотличимой от ложной.
 
-## Avoiding Censorship
+## Избегание цензуры
 
-<span class="pg-blue-gray">:material-close-outline: Censorship</span>
+<span class="pg-blue-gray">:material-close-outline: Цензура</span>
 
-Censorship online can be carried out (to varying degrees) by actors including totalitarian governments, network administrators, and service providers. These efforts to control communication and restrict access to information will always be incompatible with the human right to Freedom of Expression.[^5]
+Цензура в Интернете может осуществляться (в разной степени) тоталитарными правительствами, администраторами сетей и поставщиками услуг. Эти попытки контролировать коммуникацию и ограничивать доступ к информации всегда будут несовместимы с правом человека на свободу слова и самовыражения.[^5]
 
-Censorship on corporate platforms is increasingly common, as platforms like Twitter and Facebook give in to public demand, market pressures, and pressures from government agencies. Government pressures can be covert requests to businesses, such as the White House [requesting the takedown](https://www.nytimes.com/2012/09/17/technology/on-the-web-a-fine-line-on-free-speech-across-globe.html) of a provocative YouTube video, or overt, such as the Chinese government requiring companies to adhere to a strict regime of censorship.
+Цензура на корпоративных платформах становится все более распространенным явлением, поскольку такие платформы, как Twitter и Facebook, поддаются общественному и рыночному давлению и давлению со стороны государственных органов. Давление со стороны правительства может быть скрытым, например, Белый дом [требует удалить](https://www.nytimes.com/2012/09/17/technology/on-the-web-a-fine-line-on-free-speech-across-globe.html) провокационное видео на YouTube, или открытым, например, правительство Китая требует от компаний придерживаться строгого режима цензуры.
 
-People concerned with the threat of censorship can use technologies like [Tor](../advanced/tor-overview.md) to circumvent it, and support censorship-resistant communication platforms like [Matrix](../real-time-communication.md#element), which doesn't have a centralized account authority that can close accounts arbitrarily.
+Люди, обеспокоенные угрозой цензуры, могут использовать такие технологии, как [Tor](../advanced/tor-overview.md), чтобы обойти ее, и поддерживать устойчивые к цензуре платформы для общения, такие как [Matrix](../real-time-communication.md#element), где нет централизованного органа, который может произвольно закрыть учетные записи.
 
-!!! tip
+!!! совет
 
-    While evading censorship itself can be easy, hiding the fact that you are doing it can be very problematic.
+    Хотя уклонение от цензуры само по себе может быть легким, скрыть тот факт, что вы это делаете, может быть очень проблематично.
     
-    You should consider which aspects of the network your adversary can observe, and whether you have plausible deniability for your actions. For example, using [encrypted DNS](../advanced/dns-overview.md#what-is-encrypted-dns) can help you bypass rudimentary, DNS-based censorship systems, but it can't truly hide what you are visiting from your ISP. A VPN or Tor can help hide what you are visiting from network administrators, but can't hide that you're using those networks in the first place. Pluggable transports (such as Obfs4proxy, Meek, or Shadowsocks) can help you evade firewalls that block common VPN protocols or Tor, but your circumvention attempts can still be detected by methods like probing or [deep packet inspection](https://en.wikipedia.org/wiki/Deep_packet_inspection).
+    Вы должны учитывать, какие аспекты сети может наблюдать ваш оппонент и имеете ли вы достаточные основания для отрицания своих действий (англ. - plausible deniability). Например, использование [шифрованного DNS](../advanced/dns-overview.md#what-is-encrypted-dns) может помочь вам обойти примитивные системы цензуры, основанные на DNS, но оно не может действительно скрыть то, что вы посещаете, от вашего интернет-провайдера. VPN или Tor могут помочь скрыть от администраторов сетей то, что вы посещаете, но не могут скрыть, что вы вообще пользуетесь этими сетями. Шифрованные сетевые туннели (такие, как Obfs4proxy, Meek или Shadowsocks) могут помочь вам обойти брандмауэры, блокирующие распространенные протоколы VPN или Tor, но ваши попытки обхода блокировки могут быть обнаружены методами, такими как сканирование или [DPI](https://ru.wikipedia.org/wiki/Deep_packet_inspection).
 
-You must always consider the risks of trying to bypass censorship, the potential consequences, and how sophisticated your adversary may be. You should be cautious with your software selection, and have a backup plan in case you are caught.
+Вы всегда должны учитывать риски при попытке обойти цензуру, возможные последствия и то, насколько изощренным может быть ваш враг. Вы должны быть осторожны в выборе программного обеспечения и иметь запасной план на случай, если вас поймают.
 
 [^1]: Wikipedia: [*Mass Surveillance*](https://en.wikipedia.org/wiki/Mass_surveillance) and [*Surveillance*](https://en.wikipedia.org/wiki/Surveillance).
 [^2]: United States Privacy and Civil Liberties Oversight Board: [*Report on the Telephone Records Program Conducted under Section 215*](https://documents.pclob.gov/prod/Documents/OversightReport/ec542143-1079-424a-84b3-acc354698560/215-Report_on_the_Telephone_Records_Program.pdf)

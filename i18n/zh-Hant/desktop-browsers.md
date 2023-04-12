@@ -57,7 +57,7 @@ schema:
 
 These are our currently recommended desktop web browsers and configurations for standard/non-anonymous browsing. We recommend [Mullvad Browser](#mullvad-browser) if you are focused on strong privacy protections and anti-fingerprinting out of the box, [Firefox](#firefox) for casual internet browsers looking for a good alternative to Google Chrome, and [Brave](#brave) if you need Chromium browser compatibility.
 
-If you need to browse the internet anonymously, you should use [Tor](tor.md) instead. We make some configuration recommendations on this page, but all browsers other than Tor Browser will be traceable by *somebody* in some manner or another.
+如果你需要匿名瀏覽網際網路，你應該使用 [Tor](tor.md) 代替。 We make some configuration recommendations on this page, but all browsers other than Tor Browser will be traceable by *somebody* in some manner or another.
 
 ## Mullvad Browser
 
@@ -124,7 +124,7 @@ Mullvad Browser comes with DuckDuckGo set as the default [search engine](search-
 !!! warning
     Firefox includes a unique [download token](https://bugzilla.mozilla.org/show_bug.cgi?id=1677497#c0) in downloads from Mozilla's website and uses telemetry in Firefox to send the token. The token is **not** included in releases from the [Mozilla FTP](https://ftp.mozilla.org/pub/firefox/releases/).
 
-### Recommended Configuration
+### 建議配置
 
 這些選項可以在 :material-menu: → **設定** → **隱私 & 安全性**中找到。
 
@@ -187,11 +187,11 @@ Arkenfox only aims to thwart basic or naive tracking scripts through canvas rand
 
 !!! recommendation
 
-    ![Brave logo](assets/img/browsers/brave.svg){ align=right }
+    ! [Brave logo] (assets/img/browsers/brave.svg) {align = right}
     
-    **Brave Browser** includes a built-in content blocker and [privacy features](https://brave.com/privacy-features/), many of which are enabled by default.
+    * * Brave Browser * *內建內容封鎖程式和[隱私權功能] (https://brave.com/privacy-features/) ，其中許多功能預設已啟用。
     
-    Brave is built upon the Chromium web browser project, so it should feel familiar and have minimal website compatibility issues.
+    Brave 建立在 Chromium 瀏覽器專案，因此令人感到熟悉並且具有最小的網站兼容性問題。
     
     [:octicons-home-16: Homepage](https://brave.com/){ .md-button .md-button--primary }
     [:simple-torbrowser:](https://brave4u7jddbv7cyviptqjc7jusxh72uik7zt6adtckl5f4nwy2v72qd.onion){ .card-link title="Onion Service" }
@@ -208,13 +208,13 @@ Arkenfox only aims to thwart basic or naive tracking scripts through canvas rand
 
     1. We advise against using the Flatpak version of Brave, as it replaces Chromium's sandbox with Flatpak's, which is less effective. Additionally, the package is not maintained by Brave Software, Inc.
 
-### Recommended Configuration
+### 建議配置
 
 These options can be found in :material-menu: → **Settings**.
 
 ##### Shields
 
-Brave includes some anti-fingerprinting measures in its [Shields](https://support.brave.com/hc/en-us/articles/360022973471-What-is-Shields-) feature. We suggest configuring these options [globally](https://support.brave.com/hc/en-us/articles/360023646212-How-do-I-configure-global-and-site-specific-Shields-settings-) across all pages that you visit.
+Brave [Shields](https://support.brave.com/hc/en-us/articles/360022973471-What-is-Shields-) 功能包含一些防指紋識別措施。 我們建議您在所有瀏覽的網頁上設定這些選項 [全局](https://support.brave.com/hc/en-us/articles/360023646212-How-do-I-configure-global-and-site-specific-Shields-settings-) 。
 
 Shields' options can be downgraded on a per-site basis as needed, but by default we recommend setting the following:
 
@@ -287,7 +287,7 @@ Under the *System* menu
 
 1. This option is not present on all platforms.
 
-### Brave Sync
+### Brave 同步
 
 [Brave Sync](https://support.brave.com/hc/en-us/articles/360059793111-Understanding-Brave-Sync) allows your browsing data (history, bookmarks, etc.) to be accessible on all your devices without requiring an account and protects it with E2EE.
 
@@ -337,7 +337,7 @@ These are some other [filter lists](https://github.com/gorhill/uBlock/wiki/Dashb
 - Supports automatic updates.
 - Receives engine updates in 0-1 days from upstream release.
 - Available on Linux, macOS, and Windows.
-- Any changes required to make the browser more privacy-respecting should not negatively impact user experience.
+- 為了使瀏覽器更尊重隱私權而作的任何變動都不應對用戶體驗產生負面影響。
 - Blocks third-party cookies by default.
 - Supports [state partitioning](https://developer.mozilla.org/en-US/docs/Web/Privacy/State_Partitioning) to mitigate cross-site tracking.[^1]
 
@@ -354,9 +354,9 @@ These are some other [filter lists](https://github.com/gorhill/uBlock/wiki/Dashb
 - Provides open-source sync server implementation.
 - Defaults to a [private search engine](search-engines.md).
 
-### Extension Criteria
+### 擴展元件標準
 
-- Must not replicate built-in browser or OS functionality.
-- Must directly impact user privacy, i.e. must not simply provide information.
+- 不得複製內建瀏覽器或作業系統功能。
+- 必須直接影響用戶隱私，即不得簡單地提供資訊。
 
 [^1]: Brave's implementation is detailed at [Brave Privacy Updates: Partitioning network-state for privacy](https://brave.com/privacy-updates/14-partitioning-network-state/).

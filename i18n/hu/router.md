@@ -4,7 +4,7 @@ icon: material/router-wireless
 description: These alternative operating systems can be used to secure your router or Wi-Fi access point.
 ---
 
-Lejjebb bemutatunk néhány alternatív operációs rendszert, amelyek használhatók routereken, Wi-Fi hozzáférési pontokon stb.
+Lejjebb bemutatunk néhány alternatív operációs rendszert, amelyek használhatók routereken, Wi-Fi hozzáférési pontokon, stb.
 
 ## OpenWrt
 

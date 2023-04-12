@@ -1,7 +1,7 @@
 ---
 title: "Rimozione di dati e metadati"
 icon: material/tag-remove
-description: Use these tools to remove metadata like GPS location and other identifying information from photos and files you share.
+description: Utilizza questi strumenti per rimuovere metadati come la posizione GPS e altre informazioni identificative dalle foto e dai file che condividete.
 ---
 
 Quando vengono condivisi file, è importante rimuovere i relativi metadata. I file immagine includono comunemente dati [Exif](https://it.wikipedia.org/wiki/Exif). I metadata delle foto, a volte, includono anche le coordinate GPS.
@@ -22,7 +22,7 @@ Quando vengono condivisi file, è importante rimuovere i relativi metadata. I fi
     [:octicons-info-16:](https://0xacab.org/jvoisin/mat2/-/blob/master/README.md){ .card-link title=Documentazione}
     [:octicons-code-16:](https://0xacab.org/jvoisin/mat2){ .card-link title="Codice sorgente" }
     
-    ??? downloads
+    ??? download
     
         - [:simple-windows11: Windows](https://pypi.org/project/mat2)
         - [:simple-apple: macOS](https://0xacab.org/jvoisin/mat2#requirements-setup-on-macos-os-x-using-homebrew)
@@ -45,7 +45,7 @@ Quando vengono condivisi file, è importante rimuovere i relativi metadata. I fi
     [:octicons-info-16:](https://github.com/Tommy-Geenexus/exif-eraser#readme){ .card-link title=Documentazione}
     [:octicons-code-16:](https://github.com/Tommy-Geenexus/exif-eraser){ .card-link title="Codice sorgente" }
     
-    ??? downloads
+    ??? download
     
         - [:simple-googleplay: Google Play](https://play.google.com/store/apps/details?id=com.none.tom.exiferaser)
         - [:octicons-moon-16: Accrescent](https://accrescent.app/app/com.none.tom.exiferaser)
@@ -59,7 +59,7 @@ I metadati cancellati dipendono dal tipo di file dell'immagine:
 
 Dopo l'elaborazione delle immagini, ExifEraser fornisce un rapporto completo su cosa è stato rimosso esattamente da ogni immagine.
 
-L'applicazione offre diversi modi per cancellare i metadati dalle immagini. Vale a dire:
+L'applicazione offre diversi modi per cancellare i metadati dalle immagini. Ovvero:
 
 * È possibile condividere un'immagine da un'altra applicazione con ExifEraser.
 * Attraverso l'applicazione stessa, è possibile selezionare una singola immagine, più immagini contemporaneamente o persino un'intera directory.
@@ -78,7 +78,7 @@ L'applicazione offre diversi modi per cancellare i metadati dalle immagini. Vale
     [:octicons-home-16: Pagina principale](https://zininworks.com/metapho){ .md-button .md-button--primary }
     [:octicons-eye-16:](https://zininworks.com/privacy/){ .card-link title="Informativa sulla privacy" }
     
-    ??? downloads
+    ??? download
     
         - [:simple-appstore: App Store](https://apps.apple.com/us/app/metapho/id914457352)
 
@@ -95,14 +95,14 @@ L'applicazione offre diversi modi per cancellare i metadati dalle immagini. Vale
     [:octicons-info-16:](https://github.com/MATHEMA-GmbH/privacyblur#readme){ .card-link title=Documentazione}
     [:octicons-code-16:](https://github.com/MATHEMA-GmbH/privacyblur){ .card-link title="Codice sorgente" }
     
-    ??? downloads
+    ??? download
     
         - [:simple-googleplay: Google Play](https://play.google.com/store/apps/details?id=de.mathema.privacyblur)
         - [:simple-appstore: App Store](https://apps.apple.com/us/app/privacyblur/id1536274106)
 
 !!! warning
 
-    Non si deve **mai** usare la sfocatura per nascondere [il testo nelle immagini] (https://bishopfox.com/blog/unredacter-tool-never-pixelation). Se desideri eliminare il testo di un'immagine, disegna un riquadro sopra il testo. A questo scopo, suggeriamo applicazioni come [Pocket Paint](https://github.com/Catrobat/Paintroid).
+    Non dovresti **mai** usare la sfocatura per nascondere [il testo nelle immagini] (https://bishopfox.com/blog/unredacter-tool-never-pixelation). Se desideri censurare il testo di un'immagine, disegna un riquadro sopra il testo. A questo scopo, suggeriamo applicazioni come [Pocket Paint](https://github.com/Catrobat/Paintroid).
 
 ## Linea di comando
 
@@ -112,43 +112,34 @@ L'applicazione offre diversi modi per cancellare i metadati dalle immagini. Vale
 
     ![Logo ExifTool](assets/img/data-redaction/exiftool.png){ align=right }
     
-    **ExifTool** è l'originale libreria perl e applicazione a riga di comando per leggere, scrivere e modificare i metadati (Exif, IPTC, XMP e altro) in un'ampia varietà di formati di file (JPEG, TIFF, PNG, PDF, RAW e altro).
+    **ExifTool** è l'originale libreria per le applicazioni a riga di comando per leggere, scrivere e modificare i metadati (Exif, IPTC, XMP e altro) in un'ampia varietà di formati di file (JPEG, TIFF, PNG, PDF, RAW e altro).
     
     Spesso è usato come un componente di altre applicazioni di rimozione Exif ed è presente nei repository della maggior parte delle distribuzioni Linux.
     
-    [:octicons-home-16: Pagina principale](https://exiftool.org){ .md-button .md-button--primary }
-    [:octicons-info-16:](https://exiftool.org/faq.html){ .card-link title=Documentazione}
-    [:octicons-code-16:](https://github.com/exiftool/exiftool){ .card-link title="Codice sorgente" }
-    [:octicons-heart-16:](https://exiftool.org/#donate){ .card-link title=Contribuisci }
+    [:octicons-home-16: Homepage](https://exiftool.org){ .md-button .md-button--primary }
+    [:octicons-info-16:](https://exiftool.org/faq.html){ .card-link title=Documentation}
+    [:octicons-code-16:](https://github.com/exiftool/exiftool){ .card-link title="Source Code" }
+    [:octicons-heart-16:](https://exiftool.org/#donate){ .card-link title=Contribute }
     
-    ??? downloads
+    ??? download
     
         - [:simple-windows11: Windows](https://exiftool.org)
         - [:simple-apple: macOS](https://exiftool.org)
         - [:simple-linux: Linux](https://exiftool.org)
 
-!!! example "Rimozione di metadati dai file di una cartella"
+!!! esempio "Rimozione di metadati dai file di una cartella"
 
     ```bash
     exiftool -all= *.file_extension
     ```
 
-## CryptPad
+## Criteri
 
-**Please note we are not affiliated with any of the projects we recommend.** In addition to [our standard criteria](about/criteria.md), we have developed a clear set of requirements to allow us to provide objective recommendations. recommendation
+**Si noti che non siamo affiliati a nessuno dei progetti che raccomandiamo.** Oltre ai [ nostri criteri standard](about/criteria.md), abbiamo sviluppato una serie di requisiti chiari che ci consentono di fornire raccomandazioni obiettive. Ti consigliamo di familiarizzare con questo elenco prima di scegliere di utilizzare un progetto e di condurre le vostre ricerche per assicurarvi che sia la scelta giusta per voi.
 
-!!! recommendation
+!!! esempio "Questa sezione è nuova"
 
-    ![PrivateBin logo](assets/img/productivity/privatebin.svg){ align=right }
-    
-    **PrivateBin** è un pastebin online minimalista e open-source in cui il server non ha alcuna conoscenza dei dati incollati. Infatti, vengono criptati/decriptati nel tuo browser utilizzando AES a 256 bit. downloads
-    
-        - [:simple-windows11: Windows](https://keepassxc.org/download/#windows)
-        - [:simple-apple: macOS](https://keepassxc.org/download/#mac)
-        - [:simple-linux: Linux](https://keepassxc.org/download/#linux)
-        - [:simple-flathub: Flatpak](https://flathub.org/apps/details/org.keepassxc.KeePassXC)
-        - [:simple-firefoxbrowser: Firefox](https://addons.mozilla.org/firefox/addon/keepassxc-browser)
-        - [:simple-googlechrome: Chrome](https://chrome.google.com/webstore/detail/keepassxc-browser/oboonakemofpalcgghocfoadofidjkkk)
+    Stiamo lavorando per stabilire criteri ben definiti per ogni sezione del nostro sito, e questo potrebbe essere soggetto a modifiche. Se avete domande sui nostri criteri, vi preghiamo di [chiedere sul nostro forum](https://discuss.privacyguides.net/latest) e non date per scontato che non abbiamo preso in considerazione qualcosa nel formulare le nostre raccomandazioni se non è elencato qui. Sono molti i fattori presi in considerazione e discussi quando consigliamo un progetto, e stiamo lavorando per documentare ogni singolo fattore.
 
 - Le applicazioni sviluppate per sistemi operativi open-source devono essere open-source.
 - Le applicazioni devono essere gratuite e non devono includere pubblicità o altre limitazioni.

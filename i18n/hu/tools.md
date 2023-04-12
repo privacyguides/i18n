@@ -283,7 +283,7 @@ Számos követelmény alapján [ajánlunk](dns.md#recommended-providers) több t
 
 [További információ :material-arrow-right-drop-circle:](cryptocurrency.md)
 
-### Adat és Metaadat Eltávolítás
+### Adat és Metaadat Visszatartás
 
 <div class="grid cards" markdown>
 

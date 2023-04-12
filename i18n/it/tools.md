@@ -145,7 +145,7 @@ Per maggiori dettagli su ogni progetto, sul motivo per cui è stato scelto e su 
 
 [Maggiori informazioni :material-arrow-right-drop-circle:](dns.md)
 
-#### Self-hosting
+#### Proxy DNS criptati
 
 <div class="grid cards" markdown>
 
@@ -180,7 +180,7 @@ Per maggiori dettagli su ogni progetto, sul motivo per cui è stato scelto e su 
 
 [Maggiori informazioni :material-arrow-right-drop-circle:](email.md)
 
-#### Email installabili in locale
+#### Servizi di aliasing email
 
 <div class="grid cards" markdown>
 
@@ -191,7 +191,7 @@ Per maggiori dettagli su ogni progetto, sul motivo per cui è stato scelto e su 
 
 [Maggiori informazioni :material-arrow-right-drop-circle:](email.md#email-aliasing-services)
 
-#### I nostri criteri
+#### Email in self-hosting
 
 <div class="grid cards" markdown>
 
@@ -240,7 +240,7 @@ Per maggiori dettagli su ogni progetto, sul motivo per cui è stato scelto e su 
 
 ### Fornitori di VPN
 
-??? danger "Le VPN non forniscono anonimato"
+??? attenzione "Le VPN non garantiscono l'anonimato"
 
     L'utilizzo di una VPN **non** manterrà anonime le tue abitudini di navigazione, né aggiungerà ulteriore sicurezza al traffico non sicuro (HTTP).
     
@@ -262,7 +262,7 @@ Per maggiori dettagli su ogni progetto, sul motivo per cui è stato scelto e su 
 
 ## Software
 
-### Sincronizzazione di calendario e contatti
+### Sincronizzazione di calendario
 
 <div class="grid cards" markdown>
 
@@ -273,7 +273,7 @@ Per maggiori dettagli su ogni progetto, sul motivo per cui è stato scelto e su 
 
 [Maggiori informazioni :material-arrow-right-drop-circle:](calendar.md)
 
-### Criptovaluta
+### Criptovalute
 
 <div class="grid cards" markdown>
 
@@ -287,7 +287,6 @@ Per maggiori dettagli su ogni progetto, sul motivo per cui è stato scelto e su 
 
 <div class="grid cards" markdown>
 
-- ![ExifCleaner logo](assets/img/data-redaction/exifcleaner.svg){ .twemoji } [ExifCleaner](data-redaction.md#exifcleaner)
 - ![MAT2 logo](assets/img/data-redaction/mat2.svg){ .twemoji } [MAT2](data-redaction.md#mat2)
 - ![ExifEraser logo](assets/img/data-redaction/exiferaser.svg){ .twemoji } [ExifEraser (Android)](data-redaction.md#exiferaser-android)
 - ![Metapho logo](assets/img/data-redaction/metapho.jpg){ .twemoji } [Metapho (iOS)](data-redaction.md#metapho-ios)
@@ -298,7 +297,7 @@ Per maggiori dettagli su ogni progetto, sul motivo per cui è stato scelto e su 
 
 [Maggiori informazioni :material-arrow-right-drop-circle:](data-redaction.md)
 
-### Condivisione di file
+### Client Email
 
 <div class="grid cards" markdown>
 
@@ -320,7 +319,7 @@ Per maggiori dettagli su ogni progetto, sul motivo per cui è stato scelto e su 
 
 ??? info "Crittografia del disco del sistema operativo"
 
-    Per crittografare il disco del sistema operativo, in genere si consiglia di utilizzare lo strumento di crittografia fornito dal sistema operativo, che sia **BitLocker** su Windows, **FileVault** su macOS o **LUKS** su Linux. Questi strumenti sono inclusi nel sistema operativo e in genere utilizzano elementi di crittografia hardware come un TPM che altri software di crittografia full-disk come VeraCrypt non fanno. VeraCrypt è comunque adatto a dischi senza sistema operativo come le unità esterne, in particolare quelle a cui si può accedere da più sistemi operativi.
+    Per crittografare il disco del tuo sistema operativo, di solito consigliamo l'utilizzo del strumento di crittografia fornito dal sistema operativo, che sia **BitLocker** su Windows, **FileVault** su macOS o **LUKS** su Linux. Questi strumenti sono inclusi nel sistema operativo e in genere utilizzano elementi di crittografia hardware, come un TPM, che altri software di crittografia a disco intero, come VeraCrypt, non utilizzano. VeraCrypt è comunque adatto a dischi senza sistema operativo come le unità esterne, in particolare quelle a cui si può accedere da più sistemi operativi.
     
     [Maggiori informazioni :material-arrow-right-drop-circle:](encryption.md##operating-system-included-full-disk-encryption-fde)
 
@@ -357,6 +356,7 @@ Per maggiori dettagli su ogni progetto, sul motivo per cui è stato scelto e su 
 - ![Send logo](assets/img/file-sharing-sync/send.svg){ .twemoji } [Send](file-sharing.md#send)
 - ![OnionShare logo](assets/img/file-sharing-sync/onionshare.svg){ .twemoji } [OnionShare](file-sharing.md#onionshare)
 - ![FreedomBox logo](assets/img/file-sharing-sync/freedombox.svg){ .twemoji } [FreedomBox](file-sharing.md#freedombox)
+- ![Nextcloud logo](assets/img/productivity/nextcloud.svg){ .twemoji } [Nextcloud (Self-Hostable)](productivity.md#nextcloud)
 - ![Syncthing logo](assets/img/file-sharing-sync/syncthing.svg){ .twemoji } [Syncthing](file-sharing.md#syncthing)
 
 </div>
@@ -370,6 +370,8 @@ Per maggiori dettagli su ogni progetto, sul motivo per cui è stato scelto e su 
 - ![Librarian logo](assets/img/frontends/librarian.svg#only-light){ .twemoji }![Librarian logo](assets/img/frontends/librarian-dark.svg#only-dark){ .twemoji } [Librarian (LBRY, Web)](frontends.md#librarian)
 - ![Nitter logo](assets/img/frontends/nitter.svg){ .twemoji } [Nitter (Twitter, Web)](frontends.md#nitter)
 - ![FreeTube logo](assets/img/frontends/freetube.svg){ .twemoji } [FreeTube (YouTube, Desktop)](frontends.md#freetube)
+- ![Yattee logo](assets/img/frontends/yattee.svg){ .twemoji } [Yattee (YouTube; iOS, tvOS, macOS)](frontends.md#yattee)
+- ![LibreTube logo](assets/img/frontends/libretube.svg#only-light){ .twemoji }![LibreTube logo](assets/img/frontends/libretube-dark.svg#only-dark){ .twemoji } [LibreTube (YouTube, Android)](frontends.md#libretube-android)  
 - ![NewPipe logo](assets/img/frontends/newpipe.svg){ .twemoji } [NewPipe (YouTube, Android)](frontends.md#newpipe-android)
 - ![Invidious logo](assets/img/frontends/invidious.svg#only-light){ .twemoji }![Invidious logo](assets/img/frontends/invidious-dark.svg#only-dark){ .twemoji } [Invidious (YouTube, Web)](frontends.md#invidious)
 - ![Piped logo](assets/img/frontends/piped.svg){ .twemoji } [Piped (YouTube, Web)](frontends.md#piped)
@@ -407,7 +409,7 @@ Per maggiori dettagli su ogni progetto, sul motivo per cui è stato scelto e su 
 
 [Maggiori informazioni :material-arrow-right-drop-circle:](news-aggregators.md)
 
-### Blocchi note
+### Taccuini
 
 <div class="grid cards" markdown>
 
@@ -439,6 +441,7 @@ Per maggiori dettagli su ogni progetto, sul motivo per cui è stato scelto e su 
 
 <div class="grid cards" markdown>
 
+- ![Nextcloud logo](assets/img/productivity/nextcloud.svg){ .twemoji } [Nextcloud (Self-Hostable)](productivity.md#nextcloud)
 - ![LibreOffice logo](assets/img/productivity/libreoffice.svg){ .twemoji } [LibreOffice](productivity.md#libreoffice)
 - ![OnlyOffice logo](assets/img/productivity/onlyoffice.svg){ .twemoji } [OnlyOffice](productivity.md#onlyoffice)
 - ![CryptPad logo](assets/img/productivity/cryptpad.svg){ .twemoji } [CryptPad](productivity.md#cryptpad)
@@ -453,10 +456,10 @@ Per maggiori dettagli su ogni progetto, sul motivo per cui è stato scelto e su 
 <div class="grid cards" markdown>
 
 - ![Signal logo](assets/img/messengers/signal.svg){ .twemoji } [Signal](real-time-communication.md#signal)
+- ![Briar logo](assets/img/messengers/briar.svg){ .twemoji } [Briar](real-time-communication.md#briar)
+- ![SimpleX Chat logo](assets/img/messengers/simplex.svg){ .twemoji } [SimpleX Chat](real-time-communication.md#simplex-chat)
 - ![Element logo](assets/img/messengers/element.svg){ .twemoji } [Element](real-time-communication.md#element)
 - ![Session logo](assets/img/messengers/session.svg){ .twemoji } [Session](real-time-communication.md#session)
-- ![Briar logo](assets/img/messengers/briar.svg){ .twemoji } [Briar (Android)](real-time-communication.md#briar-android)
-- ![SimpleX Chat logo](assets/img/messengers/simplex.svg){ .twemoji } [SimpleX Chat](real-time-communication.md#simplex-chat)
 
 </div>
 

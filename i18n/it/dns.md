@@ -19,7 +19,7 @@ I DNS cifrati con server di terze parti dovrebbero essere utilizzati solo per ag
 | [**NextDNS**](https://www.nextdns.io)                                           | [:octicons-link-external-24:](https://www.nextdns.io/privacy)                                         | Cleartext <br> DoH/3 <br> DoT                     | Optional[^5]  | Opzionale | In base alla scelta del server.                                                                                                                            |
 | [**Quad9**](https://quad9.net)                                                  | [:octicons-link-external-24:](https://quad9.net/privacy/policy/)                                      | Cleartext <br> DoH <br> DoT <br> DNSCrypt   | In parte[^6]  | Opzionale | In base alla scelta del server, blocco dei malware di default.                                                                                             |
 
-## CryptPad
+## Criteri
 
 **Si prega di notare che non siamo affiliati a nessuno dei progetti che raccomandiamo.** Oltre a [i nostri criteri standard](about/criteria.md), abbiamo sviluppato una chiara serie di requisiti per consentirci di fornire raccomandazioni oggettive. Suggeriamo di familiarizzare con questo elenco prima di scegliere di utilizzare un progetto e di condurre le tue ricerche per assicurarti che la scelta sia giusta per te.
 

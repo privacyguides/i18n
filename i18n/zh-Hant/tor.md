@@ -1,7 +1,7 @@
 ---
-title: "Tor Network"
+title: "Tor 網絡"
 icon: simple/torproject
-description: Protect your internet browsing from prying eyes by using the Tor network, a secure network which circumvents censorship.
+description: 透過Tor 網絡來保護您的網際網路瀏覽免受窺探， Tor 網絡是一個規避審查的安全網絡。
 ---
 
 ![Tor logo](assets/img/self-contained-networks/tor.svg){ align=right }
@@ -71,7 +71,7 @@ Tor 瀏覽器旨在防止指紋識別----根據您的瀏覽器配置識別您。
         - [:simple-appstore: App Store] (https://apps.apple.com/us/app/orbot/id1609461599)
         - [:simple-github: GitHub] (https://github.com/guardianproject/orbot/releases)
 
-We previously recommended enabling the *Isolate Destination Address* preference in Orbot settings. While this setting can theoretically improve privacy by enforcing the use of a different circuit for each IP address you connect to, it doesn't provide a practical advantage for most applications (especially web browsing), can come with a significant performance penalty, and increases the load on the Tor network. We no longer recommend adjusting this setting from its default value unless you know you need to.[^1]
+我們之前建議在 Orbot 設定中啟用 *隔離目標地址* 偏好設定。 雖然從理論上講，此設置可以強制您連接不同 IP地址使用不同的迴路來改善隱私，但它並未為大多數應用程式（特別是 Web瀏覽）提供實際優勢，可能會帶來顯著的效能拖累，增加 Tor 網絡的負載。 我們不再建議您從預設值調整此設定，除非您知道需要調整。[^1]
 
 !!! 提示“ Android 使用訣竅”
 
@@ -116,4 +116,4 @@ Snowflake 無法加強隱私，也不會在您的個人瀏覽器中連接 Tor網
 
 運行 Snowflake 代理風險很低，甚至低於運行 Tor 中繼或橋接器，而這些中繼器或橋接器已經不算是特別高風險的工作。 但是，它通過您的網路進行代理流量，在某些方面可能會產生影響，特別是您的網路頻寬有限制的話。 在運行代理之前，要確保已清楚了解[ Snowflake 運作方式](https://gitlab.torproject.org/tpo/anti-censorship/pluggable-transports/snowflake/-/wikis/home) 。
 
-[^1]: The `IsolateDestAddr` setting is discussed on the [Tor mailing list](https://lists.torproject.org/pipermail/tor-talk/2012-May/024403.html) and [Whonix's Stream Isolation documentation](https://www.whonix.org/wiki/Stream_Isolation), where both projects suggest that it is usually not a good approach for most people.
+[^1]: `IsolateDestAddr` 設定問題已在 [Tor 郵件群組](https://lists.torproject.org/pipermail/tor-talk/2012-May/024403.html) 中討論過而且在 [Whonix's 串流隔離文檔](https://www.whonix.org/wiki/Stream_Isolation)，兩項專案都認為對大多數人而言它並不是好方法。

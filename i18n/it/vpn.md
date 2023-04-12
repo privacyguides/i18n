@@ -14,7 +14,7 @@ Se stai cercando ulteriore **privacy** dal tuo ISP, su una rete Wi-Fi pubblica o
 
 </div>
 
-!!! danger "Le VPN non forniscono anonimato"
+!!! attenzione "Le VPN non garantiscono l'anonimato"
 
     L'utilizzo di una VPN **non** manterrà anonime le tue abitudini di navigazione, né aggiungerà ulteriore sicurezza al traffico non sicuro (HTTP).
     
@@ -228,7 +228,7 @@ I client Proton VPN supportano l'autenticazione a due fattori su tutte le piatta
 
 Arresti anomali del sistema [possono verificarsi](https://protonvpn.com/support/macos-t2-chip-kill-switch/) sui Mac basati su Intel quando si utilizza la funzionalità killswitch VPN. Se hai bisogno di questa funzione e utilizzi un Mac con chipset Intel, dovresti considerare l'utilizzo di un altro servizio VPN.
 
-## CryptPad
+## Criteri
 
 !!! danger "Pericolo"
 

@@ -81,7 +81,7 @@ P2P networks do not use servers, as peers communicate directly between each othe
 
 ## Anonim Forgalomirányítás
 
-![Anoním forgalomirányítási diagram](../assets/img/layout/network-anonymous-routing.svg){ align=left }
+![Anonim forgalomirányítási diagram](../assets/img/layout/network-anonymous-routing.svg){ align=left }
 
 A messenger using [anonymous routing](https://doi.org/10.1007/978-1-4419-5906-5_628) hides either the identity of the sender, the receiver, or evidence that they have been communicating. Ideally, a messenger should hide all three.
 

@@ -407,7 +407,7 @@ We regard these features as important in order to provide a safe and optimal ser
 - Allow users to use their own [domain name](https://en.wikipedia.org/wiki/Domain_name). Custom domain names are important to users because it allows them to maintain their agency from the service, should it turn bad or be acquired by another company which doesn't prioritize privacy.
 - Operates on owned infrastructure, i.e. not built upon third-party email service providers.
 
-**Best Case:**
+**Legjobb Esetben:**
 
 - Encrypts all account data (Contacts, Calendars, etc) at rest with zero-access encryption.
 - Integrated webmail E2EE/PGP encryption provided as a convenience.
@@ -429,7 +429,7 @@ Jobban szeretjük, ha az általunk ajánlott szolgáltatók a lehető legkeveseb
 - Privacy policy that meets the requirements defined by the GDPR
 - Must not be hosted in the US due to [ECPA](https://en.wikipedia.org/wiki/Electronic_Communications_Privacy_Act#Criticism) which has [yet to be reformed](https://epic.org/ecpa/).
 
-**Best Case:**
+**Legjobb Esetben:**
 
 - Accepts [anonymous payment options](advanced/payments.md) ([cryptocurrency](cryptocurrency.md), cash, gift cards, etc.)
 
@@ -455,7 +455,7 @@ Email servers deal with a lot of very sensitive data. We expect that providers w
     - [Subresource Integrity](https://en.wikipedia.org/wiki/Subresource_Integrity) if loading things from external domains.
 - Must support viewing of [Message headers](https://en.wikipedia.org/wiki/Email#Message_header), as it is a crucial forensic feature to determine if an email is a phishing attempt.
 
-**Best Case:**
+**Legjobb Esetben:**
 
 - Support for hardware authentication, i.e. U2F and [WebAuthn](https://en.wikipedia.org/wiki/WebAuthn). U2F and WebAuthn are more secure as they use a private key stored on a client-side hardware device to authenticate people, as opposed to a shared secret that is stored on the web server and on the client side when using TOTP. Furthermore, U2F and WebAuthn are more resistant to phishing as their authentication response is based on the authenticated [domain name](https://en.wikipedia.org/wiki/Domain_name).
 - [DNS Certification Authority Authorization (CAA) Resource Record](https://tools.ietf.org/html/rfc6844) in addition to DANE support.
@@ -473,7 +473,7 @@ You wouldn't trust your finances to someone with a fake identity, so why trust t
 
 - Nyilvános vezetés vagy tulajdonlás.
 
-**Best Case:**
+**Legjobb Esetben:**
 
 - Nyilvános vezetés.
 - Gyakori átláthatósági jelentések.
@@ -494,7 +494,7 @@ Nem használhat felelőtlen marketinget:
 - Reusing personal information e.g. (email accounts, unique pseudonyms, etc) that they accessed without anonymity software (Tor, VPN, etc)
 - [Böngésző fingerprintelés](https://en.wikipedia.org/wiki/Device_fingerprint#Browser_fingerprint)
 
-**Best Case:**
+**Legjobb Esetben:**
 
 - Clear and easy to read documentation. This includes things like, setting up 2FA, email clients, OpenPGP, etc.
 

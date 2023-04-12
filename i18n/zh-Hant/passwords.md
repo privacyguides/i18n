@@ -20,7 +20,7 @@ schema:
       - Windows
       - macOS
       - Linux
-      - Android
+      - 安卓
       - iOS
     subjectOf:
       "@context": http://schema.org
@@ -38,7 +38,7 @@ schema:
       - Windows
       - macOS
       - Linux
-      - Android
+      - 安卓
       - iOS
     subjectOf:
       "@context": http://schema.org
@@ -52,7 +52,7 @@ schema:
     url: https://psono.com
     applicationCategory: 密碼管理器。
     operatingSystem:
-      - Android
+      - 安卓
       - iOS
     subjectOf:
       "@context": http://schema.org
@@ -81,7 +81,7 @@ schema:
     image: /assets/img/password-management/keepassdx.svg
     url: https://www.keepassdx.com/
     applicationCategory: 密碼管理器。
-    operatingSystem: Android
+    operatingSystem: 安卓
     subjectOf:
       "@context": http://schema.org
       "@type": WebPage

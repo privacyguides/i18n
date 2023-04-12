@@ -162,7 +162,7 @@ Recomendamos almacenar una clave de recuperación local en un lugar seguro en lu
     [:octicons-info-16:](https://gitlab.com/cryptsetup/cryptsetup/-/wikis/home){ .card-link title=Documentación}
     [:octicons-code-16:](https://gitlab.com/cryptsetup/cryptsetup/){ .card-link title="Código Fuente" }
 
-??? ejemplo "Creación y apertura de contenedores cifrados"
+??? example "Creación y apertura de contenedores cifrados"
 
     ```
     dd if=/dev/urandom of=/path-to-file bs=1M count=1024 status=progress

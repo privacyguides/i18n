@@ -1,14 +1,14 @@
 *[2FA]: Autenticazione a 2 fattori
 *[ADB]: Android Debug Bridge
 *[AOSP]: Android Open Source Project
-*[ATA]: Advanced Technology Attachment
+*[ATA]: Allegato tecnologico avanzato
 *[superficie di attacco]: Il numero totale di possibili punti d'ingresso per l'accesso non autorizzato a un sistema
 *[AVB]: Android Verified Boot
 *[cgroups]: Gruppo di Controllo
 *[CLI]: Interfaccia a linea di comando
 *[CSV]: Comma-Separated Values
 *[CVE]: Common Vulnerabilities and Exposures
-*[Digital Legacy]: Digital Legacy refers to features that allow you to give other people access to your data when you die
+*[Eredità digitale]: Digital Legacy si riferisce a funzioni che consentono di dare ad altre persone l'accesso ai propri dati quando si muore
 *[DNSSEC]: Domain Name System Security Extensions
 *[DNS]: Domain Name System
 *[DoH]: DNS over HTTPS
@@ -17,9 +17,9 @@
 *[DoT]: DNS over TLS
 *[E2EE]: Crittografia/Crittografato end-to-end
 *[ECS]: EDNS Client Subnet
-*[EEA]: European Economic Area
+*[EEA]: Spazio economico europeo
 *[entropy]: Una misura dell'imprevedibilità di qualcosa
-*[EOL]: End-of-Life
+*[EOL]: Fine-Supporto
 *[Exif]: Exchangeable image file format
 *[FCM]: Firebase Cloud Messaging
 *[FDE]: Crittografia completa del disco

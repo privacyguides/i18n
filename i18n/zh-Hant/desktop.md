@@ -1,62 +1,62 @@
 ---
-title: "Desktop/PC"
+title: "桌上型電腦"
 icon: simple/linux
-description: Linux distributions are commonly recommended for privacy protection and software freedom.
+description: 因為隱私保護和軟體自由，通常建議用 Linux發行版。
 ---
 
-Linux distributions are commonly recommended for privacy protection and software freedom. If you don't already use Linux, below are some distributions we suggest trying out, as well as some general privacy and security improvement tips that are applicable to many Linux distributions.
+基於隱私保護和軟體自由，通常建議用 Linux 發行版。 如果您還不曾用過 Linux ，以下是我們建議可試試的發行版，以及一些 Linux發行版的隱私和安全提升技巧。
 
-- [General Linux Overview :material-arrow-right-drop-circle:](os/linux-overview.md)
+- [一般Linux 概述 :material-arrow-right-drop-circle:](os/linux-overview.md)
 
-## Traditional Distributions
+## 傳統發行版
 
-### Fedora Workstation
+### Fedora Workstation（Fedora 工作站）
 
 !!! recommendation
 
-    ![Fedora logo](assets/img/linux-desktop/fedora-workstation.svg){ align=right }
+    ! [Fedora logo] (assets/img/linux-desktop/fedora-workstation.svg) {align = right}
     
-    **Fedora Workstation** is our recommended distribution for people new to Linux. Fedora generally adopts newer technologies before other distributions e.g., [Wayland](https://wayland.freedesktop.org/), [PipeWire](https://pipewire.org). These new technologies often come with improvements in security, privacy, and usability in general.
+    * * Fedora Workstation * *是我們推薦給Linux新手的發行版。 Fedora 通常較其他發行版更早採用較新技術，例如 [Wayland](https://wayland.freedesktop.org/) ， [PipeWire](https://pipewire.org)。 這些新技術通常會在安全性、隱私性和可用性方面有所改善。
     
     [:octicons-home-16: Homepage](https://getfedora.org/){ .md-button .md-button--primary }
     [:octicons-info-16:](https://docs.fedoraproject.org/en-US/docs/){ .card-link title=Documentation}
     [:octicons-heart-16:](https://whatcanidoforfedora.org/){ .card-link title=Contribute }
 
-Fedora has a semi-rolling release cycle. While some packages like [GNOME](https://www.gnome.org) are frozen until the next Fedora release, most packages (including the kernel) are updated frequently throughout the lifespan of the release. Each Fedora release is supported for one year, with a new version released every 6 months.
+Fedora 有一個半滾動的發布週期。 While some packages like [GNOME](https://www.gnome.org) are frozen until the next Fedora release, most packages (including the kernel) are updated frequently throughout the lifespan of the release. 每個 Fedora 版本支持一年，每6個月發布新版本。
 
 ### openSUSE Tumbleweed
 
 !!! recommendation
 
-    ![openSUSE Tumbleweed logo](assets/img/linux-desktop/opensuse-tumbleweed.svg){ align=right }
+    ! [openSUSE Tumbleweed logo] (assets/img/linux-desktop/opensuse-tumbleweed.svg) {align = right}
     
-    **openSUSE Tumbleweed** is a stable rolling release distribution.
+    * * openSUSE Tumbleweed * *是一個穩定滾動發行版。
     
-    openSUSE Tumbleweed has a [transactional update](https://kubic.opensuse.org/blog/2018-04-04-transactionalupdates/) system that uses [Btrfs](https://en.wikipedia.org/wiki/Btrfs) and [Snapper](https://en.opensuse.org/openSUSE:Snapper_Tutorial) to ensure that snapshots can be rolled back should there be a problem.
+    openSUSE Tumbleweed 有一個[transactional update] (https://kubic.opensuse.org/blog/2018-04-04-transactionalupdates/)系統，使用 [Btrfs](https://en.wikipedia.org/wiki/Btrfs)和 [Snapper](https://en.opensuse.org/openSUSE: Snapper_Tutorial)來確保快照可以在出現問題時回滾。
     
     [:octicons-home-16: Homepage](https://get.opensuse.org/tumbleweed/){ .md-button .md-button--primary }
     [:octicons-info-16:](https://doc.opensuse.org/){ .card-link title=Documentation}
     [:octicons-heart-16:](https://shop.opensuse.org/){ .card-link title=Contribute }
 
-Tumbleweed follows a rolling release model where each update is released as a snapshot of the distribution. When you upgrade your system, a new snapshot is downloaded. Each snapshot is run through a series of automated tests by [openQA](https://openqa.opensuse.org) to ensure its quality.
+Tumbleweed 遵循滾動發佈模式，每個更新都是快照發布。 當您升級系統時，會下載新的快照。 每個快照都通過一系列自動化測試，由 [openQA](https://openqa.opensuse.org) 運行，以確保其質量。
 
 ### Arch Linux
 
 !!! recommendation
 
-    ![Arch logo](assets/img/linux-desktop/archlinux.svg){ align=right }
+    ! [Arch logo] (assets/img/linux-desktop/archlinux.svg) {align = right}
     
-    **Arch Linux** is a lightweight, do-it-yourself (DIY) distribution meaning that you only get what you install. For more information see their [FAQ](https://wiki.archlinux.org/title/Frequently_asked_questions).
+    * * Arch Linux * *是一個輕量級的、自己動手(DIY)的發行版，意味著只能得到你安裝的東西。 如需更多資訊，請參閱他們的 [FAQ](https://wiki.archlinux.org/title/Frequently_asked_questions)。
     
     [:octicons-home-16: Homepage](https://archlinux.org/){ .md-button .md-button--primary }
     [:octicons-info-16:](https://wiki.archlinux.org/){ .card-link title=Documentation}
     [:octicons-heart-16:](https://archlinux.org/donate/){ .card-link title=Contribute }
 
-Arch Linux has a rolling release cycle. There is no fixed release schedule and packages are updated very frequently.
+Arch Linux有一個滾動發佈週期。 沒有固定的發布時間表，套件經常更新。
 
-Being a DIY distribution, you are [expected to set up and maintain](os/linux-overview.md#arch-based-distributions) your system on your own. Arch has an [official installer](https://wiki.archlinux.org/title/Archinstall) to make the installation process a little easier.
+作為 DIY 發行版，用戶需要 [自行設置與維護](os/linux-overview.md#arch-based-distributions) 系統。 Arch有一個 [官方安裝程式](https://wiki.archlinux.org/title/Archinstall) ，使安裝過程更容易。
 
-A large portion of [Arch Linux’s packages](https://reproducible.archlinux.org) are [reproducible](https://reproducible-builds.org).
+[Arch Linux ](https://reproducible.archlinux.org) 大部份軟體包是 [可復制的](https://reproducible-builds.org)。
 
 ## Immutable Distributions
 
@@ -102,7 +102,7 @@ Nix the package manager uses a purely functional language - which is also called
 
 Nix is a source-based package manager; if there’s no pre-built available in the binary cache, Nix will just build the package from source using its definition. It builds each package in a sandboxed *pure* environment, which is as independent of the host system as possible, thus making binaries reproducible.
 
-## Anonymity-Focused Distributions
+## 以匿名爲重點的發行版
 
 ### Whonix
 
@@ -143,15 +143,15 @@ Tails includes [uBlock Origin](desktop-browsers.md#ublock-origin) in Tor Browser
 
 By design, Tails is meant to completely reset itself after each reboot. Encrypted [persistent storage](https://tails.boum.org/doc/persistent_storage/index.en.html) can be configured to store some data between reboots.
 
-## Security-focused Distributions
+## 以安全爲重點的發行版
 
 ### Qubes OS
 
 !!! recommendation
 
-    ![Qubes OS logo](assets/img/qubes/qubes_os.svg){ align=right }
+    ! [Qubes OS logo] (assets/img/qubes/qubes_os.svg) {align = right}
     
-    **Qubes OS** is an open-source operating system designed to provide strong security for desktop computing. Qubes is based on Xen, the X Window System, and Linux, and can run most Linux applications and use most of the Linux drivers.
+    * * Qubes OS * *是一個開源作業系統，旨在為桌機運算提供強大的安全性。 Qubes 基於 Xen、X Window System 和 Linux ，可以運行大多數 Linux 應用程式與使用大多數 Linux 驅動程式。
     
     [:octicons-home-16: Homepage](https://www.qubes-os.org/){ .md-button .md-button--primary }
     [:material-arrow-right-drop-circle: Overview](os/qubes-overview.md){ .md-button .md-button--primary }
@@ -161,9 +161,9 @@ By design, Tails is meant to completely reset itself after each reboot. Encrypte
     [:octicons-code-16:](https://github.com/QubesOS/){ .card-link title="Source Code" }
     [:octicons-heart-16:](https://www.qubes-os.org/donate/){ .card-link title=Contribute }
 
-Qubes OS is a Xen-based operating system meant to provide strong security for desktop computing through secure virtual machines (VMs), also known as *Qubes*.
+Qubes OS 是基於Xen 的作業系統，通過安全虛擬機器為桌機提供強大的安全性，（也稱為 *Qubes*）。
 
-The Qubes OS operating system secures the computer by isolating subsystems (e.g., networking, USB, etc.) and applications in separate VMs. Should one part of the system be compromised, the extra isolation is likely to protect the rest of the system. For further details see the Qubes [FAQ](https://www.qubes-os.org/faq/).
+Qubes OS 作業系統將子系統（例如網絡、USB等）和應用程式隔離在個別的虛擬機器中以保護電腦。 如果系統的一部分被破壞，那麼額外的隔離可以保護系統其餘部分。 詳情請參閱Qubes [FAQ](https://www.qubes-os.org/faq/)。
 
 ## 標準
 
@@ -173,11 +173,11 @@ The Qubes OS operating system secures the computer by isolating subsystems (e.g.
 
     我們正在努力為我們網站的每個部分建立定義的標準，這可能會有所變化。 如果您對我們的標準有任何疑問，請在[論壇上提問] (https://discuss.privacyguides.net/latest) ，如果沒有列出，請不要認為我們在提出建議時沒有考慮到某些事情。 當我們推薦一個項目時，有許多因素被考慮和討論，記錄每一個項目都是正在進行式。
 
-Our recommended operating systems:
+我們推薦的作業系統：
 
-- Must be open-source.
-- Must receive regular software and Linux kernel updates.
-- Linux distributions must support [Wayland](os/linux-overview.md#Wayland).
-- Must support full-disk encryption during installation.
-- Must not freeze regular releases for more than 1 year. We [do not recommend](os/linux-overview.md#release-cycle) "Long Term Support" or "stable" distro releases for desktop usage.
-- Must support a wide variety of hardware.
+- 必須是開源的。
+- 必須定期接收軟體和Linux內核更新。
+- Linux 發行版必須支援 [Wayland](os/linux-overview.md#Wayland)。
+- 安裝時必須支援全磁碟加密。
+- 不可將定期更新發佈凍結超過1年。 我們 [不建議](os/linux-overview.md#release-cycle) 桌機使用“長期支援”或“穩定”發行版。
+- 需要支持各種各樣的硬體。

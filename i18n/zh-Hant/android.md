@@ -1,5 +1,5 @@
 ---
-title: "Android"
+title: "安卓"
 icon: 'simple/android'
 description: You can replace the operating system on your Android phone with these secure and privacy-respecting alternatives.
 schema:
@@ -11,7 +11,7 @@ schema:
   - 
     "@context": http://schema.org
     "@type": CreativeWork
-    name: Android
+    name: 安卓
     image: /assets/img/android/android.svg
     url: https://source.android.com/
     sameAs: https://en.wikipedia.org/wiki/Android_(operating_system)
@@ -56,25 +56,25 @@ schema:
     "@type": MobileApplication
     name: Shelter
     applicationCategory: Utilities
-    operatingSystem: Android
+    operatingSystem: 安卓
   - 
     "@context": http://schema.org
     "@type": MobileApplication
     name: Auditor
     applicationCategory: Utilities
-    operatingSystem: Android
+    operatingSystem: 安卓
   - 
     "@context": http://schema.org
     "@type": MobileApplication
     name: Secure Camera
     applicationCategory: Utilities
-    operatingSystem: Android
+    operatingSystem: 安卓
   - 
     "@context": http://schema.org
     "@type": MobileApplication
     name: Secure PDF Viewer
     applicationCategory: Utilities
-    operatingSystem: Android
+    operatingSystem: 安卓
 ---
 
 ![Android logo](assets/img/android/android.svg){ align=right }

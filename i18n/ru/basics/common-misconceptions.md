@@ -1,7 +1,7 @@
 ---
-title: "Common Misconceptions"
+title: "Распространенные заблуждения"
 icon: 'material/robot-confused'
-description: Privacy isn't a straightforward topic, and it's easy to get caught up in marketing claims and other disinformation.
+description: Конфиденциальность - не самая простая тема, и легко попасться на удочку маркетинговых заявлений и другой дезинформации.
 schema:
   - 
     "@context": https://schema.org
@@ -9,36 +9,36 @@ schema:
     mainEntity:
       - 
         "@type": Question
-        name: Is open source software inherently secure?
+        name: Является ли ПО с открытым исходным кодом безопасным по своей сути?
         acceptedAnswer:
           "@type": Answer
           text: |
-            Whether the source code is available and how software is licensed does not inherently affect its security in any way. Open-source software has the potential to be more secure than proprietary software, but there is absolutely no guarantee this is the case. When you evaluate software, you should look at the reputation and security of each tool on an individual basis.
+            Открытость исходного кода и лицензирование программного обеспечения никак не влияют на его безопасность. ПО с открытым исходным кодом может быть потенциально более безопасным чем проприетарное, но нет абсолютно никакой гарантии, что это так. При оценке программного обеспечения следует обращать внимание на репутацию и безопасность каждой части в отдельности.
       - 
         "@type": Question
-        name: Can shifting trust to another provider increase privacy?
+        name: Может ли передача доверия другому провайдеру повысить уровень конфиденциальности?
         acceptedAnswer:
           "@type": Answer
           text: |
-            We talk about "shifting trust" a lot when discussing solutions like VPNs (which shift the trust you place in your ISP to the VPN provider). While this protects your browsing data from your ISP specifically, the VPN provider you choose still has access to your browsing data: Your data isn't completely secured from all parties.
+            Мы часто говорим о "смещении доверия" при обсуждении таких решений, как VPN (смещающие доверие, которое вы возлагаете на своего интернет-провайдера, на провайдера VPN). Хотя это защищает ваши данные от вашего интернет-провайдера, выбранный вами VPN-провайдер по-прежнему имеет доступ к вашим данным: Ваши данные не защищены от всех сторон полностью.
       - 
         "@type": Question
-        name: Are privacy-focused solutions inherently trustworthy?
+        name: Являются ли решения, ориентированные на конфиденциальность, по своей сути надежными?
         acceptedAnswer:
           "@type": Answer
           text: |
-            Focusing solely on the privacy policies and marketing of a tool or provider can blind you to its weaknesses. When you're looking for a more private solution, you should determine what the underlying problem is and find technical solutions to that problem. For example, you may want to avoid Google Drive, which gives Google access to all of your data. The underlying problem in this case is lack of E2EE, so you should make sure that the provider you switch to actually implements E2EE, or use a tool (like Cryptomator) which provides E2EE on any cloud provider. Switching to a "privacy-focused" provider (that doesn't implement E2EE) doesn't solve your problem: it just shifts trust from Google to that provider.
+            Сосредоточившись исключительно на политике конфиденциальности и маркетинге ПО или провайдера, вы можете не заметить его слабые стороны. Если вы ищете более частное решение, вам следует определить, в чем заключается основная проблема, и найти технические решения этой проблемы. Например, вы не хотите использовать Google Drive, который даёт Google доступ ко всем вашим данным. Основной проблемой в данном случае является отсутствие E2EE, поэтому вы должны убедиться, что провайдер, на которого вы переходите, действительно реализует E2EE, или использовать инструмент (например, Cryptomator), обеспечивающий E2EE на любом облачном провайдере. Переход на провайдера, "ориентированного на конфиденциальность" (который не реализует E2EE), не решает вашу проблему: он просто переносит доверие с Google на этого провайдера.
       - 
         "@type": Question
-        name: How complicated should my threat model be?
+        name: Насколько сложной должна быть моя модель угроз?
         acceptedAnswer:
           "@type": Answer
           text: |
-            We often see people describing privacy threat models that are overly complex. Often, these solutions include problems like many different email accounts or complicated setups with lots of moving parts and conditions. The replies are usually answers to "What is the best way to do X?"
-            Finding the "best" solution for yourself doesn't necessarily mean you are after an infallible solution with dozens of conditions—these solutions are often difficult to work with realistically. As we discussed previously, security often comes at the cost of convenience.
+            Мы часто видим, как люди описывают слишком сложные модели угроз конфиденциальности. Часто эти решения включают такие проблемы, как множество различных учетных записей электронной почты или сложные настройки с большим количеством условий. Ответы, как правило, являются ответами на вопрос "Как лучшего всего сделать X?"
+            Поиск "лучшего" решения для себя не обязательно означает, что вам нужно безошибочное решение с десятками условий - с такими решениями часто трудно работать в реальности. Как мы уже говорили ранее, безопасность часто достигается ценой удобства.
 ---
 
-## "Open-source software is always secure" or "Proprietary software is more secure"
+## "ПО с открытым исходным кодом всегда безопасно" или "Проприетарное ПО более безопасно"
 
 These myths stem from a number of prejudices, but whether the source code is available and how software is licensed does not inherently affect its security in any way. ==Open-source software has the *potential* to be more secure than proprietary software, but there is absolutely no guarantee this is the case.== When you evaluate software, you should look at the reputation and security of each tool on an individual basis.
 
@@ -48,24 +48,24 @@ On the flip side, proprietary software is less transparent, but that doesn't imp
 
 To avoid biased decisions, it's *vital* that you evaluate the privacy and security standards of the software you use.
 
-## "Shifting trust can increase privacy"
+## "Смещение доверия может повысить уровень конфиденциальности"
 
 We talk about "shifting trust" a lot when discussing solutions like VPNs (which shift the trust you place in your ISP to the VPN provider). While this protects your browsing data from your ISP *specifically*, the VPN provider you choose still has access to your browsing data: Your data isn't completely secured from all parties. This means that:
 
 1. You must exercise caution when choosing a provider to shift trust to.
 2. You should still use other techniques, like E2EE, to protect your data completely. Merely distrusting one provider to trust another is not securing your data.
 
-## "Privacy-focused solutions are inherently trustworthy"
+## "Решения, ориентированные на конфиденциальность, по своей сути являются надёжными"
 
-Focusing solely on the privacy policies and marketing of a tool or provider can blind you to its weaknesses. When you're looking for a more private solution, you should determine what the underlying problem is and find technical solutions to that problem. For example, you may want to avoid Google Drive, which gives Google access to all of your data. The underlying problem in this case is lack of E2EE, so you should make sure that the provider you switch to actually implements E2EE, or use a tool (like [Cryptomator](../encryption.md#cryptomator-cloud)) which provides E2EE on any cloud provider. Switching to a "privacy-focused" provider (that doesn't implement E2EE) doesn't solve your problem: it just shifts trust from Google to that provider.
+Сосредоточившись исключительно на политике конфиденциальности и маркетинге ПО или провайдера, вы можете не заметить его слабые стороны. Если вы ищете более частное решение, вам следует определить, в чем заключается основная проблема, и найти технические решения этой проблемы. Например, вы не хотите использовать Google Drive, который даёт Google доступ ко всем вашим данным. Основной проблемой в данном случае является отсутствие E2EE, поэтому вы должны убедиться, что провайдер, на которого вы переходите, действительно реализует E2EE, или использовать инструмент (например, [Cryptomator](../encryption.md#cryptomator-cloud)), обеспечивающий E2EE на любом облачном провайдере. Переход на провайдера, "ориентированного на конфиденциальность" (который не реализует E2EE), не решает вашу проблему: он просто переносит доверие с Google на этого провайдера.
 
-The privacy policies and business practices of providers you choose are very important, but should be considered secondary to technical guarantees of your privacy: You shouldn't shift trust to another provider when trusting a provider isn't a requirement at all.
+Политика конфиденциальности и деловая практика выбранных вами провайдеров очень важны, но должны рассматриваться как вторичные по отношению к техническим гарантиям вашей конфиденциальности: Не стоит перекладывать доверие на другого провайдера, когда доверие к провайдеру вообще не является обязательным условием.
 
-## "Complicated is better"
+## "Сложнее - лучше"
 
-We often see people describing privacy threat models that are overly complex. Often, these solutions include problems like many different email accounts or complicated setups with lots of moving parts and conditions. The replies are usually answers to "What is the best way to do *X*?"
+Мы часто видим, как люди описывают слишком сложные модели угроз конфиденциальности. Часто эти решения включают такие проблемы, как множество различных учетных записей электронной почты или сложные настройки с большим количеством условий. Ответы, как правило, являются ответами на вопрос "Как лучшего всего сделать *X*?"
 
-Finding the "best" solution for yourself doesn't necessarily mean you are after an infallible solution with dozens of conditions—these solutions are often difficult to work with realistically. As we discussed previously, security often comes at the cost of convenience. Below, we provide some tips:
+Поиск "лучшего" решения для себя не обязательно означает, что вам нужно безошибочное решение с десятками условий - с такими решениями часто трудно работать в реальности. Как мы уже говорили ранее, безопасность часто достигается ценой удобства. Ниже мы приводим несколько советов:
 
 1. ==Actions need to serve a particular purpose:== think about how to do what you want with the fewest actions.
 2. ==Remove human failure points:== We fail, get tired, and forget things. To maintain security, avoid relying on manual conditions and processes that you have to remember.

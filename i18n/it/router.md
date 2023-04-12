@@ -37,22 +37,13 @@ Di seguito sono elencati alcuni sistemi operativi alternativi che possono essere
 
 OPNsense è stato originariamente sviluppato come fork di [pfSense](https://en.wikipedia.org/wiki/PfSense), ed entrambi i progetti sono noti per essere distribuzioni di firewall gratuite e affidabili che offrono funzionalità spesso presenti solo in costosi firewall commerciali. Lanciato nel 2015, gli sviluppatori di OPNsense [hanno citato](https://docs.opnsense.org/history/thefork.html) una serie di problemi di sicurezza e di qualità del codice di pfSense che, a loro avviso, rendevano necessario un fork del progetto, oltre a preoccupazioni sull'acquisizione della maggioranza di pfSense da parte di Netgate e sulla futura direzione del progetto pfSense.
 
-## CryptPad
+## Criteri
 
-**Please note we are not affiliated with any of the projects we recommend.** In addition to [our standard criteria](about/criteria.md), we have developed a clear set of requirements to allow us to provide objective recommendations. recommendation
+**Si noti che non siamo affiliati a nessuno dei progetti che raccomandiamo.** Oltre ai [ nostri criteri standard](about/criteria.md), abbiamo sviluppato una serie di requisiti chiari che ci consentono di fornire raccomandazioni obiettive. Ti consigliamo di familiarizzare con questo elenco prima di scegliere di utilizzare un progetto e di condurre le vostre ricerche per assicurarvi che sia la scelta giusta per voi.
 
-!!! recommendation
+!!! esempio "Questa sezione è nuova"
 
-    ![PrivateBin logo](assets/img/productivity/privatebin.svg){ align=right }
-    
-    **PrivateBin** è un pastebin online minimalista e open-source in cui il server non ha alcuna conoscenza dei dati incollati. Infatti, vengono criptati/decriptati nel tuo browser utilizzando AES a 256 bit. downloads
-    
-        - [:simple-windows11: Windows](https://keepassxc.org/download/#windows)
-        - [:simple-apple: macOS](https://keepassxc.org/download/#mac)
-        - [:simple-linux: Linux](https://keepassxc.org/download/#linux)
-        - [:simple-flathub: Flatpak](https://flathub.org/apps/details/org.keepassxc.KeePassXC)
-        - [:simple-firefoxbrowser: Firefox](https://addons.mozilla.org/firefox/addon/keepassxc-browser)
-        - [:simple-googlechrome: Chrome](https://chrome.google.com/webstore/detail/keepassxc-browser/oboonakemofpalcgghocfoadofidjkkk)
+    Stiamo lavorando per stabilire criteri ben definiti per ogni sezione del nostro sito, e questo potrebbe essere soggetto a modifiche. Se avete domande sui nostri criteri, vi preghiamo di [chiedere sul nostro forum](https://discuss.privacyguides.net/latest) e non date per scontato che non abbiamo preso in considerazione qualcosa nel formulare le nostre raccomandazioni se non è elencato qui. Sono molti i fattori presi in considerazione e discussi quando consigliamo un progetto, e stiamo lavorando per documentare ogni singolo fattore.
 
 - Deve essere open source.
 - Deve ricevere aggiornamenti regolari.

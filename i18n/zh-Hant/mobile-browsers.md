@@ -1,7 +1,7 @@
 ---
-title: "Mobile Browsers"
+title: "行動瀏覽器"
 icon: material/cellphone-information
-description: These browsers are what we currently recommend for standard/non-anonymous internet browsing on your phone.
+description: 這些瀏覽器是我們目前推薦在手機使用的標準/非匿名互聯網瀏覽器。
 schema:
   - 
     "@context": http://schema.org
@@ -17,7 +17,7 @@ schema:
     url: https://brave.com
     applicationCategory: Web Browser
     operatingSystem:
-      - Android
+      - 安卓
     subjectOf:
       "@type": WebPage
       url: "./"
@@ -35,21 +35,21 @@ schema:
       url: "./"
 ---
 
-These are our currently recommended mobile web browsers and configurations for standard/non-anonymous internet browsing. If you need to browse the internet anonymously, you should use [Tor](tor.md) instead. In general, we recommend keeping extensions to a minimum; they have privileged access within your browser, require you to trust the developer, can make you [stand out](https://en.wikipedia.org/wiki/Device_fingerprint#Browser_fingerprint), and [weaken](https://groups.google.com/a/chromium.org/g/chromium-extensions/c/0ei-UCHNm34/m/lDaXwQhzBAAJ) site isolation.
+這些是我們目前推薦的行動網頁瀏覽器和標準/非匿名網際網路瀏覽的配置。 如果你需要匿名瀏覽網際網路，你應該使用 [Tor](tor.md) 代替。 一般來說，我們建議您將擴充功能維持在最低限度：它們在瀏覽器中有特別訪問權限，需要您信任開發人員，它們也會讓瀏覽器 [特徵顯露出來](https://en.wikipedia.org/wiki/Device_fingerprint#Browser_fingerprint)， [弱化](https://groups.google.com/a/chromium.org/g/chromium-extensions/c/0ei-UCHNm34/m/lDaXwQhzBAAJ) 網站隔離。
 
-## Android
+## 安卓
 
-On Android, Firefox is still less secure than Chromium-based alternatives: Mozilla's engine, [GeckoView](https://mozilla.github.io/geckoview/), has yet to support [site isolation](https://hacks.mozilla.org/2021/05/introducing-firefox-new-site-isolation-security-architecture) or enable [isolatedProcess](https://bugzilla.mozilla.org/show_bug.cgi?id=1565196).
+在安卓系統上， Firefox 仍然不如基於 Chromium 的替代品安全： Mozilla 的引擎 [GeckoView](https://mozilla.github.io/geckoview/)尚未支持 [站點隔離](https://hacks.mozilla.org/2021/05/introducing-firefox-new-site-isolation-security-architecture) 或啟用 [隔離流程](https://bugzilla.mozilla.org/show_bug.cgi?id=1565196)。
 
 ### Brave
 
 !!! recommendation
 
-    ![Brave logo](assets/img/browsers/brave.svg){ align=right }
+    ! [Brave logo] (assets/img/browsers/brave.svg) {align = right}
     
-    **Brave Browser** includes a built-in content blocker and [privacy features](https://brave.com/privacy-features/), many of which are enabled by default.
+    * * Brave Browser * *內建內容封鎖程式和[隱私權功能] (https://brave.com/privacy-features/) ，其中許多功能預設已啟用。
     
-    Brave is built upon the Chromium web browser project, so it should feel familiar and have minimal website compatibility issues.
+    Brave 建立在 Chromium 瀏覽器專案，因此令人感到熟悉並且具有最小的網站兼容性問題。
     
     [:octicons-home-16: Homepage](https://brave.com/){ .md-button .md-button--primary }
     [:simple-torbrowser:](https://brave4u7jddbv7cyviptqjc7jusxh72uik7zt6adtckl5f4nwy2v72qd.onion){ .card-link title="Onion Service" }
@@ -57,20 +57,20 @@ On Android, Firefox is still less secure than Chromium-based alternatives: Mozil
     [:octicons-info-16:](https://support.brave.com/){ .card-link title=Documentation}
     [:octicons-code-16:](https://github.com/brave/brave-browser){ .card-link title="Source Code" }
     
-    ??? downloads annotate
+    ??? 下載說明
     
         - [:simple-googleplay: Google Play](https://play.google.com/store/apps/details?id=com.brave.browser)
         - [:simple-github: GitHub](https://github.com/brave/brave-browser/releases)
 
-#### Recommended Configuration
+#### 建議配置
 
-Tor Browser is the only way to truly browse the internet anonymously. When you use Brave, we recommend changing the following settings to protect your privacy from certain parties, but all browsers other than the [Tor Browser](tor.md#tor-browser) will be traceable by *somebody* in some regard or another.
+Tor 瀏覽器是真正匿名瀏覽網際網路的唯一途徑。 當您使用Brave時，我們建議您更改以下設定，以保護您的隱私免受某些影響，但除 [Tor 瀏覽器](tor.md#tor-browser) 外其它覽器在某些方面都可能 *被追蹤* 。
 
-These options can be found in :material-menu: → **Settings** → **Brave Shields & privacy**
+這些選項可以在 :material-menu: → **設置** → **Brave Shields & 隱私**中找到
 
 ##### Shields
 
-Brave includes some anti-fingerprinting measures in its [Shields](https://support.brave.com/hc/en-us/articles/360022973471-What-is-Shields-) feature. We suggest configuring these options [globally](https://support.brave.com/hc/en-us/articles/360023646212-How-do-I-configure-global-and-site-specific-Shields-settings-) across all pages that you visit.
+Brave [Shields](https://support.brave.com/hc/en-us/articles/360022973471-What-is-Shields-) 功能包含一些防指紋識別措施。 我們建議您在所有瀏覽的網頁上設定這些選項 [全局](https://support.brave.com/hc/en-us/articles/360023646212-How-do-I-configure-global-and-site-specific-Shields-settings-) 。
 
 ##### Brave shields global defaults
 
@@ -116,7 +116,7 @@ Shields' options can be downgraded on a per-site basis as needed, but by default
 
 1. InterPlanetary File System (IPFS) is a decentralized, peer-to-peer network for storing and sharing data in a distributed filesystem. Unless you use the feature, disable it.
 
-#### Brave Sync
+#### Brave 同步
 
 [Brave Sync](https://support.brave.com/hc/en-us/articles/360059793111-Understanding-Brave-Sync) allows your browsing data (history, bookmarks, etc.) to be accessible on all your devices without requiring an account and protects it with E2EE.
 
@@ -128,29 +128,29 @@ On iOS, any app that can browse the web is [restricted](https://developer.apple.
 
 !!! recommendation
 
-    ![Safari logo](assets/img/browsers/safari.svg){ align=right }
+    ! [Safari logo] (assets/img/browsers/safari.svg) {align = right}
     
-    **Safari** is the default browser in iOS. It includes [privacy features](https://support.apple.com/guide/iphone/browse-the-web-privately-iphb01fc3c85/15.0/ios/15.0) such as Intelligent Tracking Protection, Privacy Report, isolated Private Browsing tabs, iCloud Private Relay, and automatic HTTPS upgrades.
+    * * Safari * *是iOS 預設瀏覽器。 它包括[隱私權功能] (https://support.apple.com/guide/iphone/browse-the-web-privately-iphb01fc3c85/15.0/ios/15.0) ，例如智慧追蹤保護、隱私權報告、獨立的私人瀏覽標籤、iCloud 私人中繼和自動HTTPS  升級。
     
     [:octicons-home-16: Homepage](https://www.apple.com/safari/){ .md-button .md-button--primary }
     [:octicons-eye-16:](https://www.apple.com/legal/privacy/data/en/safari/){ .card-link title="Privacy Policy" }
     [:octicons-info-16:](https://support.apple.com/guide/safari/welcome/mac){ .card-link title=Documentation}
 
-#### Recommended Configuration
+#### 建議配置
 
-These options can be found in :gear: **Settings** → **Safari** → **Privacy and Security**.
+這些選項可在 :gear: **設定** → **Safari** → **隱私權和安全性**中找到。
 
-##### Cross-Site Tracking Prevention
+##### 跨網站追蹤預防
 
 - [x] Enable **Prevent Cross-Site Tracking**
 
 This enables WebKit's [Intelligent Tracking Protection](https://webkit.org/tracking-prevention/#intelligent-tracking-prevention-itp). The feature helps protect against unwanted tracking by using on-device machine learning to stop trackers. ITP protects against many common threats, but it does not block all tracking avenues because it is designed to not interfere with website usability.
 
-##### Privacy Report
+##### 隱私報告
 
-Privacy Report provides a snapshot of cross-site trackers currently prevented from profiling you on the website you're visiting. It can also display a weekly report to show which trackers have been blocked over time.
+隱私報告提供跨網站追蹤器的快照，瀏覽器如何防止追蹤器在您訪問的網站上分析您的狀況。 它還可以顯示每週報告，以顯示哪些追蹤器隨著時間的推移被封鎖。
 
-Privacy Report is accessible via the Page Settings menu.
+隱私權報告可透過「頁面設定」選單存取。
 
 ##### Privacy Preserving Ad Measurement
 
@@ -170,11 +170,11 @@ Safari's Private Browsing mode offers additional privacy protections. Private Br
 
 Do note that Private Browsing does not save cookies and website data, so it won't be possible to remain signed into sites. This may be an inconvenience.
 
-##### iCloud Sync
+##### iCloud 同步
 
-Synchronization of Safari History, Tab Groups, iCloud Tabs and saved passwords are E2EE. However, by default, bookmarks are [not](https://support.apple.com/en-us/HT202303). Apple can decrypt and access them in accordance with their [privacy policy](https://www.apple.com/legal/privacy/en-ww/).
+Safari 歷史記錄、標籤組、iCloud 標籤分頁和保存密碼的同步都是 E2EE。 但默認情況下，書籤[不是](https://support.apple.com/en-us/HT202303)。 Apple可以根據其 [隱私權政策](https://www.apple.com/legal/privacy/en-ww/)解密並存取它們。
 
-You can enable E2EE for you Safari bookmarks and downloads by enabling [Advanced Data Protection](https://support.apple.com/en-us/HT212520). Go to your **Apple ID name → iCloud → Advanced Data Protection**.
+您可以為Safari 書籤和下載啟用 E2EE ，只需啟用 [Advanced Data Protection](https://support.apple.com/en-us/HT212520)即可。 Go to your **Apple ID name → iCloud → Advanced Data Protection**.
 
 - [x] Turn On **Advanced Data Protection**
 
@@ -184,22 +184,22 @@ If you use iCloud with Advanced Data Protection disabled, we also recommend chec
 
 !!! recommendation
 
-    ![AdGuard logo](assets/img/browsers/adguard.svg){ align=right }
+    ! [AdGuard logo] (assets/img/browsers/adguard.svg) {align = right}
     
-    **AdGuard for iOS** is a free and open-source content-blocking extension for Safari that uses the native [Content Blocker API](https://developer.apple.com/documentation/safariservices/creating_a_content_blocker).
+    * *適用於 iOS的 AdGuard * *是使用原生[Content Blocker API] (https://developer.apple.com/documentation/safariservices/creating_a_content_blocker 的Safari 免費開源內容封鎖擴展。
     
-    AdGuard for iOS has some premium features; however, standard Safari content blocking is free of charge.
+    iOS 版 AdGuard 有一些高級功能；然而，標準Safari 內容封鎖是免費的。
     
     [:octicons-home-16: Homepage](https://adguard.com/en/adguard-ios/overview.html){ .md-button .md-button--primary }
     [:octicons-eye-16:](https://adguard.com/privacy/ios.html){ .card-link title="Privacy Policy" }
     [:octicons-info-16:](https://kb.adguard.com/ios){ .card-link title=Documentation}
     [:octicons-code-16:](https://github.com/AdguardTeam/AdguardForiOS){ .card-link title="Source Code" }
     
-    ??? downloads
+    ??? 下載
     
         - [:simple-appstore: App Store](https://apps.apple.com/app/apple-store/id1047223162)
 
-Additional filter lists do slow things down and may increase your attack surface, so only apply what you need.
+額外的過濾器清單會減慢速度，並可能會增加您的攻擊面，因此只應用您需要的東西。
 
 ## 標準
 
@@ -211,14 +211,14 @@ Additional filter lists do slow things down and may increase your attack surface
 
 ### 最低合格要求
 
-- Must support automatic updates.
-- Must receive engine updates in 0-1 days from upstream release.
-- Any changes required to make the browser more privacy-respecting should not negatively impact user experience.
-- Android browsers must use the Chromium engine.
-    - Unfortunately, Mozilla GeckoView is still less secure than Chromium on Android.
+- 必須支援自動更新。
+- 必須在上遊發布後的0-1天內收到引擎更新。
+- 為了使瀏覽器更尊重隱私權而作的任何變動都不應對用戶體驗產生負面影響。
+- 安卓版瀏覽器必須使用 Chromium 引擎。
+    - 不幸的是， Mozilla GeckoView仍然不如Android上的Chromium安全。
     - iOS browsers are limited to WebKit.
 
-### Extension Criteria
+### 擴展元件標準
 
-- Must not replicate built-in browser or OS functionality.
-- Must directly impact user privacy, i.e. must not simply provide information.
+- 不得複製內建瀏覽器或作業系統功能。
+- 必須直接影響用戶隱私，即不得簡單地提供資訊。
