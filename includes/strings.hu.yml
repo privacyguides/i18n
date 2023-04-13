@@ -1,0 +1,48 @@
+#The strings in these files need to be copied MANUALLY to /config/mkdocs.LANG.yml
+#This file exists just so these strings can be originally translated on Crowdin.
+config:
+  description: A Privacy Guides a te központi adatvédelmi és adatbiztonsági erőforrásod magad megvédéséhez online.
+  copyright:
+    - 
+      1: |
+         A Privacy Guides egy non-profit, szociálisan motivált weboldal, amely az adatbiztonságod és az adatvédelmed megvédéséhez nyújt információkat.
+    - 
+      2: |
+         Nem keresünk pénzt bizonyos termékek ajánlásával, és nem használunk affiliate linkeket.
+    - 
+      3: |
+         Privacy Guides és közreműködői.
+    - 
+      4: |
+         A tartalom a CC BY-ND 4.0 licenc alatt áll.
+  feedback:
+    question: Hasznosnak találtad ezt az oldalt?
+    yes: Az oldal hasznos volt
+    yes-note: Köszönjük a visszajelzést!
+    no: Az oldalon lehetne javítani
+    no-note: |
+      Köszönjük visszajelzését! Segíts nekünk javítani az oldalon egy beszélgetés megnyitásával a fórumunkon.
+  theme:
+    dark: Váltás sötét módra
+    light: Váltás világos módra
+    system: Váltás a rendszer témájára
+nav:
+  Home: Kezdőlap
+  Knowledge Base: Tudásbázis
+  Technology Essentials: Technológiai Alapismeretek
+  Operating Systems: Operációs Rendszerek
+  Advanced Topics: Haladó Témakörök
+  Recommendations: Ajánlások
+  Internet Browsing: Internet Böngészés
+  Providers: Szolgáltatók
+  Software: Szoftver
+  About: Rólunk
+  Community: Közösség
+  Online Services: Online Szolgáltatások
+  Code of Conduct: Magatartási Kódex
+  Contributing: Közreműködés
+  Writing Guide: Írói Útmutató
+  Technical Guides: Technikai Útmutatók
+  Changelog: Változásnapló
+  Forum: Fórum
+  Blog: Blog

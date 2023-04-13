@@ -1,0 +1,48 @@
+#The strings in these files need to be copied MANUALLY to /config/mkdocs.LANG.yml
+#This file exists just so these strings can be originally translated on Crowdin.
+config:
+  description: Privacy Guides es tu recurso central de privacidad y seguridad para protegerte en línea.
+  copyright:
+    - 
+      1: |
+         Privacy Guides es un sitio web sin fines lucrativos y de motivación social que ofrece información para proteger la seguridad y privacidad de sus datos.
+    - 
+      2: |
+         No ganamos dinero por recomendar determinados productos y no utilizamos enlaces de afiliados.
+    - 
+      3: |
+         Privacy Guides y colaboradores.
+    - 
+      4: |
+         Contenido bajo licencia CC BY-ND 4.0.
+  feedback:
+    question: '¿Le ha resultado útil esta página?'
+    yes: Esta página fue útil
+    yes-note: Gracias por sus comentarios!
+    no: Esta página se podría mejorar
+    no-note: |
+      Gracias por sus comentarios. Ayúdenos a mejorar esta página abriendo un debate en nuestro foro.
+  theme:
+    dark: Cambiar a modo oscuro
+    light: Cambiar a modo claro
+    system: Cambiar al tema del sistema
+nav:
+  Home: Inicio
+  Knowledge Base: Base de conocimientos
+  Technology Essentials: Aspectos tecnológicos esenciales
+  Operating Systems: Sistemas Operativos
+  Advanced Topics: Temas avanzados
+  Recommendations: Recomendaciones
+  Internet Browsing: Navegación por Internet
+  Providers: Proveedores
+  Software: Software
+  About: Acerca de
+  Community: Comunidad
+  Online Services: Servicios en línea
+  Code of Conduct: Código de conducta
+  Contributing: Contribuir
+  Writing Guide: Guía de redacción
+  Technical Guides: Guías técnicas
+  Changelog: Registro de cambios
+  Forum: Foro
+  Blog: Blog

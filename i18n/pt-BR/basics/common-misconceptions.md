@@ -9,14 +9,14 @@ schema:
     mainEntity:
       - 
         "@type": Question
-        name: Is open source software inherently secure?
+        name: O software (aplicativo) de código aberto é seguro por natureza?
         acceptedAnswer:
           "@type": Answer
           text: |
-            Whether the source code is available and how software is licensed does not inherently affect its security in any way. Open-source software has the potential to be more secure than proprietary software, but there is absolutely no guarantee this is the case. When you evaluate software, you should look at the reputation and security of each tool on an individual basis.
+            A publicação do código-fonte e como o software é licenciado não significa, de forma alguma, segurança. O software de código aberto tem o potencial de ser mais seguro do que o software proprietário, mas não há absolutamente nenhuma garantia de que seja assim. Quando você avalia um software, você deve olhar a reputação e a segurança de cada ferramenta de forma individual.
       - 
         "@type": Question
-        name: Can shifting trust to another provider increase privacy?
+        name: Mudar a confiança para outro provedor pode aumentar a privacidade?
         acceptedAnswer:
           "@type": Answer
           text: |

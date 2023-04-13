@@ -7,7 +7,7 @@ Privacy Guides 需要大量的 [人](https://github.com/privacyguides/privacygui
 
 如果你想在經濟上支援我們，對我們來說，最方便的方法是通過 Open Collective 捐款，這是一個由我們的財政主機營運的網站。Open Collective 接受信用卡/借記卡、PayPal 和銀行轉帳的付款。 Open Collective 接受信用卡/借記卡、PayPal 和銀行轉帳的付款。
 
-[在 OpenCollective.com 上捐款](https://opencollective.com/privacyguides/donate ""){.md-button.md-button--primary}
+[在OpenCollective.com上捐款](https://opencollective.com/privacyguides/donate){class = "md-button md-button--primary"}
 
 在美國，直接向我們捐贈的Open Collective通常可以免稅，因為我們的財政東道主（ Open Collective Foundation ）是一個註冊的501 （ c ） 3組織。 捐贈後，您將收到 Open Collective Foundation 的收據。 隱私指南不提供財務建議，您應該聯繫您的稅務顧問，以確定這是否適用於您。
 

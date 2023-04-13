@@ -20,7 +20,7 @@ description: 許多雲端儲存服務供應商需要您相信他們不會查看�
     
     * * Proton Drive * *是來自流行的加密電子郵件供應商[Proton Mail] (email.md#proton-mail)的瑞士加密雲存儲供應商。
     
-    [:octicons-home-16: Homepage](https://proton.me/drive){ .md-button .md-button--primary }
+    [:octicons-home-16: Homepage](https://proton.me/drive){ class="md-button md-button--primary" }
     [:octicons-eye-16:](https://proton.me/legal/privacy){ .card-link title="Privacy Policy" }
     [:octicons-info-16:](https://proton.me/support/drive){ .card-link title=Documentation}
     [:octicons-code-16:](https://github.com/ProtonMail/WebClients){ .card-link title="Source Code" }
@@ -44,7 +44,7 @@ Proton Drive 全新移動客戶端軟體尚未經過第三方公開審核。
     
     * * Tresorit * *是一家成立於2011年的匈牙利加密雲端儲存服務供應商。 Tresorit 由瑞士郵政擁有，瑞士郵政是瑞士的國家郵政服務。
     
-    [:octicons-home-16: Homepage](https://tresorit.com/){ .md-button .md-button--primary }
+    [:octicons-home-16: Homepage](https://tresorit.com/){ class="md-button md-button--primary" }
     [:octicons-eye-16:](https://tresorit.com/legal/privacy-policy){ .card-link title="Privacy Policy" }
     [:octicons-info-16:](https://support.tresorit.com/hc/en-us){ .card-link title=Documentation}
     

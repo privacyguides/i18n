@@ -79,7 +79,7 @@ Cuando utilice una instancia de SearXNG, asegúrese de leer su política de priv
     [:octicons-eye-16:](https://www.startpage.com/en/privacy-policy){ .card-link title="Política de Privacidad" }
     [:octicons-info-16:](https://support.startpage.com/hc/en-us/categories/4481917470356-Startpage-Search-Engine){ .card-link title=Documentación}
 
-!!! advertencia
+!!! warning "Advertencia"
 
     Startpage limita regularmente el acceso al servicio a ciertas direcciones IP, como las IPs reservadas para VPNs o Tor. [DuckDuckGo](#duckduckgo) y [Brave Search](#brave-search) son opciones más amigables si su modelo de amenazas requiere ocultar su dirección IP al proveedor de búsquedas.
 
@@ -91,7 +91,7 @@ El accionista mayoritario de Startpage es System1, una empresa de tecnología pu
 
 **Por favor, tenga en cuenta que no estamos afiliados con ninguno de los proyectos que recomendamos.** Además de [nuestros criterios estándar](about/criteria.md), hemos desarrollado un conjunto claro de requisitos que nos permiten ofrecer recomendaciones objetivas. Sugerimos que usted se familiarice con esta lista, antes de decidir utilizar un proyecto y realizar su propia investigación para asegurarse de que es la elección ideal para usted.
 
-!!! ejemplo "Esta sección es nueva"
+!!! example "Esta sección es nueva"
 
     Estamos trabajando en establecer criterios definidos para cada sección de nuestra página, y esto puede estar sujeto a cambios. Si tiene alguna duda sobre nuestros criterios, por favor [pregunte en nuestro foro](https://discuss.privacyguides.net/latest) y no asuma que no hemos tenido en cuenta algo a la hora de hacer nuestras recomendaciones si no aparece aquí. Son muchos los factores que se tienen en cuenta y se debaten cuando recomendamos un proyecto, y documentar cada uno de ellos es un trabajo en curso.
 

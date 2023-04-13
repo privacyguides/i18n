@@ -24,7 +24,7 @@ DNS 從網際網路的 [早期](https://en.wikipedia.org/wiki/Domain_Name_System
     tshark -w /tmp/dns.pcap udp port 53 and host 1.1.1.1 or host 8.8.8.8
     ```
 
-2. 我們可以使用 [`dig`](https://en.wikipedia.org/wiki/Dig_(command)) （ Linux ， MacOS 等）或 [`nslookup`](https://en.wikipedia.org/wiki/Nslookup) （ Windows ）將DNS 查詢發送到伺服器。 Web 瀏覽器等軟體會自動執行這些查詢，除非它們被配置為使用加密的DNS。
+2. 然後我們可以使用 [`dig`](https://en.wikipedia.org/wiki/Dig_(command)) （ Linux ， MacOS 等）或 [`nslookup`](https://en.wikipedia.org/wiki/Nslookup) （ Windows ）將 DNS查詢發送到兩個伺服器。 Web 瀏覽器等軟體會自動執行這些查詢，除非它們被配置為使用加密的DNS。
 
     = = = "Linux ， macOS"
 
@@ -118,7 +118,7 @@ DoH 原生執行出現在 iOS 14, macOS 11, Microsoft Windows, 與 Android 13 (�
 
 確定瀏覽活動的最簡單方法可能是查看您的設備正在訪問的 IP 位址。 例如，如果觀察者知道 `privacyguides.org` 位於 `198.98.54.105`，而您的裝置正在請求 `198.98.54.105`的數據，則很有可能您正在訪問隱私指南。
 
-此方法僅在 IP 位址屬於僅託管少數網站的伺服器時才有用。 如果網站託管在共享平臺上（例如Github Pages ， Cloudflare Pages ， Netlify ， WordPress ， Blogger等） ，它也不是很有用。 如果服務器託管在 [反向代理](https://en.wikipedia.org/wiki/Reverse_proxy)之後，這也不是很有用，這在現代互聯網上非常常見。
+此方法僅在 IP 位址屬於僅託管少數網站的伺服器時才有用。 如果網站託管在共享平臺(例如 Github Pages ， Cloudflare Pages ， Netlify ， WordPress ， Blogger等)，它就不太有用。 如果服務器託管在 [反向代理](https://en.wikipedia.org/wiki/Reverse_proxy)之後，這也不是很有用，這在現代互聯網上非常常見。
 
 ### 伺服器名指示(SNI)
 

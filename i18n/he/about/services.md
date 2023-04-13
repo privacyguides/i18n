@@ -2,7 +2,7 @@
 
 אנו מפעילים מספר שירותי אינטרנט כדי לבדוק תכונות ולקדם פרויקטים מגניבים מבוזרים, מאוחדים ו/או בקוד פתוח. רבים מהשירותים הללו זמינים לציבור והם מפורטים להלן.
 
-[:material-comment-alert: דווח על בעיה](https://discuss.privacyguides.net/c/services/2 ""){.md-button.md-button--primary}
+[:material-comment-alert: Report an issue](https://discuss.privacyguides.net/c/services/2){ class="md-button md-button--primary" }
 
 ## Discourse
 

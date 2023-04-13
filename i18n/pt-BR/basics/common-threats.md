@@ -1,10 +1,10 @@
 ---
 title: "Ameaças Comuns"
 icon: 'material/eye-outline'
-description: Your threat model is personal to you, but these are some of the things many visitors to this site care about.
+description: Seu modelo de ameaça é personalizado para você, mas estas são algumas das coisas com as quais muitos visitantes deste site se preocupam.
 ---
 
-Broadly speaking, we categorize our recommendations into the [threats](threat-modeling.md) or goals that apply to most people. ==You may be concerned with none, one, a few, or all of these possibilities==, and the tools and services you use depend on what your goals are. You may have specific threats outside of these categories as well, which is perfectly fine! The important part is developing an understanding of the benefits and shortcomings of the tools you choose to use, because virtually none of them will protect you from every threat.
+Em resumo, nós agrupamos nossas recomendações considerando as [ameaças](threat-modeling.md) ou objetivos que se aplicam à maioria das pessoas. ==Você pode estar preocupado com nenhuma, uma, poucas ou todas essas possibilidades==, e as ferramentas e serviços para você usar vão de depender de quais são seus objetivos. You may have specific threats outside of these categories as well, which is perfectly fine! The important part is developing an understanding of the benefits and shortcomings of the tools you choose to use, because virtually none of them will protect you from every threat.
 
 - <span class="pg-purple">:material-incognito: Anonymity</span> - Shielding your online activity from your real identity, protecting you from people who are trying to uncover *your* identity specifically.
 - <span class="pg-red">:material-target-account: Targeted Attacks</span> - Being protected from hackers or other malicious actors who are trying to gain access to *your* data or devices specifically.

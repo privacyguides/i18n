@@ -29,7 +29,7 @@ Nous avons ces exigences à l'égard des développeurs qui souhaitent soumettre 
 
 - Vous devez indiquer votre affiliation, c'est-à-dire votre position au sein du projet soumis.
 
-- Vous devez avoir un livre blanc sur la sécurité s'il s'agit d'un projet qui implique la manipulation d'informations sensibles comme une messagerie, un gestionnaire de mots de passe, un stockage cloud chiffré, etc.
+- Vous devez avoir un livre blanc sur la sécurité s'il s'agit d'un projet qui implique la manipulation d'informations sensibles comme une messagerie instantanée, un gestionnaire de mots de passe, un stockage cloud chiffré, etc.
     - Statut d'audit par une tierce partie. Nous voulons savoir si vous en avez un, ou si vous en prévoyez un. Si possible, veuillez mentionner qui mènera l'audit.
 
 - Vous devez expliquer ce que le projet apporte en matière de respect de la vie privée.

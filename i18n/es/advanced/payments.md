@@ -65,7 +65,7 @@ La gran mayoría de los proyectos de criptomonedas utilizan una cadena de bloque
 
 Las transacciones anónimas en una blockchain pública son *teóricamente* posibles, y la wiki de Bitcoin [da un ejemplo de una transacción "completamente anónima"](https://en.bitcoin.it/wiki/Privacy#Example_-_A_perfectly_private_donation). Sin embargo, hacerlo requiere una complicada configuración que implica Tor y la "minería en solitario" de un bloque para generar criptomoneda completamente independiente, una práctica que no ha sido práctica para casi ningún entusiasta durante muchos años.
 
-== Tu mejor opción es evitar estas criptomonedas por completo y quedarse con una que proporcione privacidad por defecto.== Intentar utilizar otra criptomoneda está fuera del alcance de este sitio y se desaconseja encarecidamente.
+==Tu mejor opción es evitar estas criptomonedas por completo y quedarse con una que proporcione privacidad por defecto.== Intentar utilizar otra criptomoneda está fuera del alcance de este sitio y se desaconseja encarecidamente.
 
 ### Custodia de carteras
 

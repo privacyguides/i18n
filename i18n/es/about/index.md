@@ -93,7 +93,7 @@ Los miembros de nuestro equipo revisan todos los cambios realizados en el sitio 
 
 ## Licencia de sitio
 
-!!! Peligro ""
+!!! danger ""
 
     El siguiente es un resumen legible por humanos de (y no un sustituto de) la [license](/licencia).
 

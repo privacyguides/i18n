@@ -24,7 +24,7 @@ Below, we discuss and provide a tutorial to prove what an outside observer may s
     tshark -w /tmp/dns.pcap udp port 53 and host 1.1.1.1 or host 8.8.8.8
     ```
 
-2. We can then use [`dig`](https://en.wikipedia.org/wiki/Dig_(command)) (Linux, MacOS etc) or [`nslookup`](https://en.wikipedia.org/wiki/Nslookup) (Windows) to send the DNS lookup to both servers. Software such as web browsers do these lookups automatically, unless they are configured to use encrypted DNS.
+2. We can then use [`dig`](https://en.wikipedia.org/wiki/Dig_(command)) (Linux, MacOS, etc.) or [`nslookup`](https://en.wikipedia.org/wiki/Nslookup) (Windows) to send the DNS lookup to both servers. Software such as web browsers do these lookups automatically, unless they are configured to use encrypted DNS.
 
     === "Linux, macOS"
 
@@ -118,7 +118,7 @@ When we do a DNS lookup, it's generally because we want to access a resource. Be
 
 Najprostszym sposobem na określenie aktywności przeglądania może być sprawdzenie adresów IP, z którymi łączą się Twoje urządzenia. Na przykład, jeśli obserwator wie, że `privacyguides.org` znajduje się pod adresem `198.98.54.105`, a Twoje urządzenie pobiera dane z adresu `198.98.54.105`, istnieje duże prawdopodobieństwo, że odwiedzasz witrynę Privacy Guides.
 
-Ta metoda jest użyteczna tylko wtedy, gdy adres IP należy do serwera, na którym znajduje się tylko kilka stron internetowych. Nie pomaga również to, jeśli witryna jest umieszczona na współdzielonej platformie (np. GitHub Pages, Cloudflare Pages, Netlify, WordPress, Blogger itd.). It also isn't very useful if the server is hosted behind a [reverse proxy](https://en.wikipedia.org/wiki/Reverse_proxy), which is very common on the modern Internet.
+Ta metoda jest użyteczna tylko wtedy, gdy adres IP należy do serwera, na którym znajduje się tylko kilka stron internetowych. It's also not very useful if the site is hosted on a shared platform (e.g. Github Pages, Cloudflare Pages, Netlify, WordPress, Blogger, etc.). It also isn't very useful if the server is hosted behind a [reverse proxy](https://en.wikipedia.org/wiki/Reverse_proxy), which is very common on the modern Internet.
 
 ### Server Name Indication (SNI)
 

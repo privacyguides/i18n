@@ -43,7 +43,7 @@ A kultúrák közötti házassághoz, a női választójoghoz, a szólásszabads
 
 Nem szabad összekeverni a magánéletet a titoktartással. Tudjuk, hogy mi történik a mosdóban, de az ajtó mégis becsukjuk. Ez azért van, mert magánéletet akarsz, nem titoktartást. **Mindenkinek** van valami, amit meg akar védeni. A magánélet olyasmi, ami emberré tesz minket.
 
-[:material-target-account: Gyakori Internetes Fenyegetések](basics/common-threats.md ""){.md-button.md-button--primary}
+[:material-target-account: Common Internet Threats](basics/common-threats.md){ class="md-button md-button--primary" }
 
 ## Mihez kezdjek?
 
@@ -53,7 +53,7 @@ Megpróbálni az összes adatodat mindenkitől és mindig megvédeni nem praktik
 
 ==A fenyegetések azonosításának és az ellenintézkedések meghatározásának ezt a folyamatát **védelmi modellezésnek**== nevezzük, és ez képezi minden jó biztonsági és adatvédelmi terv alapját.
 
-[:material-book-outline: További Információk a Védelmi Modellezésről](basics/threat-modeling.md ""){.md-button.md-button--primary}
+[:material-book-outline: Learn More About Threat Modeling](basics/threat-modeling.md){ class="md-button md-button--primary" }
 
 ---
 

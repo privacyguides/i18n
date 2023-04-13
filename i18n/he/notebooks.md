@@ -89,7 +89,7 @@ Cryptee מציע 100MB של אחסון בחינם, עם אפשרויות בתש�
 
     ![Org-mode לוגו](assets/img/notebooks/org-mode.svg){ align=right }
     
-    **מצב ארגוני** הוא [מצב ראשי](https://www.gnu.org/software/emacs/manual/html_node/elisp/Major-Modes.html) עבור גנו Emacs. מצב ארגוני מיועד לשמירת הערות, שמירה על רשימות TODO, תכנון פרויקטים ועריכת מסמכים באמצעות מערכת טקסט רגיל מהירה ויעילה. סינכרון אפשרי באמצעות הכלי [file synchronization](file-sharing.md#file-sync).
+    **מצב ארגוני** הוא [מצב ראשי](https://www.gnu.org/software/emacs/manual/html_node/elisp/Major-Modes.html) עבור גנו Emacs. Org-mode is for keeping notes, maintaining to-do lists, planning projects, and authoring documents with a fast and effective plain-text system. סינכרון אפשרי באמצעות הכלי [file synchronization](file-sharing.md#file-sync).
     
     [:octicons-home-16: דף הבית](https://orgmode.org){ .md-button .md-button--primary }
     [:octicons-info-16:](https://orgmode.org/manuals.html){ .card-link title=תיעוד}

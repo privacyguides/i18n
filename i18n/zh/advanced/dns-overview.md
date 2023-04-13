@@ -24,7 +24,7 @@ DNS自互联网的 [早期](https://en.wikipedia.org/wiki/Domain_Name_System#His
     tshark -w /tmp/dns.pcap udp port 53 and host 1.1.1.1 or host 8.8.8.8
     ```
 
-2. 然后我们可以使用 [`dig`](https://en.wikipedia.org/wiki/Dig_(command)) （Linux，MacOS等）或 [`nslookup`](https://en.wikipedia.org/wiki/Nslookup) （Windows）将DNS查询发送到两个服务器。 Web浏览器等软件会自动执行这些查找，除非它们被配置为使用加密的DNS。
+2. We can then use [`dig`](https://en.wikipedia.org/wiki/Dig_(command)) (Linux, MacOS, etc.) or [`nslookup`](https://en.wikipedia.org/wiki/Nslookup) (Windows) to send the DNS lookup to both servers. Web浏览器等软件会自动执行这些查找，除非它们被配置为使用加密的DNS。
 
     === "Linux, macOS"
 
@@ -118,7 +118,7 @@ DoH的原生实现出现在iOS 14、macOS 11、微软Windows和Android 13中（�
 
 确定浏览活动的最简单方法可能是查看你的设备所访问的IP地址。 例如，如果观察者知道 `privacyguides.org` 在 `198.98.54.105`，而你的设备正在从 `198.98.54.105`请求数据，你很有可能正在访问隐私指南。
 
-这种方法只有在IP地址属于一个只承载少数网站的服务器时才有用。 如果网站托管在一个共享平台上（如Github Pages、Cloudflare Pages、Netlify、WordPress、Blogger等），它也不是很有用。 如果服务器托管在一个 [反向代理](https://en.wikipedia.org/wiki/Reverse_proxy)，它也不是很有用，这在现代互联网上非常普遍。
+这种方法只有在IP地址属于一个只承载少数网站的服务器时才有用。 It's also not very useful if the site is hosted on a shared platform (e.g. Github Pages, Cloudflare Pages, Netlify, WordPress, Blogger, etc.). 如果服务器托管在一个 [反向代理](https://en.wikipedia.org/wiki/Reverse_proxy)，它也不是很有用，这在现代互联网上非常普遍。
 
 ### 服务器名称指示（SNI）
 

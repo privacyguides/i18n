@@ -14,7 +14,7 @@ schema:
     "@type": SoftwareApplication
     name: Mullvad Browser
     image: /assets/img/browsers/mullvad_browser.svg
-    url: https://mullvad.net/en/browser
+    url: https://mullvad.net/ko/browser
     applicationCategory: Web Browser
     operatingSystem:
       - Windows
@@ -29,7 +29,7 @@ schema:
     name: Firefox
     image: /assets/img/browsers/firefox.svg
     url: https://firefox.com
-    sameAs: https://en.wikipedia.org/wiki/Firefox
+    sameAs: https://ko.wikipedia.org/wiki/%EB%AA%A8%EC%A7%88%EB%9D%BC_%ED%8C%8C%EC%9D%B4%EC%96%B4%ED%8F%AD%EC%8A%A4
     applicationCategory: Web Browser
     operatingSystem:
       - Windows
@@ -126,13 +126,30 @@ Mullvad Browser comes with DuckDuckGo set as the default [search engine](search-
 
 ### 권장 설정
 
-이러한 옵션은 :material-menu: → **설정** → **개인 정보 및 보안**에서 확인할 수 있습니다
+These options can be found in :material-menu: → **Settings**
+
+#### Search
+
+- [ ] **검색 제안 사용** 비활성화
+
+여러분의 지역에 따라 검색 제안 기능을 사용하지 못할 수도 있습니다.
+
+Search suggestions send everything you type in the address bar to the default search engine, regardless of whether you submit an actual search. Disabling search suggestions allows you to more precisely control what data you send to your search engine provider.
+
+#### 개인 정보 및 보안
 
 ##### 향상된 추적 방지 기능
 
 - [x] 향상된 추적 방지 기능에서 **엄격** 활성화
 
 This protects you by blocking social media trackers, fingerprinting scripts (note that this does not protect you from *all* fingerprinting), cryptominers, cross-site tracking cookies, and some other tracking content. ETP protects against many common threats, but it does not block all tracking avenues because it is designed to have minimal to no impact on site usability.
+
+##### Firefox Suggest (US only)
+
+[Firefox Suggest](https://support.mozilla.org/en-US/kb/firefox-suggest) is a feature similar to search suggestions which is only available in the US. We recommend disabling it for the same reason we recommend disabling search suggestions. If you don't see these options under the **Address Bar** header, you do not have the new experience and can ignore these changes.
+
+- [ ] Uncheck **Suggestions from the web**
+- [ ] Uncheck **Suggestions from sponsors**
 
 ##### Sanitize on Close
 
@@ -141,14 +158,6 @@ This protects you by blocking social media trackers, fingerprinting scripts (not
 - [x] **Firefox를 닫을 때 쿠키와 사이트 데이터를 삭제** 활성화
 
 This protects you from persistent cookies, but does not protect you against cookies acquired during any one browsing session. When this is enabled, it becomes possible to easily cleanse your browser cookies by simply restarting Firefox. You can set exceptions on a per-site basis, if you wish to stay logged in to a particular site you visit often.
-
-##### 검색 제안
-
-- [ ] **검색 제안 사용** 비활성화
-
-여러분의 지역에 따라 검색 제안 기능을 사용하지 못할 수도 있습니다.
-
-Search suggestions send everything you type in the address bar to the default search engine, regardless of whether you submit an actual search. Disabling search suggestions allows you to more precisely control what data you send to your search engine provider.
 
 ##### Telemetry
 
@@ -169,7 +178,7 @@ Search suggestions send everything you type in the address bar to the default se
 
 This prevents you from unintentionally connecting to a website in plain-text HTTP. Sites without HTTPS are uncommon nowadays, so this should have little to no impact on your day to day browsing.
 
-### Firefox 동기화
+#### Sync
 
 [Firefox Sync](https://hacks.mozilla.org/2018/11/firefox-sync-privacy/) allows your browsing data (history, bookmarks, etc.) to be accessible on all your devices and protects it with E2EE.
 
@@ -187,17 +196,17 @@ Arkenfox only aims to thwart basic or naive tracking scripts through canvas rand
 
 !!! recommendation
 
-    ![Brave logo](assets/img/browsers/brave.svg){ align=right }
+    ![Brave 로고](assets/img/browsers/brave.svg){ align=right }
     
-    **Brave Browser** includes a built-in content blocker and [privacy features](https://brave.com/privacy-features/), many of which are enabled by default.
+    **Brave 브라우저**에는 콘텐츠 차단기와 [프라이버시 기능](https://brave.com/privacy-features/)이 내장되어 있으며, 이 중 상당수가 기본적으로 활성화되어 있습니다.
     
-    Brave is built upon the Chromium web browser project, so it should feel familiar and have minimal website compatibility issues.
+    Brace는 Chromium 웹 브라우저 프로젝트 기반으로 구축되었으므로, 친숙하며 웹사이트 호환성 문제가 적습니다.
     
-    [:octicons-home-16: Homepage](https://brave.com/){ .md-button .md-button--primary }
+    [:octicons-home-16: 홈페이지](https://brave.com/){ .md-button .md-button--primary }
     [:simple-torbrowser:](https://brave4u7jddbv7cyviptqjc7jusxh72uik7zt6adtckl5f4nwy2v72qd.onion){ .card-link title="Onion Service" }
-    [:octicons-eye-16:](https://brave.com/privacy/browser/){ .card-link title="Privacy Policy" }
-    [:octicons-info-16:](https://support.brave.com/){ .card-link title=Documentation}
-    [:octicons-code-16:](https://github.com/brave/brave-browser){ .card-link title="Source Code" }
+    [:octicons-eye-16:](https://brave.com/privacy/browser/){ .card-link title="프라이버시 정책" }
+    [:octicons-info-16:](https://support.brave.com/){ .card-link title=문서}
+    [:octicons-code-16:](https://github.com/brave/brave-browser){ .card-link title="소스 코드" }
     
     ??? downloads annotate
     
@@ -208,9 +217,11 @@ Arkenfox only aims to thwart basic or naive tracking scripts through canvas rand
 
     1. We advise against using the Flatpak version of Brave, as it replaces Chromium's sandbox with Flatpak's, which is less effective. Additionally, the package is not maintained by Brave Software, Inc.
 
-### Recommended Configuration
+### 권장 설정
 
 These options can be found in :material-menu: → **Settings**.
+
+#### Settings
 
 ##### Shields
 
@@ -250,6 +261,7 @@ Shields' options can be downgraded on a per-site basis as needed, but by default
 - [ ] Uncheck **Private window with Tor** (1)
 
     !!! tip "Sanitizing on Close"
+
         - [x] Select **Clear cookies and site data when you close all windows** in the *Cookies and other site data* menu
 
         If you wish to stay logged in to a particular site you visit often, you can set exceptions on a per-site basis under the *Customized behaviors* section.
@@ -267,17 +279,13 @@ Disable built-in extensions you do not use in **Extensions**
 
 ##### Web3
 
-<div class="annotate" markdown>
+Brave's Web3 features can potentially add to your browser fingerprint and attack surface. Unless you use any of features, they should be disabled.
 
-- [x] Select **Disabled** on Method to resolve IPFS resources (1)
+- [ ] Set **Default Ethereum Wallet** to **None**
+- [ ] Set **Default Solana Wallet** to **None**
+- [ ] Set **Method to resolve IPFS resources** to **Disabled
 
-</div>
-
-1. InterPlanetary File System (IPFS) is a decentralized, peer-to-peer network for storing and sharing data in a distributed filesystem. Unless you use the feature, disable it.
-
-##### Additional settings
-
-Under the *System* menu
+##### System
 
 <div class="annotate" markdown>
 
@@ -287,9 +295,15 @@ Under the *System* menu
 
 1. This option is not present on all platforms.
 
-### Brave Sync
+#### Sync
 
 [Brave Sync](https://support.brave.com/hc/en-us/articles/360059793111-Understanding-Brave-Sync) allows your browsing data (history, bookmarks, etc.) to be accessible on all your devices without requiring an account and protects it with E2EE.
+
+#### Brave Rewards and Wallet
+
+**Brave Rewards** lets you recieve Basic Attention Token (BAT) cryptocurrency for performing certain actions within Brave. It relies on a custodial account and KYC from a select number of providers. We do not recommend BAT as a [private cryptocurrency](cryptocurrency.md), nor do we recommend using a [custodial wallet](advanced/payments.md#other-coins-bitcoin-ethereum-etc), so we would discourage using this feature.
+
+**Brave Wallet** operates locally on your computer, but does not support any private cryptocurrencies, so we would discourage using this feature as well.
 
 ## Additional Resources
 
@@ -337,7 +351,7 @@ These are some other [filter lists](https://github.com/gorhill/uBlock/wiki/Dashb
 - Supports automatic updates.
 - Receives engine updates in 0-1 days from upstream release.
 - Available on Linux, macOS, and Windows.
-- Any changes required to make the browser more privacy-respecting should not negatively impact user experience.
+- 브라우저의 프라이버시를 강화하는 데에 필요한 모든 변경 사항은 사용자 경험에 부정적인 영향을 미치지 않아야 합니다.
 - Blocks third-party cookies by default.
 - Supports [state partitioning](https://developer.mozilla.org/en-US/docs/Web/Privacy/State_Partitioning) to mitigate cross-site tracking.[^1]
 
@@ -354,9 +368,9 @@ Our best-case criteria represents what we would like to see from the perfect pro
 - Provides open-source sync server implementation.
 - Defaults to a [private search engine](search-engines.md).
 
-### Extension Criteria
+### 확장 프로그램 평가 기준
 
-- Must not replicate built-in browser or OS functionality.
+- 내장 브라우저 혹은 운영 체제 기능을 복제해서는 안됩니다.
 - Must directly impact user privacy, i.e. must not simply provide information.
 
 [^1]: Brave's implementation is detailed at [Brave Privacy Updates: Partitioning network-state for privacy](https://brave.com/privacy-updates/14-partitioning-network-state/).

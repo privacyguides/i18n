@@ -1,6 +1,6 @@
 ---
 title: "Lectores de noticias"
-icon: octicons/rss-24
+icon: material/rss
 description: Estos clientes para la lectura de noticias le permiten estar al día con sus páginas de noticias favoritas, utilizando estándares de Internet como RSS.
 ---
 
@@ -22,7 +22,7 @@ Un [lector de noticias](https://en.wikipedia.org/wiki/News_aggregator) es una ma
     [:octicons-code-16:](https://invent.kde.org/pim/akregator){ .card-link title="Código Fuente" }
     [:octicons-heart-16:](https://kde.org/community/donations/){ .card-link title=Contribuir }
     
-    ??? descargas
+    ??? downloads "Descargas"
     
         - [:simple-flathub: Flathub](https://flathub.org/apps/details/org.kde.akregator)
 
@@ -38,7 +38,7 @@ Un [lector de noticias](https://en.wikipedia.org/wiki/News_aggregator) es una ma
     [:octicons-code-16:](https://gitlab.com/spacecowboy/Feeder){ .card-link title="Código Fuente" }
     [:octicons-heart-16:](https://ko-fi.com/spacecowboy){ .card-link title=Contribuir }
     
-    ??? descargas
+    ??? downloads "Descargas"
     
         - [:simple-googleplay: Google Play](https://play.google.com/store/apps/details?id=com.nononsenseapps.feeder.play)
 
@@ -56,7 +56,7 @@ Un [lector de noticias](https://en.wikipedia.org/wiki/News_aggregator) es una ma
     [:octicons-code-16:](https://github.com/yang991178/fluent-reader){ .card-link title="Código Fuente" }
     [:octicons-heart-16:](https://github.com/sponsors/yang991178){ .card-link title=Contribuir }
     
-    ??? descargas
+    ??? downloads "Descargas"
     
         - [:simple-windows11: Windows](https://hyliu.me/fluent-reader)
         - [:simple-appstore: App Store](https://apps.apple.com/app/id1520907427)
@@ -73,7 +73,7 @@ Un [lector de noticias](https://en.wikipedia.org/wiki/News_aggregator) es una ma
     [:octicons-code-16:](https://gitlab.gnome.org/World/gfeeds){ .card-link title="Código Fuente" }
     [:octicons-heart-16:](https://liberapay.com/gabmus/){ .card-link title=Contribuir }
     
-    ??? descargas
+    ??? downloads "Descargas"
     
         - [:simple-linux: Linux](https://gfeeds.gabmus.org/#install)
         - [:simple-flathub: Flathub](https://flathub.org/apps/details/org.gabmus.gfeeds)
@@ -105,7 +105,7 @@ Un [lector de noticias](https://en.wikipedia.org/wiki/News_aggregator) es una ma
     [:octicons-info-16:](https://netnewswire.com/help/){ .card-link title=Documentación}
     [:octicons-code-16:](https://github.com/Ranchero-Software/NetNewsWire){ .card-link title="Código Fuente" }
     
-    ??? descargas
+    ??? downloads "Descargas"
     
         - [:simple-appstore: App Store](https://apps.apple.com/us/app/netnewswire-rss-reader/id1480640210)
         - [:simple-apple: macOS](https://netnewswire.com)
@@ -126,7 +126,7 @@ Un [lector de noticias](https://en.wikipedia.org/wiki/News_aggregator) es una ma
 
 **Por favor, tenga en cuenta que no estamos afiliados con ninguno de los proyectos que recomendamos.** Además de [nuestros criterios estándar](about/criteria.md), hemos desarrollado un conjunto claro de requisitos que nos permiten ofrecer recomendaciones objetivas. Sugerimos que usted se familiarice con esta lista, antes de decidir utilizar un proyecto y realizar su propia investigación para asegurarse de que es la elección ideal para usted.
 
-!!! ejemplo "Esta sección es nueva"
+!!! example "Esta sección es nueva"
 
     Estamos trabajando en establecer criterios definidos para cada sección de nuestra página, y esto puede estar sujeto a cambios. Si tiene alguna duda sobre nuestros criterios, por favor [pregunte en nuestro foro](https://discuss.privacyguides.net/latest) y no asuma que no hemos tenido en cuenta algo a la hora de hacer nuestras recomendaciones si no aparece aquí. Son muchos los factores que se tienen en cuenta y se debaten cuando recomendamos un proyecto, y documentar cada uno de ellos es un trabajo en curso.
 
@@ -141,7 +141,7 @@ Algunos servicios de redes sociales también admiten RSS, aunque esto no se suel
 
 Reddit le permite suscribirse a subreddits a través de RSS.
 
-!!! ejemplo
+!!! example "Ejemplo"
     Sustituya `subreddit_name` por el subreddit al que desee suscribirse.
 
     ```text
@@ -152,7 +152,7 @@ Reddit le permite suscribirse a subreddits a través de RSS.
 
 Utilizando cualquiera de las [instancias](https://github.com/zedeus/nitter/wiki/Instances) de Nitter puede suscribirse fácilmente mediante RSS.
 
-!!! ejemplo
+!!! example "Ejemplo"
     1. Elija una instancia y ponga `nitter_instance`.
     2. Sustituya `twitter_account` por el nombre de la cuenta.
 
@@ -164,7 +164,7 @@ Utilizando cualquiera de las [instancias](https://github.com/zedeus/nitter/wiki/
 
 Puede suscribirse a los canales de YouTube sin iniciar sesión ni asociar la información de uso con su cuenta de Google.
 
-!!! ejemplo
+!!! example "Ejemplo"
 
     Para suscribirse a un canal de YouTube con un cliente RSS, busque primero su [código de canal](https://support.google.com/youtube/answer/6180214), sustituya el `[ID DEl CANAL]` a continuación:
     ```text

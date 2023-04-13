@@ -29,7 +29,7 @@ Projelerini veya yazılımlarını değerlendirmeye göndermek isteyen geliştir
 
 - Bağlılığınızı, yani sunulan projedeki pozisyonunuzu açıklamalısınız.
 
-- Mesajlaşma uygulaması, şifre yöneticisi, şifreli bulut depolama vb. gibi hassas bilgilerin işlenmesini içeren bir projeyse, bir güvenlik teknik incelemesine sahip olmalıdır.
+- Must have a security whitepaper if it is a project that involves handling of sensitive information like a messenger, password manager, encrypted cloud storage, etc.
     - Üçüncü taraf denetim durumu. Bir tane varsa veya planladıysanız bilmek istiyoruz. Mümkünse lütfen denetimi kimin yapacağını belirtin.
 
 - Projenin mahremiyet konusunda masaya ne getirdiğini açıklamalıdır.

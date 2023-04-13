@@ -20,7 +20,7 @@ description: 대부분의 클라우드 스토리지 제공 업체는, 업체가 
     
     **Proton Drive**는 유명한 스위스의 암호화 이메일 서비스 제공 업체인 [Proton Mail](email.md#proton-mail)의 암호화 클라우드 스토리지 서비스입니다.
     
-    [:octicons-home-16: 홈페이지](https://proton.me/drive){ .md-button .md-button--primary }
+    [:octicons-home-16: 홈페이지](https://proton.me/drive){ class="md-button md-button--primary" }
     [:octicons-eye-16:](https://proton.me/legal/privacy){ .card-link title="프라이버시 정책" }
     [:octicons-info-16:](https://proton.me/support/drive){ .card-link title=문서}
     [:octicons-code-16:](https://github.com/ProtonMail/WebClients){ .card-link title="소스 코드" }
@@ -44,7 +44,7 @@ Proton Drive의 새로운 모바일 클라이언트는 아직 제3자에 의해 
     
     **Tresorit**은 2011년에 설립된 헝가리의 암호화 클라우드 스토리지 제공 업체입니다. Tresorit은 스위스 국영 우편 서비스인 스위스 포스트(스위스 우체국)가 소유하고 있습니다.
     
-    [:octicons-home-16: 홈페이지](https://tresorit.com/){ .md-button .md-button--primary }
+    [:octicons-home-16: 홈페이지](https://tresorit.com/){ class="md-button md-button--primary" }
     [:octicons-eye-16:](https://tresorit.com/legal/privacy-policy){ .card-link title="프라이버시 정책" }
     [:octicons-info-16:](https://support.tresorit.com/hc/en-us){ .card-link title=문서}
     

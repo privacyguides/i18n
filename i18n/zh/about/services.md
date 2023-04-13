@@ -2,7 +2,7 @@
 
 我们运行一些网络服务来测试功能，并推广很酷的去中心化、联盟化和/或开源项目。 这些服务中有许多是向公众提供的，详情如下。
 
-[:material-comment-alert: 报告问题](https://discuss.privacyguides.net/c/services/2 ""){.md-button.md-button--primary}
+[:material-comment-alert: Report an issue](https://discuss.privacyguides.net/c/services/2){ class="md-button md-button--primary" }
 
 ## 论坛
 

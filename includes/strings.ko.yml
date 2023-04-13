@@ -1,0 +1,48 @@
+#The strings in these files need to be copied MANUALLY to /config/mkdocs.LANG.yml
+#This file exists just so these strings can be originally translated on Crowdin.
+config:
+  description: Privacy Guides는 온라인에서 자신을 보호하기 위한 프라이버시 및 보안 자료를 제공합니다.
+  copyright:
+    - 
+      1: |
+         Privacy Guides is a non-profit, socially motivated website that provides information for protecting your data security and privacy.
+    - 
+      2: |
+         우리는 특정 제품을 추천하여 수익을 창출하지 않으며, 제휴 링크를 사용하지 않습니다.
+    - 
+      3: |
+         Privacy Guides and contributors.
+    - 
+      4: |
+         Content licensed under CC BY-ND 4.0.
+  feedback:
+    question: 이 페이지가 유용했나요?
+    yes: 이 페이지가 유용했습니다
+    yes-note: 피드백 감사합니다!
+    no: 이 페이지는 개선이 필요합니다
+    no-note: |
+      피드백을 주셔서 감사합니다! 포럼에서 새 논의를 열어 이 페이지를 개선할 수 있도록 도와주세요.
+  theme:
+    dark: 다크 모드로 전환
+    light: 라이트 모드로 전환
+    system: 시스템 테마로 전환
+nav:
+  Home: 홈
+  Knowledge Base: 지식 기반
+  Technology Essentials: Technology Essentials
+  Operating Systems: 운영 체제
+  Advanced Topics: Advanced Topics
+  Recommendations: Recommendations
+  Internet Browsing: 인터넷 브라우징
+  Providers: 서비스 제공자
+  Software: 소프트웨어
+  About: About
+  Community: 커뮤니티
+  Online Services: 온라인 서비스
+  Code of Conduct: Code of Conduct
+  Contributing: Contributing
+  Writing Guide: 작성 가이드
+  Technical Guides: Technical Guides
+  Changelog: 변경내역
+  Forum: 포럼
+  Blog: 블로그

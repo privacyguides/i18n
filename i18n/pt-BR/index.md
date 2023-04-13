@@ -43,7 +43,7 @@ Assim como o direito ao casamento inter-racial, o direito feminino de votar, a l
 
 Você não deve confundir privacidade com sigilo. Sabemos o que acontece no banheiro, mas você ainda fecha a porta. Isso é porque você quer privacidade, não sigilo. **Todo mundo** tem algo para proteger. Privacidade é algo que nos torna humanos.
 
-[:material-target-account: Ameaças comuns na Internet](basics/common-threats.md ""){.md-button.md-button--primary}
+[:material-target-account: Common Internet Threats](basics/common-threats.md){ class="md-button md-button--primary" }
 
 ## O que eu deveria fazer?
 
@@ -53,7 +53,7 @@ Tentar proteger todos os seus dados de todos — o tempo todo — é impraticáv
 
 ==Este processo de identificação de ameaças e definição de contramedidas é chamado de **threat modeling**==, e forma a base de todo bom plano de segurança e privacidade.
 
-[:material-book-outline: Saiba mais sobre Threat Modeling](basics/threat-modeling.md ""){.md-button.md-button--primary}
+[:material-book-outline: Learn More About Threat Modeling](basics/threat-modeling.md){ class="md-button md-button--primary" }
 
 ---
 

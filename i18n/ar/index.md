@@ -43,7 +43,7 @@ schema:
 
 يجب عليك عدم الخلط بين الخصوصية والسريَّة. نحن نعلم ما يحدث في الحَمَّام، لكنك ما زلت تغلق الباب، أليس كذلك؟ هذا لأنك تريد الخصوصية وليس السريَّة. **الجميع** لديه شيء لحمايته. الخصوصية شيء أصيل في البشريَّة.
 
-[:material-target-account: تهديدات الإنترنت الشائعة](basics/common-threats.md ""){.md-button.md-button--primary}
+[:material-target-account: Common Internet Threats](basics/common-threats.md){ class="md-button md-button--primary" }
 
 ## ماذا يجب أن أفعل؟
 
@@ -53,7 +53,7 @@ schema:
 
 ==هذه العملية لتحديد التهديدات وتحديد الإجراءات المضادة تسمى **نَمذَجَةُ التَّهدِيد**==، وهي تشكل الأساس لكل خِطَّة أمان وخصوصية جيدة.
 
-[:material-book-outline: تعرَّف على المَزيد حولَ نَمذَجَةِ التَّهدِيد](basics/threat-modeling.md ""){.md-button.md-button--primary}
+[:material-book-outline: Learn More About Threat Modeling](basics/threat-modeling.md){ class="md-button md-button--primary" }
 
 ---
 

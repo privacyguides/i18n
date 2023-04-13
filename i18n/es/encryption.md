@@ -222,7 +222,7 @@ Las herramientas con interfaces de línea de comandos son útiles para integrar 
     [:octicons-code-16:](https://github.com/samuel-lucas6/Kryptor){ .card-link title="Código Fuente" }
     [:octicons-heart-16:](https://www.kryptor.co.uk/#donate){ .card-link title=Contribuir }
     
-    ??? descargas
+    ??? downloads "Descargas"
     
         - [:simple-windows11: Windows](https://www.kryptor.co.uk)
         - [:simple-apple: macOS](https://www.kryptor.co.uk)
@@ -247,7 +247,7 @@ OpenPGP es a veces necesario para tareas específicas como la firma digital y el
 
 Al cifrar con PGP, tiene la opción de configurar diferentes opciones en su archivo `gpg.conf`. Recomendamos utilizar las opciones estándar especificadas en las preguntas frecuentes de los usuarios de [GnuPG](https://www.gnupg.org/faq/gnupg-faq.html#new_user_gpg_conf).
 
-!!! consejo "Utilice future defaults al generar una clave"
+!!! tip "Utilice future defaults al generar una clave"
 
     Al [generar claves](https://www.gnupg.org/gph/en/manual/c14.html) sugerimos usar el comando `future-default` ya que esto instruirá a GnuPG a usar criptografía moderna como [Curve25519](https://es.wikipedia.org/wiki/Curve25519#Popularidad) y [Ed25519](https://ed25519.cr.yp.to/):
 
@@ -268,7 +268,7 @@ Al cifrar con PGP, tiene la opción de configurar diferentes opciones en su arch
     [:octicons-info-16:](https://gnupg.org/documentation/index.html){ .card-link title=Documentación}
     [:octicons-code-16:](https://git.gnupg.org/cgi-bin/gitweb.cgi?p=gnupg.git){ .card-link title="Código Fuente" }
     
-    ??? descargas
+    ??? downloads "Descargas"
     
         - [:simple-googleplay: Google Play](https://play.google.com/store/apps/details?id=org.sufficientlysecure.keychain)
         - [:simple-windows11: Windows](https://gpg4win.org/download.html)
@@ -289,7 +289,7 @@ Al cifrar con PGP, tiene la opción de configurar diferentes opciones en su arch
     [:octicons-code-16:](https://git.gnupg.org/cgi-bin/gitweb.cgi?p=gpg4win.git;a=summary){ .card-link title="Código Fuente" }
     [:octicons-heart-16:](https://gpg4win.org/donate.html){ .card-link title=Contribuir }
     
-    ??? descargas
+    ??? downloads "Descargas"
     
         - [:simple-windows11: Windows](https://gpg4win.org/download.html)
 
@@ -312,7 +312,7 @@ Al cifrar con PGP, tiene la opción de configurar diferentes opciones en su arch
     [:octicons-info-16:](https://gpgtools.tenderapp.com/kb){ .card-link title=Documentación}
     [:octicons-code-16:](https://github.com/GPGTools){ .card-link title="Código Fuente" }
     
-    ??? descargas
+    ??? downloads "Descargas"
     
         - [:simple-apple: macOS](https://gpgtools.org)
 
@@ -329,7 +329,7 @@ Al cifrar con PGP, tiene la opción de configurar diferentes opciones en su arch
     [:octicons-info-16:](https://www.openkeychain.org/faq/){ .card-link title=Documentación}
     [:octicons-code-16:](https://github.com/open-keychain/open-keychain){ .card-link title="Código Fuente" }
     
-    ??? descargas
+    ??? downloads "Descargas"
     
         - [:simple-googleplay: Google Play](https://play.google.com/store/apps/details?id=org.sufficientlysecure.keychain)
 
@@ -337,7 +337,7 @@ Al cifrar con PGP, tiene la opción de configurar diferentes opciones en su arch
 
 **Por favor, tenga en cuenta que no estamos afiliados con ninguno de los proyectos que recomendamos.** Además de [nuestros criterios estándar](about/criteria.md), hemos desarrollado un conjunto claro de requisitos que nos permiten ofrecer recomendaciones objetivas. Sugerimos que usted se familiarice con esta lista, antes de decidir utilizar un proyecto y realizar su propia investigación para asegurarse de que es la elección ideal para usted.
 
-!!! ejemplo "Esta sección es nueva"
+!!! example "Esta sección es nueva"
 
     Estamos trabajando en establecer criterios definidos para cada sección de nuestra página, y esto puede estar sujeto a cambios. Si tiene alguna duda sobre nuestros criterios, por favor [pregunte en nuestro foro](https://discuss.privacyguides.net/latest) y no asuma que no hemos tenido en cuenta algo a la hora de hacer nuestras recomendaciones si no aparece aquí. Son muchos los factores que se tienen en cuenta y se debaten cuando recomendamos un proyecto, y documentar cada uno de ellos es un trabajo en curso.
 

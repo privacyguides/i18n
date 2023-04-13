@@ -126,13 +126,30 @@ Mullvad Browser comes with DuckDuckGo set as the default [search engine](search-
 
 ### Configurazione consigliata
 
-Queste opzioni si trovano in :material-menu: → **Impostazioni** → **Privacy e sicurezza**.
+These options can be found in :material-menu: → **Settings**
+
+#### Search
+
+- [ ] Disabilita **Visualizza suggerimenti di ricerca**
+
+I suggerimenti di ricerca potrebbero non essere disponibili nella tua zona.
+
+I suggerimento di ricerca inviano tutto quello che viene scritto nella barra di ricerca al motore di ricerca predefinito, indipendentemente se le stringe vengono inviate o meno. Disabilitare i suggerimenti di ricerca ti permette di controllare più precisamente quali dati invii al motore di ricerca che utilizzi.
+
+#### Privacy & Security
 
 ##### Protezione antitracciamento avanzata
 
 - [x] Seleziona Protezione antitracciamento avanzata **Restrittiva**
 
 Essa ti protegge bloccando i tracker dei social, script di fingerprinting (nota che questo non ti protegge da *tutte* le forme di fingerprinting), minatori di criptovalute, cookie di tracciamento cross-site e altri contenuti di tracciamento. La Protezione antitracciamento avanzata protegge da molte minacce comuni, ma non blocca tutte le vie di tracciamente, perché progettata per avere minimo o nessun impatto sull'usabilità dei siti.
+
+##### Firefox Suggest (US only)
+
+[Firefox Suggest](https://support.mozilla.org/en-US/kb/firefox-suggest) is a feature similar to search suggestions which is only available in the US. We recommend disabling it for the same reason we recommend disabling search suggestions. If you don't see these options under the **Address Bar** header, you do not have the new experience and can ignore these changes.
+
+- [ ] Uncheck **Suggestions from the web**
+- [ ] Uncheck **Suggestions from sponsors**
 
 ##### Sanitizzazione alla chiusura
 
@@ -141,14 +158,6 @@ Se vuoi mantenere l'accesso per alcuni siti in particolare, puoi consentire le e
 - [x] Seleziona **Elimina cookie e dati dei siti web alla chiusura di Firefox**
 
 Ciò ti protegge dai cookie persistenti, ma non da quelli acquisiti durante ogni sessione di navigazione. Con questa opzione attiva, è possibile eliminare facilmente i cookie del browser riavviando Firefox. È possibile impostare le eccezioni per ogni sito, ad esempio se desideri mantenere l'accesso ad un sito particolare che frequenti spesso.
-
-##### Suggerimenti di ricerca
-
-- [ ] Disabilita **Visualizza suggerimenti di ricerca**
-
-I suggerimenti di ricerca potrebbero non essere disponibili nella tua zona.
-
-I suggerimento di ricerca inviano tutto quello che viene scritto nella barra di ricerca al motore di ricerca predefinito, indipendentemente se le stringe vengono inviate o meno. Disabilitare i suggerimenti di ricerca ti permette di controllare più precisamente quali dati invii al motore di ricerca che utilizzi.
 
 ##### Telemetria
 
@@ -169,7 +178,7 @@ Inoltre, il servizio Firefox Accounts raccoglie [alcuni dati tecnici](https://ww
 
 Questo ti aiuta a prevenire il collegamento non intenzionale ad un sito web in HTTP. Siti web senza l'HTTPS sono piuttosto rari il giorno d'oggi, quindi questa opzione non dovrebbe avere un grosso impatto sulla tua navigazione quotidiana.
 
-### Firefox Sync
+#### Sync
 
 La [sincronizzazione via Firefox](https://hacks.mozilla.org/2018/11/firefox-sync-privacy/) permette ai tuoi dati di navigazione (cronologia, segnalibri, etc.) di essere accessibili su tutti i tuoi dispositivi; i dati vengono protetti mediante E2EE.
 
@@ -212,6 +221,8 @@ Arkenfox only aims to thwart basic or naive tracking scripts through canvas rand
 
 Queste opzioni possono essere trovare in :material-menu: → **Impostazioni**.
 
+#### Settings
+
 ##### Shields
 
 Brave include alcune misure contro il fingerprinting nella sua funzionalità [Shields](https://support.brave.com/hc/en-us/articles/360022973471-What-is-Shields-). Consigliamo di configurare queste opzioni [globalmente](https://support.brave.com/hc/en-us/articles/360023646212-How-do-I-configure-global-and-site-specific-Shields-settings-) applicate a tutti i siti che visiti.
@@ -249,10 +260,11 @@ Le funzionalità di Shields possono essere ridotte per ogni sito se necessario; 
 - [x] Seleziona **Utilizza sempre connessioni sicure** nel menu **Sicurezza** 
 - [ ] Disabilita **Finestra in Incognito con Tor** (1)
 
-    !!! important "Sanitizzazione alla chiusura"
-        - [x] Seleziona **Cancella cookie e dati dei siti alla chiusura di tutte le finestre** nel menu *Cookie e altri dati dei siti*
+    !!! tip "Sanitizing on Close"
 
-        Se desideri rimanere connesso a un particolare sito che si visita spesso, è possibile impostare eccezioni su base individuale nella sezione *Comportamenti personalizzati*.
+        - [x] Select **Clear cookies and site data when you close all windows** in the *Cookies and other site data* menu
+
+        If you wish to stay logged in to a particular site you visit often, you can set exceptions on a per-site basis under the *Customized behaviors* section.
 
 </div>
 
@@ -267,17 +279,13 @@ Disabilita le estensioni integrate che non utilizzi in **Estensioni**
 
 ##### Web3
 
-<div class="annotate" markdown>
+Brave's Web3 features can potentially add to your browser fingerprint and attack surface. Unless you use any of features, they should be disabled.
 
-- [x] Select **Disabled** on Method to resolve IPFS resources (1)
+- [ ] Set **Default Ethereum Wallet** to **None**
+- [ ] Set **Default Solana Wallet** to **None**
+- [ ] Set **Method to resolve IPFS resources** to **Disabled
 
-</div>
-
-1. InterPlanetary File System (IPFS) is a decentralized, peer-to-peer network for storing and sharing data in a distributed filesystem. Unless you use the feature, disable it.
-
-##### Impostazioni aggiuntive
-
-Under the *System* menu
+##### System
 
 <div class="annotate" markdown>
 
@@ -287,9 +295,15 @@ Under the *System* menu
 
 1. This option is not present on all platforms.
 
-### Brave Sync
+#### Sync
 
 [Brave Sync](https://support.brave.com/hc/en-us/articles/360059793111-Understanding-Brave-Sync) permette ai dati di navigazione (cronologia, segnalibri, ecc.) di essere accessibili su tutti i dispositivi senza richiedere un account e li protegge con E2EE.
+
+#### Brave Rewards and Wallet
+
+**Brave Rewards** lets you recieve Basic Attention Token (BAT) cryptocurrency for performing certain actions within Brave. It relies on a custodial account and KYC from a select number of providers. We do not recommend BAT as a [private cryptocurrency](cryptocurrency.md), nor do we recommend using a [custodial wallet](advanced/payments.md#other-coins-bitcoin-ethereum-etc), so we would discourage using this feature.
+
+**Brave Wallet** operates locally on your computer, but does not support any private cryptocurrencies, so we would discourage using this feature as well.
 
 ## Risorse aggiuntive
 

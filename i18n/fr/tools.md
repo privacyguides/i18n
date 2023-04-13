@@ -30,9 +30,9 @@ Pour plus de détails sur chaque projet, les raisons pour lesquelles ils ont ét
 
 <div class="grid cards" markdown>
 
-- ![Mullvad Browser logo](assets/img/browsers/mullvad_browser.svg){ .twemoji } [Mullvad Browser](desktop-browsers.md#mullvad-browser)
-- ![Firefox logo](assets/img/browsers/firefox.svg){ .twemoji } [Firefox](desktop-browsers.md#firefox)
-- ![Brave logo](assets/img/browsers/brave.svg){ .twemoji } [Brave](desktop-browsers.md#brave)
+- ![Logo du navigateur Mullvad](assets/img/browsers/mullvad_browser.svg){ .twemoji } [Navigateur Mullvad](desktop-browsers.md#mullvad-browser)
+- ![Logo Firefox](assets/img/browsers/firefox.svg){ .twemoji } [Firefox](desktop-browsers.md#firefox)
+- ![Logo Brave](assets/img/browsers/brave.svg){ .twemoji } [Brave](desktop-browsers.md#brave)
 
 </div>
 

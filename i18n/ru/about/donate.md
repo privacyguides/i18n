@@ -7,7 +7,7 @@ title: Поддержать нас
 
 Если вы хотите помочь нам материально, лучшим способом будет пожертвование через Open Collective, ресурс, управляемый нашим фискальным агентом. Open Collective поддерживает оплату через кредитную или дебетовую карту, PayPal, банковские переводы.
 
-[Пожертвовать на OpenCollective.com](https://opencollective.com/privacyguides/donate ""){.md-button.md-button--primary}
+[Donate on OpenCollective.com](https://opencollective.com/privacyguides/donate){ class="md-button md-button--primary" }
 
 Donations made directly to us on Open Collective are generally tax-deductible in the US, because our fiscal host (the Open Collective Foundation) is a registered 501(c)3 organization. После пожертвования вы получите чек от Фонда Open Collective. Privacy Guides не предоставляет финансовых консультаций, и вам следует обратиться к своему налоговому консультанту, чтобы узнать, применимо ли это к вам.
 

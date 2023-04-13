@@ -39,11 +39,11 @@ schema:
 
 ##### "No tengo nada que ocultar. ¿Por qué debería preocuparme por mi privacidad?”
 
-Al igual que el derecho al matrimonio interracial, el sufragio femenino, la libertad de expresión y muchos otros, nuestro derecho a la privacidad no siempre ha sido respetado. En varias dictaduras, sigue sin serlo. Generaciones anteriores a las nuestras lucharon por nuestro derecho a la privacidad. ==La privacidad es un derecho humano, inherente a todes nosotres, == al que tenemos derecho (sin discriminación).
+Al igual que el derecho al matrimonio interracial, el sufragio femenino, la libertad de expresión y muchos otros, nuestro derecho a la privacidad no siempre ha sido respetado. En varias dictaduras, sigue sin serlo. Generaciones anteriores a las nuestras lucharon por nuestro derecho a la privacidad. ==La privacidad es un derecho humano, inherente a todes nosotres,== al que tenemos derecho (sin discriminación).
 
 No deberías confundir privacidad con secretismo. Sabemos lo que pasa en el cuarto de baño, pero aún así cierras la puerta. Esto se debe a que quieres privacidad, no secretismo. **Todo el mundo** tiene algo que proteger. La privacidad es algo que nos hace humanos.
 
-[:material-target-account: Amenazas frecuentes en el internet](basics/common-threats.md ""){.md-button.md-button--primary}
+[:material-target-account: Amenazas Comunes en Internet](basics/common-threats.md){ class="md-button md-button--primary" }
 
 ## ¿Qué debo hacer?
 
@@ -53,11 +53,11 @@ Intentar proteger todos tus datos de todo el mundo y en todo momento es impráct
 
 ==Este proceso de identificación de amenazas y definición de contramedidas se llama **modelado de amenazas**==, y constituye la base de todo buen plan de seguridad y privacidad.
 
-[:material-book-outline: Aprende más sobre el modelado de amenazas](basics/threat-modeling.md ""){.md-button.md-button--primary}
+[:material-book-outline: Más Información sobre el Modelado de Amenazas](basics/threat-modeling.md){ class="md-button md-button--primary" }
 
 ---
 
-## ¡Te necesitamos! Aquí está cómo involucrarse:
+## ¡Te necesitamos! Aquí te indicamos cómo involucrarse:
 
 [:simple-discourse:](https://discuss.privacyguides.net/){ title="Únete a nuestro foro" }
 [:simple-mastodon:](https://mastodon.neat.computer/@privacyguides){ rel=me title="Síguenos en Mastodon" }

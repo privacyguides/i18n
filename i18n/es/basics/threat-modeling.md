@@ -32,7 +32,7 @@ Un "activo" es algo que valoras y quieres proteger. En el contexto de la segurid
 
 ### ¿De quién quiero protegerlo?
 
-Para responder a esta pregunta, es importante identificar quién podría querer suponer una amenaza para usted o su información. ==Una persona o entidad que supone una amenaza para sus activos es un "adversario". ==Ejemplos de adversarios potenciales son tu jefe, tu ex pareja, tu competencia empresarial, tu gobierno o un hacker en una red pública.
+Para responder a esta pregunta, es importante identificar quién podría querer suponer una amenaza para usted o su información. ==Una persona o entidad que supone una amenaza para sus activos es un "adversario".== Ejemplos de adversarios potenciales son tu jefe, tu ex pareja, tu competencia empresarial, tu gobierno o un hacker en una red pública.
 
 *Haz una lista de tus adversarios o de aquellos que podrían querer apoderarse de tus activos. Su lista puede incluir individuos, una agencia gubernamental o empresas.*
 
@@ -40,7 +40,7 @@ Dependiendo de quiénes sean tus adversarios, en algunas circunstancias, esta li
 
 ### ¿Qué tan probable será que necesite protegerlo?
 
-==El riesgo es la probabilidad de que una determinada amenaza contra un determinado activo se produzca realmente. ==Va de la mano con la capacidad. Aunque tu proveedor de telefonía móvil tiene la capacidad de acceder a todos tus datos, el riesgo de que publiquen tus datos privados en Internet para dañar tu reputación es bajo.
+==El riesgo es la probabilidad de que una determinada amenaza contra un determinado activo se produzca realmente.== Va de la mano con la capacidad. Aunque tu proveedor de telefonía móvil tiene la capacidad de acceder a todos tus datos, el riesgo de que publiquen tus datos privados en Internet para dañar tu reputación es bajo.
 
 Es importante distinguir entre lo que podría ocurrir y la probabilidad de que ocurra. Por ejemplo, existe la amenaza de que su edificio se derrumbe, pero el riesgo de que esto ocurra es mucho mayor en San Francisco (donde los terremotos son habituales) que en Estocolmo (donde no lo son).
 
@@ -52,7 +52,7 @@ La evaluación de los riesgos es un proceso personal y subjetivo. Muchas persona
 
 Hay muchas maneras de que un adversario pueda acceder a sus datos. Por ejemplo, un adversario puede leer sus comunicaciones privadas mientras pasan por la red, o puede borrar o corromper sus datos.
 
-==Los motivos de los adversarios son muy diferentes, al igual que sus tácticas. ==Un gobierno que intenta evitar la propagación de un vídeo que muestra la violencia policial está contento si simplemente elimina o reduce la disponibilidad de ese vídeo. Por el contrario, un opositor político puede querer acceder a contenido secreto y publicarlo sin que usted lo sepa.
+==Los motivos de los adversarios son muy diferentes, al igual que sus tácticas.== Un gobierno que intenta evitar la propagación de un vídeo que muestra la violencia policial está contento si simplemente elimina o reduce la disponibilidad de ese vídeo. Por el contrario, un opositor político puede querer acceder a contenido secreto y publicarlo sin que usted lo sepa.
 
 La planificación de la seguridad implica comprender las consecuencias que podría tener el hecho de que un adversario consiga acceder a uno de sus activos. Para determinar esto, debe considerar la capacidad de su adversario. Por ejemplo, tu proveedor de telefonía móvil tiene acceso a todos tus registros de telefónicos. Un hacker en una red Wi-Fi abierta puede acceder a sus comunicaciones no cifradas. Su gobierno podría tener capacidades más fuertes.
 

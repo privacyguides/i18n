@@ -43,7 +43,7 @@ Sama seperti hak untuk menikah antar ras, hak pilih perempuan, kebebasan berbica
 
 Anda tidak harus bingung antara privasi dengan kerahasiaan. Kami tahu apa yang terjadi di kamar mandi, tapi Anda tetap menutup pintunya. Itu karena Anda menginginkan privasi, bukan kerahasiaan. **Setiap orang** memiliki sesuatu untuk dilindungi. Privasi adalah sesuatu yang membuat kita menjadi manusia.
 
-[:material-target-account: Ancaman Internet Umum](basics/common-threats.md ""){.md-button.md-button--primary}
+[:material-target-account: Common Internet Threats](basics/common-threats.md){ class="md-button md-button--primary" }
 
 ## Apa yang harus saya lakukan?
 
@@ -53,7 +53,7 @@ Mencoba untuk melindungi semua data Anda dari semua orang setiap saat tidaklah p
 
 ==Proses mengidentifikasi ancaman dan mendefinisikan tindakan penanggulangan disebut **pemodelan ancaman**==, dan ini menjadi dasar dari setiap rencana keamanan dan privasi yang baik.
 
-[:material-book-outline: Pelajari Lebih Lanjut Tentang Pemodelan Ancaman](basics/threat-modeling.md ""){.md-button.md-button--primary}
+[:material-book-outline: Learn More About Threat Modeling](basics/threat-modeling.md){ class="md-button md-button--primary" }
 
 ---
 

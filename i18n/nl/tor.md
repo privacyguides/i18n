@@ -1,7 +1,7 @@
 ---
 title: "Tor Netwerk"
 icon: simple/torproject
-description: Protect your internet browsing from prying eyes by using the Tor network, a secure network which circumvents censorship.
+description: Bescherm je surf gedrag tegen pottenkijkers door gebruik te maken van het Tor netwerk, een beveiligd netwerk dat censuur omzeilt.
 ---
 
 ![Tor logo](assets/img/self-contained-networks/tor.svg){ align=right }
@@ -69,7 +69,7 @@ De Tor Browser is ontworpen om fingerprinting, of het identificeren van jou op b
         - [:simple-appstore: App Store](https://apps.apple.com/us/app/orbot/id1609461599)
         - [:simple-github: GitHub](https://github.com/guardianproject/orbot/releases)
 
-We previously recommended enabling the *Isolate Destination Address* preference in Orbot settings. While this setting can theoretically improve privacy by enforcing the use of a different circuit for each IP address you connect to, it doesn't provide a practical advantage for most applications (especially web browsing), can come with a significant performance penalty, and increases the load on the Tor network. We no longer recommend adjusting this setting from its default value unless you know you need to.[^1]
+Wij hebben eerder aanbevolen *Isolate Destination Address* in de Orbot instellingen in te schakelen. Hoewel deze instelling theoretisch de privacy kan verbeteren door het gebruik van een ander circuit af te dwingen voor elk IP adres waarmee je verbinding maakt, biedt het geen praktisch voordeel voor de meeste toepassingen (vooral web browsen), kan het gepaard gaan met een aanzienlijke prestatievermindering en verhoogt het de belasting van het Tor netwerk. Wij raden je niet langer aan deze instelling te wijzigen ten opzichte van de standaardwaarde, tenzij je weet dat het nodig is.[^1]
 
 !!! tip "Tips voor Android"
 
@@ -114,4 +114,4 @@ Snowflake verhoogt jouw privacy op geen enkele manier, en wordt ook niet gebruik
 
 Het runnen van een Snowflake proxy is weinig riskant, zelfs meer dan het runnen van een Tor relay of bridge, wat al geen bijzonder riskante onderneming is. Het stuurt echter nog steeds verkeer door jouw netwerk, wat in sommige opzichten gevolgen kan hebben, vooral als jouw netwerk een beperkte bandbreedte heeft. Zorg ervoor dat je [begrijpt hoe Snowflake werkt](https://gitlab.torproject.org/tpo/anti-censorship/pluggable-transports/snowflake/-/wikis/home) voordat je beslist of je een proxy wilt gebruiken.
 
-[^1]: The `IsolateDestAddr` setting is discussed on the [Tor mailing list](https://lists.torproject.org/pipermail/tor-talk/2012-May/024403.html) and [Whonix's Stream Isolation documentation](https://www.whonix.org/wiki/Stream_Isolation), where both projects suggest that it is usually not a good approach for most people.
+[^1]: De instelling `IsolateDestAddr` wordt besproken op de [Tor mailing list](https://lists.torproject.org/pipermail/tor-talk/2012-May/024403.html) en [Whonix's Stream Isolation documentation](https://www.whonix.org/wiki/Stream_Isolation), waar beide projecten suggereren dat het meestal geen goede aanpak is voor de meeste mensen.

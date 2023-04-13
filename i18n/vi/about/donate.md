@@ -7,7 +7,7 @@ It takes a lot of [people](https://github.com/privacyguides/privacyguides.org/gr
 
 Phải cần rất nhiều [người](https://github.com/privacyguides/privacyguides.org/graphs/contributors) và [làm việc](https://github.com/privacyguides/privacyguides.org/pulse/monthly) để cập nhật Privacy Guides và quảng bá rộng rãi về quyền riêng tư và giám sát hàng loạt. Nếu bạn thích những gì chúng tôi làm, cách tốt nhất để giúp đỡ là tham gia bằng cách [chỉnh sửa trang web](https://github.com/privacyguides/privacyguides.org) hoặc [đóng góp bản dịch](https://crowdin.com/project/privacyguides).
 
-[Donate on OpenCollective.com](https://opencollective.com/privacyguides/donate ""){.md-button.md-button--primary}
+[Donate on OpenCollective.com](https://opencollective.com/privacyguides/donate){ class="md-button md-button--primary" }
 
 Donations made directly to us on Open Collective are generally tax-deductible in the US, because our fiscal host (the Open Collective Foundation) is a registered 501(c)3 organization. You will receive a receipt from the Open Collective Foundation after donating. Privacy Guides does not provide financial advice, and you should contact your tax advisor to find out whether this is applicable to you.
 

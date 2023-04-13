@@ -2,7 +2,7 @@
 
 Kami menjalankan sejumlah layanan web untuk menguji fitur dan mempromosikan proyek desentralisasi, federasi, dan/atau sumber terbuka yang keren. Banyak dari layanan ini tersedia untuk umum dan dirinci di bawah ini.
 
-[:material-comment-alert: Laporkan masalah](https://discuss.privacyguides.net/c/services/2 ""){.md-button.md-button--primary}
+[:material-comment-alert: Report an issue](https://discuss.privacyguides.net/c/services/2){ class="md-button md-button--primary" }
 
 ## Discourse
 

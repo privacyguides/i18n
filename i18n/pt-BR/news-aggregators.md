@@ -1,5 +1,5 @@
 ---
-title: "News Aggregators"
+title: "Agregadores de Notícias"
 icon: material/rss
 description: These news aggregator clients let you keep up with your favorite blogs and news sites using internet standards like RSS.
 ---

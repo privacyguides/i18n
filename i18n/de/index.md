@@ -43,7 +43,7 @@ schema:
 
 Privatsphäre sollte nicht mit Geheimhaltung verwechselt werden. Wir wissen, was auf der Toilette passiert, aber machen trotzdem die Tür zu. Das liegt daran, dass wir Privatsphäre wollen, keine Geheimhaltung. **Alle** haben etwas zu schützen. Privatsphäre ist etwas, das uns menschlich macht.
 
-[:material-target-account: Häufige Internetbedrohungen](basics/common-threats.md ""){.md-button.md-button--primary}
+[:material-target-account: Common Internet Threats](basics/common-threats.md){ class="md-button md-button--primary" }
 
 ## Was kann ich tun?
 
@@ -53,7 +53,7 @@ Der Versuch, alle unsere Daten ständig vor allen zu schützen, ist unpraktisch,
 
 == Dieser Prozess der Identifizierung von Bedrohungen und der Festlegung von Gegenmaßnahmen wird als **Bedrohungsanalyse** bezeichnet== und bildet die Grundlage für jeden guten Sicherheits- und Datenschutzplan.
 
-[:material-book-outline: Mehr über die Bedrohungsanalyse erfahren](basics/threat-modeling.md ""){.md-button.md-button--primary}
+[:material-book-outline: Learn More About Threat Modeling](basics/threat-modeling.md){ class="md-button md-button--primary" }
 
 ---
 

@@ -120,13 +120,30 @@ Mullvad Browser comes with DuckDuckGo set as the default [search engine](search-
 
 ### Рекомендованные настройки
 
-Эти параметры можно найти на странице настроек *Приватность и защита* ( ≡ → Настройки → Приватность и защита).
+These options can be found in :material-menu: → **Settings**
+
+#### Search
+
+- [ ] Uncheck **Provide search suggestions**
+
+Функции предложения поиска могут быть недоступны в вашем регионе.
+
+Поисковые предложения отправляют все, что вы набираете в адресной строке, в поисковую систему по умолчанию, независимо от того, отправляете ли вы фактический поиск. Отключение поисковых предложений позволяет более точно контролировать данные, которые вы отправляете поставщику поисковых систем.
+
+#### Privacy & Security
 
 ##### Улучшенная защита от отслеживания:
 
 - Выберите «Строгая»
 
 Это защищает вас, блокируя трекеры социальных сетей, скрипты отпечатков пальцев (обратите внимание, что это не защищает вас от *всех* отпечатков пальцев), криптомайнеры, межсайтовые файлы cookie для отслеживания и некоторые другие средства отслеживания. Улучшенная защита от отслеживания защищает от многих распространенных угроз, но не блокирует все пути отслеживания, поскольку разработан таким образом, чтобы минимально или вообще не влиять на удобство использования сайта.
+
+##### Firefox Suggest (US only)
+
+[Firefox Suggest](https://support.mozilla.org/en-US/kb/firefox-suggest) is a feature similar to search suggestions which is only available in the US. We recommend disabling it for the same reason we recommend disabling search suggestions. If you don't see these options under the **Address Bar** header, you do not have the new experience and can ignore these changes.
+
+- [ ] Uncheck **Suggestions from the web**
+- [ ] Uncheck **Suggestions from sponsors**
 
 ##### Куки и данные сайтов:
 
@@ -135,14 +152,6 @@ Mullvad Browser comes with DuckDuckGo set as the default [search engine](search-
 - Выберите «Удалять куки и данные сайтов при закрытии Firefox»
 
 Это защищает вас от постоянных файлов cookie, но не защищает вас от файлов cookie, полученных в течение одного сеанса просмотра. Когда эта функция включена, можно легко очистить куки браузера, просто перезапустив Firefox. Вы можете установить исключения для каждого сайта, если вы хотите оставаться зарегистрированным на определенном сайте, который вы часто посещаете.
-
-##### Отключение поисковых предложений
-
-- [ ] Uncheck **Provide search suggestions**
-
-Функции предложения поиска могут быть недоступны в вашем регионе.
-
-Поисковые предложения отправляют все, что вы набираете в адресной строке, в поисковую систему по умолчанию, независимо от того, отправляете ли вы фактический поиск. Отключение поисковых предложений позволяет более точно контролировать данные, которые вы отправляете поставщику поисковых систем.
 
 ##### Отключение телеметрии
 
@@ -163,7 +172,7 @@ Additionally, the Firefox Accounts service collects [some technical data](https:
 
 Это предотвращает непреднамеренное подключение к веб-сайту с обычным HTTP-текстом. Протокол HTTP в настоящее время используется крайне редко, поэтому это практически не должно повлиять на ваш ежедневный просмотр веб-страниц.
 
-### Firefox Sync
+#### Sync
 
 [Firefox Sync](https://hacks.mozilla.org/2018/11/firefox-sync-privacy/) allows your browsing data (history, bookmarks, etc.) to be accessible on all your devices and protects it with E2EE.
 
@@ -206,6 +215,8 @@ Arkenfox only aims to thwart basic or naive tracking scripts through canvas rand
 
 These options can be found in :material-menu: → **Settings**.
 
+#### Settings
+
 ##### Режим «Только HTTPS»:
 
 Brave включает несколько инструментов защиты от отслеживания в разделе [Shields](https://support.brave.com/hc/en-us/articles/360022973471-What-is-Shields-). Мы рекомендуем включить эти настройки [на всех сайтах](https://support.brave.com/hc/en-us/articles/360023646212-How-do-I-configure-global-and-site-specific-Shields-settings-), которые вы посещаете.
@@ -244,6 +255,7 @@ Shields' options can be downgraded on a per-site basis as needed, but by default
 - [ ] Uncheck **Private window with Tor** (1)
 
     !!! tip "Sanitizing on Close"
+
         - [x] Select **Clear cookies and site data when you close all windows** in the *Cookies and other site data* menu
 
         If you wish to stay logged in to a particular site you visit often, you can set exceptions on a per-site basis under the *Customized behaviors* section.
@@ -261,17 +273,13 @@ Disable built-in extensions you do not use in **Extensions**
 
 ##### Web3
 
-<div class="annotate" markdown>
+Brave's Web3 features can potentially add to your browser fingerprint and attack surface. Unless you use any of features, they should be disabled.
 
-- [x] Select **Disabled** on Method to resolve IPFS resources (1)
+- [ ] Set **Default Ethereum Wallet** to **None**
+- [ ] Set **Default Solana Wallet** to **None**
+- [ ] Set **Method to resolve IPFS resources** to **Disabled
 
-</div>
-
-1. InterPlanetary File System (IPFS) is a decentralized, peer-to-peer network for storing and sharing data in a distributed filesystem. Unless you use the feature, disable it.
-
-##### Apple Pay
-
-Under the *System* menu
+##### System
 
 <div class="annotate" markdown>
 
@@ -281,9 +289,15 @@ Under the *System* menu
 
 1. This option is not present on all platforms.
 
-### Brave Sync
+#### Sync
 
 [Brave Sync](https://support.brave.com/hc/en-us/articles/360059793111-Understanding-Brave-Sync) позволяет синхронизировать данные браузера (историю, закладки и т. д.) между несколькими устройствами без необходимости создавать аккаунт, а также защищает их при помощи E2EE.
+
+#### Brave Rewards and Wallet
+
+**Brave Rewards** lets you recieve Basic Attention Token (BAT) cryptocurrency for performing certain actions within Brave. It relies on a custodial account and KYC from a select number of providers. We do not recommend BAT as a [private cryptocurrency](cryptocurrency.md), nor do we recommend using a [custodial wallet](advanced/payments.md#other-coins-bitcoin-ethereum-etc), so we would discourage using this feature.
+
+**Brave Wallet** operates locally on your computer, but does not support any private cryptocurrencies, so we would discourage using this feature as well.
 
 ## Дополнительные советы
 

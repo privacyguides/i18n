@@ -29,7 +29,7 @@ title: 通用标准
 
 - 必须披露隶属关系，即您在提交的项目中的职位。
 
-- 如果是涉及处理敏感信息的项目，如信使、密码管理器、加密的云存储等，必须有一份安全白皮书。
+- Must have a security whitepaper if it is a project that involves handling of sensitive information like a messenger, password manager, encrypted cloud storage, etc.
     - 第三方审计情况。 我们想知道你是否有一个或计划了一个。 如果可能，请说明谁将进行审计。
 
 - 必须解释该项目在隐私方面带来了什么。

@@ -6,7 +6,7 @@ schema:
   - 
     "@context": http://schema.org
     "@type": WebPage
-    name: Password Manager Recommendations
+    name: Password Manager建議
     url: "./"
   - 
     "@context": http://schema.org

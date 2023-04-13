@@ -89,7 +89,7 @@ A Cryptee 100MB tárhelyet kínál ingyenesen, fizetős lehetőséggel, ha több
 
     ![Org-mode logo](assets/img/notebooks/org-mode.svg){ align=right }
     
-    Az **Org-mode** egy [major mode](https://www.gnu.org/software/emacs/manual/html_node/elisp/Major-Modes.html) a GNU Emacs számára. Az Org-mode jegyzetek vezetésére, teendő listák fenttartására, projektek tervezésére és dokumentumok írására szolgál egy gyors és hatékony nyílt szöveges rendszerrel. Szinkronizálás a [fájlszinkronizációs](file-sharing.md#file-sync) eszközökkel lehetséges.
+    Az **Org-mode** egy [major mode](https://www.gnu.org/software/emacs/manual/html_node/elisp/Major-Modes.html) a GNU Emacs számára. Org-mode is for keeping notes, maintaining to-do lists, planning projects, and authoring documents with a fast and effective plain-text system. Szinkronizálás a [fájlszinkronizációs](file-sharing.md#file-sync) eszközökkel lehetséges.
     
     [:octicons-home-16: Honlap](https://orgmode.org){ .md-button .md-button--primary }
     [:octicons-info-16:](https://orgmode.org/manuals.html){ .card-link title=Dokumentáció}

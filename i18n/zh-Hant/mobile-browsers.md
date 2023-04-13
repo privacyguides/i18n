@@ -6,7 +6,7 @@ schema:
   - 
     "@context": http://schema.org
     "@type": WebPage
-    name: Private Mobile Browser Recommendations
+    name: 私人行動瀏覽器建議
     url: "./"
     relatedLink: "../desktop-browsers/"
   - 
@@ -72,16 +72,16 @@ Tor 瀏覽器是真正匿名瀏覽網際網路的唯一途徑。 當您使用Bra
 
 Brave [Shields](https://support.brave.com/hc/en-us/articles/360022973471-What-is-Shields-) 功能包含一些防指紋識別措施。 我們建議您在所有瀏覽的網頁上設定這些選項 [全局](https://support.brave.com/hc/en-us/articles/360023646212-How-do-I-configure-global-and-site-specific-Shields-settings-) 。
 
-##### Brave shields global defaults
+##### Brave屏蔽全局默認值
 
-Shields' options can be downgraded on a per-site basis as needed, but by default we recommend setting the following:
+Shields 可以選擇根據需要依各網站情況降級，但我們建議預設以下內容：
 
 <div class="annotate" markdown>
 
 - [x] Select **Aggressive** under Block trackers & ads
 
     ??? warning "Use default filter lists"
-        Brave allows you to select additional content filters within the internal `brave://adblock` page. We advise against using this feature; instead, keep the default filter lists. Using extra lists will make you stand out from other Brave users and may also increase attack surface if there is an exploit in Brave and a malicious rule is added to one of the lists you use.
+        Brave allows you to select additional content filters within the internal `brave://adblock` page. 我們建議您不要使用此功能；請保留預設的篩選條件清單。 使用額外清單將使您在一般 Brave 用戶中被突顯出來，如果Brave有漏洞，並將惡意規則添加到您使用的清單中，也可能會增加攻擊面。
 
 - [x] Select **Upgrade connections to HTTPS**
 - [x] Select **Always use secure connections**
@@ -90,17 +90,17 @@ Shields' options can be downgraded on a per-site basis as needed, but by default
 
 </div>
 
-1. This option provides functionality similar to uBlock Origin's advanced [blocking modes](https://github.com/gorhill/uBlock/wiki/Blocking-mode) or the [NoScript](https://noscript.net/) extension.
+1. 此選項提供的功能類似uBlock Origin 進階 [封鎖模式](https://github.com/gorhill/uBlock/wiki/Blocking-mode) 或 [NoScript](https://noscript.net/) 擴展。
 
-##### Clear browsing data
+##### 清除瀏覽資料
 
 - [x] Select **Clear data on exit**
 
-##### Social Media Blocking
+##### 社交媒體屏蔽
 
 - [ ] Uncheck all social media components
 
-##### Other privacy settings
+##### 其他隱私設定
 
 <div class="annotate" markdown>
 
@@ -114,15 +114,15 @@ Shields' options can be downgraded on a per-site basis as needed, but by default
 
 </div>
 
-1. InterPlanetary File System (IPFS) is a decentralized, peer-to-peer network for storing and sharing data in a distributed filesystem. Unless you use the feature, disable it.
+1. InterPlanetary File System (IPFS)是一個分散的對等網絡，用於在分布式文件系統中存儲和共享數據。 除非您使用此功能，否則禁用它。
 
 #### Brave 同步
 
-[Brave Sync](https://support.brave.com/hc/en-us/articles/360059793111-Understanding-Brave-Sync) allows your browsing data (history, bookmarks, etc.) to be accessible on all your devices without requiring an account and protects it with E2EE.
+[Brave Sync](https://support.brave.com/hc/en-us/articles/360059793111-Understanding-Brave-Sync) 允許您在不同設備上訪問瀏覽數據（歷史記錄，書籤等），而無需帳戶且有 E2EE保護。
 
 ## iOS
 
-On iOS, any app that can browse the web is [restricted](https://developer.apple.com/app-store/review/guidelines) to using an Apple-provided [WebKit framework](https://developer.apple.com/documentation/webkit), so there is little reason to use a third-party web browser.
+在 iOS上，任何可以瀏覽網頁的應用程式都是 [限制](https://developer.apple.com/app-store/review/guidelines) 使用 Apple 提供的 [WebKit 框架](https://developer.apple.com/documentation/webkit)，因此沒有理由使用第三方瀏覽器。
 
 ### Safari
 
@@ -144,7 +144,7 @@ On iOS, any app that can browse the web is [restricted](https://developer.apple.
 
 - [x] Enable **Prevent Cross-Site Tracking**
 
-This enables WebKit's [Intelligent Tracking Protection](https://webkit.org/tracking-prevention/#intelligent-tracking-prevention-itp). The feature helps protect against unwanted tracking by using on-device machine learning to stop trackers. ITP protects against many common threats, but it does not block all tracking avenues because it is designed to not interfere with website usability.
+這將啟用 WebKit [智慧型跟蹤保護](https://webkit.org/tracking-prevention/#intelligent-tracking-prevention-itp)。 該功能透過設備的機器學習來阻止跟蹤器不必要的跟蹤。 ITP 可以防止許多常見的威脅，但它不會阻止所有跟蹤途徑，因為它的設計不會干擾網站的可用性。
 
 ##### 隱私報告
 
@@ -152,23 +152,23 @@ This enables WebKit's [Intelligent Tracking Protection](https://webkit.org/track
 
 隱私權報告可透過「頁面設定」選單存取。
 
-##### Privacy Preserving Ad Measurement
+##### 隱私保護廣告測量
 
 - [ ] Disable **Privacy Preserving Ad Measurement**
 
-Ad click measurement has traditionally used tracking technology that infringes on user privacy. [Private Click Measurement](https://webkit.org/blog/11529/introducing-private-click-measurement-pcm/) is a WebKit feature and proposed web standard aimed towards allowing advertisers to measure the effectiveness of web campaigns without compromising on user privacy.
+廣告點擊測量是過去用來追蹤侵犯用戶隱私的技術。 [Private Click Measurement](https://webkit.org/blog/11529/introducing-private-click-measurement-pcm/) 是一個 WebKit 功能和提議的網頁標準，旨在允許廣告商在不影響用戶隱私的情況下衡量網站活動的有效性。
 
-The feature has little privacy concerns on its own, so while you can choose to leave it on, we consider the fact that it's automatically disabled in Private Browsing to be an indicator for disabling the feature.
+此功能本身沒有什麼隱私疑慮，因此您可以選擇不管它，但我們認為，它在私密瀏覽中自動停用反而顯示出功能被關閉的情況。
 
 ##### Always-on Private Browsing
 
-Open Safari and tap the Tabs button, located in the bottom right. Then, expand the Tab Groups list.
+開啟Safari ，然後點按右下角的「標籤」按鈕。 然後，擴展標籤組列表。
 
 - [x] Select **Private**
 
-Safari's Private Browsing mode offers additional privacy protections. Private Browsing uses a new [ephemeral](https://developer.apple.com/documentation/foundation/urlsessionconfiguration/1410529-ephemeral) session for each tab, meaning tabs are isolated from one another. There are also other smaller privacy benefits with Private Browsing, such as not sending a webpage’s address to Apple when using Safari's translation feature.
+Safari的私人瀏覽模式提供額外的隱私保護。 隱私瀏覽每個標籤分頁使用新的 [短暫](https://developer.apple.com/documentation/foundation/urlsessionconfiguration/1410529-ephemeral) 工作階段，這意味著標籤彼此隔離。 隱私瀏覽還有其他較小的隱私優勢，例如在使用Safari的翻譯功能時不會將網頁的地址傳送給Apple。
 
-Do note that Private Browsing does not save cookies and website data, so it won't be possible to remain signed into sites. This may be an inconvenience.
+請注意，「私密瀏覽」不會儲存Cookie和網站資料，因此無法繼續登入網站。 這可能會造成不便。
 
 ##### iCloud 同步
 
@@ -178,7 +178,7 @@ Safari 歷史記錄、標籤組、iCloud 標籤分頁和保存密碼的同步都
 
 - [x] Turn On **Advanced Data Protection**
 
-If you use iCloud with Advanced Data Protection disabled, we also recommend checking to ensure Safari's default download location is set to locally on your device. This option can be found in :gear: **Settings** → **Safari** → **General** → **Downloads**.
+如果您在禁用「進階資料保護」的情況下使用iCloud ，我們亦建議您檢查，確保 Safari 預設下載位置已設定為裝置上的本機位置。 此選項可在 :gear: **設定** → **Safari** → **一般** → **下載**中找到。
 
 ### AdGuard
 
@@ -216,7 +216,7 @@ If you use iCloud with Advanced Data Protection disabled, we also recommend chec
 - 為了使瀏覽器更尊重隱私權而作的任何變動都不應對用戶體驗產生負面影響。
 - 安卓版瀏覽器必須使用 Chromium 引擎。
     - 不幸的是， Mozilla GeckoView仍然不如Android上的Chromium安全。
-    - iOS browsers are limited to WebKit.
+    - iOS瀏覽器僅限於WebKit。
 
 ### 擴展元件標準
 

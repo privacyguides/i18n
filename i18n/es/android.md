@@ -14,14 +14,14 @@ schema:
     name: Android
     image: /assets/img/android/android.svg
     url: https://source.android.com/
-    sameAs: https://en.wikipedia.org/wiki/Android_(operating_system)
+    sameAs: https://es.wikipedia.org/wiki/Android_(operating_system)
   - 
     "@context": http://schema.org
     "@type": CreativeWork
     name: GrapheneOS
     image: /assets/img/android/grapheneos.svg
     url: https://grapheneos.org/
-    sameAs: https://en.wikipedia.org/wiki/GrapheneOS
+    sameAs: https://es.wikipedia.org/wiki/GrapheneOS
     subjectOf:
       "@context": http://schema.org
       "@type": WebPage
@@ -45,7 +45,7 @@ schema:
       "@type": Brand
       name: Google
     image: /assets/img/android/google-pixel.png
-    sameAs: https://en.wikipedia.org/wiki/Google_Pixel
+    sameAs: https://es.wikipedia.org/wiki/Google_Pixel
     review:
       "@type": Review
       author:
@@ -97,10 +97,7 @@ Recomendamos instalar uno de estos sistemas operativos Android personalizados en
 
 !!! note "Nota"
 
-    ![Logotipo de GrapheneOS](assets/img/android/grapheneos.svg#only-light){ align=right }
-    ![Logotipo de GrapheneOS ](assets/img/android/grapheneos-dark.svg#only-dark){ align=right }
-    
-    **GrapheneOS** es la mejor opción cuando se trata de privacidad y seguridad. GrapheneOS proporciona mejoras adicionales de [seguridad](https://es.wikipedia.org/wiki/Endurecimiento_(inform%C3%A1tica)) y de privacidad.
+    Los dispositivos al final de su vida útil (como GrapheneOS o los dispositivos de "soporte extendido" de CalyxOS) no disponen de parches de seguridad completos (actualizaciones de firmware) debido a que el OEM ha interrumpido el soporte. Estos dispositivos no pueden considerarse completamente seguros independientemente del software instalado.
 
 ### GrapheneOS
 
@@ -111,7 +108,7 @@ Recomendamos instalar uno de estos sistemas operativos Android personalizados en
     
     **GrapheneOS** es la mejor opción cuando se trata de privacidad y seguridad.
     
-    GrapheneOS proporciona mejoras adicionales de seguridad (https://en.wikipedia.org/wiki/Hardening_(computing)) y privacidad. Dispone de un [asignador de memoria reforzado](https://github.com/GrapheneOS/hardened_malloc), permisos de red y de sensores, y otras [características de seguridad](https://grapheneos.org/features). GrapheneOS también incluye actualizaciones completas de firmware y compilaciones firmadas, por lo que el arranque verificado es totalmente compatible.
+    GrapheneOS proporciona mejoras [adicionales de seguridad](https://en.wikipedia.org/wiki/Hardening_(computing)) y privacidad. Dispone de un [asignador de memoria reforzado](https://github.com/GrapheneOS/hardened_malloc), permisos de red y de sensores, y otras [características de seguridad](https://grapheneos.org/features). GrapheneOS también incluye actualizaciones completas de firmware y compilaciones firmadas, por lo que el arranque verificado es totalmente compatible.
     
     [:octicons-home-16: Página Principal](https://grapheneos.org/){ .md-button .md-button--primary }
     [:octicons-eye-16:](https://grapheneos.org/faq#privacy-policy){ .card-link title="Política de Privacidad" }
@@ -318,7 +315,7 @@ La tienda de Google Play requiere una cuenta de Google para iniciar sesión, lo 
 
 !!! recommendation
 
-    ![Logo Aurora Store](assets/img/android/aurora-store. ebp){ align=right }
+    ![Logo Aurora Store](assets/img/android/aurora-store.webp){ align=right }
     
     **Aurora Store** es un cliente de Google Play Store que no requiere de una cuenta de Google, Servicios Google Play, o microG para descargar aplicaciones.
     

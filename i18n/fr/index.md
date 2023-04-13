@@ -43,7 +43,7 @@ Tout comme le droit au mariage mixte, le droit de vote des femmes, la liberté d
 
 Il ne faut pas confondre la vie privée et le secret. Même si on sait ce qui se passe dans la salle de bain, vous fermez quand même la porte. C'est parce que vous voulez une vie privée, et non pas du secret. **Tout le monde** a quelque chose à protéger. La vie privée est quelque chose qui nous rend humains.
 
-[:material-target-account: Menaces courantes sur internet](basics/common-threats.md ""){.md-button.md-button--primary}
+[:material-target-account: Common Internet Threats](basics/common-threats.md){ class="md-button md-button--primary" }
 
 ## Que dois-je faire ?
 
@@ -53,7 +53,7 @@ Essayer de protéger toutes vos données contre tout le monde, tout le temps, es
 
 ==Ce processus d'identification des menaces et de définition des contre-mesures est appelé la **modélisation des menaces**==, et constitue la base de tout bon plan de sécurité et de vie privée.
 
-[:material-book-outline: En savoir plus sur la modélisation des menaces](basics/threat-modeling.md ""){.md-button.md-button--primary}
+[:material-book-outline: Learn More About Threat Modeling](basics/threat-modeling.md){ class="md-button md-button--primary" }
 
 ---
 

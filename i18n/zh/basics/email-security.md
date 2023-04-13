@@ -22,7 +22,7 @@ description: Email is inherently insecure in many ways, and these are some of th
 
 ### 我如何保护我的私钥？
 
-智能卡（如 [Yubikey](https://support.yubico.com/hc/en-us/articles/360013790259-Using-Your-YubiKey-with-OpenPGP) 或 [Nitrokey](https://www.nitrokey.com)）通过从运行电子邮件/网络邮件客户端的设备（手机、平板电脑、计算机等）接收加密的电子邮件信息来工作。 然后，该信息被智能卡解密，解密后的内容被送回设备。
+A smartcard (such as a [Yubikey](https://support.yubico.com/hc/en-us/articles/360013790259-Using-Your-YubiKey-with-OpenPGP) or [Nitrokey](https://www.nitrokey.com)) works by receiving an encrypted email message from a device (phone, tablet, computer, etc.) running an email/webmail client. 然后，该信息被智能卡解密，解密后的内容被送回设备。
 
 在智能卡上进行解密是很有利的，这样可以避免将你的私钥暴露给某个被攻破的设备。
 

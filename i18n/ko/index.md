@@ -43,7 +43,7 @@ schema:
 
 '무언가를 숨기거나 감추는 것'과 '사생활 보호'를 혼동하면 안 됩니다. 여러분이 화장실에서 뭘 하는지는 명백함에도 불구하고, 여러분은 항상 화장실 문을 닫아둡니다. 이는 여러분이 무언가를 감추고자 한 것이 아닌, 사생활을 보호하고자 한 것이죠. **누구나** 보호해야 할 것이 있습니다. 우리가 사람답게 살기 위해서는 프라이버시가 필요합니다.
 
-[:material-target-account: 일반적인 인터넷 위협](basics/common-threats.md ""){.md-button.md-button--primary}
+[:material-target-account: Common Internet Threats](basics/common-threats.md){ class="md-button md-button--primary" }
 
 ## 무엇을 해야 하나요?
 
@@ -53,7 +53,7 @@ schema:
 
 ==위협을 식별하고, 대응책을 정의하는 과정을 **위협 모델링**==이라 합니다. 훌륭한 보안, 개인정보 보호 계획이라면 언제나 그 근간에는 위협 모델링이 존재합니다.
 
-[:material-book-outline: 위협 모델링에 대해 자세히 알아보기](basics/threat-modeling.md ""){.md-button.md-button--primary}
+[:material-book-outline: Learn More About Threat Modeling](basics/threat-modeling.md){ class="md-button md-button--primary" }
 
 ---
 

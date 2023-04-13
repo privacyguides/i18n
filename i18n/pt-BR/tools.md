@@ -8,7 +8,7 @@ description: Privacy Guides é o site mais transparente e confiável para encont
 
 Se você está procurando uma solução específica para algo, estas são as ferramentas de hardware e software que recomendamos em uma variedade de categorias. Nossas ferramentas de privacidade recomendadas são principalmente escolhidas com base em recursos de segurança, com ênfase adicional em ferramentas descentralizadas e de código aberto. São aplicáveis a uma variedade de modelos de ameaça que vão desde a proteção contra programas globais de vigilância em massa e evitar grandes empresas de tecnologia, até à atenuação de ataques, mas só você pode determinar o que funcionará melhor para as suas necessidades.
 
-Se estiver à procura de orientação para descobrir as melhores ferramentas de privacidade e programas alternativos para suas necessidades, inicie uma discussão em nosso [fórum](https://discuss.privacyguides.net/) ou em nossa comunidade [Matrix](https://matrix.to/#/#privacyguides:matrix.org)!
+Se você estiver à procura de orientação para descobrir as melhores ferramentas de privacidade e programas alternativos para suas necessidades, inicie uma discussão em nosso [fórum](https://discuss.privacyguides.net/) ou em nossa comunidade [Matrix](https://matrix.to/#/#privacyguides:matrix.org)!
 
 Para mais detalhes sobre cada projeto, porque foram escolhidos, e dicas ou truques adicionais que recomendamos, clique no link "Saiba mais" em cada seção, ou clique na própria recomendação para ser levado a essa seção específica da página.
 
@@ -191,7 +191,7 @@ We [recommend](dns.md#recommended-providers) a number of encrypted DNS servers b
 
 [Saiba mais :material-arrow-right-drop-circle:](email.md#email-aliasing-services)
 
-#### Nossos Critérios
+#### Email Auto-Hospedado
 
 <div class="grid cards" markdown>
 
@@ -240,15 +240,15 @@ We [recommend](dns.md#recommended-providers) a number of encrypted DNS servers b
 
 ### Serviços VPN
 
-??? perigo "VPNs não dão anonimato"
+??? danger "VPNs não dão anonimato"
 
-    Using a VPN will **not** keep your browsing habits anonymous, nor will it add additional security to non-secure (HTTP) traffic.
+    O uso de uma VPN **não** manterá seus hábitos de navegação anônimos, nem adicionará segurança ao tráfego não seguro (HTTP).
     
-    If you are looking for **anonymity**, you should use the Tor Browser **instead** of a VPN.
+    Se você está procurando por **anonimato**, você deve usar o Navegador Tor **ao invés de ** de uma VPN.
     
-    If you're looking for added **security**, you should always ensure you're connecting to websites using HTTPS. A VPN is not a replacement for good security practices.
+    Se você está procurando por * * segurança * * adicional, você sempre deve verificar se está se conectando a sites que usam HTTPS. Uma VPN não substitui boas práticas de segurança.
     
-    [Learn more :material-arrow-right-drop-circle:](vpn.md)
+    [Saiba mais :material-arrow-right-drop-circle:](vpn.md)
 
 <div class="grid cards" markdown>
 
@@ -260,7 +260,7 @@ We [recommend](dns.md#recommended-providers) a number of encrypted DNS servers b
 
 [Saiba mais :material-arrow-right-drop-circle:](vpn.md)
 
-## Programa (Software)
+## Programas (Software)
 
 ### Agenda/Calendário Sincronizado
 
@@ -319,9 +319,9 @@ We [recommend](dns.md#recommended-providers) a number of encrypted DNS servers b
 
 ??? info "Criptografia de Disco do Sistema Operacional"
 
-    Para criptografar sua unidade de disco do sistema operacional, normalmente recomendamos usar qualquer aplicativo de criptografia que seu sistema operacional forneça, seja **BitLocker** no Windows, **FileVault** no macOS ou **LUKS** no Linux. Esses programas vem com o sistema operacional e normalmente usam componentes de criptografia do equipamento físico (hardware), como o TPM, que outros programas de criptografia de disco completo, como o VeraCrypt, não usam. VeraCrypt is still suitable for non-operating system disks such as external drives, especially drives that may be accessed from multiple operating systems.
+    Para criptografar sua unidade de disco do sistema operacional, normalmente recomendamos usar qualquer aplicativo de criptografia que seu sistema operacional forneça, seja **BitLocker** no Windows, **FileVault** no macOS ou **LUKS** no Linux. Esses programas vem com o sistema operacional e normalmente usam componentes de criptografia do equipamento físico (hardware), como o TPM, que outros programas de criptografia de disco completo, como o VeraCrypt, não usam. O VeraCrypt ainda é adequado para discos de sistemas não operacionais, como unidades externas, especialmente unidades que podem ser acessadas a partir de vários sistemas operacionais.
     
-    [Learn more :material-arrow-right-drop-circle:](encryption.md##operating-system-included-full-disk-encryption-fde)
+    [Saiba mais :material-arrow-right-drop-circle:](encryption.md##operating-system-included-full-disk-encryption-fde)
 
 <div class="grid cards" markdown>
 
@@ -336,7 +336,7 @@ We [recommend](dns.md#recommended-providers) a number of encrypted DNS servers b
 
 [Saiba mais :material-arrow-right-drop-circle:](encryption.md)
 
-#### OpenPGP Clients
+#### Clientes OpenPGP
 
 <div class="grid cards" markdown>
 
@@ -349,7 +349,7 @@ We [recommend](dns.md#recommended-providers) a number of encrypted DNS servers b
 
 [Saiba mais :material-arrow-right-drop-circle:](encryption.md#openpgp)
 
-### File Sharing and Sync
+### Compartilhamento e Sincronização de Arquivos
 
 <div class="grid cards" markdown>
 
@@ -380,7 +380,7 @@ We [recommend](dns.md#recommended-providers) a number of encrypted DNS servers b
 
 [Saiba mais :material-arrow-right-drop-circle:](frontends.md)
 
-### Multi-Factor Authentication Tools
+### Ferramentas de Autenticação de Múltiplos Fatores (MFA)
 
 <div class="grid cards" markdown>
 
@@ -393,7 +393,7 @@ We [recommend](dns.md#recommended-providers) a number of encrypted DNS servers b
 
 [Saiba mais :material-arrow-right-drop-circle:](multi-factor-authentication.md)
 
-### News Aggregators
+### Agregadores de Notícias
 
 <div class="grid cards" markdown>
 
@@ -409,7 +409,7 @@ We [recommend](dns.md#recommended-providers) a number of encrypted DNS servers b
 
 [Saiba mais :material-arrow-right-drop-circle:](news-aggregators.md)
 
-### Notebooks
+### Cadernos
 
 <div class="grid cards" markdown>
 
@@ -422,7 +422,7 @@ We [recommend](dns.md#recommended-providers) a number of encrypted DNS servers b
 
 [Saiba mais :material-arrow-right-drop-circle:](notebooks.md)
 
-### Password Managers
+### Gerenciadores de Senhas
 
 <div class="grid cards" markdown>
 
@@ -438,7 +438,7 @@ We [recommend](dns.md#recommended-providers) a number of encrypted DNS servers b
 
 [Saiba mais :material-arrow-right-drop-circle:](passwords.md)
 
-### Productivity Tools
+### Ferramentas de Produtividade
 
 <div class="grid cards" markdown>
 
@@ -452,7 +452,7 @@ We [recommend](dns.md#recommended-providers) a number of encrypted DNS servers b
 
 [Saiba mais :material-arrow-right-drop-circle:](productivity.md)
 
-### Real-Time Communication
+### Comunicação em Tempo Real
 
 <div class="grid cards" markdown>
 
@@ -466,7 +466,7 @@ We [recommend](dns.md#recommended-providers) a number of encrypted DNS servers b
 
 [Saiba mais :material-arrow-right-drop-circle:](real-time-communication.md)
 
-### Video Streaming Clients
+### Clientes de Streaming de Vídeo
 
 <div class="grid cards" markdown>
 

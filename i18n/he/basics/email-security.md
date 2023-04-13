@@ -22,7 +22,7 @@ description: אימייל הוא מטבעו לא מאובטח במובנים ר�
 
 ### כיצד אוכל להגן על המפתחות הפרטיים שלי?
 
-כרטיס חכם (כגון [Yubikey](https://support.yubico.com/hc/en-us/articles/360013790259-Using-Your-YubiKey-with-OpenPGP) or [Nitrokey](https://www.nitrokey.com)) עובד על ידי קבלת הודעת אימייל מוצפנת ממכשיר (טלפון, טאבלט, מחשב וכו') המריץ לקוח אימייל/מייל אינטרנט. לאחר מכן, ההודעה מפוענחת על ידי הכרטיס החכם והתוכן המפוענח נשלח חזרה למכשיר.
+A smartcard (such as a [Yubikey](https://support.yubico.com/hc/en-us/articles/360013790259-Using-Your-YubiKey-with-OpenPGP) or [Nitrokey](https://www.nitrokey.com)) works by receiving an encrypted email message from a device (phone, tablet, computer, etc.) running an email/webmail client. לאחר מכן, ההודעה מפוענחת על ידי הכרטיס החכם והתוכן המפוענח נשלח חזרה למכשיר.
 
 כדאי שהפענוח יתרחש בכרטיס החכם כדי להימנע מחשיפת המפתח הפרטי שלך למכשיר פגום.
 

@@ -115,7 +115,7 @@ Dessutom hämtar vissa distributioner inte uppdateringar av den fasta programvar
 
 ### Randomisering av MAC-adresser
 
-Många Linuxdistributioner för skrivbordssystem (Fedora, openSUSE osv.) levereras med [NetworkManager](https://en.wikipedia.org/wiki/NetworkManager), för att konfigurera Ethernet- och Wi-Fi-inställningar.
+Many desktop Linux distributions (Fedora, openSUSE, etc.) will come with [NetworkManager](https://en.wikipedia.org/wiki/NetworkManager), to configure Ethernet and Wi-Fi settings.
 
 Det är möjligt att [randomisera MAC-adressen](https://fedoramagazine.org/randomize-mac-address-nm/) [MAC-adressen](https://en.wikipedia.org/wiki/MAC_address) när du använder NetworkManager. Detta ger lite mer integritet i Wi-Fi-nätverk eftersom det är svårare att spåra specifika enheter i nätverket du är ansluten till. Den [**gör dig inte anonym**](https://papers.mathyvanhoef.com/wisec2016.pdf).
 

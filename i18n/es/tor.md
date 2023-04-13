@@ -1,7 +1,7 @@
 ---
 title: "Red Tor"
 icon: simple/torproject
-description: Protect your internet browsing from prying eyes by using the Tor network, a secure network which circumvents censorship.
+description: Protege tu navegación por Internet de miradas intrusas utilizando la red Tor, una red segura que elude la censura.
 ---
 
 ![Logotipo de Tor](assets/img/self-contained-networks/tor.svg){ align=right }
@@ -51,9 +51,9 @@ Hay varias maneras de conectarte a la red Tor desde tu dispositivo, la más util
 
     **Nunca** deberías instalar ninguna extensión adicional en el Navegador Tor, ni siquiera las que sugerimos para Firefox. Las extensiones del navegador y las configuraciones no estándar te hacen destacar de los demás en la red Tor, haciendo así que tu navegador sea más fácil de [fingerprint](https://support.torproject.org/glossary/browser-fingerprinting).
 
-El navegador Tor está diseñado para evitar la toma de huellas dactilares o tu identificación basado en la configuración de tu navegador. Por lo tanto, es imperativo que **no** modifiques el navegador más allá de los [niveles de seguridad](https://tb-manual.torproject.org/security-settings/) predeterminados.
+El navegador Tor está diseñado para evitar la toma de huellas digirtales o tu identificación debido a la configuración de tu navegador. Por lo tanto, es imperativo que **no** modifiques el navegador más allá de los [niveles de seguridad](https://tb-manual.torproject.org/security-settings/) predeterminados.
 
-### Perfiles de usuario
+### Orbot
 
 !!! recommendation
 
@@ -73,17 +73,17 @@ El navegador Tor está diseñado para evitar la toma de huellas dactilares o tu 
         - [:simple-appstore: App Store](https://apps.apple.com/us/app/orbot/id1609461599)
         - [:simple-github: GitHub](https://github.com/guardianproject/orbot/releases)
 
-We previously recommended enabling the *Isolate Destination Address* preference in Orbot settings. While this setting can theoretically improve privacy by enforcing the use of a different circuit for each IP address you connect to, it doesn't provide a practical advantage for most applications (especially web browsing), can come with a significant performance penalty, and increases the load on the Tor network. We no longer recommend adjusting this setting from its default value unless you know you need to.[^1]
+Anteriormente recomendamos activar la preferencia *Aislar direcciones de destino* en los ajustes de Orbot. Aunque esta configuración puede mejorar teóricamente la privacidad forzando el uso de un circuito diferente para cada dirección IP a la que se conecte, no proporciona una ventaja práctica para la mayoría de las aplicaciones (especialmente navegación web), puede conllevar una penalización significativa del rendimiento, y aumenta la carga en la red Tor. Ya no recomendamos ajustar esta configuración desde su valor predeterminado a menos que sepa que lo necesita.[^1]
 
 !!! tip "Consejos para Android"
 
-    Orbot puede hacer de proxy de aplicaciones individuales si soportan SOCKS o proxy HTTP. También puede hacer un proxy de todas sus conexiones de red usando [VpnService](https://developer.android.com/reference/android/net/VpnService) y se puede usar con el killswitch VPN en :gear: * * Configuración → ** *Red e Internet* → **VPN** → :gear: → **Bloquear conexiones sin VPN**.
+    Orbot puede hacer de proxy de aplicaciones individuales si soportan SOCKS o proxy HTTP. También puede hacer de proxy de todas tus conexiones de red usando [VpnService](https://developer.android.com/reference/android/net/VpnService) y se puede usar con el killswitch VPN en :gear: **Ajustes** → ** *Red e Internet* → **VPN** → :gear: → **Bloquear conexiones sin VPN**.
     
     Orbot suele estar desactualizado en el [repositorio F-Droid](https://guardianproject.info/fdroid) de Guardian Project y en [Google Play](https://play.google.com/store/apps/details?id=org.torproject.android), así que considera descargarlo directamente desde el [repositorio GitHub](https://github.com/guardianproject/orbot/releases).
     
     Todas las versiones están firmadas con la misma firma, por lo que deberían ser compatibles entre sí.
 
-## Relés y puentes
+## Repetidores y puentes
 
 ### Snowflake
 
@@ -118,4 +118,4 @@ Snowflake no aumenta tu privacidad de ninguna manera, ni se utiliza para conecta
 
 Ejecutar un proxy Snowflake es de bajo riesgo, incluso más que ejecutar un relé Tor o un puente ya que no son esfuerzos particularmente arriesgados. Sin embargo, no deja de ser un proxy de tráfico a través de tu red, lo que puede tener consecuencias en algunos aspectos, especialmente si tu red tiene un ancho de banda limitado. Asegúrate de que entiendes [cómo funciona Snowflake](https://gitlab.torproject.org/tpo/anti-censorship/pluggable-transports/snowflake/-/wikis/home) antes de decidir si ejecutas un proxy.
 
-[^1]: The `IsolateDestAddr` setting is discussed on the [Tor mailing list](https://lists.torproject.org/pipermail/tor-talk/2012-May/024403.html) and [Whonix's Stream Isolation documentation](https://www.whonix.org/wiki/Stream_Isolation), where both projects suggest that it is usually not a good approach for most people.
+[^1]: El ajuste `IsolateDestAddr` se discute en [Tor mailing lis](https://lists.torproject.org/pipermail/tor-talk/2012-May/024403.html) y [Documentación sobre Stream Isolation de Whonix](https://www.whonix.org/wiki/Stream_Isolation), donde ambos proyectos sugieren que no suele ser un buen enfoque para la mayoría de la gente.

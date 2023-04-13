@@ -29,7 +29,7 @@ Vi har dessa krav på utvecklare som vill lämna in sitt projekt eller sin progr
 
 - Måste uppge tillhörighet, det vill säga din position inom projektet som lämnas in.
 
-- Måste ha ett säkerhetsdokument om det är ett projekt som innebär hantering av känslig information som en budbärare, lösenordshanterare, krypterad molnlagring etc.
+- Must have a security whitepaper if it is a project that involves handling of sensitive information like a messenger, password manager, encrypted cloud storage, etc.
     - Tredje parts revisionsstatus. Vi vill veta om du har en sådan, eller om du har en planerad sådan. Om möjligt, ange vem som kommer att genomföra revisionen.
 
 - Måste förklara vad projektet tillför när det gäller integritetsskydd.

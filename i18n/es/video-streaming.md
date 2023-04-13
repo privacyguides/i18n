@@ -21,13 +21,13 @@ La principal amenaza al utilizar una plataforma de streaming es que sus hábitos
     [:octicons-info-16:](https://lbry.com/faq){ .card-link title=Documentación}
     [:octicons-code-16:](https://github.com/lbryio/lbry-desktop){ .card-link title="Código fuente" }
     
-    ??? Descargas
+    ??? downloads "Descargas"
     
         - [:simple-windows11: Windows](https://lbry.com/windows)
         - [:simple-apple: macOS](https://lbry.com/osx)
         - [:simple-linux: Linux](https://lbry.com/linux)
 
-!!! nota
+!!! note "Nota"
 
     Solo se recomienda el **cliente de escritorio LBRY**, ya que el sitio web [Odysee](https://odysee.com) y los clientes LBRY en F-Droid, Play Store y App Store tienen sincronización y telemetría obligatorias.
 

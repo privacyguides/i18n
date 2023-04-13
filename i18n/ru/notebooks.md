@@ -89,7 +89,7 @@ Cryptee предлагает 100 МБ хранилища бесплатно, а 
 
     ![Логотип Org-mode](assets/img/notebooks/org-mode.svg){ align=right }
     
-    **Org-mode** - это [основной режим](https://www.gnu.org/software/emacs/manual/html_node/elisp/Major-Modes.html) для GNU Emacs. Org-mode предназначен для ведения заметок, списков задач, планирования проектов и создания документов с помощью быстрой и эффективной системы работы с обычным текстом. Синхронизация возможна с помощью инструментов [синхронизации файлов](file-sharing.md#синхронизация-файлов).
+    **Org-mode** - это [основной режим](https://www.gnu.org/software/emacs/manual/html_node/elisp/Major-Modes.html) для GNU Emacs. Org-mode is for keeping notes, maintaining to-do lists, planning projects, and authoring documents with a fast and effective plain-text system. Синхронизация возможна с помощью инструментов [синхронизации файлов](file-sharing.md#синхронизация-файлов).
     
     [:octicons-home-16: Домашняя страница](https://orgmode.org){ .md-button .md-button--primary }
     [:octicons-info-16:](https://orgmode.org/manuals.html){ .card-link title=Документация}

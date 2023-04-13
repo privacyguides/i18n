@@ -47,11 +47,11 @@ Los modelos de Nitrokey se pueden configurar usando la [aplicación de Nitrokey]
 
 Para los modelos que admiten HOTP y TOTP, hay 3 ranuras para HOTP y 15 para TOTP. Algunas Nitrokeys pueden actuar como administrador de contraseñas. Pueden almacenar 16 credenciales diferentes y cifrarlas utilizando la misma contraseña que la interfaz OpenPGP.
 
-!!! advertencia
+!!! warning "Advertencia"
 
     Aunque las Nitrokeys no revelan los secretos HOTP/TOTP al dispositivo al que están conectadas, el almacenamiento HOTP y TOTP **no** está cifrado y es vulnerable a ataques físicos. Si desea almacenar con HOTP o TOTP estos secretos, le recomendamos encarecidamente que utilice un Yubikey en su lugar.
 
-!!! advertencia
+!!! warning "Advertencia"
 
     El restablecimiento de la interfaz OpenPGP en una Nitrokey también hará la base de datos de contraseñas [inaccessible](https://docs.nitrokey.com/pro/linux/factory-reset).
 
@@ -63,7 +63,7 @@ El firmware de Nitrokey es de código abierto, a diferencia del de YubiKey. El f
 
 **Por favor, tenga en cuenta que no estamos afiliados con ninguno de los proyectos que recomendamos.** Además de [nuestros criterios estándar](about/criteria.md), hemos desarrollado un conjunto claro de requisitos que nos permiten ofrecer recomendaciones objetivas. Sugerimos que usted se familiarice con esta lista, antes de decidir utilizar un proyecto y realizar su propia investigación para asegurarse de que es la elección ideal para usted.
 
-!!! ejemplo "Esta sección es nueva"
+!!! example "Esta sección es nueva"
 
     Estamos trabajando en establecer criterios definidos para cada sección de nuestra página, y esto puede estar sujeto a cambios. Si tiene alguna duda sobre nuestros criterios, por favor [pregunte en nuestro foro](https://discuss.privacyguides.net/latest) y no asuma que no hemos tenido en cuenta algo a la hora de hacer nuestras recomendaciones si no aparece aquí. Son muchos los factores que se tienen en cuenta y se debaten cuando recomendamos un proyecto, y documentar cada uno de ellos es un trabajo en curso.
 
@@ -103,7 +103,7 @@ Recomendamos encarecidamente que utilice aplicaciones TOTP para móviles en luga
     [:octicons-code-16:](https://github.com/beemdevelopment/Aegis){ .card-link title="Código Fuente" }
     [:octicons-heart-16:](https://www.buymeacoffee.com/beemdevelopment){ .card-link title=Contribuir }
     
-    ??? descargas
+    ??? downloads "Descargas"
     
         - [:simple-googleplay: Google Play](https://play.google.com/store/apps/details?id=com.beemdevelopment.aegis)
         - [:simple-github: GitHub](https://github.com/beemdevelopment/Aegis/releases)
@@ -121,7 +121,7 @@ Recomendamos encarecidamente que utilice aplicaciones TOTP para móviles en luga
     [:octicons-code-16:](https://github.com/raivo-otp/ios-application){ .card-link title="Código Fuente" }
     [:octicons-heart-16:](https://raivo-otp.com/donate){ .card-link title=Contribuir }
     
-    ??? descargas
+    ??? downloads "Descargas"
     
         - [:simple-appstore: App Store](https://apps.apple.com/us/app/raivo-otp/id1459042137)
 
@@ -129,11 +129,11 @@ Recomendamos encarecidamente que utilice aplicaciones TOTP para móviles en luga
 
 **Por favor, tenga en cuenta que no estamos afiliados con ninguno de los proyectos que recomendamos.** Además de [nuestros criterios estándar](about/criteria.md), hemos desarrollado un conjunto claro de requisitos que nos permiten ofrecer recomendaciones objetivas. Sugerimos que usted se familiarice con esta lista, antes de decidir utilizar un proyecto y realizar su propia investigación para asegurarse de que es la elección ideal para usted.
 
-!!! ejemplo "Esta sección es nueva"
+!!! example "Esta sección es nueva"
 
     Estamos trabajando en establecer criterios definidos para cada sección de nuestra página, y esto puede estar sujeto a cambios. Si tiene alguna duda sobre nuestros criterios, por favor [pregunte en nuestro foro](https://discuss.privacyguides.net/latest) y no asuma que no hemos tenido en cuenta algo a la hora de hacer nuestras recomendaciones si no aparece aquí. Son muchos los factores que se tienen en cuenta y se debaten cuando recomendamos un proyecto, y documentar cada uno de ellos es un trabajo en curso.
 
-- Source code must be publicly available.
+- El código fuente debe estar a disposición del público.
 - No debe requerir conexión a Internet.
 - No debe sincronizarse con un servicio de sincronización/copia de seguridad en la nube de terceros.
     - Es aceptable el soporte de sincronización E2EE** Opcional** con herramientas nativas del sistema operativo, por ejemplo, sincronización cifrada a través de iCloud.

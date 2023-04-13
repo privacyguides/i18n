@@ -24,11 +24,11 @@ A veces, los servicios intentarán obligarle a registrarse mediante el bloqueo a
     [:octicons-info-16:](https://codeberg.org/librarian/librarian/wiki){ .card-link title=Documentación}
     [:octicons-code-16:](https://codeberg.org/librarian/librarian){ .card-link title="Código Fuente" }
 
-!!! advertencia
+!!! warning "Advertencia"
 
     Librarian no proporciona un proxy para los vídeos por defecto. Los vídeos vistos a través de Librarian seguirán realizando conexiones directas a los servidores de Odysee (por ejemplo, 'odycdn.com'); sin embargo, algunas instancias pueden habilitar el proxy, lo que se detallaría en la política de privacidad de la instancia.
 
-!!! consejo
+!!! tip "Consejo"
 
     Librarian es útil si quiere ver contenido LBRY en el móvil sin telemetría obligatoria y si quiere desactivar JavaScript en su navegador, como es el caso de [Tor Browser](https://www.torproject.org/) en el nivel de seguridad Más Seguro.
 
@@ -54,7 +54,7 @@ Cuando utilice una instancia de Librarian, asegúrese de leer la política de pr
     [:octicons-code-16:](https://github.com/zedeus/nitter){ .card-link title="Código Fuente" }
     [:octicons-heart-16:](https://github.com/zedeus/nitter#nitter){ .card-link title=Contribuir }
 
-!!! consejo
+!!! tip "Consejo"
 
     Nitter es útil si quiere navegar por el contenido de Twitter sin tener que iniciar sesión y si quieres desactiva JavaScript en su navegador, como es el caso de [Tor Browser](https://www.torproject.org/) en el nivel de seguridad Más Seguro. También le permite [crear canales RSS para Twitter](news-aggregators.md#twitter).
 
@@ -79,7 +79,7 @@ Cuando utilice una instancia de Nitter, asegúrese de leer la política de priva
     [:octicons-info-16:](https://github.com/pablouser1/ProxiTok/wiki){ .card-link title=Documentación}
     [:octicons-code-16:](https://github.com/pablouser1/ProxiTok){ .card-link title="Código Fuente" }
 
-!!! consejo
+!!! tip "Consejo"
 
     PorxiTok es útil si quiere desactivar JavaScript en su navegador como en el navegador [Tor](https://www.torproject.org/) en la configuración de seguridad Más Segura.
 
@@ -105,14 +105,14 @@ Cuando utilice una instancia de ProxiTok, asegúrese de leer la política de pri
     [:octicons-code-16:](https://github.com/FreeTubeApp/FreeTube){ .card-link title="Código Fuente" }
     [:octicons-heart-16:](https://liberapay.com/FreeTube){ .card-link title=Contribuir }
     
-    ??? descargas
+    ??? downloads "Descargas"
     
         - [:simple-windows11: Windows](https://freetubeapp.io/#download)
         - [:simple-apple: macOS](https://freetubeapp.io/#download)
         - [:simple-linux: Linux](https://freetubeapp.io/#download)
         - [:simple-flathub: Flathub](https://flathub.org/apps/details/io.freetubeapp.FreeTube)
 
-!!! advertencia
+!!! warning "Advertencia"
 
     Al utilizar FreeTube, su dirección IP puede seguir siendo conocida por YouTube, [Invidious](https://instances.invidious.io), o [SponsorBlock](https://sponsor.ajay.app/) dependiendo de su configuración. Considere la posibilidad de utilizar una [VPN](vpn.md) o [Tor](https://www.torproject.org) si su [modelo de amenaza](basics/threat-modeling.md) requiere ocultar su dirección IP.
 
@@ -132,12 +132,12 @@ Cuando utilice una instancia de ProxiTok, asegúrese de leer la política de pri
     [:octicons-code-16:](https://github.com/yattee/yattee){ .card-link title="Código Fuente" }
     [:octicons-heart-16:](https://github.com/yattee/yattee/wiki/Donations){ .card-link title=Contribuir }
     
-    ??? descargas
+    ??? downloads "Descargas"
     
         - [:simple-apple: App Store](https://apps.apple.com/us/app/yattee/id1595136629)
         - [:simple-github: GitHub](https://github.com/yattee/yattee/releases)
 
-!!! advertencia
+!!! warning "Advertencia"
 
     Al utilizar Yattee, su dirección IP puede seguir siendo conocida por YouTube, [Invidious](https://instances.invidious.io), [Piped](https://github.com/TeamPiped/Piped/wiki/Instances/) o [SponsorBlock](https://sponsor.ajay.app/) dependiendo de su configuración. Considere la posibilidad de utilizar una [VPN](vpn.md) o [Tor](https://www.torproject.org) si su [modelo de amenaza](basics/threat-modeling.md) requiere ocultar su dirección IP.
 
@@ -159,11 +159,11 @@ Por defecto, Yattee bloquea todos los anuncios de YouTube. Además, Yattee se in
     [:octicons-info-16:](https://github.com/libre-tube/LibreTube#readme){ .card-link title=Documentación}
     [:octicons-code-16:](https://github.com/libre-tube/LibreTube){ .card-link title="Código Fuente" }
     
-    ??? descargas
+    ??? downloads "Descargas"
     
         - [:simple-github: GitHub](https://github.com/libre-tube/LibreTube/releases)
 
-!!! advertencia
+!!! warning "Advertencia"
 
     Al usar LibreTube, su dirección IP será visible para la instancia [Piped](https://github.com/TeamPiped/Piped/wiki/Instances) que elija y/o [SponsorBlock](https://sponsor.ajay.app/) dependiendo de su configuración. Considere la posibilidad de utilizar una [VPN](vpn.md) o [Tor](https://www.torproject.org) si su [modelo de amenaza](basics/threat-modeling.md) requiere ocultar su dirección IP.
 
@@ -185,13 +185,13 @@ Por defecto, LibreTube bloquea todos los anuncios de YouTube. Además, Libretube
     [:octicons-code-16:](https://github.com/TeamNewPipe/NewPipe){ .card-link title="Código Fuente" }
     [:octicons-heart-16:](https://newpipe.net/donate/){ .card-link title=Contribuir }
     
-    ??? descargas
+    ??? downloads "Descargas"
     
         - [:simple-github: GitHub](https://github.com/TeamNewPipe/NewPipe/releases)
 
 1. La instancia por defecto es [FramaTube](https://framatube.org/), sin embargo, se pueden añadir más a través de **Ajustes** → **Contenido** → **Instancias de PeerTube**
 
-!!! Advertencia
+!!! warning "Advertencia"
 
     Al utilizar NewPipe, su dirección IP será visible para los proveedores de vídeo utilizados. Considere la posibilidad de utilizar una [VPN](vpn.md) o [Tor](https://www.torproject.org) si su [modelo de amenaza](basics/threat-modeling.md) requiere ocultar su dirección IP.
 
@@ -212,11 +212,11 @@ Por defecto, LibreTube bloquea todos los anuncios de YouTube. Además, Libretube
     [:octicons-code-16:](https://github.com/iv-org/invidious){ .card-link title="Código Fuente" }
     [:octicons-heart-16:](https://invidious.io/donate/){ .card-link title=Contribuir }
 
-!!! advertencia
+!!! warning "Advertencia"
 
     Invidious no proporciona un proxy para los vídeos por defecto. Los vídeos que se vean a través de Invidious seguirán realizando conexiones directas a los servidores de Google (ej. 'googlevideo.com'); sin embargo, algunas instancias admiten el proxy de vídeo; basta con habilitar *Proxy videos* en la configuración de las instancias o añadir `&local=true` a la URL.
 
-!!! consejo
+!!! tip "Consejo"
 
     Invidious es útil si quiere desactivar JavaScript en su navegador como en el navegador [Tor](https://www.torproject.org/) en la configuración de seguridad Msás Segura. No proporciona privacidad por sí mismo y no se recomienda entrar con ninguna cuenta.
 
@@ -240,7 +240,7 @@ Cuando utilice una instancia de Invidious, asegúrese de leer la política de pr
     [:octicons-code-16:](https://github.com/TeamPiped/Piped){ .card-link title="Código Fuente" }
     [:octicons-heart-16:](https://github.com/TeamPiped/Piped#donations){ .card-link title=Contribuir }
 
-!!! consejo
+!!! tip "Consejo"
 
     Piped es útil si desea utilizar [SponsorBlock](https://sponsor.ajay.app) sin instalar una extensión o acceder a contenidos restringidos por edad sin una cuenta. No proporciona privacidad por sí mismo y no se recomienda entrar con ninguna cuenta.
 
@@ -252,7 +252,7 @@ Cuando utilice una instancia de Piped, asegúrese de leer la política de privac
 
 **Por favor, tenga en cuenta que no estamos afiliados con ninguno de los proyectos que recomendamos.** Además de [nuestros criterios estándar](about/criteria.md), hemos desarrollado un conjunto claro de requisitos que nos permiten ofrecer recomendaciones objetivas. Sugerimos que usted se familiarice con esta lista, antes de decidir utilizar un proyecto y realizar su propia investigación para asegurarse de que es la elección ideal para usted.
 
-!!! ejemplo "Esta sección es nueva"
+!!! example "Esta sección es nueva"
 
     Estamos trabajando en establecer criterios definidos para cada sección de nuestra página, y esto puede estar sujeto a cambios. Si tiene alguna duda sobre nuestros criterios, por favor [pregunte en nuestro foro](https://discuss.privacyguides.net/latest) y no asuma que no hemos tenido en cuenta algo a la hora de hacer nuestras recomendaciones si no aparece aquí. Son muchos los factores que se tienen en cuenta y se debaten cuando recomendamos un proyecto, y documentar cada uno de ellos es un trabajo en curso.
 

@@ -14,7 +14,7 @@ Además, Privacy Guides no garantiza que este sitio web esté disponible, de for
 
 ## Resumen de licencias
 
-!!! Peligro ""
+!!! danger ""
 
     El siguiente es un resumen legible por humanos de (y no un sustituto de) la [license](/licencia).
 

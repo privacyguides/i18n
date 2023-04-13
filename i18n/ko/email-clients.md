@@ -36,7 +36,7 @@ Our recommendation list contains email clients that support both [OpenPGP](encry
         - [:simple-linux: Linux](https://www.thunderbird.net)
         - [:simple-flathub: Flathub](https://flathub.org/apps/details/org.mozilla.Thunderbird)
 
-#### Recommended Configuration
+#### 권장 설정
 
 We recommend changing some of these settings to make Thunderbird a little more private.
 

@@ -24,7 +24,7 @@ Abaixo, discutimos e fornecemos um tutorial para provar o que um observador exte
     tshark -w /tmp/dns.pcap udp porto 53 e host 1.1.1.1 ou host 8.8.8.8
     ```
 
-2. Podemos então usar [`dig`](https://en.wikipedia.org/wiki/Dig_(command)) (Linux, MacOS etc) ou [`nslookup`](https://en.wikipedia.org/wiki/Nslookup) (Windows) para enviar a pesquisa DNS para ambos os servidores. Software como navegadores web fazem estas pesquisas automaticamente, a menos que estejam configurados para usar [DNS encriptado](#what-is-encrypted-dns).
+2. We can then use [`dig`](https://en.wikipedia.org/wiki/Dig_(command)) (Linux, MacOS, etc.) or [`nslookup`](https://en.wikipedia.org/wiki/Nslookup) (Windows) to send the DNS lookup to both servers. Software como navegadores web fazem estas pesquisas automaticamente, a menos que estejam configurados para usar [DNS encriptado](#what-is-encrypted-dns).
 
     === "Linux, macOS"
 
@@ -118,7 +118,7 @@ Quando fazemos uma pesquisa DNS, geralmente é porque queremos aceder a um recur
 
 A maneira mais simples de determinar a atividade de navegação pode ser olhar para os endereços IP que seus dispositivos estão acessando. Por exemplo, se o observador sabe que `privacyguides.org` está em `198.98.54.105`, e o seu dispositivo está solicitando dados de `198.98.54.105`, há uma boa chance de você estar visitando os Guias de Privacidade.
 
-Este método só é útil quando o endereço IP pertence a um servidor que só hospeda poucos sites. It's also not very useful if the site is hosted on a shared platform (e.g. Github Pages, Cloudflare Pages, Netlify, WordPress, Blogger, etc). Também não é muito útil se o servidor estiver hospedado atrás de um [reverse proxy](https://en.wikipedia.org/wiki/Reverse_proxy), o que é muito comum na Internet moderna.
+Este método só é útil quando o endereço IP pertence a um servidor que só hospeda poucos sites. It's also not very useful if the site is hosted on a shared platform (e.g. Github Pages, Cloudflare Pages, Netlify, WordPress, Blogger, etc.). Também não é muito útil se o servidor estiver hospedado atrás de um [reverse proxy](https://en.wikipedia.org/wiki/Reverse_proxy), o que é muito comum na Internet moderna.
 
 ### Indicação do nome do servidor (SNI)
 

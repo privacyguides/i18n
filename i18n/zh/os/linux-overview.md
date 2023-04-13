@@ -139,7 +139,7 @@ Linux发行版，如那些 [Linux-libre](https://en.wikipedia.org/wiki/Linux-lib
 
 ### MAC地址随机化
 
-许多桌面Linux发行版（Fedora、openSUSE等）将自带 [NetworkManager](https://en.wikipedia.org/wiki/NetworkManager)，以配置以太网和Wi-Fi设置。
+Many desktop Linux distributions (Fedora, openSUSE, etc.) will come with [NetworkManager](https://en.wikipedia.org/wiki/NetworkManager), to configure Ethernet and Wi-Fi settings.
 
 在使用NetworkManager时，可以随机化 [](https://fedoramagazine.org/randomize-mac-address-nm/) [MAC地址](https://en.wikipedia.org/wiki/MAC_address)。 这在Wi-Fi网络上提供了更多的隐私，因为它使你更难追踪你所连接的网络上的特定设备。 它并不是 [****](https://papers.mathyvanhoef.com/wisec2016.pdf) 让你匿名。
 

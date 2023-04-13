@@ -20,10 +20,10 @@ description: ספקי אחסון בענן רבים דורשים את האמון 
     
     **Proton Drive** הוא ספק אחסון ענן מוצפן שוויצרי מספק האימייל המוצפן הפופולרי [Proton Mail](email.md#proton-mail).
     
-    [:octicons-home-16: דף הבית](https://proton.me/drive){ .md-button .md-button--primary }
-    [:octicons-eye-16:](https://proton.me/legal/privacy){ .card-link title="מדיניות פרטיות" }
-    [:octicons-info-16:](https://proton.me/support/drive){ .card-link title=תיעוד}
-    [:octicons-code-16:](https://github.com/ProtonMail/WebClients){ .card-link title="קוד מקור" }
+    [:octicons-home-16: Homepage](https://proton.me/drive){ class="md-button md-button--primary" }
+    [:octicons-eye-16:](https://proton.me/legal/privacy){ .card-link title="Privacy Policy" }
+    [:octicons-info-16:](https://proton.me/support/drive){ .card-link title=Documentation}
+    [:octicons-code-16:](https://github.com/ProtonMail/WebClients){ .card-link title="Source Code" }
     
     ??? downloads "הורדות"
     
@@ -44,9 +44,9 @@ description: ספקי אחסון בענן רבים דורשים את האמון 
     
     **Tresorit** היא ספקית אחסון ענן מוצפנת הונגרית שנוסדה ב-2011. Tresorit נמצאת בבעלות ה-Swiss Post, שירות הדואר הלאומי של שוויץ.
     
-    [:octicons-home-16: דף הבית](https://tresorit.com/){ .md-button .md-button--primary }
-    [:octicons-eye-16:](https://tresorit.com/legal/privacy-policy){ .card-link title="מדיניות פרטיות" }
-    [:octicons-info-16:](https://support.tresorit.com/hc/en-us){ .card-link title=תיעוד}
+    [:octicons-home-16: Homepage](https://tresorit.com/){ class="md-button md-button--primary" }
+    [:octicons-eye-16:](https://tresorit.com/legal/privacy-policy){ .card-link title="Privacy Policy" }
+    [:octicons-info-16:](https://support.tresorit.com/hc/en-us){ .card-link title=Documentation}
     
     ??? downloads "הורדות"
     

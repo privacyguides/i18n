@@ -310,7 +310,7 @@ Az általunk ajánlott VPN-szolgáltatóknál felelős marketinget szeretünk l�
 Nem használhat felelőtlen marketinget:
 
 - Az anonimitás 100%-os védelmének garantálása. Ha valaki azt állítja, hogy valami 100%-os, az azt jelenti, hogy nincs bizonyosság meghibásodásra. Tudjuk, hogy személyek elég könnyen és számos módon deanonimizálni tudják magukat, pl.:
-    - Olyan személyes adatok (pl. email fiókok, egyedi álnevek, stb.) újrafelhasználása, amelyeket anonimitás szoftver (Tor, VPN, stb.) nélkül értek el
+    - Reusing personal information (e.g., email accounts, unique pseudonyms, etc.) that they accessed without anonymity software (Tor, VPN, etc.)
     - [Böngésző fingerprintelés](https://en.wikipedia.org/wiki/Device_fingerprint#Browser_fingerprint)
 - Azt állítja, hogy egy egyáramkörös VPN "anonimabb", mint a Tor, amely egy három vagy több ugrásból álló, rendszeresen változó áramkör.
 - Használjon felelősségteljes nyelvezetet: pl. nyugodtan mondhatja, hogy egy VPN "lecsatlakozott" vagy "nincs csatlakoztatva", azonban azt állítani, hogy valaki "védtelen", "sebezhető" vagy "veszélyeztetett", az riasztó nyelvezet felesleges használata, ami lehet, hogy helytelen is. Lehet, hogy az illető egyszerűen csak egy másik VPN-szolgáltató szolgáltatását, vagy a Tor-t használja.

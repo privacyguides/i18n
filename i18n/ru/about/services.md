@@ -2,7 +2,7 @@
 
 Мы держим ряд веб-сервисов для тестирования возможностей и продвижения классных децентрализованных, федеративных и/или открытых проектов. Многие из этих сервисов доступны публично и описаны ниже.
 
-[:material-comment-alert: Сообщить о проблеме](https://discuss.privacyguides.net/c/services/2 ""){.md-button.md-button--primary}
+[:material-comment-alert: Report an issue](https://discuss.privacyguides.net/c/services/2){ class="md-button md-button--primary" }
 
 ## Discourse
 

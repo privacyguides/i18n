@@ -409,7 +409,7 @@ Consideriamo queste caratteristiche importanti per fornire un servizio sicuro e 
 
 **Caso migliore:**
 
-- Crittografia di tutti i dati dell'account (contatti, calendari ecc.) a riposo con crittografia ad zero-access.
+- Crittografa tutti i dati dell'account (contatti, calendari, ecc.) at rest con una crittografia ad accesso zero.
 - Crittografia webmail integrata E2EE/PGP fornita per comodità.
 - Supporto per [WKD](https://wiki.gnupg.org/WKD) per permettere una migliore individuazione delle chiavi OpenPGP pubbliche via HTTP. Gli utenti di GnuPG possono ottenere una chiave digitando: `gpg --locate-key example_user@example.com`
 - Supporto per una casella di posta temporanea per utenti esterni. Ciò è utile quando vuoi inviare una mail crittografata, senza inviare una copia effettiva al destinatario. Queste mail hanno di solito un tempo di vita limitato e vengono automaticamente eliminate. Non richiedono, inoltre, di configurare alcuna crittografia, come OpenPGP.
@@ -484,14 +484,14 @@ Con i provider di posta elettronica che consigliamo, ci piacerebbe vedere un mar
 
 **Requisiti minimi:**
 
-- Deve ospitare localmente i sistemi di analitica (no Google Analytics, Adobe Analytics, ecc.). Il sito del fornitore deve inoltre rispettare il [No not track (DNT)](https://it.wikipedia.org/wiki/Do_Not_Track) per chi desidera rinunciare.
+- Must self-host analytics (no Google Analytics, Adobe Analytics, etc.). Il sito del fornitore deve inoltre rispettare il [No not track (DNT)](https://it.wikipedia.org/wiki/Do_Not_Track) per chi desidera rinunciare.
 
 Non deve avere alcun marketing ritenuto irresponsabile:
 
 - Dichiarazioni di "crittografia infrangibile". La crittografia deve essere utilizzata con l'intenzione che nel futuro esisterà la tecnologia per decifrarla.
 - Garantire al 100% la protezione dell'anonimato. Quando qualcuno afferma che qualcosa è al 100% significa che non esiste fallimento. Sappiamo che le persone possono deanonimizzarsi facilmente in vari modi, ad es.:
 
-- Riutilizzare informazioni personali (p.e., account e-mail, pseudonimi unici ecc.) con cui hanno eseguito accessi senza software di anonimizzazione (Tor, VPN, ecc.)
+- Reusing personal information e.g. (email accounts, unique pseudonyms, etc.) that they accessed without anonymity software (Tor, VPN, etc.)
 - [Browser fingerprinting](https://en.wikipedia.org/wiki/Device_fingerprint#Browser_fingerprint)
 
 **Caso migliore:**

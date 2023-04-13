@@ -29,7 +29,7 @@ Abbiamo questi requisiti per quanto riguarda gli sviluppatori che desiderano pre
 
 - Deve indicare l'affiliazione, cioè la sua posizione all'interno del progetto presentato.
 
-- Must have a security whitepaper if it is a project that involves handling of sensitive information like a messenger, password manager, encrypted cloud storage etc.
+- Must have a security whitepaper if it is a project that involves handling of sensitive information like a messenger, password manager, encrypted cloud storage, etc.
     - Third party audit status. We want to know if you have one, or have one planned. Se possibile, indicare chi condurrà l'audit.
 
 - Must explain what the project brings to the table in regard to privacy.

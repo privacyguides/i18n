@@ -28,7 +28,7 @@ Estos servicios de mensajería son ideales para proteger sus comunicaciones conf
     [:octicons-code-16:](https://github.com/signalapp){ .card-link title="Código Fuente" }
     [:octicons-heart-16:](https://signal.org/donate/){ .card-link title=Contribuir }
     
-    ??? descargas
+    ??? downloads "Descargas"
     
         - [:simple-googleplay: Google Play](https://play.google.com/store/apps/details?id=org.thoughtcrime.securesms)
         - [:simple-appstore: App Store](https://apps.apple.com/app/id874139669)
@@ -58,7 +58,7 @@ Tenemos algunos consejos adicionales para configurar y endurecer su instalación
     [:octicons-info-16:](https://github.com/simplex-chat/simplex-chat/tree/stable/docs){ .card-link title=Documentación}
     [:octicons-code-16:](https://github.com/simplex-chat){ .card-link title="Código Fuente" }
     
-    ??? descargas
+    ??? downloads "Descargas"
     
         - [:simple-googleplay: Google Play](https://play.google.com/store/apps/details?id=chat.simplex.app)
         - [:simple-appstore: App Store](https://apps.apple.com/us/app/simplex-chat/id1605771084)
@@ -84,7 +84,7 @@ Sus datos se pueden exportar e importar a otro dispositivo, ya que no hay servid
     [:octicons-code-16:](https://code.briarproject.org/briar/briar){ .card-link title="Código Fuente" }
     [:octicons-heart-16:](https://briarproject.org/){ .card-link title="Las opciones de donación están listadas en la parte inferior de la página principal" }
     
-    ??? descargas
+    ??? downloads "Descargas"
     
         - [:simple-googleplay: Google Play](https://play.google.com/store/apps/details?id=org.briarproject.briar.android)
         - [:simple-windows11: Windows](https://briarproject.org/download-briar-desktop/)
@@ -101,7 +101,7 @@ Briar admite el secreto de reenvío perfecto utilizando el protocolo Bramble [Ha
 
 ## Opciones Adicionales
 
-!!! advertencia
+!!! warning "Advertencia"
 
     Estos servicios de mensajería no tienen Perfect [Forward Secrecy](https://es.wikipedia.org/wiki/Perfect_forward_secrecy) (PFS), y aunque satisfacen ciertas necesidades que nuestras recomendaciones anteriores no pueden satisfacer, no los recomendamos para comunicaciones a largo plazo o sensibles. Cualquier compromiso de claves entre los destinatarios de los mensajes afectaría a la confidencialidad de **todas** las comunicaciones anteriores.
 
@@ -120,7 +120,7 @@ Briar admite el secreto de reenvío perfecto utilizando el protocolo Bramble [Ha
     [:octicons-info-16:](https://element.io/help){ .card-link title=Documentación}
     [:octicons-code-16:](https://github.com/vector-im){ .card-link title="Código Fuente" }
     
-    ??? descargas
+    ??? downloads "Descargas"
     
         - [:simple-googleplay: Google Play](https://play.google.com/store/apps/details?id=im.vector.app)
         - [:simple-appstore: App Store](https://apps.apple.com/app/vector/id1083446067)
@@ -153,7 +153,7 @@ El protocolo fue [auditado](https://matrix.org/blog/2016/11/21/matrixs-olm-end-t
     [:octicons-info-16:](https://getsession.org/faq){ .card-link title=Documentación}
     [:octicons-code-16:](https://github.com/oxen-io){ .card-link title="Código Fuente" }
     
-    ??? descargas
+    ??? downloads "Descargas"
     
         - [:simple-googleplay: Google Play](https://play.google.com/store/apps/details?id=network.loki.messenger)
         - [:simple-appstore: App Store](https://apps.apple.com/app/id1470168868)
@@ -174,7 +174,7 @@ Session tiene un [informe oficial](https://arxiv.org/pdf/2002.04609.pdf) que des
 
 **Por favor, tenga en cuenta que no estamos afiliados con ninguno de los proyectos que recomendamos.** Además de [nuestros criterios estándar](about/criteria.md), hemos desarrollado un conjunto claro de requisitos que nos permiten ofrecer recomendaciones objetivas. Sugerimos que usted se familiarice con esta lista, antes de decidir utilizar un proyecto y realizar su propia investigación para asegurarse de que es la elección ideal para usted.
 
-!!! ejemplo "Esta sección es nueva"
+!!! example "Esta sección es nueva"
 
     Estamos trabajando en establecer criterios definidos para cada sección de nuestra página, y esto puede estar sujeto a cambios. Si tiene alguna duda sobre nuestros criterios, por favor [pregunte en nuestro foro](https://discuss.privacyguides.net/latest) y no asuma que no hemos tenido en cuenta algo a la hora de hacer nuestras recomendaciones si no aparece aquí. Son muchos los factores que se tienen en cuenta y se debaten cuando recomendamos un proyecto, y documentar cada uno de ellos es un trabajo en curso.
 

@@ -1,5 +1,5 @@
 ---
-title: "Real-Time Communication"
+title: "Comunicação em Tempo Real"
 icon: material/chat-processing
 description: Other instant messengers make all of your private conversations available to the company that runs them.
 ---

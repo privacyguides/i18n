@@ -310,7 +310,7 @@ Dengan penyedia VPN yang kami rekomendasikan, kami ingin melihat pemasaran yang 
 Tidak boleh melakukan pemasaran yang tidak bertanggung jawab:
 
 - Menjamin perlindungan anonimitas 100%. Ketika seseorang membuat klaim bahwa sesuatu itu 100%, itu berarti tidak ada kepastian untuk gagal. Kami tahu bahwa orang dapat dengan mudah menyamarkan nama mereka dengan beberapa cara, misalnya:
-    - Menggunakan kembali informasi pribadi (misalnya, akun surel, nama samaran unik, dll.) yang mereka akses tanpa perangkat lunak anonimitas (Tor, VPN, dll.)
+    - Reusing personal information (e.g., email accounts, unique pseudonyms, etc.) that they accessed without anonymity software (Tor, VPN, etc.)
     - [Sidik jari peramban](https://en.wikipedia.org/wiki/Device_fingerprint#Browser_fingerprint)
 - Klaim bahwa VPN sirkuit tunggal "lebih anonim" daripada Tor, yang merupakan sirkuit tiga atau lebih loncatan yang secara teratur berubah.
 - Gunakan bahasa yang bertanggung jawab: misalnya, tidak masalah untuk mengatakan bahwa VPN "terputus" atau "tidak tersambung", namun mengklaim bahwa seseorang "terpapar", "rentan", atau "terkompromi" merupakan penggunaan bahasa yang tidak perlu dan tidak benar. Sebagai contoh, orang tersebut mungkin saja menggunakan layanan penyedia VPN lain atau menggunakan Tor.

@@ -2,7 +2,7 @@
 
 Ejecutamos una serie de servicios web para probar las características y promover proyectos descentralizados, federados y/o de código abierto. Muchos de estos servicios están disponibles al público y están detallados a continuación.
 
-[:material-comment-alert: Reportar un problema](https://discuss.privacyguides.net/c/services/2 ""){.md-button.md-button--primary}
+[:material-comment-alert: Informar de un problema](https://discuss.privacyguides.net/c/services/2){ class="md-button md-button--primary" }
 
 ## Discourse
 

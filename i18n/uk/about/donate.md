@@ -7,7 +7,7 @@ title: Підтримайте нас
 
 Якщо ви хочете надати нам фінансову підтримку, найзручніший для нас спосіб - це зробити внесок через Open Collective, вебсайт, під керівництвом нашого фіскального хостингу. Open Collective приймає платежі за допомогою кредитної/дебетової картки, PayPal, та банківські перекази.
 
-[Зробити внесок на OpenCollective.com](https://opencollective.com/privacyguides/donate ""){.md-button.md-button--primary}
+[Donate on OpenCollective.com](https://opencollective.com/privacyguides/donate){ class="md-button md-button--primary" }
 
 Пожертвування, зроблені безпосередньо на наш Open Collective, як правило, не оподатковуються в США, оскільки наш фінансовий організатор (Open Collective Foundation) є зареєстрованою організацією 501(c) 3. Після пожертвування ви отримаєте квитанцію від Open Collective Foundation. Privacy Guides не надають фінансових консультацій, і ви повинні звернутися до свого податкового консультанта, щоб з'ясувати чи це є сприйнятливим для вас.
 

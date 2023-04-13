@@ -71,7 +71,7 @@ La aplicación ofrece múltiples formas de borrar los metadatos de las imágenes
 
 !!! recommendation
 
-    ![Logo de Metapho](assets/img/data-redaction/metapho. pg){ align=right }
+    ![Logo de Metapho](assets/img/data-redaction/metapho.jpg){ align=right }
     
     **Metapho** es un visor simple y limpio para metadatos de fotos como fecha, nombre de archivo, tamaño, modelo de cámara, velocidad de obturación y ubicación.
     

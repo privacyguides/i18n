@@ -1,7 +1,7 @@
 ---
 title: "DNS-провайдеры"
 icon: material/dns
-description: Здесь показаны некоторые провайдеры DNS с шифрованием, к которым мы рекомендуем перейти, чтобы заменить конфигурацию вашего интернет-провайдера по умолчанию.
+description: Здесь показаны некоторые DNS-провайдеры с поддержкой шифрования, к которым мы рекомендуем вам перейти, заменив конфигурацию вашего интернет-провайдера по умолчанию.
 ---
 
 Зашифрованный DNS со сторонними серверами следует использовать только для обхода базовой [блокировки DNS](https://en.wikipedia.org/wiki/DNS_blocking), если вы уверены, что это не повлечет за собой никаких последствий. Зашифрованный DNS не поможет вам скрыть какую-либо активность в интернете.
@@ -96,9 +96,9 @@ Apple не предоставляет нативного интерфейса д
         - [:simple-apple: macOS](https://github.com/DNSCrypt/dnscrypt-proxy/wiki/Installation-macOS)
         - [:simple-linux: Linux](https://github.com/DNSCrypt/dnscrypt-proxy/wiki/Installation-linux)
 
-## Self-hosted Solutions
+## Решения для самостоятельного хостинга
 
-A self-hosted DNS solution is useful for providing filtering on controlled platforms, such as Smart TVs and other IoT devices, as no client-side software is needed.
+DNS с самостоятельным хостингом полезно для обеспечения фильтрации на управляемых платформах, таких как телевизоры Smart TV и устройства IoT (Internet of Things - Интернет вещей), поскольку для этого не требуется клиентское ПО.
 
 ### AdGuard Home
 

@@ -26,7 +26,7 @@ Puedes consultar [ la tabla de hardware](https://openwrt.org/toh/start) de OpenW
 
 !!! recommendation
 
-    ![pfSense logo](assets/img/router/opnsense.svg){ align=right }
+    ![OPNsense logo](assets/img/router/opnsense.svg){ align=right }
     
     **OPNsense** es una plataforma de enrutamiento y cortafuegos de código abierto basada en FreeBSD que incorpora muchas características avanzadas, como la conformación del tráfico, el equilibrio de carga y las capacidades de VPN, con muchas más características disponibles en forma de plugins. OPNsense se implementa habitualmente como cortafuegos perimetral, router, punto de acceso inalámbrico, servidor DHCP, servidor DNS y punto final VPN.
     
@@ -41,7 +41,7 @@ OPNsense se desarrolló originalmente como una bifurcación de [pfSense](https:/
 
 **Por favor, ten en cuenta que no estamos afiliados con ninguno de los proyectos que recomendamos.** Además de [nuestros criterios estándar](about/criteria.md), hemos desarrollado un conjunto claro de requisitos que nos permiten proporcionar recomendaciones objetivas. Te sugerimos que te familiarices con esta lista antes de elegir usar un proyecto, y que lleves a cabo tu propia investigación para asegurarte de que es la elección correcta para ti.
 
-!!! ejemplo "Esta sección es nueva"
+!!! example "Esta sección es nueva"
 
     Estamos trabajando en establecer criterios definidos para cada sección de nuestra página, y esto puede estar sujero a cambios. Si tienes alguna duda sobre nuestros criterios, por favor [pregunta en nuestro foro](https://discuss.privacyguides.net/latest) y no asumas que no hemos tenido en cuenta algo a la hora de hacer nuestras recomendaciones si no aparece aquí. Son muchos los factores que se tienen en cuenta y se debaten cuando recomendamos un proyecto, y documentar cada uno de ellos es un trabajo en curso.
 

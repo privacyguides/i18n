@@ -1,5 +1,5 @@
 ---
-title: "Privacy Tools"
+title: "隱私工具"
 icon: material/tools
 hide:
   - toc
@@ -139,13 +139,13 @@ For more details about each project, why they were chosen, and additional tips o
 
 ### DNS
 
-#### DNS Providers
+#### DNS 提供者
 
 We [recommend](dns.md#recommended-providers) a number of encrypted DNS servers based on a variety of criteria, such as [Mullvad](https://mullvad.net/en/help/dns-over-https-and-dns-over-tls) and [Quad9](https://quad9.net/) amongst others. We recommend for you to read our pages on DNS before choosing a provider. In many cases, using an alternative DNS provider is not recommended.
 
 [Learn more :material-arrow-right-drop-circle:](dns.md)
 
-#### Encrypted DNS Proxies
+#### 加密的DNS代理
 
 <div class="grid cards" markdown>
 
@@ -156,7 +156,7 @@ We [recommend](dns.md#recommended-providers) a number of encrypted DNS servers b
 
 [Learn more :material-arrow-right-drop-circle:](dns.md#encrypted-dns-proxies)
 
-#### Self-hosted Solutions
+#### 自主託管方案
 
 <div class="grid cards" markdown>
 
@@ -260,9 +260,9 @@ We [recommend](dns.md#recommended-providers) a number of encrypted DNS servers b
 
 [Learn more :material-arrow-right-drop-circle:](vpn.md)
 
-## Software
+## 軟體
 
-### Calendar Sync
+### 行事曆同步
 
 <div class="grid cards" markdown>
 
@@ -273,7 +273,7 @@ We [recommend](dns.md#recommended-providers) a number of encrypted DNS servers b
 
 [Learn more :material-arrow-right-drop-circle:](calendar.md)
 
-### Cryptocurrency
+### 加密貨幣
 
 <div class="grid cards" markdown>
 
@@ -297,7 +297,7 @@ We [recommend](dns.md#recommended-providers) a number of encrypted DNS servers b
 
 [Learn more :material-arrow-right-drop-circle:](data-redaction.md)
 
-### Email Clients
+### 電子郵件客戶端程式
 
 <div class="grid cards" markdown>
 

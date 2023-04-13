@@ -9,11 +9,11 @@ schema:
     mainEntity:
       - 
         "@type": Question
-        name: Is open source software inherently secure?
+        name: 오픈 소스 소포트웨어는 본질적으로 안전한가요?
         acceptedAnswer:
           "@type": Answer
           text: |
-            Whether the source code is available and how software is licensed does not inherently affect its security in any way. Open-source software has the potential to be more secure than proprietary software, but there is absolutely no guarantee this is the case. When you evaluate software, you should look at the reputation and security of each tool on an individual basis.
+            소스 코드의 공개 여부와 라이선스 방식은 본질적으로 보안에 어떠한 영향도 미치지 않습니다. 오픈 소스 소프트웨어는 독점 소프트웨어보다 더 안전할 가능성이 있지만, 반드시 그렇다는 보장은 없습니다. 소프트웨어를 평가할 때는 평판과 보안을 개별적으로 살펴봐야 합니다.
       - 
         "@type": Question
         name: Can shifting trust to another provider increase privacy?
@@ -23,7 +23,7 @@ schema:
             We talk about "shifting trust" a lot when discussing solutions like VPNs (which shift the trust you place in your ISP to the VPN provider). While this protects your browsing data from your ISP specifically, the VPN provider you choose still has access to your browsing data: Your data isn't completely secured from all parties.
       - 
         "@type": Question
-        name: Are privacy-focused solutions inherently trustworthy?
+        name: 프라이버시 중점 솔루션은 본질적으로 신뢰할 수 있나요?
         acceptedAnswer:
           "@type": Answer
           text: |

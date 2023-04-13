@@ -22,7 +22,7 @@ E-postleverantörer som tillåter dig att använda standardprotokoll som IMAP oc
 
 ### Hur skyddar jag mina privata nycklar?
 
-Ett smartkort (t.ex. [Yubikey](https://support.yubico.com/hc/en-us/articles/360013790259-Using-Your-YubiKey-with-OpenPGP) eller [Nitrokey](https://www.nitrokey.com)) fungerar genom att ta emot ett krypterat e-postmeddelande från en enhet (telefon, surfplatta, dator osv.) som kör en e-post-/webbmail-klient. Meddelandet dekrypteras sedan av smartkortet och det dekrypterade innehållet skickas tillbaka till enheten.
+A smartcard (such as a [Yubikey](https://support.yubico.com/hc/en-us/articles/360013790259-Using-Your-YubiKey-with-OpenPGP) or [Nitrokey](https://www.nitrokey.com)) works by receiving an encrypted email message from a device (phone, tablet, computer, etc.) running an email/webmail client. Meddelandet dekrypteras sedan av smartkortet och det dekrypterade innehållet skickas tillbaka till enheten.
 
 Det är fördelaktigt att dekrypteringen sker på smartkortet för att undvika att den privata nyckeln exponeras för en komprometterad enhet.
 

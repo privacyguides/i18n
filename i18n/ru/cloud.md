@@ -20,10 +20,10 @@ If these alternatives do not fit your needs, we suggest you look into using encr
     
     **Proton Drive** is a Swiss encrypted cloud storage provider from the popular encrypted email provider [Proton Mail](email.md#proton-mail).
     
-    [:octicons-home-16: Домашняя страница](https://proton.me/ru/drive){ .md-button .md-button--primary }
-    [:octicons-eye-16:](https://proton.me/ru/legal/privacy){ .card-link title="Политика конфиденциальности" }
-    [:octicons-info-16:](https://proton.me/ru/support/drive){ .card-link title=Документация}
-    [:octicons-code-16:](https://github.com/ProtonMail/WebClients){ .card-link title="Исходный код" }
+    [:octicons-home-16: Homepage](https://proton.me/drive){ class="md-button md-button--primary" }
+    [:octicons-eye-16:](https://proton.me/legal/privacy){ .card-link title="Privacy Policy" }
+    [:octicons-info-16:](https://proton.me/support/drive){ .card-link title=Documentation}
+    [:octicons-code-16:](https://github.com/ProtonMail/WebClients){ .card-link title="Source Code" }
     
     ??? downloads "Скачать"
     
@@ -44,7 +44,7 @@ Proton Drive's brand new mobile clients have not yet been publicly audited by a 
     
     **Tresorit** is a Hungarian encrypted cloud storage provider founded in 2011. Tresorit is owned by the Swiss Post, the national postal service of Switzerland.
     
-    [:octicons-home-16: Homepage](https://tresorit.com/){ .md-button .md-button--primary }
+    [:octicons-home-16: Homepage](https://tresorit.com/){ class="md-button md-button--primary" }
     [:octicons-eye-16:](https://tresorit.com/legal/privacy-policy){ .card-link title="Privacy Policy" }
     [:octicons-info-16:](https://support.tresorit.com/hc/en-us){ .card-link title=Documentation}
     

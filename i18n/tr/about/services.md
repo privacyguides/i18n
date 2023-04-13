@@ -2,7 +2,7 @@
 
 Özellikleri test etmek ve tek bir merkeze bağlı olmayan, federe ve/veya açık kaynaklı projeleri tanıtmak için bir dizi web hizmeti yürütüyoruz. Bu hizmetlerin birçoğu kamuya açıktır ve aşağıda ayrıntılı olarak açıklanmıştır.
 
-[:material-comment-alert: Bir sorunu bildirin](https://discuss.privacyguides.net/c/services/2 ""){.md-button.md-button--primary}
+[:material-comment-alert: Report an issue](https://discuss.privacyguides.net/c/services/2){ class="md-button md-button--primary" }
 
 ## Discourse
 

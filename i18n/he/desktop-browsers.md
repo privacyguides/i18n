@@ -126,13 +126,30 @@ Mullvad Browser comes with DuckDuckGo set as the default [search engine](search-
 
 ### תצורה מומלצת
 
-ניתן למצוא אפשרויות אלה ב - :material-menu: ← **הגדרות** ← **פרטיות & אבטחה**.
+These options can be found in :material-menu: → **Settings**
+
+#### Search
+
+- [ ] בטל את הסימון **הצגת המלצות חיפוש**
+
+ייתכן שתכונות הצעות חיפוש לא יהיו זמינות באזור שלך.
+
+הצעות חיפוש שולחות את כל מה שאתה מקליד בסרגל הכתובות למנוע החיפוש המוגדר כברירת מחדל, ללא קשר אם אתה שולח חיפוש בפועל. השבתת הצעות חיפוש מאפשרת לך לשלוט בצורה מדויקת יותר באילו נתונים אתה שולח לספק מנועי החיפוש שלך.
+
+#### Privacy & Security
 
 ##### הגנה מוגברת מפני מעקב
 
 - [x] בחר ** מחמיר** הגנת מעקב מתקדמת
 
 זה מגן עליך על ידי חסימת מעקבי מדיה חברתית, סקריפטים של טביעת אצבע (שים לב שזה לא מגן עליך מפני *כל* טביעות האצבע), קריפטומינרים, עוגיות מעקב חוצות- אתרים ותוכן מעקב אחר. ETP מגן מפני איומים נפוצים רבים, אך הוא אינו חוסם את כל אפיקי המעקב מכיוון שהוא נועד להשפיע באופן מינימלי עד ללא השפעה על השימושיות באתר.
+
+##### Firefox Suggest (US only)
+
+[Firefox Suggest](https://support.mozilla.org/en-US/kb/firefox-suggest) is a feature similar to search suggestions which is only available in the US. We recommend disabling it for the same reason we recommend disabling search suggestions. If you don't see these options under the **Address Bar** header, you do not have the new experience and can ignore these changes.
+
+- [ ] Uncheck **Suggestions from the web**
+- [ ] Uncheck **Suggestions from sponsors**
 
 ##### חיטוי בעת סגירה
 
@@ -141,14 +158,6 @@ Mullvad Browser comes with DuckDuckGo set as the default [search engine](search-
 - [x] סמן **מחיקת עוגיות ונתוני אתרים עם סגירת Firefox**
 
 זה מגן עליך מפני עוגיות מתמשכות, אך אינו מגן עליך מפני עוגיות שנרכשו במהלך כל הפעלת גלישה אחת. כאשר זה מופעל, אפשר לנקות בקלות את קובצי העוגיות של הדפדפן שלך פשוט על ידי הפעלה מחדש של Firefox. אתה יכול להגדיר חריגים על בסיס אתר, אם אתה רוצה להישאר מחובר לאתר מסוים שאתה מבקר בו לעתים קרובות.
-
-##### הצעות חיפוש
-
-- [ ] בטל את הסימון **הצגת המלצות חיפוש**
-
-ייתכן שתכונות הצעות חיפוש לא יהיו זמינות באזור שלך.
-
-הצעות חיפוש שולחות את כל מה שאתה מקליד בסרגל הכתובות למנוע החיפוש המוגדר כברירת מחדל, ללא קשר אם אתה שולח חיפוש בפועל. השבתת הצעות חיפוש מאפשרת לך לשלוט בצורה מדויקת יותר באילו נתונים אתה שולח לספק מנועי החיפוש שלך.
 
 ##### טלמטריה
 
@@ -169,7 +178,7 @@ Mullvad Browser comes with DuckDuckGo set as the default [search engine](search-
 
 זה מונע ממך להתחבר ללא כוונה לאתר אינטרנט ב-HTTP בטקסט רגיל. אתרים ללא HTTPS אינם נפוצים כיום, לכן לא אמורה להיות לכך השפעה רבה על הגלישה היומיומית שלך.
 
-### Firefox Sync
+#### Sync
 
 [Firefox Sync](https://hacks.mozilla.org/2018/11/firefox-sync-privacy/) מאפשר לנתוני הגלישה שלך (היסטוריה, סימניות וכו') להיות נגישים בכל המכשירים שלך ומגן עליהם באמצעות E2EE.
 
@@ -212,6 +221,8 @@ Arkenfox only aims to thwart basic or naive tracking scripts through canvas rand
 
 ניתן למצוא אפשרויות אלה ב - :material-menu: ← **הגדרות**.
 
+#### Settings
+
 ##### Shields
 
 Brave כולל כמה אמצעים נגד טביעת אצבע בתכונת [Shields](https://support.brave.com/hc/en-us/articles/360022973471-What-is-Shields-) שלו. אנו מציעים להגדיר את האפשרויות האלה [גלובלי](https://support.brave.com/hc/en-us/articles/360023646212-How-do-I-configure-global-and-site-specific-Shields-settings-) בכל הדפים שבהם אתה מבקר.
@@ -248,10 +259,11 @@ Brave כולל כמה אמצעים נגד טביעת אצבע בתכונת [Shie
 - [x] בחר **השתמש תמיד בחיבורים מאובטחים** בתוך **אבטחה** תפריט
 - [ ] בטל **חלון פרטי עם טור** (1)
 
-    !!! חשוב"חיטוי בסגירה"
-        - [x] בחר**נקה קבצי עוגיות ונתוני אתר בעת סגירת כל החלונות**בתפריט *עוגיות ונתוני אתר אחרים*
+    !!! tip "Sanitizing on Close"
 
-        אם ברצונך להישאר מחובר לאתר מסוים שבו אתה מבקר לעתים קרובות, באפשרותך להגדיר חריגים על בסיס לכל אתר תחת *התנהגויות מותאמות אישית* section.
+        - [x] Select **Clear cookies and site data when you close all windows** in the *Cookies and other site data* menu
+
+        If you wish to stay logged in to a particular site you visit often, you can set exceptions on a per-site basis under the *Customized behaviors* section.
 
 </div>
 
@@ -266,17 +278,13 @@ Brave כולל כמה אמצעים נגד טביעת אצבע בתכונת [Shie
 
 ##### Web3
 
-<div class="annotate" markdown>
+Brave's Web3 features can potentially add to your browser fingerprint and attack surface. Unless you use any of features, they should be disabled.
 
-- [x] Select **Disabled** on Method to resolve IPFS resources (1)
+- [ ] Set **Default Ethereum Wallet** to **None**
+- [ ] Set **Default Solana Wallet** to **None**
+- [ ] Set **Method to resolve IPFS resources** to **Disabled
 
-</div>
-
-1. InterPlanetary File System (IPFS) is a decentralized, peer-to-peer network for storing and sharing data in a distributed filesystem. Unless you use the feature, disable it.
-
-##### הגדרות נוספות
-
-Under the *System* menu
+##### System
 
 <div class="annotate" markdown>
 
@@ -286,9 +294,15 @@ Under the *System* menu
 
 1. This option is not present on all platforms.
 
-### סנכרון Brave
+#### Sync
 
 [Brave Sync](https://support.brave.com/hc/en-us/articles/360059793111-Understanding-Brave-Sync) מאפשר לנתוני הגלישה שלך (היסטוריה, סימניות וכו ') להיות נגישים בכל המכשירים שלך ללא צורך בחשבון ומגן עליהם באמצעות E2EE.
+
+#### Brave Rewards and Wallet
+
+**Brave Rewards** lets you recieve Basic Attention Token (BAT) cryptocurrency for performing certain actions within Brave. It relies on a custodial account and KYC from a select number of providers. We do not recommend BAT as a [private cryptocurrency](cryptocurrency.md), nor do we recommend using a [custodial wallet](advanced/payments.md#other-coins-bitcoin-ethereum-etc), so we would discourage using this feature.
+
+**Brave Wallet** operates locally on your computer, but does not support any private cryptocurrencies, so we would discourage using this feature as well.
 
 ## מקורות נוספים
 

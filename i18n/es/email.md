@@ -109,7 +109,7 @@ Proton Mail no ofrece la función de legado digital.
     [:octicons-eye-16:](https://mailbox.org/en/data-protection-privacy-policy){ .card-link title="Politica de Privacidad" }
     [:octicons-info-16:](https://kb.mailbox.org/en/private){ .card-link title=Documentación}
     
-    ??? downloads "Descargas'
+    ??? downloads "Descargas"
     
         - [:octicons-browser-16: Web](https://login.mailbox.org)
 

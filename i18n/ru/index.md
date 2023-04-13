@@ -43,7 +43,7 @@ schema:
 
 Не стоит путать приватность с секретностью. Все знают, что происходит в вашей ванной, но вы всё равно закрываете дверь. Это потому, что вы хотите приватности, а не секретности. **Каждому** есть что защищать. Приватность — это то, что делает вас человеком.
 
-[:material-target-account: Common Internet Threats](basics/common-threats.md ""){.md-button.md-button--primary}
+[:material-target-account: Common Internet Threats](basics/common-threats.md){ class="md-button md-button--primary" }
 
 ## И что же мне делать?
 
@@ -53,7 +53,7 @@ schema:
 
 ==Процесс нахождения угроз и мер противодействия им называется **моделированием угроз**==, и он составляет основу каждого хорошего плана безопасности и приватности.
 
-[:material-book-outline: Узнайте больше о моделировании угроз](basics/threat-modeling.md ""){.md-button.md-button--primary}
+[:material-book-outline: Learn More About Threat Modeling](basics/threat-modeling.md){ class="md-button md-button--primary" }
 
 ---
 

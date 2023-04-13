@@ -11,7 +11,7 @@ Realizar pagos en línea es uno de los principales desafíos para la privacidad.
 
 Hay una serie de servicios que ofrecen "tarjetas de débito virtuales" que puede utilizar con comercios en línea sin revelar sus datos bancarios o de facturación reales en la mayoría de los casos. Es importante tener en cuenta que estos servicios financieros **no** son anónimos y están sujetos a las leyes de "Conozca a su cliente" (KYC) y pueden requerir su DNI u otra información identificativa. Estos servicios son útiles principalmente para protegerle de las filtraciones de datos de los comercios, del seguimiento menos sofisticado o de la correlación de compras por parte de las agencias de marketing y del robo de datos en línea; y **no** para realizar una compra de forma totalmente anónima.
 
-!!! consejo "Compruebe su banco actual"
+!!! tip "Compruebe su banco actual"
 
     Muchos bancos y proveedores de tarjetas de crédito ofrecen funciones nativas de tarjeta virtual. Si ya utiliza uno que ofrezca esta opción, debería utilizarlo en lugar de las siguientes recomendaciones en la mayoría de los casos. De este modo, no estará confiando su información personal a varias personas.
 
@@ -47,7 +47,7 @@ Privacy.com facilita por defecto a su banco información sobre los comercios en 
 
 **Por favor, tenga en cuenta que no estamos afiliados con ninguno de los proyectos que recomendamos.** Además de [nuestros criterios estándar](about/criteria.md), hemos desarrollado un conjunto claro de requisitos que nos permiten ofrecer recomendaciones objetivas. Sugerimos que usted se familiarice con esta lista, antes de elegir utilizar un proyecto y realizar su propia investigación para asegurarse que es la elección ideal para usted.
 
-!!! ejemplo "Esta sección es nueva"
+!!! example "Esta sección es nueva"
 
     Estamos trabajando en establecer criterios definidos para cada sección de nuestra página, y esto puede estar sujeto a cambios. Si tienes alguna duda sobre nuestros criterios, por favor [pregunta en nuestro foro](https://discuss.privacyguides.net/latest) y no asumas que no hemos tenido en cuenta algo a la hora de hacer nuestras recomendaciones si no aparece aquí. Son muchos los factores que se tienen en cuenta y se debaten cuando recomendamos un proyecto, y documentar cada uno de ellos es un trabajo en curso.
 
@@ -86,7 +86,7 @@ Estos servicios le permiten comprar tarjetas de regalo para una gran variedad de
 
 **Por favor, tenga en cuenta que no estamos afiliados con ninguno de los proyectos que recomendamos.** Además de [nuestros criterios estándar](about/criteria.md), hemos desarrollado un conjunto claro de requisitos que nos permiten ofrecer recomendaciones objetivas. Sugerimos que usted se familiarice con esta lista, antes de elegir utilizar un proyecto y realizar su propia investigación para asegurarse que es la elección ideal para usted.
 
-!!! ejemplo "Esta sección es nueva"
+!!! example "Esta sección es nueva"
 
     Estamos trabajando en establecer criterios definidos para cada sección de nuestra página, y esto puede estar sujeto a cambios. Si tienes alguna duda sobre nuestros criterios, por favor [pregunta en nuestro foro](https://discuss.privacyguides.net/latest) y no asumas que no hemos tenido en cuenta algo a la hora de hacer nuestras recomendaciones si no aparece aquí. Son muchos los factores que se tienen en cuenta y se debaten cuando recomendamos un proyecto, y documentar cada uno de ellos es un trabajo en curso.
 

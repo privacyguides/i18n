@@ -409,7 +409,7 @@ SimpleLogin 在  2022年4 月 8 日被 [ Proton AG](https://proton.me/news/proto
 
 **最佳案例：**
 
-- 使用零存取加密對所有帳戶資料（通訊錄、行事曆等）進行加密。
+- 使用零存取加密帳戶全部資料（聯絡人、行事曆等）。
 - 網頁郵件整合 E2EE/PGP加密以更方便使用。
 - 支援 [WKD](https://wiki.gnupg.org/WKD) ，以改善透過HTTP發現公開的OpenPGP金鑰。 GnuPG 使用者可以透過輸入： `gpg --locate-key example_user@example.com` 取得金鑰。
 - 支援外部使用者的臨時信箱。 當您想要發送加密的電子郵件時，這非常有用，而無需將實際副本發送給您的收件人。 這些電子郵件通常具有限定時效，之後會被自動刪除。 它們也不需要收件人配置任何像OpenPGP這樣的加密技術。
@@ -484,7 +484,7 @@ SimpleLogin 在  2022年4 月 8 日被 [ Proton AG](https://proton.me/news/proto
 
 **最低合格要求：**
 
-- 必須自主託管資料分析（沒有Google Analytics、Adobe Analytics等）。 對於那些希望選擇退出者，供應商的網站還必須符合 [DNT （請勿追蹤）](https://en.wikipedia.org/wiki/Do_Not_Track) 。
+- 必須自行託管分析（不用 Google Analytics、Adobe Analytics等）。 對於那些希望選擇退出者，供應商的網站還必須符合 [DNT （請勿追蹤）](https://en.wikipedia.org/wiki/Do_Not_Track) 。
 
 不得有任何不負責任的行銷：
 

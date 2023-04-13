@@ -1,7 +1,7 @@
 ---
-title: "Taccuini"
+title: "Note"
 icon: material/notebook-edit-outline
-description: These encrypted note-taking apps let you keep track of your notes without giving them to a third-party.
+description: Queste app criptate per prendere appunti consentono di tenere traccia dei propri appunti senza darli a terze parti.
 ---
 
 Tieni traccia delle tue note e diari senza doverli dare a una terza parte.
@@ -35,7 +35,7 @@ Se stai attualmente utilizzando un'applicazione come Evernote, Google Keep o Mic
         - [:simple-firefoxbrowser: Firefox](https://addons.mozilla.org/firefox/addon/joplin-web-clipper/)
         - [:simple-googlechrome: Chrome](https://chrome.google.com/webstore/detail/joplin-web-clipper/alofnhikmmkdbbbgpnglcpdollgjjfek)
 
-Joplin non supporta la protezione con password/PIN per [l'applicazione stessa o per i singoli appunti e taccuini](https://github.com/laurent22/joplin/issues/289). Tuttavia, i dati vengono comunque crittografati durante il transito e nella posizione di sincronizzazione utilizzando la chiave master. Since January 2023, Joplin supports biometrics app lock for [Android](https://joplinapp.org/changelog_android/#android-v2-10-3-https-github-com-laurent22-joplin-releases-tag-android-v2-10-3-pre-release-2023-01-05t11-29-06z) and [iOS](https://joplinapp.org/changelog_ios/#ios-v12-10-2-https-github-com-laurent22-joplin-releases-tag-ios-v12-10-2-2023-01-20t17-41-13z).
+Joplin non supporta la protezione con password/PIN per [l'applicazione stessa o per i singoli appunti e taccuini](https://github.com/laurent22/joplin/issues/289). Tuttavia, i dati vengono comunque crittografati durante il transito e nella posizione di sincronizzazione utilizzando la chiave master. Da Gennaio 2023, Joplin supporta il blocco biometrico dell'app per [Android](https://joplinapp.org/changelog_android/#android-v2-10-3-https-github-com-laurent22-joplin-releases-tag-android-v2-10-3-pre-release-2023-01-05t11-29-06z) e [iOS](https://joplinapp.org/changelog_ios/#ios-v12-10-2-https-github-com-laurent22-joplin-releases-tag-ios-v12-10-2-2023-01-20t17-41-13z).
 
 ### Standard Notes
 
@@ -74,22 +74,22 @@ Joplin non supporta la protezione con password/PIN per [l'applicazione stessa o 
     [:octicons-code-16:](https://git.savannah.gnu.org/cgit/emacs/org-mode.git){ .card-link title="Codice sorgente" }
     [:octicons-heart-16:](https://liberapay.com/bzg){ .card-link title=Contribuisci }
 
-Cryptee offers 100MB of storage for free, with paid options if you need more. Sign-up doesn't require an e-mail or other personally identifiable information.
+Cryptee offre 100 MB di spazio di archiviazione gratuito, con opzioni a pagamento se hai bisogno di più spazio. L'iscrizione non richiede l'email o altre informazioni d'identificazione personale.
 
-## Locali
+## Note locali
 
 ### Org-mode
 
 !!! recommendation
 
-    ![Org-mode logo](assets/img/notebooks/org-mode.svg){ align=right }
+    ![Logo Org-mode](assets/img/notebooks/org-mode.svg){ align=right }
     
-    **Org-mode** is a [major mode](https://www.gnu.org/software/emacs/manual/html_node/elisp/Major-Modes.html) for GNU Emacs. Org-mode is for keeping notes, maintaining TODO lists, planning projects, and authoring documents with a fast and effective plain-text system. Synchronization is possible with [file synchronization](file-sharing.md#file-sync) tools.
+    **Org-mode** è una [modalità principale](https://www.gnu.org/software/emacs/manual/html_node/elisp/Major-Modes.html) per GNU Emacs. Org-mode serve per prendere appunti, gestire elenchi di cose da fare, pianificare progetti e scrivere documenti con un sistema di testo semplice rapido ed efficace. La sincronizzazione è possibile con gli strumenti di [sincronizzazione dei file](file-sharing.md#file-sync).
     
     [:octicons-home-16: Homepage](https://orgmode.org){ .md-button .md-button--primary }
-    [:octicons-info-16:](https://orgmode.org/manuals.html){ .card-link title=Documentation}
-    [:octicons-code-16:](https://git.savannah.gnu.org/cgit/emacs/org-mode.git){ .card-link title="Source Code" }
-    [:octicons-heart-16:](https://liberapay.com/bzg){ .card-link title=Contribute }
+    [:octicons-info-16:](https://orgmode.org/manuals.html){ .card-link title=Documentazione}
+    [:octicons-code-16:](https://git.savannah.gnu.org/cgit/emacs/org-mode.git){ .card-link title="Codice sorgente" }
+    [:octicons-heart-16:](https://liberapay.com/bzg){ .card-link title=Contributo }
 
 ## Criteri
 
@@ -99,11 +99,11 @@ Cryptee offers 100MB of storage for free, with paid options if you need more. Si
 
     Stiamo lavorando per stabilire criteri ben definiti per ogni sezione del nostro sito, e questo potrebbe essere soggetto a modifiche. Se avete domande sui nostri criteri, vi preghiamo di [chiedere sul nostro forum](https://discuss.privacyguides.net/latest) e non date per scontato che non abbiamo preso in considerazione qualcosa nel formulare le nostre raccomandazioni se non è elencato qui. Sono molti i fattori presi in considerazione e discussi quando consigliamo un progetto, e stiamo lavorando per documentare ogni singolo fattore.
 
-- Clients must be open-source.
-- Any cloud sync functionality must be E2EE.
-- Must support exporting documents into a standard format.
+- I client devono essere open-source.
+- Qualsiasi funzionalità di sincronizzazione nel cloud deve essere E2EE.
+- Deve supportare l'esportazione di documenti in un formato standard.
 
-### Best Case
+### Il caso migliore
 
 - La funzionalità di backup/sincronizzazione locale dovrebbe supportare la crittografia.
 - Le piattaforme basate sul cloud dovrebbero supportare la condivisione dei documenti.

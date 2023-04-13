@@ -484,7 +484,7 @@ Bij de e-mail providers die we aanbevelen zien we graag verantwoorde marketing.
 
 **Minimum om in aanmerking te komen:**
 
-- Moet zelf analytics hosten (geen Google Analytics, Adobe Analytics, etc). De site van de aanbieder moet ook voldoen aan [DNT (Do Not Track)](https://en.wikipedia.org/wiki/Do_Not_Track) voor degenen die zich willen afmelden.
+- Moet zelf analytics hosten (geen Google Analytics, Adobe Analytics, etc.). De site van de aanbieder moet ook voldoen aan [DNT (Do Not Track)](https://en.wikipedia.org/wiki/Do_Not_Track) voor degenen die zich willen afmelden.
 
 Mag geen marketing hebben die onverantwoord is:
 

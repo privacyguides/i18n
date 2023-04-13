@@ -43,7 +43,7 @@ schema:
 
 Δεν πρέπει να μπερδεύεις την ιδιωτικότητα με τη μυστικότητα. Ξέρουμε τι συμβαίνει όσο είσαι στο μπάνιο, αλλά εξακολουθείς να κλείνεις την πόρτα. Αυτό συμβαίνει επειδή θέλεις ιδιωτικότητα, όχι μυστικότητα. **Όλοι** έχουν κάτι να προστατεύσουν. Η ιδιωτικότητα είναι κάτι που μας κάνει ανθρώπους.
 
-[:material-target-account: Συχνές Απειλές Στο Διαδίκτυο](basics/common-threats.md ""){.md-button.md-button--primary}
+[:material-target-account: Common Internet Threats](basics/common-threats.md){ class="md-button md-button--primary" }
 
 ## Τι πρέπει να κάνω;
 
@@ -53,7 +53,7 @@ schema:
 
 ==This process of identifying threats and defining countermeasures is called **threat modeling**==, and it forms the basis of every good security and privacy plan.
 
-[:material-book-outline: Learn More About Threat Modeling](basics/threat-modeling.md ""){.md-button.md-button--primary}
+[:material-book-outline: Learn More About Threat Modeling](basics/threat-modeling.md){ class="md-button md-button--primary" }
 
 ---
 

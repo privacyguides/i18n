@@ -118,7 +118,7 @@ Wanneer we een DNS lookup doen, is dat meestal omdat we toegang willen tot een b
 
 De eenvoudigste manier om de surfactiviteit vast te stellen, is te kijken naar de IP-adressen waartoe jouw apparaten toegang hebben. Als de waarnemer bijvoorbeeld weet dat `privacyguides.org` op `198.98.54.105`staat, en jouw apparaat gegevens opvraagt van `198.98.54.105`, is de kans groot dat je Privacy Guides bezoekt.
 
-Deze methode is alleen nuttig wanneer het IP-adres toebehoort aan een server die slechts enkele websites host. Het is ook niet erg nuttig als de site wordt gehost op een gedeeld platform (bijv. Github Pages, Cloudflare Pages, Netlify, WordPress, Blogger, enz). Het is ook niet erg nuttig als de server gehost wordt achter een [reverse proxy](https://en.wikipedia.org/wiki/Reverse_proxy), wat heel gebruikelijk is op het moderne Internet.
+Deze methode is alleen nuttig wanneer het IP-adres toebehoort aan een server die slechts enkele websites host. Het is ook niet erg nuttig als de site wordt gehost op een gedeeld platform (bijv. Github Pages, Cloudflare Pages, Netlify, WordPress, Blogger, enz.). Het is ook niet erg nuttig als de server gehost wordt achter een [reverse proxy](https://en.wikipedia.org/wiki/Reverse_proxy), wat heel gebruikelijk is op het moderne Internet.
 
 ### Server Naam Aanwijzing (SNA)
 

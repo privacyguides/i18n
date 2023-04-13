@@ -7,7 +7,7 @@ São necessárias muitas [pessoas](https://github.com/privacyguides/privacyguide
 
 Se quiser apoiar-nos financeiramente, o método mais conveniente para nós são contribuições através do Open Collective, um website operado pelo nosso anfitrião fiscal. O Open Collective aceita pagamentos através de cartão de crédito/débito, PayPal e transferências bancárias.
 
-[Doar na OpenCollective.com](https://opencollective.com/privacyguides/donate ""){.md-button.md-button--primary}
+[Donate on OpenCollective.com](https://opencollective.com/privacyguides/donate){ class="md-button md-button--primary" }
 
 As doações feitas diretamente a nós no Open Collective são geralmente dedutíveis de imposto nos EUA, porque o nosso anfitrião fiscal (a Open Collective Foundation) é uma organização registada 501(c)3. Você irá receber um recibo da Open Collective Foundation após a doação. O Privacy Guides não fornece aconselhamento financeiro e você deve entrar em contato com seu consultor fiscal para descobrir se isso é aplicável a você.
 

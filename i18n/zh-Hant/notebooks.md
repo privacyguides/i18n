@@ -89,7 +89,7 @@ Cryptee 免費提供100MB 的儲存空間，如果需要更多容量，則另有
 
     ! [Org-mode logo] (assets/img/notebooks/org-mode.svg) {align = right}
     
-    * * Org-mode * *是GNU Emacs的[主要模式] (https://www.gnu.org/software/emacs/manual/html_node/elisp/Major-Modes.html)。 Org-mode 用於記錄筆記，維護待辦事項列表，規劃項目，並使用快速有效的純文本系統撰寫文件。 可以利用[檔案同步] (file-sharing.md#file-sync)工具進行同步。
+    * * Org-mode * *是GNU Emacs的[主要模式] (https://www.gnu.org/software/emacs/manual/html_node/elisp/Major-Modes.html)。 Org-mode 用於記錄筆記，維護待辦事項列表，規劃項目以及使用快速有效的純文本系統撰寫文件。 可以利用[檔案同步] (file-sharing.md#file-sync)工具進行同步。
     
     [:octicons-home-16: Homepage](https://orgmode.org){ .md-button .md-button--primary }
     [:octicons-info-16:](https://orgmode.org/manuals.html){ .card-link title=Documentation}

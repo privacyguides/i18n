@@ -321,7 +321,7 @@ No debe tener ningún mercadeo que sea irresponsable:
 
 El marketing responsable que es a la vez educativo y útil para el consumidor podría incluir:
 
-- Una comparación precisa para cuando se debe utilizar Tor u otras [redes autónomas](self-contained-networks.md).
+- Una comparación precisa para cuando [Tor](tor.md) se debe utilizar en su lugar.
 - Disponibilidad del sitio web del proveedor de VPN a través de un .onion [Hidden Service](https://es.wikipedia.org/wiki/.onion)
 
 ### Funcionalidad Adicional

@@ -191,7 +191,7 @@ By default, LibreTube blocks all YouTube advertisements. Additionally, Libretube
 
 1. L'istanza predefinita è [FramaTube](https://framatube.org/), ma se ne possono aggiungere altre tramite **Impostazioni** → **Contenuti** → **Istanze di PeerTube**
 
-!!! Warning
+!!! warning
 
     Quando utilizzi NewPipe, il tuo indirizzo IP sarà visibile ai fornitori di video utilizzati. Considera l'uso di [VPN](vpn.md) o [Tor](https://www.torproject.org) se il [modello di minaccia](basics/threat-modeling.md) richiede di nascondere l'indirizzo IP.
 

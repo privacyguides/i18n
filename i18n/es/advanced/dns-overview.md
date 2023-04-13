@@ -118,7 +118,7 @@ Cuando hacemos una búsqueda en el DNS, generalmente es porque queremos acceder 
 
 La forma más sencilla de determinar la actividad de navegación podría ser mirar las direcciones IP a las que acceden sus dispositivos. Por ejemplo, si el observador sabe que `privacyguides.org` está en `198.98.54.105`, y tu dispositivo solicita datos de `198.98.54.105`, es muy probable que estés visitando Privacy Guides.
 
-Este método sólo es útil cuando la dirección IP pertenece a un servidor que sólo aloja unos pocos sitios web. Tampoco es muy útil si el sitio está alojado en una plataforma compartida (por ejemplo, Github Pages, Cloudflare Pages, Netlify, WordPress, Blogger, etc). Tampoco es muy útil si el servidor está alojado detrás de un [proxy inverso](https://es.wikipedia.org/wiki/Proxy_inverso), lo cual es muy común en la Internet moderna.
+Este método sólo es útil cuando la dirección IP pertenece a un servidor que sólo aloja unos pocos sitios web. Tampoco es muy útil si el sitio está alojado en una plataforma compartida (por ejemplo, Github Pages, Cloudflare Pages, Netlify, WordPress, Blogger, etc.). Tampoco es muy útil si el servidor está alojado detrás de un [proxy inverso](https://es.wikipedia.org/wiki/Proxy_inverso), lo cual es muy común en la Internet moderna.
 
 ### Indicación del Nombre del Servidor (SNI)
 
@@ -262,15 +262,15 @@ Hemos elaborado este diagrama de flujo para describir cuándo *deberías* usar e
 
 ``` mermaid
 graph TB
-    Comienzo[Start] --> anonymous{¿Tratando de ser<br> anónimo?}
+    Comienzo[Start] --> anonymous{"¿Tratando de ser<br> anónimo?"}
     anonymous--> | Sí | tor(Usa Tor)
-    anonymous --> | No | censorship{¿Evitando la<br> censura?}
+    anonymous --> | No | censorship{"¿Evitando la<br> censura?"}
     censorship --> | Sí | vpnOrTor(Usa una<br> VPN o Tor)
-    censorship --> | No | privacy{¿Quieres privacidad<br> del ISP?}
+    censorship --> | No | privacy{"¿Quieres privacidad<br> del ISP?"}
     privacy --> | Sí | vpnOrTor
-    privacy --> | No | obnoxious{¿El ISP hace<br> odiosas<br> redirecciones?}
+    privacy --> | No | obnoxious{"¿El ISP hace<br> odiosas<br> redirecciones?"}
     obnoxious --> | Sí | encryptedDNS(Usa<br> DNS cifrado<br> con terceros)
-    obnoxious --> | No | ispDNS{¿El ISP soporta<br> DNS cifrado?}
+    obnoxious --> | No | ispDNS{"¿El ISP soporta<br> DNS cifrado?"}
     ispDNS --> | Sí | useISP(Usa<br> DNS cifrado<br> con ISP)
     ispDNS --> | No | nothing(No hagas nada)
 ```

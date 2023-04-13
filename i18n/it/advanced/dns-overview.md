@@ -24,7 +24,7 @@ Di seguito, discutiamo e foniamo un tutorial per dimostrare cosa un osservatore 
     tshark -w /tmp/dns.pcap udp port 53 and host 1.1.1.1 or host 8.8.8.8
     ```
 
-2. Possiamo poi utilizzare il comando [`dig`](https://it.wikipedia.org/wiki/Domain_Information_Groper) (Linux, MacOS ecc.) o [`nslookup`](https://it.wikipedia.org/wiki/Nslookup) (Windows) per inviare la ricerca DNS ad entrambi i server. Software come i browser web effettuano queste ricerche automaticamente, a meno che non venga specificato di utilizzare DNS crittografato.
+2. Possiamo usare il comando [`dig`](https://en.wikipedia.org/wiki/Dig_(command)) (Linux, MacOS, ecc.) o [`nslookup`](https://en.wikipedia.org/wiki/Nslookup) (Windows) per inviare la ricerca DNS a entrambi i server. Software come i browser web effettuano queste ricerche automaticamente, a meno che non venga specificato di utilizzare DNS crittografato.
 
     === "Linux, macOS"
 
@@ -118,7 +118,7 @@ Quando si effettua una ricerca DNS, in genere è perché si vuole accedere a una
 
 Il modo più semplice per determinare l'attività di navigazione potrebbe essere quello di esaminare gli indirizzi IP a cui accedono i dispositivi. Ad esempio, se l'osservatore sa che `privacyguides.org` si trova all'indirizzo `198.98.54.105`, e il tuodispositivo sta richiedendo dati da `198.98.54.105`, è molto probabile che tu stia visitando Privacy Guides.
 
-Questo metodo è utile solo quando l'indirizzo IP appartiene a un server che ospita solo pochi siti web. Inoltre, non è molto utile se il sito è ospitato su una piattaforma condivisa (ad esempio, Github Pages, Cloudflare Pages, Netlify, WordPress, Blogger, ecc). Inoltre, non è molto utile se il server è ospitato dietro un reverse proxy [](https://it.wikipedia.org/wiki/Reverse_proxy), molto comune nella moderna Internet.
+Questo metodo è utile solo quando l'indirizzo IP appartiene a un server che ospita solo pochi siti web. Non è molto utile se il sito è hostato su una piattaforma condivisa (per esempio Github Pages, Cloudflare Pages, Netlify, WordPress, Blogger, ecc.). Inoltre, non è molto utile se il server è ospitato dietro un reverse proxy [](https://it.wikipedia.org/wiki/Reverse_proxy), molto comune nella moderna Internet.
 
 ### Indicazione del nome del server (Server Name Indication, SNI)
 

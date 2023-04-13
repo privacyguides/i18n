@@ -1,7 +1,7 @@
 ---
 title: "Navegadores de Escritorio"
 icon: material/laptop
-description: These web browsers provide stronger privacy protections than Google Chrome.
+description: Estos navegadores web ofrecen protecciones de privacidad más sólidas que Google Chrome.
 schema:
   - 
     "@context": http://schema.org
@@ -55,9 +55,9 @@ schema:
       url: "./"
 ---
 
-Estas son nuestras recomendaciones de navegadores web para computadoras y las configuraciones para la navegación estándar/no anónima por Internet. We recommend [Mullvad Browser](#mullvad-browser) if you are focused on strong privacy protections and anti-fingerprinting out of the box, [Firefox](#firefox) for casual internet browsers looking for a good alternative to Google Chrome, and [Brave](#brave) if you need Chromium browser compatibility.
+Estas son nuestras recomendaciones de navegadores web para computadoras y las configuraciones para la navegación estándar/no anónima por Internet. Recomendamos [Mullvad Browser](#mullvad-browser) si estás centrado en fuertes protecciones de privacidad y contra huellas digitales desde el primer momento, [Firefox](#firefox) para navegantes ocasionales que buscan una buena alternativa a Google Chrome, y [Brave](#brave) si necesitas compatibilidad con el navegador Chromium.
 
-Si necesita navegar por Internet de forma anónima, debería utilizar [Tor](tor.md). We make some configuration recommendations on this page, but all browsers other than Tor Browser will be traceable by *somebody* in some manner or another.
+Si necesitas navegar por Internet de forma anónima, deberías utilizar [Tor](tor.md) . Hacemos algunas recomendaciones de configuración en esta página, pero todos los navegadores que no sean Tor Browser serán rastreables por *alguien* de una forma u otra.
 
 ## Mullvad Browser
 
@@ -65,12 +65,12 @@ Si necesita navegar por Internet de forma anónima, debería utilizar [Tor](tor.
 
     ![Mullvad Browser logo](assets/img/browsers/mullvad_browser.svg){ align=right }
     
-    **Mullvad Browser** is a version of [Tor Browser](tor.md#tor-browser) with Tor network integrations removed, aimed at providing Tor Browser's anti-fingerprinting browser technologies to VPN users. It is developed by the Tor Project and distributed by [Mullvad](vpn.md#mullvad), and does **not** require the use of Mullvad's VPN.
+    **Mullvad Browser** es una versión de [Tor Browser](tor.md#tor-browser) con las integraciones de la red Tor eliminadas, con el objetivo de proporcionar las tecnologías de navegación anti huella digital de Tor Browser a los usuarios de VPN. Es desarrollado por el Proyecto Tor y distribuido por [Mullvad](vpn.md#mullvad), y **no** requiere el uso de la VPN de Mullvad.
     
-    [:octicons-home-16: Homepage](https://mullvad.net/en/browser){ .md-button .md-button--primary }
-    [:octicons-eye-16:](https://mullvad.net/en/help/privacy-policy/){ .card-link title="Privacy Policy" }
-    [:octicons-info-16:](https://mullvad.net/en/help/tag/mullvad-browser/){ .card-link title=Documentation}
-    [:octicons-code-16:](https://gitlab.torproject.org/tpo/applications/mullvad-browser){ .card-link title="Source Code" }
+    [:octicons-home-16: Página Principal](https://mullvad.net/en/browser){ .md-button .md-button--primary }
+    [:octicons-eye-16:](https://mullvad.net/en/help/privacy-policy/){ .card-link title="Política de Privacidad }
+    [:octicons-info-16:](https://mullvad.net/en/help/tag/mullvad-browser/){ .card-link title=Documentación}
+    [:octicons-code-16:](https://gitlab.torproject.org/tpo/applications/mullvad-browser){ .card-link title="Código Fuente" }
     
     ??? downloads "Descargas"
     
@@ -78,27 +78,27 @@ Si necesita navegar por Internet de forma anónima, debería utilizar [Tor](tor.
         - [:simple-apple: macOS](https://mullvad.net/en/download/browser/macos)
         - [:simple-linux: Linux](https://mullvad.net/en/download/browser/linux)
 
-Like [Tor Browser](tor.md), Mullvad Browser is designed to prevent fingerprinting by making your browser fingerprint identical to all other Mullvad Browser users, and it includes default settings and extensions that are automatically configured by the default security levels: *Standard*, *Safer* and *Safest*. Therefore, it is imperative that you do not modify the browser at all outside adjusting the default [security levels](https://tb-manual.torproject.org/security-settings/). Other modifications would make your fingerprint unique, defeating the purpose of using this browser. If you want to configure your browser more heavily and fingerprinting is not a concern for you, we recommend [Firefox](#firefox) instead.
+Al igual que [Tor Browser](tor.md), Mullvad Browser está diseñado para evitar el fingerprinting haciendo que la huella digital de tu navegador sea idéntica a la de todos los demás usuarios de Mullvad Browser, e incluye ajustes por defecto y extensiones que se configuran automáticamente según los niveles de seguridad por defecto: *Standard*, *Safer* y *Safest*. Por lo tanto, es imperativo que no modifiques el navegador en absoluto, más allá de ajustar los [niveles de seguridad](https://tb-manual.torproject.org/security-settings/) por defecto. Otras modificaciones harían que tu huella digital fuera única, anulando el propósito de utilizar este navegador. Si deseas configurar tu navegador de forma más exhaustiva y la huella digital no te preocupa, te recomendamos [Firefox](#firefox) en su lugar.
 
-### Anti-Fingerprinting
+### Anti Huella Digital
 
-**Without** using a [VPN](vpn.md), Mullvad Browser provides the same protections against [naive fingerprinting scripts](https://github.com/arkenfox/user.js/wiki/3.3-Overrides-%5BTo-RFP-or-Not%5D#-fingerprinting) as other private browsers like Firefox+[Arkenfox](#arkenfox-advanced) or [Brave](#brave). Mullvad Browser provides these protections out of the box, at the expense of some flexibility and convenience that other private browsers can provide.
+**Sin** utilizar una VPN [](vpn.md), Mullvad Browser proporciona las mismas protecciones contra [scripts primitivos de huellas digitales](https://github.com/arkenfox/user.js/wiki/3.3-Overrides-%5BTo-RFP-or-Not%5D#-fingerprinting) que otros navegadores privados como Firefox+[Arkenfox](#arkenfox-advanced) o [Brave](#brave). Mullvad Browser proporciona estas protecciones desde el principio, a expensas de cierta flexibilidad y comodidad que otros navegadores privados pueden proporcionar.
 
-==For the strongest anti-fingerprinting protection, we recommend using Mullvad Browser in conjunction **with** a VPN==, whether that is Mullvad or another recommended VPN provider. When using a VPN with Mullvad Browser, you will share a fingerprint and a pool of IP addresses with many other users, giving you a "crowd" to blend in with. This strategy is the only way to thwart advanced tracking scripts, and is the same anti-fingerprinting technique used by Tor Browser.
+==Para obtener la mayor protección contra las huellas dactilares, recomendamos usar el navegador Mullvad en conjunción **con** una VPN==, ya sea de Mullvad o de otro proveedor de VPN recomendado. Al utilizar una VPN con Mullvad Browser, compartirás una huella digital y un conjunto de direcciones IP con muchos otros usuarios, lo que le proporcionará una "multitud" con la que mezclarse. Esta estrategia es la única manera de frustrar los scripts de rastreo avanzados, y es la misma técnica contra las huellas digitales utilizada por Tor Browser.
 
-Note that while you can use Mullvad Browser with any VPN provider, other people on that VPN must also be using Mullvad Browser for this "crowd" to exist, something which is more likely on Mullvad VPN compared to other providers, particularly this close to the launch of Mullvad Browser. Mullvad Browser does not have built-in VPN connectivity, nor does it check whether you are using a VPN before browsing; your VPN connection has to be configured and managed separately.
+Ten en cuenta que aunque puedes usar Mullvad Browser con cualquier proveedor de VPN, otras personas en esa VPN también deben estar usando Mullvad Browser para que exista esta "multitud", algo que es más probable en Mullvad VPN en comparación con otros proveedores, especialmente tan cerca del lanzamiento de Mullvad Browser. Mullvad Browser no tiene conectividad VPN integrada, ni comprueba si estás usando una VPN antes de navegar; tu conexión VPN tiene que ser configurada y gestionada por separado.
 
-Mullvad Browser comes with the *uBlock Origin* and *NoScript* browser extensions pre-installed. While we typically [don't recommend](#extensions) adding *additional* browser extensions, these extensions that come pre-installed with the browser should **not** be removed or configured outside their default values, because doing so would noticeably make your browser fingerprint distinct from other Mullvad Browser users. It also comes pre-installed with the Mullvad Browser Extension, which *can* be safely removed without impacting your browser fingerprint if you would like, but is also safe to keep even if you don't use Mullvad VPN.
+Mullvad Browser viene con las extensiones de navegador *uBlock Origin* y *NoScript* preinstaladas. Aunque normalmente [no recomendamos](#extensions) añadir extensiones de navegador *adicionales*, estas extensiones que vienen preinstaladas con el navegador **no** deben ser eliminadas o configuradas fuera de sus valores por defecto, ya que hacerlo haría tu huella digital del navegador notablemente distinta de la de otros usuarios de Mullvad Browser. También viene preinstalado con la extensión Mullvad Browser Extension, que *puede* ser eliminada de forma segura sin afectar a tu huella digital del navegador si lo deseas, pero también es seguro mantenerla incluso si no utilizas Mullvad VPN.
 
-### Private Browsing Mode
+### Modo de Navegación Privada
 
-Mullvad Browser operates in permanent private browsing mode, meaning your history, cookies, and other site data will always be cleared every time the browser is closed. Your bookmarks, browser settings, and extension settings will still be preserved.
+Mullvad Browser funciona en modo de navegación privada permanente, lo que significa que el historial, las cookies y otros datos del sitio se borrarán siempre que se cierre el navegador. Tus marcadores y tu configuración del navegador y de las extensiones se conservarán.
 
-This is required to prevent advanced forms of tracking, but does come at the cost of convenience and some Firefox features, such as Multi-Account Containers. Remember you can always use multiple browsers, for example, you could consider using Firefox+Arkenfox for a few sites that you want to stay logged in on or otherwise don't work properly in Mullvad Browser, and Mullvad Browser for general browsing.
+Esto es necesario para evitar formas avanzadas de rastreo, pero a costa de la comodidad y de algunas funciones de Firefox, como los contenedores multicuenta. Recuerda que siempre puedes utilizar varios navegadores, por ejemplo, podrías considerar utilizar Firefox+Arkenfox para algunos sitios en los que quieras mantener la sesión iniciada o que no funcionen correctamente en Mullvad Browser, y Mullvad Browser para la navegación general.
 
 ### Mullvad Leta
 
-Mullvad Browser comes with DuckDuckGo set as the default [search engine](search-engines.md), but it also comes preinstalled with **Mullvad Leta**, a search engine which requires an active Mullvad VPN subscription to access. Mullvad Leta queries Google's paid search API directly (which is why it is limited to paying subscribers), however because of this limitation it is possible for Mullvad to correlate search queries and Mullvad VPN accounts. For this reason we discourage the use of Mullvad Leta, even though Mullvad collects very little information about their VPN subscribers.
+Mullvad Browser viene con DuckDuckGo configurado como [motor de búsqueda](search-engines.md) por defecto, pero también viene preinstalado con **Mullvad Leta**, un motor de búsqueda que requiere una suscripción activa a Mullvad VPN para poder acceder. Mullvad Leta consulta directamente la API de búsqueda de pago de Google (razón por la cual está limitada a los suscriptores de pago), sin embargo, debido a esta limitación, es posible que Mullvad correlacione las consultas de búsqueda y las cuentas VPN de Mullvad. Por este motivo, desaconsejamos el uso de Mullvad Leta, a pesar de que Mullvad recopila muy poca información sobre sus suscriptores de VPN.
 
 ## Firefox
 
@@ -126,62 +126,71 @@ Mullvad Browser comes with DuckDuckGo set as the default [search engine](search-
 
 ### Configuración Recomendada
 
-Estas opciones se encuentran en :material-menu: → **Ajustes** → **Privacidad y seguridad**.
+Estas opciones se encuentran en :material-menu: → **Ajustes**
 
-##### Protección antirrastreo mejorada
+#### Buscar
 
-- [x] Seleccione **Estricto** Protección de seguimiento mejorada
+- [ ] Desmarca **Proporcionar sugerencias de búsqueda**
 
-Esto le protege bloqueando los rastreadores de redes sociales, las secuencias de comandos de huellas digitales (ten en cuenta que esto no le protege de *todas* las huellas digitales), los criptomineros, las cookies de rastreo de sitios cruzados y algunos otros contenidos de rastreo. ETP protege contra muchas amenazas comunes, pero no bloquea todas las vías de rastreo porque está diseñado para tener un impacto mínimo o nulo en la usabilidad del sitio.
+Es posible que las funciones de sugerencia de búsqueda no estén disponibles en tu región.
+
+Las sugerencias de búsqueda envían todo lo que escribes en la barra de direcciones al motor de búsqueda predeterminado, independientemente de si realizas una búsqueda real. Desactivar las sugerencias de búsqueda te permite controlar con mayor precisión los datos que envías al proveedor de tu motor de búsqueda.
+
+#### Privacidad & Seguridad
+
+##### Protección contra el rastreo mejorada
+
+- [x] Selecciona **Estricto** Protección de seguimiento mejorada
+
+Esto te protege bloqueando los rastreadores de redes sociales, las secuencias de comandos de huellas digitales (ten en cuenta que esto no te protege de *todas* las huellas digitales), los criptomineros, las cookies de rastreo de sitios cruzados y algunos otros contenidos de rastreo. ETP protege contra muchas amenazas comunes, pero no bloquea todas las vías de rastreo porque está diseñado para tener un impacto mínimo o nulo en la usabilidad del sitio.
+
+##### Firefox Suggest (solo en EE. UU.)
+
+[Firefox Suggest](https://support.mozilla.org/en-US/kb/firefox-suggest) es una función similar a las sugerencias de búsqueda que sólo está disponible en Estados Unidos. Recomendamos desactivarlo por la misma razón que recomendamos desactivar las sugerencias de búsqueda. Si no ves estas opciones en lel encabezado de la **Barra de Direcciones**, no tienes la nueva experiencia y puedes ignorar estos cambios.
+
+- [ ] Desmarca **Suggestions from the web**
+- [ ] Desmarque **Suggestions from sponsors**
 
 ##### Desinfectar al cerrar
 
-Si deseas seguir conectado a determinados sitios, puede permitir excepciones en **Cookies y datos del sitio** → **Administrar excepciones....**
+Si deseas seguir conectado a determinados sitios, puedes permitir excepciones en **Cookies y datos del sitio** → **Gestionar excepciones....**
 
-- [x] Marque **Eliminar cookies y datos del sitio cuando se cierra Firefox**
+- [x] Selecciona **Eliminar cookies y datos del sitio cuando cierre Firefox**
 
-Esto le protege de las cookies persistentes, pero no le protege de las cookies adquiridas durante una sesión de navegación. Cuando esta opción está activada, es posible limpiar fácilmente las cookies del navegador simplemente reiniciando Firefox. Puedes establece excepciones por sitio, si desea permanecer conectado a un sitio concreto que visite con frecuencia.
-
-##### Buscar sugerencias
-
-- [ ] Desmarque **Proporcionar sugerencias de búsqueda**
-
-Es posible que las funciones de sugerencia de búsqueda no estén disponibles en su región.
-
-Las sugerencias de búsqueda envían todo lo que escribe en la barra de direcciones al motor de búsqueda predeterminado, independientemente de si realiza una búsqueda real. Desactivar las sugerencias de búsqueda le permite controlar con mayor precisión los datos que envía al proveedor de su motor de búsqueda.
+Esto te protege de las cookies persistentes, pero no te protege de las cookies adquiridas durante una sesión de navegación. Cuando esta opción está activada, es posible limpiar fácilmente las cookies del navegador simplemente reiniciando Firefox. Puedes establecer excepciones por sitio, si deseas permanecer conectado a un sitio concreto que visites con frecuencia.
 
 ##### Telemetría
 
-- [ ] Desmarque **Permitir que Firefox envíe infromación técnica y de interacción a Mozilla**
-- [ ] Desmarque **Permitir Firefox para instalar y ejecutar estudios**
-- [ ] Desmarque **Permitir que Firefox envié informes de fallos acumulados en tu nombre**
+- [ ] Desmarca **Permitir a Firefox enviar datos técnicos y de interacción a Mozilla**
+- [ ] Desmarca **Permitir que Firefox instale y ejecute estudios**
+- [ ] Desmarca **Permitir que Firefox envíe informes de fallos acumulados en su nombre**
 
-> Firefox envía datos sobre su versión e idioma de Firefox; sistema operativo del dispositivo y configuración del hardware; memoria, información básica sobre fallos y errores; resultado de procesos automatizados como actualizaciones, navegación segura y activación. Cuando Firefox envía datos, su dirección IP se recoge temporalmente como parte de los registros de nuestro servidor.
+> Firefox envía datos sobre tu versión e idioma de Firefox; sistema operativo del dispositivo y configuración del hardware; memoria, información básica sobre fallos y errores; resultado de procesos automatizados como actualizaciones, navegación segura y activación. Cuando Firefox envía datos, tu dirección IP se recoge temporalmente como parte de los registros de nuestro servidor.
 
-Además, el servicio Firefox Accounts recoge [algunos datos técnicos](https://www.mozilla.org/en-US/privacy/firefox/#firefox-accounts). Si usa una cuenta de Firefox, puede excluir:
+Además, el servicio Firefox Accounts recoge [algunos datos técnicos](https://www.mozilla.org/en-US/privacy/firefox/#firefox-accounts). Si usas una cuenta de Firefox, puedes excluir:
 
-1. Abra la [configuración de su perfil en accounts.firefox.com](https://accounts.firefox.com/settings#data-collection)
-2. Desmarque **Recopilación y uso de datos** > **Ayuda a mejorar Cuentas de Firefox**
+1. Abre la [configuración de tu perfil en accounts.firefox.com](https://accounts.firefox.com/settings#data-collection)
+2. Desmarca **Recopilación y uso de datos** > **Ayuda a mejorar Cuentas de Firefox**
 
 ##### Modo solo HTTPS
 
-- [x] Seleccione **Habilitar el modo solo HTTPS en todas las ventanas**
+- [x] Selecciona **Activar el modo solo-HTTPS en todas las ventanas**
 
-Esto evita que se conecte involuntariamente a un sitio web en texto plano HTTP. Los sitios sin HTTPS son poco comunes hoy en día, por lo que esto debería tener poco o ningún impacto en su navegación diaria.
+Esto evita que te conectes involuntariamente a un sitio web en texto plano HTTP. Los sitios sin HTTPS son poco comunes hoy en día, por lo que esto debería tener poco o ningún impacto en tu navegación diaria.
 
-### Firefox Sync
+#### Sincronización
 
-[Firefox Sync](https://hacks.mozilla.org/2018/11/firefox-sync-privacy/) permite que sus datos de navegación (historial, marcadores, etc.) sean accesibles en todos sus dispositivos y los protege con E2EE.
+[Firefox Sync](https://hacks.mozilla.org/2018/11/firefox-sync-privacy/) permite que tus datos de navegación (historial, marcadores, etc.) sean accesibles desde todos tus dispositivos y los protege con E2EE.
 
 ### Arkenfox (avanzado)
 
-!!! tip "Use Mullvad Browser for advanced anti-fingerprinting"
+!!! tip "Consejo" "Utiliza Mullvad Browser para la protección avanzada contra huella digital"
 
-    [Mullvad Browser](#mullvad-browser) provides the same anti-fingerprinting protections as Arkenfox out of the box, and does not require the use of Mullvad's VPN to benefit from these protections. Coupled with a VPN, Mullvad Browser can thwart more advanced tracking scripts which Arkenfox cannot. Arkenfox still has the advantage of being much more flexible, and allowing per-site exceptions for websites which you need to stay logged in to.
+    [Mullvad Browser](#mullvad-browser) proporciona las mismas protecciones anti-fingerprinting que Arkenfox, y no requiere el uso de la VPN de Mullvad para beneficiarse de estas protecciones. Junto con una VPN, Mullvad Browser puede frustrar scripts de rastreo más avanzados que Arkenfox no puede. Arkenfox sigue teniendo la ventaja de ser mucho más flexible y de permitir excepciones por sitio para los sitios web en los que es necesario permanecer conectado.
 
-El [proyecto Arkenfox](https://github.com/arkenfox/user.js) proporciona un conjunto de opciones cuidadosamente consideradas para Firefox. Si [decide](https://github.com/arkenfox/user.js/wiki/1.1-To-Arkenfox-or-Not) utilizar Arkenfox, unas [pocas opciones](https://github.com/arkenfox/user.js/wiki/3.2-Overrides-[Common]) son subjetivamente estrictas y/o pueden hacer que algunos sitios web no funcionen correctamente - [lo que puede cambiar fácilmente](https://github.com/arkenfox/user.js/wiki/3.1-Overrides) para adaptarse a sus necesidades. Nosotros **recomendamos encarecidamente** que lea su [wiki ](https://github.com/arkenfox/user.js/wiki)(lamentablemente solo en inglés). Arkenfox también permite el soporte de [contenedores](https://support.mozilla.org/en-US/kb/containers#w_for-advanced-users).
+El [proyecto Arkenfox](https://github.com/arkenfox/user.js) proporciona un conjunto de opciones cuidadosamente consideradas para Firefox. Si [decides](https://github.com/arkenfox/user.js/wiki/1.1-To-Arkenfox-or-Not) utilizar Arkenfox, unas [pocas opciones](https://github.com/arkenfox/user.js/wiki/3.2-Overrides-[Common]) son subjetivamente estrictas y/o pueden hacer que algunos sitios web no funcionen correctamente - [que puede cambiar fácilmente](https://github.com/arkenfox/user.js/wiki/3.1-Overrides) para adaptarse a tus necesidades. Nosotros **recomendamos encarecidamente** que leas su [wiki ](https://github.com/arkenfox/user.js/wiki)(lamentablemente solo en inglés). Arkenfox también permite el soporte de [contenedores](https://support.mozilla.org/en-US/kb/containers#w_for-advanced-users).
 
-Arkenfox only aims to thwart basic or naive tracking scripts through canvas randomization and Firefox's built-in fingerprint resistance configuration settings. It does not aim to make your browser blend in with a large crowd of other Arkenfox users in the same way Mullvad Browser or Tor Browser do, which is the only way to thwart advanced fingerprint tracking scripts. Remember you can always use multiple browsers, for example, you could consider using Firefox+Arkenfox for a few sites that you want to stay logged in on or otherwise trust, and Mullvad Browser for general browsing.
+Arkenfox sólo pretende frustrar los scripts de rastreo básicos o primitivos mediante la aleatorización del lienzo (canvas randomization) y los ajustes de configuración de resistencia a las huellas digitales incorporados en Firefox. No pretende hacer que tu navegador se mezcle con una gran multitud de otros usuarios de Arkenfox de la misma manera que lo hacen Mullvad Browser o Tor Browser, que es la única manera de frustrar los scripts avanzados de rastreo de huellas dactilares. Recuerda que siempre puedes utilizar varios navegadores, por ejemplo, podrías considerar utilizar Firefox+Arkenfox para algunos sitios en los que quieras mantener la sesión iniciada o en los que confíes, y Mullvad Browser para la navegación general.
 
 ## Brave
 
@@ -212,7 +221,9 @@ Arkenfox only aims to thwart basic or naive tracking scripts through canvas rand
 
 Estas opciones se encuentran en :material-menu: → **Configuración**.
 
-##### Protecciones
+#### Configuración
+
+##### Escudos
 
 Brave incluye algunas medidas anti-fingerprinting en su función de [Escudos](https://support.brave.com/hc/en-us/articles/360022973471-What-is-Shields-). Sugerimos configurar estas opciones [globalmente](https://support.brave.com/hc/en-us/articles/360023646212-How-do-I-configure-global-and-site-specific-Shields-settings-) en todas las páginas que visite.
 
@@ -220,14 +231,14 @@ Las opciones de los escudos pueden reducirse según las necesidades de cada siti
 
 <div class="annotate" markdown>
 
-- [x] Seleccione **Impedir que los sitios obtengan mis huellas digitales en función de mis preferencias de idioma**
-- [x] Selecciona * * Agresivo * * en Bloqueo de rastreadores y anuncios
+- [x] Selecciona **Impedir que los sitios obtengan mis huellas digitales en función de mis preferencias de idioma**
+- [x] Selecciona **Agresivo** en Bloqueo de rastreadores y anuncios
 
-    ??? advertencia "Use listas de filtros predeterminadas"
-        Brave le permite seleccionar filtros de contenido adicionales dentro de la página interna `brave://adblock`. Le aconsejamos que no utilice esta función; en su lugar, mantenga las listas de filtros predeterminadas. El uso de listas adicionales le hará destacar entre los demás usuarios de Brave y también puede aumentar la superficie de ataque si hay un exploit en Brave y se añade una regla maliciosa a una de las listas que utiliza.
+    ??? advertencia "Usa listas de filtros predeterminadas"
+        Brave te permite seleccionar filtros de contenido adicionales dentro de la página interna `brave://adblock`. Te aconsejamos que no utilices esta función; en su lugar, mantén las listas de filtros predeterminadas. El uso de listas adicionales te hará destacar entre los demás usuarios de Brave y también puede aumentar la superficie de ataque si hay un exploit en Brave y se añade una regla maliciosa a una de las listas que utilizas.
 
-- [x] (Opcional) Seleccione **Bloquear Scripts** (1)
-- [x] Seleccione **Estricto, puede dañar los sitios** en Bloquear huellas digitales
+- [x] (Opcional) Selecciona **Bloquear Scripts** (1)
+- [x] Selecciona **Estricto, puede dañar los sitios** en Bloquear huellas digitales
 
 </div>
 
@@ -235,49 +246,46 @@ Las opciones de los escudos pueden reducirse según las necesidades de cada siti
 
 ##### Bloqueo de RRSS
 
-- [ ] Desmarque todos los componentes de redes sociales
+- [ ] Desmarca todos los componentes de redes sociales
 
 ##### Privacidad y seguridad
 
 <div class="annotate" markdown>
 
-- [x] Selecciona **Desactivar UDP no proxy** en [Política de gestión de IP de WebRTC](https://support.brave.com/hc/en-us/articles/360017989132-How-do-I-change-my-Privacy-Settings-#webrtc)
-- [ ] Desmarca **Utilizar los servicios de Google para la mensajería push**
-- [ ] Desmarca **Permitir análisis de productos que preservan la privacidad (P3A)**
-- ¡[ ] Desmarcar **Enviar automáticamente ping de uso diario a Brave**
-- [ ] Desmarca **Enviar automáticamente informes de diagnóstico**
+- [x] Selecciona **Desactivar el UDP sin proxy** en [Política de gestión de IP de WebRTC](https://support.brave.com/hc/en-us/articles/360017989132-How-do-I-change-my-Privacy-Settings-#webrtc)
+- [ ] Desmarca **Utiliza los servicios de Google para la mensajería push**
+- [ ] Desmarca **Permitir estadísticas del producto con preservación de la privacidad (P3A)**
+- [ ] Desmarca **Enviar automáticamente el ping de uso diario a Brave**
+- [ ] Desmarca **Enviar informes de diagnóstico automáticamente**
 - [x] Selecciona **Usar siempre conexiones seguras** en el menú **Seguridad**
 - [ ] Desmarca **Ventana privada con Tor** (1)
 
-    !!! consejo "Desinfectar al cerrar"
+    !!! tip "Desinfectar al cerrar"
+
         - [x] Selecciona **Borrar cookies y datos de sitios al cerrar todas las ventanas** en el menú *Cookies y otros datos de sitios*
 
         Si deseas permanecer conectado a un sitio concreto que visitas con frecuencia, puedes establecer excepciones por sitio en la sección *Comportamientos personalizados*.
 
 </div>
 
-1. Brave **no** es tan resistente a las huellas dactilares como Tor Browser y mucha menos gente usa Brave con Tor, así que usted destacará. Cuando se requiera un [fuerte anonimato](https://support.brave.com/hc/en-us/articles/360018121491-What-is-a-Private-Window-with-Tor-Connectivity-) utilice [Tor Browser ](tor.md#tor-browser).
+1. Brave **no** es tan resistente a las huellas digitales como Tor Browser y mucha menos gente usa Brave con Tor, así que destacarás. Cuando necesites un [fuerte anonimato](https://support.brave.com/hc/en-us/articles/360018121491-What-is-a-Private-Window-with-Tor-Connectivity-) utiliza [Tor Browser ](tor.md#tor-browser).
 
 ##### Extensiones
 
-Desactive las extensiones integradas que no utilice en **Extensiones**
+Desactiva las extensiones integradas que no utilice en **Extensiones**
 
 - [ ] Desmarca **Hangouts**
 - [ ] Desmarca **WebTorrent**
 
 ##### Web3
 
-<div class="annotate" markdown>
+Las funciones Web3 de Brave pueden aumentar potencialmente la huella digital de tu navegador y la superficie de ataque. A menos que utilices alguna de las funciones, deberían estar desactivadas.
 
-- [x] Selecciona Deshabilitado en Método para resolver los recursos IPFS (1)
+- [ ] Establece **Cartera predeterminada de Ethereum** como **Ninguno**
+- [ ] Establece **Cartera predeterminada de Solana** como **Ninguno**
+- [ ] Establece **Método para resolver los recursos IPFS** como **Deshabilitado
 
-</div>
-
-1. El Sistema de Archivos InterPlanetario (IPFS) es una red descentralizada, de igual a igual, para almacenar y compartir datos en un sistema de archivos distribuido. A menos que utilice la función, desactívela.
-
-##### Ajustes Adicionales
-
-En el menú *Sistema*
+##### Sistema
 
 <div class="annotate" markdown>
 
@@ -287,13 +295,19 @@ En el menú *Sistema*
 
 1. Esta opción no está presente en todas las plataformas.
 
-### Brave Sync
+#### Sincronización
 
 [Brave Sync](https://support.brave.com/hc/en-us/articles/360059793111-Understanding-Brave-Sync) permite que sus datos de navegación (historial, marcadores, etc.) sean accesibles en todos sus dispositivos sin necesidad de una cuenta y los protege con E2EE.
 
+#### Brave Rewards y Wallet
+
+**Brave Rewards** te permite recibir la criptomoneda Basic Attention Token (BAT) por realizar ciertas acciones dentro de Brave. Se basa en una cuenta de custodia y KYC de un número selecto de proveedores. No recomendamos BAT como [criptomoneda privada](cryptocurrency.md), ni tampoco recomendamos utilizar un [monedero de custodia](advanced/payments.md#other-coins-bitcoin-ethereum-etc), por lo que desaconsejamos utilizar esta función.
+
+**Brave Wallet** funciona localmente en tu ordenador, pero no admite ninguna criptomoneda privada, por lo que desaconsejamos utilizar esta función también.
+
 ## Recursos Adicionales
 
-In general, we recommend keeping your browser extensions to a minimum to decrease your attack surface; they have privileged access within your browser, require you to trust the developer, can make you [stand out](https://en.wikipedia.org/wiki/Device_fingerprint#Browser_fingerprint), and [weaken](https://groups.google.com/a/chromium.org/g/chromium-extensions/c/0ei-UCHNm34/m/lDaXwQhzBAAJ) site isolation. Sin embargo, uBlock Origin puede resultarte útil si valoras la funcionalidad de bloqueo de contenidos.
+En general, recomendamos mantener las extensiones al mínimo; ya que tienen acceso privilegiado dentro de su navegador y requieren que confíes en el desarrollador, pueden hacerle [destacar](https://en.wikipedia.org/wiki/Device_fingerprint#Browser_fingerprint), y [debilitan](https://groups.google.com/a/chromium.org/g/chromium-extensions/c/0ei-UCHNm34/m/lDaXwQhzBAAJ) el aislamiento del sitio. Sin embargo, uBlock Origin puede resultarte útil si valoras la funcionalidad de bloqueo de contenidos.
 
 ### uBlock Origin
 
@@ -329,7 +343,7 @@ Estas son algunas otras [listas de filtros](https://github.com/gorhill/uBlock/wi
 
 !!! example "Esta sección es nueva"
 
-    Estamos trabajando en establecer criterios definidos para cada sección de nuestra página, y esto puede estar sujeto a cambios. Si tiene alguna duda sobre nuestros criterios, por favor [pregunte en nuestro foro](https://discuss.privacyguides.net/latest) y no asuma que no hemos tenido en cuenta algo a la hora de hacer nuestras recomendaciones si no aparece aquí. Son muchos los factores que se tienen en cuenta y se debaten cuando recomendamos un proyecto, y documentar cada uno de ellos es un trabajo en curso.
+    Estamos trabajando en establecer criterios definidos para cada sección de nuestra página, y esto puede estar sujeto a cambios. Si tienes alguna duda sobre nuestros criterios, por favor [pregunta en nuestro foro](https://discuss.privacyguides.net/latest) y no asumas que no hemos tenido en cuenta algo a la hora de hacer nuestras recomendaciones si no aparece aquí. Son muchos los factores que se tienen en cuenta y se debaten cuando recomendamos un proyecto, y documentar cada uno de ellos es un trabajo en curso.
 
 ### Requisitos Mínimos
 

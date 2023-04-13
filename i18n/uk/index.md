@@ -43,7 +43,7 @@ schema:
 
 Не варто плутати конфіденційність із таємністю. Ми знаємо, що відбувається у ванній, але ви все одно зачиняєте двері. Це тому, що ви хочете конфіденційності, а не таємності. **Кожному** є що захищати. Конфіденційність - це щось, що робить нас людьми.
 
-[:material-target-account: Поширені Інтернет-загрози](basics/common-threats.md ""){.md-button.md-button--primary}
+[:material-target-account: Common Internet Threats](basics/common-threats.md){ class="md-button md-button--primary" }
 
 ## Що мені робити?
 
@@ -53,7 +53,7 @@ schema:
 
 ==Цей процес виявлення загроз та визначення контрзаходів називається **моделюванням загроз**==, та він є основою кожного хорошого плану безпеки та конфіденційності.
 
-[:material-book-outline: Дізнайтеся більше про моделювання загроз](basics/threat-modeling.md ""){.md-button.md-button--primary}
+[:material-book-outline: Learn More About Threat Modeling](basics/threat-modeling.md){ class="md-button md-button--primary" }
 
 ---
 

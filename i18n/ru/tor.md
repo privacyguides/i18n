@@ -1,7 +1,7 @@
 ---
-title: "Tor Network"
+title: "Сеть Tor"
 icon: simple/torproject
-description: Protect your internet browsing from prying eyes by using the Tor network, a secure network which circumvents censorship.
+description: Защитите свой интернет-сёрфинг от посторонних глаз, используя сеть Tor - безопасную сеть, обходящую цензуру.
 ---
 
 ![Tor logo](assets/img/self-contained-networks/tor.svg){ align=right }

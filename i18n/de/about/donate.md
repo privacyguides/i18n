@@ -7,7 +7,7 @@ Es braucht eine Menge [Leute](https://github.com/privacyguides/privacyguides.org
 
 If you want to support us financially, the most convenient method for us is contributing via Open Collective, a website operated by our fiscal host. Open Collective akzeptiert Zahlungen per Kredit-/Debitkarte, PayPal und Banküberweisung.
 
-[Auf OpenCollective.com spenden](https://opencollective.com/privacyguides/donate ""){.md-button.md-button--primary}
+[Donate on OpenCollective.com](https://opencollective.com/privacyguides/donate){ class="md-button md-button--primary" }
 
 Spenden, die direkt über Open Collective gemacht werden, sind in den USA in der Regel steuerlich absetzbar, da unser steuerlicher Träger (die Open Collective Foundation) eine eingetragene 501(c)3 Organisation ist. Nach deiner Spende erhältst du eine Spendenbescheinigung von der Open Collective Foundation. Privacy Guides bietet keine Finanzberatung an, und Sie sollten sich an Ihren Steuerberater wenden, um herauszufinden, ob dies auf Sie zutrifft.
 

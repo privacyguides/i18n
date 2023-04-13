@@ -1,18 +1,18 @@
 ---
 title: "Modelagem de Ameaças"
 icon: 'material/target-account'
-description: Balancing security, privacy, and usability is one of the first and most difficult tasks you'll face on your privacy journey.
+description: Equilibrar segurança, privacidade e usabilidade é uma das primeiras e mais difíceis tarefas que você enfrentará em sua jornada de privacidade.
 ---
 
-Balancing security, privacy, and usability is one of the first and most difficult tasks you'll face on your privacy journey. Everything is a trade-off: The more secure something is, the more restricting or inconvenient it generally is, etc. Often, people find that the problem with the tools they see recommended is that they're just too hard to start using!
+Equilibrar segurança, privacidade e usabilidade é uma das primeiras e mais difíceis tarefas que você enfrentará em sua jornada de privacidade. Everything is a trade-off: The more secure something is, the more restricting or inconvenient it generally is, etc. Muitas vezes, as pessoas acham que o problema com as ferramentas recomendadas é que são muito difíceis de começar a usar!
 
-If you wanted to use the **most** secure tools available, you'd have to sacrifice *a lot* of usability. And, even then, ==nothing is ever fully secure.== There's **high** security, but never **full** security. That's why threat models are important.
+Se você quisesse usar as ferramentas **mais** seguras disponíveis, teria que *sacrificar* muito da usabilidade. E, mesmo assim, ==nada é totalmente seguro. == Há **segurança alta**, mas nunca **segurança completa**. É por isso que os modelos de ameaça são importantes.
 
-**Então, o que são esses modelos de ameaça afinal?**
+**Então, o que são esses modelos de ameaça, afinal?**
 
-==A threat model is a list of the most probable threats to your security and privacy endeavors.== Since it's impossible to protect yourself against **every** attack(er), you should focus on the **most probable** threats. In computer security, a threat is an event that could undermine your efforts to stay private and secure.
+==Um modelo de ameaça é uma lista das ameaças prováveis aos seus interesses em segurança e privacidade.== Como é impossível se proteger contra **todo** ataque(ou atacante), você deve se concentrar nas **ameaças mais prováveis**. Na segurança da computação, uma ameaça é um evento que pode prejudicar seus esforços para se manter privado e seguro.
 
-Focusing on the threats that matter to you narrows down your thinking about the protection you need, so you can choose the tools that are right for the job.
+Se concentrar nas ameaças importantes para você reduz seu trabalho de pensar na proteção que você precisa, para você poder escolher as ferramentas certas para essa tarefa.
 
 ## Criando seu modelo de ameaça
 

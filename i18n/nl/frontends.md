@@ -191,7 +191,7 @@ LibreTube blokkeert standaard alle YouTube-advertenties. Bovendien gebruikt Libr
 
 1. De standaard instantie is [FramaTube](https://framatube.org/), maar er kunnen er meer worden toegevoegd via **Instellingen** → **Inhoud** → **PeerTube instanties**
 
-!!! Warning
+!!! warning
 
     Wanneer je NewPipe gebruikt, is jouw IP-adres zichtbaar voor de gebruikte videoproviders. Overweeg het gebruik van een [VPN](vpn.md) of [Tor](https://www.torproject.org) als jouw [bedreigingsmodel](basics/threat-modeling.md) het verbergen van jouw IP-adres vereist.
 

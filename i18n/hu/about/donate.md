@@ -7,7 +7,7 @@ Nagyon sok [emberre](https://github.com/privacyguides/privacyguides.org/graphs/c
 
 Ha anyagilag szeretnél támogatni minket, a számunkra legkényelmesebb módszer az Open Collective-en keresztül történő hozzájárulás, amelyet a pénzügyi házigazdánk működtet. Az Open Collective elfogadja a hitelkártyával/betéti kártyával, PayPal és banki átutalással történő fizetéseket.
 
-[Adományozás az OpenCollective.com-on](https://opencollective.com/privacyguides/donate ""){.md-button.md-button--primary}
+[Donate on OpenCollective.com](https://opencollective.com/privacyguides/donate){ class="md-button md-button--primary" }
 
 A közvetlenül nekünk adott adományok Open Collective-en általában adólevonásra jogosultak az Egyesült Államokban, mivel a pénzügyi házigazdánk (az Open Collective Foundation) egy bejegyzett 501(c)3 szervezet. Az adományozás után egy számlát fogsz kapni az Open Collective Fundation-től. A Privacy Guides nem nyújt pénzügyi tanácsadást, ezzel kapcsolatban fordulj adótanácsadódhoz, hogy megtudd, ez vonatkozik-e rád.
 

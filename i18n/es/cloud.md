@@ -20,10 +20,10 @@ Si estas alternativas no se ajustan a tus necesidades, te sugerimos que busques 
     
     **Proton Drive** es un proveedor suizo de almacenamiento cifrado en la nube del popular proveedor de correo electrónico cifrado [Proton Mail](email.md#proton-mail).
     
-    [:octicons-home-16: Inicio](https://proton.me/drive){ .md-button .md-button--primary }
-    [:octicons-eye-16:](https://proton.me/legal/privacy){ .card-link title="Politica de privacidad" }
+    [:octicons-home-16: Página Principal](https://proton.me/drive){ class="md-button md-button--primary" }
+    [:octicons-eye-16:](https://proton.me/legal/privacy){ .card-link title="Política de Privacidad" }
     [:octicons-info-16:](https://proton.me/support/drive){ .card-link title=Documentación}
-    [:octicons-code-16:](https://github.com/ProtonMail/WebClients){ .card-link title="Código fuente" }
+    [:octicons-code-16:](https://github.com/ProtonMail/WebClients){ .card-link title="Código Fuente" }
     
     ??? downloads "Descargas"
     
@@ -44,8 +44,8 @@ Los nuevos clientes móviles de Proton Drive aún no han sido auditados pública
     
     **Tresorit** es un proveedor húngaro de almacenamiento cifrado en la nube fundado en 2011. Tresorit es propiedad de Swiss Post, el servicio postal nacional de Suiza.
     
-    [:octicons-home-16: Inicio](https://tresorit.com/){ .md-button .md-button--primary }
-    [:octicons-eye-16:](https://tresorit.com/legal/privacy-policy){ .card-link title="Politica de privacidad" }
+    [:octicons-home-16: Página Principal](https://tresorit.com/){ class="md-button md-button--primary" }
+    [:octicons-eye-16:](https://tresorit.com/legal/privacy-policy){ .card-link title="Política de Privacidad" }
     [:octicons-info-16:](https://support.tresorit.com/hc/en-us){ .card-link title=Documentación}
     
     ??? downloads "Descargas"

@@ -24,7 +24,7 @@ Ci-dessous, nous discutons et fournissons un tutoriel pour prouver ce qu'un obse
     tshark -w /tmp/dns.pcap udp port 53 and host 1.1.1.1 or host 8.8.8.8
     ```
 
-2. Nous pouvons ensuite utiliser [`dig`](https://en.wikipedia.org/wiki/Dig_(command)) (Linux, MacOS etc) ou [`nslookup`](https://en.wikipedia.org/wiki/Nslookup) (Windows) pour envoyer la recherche DNS aux deux serveurs. Les logiciels tels que les navigateurs web effectuent ces recherches automatiquement, à moins qu'ils ne soient configurés pour utiliser un DNS chiffré.
+2. Nous pouvons ensuite utiliser [`dig`](https://en.wikipedia.org/wiki/Dig_(command)) (Linux, MacOS, etc.) ou [`nslookup`](https://en.wikipedia.org/wiki/Nslookup) (Windows) pour envoyer la recherche DNS aux deux serveurs. Les logiciels tels que les navigateurs web effectuent ces recherches automatiquement, à moins qu'ils ne soient configurés pour utiliser un DNS chiffré.
 
     === "Linux, macOS"
 
@@ -118,7 +118,7 @@ Lorsque nous effectuons une recherche DNS, c'est généralement parce que nous v
 
 Le moyen le plus simple de déterminer l'activité de navigation est de regarder les adresses IP auxquelles vos appareils accèdent. Par exemple, si l'observateur sait que `privacyguides.org` est à `198.98.54.105`, et que votre appareil demande des données à `198.98.54.105`, il y a de fortes chances que vous visitiez Privacy Guides.
 
-Cette méthode n'est utile que lorsque l'adresse IP appartient à un serveur qui n'héberge que quelques sites web. Elle n'est pas non plus très utile si le site est hébergé sur une plateforme partagée (par exemple, Github Pages, Cloudflare Pages, Netlify, WordPress, Blogger, etc). Il n'est pas non plus très utile si le serveur est hébergé derrière un [proxy inverse](https://fr.wikipedia.org/wiki/Proxy_inverse), ce qui est très courant actuellement sur Internet.
+Cette méthode n'est utile que lorsque l'adresse IP appartient à un serveur qui n'héberge que quelques sites web. Elle n'est pas non plus très utile si le site est hébergé sur une plateforme partagée (par exemple, Github Pages, Cloudflare Pages, Netlify, WordPress, Blogger, etc.). Il n'est pas non plus très utile si le serveur est hébergé derrière un [proxy inverse](https://fr.wikipedia.org/wiki/Proxy_inverse), ce qui est très courant actuellement sur Internet.
 
 ### Server Name Indication (SNI)
 

@@ -18,18 +18,13 @@ Si actualmente utilizas una aplicación como Evernote, Google Keep o Microsoft O
     
     **Joplin** es una aplicación gratuita, de código abierto y con todas las funciones para tomar notas y hacer tareas, que puede manejar un gran número de notas markdown organizadas en cuadernos y etiquetas. Ofrece encriptación de extremo a extremo y puede sincronizar a través de Nextcloud, Dropbox y más. También ofrece una fácil importación desde Evernote y notas en texto plano.
     
-    [Visita joplinapp.org](https://joplinapp.org/){ .md-button .md-button--primary }
+    [:octicons-home-16: Página Principal](https://joplinapp.org/){ .md-button .md-button--primary }
+    [:octicons-eye-16:](https://joplinapp.org/privacy/){ .card-link title="Política de Privacidad" }
+    [:octicons-info-16:](https://joplinapp.org/help/){ .card-link title=Documentación}
+    [:octicons-code-16:](https://github.com/laurent22/joplin){ .card-link title="Código Fuente" }
+    [:octicons-heart-16:](https://joplinapp.org/donate/){ .card-link title=Contribuir }
     
-    **Descargas**
-    - [:fontawesome-brands-windows: Windows](https://joplinapp.org/#desktop-applications)
-    - [:fontawesome-brands-apple: macOS](https://joplinapp.org/#desktop-applications)
-    - [:fontawesome-brands-linux: Linux](https://joplinapp.org/#desktop-applications)
-    - [:fontawesome-brands-firefox-browser: Firefox](https://addons.mozilla.org/firefox/addon/joplin-web-clipper/)
-    - [:fontawesome-brands-chrome: Chrome](https://chrome.google.com/webstore/detail/joplin-web-clipper/alofnhikmmkdbbbgpnglcpdollgjfek)
-    - [:fontawesome-brands-google-play: Google Play](https://play.google.com/store/apps/details?id=net.cozic.joplin)
-    - [:pg-f-droid: F-Droid](https://f-droid.org/es/packages/net.cozic.joplin)
-    - [:fontawesome-brands-android: Android](https://joplinapp.org/#mobile-applications)
-    - [:fontawesome-brands-github: GitHub](https://github.com/laurent22/joplin) descargas
+    ??? downloads "Descargas"
     
         - [:simple-googleplay: Google Play](https://play.google.com/store/apps/details?id=net.cozic.joplin)
         - [:simple-appstore: App Store](https://apps.apple.com/us/app/joplin/id1315599797)
@@ -56,7 +51,7 @@ Joplin no admite la protección mediante contraseña/PIN de la[ propia aplicaci�
     [:octicons-code-16:](https://github.com/standardnotes){ .card-link title="Código Fuente" }
     [:octicons-heart-16:](https://standardnotes.com/donate){ .card-link title=Contribuir }
     
-    ??? descargas
+    ??? downloads "Descargas"
     
         - [:simple-googleplay: Google Play](https://play.google.com/store/apps/details?id=com.standardnotes)
         - [:simple-appstore: App Store](https://apps.apple.com/app/id1285392450)
@@ -80,7 +75,7 @@ Joplin no admite la protección mediante contraseña/PIN de la[ propia aplicaci�
     [:octicons-info-16:](https://crypt.ee/help){ .card-link title=Documentación}
     [:octicons-code-16:](https://github.com/cryptee){ .card-link title="Código Fuente" }
     
-    ??? descargas
+    ??? downloads "Descargas"
     
         - [:octicons-globe-16: PWA](https://crypt.ee/download)
 
@@ -105,7 +100,7 @@ Cryptee ofrece 100MB de almacenamiento gratuito, con opciones de pago si necesit
 
 **Por favor, ten en cuenta que no estamos afiliados con ninguno de los proyectos que recomendamos.** Además de [nuestros criterios estándar](about/criteria.md), hemos desarrollado un conjunto claro de requisitos que nos permiten proporcionar recomendaciones objetivas. Te sugerimos que te familiarices con esta lista antes de elegir usar un proyecto, y que lleves a cabo tu propia investigación para asegurarte de que es la elección correcta para ti.
 
-!!! ejemplo "Esta sección es nueva"
+!!! example "Esta sección es nueva"
 
     Estamos trabajando en establecer criterios definidos para cada sección de nuestra página, y esto puede estar sujeto a cambios. Si tienes alguna duda sobre nuestros criterios, por favor [pregunta en nuestro foro](https://discuss.privacyguides.net/latest) y no asumas que no hemos tenido en cuenta algo a la hora de hacer nuestras recomendaciones si no aparece aquí. Son muchos los factores que se tienen en cuenta y se debaten cuando recomendamos un proyecto, y documentar cada uno de ellos es un trabajo en curso.
 

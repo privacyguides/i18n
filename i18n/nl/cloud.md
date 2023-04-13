@@ -20,10 +20,10 @@ Als deze alternatieven niet aan jouw behoeften voldoen, raden wij je aan te kijk
     
     **Proton Drive** is een E2EE algemene bestandsopslagdienst van de populaire versleutelde e-mailprovider [Proton Mail](email.md#proton-mail).
     
-    [:octicons-home-16: Homepage](https://proton.me/drive){ .md-button .md-button--primary }
-    [:octicons-eye-16:](https://proton.me/legal/privacy){ .card-link title="Privacybeleid" }
-    [:octicons-info-16:](https://proton.me/support/drive){ .card-link title=Documentatie}
-    [:octicons-code-16:](https://github.com/ProtonMail/WebClients){ .card-link title="Broncode" }
+    [:octicons-home-16: Homepage](https://proton.me/drive){ class="md-button md-button--primary" }
+    [:octicons-eye-16:](https://proton.me/legal/privacy){ .card-link title="Privacy Policy" }
+    [:octicons-info-16:](https://proton.me/support/drive){ .card-link title=Documentation}
+    [:octicons-code-16:](https://github.com/ProtonMail/WebClients){ .card-link title="Source Code" }
     
     ??? downloads "Downloaden"
     
@@ -44,9 +44,9 @@ De gloednieuwe mobiele klanten van Proton Drive zijn nog niet publiekelijk gecon
     
     **Tresorit** is een Hongaarse aanbieder van versleutelde cloud-opslag, opgericht in 2011. Tresorit is eigendom van de Zwitserse Post, de nationale postdienst van Zwitserland.
     
-    [:octicons-home-16: Homepage](https://tresorit.com/){ .md-button .md-button--primary }
-    [:octicons-eye-16:](https://tresorit.com/legal/privacy-policy){ .card-link title="Privacybeleid" }
-    [:octicons-info-16:](https://support.tresorit.com/hc/en-us){ .card-link title=Documentatie}
+    [:octicons-home-16: Homepage](https://tresorit.com/){ class="md-button md-button--primary" }
+    [:octicons-eye-16:](https://tresorit.com/legal/privacy-policy){ .card-link title="Privacy Policy" }
+    [:octicons-info-16:](https://support.tresorit.com/hc/en-us){ .card-link title=Documentation}
     
     ??? downloads
     

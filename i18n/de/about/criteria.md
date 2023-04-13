@@ -29,7 +29,7 @@ Wir haben diese Anforderungen an Entwickler, die eigene Projekt oder Software zu
 
 - Muss die Zugehörigkeit offenlegen, d.h. deine Position innerhalb des eingereichten Projekts.
 
-- Muss ein Sicherheits-Whitepaper haben, wenn es sich um ein Projekt handelt, das den Umgang mit sensiblen Informationen beinhaltet, wie z. B. Messenger, Passwort-Manager, verschlüsselte Cloud-Speicherung usw.
+- Must have a security whitepaper if it is a project that involves handling of sensitive information like a messenger, password manager, encrypted cloud storage, etc.
     - Status der Prüfung durch Dritte. Wir möchten wissen, ob eine vorhanden oder geplant ist. Wenn möglich, gib bitte an, wer die Prüfung durchführen wird.
 
 - Muss erklären, was das Projekt im Hinblick auf den Schutz der Privatsphäre bietet.

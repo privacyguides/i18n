@@ -48,7 +48,7 @@ VPN不能提供匿名性。 你的VPN供应商仍然会看到你的真实IP地�
 
 ## 提供Tor节点的VPN供应商怎么样？
 
-不要使用该功能。 使用Tor的意义在于，你无需信任你的VPN供应商。 目前Tor只支持 [TCP](https://en.wikipedia.org/wiki/Transmission_Control_Protocol) 协议。 [UDP](https://en.wikipedia.org/wiki/User_Datagram_Protocol) （用于 [WebRTC](https://en.wikipedia.org/wiki/WebRTC) 音频和视频共享，新的[HTTP3/QUIC](https://en.wikipedia.org/wiki/HTTP/3) 协议等）， [ICMP](https://en.wikipedia.org/wiki/Internet_Control_Message_Protocol) 和其他数据包将被丢弃。 为了弥补这一点，VPN供应商通常会将所有非TCP数据包通过其VPN服务器（你的第一跳）进行路由。 [ProtonVPN](https://protonvpn.com/support/tor-vpn/)就是这种情况。 此外，在使用这种Tor over VPN设置时， 您无法控制其他重要的Tor功能，例如 [目的地址隔离](https://www.whonix.org/wiki/Stream_Isolation) (对您访问的每个域名使用不同的Tor线路)。
+不要使用该功能。 使用Tor的意义在于，你无需信任你的VPN供应商。 目前Tor只支持 [TCP](https://en.wikipedia.org/wiki/Transmission_Control_Protocol) 协议。 [UDP](https://en.wikipedia.org/wiki/User_Datagram_Protocol) (used in [WebRTC](https://en.wikipedia.org/wiki/WebRTC) for voice and video sharing, the new [HTTP3/QUIC](https://en.wikipedia.org/wiki/HTTP/3) protocol, etc.), [ICMP](https://en.wikipedia.org/wiki/Internet_Control_Message_Protocol) and other packets will be dropped. 为了弥补这一点，VPN供应商通常会将所有非TCP数据包通过其VPN服务器（你的第一跳）进行路由。 [ProtonVPN](https://protonvpn.com/support/tor-vpn/)就是这种情况。 此外，在使用这种Tor over VPN设置时， 您无法控制其他重要的Tor功能，例如 [目的地址隔离](https://www.whonix.org/wiki/Stream_Isolation) (对您访问的每个域名使用不同的Tor线路)。
 
 该功能应被视为访问Tor网络的一种便捷方式，而不是为了保持匿名。 为了获得适当的匿名性，请使用Tor浏览器、TorSocks或Tor网关。
 

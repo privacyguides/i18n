@@ -7,7 +7,7 @@ Dibutuhkan banyak [orang](https://github.com/privacyguides/privacyguides.org/gra
 
 Jika Anda ingin mendukung kami secara finansial, metode yang paling mudah bagi kami adalah berkontribusi melalui Open Collective, sebuah situs web yang dioperasikan oleh host fiskal kami. Open Collective menerima pembayaran melalui kartu kredit/debit, PayPal, dan transfer bank.
 
-[Donasi di OpenCollective.com](https://opencollective.com/privacyguides/donate ""){.md-button.md-button--primary}
+[Donate on OpenCollective.com](https://opencollective.com/privacyguides/donate){ class="md-button md-button--primary" }
 
 Donasi yang diberikan secara langsung kepada kami di Open Collective umumnya dapat dikurangkan dari pajak di Amerika Serikat, karena tuan rumah fiskal kami (Open Collective Foundation) adalah organisasi 501(c)3 yang terdaftar. Anda akan menerima tanda terima dari Open Collective Foundation setelah berdonasi. Privacy Guides tidak memberikan saran keuangan, dan Anda harus menghubungi penasihat pajak Anda untuk mengetahui apakah ini berlaku untuk Anda.
 

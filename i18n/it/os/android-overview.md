@@ -60,7 +60,7 @@ Uno smartphone con l'ultima versione di Android sarà sempre più sicuro di un v
 
 Android 10:
 
-- [Scoped Storage](https://developer.android.com/about/versions/10/privacy/changes#scoped-storage) gives you more control over your files and can limit what can [access external storage](https://developer.android.com/training/data-storage#permissions). Apps can have a specific directory in external storage as well as the ability to store specific types of media there.
+- [Scoped Storage](https://developer.android.com/about/versions/10/privacy/changes#scoped-storage) consente di avere un maggiore controllo sui file e di limitare ciò che può [accedere all'archiviazione esterna](https://developer.android.com/training/data-storage#permissions). Apps can have a specific directory in external storage as well as the ability to store specific types of media there.
 - Tighter access on [device location](https://developer.android.com/about/versions/10/privacy/changes#app-access-device-location) by introducing the `ACCESS_BACKGROUND_LOCATION` permission. This prevents apps from accessing the location when running in the background without express permission from the user.
 
 Android 11:

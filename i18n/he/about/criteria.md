@@ -29,7 +29,7 @@ title: קריטריונים כלליים
 
 - חייב לחשוף את ההשתייכות, כלומר את עמדתך בפרויקט המוגש.
 
-- חייב להיות מסמך לבן אבטחה אם מדובר בפרויקט הכולל טיפול במידע רגיש כמו מסנג'ר, מנהל סיסמאות, אחסון מוצפן בענן וכו'.
+- Must have a security whitepaper if it is a project that involves handling of sensitive information like a messenger, password manager, encrypted cloud storage, etc.
     - סטטוס ביקורת של צד שלישי. אנחנו רוצים לדעת אם יש לך אחד, או שיש לך אחד מתוכנן. במידת האפשר נא לציין מי יבצע את הביקורת.
 
 - חייב להסביר מה הפרויקט מביא לשולחן בכל הנוגע לפרטיות.

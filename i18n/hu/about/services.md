@@ -2,7 +2,7 @@
 
 Számos webes szolgáltatást futtatunk, hogy teszteljünk funkciókat és népszerűsítsünk menő decentralizált, föderált és/vagy nyílt forráskódú projekteket. E szolgáltatások közül számos elérhető a nyilvánosság számára, és az alábbiakban részletesen ismertetjük őket.
 
-[:material-comment-alert: Probléma bejelentése](https://discuss.privacyguides.net/c/services/2 ""){.md-button.md-button--primary}
+[:material-comment-alert: Report an issue](https://discuss.privacyguides.net/c/services/2){ class="md-button md-button--primary" }
 
 ## Discourse
 

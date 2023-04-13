@@ -126,13 +126,30 @@ Mullvad Browser comes with DuckDuckGo set as the default [search engine](search-
 
 ### 推荐配置
 
-这些选项可以在 :material-menu: → **设置** → **隐私 & 安全**中找到。
+These options can be found in :material-menu: → **Settings**
+
+#### Search
+
+- [ ] 取消勾选 **提供搜索建议**
+
+搜索建议功能可能在你的地区无法使用。
+
+搜索建议将你在地址栏中输入的所有内容发送到默认的搜索引擎，而不管你是否提交了实际的搜索。 禁用搜索建议可以让你更精确地控制你向搜索引擎供应商发送的数据。
+
+#### Privacy & Security
 
 ##### 增强跟踪保护
 
 - [x] 选择 **严格的** 增强跟踪保护
 
 这可以通过阻止社交媒体追踪器、指纹脚本（注意，这并不能保护你 *所有* 指纹）、加密器、跨网站追踪cookies和其他一些追踪内容来保护你。 ETP可以防止许多常见的威胁，但它并不阻止所有的跟踪途径，因为它的设计对网站的可用性影响最小甚至没有影响。
+
+##### Firefox Suggest (US only)
+
+[Firefox Suggest](https://support.mozilla.org/en-US/kb/firefox-suggest) is a feature similar to search suggestions which is only available in the US. We recommend disabling it for the same reason we recommend disabling search suggestions. If you don't see these options under the **Address Bar** header, you do not have the new experience and can ignore these changes.
+
+- [ ] Uncheck **Suggestions from the web**
+- [ ] Uncheck **Suggestions from sponsors**
 
 ##### 关闭时消毒
 
@@ -141,14 +158,6 @@ Mullvad Browser comes with DuckDuckGo set as the default [search engine](search-
 - [x] 勾选 **当Firefox关闭时，删除cookies和网站数据**
 
 这可以保护您免受持久性cookies的影响，但不能保护您免受在任何一个浏览会话中获得的cookies的影响。 启用该功能后，只需重新启动火狐浏览器，就可以轻松清理浏览器的cookies。 如果你希望在你经常访问的特定网站上保持登录状态，你可以在每个网站的基础上设置例外。
-
-##### 搜索建议
-
-- [ ] 取消勾选 **提供搜索建议**
-
-搜索建议功能可能在你的地区无法使用。
-
-搜索建议将你在地址栏中输入的所有内容发送到默认的搜索引擎，而不管你是否提交了实际的搜索。 禁用搜索建议可以让你更精确地控制你向搜索引擎供应商发送的数据。
 
 ##### 遥测
 
@@ -176,7 +185,7 @@ Mullvad Browser comes with DuckDuckGo set as the default [search engine](search-
 
 
 
-### 火狐同步
+#### Sync
 
 [火狐浏览器同步](https://hacks.mozilla.org/2018/11/firefox-sync-privacy/) ，使您的浏览数据（历史记录、书签等）可以在您的所有设备上访问，并通过E2EE进行保护。
 
@@ -229,6 +238,10 @@ Arkenfox only aims to thwart basic or naive tracking scripts through canvas rand
 
 
 
+#### Settings
+
+
+
 ##### 盾
 
 Brave在其 [Shields](https://support.brave.com/hc/en-us/articles/360022973471-What-is-Shields-) 功能中包括一些防指纹的措施。 我们建议将这些选项配置为 [，在你访问的所有页面上全局](https://support.brave.com/hc/en-us/articles/360023646212-How-do-I-configure-global-and-site-specific-Shields-settings-)。
@@ -270,10 +283,11 @@ Shields的选项可以根据需要在每个站点的基础上进行降级，但�
 - [x] 在**安全**菜单中选择 **始终使用安全连接**
 - [] 取消勾选 **使用Tor的私人窗口** (1)
 
-    !!! 提示 "关闭时消毒 "
-        - [x] 在*Cookies和其他网站数据*菜单中选择**关闭所有窗口时清除cookies和网站数据**
+    !!! tip "Sanitizing on Close"
 
-        如果你希望在你经常访问的特定网站上保持登录状态，你可以在*自定义行为*部分中按网站设置例外。
+        - [x] Select **Clear cookies and site data when you close all windows** in the *Cookies and other site data* menu
+
+        If you wish to stay logged in to a particular site you visit often, you can set exceptions on a per-site basis under the *Customized behaviors* section.
 
 </div>
 
@@ -292,19 +306,15 @@ Shields的选项可以根据需要在每个站点的基础上进行降级，但�
 
 ##### Web3
 
-<div class="annotate" markdown>
+Brave's Web3 features can potentially add to your browser fingerprint and attack surface. Unless you use any of features, they should be disabled.
 
-- [x] Select **Disabled** on Method to resolve IPFS resources (1)
-
-</div>
-
-1. InterPlanetary File System (IPFS) is a decentralized, peer-to-peer network for storing and sharing data in a distributed filesystem. Unless you use the feature, disable it.
+- [ ] Set **Default Ethereum Wallet** to **None**
+- [ ] Set **Default Solana Wallet** to **None**
+- [ ] Set **Method to resolve IPFS resources** to **Disabled
 
 
 
-##### 附加设置
-
-Under the *System* menu
+##### System
 
 <div class="annotate" markdown>
 
@@ -316,9 +326,17 @@ Under the *System* menu
 
 
 
-### Brave 同步
+#### Sync
 
 [Brave 同步](https://support.brave.com/hc/en-us/articles/360059793111-Understanding-Brave-Sync) 允许你的浏览数据（历史记录、书签等）在你所有的设备上访问，而不需要账户，并以E2EE进行保护。
+
+
+
+#### Brave Rewards and Wallet
+
+**Brave Rewards** lets you recieve Basic Attention Token (BAT) cryptocurrency for performing certain actions within Brave. It relies on a custodial account and KYC from a select number of providers. We do not recommend BAT as a [private cryptocurrency](cryptocurrency.md), nor do we recommend using a [custodial wallet](advanced/payments.md#other-coins-bitcoin-ethereum-etc), so we would discourage using this feature.
+
+**Brave Wallet** operates locally on your computer, but does not support any private cryptocurrencies, so we would discourage using this feature as well.
 
 
 

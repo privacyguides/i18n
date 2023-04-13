@@ -43,7 +43,7 @@ Proprio come il diritto al matrimonio interrazziale, il suffragio della donna, l
 
 Non bisogna confondere la privacy con la segretezza. Sappiamo cosa succede in bagno, ma chiudi lo stesso la porta. Questo perché vuoi la privacy, non la segretezza. **Tutti** hanno qualcosa da proteggere. La privacy è qualcosa che ci rende umani.
 
-[:material-target-account: Minacce comuni di Internet](basics/common-threats.md ""){.md-button.md-button--primary}
+[:material-target-account: Common Internet Threats](basics/common-threats.md){ class="md-button md-button--primary" }
 
 ## Cosa dovrei fare?
 
@@ -53,7 +53,7 @@ Cercare di proteggere tutti i dati da tutti, in ogni momento, è poco pratico, c
 
 ==Questo processo d'identificazione delle minacce e di definizione delle contromisure si chiama **threat modeling**== e costituisce la base di ogni buon piano di sicurezza e privacy.
 
-[:material-book-outline: Per saperne di più sul Threat Modeling](basics/threat-modeling.md ""){.md-button.md-button--primary}
+[:material-book-outline: Learn More About Threat Modeling](basics/threat-modeling.md){ class="md-button md-button--primary" }
 
 ---
 
