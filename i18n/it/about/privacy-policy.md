@@ -9,13 +9,13 @@ Privacy Guides è un progetto comunitario gestito da un certo numero di collabor
 La privacy di chi visita il nostro sito web è importante per noi, quindi non tracciamo nessuna persona individualmente. Come visitatore del nostro sito:
 
 - Non vengono raccolte informazioni personali
-- No information such as cookies are stored in the browser
+- Nessuna informazione, come i cookie, viene memorizzata nel browser
 - Nessuna informazione è condivisa, inviata o venduta a terze parti
 - Nessuna informazione viene condivisa con compagnie pubblicitarie
-- Nessuna informazione è minata e raccolta per individuare tendenze personali e comportamentali
+- Non vengono estratte e raccolte informazioni per le tendenze personali e comportamentali
 - Nessuna informazione viene monetizzata
 
-You can view the data we collect on our [statistics](statistics.md) page.
+È possibile visualizzare i dati raccolti sulla pagina [statistiche](statistics.md).
 
 Utilizziamo un'installazione da noi gestita di [Plausible Analytics](https://plausible.io) per raccogliere alcuni dati anonimi di utilizzo a fini statistici. L'obbiettivo è quello di tracciare tendenze generali del traffico del nostro sito web, e non di tracciare singoli visitatori. Tutti i dati sono esclusivamente aggregati. Nessun dato personale viene raccolto.
 
@@ -52,10 +52,10 @@ jonah@privacyguides.org
 
 Per tutte le altre richieste è possibile contattare qualsiasi membro del nostro team.
 
-For complaints under GDPR more generally, you may lodge complaints with your local data protection supervisory authorities. In France it's the Commission Nationale de l'Informatique et des Libertés which take care and handle the complaints. They provide a [template of complaint letter](https://www.cnil.fr/en/plaintes) to use.
+Per quanto riguarda i reclami ai sensi del GDPR, è possibile presentare reclami alle autorità locali di controllo della protezione dei dati. In France it's the Commission Nationale de l'Informatique et des Libertés which take care and handle the complaints. They provide a [template of complaint letter](https://www.cnil.fr/en/plaintes) to use.
 
 ## Con chi vengono condivisi i miei dati?
 
-We will post any new versions of this statement [here](privacy-policy.md). Potremo cambiare il modo in cui annunciamo modifiche in future versioni di questo documento. Nel mentre, possiamo aggiornare le nostre informazioni di contatto in qualsiasi momento senza annunciarlo. Please refer to the [Privacy Policy](privacy-policy.md) for the latest contact information at any time.
+Pubblicheremo eventuali nuove versioni di questa dichiarazione [qui](privacy-policy.md). Potremo cambiare il modo in cui annunciamo modifiche in future versioni di questo documento. Nel mentre, potremmo aggiornare le nostre informazioni di contatto in qualsiasi momento senza annunciarlo. Per informazioni aggiornate sui contatti, si prega di consultare l'Informativa sulla privacy [l'Informativa sulla privacy](privacy-policy.md).
 
-A full revision [history](https://github.com/privacyguides/privacyguides.org/commits/main/docs/about/privacy-policy.md) of this page can be found on GitHub.
+Una revisione completa [delle modifiche](https://github.com/privacyguides/privacyguides.org/commits/main/docs/about/privacy-policy.md) di questa pagina è disponibile su GitHub.

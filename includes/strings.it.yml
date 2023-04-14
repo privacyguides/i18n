@@ -18,17 +18,17 @@ config:
   feedback:
     question: Questa pagina è stata utile?
     yes: Questa pagina è stata utile
-    yes-note: Grazie per il vostro feedback!
+    yes-note: Grazie per il tuo feedback!
     no: Questa pagina può essere migliorata
     no-note: |
-      Grazie per il tuo feedback! Aiutateci a migliorare questa pagina aprendo una discussione sul nostro forum.
+      Grazie per il tuo feedback! Aiutaci a migliorare questa pagina aprendo una discussione sul nostro forum.
   theme:
-    dark: Passare alla modalità scura
-    light: Passare alla modalità chiara
-    system: Passare al tema di sistema
+    dark: Passa al tema scuro
+    light: Passa al tema chiaro
+    system: Passa al tema di sistema
 nav:
   Home: Pagina iniziale
-  Knowledge Base: Base di conoscenza
+  Knowledge Base: Conoscenze di base
   Technology Essentials: Elementi essenziali della tecnologia
   Operating Systems: Sistemi operativi
   Advanced Topics: Argomenti avanzati
@@ -36,7 +36,7 @@ nav:
   Internet Browsing: Navigazione su Internet
   Providers: Fornitori
   Software: Software
-  About: Riguardo
+  About: Informazioni
   Community: Comunità
   Online Services: Servizi online
   Code of Conduct: Codice di condotta
@@ -46,3 +46,6 @@ nav:
   Changelog: Registro delle modifiche
   Forum: Forum
   Blog: Blog
+site:
+  translation: |
+    Stai visualizzando la versione italiana di Privacy Guides, tradotta dal nostro fantastico team linguistico su Crowdin. Se noti un errore o vedi sezioni non tradotte in questa pagina, ti invitiamo a dare una mano!

@@ -1,10 +1,10 @@
 ---
 title: "Condivisione e sincronizzazione dei file"
 icon: material/share-variant
-description: Scopri come condividere privatamente i tuoi file tra i tuoi dispositivi, con i tuoi amici e familirai, o in modo anonimo online.
+description: Scopri come condividere privatamente i tuoi file tra i tuoi dispositivi, con i tuoi amici e familiari, o in modo anonimo online.
 ---
 
-Scopri come condividere privatamente i tuoi file tra i tuoi dispositivi, con i tuoi amici e familirai, o in modo anonimo online.
+Scopri come condividere privatamente i tuoi file tra i tuoi dispositivi, con i tuoi amici e familiari, o in modo anonimo online.
 
 ## Condivisione di file
 
@@ -41,7 +41,7 @@ ffsend upload --host https://send.vis.ee/ FILE
     [:octicons-info-16:](https://docs.onionshare.org){ .card-link title=Documentazione}
     [:octicons-code-16:](https://github.com/onionshare/onionshare){ .card-link title="Codice sorgente" }
     
-    ??? downloads
+    ??? download
     
         - [:simple-windows11: Windows](https://onionshare.org/#download)
         - [:simple-apple: macOS](https://onionshare.org/#download)
@@ -55,19 +55,22 @@ ffsend upload --host https://send.vis.ee/ FILE
 
     Stiamo lavorando per stabilire criteri ben definiti per ogni sezione del nostro sito, e questo potrebbe essere soggetto a modifiche. Se avete domande sui nostri criteri, vi preghiamo di [chiedere sul nostro forum](https://discuss.privacyguides.net/latest) e non date per scontato che non abbiamo preso in considerazione qualcosa nel formulare le nostre raccomandazioni se non è elencato qui. Sono molti i fattori presi in considerazione e discussi quando consigliamo un progetto, e stiamo lavorando per documentare ogni singolo fattore.
 
-- Must not store decrypted data on a remote server.
+- Non deve memorizzare i dati decriptati su un server remoto.
 - Deve essere un software open-source.
-- Must either have clients for Linux, macOS, and Windows; or have a web interface.
+- Deve avere client per Linux, macOS, e Windows; o avere un'interfaccia web.
 
 ## FreedomBox
 
 !!! recommendation
 
-    ![Logo Syncthing](assets/img/file-sharing-sync/syncthing.svg){ align=right }
+    ![FreedomBox logo](assets/img/file-sharing-sync/freedombox.svg){ align=right }
     
-    **Syncthing** è un'utility open-source di sincronizzazione continua dei file peer-to-peer. Viene utilizzato per sincronizzare i file tra due o più dispositivi sulla rete locale o su Internet.
+    **FreedomBox** è un sistema operativo progettato per essere eseguito su un [single-board computer (SBC)](https://it.wikipedia.org/wiki/Single-board_computer). Lo scopo è quello di semplificare la configurazione delle applicazioni server per le quali si desidera il self-hosting.
     
-    Syncthing non utilizza un server centralizzato, ma il [Block Exchange Protocol](https://docs.syncthing.net/specs/bep-v1.html#bep-v1) per trasferire i dati tra i dispositivi.
+    [:octicons-home-16: Homepage](https://freedombox.org){ .md-button .md-button--primary }
+    [:octicons-info-16:](https://wiki.debian.org/FreedomBox/Manual){ .card-link title=Documentazione}
+    [:octicons-code-16:](https://salsa.debian.org/freedombox-team/freedombox){ .card-link title="Codice Sorgente" }
+    [:octicons-heart-16:](https://freedomboxfoundation.org/donate/){ .card-link title=Contribuisci }
 
 ## Sincronizzazione dei file
 
@@ -75,46 +78,44 @@ ffsend upload --host https://send.vis.ee/ FILE
 
 !!! recommendation
 
-    ![LibreOffice logo](assets/img/productivity/libreoffice.svg){ align=right }
+    ![Logo Nextcloud](assets/img/productivity/nextcloud.svg){ align=right }
     
-    **LibreOffice** è una suite per ufficio gratis, open-source e ricca di funzionalità.
+    **Nextcloud** è una suite di software gratuiti e open-source client-server per la creazione di servizi di file hosting su un server privato controllato dall'utente.
     
-    [:octicons-home-16: Pagina principale](https://www.libreoffice.org){ .md-button .md-button--primary }
-    [:octicons-eye-16:](https://www.libreoffice.org/about-us/privacy/privacy-policy-en/){ .card-link title="Informativa sulla privacy" }
-    [:octicons-info-16:](https://documentation.libreoffice.org/en/english-documentation/){ .card-link title=Documentazione}
-    [:octicons-code-16:](https://www.libreoffice.org/about-us/source-code){ .card-link title="Codice sorgente" }
-    [:octicons-heart-16:](https://www.libreoffice.org/donate/){ .card-link title=Contribuisci }
+    [:octicons-home-16: Homepage](https://nextcloud.com){ .md-button .md-button--primary }
+    [:octicons-eye-16:](https://nextcloud.com/privacy){ .card-link title="Politica sulla Privacy" }
+    [:octicons-info-16:](https://nextcloud.com/support/){ .card-link title=Documentazione}
+    [:octicons-code-16:](https://github.com/nextcloud){ .card-link title="Codice Sorgente" }
+    [:octicons-heart-16:](https://nextcloud.com/contribute/){ .card-link title=Contribuisci }
     
-    ??? downloads
+    ??? download
     
-        - [:simple-googleplay: Google Play](https://www.libreoffice.org/download/android-and-ios/)
-        - [:simple-appstore: App Store](https://www.libreoffice.org/download/android-and-ios/)
-        - [:simple-windows11: Windows](https://www.libreoffice.org/download/download/)
-        - [:simple-apple: macOS](https://www.libreoffice.org/download/download/)
-        - [:simple-linux: Linux](https://www.libreoffice.org/download/download/)
-        - [:simple-flathub: Flathub](https://flathub.org/apps/details/org.libreoffice.LibreOffice)
-        - [:simple-freebsd: FreeBSD](https://www.freshports.org/editors/libreoffice/)
+        - [:simple-googleplay: Google Play](https://play.google.com/store/apps/details?id=com.nextcloud.client)
+        - [:simple-appstore: App Store](https://apps.apple.com/app/id1125420102)
+        - [:simple-github: GitHub](https://github.com/nextcloud/android/releases)
+        - [:simple-windows11: Windows](https://nextcloud.com/install/#install-clients)
+        - [:simple-apple: macOS](https://nextcloud.com/install/#install-clients)
+        - [:simple-linux: Linux](https://nextcloud.com/install/#install-clients)
+        - [:simple-freebsd: FreeBSD](https://www.freshports.org/www/nextcloud)
 
-!!! danger "Pericolo"
+!!! attenzione
 
-    ![OnlyOffice logo](assets/img/productivity/onlyoffice.svg){ align=right }
-    
-    **OnlyOffice** è una suite di ufficio basata sul cloud gratuita, open-source e ricca di funzionalità, come l'integrazione con Nextcloud.
+    Sconsigliamo di utilizzare l'[App E2EE](https://apps.nextcloud.com/apps/end_to_end_encryption) per Nextcloud, in quanto potrebbe causare la perdita di dati; è altamente sperimentale e non soddisfa i criteri di qualità.
 
 ### Syncthing (P2P)
 
 !!! recommendation
 
-    ![Syncthing logo](assets/img/file-sharing-sync/syncthing.svg){ align=right }
+    ![Logo Syncthing](assets/img/file-sharing-sync/syncthing.svg){ align=right }
     
-    **Syncthing** is an open-source peer-to-peer continuous file synchronization utility. It is used to synchronize files between two or more devices over the local network or the internet. Syncthing does not use a centralized server; it uses the [Block Exchange Protocol](https://docs.syncthing.net/specs/bep-v1.html#bep-v1) to transfer data between devices. Tutti i dati sono criptati usando TLS.
+    **Syncthing** è un'utility open-source di sincronizzazione continua dei file peer-to-peer. Viene utilizzata per sincronizzare i file tra due o più dispositivi sulla rete locale o su Internet. Syncthing non utilizza alcun server centralizzato, ma il [Block Exchange Protocol](https://docs.syncthing.net/specs/bep-v1.html#bep-v1) per trasferire i dati tra i vari dispositivi. Tutti i dati sono criptati usando TLS.
     
     [:octicons-home-16: Homepage](https://syncthing.net){ .md-button .md-button--primary }
-    [:octicons-info-16:](https://docs.syncthing.net){ .card-link title=Documentation}
-    [:octicons-code-16:](https://github.com/syncthing){ .card-link title="Source Code" }
-    [:octicons-heart-16:](https://syncthing.net/donations/){ .card-link title=Contribute }
+    [:octicons-info-16:](https://docs.syncthing.net){ .card-link title=Documentazione}
+    [:octicons-code-16:](https://github.com/syncthing){ .card-link title="Codice Sorgente" }
+    [:octicons-heart-16:](https://syncthing.net/donations/){ .card-link title=Contribuisci }
     
-    ??? downloads
+    ??? download
     
         - [:simple-googleplay: Google Play](https://play.google.com/store/apps/details?id=com.nutomic.syncthingandroid)
         - [:simple-windows11: Windows](https://syncthing.net/downloads/)
@@ -134,13 +135,13 @@ ffsend upload --host https://send.vis.ee/ FILE
 
 #### Requisiti minimi
 
-- Must not require a third-party remote/cloud server.
+- Non deve richiedere un server remoto/cloud di terze parti.
 - Deve essere un software open-source.
-- Must either have clients for Linux, macOS, and Windows; or have a web interface.
+- Deve avere client per Linux, macOS, e Windows; o avere un'interfaccia web.
 
 #### Caso migliore
 
-KeePassXC memorizza i suoi dati di esportazione come file [CSV](https://en.wikipedia.org/wiki/Comma-separated_values). Ciò può comportare la perdita di dati se si importa questo file in un altro gestore di password.
+I nostri criteri ottimali rappresentano ciò che vorremmo vedere dal progetto perfetto in questa categoria. Le nostre raccomandazioni potrebbero non includere tutte o alcune di queste funzionalità, ma quelle che le includono potrebbero avere una posizione più alta rispetto ad altre in questa pagina.
 
-- Has mobile clients for iOS and Android, which at least support document previews.
-- Supports photo backup from iOS and Android, and optionally supports file/folder sync on Android.
+- Dispone di client mobile per iOS e Android, che supportano almeno le anteprime dei documenti.
+- Supporta il backup delle foto da iOS e Android e, opzionalmente, la sincronizzazione di file e cartelle su Android.

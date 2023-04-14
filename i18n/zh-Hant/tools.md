@@ -3,16 +3,16 @@ title: "隱私工具"
 icon: material/tools
 hide:
   - toc
-description: Privacy Guides is the most transparent and reliable website for finding software, apps, and services that protect your personal data from mass surveillance programs and other internet threats.
+description: Privacy Guides 是最透明和可靠的網站，用於尋找保護您的個人資料免受大規模監控計劃和其他網路威脅的軟體、應用程式和服務。
 ---
 
-If you're looking for a specific solution to something, these are the hardware and software tools we recommend in a variety of categories. Our recommended privacy tools are primarily chosen based on security features, with additional emphasis on decentralized and open-source tools. They are applicable to a variety of threat models ranging from protection against global mass surveillance programs and avoiding big tech companies to mitigating attacks, but only you can determine what will work best for your needs.
+如果您正在尋找特定的解決方案，這些是我們在各種類別中推薦的硬件和軟件工具。 我們推薦的隱私工具主要是基於安全功能而選擇的，並特別強調去中心化和開源工具。 它們適用於各種威脅模型，從防止全球大規模監控計劃，避免大型科技公司到減輕攻擊，但只有您才能確定哪些最適合您的需求。
 
-If you want assistance figuring out the best privacy tools and alternative programs for your needs, start a discussion on our [forum](https://discuss.privacyguides.net/) or our [Matrix](https://matrix.to/#/#privacyguides:matrix.org) community!
+如果您需要協助，為您的需求找出最佳的隱私工具和替代方案，請在我們的 [論壇](https://discuss.privacyguides.net/) 或 [matrix](https://matrix.to/#/#privacyguides:matrix.org) 社區開始討論！
 
-For more details about each project, why they were chosen, and additional tips or tricks we recommend, click the "Learn more" link in each section, or click on the recommendation itself to be taken to that specific section of the page.
+有關每個項目的詳細資訊，為什麼選擇它們，以及我們推薦的其他提示或技巧，請點擊每個部分中的“了解更多”連結，或點擊推薦本身以轉到頁面的特定部分。
 
-## Tor Network
+## Tor 網絡
 
 <div class="grid cards annotate" markdown>
 
@@ -22,11 +22,11 @@ For more details about each project, why they were chosen, and additional tips o
 
 </div>
 
-1. Snowflake does not increase privacy, however it allows you to easily contribute to the Tor network and help people in censored networks achieve better privacy.
+1. Snowflake 無法提高隱私，但它可以讓您輕鬆地為 Tor網絡做出貢獻，並幫助受審查網絡中的人們實現更好的隱私。
 
-[Learn more :material-arrow-right-drop-circle:](tor.md)
+[了解更多 :material-arrow-right-drop-circle:](tor.md)
 
-## Desktop Web Browsers
+## 桌面瀏覽器
 
 <div class="grid cards" markdown>
 
@@ -36,9 +36,9 @@ For more details about each project, why they were chosen, and additional tips o
 
 </div>
 
-[Learn more :material-arrow-right-drop-circle:](desktop-browsers.md)
+[了解更多 :material-arrow-right-drop-circle:](desktop-browsers.md)
 
-### Additional Resources
+### 其他資源
 
 <div class="grid cards" markdown>
 
@@ -46,9 +46,9 @@ For more details about each project, why they were chosen, and additional tips o
 
 </div>
 
-[Learn more :material-arrow-right-drop-circle:](desktop-browsers.md#additional-resources)
+[了解更多 :material-arrow-right-drop-circle:](desktop-browsers.md#additional-resources)
 
-## Mobile Web Browsers
+## 行動瀏覽器
 
 <div class="grid cards" markdown>
 
@@ -57,9 +57,9 @@ For more details about each project, why they were chosen, and additional tips o
 
 </div>
 
-[Learn more :material-arrow-right-drop-circle:](mobile-browsers.md)
+[了解更多 :material-arrow-right-drop-circle:](mobile-browsers.md)
 
-### Additional Resources
+### 其他資源
 
 <div class="grid cards annotate" markdown>
 
@@ -67,9 +67,9 @@ For more details about each project, why they were chosen, and additional tips o
 
 </div>
 
-[Learn more :material-arrow-right-drop-circle:](mobile-browsers.md#adguard)
+[了解更多 :material-arrow-right-drop-circle:](mobile-browsers.md#adguard)
 
-## Operating Systems
+## 作業系統
 
 ### 行動
 
@@ -80,9 +80,9 @@ For more details about each project, why they were chosen, and additional tips o
 
 </div>
 
-[Learn more :material-arrow-right-drop-circle:](android.md)
+[了解更多 :material-arrow-right-drop-circle:](android.md)
 
-#### Android Apps
+#### Android 應用程式
 
 <div class="grid cards" markdown>
 
@@ -94,9 +94,9 @@ For more details about each project, why they were chosen, and additional tips o
 
 </div>
 
-[Learn more :material-arrow-right-drop-circle:](android.md#general-apps)
+[了解更多 :material-arrow-right-drop-circle:](android.md#general-apps)
 
-### Desktop/PC
+### 桌上型電腦
 
 <div class="grid cards" markdown>
 
@@ -111,9 +111,9 @@ For more details about each project, why they were chosen, and additional tips o
 
 </div>
 
-[Learn more :material-arrow-right-drop-circle:](desktop.md)
+[了解更多 :material-arrow-right-drop-circle:](desktop.md)
 
-### Router Firmware
+### 路由器軔體
 
 <div class="grid cards" markdown>
 
@@ -122,11 +122,11 @@ For more details about each project, why they were chosen, and additional tips o
 
 </div>
 
-[Learn more :material-arrow-right-drop-circle:](router.md)
+[了解更多 :material-arrow-right-drop-circle:](router.md)
 
-## Service Providers
+## 服務提供商
 
-### Cloud Storage
+### 雲端儲存
 
 <div class="grid cards" markdown>
 
@@ -135,15 +135,15 @@ For more details about each project, why they were chosen, and additional tips o
 
 </div>
 
-[Learn more :material-arrow-right-drop-circle:](cloud.md)
+[了解更多 :material-arrow-right-drop-circle:](cloud.md)
 
 ### DNS
 
 #### DNS 提供者
 
-We [recommend](dns.md#recommended-providers) a number of encrypted DNS servers based on a variety of criteria, such as [Mullvad](https://mullvad.net/en/help/dns-over-https-and-dns-over-tls) and [Quad9](https://quad9.net/) amongst others. We recommend for you to read our pages on DNS before choosing a provider. In many cases, using an alternative DNS provider is not recommended.
+基於各種標準，我們 [推薦](dns.md#recommended-providers) 一些加密 DNS 伺服器，例如[Mullvad](https://mullvad.net/en/help/dns-over-https-and-dns-over-tls) 與 [Quad9](https://quad9.net/)。 建議您在選擇供應商之前先閱讀我們有關 DNS 的頁面。 在許多情況下，不建議使用替代 DNS 提供商。
 
-[Learn more :material-arrow-right-drop-circle:](dns.md)
+[了解更多 :material-arrow-right-drop-circle:](dns.md)
 
 #### 加密的DNS代理
 
@@ -154,7 +154,7 @@ We [recommend](dns.md#recommended-providers) a number of encrypted DNS servers b
 
 </div>
 
-[Learn more :material-arrow-right-drop-circle:](dns.md#encrypted-dns-proxies)
+[了解更多 :material-arrow-right-drop-circle:](dns.md#encrypted-dns-proxies)
 
 #### 自主託管方案
 
@@ -167,7 +167,7 @@ We [recommend](dns.md#recommended-providers) a number of encrypted DNS servers b
 
 [Learn more :material-arrow-right-drop-circle:](dns.md#self-hosted-solutions)
 
-### Email
+### 電子郵件
 
 <div class="grid cards" markdown>
 
@@ -178,9 +178,9 @@ We [recommend](dns.md#recommended-providers) a number of encrypted DNS servers b
 
 </div>
 
-[Learn more :material-arrow-right-drop-circle:](email.md)
+[了解更多 :material-arrow-right-drop-circle:](email.md)
 
-#### Email Aliasing Services
+#### 郵箱別名
 
 <div class="grid cards" markdown>
 
@@ -189,9 +189,9 @@ We [recommend](dns.md#recommended-providers) a number of encrypted DNS servers b
 
 </div>
 
-[Learn more :material-arrow-right-drop-circle:](email.md#email-aliasing-services)
+[了解更多 :material-arrow-right-drop-circle:](email.md#email-aliasing-services)
 
-#### Self-Hosting Email
+#### 自主託管電子郵件
 
 <div class="grid cards" markdown>
 
@@ -200,11 +200,11 @@ We [recommend](dns.md#recommended-providers) a number of encrypted DNS servers b
 
 </div>
 
-[Learn more :material-arrow-right-drop-circle:](email.md#self-hosting-email)
+[了解更多 :material-arrow-right-drop-circle:](email.md#self-hosting-email)
 
-### Financial Services
+### 金融服務
 
-#### Payment Masking Services
+#### 付款掩蔽服務
 
 <div class="grid cards" markdown>
 
@@ -212,9 +212,9 @@ We [recommend](dns.md#recommended-providers) a number of encrypted DNS servers b
 - ![MySudo logo](assets/img/financial-services/mysudo.svg#only-light){ .twemoji }![MySudo logo](assets/img/financial-services/mysudo-dark.svg#only-dark){ .twemoji } [MySudo](financial-services.md#mysudo-us-paid)
 </div>
 
-[Learn more :material-arrow-right-drop-circle:](financial-services.md#payment-masking-services)
+[了解更多 :material-arrow-right-drop-circle:](financial-services.md#payment-masking-services)
 
-#### Online Gift Card Marketplaces
+#### 禮品卡市集
 
 <div class="grid cards" markdown>
 
@@ -223,9 +223,9 @@ We [recommend](dns.md#recommended-providers) a number of encrypted DNS servers b
 
 </div>
 
-[Learn more :material-arrow-right-drop-circle:](financial-services.md#gift-card-marketplaces)
+[了解更多 :material-arrow-right-drop-circle:](financial-services.md#gift-card-marketplaces)
 
-### Search Engines
+### 搜尋引擎
 
 <div class="grid cards" markdown>
 
@@ -236,19 +236,19 @@ We [recommend](dns.md#recommended-providers) a number of encrypted DNS servers b
 
 </div>
 
-[Learn more :material-arrow-right-drop-circle:](search-engines.md)
+[了解更多 :material-arrow-right-drop-circle:](search-engines.md)
 
-### VPN Providers
+### VPN提供商
 
 ??? 注意 "VPN 不會讓您匿名"
 
-    Using a VPN will **not** keep your browsing habits anonymous, nor will it add additional security to non-secure (HTTP) traffic.
+    使用 VPN * *不會* *讓您的瀏覽習慣匿名，也不會為不安全（ HTTP ）流量增加額外的安全性。
     
-    If you are looking for **anonymity**, you should use the Tor Browser **instead** of a VPN.
+    如果追求的是**匿名性** ，應該使用 Tor 瀏覽器**取代** VPN。
     
-    If you're looking for added **security**, you should always ensure you're connecting to websites using HTTPS. A VPN is not a replacement for good security practices.
+    如果需要額外的**安全性** ，應該確保一直使用 HTTPS 連接到網站。 VPN不能取代良好的安全措施。
     
-    [Learn more :material-arrow-right-drop-circle:](vpn.md)
+    [了解更多 :material-arrow-right-drop-circle:](vpn.md)
 
 <div class="grid cards" markdown>
 
@@ -258,7 +258,7 @@ We [recommend](dns.md#recommended-providers) a number of encrypted DNS servers b
 
 </div>
 
-[Learn more :material-arrow-right-drop-circle:](vpn.md)
+[了解更多 :material-arrow-right-drop-circle:](vpn.md)
 
 ## 軟體
 
@@ -271,7 +271,7 @@ We [recommend](dns.md#recommended-providers) a number of encrypted DNS servers b
 
 </div>
 
-[Learn more :material-arrow-right-drop-circle:](calendar.md)
+[了解更多 :material-arrow-right-drop-circle:](calendar.md)
 
 ### 加密貨幣
 
@@ -281,7 +281,7 @@ We [recommend](dns.md#recommended-providers) a number of encrypted DNS servers b
 
 </div>
 
-[Learn more :material-arrow-right-drop-circle:](cryptocurrency.md)
+[了解更多 :material-arrow-right-drop-circle:](cryptocurrency.md)
 
 ### 資料和中繼資料處理
 
@@ -295,7 +295,7 @@ We [recommend](dns.md#recommended-providers) a number of encrypted DNS servers b
 
 </div>
 
-[Learn more :material-arrow-right-drop-circle:](data-redaction.md)
+[了解更多 :material-arrow-right-drop-circle:](data-redaction.md)
 
 ### 電子郵件客戶端程式
 
@@ -313,15 +313,15 @@ We [recommend](dns.md#recommended-providers) a number of encrypted DNS servers b
 
 </div>
 
-[Learn more :material-arrow-right-drop-circle:](email-clients.md)
+[了解更多 :material-arrow-right-drop-circle:](email-clients.md)
 
 ### 加密軟體
 
-??? info "Operating System Disk Encryption"
+??? 資訊 "作業系統磁碟加密"
 
-    For encrypting your operating system drive, we typically recommend using whichever encryption tool your operating system provides, whether that is **BitLocker** on Windows, **FileVault** on macOS, or **LUKS** on Linux. These tools are included with the operating system and typically use hardware encryption elements such as a TPM that other full-disk encryption software like VeraCrypt do not. VeraCrypt is still suitable for non-operating system disks such as external drives, especially drives that may be accessed from multiple operating systems.
+    若要加密作業系統磁碟，通常建議使用作業系統提供的加密工具，無論是 Windows 的* * BitLocker * *、macOS * * FileVault * *或 Linux * * LUKS * *。 這些工具包含在作業系統中，通常使用硬體加密要素，例如 TPM ，而 VeraCrypt 等其他全磁碟加密軟體則不然。 VeraCrypt 仍然適用於非作業系統磁碟，例如外接磁碟，特別是可以從多重作業系統訪問的磁碟。
     
-    [Learn more :material-arrow-right-drop-circle:](encryption.md##operating-system-included-full-disk-encryption-fde)
+    [了解更多 :material-arrow-right-drop-circle:](encryption.md##operating-system-included-full-disk-encryption-fde)
 
 <div class="grid cards" markdown>
 
@@ -334,9 +334,9 @@ We [recommend](dns.md#recommended-providers) a number of encrypted DNS servers b
 
 </div>
 
-[Learn more :material-arrow-right-drop-circle:](encryption.md)
+[了解更多 :material-arrow-right-drop-circle:](encryption.md)
 
-#### OpenPGP Clients
+#### OpenPGP 客戶端
 
 <div class="grid cards" markdown>
 
@@ -347,9 +347,9 @@ We [recommend](dns.md#recommended-providers) a number of encrypted DNS servers b
 
 </div>
 
-[Learn more :material-arrow-right-drop-circle:](encryption.md#openpgp)
+[了解更多 :material-arrow-right-drop-circle:](encryption.md#openpgp)
 
-### File Sharing and Sync
+### 文件共享和同步
 
 <div class="grid cards" markdown>
 
@@ -361,9 +361,9 @@ We [recommend](dns.md#recommended-providers) a number of encrypted DNS servers b
 
 </div>
 
-[Learn more :material-arrow-right-drop-circle:](file-sharing.md)
+[了解更多 :material-arrow-right-drop-circle:](file-sharing.md)
 
-### Frontends
+### 前端
 
 <div class="grid cards" markdown>
 
@@ -378,9 +378,9 @@ We [recommend](dns.md#recommended-providers) a number of encrypted DNS servers b
 
 </div>
 
-[Learn more :material-arrow-right-drop-circle:](frontends.md)
+[了解更多 :material-arrow-right-drop-circle:](frontends.md)
 
-### Multi-Factor Authentication Tools
+### 多因素驗證工具
 
 <div class="grid cards" markdown>
 
@@ -391,9 +391,9 @@ We [recommend](dns.md#recommended-providers) a number of encrypted DNS servers b
 
 </div>
 
-[Learn more :material-arrow-right-drop-circle:](multi-factor-authentication.md)
+[了解更多 :material-arrow-right-drop-circle:](multi-factor-authentication.md)
 
-### News Aggregators
+### 新聞聚合器
 
 <div class="grid cards" markdown>
 
@@ -407,9 +407,9 @@ We [recommend](dns.md#recommended-providers) a number of encrypted DNS servers b
 
 </div>
 
-[Learn more :material-arrow-right-drop-circle:](news-aggregators.md)
+[了解更多 :material-arrow-right-drop-circle:](news-aggregators.md)
 
-### Notebooks
+### 記事本
 
 <div class="grid cards" markdown>
 
@@ -420,9 +420,9 @@ We [recommend](dns.md#recommended-providers) a number of encrypted DNS servers b
 
 </div>
 
-[Learn more :material-arrow-right-drop-circle:](notebooks.md)
+[了解更多 :material-arrow-right-drop-circle:](notebooks.md)
 
-### Password Managers
+### 密碼管理器。
 
 <div class="grid cards" markdown>
 
@@ -436,9 +436,9 @@ We [recommend](dns.md#recommended-providers) a number of encrypted DNS servers b
 
 </div>
 
-[Learn more :material-arrow-right-drop-circle:](passwords.md)
+[了解更多 :material-arrow-right-drop-circle:](passwords.md)
 
-### Productivity Tools
+### 工作效率工具
 
 <div class="grid cards" markdown>
 
@@ -450,9 +450,9 @@ We [recommend](dns.md#recommended-providers) a number of encrypted DNS servers b
 
 </div>
 
-[Learn more :material-arrow-right-drop-circle:](productivity.md)
+[了解更多 :material-arrow-right-drop-circle:](productivity.md)
 
-### Real-Time Communication
+### 即時通訊軟體
 
 <div class="grid cards" markdown>
 
@@ -464,9 +464,9 @@ We [recommend](dns.md#recommended-providers) a number of encrypted DNS servers b
 
 </div>
 
-[Learn more :material-arrow-right-drop-circle:](real-time-communication.md)
+[了解更多 :material-arrow-right-drop-circle:](real-time-communication.md)
 
-### Video Streaming Clients
+### 影片串流客戶端
 
 <div class="grid cards" markdown>
 
@@ -474,4 +474,4 @@ We [recommend](dns.md#recommended-providers) a number of encrypted DNS servers b
 
 </div>
 
-[Learn more :material-arrow-right-drop-circle:](video-streaming.md)
+[了解更多 :material-arrow-right-drop-circle:](video-streaming.md)

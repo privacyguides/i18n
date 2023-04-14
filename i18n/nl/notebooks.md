@@ -89,7 +89,7 @@ Cryptee biedt gratis 100MB opslag, met betaalde opties als je meer nodig hebt. A
 
     ![Org-mode logo](assets/img/notebooks/org-mode.svg){ align=right }
     
-    **Org-mode** is een [major mode](https://www.gnu.org/software/emacs/manual/html_node/elisp/Major-Modes.html) voor GNU Emacs. Org-mode is for keeping notes, maintaining to-do lists, planning projects, and authoring documents with a fast and effective plain-text system. Synchronisatie is mogelijk met [bestandssynchronisatie](file-sharing.md#file-sync) tools.
+    **Org-mode** is een [major mode](https://www.gnu.org/software/emacs/manual/html_node/elisp/Major-Modes.html) voor GNU Emacs. Org-mode is voor het bijhouden van notities, het bijhouden van Todo lijsten, het plannen van projecten, en het schrijven van documenten met een snel en effectief plain-text systeem. Synchronisatie is mogelijk met [bestandssynchronisatie](file-sharing.md#file-sync) tools.
     
     [:octicons-home-16: Homepage](https://orgmode.org){ .md-button .md-button--primary }
     [:octicons-info-16:](https://orgmode.org/manuals.html){ .card-link title=Documentatie}

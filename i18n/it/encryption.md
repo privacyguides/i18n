@@ -1,7 +1,7 @@
 ---
 title: "Software di crittografia"
 icon: material/file-lock
-description: La crittografia dei dati è l'unico modo per controllare chi può accedervi. These tools allow you to encrypt your emails and any other files.
+description: La crittografia dei dati è l'unico modo per controllare chi può accedervi. Questi strumenti ti consentono di crittografare le tue email e qualsiasi altro file.
 ---
 
 La crittografia dei dati è l'unico modo per controllare chi può accedervi. Se al momento non stai utilizzando software per la crittografia del tuo hard disk, delle email, o dei file, dovresti scegliere una delle seguenti opzioni.
@@ -342,7 +342,7 @@ Quando cripti con PGP, puoi configurare diverse opzioni nel file `gpg.conf`. Rac
 
     Stiamo lavorando per stabilire criteri ben definiti per ogni sezione del nostro sito, e questo potrebbe essere soggetto a modifiche. Se avete domande sui nostri criteri, vi preghiamo di [chiedere sul nostro forum](https://discuss.privacyguides.net/latest) e non date per scontato che non abbiamo preso in considerazione qualcosa nel formulare le nostre raccomandazioni se non è elencato qui. Sono molti i fattori presi in considerazione e discussi quando consigliamo un progetto, e stiamo lavorando per documentare ogni singolo fattore.
 
-### Minimum Qualifications
+### Requisiti minimi
 
 - Le applicazioni di crittografia multipiattaforma devono essere open-source.
 - Le app di crittografia dei file devono supportare la decodifica su Linux, macOS e Windows.

@@ -5,10 +5,10 @@ config:
   copyright:
     - 
       1: |
-         Privacy Guides é um site sem fins lucrativos e socialmente motivado que fornece informações para proteger a segurança e privacidade dos seus dados.
+         Privacy Guides é um site sem fins lucrativos, mantido pela comunidade, que fornece informações para proteger sua segurança de dados e privacidade.
     - 
       2: |
-         Não ganhamos dinheiro recomendando produtos e nem usamos links de afiliados.
+         Não ganhamos dinheiro com recomendações de produtos nem links de afiliados.
     - 
       3: |
          Privacy Guides e colaboradores.
@@ -19,7 +19,7 @@ config:
     question: Esta página foi útil?
     yes: Esta página foi útil
     yes-note: Agradecemos sua resposta!
-    no: Esta página pode ser melhorada
+    no: Esta página poderia ser melhorada
     no-note: |
       Agradecemos sua resposta! Ajude-nos a melhorar esta página abrindo uma discussão em nosso fórum.
   theme:
@@ -29,14 +29,14 @@ config:
 nav:
   Home: Início
   Knowledge Base: Base de Conhecimento
-  Technology Essentials: O Essencial da Tecnologia
+  Technology Essentials: Fundamentos de Tecnologia
   Operating Systems: Sistemas Operacionais
   Advanced Topics: Tópicos Avançados
   Recommendations: Recomendações
   Internet Browsing: Navegação na Internet
   Providers: Provedores
-  Software: Software (Programa)
-  About: Quem somos
+  Software: Programa
+  About: Sobre
   Community: Comunidade
   Online Services: Serviços Online
   Code of Conduct: Código de Conduta
@@ -46,3 +46,6 @@ nav:
   Changelog: Registro de alterações
   Forum: Fórum
   Blog: Blog
+site:
+  translation: |
+    Você está vendo a cópia em Português Brasileiro de Privacy Guides, traduzidos pela nossa fantástica equipe de idiomas na Crowdin. Se você notar um erro ou ver quaisquer seções não traduzidas nesta página, por favor considere ajudar!

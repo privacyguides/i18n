@@ -262,7 +262,7 @@ Per maggiori dettagli su ogni progetto, sul motivo per cui è stato scelto e su 
 
 ## Software
 
-### Sincronizzazione di calendario
+### Sincronizzazione di calendario e contatti
 
 <div class="grid cards" markdown>
 

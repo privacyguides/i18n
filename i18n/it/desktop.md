@@ -6,7 +6,7 @@ description: Le distribuzioni Linux sono comunemente consigliate per la protezio
 
 Le distribuzioni Linux sono comunemente consigliate per la protezione della privacy e la libertà del software. Se non utilizzi già Linux, di seguito ti suggeriamo alcune distribuzioni da provare, oltre ad alcuni consigli generali per migliorare la privacy e la sicurezza applicabili a molte distribuzioni Linux.
 
-- [General Linux Overview :material-arrow-right-drop-circle:](os/linux-overview.md)
+- [Panoramica generale di Linux :material-arrow-right-drop-circle:](os/linux-overview.md)
 
 ## Distribuzioni tradizionali
 
@@ -22,7 +22,7 @@ Le distribuzioni Linux sono comunemente consigliate per la protezione della priv
     [:octicons-info-16:](https://docs.fedoraproject.org/en-US/docs/){ .card-link title=Documentazione}
     [:octicons-heart-16:](https://whatcanidoforfedora.org/){ .card-link title=Contribuisci }
 
-Fedora has a semi-rolling release cycle. Mentre alcuni pacchetti come [GNOME](https://www.gnome.org) sono congelati fino alla prossima versione di Fedora, la maggior parte dei pacchetti (incluso il kernel) sono aggiornati frequentemente durante il ciclo di vita della versione.  Ogni versione di Fedora è supportata per un anno, con una nuova versione rilasciata ogni 6 mesi.
+Fedora ha un ciclo di rilascio semi-rolling. Mentre alcuni pacchetti come [GNOME](https://www.gnome.org) sono congelati fino alla prossima versione di Fedora, la maggior parte dei pacchetti (incluso il kernel) sono aggiornati frequentemente durante il ciclo di vita della versione.  Ogni versione di Fedora è supportata per un anno, con una nuova versione rilasciata ogni 6 mesi.
 
 ### openSUSE Tumbleweed
 
@@ -38,7 +38,7 @@ Fedora has a semi-rolling release cycle. Mentre alcuni pacchetti come [GNOME](ht
     [:octicons-info-16:](https://doc.opensuse.org/){ .card-link title=Documentazione}
     [:octicons-heart-16:](https://shop.opensuse.org/){ .card-link title=Contribuisci }
 
-Tumbleweed follows a rolling release model where each update is released as a snapshot of the distribution. Quando l'utente aggiorna il suo sistema, viene scaricata una nuova istantanea. Ogni istantanea viene sottoposta a una serie di test automatizzati da [openQA](https://openqa.opensuse.org) per garantirne la qualità.
+Tumbleweed segue un modello di rilascio continuo in cui ogni aggiornamento viene rilasciato come un'istantanea della distribuzione. Quando l'utente aggiorna il suo sistema, viene scaricata una nuova istantanea. Ogni istantanea viene sottoposta a una serie di test automatizzati da [openQA](https://openqa.opensuse.org) per garantirne la qualità.
 
 ### Arch Linux
 
@@ -98,7 +98,7 @@ Nix, il gestore di pacchetti, utilizza un linguaggio puramente funzionale, chiam
 
 [Nixpkgs](https://github.com/nixos/nixpkgs) (la fonte principale dei pacchetti) è contenuto in un unico repository GitHub. È anche possibile definire i propri pacchetti nella stesso linguaggio e quindi includerli facilmente nella configurazione.
 
-Nix is a source-based package manager; if there’s no pre-built available in the binary cache, Nix will just build the package from source using its definition. Costruisce ogni pacchetto in un ambiente sandbox *puro* , che è il più indipendente possibile dal sistema ospite, rendendo così i binari riproducibili.
+Nix è un gestore di pacchetti basato sul codice sorgente; se non c'è nessun pacchetto precostruito disponibile nella cache binaria, Nix genererà il pacchetto da zero usando la sua definizione. Costruisce ogni pacchetto in un ambiente sandbox *puro* , che è il più indipendente possibile dal sistema ospite, rendendo così i binari riproducibili.
 
 ## Distribuzioni incentrate sull'anonimato
 
@@ -108,7 +108,7 @@ Nix is a source-based package manager; if there’s no pre-built available in th
 
     ![Logo Whonix](assets/img/linux-desktop/whonix.svg){ align=right }
     
-    **Whonix** è basato su [Kicksecure](https://www.whonix.org/wiki/Kicksecure), un fork di Debian focalizzato sulla sicurezza. Mira a fornire privacy, sicurezza e anonimato su internet. Whonix is best used in conjunction with [Qubes OS](#qubes-os).
+    **Whonix** è basato su [Kicksecure](https://www.whonix.org/wiki/Kicksecure), un fork di Debian focalizzato sulla sicurezza. Mira a fornire privacy, sicurezza e anonimato su internet. Whonix è meglio utilizzato insieme a [Qubes OS](#qubes-os).
     
     [:octicons-home-16: Pagina principale](https://www.whonix.org/){ .md-button .md-button--primary }
     [:simple-torbrowser:](http://www.dds6qkxpwdeubwucdiaord2xgbbeyds25rbsgr73tbfpqpt4a6vjwsyd.onion){ .card-link title="Servizio onion" }
@@ -137,11 +137,11 @@ Whonix è utilizzato al meglio [in combinazione con Qubes](https://www.whonix.or
 
 Tails è ottimo per la contro-analisi forense grazie all'amnesia (il che significa che non viene scritto nulla sul disco); tuttavia, non è una distribuzione rafforzata come Whonix. Manca di molte funzioni di anonimato e sicurezza che Whonix possiede e viene aggiornato molto meno spesso (solo una volta ogni sei settimane). Un sistema Tails compromesso da malware può potenzialmente aggirare il proxy trasparente, consentendo all'utente di essere deanonimizzato.
 
-Tails include [uBlock Origin](desktop-browsers.md#ublock-origin) nel Tor Browser per impostazione predefinita, il che può potenzialmente rendere più facile per gli avversari effettuare il fingerprinting degli utenti di Tails. [Whonix](desktop.md#whonix) virtual machines may be more leak-proof, however they are not amnesic, meaning data may be recovered from your storage device.
+Tails include [uBlock Origin](desktop-browsers.md#ublock-origin) nel Tor Browser per impostazione predefinita, il che può potenzialmente rendere più facile per gli avversari effettuare il fingerprinting degli utenti di Tails. [Le macchine virtuali Whonix](desktop.md#whonix) possono essere più a prova di perdite, ma non sono amnesiche, il che significa che i dati possono essere recuperati dal dispositivo di archiviazione.
 
 Da progettazione, Tails è previsto che si ripristini completamente dopo ogni riavvio. L'archiviazione [cifrata persistente](https://tails.boum.org/doc/first_steps/persistence/index.en.html) può essere configurata per memorizzare alcuni dati tra un ravvio e l'altro.
 
-## Security-focused Distributions
+## Distribuzioni incentrate sulla sicurezza
 
 ### Qubes OS
 
@@ -159,7 +159,7 @@ Da progettazione, Tails è previsto che si ripristini completamente dopo ogni ri
     [:octicons-code-16:](https://github.com/QubesOS/){ .card-link title="Codice sorgente" }
     [:octicons-heart-16:](https://www.qubes-os.org/donate/){ .card-link title=Contribuisci }
 
-Qubes OS is a Xen-based operating system meant to provide strong security for desktop computing through secure virtual machines (VMs), also known as *Qubes*.
+Qubes OS è un sistema operativo basato su Xen che mira a fornire una forte sicurezza per il desktop computing attraverso macchine virtuali (VM) sicure, note anche come *Qubes*.
 
 Il sistema operativo Qubes OS protegge il computer isolando i sottosistemi (ad esempio, rete, USB, ecc.) e le applicazioni in macchine virtuali separate. Se una parte del sistema viene compromessa, è probabile che l'isolamento supplementare protegga il resto del sistema. Per ulteriori dettagli, consulta le [FAQ](https://www.qubes-os.org/faq/) di Qubes.
 
@@ -171,11 +171,11 @@ Il sistema operativo Qubes OS protegge il computer isolando i sottosistemi (ad e
 
     Stiamo lavorando per stabilire criteri ben definiti per ogni sezione del nostro sito, e questo potrebbe essere soggetto a modifiche. Se avete domande sui nostri criteri, vi preghiamo di [chiedere sul nostro forum](https://discuss.privacyguides.net/latest) e non date per scontato che non abbiamo preso in considerazione qualcosa nel formulare le nostre raccomandazioni se non è elencato qui. Sono molti i fattori presi in considerazione e discussi quando consigliamo un progetto, e stiamo lavorando per documentare ogni singolo fattore.
 
-Our recommended operating systems:
+I nostri sistemi operativi consigliati:
 
-- Must be open-source.
-- Must receive regular software and Linux kernel updates.
-- Linux distributions must support [Wayland](os/linux-overview.md#Wayland).
-- Must support full-disk encryption during installation.
-- Must not freeze regular releases for more than 1 year. We [do not recommend](os/linux-overview.md#release-cycle) "Long Term Support" or "stable" distro releases for desktop usage.
-- Must support a wide variety of hardware.
+- Devono essere open-source.
+- Devono ricevere regolarmente aggiornamenti del software e del kernel Linux.
+- Le distribuzioni Linux devono supportare [Wayland](os/linux-overview.md#Wayland).
+- Devono supportare la crittografia dell'intero disco durante l'installazione.
+- Non devono fermare i rilasci regolari per più di 1 anno. Noi [non consigliamo](os/linux-overview.md#release-cycle) le distribuzioni "Long Term Support" o "stable" per utilizzo desktop.
+- Devono supportare un'ampia varietà di hardware.

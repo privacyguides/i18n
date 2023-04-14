@@ -46,3 +46,6 @@ nav:
   Changelog: Registro de cambios
   Forum: Foro
   Blog: Blog
+site:
+  translation: |
+    Estás viendo la versión en español de Privacy Guides, traducida por nuestro fantástico equipo de idiomas en Crowdin. Si detectas algún error o ves alguna sección sin traducir en esta página, ¡considera la posibilidad de echar una mano!

@@ -30,7 +30,7 @@ nav:
   Home: Home
   Knowledge Base: Knowledge Base
   Technology Essentials: Technology Essentials
-  Operating Systems: Operating Systems
+  Operating Systems: 作業系統
   Advanced Topics: Advanced Topics
   Recommendations: Recommendations
   Internet Browsing: Internet Browsing
@@ -46,3 +46,6 @@ nav:
   Changelog: Changelog
   Forum: Forum
   Blog: Blog
+site:
+  translation: |
+    You're viewing the English copy of Privacy Guides, translated by our fantastic language team on Crowdin. If you notice an error, or see any untranslated sections on this page, please consider helping out!

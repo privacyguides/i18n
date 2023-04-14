@@ -1,5 +1,5 @@
 ---
-title: "Account Deletion"
+title: "Удаление аккаунта"
 icon: 'material/account-remove'
 description: It's easy to accumulate a large number of internet accounts, here are some tips on how to prune your collection.
 ---

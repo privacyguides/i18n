@@ -2,7 +2,7 @@
 
 We draaien een aantal webdiensten om functies te testen en coole gedecentraliseerde, gefedereerde en/of open-source projecten te promoten. Veel van deze diensten zijn beschikbaar voor het publiek en worden hieronder beschreven.
 
-[:material-comment-alert: Report an issue](https://discuss.privacyguides.net/c/services/2){ class="md-button md-button--primary" }
+[:material-comment-alert: Een probleem melden](https://discuss.privacyguides.net/c/services/2){ class="md-button md-button--primary" }
 
 ## Discourse
 

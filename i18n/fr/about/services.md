@@ -2,7 +2,7 @@
 
 Nous utilisons un certain nombre de services web pour tester des fonctionnalités et promouvoir des projets décentralisés, fédérés et/ou open-source. Bon nombre de ces services sont accessibles au public et sont détaillés ci-dessous.
 
-[:material-comment-alert: Report an issue](https://discuss.privacyguides.net/c/services/2){ class="md-button md-button--primary" }
+[:material-comment-alert: Signaler un problème](https://discuss.privacyguides.net/c/services/2){ class="md-button md-button--primary" }
 
 ## Discourse
 

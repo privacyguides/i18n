@@ -45,7 +45,7 @@ Esistono diversi modi per connettersi alla rete Tor dal proprio dispositivo, il 
         - [:simple-linux: Linux](https://www.torproject.org/download/)
         - [:simple-freebsd: FreeBSD](https://www.freshports.org/security/tor)
 
-!!! danger "Pericolo"
+!!! attenzione
 
     Non si devono **mai** installare estensioni aggiuntive su Tor Browser o modificare le impostazioni `about:config`, comprese quelle suggerite per Firefox. Le estensioni del browser e impostazioni non standard ti rendono distinguibile dagli altri utenti della rete Tor, aumentando così il [fingerprint](https://support.torproject.org/glossary/browser-fingerprinting) del tuo browser.
 

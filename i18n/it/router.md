@@ -1,10 +1,10 @@
 ---
 title: "Firmware Router"
 icon: material/router-wireless
-description: These alternative operating systems can be used to secure your router or Wi-Fi access point.
+description: Questi sistemi operativi alternativi possono essere utilizzati per proteggere il router o l'access point del Wi-Fi.
 ---
 
-Di seguito sono elencati alcuni sistemi operativi alternativi che possono essere usati su router, punti di accesso Wi-Fi, ecc.
+Di seguito sono elencati alcuni sistemi operativi alternativi che possono essere usati su router, access point Wi-Fi, ecc.
 
 ## OpenWrt
 
@@ -28,7 +28,7 @@ Di seguito sono elencati alcuni sistemi operativi alternativi che possono essere
 
     ![pfSense logo](assets/img/router/opnsense.svg){ align=right }
     
-    **OPNsense** è una piattaforma open source di firewall e routing basata su FreeBSD che incorpora molte funzionalità avanzate come il traffic shaping, il bilanciamento del carico e le funzionalità VPN, con molte altre funzionalità disponibili sotto forma di plugin. OPNsense viene comunemente utilizzato come firewall perimetrale, router, punto di accesso wireless, server DHCP, server DNS ed endpoint VPN.
+    **OPNsense** è una piattaforma open source di firewall e routing basata su FreeBSD che incorpora molte funzionalità avanzate come il traffic shaping, il bilanciamento del carico e le funzionalità VPN, con molte altre funzionalità disponibili sotto forma di plugin. OPNsense viene comunemente utilizzato come firewall perimetrale, router, access point wireless, server DHCP, server DNS ed endpoint VPN.
     
     [:octicons-home-16: Pagina principale](https://opnsense.org/){ .md-button .md-button--primary }
     [:octicons-info-16:](https://docs.opnsense.org/index.html){ .card-link title=Documentazione}
@@ -47,4 +47,4 @@ OPNsense è stato originariamente sviluppato come fork di [pfSense](https://en.w
 
 - Deve essere open source.
 - Deve ricevere aggiornamenti regolari.
-- Must support a wide variety of hardware.
+- Deve supportare un'ampia varietà di hardware.

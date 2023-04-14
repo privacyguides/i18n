@@ -1,7 +1,7 @@
 ---
 title: VPN Overview
 icon: material/vpn
-description: Virtual Private Networks shift risk away from your ISP to a third-party you trust. You should keep these things in mind.
+description: As Redes Privadas Virtuais transferem o risco do seu ISP para um terceiro em quem você confia. You should keep these things in mind.
 ---
 
 Virtual Private Networks are a way of extending the end of your network to exit somewhere else in the world. An ISP can see the flow of internet traffic entering and exiting your network termination device (i.e. modem).

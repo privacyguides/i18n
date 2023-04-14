@@ -1,10 +1,10 @@
 ---
-title: "Sincronizzazione di calendario"
+title: "Sincronizzazione calendario"
 icon: material/calendar
-description: Calendars contain some of your most sensitive data; use products that implement encryption at rest.
+description: I calendari contengono alcuni dei vostri dati più sensibili; utilizzate prodotti che implementino la crittografia a riposo.
 ---
 
-Calendars contain some of your most sensitive data; use products that implement E2EE at rest to prevent a provider from reading them.
+I calendari contengono alcuni dei vostri dati più sensibili; utilizzate prodotti che implementino la E2EE a riposo per impedire al provider di leggerli.
 
 ## Tutanota
 
@@ -13,7 +13,7 @@ Calendars contain some of your most sensitive data; use products that implement 
     ![Tutanota logo](assets/img/calendar/tutanota.svg#only-light){ align=right }
     ![Tutanota logo](assets/img/calendar/tutanota-dark.svg#only-dark){ align=right }
     
-    **Tutanota** offers a free and encrypted calendar across their supported platforms. Le caratteristiche includono: E2EE automatico di tutti i dati, funzionalità di condivisione, importazione/esportazione, autenticazione a più fattori e [altre funzionalità](https://tutanota.com/calendar-app-comparison/).
+    **Tutanota** offre un calendario gratuito e criptato su tutte le piattaforme supportate. Le caratteristiche includono: E2EE automatico di tutti i dati, funzionalità di condivisione, importazione/esportazione, autenticazione a più fattori e [altre funzionalità](https://tutanota.com/calendar-app-comparison/).
     
     Calendari multipli e funzionalità di condivisione estese sono limitate agli abbonati a pagamento.
     
@@ -23,7 +23,7 @@ Calendars contain some of your most sensitive data; use products that implement 
     [:octicons-code-16:](https://github.com/tutao/tutanota){ .card-link title="Codice sorgente" }
     [:octicons-heart-16:](https://tutanota.com/community/){ .card-link title=Contribuisci }
     
-    ??? downloads
+    ??? download
     
         - [:simple-googleplay: Google Play](https://play.google.com/store/apps/details?id=de.tutao.tutanota)
         - [:simple-appstore: App Store](https://apps.apple.com/us/app/tutanota/id922429609)
@@ -39,14 +39,14 @@ Calendars contain some of your most sensitive data; use products that implement 
 
     ![Proton](assets/img/calendar/proton-calendar.svg){ align=right }
     
-    **Proton Calendar** is an encrypted calendar service available to Proton members via web or mobile clients. Le caratteristiche includono: E2EE automatico di tutti i dati, funzioni di condivisione, funzionalità di importazione/esportazione e [altre funzionalità](https://proton.me/support/proton-calendar-guide). Gli utenti gratuiti hanno accesso ad un singolo calendario, mentre gli abbonati a pagamento possono crearne fino a venti. Anche la funzionalità di condivisione estesa è limitata agli abbonati a pagamento.
+    **Proton Calendar** è un servizio di calendario criptato disponibile per i membri Proton tramite web o client mobile. Le caratteristiche includono: E2EE automatico di tutti i dati, funzioni di condivisione, funzionalità di importazione/esportazione e [altre funzionalità](https://proton.me/support/proton-calendar-guide). Gli utenti gratuiti hanno accesso ad un singolo calendario, mentre gli abbonati a pagamento possono crearne fino a 20. Anche la funzionalità di condivisione avanzata è limitata agli abbonati a pagamento.
     
     [:octicons-home-16: Pagina principale](https://proton.me/calendar){ .md-button .md-button--primary }
     [:octicons-eye-16:](https://proton.me/legal/privacy){ .card-link title="informativa sulla privacy" }
     [:octicons-info-16:](https://proton.me/support/proton-calendar-guide){ .card-link title=Documentazione}
     [:octicons-code-16:](https://github.com/ProtonMail/WebClients){ .card-link title="Codice sorgente" }
     
-    ??? downloads
+    ??? download
     
         - [:simple-googleplay: Google Play](https://play.google.com/store/apps/details?id=me.proton.android.calendar)
         - [:octicons-browser-16: Web](https://calendar.proton.me)
@@ -59,12 +59,12 @@ Calendars contain some of your most sensitive data; use products that implement 
 
     Stiamo lavorando per stabilire criteri ben definiti per ogni sezione del nostro sito, e questo potrebbe essere soggetto a modifiche. Se avete domande sui nostri criteri, vi preghiamo di [chiedere sul nostro forum](https://discuss.privacyguides.net/latest) e non date per scontato che non abbiamo preso in considerazione qualcosa nel formulare le nostre raccomandazioni se non è elencato qui. Sono molti i fattori presi in considerazione e discussi quando consigliamo un progetto, e stiamo lavorando per documentare ogni singolo fattore.
 
-### Minimum Qualifications
+### Requisiti minimi
 
-- Must sync and store information with E2EE to ensure data is not visible to the service provider.
+- Deve sincronizzare e archiviare le informazioni con E2EE per garantire che i dati non siano visibili al provider del servizio.
 
 ### Caso migliore
 
-KeePassXC memorizza i suoi dati di esportazione come file [CSV](https://en.wikipedia.org/wiki/Comma-separated_values). Ciò può comportare la perdita di dati se si importa questo file in un altro gestore di password.
+I nostri criteri ottimali rappresentano ciò che vorremmo vedere dal progetto perfetto in questa categoria. Le nostre raccomandazioni potrebbero non includere tutte o alcune di queste funzionalità, ma quelle che le includono potrebbero avere una posizione più alta rispetto ad altre in questa pagina.
 
-- Should integrate with native OS calendar and contact management apps if applicable.
+- Dovrebbe integrarsi con le applicazioni native del sistema operativo per la gestione dei calendari e dei contatti, se applicabile.

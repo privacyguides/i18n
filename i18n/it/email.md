@@ -484,14 +484,14 @@ Con i provider di posta elettronica che consigliamo, ci piacerebbe vedere un mar
 
 **Requisiti minimi:**
 
-- Must self-host analytics (no Google Analytics, Adobe Analytics, etc.). Il sito del fornitore deve inoltre rispettare il [No not track (DNT)](https://it.wikipedia.org/wiki/Do_Not_Track) per chi desidera rinunciare.
+- Devono fare self-host delle analytics (no Google Analytics, Adobe Analytics, ecc.). Il sito del fornitore deve inoltre rispettare il [No not track (DNT)](https://it.wikipedia.org/wiki/Do_Not_Track) per chi desidera rinunciare.
 
 Non deve avere alcun marketing ritenuto irresponsabile:
 
 - Dichiarazioni di "crittografia infrangibile". La crittografia deve essere utilizzata con l'intenzione che nel futuro esisterà la tecnologia per decifrarla.
 - Garantire al 100% la protezione dell'anonimato. Quando qualcuno afferma che qualcosa è al 100% significa che non esiste fallimento. Sappiamo che le persone possono deanonimizzarsi facilmente in vari modi, ad es.:
 
-- Reusing personal information e.g. (email accounts, unique pseudonyms, etc.) that they accessed without anonymity software (Tor, VPN, etc.)
+- Riutilizzo di informazioni personali (come account, pseudonimi unici, ecc.) a cui hanno avuto accesso senza software di anonimizzazione (Tor, VPN, ecc.)
 - [Browser fingerprinting](https://en.wikipedia.org/wiki/Device_fingerprint#Browser_fingerprint)
 
 **Caso migliore:**

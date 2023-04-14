@@ -249,25 +249,25 @@ description: توفِّر الجهات المذكورة مخزنًا آمنًا 
 
 #### :material-check:{ .pg-green } أمن البيانات
 
-Tutanota has [zero access encryption at rest](https://tutanota.com/faq#what-encrypted) for your emails, [address book contacts](https://tutanota.com/faq#encrypted-address-book), and [calendars](https://tutanota.com/faq#calendar). This means the messages and other data stored in your account are only readable by you.
+تدعم توتنوتا [التعمية دون وصول](https://tutanota.com/faq#what-encrypted) للرسائل [ودفتر العنواين](https://tutanota.com/faq#encrypted-address-book) [والتقويمات](https://tutanota.com/faq#calendar). ويعني هذا أن الرسائل والبيانات المخزَّنة في حسابك لا يقرؤها إلا أنت.
 
 #### :material-information-outline:{ .pg-blue } Email Encryption
 
-Tutanota [does not use OpenPGP](https://www.tutanota.com/faq/#pgp). Tutanota accounts can only receive encrypted emails from non-Tutanota email accounts when sent via a [temporary Tutanota mailbox](https://www.tutanota.com/howto/#encrypted-email-external).
+[لا تستعمل توتنوتا أوبن‌بي‌جي‌بي](https://www.tutanota.com/faq/#pgp). تستقبل حسابات توتنوتا الرسائل المعمَّاة من غير حسابات توتنوتا إن أرسلوا من [صندوق بريد توتنوتا مؤقَّت](https://www.tutanota.com/howto/#encrypted-email-external).
 
 #### :material-information-outline:{ .pg-blue } إنهاء الحسابات
 
-Tutanota will [delete inactive free accounts](https://tutanota.com/faq#inactive-accounts) after six months. You can reuse a deactivated free account if you pay.
+تحذف توتنوتا [الحسابات الخاملة](https://tutanota.com/faq#inactive-accounts) بعد ستِّ أشهر. ولك إعادة استخدام حساب ألغي تفعليه إن دفعت.
 
-#### :material-information-outline:{ .pg-blue } Additional Functionality
+#### :material-information-outline:{ .pg-blue } وظائف إضافية
 
-Tutanota offers the business version of [Tutanota to non-profit organizations](https://tutanota.com/blog/posts/secure-email-for-non-profit) for free or with a heavy discount.
+توفِّر توتنوتا نسخة الأعمال من [خدمتهم إلى المنظمَّات غير الربحية](https://tutanota.com/blog/posts/secure-email-for-non-profit) مجَّانًا أو بتخفيض كبير.
 
-Tutanota also has a business feature called [Secure Connect](https://tutanota.com/secure-connect/). This ensures customer contact to the business uses E2EE. The feature costs €240/y.
+عند توتنوتا ميزة أعمال اسمها [الاتصال الآمن](https://tutanota.com/secure-connect/). وهي تضمن أن اتصال العميل بعمل معمًّى بين الأطراف. يكلِّف هذا ٢٤٠ يورو لكلِّ سنة.
 
-Tutanota doesn't offer a digital legacy feature.
+ليس عند توتنوتا ميزة الإرث الرقميِّ.
 
-## Email Aliasing Services
+## خدمات تكنية البُرُد الإلكترونية
 
 An email aliasing service allows you to easily generate a new email address for every website you register for. The email aliases you generate are then forwarded to an email address of your choosing, hiding both your "main" email address and the identity of your email provider. True email aliasing is better than plus addressing commonly used and supported by many providers, which allows you to create aliases like yourname+[anythinghere]@example.com, because websites, advertisers, and tracking networks can trivially remove anything after the + sign to know your true email address.
 

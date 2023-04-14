@@ -6,7 +6,7 @@ schema:
   - 
     "@context": http://schema.org
     "@type": WebPage
-    name: Private Mobile Browser Recommendations
+    name: Aanbevelingen voor privé mobiele browsers
     url: "./"
     relatedLink: "../desktop-browsers/"
   - 

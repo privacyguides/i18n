@@ -3,13 +3,13 @@ title: Supportaci
 ---
 
 <!-- markdownlint-disable MD036 -->
-Sono necessari molte [persone](https://github.com/privacyguides/privacyguides.org/graphs/contributors) e [lavoro](https://github.com/privacyguides/privacyguides.org/pulse/monthly) per mantenere Privacy Guides aggiornato e diffondere il verbo sulla privacy e la sorveglianza di massa. If you like what we do, consider getting involved by [editing the site](https://github.com/privacyguides/privacyguides.org) or [contributing translations](https://crowdin.com/project/privacyguides).
+Sono necessari molte [persone](https://github.com/privacyguides/privacyguides.org/graphs/contributors) e [lavoro](https://github.com/privacyguides/privacyguides.org/pulse/monthly) per mantenere Privacy Guides aggiornato e diffondere il verbo sulla privacy e la sorveglianza di massa. Se ti piace ciò che facciamo, considera prestarci aiuto [modificando il sito](https://github.com/privacyguides/privacyguides.org) o [contribuendo alle traduzioni](https://crowdin.com/project/privacyguides).
 
 Se ci vuoi supportare economicamente, il metodo per noi più conveniente è attraverso Open Collective, un sito operato dal nostro host fiscale. Open Collective accetta pagamenti via carta di credito/debito, PayPal e bonifici.
 
-[Donate on OpenCollective.com](https://opencollective.com/privacyguides/donate){ class="md-button md-button--primary" }
+[Dona su OpenCollective.com](https://opencollective.com/privacyguides/donate){ class="md-button md-button--primary" }
 
-Donations made directly to us on Open Collective are generally tax-deductible in the US, because our fiscal host (the Open Collective Foundation) is a registered 501(c)3 organization. In seguito alla tua donazione, riceverai una ricevuta dalla Open Collective Foundation. Privacy Guides non fornisce consulenza finanziaria e suggeriamo di contattare il proprio consulente finanziario per sapere se ciò è applicabile al proprio caso.
+Le donazioni fatte direttamente a noi su Open Collective sono generalmente deducibili dalle tasse negli Stati Uniti, poiché il nostro ospite fiscale (la Open Collective Foundation) è un'organizzazione registrata 501(c)3. In seguito alla tua donazione, riceverai una ricevuta dalla Open Collective Foundation. Privacy Guides non fornisce consulenza finanziaria e suggeriamo di contattare il proprio consulente finanziario per sapere se ciò è applicabile al proprio caso.
 
 È possibile sponsorizzare la nostra organizzazione anche mediante le sponsorizzazioni di Github.
 

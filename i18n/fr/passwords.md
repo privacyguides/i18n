@@ -6,7 +6,7 @@ schema:
   - 
     "@context": http://schema.org
     "@type": WebPage
-    name: Password Manager Recommendations
+    name: Recommandations de gestionnaires de mots de passe
     url: "./"
   - 
     "@context": http://schema.org
@@ -14,7 +14,7 @@ schema:
     name: Bitwarden
     image: /assets/img/password-management/bitwarden.svg
     url: https://bitwarden.com
-    sameAs: https://en.wikipedia.org/wiki/Bitwarden
+    sameAs: https://fr.wikipedia.org/wiki/Bitwarden
     applicationCategory: Gestionnaire de mots de passe
     operatingSystem:
       - Windows
@@ -32,7 +32,7 @@ schema:
     name: 1Password
     image: /assets/img/password-management/1password.svg
     url: https://1password.com
-    sameAs: https://en.wikipedia.org/wiki/1Password
+    sameAs: https://fr.wikipedia.org/wiki/1Password
     applicationCategory: Gestionnaire de mots de passe
     operatingSystem:
       - Windows
@@ -64,7 +64,7 @@ schema:
     name: KeePassXC
     image: /assets/img/password-management/keepassxc.svg
     url: https://keepassxc.org/
-    sameAs: https://en.wikipedia.org/wiki/KeePassXC
+    sameAs: https://fr.wikipedia.org/wiki/KeePassXC
     applicationCategory: Gestionnaire de mots de passe
     operatingSystem:
       - Windows

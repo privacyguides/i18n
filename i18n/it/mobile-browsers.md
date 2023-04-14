@@ -6,7 +6,7 @@ schema:
   - 
     "@context": http://schema.org
     "@type": WebPage
-    name: Private Mobile Browser Recommendations
+    name: Consigli sui browser privati per cellulare
     url: "./"
     relatedLink: "../desktop-browsers/"
   - 
@@ -83,16 +83,16 @@ Le funzionalità di Shields possono essere ridotte per ogni sito se necessario; 
 ???? warning "Usa gli elenchi di filtri predefiniti"
         Brave ti consente di selezionare ulteriori filtri di contenuti mediante la pagina interna `brave://adblock`. Si consiglia di non utilizzare questa funzione e di mantenere gli elenchi di filtri predefiniti. il loro utilizzo ti distingue dagli altri utenti Brave, e potrebbe inoltre aumentare la superficie di attacco se esiste un exploit nel browser sfruttabile da codice malizioso presente nelle liste stesse.
 
-- [x] Select **Upgrade connections to HTTPS**
-- [x] Select **Always use secure connections**
-- [x] (Optional) Select **Block Scripts** (1)
-- [x] Select **Strict, may break sites** under **Block fingerprinting**
+- [x] Seleziona **Aggiorna le connessioni a HTTPS**
+- [x] Seleziona **Utilizza sempre connessioni sicure**
+- [x] (Facoltativo) Seleziona **Blocco degli script** (1)
+- [x] Seleziona **Rigido, potrebbe non far funzionare alcuni siti** in **Blocca il fingerprinting**
 
 </div>
 
-1. This option provides functionality similar to uBlock Origin's advanced [blocking modes](https://github.com/gorhill/uBlock/wiki/Blocking-mode) or the [NoScript](https://noscript.net/) extension.
+1. Questa opzione fornisce una funzionalità simile alla [modalità avanzata di blocco](https://github.com/gorhill/uBlock/wiki/Blocking-mode)dell'estensione uBlock Origin o [NoScript](https://noscript.net/).
 
-##### Svuota dati di navigazione
+##### Cancella dati di navigazione
 
 - [x] Seleziona **Cancellare i dati all'uscita**
 
@@ -104,17 +104,17 @@ Le funzionalità di Shields possono essere ridotte per ogni sito se necessario; 
 
 <div class="annotate" markdown>
 
-- [x] Select **Disable non-proxied UDP** under [WebRTC IP Handling Policy](https://support.brave.com/hc/en-us/articles/360017989132-How-do-I-change-my-Privacy-Settings-#webrtc)
-- [ ] Uncheck **Allow sites to check if you have payment methods saved**
-- [ ] Uncheck **IPFS Gateway** (1)
-- [x] Select **Close tabs on exit**
-- [ ] Uncheck **Allow privacy-preserving product analytics (P3A)**
-- [ ] Uncheck **Automatically send diagnostic reports**
-- [ ] Uncheck **Automatically send daily usage ping to Brave**
+- [x] Seleziona **Disabilita UDP senza proxy** in [Gestione politica IP WebRTC IP](https://support.brave.com/hc/en-us/articles/360017989132-How-do-I-change-my-Privacy-Settings-#webrtc)
+- [ ] Deseleziona **Consenti ai siti di controllare se hai metodi di pagamento salvati**
+- [ ] Deseleziona **IPFS Gateway** (1)
+- [x] Seleziona **Chiudi le schede all'uscita**
+- [ ] Deseleziona **Consenti analisi del prodotto rispettose della privacy (P3A)**
+- [ ] Deseleziona **Invia automaticamente i rapporti di diagnostica** 
+- [ ] Deseleziona **Invia automaticamente ping di utilizzo quotidiano a Brave**
 
 </div>
 
-1. InterPlanetary File System (IPFS) is a decentralized, peer-to-peer network for storing and sharing data in a distributed filesystem. Unless you use the feature, disable it.
+1. L'InterPlanetary File System (IPFS) è una rete peer-to-peer e decentralizzata, utilizzata per archiviare e condividere dati in un filesystem distribuito. A meno che tu non utilizzi questa feature, disabilitala.
 
 #### Brave Sync
 

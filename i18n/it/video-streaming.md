@@ -1,12 +1,12 @@
 ---
 title: "Streaming video"
 icon: material/video-wireless
-description: Queste reti ti consentono lo streaming di contenuti internet senza creare un profilo pubblicitario basato sui propri interessi.
+description: Queste reti consentono lo streaming di contenuti da Internet senza creare un profilo pubblicitario basato sui propri interessi.
 ---
 
 Il rischio principale quando si usa una piattaforma di streaming video è che le tue abitudini e iscrizioni possano essere usate per profilarti. Suggeriamo di utilizzare questi strumenti accompagnati da un [VPN](vpn.md) o [Tor](https://www.torproject.org/) in modo da rendere più difficile la profilazione.
 
-## Client
+## LBRY
 
 !!! recommendation
 
@@ -21,17 +21,17 @@ Il rischio principale quando si usa una piattaforma di streaming video è che le
     [:octicons-info-16:](https://lbry.com/faq){ .card-link title=Documentazione}
     [:octicons-code-16:](https://github.com/lbryio/lbry-desktop){ .card-link title="Codice sorgente" }
     
-    ??? downloads
+    ??? downloads "Download"
     
         - [:simple-windows11: Windows](https://lbry.com/windows)
         - [:simple-apple: macOS](https://lbry.com/osx)
         - [:simple-linux: Linux](https://lbry.com/linux)
 
-!!! note
+!!! note "Nota"
 
     Si raccomanda solo il **client desktop LBRY**, poiché il sito web [Odysee](https://odysee.com) e i client LBRY in F-Droid, Play Store e App Store hanno la sincronizzazione e la telemetria obbligatorie.
 
-!!! warning
+!!! warning "Attenzione"
 
     Durante la visione e l'hosting dei video, il tuo indirizzo IP è visibile alla rete LBRY. Considera l'uso di [VPN](vpn.md) o [Tor](https://www.torproject.org) se il [modello di minaccia](basics/threat-modeling.md) richiede di nascondere l'indirizzo IP.
 
@@ -41,11 +41,11 @@ Raccomandiamo di **non sincronizzare** il portafoglio con LBRY Inc. poiché la s
 
 ## Criteri
 
-**Si noti che non siamo affiliati a nessuno dei progetti che raccomandiamo.** Oltre ai [ nostri criteri standard](about/criteria.md), abbiamo sviluppato una serie di requisiti chiari che ci consentono di fornire raccomandazioni obiettive. Ti consigliamo di familiarizzare con questo elenco prima di scegliere di utilizzare un progetto e di condurre le vostre ricerche per assicurarvi che sia la scelta giusta per voi.
+**Si noti che non siamo affiliati a nessuno dei progetti che raccomandiamo.** Oltre ai [ nostri criteri standard](about/criteria.md), abbiamo sviluppato una serie di requisiti chiari che ci consentono di fornire raccomandazioni obiettive. Ti consigliamo di familiarizzare con questo elenco prima di scegliere di utilizzare un progetto e di condurre le tue ricerche per assicurarti che sia la scelta giusta per te.
 
 !!! esempio "Questa sezione è nuova"
 
-    Stiamo lavorando per stabilire criteri ben definiti per ogni sezione del nostro sito, e questo potrebbe essere soggetto a modifiche. Se avete domande sui nostri criteri, vi preghiamo di [chiedere sul nostro forum](https://discuss.privacyguides.net/latest) e non date per scontato che non abbiamo preso in considerazione qualcosa nel formulare le nostre raccomandazioni se non è elencato qui. Sono molti i fattori presi in considerazione e discussi quando consigliamo un progetto, e stiamo lavorando per documentare ogni singolo fattore.
+    Stiamo lavorando per stabilire criteri ben definiti per ogni sezione del nostro sito, e questo potrebbe essere soggetto a modifiche. Se hai domande sui nostri criteri, ti preghiamo di [chiedere sul nostro forum](https://discuss.privacyguides.net/latest) e non dare per scontato che non abbiamo preso in considerazione qualcosa nel formulare le nostre raccomandazioni se non è elencato qui. Sono molti i fattori presi in considerazione e discussi quando consigliamo un progetto, e stiamo lavorando per documentare ogni singolo fattore.
 
 - Non deve richiedere un account centralizzato per visualizzare i video.
     - L'autenticazione decentralizzata, ad esempio tramite la chiave privata di un wallet mobile, è accettabile.

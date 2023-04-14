@@ -1,41 +1,41 @@
 ---
 title: Sicurezza Email
 icon: material/email
-description: Email is inherently insecure in many ways, and these are some of the reasons it isn't our top choice for secure communications.
+description: La posta elettronica è intrinsecamente insicura sotto molti punti di vista e questi sono alcuni dei motivi per cui non è la nostra scelta principale per le comunicazioni sicure.
 ---
 
-Email is an insecure form of communication by default. You can improve your email security with tools such as OpenPGP, which add End-to-End Encryption to your messages, but OpenPGP still has a number of drawbacks compared to encryption in other messaging applications, and some email data can never be encrypted inherently due to how email is designed.
+L'e-mail è una forma di comunicazione insicura per impostazione predefinita. È possibile migliorare la sicurezza delle e-mail con strumenti come OpenPGP, che aggiungono la crittografia end-to-end ai messaggi, ma OpenPGP presenta ancora una serie di svantaggi rispetto alla crittografia di altre applicazioni di messaggistica e alcuni dati delle e-mail non possono mai essere crittografati intrinsecamente a causa del modo in cui le e-mail sono progettate.
 
-As a result, email is best used for receiving transactional emails (like notifications, verification emails, password resets, etc.) from the services you sign up for online, not for communicating with others.
+Di conseguenza, l'e-mail è utilizzata al meglio per ricevere e-mail transazionali (come notifiche, e-mail di verifica, reimpostazione della password e così via) dai servizi a cui ci si iscrive online, non per comunicare con gli altri.
 
-## Email Encryption Overview
+## Panoramica sulla crittografia delle e-mail
 
-The standard way to add E2EE to emails between different email providers is by using OpenPGP. There are different implementations of the OpenPGP standard, the most common being [GnuPG](https://en.wikipedia.org/wiki/GNU_Privacy_Guard) and [OpenPGP.js](https://openpgpjs.org).
+Il modo standard per aggiungere l'E2EE alle e-mail tra diversi provider di posta elettronica è l'utilizzo di OpenPGP. Esistono diverse implementazioni dello standard OpenPGP, le più comuni sono [GnuPG](https://en.wikipedia.org/wiki/GNU_Privacy_Guard) e [OpenPGP.js](https://openpgpjs.org).
 
-There is another standard which is popular with business called [S/MIME](https://en.wikipedia.org/wiki/S/MIME), however, it requires a certificate issued from a [Certificate Authority](https://en.wikipedia.org/wiki/Certificate_authority) (not all of them issue S/MIME certificates). It has support in [Google Workplace](https://support.google.com/a/topic/9061730?hl=en&ref_topic=9061731) and [Outlook for Web or Exchange Server 2016, 2019](https://support.office.com/en-us/article/encrypt-messages-by-using-s-mime-in-outlook-on-the-web-878c79fc-7088-4b39-966f-14512658f480).
+Esiste un altro standard, molto diffuso nelle aziende, chiamato [S/MIME](https://en.wikipedia.org/wiki/S/MIME), che però richiede un certificato emesso da un'autorità di certificazione [](https://en.wikipedia.org/wiki/Certificate_authority) (non tutte emettono certificati S/MIME). È supportato da [Google Workplace](https://support.google.com/a/topic/9061730?hl=en&ref_topic=9061731) e [Outlook for Web o Exchange Server 2016, 2019](https://support.office.com/en-us/article/encrypt-messages-by-using-s-mime-in-outlook-on-the-web-878c79fc-7088-4b39-966f-14512658f480).
 
-Even if you use OpenPGP, it does not support [forward secrecy](https://en.wikipedia.org/wiki/Forward_secrecy), which means if either your or the recipient's private key is ever stolen, all previous messages encrypted with it will be exposed. This is why we recommend [instant messengers](../real-time-communication.md) which implement forward secrecy over email for person-to-person communications whenever possible.
+Anche se si utilizza OpenPGP, non supporta [forward secrecy](https://en.wikipedia.org/wiki/Forward_secrecy), il che significa che se la chiave privata dell'utente o del destinatario viene rubata, tutti i messaggi precedenti crittografati con essa saranno esposti. Per questo motivo si consiglia di utilizzare la [messaggistica istantanea](../real-time-communication.md) che implementano la segretezza in avanti rispetto alla posta elettronica per le comunicazioni da persona a persona, quando possibile.
 
-### What Email Clients Support E2EE?
+### Quali client di posta elettronica supportano E2EE?
 
-Email providers which allow you to use standard access protocols like IMAP and SMTP can be used with any of the [email clients we recommend](../email-clients.md). Depending on the authentication method, this may lead to the decrease security if either the provider or the email client does not support OATH or a bridge application as [multi-factor authentication](multi-factor-authentication.md) is not possible with plain password authentication.
+I provider di posta elettronica che consentono di utilizzare protocolli di accesso standard come IMAP e SMTP possono essere utilizzati con uno qualsiasi dei client di posta elettronica [che consigliamo](../email-clients.md). A seconda del metodo di autenticazione, ciò può comportare una riduzione della sicurezza se il provider o il client di posta elettronica non supportano OATH o un'applicazione ponte, poiché [l'autenticazione a più fattori](multi-factor-authentication.md) non è possibile con l'autenticazione con password semplice.
 
-### How Do I Protect My Private Keys?
+### Come proteggo la mia chiave privata?
 
-A smartcard (such as a [Yubikey](https://support.yubico.com/hc/en-us/articles/360013790259-Using-Your-YubiKey-with-OpenPGP) or [Nitrokey](https://www.nitrokey.com)) works by receiving an encrypted email message from a device (phone, tablet, computer, etc.) running an email/webmail client. The message is then decrypted by the smartcard and the decrypted content is sent back to the device.
+Una smartcard (come [Yubikey](https://support.yubico.com/hc/en-us/articles/360013790259-Using-Your-YubiKey-with-OpenPGP) o [Nitrokey](https://www.nitrokey.com)) funziona ricevendo un messaggio e-mail crittografato da un dispositivo (telefono, tablet, computer, ecc.) con un client e-mail/webmail. Il messaggio viene quindi decifrato dalla smartcard e il contenuto decifrato viene inviato al dispositivo.
 
-It is advantageous for the decryption to occur on the smartcard so as to avoid possibly exposing your private key to a compromised device.
+È preferibile che la decodifica avvenga sulla smartcard, per evitare di esporre la chiave privata a un dispositivo compromesso.
 
-## Email Metadata Overview
+## Panoramica sui metadati e-mail
 
-Email metadata is stored in the [message header](https://en.wikipedia.org/wiki/Email#Message_header) of the email message and includes some visible headers that you may have seen such as: `To`, `From`, `Cc`, `Date`, `Subject`. There are also a number of hidden headers included by many email clients and providers that can reveal information about your account.
+I metadati delle e-mail sono memorizzati [nell'header del messaggio](https://en.wikipedia.org/wiki/Email#Message_header) e comprendono alcune intestazioni visibili, come ad esempio: `A`, `Da`, `Cc`, `Data`, `Oggetto`. Ci sono anche una serie di intestazioni nascoste incluse da molti client e provider di posta elettronica che possono rivelare informazioni sul tuo account.
 
-Client software may use email metadata to show who a message is from and what time it was received. Servers may use it to determine where an email message must be sent, among [other purposes](https://en.wikipedia.org/wiki/Email#Message_header) which are not always transparent.
+Il software client può utilizzare i metadati delle e-mail per indicare il mittente di un messaggio e l'ora in cui è stato ricevuto. I server possono utilizzarlo per determinare dove deve essere inviato un messaggio e-mail, tra [altri scopi](https://en.wikipedia.org/wiki/Email#Message_header) non sempre trasparenti.
 
 ### Chi può visualizzare i metadati delle email?
 
-Email metadata is protected from outside observers with [Opportunistic TLS](https://en.wikipedia.org/wiki/Opportunistic_TLS) protecting it from outside observers, but it is still able to be seen by your email client software (or webmail) and any servers relaying the message from you to any recipients including your email provider. Sometimes email servers will also use third-party services to protect against spam, which generally also have access to your messages.
+I metadati delle e-mail sono protetti da osservatori esterni con [Opportunistic TLS](https://en.wikipedia.org/wiki/Opportunistic_TLS), ma sono comunque visibili dal software del client di posta elettronica (o webmail) e da qualsiasi server che inoltra il messaggio dall'utente a qualsiasi destinatario, compreso il provider di posta elettronica. A volte i server di posta elettronica utilizzano anche servizi di terze parti per proteggersi dallo spam, che in genere hanno accesso ai messaggi.
 
-### Perché i metadati non possono essere E2EE?
+### Perché i metadati non possono essere cifrati E2EE?
 
-Email metadata is crucial to the most basic functionality of email (where it came from, and where it has to go). E2EE was not built into the email protocols originally, instead requiring add-on software like OpenPGP. Because OpenPGP messages still have to work with traditional email providers, it cannot encrypt email metadata, only the message body itself. That means that even when using OpenPGP, outside observers can see lots of information about your messages, such as who you're emailing, the subject lines, when you're emailing, etc.
+I metadati delle e-mail sono fondamentali per la funzionalità di base delle e-mail (da dove provengono e dove devono andare). Originariamente l'E2EE non era integrato nei protocolli di posta elettronica, ma richiedeva un software aggiuntivo come OpenPGP. Poiché i messaggi OpenPGP devono ancora funzionare con i provider di posta elettronica tradizionali, non può crittografare i metadati delle e-mail, ma solo il corpo del messaggio stesso. Ciò significa che anche quando si utilizza OpenPGP, gli osservatori esterni possono vedere molte informazioni sui vostri messaggi, come ad esempio chi state inviando, l'oggetto, quando state inviando, ecc.
