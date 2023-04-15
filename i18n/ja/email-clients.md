@@ -1,5 +1,5 @@
 ---
-title: "Email Clients"
+title: "メールクライアント"
 icon: material/email-open
 description: These email clients are privacy-respecting and support OpenPGP email encryption.
 ---

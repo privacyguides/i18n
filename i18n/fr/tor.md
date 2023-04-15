@@ -1,7 +1,25 @@
 ---
+meta_title: "Tor Browser and Network: Anonymous Web Browsing - Privacy Guides"
 title: "Réseau Tor"
 icon: simple/torproject
 description: Protégez votre navigation sur internet des regards indiscrets en utilisant le réseau Tor, un réseau sécurisé qui contourne la censure.
+schema:
+  - 
+    "@context": http://schema.org
+    "@type": SoftwareApplication
+    name: Navigateur Tor
+    image: /assets/img/browsers/tor.svg
+    url: https://www.torproject.org
+    sameAs: https://en.wikipedia.org/wiki/Tor_(network)
+    applicationCategory: Web Browser
+    operatingSystem:
+      - Windows
+      - macOS
+      - Linux
+      - Android
+    subjectOf:
+      "@type": WebPage
+      url: "./"
 ---
 
 ![Logo Tor](assets/img/self-contained-networks/tor.svg){ align=right }

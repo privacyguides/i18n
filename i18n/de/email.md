@@ -1,23 +1,24 @@
 ---
-title: "Email Services"
+meta_title: "Encrypted Private Email Recommendations - Privacy Guides"
+title: "E-Mail Dienste"
 icon: material/email
-description: These email providers offer a great place to store your emails securely, and many offer interoperable OpenPGP encryption with other providers.
+description: Diese E-Mail-Dienstleister speichern deine E-Mails sicher und viele davon bieten auch interoperable OpenPGP-Verschlüsselung mit anderen Anbietern.
 ---
 
-E-Mail ist praktisch eine Notwendigkeit für die Nutzung aller Online-Dienste, wir empfehlen sie jedoch nicht für Gespräche von Mensch zu Mensch. Anstatt E-Mails für die Kontaktaufnahme mit anderen Personen zu verwenden, sollte ein Instant Messenger benutzt werden, der vorwärts gerichtete Geheimhaltung(forward secrecy) unterstützt.
+E-Mail ist praktisch notwendig für die Nutzung aller Online-Dienste, wir empfehlen sie jedoch nicht zur Kommunikation von Mensch zu Mensch. Anstatt E-Mails für die Kontaktaufnahme mit anderen Personen zu verwenden, sollte ein Instant Messenger benutzt werden, der vorwärts gerichtete Geheimhaltung(forward secrecy) unterstützt.
 
 [Empfohlene Instant Messenger](real-time-communication.md ""){.md-button}
 
 Für alles andere empfehlen wir eine Reihe von E-Mail-Anbietern, die auf nachhaltigen Geschäftsmodellen basieren und integrierten Sicherheits- und Datenschutzfunktionen bieten.
 
-- [OpenPGP-Compatible Email Providers :material-arrow-right-drop-circle:](#openpgp-compatible-services)
-- [Other Encrypted Providers :material-arrow-right-drop-circle:](#more-providers)
+- [OpenPGP-kompatible E-Mail-Anbieter :material-arrow-right-drop-circle:](#openpgp-compatible-services)
+- [Andere verschlüsselte Anbieter :material-arrow-right-drop-circle:](#more-providers)
 - [Email Aliasing Services :material-arrow-right-drop-circle:](#email-aliasing-services)
-- [Self-Hosted Options :material-arrow-right-drop-circle:](#self-hosting-email)
+- [Selbstbetreibbare Optionen :material-arrow-right-drop-circle:](#self-hosting-email)
 
 ## OpenPGP-kompatible Dienste
 
-These providers natively support OpenPGP encryption/decryption and the Web Key Directory (WKD) standard, allowing for provider-agnostic E2EE emails. Zum Beispiel können Proton Mail-Benutzende eine E2EE-Nachricht an Mailbox.org-Benutzende senden, oder sie können OpenPGP-verschlüsselte Benachrichtigungen von Internetdiensten erhalten, die dies unterstützen.
+Diese Anbieter unterstützen von Haus aus die OpenPGP-Verschlüsselung/Entschlüsselung und den Web Key Directory (WKD)-Standard, so dass anbieterunabhängige E2E-verschlüsselte E-Mails möglich sind. Zum Beispiel können Proton Mail-Benutzende eine E2EE-Nachricht an Mailbox.org-Benutzende senden oder sie können OpenPGP-verschlüsselte Benachrichtigungen von Internetdiensten erhalten, die dies unterstützen.
 
 <div class="grid cards" markdown>
 
@@ -56,7 +57,7 @@ These providers natively support OpenPGP encryption/decryption and the Web Key D
         - [:simple-linux: Linux](https://proton.me/mail/bridge#download)
         - [:octicons-browser-16: Web](https://mail.proton.me)
 
-Kostenlose Konten haben einige Einschränkungen, wie z. B. die fehlende Möglichkeit, Text zu durchsuchen, und keinen Zugang zu [Proton Mail Bridge](https://proton.me/mail/bridge), die für die Verwendung eines [empfohlenen Desktop-E-Mail-Programms](email-clients.md) (z. B. Thunderbird) erforderlich ist. Bezahlte Konten umfassen Funktionen wie Proton Mail Bridge, zusätzlichen Speicher und das Verwenden eigener Domains. A [letter of attestation](https://proton.me/blog/security-audit-all-proton-apps) was provided for Proton Mail's apps on 9th November 2021 by [Securitum](https://research.securitum.com).
+Kostenlose Konten haben einige Einschränkungen, wie z. B. die fehlende Möglichkeit, Text zu durchsuchen, und keinen Zugang zu [Proton Mail Bridge](https://proton.me/mail/bridge), die für die Verwendung eines [empfohlenen Desktop-E-Mail-Programms](email-clients.md) (z. B. Thunderbird) erforderlich ist. Bezahlte Konten umfassen Funktionen wie Proton Mail Bridge, zusätzlichen Speicher und das Verwenden eigener Domains. Am 9. November 2021 wurden durch [Securitum](https://research.securitum.com) ein Sicherheitsaudit durchgeführt und  die Anwendungen von Proton Mail [zertifiziert](https://proton.me/blog/security-audit-all-proton-apps).
 
 If you have the Proton Unlimited, Business, or Visionary Plan, you also get [SimpleLogin](#simplelogin) Premium for free.
 
@@ -123,7 +124,7 @@ Mailbox.org doesn't accept any cryptocurrencies as a result of their payment pro
 
 #### :material-check:{ .pg-green } Account Security
 
-Mailbox.org supports [two factor authentication](https://kb.mailbox.org/display/MBOKBEN/How+to+use+two-factor+authentication+-+2FA) for their webmail only. You can use either TOTP or a [Yubikey](https://en.wikipedia.org/wiki/YubiKey) via the [Yubicloud](https://www.yubico.com/products/services-software/yubicloud). Web standards such as [WebAuthn](https://en.wikipedia.org/wiki/WebAuthn) are not yet supported.
+Mailbox.org supports [two factor authentication](https://kb.mailbox.org/display/MBOKBEN/How+to+use+two-factor+authentication+-+2FA) for their webmail only. You can use either TOTP or a [YubiKey](https://en.wikipedia.org/wiki/YubiKey) via the [YubiCloud](https://www.yubico.com/products/services-software/yubicloud). Web standards such as [WebAuthn](https://en.wikipedia.org/wiki/WebAuthn) are not yet supported.
 
 #### :material-information-outline:{ .pg-blue } Data Security
 

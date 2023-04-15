@@ -1,5 +1,5 @@
 ---
-title: Financial Services
+title: 金融サービス
 icon: material/bank
 ---
 

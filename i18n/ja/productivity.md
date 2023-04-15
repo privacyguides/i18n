@@ -1,5 +1,5 @@
 ---
-title: "Productivity Tools"
+title: "生産性向上ツール"
 icon: material/file-sign
 description: Most online office suites do not support E2EE, meaning the cloud provider has access to everything you do.
 ---

@@ -1,5 +1,5 @@
 ---
-title: "File Sharing and Sync"
+title: "ファイル共有と同期"
 icon: material/share-variant
 description: Discover how to privately share your files between your devices, with your friends and family, or anonymously online.
 ---

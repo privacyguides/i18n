@@ -1,4 +1,5 @@
 ---
+meta_title: "The Best Private and Secure Cloud Storage Providers - Privacy Guides"
 title: "클라우드 스토리지"
 icon: material/file-cloud
 description: 대부분의 클라우드 스토리지 제공 업체는, 업체가 사용자의 파일을 보지 않을 것이라는 믿음이 필수적입니다. 프라이버시 보호 대체제를 소개합니다!
@@ -80,7 +81,7 @@ Tresorit은 독립적인 보안 감사를 여러 차례 받았습니다.
 
 - 종단 간 암호화가 적용되어야 합니다.
 - 테스트용 무료 요금제/체험판 기간을 제공해야 합니다.
-- TOTP/FIDO2 다중 요소 인증 혹은 Passkey 로그인을 지원해야 합니다.
+- TOTP/FIDO2 다중 인증 혹은 Passkey 로그인을 지원해야 합니다.
 - 기본적인 파일 관리 기능을 지원하는 웹 인터페이스를 제공해야 합니다.
 - 모든 파일/문서를 쉽게 내보낼 수 있어야 합니다.
 - 감사받은 표준 암호화를 사용해야 합니다.

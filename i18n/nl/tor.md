@@ -1,7 +1,25 @@
 ---
+meta_title: "Tor Browser and Network: Anonymous Web Browsing - Privacy Guides"
 title: "Tor Netwerk"
 icon: simple/torproject
 description: Bescherm je surf gedrag tegen pottenkijkers door gebruik te maken van het Tor netwerk, een beveiligd netwerk dat censuur omzeilt.
+schema:
+  - 
+    "@context": http://schema.org
+    "@type": SoftwareApplication
+    name: Tor Browser
+    image: /assets/img/browsers/tor.svg
+    url: https://www.torproject.org
+    sameAs: https://en.wikipedia.org/wiki/Tor_(network)
+    applicationCategory: Web Browser
+    operatingSystem:
+      - Windows
+      - macOS
+      - Linux
+      - Android
+    subjectOf:
+      "@type": WebPage
+      url: "./"
 ---
 
 ![Tor logo](assets/img/self-contained-networks/tor.svg){ align=right }

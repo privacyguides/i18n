@@ -1,4 +1,5 @@
 ---
+meta_title: "Private VPN Service Recommendations and Comparison, No Sponsors or Ads - Privacy Guides"
 title: "VPN сервисы"
 icon: material/vpn
 description: Это лучшие VPN-сервисы для защиты вашей конфиденциальности и безопасности в Интернете. Найдите провайдера, который не будет шпионить за вами.

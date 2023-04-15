@@ -1,19 +1,19 @@
 ---
-title: "Common Threats"
+title: "Häufige Bedrohungen"
 icon: 'material/eye-outline'
-description: Your threat model is personal to you, but these are some of the things many visitors to this site care about.
+description: Deine persönliche Bedrohungsanalyse kannst du nur selber durchführen. Vielen Besuchern dieser Webseite sind aber folgende Dinge wichtig.
 ---
 
-Broadly speaking, we categorize our recommendations into the [threats](threat-modeling.md) or goals that apply to most people. ==You may be concerned with none, one, a few, or all of these possibilities==, and the tools and services you use depend on what your goals are. You may have specific threats outside of these categories as well, which is perfectly fine! The important part is developing an understanding of the benefits and shortcomings of the tools you choose to use, because virtually none of them will protect you from every threat.
+Wir ordnen unsere Empfehlungen nach [Bedrohungen](threat-modeling.md) beziehungsweise Zielen, die für die meisten Menschen gelten. ==Dich können keine, eine, einige oder alle dieser Themen betreffen==, und du solltest die von dir eingesetzten Werkzeuge und Dienste von deinen Zielen abhängig machen. Du kannst auch spezifische Bedrohungen außerhalb dieser Kategorien haben, das ist völlig in Ordnung! Wichtig ist, dass du die Vorteile und Schwächen der von dir gewählten Werkzeuge kennst, denn praktisch keines davon schützt dich vor jeder Bedrohung.
 
-- <span class="pg-purple">:material-incognito: Anonymity</span> - Shielding your online activity from your real identity, protecting you from people who are trying to uncover *your* identity specifically.
-- <span class="pg-red">:material-target-account: Targeted Attacks</span> - Being protected from hackers or other malicious actors who are trying to gain access to *your* data or devices specifically.
-- <span class="pg-orange">:material-bug-outline: Passive Attacks</span> - Being protected from things like malware, data breaches, and other attacks that are made against many people at once.
-- <span class="pg-teal">:material-server-network: Service Providers</span> - Protecting your data from service providers (e.g. with E2EE, which renders your data unreadable to the server).
-- <span class="pg-blue">:material-eye-outline: Mass Surveillance</span> - Protection from government agencies, organizations, websites, and services which work together to track your activities.
-- <span class="pg-brown">:material-account-cash: Surveillance Capitalism</span> - Protecting yourself from big advertising networks, like Google and Facebook, as well as a myriad of other third-party data collectors.
-- <span class="pg-green">:material-account-search: Public Exposure</span> - Limiting the information about you that is accessible online—to search engines or the general public.
-- <span class="pg-blue-gray">:material-close-outline: Censorship</span> - Avoiding censored access to information or being censored yourself when speaking online.
+- <span class="pg-purple">:material-incognito: Anonymität</span> - Trennen deiner Online-Aktivitäten von deiner realen Identität, um dich vor Personen zu schützen, die gezielt versuchen *deine* Identität aufzudecken.
+- <span class="pg-red">:material-target-account: Gezielte Angriffe</span> - Schutz vor Hackern oder anderen böswilligen Akteuren, die versuchen, sich Zugang zu *deinen* Daten oder Geräten zu verschaffen.
+- <span class="pg-orange">:material-bug-outline: Passive Angriffe</span> - Schutz vor Malware, Datenleaks und anderen Angriffen, die sich gegen viele Menschen gleichzeitig richten.
+- <span class="pg-teal">:material-server-network: Diensteanbieter</span> - Schutz deiner Daten vor Dienstleistern (z.B. mit E2EE, welche deine Daten für den Server unlesbar macht).
+- <span class="pg-blue">:material-eye-outline: Massenüberwachung</span> - Schutz vor Regierungsbehörden, Organisationen, Webseiten und Diensten, die zusammenarbeiten, um deine Aktivitäten zu verfolgen.
+- <span class="pg-brown">:material-account-cash: Überwachungskapitalismus</span> - Schütz dich vor großen Werbenetzwerken wie Google und Facebook sowie vor einer Vielzahl anderer Datensammler.
+- <span class="pg-green">:material-account-search: Öffentliche Bloßstellung</span> - Begrenzung der Informationen über dich online—für Suchmaschinen oder die allgemeine Öffentlichkeit.
+- <span class="pg-blue-gray">:material-close-outline: Zensur</span> - Umgehen von beschränktem Zugang zu Informationen oder vermeiden selbst zensiert zu werden.
 
 Some of these threats may be more important to you than others, depending on your specific concerns. For example, a software developer with access to valuable or critical data may be primarily concerned with <span class="pg-red">:material-target-account: Targeted Attacks</span>, but they probably still want to protect their personal data from being swept up in <span class="pg-blue">:material-eye-outline: Mass Surveillance</span> programs. Similarly, many people may be primarily concerned with <span class="pg-green">:material-account-search: Public Exposure</span> of their personal data, but they should still be wary of security-focused issues, such as <span class="pg-orange">:material-bug-outline: Passive Attacks</span>—like malware affecting their devices.
 

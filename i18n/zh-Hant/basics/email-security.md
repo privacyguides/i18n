@@ -1,4 +1,5 @@
 ---
+meta_title: "Why Email Isn't the Best Choice for Privacy and Security - Privacy Guides"
 title: 電子郵件安全
 icon: material/email
 description: 從許多方面來看電子郵件本質上是不安全的，這也是它並非安全通信首選的原因。
@@ -22,7 +23,7 @@ description: 從許多方面來看電子郵件本質上是不安全的，這也�
 
 ### 我要怎樣保護自己的私密鑰匙？
 
-智慧鑰卡（例如 [Yubikey](https://support.yubico.com/hc/en-us/articles/360013790259-Using-Your-YubiKey-with-OpenPGP) 或 [Nitrokey](https://www.nitrokey.com)）的工作原理是從執行電子郵件/網絡郵件用戶端的設備（手機，平板電腦，電腦等）接收加密的電子郵件消息。 安全鑰卡會解密該訊息再把解開的內容傳到設備。
+A smartcard (such as a [YubiKey](https://support.yubico.com/hc/en-us/articles/360013790259-Using-Your-YubiKey-with-OpenPGP) or [Nitrokey](https://www.nitrokey.com)) works by receiving an encrypted email message from a device (phone, tablet, computer, etc.) running an email/webmail client. 安全鑰卡會解密該訊息再把解開的內容傳到設備。
 
 在智能卡上進行解密是有利的，以避免可能將您的私鑰暴露在受損的設備上。
 

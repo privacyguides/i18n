@@ -1,4 +1,5 @@
 ---
+meta_title: "Android Recommendations: GrapheneOS and DivestOS - Privacy Guides"
 title: "Android"
 icon: 'simple/android'
 description: Vous pouvez remplacer le système d'exploitation de votre téléphone Android par ces alternatives sécurisées et respectueuses de la vie privée.
@@ -89,8 +90,6 @@ Voici les systèmes d'exploitation, les appareils et les applications Android qu
 
 [Présentation générale d'Android :material-arrow-right-drop-circle:](os/android-overview.md ""){.md-button}
 
-[Pourquoi nous recommandons GrapheneOS plutôt que CalyxOS :material-arrow-right-drop-circle:](https://blog.privacyguides.org/2022/04/21/grapheneos-or-calyxos/ ""){.md-button}
-
 ## Dérivés de AOSP
 
 Nous vous recommandons d'installer l'un de ces systèmes d'exploitation Android personnalisés sur votre appareil, classés par ordre de préférence, en fonction de la compatibilité de votre appareil avec ces systèmes d'exploitation.
@@ -119,6 +118,8 @@ Nous vous recommandons d'installer l'un de ces systèmes d'exploitation Android 
 GrapheneOS prend en charge [Sandboxed Google Play](https://grapheneos.org/usage#sandboxed-google-play), qui exécute les [Services Google Play](https://fr.wikipedia.org/wiki/Services_Google_Play) entièrement sandboxed comme toute autre application normale. Cela signifie que vous pouvez profiter de la plupart des services Google Play, tels que [les notifications push](https://firebase.google.com/docs/cloud-messaging/), tout en vous donnant un contrôle total sur leurs autorisations et leur accès, et tout en les contenant à un [profil de travail](os/android-overview.md#work-profile) ou un [profil d'utilisateur](os/android-overview.md#user-profiles) spécifique de votre choix.
 
 Les téléphones Google Pixel sont les seuls appareils qui répondent actuellement aux [exigences de sécurité matérielle](https://grapheneos.org/faq#device-support) de GrapheneOS.
+
+[Pourquoi nous recommandons GrapheneOS plutôt que CalyxOS :material-arrow-right-drop-circle:](https://blog.privacyguides.org/2022/04/21/grapheneos-or-calyxos/ ""){.md-button}
 
 ### DivestOS
 
@@ -221,10 +222,10 @@ Nous recommandons une grande variété d'applications Android sur ce site. Les a
 
 !!! recommendation
 
-    ![Logo d'Auditor](assets/img/android/auditor.svg#only-light){ align=right }
-    ![Logo d'Auditor](assets/img/android/auditor-dark.svg#only-dark){ align=right }
+    ![Auditor logo](assets/img/android/auditor.svg#only-light){ align=right }
+    ![Auditor logo](assets/img/android/auditor-dark.svg#only-dark){ align=right }
     
-    **Auditor** est une application qui exploite les fonctions de sécurité matérielle pour assurer le contrôle de l'intégrité des [appareils pris en charge](https://attestation.app/about#device-support). Pour le moment elle ne fonctionne qu'avec GrapheneOS et le système d'exploitation d'origine de l'appareil.
+    **Auditor** is an app which leverages hardware security features to provide device integrity monitoring by actively validating the identity of a device and the integrity of its operating system. Currently, it only works with GrapheneOS or the stock operating system for [supported devices](https://attestation.app/about#device-support).
     
     [:octicons-home-16: Page d'accueil](https://attestation.app){ .md-button .md-button--primary }
     [:octicons-eye-16:](https://attestation.app/privacy-policy){ .card-link title="Politique de confidentialité" }

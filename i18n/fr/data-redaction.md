@@ -1,4 +1,5 @@
 ---
+meta_title: "Remove PII with Metadata Scrubbers and Data Redaction Tools - Privacy Guides"
 title: "Rédaction de données et de métadonnées"
 icon: material/tag-remove
 description: Utilisez ces outils pour supprimer les métadonnées telles que la position GPS et d'autres informations d'identification des photos et des fichiers que vous partagez.

@@ -1,10 +1,11 @@
 ---
+meta_title: "Threat Modeling: The First Step on Your Privacy Journey - Privacy Guides"
 title: "מודל איומים"
 icon: 'material/target-account'
-description: איזון בין אבטחה, פרטיות ושימושיות היא אחת המשימות הראשונות והקשות שתתמודדו איתם במסע הפרטיות שלכם.
+description: Balancing security, privacy, and usability is one of the first and most difficult tasks you'll face on your privacy journey.
 ---
 
-איזון בין אבטחה, פרטיות ושימושיות היא אחת המשימות הראשונות והקשות שתתמודדו איתם במסע הפרטיות שלכם. הכל הוא פשרה: ככל שמשהו בטוח יותר, כך הוא בדרך כלל מגביל או לא נוח יותר, וכו'. לעתים קרובות, אנשים מגלים שהבעיה בכלים שהם רואים מומלצים היא שפשוט קשה מדי להתחיל להשתמש בהם!
+Balancing security, privacy, and usability is one of the first and most difficult tasks you'll face on your privacy journey. הכל הוא פשרה: ככל שמשהו בטוח יותר, כך הוא בדרך כלל מגביל או לא נוח יותר, וכו'. לעתים קרובות, אנשים מגלים שהבעיה בכלים שהם רואים מומלצים היא שפשוט קשה מדי להתחיל להשתמש בהם!
 
 אם תרצה להשתמש ב**רוב** הכלים המאובטחים הזמינים, תצטרך להקריב *הרבה* שימושיות. וגם אז, ==אין דבר שמאובטח תמיד לחלוטין.== יש אבטחה **גבוהה**, אך לעולם לא אבטחה **מלאה**. לכן מודלים של איומים חשובים.
 

@@ -1,7 +1,7 @@
 ---
 title: "Autenticatori a più fattori"
 icon: 'material/two-factor-authentication'
-description: These tools assist you with securing your internet accounts with Multi-Factor Authentication without sending your secrets to a third-party.
+description: Questi strumenti vi aiutano proteggendo i vostri account Internet con l'Autenticazione a più fattori senza inviare i vostri segreti a terzi.
 ---
 
 ## Chiavi di sicurezza fisiche
@@ -49,13 +49,13 @@ Per i modelli che supportano HOTP e TOTP, ci sono 3 slot per HOTP e 15 per TOTP.
 
 !!! warning
 
-    Sebbene le Nitrokey non rilascino i segreti HOTP/TOTP al dispositivo a cui sono collegati, la memoria HOTP e TOTP non è crittografata ed è vulnerabile agli attacchi fisici. Se desideri memorizzare i segreti HOTP o TOTP, consigliamo caldamente di utilizzare una Yubikey.
+    Sebbene le Nitrokey non rilascino i segreti HOTP/TOTP al dispositivo a cui sono collegati, la memoria HOTP e TOTP non è crittografata ed è vulnerabile agli attacchi fisici. If you are looking to store HOTP or TOTP these secrets, we highly recommend that you use a YubiKey instead.
 
 !!! warning
 
     Reimpostare l'interfaccia OpenPGP su una Nitrokey rende il database [inaccessible](https://docs.nitrokey.com/pro/factory-reset.html).
 
-The Nitrokey Pro 2, Nitrokey Storage 2, and the upcoming Nitrokey 3 supports system integrity verification for laptops with the [Coreboot](https://www.coreboot.org/) + [Heads](https://osresearch.net/) firmware.
+La Nitrokey Pro 2, Nitrokey Storage 2 e l'imminente Nitrokey 3 supportano la verifica dell'integrità del sistema per i laptop con il firmware [Coreboot](https://www.coreboot.org/) + [Heads](https://osresearch.net/).
 
 Il firmware di Nitrokey è open-source, a differenza di YubiKey. Il firmware dei modelli NitroKey moderni (tranne che per **NitroKey Pro 2**) è aggiornabile.
 
@@ -69,19 +69,19 @@ Il firmware di Nitrokey è open-source, a differenza di YubiKey. Il firmware dei
 
 #### Requisiti minimi
 
-- Must use high quality, tamper resistant hardware security modules.
+- Deve utilizzare moduli di sicurezza hardware di alta qualità e resistenti alle manomissioni.
 - Deve supportare le ultime specifiche FIDO2.
-- Must not allow private key extraction.
-- Devices which cost over $35 must support handling OpenPGP and S/MIME.
+- Non deve consentire l'estrazione della chiave privata.
+- I dispositivi che costano più di 35 dollari devono supportare la gestione di OpenPGP e S/MIME.
 
 #### Caso migliore
 
 KeePassXC memorizza i suoi dati di esportazione come file [CSV](https://en.wikipedia.org/wiki/Comma-separated_values). Ciò può comportare la perdita di dati se si importa questo file in un altro gestore di password.
 
-- Should be available in USB-C form-factor.
-- Should be available with NFC.
-- Should support TOTP secret storage.
-- Should support secure firmware updates.
+- Dovrebbe essere disponibile in formato USB-C.
+- Dovrebbe essere disponibile con NFC.
+- Dovrebbe supportare la memorizzazione delle chiavi TOTP.
+- Dovrebbe supportare gli aggiornamenti del firmware sicuri.
 
 ## Applicazioni di autenticazione
 
@@ -133,7 +133,7 @@ Consigliamo vivamente di utilizare applicazioni TOTP per dispositivi mobili inve
 
     Stiamo lavorando per stabilire criteri ben definiti per ogni sezione del nostro sito, e questo potrebbe essere soggetto a modifiche. Se avete domande sui nostri criteri, vi preghiamo di [chiedere sul nostro forum](https://discuss.privacyguides.net/latest) e non date per scontato che non abbiamo preso in considerazione qualcosa nel formulare le nostre raccomandazioni se non è elencato qui. Sono molti i fattori presi in considerazione e discussi quando consigliamo un progetto, e stiamo lavorando per documentare ogni singolo fattore.
 
-- Source code must be publicly available.
-- Must not require internet connectivity.
-- Must not sync to a third-party cloud sync/backup service.
-    - **Optional** E2EE sync support with OS-native tools is acceptable, e.g. encrypted sync via iCloud.
+- Il codice sorgente deve essere di dominio pubblico.
+- Non deve richiedere la connessione a Internet.
+- Non deve sincronizzarsi a un servizio cloud/backup di terze parti.
+    - **È opzionale ** l'E2EE con strumenti nativi del sistema operativo, ad esempio la sincronizzazione criptata tramite iCloud.

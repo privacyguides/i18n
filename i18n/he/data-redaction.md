@@ -1,4 +1,5 @@
 ---
+meta_title: "Remove PII with Metadata Scrubbers and Data Redaction Tools - Privacy Guides"
 title: "הפחתת נתונים ומטא נתונים"
 icon: material/tag-remove
 description: השתמש בכלים אלה כדי להסיר מטא נתונים כמו מיקום GPS ומידע מזהה אחר מתמונות וקבצים שאתה משתף.

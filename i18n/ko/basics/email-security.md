@@ -1,4 +1,5 @@
 ---
+meta_title: "Why Email Isn't the Best Choice for Privacy and Security - Privacy Guides"
 title: 이메일 보안
 icon: material/email
 description: 이메일은 태생적으로 여러 가지 면에서 안전하지 않습니다. 따라서 안전한 통신을 위한 최선의 선택은 아닙니다.
@@ -22,13 +23,13 @@ Email providers which allow you to use standard access protocols like IMAP and S
 
 ### How Do I Protect My Private Keys?
 
-A smartcard (such as a [Yubikey](https://support.yubico.com/hc/en-us/articles/360013790259-Using-Your-YubiKey-with-OpenPGP) or [Nitrokey](https://www.nitrokey.com)) works by receiving an encrypted email message from a device (phone, tablet, computer, etc.) running an email/webmail client. The message is then decrypted by the smartcard and the decrypted content is sent back to the device.
+A smartcard (such as a [YubiKey](https://support.yubico.com/hc/en-us/articles/360013790259-Using-Your-YubiKey-with-OpenPGP) or [Nitrokey](https://www.nitrokey.com)) works by receiving an encrypted email message from a device (phone, tablet, computer, etc.) running an email/webmail client. The message is then decrypted by the smartcard and the decrypted content is sent back to the device.
 
 It is advantageous for the decryption to occur on the smartcard so as to avoid possibly exposing your private key to a compromised device.
 
-## Email Metadata Overview
+## 이메일 메타데이터 개요
 
-Email metadata is stored in the [message header](https://en.wikipedia.org/wiki/Email#Message_header) of the email message and includes some visible headers that you may have seen such as: `To`, `From`, `Cc`, `Date`, `Subject`. There are also a number of hidden headers included by many email clients and providers that can reveal information about your account.
+이메일 메타데이터는 이메일 메시지의 [메시지 헤더](https://en.wikipedia.org/wiki/Email#Message_header)에 저장됩니다. 이메일 메타데이터에는 여러분이 봐왔을 `To`(받는사람), `From`(보낸사람), `Cc`(참조), `Date`(보낸 날짜), `Subject`(제목) 등이 포함됩니다. 이외에도 여러 숨겨진 헤더가 이메일 클라이언트 및 제공 업체로부터 추가되며, 이러한 정보는 여러분의 계정에 대한 정보를 노출시킬 수 있습니다.
 
 Client software may use email metadata to show who a message is from and what time it was received. Servers may use it to determine where an email message must be sent, among [other purposes](https://en.wikipedia.org/wiki/Email#Message_header) which are not always transparent.
 

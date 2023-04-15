@@ -1,4 +1,5 @@
 ---
+meta_title: "Android Recommendations: GrapheneOS and DivestOS - Privacy Guides"
 title: "אנדרואיד"
 icon: 'simple/android'
 description: אתה יכול להחליף את מערכת ההפעלה בטלפון האנדרואיד שלך בחלופות מאובטחות ומכבדות פרטיות אלה.
@@ -89,8 +90,6 @@ schema:
 
 [סקירה כללית של אנדרואיד :material-arrow-right-drop-circle:](os/android-overview.md ""){.md-button}
 
-[מדוע אנו ממליצים על GrapheneOS על פני CalyxOS :material-arrow-right-drop-circle:](https://blog.privacyguides.org/2022/04/21/grapheneos-or-calyxos/ ""){.md-button}
-
 ## נגזרות AOSP
 
 אנו ממליצים להתקין במכשיר שלך אחת ממערכות ההפעלה המותאמות אישית של אנדרואיד, המפורטות לפי סדר העדפה, בהתאם לתאימות המכשיר שלך למערכות הפעלה אלו.
@@ -119,6 +118,8 @@ schema:
 GrapheneOS תומך ב-[Sandboxed Google Play](https://grapheneos.org/usage#sandboxed-google-play), המריץ את [Google Play Services](https://en.wikipedia.org/wiki/Google_Play_Services) בארגז חול מלא כמו כל אפליקציה רגילה אחרת. משמעות הדבר היא שאתה יכול לנצל את רוב שירותי Google Play, כגון [הודעות דחיפה](https://firebase.google.com/docs/cloud-messaging/), תוך מתן שליטה מלאה על ההרשאות והגישה שלהם, ותוך כדי הכללתן ב[פרופיל עבודה](os/android-overview.md#work-profile) או [פרופיל משתמש](os/android-overview.md#user-profiles) ספציפי לבחירתך.
 
 טלפונים של Google Pixel הם המכשירים היחידים שעומדים כרגע ב[דרישות אבטחת החומרה](https://grapheneos.org/faq#device-support) של GrapheneOS.
+
+[מדוע אנו ממליצים על GrapheneOS על פני CalyxOS :material-arrow-right-drop-circle:](https://blog.privacyguides.org/2022/04/21/grapheneos-or-calyxos/ ""){.md-button}
 
 ### DivestOS
 
@@ -221,10 +222,10 @@ DivestOS משתמשת ב-F-Droid כחנות האפליקציות המוגדרת 
 
 !!! recommendation
 
-    ![Auditor לוגו](assets/img/android/auditor.svg#only-light){ align=right }
-    ![Auditor לוגו](assets/img/android/auditor-dark.svg#only-dark){ align=right }
+    ![Auditor logo](assets/img/android/auditor.svg#only-light){ align=right }
+    ![Auditor logo](assets/img/android/auditor-dark.svg#only-dark){ align=right }
     
-    **Auditor** היא אפליקציה הממנפת תכונות אבטחת חומרה כדי לספק ניטור שלמות המכשיר עבור [מכשירים נתמכים](https://attestation.app/about#device-support). נכון לעכשיו, זה עובד רק עם GrapheneOS ומערכת ההפעלה הסטוק של המכשיר.
+    **Auditor** is an app which leverages hardware security features to provide device integrity monitoring by actively validating the identity of a device and the integrity of its operating system. Currently, it only works with GrapheneOS or the stock operating system for [supported devices](https://attestation.app/about#device-support).
     
     [:octicons-home-16: דף הבית](https://attestation.app){ .md-button .md-button--primary }
     [:octicons-eye-16:](https://attestation.app/privacy-policy){ .card-link title="מדיניות פרטיות" }

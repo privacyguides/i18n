@@ -1,4 +1,5 @@
 ---
+meta_title: "Why Email Isn't the Best Choice for Privacy and Security - Privacy Guides"
 title: Sécurité des emails
 icon: material/email
 description: L'email est intrinsèquement peu sûr à bien des égards, et voici quelques-unes des raisons pour lesquelles il n'est pas notre premier choix en matière de communications sécurisées.
@@ -22,7 +23,7 @@ Les fournisseurs d'emails qui vous permettent d'utiliser les protocoles d'accès
 
 ### Comment Puis-Je Protéger Mes Clés Privées?
 
-Une carte à puce (telle qu'une [Yubikey](https://support.yubico.com/hc/en-us/articles/360013790259-Using-Your-YubiKey-with-OpenPGP) ou [Nitrokey](https://www.nitrokey.com)) fonctionne en recevant un email chiffré d'un appareil (téléphone, tablette, ordinateur, etc.) exécutant un client mail/webmail. Le message est ensuite déchiffré par la carte à puce et le contenu déchiffré est renvoyé à l'appareil.
+A smartcard (such as a [YubiKey](https://support.yubico.com/hc/en-us/articles/360013790259-Using-Your-YubiKey-with-OpenPGP) or [Nitrokey](https://www.nitrokey.com)) works by receiving an encrypted email message from a device (phone, tablet, computer, etc.) running an email/webmail client. Le message est ensuite déchiffré par la carte à puce et le contenu déchiffré est renvoyé à l'appareil.
 
 Il est avantageux que le déchiffrement se fasse sur la carte à puce afin d'éviter d'exposer votre clé privée à un dispositif compromis.
 

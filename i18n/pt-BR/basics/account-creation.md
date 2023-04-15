@@ -1,4 +1,5 @@
 ---
+meta_title: "Como Criar Contas na Internet de Forma Privada — Privacy Guides"
 title: "Account Creation"
 icon: 'material/account-plus'
 description: Creating accounts online is practically an internet necessity, take these steps to make sure you stay private.

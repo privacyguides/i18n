@@ -1,5 +1,6 @@
 ---
-title: "VPN Services"
+meta_title: "Private VPN Service Recommendations and Comparison, No Sponsors or Ads - Privacy Guides"
+title: "VPNサービス"
 icon: material/vpn
 description: These are the best VPN services for protecting your privacy and security online. Find a provider here that isn’t out to spy on you.
 ---
@@ -26,9 +27,9 @@ If you're looking for additional **privacy** from your ISP, on a public Wi-Fi ne
 
 [Detailed VPN Overview :material-arrow-right-drop-circle:](basics/vpn-overview.md ""){.md-button}
 
-## Recommended Providers
+## おすすめのプロバイダ
 
-Our recommended providers use encryption, accept Monero, support WireGuard & OpenVPN, and have a no logging policy. Read our [full list of criteria](#criteria) for more information.
+私たちがおすすめするプロバイダは、暗号化を使用し、Moneroを受け入れ、WireGuardとOpenVPNに対応し、ノーログポリシーを持っています。 Read our [full list of criteria](#criteria) for more information.
 
 ### IVPN
 
@@ -36,14 +37,14 @@ Our recommended providers use encryption, accept Monero, support WireGuard & Ope
 
     ![IVPN logo](assets/img/vpn/ivpn.svg){ align=right }
     
-    **IVPN** is another premium VPN provider, and they have been in operation since 2009. IVPN is based in Gibraltar.
+    **IVPN**はプレミアムVPNプロバイダの一つで、2009年から運営されています。 IVPNの拠点はジブラルタルです。
     
     [:octicons-home-16: Homepage](https://www.ivpn.net/){ .md-button .md-button--primary }
     [:octicons-eye-16:](https://www.ivpn.net/privacy/){ .card-link title="Privacy Policy" }
     [:octicons-info-16:](https://www.ivpn.net/knowledgebase/general/){ .card-link title=Documentation}
     [:octicons-code-16:](https://github.com/ivpn){ .card-link title="Source Code" }
     
-    ??? downloads
+    ??? ダウンロード
     
         - [:simple-android: Android](https://www.ivpn.net/apps-android/)
         - [:simple-appstore: App Store](https://apps.apple.com/app/ivpn-serious-privacy-protection/id1193122683)
@@ -51,7 +52,7 @@ Our recommended providers use encryption, accept Monero, support WireGuard & Ope
         - [:simple-apple: macOS](https://www.ivpn.net/apps-macos/)
         - [:simple-linux: Linux](https://www.ivpn.net/apps-linux/)
 
-#### :material-check:{ .pg-green } 35 Countries
+#### :material-check:{ .pg-green } 35か国
 
 IVPN has [servers in 35 countries](https://www.ivpn.net/server-locations).(1) Picking a VPN provider with a server nearest to you will reduce latency of the network traffic you send. This is because of a shorter route (fewer hops) to the destination.
 { .annotate }
@@ -96,7 +97,7 @@ IVPN clients support two factor authentication (Mullvad's clients do not). IVPN 
 
     ![Mullvad logo](assets/img/vpn/mullvad.svg){ align=right }
     
-    **Mullvad** is a fast and inexpensive VPN with a serious focus on transparency and security. They have been in operation since **2009**. Mullvad is based in Sweden and does not have a free trial.
+    **Mullvad** is a fast and inexpensive VPN with a serious focus on transparency and security. They have been in operation since **2009**. Mullvadの拠点はスウェーデンで、フリートライアルはありません。
     
     [:octicons-home-16: Homepage](https://mullvad.net){ .md-button .md-button--primary }
     [:simple-torbrowser:](http://o54hon2e2vj6c7m3aqqu6uyece65by3vgoxxhlqlsvkmacw6a7m7kiad.onion){ .card-link title="Onion Service" }
@@ -104,7 +105,7 @@ IVPN clients support two factor authentication (Mullvad's clients do not). IVPN 
     [:octicons-info-16:](https://mullvad.net/en/help/){ .card-link title=Documentation}
     [:octicons-code-16:](https://github.com/mullvad){ .card-link title="Source Code" }
     
-    ??? downloads
+    ??? ダウンロード
     
         - [:simple-googleplay: Google Play](https://play.google.com/store/apps/details?id=net.mullvad.mullvadvpn)
         - [:simple-appstore: App Store](https://apps.apple.com/app/mullvad-vpn/id1488466513)

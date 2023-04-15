@@ -1,4 +1,5 @@
 ---
+meta_title: "The Best Privacy Tools, Services, and Ad-Free Recommendations - Privacy Guides"
 title: "Privacy Tools"
 icon: material/tools
 hide:
@@ -12,7 +13,7 @@ If you want assistance figuring out the best privacy tools and alternative progr
 
 For more details about each project, why they were chosen, and additional tips or tricks we recommend, click the "Learn more" link in each section, or click on the recommendation itself to be taken to that specific section of the page.
 
-## Tor Network
+## Torネットワーク
 
 <div class="grid cards annotate" markdown>
 
@@ -26,7 +27,7 @@ For more details about each project, why they were chosen, and additional tips o
 
 [Learn more :material-arrow-right-drop-circle:](tor.md)
 
-## Desktop Web Browsers
+## デスクトップウェブブラウザ
 
 <div class="grid cards" markdown>
 
@@ -38,7 +39,7 @@ For more details about each project, why they were chosen, and additional tips o
 
 [Learn more :material-arrow-right-drop-circle:](desktop-browsers.md)
 
-### Additional Resources
+### 追加のリソース
 
 <div class="grid cards" markdown>
 
@@ -48,7 +49,7 @@ For more details about each project, why they were chosen, and additional tips o
 
 [Learn more :material-arrow-right-drop-circle:](desktop-browsers.md#additional-resources)
 
-## Mobile Web Browsers
+## モバイルウェブブラウザ
 
 <div class="grid cards" markdown>
 
@@ -59,7 +60,7 @@ For more details about each project, why they were chosen, and additional tips o
 
 [Learn more :material-arrow-right-drop-circle:](mobile-browsers.md)
 
-### Additional Resources
+### 追加のリソース
 
 <div class="grid cards annotate" markdown>
 
@@ -82,7 +83,7 @@ For more details about each project, why they were chosen, and additional tips o
 
 [Learn more :material-arrow-right-drop-circle:](android.md)
 
-#### Android Apps
+#### Androidアプリ
 
 <div class="grid cards" markdown>
 
@@ -124,9 +125,9 @@ For more details about each project, why they were chosen, and additional tips o
 
 [Learn more :material-arrow-right-drop-circle:](router.md)
 
-## Service Providers
+## サービスプロバイダ
 
-### Cloud Storage
+### クラウドストレージ
 
 <div class="grid cards" markdown>
 
@@ -139,7 +140,7 @@ For more details about each project, why they were chosen, and additional tips o
 
 ### DNS
 
-#### DNS Providers
+#### DNSプロバイダ
 
 We [recommend](dns.md#recommended-providers) a number of encrypted DNS servers based on a variety of criteria, such as [Mullvad](https://mullvad.net/en/help/dns-over-https-and-dns-over-tls) and [Quad9](https://quad9.net/) amongst others. We recommend for you to read our pages on DNS before choosing a provider. In many cases, using an alternative DNS provider is not recommended.
 
@@ -167,7 +168,7 @@ We [recommend](dns.md#recommended-providers) a number of encrypted DNS servers b
 
 [Learn more :material-arrow-right-drop-circle:](dns.md#self-hosted-solutions)
 
-### Email
+### メール
 
 <div class="grid cards" markdown>
 
@@ -202,7 +203,7 @@ We [recommend](dns.md#recommended-providers) a number of encrypted DNS servers b
 
 [Learn more :material-arrow-right-drop-circle:](email.md#self-hosting-email)
 
-### Financial Services
+### 金融サービス
 
 #### Payment Masking Services
 
@@ -225,7 +226,7 @@ We [recommend](dns.md#recommended-providers) a number of encrypted DNS servers b
 
 [Learn more :material-arrow-right-drop-circle:](financial-services.md#gift-card-marketplaces)
 
-### Search Engines
+### 検索エンジン
 
 <div class="grid cards" markdown>
 
@@ -238,7 +239,7 @@ We [recommend](dns.md#recommended-providers) a number of encrypted DNS servers b
 
 [Learn more :material-arrow-right-drop-circle:](search-engines.md)
 
-### VPN Providers
+### VPNプロバイダ
 
 ??? danger "VPNs do not provide anonymity"
 
@@ -260,9 +261,9 @@ We [recommend](dns.md#recommended-providers) a number of encrypted DNS servers b
 
 [Learn more :material-arrow-right-drop-circle:](vpn.md)
 
-## Software
+## ソフトウェア
 
-### Calendar Sync
+### カレンダー同期
 
 <div class="grid cards" markdown>
 
@@ -273,7 +274,7 @@ We [recommend](dns.md#recommended-providers) a number of encrypted DNS servers b
 
 [Learn more :material-arrow-right-drop-circle:](calendar.md)
 
-### Cryptocurrency
+### 暗号通貨
 
 <div class="grid cards" markdown>
 
@@ -283,7 +284,7 @@ We [recommend](dns.md#recommended-providers) a number of encrypted DNS servers b
 
 [Learn more :material-arrow-right-drop-circle:](cryptocurrency.md)
 
-### Data and Metadata Redaction
+### データとメタデータの編集
 
 <div class="grid cards" markdown>
 
@@ -297,7 +298,7 @@ We [recommend](dns.md#recommended-providers) a number of encrypted DNS servers b
 
 [Learn more :material-arrow-right-drop-circle:](data-redaction.md)
 
-### Email Clients
+### メールクライアント
 
 <div class="grid cards" markdown>
 
@@ -315,7 +316,7 @@ We [recommend](dns.md#recommended-providers) a number of encrypted DNS servers b
 
 [Learn more :material-arrow-right-drop-circle:](email-clients.md)
 
-### Encryption Software
+### 暗号化ソフトウェア
 
 ??? info "Operating System Disk Encryption"
 
@@ -336,7 +337,7 @@ We [recommend](dns.md#recommended-providers) a number of encrypted DNS servers b
 
 [Learn more :material-arrow-right-drop-circle:](encryption.md)
 
-#### OpenPGP Clients
+#### OpenPGPクライアント
 
 <div class="grid cards" markdown>
 
@@ -349,7 +350,7 @@ We [recommend](dns.md#recommended-providers) a number of encrypted DNS servers b
 
 [Learn more :material-arrow-right-drop-circle:](encryption.md#openpgp)
 
-### File Sharing and Sync
+### ファイル共有と同期
 
 <div class="grid cards" markdown>
 
@@ -363,7 +364,7 @@ We [recommend](dns.md#recommended-providers) a number of encrypted DNS servers b
 
 [Learn more :material-arrow-right-drop-circle:](file-sharing.md)
 
-### Frontends
+### フロントエンド
 
 <div class="grid cards" markdown>
 
@@ -380,7 +381,7 @@ We [recommend](dns.md#recommended-providers) a number of encrypted DNS servers b
 
 [Learn more :material-arrow-right-drop-circle:](frontends.md)
 
-### Multi-Factor Authentication Tools
+### 多要素認証ツール
 
 <div class="grid cards" markdown>
 
@@ -422,7 +423,7 @@ We [recommend](dns.md#recommended-providers) a number of encrypted DNS servers b
 
 [Learn more :material-arrow-right-drop-circle:](notebooks.md)
 
-### Password Managers
+### パスワードマネージャ
 
 <div class="grid cards" markdown>
 
@@ -438,7 +439,7 @@ We [recommend](dns.md#recommended-providers) a number of encrypted DNS servers b
 
 [Learn more :material-arrow-right-drop-circle:](passwords.md)
 
-### Productivity Tools
+### 生産性向上ツール
 
 <div class="grid cards" markdown>
 
@@ -452,7 +453,7 @@ We [recommend](dns.md#recommended-providers) a number of encrypted DNS servers b
 
 [Learn more :material-arrow-right-drop-circle:](productivity.md)
 
-### Real-Time Communication
+### リアルタイムコミュニケーション
 
 <div class="grid cards" markdown>
 

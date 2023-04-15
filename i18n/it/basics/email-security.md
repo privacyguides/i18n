@@ -1,4 +1,5 @@
 ---
+meta_title: "Why Email Isn't the Best Choice for Privacy and Security - Privacy Guides"
 title: Sicurezza Email
 icon: material/email
 description: La posta elettronica è intrinsecamente insicura sotto molti punti di vista e questi sono alcuni dei motivi per cui non è la nostra scelta principale per le comunicazioni sicure.
@@ -22,7 +23,7 @@ I provider di posta elettronica che consentono di utilizzare protocolli di acces
 
 ### Come proteggo la mia chiave privata?
 
-Una smartcard (come [Yubikey](https://support.yubico.com/hc/en-us/articles/360013790259-Using-Your-YubiKey-with-OpenPGP) o [Nitrokey](https://www.nitrokey.com)) funziona ricevendo un messaggio e-mail crittografato da un dispositivo (telefono, tablet, computer, ecc.) con un client e-mail/webmail. Il messaggio viene quindi decifrato dalla smartcard e il contenuto decifrato viene inviato al dispositivo.
+A smartcard (such as a [YubiKey](https://support.yubico.com/hc/en-us/articles/360013790259-Using-Your-YubiKey-with-OpenPGP) or [Nitrokey](https://www.nitrokey.com)) works by receiving an encrypted email message from a device (phone, tablet, computer, etc.) running an email/webmail client. Il messaggio viene quindi decifrato dalla smartcard e il contenuto decifrato viene inviato al dispositivo.
 
 È preferibile che la decodifica avvenga sulla smartcard, per evitare di esporre la chiave privata a un dispositivo compromesso.
 

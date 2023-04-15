@@ -1,4 +1,5 @@
 ---
+meta_title: "Recommended Encryption Software: VeraCrypt, Cryptomator, PicoCrypt, and OpenPGP - Privacy Guides"
 title: "Perangkat Lunak Enkripsi"
 icon: material/file-lock
 description: Enkripsi data adalah satu-satunya cara untuk mengendalikan siapa saja yang dapat mengaksesnya. These tools allow you to encrypt your emails and any other files.

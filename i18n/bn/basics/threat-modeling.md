@@ -1,10 +1,11 @@
 ---
+meta_title: "Threat Modeling: The First Step on Your Privacy Journey - Privacy Guides"
 title: "Threat Modeling"
 icon: 'material/target-account'
-description: প্রাইভেসি সিকিউরিটি, এবং ব্যবহারযোগ্যতা এর মধ্যে ভারসাম্য রক্ষা করা আপনার প্রাইভেসি যাত্রার সবথেকে কঠিন কাজ।
+description: Balancing security, privacy, and usability is one of the first and most difficult tasks you'll face on your privacy journey.
 ---
 
-প্রাইভেসি সিকিউরিটি, এবং ব্যবহারযোগ্যতা এর মধ্যে ভারসাম্য রক্ষা করা আপনার প্রাইভেসি যাত্রার সবথেকে কঠিন কাজ।  Everything is a trade-off: The more secure something is, the more restricting or inconvenient it generally is, etc. Often, people find that the problem with the tools they see recommended is that they're just too hard to start using!
+Balancing security, privacy, and usability is one of the first and most difficult tasks you'll face on your privacy journey. Everything is a trade-off: The more secure something is, the more restricting or inconvenient it generally is, etc. Often, people find that the problem with the tools they see recommended is that they're just too hard to start using!
 
 যদি আপনি **সবথেকে** সিকিউর সফটও়্যারগুলো ব্যাবহার করতে চান আপনাকে *কিছু* ব্যবহারযোগ্যতা বিসর্জন দিতে হবে। And, even then, ==nothing is ever fully secure.== There's **high** security, but never **full** security. একারণে থ্রেট মডেল তৈরি করা জরুরি।
 

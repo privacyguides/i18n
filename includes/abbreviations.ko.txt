@@ -1,8 +1,8 @@
-*[2FA]: 2-Factor Authentication
+*[2FA]: 2단계 인증
 *[ADB]: Android 디버그 브리지
 *[AOSP]: Android 오픈소스 프로젝트
 *[ATA]: 고급 기술 결합(Advanced Technology Attachment)
-*[attack surface]: The total number of possible entry points for unauthorized access to a system
+*[공격 표면]: 시스템에 무단으로 진입할 수 있는 총 경로의 수
 *[AVB]: Android 자체 검사 부팅
 *[cgroups]: Control Groups
 *[CLI]: 명령어 인터페이스
@@ -19,7 +19,7 @@
 *[ECS]: EDNS Client Subnet
 *[EEA]: European Economic Area
 *[entropy]: A measurement of how unpredictable something is
-*[EOL]: End-of-Life
+*[EOL]: 지원 종료
 *[Exif]: 교환 이미지 파일 형식(Exchangeable image file format)
 *[FCM]: Firebase 클라우드 메시징
 *[FDE]: 전체 디스크 암호화
@@ -45,7 +45,7 @@
 *[ISP]: 인터넷 서비스 제공자(Internet Service Provider)
 *[ISPs]: Internet Service Providers
 *[JNI]: Java Native Interface
-*[KYC]: Know Your Customer
+*[KYC]: 고객 확인 제도
 *[LUKS]: Linux Unified Key Setup (Full-Disk Encryption)
 *[MAC]: Media Access Control
 *[MDAG]: Microsoft Defender Application Guard

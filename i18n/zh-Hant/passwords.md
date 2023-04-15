@@ -1,4 +1,5 @@
 ---
+meta_title: "The Best Password Managers to Protect Your Privacy and Security - Privacy Guides"
 title: "密碼管理器。"
 icon: material/form-textbox-password
 description: 密碼管理員允許您安全地存儲和管理密碼和其他憑證。

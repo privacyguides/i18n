@@ -1,4 +1,5 @@
 ---
+meta_title: "Encrypted Private Email Recommendations - Privacy Guides"
 title: "שירותי אימייל"
 icon: material/email
 description: ספקי אימייל אלה מציעים מקום מצוין לאחסן את המיילים שלך בצורה מאובטחת, ורבים מציעים הצפנת OpenPGP הניתנת להפעלה הדדית עם ספקים אחרים.
@@ -123,7 +124,7 @@ Mailbox.org אינו מקבל מטבעות קריפטוגרפיים כלשהם �
 
 #### :material-check:{ .pg-green } אבטחת חשבון
 
-Mailbox.org תומך ב[אימות דו-שלבי](https://kb.mailbox.org/display/MBOKBEN/How+to+use+two-factor+authentication+-+2FA) עבור דואר האינטרנט שלהם בלבד. אתה יכול להשתמש ב-TOTP או ב-[Yubikey](https://en.wikipedia.org/wiki/YubiKey) דרך [Yubicloud](https://www.yubico.com/products/services-software/yubicloud). תקני אינטרנט כגון [WebAuthn](https://en.wikipedia.org/wiki/WebAuthn) אינם נתמכים עדיין.
+Mailbox.org תומך ב[אימות דו-שלבי](https://kb.mailbox.org/display/MBOKBEN/How+to+use+two-factor+authentication+-+2FA) עבור דואר האינטרנט שלהם בלבד. You can use either TOTP or a [YubiKey](https://en.wikipedia.org/wiki/YubiKey) via the [YubiCloud](https://www.yubico.com/products/services-software/yubicloud). תקני אינטרנט כגון [WebAuthn](https://en.wikipedia.org/wiki/WebAuthn) אינם נתמכים עדיין.
 
 #### :material-information-outline:{ .pg-blue } אבטחת מידע
 

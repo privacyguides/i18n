@@ -1,4 +1,5 @@
 ---
+meta_title: "Remove PII with Metadata Scrubbers and Data Redaction Tools - Privacy Guides"
 title: "日历/联系人同步"
 icon: material/tag-remove
 description: Use these tools to remove metadata like GPS location and other identifying information from photos and files you share.

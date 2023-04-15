@@ -1,4 +1,5 @@
 ---
+meta_title: "Encrypted Private Email Recommendations - Privacy Guides"
 title: "Сервіси електронної пошти"
 icon: material/email
 description: Ці провайдери електронної пошти пропонують чудове місце для безпечного зберігання ваших листів, а багато з них пропонують сумісне з іншими провайдерами шифрування OpenPGP.
@@ -123,7 +124,7 @@ Mailbox.org не приймає жодних криптовалют, оскіл�
 
 #### :material-check:{ .pg-green } Безпека облікового запису
 
-Mailbox.org підтримує [двофакторну аутентифікацію](https://kb.mailbox.org/display/MBOKBEN/How+to+use+two-factor+authentication+-+2FA) лише для їхньої електронної пошти. Ви можете використовувати TOTP або [Yubikey](https://en.wikipedia.org/wiki/YubiKey) через [Yubicloud](https://www.yubico.com/products/services-software/yubicloud). Веб-стандарти, такі як [WebAuthn](https://en.wikipedia.org/wiki/WebAuthn) на цей момент не підтримуються.
+Mailbox.org підтримує [двофакторну аутентифікацію](https://kb.mailbox.org/display/MBOKBEN/How+to+use+two-factor+authentication+-+2FA) лише для їхньої електронної пошти. You can use either TOTP or a [YubiKey](https://en.wikipedia.org/wiki/YubiKey) via the [YubiCloud](https://www.yubico.com/products/services-software/yubicloud). Веб-стандарти, такі як [WebAuthn](https://en.wikipedia.org/wiki/WebAuthn) на цей момент не підтримуються.
 
 #### :material-information-outline:{ .pg-blue } Безпека даних
 

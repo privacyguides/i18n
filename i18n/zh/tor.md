@@ -1,7 +1,25 @@
 ---
+meta_title: "Tor Browser and Network: Anonymous Web Browsing - Privacy Guides"
 title: "桌面端浏览器"
 icon: simple/torproject
 description: Protect your internet browsing from prying eyes by using the Tor network, a secure network which circumvents censorship.
+schema:
+  - 
+    "@context": http://schema.org
+    "@type": SoftwareApplication
+    name: Tor浏览器
+    image: /assets/img/browsers/tor.svg
+    url: https://www.torproject.org
+    sameAs: https://en.wikipedia.org/wiki/Tor_(network)
+    applicationCategory: Web Browser
+    operatingSystem:
+      - Windows 系统
+      - mac系统
+      - Linux系统
+      - 安卓
+    subjectOf:
+      "@type": WebPage
+      url: "./"
 ---
 
 ![Tor logo](assets/img/self-contained-networks/tor.svg){ align=right }

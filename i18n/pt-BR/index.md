@@ -1,4 +1,5 @@
 ---
+meta_title: "Privacy Guides: Sua Fonte Independente de Privacidade e Segurança"
 template: overrides/home.pt-BR.html
 hide:
   - navigation
@@ -39,25 +40,25 @@ schema:
 
 ##### "Não tenho nada a esconder. Por que eu deveria me preocupar com a minha privacidade?”
 
-Assim como o direito ao casamento inter-racial, o direito feminino de votar, a liberdade de expressão e muitos outros, nosso direito à privacidade nem sempre foi respeitado. Em várias ditaduras, ainda não é. Gerações anteriores à nossa lutaram pelo nosso direito à privacidade. ==Privacidade é um direito humano, inerente a todos nós,== ao qual temos direito (sem discriminação).
+Assim como o direito ao casamento inter-racial, o direito feminino de votar, a liberdade de expressão, e muitos outros, nosso direito à privacidade nem sempre foi respeitado. Em várias ditaduras, ainda não é. Gerações anteriores à nossa lutaram pelo nosso direito à privacidade. ==Privacidade é um direito humano, inerente a todos nós,== ao qual temos direito (sem discriminação).
 
-Você não deve confundir privacidade com sigilo. Sabemos o que acontece no banheiro, mas você ainda fecha a porta. Isso é porque você quer privacidade, não sigilo. **Todo mundo** tem algo para proteger. Privacidade é algo que nos torna humanos.
+Você não deve confundir privacidade com segredo. Sabemos o que acontece no banheiro, mas você ainda fecha a porta. Isso é porque você quer privacidade, não segredo. **Todo mundo** tem algo para proteger. Privacidade é algo que nos torna humanos.
 
-[:material-target-account: Common Internet Threats](basics/common-threats.md){ class="md-button md-button--primary" }
+[:material-target-account: Ameaças Comuns na Internet ](basics/common-threats.md){ class="md-button md-button--primary" }
 
-## O que eu deveria fazer?
+## O que eu devo fazer?
 
 ##### Primeiro, você precisa fazer um plano
 
-Tentar proteger todos os seus dados de todos — o tempo todo — é impraticável, caro e exaustivo. Mas não se preocupe! A segurança é um processo e, ao pensar no futuro, você pode montar um plano que seja certo para você. Segurança não é apenas sobre as ferramentas que você usa ou o software que você baixa. Em vez disso, começa por entender as ameaças que você enfrenta e como você pode mitigá-las.
+Tentar proteger os seus dados contra todos, o tempo todo, é impraticável, caro e exaustivo. Mas não se preocupe! A segurança é um processo e, pensando no futuro, você pode construir um plano que seja o mais indicado para você. Segurança não é apenas sobre as ferramentas que você usa ou o programa que você baixa. Muito além disso, começa por perceber as ameaças únicas que você enfrenta, e como você pode reduzi-las.
 
-==Este processo de identificação de ameaças e definição de contramedidas é chamado de **threat modeling**==, e forma a base de todo bom plano de segurança e privacidade.
+==Este processo de identificação de ameaças e definição de contramedidas é chamado **modelagem de ameaça**==, e forma a base de todo bom plano de segurança e privacidade.
 
-[:material-book-outline: Learn More About Threat Modeling](basics/threat-modeling.md){ class="md-button md-button--primary" }
+[:material-book-outline: Saiba mais sobre a Modelagem de Ameaças](basics/threat-modeling.md){ class="md-button md-button--primary" }
 
 ---
 
-## Precisamos de você! Veja como participar do projeto:
+## Precisamos de você! Como se envolver:
 
 [:simple-discourse:](https://discuss.privacyguides.net/){ title="Participe do nosso fórum" }
 [:simple-mastodon:](https://mastodon.neat.computer/@privacyguides){ rel=me title="Siga-nos no Mastodon" }

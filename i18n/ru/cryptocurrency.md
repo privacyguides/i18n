@@ -1,4 +1,5 @@
 ---
+meta_title: "Private Cryptocurrency Blockchains - Privacy Guides"
 title: Криптовалюта
 icon: material/bank-circle
 ---

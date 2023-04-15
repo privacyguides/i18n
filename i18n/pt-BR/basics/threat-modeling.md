@@ -1,4 +1,5 @@
 ---
+meta_title: "Modelagem de Ameaças: O Primeiro Passo em sua Jornada de Privacidade — Privacy Guides"
 title: "Modelagem de Ameaças"
 icon: 'material/target-account'
 description: Equilibrar segurança, privacidade e usabilidade é uma das primeiras e mais difíceis tarefas que você enfrentará em sua jornada de privacidade.

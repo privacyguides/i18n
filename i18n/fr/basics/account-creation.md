@@ -1,4 +1,5 @@
 ---
+meta_title: "How to Create Internet Accounts Privately - Privacy Guides"
 title: "Création de compte"
 icon: 'material/account-plus'
 description: La création de comptes en ligne est pratiquement une nécessité sur internet, prenez ces mesures pour vous assurer de rester privé.

@@ -1,4 +1,5 @@
 ---
+meta_title: "How to Create Internet Accounts Privately - Privacy Guides"
 title: "Pembuatan Akun"
 icon: 'material/account-plus'
 description: Membuat akun online bisa dibilang merupakan kebutuhan internet, lakukan langkah-langkah ini untuk memastikan Anda tetap privat.

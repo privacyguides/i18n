@@ -1,10 +1,11 @@
 ---
+meta_title: "Threat Modeling: The First Step on Your Privacy Journey - Privacy Guides"
 title: "Bedreiging Modellering"
 icon: 'material/target-account'
-description: Een evenwicht vinden tussen veiligheid, privacy en gebruiksvriendelijkheid is een van de eerste en moeilijkste taken die je op jouw privacyreis tegenkomt.
+description: Balancing security, privacy, and usability is one of the first and most difficult tasks you'll face on your privacy journey.
 ---
 
-Een evenwicht vinden tussen veiligheid, privacy en gebruiksvriendelijkheid is een van de eerste en moeilijkste taken die je op jouw privacyreis tegenkomt. Alles is een afweging: hoe veiliger iets is, hoe beperkter of onhandiger het over het algemeen is, enzovoort. Vaak vinden mensen het probleem met de hulpmiddelen die ze aanbevolen zien, dat ze gewoon te moeilijk zijn om te beginnen gebruiken!
+Balancing security, privacy, and usability is one of the first and most difficult tasks you'll face on your privacy journey. Alles is een afweging: hoe veiliger iets is, hoe beperkter of onhandiger het over het algemeen is, enzovoort. Vaak vinden mensen het probleem met de hulpmiddelen die ze aanbevolen zien, dat ze gewoon te moeilijk zijn om te beginnen gebruiken!
 
 Als je de **meest** veilige tools wilt gebruiken, moet je *veel* gebruiksgemak opofferen. En zelfs dan, ==niets is ooit volledig veilig.== Er is **hoge** veiligheid, maar nooit **volledige** veiligheid. Daarom zijn dreigingsmodellen belangrijk.
 

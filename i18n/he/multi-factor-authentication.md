@@ -49,7 +49,7 @@ description: כלים אלה מסייעים לך באבטחת חשבונות ה�
 
 !!! warning "אזהרה"
 
-    בעוד ש-Nitrokeys אינם משחררים את סודות ה-HOTP/TOTP למכשיר שאליו הם מחוברים, אחסון ה-HOTP וה-TOTP **לא** מוצפן ופגיע להתקפות פיזיות. אם אתם מחפשים לאחסן HOTP או TOTP סודות אלה, אנו ממליצים בחום להשתמש ב- Yubikey במקום זאת.
+    בעוד ש-Nitrokeys אינם משחררים את סודות ה-HOTP/TOTP למכשיר שאליו הם מחוברים, אחסון ה-HOTP וה-TOTP **לא** מוצפן ופגיע להתקפות פיזיות. If you are looking to store HOTP or TOTP these secrets, we highly recommend that you use a YubiKey instead.
 
 !!! warning "אזהרה"
 

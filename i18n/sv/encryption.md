@@ -1,4 +1,5 @@
 ---
+meta_title: "Recommended Encryption Software: VeraCrypt, Cryptomator, PicoCrypt, and OpenPGP - Privacy Guides"
 title: "Programvara för kryptering"
 icon: material/file-lock
 description: Kryptering av data är det enda sättet att kontrollera vem som har tillgång till dem. These tools allow you to encrypt your emails and any other files.

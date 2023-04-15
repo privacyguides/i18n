@@ -1,24 +1,24 @@
 ---
 title: "Introdução ao DNS"
 icon: material/dns
-description: The Domain Name System is the "phonebook of the internet," helping your browser find the website it's looking for.
+description: O Sistema de Nome de Domínio é a "agenda telefônica da internet", ajudando seu navegador a encontrar o site que ele está procurando.
 ---
 
 The [Domain Name System](https://en.wikipedia.org/wiki/Domain_Name_System) is the 'phonebook of the Internet'. DNS translates domain names to IP addresses so browsers and other services can load Internet resources, through a decentralized network of servers.
 
 ## O que é DNS?
 
-When you visit a website, a numerical address is returned. For example, when you visit `privacyguides.org`, the address `192.98.54.105` is returned.
+Quando você visita um site, é retornado um endereço numérico. Por exemplo, quando você visita `privacyguides.org`, o endereço `192.98.54.105` é retornado.
 
-DNS has existed since the [early days](https://en.wikipedia.org/wiki/Domain_Name_System#History) of the Internet. DNS requests made to and from DNS servers are **not** generally encrypted. In a residential setting, a customer is given servers by the ISP via [DHCP](https://en.wikipedia.org/wiki/Dynamic_Host_Configuration_Protocol).
+DNS has existed since the [early days](https://en.wikipedia.org/wiki/Domain_Name_System#History) of the Internet. As solicitações de DNS feitas de e para servidores DNS geralmente **não** são criptografadas. In a residential setting, a customer is given servers by the ISP via [DHCP](https://en.wikipedia.org/wiki/Dynamic_Host_Configuration_Protocol).
 
-Unencrypted DNS requests are able to be easily **surveilled** and **modified** in transit. In some parts of the world, ISPs are ordered to do primitive [DNS filtering](https://en.wikipedia.org/wiki/DNS_blocking). When you request the IP address of a domain that is blocked, the server may not respond or may respond with a different IP address. As the DNS protocol is not encrypted, the ISP (or any network operator) can use [DPI](https://en.wikipedia.org/wiki/Deep_packet_inspection) to monitor requests. ISPs can also block requests based on common characteristics, regardless of which DNS server is used. Unencrypted DNS always uses [port](https://en.wikipedia.org/wiki/Port_(computer_networking)) 53 and always uses UDP.
+Solicitações DNS não criptografadas podem ser facilmente **vigiadas** e **modificadas** em trânsito. In some parts of the world, ISPs are ordered to do primitive [DNS filtering](https://en.wikipedia.org/wiki/DNS_blocking). Quando você solicita o endereço IP de um domínio bloqueado, o servidor pode não responder ou pode responder com um endereço IP diferente. As the DNS protocol is not encrypted, the ISP (or any network operator) can use [DPI](https://en.wikipedia.org/wiki/Deep_packet_inspection) to monitor requests. Os ISPs também podem bloquear solicitações com base em características comuns, independentemente de qual servidor DNS é usado. Unencrypted DNS always uses [port](https://en.wikipedia.org/wiki/Port_(computer_networking)) 53 and always uses UDP.
 
 Below, we discuss and provide a tutorial to prove what an outside observer may see using regular unencrypted DNS and [encrypted DNS](#what-is-encrypted-dns).
 
 ### DNS não Criptografado
 
-1. Using [`tshark`](https://www.wireshark.org/docs/man-pages/tshark.html) (part of the [Wireshark](https://en.wikipedia.org/wiki/Wireshark) project) we can monitor and record internet packet flow. This command records packets that meet the rules specified:
+1. Usando [`tshark`](https://www.wireshark.org/docs/man-pages/tshark.html) (parte do projeto [Wireshark](https://en.wikipedia.org/wiki/Wireshark)), podemos monitorar e registrar o fluxo de pacotes da Internet. This command records packets that meet the rules specified:
 
     ```bash
     tshark -w /tmp/dns.pcap udp port 53 and host 1.1.1.1 or host 8.8.8.8

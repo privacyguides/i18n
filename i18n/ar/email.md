@@ -1,4 +1,5 @@
 ---
+meta_title: "Encrypted Private Email Recommendations - Privacy Guides"
 title: "البُرُد الإلكترونية"
 icon: material/email
 description: توفِّر الجهات المذكورة مخزنًا آمنًا لرسائلك، والكثير منهم يدعم تعمية أوبن‌بي‌جي‌بي مع جهات أخرى.
@@ -123,7 +124,7 @@ description: توفِّر الجهات المذكورة مخزنًا آمنًا 
 
 #### :material-check:{ .pg-green } أمن الحساب
 
-تدعم Mailbox.org [الاستيثاق بخطوتين](https://kb.mailbox.org/display/MBOKBEN/How+to+use+two-factor+authentication+-+2FA) في موقعهم فقط. لك استخدام كلمة مرور لمرة واحدة حسب الوقت (TOTP) أو [يوبِكي](https://en.wikipedia.org/wiki/YubiKey) من [يوبِكلاود](https://www.yubico.com/products/services-software/yubicloud). بعض معايير الوِب مثل [WebAuthn](https://en.wikipedia.org/wiki/WebAuthn) ليست مدعومةً بعد.
+تدعم Mailbox.org [الاستيثاق بخطوتين](https://kb.mailbox.org/display/MBOKBEN/How+to+use+two-factor+authentication+-+2FA) في موقعهم فقط. You can use either TOTP or a [YubiKey](https://en.wikipedia.org/wiki/YubiKey) via the [YubiCloud](https://www.yubico.com/products/services-software/yubicloud). بعض معايير الوِب مثل [WebAuthn](https://en.wikipedia.org/wiki/WebAuthn) ليست مدعومةً بعد.
 
 #### :material-information-outline:{ .pg-blue } أمن البيانات
 

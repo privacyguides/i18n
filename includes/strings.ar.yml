@@ -5,13 +5,13 @@ config:
   copyright:
     - 
       1: |
-         Privacy Guides is a non-profit, socially motivated website that provides information for protecting your data security and privacy.
+         Privacy Guides هو موقع غير ربحي ذو دوافع اجتماعية يوفر معلومات لحماية بياناتك وخصوصيتك.
     - 
       2: |
-         We do not make money from recommending certain products, and we do not use affiliate links.
+         لا نكسب مالاً من التوصية بمنتجات معينة، ولا نستخدم الروابط التسويقية.
     - 
       3: |
-         Privacy Guides and contributors.
+         Privacy Guides والمساهمين.
     - 
       4: |
          Content licensed under CC BY-ND 4.0.

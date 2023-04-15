@@ -1,4 +1,5 @@
 ---
+meta_title: "Why Email Isn't the Best Choice for Privacy and Security - Privacy Guides"
 title: Email beveiliging
 icon: material/email
 description: E-mail is op vele manieren inherent onveilig, en dit zijn enkele van de redenen waarom het niet onze eerste keuze is voor veilige communicatie.
@@ -22,7 +23,7 @@ E-mailproviders die je in staat stellen standaard toegangsprotocollen zoals IMAP
 
 ### Hoe bescherm ik mijn private sleutels?
 
-Een smartcard (zoals een [Yubikey](https://support.yubico.com/hc/en-us/articles/360013790259-Using-Your-YubiKey-with-OpenPGP) of [Nitrokey](https://www.nitrokey.com)) werkt door een geëncrypteerd e-mailbericht te ontvangen van een apparaat (telefoon, tablet, computer, enz.) waarop een e-mail/webmailclient draait. Het bericht wordt vervolgens door de smartcard ontsleuteld en de ontsleutelde inhoud wordt teruggestuurd naar het apparaat.
+A smartcard (such as a [YubiKey](https://support.yubico.com/hc/en-us/articles/360013790259-Using-Your-YubiKey-with-OpenPGP) or [Nitrokey](https://www.nitrokey.com)) works by receiving an encrypted email message from a device (phone, tablet, computer, etc.) running an email/webmail client. Het bericht wordt vervolgens door de smartcard ontsleuteld en de ontsleutelde inhoud wordt teruggestuurd naar het apparaat.
 
 Het is gunstig dat de ontcijfering op de smartcard gebeurt om te voorkomen dat jouw privé-sleutel aan een gecompromitteerd apparaat wordt blootgesteld.
 

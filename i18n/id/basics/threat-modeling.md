@@ -1,7 +1,8 @@
 ---
+meta_title: "Threat Modeling: The First Step on Your Privacy Journey - Privacy Guides"
 title: "Threat Modeling"
 icon: 'material/target-account'
-description: Menyeimbangkan keamanan, privasi, dan kegunaan adalah salah satu tugas pertama dan paling sulit yang akan Anda hadapi dalam perjalanan privasi Anda.
+description: Balancing security, privacy, and usability is one of the first and most difficult tasks you'll face on your privacy journey.
 ---
 
 Menyeimbangkan keamanan, privasi, dan kegunaan adalah salah satu tugas pertama dan paling sulit yang akan Anda hadapi dalam perjalanan privasi Anda. Everything is a trade-off: The more secure something is, the more restricting or inconvenient it generally is, etc. Sering kali, orang menemukan bahwa masalah dengan alat yang mereka lihat direkomendasikan adalah bahwa alat tersebut terlalu sulit untuk mulai digunakan!

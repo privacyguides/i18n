@@ -1,4 +1,5 @@
 ---
+meta_title: "Encrypted Private Email Recommendations - Privacy Guides"
 title: "Layanan Surel"
 icon: material/email
 description: Penyedia surel ini menawarkan tempat yang baik untuk menyimpan surel Anda dengan aman, dan banyak yang menawarkan enkripsi OpenPGP yang dapat dioperasikan dengan penyedia lain.
@@ -123,7 +124,7 @@ Mailbox.org doesn't accept any cryptocurrencies as a result of their payment pro
 
 #### :material-check:{ .pg-green } Keamanan Akun
 
-Mailbox.org supports [two factor authentication](https://kb.mailbox.org/display/MBOKBEN/How+to+use+two-factor+authentication+-+2FA) for their webmail only. You can use either TOTP or a [Yubikey](https://en.wikipedia.org/wiki/YubiKey) via the [Yubicloud](https://www.yubico.com/products/services-software/yubicloud). Web standards such as [WebAuthn](https://en.wikipedia.org/wiki/WebAuthn) are not yet supported.
+Mailbox.org supports [two factor authentication](https://kb.mailbox.org/display/MBOKBEN/How+to+use+two-factor+authentication+-+2FA) for their webmail only. You can use either TOTP or a [YubiKey](https://en.wikipedia.org/wiki/YubiKey) via the [YubiCloud](https://www.yubico.com/products/services-software/yubicloud). Web standards such as [WebAuthn](https://en.wikipedia.org/wiki/WebAuthn) are not yet supported.
 
 #### :material-information-outline:{ .pg-blue } Data Security
 

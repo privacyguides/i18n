@@ -1,4 +1,5 @@
 ---
+meta_title: "The Best Privacy Tools, Services, and Ad-Free Recommendations - Privacy Guides"
 title: "Outils de protection de la vie privée"
 icon: material/tools
 hide:

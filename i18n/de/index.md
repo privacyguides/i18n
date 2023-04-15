@@ -1,4 +1,5 @@
 ---
+meta_title: "Privacy Guides: Your Independent Privacy and Security Resource"
 template: overrides/home.de.html
 hide:
   - navigation
@@ -57,7 +58,7 @@ Der Versuch, alle unsere Daten ständig vor allen zu schützen, ist unpraktisch,
 
 ---
 
-## Wir brauchen dich! Hier ist, wie man sich beteiligt:
+## Wir brauchen dich! So kannst du mitmachen:
 
 [:simple-discourse:](https://discuss.privacyguides.net/){ title="Trete unserem Forum bei" }
 [:simple-mastodon:](https://mastodon.neat.computer/@privacyguides){ rel=me title="Folge uns auf Mastodon" }
@@ -67,4 +68,4 @@ Der Versuch, alle unsere Daten ständig vor allen zu schützen, ist unpraktisch,
 [:material-information-outline:](about/index.md){ title="Erfahre mehr über uns" }
 [:material-hand-coin-outline:](about/donate.md){ title="Unterstütze das Projekt" }
 
-Es ist wichtig, dass eine Website wie Privacy Guides immer auf dem neuesten Stand bleibt. We need our audience to keep an eye on software updates for the applications listed on our site and follow recent news about providers that we recommend. Es ist schwer, mit der Schnelllebigkeit des Internets Schritt zu halten, aber wir versuchen unser Bestes. If you spot an error, think a provider should not be listed, notice a qualified provider is missing, believe a browser plugin is no longer the best choice, or uncover any other issue, please let us know.
+Es ist wichtig, dass eine Website wie Privacy Guides immer auf dem neuesten Stand bleibt. Wir brauchen unser Publikum um Software-Updates für die auf unserer Website aufgeführten Anwendungen im Auge zu behalten und die neuesten Nachrichten über die von uns empfohlenen Anbieter zu verfolgen. Es ist schwer, mit der Schnelllebigkeit des Internets Schritt zu halten, aber wir versuchen unser Bestes. Solltest du einen Fehler entdecken, der Meinung sein, dass ein Anbieter nicht aufgelistet sein sollte, ein qualifizierter Anbieter fehlt, ein Browser-Plugin nicht mehr die beste Wahl ist oder du ein anderes Problem finden, lass es uns bitte wissen.

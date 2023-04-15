@@ -1,4 +1,5 @@
 ---
+meta_title: "Encrypted Private Email Recommendations - Privacy Guides"
 title: "電子郵件服務"
 icon: material/email
 description: 這些電子郵件提供商提供了一個好地方來安全地存儲您的電子郵件，也有不少能與其他供應商相互操作的 OpenPGP 加密。
@@ -123,7 +124,7 @@ Mailbox.org 不接受任何加密貨幣，因為他們的支付處理商 BitPay 
 
 #### :material-check:{ .pg-green } 帳戶安全
 
-Mailbox.org支援 [雙因素驗證](https://kb.mailbox.org/display/MBOKBEN/How+to+use+two-factor+authentication+-+2FA) ，僅適用於他們的網絡郵件。 您可以通過 [Yubicloud ](https://www.yubico.com/products/services-software/yubicloud)使用 TOTP 或 [ Yubikey ](https://en.wikipedia.org/wiki/YubiKey) 。 Web 標準如 [WebAuthn ](https://en.wikipedia.org/wiki/WebAuthn) 尚不支援。
+Mailbox.org支援 [雙因素驗證](https://kb.mailbox.org/display/MBOKBEN/How+to+use+two-factor+authentication+-+2FA) ，僅適用於他們的網絡郵件。 You can use either TOTP or a [YubiKey](https://en.wikipedia.org/wiki/YubiKey) via the [YubiCloud](https://www.yubico.com/products/services-software/yubicloud). Web 標準如 [WebAuthn ](https://en.wikipedia.org/wiki/WebAuthn) 尚不支援。
 
 #### :material-information-outline:{ .pg-blue } 資料安全
 

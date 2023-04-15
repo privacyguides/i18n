@@ -1,4 +1,5 @@
 ---
+meta_title: "Privacy Respecting Mobile Web Browsers for Android and iOS - Privacy Guides"
 title: "Przeglądarki mobilne"
 icon: octicons/device-mobile-16
 description: These browsers are what we currently recommend for standard/non-anonymous internet browsing on your phone.

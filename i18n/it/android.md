@@ -1,4 +1,5 @@
 ---
+meta_title: "Android Recommendations: GrapheneOS and DivestOS - Privacy Guides"
 title: "Android"
 icon: 'fontawesome/brands/android'
 description: Puoi sostituire il sistema operativo del tuo telefono Android con queste alternative sicure e rispettose della privacy.
@@ -89,8 +90,6 @@ Questi sono i sistemi operativi, i dispositivi e le applicazioni Android che con
 
 [Panoramica generale di Android :material-arrow-right-drop-circle:](os/android-overview.md ""){.md-button}
 
-[Perché consigliamo GrapheneOS rispetto a CalyxOS :material-arrow-right-drop-circle:](https://blog.privacyguides.org/2022/04/21/grapheneos-or-calyxos/ ""){.md-button}
-
 ## Derivati di AOSP
 
 Consigliamo di installare sul dispositivo uno dei seguenti sistemi operativi basati su Android, elencati in ordine di preferenza, a seconda della compatibilità del proprio dispositivo con questi sistemi operativi.
@@ -119,6 +118,8 @@ Consigliamo di installare sul dispositivo uno dei seguenti sistemi operativi bas
 GrapheneOS supporta [Sandboxed Google Play](https://grapheneos.org/usage#sandboxed-google-play), che esegue [Google Play Services](https://it.wikipedia.org/wiki/Google_Play_Services) totalmente confinato in una sandbox come qualsiasi altra app normale. Ciò significa che è possibile sfruttare la maggior parte dei servizi di Google Play, come le [notifiche push](https://firebase.google.com/docs/cloud-messaging/), pur avendo il pieno controllo delle autorizzazioni e dell'accesso, mentre sono contenuti in un [profilo di lavoro](os/android-overview.md#work-profile) specifico o in un [profilo utente](os/android-overview.md#user-profiles) di propria scelta.
 
 I telefoni Google Pixel sono gli unici dispositivi che attualmente soddisfano i [requisiti di sicurezza hardware](https://grapheneos.org/faq#device-support) di GrapheneOS.
+
+[Perché consigliamo GrapheneOS rispetto a CalyxOS :material-arrow-right-drop-circle:](https://blog.privacyguides.org/2022/04/21/grapheneos-or-calyxos/ ""){.md-button}
 
 ### DivestOS
 
@@ -222,9 +223,9 @@ In questo sito raccomandiamo un'ampia gamma di applicazioni per Android. Le app 
 !!! recommendation
 
     ![Auditor logo](assets/img/android/auditor.svg#only-light){ align=right }
-    ![Auditor logo](assets/img/android/auditor-dark. vg#only-dark){ align=right }
+    ![Auditor logo](assets/img/android/auditor-dark.svg#only-dark){ align=right }
     
-    **Auditor** è un'app che sfrutta le funzionalità di sicurezza hardware per fornire il monitoraggio dell'integrità del dispositivo per [dispositivi supportati](https://attestation.app/about#device-support). Attualmente funziona solo con GrapheneOS e con il sistema operativo originale del dispositivo.
+    **Auditor** is an app which leverages hardware security features to provide device integrity monitoring by actively validating the identity of a device and the integrity of its operating system. Currently, it only works with GrapheneOS or the stock operating system for [supported devices](https://attestation.app/about#device-support).
     
     [:octicons-home-16: Pagina principale](https://attestation.app){ .md-button .md-button--primary }
     [:octicons-eye-16:](https://attestation.app/privacy-policy){ .card-link title="Informativa sulla privacy" }

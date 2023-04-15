@@ -1,4 +1,5 @@
 ---
+meta_title: "How Do VPNs Protect Your Privacy? Our VPN Overview - Privacy Guides"
 title: VPN-overzicht
 icon: material/vpn
 description: Virtual Private Networks verleggen het risico van jouw ISP naar een derde partij die je vertrouwt. Je moet deze dingen in gedachten houden.

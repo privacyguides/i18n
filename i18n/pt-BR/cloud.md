@@ -1,4 +1,5 @@
 ---
+meta_title: "Melhores Fornecedores Privados e Seguros de Armazenamento em Nuvem — Privacy Guides"
 title: "Armazenamento em nuvem"
 icon: material/file-cloud
 description: Many cloud storage providers require your trust that they will not look at your files. These are private alternatives!

@@ -5,47 +5,47 @@ config:
   copyright:
     - 
       1: |
-         Privacy Guides is a non-profit, socially motivated website that provides information for protecting your data security and privacy.
+         Privacy Guides ist eine nicht Profit orientierte, sozial motivierte Webseite, die Informationen zum Schutz deiner Privatsphäre und Datensicherheit bereitstellt.
     - 
       2: |
-         We do not make money from recommending certain products, and we do not use affiliate links.
+         Wir verdienen kein Geld mit der Empfehlung bestimmter Produkte, und wir verwenden keine Affiliate-Links.
     - 
       3: |
-         Privacy Guides and contributors.
+         Privacy Guides und Mitwirkende.
     - 
       4: |
-         Content licensed under CC BY-ND 4.0.
+         Inhalt lizenziert unter CC BY-ND 4.0.
   feedback:
-    question: Was this page helpful?
-    yes: This page was helpful
-    yes-note: Thanks for your feedback!
-    no: This page could be improved
+    question: War diese Seite hilfreich?
+    yes: Diese Seite war hilfreich
+    yes-note: Vielen Dank für dein Feedback!
+    no: Diese Seite könnte verbessert werden
     no-note: |
-      Thanks for your feedback! Help us improve this page by opening a discussion on our forum.
+      Hilf uns, diese Seite zu verbessern, indem du eine Diskussion in unserem Forum eröffnest.
   theme:
-    dark: Switch to dark mode
-    light: Switch to light mode
-    system: Switch to system theme
+    dark: Dunklen Design verwenden
+    light: Hellen Design verwenden
+    system: Gerätedesign verwenden
 nav:
-  Home: Home
-  Knowledge Base: Knowledge Base
-  Technology Essentials: Technology Essentials
-  Operating Systems: Operating Systems
-  Advanced Topics: Advanced Topics
-  Recommendations: Recommendations
-  Internet Browsing: Internet Browsing
-  Providers: Providers
+  Home: Startseite
+  Knowledge Base: Wissensdatenbank
+  Technology Essentials: Technische Grundlagen
+  Operating Systems: Betriebssysteme
+  Advanced Topics: Fortgeschrittene Themen
+  Recommendations: Empfehlungen
+  Internet Browsing: Surfen im Internet
+  Providers: Anbieter
   Software: Software
-  About: About
+  About: Über uns
   Community: Community
-  Online Services: Online Services
-  Code of Conduct: Code of Conduct
-  Contributing: Contributing
-  Writing Guide: Writing Guide
-  Technical Guides: Technical Guides
-  Changelog: Changelog
+  Online Services: Onlinedienste
+  Code of Conduct: Verhaltensgrundsätze
+  Contributing: Mitmachen
+  Writing Guide: Schreibleitfaden
+  Technical Guides: Technische Anleitungen
+  Changelog: Änderungsprotokoll
   Forum: Forum
   Blog: Blog
 site:
   translation: |
-    You're viewing the English copy of Privacy Guides, translated by our fantastic language team on Crowdin. If you notice an error, or see any untranslated sections on this page, please consider helping out!
+    Du siehst die deutsche Version der Datenschutzrichtlinie, übersetzt von unserem fantastischen Sprachteam auf Crowdin. Wenn du einen Fehler oder unübersetzte Abschnitte auf dieser Seite finden solltest, hilf uns bitte weiter!

@@ -1,12 +1,13 @@
 ---
+meta_title: "Datenschutzfreundliche Webbrowser für PC und Mac - Privacy Guides"
 title: "Desktop Browsers"
 icon: material/laptop
-description: These web browsers provide stronger privacy protections than Google Chrome.
+description: Diese Webbrowser bieten einen stärkeren Schutz der Privatsphäre als Google Chrome.
 schema:
   - 
     "@context": http://schema.org
     "@type": WebPage
-    name: Private Desktop Browser Recommendations
+    name: Empfohlene private Desktop-Browser
     url: "./"
     relatedLink: "../mobile-browsers/"
   - 
@@ -14,7 +15,7 @@ schema:
     "@type": SoftwareApplication
     name: Mullvad Browser
     image: /assets/img/browsers/mullvad_browser.svg
-    url: https://mullvad.net/en/browser
+    url: https://mullvad.net/de/browser
     applicationCategory: Web Browser
     operatingSystem:
       - Windows
@@ -29,7 +30,7 @@ schema:
     name: Firefox
     image: /assets/img/browsers/firefox.svg
     url: https://firefox.com
-    sameAs: https://en.wikipedia.org/wiki/Firefox
+    sameAs: https://de.wikipedia.org/wiki/Firefox
     applicationCategory: Web Browser
     operatingSystem:
       - Windows
@@ -44,7 +45,7 @@ schema:
     name: Brave
     image: /assets/img/browsers/brave.svg
     url: https://brave.com
-    sameAs: https://en.wikipedia.org/wiki/Brave_(web_browser)
+    sameAs: https://de.wikipedia.org/wiki/Brave_(Browser)
     applicationCategory: Web Browser
     operatingSystem:
       - Windows
@@ -55,17 +56,17 @@ schema:
       url: "./"
 ---
 
-These are our currently recommended desktop web browsers and configurations for standard/non-anonymous browsing. We recommend [Mullvad Browser](#mullvad-browser) if you are focused on strong privacy protections and anti-fingerprinting out of the box, [Firefox](#firefox) for casual internet browsers looking for a good alternative to Google Chrome, and [Brave](#brave) if you need Chromium browser compatibility.
+Dies sind die von uns derzeit empfohlenen Desktop-Webbrowser und Konfigurationen für das normale/nicht anonyme Surfen. Wir empfehlen [Mullvad Browser](#mullvad-browser) wenn du Wert auf starken Datenschutz und Anti-Fingerprinting legst, [Firefox](#firefox) für gelegentliche Internetnutzer, die eine gute Alternative zu Google Chrome suchen, und [Brave](#brave) wenn du Chromium-Browser-Kompatibilität benötigst.
 
-If you need to browse the internet anonymously, you should use [Tor](tor.md) instead. We make some configuration recommendations on this page, but all browsers other than Tor Browser will be traceable by *somebody* in some manner or another.
+Wenn du anonym im Internet surfen möchtest, solltest du stattdessen [Tor](tor.md) verwenden. Wir geben einige Konfigurationsempfehlungen, aber bei allen anderen Browsern als Tor wirst du von *irgendjemandem* auf die eine oder andere Weise zurückverfolgt werden können.
 
 ## Mullvad Browser
 
 !!! recommendation
 
-    ![Mullvad Browser logo](assets/img/browsers/mullvad_browser.svg){ align=right }
+    ![Mullvad-Browser-Logo](assets/img/browsers/mullvad_browser.svg){ align=right }
     
-    **Mullvad Browser** is a version of [Tor Browser](tor.md#tor-browser) with Tor network integrations removed, aimed at providing Tor Browser's anti-fingerprinting browser technologies to VPN users. It is developed by the Tor Project and distributed by [Mullvad](vpn.md#mullvad), and does **not** require the use of Mullvad's VPN.
+    **Mullvad Browser** ist eine Version des [Tor Browsers](tor.md#tor-browser), bei der die Tor-Netzwerk-Integration entfernt wurde, um VPN-Nutzern die Anti-Fingerprinting-Technologien vom Tor Browser zur Verfügung zu stellen. Es wird vom Tor-Projekt entwickelt, von [Mullvad](vpn.md#mullvad) vertrieben und erfordert **nicht** die Verwendung von Mullvad's VPN.
     
     [:octicons-home-16: Homepage](https://mullvad.net/en/browser){ .md-button .md-button--primary }
     [:octicons-eye-16:](https://mullvad.net/en/help/privacy-policy/){ .card-link title="Privacy Policy" }

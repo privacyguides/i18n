@@ -1,7 +1,8 @@
 ---
+meta_title: "Threat Modeling: The First Step on Your Privacy Journey - Privacy Guides"
 title: "Моделювання загроз"
 icon: 'material/target-account'
-description: Баланс між безпекою, конфіденційністю та зручністю використання - одне з перших і найскладніших завдань, з яким ви зіткнетеся на шляху до приватності.
+description: Balancing security, privacy, and usability is one of the first and most difficult tasks you'll face on your privacy journey.
 ---
 
 Баланс між безпекою, конфіденційністю та зручністю використання - одне з перших і найскладніших завдань, з яким ви зіткнетеся на шляху до приватності. У всьому є компроміс: чим безпечніше щось, тим більш обмежувальним або незручним воно є в цілому і т.д. Часто люди вважають, що проблема з рекомендованими інструментами полягає в тому, що їх занадто складно почати використовувати!

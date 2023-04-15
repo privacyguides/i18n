@@ -1,4 +1,5 @@
 ---
+meta_title: "How Do VPNs Protect Your Privacy? Our VPN Overview - Privacy Guides"
 title: Introduction aux VPNs
 icon: material/vpn
 description: Les réseaux privés virtuels déplacent le risque de votre FAI à un tiers en qui vous avez confiance. Vous devriez garder ces éléments à l'esprit.

@@ -1,4 +1,5 @@
 ---
+meta_title: "Navegadores de Internet que Respeitam a Privacidade para PC e Mac — Privacy Guides"
 title: "Navegadores Desktop"
 icon: material/laptop
 description: Estes navegadores de internet dão uma proteção à privacidade mais forte do que o Google Chrome.
@@ -78,27 +79,27 @@ If you need to browse the internet anonymously, you should use [Tor](tor.md) ins
         - [:simple-apple: macOS](https://mullvad.net/en/download/browser/macos)
         - [:simple-linux: Linux](https://mullvad.net/en/download/browser/linux)
 
-Like [Tor Browser](tor.md), Mullvad Browser is designed to prevent fingerprinting by making your browser fingerprint identical to all other Mullvad Browser users, and it includes default settings and extensions that are automatically configured by the default security levels: *Standard*, *Safer* and *Safest*. Assim, é importante que você não modifique o navegador de forma alguma a não ser através do ajuste dos [níveis de segurança](https://tb-manual.torproject.org/security-settings/) predefinidos. Outras modificações tornariam a sua impressão digital única, derrotando o propósito de usar este navegador. Se você preferir personalizar mais o navegador e a identificação das suas impressões digitais não é uma preocupação para você, recomendamos o [Firefox](#firefox).
+Como o [Navegador Tor](tor.md), o Navegador Mullvad foi projetado para evitar a impressão digital, tornando a impressão digital de seu navegador igual a de todas as outras pessoas do Navegador Mullvad, de modo que ele inclui configurações e extensões predefinidas que são configuradas automaticamente pelos seguintes níveis de segurança padrão: Padrão *(Standard)*, Seguro *(Safer)* e O Mais Seguro *(Safest)*. Assim, é importante que você não modifique o navegador de forma alguma a não ser através do ajuste dos [níveis de segurança](https://tb-manual.torproject.org/security-settings/) disponíveis. Outras modificações tornariam a sua impressão digital única, derrotando o propósito de usar este navegador. Se você preferir personalizar mais o navegador e a identificação das suas impressões digitais não é uma preocupação para você, recomendamos o [Firefox](#firefox).
 
 ### Anti-Fingerprinting
 
 **Without** using a [VPN](vpn.md), Mullvad Browser provides the same protections against [naive fingerprinting scripts](https://github.com/arkenfox/user.js/wiki/3.3-Overrides-%5BTo-RFP-or-Not%5D#-fingerprinting) as other private browsers like Firefox+[Arkenfox](#arkenfox-advanced) or [Brave](#brave). O Navegador Mullvad oferece proteção pronta para uso, à custa de alguma flexibilidade e conveniência que outros navegadores privados podem oferecer.
 
-==For the strongest anti-fingerprinting protection, we recommend using Mullvad Browser in conjunction **with** a VPN==, whether that is Mullvad or another recommended VPN provider. Quando você estiver usando uma VPN e o Navegador Mullvad, você compartilhará uma impressão digital e um grupo de endereços IP com uma grande variedade de outras pessoas, dando a você uma "multidão" para se misturar. Esta estratégia é a única forma de frustrar scripts avançados de rastreamento, e é a mesma técnica anti-impressão digital usada pelo Navegador Tor.
+==Para a mais forte proteção contra impressões digitais, recomendamos o uso do Navegador Mullvad em conjunto **com** uma VPN==, seja ela Mullvad ou outro provedor de VPN recomendado. Quando você estiver usando uma VPN e o Navegador Mullvad, você compartilhará uma impressão digital e um grupo de endereços IP com uma grande variedade de outras pessoas, dando a você uma "multidão" para se misturar. Esta estratégia é a única forma de frustrar scripts avançados de rastreamento, e é a mesma técnica anti-impressão digital usada pelo Navegador Tor.
 
-Note que enquanto você pode usar o Navegador Mullvad com qualquer fornecedor de VPN, outras pessoas nessa VPN também devem estar usando o Mullvad Browser para que essa "multidão" exista, algo que é mais provável na Mullvad VPN do que em outros fornecedores, principalmente por causa do recente lançamento do Navegador Mullvad. Mullvad Browser does not have built-in VPN connectivity, nor does it check whether you are using a VPN before browsing; your VPN connection has to be configured and managed separately.
+Note que enquanto você pode usar o Navegador Mullvad com qualquer fornecedor de VPN, outras pessoas nessa VPN também devem estar usando o Mullvad Browser para que essa "multidão" exista, algo que é mais provável na Mullvad VPN do que em outros fornecedores, principalmente por causa do recente lançamento do Navegador Mullvad. O Navegador Mullvad não possui conectividade VPN integrada, nem verifica se você está usando uma VPN antes de navegar; sua conexão VPN precisa ser configurada e administrada separadamente.
 
-Mullvad Browser comes with the *uBlock Origin* and *NoScript* browser extensions pre-installed. While we typically [don't recommend](#extensions) adding *additional* browser extensions, these extensions that come pre-installed with the browser should **not** be removed or configured outside their default values, because doing so would noticeably make your browser fingerprint distinct from other Mullvad Browser users. It also comes pre-installed with the Mullvad Browser Extension, which *can* be safely removed without impacting your browser fingerprint if you would like, but is also safe to keep even if you don't use Mullvad VPN.
+O Navegador Mullvad vem com as extensões de navegador *uBlock Origin* e *NoScript* pré-instaladas. Ainda que normalmente [não recomendemos](#extensions) acrescentar *mais* extensões ao navegador, estas extensões que vêm pré-instaladas com o navegador **não** devem ser removidas ou configuradas fora de seus valores padrão, pois isso tornaria sua impressão digital do navegador visivelmente diferente de outros usuários do Navegador Mullvad. Ele também vem pré-instalado com a Extensão Mullvad Browser, que *pode* ser removida em segurança, se você quiser, sem afetar a impressão digital do seu navegador, mas também é seguro para manter mesmo se você não usar o Mullvad VPN.
 
-### Private Browsing Mode
+### Modo de Navegação Privada
 
-Mullvad Browser operates in permanent private browsing mode, meaning your history, cookies, and other site data will always be cleared every time the browser is closed. Your bookmarks, browser settings, and extension settings will still be preserved.
+O Navegador Mullvad opera em modo de navegação privada permanente, o que significa que o seu histórico, cookies e outros dados de sites serão apagados sempre que o navegador for fechado. Seus favoritos, configurações do navegador e configurações de extensão ainda serão preservados.
 
-This is required to prevent advanced forms of tracking, but does come at the cost of convenience and some Firefox features, such as Multi-Account Containers. Remember you can always use multiple browsers, for example, you could consider using Firefox+Arkenfox for a few sites that you want to stay logged in on or otherwise don't work properly in Mullvad Browser, and Mullvad Browser for general browsing.
+Isso é necessário para evitar formas avançadas de rastreamento, mas vem com o custo de conveniência e alguns recursos do Firefox, como contêineres de várias contas. Lembre-se de que você sempre pode usar vários navegadores, por exemplo, você pode considerar usar o Firefox+ Arkenfox para alguns sites em que deseja permanecer conectado ou não funcionar corretamente no Navegador Mullvad, e usar o Navegador Mullvad para navegação geral.
 
 ### Mullvad Leta
 
-Mullvad Browser comes with DuckDuckGo set as the default [search engine](search-engines.md), but it also comes preinstalled with **Mullvad Leta**, a search engine which requires an active Mullvad VPN subscription to access. Mullvad Leta queries Google's paid search API directly (which is why it is limited to paying subscribers), however because of this limitation it is possible for Mullvad to correlate search queries and Mullvad VPN accounts. For this reason we discourage the use of Mullvad Leta, even though Mullvad collects very little information about their VPN subscribers.
+Navegador de Mullvad vem com o DuckDuckGo definido como o [mecanismo de pesquisa padrão](search-engines.md), mas também vem pré-instalado com o **Mullvad Leta**, um mecanismo de busca que requer uma assinatura ativa do Mullvad VPN para acessar. A Mullvad Leta consulta diretamente a API de pesquisa paga do Google (razão pela qual se limita a assinantes pagos), no entanto, devido a esta limitação, é possível à Mullvad correlacionar as consultas de pesquisa e as contas VPN da Mullvad. Por esse motivo, desencorajamos o uso do Mullvad Leta, mesmo que o Mullvad colete muito pouca informação sobre seus assinantes de VPN.
 
 ## Firefox
 
@@ -126,30 +127,30 @@ Mullvad Browser comes with DuckDuckGo set as the default [search engine](search-
 
 ### Firefox
 
-These options can be found in :material-menu: → **Settings**
+Essas opções podem ser encontradas em :material-menu: → **Configurações**
 
-#### Search
+#### Pesquisa
 
-- [ ] Uncheck **Provide search suggestions**
+- [ ] Desmarque **Mostrar sugestões de pesquisa**
 
-Search suggestion features may not be available in your region.
+Os recursos de sugestão de pesquisa podem não estar disponíveis na sua região.
 
-Search suggestions send everything you type in the address bar to the default search engine, regardless of whether you submit an actual search. Disabling search suggestions allows you to more precisely control what data you send to your search engine provider.
+Sugestões de pesquisa enviam tudo o que você digita na barra de endereços para o mecanismo de pesquisa padrão, independente se você enviar uma pesquisa real. Desabilitar sugestões de busca permite que você controle com mais precisão quais dados você envia para o seu provedor de mecanismo de pesquisa.
 
-#### Privacy & Security
+#### Privacidade & Segurança
 
-##### Proteção Reforçada de Rastreio (ETP)
+##### Proteção aprimorada contra rastreamento (ETP)
 
-- Selecione **Strict**
+- [x] Selecione **Rigoroso**
 
-This protects you by blocking social media trackers, fingerprinting scripts (note that this does not protect you from *all* fingerprinting), cryptominers, cross-site tracking cookies, and some other tracking content. ETP protects against many common threats, but it does not block all tracking avenues because it is designed to have minimal to no impact on site usability.
+Isso protege você bloqueando rastreadores de mídia social, scripts de impressão digital (observe que isso não protege você de *todas as* impressões digitais), criptominers, “cookies” de rastreamento entre sites e alguns outros conteúdos de rastreamento. A Proteção aprimorada contra rastreamento (ETP) protege contra muitas ameaças comuns, mas isso não bloqueia todos os meios de rastreamento porque é projetado para ter um mínimo ou nenhum impacto na usabilidade do site.
 
-##### Firefox Suggest (US only)
+##### Firefox Suggest (apenas nos EUA)
 
-[Firefox Suggest](https://support.mozilla.org/en-US/kb/firefox-suggest) is a feature similar to search suggestions which is only available in the US. We recommend disabling it for the same reason we recommend disabling search suggestions. If you don't see these options under the **Address Bar** header, you do not have the new experience and can ignore these changes.
+[Firefox Suggest](https://support.mozilla.org/en-US/kb/firefox-suggest) é um recurso semelhante às sugestões de pesquisa que só está disponível nos EUA. Recomendamos desativá-lo pelo mesmo motivo que recomendamos desativar as sugestões de pesquisa. Se você não ver essas opções sob o **cabeçalho da barra de endereços**, você não tem esse novo experimento e pode ignorar essas alterações.
 
-- [ ] Uncheck **Suggestions from the web**
-- [ ] Uncheck **Suggestions from sponsors**
+- [ ] Desmarque **Sugestões da web**
+- [ ] Desmarque **Sugestões de patrocinadores**
 
 ##### Sanitizar ao Fechar
 
@@ -157,7 +158,7 @@ O serviço [Firefox Sync](https://hacks.mozilla.org/2018/11/firefox-sync-privacy
 
 - Selecione **Excluir cookies e dados do site quando o Firefox estiver fechado**
 
-Geralmente, não recomendamos a instalação de nenhuma extensão, pois elas aumentam sua superfície de ataque; no entanto, se você deseja o bloqueio de conteúdo, o [uBlock Origin](#additional-resources) pode ser útil para você. A extensão também é uma extensão :trophy: [recomendada](https://support.mozilla.org/kb/add-on-badges#w_recommended-extensions) pela Mozilla. You can set exceptions on a per-site basis, if you wish to stay logged in to a particular site you visit often.
+Isso protege você contra cookies persistentes, mas não te protege contra cookies adquiridos durante a atual sessão de navegação. A extensão também é uma extensão :trophy: [recomendada](https://support.mozilla.org/kb/add-on-badges#w_recommended-extensions) pela Mozilla. You can set exceptions on a per-site basis, if you wish to stay logged in to a particular site you visit often.
 
 ##### Desativar Telemetria
 

@@ -1,4 +1,5 @@
 ---
+meta_title: "Privacy Respecting Web Browsers for PC and Mac - Privacy Guides"
 title: "데스크톱 브라우저"
 icon: material/laptop
 description: These web browsers provide stronger privacy protections than Google Chrome.

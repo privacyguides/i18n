@@ -1,4 +1,5 @@
 ---
+meta_title: "The Best Password Managers to Protect Your Privacy and Security - Privacy Guides"
 title: "Gestionnaires de mots de passe"
 icon: material/form-textbox-password
 description: Les gestionnaires de mots de passe vous permettent de stocker et de gérer en toute sécurité des mots de passe et autres informations d'identification.

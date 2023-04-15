@@ -1,10 +1,10 @@
 ---
 title: "Aggregatori di notizie"
 icon: octicons/rss-24
-description: These news aggregator clients let you keep up with your favorite blogs and news sites using internet standards like RSS.
+description: Questi client di aggregazione di notizie consentono di tenersi aggiornati con i blog e siti di news preferiti utilizzando standard Internet come RSS.
 ---
 
-A [news aggregator](https://en.wikipedia.org/wiki/News_aggregator) is a way to keep up with your favorite blogs and news sites.
+Un [Aggregatore di news](https://en.wikipedia.org/wiki/News_aggregator)è un modo per tenersi aggiornati con i blog e siti di news preferiti.
 
 ## Client aggregatori
 
@@ -131,28 +131,28 @@ A [news aggregator](https://en.wikipedia.org/wiki/News_aggregator) is a way to k
     Stiamo lavorando per stabilire criteri ben definiti per ogni sezione del nostro sito, e questo potrebbe essere soggetto a modifiche. Se avete domande sui nostri criteri, vi preghiamo di [chiedere sul nostro forum](https://discuss.privacyguides.net/latest) e non date per scontato che non abbiamo preso in considerazione qualcosa nel formulare le nostre raccomandazioni se non è elencato qui. Sono molti i fattori presi in considerazione e discussi quando consigliamo un progetto, e stiamo lavorando per documentare ogni singolo fattore.
 
 - Deve essere un software open-source.
-- Must operate locally, i.e. must not be a cloud service.
+- Deve funzionare localmente, cioè non deve essere un servizio in cloud.
 
-## Social Media RSS Support
+## Social che supportano RSS
 
-Some social media services also support RSS although it's not often advertised.
+Alcuni social supportano anche gli RSS, ma non spesso viene citato.
 
 ### Reddit
 
 Usando una qualsiasi [istanza](https://github.com/zedeus/nitter/wiki/Instances) di Nitter, è possibile iscriversi mediante RSS.
 
-!!! example
-    Replace `subreddit_name` with the subreddit you wish to subscribe to.
+!!! esempio
+    Sostituisci `nome_subreddit` con il nome del subreddit al quale desideri iscriverti.
 
     ```text
-    https://www.reddit.com/r/{{ subreddit_name }}/new/.rss
+    https://www.reddit.com/r/{{ nome_subreddit }}/new/.rss
     ```
 
 ### Twitter
 
 Puoi iscriverti ai canali YouTube senza accedere e senza associare le informazioni di utilizzo al proprio account Google.
 
-!!! example
+!!! esempio
     1. Scegli un istanza e imposta `istanza_nitter`.
     2. Sostituisci `account_twitter` con il nome dell'account che desideri seguire.
 
@@ -162,11 +162,11 @@ Puoi iscriverti ai canali YouTube senza accedere e senza associare le informazio
 
 ### YouTube
 
-You can subscribe YouTube channels without logging in and associating usage information with your Google Account.
+È possibile iscriversi ai canali YouTube senza effettuare il login e senza associare le proprie informazioni al tuo account Google.
 
-!!! example
+!!! esempio
 
-    https://www.youtube.com/feeds/videos.xml?channel_id=[CHANNEL ID]
+    Per iscriversi ad un canale YouTube con un client RSS, cercare innanzitutto il [codice canale](https://support.google.com/youtube/answer/6180214), sostituendo `[ID CANALE]` qui sotto:
     ```text
-    https://www.youtube.com/feeds/videos.xml?channel_id=[CHANNEL ID]
+    https://www.youtube.com/feeds/videos.xml?channel_id=[ID CANALE]
     ```

@@ -1,4 +1,5 @@
 ---
+meta_title: "Why Email Isn't the Best Choice for Privacy and Security - Privacy Guides"
 title: Keamanan Email
 icon: material/email
 description: Email pada dasarnya tidak aman dalam banyak hal, dan ini adalah beberapa alasan mengapa email bukanlah pilihan utama kami untuk komunikasi yang aman.
@@ -22,7 +23,7 @@ Penyedia email yang memungkinkan Anda menggunakan protokol akses standar seperti
 
 ### Bagaimana Cara Melindungi Kunci Pribadi Saya?
 
-A smartcard (such as a [Yubikey](https://support.yubico.com/hc/en-us/articles/360013790259-Using-Your-YubiKey-with-OpenPGP) or [Nitrokey](https://www.nitrokey.com)) works by receiving an encrypted email message from a device (phone, tablet, computer, etc.) running an email/webmail client. Pesan tersebut kemudian didekripsi oleh smartcard dan konten yang telah didekripsi dikirim kembali ke perangkat.
+A smartcard (such as a [YubiKey](https://support.yubico.com/hc/en-us/articles/360013790259-Using-Your-YubiKey-with-OpenPGP) or [Nitrokey](https://www.nitrokey.com)) works by receiving an encrypted email message from a device (phone, tablet, computer, etc.) running an email/webmail client. Pesan tersebut kemudian didekripsi oleh smartcard dan konten yang telah didekripsi dikirim kembali ke perangkat.
 
 Hal ini menguntungkan untuk dekripsi terjadi pada smartcard sehingga untuk menghindari kemungkinan mengekspos kunci pribadi Anda ke perangkat dikompromikan.
 

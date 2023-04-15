@@ -1,7 +1,25 @@
 ---
+meta_title: "Tor Browser and Network: Anonymous Web Browsing - Privacy Guides"
 title: "Сеть Tor"
 icon: simple/torproject
 description: Защитите свой интернет-сёрфинг от посторонних глаз, используя сеть Tor - безопасную сеть, обходящую цензуру.
+schema:
+  - 
+    "@context": http://schema.org
+    "@type": SoftwareApplication
+    name: Браузер Tor
+    image: /assets/img/browsers/tor.svg
+    url: https://www.torproject.org
+    sameAs: https://en.wikipedia.org/wiki/Tor_(network)
+    applicationCategory: Web Browser
+    operatingSystem:
+      - Windows
+      - macOS
+      - Linux
+      - Android
+    subjectOf:
+      "@type": WebPage
+      url: "./"
 ---
 
 ![Tor logo](assets/img/self-contained-networks/tor.svg){ align=right }

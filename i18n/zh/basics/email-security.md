@@ -1,4 +1,5 @@
 ---
+meta_title: "Why Email Isn't the Best Choice for Privacy and Security - Privacy Guides"
 title: 电子邮件安全
 icon: material/email
 description: Email is inherently insecure in many ways, and these are some of the reasons it isn't our top choice for secure communications.
@@ -22,7 +23,7 @@ description: Email is inherently insecure in many ways, and these are some of th
 
 ### 我如何保护我的私钥？
 
-A smartcard (such as a [Yubikey](https://support.yubico.com/hc/en-us/articles/360013790259-Using-Your-YubiKey-with-OpenPGP) or [Nitrokey](https://www.nitrokey.com)) works by receiving an encrypted email message from a device (phone, tablet, computer, etc.) running an email/webmail client. 然后，该信息被智能卡解密，解密后的内容被送回设备。
+A smartcard (such as a [YubiKey](https://support.yubico.com/hc/en-us/articles/360013790259-Using-Your-YubiKey-with-OpenPGP) or [Nitrokey](https://www.nitrokey.com)) works by receiving an encrypted email message from a device (phone, tablet, computer, etc.) running an email/webmail client. 然后，该信息被智能卡解密，解密后的内容被送回设备。
 
 在智能卡上进行解密是很有利的，这样可以避免将你的私钥暴露给某个被攻破的设备。
 

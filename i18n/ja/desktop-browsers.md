@@ -1,4 +1,5 @@
 ---
+meta_title: "Privacy Respecting Web Browsers for PC and Mac - Privacy Guides"
 title: "デスクトップブラウザ"
 icon: material/laptop
 description: これらのウェブブラウザは、Google Chromeよりも強力なプライバシー保護を提供します。

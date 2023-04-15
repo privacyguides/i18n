@@ -1,4 +1,5 @@
 ---
+meta_title: "The Best Password Managers to Protect Your Privacy and Security - Privacy Guides"
 title: "מנהלי סיסמאות"
 icon: material/form-textbox-password
 description: מנהלי סיסמאות מאפשרים לך לאחסן ולנהל בצורה מאובטחת סיסמאות ואישורים אחרים.

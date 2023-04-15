@@ -1,14 +1,15 @@
 ---
+meta_title: "The Best Private and Secure Cloud Storage Providers - Privacy Guides"
 title: "Archiviazione in cloud"
 icon: material/file-cloud
-description: Many cloud storage providers require your trust that they will not look at your files. These are private alternatives!
+description: Molti fornitori di spazio d'archiviazione in cloud richiedono la tua fiducia sul fatto che non guarderanno i tuoi file. Queste sono alternative private!
 ---
 
-Molti fornitori di spazio di archiviazione cloud richiedono la tua totale fiducia sul fatto che non guarderanno nei tuoi file. The alternatives listed below eliminate the need for trust by implementing secure E2EE.
+Molti fornitori di spazio di archiviazione cloud richiedono la tua totale fiducia sul fatto che non guarderanno nei tuoi file. Le alternative elencate di seguito eliminano la necessità di fiducia implementando l'E2EE.
 
-If these alternatives do not fit your needs, we suggest you look into using encryption software like [Cryptomator](encryption.md#cryptomator-cloud) with another cloud provider. Using Cryptomator in conjunction with **any** cloud provider (including these) may be a good idea to reduce the risk of encryption flaws in a provider's native clients.
+Se queste alternative non soddisfano le vostre esigenze, vi suggeriamo di utilizzare un software di crittografia come [Cryptomator](encryption.md#cryptomator-cloud) con un altro cloud provider. L'uso di Cryptomator insieme a **qualsiasi ** provider cloud (compresi questi) può essere una buona idea per ridurre il rischio di falle di crittografia nei client nativi di un provider.
 
-??? recommendation
+??? domanda "Stai cercando Nextcloud?"
 
     Nextcloud is [still a recommended tool](productivity.md) for self-hosting a file management suite, however we do not recommend third-party Nextcloud storage providers at the moment, because we do [not recommend](https://discuss.privacyguides.net/t/dont-recommend-nextcloud-e2ee/10352/29) Nextcloud's built-in E2EE functionality for home users.
 

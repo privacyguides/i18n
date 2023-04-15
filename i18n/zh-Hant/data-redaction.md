@@ -1,4 +1,5 @@
 ---
+meta_title: "Remove PII with Metadata Scrubbers and Data Redaction Tools - Privacy Guides"
 title: "資料和中繼資料處理"
 icon: material/tag-remove
 description: 使用這些工具來移除所分享的相片和文件中的GPS定位和其他識別資訊等中繼資料。

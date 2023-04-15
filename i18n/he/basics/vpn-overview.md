@@ -1,4 +1,5 @@
 ---
+meta_title: "How Do VPNs Protect Your Privacy? Our VPN Overview - Privacy Guides"
 title: סקירה כללית של VPN
 icon: material/vpn
 description: רשתות וירטואליות פרטיות מעבירות את הסיכון מספק שירותי האינטרנט שלך לצד שלישי שאתה סומך עליו. כדאי לזכור את הדברים האלה.

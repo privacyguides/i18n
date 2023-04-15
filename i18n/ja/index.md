@@ -1,5 +1,6 @@
 ---
-template: overrides/home.en.html
+meta_title: "Privacy Guides: Your Independent Privacy and Security Resource"
+template: overrides/home.ja.html
 hide:
   - navigation
   - toc
@@ -67,4 +68,4 @@ schema:
 [:material-information-outline:](about/index.md){ title="私たちの詳細" }
 [:material-hand-coin-outline:](about/donate.md){ title="プロジェクトを支援" }
 
-It's important for a website like Privacy Guides to always stay up-to-date. We need our audience to keep an eye on software updates for the applications listed on our site and follow recent news about providers that we recommend. It's hard to keep up with the fast pace of the internet, but we try our best. If you spot an error, think a provider should not be listed, notice a qualified provider is missing, believe a browser plugin is no longer the best choice, or uncover any other issue, please let us know.
+Privacy Guidesのようなウェブサイトは、常に最新の情報を提供することが重要です。 閲覧者は、私たちのサイトに掲載されたアプリケーションのソフトウェアアップデートを確認し、おすすめのプロバイダに関する最新情報を入手する必要があります。 インターネットの速さに追いつくのは難しいですが、私たちは最善を尽くします。 誤りを見つけた場合、不適切なプロバイダが掲載されていると感じた場合、適格なプロバイダが掲載されていない場合、ブラウザのプラグインが最適でないと感じた場合、またはその他の問題を発見した場合は、ご連絡ください。

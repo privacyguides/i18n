@@ -1,5 +1,6 @@
 ---
-title: "Search Engines"
+meta_title: "Recommended Search Engines: Anonymous Google Alternatives - Privacy Guides"
+title: "検索エンジン"
 icon: material/search-web
 description: These privacy-respecting search engines don't build an advertising profile based on your searches.
 ---

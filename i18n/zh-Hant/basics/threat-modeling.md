@@ -1,7 +1,8 @@
 ---
+meta_title: "Threat Modeling: The First Step on Your Privacy Journey - Privacy Guides"
 title: "建立威脅模型"
 icon: 'material/target-account'
-description: 平衡安全性、隱私權和可用性是您在隱私權之旅中將面臨的首要和最困難的任務之一。
+description: Balancing security, privacy, and usability is one of the first and most difficult tasks you'll face on your privacy journey.
 ---
 
 平衡安全性、隱私權和可用性是您在隱私權之旅中將面臨的首要和最困難的任務之一。 一切都要各方權衡：越安全的東西，它通常越受限制或越不方便。 通常，人們發現那些被推薦的工具的問題是它們太難開始使用了！

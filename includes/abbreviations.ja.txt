@@ -1,4 +1,4 @@
-*[2FA]: 2-Factor Authentication
+*[2FA]: 二要素認証 (2-Factor Authentication)
 *[ADB]: Android Debug Bridge
 *[AOSP]: Android Open Source Project
 *[ATA]: Advanced Technology Attachment
@@ -15,7 +15,7 @@
 *[DoQ]: DNS over QUIC
 *[DoH3]: DNS over HTTP/3
 *[DoT]: DNS over TLS
-*[E2EE]: End-to-End Encryption/Encrypted
+*[E2EE]: エンドツーエンド暗号化 (End-to-End Encryption/Encrypted)
 *[ECS]: EDNS Client Subnet
 *[EEA]: European Economic Area
 *[entropy]: A measurement of how unpredictable something is
@@ -25,7 +25,7 @@
 *[FDE]: Full Disk Encryption
 *[FIDO]: Fast IDentity Online
 *[fork]: A new software project created by copying an existing project and adding to it independently
-*[GDPR]: General Data Protection Regulation
+*[GDPR]: EU一般データ保護規則 (General Data Protection Regulation)
 *[GPG]: GNU Privacy Guard (PGP implementation)
 *[GPS]: Global Positioning System
 *[GUI]: Graphical User Interface
@@ -50,7 +50,7 @@
 *[MAC]: Media Access Control
 *[MDAG]: Microsoft Defender Application Guard
 *[MEID]: Mobile Equipment Identifier
-*[MFA]: Multi-Factor Authentication
+*[MFA]: 多要素認証 (Multi-Factor Authentication)
 *[NVMe]: Nonvolatile Memory Express
 *[NTP]: Network Time Protocol
 *[OCI]: Open Container Initiative
@@ -65,7 +65,7 @@
 *[PAM]: Linux Pluggable Authentication Modules
 *[POP3]: Post Office Protocol 3
 *[PGP]: Pretty Good Privacy (see OpenPGP)
-*[PII]: Personally Identifiable Information
+*[PII]: 個人を特定できる情報 (Personally Identifiable Information)
 *[QNAME]: Qualified Name
 *[rolling release]: Updates which are released frequently rather than set intervals
 *[RSS]: Really Simple Syndication
@@ -83,7 +83,7 @@
 *[TCP]: Transmission Control Protocol
 *[TEE]: Trusted Execution Environment
 *[TLS]: Transport Layer Security
-*[ToS]: Terms of Service
+*[ToS]: 利用規約 (Terms of Service)
 *[TOTP]: Time-based One-Time Password
 *[TPM]: Trusted Platform Module
 *[U2F]: Universal 2nd Factor

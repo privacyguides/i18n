@@ -1,4 +1,5 @@
 ---
+meta_title: "The Best Private and Secure Cloud Storage Providers - Privacy Guides"
 title: "אחסון בענן"
 icon: material/file-cloud
 description: ספקי אחסון בענן רבים דורשים את האמון שלך שהם לא יסתכלו על הקבצים שלך. אלו חלופות פרטיות!

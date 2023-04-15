@@ -1,5 +1,6 @@
 ---
-title: "Real-Time Communication"
+meta_title: "The Best Private Instant Messengers - Privacy Guides"
+title: "リアルタイムコミュニケーション"
 icon: material/chat-processing
 description: Other instant messengers make all of your private conversations available to the company that runs them.
 ---
@@ -99,7 +100,7 @@ Briar has a fully [published specification](https://code.briarproject.org/briar/
 
 Briar supports perfect forward secrecy by using the Bramble [Handshake](https://code.briarproject.org/briar/briar-spec/blob/master/protocols/BHP.md) and [Transport](https://code.briarproject.org/briar/briar-spec/blob/master/protocols/BTP.md) protocol.
 
-## Additional Options
+## 追加のオプション
 
 !!! warning
 

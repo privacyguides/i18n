@@ -1,4 +1,5 @@
 ---
+meta_title: "Encrypted Private Email Recommendations - Privacy Guides"
 title: "Services d'email"
 icon: material/email
 description: Ces fournisseurs d'email constituent un excellent moyen de stocker vos emails en toute sécurité, et nombre d'entre eux proposent un système de chiffrement OpenPGP interopérable avec d'autres fournisseurs.
@@ -123,7 +124,7 @@ Mailbox.org n'accepte aucune crypto-monnaie en raison de la suspension des activ
 
 #### :material-check:{ .pg-green } Sécurité du compte
 
-Mailbox.org prend en charge l'[authentification à deux facteurs](https://kb.mailbox.org/display/MBOKBEN/How+to+use+two-factor+authentication+-+2FA) pour son webmail uniquement. Vous pouvez utiliser soit TOTP, soit une [Yubikey](https://fr.wikipedia.org/wiki/YubiKey) via le [Yubicloud](https://www.yubico.com/products/services-software/yubicloud). Les normes web telles que [WebAuthn](https://fr.wikipedia.org/wiki/WebAuthn) ne sont pas encore prises en charge.
+Mailbox.org prend en charge l'[authentification à deux facteurs](https://kb.mailbox.org/display/MBOKBEN/How+to+use+two-factor+authentication+-+2FA) pour son webmail uniquement. You can use either TOTP or a [YubiKey](https://en.wikipedia.org/wiki/YubiKey) via the [YubiCloud](https://www.yubico.com/products/services-software/yubicloud). Les normes web telles que [WebAuthn](https://fr.wikipedia.org/wiki/WebAuthn) ne sont pas encore prises en charge.
 
 #### :material-information-outline:{ .pg-blue } Sécurité des données
 

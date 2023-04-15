@@ -1,4 +1,5 @@
 ---
+meta_title: "Private VPN Service Recommendations and Comparison, No Sponsors or Ads - Privacy Guides"
 title: "שירותי VPN"
 icon: material/vpn
 description: אלו הם שירותי ה-VPN הטובים ביותר להגנה על הפרטיות והאבטחה שלך באינטרנט. מצא כאן ספק שאינו מעוניין לרגל אחריך.

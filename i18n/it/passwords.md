@@ -1,4 +1,5 @@
 ---
+meta_title: "The Best Password Managers to Protect Your Privacy and Security - Privacy Guides"
 title: "Gestori di password"
 icon: material/form-textbox-password
 description: I gestori delle password permettono di archiviare e gestire con sicurezza le password e altre credenziali.
@@ -6,7 +7,7 @@ schema:
   - 
     "@context": http://schema.org
     "@type": WebPage
-    name: Password Manager Recommendations
+    name: Gestori di password consigliati
     url: "./"
   - 
     "@context": http://schema.org
@@ -14,7 +15,7 @@ schema:
     name: Bitwarden
     image: /assets/img/password-management/bitwarden.svg
     url: https://bitwarden.com
-    sameAs: https://en.wikipedia.org/wiki/Bitwarden
+    sameAs: https://it.wikipedia.org/wiki/Bitwarden
     applicationCategory: Gestore di password
     operatingSystem:
       - Windows
@@ -64,7 +65,7 @@ schema:
     name: KeePassDX (Android)
     image: /assets/img/password-management/keepassxc.svg
     url: https://keepassxc.org/
-    sameAs: https://en.wikipedia.org/wiki/KeePassXC
+    sameAs: https://it.wikipedia.org/wiki/KeePassXC
     applicationCategory: Gestore di password
     operatingSystem:
       - Windows
@@ -213,7 +214,7 @@ Un vantaggio di 1Password rispetto a Bitwarden è il supporto di prima classe pe
     [:octicons-info-16:](https://doc.psono.com){ .card-link title=Documentazione}
     [:octicons-code-16:](https://gitlab.com/psono){ .card-link title="Codice sorgente" }
     
-    ??? downloads
+    ??? download
     
         - [:simple-googleplay: Google Play](https://play.google.com/store/apps/details?id=com.psono.psono)
         - [:simple-appstore: App Store](https://apps.apple.com/us/app/psono-password-manager/id1545581224)
@@ -233,22 +234,47 @@ Psono fornisce un'ampia documentazione sul proprio prodotto. Il web-client di Ps
 
 #### Requisiti minimi
 
-- Must utilize strong, standards-based/modern E2EE.
-- Must have thoroughly documented encryption and security practices.
-- Must have a published audit from a reputable, independent third-party.
+- Deve utilizzare un sistema E2EE solido, basato su criteri standard/moderni.
+- Deve avere pratiche di sicurezza e crittografia accuratamente documentate.
+- Deve avere un audit pubblicato da una terza parte affidabile e indipendente.
 - Tutta la telemetria non essenziale deve essere facoltativa.
-- Must not collect more PII than is necessary for billing purposes.
+- Non deve raccogliere più PII di quanto sia necessario ai fini della fatturazione.
 
 #### Caso migliore
 
 KeePassXC memorizza i suoi dati di esportazione come file [CSV](https://en.wikipedia.org/wiki/Comma-separated_values). Ciò può comportare la perdita di dati se si importa questo file in un altro gestore di password.
 
-- Telemetry should be opt-in (disabled by default) or not collected at all.
-- Should be open-source and reasonably self-hostable.
+- La telemetria dovrebbe essere opt-in (disattivata per impostazione predefinita) o non essere raccolta affatto.
+- Dovrebbe essere open-source e facilmente self-hostabile.
 
 ## Archiviazione locale
 
 Queste opzioni ti consentono di gestire localmente un database di password criptato.
+
+### KeePassXC
+
+!!! recommendation
+
+    ![logo KeePassXC](assets/img/password-management/keepassxc.svg){ align=right }
+    
+    **KeePassXC** è un fork comunitario di KeePassX, un port nativo multipiattaforma di KeePass Password Safe, con l'obiettivo di estenderlo e migliorarlo con nuove funzionalità e correzioni di bug per fornire un gestore di password open-source ricco di funzionalità, multipiattaforma e moderno.
+    
+    [:octicons-home-16: Pagina Principale](https://keepassxc.org){ .md-button .md-button--primary }
+    [:octicons-eye-16:](https://keepassxc.org/privacy){ .card-link title="Politica sulla Privacy" }
+    [:octicons-info-16:](https://keepassxc.org/docs/){ .card-link title=Documentazione}
+    [:octicons-code-16:](https://github.com/keepassxreboot/keepassxc){ .card-link title="Codice sorgente" }
+    [:octicons-heart-16:](https://keepassxc.org/donate/){ .card-link title=Contribuisci }
+    
+    ??? download
+    
+        - [:simple-windows11: Windows](https://keepassxc.org/download/#windows)
+        - [:simple-apple: macOS](https://keepassxc.org/download/#mac)
+        - [:simple-linux: Linux](https://keepassxc.org/download/#linux)
+        - [:simple-flathub: Flatpak](https://flathub.org/apps/details/org.keepassxc.KeePassXC)
+        - [:simple-firefoxbrowser: Firefox](https://addons.mozilla.org/firefox/addon/keepassxc-browser)
+        - [:simple-googlechrome: Chrome](https://chrome.google.com/webstore/detail/keepassxc-browser/oboonakemofpalcgghocfoadofidjkkk)
+
+KeePassXC memorizza i dati esportati come file [CSV](https://en.wikipedia.org/wiki/Comma-separated_values). Ciò può comportare una perdita di dati se si importa questo file in un altro gestore di password. Consigliamo di controllare manualmente ogni record.
 
 ### KeePassDX (Android)
 
@@ -256,16 +282,17 @@ Queste opzioni ti consentono di gestire localmente un database di password cript
 
     ![Logo KeePassDX](assets/img/password-management/keepassdx.svg){ align=right }
     
-    **KeePassDX** è un leggero gestore di password per Android, che consente di modificare i dati crittografati in un unico file in formato KeePass e di compilare i moduli in modo sicuro.
+    **KeePassDX** è un gestore di password leggero per Android, che consente di modificare i dati crittografati in un unico file in formato KeePass e di compilare i moduli in modo sicuro. [Contribuente Pro](https://play.google.com/store/apps/details?id=com.kunzisoft.keepass.pro) permette di sbloccare contenuti cosmetici e funzioni non standard del protocollo, ma soprattutto aiuta e incoraggia lo sviluppo.
     
-    [Contributor Pro](https://play.google.com/store/apps/details?id=com.kunzisoft.keepass.pro) permette di sbloccare contenuti cosmetici e funzioni del protocollo non standard, ma soprattutto aiuta e incoraggia lo sviluppo. [:octicons-home-16: Pagina principale](https://www.keepassdx.com){ .md-button .md-button--primary }
+    [:octicons-home-16: Pagina Principale](https://www.keepassdx.com){ .md-button .md-button--primary }
     [:octicons-info-16:](https://github.com/Kunzisoft/KeePassDX/wiki){ .card-link title=Documentazione}
-    [:octicons-code-16:](https://github.com/Kunzisoft/KeePassDX){ .card-link title="Codice sorgente" }
+    [:octicons-code-16:](https://github.com/Kunzisoft/KeePassDX){ .card-link title="Codice Sorgente" }
     [:octicons-heart-16:](https://www.keepassdx.com/#donation){ .card-link title=Contribuisci }
     
-    ???
-
-Inoltre, è disponibile una versione solo offline: [Strongbox Zero](https://apps.apple.com/app/strongbox-keepass-pwsafe/id1581589638). Questa versione è stata ridotta nel tentativo di ridurre la superficie di attacco. We advise you check each record manually.
+    ??? download
+    
+        - [:simple-googleplay: Google Play](https://play.google.com/store/apps/details?id=com.kunzisoft.keepass.free)
+        - [:simple-github: GitHub](https://github.com/Kunzisoft/KeePassDX/releases)
 
 ### Strongbox (iOS & macOS)
 
@@ -273,58 +300,39 @@ Inoltre, è disponibile una versione solo offline: [Strongbox Zero](https://apps
 
     ![Logo Strongbox](assets/img/password-management/strongbox.svg){ align=right }
     
-    **Strongbox** è un gestore di password nativo e open-source per iOS e macOS. Supportando entrambi i formati KeePass e Password Safe, Strongbox può essere utilizzato in tandem con altri gestori di password, come KeePassXC, su piattaforme non Apple.
+    **Strongbox** è un gestore di password nativo e open-source per iOS e macOS. Supportando entrambi i formati KeePass e Password Safe, Strongbox può essere utilizzato in tandem con altri gestori di password, come KeePassXC, o piattaforme non Apple. Utilizzando un [modello freemium] (https://strongboxsafe.com/pricing/), Strongbox offre la maggior parte delle funzionalità nel suo livello gratuito, mentre le [features]
+     (https://strongboxsafe.com/comparison/)più convenienti—come l'autenticazione biometrica—sono bloccate dietro un abbonamento o una licenza permanente.
     
-    Utilizzando un [modello freemium] (https://strongboxsafe.com/pricing/), Strongbox offre la maggior parte delle funzionalità nel suo livello gratuito, mentre quelle più convenienti [features](https://strongboxsafe.com/comparison/), come l'autenticazione biometrica, sono bloccate dietro un abbonamento o una licenza perpetua. [:octicons-home-16: Pagina principale](https://strongboxsafe.com){ .md-button .md-button--primary }
-    [:octicons-eye-16:](https://strongboxsafe.com/privacy/){ .card-link title="Informativa sulla privacy" }
+    [:octicons-home-16: Pagina Principale](https://strongboxsafe.com){ .md-button .md-button--primary }
+    [:octicons-eye-16:](https://strongboxsafe.com/privacy/){ .card-link title="Politica sulla Privacy" }
     [:octicons-info-16:](https://strongboxsafe.com/getting-started/){ .card-link title=Documentazione}
     [:octicons-code-16:](https://github.com/strongbox-password-safe/Strongbox){ .card-link title="Codice sorgente" }
     [:octicons-heart-16:](https://github.com/strongbox-password-safe/Strongbox#supporting-development){ .card-link title=Contribuisci }
     
-    ???
-
-### gopass
-
-!!! recommendation
-
-    ![logo gopass](assets/img/password-management/gopass.svg){ align=right }
-    
-    **gopass** è un gestore di password per la riga di comando scritto in Go. Funziona su tutti i principali sistemi operativi desktop e server (Linux, macOS, BSD, Windows). [:octicons-home-16: Pagina principale](https://www.gopass.pw){ .md-button .md-button--primary }
-    [:octicons-info-16:](https://github.com/gopasspw/gopass/tree/master/docs){ .card-link title=Documentazione}
-    [:octicons-code-16:](https://github.com/gopasspw/gopass){ .card-link title="Codice sorgente" }
-    [:octicons-heart-16:](https://github.com/sponsors/dominikschulz){ .card-link title=Contribuisci }
-    
-    ???
-    
-    downloads
-    
-        - [:simple-windows11: Windows](https://www.gopass.pw/#install-windows)
-        - [:simple-apple: macOS](https://www.gopass.pw/#install-macos)
-        - [:simple-linux: Linux](https://www.gopass.pw/#install-linux)
-        - [:simple-freebsd: FreeBSD](https://www.gopass.pw/#install-bsd) downloads
+    ??? download
     
         - [:simple-appstore: App Store](https://apps.apple.com/app/strongbox-keepass-pwsafe/id897283731)
 
-Additionally, there is an offline-only version offered: [Strongbox Zero](https://apps.apple.com/app/strongbox-keepass-pwsafe/id1581589638). This version is stripped down in an attempt to reduce attack surface.
+Inoltre, è disponibile una versione solo offline: [Strongbox Zero](https://apps.apple.com/app/strongbox-keepass-pwsafe/id1581589638). Questa versione è stata ridotta nel tentativo di ridurre la superficie di attacco.
 
 ### Linea di comando
 
-These products are minimal password managers that can be used within scripting applications.
+Questi prodotti sono gestori di password minimali che possono essere utilizzati all'interno di applicazioni di scripting.
 
 #### gopass
 
 !!! recommendation
 
-    ![gopass logo](assets/img/password-management/gopass.svg){ align=right }
+    ![logo gopass](assets/img/password-management/gopass.svg){ align=right }
     
-    **gopass** is a password manager for the command line written in Go. It works on all major desktop and server operating systems (Linux, macOS, BSD, Windows).
+    **gopass** è un gestore di password a riga di comando scritto in Go. Funziona su tutti i principali sistemi operativi desktop e server (Linux, macOS, BSD, Windows).
     
-    [:octicons-home-16: Homepage](https://www.gopass.pw){ .md-button .md-button--primary }
-    [:octicons-info-16:](https://github.com/gopasspw/gopass/tree/master/docs){ .card-link title=Documentation}
-    [:octicons-code-16:](https://github.com/gopasspw/gopass){ .card-link title="Source Code" }
-    [:octicons-heart-16:](https://github.com/sponsors/dominikschulz){ .card-link title=Contribute }
+    [:octicons-home-16: Pagina Principale](https://www.gopass.pw){ .md-button .md-button--primary }
+    [:octicons-info-16:](https://github.com/gopasspw/gopass/tree/master/docs){ .card-link title=Documentazione}
+    [:octicons-code-16:](https://github.com/gopasspw/gopass){ .card-link title="Codice sorgente" }
+    [:octicons-heart-16:](https://github.com/sponsors/dominikschulz){ .card-link title=Contribuisci }
     
-    ??? downloads
+    ??? download
     
         - [:simple-windows11: Windows](https://www.gopass.pw/#install-windows)
         - [:simple-apple: macOS](https://www.gopass.pw/#install-macos)

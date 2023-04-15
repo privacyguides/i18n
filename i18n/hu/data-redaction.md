@@ -1,4 +1,5 @@
 ---
+meta_title: "Remove PII with Metadata Scrubbers and Data Redaction Tools - Privacy Guides"
 title: "Adat és Metaadat Visszatartás"
 icon: material/tag-remove
 description: Ezekkel az eszközökkel eltávolíthatod a metaadatokat, például a GPS-helyadatokat és más azonosító információkat a megosztott fényképekről és fájlokról.

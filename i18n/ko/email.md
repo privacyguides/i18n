@@ -1,4 +1,5 @@
 ---
+meta_title: "Encrypted Private Email Recommendations - Privacy Guides"
 title: "이메일 서비스"
 icon: material/email
 description: These email providers offer a great place to store your emails securely, and many offer interoperable OpenPGP encryption with other providers.
@@ -28,9 +29,9 @@ These providers natively support OpenPGP encryption/decryption and the Web Key D
 
 !!! warning
 
-    When using E2EE technology like OpenPGP, email will still have some metadata that is not encrypted in the header of the email. Read more about [email metadata](basics/email-security.md#email-metadata-overview).
+    OpenPGP와 같은 종단간 암호화 기술을 사용하더라도 이메일의 헤더에 일부 메타데이터는 암호화되지 않습니다. Read more about [email metadata](basics/email-security.md#email-metadata-overview).
     
-    OpenPGP also does not support Forward secrecy, which means if either your or the recipient's private key is ever stolen, all previous messages encrypted with it will be exposed. [How do I protect my private keys?](basics/email-security.md#how-do-i-protect-my-private-keys)
+    또한, OpenPGP는 순방향 비밀성을 제공하지 않습니다. 따라서 발신자 또는 수신자의 개인 키가 유출된다면 지금까지 같은 키로 암호화된 메세지의 내용 또한 유출됩니다. [내 개인 키를 보호하려면 어떻게 해야 하나요?](basics/email-security.md#how-do-i-protect-my-private-keys)
 
 ### Proton Mail
 
@@ -123,7 +124,7 @@ Mailbox.org doesn't accept any cryptocurrencies as a result of their payment pro
 
 #### :material-check:{ .pg-green } Account Security
 
-Mailbox.org supports [two factor authentication](https://kb.mailbox.org/display/MBOKBEN/How+to+use+two-factor+authentication+-+2FA) for their webmail only. You can use either TOTP or a [Yubikey](https://en.wikipedia.org/wiki/YubiKey) via the [Yubicloud](https://www.yubico.com/products/services-software/yubicloud). Web standards such as [WebAuthn](https://en.wikipedia.org/wiki/WebAuthn) are not yet supported.
+Mailbox.org supports [two factor authentication](https://kb.mailbox.org/display/MBOKBEN/How+to+use+two-factor+authentication+-+2FA) for their webmail only. You can use either TOTP or a [YubiKey](https://en.wikipedia.org/wiki/YubiKey) via the [YubiCloud](https://www.yubico.com/products/services-software/yubicloud). Web standards such as [WebAuthn](https://en.wikipedia.org/wiki/WebAuthn) are not yet supported.
 
 #### :material-information-outline:{ .pg-blue } Data Security
 

@@ -1,10 +1,11 @@
 ---
+meta_title: "Threat Modeling: The First Step on Your Privacy Journey - Privacy Guides"
 title: "evergreen"
 icon: 'O que são modelos de ameaça?'
-description: Equilibrar segurança, privacidade e usabilidade é uma das primeiras e mais difíceis tarefas que você enfrentará na sua jornada de privacidade.
+description: Balancing security, privacy, and usability is one of the first and most difficult tasks you'll face on your privacy journey.
 ---
 
-Equilibrar segurança, privacidade e usabilidade é uma das primeiras e mais difíceis tarefas que você enfrentará na sua jornada de privacidade. Everything is a trade-off: The more secure something is, the more restricting or inconvenient it generally is, etc. Often, people find that the problem with the tools they see recommended is that they're just too hard to start using!
+Balancing security, privacy, and usability is one of the first and most difficult tasks you'll face on your privacy journey. Everything is a trade-off: The more secure something is, the more restricting or inconvenient it generally is, etc. Often, people find that the problem with the tools they see recommended is that they're just too hard to start using!
 
 Se você quisesse usar o **mais** ferramentas seguras disponíveis, você teria que sacrificar *muito* de usabilidade. And, even then, ==nothing is ever fully secure.== There's **high** security, but never **full** security. É por isso que os modelos de ameaça são importantes.
 

@@ -1,4 +1,5 @@
 ---
+meta_title: "Why Email Isn't the Best Choice for Privacy and Security - Privacy Guides"
 title: E-postsäkerhet
 icon: material/email
 description: Email is inherently insecure in many ways, and these are some of the reasons it isn't our top choice for secure communications.
@@ -22,7 +23,7 @@ E-postleverantörer som tillåter dig att använda standardprotokoll som IMAP oc
 
 ### Hur skyddar jag mina privata nycklar?
 
-A smartcard (such as a [Yubikey](https://support.yubico.com/hc/en-us/articles/360013790259-Using-Your-YubiKey-with-OpenPGP) or [Nitrokey](https://www.nitrokey.com)) works by receiving an encrypted email message from a device (phone, tablet, computer, etc.) running an email/webmail client. Meddelandet dekrypteras sedan av smartkortet och det dekrypterade innehållet skickas tillbaka till enheten.
+A smartcard (such as a [YubiKey](https://support.yubico.com/hc/en-us/articles/360013790259-Using-Your-YubiKey-with-OpenPGP) or [Nitrokey](https://www.nitrokey.com)) works by receiving an encrypted email message from a device (phone, tablet, computer, etc.) running an email/webmail client. Meddelandet dekrypteras sedan av smartkortet och det dekrypterade innehållet skickas tillbaka till enheten.
 
 Det är fördelaktigt att dekrypteringen sker på smartkortet för att undvika att den privata nyckeln exponeras för en komprometterad enhet.
 

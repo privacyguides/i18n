@@ -1,4 +1,5 @@
 ---
+meta_title: "Recommended Encryption Software: VeraCrypt, Cryptomator, PicoCrypt, and OpenPGP - Privacy Guides"
 title: "Oprogramowanie szyfrujące"
 icon: material/file-lock
 description: Szyfrowanie danych to jedyny sposób na kontrolowanie tego, kto ma do nich dostęp. These tools allow you to encrypt your emails and any other files.

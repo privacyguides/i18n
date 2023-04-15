@@ -1,10 +1,11 @@
 ---
+meta_title: "Recomendações e Comparação de Serviços VPN Privados, Sem Patrocinadores ou Anúncios — Privacy Guides"
 title: "Serviços de VPN"
 icon: material/vpn
 description: Estes são os melhores serviços VPN para proteger sua privacidade e segurança on-line. Encontre aqui um provedor que não tem como objetivo espionar você.
 ---
 
-Se você está procurando mais **privacidade** do seu ISP, em uma rede Wi-Fi pública, ou ao fazer torrent de arquivos, uma VPN pode ser a solução para você, desde que entenda os riscos envolvidos. Nós entendemos que estes provedores estão acima dos demais:
+Se você está procurando mais **privacidade** do seu provedor de internet (ISP), ou em uma rede Wi-Fi pública, ou ao fazer torrent de arquivos, uma VPN pode ser a solução para você, desde que entenda os riscos envolvidos. Nós entendemos que estes provedores estão acima dos demais:
 
 <div class="grid cards" markdown>
 
@@ -140,13 +141,13 @@ Mullvad provides the source code for their desktop and mobile clients in their [
 
 #### :material-check:{ .pg-green } Aceita Dinheiro e Monero
 
-Mullvad, in addition to accepting credit/debit cards and PayPal, accepts Bitcoin, Bitcoin Cash, **Monero** and **cash/local currency** as anonymous forms of payment. They also accept Swish and bank wire transfers.
+Mullvad, além de aceitar cartões de crédito/débito e PayPal, aceita Bitcoin, Bitcoin Cash, **Monero** e **dinheiro / moeda local** como formas anônimas de pagamento. Eles também aceitam Swish e transferências bancárias.
 
 #### :material-check:{ .pg-green } Suporta WireGuard
 
 Mullvad suporta o protocolo WireGuard®. [WireGuard](https://www.wireguard.com) é um protocolo mais recente que usa criptografia de última geração [](https://www.wireguard.com/protocol/). Além disso, WireGuard pretende ser mais simples e mais eficiente.
 
-Mullvad [recommends](https://mullvad.net/en/help/why-wireguard/) the use of WireGuard with their service. It is the default or only protocol on Mullvad's Android, iOS, macOS, and Linux apps, but on Windows you have to [manually enable](https://mullvad.net/en/help/how-turn-wireguard-mullvad-app/) WireGuard. Mullvad also offers a WireGuard configuration generator for use with the official WireGuard [apps](https://www.wireguard.com/install/).
+Mullvad [recomenda](https://mullvad.net/en/help/why-wireguard/) o uso do WireGuard em seu serviço. It is the default or only protocol on Mullvad's Android, iOS, macOS, and Linux apps, but on Windows you have to [manually enable](https://mullvad.net/en/help/how-turn-wireguard-mullvad-app/) WireGuard. Mullvad also offers a WireGuard configuration generator for use with the official WireGuard [apps](https://www.wireguard.com/install/).
 
 #### :material-check:{ .pg-green } IPv6 Support
 

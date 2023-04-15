@@ -49,7 +49,7 @@ YubiKeys可以利用 [YubiKey Manager](https://www.yubico.com/support/download/y
 
 !!! 警告
 
-    雖然 Nitrokeys 不會將 HOTP/TOTP 機密釋放給所插入的設備，但HOTP 和 TOTP存儲* *未經加密* * ，容易受到物理攻擊。 如果您需要存儲 HOTP 或 TOTP 這類祕密，強烈建議您使用Yubikey 代替。
+    雖然 Nitrokeys 不會將 HOTP/TOTP 機密釋放給所插入的設備，但HOTP 和 TOTP存儲* *未經加密* * ，容易受到物理攻擊。 If you are looking to store HOTP or TOTP these secrets, we highly recommend that you use a YubiKey instead.
 
 !!! 警告
 

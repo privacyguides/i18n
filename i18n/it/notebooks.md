@@ -1,5 +1,5 @@
 ---
-title: "Note"
+title: "Appunti"
 icon: material/notebook-edit-outline
 description: Queste app criptate per prendere appunti consentono di tenere traccia dei propri appunti senza darli a terze parti.
 ---

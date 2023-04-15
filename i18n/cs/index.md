@@ -1,5 +1,6 @@
 ---
-template: overrides/home.en.html
+meta_title: "Privacy Guides: Your Independent Privacy and Security Resource"
+template: overrides/home.cs.html
 hide:
   - navigation
   - toc
@@ -35,36 +36,36 @@ schema:
 ---
 
 <!-- markdownlint-disable-next-line -->
-## Why should I care?
+## Proč by mě to mělo zajímat?
 
-##### “I have nothing to hide. Why should I care about my privacy?”
+##### "Nic před nikým neskrývám. Proč by mě mělo soukromí zajímat?"
 
-Much like the right to interracial marriage, woman's suffrage, freedom of speech, and many others, our right to privacy hasn't always been upheld. In several dictatorships, it still isn't. Generations before ours fought for our right to privacy. ==Privacy is a human right, inherent to all of us,== that we are entitled to (without discrimination).
+Stejně jako právo na mezirasové manželství, volební právo žen, svoboda projevu a mnoho dalších, ani právo na soukromí nebylo vždy respektováno. V několika diktátorských státech tomu stále tak není. Minulé generace bojovaly za naše právo na soukromí. ==Soukromí je lidské právo, které patří každému z nás== a na které máme právo (bez diskriminace).
 
-You shouldn't confuse privacy with secrecy. We know what happens in the bathroom, but you still close the door. That's because you want privacy, not secrecy. **Everyone** has something to protect. Privacy is something that makes us human.
+Neplťte si soukromí s utajováním nějaké činnosti. Všichni víme, co se děje v kouplně, ale přesto si zavřete dveře. To proto, že chcete soukromí, ne kvůli utajení něčeho, co v koupelně děláte. **Každý** má co chránit. Soukromí je něco, co nás dělá lidmi.
 
-[:material-target-account: Common Internet Threats](basics/common-threats.md){ class="md-button md-button--primary" }
+[:material-target-account: Běžné internetové hrozby](basics/common-threats.md){ class="md-button md-button--primary" }
 
-## What should I do?
+## Co mám dělat?
 
-##### First, you need to make a plan
+##### Nejprve si musíte vytvořit plán
 
-Trying to protect all your data from everyone all the time is impractical, expensive, and exhausting. But don't worry! Security is a process, and, by thinking ahead, you can put together a plan that's right for you. Security isn't just about the tools you use or the software you download. Rather, it begins by understanding the unique threats you face, and how you can mitigate them.
+Snažit se neustále chránit všechna data před všemi je nepraktické, nákladné a vyčerpávající. Ale nebojte se! Security is a process, and, by thinking ahead, you can put together a plan that's right for you. Bezpečnost se netýká jen nástrojů, které používáte, nebo softwaru, který stahujete. Vše začíná tím, že pochopíte, jakým hrozbám čelíte a jak je můžete zmírnit.
 
-==This process of identifying threats and defining countermeasures is called **threat modeling**==, and it forms the basis of every good security and privacy plan.
+==Tento proces identifikace hrozeb a vytváření protiopatření se nazývá **threat modeling**== a tvoří základ každého dobrého plánu pro bezpečnost a ochranu soukromí.
 
-[:material-book-outline: Learn More About Threat Modeling](basics/threat-modeling.md){ class="md-button md-button--primary" }
+[:material-book-outline: Další informace o threat modelingu](basics/threat-modeling.md){ class="md-button md-button--primary" }
 
 ---
 
-## We need you! Here's how to get involved:
+## Potřebujeme vás! Zde je návod, jak začít:
 
-[:simple-discourse:](https://discuss.privacyguides.net/){ title="Join our Forum" }
-[:simple-mastodon:](https://mastodon.neat.computer/@privacyguides){ rel=me title="Follow us on Mastodon" }
-[:material-book-edit:](https://github.com/privacyguides/privacyguides.org){ title="Contribute to this website" }
-[:material-translate:](https://matrix.to/#/#pg-i18n:aragon.sh){ title="Help translate this website" }
-[:simple-matrix:](https://matrix.to/#/#privacyguides:matrix.org){ title="Chat with us on Matrix" }
-[:material-information-outline:](about/index.md){ title="Learn more about us" }
-[:material-hand-coin-outline:](about/donate.md){ title="Support the project" }
+[:simple-discourse:](https://discuss.privacyguides.net/){ title="Zapojte se na našem fóru" }
+[:simple-mastodon:](https://mastodon.neat.computer/@privacyguides){ rel=me title="Sledujte nás na Mastodonu" }
+[:material-book-edit:](https://github.com/privacyguides/privacyguides.org){ title="Připějte na této stránce" }
+[:material-translate:](https://matrix.to/#/#pg-i18n:aragon.sh){ title="Pomožte s překladem stránky" }
+[:simple-matrix:](https://matrix.to/#/#privacyguides:matrix.org){ title="Napište nám na Matrixu" }
+[:material-information-outline:](about/index.md){ title="Dozvěťte se o nás více" }
+[:material-hand-coin-outline:](about/donate.md){ title="Podpořte projekt" }
 
-It's important for a website like Privacy Guides to always stay up-to-date. We need our audience to keep an eye on software updates for the applications listed on our site and follow recent news about providers that we recommend. It's hard to keep up with the fast pace of the internet, but we try our best. If you spot an error, think a provider should not be listed, notice a qualified provider is missing, believe a browser plugin is no longer the best choice, or uncover any other issue, please let us know.
+Pro webové stránky jako je Privacy Guides je důležité, aby byly vždy aktuální. We need our audience to keep an eye on software updates for the applications listed on our site and follow recent news about providers that we recommend. It's hard to keep up with the fast pace of the internet, but we try our best. If you spot an error, think a provider should not be listed, notice a qualified provider is missing, believe a browser plugin is no longer the best choice, or uncover any other issue, please let us know.

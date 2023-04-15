@@ -1,4 +1,5 @@
 ---
+meta_title: "Privacy Respecting Web Browsers for PC and Mac - Privacy Guides"
 title: "Navigateurs de bureau"
 icon: material/laptop
 description: Ces navigateurs web offrent des protections de la vie privée plus solides que Google Chrome.

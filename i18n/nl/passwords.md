@@ -1,4 +1,5 @@
 ---
+meta_title: "The Best Password Managers to Protect Your Privacy and Security - Privacy Guides"
 title: "Wachtwoord managers"
 icon: material/form-textbox-password
 description: Met wachtwoord Managers kunt je wachtwoorden en andere geheimen veilig opslaan en beheren met behulp van een hoofdwachtwoord.
@@ -6,7 +7,7 @@ schema:
   - 
     "@context": http://schema.org
     "@type": WebPage
-    name: Password Manager Recommendations
+    name: Aanbevelingen voor wachtwoordbeheerders
     url: "./"
   - 
     "@context": http://schema.org

@@ -1,4 +1,5 @@
 ---
+meta_title: "Privacy Respecting Mobile Web Browsers for Android and iOS - Privacy Guides"
 title: "דפדפני אינטרנט לנייד"
 icon: material/cellphone-information
 description: דפדפנים אלו הם מה שאנו ממליצים כיום עבור גלישה רגילה/לא אנונימית באינטרנט בטלפון שלך.

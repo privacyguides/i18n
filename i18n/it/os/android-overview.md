@@ -60,38 +60,38 @@ Uno smartphone con l'ultima versione di Android sarà sempre più sicuro di un v
 
 Android 10:
 
-- [Scoped Storage](https://developer.android.com/about/versions/10/privacy/changes#scoped-storage) consente di avere un maggiore controllo sui file e di limitare ciò che può [accedere all'archiviazione esterna](https://developer.android.com/training/data-storage#permissions). Apps can have a specific directory in external storage as well as the ability to store specific types of media there.
-- Tighter access on [device location](https://developer.android.com/about/versions/10/privacy/changes#app-access-device-location) by introducing the `ACCESS_BACKGROUND_LOCATION` permission. This prevents apps from accessing the location when running in the background without express permission from the user.
+- [Scoped Storage](https://developer.android.com/about/versions/10/privacy/changes#scoped-storage) consente di avere un maggiore controllo sui file e di limitare ciò che può [accedere all'archiviazione esterna](https://developer.android.com/training/data-storage#permissions). Le applicazioni possono avere una directory specifica nell'archiviazione esterna e la possibilità di memorizzarvi tipi specifici di file multimediali.
+- Accesso limitato alla [posizione del dispositivo](https://developer.android.com/about/versions/10/privacy/changes#app-access-device-location) introducendo il permesso `ACCESS_BACKGROUND_LOCATION`. Questo impedisce alle app di accedere alla posizione quando sono in esecuzione in background senza l'autorizzazione espressa dell'utente.
 
 Android 11:
 
-- [One-time permissions](https://developer.android.com/about/versions/11/privacy/permissions#one-time) which allows you to grant a permission to an app just once.
-- [Auto-reset permissions](https://developer.android.com/about/versions/11/privacy/permissions#auto-reset), which resets [runtime permissions](https://developer.android.com/guide/topics/permissions/overview#runtime) that were granted when the app was opened.
-- Granular permissions for accessing [phone number](https://developer.android.com/about/versions/11/privacy/permissions#phone-numbers) related features.
+- [One-time permissions](https://developer.android.com/about/versions/11/privacy/permissions#one-time) che concedere un permesso ad un'applicazione un'unica volta.
+- [Ripristino automatico dei permessi](https://developer.android.com/about/versions/11/privacy/permissions#auto-reset), che ripristina le [ autorizzazioni runtime ](https://developer.android.com/guide/topics/permissions/overview#runtime) concesse all'apertura dell'applicazione.
+- Autorizzazioni granulari per accedere alle funzioni relative al [ numero di telefono](https://developer.android.com/about/versions/11/privacy/permissions#phone-numbers).
 
 Android 12:
 
-- A permission to grant only the [approximate location](https://developer.android.com/about/versions/12/behavior-changes-12#approximate-location).
-- Auto-reset of [hibernated apps](https://developer.android.com/about/versions/12/behavior-changes-12#app-hibernation).
-- [Data access auditing](https://developer.android.com/about/versions/12/behavior-changes-12#data-access-auditing) which makes it easier to determine what part of an app is performing a specific type of data access.
+- Un'autorizzazione per concedere solo la [posizione approssimativa](https://developer.android.com/about/versions/12/behavior-changes-12#approximate-location) del dispositivo.
+- Ripristino automatico delle [applicazioni ibernate](https://developer.android.com/about/versions/12/behavior-changes-12#app-hibernation).
+- [Audit dell'accesso ai dati](https://developer.android.com/about/versions/12/behavior-changes-12#data-access-auditing) il quale facilita la determinazione della parte di un'app che accede a determinati tipologie di dati.
 
 Android 13:
 
-- A permission for [nearby wifi access](https://developer.android.com/about/versions/13/behavior-changes-13#nearby-wifi-devices-permission). The MAC addresses of nearby WiFi access points was a popular way for apps to track a user's location.
-- More [granular media permissions](https://developer.android.com/about/versions/13/behavior-changes-13#granular-media-permissions), meaning you can grant access to images, videos or audio files only.
-- Background use of sensors now requires the [`BODY_SENSORS`](https://developer.android.com/about/versions/13/behavior-changes-13#body-sensors-background-permission) permission.
+- Un permesso per [l'accesso wifi nelle vicinanze](https://developer.android.com/about/versions/13/behavior-changes-13#nearby-wifi-devices-permission). Gli indirizzi MAC degli access point WiFi nelle vicinanze erano un modo molto diffuso per le app di tracciare la posizione dell'utente.
+- Più [autorizzazioni granulari per i media](https://developer.android.com/about/versions/13/behavior-changes-13#granular-media-permissions), il che significa che è possibile concedere l'accesso solo a immagini, video o file audio.
+- L'uso in background dei sensori richiede ora l'autorizzazione [`BODY_SENSORS`](https://developer.android.com/about/versions/13/behavior-changes-13#body-sensors-background-permission).
 
-An app may request a permission for a specific feature it has. For example, any app that can scan QR codes will require the camera permission. Some apps can request more permissions than they need.
+Un'applicazione potrebbe richiedere un'autorizzazione per far funzionare una sua specifica funzione. Ad esempio, qualsiasi app in grado di scansionare codici QR richiederà l'autorizzazione della fotocamera. Alcune app possono richiedere più autorizzazioni di quelle necessarie.
 
-[Exodus](https://exodus-privacy.eu.org/) can be useful when comparing apps that have similar purposes. If an app requires a lot of permissions and has a lot of advertising and analytics this is probably a bad sign. We recommend looking at the individual trackers and reading their descriptions rather than simply **counting the total** and assuming all items listed are equal.
+[Exodus](https://exodus-privacy.eu.org/) può essere utile se devi confrontare app con scopi simili. Se un'applicazione richiede molte autorizzazioni e presenta molte pubblicità e analytics, probabilmente è un brutto segno. Consigliamo di esaminare i singoli tracker e di leggerne le descrizioni piuttosto che limitarsi a **contare il totale di** e assumere che tutte le voci elencate siano uguali.
 
 !!! warning
 
-    If an app is mostly a web-based service, the tracking may occur on the server side. [Facebook](https://reports.exodus-privacy.eu.org/en/reports/com.facebook.katana/latest/) shows "no trackers" but certainly does track users' interests and behavior across the site. Apps may evade detection by not using standard code libraries produced by the advertising industry, though this is unlikely.
+    Se un'applicazione è principalmente un servizio web-based, il tracciamento può avvenire sul lato server. [Facebook](https://reports.exodus-privacy.eu.org/it/reports/com.facebook.katana/latest/) mostra "nessun tracker", ma sicuramente traccia gli interessi e il comportamento degli utenti all'interno del sito. Le applicazioni potrebbero eludere il rilevamento non utilizzando librerie di codici standard prodotte dalla società pubblicitaria, anche se è molto improbabile.
 
-!!! note
+!!! nota
 
-    Le applicazioni che rispettano la privacy come [Bitwarden](https://reports.exodus-privacy.eu.org/en/reports/com.x8bit.bitwarden/latest/) possono mostrare alcuni tracker come [Google Firebase Analytics](https://reports.exodus-privacy.eu.org/en/trackers/49/). This library includes [Firebase Cloud Messaging](https://en.wikipedia.org/wiki/Firebase_Cloud_Messaging) which can provide [push notifications](https://en.wikipedia.org/wiki/Push_technology) in apps. This [is the case](https://fosstodon.org/@bitwarden/109636825700482007) with Bitwarden. That doesn't mean that Bitwarden is using all of the analytics features that are provided by Google Firebase Analytics.
+    Le applicazioni che rispettano la privacy come [Bitwarden](https://reports.exodus-privacy.eu.org/en/reports/com.x8bit.bitwarden/latest/) possono mostrare alcuni tracker come [Google Firebase Analytics](https://reports.exodus-privacy.eu.org/it/trackers/49/). Questa libreria include [Firebase Cloud Messaging](https://en.wikipedia.org/wiki/Firebase_Cloud_Messaging) che può fornire [notifiche push](https://en.wikipedia.org/wiki/Push_technology) nelle applicazioni. Questo [è il caso] (https://fosstodon.org/@bitwarden/109636825700482007) di Bitwarden. Ciò non significa che Bitwarden utilizzi tutte le funzioni di analytics fornite da Google Firebase Analytics.
 
 ## Accesso ai media
 

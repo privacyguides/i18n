@@ -1,4 +1,5 @@
 ---
+meta_title: "Recommended Encryption Software: VeraCrypt, Cryptomator, PicoCrypt, and OpenPGP - Privacy Guides"
 title: "Инструменты для шифрования"
 icon: material/file-lock
 description: Шифрование данных - единственный способ контролировать доступ к ним. These tools allow you to encrypt your emails and any other files.

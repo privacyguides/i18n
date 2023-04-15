@@ -1,7 +1,25 @@
 ---
-title: "Tor Network"
+meta_title: "Tor Browser and Network: Anonymous Web Browsing - Privacy Guides"
+title: "Torネットワーク"
 icon: simple/torproject
 description: Protect your internet browsing from prying eyes by using the Tor network, a secure network which circumvents censorship.
+schema:
+  - 
+    "@context": http://schema.org
+    "@type": SoftwareApplication
+    name: Tor Browser
+    image: /assets/img/browsers/tor.svg
+    url: https://www.torproject.org
+    sameAs: https://en.wikipedia.org/wiki/Tor_(network)
+    applicationCategory: Web Browser
+    operatingSystem:
+      - Windows
+      - macOS
+      - Linux
+      - Android
+    subjectOf:
+      "@type": WebPage
+      url: "./"
 ---
 
 ![Tor logo](assets/img/self-contained-networks/tor.svg){ align=right }
@@ -18,7 +36,7 @@ Tor works by routing your internet traffic through those volunteer-operated serv
 
 [Detailed Tor Overview :material-arrow-right-drop-circle:](advanced/tor-overview.md ""){.md-button}
 
-## Connecting to Tor
+## Torへの接続
 
 There are a variety of ways to connect to the Tor network from your device, the most commonly used being the **Tor Browser**, a fork of Firefox designed for anonymous browsing for desktop computers and Android. In addition to the apps listed below, there are also operating systems designed specifically to connect to the Tor network such as [Whonix](desktop.md#whonix) on [Qubes OS](desktop.md#qubes-os), which provide even greater security and protections than the standard Tor Browser.
 

@@ -1,4 +1,5 @@
 ---
+meta_title: "Recommended Search Engines: Anonymous Google Alternatives - Privacy Guides"
 title: "מנועי חיפוש"
 icon: material/search-web
 description: מנועי החיפוש המכבדים את הפרטיות אינם בונים פרופיל פרסום על סמך החיפושים שלך.

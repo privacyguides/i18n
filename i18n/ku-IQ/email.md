@@ -1,4 +1,5 @@
 ---
+meta_title: "Encrypted Private Email Recommendations - Privacy Guides"
 title: "خزمەتگوزاری پۆستەی ئەلکتڕۆنی"
 icon: material/email
 description: ئەم دابینکەرانەی پۆستەی ئەلکتڕۆنی شوێنێکی نایاب پێشکەش دەکەن بۆ کۆکردنەوەی پۆستەکان بە پارێزراوی.
@@ -123,7 +124,7 @@ Mailbox.org هیچ جۆرە دراوێکی دیجیتاڵی قبوڵ ناکات 
 
 #### :material-check:{ .pg-green }پارێزراوێتی هەژمار
 
-Mailbox.org تەنها پشتگیری لە [سەلماندنی دووانی](https://kb.mailbox.org/display/MBOKBEN/How+to+use+two-factor+authentication+-+2FA) بۆ ماڵپەری پۆستەی ئەلکتڕۆنییەکەیان دەکات. دەتوانیت TOTP بەکاربێنیت یان [Yubikey](https://en.wikipedia.org/wiki/YubiKey) لەڕێگای [Yubicloud](https://www.yubico.com/products/services-software/yubicloud). شیوازە باوەکانی وەک [WebAuthn](https://en.wikipedia.org/wiki/WebAuthn) هێشتا پشتگیری نەکراون.
+Mailbox.org تەنها پشتگیری لە [سەلماندنی دووانی](https://kb.mailbox.org/display/MBOKBEN/How+to+use+two-factor+authentication+-+2FA) بۆ ماڵپەری پۆستەی ئەلکتڕۆنییەکەیان دەکات. You can use either TOTP or a [YubiKey](https://en.wikipedia.org/wiki/YubiKey) via the [YubiCloud](https://www.yubico.com/products/services-software/yubicloud). شیوازە باوەکانی وەک [WebAuthn](https://en.wikipedia.org/wiki/WebAuthn) هێشتا پشتگیری نەکراون.
 
 #### :material-information-outline:{ .pg-blue }پارێزراوێتی زانیاری
 
