@@ -28,7 +28,7 @@ config:
     system: システムテーマに切り替える
 nav:
   Home: ホーム
-  Knowledge Base: ナレッジベース
+  Knowledge Base: 知識ベース
   Technology Essentials: 技術の概要
   Operating Systems: OS
   Advanced Topics: 高度なトピック

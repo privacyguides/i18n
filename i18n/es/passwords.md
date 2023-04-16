@@ -1,5 +1,5 @@
 ---
-meta_title: "The Best Password Managers to Protect Your Privacy and Security - Privacy Guides"
+meta_title: "Los Mejores Administradores de Contraseñas para Proteger su Privacidad y Seguridad - Privacy Guides"
 title: "Administradores de Contraseñas"
 icon: material/form-textbox-password
 description: Los administradores de contraseñas le permiten almacenar y administrar de forma segura contraseñas y otras credenciales.

@@ -1,8 +1,8 @@
 ---
-meta_title: "Android Recommendations: GrapheneOS and DivestOS - Privacy Guides"
+meta_title: "Рекомендации по Android: GrapheneOS и DivestOS - Privacy Guides"
 title: "Android"
 icon: 'simple/android'
-description: You can replace the operating system on your Android phone with these secure and privacy-respecting alternatives.
+description: Вы можете заменить операционную систему на своем Android на эти безопасные и конфиденциальные альтернативы.
 schema:
   - 
     "@context": http://schema.org
@@ -15,7 +15,7 @@ schema:
     name: Android
     image: /assets/img/android/android.svg
     url: https://source.android.com/
-    sameAs: https://en.wikipedia.org/wiki/Android_(operating_system)
+    sameAs: https://ru.wikipedia.org/wiki/Android
   - 
     "@context": http://schema.org
     "@type": CreativeWork
@@ -46,7 +46,7 @@ schema:
       "@type": Brand
       name: Google
     image: /assets/img/android/google-pixel.png
-    sameAs: https://en.wikipedia.org/wiki/Google_Pixel
+    sameAs: https://ru.wikipedia.org/wiki/Google_Pixel
     review:
       "@type": Review
       author:
@@ -149,33 +149,33 @@ DivestOS uses F-Droid as its default app store. Normally, we would recommend avo
     
     Not all of the supported devices have verified boot, and some perform it better than others.
 
-## Android Devices
+## Android-устройства
 
-When purchasing a device, we recommend getting one as new as possible. The software and firmware of mobile devices are only supported for a limited time, so buying new extends that lifespan as much as possible.
+При покупке устройства рекомендуем приобрести как можно более новое. ПО и прошивка мобильных устройств поддерживаются в только в течение ограниченного периода времени, поэтому покупка нового устройства продлевает его жизненный цикл настолько, насколько это возможно.
 
-Avoid buying phones from mobile network operators. These often have a **locked bootloader** and do not support [OEM unlocking](https://source.android.com/devices/bootloader/locking_unlocking). These phone variants will prevent you from installing any kind of alternative Android distribution.
+Избегайте покупки телефонов у операторов мобильной связи. У них часто **заблокирован ОС** и они не поддерживают [OEM разблокировку](https://source.android.com/devices/bootloader/locking_unlocking). Эти варианты телефонов не позволят вам установить какой-либо альтернативный дистрибутив Android.
 
-Be very **careful** about buying second hand phones from online marketplaces. Always check the reputation of the seller. If the device is stolen, there's a possibility of [IMEI blacklisting](https://www.gsma.com/security/resources/imei-blacklisting/). There is also a risk involved with you being associated with the activity of the previous owner.
+Будьте **очень осторожны** при покупке подержанных телефонов в интернет-магазинах. Всегда проверяйте репутацию продавца. Если устройство украдено, существует вероятность [внесения его IMEI в черный список](https://www.gsma.com/security/resources/imei-blacklisting/). Также существует риск связывания вас с действиями предыдущего владельца устройства.
 
-A few more tips regarding Android devices and operating system compatibility:
+Еще несколько советов относительно устройств Android и совместимости с операционной системой:
 
-- Do not buy devices that have reached or are near their end-of-life, additional firmware updates must be provided by the manufacturer.
-- Do not buy preloaded LineageOS or /e/ OS phones or any Android phones without proper [Verified Boot](https://source.android.com/security/verifiedboot) support and firmware updates. These devices also have no way for you to check whether they've been tampered with.
-- In short, if a device or Android distribution is not listed here, there is probably a good reason. Check out our [forum](https://discuss.privacyguides.net/) to find details!
+- Не покупайте устройства, срок службы которых истек или близок к концу, дополнительные обновления прошивки должны быть предоставлены производителем.
+- Не покупайте телефоны с предустановленной LineageOS или /e/ OS или любые телефоны Android без надлежащей поддержки [Проверенной загрузки (Verified Boot)](https://source.android.com/security/verifiedboot?hl=ru) и обновлений прошивки. Вы также не сможете проверить, взломаны ли эти устройства.
+- Короче, если устройство или дистрибутив Android не указаны в этом списке, вероятно, на это есть веская причина. Загляните на наш [форум](https://discuss.privacyguides.net/), чтобы узнать подробности!
 
 ### Google Pixel
 
-Google Pixel phones are the **only** devices we recommend for purchase. Pixel phones have stronger hardware security than any other Android devices currently on the market, due to proper AVB support for third-party operating systems and Google's custom [Titan](https://security.googleblog.com/2021/10/pixel-6-setting-new-standard-for-mobile.html) security chips acting as the Secure Element.
+Телефоны Google Pixel - это **единственные** устройства, которые мы рекомендуем к покупке. Телефоны Pixel имеют более высокий уровень аппаратной безопасности, чем любые другие устройства Android, представленные в настоящее время на рынке, благодаря надлежащей поддержке AVB для сторонних операционных систем и пользовательским чипам безопасности Google [Titan](https://security.googleblog.com/2021/10/pixel-6-setting-new-standard-for-mobile.html), выступающим в качестве безопасного элемента.
 
 !!! recommendation
 
     ![Google Pixel 6](assets/img/android/google-pixel.png){ align=right }
     
-    **Google Pixel** devices are known to have good security and properly support [Verified Boot](https://source.android.com/security/verifiedboot), even when installing custom operating systems.
+    Устройства **Google Pixel** известны хорошей безопасностью и правильной поддержкой [Verified Boot](https://source.android.com/security/verifiedboot), даже при установке сторонних операционных систем.
     
-    Beginning with the **Pixel 6** and **6 Pro**, Pixel devices receive a minimum of 5 years of guaranteed security updates, ensuring a much longer lifespan compared to the 2-4 years competing OEMs typically offer.
+    Начиная с **Pixel 6** и **6 Pro**, устройства Pixel получают минимум 5 лет гарантированных обновлений безопасности, что обеспечивает гораздо более длительный срок службы по сравнению с 2-4 годами, которые обычно предлагают конкурирующие OEM-производители.
     
-    [:material-shopping: Store](https://store.google.com/category/phones){ .md-button .md-button--primary }
+    [:material-shopping: Магазин](https://store.google.com/category/phones){ .md-button .md-button--primary }
 
 Secure Elements like the Titan M2 are more limited than the processor's Trusted Execution Environment used by most other phones as they are only used for secrets storage, hardware attestation, and rate limiting, not for running "trusted" programs. Phones without a Secure Element have to use the TEE for *all* of those functions, resulting in a larger attack surface.
 

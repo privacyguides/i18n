@@ -1,6 +1,6 @@
 ---
-title: "About Privacy Guides"
-description: Privacy Guides is a socially motivated website that provides information for protecting your data security and privacy.
+title: "О Privacy Guides"
+description: Privacy Guides - это сайт, предоставляющий информацию по защите безопасности и конфиденциальности ваших данных.
 schema:
   "@context": https://schema.org
   "@type": Organization
@@ -17,7 +17,7 @@ schema:
     - https://mastodon.neat.computer/@privacyguides
 ---
 
-![Privacy Guides logo](../assets/brand/png/square/pg-yellow.png){ align=right }
+![Лого Privacy Guides](../assets/brand/png/square/pg-yellow.png){ align=right }
 
 **Privacy Guides** is a socially motivated website that provides [information](/kb) for protecting your data security and privacy. Our mission is to inform the public about the value of digital privacy, and global government initiatives which aim to monitor your online activity. We are a non-profit collective operated entirely by volunteer [team members](https://discuss.privacyguides.net/g/team) and contributors. Our website is free of advertisements and not affiliated with any of the listed providers.
 
@@ -52,7 +52,7 @@ So far in 2023 we've launched international translations of our website in [Fren
     - [:simple-discourse: Discourse](https://discuss.privacyguides.net/u/jonah)
     - [:simple-github: GitHub](https://github.com/jonaharagon "@jonaharagon")
     - [:simple-mastodon: Mastodon](https://mastodon.neat.computer/@jonah "@jonah@neat.computer"){rel=me}
-    - [:fontawesome-solid-house: Homepage](https://www.jonaharagon.com)
+    - [:fontawesome-solid-house: Домашняя страница](https://www.jonaharagon.com)
 
 ??? person "@niek-de-wilde"
 
@@ -73,13 +73,13 @@ So far in 2023 we've launched international translations of our website in [Fren
     - [:simple-github: GitHub](https://github.com/freddy-m "@freddy-m")
     - [:simple-mastodon: Mastodon](https://social.lol/@freddy "@freddy@social.lol"){rel=me}
     - [:fontawesome-solid-envelope: Email](mailto:freddy@privacyguides.org)
-    - [:fontawesome-solid-house: Homepage](https://freddy.omg.lol)
+    - [:fontawesome-solid-house: Домашняя страница](https://freddy.omg.lol)
 
 ??? person "@mfwmyfacewhen"
 
     - [:simple-discourse: Discourse](https://discuss.privacyguides.net/u/mfwmyfacewhen)
     - [:simple-github: GitHub](https://github.com/mfwmyfacewhen "@mfwmyfacewhen")
-    - [:fontawesome-solid-house: Homepage](https://mfw.omg.lol)
+    - [:fontawesome-solid-house: Домашняя страница](https://mfw.omg.lol)
 
 ??? person "@olivia"
 

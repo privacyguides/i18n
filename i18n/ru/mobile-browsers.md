@@ -1,8 +1,8 @@
 ---
-meta_title: "Privacy Respecting Mobile Web Browsers for Android and iOS - Privacy Guides"
-title: "Mobile Browsers"
+meta_title: "Мобильные веб-браузеры для Android и iOS, соблюдающие конфиденциальность - Privacy Guides"
+title: "Мобильные браузеры"
 icon: material/cellphone-information
-description: These browsers are what we currently recommend for standard/non-anonymous internet browsing on your phone.
+description: Мы рекомендуем эти браузеры для обычного/неанонимного интернет-браузинга на вашем телефоне.
 schema:
   - 
     "@context": http://schema.org
@@ -139,11 +139,11 @@ Shields' options can be downgraded on a per-site basis as needed, but by default
 
 #### Рекомендованные настройки
 
-These options can be found in :gear: **Settings** → **Safari** → **Privacy and Security**.
+Эти параметры можно найти в разделе :gear: **Настройки** → **Safari** → **Конфиденциальность и безопасность**.
 
-##### Cross-Site Tracking Prevention
+##### Предотвращение перекрёстного отслеживания
 
-- [x] Enable **Prevent Cross-Site Tracking**
+- [x] Включите **Предотвращать перекрестное отслеживание**
 
 This enables WebKit's [Intelligent Tracking Protection](https://webkit.org/tracking-prevention/#intelligent-tracking-prevention-itp). The feature helps protect against unwanted tracking by using on-device machine learning to stop trackers. ITP protects against many common threats, but it does not block all tracking avenues because it is designed to not interfere with website usability.
 
@@ -202,7 +202,7 @@ If you use iCloud with Advanced Data Protection disabled, we also recommend chec
 
 Дополнительные списки блокировки замедляют работу браузера и могут упростить атаку, поэтому пользуйтесь только тем, что вам необходимо.
 
-## Criteria
+## Критерии
 
 **Please note we are not affiliated with any of the projects we recommend.** In addition to [our standard criteria](about/criteria.md), we have developed a clear set of requirements to allow us to provide objective recommendations. We suggest you familiarize yourself with this list before choosing to use a project, and conduct your own research to ensure it's the right choice for you.
 

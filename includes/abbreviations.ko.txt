@@ -1,4 +1,4 @@
-*[2FA]: 2단계 인증
+*[2FA]: 이중 인증
 *[ADB]: Android 디버그 브리지
 *[AOSP]: Android 오픈소스 프로젝트
 *[ATA]: 고급 기술 결합(Advanced Technology Attachment)
@@ -50,7 +50,7 @@
 *[MAC]: Media Access Control
 *[MDAG]: Microsoft Defender Application Guard
 *[MEID]: Mobile Equipment Identifier
-*[MFA]: Multi-Factor Authentication
+*[MFA]: 다중 인증
 *[NVMe]: Nonvolatile Memory Express
 *[NTP]: 네트워크 타임 프로토콜(Network Time Protocol)
 *[OCI]: Open Container Initiative

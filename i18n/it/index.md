@@ -1,5 +1,5 @@
 ---
-meta_title: "Privacy Guides: Your Independent Privacy and Security Resource"
+meta_title: "Privacy Guides: La vostra risorsa indipendente per la privacy e la sicurezza"
 template: overrides/home.it.html
 hide:
   - navigation

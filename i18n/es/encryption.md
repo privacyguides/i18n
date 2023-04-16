@@ -1,5 +1,5 @@
 ---
-meta_title: "Recommended Encryption Software: VeraCrypt, Cryptomator, PicoCrypt, and OpenPGP - Privacy Guides"
+meta_title: "Software de Cifrado Recomendado:: VeraCrypt, Cryptomator, PicoCrypt, and OpenPGP - Privacy Guides"
 title: "Software de Cifrado"
 icon: material/file-lock
 description: El cifrado de los datos es la única forma de controlar quién puede acceder a ellos. Estas herramientas le permiten cifrar sus correos electrónicos y cualquier otro archivo.

@@ -74,7 +74,7 @@ Encrypted DNS can refer to one of a number of protocols, the most common ones be
 
 ### DNS sobre TLS (DoT)
 
-[**DNS over TLS**](https://en.wikipedia.org/wiki/DNS_over_TLS) is another method for encrypting DNS communication that is defined in [RFC 7858](https://datatracker.ietf.org/doc/html/rfc7858). Support was first implemented in Android 9, iOS 14, and on Linux in [systemd-resolved](https://www.freedesktop.org/software/systemd/man/resolved.conf.html#DNSOverTLS=) in version 237. Preference in the industry has been moving away from DoT to DoH in recent years, as DoT is a [complex protocol](https://dnscrypt.info/faq/) and has varying compliance to the RFC across the implementations that exist. DoT also operates on a dedicated port 853 which can be blocked easily by restrictive firewalls.
+[**DNS sobre TLS**](https://en.wikipedia.org/wiki/DNS_over_TLS) é outro método para criptografar a comunicação de DNS definido em [RFC 7858](https://datatracker.ietf.org/doc/html/rfc7858). O suporte foi implementado pela primeira vez no Android 9, iOS 14 e no Linux em [systemd-resolved](https://www.freedesktop.org/software/systemd/man/resolved.conf.html#DNSOverTLS=) na versão 237. Preference in the industry has been moving away from DoT to DoH in recent years, as DoT is a [complex protocol](https://dnscrypt.info/faq/) and has varying compliance to the RFC across the implementations that exist. DoT also operates on a dedicated port 853 which can be blocked easily by restrictive firewalls.
 
 ### DNS sobre HTTPS (DoH)
 

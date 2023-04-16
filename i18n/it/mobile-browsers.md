@@ -1,5 +1,5 @@
 ---
-meta_title: "Privacy Respecting Mobile Web Browsers for Android and iOS - Privacy Guides"
+meta_title: "Browser Web che rispettano la privacy per Android e iOS - Privacy Guides"
 title: "Browser mobile"
 icon: octicons/device-mobile-16
 description: Questi browser sono quelli che attualmente consigliamo per la navigazione Internet standard/non anonima sul tuo telefono.

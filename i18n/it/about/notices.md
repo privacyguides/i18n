@@ -12,13 +12,13 @@ Privacy Guides è un progetto open source a cui si contribuisce sotto licenze ch
 
 Privacy Guides inoltre non garantisce che questo sito sarà costantemente disponibile, o disponibile affatto.
 
-## Licensing Overview
+## Panoramica sulle licenze
 
 !!! danger ""
 
-    The following is a human-readable summary of (and not a substitute for) the [license](/license).
+    Quanto segue è un riassunto scritto in formato leggibile di (e non un sostituto di) [licenza](/licenza).
 
-Unless otherwise noted, all **content** on this website is made available under the terms of the [Creative Commons Attribution-NoDerivatives 4.0 International Public License](https://github.com/privacyguides/privacyguides.org/blob/main/LICENSE). The underlying **source code** used to generate this website and display that content is released under the [MIT License](https://github.com/privacyguides/privacyguides.org/tree/main/LICENSE-CODE).
+Se non diversamente indicato, tutti i **contenuti** di questo sito web sono resi disponibili secondo i termini della [Licenza Creative Commons Attribuzione-Non opere derivate 4.0 Internazionale](https://github.com/privacyguides/privacyguides.org/blob/main/LICENSE). The underlying **source code** used to generate this website and display that content is released under the [MIT License](https://github.com/privacyguides/privacyguides.org/tree/main/LICENSE-CODE).
 
 Questo non include codice di terze parti incorporato in questo repository, o codice dove una licenza sostitutiva è altrimenti indicata. I seguenti sono esempi degni di nota, ma questa lista potrebbe non essere onnicomprensiva:
 

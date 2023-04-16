@@ -1,5 +1,5 @@
 ---
-meta_title: "Recommended Encryption Software: VeraCrypt, Cryptomator, PicoCrypt, and OpenPGP - Privacy Guides"
+meta_title: "Software di crittografia consigliati: VeraCrypt, Cryptomator, PicoCrypt e OpenPGP - Privacy Guides"
 title: "Software di crittografia"
 icon: material/file-lock
 description: La crittografia dei dati è l'unico modo per controllare chi può accedervi. Questi strumenti ti consentono di crittografare le tue email e qualsiasi altro file.

@@ -1,15 +1,15 @@
 ---
-meta_title: "Threat Modeling: The First Step on Your Privacy Journey - Privacy Guides"
+meta_title: "Моделирование угроз: Первый шаг на пути к конфиденциальности - Privacy Guides"
 title: "Моделирование угроз"
 icon: 'material/target-account'
-description: Balancing security, privacy, and usability is one of the first and most difficult tasks you'll face on your privacy journey.
+description: Баланс между безопасностью, конфиденциальностью и удобством использования - одна из первых и самых сложных задач, с которыми вы столкнетесь на пути к конфиденциальности.
 ---
 
-Balancing security, privacy, and usability is one of the first and most difficult tasks you'll face on your privacy journey. Everything is a trade-off: The more secure something is, the more restricting or inconvenient it generally is, etc. Often, people find that the problem with the tools they see recommended is that they're just too hard to start using!
+Баланс между безопасностью, конфиденциальностью и удобством использования - одна из первых и самых сложных задач, с которыми вы столкнетесь на пути к конфиденциальности. Все является компромиссом: чем более безопасно что-либо, тем больше ограничений или неудобств оно обычно вызывает. Often, people find that the problem with the tools they see recommended is that they're just too hard to start using!
 
 Если вы хотите использовать **наиболее** безопасные инструменты, то вам придется пожертвовать *множеством* удобств. And, even then, ==nothing is ever fully secure.== There's **high** security, but never **full** security. Поэтому модели угроз очень важны.
 
-**So, what are these threat models, anyway?**
+**Итак, что же из себя представляют эти модели угроз?**
 
 ==A threat model is a list of the most probable threats to your security and privacy endeavors.== Since it's impossible to protect yourself against **every** attack(er), you should focus on the **most probable** threats. In computer security, a threat is an event that could undermine your efforts to stay private and secure.
 
@@ -100,7 +100,7 @@ These questions can apply to a wide variety of situations, online and offline. A
 
 Составление плана безопасности поможет вам понять, какие угрозы характерны только для вас, оценить ваше имущество, ваших противников и их возможности, а также вероятность рисков, с которыми вы можете столкнуться.
 
-## Further Reading
+## К дальнейшему прочтению
 
 For people looking to increase their privacy and security online, we've compiled a list of common threats our visitors face or goals our visitors have, to give you some inspiration and demonstrate the basis of our recommendations.
 

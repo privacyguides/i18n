@@ -1,11 +1,11 @@
 ---
-meta_title: "Threat Modeling: The First Step on Your Privacy Journey - Privacy Guides"
+meta_title: "Modélisation des menaces : la première étape de votre parcours en matière de protection de la vie privée - Privacy Guides"
 title: "Modélisation des menaces"
 icon: 'material/target-account'
-description: Balancing security, privacy, and usability is one of the first and most difficult tasks you'll face on your privacy journey.
+description: Trouver le bon équilibre entre la sécurité, la confidentialité et la commodité est l'une des premières et plus difficiles tâches que vous aurez à accomplir dans votre parcours pour regagner votre vie privée en ligne.
 ---
 
-Balancing security, privacy, and usability is one of the first and most difficult tasks you'll face on your privacy journey. Tout est une histoire de compromis : plus quelque chose est sécurisé, plus il est limité ou peu pratique, etc. Souvent, les gens trouvent que le problème avec les outils qui leurs sont recommandés est qu'ils sont trop difficiles à utiliser !
+Trouver le bon équilibre entre la sécurité, la confidentialité et la commodité est l'une des premières et plus difficiles tâches que vous aurez à accomplir dans votre parcours pour regagner votre vie privée en ligne. Tout est une histoire de compromis : plus quelque chose est sécurisé, plus il est limité ou peu pratique, etc. Souvent, les gens trouvent que le problème avec les outils qui leurs sont recommandés est qu'ils sont trop difficiles à utiliser !
 
 Si vous vouliez utiliser les outils les **plus** sécurisés actuellement disponibles, vous devriez sacrifier *beaucoup* de commodité. Et même dans ce cas, ==rien n'est jamais totalement sécurisé.== On parle de sécurité **élevée**, mais jamais de sécurité **totale**. C'est pourquoi les modèles de menace sont importants.
 
@@ -41,7 +41,7 @@ Selon l'identité de vos adversaires, dans certaines circonstances, cette liste 
 
 ### Quelle est la probabilité que je doive le protéger ?
 
-==Le risque est la probabilité qu'une menace particulière contre un actif particulier se produise réellement. Il va de pair avec la capacité. Si votre opérateur de téléphonie mobile a la capacité d'accéder à toutes vos données, le risque qu'il publie vos données privées en ligne pour nuire à votre réputation est faible.
+==Le risque est la probabilité qu'une menace particulière contre un actif particulier se produise réellement.== Il va de pair avec la capacité. Si votre opérateur de téléphonie mobile a la capacité d'accéder à toutes vos données, le risque qu'il publie vos données privées en ligne pour nuire à votre réputation est faible.
 
 Il est important de faire la distinction entre ce qui pourrait se produire et la probabilité que cela se produise. Par exemple, votre bâtiment risque de s'effondrer, mais le risque que cela se produise est bien plus grand à San Francisco (où les tremblements de terre sont fréquents) qu'à Stockholm (où ils ne le sont pas).
 

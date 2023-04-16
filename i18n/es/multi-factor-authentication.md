@@ -49,7 +49,7 @@ Para los modelos que admiten HOTP y TOTP, hay 3 ranuras para HOTP y 15 para TOTP
 
 !!! warning "Advertencia"
 
-    Aunque las Nitrokeys no revelan los secretos HOTP/TOTP al dispositivo al que están conectadas, el almacenamiento HOTP y TOTP **no** está cifrado y es vulnerable a ataques físicos. If you are looking to store HOTP or TOTP these secrets, we highly recommend that you use a YubiKey instead.
+    Aunque las Nitrokeys no revelan los secretos HOTP/TOTP al dispositivo al que están conectadas, el almacenamiento HOTP y TOTP **no** está cifrado y es vulnerable a ataques físicos. Si desea almacenar con HOTP o TOTP estos secretos, le recomendamos encarecidamente que utilice un YubiKey en su lugar.
 
 !!! warning "Advertencia"
 

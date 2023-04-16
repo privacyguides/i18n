@@ -1,5 +1,5 @@
 ---
-meta_title: "Encrypted Private Email Recommendations - Privacy Guides"
+meta_title: "Recomendaciones de Correo Electrónico Privado Cifrado - Privacy Guides"
 title: "Servicios de Correo Electrónico"
 icon: material/email
 description: Estos proveedores de correo electrónico ofrecen un lugar estupendo para almacenar tus correos de forma segura, y muchos ofrecen encriptación OpenPGP inter operable con otros proveedores.
@@ -124,7 +124,7 @@ Mailbox.org no acepta criptomonedas debido a que su procesador de pagos BitPay s
 
 #### :material-check:{ .pg-green } Seguridad de Cuenta
 
-Mailbox.org soporta [autenticación de doble factor](https://kb.mailbox.org/display/MBOKBEN/How+to+use+two-factor+authentication+-+2FA) solo para su correo web. You can use either TOTP or a [YubiKey](https://en.wikipedia.org/wiki/YubiKey) via the [YubiCloud](https://www.yubico.com/products/services-software/yubicloud). Estándares web como [WebAuthn](https://en.wikipedia.org/wiki/WebAuthn) aún no son soportados.
+Mailbox.org soporta [autenticación de doble factor](https://kb.mailbox.org/display/MBOKBEN/How+to+use+two-factor+authentication+-+2FA) solo para su correo web. Puede utilizar TOTP o una [YubiKey](https://en.wikipedia.org/wiki/YubiKey) a través de [YubiCloud](https://www.yubico.com/products/services-software/yubicloud). Estándares web como [WebAuthn](https://en.wikipedia.org/wiki/WebAuthn) aún no son soportados.
 
 #### :material-information-outline:{ .pg-blue } Seguridad de Datos
 

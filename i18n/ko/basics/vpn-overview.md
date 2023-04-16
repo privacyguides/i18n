@@ -11,7 +11,7 @@ Encryption protocols such as HTTPS are commonly used on the internet, so they ma
 
 A VPN can help as it can shift trust to a server somewhere else in the world. As a result, the ISP then only sees that you are connected to a VPN and nothing about the activity that you're passing into it.
 
-## Should I use a VPN?
+## VPN을 사용해야 하나요?
 
 **Yes**, unless you are already using Tor. A VPN does two things: shifting the risks from your Internet Service Provider to itself and hiding your IP from a third-party service.
 

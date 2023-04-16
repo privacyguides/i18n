@@ -1,8 +1,8 @@
 ---
-meta_title: "Threat Modeling: The First Step on Your Privacy Journey - Privacy Guides"
+meta_title: "Modelado de Amenazas: El Primer Paso en el Camino hacia la Privacidad - Privacy Guides"
 title: "¿Qué son los modelos de amenaza?"
 icon: 'material/target-account'
-description: Balancing security, privacy, and usability is one of the first and most difficult tasks you'll face on your privacy journey.
+description: Equilibrar la seguridad, privacidad y usabilidad es una de las primeras y más difíciles tareas a las que te enfrentarás en tu camino a la privacidad.
 ---
 
 Equilibrar la seguridad, privacidad y usabilidad es una de las primeras y más difíciles tareas a las que te enfrentarás en tu camino de privacidad. Todo es un intercambio: Entre más seguro algo es, más restrictivo o inconveniente suele ser, etc. A menudo, gente encuentra que el problema con las herramientas que ven recomendadas es que son demasiado difíciles de comenzar a usar!

@@ -3,13 +3,13 @@ title: Поддержать нас
 ---
 
 <!-- markdownlint-disable MD036 -->
-Нам нужно много [людей](https://github.com/privacyguides/privacyguides.org/graphs/contributors) и [работы](https://github.com/privacyguides/privacyguides.org/pulse/monthly) чтобы поддерживать Priacy Guides в актуальном состоянии и распространять информацию о безопасности и массовой слежке. If you like what we do, consider getting involved by [editing the site](https://github.com/privacyguides/privacyguides.org) or [contributing translations](https://crowdin.com/project/privacyguides).
+Нам нужно много [людей](https://github.com/privacyguides/privacyguides.org/graphs/contributors) и [работы](https://github.com/privacyguides/privacyguides.org/pulse/monthly) чтобы поддерживать Priacy Guides в актуальном состоянии и распространять информацию о безопасности и массовой слежке. Если вам нравится то, что мы делаем, лучший способ помочь - это принять участие [редактируя сайт](https://github.com/privacyguides/privacyguides.org) или [помогая с его переводом](https://crowdin.com/project/privacyguides).
 
 Если вы хотите помочь нам материально, лучшим способом будет пожертвование через Open Collective, ресурс, управляемый нашим фискальным агентом. Open Collective поддерживает оплату через кредитную или дебетовую карту, PayPal, банковские переводы.
 
-[Donate on OpenCollective.com](https://opencollective.com/privacyguides/donate){ class="md-button md-button--primary" }
+[Пожертвовать на OpenCollective.com](https://opencollective.com/privacyguides/donate){ class="md-button md-button--primary" }
 
-Donations made directly to us on Open Collective are generally tax-deductible in the US, because our fiscal host (the Open Collective Foundation) is a registered 501(c)3 organization. После пожертвования вы получите чек от Фонда Open Collective. Privacy Guides не предоставляет финансовых консультаций, и вам следует обратиться к своему налоговому консультанту, чтобы узнать, применимо ли это к вам.
+Пожертвования сделанные нам непосредственно через Open Collective не облагаются налогами США, потому что наш фискальный агент (Фонд Open Collective) - зарегистрированная организация 501 (с)3. После пожертвования вы получите чек от Фонда Open Collective. Privacy Guides не предоставляет финансовых консультаций, и вам следует обратиться к своему налоговому консультанту, чтобы узнать, применимо ли это к вам.
 
 Если вы уже пользуетесь спонсорством на GitHub, вы также можете спонсировать нашу организацию там.
 

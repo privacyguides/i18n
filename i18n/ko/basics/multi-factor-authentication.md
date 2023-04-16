@@ -1,5 +1,5 @@
 ---
-title: "Multi-Factor Authentication"
+title: "다중 인증"
 icon: 'material/two-factor-authentication'
 description: MFA is a critical security mechanism for securing your online accounts, but some methods are stronger than others.
 ---
@@ -10,7 +10,7 @@ Normally, if a hacker (or adversary) is able to figure out your password then th
 
 MFA methods vary in security, but are based on the premise that the more difficult it is for an attacker to gain access to your MFA method, the better. Examples of MFA methods (from weakest to strongest) include SMS, Email codes, app push notifications, TOTP, Yubico OTP and FIDO.
 
-## MFA Method Comparison
+## MFA 방식 비교
 
 ### SMS or Email MFA
 

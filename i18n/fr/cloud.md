@@ -1,5 +1,5 @@
 ---
-meta_title: "The Best Private and Secure Cloud Storage Providers - Privacy Guides"
+meta_title: "Les meilleurs services de stockage cloud privés et sécurisés - Privacy Guides"
 title: "Stockage cloud"
 icon: material/file-cloud
 description: De nombreux fournisseurs de stockage cloud nécessitent que vous leur fassiez confiance pour ne pas consulter vos fichiers. Voici des alternatives privées !

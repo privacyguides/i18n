@@ -74,9 +74,9 @@ Privacy.com 預設情況下將您購買的商家資訊提供給您的銀行。 �
 
 !!! recommendation
 
-    ! [CakePay標誌] (assets/img/financial-services/coincards.svg) {align = right}
+    ![CakePay logo](assets/img/financial-services/coincards.svg){ align=right }
     
-    * * CoinCards * * （在美國、加拿大和英國）允許您購買各種商家禮品卡。
+    **CoinCards** (available in the US and Canada) allows you to purchase gift cards for a large variety of merchants.
     
     [:octicons-home-16: Homepage](https://coincards.com/){ .md-button .md-button--primary }
     [:octicons-eye-16:](https://coincards.com/privacy-policy/){ .card-link title="Privacy Policy" }

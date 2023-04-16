@@ -1,5 +1,5 @@
 ---
-meta_title: "Tor Browser and Network: Anonymous Web Browsing - Privacy Guides"
+meta_title: "Navegador y Red Tor: Navegación Web Anónima - Privacy Guides"
 title: "Red Tor"
 icon: simple/torproject
 description: Protege tu navegación por Internet de miradas intrusas utilizando la red Tor, una red segura que elude la censura.
@@ -10,8 +10,8 @@ schema:
     name: Tor Browser
     image: /assets/img/browsers/tor.svg
     url: https://www.torproject.org
-    sameAs: https://en.wikipedia.org/wiki/Tor_(network)
-    applicationCategory: Web Browser
+    sameAs: https://es.wikipedia.org/wiki/Tor_(red_de_anonimato)
+    applicationCategory: Navegador Web
     operatingSystem:
       - Windows
       - macOS

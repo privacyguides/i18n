@@ -29,7 +29,7 @@ Se você está procurando mais **privacidade** do seu provedor de internet (ISP)
 
 ## Provedores Recomendados
 
-Nossos fornecedores recomendados usam encriptação, aceitam Monero, suportam WireGuard e OpenVPN, e têm uma política de não-rastreamento. Leia nossa [lista completa de requisitos](#criteria) para mais informações.
+Nossos provedores recomendados usam criptografia, aceitam Monero, suportam WireGuard & OpenVPN, e têm uma política de não registro. Leia nossa [lista completa de requisitos](#criteria) para mais informações.
 
 ### IVPN
 
@@ -197,7 +197,7 @@ Nós também consideramos que é melhor para a segurança das chaves privadas do
 
 #### :material-check:{ .pg-green } Examinado por auditores externos
 
-Em Janeiro de 2020, ProtonVPN foi submetida a uma auditoria independente pela SEC Consult. SEC Consult found some medium and low risk vulnerabilities in Proton VPN's Windows, Android, and iOS applications, all of which were "properly fixed" by Proton VPN before the reports were published. None of the issues identified would have provided an attacker remote access to your device or traffic. You can view individual reports for each platform at [protonvpn.com](https://protonvpn.com/blog/open-source/). In April 2022 Proton VPN underwent [another audit](https://protonvpn.com/blog/no-logs-audit/) and the report was [produced by Securitum](https://protonvpn.com/blog/wp-content/uploads/2022/04/securitum-protonvpn-nologs-20220330.pdf). A [letter of attestation](https://proton.me/blog/security-audit-all-proton-apps) was provided for Proton VPN's apps on 9th November 2021 by [Securitum](https://research.securitum.com).
+Em Janeiro de 2020, ProtonVPN foi submetida a uma auditoria independente pela SEC Consult. A SEC Consult encontrou algumas vulnerabilidades de médio e baixo risco nos aplicativos Windows, Android e iOS da Proton VPN, todos os quais foram "devidamente corrigidos" pela Proton VPN antes que os relatórios fossem publicados. Nenhum dos problemas identificados teria proporcionado acesso remoto ao seu dispositivo ou tráfego. Você pode ver os relatórios individuais para cada plataforma em [protonvpn.com](https://protonvpn.com/blog/open-source/). Em abril de 2022 Proton VPN passou por [outra auditoria](https://protonvpn.com/blog/no-logs-audit/) e o relatório foi [produzido pelo Securitum](https://protonvpn.com/blog/wp-content/uploads/2022/04/securitum-protonvpn-nologs-20220330.pdf). Um [certificado de segurança](https://proton.me/blog/security-audit-all-proton-apps) foi concedido para os aplicativos do Proton Mail em 9 de Novembro de 2021 pela [Securitium](https://research.securitum.com).
 
 #### :material-check:{ .pg-green } Clientes de Código Aberto (Open-Source)
 

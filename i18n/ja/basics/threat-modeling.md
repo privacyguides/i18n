@@ -1,37 +1,37 @@
 ---
-meta_title: "Threat Modeling: The First Step on Your Privacy Journey - Privacy Guides"
-title: "Threat Modeling"
+meta_title: "脅威モデリング: プライバシー保護の最初のステップ - Privacy Guides"
+title: "脅威モデリング"
 icon: 'material/target-account'
-description: Balancing security, privacy, and usability is one of the first and most difficult tasks you'll face on your privacy journey.
+description: セキュリティ、プライバシー、使いやすさのバランスを取ることは、プライバシー保護を考える際に最初に直面する難しい課題の一つです。
 ---
 
-Balancing security, privacy, and usability is one of the first and most difficult tasks you'll face on your privacy journey. Everything is a trade-off: The more secure something is, the more restricting or inconvenient it generally is, etc. Often, people find that the problem with the tools they see recommended is that they're just too hard to start using!
+セキュリティ、プライバシー、使いやすさのバランスを取ることは、プライバシー保護を考える際に最初に直面する難しい課題の一つです。 一般的に、安全性を高めるほど制限が増え、不便になるというトレードオフが発生します。 多くの場合、おすすめされたツールの問題は、使い始めるのが難しすぎることです。
 
-If you wanted to use the **most** secure tools available, you'd have to sacrifice *a lot* of usability. And, even then, ==nothing is ever fully secure.== There's **high** security, but never **full** security. That's why threat models are important.
+**最も**安全なツールを使うには、*多くの*使いやすさを犠牲にする必要があります。 そして、それでも、==完全に安全にはなりません。==**高レベル**のセキュリティはあっても、**完全な**セキュリティはありません。 だからこそ、脅威モデルが重要なのです。
 
-**So, what are these threat models, anyway?**
+**脅威モデルとは何ですか？**
 
 ==A threat model is a list of the most probable threats to your security and privacy endeavors.== Since it's impossible to protect yourself against **every** attack(er), you should focus on the **most probable** threats. In computer security, a threat is an event that could undermine your efforts to stay private and secure.
 
-Focusing on the threats that matter to you narrows down your thinking about the protection you need, so you can choose the tools that are right for the job.
+あなたにとって重大な脅威に焦点を当てることで、必要な保護を絞り込み、必要なツールを選ぶことができます。
 
-## Creating Your Threat Model
+## 脅威モデルの作成
 
-To identify what could happen to the things you value and determine from whom you need to protect them, you should answer these five questions:
+あなたの大切なものに何が起こる可能性があるかを特定し、誰から守るべきかを判断するために、以下の5つの質問を確認しましょう:
 
-1. What do I want to protect?
-2. Who do I want to protect it from?
-3. How likely is it that I will need to protect it?
-4. How bad are the consequences if I fail?
-5. How much trouble am I willing to go through to try to prevent potential consequences?
+1. 何を守りたいか？
+2. 誰から守りたいか？
+3. 守る必要がどの程度あるか？
+4. 守れなかった場合、どんな悪影響があるか？
+5. 守るためにどの程度なら苦労していいか？
 
-### What do I want to protect?
+### 何を守りたいか？
 
-An “asset” is something you value and want to protect. In the context of digital security, ==an asset is usually some kind of information.== For example, your emails, contact lists, instant messages, location, and files are all possible assets. Your devices themselves may also be assets.
+「資産」とは、あなたが大切にしているもの、守りたいものです。 情報セキュリティにおいては、==資産とは通常、何らかの情報です。==例えば、メール、連絡帳、インスタントメッセージ、位置情報、ファイルなどはすべて資産です。 また、デバイスが資産に含まれる場合もあります。
 
-*Make a list of your assets: data that you keep, where it's kept, who has access to it, and what stops others from accessing it.*
+*あなたの資産の一覧を作成しましょう。一覧には、あなたが保管しているデータ、その保管場所、それにアクセスできる人、他人によるアクセスを防止する方法を記載します。*
 
-### Who do I want to protect it from?
+### 誰から守りたいか？
 
 To answer this question, it's important to identify who might want to target you or your information. ==A person or entity that poses a threat to your assets is an “adversary”.== Examples of potential adversaries are your boss, your former partner, your business competition, your government, or a hacker on a public network.
 
@@ -39,7 +39,7 @@ To answer this question, it's important to identify who might want to target you
 
 Depending on who your adversaries are, under some circumstances, this list might be something you want to destroy after you're done security planning.
 
-### How likely is it that I will need to protect it?
+### 守る必要がどの程度あるか？
 
 ==Risk is the likelihood that a particular threat against a particular asset will actually occur.== It goes hand-in-hand with capability. While your mobile phone provider has the capability to access all of your data, the risk of them posting your private data online to harm your reputation is low.
 
@@ -49,7 +49,7 @@ Assessing risks is both a personal and subjective process. Many people find cert
 
 *Write down which threats you are going to take seriously, and which may be too rare or too harmless (or too difficult to combat) to worry about.*
 
-### How bad are the consequences if I fail?
+### 守れなかった場合、どんな悪影響があるか？
 
 There are many ways that an adversary could gain access to your data. For example, an adversary can read your private communications as they pass through the network, or they can delete or corrupt your data.
 
@@ -59,7 +59,7 @@ Security planning involves understanding how bad the consequences could be if an
 
 *Write down what your adversary might want to do with your private data.*
 
-### How much trouble am I willing to go through to try to prevent potential consequences?
+### 守るためにどの程度なら苦労していいか？
 
 ==There is no perfect option for security.== Not everyone has the same priorities, concerns, or access to resources. Your risk assessment will allow you to plan the right strategy for you, balancing convenience, cost, and privacy.
 
@@ -106,6 +106,6 @@ For people looking to increase their privacy and security online, we've compiled
 
 - [Common Goals and Threats :material-arrow-right-drop-circle:](common-threats.md)
 
-## Sources
+## ソース
 
 - [EFF Surveillance Self Defense: Your Security Plan](https://ssd.eff.org/en/module/your-security-plan)

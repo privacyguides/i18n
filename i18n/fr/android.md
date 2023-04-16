@@ -1,5 +1,5 @@
 ---
-meta_title: "Android Recommendations: GrapheneOS and DivestOS - Privacy Guides"
+meta_title: "Recommandations Android : GrapheneOS et DivestOS - Privacy Guides"
 title: "Android"
 icon: 'simple/android'
 description: Vous pouvez remplacer le système d'exploitation de votre téléphone Android par ces alternatives sécurisées et respectueuses de la vie privée.
@@ -222,10 +222,10 @@ Nous recommandons une grande variété d'applications Android sur ce site. Les a
 
 !!! recommendation
 
-    ![Auditor logo](assets/img/android/auditor.svg#only-light){ align=right }
-    ![Auditor logo](assets/img/android/auditor-dark.svg#only-dark){ align=right }
+    ![Logo d'Auditor](assets/img/android/auditor.svg#only-light){ align=right }
+    ![Logo d'Auditor](assets/img/android/auditor-dark.svg#only-dark){ align=right }
     
-    **Auditor** is an app which leverages hardware security features to provide device integrity monitoring by actively validating the identity of a device and the integrity of its operating system. Currently, it only works with GrapheneOS or the stock operating system for [supported devices](https://attestation.app/about#device-support).
+    **Auditor** est une application qui exploite les fonctions de sécurité matérielle pour assurer le contrôle de l'intégrité d'un appareil en validant activement son identité et l'intégrité de son système d'exploitation. Actuellement, elle ne fonctionne qu'avec GrapheneOS ou le système d'exploitation de base pour les [appareils pris en charge](https://attestation.app/about#device-support).
     
     [:octicons-home-16: Page d'accueil](https://attestation.app){ .md-button .md-button--primary }
     [:octicons-eye-16:](https://attestation.app/privacy-policy){ .card-link title="Politique de confidentialité" }

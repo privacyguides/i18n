@@ -1,37 +1,37 @@
 ---
-meta_title: "Encrypted Private Email Recommendations - Privacy Guides"
+meta_title: "비공개 암호화 이메일 서비스 권장 목록 - Privacy Guides"
 title: "이메일 서비스"
 icon: material/email
 description: These email providers offer a great place to store your emails securely, and many offer interoperable OpenPGP encryption with other providers.
 ---
 
-Email is practically a necessity for using any online service, however we do not recommend it for person-to-person conversations. Rather than using email to contact other people, consider using an instant messaging medium that supports forward secrecy.
+이메일은 모든 온라인 서비스 이용에 사실상 필수적이지만, 개인 간 대화에는 권장드리지 않습니다. 다른 사람에게 연락할 때는 이메일 대신, 순방향 비밀성을 지원하는 인스턴트 메신저를 사용하는 것이 좋습니다.
 
 [Recommended Instant Messengers](real-time-communication.md ""){.md-button}
 
 For everything else, we recommend a variety of email providers based on sustainable business models and built-in security and privacy features.
 
-- [OpenPGP-Compatible Email Providers :material-arrow-right-drop-circle:](#openpgp-compatible-services)
-- [Other Encrypted Providers :material-arrow-right-drop-circle:](#more-providers)
-- [Email Aliasing Services :material-arrow-right-drop-circle:](#email-aliasing-services)
+- [OpenPGP 호환 이메일 제공 업체 :material-arrow-right-drop-circle:](#openpgp-compatible-services)
+- [기타 암호화 이메일 제공 업체 :material-arrow-right-drop-circle:](#more-providers)
+- [이메일 별칭 서비스 :material-arrow-right-drop-circle:](#email-aliasing-services)
 - [Self-Hosted Options :material-arrow-right-drop-circle:](#self-hosting-email)
 
-## OpenPGP Compatible Services
+## OpenPGP 호환 서비스
 
-These providers natively support OpenPGP encryption/decryption and the Web Key Directory (WKD) standard, allowing for provider-agnostic E2EE emails. For example, a Proton Mail user could send an E2EE message to a Mailbox.org user, or you could receive OpenPGP-encrypted notifications from internet services which support it.
+다음 제공 업체는 Open PGP 암호화/복호화 및 Web Key Directory(WKD) 표준을 기본적으로 지원하므로, 제공 업체를 가리지 않고 E2EE 이메일 이용이 가능합니다. 예를 들어, Proton Mail 사용자는 Mailbox.org 사용자에게 E2EE 메시지를 보내거나, OpenPGP 지원 인터넷 서비스에서 OpenPGP로 암호화된 알림을 받을 수 있습니다.
 
 <div class="grid cards" markdown>
 
-- ![Proton Mail logo](assets/img/email/protonmail.svg){ .twemoji } [Proton Mail](email.md#proton-mail)
-- ![Mailbox.org logo](assets/img/email/mailboxorg.svg){ .twemoji } [Mailbox.org](email.md#mailboxorg)
+- ![Proton Mail 로고](assets/img/email/protonmail.svg){ .twemoji } [Proton Mail](email.md#proton-mail)
+- ![Mailbox.org 로고](assets/img/email/mailboxorg.svg){ .twemoji } [Mailbox.org](email.md#mailboxorg)
 
 </div>
 
-!!! warning
+!!! warning "경고"
 
-    OpenPGP와 같은 종단간 암호화 기술을 사용하더라도 이메일의 헤더에 일부 메타데이터는 암호화되지 않습니다. Read more about [email metadata](basics/email-security.md#email-metadata-overview).
+    OpenPGP 등 E2EE 기술을 사용하더라도, 이메일 헤더의 일부 메타데이터는 암호화되지 않은 채로 존재합니다. [이메일 메타데이터 개요](basics/email-security.md#email-metadata-overview)를 살펴보세요.
     
-    또한, OpenPGP는 순방향 비밀성을 제공하지 않습니다. 따라서 발신자 또는 수신자의 개인 키가 유출된다면 지금까지 같은 키로 암호화된 메세지의 내용 또한 유출됩니다. [내 개인 키를 보호하려면 어떻게 해야 하나요?](basics/email-security.md#how-do-i-protect-my-private-keys)
+    또한, OpenPGP는 순방향 비밀성을 지원하지 않습니다. 따라서 본인 혹은 수신자의 개인 키가 유출될 경우, 해당 키로 암호화된 이전 메시지가 전부 노출됩니다. [개인 키를 어떻게 보호해야 하나요?](basics/email-security.md#how-do-i-protect-my-private-keys)
 
 ### Proton Mail
 

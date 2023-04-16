@@ -1,5 +1,5 @@
 ---
-meta_title: "How Do VPNs Protect Your Privacy? Our VPN Overview - Privacy Guides"
+meta_title: "¿Cómo Protegen Tu Privacidad las VPN? Nuestra Vista General de las VPN - Privacy Guides"
 title: Vista general de VPN
 icon: material/vpn
 description: Las Redes Privadas Virtuales desplazan el riesgo de tu proveedor de Internet a un tercero quien confías. Debes tener en cuenta estas cosas.

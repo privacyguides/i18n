@@ -1,5 +1,5 @@
 ---
-meta_title: "Privacy Guides: Your Independent Privacy and Security Resource"
+meta_title: "Privacy Guides: 여러분의 개인 프라이버시, 보안 리소스"
 template: overrides/home.ko.html
 hide:
   - navigation

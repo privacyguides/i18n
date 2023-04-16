@@ -43,9 +43,9 @@ nav:
   Contributing: Помощь проекту
   Writing Guide: Writing Guide
   Technical Guides: Technical Guides
-  Changelog: Changelog
+  Changelog: Список изменений
   Forum: Форум
   Blog: Блог
 site:
   translation: |
-    You're viewing the English copy of Privacy Guides, translated by our fantastic language team on Crowdin. If you notice an error, or see any untranslated sections on this page, please consider helping out!
+    Вы просматриваете русскую копию Privacy Guides, переведённую нашей невероятной командой переводчиков на Crowdin. Если вы нашли ошибку или непереведённые разделы на этой странице, пожалуйста, помогите нам!

@@ -1,11 +1,11 @@
 ---
-meta_title: "Threat Modeling: The First Step on Your Privacy Journey - Privacy Guides"
+meta_title: "Modello di minaccia: Il primo passo nel viaggio verso la privacy - Privacy Guides"
 title: "Modelli di minaccia"
 icon: 'material/target-account'
-description: Balancing security, privacy, and usability is one of the first and most difficult tasks you'll face on your privacy journey.
+description: Bilanciare sicurezza, privacy e usabilità è uno dei primi e più difficili obiettivi che dovrete affrontare nel vostro viaggio verso la privacy.
 ---
 
-Balancing security, privacy, and usability is one of the first and most difficult tasks you'll face on your privacy journey. Tutto è un compromesso: più qualcosa è sicuro, più è restrittivo o scomodo in generale, ecc. Spesso, le persone scoprono che il problema con gli strumenti che vedono raccomandati è che sono troppo difficili da iniziare a usare!
+Bilanciare sicurezza, privacy e usabilità è uno dei primi e più difficili obiettivi che dovrete affrontare nel vostro viaggio verso la privacy. Tutto è un compromesso: più qualcosa è sicuro, più è restrittivo o scomodo in generale, ecc. Spesso, le persone scoprono che il problema con gli strumenti che vedono raccomandati è che sono troppo difficili da iniziare a usare!
 
 Se si vogliono utilizzare gli strumenti **più** sicuri a disposizione, è necessario sacrificare *molto* in termini di usabilità. E, anche allora, ==nulla è mai completamente sicuro.== C'è un alta **sicurezza**, ma mai una completa **sicurezza**. È per questo che i modelli di minaccia sono importanti.
 

@@ -1,5 +1,5 @@
 ---
-meta_title: "Tor Browser and Network: Anonymous Web Browsing - Privacy Guides"
+meta_title: "Tor Browserとネットワーク: 匿名のウェブブラウジング - Privacy Guides"
 title: "Torネットワーク"
 icon: simple/torproject
 description: Protect your internet browsing from prying eyes by using the Tor network, a secure network which circumvents censorship.
@@ -11,7 +11,7 @@ schema:
     image: /assets/img/browsers/tor.svg
     url: https://www.torproject.org
     sameAs: https://en.wikipedia.org/wiki/Tor_(network)
-    applicationCategory: Web Browser
+    applicationCategory: ウェブブラウザ
     operatingSystem:
       - Windows
       - macOS
@@ -99,7 +99,7 @@ We previously recommended enabling the *Isolate Destination Address* preference 
     
     All versions are signed using the same signature so they should be compatible with each other.
 
-## Relays and Bridges
+## リレーとブリッジ
 
 ### Snowflake
 

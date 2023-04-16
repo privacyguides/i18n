@@ -102,9 +102,9 @@ Proton Mail doesn't offer a digital legacy feature.
 
 !!! recommendation
 
-    ![Mailbox.org logo](assets/img/email/mailboxorg.svg){ align=right }
+    ![Mailbox.org-Logo](assets/img/email/mailboxorg.svg){ align=right }
     
-    **Mailbox.org** is an email service with a focus on being secure, ad-free, and privately powered by 100% eco-friendly energy. They have been in operation since 2014. Mailbox.org is based in Berlin, Germany. Accounts start with 2 GB of storage, which can be upgraded as needed.
+    **Mailbox.org** ist ein E-Mail-Dienst, mit dem Ziel sicher und werbefrei zu sein und der mit 100 % erneuerbaren Energien betrieben wird. Er ist 2014 gestartet. Mailbox.org hat seinen Sitz in Berlin, Deutschland. Der günstigste Tarif beginnt mit 2 GB Speicherplatz, der je nach Bedarf erweitert werden kann.
     
     [:octicons-home-16: Homepage](https://mailbox.org){ .md-button .md-button--primary }
     [:octicons-eye-16:](https://mailbox.org/en/data-protection-privacy-policy){ .card-link title="Privacy Policy" }
@@ -114,19 +114,19 @@ Proton Mail doesn't offer a digital legacy feature.
     
         - [:octicons-browser-16: Web](https://login.mailbox.org)
 
-#### :material-check:{ .pg-green } Custom Domains and Aliases
+#### :material-check:{ .pg-green } Eigene Domains und Aliase
 
-Mailbox.org lets you use your own domain, and they support [catch-all](https://kb.mailbox.org/display/MBOKBEN/Using+catch-all+alias+with+own+domain) addresses. Mailbox.org also supports [subaddressing](https://kb.mailbox.org/display/BMBOKBEN/What+is+an+alias+and+how+do+I+use+it), which is useful if you don't want to purchase a domain.
+Bei Mailbox.org kannst du deine eigene Domain verwenden, und sie unterstützen [Catch-All](https://kb.mailbox.org/de/privat/e-mail-mit-eigener-domain/eine-eigene-domain-mit-catch-all-benutzen) Adressen. Mailbox.org unterstützt auch die [Subadressierung/Aliasse](https://kb.mailbox.org/de/privat/e-mail-artikel/was-sind-aliasse-und-wie-nutze-ich-sie), was hilfreich ist, wenn du keine Domain kaufen möchtest.
 
-#### :material-check:{ .pg-green } Private Payment Methods
+#### :material-check:{ .pg-green } Diskrete Zahlungsmöglichkeiten
 
-Mailbox.org doesn't accept any cryptocurrencies as a result of their payment processor BitPay suspending operations in Germany. However, they do accept Cash by mail, cash payment to bank account, bank transfer, credit card, PayPal and couple of German-specific processors: paydirekt and Sofortüberweisung.
+Mailbox.org akzeptiert keine Kryptowährungen, da deren Zahlungsanbieter BitPay seinen Betrieb in Deutschland eingestellt hat. Sie akzeptieren jedoch Bargeld per Post, Barzahlung auf ein Bankkonto, Banküberweisung, Kreditkarte, PayPal und einige Deutschland spezifische Anbieter: paydirekt und Sofortüberweisung.
 
-#### :material-check:{ .pg-green } Account Security
+#### :material-check:{ .pg-green } Kontosicherheit
 
-Mailbox.org supports [two factor authentication](https://kb.mailbox.org/display/MBOKBEN/How+to+use+two-factor+authentication+-+2FA) for their webmail only. You can use either TOTP or a [YubiKey](https://en.wikipedia.org/wiki/YubiKey) via the [YubiCloud](https://www.yubico.com/products/services-software/yubicloud). Web standards such as [WebAuthn](https://en.wikipedia.org/wiki/WebAuthn) are not yet supported.
+Mailbox.org unterstützt [Zwei-Faktor-Authentifizierung](https://kb.mailbox.org/de/privat/sicherheit-privatsphaere-artikel/die-zwei-faktor-authentifizierung-einrichten) nur für Webmail. Du kannst entweder TOTP oder einen [YubiKey](https://de.wikipedia.org/wiki/Yubikey) über die [YubiCloud](https://www.yubico.com/products/services-software/yubicloud)verwenden. Webstandards wie [WebAuthn](https://de.wikipedia.org/wiki/WebAuthn) werden noch nicht unterstützt.
 
-#### :material-information-outline:{ .pg-blue } Data Security
+#### :material-information-outline:{ .pg-blue } Datensicherheit
 
 Mailbox.org allows for encryption of incoming mail using their [encrypted mailbox](https://kb.mailbox.org/display/MBOKBEN/The+Encrypted+Mailbox). New messages that you receive will then be immediately encrypted with your public key.
 
@@ -190,7 +190,7 @@ StartMail accepts Visa, MasterCard, American Express and Paypal. StartMail also 
 
 StartMail supports TOTP two factor authentication [for webmail only](https://support.startmail.com/hc/en-us/articles/360006682158-Two-factor-authentication-2FA). They do not allow U2F security key authentication.
 
-#### :material-information-outline:{ .pg-blue } Data Security
+#### :material-information-outline:{ .pg-blue } Datensicherheit
 
 StartMail has [zero access encryption at rest](https://www.startmail.com/en/whitepaper/#_Toc458527835), using their "user vault" system. When you log in, the vault is opened, and the email is then moved to the vault out of the queue where it is decrypted by the corresponding private key.
 

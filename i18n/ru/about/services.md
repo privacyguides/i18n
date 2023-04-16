@@ -2,7 +2,7 @@
 
 Мы держим ряд веб-сервисов для тестирования возможностей и продвижения классных децентрализованных, федеративных и/или открытых проектов. Многие из этих сервисов доступны публично и описаны ниже.
 
-[:material-comment-alert: Report an issue](https://discuss.privacyguides.net/c/services/2){ class="md-button md-button--primary" }
+[:material-comment-alert: Сообщить о проблеме](https://discuss.privacyguides.net/c/services/2){ class="md-button md-button--primary" }
 
 ## Discourse
 
@@ -32,7 +32,7 @@
 
 ## Invidious
 
-- Domain: [invidious.privacyguides.net](https://invidious.privacyguides.net)
-- Availability: Semi-Public  
-  We host Invidious primarily to serve embedded YouTube videos on our website, this instance is not intended for general-purpose use and may be limited at any time.
-- Source: [github.com/iv-org/invidious](https://github.com/iv-org/invidious)
+- Домен: [invidious.privacyguides.net](https://invidious.privacyguides.net)
+- Доступность: Полупубличный  
+  Мы размещаем Invidious в основном для обслуживания встроенных видеороликов YouTube на нашем сайте, этот экземпляр не предназначен для общего использования и может быть ограничен в любое время.
+- Исходный код: [github.com/iv-org/invidious](https://github.com/iv-org/invidious)

@@ -1,5 +1,5 @@
 ---
-meta_title: "Privacy Respecting Web Browsers for PC and Mac - Privacy Guides"
+meta_title: "Navegadores Web para PC y Mac que Respetan la Privacidad - Privacy Guides"
 title: "Navegadores de Escritorio"
 icon: material/laptop
 description: Estos navegadores web ofrecen protecciones de privacidad más sólidas que Google Chrome.

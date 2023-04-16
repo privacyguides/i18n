@@ -5,13 +5,13 @@ config:
   copyright:
     - 
       1: |
-         Privacy Guides is a non-profit, socially motivated website that provides information for protecting your data security and privacy.
+         Privacy Guides는 여러분의 데이터 보안, 프라이버시 보호 정보 제공을 목적으로 운영되는 비영리 사이트입니다.
     - 
       2: |
          우리는 특정 제품을 추천하여 수익을 창출하지 않으며, 제휴 링크를 사용하지 않습니다.
     - 
       3: |
-         Privacy Guides and contributors.
+         Privacy Guides 및 기여자
     - 
       4: |
          Content licensed under CC BY-ND 4.0.

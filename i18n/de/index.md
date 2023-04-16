@@ -1,5 +1,5 @@
 ---
-meta_title: "Privacy Guides: Your Independent Privacy and Security Resource"
+meta_title: "Privacy Guides: Deine unabhängige Quelle für Datenschutz und Sicherheit"
 template: overrides/home.de.html
 hide:
   - navigation
@@ -40,9 +40,9 @@ schema:
 
 ##### "Ich habe nichts zu verbergen. Warum sollte ich mir Sorgen um meine Privatsphäre machen?"
 
-Ähnlich wie das Recht auf gemischtrassige Ehen, das Frauenwahlrecht, das Recht auf freie Meinungsäußerung und viele andere wurde unser Recht auf Privatsphäre nicht immer gewährt. In einigen Diktaturen ist das immer noch der Fall. Generationen vor uns haben für unser Recht auf Privatsphäre gekämpft. ==Privatsphäre ist ein Menschenrecht, das uns allen innewohnt,== auf das wir (ohne Diskriminierung) Anspruch haben.
+Ähnlich wie das Recht auf gemischtrassige Ehen, das Frauenwahlrecht, das Recht auf freie Meinungsäußerung und viele andere wurde unser Recht auf Privatsphäre nicht immer gewährt. In einigen Diktaturen ist das immer noch der Fall. Generationen vor uns haben für unser Recht auf Privatsphäre gekämpft. ==Privatsphäre ist ein Menschenrecht, das für uns alle gilt,== auf das jeder (egal welches Alter, Geschlecht, Herkunft, Religion, ...) Anspruch hat.
 
-Privatsphäre sollte nicht mit Geheimhaltung verwechselt werden. Wir wissen, was auf der Toilette passiert, aber machen trotzdem die Tür zu. Das liegt daran, dass wir Privatsphäre wollen, keine Geheimhaltung. **Alle** haben etwas zu schützen. Privatsphäre ist etwas, das uns menschlich macht.
+Privatsphäre sollte nicht mit Verheimlichen verwechselt werden. Wir wissen, was auf der Toilette passiert, aber machen trotzdem die Tür zu. Das liegt daran, dass du deine Privatsphäre willst, aber nicht unbedingt alles verheimlichen willst. **Alle** haben etwas zu schützen. Privatsphäre ist etwas, das uns zum Menschen macht.
 
 [:material-target-account: Common Internet Threats](basics/common-threats.md){ class="md-button md-button--primary" }
 
