@@ -6,7 +6,7 @@ description: Some pages that used to be in our knowledge base can now be found o
 
 # Pagine spostate nel blog
 
-Some pages that used to be in our knowledge base can now be found on our blog:
+Alcune pagine che prima si trovavano nella nostra conoscenza di base sono ora disponibili sul nostro blog:
 
 - [GrapheneOS vs. CalyxOS](https://blog.privacyguides.org/2022/04/21/grapheneos-or-calyxos/)
 - [Hardening di Signal](https://blog.privacyguides.org/2022/07/07/signal-configuration-and-hardening/)

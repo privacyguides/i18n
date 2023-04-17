@@ -1,5 +1,5 @@
 ---
-meta_title: "Privacy Guides: Your Independent Privacy and Security Resource"
+meta_title: "Privacy Guides: 您的獨立隱私和安全資源"
 template: overrides/home.zh-Hant.html
 hide:
   - navigation

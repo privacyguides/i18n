@@ -1,5 +1,5 @@
 ---
-meta_title: "The Best Privacy Tools, Services, and Ad-Free Recommendations - Privacy Guides"
+meta_title: "最佳隱私權工具、服務和無廣告建議 - Privacy Guides"
 title: "隱私工具"
 icon: material/tools
 hide:

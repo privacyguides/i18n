@@ -74,9 +74,9 @@ These services allow you to purchase gift cards for a variety of merchants onlin
 
 !!! recommendation
 
-    ![CakePay logo](assets/img/financial-services/coincards.svg){ align=right }
+    ![CakePay-Logo](assets/img/financial-services/coincards.svg){ align=right }
     
-    **CoinCards** (available in the US and Canada) allows you to purchase gift cards for a large variety of merchants.
+    Bei **CoinCards** (nur verfügbar in den USA und Kanada) kannst du Gutscheine für eine Vielzahl von Händlern erwerben.
     
     [:octicons-home-16: Homepage](https://coincards.com/){ .md-button .md-button--primary }
     [:octicons-eye-16:](https://coincards.com/privacy-policy/){ .card-link title="Privacy Policy" }

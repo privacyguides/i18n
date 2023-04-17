@@ -4,7 +4,7 @@ icon: 'material/form-textbox-password'
 description: These are some tips and tricks on how to create the strongest passwords and keep your accounts secure.
 ---
 
-Passwords are an essential part of our everyday digital lives. We use them to protect our accounts, our devices and our secrets. Despite often being the only thing between us and an adversary who's after our private information, not a lot of thought is put into them, which often leads to people using passwords that can be easily guessed or brute-forced.
+'비밀번호'는 우리의 일상 디지털 생활에 있어서 필수적인 요소입니다. 우리는 비밀번호를 통해 계정, 기기, 개인 정보를 보호합니다. 간혹 비밀번호는 우리의 개인 정보를 노리는 공격자와 우리 사이의 유일한 방어 수단임에도 불구하고, 사람들은 비밀번호의 중요성을 심각하게 생각하지 않아 쉽게 추측되거나 무차별 대입 공격에 취약한 비밀번호를 사용하는 경우가 흔합니다.
 
 ## 모범 사례
 
@@ -88,7 +88,7 @@ We recommend using [EFF's large wordlist](https://www.eff.org/files/2016/07/18/e
 
 To sum it up, diceware passphrases are your best option when you need something that is both easy to remember *and* exceptionally strong.
 
-## Storing Passwords
+## 비밀번호 저장
 
 ### 비밀번호 관리자
 
@@ -96,7 +96,7 @@ To sum it up, diceware passphrases are your best option when you need something 
 
 There are many good options to choose from, both cloud-based and local. Choose one of our recommended password managers and use it to establish strong passwords across all of your accounts. We recommend securing your password manager with a [diceware passphrase](#diceware-passphrases) comprised of at least seven words.
 
-[List of recommended password managers](../passwords.md ""){.md-button}
+[권장 비밀번호 관리자 목록](../passwords.md ""){.md-button}
 
 !!! warning "비밀번호와 TOTP 토큰을 하나의 비밀번호 관리자에 저장하지 마세요"
 

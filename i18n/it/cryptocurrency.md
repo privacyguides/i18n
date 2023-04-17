@@ -4,9 +4,9 @@ title: Criptovalute
 icon: material/bank-circle
 ---
 
-Making payments online is one of the biggest challenges to privacy. These cryptocurrencies provide transaction privacy by default (something which is **not** guaranteed by the majority of cryptocurrencies), provided you have a strong understanding of how to make private payments effectively. We strongly encourage you first read our payments overview article before making any purchases:
+Effettuare pagamenti online è una delle maggiori sfide per la privacy. These cryptocurrencies provide transaction privacy by default (something which is **not** guaranteed by the majority of cryptocurrencies), provided you have a strong understanding of how to make private payments effectively. Ti consigliamo vivamente di leggere prima il nostro articolo riguardo i pagamenti prima di effettuare qualsiasi acquisto:
 
-[Making Private Payments :material-arrow-right-drop-circle:](advanced/payments.md ""){.md-button}
+[Effettuare pagamenti privati :material-arrow-right-drop-circle:](advanced/payments.md ""){.md-button}
 
 !!! attenzione
 

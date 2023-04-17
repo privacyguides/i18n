@@ -1,5 +1,5 @@
 ---
-meta_title: "How to Create Internet Accounts Privately - Privacy Guides"
+meta_title: "如何私下創建網際網路帳戶 - Privacy Guides"
 title: "帳號創建"
 icon: 'material/account-plus'
 description: 創建帳戶為實際連線網際網路所必要，請採取下列步驟確保您的線上隱私。

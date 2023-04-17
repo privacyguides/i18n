@@ -1,8 +1,8 @@
 ---
-meta_title: "Threat Modeling: The First Step on Your Privacy Journey - Privacy Guides"
+meta_title: "위협 모델링: 프라이버시 보호의 첫걸음 - Privacy Guides"
 title: "위협 모델링"
 icon: 'material/target-account'
-description: Balancing security, privacy, and usability is one of the first and most difficult tasks you'll face on your privacy journey.
+description: 보안, 개인정보 보호, 사용성 간의 균형 조절은 개인정보 보호 여정에서 제일 먼저 직면하게 될 가장 어려운 과제 중 하나입니다.
 ---
 
 보안, 개인정보 보호, 사용성 간의 균형 조절은 개인정보 보호 여정에서 가장 먼저 직면하게 될 가장 어려운 과제 중 하나입니다. 무엇이든 장단점이 있습니다. '더 뛰어난 보안'은 일반적으로 '더 많은 제약이나 불편함'을 의미합니다. 사람들로부터 권장 툴의 문제점으로 자주 지적되는 것은, "사용하기 너무 어렵다"라는 점입니다.

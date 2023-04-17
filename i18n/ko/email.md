@@ -5,11 +5,11 @@ icon: material/email
 description: These email providers offer a great place to store your emails securely, and many offer interoperable OpenPGP encryption with other providers.
 ---
 
-이메일은 모든 온라인 서비스 이용에 사실상 필수적이지만, 개인 간 대화에는 권장드리지 않습니다. 다른 사람에게 연락할 때는 이메일 대신, 순방향 비밀성을 지원하는 인스턴트 메신저를 사용하는 것이 좋습니다.
+이메일은 모든 온라인 서비스 이용에 사실상 필수적이지만, 개인 간 대화에는 권장드리지 않습니다. 다른 사람에게 연락할 때는 이메일보다는 순방향 비밀성을 지원하는 인스턴트 메신저를 사용하는 것이 좋습니다.
 
-[Recommended Instant Messengers](real-time-communication.md ""){.md-button}
+[권장 인스턴트 메신저](real-time-communication.md ""){.md-button}
 
-For everything else, we recommend a variety of email providers based on sustainable business models and built-in security and privacy features.
+그 외 용도로 이메일을 사용한다면, 지속 가능한 비즈니스 모델을 갖추고 보안 및 프라이버시 기능을 기본 제공하는 이메일 제공 업체를 권장합니다.
 
 - [OpenPGP 호환 이메일 제공 업체 :material-arrow-right-drop-circle:](#openpgp-compatible-services)
 - [기타 암호화 이메일 제공 업체 :material-arrow-right-drop-circle:](#more-providers)
@@ -57,31 +57,31 @@ For everything else, we recommend a variety of email providers based on sustaina
         - [:simple-linux: Linux](https://proton.me/mail/bridge#download)
         - [:octicons-browser-16: Web](https://mail.proton.me)
 
-Free accounts have some limitations, such as not being able to search body text and not having access to [Proton Mail Bridge](https://proton.me/mail/bridge), which is required to use a [recommended desktop email client](email-clients.md) (e.g. Thunderbird). Paid accounts include features like Proton Mail Bridge, additional storage, and custom domain support. A [letter of attestation](https://proton.me/blog/security-audit-all-proton-apps) was provided for Proton Mail's apps on 9th November 2021 by [Securitum](https://research.securitum.com).
+무료 계정은 본문 텍스트 검색이 불가능하고 [Proton Mail Bridge](https://proton.me/mail/bridge)(Thunderbird 등 [권장 데스크톱 이메일 클라이언트](email-clients.md)를 사용하려면 필수적인 기능)를 사용할 수 없습니다. 유료 계정에는 Proton Mail Bridge, 추가 저장 공간, 사용자 지정 도메인 지원 등의 기능이 제공됩니다. Proton Mail 앱 [감사 증명서](https://proton.me/blog/security-audit-all-proton-apps)는 2021년 11월 9일에 [Securitum](https://research.securitum.com)에서 발급하였습니다.
 
-If you have the Proton Unlimited, Business, or Visionary Plan, you also get [SimpleLogin](#simplelogin) Premium for free.
+Proton Unlimited, Businiess, Visionary 플랜을 이용 중이라면 [SimpleLogin](#simplelogin) 프리미엄도 무료로 제공됩니다.
 
-Proton Mail has internal crash reports that they **do not** share with third parties. This can be disabled in: **Settings** > **Go to Settings** > **Account** > **Security and privacy** > **Send crash reports**.
+Proton Mail에는 내부 충돌 보고서가 존재하며, 이는 제3자와 공유되지 **않습니다**. 충돌 보고서는 비활성화 가능합니다: **Settings** > **Go to Settings** > **Account** > **Security and privacy** > **Send crash reports**.
 
-#### :material-check:{ .pg-green } Custom Domains and Aliases
+#### :material-check:{ .pg-green } 사용자 지정 도메인 및 별칭
 
-Paid Proton Mail subscribers can use their own domain with the service or a [catch-all](https://proton.me/support/catch-all) address. Proton Mail also supports [subaddressing](https://proton.me/support/creating-aliases), which is useful for people who don't want to purchase a domain.
+Proton Mail 유료 이용자는 서비스에서 자신의 도메인을 사용하거나 [Catch-all](https://proton.me/support/catch-all) 주소를 사용할 수 있습니다. 도메인을 자신이 직접 구매하지 않더라도, Proton Mail이 지원하는 [보조 주소](https://proton.me/support/creating-aliases)를 유용하게 사용할 수 있습니다.
 
-#### :material-check:{ .pg-green } Private Payment Methods
+#### :material-check:{ .pg-green } 비공개 결제 수단
 
-Proton Mail [accepts](https://proton.me/support/payment-options) cash by mail in addition to standard credit/debit card, [Bitcoin](advanced/payments.md#other-coins-bitcoin-ethereum-etc), and PayPal payments.
+Proton Mail은 일반 신용/직불 카드, [비트코인](advanced/payments.md#other-coins-bitcoin-ethereum-etc), Paypal, 현금 우편 결제를 [지원합니다](https://proton.me/support/payment-options).
 
-#### :material-check:{ .pg-green } Account Security
+#### :material-check:{ .pg-green } 계정 보안
 
-Proton Mail supports TOTP [two factor authentication](https://proton.me/support/two-factor-authentication-2fa) and [hardware security keys](https://proton.me/support/2fa-security-key) using FIDO2 or U2F standards. The use of a hardware security key requires setting up TOTP two factor authentication first.
+Proton Mail은 TOTP [이중 인증](https://proton.me/support/two-factor-authentication-2fa), FIDO2/U2F 표준 [하드웨어 보안 키](https://proton.me/support/2fa-security-key)를 지원합니다. 하드웨어 보안 키를 사용하려면 먼저 TOTP 이중 인증을 설정해야 합니다.
 
-#### :material-check:{ .pg-green } Data Security
+#### :material-check:{ .pg-green } 데이터 보안
 
 Proton Mail has [zero-access encryption](https://proton.me/blog/zero-access-encryption) at rest for your emails and [calendars](https://proton.me/news/protoncalendar-security-model). Data secured with zero-access encryption is only accessible by you.
 
 Certain information stored in [Proton Contacts](https://proton.me/support/proton-contacts), such as display names and email addresses, are not secured with zero-access encryption. Contact fields that support zero-access encryption, such as phone numbers, are indicated with a padlock icon.
 
-#### :material-check:{ .pg-green } Email Encryption
+#### :material-check:{ .pg-green } 이메일 암호화
 
 Proton Mail has [integrated OpenPGP encryption](https://proton.me/support/how-to-use-pgp) in their webmail. Emails to other Proton Mail accounts are encrypted automatically, and encryption to non-Proton Mail addresses with an OpenPGP key can be enabled easily in your account settings. They also allow you to [encrypt messages to non-Proton Mail addresses](https://proton.me/support/password-protected-emails) without the need for them to sign up for a Proton Mail account or use software like OpenPGP.
 
@@ -92,47 +92,47 @@ Proton Mail also supports the discovery of public keys via HTTP from their [Web 
 
 If you have a paid account and your [bill is unpaid](https://proton.me/support/delinquency) after 14 days, you won't be able to access your data. After 30 days, your account will become delinquent and won't receive incoming mail. You will continue to be billed during this period.
 
-#### :material-information-outline:{ .pg-blue } Additional Functionality
+#### :material-information-outline:{ .pg-blue } 추가 기능
 
-Proton Mail offers an "Unlimited" account for €9.99/Month, which also enables access to Proton VPN in addition to providing multiple accounts, domains, aliases, and 500GB of storage.
+Proton Mail은 'Unlimited' 계정 요금제를 월 9.99유로에 제공합니다. Unlimited 계정은 Proton VPN 접근이 제공되며, 다중 계정, 도메인, 별칭을 비롯해 500GB 저장 공간이 제공됩니다.
 
-Proton Mail doesn't offer a digital legacy feature.
+Proton Mail은 디지털 유산 상속 기능을 제공하지 않습니다.
 
 ### Mailbox.org
 
 !!! recommendation
 
-    ![Mailbox.org logo](assets/img/email/mailboxorg.svg){ align=right }
+    ![Mailbox.org 로고](assets/img/email/mailboxorg.svg){ align=right }
     
-    **Mailbox.org** is an email service with a focus on being secure, ad-free, and privately powered by 100% eco-friendly energy. They have been in operation since 2014. Mailbox.org is based in Berlin, Germany. Accounts start with 2 GB of storage, which can be upgraded as needed.
+    **Mailbox.org**는 100% 친환경 에너지로 작동되는 안전하고, 광고가 없는 비공개 중점 이메일 서비스입니다. 2014년부터 운영되었습니다. Mailbox.org 본사는 독일 베를린에 위치하고 있습니다. 계정은 2GB 저장 공간으로 시작하며, 필요에 따라 업그레이드 가능합니다.
     
-    [:octicons-home-16: Homepage](https://mailbox.org){ .md-button .md-button--primary }
-    [:octicons-eye-16:](https://mailbox.org/en/data-protection-privacy-policy){ .card-link title="Privacy Policy" }
-    [:octicons-info-16:](https://kb.mailbox.org/en/private){ .card-link title=Documentation}
+    [:octicons-home-16: 홈페이지](https://mailbox.org){ .md-button .md-button--primary }
+    [:octicons-eye-16:](https://mailbox.org/en/data-protection-privacy-policy){ .card-link title="프라이버시 정책" }
+    [:octicons-info-16:](https://kb.mailbox.org/en/private){ .card-link title=문서}
     
-    ??? downloads
+    ??? downloads "다운로드"
     
         - [:octicons-browser-16: Web](https://login.mailbox.org)
 
-#### :material-check:{ .pg-green } Custom Domains and Aliases
+#### :material-check:{ .pg-green } 사용자 지정 도메인 및 별칭
 
-Mailbox.org lets you use your own domain, and they support [catch-all](https://kb.mailbox.org/display/MBOKBEN/Using+catch-all+alias+with+own+domain) addresses. Mailbox.org also supports [subaddressing](https://kb.mailbox.org/display/BMBOKBEN/What+is+an+alias+and+how+do+I+use+it), which is useful if you don't want to purchase a domain.
+Mailbox.org는 자신의 도메인을 사용할 수 있으며, [Catch-all](https://kb.mailbox.org/display/MBOKBEN/Using+catch-all+alias+with+own+domain) 주소를 지원합니다. 도메인을 자신이 직접 구매하지 않더라도, Mailbox.org가 지원하는 [보조 주소](https://kb.mailbox.org/display/BMBOKBEN/What+is+an+alias+and+how+do+I+use+it)를 유용하게 사용할 수 있습니다.
 
-#### :material-check:{ .pg-green } Private Payment Methods
+#### :material-check:{ .pg-green } 비공개 결제 수단
 
-Mailbox.org doesn't accept any cryptocurrencies as a result of their payment processor BitPay suspending operations in Germany. However, they do accept Cash by mail, cash payment to bank account, bank transfer, credit card, PayPal and couple of German-specific processors: paydirekt and Sofortüberweisung.
+Mailbox.org는 BitPay 결제 처리업체가 독일에서 운영을 중단함에 따라 어떠한 암호화폐도 받지 않습니다. 단, 몇 가지 독일 전용 결제 수단(paydirekt, Sofortüberweisung)을 비롯해 현금 우편, 은행 계좌 현금 입금, 은행 송금, 신용 카드, PayPal을 지원합니다.
 
-#### :material-check:{ .pg-green } Account Security
+#### :material-check:{ .pg-green } 계정 보안
 
-Mailbox.org supports [two factor authentication](https://kb.mailbox.org/display/MBOKBEN/How+to+use+two-factor+authentication+-+2FA) for their webmail only. You can use either TOTP or a [YubiKey](https://en.wikipedia.org/wiki/YubiKey) via the [YubiCloud](https://www.yubico.com/products/services-software/yubicloud). Web standards such as [WebAuthn](https://en.wikipedia.org/wiki/WebAuthn) are not yet supported.
+Mailbox.org는 웹메일에 한해 [이중 인증](https://kb.mailbox.org/display/MBOKBEN/How+to+use+two-factor+authentication+-+2FA)을 지원합니다. TOTP 혹은 ([YubiCloud](https://www.yubico.com/products/services-software/yubicloud)를 통한) [YubiKey](https://en.wikipedia.org/wiki/YubiKey)를 사용할 수 있습니다. [WebAuthn](https://en.wikipedia.org/wiki/WebAuthn) 등의 웹 표준은 아직 지원되지 않습니다.
 
-#### :material-information-outline:{ .pg-blue } Data Security
+#### :material-information-outline:{ .pg-blue } 데이터 보안
 
 Mailbox.org allows for encryption of incoming mail using their [encrypted mailbox](https://kb.mailbox.org/display/MBOKBEN/The+Encrypted+Mailbox). New messages that you receive will then be immediately encrypted with your public key.
 
 However, [Open-Exchange](https://en.wikipedia.org/wiki/Open-Xchange), the software platform used by Mailbox.org, [does not support](https://kb.mailbox.org/display/BMBOKBEN/Encryption+of+calendar+and+address+book) the encryption of your address book and calendar. A [standalone option](calendar.md) may be more appropriate for that information.
 
-#### :material-check:{ .pg-green } Email Encryption
+#### :material-check:{ .pg-green } 이메일 암호화
 
 Mailbox.org has [integrated encryption](https://kb.mailbox.org/display/MBOKBEN/Send+encrypted+e-mails+with+Guard) in their webmail, which simplifies sending messages to people with public OpenPGP keys. They also allow [remote recipients to decrypt an email](https://kb.mailbox.org/display/MBOKBEN/My+recipient+does+not+use+PGP) on Mailbox.org's servers. This feature is useful when the remote recipient does not have OpenPGP and cannot decrypt a copy of the email in their own mailbox.
 
@@ -142,7 +142,7 @@ Mailbox.org also supports the discovery of public keys via HTTP from their [Web 
 
 Your account will be set to a restricted user account when your contract ends, after [30 days it will be irrevocably deleted](https://kb.mailbox.org/en/private/payment-article/what-happens-at-the-end-of-my-contract).
 
-#### :material-information-outline:{ .pg-blue } Additional Functionality
+#### :material-information-outline:{ .pg-blue } 추가 기능
 
 You can access your Mailbox.org account via IMAP/SMTP using their [.onion service](https://kb.mailbox.org/display/MBOKBEN/The+Tor+exit+node+of+mailbox.org). However, their webmail interface cannot be accessed via their .onion service and you may experience TLS certificate errors.
 
@@ -156,8 +156,8 @@ These providers store your emails with zero-knowledge encryption, making them gr
 
 <div class="grid cards" markdown>
 
-- ![StartMail logo](assets/img/email/startmail.svg#only-light){ .twemoji }![StartMail logo](assets/img/email/startmail-dark.svg#only-dark){ .twemoji } [StartMail](email.md#startmail)
-- ![Tutanota logo](assets/img/email/tutanota.svg){ .twemoji } [Tutanota](email.md#tutanota)
+- ![StartMail 로고](assets/img/email/startmail.svg#only-light){ .twemoji }![StartMail 로고](assets/img/email/startmail-dark.svg#only-dark){ .twemoji } [StartMail](email.md#startmail)
+- ![Tutanota 로고](assets/img/email/tutanota.svg){ .twemoji } [Tutanota](email.md#tutanota)
 
 </div>
 
@@ -165,38 +165,38 @@ These providers store your emails with zero-knowledge encryption, making them gr
 
 !!! recommendation
 
-    ![StartMail logo](assets/img/email/startmail.svg#only-light){ align=right }
-    ![StartMail logo](assets/img/email/startmail-dark.svg#only-dark){ align=right }
+    ![StartMail 로고](assets/img/email/startmail.svg#only-light){ align=right }
+    ![StartMail 로고](assets/img/email/startmail-dark.svg#only-dark){ align=right }
     
-    **StartMail** is an email service with a focus on security and privacy through the use of standard OpenPGP encryption. StartMail has been in operation since 2014 and is based in Boulevard 11, Zeist Netherlands. Accounts start with 10GB. They offer a 30-day trial.
+    **StartMail**은 표준 OpenPGP 암호화를 사용하여 보안 및 프라이버시에 중점을 둔 이메일 서비스입니다. StartMail은 2014년부터 운영되었으며 본사는 네덜란드 제이스트 Boulevard 11에 위치하고 있습니다. 계정은 10GB부터 시작합니다. 30일 체험 기간을 제공합니다.
     
-    [:octicons-home-16: Homepage](https://www.startmail.com/){ .md-button .md-button--primary }
-    [:octicons-eye-16:](https://www.startmail.com/en/privacy/){ .card-link title="Privacy Policy" }
-    [:octicons-info-16:](https://support.startmail.com){ .card-link title=Documentation}
+    [:octicons-home-16: 홈페이지](https://www.startmail.com/){ .md-button .md-button--primary }
+    [:octicons-eye-16:](https://www.startmail.com/en/privacy/){ .card-link title="프라이버시 정책" }
+    [:octicons-info-16:](https://support.startmail.com){ .card-link title=문서}
     
-    ??? downloads
+    ??? downloads "다운로드"
     
         - [:octicons-browser-16: Web](https://mail.startmail.com/login)
 
-#### :material-check:{ .pg-green } Custom Domains and Aliases
+#### :material-check:{ .pg-green } 사용자 지정 도메인 및 별칭
 
-Personal accounts can use [Custom or Quick](https://support.startmail.com/hc/en-us/articles/360007297457-Aliases) aliases. [Custom domains](https://support.startmail.com/hc/en-us/articles/4403911432209-Setup-a-custom-domain) are also available.
+개인 계정은 [사용자 지정](https://support.startmail.com/hc/en-us/articles/360007297457-Aliases) 별칭을 사용할 수 있습니다. [사용자 지정 도메인](https://support.startmail.com/hc/en-us/articles/4403911432209-Setup-a-custom-domain)도 사용 가능합니다.
 
-#### :material-alert-outline:{ .pg-orange } Private Payment Methods
+#### :material-alert-outline:{ .pg-orange } 비공개 결제 수단
 
-StartMail accepts Visa, MasterCard, American Express and Paypal. StartMail also has other [payment options](https://support.startmail.com/hc/en-us/articles/360006620637-Payment-methods) such as [Bitcoin](advanced/payments.md#other-coins-bitcoin-ethereum-etc) (currently only for Personal accounts) and SEPA Direct Debit for accounts older than a year.
+StartMail은 Visa, MasterCard, American Express, Paypal 결제를 지원합니다. [비트코인](advanced/payments.md#other-coins-bitcoin-ethereum-etc)(개인 계정 한정)이나 1년 이상 지난 계정의 SPEA 자동 이체 등 [추가 결제 옵션](https://support.startmail.com/hc/en-us/articles/360006620637-Payment-methods) 또한 지원합니다.
 
-#### :material-check:{ .pg-green } Account Security
+#### :material-check:{ .pg-green } 계정 보안
 
-StartMail supports TOTP two factor authentication [for webmail only](https://support.startmail.com/hc/en-us/articles/360006682158-Two-factor-authentication-2FA). They do not allow U2F security key authentication.
+StartMail은 [웹메일에 한해](https://support.startmail.com/hc/en-us/articles/360006682158-Two-factor-authentication-2FA) TOTP 이중 인증을 지원합니다. U2F 보안 키 인증은 허용하지 않습니다.
 
-#### :material-information-outline:{ .pg-blue } Data Security
+#### :material-information-outline:{ .pg-blue } 데이터 보안
 
 StartMail has [zero access encryption at rest](https://www.startmail.com/en/whitepaper/#_Toc458527835), using their "user vault" system. When you log in, the vault is opened, and the email is then moved to the vault out of the queue where it is decrypted by the corresponding private key.
 
 StartMail supports importing [contacts](https://support.startmail.com/hc/en-us/articles/360006495557-Import-contacts) however, they are only accessible in the webmail and not through protocols such as [CalDAV](https://en.wikipedia.org/wiki/CalDAV). Contacts are also not stored using zero knowledge encryption.
 
-#### :material-check:{ .pg-green } Email Encryption
+#### :material-check:{ .pg-green } 이메일 암호화
 
 StartMail has [integrated encryption](https://support.startmail.com/hc/en-us/sections/360001889078-Encryption) in their webmail, which simplifies sending encrypted messages with public OpenPGP keys. However, they do not support the Web Key Directory standard, making the discovery of a Startmail mailbox's public key more challenging for other email providers or clients.
 
@@ -204,27 +204,27 @@ StartMail has [integrated encryption](https://support.startmail.com/hc/en-us/sec
 
 On account expiration, StartMail will permanently delete your account after [6 months in 3 phases](https://support.startmail.com/hc/en-us/articles/360006794398-Account-expiration).
 
-#### :material-information-outline:{ .pg-blue } Additional Functionality
+#### :material-information-outline:{ .pg-blue } 추가 기능
 
 StartMail allows for proxying of images within emails. If you allow the remote image to be loaded, the sender won't know what your IP address is.
 
-StartMail does not offer a digital legacy feature.
+StartMail은 디지털 유산 상속 기능을 제공하지 않습니다.
 
 ### Tutanota
 
 !!! recommendation
 
-    ![Tutanota logo](assets/img/email/tutanota.svg){ align=right }
+    ![Tutanota 로고](assets/img/email/tutanota.svg){ align=right }
     
-    **Tutanota** is an email service with a focus on security and privacy through the use of encryption. Tutanota has been in operation since **2011** and is based in Hanover, Germany. Accounts start with 1GB storage with their free plan.
+    **Tutanota**는 암호화 적용을 통한 보안 및 프라이버시 보호에 중점을 둔 이메일 서비스입니다. Tutanota는 2011년부터 운영되고 있으며 본사는 독일 하노버에 위치하고 있습니다. 무료 플랜 계정은 1GB 저장 공간으로 시작합니다.
     
-    [:octicons-home-16: Homepage](https://tutanota.com){ .md-button .md-button--primary }
-    [:octicons-eye-16:](https://tutanota.com/privacy){ .card-link title="Privacy Policy" }
-    [:octicons-info-16:](https://tutanota.com/faq){ .card-link title=Documentation}
-    [:octicons-code-16:](https://github.com/tutao/tutanota){ .card-link title="Source Code" }
-    [:octicons-heart-16:](https://tutanota.com/community/){ .card-link title=Contribute }
+    [:octicons-home-16: 홈페이지](https://tutanota.com){ .md-button .md-button--primary }
+    [:octicons-eye-16:](https://tutanota.com/privacy){ .card-link title="프라이버시 정책" }
+    [:octicons-info-16:](https://tutanota.com/faq){ .card-link title=문서}
+    [:octicons-code-16:](https://github.com/tutao/tutanota){ .card-link title="소스 코드" }
+    [:octicons-heart-16:](https://tutanota.com/community/){ .card-link title=기여 }
     
-    ??? downloads
+    ??? downloads "다운로드"
     
         - [:simple-googleplay: Google Play](https://play.google.com/store/apps/details?id=de.tutao.tutanota)
         - [:simple-appstore: App Store](https://apps.apple.com/app/tutanota/id922429609)
@@ -234,41 +234,41 @@ StartMail does not offer a digital legacy feature.
         - [:simple-linux: Linux](https://tutanota.com/#download)
         - [:octicons-browser-16: Web](https://mail.tutanota.com/)
 
-Tutanota doesn't support the [IMAP protocol](https://tutanota.com/faq/#imap) or the use of third-party [email clients](email-clients.md), and you also won't be able to add [external email accounts](https://github.com/tutao/tutanota/issues/544#issuecomment-670473647) to the Tutanota app. Neither [Email import](https://github.com/tutao/tutanota/issues/630) or [subfolders](https://github.com/tutao/tutanota/issues/927) are currently supported, though this is [due to be changed](https://tutanota.com/blog/posts/kickoff-import). Emails can be exported [individually or by bulk selection](https://tutanota.com/howto#generalMail) per folder, which may be inconvenient if you have many folders.
+Tutanota는 [IMAP 프로토콜](https://tutanota.com/faq/#imap)이나 외부 [이메일 클라이언트](email-clients.md)를 지원하지 않으며, Tutanota 앱에 [외부 이메일 계정](https://github.com/tutao/tutanota/issues/544#issuecomment-670473647)을 추가하는 것도 불가능합니다. [이메일 가져오기](https://github.com/tutao/tutanota/issues/630)나 [하위 폴더](https://github.com/tutao/tutanota/issues/927)는 현재 지원되지 않지만, [개선 예정입니다](https://tutanota.com/blog/posts/kickoff-import). 이메일은 [개별적으로 혹은 폴더별로 일괄 선택](https://tutanota.com/howto#generalMail)하여 내보낼 수 있으나, 폴더가 많은 경우 불편할 수 있습니다.
 
-#### :material-check:{ .pg-green } Custom Domains and Aliases
+#### :material-check:{ .pg-green } 사용자 지정 도메인 및 별칭
 
-Paid Tutanota accounts can use up to 5 [aliases](https://tutanota.com/faq#alias) and [custom domains](https://tutanota.com/faq#custom-domain). Tutanota doesn't allow for [subaddressing (plus addresses)](https://tutanota.com/faq#plus), but you can use a [catch-all](https://tutanota.com/howto#settings-global) with a custom domain.
+Tutanota 유료 계정은 최대 5개의 [별칭](https://tutanota.com/faq#alias) 및 사용자 지정 [도메인](https://tutanota.com/faq#custom-domain)을 사용할 수 있습니다. Tutanota는 [보조 주소(Plus 주소)](https://tutanota.com/faq#plus)를 허용하지 않지만, 사용자 지정 도메인 [Catch-all](https://tutanota.com/howto#settings-global) 기능은 지원합니다.
 
-#### :material-information-outline:{ .pg-blue } Private Payment Methods
+#### :material-information-outline:{ .pg-blue } 비공개 결제 수단
 
-Tutanota only directly accepts credit cards and PayPal, however [cryptocurrency](cryptocurrency.md) can be used to purchase gift cards via their [partnership](https://tutanota.com/faq/#cryptocurrency) with Proxystore.
+Tutanota는 신용카드, Paypal만 직접 결제할 수 있으나, Tutanota와 Proxystore의 [파트너십](https://tutanota.com/faq/#cryptocurrency)을 이용해 [암호화폐](cryptocurrency.md)로 기프트카드 구입이 가능합니다.
 
-#### :material-check:{ .pg-green } Account Security
+#### :material-check:{ .pg-green } 계정 보안
 
-Tutanota supports [two factor authentication](https://tutanota.com/faq#2fa) with either TOTP or U2F.
+Tutanota는 TOTP/U2F [이중 인증](https://tutanota.com/faq#2fa)을 지원합니다.
 
-#### :material-check:{ .pg-green } Data Security
+#### :material-check:{ .pg-green } 데이터 보안
 
 Tutanota has [zero access encryption at rest](https://tutanota.com/faq#what-encrypted) for your emails, [address book contacts](https://tutanota.com/faq#encrypted-address-book), and [calendars](https://tutanota.com/faq#calendar). This means the messages and other data stored in your account are only readable by you.
 
-#### :material-information-outline:{ .pg-blue } Email Encryption
+#### :material-information-outline:{ .pg-blue } 이메일 암호화
 
-Tutanota [does not use OpenPGP](https://www.tutanota.com/faq/#pgp). Tutanota accounts can only receive encrypted emails from non-Tutanota email accounts when sent via a [temporary Tutanota mailbox](https://www.tutanota.com/howto/#encrypted-email-external).
+Tutanota는 [OpenPGP를 사용하지 않습니다](https://www.tutanota.com/faq/#pgp). Tutanota 계정이 Tutanota 외의 이메일 계정으로부터 암호화된 이메일을 받는 것은 [임시 Tutanota 메일함](https://www.tutanota.com/howto/#encrypted-email-external)을 통해 전송된 경우에만 가능합니다.
 
 #### :material-information-outline:{ .pg-blue } Account Termination
 
 Tutanota will [delete inactive free accounts](https://tutanota.com/faq#inactive-accounts) after six months. You can reuse a deactivated free account if you pay.
 
-#### :material-information-outline:{ .pg-blue } Additional Functionality
+#### :material-information-outline:{ .pg-blue } 추가 기능
 
-Tutanota offers the business version of [Tutanota to non-profit organizations](https://tutanota.com/blog/posts/secure-email-for-non-profit) for free or with a heavy discount.
+Tutanota는 [비영리 단체에게 Tutanota 비즈니스 버전을](https://tutanota.com/blog/posts/secure-email-for-non-profit) 무료 혹은 대폭 할인된 가격으로 제공합니다.
 
-Tutanota also has a business feature called [Secure Connect](https://tutanota.com/secure-connect/). This ensures customer contact to the business uses E2EE. The feature costs €240/y.
+Tutanota에는 [Secure Connect](https://tutanota.com/secure-connect/)라는 비즈니스 기능 또한 존재합니다. 이는 고객의 비즈니스 연락에 E2EE 적용을 보장합니다. 해당 기능의 가격은 연간 240유로입니다.
 
-Tutanota doesn't offer a digital legacy feature.
+Tutanota는 디지털 유산 상속 기능을 제공하지 않습니다.
 
-## Email Aliasing Services
+## 이메일 별칭 서비스
 
 An email aliasing service allows you to easily generate a new email address for every website you register for. The email aliases you generate are then forwarded to an email address of your choosing, hiding both your "main" email address and the identity of your email provider. True email aliasing is better than plus addressing commonly used and supported by many providers, which allows you to create aliases like yourname+[anythinghere]@example.com, because websites, advertisers, and tracking networks can trivially remove anything after the + sign to know your true email address.
 
@@ -305,13 +305,13 @@ Using an aliasing service requires trusting both your email provider and your al
     
     **AnonAddy** lets you create 20 domain aliases on a shared domain for free, or unlimited "standard" aliases which are less anonymous.
     
-    [:octicons-home-16: Homepage](https://anonaddy.com){ .md-button .md-button--primary }
-    [:octicons-eye-16:](https://anonaddy.com/privacy/){ .card-link title="Privacy Policy" }
-    [:octicons-info-16:](https://app.anonaddy.com/docs/){ .card-link title=Documentation}
-    [:octicons-code-16:](https://github.com/anonaddy){ .card-link title="Source Code" }
-    [:octicons-heart-16:](https://anonaddy.com/donate/){ .card-link title=Contribute }
+    [:octicons-home-16: 홈페이지](https://anonaddy.com){ .md-button .md-button--primary }
+    [:octicons-eye-16:](https://anonaddy.com/privacy/){ .card-link title="프라이버시 정책" }
+    [:octicons-info-16:](https://app.anonaddy.com/docs/){ .card-link title=문서}
+    [:octicons-code-16:](https://github.com/anonaddy){ .card-link title="소스 코드" }
+    [:octicons-heart-16:](https://anonaddy.com/donate/){ .card-link title=기부 }
     
-    ??? downloads
+    ??? downloads "다운로드"
     
         - [:simple-android: Android](https://anonaddy.com/faq/#is-there-an-android-app)
         - [:material-apple-ios: iOS](https://anonaddy.com/faq/#is-there-an-ios-app)
@@ -393,22 +393,22 @@ For a more manual approach we've picked out these two articles:
 - [Setting up a mail server with OpenSMTPD, Dovecot and Rspamd](https://poolp.org/posts/2019-09-14/setting-up-a-mail-server-with-opensmtpd-dovecot-and-rspamd/) (2019)
 - [How To Run Your Own Mail Server](https://www.c0ffee.net/blog/mail-server-guide/) (August 2017)
 
-## Criteria
+## 평가 기준
 
-**Please note we are not affiliated with any of the providers we recommend.** In addition to [our standard criteria](about/criteria.md), we have developed a clear set of requirements for any Email provider wishing to be recommended, including implementing industry best practices, modern technology and more. We suggest you familiarize yourself with this list before choosing an Email provider, and conduct your own research to ensure the Email provider you choose is the right choice for you.
+**Privacy Guides는 권장 목록의 어떠한 제공 업체와도 제휴를 맺지 않았습니다.** 객관적인 권장 목록을 제공하기 위해, [일반적인 평가 기준](about/criteria.md)에 더해 명확한 요구 사항을 정립하였습니다. 이메일 제공 업체 평가 기준에는 업계 모범 사례, 최신 기술 사용 여부 등이 포함됩니다. 특정 이메일 제공 업체를 선택해 사용하기 전에, 이러한 요구 사항들을 숙지하고 여러분 스스로 조사하는 과정을 거쳐 적절한 선택을 하시기 바랍니다.
 
-### Technology
+### 기술
 
-We regard these features as important in order to provide a safe and optimal service. You should consider whether the provider which has the features you require.
+We regard these features as important in order to provide a safe and optimal service. 제공 업체가 여러분에게 필요한 기능을 갖추고 있는지 살펴봐야 합니다.
 
-**Minimum to Qualify:**
+**최소 요구 사항:**
 
 - Encrypts email account data at rest with zero-access encryption.
 - Export capability as [Mbox](https://en.wikipedia.org/wiki/Mbox) or individual .eml with [RFC5322](https://datatracker.ietf.org/doc/rfc5322/) standard.
 - Allow users to use their own [domain name](https://en.wikipedia.org/wiki/Domain_name). Custom domain names are important to users because it allows them to maintain their agency from the service, should it turn bad or be acquired by another company which doesn't prioritize privacy.
 - Operates on owned infrastructure, i.e. not built upon third-party email service providers.
 
-**Best Case:**
+**우대 사항:**
 
 - Encrypts all account data (Contacts, Calendars, etc.) at rest with zero-access encryption.
 - Integrated webmail E2EE/PGP encryption provided as a convenience.
@@ -419,26 +419,26 @@ We regard these features as important in order to provide a safe and optimal ser
 - Catch-all or alias functionality for those who own their own domains.
 - Use of standard email access protocols such as IMAP, SMTP or [JMAP](https://en.wikipedia.org/wiki/JSON_Meta_Application_Protocol). Standard access protocols ensure customers can easily download all of their email, should they want to switch to another provider.
 
-### Privacy
+### 프라이버시
 
 We prefer our recommended providers to collect as little data as possible.
 
-**Minimum to Qualify:**
+**최소 요구 사항:**
 
 - Protect sender's IP address. Filter it from showing in the `Received` header field.
 - Don't require personally identifiable information (PII) besides a username and a password.
 - Privacy policy that meets the requirements defined by the GDPR
 - Must not be hosted in the US due to [ECPA](https://en.wikipedia.org/wiki/Electronic_Communications_Privacy_Act#Criticism) which has [yet to be reformed](https://epic.org/ecpa/).
 
-**Best Case:**
+**우대 사항:**
 
 - Accepts [anonymous payment options](advanced/payments.md) ([cryptocurrency](cryptocurrency.md), cash, gift cards, etc.)
 
-### Security
+### 보안
 
 Email servers deal with a lot of very sensitive data. We expect that providers will adopt best industry practices in order to protect their members.
 
-**Minimum to Qualify:**
+**최소 요구 사항:**
 
 - Protection of webmail with 2FA, such as TOTP.
 - Zero access encryption, builds on encryption at rest. The provider does not have the decryption keys to the data they hold. This prevents a rogue employee leaking data they have access to or remote adversary from releasing data they have stolen by gaining unauthorized access to the server.
@@ -456,7 +456,7 @@ Email servers deal with a lot of very sensitive data. We expect that providers w
     - [Subresource Integrity](https://en.wikipedia.org/wiki/Subresource_Integrity) if loading things from external domains.
 - Must support viewing of [Message headers](https://en.wikipedia.org/wiki/Email#Message_header), as it is a crucial forensic feature to determine if an email is a phishing attempt.
 
-**Best Case:**
+**우대 사항:**
 
 - Support for hardware authentication, i.e. U2F and [WebAuthn](https://en.wikipedia.org/wiki/WebAuthn). U2F and WebAuthn are more secure as they use a private key stored on a client-side hardware device to authenticate people, as opposed to a shared secret that is stored on the web server and on the client side when using TOTP. Furthermore, U2F and WebAuthn are more resistant to phishing as their authentication response is based on the authenticated [domain name](https://en.wikipedia.org/wiki/Domain_name).
 - [DNS Certification Authority Authorization (CAA) Resource Record](https://tools.ietf.org/html/rfc6844) in addition to DANE support.
@@ -466,24 +466,24 @@ Email servers deal with a lot of very sensitive data. We expect that providers w
     - [Content Security Policy (CSP)](https://en.wikipedia.org/wiki/Content_Security_Policy)
     - [RFC9163 Expect-CT](https://datatracker.ietf.org/doc/rfc9163/)
 
-### Trust
+### 신뢰
 
 You wouldn't trust your finances to someone with a fake identity, so why trust them with your email? We require our recommended providers to be public about their ownership or leadership. We also would like to see frequent transparency reports, especially in regard to how government requests are handled.
 
-**Minimum to Qualify:**
+**최소 요구 사항:**
 
 - Public-facing leadership or ownership.
 
-**Best Case:**
+**우대 사항:**
 
 - Public-facing leadership.
 - Frequent transparency reports.
 
-### Marketing
+### 마케팅
 
 With the email providers we recommend we like to see responsible marketing.
 
-**Minimum to Qualify:**
+**최소 요구 사항:**
 
 - Must self-host analytics (no Google Analytics, Adobe Analytics, etc.). The provider's site must also comply with [DNT (Do Not Track)](https://en.wikipedia.org/wiki/Do_Not_Track) for those who wish to opt-out.
 
@@ -495,7 +495,7 @@ Must not have any marketing which is irresponsible:
 - Reusing personal information e.g. (email accounts, unique pseudonyms, etc.) that they accessed without anonymity software (Tor, VPN, etc.)
 - [Browser fingerprinting](https://en.wikipedia.org/wiki/Device_fingerprint#Browser_fingerprint)
 
-**Best Case:**
+**우대 사항:**
 
 - Clear and easy to read documentation. This includes things like, setting up 2FA, email clients, OpenPGP, etc.
 

@@ -27,7 +27,7 @@ Cash remains the best option for in-person purchases for most people. Gift cards
 
 ### Online Marketplaces
 
-If you have [cryptocurrency](../cryptocurrency.md), you can purchase gift cards with an online gift card marketplace. Some of these services offer ID verification options for higher limits, but they also allow accounts with just an email address. Basic limits start at $5,000-10,000 a day for basic accounts, and significantly higher limits for ID verified accounts (if offered).
+If you have [cryptocurrency](../cryptocurrency.md), you can purchase gift cards with an online gift card marketplace. Alcuni di questi servizi offrono limiti più elevati dopo aver verificato la propria identità, ma consentono la creazione di account utilizzando soltanto l'email. Basic limits start at $5,000-10,000 a day for basic accounts, and significantly higher limits for ID verified accounts (if offered).
 
 When buying gift cards online, there is usually a slight discount. Prepaid cards are usually sold online at face value or with a fee. If you buy prepaid cards and gift cards with cryptocurrencies, you should strongly prefer to pay with Monero which provides strong privacy, more on this below. Paying for a gift card with a traceable payment method negates the benefits a gift card can provide when purchased with cash or Monero.
 

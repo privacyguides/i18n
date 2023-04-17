@@ -1,30 +1,30 @@
 ---
-title: "Notebooks"
+title: "ノート"
 icon: material/notebook-edit-outline
-description: These encrypted note-taking apps let you keep track of your notes without giving them to a third-party.
+description: 暗号化ノートアプリで、第三者による閲覧を防止しながらメモを管理できます。
 ---
 
-Keep track of your notes and journalings without giving them to a third-party.
+第三者による閲覧を防止しながら、メモや日記を保存できます。
 
-If you are currently using an application like Evernote, Google Keep, or Microsoft OneNote, we suggest you pick an alternative here that supports E2EE.
+現在、Evernote、Google Keep、Microsoft OneNoteなどを使用している場合は、ここに掲載されたエンドツーエンド暗号化対応のアプリケーションに移行することをおすすめします。
 
-## Cloud-based
+## クラウドベース
 
 ### Joplin
 
 !!! recommendation
 
-    ![Joplin logo](assets/img/notebooks/joplin.svg){ align=right }
+    ![Joplinのロゴ](assets/img/notebooks/joplin.svg){ align=right }
     
-    **Joplin** is a free, open-source, and fully-featured note-taking and to-do application which can handle a large number of markdown notes organized into notebooks and tags. It offers E2EE and can sync through Nextcloud, Dropbox, and more. It also offers easy import from Evernote and plain-text notes.
+    **Joplin**は、ノートやタグを管理し大量のMarkdownノートを扱える、フリー、オープンソース、フル機能のノートおよびToDoアプリケーションです。 エンドツーエンド暗号化対応で、NextcloudやDropboxなどを通じて同期できます。 また、Evernoteやプレーンテキストノートを簡単にインポートできます。
     
-    [:octicons-home-16: Homepage](https://joplinapp.org/){ .md-button .md-button--primary }
-    [:octicons-eye-16:](https://joplinapp.org/privacy/){ .card-link title="Privacy Policy" }
-    [:octicons-info-16:](https://joplinapp.org/help/){ .card-link title=Documentation}
-    [:octicons-code-16:](https://github.com/laurent22/joplin){ .card-link title="Source Code" }
-    [:octicons-heart-16:](https://joplinapp.org/donate/){ .card-link title=Contribute }
+    [:octicons-home-16: ホームページ](https://joplinapp.org/){ .md-button .md-button--primary }
+    [:octicons-eye-16:](https://joplinapp.org/privacy/){ .card-link title="プライバシーポリシー" }
+    [:octicons-info-16:](https://joplinapp.org/help/){ .card-link title=文書}
+    [:octicons-code-16:](https://github.com/laurent22/joplin){ .card-link title="ソースコード" }
+    [:octicons-heart-16:](https://joplinapp.org/donate/){ .card-link title=貢献 }
     
-    ??? downloads
+    ??? ダウンロード
     
         - [:simple-googleplay: Google Play](https://play.google.com/store/apps/details?id=net.cozic.joplin)
         - [:simple-appstore: App Store](https://apps.apple.com/us/app/joplin/id1315599797)
@@ -35,23 +35,23 @@ If you are currently using an application like Evernote, Google Keep, or Microso
         - [:simple-firefoxbrowser: Firefox](https://addons.mozilla.org/firefox/addon/joplin-web-clipper/)
         - [:simple-googlechrome: Chrome](https://chrome.google.com/webstore/detail/joplin-web-clipper/alofnhikmmkdbbbgpnglcpdollgjjfek)
 
-Joplin does not support password/PIN protection for the [application itself or individual notes and notebooks](https://github.com/laurent22/joplin/issues/289). However, your data is still encrypted in transit and at the sync location using your master key. Since January 2023, Joplin supports biometrics app lock for [Android](https://joplinapp.org/changelog_android/#android-v2-10-3-https-github-com-laurent22-joplin-releases-tag-android-v2-10-3-pre-release-2023-01-05t11-29-06z) and [iOS](https://joplinapp.org/changelog_ios/#ios-v12-10-2-https-github-com-laurent22-joplin-releases-tag-ios-v12-10-2-2023-01-20t17-41-13z).
+Joplinは、[アプリケーション自体や個々のノート](https://github.com/laurent22/joplin/issues/289)のパスワードやPINによる保護には対応していません。 ただし、データはマスターキーを使用した暗号化により転送中および同期先では常に保護されます。 2023年1月以降、Joplinは[Android](https://joplinapp.org/changelog_android/#android-v2-10-3-https-github-com-laurent22-joplin-releases-tag-android-v2-10-3-pre-release-2023-01-05t11-29-06z)と[iOS](https://joplinapp.org/changelog_ios/#ios-v12-10-2-https-github-com-laurent22-joplin-releases-tag-ios-v12-10-2-2023-01-20t17-41-13z)で生体認証によるアプリロックに対応しています。
 
 ### Standard Notes
 
 !!! recommendation
 
-    ![Standard Notes logo](assets/img/notebooks/standard-notes.svg){ align=right }
+    ![Standard Notesのロゴ](assets/img/notebooks/standard-notes.svg){ align=right }
     
-    **Standard Notes** is a simple and private notes app that makes your notes easy and available everywhere you are. It features E2EE on every platform, and a powerful desktop experience with themes and custom editors. It has also been [independently audited (PDF)](https://s3.amazonaws.com/standard-notes/security/Report-SN-Audit.pdf).
+    **Standard Notes**はどこからでも簡単にメモを取れる、シンプルかつプライベートなノートアプリです。 すべてのプラットフォームでエンドツーエンド暗号化を使用し、テーマやカスタムエディタによる強力なデスクトップ環境を提供します。 また、[独立監査（PDF）](https://s3.amazonaws.com/standard-notes/security/Report-SN-Audit.pdf)も受けています。
     
-    [:octicons-home-16: Homepage](https://standardnotes.com){ .md-button .md-button--primary }
-    [:octicons-eye-16:](https://standardnotes.com/privacy){ .card-link title="Privacy Policy" }
-    [:octicons-info-16:](https://standardnotes.com/help){ .card-link title=Documentation}
-    [:octicons-code-16:](https://github.com/standardnotes){ .card-link title="Source Code" }
-    [:octicons-heart-16:](https://standardnotes.com/donate){ .card-link title=Contribute }
+    [:octicons-home-16: ホームページ](https://standardnotes.com){ .md-button .md-button--primary }
+    [:octicons-eye-16:](https://standardnotes.com/privacy){ .card-link title="プライバシーポリシー" }
+    [:octicons-info-16:](https://standardnotes.com/help){ .card-link title=文書}
+    [:octicons-code-16:](https://github.com/standardnotes){ .card-link title="ソースコード" }
+    [:octicons-heart-16:](https://standardnotes.com/donate){ .card-link title=貢献 }
     
-    ??? downloads
+    ??? ダウンロード
     
         - [:simple-googleplay: Google Play](https://play.google.com/store/apps/details?id=com.standardnotes)
         - [:simple-appstore: App Store](https://apps.apple.com/app/id1285392450)
@@ -59,7 +59,7 @@ Joplin does not support password/PIN protection for the [application itself or i
         - [:simple-windows11: Windows](https://standardnotes.com)
         - [:simple-apple: macOS](https://standardnotes.com)
         - [:simple-linux: Linux](https://standardnotes.com)
-        - [:octicons-globe-16: Web](https://app.standardnotes.com/)
+        - [:octicons-globe-16: ウェブ](https://app.standardnotes.com/)
 
 ### Cryptee
 
@@ -81,7 +81,7 @@ Joplin does not support password/PIN protection for the [application itself or i
 
 Cryptee offers 100MB of storage for free, with paid options if you need more. Sign-up doesn't require an e-mail or other personally identifiable information.
 
-## Local notebooks
+## ローカルノート
 
 ### Org-mode
 
@@ -91,24 +91,24 @@ Cryptee offers 100MB of storage for free, with paid options if you need more. Si
     
     **Org-mode** is a [major mode](https://www.gnu.org/software/emacs/manual/html_node/elisp/Major-Modes.html) for GNU Emacs. Org-mode is for keeping notes, maintaining to-do lists, planning projects, and authoring documents with a fast and effective plain-text system. Synchronization is possible with [file synchronization](file-sharing.md#file-sync) tools.
     
-    [:octicons-home-16: Homepage](https://orgmode.org){ .md-button .md-button--primary }
-    [:octicons-info-16:](https://orgmode.org/manuals.html){ .card-link title=Documentation}
-    [:octicons-code-16:](https://git.savannah.gnu.org/cgit/emacs/org-mode.git){ .card-link title="Source Code" }
-    [:octicons-heart-16:](https://liberapay.com/bzg){ .card-link title=Contribute }
+    [:octicons-home-16: ホームページ](https://orgmode.org){ .md-button .md-button--primary }
+    [:octicons-info-16:](https://orgmode.org/manuals.html){ .card-link title=文書 }
+    [:octicons-code-16:](https://git.savannah.gnu.org/cgit/emacs/org-mode.git){ .card-link title="ソースコード" }
+    [:octicons-heart-16:](https://liberapay.com/bzg){ .card-link title=貢献 }
 
-## Criteria
+## 基準
 
 **Please note we are not affiliated with any of the projects we recommend.** In addition to [our standard criteria](about/criteria.md), we have developed a clear set of requirements to allow us to provide objective recommendations. We suggest you familiarize yourself with this list before choosing to use a project, and conduct your own research to ensure it's the right choice for you.
 
-!!! example "This section is new"
+!!! example "この項目は最近作られました"
 
-    We are working on establishing defined criteria for every section of our site, and this may be subject to change. If you have any questions about our criteria, please [ask on our forum](https://discuss.privacyguides.net/latest) and don't assume we didn't consider something when making our recommendations if it is not listed here. There are many factors considered and discussed when we recommend a project, and documenting every single one is a work-in-progress.
+    私たちは、サイトの各項目に定義された基準を確立することに取り組んでおり、これは変更される可能性があります。 私たちの基準について疑問がある場合は、[フォーラムで質問](https://discuss.privacyguides.net/latest)してください。また、ここに記載されていない場合でも、私たちがおすすめを作成する際に考慮しなかったと仮定しないでください。 プロジェクトをおすすめする際に考慮され、議論される要素は多くあり、すべてを文書化するには時間がかかります。
 
-- Clients must be open-source.
-- Any cloud sync functionality must be E2EE.
-- Must support exporting documents into a standard format.
+- クライアントはオープンソースでなければならない。
+- クラウド同期機能はエンドツーエンド暗号化でなければならない。
+- 文書を標準的な形式でエクスポートできなければならない。
 
-### Best Case
+### 満たされることが望ましい基準
 
-- Local backup/sync functionality should support encryption.
-- Cloud-based platforms should support document sharing.
+- ローカルバックアップ/同期機能は、暗号化に対応すべきである。
+- クラウドベースのプラットフォームは、文書共有に対応すべきである。

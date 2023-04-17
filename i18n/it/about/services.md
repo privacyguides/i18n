@@ -1,38 +1,38 @@
-# Privacy Guides Services
+# Privacy Guides Servizi
 
-We run a number of web services to test out features and promote cool decentralized, federated, and/or open-source projects. Many of these services are available to the public and are detailed below.
+Gestiamo una serie di servizi web per testare le funzionalità e promuovere progetti decentralizzati, federati e/od open-source. Molti di questi servizi sono disponibili al pubblico e sono illustrati di seguito.
 
-[:material-comment-alert: Report an issue](https://discuss.privacyguides.net/c/services/2){ class="md-button md-button--primary" }
+[:material-comment-alert: Segnalazione di un problema](https://discuss.privacyguides.net/c/services/2){ class="md-button md-button--primary" }
 
-## Discourse
+## Discorso
 
-- Domain: [discuss.privacyguides.net](https://discuss.privacyguides.net)
-- Availability: Public
-- Source: [github.com/discourse/discourse](https://github.com/discourse/discourse)
+- Dominio: [discuss.privacyguides.net](https://discuss.privacyguides.net)
+- Disponibilità: Pubblico
+- Fonte: [github.com/discourse/discourse](https://github.com/discourse/discourse)
 
 ## Gitea
 
-- Domain: [code.privacyguides.dev](https://code.privacyguides.dev)
-- Availability: Invite-Only  
-  Access may be granted upon request to any team working on *Privacy Guides*-related development or content.
-- Source: [snapcraft.io/gitea](https://snapcraft.io/gitea)
+- Dominio: [code.privacyguides.dev](https://code.privacyguides.dev)
+- Disponibilità: Solo su invito  
+  L'accesso può essere concesso su richiesta a tutti i team che lavorano allo sviluppo o ai contenti di *Privacy Guides*.
+- Fonte: [snapcraft.io/gitea](https://snapcraft.io/gitea)
 
 ## Matrix
 
-- Domain: [matrix.privacyguides.org](https://matrix.privacyguides.org)
-- Availability: Invite-Only  
-  Access may be granted upon request to Privacy Guides team members, Matrix moderators, third-party Matrix community administrators, Matrix bot operators, and other individuals in need of a reliable Matrix presence.
-- Source: [github.com/spantaleev/matrix-docker-ansible-deploy](https://github.com/spantaleev/matrix-docker-ansible-deploy)
+- Dominio: [matrix.privacyguides.org](https://matrix.privacyguides.org)
+- Disponibilità: Solo su invito  
+  L'accesso può essere concesso su richiesta ai membri del team di Privacy Guides, ai moderatori di Matrix, agli amministratori di comunità di Matrix di terze parti, agli operatori di bot di Matrix e ad altre persone che necessitano di una presenza affidabile in Matrix.
+- Fonte: [github.com/spantaleev/matrix-docker-ansible-deploy](https://github.com/spantaleev/matrix-docker-ansible-deploy)
 
 ## SearXNG
 
-- Domain: [search.privacyguides.net](https://search.privacyguides.net)
-- Availability: Public
-- Source: [github.com/searxng/searxng-docker](https://github.com/searxng/searxng-docker)
+- Dominio: [search.privacyguides.net](https://search.privacyguides.net)
+- Disponibilità: Pubblico
+- Fonte: [github.com/searxng/searxng-docker](https://github.com/searxng/searxng-docker)
 
 ## Invidious
 
-- Domain: [invidious.privacyguides.net](https://invidious.privacyguides.net)
-- Availability: Semi-Public  
-  We host Invidious primarily to serve embedded YouTube videos on our website, this instance is not intended for general-purpose use and may be limited at any time.
-- Source: [github.com/iv-org/invidious](https://github.com/iv-org/invidious)
+- Dominio: [invidious.privacyguides.net](https://invidious.privacyguides.net)
+- Disponibilità: Semi-pubblico  
+  Invidious viene ospitato principalmente per servire i video incorporati di YouTube sul nostro sito web; questa istanza non è destinata a un uso generale e può essere limitata in qualsiasi momento.
+- Fonte: [github.com/iv-org/invidious](https://github.com/iv-org/invidious)

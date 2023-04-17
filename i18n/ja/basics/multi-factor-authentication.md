@@ -1,5 +1,5 @@
 ---
-title: "多要素認証 (Multi-Factor Authentication)"
+title: "多要素認証（Multi-Factor Authentication）"
 icon: 'material/two-factor-authentication'
 description: MFA is a critical security mechanism for securing your online accounts, but some methods are stronger than others.
 ---

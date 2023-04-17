@@ -1,5 +1,5 @@
 ---
-meta_title: "Recommended Encryption Software: VeraCrypt, Cryptomator, PicoCrypt, and OpenPGP - Privacy Guides"
+meta_title: "推薦的加密軟件： VeraCryp, Cryptomat, PicoCrypt 和 OpenPGP  - Privacy Guides"
 title: "加密軟體"
 icon: material/file-lock
 description: 數據加密是控制誰可以訪問它的唯一方法。 這些工具允許您加密電子郵件和任何其他檔案。

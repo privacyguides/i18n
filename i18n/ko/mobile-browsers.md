@@ -222,4 +222,4 @@ Safari 방문 기록, 탭 그룹, iCloud 탭, 저장된 암호는 E2EE 동기화
 ### 확장 프로그램 평가 기준
 
 - 내장 브라우저 혹은 운영 체제 기능을 복제해서는 안됩니다.
-- Must directly impact user privacy, i.e. must not simply provide information.
+- 사용자 프라이버시에 직접적인 이점을 제공해야 합니다. 단순 정보 제공은 기준 미달입니다.

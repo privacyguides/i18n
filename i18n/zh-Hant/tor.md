@@ -1,5 +1,5 @@
 ---
-meta_title: "Tor Browser and Network: Anonymous Web Browsing - Privacy Guides"
+meta_title: "Tor瀏覽器與網絡:匿名網頁瀏覽 - Privacy Guides"
 title: "Tor 網絡"
 icon: simple/torproject
 description: 透過Tor 網絡來保護您的網際網路瀏覽免受窺探， Tor 網絡是一個規避審查的安全網絡。
@@ -11,14 +11,14 @@ schema:
     image: /assets/img/browsers/tor.svg
     url: https://www.torproject.org
     sameAs: https://en.wikipedia.org/wiki/Tor_(network)
-    applicationCategory: Web Browser
+    applicationCategory: 網頁瀏覽器
     operatingSystem:
       - Windows
       - macOS
       - Linux
       - 安卓
     subjectOf:
-      "@type": WebPage
+      "@type": 網頁
       url: "./"
 ---
 

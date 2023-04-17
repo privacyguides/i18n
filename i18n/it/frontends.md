@@ -1,7 +1,7 @@
 ---
 title: "Frontend"
 icon: material/flip-to-front
-description: These open-source frontends for various internet services allow you to access content without JavaScript or other annoyances.
+description: Questi frontend open-source per vari servizi Internet consentono di accedere ai vari contenuti senza utilizzare JavaScript o altri fastidi.
 ---
 
 A volte i servizi tentano di costringerti ad iscriverti ad un account bloccando l'accesso ai contenuti con fastidiosi popup. Potrebbero anche cessare di funzionare correttamente senza l'abilitazione di JavaScript. Questi frontend possono consentire di aggirare queste restrizioni.
@@ -120,54 +120,54 @@ Quando utilizza un'istanza di ProxiTok, assicurati di leggere l'informativa sull
 
 !!! recommendation
 
-    ![Yattee logo](assets/img/frontends/yattee.svg){ align=right }
+    ![Logo Yattee](assets/img/frontends/yattee.svg){ align=right }
     
-    **Yattee** is a free and open-source privacy oriented video player for iOS, tvOS and macOS for [YouTube](https://youtube.com). When using Yattee, your subscription list are saved locally on your device.
+    **Yattee** è un lettore video gratuito e open-source orientato alla privacy per iOS, tvOS e macOS per [YouTube](https://youtube.com). Quando utilizzi Yattee, l'elenco delle iscrizioni viene salvato localmente sul tuo dispositivo.
     
-    You will need to take a few [extra steps](https://gonzoknows.com/posts/Yattee/) before you can use Yattee to watch YouTube, due to App Store restrictions.
+    Prima di poter utilizzare Yattee per guardare YouTube, è necessario effettuare alcuni [passaggi extra](https://gonzoknows.com/posts/Yattee/), a causa delle restrizioni dell'App Store.
     
     [:octicons-home-16: Homepage](https://github.com/yattee/yattee){ .md-button .md-button--primary }
-    [:octicons-eye-16:](https://r.yattee.stream/docs/privacy.html){ .card-link title="Privacy Policy" }
-    [:octicons-info-16:](https://github.com/yattee/yattee/wiki){ .card-link title=Documentation}
-    [:octicons-code-16:](https://github.com/yattee/yattee){ .card-link title="Source Code" }
-    [:octicons-heart-16:](https://github.com/yattee/yattee/wiki/Donations){ .card-link title=Contribute }
+    [:octicons-eye-16:](https://r.yattee.stream/docs/privacy.html){ .card-link title="Politica sulla Privacy" }
+    [:octicons-info-16:](https://github.com/yattee/yattee/wiki){ .card-link title=Documentazione}
+    [:octicons-code-16:](https://github.com/yattee/yattee){ .card-link title="Codice Sorgente" }
+    [:octicons-heart-16:](https://github.com/yattee/yattee/wiki/Donations){ .card-link title=Contribuisci }
     
-    ??? downloads
+    ??? download
     
-        - [:simple-apple: App Store](https://apps.apple.com/us/app/yattee/id1595136629)
+        - [:simple-apple: App Store](https://apps.apple.com/it/app/yattee/id1595136629)
         - [:simple-github: GitHub](https://github.com/yattee/yattee/releases)
 
 !!! warning
 
-    When using Yattee, your IP address may still be known to YouTube, [Invidious](https://instances.invidious.io), [Piped](https://github.com/TeamPiped/Piped/wiki/Instances) or [SponsorBlock](https://sponsor.ajay.app/) depending on your configuration. Considera l'uso di [VPN](vpn.md) o [Tor](https://www.torproject.org) se il [modello di minaccia](basics/threat-modeling.md) richiede di nascondere l'indirizzo IP.
+    Quando usi Yattee, l'indirizzo IP potrebbe essere ancora visibile a YouTube, [Invidious](https://instances.invidious.io), [Piped](https://github.com/TeamPiped/Piped/wiki/Instances) o [SponsorBlock](https://sponsor.ajay.app/) a seconda della tua configurazione. Considera l'uso di [VPN](vpn.md) o [Tor](https://www.torproject.org) se il [modello di minaccia](basics/threat-modeling.md) richiede di nascondere l'indirizzo IP.
 
-By default, Yattee blocks all YouTube advertisements. In addition, Yattee optionally integrates with [SponsorBlock](https://sponsor.ajay.app) to help you skip sponsored video segments.
+Per impostazione predefinita, Yattee blocca tutti gli annunci pubblicitari di YouTube. Inoltre, Yattee si integra opzionalmente con [SponsorBlock](https://sponsor.ajay.app) per aiutarvi a saltare i segmenti video sponsorizzati.
 
 ### LibreTube (Android)
 
 !!! recommendation
 
-    ![LibreTube logo](assets/img/frontends/libretube.svg#only-light){ align=right }
-    ![LibreTube logo](assets/img/frontends/libretube-dark.svg#only-dark){ align=right }
+    ![Logo LibreTube](assets/img/frontends/libretube.svg#only-light){ align=right }
+    ![Logo LibreTube](assets/img/frontends/libretube-dark.svg#only-dark){ align=right }
     
-    **LibreTube** is a free and open-source Android application for [YouTube](https://youtube.com) which uses the [Piped](#piped) API.
+    **LibreTube** è un'applicazione Android gratuita e open source per [YouTube](https://youtube.com) che utilizza l'API [Piped](#piped).
     
-    LibreTube allows you to store your subscription list and playlists locally on your Android device, or to an account on your Piped instance of choice, which allows you to access them seamlessly on other devices as well.
+    LibreTube consente di memorizzare la lista delle iscrizioni e le playlist in locale sul dispositivo Android o su un account dell'istanza Piped scelta, in modo da potervi accedere senza problemi anche su altri dispositivi.
     
-    [:octicons-home-16: Homepage](https://libre-tube.github.io){ .md-button .md-button--primary }
-    [:octicons-eye-16:](https://github.com/libre-tube/LibreTube#privacy-policy-and-disclaimer){ .card-link title="Privacy Policy" }
-    [:octicons-info-16:](https://github.com/libre-tube/LibreTube#readme){ .card-link title=Documentation}
-    [:octicons-code-16:](https://github.com/libre-tube/LibreTube){ .card-link title="Source Code" }
+    [:octicons-home-16: Pagina Principale](https://libre-tube.github.io){ .md-button .md-button--primary }
+    [:octicons-eye-16:](https://github.com/libre-tube/LibreTube#privacy-policy-and-disclaimer){ .card-link title="Politica sulla Privacy" }
+    [:octicons-info-16:](https://github.com/libre-tube/LibreTube#readme){ .card-link title=Documentazione}
+    [:octicons-code-16:](https://github.com/libre-tube/LibreTube){ .card-link title="Codice Sorgente" }
     
-    ??? downloads
+    ??? download
     
         - [:simple-github: GitHub](https://github.com/libre-tube/LibreTube/releases)
 
 !!! warning
 
-    When using LibreTube, your IP address will be visible to the [Piped](https://github.com/TeamPiped/Piped/wiki/Instances) instance you choose and/or [SponsorBlock](https://sponsor.ajay.app/) depending on your configuration. Considera l'uso di [VPN](vpn.md) o [Tor](https://www.torproject.org) se il [modello di minaccia](basics/threat-modeling.md) richiede di nascondere l'indirizzo IP.
+    Quando usi LibreTube, il tuo indirizzo IP sarà visibile all'istanza [Piped](https://github.com/TeamPiped/Piped/wiki/Instances) scelta e/o [SponsorBlock](https://sponsor.ajay.app/) a seconda della configurazione. Considera l'uso di [VPN](vpn.md) o [Tor](https://www.torproject.org) se il [modello di minaccia](basics/threat-modeling.md) richiede di nascondere l'indirizzo IP.
 
-By default, LibreTube blocks all YouTube advertisements. Additionally, Libretube uses [SponsorBlock](https://sponsor.ajay.app) to help you skip sponsored video segments. You are able to fully configure the types of segments that SponsorBlock will skip, or disable it completely. There is also a button on the video player itself to disable it for a specific video if desired.
+Per impostazione predefinita, LibreTube blocca tutti gli annunci pubblicitari di YouTube. Inoltre, Libretube utilizza [SponsorBlock](https://sponsor.ajay.app) per aiutarvi a saltare i segmenti video sponsorizzati. Sei libero di configurare i tipi di segmenti che SponsorBlock salterà, oppure puoi disabilitarlo completamente. È presente anche un pulsante sul lettore video per disabilitarlo per un video specifico, se vuoi.
 
 ### NewPipe (Android)
 
@@ -256,12 +256,12 @@ Quando si utilizza un'istanza Piped, assicurarsi di leggere l'informativa sulla 
 
     Stiamo lavorando per stabilire criteri ben definiti per ogni sezione del nostro sito, e questo potrebbe essere soggetto a modifiche. Se avete domande sui nostri criteri, vi preghiamo di [chiedere sul nostro forum](https://discuss.privacyguides.net/latest) e non date per scontato che non abbiamo preso in considerazione qualcosa nel formulare le nostre raccomandazioni se non è elencato qui. Sono molti i fattori presi in considerazione e discussi quando consigliamo un progetto, e stiamo lavorando per documentare ogni singolo fattore.
 
-Recommended frontends...
+Frontend consigliati...
 
 - Deve essere un software open-source.
-- Must be self-hostable.
-- Must provide all basic website functionality available to anonymous users.
+- Deve essere auto-ostabile.
+- Deve fornire tutte le funzionalità di base del sito web disponibili per gli utenti anonimi.
 
-We only consider frontends for websites which are...
+Prendiamo in considerazione solo frontend per siti web che sono...
 
-- Not normally accessible without JavaScript.
+- Non accessibili normalmente senza JavaScript.

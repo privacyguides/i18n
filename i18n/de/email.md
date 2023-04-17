@@ -1,24 +1,24 @@
 ---
-meta_title: "Encrypted Private Email Recommendations - Privacy Guides"
+meta_title: "Empfehlungen für verschlüsselte private E-Mail-Dienste - Privacy Guides"
 title: "E-Mail Dienste"
 icon: material/email
 description: Diese E-Mail-Dienstleister speichern deine E-Mails sicher und viele davon bieten auch interoperable OpenPGP-Verschlüsselung mit anderen Anbietern.
 ---
 
-E-Mail ist praktisch notwendig für die Nutzung aller Online-Dienste, wir empfehlen sie jedoch nicht zur Kommunikation von Mensch zu Mensch. Anstatt E-Mails für die Kontaktaufnahme mit anderen Personen zu verwenden, sollte ein Instant Messenger benutzt werden, der vorwärts gerichtete Geheimhaltung(forward secrecy) unterstützt.
+E-Mail ist praktisch eine Voraussetzung für die Nutzung aller Online-Dienste, wir empfehlen sie jedoch nicht zur Kommunikation von Mensch zu Mensch. Anstatt E-Mails für die Kontaktaufnahme mit anderen Personen zu verwenden, überleg ob du einen Instant Messenger benutzen kannst, der Forward Secrecy (auf Deutsch etwa "vorwärts gerichtete Geheimhaltung") unterstützt.
 
 [Empfohlene Instant Messenger](real-time-communication.md ""){.md-button}
 
-Für alles andere empfehlen wir eine Reihe von E-Mail-Anbietern, die auf nachhaltigen Geschäftsmodellen basieren und integrierten Sicherheits- und Datenschutzfunktionen bieten.
+Für alles andere empfehlen wir eine Reihe von E-Mail-Anbietern, die auf nachhaltigen Geschäftsmodellen basieren und integrierte Sicherheits- und Datenschutzfunktionen bieten.
 
 - [OpenPGP-kompatible E-Mail-Anbieter :material-arrow-right-drop-circle:](#openpgp-compatible-services)
 - [Andere verschlüsselte Anbieter :material-arrow-right-drop-circle:](#more-providers)
-- [Email Aliasing Services :material-arrow-right-drop-circle:](#email-aliasing-services)
+- [E-Mail-Alias-Dienste :material-arrow-right-drop-circle:](#email-aliasing-services)
 - [Selbstbetreibbare Optionen :material-arrow-right-drop-circle:](#self-hosting-email)
 
 ## OpenPGP-kompatible Dienste
 
-Diese Anbieter unterstützen von Haus aus die OpenPGP-Verschlüsselung/Entschlüsselung und den Web Key Directory (WKD)-Standard, so dass anbieterunabhängige E2E-verschlüsselte E-Mails möglich sind. Zum Beispiel können Proton Mail-Benutzende eine E2EE-Nachricht an Mailbox.org-Benutzende senden oder sie können OpenPGP-verschlüsselte Benachrichtigungen von Internetdiensten erhalten, die dies unterstützen.
+Diese Anbieter unterstützen von Haus aus die OpenPGP-Ver-/Entschlüsselung und den Web Key Directory (WKD)-Standard, so dass anbieterunabhängige E2E-verschlüsselte E-Mails möglich sind. Zum Beispiel können Kunden von Proton Mail eine E2EE-Nachricht an Kunden von Mailbox.org senden oder sie können OpenPGP-verschlüsselte Benachrichtigungen von Internetdiensten erhalten, die dies unterstützen.
 
 <div class="grid cards" markdown>
 
@@ -29,9 +29,9 @@ Diese Anbieter unterstützen von Haus aus die OpenPGP-Verschlüsselung/Entschlü
 
 !!! warning
 
-    Bei der Verwendung von E2EE-Technologien wie OpenPGP enthalten E-Mails immer noch einige Metadaten in der Kopfzeile der E-Mail die nicht verschlüsselt sind. Mehr über [E-Mail Medadaten](basics/email-security.md#email-metadata-overview).
+    Bei der Verwendung von E2EE-Technologien wie OpenPGP enthalten E-Mails immer noch einige Metadaten in der Kopfzeile der E-Mail die nicht verschlüsselt sind. Mehr über [E-Mail Metadaten](basics/email-security.md#email-metadata-overview).
     
-    OpenPGP unterstützt auch keine vorwärts gerichtete Geheimhaltung, d.h. wenn entweder der eigene private Schlüssel oder der der Empfangenden gestohlen wird, sind alle vorher damit verschlüsselten Nachrichten offengelegt. [Wie schütze ich meine privaten Schlüssel?](basics/email-security.md#how-do-i-protect-my-private-keys)
+    OpenPGP unterstützt auch keine Perfect Forward Secrecy, d. h. wenn entweder dein eigener privater Schlüssel oder der deines Kommunikationspartners gestohlen wird, sind alle vorher damit verschlüsselten Nachrichten offengelegt. [Wie schütze ich meine privaten Schlüssel?](basics/email-security.md#how-do-i-protect-my-private-keys)
 
 ### Proton Mail
 
@@ -104,7 +104,7 @@ Proton Mail doesn't offer a digital legacy feature.
 
     ![Mailbox.org-Logo](assets/img/email/mailboxorg.svg){ align=right }
     
-    **Mailbox.org** ist ein E-Mail-Dienst, mit dem Ziel sicher und werbefrei zu sein und der mit 100 % erneuerbaren Energien betrieben wird. Er ist 2014 gestartet. Mailbox.org hat seinen Sitz in Berlin, Deutschland. Der günstigste Tarif beginnt mit 2 GB Speicherplatz, der je nach Bedarf erweitert werden kann.
+    **Mailbox.org** ist ein E-Mail-Dienst, mit dem Ziel sicher und werbefrei zu sein und der mit 100 % erneuerbaren Energien betrieben wird. Er ist 2014 gestartet. Mailbox.org hat seinen Sitz in Berlin, Deutschland. Konten im günstigsten Tarif beginnen mit 2 GB Speicherplatz, der je nach Bedarf erweitert werden kann.
     
     [:octicons-home-16: Homepage](https://mailbox.org){ .md-button .md-button--primary }
     [:octicons-eye-16:](https://mailbox.org/en/data-protection-privacy-policy){ .card-link title="Privacy Policy" }

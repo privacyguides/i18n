@@ -109,13 +109,13 @@ Mullvad Browser comes with DuckDuckGo set as the default [search engine](search-
     
     **Firefox** provides strong privacy settings such as [Enhanced Tracking Protection](https://support.mozilla.org/kb/enhanced-tracking-protection-firefox-desktop), which can help block various [types of tracking](https://support.mozilla.org/kb/enhanced-tracking-protection-firefox-desktop#w_what-enhanced-tracking-protection-blocks).
     
-    [:octicons-home-16: Homepage](https://firefox.com){ .md-button .md-button--primary }
-    [:octicons-eye-16:](https://www.mozilla.org/privacy/firefox/){ .card-link title="Privacy Policy" }
-    [:octicons-info-16:](https://firefox-source-docs.mozilla.org/){ .card-link title=Documentation}
-    [:octicons-code-16:](https://hg.mozilla.org/mozilla-central){ .card-link title="Source Code" }
-    [:octicons-heart-16:](https://donate.mozilla.org/){ .card-link title=Contribute }
+    [:octicons-home-16: 홈페이지](https://firefox.com){ .md-button .md-button--primary }
+    [:octicons-eye-16:](https://www.mozilla.org/privacy/firefox/){ .card-link title="프라이버시 정책" }
+    [:octicons-info-16:](https://firefox-source-docs.mozilla.org/){ .card-link title=문서}
+    [:octicons-code-16:](https://hg.mozilla.org/mozilla-central){ .card-link title="소스 코드" }
+    [:octicons-heart-16:](https://donate.mozilla.org/){ .card-link title=기부 }
     
-    ??? downloads
+    ??? downloads "다운로드"
     
         - [:simple-windows11: Windows](https://www.mozilla.org/firefox/windows)
         - [:simple-apple: macOS](https://www.mozilla.org/firefox/mac)
@@ -127,15 +127,15 @@ Mullvad Browser comes with DuckDuckGo set as the default [search engine](search-
 
 ### 권장 설정
 
-These options can be found in :material-menu: → **Settings**
+이러한 옵션은 :material-menu: → **설정**에서 확인할 수 있습니다
 
-#### Search
+#### 검색
 
 - [ ] **검색 제안 사용** 비활성화
 
-여러분의 지역에 따라 검색 제안 기능을 사용하지 못할 수도 있습니다.
+여러분의 지역에 따라 검색 제안 기능이 제공되지 않을 수도 있습니다.
 
-Search suggestions send everything you type in the address bar to the default search engine, regardless of whether you submit an actual search. Disabling search suggestions allows you to more precisely control what data you send to your search engine provider.
+검색 제안 기능은 실제로 검색을 누르지 않더라도 주소창에 입력하는 모든 내용을 기본 검색 엔진으로 전송합니다. 검색 제안을 비활성화하여 검색 엔진 제공 업체에 전송하는 데이터를 보다 신중하게 조절할 수 있습니다.
 
 #### 개인 정보 및 보안
 
@@ -147,12 +147,12 @@ This protects you by blocking social media trackers, fingerprinting scripts (not
 
 ##### Firefox Suggest (US only)
 
-[Firefox Suggest](https://support.mozilla.org/en-US/kb/firefox-suggest) is a feature similar to search suggestions which is only available in the US. We recommend disabling it for the same reason we recommend disabling search suggestions. If you don't see these options under the **Address Bar** header, you do not have the new experience and can ignore these changes.
+[Firefox Suggest](https://support.mozilla.org/en-US/kb/firefox-suggest) is a feature similar to search suggestions which is only available in the US. 검색 제안 사용을 비활성화한 것과 마찬가지 이유로 해당 기능을 비활성화할 것을 권장드립니다. If you don't see these options under the **Address Bar** header, you do not have the new experience and can ignore these changes.
 
 - [ ] Uncheck **Suggestions from the web**
 - [ ] Uncheck **Suggestions from sponsors**
 
-##### Sanitize on Close
+##### 종료 시 데이터 정리
 
 특정 사이트의 로그인을 유지하려면 **쿠키 및 사이트 데이터** → **예외 관리...**에서 예외를 허용할 수 있습니다.
 
@@ -160,7 +160,7 @@ This protects you by blocking social media trackers, fingerprinting scripts (not
 
 This protects you from persistent cookies, but does not protect you against cookies acquired during any one browsing session. When this is enabled, it becomes possible to easily cleanse your browser cookies by simply restarting Firefox. You can set exceptions on a per-site basis, if you wish to stay logged in to a particular site you visit often.
 
-##### Telemetry
+##### 원격 분석
 
 - [ ] **Firefox가 기술과 상호 작용 정보를 Mozilla에 전송하도록 허용** 비활성화
 - [ ] **Firefox가 연구를 설치하고 실행하도록 허용** 비활성화
@@ -168,7 +168,7 @@ This protects you from persistent cookies, but does not protect you against cook
 
 > Firefox sends data about your Firefox version and language; device operating system and hardware configuration; memory, basic information about crashes and errors; outcome of automated processes like updates, safebrowsing, and activation to us. When Firefox sends data to us, your IP address is temporarily collected as part of our server logs.
 
-또한 Firefox 계정 서비스는 [일부 기술 데이터](https://www.mozilla.org/en-US/privacy/firefox/#firefox-accounts)를 수집합니다. If you use a Firefox Account you can opt-out:
+또한 Firefox 계정 서비스는 [일부 기술 데이터](https://www.mozilla.org/en-US/privacy/firefox/#firefox-accounts)를 수집합니다. Firefox 계정을 이용하는 경우 이를 거부할 수 있습니다.
 
 1. [accounts.firefox.com 프로필 설정](https://accounts.firefox.com/settings#data-collection) 열기
 2. **데이터 수집 및 사용** > **Firefox 계정 개선에 참여** 비활성화
@@ -177,7 +177,7 @@ This protects you from persistent cookies, but does not protect you against cook
 
 - [x] **모든 창에서 HTTPS 전용 모드 사용** 활성화
 
-This prevents you from unintentionally connecting to a website in plain-text HTTP. Sites without HTTPS are uncommon nowadays, so this should have little to no impact on your day to day browsing.
+의도치 않게 일반 텍스트 HTTP로 웹사이트에 연결되는 것을 방지합니다. 최근에는 대부분의 사이트가 HTTPS를 지원하므로, 일상적인 웹 탐색에는 크게 영향을 미치지 않습니다.
 
 #### Sync
 
@@ -209,26 +209,26 @@ Arkenfox only aims to thwart basic or naive tracking scripts through canvas rand
     [:octicons-info-16:](https://support.brave.com/){ .card-link title=문서}
     [:octicons-code-16:](https://github.com/brave/brave-browser){ .card-link title="소스 코드" }
     
-    ??? downloads annotate
+    ??? downloads annotate "다운로드"
     
         - [:simple-github: GitHub](https://github.com/brave/brave-browser/releases)
         - [:simple-windows11: Windows](https://brave.com/download/)
         - [:simple-apple: macOS](https://brave.com/download/)
         - [:simple-linux: Linux](https://brave.com/linux/) (1)
 
-    1. We advise against using the Flatpak version of Brave, as it replaces Chromium's sandbox with Flatpak's, which is less effective. Additionally, the package is not maintained by Brave Software, Inc.
+    1. Flatpak 버전 Brave는 Chromium의 샌드박스 기능을 효과가 떨어지는 Flatpak 샌드박스로 대체하기 때문에, Flatpak 버전은 사용하지 않는 것이 좋습니다. 또한, 해당 패키지는 Brave Software, Inc.에서 직접 관리하는 패키지가 아닙니다.
 
 ### 권장 설정
 
-These options can be found in :material-menu: → **Settings**.
+이러한 옵션은 :material-menu: → **설정**에서 확인할 수 있습니다.
 
 #### 설정
 
 ##### 보호
 
-Brave includes some anti-fingerprinting measures in its [Shields](https://support.brave.com/hc/en-us/articles/360022973471-What-is-Shields-) feature. We suggest configuring these options [globally](https://support.brave.com/hc/en-us/articles/360023646212-How-do-I-configure-global-and-site-specific-Shields-settings-) across all pages that you visit.
+Brave 브라우저의 [보호](https://support.brave.com/hc/en-us/articles/360022973471-What-is-Shields-) 기능에는 핑거프린팅 방지 조치가 포함되어 있습니다. 방문하는 모든 페이지에 [전역적으로](https://support.brave.com/hc/en-us/articles/360023646212-How-do-I-configure-global-and-site-specific-Shields-settings-) 옵션을 설정하는 것이 좋습니다.
 
-Shields' options can be downgraded on a per-site basis as needed, but by default we recommend setting the following:
+필요에 따라 사이트별로 보호 옵션을 낮출 수 있으나, 기본적으로 다음과 같이 설정할 것을 권장드립니다:
 
 <div class="annotate" markdown>
 
@@ -261,11 +261,11 @@ Shields' options can be downgraded on a per-site basis as needed, but by default
 - [x] **보안** 메뉴에서 **항상 보안 연결 사용** 활성화
 - [ ] **Tor와 함께하는 개인정보 보호 창** 비활성화 (1)
 
-    !!! tip "Sanitizing on Close"
+    !!! tip "종료 시 데이터 정리"
 
-        - [x] Select **Clear cookies and site data when you close all windows** in the *Cookies and other site data* menu
+        - [x] **쿠키 및 기타 사이트 데이터** 메뉴에서 **모든 창이 닫히면 쿠키 및 사이트 데이터 삭제** 활성화
 
-        If you wish to stay logged in to a particular site you visit often, you can set exceptions on a per-site basis under the *Customized behaviors* section.
+        자주 방문하는 특정 사이트의 로그인을 유지하려면 **맞춤설정된 동작** 부분에서 사이트별 예외를 지정할 수 있습니다.
 
 </div>
 
@@ -273,14 +273,14 @@ Shields' options can be downgraded on a per-site basis as needed, but by default
 
 ##### 확장 프로그램
 
-Disable built-in extensions you do not use in **Extensions**
+**확장 프로그램**에서 자신이 사용하지 않는 기본 탑재 확장 프로그램 비활성화
 
 - [ ] **Hangouts** 비활성화
 - [ ] **WebTorrent** 비활성화
 
 ##### Web3
 
-Brave's Web3 features can potentially add to your browser fingerprint and attack surface. Unless you use any of features, they should be disabled.
+Brave의 Web3 기능은 잠재적으로 브라우저의 핑거프린트와 공격 표면을 증가시킬 수 있습니다. 여러분이 해당 기능을 사용하지 않는다면 비활성화해야 합니다.
 
 - [ ] **기본 이더리움 월렛**을 **없음**으로 설정
 - [ ] **기본 Solana 월렛**을 **없음**으로 설정
@@ -340,38 +340,38 @@ These are some other [filter lists](https://github.com/gorhill/uBlock/wiki/Dashb
 
 ## 평가 기준
 
-**Please note we are not affiliated with any of the projects we recommend.** In addition to [our standard criteria](about/criteria.md), we have developed a clear set of requirements to allow us to provide objective recommendations. We suggest you familiarize yourself with this list before choosing to use a project, and conduct your own research to ensure it's the right choice for you.
+**Privacy Guides는 권장 목록의 어떠한 프로젝트와도 제휴를 맺지 않았습니다.** 객관적인 권장 목록을 제공하기 위해, [일반적인 평가 기준](about/criteria.md)에 더해 명확한 요구 사항을 정립하였습니다. 어떠한 프로젝트를 선택해 사용하기 전에, 이러한 요구 사항들을 숙지하고 여러분 스스로 조사하는 과정을 거쳐 적절한 선택을 하시기 바랍니다.
 
-!!! example "This section is new"
+!!! example "이 단락은 최근에 만들어졌습니다"
 
-    We are working on establishing defined criteria for every section of our site, and this may be subject to change. If you have any questions about our criteria, please [ask on our forum](https://discuss.privacyguides.net/latest) and don't assume we didn't consider something when making our recommendations if it is not listed here. There are many factors considered and discussed when we recommend a project, and documenting every single one is a work-in-progress.
+    Privacy Guides 팀은 사이트의 모든 항목마다 명확한 평가 기준을 정립하는 중이며, 따라서 세부 내용은 변경될 수 있습니다. 평가 기준에 대해서 질문이 있다면 [포럼에서 문의](https://discuss.privacyguides.net/latest)하시기 바랍니다. (무언가가 목록에 존재하지 않다고 해서 권장 목록을 작성할 때 고려한 적이 없을 것으로 단정 짓지 마세요.) 권장 목록에 어떤 프로젝트를 추가할 때 고려하고 논의해야 할 요소는 매우 많으며, 모든 요소를 문서화하는 것은 현재 진행 중인 작업입니다.
 
-### Minimum Requirements
+### 최소 요구 사항
 
-- Must be open-source software.
-- Supports automatic updates.
-- Receives engine updates in 0-1 days from upstream release.
-- Available on Linux, macOS, and Windows.
+- 오픈 소스 소프트웨어여야 합니다.
+- 자동 업데이트를 지원해야 합니다.
+- 업스트림 릴리스 0~1일 이내에 엔진 업데이트를 받아야 합니다.
+- Linux, macOS, Windows에서 사용할 수 있어야 합니다.
 - 브라우저의 프라이버시를 강화하는 데에 필요한 모든 변경 사항은 사용자 경험에 부정적인 영향을 미치지 않아야 합니다.
-- Blocks third-party cookies by default.
-- Supports [state partitioning](https://developer.mozilla.org/en-US/docs/Web/Privacy/State_Partitioning) to mitigate cross-site tracking.[^1]
+- 타사 쿠키를 기본적으로 차단해야 합니다.
+- 크로스 사이트 추적을 완화하기 위해 [State Partitioning](https://developer.mozilla.org/en-US/docs/Web/Privacy/State_Partitioning)을 지원해야 합니다.[^1]
 
-### Best-Case
+### 우대 사항
 
-Our best-case criteria represents what we would like to see from the perfect project in this category. Our recommendations may not include any or all of this functionality, but those which do may rank higher than others on this page.
+평가 기준에서 '우대 사항'은 해당 부문에서 완벽한 프로젝트에 기대하는 바를 나타냅니다. 다음의 우대 사항에 해당하지 않더라도 권장 목록에 포함될 수 있습니다. 단, 우대 사항에 해당할수록 이 페이지의 다른 항목보다 높은 순위를 갖습니다.
 
-- Includes built-in content blocking functionality.
-- Supports cookie compartmentalization (à la [Multi-Account Containers](https://support.mozilla.org/en-US/kb/containers)).
-- Supports Progressive Web Apps.  
-  PWAs enable you to install certain websites as if they were native apps on your computer. This can have advantages over installing Electron-based apps, because you benefit from your browser's regular security updates.
-- Does not include add-on functionality (bloatware) that does not impact user privacy.
-- Does not collect telemetry by default.
-- Provides open-source sync server implementation.
-- Defaults to a [private search engine](search-engines.md).
+- 콘텐츠 차단 기능을 내장해야 합니다.
+- 쿠키 구획화를 지원해야 합니다. (예시: [멀티 컨테이너](https://support.mozilla.org/ko/kb/containers))
+- PWA(Progressive Web App)를 지원해야 합니다.  
+  PWA를 사용하면 특정 웹사이트를 마치 네이티브 앱인 것처럼 컴퓨터에 설치할 수 있습니다. 브라우저의 정기적인 보안 업데이트 혜택을 받을 수 있으므로 Electron 기반 앱보다 유리한 점이 있습니다.
+- 사용자 프라이버시에 이점을 주지 않는 애드온 기능(블로트웨어)을 포함하지 않아야 합니다.
+- 원격 분석 데이터를 기본적으로 수집하지 않아야 합니다.
+- 오픈 소스 동기화 서버 구현체를 제공해야 합니다.
+- [비공개 검색 엔진](search-engines.md)이 기본으로 설정되어 있어야 합니다.
 
 ### 확장 프로그램 평가 기준
 
 - 내장 브라우저 혹은 운영 체제 기능을 복제해서는 안됩니다.
-- Must directly impact user privacy, i.e. must not simply provide information.
+- 사용자 프라이버시에 직접적인 이점을 제공해야 합니다. 단순 정보 제공은 기준 미달입니다.
 
 [^1]: Brave's implementation is detailed at [Brave Privacy Updates: Partitioning network-state for privacy](https://brave.com/privacy-updates/14-partitioning-network-state/).

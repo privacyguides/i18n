@@ -6,9 +6,9 @@ title: Criteri generali
 
     La pagina seguente è un lavoro in corso e non riflette i criteri completi per le nostre raccomandazioni in questo momento. Discussione precedente su questo argomento: [#24](https://github.com/privacyguides/privacyguides.org/discussions/24)
 
-Below are some things that must apply to all submissions to Privacy Guides. Ogni categoria avrà requisiti aggiuntivi per l'inclusione.
+Di seguito sono riportate alcune cose che verranno applicate a tutte le guide presentate su Privacy Guides. Ogni categoria avrà requisiti aggiuntivi per l'inclusione.
 
-## Financial Disclosure
+## Informativa finanziaria
 
 Non guadagniamo denaro consigliando determinati prodotti, non utilizziamo link di affiliazione e non offriamo una considerazione speciale ai donatori di progetti.
 
@@ -29,12 +29,12 @@ Abbiamo questi requisiti per quanto riguarda gli sviluppatori che desiderano pre
 
 - Deve indicare l'affiliazione, cioè la sua posizione all'interno del progetto presentato.
 
-- Must have a security whitepaper if it is a project that involves handling of sensitive information like a messenger, password manager, encrypted cloud storage, etc.
-    - Third party audit status. We want to know if you have one, or have one planned. Se possibile, indicare chi condurrà l'audit.
+- Deve avere un whitepaper sulla sicurezza se si tratta di un progetto che prevede la gestione d'informazioni sensibili come un'app di messaggistica, un gestore di password, uno spazio d'archiviazione cloud criptato, ecc.
+    - Stato audit di terze parti. Vogliamo sapere se ne hai già uno, o stai pianificando di farlo. Se possibile, indicare chi condurrà l'audit.
 
-- Must explain what the project brings to the table in regard to privacy.
+- Deve spiegare cosa offre il progetto in termini di privacy.
     - Risolve qualche nuovo problema?
     - Perché qualcuno dovrebbe usarlo rispetto alle alternative?
 
-- Must state what the exact threat model is with their project.
-    - It should be clear to potential users what the project can provide, and what it cannot.
+- Deve indicare l'esatto modello di minaccia del loro progetto.
+    - Deve essere chiaro ai potenziali utenti cosa può e non può offrire il progetto.
