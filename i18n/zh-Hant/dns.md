@@ -2,6 +2,7 @@
 title: "DNS解析器"
 icon: material/dns
 description: 我們建議切換到這些加密 DNS 提供商，以取代您 ISP 所預設的配置。
+cover: dns.png
 ---
 
 使用第三方伺服器的加密 DNS 只能避開基本的 [DNS 封鎖](https://en.wikipedia.org/wiki/DNS_blocking) ，當您確定不會有不良後果時。 加密的 DNS 無法為您隱藏瀏覽活動。

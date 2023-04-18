@@ -2,6 +2,7 @@
 title: "Видеохостинги"
 icon: material/video-wireless
 description: These networks allow you to stream internet content without building an advertising profile based on your interests.
+cover: video-streaming.png
 ---
 
 Основная угроза при использовании платформ потокового видео заключается в том, что ваши интересы и списки подписчиков могут быть использованы чтобы отслеживать вас. Вам следует сочетать эти инструменты с [VPN](/vpn) или [Tor](https://www.torproject.org/), чтобы усложнить отслеживание вашего использования.

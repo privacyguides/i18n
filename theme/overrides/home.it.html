@@ -23,6 +23,10 @@
 {% extends "main.html" %}
 {% block extrahead %}
   <link rel="stylesheet" href="{{ 'assets/stylesheets/home.css?v=3.3.0' | url }}">
+  <link rel="alternate" type="application/rss+xml" title="Changelog di rilascio Privacy Guides" href="https://discuss.privacyguides.net/c/site-development/changelog/9.rss">
+  <link rel="alternate" type="application/rss+xml" title="Blog Feed Privacy Guides" href="https://blog.privacyguides.org/feed_rss_created.xml">
+  <link rel="alternate" type="application/rss+xml" title="Feed storie del web Privacy Guides" href="https://share.privacyguides.org/web-stories/feed/">
+  <link rel="alternate" type="application/rss+xml" title="Privacy Guides - Ultimi argomenti del forum" href="https://discuss.privacyguides.net/latest.rss" />
   {{ super() }}
 {% endblock %}
 {% block tabs %}

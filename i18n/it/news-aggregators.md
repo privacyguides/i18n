@@ -2,6 +2,7 @@
 title: "Aggregatori di notizie"
 icon: octicons/rss-24
 description: Questi client di aggregazione di notizie consentono di tenersi aggiornati con i blog e siti di news preferiti utilizzando standard Internet come RSS.
+cover: news-aggregators.png
 ---
 
 Un [Aggregatore di news](https://en.wikipedia.org/wiki/News_aggregator)è un modo per tenersi aggiornati con i blog e siti di news preferiti.

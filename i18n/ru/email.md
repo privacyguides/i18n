@@ -3,6 +3,7 @@ meta_title: "Encrypted Private Email Recommendations - Privacy Guides"
 title: "Электронная почта"
 icon: material/email
 description: These email providers offer a great place to store your emails securely, and many offer interoperable OpenPGP encryption with other providers.
+cover: email.png
 ---
 
 Электронная почта практически всегда необходима для использования любого онлайн-сервиса, однако мы не рекомендуем использовать её для общения с людьми. Вместо того, чтобы использовать электронную почту для связи с другими людьми, мы советуем использовать мессенджеры, которые поддерживают прямую секретность.

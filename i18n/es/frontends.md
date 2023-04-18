@@ -2,6 +2,7 @@
 title: "Interfaces de usuario"
 icon: material/flip-to-front
 description: Estas interfaces de código abierto para diversos servicios de Internet le permiten acceder a los contenidos sin JavaScript ni otras molestias.
+cover: frontends.png
 ---
 
 A veces, los servicios intentarán obligarle a registrarse mediante el bloqueo al acceso a los contenidos con molestas ventanas emergentes. También pueden fallar si no se activa JavaScript. Estas interfaces pueden permitirle eludir estas restricciones.

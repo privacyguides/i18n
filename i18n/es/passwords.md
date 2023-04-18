@@ -3,6 +3,7 @@ meta_title: "Los Mejores Administradores de Contraseñas para Proteger su Privac
 title: "Administradores de Contraseñas"
 icon: material/form-textbox-password
 description: Los administradores de contraseñas le permiten almacenar y administrar de forma segura contraseñas y otras credenciales.
+cover: passwords.png
 schema:
   - 
     "@context": http://schema.org

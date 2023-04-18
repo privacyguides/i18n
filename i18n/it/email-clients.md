@@ -2,6 +2,7 @@
 title: "Client Email"
 icon: material/email-open
 description: Questi client email rispettano la privacy e supportano la crittografia OpenPGP.
+cover: email-clients.png
 ---
 
 Il nostro elenco di raccomandazioni contiene client di posta elettronica che supportano sia [OpenPGP](encryption.md#openpgp) che l'autenticazione forte come [Open Authorization (OAuth)](https://it.wikipedia.org/wiki/OAuth). OAuth consente di utilizzare l'[autenticazione a più fattori](basics/multi-factor-authentication.md) e di prevenire il furto di account.

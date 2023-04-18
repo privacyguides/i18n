@@ -2,6 +2,7 @@
 title: "Synchronisation de calendrier"
 icon: material/calendar
 description: Les calendriers contiennent certaines de vos données les plus sensibles ; utilisez des produits qui implémentent le chiffrement au repos.
+cover: calendar.png
 ---
 
 Les calendriers contiennent certaines de vos données les plus sensibles ; utilisez des produits qui mettent en œuvre l'E2EE au repos pour empêcher un fournisseur de les lire.

@@ -2,6 +2,7 @@
 title: "Transmisiones en Vivo"
 icon: material/video-wireless
 description: Estas redes le permiten transmitir contenidos de Internet sin crear un perfil publicitario basado en sus intereses.
+cover: video-streaming.png
 ---
 
 La principal amenaza al utilizar una plataforma de streaming es que sus hábitos de streaming y sus suscripciones podrían utilizarse para elaborar un perfil. Deberías combinar estas herramientas con un [VPN](vpn.md) o [Tor](https://www.torproject.org/) para hacer más difícil la recolección de tu perfil.

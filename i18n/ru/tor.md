@@ -3,6 +3,7 @@ meta_title: "Tor Browser and Network: Anonymous Web Browsing - Privacy Guides"
 title: "Сеть Tor"
 icon: simple/torproject
 description: Защитите свой интернет-сёрфинг от посторонних глаз, используя сеть Tor - безопасную сеть, обходящую цензуру.
+cover: tor.png
 schema:
   - 
     "@context": http://schema.org

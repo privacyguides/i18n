@@ -2,6 +2,7 @@
 title: "Sổ Ghi Chép"
 icon: material/notebook-edit-outline
 description: These encrypted note-taking apps let you keep track of your notes without giving them to a third-party.
+cover: notebooks.png
 ---
 
 Theo dõi các ghi chú và nhật ký của bạn mà không đưa chúng cho bên thứ ba.

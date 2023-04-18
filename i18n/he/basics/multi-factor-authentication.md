@@ -120,7 +120,7 @@ WebAuthn היא הצורה המאובטחת והפרטית ביותר של אי�
 
 מעבר לאבטחת כניסות האתר שלך בלבד, ניתן להשתמש באימות רב-גורמי כדי לאבטח את כניסותיך המקומיות, מפתחות SSH או אפילו מסדי נתונים של סיסמאות.
 
-### Windows
+### ווינדוס
 
 לYubico יש ספק [אישורים ייעודי](https://docs.microsoft.com/en-us/windows/win32/secauthn/credential-providers-in-windows) שמוסיף אימות Challenge-Response עבור זרימת הכניסה לשם משתמש + סיסמה עבור חשבונות Windows מקומיים. אם יש לך YubiKey עם תמיכה באימות Challenge-Response, עיין במדריך התצורה של [Yubico Login for Windows](https://support.yubico.com/hc/en-us/articles/360013708460-Yubico-Login-for-Windows-Configuration-Guide), שיאפשר לך להגדיר MFA במחשב Windows שלך.
 

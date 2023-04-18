@@ -2,6 +2,7 @@
 title: "Agrégateurs d'actualités"
 icon: material/rss
 description: Ces clients agrégateurs d'actualités vous permettent de suivre vos blogs et sites d'information préférés en utilisant des normes internet telles que RSS.
+cover: news-aggregators.png
 ---
 
 Un [agrégateur d'actualités](https://en.wikipedia.org/wiki/News_aggregator) est un moyen de suivre vos blogs et sites d'actualités préférés.

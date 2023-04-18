@@ -3,6 +3,7 @@ meta_title: "Recommandations et comparaison de services VPN privés, sans sponso
 title: "Services VPN"
 icon: material/vpn
 description: Voici les meilleurs services VPN pour protéger votre vie privée et votre sécurité en ligne. Trouvez ici un fournisseur qui ne cherche pas à vous espionner.
+cover: vpn.png
 ---
 
 Si vous recherchez à protéger votre **vie privée** vis-à-vis de votre FAI, sur un réseau Wi-Fi public ou lorsque vous téléchargez des fichiers en torrent, un VPN peut être la solution pour vous, à condition que vous compreniez les risques encourus. Nous pensons que ces fournisseurs se distinguent des autres :

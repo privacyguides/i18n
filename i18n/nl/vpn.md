@@ -3,6 +3,7 @@ meta_title: "Private VPN Service Recommendations and Comparison, No Sponsors or 
 title: "VPN-diensten"
 icon: material/vpn
 description: Dit zijn de beste VPN-diensten om jouw privacy en veiligheid online te beschermen. Vind hier een provider die er niet op uit is om je te bespioneren.
+cover: vpn.png
 ---
 
 Als je op zoek bent naar extra **privacy** van uw ISP, op een openbaar Wi-Fi-netwerk, of tijdens het torrenten van bestanden, kan een VPN de oplossing voor je zijn, zolang je de risico's ervan begrijpt. Wij denken dat deze aanbieders een stuk beter zijn dan de rest:

@@ -2,6 +2,7 @@
 title: "Nieuws Aggregators"
 icon: material/rss
 description: Met deze news aggregator clients kunt je op de hoogte blijven van jouw favoriete blogs en nieuwssites via internetstandaarden zoals RSS.
+cover: news-aggregators.png
 ---
 
 Een [nieuwsaggregator](https://en.wikipedia.org/wiki/News_aggregator) is een manier om op de hoogte te blijven van jouw favoriete blogs en nieuwssites.

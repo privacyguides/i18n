@@ -2,6 +2,7 @@
 title: "Autenticadores de Múltiples Factores"
 icon: 'material/two-factor-authentication'
 description: Estas herramientas le ayudan a proteger sus cuentas de Internet con la autenticación multifactor sin enviar sus secretos a terceros.
+cover: multi-factor-authentication.png
 ---
 
 ## Llaves de Seguridad

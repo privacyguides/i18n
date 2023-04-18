@@ -3,6 +3,7 @@ meta_title: "Los Mejores Proveedores de Almacenamiento en la Nube Privado y Segu
 title: "Almacenamiento en la Nube"
 icon: material/file-cloud
 description: Muchos proveedores de almacenamiento en la nube exigen que confíes plenamente en que no mirarán tus archivos. Estas son alternativas privadas.
+cover: cloud.png
 ---
 
 Muchos proveedores de almacenamiento en la nube exigen que confíes plenamente en que no mirarán tus archivos. Las alternativas enumeradas a continuación eliminan la necesidad de confianza mediante la implementación de E2EE seguros.

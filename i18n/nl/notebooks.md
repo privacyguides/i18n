@@ -2,6 +2,7 @@
 title: "Notitieboekjes"
 icon: material/notebook-edit-outline
 description: Met deze versleutelde notitie-apps kun je je notities bijhouden zonder ze aan derden te geven.
+cover: notebooks.png
 ---
 
 Houd jouw notities en aantekeningen bij zonder ze aan derden te geven.

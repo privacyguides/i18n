@@ -2,6 +2,7 @@
 title: "ノート"
 icon: material/notebook-edit-outline
 description: 暗号化ノートアプリで、第三者による閲覧を防止しながらメモを管理できます。
+cover: notebooks.png
 ---
 
 第三者による閲覧を防止しながら、メモや日記を保存できます。

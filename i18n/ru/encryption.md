@@ -3,6 +3,7 @@ meta_title: "Recommended Encryption Software: VeraCrypt, Cryptomator, PicoCrypt,
 title: "Инструменты для шифрования"
 icon: material/file-lock
 description: Шифрование данных - единственный способ контролировать доступ к ним. These tools allow you to encrypt your emails and any other files.
+cover: encryption.png
 ---
 
 Шифрование данных - единственный способ контролировать доступ к ним. Если вы еще не используете какие-либо инструменты шифрования диска, электронной почты или файлов, то вы можете выбрать один из них тут.

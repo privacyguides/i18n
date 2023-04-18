@@ -2,6 +2,7 @@
 meta_title: "私密加密貨幣區塊錬 - Privacy Guides"
 title: 加密貨幣
 icon: material/bank-circle
+cover: cryptocurrency.png
 ---
 
 線上支付是隱私面臨的最大挑戰之一。 下列加密貨幣預設提供交易隱私（大多數加密貨幣**並未保證**如此 ），前提是您對如何有效地進行私人支付有深入了解。 我們強烈建議您在網路購買前先閱讀本站私密付款之介紹：

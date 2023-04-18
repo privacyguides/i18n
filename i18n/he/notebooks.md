@@ -2,6 +2,7 @@
 title: "פנקס רשימות"
 icon: material/notebook-edit-outline
 description: אפליקציות רישום רשימות-מוצפנות אלו מאפשרות לך לעקוב אחר הרשימות שלך מבלי לתת אותן לצד שלישי.
+cover: notebooks.png
 ---
 
 עקוב אחר ההערות והיומנים שלך מבלי למסור אותם לצד שלישי.
@@ -89,7 +90,7 @@ Cryptee מציע 100MB של אחסון בחינם, עם אפשרויות בתש�
 
     ![Org-mode לוגו](assets/img/notebooks/org-mode.svg){ align=right }
     
-    **מצב ארגוני** הוא [מצב ראשי](https://www.gnu.org/software/emacs/manual/html_node/elisp/Major-Modes.html) עבור גנו Emacs. Org-mode is for keeping notes, maintaining to-do lists, planning projects, and authoring documents with a fast and effective plain-text system. סינכרון אפשרי באמצעות הכלי [file synchronization](file-sharing.md#file-sync).
+    **מצב ארגוני** הוא [מצב ראשי](https://www.gnu.org/software/emacs/manual/html_node/elisp/Major-Modes.html) עבור גנו Emacs. מצב ארגוני מיועד לשמירת הערות, שמירה על רשימות מטלות, תכנון פרויקטים וכתיבת מסמכים עם מערכת טקסט רגיל מהירה ויעילה. סינכרון אפשרי באמצעות הכלי [file synchronization](file-sharing.md#file-sync).
     
     [:octicons-home-16: דף הבית](https://orgmode.org){ .md-button .md-button--primary }
     [:octicons-info-16:](https://orgmode.org/manuals.html){ .card-link title=תיעוד}

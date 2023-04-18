@@ -3,6 +3,7 @@ meta_title: "Remove PII with Metadata Scrubbers and Data Redaction Tools - Priva
 title: "Adat és Metaadat Visszatartás"
 icon: material/tag-remove
 description: Ezekkel az eszközökkel eltávolíthatod a metaadatokat, például a GPS-helyadatokat és más azonosító információkat a megosztott fényképekről és fájlokról.
+cover: data-redaction.png
 ---
 
 Fájlok megosztásakor ügyelj a kapcsolódó metaadatok eltávolítsára. A képfájlok gyakran tartalmaznak [Exif](https://en.wikipedia.org/wiki/Exif) adatokat. A fényképek időnként még GPS-koordinátákat is tartalmaznak a fájl metaadataiban.

@@ -2,6 +2,7 @@
 title: "Multi-Factor Authenticators"
 icon: '资料/双因认证'
 description: These tools assist you with securing your internet accounts with Multi-Factor Authentication without sending your secrets to a third-party.
+cover: multi-factor-authentication.png
 ---
 
 ## 硬件安全密钥

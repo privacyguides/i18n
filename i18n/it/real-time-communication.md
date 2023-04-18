@@ -3,6 +3,7 @@ meta_title: "Le migliori app di messaggistica istantanea private - Privacy Guide
 title: "Comunicazione in tempo reale"
 icon: material/chat-processing
 description: Altre app di messaggistica istantanea rendono disponibili tutte le tue conversazioni private alla società che le gestisce.
+cover: real-time-communication.png
 ---
 
 Questi sono i nostri consigli per comunicazioni crittografate in tempo reale.

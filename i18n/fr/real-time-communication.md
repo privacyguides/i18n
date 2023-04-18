@@ -3,6 +3,7 @@ meta_title: "Les meilleures messageries instantanées privées - Privacy Guides"
 title: "Communication en temps réel"
 icon: material/chat-processing
 description: Les autres messageries instantanées mettent toutes vos conversations privées à la disposition de la société qui les gère.
+cover: real-time-communication.png
 ---
 
 Voici nos recommandations pour de la communication en temps réel chiffrée.

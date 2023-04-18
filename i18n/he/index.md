@@ -1,5 +1,5 @@
 ---
-meta_title: "Privacy Guides: Your Independent Privacy and Security Resource"
+meta_title: "Privacy Guides: משאב הפרטיות והאבטחה העצמאיים שלך"
 template: overrides/home.he.html
 hide:
   - navigation
@@ -44,7 +44,7 @@ schema:
 
 אין לבלבל בין פרטיות לסודיות. אנחנו יודעים מה קורה בשירותים, אבל עדיין סוגרים את הדלת. זה בגלל שאתה רוצה פרטיות, לא סודיות. **לכל** אחד יש על מה להגן. פרטיות היא משהו שהופך אותנו לאנושיים.
 
-[:material-target-account: Common Internet Threats](basics/common-threats.md){ class="md-button md-button--primary" }
+[:material-target-account: איומי אינטרנט נפוצים](basics/common-threats.md){ class="md-button md-button--primary" }
 
 ## מה אני צריך לעשות?
 
@@ -54,7 +54,7 @@ schema:
 
 ==תהליך זה של זיהוי איומים והגדרת אמצעי נגד נקרא **מידול** (מלשון מודל) ** סיכונים ** ==, והוא מהווה את הבסיס לכל תוכנית אבטחה ופרטיות טובה.
 
-[:material-book-outline: Learn More About Threat Modeling](basics/threat-modeling.md){ class="md-button md-button--primary" }
+[:material-book-outline: למידע נוסף על מודל איומים](basics/threat-modeling.md){ class="md-button md-button--primary" }
 
 ---
 

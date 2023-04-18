@@ -2,6 +2,7 @@
 title: "Penyelesai DNS"
 icon: material/dns
 description: Berikut ini adalah beberapa penyedia DNS terenkripsi yang kami sarankan untuk Anda gunakan, untuk menggantikan konfigurasi bawaan ISP Anda.
+cover: dns.png
 ---
 
 DNS terenkripsi dengan server pihak ketiga sebaiknya hanya digunakan untuk mengatasi pemblokiran [DNS dasar](https://en.wikipedia.org/wiki/DNS_blocking) ketika Anda yakin tidak akan ada konsekuensi apa pun. DNS terenkripsi tidak akan membantu Anda menyembunyikan aktivitas penjelajahan Anda.

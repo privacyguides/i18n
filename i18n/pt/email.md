@@ -3,6 +3,7 @@ meta_title: "Encrypted Private Email Recommendations - Privacy Guides"
 title: "Email Services"
 icon: material/email
 description: These email providers offer a great place to store your emails securely, and many offer interoperable OpenPGP encryption with other providers.
+cover: email.png
 ---
 
 Encontre um provedor de e-mail seguro que manterá sua privacidade em mente. Não se contente com plataformas suportadas por anúncios.

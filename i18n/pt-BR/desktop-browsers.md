@@ -3,6 +3,7 @@ meta_title: "Navegadores de Internet que Respeitam a Privacidade para PC e Mac �
 title: "Navegadores Desktop"
 icon: material/laptop
 description: Estes navegadores de internet dão uma proteção à privacidade mais forte do que o Google Chrome.
+cover: desktop-browsers.png
 schema:
   - 
     "@context": http://schema.org

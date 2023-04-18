@@ -2,6 +2,7 @@
 title: "Cadernos de notas"
 icon: material/notebook-edit-outline
 description: These encrypted note-taking apps let you keep track of your notes without giving them to a third-party.
+cover: notebooks.png
 ---
 
 Mantenha um registo das suas notas e diários sem os entregar a terceiros.

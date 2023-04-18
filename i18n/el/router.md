@@ -2,6 +2,7 @@
 title: "Υλικολογισμικό Δρομολογητή"
 icon: material/router-wireless
 description: These alternative operating systems can be used to secure your router or Wi-Fi access point.
+cover: router.png
 ---
 
 Παρακάτω είναι μερικά εναλλακτικά λειτουργικά συστήματα τα οποία μπορούν να χρησιμοποιηθούν σε δρομολογητές, σημεία πρόσβασης Wi-Fi, κλπ.

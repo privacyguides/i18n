@@ -2,6 +2,7 @@
 title: "Videostreaming"
 icon: material/video-wireless
 description: Met deze netwerken kunt je internet content streamen zonder een advertentieprofiel op te bouwen op basis van jouw interesses.
+cover: video-streaming.png
 ---
 
 Het grootste gevaar bij het gebruik van een videostreamingplatform is dat uw streaminggewoonten en abonneelijsten kunnen worden gebruikt om u te profileren. Je zou deze tools moeten combineren met een [VPN](vpn.md) of [Tor](https://www.torproject.org/) om het moeilijker te maken je gebruik te profileren.

@@ -2,6 +2,7 @@
 title: "DNS Çözümleyicileri"
 icon: material/dns
 description: Bunlar, İSS'nizin varsayılan yapılandırmasını değiştirmek için geçiş yapmanızı önerdiğimiz bazı şifreli DNS sağlayıcılarıdır.
+cover: dns.png
 ---
 
 Üçüncü taraf sunucularla şifrelenmiş DNS, yalnızca herhangi bir sonucu olmayacağından emin olduğunuzda temel [DNS Engellemesini](https://en.wikipedia.org/wiki/DNS_blocking) aşmak için kullanılmalıdır. Şifrelenmiş DNS internet faaliyetlerinizi gizlemenize yardımcı olmaz.

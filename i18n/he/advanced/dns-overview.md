@@ -24,7 +24,7 @@ DNS קיים מאז [הימים הראשונים](https://en.wikipedia.org/wiki/
     tshark -w /tmp/dns.pcap udp port 53 and host 1.1.1.1 or host 8.8.8.8
     ```
 
-2. We can then use [`dig`](https://en.wikipedia.org/wiki/Dig_(command)) (Linux, MacOS, etc.) or [`nslookup`](https://en.wikipedia.org/wiki/Nslookup) (Windows) to send the DNS lookup to both servers. תוכנות כגון דפדפני אינטרנט מבצעות חיפושים אלו באופן אוטומטי, אלא אם כן הם מוגדרים לשימוש ב-DNS מוצפן.
+2. לאחר מכן נוכל להשתמש ב[`dig`](https://en.wikipedia.org/wiki/Dig_(command)) (Linux, MacOS וכו') או [`nslookup`](https://en.wikipedia.org/wiki/Nslookup) (Windows) כדי לשלוח את בדיקת ה-DNS לשני השרתים. תוכנות כגון דפדפני אינטרנט מבצעות חיפושים אלו באופן אוטומטי, אלא אם כן הם מוגדרים לשימוש ב-DNS מוצפן.
 
     === "לינוקס, macOS"
 
@@ -118,7 +118,7 @@ DNS מוצפן יכול להתייחס לאחד ממספר פרוטוקולים,
 
 הדרך הפשוטה ביותר לקבוע את פעילות הגלישה עשויה להיות להסתכל על כתובות ה-IP שהמכשירים שלך ניגשים אליהם. לדוגמה, אם הצופה יודע ש-`privacyguides.org` נמצא בכתובת `198.98.54.105`, והמכשיר שלך מבקש נתונים מ-`198.98.54.105`, יש יש סיכוי טוב שאתה מבקר בPrivacy Guides.
 
-שיטה זו שימושית רק כאשר כתובת ה-IP שייכת לשרת המארח רק מעט אתרים. It's also not very useful if the site is hosted on a shared platform (e.g. Github Pages, Cloudflare Pages, Netlify, WordPress, Blogger, etc.). זה גם לא מאוד שימושי אם השרת מתארח מאחורי [פרוקסי הפוך](https://en.wikipedia.org/wiki/Reverse_proxy), הנפוץ מאוד באינטרנט המודרני.
+שיטה זו שימושית רק כאשר כתובת ה-IP שייכת לשרת המארח רק מעט אתרים. זה גם לא מאוד שימושי אם האתר מתארח בפלטפורמה משותפת (למשל Github Pages, Cloudflare Pages, Netlify, WordPress, Blogger וכו'). זה גם לא מאוד שימושי אם השרת מתארח מאחורי [פרוקסי הפוך](https://en.wikipedia.org/wiki/Reverse_proxy), הנפוץ מאוד באינטרנט המודרני.
 
 ### ציון שם השרת (SNI)
 

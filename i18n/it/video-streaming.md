@@ -2,6 +2,7 @@
 title: "Streaming video"
 icon: material/video-wireless
 description: Queste reti consentono lo streaming di contenuti da Internet senza creare un profilo pubblicitario basato sui propri interessi.
+cover: video-streaming.png
 ---
 
 Il rischio principale quando si usa una piattaforma di streaming video è che le tue abitudini e iscrizioni possano essere usate per profilarti. Suggeriamo di utilizzare questi strumenti accompagnati da un [VPN](vpn.md) o [Tor](https://www.torproject.org/) in modo da rendere più difficile la profilazione.

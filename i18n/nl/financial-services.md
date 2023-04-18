@@ -1,6 +1,7 @@
 ---
 title: Financiële diensten
 icon: material/bank
+cover: financial-services.png
 ---
 
 Online betalen is een van de grootste uitdagingen voor privacy. Deze diensten kunnen je helpen jouw privacy te beschermen tegen handelaren en andere trackers, op voorwaarde dat je goed weet hoe je privébetalingen doeltreffend kunt verrichten. Wij raden je sterk aan eerst ons overzichtsartikel over betalingen te lezen voordat je aankopen doet:

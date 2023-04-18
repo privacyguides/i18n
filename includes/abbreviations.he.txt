@@ -20,7 +20,7 @@
 *[EEA]: European Economic Area
 *[entropy]: A measurement of how unpredictable something is
 *[EOL]: סוף החיים
-*[Exif]: Exchangeable image file format
+*[Exif]: פורמט קובץ תמונה ניתן להחלפה
 *[FCM]: Firebase Cloud Messaging
 *[FDE]: הצפנת דיסק מלאה
 *[FIDO]: Fast IDentity Online
@@ -44,7 +44,7 @@
 *[IPv6]: פרוטוקול אינטרנט גרסה 6
 *[ISP]: ספק שירותי אינטרנט
 *[ISPs]: ספקי שירותי אינטרנט
-*[JNI]: Java Native Interface
+*[JNI]: ממשק מקורי של Java
 *[KYC]: Know Your Customer
 *[LUKS]: Linux Unified Key Setup (Full-Disk Encryption)
 *[MAC]: Media Access Control

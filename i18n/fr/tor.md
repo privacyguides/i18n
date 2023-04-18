@@ -3,6 +3,7 @@ meta_title: "Navigateur et réseau Tor : navigation web anonyme - Privacy Guides
 title: "Réseau Tor"
 icon: simple/torproject
 description: Protégez votre navigation sur internet des regards indiscrets en utilisant le réseau Tor, un réseau sécurisé qui contourne la censure.
+cover: tor.png
 schema:
   - 
     "@context": http://schema.org

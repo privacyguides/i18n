@@ -3,6 +3,7 @@ meta_title: "The Best Private Instant Messengers - Privacy Guides"
 title: "Real-Time Communicatie"
 icon: material/chat-processing
 description: Andere instant messengers maken al je privégesprekken beschikbaar voor het bedrijf dat ze beheert.
+cover: real-time-communication.png
 ---
 
 Dit zijn onze aanbevelingen voor versleutelde real-time communicatie.

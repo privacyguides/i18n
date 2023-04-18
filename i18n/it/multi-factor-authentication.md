@@ -2,6 +2,7 @@
 title: "Autenticatori a più fattori"
 icon: 'material/two-factor-authentication'
 description: Questi strumenti vi aiutano proteggendo i vostri account Internet con l'Autenticazione a più fattori senza inviare i vostri segreti a terzi.
+cover: multi-factor-authentication.png
 ---
 
 ## Chiavi di sicurezza fisiche

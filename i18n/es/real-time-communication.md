@@ -3,6 +3,7 @@ meta_title: "Los Mejores Servicios de Mensajería Instantánea - Privacy Guides"
 title: "Comunicación en Tiempo Real"
 icon: material/chat-processing
 description: Otros servicios de mensajería instantánea ponen todas sus conversaciones privadas a disposición de la empresa que los gestiona.
+cover: real-time-communication.png
 ---
 
 Estas son nuestras recomendaciones para la comunicación cifrada en tiempo real.

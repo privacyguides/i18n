@@ -2,6 +2,7 @@
 title: "Anteckningsböcker"
 icon: material/notebook-edit-outline
 description: These encrypted note-taking apps let you keep track of your notes without giving them to a third-party.
+cover: notebooks.png
 ---
 
 Håll koll på dina anteckningar och dagboksanteckningar utan att ge dem till tredje part.

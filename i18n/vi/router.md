@@ -2,6 +2,7 @@
 title: "Firmware Bộ định tuyến"
 icon: material/router-wireless
 description: These alternative operating systems can be used to secure your router or Wi-Fi access point.
+cover: router.png
 ---
 
 Dưới đây là một số hệ điều hành thay thế, có thể được sử dụng trên bộ định tuyến, điểm truy cập Wi-Fi, v.v.

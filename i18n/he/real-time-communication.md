@@ -1,8 +1,9 @@
 ---
-meta_title: "The Best Private Instant Messengers - Privacy Guides"
+meta_title: "ההודעות המיידיות הפרטיות הטובות ביותר - Privacy Guides"
 title: "תקשורת בזמן אמת"
 icon: material/chat-processing
 description: מסנג'רים אחרים הופכים את כל השיחות הפרטיות שלך לזמינות לחברה שמנהלת אותן.
+cover: real-time-communication.png
 ---
 
 אלו ההמלצות שלנו לתקשורת מוצפנת בזמן אמת.

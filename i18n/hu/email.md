@@ -3,6 +3,7 @@ meta_title: "Encrypted Private Email Recommendations - Privacy Guides"
 title: "Email szolgáltatások"
 icon: material/email
 description: Ezek az e-mail szolgáltatók nagyszerű helyet kínálnak az e-mailek biztonságos tárolására, és sokan kínálnak más szolgáltatókkal együttműködő OpenPGP titkosítást.
+cover: email.png
 ---
 
 Email is practically a necessity for using any online service, however we do not recommend it for person-to-person conversations. Rather than using email to contact other people, consider using an instant messaging medium that supports forward secrecy.

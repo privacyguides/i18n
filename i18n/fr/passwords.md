@@ -3,6 +3,7 @@ meta_title: "Les meilleurs gestionnaires de mots de passe pour protéger votre v
 title: "Gestionnaires de mots de passe"
 icon: material/form-textbox-password
 description: Les gestionnaires de mots de passe vous permettent de stocker et de gérer en toute sécurité des mots de passe et autres informations d'identification.
+cover: passwords.png
 schema:
   - 
     "@context": http://schema.org

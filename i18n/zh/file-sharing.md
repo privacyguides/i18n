@@ -2,6 +2,7 @@
 title: "加密软件"
 icon: material/share-variant
 description: Discover how to privately share your files between your devices, with your friends and family, or anonymously online.
+cover: file-sharing.png
 ---
 
 Discover how to privately share your files between your devices, with your friends and family, or anonymously online.

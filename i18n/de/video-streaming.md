@@ -2,6 +2,7 @@
 title: "Video Streaming"
 icon: material/video-wireless
 description: These networks allow you to stream internet content without building an advertising profile based on your interests.
+cover: video-streaming.png
 ---
 
 Die primäre Bedrohung bei der Nutzung einer Videostreaming-Plattform besteht darin, dass deine Streaming-Gewohnheiten und Abonnementlisten dazu verwendet werden könnten, um ein Profil von dir zu erstellen. Du solltest diese Tools zusammen mit einem [VPN](vpn.md) oder [Tor](https://www.torproject.org/) verwenden, damit nicht so leicht ein Nutzungsprofil von dir erstellt werden kann.

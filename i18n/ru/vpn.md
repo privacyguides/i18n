@@ -1,11 +1,12 @@
 ---
-meta_title: "Private VPN Service Recommendations and Comparison, No Sponsors or Ads - Privacy Guides"
+meta_title: "Рекомендации и сравнение приватных VPN-сервисов, без спонсоров и рекламы - Privacy Guides"
 title: "VPN сервисы"
 icon: material/vpn
 description: Это лучшие VPN-сервисы для защиты вашей конфиденциальности и безопасности в Интернете. Найдите провайдера, который не будет шпионить за вами.
+cover: vpn.png
 ---
 
-If you're looking for additional **privacy** from your ISP, on a public Wi-Fi network, or while torrenting files, a VPN may be the solution for you as long as you understand the risks involved. We think these providers are a cut above the rest:
+Если вам нужна дополнительная **приватность** от своего провайдера, при подключении к публичным сетям Wi-Fi или во время скачивания торрентов, VPN может быть правильным решением для вас, если вы понимаете связанные с этим риски. Мы считаем, что эти VPN-провайдеры на голову выше остальных:
 
 <div class="grid cards" markdown>
 
@@ -23,13 +24,13 @@ If you're looking for additional **privacy** from your ISP, on a public Wi-Fi ne
     
     Если вам нужна дополнительная **безопасность**, убедитесь, что вы подключаетесь к веб-сайтам, используя [HTTPS](https://en.wikipedia.org/wiki/HTTPS). VPN не является заменой полезных привычек для обеспечения безопасности.
     
-    [Download Tor](https://www.torproject.org/){ .md-button .md-button--primary } [Tor Myths & FAQ](advanced/tor-overview.md){ .md-button }
+    [Установить Tor](https://www.torproject.org/){ .md-button .md-button--primary } [Мифы Tor & FAQ](advanced/tor-overview.md){ .md-button }
 
-[Detailed VPN Overview :material-arrow-right-drop-circle:](basics/vpn-overview.md ""){.md-button}
+[Подробный обзор VPN :material-arrow-right-drop-circle:](basics/vpn-overview.md ""){.md-button}
 
 ## Рекомендованные провайдеры
 
-Рекомендуемые нами провайдеры находятся за пределами США, используют шифрование, принимают Monero, поддерживают WireGuard и OpenVPN и не сохраняют логи вашего трафика. Read our [full list of criteria](#criteria) for more information.
+Рекомендуемые нами провайдеры находятся за пределами США, используют шифрование, принимают Monero, поддерживают WireGuard и OpenVPN и не сохраняют логи вашего трафика. Для получения дополнительной информации, ознакомьтесь с [полным списком критериев](#criteria).
 
 ### IVPN
 
@@ -47,12 +48,12 @@ If you're looking for additional **privacy** from your ISP, on a public Wi-Fi ne
         - [:simple-apple: macOS](https://www.ivpn.net/apps-macos/)
         - [:simple-linux: Linux](https://www.ivpn.net/apps-linux/)
 
-#### :material-check:{ .pg-green } 35 Countries
+#### :material-check:{ .pg-green } 35 стран
 
-IVPN has [servers in 35 countries](https://www.ivpn.net/server-locations).(1) Picking a VPN provider with a server nearest to you will reduce latency of the network traffic you send. Это происходит из-за более короткого маршрута (меньше промежуточных серверов) до пункта назначения.
+У IVPN [серверы в 35 странах](https://www.ivpn.net/server-locations).(1) Выбор VPN с ближайшим к вам сервером позволит снизить задержку передаваемого вами трафика. Это происходит из-за более короткого маршрута (меньше промежуточных серверов) до пункта назначения.
 { .annotate }
 
-1. Last checked: 2022-09-16
+1. Последняя проверка: 2022-09-16
 
 We also think it's better for the security of the VPN provider's private keys if they use [dedicated servers](https://en.wikipedia.org/wiki/Dedicated_hosting_service), instead of cheaper shared solutions (with other customers) such as [virtual private servers](https://en.wikipedia.org/wiki/Virtual_private_server).
 
@@ -182,7 +183,7 @@ Mullvad is very transparent about which nodes they [own or rent](https://mullvad
 Proton VPN has [servers in 67 countries](https://protonvpn.com/vpn-servers).(1) Picking a VPN provider with a server nearest to you will reduce latency of the network traffic you send. Это происходит из-за более короткого маршрута (меньше промежуточных серверов) до пункта назначения.
 { .annotate }
 
-1. Last checked: 2022-09-16
+1. Последняя проверка: 2022-09-16
 
 We also think it's better for the security of the VPN provider's private keys if they use [dedicated servers](https://en.wikipedia.org/wiki/Dedicated_hosting_service), instead of cheaper shared solutions (with other customers) such as [virtual private servers](https://en.wikipedia.org/wiki/Virtual_private_server).
 

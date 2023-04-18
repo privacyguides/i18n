@@ -2,6 +2,7 @@
 title: "前端"
 icon: material/flip-to-front
 description: 這些用在各式網際網路服務的開源前端，可讓您訪問內容而無需 JavaScript 或其他干援。
+cover: frontends.png
 ---
 
 有時，某些服務會以煩人的彈出窗口來封鎖訪問內容，強迫訪客須註冊帳戶。 如果不啓用JavaScript ，也可能會中斷。 這些前端可以讓您避開這些限制。

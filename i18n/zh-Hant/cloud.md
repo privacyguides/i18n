@@ -3,6 +3,7 @@ meta_title: "最佳私有和安全的雲端儲存服務提供商 - Privacy Guide
 title: "雲端儲存"
 icon: material/file-cloud
 description: 許多雲端儲存服務供應商需要您相信他們不會查看您的檔案。 這些都是私密替代品！
+cover: cloud.png
 ---
 
 許多雲端儲存服務供應商需要您完全信任他們不會查看您的檔案。 下面列出的替代方案通過實施安全的 E2EE，消除了對信任的需要。

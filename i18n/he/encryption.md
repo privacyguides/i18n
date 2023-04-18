@@ -1,8 +1,9 @@
 ---
-meta_title: "Recommended Encryption Software: VeraCrypt, Cryptomator, PicoCrypt, and OpenPGP - Privacy Guides"
+meta_title: "תוכנות הצפנה מומלצות: VeraCrypt, Cryptomator, PicoCrypt ו-OpenPGP - מדריכי פרטיות"
 title: "תוכנת הצפנה"
 icon: material/file-lock
 description: הצפנה של נתונים היא הדרך היחידה לשלוט מי יכול לגשת אליו. כלים אלה מאפשרים לך להצפין את המיילים שלך וכל קובץ אחר.
+cover: encryption.png
 ---
 
 הצפנה של נתונים היא הדרך היחידה לשלוט מי יכול לגשת אליו. אם אינך משתמש כעת בתוכנת הצפנה עבור הדיסק הקשיח, הודעות הדוא"ל או הקבצים שלך, עליך לבחור אפשרות כאן.

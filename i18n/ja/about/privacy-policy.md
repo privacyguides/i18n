@@ -1,19 +1,19 @@
 ---
-title: "Privacy Policy"
+title: "プライバシーポリシー"
 ---
 
 Privacy Guides is a community project operated by a number of active volunteer contributors. The public list of team members [can be found on GitHub](https://github.com/orgs/privacyguides/people).
 
-## Data We Collect From Visitors
+## 私たちが閲覧者から収集するデータ
 
-The privacy of our website visitors is important to us, so we do not track any individual people. As a visitor to our website:
+私たちは、ウェブサイト閲覧者のプライバシーを重視しているため、各個人を追跡することはありません。 As a visitor to our website:
 
-- No personal information is collected
-- No information such as cookies are stored in the browser
-- No information is shared with, sent to or sold to third-parties
-- No information is shared with advertising companies
+- 個人情報を収集しません
+- Cookieなどの情報をブラウザに保存しません
+- 第三者に情報を共有・送信・販売しません
+- 広告会社に情報を共有しません
 - No information is mined and harvested for personal and behavioral trends
-- No information is monetized
+- 情報を収益化しません
 
 You can view the data we collect on our [statistics](statistics.md) page.
 
@@ -40,7 +40,7 @@ On some websites and services you may provide additional information for your ac
 
 We will store your account data as long as your account remains open. After closing an account, we may retain some or all of your account data in the form of backups or archives for up to 90 days.
 
-## Contacting Us
+## 連絡先
 
 The Privacy Guides team generally does not have access to personal data outside of limited access granted via some moderation panels. Inquiries regarding your personal information should be sent directly to:
 
@@ -54,7 +54,7 @@ For all other inquiries, you can contact any member of our team.
 
 For complaints under GDPR more generally, you may lodge complaints with your local data protection supervisory authorities. In France it's the Commission Nationale de l'Informatique et des Libertés which take care and handle the complaints. They provide a [template of complaint letter](https://www.cnil.fr/en/plaintes) to use.
 
-## About This Policy
+## このポリシーについて
 
 We will post any new versions of this statement [here](privacy-policy.md). We may change how we announce changes in future versions of this document. In the meantime we may update our contact information at any time without announcing a change. Please refer to the [Privacy Policy](privacy-policy.md) for the latest contact information at any time.
 

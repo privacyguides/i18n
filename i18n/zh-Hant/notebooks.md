@@ -2,6 +2,7 @@
 title: "記事本"
 icon: material/notebook-edit-outline
 description: 這些加密的筆記錄應用程式可讓您跟進記錄，而無需將它們提供給第三方。
+cover: notebooks.png
 ---
 
 保存記錄您的筆記和日誌，不要將它們提供給第三方。

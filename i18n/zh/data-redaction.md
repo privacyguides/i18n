@@ -3,6 +3,7 @@ meta_title: "Remove PII with Metadata Scrubbers and Data Redaction Tools - Priva
 title: "日历/联系人同步"
 icon: material/tag-remove
 description: Use these tools to remove metadata like GPS location and other identifying information from photos and files you share.
+cover: data-redaction.png
 ---
 
 共享文件时，请务必删除关联的元数据。 图像文件通常包括 [Exif](https://en.wikipedia.org/wiki/Exif) 数据。 照片有时甚至包括文件元数据中的GPS坐标。

@@ -1,8 +1,9 @@
 ---
-meta_title: "Privacy Respecting Web Browsers for PC and Mac - Privacy Guides"
+meta_title: "プライバシーを尊重したPCとMac向けウェブブラウザ - Privacy Guides"
 title: "デスクトップブラウザ"
 icon: material/laptop
 description: これらのウェブブラウザは、Google Chromeよりも強力なプライバシー保護を提供します。
+cover: desktop-browsers.png
 schema:
   - 
     "@context": http://schema.org
@@ -81,7 +82,7 @@ If you need to browse the internet anonymously, you should use [Tor](tor.md) ins
 
 Like [Tor Browser](tor.md), Mullvad Browser is designed to prevent fingerprinting by making your browser fingerprint identical to all other Mullvad Browser users, and it includes default settings and extensions that are automatically configured by the default security levels: *Standard*, *Safer* and *Safest*. Therefore, it is imperative that you do not modify the browser at all outside adjusting the default [security levels](https://tb-manual.torproject.org/security-settings/). Other modifications would make your fingerprint unique, defeating the purpose of using this browser. If you want to configure your browser more heavily and fingerprinting is not a concern for you, we recommend [Firefox](#firefox) instead.
 
-### Anti-Fingerprinting
+### フィンガープリント対策
 
 **Without** using a [VPN](vpn.md), Mullvad Browser provides the same protections against [naive fingerprinting scripts](https://github.com/arkenfox/user.js/wiki/3.3-Overrides-%5BTo-RFP-or-Not%5D#-fingerprinting) as other private browsers like Firefox+[Arkenfox](#arkenfox-advanced) or [Brave](#brave). Mullvad Browser provides these protections out of the box, at the expense of some flexibility and convenience that other private browsers can provide.
 
@@ -129,19 +130,19 @@ Mullvad Browser comes with DuckDuckGo set as the default [search engine](search-
 
 These options can be found in :material-menu: → **Settings**
 
-#### Search
+#### 検索
 
-- [ ] Uncheck **Provide search suggestions**
+- [ ] **検索候補を使用する**のチェックを外す
 
 Search suggestion features may not be available in your region.
 
 Search suggestions send everything you type in the address bar to the default search engine, regardless of whether you submit an actual search. Disabling search suggestions allows you to more precisely control what data you send to your search engine provider.
 
-#### Privacy & Security
+#### プライバシーとセキュリティ
 
-##### Enhanced Tracking Protection
+##### 強化型トラッキング防止機能
 
-- [x] Select **Strict** Enhanced Tracking Protection
+- [x] 強化型トラッキング防止機能で**厳格**を選択する
 
 This protects you by blocking social media trackers, fingerprinting scripts (note that this does not protect you from *all* fingerprinting), cryptominers, cross-site tracking cookies, and some other tracking content. ETP protects against many common threats, but it does not block all tracking avenues because it is designed to have minimal to no impact on site usability.
 
@@ -156,14 +157,14 @@ This protects you by blocking social media trackers, fingerprinting scripts (not
 
 If you want to stay logged in to particular sites, you can allow exceptions in **Cookies and Site Data** → **Manage Exceptions...**
 
-- [x] Check **Delete cookies and site data when Firefox is closed**
+- [x] **Firefox を閉じたときに Cookie とサイトデータを削除する**にチェックをつける
 
 This protects you from persistent cookies, but does not protect you against cookies acquired during any one browsing session. When this is enabled, it becomes possible to easily cleanse your browser cookies by simply restarting Firefox. You can set exceptions on a per-site basis, if you wish to stay logged in to a particular site you visit often.
 
 ##### Telemetry
 
-- [ ] Uncheck **Allow Firefox to send technical and interaction data to Mozilla**
-- [ ] Uncheck **Allow Firefox to install and run studies**
+- [ ] **Firefox が技術的な対話データを Mozilla へ送信することを許可する**のチェックを外す
+- [ ] **Firefox に調査のインストールと実行を許可する**のチェックを外す
 - [ ] Uncheck **Allow Firefox to send backlogged crash reports on your behalf**
 
 > Firefox sends data about your Firefox version and language; device operating system and hardware configuration; memory, basic information about crashes and errors; outcome of automated processes like updates, safebrowsing, and activation to us. When Firefox sends data to us, your IP address is temporarily collected as part of our server logs.
@@ -173,13 +174,13 @@ Additionally, the Firefox Accounts service collects [some technical data](https:
 1. Open your [profile settings on accounts.firefox.com](https://accounts.firefox.com/settings#data-collection)
 2. Uncheck **Data Collection and Use** > **Help improve Firefox Accounts**
 
-##### HTTPS-Only Mode
+##### HTTPS-Only モード
 
-- [x] Select **Enable HTTPS-Only Mode in all windows**
+- [x] **すべてのウィンドウで HTTPS-Only モードを有効にする**を選択する
 
 This prevents you from unintentionally connecting to a website in plain-text HTTP. Sites without HTTPS are uncommon nowadays, so this should have little to no impact on your day to day browsing.
 
-#### Sync
+#### 同期
 
 [Firefox Sync](https://hacks.mozilla.org/2018/11/firefox-sync-privacy/) allows your browsing data (history, bookmarks, etc.) to be accessible on all your devices and protects it with E2EE.
 
@@ -296,7 +297,7 @@ Brave's Web3 features can potentially add to your browser fingerprint and attack
 
 1. This option is not present on all platforms.
 
-#### Sync
+#### 同期
 
 [Brave Sync](https://support.brave.com/hc/en-us/articles/360059793111-Understanding-Brave-Sync) allows your browsing data (history, bookmarks, etc.) to be accessible on all your devices without requiring an account and protects it with E2EE.
 
@@ -306,7 +307,7 @@ Brave's Web3 features can potentially add to your browser fingerprint and attack
 
 **Brave Wallet** operates locally on your computer, but does not support any private cryptocurrencies, so we would discourage using this feature as well.
 
-## Additional Resources
+## 追加のリソース
 
 In general, we recommend keeping your browser extensions to a minimum to decrease your attack surface; they have privileged access within your browser, require you to trust the developer, can make you [stand out](https://en.wikipedia.org/wiki/Device_fingerprint#Browser_fingerprint), and [weaken](https://groups.google.com/a/chromium.org/g/chromium-extensions/c/0ei-UCHNm34/m/lDaXwQhzBAAJ) site isolation. However, uBlock Origin may prove useful if you value content blocking functionality.
 
@@ -314,9 +315,9 @@ In general, we recommend keeping your browser extensions to a minimum to decreas
 
 !!! recommendation
 
-    ![uBlock Origin logo](assets/img/browsers/ublock_origin.svg){ align=right }
+    ![uBlock Originのロゴ](assets/img/browsers/ublock_origin.svg){ align=right }
     
-    **uBlock Origin** is a popular content blocker that could help you block ads, trackers, and fingerprinting scripts.
+    **uBlock Origin**は、広告、トラッカー、フィンガープリントスクリプトのブロックに役立つ人気のコンテンツブロッカーです。
     
     [:octicons-repo-16: Repository](https://github.com/gorhill/uBlock#readme){ .md-button .md-button--primary }
     [:octicons-eye-16:](https://github.com/gorhill/uBlock/wiki/Privacy-policy){ .card-link title="Privacy Policy" }
@@ -338,7 +339,7 @@ These are some other [filter lists](https://github.com/gorhill/uBlock/wiki/Dashb
 - [x] Check **Privacy** > **AdGuard URL Tracking Protection**
 - Add [Actually Legitimate URL Shortener Tool](https://raw.githubusercontent.com/DandelionSprout/adfilt/master/LegitimateURLShortener.txt)
 
-## Criteria
+## 基準
 
 **Please note we are not affiliated with any of the projects we recommend.** In addition to [our standard criteria](about/criteria.md), we have developed a clear set of requirements to allow us to provide objective recommendations. We suggest you familiarize yourself with this list before choosing to use a project, and conduct your own research to ensure it's the right choice for you.
 

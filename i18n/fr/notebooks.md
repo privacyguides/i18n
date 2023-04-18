@@ -2,6 +2,7 @@
 title: "Bloc-notes"
 icon: material/notebook-edit-outline
 description: Ces applications de prise de notes chiffrées vous permettent de garder une trace de vos notes sans les transmettre à un tiers.
+cover: notebooks.png
 ---
 
 Gardez une trace de vos notes et de vos journaux sans les donner à un tiers.

@@ -3,6 +3,7 @@ meta_title: "The Best Private and Secure Cloud Storage Providers - Privacy Guide
 title: "Molnlagring"
 icon: material/file-cloud
 description: Many cloud storage providers require your trust that they will not look at your files. These are private alternatives!
+cover: cloud.png
 ---
 
 Många molnlagringsleverantörer kräver ditt fulla förtroende för att de inte kommer att titta på dina filer. The alternatives listed below eliminate the need for trust by implementing secure E2EE.

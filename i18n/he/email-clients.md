@@ -2,6 +2,7 @@
 title: "לקוחות אימייל"
 icon: material/email-open
 description: לקוחות אימייל אלה מכבדים פרטיות ותומכים בהצפנת אימייל OpenPGP.
+cover: email-clients.png
 ---
 
 רשימת ההמלצות שלנו מכילה לקוחות אימייל התומכים הן ב[OpenPGP](encryption.md#openpgp) והן באימות חזק כגון [הרשאת פתוחה ](https://en.wikipedia.org/wiki/OAuth)(OAuth). OAuth מאפשר לך להשתמש ב - [אימות רב - גורמי](basics/multi-factor-authentication.md) ולמנוע גניבת חשבון.

@@ -2,6 +2,7 @@
 title: "Lectores de noticias"
 icon: material/rss
 description: Estos clientes para la lectura de noticias le permiten estar al día con sus páginas de noticias favoritas, utilizando estándares de Internet como RSS.
+cover: news-aggregators.png
 ---
 
 Un [lector de noticias](https://en.wikipedia.org/wiki/News_aggregator) es una manera de estar al día con sus páginas de noticias favoritas.

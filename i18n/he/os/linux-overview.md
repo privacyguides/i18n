@@ -115,7 +115,7 @@ description: לינוקס היא חלופה למערכת הפעלה שולחני
 
 ### כתובת MAC אקראית
 
-Many desktop Linux distributions (Fedora, openSUSE, etc.) will come with [NetworkManager](https://en.wikipedia.org/wiki/NetworkManager), to configure Ethernet and Wi-Fi settings.
+הפצות רבות של לינוקס לשולחן העבודה (Fedora, openSUSE וכו') יגיעו עם [NetworkManager](https://en.wikipedia.org/wiki/NetworkManager), כדי להגדיר הגדרות Ethernet ו-Wi-Fi.
 
 אפשר [לבצע באקראי](https://fedoramagazine.org/randomize-mac-address-nm/) את [כתובת MAC](https://en.wikipedia.org/wiki/MAC_address) בעת שימוש ב-NetworkManager. זה מספק קצת יותר פרטיות ברשתות Wi-Fi מכיוון שהוא מקשה על מעקב אחר מכשירים ספציפיים ברשת שאליה אתה מחובר. זה [**לא**](https://papers.mathyvanhoef.com/wisec2016.pdf) הופך אותך לאנונימי.
 

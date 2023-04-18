@@ -7,7 +7,7 @@ title: תמיכה בנו
 
 אם אתה רוצה לתמוך בנו כלכלית, השיטה הנוחה ביותר עבורנו היא תרומה באמצעות Open Collective, אתר אינטרנט המופעל על ידי המארח הפיסקאלי שלנו. Open Collective מקבל תשלומים באמצעות כרטיס אשראי/חיוב, PayPal והעברות בנקאיות.
 
-[Donate on OpenCollective.com](https://opencollective.com/privacyguides/donate){ class="md-button md-button--primary" }
+[תרום ב- OpenCollective.com](https://opencollective.com/privacyguides/donate){ class="md-button md-button--primary" }
 
 תרומות שנעשו ישירות אלינו ב-Open Collective ניתנות לניכוי מס בדרך כלל בארה"ב, מכיוון שהמארח הפיסקאלי שלנו (The Open Collective Foundation) הוא ארגון רשום 501(c)3. לאחר התרומה תקבלו קבלה מקרן הקולקטיב הפתוח. Privacy Guides אינם מספקים ייעוץ פיננסי, ועליכם ליצור קשר עם יועץ המס שלכם כדי לברר אם זה חל עליכם.
 

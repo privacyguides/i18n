@@ -3,6 +3,7 @@ meta_title: "The Best Private and Secure Cloud Storage Providers - Privacy Guide
 title: "Cloud opslag"
 icon: material/file-cloud
 description: Veel aanbieders van cloud-opslag eisen jouw volledige vertrouwen dat zij niet in jouw bestanden zullen kijken. Dit zijn de privé alternatieven!
+cover: cloud.png
 ---
 
 Veel aanbieders van cloud-opslag eisen jouw volledige vertrouwen dat zij niet in jouw bestanden zullen kijken. De onderstaande alternatieven elimineren de noodzaak van vertrouwen door veilige E2EE te implementeren.

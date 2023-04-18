@@ -2,6 +2,7 @@
 title: "Strumenti per la produttività"
 icon: material/file-sign
 description: La maggior parte delle suite per ufficio online non supportano la crittografia end-to-end, il che significa che il provider del cloud ha accesso a tutto ciò che fai.
+cover: productivity.png
 ---
 
 La maggior parte delle suite per ufficio online non supportano la crittografia end-to-end, il che significa che il provider del cloud ha accesso a tutto ciò che fai. L'informativa sulla privacy potrebbe proteggere legalmente i tuoi diritti, ma non fornisce vincoli tecnici di accesso.

@@ -2,6 +2,7 @@
 title: "Firmware Router"
 icon: material/router-wireless
 description: Questi sistemi operativi alternativi possono essere utilizzati per proteggere il router o l'access point del Wi-Fi.
+cover: router.png
 ---
 
 Di seguito sono elencati alcuni sistemi operativi alternativi che possono essere usati su router, access point Wi-Fi, ecc.

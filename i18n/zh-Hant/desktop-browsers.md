@@ -1,13 +1,14 @@
 ---
-meta_title: "Privacy Respecting Web Browsers for PC and Mac - Privacy Guides"
-title: "Desktop Browsers"
+meta_title: "PC 和 Mac上隱私權尊重網頁瀏覽器的 - Privacy Guides"
+title: "桌面瀏覽器"
 icon: material/laptop
-description: These web browsers provide stronger privacy protections than Google Chrome.
+description: 這些網頁瀏覽器提供比 Google Chrome 更強大的隱私保護。
+cover: desktop-browsers.png
 schema:
   - 
     "@context": http://schema.org
     "@type": WebPage
-    name: Private Desktop Browser Recommendations
+    name: 私人桌面瀏覽器建議
     url: "./"
     relatedLink: "../mobile-browsers/"
   - 
@@ -56,58 +57,58 @@ schema:
       url: "./"
 ---
 
-These are our currently recommended desktop web browsers and configurations for standard/non-anonymous browsing. We recommend [Mullvad Browser](#mullvad-browser) if you are focused on strong privacy protections and anti-fingerprinting out of the box, [Firefox](#firefox) for casual internet browsers looking for a good alternative to Google Chrome, and [Brave](#brave) if you need Chromium browser compatibility.
+這些是我們目前推薦的桌面網頁瀏覽器和標準/非匿名瀏覽的配置。 如果在意強大的隱私保護和優異的防止辨識指紋，建議使用 [Mullvad 瀏覽器](#mullvad-browser) ， [Firefox](#firefox) 適合作替代 Google Chrome 的休閒網際網路瀏覽器，而 [Brave](#brave)則適合需要Chromium 瀏覽器兼容性。
 
-如果你需要匿名瀏覽網際網路，你應該使用 [Tor](tor.md) 代替。 We make some configuration recommendations on this page, but all browsers other than Tor Browser will be traceable by *somebody* in some manner or another.
+如果你需要匿名瀏覽網際網路，你應該使用 [Tor](tor.md) 代替。 我們在這裏提出一些設定建議，除 Tor 瀏覽器之外所有瀏覽器都會被 *某人* 以某種方式追蹤。
 
 ## Mullvad Browser
 
 !!! recommendation
 
-    ![Mullvad Browser logo](assets/img/browsers/mullvad_browser.svg){ align=right }
+    ! [Mullvad Browser logo] (assets/img/browsers/mullvad_browser.svg) {align = right}
     
-    **Mullvad Browser** is a version of [Tor Browser](tor.md#tor-browser) with Tor network integrations removed, aimed at providing Tor Browser's anti-fingerprinting browser technologies to VPN users. It is developed by the Tor Project and distributed by [Mullvad](vpn.md#mullvad), and does **not** require the use of Mullvad's VPN.
+    * * Mullvad 瀏覽器* *是移除 Tor 網路整合的[Tor 瀏覽器] (tor.md#tor-browser)版本，旨在為 VPN 用戶提供Tor 瀏覽器的反指紋辨識瀏覽器技術。 它由 Tor Porject 開發並由 [Mullvad](vpn.md#mullvad)發佈，且不需要使用 Mullvad 的 VPN。
     
     [:octicons-home-16: Homepage](https://mullvad.net/en/browser){ .md-button .md-button--primary }
     [:octicons-eye-16:](https://mullvad.net/en/help/privacy-policy/){ .card-link title="Privacy Policy" }
     [:octicons-info-16:](https://mullvad.net/en/help/tag/mullvad-browser/){ .card-link title=Documentation}
     [:octicons-code-16:](https://gitlab.torproject.org/tpo/applications/mullvad-browser){ .card-link title="Source Code" }
     
-    ??? downloads
+    ??? 下載
     
         - [:simple-windows11: Windows](https://mullvad.net/en/download/browser/windows)
         - [:simple-apple: macOS](https://mullvad.net/en/download/browser/macos)
         - [:simple-linux: Linux](https://mullvad.net/en/download/browser/linux)
 
-Like [Tor Browser](tor.md), Mullvad Browser is designed to prevent fingerprinting by making your browser fingerprint identical to all other Mullvad Browser users, and it includes default settings and extensions that are automatically configured by the default security levels: *Standard*, *Safer* and *Safest*. Therefore, it is imperative that you do not modify the browser at all outside adjusting the default [security levels](https://tb-manual.torproject.org/security-settings/). Other modifications would make your fingerprint unique, defeating the purpose of using this browser. If you want to configure your browser more heavily and fingerprinting is not a concern for you, we recommend [Firefox](#firefox) instead.
+與 [Tor 瀏覽器](tor.md)一樣， Mullvad 瀏覽器旨在把 Mullvad 瀏覽器用戶的識別指紋弄得一樣，來防止指紋識別，它還包含預設安全級別自動配置的設置和擴展： *標準*， *更安全* 和 *最安全*。 因此，除了調整預設的 [安全等級](https://tb-manual.torproject.org/security-settings/)之外，您絕對不要修改瀏覽器。 其他修改將使您的指紋獨一無二，破壞使用此瀏覽器的目的。 如果您想重度配置瀏覽器，並且指紋不是問題，則建議使用 [Firefox](#firefox) 。
 
-### Anti-Fingerprinting
+### 防指印辨識
 
-**Without** using a [VPN](vpn.md), Mullvad Browser provides the same protections against [naive fingerprinting scripts](https://github.com/arkenfox/user.js/wiki/3.3-Overrides-%5BTo-RFP-or-Not%5D#-fingerprinting) as other private browsers like Firefox+[Arkenfox](#arkenfox-advanced) or [Brave](#brave). Mullvad Browser provides these protections out of the box, at the expense of some flexibility and convenience that other private browsers can provide.
+**沒有** 使用 [VPN](vpn.md)， Mullvad 瀏覽器提供與其他私人瀏覽器（如Firefox +[Arkenfox](#arkenfox-advanced) 或 [Brave](#brave)）相同的保護，防止 [原生的指紋腳本](https://github.com/arkenfox/user.js/wiki/3.3-Overrides-%5BTo-RFP-or-Not%5D#-fingerprinting) 。 Mullvad Browser 優異地提供這些保護，代價是沒有其它瀏覽器所具備的靈活性和便利。
 
-==For the strongest anti-fingerprinting protection, we recommend using Mullvad Browser in conjunction **with** a VPN==, whether that is Mullvad or another recommended VPN provider. When using a VPN with Mullvad Browser, you will share a fingerprint and a pool of IP addresses with many other users, giving you a "crowd" to blend in with. This strategy is the only way to thwart advanced tracking scripts, and is the same anti-fingerprinting technique used by Tor Browser.
+==需要最強的防指紋辨識保護，建議使用 Mullvad 瀏覽器**搭配**  VPN==無論是 Mullvad VPN 或其它推薦的 VPN 提供商。 Mullvad 瀏覽器使用 VPN 時，您將與許多其他用戶共享指紋和 IP地址池，以讓您混在其中的“人羣”。 這種策略是阻止進階追蹤腳本的唯一方法，也是Tor Browser使用的相同反指紋技術。
 
-Note that while you can use Mullvad Browser with any VPN provider, other people on that VPN must also be using Mullvad Browser for this "crowd" to exist, something which is more likely on Mullvad VPN compared to other providers, particularly this close to the launch of Mullvad Browser. Mullvad Browser does not have built-in VPN connectivity, nor does it check whether you are using a VPN before browsing; your VPN connection has to be configured and managed separately.
+請注意，雖然可以將 Mullvad 瀏覽器與任何 VPN 一起使用，但該 VPN 的其他人也必須使用 Mullvad瀏覽器 "人群"才會存在。比起其他提供商， Mullvad VPN 更可能存在相同的人群，特別是Mullvad 瀏覽器的推出。 Mullvad 瀏覽器沒有內建VPN 連接，也不會在瀏覽之前檢查是否使用 VPN，必須單獨配置和管理VPN 連接。
 
-Mullvad Browser comes with the *uBlock Origin* and *NoScript* browser extensions pre-installed. While we typically [don't recommend](#extensions) adding *additional* browser extensions, these extensions that come pre-installed with the browser should **not** be removed or configured outside their default values, because doing so would noticeably make your browser fingerprint distinct from other Mullvad Browser users. It also comes pre-installed with the Mullvad Browser Extension, which *can* be safely removed without impacting your browser fingerprint if you would like, but is also safe to keep even if you don't use Mullvad VPN.
+Mullvad 瀏覽器附帶預先安裝的 *uBlock Origin* 和 *NoScript* 擴充功能。 我們尤其[不建議](#extensions) 增 *額外的/em> 瀏覽器擴充套件，有些擴充在瀏覽器安裝之前已存在**無法**移除或改變預設值，因為一旦隨意更動就會突顯出您的 Mullvad 瀏覽器與其它Mullvad 瀏覽器的差異。 它還預先安裝了 Mullvad 瀏覽器擴展套件，但也可將之*安全地移除 * ，並不會影響瀏覽器指紋，但即使不使用Mullvad VPN ，也可以安全地保留。</p>
 
-### Private Browsing Mode
+### 隱私瀏覽模式
 
-Mullvad Browser operates in permanent private browsing mode, meaning your history, cookies, and other site data will always be cleared every time the browser is closed. Your bookmarks, browser settings, and extension settings will still be preserved.
+Mullvad 瀏覽器永久以隱私瀏覽模式運行，這意味著歷史記錄、Cookie 和其他網站資料在每次關閉瀏覽器時都會被清除。 但書籤、瀏覽器設定和擴充功能設定仍會保留。
 
-This is required to prevent advanced forms of tracking, but does come at the cost of convenience and some Firefox features, such as Multi-Account Containers. Remember you can always use multiple browsers, for example, you could consider using Firefox+Arkenfox for a few sites that you want to stay logged in on or otherwise don't work properly in Mullvad Browser, and Mullvad Browser for general browsing.
+這是為了防止進階形式的跟蹤，但確實犧牲了方便和某些Firefox功能（例如多帳戶容器）為代價。 請記住，您可以隨時使用多個瀏覽器，例如，您可以考慮將Firefox + Arkenfox用於一些您希望保持登錄或在Mullvad瀏覽器中無法正常工作的網站，以及用於一般瀏覽的Mullvad瀏覽器。
 
 ### Mullvad Leta
 
-Mullvad Browser comes with DuckDuckGo set as the default [search engine](search-engines.md), but it also comes preinstalled with **Mullvad Leta**, a search engine which requires an active Mullvad VPN subscription to access. Mullvad Leta queries Google's paid search API directly (which is why it is limited to paying subscribers), however because of this limitation it is possible for Mullvad to correlate search queries and Mullvad VPN accounts. For this reason we discourage the use of Mullvad Leta, even though Mullvad collects very little information about their VPN subscribers.
+Mullvad Browser 將DuckDuckGo 設置為預設的 [搜索引擎](search-engines.md)，它也預先安裝了 **Mullvad Leta**，這是需要訂閱 Mullvad VPN 才能訪問的搜索引擎。 Mullvad Leta 直接查詢 Google的付費搜索API （這是為什麼僅限於付費用戶） ，但由於這種限制， Mullvad 可以將搜索查詢與 Mullvad VPN 帳戶作關聯。 因此，不鼓勵使用 Mullvad Leta ，即使 Mullvad 收集關於其VPN 用戶的資訊很少。
 
 ## Firefox
 
 !!! recommendation
 
-    ![Firefox logo](assets/img/browsers/firefox.svg){ align=right }
+    ! [Firefox標誌] (assets/img/browsers/firefox.svg) {align = right}
     
-    **Firefox** provides strong privacy settings such as [Enhanced Tracking Protection](https://support.mozilla.org/kb/enhanced-tracking-protection-firefox-desktop), which can help block various [types of tracking](https://support.mozilla.org/kb/enhanced-tracking-protection-firefox-desktop#w_what-enhanced-tracking-protection-blocks).
+    * * Firefox * *提供強大的隱私設定，例如[Enhanced Tracking Protection] (https://support.mozilla.org/kb/enhanced-tracking-protection-firefox-desktop) ，可以幫助阻止各種[類型的追蹤] (https://support.mozilla.org/kb/enhanced-tracking-protection-firefox-desktop#w_what-enhanced-tracking-protection-blocks)。
     
     [:octicons-home-16: Homepage](https://firefox.com){ .md-button .md-button--primary }
     [:octicons-eye-16:](https://www.mozilla.org/privacy/firefox/){ .card-link title="Privacy Policy" }
@@ -115,83 +116,83 @@ Mullvad Browser comes with DuckDuckGo set as the default [search engine](search-
     [:octicons-code-16:](https://hg.mozilla.org/mozilla-central){ .card-link title="Source Code" }
     [:octicons-heart-16:](https://donate.mozilla.org/){ .card-link title=Contribute }
     
-    ??? downloads
+    ??? 下載
     
         - [:simple-windows11: Windows](https://www.mozilla.org/firefox/windows)
         - [:simple-apple: macOS](https://www.mozilla.org/firefox/mac)
         - [:simple-linux: Linux](https://www.mozilla.org/firefox/linux)
         - [:simple-flathub: Flathub](https://flathub.org/apps/details/org.mozilla.firefox)
 
-!!! warning
-    Firefox includes a unique [download token](https://bugzilla.mozilla.org/show_bug.cgi?id=1677497#c0) in downloads from Mozilla's website and uses telemetry in Firefox to send the token. The token is **not** included in releases from the [Mozilla FTP](https://ftp.mozilla.org/pub/firefox/releases/).
+!!! 警告
+    Firefox 在 Mozilla 網站的下載中包含一個獨特的 [下載令牌](https://bugzilla.mozilla.org/show_bug.cgi?id=1677497#c0) ，並使用 Firefox 的遙測來發送令牌。 此令牌**not** 不包含在 [Mozilla FTP](https://ftp.mozilla.org/pub/firefox/releases/)版本。
 
 ### 建議配置
 
-These options can be found in :material-menu: → **Settings**
+這些選項可以在 :material-menu: → **設置**中找到
 
-#### Search
+#### 搜尋
 
-- [ ] Uncheck **Provide search suggestions**
+- [ ] 取消勾選**提供搜尋建議**
 
-Search suggestion features may not be available in your region.
+搜尋建議功能可能無法在您所在的地區使用。
 
-Search suggestions send everything you type in the address bar to the default search engine, regardless of whether you submit an actual search. Disabling search suggestions allows you to more precisely control what data you send to your search engine provider.
+搜尋建議會將您在地址列中輸入的所有內容傳送至預設搜尋引擎，無論您是否實際提交搜尋。 禁用搜尋建議可讓您更精確地控制您傳送給搜尋引擎供應商的資料。
 
-#### Privacy & Security
+#### 隱私 & 安全
 
-##### Enhanced Tracking Protection
+##### 增強的追蹤保護
 
-- [x] Select **Strict** Enhanced Tracking Protection
+- [x] Select **嚴格**加強型追蹤保護
 
-This protects you by blocking social media trackers, fingerprinting scripts (note that this does not protect you from *all* fingerprinting), cryptominers, cross-site tracking cookies, and some other tracking content. ETP protects against many common threats, but it does not block all tracking avenues because it is designed to have minimal to no impact on site usability.
+通過封鎖社交媒體跟蹤器、指紋腳本（請注意，這並不能防止 *所有* 指紋的侵害）、加密挖礦器、跨站點跟蹤cookie和其他跟蹤內容來保護您。 ETP 可以防止許多常見威脅，但它不能阻止所有跟蹤途徑，因為它的設計對網站的可用性影響很小甚至沒有影響。
 
-##### Firefox Suggest (US only)
+##### Firefox建議（僅限美國）
 
-[Firefox Suggest](https://support.mozilla.org/en-US/kb/firefox-suggest) is a feature similar to search suggestions which is only available in the US. We recommend disabling it for the same reason we recommend disabling search suggestions. If you don't see these options under the **Address Bar** header, you do not have the new experience and can ignore these changes.
+[Firefox  Suggest](https://support.mozilla.org/en-US/kb/firefox-suggest) 功能只限美國地區，其類似於搜尋建議。 我們建議停用此功能的原因與我們建議停用搜尋建議的原因相同。 如果您在 **地址欄** 標題下沒有看到這些選項，則表示您沒有新的體驗，可以忽略這些變更。
 
-- [ ] Uncheck **Suggestions from the web**
-- [ ] Uncheck **Suggestions from sponsors**
+- [ ] 取消勾選 **提供搜尋建議**
+- []取消勾選 **贊助商的建議**
 
-##### Sanitize on Close
+##### 關閉時消毒
 
-If you want to stay logged in to particular sites, you can allow exceptions in **Cookies and Site Data** → **Manage Exceptions...**
+如果您想在特定網站保持登錄狀態，可允許 **Cookies 和網站資料中的例外情況** → **管理例外情況...**
 
-- [x] Check **Delete cookies and site data when Firefox is closed**
+- [x] 勾選 **關閉 Firefox 時清除 Cookie 與網站資料**
 
-This protects you from persistent cookies, but does not protect you against cookies acquired during any one browsing session. When this is enabled, it becomes possible to easily cleanse your browser cookies by simply restarting Firefox. You can set exceptions on a per-site basis, if you wish to stay logged in to a particular site you visit often.
+這可以保護您免受持久性 Cookie 侵害，但不能保護您免受在任何一次瀏覽過程的 Cookie。 啟用此功能後，只需重新啟動 Firefox ，即可輕鬆清除您的瀏覽器 cookie。 您可以設定每個網站的例外情況，如果希望經常訪問的特定網站保持登錄。
 
 ##### 遙測
 
-- [ ] Uncheck **Allow Firefox to send technical and interaction data to Mozilla**
-- [ ] Uncheck **Allow Firefox to install and run studies**
-- [ ] Uncheck **Allow Firefox to send backlogged crash reports on your behalf**
+- [ ] 取消勾選 **允許 Firefox 傳送技術與互動資料給 Mozilla**
+- [ ] 取消勾選k **允許 Firefox 安裝並進行研究/strong></li>
+- [ ] 取消勾選 **允許 Firefox 以您的身分自動回報錯誤報告**</ul>
 
-> Firefox sends data about your Firefox version and language; device operating system and hardware configuration; memory, basic information about crashes and errors; outcome of automated processes like updates, safebrowsing, and activation to us. When Firefox sends data to us, your IP address is temporarily collected as part of our server logs.
+> Firefox 會傳送有關 Firefox 版本和語言的資料；裝置作業系統和硬體配置；記憶體、有關崩潰和錯誤的基本資訊；更新、安全瀏覽和啟動等自動化程序的結果。 當 Firefox 將資料傳送給我們時，您的IP位址會作為伺服器記錄的一部分暫時收集。
 
-Additionally, the Firefox Accounts service collects [some technical data](https://www.mozilla.org/en-US/privacy/firefox/#firefox-accounts). If you use a Firefox Account you can opt-out:
+此外， Firefox帳戶服務會收集 [一些技術資料](https://www.mozilla.org/en-US/privacy/firefox/#firefox-accounts)。 如果有使用 Firefox 帳戶，可選擇退出：
 
-1. Open your [profile settings on accounts.firefox.com](https://accounts.firefox.com/settings#data-collection)
-2. Uncheck **Data Collection and Use** > **Help improve Firefox Accounts**
+1. 在 accounts.firefox.com 開啟您的 [個人資料設定](https://accounts.firefox.com/settings#data-collection)
+2. 取消勾選 **資料收集和使用** > **協助改善Firefox帳戶**
 
-##### HTTPS-Only Mode
+##### 純 HTTPS 模式
 
-- [x] Select **Enable HTTPS-Only Mode in all windows**
+- [x] 選擇 **在所有視窗都開啟純 HTTPS 模式**
 
-This prevents you from unintentionally connecting to a website in plain-text HTTP. Sites without HTTPS are uncommon nowadays, so this should have little to no impact on your day to day browsing.
+這可以防止您無意中連接到純文字 HTTP 網站。 如今，沒有 HTTPS 的網站已很少見，因此這對日常瀏覽幾乎沒有影響。
 
-#### Sync
+#### 同步
 
-[Firefox Sync](https://hacks.mozilla.org/2018/11/firefox-sync-privacy/) allows your browsing data (history, bookmarks, etc.) to be accessible on all your devices and protects it with E2EE.
+[Firefox Sync](https://hacks.mozilla.org/2018/11/firefox-sync-privacy/) 可以在不同設備之間 E2EE 地傳輸同步瀏覽資料(訪問記錄與書籤等)。
 
-### Arkenfox (advanced)
+### Arkenfox （進階）
 
-!!! tip "Use Mullvad Browser for advanced anti-fingerprinting"
+!!! tip "使用Mullvad 瀏覽器進階防指紋辨識"
 
-    [Mullvad Browser](#mullvad-browser) provides the same anti-fingerprinting protections as Arkenfox out of the box, and does not require the use of Mullvad's VPN to benefit from these protections. Coupled with a VPN, Mullvad Browser can thwart more advanced tracking scripts which Arkenfox cannot. Arkenfox still has the advantage of being much more flexible, and allowing per-site exceptions for websites which you need to stay logged in to.
+    [Mullvad瀏覽器] (#mullvad-browser)提供與 Arkenfox 相同的防指紋保護，不需要使用 Mullvad VPN 就能獲得這些保護。 再加上VPN ， Mullvad 瀏覽器可以阻擋 Arkenfox 無法處理的更先進追蹤腳本。 Arkenfox 仍具有更靈活的優勢，可以對需要繼續登錄的網站設置例外。
 
-The [Arkenfox project](https://github.com/arkenfox/user.js) provides a set of carefully considered options for Firefox. If you [decide](https://github.com/arkenfox/user.js/wiki/1.1-To-Arkenfox-or-Not) to use Arkenfox, a [few options](https://github.com/arkenfox/user.js/wiki/3.2-Overrides-[Common]) are subjectively strict and/or may cause some websites to not work properly - [which you can easily change](https://github.com/arkenfox/user.js/wiki/3.1-Overrides) to suit your needs. We **strongly recommend** reading through their full [wiki](https://github.com/arkenfox/user.js/wiki). Arkenfox also enables [container](https://support.mozilla.org/en-US/kb/containers#w_for-advanced-users) support.
+[Arkenfox 專案](https://github.com/arkenfox/user.js) 為 Firefox  提供一套完整的考量選項。 如果您 [決定](https://github.com/arkenfox/user.js/wiki/1.1-To-Arkenfox-or-Not) 使用Arkenfox ，則 [有幾個選項](https://github.com/arkenfox/user.js/wiki/3.2-Overrides-[Common]) 在主觀上嚴格而且可能導致某些網站無法正常運作- [可以輕鬆更改](https://github.com/arkenfox/user.js/wiki/3.1-Overrides) 以滿足需求。  **強列建議**仔細看過他們完整的[維基頁wiki](https://github.com/arkenfox/user.js/wiki). Arkenfox還支持 [容器](https://support.mozilla.org/en-US/kb/containers#w_for-advanced-users) 。
 
-Arkenfox only aims to thwart basic or naive tracking scripts through canvas randomization and Firefox's built-in fingerprint resistance configuration settings. It does not aim to make your browser blend in with a large crowd of other Arkenfox users in the same way Mullvad Browser or Tor Browser do, which is the only way to thwart advanced fingerprint tracking scripts. Remember you can always use multiple browsers, for example, you could consider using Firefox+Arkenfox for a few sites that you want to stay logged in on or otherwise trust, and Mullvad Browser for general browsing.
+Arkenfox的目標只是通過Canvas隨機化和Firefox內置的指紋阻力配置設置來阻止基本或天真的跟蹤腳本。 它並不打算讓您的瀏覽器與其他 Arkenfox 用戶的大量混在一起，那是 Mullvad 瀏覽器或 Tor瀏覽器的作法，也是阻止進階指紋跟蹤腳本的唯一方法。 請記住，您可以隨時使用多個瀏覽器，例如，您可以考慮將Firefox + Arkenfox 用於希望保持登錄或可以信任的幾個網站，而 Mullvad 瀏覽器則用於一般瀏覽。
 
 ## Brave
 
@@ -209,20 +210,20 @@ Arkenfox only aims to thwart basic or naive tracking scripts through canvas rand
     [:octicons-info-16:](https://support.brave.com/){ .card-link title=Documentation}
     [:octicons-code-16:](https://github.com/brave/brave-browser){ .card-link title="Source Code" }
     
-    ??? downloads annotate
+    ??? 下載 annotate
     
         - [:simple-github: GitHub](https://github.com/brave/brave-browser/releases)
         - [:simple-windows11: Windows](https://brave.com/download/)
         - [:simple-apple: macOS](https://brave.com/download/)
         - [:simple-linux: Linux](https://brave.com/linux/) (1)
 
-    1. We advise against using the Flatpak version of Brave, as it replaces Chromium's sandbox with Flatpak's, which is less effective. Additionally, the package is not maintained by Brave Software, Inc.
+    1. 我們建議不要使用 Flatpak 版本的Brave ，因為它將 Chromium沙盒替換為 Flatpak 沙盒，後者不太有效。 此外，該套件並非由Brave Software, Inc.維護。
 
 ### 建議配置
 
-These options can be found in :material-menu: → **Settings**.
+這些選項可以在 :material-menu: → **設定**中找到。
 
-#### Settings
+#### 設定
 
 ##### Shields
 
@@ -235,8 +236,8 @@ Shields 可以選擇根據需要依各網站情況降級，但我們建議預設
 - [x] Select **Prevent sites from fingerprinting me based on my language preferences**
 - [x] Select **Aggressive** under Trackers & ads blocking
 
-    ??? warning "Use default filter lists"
-        Brave allows you to select additional content filters within the internal `brave://adblock` page. 我們建議您不要使用此功能；請保留預設的篩選條件清單。 使用額外清單將使您在一般 Brave 用戶中被突顯出來，如果Brave有漏洞，並將惡意規則添加到您使用的清單中，也可能會增加攻擊面。
+    ??? warning "使用預設過濾器列表"
+        Brave允許您在內部`brave://adblock`頁面中選擇其他內容過濾器。 我們建議您不要使用此功能；請保留預設的篩選條件清單。 使用額外清單將使您在一般 Brave 用戶中被突顯出來，如果Brave有漏洞，並將惡意規則添加到您使用的清單中，也可能會增加攻擊面。
 
 - [x] (Optional) Select **Block Scripts** (1)
 - [x] Select **Strict, may break sites** under Block fingerprinting
@@ -245,11 +246,11 @@ Shields 可以選擇根據需要依各網站情況降級，但我們建議預設
 
 1. 此選項提供的功能類似uBlock Origin 進階 [封鎖模式](https://github.com/gorhill/uBlock/wiki/Blocking-mode) 或 [NoScript](https://noscript.net/) 擴展。
 
-##### Social media blocking
+##### 社交媒體屏蔽
 
 - [ ] Uncheck all social media components
 
-##### Privacy and security
+##### 隐私和安全
 
 <div class="annotate" markdown>
 
@@ -269,24 +270,24 @@ Shields 可以選擇根據需要依各網站情況降級，但我們建議預設
 
 </div>
 
-1. Brave is **not** as resistant to fingerprinting as the Tor Browser and far fewer people use Brave with Tor, so you will stand out. Where [strong anonymity is required](https://support.brave.com/hc/en-us/articles/360018121491-What-is-a-Private-Window-with-Tor-Connectivity-) use the [Tor Browser](tor.md#tor-browser).
+1. Brave is **not** as resistant to fingerprinting as the Tor Browser and far fewer people use Brave with Tor, so you will stand out. 如果需要 [強大的匿名性](https://support.brave.com/hc/en-us/articles/360018121491-What-is-a-Private-Window-with-Tor-Connectivity-) ，請使用 [Tor瀏覽器](tor.md#tor-browser)。
 
-##### Extensions
+##### 擴充套件
 
-Disable built-in extensions you do not use in **Extensions**
+**Extensions**中關閉不使用的內建擴展套件
 
 - [ ] Uncheck **Hangouts**
 - [ ] Uncheck **WebTorrent**
 
 ##### Web3
 
-Brave's Web3 features can potentially add to your browser fingerprint and attack surface. Unless you use any of features, they should be disabled.
+Brave Web3 功能可能會增加瀏覽器指紋和攻擊面。 除非有用到任何功能，否則應停用這些功能。
 
 - [ ] Set **Default Ethereum Wallet** to **None**
 - [ ] Set **Default Solana Wallet** to **None**
 - [ ] Set **Method to resolve IPFS resources** to **Disabled
 
-##### System
+##### 系統
 
 <div class="annotate" markdown>
 
@@ -294,49 +295,49 @@ Brave's Web3 features can potentially add to your browser fingerprint and attack
 
 </div>
 
-1. This option is not present on all platforms.
+1. 此功能並不適用於所有平臺。
 
-#### Sync
+#### 同步
 
 [Brave Sync](https://support.brave.com/hc/en-us/articles/360059793111-Understanding-Brave-Sync) 允許您在不同設備上訪問瀏覽數據（歷史記錄，書籤等），而無需帳戶且有 E2EE保護。
 
-#### Brave Rewards and Wallet
+#### 勇敢獎勵與錢包
 
-**Brave Rewards** lets you recieve Basic Attention Token (BAT) cryptocurrency for performing certain actions within Brave. It relies on a custodial account and KYC from a select number of providers. We do not recommend BAT as a [private cryptocurrency](cryptocurrency.md), nor do we recommend using a [custodial wallet](advanced/payments.md#other-coins-bitcoin-ethereum-etc), so we would discourage using this feature.
+** Brave 獎勵** 可讓您在 Brave 執行某些動作時獲得Basic Attention Token (BAT) 加密貨幣。 它依賴於來自特定數量的提供商的託管帳戶和KYC。 我們不建議 BAT 作為 [私有加密貨幣](cryptocurrency.md)，也不建議使用 [保管錢包](advanced/payments.md#other-coins-bitcoin-ethereum-etc)，因此不鼓勵使用此功能。
 
-**Brave Wallet** operates locally on your computer, but does not support any private cryptocurrencies, so we would discourage using this feature as well.
+**Brave Wallet** 在您的電腦上進行本地操作，但不支援任何私人加密貨幣，因此不鼓勵使用此功能。
 
-## Additional Resources
+## 其他資源
 
-In general, we recommend keeping your browser extensions to a minimum to decrease your attack surface; they have privileged access within your browser, require you to trust the developer, can make you [stand out](https://en.wikipedia.org/wiki/Device_fingerprint#Browser_fingerprint), and [weaken](https://groups.google.com/a/chromium.org/g/chromium-extensions/c/0ei-UCHNm34/m/lDaXwQhzBAAJ) site isolation. However, uBlock Origin may prove useful if you value content blocking functionality.
+一般來說，我們建議您將擴充功能維持在最低限度：它們在瀏覽器中有特別訪問權限，需要您信任開發人員，它們也會讓瀏覽器 [特徵顯露出來](https://en.wikipedia.org/wiki/Device_fingerprint#Browser_fingerprint)， [弱化](https://groups.google.com/a/chromium.org/g/chromium-extensions/c/0ei-UCHNm34/m/lDaXwQhzBAAJ) 網站隔離。 但是，如果您重視內容封鎖功能， uBlock Origin可能會很有用。
 
 ### uBlock Origin
 
 !!! recommendation
 
-    ![uBlock Origin logo](assets/img/browsers/ublock_origin.svg){ align=right }
+    ! [uBlock Origin標誌] (assets/img/browsers/ublock_origin.svg) {align = right}
     
-    **uBlock Origin** is a popular content blocker that could help you block ads, trackers, and fingerprinting scripts.
+    * * uBlock Origin * *是一個受歡迎的內容攔截程式，可以幫助您封鎖廣告、追蹤器和指紋腳本。
     
     [:octicons-repo-16: Repository](https://github.com/gorhill/uBlock#readme){ .md-button .md-button--primary }
     [:octicons-eye-16:](https://github.com/gorhill/uBlock/wiki/Privacy-policy){ .card-link title="Privacy Policy" }
     [:octicons-info-16:](https://github.com/gorhill/uBlock/wiki){ .card-link title=Documentation}
     [:octicons-code-16:](https://github.com/gorhill/uBlock){ .card-link title="Source Code" }
     
-    ??? downloads
+    ??? 下載
     
         - [:simple-firefoxbrowser: Firefox](https://addons.mozilla.org/firefox/addon/ublock-origin/)
         - [:simple-googlechrome: Chrome](https://chrome.google.com/webstore/detail/ublock-origin/cjpalhdlnbpafiamejdnhcphjbkeiagm)
         - [:simple-microsoftedge: Edge](https://microsoftedge.microsoft.com/addons/detail/ublock-origin/odfafepnkmbhccpbejgmiehpchacaeak)
 
-We suggest following the [developer's documentation](https://github.com/gorhill/uBlock/wiki/Blocking-mode) and picking one of the "modes". Additional filter lists can impact performance and [may increase attack surface](https://portswigger.net/research/ublock-i-exfiltrate-exploiting-ad-blockers-with-css).
+我們建議遵循 [開發人員的文檔](https://github.com/gorhill/uBlock/wiki/Blocking-mode) 並選擇其中一個“模式”。 額外的過濾器清單可能會影響效能，而 [增加攻擊面](https://portswigger.net/research/ublock-i-exfiltrate-exploiting-ad-blockers-with-css)。
 
-##### Other lists
+##### 其它列表
 
-These are some other [filter lists](https://github.com/gorhill/uBlock/wiki/Dashboard:-Filter-lists) that you may want to consider adding:
+以下是其他 [篩選條件清單](https://github.com/gorhill/uBlock/wiki/Dashboard:-Filter-lists) ，您可考慮新增：
 
 - [x] Check **Privacy** > **AdGuard URL Tracking Protection**
-- Add [Actually Legitimate URL Shortener Tool](https://raw.githubusercontent.com/DandelionSprout/adfilt/master/LegitimateURLShortener.txt)
+- 添加 [真正正統的 URL 縮短工具](https://raw.githubusercontent.com/DandelionSprout/adfilt/master/LegitimateURLShortener.txt)
 
 ## 標準
 
@@ -349,29 +350,29 @@ These are some other [filter lists](https://github.com/gorhill/uBlock/wiki/Dashb
 ### 最低合格要求
 
 - 必須是開源軟體。
-- Supports automatic updates.
-- Receives engine updates in 0-1 days from upstream release.
-- Available on Linux, macOS, and Windows.
+- 支援自動更新。
+- 從上遊版本開始在0-1天內接收引擎更新。
+- 適用於Linux、macOS和Windows。
 - 為了使瀏覽器更尊重隱私權而作的任何變動都不應對用戶體驗產生負面影響。
-- Blocks third-party cookies by default.
-- Supports [state partitioning](https://developer.mozilla.org/en-US/docs/Web/Privacy/State_Partitioning) to mitigate cross-site tracking.[^1]
+- 預設情況下會封鎖第三方Cookie。
+- 支援 [狀態分割](https://developer.mozilla.org/en-US/docs/Web/Privacy/State_Partitioning) 以減輕跨網站追蹤。[^1]
 
 ### 最佳案例
 
 最佳案例標準代表了我們希望從這個類別的完美項目應具備的功能。 推薦產品可能沒有此功能，但若有這些功能則會讓排名更為提高。
 
-- Includes built-in content blocking functionality.
-- Supports cookie compartmentalization (à la [Multi-Account Containers](https://support.mozilla.org/en-US/kb/containers)).
-- Supports Progressive Web Apps.  
-  PWAs enable you to install certain websites as if they were native apps on your computer. This can have advantages over installing Electron-based apps, because you benefit from your browser's regular security updates.
-- Does not include add-on functionality (bloatware) that does not impact user privacy.
-- Does not collect telemetry by default.
-- Provides open-source sync server implementation.
-- Defaults to a [private search engine](search-engines.md).
+- 包括內置的內容攔截功能。
+- 支持cookie分割（ à la [Multi-Account Containers](https://support.mozilla.org/en-US/kb/containers)）。
+- 支援漸進式網絡應用程式(Progressive Web Apps)，  
+  PWA 可讓您安裝某些網站，就像是電腦上的原生應用程式一樣。 這可能比安裝 Electron 應用程式更有優勢，因為您可以受益於瀏覽器定期安全更新。
+- 不包括不影響用戶隱私的附加功能( bloatware)。
+- 預設情況下不收集遙測。
+- 提供開源同步伺服器實作。
+- 預設為 [私密搜尋引擎](search-engines.md)。
 
 ### 擴展元件標準
 
 - 不得複製內建瀏覽器或作業系統功能。
 - 必須直接影響用戶隱私，即不得簡單地提供資訊。
 
-[^1]: Brave's implementation is detailed at [Brave Privacy Updates: Partitioning network-state for privacy](https://brave.com/privacy-updates/14-partitioning-network-state/).
+[^1]: Brave  執行詳見 [Brave 隱私更新：為隱私分割網絡狀態](https://brave.com/privacy-updates/14-partitioning-network-state/).

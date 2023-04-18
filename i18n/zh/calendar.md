@@ -2,6 +2,7 @@
 title: "VPN供应商"
 icon: material/calendar
 description: Calendars contain some of your most sensitive data; use products that implement encryption at rest.
+cover: calendar.png
 ---
 
 日历包含一些最敏感的数据;使用静态实现E2EE的产品，以防止提供商读取它们。

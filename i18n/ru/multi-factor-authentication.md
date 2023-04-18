@@ -2,6 +2,7 @@
 title: "Многофакторная аутентификация"
 icon: 'material/two-factor-authentication'
 description: These tools assist you with securing your internet accounts with Multi-Factor Authentication without sending your secrets to a third-party.
+cover: multi-factor-authentication.png
 ---
 
 ## Аппаратные ключи безопасности

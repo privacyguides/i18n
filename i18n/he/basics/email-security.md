@@ -1,5 +1,5 @@
 ---
-meta_title: "Why Email Isn't the Best Choice for Privacy and Security - Privacy Guides"
+meta_title: "מדוע אימייל אינו הבחירה הטובה ביותר לפרטיות ואבטחה - Privacy Guides"
 title: אבטחת אימייל
 icon: material/email
 description: אימייל הוא מטבעו לא מאובטח במובנים רבים, ואלה חלק מהסיבות שהוא לא הבחירה המובילה שלנו לתקשורת מאובטחת.
@@ -23,7 +23,7 @@ description: אימייל הוא מטבעו לא מאובטח במובנים ר�
 
 ### כיצד אוכל להגן על המפתחות הפרטיים שלי?
 
-A smartcard (such as a [YubiKey](https://support.yubico.com/hc/en-us/articles/360013790259-Using-Your-YubiKey-with-OpenPGP) or [Nitrokey](https://www.nitrokey.com)) works by receiving an encrypted email message from a device (phone, tablet, computer, etc.) running an email/webmail client. לאחר מכן, ההודעה מפוענחת על ידי הכרטיס החכם והתוכן המפוענח נשלח חזרה למכשיר.
+כרטיס חכם (כגון [Yubikey](https://support.yubico.com/hc/en-us/articles/360013790259-Using-Your-YubiKey-with-OpenPGP) or [Nitrokey](https://www.nitrokey.com)) עובד על ידי קבלת הודעת אימייל מוצפנת ממכשיר (טלפון, טאבלט, מחשב וכו') המריץ לקוח אימייל/מייל אינטרנט. לאחר מכן, ההודעה מפוענחת על ידי הכרטיס החכם והתוכן המפוענח נשלח חזרה למכשיר.
 
 כדאי שהפענוח יתרחש בכרטיס החכם כדי להימנע מחשיפת המפתח הפרטי שלך למכשיר פגום.
 

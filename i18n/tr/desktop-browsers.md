@@ -3,6 +3,7 @@ meta_title: "Privacy Respecting Web Browsers for PC and Mac - Privacy Guides"
 title: "Masaüstü Tarayıcıları"
 icon: material/laptop
 description: These web browsers provide stronger privacy protections than Google Chrome.
+cover: desktop-browsers.png
 schema:
   - 
     "@context": http://schema.org

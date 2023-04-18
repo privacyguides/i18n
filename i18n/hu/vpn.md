@@ -3,6 +3,7 @@ meta_title: "Private VPN Service Recommendations and Comparison, No Sponsors or 
 title: "VPN Szolgáltatások"
 icon: material/vpn
 description: Ezek a legjobb VPN-szolgáltatások az online magánéleted és biztonságod megvédéséhez. Find a provider here that isn’t out to spy on you.
+cover: vpn.png
 ---
 
 If you're looking for additional **privacy** from your ISP, on a public Wi-Fi network, or while torrenting files, a VPN may be the solution for you as long as you understand the risks involved. We think these providers are a cut above the rest:

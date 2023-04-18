@@ -3,6 +3,7 @@ meta_title: "Рекомендации по Android: GrapheneOS и DivestOS - Pri
 title: "Android"
 icon: 'simple/android'
 description: Вы можете заменить операционную систему на своем Android на эти безопасные и конфиденциальные альтернативы.
+cover: android.png
 schema:
   - 
     "@context": http://schema.org

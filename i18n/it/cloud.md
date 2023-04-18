@@ -3,6 +3,7 @@ meta_title: "The Best Private and Secure Cloud Storage Providers - Privacy Guide
 title: "Archiviazione in cloud"
 icon: material/file-cloud
 description: Molti fornitori di spazio d'archiviazione in cloud richiedono la tua fiducia sul fatto che non guarderanno i tuoi file. Queste sono alternative private!
+cover: cloud.png
 ---
 
 Molti fornitori di spazio di archiviazione cloud richiedono la tua totale fiducia sul fatto che non guarderanno nei tuoi file. Le alternative elencate di seguito eliminano la necessità di fiducia implementando l'E2EE.

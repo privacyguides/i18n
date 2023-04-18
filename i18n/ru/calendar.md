@@ -2,6 +2,7 @@
 title: "Синхронизация календаря"
 icon: material/calendar
 description: Calendars contain some of your most sensitive data; use products that implement encryption at rest.
+cover: calendar.png
 ---
 
 Ваши события в календаре - одни из самых конфиденциальных данных. Используйте продукты с поддержкой автоматического E2EE, чтобы предотвратить их чтение провайдером.

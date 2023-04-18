@@ -1,6 +1,7 @@
 ---
 title: Servizi finanziari
 icon: material/bank
+cover: financial-services.png
 ---
 
 Effettuare pagamenti online è una delle maggiori sfide per la privacy. Questi servizi possono aiutarvi a proteggere la vostra privacy dai commercianti e da altri tracker, a condizione che abbiate una buona conoscenza di come effettuare pagamenti privati in modo efficace. Ti consigliamo vivamente di leggere prima il nostro articolo riguardo i pagamenti prima di effettuare qualsiasi acquisto:

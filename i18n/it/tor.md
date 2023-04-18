@@ -3,6 +3,7 @@ meta_title: "Browser e rete Tor: Navigazione Web Anonima - Privacy Guides"
 title: "Rete Tor"
 icon: simple/torproject
 description: Proteggi la tua navigazione internet da occhi indiscreti utilizzando la rete Tor, una rete sicura che elude la censura.
+cover: tor.png
 schema:
   - 
     "@context": http://schema.org

@@ -2,6 +2,7 @@
 title: "行事曆同步"
 icon: material/calendar
 description: 行事曆包含一些您最敏感的資料，使用實現靜態加密的產品。
+cover: calendar.png
 ---
 
 行事曆包含一些您最敏感的資料；請使用未存取時執行 E2EE 的產品，以防止供應商讀取這些資料。

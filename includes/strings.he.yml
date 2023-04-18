@@ -5,23 +5,23 @@ config:
   copyright:
     - 
       1: |
-         Privacy Guides is a non-profit, socially motivated website that provides information for protecting your data security and privacy.
+         Privacy Guides הוא אתר ללא מטרות רווח, בעל מוטיבציה חברתית, המספק מידע להגנה על אבטחת הנתונים ופרטיותך.
     - 
       2: |
-         We do not make money from recommending certain products, and we do not use affiliate links.
+         אנחנו לא מרוויחים כסף מהמלצה על מוצרים מסוימים, ואיננו משתמשים בקישורי שותפים.
     - 
       3: |
-         Privacy Guides and contributors.
+         Privacy Guides ותורמים.
     - 
       4: |
-         Content licensed under CC BY-ND 4.0.
+         תוכן מורשה תחת CC BY-ND 4.0.
   feedback:
     question: האם הדף הזה עזר לך?
     yes: הדף הזה היה מועיל
     yes-note: תודה על המשוב שלך!
     no: דף זה יכול להשתפר
     no-note: |
-      Thanks for your feedback! Help us improve this page by opening a discussion on our forum.
+      תודה על המשוב שלך! עזור לנו לשפר את הדף הזה על ידי פתיחת דיון בפורום שלנו.
   theme:
     dark: עבור למצב כהה
     light: עבור למצב בהיר
@@ -37,15 +37,15 @@ nav:
   Providers: ספקים
   Software: תוכנה
   About: על אודות
-  Community: Community
+  Community: קהילה
   Online Services: שירותים מקוונים
-  Code of Conduct: Code of Conduct
-  Contributing: Contributing
-  Writing Guide: Writing Guide
-  Technical Guides: Technical Guides
+  Code of Conduct: קוד התנהגות
+  Contributing: תרומה
+  Writing Guide: מדריך כתיבה
+  Technical Guides: מדריכים טכניים
   Changelog: יומן שינויים
   Forum: פורום
   Blog: בלוג
 site:
   translation: |
-    You're viewing the English copy of Privacy Guides, translated by our fantastic language team on Crowdin. If you notice an error, or see any untranslated sections on this page, please consider helping out!
+    אתה צופה בעותק האנגלי של מדריכי הפרטיות, שתורגם על ידי צוות השפה הפנטסטי שלנו ב-Crowdin. אם אתה מבחין בשגיאה, או רואה קטעים לא מתורגמים בדף זה, אנא שקול לעזור!

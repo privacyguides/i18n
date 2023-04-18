@@ -2,6 +2,7 @@
 title: "Outils de productivité"
 icon: material/file-sign
 description: La plupart des suites bureautiques en ligne ne prennent pas en charge l'E2EE, ce qui signifie que le fournisseur de cloud a accès à tout ce que vous faites.
+cover: productivity.png
 ---
 
 La plupart des suites bureautiques en ligne ne prennent pas en charge l'E2EE, ce qui signifie que le fournisseur de cloud a accès à tout ce que vous faites. La politique de confidentialité peut protéger légalement vos droits, mais elle ne fournit pas de contraintes techniques d'accès.

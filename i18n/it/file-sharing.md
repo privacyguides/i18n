@@ -2,6 +2,7 @@
 title: "Condivisione e sincronizzazione dei file"
 icon: material/share-variant
 description: Scopri come condividere privatamente i tuoi file tra i tuoi dispositivi, con i tuoi amici e familiari, o in modo anonimo online.
+cover: file-sharing.png
 ---
 
 Scopri come condividere privatamente i tuoi file tra i tuoi dispositivi, con i tuoi amici e familiari, o in modo anonimo online.

@@ -3,6 +3,7 @@ meta_title: "Encrypted Private Email Recommendations - Privacy Guides"
 title: "Email Services"
 icon: material/email
 description: These email providers offer a great place to store your emails securely, and many offer interoperable OpenPGP encryption with other providers.
+cover: email.png
 ---
 
 电子邮件实际上是使用任何在线服务的必需品，但我们不建议使用它进行人与人之间的对话。 与其使用电子邮件与他人联系，不如考虑使用支持前向保密的即时通讯媒介。

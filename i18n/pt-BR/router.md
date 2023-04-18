@@ -2,6 +2,7 @@
 title: "Firmware para Roteadores"
 icon: material/router-wireless
 description: These alternative operating systems can be used to secure your router or Wi-Fi access point.
+cover: router.png
 ---
 
 Abaixo estão alguns sistemas operacionais alternativos, que podem ser usados em roteadores, pontos de acesso Wi-Fi, etc.

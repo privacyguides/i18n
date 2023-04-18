@@ -1,6 +1,7 @@
 ---
 title: שירותים פיננסיים
 icon: material/bank
+cover: financial-services.png
 ---
 
 ביצוע תשלומים אונליין הוא אחד האתגרים הגדולים ביותר לפרטיות. שירותים אלה יכולים לסייע לך בהגנה על פרטיותך מפני סוחרים ועוקבים אחרים, בתנאי שיש לך הבנה טובה כיצד לבצע תשלומים פרטיים ביעילות. אנו ממליצים בחום שתקרא תחילה את מאמר סקירת התשלומים שלנו לפני ביצוע רכישות כלשהן:
@@ -74,9 +75,9 @@ Privacy.com מספק מידע על הסוחרים מהם אתה רוכש לבנ�
 
 !!! recommendation
 
-    ![CakePay logo](assets/img/financial-services/coincards.svg){ align=right }
+    ![CakePay לוגו](assets/img/financial-services/coincards.svg){ align=right }
     
-    **CoinCards** (available in the US and Canada) allows you to purchase gift cards for a large variety of merchants.
+    **CoinCards** (זמין בארה"ב ובקנדה) מאפשר לך לרכוש כרטיסי מתנה עבור מגוון גדול של סוחרים.
     
     [:octicons-home-16: דף הבית](https://coincards.com/){ .md-button .md-button--primary }
     [:octicons-eye-16:](https://coincards.com/privacy-policy/){ .card-link title="מדיניות פרטיות" }

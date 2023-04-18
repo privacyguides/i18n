@@ -3,6 +3,7 @@ meta_title: "비공개 암호화 이메일 서비스 권장 목록 - Privacy Gui
 title: "이메일 서비스"
 icon: material/email
 description: These email providers offer a great place to store your emails securely, and many offer interoperable OpenPGP encryption with other providers.
+cover: email.png
 ---
 
 이메일은 모든 온라인 서비스 이용에 사실상 필수적이지만, 개인 간 대화에는 권장드리지 않습니다. 다른 사람에게 연락할 때는 이메일보다는 순방향 비밀성을 지원하는 인스턴트 메신저를 사용하는 것이 좋습니다.

@@ -3,6 +3,7 @@ meta_title: "Navegadores Web para PC y Mac que Respetan la Privacidad - Privacy 
 title: "Navegadores de Escritorio"
 icon: material/laptop
 description: Estos navegadores web ofrecen protecciones de privacidad más sólidas que Google Chrome.
+cover: desktop-browsers.png
 schema:
   - 
     "@context": http://schema.org

@@ -2,6 +2,7 @@
 title: "Transmissão de vídeo"
 icon: material/video-wireless
 description: These networks allow you to stream internet content without building an advertising profile based on your interests.
+cover: video-streaming.png
 ---
 
 A principal ameaça ao usar uma plataforma de streaming de vídeo é que os seus hábitos de streaming e listas de assinaturas podem ser usados para traçar o seu perfil. Você deve combinar estas ferramentas com um [VPN](/vpn) ou [Tor](https://www.torproject.org/) para tornar mais difícil o perfil do seu uso.

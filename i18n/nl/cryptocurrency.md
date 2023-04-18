@@ -2,6 +2,7 @@
 meta_title: "Private Cryptocurrency Blockchains - Privacy Guides"
 title: Cryptocurrency
 icon: material/bank-circle
+cover: cryptocurrency.png
 ---
 
 Online betalen is een van de grootste uitdagingen voor privacy. Deze cryptocurrencies bieden standaard transactieprivacy (iets wat door de meeste cryptocurrencies **niet** wordt gegarandeerd), mits je goed begrijpt hoe je private betalingen effectief kunt uitvoeren. Wij raden je sterk aan eerst ons overzichtsartikel over betalingen te lezen voordat je aankopen doet:

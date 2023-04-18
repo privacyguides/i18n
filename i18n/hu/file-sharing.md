@@ -2,6 +2,7 @@
 title: "Fájlmegosztás és Szinkronizálás"
 icon: material/share-variant
 description: Fedezd fel, hogyan oszthatod meg fájljaid privát módon készülékek között, barátaiddal és családtagjaiddal vagy névtelenül online.
+cover: file-sharing.png
 ---
 
 Fedezd fel, hogyan oszthatod meg fájljaid privát módon készülékek között, barátaiddal és családtagjaiddal vagy névtelenül online.

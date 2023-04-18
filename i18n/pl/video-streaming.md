@@ -2,6 +2,7 @@
 title: "Strumieniowanie filmów"
 icon: material/video-wireless
 description: These networks allow you to stream internet content without building an advertising profile based on your interests.
+cover: video-streaming.png
 ---
 
 Podstawowym zagrożeniem związanym z korzystaniem z platformy do strumieniowania filmów jest to, że Twoje nawyki dotyczące strumieniowania oraz listy subskrypcyjne mogą zostać wykorzystane do profilowania Ciebie. Warto połączyć te narzędzia z [VPN](vpn.md) lub [Tor](https://www.torproject.org/), aby utrudnić profilowanie.

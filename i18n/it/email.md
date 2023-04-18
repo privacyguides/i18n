@@ -3,6 +3,7 @@ meta_title: "Email Private Criptate consigliate - Privacy Guides"
 title: "Servizi mail"
 icon: material/email
 description: Questi provider di posta elettronica offrono un luogo ideale per archiviare le tue mail in modo sicuro e molti offrono la crittografia OpenPGP interoperabile con altri provider.
+cover: email.png
 ---
 
 L'e-mail è praticamente una necessità per l'utilizzo di qualsiasi servizio online, tuttavia non la consigliamo per le conversazioni personali. Piuttosto che utilizzare l'email per contattare altre persone, considera l'utilizzo di un mezzo di messaggistica istantanea che supporta la forward secrecy.

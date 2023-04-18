@@ -3,6 +3,7 @@ meta_title: "Recommended Encryption Software: VeraCrypt, Cryptomator, PicoCrypt,
 title: "Programvara för kryptering"
 icon: material/file-lock
 description: Kryptering av data är det enda sättet att kontrollera vem som har tillgång till dem. These tools allow you to encrypt your emails and any other files.
+cover: encryption.png
 ---
 
 Kryptering av data är det enda sättet att kontrollera vem som har tillgång till dem. Om du för närvarande inte använder krypteringsprogram för din hårddisk, e-post eller filer bör du välja ett alternativ här.

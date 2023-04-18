@@ -2,6 +2,7 @@
 title: "Resolver DNS"
 icon: material/dns
 description: Questi sono alcuni provider DNS cifrati a cui consigliamo di passare, per sostituire la configurazione predefinita del tuo ISP.
+cover: dns.png
 ---
 
 I DNS cifrati con server di terze parti dovrebbero essere utilizzati solo per aggirare il [blocco DNS](https://en.wikipedia.org/wiki/DNS_blocking) di base quando si può essere certi che non ci saranno conseguenze. Il DNS cifrato non aiuta a nascondere la tua attività di navigazione.

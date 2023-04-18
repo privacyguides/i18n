@@ -3,6 +3,7 @@ meta_title: "Remove PII with Metadata Scrubbers and Data Redaction Tools - Priva
 title: "Инструменты для шифрования"
 icon: material/tag-remove
 description: Use these tools to remove metadata like GPS location and other identifying information from photos and files you share.
+cover: data-redaction.png
 ---
 
 Когда вы делитесь с кем-то файлами, то не забудьте удалить связанные с ними метаданные. Файлы изображений обычно содержат [данные EXIF](https://ru.wikipedia.org/wiki/Exif). Иногда фотографии даже включают ваши [GPS](https://ru.wikipedia.org/wiki/GPS) координаты в метаданные файла.

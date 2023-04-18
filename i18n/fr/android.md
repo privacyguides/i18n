@@ -3,6 +3,7 @@ meta_title: "Recommandations Android : GrapheneOS et DivestOS - Privacy Guides"
 title: "Android"
 icon: 'simple/android'
 description: Vous pouvez remplacer le système d'exploitation de votre téléphone Android par ces alternatives sécurisées et respectueuses de la vie privée.
+cover: android.png
 schema:
   - 
     "@context": http://schema.org

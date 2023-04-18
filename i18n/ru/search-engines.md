@@ -3,6 +3,7 @@ meta_title: "Recommended Search Engines: Anonymous Google Alternatives - Privacy
 title: "Поисковые системы"
 icon: material/search-web
 description: These privacy-respecting search engines don't build an advertising profile based on your searches.
+cover: search-engines.png
 ---
 
 Используйте поисковую систему, которая не строит рекламный профиль на основе ваших запросов.

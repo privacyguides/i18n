@@ -3,6 +3,7 @@ meta_title: "Eliminar PII con Depuradores de Metadatos y Herramientas de Edició
 title: "Redacción de Datos y Metadatos"
 icon: material/tag-remove
 description: Utiliza estas herramientas para eliminar metadatos como la ubicación GPS y otros datos identificativos de las fotos y archivos que compartas.
+cover: data-redaction.png
 ---
 
 Cuando compartas archivos, asegúrate de remover los metadatos asociados. Archivos de imagen comúnmente incluyen datos [Exif](https://en.wikipedia.org/wiki/Exif). Fotos a veces incluyen hasta coordenadas GPS en los metadatos del archivo.

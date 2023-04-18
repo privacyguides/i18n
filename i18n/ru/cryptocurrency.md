@@ -2,6 +2,7 @@
 meta_title: "Private Cryptocurrency Blockchains - Privacy Guides"
 title: Криптовалюта
 icon: material/bank-circle
+cover: cryptocurrency.png
 ---
 
 Платежи в Интернете - одна из самых серьезных проблем, связанных с конфиденциальностью. These cryptocurrencies provide transaction privacy by default (something which is **not** guaranteed by the majority of cryptocurrencies), provided you have a strong understanding of how to make private payments effectively. We strongly encourage you first read our payments overview article before making any purchases:

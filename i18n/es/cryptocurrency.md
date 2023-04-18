@@ -2,6 +2,7 @@
 meta_title: "Blockchains Privadas de Criptomonedas - Privacy Guides"
 title: Criptomonedas
 icon: material/bank-circle
+cover: cryptocurrency.png
 ---
 
 Realizar pagos en línea es uno de los principales desafíos para la privacidad. Estas criptomonedas le brindan privacidad a sus transacciones (algo que **no** está garantizado por la mayoría de las criptomonedas), permitiéndole tener una alta comprensión de cómo hacer pagos privados correctamente. Le recomendamos encarecidamente que primero lea nuestro apartado de pagos antes de realizar cualquier compra:

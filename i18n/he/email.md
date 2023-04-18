@@ -1,8 +1,9 @@
 ---
-meta_title: "Encrypted Private Email Recommendations - Privacy Guides"
+meta_title: "המלצות אימייל פרטי מוצפן - Privacy Guides"
 title: "שירותי אימייל"
 icon: material/email
 description: ספקי אימייל אלה מציעים מקום מצוין לאחסן את המיילים שלך בצורה מאובטחת, ורבים מציעים הצפנת OpenPGP הניתנת להפעלה הדדית עם ספקים אחרים.
+cover: email.png
 ---
 
 אימייל הוא למעשה הכרח לשימוש בכל שירות מקוון, אולם איננו ממליצים עליו לשיחות מאדם לאדם. דואר אלקטרוני הוא למעשה הכרח שימוש בכל שירות מקוון, אולם איננו ממליצים עליו לשיחות מאדם לאדם.
@@ -124,7 +125,7 @@ Mailbox.org אינו מקבל מטבעות קריפטוגרפיים כלשהם �
 
 #### :material-check:{ .pg-green } אבטחת חשבון
 
-Mailbox.org תומך ב[אימות דו-שלבי](https://kb.mailbox.org/display/MBOKBEN/How+to+use+two-factor+authentication+-+2FA) עבור דואר האינטרנט שלהם בלבד. You can use either TOTP or a [YubiKey](https://en.wikipedia.org/wiki/YubiKey) via the [YubiCloud](https://www.yubico.com/products/services-software/yubicloud). תקני אינטרנט כגון [WebAuthn](https://en.wikipedia.org/wiki/WebAuthn) אינם נתמכים עדיין.
+Mailbox.org תומך ב[אימות דו-שלבי](https://kb.mailbox.org/display/MBOKBEN/How+to+use+two-factor+authentication+-+2FA) עבור דואר האינטרנט שלהם בלבד. אתה יכול להשתמש ב- TOTP או ב- [YubiKey](https://en.wikipedia.org/wiki/YubiKey) דרך [YubiCloud](https://www.yubico.com/products/services-software/yubicloud). תקני אינטרנט כגון [WebAuthn](https://en.wikipedia.org/wiki/WebAuthn) אינם נתמכים עדיין.
 
 #### :material-information-outline:{ .pg-blue } אבטחת מידע
 
@@ -410,7 +411,7 @@ SimpleLogin [נרכשה על ידי Proton AG](https://proton.me/news/proton-and
 
 **המקרה הטוב ביותר:**
 
-- Encrypts all account data (Contacts, Calendars, etc.) at rest with zero-access encryption.
+- מצפין את כל נתוני החשבון (אנשי קשר, יומנים וכו') במצב מנוחה עם הצפנה ללא גישה.
 - הצפנת דואר אינטרנט משולבת E2EE/PGP מסופקת לנוחיותך.
 - תמיכה עבור [WKD](https://wiki.gnupg.org/WKD) כדי לאפשר גילוי משופר של מפתחות OpenPGP ציבוריים באמצעות HTTP. משתמשי GnuPG יכולים לקבל מפתח על ידי הקלדה `gpg --locate-key example_user@example.com`
 - תמיכה בתיבת דואר זמנית למשתמשים חיצוניים. פעולה זו שימושית כאשר ברצונך לשלוח דוא"ל מוצפן, מבלי לשלוח עותק בפועל לנמען שלך. למיילים אלה יש בדרך כלל תוחלת חיים מוגבלת ולאחר מכן נמחקות אוטומטית. הם גם לא דורשים מהנמען להגדיר שום קריפטוגרפיה כמו OpenPGP.
@@ -485,14 +486,14 @@ SimpleLogin [נרכשה על ידי Proton AG](https://proton.me/news/proton-and
 
 **מינימום כדי לעמוד בדרישות:**
 
-- Must self-host analytics (no Google Analytics, Adobe Analytics, etc.). האתר של הספק חייב גם לציית ל [DNT (לא לעקוב)](https://en.wikipedia.org/wiki/Do_Not_Track) למי שרוצה לבטל את הסכמתו.
+- חייב לארח ניתוח עצמי (ללא Google Analytics, Adobe Analytics וכו'). האתר של הספק חייב גם לציית ל [DNT (לא לעקוב)](https://en.wikipedia.org/wiki/Do_Not_Track) למי שרוצה לבטל את הסכמתו.
 
 אסור שיהיה שיווק שהוא חסר אחריות:
 
 - טענות של "הצפנה בלתי שבירה " יש להשתמש בהצפנה מתוך כוונה שהיא לא תהיה סודית בעתיד כאשר הטכנולוגיה קיימת כדי לפצח אותה.
 - ביצוע ערבויות של הגנה על 100% אנונימיות. כשמישהו טוען שמשהו הוא 100% זה אומר שאין ודאות לכישלון. אנחנו יודעים שאנשים יכולים בקלות להפוך את עצמם לאיאנונימיים במספר דרכים, למשל.:
 
-- Reusing personal information e.g. (email accounts, unique pseudonyms, etc.) that they accessed without anonymity software (Tor, VPN, etc.)
+- שימוש חוזר במידע אישי, למשל. (חשבונות דואר אלקטרוני, שמות בדויים ייחודיים וכו') שאליהם הם ניגשו ללא תוכנת אנונימיות (Tor, VPN וכו')
 - [טביעת אצבע של דפדפן](https://en.wikipedia.org/wiki/Device_fingerprint#Browser_fingerprint)
 
 **המקרה הטוב ביותר:**

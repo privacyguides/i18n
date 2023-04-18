@@ -2,6 +2,7 @@
 title: "Sincronizzazione calendario"
 icon: material/calendar
 description: I calendari contengono alcuni dei vostri dati più sensibili; utilizzate prodotti che implementino la crittografia a riposo.
+cover: calendar.png
 ---
 
 I calendari contengono alcuni dei vostri dati più sensibili; utilizzate prodotti che implementino la E2EE a riposo per impedire al provider di leggerli.

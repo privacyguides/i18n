@@ -2,6 +2,7 @@
 title: "Android 应用"
 icon: simple/linux
 description: 由于隐私保护和软件自由，Linux发行版被普遍推荐。
+cover: desktop.png
 ---
 
 由于隐私保护和软件自由，Linux发行版被普遍推荐。 如果你还没有使用Linux，下面是我们建议尝试的一些发行版，以及一些适用于许多Linux发行版的一般隐私和安全改进提示。

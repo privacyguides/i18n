@@ -1,24 +1,25 @@
 ---
-meta_title: "Tor Browser and Network: Anonymous Web Browsing - Privacy Guides"
+meta_title: "דפדפן ורשת Tor: גלישה אנונימית באינטרנט - Privacy Guides"
 title: "רשת טור (Tor Network)"
 icon: simple/torproject
-description: Protect your internet browsing from prying eyes by using the Tor network, a secure network which circumvents censorship.
+description: הגן על הגלישה שלך באינטרנט מעיניים סקרניות על ידי שימוש ברשת Tor, רשת מאובטחת שעוקפת צנזורה.
+cover: tor.png
 schema:
   - 
     "@context": http://schema.org
-    "@type": SoftwareApplication
+    "@type": יישום תוכנה
     name: דפדפן Tor
     image: /assets/img/browsers/tor.svg
     url: https://www.torproject.org
     sameAs: https://en.wikipedia.org/wiki/Tor_(network)
-    applicationCategory: Web Browser
+    applicationCategory: דפדפן אינטרנט
     operatingSystem:
-      - Windows
+      - ווינדוס
       - macOS
       - לינוקס
       - אנדרואיד
     subjectOf:
-      "@type": WebPage
+      "@type": עמוד אינטרנט
       url: "./"
 ---
 
@@ -89,9 +90,9 @@ Tor פועלת על ידי ניתוב תעבורת האינטרנט שלך דר�
         - [:simple-appstore: App Store](https://apps.apple.com/us/app/orbot/id1609461599)
         - [:simple-github: GitHub](https://github.com/guardianproject/orbot/releases)
 
-We previously recommended enabling the *Isolate Destination Address* preference in Orbot settings. While this setting can theoretically improve privacy by enforcing the use of a different circuit for each IP address you connect to, it doesn't provide a practical advantage for most applications (especially web browsing), can come with a significant performance penalty, and increases the load on the Tor network. We no longer recommend adjusting this setting from its default value unless you know you need to.[^1]
+המלצנו בעבר להפעיל את העדפת *בודד כתובת יעד* בהגדרות Orbot. בעוד שהגדרה זו יכולה לשפר באופן תיאורטי את הפרטיות על ידי אכיפת השימוש במעגל אחר עבור כל כתובת IP שאתה מתחבר אליה, היא אינה מספקת יתרון מעשי לרוב היישומים (במיוחד גלישה באינטרנט), עלולה לבוא עם עונש משמעותי בביצועים ומגבירה העומס על רשת Tor. אנחנו לא ממליצים עוד לשנות הגדרה זו מערך ברירת המחדל שלה, אלא אם כן אתה יודע שצריך.[^1]
 
-!!! טיפ "טיפים עבור אנדרואיד"
+!!! tip "טיפים עבור אנדרואיד"
 
     Orbot יכול לבצע שרת proxy של אפליקציות בודדות אם הם תומכים ב-SOCKS או HTTP proxy. זה יכול גם לספק את כל חיבורי הרשת שלך באמצעות [VpnService](https://developer.android.com/reference/android/net/VpnService) וניתן להשתמש בו עם מתג ה-VPN ב-:gear: **הגדרות** → * *רשת & אינטרנט** → **VPN** → :gear: → **חסום חיבורים ללא VPN**.
     
@@ -134,4 +135,4 @@ Snowflake אינו מגדיל את פרטיותך בשום צורה, ואינו 
 
 הפעלת פרוקסי של Snowflake היא בסיכון נמוך, אפילו יותר מהפעלת ממסר Tor או גשר שהם כבר מאמצים לא מסוכנים במיוחד. עם זאת, היא עדיין עושה תעבורת פרוקסי דרך הרשת שלך, מה שיכול להשפיע במובנים מסוימים, במיוחד אם הרשת שלך מוגבלת ברוחב הפס. ודא שאתה מבין [איך Snowflake עובד](https://gitlab.torproject.org/tpo/anti-censorship/pluggable-transports/snowflake/-/wikis/home) לפני שתחליט אם להפעיל פרוקסי.
 
-[^1]: The `IsolateDestAddr` setting is discussed on the [Tor mailing list](https://lists.torproject.org/pipermail/tor-talk/2012-May/024403.html) and [Whonix's Stream Isolation documentation](https://www.whonix.org/wiki/Stream_Isolation), where both projects suggest that it is usually not a good approach for most people.
+[^1]: ההגדרה `IsolateDestAddr` נדונה ב [רשימת התפוצה של תור](https://lists.torproject.org/pipermail/tor-talk/2012-May/024403.html) ו-[Whonix's Stream Isolation documentation](https://www.whonix.org/wiki/Stream_Isolation), שבו שני הפרויקטים מצביעים על כך שזו בדרך כלל לא גישה טובה עבור רוב האנשים.

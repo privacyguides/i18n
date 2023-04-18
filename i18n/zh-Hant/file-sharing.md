@@ -2,6 +2,7 @@
 title: "文件共享和同步"
 icon: material/share-variant
 description: 探索如何在不同裝置、與朋友和家人私下分享檔案，或匿名上線。
+cover: file-sharing.png
 ---
 
 探索如何在裝置之間、與朋友和家人私下分享檔案，或匿名上線。

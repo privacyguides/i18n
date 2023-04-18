@@ -3,6 +3,7 @@ meta_title: "The Best Private and Secure Cloud Storage Providers - Privacy Guide
 title: "路由器固件"
 icon: material/file-cloud
 description: Many cloud storage providers require your trust that they will not look at your files. These are private alternatives!
+cover: cloud.png
 ---
 
 许多云存储供应商需要你完全信任他们不会查看你的文件。 The alternatives listed below eliminate the need for trust by implementing secure E2EE.

@@ -1,5 +1,5 @@
 ---
-meta_title: "Privacy Guides: Your Independent Privacy and Security Resource"
+meta_title: "Privacy Guides: プライバシーとセキュリティに関する独立したリソース"
 template: overrides/home.ja.html
 hide:
   - navigation

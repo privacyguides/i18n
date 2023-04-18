@@ -1,7 +1,8 @@
 ---
-title: "Desktop/PC"
+title: "데스크톱/PC"
 icon: simple/linux
 description: Linux distributions are commonly recommended for privacy protection and software freedom.
+cover: desktop.png
 ---
 
 Linux distributions are commonly recommended for privacy protection and software freedom. If you don't already use Linux, below are some distributions we suggest trying out, as well as some general privacy and security improvement tips that are applicable to many Linux distributions.
@@ -14,51 +15,51 @@ Linux distributions are commonly recommended for privacy protection and software
 
 !!! recommendation
 
-    ![Fedora logo](assets/img/linux-desktop/fedora-workstation.svg){ align=right }
+    ![Fedora 로고](assets/img/linux-desktop/fedora-workstation.svg){ align=right }
     
-    **Fedora Workstation** is our recommended distribution for people new to Linux. Fedora generally adopts newer technologies before other distributions e.g., [Wayland](https://wayland.freedesktop.org/), [PipeWire](https://pipewire.org). These new technologies often come with improvements in security, privacy, and usability in general.
+    **Fedora Workstation**는 리눅스를 처음 사용하시는 분들에게 추천드리는 배포판입니다. Fedora는 보통 다른 배포판보다 먼저 최신 기술([Wayland](https://wayland.freedesktop.org/), [PipeWire](https://pipewire.org) 등)을 채택합니다. 최신 기술은 대개 보안, 프라이버시, 사용성을 개선하는 효과를 가져옵니다.
     
-    [:octicons-home-16: Homepage](https://getfedora.org/){ .md-button .md-button--primary }
-    [:octicons-info-16:](https://docs.fedoraproject.org/en-US/docs/){ .card-link title=Documentation}
-    [:octicons-heart-16:](https://whatcanidoforfedora.org/){ .card-link title=Contribute }
+    [:octicons-home-16: 홈페이지](https://getfedora.org/){ .md-button .md-button--primary }
+    [:octicons-info-16:](https://docs.fedoraproject.org/en-US/docs/){ .card-link title=문서}
+    [:octicons-heart-16:](https://whatcanidoforfedora.org/){ .card-link title=기여 }
 
-Fedora has a semi-rolling release cycle. While some packages like [GNOME](https://www.gnome.org) are frozen until the next Fedora release, most packages (including the kernel) are updated frequently throughout the lifespan of the release. Each Fedora release is supported for one year, with a new version released every 6 months.
+Fedora는 반-롤링 릴리스 방식입니다. [GNOME](https://www.gnome.org) 등 일부 패키지는 다음 Fedora 릴리스 전까지 고정되지만, 커널을 포함한 대부분의 패키지는 릴리스 수명 기간 동안 자주 업데이트됩니다. 각각의 Fedora 릴리스는 1년간 지원되며, 6개월마다 새 버전이 출시됩니다.
 
 ### openSUSE Tumbleweed
 
 !!! recommendation
 
-    ![openSUSE Tumbleweed logo](assets/img/linux-desktop/opensuse-tumbleweed.svg){ align=right }
+    ![openSUSE Tumbleweed 로고](assets/img/linux-desktop/opensuse-tumbleweed.svg){ align=right }
     
-    **openSUSE Tumbleweed** is a stable rolling release distribution.
+    **openSUSE Tumbleweed**는 안정적인 롤링 릴리스 배포판입니다.
     
     openSUSE Tumbleweed has a [transactional update](https://kubic.opensuse.org/blog/2018-04-04-transactionalupdates/) system that uses [Btrfs](https://en.wikipedia.org/wiki/Btrfs) and [Snapper](https://en.opensuse.org/openSUSE:Snapper_Tutorial) to ensure that snapshots can be rolled back should there be a problem.
     
-    [:octicons-home-16: Homepage](https://get.opensuse.org/tumbleweed/){ .md-button .md-button--primary }
-    [:octicons-info-16:](https://doc.opensuse.org/){ .card-link title=Documentation}
-    [:octicons-heart-16:](https://shop.opensuse.org/){ .card-link title=Contribute }
+    [:octicons-home-16: 홈페이지](https://get.opensuse.org/tumbleweed/){ .md-button .md-button--primary }
+    [:octicons-info-16:](https://doc.opensuse.org/){ .card-link title=문서}
+    [:octicons-heart-16:](https://shop.opensuse.org/){ .card-link title=기여 }
 
-Tumbleweed follows a rolling release model where each update is released as a snapshot of the distribution. When you upgrade your system, a new snapshot is downloaded. Each snapshot is run through a series of automated tests by [openQA](https://openqa.opensuse.org) to ensure its quality.
+Tumbleweed는 각 업데이트가 배포판 스냅샷으로 릴리스되는 롤링 릴리스 방식입니다. 시스템을 업그레이드 할 경우, 새 스냅샷이 다운로드됩니다. 각각의 스냅샷은 [openQA](https://openqa.opensuse.org)에서 일련의 자동화된 테스트를 거쳐 품질이 보장됩니다.
 
 ### Arch Linux
 
 !!! recommendation
 
-    ![Arch logo](assets/img/linux-desktop/archlinux.svg){ align=right }
+    ![Arch 로고](assets/img/linux-desktop/archlinux.svg){ align=right }
     
-    **Arch Linux** is a lightweight, do-it-yourself (DIY) distribution meaning that you only get what you install. For more information see their [FAQ](https://wiki.archlinux.org/title/Frequently_asked_questions).
+    **Arch Linux**는 여러분이 원하는 것만 설치해서 사용할 수 있는, 간결함과 DIY(Do It Yourself) 특성을 지닌 배포판입니다. 자세한 내용은 Arch Linux [FAQ](https://wiki.archlinux.org/title/Frequently_asked_questions)를 참고해 주세요.
     
-    [:octicons-home-16: Homepage](https://archlinux.org/){ .md-button .md-button--primary }
-    [:octicons-info-16:](https://wiki.archlinux.org/){ .card-link title=Documentation}
-    [:octicons-heart-16:](https://archlinux.org/donate/){ .card-link title=Contribute }
+    [:octicons-home-16: 홈페이지](https://archlinux.org/){ .md-button .md-button--primary }
+    [:octicons-info-16:](https://wiki.archlinux.org/){ .card-link title=문서}
+    [:octicons-heart-16:](https://archlinux.org/donate/){ .card-link title=기부 }
 
-Arch Linux has a rolling release cycle. There is no fixed release schedule and packages are updated very frequently.
+Arch Linux는 롤링 릴리스 방식입니다. 정해진 릴리스가 존재하지 않으며, 패키지는 매우 자주 업데이트됩니다.
 
-Being a DIY distribution, you are [expected to set up and maintain](os/linux-overview.md#arch-based-distributions) your system on your own. Arch has an [official installer](https://wiki.archlinux.org/title/Archinstall) to make the installation process a little easier.
+DIY 배포판이므로 여러분은 자신의 시스템을 여러분 자신이 [직접 구성하고 관리](os/linux-overview.md#arch-based-distributions)해야 합니다. Arch Linux에는 설치 과정을 보다 쉽게 만들어주는 [공식 설치 프로그램](https://wiki.archlinux.org/title/Archinstall)이 존재합니다.
 
 A large portion of [Arch Linux’s packages](https://reproducible.archlinux.org) are [reproducible](https://reproducible-builds.org).
 
-## Immutable Distributions
+## 변경 불가능한 배포판
 
 ### Fedora Silverblue
 
@@ -68,9 +69,9 @@ A large portion of [Arch Linux’s packages](https://reproducible.archlinux.org)
     
     **Fedora Silverblue** and **Fedora Kinoite** are immutable variants of Fedora with a strong focus on container workflows. Silverblue comes with the [GNOME](https://www.gnome.org/) desktop environment while Kinoite comes with [KDE](https://kde.org/). Silverblue and Kinoite follow the same release schedule as Fedora Workstation, benefiting from the same fast updates and staying very close to upstream.
     
-    [:octicons-home-16: Homepage](https://silverblue.fedoraproject.org/){ .md-button .md-button--primary }
-    [:octicons-info-16:](https://docs.fedoraproject.org/en-US/fedora-silverblue/){ .card-link title=Documentation}
-    [:octicons-heart-16:](https://whatcanidoforfedora.org/){ .card-link title=Contribute }
+    [:octicons-home-16: 홈페이지](https://silverblue.fedoraproject.org/){ .md-button .md-button--primary }
+    [:octicons-info-16:](https://docs.fedoraproject.org/en-US/fedora-silverblue/){ .card-link title=문서}
+    [:octicons-heart-16:](https://whatcanidoforfedora.org/){ .card-link title=기여 }
 
 Silverblue (and Kinoite) differ from Fedora Workstation as they replace the [DNF](https://fedoraproject.org/wiki/DNF) package manager with a much more advanced alternative called [`rpm-ostree`](https://docs.fedoraproject.org/en-US/fedora/rawhide/system-administrators-guide/package-management/rpm-ostree/). The `rpm-ostree` package manager works by downloading a base image for the system, then overlaying packages over it in a [git](https://en.wikipedia.org/wiki/Git)-like commit tree. When the system is updated, a new base image is downloaded and the overlays will be applied to that new image.
 
@@ -84,15 +85,15 @@ As an alternative to Flatpaks, there is the option of [Toolbox](https://docs.fed
 
 !!! recommendation
 
-    ![NixOS logo](assets/img/linux-desktop/nixos.svg){ align=right }
+    ![NixOS 로고](assets/img/linux-desktop/nixos.svg){ align=right }
     
-    NixOS is an independent distribution based on the Nix package manager with a focus on reproducibility and reliability.
+    NixOS는 재현성과 안전성에 중점을 둔 Nix 패키지 관리자를 기반으로 하는 독립 배포판입니다.
     
-    [:octicons-home-16: Homepage](https://nixos.org/){ .md-button .md-button--primary }
-    [:octicons-info-16:](https://nixos.org/learn.html){ .card-link title=Documentation}
-    [:octicons-heart-16:](https://nixos.org/donate.html){ .card-link title=Contribute }
+    [:octicons-home-16: 홈페이지](https://nixos.org/){ .md-button .md-button--primary }
+    [:octicons-info-16:](https://nixos.org/learn.html){ .card-link title=문서}
+    [:octicons-heart-16:](https://nixos.org/donate.html){ .card-link title=기부 }
 
-NixOS’s package manager keeps every version of every package in a different folder in the **Nix store**. Due to this you can have different versions of the same package installed on your system. After the package contents have been written to the folder, the folder is made read-only.
+NixOS 패키지 매니저는 모든 패키지의 모든 버전을 **Nix Store**의 폴더에 따로 보관합니다. 따라서, 동일한 하나의 패키지를 시스템에 여러 버전으로 설치할 수 있습니다. 패키지 내용이 폴더에 작성되면 해당 폴더는 읽기 전용으로 설정됩니다.
 
 NixOS also provides atomic updates; first it downloads (or builds) the packages and files for the new system generation and then switches to it. There are different ways to switch to a new generation; you can tell NixOS to activate it after reboot or you can switch to it at runtime. You can also *test* the new generation by switching to it at runtime, but not setting it as the current system generation. If something in the update process breaks, you can just reboot and automatically and return to a working version of your system.
 
@@ -102,7 +103,7 @@ Nix the package manager uses a purely functional language - which is also called
 
 Nix is a source-based package manager; if there’s no pre-built available in the binary cache, Nix will just build the package from source using its definition. It builds each package in a sandboxed *pure* environment, which is as independent of the host system as possible, thus making binaries reproducible.
 
-## Anonymity-Focused Distributions
+## 익명성 중점 배포판
 
 ### Whonix
 
@@ -143,7 +144,7 @@ Tails includes [uBlock Origin](desktop-browsers.md#ublock-origin) in Tor Browser
 
 By design, Tails is meant to completely reset itself after each reboot. Encrypted [persistent storage](https://tails.boum.org/doc/persistent_storage/index.en.html) can be configured to store some data between reboots.
 
-## Security-focused Distributions
+## 보안성 중점 배포판
 
 ### Qubes OS
 
@@ -153,31 +154,31 @@ By design, Tails is meant to completely reset itself after each reboot. Encrypte
     
     **Qubes OS** is an open-source operating system designed to provide strong security for desktop computing. Qubes is based on Xen, the X Window System, and Linux, and can run most Linux applications and use most of the Linux drivers.
     
-    [:octicons-home-16: Homepage](https://www.qubes-os.org/){ .md-button .md-button--primary }
-    [:material-arrow-right-drop-circle: Overview](os/qubes-overview.md){ .md-button .md-button--primary }
+    [:octicons-home-16: 홈페이지](https://www.qubes-os.org/){ .md-button .md-button--primary }
+    [:material-arrow-right-drop-circle: 개요](os/qubes-overview.md){ .md-button .md-button--primary }
     [:simple-torbrowser:](http://qubesosfasa4zl44o4tws22di6kepyzfeqv3tg4e3ztknltfxqrymdad.onion){ .card-link title="Onion Service" }
-    [:octicons-eye-16:](https://www.qubes-os.org/privacy/){ .card-link title="Privacy Policy" }
-    [:octicons-info-16:](https://www.qubes-os.org/doc/){ .card-link title=Documentation }
-    [:octicons-code-16:](https://github.com/QubesOS/){ .card-link title="Source Code" }
-    [:octicons-heart-16:](https://www.qubes-os.org/donate/){ .card-link title=Contribute }
+    [:octicons-eye-16:](https://www.qubes-os.org/privacy/){ .card-link title="프라이버시 정책" }
+    [:octicons-info-16:](https://www.qubes-os.org/doc/){ .card-link title=문서 }
+    [:octicons-code-16:](https://github.com/QubesOS/){ .card-link title="소스 코드" }
+    [:octicons-heart-16:](https://www.qubes-os.org/donate/){ .card-link title=기부 }
 
 Qubes OS is a Xen-based operating system meant to provide strong security for desktop computing through secure virtual machines (VMs), also known as *Qubes*.
 
 The Qubes OS operating system secures the computer by isolating subsystems (e.g., networking, USB, etc.) and applications in separate VMs. Should one part of the system be compromised, the extra isolation is likely to protect the rest of the system. For further details see the Qubes [FAQ](https://www.qubes-os.org/faq/).
 
-## Criteria
+## 평가 기준
 
-**Please note we are not affiliated with any of the projects we recommend.** In addition to [our standard criteria](about/criteria.md), we have developed a clear set of requirements to allow us to provide objective recommendations. We suggest you familiarize yourself with this list before choosing to use a project, and conduct your own research to ensure it's the right choice for you.
+**Privacy Guides는 권장 목록의 어떠한 프로젝트와도 제휴를 맺지 않았습니다.** 객관적인 권장 목록을 제공하기 위해, [일반적인 평가 기준](about/criteria.md)에 더해 명확한 요구 사항을 정립하였습니다. 어떠한 프로젝트를 선택해 사용하기 전에, 이러한 요구 사항들을 숙지하고 여러분 스스로 조사하는 과정을 거쳐 적절한 선택을 하시기 바랍니다.
 
-!!! example "This section is new"
+!!! example "이 단락은 최근에 만들어졌습니다"
 
-    We are working on establishing defined criteria for every section of our site, and this may be subject to change. If you have any questions about our criteria, please [ask on our forum](https://discuss.privacyguides.net/latest) and don't assume we didn't consider something when making our recommendations if it is not listed here. There are many factors considered and discussed when we recommend a project, and documenting every single one is a work-in-progress.
+    Privacy Guides 팀은 사이트의 모든 항목마다 명확한 평가 기준을 정립하는 중이며, 따라서 세부 내용은 변경될 수 있습니다. 평가 기준에 대해서 질문이 있다면 [포럼에서 문의](https://discuss.privacyguides.net/latest)하시기 바랍니다. (무언가가 목록에 존재하지 않다고 해서 권장 목록을 작성할 때 고려한 적이 없을 것으로 단정 짓지 마세요.) 권장 목록에 어떤 프로젝트를 추가할 때 고려하고 논의해야 할 요소는 매우 많으며, 모든 요소를 문서화하는 것은 현재 진행 중인 작업입니다.
 
-Our recommended operating systems:
+Privacy Guides 권장 운영 체제는 다음 조건을 만족해야 합니다:
 
-- Must be open-source.
-- Must receive regular software and Linux kernel updates.
-- Linux distributions must support [Wayland](os/linux-overview.md#Wayland).
-- Must support full-disk encryption during installation.
-- Must not freeze regular releases for more than 1 year. We [do not recommend](os/linux-overview.md#release-cycle) "Long Term Support" or "stable" distro releases for desktop usage.
-- Must support a wide variety of hardware.
+- 오픈 소스여야 합니다.
+- 소프트웨어 및 Linux 커널 업데이트를 정기적으로 받아야 합니다.
+- Linux 배포판은 [Wayland](os/linux-overview.md#Wayland)를 지원해야 합니다.
+- 설치 과정에서 전체 디스크 암호화를 지원해야 합니다.
+- 정기 릴리스가 1년 이상 고정되어선 안됩니다. Privacy Guides 데스크톱 사용에 있어서 'LTS(Long Term Support, 장기 지원)'이나 'Stable(안정적인)' 릴리스 배포판을 [권장하지 않습니다](os/linux-overview.md#release-cycle).
+- 다양한 하드웨어를 지원해야 합니다.

@@ -3,6 +3,7 @@ meta_title: "프라이버시 중점 모바일(Android, iOS) 웹 브라우저 - P
 title: "모바일 브라우저"
 icon: material/cellphone-information
 description: These browsers are what we currently recommend for standard/non-anonymous internet browsing on your phone.
+cover: mobile-browsers.png
 schema:
   - 
     "@context": http://schema.org

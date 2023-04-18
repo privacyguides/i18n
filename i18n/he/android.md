@@ -1,8 +1,9 @@
 ---
-meta_title: "Android Recommendations: GrapheneOS and DivestOS - Privacy Guides"
+meta_title: "המלצות אנדרואיד: GrapheneOS ו-DivestOS - מדריכי פרטיות"
 title: "אנדרואיד"
 icon: 'simple/android'
 description: אתה יכול להחליף את מערכת ההפעלה בטלפון האנדרואיד שלך בחלופות מאובטחות ומכבדות פרטיות אלה.
+cover: android.png
 schema:
   - 
     "@context": http://schema.org
@@ -222,10 +223,10 @@ DivestOS משתמשת ב-F-Droid כחנות האפליקציות המוגדרת 
 
 !!! recommendation
 
-    ![Auditor logo](assets/img/android/auditor.svg#only-light){ align=right }
-    ![Auditor logo](assets/img/android/auditor-dark.svg#only-dark){ align=right }
+    ![Auditor לוגו](assets/img/android/auditor.svg#only-light){ align=right }
+    ![Auditor לוגו](assets/img/android/auditor-dark.svg#only-dark){ align=right }
     
-    **Auditor** is an app which leverages hardware security features to provide device integrity monitoring by actively validating the identity of a device and the integrity of its operating system. Currently, it only works with GrapheneOS or the stock operating system for [supported devices](https://attestation.app/about#device-support).
+    **Auditor** היא אפליקציה הממנפת תכונות אבטחת חומרה כדי לספק ניטור שלמות המכשיר על ידי אימות אקטיבי של זהות המכשיר ושלמות מערכת ההפעלה שלו. נכון לעכשיו, זה עובד רק עם GrapheneOS או מערכת ההפעלה המניות עבור [מכשירים נתמכים](https://attestation.app/about#device-support).
     
     [:octicons-home-16: דף הבית](https://attestation.app){ .md-button .md-button--primary }
     [:octicons-eye-16:](https://attestation.app/privacy-policy){ .card-link title="מדיניות פרטיות" }

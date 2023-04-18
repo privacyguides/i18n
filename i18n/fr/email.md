@@ -3,6 +3,7 @@ meta_title: "Recommandations de fournisseurs d'email privés et chiffrés - Priv
 title: "Services d'email"
 icon: material/email
 description: Ces fournisseurs d'email constituent un excellent moyen de stocker vos emails en toute sécurité, et nombre d'entre eux proposent un système de chiffrement OpenPGP interopérable avec d'autres fournisseurs.
+cover: email.png
 ---
 
 L'email est pratiquement une nécessité pour utiliser n'importe quel service en ligne, mais nous ne le recommandons pas pour les conversations de particulier à particulier. Plutôt que d'utiliser l'email pour contacter d'autres personnes, envisagez d'utiliser un support de messagerie instantanée qui prend en charge la confidentialité persistante.

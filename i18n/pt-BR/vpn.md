@@ -3,6 +3,7 @@ meta_title: "Recomendações e Comparação de Serviços VPN Privados, Sem Patro
 title: "Serviços de VPN"
 icon: material/vpn
 description: Estes são os melhores serviços VPN para proteger sua privacidade e segurança on-line. Encontre aqui um provedor que não tem como objetivo espionar você.
+cover: vpn.png
 ---
 
 Se você está procurando mais **privacidade** do seu provedor de internet (ISP), ou em uma rede Wi-Fi pública, ou ao fazer torrent de arquivos, uma VPN pode ser a solução para você, desde que entenda os riscos envolvidos. Nós entendemos que estes provedores estão acima dos demais:

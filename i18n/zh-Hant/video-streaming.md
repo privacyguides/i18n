@@ -2,6 +2,7 @@
 title: "影片串流"
 icon: material/video-wireless
 description: 這些服務可讓您串流互聯網內容，而不會記錄個人興趣建立廣告剖繪。
+cover: video-streaming.png
 ---
 
 使用影片串流平臺時的主要威脅是您的串流習慣和訂閱清單可能被用來剖繪分析您的個人喜好。 您應該將這些工具與 [VPN](vpn.md) 或 [Tor](https://www.torproject.org/) 相結合，以便更難分析您的使用情況。

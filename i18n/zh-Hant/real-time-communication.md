@@ -1,27 +1,28 @@
 ---
-meta_title: "The Best Private Instant Messengers - Privacy Guides"
+meta_title: "最好的私人即時通訊軟體 - Privacy Guides"
 title: "即時通訊軟體"
 icon: material/chat-processing
-description: Other instant messengers make all of your private conversations available to the company that runs them.
+description: 其他即時通訊則會讓您所有的私人對話被該軟體公司取得。
+cover: real-time-communication.png
 ---
 
-These are our recommendations for encrypted real-time communication.
+這些是我們所推薦的加密實時通訊軟體。
 
-[Types of Communication Networks :material-arrow-right-drop-circle:](./advanced/communication-network-types.md)
+[通訊網絡 :material-arrow-right-drop-circle:](./advanced/communication-network-types.md)
 
-## Encrypted Messengers
+## 加密傳訊軟體
 
-These messengers are great for securing your sensitive communications.
+這些軟體非常適合保護您的敏感通訊。
 
 ### Signal
 
 !!! recommendation
 
-    ![Signal logo](assets/img/messengers/signal.svg){ align=right }
+    ! [Signal logo] (assets/img/messengers/signal.svg) {align = right}
     
-    **Signal** is a mobile app developed by Signal Messenger LLC. The app provides instant messaging, as well as voice and video calling.
+    * * Signal * *是由Signal Messenger LLC開發的行動應用程式。 該應用程式提供即時消息，以及語音和視頻通話。
     
-    All communications are E2EE. Contact lists are encrypted using your Signal PIN and the server does not have access to them. Personal profiles are also encrypted and only shared with contacts you chat with.
+    所有通信都是E2EE。 連絡人清單會使用您的 Signal PIN 加密，而伺服器無法存取。 個人帳號也會加密，並僅與您聊天的聯絡人分享。
     
     [:octicons-home-16: Homepage](https://signal.org/){ .md-button .md-button--primary }
     [:octicons-eye-16:](https://signal.org/legal/#privacy-policy){ .card-link title="Privacy Policy" }
@@ -29,7 +30,7 @@ These messengers are great for securing your sensitive communications.
     [:octicons-code-16:](https://github.com/signalapp){ .card-link title="Source Code" }
     [:octicons-heart-16:](https://signal.org/donate/){ .card-link title=Contribute }
     
-    ??? downloads
+    ??? 下載
     
         - [:simple-googleplay: Google Play](https://play.google.com/store/apps/details?id=org.thoughtcrime.securesms)
         - [:simple-appstore: App Store](https://apps.apple.com/app/id874139669)
@@ -38,46 +39,46 @@ These messengers are great for securing your sensitive communications.
         - [:simple-apple: macOS](https://signal.org/download/macos)
         - [:simple-linux: Linux](https://signal.org/download/linux)
 
-Signal supports [private groups](https://signal.org/blog/signal-private-group-system/). The server has no record of your group memberships, group titles, group avatars, or group attributes. Signal has minimal metadata when [Sealed Sender](https://signal.org/blog/sealed-sender/) is enabled. The sender address is encrypted along with the message body, and only the recipient address is visible to the server. Sealed Sender is only enabled for people in your contacts list, but can be enabled for all recipients with the increased risk of receiving spam. Signal requires your phone number as a personal identifier.
+Signal支持 [私人羣組](https://signal.org/blog/signal-private-group-system/)。 伺服器不會記錄羣組成員資格、羣組標題、羣組頭像或羣組屬性。 當啓用 [Sealed Sender](https://signal.org/blog/sealed-sender/) 時， Signal具有最小元數據。 發件人地址與訊息內文一起加密，伺服器只可見到收件人地址。 Sealed Sender 功能僅適用於聯絡人清單的成員，但在收訊時也可啟用以防止接收垃圾郵件增加的風險。 Signal 需要您的電話號碼作為個人識別碼。
 
-The protocol was independently [audited](https://eprint.iacr.org/2016/1013.pdf) in 2016. The specification for the Signal protocol can be found in their [documentation](https://signal.org/docs/).
+其協議在2016年獨立進行了 [審計](https://eprint.iacr.org/2016/1013.pdf) 。 Signal 協議的規範可以在他們的 [文檔](https://signal.org/docs/)中找到。
 
-We have some additional tips on configuring and hardening your Signal installation:
+我們有一些關於配置和硬化 Signal 安裝的額外提示：
 
-[Signal Configuration and Hardening :material-arrow-right-drop-circle:](https://blog.privacyguides.org/2022/07/07/signal-configuration-and-hardening/)
+[Signal 配置和硬化 :material-arrow-right-drop-circle:](https://blog.privacyguides.org/2022/07/07/signal-configuration-and-hardening/)
 
 ### SimpleX Chat
 
 !!! recommendation
 
-    ![Simplex logo](assets/img/messengers/simplex.svg){ align=right }
+    ! [Simplex logo] (assets/img/messengers/simplex.svg) {align = right}
     
-    **SimpleX** Chat is an instant messenger that is decentralized and doesn't depend on any unique identifiers such as phone numbers or usernames. Users of SimpleX Chat can scan a QR code or click an invite link to participate in group conversations.
+    * * SimpleX * * Chat 是一個分散的即時通訊工具，不依賴任何獨有識別碼，如電話號碼或用戶名。 SimpleX Chat 使用者可以掃描二維碼或點擊邀請連結以參與羣組對話。
     
     [:octicons-home-16: Homepage](https://simplex.chat){ .md-button .md-button--primary }
     [:octicons-eye-16:](https://github.com/simplex-chat/simplex-chat/blob/stable/PRIVACY.md){ .card-link title="Privacy Policy" }
     [:octicons-info-16:](https://github.com/simplex-chat/simplex-chat/tree/stable/docs){ .card-link title=Documentation}
     [:octicons-code-16:](https://github.com/simplex-chat){ .card-link title="Source Code" }
     
-    ??? downloads
+    ??? 下載
     
         - [:simple-googleplay: Google Play](https://play.google.com/store/apps/details?id=chat.simplex.app)
         - [:simple-appstore: App Store](https://apps.apple.com/us/app/simplex-chat/id1605771084)
         - [:simple-github: GitHub](https://github.com/simplex-chat/simplex-chat/releases)
 
-SimpleX Chat [was audited](https://simplex.chat/blog/20221108-simplex-chat-v4.2-security-audit-new-website.html) by Trail of Bits in October 2022.
+SimpleX Chat 於2022年10月接受 Trail of Bits [審計](https://simplex.chat/blog/20221108-simplex-chat-v4.2-security-audit-new-website.html) 。
 
-Currently SimpleX Chat only provides a client for Android and iOS. Basic group chatting functionality, direct messaging, editing of messages and markdown are supported. E2EE Audio and Video calls are also supported.
+目前， SimpleX Chat 僅爲 Android 和 iOS 提供客戶端。 支援基本羣組聊天功能、直接傳送訊息、編輯訊息和Markdown。 也支持 E2EE 音頻和視頻通話。
 
-Your data can be exported, and imported onto another device, as there are no central servers where this is backed up.
+您可以匯出資料，並匯入到另一個設備，因為沒有中央伺服器備份。
 
 ### Briar
 
 !!! recommendation
 
-    ![Briar logo](assets/img/messengers/briar.svg){ align=right }
+    ! [Briar logo] (assets/img/messengers/briar.svg) {align = right}
     
-    **Briar** is an encrypted instant messenger that [connects](https://briarproject.org/how-it-works/) to other clients using the Tor Network. Briar can also connect via Wi-Fi or Bluetooth when in local proximity. Briar’s local mesh mode can be useful when internet availability is a problem.
+    * * Briar * *是 [連接](https://briarproject.org/how-it-works/)其他使用 Tor網路客戶端的加密即時通訊工具。 Briar 還可以在本地附近通過 Wi-Fi 或藍牙連接。 當無法使用網際網路時， Briar 的本地網格(mesh)模式可能很有用。
     
     [:octicons-home-16: Homepage](https://briarproject.org/){ .md-button .md-button--primary }
     [:octicons-eye-16:](https://briarproject.org/privacy-policy/){ .card-link title="Privacy Policy" }
@@ -85,43 +86,43 @@ Your data can be exported, and imported onto another device, as there are no cen
     [:octicons-code-16:](https://code.briarproject.org/briar/briar){ .card-link title="Source Code" }
     [:octicons-heart-16:](https://briarproject.org/){ .card-link title="Donation options are listed on the bottom of the homepage" }
     
-    ??? downloads
+    ??? 下載
     
         - [:simple-googleplay: Google Play](https://play.google.com/store/apps/details?id=org.briarproject.briar.android)
         - [:simple-windows11: Windows](https://briarproject.org/download-briar-desktop/)
         - [:simple-linux: Linux](https://briarproject.org/download-briar-desktop/)
         - [:simple-flathub: Flathub](https://flathub.org/apps/details/org.briarproject.Briar)
 
-To add a contact on Briar, you must both add each other first. You can either exchange `briar://` links or scan a contact’s QR code if they are nearby.
+Briar 要新增聯絡人，必須先彼此互加。 您可以交換 `briar://` 鏈結或是掃瞄對方的二維碼。
 
-The client software was independently [audited](https://briarproject.org/news/2017-beta-released-security-audit/), and the anonymous routing protocol uses the Tor network which has also been audited.
+客戶端軟體被獨立 [稽核](https://briarproject.org/news/2017-beta-released-security-audit/)，而匿名路由協議使用Tor 網路也接受了審計。
 
-Briar has a fully [published specification](https://code.briarproject.org/briar/briar-spec).
+Briar有一個完整 [發布的規範](https://code.briarproject.org/briar/briar-spec)。
 
-Briar supports perfect forward secrecy by using the Bramble [Handshake](https://code.briarproject.org/briar/briar-spec/blob/master/protocols/BHP.md) and [Transport](https://code.briarproject.org/briar/briar-spec/blob/master/protocols/BTP.md) protocol.
+Briar 使用 Bramble [Handshake](https://code.briarproject.org/briar/briar-spec/blob/master/protocols/BHP.md) 和 [Transport](https://code.briarproject.org/briar/briar-spec/blob/master/protocols/BTP.md) 協議支持完美的前向保密。
 
-## Additional Options
+## 額外選項
 
 !!! 警告
 
-    These messengers do not have Perfect [Forward Secrecy](https://en.wikipedia.org/wiki/Forward_secrecy) (PFS), and while they fulfill certain needs that our previous recommendations may not, we do not recommend them for long-term or sensitive communications. Any key compromise among message recipients would affect the confidentiality of **all** past communications.
+    這些通訊軟體沒有 Perfect [Forward Secrecy] (https://zh.wikipedia.org/wiki/Forward_secrecy) (PFS) ，雖然他們滿足了我們推薦產品所無法滿足的某些需求，但不建議長期使用或用在敏感通訊。 訊息收件人之間的任何密鑰洩露都會影響* *所有* *過去通信的機密性。
 
 ### Element
 
 !!! recommendation
 
-    ![Element logo](assets/img/messengers/element.svg){ align=right }
+    ! [Element logo] (assets/img/messengers/element.svg) {align = right}
     
-    **Element** is the reference client for the [Matrix](https://matrix.org/docs/guides/introduction) protocol, an [open standard](https://matrix.org/docs/spec) for secure decentralized real-time communication.
+    * * Element * *是 [Matrix](https://matrix.org/docs/guides/introduction)協議的參考用戶端，這是一個[開放標準] (https://matrix.org/docs/spec) 、安全去中心化實時通訊。
     
-    Messages and files shared in private rooms (those which require an invite) are by default E2EE as are one to one voice and video calls.
+    在私人聊天室（需透過邀請加入）共享的訊息和文件預設為 E2EE ，一對一的語音和視訊通話也是如此。
     
     [:octicons-home-16: Homepage](https://element.io/){ .md-button .md-button--primary }
     [:octicons-eye-16:](https://element.io/privacy){ .card-link title="Privacy Policy" }
     [:octicons-info-16:](https://element.io/help){ .card-link title=Documentation}
     [:octicons-code-16:](https://github.com/vector-im){ .card-link title="Source Code" }
     
-    ??? downloads
+    ??? 下載
     
         - [:simple-googleplay: Google Play](https://play.google.com/store/apps/details?id=im.vector.app)
         - [:simple-appstore: App Store](https://apps.apple.com/app/vector/id1083446067)
@@ -131,30 +132,33 @@ Briar supports perfect forward secrecy by using the Bramble [Handshake](https://
         - [:simple-linux: Linux](https://element.io/get-started)
         - [:octicons-globe-16: Web](https://app.element.io)
 
-Profile pictures, reactions, and nicknames are not encrypted.
+個人資料圖片、反應和暱稱不會加密。
 
-Group voice and video calls are [not](https://github.com/vector-im/element-web/issues/12878) E2EE, and use Jitsi, but this is expected to change with [Native Group VoIP Signalling](https://github.com/matrix-org/matrix-doc/pull/3401). Group calls have [no authentication](https://github.com/vector-im/element-web/issues/13074) currently, meaning that non-room participants can also join the calls. We recommend that you do not use this feature for private meetings.
+羣組語音和視視通話 [則不是](https://github.com/vector-im/element-web/issues/12878) E2EE ，而是使用Jitsi ，但預計將隨著 [Native Group VoIP Signalling](https://github.com/matrix-org/matrix-doc/pull/3401)而發生變化。 群組通目前 [沒有驗證](https://github.com/vector-im/element-web/issues/13074) ，因此其它人員也可以加入。 我們建議您不要將此功能用於私人會議。
 
-The Matrix protocol itself [theoretically supports PFS](https://gitlab.matrix.org/matrix-org/olm/blob/master/docs/megolm.md#partial-forward-secrecy), however this is [not currently supported in Element](https://github.com/vector-im/element-web/issues/7101) due to it breaking some aspects of the user experience such as key backups and shared message history.
+Matrix 協議本身 [理論上支援 PFS](https://gitlab.matrix.org/matrix-org/olm/blob/master/docs/megolm.md#partial-forward-secrecy)，但目前Element </a> 不支援 PFS
+，因為它破壞一些使用者體驗，例如密鑰備份和共享訊息歷史記錄。</p> 
 
-The protocol was independently [audited](https://matrix.org/blog/2016/11/21/matrixs-olm-end-to-end-encryption-security-assessment-released-and-implemented-cross-platform-on-riot-at-last) in 2016. The specification for the Matrix protocol can be found in their [documentation](https://spec.matrix.org/latest/). The [Olm](https://matrix.org/docs/projects/other/olm) cryptographic ratchet used by Matrix is an implementation of Signal’s [Double Ratchet algorithm](https://signal.org/docs/specifications/doubleratchet/).
+其協議在 2016年獨立進行了 [審計](https://matrix.org/blog/2016/11/21/matrixs-olm-end-to-end-encryption-security-assessment-released-and-implemented-cross-platform-on-riot-at-last) 。 Matrix 協議的規範可以在他們的 [文檔](https://spec.matrix.org/latest/)中找到。 Matrix 使用的 [Olm](https://matrix.org/docs/projects/other/olm) 加密棘輪是Signal [Double Ratchet 演算法](https://signal.org/docs/specifications/doubleratchet/)的實現。
+
+
 
 ### Session
 
 !!! recommendation
 
-    ![Session logo](assets/img/messengers/session.svg){ align=right }
+    ! [Session logo] (assets/img/messengers/session.svg) {align = right}
     
-    **Session** is a decentralized messenger with a focus on private, secure, and anonymous communications. Session offers support for direct messages, group chats, and voice calls.
+    * * Session * *是一款分散式通訊軟體，專注於私密、安全和匿名。 Session 支援直接訊息、羣組聊天和語音通話。
     
-    Session uses the decentralized [Oxen Service Node Network](https://oxen.io/) to store and route messages. Every encrypted message is routed through three nodes in the Oxen Service Node Network, making it virtually impossible for the nodes to compile meaningful information on those using the network.
+    Session使用去中心化的[Oxen Service Node Network] (https://oxen.io/)來儲存和路由訊息。 每條加密訊息都通過 Oxen Service Node Network 中三個節點路由，使得節點幾乎不可能編譯有意義信息給此網路的使用者。
     
     [:octicons-home-16: Homepage](https://getsession.org/){ .md-button .md-button--primary }
     [:octicons-eye-16:](https://getsession.org/privacy-policy){ .card-link title="Privacy Policy" }
     [:octicons-info-16:](https://getsession.org/faq){ .card-link title=Documentation}
     [:octicons-code-16:](https://github.com/oxen-io){ .card-link title="Source Code" }
     
-    ??? downloads
+    ??? 下載
     
         - [:simple-googleplay: Google Play](https://play.google.com/store/apps/details?id=network.loki.messenger)
         - [:simple-appstore: App Store](https://apps.apple.com/app/id1470168868)
@@ -162,14 +166,17 @@ The protocol was independently [audited](https://matrix.org/blog/2016/11/21/matr
         - [:simple-windows11: Windows](https://getsession.org/download)
         - [:simple-apple: macOS](https://getsession.org/download)
         - [:simple-linux: Linux](https://getsession.org/download)
+    
 
-Session allows for E2EE in one-on-one chats or closed groups which allow for up to 100 members. Open groups have no restriction on the number of members, but are open by design.
+會話允許E2EE在一對一聊天或封閉羣組中，最多可容納100名成員。 開放羣組對成員數量沒有限制，從設計上來說是開放的。
 
-Session does [not](https://getsession.org/blog/session-protocol-technical-information) support PFS, which is when an encryption system automatically and frequently changes the keys it uses to encrypt and decrypt information, such that if the latest key is compromised it exposes a smaller portion of sensitive information.
+Session [不](https://getsession.org/blog/session-protocol-technical-information)支援 PFS, PFS 加密系統會自動經常變更密鑰，假如最新密鑰被破壞也只洩漏一小部份敏感資訊。 
 
-Oxen requested an independent audit for Session in March of 2020. The audit [concluded](https://getsession.org/session-code-audit) in April of 2021, “The overall security level of this application is good and makes it usable for privacy-concerned people.”
+2020年3月Oxen 對 Session 進行獨立審計。 審計 [在2021年4月完成](https://getsession.org/session-code-audit) ， “此應用程式整體安全級別良好，可供關注隱私的人使用。
 
-Session has a [whitepaper](https://arxiv.org/pdf/2002.04609.pdf) describing the technicals of the app and protocol.
+Session [白皮書](https://arxiv.org/pdf/2002.04609.pdf) ，描述了應用程式和協議的技術。
+
+
 
 ## 標準
 
@@ -178,18 +185,21 @@ Session has a [whitepaper](https://arxiv.org/pdf/2002.04609.pdf) describing the 
 !!! 示例“此部分是新的”
 
     我們正在努力為我們網站的每個部分建立定義的標準，這可能會有所變化。 如果您對我們的標準有任何疑問，請在[論壇上提問] (https://discuss.privacyguides.net/latest) ，如果沒有列出，請不要認為我們在提出建議時沒有考慮到某些事情。 當我們推薦一個項目時，有許多因素被考慮和討論，記錄每一個項目都是正在進行式。
+    
 
-- Must have open-source clients.
-- Must use E2EE for private messages by default.
-- Must support E2EE for all messages.
-- Must have been independently audited.
+- 一定要有開源客戶端。
+- 預設情況下，私人訊息必須使用E2EE。
+- 必須支援所有訊息都可 E2EE。
+- 必須通過獨立審計。
+
+
 
 ### 最佳案例
 
 最佳案例標準代表了我們希望從這個類別的完美項目應具備的功能。 推薦產品可能沒有此功能，但若有這些功能則會讓排名更為提高。
 
-- Should have Perfect Forward Secrecy.
-- Should have open-source servers.
-- Should be decentralized, i.e. federated or P2P.
-- Should use E2EE for all messages by default.
-- Should support Linux, macOS, Windows, Android, and iOS.
+- 要有完美的向前保密機制。
+- 應該有開源伺服器。
+- 應該是分散的，即聯邦式或 P2P。
+- 預設情況下，所有訊息皆應使用 E2EE。
+- 應支持Linux、macOS、Windows、Android和iOS。

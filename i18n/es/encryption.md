@@ -3,6 +3,7 @@ meta_title: "Software de Cifrado Recomendado:: VeraCrypt, Cryptomator, PicoCrypt
 title: "Software de Cifrado"
 icon: material/file-lock
 description: El cifrado de los datos es la única forma de controlar quién puede acceder a ellos. Estas herramientas le permiten cifrar sus correos electrónicos y cualquier otro archivo.
+cover: encryption.png
 ---
 
 El cifrado de los datos es la única forma de controlar quién puede acceder a ellos. Si actualmente no está utilizando software de cifrado para su disco duro, correos electrónicos o archivos, debería elegir una opción aquí.

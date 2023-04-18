@@ -3,6 +3,7 @@ meta_title: "Recommended Encryption Software: VeraCrypt, Cryptomator, PicoCrypt,
 title: "Versleutelingssoftware"
 icon: material/file-lock
 description: Encryptie van gegevens is de enige manier om te controleren wie er toegang toe heeft. Met deze tools kun je jouw e-mails en andere bestanden versleutelen.
+cover: encryption.png
 ---
 
 Encryptie van gegevens is de enige manier om te controleren wie er toegang toe heeft. Als je momenteel geen encryptiesoftware gebruikt voor jouw harde schijf, e-mails of bestanden, moet je hier een optie kiezen.

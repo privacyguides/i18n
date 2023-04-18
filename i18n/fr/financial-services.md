@@ -1,6 +1,7 @@
 ---
 title: Services financiers
 icon: material/bank
+cover: financial-services.png
 ---
 
 Effectuer des paiements en ligne est l'un des plus grands défis en matière de protection de la vie privée. Ces services peuvent vous aider à protéger votre vie privée contre les marchands et autres traqueurs, à condition que vous ayez une bonne compréhension de la façon d'effectuer des paiements privés de manière efficace. Nous vous encourageons vivement à lire notre article sur les paiements avant d'effectuer tout achat :
@@ -74,9 +75,9 @@ Ces services vous permettent d'acheter des cartes-cadeaux pour une variété de 
 
 !!! recommendation
 
-    ![CakePay logo](assets/img/financial-services/coincards.svg){ align=right }
+    ![Logo CakePay](assets/img/financial-services/coincards.svg){ align=right }
     
-    **CoinCards** (available in the US and Canada) allows you to purchase gift cards for a large variety of merchants.
+    **CoinCards** (disponible aux États-Unis, au Canada et au Royaume-Uni) vous permet d'acheter des cartes-cadeaux auprès d'un grand nombre de commerçants.
     
     [:octicons-home-16: Page d'accueil](https://coincards.com/){ .md-button .md-button--primary }
     [:octicons-eye-16:](https://coincards.com/privacy-policy/){ .card-link title="Politique de confidentialité" }

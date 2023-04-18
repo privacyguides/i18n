@@ -2,6 +2,7 @@
 title: "Обмен Файлами"
 icon: material/email-open
 description: These email clients are privacy-respecting and support OpenPGP email encryption.
+cover: email-clients.png
 ---
 
 Наш список рекомендаций содержит только почтовые клиенты, которые поддерживают [OpenPGP](/encryption/#openpgp) и безопасную аутентификацию (например, [OAuth](https://ru.wikipedia.org/wiki/OAuth)). OAuth позволяет использовать [многофакторную аутентификацию](/multi-factor-authentication) и предотвратить кражу учетных записей.

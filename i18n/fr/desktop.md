@@ -2,6 +2,7 @@
 title: "Bureau/PC"
 icon: simple/linux
 description: Les distributions Linux sont généralement recommandées pour la protection de la vie privée et la liberté logicielle.
+cover: desktop.png
 ---
 
 Les distributions Linux sont généralement recommandées pour la protection de la vie privée et la liberté logicielle. Si vous n'utilisez pas encore Linux, vous trouverez ci-dessous quelques distributions que nous vous suggérons d'essayer, ainsi que des conseils généraux d'amélioration de la sécurité et de la confidentialité qui s'appliquent à de nombreuses distributions Linux.

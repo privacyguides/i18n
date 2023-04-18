@@ -3,6 +3,7 @@ meta_title: "Recomendações de E-mail Privado Criptografado — Privacy Guides"
 title: "Serviços de Email"
 icon: material/email
 description: Esses provedores de email oferecem um ótimo lugar para armazenar seus emails de forma segura, e muitos oferecem criptografia OpenPGP compatível com outros provedores.
+cover: email.png
 ---
 
 O "email" é praticamente uma necessidade para usar qualquer serviço “online”, contudo não o recomendamos para conversas pessoais. Ao invés de utilizar email para falar com outras pessoas, considere utilizar um meio de mensagens instantâneas que suporte sigilo encaminhado.

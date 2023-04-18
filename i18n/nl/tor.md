@@ -3,6 +3,7 @@ meta_title: "Tor Browser and Network: Anonymous Web Browsing - Privacy Guides"
 title: "Tor Netwerk"
 icon: simple/torproject
 description: Bescherm je surf gedrag tegen pottenkijkers door gebruik te maken van het Tor netwerk, een beveiligd netwerk dat censuur omzeilt.
+cover: tor.png
 schema:
   - 
     "@context": http://schema.org

@@ -2,6 +2,7 @@
 title: "Videouppspelning"
 icon: material/video-wireless
 description: These networks allow you to stream internet content without building an advertising profile based on your interests.
+cover: video-streaming.png
 ---
 
 Det främsta hotet när du använder en plattform för videostreaming är att dina streamingvanor och prenumerationslistor kan användas för att profilera dig. Du bör kombinera dessa verktyg med en [VPN](vpn.md) eller [Tor](https://www.torproject.org/) för att göra det svårare att profilera din användning.

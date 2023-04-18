@@ -1,5 +1,5 @@
 ---
-meta_title: "How Do VPNs Protect Your Privacy? Our VPN Overview - Privacy Guides"
+meta_title: "כיצד VPNs מגנים על הפרטיות שלך? סקירת ה-VPN שלנו -Privacy Guides"
 title: סקירה כללית של VPN
 icon: material/vpn
 description: רשתות וירטואליות פרטיות מעבירות את הסיכון מספק שירותי האינטרנט שלך לצד שלישי שאתה סומך עליו. כדאי לזכור את הדברים האלה.
@@ -49,7 +49,7 @@ VPNs אינם יכולים להצפין נתונים מחוץ לחיבור בי�
 
 ## מה לגבי ספקי VPN המספקים צמתי Tor?
 
-אל תשתמש בתכונה זו. הנקודה בשימוש ב-Tor היא שאינך סומך על ספק ה-VPN שלך. נכון לעכשיו Tor תומך רק בפרוטוקול [TCP](https://en.wikipedia.org/wiki/Transmission_Control_Protocol). [UDP](https://en.wikipedia.org/wiki/User_Datagram_Protocol) (used in [WebRTC](https://en.wikipedia.org/wiki/WebRTC) for voice and video sharing, the new [HTTP3/QUIC](https://en.wikipedia.org/wiki/HTTP/3) protocol, etc.), [ICMP](https://en.wikipedia.org/wiki/Internet_Control_Message_Protocol) and other packets will be dropped. כדי לפצות על כך, ספקי VPN בדרך כלל ינתבו את כל החבילות שאינן TCP דרך שרת ה-VPN שלהם (הקפיצה הראשונה שלך). זה המקרה עם [ProtonVPN](https://protonvpn.com/support/tor-vpn/). בנוסף, בעת שימוש בהגדרת Tor over VPN זו, אין לך שליטה על תכונות Tor חשובות אחרות כגון [כתובת יעד מבודדת](https://www.whonix.org/wiki/Stream_Isolation) (באמצעות מעגל Tor שונה עבור כל דומיין שאתה מבקר בו).
+אל תשתמש בתכונה זו. הנקודה בשימוש ב-Tor היא שאינך סומך על ספק ה-VPN שלך. נכון לעכשיו Tor תומך רק בפרוטוקול [TCP](https://en.wikipedia.org/wiki/Transmission_Control_Protocol). [UDP](https://en.wikipedia.org/wiki/User_Datagram_Protocol) (בשימוש [WebRTC](https://en.wikipedia.org/wiki/WebRTC) לשיתוף קול ווידאו, פרוטוקול [HTTP3/QUIC](https://en.wikipedia.org/wiki/HTTP/3) החדש וכו'), [ICMP](https://en.wikipedia.org/wiki/Internet_Control_Message_Protocol) ומנות אחרות יוסרו. כדי לפצות על כך, ספקי VPN בדרך כלל ינתבו את כל החבילות שאינן TCP דרך שרת ה-VPN שלהם (הקפיצה הראשונה שלך). זה המקרה עם [ProtonVPN](https://protonvpn.com/support/tor-vpn/). בנוסף, בעת שימוש בהגדרת Tor over VPN זו, אין לך שליטה על תכונות Tor חשובות אחרות כגון [כתובת יעד מבודדת](https://www.whonix.org/wiki/Stream_Isolation) (באמצעות מעגל Tor שונה עבור כל דומיין שאתה מבקר בו).
 
 יש לראות את התכונה כדרך נוחה לגשת לרשת Tor, לא להישאר אנונימית. לאנונימיות נאותה, השתמש בדפדפן Tor, TorSocks או שער Tor.
 

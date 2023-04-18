@@ -1,13 +1,14 @@
 ---
-meta_title: "The Best Password Managers to Protect Your Privacy and Security - Privacy Guides"
+meta_title: "מנהלי הסיסמאות הטובים ביותר להגנה על הפרטיות והאבטחה שלך - Privacy Guides"
 title: "מנהלי סיסמאות"
 icon: material/form-textbox-password
 description: מנהלי סיסמאות מאפשרים לך לאחסן ולנהל בצורה מאובטחת סיסמאות ואישורים אחרים.
+cover: passwords.png
 schema:
   - 
     "@context": http://schema.org
     "@type": WebPage
-    name: Password Manager Recommendations
+    name: המלצות למנהל סיסמאות
     url: "./"
   - 
     "@context": http://schema.org
@@ -18,7 +19,7 @@ schema:
     sameAs: https://en.wikipedia.org/wiki/Bitwarden
     applicationCategory: מנהל הסיסמאות
     operatingSystem:
-      - Windows
+      - ווינדוס
       - macOS
       - לינוקס
       - אנדרואיד
@@ -36,7 +37,7 @@ schema:
     sameAs: https://en.wikipedia.org/wiki/1Password
     applicationCategory: מנהל הסיסמאות
     operatingSystem:
-      - Windows
+      - ווינדוס
       - macOS
       - לינוקס
       - אנדרואיד
@@ -68,7 +69,7 @@ schema:
     sameAs: https://en.wikipedia.org/wiki/KeePassXC
     applicationCategory: מנהל הסיסמאות
     operatingSystem:
-      - Windows
+      - ווינדוס
       - macOS
       - לינוקס
     subjectOf:
@@ -107,7 +108,7 @@ schema:
     url: https://www.gopass.pw/
     applicationCategory: מנהל הסיסמאות
     operatingSystem:
-      - Windows
+      - ווינדוס
       - macOS
       - לינוקס
       - FreeBSD

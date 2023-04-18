@@ -3,6 +3,7 @@ meta_title: "Rimuovere le PII con i metadata scrubber e gli strumenti di riduzio
 title: "Rimozione di dati e metadati"
 icon: material/tag-remove
 description: Utilizza questi strumenti per rimuovere metadati come la posizione GPS e altre informazioni identificative dalle foto e dai file che condividete.
+cover: data-redaction.png
 ---
 
 Quando vengono condivisi file, è importante rimuovere i relativi metadata. I file immagine includono comunemente dati [Exif](https://it.wikipedia.org/wiki/Exif). I metadata delle foto, a volte, includono anche le coordinate GPS.

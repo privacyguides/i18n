@@ -2,6 +2,7 @@
 title: "路由器軔體"
 icon: material/router-wireless
 description: 這些替代作業系統可用於保護您的路由器或Wi-Fi接入點。
+cover: router.png
 ---
 
 以下是一些替代操作系統，可用於路由器， Wi-Fi接入點等。

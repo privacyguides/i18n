@@ -2,6 +2,7 @@
 title: "Videó Streamelés"
 icon: material/video-wireless
 description: These networks allow you to stream internet content without building an advertising profile based on your interests.
+cover: video-streaming.png
 ---
 
 A videó streamelő platformok használatakor az az elsődleges veszély, hogy a streaming-szokásaid és feliratkozás listáid felhasználhatók profilalkotásra rólad. Ezeket az eszközöket érdemes keverned egy [VPN](vpn.md)-nel vagy [Tor](https://www.torproject.org/)-ra, hogy megnehezítsd a felhasználás szokásaidról készített profilalkotást.

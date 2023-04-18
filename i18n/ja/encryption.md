@@ -1,8 +1,9 @@
 ---
-meta_title: "Recommended Encryption Software: VeraCrypt, Cryptomator, PicoCrypt, and OpenPGP - Privacy Guides"
+meta_title: "おすすめの暗号化ソフトウェア: VeraCrypt、Cryptomator、PicoCrypt、OpenPGP - Privacy Guides"
 title: "暗号化ソフトウェア"
 icon: material/file-lock
 description: Encryption of data is the only way to control who can access it. These tools allow you to encrypt your emails and any other files.
+cover: encryption.png
 ---
 
 Encryption of data is the only way to control who can access it. If you are currently not using encryption software for your hard disk, emails or files, you should pick an option here.
@@ -11,7 +12,7 @@ Encryption of data is the only way to control who can access it. If you are curr
 
 The options listed here are multi-platform and great for creating encrypted backups of your data.
 
-### Cryptomator (Cloud)
+### Cryptomator（クラウド）
 
 !!! recommendation
 
@@ -85,7 +86,7 @@ When encrypting with VeraCrypt, you have the option to select from different [ha
 
 Truecrypt has been [audited a number of times](https://en.wikipedia.org/wiki/TrueCrypt#Security_audits), and VeraCrypt has also been [audited separately](https://en.wikipedia.org/wiki/VeraCrypt#VeraCrypt_audit).
 
-## OS Full Disk Encryption
+## OSのフルディスク暗号化
 
 Modern operating systems include [FDE](https://en.wikipedia.org/wiki/Disk_encryption) and will have a [secure cryptoprocessor](https://en.wikipedia.org/wiki/Secure_cryptoprocessor).
 
@@ -334,7 +335,7 @@ When encrypting with PGP, you have the option to configure different options in 
     
         - [:simple-googleplay: Google Play](https://play.google.com/store/apps/details?id=org.sufficientlysecure.keychain)
 
-## Criteria
+## 基準
 
 **Please note we are not affiliated with any of the projects we recommend.** In addition to [our standard criteria](about/criteria.md), we have developed a clear set of requirements to allow us to provide objective recommendations. We suggest you familiarize yourself with this list before choosing to use a project, and conduct your own research to ensure it's the right choice for you.
 

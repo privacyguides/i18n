@@ -3,6 +3,7 @@ meta_title: "Software di crittografia consigliati: VeraCrypt, Cryptomator, PicoC
 title: "Software di crittografia"
 icon: material/file-lock
 description: La crittografia dei dati è l'unico modo per controllare chi può accedervi. Questi strumenti ti consentono di crittografare le tue email e qualsiasi altro file.
+cover: encryption.png
 ---
 
 La crittografia dei dati è l'unico modo per controllare chi può accedervi. Se al momento non stai utilizzando software per la crittografia del tuo hard disk, delle email, o dei file, dovresti scegliere una delle seguenti opzioni.

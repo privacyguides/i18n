@@ -2,6 +2,7 @@
 title: "Desktop/PC"
 icon: simple/linux
 description: Linux-distributies worden algemeen aanbevolen voor privacybescherming en softwarevrijheid.
+cover: desktop.png
 ---
 
 Linux-distributies worden algemeen aanbevolen voor privacybescherming en softwarevrijheid. Als je nog geen Linux gebruikt, zijn hieronder enkele distributies die we aanraden om uit te proberen, evenals enkele algemene tips om je privacy en veiligheid te verbeteren die op veel Linux-distributies van toepassing zijn.

@@ -2,6 +2,7 @@
 title: "電子郵件客戶端程式"
 icon: material/email-open
 description: 這些電子郵件客戶端尊重隱私並支持OpenPGP電子郵件加密。
+cover: email-clients.png
 ---
 
 我們的推薦清單包含支援 [OpenPGP](encryption.md#openpgp) 和如[Open Authorization (OAuth)](https://en.wikipedia.org/wiki/OAuth)強認證的電子郵件用戶端 。 OAuth允許您使用 [多因素驗證](basics/multi-factor-authentication.md) 並防止帳戶被盜。

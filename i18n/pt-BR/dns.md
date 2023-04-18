@@ -2,6 +2,7 @@
 title: "Introdução ao DNS"
 icon: material/dns
 description: Estes são alguns provedores de DNS criptografados para os quais recomendamos mudar, para substituir a configuração padrão de seu ISP.
+cover: dns.png
 ---
 
 DNS criptografado com servidores de terceiros só deve ser usado para contornar o [bloqueio básico de DNS](https://en.wikipedia.org/wiki/DNS_blocking) quando você pode ter certeza de que não haverá nenhuma consequência. DNS criptografado não ajudará você a esconder nenhuma de suas atividades de navegação.

@@ -2,6 +2,7 @@
 title: "File Sharing and Sync"
 icon: material/share-variant
 description: Dowiedz się, jak prywatnie udostępniać piki pomiędzy swoimi urządzeniami, ze znajomymi lub rodziną lub anonimowo w sieci.
+cover: file-sharing.png
 ---
 
 Dowiedz się, jak prywatnie udostępniać piki pomiędzy swoimi urządzeniami, ze znajomymi lub rodziną lub anonimowo w sieci.
