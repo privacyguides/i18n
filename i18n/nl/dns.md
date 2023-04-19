@@ -11,16 +11,16 @@ Versleutelde DNS met servers van derden zou alleen moeten worden gebruikt om sim
 
 ## Aanbevolen Providers
 
-| DNS-provider                                                                    | Privacybeleid                                                                                         | Protocollen                                                   | Loggen        | ECS       | Filteren                                                                                                                                                  |
-| ------------------------------------------------------------------------------- | ----------------------------------------------------------------------------------------------------- | ------------------------------------------------------------- | ------------- | --------- | --------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| [**AdGuard**](https://adguard.com/en/adguard-dns/overview.html)                 | [:octicons-link-external-24:](https://adguard.com/en/privacy/dns.html)                                | Cleartext <br> DoH/3 <br> DoT <br> DNSCrypt | Beetje[^1]    | Nee       | Gebaseerd op server keuze. De filterlijst die wordt gebruikt, is hier te vinden. [:octicons-link-external-24:](https://github.com/AdguardTeam/AdGuardDNS) |
-| [**Cloudflare**](https://developers.cloudflare.com/1.1.1.1/setting-up-1.1.1.1/) | [:octicons-link-external-24:](https://developers.cloudflare.com/1.1.1.1/privacy/public-dns-resolver/) | Cleartext <br> DoH/3 <br> DoT                     | Beetje[^2]    | Nee       | Gebaseerd op server keuze.                                                                                                                                |
-| [**Control D**](https://controld.com/free-dns)                                  | [:octicons-link-external-24:](https://controld.com/privacy)                                           | Cleartext <br> DoH/3 <br> DoT <br> DoQ      | Optioneel[^3] | Nee       | Gebaseerd op server keuze.                                                                                                                                |
-| [**Mullvad**](https://mullvad.net/en/help/dns-over-https-and-dns-over-tls)      | [:octicons-link-external-24:](https://mullvad.net/en/help/no-logging-data-policy/)                    | DoH <br> DoT                                            | Geen[^4]      | Nee       | Gebaseerd op server keuze. De filterlijst die wordt gebruikt, is hier te vinden. [:octicons-link-external-24:](https://github.com/mullvad/dns-adblock)    |
-| [**NextDNS**](https://www.nextdns.io)                                           | [:octicons-link-external-24:](https://www.nextdns.io/privacy)                                         | Cleartext <br> DoH/3 <br> DoT                     | Optioneel[^5] | Optioneel | Gebaseerd op server keuze.                                                                                                                                |
-| [**Quad9**](https://quad9.net)                                                  | [:octicons-link-external-24:](https://quad9.net/privacy/policy/)                                      | Cleartext <br> DoH <br> DoT <br> DNSCrypt   | Beetje[^6]    | Optioneel | Gebaseerd op server keuze, malware blokkering is standaard.                                                                                               |
+| DNS-provider                                                                    | Privacybeleid                                                                                         | Protocollen                                                   | Loggen        | ECS       | Filteren                                                                                                                                                        |
+| ------------------------------------------------------------------------------- | ----------------------------------------------------------------------------------------------------- | ------------------------------------------------------------- | ------------- | --------- | --------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| [**AdGuard**](https://adguard.com/en/adguard-dns/overview.html)                 | [:octicons-link-external-24:](https://adguard.com/en/privacy/dns.html)                                | Cleartext <br> DoH/3 <br> DoT <br> DNSCrypt | Beetje[^1]    | Nee       | Based on personal configuration. De filterlijst die wordt gebruikt, is hier te vinden. [:octicons-link-external-24:](https://github.com/AdguardTeam/AdGuardDNS) |
+| [**Cloudflare**](https://developers.cloudflare.com/1.1.1.1/setting-up-1.1.1.1/) | [:octicons-link-external-24:](https://developers.cloudflare.com/1.1.1.1/privacy/public-dns-resolver/) | Cleartext <br> DoH/3 <br> DoT                     | Beetje[^2]    | Nee       | Based on personal configuration.                                                                                                                                |
+| [**Control D**](https://controld.com/free-dns)                                  | [:octicons-link-external-24:](https://controld.com/privacy)                                           | Cleartext <br> DoH/3 <br> DoT <br> DoQ      | Optioneel[^3] | Nee       | Based on personal configuration.                                                                                                                                |
+| [**Mullvad**](https://mullvad.net/en/help/dns-over-https-and-dns-over-tls)      | [:octicons-link-external-24:](https://mullvad.net/en/help/no-logging-data-policy/)                    | DoH <br> DoT                                            | Geen[^4]      | Nee       | Based on personal configuration. De filterlijst die wordt gebruikt, is hier te vinden. [:octicons-link-external-24:](https://github.com/mullvad/dns-adblock)    |
+| [**NextDNS**](https://www.nextdns.io)                                           | [:octicons-link-external-24:](https://www.nextdns.io/privacy)                                         | Cleartext <br> DoH/3 <br> DoT                     | Optioneel[^5] | Optioneel | Based on personal configuration.                                                                                                                                |
+| [**Quad9**](https://quad9.net)                                                  | [:octicons-link-external-24:](https://quad9.net/privacy/policy/)                                      | Cleartext <br> DoH <br> DoT <br> DNSCrypt   | Beetje[^6]    | Optioneel | Based on personal configuration, Malware blocking by default.                                                                                                   |
 
-## Criteria
+### Criteria
 
 **Wij zijn niet verbonden aan de projecten die wij aanbevelen.** Naast [onze standaard criteria](about/criteria.md) hebben wij een duidelijke reeks eisen opgesteld om objectieve aanbevelingen te kunnen doen. We raden je aan deze lijst goed door te lezen voordat je een project kiest en je eigen onderzoek te doen om er zeker van te zijn dat het de juiste keuze voor jou is.
 
@@ -33,13 +33,13 @@ Versleutelde DNS met servers van derden zou alleen moeten worden gebruikt om sim
 - Toestaan dat [ECS](advanced/dns-overview.md#what-is-edns-client-subnet-ecs) kan worden uitgeschakeld.
 - Voorkeur voor [anycast](https://en.wikipedia.org/wiki/Anycast#Addressing_methods) ondersteuning of geo-steering ondersteuning.
 
-## Ondersteuning voor besturingssystemen
+## Native Operating System Support
 
 ### Android
 
 Android 9 en hoger ondersteunen DNS over TLS. De instellingen kunnen worden gevonden in: **Instellingen** &rarr; **Netwerk & internet** &rarr; **Privé-DNS**.
 
-### Apple apparaten
+### Apple Devices
 
 De nieuwste versies van iOS, iPadOS, tvOS en macOS ondersteunen zowel DoT als DoH. Beide protocollen worden ondersteund via [configuratieprofielen](https://support.apple.com/guide/security/configuration-profile-enforcement-secf6fb9f053/web) of via de [DNS Settings API](https://developer.apple.com/documentation/networkextension/dns_settings).
 

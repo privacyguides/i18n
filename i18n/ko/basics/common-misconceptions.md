@@ -1,7 +1,7 @@
 ---
 title: "일반적인 오해"
 icon: 'material/robot-confused'
-description: Privacy isn't a straightforward topic, and it's easy to get caught up in marketing claims and other disinformation.
+description: 프라이버시는 결코 간단하지 않고, 마케팅성 주장이나 기타 잘못된 정보에 현혹되기 쉽습니다.
 schema:
   - 
     "@context": https://schema.org
@@ -16,18 +16,18 @@ schema:
             소스 코드의 공개 여부와 라이선스 방식은 본질적으로 보안에 어떠한 영향도 미치지 않습니다. 오픈 소스 소프트웨어는 독점 소프트웨어보다 더 안전할 가능성이 있지만, 반드시 그렇다는 보장은 없습니다. 소프트웨어를 평가할 때는 평판과 보안을 개별적으로 살펴봐야 합니다.
       - 
         "@type": Question
-        name: Can shifting trust to another provider increase privacy?
+        name: 다른 제공업체로 신뢰하는 대상을 변경함으로써 프라이버시를 강화할 수 있나요?
         acceptedAnswer:
           "@type": Answer
           text: |
-            We talk about "shifting trust" a lot when discussing solutions like VPNs (which shift the trust you place in your ISP to the VPN provider). While this protects your browsing data from your ISP specifically, the VPN provider you choose still has access to your browsing data: Your data isn't completely secured from all parties.
+            VPN과 같은 솔루션들에 대해 논의할 때 "신뢰하는 대상을 변경한다"는 말이 자주 나옵니다. (VPN은 ISP로부터 VPN 제공자로 신뢰 대상을 바꿉니다) 이는 ISP로부터 브라우징 데이터를 보호하지만, 당신이 선택한 VPN 제공자는 이 브라우징 데이터에 접근할 수 있습니다. 즉, 데이터가 모든 이로부터 보호되는 것이 아닙니다.
       - 
         "@type": Question
         name: 프라이버시 중점 솔루션은 본질적으로 신뢰할 수 있나요?
         acceptedAnswer:
           "@type": Answer
           text: |
-            Focusing solely on the privacy policies and marketing of a tool or provider can blind you to its weaknesses. When you're looking for a more private solution, you should determine what the underlying problem is and find technical solutions to that problem. For example, you may want to avoid Google Drive, which gives Google access to all of your data. The underlying problem in this case is lack of E2EE, so you should make sure that the provider you switch to actually implements E2EE, or use a tool (like Cryptomator) which provides E2EE on any cloud provider. Switching to a "privacy-focused" provider (that doesn't implement E2EE) doesn't solve your problem: it just shifts trust from Google to that provider.
+            제품 또는 서비스의 개인정보 보호정책과 마케팅에만 집중하게 되면 해당 솔루션들의 약점들을 놓칠 수 있습니다. When you're looking for a more private solution, you should determine what the underlying problem is and find technical solutions to that problem. For example, you may want to avoid Google Drive, which gives Google access to all of your data. The underlying problem in this case is lack of E2EE, so you should make sure that the provider you switch to actually implements E2EE, or use a tool (like Cryptomator) which provides E2EE on any cloud provider. Switching to a "privacy-focused" provider (that doesn't implement E2EE) doesn't solve your problem: it just shifts trust from Google to that provider.
       - 
         "@type": Question
         name: How complicated should my threat model be?
@@ -48,20 +48,20 @@ On the flip side, proprietary software is less transparent, but that doesn't imp
 
 To avoid biased decisions, it's *vital* that you evaluate the privacy and security standards of the software you use.
 
-## "Shifting trust can increase privacy"
+## "신뢰하는 대상을 바꾸면 프라이버시를 강화할 수 있다"
 
-We talk about "shifting trust" a lot when discussing solutions like VPNs (which shift the trust you place in your ISP to the VPN provider). While this protects your browsing data from your ISP *specifically*, the VPN provider you choose still has access to your browsing data: Your data isn't completely secured from all parties. This means that:
+VPN과 같은 솔루션들에 대해 논의할 때 "신뢰하는 대상을 변경한다"는 말이 자주 나옵니다. (VPN은 ISP로부터 VPN 제공자로 신뢰 대상을 바꿉니다) 이는 ISP로부터 브라우징 데이터를 보호하지만, 당신이 선택한 VPN 제공자는 이 브라우징 데이터에 접근할 수 있습니다. 즉, 데이터가 모든 이로부터 보호되는 것이 아닙니다. 따라서:
 
-1. You must exercise caution when choosing a provider to shift trust to.
-2. You should still use other techniques, like E2EE, to protect your data completely. Merely distrusting one provider to trust another is not securing your data.
+1. 새로 신뢰할 제공업체를 신중하게 선택해야 합니다.
+2. 종단간 암호화와 같은 기타 기술을 같이 이용해서 데이터를 지켜야 합니다. 기존 제공업체 대신 다른 업체를 신뢰하는 것만으로는 데이터 보호라고 보기 어렵습니다.
 
-## "Privacy-focused solutions are inherently trustworthy"
+## "프라이버시를 중점으로 둔 솔루션은 본질적으로 신뢰할 수 있다"
 
-Focusing solely on the privacy policies and marketing of a tool or provider can blind you to its weaknesses. When you're looking for a more private solution, you should determine what the underlying problem is and find technical solutions to that problem. For example, you may want to avoid Google Drive, which gives Google access to all of your data. The underlying problem in this case is lack of E2EE, so you should make sure that the provider you switch to actually implements E2EE, or use a tool (like [Cryptomator](../encryption.md#cryptomator-cloud)) which provides E2EE on any cloud provider. Switching to a "privacy-focused" provider (that doesn't implement E2EE) doesn't solve your problem: it just shifts trust from Google to that provider.
+제품 또는 서비스의 개인정보 보호정책과 마케팅에만 집중하게 되면 해당 솔루션들의 약점들을 놓칠 수 있습니다. When you're looking for a more private solution, you should determine what the underlying problem is and find technical solutions to that problem. For example, you may want to avoid Google Drive, which gives Google access to all of your data. The underlying problem in this case is lack of E2EE, so you should make sure that the provider you switch to actually implements E2EE, or use a tool (like [Cryptomator](../encryption.md#cryptomator-cloud)) which provides E2EE on any cloud provider. Switching to a "privacy-focused" provider (that doesn't implement E2EE) doesn't solve your problem: it just shifts trust from Google to that provider.
 
 The privacy policies and business practices of providers you choose are very important, but should be considered secondary to technical guarantees of your privacy: You shouldn't shift trust to another provider when trusting a provider isn't a requirement at all.
 
-## "Complicated is better"
+## "복잡할수록 좋다"
 
 We often see people describing privacy threat models that are overly complex. Often, these solutions include problems like many different email accounts or complicated setups with lots of moving parts and conditions. The replies are usually answers to "What is the best way to do *X*?"
 

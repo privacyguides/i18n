@@ -50,7 +50,7 @@ Voor de modellen die HOTP en TOTP ondersteunen, zijn er 3 slots voor HOTP en 15 
 
 !!! warning
 
-    Hoewel Nitrokeys de HOTP/TOTP geheimen niet vrijgeven aan het apparaat waar ze op aangesloten zijn, is de HOTP en TOTP opslag **niet** versleuteld en is kwetsbaar voor fysieke aanvallen. If you are looking to store HOTP or TOTP these secrets, we highly recommend that you use a YubiKey instead.
+    Hoewel Nitrokeys de HOTP/TOTP geheimen niet vrijgeven aan het apparaat waar ze op aangesloten zijn, is de HOTP en TOTP opslag **niet** versleuteld en is kwetsbaar voor fysieke aanvallen. Als je deze geheimen HOTP of TOTP wilt bewaren, raden we je ten zeerste aan om in plaats daarvan een Yubikey te gebruiken.
 
 !!! warning
 

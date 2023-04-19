@@ -11,16 +11,16 @@ cover: dns.png
 
 ## 推薦的 DNS 提供商
 
-| DNS 提供者                                                                         | 隐私政策                                                                                                  | 協議                                                            | 日誌記錄   | ECS | 篩選                                                                                                  |
-| ------------------------------------------------------------------------------- | ----------------------------------------------------------------------------------------------------- | ------------------------------------------------------------- | ------ | --- | --------------------------------------------------------------------------------------------------- |
-| [**AdGuard**](https://adguard.com/en/adguard-dns/overview.html)                 | [:octicons-link-external-24:](https://adguard.com/en/privacy/dns.html)                                | Cleartext <br> DoH/3 <br> DoT <br> DNSCrypt | 一些[^1] | 不是  | 根據伺服器的選擇。 使用的過濾器列表可以在這裡找到。 [:octicons-link-external-24:](https://github.com/AdguardTeam/AdGuardDNS) |
-| [**Cloudflare**](https://developers.cloudflare.com/1.1.1.1/setting-up-1.1.1.1/) | [:octicons-link-external-24:](https://developers.cloudflare.com/1.1.1.1/privacy/public-dns-resolver/) | 明文 <br> DoH/3 <br> DoT                            | 一些[^2] | 不是  | 根據伺服器的選擇。                                                                                           |
-| [**Control D**](https://controld.com/free-dns)                                  | [:octicons-link-external-24:](https://controld.com/privacy)                                           | 明文 <br> DoH/3 <br> DoT <br> DoQ             | 可選[^3] | 不是  | 根據伺服器的選擇。                                                                                           |
-| [**Mullvad**](https://mullvad.net/en/help/dns-over-https-and-dns-over-tls)      | [:octicons-link-external-24:](https://mullvad.net/en/help/no-logging-data-policy/)                    | DoH <br> DoT                                            | 否[^4]  | 不是  | 根據伺服器的選擇。 正在使用的過濾器列表可以在這裡找到。 [:octicons-link-external-24:](https://github.com/mullvad/dns-adblock)  |
-| [**NextDNS**](https://www.nextdns.io)                                           | [:octicons-link-external-24:](https://www.nextdns.io/privacy)                                         | 明文 <br> DoH/3 <br> DoT                            | 可選[^5] | 可選的 | 根據伺服器的選擇。                                                                                           |
-| [**Quad9**](https://quad9.net)                                                  | [:octicons-link-external-24:](https://quad9.net/privacy/policy/)                                      | 明文 <br> DoH <br> DoT <br> DNSCrypt          | 一些[^6] | 可選的 | 根據伺服器選擇，預設會封鎖惡意程式碼。                                                                                 |
+| DNS 提供者                                                                         | 隐私政策                                                                                                  | 協議                                                            | 日誌記錄   | ECS | 篩選                                                                                                                         |
+| ------------------------------------------------------------------------------- | ----------------------------------------------------------------------------------------------------- | ------------------------------------------------------------- | ------ | --- | -------------------------------------------------------------------------------------------------------------------------- |
+| [**AdGuard**](https://adguard.com/en/adguard-dns/overview.html)                 | [:octicons-link-external-24:](https://adguard.com/en/privacy/dns.html)                                | Cleartext <br> DoH/3 <br> DoT <br> DNSCrypt | 一些[^1] | 不是  | Based on personal configuration. 使用的過濾器列表可以在這裡找到。 [:octicons-link-external-24:](https://github.com/AdguardTeam/AdGuardDNS) |
+| [**Cloudflare**](https://developers.cloudflare.com/1.1.1.1/setting-up-1.1.1.1/) | [:octicons-link-external-24:](https://developers.cloudflare.com/1.1.1.1/privacy/public-dns-resolver/) | 明文 <br> DoH/3 <br> DoT                            | 一些[^2] | 不是  | Based on personal configuration.                                                                                           |
+| [**Control D**](https://controld.com/free-dns)                                  | [:octicons-link-external-24:](https://controld.com/privacy)                                           | 明文 <br> DoH/3 <br> DoT <br> DoQ             | 可選[^3] | 不是  | Based on personal configuration.                                                                                           |
+| [**Mullvad**](https://mullvad.net/en/help/dns-over-https-and-dns-over-tls)      | [:octicons-link-external-24:](https://mullvad.net/en/help/no-logging-data-policy/)                    | DoH <br> DoT                                            | 否[^4]  | 不是  | Based on personal configuration. 正在使用的過濾器列表可以在這裡找到。 [:octicons-link-external-24:](https://github.com/mullvad/dns-adblock)  |
+| [**NextDNS**](https://www.nextdns.io)                                           | [:octicons-link-external-24:](https://www.nextdns.io/privacy)                                         | 明文 <br> DoH/3 <br> DoT                            | 可選[^5] | 可選的 | Based on personal configuration.                                                                                           |
+| [**Quad9**](https://quad9.net)                                                  | [:octicons-link-external-24:](https://quad9.net/privacy/policy/)                                      | 明文 <br> DoH <br> DoT <br> DNSCrypt          | 一些[^6] | 可選的 | Based on personal configuration, Malware blocking by default.                                                              |
 
-## 標準
+### 標準
 
 **請注意，我們這裏所推薦專案沒有任何牽扯。 ** 除了 [我們的標準準則](about/criteria.md)外，還有一套明確要求以提出客觀建議。 我們建議您在選擇使用任何項目之前先熟悉此列表，並進行自己的研究，以確保您的正確選擇。
 
@@ -33,13 +33,13 @@ cover: dns.png
 - 可讓 [ECS](advanced/dns-overview.md#what-is-edns-client-subnet-ecs)禁用 。
 - 首選 [anycast](https://en.wikipedia.org/wiki/Anycast#Addressing_methods) 支援或地理轉向支援。
 
-## 原生作業系統支援
+## Native Operating System Support
 
-### Android
+### 安卓
 
 Android 9 以上版本支持 DoT (DNS over TLS)。 設定方式可以在以下位置找到： **設定** &rarr; **網路 & 網際網路** &rarr; **私人 DNS**。
 
-### Apple裝置
+### Apple Devices
 
 最新版本的 iOS、iPadOS、tvOS 和 macOS 都支持 DoT 和 DoH。 這兩個通訊協議都透過 [組態檔](https://support.apple.com/guide/security/configuration-profile-enforcement-secf6fb9f053/web) 或透過 [DNS 設定 API ](https://developer.apple.com/documentation/networkextension/dns_settings)獲得原生支援。
 
@@ -101,7 +101,7 @@ Apple不提供用於建立加密DNS設定檔的原生介面。 [Secure DNS profi
 
 在被控制平臺，自主託管 DNS 可提供有用的過濾，例如智能電視和其他物聯網設備，因為不需要客戶端軟件。
 
-### AdGuard首頁
+### AdGuard Home
 
 !!! recommendation
 

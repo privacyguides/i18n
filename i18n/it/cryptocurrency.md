@@ -11,7 +11,7 @@ Effettuare pagamenti online è una delle maggiori sfide per la privacy. These cr
 
 !!! attenzione
 
-    Many if not most cryptocurrency projects are scams. Make transactions carefully with only projects you trust.
+    Many if not most cryptocurrency projects are scams. Effettuate transazioni con attenzione solo con progetti di cui vi fidate.
 
 ## Monero
 

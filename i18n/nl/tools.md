@@ -1,5 +1,5 @@
 ---
-meta_title: "The Best Privacy Tools, Services, and Ad-Free Recommendations - Privacy Guides"
+meta_title: "De beste privacytools, services en aanbevelingen zonder advertenties - Privacy Guides"
 title: "Privacy Hulpmiddelen"
 icon: material/tools
 hide:

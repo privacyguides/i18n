@@ -15,7 +15,7 @@ cover: email.png
 - [OpenPGP 호환 이메일 제공 업체 :material-arrow-right-drop-circle:](#openpgp-compatible-services)
 - [기타 암호화 이메일 제공 업체 :material-arrow-right-drop-circle:](#more-providers)
 - [이메일 별칭 서비스 :material-arrow-right-drop-circle:](#email-aliasing-services)
-- [Self-Hosted Options :material-arrow-right-drop-circle:](#self-hosting-email)
+- [자체 호스팅 솔루션 :material-arrow-right-drop-circle:](#self-hosting-email)
 
 ## OpenPGP 호환 서비스
 
@@ -91,7 +91,7 @@ Proton Mail also supports the discovery of public keys via HTTP from their [Web 
 
 #### :material-information-outline:{ .pg-blue } Account Termination
 
-If you have a paid account and your [bill is unpaid](https://proton.me/support/delinquency) after 14 days, you won't be able to access your data. After 30 days, your account will become delinquent and won't receive incoming mail. You will continue to be billed during this period.
+If you have a paid account and your [bill is unpaid](https://proton.me/support/delinquency) after 14 days, you won't be able to access your data. 30일이 지나면 계정이 연체 상태가 되고, 메일을 수신할 수 없게 됩니다. 이 기간에 대해서도 계속 요금이 청구됩니다.
 
 #### :material-information-outline:{ .pg-blue } 추가 기능
 
@@ -129,31 +129,31 @@ Mailbox.org는 웹메일에 한해 [이중 인증](https://kb.mailbox.org/displa
 
 #### :material-information-outline:{ .pg-blue } 데이터 보안
 
-Mailbox.org allows for encryption of incoming mail using their [encrypted mailbox](https://kb.mailbox.org/display/MBOKBEN/The+Encrypted+Mailbox). New messages that you receive will then be immediately encrypted with your public key.
+Mailbox.org는 [암호화된 메일함](https://kb.mailbox.org/display/MBOKBEN/The+Encrypted+Mailbox)을 이용하여 수신 메일을 암호화할 수 있습니다. 새로 받은 메일들은 즉시 공개키로 암호화됩니다.
 
-However, [Open-Exchange](https://en.wikipedia.org/wiki/Open-Xchange), the software platform used by Mailbox.org, [does not support](https://kb.mailbox.org/display/BMBOKBEN/Encryption+of+calendar+and+address+book) the encryption of your address book and calendar. A [standalone option](calendar.md) may be more appropriate for that information.
+하지만 Mailbox.org에서 사용하는 소프트웨어 플랫폼인 [Open-Exchange](https://en.wikipedia.org/wiki/Open-Xchange)는 주소록 및 캘린더 암호화를 [지원하지 않습니다.](https://kb.mailbox.org/display/BMBOKBEN/Encryption+of+calendar+and+address+book) 해당 데이터에 대해서는 [다른 솔루션](calendar.md)을 찾는것이 적합할 수 있습니다.
 
 #### :material-check:{ .pg-green } 이메일 암호화
 
-Mailbox.org has [integrated encryption](https://kb.mailbox.org/display/MBOKBEN/Send+encrypted+e-mails+with+Guard) in their webmail, which simplifies sending messages to people with public OpenPGP keys. They also allow [remote recipients to decrypt an email](https://kb.mailbox.org/display/MBOKBEN/My+recipient+does+not+use+PGP) on Mailbox.org's servers. This feature is useful when the remote recipient does not have OpenPGP and cannot decrypt a copy of the email in their own mailbox.
+Mailbox.org의 웹메일에는 [암호화 기능이 내장](https://kb.mailbox.org/display/MBOKBEN/Send+encrypted+e-mails+with+Guard)되어 있어 공개 OpenPGP키를 가진 사람들에게 메일을 간편하게 보낼 수 있습니다. 또한, [수신자가 직접 Mailbox.org에 있는 메일을 복호화](https://kb.mailbox.org/display/MBOKBEN/My+recipient+does+not+use+PGP)하게 하는 기능도 있습니다. OpenPGP가 없어 수신자가 자신의 메일함에서 직접 복호화할 수 없을 경우에 이 기능을 사용할 수 있습니다.
 
-Mailbox.org also supports the discovery of public keys via HTTP from their [Web Key Directory (WKD)](https://wiki.gnupg.org/WKD). This allows people outside of Mailbox.org to find the OpenPGP keys of Mailbox.org accounts easily, for cross-provider E2EE.
+또한, Mailbox.org는 [웹 키 디렉터리(WKD)](https://wiki.gnupg.org/WKD)에서 HTTP를 통한 공개 키 검색을 지원합니다. Mailbox.org를 사용하지 않는 사람들은 Mailbox.org 계정의 OpenPGP 공개키를 쉽게 찾을 수 있고, 플랫폼과 무관하게 종단간 암호화를 할 수 있습니다.
 
-#### :material-information-outline:{ .pg-blue } Account Termination
+#### :material-information-outline:{ .pg-blue } 계정 삭제
 
-Your account will be set to a restricted user account when your contract ends, after [30 days it will be irrevocably deleted](https://kb.mailbox.org/en/private/payment-article/what-happens-at-the-end-of-my-contract).
+계약이 끝나면 해당 계정은 제한된 상태로 변경되며, [30일이 지나면 영구적으로 삭제됩니다](https://kb.mailbox.org/en/private/payment-article/what-happens-at-the-end-of-my-contract).
 
 #### :material-information-outline:{ .pg-blue } 추가 기능
 
-You can access your Mailbox.org account via IMAP/SMTP using their [.onion service](https://kb.mailbox.org/display/MBOKBEN/The+Tor+exit+node+of+mailbox.org). However, their webmail interface cannot be accessed via their .onion service and you may experience TLS certificate errors.
+[.onion을 이용하여](https://kb.mailbox.org/display/MBOKBEN/The+Tor+exit+node+of+mailbox.org) Mailbox.org 계정을 IMAP/SMTP로 접근할 수 있습니다. 하지만 웹메일 인터페이스는 .onion 서비스로 접근할 수 없고, TLS 인증서 에러가 뜰 수 있습니다.
 
 All accounts come with limited cloud storage that [can be encrypted](https://kb.mailbox.org/display/MBOKBEN/Encrypt+files+on+your+Drive). Mailbox.org also offers the alias [@secure.mailbox.org](https://kb.mailbox.org/display/MBOKBEN/Ensuring+E-Mails+are+Sent+Securely), which enforces the TLS encryption on the connection between mail servers, otherwise the message will not be sent at all. Mailbox.org also supports [Exchange ActiveSync](https://en.wikipedia.org/wiki/Exchange_ActiveSync) in addition to standard access protocols like IMAP and POP3.
 
 Mailbox.org has a digital legacy feature for all plans. You can choose whether you want any of your data to be passed to heirs providing that they apply and provide your testament. Alternatively, you can nominate a person by name and address.
 
-## More Providers
+## 그외 제공자
 
-These providers store your emails with zero-knowledge encryption, making them great options for keeping your stored emails secure. However, they don't support interoperable encryption standards for E2EE communications between providers.
+이 제공자들은 영지식 암호화를 사용하기에 메일을 안전하게 보관하는 용도로 좋습니다. However, they don't support interoperable encryption standards for E2EE communications between providers.
 
 <div class="grid cards" markdown>
 
@@ -201,13 +201,13 @@ StartMail supports importing [contacts](https://support.startmail.com/hc/en-us/a
 
 StartMail has [integrated encryption](https://support.startmail.com/hc/en-us/sections/360001889078-Encryption) in their webmail, which simplifies sending encrypted messages with public OpenPGP keys. However, they do not support the Web Key Directory standard, making the discovery of a Startmail mailbox's public key more challenging for other email providers or clients.
 
-#### :material-information-outline:{ .pg-blue } Account Termination
+#### :material-information-outline:{ .pg-blue } 계정 삭제
 
-On account expiration, StartMail will permanently delete your account after [6 months in 3 phases](https://support.startmail.com/hc/en-us/articles/360006794398-Account-expiration).
+계정이 만료되면 StartMail은 [6개월동안 3개의 단계를 걸쳐서](https://support.startmail.com/hc/en-us/articles/360006794398-Account-expiration) 계정을 영구적으로 삭제합니다.
 
 #### :material-information-outline:{ .pg-blue } 추가 기능
 
-StartMail allows for proxying of images within emails. If you allow the remote image to be loaded, the sender won't know what your IP address is.
+StartMail은 메일 내 사진을 프록시를 통하여 가져올 수 있습니다. 원격 이미지를 허용할 경우, 메일 발신자는 당신의 IP 주소를 알 수 없습니다.
 
 StartMail은 디지털 유산 상속 기능을 제공하지 않습니다.
 
@@ -257,9 +257,9 @@ Tutanota has [zero access encryption at rest](https://tutanota.com/faq#what-encr
 
 Tutanota는 [OpenPGP를 사용하지 않습니다](https://www.tutanota.com/faq/#pgp). Tutanota 계정이 Tutanota 외의 이메일 계정으로부터 암호화된 이메일을 받는 것은 [임시 Tutanota 메일함](https://www.tutanota.com/howto/#encrypted-email-external)을 통해 전송된 경우에만 가능합니다.
 
-#### :material-information-outline:{ .pg-blue } Account Termination
+#### :material-information-outline:{ .pg-blue } 계정 삭제
 
-Tutanota will [delete inactive free accounts](https://tutanota.com/faq#inactive-accounts) after six months. You can reuse a deactivated free account if you pay.
+Tutanota는 6개월동안 [아무 활동이 없는 무료 계정들을 삭제](https://tutanota.com/faq#inactive-accounts)합니다. 돈을 지불하면 비활성화된 계정을 재사용할 수 있습니다.
 
 #### :material-information-outline:{ .pg-blue } 추가 기능
 
@@ -303,8 +303,7 @@ Using an aliasing service requires trusting both your email provider and your al
 
     ![AnonAddy logo](assets/img/email/anonaddy.svg#only-light){ align=right }
     ![AnonAddy logo](assets/img/email/anonaddy-dark.svg#only-dark){ align=right }
-    
-    **AnonAddy** lets you create 20 domain aliases on a shared domain for free, or unlimited "standard" aliases which are less anonymous.
+    **AnonAddy**에서는 무료로 공유 도메인을 사용하면 최대 20개의 별칭을, 익명성이 떨어지는 "기본" 별칭을 사용하면 별칭을 무제한으로 생성할 수 있습니다.
     
     [:octicons-home-16: 홈페이지](https://anonaddy.com){ .md-button .md-button--primary }
     [:octicons-eye-16:](https://anonaddy.com/privacy/){ .card-link title="프라이버시 정책" }
@@ -321,13 +320,13 @@ Using an aliasing service requires trusting both your email provider and your al
 
 The number of shared aliases (which end in a shared domain like @anonaddy.me) that you can create is limited to 20 on AnonAddy's free plan and 50 on their $12/year plan. You can create unlimited standard aliases (which end in a domain like @[username].anonaddy.com or a custom domain on paid plans), however, as previously mentioned, this can be detrimental to privacy because people can trivially tie your standard aliases together based on the domain name alone. Unlimited shared aliases are available for $36/year.
 
-Notable free features:
+주요 무료 기능:
 
-- [x] 20 Shared Aliases
-- [x] Unlimited Standard Aliases
-- [ ] No Outgoing Replies
-- [x] 2 Recipient Mailboxes
-- [x] Automatic PGP Encryption
+- [x] 20개의 공유 별칭
+- [x] 무제한 기본 별칭
+- [] 발신 답장 불가
+- [x] 2개의 수신자 메일함
+- [x] 자동 PGP 암호화
 
 ### SimpleLogin
 
@@ -426,14 +425,14 @@ We prefer our recommended providers to collect as little data as possible.
 
 **최소 요구 사항:**
 
-- Protect sender's IP address. Filter it from showing in the `Received` header field.
-- Don't require personally identifiable information (PII) besides a username and a password.
-- Privacy policy that meets the requirements defined by the GDPR
-- Must not be hosted in the US due to [ECPA](https://en.wikipedia.org/wiki/Electronic_Communications_Privacy_Act#Criticism) which has [yet to be reformed](https://epic.org/ecpa/).
+- 발신자의 IP 주소를 보호해야 합니다. `Received` 헤더 필드에 표시되지 않도록 필터링해야 합니다.
+- 사용자 이름과 비밀번호 외에 개인 식별 정보(PII, Personally Identifiable Information)를 요구하지 않아야 합니다.
+- 프라이버시 정책은 GDPR에서 정의한 요구 사항을 충족해야 합니다.
+- [ECPA](https://en.wikipedia.org/wiki/Electronic_Communications_Privacy_Act#Criticism)가 [아직 개정되지 않았기 때문에](https://epic.org/ecpa/), 미국에서 호스트되어서는 안 됩니다.
 
 **우대 사항:**
 
-- Accepts [anonymous payment options](advanced/payments.md) ([cryptocurrency](cryptocurrency.md), cash, gift cards, etc.)
+- [익명 결제 수단](advanced/payments.md)([암호 화폐](cryptocurrency.md), 현금, 기프트 카드 등)을 지원해야 합니다.
 
 ### 보안
 
@@ -441,10 +440,10 @@ Email servers deal with a lot of very sensitive data. We expect that providers w
 
 **최소 요구 사항:**
 
-- Protection of webmail with 2FA, such as TOTP.
+- 웹메일은 2FA(TOTP 등)로 보호되어야 합니다.
 - Zero access encryption, builds on encryption at rest. The provider does not have the decryption keys to the data they hold. This prevents a rogue employee leaking data they have access to or remote adversary from releasing data they have stolen by gaining unauthorized access to the server.
-- [DNSSEC](https://en.wikipedia.org/wiki/Domain_Name_System_Security_Extensions) support.
-- No TLS errors or vulnerabilities when being profiled by tools such as [Hardenize](https://www.hardenize.com/), [testssl.sh](https://testssl.sh/), or [Qualys SSL Labs](https://www.ssllabs.com/ssltest); this includes certificate related errors and weak DH parameters, such as those that led to [Logjam](https://en.wikipedia.org/wiki/Logjam_(computer_security)).
+- [DNSSEC](https://en.wikipedia.org/wiki/Domain_Name_System_Security_Extensions)를 지원해야 합니다.
+- [Hardenize](https://www.hardenize.com/), [testssl.sh](https://testssl.sh/), [Qualys SSL Labs](https://www.ssllabs.com/ssltest) 등의 툴로 분석했을 때 TLS 에러나 취약점이 없어야 합니다. 여기에는 [Logjam](https://en.wikipedia.org/wiki/Logjam_(computer_security))으로 이어진 것과 같은 인증서 관련 오류 및 DH 파라미터도 포함됩니다.
 - A server suite preference (optional on TLSv1.3) for strong cipher suites which support forward secrecy and authenticated encryption.
 - A valid [MTA-STS](https://tools.ietf.org/html/rfc8461) and [TLS-RPT](https://tools.ietf.org/html/rfc8460) policy.
 - Valid [DANE](https://en.wikipedia.org/wiki/DNS-based_Authentication_of_Named_Entities) records.
@@ -478,28 +477,28 @@ You wouldn't trust your finances to someone with a fake identity, so why trust t
 **우대 사항:**
 
 - Public-facing leadership.
-- Frequent transparency reports.
+- 투명성 보고서를 자주 발간해야 합니다.
 
 ### 마케팅
 
-With the email providers we recommend we like to see responsible marketing.
+Privacy Guides는 권장 이메일 제공 업체가 책임감 있는 마케팅을 할 것을 기대하고 있습니다.
 
 **최소 요구 사항:**
 
 - Must self-host analytics (no Google Analytics, Adobe Analytics, etc.). The provider's site must also comply with [DNT (Do Not Track)](https://en.wikipedia.org/wiki/Do_Not_Track) for those who wish to opt-out.
 
-Must not have any marketing which is irresponsible:
+다음과 같은 무책임한 마케팅은 일절 없어야 합니다:
 
-- Claims of "unbreakable encryption." Encryption should be used with the intention that it may not be secret in the future when the technology exists to crack it.
-- Making guarantees of protecting anonymity 100%. When someone makes a claim that something is 100% it means there is no certainty for failure. We know people can quite easily deanonymize themselves in a number of ways, e.g.:
+- "절대 뚫리지 않는 암호화" 등의 주장을 해선 안 됩니다. 암호화는 미래에 해당 암호화를 무력화할 수 있는 기술이 등장할 수 있다는 것을 항상 염두에 두고 사용해야 합니다.
+- "100% 익명성 보장" When someone makes a claim that something is 100% it means there is no certainty for failure. We know people can quite easily deanonymize themselves in a number of ways, e.g.:
 
 - Reusing personal information e.g. (email accounts, unique pseudonyms, etc.) that they accessed without anonymity software (Tor, VPN, etc.)
-- [Browser fingerprinting](https://en.wikipedia.org/wiki/Device_fingerprint#Browser_fingerprint)
+- [브라우저 핑거프린팅 시도](https://en.wikipedia.org/wiki/Device_fingerprint#Browser_fingerprint)
 
 **우대 사항:**
 
-- Clear and easy to read documentation. This includes things like, setting up 2FA, email clients, OpenPGP, etc.
+- 명확하고 읽기 쉬운 문서를 제공해야 합니다. 2FA/이메일 클라이언트/OpenPGP 설정 방법 안내 등을 포함합니다.
 
-### Additional Functionality
+### 추가 기능
 
-While not strictly requirements, there are some other convenience or privacy factors we looked into when determining which providers to recommend.
+엄격하게 적용한 요구 사항은 아니지만, 이 외의 편의성/프라이버시 요소 일부 또한 고려하여 권장 제공 업체를 결정했습니다.

@@ -11,16 +11,16 @@ cover: dns.png
 
 ## Önerilen Sağlayıcılar
 
-| DNS Sağlayıcısı                                                                 | Gizlilik Politikası                                                                                   | Protokoller                                                   | Günlük kaydı     | ECS          | Filtreleme                                                                                                                                          |
-| ------------------------------------------------------------------------------- | ----------------------------------------------------------------------------------------------------- | ------------------------------------------------------------- | ---------------- | ------------ | --------------------------------------------------------------------------------------------------------------------------------------------------- |
-| [**AdGuard**](https://adguard.com/en/adguard-dns/overview.html)                 | [:octicons-link-external-24:](https://adguard.com/en/privacy/dns.html)                                | Cleartext <br> DoH/3 <br> DoT <br> DNSCrypt | Bazı[^1]         | Hayır        | Sunucu seçimine göre. Kullanılan filtre listesine buradan ulaşabilirsiniz. [:octicons-link-external-24:](https://github.com/AdguardTeam/AdGuardDNS) |
-| [**Cloudflare**](https://developers.cloudflare.com/1.1.1.1/setting-up-1.1.1.1/) | [:octicons-link-external-24:](https://developers.cloudflare.com/1.1.1.1/privacy/public-dns-resolver/) | Cleartext <br> DoH/3 <br> DoT                     | Bazı[^2]         | Hayır        | Sunucu seçimine göre.                                                                                                                               |
-| [**Control D**](https://controld.com/free-dns)                                  | [:octicons-link-external-24:](https://controld.com/privacy)                                           | Cleartext <br> DoH/3 <br> DoT <br> DoQ      | İsteğe bağlı[^3] | Hayır        | Sunucu seçimine göre.                                                                                                                               |
-| [**Mullvad**](https://mullvad.net/en/help/dns-over-https-and-dns-over-tls)      | [:octicons-link-external-24:](https://mullvad.net/en/help/no-logging-data-policy/)                    | DoH <br> DoT                                            | Hayır[^4]        | Hayır        | Sunucu seçimine göre. Kullanılan filtre listesine buradan ulaşabilirsiniz. [:octicons-link-external-24:](https://github.com/mullvad/dns-adblock)    |
-| [**NextDNS**](https://www.nextdns.io)                                           | [:octicons-link-external-24:](https://www.nextdns.io/privacy)                                         | Cleartext <br> DoH/3 <br> DoT                     | İsteğe bağlı[^5] | İsteğe bağlı | Sunucu seçimine göre.                                                                                                                               |
-| [**Quad9**](https://quad9.net)                                                  | [:octicons-link-external-24:](https://quad9.net/privacy/policy/)                                      | Cleartext <br> DoH <br> DoT <br> DNSCrypt   | Bazı[^6]         | İsteğe bağlı | Sunucu seçimine bağlı olarak, Malware varsayılan olarak engellenir.                                                                                 |
+| DNS Sağlayıcısı                                                                 | Gizlilik Politikası                                                                                   | Protokoller                                                   | Günlük kaydı     | ECS          | Filtreleme                                                                                                                                                     |
+| ------------------------------------------------------------------------------- | ----------------------------------------------------------------------------------------------------- | ------------------------------------------------------------- | ---------------- | ------------ | -------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| [**AdGuard**](https://adguard.com/en/adguard-dns/overview.html)                 | [:octicons-link-external-24:](https://adguard.com/en/privacy/dns.html)                                | Cleartext <br> DoH/3 <br> DoT <br> DNSCrypt | Bazı[^1]         | Hayır        | Based on personal configuration. Kullanılan filtre listesine buradan ulaşabilirsiniz. [:octicons-link-external-24:](https://github.com/AdguardTeam/AdGuardDNS) |
+| [**Cloudflare**](https://developers.cloudflare.com/1.1.1.1/setting-up-1.1.1.1/) | [:octicons-link-external-24:](https://developers.cloudflare.com/1.1.1.1/privacy/public-dns-resolver/) | Cleartext <br> DoH/3 <br> DoT                     | Bazı[^2]         | Hayır        | Based on personal configuration.                                                                                                                               |
+| [**Control D**](https://controld.com/free-dns)                                  | [:octicons-link-external-24:](https://controld.com/privacy)                                           | Cleartext <br> DoH/3 <br> DoT <br> DoQ      | İsteğe bağlı[^3] | Hayır        | Based on personal configuration.                                                                                                                               |
+| [**Mullvad**](https://mullvad.net/en/help/dns-over-https-and-dns-over-tls)      | [:octicons-link-external-24:](https://mullvad.net/en/help/no-logging-data-policy/)                    | DoH <br> DoT                                            | Hayır[^4]        | Hayır        | Based on personal configuration. Kullanılan filtre listesine buradan ulaşabilirsiniz. [:octicons-link-external-24:](https://github.com/mullvad/dns-adblock)    |
+| [**NextDNS**](https://www.nextdns.io)                                           | [:octicons-link-external-24:](https://www.nextdns.io/privacy)                                         | Cleartext <br> DoH/3 <br> DoT                     | İsteğe bağlı[^5] | İsteğe bağlı | Based on personal configuration.                                                                                                                               |
+| [**Quad9**](https://quad9.net)                                                  | [:octicons-link-external-24:](https://quad9.net/privacy/policy/)                                      | Cleartext <br> DoH <br> DoT <br> DNSCrypt   | Bazı[^6]         | İsteğe bağlı | Based on personal configuration, Malware blocking by default.                                                                                                  |
 
-## Kriterler
+### Criteria
 
 **Lütfen önerdiğimiz projelerin hiçbirine bağlı olmadığımızı unutmayın.** [standart kriterlerimize](about/criteria.md)ek olarak, objektif tavsiyelerde bulunabilmemiz için bir dizi gereklilik geliştirdik. Bir projeyi kullanmayı seçmeden önce bu listeye aşina olmanızı ve sizin için doğru seçim olduğundan emin olmak için kendi araştırmanızı yapmanızı öneririz.
 
@@ -33,13 +33,13 @@ cover: dns.png
 - [ECS](advanced/dns-overview.md#what-is-edns-client-subnet-ecs) adresinin devre dışı bırakılmasına izin verilmelidir.
 - [anycast](https://en.wikipedia.org/wiki/Anycast#Addressing_methods) desteği veya coğrafi yönlendirme desteği tercih edilmelidir.
 
-## İşletim Sistemi Desteği
+## Native Operating System Support
 
 ### Android
 
 Android 9 ve üstü, TLS üzerinden DNS'yi destekler. Ayarlar şurada bulunabilir: **Ayarlar** &rarr; **Ağ & İnternet** &rarr; **Özel DNS**.
 
-### Apple Cihazları
+### Apple Devices
 
 iOS, iPadOS, tvOS ve macOS'in en son sürümleri hem DoT hem de DoH'yi desteklemektedir. Her iki protokol de [yapılandırma profilleri](https://support.apple.com/guide/security/configuration-profile-enforcement-secf6fb9f053/web) veya [DNS Ayarları API'si](https://developer.apple.com/documentation/networkextension/dns_settings)aracılığıyla doğal olarak desteklenmektedir.
 

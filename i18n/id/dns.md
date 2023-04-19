@@ -11,16 +11,16 @@ DNS terenkripsi dengan server pihak ketiga sebaiknya hanya digunakan untuk menga
 
 ## Penyedia yang Direkomendasikan
 
-| Penyedia DNS                                                                    | Kebijakan Privasi                                                                                     | Protokol                                                       | Pencatatan Log | ECS      | Pemfilteran                                                                                                                                                |
-| ------------------------------------------------------------------------------- | ----------------------------------------------------------------------------------------------------- | -------------------------------------------------------------- | -------------- | -------- | ---------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| [**AdGuard**](https://adguard.com/en/adguard-dns/overview.html)                 | [:octicons-link-external-24:](https://adguard.com/en/privacy/dns.html)                                | Teks biasa <br> DoH/3 <br> DoT <br> DNSCrypt | Beberapa[^1]   | Tidak    | Berdasarkan pilihan server. Daftar filter yang digunakan dapat ditemukan di sini. [:octicons-link-external-24:](https://github.com/AdguardTeam/AdGuardDNS) |
-| [**Cloudflare**](https://developers.cloudflare.com/1.1.1.1/setting-up-1.1.1.1/) | [:octicons-link-external-24:](https://developers.cloudflare.com/1.1.1.1/privacy/public-dns-resolver/) | Teks biasa <br> DoH/3 <br> DoT                     | Beberapa[^2]   | Tidak    | Berdasarkan pilihan server.                                                                                                                                |
-| [**Control D**](https://controld.com/free-dns)                                  | [:octicons-link-external-24:](https://controld.com/privacy)                                           | Teks biasa <br> DoH/3 <br> DoT <br> DoQ      | Opsional[^3]   | Tidak    | Berdasarkan pilihan server.                                                                                                                                |
-| [**Mullvad**](https://mullvad.net/en/help/dns-over-https-and-dns-over-tls)      | [:octicons-link-external-24:](https://mullvad.net/en/help/no-logging-data-policy/)                    | DoH <br> DoT                                             | Tidak[^4]      | Tidak    | Berdasarkan pilihan server. Daftar filter yang digunakan dapat ditemukan di sini. [:octicons-link-external-24:](https://github.com/mullvad/dns-adblock)    |
-| [**NextDNS**](https://www.nextdns.io)                                           | [:octicons-link-external-24:](https://www.nextdns.io/privacy)                                         | Teks biasa <br> DoH/3 <br> DoT                     | Opsional[^5]   | Opsional | Berdasarkan pilihan server.                                                                                                                                |
-| [**Quad9**](https://quad9.net)                                                  | [:octicons-link-external-24:](https://quad9.net/privacy/policy/)                                      | Teks biasa <br> DoH <br> DoT <br> DNSCrypt   | Beberapa[^6]   | Opsional | Berdasarkan pilihan server, pemblokiran malware secara default.                                                                                            |
+| Penyedia DNS                                                                    | Kebijakan Privasi                                                                                     | Protokol                                                       | Pencatatan Log | ECS      | Pemfilteran                                                                                                                                                     |
+| ------------------------------------------------------------------------------- | ----------------------------------------------------------------------------------------------------- | -------------------------------------------------------------- | -------------- | -------- | --------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| [**AdGuard**](https://adguard.com/en/adguard-dns/overview.html)                 | [:octicons-link-external-24:](https://adguard.com/en/privacy/dns.html)                                | Teks biasa <br> DoH/3 <br> DoT <br> DNSCrypt | Beberapa[^1]   | Tidak    | Based on personal configuration. Daftar filter yang digunakan dapat ditemukan di sini. [:octicons-link-external-24:](https://github.com/AdguardTeam/AdGuardDNS) |
+| [**Cloudflare**](https://developers.cloudflare.com/1.1.1.1/setting-up-1.1.1.1/) | [:octicons-link-external-24:](https://developers.cloudflare.com/1.1.1.1/privacy/public-dns-resolver/) | Teks biasa <br> DoH/3 <br> DoT                     | Beberapa[^2]   | Tidak    | Based on personal configuration.                                                                                                                                |
+| [**Control D**](https://controld.com/free-dns)                                  | [:octicons-link-external-24:](https://controld.com/privacy)                                           | Teks biasa <br> DoH/3 <br> DoT <br> DoQ      | Opsional[^3]   | Tidak    | Based on personal configuration.                                                                                                                                |
+| [**Mullvad**](https://mullvad.net/en/help/dns-over-https-and-dns-over-tls)      | [:octicons-link-external-24:](https://mullvad.net/en/help/no-logging-data-policy/)                    | DoH <br> DoT                                             | Tidak[^4]      | Tidak    | Based on personal configuration. Daftar filter yang digunakan dapat ditemukan di sini. [:octicons-link-external-24:](https://github.com/mullvad/dns-adblock)    |
+| [**NextDNS**](https://www.nextdns.io)                                           | [:octicons-link-external-24:](https://www.nextdns.io/privacy)                                         | Teks biasa <br> DoH/3 <br> DoT                     | Opsional[^5]   | Opsional | Based on personal configuration.                                                                                                                                |
+| [**Quad9**](https://quad9.net)                                                  | [:octicons-link-external-24:](https://quad9.net/privacy/policy/)                                      | Teks biasa <br> DoH <br> DoT <br> DNSCrypt   | Beberapa[^6]   | Opsional | Based on personal configuration, Malware blocking by default.                                                                                                   |
 
-## Kriteria
+### Criteria
 
 **Harap dicatat bahwa kami tidak berafiliasi dengan proyek-proyek yang kami rekomendasikan.** Selain [kriteria standar kami](about/criteria.md), kami telah mengembangkan serangkaian persyaratan yang jelas untuk memungkinkan kami memberikan rekomendasi yang objektif. Kami sarankan Anda membiasakan diri dengan daftar ini sebelum memilih untuk menggunakan sebuah proyek, dan melakukan riset sendiri untuk memastikan bahwa itu adalah pilihan yang tepat untuk Anda.
 
@@ -33,13 +33,13 @@ DNS terenkripsi dengan server pihak ketiga sebaiknya hanya digunakan untuk menga
 - Mengizinkan [ECS](advanced/dns-overview.md#what-is-edns-client-subnet-ecs) untuk dinonaktifkan.
 - Lebih suka dukungan [anycast](https://en.wikipedia.org/wiki/Anycast#Addressing_methods) atau dukungan kemudi geografis.
 
-## Dukungan Sistem Operasi Asli
+## Native Operating System Support
 
 ### Android
 
 Android 9 ke atas mendukung DNS melalui TLS. Pengaturan dapat ditemukan di: **Pengaturan** &rarr; **Jaringan & Internet** &rarr; **DNS Pribadi**.
 
-### Perangkat Apple
+### Apple Devices
 
 Versi terbaru iOS, iPadOS, tvOS, dan macOS, mendukung DoT dan DoH. Kedua protokol didukung secara bawaan melalui [profil konfigurasi](https://support.apple.com/guide/security/configuration-profile-enforcement-secf6fb9f053/web) atau melalui [API Pengaturan DNS](https://developer.apple.com/documentation/networkextension/dns_settings).
 
@@ -53,7 +53,7 @@ Apple tidak menyediakan antarmuka asli untuk membuat profil DNS terenkripsi. [Pe
 
     `systemd-resolved`, yang digunakan banyak distribusi Linux untuk melakukan pencarian DNS, belum [mendukung DoH](https://github.com/systemd/systemd/issues/8639). Jika Anda ingin menggunakan DoH, Anda perlu menginstal proxy seperti [dnscrypt-proxy](https://github.com/DNSCrypt/dnscrypt-proxy) dan [konfigurasikan] (https://wiki.archlinux.org/title/Dnscrypt-proxy) untuk mengambil semua permintaan DNS dari resolver sistem Anda dan meneruskannya melalui HTTPS.
 
-## Proxy DNS Terenkripsi
+## Encrypted DNS Proxies
 
 Perangkat lunak proxy DNS terenkripsi menyediakan proxy lokal untuk [DNS tidak terenkripsi](advanced/dns-overview.md#unencrypted-dns) resolver untuk diteruskan. Biasanya digunakan pada platform yang tidak mendukung [DNS terenkripsi](advanced/dns-overview.md#what-is-encrypted-dns).
 
@@ -97,7 +97,7 @@ Perangkat lunak proxy DNS terenkripsi menyediakan proxy lokal untuk [DNS tidak t
         - [:simple-apple: macOS](https://github.com/DNSCrypt/dnscrypt-proxy/wiki/Installation-macOS)
         - [:simple-linux: Linux](https://github.com/DNSCrypt/dnscrypt-proxy/wiki/Installation-linux)
 
-## Solusi yang dihosting sendiri
+## Self-hosted Solutions
 
 Solusi DNS yang dihosting sendiri berguna untuk menyediakan penyaringan pada platform terkontrol, seperti Smart TV dan perangkat IoT lainnya, karena tidak ada perangkat lunak di sisi klien yang diperlukan.
 

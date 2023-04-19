@@ -1,12 +1,12 @@
 ---
-title: KB Archive
+title: KB存檔
 icon: material/archive
-description: Some pages that used to be in our knowledge base can now be found on our blog.
+description: 一些曾經出現在知識庫中的頁面現在可以在我們的部落格上找到。
 ---
 
-# Pages Moved to Blog
+# 頁面移至部落格
 
-Some pages that used to be in our knowledge base can now be found on our blog:
+一些曾經出現在知識庫中的頁面現在可以在我們的部落格上找到。
 
 - [GrapheneOS vs. CalyxOS](https://blog.privacyguides.org/2022/04/21/grapheneos-or-calyxos/)
 - [Signal Configuration Hardening](https://blog.privacyguides.org/2022/07/07/signal-configuration-and-hardening/)

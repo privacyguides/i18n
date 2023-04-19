@@ -246,9 +246,9 @@ Shields 可以選擇根據需要依各網站情況降級，但我們建議預設
 
 1. 此選項提供的功能類似uBlock Origin 進階 [封鎖模式](https://github.com/gorhill/uBlock/wiki/Blocking-mode) 或 [NoScript](https://noscript.net/) 擴展。
 
-##### 社交媒體屏蔽
+##### 阻擋社群媒體
 
-- [ ] Uncheck all social media components
+- [ ]取消勾選所有社群媒體組件
 
 ##### 隐私和安全
 

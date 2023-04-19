@@ -11,16 +11,16 @@ Encrypted DNS with third-party servers should only be used to get around basic [
 
 ## 推荐的供应商
 
-| DNS供应商                                                                          | 隐私政策                                                                                                  | 协议                                                            | 日志记录   | ECS | 筛选                                                                                                    |
-| ------------------------------------------------------------------------------- | ----------------------------------------------------------------------------------------------------- | ------------------------------------------------------------- | ------ | --- | ----------------------------------------------------------------------------------------------------- |
-| [**AdGuard**](https://adguard.com/en/adguard-dns/overview.html)                 | [:octicons-link-external-24:](https://adguard.com/en/privacy/dns.html)                                | Cleartext <br> DoH/3 <br> DoT <br> DNSCrypt | 一些[^1] | No  | 基于服务器的选择。 正在使用的过滤器列表可以在这里找到。 [:octicons-link-external-24:](https://github.com/AdguardTeam/AdGuardDNS) |
-| [**Cloudflare**](https://developers.cloudflare.com/1.1.1.1/setting-up-1.1.1.1/) | [:octicons-link-external-24:](https://developers.cloudflare.com/1.1.1.1/privacy/public-dns-resolver/) | Cleartext <br> DoH/3 <br> DoT                     | 一些[^2] | No  | 基于服务器的选择。                                                                                             |
-| [**Control D**](https://controld.com/free-dns)                                  | [:octicons-link-external-24:](https://controld.com/privacy)                                           | Cleartext <br> DoH/3 <br> DoT <br> DoQ      | 可选[^3] | No  | 基于服务器的选择。                                                                                             |
-| [**Mullvad**](https://mullvad.net/en/help/dns-over-https-and-dns-over-tls)      | [:octicons-link-external-24:](https://mullvad.net/en/help/no-logging-data-policy/)                    | DoH <br> DoT                                            | No[^4] | No  | 基于服务器的选择。 正在使用的过滤器列表可以在这里找到。 [:octicons-link-external-24:](https://github.com/mullvad/dns-adblock)    |
-| [**NextDNS**](https://www.nextdns.io)                                           | [:octicons-link-external-24:](https://www.nextdns.io/privacy)                                         | Cleartext <br> DoH/3 <br> DoT                     | 可选[^5] | 可选  | 基于服务器的选择。                                                                                             |
-| [**Quad9**](https://quad9.net)                                                  | [:octicons-link-external-24:](https://quad9.net/privacy/policy/)                                      | Cleartext <br> DoH <br> DoT <br> DNSCrypt   | 一些[^6] | 可选  | 基于服务器的选择，默认为恶意软件拦截。                                                                                   |
+| DNS供应商                                                                          | 隐私政策                                                                                                  | 协议                                                            | 日志记录   | ECS | 筛选                                                                                                                           |
+| ------------------------------------------------------------------------------- | ----------------------------------------------------------------------------------------------------- | ------------------------------------------------------------- | ------ | --- | ---------------------------------------------------------------------------------------------------------------------------- |
+| [**AdGuard**](https://adguard.com/en/adguard-dns/overview.html)                 | [:octicons-link-external-24:](https://adguard.com/en/privacy/dns.html)                                | Cleartext <br> DoH/3 <br> DoT <br> DNSCrypt | 一些[^1] | No  | Based on personal configuration. 正在使用的过滤器列表可以在这里找到。 [:octicons-link-external-24:](https://github.com/AdguardTeam/AdGuardDNS) |
+| [**Cloudflare**](https://developers.cloudflare.com/1.1.1.1/setting-up-1.1.1.1/) | [:octicons-link-external-24:](https://developers.cloudflare.com/1.1.1.1/privacy/public-dns-resolver/) | Cleartext <br> DoH/3 <br> DoT                     | 一些[^2] | No  | Based on personal configuration.                                                                                             |
+| [**Control D**](https://controld.com/free-dns)                                  | [:octicons-link-external-24:](https://controld.com/privacy)                                           | Cleartext <br> DoH/3 <br> DoT <br> DoQ      | 可选[^3] | No  | Based on personal configuration.                                                                                             |
+| [**Mullvad**](https://mullvad.net/en/help/dns-over-https-and-dns-over-tls)      | [:octicons-link-external-24:](https://mullvad.net/en/help/no-logging-data-policy/)                    | DoH <br> DoT                                            | No[^4] | No  | Based on personal configuration. 正在使用的过滤器列表可以在这里找到。 [:octicons-link-external-24:](https://github.com/mullvad/dns-adblock)    |
+| [**NextDNS**](https://www.nextdns.io)                                           | [:octicons-link-external-24:](https://www.nextdns.io/privacy)                                         | Cleartext <br> DoH/3 <br> DoT                     | 可选[^5] | 可选  | Based on personal configuration.                                                                                             |
+| [**Quad9**](https://quad9.net)                                                  | [:octicons-link-external-24:](https://quad9.net/privacy/policy/)                                      | Cleartext <br> DoH <br> DoT <br> DNSCrypt   | 一些[^6] | 可选  | Based on personal configuration, Malware blocking by default.                                                                |
 
-## 标准
+### Criteria
 
 **请注意，我们与我们推荐的任何项目都没有关系。** 除了 [我们的标准标准](about/criteria.md)，我们还制定了一套明确的要求，使我们能够提供客观的建议。 我们建议你在选择使用一个项目之前熟悉这个清单，并进行自己的研究以确保它是你的正确选择。
 
@@ -33,13 +33,13 @@ Encrypted DNS with third-party servers should only be used to get around basic [
 - 允许 [ECS](advanced/dns-overview.md#what-is-edns-client-subnet-ecs) 被禁用。
 - 倾向于 [anycast](https://en.wikipedia.org/wiki/Anycast#Addressing_methods) 支持或地理转向支持。
 
-## 本地操作系统支持
+## Native Operating System Support
 
 ### 安卓
 
 安卓9及以上系统支持通过TLS的DNS。 这些设置可以在下面找到。 **设置** &rarr; **网络 & 互联网** &rarr; **私人DNS**。
 
-### 苹果设备
+### Apple Devices
 
 最新版本的iOS、iPadOS、tvOS和macOS，同时支持DoT和DoH。 通过 [配置文件](https://support.apple.com/guide/security/configuration-profile-enforcement-secf6fb9f053/web) ，或通过 [DNS设置API](https://developer.apple.com/documentation/networkextension/dns_settings)，这两种协议都得到了本地支持。
 
@@ -53,7 +53,7 @@ Encrypted DNS with third-party servers should only be used to get around basic [
 
     `systemd-resolved`，许多Linux发行版使用它来进行DNS查询，但还不[支持DoH](https://github.com/systemd/systemd/issues/8639)。 如果你想使用DoH，你需要安装一个代理，如 [dnscrypt-proxy](https://github.com/DNSCrypt/dnscrypt-proxy)和[配置它](https://wiki.archlinux.org/title/Dnscrypt-proxy)，从你的系统解析器接收所有的DNS查询并通过HTTPS转发。
 
-## 加密DNS代理
+## Encrypted DNS Proxies
 
 加密的DNS代理软件为 [未加密的DNS](advanced/dns-overview.md#unencrypted-dns) 解析器提供一个本地代理转发。 通常情况下，它被用于那些不支持 [加密DNS的平台](advanced/dns-overview.md#what-is-encrypted-dns)。
 
@@ -76,7 +76,7 @@ Encrypted DNS with third-party servers should only be used to get around basic [
         - [:simple-googleplay: Google Play](https://play.google.com/store/apps/details?id=com.celzero.bravedns)
         - [:simple-github: GitHub](https://github.com/celzero/rethink-app/releases)
 
-### dnscrypt-代理
+### dnscrypt-proxy
 
 !!! recommendation
 
@@ -97,7 +97,7 @@ Encrypted DNS with third-party servers should only be used to get around basic [
         - [:simple-apple: macOS](https://github.com/DNSCrypt/dnscrypt-proxy/wiki/Installation-macOS)
         - [:simple-linux: Linux](https://github.com/DNSCrypt/dnscrypt-proxy/wiki/Installation-linux)
 
-## 自我托管的解决方案
+## Self-hosted Solutions
 
 自我托管的DNS解决方案对于在智能电视和其他物联网设备等受控平台上提供过滤非常有用，因为不需要客户端软件。
 

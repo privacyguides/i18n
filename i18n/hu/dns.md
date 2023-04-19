@@ -11,16 +11,16 @@ Titkosított DNS-t harmadik féltől származó szerverekkel csak alapvető [DNS
 
 ## Ajánlott Szolgáltatók
 
-| DNS Szolgáltatók                                                                | Adatvédelmi Tájékoztató                                                                               | Protokollok                                                      | Naplózás        | ECS         | Szűrés                                                                                                                                    |
-| ------------------------------------------------------------------------------- | ----------------------------------------------------------------------------------------------------- | ---------------------------------------------------------------- | --------------- | ----------- | ----------------------------------------------------------------------------------------------------------------------------------------- |
-| [**AdGuard**](https://adguard.com/en/adguard-dns/overview.html)                 | [:octicons-link-external-24:](https://adguard.com/en/privacy/dns.html)                                | Nyílt szöveg <br> DoH/3 <br> DoT <br> DNSCrypt | Némi[^1]        | Nem         | Választott szerver alapján. A használt szűrőlista itt található. [:octicons-link-external-24:](https://github.com/AdguardTeam/AdGuardDNS) |
-| [**Cloudflare**](https://developers.cloudflare.com/1.1.1.1/setting-up-1.1.1.1/) | [:octicons-link-external-24:](https://developers.cloudflare.com/1.1.1.1/privacy/public-dns-resolver/) | Nyílt szöveg <br> DoH/3 <br> DoT                     | Némi[^2]        | Nem         | Választott szerver alapján.                                                                                                               |
-| [**Control D**](https://controld.com/free-dns)                                  | [:octicons-link-external-24:](https://controld.com/privacy)                                           | Nyílt szöveg <br> DoH/3 <br> DoT <br> DoQ      | Választható[^3] | Nem         | Választott szerver alapján.                                                                                                               |
-| [**Mullvad**](https://mullvad.net/en/help/dns-over-https-and-dns-over-tls)      | [:octicons-link-external-24:](https://mullvad.net/en/help/no-logging-data-policy/)                    | DoH <br> DoT                                               | Nem[^4]         | Nem         | Választott szerver alapján. A használt szűrőlista itt található. [:octicons-link-external-24:](https://github.com/mullvad/dns-adblock)    |
-| [**NextDNS**](https://www.nextdns.io)                                           | [:octicons-link-external-24:](https://www.nextdns.io/privacy)                                         | Nyílt szöveg <br> DoH/3 <br> DoT                     | Választható[^5] | Választható | Választott szerver alapján.                                                                                                               |
-| [**Quad9**](https://quad9.net)                                                  | [:octicons-link-external-24:](https://quad9.net/privacy/policy/)                                      | Nyílt szöveg <br> DoH <br> DoT <br> DNSCrypt   | Némi[^6]        | Választható | Választott szerver alapján, Kártékony szoftver blokkolás alapértelmezetten.                                                               |
+| DNS Szolgáltatók                                                                | Adatvédelmi Tájékoztató                                                                               | Protokollok                                                      | Naplózás        | ECS         | Szűrés                                                                                                                                         |
+| ------------------------------------------------------------------------------- | ----------------------------------------------------------------------------------------------------- | ---------------------------------------------------------------- | --------------- | ----------- | ---------------------------------------------------------------------------------------------------------------------------------------------- |
+| [**AdGuard**](https://adguard.com/en/adguard-dns/overview.html)                 | [:octicons-link-external-24:](https://adguard.com/en/privacy/dns.html)                                | Nyílt szöveg <br> DoH/3 <br> DoT <br> DNSCrypt | Némi[^1]        | Nem         | Based on personal configuration. A használt szűrőlista itt található. [:octicons-link-external-24:](https://github.com/AdguardTeam/AdGuardDNS) |
+| [**Cloudflare**](https://developers.cloudflare.com/1.1.1.1/setting-up-1.1.1.1/) | [:octicons-link-external-24:](https://developers.cloudflare.com/1.1.1.1/privacy/public-dns-resolver/) | Nyílt szöveg <br> DoH/3 <br> DoT                     | Némi[^2]        | Nem         | Based on personal configuration.                                                                                                               |
+| [**Control D**](https://controld.com/free-dns)                                  | [:octicons-link-external-24:](https://controld.com/privacy)                                           | Nyílt szöveg <br> DoH/3 <br> DoT <br> DoQ      | Választható[^3] | Nem         | Based on personal configuration.                                                                                                               |
+| [**Mullvad**](https://mullvad.net/en/help/dns-over-https-and-dns-over-tls)      | [:octicons-link-external-24:](https://mullvad.net/en/help/no-logging-data-policy/)                    | DoH <br> DoT                                               | Nem[^4]         | Nem         | Based on personal configuration. A használt szűrőlista itt található. [:octicons-link-external-24:](https://github.com/mullvad/dns-adblock)    |
+| [**NextDNS**](https://www.nextdns.io)                                           | [:octicons-link-external-24:](https://www.nextdns.io/privacy)                                         | Nyílt szöveg <br> DoH/3 <br> DoT                     | Választható[^5] | Választható | Based on personal configuration.                                                                                                               |
+| [**Quad9**](https://quad9.net)                                                  | [:octicons-link-external-24:](https://quad9.net/privacy/policy/)                                      | Nyílt szöveg <br> DoH <br> DoT <br> DNSCrypt   | Némi[^6]        | Választható | Based on personal configuration, Malware blocking by default.                                                                                  |
 
-## Követelmények
+### Követelmények
 
 **Tartsd figyelemben, hogy nem állunk kapcsolatban az általunk ajánlott projektek egyikével sem.** Az [alap kritériumaink mellett](about/criteria.md), egyértelmű követelményrendszert dolgoztunk ki, hogy objektív ajánlásokat tudjunk tenni. Javasoljuk, hogy ismerkedj meg ezzel a listával, mielőtt kiválasztanál egy projektet, és végezz saját kutatásokat, hogy megbizonyosodj arról, hogy ez a megfelelő választás számodra.
 
@@ -33,13 +33,13 @@ Titkosított DNS-t harmadik féltől származó szerverekkel csak alapvető [DNS
 - Lehetővé teszi az [ECS](advanced/dns-overview.md#what-is-edns-client-subnet-ecs) letiltását.
 - Előnyben részesíti az [anycast](https://en.wikipedia.org/wiki/Anycast#Addressing_methods), vagy a geo-steering támogatását.
 
-## Natív Operációs Rendszer Támogatás
+## Native Operating System Support
 
 ### Android
 
 Az Android 9 és újabb verziói támogatják a DNS-t TLS-en keresztül. A beállítások megtalálhatók itt: **Beállítások** &rarr; **Hálózat és Internet** &rarr; **Privát DNS**.
 
-### Apple Eszközök
+### Apple Devices
 
 Az iOS, iPadOS, tvOS és macOS legújabb verziói támogatják a DoT és a DoH funkciót is. Mindkét protokoll alapból támogatva van a [konfigurációs profilok](https://support.apple.com/guide/security/configuration-profile-enforcement-secf6fb9f053/web) vagy a [DNS-beállítás API](https://developer.apple.com/documentation/networkextension/dns_settings)-n keresztül.
 

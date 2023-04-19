@@ -1,27 +1,27 @@
 ---
-title: "Router Firmware"
+title: "공유기 펌웨어"
 icon: material/router-wireless
-description: These alternative operating systems can be used to secure your router or Wi-Fi access point.
+description: 이러한 대체 운영 체제로 여러분의 공유기(라우터) 및 Wi-Fi 액세스 포인트를 보호할 수 있습니다.
 cover: router.png
 ---
 
-Below are a few alternative operating systems, that can be used on routers, Wi-Fi access points, etc.
+본 내용은 공유기(라우터), Wi-Fi 액세스 포인트 장치 등에서 대체하여 사용할 수 있는 운영 체제 목록입니다.
 
 ## OpenWrt
 
 !!! recommendation
 
-    ![OpenWrt logo](assets/img/router/openwrt.svg#only-light){ align=right }
-    ![OpenWrt logo](assets/img/router/openwrt-dark.svg#only-dark){ align=right }
+    ![OpenWrt 로고](assets/img/router/openwrt.svg#only-light){ align=right }
+    ![OpenWrt 로고](assets/img/router/openwrt-dark.svg#only-dark){ align=right }
     
-    **OpenWrt** is a Linux-based operating system; it's primarily used on embedded devices to route network traffic. It includes util-linux, uClibc, and BusyBox. All of the components have been optimized for home routers.
+    **OpenWrt**는 Linux 기반 운영 체제입니다. 주로 임베디드 기기에서 네트워크 트래픽 라우터 용도로 사용됩니다. util-linux, uClibc, BusyBox 등을 포함하고 있습니다. 모든 구성 요소는 가정용 공유기(라우터)에 알맞게 최적화되어 있습니다.
     
-    [:octicons-home-16: Homepage](https://openwrt.org){ .md-button .md-button--primary }
-    [:octicons-info-16:](https://openwrt.org/docs/start){ .card-link title=Documentation}
-    [:octicons-code-16:](https://github.com/openwrt/openwrt){ .card-link title="Source Code" }
-    [:octicons-heart-16:](https://openwrt.org/donate){ .card-link title=Contribute }
+    [:octicons-home-16: 홈페이지](https://openwrt.org){ .md-button .md-button--primary }
+    [:octicons-info-16:](https://openwrt.org/docs/start){ .card-link title=문서}
+    [:octicons-code-16:](https://github.com/openwrt/openwrt){ .card-link title="소스 코드" }
+    [:octicons-heart-16:](https://openwrt.org/donate){ .card-link title=기부 }
 
-You can consult OpenWrt's [table of hardware](https://openwrt.org/toh/start) to check if your device is supported.
+여러분이 사용 중인 기기의 OpenWrt 지원 여부는 [하드웨어 표](https://openwrt.org/toh/start)에서 확인할 수 있습니다.
 
 ## OPNsense
 
@@ -29,23 +29,23 @@ You can consult OpenWrt's [table of hardware](https://openwrt.org/toh/start) to 
 
     ![OPNsense logo](assets/img/router/opnsense.svg){ align=right }
     
-    **OPNsense** is an open source, FreeBSD-based firewall and routing platform which incorporates many advanced features such as traffic shaping, load balancing, and VPN capabilities, with many more features available in the form of plugins. OPNsense is commonly deployed as a perimeter firewall, router, wireless access point, DHCP server, DNS server, and VPN endpoint.
+    **OPNsense**는 오픈 소스, FreeBSD 기반 방화벽 및 라우팅 플랫폼입니다. 트래픽 셰이핑, 로드 밸런싱, VPN 기능 등 여러 고급 기능이 통합되어 있으며, 플러그인 형태로 더 많은 기능을 사용 가능합니다. OPNsense는 일반적으로 경계 방화벽(Perimeter Firewall), 라우터, 무선 액세스 포인트, DHCP 서버, DNS 서버, VPN 엔드포인트상에 배포됩니다.
     
-    [:octicons-home-16: Homepage](https://opnsense.org/){ .md-button .md-button--primary }
-    [:octicons-info-16:](https://docs.opnsense.org/index.html){ .card-link title=Documentation}
-    [:octicons-code-16:](https://github.com/opnsense){ .card-link title="Source Code" }
-    [:octicons-heart-16:](https://opnsense.org/donate/){ .card-link title=Contribute }
+    [:octicons-home-16: 홈페이지](https://opnsense.org/){ .md-button .md-button--primary }
+    [:octicons-info-16:](https://docs.opnsense.org/index.html){ .card-link title=문서}
+    [:octicons-code-16:](https://github.com/opnsense){ .card-link title="소스 코드" }
+    [:octicons-heart-16:](https://opnsense.org/donate/){ .card-link title=기부 }
 
-OPNsense was originally developed as a fork of [pfSense](https://en.wikipedia.org/wiki/PfSense), and both projects are noted for being free and reliable firewall distributions which offer features often only found in expensive commercial firewalls. Launched in 2015, the developers of OPNsense [cited](https://docs.opnsense.org/history/thefork.html) a number of security and code-quality issues with pfSense which they felt necessitated a fork of the project, as well as concerns about Netgate's majority acquisition of pfSense and the future direction of the pfSense project.
+OPNsense는 본래 [pfSense](https://en.wikipedia.org/wiki/PfSense)로부터 포크되어 개발됐으며, 두 프로젝트 모두 고가의 상용 방화벽에서만 볼 수 있는 기능을 제공하는 신뢰성 높은 무료 방화벽 배포판으로 유명합니다. 2015년 출시된 OPNsense의 개발자들은, pfSense의 여러 보안 및 코드 품질 문제와 Netgate가 pfSense의 대주주가 되면서 생긴 향후 프로젝트 방향의 우려로 인해 프로젝트를 포크하였다고 [밝혔습니다](https://docs.opnsense.org/history/thefork.html).
 
-## Criteria
+## 평가 기준
 
-**Please note we are not affiliated with any of the projects we recommend.** In addition to [our standard criteria](about/criteria.md), we have developed a clear set of requirements to allow us to provide objective recommendations. We suggest you familiarize yourself with this list before choosing to use a project, and conduct your own research to ensure it's the right choice for you.
+**Privacy Guides는 권장 목록의 어떠한 프로젝트와도 제휴를 맺지 않았습니다.** 객관적인 권장 목록을 제공하기 위해, [일반적인 평가 기준](about/criteria.md)에 더해 명확한 요구 사항을 정립하였습니다. 어떠한 프로젝트를 선택해 사용하기 전에, 이러한 요구 사항들을 숙지하고 여러분 스스로 조사하는 과정을 거쳐 적절한 선택을 하시기 바랍니다.
 
-!!! example "This section is new"
+!!! example "이 단락은 최근에 만들어졌습니다"
 
-    We are working on establishing defined criteria for every section of our site, and this may be subject to change. If you have any questions about our criteria, please [ask on our forum](https://discuss.privacyguides.net/latest) and don't assume we didn't consider something when making our recommendations if it is not listed here. There are many factors considered and discussed when we recommend a project, and documenting every single one is a work-in-progress.
+    Privacy Guides 팀은 사이트의 모든 항목마다 명확한 평가 기준을 정립하는 중이며, 따라서 세부 내용은 변경될 수 있습니다. 평가 기준에 대해서 질문이 있다면 [포럼에서 문의](https://discuss.privacyguides.net/latest)하시기 바랍니다. (무언가가 목록에 존재하지 않다고 해서 권장 목록을 작성할 때 고려한 적이 없을 것으로 단정 짓지 마세요.) 권장 목록에 어떤 프로젝트를 추가할 때 고려하고 논의해야 할 요소는 매우 많으며, 모든 요소를 문서화하는 것은 현재 진행 중인 작업입니다.
 
-- Must be open source.
-- Must receive regular updates.
+- 오픈 소스여야 합니다.
+- 정기적으로 업데이트를 받아야 합니다.
 - 다양한 하드웨어를 지원해야 합니다.

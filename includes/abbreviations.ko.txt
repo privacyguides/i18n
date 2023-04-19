@@ -18,7 +18,7 @@
 *[E2EE]: 종단 간 암호화
 *[ECS]: EDNS Client Subnet
 *[EEA]: European Economic Area
-*[entropy]: A measurement of how unpredictable something is
+*[엔트로피]: 예측하기 어려운 정도를 표현하는 척도
 *[EOL]: 지원 종료
 *[Exif]: 교환 이미지 파일 형식(Exchangeable image file format)
 *[FCM]: Firebase 클라우드 메시징
@@ -31,7 +31,7 @@
 *[GUI]: 그래픽 사용자 인터페이스
 *[GnuPG]: GNU Privacy Guard (PGP 구현체)
 *[HDD]: Hard Disk Drive
-*[HOTP]: HMAC (Hash-based Message Authentication Code) based One-Time Password
+*[HOTP]: HMAC (해시 기반 메세지 인증 코드) 기반 일회용 비밀번호
 *[HTTPS]: 하이퍼텍스트 보안 전송 프로토콜
 *[HTTP]: 하이퍼텍스트 전송 프로토콜
 *[hypervisor]: Computer software, firmware, or hardware that splits the resources of a CPU among multiple operating systems
@@ -43,7 +43,7 @@
 *[IPv4]: IP 버전 4 (Internet Protocol version 4)
 *[IPv6]: IP 버전 6 (Internet Protocol version 6)
 *[ISP]: 인터넷 서비스 제공자(Internet Service Provider)
-*[ISPs]: Internet Service Providers
+*[ISPs]: 인터넷 서비스 제공자 (Internet service providers)
 *[JNI]: Java Native Interface
 *[KYC]: 고객 확인 제도
 *[LUKS]: Linux Unified Key Setup (Full-Disk Encryption)
@@ -58,7 +58,7 @@
 *[OEM]: Original Equipment Manufacturer
 *[OEMs]: Original Equipment Manufacturers
 *[OS]: 운영 체제
-*[OTP]: One-Time Password
+*[OTP]: 일회용 비밀번호
 *[OTPs]: One-Time Passwords
 *[OpenPGP]: Open-source implementation of Pretty Good Privacy (PGP)
 *[P2P]: Peer-to-Peer
@@ -77,14 +77,14 @@
 *[SSD]: Solid-State Drive
 *[SSH]: Secure Shell
 *[SUID]: Set Owner User ID
-*[SaaS]: Software as a Service (cloud software)
+*[SaaS]: 서비스형 소프트웨어 (클라우드 기반 소프트웨어)
 *[SoC]: System on Chip
 *[SSO]: Single sign-on
 *[TCP]: 전송 제어 프로토콜
 *[TEE]: Trusted Execution Environment
 *[TLS]: Transport Layer Security
-*[ToS]: Terms of Service
-*[TOTP]: Time-based One-Time Password
+*[ToS]: 서비스 이용 약관
+*[TOTP]: 시간 기반 일회용 비밀번호
 *[TPM]: 신뢰 플랫폼 모듈(Trusted Platform Module)
 *[U2F]: Universal 2nd Factor
 *[UEFI]: 통합 확장 펌웨어 인터페이스(Unified Extensible Firmware Interface)

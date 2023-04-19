@@ -18,11 +18,11 @@ If you're looking for additional **privacy** from your ISP, on a public Wi-Fi ne
 
 !!! danger "VPN은 익명성을 제공하지 않습니다"
 
-    Using a VPN will **not** keep your browsing habits anonymous, nor will it add additional security to non-secure (HTTP) traffic.
+    VPN은 브라우저 사용 패턴을 익명화하지 않고, 보호되지 않은 트래픽 (HTTP)에 추가적인 보안을 제공하지 않습니다.
     
-    If you are looking for **anonymity**, you should use the Tor Browser **instead** of a VPN.
+    만약 익명성이 필요하다면 VPN 대신 Tor 브라우저를 사용해야 합니다.
     
-    If you're looking for added **security**, you should always ensure you're connecting to websites using HTTPS. A VPN is not a replacement for good security practices.
+    만약 추가적인 보안이 필요하다면, 연결된 웹사이트가 HTTPS를 사용하는지 꼭 확인해야 합니다. VPN은 올바른 보안 관행을 대체할 수 없습니다.
     
     [Download Tor](https://www.torproject.org/){ .md-button .md-button--primary } [Tor Myths & FAQ](advanced/tor-overview.md){ .md-button }
 
@@ -38,7 +38,7 @@ Privacy Guides 권장 제공 업체는 암호화 사용, Monero 결제 지원, W
 
     ![IVPN logo](assets/img/vpn/ivpn.svg){ align=right }
     
-    **IVPN** is another premium VPN provider, and they have been in operation since 2009. IVPN is based in Gibraltar.
+    **IVPN**은 유료 VPN 서비스 제공 업체입니다. 2009년부터 운영되었습니다. IVPN 본사는 지브롤터에 위치하고 있습니다.
     
     [:octicons-home-16: 홈페이지](https://www.ivpn.net/){ .md-button .md-button--primary }
     [:octicons-eye-16:](https://www.ivpn.net/privacy/){ .card-link title="프라이버시 정책" }
@@ -72,7 +72,7 @@ IVPN has undergone a [no-logging audit from Cure53](https://cure53.de/audit-repo
 
 #### :material-check:{ .pg-green } 현금 및 Monero 결제 가능
 
-In addition to accepting credit/debit cards and PayPal, IVPN accepts Bitcoin, **Monero** and **cash/local currency** (on annual plans) as anonymous forms of payment.
+IVPN은 신용카드, 체크카드, 페이팔과 같은 결제 수단 외에도 비트코인, **Monero**와 **현금** (연간 구독에만 해당) 과 같은 익명 결제 수단 또한 지원합니다.
 
 #### :material-check:{ .pg-green } WireGuard 지원
 
@@ -86,7 +86,7 @@ IVPN은 자신들의 서비스에서 WireGuard 사용을 [권장](https://www.iv
 
 #### :material-check:{ .pg-green } 모바일 클라이언트
 
-In addition to providing standard OpenVPN configuration files, IVPN has mobile clients for [App Store](https://apps.apple.com/us/app/ivpn-serious-privacy-protection/id1193122683), [Google Play](https://play.google.com/store/apps/details?id=net.ivpn.client), and [GitHub](https://github.com/ivpn/android-app/releases) allowing for easy connections to their servers.
+IVPN은 표준 OpenVPN 설정 파일 외에도, 간편하게 IVPN 서버와 연결 가능한 모바일 클라이언트를 [App Store](https://apps.apple.com/us/app/ivpn-serious-privacy-protection/id1193122683), [Google Play](https://play.google.com/store/apps/details?id=net.ivpn.client), [GitHub](https://github.com/ivpn/android-app/releases)에서 제공하고 있습니다.
 
 #### :material-information-outline:{ .pg-blue } 추가 기능
 
@@ -138,21 +138,21 @@ In 2021 an infrastructure audit [was announced](https://mullvad.net/en/blog/2021
 
 #### :material-check:{ .pg-green } 오픈 소스 클라이언트
 
-Mullvad provides the source code for their desktop and mobile clients in their [GitHub organization](https://github.com/mullvad/mullvadvpn-app).
+Mullvad 데크스톱, 모바일 클라이언트 소스 코드는 [GitHub](https://github.com/mullvad/mullvadvpn-app)에 공개되어 있습니다.
 
 #### :material-check:{ .pg-green } 현금 및 Monero 결제 가능
 
-Mullvad, in addition to accepting credit/debit cards and PayPal, accepts Bitcoin, Bitcoin Cash, **Monero** and **cash/local currency** as anonymous forms of payment. They also accept Swish and bank wire transfers.
+Mullvad는 신용카드, 체크카드, 페이팔과 같은 결제 수단 외에도 비트코인, 비트코인 캐쉬 (Bitcoin Cash), **Monero**와 **현금**과 같은 익명 결제 수단 또한 지원합니다. They also accept Swish and bank wire transfers.
 
 #### :material-check:{ .pg-green } WireGuard 지원
 
-Mullvad supports the WireGuard® protocol. [WireGuard](https://www.wireguard.com)는 최신식 [암호화](https://www.wireguard.com/protocol/)를 사용하는 최신 프로토콜입니다. 또한, WireGuard는 보다 단순하면서도 더 나은 성능을 목표로 합니다.
+Mullvad는 WireGuard® 프로토콜을 지원합니다. [WireGuard](https://www.wireguard.com)는 최신식 [암호화](https://www.wireguard.com/protocol/)를 사용하는 최신 프로토콜입니다. 또한, WireGuard는 보다 단순하면서도 더 나은 성능을 목표로 합니다.
 
-Mullvad [recommends](https://mullvad.net/en/help/why-wireguard/) the use of WireGuard with their service. It is the default or only protocol on Mullvad's Android, iOS, macOS, and Linux apps, but on Windows you have to [manually enable](https://mullvad.net/en/help/how-turn-wireguard-mullvad-app/) WireGuard. Mullvad also offers a WireGuard configuration generator for use with the official WireGuard [apps](https://www.wireguard.com/install/).
+Mullvad는 자신들의 서비스에서 WireGuard 사용을 [권장](https://mullvad.net/en/help/why-wireguard/)합니다. WireGuard 프로토콜은 Android, iOS, macOS, Linux의 Mullvad 앱에서는 기본으로 설정되어 있지만, Windows에서는 WireGuard 프로토콜을 [직접 활성화](https://mullvad.net/en/help/how-turn-wireguard-mullvad-app/)해야 합니다. WireGuard [공식 앱](https://www.wireguard.com/install/)에서 사용할 수 있는 Mullvad WireGuard 설정 생성기도 제공하고 있습니다.
 
-#### :material-check:{ .pg-green } IPv6 Support
+#### :material-check:{ .pg-green } IPv6 지원
 
-Mullvad supports the future of networking [IPv6](https://en.wikipedia.org/wiki/IPv6). Their network allows you to [access services hosted on IPv6](https://mullvad.net/en/blog/2014/9/15/ipv6-support/) as opposed to other providers who block IPv6 connections.
+Mullvad는 차기 네트워크 주소 체계인 [IPv6](https://en.wikipedia.org/wiki/IPv6)를 지원합니다. Their network allows you to [access services hosted on IPv6](https://mullvad.net/en/blog/2014/9/15/ipv6-support/) as opposed to other providers who block IPv6 connections.
 
 #### :material-check:{ .pg-green } 원격 포트 포워딩
 
@@ -202,7 +202,7 @@ As of January 2020, Proton VPN has undergone an independent audit by SEC Consult
 
 #### :material-check:{ .pg-green } 오픈 소스 클라이언트
 
-Proton VPN provides the source code for their desktop and mobile clients in their [GitHub organization](https://github.com/ProtonVPN).
+Proton VPN 데스크톱, 모바일 클라이언트는 [GitHub](https://github.com/ProtonVPN)에 공개되어 있습니다.
 
 #### :material-check:{ .pg-green } Accepts Cash
 
@@ -210,17 +210,17 @@ Proton VPN, in addition to accepting credit/debit cards, PayPal, and [Bitcoin](a
 
 #### :material-check:{ .pg-green } WireGuard 지원
 
-Proton VPN mostly supports the WireGuard® protocol. [WireGuard](https://www.wireguard.com)는 최신식 [암호화](https://www.wireguard.com/protocol/)를 사용하는 최신 프로토콜입니다. 또한, WireGuard는 보다 단순하면서도 더 나은 성능을 목표로 합니다.
+Proton VPN은 일반적으로 WireGuard® 프로토콜을 지원합니다. [WireGuard](https://www.wireguard.com)는 최신식 [암호화](https://www.wireguard.com/protocol/)를 사용하는 최신 프로토콜입니다. 또한, WireGuard는 보다 단순하면서도 더 나은 성능을 목표로 합니다.
 
-Proton VPN [recommends](https://protonvpn.com/blog/wireguard/) the use of WireGuard with their service. On Proton VPN's Windows, macOS, iOS, Android, ChromeOS, and Android TV apps, WireGuard is the default protocol; however, [support](https://protonvpn.com/support/how-to-change-vpn-protocols/) for the protocol is not present in their Linux app.
+Proton VPN은 자신들의 서비스에서 WireGuard 사용을 [권장](https://protonvpn.com/blog/wireguard/)합니다. WireGuard 프로토콜은 Windows, macOS, iOS, Android, ChromeOS, Android TV의 Proton VPN 앱에서는 기본으로 설정되어 있지만, Linux 앱에서는 [지원되지 않습니다](https://protonvpn.com/support/how-to-change-vpn-protocols/).
 
-#### :material-alert-outline:{ .pg-orange } Remote Port Forwarding
+#### :material-alert-outline:{ .pg-orange } 원격 포트 포워딩
 
 Proton VPN currently only supports remote [port forwarding](https://protonvpn.com/support/port-forwarding/) on Windows, which may impact some applications. Especially Peer-to-peer applications like Torrent clients.
 
 #### :material-check:{ .pg-green } 모바일 클라이언트
 
-In addition to providing standard OpenVPN configuration files, Proton VPN has mobile clients for [App Store](https://apps.apple.com/us/app/protonvpn-fast-secure-vpn/id1437005085), [Google Play](https://play.google.com/store/apps/details?id=ch.protonvpn.android&hl=en_US), and [GitHub](https://github.com/ProtonVPN/android-app/releases) allowing for easy connections to their servers.
+Proton VPN은 표준 OpenVPN 설정 파일 외에도, 간편하게 Proton VPN 서버와 연결 가능한 모바일 클라이언트를 [App Store](https://apps.apple.com/us/app/protonvpn-fast-secure-vpn/id1437005085), [Google Play](https://play.google.com/store/apps/details?id=ch.protonvpn.android&hl=en_US), [GitHub](https://github.com/ProtonVPN/android-app/releases)에서 제공하고 있습니다.
 
 #### :material-information-outline:{ .pg-blue } 추가 기능
 

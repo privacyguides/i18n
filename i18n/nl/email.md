@@ -1,5 +1,5 @@
 ---
-meta_title: "Encrypted Private Email Recommendations - Privacy Guides"
+meta_title: "Aanbevelingen voor versleutelde privé e-mail - Privacy Guides"
 title: "Email Diensten"
 icon: material/email
 description: Deze e-mailproviders bieden een uitstekende plaats om jouw e-mails veilig op te slaan, en vele bieden interoperabele OpenPGP versleuteling met andere providers.
@@ -125,7 +125,7 @@ Mailbox.org accepteert geen Bitcoin of andere cryptocurrencies als gevolg van he
 
 #### :material-check:{ .pg-green } Accountbeveiliging
 
-Mailbox.org ondersteunt [twee-factor authenticatie](https://kb.mailbox.org/display/MBOKBEN/How+to+use+two-factor+authentication+-+2FA) alleen voor hun webmail. You can use either TOTP or a [YubiKey](https://en.wikipedia.org/wiki/YubiKey) via the [YubiCloud](https://www.yubico.com/products/services-software/yubicloud). Webstandaarden zoals [WebAuthn](https://en.wikipedia.org/wiki/WebAuthn) worden nog niet ondersteund.
+Mailbox.org ondersteunt [twee-factor authenticatie](https://kb.mailbox.org/display/MBOKBEN/How+to+use+two-factor+authentication+-+2FA) alleen voor hun webmail. Je kunt TOTP of een [Yubikey](https://en.wikipedia.org/wiki/YubiKey) gebruiken via de [Yubicloud](https://www.yubico.com/products/services-software/yubicloud). Webstandaarden zoals [WebAuthn](https://en.wikipedia.org/wiki/WebAuthn) worden nog niet ondersteund.
 
 #### :material-information-outline:{ .pg-blue } Gegevensbeveiliging
 

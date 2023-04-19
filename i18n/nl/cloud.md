@@ -1,5 +1,5 @@
 ---
-meta_title: "The Best Private and Secure Cloud Storage Providers - Privacy Guides"
+meta_title: "De beste aanbieders van privé- en veilige cloud-opslag - Privacy Guides"
 title: "Cloud opslag"
 icon: material/file-cloud
 description: Veel aanbieders van cloud-opslag eisen jouw volledige vertrouwen dat zij niet in jouw bestanden zullen kijken. Dit zijn de privé alternatieven!

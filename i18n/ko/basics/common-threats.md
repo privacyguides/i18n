@@ -19,7 +19,7 @@ description: 위협 모델은 개개인마다 다르지만, 이 사이트의 방
 
 ## 익명성 vs 프라이버시
 
-<span class="pg-purple">:material-incognito: 익명성</span>
+<span class="pg-purple">:material-incognito: 익명성(Anonymity)</span>
 
 익명성은 프라이버시와 혼동되는 경우가 많지만, 서로 다른 개념입니다. '프라이버시'는 여러분의 데이터가 사용 및 공유되는 방식을 여러분이 선택할 권리를 의미하고, '익명성'은 온라인 활동을 실제 신원과 완전히 분리하는 것을 의미합니다.
 
@@ -27,7 +27,7 @@ description: 위협 모델은 개개인마다 다르지만, 이 사이트의 방
 
 ## 보안, 프라이버시
 
-<span class="pg-orange">:material-bug-outline: 수동적 공격</span>
+<span class="pg-orange">:material-bug-outline: 수동적 공격(Passive Attacks)</span>
 
 보안, 프라이버시도 자주 혼동됩니다. 프라이버시를 지키기 위해서는 보안이 필요하기 때문입니다. 프라이버시 중점적으로 설계된 서비스라 하여도 해당 서비스의 보안이 취약해 어떤 공격자가 손쉽게 데이터를 유출 및 악용할 수 있다면 무용지물입니다. 하지만, 반대로 뛰어난 보안에 프라이버시가 항상 뒤따라오는 것은 아닙니다. 완벽한 예시로 Google이 있습니다. Google은 업계 최고의 보안 전문가를 고용해 인프라를 보호하여 보안 사고가 거의 발생하지 않았습니다. Google이 제공하는 서비스의 보안은 매우 안전하지만, Google 무료 서비스(Gmail, YouTube 등)에서 자신의 데이터가 비공개라고 생각하는 사람은 거의 없습니다.
 
@@ -41,7 +41,7 @@ description: 위협 모델은 개개인마다 다르지만, 이 사이트의 방
     
     데스크톱 운영 체제는 보통 적절한 샌드박스 기능 면에서 뒤처집니다. ChromeOS는 Android와 유사한 샌드박스 기능을 제공하며, macOS는 전체 시스템 권한 제어 기능을 제공합니다(개발자는 애플리케이션의 샌드박스를 적용 여부를 선택할 수 있습니다). 하지만 이러한 운영 체제는 식별 정보를 각 OEM에 전송합니다. Linux는 대체로 시스템 공급 업체에 정보를 보내지 않지만, 취약점 및 악성 앱으로부터의 보호 기능은 미흡합니다. 이 문제는 [Qubes OS](../../desktop/#qubes-os) 등, 가상 머신/컨테이너를 적극적으로 사용하도록 특화된 배포판에서는 완화될 수 있습니다.
 
-<span class="pg-red">:material-target-account: 표적 공격</span>
+<span class="pg-red">:material-target-account: 표적 공격(Targeted Attacks)</span>
 
 특정 인물을 대상으로 하는 표적 공격은 더욱 대응하기 어렵습니다. 흔한 예시로는 이메일을 통한 악성 문서 전송, 브라우저 및 운영 체제 등의 취약점 악용, 물리적 공격 등이 있습니다. 표적 공격이 우려된다면, 보다 고급 위협 완화 전략이 필요합니다.
 
@@ -53,7 +53,7 @@ description: 위협 모델은 개개인마다 다르지만, 이 사이트의 방
 
 ## 서비스 제공 업체로부터의 프라이버시
 
-<span class="pg-teal">:material-server-network: 서비스 제공자(제공 업체)</span>
+<span class="pg-teal">:material-server-network: 서비스 제공자/제공 업체(Service Providers)</span>
 
 우리는 사실상 모든 것이 인터넷에 연결된 세상에 살고 있습니다. '비공개' 메시지, 이메일, 소셜 상호 작용은 보통 어딘가의 서버에 저장됩니다. 일반적으로, 여러분이 누군가에게 메시지를 보내면 해당 메시지는 서버에 저장되고, 여러분의 친구가 메시지를 읽으려 할 때 서버에서 메시지를 보여줍니다.
 
@@ -71,19 +71,19 @@ description: 위협 모델은 개개인마다 다르지만, 이 사이트의 방
 
 E2EE를 적용하더라도 여전히 서비스 제공 업체는 (일반적으로 보호되지 않는) **메타데이터**에 기반하여 여러분의 정보를 수집하고 프로파일링할 수 있습니다. 서비스 제공 업체는 여러분의 메시지를 읽을 수는 없지만, 여러분이 누구와 대화하는지, 얼마나 자주 메시지를 주고받는지, 주로 언제 활동하는지 등 중요한 정보를 관찰 가능합니다. 메타데이터에도 보호가 적용되는 경우는 매우 드뭅니다. 만약 여러분의 [위협 모델](threat-modeling.md)이 메타데이터 보호 또한 필요로 한다면, 사용하는 소프트웨어의 기술 문서를 주의 깊게 확인하여 메타데이터 최소화 혹은 보호가 존재하는지 살펴봐야 합니다.
 
-## Mass Surveillance Programs
+## 대중 감시 프로그램
 
-<span class="pg-blue">:material-eye-outline: 대중 감시</span>
+<span class="pg-blue">:material-eye-outline: 대중 감시(Mass Surveillance)</span>
 
-Mass surveillance is the intricate effort to monitor the "behavior, many activities, or information" of an entire (or substantial fraction of a) population.[^1] It often refers to government programs, such as the ones [disclosed by Edward Snowden in 2013](https://en.wikipedia.org/wiki/Global_surveillance_disclosures_(2013%E2%80%93present)). However, it can also be carried out by corporations, either on behalf of government agencies or by their own initiative.
+'대중 감시'는 전체(혹은 상당한 부분의) 인구의 '행동, 다양한 활동 혹은 정보'를 모니터링하는 전방위적 노력을 뜻합니다.[^1] [2013년 에드워드 스노든이 폭로한 정부 프로그램](https://en.wikipedia.org/wiki/Global_surveillance_disclosures_(2013%E2%80%93present)) 등을 가리키는 경우가 많습니다. 하지만, 기업이 정부 기관 대신 수행하거나, 기업 자체가 주도적으로 수행하기도 합니다.
 
-!!! abstract "Atlas of Surveillance"
+!!! abstract "감시 지도"
 
-    If you want to learn more about surveillance methods and how they're implemented in your city you can also take a look at the [Atlas of Surveillance](https://atlasofsurveillance.org/) by the [Electronic Frontier Foundation](https://www.eff.org/).
+    감시 방법과, 미국의 특정 도시에서 어떻게 감시 체계를 운용하는지 자세히 알고 싶다면 [Electronic Frontier Foundation](https://www.eff.org/)의 [Atlas of Surveillance](https://atlasofsurveillance.org/)를 살펴보세요.
     
-    In France you can take a look at the [Technolopolice website](https://technopolice.fr/villes/) maintained by the non-profit association La Quadrature du Net.
+    프랑스의 경우, 비영리 단체인 La Quadrature du Net에서 운영하는 [Technolopolice website](https://technopolice.fr/villes/)를 살펴볼 수 있습니다.
 
-Governments often justify mass surveillance programs as necessary means to combat terrorism and prevent crime. However, breaching human rights, it's most often used to disproportionately target minority groups and political dissidents, among others.
+정부는 테러 대응 및 범죄 예방에 필요한 수단으로 대중 감시 프로그램을 정당화하는 경우가 많습니다. 하지만 이는 분명한 인권 침해일 뿐만 아니라, 대중 감시는 소수 집단과 정치적 반체제 인사 등의 대상을 집중적으로 표적삼는 데에 가장 자주 사용됩니다.
 
 !!! quote "ACLU: [*The Privacy Lesson of 9/11: Mass Surveillance is Not the Way Forward*](https://www.aclu.org/news/national-security/the-privacy-lesson-of-9-11-mass-surveillance-is-not-the-way-forward)"
 
@@ -125,7 +125,7 @@ If you've already submitted your real information to sites which shouldn't have 
 
 ## Avoiding Censorship
 
-<span class="pg-blue-gray">:material-close-outline: Censorship</span>
+<span class="pg-blue-gray">:material-close-outline: 검열</span>
 
 Censorship online can be carried out (to varying degrees) by actors including totalitarian governments, network administrators, and service providers. These efforts to control communication and restrict access to information will always be incompatible with the human right to Freedom of Expression.[^5]
 
@@ -133,7 +133,7 @@ Censorship on corporate platforms is increasingly common, as platforms like Twit
 
 People concerned with the threat of censorship can use technologies like [Tor](../advanced/tor-overview.md) to circumvent it, and support censorship-resistant communication platforms like [Matrix](../real-time-communication.md#element), which doesn't have a centralized account authority that can close accounts arbitrarily.
 
-!!! tip
+!!! tip "도움말"
 
     While evading censorship itself can be easy, hiding the fact that you are doing it can be very problematic.
     

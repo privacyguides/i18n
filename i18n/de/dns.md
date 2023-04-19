@@ -11,16 +11,16 @@ Encrypted DNS with third-party servers should only be used to get around basic [
 
 ## Empfohlene DNS-Anbieter
 
-| DNS-Anbieter                                                                    | Datenschutzerklärung                                                                                  | Protokolle                                                   | Logging      | ECS      | Filter                                                                                                                                 |
-| ------------------------------------------------------------------------------- | ----------------------------------------------------------------------------------------------------- | ------------------------------------------------------------ | ------------ | -------- | -------------------------------------------------------------------------------------------------------------------------------------- |
-| [**AdGuard**](https://adguard.com/en/adguard-dns/overview.html)                 | [:octicons-link-external-24:](https://adguard.com/en/privacy/dns.html)                                | Klartext <br> DoH/3 <br> DoT <br> DNSCrypt | Some[^1]     | Nein     | Nach Server Wahl. Die verwendete Filterliste findest du hier. [:octicons-link-external-24:](https://github.com/AdguardTeam/AdGuardDNS) |
-| [**Cloudflare**](https://developers.cloudflare.com/1.1.1.1/setting-up-1.1.1.1/) | [:octicons-link-external-24:](https://developers.cloudflare.com/1.1.1.1/privacy/public-dns-resolver/) | Klartext <br> DoH/3 <br> DoT                     | Some[^2]     | Nein     | Nach Server Wahl.                                                                                                                      |
-| [**Control D**](https://controld.com/free-dns)                                  | [:octicons-link-external-24:](https://controld.com/privacy)                                           | Klartext <br> DoH/3 <br> DoT <br> DoQ      | Optional[^3] | Nein     | Nach Server Wahl.                                                                                                                      |
-| [**Mullvad**](https://mullvad.net/en/help/dns-over-https-and-dns-over-tls)      | [:octicons-link-external-24:](https://mullvad.net/en/help/no-logging-data-policy/)                    | DoH <br> DoT                                           | Nein[^4]     | Nein     | Nach Server Wahl. Die verwendete Filterliste findest du hier. [:octicons-link-external-24:](https://github.com/mullvad/dns-adblock)    |
-| [**NextDNS**](https://www.nextdns.io)                                           | [:octicons-link-external-24:](https://www.nextdns.io/privacy)                                         | Klartext <br> DoH/3 <br> DoT                     | Optional[^5] | Optional | Nach Server Wahl.                                                                                                                      |
-| [**Quad9**](https://quad9.net)                                                  | [:octicons-link-external-24:](https://quad9.net/privacy/policy/)                                      | Klartext <br> DoH <br> DoT <br> DNSCrypt   | Some[^6]     | Optional | Nach Server Wahl, Schadware wird standardmäßig blockiert.                                                                              |
+| DNS-Anbieter                                                                    | Datenschutzerklärung                                                                                  | Protokolle                                                   | Logging      | ECS      | Filter                                                                                                                                                |
+| ------------------------------------------------------------------------------- | ----------------------------------------------------------------------------------------------------- | ------------------------------------------------------------ | ------------ | -------- | ----------------------------------------------------------------------------------------------------------------------------------------------------- |
+| [**AdGuard**](https://adguard.com/en/adguard-dns/overview.html)                 | [:octicons-link-external-24:](https://adguard.com/en/privacy/dns.html)                                | Klartext <br> DoH/3 <br> DoT <br> DNSCrypt | Some[^1]     | Nein     | Based on personal configuration. Die verwendete Filterliste findest du hier. [:octicons-link-external-24:](https://github.com/AdguardTeam/AdGuardDNS) |
+| [**Cloudflare**](https://developers.cloudflare.com/1.1.1.1/setting-up-1.1.1.1/) | [:octicons-link-external-24:](https://developers.cloudflare.com/1.1.1.1/privacy/public-dns-resolver/) | Klartext <br> DoH/3 <br> DoT                     | Some[^2]     | Nein     | Based on personal configuration.                                                                                                                      |
+| [**Control D**](https://controld.com/free-dns)                                  | [:octicons-link-external-24:](https://controld.com/privacy)                                           | Klartext <br> DoH/3 <br> DoT <br> DoQ      | Optional[^3] | Nein     | Based on personal configuration.                                                                                                                      |
+| [**Mullvad**](https://mullvad.net/en/help/dns-over-https-and-dns-over-tls)      | [:octicons-link-external-24:](https://mullvad.net/en/help/no-logging-data-policy/)                    | DoH <br> DoT                                           | Nein[^4]     | Nein     | Based on personal configuration. Die verwendete Filterliste findest du hier. [:octicons-link-external-24:](https://github.com/mullvad/dns-adblock)    |
+| [**NextDNS**](https://www.nextdns.io)                                           | [:octicons-link-external-24:](https://www.nextdns.io/privacy)                                         | Klartext <br> DoH/3 <br> DoT                     | Optional[^5] | Optional | Based on personal configuration.                                                                                                                      |
+| [**Quad9**](https://quad9.net)                                                  | [:octicons-link-external-24:](https://quad9.net/privacy/policy/)                                      | Klartext <br> DoH <br> DoT <br> DNSCrypt   | Some[^6]     | Optional | Based on personal configuration, Malware blocking by default.                                                                                         |
 
-## Kriterien
+### Criteria
 
 **Bitte beachte, dass wir mit keinem der Projekte, die wir empfehlen, verbunden sind.** Zusätzlich zu unseren [Standardkriterien](about/criteria.md) haben wir eine Reihe klarer Anforderungen entwickelt, die es uns ermöglichen, objektive Empfehlungen zu geben. Wir empfehlen, sich mit dieser Liste vertraut zu machen, bevor sich für ein Projekt entschieden wird und eigenen Nachforschungen anzustellen, um sicherzustellen, dass es die richtige Wahl ist.
 
@@ -33,13 +33,13 @@ Encrypted DNS with third-party servers should only be used to get around basic [
 - Erlaubt es [ECS](advanced/dns-overview.md#what-is-edns-client-subnet-ecs) zu deaktivieren.
 - Bevorzugt [anycast](https://en.wikipedia.org/wiki/Anycast#Addressing_methods) Unterstützung oder Geo-Steering-Unterstützung.
 
-## Unterstützung durch Betriebssysteme von Haus aus
+## Native Operating System Support
 
 ### Android
 
 Android 9 und höher unterstützen DNS über TLS. Die Einstellungen sind zu finden unter: **Einstellungen** &rarr; **Netzwerk & Internet** &rarr; **Privates DNS**.
 
-### Apple-Geräte
+### Apple Devices
 
 Die neuesten Versionen von iOS, iPadOS, tvOS und macOS unterstützen sowohl DoT als auch DoH. Beide Protokolle werden nativ über [Konfigurationsprofile](https://support.apple.com/de-de/guide/security/secf6fb9f053/web) oder über die [DNS Settings API](https://developer.apple.com/documentation/networkextension/dns_settings)unterstützt.
 
@@ -53,7 +53,7 @@ Apple bietet keine native Schnittstelle zur Erstellung von Profilen mit verschl�
 
     `systemd-resolved`, das viele Linux-Distributionen für ihre DNS Abfragen verwenden, unterstützt noch nicht [DoH](https://github.com/systemd/systemd/issues/8639). Wenn trotzdem DoH verwendent werden soll, muss ein Proxy wie [dnscrypt-proxy](https://github.com/DNSCrypt/dnscrypt-proxy) installiert und [konfiguriert](https://wiki.archlinux.org/title/Dnscrypt-proxy) werden, um alle DNS-Anfragen vom System-Resolver entgegenzunehmen und sie über HTTPS weiterzuleiten.
 
-## Verschlüsseltes DNS-Proxy
+## Encrypted DNS Proxies
 
 Verschlüsseltes DNS-Proxy-Software bietet einen lokalen Proxy, an den der [unverschlüsselte DNS](advanced/dns-overview.md#unencrypted-dns) weitergeleitet wird. Normalerweise wird es auf Plattformen verwendet, die [verschlüsseltes DNS](advanced/dns-overview.md#what-is-encrypted-dns) nicht unterstützen.
 
@@ -97,7 +97,7 @@ Verschlüsseltes DNS-Proxy-Software bietet einen lokalen Proxy, an den der [unve
         - [:simple-apple: macOS](https://github.com/DNSCrypt/dnscrypt-proxy/wiki/Installation-macOS)
         - [:simple-linux: Linux](https://github.com/DNSCrypt/dnscrypt-proxy/wiki/Installation-linux)
 
-## Selbstgehostete Lösungen
+## Self-hosted Solutions
 
 Eine selbst gehostete DNS-Lösung ist nützlich für die Filterung auf kontrollierten Plattformen wie Smart-TVs und anderen IoT-Geräten, da keine clientseitige Software erforderlich ist.
 
