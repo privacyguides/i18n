@@ -14,7 +14,7 @@ config:
          Privacy Guides and contributors.
     - 
       4: |
-         Content licensed under CC BY-ND 4.0.
+         Содержание доступно под лицензией CC BY-ND 4.0.
   feedback:
     question: Была ли эта страница полезной?
     yes: Эта страница была полезна
@@ -34,15 +34,15 @@ nav:
   Advanced Topics: Advanced Topics
   Recommendations: Рекомендации
   Internet Browsing: Internet Browsing
-  Providers: Providers
+  Providers: Провайдеры
   Software: ПО
   About: О сайте
-  Community: Community
+  Community: Сообщество
   Online Services: Онлайн-сервисов
   Code of Conduct: Code of Conduct
   Contributing: Помощь проекту
-  Writing Guide: Writing Guide
-  Technical Guides: Technical Guides
+  Writing Guide: Руководство по написанию
+  Technical Guides: Технические руководства
   Changelog: Список изменений
   Forum: Форум
   Blog: Блог

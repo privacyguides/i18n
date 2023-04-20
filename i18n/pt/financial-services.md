@@ -81,7 +81,7 @@ These services allow you to purchase gift cards for a variety of merchants onlin
 !!! nota
     Consulte o [Tabela de Hardware](https://openwrt.org/toh/start) para verificar se o seu dispositivo é suportado.
 
-    ![CakePay logo](assets/img/financial-services/coincards.svg){ align=right }
+    ![CoinCards logo](assets/img/financial-services/coincards.svg){ align=right }
     
     **CoinCards** (available in the US and Canada) allows you to purchase gift cards for a large variety of merchants.
     

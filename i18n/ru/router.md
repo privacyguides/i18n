@@ -1,7 +1,7 @@
 ---
 title: "Прошивки для роутера"
 icon: material/router-wireless
-description: These alternative operating systems can be used to secure your router or Wi-Fi access point.
+description: Эти альтернативные операционные системы могут использоваться для защиты маршрутизатора или точки доступа Wi-Fi.
 cover: router.png
 ---
 

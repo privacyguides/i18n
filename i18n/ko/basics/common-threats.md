@@ -85,11 +85,11 @@ E2EE를 적용하더라도 여전히 서비스 제공 업체는 (일반적으로
 
 정부는 테러 대응 및 범죄 예방에 필요한 수단으로 대중 감시 프로그램을 정당화하는 경우가 많습니다. 하지만 이는 분명한 인권 침해일 뿐만 아니라, 대중 감시는 소수 집단과 정치적 반체제 인사 등의 대상을 집중적으로 표적삼는 데에 가장 자주 사용됩니다.
 
-!!! quote "ACLU: [*The Privacy Lesson of 9/11: Mass Surveillance is Not the Way Forward*](https://www.aclu.org/news/national-security/the-privacy-lesson-of-9-11-mass-surveillance-is-not-the-way-forward)"
+!!! quote "ACLU: [*9.11 사건의 프라이버시 교훈: 대중 감시는 앞으로 나아갈 길이 아닙니다*](https://www.aclu.org/news/national-security/the-privacy-lesson-of-9-11-mass-surveillance-is-not-the-way-forward)"
 
-    In the face of [Edward Snowden's disclosures of government programs such as [PRISM](https://en.wikipedia.org/wiki/PRISM) and [Upstream](https://en.wikipedia.org/wiki/Upstream_collection)], intelligence officials also admitted that the NSA had for years been secretly collecting records about virtually every American’s phone calls — who’s calling whom, when those calls are made, and how long they last. This kind of information, when amassed by the NSA day after day, can reveal incredibly sensitive details about people’s lives and associations, such as whether they have called a pastor, an abortion provider, an addiction counselor, or a suicide hotline.
+    정보 당국은 에드워드 스노든의 정부 프로그램([PRISM](https://en.wikipedia.org/wiki/PRISM), [Upstream](https://en.wikipedia.org/wiki/Upstream_collection) 등) 폭로에 직면하여, NSA가 수년간 사실상 모든 미국인의 전화 통화 기록(누가 누구랑 통화하는지, 언제 통화하는지, 얼마나 오래 통화하는지)을 비밀리에 수집해 왔음을 인정했습니다. NSA가 이러한 정보를 매일 수집할 경우, 어떤 사람이 목사, 낙태 시술자, 중독 상담사, 자살 예방 상담사와 전화했는지 등 사람들의 삶과 관계성에 대해 극도로 민감한 정보를 파악할 수 있습니다.
 
-Despite growing mass surveillance in the United States, the government has found that mass surveillance programs like Section 215 have had "little unique value" with respect to stopping actual crimes or terrorist plots, with efforts largely duplicating the FBI's own targeted surveillance programs.[^2]
+미국에서 대중 감시가 증가하고 있음에도 불구하고, 정부는 215조항과 같은 대중 감시 프로그램이 실제 범죄나 테러 음모를 저지하는 데 있어 '고유한 가치가 거의 없다'라는 사실을 발견했으며, 대부분의 노력은 FBI의 표적 감시 프로그램과 중복되는 것으로 나타났습니다.[^2]
 
 온라인상에서 여러분은 다양한 방법을 통해 추적당할 수 있습니다.
 
@@ -101,19 +101,19 @@ Despite growing mass surveillance in the United States, the government has found
 
 \[이 목록뿐만이 아닙니다].
 
-If you're concerned about mass surveillance programs, you can use strategues like compartmentalizing your online identities, blending in with other users, or, whenever possible, simply avoiding giving out identifying information.
+대중 감시 프로그램을 우려하는 경우, 온라인 신원을 구별해 활동하거나, 다른 사용자 사이에 섞여들거나, 가능한 선에서 식별 정보를 최소화하는 등의 전략을 이용할 수 있습니다.
 
-<span class="pg-brown">:material-account-cash: Surveillance Capitalism</span>
+<span class="pg-brown">:material-account-cash: 감시 자본주의(Surveillance Capitalism)</span>
 
-> Surveillance capitalism is an economic system centered around the capture and commodification of personal data for the core purpose of profit-making.[^3]
+> 감시 자본주의는 이윤 창출을 주요 목적으로 하여 개인 데이터를 수집하고 상품화하는 데 중점을 둔 경제 시스템입니다.[^3]
 
-For many people, tracking and surveillance by private corporations is a growing concern. Pervasive ad networks, such as those operated by Google and Facebook, span the internet far beyond just the sites they control, tracking your actions along the way. Using tools like content blockers to limit network requests to their servers, and reading the privacy policies of the services you use can help you avoid many basic adversaries (although it can't completely prevent tracking).[^4]
+대중 사이에서, 사기업의 추적 및 감시에 대한 우려는 점점 더 커지고 있습니다. Pervasive 광고 네트워크는(Google, Facebook이 운영하는 광고가 이에 해당) 해당 업체의 사이트뿐만 아니라 인터넷 전반에 퍼져서 여러분의 행동을 추적하고 있습니다. 콘텐츠 차단기 등의 툴을 써서 광고 네트워크 요청을 제한하고, 서비스의 프라이버시 정책을 꼼꼼히 읽으면 (추적을 완전히 방지할 수는 없지만) 기본적인 적들을 피하는 데에 도움이 됩니다.[^4]
 
 Additionally, even companies outside of the *AdTech* or tracking industry can share your information with [data brokers](https://en.wikipedia.org/wiki/Information_broker) (such as Cambridge Analytica, Experian, or Datalogix) or other parties. You can't automatically assume your data is safe just because the service you're using doesn't fall within the typical AdTech or tracking business model. The strongest protection against corporate data collection is to encrypt or obfuscate your data whenever possible, making it difficult for different providers to correlate data with each other and build a profile on you.
 
-## Limiting Public Information
+## 정보 공개 제한
 
-<span class="pg-green">:material-account-search: Public Exposure</span>
+<span class="pg-green">:material-account-search: 공개 노출(Public Exposure)</span>
 
 The best way to keep your data private is simply not making it public in the first place. Deleting unwanted information you find about yourself online is one of the best first steps you can take to regain your privacy.
 
@@ -123,9 +123,9 @@ On sites where you do share information, checking the privacy settings of your a
 
 If you've already submitted your real information to sites which shouldn't have it, consider using disinformation tactics, like submitting fictitious information related to that online identity. This makes your real information indistinguishable from the false information.
 
-## Avoiding Censorship
+## 검열 회피
 
-<span class="pg-blue-gray">:material-close-outline: 검열</span>
+<span class="pg-blue-gray">:material-close-outline: 검열(Censorship)</span>
 
 Censorship online can be carried out (to varying degrees) by actors including totalitarian governments, network administrators, and service providers. These efforts to control communication and restrict access to information will always be incompatible with the human right to Freedom of Expression.[^5]
 
@@ -142,7 +142,7 @@ People concerned with the threat of censorship can use technologies like [Tor](.
 You must always consider the risks of trying to bypass censorship, the potential consequences, and how sophisticated your adversary may be. You should be cautious with your software selection, and have a backup plan in case you are caught.
 
 [^1]: Wikipedia: [*Mass Surveillance*](https://en.wikipedia.org/wiki/Mass_surveillance) and [*Surveillance*](https://en.wikipedia.org/wiki/Surveillance).
-[^2]: United States Privacy and Civil Liberties Oversight Board: [*Report on the Telephone Records Program Conducted under Section 215*](https://documents.pclob.gov/prod/Documents/OversightReport/ec542143-1079-424a-84b3-acc354698560/215-Report_on_the_Telephone_Records_Program.pdf)
+[^2]: 미국 프라이버시 및 시민 자유 감독 위원회: [*215조항에 따라 수행된 전화 통화 기록 프로그램에 대한 보고서*](https://documents.pclob.gov/prod/Documents/OversightReport/ec542143-1079-424a-84b3-acc354698560/215-Report_on_the_Telephone_Records_Program.pdf)
 [^3]: Wikipedia: [*Surveillance capitalism*](https://en.wikipedia.org/wiki/Surveillance_capitalism)
 [^4]: "[Enumerating badness](https://www.ranum.com/security/computer_security/editorials/dumb/)" (or, "listing all the bad things that we know about"), as many adblockers and antivirus programs do, fails to adequately protect you from new and unknown threats because they have not yet been added to the filter list. You should also employ other mitigation techniques.
-[^5]: United Nations: [*Universal Declaration of Human Rights*](https://www.un.org/en/about-us/universal-declaration-of-human-rights).
+[^5]: UN: [*세계 인권 선언*](https://www.un.org/en/about-us/universal-declaration-of-human-rights)

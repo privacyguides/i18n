@@ -6,7 +6,7 @@ description: These are the best VPN services for protecting your privacy and sec
 cover: vpn.png
 ---
 
-If you're looking for additional **privacy** from your ISP, on a public Wi-Fi network, or while torrenting files, a VPN may be the solution for you as long as you understand the risks involved. We think these providers are a cut above the rest:
+ISP로부터의 **프라이버시**가 필요하거나, 공용 Wi-Fi에 연결되어 있거나, 토렌트를 사용하는 중이라면 VPN이 알맞는 해결책이 될 수 있습니다. 다만, VPN의 단점들을 인지하고 있어야 합니다. We think these providers are a cut above the rest:
 
 <div class="grid cards" markdown>
 
@@ -26,7 +26,7 @@ If you're looking for additional **privacy** from your ISP, on a public Wi-Fi ne
     
     [Download Tor](https://www.torproject.org/){ .md-button .md-button--primary } [Tor Myths & FAQ](advanced/tor-overview.md){ .md-button }
 
-[Detailed VPN Overview :material-arrow-right-drop-circle:](basics/vpn-overview.md ""){.md-button}
+[VPN에 대해서 :material-arrow-right-drop-circle:](basics/vpn-overview.md ""){.md-button}
 
 ## 권장 제공 업체
 
@@ -152,7 +152,7 @@ Mullvad는 자신들의 서비스에서 WireGuard 사용을 [권장](https://mul
 
 #### :material-check:{ .pg-green } IPv6 지원
 
-Mullvad는 차기 네트워크 주소 체계인 [IPv6](https://en.wikipedia.org/wiki/IPv6)를 지원합니다. Their network allows you to [access services hosted on IPv6](https://mullvad.net/en/blog/2014/9/15/ipv6-support/) as opposed to other providers who block IPv6 connections.
+Mullvad는 차기 네트워크 주소 체계인 [IPv6](https://en.wikipedia.org/wiki/IPv6)를 지원합니다. IPv6 연결들을 차단하는 다른 제공자와 달리 Mullvad의 네트워크는 [IPv6에 호스팅되는 서비스에 접근](https://mullvad.net/en/blog/2014/9/15/ipv6-support/)할 수 있도록 합니다.
 
 #### :material-check:{ .pg-green } 원격 포트 포워딩
 
@@ -230,82 +230,82 @@ Proton VPN clients support two factor authentication on all platforms except Lin
 
 System crashes [may occur](https://protonvpn.com/support/macos-t2-chip-kill-switch/) on Intel-based Macs when using the VPN killswitch. If you require this feature, and you are using a Mac with Intel chipset, you should consider using another VPN service.
 
-## Criteria
+## 평가 기준
 
 !!! danger
 
-    It is important to note that using a VPN provider will not make you anonymous, but it will give you better privacy in certain situations. A VPN is not a tool for illegal activities. Don't rely on a "no log" policy.
+    VPN은 익명성을 제공하지 않는다는 것을 인지하는 것은 매우 중요합니다. 다만, 특정 상황에서 더 나은 프라이버시를 제공할 수 있습니다. VPN은 불법적인 활동에 사용하는 도구가 아닙니다. "로그 없음" 정책에 의존하면 안됩니다.
 
-**Please note we are not affiliated with any of the providers we recommend. This allows us to provide completely objective recommendations.** In addition to [our standard criteria](about/criteria.md), we have developed a clear set of requirements for any VPN provider wishing to be recommended, including strong encryption, independent security audits, modern technology, and more. We suggest you familiarize yourself with this list before choosing a VPN provider, and conduct your own research to ensure the VPN provider you choose is as trustworthy as possible.
+**우리는 위 추천한 제공자와 그 어떤 제휴 관계에 있지 않습니다. This allows us to provide completely objective recommendations.** In addition to [our standard criteria](about/criteria.md), we have developed a clear set of requirements for any VPN provider wishing to be recommended, including strong encryption, independent security audits, modern technology, and more. We suggest you familiarize yourself with this list before choosing a VPN provider, and conduct your own research to ensure the VPN provider you choose is as trustworthy as possible.
 
-### Technology
+### 기술
 
 We require all our recommended VPN providers to provide OpenVPN configuration files to be used in any client. **If** a VPN provides their own custom client, we require a killswitch to block network data leaks when disconnected.
 
-**Minimum to Qualify:**
+**최소 요구 사항:**
 
-- Support for strong protocols such as WireGuard & OpenVPN.
-- Killswitch built in to clients.
-- Multihop support. Multihopping is important to keep data private in case of a single node compromise.
+- WireGuard와 OpenVPN과 같은 강력한 프로토콜을 지원
+- 클라이언트에 킬스위치 (Killswitch)기능이 내장되어 있음
+- 멀티홉을 지원함 멀티홉은 한 노드가 공격당할 경우 데이터를 지키는데에 중요하게 사용됩니다.
 - If VPN clients are provided, they should be [open-source](https://en.wikipedia.org/wiki/Open_source), like the VPN software they generally have built into them. We believe that [source code](https://en.wikipedia.org/wiki/Source_code) availability provides greater transparency about what your device is actually doing.
 
-**Best Case:**
+**우대 사항:**
 
-- WireGuard and OpenVPN support.
-- Killswitch with highly configurable options (enable/disable on certain networks, on boot, etc.)
-- Easy-to-use VPN clients
+- WireGuard 및 OpenVPN 지원
+- 다양한 설정들을 가진 킬스위치 기능 (일부 네트워크에만 활성화하기, 부팅시에만 활성화하기 등)
+- 사용하기 쉬운 VPN 클라이언트
 - Supports [IPv6](https://en.wikipedia.org/wiki/IPv6). We expect that servers will allow incoming connections via IPv6 and allow you to access services hosted on IPv6 addresses.
 - Capability of [remote port forwarding](https://en.wikipedia.org/wiki/Port_forwarding#Remote_port_forwarding) assists in creating connections when using P2P ([Peer-to-Peer](https://en.wikipedia.org/wiki/Peer-to-peer)) file sharing software or hosting a server (e.g., Mumble).
 
-### Privacy
+### 프라이버시
 
 We prefer our recommended providers to collect as little data as possible. Not collecting personal information on registration, and accepting anonymous forms of payment are required.
 
-**Minimum to Qualify:**
+**최소 요구 사항:**
 
-- [Anonymous cryptocurrency](cryptocurrency.md) **or** cash payment option.
-- No personal information required to register: Only username, password, and email at most.
+- [익명 암호화폐](cryptocurrency.md) **또는** 현금 결제 옵션
+- 가입하는 데에 개인정보 입력이 필수가 아님 (사용자명, 비밀번호, 이메일만 요구)
 
-**Best Case:**
+**우대 사항:**
 
-- Accepts multiple [anonymous payment options](advanced/payments.md).
-- No personal information accepted (autogenerated username, no email required, etc.).
+- 다수의 [익명 결제 수단](advanced/payments.md) 지원
+- 개인 정보를 받지 않음 (자동생성된 사용자명, 이메일 불필요 등)
 
-### Security
+### 보안
 
-A VPN is pointless if it can't even provide adequate security. We require all our recommended providers to abide by current security standards for their OpenVPN connections. Ideally, they would use more future-proof encryption schemes by default. We also require an independent third-party to audit the provider's security, ideally in a very comprehensive manner and on a repeated (yearly) basis.
+적절한 보안을 제공하지 않는 VPN은 없으나마나입니다. We require all our recommended providers to abide by current security standards for their OpenVPN connections. Ideally, they would use more future-proof encryption schemes by default. We also require an independent third-party to audit the provider's security, ideally in a very comprehensive manner and on a repeated (yearly) basis.
 
-**Minimum to Qualify:**
+**최소 요구 사항:**
 
 - Strong Encryption Schemes: OpenVPN with SHA-256 authentication; RSA-2048 or better handshake; AES-256-GCM or AES-256-CBC data encryption.
 - Perfect Forward Secrecy (PFS).
 - Published security audits from a reputable third-party firm.
 
-**Best Case:**
+**우대 사항:**
 
-- Strongest Encryption: RSA-4096.
+- 가장 강력한 암호화 방식으로 RSA-4096을 지원
 - Perfect Forward Secrecy (PFS).
 - Comprehensive published security audits from a reputable third-party firm.
 - Bug-bounty programs and/or a coordinated vulnerability-disclosure process.
 
-### Trust
+### 신뢰
 
 You wouldn't trust your finances to someone with a fake identity, so why trust them with your internet data? We require our recommended providers to be public about their ownership or leadership. We also would like to see frequent transparency reports, especially in regard to how government requests are handled.
 
-**Minimum to Qualify:**
+**최소 요구 사항:**
 
 - Public-facing leadership or ownership.
 
-**Best Case:**
+**우대 사항:**
 
 - Public-facing leadership.
 - Frequent transparency reports.
 
-### Marketing
+### 마케팅
 
 With the VPN providers we recommend we like to see responsible marketing.
 
-**Minimum to Qualify:**
+**최소 요구 사항:**
 
 - Must self-host analytics (i.e., no Google Analytics). The provider's site must also comply with [DNT (Do Not Track)](https://en.wikipedia.org/wiki/Do_Not_Track) for people who want to opt-out.
 
@@ -317,13 +317,13 @@ Must not have any marketing which is irresponsible:
 - Claim that a single circuit VPN is "more anonymous" than Tor, which is a circuit of three or more hops that regularly changes.
 - Use responsible language: i.e., it is okay to say that a VPN is "disconnected" or "not connected", however claiming that someone is "exposed", "vulnerable" or "compromised" is needless use of alarming language that may be incorrect. For example, that person might simply be on another VPN provider's service or using Tor.
 
-**Best Case:**
+**우대 사항:**
 
 Responsible marketing that is both educational and useful to the consumer could include:
 
 - An accurate comparison to when [Tor](tor.md) should be used instead.
 - Availability of the VPN provider's website over a [.onion service](https://en.wikipedia.org/wiki/.onion)
 
-### Additional Functionality
+### 추가 기능
 
 While not strictly requirements, there are some factors we looked into when determining which providers to recommend. These include adblocking/tracker-blocking functionality, warrant canaries, multihop connections, excellent customer support, the number of allowed simultaneous connections, etc.

@@ -4,17 +4,17 @@ icon: 'material/form-textbox-password'
 description: Ecco alcuni suggerimenti e trucchi su come creare le password più forti e mantenere i vostri account al sicuro.
 ---
 
-Passwords are an essential part of our everyday digital lives. We use them to protect our accounts, our devices and our secrets. Despite often being the only thing between us and an adversary who's after our private information, not a lot of thought is put into them, which often leads to people using passwords that can be easily guessed or brute-forced.
+Le password sono una parte essenziale della nostra vita digitale quotidiana. We use them to protect our accounts, our devices and our secrets. Despite often being the only thing between us and an adversary who's after our private information, not a lot of thought is put into them, which often leads to people using passwords that can be easily guessed or brute-forced.
 
 ## Best Practices
 
-### Use unique passwords for every service
+### Utilizza password uniche per ogni servizio
 
 Imagine this; you sign up for an account with the same e-mail and password on multiple online services. If one of those service providers is malicious, or their service has a data breach that exposes your password in an unencrypted format, all a bad actor would have to do is try that e-mail and password combination across multiple popular services until they get a hit. It doesn't matter how strong that one password is, because they already have it.
 
 This is called [credential stuffing](https://en.wikipedia.org/wiki/Credential_stuffing), and it is one of the most common ways that your accounts can be compromised by bad actors. To avoid this, make sure that you never re-use your passwords.
 
-### Use randomly generated passwords
+### Usa password generate randomicamente
 
 ==You should **never** rely on yourself to come up with a good password.== We recommend using [randomly generated passwords](#passwords) or [diceware passphrases](#diceware-passphrases) with sufficient entropy to protect your accounts and devices.
 
@@ -30,9 +30,9 @@ When it comes to passwords that you don't have to remember (such as passwords st
 
     If your password manager lets you check for compromised passwords, make sure to do so and promptly change any password that may have been exposed in a data breach. Alternatively, you could follow [Have I Been Pwned's Latest Breaches feed](https://feeds.feedburner.com/HaveIBeenPwnedLatestBreaches) with the help of a [news aggregator](../news-aggregators.md).
 
-## Creating strong passwords
+## Creare password forti
 
-### Passwords
+### Password
 
 A lot of services impose certain criteria when it comes to passwords, including a minimum or maximum length, as well as which special characters, if any, can be used. You should use your password manager's built-in password generator to create passwords that are as long and complex as the service will allow by including capitalized and lowercase letters, numbers and special characters.
 
@@ -88,7 +88,7 @@ We recommend using [EFF's large wordlist](https://www.eff.org/files/2016/07/18/e
 
 To sum it up, diceware passphrases are your best option when you need something that is both easy to remember *and* exceptionally strong.
 
-## Storing Passwords
+## Memorizzare le password
 
 ### Gestori di password
 

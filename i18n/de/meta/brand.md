@@ -1,5 +1,5 @@
 ---
-title: Branding Guidelines
+title: Markenrichtlinien
 ---
 
 Der Name der Website lautet **Privacy Guides** und sollte **nicht** geändert werden zu:

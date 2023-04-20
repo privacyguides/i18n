@@ -1,55 +1,58 @@
 ---
-title: "Qubes Overview"
+title: "Qubes概述"
 icon: simple/qubesos
-description: Qubes is an operating system built around isolating apps within virtual machines for heightened security.
+description: Qubes 作業系統利用虛擬機器來隔離應用程式以提高安全性。
 ---
 
-[**Qubes OS**](../desktop.md#qubes-os) is an operating system which uses the [Xen](https://en.wikipedia.org/wiki/Xen) hypervisor to provide strong security for desktop computing through isolated virtual machines. Each VM is called a *Qube* and you can assign each Qube a level of trust based on its purpose. As Qubes OS provides security by using isolation, and only permitting actions on a per case basis, it is the opposite of [badness enumeration](https://www.ranum.com/security/computer_security/editorials/dumb/).
+[**Qubes OS**](../desktop.md#qubes-os) 作業系統，利用 [Xen](https://en.wikipedia.org/wiki/Xen) hypervisor 通過隔離虛擬機器為桌面計算提供強大的安全性。 每個虛擬機器被稱為 *Qube* ，可以根據其目的為各個Qube 分配信任等級。 由於 Qubes OS 通過使用隔離提供安全性，依每個案例情況作行為授權，因此與 [ badness 枚舉](https://www.ranum.com/security/computer_security/editorials/dumb/)相反。
 
-## How does Qubes OS work?
+## Qubes OS如何工作？
 
-Qubes uses [compartmentalization](https://www.qubes-os.org/intro/) to keep the system secure. Qubes are created from templates, the defaults being for Fedora, Debian and [Whonix](../desktop.md#whonix). Qubes OS also allows you to create once-use [disposable](https://www.qubes-os.org/doc/how-to-use-disposables/) virtual machines.
+Qubes 使用 [分區化](https://www.qubes-os.org/intro/) 來確保系統安全。 Qubes 從模板創建，預設為 Fedora、Debian 和 [Whonix](../desktop.md#whonix)。 Qubes OS還允許您創建一次性 [一次性](https://www.qubes-os.org/doc/how-to-use-disposables/) 虛擬機器。
 
-![Qubes architecture](../assets/img/qubes/qubes-trust-level-architecture.png)
+![Qubes架構](../assets/img/qubes/qubes-trust-level-architecture.png)
 <figcaption>Qubes Architecture, Credit: What is Qubes OS Intro</figcaption>
 
-Each Qubes application has a [colored border](https://www.qubes-os.org/screenshots/) that can help you keep track of the virtual machine it is running in. You could, for example, use a specific color for your banking browser, while using a different color for a general untrusted browser.
+每個Qubes應用程序都有 [顏色邊框](https://www.qubes-os.org/screenshots/) ，幫助您追蹤它所運行的虛擬機器。 例如，可以為銀行瀏覽器使用特定的顏色，而一般不信任的瀏覽器則使用不同顏色。
 
-![Colored border](../assets/img/qubes/r4.0-xfce-three-domains-at-work.png)
-<figcaption>Qubes window borders, Credit: Qubes Screenshots</figcaption>
+![顏色邊框](../assets/img/qubes/r4.0-xfce-three-domains-at-work.png)
+<figcaption>Qubes 視窗邊框，圖片來源： Qubes Screenshots</figcaption>
 
-## Why Should I use Qubes?
+## 我爲什麼要使用Qubes ？
 
-Qubes OS is useful if your [threat model](../basics/threat-modeling.md) requires strong compartmentalization and security, such as if you think you'll be opening untrusted files from untrusted sources. A typical reason for using Qubes OS is to open documents from unknown sources.
+如果您的 [威脅模型](../basics/threat-modeling.md) 需要強大的分區和安全性，例如認為需要從不信任的來源開啟可疑檔案， Qubes OS 非常有用。 使用 Qubes OS 的某種典型原因是打開來自不明來源的文件。
 
-Qubes OS utilizes [Dom0](https://wiki.xenproject.org/wiki/Dom0) Xen VM (i.e., an "AdminVM") for controlling other guest VMs or Qubes on the host OS. Other VMs display individual application windows within Dom0's desktop environment. It allows you to color code windows based on trust levels and run apps that can interact with each other with very granular control.
+Qubes OS 利用 [DOM0](https://wiki.xenproject.org/wiki/Dom0) Xen VM （即「AdminVM」）來控制主機作業系統上其他訪客的 VM 或 Qubes。 其他VM 在 Dom0 桌面環境中顯示個別的應用程式視窗。 您可以根據信任等級為代碼窗口上色，並透過非常細膩的控制來執行應用程式。
 
-### Copying and Pasting Text
+### 復制和黏貼文本
 
-You can [copy and paste text](https://www.qubes-os.org/doc/how-to-copy-and-paste-text/) using `qvm-copy-to-vm` or the below instructions:
+可利用 `qvm-copy-to-vm` 或以下說明 [複製並貼上文本](https://www.qubes-os.org/doc/how-to-copy-and-paste-text/) ：
 
 1. Press **Ctrl+C** to tell the VM you're in that you want to copy something.
 2. Press **Ctrl+Shift+C** to tell the VM to make this buffer available to the global clipboard.
 3. Press **Ctrl+Shift+V** in the destination VM to make the global clipboard available.
 4. Press **Ctrl+V** in the destination VM to paste the contents in the buffer.
 
-### File Exchange
+### 檔案交換
 
-To copy and paste files and directories (folders) from one VM to another, you can use the option **Copy to Other AppVM...** or **Move to Other AppVM...**. The difference is that the **Move** option will delete the original file. Either option will protect your clipboard from being leaked to any other Qubes. This is more secure than air-gapped file transfer because an air-gapped computer will still be forced to parse partitions or file systems. That is not required with the inter-qube copy system.
+若要將檔案和目錄(資料夾)從一個 VM 複製貼到另一個 VM ，您可以使用選項 **Copy to Other AppVM...** 或 **Move to Other AppVM...**。 不同之處在於 **Move** 選項會刪除原始檔案。 這兩個選項都可以保護您的剪貼簿不會洩漏到任何其他 Qubes。 這比網閘式檔案傳輸更安全，因為網閘電腦仍將被迫解析分割區或檔案系統。 這在inter-qube複製系統中是不需要的。
 
-??? info "AppVMs or qubes do not have their own file systems"
+??? info" AppVms沒有自己的檔案系統"
 
-    You can [copy and move files](https://www.qubes-os.org/doc/how-to-copy-and-move-files/) between Qubes. When doing so the changes aren't immediately made and can be easily undone in case of an accident.
+    您可以在Qubes之間[複製和移動檔案] (https://www.qubes-os.org/doc/how-to-copy-and-move-files/)。 當這樣做時，不會立即進行更改，並且在發生事故時可以輕鬆撤消。
 
-### Inter-VM Interactions
+### 虛擬機之間交互
 
-The [qrexec framework](https://www.qubes-os.org/doc/qrexec/) is a core part of Qubes which allows virtual machine communication between domains. It is built on top of the Xen library *vchan*, which facilitates [isolation through policies](https://www.qubes-os.org/news/2020/06/22/new-qrexec-policy-system/).
+[qrexec 框架](https://www.qubes-os.org/doc/qrexec/) 是 Qubes 的核心構成，讓虛擬機器在域之間溝通。 它基於 Xen 庫 *vchan*之上，通過策略</a>促進
+隔離。</p> 
 
-## Additional Resources
 
-For additional information we encourage you to consult the extensive Qubes OS documentation pages located on the [Qubes OS Website](https://www.qubes-os.org/doc/). Offline copies can be downloaded from the Qubes OS [documentation repository](https://github.com/QubesOS/qubes-doc).
+
+## 其他資源
+
+如需更多資訊，建議瀏覽[Qubes OS 網站](https://www.qubes-os.org/doc/)上 Qubes OS 文件頁面。 可以從Qubes OS [文件庫](https://github.com/QubesOS/qubes-doc)下載離線副本。
 
 - Open Technology Fund: [*Arguably the world's most secure operating system*](https://www.opentech.fund/news/qubes-os-arguably-the-worlds-most-secure-operating-system-motherboard/)
 - J. Rutkowska: [*Software compartmentalization vs. physical separation*](https://invisiblethingslab.com/resources/2014/Software_compartmentalization_vs_physical_separation.pdf)
 - J. Rutkowska: [*Partitioning my digital life into security domains*](https://blog.invisiblethings.org/2011/03/13/partitioning-my-digital-life-into.html)
-- Qubes OS: [*Related Articles*](https://www.qubes-os.org/news/categories/#articles)
+- Qubes OS: [*相關文章*](https://www.qubes-os.org/news/categories/#articles)

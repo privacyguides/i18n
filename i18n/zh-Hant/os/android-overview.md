@@ -1,32 +1,32 @@
 ---
-title: Android Overview
+title: Android 概述
 icon: simple/android
-description: Android is an open-source operating system with strong security protections, which makes it our top choice for phones.
+description: Android是一個開源作業系統，具有強大的安全保護，使其成為手機的首選。
 ---
 
-Android is a secure operating system that has strong [app sandboxing](https://source.android.com/security/app-sandbox), [Verified Boot](https://source.android.com/security/verifiedboot) (AVB), and a robust [permission](https://developer.android.com/guide/topics/permissions/overview) control system.
+Android是一個安全的操作系統，具有強大的 [應用程式沙盒](https://source.android.com/security/app-sandbox)， [Verified Boot](https://source.android.com/security/verifiedboot) （AVB）和強大的 [許可](https://developer.android.com/guide/topics/permissions/overview) 控制系統。
 
-## Choosing an Android Distribution
+## 選擇Android 發佈版本
 
-When you buy an Android phone, the device's default operating system often comes with invasive integration with apps and services that are not part of the [Android Open-Source Project](https://source.android.com/). An example of such is Google Play Services, which has irrevocable privileges to access your files, contacts storage, call logs, SMS messages, location, camera, microphone, hardware identifiers, and so on. These apps and services increase the attack surface of your device and are the source of various privacy concerns with Android.
+當購買 Android 手機時，該設備的預設作業系統通常放入非 [Android 開源專案](https://source.android.com/)的應用程式與服務，成為侵入性整合。 例如， Google Play 服務擁有不可撤銷的權限，可存取您的檔案、聯絡人儲存空間、通話記錄、SMS訊息、位置、攝影機、麥克風、硬體識別碼等。 這些應用程式和服務增加了設備的攻擊面，成為 Android 各種隱私問題的來源。
 
-This problem could be solved by using a custom Android distribution that does not come with such invasive integration. Unfortunately, many custom Android distributions often violate the Android security model by not supporting critical security features such as AVB, rollback protection, firmware updates, and so on. Some distributions also ship [`userdebug`](https://source.android.com/setup/build/building#choose-a-target) builds which expose root via [ADB](https://developer.android.com/studio/command-line/adb) and require [more permissive](https://github.com/LineageOS/android_system_sepolicy/search?q=userdebug&type=code) SELinux policies to accommodate debugging features, resulting in a further increased attack surface and weakened security model.
+這個問題可以通過使用自訂的 Android 發行版來解決，而這些發行版不會附帶這種侵入性整合。 不幸的是，許多自定義 Android 發行版常常違反 Android 安全模式，不支持重要的安全功能，如 AVB 、回滾保護、韌體更新等。 一些發行版還提供了 [`userdebug`](https://source.android.com/setup/build/building#choose-a-target) 版本，這類版本可通過 [ ADB ](https://developer.android.com/studio/command-line/adb) 暴露了根目錄，且要求 [更寬鬆的](https://github.com/LineageOS/android_system_sepolicy/search?q=userdebug&type=code) SELinux政策以適應調試，導致進一步增加攻擊面並削弱安全模型。
 
-Ideally, when choosing a custom Android distribution, you should make sure that it upholds the Android security model. At the very least, the distribution should have production builds, support for AVB, rollback protection, timely firmware and operating system updates, and SELinux in [enforcing mode](https://source.android.com/security/selinux/concepts#enforcement_levels). All of our recommended Android distributions satisfy these criteria.
+理想情況下，在選擇客製 Android 發行版時，應該確保它符合Android 安全模型。 至少，該發行版應該具有生產構建，支持AVB ，回滾保護，及時韌體和操作系統更新，以及SELinux [開啟模式](https://source.android.com/security/selinux/concepts#enforcement_levels)。 我們推薦的 Android 發行版都符合這些標準。
 
-[Our Android System Recommendations :material-arrow-right-drop-circle:](../android.md ""){.md-button}
+[Android 系統建議 :material-arrow-right-drop-circle:](../android.md ""){.md-button}
 
-## Avoid Rooting
+## 避免 Root
 
-[Rooting](https://en.wikipedia.org/wiki/Rooting_(Android)) Android phones can decrease security significantly as it weakens the complete [Android security model](https://en.wikipedia.org/wiki/Android_(operating_system)#Security_and_privacy). This can decrease privacy should there be an exploit that is assisted by the decreased security. Common rooting methods involve directly tampering with the boot partition, making it impossible to perform successful Verified Boot. Apps that require root will also modify the system partition meaning that Verified Boot would have to remain disabled. Having root exposed directly in the user interface also increases the [attack surface](https://en.wikipedia.org/wiki/Attack_surface) of your device and may assist in [privilege escalation](https://en.wikipedia.org/wiki/Privilege_escalation) vulnerabilities and SELinux policy bypasses.
+[Rooting](https://en.wikipedia.org/wiki/Rooting_(Android)) Android phones can decrease security significantly as it weakens the complete [Android security model](https://en.wikipedia.org/wiki/Android_(operating_system)#Security_and_privacy). 這可能會降低隱私，如果有一個漏洞被降低的安全性所輔助。 常見的 root 方法涉及直接篡改開機分割區，以至於造成無法成功執行Verified Boot。 需要 root 的應用程式也會修改系統分割區，這意味著 Verified Boot 必須維持停用。 直接在使用者介面中暴露 root 也會增加裝置的 [攻擊面](https://en.wikipedia.org/wiki/Attack_surface) ，助長 [特權升級](https://en.wikipedia.org/wiki/Privilege_escalation) 漏洞和 SELinux 政策繞過。
 
-Adblockers, which modify the [hosts file](https://en.wikipedia.org/wiki/Hosts_(file)) (AdAway) and firewalls (AFWall+) which require root access persistently are dangerous and should not be used. They are also not the correct way to solve their intended purposes. For Adblocking we suggest encrypted [DNS](../dns.md) or [VPN](../vpn.md) server blocking solutions instead. RethinkDNS, TrackerControl and AdAway in non-root mode will take up the VPN slot (by using a local loopback VPN) preventing you from using privacy enhancing services such as Orbot or a real VPN server.
+修改 [hosts file](https://en.wikipedia.org/wiki/Hosts_(file)) (AdAway)和永久需要root存取的防火牆(AFWall +)的Adblocker是危險的，不應該使用。 They are also not the correct way to solve their intended purposes. For Adblocking we suggest encrypted [DNS](../dns.md) or [VPN](../vpn.md) server blocking solutions instead. RethinkDNS, TrackerControl and AdAway in non-root mode will take up the VPN slot (by using a local loopback VPN) preventing you from using privacy enhancing services such as Orbot or a real VPN server.
 
 AFWall+ works based on the [packet filtering](https://en.wikipedia.org/wiki/Firewall_(computing)#Packet_filter) approach and may be bypassable in some situations.
 
 We do not believe that the security sacrifices made by rooting a phone are worth the questionable privacy benefits of those apps.
 
-## Verified Boot
+## 已驗證的啟動
 
 [Verified Boot](https://source.android.com/security/verifiedboot) is an important part of the Android security model. It provides protection against [evil maid](https://en.wikipedia.org/wiki/Evil_maid_attack) attacks, malware persistence, and ensures security updates cannot be downgraded with [rollback protection](https://source.android.com/security/verifiedboot/verified-boot#rollback-protection).
 
@@ -38,7 +38,7 @@ Unfortunately, OEMs are only obliged to support Verified Boot on their stock And
 
 Many OEMs also have broken implementation of Verified Boot that you have to be aware of beyond their marketing. For example, the Fairphone 3 and 4 are not secure by default, as the [stock bootloader trusts the public AVB signing key](https://forum.fairphone.com/t/bootloader-avb-keys-used-in-roms-for-fairphone-3-4/83448/11). This breaks verified boot on a stock Fairphone device, as the system will boot alternative Android operating systems such (such as /e/) [without any warning](https://source.android.com/security/verifiedboot/boot-flow#locked-devices-with-custom-root-of-trust) about custom operating system usage.
 
-## Firmware Updates
+## 韌體更新
 
 Firmware updates are critical for maintaining security and without them your device cannot be secure. OEMs have support agreements with their partners to provide the closed-source components for a limited support period. These are detailed in the monthly [Android Security Bulletins](https://source.android.com/security/bulletin).
 
@@ -48,11 +48,11 @@ EOL devices which are no longer supported by the SoC manufacturer cannot receive
 
 Fairphone, for example, markets their devices as receiving 6 years of support. However, the SoC (Qualcomm Snapdragon 750G on the Fairphone 4) has a considerably shorter EOL date. This means that firmware security updates from Qualcomm for the Fairphone 4 will end in September 2023, regardless of whether Fairphone continues to release software security updates.
 
-## Android Versions
+## Android 版本
 
 It's important to not use an [end-of-life](https://endoflife.date/android) version of Android. Newer versions of Android not only receive security updates for the operating system but also important privacy enhancing updates too. For example, [prior to Android 10](https://developer.android.com/about/versions/10/privacy/changes), any apps with the [`READ_PHONE_STATE`](https://developer.android.com/reference/android/Manifest.permission#READ_PHONE_STATE) permission could access sensitive and unique serial numbers of your phone such as [IMEI](https://en.wikipedia.org/wiki/International_Mobile_Equipment_Identity), [MEID](https://en.wikipedia.org/wiki/Mobile_equipment_identifier), your SIM card's [IMSI](https://en.wikipedia.org/wiki/International_mobile_subscriber_identity), whereas now they must be system apps to do so. System apps are only provided by the OEM or Android distribution.
 
-## Android Permissions
+## Android權限
 
 [Permissions on Android](https://developer.android.com/guide/topics/permissions/overview) grant you control over what apps are allowed to access. Google regularly makes [improvements](https://developer.android.com/about/versions/11/privacy/permissions) on the permission system in each successive version. All apps you install are strictly [sandboxed](https://source.android.com/security/app-sandbox), therefore, there is no need to install any antivirus apps.
 
@@ -93,7 +93,7 @@ An app may request a permission for a specific feature it has. For example, any 
 
     Privacy-friendly apps such as [Bitwarden](https://reports.exodus-privacy.eu.org/en/reports/com.x8bit.bitwarden/latest/) may show some trackers such as [Google Firebase Analytics](https://reports.exodus-privacy.eu.org/en/trackers/49/). This library includes [Firebase Cloud Messaging](https://en.wikipedia.org/wiki/Firebase_Cloud_Messaging) which can provide [push notifications](https://en.wikipedia.org/wiki/Push_technology) in apps. This [is the case](https://fosstodon.org/@bitwarden/109636825700482007) with Bitwarden. That doesn't mean that Bitwarden is using all of the analytics features that are provided by Google Firebase Analytics.
 
-## Media Access
+## 媒體存取
 
 Quite a few applications allows you to "share" a file with them for media upload. If you want to, for example, tweet a picture to Twitter, do not grant Twitter access to your "media and photos", because it will have access to all of your pictures then. Instead, go to your file manager (documentsUI), hold onto the picture, then share it with Twitter.
 
@@ -115,11 +115,11 @@ This method is generally less secure than a secondary user profile; however, it 
 
 ## VPN Killswitch
 
-Android 7 and above supports a VPN killswitch and it is available without the need to install third-party apps. This feature can prevent leaks if the VPN is disconnected. It can be found in :gear: **Settings** → **Network & internet** → **VPN** → :gear: → **Block connections without VPN**.
+Android 7以上版本支援VPN killswitch ，無需安裝第三方應用程式即可使用。 This feature can prevent leaks if the VPN is disconnected. It can be found in :gear: **Settings** → **Network & internet** → **VPN** → :gear: → **Block connections without VPN**.
 
-## Global Toggles
+## 全局切換
 
-Modern Android devices have global toggles for disabling Bluetooth and location services. Android 12 introduced toggles for the camera and microphone. When not in use, we recommend disabling these features. Apps cannot use disabled features (even if granted individual permission) until re-enabled.
+Modern Android devices have global toggles for disabling Bluetooth and location services. Android 12為相機和麥克風引入了切換功能。 不使用時，建議停用這些功能。 Apps cannot use disabled features (even if granted individual permission) until re-enabled.
 
 ## Google
 
@@ -149,13 +149,13 @@ In the past, Android security updates had to be shipped by the operating system 
 
 If you have an EOL device shipped with Android 10 or above and are unable to run any of our recommended operating systems on your device, you are likely going to be better off sticking with your OEM Android installation (as opposed to an operating system not listed here such as LineageOS or /e/ OS). This will allow you to receive **some** security fixes from Google, while not violating the Android security model by using an insecure Android derivative and increasing your attack surface. We would still recommend upgrading to a supported device as soon as possible.
 
-### Advertising ID
+### 廣告識別碼
 
 All devices with Google Play Services installed automatically generate an [advertising ID](https://support.google.com/googleplay/android-developer/answer/6048248?hl=en) used for targeted advertising. Disable this feature to limit the data collected about you.
 
 On Android distributions with [Sandboxed Google Play](https://grapheneos.org/usage#sandboxed-google-play), go to :gear: **Settings** → **Apps** → **Sandboxed Google Play** → **Google Settings** → **Ads**, and select *Delete advertising ID*.
 
-On Android distributions with privileged Google Play Services (such as stock OSes), the setting may be in one of several locations. Check
+On Android distributions with privileged Google Play Services (such as stock OSes), the setting may be in one of several locations. 查看
 
 - :gear: **Settings** → **Google** → **Ads**
 - :gear: **Settings** → **Privacy** → **Ads**

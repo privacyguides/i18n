@@ -15,7 +15,7 @@
 *[DoQ]: DNS over QUIC
 *[DoH3]: DNS over HTTP/3
 *[DoT]: DNS over TLS
-*[E2EE]: 종단 간 암호화
+*[E2EE]: 종단 간 암호화(End-to-End Encryption/Encrypted)
 *[ECS]: EDNS Client Subnet
 *[EEA]: European Economic Area
 *[엔트로피]: 예측하기 어려운 정도를 표현하는 척도

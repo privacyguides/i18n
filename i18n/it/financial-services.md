@@ -75,9 +75,9 @@ Questi servizi ti consentono di acquistare carte regalo per una varietà di comm
 
 !!! recommendation
 
-    ![Logo CoinCards](assets/img/financial-services/coincards.svg){ align=right }
+    ![CoinCards logo](assets/img/financial-services/coincards.svg){ align=right }
     
-    **CoinCards** (disponibile negli Stati Uniti e in Canada) consente di acquistare carte regalo per un'ampia gamma di commercianti.
+    **CoinCards** (available in the US and Canada) allows you to purchase gift cards for a large variety of merchants.
     
     [:octicons-home-16: Pagina Principale](https://coincards.com/){ .md-button .md-button--primary }
     [:octicons-eye-16:](https://coincards.com/privacy-policy/){ .card-link title="Politica sulla privacy" }

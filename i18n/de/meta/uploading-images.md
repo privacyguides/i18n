@@ -10,8 +10,8 @@ Hier sind einige allgemeine Regeln um zu Privacy Guides beizutragen:
 
 Firmenlogos haben eine Leinwandgröße von:
 
-- 128x128px
-- 384x128px
+- 128 x 128 px
+- 384 x 128 px
 
 ## Optimierung
 

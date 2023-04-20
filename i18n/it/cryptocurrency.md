@@ -1,48 +1,48 @@
 ---
-meta_title: "Private Cryptocurrency Blockchains - Privacy Guides"
+meta_title: "Blockchain di criptovalute private - Privacy Guides"
 title: Criptovalute
 icon: material/bank-circle
 cover: cryptocurrency.png
 ---
 
-Effettuare pagamenti online è una delle maggiori sfide per la privacy. These cryptocurrencies provide transaction privacy by default (something which is **not** guaranteed by the majority of cryptocurrencies), provided you have a strong understanding of how to make private payments effectively. Ti consigliamo vivamente di leggere prima il nostro articolo riguardo i pagamenti prima di effettuare qualsiasi acquisto:
+Effettuare pagamenti online è una delle maggiori sfide per la privacy. Queste criptovalute offrono la privacy delle transazioni di default (cosa che **non** è garantita dalla maggior parte delle criptovalute), a condizione che si abbia una buona conoscenza di come effettuare pagamenti privati in modo efficace. Ti consigliamo vivamente di leggere prima il nostro articolo riguardo i pagamenti prima di effettuare qualsiasi acquisto:
 
 [Effettuare pagamenti privati :material-arrow-right-drop-circle:](advanced/payments.md ""){.md-button}
 
 !!! attenzione
 
-    Many if not most cryptocurrency projects are scams. Effettuate transazioni con attenzione solo con progetti di cui vi fidate.
+    Molte, se non la maggior parte delle criptovalute sono delle truffe. Effettuate transazioni con attenzione solo con progetti di cui vi fidate.
 
 ## Monero
 
 !!! recommendation
 
-    ![Monero logo](assets/img/cryptocurrency/monero.svg){ align=right }
+    ![Logo Monero](assets/img/cryptocurrency/monero.svg){ align=right }
     
-    **Monero** uses a blockchain with privacy-enhancing technologies that obfuscate transactions to achieve anonymity. Every Monero transaction hides the transaction amount, sending and receiving addresses, and source of funds without any hoops to jump through, making it an ideal choice for cryptocurrency novices.
+    **Monero** utilizza una blockchain con tecnologie che migliorano la privacy e offuscano le transazioni per ottenere l'anonimato. Ogni transazione Monero nasconde l'importo della transazione, gli indirizzi di invio e ricezione, e la fonte dei fondi senza dover fare i salti mortali, il che la rende una scelta ideale per i neofiti delle criptovalute.
     
-    [:octicons-home-16: Homepage](https://www.getmonero.org/){ .md-button .md-button--primary }
-    [:octicons-info-16:](https://www.getmonero.org/resources/user-guides/){ .card-link title=Documentation}
-    [:octicons-code-16:](https://github.com/monero-project/monero){ .card-link title="Source Code" }
-    [:octicons-heart-16:](https://www.getmonero.org/get-started/contributing/){ .card-link title=Contribute }
+    [:octicons-home-16: Pagina principale](https://www.getmonero.org/){ .md-button .md-button--primary }
+    [:octicons-info-16:](https://www.getmonero.org/resources/user-guides/){ .card-link title=Documentazione}
+    [:octicons-code-16:](https://github.com/monero-project/monero){ .card-link title="Codice Sorgente" }
+    [:octicons-heart-16:](https://www.getmonero.org/get-started/contributing/){ .card-link title=Contribuisci }
 
-With Monero, outside observers cannot decipher addresses trading Monero, transaction amounts, address balances, or transaction histories.
+Con Monero, gli osservatori esterni non possono decifrare gli indirizzi che scambiano Monero, gli importi delle transazioni, i saldi degli indirizzi o le cronologie delle transazioni.
 
-For optimal privacy, make sure to use a noncustodial wallet where the view key stays on the device. This means that only you will have the ability to spend your funds and see incoming and outgoing transactions. If you use a custodial wallet, the provider can see **everything** you do; if you use a “lightweight” wallet where the provider retains your private view key, the provider can see almost everything you do. Some noncustodial wallets include:
+Per una privacy ottimale, assicuratevi di utilizzare un portafoglio non custodial in cui la chiave di visualizzazione del portafoglio rimane sul dispositivo. Ciò significa che solo voi avrete la possibilità di spendere i vostri fondi e di vedere le transazioni in entrata e in uscita. Se si utilizza un portafoglio custodial, il provider può vedere **tutto quello che** fai; se si utilizza un portafoglio "leggero" in cui il provider conserva la chiave di visualizzazione privata, il provider può vedere quasi tutto ciò che fai. Alcuni portafogli non custodial sono:
 
-- [Official Monero client](https://getmonero.org/downloads) (Desktop)
+- [Client ufficiale Monero ](https://getmonero.org/downloads) (Desktop)
 - [Cake Wallet](https://cakewallet.com/) (iOS, Android)
-    - Cake Wallet supports multiple cryptocurrencies. A Monero-only version of Cake Wallet is available at [Monero.com](https://monero.com/).
+    - Cake Wallet supporta più criptovalute. Una versione solo Monero del Cake Wallet è disponibile all'indirizzo [Monero.com](https://monero.com/).
 - [Feather Wallet](https://featherwallet.org/) (Desktop)
 - [Monerujo](https://www.monerujo.io/) (Android)
 
-For maximum privacy (even with a noncustodial wallet), you should run your own Monero node. Using another person’s node will expose some information to them, such as the IP address that you connect to it from, the timestamps that you sync your wallet, and the transactions that you send from your wallet (though no other details about those transactions). Alternatively, you can connect to someone else’s Monero node over Tor or i2p.
+Per ottenere la massima privacy (anche con un portafoglio non custodial), è consigliabile gestire un proprio nodo Monero. Utilizzare un nodo di un'altra persona espone alcune informazioni, come l'indirizzo IP da cui ci si connette, i timestamp con cui si sincronizza il proprio portafoglio e le transazioni inviate dal proprio portafoglio (ma nessun altro dettaglio su tali transazioni). In alternativa, puoi collegarti al nodo Monero di qualcun altro utilizzando Tor o i2p.
 
-In August 2021, CipherTrace [announced](https://finance.yahoo.com/news/ciphertrace-announces-enhanced-monero-tracing-160000275.html) enhanced Monero tracing capabilities for government agencies. Public postings show that the US Department of the Treasury's Financial Crimes Enforcement Network [licensed](https://sam.gov/opp/d12cbe9afbb94ca68006d0f006d355ac/view) CipherTrace's "Monero Module" in late 2022.
+Nell'agosto 2021, CipherTrace [ha annunciato](https://finance.yahoo.com/news/ciphertrace-announces-enhanced-monero-tracing-160000275.html) delle migliorie per quanto riguarda le capacità di tracciamento per le agenzie governative. I post pubblici mostrano che il Financial Crimes Enforcement Network del Dipartimento del Tesoro degli Stati Uniti [ha concesso una licenza ](https://sam.gov/opp/d12cbe9afbb94ca68006d0f006d355ac/view) per il "modulo Monero" di CipherTrace alla fine del 2022.
 
-Monero transaction graph privacy is limited by its relatively small ring signatures, especially against targeted attacks. Monero's privacy features have also been [called into question](https://web.archive.org/web/20180331203053/https://www.wired.com/story/monero-privacy/) by some security researchers, and a number of severe vulnerabilities have been found and patched in the past, so the claims made by organizations like CipherTrace are not out of the question. While it's unlikely that Monero mass surveillance tools exist like they do for Bitcoin and others, it's certain that tracing tools assist with targeted investigations.
+La privacy del grafico delle transazioni di Monero è limitata dalle firme ad anello relativamente piccole, soprattutto contro gli attacchi mirati. Anche le caratteristiche circa la privacy di Monero sono state [messe in discussione](https://web.archive.org/web/20180331203053/https://www.wired.com/story/monero-privacy/) da alcuni esperti di sicurezza, e in passato sono state individuate e corrette diverse vulnerabilità gravi, quindi le affermazioni di organizzazioni come CipherTrace non sono fuori discussione. Sebbene sia improbabile che esistano strumenti di sorveglianza di massa per Monero come per Bitcoin e altri, è certo che gli strumenti di tracciamento aiutino nelle indagini mirate.
 
-Ultimately, Monero is the strongest contender for a privacy-friendly cryptocurrency, but its privacy claims have **not** been definitively proven one way or the other. More time and research is needed to assess whether Monero is resilient enough to attacks to always provide adequate privacy.
+In definitiva, Monero è il contendente numero 1° per una criptovaluta rispettosa della privacy, ma le sue affermazioni circa la privacy **non** sono state definitivamente dimostrate in un modo o nell'altro. Più tempo e ricerche sono necessari per valutare se effettivamente Monero è abbastanza resistente agli attacchi da fornire sempre una privacy adeguata.
 
 ## Criteri
 
@@ -52,4 +52,4 @@ Ultimately, Monero is the strongest contender for a privacy-friendly cryptocurre
 
     Stiamo lavorando per stabilire criteri ben definiti per ogni sezione del nostro sito, e questo potrebbe essere soggetto a modifiche. Se avete domande sui nostri criteri, vi preghiamo di [chiedere sul nostro forum](https://discuss.privacyguides.net/latest) e non date per scontato che non abbiamo preso in considerazione qualcosa nel formulare le nostre raccomandazioni se non è elencato qui. Sono molti i fattori presi in considerazione e discussi quando consigliamo un progetto, e stiamo lavorando per documentare ogni singolo fattore.
 
-- Cryptocurrency must provide private/untraceable transactions by default.
+- Le criptovalute devono fornire transazioni private e non tracciabili di default.

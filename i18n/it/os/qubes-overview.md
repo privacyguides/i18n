@@ -1,7 +1,7 @@
 ---
 title: "Panoramica di Qubes"
 icon: pg/qubes-os
-description: Qubes is an operating system built around isolating apps within virtual machines for heightened security.
+description: Qubes è un sistema operativo costruito per isolare le applicazioni all'interno di macchine virtuali per una maggiore sicurezza.
 ---
 
 [**Qubes OS**](../desktop.md#qubes-os) è un sistema operativo che utilizza l'hypervisor [Xen](https://en.wikipedia.org/wiki/Xen) per fornire una forte sicurezza per il desktop computing attraverso macchine virtuali isolate. Ogni macchina virtuale è chiamata *Qube* e si può assegnare a ogni Qube un livello di fiducia in base al suo scopo. Poiché il sistema operativo Qubes garantisce la sicurezza utilizzando l'isolamento e consentendo azioni solo su base individuale, è l'opposto dell'[enumerazione delle minacce](https://www.ranum.com/security/computer_security/editorials/dumb/).
@@ -13,16 +13,16 @@ Qubes utilizza la [compartimentazione](https://www.qubes-os.org/intro/) per mant
 ![Architettura Qubes](../assets/img/qubes/qubes-trust-level-architecture.png)
 <figcaption>Architettura di Qubes, da "What is Qubes OS Introduction"</figcaption>
 
-Ogni applicazione Qubes ha un [bordo colorato](https://www.qubes-os.org/screenshots/) che può aiutare a tenere traccia della macchina virtuale in cui è in esecuzione. You could, for example, use a specific color for your banking browser, while using a different color for a general untrusted browser.
+Ogni applicazione Qubes ha un [bordo colorato](https://www.qubes-os.org/screenshots/) che può aiutare a tenere traccia della macchina virtuale in cui è in esecuzione. Potresti, per esempio, utilizzare un colore specifico per le operazioni bancarie e un colore diverso per un browser generico non affidabile.
 
 ![Bordo colorato](../assets/img/qubes/r4.0-xfce-three-domains-at-work.png)
-<figcaption>Qubes window borders, Credit: Qubes Screenshots</figcaption>
+<figcaption>Bordi Finestre Qubes, Credito: Qubes Screenshots</figcaption>
 
 ## Perché dovrei usare Qubes?
 
-Qubes OS is useful if your [threat model](../basics/threat-modeling.md) requires strong compartmentalization and security, such as if you think you'll be opening untrusted files from untrusted sources. A typical reason for using Qubes OS is to open documents from unknown sources.
+Qubes OS è utile se il tuo [modello di minaccia](../basics/threat-modeling.md) richiede una forte compartimentazione e sicurezza, ad esempio se vuoi aprire file non attendibili da fonti non sicure. Un motivo comune per utilizzare Qubes OS è l'apertura di documenti provenienti da fonti sconosciute.
 
-Qubes OS utilizes [Dom0](https://wiki.xenproject.org/wiki/Dom0) Xen VM (i.e., an "AdminVM") for controlling other guest VMs or Qubes on the host OS. Other VMs display individual application windows within Dom0's desktop environment. It allows you to color code windows based on trust levels and run apps that can interact with each other with very granular control.
+Qubes OS utilizza [Dom0](https://wiki.xenproject.org/wiki/Dom0) Xen VM (cioè una "AdminVM") per controllare altre VM guest o Qubes sul sistema operativo host. Le altre macchine virtuali visualizzano le finestre delle singole applicazioni all'interno dell'ambiente desktop di Dom0. Ti Permette di assegnare un colore alle finestre in base ai livelli di fiducia e di eseguire applicazioni che possono interagire tra loro con un controllo molto granulare.
 
 ### Copiare e incollare il testo
 
@@ -35,15 +35,15 @@ Puoi [copiare e incollare il testo](https://www.qubes-os.org/doc/how-to-copy-and
 
 ### Scambio di file
 
-Per copiare e incollare file e directory (cartelle) da una macchina virtuale all'altra, si può usare l'opzione **Copy to Other AppVM...** o **Move to Other AppVM...**. La differenza è che l'opzione **Move** elimina il file originale. Either option will protect your clipboard from being leaked to any other Qubes. This is more secure than air-gapped file transfer because an air-gapped computer will still be forced to parse partitions or file systems. That is not required with the inter-qube copy system.
+Per copiare e incollare file e directory (cartelle) da una macchina virtuale all'altra, si può usare l'opzione **Copy to Other AppVM...** o **Move to Other AppVM...**. La differenza è che l'opzione **Move** elimina il file originale. Entrambe le opzioni proteggono gli appunti dalla trasmissione ad altre Qubes. Questa soluzione è più sicura del trasferimento di file air-gapped, perché un computer air-gapped sarà comunque costretto ad analizzare partizioni o file system. Questo non è necessario con il sistema di copia tra qubes.
 
-??? info "AppVMs or qubes do not have their own file systems"
+??? info "Le AppVM o le qubes non hanno un proprio file system"
 
-    You can [copy and move files](https://www.qubes-os.org/doc/how-to-copy-and-move-files/) between Qubes. When doing so the changes aren't immediately made and can be easily undone in case of an accident.
+    Puoi [copiare e spostare file](https://www.qubes-os.org/doc/how-to-copy-and-move-files/) tra le Qubes. In questo modo le modifiche non vengono apportate subito e possono essere facilmente annullate in caso di incidente.
 
-### Inter-VM Interactions
+### Interazioni tra VM
 
-The [qrexec framework](https://www.qubes-os.org/doc/qrexec/) is a core part of Qubes which allows virtual machine communication between domains. It is built on top of the Xen library *vchan*, which facilitates [isolation through policies](https://www.qubes-os.org/news/2020/06/22/new-qrexec-policy-system/).
+Il [framework qrexec](https://www.qubes-os.org/doc/qrexec/) è una parte fondamentale di Qubes che consente la comunicazione tra i domini delle macchine virtuali. È costruito sulla base della libreria Xen *vchan*, che facilita [l'isolamento attraverso le politiche](https://www.qubes-os.org/news/2020/06/22/new-qrexec-policy-system/).
 
 ## Risorse aggiuntive
 

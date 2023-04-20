@@ -9,7 +9,7 @@ Se ci vuoi supportare economicamente, il metodo per noi più conveniente è attr
 
 [Dona su OpenCollective.com](https://opencollective.com/privacyguides/donate){ class="md-button md-button--primary" }
 
-Le donazioni fatte direttamente a noi su Open Collective sono generalmente deducibili dalle tasse negli Stati Uniti, poiché il nostro ospite fiscale (la Open Collective Foundation) è un'organizzazione registrata 501(c)3. In seguito alla tua donazione, riceverai una ricevuta dalla Open Collective Foundation. Privacy Guides non fornisce consulenza finanziaria e suggeriamo di contattare il proprio consulente finanziario per sapere se ciò è applicabile al proprio caso.
+Le donazioni fatte direttamente a noi su Open Collective sono generalmente deducibili dalle tasse negli Stati Uniti, poiché il nostro host fiscale (la Open Collective Foundation) è un'organizzazione registrata 501(c)3. In seguito alla tua donazione, riceverai una ricevuta dalla Open Collective Foundation. Privacy Guides non fornisce consulenza finanziaria e suggeriamo di contattare il proprio consulente finanziario per sapere se ciò è applicabile al proprio caso.
 
 È possibile sponsorizzare la nostra organizzazione anche mediante le sponsorizzazioni di Github.
 

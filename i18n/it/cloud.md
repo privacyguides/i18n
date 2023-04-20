@@ -1,5 +1,5 @@
 ---
-meta_title: "The Best Private and Secure Cloud Storage Providers - Privacy Guides"
+meta_title: "I migliori fornitori di archiviazione cloud privati e sicuri - Guide alla privacy"
 title: "Archiviazione in cloud"
 icon: material/file-cloud
 description: Molti fornitori di spazio d'archiviazione in cloud richiedono la tua fiducia sul fatto che non guarderanno i tuoi file. Queste sono alternative private!
@@ -12,45 +12,45 @@ Se queste alternative non soddisfano le vostre esigenze, vi suggeriamo di utiliz
 
 ??? domanda "Stai cercando Nextcloud?"
 
-    Nextcloud is [still a recommended tool](productivity.md) for self-hosting a file management suite, however we do not recommend third-party Nextcloud storage providers at the moment, because we do [not recommend](https://discuss.privacyguides.net/t/dont-recommend-nextcloud-e2ee/10352/29) Nextcloud's built-in E2EE functionality for home users.
+    Nextcloud è [ancora uno strumento consigliato](productivity.md) per il self-hosting di una suite di gestione dei file, tuttavia al momento non raccomandiamo fornitori di storage Nextcloud di terze parti, perché [non consigliamo](https://discuss.privacyguides.net/t/dont-recommend-nextcloud-e2ee/10352/29) la funzionalità E2EE integrata di Nextcloud per gli utenti normali.
 
-## Cryptee
+## Proton Drive
 
 !!! recommendation
 
-    ![Proton Drive logo](assets/img/cloud/protondrive.svg){ align=right }
+    ![Logo Proton Drive](assets/img/cloud/protondrive.svg){ align=right }
     
-    **Proton Drive** is a Swiss encrypted cloud storage provider from the popular encrypted email provider [Proton Mail](email.md#proton-mail).
+    **Proton Drive** è un provider svizzero di spazio d'archiviazione in cloud criptato del popolare provider di email criptate [Proton Mail](email.md#proton-mail).
     
-    [:octicons-home-16: Homepage](https://proton.me/drive){ class="md-button md-button--primary" }
-    [:octicons-eye-16:](https://proton.me/legal/privacy){ .card-link title="Privacy Policy" }
-    [:octicons-info-16:](https://proton.me/support/drive){ .card-link title=Documentation}
-    [:octicons-code-16:](https://github.com/ProtonMail/WebClients){ .card-link title="Source Code" }
+    [:octicons-home-16: Pagina principale](https://proton.me/drive){ class="md-button md-button--primary" }
+    [:octicons-eye-16:](https://proton.me/legal/privacy){ .card-link title="Politica sulla privacy" }
+    [:octicons-info-16:](https://proton.me/support/drive){ .card-link title=Documentazione}
+    [:octicons-code-16:](https://github.com/ProtonMail/WebClients){ .card-link title="Codice sorgente" }
     
-    ??? downloads
+    ??? download
     
         - [:simple-googleplay: Google Play](https://play.google.com/store/apps/details?id=me.proton.android.drive)
         - [:simple-appstore: App Store](https://apps.apple.com/app/id1509667851)
 
-The Proton Drive web application has been independently audited by Securitum in [2021](https://proton.me/blog/security-audit-all-proton-apps), full details were not made available, but Securitum's letter of attestation states:
+L'applicazione web di Proton Drive è stata sottoposta ad un audit indipendente da parte di Securitum nel [2021](https://proton.me/blog/security-audit-all-proton-apps). Non sono stati resi noti i dettagli completi, ma la lettera di attestazione di Securitum afferma che:
 
-> Auditors identified two low-severity vulnerabilities. Additionally, five general recommendations were reported. At the same time, we confirm that no important security issues were identified during the pentest.
+> Gli auditor hanno identificato due vulnerabilità di bassa gravità. Inoltre, sono state riportate cinque raccomandazioni generali. Allo stesso tempo, confermiamo che durante il pentest non sono stati identificati problemi di sicurezza importanti.
 
-Proton Drive's brand new mobile clients have not yet been publicly audited by a third-party.
+I nuovi client mobile di Proton Drive non sono ancora stati sottoposti ad audit pubblici da terze parti.
 
 ## Tresorit
 
 !!! recommendation
 
-    ![Tresorit logo](assets/img/cloud/tresorit.svg){ align=right }
+    ![Logo Tresorit](assets/img/cloud/tresorit.svg){ align=right }
     
-    **Tresorit** is a Hungarian encrypted cloud storage provider founded in 2011. Tresorit is owned by the Swiss Post, the national postal service of Switzerland.
+    **Tresorit** è un provider ungherese di spazio di archiviazione cloud criptato fondato nel 2011. Tresorit è di proprietà di Swiss Post, il servizio postale nazionale della Svizzera.
     
-    [:octicons-home-16: Homepage](https://tresorit.com/){ class="md-button md-button--primary" }
-    [:octicons-eye-16:](https://tresorit.com/legal/privacy-policy){ .card-link title="Privacy Policy" }
-    [:octicons-info-16:](https://support.tresorit.com/hc/en-us){ .card-link title=Documentation}
+    [:octicons-home-16: Pagina Principale](https://tresorit.com/){ class="md-button md-button--primary" }
+    [:octicons-eye-16:](https://tresorit.com/legal/privacy-policy){ .card-link title="Politica sulla privacy" }
+    [:octicons-info-16:](https://support.tresorit.com/hc/en-us){ .card-link title=Documentazione}
     
-    ??? downloads
+    ??? download
     
         - [:simple-googleplay: Google Play](https://play.google.com/store/apps/details?id=com.tresorit.mobile)
         - [:simple-appstore: App Store](https://apps.apple.com/app/apple-store/id722163232)
@@ -58,17 +58,17 @@ Proton Drive's brand new mobile clients have not yet been publicly audited by a 
         - [:simple-apple: macOS](https://tresorit.com/download)
         - [:simple-linux: Linux](https://tresorit.com/download)
 
-Tresorit has received a number of independent security audits:
+Tresorit ha ricevuto una serie di audit di sicurezza indipendenti:
 
-- [2022](https://tresorit.com/blog/tresorit-receives-iso-27001-certification/): ISO/IEC 27001:2013[^1] Compliance [Certification](https://www.certipedia.com/quality_marks/9108644476) by TÜV Rheinland InterCert Kft
-- [2021](https://tresorit.com/blog/fresh-penetration-testing-confirms-tresorit-security/): Penetration Testing by Computest
-    - This review assessed the security of the Tresorit web client, Android app, Windows app, and associated infrastructure.
-    - Computest discovered two vulnerabilities which have been resolved.
-- [2019](https://tresorit.com/blog/ernst-young-review-verifies-tresorits-security-architecture/): Penetration Testing by Ernst & Young.
-    - This review analyzed the full source code of Tresorit and validated that the implementation matches the concepts described in Tresorit's [white paper](https://prodfrontendcdn.azureedge.net/202208011608/tresorit-encryption-whitepaper.pdf).
-    - Ernst & Young additionally tested the web, mobile, and desktop clients: "Test results found no deviation from Tresorit’s data confidentiality claims."
+- [2022](https://tresorit.com/blog/tresorit-receives-iso-27001-certification/): ISO/IEC 27001:2013[^1] [Certificato](https://www.certipedia.com/quality_marks/9108644476) di Conformità da TÜV Rheinland InterCert Kft
+- [2021](https://tresorit.com/blog/fresh-penetration-testing-confirms-tresorit-security/): test di penetrazione da Computest
+    - Questo test ha valutato la sicurezza del client Web di Tresorit, dell'applicazione Android, dell'applicazione Windows e della relativa infrastruttura.
+    - Computest ha scoperto due vulnerabilità che sono state successivamente risolte.
+- [2019](https://tresorit.com/blog/ernst-young-review-verifies-tresorits-security-architecture/): test di penetrazione da Ernst & Young.
+    - Questo test ha analizzato il codice sorgente completo di Tresorit e ha convalidato che l'implementazione corrisponde ai concetti descritti [nel white paper di Tresorit](https://prodfrontendcdn.azureedge.net/202208011608/tresorit-encryption-whitepaper.pdf).
+    - Ernst & Young ha inoltre testato i client web, mobile e desktop: "I risultati dei test non hanno rilevato alcuna deviazione dalle dichiarazioni di Tresorit sulla riservatezza dei dati"
 
-They have also received the Digital Trust Label, a certification from the [Swiss Digital Initiative](https://www.swiss-digital-initiative.org/digital-trust-label/) which requires passing [35 criteria](https://digitaltrust-label.swiss/criteria/) related to security, privacy, and reliability.
+Hanno anche ricevuto il Digital Trust Label, una certificazione della [Swiss Digital Initiative](https://www.swiss-digital-initiative.org/digital-trust-label/) che richiede il superamento di [35 criteri](https://digitaltrust-label.swiss/criteria/) relativi a sicurezza, privacy e affidabilità.
 
 ## Criteri
 
@@ -80,22 +80,22 @@ They have also received the Digital Trust Label, a certification from the [Swiss
 
 ### Requisiti minimi
 
-- Must enforce end-to-end encryption.
-- Must offer a free plan or trial period for testing.
-- Must support TOTP or FIDO2 multi-factor authentication, or Passkey logins.
-- Must offer a web interface which supports basic file management functionality.
-- Must allow for easy exports of all files/documents.
-- Must use standard, audited encryption.
+- Deve forzare la crittografia end-to-end.
+- Deve offrire un piano gratuito o un periodo di prova per testarlo.
+- Deve supportare l'autenticazione a più fattori TOTP o FIDO2, o i login tramite Passkey.
+- Deve offrire un'interfaccia web che supporti le funzionalità di base per la gestione dei file.
+- Deve consentire una esportazione facile di tutti i file/documenti.
+- Deve utilizzare una crittografia standard e verificata.
 
 ### Caso migliore
 
 KeePassXC memorizza i suoi dati di esportazione come file [CSV](https://en.wikipedia.org/wiki/Comma-separated_values). Ciò può comportare la perdita di dati se si importa questo file in un altro gestore di password.
 
 - I client dovrebbero essere open-source.
-- Clients should be audited in their entirety by an independent third-party.
-- Should offer native clients for Linux, Android, Windows, macOS, and iOS.
-    - These clients should integrate with native OS tools for cloud storage providers, such as Files app integration on iOS, or DocumentsProvider functionality on Android.
-- Should support easy file-sharing with other users.
-- Should offer at least basic file preview and editing functionality on the web interface.
+- I client dovrebbero essere completamente testati da una terza parte indipendente.
+- Dovrebbero offrire client nativi per Linux, Android, Windows, macOS e iOS.
+    - Questi client dovrebbero integrarsi con gli strumenti nativi del sistema operativo per i provider di spazio d'archiviazione cloud, come l'integrazione dell'app Files su iOS o la funzionalità di DocumentsProvider su Android.
+- Dovrebbero supportare una facile condivisione dei file con altri utenti.
+- Dovrebbero offrire almeno un'anteprima di base dei file e una funzionalità di modifica sull'interfaccia web.
 
-[^1]: [ISO/IEC 27001](https://en.wikipedia.org/wiki/ISO/IEC_27001):2013 compliance relates to the company's [information security management system](https://en.wikipedia.org/wiki/Information_security_management) and covers the sales, development, maintenance and support of their cloud services.
+[^1]: [ISO/IEC 27001](https://en.wikipedia.org/wiki/ISO/IEC_27001):La conformità 2013 riguarda la [Gestione della sicurezza informatica](https://it.wikipedia.org/wiki/Gestione_della_sicurezza_informatica) e copre la vendita, lo sviluppo, la manutenzione e il supporto dei servizi cloud.

@@ -12,7 +12,7 @@ schema:
     image: /assets/img/browsers/tor.svg
     url: https://www.torproject.org
     sameAs: https://en.wikipedia.org/wiki/Tor_(network)
-    applicationCategory: ウェブブラウザ
+    applicationCategory: Web Browser
     operatingSystem:
       - Windows
       - macOS
@@ -66,9 +66,9 @@ There are a variety of ways to connect to the Tor network from your device, the 
 
 !!! danger
 
-    You should **never** install any additional extensions on Tor Browser or edit `about:config` settings, including the ones we suggest for Firefox. Browser extensions and non-standard settings make you stand out from others on the Tor network, thus making your browser easier to [fingerprint](https://support.torproject.org/glossary/browser-fingerprinting).
+    Firefoxでおすすめされているものを含め、Tor Browserに追加の拡張機能をインストールしたり、「about:config」の設定を変更したりは、**絶対に**しないでください。 ブラウザ拡張機能や非標準の設定により、Torネットワーク上の他のユーザとあなたが区別されやすくなり、[フィンガープリント](https://support.torproject.org/glossary/browser-fingerprinting)されやすくなります。
 
-The Tor Browser is designed to prevent fingerprinting, or identifying you based on your browser configuration. Therefore, it is imperative that you do **not** modify the browser beyond the default [security levels](https://tb-manual.torproject.org/security-settings/).
+Tor Browserはフィンガープリントを防止するよう設計されており、不用意にブラウザの設定を変更するとあなたは特定されやすくなってしまいます。 Therefore, it is imperative that you do **not** modify the browser beyond the default [security levels](https://tb-manual.torproject.org/security-settings/).
 
 ### Orbot
 

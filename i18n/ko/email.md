@@ -2,7 +2,7 @@
 meta_title: "비공개 암호화 이메일 서비스 권장 목록 - Privacy Guides"
 title: "이메일 서비스"
 icon: material/email
-description: These email providers offer a great place to store your emails securely, and many offer interoperable OpenPGP encryption with other providers.
+description: 이러한 이메일 제공 업체는 여러분의 이메일을 안전하게 보관하기에 적합합니다. 대부분이 OpenPGP 암호화를 제공하여 다른 이메일 서비스와도 호환됩니다.
 cover: email.png
 ---
 
@@ -60,7 +60,7 @@ cover: email.png
 
 무료 계정은 본문 텍스트 검색이 불가능하고 [Proton Mail Bridge](https://proton.me/mail/bridge)(Thunderbird 등 [권장 데스크톱 이메일 클라이언트](email-clients.md)를 사용하려면 필수적인 기능)를 사용할 수 없습니다. 유료 계정에는 Proton Mail Bridge, 추가 저장 공간, 사용자 지정 도메인 지원 등의 기능이 제공됩니다. Proton Mail 앱 [감사 증명서](https://proton.me/blog/security-audit-all-proton-apps)는 2021년 11월 9일에 [Securitum](https://research.securitum.com)에서 발급하였습니다.
 
-Proton Unlimited, Businiess, Visionary 플랜을 이용 중이라면 [SimpleLogin](#simplelogin) 프리미엄도 무료로 제공됩니다.
+Proton Unlimited, Business, Visionary 플랜을 이용 중이라면 [SimpleLogin](#simplelogin) 프리미엄도 무료로 제공됩니다.
 
 Proton Mail에는 내부 충돌 보고서가 존재하며, 이는 제3자와 공유되지 **않습니다**. 충돌 보고서는 비활성화 가능합니다: **Settings** > **Go to Settings** > **Account** > **Security and privacy** > **Send crash reports**.
 
@@ -78,15 +78,15 @@ Proton Mail은 TOTP [이중 인증](https://proton.me/support/two-factor-authent
 
 #### :material-check:{ .pg-green } 데이터 보안
 
-Proton Mail has [zero-access encryption](https://proton.me/blog/zero-access-encryption) at rest for your emails and [calendars](https://proton.me/news/protoncalendar-security-model). Data secured with zero-access encryption is only accessible by you.
+Proton Mail은 이메일 및 [캘린더](https://proton.me/news/protoncalendar-security-model)에 [Zero Access Encryption](https://proton.me/blog/zero-access-encryption)을 적용하고 있습니다. Zero Access Encryption으로 보호된 데이터는 여러분 본인만 접근 가능합니다.
 
-Certain information stored in [Proton Contacts](https://proton.me/support/proton-contacts), such as display names and email addresses, are not secured with zero-access encryption. Contact fields that support zero-access encryption, such as phone numbers, are indicated with a padlock icon.
+[Proton Contacts](https://proton.me/support/proton-contacts) 연락처에 저장된 특정 정보(표시된 이름, 이메일 주소 등)는 Zero Access Encryption으로 보호되지 않습니다. 전화번호 등, Zero Access Encrpytion이 적용된 연락처 필드는 자물쇠 아이콘으로 표시됩니다.
 
 #### :material-check:{ .pg-green } 이메일 암호화
 
-Proton Mail has [integrated OpenPGP encryption](https://proton.me/support/how-to-use-pgp) in their webmail. Emails to other Proton Mail accounts are encrypted automatically, and encryption to non-Proton Mail addresses with an OpenPGP key can be enabled easily in your account settings. They also allow you to [encrypt messages to non-Proton Mail addresses](https://proton.me/support/password-protected-emails) without the need for them to sign up for a Proton Mail account or use software like OpenPGP.
+Proton Mail은 웹메일에 [OpenPGP 암호화 기능을 내장](https://proton.me/support/how-to-use-pgp)하고 있습니다. 다른 Proton Mail 계정으로 보내는 이메일은 자동으로 암호화되며, Proton Mail 외 주소로 보내는 이메일에 대한 OpenPGP 암호화는 계정 설정에서 간편하게 활성화할 수 있습니다. Proton Mail 계정도 없고 OpenPGP 등의 소프트웨어도 사용하지 않는 사람에게도 [암호화된 메시지를 보낼 수 있는 기능](https://proton.me/support/password-protected-emails) 또한 제공합니다.
 
-Proton Mail also supports the discovery of public keys via HTTP from their [Web Key Directory (WKD)](https://wiki.gnupg.org/WKD). This allows people who don't use Proton Mail to find the OpenPGP keys of Proton Mail accounts easily, for cross-provider E2EE.
+Proton Mail은 자체 [Web Key Directory (WKD)](https://wiki.gnupg.org/WKD)에서 HTTP로 공개 키를 검색할 수 있는 기능을 지원합니다. 이로써 Proton Mail을 사용하지 않는 사람도 Proton Mail OpenPGP 키를 쉽게 찾아 서로 다른 제공 업체 간 E2EE 적용이 가능합니다.
 
 
 #### :material-information-outline:{ .pg-blue } Account Termination
@@ -193,13 +193,13 @@ StartMail은 [웹메일에 한해](https://support.startmail.com/hc/en-us/articl
 
 #### :material-information-outline:{ .pg-blue } 데이터 보안
 
-StartMail has [zero access encryption at rest](https://www.startmail.com/en/whitepaper/#_Toc458527835), using their "user vault" system. When you log in, the vault is opened, and the email is then moved to the vault out of the queue where it is decrypted by the corresponding private key.
+StartMail에서는 '사용자 보관함' 시스템으로 [Zero Access Encryption을 적용](https://www.startmail.com/en/whitepaper/#_Toc458527835)합니다. 사용자가 로그인할 경우 먼저 보관함이 열리고, 이메일이 보관함으로 이동하여, 보관함에서 이메일을 개인 키로 해독합니다.
 
-StartMail supports importing [contacts](https://support.startmail.com/hc/en-us/articles/360006495557-Import-contacts) however, they are only accessible in the webmail and not through protocols such as [CalDAV](https://en.wikipedia.org/wiki/CalDAV). Contacts are also not stored using zero knowledge encryption.
+StartMail은 [연락처 가져오기](https://support.startmail.com/hc/en-us/articles/360006495557-Import-contacts)를 지원합니다. 하지만 연락처는 웹메일에서만 접근 가능하며, [CalDAV](https://en.wikipedia.org/wiki/CalDAV) 등의 프로토콜로는 접근할 수 없습니다. 연락처는 Zero Knowledge Encryption이 적용되지 않고 저장됩니다.
 
 #### :material-check:{ .pg-green } 이메일 암호화
 
-StartMail has [integrated encryption](https://support.startmail.com/hc/en-us/sections/360001889078-Encryption) in their webmail, which simplifies sending encrypted messages with public OpenPGP keys. However, they do not support the Web Key Directory standard, making the discovery of a Startmail mailbox's public key more challenging for other email providers or clients.
+StartMail은 웹메일에 [암호화 기능을 내장](https://support.startmail.com/hc/en-us/sections/360001889078-Encryption)하고 있으므로, OpenPGP 공개 키로 간편하게 암호화 메시지를 전송할 수 있습니다. 하지만 Web Key Directory 표준을 지원하지 않기 때문에 StartMail 메일함의 공개 키 검색은 쉽지 않습니다.
 
 #### :material-information-outline:{ .pg-blue } 계정 삭제
 
@@ -243,7 +243,7 @@ Tutanota 유료 계정은 최대 5개의 [별칭](https://tutanota.com/faq#alias
 
 #### :material-information-outline:{ .pg-blue } 비공개 결제 수단
 
-Tutanota는 신용카드, Paypal만 직접 결제할 수 있으나, Tutanota와 Proxystore의 [파트너십](https://tutanota.com/faq/#cryptocurrency)을 이용해 [암호화폐](cryptocurrency.md)로 기프트카드 구입이 가능합니다.
+Tutanota는 신용카드, Paypal만 직접 결제할 수 있으나, Tutanota와 Proxystore의 [파트너십](https://tutanota.com/faq/#cryptocurrency)을 이용해 [암호화폐](cryptocurrency.md)로 기프트 카드 구입이 가능합니다.
 
 #### :material-check:{ .pg-green } 계정 보안
 
@@ -251,7 +251,7 @@ Tutanota는 TOTP/U2F [이중 인증](https://tutanota.com/faq#2fa)을 지원합�
 
 #### :material-check:{ .pg-green } 데이터 보안
 
-Tutanota has [zero access encryption at rest](https://tutanota.com/faq#what-encrypted) for your emails, [address book contacts](https://tutanota.com/faq#encrypted-address-book), and [calendars](https://tutanota.com/faq#calendar). This means the messages and other data stored in your account are only readable by you.
+Tutanota는 이메일, [주소록 연락처](https://tutanota.com/faq#encrypted-address-book), [캘린더](https://tutanota.com/faq#calendar)에 [Zero Access Encryption을 적용하고 있습니다](https://tutanota.com/faq#what-encrypted). 즉, 계정에 저장된 메시지 및 기타 데이터는 사용자 본인만 읽을 수 있습니다.
 
 #### :material-information-outline:{ .pg-blue } 이메일 암호화
 
@@ -271,39 +271,40 @@ Tutanota는 디지털 유산 상속 기능을 제공하지 않습니다.
 
 ## 이메일 별칭 서비스
 
-An email aliasing service allows you to easily generate a new email address for every website you register for. The email aliases you generate are then forwarded to an email address of your choosing, hiding both your "main" email address and the identity of your email provider. True email aliasing is better than plus addressing commonly used and supported by many providers, which allows you to create aliases like yourname+[anythinghere]@example.com, because websites, advertisers, and tracking networks can trivially remove anything after the + sign to know your true email address.
+이메일 별칭 서비스를 이용하면 가입하는 모든 웹사이트마다 새로운 이메일 주소를 생성해 사용하는 것이 가능합니다. 생성한 이메일 별칭으로 오는 메시지는 모두 여러분이 선택한 이메일 주소로 전달됩니다. 따라서 여러분이 "주로" 사용하는 이메일 주소를 드러내지 않을 수 있고, 여러분이 사용하는 이메일 제공 업체가 무엇인지도 숨길 수 있습니다. 사용자명+[어떤 문자열]@example.com 형태로 이메일 별칭을 생성하는 서비스가 대다수지만, 이 경우 웹사이트나 광고 업체 혹은 추적 네트워크에서 + 기호 뒤의 문자열을 지우기만 하면 여러분의 실제 이메일 주소를 알아낼 수 있으므로, 이런 형태 대신 완전한 이메일 별칭을 만드는 것이 훨씬 낫습니다.
 
 <div class="grid cards" markdown>
 
-- ![AnonAddy logo](assets/img/email/anonaddy.svg#only-light){ .twemoji }![AnonAddy logo](assets/img/email/anonaddy-dark.svg#only-dark){ .twemoji } [AnonAddy](email.md#anonaddy)
-- ![SimpleLogin logo](assets/img/email/simplelogin.svg){ .twemoji } [SimpleLogin](email.md#simplelogin)
+- ![AnonAddy 로고](assets/img/email/anonaddy.svg#only-light){ .twemoji }![AnonAddy logo](assets/img/email/anonaddy-dark.svg#only-dark){ .twemoji } [AnonAddy](email.md#anonaddy)
+- ![SimpleLogin 로고](assets/img/email/simplelogin.svg){ .twemoji } [SimpleLogin](email.md#simplelogin)
 
 </div>
 
-Email aliasing can act as a safeguard in case your email provider ever ceases operation. In that scenario, you can easily re-route your aliases to a new email address. In turn, however, you are placing trust in the aliasing service to continue functioning.
+이메일 별칭은 이메일 제공 업체가 운영을 중단하는 경우를 대비한 안전장치 역할을 할 수도 있습니다. 이메일 제공 업체가 운영을 중단한 경우, 이메일 별칭의 전달 주소를 새로운 이메일 주소로 바꾸기만 하면 됩니다. 단, 이는 이메일 별칭 서비스가 계속 운영될 것이라는 신뢰 또한 필요로 합니다.
 
-Using a dedicated email aliasing service also has a number of benefits over a catch-all alias on a custom domain:
+이메일 별칭 전용 서비스를 사용할 경우 사용자 정의 도메인에서 Catch-all 별칭보다 유리한 점이 있습니다:
 
-- Aliases can be turned on and off individually when you need them, preventing websites from emailing you randomly.
-- Replies are sent from the alias address, shielding your real email address.
+- 별칭은 필요할 때 개별적으로 켜고 끌 수 있어 웹사이트가 무차별적으로 이메일을 보내는 걸 방지할 수 있습니다.
+- 답장 시 실제 이메일 주소가 드러내지 않고 별칭 주소에서 전송됩니다.
 
-They also have a number of benefits over "temporary email" services:
+'임시 이메일' 서비스에 비해서도 여러 이점이 있습니다.
 
-- Aliases are permanent and can be turned on again if you need to receive something like a password reset.
-- Emails are sent to your trusted mailbox rather than stored by the alias provider.
-- Temporary email services typically have public mailboxes which can be accessed by anyone who knows the address, aliases are private to you.
+- 이메일 별칭은 영구적이며, 비밀번호 재설정 등의 이메일을 받아야 하는 경우 다시 활성화할 수 있습니다.
+- 이메일을 이메일 별칭 서비스 제공 업체에서 저장하는 것이 아닌, 여러분이 신뢰하는 메일함으로 전송됩니다.
+- 임시 이메일 서비스는 일반적으로 누군가 주소를 알고만 있다면 접근 가능한 공개 메일함이 존재합니다. 반면 이메일 별칭은 비공개로, 여러분만 볼 수 있습니다.
 
-Our email aliasing recommendations are providers that allow you to create aliases on domains they control, as well as your own custom domain(s) for a modest yearly fee. They can also be self-hosted if you want maximum control. However, using a custom domain can have privacy-related drawbacks: If you are the only person using your custom domain, your actions can be easily tracked across websites simply by looking at the domain name in the email address and ignoring everything before the at (@) sign.
+Privacy Guides 권장 이메일 별칭 제공 업체는 해당 업체에서 관리하는 도메인을 이용한 이메일 별칭 생성 서비스를 제공하며, 소정의 연간 요금으로 여러분이 보유한 도메인을 이용할 수도 있습니다. 가능한 한 많은 통제권을 원하는 경우 자체 호스팅할 수도 있습니다. 단, 사용자 정의 도메인을 사용할 경우에는 프라이버시 면에서 단점이 생길 수 있습니다. 해당 사용자 정의 도메인을 사용하는 사람이 한 명뿐일 경우, 이메일 주소에서 @ 기호 앞부분을 무시하고 도메인 이름만으로도 해당 사람을 특정 웹사이트의 경계 밖에서도 쉽게 추적 가능해집니다.
 
-Using an aliasing service requires trusting both your email provider and your aliasing provider with your unencrypted messages. Some providers mitigate this slightly with automatic PGP encryption, which reduces the number of parties you need to trust from two to one by encrypting incoming emails before they are delivered to your final mailbox provider.
+'이메일 별칭 서비스를 사용한다'라는 것은, 암호화되지 않은 메시지를 다룰 땐 이메일 제공 업체와 이메일 별칭 서비스 제공 업체를 모두 신뢰해야 함을 의미합니다. 일부 제공 업체는 수신 이메일을 최종 메일함 제공 업체에 도달하기 전에 자동으로 PGP 암호화는 방식을 통해 신뢰해야 할 개체의 수를 둘에서 하나로 줄이는 식으로 해당 문제를 어느 정도 완화하기도 합니다.
 
 ### AnonAddy
 
 !!! recommendation
 
-    ![AnonAddy logo](assets/img/email/anonaddy.svg#only-light){ align=right }
-    ![AnonAddy logo](assets/img/email/anonaddy-dark.svg#only-dark){ align=right }
-    **AnonAddy**에서는 무료로 공유 도메인을 사용하면 최대 20개의 별칭을, 익명성이 떨어지는 "기본" 별칭을 사용하면 별칭을 무제한으로 생성할 수 있습니다.
+    ![AnonAddy 로고](assets/img/email/anonaddy.svg#only-light){ align=right }
+    ![AnonAddy 로고](assets/img/email/anonaddy-dark.svg#only-dark){ align=right }
+    
+    **AnonAddy**는 공통 도메인에 20개까지 도메인 별칭 생성을 무료로 제공하며, 익명성이 떨어지는 'Standard' 별칭은 무제한으로 생성 가능합니다.
     
     [:octicons-home-16: 홈페이지](https://anonaddy.com){ .md-button .md-button--primary }
     [:octicons-eye-16:](https://anonaddy.com/privacy/){ .card-link title="프라이버시 정책" }
@@ -318,13 +319,13 @@ Using an aliasing service requires trusting both your email provider and your al
         - [:simple-firefoxbrowser: Firefox](https://addons.mozilla.org/en-GB/firefox/addon/anonaddy/)
         - [:simple-googlechrome: Chrome](https://chrome.google.com/webstore/detail/anonaddy-anonymous-email/iadbdpnoknmbdeolbapdackdcogdmjpe)
 
-The number of shared aliases (which end in a shared domain like @anonaddy.me) that you can create is limited to 20 on AnonAddy's free plan and 50 on their $12/year plan. You can create unlimited standard aliases (which end in a domain like @[username].anonaddy.com or a custom domain on paid plans), however, as previously mentioned, this can be detrimental to privacy because people can trivially tie your standard aliases together based on the domain name alone. Unlimited shared aliases are available for $36/year.
+AnonAddy에서 생성 가능한 공통 도메인 별칭(공통 도메인은 @anonaddy.me 으로 끝나는 형태입니다) 개수는 무료 플랜의 경우 20개, 연간 $12 플랜의 경우 50개입니다. Standard 별칭(@[사용자명].anonaddy.com으로 끝나는 형태이거나, 유료 플랜은 사용자 정의 도메인)은 무제한으로 만들 수 있습니다. 하지만 앞서 언급했듯, 도메인 이름만 보고도 해당 Standard 별칭 사용자를 연결 지을 수 있기 때문에 프라이버시 면에서는 해로울 수 있습니다. 무제한 공통 도메인 별칭은 연간 $36로 이용할 수 있습니다.
 
 주요 무료 기능:
 
-- [x] 20개의 공유 별칭
-- [x] 무제한 기본 별칭
-- [] 발신 답장 불가
+- [x] 20개의 공통 도메인 별칭
+- [x] 무제한 Standard 별칭
+- [ ] 발신 답장 불가능
 - [x] 2개의 수신자 메일함
 - [x] 자동 PGP 암호화
 
@@ -332,16 +333,16 @@ The number of shared aliases (which end in a shared domain like @anonaddy.me) th
 
 !!! recommendation
 
-    ![Simplelogin logo](assets/img/email/simplelogin.svg){ align=right }
+    ![Simplelogin 로고](assets/img/email/simplelogin.svg){ align=right }
     
-    **SimpleLogin** is a free service which provides email aliases on a variety of shared domain names, and optionally provides paid features like unlimited aliases and custom domains.
+    **SimpleLogin**는 여러 공통 도메인 이름에 이메일 별칭을 제공하는 무료 서비스입니다. 유료 기능으로는 무제한 별칭 및 사용자 지정 도메인을 사용할 수 있습니다.
     
-    [:octicons-home-16: Homepage](https://simplelogin.io){ .md-button .md-button--primary }
-    [:octicons-eye-16:](https://simplelogin.io/privacy/){ .card-link title="Privacy Policy" }
-    [:octicons-info-16:](https://simplelogin.io/docs/){ .card-link title=Documentation}
-    [:octicons-code-16:](https://github.com/simple-login){ .card-link title="Source Code" }
+    [:octicons-home-16: 홈페이지](https://simplelogin.io){ .md-button .md-button--primary }
+    [:octicons-eye-16:](https://simplelogin.io/privacy/){ .card-link title="프라이버시 정책" }
+    [:octicons-info-16:](https://simplelogin.io/docs/){ .card-link title=문서}
+    [:octicons-code-16:](https://github.com/simple-login){ .card-link title="소스 코드" }
     
-    ??? downloads
+    ??? downloads "다운로드"
     
         - [:simple-googleplay: Google Play](https://play.google.com/store/apps/details?id=io.simplelogin.android)
         - [:simple-appstore: App Store](https://apps.apple.com/app/id1494359858)
@@ -351,44 +352,44 @@ The number of shared aliases (which end in a shared domain like @anonaddy.me) th
         - [:simple-microsoftedge: Edge](https://microsoftedge.microsoft.com/addons/detail/simpleloginreceive-sen/diacfpipniklenphgljfkmhinphjlfff)
         - [:simple-safari: Safari](https://apps.apple.com/app/id1494051017)
 
-SimpleLogin was [acquired by Proton AG](https://proton.me/news/proton-and-simplelogin-join-forces) as of April 8, 2022. If you use Proton Mail for your primary mailbox, SimpleLogin is a great choice. As both products are now owned by the same company you now only have to trust a single entity. We also expect that SimpleLogin will be more tightly integrated with Proton's offerings in the future. SimpleLogin continues to support forwarding to any email provider of your choosing. Securitum [audited](https://simplelogin.io/blog/security-audit/) SimpleLogin in early 2022 and all issues [were addressed](https://simplelogin.io/audit2022/web.pdf).
+SimpleLogin은 [2022년 4월 8일자로 Proton AG](https://proton.me/news/proton-and-simplelogin-join-forces)에 인수되었습니다. Proton Mail을 주로 사용하고 계신다면 SimpleLogin은 훌륭한 선택입니다. 이제 두 제품 모두 동일한 회사에서 소유하고 있으므로, 신뢰해야 할 업체의 개수가 하나로 줄어듭니다. SimpleLogin은 향후 Proton 제품과 더욱 긴밀하게 통합될 것으로 기대하고 있습니다. SimpleLogin은 사용자가 선택한 어떤 이메일 제공업체든 계속 전달을 지원합니다. SimpleLogin은 2022년 초 Securitum으로부터 [감사받았으며](https://simplelogin.io/blog/security-audit/), 제기된 모든 문제는 [해결되었습니다](https://simplelogin.io/audit2022/web.pdf).
 
-You can link your SimpleLogin account in the settings with your Proton account. If you have the Proton Unlimited, Business, or Visionary Plan, you will have SimpleLogin Premium for free.
+Proton 계정과 SimpleLogin 계정 연결은 설정에서 가능합니다. Proton Unlimited, Business, Visionary 플랜을 이용 중이라면 SimpleLogin 프리미엄도 무료로 제공됩니다.
 
-Notable free features:
+주요 무료 기능:
 
-- [x] 10 Shared Aliases
-- [x] Unlimited Replies
-- [x] 1 Recipient Mailbox
+- [x] 10개의 공통 도메인 별칭
+- [x] 무제한 답장
+- [x] 1개의 수신자 메일함
 
-## Self-Hosting Email
+## 자체 호스팅 이메일
 
-Advanced system administrators may consider setting up their own email server. Mail servers require attention and continuous maintenance in order to keep things secure and mail delivery reliable.
+고급 시스템 관리자는 자체 이메일 서버를 구축하는 것도 고려할 수 있습니다. 메일 서버는 보안과 메일 전달 역할을 신뢰성 있고 안정적으로 유지하기 위해 지속적인 주의 및 유지 관리가 필요합니다.
 
-### Combined software solutions
-
-!!! recommendation
-
-    ![Mailcow logo](assets/img/email/mailcow.svg){ align=right }
-    
-    **Mailcow** is a more advanced mail server perfect for those with a bit more Linux experience. It has everything you need in a Docker container: A mail server with DKIM support, antivirus and spam monitoring, webmail and ActiveSync with SOGo, and web-based administration with 2FA support.
-    
-    [:octicons-home-16: Homepage](https://mailcow.email){ .md-button .md-button--primary }
-    [:octicons-info-16:](https://mailcow.github.io/mailcow-dockerized-docs/){ .card-link title=Documentation}
-    [:octicons-code-16:](https://github.com/mailcow/mailcow-dockerized){ .card-link title="Source Code" }
-    [:octicons-heart-16:](https://www.servercow.de/mailcow?lang=en#sal){ .card-link title=Contribute }
+### 통합 소프트웨어 솔루션
 
 !!! recommendation
 
-    ![Mail-in-a-Box logo](assets/img/email/mail-in-a-box.svg){ align=right }
+    ![Mailcow 로고](assets/img/email/mailcow.svg){ align=right }
     
-    **Mail-in-a-Box** is an automated setup script for deploying a mail server on Ubuntu. Its goal is to make it easier for people to set up their own mail server.
+    **Mailcow**는 Linux 사용 경험이 많은 분에게 적합한 고급 메일 서버입니다. DKIM 지원 메일 서버, 안티바이러스, 스팸 모니터링, SOGo 웹메일 및 ActiveSync, 이중 인증 지원 웹 기반 관리 등 필요한 모든 것을 Docker 컨테이너에 갖추고 있습니다.
     
-    [:octicons-home-16: Homepage](https://mailinabox.email){ .md-button .md-button--primary }
-    [:octicons-info-16:](https://mailinabox.email/guide.html){ .card-link title=Documentation}
-    [:octicons-code-16:](https://github.com/mail-in-a-box/mailinabox){ .card-link title="Source Code" }
+    [:octicons-home-16: 홈페이지](https://mailcow.email){ .md-button .md-button--primary }
+    [:octicons-info-16:](https://mailcow.github.io/mailcow-dockerized-docs/){ .card-link title=문서}
+    [:octicons-code-16:](https://github.com/mailcow/mailcow-dockerized){ .card-link title="소스 코드" }
+    [:octicons-heart-16:](https://www.servercow.de/mailcow?lang=en#sal){ .card-link title=기여 }
 
-For a more manual approach we've picked out these two articles:
+!!! recommendation
+
+    ![Mail-in-a-Box 로고](assets/img/email/mail-in-a-box.svg){ align=right }
+    
+    **Mail-in-a-Box**는 Ubuntu 위에 메일 서버를 배포하는 자동화 설정 스크립트입니다. 사람들이 자신만의 메일 서버를 쉽게 구축할 수 있도록 만드는 것을 목표로 하는 프로젝트입니다.
+    
+    [:octicons-home-16: 홈페이지](https://mailinabox.email){ .md-button .md-button--primary }
+    [:octicons-info-16:](https://mailinabox.email/guide.html){ .card-link title=문서}
+    [:octicons-code-16:](https://github.com/mail-in-a-box/mailinabox){ .card-link title="소스 코드" }
+
+보다 수동적인 접근 방식을 찾으신다면 다음 두 아티클을 추천드립니다:
 
 - [Setting up a mail server with OpenSMTPD, Dovecot and Rspamd](https://poolp.org/posts/2019-09-14/setting-up-a-mail-server-with-opensmtpd-dovecot-and-rspamd/) (2019)
 - [How To Run Your Own Mail Server](https://www.c0ffee.net/blog/mail-server-guide/) (August 2017)
@@ -399,22 +400,22 @@ For a more manual approach we've picked out these two articles:
 
 ### 기술
 
-We regard these features as important in order to provide a safe and optimal service. 제공 업체가 여러분에게 필요한 기능을 갖추고 있는지 살펴봐야 합니다.
+안전하고 최적화된 서비스를 제공하기 위해서는 이러한 기능이 중요하다고 판단했습니다. 제공 업체가 여러분에게 필요한 기능을 갖추고 있는지 살펴봐야 합니다.
 
 **최소 요구 사항:**
 
-- Encrypts email account data at rest with zero-access encryption.
-- Export capability as [Mbox](https://en.wikipedia.org/wiki/Mbox) or individual .eml with [RFC5322](https://datatracker.ietf.org/doc/rfc5322/) standard.
-- Allow users to use their own [domain name](https://en.wikipedia.org/wiki/Domain_name). Custom domain names are important to users because it allows them to maintain their agency from the service, should it turn bad or be acquired by another company which doesn't prioritize privacy.
-- Operates on owned infrastructure, i.e. not built upon third-party email service providers.
+- Zero Access Encryption을 통해 이메일 계정 데이터를 암호화해야 합니다.
+- [RFC5322](https://datatracker.ietf.org/doc/rfc5322/) 표준을 사용해 [Mbox](https://en.wikipedia.org/wiki/Mbox) 혹은 개별 .eml 내보내기 기능을 지원해야 합니다.
+- 사용자가 자신의 [도메인 이름](https://en.wikipedia.org/wiki/Domain_name)을 사용할 수 있어야 합니다. Custom domain names are important to users because it allows them to maintain their agency from the service, should it turn bad or be acquired by another company which doesn't prioritize privacy.
+- 자체 인프라에서 운영되어야 합니다. 다른 이메일 서비스 제공 업체의 인프라를 기반으로 만들어진 서비스여선 안 됩니다.
 
 **우대 사항:**
 
-- Encrypts all account data (Contacts, Calendars, etc.) at rest with zero-access encryption.
-- Integrated webmail E2EE/PGP encryption provided as a convenience.
+- Zero Access Encryption을 통해 모든 계정 데이터(연락처, 캘린더 등)를 암호화해야 합니다.
+- 웹메일에 E2EE/PGP 암호화가 통합되어 있어서 편리하게 사용할 수 있어야 합니다.
 - Support for [WKD](https://wiki.gnupg.org/WKD) to allow improved discovery of public OpenPGP keys via HTTP. GnuPG users can get a key by typing: `gpg --locate-key example_user@example.com`
-- Support for a temporary mailbox for external users. This is useful when you want to send an encrypted email, without sending an actual copy to your recipient. These emails usually have a limited lifespan and then are automatically deleted. They also don't require the recipient to configure any cryptography like OpenPGP.
-- Availability of the email provider's services via an [onion service](https://en.wikipedia.org/wiki/.onion).
+- 외부 사용자를 위해 임시 메일함을 지원해야 합니다. 수신자에게 실제 사본을 보내지 않고 암호화된 이메일을 보내고자 할 때 유용합니다. 이러한 이메일은 보통 수명이 제한돼 있으며 이후 자동으로 삭제됩니다. 수신자가 OpenPGP 등의 암호화를 설정할 필요가 없습니다.
+- [Onion 서비스](https://en.wikipedia.org/wiki/.onion)를 통해 이메일 서비스를 이용할 수 있어야 합니다.
 - [Subaddressing](https://en.wikipedia.org/wiki/Email_address#Subaddressing) support.
 - Catch-all or alias functionality for those who own their own domains.
 - Use of standard email access protocols such as IMAP, SMTP or [JMAP](https://en.wikipedia.org/wiki/JSON_Meta_Application_Protocol). Standard access protocols ensure customers can easily download all of their email, should they want to switch to another provider.

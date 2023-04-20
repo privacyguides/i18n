@@ -5,14 +5,14 @@
 *[площадь атаки]: Общее количество возможных точек входа для несанкционированного доступа к системе
 *[AVB]: Android Verified Boot
 *[cgroups]: Control Groups
-*[CLI]: Command Line Interface
+*[CLI]: Интерфейс командной строки
 *[CSV]: Comma-Separated Values, формат таблиц
 *[CVE]: Common Vulnerabilities and Exposures
 *[Digital Legacy]: Digital Legacy refers to features that allow you to give other people access to your data when you die
 *[DNSSEC]: Domain Name System Security Extensions
 *[DNS]: Domain Name System
-*[DoH]: DNS over HTTPS
-*[DoQ]: DNS over QUIC
+*[DoH]: DNS через HTTPS
+*[DoQ]: DNS через QUIC
 *[DoH3]: DNS over HTTP/3
 *[DoT]: DNS over TLS
 *[E2EE]: Сквозное шифрование
@@ -28,13 +28,13 @@
 *[GDPR]: General Data Protection Regulation
 *[GPG]: GNU Privacy Guard (PGP implementation)
 *[GPS]: Global Positioning System
-*[GUI]: Graphical User Interface
+*[GUI]: Графический пользовательский интерфейс
 *[GnuPG]: GNU Privacy Guard (PGP implementation)
-*[HDD]: Hard Disk Drive
+*[HDD]: Жесткий диск
 *[HOTP]: HMAC (Hash-based Message Authentication Code) based One-Time Password
 *[HTTPS]: Hypertext Transfer Protocol Secure
 *[HTTP]: Hypertext Transfer Protocol
-*[hypervisor]: Computer software, firmware, or hardware that splits the resources of a CPU among multiple operating systems
+*[гипервизор]: Программное обеспечение, прошивка или оборудование, которое распределяет ресурсы процессора между несколькими операционными системами
 *[ICCID]: Integrated Circuit Card Identifier
 *[IMAP]: Internet Message Access Protocol
 *[IMEI]: International Mobile Equipment Identity
@@ -42,15 +42,15 @@
 *[IP]: Internet Protocol
 *[IPv4]: Internet Protocol version 4
 *[IPv6]: Internet Protocol version 6
-*[ISP]: Internet Service Provider
-*[ISPs]: Internet Service Providers
+*[ISP]: Интернет-провайдер
+*[ISPs]: Интернет-провайдеры
 *[JNI]: Java Native Interface
 *[KYC]: Know Your Customer
 *[LUKS]: Linux Unified Key Setup (Full-Disk Encryption)
 *[MAC]: Media Access Control
 *[MDAG]: Microsoft Defender Application Guard
 *[MEID]: Mobile Equipment Identifier
-*[MFA]: Multi-Factor Authentication
+*[MFA]: Многофакторная аутентификация
 *[NVMe]: Nonvolatile Memory Express
 *[NTP]: Network Time Protocol
 *[OCI]: Open Container Initiative
@@ -71,25 +71,25 @@
 *[RSS]: Really Simple Syndication
 *[SELinux]: Security-Enhanced Linux
 *[SIM]: Subscriber Identity Module
-*[SMS]: Short Message Service (standard text messaging)
+*[СМС]: Служба коротких сообщений (стандартный обмен текстовыми сообщениями)
 *[SMTP]: Simple Mail Transfer Protocol
 *[SNI]: Server Name Indication
 *[SSD]: Твердотельный накопитель
 *[SSH]: Secure Shell
 *[SUID]: Set Owner User ID
-*[SaaS]: Software as a Service (cloud software)
+*[SaaS]: Программное обеспечение как услуга (облачное программное обеспечение)
 *[SoC]: System on Chip
 *[SSO]: Single sign-on
 *[TCP]: Transmission Control Protocol
 *[TEE]: Trusted Execution Environment
-*[TLS]: Transport Layer Security
-*[ToS]: Terms of Service
+*[TLS]: Протокол защиты транспортного уровня
+*[ToS]: Условия использования
 *[TOTP]: Time-based One-Time Password
 *[TPM]: Trusted Platform Module
-*[U2F]: Universal 2nd Factor
+*[U2F]: Универсальный второй фактор
 *[UEFI]: Unified Extensible Firmware Interface
 *[UDP]: User Datagram Protocol
-*[VPN]: Virtual Private Network
+*[VPN]: Виртуальная частная сеть
 *[VoIP]: Voice over IP (Internet Protocol)
 *[W3C]: World Wide Web Consortium
 *[XMPP]: Extensible Messaging and Presence Protocol

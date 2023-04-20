@@ -1,6 +1,6 @@
 ---
-meta_title: "Encrypted Private Email Recommendations - Privacy Guides"
-title: "Email Services"
+meta_title: "暗号化プライベートメールのおすすめ - Privacy Guides"
+title: "メールサービス"
 icon: material/email
 description: These email providers offer a great place to store your emails securely, and many offer interoperable OpenPGP encryption with other providers.
 cover: email.png
@@ -8,7 +8,7 @@ cover: email.png
 
 Email is practically a necessity for using any online service, however we do not recommend it for person-to-person conversations. Rather than using email to contact other people, consider using an instant messaging medium that supports forward secrecy.
 
-[Recommended Instant Messengers](real-time-communication.md ""){.md-button}
+[おすすめのインスタントメッセンジャ](real-time-communication.md ""){.md-button}
 
 For everything else, we recommend a variety of email providers based on sustainable business models and built-in security and privacy features.
 

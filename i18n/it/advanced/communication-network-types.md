@@ -14,7 +14,7 @@ Esistono diverse architetture di rete comunemente usate per trasmettere messaggi
 
 I servizi di messaggistica centralizzati sono quelli in cui tutti i partecipanti si trovano sullo stesso server o rete di server controllati dalla stessa organizzazione.
 
-Alcuni servizi di messaggistica self-hosted consentono di configurare il proprio server. Il self-hosting può fornire ulteriori garanzie di privacy, come l'assenza di log o l'accesso limitato ai metadati (dati su chi parla con chi). I servizi centralizzati self-hosted sono isolati e tutti devono essere sullo stesso server per comunicare.
+Alcuni servizi di messaggistica autoserviti consentono di configurare il proprio server. Il self-hosting può fornire ulteriori garanzie di privacy, come l'assenza di log o l'accesso limitato ai metadati (dati su chi parla con chi). I servizi centralizzati self-hosted sono isolati e tutti devono essere sullo stesso server per comunicare.
 
 **Vantaggi:**
 

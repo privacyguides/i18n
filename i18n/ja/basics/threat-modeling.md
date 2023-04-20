@@ -11,7 +11,7 @@ description: セキュリティ、プライバシー、使いやすさのバラ�
 
 **脅威モデルとは何ですか？**
 
-==A threat model is a list of the most probable threats to your security and privacy endeavors.== Since it's impossible to protect yourself against **every** attack(er), you should focus on the **most probable** threats. In computer security, a threat is an event that could undermine your efforts to stay private and secure.
+==脅威モデルとは、あなたのセキュリティとプライバシーにとって脅威になる可能性の高いものの一覧です。==**すべての**攻撃から身を守るのは不可能なので、**可能性の高い**脅威への対策に重点を置く必要があります。 情報セキュリティにおいて、脅威とは、プライベートで安全な状態を維持するというあなたの努力を損なう可能性のある事象のことです。
 
 あなたにとって重大な脅威に焦点を当てることで、必要な保護を絞り込み、必要なツールを選ぶことができます。
 
