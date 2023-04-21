@@ -73,7 +73,7 @@ Android 12:
 
 - Un'autorizzazione per concedere solo la [posizione approssimativa](https://developer.android.com/about/versions/12/behavior-changes-12#approximate-location) del dispositivo.
 - Ripristino automatico delle [applicazioni ibernate](https://developer.android.com/about/versions/12/behavior-changes-12#app-hibernation).
-- [Audit dell'accesso ai dati](https://developer.android.com/about/versions/12/behavior-changes-12#data-access-auditing) il quale facilita la determinazione della parte di un'app che accede a determinati tipologie di dati.
+- [Audit dell'accesso ai dati](https://developer.android.com/about/versions/12/behavior-changes-12#data-access-auditing) che facilita la determinazione della parte di un'app che accede a determinati tipologie di dati.
 
 Android 13:
 

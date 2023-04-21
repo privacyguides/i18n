@@ -143,7 +143,7 @@ Alcuni social supportano anche gli RSS, ma non spesso viene citato.
 Usando una qualsiasi [istanza](https://github.com/zedeus/nitter/wiki/Instances) di Nitter, è possibile iscriversi mediante RSS.
 
 !!! esempio
-    Sostituisci `nome_subreddit` con il nome del subreddit al quale desideri iscriverti.
+    Sostituisci `nome_subreddit` con il nome del subreddit a cui desideri iscriverti.
 
     ```text
     https://www.reddit.com/r/{{ nome_subreddit }}/new/.rss

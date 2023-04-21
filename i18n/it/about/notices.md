@@ -1,5 +1,5 @@
 ---
-title: "Notices and Disclaimers"
+title: "Avvisi e dichiarazioni di non responsabilità"
 ---
 
 ## Avviso legale
@@ -18,20 +18,20 @@ Privacy Guides inoltre non garantisce che questo sito sarà costantemente dispon
 
     Quanto segue è un riassunto scritto in formato leggibile di (e non un sostituto di) [licenza](/licenza).
 
-Se non diversamente indicato, tutti i **contenuti** di questo sito web sono resi disponibili secondo i termini della [Licenza Creative Commons Attribuzione-Non opere derivate 4.0 Internazionale](https://github.com/privacyguides/privacyguides.org/blob/main/LICENSE). The underlying **source code** used to generate this website and display that content is released under the [MIT License](https://github.com/privacyguides/privacyguides.org/tree/main/LICENSE-CODE).
+Se non diversamente indicato, tutti i **contenuti** di questo sito web sono resi disponibili secondo i termini della [Licenza Creative Commons Attribuzione-Non opere derivate 4.0 Internazionale](https://github.com/privacyguides/privacyguides.org/blob/main/LICENSE). Il seguente **codice sorgente** utilizzato per generare questo sito web e per mostrare che i contenuti sono stati rilasciati sotto la [Licenza MIT](https://github.com/privacyguides/privacyguides.org/tree/main/LICENSE-CODE).
 
 Questo non include codice di terze parti incorporato in questo repository, o codice dove una licenza sostitutiva è altrimenti indicata. I seguenti sono esempi degni di nota, ma questa lista potrebbe non essere onnicomprensiva:
 
-* [MathJax](https://github.com/privacyguides/privacyguides.org/blob/main/theme/assets/javascripts/mathjax.js) is licensed under the [Apache License 2.0](https://github.com/privacyguides/privacyguides.org/blob/main/docs/assets/javascripts/LICENSE.mathjax.txt).
-* The [Bagnard](https://github.com/privacyguides/brand/tree/main/WOFF/bagnard) heading font is licensed under the [SIL Open Font License 1.1](https://github.com/privacyguides/brand/blob/main/WOFF/bagnard/LICENSE.txt).
-* The [Public Sans](https://github.com/privacyguides/brand/tree/main/WOFF/public_sans) font used for most text on the site is licensed under the terms detailed [here](https://github.com/privacyguides/brand/blob/main/WOFF/public_sans/LICENSE.txt).
-* The [DM Mono](https://github.com/privacyguides/brand/tree/main/WOFF/dm_mono) font used for monospaced text on the site is licensed under the [SIL Open Font License 1.1](https://github.com/privacyguides/brand/blob/main/WOFF/dm_mono/LICENSE.txt).
+* [MathJax](https://github.com/privacyguides/privacyguides.org/blob/main/theme/assets/javascripts/mathjax.js)è stato concesso sotto la [ Licenza Apache 2.0](https://github.com/privacyguides/privacyguides.org/blob/main/docs/assets/javascripts/LICENSE.mathjax.txt).
+* Il font [Bagnard](https://github.com/privacyguides/brand/tree/main/WOFF/bagnard) utilizzato per le intestazioni è stato concesso sotto la[SIL Open Font License 1.1](https://github.com/privacyguides/brand/blob/main/WOFF/bagnard/LICENSE.txt).
+* Il font [Public Sans](https://github.com/privacyguides/brand/tree/main/WOFF/public_sans) utilizzato per la maggior parte del testo del sito è concesso in licenza secondo [questi termini](https://github.com/privacyguides/brand/blob/main/WOFF/public_sans/LICENSE.txt).
+* Il font [DM Mono](https://github.com/privacyguides/brand/tree/main/WOFF/dm_mono) utilizzato per il testo monospaziato è stato concesso sotto la:[SIL Open Font License 1.1](https://github.com/privacyguides/brand/blob/main/WOFF/dm_mono/LICENSE.txt).
 
 Questo significa che puoi usare il contenuto leggibile dall'uomo in questo repository per il tuo progetto, secondo i termini delineati nel testo CC0 1.0 Universal. **Non è possibile** utilizzare il marchio Privacy Guides nel proprio progetto senza l'esplicita approvazione da questo progetto. I marchi di fabbrica di Privacy Guides includono il marchio denominativo "Privacy Guides" e il logo dello scudo. I marchi registrati di Privacy Guides includono il marchio "Privacy Guides" e il logo dello scudo.
 
 Riteniamo che i loghi e le altre immagini in `assets` ottenuti da fornitori terzi siano di dominio pubblico o **fair use**. In poche parole, la dottrina legale del [fair use](https://it.wikipedia.org/wiki/Fair_use) permette l'uso di immagini protette da copyright al fine di identificare l'argomento per scopi di commento pubblico. Tuttavia, questi loghi e altre immagini possono ancora essere soggetti alle leggi sui marchi in una o più giurisdizioni. Prima di usare questo contenuto, assicurati che sia usato per identificare l'entità o l'organizzazione che possiede il marchio e che tu abbia il diritto di usarlo secondo le leggi che si applicano nelle circostanze del tuo uso previsto. *Durante la copia di contenuti da questo sito Web, l'utente è l'unico responsabile di assicurarsi di non violare il marchio o il copyright di qualcun altro.*
 
-When you contribute to our website you are doing so under the above licenses, and you are granting Privacy Guides a perpetual, worldwide, non-exclusive, transferable, royalty-free, irrevocable license with the right to sublicense such rights through multiple tiers of sublicensees, to reproduce, modify, display, perform and distribute your contribution as part of our project.
+Quando contribuite al nostro sito web, lo fate in base alle licenze sopra riportate e concedete a Privacy Guides una licenza perpetua, mondiale, non esclusiva, trasferibile, esente da royalty e irrevocabile, con il diritto di sublicenziare tali diritti attraverso più livelli di sublicenziatari, per riprodurre, modificare, visualizzare, eseguire e distribuire il vostro contributo come parte del nostro progetto.
 
 ## Uso accettabile
 
@@ -47,4 +47,4 @@ L'utente non deve condurre alcuna attività di raccolta dati sistematica o autom
 
 ---
 
-*Porzioni di questo avviso sono state adottate da [opensource.guide](https://github.com/github/opensource.guide/blob/master/notices.md) su GitHub. That resource and this page itself are released under [CC-BY-4.0](https://creativecommons.org/licenses/by-sa/4.0/).*
+*Porzioni di questo avviso sono state adottate da [opensource.guide](https://github.com/github/opensource.guide/blob/master/notices.md) su GitHub. Tale risorsa e questa stessa pagina sono rilasciate sotto: [CC-BY-4.0](https://creativecommons.org/licenses/by-sa/4.0/).*

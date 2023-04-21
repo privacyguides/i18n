@@ -109,40 +109,40 @@ E2EE를 적용하더라도 여전히 서비스 제공 업체는 (일반적으로
 
 대중 사이에서, 사기업의 추적 및 감시에 대한 우려는 점점 더 커지고 있습니다. Pervasive 광고 네트워크는(Google, Facebook이 운영하는 광고가 이에 해당) 해당 업체의 사이트뿐만 아니라 인터넷 전반에 퍼져서 여러분의 행동을 추적하고 있습니다. 콘텐츠 차단기 등의 툴을 써서 광고 네트워크 요청을 제한하고, 서비스의 프라이버시 정책을 꼼꼼히 읽으면 (추적을 완전히 방지할 수는 없지만) 기본적인 적들을 피하는 데에 도움이 됩니다.[^4]
 
-Additionally, even companies outside of the *AdTech* or tracking industry can share your information with [data brokers](https://en.wikipedia.org/wiki/Information_broker) (such as Cambridge Analytica, Experian, or Datalogix) or other parties. You can't automatically assume your data is safe just because the service you're using doesn't fall within the typical AdTech or tracking business model. The strongest protection against corporate data collection is to encrypt or obfuscate your data whenever possible, making it difficult for different providers to correlate data with each other and build a profile on you.
+*AdTech* 혹은 추적 산업 이외의 회사라 할지라도, (Cambridge Analytica, Experian, Datalogix 등) [데이터 브로커(Data Broker)](https://en.wikipedia.org/wiki/Information_broker) 같은 업체와 여러분의 데이터를 공유할 수 있습니다. 여러분이 사용 중인 서비스가 일반적인 AdTech/추적 비즈니스 모델에 속하지 않는다고 해서 여러분의 데이터가 안전하다고 할 수는 없습니다. 기업 데이터 수집을 방어하는 가장 강력한 방법은 가능한 한 여러분의 데이터를 암호화하거나 난독화하는 것입니다. 업체들 사이에서 데이터의 상관성을 알아내기 어려워지기 때문에, 여러분에 대한 프로필을 구축하기 어려워집니다.
 
 ## 정보 공개 제한
 
 <span class="pg-green">:material-account-search: 공개 노출(Public Exposure)</span>
 
-The best way to keep your data private is simply not making it public in the first place. Deleting unwanted information you find about yourself online is one of the best first steps you can take to regain your privacy.
+여러분의 데이터를 남들로부터 지키는 가장 좋은 방법은, 애초에 데이터를 공개하지 않는 것입니다. '온라인에서 자신에 대한 원치 않는 정보를 삭제하기'는 자신의 프라이버시를 되찾기 위한 가장 훌륭한 첫걸음입니다.
 
-- [View our guide on account deletion :material-arrow-right-drop-circle:](account-deletion.md)
+- [계정 삭제 가이드 살펴보기 :material-arrow-right-drop-circle:](account-deletion.md)
 
-On sites where you do share information, checking the privacy settings of your account to limit how widely that data is spread is very important. For example, enable "private mode" on your accounts if given the option: This ensures that your account isn't being indexed by search engines, and that it can't be viewed without your permission.
+정보를 공유하는 사이트에서는 반드시 계정 개인정보 보호 설정을 확인하여 데이터가 원치 않게 널리 퍼지지 않도록 해야 합니다. 예를 들어, 가능하면 계정에서 '비공개 모드' 같은 옵션을 활성화해야 합니다. 계정 비공개 모드를 활성화하면 여러분의 계정이 검색 엔진에 잡히지 않고 여러분 허락 없이 계정을 살펴볼 수 없습니다.
 
-If you've already submitted your real information to sites which shouldn't have it, consider using disinformation tactics, like submitting fictitious information related to that online identity. This makes your real information indistinguishable from the false information.
+실제 정보를 제공해서는 안 되는 사이트에 이미 실제 정보를 제출했다면, 해당 온라인 신원에 관련된 허위 정보를 제출하는 등의 전략을 사용할 수 있습니다. 이렇게 하면 가짜 정보와 여러분에 대한 실제 정보를 구별할 수 없습니다.
 
 ## 검열 회피
 
 <span class="pg-blue-gray">:material-close-outline: 검열(Censorship)</span>
 
-Censorship online can be carried out (to varying degrees) by actors including totalitarian governments, network administrators, and service providers. These efforts to control communication and restrict access to information will always be incompatible with the human right to Freedom of Expression.[^5]
+'온라인 검열'은 전체주의 정부, 네트워크 관리자, 서비스 제공 업체 등 다양한 주체에 의해 (그 정도 또한 다양하게) 이루어질 수 있습니다. 의사소통을 통제하고 정보 접근을 제한하는 '검열'은 표현의 자유 인권과 절대 양립할 수 없습니다.[^5]
 
-Censorship on corporate platforms is increasingly common, as platforms like Twitter and Facebook give in to public demand, market pressures, and pressures from government agencies. Government pressures can be covert requests to businesses, such as the White House [requesting the takedown](https://www.nytimes.com/2012/09/17/technology/on-the-web-a-fine-line-on-free-speech-across-globe.html) of a provocative YouTube video, or overt, such as the Chinese government requiring companies to adhere to a strict regime of censorship.
+Twitter, Facebook 같은 플랫폼이 대중의 요구, 시장의 압력, 정부 기관의 압력에 굴복하면서, 기업 플랫폼에서의 검열은 점점 보편화되고 있습니다. 정부가 기업에 넣는 압력은 백악관이 YouTube에 자극적인 동영상의 [삭제를 요청한 것](https://www.nytimes.com/2012/09/17/technology/on-the-web-a-fine-line-on-free-speech-across-globe.html)처럼 비밀스러운 요청일 수도 있고, 중국 정부가 기업에 검열 제도 준수를 요구하는 것 처럼 노골적인 요청일 수도 있습니다.
 
-People concerned with the threat of censorship can use technologies like [Tor](../advanced/tor-overview.md) to circumvent it, and support censorship-resistant communication platforms like [Matrix](../real-time-communication.md#element), which doesn't have a centralized account authority that can close accounts arbitrarily.
+검열 위협이 우려될 경우, [Tor](../advanced/tor-overview.md) 등의 기술을 사용해 검열을 우회할 수 있으며, [Matrix](../real-time-communication.md#element) 처럼 중앙 집중식 계정 시스템이 없는(플랫폼이 독단적으로 누군가의 계정을 차단할 수 없는) 검열 방지 통신 플랫폼을 지원할 수 있습니다.
 
 !!! tip "도움말"
 
-    While evading censorship itself can be easy, hiding the fact that you are doing it can be very problematic.
+    '검열 회피' 자체는 어렵지 않습니다. 하지만 여러분이 검열을 회피하고 있다는 사실을 감추는 것은 매우 문제가 될 수 있습니다.
     
-    You should consider which aspects of the network your adversary can observe, and whether you have plausible deniability for your actions. For example, using [encrypted DNS](../advanced/dns-overview.md#what-is-encrypted-dns) can help you bypass rudimentary, DNS-based censorship systems, but it can't truly hide what you are visiting from your ISP. A VPN or Tor can help hide what you are visiting from network administrators, but can't hide that you're using those networks in the first place. Pluggable transports (such as Obfs4proxy, Meek, or Shadowsocks) can help you evade firewalls that block common VPN protocols or Tor, but your circumvention attempts can still be detected by methods like probing or [deep packet inspection](https://en.wikipedia.org/wiki/Deep_packet_inspection).
+    여러분의 적대자가 가진 네트워크 감시 능력은 어느정도인지, 여러분 스스로 자신의 검열 회피 행동에 대해 타당한 구실을 가지고 있는지를 고려해야 합니다. 예를 들어, [암호화 DNS](../advanced/dns-overview.md#what-is-encrypted-dns)를 사용하면 기초적인 DNS 기반 검열 시스템을 우회할 수 있지만, 방문 중인 사이트가 ISP에 노출되는 것을 숨길 수는 없습니다. VPN/Tor를 사용하면 네트워크 관리자로부터 여러분이 어떤 사이트를 방문하는지 숨길 수 있지만, VPN/Tor 네트워크를 사용 중이라는 것 자체는 숨길 수 없습니다. (Obfs4proxy, Meek, Shadowsocks 등) Pluggable transports로는 일반적인 VPN/Tor 프로토콜 차단 방화벽을 우회할 수는 있지만, 프로빙(Probing)이나 [심층 패킷 검사(Deep Packet Inspection)](https://en.wikipedia.org/wiki/Deep_packet_inspection) 같은 방법을 사용하면 우회 시도를 탐지할 수 있습니다.
 
-You must always consider the risks of trying to bypass censorship, the potential consequences, and how sophisticated your adversary may be. You should be cautious with your software selection, and have a backup plan in case you are caught.
+검열을 우회할 경우 발생할 수 있는 위험 및 결과, 적대자의 능력을 항상 고려해야 합니다. 사용할 소프트웨어를 신중하게 선택하고, 적발될 경우를 대비한 백업 계획을 세워야 합니다.
 
 [^1]: Wikipedia: [*Mass Surveillance*](https://en.wikipedia.org/wiki/Mass_surveillance) and [*Surveillance*](https://en.wikipedia.org/wiki/Surveillance).
 [^2]: 미국 프라이버시 및 시민 자유 감독 위원회: [*215조항에 따라 수행된 전화 통화 기록 프로그램에 대한 보고서*](https://documents.pclob.gov/prod/Documents/OversightReport/ec542143-1079-424a-84b3-acc354698560/215-Report_on_the_Telephone_Records_Program.pdf)
 [^3]: Wikipedia: [*Surveillance capitalism*](https://en.wikipedia.org/wiki/Surveillance_capitalism)
-[^4]: "[Enumerating badness](https://www.ranum.com/security/computer_security/editorials/dumb/)" (or, "listing all the bad things that we know about"), as many adblockers and antivirus programs do, fails to adequately protect you from new and unknown threats because they have not yet been added to the filter list. You should also employ other mitigation techniques.
+[^4]: 대부분의 광고 차단기 및 백신 프로그램의 [Enumeratiog Badness](https://www.ranum.com/security/computer_security/editorials/dumb/)(알려진 모든 악성 목록) 방식은 '새로 나타나거나 아직 알려지지 않아 필터 목록에 추가되지 않은 위협'으로부터 사용자를 적절하게 보호할 수 없습니다. 다른 완화 기술도 추가로 사용해야 합니다.
 [^5]: UN: [*세계 인권 선언*](https://www.un.org/en/about-us/universal-declaration-of-human-rights)

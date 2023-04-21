@@ -18,7 +18,7 @@ Considera l'utilizzo di un [VPN](vpn.md) o di [Tor](https://www.torproject.org/)
 
     ![Brave Search logo](assets/img/search-engines/brave-search.svg){ align=right }
     
-    **Brave Search** è sviluppato da Brave e fornisce principalmente risultati dal proprio indice indipendente, il quale è ottimizzato rispetto a Google Search, potendo quindi fornire risultati più contestualmente accurati, rispetto alle altre alternative.
+    **Brave Search** è sviluppato da Brave e fornisce principalmente risultati dal proprio indice indipendente, Infatti, è ottimizzato rispetto a Google Search, potendo quindi fornire risultati più contestualmente accurati, rispetto alle altre alternative.
     
     Brave Search comprende funzionalità uniche come 'Discussions', che mette in evidenza risultati incentrati su conversazioni, come i post dei forum.
     

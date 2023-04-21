@@ -36,9 +36,9 @@ I fornitori che consigliamo utilizzano la crittografia, accettano Monero, suppor
 
 !!! recommendation
 
-    ![IVPN logo](assets/img/vpn/ivpn.svg){ align=right }
+    ![Logo IVPN](assets/img/vpn/ivpn.svg){ align=right }
     
-    **IVPN** è un altro provider VPN premium, il quale opera dal 2009. IVPN ha sede a Gibilterra.
+    **IVPN** è un altro provider VPN premium, sono attivi dal 2009. IVPN ha sede a Gibilterra.
     
     [:octicons-home-16: Pagina principale](https://crypt.ee){ .md-button .md-button--primary }
     [:octicons-eye-16:](https://crypt.ee/privacy){ .card-link title="Informativa sulla privacy" }

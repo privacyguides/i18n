@@ -35,7 +35,7 @@ Se non avete mai usato un gestore di password o pensate di avere account che non
 
 Per eliminare i vostri vecchi account, dovrete prima assicurarvi di poter accedere. Ancora una volta, se l'account era già nel tuo gestore di password, questo passaggio è molto più semplice. In caso contrario, si può provare a indovinare la password. Altrimenti, ci sono metodi per riottenere l'accesso al tuo account, tipicamente disponibili tramite un link "password dimenticata" nella pagina d'accesso. È anche possibile che gli account abbandonati siano stati già stati eliminati: a volte i servizi eliminano tutti i vecchi account.
 
-Quando si tenta di recuperare l'account, se il sito restituisce un messaggio di errore in cui dice che l'e-mail non è associata a un account, o se non si riceve mai un link di recupero dopo svariati tentativi, allora non c'è nessun account con quell'indirizzo e-mail e si deve provare con un altro. Se non riesci a capire quale email hai utilizzato, o non hai più accesso a quella email, puoi provare a contattare l'assistenza clienti del servizio in questione. Purtroppo, non vi è alcuna garanzia di poter riottenere l'accesso all'account.
+Quando si tenta di recuperare l'account, se il sito restituisce un messaggio di errore in cui dice che l'e-mail non è associata a un account, o se non si riceve mai un link di recupero dopo svariati tentativi, allora non c'è nessun account con quell'indirizzo e-mail e si deve provare con un altro. Se non riesci a capire quale email hai utilizzato, o non ne hai più accesso, puoi provare a contattare l'assistenza clienti del servizio in questione. Purtroppo, non vi è alcuna garanzia di poter riottenere l'accesso all'account.
 
 ### GDPR (solo per i residenti nello SEE)
 

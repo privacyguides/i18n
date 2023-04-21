@@ -1,48 +1,48 @@
 ---
-title: "Notices and Disclaimers"
+title: "通知及免責聲明"
 ---
 
-## Legal Disclaimer
+## 法律免責聲明
 
-Privacy Guides is not a law firm. As such, the Privacy Guides website and contributors are not providing legal advice. The material and recommendations in our website and guides do not constitute legal advice nor does contributing to the website or communicating with Privacy Guides or other contributors about our website create an attorney-client relationship.
+Privacy Guides 不是律師事務所。 因此，Privacy Guides 網站和貢獻者不提供法律建議。 我們網站和指南中的材料和建議不構成法律建議，Privacy Guides 相關貢獻者之間對網站的溝通也不會構成律師-客戶關係。
 
-Running this website, like any human endeavor, involves uncertainty and trade-offs. We hope this website helps, but it may include mistakes and can’t address every situation. If you have any questions about your situation, we encourage you to do your own research, seek out other experts, and engage in discussions with the Privacy Guides community. If you have any legal questions, you should consult with your own legal counsel before moving forward.
+運行這個網站，就像任何人的努力一樣，涉及不確定性和權衡。 我們希望這個網站有幫助，但它可能包含錯誤，並不能解決所有情況。 如果您對自己的情況有任何疑問，我們鼓勵您進行自己的研究，尋找其他專家，並與隱私指南社區進行討論。 如果您有任何法律問題，應該繼續前進之前諮詢自己的法律顧問。
 
-Privacy Guides is an open source project contributed to under licenses that include terms that, for the protection of the website and its contributors, make clear that the Privacy Guides project and website is offered "as-is", without warranty, and disclaiming liability for damages resulting from using the website or any recommendations contained within. Privacy Guides does not warrant or make any representations concerning the accuracy, likely results, or reliability of the use of the materials on the website or otherwise relating to such materials on the website or on any third-party sites linked on this site.
+Privacy Guides 是一個開放原始碼專案，貢獻有授權保護，包括保護網站及其貢獻者，明確表示 Privacy Guides 專案和網站是“按原樣”提供的，不提供擔保，對因使用本網站或內部包含的任何建議而造成的損害不承擔責任。 關於網站上材料以及第三方網站上連接本網站的準確性、可能的結果或可靠性 ，Privacy Guides 不作擔保或也不代表這些產品服務。
 
-Privacy Guides additionally does not warrant that this website will be constantly available, or available at all.
+此外，Privacy Guides  不保證本網站將長期或永遠可用。
 
-## Licensing Overview
+## 授權一覽
 
 !!! danger ""
 
-    The following is a human-readable summary of (and not a substitute for) the [license](/license).
+    以下是人類可讀的[授權](/license)摘要(但無法替代授權內容)。
 
-Unless otherwise noted, all **content** on this website is made available under the terms of the [Creative Commons Attribution-NoDerivatives 4.0 International Public License](https://github.com/privacyguides/privacyguides.org/blob/main/LICENSE). The underlying **source code** used to generate this website and display that content is released under the [MIT License](https://github.com/privacyguides/privacyguides.org/tree/main/LICENSE-CODE).
+除非另有說明，否則本網站上的所有 **內容** 均根據 [Creative Commons Attribution-NoDerivatives 4.0 International Public License](https://github.com/privacyguides/privacyguides.org/blob/main/LICENSE)的條款提供。 基礎 **源代碼** 用於生成本網站並顯示該內容是根據 [MIT 許可](https://github.com/privacyguides/privacyguides.org/tree/main/LICENSE-CODE)發布。
 
-This does not include third-party code embedded in this repository, or code where a superseding license is otherwise noted. The following are notable examples, but this list may not be all-inclusive:
+這不包括嵌入在此儲存庫中的第三方代碼，或以其他方式注明取代許可證的代碼。 以下是引人注目的例子，但此列表可能不包括所有：
 
-* [MathJax](https://github.com/privacyguides/privacyguides.org/blob/main/theme/assets/javascripts/mathjax.js) is licensed under the [Apache License 2.0](https://github.com/privacyguides/privacyguides.org/blob/main/docs/assets/javascripts/LICENSE.mathjax.txt).
+* [MathJax](https://github.com/privacyguides/privacyguides.org/blob/main/theme/assets/javascripts/mathjax.js) 是根據 [Apache License 2.0](https://github.com/privacyguides/privacyguides.org/blob/main/docs/assets/javascripts/LICENSE.mathjax.txt)授權的。
 * The [Bagnard](https://github.com/privacyguides/brand/tree/main/WOFF/bagnard) heading font is licensed under the [SIL Open Font License 1.1](https://github.com/privacyguides/brand/blob/main/WOFF/bagnard/LICENSE.txt).
 * The [Public Sans](https://github.com/privacyguides/brand/tree/main/WOFF/public_sans) font used for most text on the site is licensed under the terms detailed [here](https://github.com/privacyguides/brand/blob/main/WOFF/public_sans/LICENSE.txt).
 * The [DM Mono](https://github.com/privacyguides/brand/tree/main/WOFF/dm_mono) font used for monospaced text on the site is licensed under the [SIL Open Font License 1.1](https://github.com/privacyguides/brand/blob/main/WOFF/dm_mono/LICENSE.txt).
 
-This means that you can use the human-readable content in this repository for your own project, per the terms outlined in the Creative Commons Attribution-NoDerivatives 4.0 International Public License text. You may do so in any reasonable manner, but not in any way that suggests Privacy Guides endorses you or your use. You **may not** use the Privacy Guides branding in your own project without express approval from this project. Privacy Guides's brand trademarks include the "Privacy Guides" wordmark and shield logo.
+這意味著您可以根據 Creative Commons Attribution-NoDerivatives 4.0 國際公共許可證文本中概述的條款，將此存儲庫中的人類可讀內容用於自己的項目。 您可以依合理的方式這樣做，但不能以任何方式暗示 Privacy Guides 認可您或您的使用。 You **may not** use the Privacy Guides branding in your own project without express approval from this project. Privacy Guides  品牌商標包括 "Privacy Guides" 文字商標和盾牌標誌。
 
-We believe that the logos and other images in `assets` obtained from third-party providers are either in the public domain or **fair use**. In a nutshell, legal [fair use doctrine](https://www.copyright.gov/fair-use/more-info.html) allows the use of copyrighted images in order to identify the subject matter for purposes of public comment. However, these logos and other images may still be subject to trademark laws in one or more jurisdictions. Before using this content, please ensure that it is used to identify the entity or organization that owns the trademark and that you have the right to use it under the laws which apply in the circumstances of your intended use. *When copying content from this website, you are solely responsible for ensuring that you do not infringe someone else's trademark or copyright.*
+我們認為，從第三方供應商`資產` 取得的標誌和圖像不是公有領域，就是**合理使用**。 簡而言之，法律 [合理使用原則](https://www.copyright.gov/fair-use/more-info.html) 允許使用受版權保護的圖像來識別主題以供公眾評論。 但是，這些標誌和圖像可能仍受一個或多個司法管轄區的商標法約束。 在使用此內容之前，請確保其用於識別擁有商標的實體或組織，並確保您有權根據適用所預期情況下的法律。 *從本網站複製內容時，您自行負責確保您不會侵犯他人的商標或版權。*
 
-When you contribute to our website you are doing so under the above licenses, and you are granting Privacy Guides a perpetual, worldwide, non-exclusive, transferable, royalty-free, irrevocable license with the right to sublicense such rights through multiple tiers of sublicensees, to reproduce, modify, display, perform and distribute your contribution as part of our project.
+當您對我們的網站作出貢獻時，您是根據上述許可，並且您授予 Privacy Guides 永久全球性、非排他、可轉讓、免版稅、不可撤銷的許可，Privacy Guides  有權通過多個層級的轉授權人再許可這些權利，以複製，修改，顯示，執行和分發您的貢獻作為項目的一部分。
 
-## Acceptable Use
+## 可接受用途
 
-You may not use this website in any way that causes or may cause damage to the website or impairment of the availability or accessibility of Privacy Guides, or in any way which is unlawful, illegal, fraudulent, harmful, or in connection with any unlawful, illegal, fraudulent, or harmful purpose or activity.
+使用本網站時，不得以任何方式導致或可能導致網站損害或損害Privacy Guides 可用性或可訪問性，或以任何非法、違法、欺詐，有害的方式使用本網站，或與任何非法、違法、欺詐或有害的目的或活動有關。
 
-You must not conduct any systematic or automated data collection activities on or in relation to this website without express written consent, including:
+未經明確書面同意，不得在本網站上或與本網站有關的任何系統或自動資料收集活動，包括：
 
-* Excessive Automated Scans
-* Denial of Service Attacks
+* 過度自動化掃描
+* 拒絕服務攻擊
 * Scraping
-* Data Mining
+* 數據挖掘
 * 'Framing' (IFrames)
 
 ---

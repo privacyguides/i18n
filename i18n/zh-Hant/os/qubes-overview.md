@@ -28,10 +28,10 @@ Qubes OS 利用 [DOM0](https://wiki.xenproject.org/wiki/Dom0) Xen VM （即「Ad
 
 可利用 `qvm-copy-to-vm` 或以下說明 [複製並貼上文本](https://www.qubes-os.org/doc/how-to-copy-and-paste-text/) ：
 
-1. Press **Ctrl+C** to tell the VM you're in that you want to copy something.
-2. Press **Ctrl+Shift+C** to tell the VM to make this buffer available to the global clipboard.
-3. Press **Ctrl+Shift+V** in the destination VM to make the global clipboard available.
-4. Press **Ctrl+V** in the destination VM to paste the contents in the buffer.
+1. 按 **Ctrl + C**  讓 VM 複製某些內容。
+2. 按 **Ctrl + Shift + C** 讓 VM 將此緩衝區供全局剪貼板使用。
+3. 在目標 VM 中按 **Ctrl + Shift + V** 以使全局剪貼簿可用。
+4. 在目標 VM 中按 **Ctrl + V** 將內容粘貼到緩衝區中。
 
 ### 檔案交換
 

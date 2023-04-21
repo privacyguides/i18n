@@ -29,7 +29,7 @@ schema:
 
 — [New York Times](https://www.nytimes.com/wirecutter/guides/online-security-social-media-privacy/)
 
-> Se state cercando una nuova VPN, potete usare il codice sconto di qualsiasi podcast. Se state cercando una **buona** VPN, avrete bisogno di aiuto da parte di professionisti. Lo stesso vale per i client email, i browser, i sistemi operativi e i gestori di password. Come si fa a sapere qual è l'opzione migliore e più rispettosa della privacy? Per questo c'è **Privacy Guides**, una piattaforma sulla quale un gruppo di volontari cerca giorno per giorno i migliori strumenti per la privacy da usare su Internet.
+> Se state cercando una nuova VPN, potete usare il codice sconto di qualsiasi podcast. Se state cercando una **buona** VPN, avrete bisogno di aiuto da parte di professionisti. Lo stesso vale per i client email, i browser, i sistemi operativi e i gestori di password. Come si fa a sapere qual è l'opzione migliore e più rispettosa della privacy? Per questo c'è **Privacy Guides**, una piattaforma su cui un gruppo di volontari cerca giorno per giorno i migliori strumenti per la privacy da usare su Internet.
 
 — [Tweakers.net](https://tweakers.net/reviews/10568/op-zoek-naar-privacyvriendelijke-tools-niek-de-wilde-van-privacy-guides.html) [Tradotto dall'olandese]
 

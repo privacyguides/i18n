@@ -4,21 +4,21 @@ icon: 'material/form-textbox-password'
 description: Ecco alcuni suggerimenti e trucchi su come creare le password più forti e mantenere i vostri account al sicuro.
 ---
 
-Le password sono una parte essenziale della nostra vita digitale quotidiana. We use them to protect our accounts, our devices and our secrets. Despite often being the only thing between us and an adversary who's after our private information, not a lot of thought is put into them, which often leads to people using passwords that can be easily guessed or brute-forced.
+Le password sono una parte essenziale della nostra vita digitale quotidiana. Le utilizziamo per proteggere i nostri account, dispositivi e segreti. Nonostante siano spesso l'unica cosa che ci separa da un nemico a caccia di informazioni private, non ci si pensa molto, il che spesso porta le persone ad utilizzare password che possono essere facilmente indovinate o forzate.
 
-## Best Practices
+## Pratiche migliori
 
 ### Utilizza password uniche per ogni servizio
 
-Imagine this; you sign up for an account with the same e-mail and password on multiple online services. If one of those service providers is malicious, or their service has a data breach that exposes your password in an unencrypted format, all a bad actor would have to do is try that e-mail and password combination across multiple popular services until they get a hit. It doesn't matter how strong that one password is, because they already have it.
+Immagina questo: registrate un account con la stessa email e la stessa password su più servizi online. Se uno di questi servizi è malevolo o il loro servizio subisce una violazione dei dati che espone la password in formato non criptato, tutto ciò che un malintenzionato dovrebbe fare è provare quella combinazione di e-mail e password su più servizi popolari finché non ottiene un risultato. Non importa quanto forte sia quella password, perchè ormai ce l'hanno già.
 
-This is called [credential stuffing](https://en.wikipedia.org/wiki/Credential_stuffing), and it is one of the most common ways that your accounts can be compromised by bad actors. To avoid this, make sure that you never re-use your passwords.
+Questo fenomeno è chiamato [credential stuffing](https://en.wikipedia.org/wiki/Credential_stuffing) ed è uno dei modi più comuni tramite cui i vostri account potrebbero venir compromessi da malintenzionati. Per evitare che ciò accada, assicurati di non riutilizzare mai le password.
 
 ### Usa password generate randomicamente
 
-==You should **never** rely on yourself to come up with a good password.== We recommend using [randomly generated passwords](#passwords) or [diceware passphrases](#diceware-passphrases) with sufficient entropy to protect your accounts and devices.
+== Non dovresti **mai** affidarti a te stesso per creare un'ottima password.== Consigliamo di utilizzare [password generate randomicamente](#passwords) o [passphrase di tipo diceware](#diceware-passphrases) con un'entropia sufficiente a proteggere i tuoi account e dispositivi.
 
-All of our [recommended password managers](../passwords.md) include a built-in password generator that you can use.
+Tutti i nostri [gestori di password consigliati](../passwords.md) includono un generatore di password integrato che puoi utilizzare.
 
 ### Rotating Passwords
 
@@ -34,7 +34,7 @@ When it comes to passwords that you don't have to remember (such as passwords st
 
 ### Password
 
-A lot of services impose certain criteria when it comes to passwords, including a minimum or maximum length, as well as which special characters, if any, can be used. You should use your password manager's built-in password generator to create passwords that are as long and complex as the service will allow by including capitalized and lowercase letters, numbers and special characters.
+Molti servizi impongono determinati criteri per quanto riguarda le password, tra cui una lunghezza minima o massima e l'eventuale utilizzo di caratteri speciali. You should use your password manager's built-in password generator to create passwords that are as long and complex as the service will allow by including capitalized and lowercase letters, numbers and special characters.
 
 If you need a password you can memorize, we recommend a [diceware passphrase](#diceware-passphrases).
 
@@ -92,11 +92,11 @@ To sum it up, diceware passphrases are your best option when you need something 
 
 ### Gestori di password
 
-The best way to store your passwords is by using a password manager. They allow you to store your passwords in a file or in the cloud and protect them with a single master password. That way, you will only have to remember one strong password, which lets you access the rest of them.
+Il miglior modo per memorizzare le proprie password è quello di utilizzare un gestore di password. Ti consentono di memorizzare le password in un singolo file o nel cloud e di proteggerle con un'unica password principale. In questo modo, dovrete ricordare solo un'unica password forte, che vi permetterà di accedere alle altre.
 
 There are many good options to choose from, both cloud-based and local. Choose one of our recommended password managers and use it to establish strong passwords across all of your accounts. We recommend securing your password manager with a [diceware passphrase](#diceware-passphrases) comprised of at least seven words.
 
-[List of recommended password managers](../passwords.md ""){.md-button}
+[Elenco dei gestori di password consigliati](../passwords.md ""){.md-button}
 
 !!! warning "Don't place your passwords and TOTP tokens inside the same password manager"
 
@@ -106,6 +106,6 @@ There are many good options to choose from, both cloud-based and local. Choose o
     
     Furthermore, we do not recommend storing single-use recovery codes in your password manager. Those should be stored separately such as in an encrypted container on an offline storage device.
 
-### Backups
+### Backup
 
 You should store an [encrypted](../encryption.md) backup of your passwords on multiple storage devices or a cloud storage provider. This can help you access your passwords if something happens to your primary device or the service you are using.
