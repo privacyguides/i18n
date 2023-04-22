@@ -45,9 +45,10 @@ Privacy Guides 권장 제공 업체는 암호화 사용, Monero 결제 지원, W
     [:octicons-info-16:](https://www.ivpn.net/knowledgebase/general/){ .card-link title=문서}
     [:octicons-code-16:](https://github.com/ivpn){ .card-link title="소스 코드" }
     
-    ??? downloads "다운로드"
+    ??? downloads
     
-        - [:simple-android: Android](https://www.ivpn.net/apps-android/)
+        - [:simple-googleplay: Google Play](https://play.google.com/store/apps/details?id=net.ivpn.client)
+        - [:octicons-moon-16: Accrescent](https://accrescent.app/app/net.ivpn.client)
         - [:simple-appstore: App Store](https://apps.apple.com/app/ivpn-serious-privacy-protection/id1193122683)
         - [:simple-windows11: Windows](https://www.ivpn.net/apps-windows/)
         - [:simple-apple: macOS](https://www.ivpn.net/apps-macos/)

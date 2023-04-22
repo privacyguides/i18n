@@ -41,7 +41,14 @@ Nossos provedores recomendados estão fora dos EUA, usam criptografia, aceitam M
     
     **ProtonVPN*** é um forte concorrente no espaço VPN, e estão em operação desde 2016. ProtonVPN está baseado na Suíça e oferece um nível de preços livre limitado, bem como opções premium.
     
-    Eles oferecem mais 14 iscount para a compra de uma assinatura de 2 anos. Também achamos que é melhor para a segurança das chaves privadas do provedor de VPN se ele usar [servidores dedicados](https://en.wikipedia.org/wiki/Dedicated_hosting_service), ao invés de soluções compartilhadas mais baratas (com outros clientes), como [servidores virtuais privados](https://en.wikipedia.org/wiki/Virtual_private_server).
+    Eles oferecem mais 14 iscount para a compra de uma assinatura de 2 anos. downloads
+    
+        - [:simple-googleplay: Google Play](https://play.google.com/store/apps/details?id=net.ivpn.client)
+        - [:octicons-moon-16: Accrescent](https://accrescent.app/app/net.ivpn.client)
+        - [:simple-appstore: App Store](https://apps.apple.com/app/ivpn-serious-privacy-protection/id1193122683)
+        - [:simple-windows11: Windows](https://www.ivpn.net/apps-windows/)
+        - [:simple-apple: macOS](https://www.ivpn.net/apps-macos/)
+        - [:simple-linux: Linux](https://www.ivpn.net/apps-linux/)
 
 #### :material-check:{ .pg-green } 35 Countries
 

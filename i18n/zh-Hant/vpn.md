@@ -45,13 +45,14 @@ cover: vpn.png
     [:octicons-info-16:](https://www.ivpn.net/knowledgebase/general/){ .card-link title=Documentation}
     [:octicons-code-16:](https://github.com/ivpn){ .card-link title="Source Code" }
     
-    ??? 下載
+    ??? downloads
     
-        - [:simple-android: Android] (https://www.ivpn.net/apps-android/)
-        - [:simple-appstore: App Store] (https://apps.apple.com/app/ivpn-serious-privacy-protection/id1193122683)
-        - [:simple-windows11: Windows] (https://www.ivpn.net/apps-windows/)
-        - [:simple-apple: macOS] (https://www.ivpn.net/apps-macos/)
-        - [:simple-linux: Linux] (https://www.ivpn.net/apps-linux/)
+        - [:simple-googleplay: Google Play](https://play.google.com/store/apps/details?id=net.ivpn.client)
+        - [:octicons-moon-16: Accrescent](https://accrescent.app/app/net.ivpn.client)
+        - [:simple-appstore: App Store](https://apps.apple.com/app/ivpn-serious-privacy-protection/id1193122683)
+        - [:simple-windows11: Windows](https://www.ivpn.net/apps-windows/)
+        - [:simple-apple: macOS](https://www.ivpn.net/apps-macos/)
+        - [:simple-linux: Linux](https://www.ivpn.net/apps-linux/)
 
 #### :material-check:{ .pg-green } 35 個國家
 

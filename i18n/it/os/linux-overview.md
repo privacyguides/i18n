@@ -1,38 +1,38 @@
 ---
 title: Panoramica di Linux
 icon: simple/linux
-description: Linux is an open-source, privacy-focused desktop operating system alternative, but not all distribitions are created equal.
+description: Linux è un sistema operativo desktop open-source, incentrato sulla privacy, ma non tutte le distribuzioni sono uguali.
 ---
 
-It is often believed that [open-source](https://en.wikipedia.org/wiki/Open-source_software) software is inherently secure because the source code is available. There is an expectation that community verification occurs regularly; however, this isn’t always [the case](https://seirdy.one/posts/2022/02/02/floss-security/). It does depend on a number of factors, such as project activity, developer experience, level of rigor applied to [code reviews](https://en.wikipedia.org/wiki/Code_review), and how often attention is given to specific parts of the [codebase](https://en.wikipedia.org/wiki/Codebase) that may go untouched for years.
+Si crede spesso che il software [open-source](https://it.wikipedia.org/wiki/Open_source) sia intrinsecamente sicuro perché il codice sorgente è disponibile. Ci si aspetta che la verifica da parte della comunità avvenga regolarmente; tuttavia, questo non è sempre [il caso](https://seirdy.one/posts/2022/02/02/floss-security/). Dipende da un certo numero di fattori, come l'attività del progetto, l'esperienza degli sviluppatori, il livello di rigore applicato alle [revisioni del codice](https://en.wikipedia.org/wiki/Code_review), e quanto spesso si presta attenzione a parti specifiche del [codebase](https://it.wikipedia.org/wiki/Codebase) che possono rimanere inalterate per anni.
 
-At the moment, desktop Linux does have some areas that could be better improved when compared to their proprietary counterparts, e.g.:
+Al momento, GNU/Linux desktop ha alcune aree che potrebbero essere migliorate rispetto alle loro controparti proprietarie, ad esempio:
 
-- A verified boot chain, like Apple’s [Secure Boot](https://support.apple.com/guide/security/startup-security-utility-secc7b34e5b5/web) (with [Secure Enclave](https://support.apple.com/guide/security/secure-enclave-sec59b0b31ff/1/web/1)), Android’s [Verified Boot](https://source.android.com/security/verifiedboot), ChromeOS' [Verified boot](https://www.chromium.org/chromium-os/chromiumos-design-docs/security-overview/#verified-boot), or Microsoft Windows’s [boot process](https://docs.microsoft.com/en-us/windows/security/information-protection/secure-the-windows-10-boot-process) with [TPM](https://docs.microsoft.com/en-us/windows/security/information-protection/tpm/how-windows-uses-the-tpm). These features and hardware technologies can all help prevent persistent tampering by malware or [evil maid attacks](https://en.wikipedia.org/wiki/Evil_Maid_attack)
-- A strong sandboxing solution such as that found in [macOS](https://developer.apple.com/library/archive/documentation/Security/Conceptual/AppSandboxDesignGuide/AboutAppSandbox/AboutAppSandbox.html), [ChromeOS](https://chromium.googlesource.com/chromiumos/docs/+/HEAD/sandboxing.md), and [Android](https://source.android.com/security/app-sandbox). Commonly used Linux sandboxing solutions such as [Flatpak](https://docs.flatpak.org/en/latest/sandbox-permissions.html) and [Firejail](https://firejail.wordpress.com/) still have a long way to go
-- Strong [exploit mitigations](https://madaidans-insecurities.github.io/linux.html#exploit-mitigations)
+- Una catena di avvio verificata, a differenza del [Secure Boot](https://support.apple.com/it-it/guide/security/secc7b34e5b5/web) di Apple (con [Secure Enclave](https://support.apple.com/it-it/guide/security/sec59b0b31ff/1/web/1)), Android [Verified Boot](https://source.android.com/security/verifiedboot) o il [processo di avvio](https://docs.microsoft.com/it-it/windows/security/information-protection/secure-the-windows-10-boot-process) di Microsoft Windows con [TPM](https://docs.microsoft.com/it-it/windows/security/information-protection/tpm/how-windows-uses-the-tpm). Queste caratteristiche e tecnologie hardware possono tutte aiutare a prevenire la manomissione persistente da parte di malware o [attacchi di malintenzionati](https://en.wikipedia.org/wiki/Evil_Maid_attack)
+- Un forte utilizzo del sandboxing come quello trovato in [MacOS](https://developer.apple.com/library/archive/documentation/Security/Conceptual/AppSandboxDesignGuide/AboutAppSandbox/AboutAppSandbox.html), [ChromeOS](https://chromium.googlesource.com/chromiumos/docs/+/HEAD/sandboxing.md), e [Android](https://source.android.com/security/app-sandbox). Le soluzioni di sandboxing su Linux comunemente usate come [Flatpak](https://docs.flatpak.org/en/latest/sandbox-permissions.html) e [Firejail](https://firejail.wordpress.com/) hanno ancora molta strada da fare
+- Forte [mitigazione degli exploit](https://madaidans-insecurities.github.io/linux.html#exploit-mitigations)
 
-Despite these drawbacks, desktop Linux distributions are great if you want to:
+Nonostante questi inconvenienti, le distribuzioni desktop GNU/Linux sono ottime se si vuole:
 
-- Avoid telemetry that often comes with proprietary operating systems
-- Maintain [software freedom](https://www.gnu.org/philosophy/free-sw.en.html#four-freedoms)
-- Have privacy focused systems such as [Whonix](https://www.whonix.org) or [Tails](https://tails.boum.org/)
+- Evitare la telemetria che spesso viene fornita con sistemi operativi proprietari
+- Mantenere [la libertà del software](https://www.gnu.org/philosophy/free-sw.it.html#four-freedoms)
+- Avere sistemi operativi orientati alla privacy come [Whonix](https://www.whonix.org) o [Tails](https://tails.boum.org/)
 
-Our website generally uses the term “Linux” to describe desktop Linux distributions. Other operating systems which also use the Linux kernel such as ChromeOS, Android, and Qubes OS are not discussed here.
+Questa pagina usa il termine "Linux" per descrivere le distribuzioni desktop GNU/Linux. Altri sistemi operativi che usano a loro volta il kernel Linux come ChromeOS, Android e Qubes OS non sono discussi qui.
 
-[Our Linux Recommendations :material-arrow-right-drop-circle:](../desktop.md ""){.md-button}
+[Raccomandazioni su Linux :material-arrow-right-drop-circle:](../desktop.md ""){.md-button}
 
-## Choosing your distribution
+## Scelta della distribuzione
 
-Not all Linux distributions are created equal. While our Linux recommendation page is not meant to be an authoritative source on which distribution you should use, there are a few things you should keep in mind when choosing which distribution to use.
+Non tutte le distribuzioni Linux sono uguali. Anche se la nostra pagina di raccomandazioni su Linux non vuole essere una fonte autorevole sulla distribuzione da utilizzare, ci sono alcune cose da tenere a mente quando si sceglie la distribuzione da utilizzare.
 
-### Release cycle
+### Ciclo di rilascio
 
-We highly recommend that you choose distributions which stay close to the stable upstream software releases, often referred to as rolling release distributions. This is because frozen release cycle distributions often don’t update package versions and fall behind on security updates.
+Si consiglia vivamente di scegliere distribuzioni che si mantengono vicine alle release stabili del software upstream, spesso indicate come distribuzioni rolling release. Questo perché le distribuzioni con ciclo di rilascio congelato spesso non aggiornano le versioni dei pacchetti e rimangono indietro sugli aggiornamenti di sicurezza.
 
-For frozen distributions such as [Debian](https://www.debian.org/security/faq#handling), package maintainers are expected to backport patches to fix vulnerabilities rather than bump the software to the “next version” released by the upstream developer. Some security fixes [do not](https://arxiv.org/abs/2105.14565) receive a [CVE](https://en.wikipedia.org/wiki/Common_Vulnerabilities_and_Exposures) (particularly less popular software) at all and therefore do not make it into the distribution with this patching model. As a result minor security fixes are sometimes held back until the next major release.
+Per le distribuzioni congelate, come [Debian](https://www.debian.org/security/faq#handling), ci si aspetta che i manutentori dei pacchetti facciano il backport delle patch per correggere le vulnerabilità, piuttosto che portare il software alla "versione successiva" rilasciata dallo sviluppatore upstream. Alcune correzioni di sicurezza [non](https://arxiv.org/abs/2105.14565) ricevono affatto un [CVE](https://en.wikipedia.org/wiki/Common_Vulnerabilities_and_Exposures) (in particolare i software meno diffusi) e quindi non vengono inserite nella distribuzione con questo modello di patch. Di conseguenza, le correzioni di sicurezza minori vengono talvolta rimandate alla successiva versione principale.
 
-We don’t believe holding packages back and applying interim patches is a good idea, as it diverges from the way the developer might have intended the software to work. [Richard Brown](https://rootco.de/aboutme/) has a presentation about this:
+Non crediamo che trattenere i pacchetti e applicare patch provvisorie sia una buona idea, in quanto si discosta dal modo in cui lo sviluppatore avrebbe voluto far funzionare il software. [Richard Brown](https://rootco.de/aboutme/) has a presentation about this:
 
 <div class="yt-embed">
   <iframe width="560" height="315" src="https://invidious.privacyguides.net/embed/i8c0mg_mS7U?local=true" title="Regular Releases are Wrong, Roll for your life" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>

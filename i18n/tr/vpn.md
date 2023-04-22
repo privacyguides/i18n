@@ -40,7 +40,14 @@ If you're looking for additional **privacy** from your ISP, on a public Wi-Fi ne
     
     **IVPN** is another premium VPN provider, and they have been in operation since 2009. Size en yakın sunucuya sahip bir VPN sağlayıcısı seçmek, gönderdiğiniz ağ trafiğinin gecikme süresini azaltacaktır.
     
-    Bunun nedeni hedefe giden rotanın daha kısa olmasıdır (daha az atlama). Ayrıca VPN sağlayıcısının özel anahtarlarının güvenliği için [sanal özel sunucular](https://en.wikipedia.org/wiki/Virtual_private_server) gibi daha ucuz paylaşımlı çözümler (diğer müşterilerle) yerine [özel sunucular](https://en.wikipedia.org/wiki/Dedicated_hosting_service) kullanmasının daha iyi olduğunu düşünüyoruz.
+    Bunun nedeni hedefe giden rotanın daha kısa olmasıdır (daha az atlama). downloads
+    
+        - [:simple-googleplay: Google Play](https://play.google.com/store/apps/details?id=net.ivpn.client)
+        - [:octicons-moon-16: Accrescent](https://accrescent.app/app/net.ivpn.client)
+        - [:simple-appstore: App Store](https://apps.apple.com/app/ivpn-serious-privacy-protection/id1193122683)
+        - [:simple-windows11: Windows](https://www.ivpn.net/apps-windows/)
+        - [:simple-apple: macOS](https://www.ivpn.net/apps-macos/)
+        - [:simple-linux: Linux](https://www.ivpn.net/apps-linux/)
 
 #### :material-check:{ .pg-green } 35 Countries
 

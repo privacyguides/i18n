@@ -1,6 +1,6 @@
 ---
-meta_title: "Modello di minaccia: Il primo passo nel viaggio verso la privacy - Privacy Guides"
-title: "Modelli di minaccia"
+meta_title: "Modellazione delle minacce: Il primo passo nel viaggio verso la privacy - Privacy Guides"
+title: "Modellazione delle minacce"
 icon: 'material/target-account'
 description: Bilanciare sicurezza, privacy e usabilità è uno dei primi e più difficili obiettivi che dovrete affrontare nel vostro viaggio verso la privacy.
 ---

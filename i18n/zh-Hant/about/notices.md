@@ -1,5 +1,5 @@
 ---
-title: "通知及免責聲明"
+title: "通知和免责声明"
 ---
 
 ## 法律免責聲明
@@ -23,11 +23,11 @@ Privacy Guides 是一個開放原始碼專案，貢獻有授權保護，包括�
 這不包括嵌入在此儲存庫中的第三方代碼，或以其他方式注明取代許可證的代碼。 以下是引人注目的例子，但此列表可能不包括所有：
 
 * [MathJax](https://github.com/privacyguides/privacyguides.org/blob/main/theme/assets/javascripts/mathjax.js) 是根據 [Apache License 2.0](https://github.com/privacyguides/privacyguides.org/blob/main/docs/assets/javascripts/LICENSE.mathjax.txt)授權的。
-* The [Bagnard](https://github.com/privacyguides/brand/tree/main/WOFF/bagnard) heading font is licensed under the [SIL Open Font License 1.1](https://github.com/privacyguides/brand/blob/main/WOFF/bagnard/LICENSE.txt).
-* The [Public Sans](https://github.com/privacyguides/brand/tree/main/WOFF/public_sans) font used for most text on the site is licensed under the terms detailed [here](https://github.com/privacyguides/brand/blob/main/WOFF/public_sans/LICENSE.txt).
-* The [DM Mono](https://github.com/privacyguides/brand/tree/main/WOFF/dm_mono) font used for monospaced text on the site is licensed under the [SIL Open Font License 1.1](https://github.com/privacyguides/brand/blob/main/WOFF/dm_mono/LICENSE.txt).
+* 網站標題字使用 [Bagnard](https://github.com/privacyguides/brand/tree/main/WOFF/bagnard) 字體，請使用許可依照 [SIL Open Font License 1.1](https://github.com/privacyguides/brand/blob/main/WOFF/bagnard/LICENSE.txt)。
+* 本站文字大量使用[Public Sans](https://github.com/privacyguides/brand/tree/main/WOFF/public_sans)字體，其版權條款請見[此處](https://github.com/privacyguides/brand/blob/main/WOFF/public_sans/LICENSE.txt)。
+* 網站上用於等間距文字的 [DM Mono](https://github.com/privacyguides/brand/tree/main/WOFF/dm_mono) 字體是根據 [SIL Open Font License 1.1](https://github.com/privacyguides/brand/blob/main/WOFF/dm_mono/LICENSE.txt)授權的。
 
-這意味著您可以根據 Creative Commons Attribution-NoDerivatives 4.0 國際公共許可證文本中概述的條款，將此存儲庫中的人類可讀內容用於自己的項目。 您可以依合理的方式這樣做，但不能以任何方式暗示 Privacy Guides 認可您或您的使用。 You **may not** use the Privacy Guides branding in your own project without express approval from this project. Privacy Guides  品牌商標包括 "Privacy Guides" 文字商標和盾牌標誌。
+這意味著您可以根據 Creative Commons Attribution-NoDerivatives 4.0 國際公共許可證文本中概述的條款，將此存儲庫中的人類可讀內容用於自己的項目。 您可以依合理的方式這樣做，但不能以任何方式暗示 Privacy Guides 認可您或您的使用。 未經本專案明確同意，**不得**在任何專案中使用 Privacy Guides 品牌。 Privacy Guides  品牌商標包括 "Privacy Guides" 文字商標和盾牌標誌。
 
 我們認為，從第三方供應商`資產` 取得的標誌和圖像不是公有領域，就是**合理使用**。 簡而言之，法律 [合理使用原則](https://www.copyright.gov/fair-use/more-info.html) 允許使用受版權保護的圖像來識別主題以供公眾評論。 但是，這些標誌和圖像可能仍受一個或多個司法管轄區的商標法約束。 在使用此內容之前，請確保其用於識別擁有商標的實體或組織，並確保您有權根據適用所預期情況下的法律。 *從本網站複製內容時，您自行負責確保您不會侵犯他人的商標或版權。*
 
@@ -41,10 +41,10 @@ Privacy Guides 是一個開放原始碼專案，貢獻有授權保護，包括�
 
 * 過度自動化掃描
 * 拒絕服務攻擊
-* Scraping
+* 銷毀
 * 數據挖掘
-* 'Framing' (IFrames)
+* '整頁篏入' (IFrames)
 
 ---
 
-*Portions of this notice itself were adopted from [opensource.guide](https://github.com/github/opensource.guide/blob/master/notices.md) on GitHub. That resource and this page itself are released under [CC-BY-4.0](https://creativecommons.org/licenses/by-sa/4.0/).*
+*此通知本身的部分內容來自GitHub上的 [opensource.guide](https://github.com/github/opensource.guide/blob/master/notices.md) 。 該資源和此頁面本身依 [CC-BY-4.0](https://creativecommons.org/licenses/by-sa/4.0/)授權發布。*

@@ -40,7 +40,14 @@ If you're looking for additional **privacy** from your ISP, on a public Wi-Fi ne
     
     **IVPN**是另一个高级VPN供应商，他们自2009年以来一直在运营。 挑一个拥有离你最近的服务器的VPN供应商将减少你的网络流量的发送延迟。
     
-    这是因为到达目的地的路由较短(跳数较少)。 我们还认为，如果VPN供应商使用[专用服务器](https://en.wikipedia.org/wiki/Dedicated_hosting_service)，而不是使用[虚拟专用服务器](https://en.wikipedia.org/wiki/Virtual_private_server)等更便宜的(与其他客户)共享的解决方案，能提高VPN供应商私人密钥的安全性。
+    这是因为到达目的地的路由较短(跳数较少)。 downloads
+    
+        - [:simple-googleplay: Google Play](https://play.google.com/store/apps/details?id=net.ivpn.client)
+        - [:octicons-moon-16: Accrescent](https://accrescent.app/app/net.ivpn.client)
+        - [:simple-appstore: App Store](https://apps.apple.com/app/ivpn-serious-privacy-protection/id1193122683)
+        - [:simple-windows11: Windows](https://www.ivpn.net/apps-windows/)
+        - [:simple-apple: macOS](https://www.ivpn.net/apps-macos/)
+        - [:simple-linux: Linux](https://www.ivpn.net/apps-linux/)
 
 #### :material-check:{ .pg-green } 35 Countries
 

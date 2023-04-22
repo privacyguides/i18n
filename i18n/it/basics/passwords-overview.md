@@ -20,73 +20,73 @@ Questo fenomeno è chiamato [credential stuffing](https://en.wikipedia.org/wiki/
 
 Tutti i nostri [gestori di password consigliati](../passwords.md) includono un generatore di password integrato che puoi utilizzare.
 
-### Rotating Passwords
+### Rotazione delle password
 
-You should avoid changing passwords that you have to remember (such as your password manager's master password) too often unless you have reason to believe it has been compromised, as changing it too often exposes you to the risk of forgetting it.
+Dovresti evitare di cambiare troppo spesso le password che necessitano di essere ricordate (come la master password del vostro gestore di password), a meno che non abbiate motivo di credere che sia stata compromessa, perché cambiarla troppo spesso vi espone al rischio di dimenticarla.
 
-When it comes to passwords that you don't have to remember (such as passwords stored inside your password manager), if your [threat model](threat-modeling.md) calls for it, we recommend going through important accounts (especially accounts that don't use multi-factor authentication) and changing their password every couple of months, in case they have been compromised in a data breach that hasn't become public yet. Most password managers allow you to set an expiry date for your password to make this easier to manage.
+Per quanto riguarda le password che non devi ricordare (come quelle memorizzate all'interno del vostro gestore di password), se la vostra [ modellazione delle minacce](threat-modeling.md) lo richiede, vi consigliamo di controllare gli account importanti (soprattutto quelli che non utilizzano l'autenticazione a più fattori) e di cambiare la loro password almeno ogni due mesi, nel caso in cui siano stati compromessi in una violazione dei dati non ancora resa pubblica. La maggior parte dei gestori di password ti consente d'impostare una data di scadenza per le tue password cosi da gestirle più facilmente.
 
-!!! tip "Checking for data breaches"
+!!! consiglio "Controlla le violazioni dei dati"
 
-    If your password manager lets you check for compromised passwords, make sure to do so and promptly change any password that may have been exposed in a data breach. Alternatively, you could follow [Have I Been Pwned's Latest Breaches feed](https://feeds.feedburner.com/HaveIBeenPwnedLatestBreaches) with the help of a [news aggregator](../news-aggregators.md).
+    Se il tuo gestore di password permette di verificare la presenza di password compromesse, assicurati di controllare le vostre password e di cambiare immediatamente qualsiasi password che potrebbe essere stata esposta in una violazione dei dati. In alternativa, puoi seguire il feed di [Have I Been Pwned's Latest Breaches](https://feeds.feedburner.com/HaveIBeenPwnedLatestBreaches) con l'aiuto di un [aggregatore di notizie](../news-aggregators.md).
 
 ## Creare password forti
 
 ### Password
 
-Molti servizi impongono determinati criteri per quanto riguarda le password, tra cui una lunghezza minima o massima e l'eventuale utilizzo di caratteri speciali. You should use your password manager's built-in password generator to create passwords that are as long and complex as the service will allow by including capitalized and lowercase letters, numbers and special characters.
+Molti servizi impongono determinati criteri per quanto riguarda le password, tra cui una lunghezza minima o massima e l'eventuale utilizzo di caratteri speciali. Dovreste utilizzare il generatore di password integrato nel vostro gestore di password per creare password complesse e lunghe quanto la dimensione massima che il sito permette, includendo lettere maiuscole e minuscole, numeri e caratteri speciali.
 
-If you need a password you can memorize, we recommend a [diceware passphrase](#diceware-passphrases).
+Se hai bisogno di una password da memorizzare, ti consigliamo una [passfrase diceware](#diceware-passphrases).
 
-### Diceware Passphrases
+### Passfrasi Diceware
 
-Diceware is a method for creating passphrases which are easy to remember, but hard to guess.
+Il metodo Diceware serve per creare passfrasi facili da ricordare, ma difficili da indovinare.
 
-Diceware passphrases are a great option when you need to memorize or manually input your credentials, such as for your password manager's master password or your device's encryption password.
+Le passfrasi diceware sono un'ottima opzione quando è necessario memorizzare o inserire manualmente le proprie credenziali, come ad esempio la password principale del proprio gestore di password o la password di crittografia del proprio dispositivo.
 
-An example of a diceware passphrase is `viewable fastness reluctant squishy seventeen shown pencil`.
+Un esempio di passfrase diceware è `viewable fastness reluctant squishy seventeen shown pencil`.
 
-To generate a diceware passphrase using real dice, follow these steps:
+Per generare una passfrase diceware utilizzando un vero dado, segui questi passaggi:
 
-!!! note
+!!! nota
 
-    These instructions assume that you are using [EFF's large wordlist](https://www.eff.org/files/2016/07/18/eff_large_wordlist.txt) to generate the passphrase, which requires five dice rolls per word. Other wordlists may require more or less rolls per word, and may require a different amount of words to achieve the same entropy.
+    Queste istruzioni presuppongono l'utilizzo del [grande elenco di parole di EFF](https://www.eff.org/files/2016/07/18/eff_large_wordlist.txt) per generare la passfrase, che richiede cinque lanci di dadi per parola. Altri elenchi di parole potrebbero richiedere più o meno tiri per parola, e possono richiedere una quantità diversa di parole per ottenere la stessa entropia.
 
-1. Roll a six-sided die five times, noting down the number after each roll.
+1. Lancia un dado a sei facce 5 volte, annota il numero ottenuto dopo ogni tiro.
 
-2. As an example, let's say you rolled `2-5-2-6-6`. Look through the [EFF's large wordlist](https://www.eff.org/files/2016/07/18/eff_large_wordlist.txt) for the word that corresponds to `25266`.
+2. Per esempio, supponiamo che tu abbia ottenuto `2-5-2-6-6`. Guarda nel [grande elenco di parole di EFF](https://www.eff.org/files/2016/07/18/eff_large_wordlist.txt) la parola che corrisponde a `25266`.
 
-3. You will find the word `encrypt`. Write that word down.
+3. Troverai la parola `encrypt`. Annota questa parola.
 
-4. Repeat this process until your passphrase has as many words as you need, which you should separate with a space.
+4. Ripeti questa procedura finché la vostra passfrase non avrà il numero di parole necessario, che dovrete separare con uno spazio.
 
-!!! warning "Important"
+!!! avviso "Importante"
 
-    You should **not** re-roll words until you get a combination of words that appeal to you. The process should be completely random.
+    **Non** dovresti rigenerare le parole affinché non ottieni una combinazione di parole che ti attragga. Il processo dovrebbe essere effettuato randomicamente.
 
-If you don't have access to or would prefer to not use real dice, you can use your password manager's built-in password generator, as most of them have the option to generate diceware passphrases in addition to regular passwords.
+Se non hai un dado, o semplicemente non lo vuoi usare, puoi utilizzare il generatore di password del tuo gestore di password, molti di questi hanno l'opzione di poter generare passfrasi diceware oltre alle classiche password.
 
-We recommend using [EFF's large wordlist](https://www.eff.org/files/2016/07/18/eff_large_wordlist.txt) to generate your diceware passphrases, as it offers the exact same security as the original list, while containing words that are easier to memorize. There are also [other wordlists in different languages](https://theworld.com/~reinhold/diceware.html#Diceware%20in%20Other%20Languages|outline), if you do not want your passphrase to be in English.
+Consigliamo di utilizzare il [grande elenco di parole di EFF](https://www.eff.org/files/2016/07/18/eff_large_wordlist.txt) per generare le tue passfrasi diceware, in quanto offre la stessa sicurezza dell'elenco originale, pur contenendo parole più facili da memorizzare. Esistono anche [altri elenchi di parole in lingue diverse](https://theworld.com/~reinhold/diceware.html#Diceware%20in%20Other%20Languages|outline), se non vuoi che la tua passfrase sia in Inglese.
 
-??? note "Explanation of entropy and strength of diceware passphrases"
+??? nota "Spiegazione dell'entropia e della forza delle passfrasi diceware"
 
-    To demonstrate how strong diceware passphrases are, we'll use the aforementioned seven word passphrase (`viewable fastness reluctant squishy seventeen shown pencil`) and [EFF's large wordlist](https://www.eff.org/files/2016/07/18/eff_large_wordlist.txt) as an example.
+    Per dimostrare quanto siano forti le passfrasi diceware, useremo la già citata passfrase di sette parole (`viewable fastness reluctant squishy seventeen shown pencil`) e il [grande elenco di parole di EFF](https://www.eff.org/files/2016/07/18/eff_large_wordlist.txt) come esempio.
     
-    One metric to determine the strength of a diceware passphrase is how much entropy it has. The entropy per word in a diceware passphrase is calculated as $\text{log}_2(\text{WordsInList})$ and the overall entropy of the passphrase is calculated as $\text{log}_2(\text{WordsInList}^\text{WordsInPhrase})$.
+    Un parametro per determinare la forza di una passfrase diceware è la sua entropia. L'entropia per parola in una passphrase diceware è calcolata come $\text{log}_2(\text{WordsInList})$ e l'entropia complessiva della passfrase è calcolata come $\text{log}_2(\text{WordsInList}^\text{WordsInPhrase})$.
     
-    Therefore, each word in the aforementioned list results in ~12.9 bits of entropy ($\text{log}_2(7776)$), and a seven word passphrase derived from it has ~90.47 bits of entropy ($\text{log}_2(7776^7)$).
+    Pertanto, ogni parola del suddetto elenco produce ~12,9 bit di entropia ($\text{log}_2(7776)$), e una passfrase di sette parole derivata da esso ha ~90,47 bit di entropia ($\text{log}_2(7776^7)$).
     
-    The [EFF's large wordlist](https://www.eff.org/files/2016/07/18/eff_large_wordlist.txt) contains 7776 unique words. To calculate the amount of possible passphrases, all we have to do is $\text{WordsInList}^\text{WordsInPhrase}$, or in our case, $7776^7$.
+    Il [grande elenco di parole di EFF](https://www.eff.org/files/2016/07/18/eff_large_wordlist.txt) contiene 7776 parole uniche. Per calcolare la quantità di passfrasi possibili, tutto ciò che dobbiamo fare è $\text{WordsInList}^\text{WordsInPhrase}$, o nel nostro caso, $ 7776^7 $.
     
-    Let's put all of this in perspective: A seven word passphrase using [EFF's large wordlist](https://www.eff.org/files/2016/07/18/eff_large_wordlist.txt) is one of ~1,719,070,799,748,422,500,000,000,000 possible passphrases.
+    Mettiamo tutto questo in prospettiva: Una passfrase di sette parole utilizzando il [Grande elenco di parole di EFF](https://www.eff.org/files/2016/07/18/eff_large_wordlist.txt) è una delle ~1.719.070.799.748.422.500.000.000.000.000 possibili passfrasi.
     
-    On average, it takes trying 50% of all the possible combinations to guess your phrase. With that in mind, even if your adversary is capable of ~1,000,000,000,000 guesses per second, it would still take them ~27,255,689 years to guess your passphrase. That is the case even if the following things are true:
+    In media, è necessario tentare il 50% di tutte le combinazioni possibili per indovinare la tua passfrase. E con questo, anche se l'avversario è in grado di fare ~1.000.000.000.000 tentativi al secondo, gli ci vorrebbero comunque ~27.255.689 anni per indovinare la vostra passfrase. Questo vale solo se le seguenti cose sono vere:
 
-    - Your adversary knows that you used the diceware method.
-    - Your adversary knows the specific wordlist that you used.
-    - Your adversary knows how many words your passphrase contains.
+    - Il tuo avversario sa che hai usato il metodo diceware.
+    - Il tuo avversario conosce l'elenco specifico che hai utilizzato.
+    - Il tuo avversario sa quante parole contiene la tua passfrase.
 
-To sum it up, diceware passphrases are your best option when you need something that is both easy to remember *and* exceptionally strong.
+Ricapitolando, le passfrasi diceware sono la scelta migliore se hai bisogno di qualcosa che sia facile da ricordare *e* estremamente forte.
 
 ## Memorizzare le password
 
@@ -94,18 +94,18 @@ To sum it up, diceware passphrases are your best option when you need something 
 
 Il miglior modo per memorizzare le proprie password è quello di utilizzare un gestore di password. Ti consentono di memorizzare le password in un singolo file o nel cloud e di proteggerle con un'unica password principale. In questo modo, dovrete ricordare solo un'unica password forte, che vi permetterà di accedere alle altre.
 
-There are many good options to choose from, both cloud-based and local. Choose one of our recommended password managers and use it to establish strong passwords across all of your accounts. We recommend securing your password manager with a [diceware passphrase](#diceware-passphrases) comprised of at least seven words.
+Ci sono molte opzioni valide tra cui scegliere, sia basata su cloud, sia locali. Scegli uno dei nostri gestori di password consigliati e usalo per impostare password forti per tutti i tuoi account. Consigliamo di proteggere il vostro gestore di password con una [passfrase diceware](#diceware-passphrases) composta da almeno 7 parole.
 
 [Elenco dei gestori di password consigliati](../passwords.md ""){.md-button}
 
-!!! warning "Don't place your passwords and TOTP tokens inside the same password manager"
+!!! attenzione "Non memorizzare le tue password e i token TOTP nello stesso gestore di password"
 
-    When using TOTP codes as [multi-factor authentication](../multi-factor-authentication.md), the best security practice is to keep your TOTP codes in a [separate app](../multi-factor-authentication.md#authenticator-apps).
+    Quando utilizzi i codici TOTP come [autenticazione a più fattori](../multi-factor-authentication.md), la migliore prassi per la sicurezza è quella di conservare i codici TOTP in una [app separata](../multi-factor-authentication.md#authenticator-apps).
     
-    Storing your TOTP tokens in the same place as your passwords, while convenient, reduces the accounts to a single factor in the event that an adversary gains access to your password manager.
+    Conservare i token TOTP nello stesso luogo delle password, pur essendo comodo, riduce gli account ad un singolo fattore nel caso in cui un avversario riesca ad accedere al tuo gestore di password.
     
-    Furthermore, we do not recommend storing single-use recovery codes in your password manager. Those should be stored separately such as in an encrypted container on an offline storage device.
+    Inoltre, sconsigliamo di memorizzare i codici di recupero monouso nel tuo gestore di password. Questi andrebbero archiviati in un contenitore criptato o su un dispositivo d'archiviazione offline.
 
 ### Backup
 
-You should store an [encrypted](../encryption.md) backup of your passwords on multiple storage devices or a cloud storage provider. This can help you access your passwords if something happens to your primary device or the service you are using.
+Dovresti archiviare un backup [criptato](../encryption.md) di tutte le tue password su più dispositivi o su un provider d'archiviazione in cloud. Questo potrà aiutarti ad accedere alle password se dovesse succedere qualcosa al vostro dispositivo principale o al servizio che state utilizzando.

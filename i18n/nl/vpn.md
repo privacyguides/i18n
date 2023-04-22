@@ -45,9 +45,10 @@ Onze aanbevolen providers gebruiken encryptie, accepteren Monero, ondersteunen W
     [:octicons-info-16:](https://www.ivpn.net/knowledgebase/general/){ .card-link title=Documentatie}
     [:octicons-code-16:](https://github.com/ivpn){ .card-link title="Broncode" }
     
-    ??? downloads "Downloaden"
+    ??? downloads
     
-        - [:simple-android: Android](https://www.ivpn.net/apps-android/)
+        - [:simple-googleplay: Google Play](https://play.google.com/store/apps/details?id=net.ivpn.client)
+        - [:octicons-moon-16: Accrescent](https://accrescent.app/app/net.ivpn.client)
         - [:simple-appstore: App Store](https://apps.apple.com/app/ivpn-serious-privacy-protection/id1193122683)
         - [:simple-windows11: Windows](https://www.ivpn.net/apps-windows/)
         - [:simple-apple: macOS](https://www.ivpn.net/apps-macos/)

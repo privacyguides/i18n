@@ -68,7 +68,7 @@ Tor는 방문하려는 사이트에 직접 연결하는 방식이 아닌, 자원
 
     Tor 브라우저에서는 **절대로** 추가 확장 프로그램을 설치하거나, (Firefox 관련 내용에서 권장드린 설정을 포함해) `about:config` 설정을 수정해서는 안 됩니다. 브라우저 확장 프로그램 및 별도 설정을 사용할 경우, Tor 네트워크상의 다른 사용자들 사이에서 여러분은 차별화됩니다. 이는 여러분의 브라우저가 [핑거프린팅](https://support.torproject.org/glossary/browser-fingerprinting)하기 쉬워짐을 의미합니다.
 
-The Tor Browser is designed to prevent fingerprinting, or identifying you based on your browser configuration. Therefore, it is imperative that you do **not** modify the browser beyond the default [security levels](https://tb-manual.torproject.org/security-settings/).
+Tor 브라우저는 핑거프린팅 및 브라우저 설정 기반 사용자 식별을 방지하도록 설계되었습니다. Therefore, it is imperative that you do **not** modify the browser beyond the default [security levels](https://tb-manual.torproject.org/security-settings/).
 
 ### Orbot
 
@@ -78,13 +78,13 @@ The Tor Browser is designed to prevent fingerprinting, or identifying you based 
     
     **Orbot** is a free Tor VPN for smartphones which routes traffic from any app on your device through the Tor network.
     
-    [:octicons-home-16: Homepage](https://orbot.app/){ .md-button .md-button--primary }
-    [:octicons-eye-16:](https://orbot.app/privacy-policy){ .card-link title="Privacy Policy" }
-    [:octicons-info-16:](https://orbot.app/faqs){ .card-link title=Documentation}
-    [:octicons-code-16:](https://orbot.app/code){ .card-link title="Source Code" }
-    [:octicons-heart-16:](https://orbot.app/donate){ .card-link title=Contribute }
+    [:octicons-home-16: 홈페이지](https://orbot.app/){ .md-button .md-button--primary }
+    [:octicons-eye-16:](https://orbot.app/privacy-policy){ .card-link title="프라이버시 정책" }
+    [:octicons-info-16:](https://orbot.app/faqs){ .card-link title=문서}
+    [:octicons-code-16:](https://orbot.app/code){ .card-link title="소스 코드" }
+    [:octicons-heart-16:](https://orbot.app/donate){ .card-link title=기부 }
     
-    ??? downloads
+    ??? downloads "다운로드"
     
         - [:simple-googleplay: Google Play](https://play.google.com/store/apps/details?id=org.torproject.android)
         - [:simple-appstore: App Store](https://apps.apple.com/us/app/orbot/id1609461599)

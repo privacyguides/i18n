@@ -77,7 +77,7 @@ Met deze diensten kunt je online cadeaubonnen kopen voor verschillende handelare
 
     ![CoinCards logo](assets/img/financial-services/coincards.svg){ align=right }
     
-    **CoinCards** (available in the US and Canada) allows you to purchase gift cards for a large variety of merchants.
+    ** CoinCards ** (beschikbaar in de VS, Canada en het VK) kunt je cadeaubonnen kopen voor een grote verscheidenheid aan verkopers.
     
     [:octicons-home-16: Homepage](https://coincards.com/){ .md-button .md-button--primary }
     [:octicons-eye-16:](https://coincards.com/privacy-policy/){ .card-link title="Privacybeleid" }
