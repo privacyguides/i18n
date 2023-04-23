@@ -13,31 +13,31 @@ If you want assistance figuring out the best privacy tools and alternative progr
 
 For more details about each project, why they were chosen, and additional tips or tricks we recommend, click the "Learn more" link in each section, or click on the recommendation itself to be taken to that specific section of the page.
 
-## Tor Network
+## Tor 네트워크
 
 <div class="grid cards annotate" markdown>
 
-- ![Tor Browser logo](assets/img/browsers/tor.svg){ .twemoji } [Tor Browser](tor.md#tor-browser)
-- ![Orbot logo](assets/img/self-contained-networks/orbot.svg){ .twemoji } [Orbot (Smartphone Tor Proxy)](tor.md#orbot)
-- ![Snowflake logo](assets/img/browsers/snowflake.svg#only-light){ .twemoji }![Snowflake logo](assets/img/browsers/snowflake-dark.svg#only-dark){ .twemoji } [Snowflake](tor.md#snowflake) (1)
+- ![Tor 브라우저 로고](assets/img/browsers/tor.svg){ .twemoji } [Tor 브라우저](tor.md#tor-browser)
+- ![Orbot 로고](assets/img/self-contained-networks/orbot.svg){ .twemoji } [Orbot (스마트폰 Tor 프록시)](tor.md#orbot)
+- ![Snowflake 로고](assets/img/browsers/snowflake.svg#only-light){ .twemoji }![Snowflake 로고](assets/img/browsers/snowflake-dark.svg#only-dark){ .twemoji } [Snowflake](tor.md#snowflake) (1)
 
 </div>
 
 1. Snowflake does not increase privacy, however it allows you to easily contribute to the Tor network and help people in censored networks achieve better privacy.
 
-[Learn more :material-arrow-right-drop-circle:](tor.md)
+[자세히 알아보기 :material-arrow-right-drop-circle:](tor.md)
 
-## Desktop Web Browsers
+## 데스크톱 웹 브라우저
 
 <div class="grid cards" markdown>
 
-- ![Mullvad Browser logo](assets/img/browsers/mullvad_browser.svg){ .twemoji } [Mullvad Browser](desktop-browsers.md#mullvad-browser)
-- ![Firefox logo](assets/img/browsers/firefox.svg){ .twemoji } [Firefox](desktop-browsers.md#firefox)
-- ![Brave logo](assets/img/browsers/brave.svg){ .twemoji } [Brave](desktop-browsers.md#brave)
+- ![Mullvad Browser 로고](assets/img/browsers/mullvad_browser.svg){ .twemoji } [Mullvad Browser](desktop-browsers.md#mullvad-browser)
+- ![Firefox 로고](assets/img/browsers/firefox.svg){ .twemoji } [Firefox](desktop-browsers.md#firefox)
+- ![Brave 로고](assets/img/browsers/brave.svg){ .twemoji } [Brave](desktop-browsers.md#brave)
 
 </div>
 
-[Learn more :material-arrow-right-drop-circle:](desktop-browsers.md)
+[자세히 알아보기 :material-arrow-right-drop-circle:](desktop-browsers.md)
 
 ### Additional Resources
 
@@ -47,87 +47,87 @@ For more details about each project, why they were chosen, and additional tips o
 
 </div>
 
-[Learn more :material-arrow-right-drop-circle:](desktop-browsers.md#additional-resources)
+[자세히 알아보기 :material-arrow-right-drop-circle:](desktop-browsers.md#additional-resources)
 
-## Mobile Web Browsers
+## 모바일 웹 브라우저
 
 <div class="grid cards" markdown>
 
-- ![Brave logo](assets/img/browsers/brave.svg){ .twemoji } [Brave (Android)](mobile-browsers.md#brave)
-- ![Safari logo](assets/img/browsers/safari.svg){ .twemoji } [Safari (iOS)](mobile-browsers.md#safari)
+- ![Brave 로고](assets/img/browsers/brave.svg){ .twemoji } [Brave (Android)](mobile-browsers.md#brave)
+- ![Safari 로고](assets/img/browsers/safari.svg){ .twemoji } [Safari (iOS)](mobile-browsers.md#safari)
 
 </div>
 
-[Learn more :material-arrow-right-drop-circle:](mobile-browsers.md)
+[자세히 알아보기 :material-arrow-right-drop-circle:](mobile-browsers.md)
 
 ### Additional Resources
 
 <div class="grid cards annotate" markdown>
 
-- ![AdGuard logo](assets/img/browsers/adguard.svg){ .twemoji } [AdGuard for iOS](mobile-browsers.md#adguard)
+- ![AdGuard 로고](assets/img/browsers/adguard.svg){ .twemoji } [iOS용 AdGuard](mobile-browsers.md#adguard)
 
 </div>
 
-[Learn more :material-arrow-right-drop-circle:](mobile-browsers.md#adguard)
+[자세히 알아보기 :material-arrow-right-drop-circle:](mobile-browsers.md#adguard)
 
-## Operating Systems
+## 운영 체제
 
-### Mobile
+### 모바일
 
 <div class="grid cards" markdown>
 
-- ![GrapheneOS logo](assets/img/android/grapheneos.svg#only-light){ .twemoji }![GrapheneOS logo](assets/img/android/grapheneos-dark.svg#only-dark){ .twemoji } [GrapheneOS](android.md#grapheneos)
-- ![DivestOS logo](assets/img/android/divestos.svg){ .twemoji } [DivestOS](android.md#divestos)
+- ![GrapheneOS 로고](assets/img/android/grapheneos.svg#only-light){ .twemoji }![GrapheneOS 로고](assets/img/android/grapheneos-dark.svg#only-dark){ .twemoji } [GrapheneOS](android.md#grapheneos)
+- ![DivestOS 로고](assets/img/android/divestos.svg){ .twemoji } [DivestOS](android.md#divestos)
 
 </div>
 
-[Learn more :material-arrow-right-drop-circle:](android.md)
+[자세히 알아보기 :material-arrow-right-drop-circle:](android.md)
 
-#### Android Apps
+#### Android 앱
 
 <div class="grid cards" markdown>
 
-- ![Aurora Store logo](assets/img/android/aurora-store.webp){ .twemoji } [Aurora Store (Google Play Client)](android.md#aurora-store)
-- ![Shelter logo](assets/img/android/mini/shelter.svg){ .twemoji } [Shelter (Work Profiles)](android.md#shelter)
-- ![Auditor logo](assets/img/android/auditor.svg#only-light){ .twemoji }![GrapheneOS logo](assets/img/android/auditor-dark.svg#only-dark){ .twemoji } [Auditor (Supported Devices)](android.md#auditor)
-- ![Secure Camera logo](assets/img/android/secure_camera.svg#only-light){ .twemoji }![Secure Camera logo](assets/img/android/secure_camera-dark.svg#only-dark){ .twemoji } [Secure Camera](android.md#secure-camera)
-- ![Secure PDF Viewer logo](assets/img/android/secure_pdf_viewer.svg#only-light){ .twemoji }![GrapheneOS logo](assets/img/android/secure_pdf_viewer-dark.svg#only-dark){ .twemoji } [Secure PDF Viewer](android.md#secure-pdf-viewer)
+- ![Aurora Store 로고](assets/img/android/aurora-store.webp){ .twemoji } [Aurora Store (Google Play 클라이언트)](android.md#aurora-store)
+- ![Shelter 로고](assets/img/android/mini/shelter.svg){ .twemoji } [Shelter (직장 프로필)](android.md#shelter)
+- ![Auditor 로고](assets/img/android/auditor.svg#only-light){ .twemoji }![GrapheneOS logo](assets/img/android/auditor-dark.svg#only-dark){ .twemoji } [Auditor (지원 기기)](android.md#auditor)
+- ![Secure Camera 로고](assets/img/android/secure_camera.svg#only-light){ .twemoji }![Secure Camera 로고](assets/img/android/secure_camera-dark.svg#only-dark){ .twemoji } [Secure Camera](android.md#secure-camera)
+- ![Secure PDF Viewer 로고](assets/img/android/secure_pdf_viewer.svg#only-light){ .twemoji }![GrapheneOS 로고](assets/img/android/secure_pdf_viewer-dark.svg#only-dark){ .twemoji } [Secure PDF Viewer](android.md#secure-pdf-viewer)
 
 </div>
 
-[Learn more :material-arrow-right-drop-circle:](android.md#general-apps)
+[자세히 알아보기 :material-arrow-right-drop-circle:](android.md#general-apps)
 
-### Desktop/PC
+### 데스크톱/PC
 
 <div class="grid cards" markdown>
 
-- ![Qubes OS logo](assets/img/qubes/qubes_os.svg){ .twemoji } [Qubes OS (Xen VM Distribution)](desktop.md#qubes-os)
-- ![Fedora logo](assets/img/linux-desktop/fedora-workstation.svg){ .twemoji } [Fedora Workstation](desktop.md#fedora-workstation)
-- ![openSUSE Tumbleweed logo](assets/img/linux-desktop/opensuse-tumbleweed.svg){ .twemoji } [OpenSUSE Tumbleweed](desktop.md#opensuse-tumbleweed)
-- ![Arch logo](assets/img/linux-desktop/archlinux.svg){ .twemoji } [Arch Linux](desktop.md#arch-linux)
-- ![Fedora Silverblue logo](assets/img/linux-desktop/fedora-silverblue.svg){ .twemoji } [Fedora Silverblue & Kinoite](desktop.md#fedora-silverblue)
-- ![nixOS logo](assets/img/linux-desktop/nixos.svg){ .twemoji } [NixOS](desktop.md#nixos)
-- ![Whonix logo](assets/img/linux-desktop/whonix.svg){ .twemoji } [Whonix (Tor)](desktop.md#whonix)
-- ![Tails logo](assets/img/linux-desktop/tails.svg){ .twemoji } [Tails (Live Boot)](desktop.md#tails)
+- ![Qubes OS 로고](assets/img/qubes/qubes_os.svg){ .twemoji } [Qubes OS (Xen VM 배포판)](desktop.md#qubes-os)
+- ![Fedora 로고](assets/img/linux-desktop/fedora-workstation.svg){ .twemoji } [Fedora Workstation](desktop.md#fedora-workstation)
+- ![openSUSE Tumbleweed 로고](assets/img/linux-desktop/opensuse-tumbleweed.svg){ .twemoji } [OpenSUSE Tumbleweed](desktop.md#opensuse-tumbleweed)
+- ![Arch 로고](assets/img/linux-desktop/archlinux.svg){ .twemoji } [Arch Linux](desktop.md#arch-linux)
+- ![Fedora Silverblue 로고](assets/img/linux-desktop/fedora-silverblue.svg){ .twemoji } [Fedora Silverblue & Kinoite](desktop.md#fedora-silverblue)
+- ![nixOS 로고](assets/img/linux-desktop/nixos.svg){ .twemoji } [NixOS](desktop.md#nixos)
+- ![Whonix 로고](assets/img/linux-desktop/whonix.svg){ .twemoji } [Whonix (Tor)](desktop.md#whonix)
+- ![Tails 로고](assets/img/linux-desktop/tails.svg){ .twemoji } [Tails (Live Boot)](desktop.md#tails)
 
 </div>
 
-[Learn more :material-arrow-right-drop-circle:](desktop.md)
+[자세히 알아보기 :material-arrow-right-drop-circle:](desktop.md)
 
-### Router Firmware
+### 공유기 펌웨어
 
 <div class="grid cards" markdown>
 
-- ![OpenWrt logo](assets/img/router/openwrt.svg#only-light){ .twemoji }![OpenWrt logo](assets/img/router/openwrt-dark.svg#only-dark){ .twemoji } [OpenWrt](router.md#openwrt)
-- ![OPNsense logo](assets/img/router/opnsense.svg){ .twemoji } [OPNsense](router.md#opnsense)
+- ![OpenWrt 로고](assets/img/router/openwrt.svg#only-light){ .twemoji }![OpenWrt 로고](assets/img/router/openwrt-dark.svg#only-dark){ .twemoji } [OpenWrt](router.md#openwrt)
+- ![OPNsense 로고](assets/img/router/opnsense.svg){ .twemoji } [OPNsense](router.md#opnsense)
 
 </div>
 
-[Learn more :material-arrow-right-drop-circle:](router.md)
+[자세히 알아보기 :material-arrow-right-drop-circle:](router.md)
 
 ## Service Providers
 
-### Cloud Storage
+### 클라우드 스토리지
 
 <div class="grid cards" markdown>
 
@@ -136,7 +136,7 @@ For more details about each project, why they were chosen, and additional tips o
 
 </div>
 
-[Learn more :material-arrow-right-drop-circle:](cloud.md)
+[자세히 알아보기 :material-arrow-right-drop-circle:](cloud.md)
 
 ### DNS
 
@@ -144,7 +144,7 @@ For more details about each project, why they were chosen, and additional tips o
 
 We [recommend](dns.md#recommended-providers) a number of encrypted DNS servers based on a variety of criteria, such as [Mullvad](https://mullvad.net/en/help/dns-over-https-and-dns-over-tls) and [Quad9](https://quad9.net/) amongst others. We recommend for you to read our pages on DNS before choosing a provider. In many cases, using an alternative DNS provider is not recommended.
 
-[Learn more :material-arrow-right-drop-circle:](dns.md)
+[자세히 알아보기 :material-arrow-right-drop-circle:](dns.md)
 
 #### Encrypted DNS Proxies
 
@@ -155,7 +155,7 @@ We [recommend](dns.md#recommended-providers) a number of encrypted DNS servers b
 
 </div>
 
-[Learn more :material-arrow-right-drop-circle:](dns.md#encrypted-dns-proxies)
+[자세히 알아보기 :material-arrow-right-drop-circle:](dns.md#encrypted-dns-proxies)
 
 #### Self-hosted Solutions
 
@@ -166,42 +166,42 @@ We [recommend](dns.md#recommended-providers) a number of encrypted DNS servers b
 
 </div>
 
-[Learn more :material-arrow-right-drop-circle:](dns.md#self-hosted-solutions)
+[자세히 알아보기 :material-arrow-right-drop-circle:](dns.md#self-hosted-solutions)
 
-### Email
-
-<div class="grid cards" markdown>
-
-- ![Proton Mail logo](assets/img/email/protonmail.svg){ .twemoji } [Proton Mail](email.md#proton-mail)
-- ![Mailbox.org logo](assets/img/email/mailboxorg.svg){ .twemoji } [Mailbox.org](email.md#mailboxorg)
-- ![StartMail logo](assets/img/email/startmail.svg#only-light){ .twemoji }![StartMail logo](assets/img/email/startmail-dark.svg#only-dark){ .twemoji } [StartMail](email.md#startmail)
-- ![Tutanota logo](assets/img/email/tutanota.svg){ .twemoji } [Tutanota](email.md#tutanota)
-
-</div>
-
-[Learn more :material-arrow-right-drop-circle:](email.md)
-
-#### Email Aliasing Services
+### 이메일
 
 <div class="grid cards" markdown>
 
-- ![AnonAddy logo](assets/img/email/anonaddy.svg#only-light){ .twemoji }![AnonAddy logo](assets/img/email/anonaddy-dark.svg#only-dark){ .twemoji } [AnonAddy](email.md#anonaddy)
-- ![SimpleLogin logo](assets/img/email/simplelogin.svg){ .twemoji } [SimpleLogin](email.md#simplelogin)
+- ![Proton Mail 로고](assets/img/email/protonmail.svg){ .twemoji } [Proton Mail](email.md#proton-mail)
+- ![Mailbox.org 로고](assets/img/email/mailboxorg.svg){ .twemoji } [Mailbox.org](email.md#mailboxorg)
+- ![StartMail 로고](assets/img/email/startmail.svg#only-light){ .twemoji }![StartMail 로고](assets/img/email/startmail-dark.svg#only-dark){ .twemoji } [StartMail](email.md#startmail)
+- ![Tutanota 로고](assets/img/email/tutanota.svg){ .twemoji } [Tutanota](email.md#tutanota)
 
 </div>
 
-[Learn more :material-arrow-right-drop-circle:](email.md#email-aliasing-services)
+[자세히 알아보기 :material-arrow-right-drop-circle:](email.md)
 
-#### Self-Hosting Email
+#### 이메일 별칭 서비스
 
 <div class="grid cards" markdown>
 
-- ![mailcow logo](assets/img/email/mailcow.svg){ .twemoji } [mailcow](email.md#self-hosting-email)
-- ![Mail-in-a-Box logo](assets/img/email/mail-in-a-box.svg){ .twemoji } [Mail-in-a-Box](email.md#self-hosting-email)
+- ![AnonAddy 로고](assets/img/email/anonaddy.svg#only-light){ .twemoji }![AnonAddy 로고](assets/img/email/anonaddy-dark.svg#only-dark){ .twemoji } [AnonAddy](email.md#anonaddy)
+- ![SimpleLogin 로고](assets/img/email/simplelogin.svg){ .twemoji } [SimpleLogin](email.md#simplelogin)
 
 </div>
 
-[Learn more :material-arrow-right-drop-circle:](email.md#self-hosting-email)
+[자세히 알아보기 :material-arrow-right-drop-circle:](email.md#email-aliasing-services)
+
+#### 자체 호스팅 이메일
+
+<div class="grid cards" markdown>
+
+- ![mailcow 로고](assets/img/email/mailcow.svg){ .twemoji } [mailcow](email.md#self-hosting-email)
+- ![Mail-in-a-Box 로고](assets/img/email/mail-in-a-box.svg){ .twemoji } [Mail-in-a-Box](email.md#self-hosting-email)
+
+</div>
+
+[자세히 알아보기 :material-arrow-right-drop-circle:](email.md#self-hosting-email)
 
 ### Financial Services
 
@@ -213,31 +213,31 @@ We [recommend](dns.md#recommended-providers) a number of encrypted DNS servers b
 - ![MySudo logo](assets/img/financial-services/mysudo.svg#only-light){ .twemoji }![MySudo logo](assets/img/financial-services/mysudo-dark.svg#only-dark){ .twemoji } [MySudo](financial-services.md#mysudo-us-paid)
 </div>
 
-[Learn more :material-arrow-right-drop-circle:](financial-services.md#payment-masking-services)
+[자세히 알아보기 :material-arrow-right-drop-circle:](financial-services.md#payment-masking-services)
 
-#### Online Gift Card Marketplaces
-
-<div class="grid cards" markdown>
-
-- ![Cake Pay logo](assets/img/financial-services/cakepay.svg){ .twemoji } [Cake Pay](financial-services.md#cake-pay)
-- ![CoinCards logo](assets/img/financial-services/coincards.svg){ .twemoji } [CoinCards](financial-services.md#coincards)
-
-</div>
-
-[Learn more :material-arrow-right-drop-circle:](financial-services.md#gift-card-marketplaces)
-
-### Search Engines
+#### 온라인 기프트 카드 마켓플레이스
 
 <div class="grid cards" markdown>
 
-- ![Brave Search logo](assets/img/search-engines/brave-search.svg){ .twemoji } [Brave Search](search-engines.md#brave-search)
-- ![DuckDuckGo logo](assets/img/search-engines/duckduckgo.svg){ .twemoji } [DuckDuckGo](search-engines.md#duckduckgo)
-- ![SearXNG logo](assets/img/search-engines/searxng.svg){ .twemoji } [SearXNG](search-engines.md#searxng)
-- ![Startpage logo](assets/img/search-engines/startpage.svg#only-light){ .twemoji }![Startpage logo](assets/img/search-engines/startpage-dark.svg#only-dark){ .twemoji } [Startpage](search-engines.md#startpage)
+- ![Cake Pay 로고](assets/img/financial-services/cakepay.svg){ .twemoji } [Cake Pay](financial-services.md#cake-pay)
+- ![CoinCards 로고](assets/img/financial-services/coincards.svg){ .twemoji } [CoinCards](financial-services.md#coincards)
 
 </div>
 
-[Learn more :material-arrow-right-drop-circle:](search-engines.md)
+[자세히 알아보기 :material-arrow-right-drop-circle:](financial-services.md#gift-card-marketplaces)
+
+### 검색 엔진
+
+<div class="grid cards" markdown>
+
+- ![Brave Search 로고](assets/img/search-engines/brave-search.svg){ .twemoji } [Brave Search](search-engines.md#brave-search)
+- ![DuckDuckGo 로고](assets/img/search-engines/duckduckgo.svg){ .twemoji } [DuckDuckGo](search-engines.md#duckduckgo)
+- ![SearXNG 로고](assets/img/search-engines/searxng.svg){ .twemoji } [SearXNG](search-engines.md#searxng)
+- ![Startpage 로고](assets/img/search-engines/startpage.svg#only-light){ .twemoji }![Startpage 로고](assets/img/search-engines/startpage-dark.svg#only-dark){ .twemoji } [Startpage](search-engines.md#startpage)
+
+</div>
+
+[자세히 알아보기 :material-arrow-right-drop-circle:](search-engines.md)
 
 ### VPN Providers
 
@@ -249,40 +249,40 @@ We [recommend](dns.md#recommended-providers) a number of encrypted DNS servers b
     
     If you're looking for added **security**, you should always ensure you're connecting to websites using HTTPS. A VPN is not a replacement for good security practices.
     
-    [Learn more :material-arrow-right-drop-circle:](vpn.md)
+    [자세히 알아보기 :material-arrow-right-drop-circle:](vpn.md)
 
 <div class="grid cards" markdown>
 
-- ![IVPN logo](assets/img/vpn/mini/ivpn.svg){ .twemoji } [IVPN](vpn.md#ivpn)
-- ![Mullvad logo](assets/img/vpn/mullvad.svg){ .twemoji } [Mullvad](vpn.md#mullvad)
-- ![Proton VPN logo](assets/img/vpn/protonvpn.svg){ .twemoji } [Proton VPN](vpn.md#proton-vpn)
+- ![IVPN 로고](assets/img/vpn/mini/ivpn.svg){ .twemoji } [IVPN](vpn.md#ivpn)
+- ![Mullvad 로고](assets/img/vpn/mullvad.svg){ .twemoji } [Mullvad](vpn.md#mullvad)
+- ![Proton VPN 로고](assets/img/vpn/protonvpn.svg){ .twemoji } [Proton VPN](vpn.md#proton-vpn)
 
 </div>
 
-[Learn more :material-arrow-right-drop-circle:](vpn.md)
+[자세히 알아보기 :material-arrow-right-drop-circle:](vpn.md)
 
-## Software
+## 소프트웨어
 
-### Calendar Sync
+### 캘린더 동기화
 
 <div class="grid cards" markdown>
 
-- ![Tutanota logo](assets/img/calendar/tutanota.svg){ .twemoji } [Tutanota](calendar.md#tutanota)
-- ![Proton Calendar logo](assets/img/calendar/proton-calendar.svg){ .twemoji } [Proton Calendar](calendar.md#proton-calendar)
+- ![Tutanota 로고](assets/img/calendar/tutanota.svg){ .twemoji } [Tutanota](calendar.md#tutanota)
+- ![Proton Calendar 로고](assets/img/calendar/proton-calendar.svg){ .twemoji } [Proton Calendar](calendar.md#proton-calendar)
 
 </div>
 
-[Learn more :material-arrow-right-drop-circle:](calendar.md)
+[자세히 알아보기 :material-arrow-right-drop-circle:](calendar.md)
 
-### Cryptocurrency
+### 암호화폐
 
 <div class="grid cards" markdown>
 
-- ![Monero logo](assets/img/cryptocurrency/monero.svg){ .twemoji } [Monero](cryptocurrency.md#monero)
+- ![Monero 로고](assets/img/cryptocurrency/monero.svg){ .twemoji } [Monero](cryptocurrency.md#monero)
 
 </div>
 
-[Learn more :material-arrow-right-drop-circle:](cryptocurrency.md)
+[자세히 알아보기 :material-arrow-right-drop-circle:](cryptocurrency.md)
 
 ### Data and Metadata Redaction
 
@@ -296,9 +296,9 @@ We [recommend](dns.md#recommended-providers) a number of encrypted DNS servers b
 
 </div>
 
-[Learn more :material-arrow-right-drop-circle:](data-redaction.md)
+[자세히 알아보기 :material-arrow-right-drop-circle:](data-redaction.md)
 
-### Email Clients
+### 이메일 클라이언트
 
 <div class="grid cards" markdown>
 
@@ -314,7 +314,7 @@ We [recommend](dns.md#recommended-providers) a number of encrypted DNS servers b
 
 </div>
 
-[Learn more :material-arrow-right-drop-circle:](email-clients.md)
+[자세히 알아보기 :material-arrow-right-drop-circle:](email-clients.md)
 
 ### Encryption Software
 
@@ -335,34 +335,34 @@ We [recommend](dns.md#recommended-providers) a number of encrypted DNS servers b
 
 </div>
 
-[Learn more :material-arrow-right-drop-circle:](encryption.md)
+[자세히 알아보기 :material-arrow-right-drop-circle:](encryption.md)
 
-#### OpenPGP Clients
-
-<div class="grid cards" markdown>
-
-- ![GnuPG logo](assets/img/encryption-software/gnupg.svg){ .twemoji } [GnuPG](encryption.md#gnu-privacy-guard)
-- ![GPG4Win logo](assets/img/encryption-software/gpg4win.svg){ .twemoji } [GPG4Win (Windows)](encryption.md#gpg4win)
-- ![GPG Suite logo](assets/img/encryption-software/gpgsuite.png){ .twemoji } [GPG Suite (macOS)](encryption.md#gpg-suite)
-- ![OpenKeychain logo](assets/img/encryption-software/openkeychain.svg){ .twemoji } [OpenKeychain](encryption.md#openkeychain)
-
-</div>
-
-[Learn more :material-arrow-right-drop-circle:](encryption.md#openpgp)
-
-### File Sharing and Sync
+#### OpenPGP 클라이언트
 
 <div class="grid cards" markdown>
 
-- ![Send logo](assets/img/file-sharing-sync/send.svg){ .twemoji } [Send](file-sharing.md#send)
-- ![OnionShare logo](assets/img/file-sharing-sync/onionshare.svg){ .twemoji } [OnionShare](file-sharing.md#onionshare)
-- ![FreedomBox logo](assets/img/file-sharing-sync/freedombox.svg){ .twemoji } [FreedomBox](file-sharing.md#freedombox)
-- ![Nextcloud logo](assets/img/productivity/nextcloud.svg){ .twemoji } [Nextcloud (Self-Hostable)](productivity.md#nextcloud)
-- ![Syncthing logo](assets/img/file-sharing-sync/syncthing.svg){ .twemoji } [Syncthing](file-sharing.md#syncthing)
+- ![GnuPG 로고](assets/img/encryption-software/gnupg.svg){ .twemoji } [GnuPG](encryption.md#gnu-privacy-guard)
+- ![GPG4Win 로고](assets/img/encryption-software/gpg4win.svg){ .twemoji } [GPG4Win (Windows)](encryption.md#gpg4win)
+- ![GPG Suite 로고](assets/img/encryption-software/gpgsuite.png){ .twemoji } [GPG Suite (macOS)](encryption.md#gpg-suite)
+- ![OpenKeychain 로고](assets/img/encryption-software/openkeychain.svg){ .twemoji } [OpenKeychain](encryption.md#openkeychain)
 
 </div>
 
-[Learn more :material-arrow-right-drop-circle:](file-sharing.md)
+[자세히 알아보기 :material-arrow-right-drop-circle:](encryption.md#openpgp)
+
+### 파일 공유 및 동기화
+
+<div class="grid cards" markdown>
+
+- ![Send 로고](assets/img/file-sharing-sync/send.svg){ .twemoji } [Send](file-sharing.md#send)
+- ![OnionShare 로고](assets/img/file-sharing-sync/onionshare.svg){ .twemoji } [OnionShare](file-sharing.md#onionshare)
+- ![FreedomBox 로고](assets/img/file-sharing-sync/freedombox.svg){ .twemoji } [FreedomBox](file-sharing.md#freedombox)
+- ![Nextcloud 로고](assets/img/productivity/nextcloud.svg){ .twemoji } [Nextcloud (자체 호스팅 지원)](productivity.md#nextcloud)
+- ![Syncthing 로고](assets/img/file-sharing-sync/syncthing.svg){ .twemoji } [Syncthing](file-sharing.md#syncthing)
+
+</div>
+
+[자세히 알아보기 :material-arrow-right-drop-circle:](file-sharing.md)
 
 ### Frontends
 
@@ -379,7 +379,7 @@ We [recommend](dns.md#recommended-providers) a number of encrypted DNS servers b
 
 </div>
 
-[Learn more :material-arrow-right-drop-circle:](frontends.md)
+[자세히 알아보기 :material-arrow-right-drop-circle:](frontends.md)
 
 ### Multi-Factor Authentication Tools
 
@@ -387,12 +387,12 @@ We [recommend](dns.md#recommended-providers) a number of encrypted DNS servers b
 
 - ![YubiKeys](assets/img/multi-factor-authentication/mini/yubico.svg){ .twemoji } [YubiKey](multi-factor-authentication.md#yubikey)
 - ![Nitrokey](assets/img/multi-factor-authentication/mini/nitrokey.svg){ .twemoji } [Nitrokey](multi-factor-authentication.md#nitrokey)
-- ![Aegis logo](assets/img/multi-factor-authentication/aegis.png){ .twemoji } [Aegis Authenticator](multi-factor-authentication.md#aegis-authenticator)
-- ![Raivo OTP logo](assets/img/multi-factor-authentication/raivo-otp.png){ .twemoji } [Raivo OTP](multi-factor-authentication.md#raivo-otp)
+- ![Aegis 로고](assets/img/multi-factor-authentication/aegis.png){ .twemoji } [Aegis Authenticator](multi-factor-authentication.md#aegis-authenticator)
+- ![Raivo OTP 로고](assets/img/multi-factor-authentication/raivo-otp.png){ .twemoji } [Raivo OTP](multi-factor-authentication.md#raivo-otp)
 
 </div>
 
-[Learn more :material-arrow-right-drop-circle:](multi-factor-authentication.md)
+[자세히 알아보기 :material-arrow-right-drop-circle:](multi-factor-authentication.md)
 
 ### News Aggregators
 
@@ -408,7 +408,7 @@ We [recommend](dns.md#recommended-providers) a number of encrypted DNS servers b
 
 </div>
 
-[Learn more :material-arrow-right-drop-circle:](news-aggregators.md)
+[자세히 알아보기 :material-arrow-right-drop-circle:](news-aggregators.md)
 
 ### Notebooks
 
@@ -421,51 +421,51 @@ We [recommend](dns.md#recommended-providers) a number of encrypted DNS servers b
 
 </div>
 
-[Learn more :material-arrow-right-drop-circle:](notebooks.md)
+[자세히 알아보기 :material-arrow-right-drop-circle:](notebooks.md)
 
-### Password Managers
-
-<div class="grid cards" markdown>
-
-- ![Bitwarden logo](assets/img/password-management/bitwarden.svg){ .twemoji } [Bitwarden](passwords.md#bitwarden)
-- ![1Password logo](assets/img/password-management/1password.svg){ .twemoji } [1Password](passwords.md#1password)
-- ![Psono logo](assets/img/password-management/psono.svg){ .twemoji } [Psono](passwords.md#psono)
-- ![KeePassXC logo](assets/img/password-management/keepassxc.svg){ .twemoji } [KeePassXC](passwords.md#keepassxc)
-- ![KeePassDX logo](assets/img/password-management/keepassdx.svg){ .twemoji } [KeePassDX (Android)](passwords.md#keepassdx-android)
-- ![Strongbox logo](assets/img/password-management/strongbox.svg){ .twemoji } [Strongbox (iOS & macOS)](passwords.md#strongbox-ios-macos)
-- ![gopass logo](assets/img/password-management/gopass.svg){ .twemoji } [gopass](passwords.md#gopass)
-
-</div>
-
-[Learn more :material-arrow-right-drop-circle:](passwords.md)
-
-### Productivity Tools
+### 비밀번호 관리자
 
 <div class="grid cards" markdown>
 
-- ![Nextcloud logo](assets/img/productivity/nextcloud.svg){ .twemoji } [Nextcloud (Self-Hostable)](productivity.md#nextcloud)
-- ![LibreOffice logo](assets/img/productivity/libreoffice.svg){ .twemoji } [LibreOffice](productivity.md#libreoffice)
-- ![OnlyOffice logo](assets/img/productivity/onlyoffice.svg){ .twemoji } [OnlyOffice](productivity.md#onlyoffice)
-- ![CryptPad logo](assets/img/productivity/cryptpad.svg){ .twemoji } [CryptPad](productivity.md#cryptpad)
-- ![PrivateBin logo](assets/img/productivity/privatebin.svg){ .twemoji } [PrivateBin (Pastebin)](productivity.md#privatebin)
+- ![Bitwarden 로고](assets/img/password-management/bitwarden.svg){ .twemoji } [Bitwarden](passwords.md#bitwarden)
+- ![1Password 로고](assets/img/password-management/1password.svg){ .twemoji } [1Password](passwords.md#1password)
+- ![Psono 로고](assets/img/password-management/psono.svg){ .twemoji } [Psono](passwords.md#psono)
+- ![KeePassXC 로고](assets/img/password-management/keepassxc.svg){ .twemoji } [KeePassXC](passwords.md#keepassxc)
+- ![KeePassDX 로고](assets/img/password-management/keepassdx.svg){ .twemoji } [KeePassDX (Android)](passwords.md#keepassdx-android)
+- ![Strongbox 로고](assets/img/password-management/strongbox.svg){ .twemoji } [Strongbox (iOS & macOS)](passwords.md#strongbox-ios-macos)
+- ![gopass 로고](assets/img/password-management/gopass.svg){ .twemoji } [gopass](passwords.md#gopass)
 
 </div>
 
-[Learn more :material-arrow-right-drop-circle:](productivity.md)
+[자세히 알아보기 :material-arrow-right-drop-circle:](passwords.md)
+
+### 생산성 툴
+
+<div class="grid cards" markdown>
+
+- ![Nextcloud 로고](assets/img/productivity/nextcloud.svg){ .twemoji } [Nextcloud (자체 호스팅 지원)](productivity.md#nextcloud)
+- ![LibreOffice 로고](assets/img/productivity/libreoffice.svg){ .twemoji } [LibreOffice](productivity.md#libreoffice)
+- ![OnlyOffice 로고](assets/img/productivity/onlyoffice.svg){ .twemoji } [OnlyOffice](productivity.md#onlyoffice)
+- ![CryptPad 로고](assets/img/productivity/cryptpad.svg){ .twemoji } [CryptPad](productivity.md#cryptpad)
+- ![PrivateBin 로고](assets/img/productivity/privatebin.svg){ .twemoji } [PrivateBin (Pastebin)](productivity.md#privatebin)
+
+</div>
+
+[자세히 알아보기 :material-arrow-right-drop-circle:](productivity.md)
 
 ### Real-Time Communication
 
 <div class="grid cards" markdown>
 
-- ![Signal logo](assets/img/messengers/signal.svg){ .twemoji } [Signal](real-time-communication.md#signal)
-- ![Briar logo](assets/img/messengers/briar.svg){ .twemoji } [Briar](real-time-communication.md#briar)
-- ![SimpleX Chat logo](assets/img/messengers/simplex.svg){ .twemoji } [SimpleX Chat](real-time-communication.md#simplex-chat)
-- ![Element logo](assets/img/messengers/element.svg){ .twemoji } [Element](real-time-communication.md#element)
-- ![Session logo](assets/img/messengers/session.svg){ .twemoji } [Session](real-time-communication.md#session)
+- ![Signal 로고](assets/img/messengers/signal.svg){ .twemoji } [Signal](real-time-communication.md#signal)
+- ![Briar 로고](assets/img/messengers/briar.svg){ .twemoji } [Briar](real-time-communication.md#briar)
+- ![SimpleX Chat 로고](assets/img/messengers/simplex.svg){ .twemoji } [SimpleX Chat](real-time-communication.md#simplex-chat)
+- ![Element 로고](assets/img/messengers/element.svg){ .twemoji } [Element](real-time-communication.md#element)
+- ![Session 로고](assets/img/messengers/session.svg){ .twemoji } [Session](real-time-communication.md#session)
 
 </div>
 
-[Learn more :material-arrow-right-drop-circle:](real-time-communication.md)
+[자세히 알아보기 :material-arrow-right-drop-circle:](real-time-communication.md)
 
 ### Video Streaming Clients
 
@@ -475,4 +475,4 @@ We [recommend](dns.md#recommended-providers) a number of encrypted DNS servers b
 
 </div>
 
-[Learn more :material-arrow-right-drop-circle:](video-streaming.md)
+[자세히 알아보기 :material-arrow-right-drop-circle:](video-streaming.md)
