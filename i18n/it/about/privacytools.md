@@ -22,7 +22,7 @@ Nel 2020, l'assenza di BurungHantu è diventata molto più evidente. A un certo 
 
 Nell'ottobre 2020, l'amministratore di sistema di PrivacyTools (Jonah) [ha lasciato](https://web.archive.org/web/20210729190742/https://blog.privacytools.io/blacklight447-taking-over/) il progetto a causa di queste difficoltà, passando il controllo a un altro collaboratore di lunga data. Jonah ha gestito quasi tutti i servizi di PrivacyTools e ha agito come responsabile del progetto *de facto* per lo sviluppo del sito web in assenza di BurungHantu, pertanto la sua partenza ha rappresentato un cambiamento significativo per l'organizzazione. All'epoca, a causa di questi significativi cambiamenti organizzativi, BurungHantu promise al team rimanente che sarebbe tornato per assumere il controllo del progetto in futuro. ==Il team PrivacyTools ha contattato tramite diversi metodi di comunicazione nei mesi successivi, ma non ha ricevuto alcuna risposta.==
 
-## Domain Name Reliance
+## Affidamento del nome di dominio
 
 All'inizio del 2021, il team di PrivacyTools si è preoccupato per il futuro del progetto, poiché il nome di dominio era destinato a scadere il 1° marzo 2021. Il dominio è stato infine rinnovato da BurungHantu senza alcun commento.
 
@@ -67,9 +67,9 @@ Circa una settimana dopo la transizione, BurungHantu è tornato online per la pr
 
 A questo punto, BurungHantu ha dichiarato di voler continuare a lavorare su privacytools.io per conto proprio e ha chiesto di rimuovere il reindirizzamento da www.privacytools.io verso [www.privacyguides.org](https://www.privacyguides.org). Abbiamo accettato e gli abbiamo richiesto di mantenere attivi i sottodomini di Matrix, Mastodon e PeerTube come servizio pubblico alla nostra comunità per almeno qualche mese, in modo da consentire agli utenti di queste piattaforme di migrare facilmente verso altri account. Due to the federated nature of the services we provided, they were tied to specific domain names making it very difficult to migrate (and in some cases impossible).
 
-Unfortunately, because control of the r/privacytoolsIO subreddit was not returned to BurungHantu at his demand (further information below), those subdomains were [cut off](https://www.reddit.com/r/PrivacyGuides/comments/pymthv/comment/hexwrps/) at the beginning of October, ending any migration possibilities to any users still using those services.
+Sfortunatamente, poiché il controllo del subreddit r/privacytoolsIO non è stato restituito a BurungHantu su sua richiesta (ulteriori informazioni di seguito), questi sottodomini [sono stati tagliati fuori ](https://www.reddit.com/r/PrivacyGuides/comments/pymthv/comment/hexwrps/) ad inizio ottobre, ponendo fine a qualsiasi possibilità di migrazione per gli utenti che utilizzavano ancora questi servizi.
 
-Following this, BurungHantu made false accusations about Jonah stealing donations from the project. BurungHantu had over a year since the alleged incident occurred, and yet he never made anyone aware of it until after the Privacy Guides migration. BurungHantu has been repeatedly asked for proof and to comment on the reason for his silence by the team [and the community](https://twitter.com/TommyTran732/status/1526153536962281474), and has not done so.
+Successivamente, BurungHantu ha accusato Jonah di aver rubato le donazioni dal progetto. BurungHantu had over a year since the alleged incident occurred, and yet he never made anyone aware of it until after the Privacy Guides migration. BurungHantu has been repeatedly asked for proof and to comment on the reason for his silence by the team [and the community](https://twitter.com/TommyTran732/status/1526153536962281474), and has not done so.
 
 BurungHantu also made a [twitter post](https://twitter.com/privacytoolsIO/status/1510560676967710728) alleging that an "attorney" had reached out to him on Twitter and was providing advice, in another attempt to bully us into giving him control of our subreddit, and as part of his smear campaign to muddy the waters surrounding the launch of Privacy Guides while pretending to be a victim.
 
@@ -99,7 +99,7 @@ For a community with many thousands of remaining subscribers, we feel that it wo
 
 La nostra piattaforma di raccolta fondi, OpenCollective, è un'altra fonte di controversie. Our position is that OpenCollective was put in place by our team and managed by our team to fund services we currently operate and which PrivacyTools no longer does. We [reached out](https://opencollective.com/privacyguides/updates/transitioning-to-privacy-guides) to all of our donors regarding our move to Privacy Guides, and we were unanimously supported by our sponsors and community.
 
-Thus, the funds in OpenCollective belong to Privacy Guides, they were given to our project, and not the owner of a well known domain name. In the announcement made to donors on September 17th, 2021, we offered refunds to any donor who disagrees with the stance we took, but nobody has taken us up on this offer:
+Pertanto, i fondi di OpenCollective appartengono a Privacy Guides, sono stati dati al nostro progetto, e non al proprietario di un famoso nome di dominio. In the announcement made to donors on September 17th, 2021, we offered refunds to any donor who disagrees with the stance we took, but nobody has taken us up on this offer:
 
 > If any sponsors or backers disagree with or feel misled by these recent events and would like to request a refund given these highly unusual circumstances, please get in touch with our project admin by emailing jonah@triplebit.net.
 

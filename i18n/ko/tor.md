@@ -23,7 +23,7 @@ schema:
       url: "./"
 ---
 
-![Tor logo](assets/img/self-contained-networks/tor.svg){ align=right }
+![Tor 로고](assets/img/self-contained-networks/tor.svg){ align=right }
 
 **Tor** 네트워크는 자원 봉사 형태로 운영되는 서버 그룹으로, 무료로 연결하여 인터넷에서 프라이버시와 보안을 향상시킬 수 있습니다. 개인 및 단체는 'Onion hidden 서비스'를 통해, 프라이버시를 침해받는 일 없이 Tor 네트워크에서 정보를 공유할 수 있습니다. Tor 트래픽은 차단 및 추적이 어렵기 때문에 검열 우회에 효과적입니다.
 
@@ -39,15 +39,15 @@ Tor는 방문하려는 사이트에 직접 연결하는 방식이 아닌, 자원
 
 ## Tor 연결하기
 
-기기에서 Tor 네트워크에 연결하는 방법은 다양합니다. 가장 일반적으로 사용하는 방법은 데스크톱 PC와 Android 용으로 만들어진 **Tor 브라우저**(익명 브라우징을 위해 설계된 Firefox 포크)입니다. In addition to the apps listed below, there are also operating systems designed specifically to connect to the Tor network such as [Whonix](desktop.md#whonix) on [Qubes OS](desktop.md#qubes-os), which provide even greater security and protections than the standard Tor Browser.
+기기에서 Tor 네트워크에 연결하는 방법은 다양합니다. 가장 일반적으로 사용하는 방법은 데스크톱 PC와 Android 용으로 만들어진 **Tor 브라우저**(익명 브라우징을 위해 설계된 Firefox 포크)입니다. 여기에 나열된 앱 외에도, 표준 Tor 브라우저보다 훨씬 더 강력한 보안 및 보호 기능을 제공하는 [Whonix](desktop.md#whonix) + [Qubes OS](desktop.md#qubes-os) 처럼 Tor 네트워크에 연결하도록 특별히 설계된 운영 체제도 존재합니다.
 
 ### Tor 브라우저
 
 !!! recommendation
 
-    ![Tor Browser logo](assets/img/browsers/tor.svg){ align=right }
+    ![Tor Browser 로고](assets/img/browsers/tor.svg){ align=right }
     
-    **Tor Browser** is the choice if you need anonymity, as it provides you with access to the Tor network and bridges, and it includes default settings and extensions that are automatically configured by the default security levels: *Standard*, *Safer* and *Safest*.
+    **Tor 브라우저**는 익명성이 필요한 경우 선택해야 할 브라우저입니다. 이 브라우저는 Tor 네트워크와 브릿지에 접근할 수 있도록 해주며, 기본 보안 수준인 Standard, Safer, Safest에 따라 자동으로 구성되는 기본 설정과 확장 기능을 탑재하고 있습니다.
     
     [:octicons-home-16: 홈페이지](https://www.torproject.org){ .md-button .md-button--primary }
     [:simple-torbrowser:](http://2gzyxa5ihm7nsggfxnu52rck2vv4rvmdlkiu3zzui5du4xyclen53wid.onion){ .card-link title="Onion 서비스" }
@@ -100,7 +100,7 @@ Tor 브라우저는 핑거프린팅 및 브라우저 설정 기반 사용자 식
     
     All versions are signed using the same signature so they should be compatible with each other.
 
-## Relays and Bridges
+## 릴레이 및 브리지
 
 ### Snowflake
 
@@ -111,7 +111,7 @@ Tor 브라우저는 핑거프린팅 및 브라우저 설정 기반 사용자 식
     
     **Snowflake**는 여러분의 브라우저 내에서 'Snowflake 프록시'를 작동시켜 Tor 프로젝트에 대역폭을 기부합니다.
     
-    People who are censored can use Snowflake proxies to connect to the Tor network. Snowflake is a great way to contribute to the network even if you don't have the technical know-how to run a Tor relay or bridge.
+    검열을 받고 있는 사람들은 Snowflake 프록시를 사용해 Tor 네트워크에 접속할 수 있습니다. Snowflake는 Tor 릴레이나 브리지를 운영할 기술적 노하우가 없더라도 네트워크에 기여할 수 있는 좋은 방법입니다.
     
     [:octicons-home-16: 홈페이지](https://snowflake.torproject.org/){ .md-button .md-button--primary }
     [:octicons-info-16:](https://gitlab.torproject.org/tpo/anti-censorship/pluggable-transports/snowflake/-/wikis/Technical%20Overview){ .card-link title=문서}
@@ -131,8 +131,8 @@ Tor 브라우저는 핑거프린팅 및 브라우저 설정 기반 사용자 식
     <center><iframe src="https://snowflake.torproject.org/embed.html" width="320" height="240" frameborder="0" scrolling="no"></iframe></center>
     <small>제대로 표시되지 않는다면, 타사 프레임 차단에서 `torproject.org`를 제외해야 할 수도 있습니다. 혹은, [페이지를 직접 방문](https://snowflake.torproject.org/embed.html)하세요.</small>
 
-Snowflake는 어떤 방식으로도 여러분의 프라이버시를 침해하지 않으며, 여러분이 사용하는 브라우저를 Tor 네트워크에 연결해 주지도 않습니다. However, if your internet connection is uncensored, you should consider running it to help people in censored networks achieve better privacy themselves. There is no need to worry about which websites people are accessing through your proxy—their visible browsing IP address will match their Tor exit node, not yours.
+Snowflake는 어떤 방식으로도 여러분의 프라이버시를 침해하지 않으며, 여러분이 사용하는 브라우저를 Tor 네트워크에 연결해 주지도 않습니다. 그러나, 여러분이 인터넷 연결을 검열받고 있지 않은 상황에 계신 경우, 네트워크를 검열받고 있는 사람들이 프라이버시를 강화할 수 있도록 돕는 걸 고려해주시기 바랍니다. 다른 사람들이 여러분의 프록시를 통해 어떤 사이트에 접근할지 걱정하지 않으셔도 됩니다. 사람들의 IP 주소는 Tor 출구 노드로 표시되며, 프록시 주소로 표시되지 않습니다.
 
-Running a Snowflake proxy is low-risk, even moreso than running a Tor relay or bridge which are already not particularly risky endeavours. However, it does still proxy traffic through your network which can be impactful in some ways, especially if your network is bandwidth-limited. Make sure you understand [how Snowflake works](https://gitlab.torproject.org/tpo/anti-censorship/pluggable-transports/snowflake/-/wikis/home) before deciding whether to run a proxy.
+Snowflake 프록시 구동의 위험성은 매우 낮습니다. Tor 릴레이/브리지 구동(이 또한 특별히 위험하지 않습니다)보다도 훨씬 위험성이 낮습니다. 물론 여러분의 네트워크를 통해 프록시 트래픽이 전달되기 때문에, 네트워크 대역폭이 제한된 경우 등에는 여러분에게 영향을 끼칠 수 있습니다. 프록시 구동 여부를 결정하기 전에 [Snowflake 작동 방식](https://gitlab.torproject.org/tpo/anti-censorship/pluggable-transports/snowflake/-/wikis/home)을 이해해 두세요.
 
-[^1]: The `IsolateDestAddr` setting is discussed on the [Tor mailing list](https://lists.torproject.org/pipermail/tor-talk/2012-May/024403.html) and [Whonix's Stream Isolation documentation](https://www.whonix.org/wiki/Stream_Isolation), where both projects suggest that it is usually not a good approach for most people.
+[^1]: `IsolateDestAddr` 설정은 [Tor 메일링 리스트](https://lists.torproject.org/pipermail/tor-talk/2012-May/024403.html), [Whonix Stream Isolation 문서](https://www.whonix.org/wiki/Stream_Isolation)에서 논의되었으며, 두 프로젝트 모두 해당 설정은 대부분의 사람들에게 추천하지 않았습니다.

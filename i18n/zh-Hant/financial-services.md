@@ -75,9 +75,9 @@ Privacy.com 預設情況下將您購買的商家資訊提供給您的銀行。 �
 
 !!! recommendation
 
-    ![CoinCards logo](assets/img/financial-services/coincards.svg){ align=right }
+    ! [CoinCards logo](assets/img/financial-services/coincards.svg){align = right}
     
-    **CoinCards** (available in the US and Canada) allows you to purchase gift cards for a large variety of merchants.
+    * * CoinCards * * (美國和加拿大提供)允許您為各種商家購買禮品卡。
     
     [:octicons-home-16: Homepage](https://coincards.com/){ .md-button .md-button--primary }
     [:octicons-eye-16:](https://coincards.com/privacy-policy/){ .card-link title="Privacy Policy" }

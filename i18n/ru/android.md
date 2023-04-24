@@ -8,7 +8,7 @@ schema:
   - 
     "@context": http://schema.org
     "@type": WebPage
-    name: Private Android Operating Systems
+    name: Приватные операционные системы Android
     url: "./"
   - 
     "@context": http://schema.org

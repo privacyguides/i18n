@@ -11,7 +11,7 @@ config:
          Мы не зарабатываем на рекомендациях определенных продуктов и не используем партнерские ссылки.
     - 
       3: |
-         Privacy Guides and contributors.
+         Privacy Guides и способствующие.
     - 
       4: |
          Содержание доступно под лицензией CC BY-ND 4.0.
@@ -29,17 +29,17 @@ config:
 nav:
   Home: Главная
   Knowledge Base: База знаний
-  Technology Essentials: Technology Essentials
+  Technology Essentials: Технологические аспекты
   Operating Systems: Программное обеспечение
-  Advanced Topics: Advanced Topics
+  Advanced Topics: Дополнительные темы
   Recommendations: Рекомендации
-  Internet Browsing: Internet Browsing
+  Internet Browsing: Работа в интернете
   Providers: Провайдеры
   Software: ПО
   About: О сайте
   Community: Сообщество
   Online Services: Онлайн-сервисов
-  Code of Conduct: Code of Conduct
+  Code of Conduct: Правила поведения
   Contributing: Помощь проекту
   Writing Guide: Руководство по написанию
   Technical Guides: Технические руководства

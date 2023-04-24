@@ -1,5 +1,5 @@
 ---
-meta_title: "Tor Browser and Network: Anonymous Web Browsing - Privacy Guides"
+meta_title: "Сеть и Браузер Tor: Анонимный интернет сёрфинг - Privacy Guides"
 title: "Сеть Tor"
 icon: simple/torproject
 description: Защитите свой интернет-сёрфинг от посторонних глаз, используя сеть Tor - безопасную сеть, обходящую цензуру.

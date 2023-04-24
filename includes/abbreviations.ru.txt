@@ -13,8 +13,8 @@
 *[DNS]: Domain Name System
 *[DoH]: DNS через HTTPS
 *[DoQ]: DNS через QUIC
-*[DoH3]: DNS over HTTP/3
-*[DoT]: DNS over TLS
+*[DoH3]: DNS через HTTP/3
+*[DoT]: DNS через TLS
 *[E2EE]: Сквозное шифрование
 *[ECS]: EDNS Client Subnet
 *[EEA]: European Economic Area
@@ -22,7 +22,7 @@
 *[EOL]: End-of-Life
 *[Exif]: Exchangeable image file format
 *[FCM]: Firebase Cloud Messaging
-*[FDE]: Full Disk Encryption
+*[FDE]: Шифрование всего диска
 *[FIDO]: Fast IDentity Online
 *[форк]: Новое программное обеспечение, созданное путем модификации открытого кода существующего проекта
 *[GDPR]: General Data Protection Regulation
@@ -93,4 +93,4 @@
 *[VoIP]: Voice over IP (Internet Protocol)
 *[W3C]: World Wide Web Consortium
 *[XMPP]: Extensible Messaging and Presence Protocol
-*[PWA]: Progressive Web App
+*[PWA]: Прогрессивное веб-приложение

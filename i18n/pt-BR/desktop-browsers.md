@@ -82,9 +82,9 @@ Se você precisa navegar na internet de maneira anônima, você deveria usar o [
 
 Como o [Navegador Tor](tor.md), o Navegador Mullvad foi projetado para evitar a impressão digital, tornando a impressão digital de seu navegador igual a de todas as outras pessoas do Navegador Mullvad, de modo que ele inclui configurações e extensões predefinidas que são configuradas automaticamente pelos seguintes níveis de segurança padrão: Padrão *(Standard)*, Seguro *(Safer)* e O Mais Seguro *(Safest)*. Assim, é importante que você não modifique o navegador de forma alguma a não ser através do ajuste dos [níveis de segurança](https://tb-manual.torproject.org/security-settings/) disponíveis. Outras modificações tornariam a sua impressão digital única, derrotando o propósito de usar este navegador. Se você preferir personalizar mais o navegador e a identificação das suas impressões digitais não é uma preocupação para você, recomendamos o [Firefox](#firefox).
 
-### Anti-Fingerprinting
+### Anti-impressões Digitais
 
-**Without** using a [VPN](vpn.md), Mullvad Browser provides the same protections against [naive fingerprinting scripts](https://github.com/arkenfox/user.js/wiki/3.3-Overrides-%5BTo-RFP-or-Not%5D#-fingerprinting) as other private browsers like Firefox+[Arkenfox](#arkenfox-advanced) or [Brave](#brave). O Navegador Mullvad oferece proteção pronta para uso, à custa de alguma flexibilidade e conveniência que outros navegadores privados podem oferecer.
+**Sem** utilizar uma [VPN](vpn.md), o Mullvad Browser garante as mesmas proteções contra [ingênuos scripts de impressão digital](https://github.com/arkenfox/user.js/wiki/3.3-Overrides-%5BTo-RFP-or-Not%5D#-fingerprinting), assim como os outros navegadores tipo o Firefox + [Arkenfox](#arkenfox-advanced) e o [Brave](#brave). O Mullvad Broowser oferece proteções fora da caixa, as custas de algumas flexibilidades e conveniências que outros navegadores privados podem oferecer.
 
 ==Para a mais forte proteção contra impressões digitais, recomendamos o uso do Navegador Mullvad em conjunto **com** uma VPN==, seja ela Mullvad ou outro provedor de VPN recomendado. Quando você estiver usando uma VPN e o Navegador Mullvad, você compartilhará uma impressão digital e um grupo de endereços IP com uma grande variedade de outras pessoas, dando a você uma "multidão" para se misturar. Esta estratégia é a única forma de frustrar scripts avançados de rastreamento, e é a mesma técnica anti-impressão digital usada pelo Navegador Tor.
 
@@ -159,7 +159,7 @@ O serviço [Firefox Sync](https://hacks.mozilla.org/2018/11/firefox-sync-privacy
 
 - Selecione **Excluir cookies e dados do site quando o Firefox estiver fechado**
 
-Isso protege você contra cookies persistentes, mas não te protege contra cookies adquiridos durante a atual sessão de navegação. A extensão também é uma extensão :trophy: [recomendada](https://support.mozilla.org/kb/add-on-badges#w_recommended-extensions) pela Mozilla. You can set exceptions on a per-site basis, if you wish to stay logged in to a particular site you visit often.
+Isso protege você contra cookies persistentes, mas não te protege contra cookies adquiridos durante a atual sessão de navegação. A extensão também é uma extensão :trophy: [recomendada](https://support.mozilla.org/kb/add-on-badges#w_recommended-extensions) pela Mozilla. Você pode estabelecer exceções por site, se deseja permanecer logado em um site específico que você visita com frequência.
 
 ##### Desativar Telemetria
 
@@ -167,9 +167,9 @@ Isso protege você contra cookies persistentes, mas não te protege contra cooki
 - Limpar **Permitir que o Firefox instale e execute estudos**
 - Limpar **Permitir que o Firefox envie relatórios de falhas identificadas em seu nome**
 
-> Firefox sends data about your Firefox version and language; device operating system and hardware configuration; memory, basic information about crashes and errors; outcome of automated processes like updates, safebrowsing, and activation to us. When Firefox sends data to us, your IP address is temporarily collected as part of our server logs.
+> O Firefox envia dados sobre a sua versão e língua do Firefox; sistema operacional e configuração de hardware; memória, informação básica sobre crashes e erros; resultados de processos automatizados como atualizações, navegação segura e ativação para nós. Quando o Firefox envia dados para nós, seu endereço IP é temporariamente coletado como parte dos registros do nosso servidor.
 
-Additionally, the Firefox Accounts service collects [some technical data](https://www.mozilla.org/en-US/privacy/firefox/#firefox-accounts). If you use a Firefox Account you can opt-out:
+Adicionalmente, o serviço de contas Firefox coleta alguns [dados técnicos](https://www.mozilla.org/en-US/privacy/firefox/#firefox-accounts). Se você usa uma Conta Firefox, você pode não optar por isso:
 
 1. Open your [profile settings on accounts.firefox.com](https://accounts.firefox.com/settings#data-collection)
 2. Uncheck **Data Collection and Use** > **Help improve Firefox Accounts**
