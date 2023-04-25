@@ -45,7 +45,7 @@ I fornitori che consigliamo utilizzano la crittografia, accettano Monero, suppor
     [:octicons-info-16:](https://www.ivpn.net/knowledgebase/general){ .card-link title=Documentazione}
     [:octicons-code-16:](https://github.com/ivpn){ .card-link title="Codice sorgente" }
     
-    ??? downloads
+    ??? download
     
         - [:simple-googleplay: Google Play](https://play.google.com/store/apps/details?id=net.ivpn.client)
         - [:octicons-moon-16: Accrescent](https://accrescent.app/app/net.ivpn.client)

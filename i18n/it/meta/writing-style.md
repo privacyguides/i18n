@@ -1,8 +1,8 @@
 ---
-title: Writing Style
+title: Stile di scrittura
 ---
 
-Privacy Guides is written in American English, and you should refer to [APA Style guidelines](https://apastyle.apa.org/style-grammar-guidelines/grammar) when in doubt.
+Privacy Guides è scritto in Inglese Americano, e dovresti far riferimento alle [linee guida dello stile APA](https://apastyle.apa.org/style-grammar-guidelines/grammar) in caso di dubbi.
 
 In general the [United States federal plain language guidelines](https://www.plainlanguage.gov/guidelines/) provide a good overview of how to write clearly and concisely. We highlight a few important notes from these guidelines below.
 
@@ -30,9 +30,9 @@ Source: [plainlanguage.gov](https://www.plainlanguage.gov/guidelines/audience/ad
 
 Avoid calling people "users", in favor of "people", or a more specific description of the group of people you are writing for.
 
-## Organizing content
+## Organizzazione dei contenuti
 
-Organization is key. Content should flow from most to least important information, and use headers as much as needed to logically separate different ideas.
+L'organizzazione è fondamentale. Content should flow from most to least important information, and use headers as much as needed to logically separate different ideas.
 
 - Limit the document to around five or six sections. Long documents should probably be broken up into separate pages.
 - Mark important ideas with **bold** or *italics*.
@@ -47,7 +47,7 @@ Source: [plainlanguage.gov](https://www.plainlanguage.gov/guidelines/design/)
 
 Source: [plainlanguage.gov](https://www.plainlanguage.gov/guidelines/organize/have-a-topic-sentence/)
 
-## Choose your words carefully
+## Scegli con cura le tue parole
 
 > Words matter. They are the most basic building blocks of written and spoken communication. Don’t complicate things by using jargon, technical terms, or abbreviations that people won’t understand.
 
@@ -61,11 +61,11 @@ We should try to avoid abbreviations where possible, but technology is full of a
 > 
 > > More night jobs would keep youths off the streets.
 
-## Be concise
+## Sii conciso
 
-> Unnecessary words waste your audience’s time. Great writing is like a conversation. Omit information that the audience doesn’t need to know. This can be difficult as a subject matter expert so it’s important to have someone look at the information from the audience’s perspective.
+> Parole inutili fanno perder tempo al tuo pubblico. Great writing is like a conversation. Omit information that the audience doesn’t need to know. This can be difficult as a subject matter expert so it’s important to have someone look at the information from the audience’s perspective.
 
-Source: [plainlanguage.gov](https://www.plainlanguage.gov/guidelines/concise/)
+Fonte: [plainlanguage.gov](https://www.plainlanguage.gov/guidelines/concise/)
 
 ## Keep text conversational
 
@@ -77,9 +77,9 @@ Source: [plainlanguage.gov](https://www.plainlanguage.gov/guidelines/concise/)
 
 > Active voice makes it clear who is supposed to do what. It eliminates ambiguity about responsibilities. Not “It must be done,” but “You must do it.”
 
-Source: [plainlanguage.gov](https://www.plainlanguage.gov/guidelines/conversational/use-active-voice/)
+Fonte: [plainlanguage.gov](https://www.plainlanguage.gov/guidelines/conversational/use-active-voice/)
 
-### Use "must" for requirements
+### Utilizza "deve" per i requisiti
 
 > - “must” for an obligation
 > - “must not” for a prohibition

@@ -100,7 +100,7 @@ Solo una volta che ti sarai fatto queste domande sarai nella posizione di valuta
 
 La stesura di un piano di sicurezza ti aiuterà a comprendere le minacce per te più rilevanti e a valutare le tue risorse, i tuoi avversari e le loro capacità, oltre alla probabilità dei rischi a cui vai incontro.
 
-## Letture consigliate
+## Approfondimenti consigliati
 
 Per le persone che cercano di aumentare la loro privacy e sicurezza online, abbiamo compilato un elenco di minacce comuni che i nostri visitatori affrontano o obiettivi che i nostri visitatori hanno, per darti qualche ispirazione e dimostrare la base dei nostri consigli.
 

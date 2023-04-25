@@ -1,4 +1,4 @@
-# Community Code of Conduct
+# Codice di condotta Community
 
 **We pledge** to make our community a harassment-free experience for everyone.
 
@@ -6,9 +6,9 @@
 
 **We do not allow** inappropriate or otherwise unacceptable behavior, such as sexualized language, trolling and insulting comments, or otherwise promoting intolerance or harassment.
 
-## Community Standards
+## Standard della community
 
-What we expect from members of our communities:
+Cosa ci aspettiamo dai membri delle nostre community:
 
 1. **Non diffondere disinformazione**
 
@@ -28,7 +28,7 @@ What we expect from members of our communities:
       - Accepting responsibility and apologizing to those affected by our mistakes, and learning from the experience
       - Focusing on what is best not just for us as individuals, but for the overall community
 
-### Unacceptable Behavior
+### Comportamenti non accettati
 
 The following behaviors are considered harassment and are unacceptable within our community:
 
@@ -44,7 +44,7 @@ Our Code of Conduct applies within all project spaces, as well as when an indivi
 
 We are responsible for clarifying the standards of our community, and have the right to remove or alter the comments of those participating within our community, as necessary and at our discretion.
 
-### Contact
+### Contatti
 
 If you observe a problem on a platform like Matrix or Reddit, please contact our moderators on that platform in chat, via DM, or through any designated "Modmail" system.
 

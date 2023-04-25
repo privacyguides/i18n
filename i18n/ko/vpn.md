@@ -36,7 +36,7 @@ Privacy Guides 권장 제공 업체는 암호화 사용, Monero 결제 지원, W
 
 !!! recommendation
 
-    ![IVPN logo](assets/img/vpn/ivpn.svg){ align=right }
+    ![IVPN 로고](assets/img/vpn/ivpn.svg){ align=right }
     
     **IVPN**은 유료 VPN 서비스 제공 업체입니다. 2009년부터 운영되었습니다. IVPN 본사는 지브롤터에 위치하고 있습니다.
     
@@ -45,7 +45,7 @@ Privacy Guides 권장 제공 업체는 암호화 사용, Monero 결제 지원, W
     [:octicons-info-16:](https://www.ivpn.net/knowledgebase/general/){ .card-link title=문서}
     [:octicons-code-16:](https://github.com/ivpn){ .card-link title="소스 코드" }
     
-    ??? downloads
+    ??? downloads "다운로드"
     
         - [:simple-googleplay: Google Play](https://play.google.com/store/apps/details?id=net.ivpn.client)
         - [:octicons-moon-16: Accrescent](https://accrescent.app/app/net.ivpn.client)

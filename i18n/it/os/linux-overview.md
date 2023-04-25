@@ -32,15 +32,15 @@ Si consiglia vivamente di scegliere distribuzioni che si mantengono vicine alle 
 
 Per le distribuzioni congelate, come [Debian](https://www.debian.org/security/faq#handling), ci si aspetta che i manutentori dei pacchetti facciano il backport delle patch per correggere le vulnerabilità, piuttosto che portare il software alla "versione successiva" rilasciata dallo sviluppatore upstream. Alcune correzioni di sicurezza [non](https://arxiv.org/abs/2105.14565) ricevono affatto un [CVE](https://en.wikipedia.org/wiki/Common_Vulnerabilities_and_Exposures) (in particolare i software meno diffusi) e quindi non vengono inserite nella distribuzione con questo modello di patch. Di conseguenza, le correzioni di sicurezza minori vengono talvolta rimandate alla successiva versione principale.
 
-Non crediamo che trattenere i pacchetti e applicare patch provvisorie sia una buona idea, in quanto si discosta dal modo in cui lo sviluppatore avrebbe voluto far funzionare il software. [Richard Brown](https://rootco.de/aboutme/) has a presentation about this:
+Non crediamo che trattenere i pacchetti e applicare patch provvisorie sia una buona idea, in quanto si discosta dal modo in cui lo sviluppatore avrebbe voluto far funzionare il software. [Richard Brown](https://rootco.de/aboutme/) ha una presentazione al riguardo:
 
 <div class="yt-embed">
   <iframe width="560" height="315" src="https://invidious.privacyguides.net/embed/i8c0mg_mS7U?local=true" title="Regular Releases are Wrong, Roll for your life" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 </div>
 
-### Traditional vs Atomic updates
+### Aggiornamenti tradizionali vs Atomici
 
-Traditionally, Linux distributions update by sequentially updating the desired packages. Traditional updates such as those used in Fedora, Arch Linux, and Debian based distributions can be less reliable if an error occurs while updating.
+Tradizionalmente, le distribuzioni Linux si aggiornano con l'aggiornamento in sequenza dei pacchetti desiderati. Traditional updates such as those used in Fedora, Arch Linux, and Debian based distributions can be less reliable if an error occurs while updating.
 
 Atomic updating distributions apply updates in full or not at all. Typically, transactional update systems are also atomic.
 

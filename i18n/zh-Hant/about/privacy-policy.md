@@ -2,60 +2,64 @@
 title: "隐私政策"
 ---
 
-Privacy Guides is a community project operated by a number of active volunteer contributors. The public list of team members [can be found on GitHub](https://github.com/orgs/privacyguides/people).
+隱私指南是一個社區項目，由一群積極的志願貢獻者運營。 團隊成員 [的公開名單可以在GitHub](https://github.com/orgs/privacyguides/people)上找到。
 
-## Data We Collect From Visitors
+## 我們從訪客收集的資料
 
-The privacy of our website visitors is important to us, so we do not track any individual people. As a visitor to our website:
+網站訪客的隱私對我們很重要，因此我們不會追蹤任何個人。 作為我們網站的訪客：
 
-- No personal information is collected
-- No information such as cookies are stored in the browser
-- No information is shared with, sent to or sold to third-parties
-- No information is shared with advertising companies
-- No information is mined and harvested for personal and behavioral trends
-- No information is monetized
+- 不收集任何個人資訊
+- 瀏覽器中不會儲存 Cookie 等資訊
+- 不會對第三方分享、傳送或出售任何資訊
+- 不會與廣告公司共享任何資訊
+- 不挖掘和收集個人和行為趨勢
+- 未通過任何訪客資訊盈利
 
-You can view the data we collect on our [statistics](statistics.md) page.
+您可以從 [統計](statistics.md) 頁上查看我們收集的數據。
 
-We run a self-hosted installation of [Plausible Analytics](https://plausible.io) to collect some anonymous usage data for statistical purposes. The goal is to track overall trends in our website traffic, it is not to track individual visitors. All the data is in aggregate only. No personal data is collected.
+我們運行自託管安裝的 [Plausible Analytics](https://plausible.io) ，以收集一些匿名使用數據以供統計之用。 其目的是追蹤網站流量的整體趨勢，而不是追蹤個別訪問者。 所有數據僅爲總合資料。 不收集任何個人資訊.
 
-Data collected includes referral sources, top pages, visit duration, information from the devices (device type, operating system, country and browser) used during the visit and more. You can learn more about how Plausible works and collects information in a privacy-respecting manner [here](https://plausible.io/data-policy).
+收集的資料包括推薦來源、最受歡迎頁面、訪問持續時間、訪問期間使用的裝置（裝置類型、作業系統、國家/地區和瀏覽器）等資料。 您可以在[此處](https://plausible.io/data-policy)了解 Plausible 如何以尊重隐私的方式工作與收集資訊</a>。
 
-## Data We Collect From Account Holders
+## 我們從帳戶持有人收集的資料
 
-On some websites and services we provide, many features may require an account. For example, an account may be required to post and reply to topics on a forum platform.
+在我們提供的某些網站和服務中，許多功能可能需要申請帳戶。 例如，需要帳戶在論壇平臺上發佈和回覆主題。
 
-To sign up for most accounts, we will collect a name, username, email, and password. In the event a website requires more information than just that data, that will be clearly marked and noted in a separate privacy statement per-site.
+大多數帳戶註冊，會收集姓名、用戶名、電子郵件和密碼。 如果網站需要的不僅僅是這些資料，將在每個網站的單獨隱私聲明中清楚地標記和記錄。
 
-We use your account data to identify you on the website and to create pages specific to you, such as your profile page. We will also use your account data to publish a public profile for you on our services.
+我們會使用您的帳戶資料在網站上識別您的身份，並建立針對您的特定頁面，例如您的個人資料頁面。 我們也會使用您的帳戶資料，在我們的服務上為您發佈公開個人資料。
 
-We use your email to:
+我們使用您的電子郵件來：
 
-- Notify you about posts and other activity on the websites or services.
-- Reset your password and help keep your account secure.
-- Contact you in special circumstances related to your account.
-- Contact you about legal requests, such as DMCA takedown requests.
+- 通知您有關網站或服務上的帖子和其他活動。
+- 重設密碼並協助確保帳戶安全。
+- 在與您的帳戶相關的特殊情況下與您聯繫。
+- 法律要求情況，例如數位千年版權法案(DMCA)刪除要求，須聯絡您。
 
-On some websites and services you may provide additional information for your account, such as a short biography, avatar, your location, or your birthday. We make that information available to everyone who can access the website or service in question. This information is not required to use any of our services and can be erased at any time.
+在某些網站和服務上，您可能會為您的帳戶提供額外資訊，例如簡短的傳記、頭像、位置或生日。 我們將這些資訊提供給所有可以訪問有關網站或服務的人。 使用我們服務不需要這些資訊，且可以隨時刪除。
 
-We will store your account data as long as your account remains open. After closing an account, we may retain some or all of your account data in the form of backups or archives for up to 90 days.
+只要您的帳戶保持開放狀態，我們就會儲存您的帳戶資料。 關閉帳戶後，我們可能會以備份或存檔的形式保留部分或全部帳戶資料長達90天。
 
-## Contacting Us
+## 聯絡我們
 
-The Privacy Guides team generally does not have access to personal data outside of limited access granted via some moderation panels. Inquiries regarding your personal information should be sent directly to:
+Privacy Guides 團隊通常無法存取個人資料，但某些審核小組會被授予部份存取權限。 有關您的個人資訊的查詢應直接發送至：
 
 ```text
 Jonah Aragon
-Services Administrator
+服務管理員
 jonah@privacyguides.org
 ```
 
-For all other inquiries, you can contact any member of our team.
+對於所有其他查詢，您可以聯繫我們團隊的任何成員。
 
-For complaints under GDPR more generally, you may lodge complaints with your local data protection supervisory authorities. In France it's the Commission Nationale de l'Informatique et des Libertés which take care and handle the complaints. They provide a [template of complaint letter](https://www.cnil.fr/en/plaintes) to use.
+對於一般 GDPR 投訴，您可以向當個資保護監管機構提出投訴。 在法國，  Commission Nationale de l'Informatique et des Libertés 負責照顧和處理投訴。 他們提供了投訴信</a> 的
 
-## About This Policy
+模板。</p> 
 
-We will post any new versions of this statement [here](privacy-policy.md). We may change how we announce changes in future versions of this document. In the meantime we may update our contact information at any time without announcing a change. Please refer to the [Privacy Policy](privacy-policy.md) for the latest contact information at any time.
 
-A full revision [history](https://github.com/privacyguides/privacyguides.org/commits/main/docs/about/privacy-policy.md) of this page can be found on GitHub.
+
+## 關於本政策
+
+我們將在這裡張貼本聲明的任何更新版本 [](privacy-policy.md)。 我們可能會在未來版本中更改公告方式。 在此期間，我們可能會隨時更新聯絡資訊，而無需宣布變更。 請隨時參閱 [隱私權政策](privacy-policy.md) 以取得最新聯絡資訊。
+
+此頁面的完整版本 [歷史記錄](https://github.com/privacyguides/privacyguides.org/commits/main/docs/about/privacy-policy.md) 可以在 GitHub 找到。
