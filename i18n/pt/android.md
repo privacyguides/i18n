@@ -207,9 +207,9 @@ We recommend a wide variety of Android apps throughout this site. The apps liste
     
     Para telefones Pixel, ainda recomendamos o uso de GrapheneOS ou CalyxOS.
     
-    Para outros dispositivos suportados, o DivestOS é uma boa alternativa. downloads
-    
-        - [:simple-googleplay: Google Play](https://play.google.com/store/apps/details?id=net.typeblog.shelter)
+    [:octicons-repo-16: Repository](https://gitea.angry.im/PeterCxy/Shelter#shelter){ .md-button .md-button--primary }
+    [:octicons-code-16:](https://gitea.angry.im/PeterCxy/Shelter){ .card-link title="Source Code" }
+    [:octicons-heart-16:](https://www.patreon.com/PeterCxy){ .card-link title=Contribute }
 
 !!! Recomendamos que você verifique o [documentação](https://developers.yubico.com/SSH/) de Yubico sobre como configurar isso.
 

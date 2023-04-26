@@ -1,23 +1,23 @@
 ---
-title: Uploading Images
+title: 上傳圖片
 ---
 
-Here are a couple of general rules for contributing to Privacy Guides:
+以下是 Privacy Guides 一些貢獻規則：
 
-## Images
+## 圖片
 
-- We **prefer** SVG images, but if those do not exist we can use PNG images
+- 我們 **更喜歡** SVG 圖像，但如果沒有，也可以使用 PNG
 
-Company logos have canvas size of:
+公司 logo 的畫布尺寸爲：
 
 - 128x128px
 - 384x128px
 
-## Optimization
+## 最佳化
 
 ### PNG
 
-Use the [OptiPNG](https://sourceforge.net/projects/optipng/) to optimize the PNG image:
+使用 [OptiPNG](https://sourceforge.net/projects/optipng/) 來優化PNG影像：
 
 ```bash
 optipng -o7 file.png
@@ -27,51 +27,51 @@ optipng -o7 file.png
 
 #### Inkscape
 
-[Scour](https://github.com/scour-project/scour) all SVG images.
+[Scour](https://github.com/scour-project/scour) 所有 SVG 圖片。
 
-In Inkscape:
+在 Inkscape：
 
-1. File Save As..
-2. Set type to Optimized SVG (*.svg)
+1. 檔案另存爲...
+2. 將類型設定為最佳化SVG (*.svg)
 
-In the **Options** tab:
+在「 **選項** 」標籤中：
 
-- **Number of significant digits for coordinates** > **5**
-- [x] Turn on **Shorten color values**
-- [x] Turn on **Convert CSS attributes to XML attributes**
-- [x] Turn on **Collapse groups**
-- [x] Turn on **Create groups for similar attributes**
-- [ ] Turn off **Keep editor data**
-- [ ] Turn off **Keep unreferenced definitions**
-- [x] Turn on **Work around renderer bugs**
+- **坐標的有效位數** > **5**
+- [x] 打開 **縮短顏色值**
+- [x] 開啟 **將 CSS 屬性轉換為 XML 屬性**
+- [x] 開啟 **折疊羣組**
+- [x] 開啟 **為類似屬性建立羣組**
+- [ ] 關閉 **保留編輯器資料**
+- [ ] 關閉 **保留未引用的定義**
+- [x] 打開 **工作周圍的渲染器錯誤**
 
-In the **SVG Output** tab under **Document options**:
+在 **文件選項**下的 **SVG 輸出** 標籤：
 
-- [ ] Turn off **Remove the XML declaration**
-- [x] Turn on **Remove metadata**
-- [x] Turn on **Remove comments**
-- [x] Turn on **Embeded raster images**
-- [x] Turn on **Enable viewboxing**
+- [ ] 關閉 **移除 XML 宣告**
+- [x] 打開 **移除元數據**
+- [x] 開啟 **刪除評論**
+- [x] 打開 **嵌入式光柵映像**
+- [x] 打開 **啓用 viewboxing **
 
-In the **SVG Output** under **Pretty-printing**:
+在 **Pretty-printing**下的 **SVG 輸出** 標籤：
 
-- [ ] Turn off **Format output with line-breaks and indentation**
-- **Indentation characters** > Select **Space**
-- **Depth of indentation** > **1**
-- [ ] Turn off **Strip the "xml:space" attribute from the root SVG element**
+- [ ] 關閉 **斷行分隔輸出格式和縮排**
+- **縮排字元** > 選擇 **空格**
+- ** 縮排寛度** > **1**
+- [ ]關閉 **從根 SVG 元素** 刪除"xml: space"屬性
 
-In the **IDs** tab:
+在 **IDS** 標籤中：
 
-- [x] Turn on **Remove unused IDs**
-- [ ] Turn off **Shorten IDs**
-- **Prefix shortened IDs with** > `leave blank`
-- [x] Turn on **Preserve manually created IDs not ending with digits**
-- **Preserve the following IDs** > `leave blank`
-- **Preserve IDs starting with** > `leave blank`
+- [x] 打開 **移除未使用的IDs**
+- [ ] 關閉 **縮短IDs**
+- **縮短前綴` `的IDs** >
+- [x] 開啟 **保留手動創建非以數字**結尾的 IDs
+- **保留以下 IDs** > `留空`
+- **保留以** > `  `開頭的ID</code>
 
-#### CLI
+#### 命令列
 
-The same can be achieved with the [Scour](https://github.com/scour-project/scour) command:
+使用 [Scour](https://github.com/scour-project/scour) 命令可以做到同樣的事情：
 
 ```bash
 scour --set-precision=5 \

@@ -233,14 +233,14 @@ Shields 可以選擇根據需要依各網站情況降級，但我們建議預設
 
 <div class="annotate" markdown>
 
-- [x] Select **Prevent sites from fingerprinting me based on my language preferences**
-- [x] Select **Aggressive** under Trackers & ads blocking
+- [x] 選擇* *防止網站根據語言偏好進行指紋辨識* *
+- [x] 在追蹤器和廣告封鎖下選擇* *侵略性* *
 
     ??? warning "使用預設過濾器列表"
         Brave允許您在內部`brave://adblock`頁面中選擇其他內容過濾器。 我們建議您不要使用此功能；請保留預設的篩選條件清單。 使用額外清單將使您在一般 Brave 用戶中被突顯出來，如果Brave有漏洞，並將惡意規則添加到您使用的清單中，也可能會增加攻擊面。
 
-- [x] (Optional) Select **Block Scripts** (1)
-- [x] Select **Strict, may break sites** under Block fingerprinting
+- [x] (可選) Select * * Block Scripts * * (1)
+- [x] Select * * Strict, may break sites * * under Block fingerprinting
 
 </div>
 
@@ -254,44 +254,42 @@ Shields 可以選擇根據需要依各網站情況降級，但我們建議預設
 
 <div class="annotate" markdown>
 
-- [x] Select **Disable non-proxied UDP** under [WebRTC IP Handling Policy](https://support.brave.com/hc/en-us/articles/360017989132-How-do-I-change-my-Privacy-Settings-#webrtc)
-- [ ] Uncheck **Use Google services for push messaging**
-- [ ] Uncheck **Allow privacy-preserving product analytics (P3A)**
-- [ ] Uncheck **Automatically send daily usage ping to Brave**
-- [ ] Uncheck **Automatically send diagnostic reports**
-- [x] Select **Always use secure connections** in the **Security** menu
-- [ ] Uncheck **Private window with Tor** (1)
+- [x] 在[WebRTC IP 處理政策](https://support.brave.com/hc/en-us/articles/360017989132-How-do-I-change-my-Privacy-Settings-#webrtc）選擇**禁用非代理的 UDP**
+- [ ] 取消勾選 **使用 Google 推送消息**
+- [ ] 取消勾選 **允許保留隱私的產品分析（P3A）**
+- [ ] 取消勾選 **自動向 Brave 發送每日使用情况 **
+- [ ] 取消勾選 **自動發送診斷報告**
+- [x] 勾選  **安全** 選單**一直維持安全連接**
+- [ ] 取消勾選 **使用 Tor 的私密視窗** (1) 提示「關閉時進行消毒」
 
-    !!! tip "Sanitizing on Close"
+        - [x] 選擇 在** Cookies 和其他網站資料*選單中**關閉所有視窗時清除 cookies 和網站資料* *
 
-        - [x] Select **Clear cookies and site data when you close all windows** in the *Cookies and other site data* menu
-
-        If you wish to stay logged in to a particular site you visit often, you can set exceptions on a per-site basis under the *Customized behaviors* section.
+        如果希望繼續登入經常訪問的特定網站，可以在*自訂行為*處根據每個網站設定例外情況。
 
 </div>
 
-1. Brave is **not** as resistant to fingerprinting as the Tor Browser and far fewer people use Brave with Tor, so you will stand out. 如果需要 [強大的匿名性](https://support.brave.com/hc/en-us/articles/360018121491-What-is-a-Private-Window-with-Tor-Connectivity-) ，請使用 [Tor瀏覽器](tor.md#tor-browser)。
+1. Brave在瀏覽器指紋識別的抵抗力是 **不如** Tor 瀏覽器，且BraveTor 使用者少，容易被突出。 如果需要 [強大的匿名性](https://support.brave.com/hc/en-us/articles/360018121491-What-is-a-Private-Window-with-Tor-Connectivity-) ，請使用 [Tor瀏覽器](tor.md#tor-browser)。
 
 ##### 擴充套件
 
 **Extensions**中關閉不使用的內建擴展套件
 
-- [ ] Uncheck **Hangouts**
-- [ ] Uncheck **WebTorrent**
+- [ ] 取消勾選 **Hangouts**
+- [ ] 取消勾選 **WebTorrent**
 
 ##### Web3
 
 Brave Web3 功能可能會增加瀏覽器指紋和攻擊面。 除非有用到任何功能，否則應停用這些功能。
 
-- [ ] Set **Default Ethereum Wallet** to **None**
-- [ ] Set **Default Solana Wallet** to **None**
-- [ ] Set **Method to resolve IPFS resources** to **Disabled
+- [ ] 設定 **預設以太坊錢包** **無**
+- [ ] 設定 **預設 Solana Wallet** **無**
+- [ ] 設定 **禁用****解析 IPFS 資源的方法**
 
 ##### 系統
 
 <div class="annotate" markdown>
 
-- [ ] Uncheck **Continue running apps when Brave is closed** to disable background apps (1)
+- [ ] 取消勾選* * Brave 關閉時繼續執行應用程式* *以禁用背景應用程式(1)
 
 </div>
 
@@ -336,7 +334,7 @@ Brave Web3 功能可能會增加瀏覽器指紋和攻擊面。 除非有用到�
 
 以下是其他 [篩選條件清單](https://github.com/gorhill/uBlock/wiki/Dashboard:-Filter-lists) ，您可考慮新增：
 
-- [x] Check **Privacy** > **AdGuard URL Tracking Protection**
+- [x] 勾選 **隱私權** > **AdGuard 網址追蹤保護**
 - 添加 [真正正統的 URL 縮短工具](https://raw.githubusercontent.com/DandelionSprout/adfilt/master/LegitimateURLShortener.txt)
 
 ## 標準

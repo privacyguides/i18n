@@ -284,7 +284,7 @@ Les fonctionnalités Web3 de Brave peuvent potentiellement ajouter à l'empreint
 
 - [ ] Définir **Portefeuille Ethereum par défaut** à **Aucun**
 - [ ] Définir **Portefeuille Solana par défaut** à **Aucun**
-- [ ] Définir **Méthode de résolution des ressources IPFS** sur **Désactivé
+- [ ] Définir **Méthode de résolution des ressources IPFS** sur **Désactivé**
 
 ##### Système
 

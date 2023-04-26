@@ -1,6 +1,6 @@
 ---
-meta_title: "Privacy Respecting Mobile Web Browsers for Android and iOS - Privacy Guides"
-title: "Mobile Browsers"
+meta_title: "Mobile Browser für Android und iOS, welche die Privatsphäre respektieren - Privacy Guides"
+title: "Mobile Browser"
 icon: material/cellphone-information
 description: These browsers are what we currently recommend for standard/non-anonymous internet browsing on your phone.
 cover: mobile-browsers.png
@@ -8,7 +8,7 @@ schema:
   - 
     "@context": http://schema.org
     "@type": WebPage
-    name: Private Mobile Browser Recommendations
+    name: Empfohlene Browser für Mobilgeräte
     url: "./"
     relatedLink: "../desktop-browsers/"
   - 
@@ -124,7 +124,7 @@ Shields' options can be downgraded on a per-site basis as needed, but by default
 
 ## iOS
 
-On iOS, any app that can browse the web is [restricted](https://developer.apple.com/app-store/review/guidelines) to using an Apple-provided [WebKit framework](https://developer.apple.com/documentation/webkit), so there is little reason to use a third-party web browser.
+Unter iOS [muss](https://developer.apple.com/app-store/review/guidelines) jede App, auf welcher man im Web surfen kann, das [WebKit-Framework](https://developer.apple.com/documentation/webkit) von Apple zu verwenden. Es gibt deshalb wenig Gründe, den Browser eines Drittanbieters zu verwenden.
 
 ### Safari
 
@@ -132,13 +132,13 @@ On iOS, any app that can browse the web is [restricted](https://developer.apple.
 
     ![Safari logo](assets/img/browsers/safari.svg){ align=right }
     
-    **Safari** is the default browser in iOS. It includes [privacy features](https://support.apple.com/guide/iphone/browse-the-web-privately-iphb01fc3c85/15.0/ios/15.0) such as Intelligent Tracking Protection, Privacy Report, isolated Private Browsing tabs, iCloud Private Relay, and automatic HTTPS upgrades.
+    **Safari** ist der Standard-Browser in iOS. Er enthält [Datenschutzfunktionen](https://support.apple.com/guide/iphone/browse-the-web-privately-iphb01fc3c85/15.0/ios/15.0) wie intelligenten Tracking-Schutz, Datenschutzberichte, isolierte Tabs für privates Surfen, iCloud Private Relay und automatische HTTPS-Upgrades.
     
-    [:octicons-home-16: Homepage](https://www.apple.com/safari/){ .md-button .md-button--primary }
-    [:octicons-eye-16:](https://www.apple.com/legal/privacy/data/en/safari/){ .card-link title="Privacy Policy" }
+    [:octicons-home-16: Webseite](https://www.apple.com/safari/){ .md-button .md-button--primary }
+    [:octicons-eye-16:](https://www.apple.com/legal/privacy/data/en/safari/){ .card-link title="Safari & Datenschutz" }
     [:octicons-info-16:](https://support.apple.com/guide/safari/welcome/mac){ .card-link title=Documentation}
 
-#### Recommended Configuration
+#### Empfohlene Konfiguration
 
 These options can be found in :gear: **Settings** → **Safari** → **Privacy and Security**.
 
@@ -203,24 +203,24 @@ If you use iCloud with Advanced Data Protection disabled, we also recommend chec
 
 Additional filter lists do slow things down and may increase your attack surface, so only apply what you need.
 
-## Criteria
+## Kriterien
 
 **Please note we are not affiliated with any of the projects we recommend.** In addition to [our standard criteria](about/criteria.md), we have developed a clear set of requirements to allow us to provide objective recommendations. We suggest you familiarize yourself with this list before choosing to use a project, and conduct your own research to ensure it's the right choice for you.
 
 !!! example "This section is new"
 
-    We are working on establishing defined criteria for every section of our site, and this may be subject to change. If you have any questions about our criteria, please [ask on our forum](https://discuss.privacyguides.net/latest) and don't assume we didn't consider something when making our recommendations if it is not listed here. There are many factors considered and discussed when we recommend a project, and documenting every single one is a work-in-progress.
+    Wir arbeiten aktuell daran, Kriterien für jeden Bereich unserer Webseite festzulegen. Dieser Abschnitt kann sich deshalb noch ändern. If you have any questions about our criteria, please [ask on our forum](https://discuss.privacyguides.net/latest) and don't assume we didn't consider something when making our recommendations if it is not listed here. There are many factors considered and discussed when we recommend a project, and documenting every single one is a work-in-progress.
 
-### Minimum Requirements
+### Mindestanforderungen
 
-- Must support automatic updates.
+- Unterstützt automatische Updates.
 - Must receive engine updates in 0-1 days from upstream release.
 - Any changes required to make the browser more privacy-respecting should not negatively impact user experience.
 - Android browsers must use the Chromium engine.
     - Unfortunately, Mozilla GeckoView is still less secure than Chromium on Android.
     - iOS browsers are limited to WebKit.
 
-### Extension Criteria
+### Weitere Kriterien
 
 - Must not replicate built-in browser or OS functionality.
 - Must directly impact user privacy, i.e. must not simply provide information.

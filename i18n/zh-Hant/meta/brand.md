@@ -1,8 +1,8 @@
 ---
-title: Branding Guidelines
+title: 品牌指南
 ---
 
-The name of the website is **Privacy Guides** and should **not** be changed to:
+網站名稱為 **Privacy Guides** ，**不應** 變更為：
 
 <div class="pg-red" markdown>
 - PrivacyGuides
@@ -11,12 +11,12 @@ The name of the website is **Privacy Guides** and should **not** be changed to:
 - PG.org
 </div>
 
-The name of the subreddit is **r/PrivacyGuides** or **the Privacy Guides Subreddit**.
+Subreddit的名字是 **r/PrivacyGuides** 或 **，Privacy Guides Subreddit**。
 
-Additional branding guidelines can be found at [github.com/privacyguides/brand](https://github.com/privacyguides/brand)
+其他品牌指南可在 [github.com/privacyguides/brand](https://github.com/privacyguides/brand)找到
 
-## Trademark
+## 商標
 
-"Privacy Guides" and the shield logo are trademarks owned by Jonah Aragon, unlimited usage is granted to the Privacy Guides project.
+「Privacy Guides」和盾牌標誌是 Jonah Aragon 擁有的商標，Privacy Guides 專案可無限制使用。
 
-Without waiving any of its rights, Privacy Guides does not advise others on the scope of its intellectual property rights. Privacy Guides does not permit or consent to any use of its trademarks in any manner that is likely to cause confusion by implying association with or sponsorship by Privacy Guides. If you are aware of any such use, please contact Jonah Aragon at jonah@privacyguides.org. Consult your legal counsel if you have questions.
+在不放棄任何權利的情況下，Privacy Guides 不會就其知識產權的範圍向他人提供建議。 Privacy Guides 不允許也不同意以任何可能造成混淆的方式使用其商標，暗示與 Privacy Guides 有關或取得贊助。 如果您知道有任何此類使用，請聯絡 Jonah Aragon ： jonah@privacyguides.org。 如有任何疑問，請諮詢您的法律顧問。

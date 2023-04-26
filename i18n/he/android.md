@@ -205,13 +205,9 @@ DivestOS משתמשת ב-F-Droid כחנות האפליקציות המוגדרת 
     
     Shelter תומך בחסימת פרופילים חוצי חיפוש אנשי קשר ושיתוף קבצים בין פרופילים באמצעות מנהל הקבצים המוגדר כברירת מחדל ([DocumentsUI](https://source.android.com/devices/architecture/modular-system/documentsui)).
     
-    [:octicons-repo-16: מאגר](https://gitea.angry.im/PeterCxy/Shelter#shelter){ .md-button .md-button--primary }
-    [:octicons-code-16:](https://gitea.angry.im/PeterCxy/Shelter){ .card-link title="קוד מקור" }
-    [:octicons-heart-16:](https://www.patreon.com/PeterCxy){ .card-link title=לתרומה }
-    
-    ??? downloads "הורדות"
-    
-        - [simple-googleplay: Google Play:]( https://play.google.com/store/apps/details?id=net.typeblog.shelter)
+    [:octicons-repo-16: Repository](https://gitea.angry.im/PeterCxy/Shelter#shelter){ .md-button .md-button--primary }
+    [:octicons-code-16:](https://gitea.angry.im/PeterCxy/Shelter){ .card-link title="Source Code" }
+    [:octicons-heart-16:](https://www.patreon.com/PeterCxy){ .card-link title=Contribute }
 
 !!! warning "אזהרה"
 

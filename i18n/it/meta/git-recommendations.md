@@ -26,7 +26,7 @@ Puoi usare una chiave SSH già esistente per firmare, o[creane una nuova](https:
 
 Assicuarti di [aggiungere la tua chiave SSH al tuo account GitHub](https://docs.github.com/en/authentication/connecting-to-github-with-ssh/adding-a-new-ssh-key-to-your-github-account#adding-a-new-ssh-key-to-your-account) **come Signing Key** (al contrario o in aggiunta alla Authentication Key).
 
-## Rebase on Git pull
+## Rebase su Git pull
 
 Usa `git pull --rebase` invece di `git pull` quando estrai le modifiche da GitHub alla tua macchina locale. In questo modo le modifiche locali saranno sempre "in cima" alle ultime modifiche su GitHub, evitando cosi i commit di unione (che non sono permessi in questa repo).
 
@@ -36,9 +36,9 @@ Usa `git pull --rebase` invece di `git pull` quando estrai le modifiche da GitHu
 git config --global pull.rebase true
 ```
 
-## Rebase from `main` before submitting a PR
+## Rebase da`main`prima di inviare una PR
 
-If you are working on your own branch, run these commands before submitting a PR:
+Se stai lavorando sulla tua branch, esegui questi comandi prima di inviare una PR:
 
 ```
 git fetch origin

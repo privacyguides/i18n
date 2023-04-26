@@ -1,6 +1,6 @@
 ---
 meta_title: "Datenschutzfreundliche Webbrowser für PC und Mac - Privacy Guides"
-title: "Desktop Browsers"
+title: "Desktop Browser"
 icon: material/laptop
 description: Diese Webbrowser bieten einen stärkeren Schutz der Privatsphäre als Google Chrome.
 cover: desktop-browsers.png
@@ -126,25 +126,25 @@ Mullvad Browser comes with DuckDuckGo set as the default [search engine](search-
 !!! warning
     Firefox includes a unique [download token](https://bugzilla.mozilla.org/show_bug.cgi?id=1677497#c0) in downloads from Mozilla's website and uses telemetry in Firefox to send the token. The token is **not** included in releases from the [Mozilla FTP](https://ftp.mozilla.org/pub/firefox/releases/).
 
-### Recommended Configuration
+### Empfohlene Konfiguration
 
 These options can be found in :material-menu: → **Settings**
 
-#### Search
+#### Suche
 
-- [ ] Uncheck **Provide search suggestions**
+- [ ] **Suchvorschläge anzeigen** deaktivieren
 
-Search suggestion features may not be available in your region.
+Suchvorschläge sind in Ihrer Region möglicherweise nicht verfügbar.
 
-Search suggestions send everything you type in the address bar to the default search engine, regardless of whether you submit an actual search. Disabling search suggestions allows you to more precisely control what data you send to your search engine provider.
+Die Funktion Suchvorschläge schickt alles, was Sie in die Adressleiste eingeben, an die Standardsuchmaschine, unabhängig davon, ob Sie die Suche tatsächlich durchführen. Indem Sie die Suchvorschläge deaktivieren, können Sie präziser kontrollieren, welche Daten an den Suchmaschinenanbieter geschickt werden.
 
-#### Privacy & Security
+#### Datenschutz & Sicherheit
 
-##### Enhanced Tracking Protection
+##### Verbesserter Schutz vor Aktivitätenverfolgung
 
-- [x] Select **Strict** Enhanced Tracking Protection
+- [x] Wählen Sie **Streng** für den verbesserten Schutz vor Aktivitätenverfolgung
 
-This protects you by blocking social media trackers, fingerprinting scripts (note that this does not protect you from *all* fingerprinting), cryptominers, cross-site tracking cookies, and some other tracking content. ETP protects against many common threats, but it does not block all tracking avenues because it is designed to have minimal to no impact on site usability.
+Dies schützt Sie, indem Social-Media-Tracker, Fingerprinting-Skripte (beachten Sie, dass es dies kein Schutz vor *allen* Fingerprinting-Methoden bietet), Kryptominer, Cross-Site-Tracking-Cookies und weitere Tracking-Inhalte blockiert werden. Der verbesserte Schutz vor Aktivitätenverfolgung schützt vor vielen gängigen Bedrohungen, aber er blockiert nicht alle Tracking-Möglichkeiten, da er so konzipiert ist, dass die Benutzung der Webseite nicht oder nur minimal beeinträchtigt wird.
 
 ##### Firefox Suggest (US only)
 
@@ -153,11 +153,11 @@ This protects you by blocking social media trackers, fingerprinting scripts (not
 - [ ] Uncheck **Suggestions from the web**
 - [ ] Uncheck **Suggestions from sponsors**
 
-##### Sanitize on Close
+##### Cookies und Website-Daten
 
-If you want to stay logged in to particular sites, you can allow exceptions in **Cookies and Site Data** → **Manage Exceptions...**
+Wenn Sie bei bestimmten Webseiten angemeldet bleiben möchten, können Sie Ausnahmen zulassen unter **Cookies und Website-Daten** → **Ausnahmen verwalten...**
 
-- [x] Check **Delete cookies and site data when Firefox is closed**
+- [x] Wählen Sie **Cookies und Website-Daten beim Beenden von Firefox löschen**
 
 This protects you from persistent cookies, but does not protect you against cookies acquired during any one browsing session. When this is enabled, it becomes possible to easily cleanse your browser cookies by simply restarting Firefox. You can set exceptions on a per-site basis, if you wish to stay logged in to a particular site you visit often.
 
@@ -285,7 +285,7 @@ Brave's Web3 features can potentially add to your browser fingerprint and attack
 
 - [ ] Set **Default Ethereum Wallet** to **None**
 - [ ] Set **Default Solana Wallet** to **None**
-- [ ] Set **Method to resolve IPFS resources** to **Disabled
+- [ ] Set **Method to resolve IPFS resources** to **Disabled**
 
 ##### System
 
@@ -339,18 +339,18 @@ These are some other [filter lists](https://github.com/gorhill/uBlock/wiki/Dashb
 - [x] Check **Privacy** > **AdGuard URL Tracking Protection**
 - Add [Actually Legitimate URL Shortener Tool](https://raw.githubusercontent.com/DandelionSprout/adfilt/master/LegitimateURLShortener.txt)
 
-## Criteria
+## Kriterien
 
 **Please note we are not affiliated with any of the projects we recommend.** In addition to [our standard criteria](about/criteria.md), we have developed a clear set of requirements to allow us to provide objective recommendations. We suggest you familiarize yourself with this list before choosing to use a project, and conduct your own research to ensure it's the right choice for you.
 
 !!! example "This section is new"
 
-    We are working on establishing defined criteria for every section of our site, and this may be subject to change. If you have any questions about our criteria, please [ask on our forum](https://discuss.privacyguides.net/latest) and don't assume we didn't consider something when making our recommendations if it is not listed here. There are many factors considered and discussed when we recommend a project, and documenting every single one is a work-in-progress.
+    Wir arbeiten aktuell daran, Kriterien für jeden Bereich unserer Webseite festzulegen. Dieser Abschnitt kann sich deshalb noch ändern. If you have any questions about our criteria, please [ask on our forum](https://discuss.privacyguides.net/latest) and don't assume we didn't consider something when making our recommendations if it is not listed here. There are many factors considered and discussed when we recommend a project, and documenting every single one is a work-in-progress.
 
-### Minimum Requirements
+### Mindestanforderungen
 
 - Must be open-source software.
-- Supports automatic updates.
+- Unterstützt automatische Updates.
 - Receives engine updates in 0-1 days from upstream release.
 - Available on Linux, macOS, and Windows.
 - Any changes required to make the browser more privacy-respecting should not negatively impact user experience.
@@ -370,7 +370,7 @@ Our best-case criteria represents what we would like to see from the perfect pro
 - Provides open-source sync server implementation.
 - Defaults to a [private search engine](search-engines.md).
 
-### Extension Criteria
+### Weitere Kriterien
 
 - Must not replicate built-in browser or OS functionality.
 - Must directly impact user privacy, i.e. must not simply provide information.

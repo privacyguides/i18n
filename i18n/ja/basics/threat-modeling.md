@@ -37,13 +37,13 @@ description: セキュリティ、プライバシー、使いやすさのバラ�
 
 *あなたの敵対者やあなたの資産を手に入れたいと考える人の一覧を作成します。 一覧には個人、政府機関、企業が含まれる可能性があります。*
 
-Depending on who your adversaries are, under some circumstances, this list might be something you want to destroy after you're done security planning.
+敵対者の種類によっては、この一覧は、セキュリティ計画作成後に破棄した方がよいかもしれません。
 
 ### 守る必要がどの程度あるか？
 
-==Risk is the likelihood that a particular threat against a particular asset will actually occur.== It goes hand-in-hand with capability. While your mobile phone provider has the capability to access all of your data, the risk of them posting your private data online to harm your reputation is low.
+==リスクとは、特定の資産に対する特定の脅威が実際に発生する可能性のことです。==これは、能力と密接に関連します。 携帯電話会社は、あなたのすべてのデータにアクセスする能力がありますが、あなたの個人情報をネット上に公開してあなたの評判を落とすリスクは低いでしょう。
 
-It is important to distinguish between what might happen and the probability it may happen. For instance, there is a threat that your building might collapse, but the risk of this happening is far greater in San Francisco (where earthquakes are common) than in Stockholm (where they are not).
+起こることと、起こる確率を区別することが重要です。 For instance, there is a threat that your building might collapse, but the risk of this happening is far greater in San Francisco (where earthquakes are common) than in Stockholm (where they are not).
 
 Assessing risks is both a personal and subjective process. Many people find certain threats unacceptable, no matter the likelihood they will occur, because the mere presence of the threat is not worth the cost. In other cases, people disregard high risks because they don't view the threat as a problem.
 
@@ -51,7 +51,7 @@ Assessing risks is both a personal and subjective process. Many people find cert
 
 ### 守れなかった場合、どんな悪影響があるか？
 
-There are many ways that an adversary could gain access to your data. For example, an adversary can read your private communications as they pass through the network, or they can delete or corrupt your data.
+敵対者があなたのデータにアクセスする方法はたくさんあります。 For example, an adversary can read your private communications as they pass through the network, or they can delete or corrupt your data.
 
 ==The motives of adversaries differ widely, as do their tactics.== A government trying to prevent the spread of a video showing police violence may be content to simply delete or reduce the availability of that video. In contrast, a political opponent may wish to gain access to secret content and publish that content without you knowing.
 
@@ -91,10 +91,10 @@ Does your neighborhood have a history of burglaries? How trustworthy are your ro
 
 Do you have anything in your house that you cannot replace? Do you have the time or money to replace those things? Do you have insurance that covers goods stolen from your home?
 
-**How much trouble are you willing to go through to prevent these consequences?**
+**守るためにどの程度なら苦労してもいいですか？**
 :
 
-Are you willing to buy a safe for sensitive documents? Can you afford to buy a high-quality lock? Do you have time to open a security box at your local bank and keep your valuables there?
+機密書類用の金庫を購入してもいいですか？ 高品質な鍵を買う余裕はありますか？ 近くの銀行の貸金庫に貴重品を保管する余裕はありますか？
 
 Only once you have asked yourself these questions will you be in a position to assess what measures to take. If your possessions are valuable, but the probability of a break-in is low, then you may not want to invest too much money in a lock. But, if the probability of a break-in is high, you'll want to get the best lock on the market and consider adding a security system.
 

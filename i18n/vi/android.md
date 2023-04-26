@@ -203,9 +203,9 @@ We recommend a wide variety of Android apps throughout this site. The apps liste
     
     Bắt đầu với **Pixel 6** và **6 Pro**, các thiết bị Pixel nhận được bản cập nhật bảo mật được đảm bảo tối thiểu 5 năm, đảm bảo tuổi thọ dài hơn nhiều so với 2-4 năm mà các OEM cạnh tranh thường cung cấp.
     
-    [Store](https://store.google.com/category/phones){ .md-button .md-button--primary } downloads
-    
-        - [:simple-googleplay: Google Play](https://play.google.com/store/apps/details?id=net.typeblog.shelter)
+    [:octicons-repo-16: Repository](https://gitea.angry.im/PeterCxy/Shelter#shelter){ .md-button .md-button--primary }
+    [:octicons-code-16:](https://gitea.angry.im/PeterCxy/Shelter){ .card-link title="Source Code" }
+    [:octicons-heart-16:](https://www.patreon.com/PeterCxy){ .card-link title=Contribute }
 
 !!! warning
 

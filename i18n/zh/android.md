@@ -205,12 +205,8 @@ We recommend a wide variety of Android apps throughout this site. The apps liste
     Shelter支持阻止联系人跨档案搜索，并通过默认文件管理器([DocumentsUI](https://source.android.com/devices/architecture/modular-system/documentsui))跨档案共享文件。
     
     [:octicons-repo-16: Repository](https://gitea.angry.im/PeterCxy/Shelter#shelter){ .md-button .md-button--primary }
-    [:octicons-code-16:](https://gitea.angry.im/PeterCxy/Shelter){ .card-link title="源代码" }
-    [:octicons-heart-16:](https://www.patreon.com/PeterCxy){ .card-link title=贡献 }
-    
-    ??? 下载
-    
-        - [:simple-googleplay: Google Play](https://play.google.com/store/apps/details?id=net.typeblog.shelter)
+    [:octicons-code-16:](https://gitea.angry.im/PeterCxy/Shelter){ .card-link title="Source Code" }
+    [:octicons-heart-16:](https://www.patreon.com/PeterCxy){ .card-link title=Contribute }
 
 !!! 推荐
 

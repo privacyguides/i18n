@@ -1,6 +1,6 @@
 ---
 title: "關於 Privacy Guides"
-description: Privacy Guides is a socially motivated website that provides information for protecting your data security and privacy.
+description: Privacy Guides 是一個社會導向的網站，提供資訊以保護您的資料安全和隱私。
 schema:
   "@context": https://schema.org
   "@type": Organization
@@ -19,40 +19,40 @@ schema:
 
 ![Privacy Guides 圖標](../assets/brand/png/square/pg-yellow.png){ align=right }
 
-**Privacy Guides** is a socially motivated website that provides [information](/kb) for protecting your data security and privacy. Our mission is to inform the public about the value of digital privacy, and global government initiatives which aim to monitor your online activity. We are a non-profit collective operated entirely by volunteer [team members](https://discuss.privacyguides.net/g/team) and contributors. Our website is free of advertisements and not affiliated with any of the listed providers.
+隱私權指南是一個社會導向的網站，提供資訊以保護您的資料安全和隱私。 我們的使命是告知公眾數位隱私的價值，以及全球政府監控線上活動的行徑。 我們是非營利合作，完全由志願者 [團隊成員](https://discuss.privacyguides.net/g/team) 和貢獻者經營。 我們的網站沒有廣告，與任何列出的供應商也沒有商務往來。
 
 [:octicons-home-16:](https://www.privacyguides.org/){ .card-link title=Homepage }
 [:octicons-code-16:](https://github.com/privacyguides/privacyguides.org){ .card-link title="Source Code" }
 [:octicons-heart-16:](donate.md){ .card-link title=Contribute }
 
-> To find [privacy-focused alternative] apps, check out sites like Good Reports and **Privacy Guides**, which list privacy-focused apps in a variety of categories, notably including email providers (usually on paid plans) that aren’t run by the big tech companies.
+> 要查找[以隱私為中心的替代] 應用程式，請查看 Good Reports 和 **Privacy Guides**等網站，這些網站列出了各種類型的以隱私為中心的應用程式，特別包括非大型科技公司運營的電子郵件提供商（通常是付費計劃）。
 
-— [New York Times](https://www.nytimes.com/wirecutter/guides/online-security-social-media-privacy/)
+— [紐約時報](https://www.nytimes.com/wirecutter/guides/online-security-social-media-privacy/)
 
-> If you're looking for a new VPN, you can go to the discount code of just about any podcast. If you are looking for a **good** VPN, you need professional help. The same goes for email clients, browsers, operating systems and password managers. How do you know which of these is the best, most privacy-friendly option? For that there is **Privacy Guides**, a platform on which a number of volunteers search day in, day out for the best privacy-friendly tools to use on the internet.
+> 如果您只需一家新 VPN ，可以去任何播客找到折扣代碼。 如果您要找的是 **優質** VPN ，則需要專業幫助。 電子郵件客戶端、瀏覽器、作業系統和密碼管理器也是如此。 您如何知道哪些是最佳、最適合隱私的選擇？ 為此，有 **Privacy Guides**，平臺裏許多志願者每天都在尋找網際網路隱私友好的最佳工具。
 
-— [Tweakers.net](https://tweakers.net/reviews/10568/op-zoek-naar-privacyvriendelijke-tools-niek-de-wilde-van-privacy-guides.html) [Translated from Dutch]
+— [Tweakers.net](https://tweakers.net/reviews/10568/op-zoek-naar-privacyvriendelijke-tools-niek-de-wilde-van-privacy-guides.html) [翻譯自荷蘭語]
 
-Also featured on: [Ars Technica](https://arstechnica.com/gadgets/2022/02/is-firefox-ok/), [Wirecutter](https://www.nytimes.com/wirecutter/guides/practical-guide-to-securing-windows-pc/) [[2](https://www.nytimes.com/wirecutter/guides/practical-guide-to-securing-your-mac/)], [NPO Radio 1](https://www.nporadio1.nl/nieuws/binnenland/8eaff3a2-8b29-4f63-9b74-36d2b28b1fe1/ooit-online-eens-wat-doms-geplaatst-ga-jezelf-eens-googlen-en-kijk-dan-wat-je-tegenkomt), and [Wired](https://www.wired.com/story/firefox-mozilla-2022/).
+同樣出現在： [Ars Technica](https://arstechnica.com/gadgets/2022/02/is-firefox-ok/)， [Wirecutter](https://www.nytimes.com/wirecutter/guides/practical-guide-to-securing-windows-pc/) [[2](https://www.nytimes.com/wirecutter/guides/practical-guide-to-securing-your-mac/)] ， [NPO Radio 1](https://www.nporadio1.nl/nieuws/binnenland/8eaff3a2-8b29-4f63-9b74-36d2b28b1fe1/ooit-online-eens-wat-doms-geplaatst-ga-jezelf-eens-googlen-en-kijk-dan-wat-je-tegenkomt)和 [Wired](https://www.wired.com/story/firefox-mozilla-2022/)。
 
-## History
+## 歷史
 
-Privacy Guides was launched in September 2021 as a continuation of the [defunct](privacytools.md) "PrivacyTools" open-source educational project. We recognized the importance of independent, criteria-focused product recommendations and general knowledge in the privacy space, which is why we needed to preserve the work that had been created by so many contributors since 2015 and make sure that information had a stable home on the web indefinitely.
+Privacy Guides 於2021年9月推出，是 [已解散的](privacytools.md) "PrivacyTools 開源教育項目的延續。 我們體認到獨立、以標準為重點的產品建議和隱私領域一般知識的重要性，這就是為什麼我們需要保存自2015年以來由這麼多貢獻者創建的工作，並確保資訊無限期地在網路上有一個穩定的家。
 
-In 2022, we completed the transition of our main website framework from Jekyll to MkDocs, using the `mkdocs-material` documentation software. This change made open-source contributions to our site significantly easier for outsiders, because instead of needing to know complicated syntax to write posts effectively, contributing is now as easy as writing a standard Markdown document.
+2022年，我們使用 `mkdocs-material` 文件軟體，完成了主要網站框架從 Jekyll 到 MkDocs 的過渡。 此一變化使網站的開源貢獻對外部人更為容易，不需要知道複雜的語法就可有效地撰寫文章，貢獻現在就像撰寫標準 Markdown文件一樣簡單。
 
-We additionally launched our new discussion forum at [discuss.privacyguides.net](https://discuss.privacyguides.net/) as a community platform to share ideas and ask questions about our mission. This augments our existing community on Matrix, and replaced our previous GitHub Discussions platform, decreasing our reliance on proprietary discussion platforms.
+我們還推出新的討論論壇[discuss.privacyguides.net](https://discuss.privacyguides.net/) ，作為一個社區平臺分享想法並詢問有關我們使命的問題。 這擴大了我們 Matrix 現有社羣，並取代了以前的 GitHub 討論平臺，減少對商業討論平臺的依賴。
 
-So far in 2023 we've launched international translations of our website in [French](/fr/), [Hebrew](/he/), and [Dutch](/nl/), with more languages on the way, made possible by our excellent translation team on [Crowdin](https://crowdin.com/project/privacyguides). We plan to continue carrying forward our mission of outreach and education, and finding ways to more clearly highlight the dangers of a lack of privacy awareness in the modern digital age, and the prevalence and harms of security breaches across the technology industry.
+到2023年目前為止，我們已經推出了網站的國際翻譯 [法語](/fr/)， [希伯來語](/he/)和 [荷蘭語](/nl/)，更多的語言正在進行中，由優秀的翻譯團隊在 [Crowdin](https://crowdin.com/project/privacyguides)上進行。 我們計劃繼續推進外展和教育使命，並尋找方法更清楚地突出現代數位時代缺乏隱私意識的危險，以及整個技術行業安全漏洞的漫延和危害。
 
-## Our Team
+## 我們的團隊
 
 ??? person "@jonah"
 
     - [:simple-discourse: Discourse](https://discuss.privacyguides.net/u/jonah)
     - [:simple-github: GitHub](https://github.com/jonaharagon "@jonaharagon")
     - [:simple-mastodon: Mastodon](https://mastodon.neat.computer/@jonah "@jonah@neat.computer"){rel=me}
-    - [:fontawesome-solid-house: Homepage](https://www.jonaharagon.com)
+    - [:fontawesome-solid-house: 首頁](https://www.jonaharagon.com)
 
 ??? person "@niek-de-wilde"
 
@@ -65,21 +65,21 @@ So far in 2023 we've launched international translations of our website in [Fren
     - [:simple-discourse: Discourse](https://discuss.privacyguides.net/u/dngray)
     - [:simple-github: GitHub](https://github.com/dngray "@dngray")
     - [:simple-mastodon: Mastodon](https://mastodon.social/@dngray "@dngray@mastodon.social"){rel=me}
-    - [:fontawesome-solid-envelope: Email](mailto:dngray@privacyguides.org)
+    - [:fontawesome-solid-envelope: 電子郵箱](mailto:dngray@privacyguides.org)
 
 ??? person "@freddy"
 
     - [:simple-discourse: Discourse](https://discuss.privacyguides.net/u/freddy)
     - [:simple-github: GitHub](https://github.com/freddy-m "@freddy-m")
     - [:simple-mastodon: Mastodon](https://social.lol/@freddy "@freddy@social.lol"){rel=me}
-    - [:fontawesome-solid-envelope: Email](mailto:freddy@privacyguides.org)
-    - [:fontawesome-solid-house: Homepage](https://freddy.omg.lol)
+    - [:fontawesome-solid-envelope: 電子郵箱](mailto:freddy@privacyguides.org)
+    - [:fontawesome-solid-house: 首頁](https://freddy.omg.lol)
 
 ??? person "@mfwmyfacewhen"
 
     - [:simple-discourse: Discourse](https://discuss.privacyguides.net/u/mfwmyfacewhen)
     - [:simple-github: GitHub](https://github.com/mfwmyfacewhen "@mfwmyfacewhen")
-    - [:fontawesome-solid-house: Homepage](https://mfw.omg.lol)
+    - [:fontawesome-solid-house: 首頁](https://mfw.omg.lol)
 
 ??? person "@olivia"
 
@@ -87,16 +87,16 @@ So far in 2023 we've launched international translations of our website in [Fren
     - [:simple-github: GitHub](https://github.com/hook9 "@hook9")
     - [:simple-mastodon: Mastodon](https://mastodon.neat.computer/@oliviablob "@oliviablob@neat.computer"){rel=me}
 
-Additionally, [many people](https://github.com/privacyguides/privacyguides.org/graphs/contributors) have made contributions to the project. You can too, we're open sourced on GitHub, and accepting translation suggestions on [Crowdin](https://crowdin.com/project/privacyguides).
+此外， [許多人](https://github.com/privacyguides/privacyguides.org/graphs/contributors) 為本專案做出了貢獻。 您也可以，在 GitHub 或 [Crowdin](https://crowdin.com/project/privacyguides)提出翻譯建議。
 
-Our team members review all changes made to the website and handle administrative duties such as web hosting and financials, however they do not personally profit from any contributions made to this site. Our financials are transparently hosted by the Open Collective Foundation 501(c)(3) at [opencollective.com/privacyguides](https://opencollective.com/privacyguides). Donations to Privacy Guides are generally tax-deductible in the United States.
+團隊成員會審查對網站所做的所有更改，並處理網站託管和財務等管理職責，但他們不會從對本網站的任何貢獻中獲利。 我們的財務資料由 Open Collective Foundation 501 (c) (3) 透過 [opencollective.com/privacyguides](https://opencollective.com/privacyguides)透明地託管。 在美國，對 Privacy Guides 捐贈通常可以減稅。
 
-## Site License
+## 網站授權
 
 !!! danger ""
 
     以下是人類可讀的[授權](/license)摘要(但無法替代授權內容)。
 
-:fontawesome-brands-creative-commons: :fontawesome-brands-creative-commons-by: :fontawesome-brands-creative-commons-nd: Unless otherwise noted, the original content on this website is made available under the [Creative Commons Attribution-NoDerivatives 4.0 International Public License](https://github.com/privacyguides/privacyguides.org/blob/main/LICENSE). This means that you are free to copy and redistribute the material in any medium or format for any purpose, even commercially; as long as you give appropriate credit to `Privacy Guides (www.privacyguides.org)` and provide a link to the license. You may do so in any reasonable manner, but not in any way that suggests Privacy Guides endorses you or your use. If you remix, transform, or build upon the content of this website, you may not distribute the modified material.
+:fontawesome-brands-creative-commons: :fontawesome-brands-creative-commons-by: :fontawesome-brands-creative-commons-nd: 除非另有說明，本網站的原始內容將根據 [Creative Commons Attribution-NoDerivatives 4.0 International Public License](https://github.com/privacyguides/privacyguides.org/blob/main/LICENSE)授權。 這意味著您可以自由以各種媒介或格式來複製和重新發布，用於入任何目的甚至包括商業，只要給予適當的註明 `Privacy Guides (www.privacyguides.org )` ，並提供版權授權連結。 您可以以任何合理的方式操作，但不能以任何方式暗示 Privacy Guides 為您或您的使用作背書。 如果重新混合，轉換或建立在本網站的內容上，您可能無法發布修改過的材料。
 
-This license is in place to prevent people from sharing our work without giving proper credit, and to prevent people from modifying our work in a way that could be used to mislead people. If you find the terms of this license too restrictive for the project you're working on, please reach out to us at `jonah@privacyguides.org`. We are happy to provide alternative licensing options for well-intentioned projects in the privacy space!
+這個授權是為了防止人們在不給予適當信用下分享我們的作品而，並防止人們可能因而遭誤導。 如果您發現此授權條款對您正在進行的專案過於嚴格，請來信`jonah@privacyguides.org`與我們聯繫。 我們很樂意為隱私領域的善意專案提供替代許可選項！

@@ -108,7 +108,7 @@ Navegador de Mullvad vem com o DuckDuckGo definido como o [mecanismo de pesquisa
 
     ![Firefox logo](assets/img/browsers/firefox.svg){ align=right }
     
-    **Firefox** provides strong privacy settings such as [Enhanced Tracking Protection](https://support.mozilla.org/kb/enhanced-tracking-protection-firefox-desktop), which can help block various [types of tracking](https://support.mozilla.org/kb/enhanced-tracking-protection-firefox-desktop#w_what-enhanced-tracking-protection-blocks).
+    O **Firefox** fornece configurações fortes de privacidade como a [Proteção avançada de rastreio](https://support.mozilla.org/kb/enhanced-tracking-protection-firefox-desktop), que pode ajudar a bloquear varios [tipos de rastreio](https://support.mozilla.org/kb/enhanced-tracking-protection-firefox-desktop#w_what-enhanced-tracking-protection-blocks).
     
     [:octicons-home-16: Homepage](https://firefox.com){ .md-button .md-button--primary }
     [:octicons-eye-16:](https://www.mozilla.org/privacy/firefox/){ .card-link title="Privacy Policy" }
@@ -171,28 +171,28 @@ Isso protege você contra cookies persistentes, mas não te protege contra cooki
 
 Adicionalmente, o serviço de contas Firefox coleta alguns [dados técnicos](https://www.mozilla.org/en-US/privacy/firefox/#firefox-accounts). Se você usa uma Conta Firefox, você pode não optar por isso:
 
-1. Open your [profile settings on accounts.firefox.com](https://accounts.firefox.com/settings#data-collection)
-2. Uncheck **Data Collection and Use** > **Help improve Firefox Accounts**
+1. Abra as suas [configurações de perfil em accounts.firefox.com](https://accounts.firefox.com/settings#data-collection)
+2. Desmarque **Coleta de dados e uso** > **Ajude a melhorar as contas Firefox**
 
 ##### Modo Somente HTTPS
 
 - Selecione **Ativar modo somente HTTPS em todas as janelas**
 
-This prevents you from unintentionally connecting to a website in plain-text HTTP. Sites without HTTPS are uncommon nowadays, so this should have little to no impact on your day to day browsing.
+Isso te previne de se conectar sem querer a um site em plain-text HTTP. Sites sem HTTPS são incomuns hoje em dia, então isso deve trazer pouco ou nenhum impacto na sua navegação do dia a dia.
 
 #### Sync
 
-[Firefox Sync](https://hacks.mozilla.org/2018/11/firefox-sync-privacy/) allows your browsing data (history, bookmarks, etc.) to be accessible on all your devices and protects it with E2EE.
+O [Firefox Sync](https://hacks.mozilla.org/2018/11/firefox-sync-privacy/) permite que seus dados de navegação (histórico, favoritos, etc.) sejam acessíveis em todos os seus dispositivos, além de protegê-los com E2EE.
 
 ### Extensões
 
-!!! tip "Use Mullvad Browser for advanced anti-fingerprinting"
+!!! Dica "Use o Mullvad Browser para proteção avançada contra impressões digitais"
 
-    [Mullvad Browser](#mullvad-browser) provides the same anti-fingerprinting protections as Arkenfox out of the box, and does not require the use of Mullvad's VPN to benefit from these protections. Coupled with a VPN, Mullvad Browser can thwart more advanced tracking scripts which Arkenfox cannot. Arkenfox still has the advantage of being much more flexible, and allowing per-site exceptions for websites which you need to stay logged in to.
+    [Mullvad Browser](#mullvad-browser) fornece as mesmas proteções contra impressões digitais que o Arkenfox, e não requer o uso do Mullvad VPN para usufruir dessas proteções. Acompanhado de uma VPN, o Mullvad Browser pode impedir scripts mais avançados de rastreio que o Arkenfox não é capaz. O Arkenfox ainda tem a vantagem de ser muito mais flexível e personalizável com exceções para cada site que você precisa permanecer logado.
 
-The [Arkenfox project](https://github.com/arkenfox/user.js) provides a set of carefully considered options for Firefox. If you [decide](https://github.com/arkenfox/user.js/wiki/1.1-To-Arkenfox-or-Not) to use Arkenfox, a [few options](https://github.com/arkenfox/user.js/wiki/3.2-Overrides-[Common]) are subjectively strict and/or may cause some websites to not work properly - [which you can easily change](https://github.com/arkenfox/user.js/wiki/3.1-Overrides) to suit your needs. We **strongly recommend** reading through their full [wiki](https://github.com/arkenfox/user.js/wiki). Arkenfox also enables [container](https://support.mozilla.org/en-US/kb/containers#w_for-advanced-users) support.
+O [projeto Arkenfox](https://github.com/arkenfox/user.js) fornece uma série de opções cuidadosamente selecionadas para o Firefox. Se você [decidir](https://github.com/arkenfox/user.js/wiki/1.1-To-Arkenfox-or-Not) usar o Arkenfox, [algumas opções](https://github.com/arkenfox/user.js/wiki/3.2-Overrides-[Common]) são subjetivamente estritas e/ou podem fazer alguns sites não funcionarem corretamente - [as quais você pode facilmente mudar](https://github.com/arkenfox/user.js/wiki/3.1-Overrides) para atender as suas necessidades. Nós **fortemente recomendamos** que você leia [a wiki completa do projeto](https://github.com/arkenfox/user.js/wiki). O Arkenfox também suporta o uso de [containers](https://support.mozilla.org/en-US/kb/containers#w_for-advanced-users).
 
-Arkenfox only aims to thwart basic or naive tracking scripts through canvas randomization and Firefox's built-in fingerprint resistance configuration settings. It does not aim to make your browser blend in with a large crowd of other Arkenfox users in the same way Mullvad Browser or Tor Browser do, which is the only way to thwart advanced fingerprint tracking scripts. Remember you can always use multiple browsers, for example, you could consider using Firefox+Arkenfox for a few sites that you want to stay logged in on or otherwise trust, and Mullvad Browser for general browsing.
+Arkenfox apenas mira em impedir básicos ou ingênuos scripts de rastreio através de uma aleatorização de tela e as configurações incorporadas do Firefox para resistir às impressões digitais. Ele não mira em fazer o seu navegador se misturar com uma grande multidão de outros usuários do Arkenfox na mesma forma que o Mullvad Browser ou o Tor Browser fazem, que é a única forma de impedir scripts avançados de rastreio de impressões digitais. Lembre-se que você pode sempre usar vários navegadores, por exemplo, você pode considerar usar o Firefox + Arkenfox para alguns poucos sites que você confia ou deseja permanecer logado, e o Mullvad Browser para a navegação em um geral.
 
 ## Brave
 
@@ -200,15 +200,15 @@ Arkenfox only aims to thwart basic or naive tracking scripts through canvas rand
 
     ![Brave logo](assets/img/browsers/brave.svg){ align=right }
     
-    **Brave Browser** includes a built-in content blocker and [privacy features](https://brave.com/privacy-features/), many of which are enabled by default.
+    O **Brave Browser** inclui um bloqueador de conteúdo embutido e [recursos de privacidade](https://brave.com/privacy-features/), os quais muitos são ativados por padrão.
     
-    Brave is built upon the Chromium web browser project, so it should feel familiar and have minimal website compatibility issues.
+    O Brave foi construído com base no projeto de navegador Chromium, então deve parecer familiar e ter mínimos problemas de compatibilidade em websites.
     
-    [:octicons-home-16: Homepage](https://brave.com/){ .md-button .md-button--primary }
-    [:simple-torbrowser:](https://brave4u7jddbv7cyviptqjc7jusxh72uik7zt6adtckl5f4nwy2v72qd.onion){ .card-link title="Onion Service" }
-    [:octicons-eye-16:](https://brave.com/privacy/browser/){ .card-link title="Privacy Policy" }
-    [:octicons-info-16:](https://support.brave.com/){ .card-link title=Documentation}
-    [:octicons-code-16:](https://github.com/brave/brave-browser){ .card-link title="Source Code" }
+    [:octicons-home-16: Página Inicial](https://proton.me/mail){ .md-button .md-button--primary }
+    [:simple-torbrowser:](https://protonmailrmez3lotccipshtkleegetolb73fuirgj7r4o4vfu7ozyd.onion){ .card-link title="Serviço Onion" }
+    [:octicons-eye-16:](https://brave.com/privacy/browser){ .card-link title="Política de Privacidade" }
+    [:octicons-info-16:](https://support.brave.com){ .card-link title=Documentação}
+    [:octicons-code-16:](https://github.com/brave/brave-browser){ .card-link title="Código-Fonte" }
     
     ??? downloads annotate
     
@@ -217,99 +217,99 @@ Arkenfox only aims to thwart basic or naive tracking scripts through canvas rand
         - [:simple-apple: macOS](https://brave.com/download/)
         - [:simple-linux: Linux](https://brave.com/linux/) (1)
 
-    1. We advise against using the Flatpak version of Brave, as it replaces Chromium's sandbox with Flatpak's, which is less effective. Additionally, the package is not maintained by Brave Software, Inc.
+    1. Nós aconselhamos a não usar a versão Flatpak do Brave, já que ela substitui o sandbox do Chromium com o Flatpak, que é menos eficaz. Além disso, o pacote de instalação não é mantido pela Brave Software, Inc.
 
 ### Firefox
 
-These options can be found in :material-menu: → **Settings**.
+Essas opções podem ser encontradas em :material-menu: → **Configurações**.
 
-#### Settings
+#### Configurações
 
 ##### Modo Somente HTTPS
 
-Brave includes some anti-fingerprinting measures in its [Shields](https://support.brave.com/hc/en-us/articles/360022973471-What-is-Shields-) feature. We suggest configuring these options [globally](https://support.brave.com/hc/en-us/articles/360023646212-How-do-I-configure-global-and-site-specific-Shields-settings-) across all pages that you visit.
+A Brave inclui algumas medidas anti-impressão digital na sua funcionalidade [Shields](https://support.brave.com/hc/en-us/articles/360022973471-What-is-Shields-) . Nós sugerimos configurar essas opções [globalmente](https://support.brave.com/hc/en-us/articles/360023646212-How-do-I-configure-global-and-site-specific-Shields-settings-) em todas as páginas que você visitar.
 
-Shields' options can be downgraded on a per-site basis as needed, but by default we recommend setting the following:
-
-<div class="annotate" markdown>
-
-- [x] Select **Prevent sites from fingerprinting me based on my language preferences**
-- [x] Select **Aggressive** under Trackers & ads blocking
-
-    ??? warning "Use default filter lists"
-        Brave allows you to select additional content filters within the internal `brave://adblock` page. We advise against using this feature; instead, keep the default filter lists. Using extra lists will make you stand out from other Brave users and may also increase attack surface if there is an exploit in Brave and a malicious rule is added to one of the lists you use.
-
-- [x] (Optional) Select **Block Scripts** (1)
-- [x] Select **Strict, may break sites** under Block fingerprinting
-
-</div>
-
-1. This option provides functionality similar to uBlock Origin's advanced [blocking modes](https://github.com/gorhill/uBlock/wiki/Blocking-mode) or the [NoScript](https://noscript.net/) extension.
-
-##### Social media blocking
-
-- [ ] Uncheck all social media components
-
-##### Privacy and security
+As opções do Shields podem ser reduzidas para cada site caso necessário, mas por padrão nós recomendamos configurar as seguintes:
 
 <div class="annotate" markdown>
 
-- [x] Select **Disable non-proxied UDP** under [WebRTC IP Handling Policy](https://support.brave.com/hc/en-us/articles/360017989132-How-do-I-change-my-Privacy-Settings-#webrtc)
-- [ ] Uncheck **Use Google services for push messaging**
-- [ ] Uncheck **Allow privacy-preserving product analytics (P3A)**
-- [ ] Uncheck **Automatically send daily usage ping to Brave**
-- [ ] Uncheck **Automatically send diagnostic reports**
-- [x] Select **Always use secure connections** in the **Security** menu
-- [ ] Uncheck **Private window with Tor** (1)
+- [x] Selecione **Evitar que os sites me identifiquem com base nas minhas preferências de idioma**
+- [x] Selecione **Agressivo** em Rastreadores e bloqueio de anúncios
 
-    !!! tip "Sanitizing on Close"
+???? alerta "Use as listas de filtro padrão"
+        O Brave permite que você acrescente listas adicionais de filtro através da página interna `brave://adblock`. Nós não aconselhamos a utilizar essa ferramenta; ao invés disso, mantenha as listas de filtro padrão. A utilização de listas extra fará com que se destaque dos outros usuários do Brave e pode também aumentar a superfície de ataque se houver uma vulnerabilidade no Brave e uma regra maliciosa for adicionada a uma das listas que utiliza.
 
-        - [x] Select **Clear cookies and site data when you close all windows** in the *Cookies and other site data* menu
-
-        If you wish to stay logged in to a particular site you visit often, you can set exceptions on a per-site basis under the *Customized behaviors* section.
+- [x] (Opcional) Selecione **Bloquear scripts** (1)
+- [x] Selecione **Restrito, pode quebrar sites** em Bloquear impressões digitais
 
 </div>
 
-1. Brave is **not** as resistant to fingerprinting as the Tor Browser and far fewer people use Brave with Tor, so you will stand out. Where [strong anonymity is required](https://support.brave.com/hc/en-us/articles/360018121491-What-is-a-Private-Window-with-Tor-Connectivity-) use the [Tor Browser](tor.md#tor-browser).
+1. Esta opção fornece uma funcionalidade semelhante aos modos de bloqueio avançados do uBlock Origin [](https://github.com/gorhill/uBlock/wiki/Blocking-mode) ou à extensão [NoScript](https://noscript.net/) .
+
+##### Bloqueio de redes sociais
+
+- [ ] Desmarque todos os componentes de redes sociais
+
+##### Privacidade e Segurança
+
+<div class="annotate" markdown>
+
+- [x] Selecione **Desativar UDP não-proxy** em [Política de manuseio de IP do WebRTC] (https://support.brave.com/hc/en-us/articles/360017989132-How-do-I-change-my-Privacy-Settings-#webrtc)
+- [ ] Desmarque **Use os serviços do Google para receber mensagens push**
+- [ ] Desmarque **Permitir a análise de produtos com preservação da privacidade (P3A)**
+- [ ]Desmarque **Enviar automaticamente um ping diário de uso ao Brave**
+- [ ] Desmarque **Enviar relatórios de diagnóstico automaticamente**
+- [x] Selecione **Sempre usar conexões seguras** no menu **Segurança**
+- [ ] Desmarque **Janela privada com Tor** (1)
+
+    !!! dica "Sanitizar ao fechar"
+
+        - [x] Selecione **Limpar cookies e dados de sites quando você fechar todas as janelas** no menu *Cookies e outros dados do site*
+
+        Se quiser permanecer logado em um site particular que visita com frequência, você pode adicionar exceções para cada site na seção *Comportamentos personalizados*.
+
+</div>
+
+1. O Brave **não** é tão resistente a impressões digitais como o Tor Browser e muito menos pessoas utilizam o Brave com o Tor, então você se destacará. Quando [é necessário um forte anonimato](https://support.brave.com/hc/en-us/articles/360018121491-What-is-a-Private-Window-with-Tor-Connectivity-)utilize o Tor Browser[](tor.md#tor-browser).
 
 ##### Extensões
 
-Disable built-in extensions you do not use in **Extensions**
+Desative as extensões internas que você não usa em **Extensões**
 
-- [ ] Uncheck **Hangouts**
-- [ ] Uncheck **WebTorrent**
+- [ ] Desmarque **Hangouts**
+- [ ] Desmarque **WebTorrent**
 
 ##### Web3
 
-Brave's Web3 features can potentially add to your browser fingerprint and attack surface. Unless you use any of features, they should be disabled.
+As funcionalidades Web3 do Brave podem potencialmente acrescentar à impressão digital do seu navegador e a superfície de ataque. A menos que utilize alguma destas funcionalidades, elas devem estar desativadas.
 
-- [ ] Set **Default Ethereum Wallet** to **None**
-- [ ] Set **Default Solana Wallet** to **None**
-- [ ] Set **Method to resolve IPFS resources** to **Disabled
+- [ ] Defina **Carteira Ethereum padrão** para **Nenhum**
+- [ ] Defina **Carteira Solana Padrão** para **Nenhum**
+- [ ] Defina **Método para resolver recursos de IPFS** como **Desativado**
 
-##### System
+##### Sistema
 
 <div class="annotate" markdown>
 
-- [ ] Uncheck **Continue running apps when Brave is closed** to disable background apps (1)
+- [ ] Desmarque **Continuar executando os aplicativos em segundo plano quando o Brave for fechado** para desativar os aplicativos em segundo plano (1)
 
 </div>
 
-1. This option is not present on all platforms.
+1. Esta opção não está presente em todas as plataformas.
 
 #### Sync
 
-[Brave Sync](https://support.brave.com/hc/en-us/articles/360059793111-Understanding-Brave-Sync) allows your browsing data (history, bookmarks, etc.) to be accessible on all your devices without requiring an account and protects it with E2EE.
+O [Brave Sync](https://support.brave.com/hc/en-us/articles/360059793111-Understanding-Brave-Sync) permite que os seus dados de navegação (histórico, marcadores, etc.) sejam acessíveis em todos os seus dispositivos sem necessidade de uma conta e protege-os com E2EE.
 
-#### Brave Rewards and Wallet
+#### Recompensas Brave e Carteira
 
-**Brave Rewards** lets you recieve Basic Attention Token (BAT) cryptocurrency for performing certain actions within Brave. It relies on a custodial account and KYC from a select number of providers. We do not recommend BAT as a [private cryptocurrency](cryptocurrency.md), nor do we recommend using a [custodial wallet](advanced/payments.md#other-coins-bitcoin-ethereum-etc), so we would discourage using this feature.
+O **Brave Rewards** te permite receber a criptomoeda Basic Attention Token (BAT) por performar certas atividades através do Brave. Ele depende de uma conta de custódia e KYC de um número selecionado de provedores. Nós não recomendamos o BAT como uma [criptomoeda privada](cryptocurrency.md), tampouco recomendamos usar uma [carteira de custódia](advanced/payments.md#other-coins-bitcoin-ethereum-etc), então nós desencorajamos o uso dessa função.
 
-**Brave Wallet** operates locally on your computer, but does not support any private cryptocurrencies, so we would discourage using this feature as well.
+A **Carteira Brave** opera localmente em seu computador, mas não suporta nenhuma criptomoeda privada, então nós desencorajamos o uso dessa ferramenta também.
 
 ## Recursos Adicionais
 
-In general, we recommend keeping your browser extensions to a minimum to decrease your attack surface; they have privileged access within your browser, require you to trust the developer, can make you [stand out](https://en.wikipedia.org/wiki/Device_fingerprint#Browser_fingerprint), and [weaken](https://groups.google.com/a/chromium.org/g/chromium-extensions/c/0ei-UCHNm34/m/lDaXwQhzBAAJ) site isolation. However, uBlock Origin may prove useful if you value content blocking functionality.
+Em geral, nós recomendamos manter as extensões do seu navegador em um mínimo para diminuir a sua superfície de ataque; elas tem acesso previlegiado através do seu navegador, requerem que você confie no desenvolvedor, podem fazer você [se destacar](https://en.wikipedia.org/wiki/Device_fingerprint#Browser_fingerprint), e [enfraquecer](https://groups.google.com/a/chromium.org/g/chromium-extensions/c/0ei-UCHNm34/m/lDaXwQhzBAAJ) o isolamento do site. No entanto, o uBlock Origin pode ser útil se valorizar a funcionalidade de bloqueio de conteúdos.
 
 ### uBlock Origin
 
@@ -317,62 +317,60 @@ In general, we recommend keeping your browser extensions to a minimum to decreas
 
     ![uBlock Origin logo](assets/img/browsers/ublock_origin.svg){ align=right }
     
-    **uBlock Origin** is a popular content blocker that could help you block ads, trackers, and fingerprinting scripts.
+    O **uBlock Origin** é um bloqueador de conteúdo popular que pode te ajudar a bloquear anúncios, rastreadores e scripts de impressão digital.
     
-    [:octicons-repo-16: Repository](https://github.com/gorhill/uBlock#readme){ .md-button .md-button--primary }
-    [:octicons-eye-16:](https://github.com/gorhill/uBlock/wiki/Privacy-policy){ .card-link title="Privacy Policy" }
-    [:octicons-info-16:](https://github.com/gorhill/uBlock/wiki){ .card-link title=Documentation}
-    [:octicons-code-16:](https://github.com/gorhill/uBlock){ .card-link title="Source Code" }
-    
-    ??? downloads
+    [:octicons-repo-16: Repositório](https://github.com/gorhill/uBlock#readme){ .md-button .md-button--primary }
+    [:octicons-eye-16:](https://github.com/gorhill/uBlock/wiki/Privacy-policy){ .card-link title="Política de Privacidade" }
+    [:octicons-info-16:](https://github.com/gorhill/uBlock/wiki){ .card-link title=Documentação}
+    [:octicons-code-16:](https://github.com/gorhill/uBlock){ .card-link title="Código-fonte" } downloads
     
         - [:simple-firefoxbrowser: Firefox](https://addons.mozilla.org/firefox/addon/ublock-origin/)
         - [:simple-googlechrome: Chrome](https://chrome.google.com/webstore/detail/ublock-origin/cjpalhdlnbpafiamejdnhcphjbkeiagm)
         - [:simple-microsoftedge: Edge](https://microsoftedge.microsoft.com/addons/detail/ublock-origin/odfafepnkmbhccpbejgmiehpchacaeak)
 
-We suggest following the [developer's documentation](https://github.com/gorhill/uBlock/wiki/Blocking-mode) and picking one of the "modes". Additional filter lists can impact performance and [may increase attack surface](https://portswigger.net/research/ublock-i-exfiltrate-exploiting-ad-blockers-with-css).
+Nós sugerimos seguir a [documentação do desenvolvedor](https://github.com/gorhill/uBlock/wiki/Blocking-mode) e escolher um dos "modos". Listas de filtros adicionais podem impactar o desempenho e [podem aumentar a superfície de ataque](https://portswigger.net/research/ublock-i-exfiltrate-exploiting-ad-blockers-with-css).
 
-##### Other lists
+##### Outras listas
 
-These are some other [filter lists](https://github.com/gorhill/uBlock/wiki/Dashboard:-Filter-lists) that you may want to consider adding:
+Essas são algumas outras [listas de filtros](https://github.com/gorhill/uBlock/wiki/Dashboard:-Filter-lists) que você pode querer considerar adicionar:
 
-- [x] Check **Privacy** > **AdGuard URL Tracking Protection**
-- Add [Actually Legitimate URL Shortener Tool](https://raw.githubusercontent.com/DandelionSprout/adfilt/master/LegitimateURLShortener.txt)
+- [x] Verifique **Privacidade** > **AdGuard URL Tracking Protection**
+- Adicione [Actually Legitimate URL Shortener Tool](https://raw.githubusercontent.com/DandelionSprout/adfilt/master/LegitimateURLShortener.txt)
 
-## Criteria
+## Critérios
 
-**Please note we are not affiliated with any of the projects we recommend.** In addition to [our standard criteria](about/criteria.md), we have developed a clear set of requirements to allow us to provide objective recommendations. We suggest you familiarize yourself with this list before choosing to use a project, and conduct your own research to ensure it's the right choice for you.
+**Por favor, note que não somos parceiros de nenhum dos produtos que recomendamos.**Em adição aos[nossos critérios básicos](about/criteria.md), desenvolvemos um conjunto claro de requisitos para nos permitir fornecer recomendações objetivas. Recomendamos que você se familiarize com esta lista antes de escolher usar um produto, e que faça sua própria pesquisa para garantir que o produto escolhido é o ideal para você.
 
-!!! example "This section is new"
+!!! exemplo "Essa seção é nova"
 
-    We are working on establishing defined criteria for every section of our site, and this may be subject to change. If you have any questions about our criteria, please [ask on our forum](https://discuss.privacyguides.net/latest) and don't assume we didn't consider something when making our recommendations if it is not listed here. There are many factors considered and discussed when we recommend a project, and documenting every single one is a work-in-progress.
+    Estamos trabalhando para estabelecer critérios definidos para cada seção de nosso site, e isto pode estar sujeito a mudanças. Se você tiver alguma dúvida sobre nossos critérios, por favor [pergunte em nosso fórum](https://discuss.privacyguides.net/latest) e não assuma que não consideramos algo ao fazer nossas recomendações se não estiver listado aqui. Há muitos fatores considerados e discutidos quando recomendamos um projeto, e documentar cada um deles é um trabalho em andamento.
 
-### Minimum Requirements
+### Requisitos Mínimos
 
-- Must be open-source software.
-- Supports automatic updates.
-- Receives engine updates in 0-1 days from upstream release.
-- Available on Linux, macOS, and Windows.
-- Any changes required to make the browser more privacy-respecting should not negatively impact user experience.
-- Blocks third-party cookies by default.
-- Supports [state partitioning](https://developer.mozilla.org/en-US/docs/Web/Privacy/State_Partitioning) to mitigate cross-site tracking.[^1]
+- Deve ser um software de código aberto.
+- Suporta atualizações automáticas.
+- Recebe atualizações de engine em 0-1 dias a partir da versão upstream.
+- Disponível em Linux, macOS e Windows.
+- Quaisquer alterações necessárias para tornar o navegador mais respeitador da privacidade não devem afetar negativamente a experiência do usuário.
+- Bloqueia cookies de terceiros por padrão.
+- Suporta [particionamento de estado](https://developer.mozilla.org/en-US/docs/Web/Privacy/State_Partitioning) para mitigar o rastreio entre sites.[^1]
 
-### Best-Case
+### Melhor Caso
 
-Our best-case criteria represents what we would like to see from the perfect project in this category. Our recommendations may not include any or all of this functionality, but those which do may rank higher than others on this page.
+Os nossos critérios de melhor caso representam o que gostaríamos de ver no projeto perfeito desta categoria. As nossas recomendações podem não incluir todas ou algumas destas funcionalidades, mas as que as incluem podem ter uma classificação mais elevada do que outras nesta página.
 
-- Includes built-in content blocking functionality.
-- Supports cookie compartmentalization (à la [Multi-Account Containers](https://support.mozilla.org/en-US/kb/containers)).
-- Supports Progressive Web Apps.  
-  PWAs enable you to install certain websites as if they were native apps on your computer. This can have advantages over installing Electron-based apps, because you benefit from your browser's regular security updates.
-- Does not include add-on functionality (bloatware) that does not impact user privacy.
-- Does not collect telemetry by default.
-- Provides open-source sync server implementation.
-- Defaults to a [private search engine](search-engines.md).
+- Inclui a funcionalidade de bloqueio de conteúdo integrado.
+- Suporta a compartimentação de cookies (à la [Multi-Account Containers](https://support.mozilla.org/en-US/kb/containers)).
+- Suporta Aplicativos Web Progressivos.  
+  PWAs permitem que você instale certos sites como se eles fossem aplicativos nativos no seu computador. Isso pode ter vantagens sobre a instalação de aplicações baseadas no Electron, pois te beneficia das atualizações de segurança regulares do seu navegador.
+- Não inclui funcionalidades adicionais (bloatware) que não afetam a privacidade do usuário.
+- Não coleta telemetria por padrão.
+- Fornece implementação de servidor de código aberto.
+- O padrão é um [mecanismo de busca privado](search-engines.md).
 
-### Extension Criteria
+### Critérios de extensão
 
-- Must not replicate built-in browser or OS functionality.
-- Must directly impact user privacy, i.e. must not simply provide information.
+- Não deve replicar a funcionalidade incorporada do navegador ou do sistema operacional.
+- Deve ter um impacto direto na privacidade do usuário, ou seja, não deve limitar-se a fornecer informações.
 
-[^1]: Brave's implementation is detailed at [Brave Privacy Updates: Partitioning network-state for privacy](https://brave.com/privacy-updates/14-partitioning-network-state/).
+[^1]: A implementação do Brave é detalhada em [Brave Privacy Updates: Particionamento do estado da rede para privacidade](https://brave.com/privacy-updates/14-partitioning-network-state/).

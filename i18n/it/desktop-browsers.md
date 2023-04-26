@@ -285,7 +285,7 @@ Le funzionalità Web3 di Brave possono potenzialmente aumentare il fingerprint d
 
 - [ ] Imposta **Portafoglio Ethereum predefinito** a **Nessuno**
 - [ ] Imposta **Portafoglio Solana predefinito** a **Nessuno**
-- [ ] Imposta **Metodo di risoluzione delle risorse IPFS** su **Disabilitato
+- [ ] Imposta **Metodo per risolvere le risorse IPFS ** su **Disabilitato**
 
 ##### Sistema
 

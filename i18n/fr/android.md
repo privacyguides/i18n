@@ -208,10 +208,6 @@ Nous recommandons une grande variété d'applications Android sur ce site. Les a
     [:octicons-repo-16: Dépôt](https://gitea.angry.im/PeterCxy/Shelter#shelter){ .md-button .md-button--primary }
     [:octicons-code-16:](https://gitea.angry.im/PeterCxy/Shelter){ .card-link title="Code source" }
     [:octicons-heart-16:](https://www.patreon.com/PeterCxy){ .card-link title=Contribuer }
-    
-    ??? downloads "Téléchargements"
-    
-        - [:simple-googleplay: Google Play](https://play.google.com/store/apps/details?id=net.typeblog.shelter)
 
 !!! warning "Avertissement"
 

@@ -205,13 +205,9 @@ In questo sito raccomandiamo un'ampia gamma di applicazioni per Android. Le app 
     
     Shelter supporta il blocco della ricerca dei contatti tra i profili e la condivisione dei file tra i profili tramite il gestore file predefinito ([DocumentsUI](https://source.android.com/devices/architecture/modular-system/documentsui)).
     
-    [:octicons-repo-16: Repository](https://gitlab.com/spacecowboy/Feeder){ .md-button .md-button--primary }
-    [:octicons-code-16:](https://gitlab.com/spacecowboy/Feeder){ .card-link title="Codice sorgente" }
+    [:octicons-repo-16: Repository](https://gitea.angry.im/PeterCxy/Shelter#shelter){ .md-button .md-button--primary }
+    [:octicons-code-16:](https://gitea.angry.im/PeterCxy/Shelter){ .card-link title="Codice Sorgente" }
     [:octicons-heart-16:](https://www.patreon.com/PeterCxy){ .card-link title=Contribuisci }
-    
-    ??? downloads
-    
-        - [:simple-googleplay: Google Play](https://play.google.com/store/apps/details?id=net.typeblog.shelter)
 
 !!! warning
 

@@ -285,7 +285,7 @@ Las funciones Web3 de Brave pueden aumentar potencialmente la huella digital de 
 
 - [ ] Establece **Cartera predeterminada de Ethereum** como **Ninguno**
 - [ ] Establece **Cartera predeterminada de Solana** como **Ninguno**
-- [ ] Establece **Método para resolver los recursos IPFS** como **Deshabilitado
+- [ ] Establece **Método para resolver los recursos IPFS** como **Deshabilitado**
 
 ##### Sistema
 

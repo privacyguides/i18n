@@ -54,7 +54,7 @@ Der Versuch, alle unsere Daten ständig vor allen zu schützen, ist unpraktisch,
 
 == Dieser Prozess der Identifizierung von Bedrohungen und der Festlegung von Gegenmaßnahmen wird als **Bedrohungsanalyse** bezeichnet== und bildet die Grundlage für jeden guten Sicherheits- und Datenschutzplan.
 
-[:material-book-outline: Learn More About Threat Modeling](basics/threat-modeling.md){ class="md-button md-button--primary" }
+[:material-book-outline: Lerne mehr zur Bedrohungsanalyse ](basics/threat-modeling.md){ class="md-button md-button--primary" }
 
 ---
 
