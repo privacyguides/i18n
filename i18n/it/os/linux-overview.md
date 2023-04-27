@@ -40,13 +40,13 @@ Non crediamo che trattenere i pacchetti e applicare patch provvisorie sia una bu
 
 ### Aggiornamenti tradizionali vs Atomici
 
-Tradizionalmente, le distribuzioni Linux si aggiornano con l'aggiornamento in sequenza dei pacchetti desiderati. Traditional updates such as those used in Fedora, Arch Linux, and Debian based distributions can be less reliable if an error occurs while updating.
+Tradizionalmente, le distribuzioni Linux si aggiornano con l'aggiornamento in sequenza dei pacchetti desiderati. Gli aggiornamenti tradizionali, come quelli utilizzati nelle distribuzioni basate su Fedora, Arch Linux e Debian possono essere meno affidabili se si dovesse verificare un errore durante l'aggiornamento.
 
-Atomic updating distributions apply updates in full or not at all. Typically, transactional update systems are also atomic.
+Le distribuzioni che utilizzano aggiornamenti atomici applicano gli aggiornamenti per intero o non li applicano affatto. Di solito, i sistemi ad aggiornamento transazionali sono anche atomici.
 
-A transactional update system creates a snapshot that is made before and after an update is applied. If an update fails at any time (perhaps due to a power failure), the update can be easily rolled back to a “last known good state."
+Un sistema ad aggiornamento transazionale crea un'istantanea prima e dopo l'applicazione di un aggiornamento. Se un aggiornamento dovesse fallire per un qualsiasi motivo (magari per un'interruzione di corrente), è possibile ripristinare facilmente l'aggiornamento "all'ultimo stato valido."
 
-The Atomic update method is used for immutable distributions like Silverblue, Tumbleweed, and NixOS and can achieve reliability with this model. [Adam Šamalík](https://twitter.com/adsamalik) provided a presentation on how `rpm-ostree` works with Silverblue:
+Il metodo di aggiornamento Atomico viene utilizzato su distribuzioni immutabili come Silverblue, Tumbleweed, e NixOS e possono raggiungere l'affidabilità con questo modello. [Adam Šamalík](https://twitter.com/adsamalik) ha fornito una presentazione su come funziona `rpm-ostree` con Silverblue:
 
 <div class="yt-embed">
   <iframe width="560" height="315" src="https://invidious.privacyguides.net/embed/-hpV5l-gJnQ?local=true" title="Let's try Fedora Silverblue — an immutable desktop OS! - Adam Šamalik" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
@@ -54,11 +54,11 @@ The Atomic update method is used for immutable distributions like Silverblue, Tu
 
 ### Distribuzioni "Incentrate sulla sicurezza"
 
-There is often some confusion between “security-focused” distributions and “pentesting” distributions. A quick search for “the most secure Linux distribution” will often give results like Kali Linux, Black Arch and Parrot OS. These distributions are offensive penetration testing distributions that bundle tools for testing other systems. They don’t include any “extra security” or defensive mitigations intended for regular use.
+Spesso si fa confusione tra distribuzioni "incentrate sulla sicurezza" e distribuzioni "pentesting". Una rapida ricerca per "la distribuzione Linux più sicura" darà spesso risultati come Kali Linux, Black Arch e Parrot OS. Queste distribuzioni sono distribuzioni per effettuare test di penetrazione offensivi che offrono strumenti per testare altri sistemi. Non includono nessuna "sicurezza aggiuntiva" o misure di sicurezza destinate ad un utilizzo regolare.
 
-### Arch-based distributions
+### Distribuzioni basate su Arch
 
-Arch based distributions are not recommended for those new to Linux, (regardless of distribution) as they require regular [system maintenance](https://wiki.archlinux.org/title/System_maintenance). Arch does not have an distribution update mechanism for the underlying software choices. As a result you have to stay aware with current trends and adopt technologies as they supersede older practices on your own.
+Le distribuzioni basate su Arch sono sconsigliate per chi è alle prime armi con Linux, (indipendentemente dalla distribuzione) poiché richiedono una regolare [manuntenzione del sistema](https://wiki.archlinux.org/title/System_maintenance). Arch non dispone di un meccanismo di aggiornamento della distribuzione per le scelte software sottostanti. Di conseguenza, devi tenerti aggiornato circa le tendenze attuali e adottare nuove tecnologie man mano che sostituiscono le vecchie pratiche.
 
 For a secure system, you are also expected to have sufficient Linux knowledge to properly set up security for their system such as adopting a [mandatory access control](https://en.wikipedia.org/wiki/Mandatory_access_control) system, setting up [kernel module](https://en.wikipedia.org/wiki/Loadable_kernel_module#Security) blacklists, hardening boot parameters, manipulating [sysctl](https://en.wikipedia.org/wiki/Sysctl) parameters, and knowing what components they need such as [Polkit](https://en.wikipedia.org/wiki/Polkit).
 

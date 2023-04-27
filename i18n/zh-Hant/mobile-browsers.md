@@ -1,5 +1,5 @@
 ---
-meta_title: "Privacy Respecting Mobile Web Browsers for Android and iOS - Privacy Guides"
+meta_title: "Android 和 iOS 行動版尊隱私的網頁瀏覽器的-Privacy Guides"
 title: "行動瀏覽器"
 icon: material/cellphone-information
 description: 這些瀏覽器是我們目前推薦在手機使用的標準/非匿名互聯網瀏覽器。
@@ -80,15 +80,15 @@ Shields 可以選擇根據需要依各網站情況降級，但我們建議預設
 
 <div class="annotate" markdown>
 
-- [x] Select **Aggressive** under Block trackers & ads
+- [x] 阻止追蹤器和廣告 選擇**積極**
 
-    ??? warning "Use default filter lists"
-        Brave allows you to select additional content filters within the internal `brave://adblock` page. 我們建議您不要使用此功能；請保留預設的篩選條件清單。 使用額外清單將使您在一般 Brave 用戶中被突顯出來，如果Brave有漏洞，並將惡意規則添加到您使用的清單中，也可能會增加攻擊面。
+    ??? warning "使用預設過濾器列表"
+        Brave 允許您在內部 `brave://adblock`頁面中選擇其他內容過濾器。 我們建議您不要使用此功能；請保留預設的篩選條件清單。 使用額外清單將使您在一般 Brave 用戶中被突顯出來，如果Brave有漏洞，並將惡意規則添加到您使用的清單中，也可能會增加攻擊面。
 
-- [x] Select **Upgrade connections to HTTPS**
-- [x] Select **Always use secure connections**
-- [x] (Optional) Select **Block Scripts** (1)
-- [x] Select **Strict, may break sites** under **Block fingerprinting**
+- [x] 選擇 ** 昇級使用 HTTPS 連接 **
+- [x] 選擇 ** 一直使用安全連接 **
+- [x] (可選的) 選擇 * * 封鎖腳本 ** (1)
+- [x] ** Block fingerprinting ** 選擇 **嚴格(可能會打斷網站)* *
 
 </div>
 
@@ -96,23 +96,23 @@ Shields 可以選擇根據需要依各網站情況降級，但我們建議預設
 
 ##### 清除瀏覽資料
 
-- [x] Select **Clear data on exit**
+- [x] Select **清除出口**的數據
 
 ##### 社交媒體屏蔽
 
-- [ ] Uncheck all social media components
+- [ ] 取消勾選所有社交媒體組件
 
 ##### 其他隱私設定
 
 <div class="annotate" markdown>
 
-- [x] Select **Disable non-proxied UDP** under [WebRTC IP Handling Policy](https://support.brave.com/hc/en-us/articles/360017989132-How-do-I-change-my-Privacy-Settings-#webrtc)
-- [ ] Uncheck **Allow sites to check if you have payment methods saved**
-- [ ] Uncheck **IPFS Gateway** (1)
-- [x] Select **Close tabs on exit**
-- [ ] Uncheck **Allow privacy-preserving product analytics (P3A)**
-- [ ] Uncheck **Automatically send diagnostic reports**
-- [ ] Uncheck **Automatically send daily usage ping to Brave**
+- [x] 選擇* *在[WebRTC IP處理政策] (https://support.brave.com/hc/en-us/articles/360017989132-How-do-I-change-my-Privacy-Settings-#webrtc)
+- []取消勾選**允許網站檢查您是否儲存了付款方式* *
+- []取消勾選** IPFS閘道* * (1)
+- [x] 選擇* *關閉出口標籤* *
+- [ ] 取消勾選**允許隱私保護產品分析(P3A) **
+- [ ] 取消勾選**自動發送診斷報告* *
+- [ ] 取消勾選** 自動發送每日使用情況給Brave **
 
 </div>
 
@@ -144,7 +144,7 @@ Shields 可以選擇根據需要依各網站情況降級，但我們建議預設
 
 ##### 跨網站追蹤預防
 
-- [x] Enable **Prevent Cross-Site Tracking**
+- [x] 啓用 **防止跨網站跟蹤**
 
 這將啟用 WebKit [智慧型跟蹤保護](https://webkit.org/tracking-prevention/#intelligent-tracking-prevention-itp)。 該功能透過設備的機器學習來阻止跟蹤器不必要的跟蹤。 ITP 可以防止許多常見的威脅，但它不會阻止所有跟蹤途徑，因為它的設計不會干擾網站的可用性。
 
@@ -156,17 +156,17 @@ Shields 可以選擇根據需要依各網站情況降級，但我們建議預設
 
 ##### 隱私保護廣告測量
 
-- [ ] Disable **Privacy Preserving Ad Measurement**
+- [ ] 禁用 **隱私保留廣告計量**
 
 廣告點擊測量是過去用來追蹤侵犯用戶隱私的技術。 [Private Click Measurement](https://webkit.org/blog/11529/introducing-private-click-measurement-pcm/) 是一個 WebKit 功能和提議的網頁標準，旨在允許廣告商在不影響用戶隱私的情況下衡量網站活動的有效性。
 
 此功能本身沒有什麼隱私疑慮，因此您可以選擇不管它，但我們認為，它在私密瀏覽中自動停用反而顯示出功能被關閉的情況。
 
-##### Always-on Private Browsing
+##### 一直保持私密瀏覽
 
 開啟Safari ，然後點按右下角的「標籤」按鈕。 然後，擴展標籤組列表。
 
-- [x] Select **Private**
+- [x] 選擇 **私密**
 
 Safari的私人瀏覽模式提供額外的隱私保護。 隱私瀏覽每個標籤分頁使用新的 [短暫](https://developer.apple.com/documentation/foundation/urlsessionconfiguration/1410529-ephemeral) 工作階段，這意味著標籤彼此隔離。 隱私瀏覽還有其他較小的隱私優勢，例如在使用Safari的翻譯功能時不會將網頁的地址傳送給Apple。
 
@@ -176,9 +176,9 @@ Safari的私人瀏覽模式提供額外的隱私保護。 隱私瀏覽每個標�
 
 Safari 歷史記錄、標籤組、iCloud 標籤分頁和保存密碼的同步都是 E2EE。 但默認情況下，書籤[不是](https://support.apple.com/en-us/HT202303)。 Apple可以根據其 [隱私權政策](https://www.apple.com/legal/privacy/en-ww/)解密並存取它們。
 
-您可以為Safari 書籤和下載啟用 E2EE ，只需啟用 [Advanced Data Protection](https://support.apple.com/en-us/HT212520)即可。 Go to your **Apple ID name → iCloud → Advanced Data Protection**.
+您可以為Safari 書籤和下載啟用 E2EE ，只需啟用 [Advanced Data Protection](https://support.apple.com/en-us/HT212520)即可。 請在 **Apple ID name → iCloud → 進階資料保護**.
 
-- [x] Turn On **Advanced Data Protection**
+- [x] 開啟 **進階資料保護**
 
 如果您在禁用「進階資料保護」的情況下使用iCloud ，我們亦建議您檢查，確保 Safari 預設下載位置已設定為裝置上的本機位置。 此選項可在 :gear: **設定** → **Safari** → **一般** → **下載**中找到。
 

@@ -43,7 +43,7 @@ If you don't want to give your real email address to a service, you have the opt
 
 Should a service get hacked, you might start receiving phishing or spam emails to the address you used to sign up. Using unique aliases for each service can assist in identifying exactly what service was hacked.
 
-[Recommended email aliasing services](../email.md#email-aliasing-services ""){.md-button}
+[권장 이메일 별칭 서비스](../email.md#email-aliasing-services ""){.md-button}
 
 ### Single sign-on
 
@@ -55,23 +55,23 @@ Single sign-on (SSO) is an authentication method that allows you to register for
 
 When you choose single sign-on in a website, it will prompt your SSO provider login page and after that your account will be connected. Your password won't be shared but some basic information will (you can review it during the login request). This process is needed every time you want to log in to the same account.
 
-The main advantages are:
+주요 장점은 다음과 같습니다:
 
-- **Security**: no risk of being involved in a [data breach](https://en.wikipedia.org/wiki/Data_breach) because the website does not store your credentials.
-- **Ease of use**: multiple accounts are managed by a single login.
+- **보안**: 웹사이트에 여러분의 자격 증명이 저장되지 않으므로, [데이터 유출](https://en.wikipedia.org/wiki/Data_breach) 위험성이 없습니다.
+- **사용 편의성**: 하나의 로그인으로 여러 계정을 관리할 수 있습니다.
 
-But there are disadvantages:
+단점은 다음과 같습니다:
 
-- **Privacy**: a SSO provider will know the services you use.
-- **Centralization**: if your SSO account gets compromised or you aren't able to login to it, all other accounts connected to it are affected.
+- **프라이버시**: SSO 제공 업체는 사용자가 어떤 서비스를 사용하는지 알 수 있습니다.
+- **중앙 집중화**: SSO 계정이 손상되거나 로그인할 수 없는 경우, 해당 계정에 연결된 계정도 전부 영향을 받습니다.
 
 SSO can be especially useful in those situations where you could benefit from deeper integration between services. For example, one of those services may offer SSO for the others. Our recommendation is to limit SSO to only where you need it and protect the main account with [MFA](multi-factor-authentication.md).
 
 All services that use SSO will be as secure as your SSO account. For example, if you want to secure an account with a hardware key but that service doesn't support hardware keys, you can secure your SSO account with a hardware key and now you essentially have hardware MFA on all your accounts. It is worth noting though that weak authentication on your SSO account means that any account tied to that login will also be weak.
 
-### Phone number
+### 전화번호
 
-We recommend avoiding services that require a phone number for sign up. A phone number can identity you across multiple services and depending on data sharing agreements this will make your usage easier to track, particularly if one of those services is breached as the phone number is often **not** encrypted.
+전화번호 입력이 필수적인 서비스를 가입하는 것은 피하는 것이 좋습니다. A phone number can identity you across multiple services and depending on data sharing agreements this will make your usage easier to track, particularly if one of those services is breached as the phone number is often **not** encrypted.
 
 You should avoid giving out your real phone number if you can. Some services will allow the use of VOIP numbers, however these often trigger fraud detection systems, causing an account to be locked down, so we don't recommend that for important accounts.
 

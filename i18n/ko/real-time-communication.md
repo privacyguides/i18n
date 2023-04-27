@@ -103,7 +103,7 @@ Briar supports perfect forward secrecy by using the Bramble [Handshake](https://
 
 ## Additional Options
 
-!!! warning
+!!! warning "경고"
 
     These messengers do not have Perfect [Forward Secrecy](https://en.wikipedia.org/wiki/Forward_secrecy) (PFS), and while they fulfill certain needs that our previous recommendations may not, we do not recommend them for long-term or sensitive communications. Any key compromise among message recipients would affect the confidentiality of **all** past communications.
 
@@ -117,12 +117,12 @@ Briar supports perfect forward secrecy by using the Bramble [Handshake](https://
     
     Messages and files shared in private rooms (those which require an invite) are by default E2EE as are one to one voice and video calls.
     
-    [:octicons-home-16: Homepage](https://element.io/){ .md-button .md-button--primary }
-    [:octicons-eye-16:](https://element.io/privacy){ .card-link title="Privacy Policy" }
-    [:octicons-info-16:](https://element.io/help){ .card-link title=Documentation}
-    [:octicons-code-16:](https://github.com/vector-im){ .card-link title="Source Code" }
+    [:octicons-home-16: 홈페이지](https://element.io/){ .md-button .md-button--primary }
+    [:octicons-eye-16:](https://element.io/privacy){ .card-link title="프라이버시 정책" }
+    [:octicons-info-16:](https://element.io/help){ .card-link title=문서}
+    [:octicons-code-16:](https://github.com/vector-im){ .card-link title="소스 코드" }
     
-    ??? downloads
+    ??? downloads "다운로드"
     
         - [:simple-googleplay: Google Play](https://play.google.com/store/apps/details?id=im.vector.app)
         - [:simple-appstore: App Store](https://apps.apple.com/app/vector/id1083446067)
@@ -132,7 +132,7 @@ Briar supports perfect forward secrecy by using the Bramble [Handshake](https://
         - [:simple-linux: Linux](https://element.io/get-started)
         - [:octicons-globe-16: Web](https://app.element.io)
 
-Profile pictures, reactions, and nicknames are not encrypted.
+프로필 사진, 메시지 반응, 닉네임은 암호화되지 않습니다.
 
 Group voice and video calls are [not](https://github.com/vector-im/element-web/issues/12878) E2EE, and use Jitsi, but this is expected to change with [Native Group VoIP Signalling](https://github.com/matrix-org/matrix-doc/pull/3401). Group calls have [no authentication](https://github.com/vector-im/element-web/issues/13074) currently, meaning that non-room participants can also join the calls. We recommend that you do not use this feature for private meetings.
 
@@ -172,25 +172,25 @@ Oxen requested an independent audit for Session in March of 2020. The audit [con
 
 Session has a [whitepaper](https://arxiv.org/pdf/2002.04609.pdf) describing the technicals of the app and protocol.
 
-## Criteria
+## 평가 기준
 
-**Please note we are not affiliated with any of the projects we recommend.** In addition to [our standard criteria](about/criteria.md), we have developed a clear set of requirements to allow us to provide objective recommendations. We suggest you familiarize yourself with this list before choosing to use a project, and conduct your own research to ensure it's the right choice for you.
+**Privacy Guides는 권장 목록의 어떠한 프로젝트와도 제휴를 맺지 않았습니다.** 객관적인 권장 목록을 제공하기 위해, [일반적인 평가 기준](about/criteria.md)에 더해 명확한 요구 사항을 정립하였습니다. 어떠한 프로젝트를 선택해 사용하기 전에, 이러한 요구 사항들을 숙지하고 여러분 스스로 조사하는 과정을 거쳐 적절한 선택을 하시기 바랍니다.
 
-!!! example "This section is new"
+!!! example "이 단락은 최근에 만들어졌습니다"
 
-    We are working on establishing defined criteria for every section of our site, and this may be subject to change. If you have any questions about our criteria, please [ask on our forum](https://discuss.privacyguides.net/latest) and don't assume we didn't consider something when making our recommendations if it is not listed here. There are many factors considered and discussed when we recommend a project, and documenting every single one is a work-in-progress.
+    Privacy Guides 팀은 사이트의 모든 항목마다 명확한 평가 기준을 정립하는 중이며, 따라서 세부 내용은 변경될 수 있습니다. 평가 기준에 대해서 질문이 있다면 [포럼에서 문의](https://discuss.privacyguides.net/latest)하시기 바랍니다. (무언가가 목록에 존재하지 않다고 해서 권장 목록을 작성할 때 고려한 적이 없을 것으로 단정 짓지 마세요.) 권장 목록에 어떤 프로젝트를 추가할 때 고려하고 논의해야 할 요소는 매우 많으며, 모든 요소를 문서화하는 것은 현재 진행 중인 작업입니다.
 
-- Must have open-source clients.
-- Must use E2EE for private messages by default.
-- Must support E2EE for all messages.
-- Must have been independently audited.
+- 오픈 소스 클라이언트가 있어야 합니다.
+- 비공개 메시지에는 E2EE가 기본 적용이어야 합니다.
+- 모든 메시지에 E2EE가 지원되어야 합니다.
+- 독립적인 감사를 받았어야 합니다.
 
-### Best-Case
+### 우대 사항
 
-Our best-case criteria represents what we would like to see from the perfect project in this category. Our recommendations may not include any or all of this functionality, but those which do may rank higher than others on this page.
+평가 기준에서 '우대 사항'은 해당 부문에서 완벽한 프로젝트에 기대하는 바를 나타냅니다. 다음의 우대 사항에 해당하지 않더라도 권장 목록에 포함될 수 있습니다. 단, 우대 사항에 해당할수록 이 페이지의 다른 항목보다 높은 순위를 갖습니다.
 
-- Should have Perfect Forward Secrecy.
-- Should have open-source servers.
-- Should be decentralized, i.e. federated or P2P.
-- Should use E2EE for all messages by default.
-- Should support Linux, macOS, Windows, Android, and iOS.
+- 완전 순방향 비밀성(Perfect Forward Secrecy)을 보장해야 합니다.
+- 오픈 소스 서버가 있어야 합니다.
+- 탈중앙 방식(연합 방식/P2P 방식)이어야 합니다.
+- 모든 메시지에 E2EE가 기본 적용이어야 합니다.
+- Linux, macOS, Windows, Android, iOS를 지원해야 합니다.
