@@ -109,7 +109,7 @@ A [news aggregator](https://en.wikipedia.org/wiki/News_aggregator) is a way to k
     ![logo Miniflux](/assets/img/news-aggregators/miniflux.svg#only-light){ align=right }
     ![Logotipo Miniflux](/assets/img/news-aggregators/miniflux-dark.svg#only-dark){ align=right }
     
-    **Miniflux** é um agregador de notícias baseado na web que você pode auto-hospedar. Ele suporta [RSS](https://en.wikipedia.org/wiki/RSS), [Atom](https://en.wikipedia.org/wiki/Atom_(Web_standard)), [RDF](https://en.wikipedia.org/wiki/RDF%2FXML) e [JSON Feed](https://en.wikipedia.org/wiki/JSON_Feed).
+    **Miniflux** é um agregador de notícias baseado na web que você pode auto-hospedar. It supports the typical feed formats alongside built-in support for Reddit feeds.
     
     [Visite miniflux.app](https://miniflux.app){ .md-button .md-button--primary }
     

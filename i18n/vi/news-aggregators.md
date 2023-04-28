@@ -96,7 +96,7 @@ A [news aggregator](https://en.wikipedia.org/wiki/News_aggregator) is a way to k
 
     ![NetNewsWire logo](assets/img/news-aggregators/netnewswire.png){ align=right }
     
-    **NetNewsWire** a free and open-source feed reader for macOS and iOS with a focus on a native design and feature set. It supports the typical feed formats alongside built-in support for Twitter and Reddit feeds.
+    **NetNewsWire** a free and open-source feed reader for macOS and iOS with a focus on a native design and feature set. It supports the typical feed formats alongside built-in support for Reddit feeds.
     
     [Homepage](https://miniflux.app){ .md-button .md-button--primary }
     

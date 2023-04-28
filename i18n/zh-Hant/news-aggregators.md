@@ -99,7 +99,7 @@ cover: news-aggregators.png
 
     ! [NetNewsWire標誌] (assets/img/news-aggregators/netnewswire.png) {align = right}
     
-    * * NetNewsWire * *是一款免費開源的訊息源閱讀器，適用於macOS 和 iOS ，專注於原生設計和功能集。 它支持典型 feed 格式，以及對 Twitter 和 Reddit feed 的內置支持。
+    * * NetNewsWire * *是一款免費開源的訊息源閱讀器，適用於macOS 和 iOS ，專注於原生設計和功能集。 它支持典型的Feed 格式與內置支持 Reddit Feed。
     
     [:octicons-home-16: Homepage](https://netnewswire.com/){ .md-button .md-button--primary }
     [:octicons-eye-16:](https://netnewswire.com/privacypolicy){ .card-link title="Privacy Policy" }

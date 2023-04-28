@@ -21,39 +21,39 @@ We recommend looking for particular terms such as "data collection", "data analy
 
 Keep in mind you're also placing your trust in the company or organization and that they will comply with their own privacy policy.
 
-## Authentication methods
+## 인증 방법
 
-There are usually multiple ways to sign up for an account, each with their own benefits and drawbacks.
+계정 가입 방법은 일반적으로 여러 가지가 있으며, 각각 장단점이 있습니다.
 
-### Email and password
+### 이메일 주소와 비밀번호
 
-The most common way to create a new account is by an email address and password. When using this method, you should use a password manager and follow [best practices](passwords-overview.md) regarding passwords.
+새로운 계정을 생성할 때는 이메일 주소와 비밀번호를 사용하는 것이 가장 일반적입니다. 이 경우, 비밀번호 관리자를 사용해야 하며 비밀번호 관련 [모범 사례](passwords-overview.md)를 따라야 합니다.
 
 !!! tip "도움말"
 
-    You can use your password manager to organize other authentication methods too! Just add the new entry and fill the appropriate fields, you can add notes for things like security questions or a backup key.
+    다른 인증 방법도 비밀번호 관리자에서 관리할 수 있습니다! 새 항목을 추가하고 적절한 필드를 채우면 보안 질문, 백업 키 등 관련 메모를 추가할 수 있습니다.
 
-You will be responsible for managing your login credentials. For added security, you can set up [MFA](multi-factor-authentication.md) on your accounts.
+로그인 자격 증명의 관리 책임은 자기 자신에게 있습니다. 보안을 강화하려면 계정에 [MFA](multi-factor-authentication.md)를 설정하세요.
 
 [권장 비밀번호 관리자](../passwords.md ""){.md-button}
 
 #### 이메일 별칭
 
-If you don't want to give your real email address to a service, you have the option to use an alias. We described them in more detail on our email services recommendation page. Essentially, alias services allow you to generate new email addresses that forward all emails to your main address. This can help prevent tracking across services and help you manage the marketing emails that sometimes come with the sign up process. Those can be filtered automatically based on the alias they are sent to.
+실제 이메일 주소를 서비스에 노출하지 않고자 하는 경우 이메일 별칭을 사용할 수 있습니다. (이메일 별칭 관련 자세한 내용은 이메일 서비스 권장 목록 페이지를 참고하세요.) 이메일 별칭 서비스를 사용하면 주요 이메일 주소로 모든 이메일이 전달되는 새로운 이메일 주소를 만들 수 있습니다. 서비스 간 추적을 방지하고, 가입 과정에서 따라온 마케팅 이메일을 관리하는 데에 유용합니다. 어떤 별칭으로 보내졌는지에 따라 자동으로 분류되기 때문입니다.
 
-Should a service get hacked, you might start receiving phishing or spam emails to the address you used to sign up. Using unique aliases for each service can assist in identifying exactly what service was hacked.
+서비스가 해킹당할 경우, 가입한 이메일 주소로 피싱/스팸 메일이 올 수 있습니다. 서비스마다 고유한 별칭을 사용하면 어떤 서비스가 해킹당했는지 식별 가능합니다.
 
 [권장 이메일 별칭 서비스](../email.md#email-aliasing-services ""){.md-button}
 
-### Single sign-on
+### SSO (Single Sign-On)
 
-!!! note
+!!! note "참고"
 
-    We are discussing Single sign-on for personal use, not enterprise users.
+    여기서 다루는 Single Sign-On은 기업용이 아닌 개인용을 지칭합니다.
 
-Single sign-on (SSO) is an authentication method that allows you to register for a service without sharing much information, if any. Whenever you see something along the lines of "Sign-in with *provider name*" on a registration form it's SSO.
+SSO(Single Sign-On)는 많은 정보를 공유하지 않고도 서비스에 가입할 수 있는 인증 방법입니다. 가입 시에 '*제공 업체* (으)로 로그인' 문구로 표시되는 방식이 SSO를 사용하는 것입니다.
 
-When you choose single sign-on in a website, it will prompt your SSO provider login page and after that your account will be connected. Your password won't be shared but some basic information will (you can review it during the login request). This process is needed every time you want to log in to the same account.
+웹사이트에서 SSO를 선택할 경우, SSO 제공 업체의 로그인 페이지를 거쳐 계정이 연결됩니다. 여러분의 비밀번호는 공유되지 않지만, 일부 기본 정보(로그인 과정에서 검토 가능합니다)는 공유됩니다. 이 과정은 해당 계정에 로그인할 때마다 필요합니다.
 
 주요 장점은 다음과 같습니다:
 
@@ -65,18 +65,18 @@ When you choose single sign-on in a website, it will prompt your SSO provider lo
 - **프라이버시**: SSO 제공 업체는 사용자가 어떤 서비스를 사용하는지 알 수 있습니다.
 - **중앙 집중화**: SSO 계정이 손상되거나 로그인할 수 없는 경우, 해당 계정에 연결된 계정도 전부 영향을 받습니다.
 
-SSO can be especially useful in those situations where you could benefit from deeper integration between services. For example, one of those services may offer SSO for the others. Our recommendation is to limit SSO to only where you need it and protect the main account with [MFA](multi-factor-authentication.md).
+SSO는 서비스 간 연동을 통해 이점을 얻을 수 있는 경우 특히 유용합니다. 예를 들어, 서비스 중 하나가 다른 서비스에 SSO를 제공하는 경우가 있습니다. 되도록 SSO는 필요한 경우에만 사용하고, 주요 계정은 [MFA](multi-factor-authentication.md)로 보호할 것을 권장드립니다.
 
-All services that use SSO will be as secure as your SSO account. For example, if you want to secure an account with a hardware key but that service doesn't support hardware keys, you can secure your SSO account with a hardware key and now you essentially have hardware MFA on all your accounts. It is worth noting though that weak authentication on your SSO account means that any account tied to that login will also be weak.
+SSO를 사용하는 모든 서비스는 SSO 계정과 동일한 보안 수준을 갖습니다. 예를 들어, 하드웨어 키를 사용해 계정을 보호하고 싶은데 해당 서비스는 하드웨어 키를 지원하지 않는 경우, SSO 계정을 하드웨어 키로 보호하면 결과적으로 모든 계정을 하드웨어 키로 보호하는 효과를 얻습니다. 하지만 동시에, SSO 계정 인증이 취약할 경우에는 해당 계정에 연결된 모든 계정의 인증 또한 취약해진다는 점을 명심해야합니다.
 
 ### 전화번호
 
-전화번호 입력이 필수적인 서비스를 가입하는 것은 피하는 것이 좋습니다. A phone number can identity you across multiple services and depending on data sharing agreements this will make your usage easier to track, particularly if one of those services is breached as the phone number is often **not** encrypted.
+전화번호 입력이 필수적인 서비스를 가입하는 것은 피하는 것이 좋습니다. 전화번호를 이용하면 여러 서비스에서 사용자를 식별할 수 있으며, 서비스끼리 데이터를 공유하는 경우에는 사용자 추적 또한 간단해집니다. 특히, 어떤 서비스에서 데이터 유출이 발생하는 경우, 전화번호는 암호화되지 **않은** 채로 유출되는 경우가 많기 때문에 더욱 문제가 커집니다.
 
-You should avoid giving out your real phone number if you can. Some services will allow the use of VOIP numbers, however these often trigger fraud detection systems, causing an account to be locked down, so we don't recommend that for important accounts.
+가능하다면, 실제 전화번호를 제공하지 않는 것이 좋습니다. VoIP 번호를 사용할 수 있는 일부 서비스도 있지만, 사기 탐지 시스템에 의해 계정이 잠기는 경우가 많기 때문에 중요한 계정에 VoIP 번호를 사용하는 것은 권장드리지 않습니다.
 
-In many cases you will need to provide a number that you can receive SMS or calls from, particularly when shopping internationally, in case there is a problem with your order at border screening. It's common for services to use your number as a verification method; don't let yourself get locked out of an important account because you wanted to be clever and give a fake number!
+대부분의 경우, 문자나 전화를 실제로 받을 수 있는 번호를 제공해야 합니다. 대표적으로 해외 직구 시에는 세관에서 문제가 발생할 경우를 대비해야 합니다. 서비스에서는 전화번호가 인증 수단의 역할을 하는 것이 일반적이니, 교묘하게 가짜 번호를 입력했다가 중요 계정이 차단되는 일이 없도록 주의하세요!
 
-### Username and password
+### 사용자 이름과 비밀번호
 
-Some services allow you to register without using an email address and only require you to set a username and password. These services may provide increased anonymity when combined with a VPN or Tor. Keep in mind that for these accounts there will most likely be **no way to recover your account** in the event you forget your username or password.
+일부 서비스는 이메일 주소도 사용하지 않고 사용자 이름과 비밀번호만으로 가입할 수 있습니다. 이러한 서비스는 VPN이나 Tor를 함께 사용하면 익명성이 더욱 강화됩니다. 단, 이런 계정은 사용자 이름이나 비밀번호를 잊어버리면 **계정을 복구할 방법이 없을** 가능성이 높습니다.

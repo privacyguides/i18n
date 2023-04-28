@@ -99,7 +99,7 @@ Een [nieuwsaggregator](https://en.wikipedia.org/wiki/News_aggregator) is een man
 
     ![NetNewsWire logo](assets/img/news-aggregators/netnewswire.png){ align=right }
     
-    **NetNewsWire** een gratis en open-source feedlezer voor macOS en iOS met een focus op een native ontwerp en functieset. Het ondersteunt de typische feedformaten naast ingebouwde ondersteuning voor Twitter- en Reddit-feeds.
+    **NetNewsWire** een gratis en open-source feedlezer voor macOS en iOS met een focus op een native ontwerp en functieset. It supports the typical feed formats alongside built-in support for Reddit feeds.
     
     [:octicons-home-16: Homepage](https://netnewswire.com/){ .md-button .md-button--primary }
     [:octicons-eye-16:](https://netnewswire.com/privacypolicy){ .card-link title="Privacybeleid" }

@@ -99,7 +99,7 @@ A [news aggregator](https://en.wikipedia.org/wiki/News_aggregator) is a way to k
 
     ![NetNewsWire logo](assets/img/news-aggregators/netnewswire.png){ align=right }
     
-    **NetNewsWire** är en gratis och öppen källkodsläsare för macOS och iOS med fokus på en inhemsk design och funktionalitet. Den stöder de vanliga feedformaten samt inbyggt stöd för Twitter- och Reddit-flöden.
+    **NetNewsWire** är en gratis och öppen källkodsläsare för macOS och iOS med fokus på en inhemsk design och funktionalitet. It supports the typical feed formats alongside built-in support for Reddit feeds.
     
     [:octicons-home-16: Startsida](https://cryptomator.org){ .md-button .md-button--primary }
     

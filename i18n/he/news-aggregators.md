@@ -99,7 +99,7 @@ cover: news-aggregators.png
 
     ![NetNewsWire לוגו](assets/img/news-aggregators/netnewswire.png){ align=right }
     
-    **NetNewsWire** קורא עדכונים חינמי וקוד פתוח עבור macOS ו-iOS עם התמקדות בעיצוב ותכונות מקוריות. הוא תומך בפורמטי הפיד הטיפוסיים לצד תמיכה מובנית בפיד של טוויטר ו-Reddit.
+    **NetNewsWire** קורא עדכונים חינמי וקוד פתוח עבור macOS ו-iOS עם התמקדות בעיצוב ותכונות מקוריות. It supports the typical feed formats alongside built-in support for Reddit feeds.
     
     [:octicons-home-16: דף הבית](https://netnewswire.com/){ .md-button .md-button--primary }
     [:octicons-eye-16:](https://netnewswire.com/privacypolicy){ .card-link title="מדיניות פרטיות" }

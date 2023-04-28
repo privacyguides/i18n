@@ -1,4 +1,4 @@
-*[2FA]: 2-Factor Authentication
+*[2FA]: المصادقة الثنائية
 *[ADB]: Android Debug Bridge
 *[AOSP]: Android Open Source Project
 *[ATA]: Advanced Technology Attachment

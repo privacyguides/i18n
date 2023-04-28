@@ -1,10 +1,10 @@
 *[2FA]: 雙因素驗證
-*[ADB]: Android Debug Bridge
+*[ADB]: Android 偵錯橋接器
 *[AOSP]: Android 開放原始碼計畫 (AOSP)
 *[ATA]: Advanced Technology Attachment
 *[attack surface]: The total number of possible entry points for unauthorized access to a system
 *[AVB]: Android Verified Boot
-*[cgroups]: Control Groups
+*[cgroups]: 對照組
 *[CLI]: 命令列介面
 *[CSV]: Comma-Separated Values (以逗號分開數值的文件)
 *[CVE]: Common Vulnerabilities and Exposures (常見漏洞和暴露)
@@ -23,15 +23,15 @@
 *[Exif]: 可交換影像檔案格式
 *[FCM]: Firebase 雲消息
 *[FDE]: 完整磁碟加密
-*[FIDO]: Fast IDentity Online
+*[FIDO]: 快速線上身份驗證(FIDO)
 *[fork]: A new software project created by copying an existing project and adding to it independently
-*[GDPR]: General Data Protection Regulation
+*[GDPR]: 一般資料保護法規
 *[GPG]: GNU Privacy Guard (PGP implementation)
-*[GPS]: Global Positioning System
-*[GUI]: Graphical User Interface
+*[GPS]: 全球定位系統
+*[GUI]: 圖形用戶界面
 *[GnuPG]: GNU Privacy Guard (PGP implementation)
-*[HDD]: Hard Disk Drive
-*[HOTP]: HMAC (Hash-based Message Authentication Code) based One-Time Password
+*[HDD]: 硬碟
+*[HOTP]: 雜湊式訊息驗證碼(HMAC)基礎的單次密碼
 *[HTTPS]: Hypertext Transfer Protocol Secure
 *[HTTP]: 超文本傳輸協議
 *[hypervisor]: 多重作業系統中分割CPU資源給電腦軟體、韌體或硬體。
@@ -66,31 +66,31 @@
 *[POP3]: 郵件協議 3
 *[PGP]: Pretty Good Privacy （見OpenPGP ）
 *[PII]: 個人識別資訊
-*[QNAME]: Qualified Name
-*[rolling release]: Updates which are released frequently rather than set intervals
-*[RSS]: Really Simple Syndication
+*[QNAME]: 限定名稱
+*[rolling release]: 頻繁發布而不是設定間隔的更新
+*[RSS]: 真正簡易新聞訂閱方式
 *[SELinux]: Security-Enhanced Linux
 *[SIM]: Subscriber Identity Module
-*[SMS]: Short Message Service (standard text messaging)
-*[SMTP]: Simple Mail Transfer Protocol
-*[SNI]: Server Name Indication
-*[SSD]: Solid-State Drive
-*[SSH]: Secure Shell
-*[SUID]: Set Owner User ID
-*[SaaS]: Software as a Service (cloud software)
-*[SoC]: System on Chip
+*[SMS]: 短訊服務（標準短訊）
+*[SMTP]: 簡易郵件傳輸通訊協定
+*[SNI]: 伺服器名稱指示
+*[SSD]: 固態硬碟
+*[SSH]: 安全殼層
+*[SUID]: 設置所有者用戶ID
+*[SaaS]: 軟體即服務(雲端軟體)
+*[SoC]: 系統晶片
 *[SSO]: 單一登入（Single Sign-On）
-*[TCP]: Transmission Control Protocol
-*[TEE]: Trusted Execution Environment
-*[TLS]: Transport Layer Security
-*[ToS]: Terms of Service
-*[TOTP]: Time-based One-Time Password
-*[TPM]: Trusted Platform Module
-*[U2F]: Universal 2nd Factor
-*[UEFI]: Unified Extensible Firmware Interface
+*[TCP]: 傳輸控制通訊協定
+*[TEE]: 受信任執行環境
+*[TLS]: 傳輸層安全性
+*[ToS]: 服務條款
+*[TOTP]: 按時間計算的一次性密碼
+*[TPM]: 信賴平台模組
+*[U2F]: 通用第二因素
+*[UEFI]: 整合可延伸韌體介面
 *[UDP]: 用戶資料圖報協議
 *[VPN]: 虛擬私密連線
 *[VoIP]: IP語音(Internet通訊協定)
 *[W3C]: 萬維網聯盟
-*[XMPP]: Extensible Messaging and Presence Protocol
+*[XMPP]: 可延伸傳訊與顯示通訊協定(Xmpp)
 *[PWA]: 漸進式網絡應用程式 (PWA)

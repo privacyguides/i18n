@@ -16,14 +16,14 @@ schema:
     name: 安卓
     image: /assets/img/android/android.svg
     url: https://source.android.com/
-    sameAs: https://en.wikipedia.org/wiki/Android_(operating_system)
+    sameAs: https://zh.wikipedia.org/wiki/Android_ (operating_system)
   - 
     "@context": http://schema.org
     "@type": CreativeWork
     name: GrapheneOS
     image: /assets/img/android/grapheneos.svg
     url: https://grapheneos.org/
-    sameAs: https://en.wikipedia.org/wiki/GrapheneOS
+    sameAs: https://zh.wikipedia.org/wiki/GrapheneOS
     subjectOf:
       "@context": http://schema.org
       "@type": WebPage
@@ -34,7 +34,7 @@ schema:
     name: Divest
     image: /assets/img/android/divestos.svg
     url: https://divestos.org/
-    sameAs: https://en.wikipedia.org/wiki/DivestOS
+    sameAs: https://zh.wikipedia.org/wiki/DivestOS
     subjectOf:
       "@context": http://schema.org
       "@type": WebPage
@@ -47,7 +47,7 @@ schema:
       "@type": Brand
       name: Google
     image: /assets/img/android/google-pixel.png
-    sameAs: https://en.wikipedia.org/wiki/Google_Pixel
+    sameAs: https://zh.wikipedia.org/wiki/Google_Pixel
     review:
       "@type": Review
       author:
@@ -68,18 +68,18 @@ schema:
   - 
     "@context": http://schema.org
     "@type": MobileApplication
-    name: Secure Camera
+    name: 安全相機
     applicationCategory: Utilities
     operatingSystem: 安卓
   - 
     "@context": http://schema.org
     "@type": MobileApplication
-    name: Secure PDF Viewer
+    name: 安全的 PDF 檢視器
     applicationCategory: Utilities
     operatingSystem: 安卓
 ---
 
-![Android logo](assets/img/android/android.svg){ align=right }
+![Android 圖標](assets/img/android/android.svg){ align=right }
 
 The **Android Open Source Project** is an open-source mobile operating system led by Google which powers the majority of the world's mobile devices. Most phones sold with Android are modified to include invasive integrations and apps such as Google Play Services, so you can significantly improve your privacy on your mobile device by replacing your phone's default installation with a version of Android without these invasive features.
 
@@ -87,11 +87,11 @@ The **Android Open Source Project** is an open-source mobile operating system le
 [:octicons-info-16:](https://source.android.com/docs){ .card-link title=Documentation}
 [:octicons-code-16:](https://cs.android.com/android/platform/superproject/){ .card-link title="Source Code" }
 
-These are the Android operating systems, devices, and apps we recommend to maximize your mobile device's security and privacy. To learn more about Android:
+These are the Android operating systems, devices, and apps we recommend to maximize your mobile device's security and privacy. 了解更多 Android 資訊：
 
-[General Android Overview :material-arrow-right-drop-circle:](os/android-overview.md ""){.md-button}
+[安卓概况 :material-arrow-right-drop-circle:](os/android-overview.md ""){.md-button}
 
-## AOSP Derivatives
+## AOSP 衍生品
 
 We recommend installing one of these custom Android operating systems on your device, listed in order of preference, depending on your device's compatibility with these operating systems.
 
@@ -150,7 +150,7 @@ DivestOS uses F-Droid as its default app store. Normally, we would recommend avo
     
     Not all of the supported devices have verified boot, and some perform it better than others.
 
-## Android Devices
+## Android 設備
 
 When purchasing a device, we recommend getting one as new as possible. The software and firmware of mobile devices are only supported for a limited time, so buying new extends that lifespan as much as possible.
 
@@ -191,7 +191,7 @@ A few more tips for purchasing a Google Pixel:
 - Look at online community bargain sites in your country. These can alert you to good sales.
 - Google provides a list showing the [support cycle](https://support.google.com/nexus/answer/4457705) for each one of their devices. The price per day for a device can be calculated as: $\text{Cost} \over \text {EOL Date}-\text{Current Date}$, meaning that the longer use of the device the lower cost per day.
 
-## General Apps
+## 一般應用
 
 We recommend a wide variety of Android apps throughout this site. The apps listed here are Android-exclusive and specifically enhance or replace key system functionality.
 
@@ -230,7 +230,7 @@ We recommend a wide variety of Android apps throughout this site. The apps liste
     [:octicons-code-16:](https://attestation.app/source){ .card-link title="Source Code" }
     [:octicons-heart-16:](https://attestation.app/donate){ .card-link title=Contribute }
     
-    ??? downloads
+    ??? 下載
     
         - [:simple-googleplay: Google Play](https://play.google.com/store/apps/details?id=app.attestation.auditor.play)
         - [:simple-github: GitHub](https://github.com/GrapheneOS/Auditor/releases)
@@ -248,7 +248,7 @@ No personally identifiable information is submitted to the attestation service. 
 
 If your [threat model](basics/threat-modeling.md) requires privacy, you could consider using [Orbot](tor.md#orbot) or a VPN to hide your IP address from the attestation service. To make sure that your hardware and operating system is genuine, [perform local attestation](https://grapheneos.org/install/web#verifying-installation) immediately after the device has been installed and prior to any internet connection.
 
-### Secure Camera
+### 安全相機
 
 !!! recommendation
 
@@ -262,7 +262,7 @@ If your [threat model](basics/threat-modeling.md) requires privacy, you could co
     [:octicons-code-16:](https://github.com/GrapheneOS/Camera){ .card-link title="Source Code" }
     [:octicons-heart-16:](https://grapheneos.org/donate){ .card-link title=Contribute }
     
-    ??? downloads
+    ??? 下載
     
         - [:simple-googleplay: Google Play](https://play.google.com/store/apps/details?id=app.grapheneos.camera.play)
         - [:simple-github: GitHub](https://github.com/GrapheneOS/Camera/releases)
@@ -280,7 +280,7 @@ Main privacy features include:
     
     The image orientation metadata is not deleted. If you enable location (in Secure Camera) that **won't** be deleted either. If you want to delete that later you will need to use an external app such as [ExifEraser](data-redaction.md#exiferaser).
 
-### Secure PDF Viewer
+### 安全的 PDF 檢視器
 
 !!! recommendation
 
@@ -295,13 +295,13 @@ Main privacy features include:
     [:octicons-code-16:](https://github.com/GrapheneOS/PdfViewer){ .card-link title="Source Code" }
     [:octicons-heart-16:](https://grapheneos.org/donate){ .card-link title=Contribute }
     
-    ??? downloads
+    ??? 下載
     
         - [:simple-googleplay: Google Play](https://play.google.com/store/apps/details?id=app.grapheneos.pdfviewer.play)
         - [:simple-github: GitHub](https://github.com/GrapheneOS/PdfViewer/releases)
         - [:material-cube-outline: GrapheneOS App Store](https://github.com/GrapheneOS/Apps/releases)
 
-## Obtaining Applications
+## 獲取應用程式
 
 ### GrapheneOS App Store
 
@@ -320,7 +320,7 @@ The Google Play Store requires a Google account to login which is not great for 
     [:octicons-home-16: Homepage](https://auroraoss.com/){ .md-button .md-button--primary }
     [:octicons-code-16:](https://gitlab.com/AuroraOSS/AuroraStore){ .card-link title="Source Code" }
     
-    ??? downloads
+    ??? 下載
     
         - [:simple-gitlab: GitLab](https://gitlab.com/AuroraOSS/AuroraStore/-/releases)
 
@@ -344,7 +344,7 @@ On GitLab, using [Aurora Store](#aurora-store) as an example, you would navigate
 
 `https://gitlab.com/AuroraOSS/AuroraStore/-/tags?format=atom`
 
-#### Verifying APK Fingerprints
+#### 查驗 APK 指紋碼
 
 If you download APK files to install manually, you can verify their signature with the [`apksigner`](https://developer.android.com/studio/command-line/apksigner) tool, which is a part of Android [build-tools](https://developer.android.com/studio/releases/build-tools).
 
@@ -377,7 +377,7 @@ If you download APK files to install manually, you can verify their signature wi
 
 ### F-Droid
 
-![F-Droid logo](assets/img/android/f-droid.svg){ align=right width=120px }
+![F-Droid 圖標](assets/img/android/f-droid.svg){ align=right width=120px }
 
 ==We do **not** currently recommend F-Droid as a way to obtain apps.== F-Droid is often recommended as an alternative to Google Play, particularly in the privacy community. The option to add third-party repositories and not be confined to Google's walled garden has led to its popularity. F-Droid additionally has [reproducible builds](https://f-droid.org/en/docs/Reproducible_Builds/) for some applications and is dedicated to free and open-source software. However, there are [notable problems](https://privsec.dev/posts/android/f-droid-security-issues/) with the official F-Droid client, their quality control, and how they build, sign, and deliver packages.
 
@@ -410,15 +410,15 @@ That said, the [F-Droid](https://f-droid.org/en/packages/) and [IzzyOnDroid](htt
 - Must **not** enable Google Play Services by default.
 - Must **not** require system modification to support Google Play Services.
 
-### Devices
+### 裝置
 
-- Must support at least one of our recommended custom operating systems.
-- Must be currently sold new in stores.
-- Must receive a minimum of 5 years of security updates.
-- Must have dedicated secure element hardware.
+- 必須支援至少一個我們推薦的自訂作業系統。
+- 必須是目前可在商店買到的新品。
+- 至少可獲得 5年的安全更新。
+- 必須有專用的安全元件硬體。
 
-### Applications
+### 應用程式
 
-- Applications on this page must not be applicable to any other software category on the site.
-- General applications should extend or replace core system functionality.
-- Applications should receive regular updates and maintenance.
+- 此頁面上的應用程式不得適用於網站上的任何其他軟體類別。
+- 一般應用程式應擴展或取代核心系統功能。
+- 應用程式應定期更新和維護。

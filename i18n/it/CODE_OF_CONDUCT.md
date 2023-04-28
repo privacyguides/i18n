@@ -1,6 +1,6 @@
 # Codice di condotta Community
 
-**We pledge** to make our community a harassment-free experience for everyone.
+**Ci impegniamo** a rendere la nostra community un'esperienza priva di molestie per tutti.
 
 **We strive** to create a positive environment, using welcoming and inclusive language, and being respectful of the viewpoints of others.
 
@@ -30,13 +30,13 @@ Cosa ci aspettiamo dai membri delle nostre community:
 
 ### Comportamenti non accettati
 
-The following behaviors are considered harassment and are unacceptable within our community:
+I seguenti comportamenti sono considerati molestie e non sono accettati nella nostra community:
 
-- The use of sexualized language or imagery, and sexual attention or advances of any kind
-- Trolling, insulting or derogatory comments, and personal or political attacks
+- L'uso di un linguaggio o di immagini sessualmente esplicite e di attenzioni o avances sessuali di qualsiasi tipo
+- Trolling, commenti offensivi o denigratori e attacchi personali o politici
 - Molestie pubbliche o private
-- Publishing others' private information, such as a physical or email address, without their explicit permission
-- Other conduct which could reasonably be considered inappropriate in a professional setting
+- Pubblicare informazioni private altrui, come il loro indirizzo fisico o email, senza il loro consenso esplicito
+- Altri comportamenti che possono essere considerati inappropriati in un contesto professionale
 
 ## Scope
 
