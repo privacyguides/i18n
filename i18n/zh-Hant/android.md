@@ -1,14 +1,14 @@
 ---
-meta_title: "Android Recommendations: GrapheneOS and DivestOS - Privacy Guides"
+meta_title: "Android 推薦: GrapheneOS 與 DivestOS - Privacy Guides"
 title: "安卓"
 icon: 'simple/android'
-description: You can replace the operating system on your Android phone with these secure and privacy-respecting alternatives.
+description: Android 手機可考慮使用這些更為安全與尊重隱私的作業系統。
 cover: android.png
 schema:
   - 
     "@context": http://schema.org
     "@type": WebPage
-    name: Private Android Operating Systems
+    name: 私密 Android 作業系統
     url: "./"
   - 
     "@context": http://schema.org
@@ -81,7 +81,7 @@ schema:
 
 ![Android 圖標](assets/img/android/android.svg){ align=right }
 
-The **Android Open Source Project** is an open-source mobile operating system led by Google which powers the majority of the world's mobile devices. Most phones sold with Android are modified to include invasive integrations and apps such as Google Play Services, so you can significantly improve your privacy on your mobile device by replacing your phone's default installation with a version of Android without these invasive features.
+**安卓開源項目** 是一個由谷歌領導的開源移動操作系統，為世界上大多數移動設備提供動力。 大多數 Android 系統的手機都經過修改，包括侵入性整合與應用程式，如 Google Play 服務，所以使用無這類侵入性功能的 Android 系統版本取代手機原本預設的安裝，可改善行動設備上的隱私。
 
 [:octicons-home-16:](https://source.android.com/){ .card-link title=Homepage }
 [:octicons-info-16:](https://source.android.com/docs){ .card-link title=Documentation}

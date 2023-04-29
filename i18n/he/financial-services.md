@@ -75,9 +75,9 @@ Privacy.com מספק מידע על הסוחרים מהם אתה רוכש לבנ�
 
 !!! recommendation
 
-    ![CoinCards logo](assets/img/financial-services/coincards.svg){ align=right }
+    ![CoinCards לוגו](assets/img/financial-services/coincards.svg){ align=right }
     
-    **CoinCards** (available in the US and Canada) allows you to purchase gift cards for a large variety of merchants.
+    ** CoinCards ** (זמין בארה"ב ובקנדה) מאפשר לך לרכוש כרטיסי מתנה למגוון גדול של סוחרים.
     
     [:octicons-home-16: דף הבית](https://coincards.com/){ .md-button .md-button--primary }
     [:octicons-eye-16:](https://coincards.com/privacy-policy/){ .card-link title="מדיניות פרטיות" }

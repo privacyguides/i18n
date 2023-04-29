@@ -52,7 +52,7 @@ jonah@privacyguides.org
 
 Per tutte le altre richieste è possibile contattare qualsiasi membro del nostro team.
 
-Per quanto riguarda i reclami ai sensi del GDPR, è possibile presentare reclami alle autorità locali di controllo della protezione dei dati. In France it's the Commission Nationale de l'Informatique et des Libertés which take care and handle the complaints. They provide a [template of complaint letter](https://www.cnil.fr/en/plaintes) to use.
+Per quanto riguarda i reclami ai sensi del GDPR, è possibile presentare reclami alle autorità locali di controllo della protezione dei dati. In Francia è la Commission Nationale de l'Informatique et des Libertés a occuparsi e a gestire i reclami. Forniscono un [modello di lettera di reclamo](https://www.cnil.fr/en/plaintes) da utilizzare.
 
 ## Con chi vengono condivisi i miei dati?
 

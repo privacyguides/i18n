@@ -10,7 +10,7 @@ These are our recommendations for encrypted real-time communication.
 
 [Types of Communication Networks :material-arrow-right-drop-circle:](./advanced/communication-network-types.md)
 
-## Encrypted Messengers
+## 암호화 메신저
 
 These messengers are great for securing your sensitive communications.
 
@@ -18,19 +18,19 @@ These messengers are great for securing your sensitive communications.
 
 !!! recommendation
 
-    ![Signal logo](assets/img/messengers/signal.svg){ align=right }
+    ![Signal 로고](assets/img/messengers/signal.svg){ align=right }
     
-    **Signal** is a mobile app developed by Signal Messenger LLC. The app provides instant messaging, as well as voice and video calling.
+    **Signal**은 Signal Messenger LLC에서 개발한 모바일 앱입니다. 인스턴트 메시지, 음성 및 영상 통화 기능을 제공합니다.
     
-    All communications are E2EE. Contact lists are encrypted using your Signal PIN and the server does not have access to them. Personal profiles are also encrypted and only shared with contacts you chat with.
+    모든 통신은 E2EE가 적용됩니다. 연락처 목록은 Signal PIN으로 암호화되며, 서버에서는 연락처 목록에 접근할 수 없습니다. 개인 프로필 또한 암호화되어 여러분이 대화하는 상대에게만 공유됩니다.
     
-    [:octicons-home-16: Homepage](https://signal.org/){ .md-button .md-button--primary }
-    [:octicons-eye-16:](https://signal.org/legal/#privacy-policy){ .card-link title="Privacy Policy" }
-    [:octicons-info-16:](https://support.signal.org/hc/en-us){ .card-link title=Documentation}
-    [:octicons-code-16:](https://github.com/signalapp){ .card-link title="Source Code" }
-    [:octicons-heart-16:](https://signal.org/donate/){ .card-link title=Contribute }
+    [:octicons-home-16: 홈페이지](https://signal.org/){ .md-button .md-button--primary }
+    [:octicons-eye-16:](https://signal.org/legal/#privacy-policy){ .card-link title="프라이버시 정책" }
+    [:octicons-info-16:](https://support.signal.org/hc/en-us){ .card-link title=문서}
+    [:octicons-code-16:](https://github.com/signalapp){ .card-link title="소스 코드" }
+    [:octicons-heart-16:](https://signal.org/donate/){ .card-link title=기부 }
     
-    ??? downloads
+    ??? downloads "다운로드"
     
         - [:simple-googleplay: Google Play](https://play.google.com/store/apps/details?id=org.thoughtcrime.securesms)
         - [:simple-appstore: App Store](https://apps.apple.com/app/id874139669)

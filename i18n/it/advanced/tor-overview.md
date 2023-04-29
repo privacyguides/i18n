@@ -6,16 +6,16 @@ description: Tor è una rete decentralizzata e gratuita progettata per utilizzar
 
 Tor è una rete decentralizzata e gratuita progettata per utilizzare Internet con la massima privacy possibile. Se utilizzata correttamente, la rete consente di navigare e comunicare in modo privato e anonimo.
 
-## Path Building to Clearnet Services
+## Costruzione del percorso verso i servizi Clearnet
 
-"Clearnet services" are websites which you can access with any browser, like [privacyguides.org](https://www.privacyguides.org). Tor lets you connect to these websites anonymously by routing your traffic through a network comprised of thousands of volunteer-run servers called nodes (or relays).
+I "servizi Clearnet" sono siti web accessibili tramite qualsiasi browser, come [privacyguides.org](https://www.privacyguides.org). Tor ti consente di collegarti a questi siti web in maniera anonima indirizzando il tuo traffico attraverso una rete composta da migliaia di server gestiti da volontari chiamati nodi (o relay).
 
 Ogni volta che ti [connetti a Tor](../tor.md), sceglierà 3 nodi per costruire un percorso verso internet—questo percorso è chiamato "circuito."
 
 <figure markdown>
-  ![Tor path showing your device connecting to an entry node, middle node, and exit node before reaching the destination website](../assets/img/how-tor-works/tor-path.svg#only-light)
-  ![Tor path showing your device connecting to an entry node, middle node, and exit node before reaching the destination website](../assets/img/how-tor-works/tor-path-dark.svg#only-dark)
-  <figcaption>Tor circuit pathway</figcaption>
+  ![Percorso di Tor che mostra il tuo dispositivo che si connette ad un nodo di ingresso, ad un nodo centrale, e ad un nodo di uscita prima di raggiungere il sito web di destinazione](../assets/img/how-tor-works/tor-path.svg#only-light)
+  ![Percorso di Tor che mostra il tuo dispositivo che si connette ad un nodo di ingresso, ad un nodo centrale, e ad un nodo di uscita prima di raggiungere il sito web di destinazione](../assets/img/how-tor-works/tor-path-dark.svg#only-dark)
+  <figcaption>Percorso del circuito Tor</figcaption>
 </figure>
 
 Ciascuno di questi nodi ha una propria funzione:
@@ -38,48 +38,48 @@ Il nodo di uscita è il punto in cui il traffico web lascia la rete Tor e viene 
 
 Il nodo di uscita sarà scelto a caso tra tutti i nodi Tor disponibili con un flag di uscita.[^2]
 
-## Path Building to Onion Services
+## Costruzione del percorso verso i servizi Onion
 
-"Onion Services" (also commonly referred to as "hidden services") are websites which can only be accessed by the Tor browser. These websites have a long randomly generated domain name ending with `.onion`.
+I "servizi Onion" (comunemente chiamati "servizi nascosti") sono siti web accessibili solo attraverso il browser Tor. Questi siti web hanno un lungo dominio generato randomicamente che termina con `.onion`.
 
-Connecting to an Onion Service in Tor works very similarly to connecting to a clearnet service, but your traffic is routed through a total of **six** nodes before reaching the destination server. Just like before however, only three of these nodes are contributing to *your* anonymity, the other three nodes protect *the Onion Service's* anonymity, hiding the website's true IP and location in the same manner that Tor Browser is hiding yours.
+La connessione ad un servizio Onion su Tor funziona in un modo simile alla connessione ad un servizio Clearnet, ma il tuo traffico viene indirizzato attraverso un totale di **sei** nodi prima di raggiungere il server di destinazione. Come in precedenza, tuttavia, solo tre di questi nodi contribuiscono al *tuo* anonimato, mentre gli altri tre nodi proteggono *l'anonimato dei servizi Onion *nascondendo il vero IP e la posizione del sito web nello stesso modo in cui il browser Tor nasconde la tua.
 
 <figure style="width:100%" markdown>
-  ![Tor path showing your traffic being routed through your three Tor nodes plus three additional Tor nodes which hide the website's identity](../assets/img/how-tor-works/tor-path-hidden-service.svg#only-light)
-  ![Tor path showing your traffic being routed through your three Tor nodes plus three additional Tor nodes which hide the website's identity](../assets/img/how-tor-works/tor-path-hidden-service-dark.svg#only-dark)
-  <figcaption>Tor circuit pathway with Onion Services. Nodes in the <span class="pg-blue">blue</span> fence belong to your browser, while nodes in the <span class="pg-red">red</span> fence belong to the server, so their identity is hidden from you.</figcaption>
+  ![Percorso di Tor che mostra il traffico indirizzato attraverso i tuoi tre nodi Tor più altri tre nodi Tor che nascondono l'identità del sito web](../assets/img/how-tor-works/tor-path-hidden-service.svg#only-light)
+  ![Percorso di Tor che mostra il traffico indirizzato attraverso i tuoi tre nodi Tor più altri tre nodi Tor che nascondono l'identità del sito web](../assets/img/how-tor-works/tor-path-hidden-service-dark.svg#only-dark)
+  <figcaption>Percorso del circuito Tor con i servizi Onion. I nodi nel recinto <span class="pg-blue">blu</span> appartengono al tuo browser, mentre i nodi nel recinto <span class="pg-red">rosso</span> appartengono al server, quindi la loro identità è nascosta all'utente.</figcaption>
 </figure>
 
 ## Crittografia
 
-Tor encrypts each packet (a block of transmitted data) three times with the keys from the exit, middle, and entry node—in that order.
+Tor cripta ogni pacchetti (un blocco di dati trasmetti) tre volte con la chiave dei nodi di uscita, centrale e di ingresso—in questo ordine.
 
-Once Tor has built a circuit, data transmission is done as follows:
+Una volta che Tor ha costruito un circuito, la trasmissione dei dati avviene in questo modo:
 
-1. Firstly: when the packet arrives at the entry node, the first layer of encryption is removed. In this encrypted packet, the entry node will find another encrypted packet with the middle node’s address. The entry node will then forward the packet to the middle node.
+1. Prima di tutto, quando il pacchetto arriva al nodo di ingresso, il primo livello di crittografia viene rimosso. In questo pacchetto criptato, il nodo di ingresso troverà un altro pacchetto criptato con l'indirizzo del nodo centrale. Il nodo di ingresso invierà quindi il pacchetto al nodo centrale.
 
-2. Secondly: when the middle node receives the packet from the entry node, it too will remove a layer of encryption with its key, and this time finds an encrypted packet with the exit node's address. The middle node will then forward the packet to the exit node.
+2. Successivamente, quando il nodo centrale riceve il pacchetto dal nodo di ingresso, rimuoverà anche lui un livello di crittografia con la sua chiave, e questa volta troverà un pacchetto criptato con l'indirizzo del nodo di uscita. Il nodo centrale invierà quindi il pacchetto al nodo di uscita.
 
-3. Lastly: when the exit node receives its packet, it will remove the last layer of encryption with its key. The exit node will see the destination address and forward the packet to that address.
+3. Infine, quando il nodo di uscita riceve il suo pacchetto, rimuoverà l'ultimo livello di crittografia con la sua chiave. Il nodo d'uscita vedrà l'indirizzo di destinazione e invierà il pacchetto a quell'indirizzo.
 
-Below is an alternative diagram showing the process. Each node removes its own layer of encryption, and when the destination server returns data, the same process happens entirely in reverse. For example, the exit node does not know who you are, but it does know which node it came from, and so it adds its own layer of encryption and sends it back.
+Di seguito è riportato un diagramma alternativo che mostra il processo. Ogni nodo rimuove il proprio livello di crittografia e quando il server di destinazione ritorna i dati, lo stesso processo avviene interamente al contrario. Per esempio, il nodo di uscita non sa chi sei, ma sa da quale nodo arriva il pacchetto, e quindi aggiunge il proprio livello di crittografia e lo invia indietro.
 
 <figure markdown>
-  ![Tor encryption](../assets/img/how-tor-works/tor-encryption.svg#only-light)
-  ![Tor encryption](../assets/img/how-tor-works/tor-encryption-dark.svg#only-dark)
-  <figcaption>Sending and receiving data through the Tor Network</figcaption>
+  ![Crittografia Tor](../assets/img/how-tor-works/tor-encryption.svg#only-light)
+  ![Crittografia Tor](../assets/img/how-tor-works/tor-encryption-dark.svg#only-dark)
+  <figcaption>Inviare e ricevere dati attraverso la rete Tor</figcaption>
 </figure>
 
-Tor allows us to connect to a server without any single party knowing the entire path. The entry node knows who you are, but not where you are going; the middle node doesn’t know who you are or where you are going; and the exit node knows where you are going, but not who you are. Because the exit node is what makes the final connection, the destination server will never know your IP address.
+Tor permette di connetterci ad un server senza che nessuno conosca l'intero percorso. Il nodo di ingresso sa chi sei, ma non sa dove stai andando; il nodo centrale non sa chi sei o dove stai andando; e il nodo di uscita sa dove stai andando, ma non sa chi sei. Poiché il nodo di uscita è quello che effettua la connessione finale, il server di destinazione non saprà mai il vostro indirizzo IP.
 
-## Caveats
+## Avvertenze
 
-Though Tor does provide strong privacy guarantees, one must be aware that Tor is not perfect:
+Sebbene Tor fornisca forti garanzie di privacy, devi essere consapevole che Tor non è perfetto:
 
-- Well-funded adversaries with the capability to passively watch most network traffic over the globe have a chance of deanonymizing Tor users by means of advanced traffic analysis. Nor does Tor protect you from exposing yourself by mistake, such as if you share too much information about your real identity.
-- Tor exit nodes can also monitor traffic that passes through them. This means traffic which is not encrypted, such as plain HTTP traffic, can be recorded and monitored. If such traffic contains personally identifiable information, then it can deanonymize you to that exit node. Thus, we recommend using HTTPS over Tor where possible.
+- Avversari ben finanziati, in grado di osservare passivamente la maggior parte del traffico di rete in tutto il mondo, hanno la possibilità di deanonimizzare gli utenti Tor attraverso un'analisi avanzata del traffico. Tor non vi protegge nemmeno dal rischio di esporvi per errore, per esempio se condividete troppe informazioni private sulla vostra identità.
+- I nodi di uscita Tor possono monitorare il traffico che li attraversa. Questo significa il traffico non è criptato, come il semplice traffico HTTP, può essere facilmente registrato e monitorato. Se tale traffico contiene informazioni personali, allora può deanonimizzarti a quel nodo d'uscita. Pertanto, consigliamo di usare HTTPS over Tor, ove possibile.
 
-If you wish to use Tor for browsing the web, we only recommend the **official** Tor Browser—it is designed to prevent fingerprinting.
+Se desideri utilizzare Tor per navigare nel web, consigliamo solo il browser Tor **ufficiale**—è progettato per prevenire il rilevamento del fingerprinting.
 
 - [Tor Browser :material-arrow-right-drop-circle:](../tor.md#tor-browser)
 
@@ -89,6 +89,6 @@ If you wish to use Tor for browsing the web, we only recommend the **official** 
 - [Come funziona Tor - Computerphile](https://invidious.privacyguides.net/embed/QRYzre4bf7I?local=true) <small>(YouTube)</small>
 - [Servizi Tor Onion - Computerphile](https://invidious.privacyguides.net/embed/lVcbq_a5N9I?local=true) <small>(YouTube)</small>
 
-[^1]: The first relay in your circuit is called an "entry guard" or "guard". It is a fast and stable relay that remains the first one in your circuit for 2-3 months in order to protect against a known anonymity-breaking attack. The rest of your circuit changes with every new website you visit, and all together these relays provide the full privacy protections of Tor. For more information on how guard relays work, see this [blog post](https://blog.torproject.org/improving-tors-anonymity-changing-guard-parameters) and [paper](https://www-users.cs.umn.edu/~hoppernj/single_guard.pdf) on entry guards. ([https://support.torproject.org/tbb/tbb-2/](https://support.torproject.org/tbb/tbb-2/))
+[^1]: Il primo relè del tuo circuito viene chiamato "guardia d'ingresso" o "guardia". Si tratta di un relè veloce e stabile che resta il primo nel tuo circuito per 2-3 mesi per proteggerti da un attacco utile a deanonimizzarti. Il resto del circuito cambia ad ogni nuovo sito web che visiti, e tutti insieme questi relè forniscono la protezione completa della privacy di Tor. Per informazioni aggiuntive sul funzionamento dei relè di protezione, consulta il [post del blog](https://blog.torproject.org/improving-tors-anonymity-changing-guard-parameters) e il [documento](https://www-users.cs.umn.edu/~hoppernj/single_guard.pdf) sulle guardie d'ingresso. ([https://support.torproject.org/tbb/tbb-2/](https://support.torproject.org/tbb/tbb-2/))
 
-[^2]: Relay flag: a special (dis-)qualification of relays for circuit positions (for example, "Guard", "Exit", "BadExit"), circuit properties (for example, "Fast", "Stable"), or roles (for example, "Authority", "HSDir"), as assigned by the directory authorities and further defined in the directory protocol specification. ([https://metrics.torproject.org/glossary.html](https://metrics.torproject.org/glossary.html))
+[^2]: Flag dei relè: una speciale (s-)qualificazione dei relè per le posizioni dei circuiti (ad esempio, "Guardia", "Uscita", "BadExit"), le proprietà dei circuiti (ad esempio, "Veloce", "Stabile") o i ruoli (ad esempio, "Authority", "HSDir"), come assegnati dalle autorità di directory e ulteriormente definiti nelle specifiche del protocollo di directory. ([https://metrics.torproject.org/glossary.html](https://metrics.torproject.org/glossary.html))

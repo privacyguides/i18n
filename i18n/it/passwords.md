@@ -159,7 +159,7 @@ Questi gestori di password sincronizzano le password su un server cloud per faci
 
 Bitwarden dispone anche di [Bitwarden Send](https://bitwarden.com/products/send/), che consente di condividere testi e file in modo sicuro con [crittografia end-to-end](https://bitwarden.com/help/send-encryption). Una password [](https://bitwarden.com/help/send-privacy/#send-passwords) può essere richiesta insieme al link di invio. Bitwarden Send dispone anche di [cancellazione automatica](https://bitwarden.com/help/send-lifespan).
 
-Per poter condividere i file è necessario il [piano Premium](https://bitwarden.com/help/about-bitwarden-plans/#compare-personal-plans). Il piano gratuito consente solo la condivisione del testo.
+Per poter condividere i file è necessario il [piano Premium](https://bitwarden.com/help/about-bitwarden-plans/#compare-personal-plans). Il piano gratuito consente solo la condivisione di testo.
 
 Il codice lato server di Bitwarden è [open-source](https://github.com/bitwarden/server), quindi se non vuoi usare il cloud Bitwarden, puoi facilmente ospitare il proprio server di sincronizzazione Bitwarden.
 
@@ -201,14 +201,7 @@ Un vantaggio di 1Password rispetto a Bitwarden è il supporto di prima classe pe
 
     ![Logo Psono](assets/img/password-management/psono.svg){ align=right }
     
-    **Psono** è un gestore di password gratuito e open-source sviluppato in Germania, con particolare attenzione alla gestione delle password per i team. Psono supporta la condivisione sicura di password, file, segnalibri ed email. download
-    
-        - [:simple-windows11: Windows](https://keepassxc.org/download/#windows)
-        - [:simple-apple: macOS](https://keepassxc.org/download/#mac)
-        - [:simple-linux: Linux](https://keepassxc.org/download/#linux)
-        - [:simple-flathub: Flatpak](https://flathub.org/apps/details/org.keepassxc.KeePassXC)
-        - [:simple-firefoxbrowser: Firefox](https://addons.mozilla.org/firefox/addon/keepassxc-browser)
-        - [:simple-googlechrome: Chrome](https://chrome.google.com/webstore/detail/keepassxc-browser/oboonakemofpalcgghocfoadofidjkkk)
+    **Psono** è un gestore di password gratuito e open-source sviluppato in Germania, con particolare attenzione alla gestione delle password per i team. Psono supporta la condivisione sicura di password, file, segnalibri ed email. Tutti i segreti sono protetti da una password principale.
     
     [:octicons-home-16: Pagina principale](https://psono.com){ .md-button .md-button--primary }
     [:octicons-eye-16:](https://psono.com/privacy-policy){ .card-link title="Informativa sulla privacy" }

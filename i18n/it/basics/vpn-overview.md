@@ -21,7 +21,7 @@ Tuttavia, nascondono l'IP reale da un servizio di terze parti, a condizione che 
 
 ## Quando non dovrei usare una VPN?
 
-È improbabile che l'uso di una VPN nei casi in cui si utilizza la propria [identità nota](../basics/common-threats.en.md#common-misconceptions) sia utile.
+È inutile utilizzare una VPN nei casi in cui si utilizza la [propria identità ](common-threats.md#common-misconceptions).
 
 In questo modo si possono attivare sistemi di spam e di rilevamento delle frodi, come nel caso in cui si acceda al sito web della propria banca.
 
@@ -35,7 +35,7 @@ Per garantire la riservatezza e la sicurezza di ciò che si fa sui siti web visi
 
 A meno che il provider VPN non ospiti i server DNS criptati, **no**. L'utilizzo di DOH/DOT (o di qualsiasi altra forma di DNS crittografato) con server di terze parti aggiungerà semplicemente altre entità di cui fidarsi e non farà **assolutamente nulla** per migliorare la privacy o la sicurezza. Il provider VPN può comunque vedere quali siti web visiti in base agli indirizzi IP e ad altri metodi. Invece di fidarti solo del provider VPN, ora ti fidi sia del provider VPN che del provider DNS.
 
-Un motivo comune per raccomandare il DNS crittografato è che aiuta a contrastare lo spoofing DNS. Tuttavia, il browser dovrebbe già verificare la presenza di [certificati TLS](https://en.wikipedia.org/wiki/Transport_Layer_Security#Digital_certificates) con **HTTPS** e avvisare l'utente. Se non si utilizza **HTTPS**, un avversario può comunque modificare qualsiasi cosa oltre alle query DNS e il risultato finale sarà poco diverso.
+Un motivo comune per raccomandare il DNS crittografato è che aiuta a contrastare lo spoofing DNS. Tuttavia, il browser dovrebbe già verificare la presenza di [certificati TLS](https://en.wikipedia.org/wiki/Transport_Layer_Security#Digital_certificates) con **HTTPS** e avvisare l'utente. Se non stai utilizzando **HTTPS**, un avversario può comunque modificare qualsiasi cosa oltre alle query DNS e il risultato finale sarà poco diverso.
 
 Inutile dire che **non si dovrebbero usare DNS criptati con Tor**. Questo indirizzerebbe tutte le vostre richieste DNS attraverso un unico circuito e permetterebbe al provider DNS criptato di deanonimizzarvi.
 
@@ -49,7 +49,7 @@ Le VPN non possono garantire l'anonimato. Il provider VPN vedrà comunque il ver
 
 ## E i fornitori di VPN che forniscono nodi Tor?
 
-Non utilizzare questa funzione. Il punto di forza dell'utilizzo di Tor è che non ti fidt del provider VPN. Attualmente Tor supporta solo il protocollo [TCP](https://en.wikipedia.org/wiki/Transmission_Control_Protocol). [UDP](https://en.wikipedia.org/wiki/User_Datagram_Protocol) (utilizzato in [WebRTC](https://en.wikipedia.org/wiki/WebRTC) per la condivisione di voce e video, il nuovo protocollo [HTTP3/QUIC](https://en.wikipedia.org/wiki/HTTP/3), ecc.), [ICMP](https://en.wikipedia.org/wiki/Internet_Control_Message_Protocol) e altri pacchetti saranno eliminati. Per compensare questa situazione, i fornitori di VPN di solito instradano tutti i pacchetti non-TCP attraverso il loro server VPN (il primo hop). Questo è il caso di [ProtonVPN](https://protonvpn.com/support/tor-vpn/). Inoltre, quando si utilizza questa configurazione di Tor su VPN, non si ha il controllo su altre importanti funzionalità di Tor come [Isolated Destination Address](https://www.whonix.org/wiki/Stream_Isolation) (utilizzo di un circuito Tor diverso per ogni dominio visitato).
+Non usare questa funzione. Il punto di forza dell'utilizzo di Tor è che non ti devi fidare del provider VPN. Attualmente Tor supporta solo il protocollo [TCP](https://en.wikipedia.org/wiki/Transmission_Control_Protocol). [UDP](https://en.wikipedia.org/wiki/User_Datagram_Protocol) (utilizzato in [WebRTC](https://en.wikipedia.org/wiki/WebRTC) per la condivisione di voce e video, il nuovo protocollo [HTTP3/QUIC](https://en.wikipedia.org/wiki/HTTP/3), ecc.), [ICMP](https://en.wikipedia.org/wiki/Internet_Control_Message_Protocol) e altri pacchetti saranno eliminati. Per compensare questa situazione, i fornitori di VPN di solito instradano tutti i pacchetti non-TCP attraverso il loro server VPN (il primo hop). Questo è il caso di [ProtonVPN](https://protonvpn.com/support/tor-vpn/). Inoltre, quando si utilizza questa configurazione di Tor su VPN, non si ha il controllo su altre importanti funzionalità di Tor come [Isolated Destination Address](https://www.whonix.org/wiki/Stream_Isolation) (utilizzo di un circuito Tor diverso per ogni dominio visitato).
 
 La funzione deve essere vista come un modo comodo per accedere alla rete Tor, non per rimanere anonimi. Per un corretto anonimato, utilizza Tor Browser, TorSocks o un gateway Tor.
 
@@ -70,7 +70,7 @@ Per situazioni come queste, o se hai un altro motivo valido, i provider VPN che 
 1. [Guide alla privacy di IVPN](https://www.ivpn.net/privacy-guides)
 1. ["Do I need a VPN?" ("Ho bisogno di una VPN?")](https://www.doineedavpn.com), uno strumento sviluppato da IVPN per sfidare il marketing aggressivo delle VPN, aiutando le persone a decidere se una VPN è adatta a loro.
 
-## Informazioni correlate
+## Informazioni correlate alle VPN
 
 - [The Trouble with VPN and Privacy Review Sites (Il problema dei siti di recensioni di VPN e privacy)](https://blog.privacyguides.org/2019/11/20/the-trouble-with-vpn-and-privacy-review-sites/)
 - [Free VPN App Investigation (Indagine sulle app di VPN gratuite)](https://www.top10vpn.com/free-vpn-app-investigation/)

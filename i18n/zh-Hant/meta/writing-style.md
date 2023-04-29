@@ -8,7 +8,7 @@ Privacy Guides 以美式英語書寫，如有疑問，請參閱 [APA Style guide
 
 ## 為我們的觀眾寫作
 
-Privacy Guides' intended [audience](https://www.plainlanguage.gov/guidelines/audience/) is primarily average, technology using adults. 不要愚蠢的內容，像是跟中學班級學生說明，不要過度使用一般電腦用戶不熟悉的概念與複雜術語。
+Privacy Guides 預設的 [讀者群](https://www.plainlanguage.gov/guidelines/audience/) 為一般普遍程度技術使用的成年人。 不要愚蠢的內容，像是跟中學班級學生說明，不要過度使用一般電腦用戶不熟悉的概念與複雜術語。
 
 ### 只探討人們想知道的內容
 
@@ -81,7 +81,7 @@ Source: [plainlanguage.gov](https://www.plainlanguage.gov/guidelines/conversatio
 
 ### Use "must" for requirements
 
-> - “must” for an obligation
-> - “must not” for a prohibition
+> - “必須” 表示義務
+> - “不必” 表示嚴禁
 > - “may” for a discretionary action
-> - “should” for a recommendation
+> - "應該"用於建議

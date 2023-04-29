@@ -410,7 +410,7 @@ Per maggiori dettagli su ogni progetto, sul motivo per cui è stato scelto e su 
 
 [Maggiori informazioni :material-arrow-right-drop-circle:](news-aggregators.md)
 
-### Taccuini
+### Appunti
 
 <div class="grid cards" markdown>
 

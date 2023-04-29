@@ -4,84 +4,84 @@ title: Stile di scrittura
 
 Privacy Guides è scritto in Inglese Americano, e dovresti far riferimento alle [linee guida dello stile APA](https://apastyle.apa.org/style-grammar-guidelines/grammar) in caso di dubbi.
 
-In general the [United States federal plain language guidelines](https://www.plainlanguage.gov/guidelines/) provide a good overview of how to write clearly and concisely. We highlight a few important notes from these guidelines below.
+In genere le [Linee guida federali degli Stati Uniti per il linguaggio semplice](https://www.plainlanguage.gov/guidelines/) forniscono un'ottima panoramica su come scrivere in modo chiaro e conciso. Di seguito abbiamo riportato alcune note importanti di queste linee guida.
 
-## Writing for our audience
+## Scrivere per il nostro pubblico
 
-Privacy Guides' intended [audience](https://www.plainlanguage.gov/guidelines/audience/) is primarily average, technology using adults. Don't dumb down content as if you are addressing a middle-school class, but don't overuse complicated terminology about concepts average computer users wouldn't be familiar with.
+[Il pubblico](https://www.plainlanguage.gov/guidelines/audience/) a cui si rivolge Privacy Guides è costituito principalmente da adulti medi che utilizzano la tecnologia. Non sminuire i contenuti come se vi rivolgeste ad una classe di scuola media, ma allo stesso tempo, non usate una terminologia complicata su concetti che gli utenti medi di computer non comprenderebbero.
 
-### Address only what people want to know
+### Spiega solo ciò che le persone vogliono sapere
 
-People don't need overly complex articles with little relevance to them. Figure out what you want people to accomplish when writing an article, and only include those details.
+Le persone non hanno bisogno di articoli troppo complessi e poco rilevanti alla loro ricerca. Scoprite cosa volete che le persone ottengano quando scrivete un articolo e includete solo questi dettagli.
 
-> Tell your audience why the material is important to them. Say, “If you want a research grant, here’s what you have to do.” Or, “If you want to mine federal coal, here’s what you should know.” Or, “If you’re planning a trip to Rwanda, read this first.”
+> Spiegate al vostro pubblico perché il materiale è importante per loro. Dite: "Se vuoi una borsa di studio per la ricerca, ecco cosa devi fare." Oppure: "Se vuoi estrarre il carbone federale, ecco cosa devi sapere." O, "Se stai pianificando un viaggio in Ruanda, leggi prima questo."
 
-### Address people directly
+### Rivolgersi direttamente alle persone
 
-We're writing *for* a wide variety of people, but we are writing *to* the person who is actually reading it. Use "you" to address the reader directly.
+Scriviamo *per* un'ampia varietà di persone, ma stiamo scrivendo *alla* persona che sta effettivamente leggendo. Utilizza il "tu" per rivolgerti direttamente al lettore.
 
-> More than any other single technique, using “you” pulls users into the information and makes it relevant to them.
+> Più di ogni altra tecnica, l'utilizzo del "tu" attira gli utenti nelle informazioni e le rende rilevanti per loro.
 > 
-> When you use “you” to address users, they are more likely to understand what their responsibility is.
+> Quando ci si rivolge agli utenti con il "tu", è più probabile che essi comprendano quali sono le loro responsabilità.
 
-Source: [plainlanguage.gov](https://www.plainlanguage.gov/guidelines/audience/address-the-user/)
+Fonte: [plainlanguage.gov](https://www.plainlanguage.gov/guidelines/audience/address-the-user/)
 
-### Avoid "users"
+### Evita "utenti"
 
-Avoid calling people "users", in favor of "people", or a more specific description of the group of people you are writing for.
+Evita di chiamare le persone "utenti", utilizza invece "persone", o una descrizione più specifica per il gruppo di persone a cui stai scrivendo.
 
 ## Organizzazione dei contenuti
 
-L'organizzazione è fondamentale. Content should flow from most to least important information, and use headers as much as needed to logically separate different ideas.
+L'organizzazione è fondamentale. Il contenuto dovrebbe iniziare a spiegare prima le informazioni più importanti, fino ad arrivare a quelle meno importanti, inoltre si devono usare le intestazioni per quanto necessario per separare logicamente le diverse idee.
 
-- Limit the document to around five or six sections. Long documents should probably be broken up into separate pages.
-- Mark important ideas with **bold** or *italics*.
+- Limita il documento ad un massimo di cinque o sei sezioni. Documenti lunghi dovrebbero essere suddivisi in più pagine separate.
+- Evidenzia idee importanti con il **grassetto** o con il *corsivo*.
 
-Source: [plainlanguage.gov](https://www.plainlanguage.gov/guidelines/design/)
+Fonte: [plainlanguage.gov](https://www.plainlanguage.gov/guidelines/design/)
 
-### Begin with a topic sentence
+### Inizia con una frase chiave
 
-> If you tell your reader what they’re going to read about, they’re less likely to have to read your paragraph again. Headings help, but they’re not enough. Establish a context for your audience before you provide them with the details.
+> Se spieghi al lettore cosa sta per leggere, è meno probabile che dovrà rileggere il tuo paragrafo. I titoli aiutano, ma non sono sufficienti. Stabilisci un contesto per il tuo pubblico prima di fornirgli i dettagli.
 > 
-> We often write the way we think, putting our premises first and then our conclusion. It may be the natural way to develop thoughts, but we wind up with the topic sentence at the end of the paragraph. Move it up front and let users know where you’re going. Don’t make readers hold a lot of information in their heads before getting to the point.
+> Spesso scriviamo il modo in cui pensiamo, ponendo prima le nostre premesse e poi le nostre conclusioni. Può essere il modo naturale di sviluppare i pensieri, ma ci ritroviamo con la frase chiave dell'argomento alla fine del paragrafo. Mettila in risalto e fai capire agli utenti dove stai andando a parare. Non costringere i lettori a trattenere molte informazioni nella loro testa prima di arrivare al punto.
 
-Source: [plainlanguage.gov](https://www.plainlanguage.gov/guidelines/organize/have-a-topic-sentence/)
+Fonte: [plainlanguage.gov](https://www.plainlanguage.gov/guidelines/organize/have-a-topic-sentence/)
 
 ## Scegli con cura le tue parole
 
-> Words matter. They are the most basic building blocks of written and spoken communication. Don’t complicate things by using jargon, technical terms, or abbreviations that people won’t understand.
+> Le parole sono importanti. Sono gli elementi fondamentali della comunicazione scritta e parlata. Non complicare le cose usando gergo, termini tecnici o abbreviazioni che le persone non capiranno.
 
-We should try to avoid abbreviations where possible, but technology is full of abbreviations. In general, spell out the abbreviation/acronym the first time it is used on a page, and add the abbreviation to the abbreviation glossary file when it is used repeatedly.
+Dovremmo cercare di evitare le abbreviazioni quando possibile, ma la tecnologia è piena di abbreviazioni. In generale, è opportuno scrivere l'abbreviazione/acronimo per intero la prima volta che viene usata in una pagina e aggiungere l'abbreviazione al file del glossario delle abbreviazioni quando viene usata ripetutamente.
 
-> Kathy McGinty offers tongue-in-cheek instructions for bulking up your simple, direct sentences:
+> Kathy McGinty offre istruzioni ironiche per arricchire le vostre frasi semplici e dirette:
 > 
-> > There is no escaping the fact that it is considered very important to note that a number of various available applicable studies ipso facto have generally identified the fact that additional appropriate nocturnal employment could usually keep juvenile adolescents off thoroughfares during the night hours, including but not limited to the time prior to midnight on weeknights and/or 2 a.m. on weekends.
+> > Non si può sfuggire al fatto che è considerato molto importante notare che un certo numero di studi disponibili applicabili ipso facto hanno generalmente identificato il fatto che un'appropriata occupazione notturna aggiuntiva potrebbe di solito tenere i giovani adolescenti lontani dalle strade durante le ore notturne, incluso ma non limitato al periodo precedente la mezzanotte nelle notti feriali e/o alle 2 del mattino. nei fine settimana.
 > 
-> And the original, using stronger, simpler words:
+> E l'originale, con parole più semplici e forti:
 > 
-> > More night jobs would keep youths off the streets.
+> > Più lavori notturni terrebbero i giovani lontani dalle strade.
 
 ## Sii conciso
 
-> Parole inutili fanno perder tempo al tuo pubblico. Great writing is like a conversation. Omit information that the audience doesn’t need to know. This can be difficult as a subject matter expert so it’s important to have someone look at the information from the audience’s perspective.
+> Parole inutili fanno perder tempo al tuo pubblico. Una buona scrittura è come una conversazione. Ometti le informazioni che il pubblico non ha bisogno di sapere. Questo può essere difficile per un esperto in materia, quindi è importante che qualcuno guardi le informazioni dal punto di vista del pubblico.
 
 Fonte: [plainlanguage.gov](https://www.plainlanguage.gov/guidelines/concise/)
 
-## Keep text conversational
+## Reggi il testo in maniera colloquiale
 
-> Verbs are the fuel of writing. They give your sentences power and direction. They enliven your writing and make it more interesting.
+> I verbi sono il carburante della scrittura. Danno alle vostre frasi potere e direzione. Ravvivano la tua scrittura e la rendono più interessante.
 > 
-> Verbs tell your audience what to do. Make sure it’s clear who does what.
+> I verbi indicano al tuo pubblico cosa fare. Assicurati che sia chiaro chi fa cosa.
 
-### Use active voice
+### Utilizzare una voce attiva
 
-> Active voice makes it clear who is supposed to do what. It eliminates ambiguity about responsibilities. Not “It must be done,” but “You must do it.”
+> Una voce attiva rende chiaro chi deve fare cosa. Elimina l'ambiguità sulle responsabilità. Non usare "Deve essere fatto," ma "Devi farlo."
 
 Fonte: [plainlanguage.gov](https://www.plainlanguage.gov/guidelines/conversational/use-active-voice/)
 
 ### Utilizza "deve" per i requisiti
 
-> - “must” for an obligation
-> - “must not” for a prohibition
-> - “may” for a discretionary action
-> - “should” for a recommendation
+> - "deve" per un obbligo
+> - “non deve” per un divieto
+> - “potrebbe” per un'azione discrezionale
+> - “dovrebbe” per una raccomandazione

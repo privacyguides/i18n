@@ -140,7 +140,7 @@ The command will prevent an adversary from bypassing MFA when the computer boots
 
 ### Linux
 
-!!! warning
+!!! warning "경고"
 
     If the hostname of your system changes (such as due to DHCP), you would be unable to login. It is vital that you set up a proper hostname for your computer before following this guide.
 

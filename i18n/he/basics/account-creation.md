@@ -1,5 +1,5 @@
 ---
-meta_title: "How to Create Internet Accounts Privately - Privacy Guides"
+meta_title: "כיצד ליצור חשבונות אינטרנט באופן פרטי - Privacy Guides"
 title: "יצירת חשבון"
 icon: 'material/account-plus'
 description: יצירת חשבונות מקוונים היא למעשה צורך באינטרנט, בצע את הצעדים האלה כדי לוודא שאתה נשאר פרטי.

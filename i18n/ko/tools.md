@@ -284,7 +284,7 @@ We [recommend](dns.md#recommended-providers) a number of encrypted DNS servers b
 
 [자세히 알아보기 :material-arrow-right-drop-circle:](cryptocurrency.md)
 
-### Data and Metadata Redaction
+### 데이터 및 메타데이터 제거
 
 <div class="grid cards" markdown>
 

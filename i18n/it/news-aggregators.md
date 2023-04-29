@@ -99,7 +99,7 @@ Un [Aggregatore di news](https://en.wikipedia.org/wiki/News_aggregator)è un mod
 
     ![NetNewsWire logo](assets/img/news-aggregators/netnewswire.png){ align=right }
     
-    **NetNewsWire** è un lettore di feed gratuito ed open-source per macOS e iOS, con un focus su design e funzionalità native. It supports the typical feed formats alongside built-in support for Reddit feeds.
+    **NetNewsWire** è un lettore di feed gratuito ed open-source per macOS e iOS, con un focus su design e funzionalità native. Supporta i formati classici dei feed, oltre al supporto integrato per i feed di Reddit.
     
     [:octicons-home-16: Pagina principale](https://netnewswire.com/){ .md-button .md-button--primary }
     [:octicons-eye-16:](https://netnewswire.com/privacypolicy){ .card-link title="Informativa sulla privacy" }
@@ -140,7 +140,7 @@ Alcuni social supportano anche gli RSS, ma non spesso viene citato.
 
 ### Reddit
 
-Usando una qualsiasi [istanza](https://github.com/zedeus/nitter/wiki/Instances) di Nitter, è possibile iscriversi mediante RSS.
+Reddit consente d'iscriverti ai subreddit tramite RSS.
 
 !!! esempio
     Sostituisci `nome_subreddit` con il nome del subreddit a cui desideri iscriverti.

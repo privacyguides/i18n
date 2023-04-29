@@ -19,7 +19,7 @@
 *[ECS]: Sottorete client EDNS
 *[EEA]: Spazio economico europeo
 *[entropy]: Una misura dell'imprevedibilità di qualcosa
-*[EOL]: Fine-Supporto
+*[EOL]: Fine del Supporto
 *[Exif]: Exchangeable image file format
 *[FCM]: Firebase Cloud Messaging
 *[FDE]: Crittografia completa del disco

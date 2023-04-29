@@ -1,8 +1,8 @@
 ---
-meta_title: "How to Create Internet Accounts Privately - Privacy Guides"
+meta_title: "프라이버시를 지키며 인터넷 계정을 생성하는 방법 - Privacy Guides"
 title: "계정 생성"
 icon: 'material/account-plus'
-description: Creating accounts online is practically an internet necessity, take these steps to make sure you stay private.
+description: 인터넷을 하려면 계정 생성은 필수적입니다. 이 절차를 따라 계정 프라이버시를 보호할 수 있습니다.
 ---
 
 사람들은 별다른 생각 없이 서비스에 가입할 때가 많습니다. 남들이 이야기하는 새로 나온 드라마를 상영하는 스트리밍 서비스에 가입하기도 하고, 자주 가는 음식 프랜차이즈에서 할인 혜택을 받으려고 가입하기도 합니다. 어떤 경우든, 현재 및 향후 여러분의 데이터에 미치는 영향을 고려해야 합니다.
@@ -11,15 +11,15 @@ description: Creating accounts online is practically an internet necessity, take
 
 일부 서비스의 경우, 계정 삭제가 쉽지 않을 수 있습니다. 계정 관련 데이터를 [덮어씌우는 것](account-deletion.md#overwriting-account-information)은 가능한 경우도 있지만, 서비스에서 계정 데이터의 변경 기록을 보관하는 경우도 있습니다.
 
-## Terms of Service & Privacy Policy
+## 서비스 이용 약관 & 개인정보 보호 정책(프라이버시 정책)
 
-'이용 약관'은 여러분이 어떤 서비스를 이용할 때 동의해야 하는 규칙입니다. With larger services these rules are often enforced by automated systems. Sometimes these automated systems can make mistakes. 예를 들어, 일부 서비스에서는 VPN/VoIP 번호를 사용한다는 이유로 계정이 차단되거나 잠길 수 있습니다. Appealing such bans is often difficult, and involves an automated process too, which isn't always successful. This would be one of the reasons why we wouldn't suggest using Gmail for email as an example. Email is crucial for access to other services you might have signed up for.
+'이용 약관'은 여러분이 어떤 서비스를 이용할 때 동의해야 하는 규칙입니다. 대규모 서비스에서는 이용 약관 규칙을 자동화된 시스템과 운용하는 경우가 많습니다. 그리고 자동화 시스템에서는 간혹 실수가 발생하기도 합니다. 예를 들어, 일부 서비스에서는 VPN/VoIP 번호를 사용한다는 이유로 계정이 차단되거나 잠길 수 있습니다. 이런 제한 조치에 대한 이의 제기는 어려운 경우가 많고 자동화된 과정을 거쳐야 하므로, 항상 성공적이진 않습니다. 이는 Privacy Guides에서 Gmail 이메일 서비스 사용을 권장드리지 않는 이유 중 하나이기도 합니다. 이메일은 여러분이 가입한 다른 서비스에 접근하기 위한 매우 중요한 역할을 맡고 있습니다.
 
-The Privacy Policy is how the service says they will use your data and it is worth reading so that you understand how your data will be used. A company or organization might not be legally obligated to follow everything contained in the policy (it depends on the jurisdiction). We would recommend having some idea what your local laws are and what they permit a provider to collect.
+개인정보 보호 정책은 서비스에서 여러분의 데이터를 어떻게 이용할지 명시한 것으로, 여러분은 자신의 데이터가 어떻게 쓰일지 이해하기 위해 읽어보는 것이 좋습니다. 회사/조직은 정책 내 모든 내용을 따르도록 법적으로 강제되지는 않을 수 있습니다(관할권에 따라 달라집니다). 제공 업체가 수집 가능한 데이터의 범위와 현지 법률을 어느 정도는 파악해 두는 것이 좋습니다.
 
-We recommend looking for particular terms such as "data collection", "data analysis", "cookies", "ads" or "3rd-party" services. Sometimes you will be able to opt-out from data collection or from sharing your data, but it is best to choose a service that respects your privacy from the start.
+살펴봐야 할 주요 용어는 '데이터 수집(Data Collection)', '데이터 분석(Data Analysis)', '쿠키(Cookies)', '광고(Ads)', '제3자/타사(3rd-Party)' 등이 있습니다. 데이터 수집/공유를 거부할 수 있는 경우도 있지만, 가장 좋은 방법은 처음부터 프라이버시를 존중하는 서비스를 선택하는 것입니다.
 
-Keep in mind you're also placing your trust in the company or organization and that they will comply with their own privacy policy.
+또한, 여러분은 해당 서비스 회사/조직이 개인정보 처리 방침을 올바르게 준수할 것이라고 믿고 있을 뿐임을 명심해야 합니다.
 
 ## 인증 방법
 

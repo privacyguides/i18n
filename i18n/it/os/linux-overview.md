@@ -35,7 +35,7 @@ Per le distribuzioni congelate, come [Debian](https://www.debian.org/security/fa
 Non crediamo che trattenere i pacchetti e applicare patch provvisorie sia una buona idea, in quanto si discosta dal modo in cui lo sviluppatore avrebbe voluto far funzionare il software. [Richard Brown](https://rootco.de/aboutme/) ha una presentazione al riguardo:
 
 <div class="yt-embed">
-  <iframe width="560" height="315" src="https://invidious.privacyguides.net/embed/i8c0mg_mS7U?local=true" title="Regular Releases are Wrong, Roll for your life" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+  <iframe width="560" height="315" src="https://invidious.privacyguides.net/embed/i8c0mg_mS7U?local=true" title="I rilasci regolari sono sbagliati, quelli continui sono superiori" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 </div>
 
 ### Aggiornamenti tradizionali vs Atomici
@@ -49,7 +49,7 @@ Un sistema ad aggiornamento transazionale crea un'istantanea prima e dopo l'appl
 Il metodo di aggiornamento Atomico viene utilizzato su distribuzioni immutabili come Silverblue, Tumbleweed, e NixOS e possono raggiungere l'affidabilità con questo modello. [Adam Šamalík](https://twitter.com/adsamalik) ha fornito una presentazione su come funziona `rpm-ostree` con Silverblue:
 
 <div class="yt-embed">
-  <iframe width="560" height="315" src="https://invidious.privacyguides.net/embed/-hpV5l-gJnQ?local=true" title="Let's try Fedora Silverblue — an immutable desktop OS! - Adam Šamalik" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+  <iframe width="560" height="315" src="https://invidious.privacyguides.net/embed/-hpV5l-gJnQ?local=true" title="Proviamo Fedora Silverblue — Un sistema operativo desktop immutabile! - Adam Šamalik" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 </div>
 
 ### Distribuzioni "Incentrate sulla sicurezza"
@@ -117,26 +117,26 @@ Inoltre, alcune distribuzioni non scaricano in automatico gli aggiornamenti del 
 
 Molte distribuzioni Linux per desktop (Fedora, openSUSE, ecc.) sono dotate di [NetworkManager](https://en.wikipedia.org/wiki/NetworkManager), per configurare le impostazioni Ethernet e Wi-Fi.
 
-It is possible to [randomize](https://fedoramagazine.org/randomize-mac-address-nm/) the [MAC address](https://en.wikipedia.org/wiki/MAC_address) when using NetworkManager. This provides a bit more privacy on Wi-Fi networks as it makes it harder to track specific devices on the network you’re connected to. It does [**not**](https://papers.mathyvanhoef.com/wisec2016.pdf) make you anonymous.
+È possibile [randomizzare](https://fedoramagazine.org/randomize-mac-address-nm/) [l'indirizzo MAC](https://en.wikipedia.org/wiki/MAC_address) quando si utilizza NetworkManager. Questo fornisce una maggiore privacy sulle reti Wi-Fi, in quanto rende più difficile tracciare dispositivi specifici sulla rete a cui si è connessi. [**Non**](https://papers.mathyvanhoef.com/wisec2016.pdf) ti rende anonimo.
 
-We recommend changing the setting to **random** instead of **stable**, as suggested in the [article](https://fedoramagazine.org/randomize-mac-address-nm/).
+Ti consigliamo di cambiare l'impostazione in **random** anziché **stable**, come suggerito nell'[articolo](https://fedoramagazine.org/randomize-mac-address-nm/).
 
-If you are using [systemd-networkd](https://en.wikipedia.org/wiki/Systemd#Ancillary_components), you will need to set [`MACAddressPolicy=random`](https://www.freedesktop.org/software/systemd/man/systemd.link.html#MACAddressPolicy=) which will enable [RFC 7844 (Anonymity Profiles for DHCP Clients)](https://www.freedesktop.org/software/systemd/man/systemd.network.html#Anonymize=).
+Se stai utilizzando [systemd-networkd](https://en.wikipedia.org/wiki/Systemd#Ancillary_components), dovrai impostare [`MACAddressPolicy=random`](https://www.freedesktop.org/software/systemd/man/systemd.link.html#MACAddressPolicy=) che abiliterà [RFC 7844 (Profili anonimi per client DHCP)](https://www.freedesktop.org/software/systemd/man/systemd.network.html#Anonymize=).
 
-There isn’t many points in randomizing the MAC address for Ethernet connections as a system administrator can find you by looking at the port you are using on the [network switch](https://en.wikipedia.org/wiki/Network_switch). Randomizing Wi-Fi MAC addresses depends on support from the Wi-Fi’s firmware.
+Non ha molto senso randomizzare l'indirizzo MAC per le connessioni Ethernet, poiché un amministratore di sistema può trovarti guardando la porta che stai utilizzando sullo [switch di rete](https://en.wikipedia.org/wiki/Network_switch). La randomizzazione degli indirizzi MAC del Wi-Fi dipende dal supporto del firmware del Wi-Fi.
 
-### Other Identifiers
+### Altri identificatori
 
-There are other system identifiers which you may wish to be careful about. You should give this some thought to see if it applies to your [threat model](../basics/threat-modeling.md):
+Esistono altri identificatori di sistema a cui dovresti fare attenzione. Dovresti riflettere su questo aspetto per vedere se si applica al tuo [modello di minaccia ](../basics/threat-modeling.md):
 
-- **Hostnames:** Your system's hostname is shared with the networks you connect to. You should avoid including identifying terms like your name or operating system in your hostname, instead sticking to generic terms or random strings.
-- **Usernames:** Similarly, your username is used in a variety of ways across your system. Consider using generic terms like "user" rather than your actual name.
-- **Machine ID:**: During installation a unique machine ID is generated and stored on your device. Consider [setting it to a generic ID](https://madaidans-insecurities.github.io/guides/linux-hardening.html#machine-id).
+- **Nomi host:** Il nome host del tuo sistema è condiviso con la rete a cui sei connesso. Dovresti evitare di includere termini identificativi come il tuo nome o il sistema operativo nel tuo nome host, cerca invece di utilizzare termini generici o stringhe random.
+- **Nomi utente:** Allo stesso modo, il tuo nome utente viene usato in vari modi nel tuo sistema. Cerca di usare termini generici come "utente" anziché il tuo vero nome.
+- **ID Macchina:**: Durante l'installazione viene generato un ID macchina che viene memorizzato sul tuo dispositivo. Cerca di [impostarlo su un ID generico](https://madaidans-insecurities.github.io/guides/linux-hardening.html#machine-id).
 
-### System Counting
+### Contatore del sistema
 
-The Fedora Project [counts](https://fedoraproject.org/wiki/Changes/DNF_Better_Counting) how many unique systems access its mirrors by using a [`countme`](https://fedoraproject.org/wiki/Changes/DNF_Better_Counting#Detailed_Description) variable instead of a unique ID. Fedora does this to determine load and provision better servers for updates where necessary.
+Il Fedora Project [conta](https://fedoraproject.org/wiki/Changes/DNF_Better_Counting) quanti sistemi unici accedono ai suoi mirrors utilizzando una variabile [`countme`](https://fedoraproject.org/wiki/Changes/DNF_Better_Counting#Detailed_Description) anziché un ID unico. Fedora fa questo per determinare il carico e fornire server migliori per gli aggiornamenti, se necessario.
 
-This [option](https://dnf.readthedocs.io/en/latest/conf_ref.html#options-for-both-main-and-repo) is currently off by default. We recommend adding `countme=false` to `/etc/dnf/dnf.conf` just in case it is enabled in the future. On systems that use `rpm-ostree` such as Silverblue, the countme option is disabled by masking the [rpm-ostree-countme](https://fedoramagazine.org/getting-better-at-counting-rpm-ostree-based-systems/) timer.
+Questa [opzione](https://dnf.readthedocs.io/en/latest/conf_ref.html#options-for-both-main-and-repo) è disabilitata di default. Consigliamo di aggiungere `countme=false` a `/etc/dnf/dnf.conf` nel caso in cui venga abilitato in futuro. Sui sistemi che utilizzano `rpm-ostree` come Silverblue, l'opzione countme è disabilitata mascherando il timer [rpm-ostree-countme](https://fedoramagazine.org/getting-better-at-counting-rpm-ostree-based-systems/).
 
-openSUSE also uses a [unique ID](https://en.opensuse.org/openSUSE:Statistics) to count systems, which can be disabled by deleting the `/var/lib/zypp/AnonymousUniqueId` file.
+anche openSUSE utilizza un [ID unico](https://en.opensuse.org/openSUSE:Statistics) per contare i sistemi, che può essere disabilitato cancellando il file `/var/lib/zypp/AnonymousUniqueId`.
