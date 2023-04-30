@@ -59,6 +59,7 @@ Tot nu toe hebben we in 2023 internationale vertalingen van onze website gelance
     - [:simple-discourse: Discourse](https://discuss.privacyguides.net/u/Niek-de-Wilde)
     - [:simple-github: GitHub](https://github.com/blacklight447 "@blacklight447")
     - [:simple-mastodon: Mastodon](https://mastodon.social/@blacklight447 "@blacklight447@mastodon.social"){rel=me}
+    - [:fontawesome-solid-envelope: E-mail](mailto:niekdewilde@privacyguides.org)
 
 ??? person "@dngray"
 

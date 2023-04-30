@@ -59,6 +59,7 @@ Privacy Guides 於2021年9月推出，是 [已解散的](privacytools.md) "Priva
     - [:simple-discourse: Discourse](https://discuss.privacyguides.net/u/Niek-de-Wilde)
     - [:simple-github: GitHub](https://github.com/blacklight447 "@blacklight447")
     - [:simple-mastodon: Mastodon](https://mastodon.social/@blacklight447 "@blacklight447@mastodon.social"){rel=me}
+    - [:fontawesome-solid-envelope: 電子郵箱](mailto:niekdewilde@privacyguides.org)
 
 ??? person "@dngray"
 

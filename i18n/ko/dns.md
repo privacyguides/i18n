@@ -13,10 +13,10 @@ cover: dns.png
 
 | DNS 제공 업체                                                                       | 프라이버시 정책                                                                                              | 프로토콜                                                   | 로그 보관   | ECS   | 필터링                                                                                                               |
 | ------------------------------------------------------------------------------- | ----------------------------------------------------------------------------------------------------- | ------------------------------------------------------ | ------- | ----- | ----------------------------------------------------------------------------------------------------------------- |
-| [**AdGuard**](https://adguard.com/en/adguard-dns/overview.html)                 | [:octicons-link-external-24:](https://adguard.com/en/privacy/dns.html)                                | 평문 <br> DoH/3 <br> DoT <br> DNSCrypt | 일부[^1]  | No    | 개인 설정에 따라 달라집니다. 필터 목록은 여기에서 확인할 수 있습니다. [:octicons-link-external-24:](https://github.com/AdguardTeam/AdGuardDNS) |
-| [**Cloudflare**](https://developers.cloudflare.com/1.1.1.1/setting-up-1.1.1.1/) | [:octicons-link-external-24:](https://developers.cloudflare.com/1.1.1.1/privacy/public-dns-resolver/) | 평문 <br> DoH/3 <br> DoT                     | 일부[^2]  | No    | 개인 설정에 따라 달라집니다.                                                                                                  |
-| [**Control D**](https://controld.com/free-dns)                                  | [:octicons-link-external-24:](https://controld.com/privacy)                                           | 평문 <br> DoH/3 <br> DoT <br> DoQ      | 선택적[^3] | No    | 개인 설정에 따라 달라집니다.                                                                                                  |
-| [**Mullvad**](https://mullvad.net/en/help/dns-over-https-and-dns-over-tls)      | [:octicons-link-external-24:](https://mullvad.net/en/help/no-logging-data-policy/)                    | DoH <br> DoT                                     | 없음[^4]  | No    | 개인 설정에 따라 달라집니다. 필터 목록은 여기에서 확인할 수 있습니다. [:octicons-link-external-24:](https://github.com/mullvad/dns-adblock)    |
+| [**AdGuard**](https://adguard.com/en/adguard-dns/overview.html)                 | [:octicons-link-external-24:](https://adguard.com/en/privacy/dns.html)                                | 평문 <br> DoH/3 <br> DoT <br> DNSCrypt | 일부[^1]  | 비활성화  | 개인 설정에 따라 달라집니다. 필터 목록은 여기에서 확인할 수 있습니다. [:octicons-link-external-24:](https://github.com/AdguardTeam/AdGuardDNS) |
+| [**Cloudflare**](https://developers.cloudflare.com/1.1.1.1/setting-up-1.1.1.1/) | [:octicons-link-external-24:](https://developers.cloudflare.com/1.1.1.1/privacy/public-dns-resolver/) | 평문 <br> DoH/3 <br> DoT                     | 일부[^2]  | 비활성화  | 개인 설정에 따라 달라집니다.                                                                                                  |
+| [**Control D**](https://controld.com/free-dns)                                  | [:octicons-link-external-24:](https://controld.com/privacy)                                           | 평문 <br> DoH/3 <br> DoT <br> DoQ      | 선택적[^3] | 비활성화  | 개인 설정에 따라 달라집니다.                                                                                                  |
+| [**Mullvad**](https://mullvad.net/en/help/dns-over-https-and-dns-over-tls)      | [:octicons-link-external-24:](https://mullvad.net/en/help/no-logging-data-policy/)                    | DoH <br> DoT                                     | 없음[^4]  | 비활성화  | 개인 설정에 따라 달라집니다. 필터 목록은 여기에서 확인할 수 있습니다. [:octicons-link-external-24:](https://github.com/mullvad/dns-adblock)    |
 | [**NextDNS**](https://www.nextdns.io)                                           | [:octicons-link-external-24:](https://www.nextdns.io/privacy)                                         | 평문 <br> DoH/3 <br> DoT                     | 선택적[^5] | 선택 사항 | 개인 설정에 따라 달라집니다.                                                                                                  |
 | [**Quad9**](https://quad9.net)                                                  | [:octicons-link-external-24:](https://quad9.net/privacy/policy/)                                      | 평문 <br> DoH <br> DoT <br> DNSCrypt   | 일부[^6]  | 선택 사항 | 개인 설정에 따라 달라지지만, 멀웨어는 기본적으로 차단됩니다.                                                                                |
 
@@ -31,9 +31,9 @@ cover: dns.png
 - [DNSSEC](advanced/dns-overview.md#what-is-dnssec)를 지원해야 합니다.
 - [QNAME 최소화](advanced/dns-overview.md#what-is-qname-minimization)를 지원해야 합니다.
 - [ECS](advanced/dns-overview.md#what-is-edns-client-subnet-ecs) 비활성화를 지원해야 합니다.
-- Prefer [anycast](https://en.wikipedia.org/wiki/Anycast#Addressing_methods) support or geo-steering support.
+- [Anycast](https://en.wikipedia.org/wiki/Anycast#Addressing_methods) 혹은 Geo steering을 적극 지원해야 합니다.
 
-## Native Operating System Support
+## 운영 체제 기본 지원
 
 ### Android
 
@@ -45,9 +45,9 @@ iOS, iPadOS, tvOS, macOS 최신 버전은 DoT, DoH를 모두 지원합니다. �
 
 구성 프로필이나, DNS 설정 API를 사용하는 앱을 설치하고 나면 DNS 구성에서 선택 가능합니다. VPN이 활성화되어 있는 경우, VPN 연결 내 DNS 요청은 시스템 전체 설정이 아닌 VPN의 DNS 설정을 사용합니다.
 
-#### Signed Profiles
+#### 서명된 프로필
 
-Apple does not provide a native interface for creating encrypted DNS profiles. [Secure DNS profile creator](https://dns.notjakob.com/tool.html) is an unofficial tool for creating your own encrypted DNS profiles, however they will not be signed. Signed profiles are preferred; signing validates a profile's origin and helps to ensure the integrity of the profiles. A green "Verified" label is given to signed configuration profiles. For more information on code signing, see [About Code Signing](https://developer.apple.com/library/archive/documentation/Security/Conceptual/CodeSigningGuide/Introduction/Introduction.html). **Signed profiles** are offered by [AdGuard](https://adguard.com/en/blog/encrypted-dns-ios-14.html), [NextDNS](https://apple.nextdns.io), and [Quad9](https://www.quad9.net/news/blog/ios-mobile-provisioning-profiles/).
+Apple은 암호화 DNS 프로필 생성을 위한 기본 인터페이스를 제공하지 않습니다. [보안 DNS 프로필 생성기(Secure DNS profile creator)](https://dns.notjakob.com/tool.html)는 자신만의 암호화 DNS 프로필을 생성할 수 있는 비공식 툴이지만, 프로필 서명은 불가능합니다. 프로필 서명은 프로필 출처 확인 및 무결성 보장에 도움이 되므로, 서명된 프로필이 선호됩니다. 서명된 구성 프로필에는 '확인 완료' 표시가 나타납니다. 코드 서명에 대한 자세한 내용은 [About Code Signing](https://developer.apple.com/library/archive/documentation/Security/Conceptual/CodeSigningGuide/Introduction/Introduction.html)을 참고하세요. **서명된 프로필**은 [AdGuard](https://adguard.com/ko/blog/encrypted-dns-ios-14.html), [NextDNS](https://apple.nextdns.io), [Quad9](https://www.quad9.net/news/blog/ios-mobile-provisioning-profiles/)에서 제공합니다.
 
 !!! info "정보"
 
@@ -55,16 +55,16 @@ Apple does not provide a native interface for creating encrypted DNS profiles. [
 
 ## 암호화 DNS 프록시
 
-Encrypted DNS proxy software provides a local proxy for the [unencrypted DNS](advanced/dns-overview.md#unencrypted-dns) resolver to forward to. Typically it is used on platforms that don't natively support [encrypted DNS](advanced/dns-overview.md#what-is-encrypted-dns).
+암호화 DNS 프록시 소프트웨어는 [비암호화 DNS](advanced/dns-overview.md#unencrypted-dns) 리졸버로부터 요청을 전달 받는 로컬 프록시를 제공합니다. 보통 [암호화 DNS](advanced/dns-overview.md#what-is-encrypted-dns)를 기본적으로 지원하지 않는 플랫폼에서 사용됩니다.
 
 ### RethinkDNS
 
 !!! recommendation
 
-    ![RethinkDNS logo](assets/img/android/rethinkdns.svg#only-light){ align=right }
-    ![RethinkDNS logo](assets/img/android/rethinkdns-dark.svg#only-dark){ align=right }
+    ![RethinkDNS 로고](assets/img/android/rethinkdns.svg#only-light){ align=right }
+    ![RethinkDNS 로고](assets/img/android/rethinkdns-dark.svg#only-dark){ align=right }
     
-    **RethinkDNS** is an open-source Android client supporting [DNS-over-HTTPS](advanced/dns-overview.md#dns-over-https-doh), [DNS-over-TLS](advanced/dns-overview.md#dns-over-tls-dot), [DNSCrypt](advanced/dns-overview.md#dnscrypt) and DNS Proxy along with caching DNS responses, locally logging DNS queries and can be used as a firewall too.
+    **RethinkDNS**는 DNS 응답 캐싱, 로컬 DNS 쿼리 기록, 방화벽으로도 사용 가능한 오픈 소스 Android 클라이언트로, [DNS-over-HTTPS](advanced/dns-overview.md#dns-over-https-doh), [DNS-over-TLS](advanced/dns-overview.md#dns-over-tls-dot), [DNSCrypt](advanced/dns-overview.md#dnscrypt), DNS 프록시를 지원합니다.
     
     [:octicons-home-16: 홈페이지](https://rethinkdns.com){ .md-button .md-button--primary }
     [:octicons-eye-16:](https://rethinkdns.com/privacy){ .card-link title="프라이버시 정책" }
@@ -132,9 +132,9 @@ Encrypted DNS proxy software provides a local proxy for the [unencrypted DNS](ad
     [:octicons-code-16:](https://github.com/pi-hole/pi-hole){ .card-link title="소스 코드" }
     [:octicons-heart-16:](https://pi-hole.net/donate){ .card-link title=기부 }
 
-[^1]: AdGuard stores aggregated performance metrics of their DNS servers, namely the number of complete requests to a particular server, the number of blocked requests, and the speed of processing requests. They also keep and store the database of domains requested in within last 24 hours. "We need this information to identify and block new trackers and threats." "We also log how many times this or that tracker has been blocked. We need this information to remove outdated rules from our filters." [https://adguard.com/en/privacy/dns.html](https://adguard.com/en/privacy/dns.html)
-[^2]: Cloudflare collects and stores only the limited DNS query data that is sent to the 1.1.1.1 resolver. The 1.1.1.1 resolver service does not log personal data, and the bulk of the limited non-personally identifiable query data is stored only for 25 hours. [https://developers.cloudflare.com/1.1.1.1/privacy/public-dns-resolver/](https://developers.cloudflare.com/1.1.1.1/privacy/public-dns-resolver/)
-[^3]: Control D only logs for Premium resolvers with custom DNS profiles. Free resolvers do not log data. [https://controld.com/privacy](https://controld.com/privacy)
-[^4]: Mullvad's DNS service is available to both subscribers and non-subscribers of Mullvad VPN. Their privacy policy explicitly claims they do not log DNS requests in any way. [https://mullvad.net/en/help/no-logging-data-policy/](https://mullvad.net/en/help/no-logging-data-policy/)
-[^5]: NextDNS can provide insights and logging features on an opt-in basis. You can choose retention times and log storage locations for any logs you choose to keep. If it's not specifically requested, no data is logged. [https://nextdns.io/privacy](https://nextdns.io/privacy)
-[^6]: Quad9 collects some data for the purposes of threat monitoring and response. That data may then be remixed and shared, such as for the purpose of security research. Quad9 does not collect or record IP addresses or other data they deem personally identifiable. [https://www.quad9.net/privacy/policy/](https://www.quad9.net/privacy/policy/)
+[^1]: AdGuard는 특정 서버의 완료된 요청 수, 차단된 요청 수, 요청 처리 속도 등 DNS 서버의 집계 성능 지표를 저장합니다. 또한, 지난 24시간 이내의 도메인 요청 데이터베이스를 보관 및 저장합니다. "해당 정보는 새로운 추적기 및 위협을 식별하고 차단하기 위해 필요합니다." "각 추적기가 차단된 횟수 또한 기록합니다. 이는 오래되어 불필요한 규칙을 필터에서 제거하기 위해 필요합니다." [https://adguard.com/en/privacy/dns.html](https://adguard.com/en/privacy/dns.html)
+[^2]: Cloudflare는 1.1.1.1 리졸버로 전송되는 DNS 쿼리의 제한된 데이터만 수집 및 저장합니다. 1.1.1.1 리졸버는 개인 데이터를 기록하지 않으며, 개인 식별이 불가능하도록 제한된 쿼리 데이터는 대부분 25시간 동안만 저장됩니다. [https://developers.cloudflare.com/1.1.1.1/privacy/public-dns-resolver/](https://developers.cloudflare.com/1.1.1.1/privacy/public-dns-resolver/)
+[^3]: Control D는 사용자 정의 프로필이 있는 프리미엄 리졸버에 대해서만 로그를 기록합니다. 무료 리졸버는 데이터를 기록하지 않습니다. [https://controld.com/privacy](https://controld.com/privacy)
+[^4]: Mullvad DNS 서비스는 Mullvad VPN 가입자/비가입자 모두 이용 가능합니다. 프라이버시 정책 상, 어떤 방식으로든 DNS 요청을 기록하지 않는다고 명시되어 있습니다. [https://mullvad.net/ko/help/no-logging-data-policy/](https://mullvad.net/ko/help/no-logging-data-policy/)
+[^5]: NextDNS는 사용자 동의 여부에 따라 통계 및 로그 기능을 제공합니다. 보관하기로 선택한 모든 로그는 각각 보존 기간과 로그 저장 위치를 선택 가능합니다. 따로 요청하지 않을 경우, 어떤 데이터도 기록되지 않습니다. [https://nextdns.io/privacy](https://nextdns.io/privacy)
+[^6]: Quad9은 위협 모니터링 및 대응 목적으로 일부 데이터를 수집합니다. 해당 데이터는 보안 연구 등의 목적으로 변형 후 공유될 수 있습니다. Quad9은 개인 식별 용도로 쓰일 수 있다고 판단되는 IP 주소 및 기타 데이터를 수집하거나 기록하지 않습니다. [https://www.quad9.net/privacy/policy/](https://www.quad9.net/privacy/policy/)

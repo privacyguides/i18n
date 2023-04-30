@@ -27,22 +27,22 @@ schema:
         acceptedAnswer:
           "@type": Answer
           text: |
-            제품 또는 서비스의 개인정보 보호정책과 마케팅에만 집중하게 되면 해당 솔루션들의 약점들을 놓칠 수 있습니다. When you're looking for a more private solution, you should determine what the underlying problem is and find technical solutions to that problem. For example, you may want to avoid Google Drive, which gives Google access to all of your data. The underlying problem in this case is lack of E2EE, so you should make sure that the provider you switch to actually implements E2EE, or use a tool (like Cryptomator) which provides E2EE on any cloud provider. Switching to a "privacy-focused" provider (that doesn't implement E2EE) doesn't solve your problem: it just shifts trust from Google to that provider.
+            제품 또는 서비스의 개인정보 보호정책과 마케팅에만 집중하게 되면 해당 솔루션들의 약점들을 놓칠 수 있습니다. 솔루션을 찾을 때에는 우선 근본적인 문제가 무엇인지를 파악한 후, 그 문제에 대응하는 기술적인 해결책을 찾는 방향으로 나아가야 합니다. 예시로, 자신의 데이터를 Google에게 넘겨줄 수 있다는 이유로 Google Drive를 피하고 싶을 수 있습니다. 여기서의 근본적인 문제는 종단간 암호화가 없다는 것입니다. 따라서 새로운 서비스 제공자를 선택할 경우, 그 제공자가 종단간 암호화를 도입했는지 확인하거나, 종단간 암호화를 직접 도입할 수 있게 해주는 프로그램를 사용할 수 있습니다. 예시로는 Cryptomator가 있습니다. 프라이버시에 중점을 두었다고 광고하지만 종단간 암호화를 도입하지 않은 제공자는 이 문제의 해결책이 될 수 없습니다. 이는 그저 Google에서 해당 제공자로 신뢰 대상을 변경할 뿐입니다.
       - 
         "@type": Question
-        name: How complicated should my threat model be?
+        name: 위협 모델은 얼마나 복잡하게 만들어야 하나요?
         acceptedAnswer:
           "@type": Answer
           text: |
-            We often see people describing privacy threat models that are overly complex. Often, these solutions include problems like many different email accounts or complicated setups with lots of moving parts and conditions. The replies are usually answers to "What is the best way to do X?"
-            Finding the "best" solution for yourself doesn't necessarily mean you are after an infallible solution with dozens of conditions—these solutions are often difficult to work with realistically. As we discussed previously, security often comes at the cost of convenience.
+            가끔 과도하게 복잡한 위협 모델을 가진 사람들을 볼 수 있습니다. 이런 솔루션들은 너무 많은 이메일 계정들이나 복잡한 설정과 같은 문제점을 지니고 있을 수 있습니다. 이런 질문의 답변들은 대부분 "X를 수행하는 최선의 방법"과 같습니다.
+            자신에게 최고인 솔루션은 수십가지의 조건하에서도 작동하는 것을 가리키는 것이 아닙니다. 이런 솔루션들은 대개 현실적으로 사용하기 어렵습니다. 앞서 설명한 것과 같이, 보안과 편의성은 서로 반대되는 관계를 가집니다.
 ---
 
-## "Open-source software is always secure" or "Proprietary software is more secure"
+## "오픈소스 소프트웨어는 항상 안전하다" 또는 "독점 소프트웨어가 더 안전하다"
 
-These myths stem from a number of prejudices, but whether the source code is available and how software is licensed does not inherently affect its security in any way. ==Open-source software has the *potential* to be more secure than proprietary software, but there is absolutely no guarantee this is the case.== When you evaluate software, you should look at the reputation and security of each tool on an individual basis.
+이러한 오해는 여러가지 편견에서 비롯된 것이지만, 소스 코드가 공개되었는지와 사용하는 라이선스 그 자체만으로는 보안에 그 어떤 영향을 미치지 않습니다. ==오픈소스 소프트웨어는 독점 소프트웨어보다 보안이 더 좋을 *가능성*이 있지만, 반드시 그렇다는 보장은 없습니다. 소프트웨어에 대한 평가를 내릴 때에는 각 프로그램의 평판과 보안을 개별적으로 살펴보는 것이 좋습니다.
 
-Open-source software *can* be audited by third-parties, and is often more transparent about potential vulnerabilities than proprietary counterparts. It also allows you to review the code and disable any suspicious functionality you find yourself. However, *unless you do so*, there is no guarantee that code has ever been evaluated, especially with smaller software projects. The open development process has also sometimes been exploited to introduce new vulnerabilities into even large projects.[^1]
+오픈소스 소프트웨어는 제 3자로부터 감사를 *받을 수 있고*, 독점 소프트웨어보다 잠재적인 취약점에 대해 더 공개적입니다. 또한, 코드를 직접 점검할 수 있고 원치 않는 기능들을 직접 비활성화할 수 있습니다. However, *unless you do so*, there is no guarantee that code has ever been evaluated, especially with smaller software projects. The open development process has also sometimes been exploited to introduce new vulnerabilities into even large projects.[^1]
 
 On the flip side, proprietary software is less transparent, but that doesn't imply that it's not secure. Major proprietary software projects can be audited internally and by third-party agencies, and independent security researchers can still find vulnerabilities with techniques like reverse engineering.
 
@@ -57,15 +57,15 @@ VPN과 같은 솔루션들에 대해 논의할 때 "신뢰하는 대상을 변�
 
 ## "프라이버시를 중점으로 둔 솔루션은 본질적으로 신뢰할 수 있다"
 
-제품 또는 서비스의 개인정보 보호정책과 마케팅에만 집중하게 되면 해당 솔루션들의 약점들을 놓칠 수 있습니다. When you're looking for a more private solution, you should determine what the underlying problem is and find technical solutions to that problem. For example, you may want to avoid Google Drive, which gives Google access to all of your data. The underlying problem in this case is lack of E2EE, so you should make sure that the provider you switch to actually implements E2EE, or use a tool (like [Cryptomator](../encryption.md#cryptomator-cloud)) which provides E2EE on any cloud provider. Switching to a "privacy-focused" provider (that doesn't implement E2EE) doesn't solve your problem: it just shifts trust from Google to that provider.
+제품 또는 서비스의 개인정보 보호정책과 마케팅에만 집중하게 되면 해당 솔루션들의 약점들을 놓칠 수 있습니다. 솔루션을 찾을 때에는 우선 근본적인 문제가 무엇인지를 파악한 후, 그 문제에 대응하는 기술적인 해결책을 찾는 방향으로 나아가야 합니다. 예시로, 자신의 데이터를 Google에게 넘겨줄 수 있다는 이유로 Google Drive를 피하고 싶을 수 있습니다. The underlying problem in this case is lack of E2EE, so you should make sure that the provider you switch to actually implements E2EE, or use a tool (like [Cryptomator](../encryption.md#cryptomator-cloud)) which provides E2EE on any cloud provider. 프라이버시에 중점을 두었다고 광고하지만 종단간 암호화를 도입하지 않은 제공자는 이 문제의 해결책이 될 수 없습니다. 이는 그저 Google에서 해당 제공자로 신뢰 대상을 변경할 뿐입니다.
 
 The privacy policies and business practices of providers you choose are very important, but should be considered secondary to technical guarantees of your privacy: You shouldn't shift trust to another provider when trusting a provider isn't a requirement at all.
 
 ## "복잡할수록 좋다"
 
-We often see people describing privacy threat models that are overly complex. Often, these solutions include problems like many different email accounts or complicated setups with lots of moving parts and conditions. The replies are usually answers to "What is the best way to do *X*?"
+가끔 과도하게 복잡한 위협 모델을 가진 사람들을 볼 수 있습니다. 이런 솔루션들은 너무 많은 이메일 계정들이나 복잡한 설정과 같은 문제점을 지니고 있을 수 있습니다. The replies are usually answers to "What is the best way to do *X*?"
 
-Finding the "best" solution for yourself doesn't necessarily mean you are after an infallible solution with dozens of conditions—these solutions are often difficult to work with realistically. As we discussed previously, security often comes at the cost of convenience. Below, we provide some tips:
+자신에게 최고인 솔루션은 수십가지의 조건하에서도 작동하는 것을 가리키는 것이 아닙니다. 이런 솔루션들은 대개 현실적으로 사용하기 어렵습니다. 앞서 설명한 것과 같이, 보안과 편의성은 서로 반대되는 관계를 가집니다. Below, we provide some tips:
 
 1. ==Actions need to serve a particular purpose:== think about how to do what you want with the fewest actions.
 2. ==Remove human failure points:== We fail, get tired, and forget things. To maintain security, avoid relying on manual conditions and processes that you have to remember.

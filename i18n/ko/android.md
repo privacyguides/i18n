@@ -16,7 +16,7 @@ schema:
     name: Android
     image: /assets/img/android/android.svg
     url: https://source.android.com/
-    sameAs: https://en.wikipedia.org/wiki/Android_(operating_system)
+    sameAs: https://ko.wikipedia.org/wiki/%EC%95%88%EB%93%9C%EB%A1%9C%EC%9D%B4%EB%93%9C_(%EC%9A%B4%EC%98%81%EC%B2%B4%EC%A0%9C)
   - 
     "@context": http://schema.org
     "@type": CreativeWork
@@ -47,7 +47,7 @@ schema:
       "@type": Brand
       name: Google
     image: /assets/img/android/google-pixel.png
-    sameAs: https://en.wikipedia.org/wiki/Google_Pixel
+    sameAs: https://ko.wikipedia.org/wiki/%EA%B5%AC%EA%B8%80_%ED%94%BD%EC%85%80
     review:
       "@type": Review
       author:
@@ -91,11 +91,11 @@ These are the Android operating systems, devices, and apps we recommend to maxim
 
 [General Android Overview :material-arrow-right-drop-circle:](os/android-overview.md ""){.md-button}
 
-## AOSP Derivatives
+## AOSP 기반
 
 We recommend installing one of these custom Android operating systems on your device, listed in order of preference, depending on your device's compatibility with these operating systems.
 
-!!! note
+!!! note "참고"
 
     End-of-life devices (such as GrapheneOS or CalyxOS's "extended support" devices) do not have full security patches (firmware updates) due to the OEM discontinuing support. These devices cannot be considered completely secure regardless of installed software.
 
@@ -103,40 +103,40 @@ We recommend installing one of these custom Android operating systems on your de
 
 !!! recommendation
 
-    ![GrapheneOS logo](assets/img/android/grapheneos.svg#only-light){ align=right }
-    ![GrapheneOS logo](assets/img/android/grapheneos-dark.svg#only-dark){ align=right }
+    ![GrapheneOS 로고](assets/img/android/grapheneos.svg#only-light){ align=right }
+    ![GrapheneOS 로고](assets/img/android/grapheneos-dark.svg#only-dark){ align=right }
     
-    **GrapheneOS** is the best choice when it comes to privacy and security.
+    **GrapheneOS**는 프라이버시 및 보안 면에서 최고의 선택입니다.
     
-    GrapheneOS provides additional [security hardening](https://en.wikipedia.org/wiki/Hardening_(computing)) and privacy improvements. It has a [hardened memory allocator](https://github.com/GrapheneOS/hardened_malloc), network and sensor permissions, and various other [security features](https://grapheneos.org/features). GrapheneOS also comes with full firmware updates and signed builds, so verified boot is fully supported.
+    GraphneOS는 추가적인 [보안 강화(Security Hardening)](https://en.wikipedia.org/wiki/Hardening_(computing))와 프라이버시 강화 기능을 제공합니다. It has a [hardened memory allocator](https://github.com/GrapheneOS/hardened_malloc), network and sensor permissions, and various other [security features](https://grapheneos.org/features). GrapheneOS also comes with full firmware updates and signed builds, so verified boot is fully supported.
     
-    [:octicons-home-16: Homepage](https://grapheneos.org/){ .md-button .md-button--primary }
-    [:octicons-eye-16:](https://grapheneos.org/faq#privacy-policy){ .card-link title="Privacy Policy" }
-    [:octicons-info-16:](https://grapheneos.org/faq){ .card-link title=Documentation}
-    [:octicons-code-16:](https://grapheneos.org/source){ .card-link title="Source Code" }
-    [:octicons-heart-16:](https://grapheneos.org/donate){ .card-link title=Contribute }
+    [:octicons-home-16: 홈페이지](https://grapheneos.org/){ .md-button .md-button--primary }
+    [:octicons-eye-16:](https://grapheneos.org/faq#privacy-policy){ .card-link title="프라이버시 정책" }
+    [:octicons-info-16:](https://grapheneos.org/faq){ .card-link title=문서}
+    [:octicons-code-16:](https://grapheneos.org/source){ .card-link title="소스 코드" }
+    [:octicons-heart-16:](https://grapheneos.org/donate){ .card-link title=기부 }
 
 GrapheneOS supports [Sandboxed Google Play](https://grapheneos.org/usage#sandboxed-google-play), which runs [Google Play Services](https://en.wikipedia.org/wiki/Google_Play_Services) fully sandboxed like any other regular app. This means you can take advantage of most Google Play Services, such as [push notifications](https://firebase.google.com/docs/cloud-messaging/), while giving you full control over their permissions and access, and while containing them to a specific [work profile](os/android-overview.md#work-profile) or [user profile](os/android-overview.md#user-profiles) of your choice.
 
-Google Pixel phones are the only devices that currently meet GrapheneOS's [hardware security requirements](https://grapheneos.org/faq#device-support).
+Google Pixel 스마트폰은 현재 GpapheneOS [하드웨어 보안 요구 사항](https://grapheneos.org/faq#device-support)을 충족하는 유일한 기기입니다.
 
-[Why we recommend GrapheneOS over CalyxOS :material-arrow-right-drop-circle:](https://blog.privacyguides.org/2022/04/21/grapheneos-or-calyxos/ ""){.md-button}
+[CalyxOS보다 GrapheneOS를 추천하는 이유 :material-arrow-right-drop-circle:](https://blog.privacyguides.org/2022/04/21/grapheneos-or-calyxos/ ""){.md-button}
 
 ### DivestOS
 
 !!! recommendation
 
-    ![DivestOS logo](assets/img/android/divestos.svg){ align=right }
+    ![DivestOS 로고](assets/img/android/divestos.svg){ align=right }
     
-    **DivestOS** is a soft-fork of [LineageOS](https://lineageos.org/).
-    DivestOS inherits many [supported devices](https://divestos.org/index.php?page=devices&base=LineageOS) from LineageOS. It has signed builds, making it possible to have [verified boot](https://source.android.com/security/verifiedboot) on some non-Pixel devices.
+    **DivestOS**는 [LineageOS](https://lineageos.org/)의 소프트 포크입니다.
+    DivestOS는 LineageOS의 다양한 [지원 기기](https://divestos.org/index.php?page=devices&base=LineageOS)를 물려받았습니다. 서명된 빌드가 존재하여, Pixel 외 기기에서 [검증 부팅(Verified Boot)](https://source.android.com/security/verifiedboot)을 사용할 수 있습니다.
     
-    [:octicons-home-16: Homepage](https://divestos.org){ .md-button .md-button--primary }
-    [:simple-torbrowser:](http://divestoseb5nncsydt7zzf5hrfg44md4bxqjs5ifcv4t7gt7u6ohjyyd.onion){ .card-link title="Onion Service" }
-    [:octicons-eye-16:](https://divestos.org/index.php?page=privacy_policy){ .card-link title="Privacy Policy" }
-    [:octicons-info-16:](https://divestos.org/index.php?page=faq){ .card-link title=Documentation}
-    [:octicons-code-16:](https://github.com/divested-mobile){ .card-link title="Source Code" }
-    [:octicons-heart-16:](https://divested.dev/index.php?page=donate){ .card-link title=Contribute }
+    [:octicons-home-16: 홈페이지](https://divestos.org){ .md-button .md-button--primary }
+    [:simple-torbrowser:](http://divestoseb5nncsydt7zzf5hrfg44md4bxqjs5ifcv4t7gt7u6ohjyyd.onion){ .card-link title="Onion 서비스" }
+    [:octicons-eye-16:](https://divestos.org/index.php?page=privacy_policy){ .card-link title="프라이버시 정책" }
+    [:octicons-info-16:](https://divestos.org/index.php?page=faq){ .card-link title=문서}
+    [:octicons-code-16:](https://github.com/divested-mobile){ .card-link title="소스 코드" }
+    [:octicons-heart-16:](https://divested.dev/index.php?page=donate){ .card-link title=기부 }
 
 DivestOS has automated kernel vulnerability ([CVE](https://en.wikipedia.org/wiki/Common_Vulnerabilities_and_Exposures)) [patching](https://gitlab.com/divested-mobile/cve_checker), fewer proprietary blobs, and a custom [hosts](https://divested.dev/index.php?page=dnsbl) file. Its hardened WebView, [Mulch](https://gitlab.com/divested-mobile/mulch), enables [CFI](https://en.wikipedia.org/wiki/Control-flow_integrity) for all architectures and [network state partitioning](https://developer.mozilla.org/en-US/docs/Web/Privacy/State_Partitioning), and receives out-of-band updates. DivestOS also includes kernel patches from GrapheneOS and enables all available kernel security features via [defconfig hardening](https://github.com/Divested-Mobile/DivestOS-Build/blob/master/Scripts/Common/Functions.sh#L758). All kernels newer than version 3.4 include full page [sanitization](https://lwn.net/Articles/334747/) and all ~22 Clang-compiled kernels have [`-ftrivial-auto-var-init=zero`](https://reviews.llvm.org/D54604?id=174471) enabled.
 
@@ -146,27 +146,27 @@ DivestOS uses F-Droid as its default app store. Normally, we would recommend avo
 
 !!! warning "경고"
 
-    DivestOS firmware update [status](https://gitlab.com/divested-mobile/firmware-empty/-/blob/master/STATUS) and quality control varies across the devices it supports. We still recommend GrapheneOS depending on your device's compatibility. For other devices, DivestOS is a good alternative.
+    DivestOS 펌웨어 업데이트의 [세부 상태](https://gitlab.com/divested-mobile/firmware-empty/-/blob/master/STATUS) 및 품질 관리는 지원하는 기기에 따라 다릅니다. GrapheneOS와 호환되는 기기라면 GrapheneOS를 권장합니다. GrapheneOS 미지원 기기의 경우, DivestOS는 좋은 대체제입니다.
     
-    Not all of the supported devices have verified boot, and some perform it better than others.
+    검증 부팅은 모든 지원 기기에서 사용 가능한 것은 아니며, 일부 기기는 다른 기기보다 더 원활할 수 있습니다.
 
-## Android Devices
+## Android 기기
 
-When purchasing a device, we recommend getting one as new as possible. The software and firmware of mobile devices are only supported for a limited time, so buying new extends that lifespan as much as possible.
+기기를 구매할 때는 가급적 최신 제품을 구입해야 합니다. 모바일 기기의 소프트웨어와 펌웨어 지원 기간은 제한되어 있으므로, 최신 제품을 구입해야 최대한 수명을 늘릴 수 있습니다.
 
-Avoid buying phones from mobile network operators. These often have a **locked bootloader** and do not support [OEM unlocking](https://source.android.com/devices/bootloader/locking_unlocking). These phone variants will prevent you from installing any kind of alternative Android distribution.
+이동 통신사로부터 휴대폰을 사는 것은 지양해야 합니다. 이동 통신사에서 판매하는 휴대폰은 보통 **부트로더 잠금**이 걸려 있으며, [OEM 잠금 해제](https://source.android.com/devices/bootloader/locking_unlocking)를 지원하지 않습니다. 이 경우, 어떤 종류의 대체 Android 배포판도 설치할 수 없습니다.
 
-Be very **careful** about buying second hand phones from online marketplaces. Always check the reputation of the seller. If the device is stolen, there's a possibility of [IMEI blacklisting](https://www.gsma.com/security/resources/imei-blacklisting/). There is also a risk involved with you being associated with the activity of the previous owner.
+온라인에서 중고 휴대폰을 구입할 때에는 매우 **주의해야** 합니다. 판매자의 평판을 항상 확인하세요. 만약 해당 기기가 도난된 기기였을 경우, [IMEI 블랙리스트](https://www.gsma.com/security/resources/imei-blacklisting/)에 등재될 가능성이 있습니다. 또한 이전 소유자의 활동과 연관될 수 있다는 위험성도 존재합니다.
 
-A few more tips regarding Android devices and operating system compatibility:
+Android 기기 및 운영 체제 호환성에 관한 추가 정보:
 
-- Do not buy devices that have reached or are near their end-of-life, additional firmware updates must be provided by the manufacturer.
-- Do not buy preloaded LineageOS or /e/ OS phones or any Android phones without proper [Verified Boot](https://source.android.com/security/verifiedboot) support and firmware updates. These devices also have no way for you to check whether they've been tampered with.
-- In short, if a device or Android distribution is not listed here, there is probably a good reason. Check out our [forum](https://discuss.privacyguides.net/) to find details!
+- 수명이 다했거나 거의 다한 기기는 구매하지 마세요. 제조업체에서 추가 펌웨어 업데이트가 제공되는 기기를 구매해야 합니다.
+- LineageOS나 /e/ OS가 사전 설치된 휴대폰이나, 적절한 [자체 검사 부팅(Verified Boot)](https://source.android.com/security/verifiedboot) 지원 혹은 펌웨어 업데이트가 없는 Android 휴대폰을 구매하지 마세요. 이러한 기기는 조작되었는지 여부를 확인할 방법이 없습니다.
+- 요런대, 어떤 기기나 Android 배포판이 여기에 등재되지 않은 경우에는 그럴 만한 이유가 있을 겁니다. 자세한 내용은 [포럼](https://discuss.privacyguides.net/)을 참고해 주세요.
 
 ### Google Pixel
 
-Google Pixel phones are the **only** devices we recommend for purchase. Pixel phones have stronger hardware security than any other Android devices currently on the market, due to proper AVB support for third-party operating systems and Google's custom [Titan](https://security.googleblog.com/2021/10/pixel-6-setting-new-standard-for-mobile.html) security chips acting as the Secure Element.
+Google Pixel은 Privacy Guides에서 **유일하게** 구매를 권장하는 기기입니다. Pixel 스마트폰은 현재 시중에 존재하는 어떤 Android 기기보다도 강력한 하드웨어 보안을 가지고 있습니다. 제3자 운영 체제에 대한 적절한 AVB 지원이 갖추어져 있으며, Secure Element 역할 Google 커스텀 [Titan](https://security.googleblog.com/2021/10/pixel-6-setting-new-standard-for-mobile.html) 보안 칩을 탑재하고 있습니다.
 
 !!! recommendation
 
@@ -191,7 +191,7 @@ A few more tips for purchasing a Google Pixel:
 - Look at online community bargain sites in your country. These can alert you to good sales.
 - Google provides a list showing the [support cycle](https://support.google.com/nexus/answer/4457705) for each one of their devices. The price per day for a device can be calculated as: $\text{Cost} \over \text {EOL Date}-\text{Current Date}$, meaning that the longer use of the device the lower cost per day.
 
-## General Apps
+## 일반 앱
 
 We recommend a wide variety of Android apps throughout this site. The apps listed here are Android-exclusive and specifically enhance or replace key system functionality.
 
@@ -205,9 +205,9 @@ We recommend a wide variety of Android apps throughout this site. The apps liste
     
     Shelter supports blocking contact search cross profiles and sharing files across profiles via the default file manager ([DocumentsUI](https://source.android.com/devices/architecture/modular-system/documentsui)).
     
-    [:octicons-repo-16: Repository](https://gitea.angry.im/PeterCxy/Shelter#shelter){ .md-button .md-button--primary }
-    [:octicons-code-16:](https://gitea.angry.im/PeterCxy/Shelter){ .card-link title="Source Code" }
-    [:octicons-heart-16:](https://www.patreon.com/PeterCxy){ .card-link title=Contribute }
+    [:octicons-repo-16: 저장소](https://gitea.angry.im/PeterCxy/Shelter#shelter){ .md-button .md-button--primary }
+    [:octicons-code-16:](https://gitea.angry.im/PeterCxy/Shelter){ .card-link title="소스 코드" }
+    [:octicons-heart-16:](https://www.patreon.com/PeterCxy){ .card-link title=기부 }
 
 !!! warning "경고"
 
@@ -224,13 +224,13 @@ We recommend a wide variety of Android apps throughout this site. The apps liste
     
     **Auditor** is an app which leverages hardware security features to provide device integrity monitoring by actively validating the identity of a device and the integrity of its operating system. Currently, it only works with GrapheneOS or the stock operating system for [supported devices](https://attestation.app/about#device-support).
     
-    [:octicons-home-16: Homepage](https://attestation.app){ .md-button .md-button--primary }
-    [:octicons-eye-16:](https://attestation.app/privacy-policy){ .card-link title="Privacy Policy" }
-    [:octicons-info-16:](https://attestation.app/about){ .card-link title=Documentation}
-    [:octicons-code-16:](https://attestation.app/source){ .card-link title="Source Code" }
-    [:octicons-heart-16:](https://attestation.app/donate){ .card-link title=Contribute }
+    [:octicons-home-16: 홈페이지](https://attestation.app){ .md-button .md-button--primary }
+    [:octicons-eye-16:](https://attestation.app/privacy-policy){ .card-link title="프라이버시 정책" }
+    [:octicons-info-16:](https://attestation.app/about){ .card-link title=문서}
+    [:octicons-code-16:](https://attestation.app/source){ .card-link title="소스 코드" }
+    [:octicons-heart-16:](https://attestation.app/donate){ .card-link title=기부 }
     
-    ??? downloads
+    ??? downloads "다운로드"
     
         - [:simple-googleplay: Google Play](https://play.google.com/store/apps/details?id=app.attestation.auditor.play)
         - [:simple-github: GitHub](https://github.com/GrapheneOS/Auditor/releases)
@@ -252,42 +252,42 @@ If your [threat model](basics/threat-modeling.md) requires privacy, you could co
 
 !!! recommendation
 
-    ![Secure camera logo](assets/img/android/secure_camera.svg#only-light){ align=right }
-    ![Secure camera logo](assets/img/android/secure_camera-dark.svg#only-dark){ align=right }
+    ![Secure camera 로고](assets/img/android/secure_camera.svg#only-light){ align=right }
+    ![Secure camera 로고](assets/img/android/secure_camera-dark.svg#only-dark){ align=right }
     
-    **Secure Camera** is a camera app focused on privacy and security which can capture images, videos and QR codes. CameraX vendor extensions (Portrait, HDR, Night Sight, Face Retouch, and Auto) are also supported on available devices.
+    **Secure Camera**는 프라이버시, 보안 중점 카메라 앱으로 사진, 동영상, QR 코드를 찍을 수 있습니다. 기기에서 지원하는 경우 CameraX 공급업체 확장 기능(인물 모드, HDR, 야간 모드, 얼굴 보정, 자동) 또한 지원됩니다.
     
-    [:octicons-repo-16: Repository](https://github.com/GrapheneOS/Camera){ .md-button .md-button--primary }
-    [:octicons-info-16:](https://grapheneos.org/usage#camera){ .card-link title=Documentation}
-    [:octicons-code-16:](https://github.com/GrapheneOS/Camera){ .card-link title="Source Code" }
-    [:octicons-heart-16:](https://grapheneos.org/donate){ .card-link title=Contribute }
+    [:octicons-repo-16: 저장소](https://github.com/GrapheneOS/Camera){ .md-button .md-button--primary }
+    [:octicons-info-16:](https://grapheneos.org/usage#camera){ .card-link title=문서}
+    [:octicons-code-16:](https://github.com/GrapheneOS/Camera){ .card-link title="소스 코드" }
+    [:octicons-heart-16:](https://grapheneos.org/donate){ .card-link title=기부 }
     
-    ??? downloads
+    ??? downloads "다운로드"
     
         - [:simple-googleplay: Google Play](https://play.google.com/store/apps/details?id=app.grapheneos.camera.play)
         - [:simple-github: GitHub](https://github.com/GrapheneOS/Camera/releases)
         - [:material-cube-outline: GrapheneOS App Store](https://github.com/GrapheneOS/Apps/releases)
 
-Main privacy features include:
+주요 프라이버시 기능은 다음과 같습니다:
 
-- Auto removal of [Exif](https://en.wikipedia.org/wiki/Exif) metadata (enabled by default)
-- Use of the new [Media](https://developer.android.com/training/data-storage/shared/media) API, therefore [storage permissions](https://developer.android.com/training/data-storage) are not required
-- Microphone permission not required unless you want to record sound
+- [Exif](https://en.wikipedia.org/wiki/Exif) 메타데이터 자동 제거 (기본 활성화)
+- 새로운 [미디어](https://developer.android.com/training/data-storage/shared/media) API를 사용하므로 [저장 공간 ](https://developer.android.com/training/data-storage)권한이 필요하지 않습니다.
+- 사운드 녹음을 원치 않는 한 마이크 권한은 필요하지 않습니다.
 
-!!! note
+!!! note "참고"
 
-    Metadata is not currently deleted from video files but that is planned.
+    현재 동영상 파일은 메타데이터 제거가 지원되지 않지만, 지원 예정입니다.
     
-    The image orientation metadata is not deleted. If you enable location (in Secure Camera) that **won't** be deleted either. If you want to delete that later you will need to use an external app such as [ExifEraser](data-redaction.md#exiferaser).
+    이미지 방향 메타데이터는 제거되지 않습니다. (Secure Camera 내에서) 위치 기록을 활성화할 경우, 위치 기록은 제거되지 않습니다. 추후에 제거하려면 [ExifEraser](data-redaction.md#exiferaser) 등의 외부 앱을 사용해야 합니다.
 
 ### Secure PDF Viewer
 
 !!! recommendation
 
-    ![Secure PDF Viewer logo](assets/img/android/secure_pdf_viewer.svg#only-light){ align=right }
-    ![Secure PDF Viewer logo](assets/img/android/secure_pdf_viewer-dark.svg#only-dark){ align=right }
+    ![Secure PDF Viewer 로고](assets/img/android/secure_pdf_viewer.svg#only-light){ align=right }
+    ![Secure PDF Viewer 로고](assets/img/android/secure_pdf_viewer-dark.svg#only-dark){ align=right }
     
-    **Secure PDF Viewer** is a PDF viewer based on [pdf.js](https://en.wikipedia.org/wiki/PDF.js) that doesn't require any permissions. The PDF is fed into a [sandboxed](https://en.wikipedia.org/wiki/Sandbox_(software_development)) [webview](https://developer.android.com/guide/webapps/webview). This means that it doesn't require permission directly to access content or files.
+    **Secure PDF Viewer**는 [pdf.js](https://en.wikipedia.org/wiki/PDF.js) 기반 PDF 뷰어로, 어떤 권한도 필요하지 않습니다. The PDF is fed into a [sandboxed](https://en.wikipedia.org/wiki/Sandbox_(software_development)) [webview](https://developer.android.com/guide/webapps/webview). This means that it doesn't require permission directly to access content or files.
     
     [Content-Security-Policy](https://en.wikipedia.org/wiki/Content_Security_Policy) is used to enforce that the JavaScript and styling properties within the WebView are entirely static content.
     
@@ -334,13 +334,13 @@ For apps that are released on platforms like GitHub and GitLab, you may be able 
 
 #### GitHub
 
-On GitHub, using [Secure Camera](#secure-camera) as an example, you would navigate to its [releases page](https://github.com/GrapheneOS/Camera/releases) and append `.atom` to the URL:
+GitHub에서는 ([Secure Camera](#secure-camera) 예시) [릴리스 페이지](https://github.com/GrapheneOS/Camera/releases)로 이동한 뒤 URL에 `atom`을 추가하면 됩니다:
 
 `https://github.com/GrapheneOS/Camera/releases.atom`
 
 #### GitLab
 
-On GitLab, using [Aurora Store](#aurora-store) as an example, you would navigate to its [project repository](https://gitlab.com/AuroraOSS/AuroraStore) and append `/-/tags?format=atom` to the URL:
+GitLab에서는 ([Aurora Store](#aurora-store) 예시) [프로젝트 저장소](https://gitlab.com/AuroraOSS/AuroraStore)로 이동한 뒤 URL에 `/-/tags?format=atom`을 추가하면 됩니다:
 
 `https://gitlab.com/AuroraOSS/AuroraStore/-/tags?format=atom`
 
@@ -348,11 +348,11 @@ On GitLab, using [Aurora Store](#aurora-store) as an example, you would navigate
 
 If you download APK files to install manually, you can verify their signature with the [`apksigner`](https://developer.android.com/studio/command-line/apksigner) tool, which is a part of Android [build-tools](https://developer.android.com/studio/releases/build-tools).
 
-1. Install [Java JDK](https://www.oracle.com/java/technologies/downloads/).
+1. [Java JDK](https://www.oracle.com/java/technologies/downloads/)를 설치합니다.
 
-2. Download the [Android Studio command line tools](https://developer.android.com/studio#command-tools).
+2. [Android 스튜디오 명령줄 도구](https://developer.android.com/studio#command-tools)를 다운로드합니다.
 
-3. Extract the downloaded archive:
+3. 다운로드한 압축 파일을 압축 해제합니다.
 
     ```bash
     unzip commandlinetools-*.zip
@@ -360,13 +360,13 @@ If you download APK files to install manually, you can verify their signature wi
     ./bin/sdkmanager --sdk_root=./ "build-tools;29.0.3"
     ```
 
-4. Run the signature verification command:
+4. 서명 확인 명령어를 실행합니다:
 
     ```bash
     ./build-tools/29.0.3/apksigner verify --print-certs ../Camera-37.apk
     ```
 
-5. The resulting hashes can then be compared with another source. Some developers such as Signal [show the fingerprints](https://signal.org/android/apk/) on their website.
+5. 이제 결과 해시를 다른 소스와 비교할 수 있습니다. [Signal처럼](https://signal.org/android/apk/) 일부 개발자는 웹사이트에서 인증서 지문을 명시합니다.
 
     ```bash
     Signer #1 certificate DN: CN=GrapheneOS
@@ -387,7 +387,7 @@ Other popular third-party repositories such as [IzzyOnDroid](https://apt.izzysof
 
 That said, the [F-Droid](https://f-droid.org/en/packages/) and [IzzyOnDroid](https://apt.izzysoft.de/fdroid/) repositories are home to countless apps, so they can be a useful tool to search for and discover open-source apps that you can then download through Play Store, Aurora Store, or by getting the APK directly from the developer. It is important to keep in mind that some apps in these repositories have not been updated in years and may rely on unsupported libraries, among other things, posing a potential security risk. You should use your best judgement when looking for new apps via this method.
 
-!!! note
+!!! note "참고"
 
     In some rare cases, the developer of an app will only distribute it through F-Droid ([Gadgetbridge](https://gadgetbridge.org/) is one example of this). If you really need an app like that, we recommend using [Neo Store](https://github.com/NeoApplications/Neo-Store/) instead of the official F-Droid app to obtain it.
 
@@ -401,7 +401,7 @@ That said, the [F-Droid](https://f-droid.org/en/packages/) and [IzzyOnDroid](htt
 
 ### 운영 체제
 
-- Must be open-source software.
+- 오픈 소스 소프트웨어여야 합니다.
 - Must support bootloader locking with custom AVB key support.
 - Must receive major Android updates within 0-1 months of release.
 - Must receive Android feature updates (minor version) within 0-14 days of release.
@@ -410,14 +410,14 @@ That said, the [F-Droid](https://f-droid.org/en/packages/) and [IzzyOnDroid](htt
 - Must **not** enable Google Play Services by default.
 - Must **not** require system modification to support Google Play Services.
 
-### Devices
+### 기기
 
 - Must support at least one of our recommended custom operating systems.
-- Must be currently sold new in stores.
-- Must receive a minimum of 5 years of security updates.
-- Must have dedicated secure element hardware.
+- 현재 새 제품을 팔고 있어야 합니다.
+- 최소 5년 이상 보안 업데이트를 받아야 합니다.
+- 전용 보안 칩(Secure Element) 하드웨어가 장착되어 있어야 합니다.
 
-### Applications
+### 애플리케이션
 
 - Applications on this page must not be applicable to any other software category on the site.
 - General applications should extend or replace core system functionality.
