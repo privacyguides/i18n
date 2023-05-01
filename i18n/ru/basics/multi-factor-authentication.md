@@ -1,62 +1,62 @@
 ---
 title: "Многофакторная аутентификация"
 icon: 'material/two-factor-authentication'
-description: MFA is a critical security mechanism for securing your online accounts, but some methods are stronger than others.
+description: MFA - это важнейший механизм безопасности для защиты ваших учетных записей в интернете, однако некоторые методы MFA сильнее, чем другие.
 ---
 
-**Multi-Factor Authentication** (**MFA**) is a security mechanism that requires additional steps beyond entering your username (or email) and password. The most common method is time limited codes you might receive from SMS or an app.
+**Многофакторная аутентификация** (**МФА**) это механизм безопасности, который требует от вас дополнительных шагов, помимо ввода логина (или электронной почты) и пароля. Самый распространенный метод - временный коды, которые вы можете получить по СМС или из приложения.
 
-Normally, if a hacker (or adversary) is able to figure out your password then they’d gain access to the account that password belongs to. An account with MFA forces the hacker to have both the password (something you *know*) and a device that you own (something you *have*), like your phone.
+Обычно, если хакеру (или злоумышленнику) удается узнать ваш пароль, то он получает доступ к учетной записи, которую этот пароль защищал. Учетная запись с МФА вынуждает хакера иметь как пароль (то, что вы *знаете*), так и устройство, которым вы владеете (то, что у вас *есть*), например, ваш телефон.
 
-MFA methods vary in security, but are based on the premise that the more difficult it is for an attacker to gain access to your MFA method, the better. Examples of MFA methods (from weakest to strongest) include SMS, Email codes, app push notifications, TOTP, Yubico OTP and FIDO.
+Методы MFA различаются по степени безопасности, но в их основе лежит принцип, что чем сложнее злоумышленнику получить доступ к вашему методу MFA, тем лучше. Примеры методов MFA (от самого слабого к самому сильному) включают СМС, коды по электронной почте, пуш-уведомления из приложений, TOTP, Yubico OTP и FIDO.
 
-## MFA Method Comparison
+## Сравнение методов МФА
 
-### SMS or Email MFA
+### МФА по СМС или электронной почте
 
-Receiving OTP codes via SMS or email are one of the weaker ways to secure your accounts with MFA. Obtaining a code by email or SMS takes away from the "something you *have*" idea, because there are a variety of ways a hacker could [take over your phone number](https://en.wikipedia.org/wiki/SIM_swap_scam) or gain access to your email without having physical access to any of your devices at all. If an unauthorized person gained access to your email, they would be able to use that access to both reset your password and receive the authentication code, giving them full access to your account.
+Получение OTP-кодов по СМС или электронной почте - один из самых слабых способов защиты учетных записей с помощью MFA. Получение кода по электронной почте или СМС невилирует принцип "что-то, что у вас *есть*", поскольку существует множество способов, которыми хакер может [завладеть вашим телефонным номером](https://en.wikipedia.org/wiki/SIM_swap_scam) или получить доступ к вашей электронной почте, не имея физического доступа ни к одному из ваших устройств. Если злоумышленник получит доступ к вашей электронной почте, то он сможет использовать этот доступ как для сброса пароля, так и для получения кода аутентификации, что даст ему полный доступ к вашей учетной записи.
 
-### Push-уведомления
+### Пуш-уведомления
 
-Push notification MFA takes the form of a message being sent to an app on your phone asking you to confirm new account logins. This method is a lot better than SMS or email, since an attacker typically wouldn't be able to get these push notifications without having an already logged-in device, which means they would need to compromise one of your other devices first.
+MFA через пуш-уведомление представляет собой сообщение, отправленное в приложении на вашем телефоне с просьбой подтвердить новый вход в учетную запись. Этот метод намного лучше, чем СМС или электронная почта, поскольку злоумышленник, как правило, не сможет получить эти пуш-уведомления, не имея уже зарегистрированного устройства. Это означает, что ему придется сначала скомпрометировать одно из ваших других устройств.
 
-We all make mistakes, and there is the risk that you might accept the login attempt by accident. Push notification login authorizations are typically sent to *all* your devices at once, widening the availability of the MFA code if you have many devices.
+Мы все совершаем ошибки, поэтому существует риск, что вы можете случайно одобрить вход в систему. Авторизация входа с помощью пуш-уведомлений обычно отправляется на *все* ваши устройства одновременно, что расширяет доступность кодов МФА, если у вас много устройств.
 
-The security of push notification MFA is dependent on both the quality of the app, the server component and the trust of the developer who produces it. Installing an app may also require you to accept invasive privileges that grant access to other data on your device. An individual app also requires that you have a specific app for each service which may not require a password to open, unlike a good TOTP generator app.
+Безопасность МФА с пуш-уведомлениями зависит как от качества приложения, серверного компонента, так и от доверия к разработчику, который его создает. Установка приложений также может потребовать от вас выдачу инвазивных разрешений, предоставляющих доступ к другим данным на вашем устройстве. Некоторые приложения также требуют наличие отдельного приложения для каждого сервиса, для открытия которого может не требоваться пароль, в отличие от хорошего приложения генератора TOTP.
 
-### Time-based One-time Password (TOTP)
+### Одноразовый пароль основанный на времени (TOTP)
 
-TOTP is one of the most common forms of MFA available. When you set up TOTP, you are generally required to scan a [QR Code](https://en.wikipedia.org/wiki/QR_code) which establishes a "[shared secret](https://en.wikipedia.org/wiki/Shared_secret)" with the service that you intend to use. The shared secret is secured inside of the authenticator app's data, and is sometimes protected by a password.
+TOTP - одна из наиболее распространенных форм MFA. При установке TOTP обычно требуется отсканировать [QR-код](https://ru.wikipedia.org/wiki/QR-код), который содержит "[общий секрет](https://en.wikipedia.org/wiki/Shared_secret)" с сервисом, который вы собираетесь использовать. Общий секрет хранится внутри данных приложения аутентификатора и иногда защищен паролем.
 
-The time-limited code is then derived from the shared secret and the current time. As the code is only valid for a short time, without access to the shared secret, an adversary cannot generate new codes.
+Код, ограниченный по времени, вычисляется из общего секрета и текущего времени. Поскольку код действителен только в течение короткого времени, без доступа к общему секрету злоумышленник не может генерировать новые коды.
 
-If you have a hardware security key with TOTP support (such as a YubiKey with [Yubico Authenticator](https://www.yubico.com/products/yubico-authenticator/)), we recommend that you store your "shared secrets" on the hardware. Hardware such as the YubiKey was developed with the intention of making the "shared secret" difficult to extract and copy. A YubiKey is also not connected to the Internet, unlike a phone with a TOTP app.
+Если у вас есть аппаратный ключ безопасности с поддержкой TOTP (например, YubiKey с [Yubico Authenticator](https://www.yubico.com/products/yubico-authenticator/)), мы рекомендуем хранить ваши "общие секреты" на этом аппаратном ключе. Такое оборудование, как YubiKey, было разработано с целью сделать "общий секрет" трудноизвлекаемым и копируемым. YubiKey также не подключен к интернету, в отличие от телефона с приложением TOTP.
 
-Unlike [WebAuthn](#fido-fast-identity-online), TOTP offers no protection against [phishing](https://en.wikipedia.org/wiki/Phishing) or reuse attacks. If an adversary obtains a valid code from you, they may use it as many times as they like until it expires (generally 60 seconds).
+В отличие от [WebAuthn](#fido-fast-identity-online), TOTP не обеспечивает защиту от [фишинга](https://ru.wikipedia.org/wiki/фишинг) или повторных атак. Если злоумышленник получает от вас действующий код, он может использовать его сколько угодно раз, пока не истечет срок его действия (обычно 60 секунд).
 
-An adversary could set up a website to imitate an official service in an attempt to trick you into giving out your username, password and current TOTP code. If the adversary then uses those recorded credentials they may be able to log into the real service and hijack the account.
+Злоумышленник может создать сайт, имитирующий официальный сервис, чтобы обманом заставить вас сообщить свое имя пользователя, пароль и текущий код TOTP. Если злоумышленник затем использует эти записанные учетные данные, он сможет войти в реальный сервис и завладеть учетной записью.
 
-Although not perfect, TOTP is secure enough for most people, and when [hardware security keys](../multi-factor-authentication.md#hardware-security-keys) are not supported [authenticator apps](../multi-factor-authentication.md#authenticator-apps) are still a good option.
+Хотя TOTP не совершенен, он достаточно безопасен для большинства людей, и если аппаратные ключи безопасности [](../multi-factor-authentication.md#hardware-security-keys) не поддерживаются, то [ приложения-аутентификаторы](../multi-factor-authentication.md#authenticator-apps) все ещё являются хорошим вариантом.
 
-### Hardware security keys
+### Аппаратные ключи безопасности
 
-The YubiKey stores data on a tamper-resistant solid-state chip which is [impossible to access](https://security.stackexchange.com/a/245772) non-destructively without an expensive process and a forensics laboratory.
+YubiKey хранит данные на устойчивом к взлому твердотельном чипе, к которому, [невозможно получить доступ](https://security.stackexchange.com/a/245772), без криминалистической лаборатории и дорогостоящего процесса.
 
-These keys are generally multi-function and provide a number of methods to authenticate. Below are the most common ones.
+Как правило, такие ключи являются многофункциональными и предоставляют несколько способов аутентификации. Ниже приведены наиболее распространенные из них.
 
 #### Yubico OTP
 
-Yubico OTP is an authentication protocol typically implemented in hardware security keys. When you decide to use Yubico OTP, the key will generate a public ID, private ID, and a Secret Key which is then uploaded to the Yubico OTP server.
+Yubico OTP - это протокол аутентификации, обычно реализуемый в аппаратных ключах безопасности. Когда вы решите использовать Yubico OTP, ключ будет генерировать публичный ID, личный ID и секретный ключ, который затем загружается на сервер Yubico OTP.
 
-When logging into a website, all you need to do is to physically touch the security key. The security key will emulate a keyboard and print out a one-time password into the password field.
+При входе на сайт достаточно просто физически прикоснуться к ключу безопасности. Ключ безопасности будет эмулировать клавиатуру и печатать одноразовый пароль в поле пароля.
 
-The service will then forward the one-time password to the Yubico OTP server for validation. A counter is incremented both on the key and Yubico's validation server. The OTP can only be used once, and when a successful authentication occurs, the counter is increased which prevents reuse of the OTP. Yubico provides a [detailed document](https://developers.yubico.com/OTP/OTPs_Explained.html) about the process.
+Затем служба передаст одноразовый пароль на сервер Yubico OTP для проверки. Счетчик увеличивается как на ключе, так и на сервере проверки Yubico. OTP можно использовать только один раз, когда происходит успешная аутентификация, счетчик увеличивается, что предотвращает повторное использование OTP. Yubico предоставляет подробную документацию [](https://developers.yubico.com/OTP/OTPs_Explained.html) о процессе.
 
 <figure markdown>
   ![Yubico OTP](../assets/img/multi-factor-authentication/yubico-otp.png)
 </figure>
 
-There are some benefits and disadvantages to using Yubico OTP when compared to TOTP.
+Существуют некоторые преимущества и недостатки использования Yubico OTP по сравнению с TOTP.
 
 The Yubico validation server is a cloud based service, and you're placing trust in Yubico that they are storing data securely and not profiling you. The public ID associated with Yubico OTP is reused on every website and could be another avenue for third-parties to profile you. Like TOTP, Yubico OTP does not provide phishing resistance.
 
@@ -94,9 +94,9 @@ If a website or service supports WebAuthn for the authentication, it is highly r
 
 We have these general recommendations:
 
-### Which Method Should I Use?
+### Какой метод мне выбрать?
 
-When configuring your MFA method, keep in mind that it is only as secure as your weakest authentication method you use. This means it is important that you only use the best MFA method available. For instance, if you are already using TOTP, you should disable email and SMS MFA. If you are already using FIDO2/WebAuthn, you should not be using Yubico OTP or TOTP on your account.
+При настройке метода МФА следует помнить, что он настолько безопасен, насколько безопасен самый слабый метод аутентификации, который вы используете. This means it is important that you only use the best MFA method available. For instance, if you are already using TOTP, you should disable email and SMS MFA. If you are already using FIDO2/WebAuthn, you should not be using Yubico OTP or TOTP on your account.
 
 ### Backups
 
@@ -156,7 +156,7 @@ Qubes OS has support for Challenge-Response authentication with YubiKeys. If you
 
 SSH MFA could be set up using multiple different authentication methods that are popular with hardware security keys. We recommend that you check out Yubico's [documentation](https://developers.yubico.com/SSH/) on how to set this up.
 
-#### Time-based One-time Password (TOTP)
+#### Одноразовый пароль основанный на времени (TOTP)
 
 SSH MFA can also be set up using TOTP. DigitalOcean has provided a tutorial [How To Set Up Multi-Factor Authentication for SSH on Ubuntu 20.04](https://www.digitalocean.com/community/tutorials/how-to-set-up-multi-factor-authentication-for-ssh-on-ubuntu-20-04). Most things should be the same regardless of distribution, however the package manager commands—such as `apt-get`—and package names may differ.
 

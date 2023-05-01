@@ -14,7 +14,7 @@ Esistono diverse architetture di rete comunemente usate per trasmettere messaggi
 
 I servizi di messaggistica centralizzati sono quelli in cui tutti i partecipanti si trovano sullo stesso server o rete di server controllati dalla stessa organizzazione.
 
-Alcuni servizi di messaggistica autoserviti consentono di configurare il proprio server. Il self-hosting può fornire ulteriori garanzie di privacy, come l'assenza di log o l'accesso limitato ai metadati (dati su chi parla con chi). I servizi centralizzati self-hosted sono isolati e tutti devono essere sullo stesso server per comunicare.
+Alcuni servizi di messaggistica "self-hostati" consentono di configurare il proprio server. Il self-hosting può fornire ulteriori garanzie di privacy, come l'assenza di log o l'accesso limitato ai metadati (dati su chi parla con chi). I servizi centralizzati self-hosted sono isolati e tutti devono essere sullo stesso server per comunicare.
 
 **Vantaggi:**
 
@@ -64,7 +64,7 @@ I client (peer) di solito si trovano l'un l'altro attraverso l'uso di una rete [
 
 Una volta che un peer ha trovato un percorso verso il suo contatto attraverso uno di questi metodi, viene stabilita una connessione diretta tra i due. Sebbene i messaggi siano solitamente criptati, un osservatore può comunque dedurre la posizione e l'identità del mittente e del destinatario.
 
-Le reti P2P non utilizzano server, poiché i peer comunicano direttamente tra loro e quindi non possono essere auto-ospitati. Tuttavia, alcuni servizi aggiuntivi possono dipendere da server centralizzati, come la scoperta degli utenti o la trasmissione di messaggi offline, che possono trarre vantaggio dall'auto-ospitalità.
+Le reti P2P non utilizzano server, poiché i peer comunicano direttamente tra loro e quindi non possono essere auto-ospitati. Tuttavia, alcuni servizi aggiuntivi possono dipendere da server centralizzati, come la scoperta degli utenti o la trasmissione di messaggi offline, che possono trarre vantaggio dal self-hosting.
 
 **Vantaggi:**
 

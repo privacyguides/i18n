@@ -177,8 +177,8 @@ Le code côté serveur de Bitwarden est [open-source](https://github.com/bitward
     
     **1Password** est un gestionnaire de mots de passe qui met l'accent sur la sécurité et la facilité d'utilisation. Il vous permet de stocker des mots de passe, des cartes de crédit, des licences de logiciels et toute autre information sensible dans un coffre-fort numérique sécurisé. Votre chambre forte est hébergée sur les serveurs de 1Password pour un [tarif mensuel](https://1password.com/sign-up/). 1Password est [audité](https://support.1password.com/security-assessments/) régulièrement et fournit un support client exceptionnel. 1Password est closed source ; cependant, la sécurité du produit est documentée de manière approfondie dans leur [livre blanc sur la sécurité](https://1passwordstatic.com/files/security/1password-white-paper.pdf).
     
-    [:octicons-home-16: Page d'accueil](https://1password.com/){ .md-button .md-button--primary }
-    [:octicons-eye-16:](https://support.1password.com/1password-privacy/){ .card-link title="Politique de confidentialité" }
+    [:octicons-home-16: Homepage](https://1password.com/){ .md-button .md-button--primary }
+    [:octicons-eye-16:](https://1password.com/legal/privacy/){ .card-link title="Privacy Policy" }
     [:octicons-info-16:](https://support.1password.com/){ .card-link title=Documentation}
     
     ??? downloads "Téléchargements"

@@ -6,7 +6,7 @@ Se apporti modifiche a questo sito web dall'editor web di GitHub.com, non dovres
 
 ## Abilita la firma per i commit tramite chiave SSH
 
-Puoi usare una chiave SSH già esistente per firmare, o[creane una nuova](https://docs.github.com/en/authentication/connecting-to-github-with-ssh/generating-a-new-ssh-key-and-adding-it-to-the-ssh-agent).
+Puoi usare una chiave SSH già esistente per firmare, o [creane una nuova](https://docs.github.com/en/authentication/connecting-to-github-with-ssh/generating-a-new-ssh-key-and-adding-it-to-the-ssh-agent).
 
 1. Configura il tuo client Git per firmare i commit e i tag in modo predefinito (rimuovere `--global` per firmare solo in modo predefinito per questa repo):
    ```
@@ -36,7 +36,7 @@ Usa `git pull --rebase` invece di `git pull` quando estrai le modifiche da GitHu
 git config --global pull.rebase true
 ```
 
-## Rebase da`main`prima di inviare una PR
+## Rebase da `main` prima di inviare una PR
 
 Se stai lavorando sulla tua branch, esegui questi comandi prima di inviare una PR:
 

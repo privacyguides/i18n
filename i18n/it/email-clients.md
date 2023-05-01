@@ -66,9 +66,11 @@ Queste opzioni si trovano in :material-menu: → **Impostazioni** → **Privacy 
     
     **Apple Mail** è incluso in macOS e può essere esteso per avere il supporto OpenPGP con [GPG Suite](encryption.md#gpg-suite), che aggiunge la possibilità di inviare e-mail crittografate.
     
-    [:octicons-home-16: Pagina principale](https://support.apple.com/guide/mail/welcome/mac){ .md-button .md-button--primary }
-    [:octicons-eye-16:](https://www.apple.com/legal/privacy/en-ww/){ .card-link title="Informativa sulla privacy" }
-    [:octicons-info-16:](https://support.apple.com/guide/mail/toc){ .card-link title=Documentazione}
+    [:octicons-home-16: Pagina Principale](https://support.apple.com/guide/mail/welcome/mac){ .md-button .md-button--primary }
+    [:octicons-eye-16:](https://www.apple.com/legal/privacy/en-ww/){ .card-link title="Politica sulla Privacy" }
+    [:octicons-info-16:](https://support.apple.com/mail){ .card-link title=Documentazione}
+
+Apple Mail ha la possibilità di caricare contenuti in remoto in background o di bloccarli completamente nascondendo il tuo indirizzo IP dai mittenti su [macOS](https://support.apple.com/guide/mail/mlhl03be2866/mac) e [iOS](https://support.apple.com/guide/iphone/iphf084865c7/ios).
 
 ### Canary Mail (iOS)
 
@@ -92,13 +94,13 @@ Queste opzioni si trovano in :material-menu: → **Impostazioni** → **Privacy 
 
     Canary Mail ha rilasciato solo di recente un client per Windows e Android, anche se non crediamo che siano stabili come le loro controparti per iOS e Mac.
 
-Canary Mail è closed-source. Lo consigliamo a causa della scarsa scelta di client di posta elettronica su iOS che supportano la E2EE PGP.
+Canary Mail è closed-source. Lo consigliamo a causa della scarsa scelta di client email su iOS che supportano la E2EE PGP.
 
 ### FairEmail (Android)
 
 !!! recommendation
 
-    ![FairEmail logo](assets/img/email-clients/fairemail.svg){ align=right }
+    ![logo FairEmail ](assets/img/email-clients/fairemail.svg){ align=right }
     
     **FairEmail** è un'applicazione di posta elettronica minimale e open-source, che utilizza standard aperti (IMAP, SMTP, OpenPGP) con un basso consumo di dati e batteria.
     

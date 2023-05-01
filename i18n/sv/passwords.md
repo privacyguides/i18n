@@ -176,9 +176,11 @@ Bitwardens kod på serversidan är [öppen källkod](https://github.com/bitwarde
     
     **1Password** är en lösenordshanterare med starkt fokus på säkerhet och användarvänlighet, som gör att du kan lagra lösenord, kreditkort, programlicenser och annan känslig information i ett säkert digitalt valv. Ditt valv lagras på 1Passwords servrar för en [månadsavgift] (https://1password.com/sign-up/). 1Password är [audited](https://support.1password.com/security-assessments/) på regelbunden basis och erbjuder exceptionell kundsupport. 1Password är en sluten källa, men produktens säkerhet dokumenteras noggrant i deras [white paper om säkerhet](https://1passwordstatic.com/files/security/1password-white-paper.pdf).
     
-    [:octicons-home-16: Repository](https://github.com/Hackeralert/Picocrypt){ .md-button .md-button--primary }
-    [:octicons-eye-16:](https://github.com/Hackeralert/Picocrypt){ .card-link title="Source Code" }
-    [:octicons-info-16:](https://support.1password.com){ .card-link title=Contribute??? nedladdningar    - [:simple-googleplay: Google Play](https://play.google.com/store/apps/details?id=com.onepassword.android)
+    [:octicons-home-16: Homepage](https://1password.com/){ .md-button .md-button--primary }
+    [:octicons-eye-16:](https://1password.com/legal/privacy/){ .card-link title="Privacy Policy" }
+    [:octicons-info-16:](https://support.1password.com/){ .card-link title=Documentation}
+    
+    ??? nedladdningar    - [:simple-googleplay: Google Play](https://play.google.com/store/apps/details?id=com.onepassword.android)
         - [:simple-appstore: App Store](https://apps.apple.com/app/id1511601750?mt=8)
         - [:simple-windows11: Android]()
         - [:simple-apple: Windows]()

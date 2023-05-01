@@ -66,9 +66,11 @@ cover: email-clients.png
     
     **Apple Mail**은 macOS에 기본 포함되어 있으며, PGP 암호화 이메일 전송 기능을 추가하는 [GPG Suite](encryption.md#gpg-suite)를 통해 OpenPGP를 지원하도록 확장 가능합니다.
     
-    [:octicons-home-16: 홈페이지](https://support.apple.com/guide/mail/welcome/mac){ .md-button .md-button--primary }
-    [:octicons-eye-16:](https://www.apple.com/kr/legal/privacy/kr/){ .card-link title="프라이버시 정책" }
-    [:octicons-info-16:](https://support.apple.com/guide/mail/toc){ .card-link title=문서}
+    [:octicons-home-16: Homepage](https://support.apple.com/guide/mail/welcome/mac){ .md-button .md-button--primary }
+    [:octicons-eye-16:](https://www.apple.com/legal/privacy/en-ww/){ .card-link title="Privacy Policy" }
+    [:octicons-info-16:](https://support.apple.com/mail){ .card-link title=Documentation}
+
+Apple Mail has the ability to load remote content in the background or block it entirely and hide your IP address from senders on [macOS](https://support.apple.com/guide/mail/mlhl03be2866/mac) and [iOS](https://support.apple.com/guide/iphone/iphf084865c7/ios).
 
 ### Canary Mail (iOS)
 

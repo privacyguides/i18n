@@ -51,9 +51,9 @@ Gli attacchi mirati contro una persona specifica sono più problematici da gesti
 
 Se si temono **attacchi fisici** si dovrebbe utilizzare un sistema operativo con un'implementazione di avvio sicuro verificato, come Android, iOS, macOS o [Windows (con TPM)](https://docs.microsoft.com/en-us/windows/security/information-protection/secure-the-windows-10-boot-process). È inoltre necessario assicurarsi che l'unità sia crittografata e che il sistema operativo utilizzi un TPM o un Secure [Enclave](https://support.apple.com/guide/security/secure-enclave-sec59b0b31ff/1/web/1) o [Element](https://developers.google.com/android/security/android-ready-se) per limitare i tentativi di immissione della passphrase di crittografia. Dovreste evitare di condividere il vostro computer con persone di cui non vi fidate, perché la maggior parte dei sistemi operativi desktop non cripta i dati separatamente per ogni utente.
 
-## Privacy da parte dei Service providers
+## Privacy da parte dei fornitori di servizi
 
-<span class="pg-teal">:material-server-network: Service Provides</span>
+<span class="pg-teal">:material-server-network: Fornitori di Servizi</span>
 
 Viviamo in un mondo in cui quasi tutto è collegato a Internet. I nostri messaggi "privati", le e-mail e le interazioni sui social sono in genere archiviati su un server, da qualche parte. In genere, quando si invia un messaggio a qualcuno, questo viene memorizzato su un server e quando l'amico vuole leggerlo il server glielo mostra.
 
@@ -61,7 +61,7 @@ Il problema evidente è che il fornitore di servizi (o un hacker che abbia compr
 
 Fortunatamente, E2EE può alleviare questo problema crittografando le comunicazioni tra l'utente e i destinatari desiderati prima ancora che vengano inviate al server. La riservatezza dei messaggi è garantita, a patto che il fornitore del servizio non abbia accesso alle chiavi private di entrambe le parti.
 
-!!! note "Nota sulla crittografia Web-based".
+!!! nota "Nota sulla crittografia Web-based"
 
     In pratica, l'efficacia delle diverse implementazioni E2EE varia. Le applicazioni, come [Signal](../real-time-communication.md#signal), vengono eseguite in modo nativo sul dispositivo e ogni copia dell'applicazione è la stessa in tutte le installazioni. Se il fornitore di servizi introducesse una [backdoor](https://en.wikipedia.org/wiki/Backdoor_(computing)) nella propria applicazione - nel tentativo di rubare le chiavi private - potrebbe in seguito essere individuato con il [reverse engineering] (https://en.wikipedia.org/wiki/Reverse_engineering).
     

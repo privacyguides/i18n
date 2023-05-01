@@ -134,15 +134,15 @@ ffsend upload --host https://send.vis.ee/ FILE
 
     Privacy Guides 팀은 사이트의 모든 항목마다 명확한 평가 기준을 정립하는 중이며, 따라서 세부 내용은 변경될 수 있습니다. 평가 기준에 대해서 질문이 있다면 [포럼에서 문의](https://discuss.privacyguides.net/latest)하시기 바랍니다. (무언가가 목록에 존재하지 않다고 해서 권장 목록을 작성할 때 고려한 적이 없을 것으로 단정 짓지 마세요.) 권장 목록에 어떤 프로젝트를 추가할 때 고려하고 논의해야 할 요소는 매우 많으며, 모든 요소를 문서화하는 것은 현재 진행 중인 작업입니다.
 
-#### Minimum Requirements
+#### 최소 요구 사항
 
 - Must not require a third-party remote/cloud server.
 - Must be open-source software.
 - Must either have clients for Linux, macOS, and Windows; or have a web interface.
 
-#### Best-Case
+#### 우대 사항
 
-Our best-case criteria represents what we would like to see from the perfect project in this category. Our recommendations may not include any or all of this functionality, but those which do may rank higher than others on this page.
+평가 기준에서 '우대 사항'은 해당 부문에서 완벽한 프로젝트에 기대하는 바를 나타냅니다. 다음의 우대 사항에 해당하지 않더라도 권장 목록에 포함될 수 있습니다. 단, 우대 사항에 해당할수록 이 페이지의 다른 항목보다 높은 순위를 갖습니다.
 
 - Has mobile clients for iOS and Android, which at least support document previews.
 - Supports photo backup from iOS and Android, and optionally supports file/folder sync on Android.

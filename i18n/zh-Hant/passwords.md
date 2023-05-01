@@ -178,7 +178,7 @@ Bitwarden 伺服器端代碼是 [開源](https://github.com/bitwarden/server)，
     * * 1Password * *是一個密碼管理器，非常注重安全性和易用性，允許您將密碼、信用卡、軟體許可證和任何其他敏感資訊存儲在安全的數位保管庫。 您的保管庫託管在 1Password 伺服器，費用為[每月收取] (https://1password.com/sign-up/)。 1Password 定期[接受審計](https://support.1password.com/security-assessments/)並提供卓越的客戶支援。 1Password 是封閉原始碼；但是，產品的安全性已徹底記錄在他們的[安全白皮書] (https://1passwordstatic.com/files/security/1password-white-paper.pdf)。
     
     [:octicons-home-16: Homepage](https://1password.com/){ .md-button .md-button--primary }
-    [:octicons-eye-16:](https://support.1password.com/1password-privacy/){ .card-link title="Privacy Policy" }
+    [:octicons-eye-16:](https://1password.com/legal/privacy/){ .card-link title="Privacy Policy" }
     [:octicons-info-16:](https://support.1password.com/){ .card-link title=Documentation}
     
     ??? 下載

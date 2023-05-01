@@ -177,8 +177,8 @@ Il codice lato server di Bitwarden è [open-source](https://github.com/bitwarden
     
     **1Password** è un gestore di password con una forte attenzione alla sicurezza e alla facilità d'uso, che consente di archiviare password, carte di credito, licenze software e qualsiasi altra informazione sensibile in una cassaforte digitale sicura. Il caveau personale è ospitato sui server di 1Password per una [tariffa mensile](https://1password.com/sign-up/). 1Password è [ispezionato](https://support.1password.com/security-assessments/) su base regolare e fornisce un'assistenza clienti eccezionale. 1Password è closed source; tuttavia, la sicurezza del prodotto è documentata in modo esauriente nel suo [white paper sulla sicurezza](https://1passwordstatic.com/files/security/1password-white-paper.pdf).
     
-    [:octicons-home-16: Pagina principale](https://1password.com/){ .md-button .md-button--primary }
-    [:octicons-eye-16:](https://support.1password.com/1password-privacy/){ .card-link title="Informativa sulla privacy" }
+    [:octicons-home-16: Pagina Principale](https://1password.com/){ .md-button .md-button--primary }
+    [:octicons-eye-16:](https://1password.com/legal/privacy/){ .card-link title="Politica sulla Privacy" }
     [:octicons-info-16:](https://support.1password.com/){ .card-link title=Documentazione}
     
     ??? downloads

@@ -285,7 +285,7 @@ Brave의 Web3 기능은 잠재적으로 브라우저의 핑거프린트와 공�
 
 - [ ] **기본 이더리움 월렛**을 **없음**으로 설정
 - [ ] **기본 Solana 월렛**을 **없음**으로 설정
-- [ ] Set **Method to resolve IPFS resources** to **Disabled**
+- [ ] **IPFS 리소스 리졸빙에 사용하는 방법**을 **사용 중지**로 설정
 
 ##### 시스템
 
@@ -299,13 +299,13 @@ Brave의 Web3 기능은 잠재적으로 브라우저의 핑거프린트와 공�
 
 #### 동기화
 
-[Brave Sync](https://support.brave.com/hc/en-us/articles/360059793111-Understanding-Brave-Sync) allows your browsing data (history, bookmarks, etc.) to be accessible on all your devices without requiring an account and protects it with E2EE.
+[Brave 동기화](https://support.brave.com/hc/en-us/articles/360059793111-Understanding-Brave-Sync)를 이용하면 계정을 생성하지 않고도 자신의 모든 기기에서 브라우저 데이터(탐색 기록, 북마크 등)를 동기화할 수 있으며, E2EE로 보호됩니다.
 
-#### Brave Rewards and Wallet
+#### Brave Rewards 및 Brave 월렛
 
-**Brave Rewards** lets you recieve Basic Attention Token (BAT) cryptocurrency for performing certain actions within Brave. It relies on a custodial account and KYC from a select number of providers. We do not recommend BAT as a [private cryptocurrency](cryptocurrency.md), nor do we recommend using a [custodial wallet](advanced/payments.md#other-coins-bitcoin-ethereum-etc), so we would discourage using this feature.
+**Brave Rewards**는 Brave 내에서 특정 작업을 수행하여 BAT(Basic Attention Token) 암호화폐를 받을 수 있는 기능입니다. 해당 기능은 일부 선정된 제공 업체의 수탁형 계정과 KYC(고객 신원 확인)에 기반하여 동작합니다. Privacy Guide는 BAT를 [프라이버시 암호화폐](cryptocurrency.md)로 권장하지 않으며, [수탁형 지갑](advanced/payments.md#other-coins-bitcoin-ethereum-etc) 사용 또한 권장하지 않습니다. 따라서 해당 기능은 사용하지 않을 것을 권장합니다.
 
-**Brave Wallet** operates locally on your computer, but does not support any private cryptocurrencies, so we would discourage using this feature as well.
+**Brave 월렛**은 사용자 컴퓨터 로컬에서 작동하지만, 프라이버시 암호화폐를 지원하지 않으므로 이 또한 사용을 권장하지 않습니다.
 
 ## Additional Resources
 
@@ -319,25 +319,25 @@ In general, we recommend keeping your browser extensions to a minimum to decreas
     
     **uBlock Origin** is a popular content blocker that could help you block ads, trackers, and fingerprinting scripts.
     
-    [:octicons-repo-16: Repository](https://github.com/gorhill/uBlock#readme){ .md-button .md-button--primary }
-    [:octicons-eye-16:](https://github.com/gorhill/uBlock/wiki/Privacy-policy){ .card-link title="Privacy Policy" }
-    [:octicons-info-16:](https://github.com/gorhill/uBlock/wiki){ .card-link title=Documentation}
-    [:octicons-code-16:](https://github.com/gorhill/uBlock){ .card-link title="Source Code" }
+    [:octicons-repo-16: 저장소](https://github.com/gorhill/uBlock#readme){ .md-button .md-button--primary }
+    [:octicons-eye-16:](https://github.com/gorhill/uBlock/wiki/Privacy-policy){ .card-link title="프라이버시 정책" }
+    [:octicons-info-16:](https://github.com/gorhill/uBlock/wiki){ .card-link title=문서}
+    [:octicons-code-16:](https://github.com/gorhill/uBlock){ .card-link title="소스 코드" }
     
-    ??? downloads
+    ??? downloads "다운로드"
     
         - [:simple-firefoxbrowser: Firefox](https://addons.mozilla.org/firefox/addon/ublock-origin/)
         - [:simple-googlechrome: Chrome](https://chrome.google.com/webstore/detail/ublock-origin/cjpalhdlnbpafiamejdnhcphjbkeiagm)
         - [:simple-microsoftedge: Edge](https://microsoftedge.microsoft.com/addons/detail/ublock-origin/odfafepnkmbhccpbejgmiehpchacaeak)
 
-We suggest following the [developer's documentation](https://github.com/gorhill/uBlock/wiki/Blocking-mode) and picking one of the "modes". Additional filter lists can impact performance and [may increase attack surface](https://portswigger.net/research/ublock-i-exfiltrate-exploiting-ad-blockers-with-css).
+[개발자가 작성한 문서](https://github.com/gorhill/uBlock/wiki/Blocking-mode)를 참고하여 모드 중 하나를 선택할 것을 권장드립니다. 필터 목록 추가는 성능에 영향을 미칠 수 있으며, [공격 표면을 증가시킬 수도 있습니다](https://portswigger.net/research/ublock-i-exfiltrate-exploiting-ad-blockers-with-css).
 
-##### Other lists
+##### 기타 목록
 
-These are some other [filter lists](https://github.com/gorhill/uBlock/wiki/Dashboard:-Filter-lists) that you may want to consider adding:
+이 외에 추가를 고려해볼 만한 [필터 목록](https://github.com/gorhill/uBlock/wiki/Dashboard:-Filter-lists)은 다음과 같습니다:
 
-- [x] Check **Privacy** > **AdGuard URL Tracking Protection**
-- Add [Actually Legitimate URL Shortener Tool](https://raw.githubusercontent.com/DandelionSprout/adfilt/master/LegitimateURLShortener.txt)
+- [x] **개인정보** > **AdGuard URL Tracking Protection** 활성화
+- [Actually Legitimate URL Shortener Tool](https://raw.githubusercontent.com/DandelionSprout/adfilt/master/LegitimateURLShortener.txt) 추가
 
 ## 평가 기준
 

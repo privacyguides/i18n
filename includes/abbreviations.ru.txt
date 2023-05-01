@@ -1,6 +1,6 @@
 *[2FA]: Двухфакторная аутентификация
 *[ADB]: Android Debug Bridge
-*[AOSP]: Android Open Source Project
+*[AOSP]: Проект с открытым исходным кодом Android
 *[ATA]: Advanced Technology Attachment
 *[площадь атаки]: Общее количество возможных точек входа для несанкционированного доступа к системе
 *[AVB]: Android Verified Boot
@@ -84,7 +84,7 @@
 *[TEE]: Trusted Execution Environment
 *[TLS]: Протокол защиты транспортного уровня
 *[ToS]: Условия использования
-*[TOTP]: Time-based One-Time Password
+*[TOTP]: Одноразовый пароль, основанный на времени
 *[TPM]: Trusted Platform Module
 *[U2F]: Универсальный второй фактор
 *[UEFI]: Unified Extensible Firmware Interface

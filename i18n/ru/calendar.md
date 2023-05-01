@@ -1,7 +1,7 @@
 ---
 title: "Синхронизация календаря"
 icon: material/calendar
-description: Calendars contain some of your most sensitive data; use products that implement encryption at rest.
+description: Календари хранят часть ваших самых конфиденциальных данных; используйте приложения, которые хранят ваши данные в зашифрованном виде.
 cover: calendar.png
 ---
 

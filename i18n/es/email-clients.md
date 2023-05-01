@@ -66,9 +66,11 @@ Estas opciones se encuentran en :material-menu: → **Ajustes** → **Privacidad
     
     **Apple Mail** está incluido en macOS y puede ampliarse para que sea compatible con OpenPGP con [GPG Suite](encryption.md#gpg-suite), que añade la posibilidad de enviar correo electrónico cifrado con PGP.
     
-    [:octicons-home-16: Página Principal](https://support.apple.com/guide/mail/welcome/mac){ .md-button .md-button--primary }
-    [:octicons-eye-16:](https://www.apple.com/legal/privacy/en-ww/){ .card-link title="Política de Privacidad" }
-    [:octicons-info-16:](https://support.apple.com/guide/mail/toc){ .card-link title=Documentación}
+    [:octicons-home-16: Homepage](https://support.apple.com/guide/mail/welcome/mac){ .md-button .md-button--primary }
+    [:octicons-eye-16:](https://www.apple.com/legal/privacy/en-ww/){ .card-link title="Privacy Policy" }
+    [:octicons-info-16:](https://support.apple.com/mail){ .card-link title=Documentation}
+
+Apple Mail has the ability to load remote content in the background or block it entirely and hide your IP address from senders on [macOS](https://support.apple.com/guide/mail/mlhl03be2866/mac) and [iOS](https://support.apple.com/guide/iphone/iphf084865c7/ios).
 
 ### Canary Mail (iOS)
 

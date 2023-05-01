@@ -177,9 +177,9 @@ Bitwarden также имеет функцию [Bitwarden Send](https://bitwarde
     
     **1Password** — это менеджер паролей с акцентом на безопасность и простоту использования, который позволяет хранить пароли, кредитные карты, лицензии на программное обеспечение и любую другую конфиденциальную информацию в надежном цифровом хранилище. Ваши данные хранятся на серверах 1Password за [ежемесячную плату](https://1password.com/ru/sign-up/). 1Password регулярно проходит [независимые проверки на безопасность](https://support.1password.com/security-assessments/) и обеспечивает прекрасную поддержку клиентов. 1Password имеет закрытый исходный код, но безопасность продукта подробно описана в их [вайт пейпере по безопасности](https://1passwordstatic.com/files/security/1password-white-paper.pdf).
     
-    [:octicons-home-16: Домашняя страница](https://1password.com/ru){ .md-button .md-button--primary }
-    [:octicons-eye-16:](https://support.1password.com/1password-privacy/){ .card-link title="Политика конфиденциальности" }
-    [:octicons-info-16:](https://support.1password.com/){ .card-link title=Документация}
+    [:octicons-home-16: Homepage](https://1password.com/){ .md-button .md-button--primary }
+    [:octicons-eye-16:](https://1password.com/legal/privacy/){ .card-link title="Privacy Policy" }
+    [:octicons-info-16:](https://support.1password.com/){ .card-link title=Documentation}
     
     ??? downloads "Скачать"
     

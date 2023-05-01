@@ -177,9 +177,9 @@ El código del lado del servidor de Bitwarden es [de código abierto](https://gi
     
     **1Password** es un administrador de contraseñas con un fuerte enfoque en la seguridad y la facilidad de uso, que le permite almacenar contraseñas, tarjetas de crédito, licencias de software y cualquier otra información sensible en una bóveda digital segura. Su bóveda es alojada en los servidores de 1Password por una [cuota mensual](https://1password.com/sign-up/). 1Password es [audited](https://support.1password.com/security-assessments/) de forma regular y ofrece una atención al cliente excepcional. 1Password es de código cerrado; sin embargo, la seguridad del producto está exhaustivamente documentada en su [libro blanco de seguridad](https://1passwordstatic.com/files/security/1password-white-paper.pdf).
     
-    [:octicons-home-16: Página Principal](https://1password.com/){ .md-button .md-button--primary }
-    [:octicons-eye-16:](https://support.1password.com/1password-privacy/){ .card-link title="Política de Privacidad" }
-    [:octicons-info-16:](https://support.1password.com/){ .card-link title=Documentación}
+    [:octicons-home-16: Homepage](https://1password.com/){ .md-button .md-button--primary }
+    [:octicons-eye-16:](https://1password.com/legal/privacy/){ .card-link title="Privacy Policy" }
+    [:octicons-info-16:](https://support.1password.com/){ .card-link title=Documentation}
     
     ??? downloads "Descargas"
     

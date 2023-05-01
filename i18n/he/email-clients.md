@@ -66,9 +66,11 @@ cover: email-clients.png
     
     **Apple Mail** כלול ב-macOS וניתן להרחיב אותו כך שתהיה לו תמיכה ב-OpenPGP עם [GPG Suite](encryption.md#gpg-suite), אשר מוסיפה את היכולת לשלוח מייל מוצפן PGP.
     
-    [:octicons-home-16: דף הבית](https://support.apple.com/guide/mail/welcome/mac){ .md-button .md-button--primary }
-    [:octicons-eye-16:](https://www.apple.com/legal/privacy/en-ww/){ .card-link title="מדיניות פרטיות" }
-    [:octicons-info-16:](https://support.apple.com/guide/mail/toc){ .card-link title=תיעוד}
+    [:octicons-home-16: Homepage](https://support.apple.com/guide/mail/welcome/mac){ .md-button .md-button--primary }
+    [:octicons-eye-16:](https://www.apple.com/legal/privacy/en-ww/){ .card-link title="Privacy Policy" }
+    [:octicons-info-16:](https://support.apple.com/mail){ .card-link title=Documentation}
+
+Apple Mail has the ability to load remote content in the background or block it entirely and hide your IP address from senders on [macOS](https://support.apple.com/guide/mail/mlhl03be2866/mac) and [iOS](https://support.apple.com/guide/iphone/iphf084865c7/ios).
 
 ### Canary Mail (iOS)
 

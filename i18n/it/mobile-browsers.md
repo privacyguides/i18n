@@ -37,7 +37,7 @@ schema:
       url: "./"
 ---
 
-Questi sono i browser e le configurazioni attualmente consigliati per la navigazione standard/non anonima. Se hai bisogno di navigare in Internet in modo anonimo, dovresti invece usare [Tor](tor.md). In generale, consigliamo di tenere il numero di estensioni al minimo: hanno accesso privilegiato all'interno del browser, richiedono di fidarsi dello sviluppatore, possono farti [risaltare](https://it.wikipedia.org/wiki/Device_fingerprint) e [indeboliscono](https://groups.google.com/a/chromium.org/g/chromium-extensions/c/0ei-UCHNm34/m/lDaXwQhzBAAJ) l'isolamento dei siti.
+Questi sono i browser e le configurazioni che attualmente consigliamo per la navigazione standard/non anonima. Se hai bisogno di navigare in Internet in modo anonimo, dovresti invece usare [Tor](tor.md). In generale, consigliamo di tenere il numero di estensioni al minimo: hanno accesso privilegiato all'interno del browser, richiedono di fidarsi dello sviluppatore, possono farti [risaltare](https://it.wikipedia.org/wiki/Device_fingerprint) e [indeboliscono](https://groups.google.com/a/chromium.org/g/chromium-extensions/c/0ei-UCHNm34/m/lDaXwQhzBAAJ) l'isolamento dei siti.
 
 ## Android
 

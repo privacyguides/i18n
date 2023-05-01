@@ -17,7 +17,7 @@ Una VPN può essere d'aiuto in quanto può spostare la fiducia su un server in u
 
 Le VPN non possono criptare i dati al di fuori della connessione tra il dispositivo e il server VPN. I fornitori di VPN possono vedere e modificare il traffico proprio come l'ISP. E non c'è modo di verificare in alcun modo le politiche di "no logging" di un provider VPN.
 
-Tuttavia, nascondono l'IP reale da un servizio di terze parti, a condizione che non ci siano fughe dell'IP. Aiutano a confonderti con gli altri e ad attenuare il tracciamento basato sull'IP.
+Tuttavia, nascondono il tuo IP reale da un servizio di terze parti, a condizione che non ci siano fughe dell'IP. Aiutano a confonderti con gli altri e ad attenuare il tracciamento basato sull'IP.
 
 ## Quando non dovrei usare una VPN?
 
@@ -45,7 +45,7 @@ Utilizzando una VPN con Tor, si crea essenzialmente un nodo di ingresso permanen
 
 ## E se ho bisogno di anonimato?
 
-Le VPN non possono garantire l'anonimato. Il provider VPN vedrà comunque il vero indirizzo IP e spesso ha una traccia di denaro che può essere collegata direttamente a te. Non si può fare affidamento sulle politiche di "no logging" per proteggere i dati. In tal caso utilizza [Tor](https://www.torproject.org/).
+Le VPN non possono garantire l'anonimato. Il tuo provider VPN vedrà comunque il tuo vero indirizzo IP e spesso ha una traccia di denaro che può essere collegata direttamente a te. Non si può fare affidamento sulle politiche di "no logging" per proteggere i dati. In tal caso utilizza [Tor](https://www.torproject.org/).
 
 ## E i fornitori di VPN che forniscono nodi Tor?
 

@@ -17,7 +17,7 @@ schema:
     image: /assets/img/password-management/bitwarden.svg
     url: https://bitwarden.com
     sameAs: https://en.wikipedia.org/wiki/Bitwarden
-    applicationCategory: Password Manager
+    applicationCategory: 비밀번호 관리자
     operatingSystem:
       - Windows
       - macOS
@@ -35,7 +35,7 @@ schema:
     image: /assets/img/password-management/1password.svg
     url: https://1password.com
     sameAs: https://en.wikipedia.org/wiki/1Password
-    applicationCategory: Password Manager
+    applicationCategory: 비밀번호 관리자
     operatingSystem:
       - Windows
       - macOS
@@ -136,16 +136,16 @@ These password managers sync your passwords to a cloud server for easy accessibi
 
 !!! recommendation
 
-    ![Bitwarden logo](assets/img/password-management/bitwarden.svg){ align=right }
+    ![Bitwarden 로고](assets/img/password-management/bitwarden.svg){ align=right }
     
-    **Bitwarden** is a free and open-source password manager. It aims to solve password management problems for individuals, teams, and business organizations. Bitwarden is among the best and safest solutions to store all of your logins and passwords while conveniently keeping them synced between all of your devices.
+    **Bitwarden**은 무료 오픈 소스 비밀번호 관리자입니다. 개인, 팀, 비즈니스 조직의 비밀번호 관리 문제를 해결하는 것을 목표로 합니다. Bitwarden is among the best and safest solutions to store all of your logins and passwords while conveniently keeping them synced between all of your devices.
     
-    [:octicons-home-16: Homepage](https://bitwarden.com){ .md-button .md-button--primary }
-    [:octicons-eye-16:](https://bitwarden.com/privacy){ .card-link title="Privacy Policy" }
-    [:octicons-info-16:](https://bitwarden.com/help/){ .card-link title=Documentation}
-    [:octicons-code-16:](https://github.com/bitwarden){ .card-link title="Source Code" }
+    [:octicons-home-16: 홈페이지](https://bitwarden.com){ .md-button .md-button--primary }
+    [:octicons-eye-16:](https://bitwarden.com/privacy){ .card-link title="프라이버시 정책" }
+    [:octicons-info-16:](https://bitwarden.com/help/){ .card-link title=문서}
+    [:octicons-code-16:](https://github.com/bitwarden){ .card-link title="소스 코드" }
     
-    ??? downloads
+    ??? downloads "다운로드"
     
         - [:simple-googleplay: Google Play](https://play.google.com/store/apps/details?id=com.x8bit.bitwarden)
         - [:simple-appstore: App Store](https://apps.apple.com/app/bitwarden-password-manager/id1137397744)
@@ -157,17 +157,17 @@ These password managers sync your passwords to a cloud server for easy accessibi
         - [:simple-googlechrome: Chrome](https://chrome.google.com/webstore/detail/bitwarden-free-password-m/nngceckbapebfimnlniiiahkandclblb)
         - [:simple-microsoftedge: Edge](https://microsoftedge.microsoft.com/addons/detail/jbkfoedolllekgbhcbcoahefnbanhhlh)
 
-Bitwarden also features [Bitwarden Send](https://bitwarden.com/products/send/), which allows you to share text and files securely with [end-to-end encryption](https://bitwarden.com/help/send-encryption). A [password](https://bitwarden.com/help/send-privacy/#send-passwords) can be required along with the send link. Bitwarden Send also features [automatic deletion](https://bitwarden.com/help/send-lifespan).
+Bitwarden은 [종단 간 암호화를 적용해](https://bitwarden.com/help/send-encryption) 텍스트 및 파일을 안전하게 공유할 수 있는 [Bitwarden Send](https://bitwarden.com/products/send/) 기능도 제공합니다. A [password](https://bitwarden.com/help/send-privacy/#send-passwords) can be required along with the send link. Bitwarden Send also features [automatic deletion](https://bitwarden.com/help/send-lifespan).
 
-You need the [Premium Plan](https://bitwarden.com/help/about-bitwarden-plans/#compare-personal-plans) to be able to share files. The free plan only allows text sharing.
+파일 공유 기능은 [프리미엄 요금제](https://bitwarden.com/help/about-bitwarden-plans/#compare-personal-plans)에만 제공됩니다. 무료 플랜은 텍스트 공유만 가능합니다.
 
-Bitwarden's server-side code is [open-source](https://github.com/bitwarden/server), so if you don't want to use the Bitwarden cloud, you can easily host your own Bitwarden sync server.
+Bitwarden 서버 코드는 [오픈 소스](https://github.com/bitwarden/server)이므로, Bitwarden 클라우드를 사용하고 싶지 않은 경우에는 Bitwarden 동기화 서버를 직접 호스팅하는 것도 가능합니다.
 
 **Vaultwarden** is an alternative implementation of Bitwarden's sync server written in Rust and compatible with official Bitwarden clients, perfect for self-hosted deployment where running the official resource-heavy service might not be ideal. If you are looking to self-host Bitwarden on your own server, you almost certainly want to use Vaultwarden over Bitwarden's official server code.
 
-[:octicons-repo-16: Vaultwarden Repository](https://github.com/dani-garcia/vaultwarden ""){.md-button} [:octicons-info-16:](https://github.com/dani-garcia/vaultwarden/wiki){ .card-link title=Documentation}
-[:octicons-code-16:](https://github.com/dani-garcia/vaultwarden){ .card-link title="Source Code" }
-[:octicons-heart-16:](https://github.com/sponsors/dani-garcia){ .card-link title=Contribute }
+[:octicons-repo-16: Vaultwarden 저장소](https://github.com/dani-garcia/vaultwarden ""){.md-button} [:octicons-info-16:](https://github.com/dani-garcia/vaultwarden/wiki){ .card-link title=문서}
+[:octicons-code-16:](https://github.com/dani-garcia/vaultwarden){ .card-link title="소스 코드" }
+[:octicons-heart-16:](https://github.com/sponsors/dani-garcia){ .card-link title=기부 }
 
 ### 1Password
 
@@ -177,11 +177,11 @@ Bitwarden's server-side code is [open-source](https://github.com/bitwarden/serve
     
     **1Password** is a password manager with a strong focus on security and ease-of-use, which allows you to store passwords, credit cards, software licenses, and any other sensitive information in a secure digital vault. Your vault is hosted on 1Password's servers for a [monthly fee](https://1password.com/sign-up/). 1Password is [audited](https://support.1password.com/security-assessments/) on a regular basis and provides exceptional customer support. 1Password is closed source; however, the security of the product is thoroughly documented in their [security white paper](https://1passwordstatic.com/files/security/1password-white-paper.pdf).
     
-    [:octicons-home-16: Homepage](https://1password.com/){ .md-button .md-button--primary }
-    [:octicons-eye-16:](https://support.1password.com/1password-privacy/){ .card-link title="Privacy Policy" }
-    [:octicons-info-16:](https://support.1password.com/){ .card-link title=Documentation}
+    [:octicons-home-16: 홈페이지](https://1password.com/){ .md-button .md-button--primary }
+    [:octicons-eye-16:](https://1password.com/legal/privacy/){ .card-link title="프라이버시 정책" }
+    [:octicons-info-16:](https://support.1password.com/){ .card-link title=문서}
     
-    ??? downloads
+    ??? downloads "다운로드"
     
         - [:simple-googleplay: Google Play](https://play.google.com/store/apps/details?id=com.onepassword.android)
         - [:simple-appstore: App Store](https://apps.apple.com/app/id1511601750?mt=8)
@@ -189,7 +189,7 @@ Bitwarden's server-side code is [open-source](https://github.com/bitwarden/serve
         - [:simple-apple: macOS](https://1password.com/downloads/mac/)
         - [:simple-linux: Linux](https://1password.com/downloads/linux/)
 
-Traditionally, **1Password** has offered the best password manager user experience for people using macOS and iOS; however, it has now achieved feature-parity across all platforms. It boasts many features geared towards families and less technical people, as well as advanced functionality.
+**1Passsword**는 이전부터 macOS 및 iOS 사용자에게 가장 뛰어난 비밀번호 관리자 사용 경험을 제공해왔습니다. 오늘날에는 모든 플랫폼에서 동일한 기능성을 제공합니다. 고급 기능뿐만 아니라, 기술 이해도가 낮은 사용자 및 가족을 위한 다양한 기능을 자랑합니다.
 
 Your 1Password vault is secured with both your master password and a randomized 34-character security key to encrypt your data on their servers. This security key adds a layer of protection to your data because your data is secured with high entropy regardless of your master password. Many other password manager solutions are entirely reliant on the strength of your master password to secure your data.
 
@@ -226,24 +226,24 @@ Psono provides extensive documentation for their product. The web-client for Pso
 
     Privacy Guides 팀은 사이트의 모든 항목마다 명확한 평가 기준을 정립하는 중이며, 따라서 세부 내용은 변경될 수 있습니다. 평가 기준에 대해서 질문이 있다면 [포럼에서 문의](https://discuss.privacyguides.net/latest)하시기 바랍니다. (무언가가 목록에 존재하지 않다고 해서 권장 목록을 작성할 때 고려한 적이 없을 것으로 단정 짓지 마세요.) 권장 목록에 어떤 프로젝트를 추가할 때 고려하고 논의해야 할 요소는 매우 많으며, 모든 요소를 문서화하는 것은 현재 진행 중인 작업입니다.
 
-#### Minimum Requirements
+#### 최소 요구 사항
 
-- Must utilize strong, standards-based/modern E2EE.
-- Must have thoroughly documented encryption and security practices.
+- 강력한 표준 기반/최신 E2EE를 활용해야 합니다.
+- 암호화 및 보안 사례를 철저히 문서화해야 합니다.
 - Must have a published audit from a reputable, independent third-party.
 - All non-essential telemetry must be optional.
 - Must not collect more PII than is necessary for billing purposes.
 
-#### Best-Case
+#### 우대 사항
 
-Our best-case criteria represents what we would like to see from the perfect project in this category. Our recommendations may not include any or all of this functionality, but those which do may rank higher than others on this page.
+평가 기준에서 '우대 사항'은 해당 부문에서 완벽한 프로젝트에 기대하는 바를 나타냅니다. 다음의 우대 사항에 해당하지 않더라도 권장 목록에 포함될 수 있습니다. 단, 우대 사항에 해당할수록 이 페이지의 다른 항목보다 높은 순위를 갖습니다.
 
-- Telemetry should be opt-in (disabled by default) or not collected at all.
-- Should be open-source and reasonably self-hostable.
+- 원격 분석 데이터 수집 기능은 아예 존재하지 않거나, 기본적으로 비활성화되어 있어야 합니다.
+- 오픈 소스여야 하며, 자체 호스팅이 현실적으로 가능해야 합니다.
 
-## Local Storage
+## 로컬 저장
 
-These options allow you to manage an encrypted password database locally.
+이러한 비밀번호 관리자는 암호화된 비밀번호 데이터베이스를 로컬에서 관리합니다.
 
 ### KeePassXC
 
@@ -253,13 +253,13 @@ These options allow you to manage an encrypted password database locally.
     
     **KeePassXC** is a community fork of KeePassX, a native cross-platform port of KeePass Password Safe, with the goal to extend and improve it with new features and bugfixes to provide a feature-rich, cross-platform and modern open-source password manager.
     
-    [:octicons-home-16: Homepage](https://keepassxc.org){ .md-button .md-button--primary }
-    [:octicons-eye-16:](https://keepassxc.org/privacy){ .card-link title="Privacy Policy" }
-    [:octicons-info-16:](https://keepassxc.org/docs/){ .card-link title=Documentation}
-    [:octicons-code-16:](https://github.com/keepassxreboot/keepassxc){ .card-link title="Source Code" }
-    [:octicons-heart-16:](https://keepassxc.org/donate/){ .card-link title=Contribute }
+    [:octicons-home-16: 홈페이지](https://keepassxc.org){ .md-button .md-button--primary }
+    [:octicons-eye-16:](https://keepassxc.org/privacy){ .card-link title="프라이버시 정책" }
+    [:octicons-info-16:](https://keepassxc.org/docs/){ .card-link title=문서}
+    [:octicons-code-16:](https://github.com/keepassxreboot/keepassxc){ .card-link title="소스 코드" }
+    [:octicons-heart-16:](https://keepassxc.org/donate/){ .card-link title=기부 }
     
-    ??? downloads
+    ??? downloads "다운로드"
     
         - [:simple-windows11: Windows](https://keepassxc.org/download/#windows)
         - [:simple-apple: macOS](https://keepassxc.org/download/#mac)
@@ -268,7 +268,7 @@ These options allow you to manage an encrypted password database locally.
         - [:simple-firefoxbrowser: Firefox](https://addons.mozilla.org/firefox/addon/keepassxc-browser)
         - [:simple-googlechrome: Chrome](https://chrome.google.com/webstore/detail/keepassxc-browser/oboonakemofpalcgghocfoadofidjkkk)
 
-KeePassXC stores its export data as [CSV](https://en.wikipedia.org/wiki/Comma-separated_values) files. This may mean data loss if you import this file into another password manager. We advise you check each record manually.
+KeePassXC stores its export data as [CSV](https://en.wikipedia.org/wiki/Comma-separated_values) files. 즉, 해당 파일을 다른 비밀번호 관리자로 불러올 경우 데이터 손실이 발생할 수 있습니다. 각 데이터 항목을 수동으로 확인해보는 것이 좋습니다.
 
 ### KeePassDX (Android)
 
@@ -278,12 +278,12 @@ KeePassXC stores its export data as [CSV](https://en.wikipedia.org/wiki/Comma-se
     
     **KeePassDX** is a lightweight password manager for Android, allows editing encrypted data in a single file in KeePass format and can fill in the forms in a secure way. [Contributor Pro](https://play.google.com/store/apps/details?id=com.kunzisoft.keepass.pro) allows unlocking cosmetic content and non-standard protocol features, but more importantly, it helps and encourages development.
     
-    [:octicons-home-16: Homepage](https://www.keepassdx.com){ .md-button .md-button--primary }
-    [:octicons-info-16:](https://github.com/Kunzisoft/KeePassDX/wiki){ .card-link title=Documentation}
-    [:octicons-code-16:](https://github.com/Kunzisoft/KeePassDX){ .card-link title="Source Code" }
-    [:octicons-heart-16:](https://www.keepassdx.com/#donation){ .card-link title=Contribute }
+    [:octicons-home-16: 홈페이지](https://www.keepassdx.com){ .md-button .md-button--primary }
+    [:octicons-info-16:](https://github.com/Kunzisoft/KeePassDX/wiki){ .card-link title=문서}
+    [:octicons-code-16:](https://github.com/Kunzisoft/KeePassDX){ .card-link title="소스 코드" }
+    [:octicons-heart-16:](https://www.keepassdx.com/#donation){ .card-link title=기부 }
     
-    ??? downloads
+    ??? downloads "다운로드"
     
         - [:simple-googleplay: Google Play](https://play.google.com/store/apps/details?id=com.kunzisoft.keepass.free)
         - [:simple-github: GitHub](https://github.com/Kunzisoft/KeePassDX/releases)

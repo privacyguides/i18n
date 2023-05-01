@@ -194,7 +194,7 @@ Bitwarden's server-side code is [open-source](https://github.com/bitwarden/serve
     - [:fontawesome-brands-github: Source](https://github.com/Kunzisoft/KeePassDX)
     
     [:octicons-home-16: Homepage](https://1password.com/){ .md-button .md-button--primary }
-    [:octicons-eye-16:](https://support.1password.com/1password-privacy/){ .card-link title="Privacy Policy" }
+    [:octicons-eye-16:](https://1password.com/legal/privacy/){ .card-link title="Privacy Policy" }
     [:octicons-info-16:](https://support.1password.com/){ .card-link title=Documentation}
     
     ??? downloads

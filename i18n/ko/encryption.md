@@ -350,9 +350,9 @@ When encrypting with PGP, you have the option to configure different options in 
 - External disk encryption apps must support decryption on Linux, macOS, and Windows.
 - Internal (OS) disk encryption apps must be cross-platform or built in to the operating system natively.
 
-### Best-Case
+### 우대 사항
 
-Our best-case criteria represents what we would like to see from the perfect project in this category. Our recommendations may not include any or all of this functionality, but those which do may rank higher than others on this page.
+평가 기준에서 '우대 사항'은 해당 부문에서 완벽한 프로젝트에 기대하는 바를 나타냅니다. 다음의 우대 사항에 해당하지 않더라도 권장 목록에 포함될 수 있습니다. 단, 우대 사항에 해당할수록 이 페이지의 다른 항목보다 높은 순위를 갖습니다.
 
 - Operating System (FDE) encryption apps should utilize hardware security such as a TPM or Secure Enclave.
 - File encryption apps should have first- or third-party support for mobile platforms.
