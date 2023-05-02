@@ -2,13 +2,13 @@
 meta_title: "Мобильные веб-браузеры для Android и iOS, соблюдающие конфиденциальность - Privacy Guides"
 title: "Мобильные браузеры"
 icon: material/cellphone-information
-description: Мы рекомендуем эти браузеры для обычного/неанонимного интернет-браузинга на вашем телефоне.
+description: Мы рекомендуем эти браузеры для обычного/неанонимного браузинга в интернете на вашем телефоне.
 cover: mobile-browsers.png
 schema:
   - 
     "@context": http://schema.org
     "@type": WebPage
-    name: Private Mobile Browser Recommendations
+    name: Рекомендации приватных браузеров для телефонов
     url: "./"
     relatedLink: "../desktop-browsers/"
   - 
@@ -49,7 +49,7 @@ schema:
 
     ![Логотип Brave](assets/img/browsers/brave.svg){ align=right }
     
-    **Браузер Brave** включает встроенный блокировщик контента и [инструменты приватности](https://brave.com/privacy-features/), многие из которых включены по умолчанию.
+    **Браузер Brave** включает встроенный блокировщик контента и [инструменты конфиденциальности](https://brave.com/privacy-features/), многие из которых включены по умолчанию.
     
     Brave основан на Chromium, поэтому он покажется вам знакомым, а также у него не должно быть проблем с совместимостью.
     
@@ -59,7 +59,7 @@ schema:
     [:octicons-info-16:](https://support.brave.com/){ .card-link title=Документация}
     [:octicons-code-16:](https://github.com/brave/brave-browser){ .card-link title="Исходный код" }
     
-    ??? downloads annotate
+    ??? скачать
     
         - [:simple-googleplay: Google Play](https://play.google.com/store/apps/details?id=com.brave.browser)
         - [:simple-github: GitHub](https://github.com/brave/brave-browser/releases)
@@ -74,51 +74,51 @@ Tor Browser — это единственный способ действите�
 
 Brave включает несколько инструментов защиты от отслеживания в разделе [Shields](https://support.brave.com/hc/en-us/articles/360022973471-What-is-Shields-). Мы рекомендуем включить эти настройки [на всех сайтах](https://support.brave.com/hc/en-us/articles/360023646212-How-do-I-configure-global-and-site-specific-Shields-settings-), которые вы посещаете.
 
-##### Brave shields global defaults
+##### Глобальные настройки "Brave Щит и конфиденциальность"
 
-Shields' options can be downgraded on a per-site basis as needed, but by default we recommend setting the following:
-
-<div class="annotate" markdown>
-
-- [x] Select **Aggressive** under Block trackers & ads
-
-    ??? warning "Use default filter lists"
-        Brave allows you to select additional content filters within the internal `brave://adblock` page. We advise against using this feature; instead, keep the default filter lists. Using extra lists will make you stand out from other Brave users and may also increase attack surface if there is an exploit in Brave and a malicious rule is added to one of the lists you use.
-
-- [x] Select **Upgrade connections to HTTPS**
-- [x] Select **Always use secure connections**
-- [x] (Optional) Select **Block Scripts** (1)
-- [x] Select **Strict, may break sites** under **Block fingerprinting**
-
-</div>
-
-1. This option provides functionality similar to uBlock Origin's advanced [blocking modes](https://github.com/gorhill/uBlock/wiki/Blocking-mode) or the [NoScript](https://noscript.net/) extension.
-
-##### Clear browsing data
-
-- [x] Select **Clear data on exit**
-
-##### Блокировка отслеживания через социальные сети
-
-- [ ] Отключите все компоненты социальных сетей
-
-##### Другие настройки приватности
+Опции щитов можно понижать по мере необходимости для каждого конкретного сайта, но по умолчанию мы рекомендуем установить следующие параметры:
 
 <div class="annotate" markdown>
 
-- [x] Select **Disable non-proxied UDP** under [WebRTC IP Handling Policy](https://support.brave.com/hc/en-us/articles/360017989132-How-do-I-change-my-Privacy-Settings-#webrtc)
-- [ ] Uncheck **Allow sites to check if you have payment methods saved**
-- [ ] Uncheck **IPFS Gateway** (1)
-- [x] Select **Close tabs on exit**
-- [ ] Uncheck **Allow privacy-preserving product analytics (P3A)**
-- [ ] Uncheck **Automatically send diagnostic reports**
-- [ ] Uncheck **Automatically send daily usage ping to Brave**
+- [x] Выберите **Строгий режим** в разделе "Блокировать трекеры и рекламу"
+
+    ??? предупреждение «Дополнительные фильтры»
+        Brave позволяет вам выбрать дополнительные фильтры на внутренней странице `brave://adblock`. Мы не рекомендуем использовать эту функцию; вместо этого оставьте списки фильтров по умолчанию. Использование дополнительных фильтров выделит вас среди других пользователей Brave, а также может увеличить площадь атаки, если в Brave есть эксплойт и вредоносное правило будет добавлено в один из используемых вами списков.
+
+- [x] Выберите **Переключаться на HTTPS**
+- [x] Выберите **Всегда использовать безопасные соединения**
+- [x] (Опционально) Выберите **Блокировать скрипты** (1)
+- [x] Выберите **Строго, может нарушать работу сайтов** в **Блокировать определение отпечатков**
 
 </div>
 
-1. InterPlanetary File System (IPFS) is a decentralized, peer-to-peer network for storing and sharing data in a distributed filesystem. Unless you use the feature, disable it.
+1. Эта опция обеспечивает функциональность, аналогичную расширенным [режимам блокировки](https://github.com/gorhill/uBlock/wiki/Blocking-mode) uBlock Origin или расширения [NoScript](https://noscript.net/).
 
-#### Brave Sync
+##### Очистить историю
+
+- [x] Выберите **Удалять данные при выходе**
+
+##### Блокировка соцсетей
+
+- [ ] Отключите все переключатели в этой секции
+
+##### Другие настройки конфиденциальности
+
+<div class="annotate" markdown>
+
+- [x] Выберите **Отключить непроксируемый протокол UDP** в [Политика обработки IP WebRTC](https://support.brave.com/hc/en-us/articles/360017989132-How-do-I-change-my-Privacy-Settings-#webrtc)
+- [ ] Отключите **Разрешить сайтам проверять наличие сохраненных способов оплаты**
+- [ ] Отключите **Шлюз IPFS** (1)
+- [x] Включите **Закрывать вкладки при входе**
+- [ ] Отключите **Разрешить выполнение аналитики продукта, не нарушающей конфеденциальности**
+- [ ] Отключите **Автоматически отправлять данные диагностики**
+- [ ] Отключите **Автоматически отправлять ежедневные данные PING в Brave**
+
+</div>
+
+1. Interplanetary File System (IPFS) - это децентрализованная, peer-to-peer сеть для хранения и обмена данными в распределенной файловой системе. Если вы не используете эту функцию, отключите ее.
+
+#### Синхронизация
 
 [Brave Sync](https://support.brave.com/hc/en-us/articles/360059793111-Understanding-Brave-Sync) позволяет синхронизировать данные браузера (историю, закладки и т. д.) между несколькими устройствами без необходимости создавать аккаунт, а также защищает их при помощи E2EE.
 
@@ -197,7 +197,7 @@ If you use iCloud with Advanced Data Protection disabled, we also recommend chec
     [:octicons-info-16:](https://kb.adguard.com/ios){ .card-link title=Документация}
     [:octicons-code-16:](https://github.com/AdguardTeam/AdguardForiOS){ .card-link title="Исходный код" }
     
-    ??? downloads
+    ??? скачать
     
         - [:simple-appstore: App Store](https://apps.apple.com/app/apple-store/id1047223162)
 
@@ -205,22 +205,22 @@ If you use iCloud with Advanced Data Protection disabled, we also recommend chec
 
 ## Критерии
 
-**Please note we are not affiliated with any of the projects we recommend.** In addition to [our standard criteria](about/criteria.md), we have developed a clear set of requirements to allow us to provide objective recommendations. We suggest you familiarize yourself with this list before choosing to use a project, and conduct your own research to ensure it's the right choice for you.
+**Обратите внимание, что у нас нет связей ни с одним проектом, который мы рекомендуем.** В дополнение к [нашим стандартным критериям](about/criteria.md) мы разработали четкий набор требований, позволяющий давать объективные рекомендации. Мы рекомендуем вам ознакомиться с этим списком, прежде чем выбрать продукт, и провести собственное исследование, чтобы убедиться в правильности своего выбора.
 
-!!! Для уменьшения этой угрозы рассмотрите возможность самостоятельного хостинга.
+!!! пример "Это новая секция"
 
-    We are working on establishing defined criteria for every section of our site, and this may be subject to change. If you have any questions about our criteria, please [ask on our forum](https://discuss.privacyguides.net/latest) and don't assume we didn't consider something when making our recommendations if it is not listed here. Мы учитываем и обсуждаем много факторов, перед тем как рекомендовать какой-то проект, и документирование каждого из них ещё не завершено.
+    Мы сейчас работаем над установлением точных критериев для каждого раздела нашего сайта, поэтому они могут поменяться в будущем. If you have any questions about our criteria, please [ask on our forum](https://discuss.privacyguides.net/latest) and don't assume we didn't consider something when making our recommendations if it is not listed here. Мы учитываем и обсуждаем много факторов, перед тем как рекомендовать какой-то проект, и документирование каждого из них ещё не завершено.
 
 ### Минимальные требования к сервисам
 
-- Must support automatic updates.
-- Must receive engine updates in 0-1 days from upstream release.
-- Any changes required to make the browser more privacy-respecting should not negatively impact user experience.
-- Android browsers must use the Chromium engine.
-    - Unfortunately, Mozilla GeckoView is still less secure than Chromium on Android.
-    - iOS browsers are limited to WebKit.
+- Должен поддерживать автоматические обновления.
+- Должен получать обновления движка в течение 0-1 дня после релиза в upstream.
+- Любые изменения, необходимые для того, чтобы браузер больше соблюдал конфиденциальность, не должны негативно влиять на опыт использования.
+- Браузеры для Android должны использовать движок Chromium.
+    - К сожалению, Mozilla GeckoView все еще менее безопасен, чем Chromium на Android.
+    - Браузеры для iOS ограничены использованием WebKit.
 
-### Extension Criteria
+### Критерии для расширений
 
-- Must not replicate built-in browser or OS functionality.
-- Must directly impact user privacy, i.e. must not simply provide information.
+- Не должны копировать встроенную функциональность браузера или ОС.
+- Должны непосредственно влиять на конфиденциальность пользователя, т.е. не просто предоставлять информацию.

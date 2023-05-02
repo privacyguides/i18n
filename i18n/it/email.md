@@ -48,7 +48,7 @@ Questi provider supportano in modo nativo la cifratura/decifratura OpenPGP e lo 
     [:octicons-info-16:](https://proton.me/support/mail){ .card-link title=Documentazione}
     [:octicons-code-16:](https://github.com/ProtonMail){ .card-link title="Codice sorgente" }
     
-    ??? downloads
+    ??? download
     
         - [:simple-googleplay: Google Play](https://play.google.com/store/apps/details?id=ch.protonmail.android)
         - [:simple-appstore: App Store](https://apps.apple.com/app/apple-store/id979659905)
@@ -111,7 +111,7 @@ Proton Mail non offre una funzione di eredità digitale.
     [:octicons-eye-16:](https://mailbox.org/en/data-protection-privacy-policy){ .card-link title="Informativa sulla privacy" }
     [:octicons-info-16:](https://kb.mailbox.org/en/private){ .card-link title=Documentazione}
     
-    ??? downloads
+    ??? download
     
         - [:octicons-browser-16: Web](https://login.mailbox.org)
 
@@ -175,7 +175,7 @@ Questi provider archiviano le tue e-mail con una crittografia a conoscenza zero,
     [:octicons-eye-16:](https://www.startmail.com/en/privacy/){ .card-link title="Informativa sulla privacy" }
     [:octicons-info-16:](https://support.startmail.com){ .card-link title=Documentazione}
     
-    ??? downloads
+    ??? download
     
         - [:octicons-browser-16: Web](https://mail.startmail.com/login)
 
@@ -225,7 +225,7 @@ StartMail non offre una funzione di eredità digitale.
     [:octicons-code-16:](https://github.com/tutao/tutanota){ .card-link title="Codice sorgente" }
     [:octicons-heart-16:](https://tutanota.com/community/){ .card-link title=Contribuisci }
     
-    ??? downloads
+    ??? download
     
         - [:simple-googleplay: Google Play](https://play.google.com/store/apps/details?id=de.tutao.tutanota)
         - [:simple-appstore: App Store](https://apps.apple.com/app/tutanota/id922429609)
@@ -312,11 +312,11 @@ L'utilizzo di un servizio di aliasing richiede la fiducia del provider di posta 
     [:octicons-code-16:](https://github.com/anonaddy){ .card-link title="Codice sorgente" }
     [:octicons-heart-16:](https://anonaddy.com/donate/){ .card-link title=Contribuisci}
     
-    ??? downloads
+    ??? download
     
         - [:simple-android: Android](https://anonaddy.com/faq/#is-there-an-android-app)
         - [:material-apple-ios: iOS](https://anonaddy.com/faq/#is-there-an-ios-app)
-        - [:simple-firefoxbrowser: Firefox](https://addons.mozilla.org/en-GB/firefox/addon/anonaddy/)
+        - [:simple-firefoxbrowser: Firefox](https://addons.mozilla.org/it/firefox/addon/anonaddy/)
         - [:simple-googlechrome: Chrome](https://chrome.google.com/webstore/detail/anonaddy-anonymous-email/iadbdpnoknmbdeolbapdackdcogdmjpe)
 
 Il numero di alias condivisi (che terminano in un dominio condiviso come @anonaddy.me) che puoi creare è limitato a 20 sul piano gratuito di AnonAddy e 50 sul loro piano di $12/anno. Puoi creare alias standard illimitati (che terminano in un dominio come @[username].anonaddy.com o un dominio personalizzato su piani a pagamento), tuttavia, come accennato in precedenza, questo può essere dannoso per la privacy perché le persone possono banalmente collegare i tuoi alias standard in base al solo nome di dominio. Alias condivisi illimitati sono disponibili per $36/anno.
@@ -342,12 +342,12 @@ Funzionalità gratuite degne di nota:
     [:octicons-info-16:](https://simplelogin.io/docs/){ .card-link title=Documentazione}
     [:octicons-code-16:](https://github.com/simple-login){ .card-link title="Codice sorgente" }
     
-    ??? downloads
+    ??? download
     
         - [:simple-googleplay: Google Play](https://play.google.com/store/apps/details?id=io.simplelogin.android)
         - [:simple-appstore: App Store](https://apps.apple.com/app/id1494359858)
         - [:simple-github: GitHub](https://github.com/simple-login/Simple-Login-Android/releases)
-        - [:simple-firefoxbrowser: Firefox](https://addons.mozilla.org/en-US/firefox/addon/simplelogin/)
+        - [:simple-firefoxbrowser: Firefox](https://addons.mozilla.org/it/firefox/addon/simplelogin/)
         - [:simple-googlechrome: Chrome](https://chrome.google.com/webstore/detail/dphilobhebphkdjbpfohgikllaljmgbn)
         - [:simple-microsoftedge: Edge](https://microsoftedge.microsoft.com/addons/detail/simpleloginreceive-sen/diacfpipniklenphgljfkmhinphjlfff)
         - [:simple-safari: Safari](https://apps.apple.com/app/id1494051017)

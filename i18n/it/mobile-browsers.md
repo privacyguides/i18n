@@ -134,8 +134,8 @@ Per iOS, ogni app che può navigare il web è [costretta](https://developer.appl
     
     **Safari** è il browser web predefinito di iOS. Include [funzionalità di privacy](https://support.apple.com/it-it/guide/iphone/iphb01fc3c85/15.0/ios/15.0) come l'anti-tracciamento intelligente, il resoconto sulla privacy, l'isolamento dei pannelli in navigazione privata, Relay privato di iCloud e aggiornamenti automatici all'HTTPS.
     
-    [:octicons-home-16: Pagina principale](https://www.apple.com/safari/){ .md-button .md-button--primary }
-    [:octicons-eye-16:](https://www.apple.com/legal/privacy/data/en/safari/){ .card-link title="Informativa sulla privacy" }
+    [:octicons-home-16: Pagina Principale](https://www.apple.com/safari/){ .md-button .md-button--primary }
+    [:octicons-eye-16:](https://www.apple.com/legal/privacy/data/en/safari/){ .card-link title="Politica sulla Privacy" }
     [:octicons-info-16:](https://support.apple.com/guide/safari/welcome/mac){ .card-link title=Documentazione}
 
 #### Configurazione consigliata
@@ -197,7 +197,7 @@ Se usi iCloud con la Protezione avanzata dei dati, consigliamo anche di controll
     [:octicons-info-16:](https://kb.adguard.com/ios){ .card-link title=Documentazione}
     [:octicons-code-16:](https://github.com/AdguardTeam/AdguardForiOS){ .card-link title="Codice sorgente" }
     
-    ??? downloads
+    ??? download
     
         - [:simple-appstore: App Store](https://apps.apple.com/app/apple-store/id1047223162)
 

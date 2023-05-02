@@ -285,7 +285,7 @@ De Web3-functies van Brave kunnen de vingerafdruk van jouw browser en het aanval
 
 - [ ] Set **Standaard Ethereum Wallet** tot **Geen**
 - [ ] Set **Standaard Solana Wallet** tot **Geen**
-- [ ] Set **Method to resolve IPFS resources** to **Disabled**
+- [ ] Schakel **methode in om IPFS-bronnen op te lossen** uit
 
 ##### Systeem
 

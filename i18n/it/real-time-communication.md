@@ -30,7 +30,7 @@ Questi messenger sono ideali per proteggere le tue comunicazioni sensibili.
     [:octicons-code-16:](https://github.com/signalapp){ .card-link title="Codice sorgente" }
     [:octicons-heart-16:](https://signal.org/donate/){ .card-link title=Contribuisci }
     
-    ??? downloads
+    ??? download
     
         - [:simple-googleplay: Google Play](https://play.google.com/store/apps/details?id=org.thoughtcrime.securesms)
         - [:simple-appstore: App Store](https://apps.apple.com/app/id874139669)
@@ -60,10 +60,10 @@ Abbiamo alcuni suggerimenti aggiuntivi per configurare e rendere più sicuro Sig
     [:octicons-info-16:](https://github.com/simplex-chat/simplex-chat/tree/stable/docs){.card-link title=Documentazione}
     [:octicons-code-16:](https://github.com/simplex-chat){.card-link title="Codice sorgente" }
     
-    ??? downloads
+    ??? download
     
         - [:simple-googleplay: Google Play](https://play.google.com/store/apps/details?id=chat.simplex.app)
-        - [:simple-appstore: App Store](https://apps.apple.com/us/app/simplex-chat/id1605771084)
+        - [:simple-appstore: App Store](https://apps.apple.com/it/app/simplex-chat/id1605771084)
         - [:simple-github: GitHub](https://github.com/simplex-chat/simplex-chat/releases)
 
 SimpleX Chat [è stato verificato](https://simplex.chat/blog/20221108-simplex-chat-v4.2-security-audit-new-website.html) da Trail of Bits nell'ottobre 2022.
@@ -80,13 +80,13 @@ I dati possono essere esportati e importati su un altro dispositivo, poiché non
     
     **Briar** è un'app di messaggistica istantanea crittografata che si [connette](https://briarproject.org/how-it-works/) agli altri client usando la rete Tor. Briar può anche connettersi via Wi-Fi o Bluetooth quando si trova nelle vicinanze. La modalità mesh locale di Briar può essere utile quando la connessione a Internet è problematica.
     
-    [:octicons-home-16: Pagina principale](https://briarproject.org/){ .md-button .md-button--primary }
-    [:octicons-eye-16:](https://briarproject.org/privacy-policy/){ .card-link title="Informativa sulla privacy" }
+    [:octicons-home-16: Pagina Principale](https://briarproject.org/){ .md-button .md-button--primary }
+    [:octicons-eye-16:](https://briarproject.org/privacy-policy/){ .card-link title="Politica sulla Privacy" }
     [:octicons-info-16:](https://code.briarproject.org/briar/briar/-/wikis/home){ .card-link title=Documentazione}
-    [:octicons-code-16:](https://code.briarproject.org/briar/briar){ .card-link title="Codice sorgente" }
-    [:octicons-heart-16:](https://briarproject.org/){ .card-link title="Le opzioni di donazione sono elencate in fondo alla pagina" }
+    [:octicons-code-16:](https://code.briarproject.org/briar/briar){ .card-link title="Codice Sorgente" }
+    [:octicons-heart-16:](https://briarproject.org/){ .card-link title="Le opzioni per donare sono elencatein fondo alla pagina principale" }
     
-    ??? downloads
+    ??? download
     
         - [:simple-googleplay: Google Play](https://play.google.com/store/apps/details?id=org.briarproject.briar.android)
         - [:simple-windows11: Windows](https://briarproject.org/download-briar-desktop/)
@@ -122,7 +122,7 @@ Briar supporta la Perfect Forward Secrecy usando l'[Handshake](https://code.bria
     [:octicons-info-16:](https://element.io/help){ .card-link title=Documentazione}
     [:octicons-code-16:](https://github.com/vector-im){ .card-link title="Codice sorgente" }
     
-    ??? downloads
+    ??? download
     
         - [:simple-googleplay: Google Play](https://play.google.com/store/apps/details?id=im.vector.app)
         - [:simple-appstore: App Store](https://apps.apple.com/app/vector/id1083446067)
@@ -155,7 +155,7 @@ Il protocollo è stato [verificato](https://matrix.org/blog/2016/11/21/matrixs-o
     [:octicons-info-16:](https://getsession.org/faq){ .card-link title=Documentazione}
     [:octicons-code-16:](https://github.com/oxen-io){ .card-link title="Codice sorgente" }
     
-    ??? downloads
+    ??? download
     
         - [:simple-googleplay: Google Play](https://play.google.com/store/apps/details?id=network.loki.messenger)
         - [:simple-appstore: App Store](https://apps.apple.com/app/id1470168868)

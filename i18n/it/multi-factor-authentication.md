@@ -104,7 +104,7 @@ Consigliamo vivamente di utilizare applicazioni TOTP per dispositivi mobili inve
     [:octicons-code-16:](https://github.com/beemdevelopment/Aegis){ .card-link title="Codice sorgente" }
     [:octicons-heart-16:](https://www.buymeacoffee.com/beemdevelopment){ .card-link title=Contribuisci }
     
-    ??? downloads
+    ??? download
     
         - [:simple-googleplay: Google Play](https://play.google.com/store/apps/details?id=com.beemdevelopment.aegis)
         - [:simple-github: GitHub](https://github.com/beemdevelopment/Aegis/releases)
@@ -122,9 +122,9 @@ Consigliamo vivamente di utilizare applicazioni TOTP per dispositivi mobili inve
     [:octicons-code-16:](https://github.com/raivo-otp/ios-application){ .card-link title="Codice sorgente" }
     [:octicons-heart-16:](https://raivo-otp.com/donate){ .card-link title=Contribuisci }
     
-    ??? downloads
+    ??? download
     
-        - [:simple-appstore: App Store](https://apps.apple.com/us/app/raivo-otp/id1459042137)
+        - [:simple-appstore: App Store](https://apps.apple.com/it/app/raivo-otp/id1459042137)
 
 ### Criteri
 

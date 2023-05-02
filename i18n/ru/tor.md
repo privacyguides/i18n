@@ -1,5 +1,5 @@
 ---
-meta_title: "Сеть и Браузер Tor: Анонимный интернет сёрфинг - Privacy Guides"
+meta_title: "Tor Browser and Network: Anonymous Web Browsing - Privacy Guides"
 title: "Сеть Tor"
 icon: simple/torproject
 description: Защитите свой интернет-сёрфинг от посторонних глаз, используя сеть Tor - безопасную сеть, обходящую цензуру.
@@ -8,11 +8,11 @@ schema:
   - 
     "@context": http://schema.org
     "@type": SoftwareApplication
-    name: Браузер Tor
+    name: Tor Browser
     image: /assets/img/browsers/tor.svg
     url: https://www.torproject.org
-    sameAs: https://en.wikipedia.org/wiki/Tor_(network)
-    applicationCategory: Web Browser
+    sameAs: https://ru.wikipedia.org/wiki/Tor
+    applicationCategory: Браузер
     operatingSystem:
       - Windows
       - macOS
@@ -25,56 +25,50 @@ schema:
 
 ![Tor logo](assets/img/self-contained-networks/tor.svg){ align=right }
 
-The **Tor** network is a group of volunteer-operated servers that allows you to connect for free and improve your privacy and security on the Internet. Individuals and organizations can also share information over the Tor network with ".onion hidden services" without compromising their privacy. Because Tor traffic is difficult to block and trace, Tor is an effective censorship circumvention tool.
+Сеть **Tor** - это группа серверов, управляемых волонтёрами, которая позволяет вам бесплатно подключаться к сети и повышать уровень конфиденциальности и безопасности в интернете. Частные лица и организации также могут делиться информацией через сеть Tor с помощью "скрытых сервисов .onion" без ущерба для своей конфиденциальности. Поскольку трафик Tor сложно заблокировать и отследить, Tor является эффективным инструментом обхода цензуры.
 
-[:octicons-home-16:](https://www.torproject.org){ .card-link title=Homepage }
-[:simple-torbrowser:](http://2gzyxa5ihm7nsggfxnu52rck2vv4rvmdlkiu3zzui5du4xyclen53wid.onion){ .card-link title="Onion Service" }
-[:octicons-info-16:](https://tb-manual.torproject.org/){ .card-link title=Documentation}
-[:octicons-code-16:](https://gitweb.torproject.org/tor.git){ .card-link title="Source Code" }
-[:octicons-heart-16:](https://donate.torproject.org/){ .card-link title=Contribute }
+[:octicons-home-16:](https://www.torproject.org){ .card-link title=Домашняя страница }
+[:simple-torbrowser:](http://2gzyxa5ihm7nsggfxnu52rck2vv4rvmdlkiu3zzui5du4xyclen53wid.onion){ .card-link title="Onion Ресурс" }
+[:octicons-info-16:](https://tb-manual.torproject.org/){ .card-link title=Документация }
+[:octicons-code-16:](https://gitweb.torproject.org/tor.git){ .card-link title="Исходный код" }
+[:octicons-heart-16:](https://donate.torproject.org/){ .card-link title=Внести вклад}
 
-Tor works by routing your internet traffic through those volunteer-operated servers, instead of making a direct connection to the site you're trying to visit. This obfuscates where the traffic is coming from, and no server in the connection path is able to see the full path of where the traffic is coming from and going to, meaning even the servers you are using to connect cannot break your anonymity.
+Tor работает, направляя ваш трафик через эти серверы, управляемые волонтёрами, вместо прямого соединения с сайтом, который вы пытаетесь посетить. Это скрывает, откуда идет трафик, и ни один сервер на пути соединения не может увидеть полный путь того, откуда и куда идет трафик, то есть даже серверы, которые вы используете для подключения, не могут нарушить вашу анонимность.
 
-[Detailed Tor Overview :material-arrow-right-drop-circle:](advanced/tor-overview.md ""){.md-button}
+[Подробный обзор Tor :material-arrow-right-drop-circle:](advanced/tor-overview.md ""){.md-button}
 
-## Connecting to Tor
+## Подключение к Tor
 
-There are a variety of ways to connect to the Tor network from your device, the most commonly used being the **Tor Browser**, a fork of Firefox designed for anonymous browsing for desktop computers and Android. In addition to the apps listed below, there are also operating systems designed specifically to connect to the Tor network such as [Whonix](desktop.md#whonix) on [Qubes OS](desktop.md#qubes-os), which provide even greater security and protections than the standard Tor Browser.
+Существует множество способов подключения к сети Tor с вашего устройства, наиболее распространенным из которых является **Tor Browser**, форк Firefox, предназначенный для анонимного просмотра веб-страниц на настольных компьютерах и Android. Помимо перечисленных ниже приложений, существуют также операционные системы, разработанные специально для подключения к сети Tor, такие как [Whonix](desktop.md#whonix) или [Qubes OS](desktop.md#qubes-os), которые обеспечивают еще большую безопасность и защиту, чем стандартный Tor Browser.
 
-### Браузер Tor
+### Tor Browser
 
 !!! recommendation
 
-    ![Tor Browser logo](assets/img/browsers/tor.svg){ align=right }
+    ![Логотип Tor Browser](assets/img/browsers/tor.svg){ align=right }
     
-    **Tor Browser** is the choice if you need anonymity, as it provides you with access to the Tor network and bridges, and it includes default settings and extensions that are automatically configured by the default security levels: *Standard*, *Safer* and *Safest*.
+    **Tor Browser** - это выбор, если вам нужна анонимность, поскольку он предоставляет доступ к сети Tor и мостам, а также включает в себя настройки и расширения, которые автоматически конфигурируются по выбранным уровням безопасности: *Обычный*, *Высокий* и *Высший*.
     
-    [:octicons-home-16: Homepage](https://www.torproject.org){ .md-button .md-button--primary }
-    [:simple-torbrowser:](http://2gzyxa5ihm7nsggfxnu52rck2vv4rvmdlkiu3zzui5du4xyclen53wid.onion){ .card-link title="Onion Service" }
-    [:octicons-info-16:](https://tb-manual.torproject.org/){ .card-link title=Documentation }
-    [:octicons-code-16:](https://gitweb.torproject.org/tor-browser.git/){ .card-link title="Source Code" }
-    [:octicons-heart-16:](https://donate.torproject.org/){ .card-link title=Contribute }
+    [:octicons-home-16: Домашняя страница](https://www.torproject.org/ru/){ .md-button .md-button--primary }
+    [:simple-torbrowser:](http://2gzyxa5ihm7nsggfxnu52rck2vv4rvmdlkiu3zzui5du4xyclen53wid.onion){ .card-link title="Onion ресурс" }
+    [:octicons-info-16:](https://tb-manual.torproject.org/ru/){ .card-link title=Документация }
+    [:octicons-code-16:](https://gitweb.torproject.org/tor-browser.git/){ .card-link title="Исходный код" }
+    [:octicons-heart-16:](https://donate.torproject.org/){ .card-link title=Поддержать }
     
-    ??? downloads
+    ??? загрузить
     
         - [:simple-googleplay: Google Play](https://play.google.com/store/apps/details?id=org.torproject.torbrowser)
-        - [:simple-android: Android](https://www.torproject.org/download/#android)
-        - [:simple-windows11: Windows](https://www.torproject.org/download/)
-        - [:simple-apple: macOS](https://www.torproject.org/download/)
-        - [:simple-linux: Linux](https://www.torproject.org/download/)
+        - [:simple-android: Android](https://www.torproject.org/ru/download/#android)
+        - [:simple-windows11: Windows](https://www.torproject.org/ru/download/)
+        - [:simple-apple: macOS](https://www.torproject.org/ru/download/)
+        - [:simple-linux: Linux](https://www.torproject.org/ru/download/)
         - [:simple-freebsd: FreeBSD](https://www.freshports.org/security/tor)
 
-!!! recommendation
+!!! осторожно
 
-    You should **never** install any additional extensions on Tor Browser or edit `about:config` settings, including the ones we suggest for Firefox. downloads
-    
-        - [:fontawesome-brands-windows: Windows](https://www.mozilla.org/firefox/windows)
-        - [:fontawesome-brands-apple: macOS](https://www.mozilla.org/firefox/mac)
-        - [:fontawesome-brands-linux: Linux](https://www.mozilla.org/firefox/linux)
-        - [:pg-flathub: Flatpak](https://flathub.org/apps/details/org.mozilla.firefox)
-        - [:fontawesome-brands-git: Source](https://hg.mozilla.org/mozilla-central)
+    Вам **никогда** не следует устанавливать дополнительные расширения для Tor Browser или редактировать настройки `about:config`, включая те, которые мы предлагаем для Firefox. Расширения браузера и нестандартные настройки выделяют вас среди других пользователей сети Tor, тем самым делая уникальным ваш [fingerprint](https://support.torproject.org/ru/glossary/browser-fingerprinting/).
 
-Этот браузер дает вам доступ к мостам Tor и \[сети Tor\](https://en.wikipedia.org/wiki/Tor_(network)), а также может быть настроен с помощью трех уровней безопасности - *Обычного*, *Высокого* и *Высшего*. Therefore, it is imperative that you do **not** modify the browser beyond the default [security levels](https://tb-manual.torproject.org/security-settings/).
+Браузер Tor предназначен для предотвращения "отпечатков пальцев", или идентификации вас на основе конфигурации вашего браузера. Поэтому крайне важно, чтобы вы **не** изменяли браузер, помимо установленных по умолчанию [уровней безопасности](https://tb-manual.torproject.org/ru/security-settings/).
 
 ### Orbot
 

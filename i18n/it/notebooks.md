@@ -9,7 +9,7 @@ Tieni traccia delle tue note e diari senza doverli dare a una terza parte.
 
 Se stai attualmente utilizzando un'applicazione come Evernote, Google Keep o Microsoft OneNote, ti suggeriamo di scegliere una delle seguenti alernative che supportano E2EE.
 
-## Cloud
+## Basati sul Cloud
 
 ### Joplin
 
@@ -25,7 +25,7 @@ Se stai attualmente utilizzando un'applicazione come Evernote, Google Keep o Mic
     [:octicons-code-16:](https://github.com/laurent22/joplin){ .card-link title="Codice sorgente" }
     [:octicons-heart-16:](https://joplinapp.org/donate/){ .card-link title=Contribuisci }
     
-    ??? downloads
+    ??? download
     
         - [:simple-googleplay: Google Play](https://play.google.com/store/apps/details?id=net.cozic.joplin)
         - [:simple-appstore: App Store](https://apps.apple.com/us/app/joplin/id1315599797)
@@ -52,7 +52,7 @@ Joplin non supporta la protezione con password/PIN per [l'applicazione stessa o 
     [:octicons-code-16:](https://github.com/standardnotes){ .card-link title="Codice sorgente" }
     [:octicons-heart-16:](https://standardnotes.com/donate){ .card-link title=Contribuisci }
     
-    ??? downloads
+    ??? download
     
         - [:simple-googleplay: Google Play](https://play.google.com/store/apps/details?id=com.standardnotes)
         - [:simple-appstore: App Store](https://apps.apple.com/app/id1285392450)
@@ -70,10 +70,9 @@ Joplin non supporta la protezione con password/PIN per [l'applicazione stessa o 
     
     **Org-mode** è una [major mode](https://www.gnu.org/software/emacs/manual/html_node/elisp/Major-Modes.html) per GNU Emacs. Org-mode serve per prendere appunti, mantenere elenchi TODO, pianificare progetti e scrivere documenti con un sistema di testo semplice rapido ed efficace.
     
-    La sincronizzazione è possibile con gli strumenti di [sincronizzazione dei file](file-sharing.md#file-sync). [:octicons-home-16: Pagina principale](https://orgmode.org){ .md-button .md-button--primary }
-    [:octicons-info-16:](https://orgmode.org/manuals.html){ .card-link title=Documentazione}
-    [:octicons-code-16:](https://git.savannah.gnu.org/cgit/emacs/org-mode.git){ .card-link title="Codice sorgente" }
-    [:octicons-heart-16:](https://liberapay.com/bzg){ .card-link title=Contribuisci }
+    La sincronizzazione è possibile con gli strumenti di [sincronizzazione dei file](file-sharing.md#file-sync). download
+    
+        - [:octicons-globe-16: PWA](https://crypt.ee/download)
 
 Cryptee offre 100 MB di spazio di archiviazione gratuito, con opzioni a pagamento se hai bisogno di più spazio. L'iscrizione non richiede l'email o altre informazioni d'identificazione personale.
 

@@ -26,7 +26,7 @@ Le opzioni qui elencate sono multipiattaforma e ottime per la creazione di backu
     [:octicons-code-16:](https://github.com/cryptomator){ .card-link title="Codice sorgente" }
     [:octicons-heart-16:](https://cryptomator.org/donate/){ .card-link title=Contribuisci }
     
-    ??? downloads
+    ??? download
     
         - [:simple-googleplay: Google Play](https://play.google.com/store/apps/details?id=org.cryptomator)
         - [:simple-appstore: App Store](https://apps.apple.com/us/app/cryptomator-2/id1560822163)
@@ -54,7 +54,7 @@ La documentazione di Cryptomator descrive più nel dettaglio [i suoi obiettivi d
     [:octicons-code-16:](https://github.com/HACKERALERT/Picocrypt){ .card-link title="Codice sorgente" }
     [:octicons-heart-16:](https://opencollective.com/picocrypt){ .card-link title=Contribuisci }
     
-    ??? downloads
+    ??? download
     
         - [:simple-windows11: Windows](https://github.com/HACKERALERT/Picocrypt/releases)
         - [:simple-apple: macOS](https://github.com/HACKERALERT/Picocrypt/releases)
@@ -74,7 +74,7 @@ La documentazione di Cryptomator descrive più nel dettaglio [i suoi obiettivi d
     [:octicons-code-16:](https://veracrypt.fr/code/){ .card-link title="Codice sorgente" }
     [:octicons-heart-16:](https://veracrypt.fr/en/Donation.html){ .card-link title=Contribuisci }
     
-    ??? downloads
+    ??? download
     
         - [:simple-windows11: Windows](https://www.veracrypt.fr/en/Downloads.html)
         - [:simple-apple: macOS](https://www.veracrypt.fr/en/Downloads.html)
@@ -224,7 +224,7 @@ Gli strumenti con interfacce a riga di comando sono utili per integrare [script 
     [:octicons-code-16:](https://github.com/samuel-lucas6/Kryptor){ .card-link title="Codice sorgente" }
     [:octicons-heart-16:](https://www.kryptor.co.uk/#donate){ .card-link title=Contribuisci }
     
-    ??? downloads
+    ??? download
     
         - [:simple-windows11: Windows](https://www.kryptor.co.uk)
         - [:simple-apple: macOS](https://www.kryptor.co.uk)
@@ -270,7 +270,7 @@ Quando cripti con PGP, puoi configurare diverse opzioni nel file `gpg.conf`. Rac
     [:octicons-info-16:](https://gnupg.org/documentation/index.html){ .card-link title=Documentazione}
     [:octicons-code-16:](https://git.gnupg.org/cgi-bin/gitweb.cgi?p=gnupg.git){ .card-link title="Codice sorgente" }
     
-    ??? downloads
+    ??? download
     
         - [:simple-googleplay: Google Play](https://play.google.com/store/apps/details?id=org.sufficientlysecure.keychain)
         - [:simple-windows11: Windows](https://gpg4win.org/download.html)
@@ -291,7 +291,7 @@ Quando cripti con PGP, puoi configurare diverse opzioni nel file `gpg.conf`. Rac
     [:octicons-code-16:](https://git.gnupg.org/cgi-bin/gitweb.cgi?p=gpg4win.git;a=summary){ .card-link title="Codice sorgente" }
     [:octicons-heart-16:](https://gpg4win.org/donate.html){ .card-link title=Contribuisci }
     
-    ??? downloads
+    ??? download
     
         - [:simple-windows11: Windows](https://gpg4win.org/download.html)
 
@@ -314,7 +314,7 @@ Quando cripti con PGP, puoi configurare diverse opzioni nel file `gpg.conf`. Rac
     [:octicons-info-16:](https://gpgtools.tenderapp.com/kb){ .card-link title=Documentazione}
     [:octicons-code-16:](https://github.com/GPGTools){ .card-link title="Codice sorgente" }
     
-    ??? downloads
+    ??? download
     
         - [:simple-apple: macOS](https://gpgtools.org)
 
@@ -332,7 +332,7 @@ Quando cripti con PGP, puoi configurare diverse opzioni nel file `gpg.conf`. Rac
     [:octicons-code-16:](https://github.com/open-keychain/open-keychain){ .card-link title="Codice Sorgente" }
     :octicons-heart-16:{ .card-link title="Le donazioni possono essere fatte nell'app" }
     
-    ??? downloads
+    ??? download
     
         - [:simple-googleplay: Google Play](https://play.google.com/store/apps/details?id=org.sufficientlysecure.keychain)
 

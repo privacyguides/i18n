@@ -71,7 +71,7 @@ I software proxy per il DNS cifrato forniscono un proxy locale a cui inoltrare l
     [:octicons-info-16:](https://docs.rethinkdns.com/){ .card-link title=Documentazione}
     [:octicons-code-16:](https://github.com/celzero/rethink-app){ .card-link title="Codice Sorgente" }
     
-    ??? downloads
+    ??? download
     
         - [:simple-googleplay: Google Play](https://play.google.com/store/apps/details?id=com.celzero.bravedns)
         - [:simple-github: GitHub](https://github.com/celzero/rethink-app/releases)
@@ -91,7 +91,7 @@ I software proxy per il DNS cifrato forniscono un proxy locale a cui inoltrare l
     [:octicons-code-16:](https://github.com/DNSCrypt/dnscrypt-proxy){ .card-link title="Codice sorgente" }
     [:octicons-heart-16:](https://opencollective.com/dnscrypt/contribute){ .card-link title=Contribuisci }
     
-    ??? downloads
+    ??? download
     
         - [:simple-windows11: Windows](https://github.com/DNSCrypt/dnscrypt-proxy/wiki/Installation-Windows)
         - [:simple-apple: macOS](https://github.com/DNSCrypt/dnscrypt-proxy/wiki/Installation-macOS)

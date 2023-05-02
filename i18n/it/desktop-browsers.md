@@ -116,7 +116,7 @@ Mullvad Browser utilizza DuckDuckGo come [motore di ricerca](search-engines.md) 
     [:octicons-code-16:](https://hg.mozilla.org/mozilla-central){ .card-link title="Codice sorgente" }
     [:octicons-heart-16:](https://donate.mozilla.org/){ .card-link title=Contribuisci }
     
-    ??? downloads
+    ??? download
     
         - [:simple-windows11: Windows](https://www.mozilla.org/firefox/windows)
         - [:simple-apple: macOS](https://www.mozilla.org/firefox/mac)
@@ -210,7 +210,7 @@ Arkenfox mira solo a contrastare gli script di tracciamento di base o ingenui at
     [:octicons-info-16:](https://support.brave.com/){ .card-link title=Documentazione}
     [:octicons-code-16:](https://github.com/brave/brave-browser){ .card-link title="Codice sorgente" }
     
-    ??? downloads annotate
+    ??? download annotate
     
         - [:simple-github: GitHub](https://github.com/brave/brave-browser/releases)
         - [:simple-windows11: Windows](https://brave.com/download/)
@@ -324,7 +324,7 @@ In generale, si consiglia di ridurre al minimo le estensioni del browser; hanno 
     [:octicons-info-16:](https://github.com/gorhill/uBlock/wiki){ .card-link title=Documentazione}
     [:octicons-code-16:](https://github.com/gorhill/uBlock){ .card-link title="Codice sorgente" }
     
-    ??? downloads
+    ??? download
     
         - [:simple-firefoxbrowser: Firefox](https://addons.mozilla.org/firefox/addon/ublock-origin/)
         - [:simple-googlechrome: Chrome](https://chrome.google.com/webstore/detail/ublock-origin/cjpalhdlnbpafiamejdnhcphjbkeiagm)

@@ -230,7 +230,7 @@ In questo sito raccomandiamo un'ampia gamma di applicazioni per Android. Le app 
     [:octicons-code-16:](https://attestation.app/source){ .card-link title="Codice sorgente" }
     [:octicons-heart-16:](https://attestation.app/donate){ .card-link title=Contribuisci }
     
-    ??? downloads
+    ??? download
     
         - [:simple-googleplay: Google Play](https://play.google.com/store/apps/details?id=app.attestation.auditor)
         - [:simple-github: GitHub](https://github.com/GrapheneOS/Auditor/releases)
@@ -262,7 +262,7 @@ Se il proprio [modello di minaccia](basics/threat-modeling.md) richiede privacy,
     [:octicons-code-16:](https://github.com/GrapheneOS/Camera){ .card-link title="Codice sorgente" }
     [:octicons-heart-16:](https://grapheneos.org/donate){ .card-link title=Contribuisci }
     
-    ??? downloads
+    ??? download
     
         - [:simple-googleplay: Google Play](https://play.google.com/store/apps/details?id=app.grapheneos.camera.play)
         - [:simple-github: GitHub](https://github.com/GrapheneOS/Camera/releases)
@@ -295,7 +295,7 @@ Le principali funzionalità di privacy includono:
     [:octicons-code-16:](https://github.com/GrapheneOS/PdfViewer){ .card-link title="Codice sorgente" }
     [:octicons-heart-16:](https://grapheneos.org/donate){ .card-link title=Contribuisci }
     
-    ??? downloads
+    ??? download
     
         - [:simple-googleplay: Google Play](https://play.google.com/store/apps/details?id=app.grapheneos.pdfviewer.play)
         - [:simple-github: GitHub](https://github.com/GrapheneOS/PdfViewer/releases)
@@ -320,7 +320,7 @@ Il Google Play Store richiede un account Google per l'accesso, il che non è un 
     [:octicons-home-16: Pagina principale](https://auroraoss.com/){ .md-button .md-button--primary }
     [:octicons-code-16:](https://gitlab.com/AuroraOSS/AuroraStore){ .card-link title="Codice sorgente" }.
     
-    ??? downloads
+    ??? download
     
         - [:simple-gitlab: GitLab](https://gitlab.com/AuroraOSS/AuroraStore/-/releases)
 

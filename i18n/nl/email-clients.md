@@ -70,7 +70,7 @@ Deze opties zijn te vinden in :material-menu: → **Instellingen** → **Privacy
     [:octicons-eye-16:](https://www.apple.com/legal/privacy/en-ww/){ .card-link title="Privacy Policy" }
     [:octicons-info-16:](https://support.apple.com/mail){ .card-link title=Documentation}
 
-Apple Mail has the ability to load remote content in the background or block it entirely and hide your IP address from senders on [macOS](https://support.apple.com/guide/mail/mlhl03be2866/mac) and [iOS](https://support.apple.com/guide/iphone/iphf084865c7/ios).
+Apple Mail heeft de mogelijkheid om inhoud op afstand op de achtergrond te laden of volledig te blokkeren en jouw IP-adres te verbergen voor afzenders op [macOS](https://support.apple.com/guide/mail/mlhl03be2866/mac) en [iOS](https://support.apple.com/guide/iphone/iphf084865c7/ios).
 
 ### Canary Mail (iOS)
 

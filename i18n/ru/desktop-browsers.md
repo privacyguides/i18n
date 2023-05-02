@@ -1,14 +1,14 @@
 ---
-meta_title: "Privacy Respecting Web Browsers for PC and Mac - Privacy Guides"
-title: "Desktop Browsers"
+meta_title: "Интернет браузеры соблюдающие конфиденциальность для PC и Mac - Privacy Guides"
+title: "Браузеры для настольных компьютеров"
 icon: material/laptop
-description: These web browsers provide stronger privacy protections than Google Chrome.
+description: Эти браузеры обеспечивают более надежную защиту конфиденциальности, чем Google Chrome.
 cover: desktop-browsers.png
 schema:
   - 
     "@context": http://schema.org
     "@type": WebPage
-    name: Private Desktop Browser Recommendations
+    name: Рекомендации приватных браузеров для настольных компьютеров
     url: "./"
     relatedLink: "../mobile-browsers/"
   - 
@@ -16,7 +16,7 @@ schema:
     "@type": SoftwareApplication
     name: Mullvad Browser
     image: /assets/img/browsers/mullvad_browser.svg
-    url: https://mullvad.net/en/browser
+    url: https://mullvad.net/ru/browser
     applicationCategory: Web Browser
     operatingSystem:
       - Windows
@@ -57,24 +57,24 @@ schema:
       url: "./"
 ---
 
-These are our currently recommended desktop web browsers and configurations for standard/non-anonymous browsing. We recommend [Mullvad Browser](#mullvad-browser) if you are focused on strong privacy protections and anti-fingerprinting out of the box, [Firefox](#firefox) for casual internet browsers looking for a good alternative to Google Chrome, and [Brave](#brave) if you need Chromium browser compatibility.
+Здесь перечислены рекомендуемые браузеры для настольных компьютеров и руководства по их настройке для обычного (не анонимного) пользования интернетом. Мы рекомендуем [Mullvad Browser](#mullvad-browser), если вам важна надежная защита конфиденциальности и защита от определения отпечатков из коробки, [Firefox](#firefox) для казуальных пользователей, ищущих хорошую альтернативу Google Chrome, и [Brave](#brave), если вам нужна совместимость с браузером Chromium.
 
-Если вам нужна анонимность в сети, используйте [Tor](tor.md). We make some configuration recommendations on this page, but all browsers other than Tor Browser will be traceable by *somebody* in some manner or another.
+Если вам нужна анонимность в сети, используйте [Tor](tor.md). Мы даем некоторые рекомендации по настройке на этой странице, но все браузеры, кроме Tor Browser, могут быть отслежены *кем-то* тем или иным способом.
 
 ## Mullvad Browser
 
 !!! recommendation
 
-    ![Mullvad Browser logo](assets/img/browsers/mullvad_browser.svg){ align=right }
+    ![Логотип Mullvad Browser](assets/img/browsers/mullvad_browser.svg){ align=right }
     
-    **Mullvad Browser** is a version of [Tor Browser](tor.md#tor-browser) with Tor network integrations removed, aimed at providing Tor Browser's anti-fingerprinting browser technologies to VPN users. It is developed by the Tor Project and distributed by [Mullvad](vpn.md#mullvad), and does **not** require the use of Mullvad's VPN.
+    **Mullvad Browser** - это версия [Tor Browser](tor.md#tor-browser) с удаленными интеграциями сети Tor, предназначенная для предоставления пользователям VPN браузерных технологий Tor Browser по борьбе с определением отпечатков. It is developed by the Tor Project and distributed by [Mullvad](vpn.md#mullvad), and does **not** require the use of Mullvad's VPN.
     
-    [:octicons-home-16: Homepage](https://mullvad.net/en/browser){ .md-button .md-button--primary }
+    [:octicons-home-16: Домашняя страница](https://mullvad.net/en/browser){ .md-button .md-button--primary }
     [:octicons-eye-16:](https://mullvad.net/en/help/privacy-policy/){ .card-link title="Privacy Policy" }
     [:octicons-info-16:](https://mullvad.net/en/help/tag/mullvad-browser/){ .card-link title=Documentation}
     [:octicons-code-16:](https://gitlab.torproject.org/tpo/applications/mullvad-browser){ .card-link title="Source Code" }
     
-    ??? downloads
+    ??? загрузить
     
         - [:simple-windows11: Windows](https://mullvad.net/en/download/browser/windows)
         - [:simple-apple: macOS](https://mullvad.net/en/download/browser/macos)
@@ -194,7 +194,7 @@ Arkenfox only aims to thwart basic or naive tracking scripts through canvas rand
 
     ![Логотип Brave](assets/img/browsers/brave.svg){ align=right }
     
-    **Браузер Brave** включает встроенный блокировщик контента и [инструменты приватности](https://brave.com/privacy-features/), многие из которых включены по умолчанию.
+    **Браузер Brave** включает встроенный блокировщик контента и [инструменты конфиденциальности](https://brave.com/privacy-features/), многие из которых включены по умолчанию.
     
     Brave основан на Chromium, поэтому он покажется вам знакомым, а также у него не должно быть проблем с совместимостью.
     
@@ -223,26 +223,26 @@ These options can be found in :material-menu: → **Settings**.
 
 Brave включает несколько инструментов защиты от отслеживания в разделе [Shields](https://support.brave.com/hc/en-us/articles/360022973471-What-is-Shields-). Мы рекомендуем включить эти настройки [на всех сайтах](https://support.brave.com/hc/en-us/articles/360023646212-How-do-I-configure-global-and-site-specific-Shields-settings-), которые вы посещаете.
 
-Shields' options can be downgraded on a per-site basis as needed, but by default we recommend setting the following:
+Опции щитов можно понижать по мере необходимости для каждого конкретного сайта, но по умолчанию мы рекомендуем установить следующие параметры:
 
 <div class="annotate" markdown>
 
 - [x] Select **Prevent sites from fingerprinting me based on my language preferences**
 - [x] Select **Aggressive** under Trackers & ads blocking
 
-    ??? warning "Use default filter lists"
-        Brave allows you to select additional content filters within the internal `brave://adblock` page. We advise against using this feature; instead, keep the default filter lists. Using extra lists will make you stand out from other Brave users and may also increase attack surface if there is an exploit in Brave and a malicious rule is added to one of the lists you use.
+    ??? предупреждение «Дополнительные фильтры»
+        Brave позволяет вам выбрать дополнительные фильтры на внутренней странице `brave://adblock`. Мы не рекомендуем использовать эту функцию; вместо этого оставьте списки фильтров по умолчанию. Использование дополнительных фильтров выделит вас среди других пользователей Brave, а также может увеличить площадь атаки, если в Brave есть эксплойт и вредоносное правило будет добавлено в один из используемых вами списков.
 
 - [x] (Optional) Select **Block Scripts** (1)
 - [x] Select **Strict, may break sites** under Block fingerprinting
 
 </div>
 
-1. This option provides functionality similar to uBlock Origin's advanced [blocking modes](https://github.com/gorhill/uBlock/wiki/Blocking-mode) or the [NoScript](https://noscript.net/) extension.
+1. Эта опция обеспечивает функциональность, аналогичную расширенным [режимам блокировки](https://github.com/gorhill/uBlock/wiki/Blocking-mode) uBlock Origin или расширения [NoScript](https://noscript.net/).
 
 ##### Постоянно включенный режим инкогнито
 
-- [ ] Отключите все компоненты социальных сетей
+- [ ] Отключите все переключатели в этой секции
 
 ##### Предотвращение перекрестного отслеживания
 
@@ -343,7 +343,7 @@ These are some other [filter lists](https://github.com/gorhill/uBlock/wiki/Dashb
 - Supports automatic updates.
 - Receives engine updates in 0-1 days from upstream release.
 - Available on Linux, macOS, and Windows.
-- Any changes required to make the browser more privacy-respecting should not negatively impact user experience.
+- Любые изменения, необходимые для того, чтобы браузер больше соблюдал конфиденциальность, не должны негативно влиять на опыт использования.
 - Blocks third-party cookies by default.
 - Supports [state partitioning](https://developer.mozilla.org/en-US/docs/Web/Privacy/State_Partitioning) to mitigate cross-site tracking.[^1]
 
@@ -360,9 +360,9 @@ These are some other [filter lists](https://github.com/gorhill/uBlock/wiki/Dashb
 - Provides open-source sync server implementation.
 - Defaults to a [private search engine](search-engines.md).
 
-### Extension Criteria
+### Критерии для расширений
 
-- Must not replicate built-in browser or OS functionality.
-- Must directly impact user privacy, i.e. must not simply provide information.
+- Не должны копировать встроенную функциональность браузера или ОС.
+- Должны непосредственно влиять на конфиденциальность пользователя, т.е. не просто предоставлять информацию.
 
 [^1]: Brave's implementation is detailed at [Brave Privacy Updates: Partitioning network-state for privacy](https://brave.com/privacy-updates/14-partitioning-network-state/).

@@ -62,11 +62,11 @@ We recommend changing some of these settings to make Thunderbird a little more p
     
     **Apple Mail** is included in macOS and can be extended to have OpenPGP support with [GPG Suite](encryption.md#gpg-suite), which adds the ability to send PGP-encrypted email.
     
-    [:octicons-home-16: Homepage](https://support.apple.com/guide/mail/welcome/mac){ .md-button .md-button--primary }
-    [:octicons-eye-16:](https://www.apple.com/legal/privacy/en-ww/){ .card-link title="Privacy Policy" }
-    [:octicons-info-16:](https://support.apple.com/mail){ .card-link title=Documentation}
+    [:octicons-home-16: Домашняя страница](https://support.apple.com/ru-ru/guide/mail/welcome/mac){ .md-button .md-button--primary }
+    [:octicons-eye-16:](https://www.apple.com/ru/legal/privacy/ru/){ .card-link title="Политика конфиденциальности" }
+    [:octicons-info-16:](https://support.apple.com/ru-ru/mail){ .card-link title=Документация}
 
-Apple Mail has the ability to load remote content in the background or block it entirely and hide your IP address from senders on [macOS](https://support.apple.com/guide/mail/mlhl03be2866/mac) and [iOS](https://support.apple.com/guide/iphone/iphf084865c7/ios).
+Почта Apple имеет возможность загружать удаленный контент в фоновом режиме или полностью блокировать его и скрывать ваш IP-адрес от отправителей на [macOS](https://support.apple.com/ru-ru/guide/mail/mlhl03be2866/mac) и [iOS](https://support.apple.com/ru-ru/guide/iphone/iphf084865c7/ios).
 
 ### Canary Mail (iOS)
 

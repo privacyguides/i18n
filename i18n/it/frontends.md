@@ -106,7 +106,7 @@ Quando utilizza un'istanza di ProxiTok, assicurati di leggere l'informativa sull
     [:octicons-code-16:](https://github.com/FreeTubeApp/FreeTube){ .card-link title="Codice sorgente" }
     [:octicons-heart-16:](https://liberapay.com/FreeTube){ .card-link title=Contribuisci }
     
-    ??? downloads
+    ??? download
     
         - [:simple-windows11: Windows](https://freetubeapp.io/#download)
         - [:simple-apple: macOS](https://freetubeapp.io/#download)
@@ -186,7 +186,7 @@ Per impostazione predefinita, LibreTube blocca tutti gli annunci pubblicitari di
     [:octicons-code-16:](https://github.com/TeamNewPipe/NewPipe){ .card-link title="Codice sorgente" }
     [:octicons-heart-16:](https://newpipe.net/donate/){ .card-link title=Contribuisci }
     
-    ??? downloads
+    ??? download
     
         - [:simple-github: GitHub](https://github.com/TeamNewPipe/NewPipe/releases)
 

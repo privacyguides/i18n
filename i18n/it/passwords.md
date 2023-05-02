@@ -126,9 +126,9 @@ I gestori di password consentono di archiviare e gestire in modo sicuro le passw
 
     I gestori di password integrati nei software, come i browser e i sistemi operativi, a volte non sono all'altezza di un software di gestione delle password dedicato. Il vantaggio di un gestore di password integrato è la buona integrazione con il software, ma spesso può essere molto semplice e privo di caratteristiche di privacy e sicurezza che le offerte autonome offrono.
     
-    Ad esempio, il gestore di password di Microsoft Edge non offre affatto E2EE. Il gestore di password di Google ha E2EE [facoltativo](https://support.google.com/accounts/answer/11350823), e [Apple](https://support.apple.com/en-us/HT202303) offre E2EE di default.
+    Ad esempio, il gestore di password di Microsoft Edge non offre affatto E2EE. Il gestore di password Google ha l'E2EE [opzionale](https://support.google.com/accounts/answer/11350823), e quello [di Apple](https://support.apple.com/en-us/HT202303) offre l'E2EE di default.
 
-## Cloud
+## Basati sul Cloud
 
 Questi gestori di password sincronizzano le password su un server cloud per facilitarne l'accesso da tutti i dispositivi e per garantire la sicurezza contro la perdita del dispositivo.
 
@@ -145,7 +145,7 @@ Questi gestori di password sincronizzano le password su un server cloud per faci
     [:octicons-info-16:](https://bitwarden.com/help/){ .card-link title=Documentazione}
     [:octicons-code-16:](https://github.com/bitwarden){ .card-link title="Codice sorgente" }
     
-    ??? downloads
+    ??? download
     
         - [:simple-googleplay: Google Play](https://play.google.com/store/apps/details?id=com.x8bit.bitwarden)
         - [:simple-appstore: App Store](https://apps.apple.com/app/bitwarden-password-manager/id1137397744)
@@ -181,7 +181,7 @@ Il codice lato server di Bitwarden è [open-source](https://github.com/bitwarden
     [:octicons-eye-16:](https://1password.com/legal/privacy/){ .card-link title="Politica sulla Privacy" }
     [:octicons-info-16:](https://support.1password.com/){ .card-link title=Documentazione}
     
-    ??? downloads
+    ??? download
     
         - [:simple-googleplay: Google Play](https://play.google.com/store/apps/details?id=com.onepassword.android)
         - [:simple-appstore: App Store](https://apps.apple.com/app/id1511601750?mt=8)
