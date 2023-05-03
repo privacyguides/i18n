@@ -101,7 +101,7 @@ Quando utilizza un'istanza di ProxiTok, assicurati di leggere l'informativa sull
     Per impostazione predefinita, FreeTube blocca tutti gli annunci pubblicitari di YouTube. Inoltre, è possibile integrare [SponsorBlock](https://sponsor.ajay.app) per saltare i segmenti sponsorizzati dei video.
     
     [:octicons-home-16: Pagina principale](https://freetubeapp.io){ .md-button .md-button--primary }
-    [:octicons-eye-16:](https://freetubeapp.io/privacy.php){ .card-link title="Informativa sulla privacy" }
+    [:octicons-eye-16:](https://freetubeapp.io/privacy.php){ .card-link title="Politica sulla privacy" }
     [:octicons-info-16:](https://docs.freetubeapp.io/){ .card-link title=Documentazione}
     [:octicons-code-16:](https://github.com/FreeTubeApp/FreeTube){ .card-link title="Codice sorgente" }
     [:octicons-heart-16:](https://liberapay.com/FreeTube){ .card-link title=Contribuisci }
@@ -127,7 +127,7 @@ Quando utilizza un'istanza di ProxiTok, assicurati di leggere l'informativa sull
     
     Prima di poter utilizzare Yattee per guardare YouTube, è necessario effettuare alcuni [passaggi extra](https://gonzoknows.com/posts/Yattee/), a causa delle restrizioni dell'App Store.
     
-    [:octicons-home-16: Homepage](https://github.com/yattee/yattee){ .md-button .md-button--primary }
+    [:octicons-home-16: Pagina Principale](https://github.com/yattee/yattee){ .md-button .md-button--primary }
     [:octicons-eye-16:](https://r.yattee.stream/docs/privacy.html){ .card-link title="Politica sulla Privacy" }
     [:octicons-info-16:](https://github.com/yattee/yattee/wiki){ .card-link title=Documentazione}
     [:octicons-code-16:](https://github.com/yattee/yattee){ .card-link title="Codice Sorgente" }
@@ -181,7 +181,7 @@ Per impostazione predefinita, LibreTube blocca tutti gli annunci pubblicitari di
     L'elenco delle iscrizioni e delle playlist viene salvato localmente sul dispositivo Android.
     
     [:octicons-home-16: Pagina principale](https://newpipe.net){ .md-button .md-button--primary }
-    [:octicons-eye-16:](https://newpipe.net/legal/privacy){ .card-link title="Informativa sulla privacy" }
+    [:octicons-eye-16:](https://newpipe.net/legal/privacy){ .card-link title="Politica sulla privacy" }
     [:octicons-info-16:](https://teamnewpipe.github.io/documentation/){ .card-link title=Documentazione}
     [:octicons-code-16:](https://github.com/TeamNewPipe/NewPipe){ .card-link title="Codice sorgente" }
     [:octicons-heart-16:](https://newpipe.net/donate/){ .card-link title=Contribuisci }
@@ -207,7 +207,7 @@ Per impostazione predefinita, LibreTube blocca tutti gli annunci pubblicitari di
     
     Esistono diverse istanze pubbliche, alcune delle quali supportano i servizi onion di [Tor](https://www.torproject.org).
     
-    [:octicons-home-16: Pagina principale](https://invidious.io){ .md-button .md-button--primary }
+    [:octicons-home-16: Pagina Principale](https://invidious.io){ .md-button .md-button--primary }
     [:octicons-server-16:](https://instances.invidious.io){ .card-link title="Istanze pubbliche"}
     [:octicons-info-16:](https://docs.invidious.io/){ .card-link title=Documentazione}
     [:octicons-code-16:](https://github.com/iv-org/invidious){ .card-link title="Codice sorgente" }

@@ -140,8 +140,8 @@ Questi gestori di password sincronizzano le password su un server cloud per faci
     
     **Bitwarden** è un gestore di password gratuito e open-source. L'obiettivo è quello di risolvere i problemi di gestione delle password per individui, team e organizzazioni aziendali. Bitwarden è una delle soluzioni migliori e più sicure per memorizzare tutti i vostri login e password, mantenendoli comodamente sincronizzati tra tutti i vostri dispositivi.
     
-    [:octicons-home-16: Pagina principale](https://bitwarden.com){ .md-button .md-button--primary }
-    [:octicons-eye-16:](https://bitwarden.com/privacy){ .card-link title="Informativa sulla privacy" }
+    [:octicons-home-16: Pagina Principale](https://bitwarden.com){ .md-button .md-button--primary }
+    [:octicons-eye-16:](https://bitwarden.com/privacy){ .card-link title="Politica sulla privacy" }
     [:octicons-info-16:](https://bitwarden.com/help/){ .card-link title=Documentazione}
     [:octicons-code-16:](https://github.com/bitwarden){ .card-link title="Codice sorgente" }
     
@@ -204,7 +204,7 @@ Un vantaggio di 1Password rispetto a Bitwarden è il supporto di prima classe pe
     **Psono** è un gestore di password gratuito e open-source sviluppato in Germania, con particolare attenzione alla gestione delle password per i team. Psono supporta la condivisione sicura di password, file, segnalibri ed email. Tutti i segreti sono protetti da una password principale.
     
     [:octicons-home-16: Pagina principale](https://psono.com){ .md-button .md-button--primary }
-    [:octicons-eye-16:](https://psono.com/privacy-policy){ .card-link title="Informativa sulla privacy" }
+    [:octicons-eye-16:](https://psono.com/privacy-policy){ .card-link title="Politica sulla privacy" }
     [:octicons-info-16:](https://doc.psono.com){ .card-link title=Documentazione}
     [:octicons-code-16:](https://gitlab.com/psono){ .card-link title="Codice sorgente" }
     

@@ -107,8 +107,8 @@ Proton Mail non offre una funzione di eredità digitale.
     
     **Mailbox.org** è un servizio di posta elettronica che si concentra sull'essere sicuro, privo di pubblicità e alimentato privatamente da energia ecologica al 100%. Mailbox.org è opera dal 2014 e ha sede a Berlino, in Germania. Gli account iniziano con 2 GB di spazio di archiviazione, che possono essere aumentati in base alle esigenze.
     
-    [:octicons-home-16: Pagina principale](https://mailbox.org){ .md-button .md-button--primary }
-    [:octicons-eye-16:](https://mailbox.org/en/data-protection-privacy-policy){ .card-link title="Informativa sulla privacy" }
+    [:octicons-home-16: Pagina Principale](https://mailbox.org){ .md-button .md-button--primary }
+    [:octicons-eye-16:](https://mailbox.org/en/data-protection-privacy-policy){ .card-link title="Politica sulla privacy" }
     [:octicons-info-16:](https://kb.mailbox.org/en/private){ .card-link title=Documentazione}
     
     ??? download
@@ -171,8 +171,8 @@ Questi provider archiviano le tue e-mail con una crittografia a conoscenza zero,
     
     **StartMail** è un servizio di posta elettronica incentrato sulla sicurezza e sulla privacy grazie all'uso della crittografia standard OpenPGP. StartMail è attiva dal 2014 e ha sede in Boulevard 11, Zeist, Paesi Bassi. Gli account partono da 10 GB. Viene offerto un periodo di prova di 30 giorni.
     
-    [:octicons-home-16: Pagina principale](https://www.startmail.com/){ .md-button .md-button--primary }
-    [:octicons-eye-16:](https://www.startmail.com/en/privacy/){ .card-link title="Informativa sulla privacy" }
+    [:octicons-home-16: Pagina Principale](https://www.startmail.com/){ .md-button .md-button--primary }
+    [:octicons-eye-16:](https://www.startmail.com/en/privacy/){ .card-link title="Politica sulla privacy" }
     [:octicons-info-16:](https://support.startmail.com){ .card-link title=Documentazione}
     
     ??? download
@@ -219,8 +219,8 @@ StartMail non offre una funzione di eredità digitale.
     
     **Tutanota** è un servizio di posta elettronica incentrato sulla sicurezza e sulla privacy attraverso l'uso della crittografia. Tutanota è operativa dal **2011** e ha sede ad Hannover, in Germania. Gli account iniziano con 1 GB di spazio di archiviazione con il piano gratuito.
     
-    [:octicons-home-16: Pagina principale](https://tutanota.com){ .md-button .md-button--primary }
-    [:octicons-eye-16:](https://tutanota.com/privacy){ .card-link title="Informativa sulla privacy" }
+    [:octicons-home-16: Pagina Principale](https://tutanota.com){ .md-button .md-button--primary }
+    [:octicons-eye-16:](https://tutanota.com/privacy){ .card-link title="Politica sulla privacy" }
     [:octicons-info-16:](https://tutanota.com/faq){ .card-link title=Documentazione}
     [:octicons-code-16:](https://github.com/tutao/tutanota){ .card-link title="Codice sorgente" }
     [:octicons-heart-16:](https://tutanota.com/community/){ .card-link title=Contribuisci }
@@ -306,8 +306,8 @@ L'utilizzo di un servizio di aliasing richiede la fiducia del provider di posta 
     
     **AnonAddy** consente di creare gratuitamente 20 alias di dominio su un dominio condiviso, oppure alias "standard" illimitati, meno anonimi.
     
-    [:octicons-home-16: Pagina principale](https://anonaddy.com){ .md-button .md-button--primary }
-    [:octicons-eye-16:](https://anonaddy.com/privacy/){ .card-link title="Informativa sulla Privacy" }
+    [:octicons-home-16: Pagina Principale](https://anonaddy.com){ .md-button .md-button--primary }
+    [:octicons-eye-16:](https://anonaddy.com/privacy/){ .card-link title="Politica sulla Privacy" }
     [:octicons-info-16:](https://app.anonaddy.com/docs/){ .card-link title=Documentazione}
     [:octicons-code-16:](https://github.com/anonaddy){ .card-link title="Codice sorgente" }
     [:octicons-heart-16:](https://anonaddy.com/donate/){ .card-link title=Contribuisci}
@@ -337,8 +337,8 @@ Funzionalità gratuite degne di nota:
     
     **SimpleLogin** è un servizio gratuito che fornisce alias di posta elettronica su una varietà di nomi di dominio condivisi e, facoltativamente, fornisce funzionalità a pagamento come alias illimitati e domini personalizzati.
     
-    [:octicons-home-16: Pagina principale](https://simplelogin.io){ .md-button .md-button--primary }
-    [:octicons-eye-16:](https://simplelogin.io/privacy/){ .card-link title="Informativa sulla Privacy" }
+    [:octicons-home-16: Pagina Principale](https://simplelogin.io){ .md-button .md-button--primary }
+    [:octicons-eye-16:](https://simplelogin.io/privacy/){ .card-link title="Politica sulla Privacy" }
     [:octicons-info-16:](https://simplelogin.io/docs/){ .card-link title=Documentazione}
     [:octicons-code-16:](https://github.com/simple-login){ .card-link title="Codice sorgente" }
     
@@ -374,7 +374,7 @@ Gli amministratori di sistema avanzati possono prendere in considerazione la pos
     
     **Mailcow** è un server di posta più avanzato, perfetto per chi ha un po' più di esperienza con Linux. Ha tutto il necessario in un container Docker: un server di posta con supporto DKIM, monitoraggio antivirus e spam, webmail e ActiveSync con SOGo e amministrazione basata sul web con supporto 2FA.
     
-    [:octicons-home-16: Pagina principale](https://mailcow.email){ .md-button .md-button--primary }
+    [:octicons-home-16: Pagina Principale](https://mailcow.email){ .md-button .md-button--primary }
     [:octicons-info-16:](https://mailcow.github.io/mailcow-dockerized-docs/){ .card-link title=Documentazione}
     [:octicons-code-16:](https://github.com/mailcow/mailcow-dockerized){ .card-link title="Codice sorgente" }
     [:octicons-heart-16:](https://www.servercow.de/mailcow?lang=en#sal){ .card-link title=Contribuisci }
@@ -385,7 +385,7 @@ Gli amministratori di sistema avanzati possono prendere in considerazione la pos
     
     **Mail-in-a-Box** è uno script di configurazione automatica per la distribuzione di un server di posta su Ubuntu. Il suo obiettivo è quello di rendere più semplice la creazione di un proprio server di posta.
     
-    [:octicons-home-16: Pagina principale](https://mailinabox.email){ .md-button .md-button--primary }
+    [:octicons-home-16: Pagina Principale](https://mailinabox.email){ .md-button .md-button--primary }
     [:octicons-info-16:](https://mailinabox.email/guide.html){ .card-link title=Documentazione}
     [:octicons-code-16:](https://github.com/mail-in-a-box/mailinabox){ .card-link title="Codice sorgente" }
 

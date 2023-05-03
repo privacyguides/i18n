@@ -44,7 +44,7 @@ schema:
 
 Δεν πρέπει να μπερδεύεις την ιδιωτικότητα με τη μυστικότητα. Ξέρουμε τι συμβαίνει όσο είσαι στο μπάνιο, αλλά εξακολουθείς να κλείνεις την πόρτα. Αυτό συμβαίνει επειδή θέλεις ιδιωτικότητα, όχι μυστικότητα. **Όλοι** έχουν κάτι να προστατεύσουν. Η ιδιωτικότητα είναι κάτι που μας κάνει ανθρώπους.
 
-[:material-target-account: Common Internet Threats](basics/common-threats.md){ class="md-button md-button--primary" }
+[:material-book-outline: Why Privacy Matters](basics/why-privacy-matters.md){ class="md-button md-button--primary" }
 
 ## Τι πρέπει να κάνω;
 

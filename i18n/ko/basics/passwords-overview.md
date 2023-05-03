@@ -20,7 +20,7 @@ description: These are some tips and tricks on how to create the strongest passw
 
 All of our [recommended password managers](../passwords.md) include a built-in password generator that you can use.
 
-### Rotating Passwords
+### 비밀번호 변경
 
 You should avoid changing passwords that you have to remember (such as your password manager's master password) too often unless you have reason to believe it has been compromised, as changing it too often exposes you to the risk of forgetting it.
 

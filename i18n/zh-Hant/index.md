@@ -44,7 +44,7 @@ schema:
 
 別再把隱私和祕密混為一談 人人都知道浴室裏發生了什麼，但你還是把門關上。 這是因為您需要隱私，而不是保密。 **每個人**都有要保護的東西 隱私讓我們之所以為人
 
-[:material-target-account: 常見網際網路威脅](basics/common-threats.md){class = "md-button md-button--primary"}
+[:material-book-outline: 為什麼隱私很重要](basics/why-privacy-matters.md){ class="md-button md-button--primary" }
 
 ## 我該怎麼辦
 

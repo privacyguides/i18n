@@ -44,7 +44,7 @@ Tout comme le droit au mariage mixte, le droit de vote des femmes, la liberté d
 
 Il ne faut pas confondre la vie privée et le secret. Même si on sait ce qui se passe dans la salle de bain, vous fermez quand même la porte. C'est parce que vous voulez une vie privée, et non pas du secret. **Tout le monde** a quelque chose à protéger. La vie privée est quelque chose qui nous rend humains.
 
-[:material-target-account: Menaces Internet courantes](basics/common-threats.md){ class="md-button md-button--primary" }
+[:material-book-outline: Why Privacy Matters](basics/why-privacy-matters.md){ class="md-button md-button--primary" }
 
 ## Que dois-je faire ?
 

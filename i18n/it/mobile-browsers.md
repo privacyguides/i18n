@@ -51,11 +51,11 @@ Per Android, Firefox è meno sicuro delle alternative basate su Chromium: il mot
     
     **Brave Browser** include un content blocker integrato e [funzionalità di privacy](https://brave.com/privacy-features/), molte delle quali attive in modo predefinito.
     
-    Brave è sviluppato a partire dal progetto del browser web Chromium, quindi dovrebbe risultare familiare e avere problemi minimi di compatibilità con i siti web.
+    Brave è stato sviluppato utilizzando il progetto del browser Chromium, quindi dovrebbe risultarti familiare e avrai pochi problemi di compatibilità con i vari siti web.
     
     [:octicons-home-16: Pagina principale](https://brave.com/){ .md-button .md-button--primary }
     [:simple-torbrowser:](https://brave4u7jddbv7cyviptqjc7jusxh72uik7zt6adtckl5f4nwy2v72qd.onion){ .card-link title="Servizio Onion" }
-    [:octicons-eye-16:](https://brave.com/privacy/browser/){ .card-link title="Informativa sulla privacy" }
+    [:octicons-eye-16:](https://brave.com/privacy/browser/){ .card-link title="Politica sulla privacy" }
     [:octicons-info-16:](https://support.brave.com/){ .card-link title=Documentazione}
     [:octicons-code-16:](https://github.com/brave/brave-browser){ .card-link title="Codice sorgente" }
     
@@ -193,7 +193,7 @@ Se usi iCloud con la Protezione avanzata dei dati, consigliamo anche di controll
     AdGuard per iOS ha alcune funzionalità premium, ma il blocco di contenuti standard di Safari è gratuito.
     
     [:octicons-home-16: Pagina principale](https://adguard.com/en/adguard-ios/overview.html){ .md-button .md-button--primary }
-    [:octicons-eye-16:](https://adguard.com/privacy/ios.html){ .card-link title="Informativa sulla privacy" }
+    [:octicons-eye-16:](https://adguard.com/privacy/ios.html){ .card-link title="Politica sulla privacy" }
     [:octicons-info-16:](https://kb.adguard.com/ios){ .card-link title=Documentazione}
     [:octicons-code-16:](https://github.com/AdguardTeam/AdguardForiOS){ .card-link title="Codice sorgente" }
     

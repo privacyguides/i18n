@@ -222,7 +222,7 @@ Pixel 手機很容易安裝 GrapheneOS 只需依其 [網頁安裝程式](https:/
     ![Auditor logo](assets/img/android/auditor.svg#only-light){ align=right }
     ![Auditor logo](assets/img/android/auditor-dark.svg#only-dark){ align=right }
     
-    **Auditor** is an app which leverages hardware security features to provide device integrity monitoring by actively validating the identity of a device and the integrity of its operating system. Currently, it only works with GrapheneOS or the stock operating system for [supported devices](https://attestation.app/about#device-support).
+    **Auditor** 是一款利用硬體安全功能通過主動驗證設備身份及其作業系統的完整性來進行完整性監控的應用程式。 目前僅在 GrapheneOS 或 [支援設備](https://attestation.app/about#device-support)的庫存作業系統運行。
     
     [:octicons-home-16: Homepage](https://attestation.app){ .md-button .md-button--primary }
     [:octicons-eye-16:](https://attestation.app/privacy-policy){ .card-link title="Privacy Policy" }
@@ -238,9 +238,9 @@ Pixel 手機很容易安裝 GrapheneOS 只需依其 [網頁安裝程式](https:/
 
 Auditor 通過下列方式鑑證和入侵檢測。
 
-- Using a [Trust On First Use (TOFU)](https://en.wikipedia.org/wiki/Trust_on_first_use) model between an *auditor* and *auditee*, the pair establish a private key in the [hardware-backed keystore](https://source.android.com/security/keystore/) of the *Auditor*.
-- The *auditor* can either be another instance of the Auditor app or the [Remote Attestation Service](https://attestation.app).
-- The *auditor* records the current state and configuration of the *auditee*.
+- *審計者 * 和 *被審計對象*之間使用 [首次使用信任（TOFU）](https://en.wikipedia.org/wiki/Trust_on_first_use) 模式， Auditor *的硬體支援密鑰庫</a> 中對配建立私鑰。
+- *審計者* 可以是 Auditor 應用程式的另一個實例，或是 [遠程認證服務](https://attestation.app)。
+- *審計者* 記錄 *審計對象*當前的狀態和配置。
 - 如果在配對完成後發生篡改 *審計對象的作業系統* ，審計人員將意識到設備狀態和配置的變化。
 - 您會被提醒注意此一變化。
 
@@ -255,7 +255,7 @@ Auditor 通過下列方式鑑證和入侵檢測。
     ![Secure camera logo](assets/img/android/secure_camera.svg#only-light){ align=right }
     ![Secure camera logo](assets/img/android/secure_camera-dark.svg#only-dark){ align=right }
     
-    **Secure Camera** is a camera app focused on privacy and security which can capture images, videos and QR codes. CameraX vendor extensions (Portrait, HDR, Night Sight, Face Retouch, and Auto) are also supported on available devices.
+    **Secure Camera** 專注於隱私和安全的相機應用，可以捕捉圖像、影片和二維碼。 CameraX 供應商擴展（肖像、HDR、夜視、面部修飾和自動）也支持可用設備。
     
     [:octicons-repo-16: Repository](https://github.com/GrapheneOS/Camera){ .md-button .md-button--primary }
     [:octicons-info-16:](https://grapheneos.org/usage#camera){ .card-link title=Documentation}
@@ -268,17 +268,17 @@ Auditor 通過下列方式鑑證和入侵檢測。
         - [:simple-github: GitHub](https://github.com/GrapheneOS/Camera/releases)
         - [:material-cube-outline: GrapheneOS App Store](https://github.com/GrapheneOS/Apps/releases)
 
-Main privacy features include:
+主要隱私功能包括：
 
-- Auto removal of [Exif](https://en.wikipedia.org/wiki/Exif) metadata (enabled by default)
-- Use of the new [Media](https://developer.android.com/training/data-storage/shared/media) API, therefore [storage permissions](https://developer.android.com/training/data-storage) are not required
-- Microphone permission not required unless you want to record sound
+- 自動移除 [Exif](https://en.wikipedia.org/wiki/Exif) 中繼資料 (設預啟用)
+- 使用新的 [媒介](https://developer.android.com/training/data-storage/shared/media) API，因此不需要 [儲存權限](https://developer.android.com/training/data-storage)。
+- 除非需錄制聲音，否則無需麥克風權限。
 
 !!! 備註
 
-    Metadata is not currently deleted from video files but that is planned.
+    目前影片沒有刪除中繼資料，未來計畫要刪除。
     
-    The image orientation metadata is not deleted. If you enable location (in Secure Camera) that **won't** be deleted either. If you want to delete that later you will need to use an external app such as [ExifEraser](data-redaction.md#exiferaser).
+    圖片方向的中繼資料未刪除。 如果 ( Secure Camera) 開啟定位， 也 **不會** 被不會偵測到。 如果之後想刪除，必須使用外部應用如[ExifEraser](data-redaction.md#exiferaser)。
 
 ### 安全的 PDF 檢視器
 
@@ -287,7 +287,7 @@ Main privacy features include:
     ![Secure PDF Viewer logo](assets/img/android/secure_pdf_viewer.svg#only-light){ align=right }
     ![Secure PDF Viewer logo](assets/img/android/secure_pdf_viewer-dark.svg#only-dark){ align=right }
     
-    **Secure PDF Viewer** is a PDF viewer based on [pdf.js](https://en.wikipedia.org/wiki/PDF.js) that doesn't require any permissions. The PDF is fed into a [sandboxed](https://en.wikipedia.org/wiki/Sandbox_(software_development)) [webview](https://developer.android.com/guide/webapps/webview). This means that it doesn't require permission directly to access content or files.
+    **Secure PDF Viewer** 是基於 [pdf.js](https://en.wikipedia.org/wiki/PDF.js)的PDF 瀏覽器，無需任何權限。 此 PDF 被送入[sandboxed](https://en.wikipedia.org/wiki/Sandbox_(software_development))[webview](https://developer.android.com/guide/webapps/webview)。 這意味著它不需要權限就能直接存取內容或檔案。
     
     [內容安全政策](https://en.wikipedia.org/wiki/Content_Security_Policy)用來強制要求 WebView 內的JavaScript 和造型屬性需全為靜態內容。
     
@@ -305,7 +305,7 @@ Main privacy features include:
 
 ### GrapheneOS App Store
 
-GrapheneOS 應用商店可在 [GitHub](https://github.com/GrapheneOS/Apps/releases)找到。 It supports Android 12 and above and is capable of updating itself. The app store has standalone applications built by the GrapheneOS project such as the [Auditor](https://attestation.app/), [Camera](https://github.com/GrapheneOS/Camera), and [PDF Viewer](https://github.com/GrapheneOS/PdfViewer). If you are looking for these applications, we highly recommend that you get them from GrapheneOS's app store instead of the Play Store, as the apps on their store are signed by the GrapheneOS's project own signature that Google does not have access to.
+GrapheneOS 應用商店可在 [GitHub](https://github.com/GrapheneOS/Apps/releases)找到。 它支持Android 12 以上版本，並且能夠自行更新。 該應用商店有 GrapheneOS 專案的獨立應用建制，如 [Auditor](https://attestation.app/)、[Camera](https://github.com/GrapheneOS/Camera)、 [PDF Viewer](https://github.com/GrapheneOS/PdfViewer)。 如果正在尋找這些應用程式，強烈建議從 GrapheneOS 應用程式商店而不是 Google Play 商店獲得，因為 GrapheneOS 會對自家商店的應用程式簽署 Google 無法訪問的簽名。
 
 ### Aurora Store
 
@@ -315,7 +315,7 @@ Google Play商店需要登錄 Google 帳戶，這對隱私來說不是很好。 
 
     ![Aurora Store logo](assets/img/android/aurora-store.webp){ align=right }
     
-    **Aurora Store** is a Google Play Store client which does not require a Google Account, Google Play Services, or microG to download apps.
+    **Aurora Store** 為 Google Play Store 客戶端，其無須 Google 帳戶 或 microG 即可下戴應用。
     
     [:octicons-home-16: Homepage](https://auroraoss.com/){ .md-button .md-button--primary }
     [:octicons-code-16:](https://gitlab.com/AuroraOSS/AuroraStore){ .card-link title="Source Code" }
@@ -324,35 +324,35 @@ Google Play商店需要登錄 Google 帳戶，這對隱私來說不是很好。 
     
         - [:simple-gitlab: GitLab](https://gitlab.com/AuroraOSS/AuroraStore/-/releases)
 
-Aurora Store不允許其匿名帳戶下載付費應用程式。 You can optionally log in with your Google account with Aurora Store to download apps you have purchased, which does give access to the list of apps you've installed to Google, however you still benefit from not requiring the full Google Play client and Google Play Services or microG on your device.
+Aurora Store不允許其匿名帳戶下載付費應用程式。 您可以選擇使用 Google 帳戶登錄 Aurora Store 來下載所購買的應用程式，這確實可以訪問您的 Google 安裝應用程式列表，但是設備仍可無需完整的Google Play 客戶端、Google Play 服務或microG。
 
-### Manually with RSS Notifications
+### 手動使用 RSS 通知
 
-For apps that are released on platforms like GitHub and GitLab, you may be able to add an RSS feed to your [news aggregator](/news-aggregators) that will help you keep track of new releases.
+在GitHub和GitLab 等平台上發布的應用程式，也可在 [新聞聚合器](/news-aggregators) ，添加一個 RSS源，有助於追踪新版本消息。
 
 ![RSS APK](./assets/img/android/rss-apk-light.png#only-light) ![RSS APK](./assets/img/android/rss-apk-dark.png#only-dark) ![APK Changes](./assets/img/android/rss-changes-light.png#only-light) ![APK Changes](./assets/img/android/rss-changes-dark.png#only-dark)
 
 #### GitHub
 
-On GitHub, using [Secure Camera](#secure-camera) as an example, you would navigate to its [releases page](https://github.com/GrapheneOS/Camera/releases) and append `.atom` to the URL:
+在 GitHub，以 [Secure Camera](#secure-camera) 為例，可以導航到它的 [發布頁](https://github.com/GrapheneOS/Camera/releases) ，並在URL 最後加 `.atom`。
 
 `https://github.com/GrapheneOS/Camera/releases.atom`
 
 #### GitLab
 
-On GitLab, using [Aurora Store](#aurora-store) as an example, you would navigate to its [project repository](https://gitlab.com/AuroraOSS/AuroraStore) and append `/-/tags?format=atom` to the URL:
+在GitLab ，以 [Aurora Store](#aurora-store) 為例，可以導航到其 [專案存取庫](https://gitlab.com/AuroraOSS/AuroraStore) ，並在URL 最後加 `/-/tags?format=atom`。
 
 `https://gitlab.com/AuroraOSS/AuroraStore/-/tags?format=atom`
 
 #### 查驗 APK 指紋碼
 
-If you download APK files to install manually, you can verify their signature with the [`apksigner`](https://developer.android.com/studio/command-line/apksigner) tool, which is a part of Android [build-tools](https://developer.android.com/studio/releases/build-tools).
+如果想下載 APK 檔案進行手動安裝，可用 [`apksigner`](https://developer.android.com/studio/command-line/apksigner) 工具驗證其簽名，這是 Android [build-tools](https://developer.android.com/studio/releases/build-tools)的一部分。
 
-1. Install [Java JDK](https://www.oracle.com/java/technologies/downloads/).
+1. 安裝 [Java JDK](https://www.oracle.com/java/technologies/downloads/)。
 
-2. Download the [Android Studio command line tools](https://developer.android.com/studio#command-tools).
+2. 下載 [Android Studio 命令列工具](https://developer.android.com/studio#command-tools).
 
-3. Extract the downloaded archive:
+3. 解壓縮下載的存檔:
 
     ```bash
     unzip commandlinetools-*.zip
@@ -360,13 +360,13 @@ If you download APK files to install manually, you can verify their signature wi
     ./bin/sdkmanager --sdk_root=./ "build-tools;29.0.3"
     ```
 
-4. Run the signature verification command:
+4. 執行簽名驗證指令:
 
     ```bash
     ./build-tools/29.0.3/apksigner verify --print-certs ../Camera-37.apk
     ```
 
-5. The resulting hashes can then be compared with another source. Some developers such as Signal [show the fingerprints](https://signal.org/android/apk/) on their website.
+5. 產生的雜湊結果可與另一個來源進行比對。 某些開發者例如 Signal 在會其官網顥示其[指紋碼](https://signal.org/android/apk/)。
 
     ```bash
     Signer #1 certificate DN: CN=GrapheneOS
@@ -379,13 +379,13 @@ If you download APK files to install manually, you can verify their signature wi
 
 ![F-Droid 圖標](assets/img/android/f-droid.svg){ align=right width=120px }
 
-==We do **not** currently recommend F-Droid as a way to obtain apps.== F-Droid is often recommended as an alternative to Google Play, particularly in the privacy community. The option to add third-party repositories and not be confined to Google's walled garden has led to its popularity. F-Droid 另外還有 [可複制建構](https://f-droid.org/en/docs/Reproducible_Builds/) ，用於一些應用程式，並致力於自由和開源軟體。 然而，官方F-Droid 有 [不少問題](https://privsec.dev/posts/android/f-droid-security-issues/)包括客戶端應用、 品質控制、建置方式、簽署和交付套件等等。
+==我們 **目前不推薦** 用 F-Droid 來獲取應用程式。== F-Droid 經常被推薦為 Google Play 替代品，特別是隱私社區。 可添加第三方資源庫的選項與不被局限在 Google 圍牆花園，導致了它的流行。 F-Droid 另外還有 [可複制建構](https://f-droid.org/en/docs/Reproducible_Builds/) ，用於一些應用程式，並致力於自由和開源軟體。 然而，官方F-Droid 有 [不少問題](https://privsec.dev/posts/android/f-droid-security-issues/)包括客戶端應用、 品質控制、建置方式、簽署和交付套件等等。
 
 由於其構制應用程式的程序，F-Droid 官方資源庫中的應用程式經常在更新上落後。 F-Droid 維護者在用自己的密鑰簽署應用程式時也會重複使用套件 ID，此作法並不理想，因為這給予 F-Droid 團隊終極信任。
 
 其他流行的第三方資源庫，如 [IzzyOnDroid](https://apt.izzysoft.de/fdroid/) ，緩解一些擔憂。 IzzyOnDroid 存儲庫直接從 GitHub 拉取構建，是開發者自己存儲庫的下一個最好的東西。 然而，這不是我們所推薦的，當應用程式進入 F-droid 主倉庫時，通常 [就會從該倉庫刪除](https://github.com/vfsfitvnm/ViMusic/issues/240#issuecomment-1225564446)。 雖然可以理解（因為該特定倉庫的作用是應用程式在為 F-Droid 主倉庫接受之前託管工作），它可能會讓所安裝的應用程式不再收到更新。
 
-That said, the [F-Droid](https://f-droid.org/en/packages/) and [IzzyOnDroid](https://apt.izzysoft.de/fdroid/) repositories are home to countless apps, so they can be a useful tool to search for and discover open-source apps that you can then download through Play Store, Aurora Store, or by getting the APK directly from the developer. 重要的是要記住，這些資源庫裏一些應用程式已多年未更新，可能依賴於不支援的程式庫等，構成潛在的安全風險。 使用這種方法尋找新的應用程式時，應該善用最佳判斷。
+也就是說， [F-droid](https://f-droid.org/en/packages/) 和 [IzzyOnDroid](https://apt.izzysoft.de/fdroid/) 存取庫有無數應用程式，所以它們成為搜索和發現開源應用程式的有用工具，然後通過 Play Store、Aurora Store 或直接從開發者獲得 APK 下載。 重要的是要記住，這些資源庫裏一些應用程式已多年未更新，可能依賴於不支援的程式庫等，構成潛在的安全風險。 使用這種方法尋找新的應用程式時，應該善用最佳判斷。
 
 !!! 備註
 
@@ -404,11 +404,11 @@ That said, the [F-Droid](https://f-droid.org/en/packages/) and [IzzyOnDroid](htt
 - 必須是開源軟體。
 - 必須支援 bootloader 鎖定與自定 AVB 密鑰支援。
 - Android 主要系統發布後的 1個月內接受更新。
-- Must receive Android feature updates (minor version) within 0-14 days of release.
-- Must receive regular security patches within 0-5 days of release.
-- Must **not** be "rooted" out of the box.
-- Must **not** enable Google Play Services by default.
-- Must **not** require system modification to support Google Play Services.
+- 必须在发布后0-14天内收到安卓功能更新（小版本）。
+- 必須在發布後 5 天內收到定期安全補丁。
+- 必須 **不可打破常規地** root 。
+- 必須**不要**預設啟用 Google Play 服務。
+- 必須 **不用** 系統調配以支援 Google Play 服務。
 
 ### 裝置
 

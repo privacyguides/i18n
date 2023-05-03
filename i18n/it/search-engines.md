@@ -24,9 +24,9 @@ Considera l'utilizzo di un [VPN](vpn.md) o di [Tor](https://www.torproject.org/)
     
     Suggeriamo di disabilitare l'opzione [Anonymous usage metrics](https://search.brave.com/help/usage-metrics) nelle impostazioni, che è attiva di default.
     
-    [:octicons-home-16: Pagina principale](https://search.brave.com/){ .md-button .md-button--primary }
+    [:octicons-home-16: Pagina Principale](https://search.brave.com/){ .md-button .md-button--primary }
     [:simple-torbrowser:](https://search.brave4u7jddbv7cyviptqjc7jusxh72uik7zt6adtckl5f4nwy2v72qd.onion){ .card-link title="Servizio Onion" }
-    [:octicons-eye-16:](https://search.brave.com/help/privacy-policy){ .card-link title="Informativa sulla privacy" }
+    [:octicons-eye-16:](https://search.brave.com/help/privacy-policy){ .card-link title="Politica sulla privacy" }
     [:octicons-info-16:](https://search.brave.com/help){ .card-link title=Documentazione}
 
 Brave Search ha sede negli Stati Uniti. La loro[informativa sulla privacy](https://search.brave.com/help/privacy-policy) dichiara che raccolgono dati aggregati, i quali includono il sistema operativo e il browser in utilizzo, ma nessuna informazione d'identificazione personale. Gli indirizzi IP sono temporaneamente processati, ma non conservati.
@@ -41,9 +41,9 @@ Brave Search ha sede negli Stati Uniti. La loro[informativa sulla privacy](https
     
     DuckDuckGo è il motore di ricerca predefinito del Tor Browser ed è una delle poche opzioni disponibili sul browser Safari di Apple.
     
-    [:octicons-home-16: Pagina principale](https://duckduckgo.com){ .md-button .md-button--primary }
+    [:octicons-home-16: Pagina Principale](https://duckduckgo.com){ .md-button .md-button--primary }
     [:simple-torbrowser:](https://duckduckgogg42xjoc72x3sjasowoarfbgcmvfimaftt6twagswzczad.onion){ .card-link title="Servizio Onion" }
-    [:octicons-eye-16:](https://duckduckgo.com/privacy){ .card-link title="Informativa sulla privacy" }
+    [:octicons-eye-16:](https://duckduckgo.com/privacy){ .card-link title="Politica sulla privacy" }
     [:octicons-info-16:](https://help.duckduckgo.com/){ .card-link title=Documentazione}
 
 DuckDuckGo ha sede negli Stati Uniti. La loro[informativa della privacy](https://duckduckgo.com/privacy) dichiara che **raccolgono** le tue ricerche per migliorare il prodotto, ma non registrano il tuo indirizzo IP o qualsiasi altra informazione d'identificazione personale.
@@ -58,9 +58,9 @@ DuckDuckGo offre altre [due versioni](https://help.duckduckgo.com/features/non-j
     
     **SearXNG** è un meta-motore di ricerca open source e self-hostable, che aggrega risultati di altri motore di ricerca, ma senza raccogliere alcuna informazione a sua volta. È un fork attivamente mantenuto di [SearX](https://github.com/searx/searx).
     
-    [:octicons-home-16: Pagina principale](https://searxng.org){ .md-button .md-button--primary }
-    [:octicons-server-16:](https://searx.space/){ .card-link title="Istanze pubbliche"}
-    [:octicons-code-16:](https://github.com/searxng/searxng){ .card-link title="Codice sorgente" }
+    [:octicons-home-16: Pagina Principale](https://searxng.org){ .md-button .md-button--primary }
+    [:octicons-server-16:](https://searx.space/){ .card-link title="Istanze Pubbliche"}
+    [:octicons-code-16:](https://github.com/searxng/searxng){ .card-link title="Codice Sorgente" }
 
 SearXNG è un proxy tra l'utente e i motori di ricerca che aggrega. Le tue stringhe di ricerca vengono inviate a tutti i motori dai quali SearXNG ottiene i suoi risultati.
 
@@ -77,8 +77,8 @@ Quando utilizzi una istanza di SearXNG, ricordati di leggere la rispettiva infor
     
     **Startpage** è un motore di ricerca privato noto per riportare risultati di ricerca di Google.  Il fiore all'occhiello di Startpage è la [Anonymous View](https://www.startpage.com/en/anonymous-view/), che si sforza di standardizzare l'attività degli utenti in modo da rendere più difficile l'identificazione univoca. Questa funzione può essere utile per nascondere [alcune](https://support.startpage.com/hc/en-us/articles/4455540212116-The-Anonymous-View-Proxy-technical-details) caratteristiche della rete e del browser. A differenza di quanto suggerisce il nome, non ci si deve affidare a questa funzione per ottenere l'anonimato. Se cerchi l'anonimato, utilizzate invece il [Tor Browser](tor.md#tor-browser).
     
-    [:octicons-home-16: Pagina principale](https://www.startpage.com){ .md-button .md-button--primary }
-    [:octicons-eye-16:](https://www.startpage.com/en/privacy-policy){ .card-link title="Informativa sulla privacy" }
+    [:octicons-home-16: Pagina Principale](https://www.startpage.com){ .md-button .md-button--primary }
+    [:octicons-eye-16:](https://www.startpage.com/en/privacy-policy){ .card-link title="Politica sulla Privacy" }
     [:octicons-info-16:](https://support.startpage.com/hc/en-us/categories/4481917470356-Startpage-Search-Engine){ .card-link title=Documentazione}
 
 !!! warning

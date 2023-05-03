@@ -19,8 +19,8 @@ Se stai attualmente utilizzando un'applicazione come Evernote, Google Keep o Mic
     
     **Joplin** è un'applicazione gratuita, open-source e dotata di tutte le funzionalità per prendere appunti e per le attività da svolgere, in grado di gestire un gran numero di note markdown organizzate in taccuini e tag. Offre E2EE e può sincronizzarsi con Nextcloud, Dropbox e altro ancora. Offre anche la possibilità di importare facilmente note da Evernote e note in testo semplice.
     
-    [:octicons-home-16: Pagina principale](https://joplinapp.org/){ .md-button .md-button--primary }
-    [:octicons-eye-16:](https://joplinapp.org/privacy/){ .card-link title="Informativa sulla privacy" }
+    [:octicons-home-16: Pagina Principale](https://joplinapp.org/){ .md-button .md-button--primary }
+    [:octicons-eye-16:](https://joplinapp.org/privacy/){ .card-link title="Politica sulla privacy" }
     [:octicons-info-16:](https://joplinapp.org/help/){ .card-link title=Documentazione}
     [:octicons-code-16:](https://github.com/laurent22/joplin){ .card-link title="Codice sorgente" }
     [:octicons-heart-16:](https://joplinapp.org/donate/){ .card-link title=Contribuisci }
@@ -46,8 +46,8 @@ Joplin non supporta la protezione con password/PIN per [l'applicazione stessa o 
     
     **Standard Notes** è un'applicazione per appunti semplice e privata che rende i tuoi appunti facili e disponibili ovunque tu sia. È dotato di E2EE su ogni piattaforma e di una potente esperienza desktop con temi ed editor personalizzati. È stato anche [sottoposto a ispezione indipendente (PDF)](https://s3.amazonaws.com/standard-notes/security/Report-SN-Audit.pdf).
     
-    [:octicons-home-16: Pagina principale](https://standardnotes.com){ .md-button .md-button--primary }
-    [:octicons-eye-16:](https://standardnotes.com/privacy){ .card-link title="Informativa sulla privacy" }
+    [:octicons-home-16: Pagina Principale](https://standardnotes.com){ .md-button .md-button--primary }
+    [:octicons-eye-16:](https://standardnotes.com/privacy){ .card-link title="Politica sulla privacy" }
     [:octicons-info-16:](https://standardnotes.com/help){ .card-link title=Documentazione}
     [:octicons-code-16:](https://github.com/standardnotes){ .card-link title="Codice sorgente" }
     [:octicons-heart-16:](https://standardnotes.com/donate){ .card-link title=Contribuisci }
@@ -70,7 +70,12 @@ Joplin non supporta la protezione con password/PIN per [l'applicazione stessa o 
     
     **Org-mode** è una [major mode](https://www.gnu.org/software/emacs/manual/html_node/elisp/Major-Modes.html) per GNU Emacs. Org-mode serve per prendere appunti, mantenere elenchi TODO, pianificare progetti e scrivere documenti con un sistema di testo semplice rapido ed efficace.
     
-    La sincronizzazione è possibile con gli strumenti di [sincronizzazione dei file](file-sharing.md#file-sync). download
+    [:octicons-home-16: Pagina Principale](https://crypt.ee){ .md-button .md-button--primary }
+    [:octicons-eye-16:](https://crypt.ee/privacy){ .card-link title="Politica sulla Privacy" }
+    [:octicons-info-16:](https://crypt.ee/help){ .card-link title=Documentazione}
+    [:octicons-code-16:](https://github.com/cryptee){ .card-link title="Codice Sorgente" }
+    
+    ??? download
     
         - [:octicons-globe-16: PWA](https://crypt.ee/download)
 
@@ -86,10 +91,10 @@ Cryptee offre 100 MB di spazio di archiviazione gratuito, con opzioni a pagament
     
     **Org-mode** è una [modalità principale](https://www.gnu.org/software/emacs/manual/html_node/elisp/Major-Modes.html) per GNU Emacs. Org-mode serve per prendere appunti, gestire elenchi di cose da fare, pianificare progetti e scrivere documenti con un sistema di testo semplice rapido ed efficace. La sincronizzazione è possibile con gli strumenti di [sincronizzazione dei file](file-sharing.md#file-sync).
     
-    [:octicons-home-16: Homepage](https://orgmode.org){ .md-button .md-button--primary }
+    [:octicons-home-16: Pagina Principale](https://orgmode.org){ .md-button .md-button--primary }
     [:octicons-info-16:](https://orgmode.org/manuals.html){ .card-link title=Documentazione}
     [:octicons-code-16:](https://git.savannah.gnu.org/cgit/emacs/org-mode.git){ .card-link title="Codice sorgente" }
-    [:octicons-heart-16:](https://liberapay.com/bzg){ .card-link title=Contributo }
+    [:octicons-heart-16:](https://liberapay.com/bzg){ .card-link title=Contribuisci }
 
 ## Criteri
 

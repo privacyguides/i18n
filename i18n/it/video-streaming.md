@@ -17,8 +17,8 @@ Il rischio principale quando si usa una piattaforma di streaming video è che le
     
     **Il client desktop di LBRY** consente lo streaming di video dalla rete LBRY e memorizza l'elenco delle iscrizioni nel proprio portafoglio LBRY.
     
-    [:octicons-home-16: Pagina principale](https://lbry.com){ .md-button .md-button--primary }
-    [:octicons-eye-16:](https://lbry.com/privacypolicy){ .card-link title="Informativa sulla privacy" }
+    [:octicons-home-16: Pagina Principale](https://lbry.com){ .md-button .md-button--primary }
+    [:octicons-eye-16:](https://lbry.com/privacypolicy){ .card-link title="Politica sulla privacy" }
     [:octicons-info-16:](https://lbry.com/faq){ .card-link title=Documentazione}
     [:octicons-code-16:](https://github.com/lbryio/lbry-desktop){ .card-link title="Codice sorgente" }
     

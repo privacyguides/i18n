@@ -44,7 +44,7 @@ schema:
 
 Не варто плутати конфіденційність із таємністю. Ми знаємо, що відбувається у ванній, але ви все одно зачиняєте двері. Це тому, що ви хочете конфіденційності, а не таємності. **Кожному** є що захищати. Конфіденційність - це щось, що робить нас людьми.
 
-[:material-target-account: Common Internet Threats](basics/common-threats.md){ class="md-button md-button--primary" }
+[:material-book-outline: Why Privacy Matters](basics/why-privacy-matters.md){ class="md-button md-button--primary" }
 
 ## Що мені робити?
 

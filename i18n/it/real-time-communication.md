@@ -24,9 +24,9 @@ Questi messenger sono ideali per proteggere le tue comunicazioni sensibili.
     
     Tutte le comunicazioni sono E2EE. Le liste di contatti è crittografata usando il tuo PIN Signal e il server non può accedervi. Anche i profili personali sono crittografati e condivisi solo con i contatti con cui parli.
     
-    [:octicons-home-16: Pagina principale](https://signal.org/){ .md-button .md-button--primary }
-    [:octicons-eye-16:](https://signal.org/legal/#privacy-policy){ .card-link title="Informativa sulla privacy" }
-    [:octicons-info-16:](https://support.signal.org/hc/en-us){ .card-link title=Documentazione}
+    [:octicons-home-16: Pagina Principale](https://signal.org/){ .md-button .md-button--primary }
+    [:octicons-eye-16:](https://signal.org/legal/#privacy-policy){ .card-link title="Politica sulla privacy" }
+    [:octicons-info-16:](https://support.signal.org/hc/it){ .card-link title=Documentazione}
     [:octicons-code-16:](https://github.com/signalapp){ .card-link title="Codice sorgente" }
     [:octicons-heart-16:](https://signal.org/donate/){ .card-link title=Contribuisci }
     
@@ -55,8 +55,8 @@ Abbiamo alcuni suggerimenti aggiuntivi per configurare e rendere più sicuro Sig
     
     **SimpleX** Chat è un'app di messaggistica istantanea decentralizzata che non dipende da alcun identificatore univoco, come numeri di telefono o nomi utente. Gli utenti di SimpleX Chat possono scansionare un codice QR o cliccare un link di invito per partecipare alle conversazioni di gruppo.
     
-    [:octicons-home-16: Pagina principale](https://simplex.chat){ .md-button .md-button--primary }
-    [:octicons-eye-16:](https://github.com/simplex-chat/simplex-chat/blob/stable/PRIVACY.md){.card-link title="Informativa sulla privacy" }
+    [:octicons-home-16: Pagina Principale](https://simplex.chat){ .md-button .md-button--primary }
+    [:octicons-eye-16:](https://github.com/simplex-chat/simplex-chat/blob/stable/PRIVACY.md){.card-link title="Politica sulla privacy" }
     [:octicons-info-16:](https://github.com/simplex-chat/simplex-chat/tree/stable/docs){.card-link title=Documentazione}
     [:octicons-code-16:](https://github.com/simplex-chat){.card-link title="Codice sorgente" }
     
@@ -117,8 +117,8 @@ Briar supporta la Perfect Forward Secrecy usando l'[Handshake](https://code.bria
     
     I messaggi e i file condivisi nelle stanze private (quelle che richiedono un invito) sono E2EE in modo predefinito, così come le chiamate e videochiamate tra due persone.
     
-    [:octicons-home-16: Pagina principale](https://element.io/){ .md-button .md-button--primary }
-    [:octicons-eye-16:](https://element.io/privacy){ .card-link title="Informativa sulla privacy" }
+    [:octicons-home-16: Pagina Principale](https://element.io/){ .md-button .md-button--primary }
+    [:octicons-eye-16:](https://element.io/privacy){ .card-link title="Politica sulla privacy" }
     [:octicons-info-16:](https://element.io/help){ .card-link title=Documentazione}
     [:octicons-code-16:](https://github.com/vector-im){ .card-link title="Codice sorgente" }
     
@@ -151,7 +151,7 @@ Il protocollo è stato [verificato](https://matrix.org/blog/2016/11/21/matrixs-o
     Session usa la rete decentralizzata [Oxen Service Node Network](https://oxen.io/) per memorizzare e instradare i messaggi. Ogni messaggio crittografato viene instradato attraverso tre nodi della rete di nodi di servizio Oxen, rendendo virtualmente impossibile per i nodi compilare informazioni significative su coloro che utilizzano la rete.
     
     [:octicons-home-16: Pagina principale](https://getsession.org/){ .md-button .md-button--primary }
-    [:octicons-eye-16:](https://getsession.org/privacy-policy){ .card-link title="Informativa sulla privacy" }
+    [:octicons-eye-16:](https://getsession.org/privacy-policy){ .card-link title="Politica sulla privacy" }
     [:octicons-info-16:](https://getsession.org/faq){ .card-link title=Documentazione}
     [:octicons-code-16:](https://github.com/oxen-io){ .card-link title="Codice sorgente" }
     

@@ -118,7 +118,7 @@ schema:
       url: "./"
 ---
 
-비밀번호 관리자를 사용하여, 비밀번호를 비롯한 기타 자격 증명을 마스터 패스워드로 안전하게 저장 및 관리할 수 있습니다.
+비밀번호 관리자를 사용하여, 비밀번호를 비롯한 기타 자격 증명을 마스터 비밀번호로 안전하게 저장 및 관리할 수 있습니다.
 
 [Introduction to Passwords :material-arrow-right-drop-circle:](./basics/passwords-overview.md)
 
@@ -138,7 +138,7 @@ schema:
 
     ![Bitwarden 로고](assets/img/password-management/bitwarden.svg){ align=right }
     
-    **Bitwarden**은 무료 오픈 소스 비밀번호 관리자입니다. 개인, 팀, 비즈니스 조직의 비밀번호 관리 문제를 해결하는 것을 목표로 합니다. Bitwarden is among the best and safest solutions to store all of your logins and passwords while conveniently keeping them synced between all of your devices.
+    **Bitwarden**은 무료 오픈 소스 비밀번호 관리자입니다. 개인, 팀, 비즈니스 조직의 비밀번호 관리 문제를 해결하는 것을 목표로 합니다. Bitwarden은 모든 로그인 및 비밀번호를 저장하는 동시에 간편하게 모든 기기 간 동기화가 가능한, 가장 안전하고 뛰어난 서비스로 꼽히는 솔루션입니다.
     
     [:octicons-home-16: 홈페이지](https://bitwarden.com){ .md-button .md-button--primary }
     [:octicons-eye-16:](https://bitwarden.com/privacy){ .card-link title="프라이버시 정책" }
@@ -191,17 +191,17 @@ Bitwarden 서버 코드는 [오픈 소스](https://github.com/bitwarden/server)�
 
 **1Passsword**는 이전부터 macOS 및 iOS 사용자에게 가장 뛰어난 비밀번호 관리자 사용 경험을 제공해왔습니다. 오늘날에는 모든 플랫폼에서 동일한 기능성을 제공합니다. 고급 기능뿐만 아니라, 기술 이해도가 낮은 사용자 및 가족을 위한 다양한 기능을 자랑합니다.
 
-1Password 보관함은 마스터 패스워드와 무작위 생성 34자 보안 키로 보호되어 여러분의 데이터를 서버에서 암호화합니다. This security key adds a layer of protection to your data because your data is secured with high entropy regardless of your master password. Many other password manager solutions are entirely reliant on the strength of your master password to secure your data.
+1Password 보관함은 마스터 비밀번호와 무작위 생성 34자 보안 키로 보호되어 여러분의 데이터를 서버에서 암호화합니다. 이 보안 키의 존재로 인해, 여러분은 마스터 비밀번호 강도에 관계없이 여러분의 데이터를 높은 엔트로피로 보호할 수 있습니다. 대부분의 다른 비밀번호 관리자는 사용자 데이터 보호를 사용자의 마스터 비밀번호 강도에만 전적으로 의존합니다.
 
-One advantage 1Password has over Bitwarden is its first-class support for native clients. While Bitwarden relegates many duties, especially account management features, to their web vault interface, 1Password makes nearly every feature available within its native mobile or desktop clients. 1Password's clients also have a more intuitive UI, which makes them easier to use and navigate.
+Bitwarden 대비 1Password 장점 중 하나는 네이티브 클라이언트 지원이 매우 뛰어나다는 점입니다. Bitwarden은 상당수의 기능을(특히 계정 관리 기능) 웹 보관함 인터페이스에서만 제공합니다. 반면, 1Password는 거의 모든 기능을 모바일/데스크톱 네이티브 클라이언트에서 이용할 수 있습니다. 또한 1Password 클라이언트는 보다 직관적인 UI를 제공하여 더욱 쉬운 사용 및 탐색이 가능합니다.
 
 ### Psono
 
 !!! recommendation
 
-    ![Psono logo](assets/img/password-management/psono.svg){ align=right }
+    ![Psono 로고](assets/img/password-management/psono.svg){ align=right }
     
-    **Psono** is a free and open-source password manager from Germany, with a focus on password management for teams. Psono supports secure sharing of passwords, files, bookmarks, and emails. All secrets are protected by a master password.
+    **Psono**는 팀 비밀번호 관리 서비스에 중점을 둔 독일의 무료 오픈 소스 비밀번호 관리자입니다. Psono는 비밀번호, 파일, 북마크, 이메일의 안전한 공유를 지원합니다. 모든 비밀 정보는 마스터 비밀번호로 보호됩니다.
     
     [:octicons-home-16: 홈페이지](https://psono.com){ .md-button .md-button--primary }
     [:octicons-eye-16:](https://psono.com/privacy-policy){ .card-link title="프라이버시 정책" }
@@ -216,7 +216,7 @@ One advantage 1Password has over Bitwarden is its first-class support for native
         - [:simple-googlechrome: Chrome](https://chrome.google.com/webstore/detail/psonopw-password-manager/eljmjmgjkbmpmfljlmklcfineebidmlo)
         - [:simple-docker: Docker Hub](https://hub.docker.com/r/psono/psono-client)
 
-Psono는 제품에 관련된 문서를 매우 폭넓게 제공합니다. The web-client for Psono can be self-hosted; alternatively, you can choose the full Community Edition or the Enterprise Edition with additional features.
+Psono는 제품에 관련된 문서를 매우 폭넓게 제공합니다. Psono 웹 클라이언트는 자체 호스팅 가능합니다. Community Edition 혹은 추가 기능이 포함된 Enterprise Edition을 선택할 수 있습니다.
 
 ### 평가 기준
 
@@ -230,9 +230,9 @@ Psono는 제품에 관련된 문서를 매우 폭넓게 제공합니다. The web
 
 - 강력한 표준 기반/최신 E2EE를 활용해야 합니다.
 - 암호화 및 보안 사례를 철저히 문서화해야 합니다.
-- Must have a published audit from a reputable, independent third-party.
+- 평한이 좋은 독립적인 제3자로부터 공개 감사를 받아야 합니다.
 - 필수적이지 않은 원격 분석 데이터 수집은 모두 선택 사항이어야 합니다.
-- Must not collect more PII than is necessary for billing purposes.
+- 요금 청구 용도로 필요한 것 이상으로 PII를 수집해서는 안 됩니다.
 
 #### 우대 사항
 
@@ -292,9 +292,9 @@ KeePassXC stores its export data as [CSV](https://en.wikipedia.org/wiki/Comma-se
 
 !!! recommendation
 
-    ![Strongbox logo](assets/img/password-management/strongbox.svg){ align=right }
+    ![Strongbox 로고](assets/img/password-management/strongbox.svg){ align=right }
     
-    **Strongbox** is a native, open-source password manager for iOS and macOS. Supporting both KeePass and Password Safe formats, Strongbox can be used in tandem with other password managers, like KeePassXC, on non-Apple platforms. By employing a [freemium model](https://strongboxsafe.com/pricing/), Strongbox offers most features under its free tier with more convenience-oriented [features](https://strongboxsafe.com/comparison/)—such as biometric authentication—locked behind a subscription or perpetual license.
+    **Strongbox**는 iOS, macOS용 네이티브 오픈 소스 비밀번호 관리자입니다. KeePass, Password Safe 형식을 지원하므로, Apple 외 플랫폼에서는 KeePassXC 등의 다른 비밀번호 관리자와 함께 사용할 수 있습니다. Strongbox는 [부분 유료화](https://strongboxsafe.com/pricing/) 모델을 채택하고 있습니다. 무료 플랜에서도 대부분의 기능을 제공하나, 생체 인증 등 [편의 기능](https://strongboxsafe.com/comparison/)은 구독/영구 플랜에만 제공됩니다.
     
     [:octicons-home-16: 홈페이지](https://strongboxsafe.com){ .md-button .md-button--primary }
     [:octicons-eye-16:](https://strongboxsafe.com/privacy/){ .card-link title="프라이버시 정책" }
@@ -310,15 +310,15 @@ KeePassXC stores its export data as [CSV](https://en.wikipedia.org/wiki/Comma-se
 
 ### 커맨드라인
 
-These products are minimal password managers that can be used within scripting applications.
+커맨드라인 비밀번호 관리자는 스크립트 애플리케이션 내에서 사용할 수 있는 미니멀한 비밀번호 관리자입니다.
 
 #### gopass
 
 !!! recommendation
 
-    ![gopass logo](assets/img/password-management/gopass.svg){ align=right }
+    ![gopass 로고](assets/img/password-management/gopass.svg){ align=right }
     
-    **gopass** is a password manager for the command line written in Go. It works on all major desktop and server operating systems (Linux, macOS, BSD, Windows).
+    **gopass**는 Go 언어로 작성된 커맨드라인용 비밀번호 관리자입니다. 모든 주요 데스크톱 및 서버 운영 체제(Linux, macOS, BSD, Windows)에서 작동합니다.
     
     [:octicons-home-16: 홈페이지](https://www.gopass.pw){ .md-button .md-button--primary }
     [:octicons-info-16:](https://github.com/gopasspw/gopass/tree/master/docs){ .card-link title=문서}

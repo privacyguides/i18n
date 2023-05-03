@@ -44,7 +44,7 @@ Al igual que el derecho al matrimonio interracial, el sufragio femenino, la libe
 
 No deberías confundir privacidad con secretismo. Sabemos lo que pasa en el cuarto de baño, pero aún así cierras la puerta. Esto se debe a que quieres privacidad, no secretismo. **Todo el mundo** tiene algo que proteger. La privacidad es algo que nos hace humanos.
 
-[:material-target-account: Amenazas Comunes en Internet](basics/common-threats.md){ class="md-button md-button--primary" }
+[:material-book-outline: Por Qué es Importante la Privacidad](basics/why-privacy-matters.md){ class="md-button md-button--primary" }
 
 ## ¿Qué debo hacer?
 

@@ -69,16 +69,16 @@ Se hai bisogno di navigare in Internet in modo anonimo, dovresti invece usare [T
     
     **Mullvad Browser** è una versione di [Tor Browser](tor.md#tor-browser) con le integrazioni della rete Tor rimosse, con l'obiettivo di fornire le tecnologie anti-fingerprinting di Tor Browser agli utenti che usano una VPN. È sviluppato dal Progetto Tor e distribuito da [Mullvad](vpn.md#mullvad) e **non** richiede l'uso della VPN di Mullvad.
     
-    [:octicons-home-16: Pagina principale](https://mullvad.net/en/browser){ .md-button .md-button--primary }
-    [:octicons-eye-16:](https://mullvad.net/en/help/privacy-policy/){ .card-link title="Informativa sulla privacy" }
+    [:octicons-home-16: Pagina Principale](https://mullvad.net/en/browser){ .md-button .md-button--primary }
+    [:octicons-eye-16:](https://mullvad.net/en/help/privacy-policy/){ .card-link title="Politica sulla privacy" }
     [:octicons-info-16:](https://mullvad.net/en/help/tag/mullvad-browser/){ .card-link title=Documentazione}
     [:octicons-code-16:](https://gitlab.torproject.org/tpo/applications/mullvad-browser){ .card-link title="Codice sorgente" }
     
-    ??? downloads
+    ??? download
     
-        - [:simple-windows11: Windows](https://mullvad.net/en/download/browser/windows)
-        - [:simple-apple: macOS](https://mullvad.net/en/download/browser/macos)
-        - [:simple-linux: Linux](https://mullvad.net/en/download/browser/linux)
+        - [:simple-windows11: Windows](https://mullvad.net/it/download/browser/windows)
+        - [:simple-apple: macOS](https://mullvad.net/it/download/browser/macos)
+        - [:simple-linux: Linux](https://mullvad.net/it/download/browser/linux)
 
 Come [Tor Browser](tor.md), Mullvad Browser è progettato per prevenire il fingerprinting rendendo l'impronta digitale del browser identica a quella di tutti gli altri utenti di Mullvad Browser e include impostazioni ed estensioni predefinite che vengono configurate automaticamente dai livelli di sicurezza predefiniti: *Standard*, *Safer* e *Safest*. Pertanto, è indispensabile **non** modificare il browser oltre i livelli di sicurezza [predefiniti](https://tb-manual.torproject.org/security-settings/). Altre modifiche renderebbero l'impronta digitale unica, vanificando lo scopo dell'utilizzo di questo browser. Se desideri configurare il tuo browser in modo più completo e il fingerprinting non vi preoccupa, vi consigliamo di utilizzare [Firefox](#firefox).
 
@@ -110,8 +110,8 @@ Mullvad Browser utilizza DuckDuckGo come [motore di ricerca](search-engines.md) 
     
     **Firefox** offre robuste impostazioni di privacy, come la [protezione antitracciamento avanzata](https://support.mozilla.org/it/kb/protezione-antitracciamento-avanzata-firefox-desktop), che aiuta a bloccare varie [tipologie di tracciamento](https://support.mozilla.org/it/kb/protezione-antitracciamento-avanzata-firefox-desktop#w_che-cosa-viene-bloccato-con-la-protezione-antitracciamento-avanzata).
     
-    [:octicons-home-16: Pagina principale](https://firefox.com){ .md-button .md-button--primary }
-    [:octicons-eye-16:](https://www.mozilla.org/privacy/firefox/){ .card-link title="Informativa sulla privacy" }
+    [:octicons-home-16: Pagina Principale](https://firefox.com){ .md-button .md-button--primary }
+    [:octicons-eye-16:](https://www.mozilla.org/privacy/firefox/){ .card-link title="Politica sulla privacy" }
     [:octicons-info-16:](https://firefox-source-docs.mozilla.org/){ .card-link title=Documentazione}
     [:octicons-code-16:](https://hg.mozilla.org/mozilla-central){ .card-link title="Codice sorgente" }
     [:octicons-heart-16:](https://donate.mozilla.org/){ .card-link title=Contribuisci }
@@ -202,11 +202,11 @@ Arkenfox mira solo a contrastare gli script di tracciamento di base o ingenui at
     
     **Brave Browser** include un content blocker integrato e [funzionalità di privacy](https://brave.com/privacy-features/), molte delle quali attive in modo predefinito.
     
-    Brave è sviluppato a partire dal progetto del browser web Chromium, quindi dovrebbe risultare familiare e avere problemi minimi di compatibilità con i siti web.
+    Brave è stato sviluppato utilizzando il progetto del browser Chromium, quindi dovrebbe risultarti familiare e avrai pochi problemi di compatibilità con i vari siti web.
     
     [:octicons-home-16: Pagina principale](https://brave.com/){ .md-button .md-button--primary }
     [:simple-torbrowser:](https://brave4u7jddbv7cyviptqjc7jusxh72uik7zt6adtckl5f4nwy2v72qd.onion){ .card-link title="Servizio Onion" }
-    [:octicons-eye-16:](https://brave.com/privacy/browser/){ .card-link title="Informativa sulla privacy" }
+    [:octicons-eye-16:](https://brave.com/privacy/browser/){ .card-link title="Politica sulla privacy" }
     [:octicons-info-16:](https://support.brave.com/){ .card-link title=Documentazione}
     [:octicons-code-16:](https://github.com/brave/brave-browser){ .card-link title="Codice sorgente" }
     

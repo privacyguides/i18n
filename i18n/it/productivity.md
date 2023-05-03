@@ -17,7 +17,7 @@ La maggior parte delle suite per ufficio online non supportano la crittografia e
     
     **Nextcloud** è una suite di software gratuiti e open-source client-server per la creazione di servizi di file hosting su un server privato controllato dall'utente.
     
-    [:octicons-home-16: Homepage](https://nextcloud.com){ .md-button .md-button--primary }
+    [:octicons-home-16: Pagina Principale](https://nextcloud.com){ .md-button .md-button--primary }
     [:octicons-eye-16:](https://nextcloud.com/privacy){ .card-link title="Politica sulla Privacy" }
     [:octicons-info-16:](https://nextcloud.com/support/){ .card-link title=Documentazione}
     [:octicons-code-16:](https://github.com/nextcloud){ .card-link title="Codice Sorgente" }
@@ -35,12 +35,7 @@ La maggior parte delle suite per ufficio online non supportano la crittografia e
 
 !!! attenzione
 
-    Sconsigliamo di utilizzare l'[App E2EE](https://apps.nextcloud.com/apps/end_to_end_encryption) per Nextcloud, in quanto potrebbe causare la perdita di dati; è altamente sperimentale e non soddisfa i criteri di qualità. [:octicons-home-16: Pagina principale](https://www.onlyoffice.com){ .md-button .md-button--primary }
-    [:octicons-eye-16:](https://help.onlyoffice.com/products/files/doceditor.aspx?fileid=5048502&doc=SXhWMEVzSEYxNlVVaXJJeUVtS0kyYk14YWdXTEFUQmRWL250NllHNUFGbz0_IjUwNDg1MDIi0){ .card-link title="Informativa sulla privacy" }
-    [:octicons-info-16:](https://helpcenter.onlyoffice.com/userguides.aspx){ .card-link title=Documentazione}
-    [:octicons-code-16:](https://github.com/ONLYOFFICE){ .card-link title="Codice sorgente" }
-    
-    ???
+    Sconsigliamo di utilizzare l'[App E2EE](https://apps.nextcloud.com/apps/end_to_end_encryption) per Nextcloud, in quanto potrebbe causare la perdita di dati; è altamente sperimentale e non soddisfa i criteri di qualità. Per questo motivo, non consigliamo i provider Nextcloud di terze parti.
 
 ### OnlyOffice
 
@@ -50,8 +45,8 @@ La maggior parte delle suite per ufficio online non supportano la crittografia e
     
     **CryptPad** è un'alternativa privata e di design ai più diffusi strumenti per l'ufficio. Tutti i contenuti di questo servizio web sono criptati end-to-end e possono essere condivisi facilmente con altri utenti.
     
-    [:octicons-home-16: Pagina principale](https://cryptpad.fr){ .md-button .md-button--primary }
-    [:octicons-eye-16:](https://cryptpad.fr/pad/#/2/pad/view/GcNjAWmK6YDB3EO2IipRZ0fUe89j43Ryqeb4fjkjehE/){ .card-link title="Informativa sulla privacy" }
+    [:octicons-home-16: Pagina Principale](https://cryptpad.fr){ .md-button .md-button--primary }
+    [:octicons-eye-16:](https://cryptpad.fr/pad/#/2/pad/view/GcNjAWmK6YDB3EO2IipRZ0fUe89j43Ryqeb4fjkjehE/){ .card-link title="Politica sulla privacy" }
     [:octicons-info-16:](https://docs.cryptpad.fr/){ .card-link title=Documentazione}
     [:octicons-code-16:](https://github.com/xwiki-labs/cryptpad){ .card-link title="Codice sorgente" }
     [:octicons-heart-16:](https://opencollective.com/cryptpad){ .card-link title=Contribuisci }
@@ -92,9 +87,9 @@ KeePassXC memorizza i suoi dati di esportazione come file [CSV](https://en.wikip
     
     [:octicons-home-16: Pagina Principale](https://www.libreoffice.org){ .md-button .md-button--primary }
     [:octicons-eye-16:](https://www.libreoffice.org/about-us/privacy/privacy-policy-en/){ .card-link title="Politica sulla Privacy" }
-    [:octicons-info-16:](https://documentation.libreoffice.org/en/english-documentation/){ .card-link title=Documentazione}
-    [:octicons-code-16:](https://www.libreoffice.org/about-us/source-code){ .card-link title="Codice Sorgente" }
-    [:octicons-heart-16:](https://www.libreoffice.org/donate/){ .card-link title=Contribuisci }
+    [:octicons-info-16:](https://documentation.libreoffice.org/it/documentazione-in-italiano/){ .card-link title=Documentazione}
+    [:octicons-code-16:](https://it.libreoffice.org/chi-siamo/codice-sorgente/){ .card-link title="Codice Sorgente" }
+    [:octicons-heart-16:](https://it.libreoffice.org/donazioni/){ .card-link title=Contribuisci }
     
     ??? download
     
@@ -156,6 +151,6 @@ In generale, definiamo suite per ufficio le applicazioni che possono facilmente 
     **PrivateBin** è un pastebin online minimalista e open-source in cui il server non ha alcuna conoscenza dei dati incollati. I dati vengono criptati/decriptati nel browser utilizzando AES a 256 bit. È la versione migliorata di ZeroBin. Esiste un [elenco di istanze](https://privatebin.info/directory/).
     
     [:octicons-home-16: Pagina Principale](https://privatebin.info){ .md-button .md-button--primary }
-    [:octicons-server-16:](https://privatebin.info/directory/){ .card-link title="istanze pubbliche"}
+    [:octicons-server-16:](https://privatebin.info/directory/){ .card-link title="Istanze pubbliche"}
     [:octicons-info-16:](https://github.com/PrivateBin/PrivateBin/wiki/FAQ){ .card-link title=Documentazione}
     [:octicons-code-16:](https://github.com/PrivateBin/PrivateBin){ .card-link title="Codice Sorgente" }

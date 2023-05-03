@@ -44,7 +44,7 @@ schema:
 
 يجب عليك عدم الخلط بين الخصوصية والسريَّة. نحن نعلم ما يحدث في الحَمَّام، لكنك ما زلت تغلق الباب، أليس كذلك؟ هذا لأنك تريد الخصوصية وليس السريَّة. **الجميع** لديه شيء لحمايته. الخصوصية شيء أصيل في البشريَّة.
 
-[:material-target-account: Common Internet Threats](basics/common-threats.md){ class="md-button md-button--primary" }
+[:material-book-outline: Why Privacy Matters](basics/why-privacy-matters.md){ class="md-button md-button--primary" }
 
 ## ماذا يجب أن أفعل؟
 

@@ -46,7 +46,7 @@ The Privacy Guides team generally does not have access to personal data outside 
 
 ```text
 Jonah Aragon
-Services Administrator
+サービス管理者
 jonah@privacyguides.org
 ```
 

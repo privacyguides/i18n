@@ -44,7 +44,7 @@ schema:
 
 プライバシーと秘密を混同してはいけません。 トイレで用を足す時、ドアを閉めるかと思います。 用を足しているという事実を秘密にするためではなく、プライバシーを守るためにドアを閉めるのです。 **誰もが**守るべきものを持っています。 プライバシーは私たちを人間たらしめるものです。
 
-[:material-target-account: 主なインターネット上の脅威](basics/common-threats.md){ class="md-button md-button--primary" }
+[:material-book-outline: プライバシーはなぜ重要なのか](basics/why-privacy-matters.md){ class="md-button md-button--primary" }
 
 ## どうしたらいいですか？
 

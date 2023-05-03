@@ -44,7 +44,7 @@ schema:
 
 Не стоит путать приватность с секретностью. Все знают, что происходит в вашей ванной, но вы всё равно закрываете дверь. Это потому, что вы хотите приватности, а не секретности. **Каждому** есть что защищать. Приватность — это то, что делает вас человеком.
 
-[:material-target-account: Распространённые интернет-угрозы](basics/common-threats.md){ class="md-button md-button--primary" }
+[:material-book-outline: Why Privacy Matters](basics/why-privacy-matters.md){ class="md-button md-button--primary" }
 
 ## И что же мне делать?
 

@@ -1,5 +1,5 @@
 ---
-meta_title: "Privacy Guides: La vostra risorsa indipendente per la privacy e la sicurezza"
+meta_title: "Privacy Guides: La tua risorsa indipendente per la privacy e la sicurezza"
 template: overrides/home.it.html
 hide:
   - navigation
@@ -44,7 +44,7 @@ Proprio come il diritto al matrimonio interrazziale, il suffragio della donna, l
 
 Non bisogna confondere la privacy con la segretezza. Sappiamo cosa succede in bagno, ma chiudi lo stesso la porta. Questo perché vuoi la privacy, non la segretezza. **Tutti** hanno qualcosa da proteggere. La privacy è qualcosa che ci rende umani.
 
-[:material-target-account: Minacce comuni di Internet](basics/common-threats.md){ class="md-button md-button--primary" }
+[:material-book-outline: Perchè la Privacy è importante](basics/why-privacy-matters.md){ class="md-button md-button--primary" }
 
 ## Cosa dovrei fare?
 

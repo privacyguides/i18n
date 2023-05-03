@@ -118,10 +118,10 @@ L'applicazione offre diversi modi per cancellare i metadati dalle immagini. Ovve
     
     Spesso è usato come un componente di altre applicazioni di rimozione Exif ed è presente nei repository della maggior parte delle distribuzioni Linux.
     
-    [:octicons-home-16: Homepage](https://exiftool.org){ .md-button .md-button--primary }
-    [:octicons-info-16:](https://exiftool.org/faq.html){ .card-link title=Documentation}
-    [:octicons-code-16:](https://github.com/exiftool/exiftool){ .card-link title="Source Code" }
-    [:octicons-heart-16:](https://exiftool.org/#donate){ .card-link title=Contribute }
+    [:octicons-home-16: Pagina principale](https://exiftool.org){ .md-button .md-button--primary }
+    [:octicons-info-16:](https://exiftool.org/faq.html){ .card-link title=Documentazione}
+    [:octicons-code-16:](https://github.com/exiftool/exiftool){ .card-link title="Codice sorgente" }
+    [:octicons-heart-16:](https://exiftool.org/#donate){ .card-link title=Contribuisci }
     
     ??? download
     

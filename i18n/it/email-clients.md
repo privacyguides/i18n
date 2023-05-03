@@ -26,7 +26,7 @@ Il nostro elenco di raccomandazioni contiene client di posta elettronica che sup
     **Thunderbird** è un client di posta elettronica, newsgroup, news feed e chat (XMPP, IRC, Twitter) gratuito, open-source e multipiattaforma, sviluppato dalla comunità Thunderbird e precedentemente dalla Mozilla Foundation.
     
     [:octicons-home-16: Pagina principale](https://www.thunderbird.net){ .md-button .md-button--primary }
-    [:octicons-eye-16:](https://www.mozilla.org/privacy/thunderbird){ .card-link title="Informativa sulla privacy" }
+    [:octicons-eye-16:](https://www.mozilla.org/privacy/thunderbird){ .card-link title="Politica sulla privacy" }
     [:octicons-info-16:](https://support.mozilla.org/products/thunderbird){ .card-link title=Documentazione}
     [:octicons-code-16:](https://hg.mozilla.org/comm-central){ .card-link title="Codice sorgente" }
     
@@ -81,7 +81,7 @@ Apple Mail ha la possibilità di caricare contenuti in remoto in background o di
     **Canary Mail** è un client di posta elettronica a pagamento progettato per rendere perfetta la crittografia end-to-end con funzioni di sicurezza come il blocco biometrico dell'app.
     
     [:octicons-home-16: Pagina principale](https://canarymail.io){ .md-button .md-button--primary }
-    [:octicons-eye-16:](https://canarymail.io/privacy.html){ .card-link title="Informativa sulla privacy" }
+    [:octicons-eye-16:](https://canarymail.io/privacy.html){ .card-link title="Politica sulla privacy" }
     [:octicons-info-16:](https://canarymail.zendesk.com/){ .card-link title=Documentazione}
     
     ??? download
@@ -105,7 +105,7 @@ Canary Mail è closed-source. Lo consigliamo a causa della scarsa scelta di clie
     **FairEmail** è un'applicazione di posta elettronica minimale e open-source, che utilizza standard aperti (IMAP, SMTP, OpenPGP) con un basso consumo di dati e batteria.
     
     [:octicons-home-16: Pagina principale](https://email.faircode.eu){ .md-button .md-button--primary }
-    [:octicons-eye-16:](https://github.com/M66B/FairEmail/blob/master/PRIVACY.md){ .card-link title="Informativa sulla privacy" }
+    [:octicons-eye-16:](https://github.com/M66B/FairEmail/blob/master/PRIVACY.md){ .card-link title="Politica sulla privacy" }
     [:octicons-info-16:](https://github.com/M66B/FairEmail/blob/master/FAQ.md){ .card-link title=Documentazione}
     [:octicons-code-16:](https://github.com/M66B/FairEmail){ .card-link title="Codice sorgente" }
     [:octicons-heart-16:](https://email.faircode.eu/donate/){ .card-link title=Contribuisci }
@@ -124,7 +124,7 @@ Canary Mail è closed-source. Lo consigliamo a causa della scarsa scelta di clie
     **Evolution** è un'applicazione per la gestione delle informazioni personali che fornisce funzionalità integrate di posta, calendario e rubrica. Evolution dispone di un'ampia [documentazione](https://help.gnome.org/users/evolution/stable/) per aiutarti a iniziare.
     
     [:octicons-home-16: Pagina principale](https://wiki.gnome.org/Apps/Evolution){ .md-button .md-button--primary }
-    [:octicons-eye-16:](https://wiki.gnome.org/Apps/Evolution/PrivacyPolicy){ .card-link title="Informativa sulla privacy" }
+    [:octicons-eye-16:](https://wiki.gnome.org/Apps/Evolution/PrivacyPolicy){ .card-link title="Politica sulla privacy" }
     [:octicons-info-16:](https://help.gnome.org/users/evolution/stable/){ .card-link title=Documentazione}
     [:octicons-code-16:](https://gitlab.gnome.org/GNOME/evolution/){ .card-link title="Codice sorgente" }
     [:octicons-heart-16:](https://www.gnome.org/donate/){ .card-link title=Contribuisci }
@@ -144,7 +144,7 @@ Canary Mail è closed-source. Lo consigliamo a causa della scarsa scelta di clie
     In futuro, K-9 Mail sarà il client [ufficiale](https://k9mail.app/2022/06/13/K-9-Mail-and-Thunderbird.html) di Thunderbird per Android.
     
     [:octicons-home-16: Pagina principale](https://k9mail.app){ .md-button .md-button--primary }
-    [:octicons-eye-16:](https://k9mail.app/privacy){ .card-link title="Informativa sulla privacy" }
+    [:octicons-eye-16:](https://k9mail.app/privacy){ .card-link title="Politica sulla privacy" }
     [:octicons-info-16:](https://docs.k9mail.app/){ .card-link title=Documentazione}
     [:octicons-code-16:](https://github.com/k9mail/k-9){ .card-link title="Codice sorgente" }
     [:octicons-heart-16:](https://k9mail.app/contribute){ .card-link title=Contribuisci }
@@ -166,12 +166,7 @@ Canary Mail è closed-source. Lo consigliamo a causa della scarsa scelta di clie
 
     ![Logo Kontact](assets/img/email-clients/kontact.svg){ align=right }
     
-    **Kontact** è un'applicazione di gestione delle informazioni personali (PIM) del progetto [KDE](https://kde.org). [:octicons-home-16: Pagina principale](https://www.mailvelope.com){ .md-button .md-button--primary }
-    [:octicons-eye-16:](https://www.mailvelope.com/en/privacy-policy){ .card-link title="Informativa sulla privacy" }
-    [:octicons-info-16:](https://mailvelope.com/faq){ .card-link title=Documentazione}
-    [:octicons-code-16:](https://github.com/mailvelope/mailvelope){ .card-link title="Codice sorgente" }
-    
-    ???
+    **Kontact** è un'applicazione di gestione delle informazioni personali (PIM) del progetto [KDE](https://kde.org). Offre un client email, una rubrica, un'agenda e un client RSS.
     
     [:octicons-home-16: Pagina Principale](https://kontact.kde.org){ .md-button .md-button--primary }
     [:octicons-eye-16:](https://kde.org/privacypolicy-apps){ .card-link title="Politica sulla Privacy" }
@@ -192,10 +187,10 @@ Canary Mail è closed-source. Lo consigliamo a causa della scarsa scelta di clie
     
     **Mailvelope** è un'estensione del browser che consente lo scambio di e-mail crittografate secondo lo standard di crittografia OpenPGP.
     
-    [:octicons-home-16: Homepage](https://www.mailvelope.com){ .md-button .md-button--primary }
-    [:octicons-eye-16:](https://www.mailvelope.com/en/privacy-policy){ .card-link title="Privacy Policy" }
-    [:octicons-info-16:](https://mailvelope.com/faq){ .card-link title=Documentation}
-    [:octicons-code-16:](https://github.com/mailvelope/mailvelope){ .card-link title="Source Code" }
+    [:octicons-home-16: Pagina Principale](https://www.mailvelope.com){ .md-button .md-button--primary }
+    [:octicons-eye-16:](https://www.mailvelope.com/en/privacy-policy){ .card-link title="Politica sulla Privacy" }
+    [:octicons-info-16:](https://mailvelope.com/faq){ .card-link title=Documentazione}
+    [:octicons-code-16:](https://github.com/mailvelope/mailvelope){ .card-link title="Codice Sorgente" }
     
     ??? download
     
@@ -213,10 +208,10 @@ Canary Mail è closed-source. Lo consigliamo a causa della scarsa scelta di clie
     
     NeoMutt è un client basato sul testo che ha una curva di apprendimento molto ripida. Tuttavia, è molto personalizzabile.
     
-    [:octicons-home-16: Homepage](https://neomutt.org){ .md-button .md-button--primary }
-    [:octicons-info-16:](https://neomutt.org/guide/){ .card-link title=Documentation}
-    [:octicons-code-16:](https://github.com/neomutt/neomutt){ .card-link title="Source Code" }
-    [:octicons-heart-16:](https://www.paypal.com/paypalme/russon/){ .card-link title=Contribute }
+    [:octicons-home-16: Pagina Principale](https://neomutt.org){ .md-button .md-button--primary }
+    [:octicons-info-16:](https://neomutt.org/guide/){ .card-link title=Documentazione}
+    [:octicons-code-16:](https://github.com/neomutt/neomutt){ .card-link title="Codice Sorgente" }
+    [:octicons-heart-16:](https://www.paypal.com/paypalme/russon/){ .card-link title=Contribuisci }
     
     ??? download
     

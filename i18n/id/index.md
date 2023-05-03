@@ -44,7 +44,7 @@ Sama seperti hak untuk menikah antar ras, hak pilih perempuan, kebebasan berbica
 
 Anda tidak harus bingung antara privasi dengan kerahasiaan. Kami tahu apa yang terjadi di kamar mandi, tapi Anda tetap menutup pintunya. Itu karena Anda menginginkan privasi, bukan kerahasiaan. **Setiap orang** memiliki sesuatu untuk dilindungi. Privasi adalah sesuatu yang membuat kita menjadi manusia.
 
-[:material-target-account: Common Internet Threats](basics/common-threats.md){ class="md-button md-button--primary" }
+[:material-book-outline: Why Privacy Matters](basics/why-privacy-matters.md){ class="md-button md-button--primary" }
 
 ## Apa yang harus saya lakukan?
 

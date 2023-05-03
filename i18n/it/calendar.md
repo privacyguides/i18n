@@ -19,7 +19,7 @@ I calendari contengono alcuni dei vostri dati più sensibili; utilizzate prodott
     Calendari multipli e funzionalità di condivisione estese sono limitate agli abbonati a pagamento.
     
     [:octicons-home-16: Pagina principale](https://tutanota.com/calendar){ .md-button .md-button--primary }
-    [:octicons-eye-16:](https://tutanota.com/privacy){ .card-link title="Informativa sulla privacy" }
+    [:octicons-eye-16:](https://tutanota.com/privacy){ .card-link title="Politica sulla privacy" }
     [:octicons-info-16:](https://tutanota.com/faq){ .card-link title=Documentazione}
     [:octicons-code-16:](https://github.com/tutao/tutanota){ .card-link title="Codice sorgente" }
     [:octicons-heart-16:](https://tutanota.com/community/){ .card-link title=Contribuisci }
@@ -43,7 +43,7 @@ I calendari contengono alcuni dei vostri dati più sensibili; utilizzate prodott
     **Proton Calendar** è un servizio di calendario criptato disponibile per i membri Proton tramite web o client mobile. Le caratteristiche includono: E2EE automatico di tutti i dati, funzioni di condivisione, funzionalità di importazione/esportazione e [altre funzionalità](https://proton.me/support/proton-calendar-guide). Gli utenti gratuiti hanno accesso ad un singolo calendario, mentre gli abbonati a pagamento possono crearne fino a 20. Anche la funzionalità di condivisione avanzata è limitata agli abbonati a pagamento.
     
     [:octicons-home-16: Pagina principale](https://proton.me/calendar){ .md-button .md-button--primary }
-    [:octicons-eye-16:](https://proton.me/legal/privacy){ .card-link title="informativa sulla privacy" }
+    [:octicons-eye-16:](https://proton.me/legal/privacy){ .card-link title="Politica sulla privacy" }
     [:octicons-info-16:](https://proton.me/support/proton-calendar-guide){ .card-link title=Documentazione}
     [:octicons-code-16:](https://github.com/ProtonMail/WebClients){ .card-link title="Codice sorgente" }
     

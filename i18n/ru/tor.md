@@ -10,7 +10,7 @@ schema:
     "@type": SoftwareApplication
     name: Tor Browser
     image: /assets/img/browsers/tor.svg
-    url: https://www.torproject.org
+    url: https://www.torproject.org/ru/
     sameAs: https://ru.wikipedia.org/wiki/Tor
     applicationCategory: Браузер
     operatingSystem:
@@ -74,65 +74,65 @@ Tor работает, направляя ваш трафик через эти �
 
 !!! recommendation
 
-    ![Orbot logo](assets/img/self-contained-networks/orbot.svg){ align=right }
+    ![Логотип Orbot](assets/img/self-contained-networks/orbot.svg){ align=right }
     
-    **Orbot** is a free Tor VPN for smartphones which routes traffic from any app on your device through the Tor network.
+    **Orbot** - это бесплатный Tor VPN для смартфонов, который направляет трафик от любого приложения на вашем устройстве через сеть Tor.
     
     [:octicons-home-16: Homepage](https://orbot.app/){ .md-button .md-button--primary }
-    [:octicons-eye-16:](https://orbot.app/privacy-policy){ .card-link title="Privacy Policy" }
-    [:octicons-info-16:](https://orbot.app/faqs){ .card-link title=Documentation}
-    [:octicons-code-16:](https://orbot.app/code){ .card-link title="Source Code" }
-    [:octicons-heart-16:](https://orbot.app/donate){ .card-link title=Contribute }
+    [:octicons-eye-16:](https://orbot.app/privacy-policy){ .card-link title="Политика конфеденциальности" }
+    [:octicons-info-16:](https://orbot.app/faqs){ .card-link title=Документация}
+    [:octicons-code-16:](https://orbot.app/code){ .card-link title="Исходный код" }
+    [:octicons-heart-16:](https://orbot.app/donate){ .card-link title=Поддержать }
     
-    ??? downloads
+    ??? загрузки
     
         - [:simple-googleplay: Google Play](https://play.google.com/store/apps/details?id=org.torproject.android)
         - [:simple-appstore: App Store](https://apps.apple.com/us/app/orbot/id1609461599)
         - [:simple-github: GitHub](https://github.com/guardianproject/orbot/releases)
 
-We previously recommended enabling the *Isolate Destination Address* preference in Orbot settings. While this setting can theoretically improve privacy by enforcing the use of a different circuit for each IP address you connect to, it doesn't provide a practical advantage for most applications (especially web browsing), can come with a significant performance penalty, and increases the load on the Tor network. We no longer recommend adjusting this setting from its default value unless you know you need to.[^1]
+We previously recommended enabling the *Isolate Destination Address* preference in Orbot settings. Хотя эта настройка теоретически может улучшить конфиденциальность за счет принудительного использования отдельной схемы для каждого IP-адреса, к которому вы подключаетесь, она не дает практического преимущества для большинства приложений (особенно для просмотра веб-страниц), может сопровождаться значительным снижением производительности и увеличивает нагрузку на сеть Tor. Мы больше не рекомендуем изменять этот параметр по сравнению с его значением по умолчанию, если вы не уверены в том, что это необходимо.[^1]
 
-!!! tip "Tips for Android"
+!!! совет "Советы для Android"
 
-    Orbot can proxy individual apps if they support SOCKS or HTTP proxying. It can also proxy all your network connections using [VpnService](https://developer.android.com/reference/android/net/VpnService) and can be used with the VPN killswitch in :gear: **Settings** → **Network & internet** → **VPN** → :gear: → **Block connections without VPN**.
+    Orbot может проксировать отдельные приложения, если они поддерживают SOCKS или HTTP проксирование. Он также может проксировать все ваши сетевые подключения с помощью [VpnService](https://developer.android.com/reference/android/net/VpnService) и может использоваться с VPN killswitch в :gear: **Настройки** → **Сеть и интернет** → **VPN** → :gear: → **Блокировать подключения без VPN**.
     
-    Orbot is often outdated on the Guardian Project's [F-Droid repository](https://guardianproject.info/fdroid) and [Google Play](https://play.google.com/store/apps/details?id=org.torproject.android), so consider downloading directly from the [GitHub repository](https://github.com/guardianproject/orbot/releases) instead.
+    В [репозитории F-Droid](https://guardianproject.info/fdroid) проекта Guardian и [Google Play](https://play.google.com/store/apps/details?id=org.torproject.android) часто загружена устаревшая версия Orbot, поэтому его лучше загружать непосредственно с [оепозитория GitHub](https://github.com/guardianproject/orbot/releases).
     
-    All versions are signed using the same signature so they should be compatible with each other.
+    Все версии подписаны одной и той же подписью, поэтому они должны быть совместимы друг с другом.
 
-## Relays and Bridges
+## Ретрансляторы и Мосты
 
-### Terms of Service; Didn't Read
+### Snowflake
 
 !!! recommendation
 
-    ![Snowflake logo](assets/img/browsers/snowflake.svg#only-light){ align=right }
-    ![Snowflake logo](assets/img/browsers/snowflake-dark.svg#only-dark){ align=right }
+    ![Логотип Snowflake](assets/img/browsers/snowflake.svg#only-light){ align=right }
+    ![Логотип Snowflake](assets/img/browsers/snowflake-dark.svg#only-dark){ align=right }
     
-    **Snowflake** allows you to donate bandwidth to the Tor Project by operating a "Snowflake proxy" within your browser.
+    **Snowflake** позволяет вам пожертвовать пропускную способность проекту Tor, используя "прокси Snowflake" в вашем браузере.
     
-    People who are censored can use Snowflake proxies to connect to the Tor network. Snowflake is a great way to contribute to the network even if you don't have the technical know-how to run a Tor relay or bridge.
+    Люди, подвергающиеся цензуре, могут использовать прокси Snowflake для подключения к сети Tor. Snowflake - это отличный способ внести свой вклад в работу сети Tor, даже если у вас нет технических знаний для запуска ретранслятора или моста Tor.
     
-    [:octicons-home-16: Homepage](https://snowflake.torproject.org/){ .md-button .md-button--primary }
-    [:octicons-info-16:](https://gitlab.torproject.org/tpo/anti-censorship/pluggable-transports/snowflake/-/wikis/Technical%20Overview){ .card-link title=Documentation}
-    [:octicons-code-16:](https://gitweb.torproject.org/pluggable-transports/snowflake.git/){ .card-link title="Source Code" }
-    [:octicons-heart-16:](https://donate.torproject.org/){ .card-link title=Contribute }
+    [:octicons-home-16: Домашняя страница](https://snowflake.torproject.org/){ .md-button .md-button--primary }
+    [:octicons-info-16:](https://gitlab.torproject.org/tpo/anti-censorship/pluggable-transports/snowflake/-/wikis/Technical%20Overview){ .card-link title=Документация}
+    [:octicons-code-16:](https://gitweb.torproject.org/pluggable-transports/snowflake.git/){ .card-link title="Исходный код" }
+    [:octicons-heart-16:](https://donate.torproject.org/){ .card-link title=Поддержать }
     
-    ??? downloads
+    ??? загрузки
     
         - [:simple-firefoxbrowser: Firefox](https://addons.mozilla.org/en-US/firefox/addon/torproject-snowflake/)
         - [:simple-googlechrome: Chrome](https://chrome.google.com/webstore/detail/snowflake/mafpmfcccpbjnhfhjnllmmalhifmlcie)
         - [:octicons-browser-16: Web](https://snowflake.torproject.org/embed "Leave this page open to be a Snowflake proxy")
 
-??? tip "Embedded Snowflake"
+??? совет "Встроенный Snowflake"
 
-    You can enable Snowflake in your browser by clicking the switch below and ==leaving this page open==. You can also install Snowflake as a browser extension to have it always run while your browser is open, however adding third-party extensions can increase your attack surface.
+    Вы можете включить Snowflake в своем браузере, нажав на переключатель ниже и ==оставив эту страницу открытой==. Вы также можете установить Snowflake в качестве расширения браузера, чтобы он всегда работал, пока открыт браузер, однако добавление сторонних расширений может увеличить площадь атаки.
     
     <center><iframe src="https://snowflake.torproject.org/embed.html" width="320" height="240" frameborder="0" scrolling="no"></iframe></center>
-    <small>If the embed does not appear for you, ensure you are not blocking the third-party frame from `torproject.org`. Alternatively, visit [this page](https://snowflake.torproject.org/embed.html).</small>
+    <small>если встроенное изображение не отображается, то убедитесь, что вы не блокируете third-party frame от `torproject.org`. Вы также можете посетить [эту страницу](https://snowflake.torproject.org/embed.html).</small>
 
-Snowflake does not increase your privacy in any way, nor is it used to connect to the Tor network within your personal browser. However, if your internet connection is uncensored, you should consider running it to help people in censored networks achieve better privacy themselves. There is no need to worry about which websites people are accessing through your proxy—their visible browsing IP address will match their Tor exit node, not yours.
+Snowflake никоим образом не увеличивает вашу конфиденциальность и не используется для подключения к сети Tor в вашем персональном браузере. Однако если ваше интернет-соединение не подвергается цензуре, вам следует рассмотреть возможность его запуска, чтобы помочь людям в сетях с цензурой добиться большей конфиденциальности. Нет необходимости беспокоиться о том, на какие сайты люди заходят через ваш прокси-сервер - их видимый IP адрес будет соответствовать их выходному узлу Tor, а не вашему.
 
-Running a Snowflake proxy is low-risk, even moreso than running a Tor relay or bridge which are already not particularly risky endeavours. However, it does still proxy traffic through your network which can be impactful in some ways, especially if your network is bandwidth-limited. Make sure you understand [how Snowflake works](https://gitlab.torproject.org/tpo/anti-censorship/pluggable-transports/snowflake/-/wikis/home) before deciding whether to run a proxy.
+Запуск прокси Snowflake не представляет особого риска. Это даже менее рискованно, чем запуск ретранслятора или моста Tor, которые не являются особо рискованными мероприятиями. Тем не менее он все равно проксирует трафик через вашу сеть, что может иметь определенные последствия, особенно если ваша сеть ограничена в пропускной способности. Убедитесь, что вы понимаете [как работает Snowflake](https://gitlab.torproject.org/tpo/anti-censorship/pluggable-transports/snowflake/-/wikis/home), прежде чем принимать решение о запуске прокси.
 
-[^1]: The `IsolateDestAddr` setting is discussed on the [Tor mailing list](https://lists.torproject.org/pipermail/tor-talk/2012-May/024403.html) and [Whonix's Stream Isolation documentation](https://www.whonix.org/wiki/Stream_Isolation), where both projects suggest that it is usually not a good approach for most people.
+[^1]: Настройка `IsolateDestAddr` обсуждается в [Tor mailing list](https://lists.torproject.org/pipermail/tor-talk/2012-May/024403.html) и [документации Whonix's Stream Isolation](https://www.whonix.org/wiki/Stream_Isolation), в которых оба проекта пришли к выводу, что это неподходящий подход для большинства пользователей.

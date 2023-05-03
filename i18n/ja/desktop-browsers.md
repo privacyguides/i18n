@@ -57,24 +57,24 @@ schema:
       url: "./"
 ---
 
-These are our currently recommended desktop web browsers and configurations for standard/non-anonymous browsing. We recommend [Mullvad Browser](#mullvad-browser) if you are focused on strong privacy protections and anti-fingerprinting out of the box, [Firefox](#firefox) for casual internet browsers looking for a good alternative to Google Chrome, and [Brave](#brave) if you need Chromium browser compatibility.
+以下は、一般的な、非匿名のブラウジング用に、現在おすすめされているデスクトップ版のウェブブラウザとその設定です。 強力なプライバシー保護とフィンガープリント対策を重視する場合は[Mullvad Browser](#mullvad-browser)を、カジュアルなブラウジングやGoogle Chromeの良い代替品を探している場合は[Firefox](#firefox)を、Chromiumブラウザとの互換性が必要な場合は[Brave](#brave)をおすすめします。
 
-If you need to browse the internet anonymously, you should use [Tor](tor.md) instead. We make some configuration recommendations on this page, but all browsers other than Tor Browser will be traceable by *somebody* in some manner or another.
+匿名でインターネットを閲覧するには、[Tor](tor.md)を使用してください。 このページではいくつかの設定をおすすめしていますが、Tor Browser以外のブラウザは、何らかの方法で、*誰かしら*が、あなたを追跡できます。
 
 ## Mullvad Browser
 
 !!! recommendation
 
-    ![Mullvad Browser logo](assets/img/browsers/mullvad_browser.svg){ align=right }
+    ![Mullvad Browserのロゴ](assets/img/browsers/mullvad_browser.svg){ align=right }
     
-    **Mullvad Browser** is a version of [Tor Browser](tor.md#tor-browser) with Tor network integrations removed, aimed at providing Tor Browser's anti-fingerprinting browser technologies to VPN users. It is developed by the Tor Project and distributed by [Mullvad](vpn.md#mullvad), and does **not** require the use of Mullvad's VPN.
+    **Mullvad Browser**はVPNユーザーにTor Browserのフィンガープリント対策のブラウザ技術を提供することを目的とした、Torネットワークへの接続機能のない[Tor Browser](tor.md#tor-browser)です。 Tor Projectが開発し、[Mullvad](vpn.md#mullvad)が配布しています。MullvadのVPNを使用する必要は**ありません**。
     
-    [:octicons-home-16: Homepage](https://mullvad.net/en/browser){ .md-button .md-button--primary }
-    [:octicons-eye-16:](https://mullvad.net/en/help/privacy-policy/){ .card-link title="Privacy Policy" }
-    [:octicons-info-16:](https://mullvad.net/en/help/tag/mullvad-browser/){ .card-link title=Documentation}
-    [:octicons-code-16:](https://gitlab.torproject.org/tpo/applications/mullvad-browser){ .card-link title="Source Code" }
+    [:octicons-home-16: ホームページ](https://mullvad.net/en/browser){ .md-button .md-button--primary }
+    [:octicons-eye-16:](https://mullvad.net/en/help/privacy-policy/){ .card-link title="プライバシーポリシー" }
+    [:octicons-info-16:](https://mullvad.net/en/help/tag/mullvad-browser/){ .card-link title=文書}
+    [:octicons-code-16:](https://gitlab.torproject.org/tpo/applications/mullvad-browser){ .card-link title="ソースコード" }
     
-    ??? downloads
+    ??? ダウンロード
     
         - [:simple-windows11: Windows](https://mullvad.net/en/download/browser/windows)
         - [:simple-apple: macOS](https://mullvad.net/en/download/browser/macos)
@@ -92,7 +92,7 @@ Note that while you can use Mullvad Browser with any VPN provider, other people 
 
 Mullvad Browser comes with the *uBlock Origin* and *NoScript* browser extensions pre-installed. While we typically [don't recommend](#extensions) adding *additional* browser extensions, these extensions that come pre-installed with the browser should **not** be removed or configured outside their default values, because doing so would noticeably make your browser fingerprint distinct from other Mullvad Browser users. It also comes pre-installed with the Mullvad Browser Extension, which *can* be safely removed without impacting your browser fingerprint if you would like, but is also safe to keep even if you don't use Mullvad VPN.
 
-### Private Browsing Mode
+### プライベートブラウジングモード
 
 Mullvad Browser operates in permanent private browsing mode, meaning your history, cookies, and other site data will always be cleared every time the browser is closed. Your bookmarks, browser settings, and extension settings will still be preserved.
 
@@ -106,17 +106,17 @@ Mullvad Browser comes with DuckDuckGo set as the default [search engine](search-
 
 !!! recommendation
 
-    ![Firefox logo](assets/img/browsers/firefox.svg){ align=right }
+    ![Firefoxのロゴ](assets/img/browsers/firefox.svg){ align=right }
     
-    **Firefox** provides strong privacy settings such as [Enhanced Tracking Protection](https://support.mozilla.org/kb/enhanced-tracking-protection-firefox-desktop), which can help block various [types of tracking](https://support.mozilla.org/kb/enhanced-tracking-protection-firefox-desktop#w_what-enhanced-tracking-protection-blocks).
+    **Firefox**は、[強化型トラッキング防止](https://support.mozilla.org/kb/enhanced-tracking-protection-firefox-desktop)などの強力なプライバシー設定を提供し、[様々な種類のトラッキング](https://support.mozilla.org/kb/enhanced-tracking-protection-firefox-desktop#w_what-enhanced-tracking-protection-blocks)をブロックするのに役立ちます。
     
-    [:octicons-home-16: Homepage](https://firefox.com){ .md-button .md-button--primary }
-    [:octicons-eye-16:](https://www.mozilla.org/privacy/firefox/){ .card-link title="Privacy Policy" }
-    [:octicons-info-16:](https://firefox-source-docs.mozilla.org/){ .card-link title=Documentation}
-    [:octicons-code-16:](https://hg.mozilla.org/mozilla-central){ .card-link title="Source Code" }
-    [:octicons-heart-16:](https://donate.mozilla.org/){ .card-link title=Contribute }
+    [:octicons-home-16: ホームページ](https://firefox.com){ .md-button .md-button--primary }
+    [:octicons-eye-16:](https://www.mozilla.org/privacy/firefox/){ .card-link title="プライバシーポリシー" }
+    [:octicons-info-16:](https://firefox-source-docs.mozilla.org/){ .card-link title=文書}
+    [:octicons-code-16:](https://hg.mozilla.org/mozilla-central){ .card-link title="ソースコード" }
+    [:octicons-heart-16:](https://donate.mozilla.org/){ .card-link title=貢献 }
     
-    ??? downloads
+    ??? ダウンロード
     
         - [:simple-windows11: Windows](https://www.mozilla.org/firefox/windows)
         - [:simple-apple: macOS](https://www.mozilla.org/firefox/mac)
@@ -126,7 +126,7 @@ Mullvad Browser comes with DuckDuckGo set as the default [search engine](search-
 !!! warning
     Firefox includes a unique [download token](https://bugzilla.mozilla.org/show_bug.cgi?id=1677497#c0) in downloads from Mozilla's website and uses telemetry in Firefox to send the token. The token is **not** included in releases from the [Mozilla FTP](https://ftp.mozilla.org/pub/firefox/releases/).
 
-### Recommended Configuration
+### おすすめの設定
 
 These options can be found in :material-menu: → **Settings**
 
@@ -146,7 +146,7 @@ Search suggestions send everything you type in the address bar to the default se
 
 This protects you by blocking social media trackers, fingerprinting scripts (note that this does not protect you from *all* fingerprinting), cryptominers, cross-site tracking cookies, and some other tracking content. ETP protects against many common threats, but it does not block all tracking avenues because it is designed to have minimal to no impact on site usability.
 
-##### Firefox Suggest (US only)
+##### Firefox Suggest (アメリカのみ)
 
 [Firefox Suggest](https://support.mozilla.org/en-US/kb/firefox-suggest) is a feature similar to search suggestions which is only available in the US. We recommend disabling it for the same reason we recommend disabling search suggestions. If you don't see these options under the **Address Bar** header, you do not have the new experience and can ignore these changes.
 

@@ -44,7 +44,7 @@ A kultúrák közötti házassághoz, a női választójoghoz, a szólásszabads
 
 Nem szabad összekeverni a magánéletet a titoktartással. Tudjuk, hogy mi történik a mosdóban, de az ajtó mégis becsukjuk. Ez azért van, mert magánéletet akarsz, nem titoktartást. **Mindenkinek** van valami, amit meg akar védeni. A magánélet olyasmi, ami emberré tesz minket.
 
-[:material-target-account: Common Internet Threats](basics/common-threats.md){ class="md-button md-button--primary" }
+[:material-book-outline: Why Privacy Matters](basics/why-privacy-matters.md){ class="md-button md-button--primary" }
 
 ## Mihez kezdjek?
 

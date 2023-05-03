@@ -44,7 +44,7 @@ Stejně jako právo na mezirasové manželství, volební právo žen, svoboda p
 
 Neplťte si soukromí s utajováním nějaké činnosti. Všichni víme, co se děje v kouplně, ale přesto si zavřete dveře. To proto, že chcete soukromí, ne kvůli utajení něčeho, co v koupelně děláte. **Každý** má co chránit. Soukromí je něco, co nás dělá lidmi.
 
-[:material-target-account: Běžné internetové hrozby](basics/common-threats.md){ class="md-button md-button--primary" }
+[:material-book-outline: Why Privacy Matters](basics/why-privacy-matters.md){ class="md-button md-button--primary" }
 
 ## Co mám dělat?
 

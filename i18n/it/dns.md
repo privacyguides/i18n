@@ -67,7 +67,7 @@ I software proxy per il DNS cifrato forniscono un proxy locale a cui inoltrare l
     **RethinkDNS** è un client Android open-source che supporta [DNS-over-HTTPS](advanced/dns-overview.md#dns-over-https-doh), [DNS-over-TLS](advanced/dns-overview.md#dns-over-tls-dot), [DNSCrypt](advanced/dns-overview.md#dnscrypt) e DNS Proxy oltre a memorizzare nella cache le risposte DNS, registrare localmente le query DNS e può essere usato anche come firewall.
     
     [:octicons-home-16: Pagina principale](https://rethinkdns.com){ .md-button .md-button--primary }
-    [:octicons-eye-16:](https://rethinkdns.com/privacy){ .card-link title="Informativa sulla Privacy" }
+    [:octicons-eye-16:](https://rethinkdns.com/privacy){ .card-link title="Politica sulla Privacy" }
     [:octicons-info-16:](https://docs.rethinkdns.com/){ .card-link title=Documentazione}
     [:octicons-code-16:](https://github.com/celzero/rethink-app){ .card-link title="Codice Sorgente" }
     
@@ -84,7 +84,7 @@ I software proxy per il DNS cifrato forniscono un proxy locale a cui inoltrare l
     
     **dnscrypt-proxy** è un proxy DNS con supporto per [DNSCrypt](advanced/dns-overview.md#dnscrypt), [DNS-over-HTTPS](advanced/dns-overview.md#dns-over-https-doh) e [DNS anonimizzato](https://github.com/DNSCrypt/dnscrypt-proxy/wiki/Anonymized-DNS).
     
-    !!! warning "La funzione DNS anonimizzato [**non**](advanced/dns-overview.md#why-shouldnt-i-use-encrypted-dns) anonimizza il resto del traffico di rete."
+    !!! attenzione "La funzione DNS anonimizzato [**non**](advanced/dns-overview.md#why-shouldnt-i-use-encrypted-dns) anonimizza il resto del traffico di rete."
     
     [:octicons-repo-16: Repository](https://github.com/DNSCrypt/dnscrypt-proxy){ .md-button .md-button--primary }
     [:octicons-info-16:](https://github.com/DNSCrypt/dnscrypt-proxy/wiki){ .card-link title=Documentazione}
@@ -112,7 +112,7 @@ Una soluzione DNS self-hosted è utile per fornire il filtraggio su piattaforme 
     AdGuard Home è dotato di un'interfaccia web raffinata per visualizzare gli insight e gestire i contenuti bloccati.
     
     [:octicons-home-16: Pagina principale](https://adguard.com/adguard-home/overview.html){ .md-button .md-button--primary }
-    [:octicons-eye-16:](https://adguard.com/privacy/home.html){ .card-link title="Informativa sulla Privacy" }
+    [:octicons-eye-16:](https://adguard.com/privacy/home.html){ .card-link title="Politica sulla Privacy" }
     [:octicons-info-16:](https://github.com/AdguardTeam/AdGuardHome/wiki){ .card-link title=Documentazione}
     [:octicons-code-16:](https://github.com/AdguardTeam/AdGuardHome){ .card-link title="Codice sorgente" }
 
@@ -127,7 +127,7 @@ Una soluzione DNS self-hosted è utile per fornire il filtraggio su piattaforme 
     Pi-hole è stato progettato per essere eseguito su un Raspberry Pi, ma non è limitato a tale hardware. Il software dispone di un'interfaccia web intuitiva per visualizzare gli insight e gestire i contenuti bloccati.
     
     [:octicons-home-16: Pagina principale](https://pi-hole.net/){ .md-button .md-button--primary }
-    [:octicons-eye-16:](https://pi-hole.net/privacy/){ .card-link title="Informativa sulla Privacy" }
+    [:octicons-eye-16:](https://pi-hole.net/privacy/){ .card-link title="Politica sulla Privacy" }
     [:octicons-info-16:](https://docs.pi-hole.net/){ .card-link title=Documentazione}
     [:octicons-code-16:](https://github.com/pi-hole/pi-hole){ .card-link title="Codice sorgente" }
     [:octicons-heart-16:](https://pi-hole.net/donate){ .card-link title=Contribuisci }

@@ -83,7 +83,7 @@ schema:
 
 **Android Open Source Project** è un sistema operativo mobile open-source sviluppato da Google che viene utilizzato nella maggior parte dei dispositivi mobile del mondo. La maggior parte dei telefoni venduti con Android sono modificati per includere integrazioni e applicazioni invasive come Google Play Services, quindi è possibile migliorare significativamente la privacy sul proprio dispositivo mobile sostituendo l'installazione predefinita del telefono con una versione di Android priva di queste caratteristiche invasive.
 
-[:octicons-home-16:](https://source.android.com/){ .card-link title="Pagina principale" }
+[:octicons-home-16:](https://source.android.com/){ .card-link title="Pagina Principale" }
 [:octicons-info-16:](https://source.android.com/docs){ .card-link title=Documentazione}
 [:octicons-code-16:](https://cs.android.com/android/platform/superproject/){ .card-link title="Codice sorgente" }
 
@@ -110,8 +110,8 @@ Consigliamo di installare sul dispositivo uno dei seguenti sistemi operativi bas
     
     GrapheneOS offre miglioramenti aggiuntivi in termini di [hardening della sicurezza] (https://it.wikipedia.org/wiki/Hardening) e di privacy. Dispone di un [allocatore di memoria rafforzato](https://github.com/GrapheneOS/hardened_malloc), di autorizzazioni per la rete e per i sensori, di varie altre [caratteristiche di sicurezza](https://grapheneos.org/features). GrapheneOS viene inoltre fornito con aggiornamenti completi del firmware e build firmate, quindi il verified boot è pienamente supportato.
     
-    [:octicons-home-16: Pagina principale](https://signal.org/){ .md-button .md-button--primary }
-    [:octicons-eye-16:](https://signal.org/legal/#privacy-policy){ .card-link title="Informativa sulla privacy" }
+    [:octicons-home-16: Pagina Principale](https://signal.org/){ .md-button .md-button--primary }
+    [:octicons-eye-16:](https://signal.org/legal/#privacy-policy){ .card-link title="Politica sulla privacy" }
     [:octicons-info-16:](https://grapheneos.org/faq){ .card-link title=Documentazione}
     [:octicons-code-16:](https://grapheneos.org/source){ .card-link title="Codice sorgente" }
     [:octicons-heart-16:](https://grapheneos.org/donate/){ .card-link title=Contribuisci }
@@ -131,9 +131,9 @@ I telefoni Google Pixel sono gli unici dispositivi che attualmente soddisfano i 
     **DivestOS** è un soft-fork di [LineageOS](https://lineageos.org/).
     DivestOS eredita molti [dispositivi supportati] (https://divestos.org/index.php?page=devices&base=LineageOS) da LineageOS. Fornisce build firmate, che consentono di avere [verified boot](https://source.android.com/security/verifiedboot) su alcuni dispositivi non-Pixel.
     
-    [:octicons-home-16: Pagnia principale](https://divestos.org){ .md-button .md-button--primary }
+    [:octicons-home-16: Pagnia Principale](https://divestos.org){ .md-button .md-button--primary }
     [:simple-torbrowser:](http://divestoseb5nncsydt7zzf5hrfg44md4bxqjs5ifcv4t7gt7u6ohjyyd.onion){ .card-link title=Onion }
-    [:octicons-eye-16:](https://divestos.org/index.php?page=privacy_policy){ .card-link title="Informativa sulla privacy" }
+    [:octicons-eye-16:](https://divestos.org/index.php?page=privacy_policy){ .card-link title="Politica sulla privacy" }
     [:octicons-info-16:](https://divestos.org/index.php?page=faq){ .card-link title=Documentazione}
     [:octicons-code-16:](https://github.com/divested-mobile){ .card-link title="Codice sorgente" }
     [:octicons-heart-16:](https://divested.dev/index.php?page=donate){ .card-link title=Contribuisci }
@@ -224,8 +224,8 @@ In questo sito raccomandiamo un'ampia gamma di applicazioni per Android. Le app 
     
     **Auditor * * è un'app che sfrutta le funzionalità di sicurezza hardware per fornire il monitoraggio dell'integrità del dispositivo convalidando attivamente l'identità di un dispositivo e l'integrità del suo sistema operativo. Attualmente funziona solo con GrapheneOS o con il sistema operativo stock per i [dispositivi supportati](https://attestation.app/about#device-support).
     
-    [:octicons-home-16: Pagina principale](https://attestation.app){ .md-button .md-button--primary }
-    [:octicons-eye-16:](https://attestation.app/privacy-policy){ .card-link title="Informativa sulla privacy" }
+    [:octicons-home-16: Pagina Principale](https://attestation.app){ .md-button .md-button--primary }
+    [:octicons-eye-16:](https://attestation.app/privacy-policy){ .card-link title="Politica sulla privacy" }
     [:octicons-info-16:](https://attestation.app/about){ .card-link title=Documentazione}
     [:octicons-code-16:](https://attestation.app/source){ .card-link title="Codice sorgente" }
     [:octicons-heart-16:](https://attestation.app/donate){ .card-link title=Contribuisci }
@@ -317,7 +317,7 @@ Il Google Play Store richiede un account Google per l'accesso, il che non è un 
     
     **Aurora Store** è un client di Google Play Store che non richiede un account Google, Google Play Services o microG per scaricare le app.
     
-    [:octicons-home-16: Pagina principale](https://auroraoss.com/){ .md-button .md-button--primary }
+    [:octicons-home-16: Pagina Principale](https://auroraoss.com/){ .md-button .md-button--primary }
     [:octicons-code-16:](https://gitlab.com/AuroraOSS/AuroraStore){ .card-link title="Codice sorgente" }.
     
     ??? download

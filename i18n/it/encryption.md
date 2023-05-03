@@ -21,7 +21,7 @@ Le opzioni qui elencate sono multipiattaforma e ottime per la creazione di backu
     **Cryptomator** è una soluzione per la crittografia progettata per salvare privatamente i file di qualsiasi provider cloud. Ti permette di creare cassaforti che sono memorizzate su un'unità di archiviazione virtuale, il cui contenuto è crittografato e sincronizzato con i tuoi provider di cloud storage.
     
     [:octicons-home-16: Pagina principale](https://cryptomator.org){ .md-button .md-button--primary }
-    [:octicons-eye-16:](https://cryptomator.org/privacy){ .card-link title="Informativa sulla privacy" }
+    [:octicons-eye-16:](https://cryptomator.org/privacy){ .card-link title="Politica sulla privacy" }
     [:octicons-info-16:](https://docs.cryptomator.org/){ .card-link title=Documentazione}
     [:octicons-code-16:](https://github.com/cryptomator){ .card-link title="Codice sorgente" }
     [:octicons-heart-16:](https://cryptomator.org/donate/){ .card-link title=Contribuisci }
@@ -160,7 +160,7 @@ Consigliamo di memorizzare una chiave di ripristino locale in un luogo sicuro, a
     
     **LUKS** è il metodo di FDE (full-disk encryption) predefinito per Linux. Può essere usato per cifrare volumi completi, partizioni o creare container crittografati.
     
-    [:octicons-home-16: Homepage](https://gitlab.com/cryptsetup/cryptsetup/-/blob/main/README.md){ .md-button .md-button--primary }
+    [:octicons-home-16: Pagina Principale](https://gitlab.com/cryptsetup/cryptsetup/-/blob/main/README.md){ .md-button .md-button--primary }
     [:octicons-info-16:](https://gitlab.com/cryptsetup/cryptsetup/-/wikis/home){ .card-link title=Documentazione}
     [:octicons-code-16:](https://gitlab.com/cryptsetup/cryptsetup/){ .card-link title="Codice Sorgente" }
 
@@ -218,8 +218,8 @@ Gli strumenti con interfacce a riga di comando sono utili per integrare [script 
     
     **Kryptor** è uno strumenti gratuito e open-source per la crittografia e la firma dei file che utilizza algoritmi di cifratura moderni e sicuri. Punta a essere una versione migliorata di[age](https://github.com/FiloSottile/age) e [Minisign](https://jedisct1.github.io/minisign/) per fornire un'alternativa semplice a GPG.
     
-    [:octicons-home-16: Homepage](https://www.kryptor.co.uk){ .md-button .md-button--primary }
-    [:octicons-eye-16:](https://www.kryptor.co.uk/features#privacy){ .card-link title="Privacy Policy" }
+    [:octicons-home-16: Pagina Principale](https://www.kryptor.co.uk){ .md-button .md-button--primary }
+    [:octicons-eye-16:](https://www.kryptor.co.uk/features#privacy){ .card-link title="Politica sulla Privacy" }
     [:octicons-info-16:](https://www.kryptor.co.uk/tutorial){ .card-link title=Documentazione}
     [:octicons-code-16:](https://github.com/samuel-lucas6/Kryptor){ .card-link title="Codice sorgente" }
     [:octicons-heart-16:](https://www.kryptor.co.uk/#donate){ .card-link title=Contribuisci }
@@ -266,7 +266,7 @@ Quando cripti con PGP, puoi configurare diverse opzioni nel file `gpg.conf`. Rac
     **GnuPG** è un'alternativa con licenza GPL alla suite PGP per software crittografici. GnuPG è compliant a [RFC 4880](https://tools.ietf.org/html/rfc4880), che è l'attuale specifica IETF di OpenPGP. Il progetto GnuPG ha lavorato a una [bozza aggiornata](https://datatracker.ietf.org/doc/draft-ietf-openpgp-crypto-refresh/) nel tentativo di modernizzare OpenPGP. GnuPG fa parte del progetto software Free Software Foundation di GNU ed ha ricevuto un'importante [finanziamento](https://gnupg.org/blog/20220102-a-new-future-for-gnupg.html) dal governo tedesco.
     
     [:octicons-home-16: Pagina principale](https://gnupg.org){ .md-button .md-button--primary }
-    [:octicons-eye-16:](https://gnupg.org/privacy-policy.html){ .card-link title="Informativa sulla privacy" }
+    [:octicons-eye-16:](https://gnupg.org/privacy-policy.html){ .card-link title="Politica sulla privacy" }
     [:octicons-info-16:](https://gnupg.org/documentation/index.html){ .card-link title=Documentazione}
     [:octicons-code-16:](https://git.gnupg.org/cgi-bin/gitweb.cgi?p=gnupg.git){ .card-link title="Codice sorgente" }
     
@@ -286,7 +286,7 @@ Quando cripti con PGP, puoi configurare diverse opzioni nel file `gpg.conf`. Rac
     **GPG4win** è un pacchetto per Windows di [Intevation e g10 Code](https://gpg4win.org/impressum.html). Comprende [diversi strumenti](https://gpg4win.org/about.html) che possono aiutare nell'utilizzo di GPG su Microsoft Windows. Il progetto è stato avviato e in origine [finanziato dal](https://web.archive.org/web/20190425125223/https://joinup.ec.europa.eu/news/government-used-cryptography) Federal Office per l'Information Security (BSI) tedesco nel 2005.
     
     [:octicons-home-16: Pagina principale](https://gpg4win.org){ .md-button .md-button--primary }
-    [:octicons-eye-16:](https://gpg4win.org/privacy-policy.html){ .card-link title="Informativa sulla privacy" }
+    [:octicons-eye-16:](https://gpg4win.org/privacy-policy.html){ .card-link title="Politica sulla privacy" }
     [:octicons-info-16:](https://gpg4win.org/documentation.html){ .card-link title=Documentazione}
     [:octicons-code-16:](https://git.gnupg.org/cgi-bin/gitweb.cgi?p=gpg4win.git;a=summary){ .card-link title="Codice sorgente" }
     [:octicons-heart-16:](https://gpg4win.org/donate.html){ .card-link title=Contribuisci }
@@ -309,8 +309,8 @@ Quando cripti con PGP, puoi configurare diverse opzioni nel file `gpg.conf`. Rac
     
     Si consiglia di dare un'occhiata ai [primi passi](https://gpgtools.tenderapp.com/kb/how-to/first-steps-where-do-i-start-where-do-i-begin-setup-gpgtools-create-a-new-key-your-first-encrypted-email) e alle [conoscenze di base](https://gpgtools.tenderapp.com/kb) come supporto.
     
-    [:octicons-home-16: Pagina principale](https://gpgtools.org){ .md-button .md-button--primary }
-    [:octicons-eye-16:](https://gpgtools.org/privacy){ .card-link title="Informativa sulla privacy" }
+    [:octicons-home-16: Pagina Principale](https://gpgtools.org){ .md-button .md-button--primary }
+    [:octicons-eye-16:](https://gpgtools.org/privacy){ .card-link title="Politica sulla Privacy" }
     [:octicons-info-16:](https://gpgtools.tenderapp.com/kb){ .card-link title=Documentazione}
     [:octicons-code-16:](https://github.com/GPGTools){ .card-link title="Codice sorgente" }
     
@@ -327,10 +327,9 @@ Quando cripti con PGP, puoi configurare diverse opzioni nel file `gpg.conf`. Rac
     **OpenKeychain** è un'implementazione Android di GnuPG. È comunementa richiesta da client mail come [K-9 Mail](email-clients.md#k-9-mail) e [FairEmail](email-clients.md#fairemail) e da alltre applicazioni Android per fornire supporto alla crittografia. Cure53 ha completato un'[ispezione di sicurezza](https://www.openkeychain.org/openkeychain-3-6) di OpenKeychain 3.6 nell'ottobre 2015. Dettagli tecnici riguardo all'audit e alle soluzioni di OpenKeychain possono essere trovate [qui](https://github.com/open-keychain/open-keychain/wiki/cure53-Security-Audit-2015).
     
     [:octicons-home-16: Pagina principale](https://www.openkeychain.org){ .md-button .md-button--primary }
-    [:octicons-eye-16:](https://www.openkeychain.org/help/privacy-policy){ .card-link title="Informativa sulla privacy" }
+    [:octicons-eye-16:](https://www.openkeychain.org/help/privacy-policy){ .card-link title="Politica sulla privacy" }
     [:octicons-info-16:](https://www.openkeychain.org/faq/){ .card-link title=Documentazione}
     [:octicons-code-16:](https://github.com/open-keychain/open-keychain){ .card-link title="Codice Sorgente" }
-    :octicons-heart-16:{ .card-link title="Le donazioni possono essere fatte nell'app" }
     
     ??? download
     

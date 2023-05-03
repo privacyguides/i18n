@@ -17,11 +17,11 @@ Un [Aggregatore di news](https://en.wikipedia.org/wiki/News_aggregator)è un mod
     
     **Akregator** è un aggregatore di notizie, parte del progetto [KDE](https://kde.org). È dotato di ricerca rapida, funzionalità avanzate di archivio e un browser interno per leggere semplicemente le notizie.
     
-    [:octicons-home-16: Homepage](https://apps.kde.org/akregator){ .md-button .md-button--primary }
-    [:octicons-eye-16:](https://kde.org/privacypolicy-apps){ .card-link title="Privacy Policy" }
-    [:octicons-info-16:](https://docs.kde.org/?application=akregator){ .card-link title=Documentation}
-    [:octicons-code-16:](https://invent.kde.org/pim/akregator){ .card-link title="Source Code" }
-    [:octicons-heart-16:](https://kde.org/community/donations/){ .card-link title=Contribute }
+    [:octicons-home-16: Pagina Principale](https://apps.kde.org/akregator){ .md-button .md-button--primary }
+    [:octicons-eye-16:](https://kde.org/privacypolicy-apps){ .card-link title="Politica sulla Privacy" }
+    [:octicons-info-16:](https://docs.kde.org/?application=akregator){ .card-link title=Documentazione}
+    [:octicons-code-16:](https://invent.kde.org/pim/akregator){ .card-link title="Codice Sorgente" }
+    [:octicons-heart-16:](https://kde.org/community/donations/){ .card-link title=Contribuisci }
     
     ??? download
     
@@ -51,8 +51,8 @@ Un [Aggregatore di news](https://en.wikipedia.org/wiki/News_aggregator)è un mod
     
     **Fluent Reader** è un aggregatore di notizie sicuro e multipiattaforma, dotato di utili funzioni per la privacy come la cancellazione dei cookie all'uscita, di rigorose [content security policies (CSP)](https://en.wikipedia.org/wiki/Content_Security_Policy) e del supporto proxy, che consente di utilizzarlo su [Tor](tor.md).
     
-    [:octicons-home-16: Pagina principale](https://hyliu.me/fluent-reader){ .md-button .md-button--primary }
-    [:octicons-eye-16:](https://github.com/yang991178/fluent-reader/wiki/Privacy){ .card-link title="Informativa sulla privacy" }
+    [:octicons-home-16: Pagina Principale](https://hyliu.me/fluent-reader){ .md-button .md-button--primary }
+    [:octicons-eye-16:](https://github.com/yang991178/fluent-reader/wiki/Privacy){ .card-link title="Politica sulla privacy" }
     [:octicons-info-16:](https://github.com/yang991178/fluent-reader/wiki/){ .card-link title=Documentazione}
     [:octicons-code-16:](https://github.com/yang991178/fluent-reader){ .card-link title="Codice sorgente" }
     [:octicons-heart-16:](https://github.com/sponsors/yang991178){ .card-link title=Contribuisci }
@@ -70,9 +70,9 @@ Un [Aggregatore di news](https://en.wikipedia.org/wiki/News_aggregator)è un mod
     
     **GNOME Feeds** è un aggregatore di notizie [RSS](https://en.wikipedia.org/wiki/RSS) e [Atom](https://en.wikipedia.org/wiki/Atom_(Web_standard)) per [GNOME](https://www.gnome.org). Ha un'interfaccia semplice ed è piuttosto veloce.
     
-    [:octicons-home-16: Pagina principale](https://gfeeds.gabmus.org){ .md-button .md-button--primary }
-    [:octicons-code-16:](https://gitlab.gnome.org/World/gfeeds){ .card-link title="Source Code" }
-    [:octicons-heart-16:](https://liberapay.com/gabmus/){ .card-link title=Contribute }
+    [:octicons-home-16: Pagina Principale](https://gfeeds.gabmus.org){ .md-button .md-button--primary }
+    [:octicons-code-16:](https://gitlab.gnome.org/World/gfeeds){ .card-link title="Codice Sorgente" }
+    [:octicons-heart-16:](https://liberapay.com/gabmus/){ .card-link title=Contribuisci }
     
     ??? download
     

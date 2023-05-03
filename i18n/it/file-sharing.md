@@ -68,7 +68,7 @@ ffsend upload --host https://send.vis.ee/ FILE
     
     **FreedomBox** è un sistema operativo progettato per essere eseguito su un [single-board computer (SBC)](https://it.wikipedia.org/wiki/Single-board_computer). Lo scopo è quello di semplificare la configurazione delle applicazioni server per le quali si desidera il self-hosting.
     
-    [:octicons-home-16: Homepage](https://freedombox.org){ .md-button .md-button--primary }
+    [:octicons-home-16: Pagina Principale](https://freedombox.org){ .md-button .md-button--primary }
     [:octicons-info-16:](https://wiki.debian.org/FreedomBox/Manual){ .card-link title=Documentazione}
     [:octicons-code-16:](https://salsa.debian.org/freedombox-team/freedombox){ .card-link title="Codice Sorgente" }
     [:octicons-heart-16:](https://freedomboxfoundation.org/donate/){ .card-link title=Contribuisci }
@@ -83,7 +83,7 @@ ffsend upload --host https://send.vis.ee/ FILE
     
     **Nextcloud** è una suite di software gratuiti e open-source client-server per la creazione di servizi di file hosting su un server privato controllato dall'utente.
     
-    [:octicons-home-16: Homepage](https://nextcloud.com){ .md-button .md-button--primary }
+    [:octicons-home-16: Pagina Principale](https://nextcloud.com){ .md-button .md-button--primary }
     [:octicons-eye-16:](https://nextcloud.com/privacy){ .card-link title="Politica sulla Privacy" }
     [:octicons-info-16:](https://nextcloud.com/support/){ .card-link title=Documentazione}
     [:octicons-code-16:](https://github.com/nextcloud){ .card-link title="Codice Sorgente" }
@@ -111,7 +111,7 @@ ffsend upload --host https://send.vis.ee/ FILE
     
     **Syncthing** è un'utility open-source di sincronizzazione continua dei file peer-to-peer. Viene utilizzata per sincronizzare i file tra due o più dispositivi sulla rete locale o su Internet. Syncthing non utilizza alcun server centralizzato, ma il [Block Exchange Protocol](https://docs.syncthing.net/specs/bep-v1.html#bep-v1) per trasferire i dati tra i vari dispositivi. Tutti i dati sono criptati usando TLS.
     
-    [:octicons-home-16: Homepage](https://syncthing.net){ .md-button .md-button--primary }
+    [:octicons-home-16: Pagina Principale](https://syncthing.net){ .md-button .md-button--primary }
     [:octicons-info-16:](https://docs.syncthing.net){ .card-link title=Documentazione}
     [:octicons-code-16:](https://github.com/syncthing){ .card-link title="Codice Sorgente" }
     [:octicons-heart-16:](https://syncthing.net/donations/){ .card-link title=Contribuisci }

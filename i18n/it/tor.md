@@ -53,7 +53,7 @@ Esistono diversi modi per connettersi alla rete Tor dal proprio dispositivo, il 
     [:simple-torbrowser:](http://2gzyxa5ihm7nsggfxnu52rck2vv4rvmdlkiu3zzui5du4xyclen53wid.onion){ .card-link title="Servizio Onion" }
     [:octicons-info-16:](https://tb-manual.torproject.org/){ .card-link title=Documentazione }
     [:octicons-code-16:](https://gitweb.torproject.org/tor-browser.git/){ .card-link title="Codice sorgente" }
-    [:octicons-heart-16:](https://donate.torproject.org/){ .card-link title=Contribuisce }
+    [:octicons-heart-16:](https://donate.torproject.org/){ .card-link title=Contribuisci }
     
     ??? download
     
@@ -79,7 +79,7 @@ Tor Browser è progettato per evitare il fingerprinting o l'identificazione dell
     **Orbot** è una VPN Tor gratuita per smartphone che instrada il traffico da qualsiasi app sul dispositivo attraverso la rete Tor.
     
     [:octicons-home-16: Pagina principale](https://orbot.app/){ .md-button .md-button--primary }
-    [:octicons-eye-16:](https://orbot.app/privacy-policy){ .card-link title="Informativa sulla privacy" }
+    [:octicons-eye-16:](https://orbot.app/privacy-policy){ .card-link title="Politica sulla privacy" }
     [:octicons-info-16:](https://orbot.app/faqs){ .card-link title=Documentazione}
     [:octicons-code-16:](https://orbot.app/code){ .card-link title="Codice sorgente" }
     [:octicons-heart-16:](https://orbot.app/donate){ .card-link title=Contribuisci }

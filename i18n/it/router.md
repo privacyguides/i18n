@@ -16,7 +16,7 @@ Di seguito sono elencati alcuni sistemi operativi alternativi che possono essere
     
     **OpenWrt** è un sistema operativo basato su Linux, usato principalmente su dispositivi embedded per instradare il traffico di rete. Include util-linux, uClibc e BusyBox. Tutti i componenti sono stati ottimizzati per i router domestici.
     
-    [:octicons-home-16: Pagina principale](https://openwrt.org){ .md-button .md-button--primary }
+    [:octicons-home-16: Pagina Principale](https://openwrt.org){ .md-button .md-button--primary }
     [:octicons-info-16:](https://openwrt.org/docs/start){ .card-link title=Documentazione}
     [:octicons-code-16:](https://github.com/openwrt/openwrt){ .card-link title="Codice Sorgente" }
     [:octicons-heart-16:](https://openwrt.org/donate){ .card-link title=Contribuisci }
@@ -31,7 +31,7 @@ Di seguito sono elencati alcuni sistemi operativi alternativi che possono essere
     
     **OPNsense** è una piattaforma open source di firewall e routing basata su FreeBSD che incorpora molte funzionalità avanzate come il traffic shaping, il bilanciamento del carico e le funzionalità VPN, con molte altre funzionalità disponibili sotto forma di plugin. OPNsense viene comunemente utilizzato come firewall perimetrale, router, access point wireless, server DHCP, server DNS ed endpoint VPN.
     
-    [:octicons-home-16: Pagina principale](https://opnsense.org/){ .md-button .md-button--primary }
+    [:octicons-home-16: Pagina Principale](https://opnsense.org/){ .md-button .md-button--primary }
     [:octicons-info-16:](https://docs.opnsense.org/index.html){ .card-link title=Documentazione}
     [:octicons-code-16:](https://github.com/opnsense){ .card-link title="Codice Sorgente" }
     [:octicons-heart-16:](https://opnsense.org/donate/){ .card-link title=Contribuisci}

@@ -44,7 +44,7 @@ schema:
 
 Privatsphäre sollte nicht mit Verheimlichen verwechselt werden. Wir wissen, was auf der Toilette passiert, aber machen trotzdem die Tür zu. Das liegt daran, dass du deine Privatsphäre willst, aber nicht unbedingt alles verheimlichen willst. **Alle** haben etwas zu schützen. Privatsphäre ist etwas, das uns zum Menschen macht.
 
-[:material-target-account: Häufige Internet-Bedrohungen](basics/common-threats.md){ class="md-button md-button--primary" }
+[:material-book-outline: Why Privacy Matters](basics/why-privacy-matters.md){ class="md-button md-button--primary" }
 
 ## Was kann ich tun?
 

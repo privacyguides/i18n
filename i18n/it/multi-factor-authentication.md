@@ -18,7 +18,7 @@ cover: multi-factor-authentication.png
     Uno dei vantaggi di YubiKey è che una chiave può fare quasi tutto ciò che ci si aspetta da una chiave di sicurezza fisica (YubiKey 5). Invitiamo a svolgere il [quiz](https://www.yubico.com/quiz/) per essere sicuri di fare il giusto acquisto.
     
     [:octicons-home-16: Pagina principale](https://www.yubico.com){ .md-button .md-button--primary }
-    [:octicons-eye-16:](https://www.yubico.com/support/terms-conditions/privacy-notice){ .card-link title="Informativa sulla privacy" }
+    [:octicons-eye-16:](https://www.yubico.com/support/terms-conditions/privacy-notice){ .card-link title="Politica sulla privacy" }
     [:octicons-info-16:](https://docs.yubico.com/){ .card-link title=Documentazione}
 
 La [tabella di confronto](https://www.yubico.com/store/compare/) mostra le caratteristiche e le differenze tra le YubiKey. Consigliamo vivamente di scegliere le chiavi della Serie 5.
@@ -39,7 +39,7 @@ Per i modelli che supportano HOTP e TOTP, ci sono 2 slot nell'interfaccia OTP ch
     **Nitrokey** ha una chiave di sicurezza che supporta [FIDO2 e WebAuthn] (basics/multi-factor-authentication.md#fido-fast-identity-online), chiamata **Nitrokey FIDO2**. Per il supporto PGP, è necessario un'altra delle loro chiavi, come la **Nitrokey Start**, la **Nitrokey Pro 2** o la **Nitrokey Storage 2**.
     
     [:octicons-home-16: Pagina principale](https://www.nitrokey.com){ .md-button .md-button--primary }
-    [:octicons-eye-16:](https://www.nitrokey.com/data-privacy-policy){ .card-link title="Informativa sulla privacy" }
+    [:octicons-eye-16:](https://www.nitrokey.com/data-privacy-policy){ .card-link title="Politica sulla privacy" }
     [:octicons-info-16:](https://docs.nitrokey.com/){ .card-link title=Documentazione}
 
 La [tabella di confronto](https://www.nitrokey.com/#comparison) mostra le caratteristiche e le differenze tra le chiavette Nitrokey. La **Nitrokey 3** elencata ha un insieme di funzioni combinate.
@@ -99,7 +99,7 @@ Consigliamo vivamente di utilizare applicazioni TOTP per dispositivi mobili inve
     **Aegis Authenticator** è un'applicazione gratuita, sicura e open-source per gestire i token di verifica dei due passaggi per i vostri servizi online.
     
     [:octicons-home-16: Pagina principale](https://getaegis.app){ .md-button .md-button--primary }
-    [:octicons-eye-16:](https://getaegis.app/aegis/privacy.html){ .card-link title="Informativa sulla privacy" }
+    [:octicons-eye-16:](https://getaegis.app/aegis/privacy.html){ .card-link title="Politica sulla privacy" }
     [:octicons-info-16:](https://github.com/beemdevelopment/Aegis/wiki){ .card-link title=Documentazione}
     [:octicons-code-16:](https://github.com/beemdevelopment/Aegis){ .card-link title="Codice sorgente" }
     [:octicons-heart-16:](https://www.buymeacoffee.com/beemdevelopment){ .card-link title=Contribuisci }
@@ -118,7 +118,7 @@ Consigliamo vivamente di utilizare applicazioni TOTP per dispositivi mobili inve
     **Raivo OTP** è un client per password su iOS nativo, leggero e sicuro, basato sul tempo (TOTP) & sul contatore (HOTP). Ravio OTP offre la sincronizzazione & il backup opzionali via iCloud. È inoltre disponibile per macOS come applicazione nella barra di stato, ma non funzione indipendentemente dall'applicazione su iOS.
     
     [:octicons-home-16: Pagina principale](https://raivo-otp.com){ .md-button .md-button--primary }
-    [:octicons-eye-16:](https://raivo-otp.com/privacy-policy){ .card-link title="Informativa sulla privacy" }
+    [:octicons-eye-16:](https://raivo-otp.com/privacy-policy){ .card-link title="Politica sulla privacy" }
     [:octicons-code-16:](https://github.com/raivo-otp/ios-application){ .card-link title="Codice sorgente" }
     [:octicons-heart-16:](https://raivo-otp.com/donate){ .card-link title=Contribuisci }
     

@@ -44,7 +44,7 @@ schema:
 
 אין לבלבל בין פרטיות לסודיות. אנחנו יודעים מה קורה בשירותים, אבל עדיין סוגרים את הדלת. זה בגלל שאתה רוצה פרטיות, לא סודיות. **לכל** אחד יש על מה להגן. פרטיות היא משהו שהופך אותנו לאנושיים.
 
-[:material-target-account: איומי אינטרנט נפוצים](basics/common-threats.md){ class="md-button md-button--primary" }
+[:material-book-outline: Why Privacy Matters](basics/why-privacy-matters.md){ class="md-button md-button--primary" }
 
 ## מה אני צריך לעשות?
 

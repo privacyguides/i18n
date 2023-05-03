@@ -1,44 +1,44 @@
 ---
-title: Git Recommendations
+title: Git 使用建議
 ---
 
-If you make changes to this website on GitHub.com's web editor directly, you shouldn't have to worry about this. If you are developing locally and/or are a long-term website editor (who should probably be developing locally!), consider these recommendations.
+如果想直接在 github.com 網頁編輯器對本站進行修改，則無須擔心此處的建議。 如您使用本地端開發或長期網站編編器(可能為本地端)，請參考以下建議。
 
-## Enable SSH Key Commit Signing
+## 開啟 SSH 密鑰提交簽署
 
-You can use an existing SSH key for signing, or [create a new one](https://docs.github.com/en/authentication/connecting-to-github-with-ssh/generating-a-new-ssh-key-and-adding-it-to-the-ssh-agent).
+可使用現有的SSH 密鑰簽署或 [建立新密鑰one](https://docs.github.com/en/authentication/connecting-to-github-with-ssh/generating-a-new-ssh-key-and-adding-it-to-the-ssh-agent)。
 
-1. Configure your Git client to sign commits and tags by default (remove `--global` to only sign by default for this repo):
+1. 設置 Git 客戶端以預設簽署提交與標籤(移除 `--global` 以便只對此存取庫作簽署):
    ```
    git config --global commit.gpgsign true
    git config --global gpg.format ssh
    git config --global tag.gpgSign true
    ```
-2. Copy your SSH public key to your clipboard, for example:
+2. 將 SSH 公鑰複製到剪貼板，例如:
    ```
    pbcopy < ~/.ssh/id_ed25519.pub
     # Copies the contents of the id_ed25519.pub file to your clipboard
    ```
-3. Set your SSH key for signing in Git with the following command, replacing the last string in quotes with the public key in your clipboard:
+3. 利用下方指令在 Git 底下設定 SSH 密鑰簽署，將最後字串置換成剪貼板中的公鑰且前後帶引號:
    ```
    git config --global user.signingkey 'ssh-ed25519 AAAAC3(...) user@example.com'
    ```
 
-Ensure you [add your SSH key to your GitHub account](https://docs.github.com/en/authentication/connecting-to-github-with-ssh/adding-a-new-ssh-key-to-your-github-account#adding-a-new-ssh-key-to-your-account) **as a Signing Key** (as opposed to or in addition to as an Authentication Key).
+確認 [加入您 GitHub 帳戶中的 SSH 密鑰](https://docs.github.com/en/authentication/connecting-to-github-with-ssh/adding-a-new-ssh-key-to-your-github-account#adding-a-new-ssh-key-to-your-account) **簽署密鑰** (其不同於驗證密鑰)。
 
 ## Rebase on Git pull
 
-Use `git pull --rebase` instead of `git pull` when pulling in changes from GitHub to your local machine. This way your local changes will always be "on top of" the latest changes on GitHub, and you avoid merge commits (which are disallowed in this repo).
+使用 `git pull --rebase` 取代 `git pull` 以從 Github 把變動提取回本地端機器。 這種方式會使本地端的變動總在 Github 之上，而您可避免合併提交(本取存庫亦不允許)。
 
-You can set this to be the default behavior:
+可將它設為默認行為:
 
 ```
 git config --global pull.rebase true
 ```
 
-## Rebase from `main` before submitting a PR
+## 發送提取請求前，先自 `main`重整。
 
-If you are working on your own branch, run these commands before submitting a PR:
+如果是在自建的旁支工作，提取請求前先執行這些指令:
 
 ```
 git fetch origin

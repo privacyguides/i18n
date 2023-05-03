@@ -41,7 +41,7 @@ I fornitori che consigliamo utilizzano la crittografia, accettano Monero, suppor
     **IVPN** è un altro provider VPN premium, sono attivi dal 2009. IVPN ha sede a Gibilterra.
     
     [:octicons-home-16: Pagina principale](https://crypt.ee){ .md-button .md-button--primary }
-    [:octicons-eye-16:](https://crypt.ee/privacy){ .card-link title="Informativa sulla privacy" }
+    [:octicons-eye-16:](https://crypt.ee/privacy){ .card-link title="Politica sulla privacy" }
     [:octicons-info-16:](https://www.ivpn.net/knowledgebase/general){ .card-link title=Documentazione}
     [:octicons-code-16:](https://github.com/ivpn){ .card-link title="Codice sorgente" }
     
@@ -175,12 +175,12 @@ Mullvad è molto trasparente su quali nodi [possiede o affitta](https://mullvad.
     
     **Proton VPN** è un forte concorrente nello spazio VPN ed è attivo dal 2016. Proton AG ha sede in Svizzera e offre un livello gratuito limitato, così come un'opzione premium più ricca di funzioni.
     
-    **Gratuito** — **Piano Plus da 71,88€ all'anno** (1)
-    
-    [:octicons-home-16: Pagina principale](https://protonvpn.com/){ .md-button .md-button--primary }
-    [:octicons-eye-16:](https://protonvpn.com/privacy-policy){ .card-link title="Informativa sulla privacy" }
+    [:octicons-home-16: Pagina Principale](https://protonvpn.com/){ .md-button .md-button--primary }
+    [:octicons-eye-16:](https://protonvpn.com/privacy-policy){ .card-link title="Politica sulla Privacy " }
     [:octicons-info-16:](https://protonvpn.com/support/){ .card-link title=Documentazione}
-    [:octicons-code-16:](https://github.com/ProtonVPN){ .card-link title="Codice sorgente" } download
+    [:octicons-code-16:](https://github.com/ProtonVPN){ .card-link title="Codice Sorgente" }
+    
+    ??? download
     
         - [:simple-googleplay: Google Play](https://play.google.com/store/apps/details?id=ch.protonvpn.android)
         - [:simple-appstore: App Store](https://apps.apple.com/app/apple-store/id1437005085)

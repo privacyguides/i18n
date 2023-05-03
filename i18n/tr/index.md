@@ -44,7 +44,7 @@ Tıpkı ırklar arası evlilik hakkı, kadınların oy hakkı, ifade özgürlü�
 
 Mahremiyet ile gizliliği birbirine karıştırmamalısınız. Banyoda ne olduğunu biliyoruz ama yine de kapıyı kapatıyoruz. Çünkü gizlilik değil, mahremiyet istiyorsunuz. **Herkesin** koruyacak bir şeyi vardır. Mahremiyet bizi insan yapan bir şeydir.
 
-[:material-target-account: Common Internet Threats](basics/common-threats.md){ class="md-button md-button--primary" }
+[:material-book-outline: Why Privacy Matters](basics/why-privacy-matters.md){ class="md-button md-button--primary" }
 
 ## Ne yapmalıyım?
 

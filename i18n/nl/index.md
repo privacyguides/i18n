@@ -44,7 +44,7 @@ Net zoals het recht op interraciale huwelijken, het kiesrecht voor vrouwen, de v
 
 Je moet privacy niet verwarren met geheimhouding. We weten wat er in de badkamer gebeurt, maar je doet nog steeds de deur dicht. Dat is omdat je privacy wilt, geen geheimzinnigheid. **Iedereen** heeft iets te beschermen. Privacy is iets wat ons menselijk maakt.
 
-[:material-target-account: Veelvoorkomende internetbedreigingen](basics/common-threats.md){ class="md-button md-button--primary" }
+[:material-book-outline: Why Privacy Matters](basics/why-privacy-matters.md){ class="md-button md-button--primary" }
 
 ## Wat moet ik doen?
 

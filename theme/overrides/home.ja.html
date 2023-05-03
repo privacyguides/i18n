@@ -23,10 +23,10 @@
 {% extends "main.html" %}
 {% block extrahead %}
   <link rel="stylesheet" href="{{ 'assets/stylesheets/home.css?v=3.3.0' | url }}">
-  <link rel="alternate" type="application/rss+xml" title="Privacy Guides Release Changelog" href="https://discuss.privacyguides.net/c/site-development/changelog/9.rss">
-  <link rel="alternate" type="application/rss+xml" title="Privacy Guides Blog Feed" href="https://blog.privacyguides.org/feed_rss_created.xml">
-  <link rel="alternate" type="application/rss+xml" title="Privacy Guides Web Stories Feed" href="https://share.privacyguides.org/web-stories/feed/">
-  <link rel="alternate" type="application/rss+xml" title="Latest Privacy Guides Forum Topics" href="https://discuss.privacyguides.net/latest.rss" />
+  <link rel="alternate" type="application/rss+xml" title="Privacy Guidesの更新履歴" href="https://discuss.privacyguides.net/c/site-development/changelog/9.rss">
+  <link rel="alternate" type="application/rss+xml" title="Privacy Guides ブログのフィード" href="https://blog.privacyguides.org/feed_rss_created.xml">
+  <link rel="alternate" type="application/rss+xml" title="Privacy Guides ウェブストーリーのフィード" href="https://share.privacyguides.org/web-stories/feed/">
+  <link rel="alternate" type="application/rss+xml" title="Privacy Guides フォーラムの最新トピック" href="https://discuss.privacyguides.net/latest.rss" />
   {{ super() }}
 {% endblock %}
 {% block tabs %}
@@ -38,7 +38,7 @@
         <div class="mdx-hero__content">
           <h1>オンラインプライバシーを取り戻すためのガイドです。</h1>
           <p>大規模な組織が、あなたのオンラインでの活動を監視しています。 Privacy Guidesはあなたがオンラインで自分自身を守るための、プライバシーとセキュリティに関するリソースです。</p>
-          <a href="{% if config.extra.offline %}basics/threat-modeling.html{% else %}kb/{% endif %}" title="プライバシー保護の最初のステップ" class="md-button md-button--primary">
+          <a href="{% if config.extra.offline %}basics/why-privacy-matters.html{% else %}kb/{% endif %}" title="プライバシー保護の最初のステップ" class="md-button md-button--primary">
             プライバシー保護を始める
           </a>
           <a href="{% if config.extra.offline %}tools.html{% else %}tools/{% endif %}" title="おすすめのプライバシー保護ツール、サービス、知識" class="md-button">

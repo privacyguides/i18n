@@ -1,26 +1,26 @@
 ---
-title: "Introduction to Passwords"
+title: "パスワードの概要"
 icon: 'material/form-textbox-password'
 description: These are some tips and tricks on how to create the strongest passwords and keep your accounts secure.
 ---
 
-Passwords are an essential part of our everyday digital lives. We use them to protect our accounts, our devices and our secrets. Despite often being the only thing between us and an adversary who's after our private information, not a lot of thought is put into them, which often leads to people using passwords that can be easily guessed or brute-forced.
+パスワードは、日々のデジタルライフに欠かせないものです。 私たちは、アカウント、デバイス、秘密を守るためにパスワードを使用します。 パスワードは多くの場合、敵対者から個人情報を守る唯一の要素です。にも関わらず、十分に検討されず、簡単に推測できたり、総当たりできるパスワードが使われることが多いようです。
 
-## Best Practices
+## ベストプラクティス
 
-### Use unique passwords for every service
+### 各サービスで異なるパスワードを使う
 
-Imagine this; you sign up for an account with the same e-mail and password on multiple online services. If one of those service providers is malicious, or their service has a data breach that exposes your password in an unencrypted format, all a bad actor would have to do is try that e-mail and password combination across multiple popular services until they get a hit. It doesn't matter how strong that one password is, because they already have it.
+複数のオンラインサービスで、同じメールアドレスとパスワードを使ってアカウントを作成した場合を想像してください。 もし、いずれかのサービス提供者が悪意を持っていたり、サービスが情報漏洩を起こしてパスワードが暗号化されていない状態で公開された場合、悪意ある者は他の人気あるサービスでそのメールアドレスとパスワードの組み合わせでログインを試すことができます。 そのパスワードがどれだけ強固でも、悪意ある者に漏洩した場合は安全性を担保できません。
 
-This is called [credential stuffing](https://en.wikipedia.org/wiki/Credential_stuffing), and it is one of the most common ways that your accounts can be compromised by bad actors. To avoid this, make sure that you never re-use your passwords.
+これは、[クレデンシャルスタッフィング攻撃](https://en.wikipedia.org/wiki/Credential_stuffing)と呼ばれ、悪意ある者がアカウントを侵害するために用いる、よくある攻撃の一つです。 この攻撃への有効な対策は、パスワードを使いまわさないことです。
 
-### Use randomly generated passwords
+### ランダムに生成されたパスワードを使う
 
 ==You should **never** rely on yourself to come up with a good password.== We recommend using [randomly generated passwords](#passwords) or [diceware passphrases](#diceware-passphrases) with sufficient entropy to protect your accounts and devices.
 
 All of our [recommended password managers](../passwords.md) include a built-in password generator that you can use.
 
-### Rotating Passwords
+### パスワードを変更する
 
 You should avoid changing passwords that you have to remember (such as your password manager's master password) too often unless you have reason to believe it has been compromised, as changing it too often exposes you to the risk of forgetting it.
 
@@ -106,6 +106,6 @@ There are many good options to choose from, both cloud-based and local. Choose o
     
     Furthermore, we do not recommend storing single-use recovery codes in your password manager. Those should be stored separately such as in an encrypted container on an offline storage device.
 
-### Backups
+### バックアップ
 
 You should store an [encrypted](../encryption.md) backup of your passwords on multiple storage devices or a cloud storage provider. This can help you access your passwords if something happens to your primary device or the service you are using.

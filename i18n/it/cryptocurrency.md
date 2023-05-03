@@ -21,7 +21,7 @@ Effettuare pagamenti online è una delle maggiori sfide per la privacy. Queste c
     
     **Monero** utilizza una blockchain con tecnologie che migliorano la privacy e offuscano le transazioni per ottenere l'anonimato. Ogni transazione Monero nasconde l'importo della transazione, gli indirizzi di invio e ricezione, e la fonte dei fondi senza dover fare i salti mortali, il che la rende una scelta ideale per i neofiti delle criptovalute.
     
-    [:octicons-home-16: Pagina principale](https://www.getmonero.org/){ .md-button .md-button--primary }
+    [:octicons-home-16: Pagina Principale](https://www.getmonero.org/){ .md-button .md-button--primary }
     [:octicons-info-16:](https://www.getmonero.org/resources/user-guides/){ .card-link title=Documentazione}
     [:octicons-code-16:](https://github.com/monero-project/monero){ .card-link title="Codice Sorgente" }
     [:octicons-heart-16:](https://www.getmonero.org/get-started/contributing/){ .card-link title=Contribuisci }
