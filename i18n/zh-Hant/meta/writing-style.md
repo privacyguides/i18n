@@ -18,7 +18,7 @@ Privacy Guides 預設的 [讀者群](https://www.plainlanguage.gov/guidelines/au
 
 ### 直接向人們講述
 
-We're writing *for* a wide variety of people, but we are writing *to* the person who is actually reading it. 使用“您”直接稱呼讀者。
+我們*為*各種各樣的人寫作，更是*寫給*真正閱讀的人。 使用“您”直接稱呼讀者。
 
 > 使用“您”讓用戶覺得這些資訊與他們息息相關。
 > 
@@ -41,13 +41,13 @@ We're writing *for* a wide variety of people, but we are writing *to* the person
 
 ### 以主題句開頭
 
-> 如果告訴讀者他們會讀到什麼，他們不太可能再去閱讀整段文字。 標題有幫助，但還不夠。 Establish a context for your audience before you provide them with the details.
+> 如果告訴讀者他們會讀到什麼，他們不太可能再去閱讀整段文字。 標題有幫助，但還不夠。 提供細節之前，先讓讀者了解情況脈絡。
 > 
-> We often write the way we think, putting our premises first and then our conclusion. It may be the natural way to develop thoughts, but we wind up with the topic sentence at the end of the paragraph. Move it up front and let users know where you’re going. Don’t make readers hold a lot of information in their heads before getting to the point.
+> 我們常按照自己的想法寫作，先是前提，然後結論。 這可能是發展思想的自然方式，以主題句作為以段落最後的結束。 把它放在前面，讓讀者知道要去哪裡。 進入正題之前，先別讓讀者腦子裝入過多資訊。
 
-Source: [plainlanguage.gov](https://www.plainlanguage.gov/guidelines/organize/have-a-topic-sentence/)
+出處: [plainlanguage.gov](https://www.plainlanguage.gov/guidelines/organize/have-a-topic-sentence/)
 
-## Choose your words carefully
+## 謹選擇用字
 
 > 字字珠璣。 它們是書面和口頭溝通的最基本組成部分。 不要使用人們無法理解的行話、技術術語或縮寫來使事情變得複雜。
 
@@ -55,33 +55,33 @@ Source: [plainlanguage.gov](https://www.plainlanguage.gov/guidelines/organize/ha
 
 > Kathy McGinty 提供了簡單而直接的句子：
 > 
-> > There is no escaping the fact that it is considered very important to note that a number of various available applicable studies ipso facto have generally identified the fact that additional appropriate nocturnal employment could usually keep juvenile adolescents off thoroughfares during the night hours, including but not limited to the time prior to midnight on weeknights and/or 2 a.m. 週末期間。
+> > 值得注意且無法迴避的事實是，許多研究已經普遍確定這個事實，即額外的適當夜間工作，指工作日午夜和/或凌晨 2 點之前的，通常可以使青少年在夜間遠離主幹道 週末期間。
 > 
-> And the original, using stronger, simpler words:
+> 原創，更強烈簡單的用字:
 > 
-> > More night jobs would keep youths off the streets.
+> > 更多的夜班工作會讓年輕人遠離街頭。
 
 ## 簡明扼要
 
-> Unnecessary words waste your audience’s time. Great writing is like a conversation. Omit information that the audience doesn’t need to know. This can be difficult as a subject matter expert so it’s important to have someone look at the information from the audience’s perspective.
+> 沒必要的文字將會浪費大家的時間。 好的寫作就像生活對話。 減除讀者無須知道的資訊。 在意主題的專家不容易處理此事，所以若有審計者角度來看待資訊就很重要。
 
-Source: [plainlanguage.gov](https://www.plainlanguage.gov/guidelines/concise/)
+來源: [plainlanguage.gov](https://www.plainlanguage.gov/guidelines/concise/)
 
 ## 保持文字像在交談
 
-> Verbs are the fuel of writing. They give your sentences power and direction. They enliven your writing and make it more interesting.
+> 動詞是寫作的燃料。 它們賦予句子力量與方向。 它們使寫作更加生動有趣。
 > 
-> Verbs tell your audience what to do. Make sure it’s clear who does what.
+> 動詞可告訴觀眾要做什麼。 確保誰來做什麼很清楚。
 
-### Use active voice
+### 採主動語調
 
-> Active voice makes it clear who is supposed to do what. It eliminates ambiguity about responsibilities. Not “It must be done,” but “You must do it.”
+> 主動語調讓主詞與行動更為明確。 它可減少責任不清的情況 不用被動式，請用主動語氣。
 
-Source: [plainlanguage.gov](https://www.plainlanguage.gov/guidelines/conversational/use-active-voice/)
+出處: [plainlanguage.gov](https://www.plainlanguage.gov/guidelines/conversational/use-active-voice/)
 
-### Use "must" for requirements
+### "必須"表示要求 for requirements
 
 > - “必須” 表示義務
 > - “不必” 表示嚴禁
-> - “may” for a discretionary action
+> - “也許” 表示禮貌請求的行動
 > - "應該"用於建議

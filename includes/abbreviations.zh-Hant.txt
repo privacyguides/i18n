@@ -1,8 +1,8 @@
 *[2FA]: 雙因素驗證
 *[ADB]: Android 偵錯橋接器
 *[AOSP]: Android 開放原始碼計畫 (AOSP)
-*[ATA]: Advanced Technology Attachment
-*[attack surface]: The total number of possible entry points for unauthorized access to a system
+*[ATA]: 高技術配置
+*[attack surface]: 攻擊面，表示整個未經授權卻可存取訪問系統的潛在數量
 *[AVB]: Android Verified Boot
 *[cgroups]: 對照組
 *[CLI]: 命令列介面
@@ -24,12 +24,12 @@
 *[FCM]: Firebase 雲消息
 *[FDE]: 完整磁碟加密
 *[FIDO]: 快速線上身份驗證(FIDO)
-*[fork]: A new software project created by copying an existing project and adding to it independently
+*[fork]: 從現有軟體專案複製再另外分隔出來的新獨立專案。
 *[GDPR]: 一般資料保護法規
-*[GPG]: GNU Privacy Guard (PGP implementation)
+*[GPG]: GNU Privacy Guard (PGP 實行)
 *[GPS]: 全球定位系統
 *[GUI]: 圖形用戶界面
-*[GnuPG]: GNU Privacy Guard (PGP implementation)
+*[GnuPG]: GNU Privacy Guard (PGP 實行)
 *[HDD]: 硬碟
 *[HOTP]: 雜湊式訊息驗證碼(HMAC)基礎的單次密碼
 *[HTTPS]: Hypertext Transfer Protocol Secure
@@ -60,7 +60,7 @@
 *[OS]: 作業系統
 *[OTP]: 一次性密碼
 *[OTPs]: 一次性密碼
-*[OpenPGP]: Open-source implementation of Pretty Good Privacy (PGP)
+*[OpenPGP]: 開源執行 Pretty Good Privacy (PGP)
 *[P2P]: 點對點
 *[PAM]: Linux 插入式驗證模組
 *[POP3]: 郵件協議 3
@@ -69,8 +69,8 @@
 *[QNAME]: 限定名稱
 *[rolling release]: 頻繁發布而不是設定間隔的更新
 *[RSS]: 真正簡易新聞訂閱方式
-*[SELinux]: Security-Enhanced Linux
-*[SIM]: Subscriber Identity Module
+*[SELinux]: 安全強化 Linux
+*[SIM]: 用戶識別模組
 *[SMS]: 短訊服務（標準短訊）
 *[SMTP]: 簡易郵件傳輸通訊協定
 *[SNI]: 伺服器名稱指示

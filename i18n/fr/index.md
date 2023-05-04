@@ -38,13 +38,13 @@ schema:
 <!-- markdownlint-disable-next-line -->
 ## En quoi ça me concerne ?
 
-##### « Je n'ai rien à cacher. Pourquoi devrais-je me soucier de ma vie privée? »
+##### « Je n'ai rien à cacher. Pourquoi devrais-je me soucier de ma vie privée ? »
 
 Tout comme le droit au mariage mixte, le droit de vote des femmes, la liberté d'expression et bien d'autres, notre droit à la vie privée n'a pas toujours été respecté. Dans plusieurs dictatures, ce n'est toujours pas le cas. Nombreux sont nos ancêtres qui se sont battus pour notre droit à la vie privée. ==La vie privée est un droit humain inhérent à chacun d'entre nous== auquel nous avons droit sans discrimination.
 
 Il ne faut pas confondre la vie privée et le secret. Même si on sait ce qui se passe dans la salle de bain, vous fermez quand même la porte. C'est parce que vous voulez une vie privée, et non pas du secret. **Tout le monde** a quelque chose à protéger. La vie privée est quelque chose qui nous rend humains.
 
-[:material-book-outline: Why Privacy Matters](basics/why-privacy-matters.md){ class="md-button md-button--primary" }
+[:material-book-outline: Pourquoi la vie privée est importante](basics/why-privacy-matters.md){ class="md-button md-button--primary" }
 
 ## Que dois-je faire ?
 
@@ -58,7 +58,7 @@ Essayer de protéger toutes vos données contre tout le monde, tout le temps, es
 
 ---
 
-## On a besoin de vous ! Voici comment vous pouvez vous impliquer
+## On a besoin de vous ! Voici comment vous pouvez vous impliquer :
 
 [:simple-discourse:](https://discuss.privacyguides.net/){ title="Rejoignez notre forum" }
 [:simple-mastodon:](https://mastodon.neat.computer/@privacyguides){ rel=me title="Suivez-nous sur Mastodon" }

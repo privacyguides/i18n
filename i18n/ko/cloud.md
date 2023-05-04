@@ -12,7 +12,7 @@ cover: cloud.png
 
 ??? question "Nextcloud를 찾고 계신가요?"
 
-    Nextcloud는 자체 호스팅 파일 관리 제품군으로 [권장 목록에 존재](productivity.md)하고 있습니다. 하지만, 현재로서 Privacy Guides는 제3자 Nextcloud 스토리지 제공 업체를 권장하지 않습니다. Nextcloud 내장 E2EE 기능을 일반 사용자에게 [권장하지 않기 때문](https://discuss.privacyguides.net/t/dont-recommend-nextcloud-e2ee/10352/29)입니다.
+    Nextcloud는 자체 호스팅 파일 관리 제품군으로 [권장 목록에 존재](productivity.md)하고 있습니다. 하지만, 현재로서 저희는 제3자 Nextcloud 스토리지 제공 업체를 권장하지 않습니다. Nextcloud 내장 E2EE 기능을 일반 사용자에게 [권장하지 않기 때문](https://discuss.privacyguides.net/t/dont-recommend-nextcloud-e2ee/10352/29)입니다.
 
 ## Proton Drive
 

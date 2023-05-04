@@ -66,11 +66,11 @@ cover: email-clients.png
     
     **Apple Mail**은 macOS에 기본 포함되어 있으며, PGP 암호화 이메일 전송 기능을 추가하는 [GPG Suite](encryption.md#gpg-suite)를 통해 OpenPGP를 지원하도록 확장 가능합니다.
     
-    [:octicons-home-16: Homepage](https://support.apple.com/guide/mail/welcome/mac){ .md-button .md-button--primary }
-    [:octicons-eye-16:](https://www.apple.com/legal/privacy/en-ww/){ .card-link title="Privacy Policy" }
-    [:octicons-info-16:](https://support.apple.com/mail){ .card-link title=Documentation}
+    [:octicons-home-16: 홈페이지](https://support.apple.com/guide/mail/welcome/mac){ .md-button .md-button--primary }
+    [:octicons-eye-16:](https://www.apple.com/legal/privacy/en-ww/){ .card-link title="프라이버시 정책" }
+    [:octicons-info-16:](https://support.apple.com/mail){ .card-link title=문서}
 
-Apple Mail has the ability to load remote content in the background or block it entirely and hide your IP address from senders on [macOS](https://support.apple.com/guide/mail/mlhl03be2866/mac) and [iOS](https://support.apple.com/guide/iphone/iphf084865c7/ios).
+Apple Mail은 외부 콘텐츠를 백그라운드에서 로드하거나, 완전히 차단해 발신자로부터 IP 주소를 숨길 수 있는 기능을 [macOS](https://support.apple.com/guide/mail/mlhl03be2866/mac) 및 [iOS](https://support.apple.com/guide/iphone/iphf084865c7/ios)에서 제공합니다.
 
 ### Canary Mail (iOS)
 
@@ -92,7 +92,7 @@ Apple Mail has the ability to load remote content in the background or block it 
 
 !!! warning "경고"
 
-    Canary Mail은 Windows 및 Android용 클라이언트를 최근 출시했지만, Privacy Guides는 해당 클라이언트가 iOS/Mac용 클라이언트만큼 안정적이진 않다고 판단하고 있습니다.
+    Canary Mail은 Windows 및 Android용 클라이언트를 최근 출시했지만, 저희는 해당 클라이언트가 iOS/Mac용 클라이언트만큼 안정적이진 않다고 판단하고 있습니다.
 
 Canay Mail은 오픈 소스가 아닙니다. iOS에서 PGP E2EE를 지원하는 이메일 클라이언트가 몇 없기 때문에 권장 목록에 등재되었습니다.
 

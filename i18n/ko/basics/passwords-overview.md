@@ -18,93 +18,93 @@ description: These are some tips and tricks on how to create the strongest passw
 
 ==You should **never** rely on yourself to come up with a good password.== We recommend using [randomly generated passwords](#passwords) or [diceware passphrases](#diceware-passphrases) with sufficient entropy to protect your accounts and devices.
 
-All of our [recommended password managers](../passwords.md) include a built-in password generator that you can use.
+저희가 [권장하는 비밀번호 관리자](../passwords.md)는 전부 비밀번호 생성기를 내장하고 있습니다.
 
 ### 비밀번호 변경
 
-You should avoid changing passwords that you have to remember (such as your password manager's master password) too often unless you have reason to believe it has been compromised, as changing it too often exposes you to the risk of forgetting it.
+비밀번호 관리자의 마스터 비밀번호처럼 머릿속에 외워둬야 하는 비밀번호는 유출이 발생했다고 판단되지 않는 한 자주 변경하지 않는 편이 좋습니다. 잊어버릴 위험성이 높아지기 때문입니다.
 
-When it comes to passwords that you don't have to remember (such as passwords stored inside your password manager), if your [threat model](threat-modeling.md) calls for it, we recommend going through important accounts (especially accounts that don't use multi-factor authentication) and changing their password every couple of months, in case they have been compromised in a data breach that hasn't become public yet. Most password managers allow you to set an expiry date for your password to make this easier to manage.
+비밀번호 관리자 내에서 관리하는 비밀번호 등, 직접 외울 필요가 없는 비밀번호는 여러분의 [위협 모델](threat-modeling.md)에 따라 중요한 계정(특히 다중 인증을 사용하지 않는 계정)은 아직 공개되지 않은 데이터 유출이 발생했을 경우를 대비해 몇 달마다 비밀번호를 변경할 것을 권장합니다. 대부분의 비밀번호 관리자는 비밀번호 만료일 설정 기능을 제공하기 때문에 더욱 관리하기 쉽습니다.
 
-!!! tip "Checking for data breaches"
+!!! tip "데이터 유출 확인"
 
-    If your password manager lets you check for compromised passwords, make sure to do so and promptly change any password that may have been exposed in a data breach. Alternatively, you could follow [Have I Been Pwned's Latest Breaches feed](https://feeds.feedburner.com/HaveIBeenPwnedLatestBreaches) with the help of a [news aggregator](../news-aggregators.md).
+    비밀번호 관리자에서 유출된 비밀번호 확인 기능을 제공하는 경우, 반드시 해당 기능을 사용해 데이터 유출로 인해 노출됐을 가능성이 있는 비밀번호는 즉시 변경하세요. 혹은 [뉴스 애그리게이터](../news-aggregators.md)를 이용해 [내가 겪은 최근 유출 사례(Have I Been Pwned's Latest Breaches feed)](https://feeds.feedburner.com/HaveIBeenPwnedLatestBreaches)를 팔로우 해두는 방법도 있습니다.
 
 ## 강력한 비밀번호 만들기
 
 ### 패스워드
 
-A lot of services impose certain criteria when it comes to passwords, including a minimum or maximum length, as well as which special characters, if any, can be used. You should use your password manager's built-in password generator to create passwords that are as long and complex as the service will allow by including capitalized and lowercase letters, numbers and special characters.
+많은 서비스는 최소/최대 길이, 사용 가능한 특수 문자 등 비밀번호에 특정 제한이 존재합니다. 비밀번호 관리자에 내장된 비밀번호 생성기를 사용해 해당 서비스에서 허용되는 한도 내에서 최대한 길고 복잡한(대문자, 소문자, 숫자, 특수 문자를 포함한) 비밀번호를 만들어야 합니다.
 
-If you need a password you can memorize, we recommend a [diceware passphrase](#diceware-passphrases).
+외워두어야 하는 비밀번호의 경우, [Diceware 패스프레이즈](#diceware-passphrases) 방식으로 생성할 것을 권장합니다.
 
 ### Diceware 패스프레이즈
 
-Diceware is a method for creating passphrases which are easy to remember, but hard to guess.
+다이스웨어(Diceware) 방식을 사용하면 기억하기 쉬우면서도 추측하기는 어려운 패스프레이즈(Passphrase)를 만들 수 있습니다.
 
-Diceware passphrases are a great option when you need to memorize or manually input your credentials, such as for your password manager's master password or your device's encryption password.
+다이스웨어 패스프레이즈는 비밀번호 관리자의 마스터 비밀번호나 기기 암호화 비밀번호 등 직접 머릿속에 외워둬야 하거나 수동으로 입력해야 하는 비밀번호에 유용합니다.
 
-An example of a diceware passphrase is `viewable fastness reluctant squishy seventeen shown pencil`.
+다이스웨어 패스프레이즈의 예시는 이와 같습니다. `viewable fastness reluctant squishy seventeen shown pencil`
 
-To generate a diceware passphrase using real dice, follow these steps:
+실물 주사위를 사용해 다이스웨어 패스프레이즈를 생성하는 방법은 다음과 같습니다:
 
-!!! note
+!!! note "참고"
 
-    These instructions assume that you are using [EFF's large wordlist](https://www.eff.org/files/2016/07/18/eff_large_wordlist.txt) to generate the passphrase, which requires five dice rolls per word. Other wordlists may require more or less rolls per word, and may require a different amount of words to achieve the same entropy.
+    본 내용에서는 [EEF 대규모 단어 목록](https://www.eff.org/files/2016/07/18/eff_large_wordlist.txt)를 활용해 단어당 5번씩 주사위를 굴려 패스프레이즈를 생성한다고 가정합니다. 다른 단어 목록을 사용할 경우에는 주사위를 굴려야 하는 횟수 혹은 동일한 엔트로피를 달성하기 위해 필요한 단어의 양이 달라질 수 있습니다.
 
-1. Roll a six-sided die five times, noting down the number after each roll.
+1. 6면체 주사위를 5번 굴려서 각 주사위를 굴릴 때마다 숫자를 적습니다.
 
-2. As an example, let's say you rolled `2-5-2-6-6`. Look through the [EFF's large wordlist](https://www.eff.org/files/2016/07/18/eff_large_wordlist.txt) for the word that corresponds to `25266`.
+2. 예를 들어, `2-5-2-6-6`가 나왔다고 가정해 보겠습니다. [EEF 대규모 단어 목록](https://www.eff.org/files/2016/07/18/eff_large_wordlist.txt)에서 `25266`에 해당하는 단어를 찾아봅시다.
 
-3. You will find the word `encrypt`. Write that word down.
+3. `encrypt` 단어를 찾았습니다. 이 단어를 받아 적습니다.
 
-4. Repeat this process until your passphrase has as many words as you need, which you should separate with a space.
+4. 원하는 개수의 단어를 얻을 때까지 이 과정을 반복하고, 각 단어는 공백으로 구분합니다.
 
-!!! warning "Important"
+!!! warning "중요"
 
-    You should **not** re-roll words until you get a combination of words that appeal to you. The process should be completely random.
+    단어 조합이 마음에 들지 않는다는 이유로 단어를 다시 선택해서는 **안 됩니다**. 패스프레이즈 생성 과정은 완전히 랜덤으로 진행되어야 합니다.
 
-If you don't have access to or would prefer to not use real dice, you can use your password manager's built-in password generator, as most of them have the option to generate diceware passphrases in addition to regular passwords.
+실물 주사위가 없거나 사용하고 싶지 않은 경우, 비밀번호 관리자에 내장된 비밀번호 생성기를 사용하면 됩니다. 대부분의 비밀번호 관리자는 일반적인 패스워드 방식뿐만 아니라 다이스웨어 패스프레이즈도 지원합니다.
 
-We recommend using [EFF's large wordlist](https://www.eff.org/files/2016/07/18/eff_large_wordlist.txt) to generate your diceware passphrases, as it offers the exact same security as the original list, while containing words that are easier to memorize. There are also [other wordlists in different languages](https://theworld.com/~reinhold/diceware.html#Diceware%20in%20Other%20Languages|outline), if you do not want your passphrase to be in English.
+저희는 원본 목록과 동일한 수준의 보안을 제공하면서 외우기 쉬운 단어로 이루어진 [EEF 대규모 단어 목록](https://www.eff.org/files/2016/07/18/eff_large_wordlist.txt)을 활용해 다이스웨어 패스프레이즈를 생성할 것을 권장드립니다. 영어 외 언어로 패스프레이즈를 생성하고자 하시는 경우 [다른 언어 단어 목록](https://theworld.com/~reinhold/diceware.html#Diceware%20in%20Other%20Languages|outline)도 있습니다.
 
-??? note "Explanation of entropy and strength of diceware passphrases"
+??? note "다이스웨어 패스프레이즈의 엔트로피 및 강도"
 
-    To demonstrate how strong diceware passphrases are, we'll use the aforementioned seven word passphrase (`viewable fastness reluctant squishy seventeen shown pencil`) and [EFF's large wordlist](https://www.eff.org/files/2016/07/18/eff_large_wordlist.txt) as an example.
+    다이스웨어 패스프레이즈의 강도를 알려드리기 위해, 앞서 언급한 7 단어 패스프레이즈(`viewable fastness reluctant squishy seventeen shown pencil`) 및 [EEF 대규모 암호 목록](https://www.eff.org/files/2016/07/18/eff_large_wordlist.txt)을 예로 들어보겠습니다.
     
-    One metric to determine the strength of a diceware passphrase is how much entropy it has. The entropy per word in a diceware passphrase is calculated as $\text{log}_2(\text{WordsInList})$ and the overall entropy of the passphrase is calculated as $\text{log}_2(\text{WordsInList}^\text{WordsInPhrase})$.
+    다이스웨어 패스프레이즈 강도를 결정하는 지표 한 가지는 엔트로피의 크기입니다. 다이스웨어 패스프레이즈의 단어당 엔트로피는 $\text{log}_2(\text{WordsInList})$, 전체 패스프레이즈 엔트로피는 $\text{log}_2(\text{WordsInList}^\text{WordsInPhrase})$로 계산됩니다.
     
-    Therefore, each word in the aforementioned list results in ~12.9 bits of entropy ($\text{log}_2(7776)$), and a seven word passphrase derived from it has ~90.47 bits of entropy ($\text{log}_2(7776^7)$).
+    따라서, 앞서 언급한 목록 내 각 단어는 ~12.9비트 엔트로피($\text{log}_2(7776)$)를, 7 단어 패스프레이즈는 ~90.47비트 엔트로피($\text{log}_2(7776^7)$)를 갖습니다.
     
-    The [EFF's large wordlist](https://www.eff.org/files/2016/07/18/eff_large_wordlist.txt) contains 7776 unique words. To calculate the amount of possible passphrases, all we have to do is $\text{WordsInList}^\text{WordsInPhrase}$, or in our case, $7776^7$.
+    [EEF 대규모 단어 목록](https://www.eff.org/files/2016/07/18/eff_large_wordlist.txt)에 포함된 단어의 수는 7776개입니다. 만들어질 수 있는 패스프레이즈의 양을 계산하면 $\text{WordsInList}^\text{WordsInPhrase}$, 즉 $7776^7$입니다.
     
-    Let's put all of this in perspective: A seven word passphrase using [EFF's large wordlist](https://www.eff.org/files/2016/07/18/eff_large_wordlist.txt) is one of ~1,719,070,799,748,422,500,000,000,000 possible passphrases.
+    종합하면, [EEF 대규모 단어 목록](https://www.eff.org/files/2016/07/18/eff_large_wordlist.txt)을 활용해 생성한 7 단어 패스프레이즈는 1,719,070,799,748,422,500,000,000,000개 경우의 수 중 하나입니다.
     
-    On average, it takes trying 50% of all the possible combinations to guess your phrase. With that in mind, even if your adversary is capable of ~1,000,000,000,000 guesses per second, it would still take them ~27,255,689 years to guess your passphrase. That is the case even if the following things are true:
+    평균적으로, 누군가의 패스프레이즈를 알아맞히려면 가능한 모든 조합의 50%를 시도해야만 합니다. 이 점을 고려하여 계산해보면 공격자가 만약 초당 1,000,000,000,000번 시도한다고 가정해도 여러분의 패스프레이즈를 알아맞히는 데에는 27,255,689년이 걸립니다. 심지어 이는 다음 조건을 충족하는 경우의 이야기입니다:
 
-    - Your adversary knows that you used the diceware method.
-    - Your adversary knows the specific wordlist that you used.
-    - Your adversary knows how many words your passphrase contains.
+    - 여러분이 다이스웨어 방식을 사용했다는 점을 공격자가 알고 있습니다.
+    - 여러분이 어떤 단어 목록을 활용했는지를 공격자가 알고 있습니다.
+    - 여러분의 패스프레이즈 단어 개수를 공격자가 알고 있습니다.
 
-To sum it up, diceware passphrases are your best option when you need something that is both easy to remember *and* exceptionally strong.
+요약하자면, 기억하기 쉬우면서*도* 매우 강력한 비밀번호가 필요할 경우에는 다이스웨어 패스프레이즈가 최선의 선택입니다.
 
 ## 비밀번호 저장
 
 ### 비밀번호 관리자
 
-비밀번호를 저장하는 가장 좋은 방법은 비밀번호 관리자를 사용하는 것입니다. They allow you to store your passwords in a file or in the cloud and protect them with a single master password. That way, you will only have to remember one strong password, which lets you access the rest of them.
+비밀번호를 저장하는 가장 좋은 방법은 비밀번호 관리자를 사용하는 것입니다. 파일이나 클라우드에 비밀번호들을 저장하고 마스터 비밀번호 하나로 보호할 수 있습니다. 이로써, 강력한 비밀번호 하나만 외워두면 모든 비밀번호를 관리할 수 있습니다.
 
-There are many good options to choose from, both cloud-based and local. Choose one of our recommended password managers and use it to establish strong passwords across all of your accounts. We recommend securing your password manager with a [diceware passphrase](#diceware-passphrases) comprised of at least seven words.
+클라우드 기반, 로컬 기반 각각 훌륭한 선택지가 여럿 있습니다. 권장 비밀번호 관리자 중 하나를 선택해 모든 계정의 비밀번호를 강력하게 설정하세요. 비밀번호 관리자 마스터 비밀번호는 [다이스웨어 패스프레이즈](#diceware-passphrases)를 사용하여 7개 단어 이상으로 구성할 것을 권장드립니다.
 
 [권장 비밀번호 관리자 목록](../passwords.md ""){.md-button}
 
 !!! warning "비밀번호와 TOTP 토큰을 하나의 비밀번호 관리자에 저장하지 마세요"
 
-    When using TOTP codes as [multi-factor authentication](../multi-factor-authentication.md), the best security practice is to keep your TOTP codes in a [separate app](../multi-factor-authentication.md#authenticator-apps).
+    TOTP 코드 [다중 인증](../multi-factor-authentication.md) 방식을 사용하는 경우, TOTP 코드는 [별도 앱](../multi-factor-authentication.md#authenticator-apps)에서 보관하는 것이 가장 좋은 방법입니다.
     
-    Storing your TOTP tokens in the same place as your passwords, while convenient, reduces the accounts to a single factor in the event that an adversary gains access to your password manager.
+    TOTP 토큰과 비밀번호를 한 곳에서 관리하면 편리하지만, 만약 공격자가 여러분의 비밀번호 관리자에 접근 가능할 경우 다중 인증은 무용지물이 됩니다.
     
-    Furthermore, we do not recommend storing single-use recovery codes in your password manager. Those should be stored separately such as in an encrypted container on an offline storage device.
+    일회용 복구 코드 또한 비밀번호 관리자에 저장하지 말 것을 권장드립니다. 이러한 정보는 오프라인 저장 장치의 암호화 컨테이너 등에 별도로 보관해야 합니다.
 
 ### 백업
 

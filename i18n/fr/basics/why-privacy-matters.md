@@ -1,57 +1,57 @@
 ---
-title: "Why Privacy Matters"
+title: "Pourquoi la vie privée est importante"
 icon: 'material/shield-account'
 ---
 
-In the modern age of digital data exploitation, your privacy has never been more critical, and yet many believe it is already a lost cause. It is not. ==Your privacy is up for grabs==, and you need to care about it. Privacy is about power, and it is so important that this power ends up in the right hands.
+À l'ère moderne de l'exploitation des données numériques, la protection de votre vie privée n'a jamais été aussi cruciale, et pourtant beaucoup pensent qu'elle est déjà une cause perdue. Ce n'est pas le cas. ==Votre vie privée est en jeu==, et vous devez vous en préoccuper. La protection de la vie privée est une question de pouvoir, et il est très important que ce pouvoir soit entre de bonnes mains.
 
-Privacy is ultimately about human information, and this is important because we know that human information confers power over human beings. If we care about our ability to be authentic, fulfilled, and free humans, we have to care about the rules that apply to information about us. So much of our modern society is structured around **information**. When you shop online, read the news, look something up, vote, seek directions, or really anything else, you are relying on information. If we live in an information society, our information matters, and therefore privacy matters.
+La protection de la vie privée concerne en fin de compte des informations humaines, et c'est important car nous savons que les informations humaines confèrent un pouvoir sur les êtres humains. Si nous tenons à notre capacité à être des êtres humains authentiques, épanouis et libres, nous devons nous préoccuper des règles qui s'appliquent aux informations nous concernant. Une grande partie de notre société moderne est structurée autour de **l'information**. Lorsque vous faites des achats en ligne, lisez les actualités, cherchez quelque chose sur internet, votez, demandez votre chemin ou que vous faites n'importe quoi d'autre, vous vous fiez à l'information. Si nous vivons dans une société de l'information, nos informations sont importantes et la vie privée l'est donc aussi.
 
-## What is Privacy?
+## Qu'est-ce que la vie privée ?
 
-Many people get the concepts of **privacy**, **security**, and **anonymity** confused. You'll see people criticize various products as "not private" when really they mean it doesn't provide anonymity, for example. On this website, we cover all three of these topics, but it is important you understand the difference between them, and when each one comes into play.
+De nombreuses personnes confondent les concepts de **vie privée**, **sécurité**, et **anonymat**. Vous verrez des gens critiquer divers produits en disant qu'ils ne sont pas privés, alors qu'ils veulent dire qu'ils ne garantissent pas l'anonymat, par exemple. Sur ce site web, nous abordons ces trois sujets, mais il est important que vous compreniez la différence entre eux et quand chacun d'entre eux entre en jeu.
 
-**Confidentialité**
+**Vie privée**
 :
 
-==Privacy is the assurance that your data is only seen by the parties you intend to view it.== In the context of an instant messenger, for example, end-to-end encryption provides privacy by keeping your message visible only to yourself and the recipient.
+==La protection de la vie privée est l'assurance que vos données ne sont vues que par les parties que vous autorisez à les voir.== Dans le contexte d'une messagerie instantanée, par exemple, le chiffrement de bout en bout assure la confidentialité en faisant en sorte que votre message ne soit visible que par vous-même et par le destinataire.
 
 **Sécurité**
 :
 
-Security is the ability to trust the applications you use—that the parties involved are who they say they are—and keep those applications safe. In the context of browsing the web, for example, security can be provided by HTTPS certificates.
+La sécurité est la capacité à faire confiance aux applications que vous utilisez, à savoir que les parties impliquées sont bien celles qu'elles prétendent être, et à garder ces applications sécurisés. Dans le contexte de la navigation sur le web, par exemple, la sécurité peut être assurée par des certificats HTTPS.
 
-    Certificates prove you are talking directly to the website you're visiting, and keep attackers on your network from reading or modifying the data sent to or from the website.
+    Les certificats prouvent que vous communiquez directement avec le site web que vous visitez et empêchent les attaquants sur votre réseau de lire ou de modifier les données envoyées vers ou depuis le site web.
 
-**Anonymity**
+**Anonymat**
 :
 
-Anonymity is the ability to act without a persistent identifier. You might achieve this online with [Tor](../tor.md), which allows you to browse the internet with a random IP address and network connection instead of your own.
+L'anonymat est la capacité d'agir sans identifiant permanent. Vous pouvez y parvenir en ligne avec [Tor](../tor.md), qui vous permet de naviguer sur internet avec une adresse IP et une connexion réseau aléatoires au lieu de la vôtre.
 
-    **Pseudonymity** is a similar concept, but it allows you to have a persistent identifier without it being tied to your real identity. If everybody knows you as `@GamerGuy12` online, but nobody knows your real name, that is your pseudonym.
+    Le **pseudonymat** est un concept similaire, mais il vous permet d'avoir un identifiant persistant sans qu'il soit lié à votre identité réelle. Si tout le monde vous connaît sous le nom de `@KevinDu59` en ligne, mais que personne ne connaît votre vrai nom, c'est votre pseudonyme.
 
-All of these concepts overlap, but it is possible to have any combination of these. The sweet spot for most people is when all three of these concepts overlap. However, it's tricker to achieve than many initially believe. Sometimes, you have to compromise on some of these, and that's okay too. This is where **threat modeling** comes into play, allowing you to make informed decisions about the [software and services](../tools.md) you use.
+Tous ces concepts se chevauchent, mais il est possible de les combiner. Pour la plupart des gens, l'idéal est que ces trois concepts se chevauchent. Cependant, il est plus difficile d'y parvenir que beaucoup ne le croient au premier abord. Parfois, il faut faire des compromis sur certains points, et c'est très bien ainsi. C'est là que la **modélisation des menaces** entre en jeu, vous permettant de prendre des décisions éclairées sur [les logiciels et les services](../tools.md) que vous utilisez.
 
-[:material-book-outline: Learn More About Threat Modeling](basics/threat-modeling.md ""){.md-button}
+[:material-book-outline: En savoir plus sur la modélisation des menaces](basics/threat-modeling.md ""){.md-button}
 
-## Privacy vs. Secrecy
+## Vie privée vs secret
 
-A common counter-argument to pro-privacy movements is the notion that one doesn't need privacy if they have **"nothing to hide."** This is a dangerous misconception, because it creates a sense that people who demand privacy must be deviant, criminal, or wrong.
+Un contre-argument courant aux mouvements en faveur de la protection de la vie privée est l'idée que l'on n'a pas besoin de vie privée si l'on n'a **"rien à cacher"**. Il s'agit d'une idée fausse et dangereuse, car elle donne l'impression que les personnes qui exigent le respect de la vie privée sont forcément déviantes, criminelles ou mauvaises.
 
-==You shouldn't confuse privacy with secrecy.== We know what happens in the bathroom, but you still close the door. C'est parce que vous voulez une vie privée, et non pas du secret. There are always certain facts about us—say, personal health information, or sexual behavior—that we wouldn't want the whole world to know, and that's okay. The need for privacy is legitimate, and that's what makes us human. Privacy is about empowering your rights over your own information, not about hiding secrets.
+==Il ne faut pas confondre vie privée et secret.== Nous savons ce qui se passe dans les toilettes, mais vous fermez quand même la porte. C'est parce que vous voulez une vie privée, et non pas du secret. Il y a toujours certains faits nous concernant - par exemple, des informations sur notre santé personnelle ou notre comportement sexuel - que nous ne voudrions pas que le monde entier connaisse, et c'est normal. Le besoin de vie privée est légitime et c'est ce qui fait de nous des êtres humains. La protection de la vie privée consiste à renforcer vos droits sur vos propres informations, et non à cacher des secrets.
 
-## Is Privacy About Control?
+## La vie privée est-elle une question de contrôle ?
 
-A common definition of privacy is that it is the ability to *control* who has access to your data. This is an easy trap to fall into, in fact it is the definition of privacy we operated this website on for a long time. It sounds nice, and it appeals to many people, but in practice it just doesn't work.
+Une définition courante de la vie privée est la possibilité de *contrôler* qui a accès à vos données. C'est un piège dans lequel il est facile de tomber, et c'est en fait la définition de la vie privée sur laquelle nous avons longtemps fait fonctionner ce site web. Cela semble bien, et cela plaît à beaucoup de gens, mais dans la pratique, cela ne fonctionne pas.
 
-Take cookie consent forms, for example. You may encounter these dozens of times per day on the various websites you visit, with a nice array of checkboxes and sliders which allow you to "curate" your preferences to exactly fit your needs. In the end, we just hit the "I Agree" button, because we just want to read the article or make a purchase. Nobody wants to complete a personal privacy audit on every single website they visit. This is an exercise in [choice architecture](https://en.wikipedia.org/wiki/Choice_architecture), designed to make you take the easy route out instead of delving into a maze of configuration options that don't need to exist in the first place.
+Prenons l'exemple des formulaires de consentement des cookies. Vous les rencontrez peut-être des dizaines de fois par jour sur les différents sites web que vous visitez, avec une belle série de cases à cocher et de curseurs qui vous permettent d'adapter vos préférences à vos besoins. En fin de compte, nous appuyons sur le bouton "J'accepte", parce que nous voulons simplement lire l'article ou faire un achat. Personne n'a envie de procéder à un audit de la protection de la vie privée sur chaque site web qu'il visite. Il s'agit d'un exercice [d'architecture de choix](https://en.wikipedia.org/wiki/Choice_architecture), conçu pour vous inciter à choisir la voie la plus facile au lieu de vous plonger dans un labyrinthe d'options de configuration qui n'ont pas lieu d'exister.
 
-==Control over your privacy inside most apps is an illusion.== It's a shiny dashboard with all sorts of choices you can make about your data, but rarely the choices you're looking for, like "only use my data to help me." This type of control is meant to make you feel guilty about your choices, that you "had the choice" to make the apps you use more private, and you chose not to.
+==Le contrôle de votre vie privée dans la plupart des applications est une illusion.== Il s'agit d'un joli tableau de bord avec toutes sortes de choix que vous pouvez faire à propos de vos données, mais rarement les choix que vous recherchez, comme "n'utiliser mes données que pour m'aider". Ce type de contrôle vise à vous faire culpabiliser de vos choix, à vous faire comprendre que vous "aviez le choix" de rendre les applications que vous utilisez plus privées, et que vous avez choisi de ne pas le faire.
 
-Privacy is something we need to have baked into the [software and services](../tools.md) we use by default, you can't bend most apps into being private on your own.
+La protection de la vie privée doit être intégrée par défaut dans les [logiciels et services](../tools.md) que nous utilisons, car il est impossible de forcer de vous-même la plupart des applications à respecter votre vie privée.
 
 ## Sources
 
-- [Why Privacy Matters](https://www.amazon.com/Why-Privacy-Matters-Neil-Richards/dp/0190939044) (2021) by Neil Richards
+- [Why Privacy Matters](https://www.amazon.com/Why-Privacy-Matters-Neil-Richards/dp/0190939044) (2021) par Neil Richards
 - [The New Oil: Why Privacy & Security Matter](https://thenewoil.org/en/guides/prologue/why/)
-- [@Thorin-Oakenpants on GitHub](https://github.com/privacytools/privacytools.io/issues/1760#issuecomment-597497298)
+- [@Thorin-Oakenpants sur GitHub](https://github.com/privacytools/privacytools.io/issues/1760#issuecomment-597497298)

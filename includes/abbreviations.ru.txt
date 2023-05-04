@@ -10,7 +10,7 @@
 *[CVE]: Common Vulnerabilities and Exposures
 *[Цифровое наследие]: Цифровое наследие относится к функциям, которые позволяют вам предоставить другим людям доступ к вашим данным после вашей смерти
 *[DNSSEC]: Domain Name System Security Extensions
-*[DNS]: Domain Name System
+*[DNS]: Система доменных имён (Domain Name System)
 *[DoH]: DNS через HTTPS
 *[DoQ]: DNS через QUIC
 *[DoH3]: DNS через HTTP/3
@@ -18,18 +18,18 @@
 *[E2EE]: Сквозное шифрование
 *[ECS]: EDNS Client Subnet
 *[EEA]: European Economic Area
-*[entropy]: A measurement of how unpredictable something is
+*[энтропия]: A measurement of how unpredictable something is
 *[EOL]: End-of-Life
 *[Exif]: Exchangeable image file format
 *[FCM]: Firebase Cloud Messaging
 *[FDE]: Шифрование всего диска
 *[FIDO]: Fast IDentity Online
 *[форк]: Новое программное обеспечение, созданное путем модификации открытого кода существующего проекта
-*[GDPR]: General Data Protection Regulation
-*[GPG]: GNU Privacy Guard (PGP implementation)
-*[GPS]: Global Positioning System
+*[GDPR]: Общее положение о защите данных (General Data Protection Regulation)
+*[GPG]: GNU Privacy Guard (реализация PGP)
+*[GPS]: Глобальная система позиционирования (Global Positioning System)
 *[GUI]: Графический пользовательский интерфейс
-*[GnuPG]: GNU Privacy Guard (PGP implementation)
+*[GnuPG]: GNU Privacy Guard (реализация PGP)
 *[HDD]: Жесткий диск
 *[HOTP]: HMAC (Hash-based Message Authentication Code) based One-Time Password
 *[HTTPS]: Hypertext Transfer Protocol Secure
@@ -40,13 +40,13 @@
 *[IMEI]: International Mobile Equipment Identity
 *[IMSI]: International Mobile Subscriber Identity
 *[IP]: Internet Protocol
-*[IPv4]: Internet Protocol version 4
-*[IPv6]: Internet Protocol version 6
+*[IPv4]: Интернет протокол версии 4 (Internet Protocol version 4)
+*[IPv6]: Интернет протокол версии 6 (Internet Protocol version 6)
 *[ISP]: Интернет-провайдер
 *[ISPs]: Интернет-провайдеры
 *[JNI]: Java Native Interface
-*[KYC]: Know Your Customer
-*[LUKS]: Linux Unified Key Setup (Full-Disk Encryption)
+*[KYC]: Знай своего клиента (Know Your Customer)
+*[LUKS]: Шифрование всего диска Linux (Linux Unified Key Setup)
 *[MAC]: Media Access Control
 *[MDAG]: Microsoft Defender Application Guard
 *[MEID]: Mobile Equipment Identifier
@@ -58,13 +58,13 @@
 *[OEM]: Original Equipment Manufacturer
 *[OEMs]: Original Equipment Manufacturers
 *[OS]: Операционная система
-*[OTP]: One-Time Password
-*[OTPs]: One-Time Passwords
-*[OpenPGP]: Open-source implementation of Pretty Good Privacy (PGP)
+*[OTP]: Одноразовый пароль (One-Time Password)
+*[OTPs]: Одноразовые пароли (One-Time Passwords)
+*[OpenPGP]: Реализация PGP с открытым исходным кодом
 *[P2P]: Peer-to-Peer
 *[PAM]: Linux Pluggable Authentication Modules
 *[POP3]: Post Office Protocol 3
-*[PGP]: Pretty Good Privacy (see OpenPGP)
+*[PGP]: Pretty Good Privacy (смотри OpenPGP)
 *[ПД]: Персональные данные
 *[QNAME]: Qualified Name
 *[rolling release]: Updates which are released frequently rather than set intervals
@@ -78,13 +78,13 @@
 *[SSH]: Secure Shell
 *[SUID]: Set Owner User ID
 *[SaaS]: Программное обеспечение как услуга (облачное программное обеспечение)
-*[SoC]: System on Chip
+*[SoC]: Система на кристалле (System on Chip)
 *[SSO]: Single sign-on
 *[TCP]: Transmission Control Protocol
 *[TEE]: Trusted Execution Environment
 *[TLS]: Протокол защиты транспортного уровня
 *[ToS]: Условия использования
-*[TOTP]: Одноразовый пароль, основанный на времени
+*[TOTP]: Одноразовый пароль, основанный на времени (Time-based One-Time Password)
 *[TPM]: Trusted Platform Module
 *[U2F]: Универсальный второй фактор
 *[UEFI]: Unified Extensible Firmware Interface

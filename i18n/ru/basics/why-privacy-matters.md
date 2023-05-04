@@ -1,54 +1,54 @@
 ---
-title: "Why Privacy Matters"
+title: "Почему приватность имеет значение"
 icon: 'material/shield-account'
 ---
 
-In the modern age of digital data exploitation, your privacy has never been more critical, and yet many believe it is already a lost cause. It is not. ==Your privacy is up for grabs==, and you need to care about it. Privacy is about power, and it is so important that this power ends up in the right hands.
+Ваша приватность никогда не была столь важна, как в современную эпоху эксплуатации цифровых данных, хотя многие и считают, что она уже потеряна. Это не так. ==Вашу приватность хотят отнять==, и вы должны обратить на это внимание. Приватность - это власть, поэтому так важно, чтобы эта власть оказалась в правильных руках.
 
-Privacy is ultimately about human information, and this is important because we know that human information confers power over human beings. If we care about our ability to be authentic, fulfilled, and free humans, we have to care about the rules that apply to information about us. So much of our modern society is structured around **information**. When you shop online, read the news, look something up, vote, seek directions, or really anything else, you are relying on information. If we live in an information society, our information matters, and therefore privacy matters.
+Приватность в конечном итоге связана с информацией о человеке, и это важно, потому что мы знаем, что информация о человеке дает власть над ним. Если нас волнует наша способность быть настоящими, полноценными и свободными людьми, мы должны заботиться о правилах, которые применяются к нашей информации. Большая часть нашего современного общества построена вокруг **информации**. Когда вы совершаете покупки в интернете, читаете новости, ищете что-то, голосуете, ищете дорогу или делаете что-то еще, вы полагаетесь на информацию. Если мы живем в информационном обществе, то наша информация имеет значение, поэтому имеет значение и приватность.
 
-## What is Privacy?
+## Что такое приватность?
 
-Many people get the concepts of **privacy**, **security**, and **anonymity** confused. You'll see people criticize various products as "not private" when really they mean it doesn't provide anonymity, for example. On this website, we cover all three of these topics, but it is important you understand the difference between them, and when each one comes into play.
+Многие люди путают **приватность**, **безопасность** и **анонимность**. Вы можете видеть, как люди критикуют различные продукты как "не приватные", когда на самом деле они имеют в виду, что они не обеспечивают анонимность. На этом сайте мы рассматриваем все эти три темы, но важно понимать разницу между ними, и когда каждая из них вступает в игру.
 
-**Privacy**
+**Приватность**
 :
 
-==Privacy is the assurance that your data is only seen by the parties you intend to view it.== In the context of an instant messenger, for example, end-to-end encryption provides privacy by keeping your message visible only to yourself and the recipient.
+== Приватность - это гарантия того, что ваши данные будут видны только тем лицам, которым они предназначены для просмотра.== Например, в контексте обмена сообщениями сквозное шифрование обеспечивает приватность, поскольку ваше сообщение видно только вам и получателю.
 
-**Security**
+**Безопасность**
 :
 
-Security is the ability to trust the applications you use—that the parties involved are who they say they are—and keep those applications safe. In the context of browsing the web, for example, security can be provided by HTTPS certificates.
+Безопасность - это возможность доверять приложениям, которые вы используете, что участвующие стороны являются теми, за кого себя выдают. В контексте интернет сёрфинга, безопасность может быть обеспечена сертификатами HTTPS.
 
-    Certificates prove you are talking directly to the website you're visiting, and keep attackers on your network from reading or modifying the data sent to or from the website.
+    Сертификаты подтверждают, что вы напрямую общаетесь с веб-сайтом, который посещаете, и не позволяют злоумышленникам в вашей сети читать или изменять данные, отправленные на веб-сайт или из него.
 
-**Anonymity**
+**Анонимность**
 :
 
-Anonymity is the ability to act without a persistent identifier. You might achieve this online with [Tor](../tor.md), which allows you to browse the internet with a random IP address and network connection instead of your own.
+Анонимность - это возможность действовать без постоянного идентификатора. Вы можете достичь этого онлайн с помощью [Tor](../tor.md), который позволяет просматривать интернет со случайным IP адресом и сетевым подключением вместо вашего собственного.
 
-    **Pseudonymity** is a similar concept, but it allows you to have a persistent identifier without it being tied to your real identity. If everybody knows you as `@GamerGuy12` online, but nobody knows your real name, that is your pseudonym.
+    **Псевдоним** является похожим понятием, но он позволяет иметь постоянный идентификатор без его привязки к вашей реальной личности. Если в интернете все знают вас как `@GamerGuy12`, но никто не знает вашего настоящего имени, это и есть ваш псевдоним.
 
-All of these concepts overlap, but it is possible to have any combination of these. The sweet spot for most people is when all three of these concepts overlap. However, it's tricker to achieve than many initially believe. Sometimes, you have to compromise on some of these, and that's okay too. This is where **threat modeling** comes into play, allowing you to make informed decisions about the [software and services](../tools.md) you use.
+Все эти понятия накладываются друг на друга, и возможно любое их сочетание. Для большинства людей оптимальный вариант - когда все эти три понятия пересекаются. Однако добиться этого гораздо сложнее, чем многие думают на первый взгляд. Иногда приходится идти на компромисс в некоторых вопросах, и это тоже нормально. Вот где **моделирование угроз** становится важным, позволяя вам принимать обоснованные решения относительно [программ и услуг](../tools.md), которые вы используете.
 
-[:material-book-outline: Learn More About Threat Modeling](basics/threat-modeling.md ""){.md-button}
+[:material-book-outline: Узнайте больше о моделировании угроз](basics/threat-modeling.md ""){.md-button}
 
-## Privacy vs. Secrecy
+## Приватность или секретность
 
-A common counter-argument to pro-privacy movements is the notion that one doesn't need privacy if they have **"nothing to hide."** This is a dangerous misconception, because it creates a sense that people who demand privacy must be deviant, criminal, or wrong.
+Распространенным контраргументом против движения за приватность является представление о том, что человеку не нужна приватность, если ему **"нечего скрывать".** Это опасное заблуждение, потому что оно создает ощущение, что люди, требующие приватности, являются девиантами, преступниками или неправильными.
 
-==You shouldn't confuse privacy with secrecy.== We know what happens in the bathroom, but you still close the door. Это потому, что вы хотите приватности, а не секретности. There are always certain facts about us—say, personal health information, or sexual behavior—that we wouldn't want the whole world to know, and that's okay. The need for privacy is legitimate, and that's what makes us human. Privacy is about empowering your rights over your own information, not about hiding secrets.
+==Не стоит путать приватность и секретность.== Мы все знаем, что происходит в ванной, но вы все равно закрываете дверь. Это потому, что вы хотите приватности, а не секретности. Всегда есть определенные факты о нас, например информация о личном здоровье или сексуальном поведении, которыми мы бы не хотели делиться со всем миром, и это нормально. Потребность в приватности легитимна, и именно это делает нас людьми. Приватность - это ваши права на вашу собственную информацию, а не сокрытие секретов.
 
-## Is Privacy About Control?
+## Приватность - это контроль?
 
-A common definition of privacy is that it is the ability to *control* who has access to your data. This is an easy trap to fall into, in fact it is the definition of privacy we operated this website on for a long time. It sounds nice, and it appeals to many people, but in practice it just doesn't work.
+Общепринятое определение приватности - это возможность *контролировать*, кто имеет доступ к вашим данным. В такую ловушку легко попасть, ведь именно с таким определением приватности мы долгое время работали на этом сайте. Это звучит красиво, и это нравится многим людям, но на практике это просто не работает.
 
-Take cookie consent forms, for example. You may encounter these dozens of times per day on the various websites you visit, with a nice array of checkboxes and sliders which allow you to "curate" your preferences to exactly fit your needs. In the end, we just hit the "I Agree" button, because we just want to read the article or make a purchase. Nobody wants to complete a personal privacy audit on every single website they visit. This is an exercise in [choice architecture](https://en.wikipedia.org/wiki/Choice_architecture), designed to make you take the easy route out instead of delving into a maze of configuration options that don't need to exist in the first place.
+Возьмем, к примеру, формы согласия на использование cookie. Вы можете встретить их десятки раз в день на различных веб-сайтах, с приятным набором флажков и ползунков, которые позволяют вам "контролировать" ваши предпочтения, чтобы они точно соответствовали вашим потребностям. В итоге мы просто нажимаем кнопку "Принять все", потому что просто хотим прочитать статью или совершить покупку. Никто не хочет проводить аудит личной приватности на каждом посещаемом сайте. Эта [архитектура выбора](https://ru.wikipedia.org/wiki/архитектура_выбора) построена так, чтобы заставить вас выбрать легкий путь, вместо того чтобы углубляться в дебри опций и конфигурации, которые вообще не должны существовать.
 
-==Control over your privacy inside most apps is an illusion.== It's a shiny dashboard with all sorts of choices you can make about your data, but rarely the choices you're looking for, like "only use my data to help me." This type of control is meant to make you feel guilty about your choices, that you "had the choice" to make the apps you use more private, and you chose not to.
+==Контроль над вашей приватностью в большинстве приложений - это иллюзия.== Это блестящий дашборд со всеми возможными выборами, которые вы можете сделать в отношении ваших данных. Но не выбор, который вы ищете, например "использовать мои данные только для того, чтобы помочь мне". Этот тип контроля призван заставить вас чувствовать вину за свой выбор. У вас был "выбор" сделать приложения, которые вы используете, более приватными, но вы решили этого не делать.
 
-Privacy is something we need to have baked into the [software and services](../tools.md) we use by default, you can't bend most apps into being private on your own.
+Приватность должна быть встроена по умолчанию в [программы и сервисы](../tools.md), которые мы используем, у вас нет возможности самостоятельно настроить большинство приложений на приватность.
 
 ## Источники
 
