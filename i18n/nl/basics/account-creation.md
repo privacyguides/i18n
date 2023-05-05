@@ -31,7 +31,7 @@ De meest gebruikelijke manier om een nieuwe account aan te maken is met een e-ma
 
 !!! tip
 
-    Je kunt jouw wachtwoord manager ook gebruiken om andere verificatiemethoden te organiseren! Voeg gewoon het nieuwe item toe en vul de juiste velden in, u kunt notities toevoegen voor zaken als beveiligingsvragen of een back-up sleutel.
+    You can use your password manager to organize other authentication methods too! Just add the new entry and fill the appropriate fields, you can add notes for things like security questions or a backup key.
 
 Je bent verantwoordelijk voor het beheer van jouw inloggegevens. Voor extra beveiliging kunt je  [MFA](multi-factor-authentication.md) instellen op jouw accounts.
 
@@ -45,15 +45,11 @@ Als een dienst wordt gehackt, kunt je phishing- of spam-e-mails ontvangen op het
 
 [Aanbevolen diensten voor e-mailaliasing](../email.md#email-aliasing-services ""){.md-button}
 
-### Eenmalige aanmelding
+### "Sign in with..." (OAuth)
 
-!!! note
+OAuth is an authentication protocol that allows you to register for a service without sharing much information with the service provider, if any, by using an existing account you have with another service instead. Whenever you see something along the lines of "Sign in with *provider name*" on a registration form, it's typically using OAuth.
 
-    We bespreken Single sign-on voor persoonlijk gebruik, niet voor zakelijke gebruikers.
-
-Single sign-on (SSO) is een authenticatiemethode waarmee je zich kunt registreren voor een dienst zonder veel informatie te delen, als die er al is. Wanneer je iets ziet in de trant van "Aanmelden met *providernaam*" op een registratieformulier, dan is dat SSO.
-
-Wanneer je kiest voor eenmalige aanmelding op een website, wordt jouw aanmeldingspagina van de SSO-provider gevraagd en wordt jouw account vervolgens verbonden. Jouw wachtwoord wordt niet gedeeld, maar sommige basisinformatie wel (je kunt deze bekijken tijdens het inlogverzoek). Dit proces is nodig elke keer dat je wilt inloggen op hetzelfde account.
+When you sign in with OAuth, it will open a login page with the provider you choose, and your existing account and new account will be connected. Your password won't be shared, but some basic information typically will (you can review it during the login request). Dit proces is nodig elke keer dat je wilt inloggen op hetzelfde account.
 
 De belangrijkste voordelen zijn:
 
@@ -62,12 +58,12 @@ De belangrijkste voordelen zijn:
 
 Maar er zijn ook nadelen:
 
-- **Privacy**: een SSO-provider weet welke diensten je gebruikt.
-- **Centralisatie**: als uw SSO-account wordt gecompromitteerd of als je niet kunt inloggen, worden alle andere accounts die ermee verbonden zijn, getroffen.
+- **Privacy**: the OAuth provider you log in with will know the services you use.
+- **Centralization**: if the account you use for OAuth is compromised or you aren't able to login to it, all other accounts connected to it are affected.
 
-SSO kan vooral nuttig zijn in situaties waarin je zou kunnen profiteren van een diepere integratie tussen services. Een van die diensten kan bijvoorbeeld SSO aanbieden voor de andere. Onze aanbeveling is om SSO te beperken tot alleen waar je het nodig hebt en de hoofdaccount te beschermen met [MFA](multi-factor-authentication.md).
+OAuth authentication can be especially useful in those situations where you could benefit from deeper integration between services. Our recommendation is to limit using OAuth to only where you need it, and always protect the main account with [MFA](multi-factor-authentication.md).
 
-Alle diensten die SSO gebruiken zijn even veilig als jouw SSO-account. Als je bijvoorbeeld een account wilt beveiligen met een hardwaresleutel, maar die dienst ondersteunt geen hardwaresleutels, dan kunt je jouw SSO-account beveiligen met een hardwaresleutel en nu hebt je in wezen hardware-MFA op al jouw accounts. Het is echter vermeldenswaard dat zwakke authenticatie op jouw SSO-account betekent dat elk account dat aan die login is gekoppeld, ook zwak zal zijn.
+All the services that use OAuth will be as secure as your underlying provider's account. For example, if you want to secure an account with a hardware key, but that service doesn't support hardware keys, you can secure the account you use with OAuth with a hardware key instead, and now you essentially have hardware MFA on all your accounts. It is worth noting though that weak authentication on your OAuth provider account means that any account tied to that login will also be weak.
 
 ### Telefoonnummer
 

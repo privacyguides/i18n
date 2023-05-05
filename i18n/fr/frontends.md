@@ -7,6 +7,10 @@ cover: frontends.png
 
 Parfois, des services tentent de vous obliger à créer un compte en bloquant l'accès au contenu par des fenêtres pop-up gênantes. Ils peuvent également ne pas fonctionner sans JavaScript activé. Ces interfaces client peuvent vous permettre de contourner ces restrictions.
 
+If you choose to self-host these frontends, it is important that you have other people using your instance as well in order for you to blend in. You should be careful with where and how you are hosting, as other peoples' usage will be linked to your hosting.
+
+When you are using an instance run by someone else, make sure to read the privacy policy of that specific instance. They can be modified by their owners and therefore may not reflect the default policy. Dans certains cas, les adresses Tor .onion peuvent garantir une certaine confidentialité tant que les requêtes de recherche ne contiennent pas d'informations personnelles identifiables.
+
 ## LBRY
 
 ### Librarian
@@ -33,10 +37,6 @@ Parfois, des services tentent de vous obliger à créer un compte en bloquant l'
 
     Librarian est utile si vous voulez regarder du contenu LBRY sur votre mobile sans télémétrie obligatoire et si vous voulez désactiver JavaScript dans votre navigateur, comme c'est le cas avec [le navigateur Tor](https://www.torproject.org/) au niveau de sécurité Le plus sûr.
 
-Lorsque vous auto-hébergez, il est important que d'autres personnes utilisent également votre instance pour que vous puissiez vous fondre dans la masse. Vous devez faire attention à l'endroit et à la manière dont vous hébergez Librarian, car l'utilisation par d'autres personnes sera liée à votre hébergement.
-
-Lorsque vous utilisez une instance de Librarian, veillez à lire la politique de confidentialité de cette instance spécifique. Les instances Librarian peuvent être modifiées par leurs propriétaires et peuvent donc ne pas refléter la politique de confidentialité qui leur est associée. Les instances Librarian comportent une "étiquette nutritionnelle de confidentialité" pour donner un aperçu de leur politique. Dans certains cas, les adresses Tor .onion peuvent garantir une certaine confidentialité tant que les requêtes de recherche ne contiennent pas d'informations personnelles identifiables.
-
 ## Twitter
 
 ### Nitter
@@ -59,10 +59,6 @@ Lorsque vous utilisez une instance de Librarian, veillez à lire la politique de
 
     Nitter est utile si vous souhaitez naviguer sur le contenu de Twitter sans avoir à vous connecter et si vous souhaitez désactiver JavaScript dans votre navigateur, comme c'est le cas avec [Tor Browser](https://www.torproject.org/) au niveau de sécurité le plus sûr. Il vous permet également de [créer des flux RSS pour Twitter] (news-aggregators.md#twitter).
 
-Lorsque vous auto-hébergez, il est important que d'autres personnes utilisent également votre instance pour que vous puissiez vous fondre dans la masse. Vous devez faire attention à l'endroit et à la manière dont vous hébergez Nitter, car l'utilisation par d'autres personnes sera liée à votre hébergement.
-
-Lorsque vous utilisez une instance de Nitter, assurez-vous de lire la politique de confidentialité de cette instance spécifique. Les instances Nitter peuvent être modifiées par leurs propriétaires et peuvent donc ne pas refléter la politique par défaut. Dans certains cas, les adresses Tor .onion peuvent garantir une certaine confidentialité tant que les requêtes de recherche ne contiennent pas d'informations personnelles identifiables.
-
 ## TikTok
 
 ### ProxiTok
@@ -83,10 +79,6 @@ Lorsque vous utilisez une instance de Nitter, assurez-vous de lire la politique 
 !!! tip "Conseil"
 
     ProxiTok est utile si vous souhaitez désactiver JavaScript dans votre navigateur, comme avec le [Navigateur Tor](https://www.torproject.org/) sur le niveau de sécurité Le plus sûr.
-
-Lorsque vous auto-hébergez, il est important que d'autres personnes utilisent également votre instance pour que vous puissiez vous fondre dans la masse. Vous devez faire attention à l'endroit et à la manière dont vous hébergez ProxiTok, car l'utilisation par d'autres personnes sera liée à votre hébergement.
-
-Lorsque vous utilisez une instance de ProxiTok, veillez à lire la politique de confidentialité de cette instance spécifique. Les instances ProxiTok peuvent être modifiées par leurs propriétaires et peuvent donc ne pas refléter la politique de confidentialité qui leur est associée. Dans certains cas, les adresses Tor .onion peuvent garantir une certaine confidentialité tant que les requêtes de recherche ne contiennent pas d'informations personnelles identifiables.
 
 ## YouTube
 
@@ -221,10 +213,6 @@ Par défaut, LibreTube bloque toutes les publicités YouTube. En outre, Libretub
 
     Invidious est utile si vous souhaitez désactiver JavaScript dans votre navigateur, comme c'est le cas avec [le navigateur Tor](https://www.torproject.org/) au niveau de sécurité le plus sûr. Il ne garantit pas la vie privée en soi, et nous ne recommandons pas de vous connecter à un compte quelconque.
 
-Lorsque vous auto-hébergez, il est important que d'autres personnes utilisent également votre instance pour que vous puissiez vous fondre dans la masse. Vous devez faire attention à l'endroit et à la manière dont vous hébergez Invidious, car l'utilisation par d'autres personnes sera liée à votre hébergement.
-
-Lorsque vous utilisez une instance d'Invidious, veillez à lire la politique de confidentialité de cette instance spécifique. Les instances involontaires peuvent être modifiées par leurs propriétaires et peuvent donc ne pas refléter leur politique de confidentialité associée. Dans certains cas, les adresses Tor .onion peuvent garantir une certaine confidentialité tant que les requêtes de recherche ne contiennent pas d'informations personnelles identifiables.
-
 ### Piped
 
 !!! recommendation
@@ -244,10 +232,6 @@ Lorsque vous utilisez une instance d'Invidious, veillez à lire la politique de 
 !!! tip "Conseil"
 
     Piped est utile si vous souhaitez utiliser [SponsorBlock](https://sponsor.ajay.app) sans installer d'extension ou pour accéder à des contenus limités en âge sans compte. Il ne garantit pas la vie privée en soi, et nous ne recommandons pas de vous connecter à un compte quelconque.
-
-Lorsque vous auto-hébergez, il est important que d'autres personnes utilisent également votre instance pour que vous puissiez vous fondre dans la masse. Vous devez faire attention à l'endroit et à la manière dont vous hébergez Piped, car l'utilisation par d'autres personnes sera liée à votre hébergement.
-
-Lorsque vous utilisez une instance de Piped, veillez à lire la politique de confidentialité de cette instance spécifique. Les instances Piped peuvent être modifiées par leurs propriétaires et peuvent donc ne pas refléter la politique de confidentialité qui leur est associée.
 
 ## Critères
 

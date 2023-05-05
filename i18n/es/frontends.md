@@ -7,6 +7,10 @@ cover: frontends.png
 
 A veces, los servicios intentarán obligarle a registrarse mediante el bloqueo al acceso a los contenidos con molestas ventanas emergentes. También pueden fallar si no se activa JavaScript. Estas interfaces pueden permitirle eludir estas restricciones.
 
+If you choose to self-host these frontends, it is important that you have other people using your instance as well in order for you to blend in. You should be careful with where and how you are hosting, as other peoples' usage will be linked to your hosting.
+
+When you are using an instance run by someone else, make sure to read the privacy policy of that specific instance. They can be modified by their owners and therefore may not reflect the default policy. Algunas instancias tienen direcciones Tor .onion que pueden otorgar cierta privacidad siempre y cuando sus consultas de búsqueda no contengan PII (Información Personal Identificable).
+
 ## LBRY
 
 ### Librarian
@@ -33,10 +37,6 @@ A veces, los servicios intentarán obligarle a registrarse mediante el bloqueo a
 
     Librarian es útil si quiere ver contenido LBRY en el móvil sin telemetría obligatoria y si quiere desactivar JavaScript en su navegador, como es el caso de [Tor Browser](https://www.torproject.org/) en el nivel de seguridad Más Seguro.
 
-Al autoalojarse, es importante que otras personas utilicen también su instancia para poder integrarse. Debería tener cuidado con dónde y cómo aloja Librarian, ya que el uso de otras personas se vinculará a su alojamiento.
-
-Cuando utilice una instancia de Librarian, asegúrese de leer la política de privacidad de esa instancia específica. Las instancias de Librarian pueden ser modificadas por sus propietarios y, por lo tanto, pueden no reflejar la política por defecto. Las instancias de Librarian presentan una "etiqueta nutricional de privacidad" para ofrecer una visión general de su política. Algunas instancias tienen direcciones Tor .onion que pueden otorgar cierta privacidad siempre y cuando sus consultas de búsqueda no contengan PII (Información Personal Identificable).
-
 ## Twitter
 
 ### Nitter
@@ -59,10 +59,6 @@ Cuando utilice una instancia de Librarian, asegúrese de leer la política de pr
 
     Nitter es útil si quiere navegar por el contenido de Twitter sin tener que iniciar sesión y si quieres desactiva JavaScript en su navegador, como es el caso de [Tor Browser](https://www.torproject.org/) en el nivel de seguridad Más Seguro. También le permite [crear canales RSS para Twitter](news-aggregators.md#twitter).
 
-Al autoalojarse, es importante que otras personas utilicen también su instancia para poder integrarse. Debería tener cuidado con dónde y cómo aloja Nitter, ya que el uso de otras personas se vinculará a su alojamiento.
-
-Cuando utilice una instancia de Nitter, asegúrese de leer la política de privacidad de esa instancia específica. Las instancias de Nitter pueden ser modificadas por sus propietarios y, por tanto, pueden no reflejar la política por defecto. Algunas instancias tienen direcciones Tor .onion que pueden otorgar cierta privacidad siempre y cuando sus consultas de búsqueda no contengan PII (Información Personal Identificable).
-
 ## TikTok
 
 ### ProxiTok
@@ -83,10 +79,6 @@ Cuando utilice una instancia de Nitter, asegúrese de leer la política de priva
 !!! tip "Consejo"
 
     PorxiTok es útil si quiere desactivar JavaScript en su navegador como en el navegador [Tor](https://www.torproject.org/) en la configuración de seguridad Más Segura.
-
-Al autoalojarse, es importante que otras personas utilicen también su instancia para poder integrarse. Debería tener cuidado con dónde y cómo aloja Nitter, ya que el uso de otras personas se vinculará a su alojamiento.
-
-Cuando utilice una instancia de ProxiTok, asegúrese de leer la política de privacidad de esa instancia específica. Las instancias de ProxiTok pueden ser modificadas por sus propietarios y, por tanto, pueden no reflejar su política asociada. Algunas instancias tienen direcciones Tor .onion que pueden otorgar cierta privacidad siempre y cuando sus consultas de búsqueda no contengan PII (Información Personal Identificable).
 
 ## YouTube
 
@@ -221,10 +213,6 @@ Por defecto, LibreTube bloquea todos los anuncios de YouTube. Además, Libretube
 
     Invidious es útil si quiere desactivar JavaScript en su navegador como en el navegador [Tor](https://www.torproject.org/) en la configuración de seguridad Msás Segura. No proporciona privacidad por sí mismo y no se recomienda entrar con ninguna cuenta.
 
-Al autoalojarse, es importante que otras personas utilicen también su instancia para poder integrarse. Debería tener cuidado con dónde y cómo aloja Invidious, ya que el uso de otras personas se vinculará a su alojamiento.
-
-Cuando utilice una instancia de Invidious, asegúrese de leer la política de privacidad de esa instancia específica. Las instancias de Invidious pueden ser modificadas por sus propietarios y, por lo tanto, pueden no reflejar su política de privacidad asociada. Algunas instancias tienen direcciones Tor .onion que pueden otorgar cierta privacidad siempre y cuando sus consultas de búsqueda no contengan PII (Información Personal Identificable).
-
 ### Piped
 
 !!! recommendation
@@ -244,10 +232,6 @@ Cuando utilice una instancia de Invidious, asegúrese de leer la política de pr
 !!! tip "Consejo"
 
     Piped es útil si desea utilizar [SponsorBlock](https://sponsor.ajay.app) sin instalar una extensión o acceder a contenidos restringidos por edad sin una cuenta. No proporciona privacidad por sí mismo y no se recomienda entrar con ninguna cuenta.
-
-Al autoalojarse, es importante que otras personas utilicen también su instancia para poder integrarse. Debería tener cuidado con dónde y cómo aloja Piped, ya que el uso de otras personas se vinculará a su alojamiento.
-
-Cuando utilice una instancia de Piped, asegúrese de leer la política de privacidad de esa instancia específica. Las instancias de Piped pueden ser modificadas por sus propietarios y, por tanto, pueden no reflejar su política de privacidad asociada.
 
 ## Criterios
 

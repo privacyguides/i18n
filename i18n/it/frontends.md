@@ -7,6 +7,10 @@ cover: frontends.png
 
 A volte i servizi tentano di costringerti ad iscriverti ad un account bloccando l'accesso ai contenuti con fastidiosi popup. Potrebbero anche cessare di funzionare correttamente senza l'abilitazione di JavaScript. Questi frontend possono consentire di aggirare queste restrizioni.
 
+Se scegli di fare self-hosting di questi frontend, è importante che anche altre persone utilizzino la vostra istanza per poterti integrare facilmente. Devi stare attento a dove e a come effettui l'hosting, poiché l'utilizzo da parte di altre persone sarà direttamente collegato al tuo hosting.
+
+Quando utilizzi un'istanza gestita da altri, assicurati di leggere la politica sulla privacy di quella specifica istanza. Possono essere modificate dai loro proprietari e quindi potrebbero non rispecchiare la politica di default. Alcune istanze hanno indirizzi Tor .onion che possono garantire una certa privacy, a patto che le stringhe di ricerca non contengano PII (Personally Identifiable Information, Informazioni di Identificazione Personale).
+
 ## LBRY
 
 ### Librarian
@@ -33,10 +37,6 @@ A volte i servizi tentano di costringerti ad iscriverti ad un account bloccando 
 
     Librarian è utile se si desidera guardare contenuti LBRY sul cellulare senza telemetria obbligatoria e se si desidera disabilitare JavaScript nel browser, come nel caso di [Tor Browser](https://www.torproject.org/) sul livello di sicurezza Molto Sicuro.
 
-In caso di self-hosting, è importante che anche altre persone utilizzino la tua istanza per poterti confondere tra di loro. È necessario prestare attenzione a dove e come si ospita Librarian, poiché l'utilizzo da parte di altre persone sarà collegato al tuo hosting.
-
-Quando si utilizza un'istanza di Librarian, assicurati di leggere l'informativa sulla privacy di quella specifica istanza. Le istanze di Librarian possono essere modificate dai loro proprietari e quindi potrebbero non rispecchiare la politica predefinita. Le istanze di Librarian presentano una "etichetta nutrizionale sulla privacy" per fornire una panoramica della loro politica. Alcune istanze hanno indirizzi Tor .onion che possono garantire una certa privacy, a patto che le stringhe di ricerca non contengano PII (Personally Identifiable Information, Informazioni di Identificazione Personale).
-
 ## Twitter
 
 ### Nitter
@@ -59,10 +59,6 @@ Quando si utilizza un'istanza di Librarian, assicurati di leggere l'informativa 
 
     Nitter è utile se si desidera navigare tra i contenuti di Twitter senza dover effettuare il login e se si desidera disabilitare JavaScript nel browser, come nel caso di [Tor Browser](https://www.torproject.org/) al livello di sicurezza Molto Sicuro. Permette anche di [creare feed RSS per Twitter] (news-aggregators.md#twitter).
 
-In caso di self-hosting, è importante che anche altre persone utilizzino la tua istanza per poterti confondere tra di loro. È necessario prestare attenzione a dove e come si ospita Nitter, poiché l'utilizzo da parte di altre persone sarà collegato al tuo hosting.
-
-Quando utilizzi un'istanza di Nitter, assicurati di leggere l'informativa sulla privacy di quella specifica istanza. Le istanze Nitter possono essere modificate dai loro proprietari e quindi potrebbero non riflettere la politica predefinita. Alcune istanze hanno indirizzi Tor .onion che possono garantire una certa privacy, a patto che le stringhe di ricerca non contengano PII (Personally Identifiable Information, Informazioni di Identificazione Personale).
-
 ## TikTok
 
 ### ProxiTok
@@ -83,10 +79,6 @@ Quando utilizzi un'istanza di Nitter, assicurati di leggere l'informativa sulla 
 !!! important
 
     ProxiTok è utile se desideri disabilitare JavaScript nel browser, come ad esempio con [Tor Browser](https://www.torproject.org/) sul livello di sicurezza Molto Sicuro.
-
-In caso di self-hosting, è importante che anche altre persone utilizzino la tua istanza per poterti confondere tra di loro. È necessario prestare attenzione a dove e come ospiti ProxiTok, poiché l'utilizzo da parte di altre persone sarà collegato al proprio hosting.
-
-Quando utilizza un'istanza di ProxiTok, assicurati di leggere l'informativa sulla privacy di quella specifica istanza. Le istanze di ProxiTok possono essere modificate dai loro proprietari e pertanto potrebbero non riflettere l'informativa sulla privacy associata. Alcune istanze hanno indirizzi Tor .onion che possono garantire una certa privacy, a patto che le stringhe di ricerca non contengano PII (Personally Identifiable Information, Informazioni di Identificazione Personale).
 
 ## YouTube
 
@@ -221,10 +213,6 @@ Per impostazione predefinita, LibreTube blocca tutti gli annunci pubblicitari di
 
     Invidious è utile se si desidera disabilitare JavaScript nel browser, ad esempio [Tor Browser](https://www.torproject.org/) al livello di sicurezza Molto Sicuro. Non garantisce di per sé la privacy e non consigliamo di accedere ad alcun account.
 
-In caso di self-hosting, è importante che anche altre persone utilizzino la tua istanza per poterti confondere tra di loro. È necessario prestare attenzione a dove e come si ospita Invidious, poiché l'utilizzo da parte di altre persone sarà collegato al proprio hosting.
-
-Quando si utilizza un'istanza di Invidious, assicurarsi di leggere l'informativa sulla privacy di quella specifica istanza. Le istanze di Invidious possono essere modificate dai loro proprietari e pertanto potrebbero non riflettere la politica sulla privacy ad esse associata. Alcune istanze hanno indirizzi Tor .onion che possono garantire una certa privacy, a patto che le stringhe di ricerca non contengano PII (Personally Identifiable Information, Informazioni di Identificazione Personale).
-
 ### Piped
 
 !!! recommendation
@@ -244,10 +232,6 @@ Quando si utilizza un'istanza di Invidious, assicurarsi di leggere l'informativa
 !!! important
 
     Piped è utile se si vuole utilizzare [SponsorBlock](https://sponsor.ajay.app) senza installare un'estensione o se si vuole accedere a contenuti con limiti d'età senza un account. Non garantisce di per sé la privacy e non consigliamo di accedere ad alcun account.
-
-In caso di self-hosting, è importante che anche altre persone utilizzino la tua istanza per poterti confondere tra di loro. È necessario prestare attenzione a dove e come si ospita Piped, poiché l'utilizzo da parte di altre persone sarà collegato al tuo hosting.
-
-Quando si utilizza un'istanza Piped, assicurarsi di leggere l'informativa sulla privacy di quella specifica istanza. Le istanze Piped possono essere modificate dai loro proprietari e pertanto potrebbero non riflettere l'informativa sulla privacy ad esse associata.
 
 ## Criteri
 

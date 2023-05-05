@@ -7,6 +7,10 @@ cover: frontends.png
 
 有時，某些服務會以煩人的彈出窗口來封鎖訪問內容，強迫訪客須註冊帳戶。 如果不啓用JavaScript ，也可能會中斷。 這些前端可以讓您避開這些限制。
 
+如您選擇自行託管這些前端，要緊的是讓別人可以使用您的實例，才能讓您融入其中。 對於在何處與如何託管實例，您該謹慎處之，尤其當有其它人的使用會連結到您的託管。
+
+當您使用其它人的實例，請確認有細讀此實例的隱私政策。 它們可以任擁有者修改因此不必然反映原本預設的政策。 有些實例有Tor .onion地址，只要您的搜尋查詢不包含PII ，這些地址可以保護某些隱私。
+
 ## LBRY
 
 ### Librarian
@@ -33,10 +37,6 @@ cover: frontends.png
 
     如果您希望在行動裝置上觀看 LBRY 內容而無需強制遙測，以及想要瀏覽器禁用 JavaScript ，例如 [Tor瀏覽器] （ https://www.torproject.org/ ）最安全的級別設置，Librarian 非常有用。
 
-在自我出租時，重要的是要讓其他人使用您的實例，以便您融入其中。 謹慎處理 Librarian 的託管事宜，因為其他人的使用會與您的託管有很大關聯。
-
-當使用 Libraian 實例時，請務必閱讀該實例的隱私權政策。 Librarian 實例可以由其擁有者修改，因此不見得會完全依照預設政策。 librarian 實例有「隱私營養標籤」功能，以提供政策的概覽。 有些實例有Tor .onion地址，只要您的搜尋查詢不包含PII ，這些地址可以保護某些隱私。
-
 ## Twitter
 
 ### Nitter
@@ -59,10 +59,6 @@ cover: frontends.png
 
     如果想在不登錄的情況下瀏覽 Twitter 內容，或是在瀏覽器中禁用 JavaScript ， Nitter非常有用，就像[Tor 瀏覽器] （ https://www.torproject.org/ ）在最安全級別會關閉 JavaScript 。 它還可以[為 Twitter 建立 RSS 新聞源] (news-aggregators.md#twitter)。
 
-在自我出租時，重要的是要讓其他人使用您的實例，以便您融入其中。 小心處理 Nitter 的託管 ，因為其他人的使用將與您的託管息息相關。
-
-當使用 Nitter 實例時，請務必閱讀該實例的隱私權政策。 Nitter 實例可以由其擁有者修改，因此不見得會完全依照預設政策。 有些實例有Tor .onion地址，只要您的搜尋查詢不包含PII ，這些地址可以保護某些隱私。
-
 ## TikTok
 
 ### ProxiTok
@@ -83,10 +79,6 @@ cover: frontends.png
 !!! 提示
 
     如果想在瀏覽器中禁用 JavaScript ，例如[Tor瀏覽器] (https://www.torproject.org/)最安全級別， ProxiTok 非常有用。
-
-在自我出租時，重要的是要讓其他人使用您的實例，以便您融入其中。 謹慎處理 ProxiTok 的託管事宜，因為其他人的使用會與您的託管有很大關聯。
-
-當使用 ProxiTok 實例時，請務必閱讀該實例的隱私權政策。 ProxiTok 實例可以由其擁有者修改，因此不見得會完全依照預設政策。 有些實例有Tor .onion地址，只要您的搜尋查詢不包含PII ，這些地址可以保護某些隱私。
 
 ## YouTube
 
@@ -221,10 +213,6 @@ cover: frontends.png
 
     如果您想在瀏覽器中停用JavaScript ，例如[Tor瀏覽器] (https://www.torproject.org/)最安全級別，Invidious 非常有用。 它本身不提供隱私，故不建議登入任何帳戶。
 
-在自我出租時，重要的是要讓其他人使用您的實例，以便您融入其中。 謹慎處理 Invidious 的託管事宜，因為其他人的使用會與您的託管有很大關聯。
-
-當使用 Invidious 實例時，請務必閱讀該實例的隱私權政策。 Invidious 實例可以由其擁有者修改，因此不見得會完全依照預設政策。 有些實例有Tor .onion地址，只要您的搜尋查詢不包含PII ，這些地址可以保護某些隱私。
-
 ### Piped
 
 !!! recommendation
@@ -244,10 +232,6 @@ cover: frontends.png
 !!! 提示
 
     如果您想使用 [SponsorBlock](https://sponsor.ajay.app)但不安裝瀏覽器擴展或在不登入帳戶訪問有年齡限制的內容， Piped 非常有用。 它本身不提供隱私，故不建議登入任何帳戶。
-
-在自我出租時，重要的是要讓其他人使用您的實例，以便您融入其中。 小心處理 Piped 託管 ，因為其他人的使用將與您的託管息息相關。
-
-當使用 Piped 實例時，請務必閱讀該實例的隱私權政策。 Piped 實例可以由其擁有者修改，因此不見得會完全依照預設政策。
 
 ## 標準
 

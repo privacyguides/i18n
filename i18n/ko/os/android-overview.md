@@ -1,7 +1,7 @@
 ---
-title: Android Overview
+title: Android 개요
 icon: simple/android
-description: Android is an open-source operating system with strong security protections, which makes it our top choice for phones.
+description: Android는 강력한 보안 및 보호 기능을 갖춘 오픈 소스 운영 체제로, 휴대폰에 있어서 최고의 선택입니다.
 ---
 
 Android is a secure operating system that has strong [app sandboxing](https://source.android.com/security/app-sandbox), [Verified Boot](https://source.android.com/security/verifiedboot) (AVB), and a robust [permission](https://developer.android.com/guide/topics/permissions/overview) control system.
@@ -26,9 +26,9 @@ AFWall+ works based on the [packet filtering](https://en.wikipedia.org/wiki/Fire
 
 We do not believe that the security sacrifices made by rooting a phone are worth the questionable privacy benefits of those apps.
 
-## Verified Boot
+## 자체 검사 부팅
 
-[Verified Boot](https://source.android.com/security/verifiedboot) is an important part of the Android security model. It provides protection against [evil maid](https://en.wikipedia.org/wiki/Evil_maid_attack) attacks, malware persistence, and ensures security updates cannot be downgraded with [rollback protection](https://source.android.com/security/verifiedboot/verified-boot#rollback-protection).
+[자체 검사 부팅(Verified Boot)](https://source.android.com/security/verifiedboot)은 Android 보안 모델에서 중요한 부분을 차지하고 있습니다. [Evil maid](https://en.wikipedia.org/wiki/Evil_maid_attack) 공격, 멀웨어 지속성으로부터 보호하고, [롤백 보호](https://source.android.com/security/verifiedboot/verified-boot#rollback-protection)를 통해 보안 업데이트가 다운그레이드되는 일이 없도록 보장합니다.
 
 Android 10 and above has moved away from full-disk encryption to more flexible [file-based encryption](https://source.android.com/security/encryption/file-based). Your data is encrypted using unique encryption keys, and the operating system files are left unencrypted.
 
@@ -103,19 +103,19 @@ Multiple user profiles can be found in **Settings** → **System** → **Multipl
 
 With user profiles, you can impose restrictions on a specific profile, such as: making calls, using SMS, or installing apps on the device. Each profile is encrypted using its own encryption key and cannot access the data of any other profiles. Even the device owner cannot view the data of other profiles without knowing their password. Multiple user profiles are a more secure method of isolation.
 
-## Work Profile
+## 직장 프로필
 
-[Work Profiles](https://support.google.com/work/android/answer/6191949) are another way to isolate individual apps and may be more convenient than separate user profiles.
+[직장 프로필](https://support.google.com/work/android/answer/6191949)은 개별 앱을 격리하는 방식 중 하나로, 경우에 따라서 별도 사용자 프로필을 사용하는 것보다 편리합니다.
 
-A **device controller** app such as [Shelter](#recommended-apps) is required to create a Work Profile without an enterprise MDM, unless you're using a custom Android OS which includes one.
+여러분이 별도로 해당 기능을 탑재한 커스텀 Android 운영 체제를 사용하는 것이 아닌 한, 엔터프라이즈 MDM 없이 직장 프로필을 생성하려면 [Shelter](#recommended-apps) 등의 **기기 컨트롤러** 앱을 사용해야 합니다.
 
-The work profile is dependent on a device controller to function. Features such as *File Shuttle* and *contact search blocking* or any kind of isolation features must be implemented by the controller. You must also fully trust the device controller app, as it has full access to your data inside of the work profile.
+직장 프로필은 기기 컨트롤러에 따라 작동 방식이 달라집니다. *File Shuttle*, *연락처 검색 차단*을 비롯한 모든 격리 기능은 컨트롤러에서 구현됩니다. 기기 컨트롤러는 직장 프로필 내부 데이터의 전체 접근 권한을 가지고 있으므로, 믿을 수 있는 기기 컨트롤러 앱을 사용해야 합니다.
 
-This method is generally less secure than a secondary user profile; however, it does allow you the convenience of running apps in both the work and personal profiles simultaneously.
+직장 프로필은 보조 사용자 프로필에 비해 보안성은 떨어집니다. 하지만 개인 프로필과 직장 프로필에서 동시에 앱을 실행할 수 있다는 편리함이 존재합니다.
 
-## VPN Killswitch
+## VPN 킬 스위치
 
-Android 7 and above supports a VPN killswitch and it is available without the need to install third-party apps. This feature can prevent leaks if the VPN is disconnected. It can be found in :gear: **Settings** → **Network & internet** → **VPN** → :gear: → **Block connections without VPN**.
+Android 7 이상은 외부 앱을 설치할 필요 없이 VPN 킬 스위치를 자체적으로 지원합니다. 해당 기능은 VPN 연결이 끊어졌을 때 유출이 발생하지 않도록 방지할 수 있습니다. :gear: **설정** → **네트워크 및 인터넷** → **VPN** → :gear: → **연결 차단(VPN 제외)**에서 확인할 수 있습니다.
 
 ## Global Toggles
 
@@ -143,11 +143,11 @@ The Advanced Protection Program provides enhanced threat monitoring and enables:
 - Mandatory automatic device scanning with [Play Protect](https://support.google.com/googleplay/answer/2812853?hl=en#zippy=%2Chow-malware-protection-works%2Chow-privacy-alerts-work)
 - Warning you about unverified applications
 
-### Google Play System Updates
+### Google Play 시스템 업데이트
 
-In the past, Android security updates had to be shipped by the operating system vendor. Android has become more modular beginning with Android 10, and Google can push security updates for **some** system components via the privileged Play Services.
+과거에는 Android 보안 업데이트를 해당 운영 체제 공급업체에서 제공하는 구조였습니다. Android 10 이후부터 Android는 더욱 모듈화되었으며, Google은 Play 서비스를 통해 **일부** 시스템 구성 요소에 보안 업데이트를 제공할 수 있게 되었습니다.
 
-If you have an EOL device shipped with Android 10 or above and are unable to run any of our recommended operating systems on your device, you are likely going to be better off sticking with your OEM Android installation (as opposed to an operating system not listed here such as LineageOS or /e/ OS). This will allow you to receive **some** security fixes from Google, while not violating the Android security model by using an insecure Android derivative and increasing your attack surface. We would still recommend upgrading to a supported device as soon as possible.
+여러분이 사용 중인 기기가 Android 10 이상이면서, 업데이트 지원은 종료되었고, Privacy Guides 권장 운영 체제는 지원하지 않는 경우, 별도 운영 체제(Privacy Guides 권장 목록에 등재되지 않은 LineageOS, /e/ OS 등)를 설치하는 것보다 제조사 Android를 그대로 사용하는 편이 더 나을 수도 있습니다. This will allow you to receive **some** security fixes from Google, while not violating the Android security model by using an insecure Android derivative and increasing your attack surface. 물론, 가능하다면 아직 지원되는 기기로 빨리 업그레이드하는 편이 더욱 좋습니다.
 
 ### Advertising ID
 

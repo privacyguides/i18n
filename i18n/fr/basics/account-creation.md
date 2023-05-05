@@ -31,7 +31,7 @@ Le moyen le plus courant de créer un nouveau compte est d'utiliser une adresse 
 
 !!! tip "Conseil"
 
-    Vous pouvez également utiliser votre gestionnaire de mots de passe pour gérer d'autres méthodes d'authentification ! Il suffit d'ajouter la nouvelle entrée et de remplir les champs appropriés. Vous pouvez ajouter des notes pour des choses comme des questions de sécurité ou une clé de secours.
+    You can use your password manager to organize other authentication methods too! Just add the new entry and fill the appropriate fields, you can add notes for things like security questions or a backup key.
 
 Vous serez responsable de la gestion de vos identifiants de connexion. Pour plus de sécurité, vous pouvez configurer [MFA](multi-factor-authentication.md) sur vos comptes.
 
@@ -45,15 +45,11 @@ Si un service est piraté, vous pouvez commencer à recevoir des e-mails d'hame�
 
 [Services d'alias d'e-mail recommandés](../email.md#email-aliasing-services ""){.md-button}
 
-### Authentification unique
+### "Sign in with..." (OAuth)
 
-!!! note "À noter"
+OAuth is an authentication protocol that allows you to register for a service without sharing much information with the service provider, if any, by using an existing account you have with another service instead. Whenever you see something along the lines of "Sign in with *provider name*" on a registration form, it's typically using OAuth.
 
-    Nous parlons de l'authentification unique pour l'usage personnel, pas pour les entreprises.
-
-L'authentification unique (SSO) est une méthode d'authentification qui vous permet de vous inscrire à un service sans partager beaucoup d'informations, voire aucune. Chaque fois que vous voyez quelque chose du type "Continuer avec *nom du fournisseur*" sur un formulaire d'inscription, il s'agit de SSO.
-
-Lorsque vous choisissez l'authentification unique sur un site web, la page de connexion de votre fournisseur d'authentification unique s'affiche et votre compte est ensuite connecté. Votre mot de passe ne sera pas communiqué, mais certaines informations de base le seront (vous pouvez les consulter lors de la demande de connexion). Ce processus est nécessaire chaque fois que vous voulez vous connecter au même compte.
+When you sign in with OAuth, it will open a login page with the provider you choose, and your existing account and new account will be connected. Your password won't be shared, but some basic information typically will (you can review it during the login request). Ce processus est nécessaire chaque fois que vous voulez vous connecter au même compte.
 
 Les principaux avantages sont les suivants :
 
@@ -62,12 +58,12 @@ Les principaux avantages sont les suivants :
 
 Mais il y a des inconvénients :
 
-- **Vie privée**: un fournisseur de SSO connaîtra les services que vous utilisez.
-- **Centralisation**: si votre compte SSO est compromis ou si vous n'êtes pas en mesure de vous y connecter, tous les autres comptes qui y sont connectés sont affectés.
+- **Privacy**: the OAuth provider you log in with will know the services you use.
+- **Centralization**: if the account you use for OAuth is compromised or you aren't able to login to it, all other accounts connected to it are affected.
 
-Le SSO peut être particulièrement utile dans les situations où vous pouvez bénéficier d'une intégration plus poussée entre les services. Par exemple, l'un de ces services peut offrir le SSO pour les autres. Notre recommandation est de limiter le SSO aux seuls endroits où vous en avez besoin et de protéger le compte principal avec [MFA](multi-factor-authentication.md).
+OAuth authentication can be especially useful in those situations where you could benefit from deeper integration between services. Our recommendation is to limit using OAuth to only where you need it, and always protect the main account with [MFA](multi-factor-authentication.md).
 
-Tous les services qui utilisent le SSO seront aussi sécurisé que votre compte SSO. Par exemple, si vous souhaitez sécuriser un compte à l'aide d'une clé matérielle mais que ce service ne prend pas en charge les clés matérielles, vous pouvez sécuriser votre compte SSO à l'aide d'une clé matérielle et disposer ainsi d'un MFA matériel sur tous vos comptes. Il convient toutefois de noter qu'une authentification faible sur votre compte SSO signifie que tout compte lié à cette connexion sera également faiblement sécurisé.
+All the services that use OAuth will be as secure as your underlying provider's account. For example, if you want to secure an account with a hardware key, but that service doesn't support hardware keys, you can secure the account you use with OAuth with a hardware key instead, and now you essentially have hardware MFA on all your accounts. It is worth noting though that weak authentication on your OAuth provider account means that any account tied to that login will also be weak.
 
 ### Numéro de téléphone
 

@@ -31,7 +31,7 @@ Il modo più comune per creare un nuovo account è tramite un indirizzo e-mail e
 
 !!! important
 
-    Puoi utilizzare il tuo gestore di password per organizzare anche altri metodi di autenticazione! Basta aggiungere la nuova voce e compilare i campi appropriati, è possibile aggiungere note per cose come domande di sicurezza o una chiave di backup.
+    Puoi utilizzare il tuo gestore di password per organizzare anche altri metodi di autenticazione! Basta aggiungere la nuova voce e riempire i relativi campi; è inoltre possibile aggiungere note per cose come le domande di sicurezza o per una chiave di backup.
 
 Sarai responsabile della gestione delle tue credenziali di accesso. Per una maggiore sicurezza, puoi impostare [MFA](multi-factor-authentication.md) sui tuoi account.
 
@@ -45,15 +45,11 @@ Se un servizio viene violato, potresti iniziare a ricevere email di phishing o s
 
 [Servizi di aliasing email consigliati](../email.md#email-aliasing-services ""){.md-button}
 
-### Single sign-on
+### "Accedi con..." (OAuth)
 
-!!! note
+OAuth è un protocollo di autenticazione che consente di registrarti ad un servizio senza condividere molte informazioni con l'eventuale sito, utilizzando invece un account esistente presso un altro servizio. Quando nel modulo di registrazione noti una cosa simile a: "Accedi con *nome del provider*", in genere il sito utilizza OAuth.
 
-    Stiamo parlando di Single sign-on per uso personale, non per utenti aziendali.
-
-Il single sign-on (SSO) è un metodo di autenticazione che consente di registrarsi a un servizio senza condividere molte informazioni, se non nessuna. Ogni volta che vedi qualcosa sulla falsariga di "Accedi con *nome gestore*" su un modulo di registrazione, è il SSO.
-
-Quando scegli il single sign-on in un sito web, viene mostrata la pagina di accesso del gestore SSO e successivamente l'account viene collegato. La tua password non verrà condivisa, ma alcune informazioni di base lo saranno (puoi rivederle durante la richiesta di accesso). Questo processo è necessario ogni volta che si desidera accedere allo stesso account.
+Quando accedi con OAuth, si aprirà una pagina di login con il provider scelto e l'account esistente e quello nuovo verranno collegati. La tua password non verrà condivisa, ma alcune informazioni di base invece si (potrai rivedere quali informazioni verranno condivise durante la richiesta di login). Questo processo è necessario ogni volta che si desidera accedere allo stesso account.
 
 I principali vantaggi sono:
 
@@ -62,12 +58,12 @@ I principali vantaggi sono:
 
 Ma ci sono degli svantaggi:
 
-- **Privacy**: un gestore SSO conoscerà i servizi che utilizzi.
-- **Centralizzazione**: se il tuo account SSO viene compromesso o non riesci ad accedervi, tutti gli altri account ad esso collegati sono interessati.
+- **Privacy**: il provider OAuth con cui effettui l'accesso conoscerà i servizi che utilizzi.
+- **Centralizzazione**: se l'account utilizzato per l'OAuth viene compromesso o non riesci ad effettuare il login, tutti gli altri account ad esso collegati saranno a rischio.
 
-Il SSO può essere particolarmente utile in quelle situazioni in potresti beneficiare di un integrazione più profonda tra i servizi. Ad esempio, uno di questi servizi potrebbe offrire il SSO per gli altri. La nostra raccomandazione è di limitare il SSO solo dove ne hai bisogno e proteggere l'account principale con [MFA](multi-factor-authentication.md).
+L'autenticazione OAuth può essere particolarmente utile nelle situazioni in cui puoi beneficiare di un'integrazione più completa tra i vari servizi. Il nostro consiglio è quello di limitare l'uso di OAuth solo dove è strettamente necessario e di proteggere sempre l'account principale con [MFA](multi-factor-authentication.md).
 
-Tutti i servizi che utilizzano il SSO saranno sicuri come il tuo account SSO. Ad esempio, se desideri proteggere un account con una chiave hardware ma tale servizio non supporta le chiavi hardware, è possibile proteggere l'account SSO con una chiave hardware e ora disporrai essenzialmente di MFA hardware su tutti i tuoi account. Vale la pena notare, tuttavia, che un autenticazione debole sul tuo account SSO significa che qualsiasi account legato a quel accesso sarà a sua volta debole.
+Tutti i servizi che utilizzano OAuth saranno sicuri tanto quanto l'account del vostro provider principale. Per esempio, se vuoi proteggere un account con una chiave hardware, ma il servizio in questione non le supporta, puoi proteggere l'account che utilizzi con OAuth con una chiave hardware e ora hai essenzialmente l'MFA hardware su tutti i tuoi account. Vale la pena notare, tuttavia, che un'autenticazione debole sull'account del provider OAuth implica che anche qualsiasi account collegato a quel login avrà una sicurezza debole.
 
 ### Numero di telefono
 

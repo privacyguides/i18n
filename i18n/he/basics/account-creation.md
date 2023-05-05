@@ -31,7 +31,7 @@ description: יצירת חשבונות מקוונים היא למעשה צורך
 
 !!! tip "טיפ"
 
-    אתה יכול להשתמש במנהל הסיסמאות שלך כדי לארגן גם שיטות אימות אחרות! פשוט הוסף את הערך החדש ומלא את השדות המתאימים, אתה יכול להוסיף הערות לדברים כמו שאלות אבטחה או מפתח גיבוי.
+    You can use your password manager to organize other authentication methods too! Just add the new entry and fill the appropriate fields, you can add notes for things like security questions or a backup key.
 
 אתה תהיה אחראי על ניהול אישורי הכניסה שלך. לאבטחה נוספת, תוכל להגדיר [MFA](multi-factor-authentication.md) בחשבונות שלך.
 
@@ -45,15 +45,11 @@ description: יצירת חשבונות מקוונים היא למעשה צורך
 
 [שירותי כינוי אימייל מומלצים](../email.md#email-aliasing-services ""){.md-button}
 
-### כניסה יחידה
+### "Sign in with..." (OAuth)
 
-!!! note "הערה"
+OAuth is an authentication protocol that allows you to register for a service without sharing much information with the service provider, if any, by using an existing account you have with another service instead. Whenever you see something along the lines of "Sign in with *provider name*" on a registration form, it's typically using OAuth.
 
-    אנו דנים בכניסה יחידה לשימוש אישי, לא למשתמשים ארגוניים.
-
-כניסה יחידה (SSO) היא שיטת אימות המאפשרת לך להירשם לשירות מבלי לשתף מידע רב, אם בכלל. בכל פעם שאתה רואה משהו בסגנון "היכנס עם *שם הספק*" בטופס הרשמה, זה SSO.
-
-כאשר אתה בוחר בכניסה יחידה לאתר, הוא יבקש מדף הכניסה של ספק ה-SSO שלך ולאחר מכן חשבונך יחובר. הסיסמה שלך לא תשותף, אבל חלק מהמידע הבסיסי יעשה זאת (תוכל לעיין בה במהלך בקשת ההתחברות). תהליך זה נחוץ בכל פעם שאתה רוצה להיכנס לאותו חשבון.
+When you sign in with OAuth, it will open a login page with the provider you choose, and your existing account and new account will be connected. Your password won't be shared, but some basic information typically will (you can review it during the login request). תהליך זה נחוץ בכל פעם שאתה רוצה להיכנס לאותו חשבון.
 
 היתרונות העיקריים הם:
 
@@ -62,12 +58,12 @@ description: יצירת חשבונות מקוונים היא למעשה צורך
 
 אבל יש חסרונות:
 
-- **פרטיות**: ספק SSO יידע באילו שירותים אתה משתמש.
-- **ריכוזיות**: אם חשבון SSO שלך נפגע או שאינך יכול להתחבר אליו, כל שאר החשבונות המחוברים אליו יושפעו.
+- **Privacy**: the OAuth provider you log in with will know the services you use.
+- **Centralization**: if the account you use for OAuth is compromised or you aren't able to login to it, all other accounts connected to it are affected.
 
-SSO יכול להיות שימושי במיוחד במצבים שבהם אתה יכול להפיק תועלת מאינטגרציה עמוקה יותר בין שירותים. לדוגמה, אחד מהשירותים הללו עשוי להציע SSO עבור האחרים. ההמלצה שלנו היא להגביל את SSO רק למקום שבו אתה צריך את זה ולהגן על החשבון הראשי באמצעות [MFA](multi-factor-authentication.md).
+OAuth authentication can be especially useful in those situations where you could benefit from deeper integration between services. Our recommendation is to limit using OAuth to only where you need it, and always protect the main account with [MFA](multi-factor-authentication.md).
 
-כל השירותים המשתמשים ב-SSO יהיו מאובטחים כמו חשבון SSO שלך. לדוגמה, אם אתה רוצה לאבטח חשבון עם מפתח חומרה אבל השירות הזה לא תומך במפתחות חומרה, אתה יכול לאבטח את חשבון SSO שלך עם מפתח חומרה וכעת יש לך בעצם MFA חומרה בכל החשבונות שלך. עם זאת, ראוי לציין שאימות חלש בחשבון SSO שלך אומר שכל חשבון הקשור לכניסה זו יהיה גם חלש.
+All the services that use OAuth will be as secure as your underlying provider's account. For example, if you want to secure an account with a hardware key, but that service doesn't support hardware keys, you can secure the account you use with OAuth with a hardware key instead, and now you essentially have hardware MFA on all your accounts. It is worth noting though that weak authentication on your OAuth provider account means that any account tied to that login will also be weak.
 
 ### מספר טלפון
 

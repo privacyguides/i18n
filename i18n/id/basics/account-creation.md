@@ -31,7 +31,7 @@ Cara paling umum untuk membuat akun baru adalah dengan alamat email dan kata san
 
 !!! tip
 
-    Anda juga dapat menggunakan pengelola kata sandi untuk mengatur metode autentikasi lainnya! Cukup tambahkan entri baru dan isi kolom yang sesuai, Anda bisa menambahkan catatan untuk hal-hal seperti pertanyaan keamanan atau kunci cadangan.
+    You can use your password manager to organize other authentication methods too! Just add the new entry and fill the appropriate fields, you can add notes for things like security questions or a backup key.
 
 Anda akan bertanggung jawab untuk mengelola kredensial login Anda. Untuk keamanan tambahan, Anda dapat mengatur [MFA](multi-factor-authentication.md) pada akun Anda.
 
@@ -45,15 +45,11 @@ Jika layanan diretas, Anda mungkin akan mulai menerima surel phishing atau spam 
 
 [Recommended email aliasing services](../email.md#email-aliasing-services ""){.md-button}
 
-### Sistem masuk tunggal
+### "Sign in with..." (OAuth)
 
-!!! catatan
+OAuth is an authentication protocol that allows you to register for a service without sharing much information with the service provider, if any, by using an existing account you have with another service instead. Whenever you see something along the lines of "Sign in with *provider name*" on a registration form, it's typically using OAuth.
 
-    We are discussing Single sign-on for personal use, not enterprise users.
-
-Single sign-on (SSO) is an authentication method that allows you to register for a service without sharing much information, if any. Whenever you see something along the lines of "Sign-in with *provider name*" on a registration form it's SSO.
-
-When you choose single sign-on in a website, it will prompt your SSO provider login page and after that your account will be connected. Kata sandi Anda tidak akan dibagikan tetapi beberapa informasi dasar akan (Anda dapat memeriksanya selama permintaan login). Proses ini diperlukan setiap kali Anda ingin masuk ke akun yang sama.
+When you sign in with OAuth, it will open a login page with the provider you choose, and your existing account and new account will be connected. Your password won't be shared, but some basic information typically will (you can review it during the login request). Proses ini diperlukan setiap kali Anda ingin masuk ke akun yang sama.
 
 Keuntungan utama adalah:
 
@@ -62,12 +58,12 @@ Keuntungan utama adalah:
 
 Tetapi ada kelemahan:
 
-- **Privacy**: a SSO provider will know the services you use.
-- **Centralization**: if your SSO account gets compromised or you aren't able to login to it, all other accounts connected to it are affected.
+- **Privacy**: the OAuth provider you log in with will know the services you use.
+- **Centralization**: if the account you use for OAuth is compromised or you aren't able to login to it, all other accounts connected to it are affected.
 
-SSO can be especially useful in those situations where you could benefit from deeper integration between services. For example, one of those services may offer SSO for the others. Our recommendation is to limit SSO to only where you need it and protect the main account with [MFA](multi-factor-authentication.md).
+OAuth authentication can be especially useful in those situations where you could benefit from deeper integration between services. Our recommendation is to limit using OAuth to only where you need it, and always protect the main account with [MFA](multi-factor-authentication.md).
 
-All services that use SSO will be as secure as your SSO account. For example, if you want to secure an account with a hardware key but that service doesn't support hardware keys, you can secure your SSO account with a hardware key and now you essentially have hardware MFA on all your accounts. It is worth noting though that weak authentication on your SSO account means that any account tied to that login will also be weak.
+All the services that use OAuth will be as secure as your underlying provider's account. For example, if you want to secure an account with a hardware key, but that service doesn't support hardware keys, you can secure the account you use with OAuth with a hardware key instead, and now you essentially have hardware MFA on all your accounts. It is worth noting though that weak authentication on your OAuth provider account means that any account tied to that login will also be weak.
 
 ### Nomor telepon
 

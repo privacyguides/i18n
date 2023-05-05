@@ -92,7 +92,7 @@ Note that while you can use Mullvad Browser with any VPN provider, other people 
 
 Mullvad Browser comes with the *uBlock Origin* and *NoScript* browser extensions pre-installed. While we typically [don't recommend](#extensions) adding *additional* browser extensions, these extensions that come pre-installed with the browser should **not** be removed or configured outside their default values, because doing so would noticeably make your browser fingerprint distinct from other Mullvad Browser users. It also comes pre-installed with the Mullvad Browser Extension, which *can* be safely removed without impacting your browser fingerprint if you would like, but is also safe to keep even if you don't use Mullvad VPN.
 
-### Private Browsing Mode
+### Режим приватного просмотра
 
 Mullvad Browser operates in permanent private browsing mode, meaning your history, cookies, and other site data will always be cleared every time the browser is closed. Your bookmarks, browser settings, and extension settings will still be preserved.
 
@@ -122,51 +122,51 @@ Mullvad Browser comes with DuckDuckGo set as the default [search engine](search-
 
 ### Рекомендованные настройки
 
-These options can be found in :material-menu: → **Settings**
+Эти параметры можно найти в :material-menu: → **Настройки**
 
-#### Search
+#### Поиск
 
-- [ ] Uncheck **Provide search suggestions**
+- [ ] Отключите **Отображать поисковые предложения**
 
 Функции предложения поиска могут быть недоступны в вашем регионе.
 
 Поисковые предложения отправляют все, что вы набираете в адресной строке, в поисковую систему по умолчанию, независимо от того, отправляете ли вы фактический поиск. Отключение поисковых предложений позволяет более точно контролировать данные, которые вы отправляете поставщику поисковых систем.
 
-#### Privacy & Security
+#### Приватность и защита
 
 ##### Улучшенная защита от отслеживания:
 
 - Выберите «Строгая»
 
-Это защищает вас, блокируя трекеры социальных сетей, скрипты отпечатков пальцев (обратите внимание, что это не защищает вас от *всех* отпечатков пальцев), криптомайнеры, межсайтовые файлы cookie для отслеживания и некоторые другие средства отслеживания. Улучшенная защита от отслеживания защищает от многих распространенных угроз, но не блокирует все пути отслеживания, поскольку разработан таким образом, чтобы минимально или вообще не влиять на удобство использования сайта.
+Это защищает вас, блокируя трекеры социальных сетей, скрипты цифровых отпечатков (обратите внимание, что это не защищает вас от *всех* цифровых отпечатков), криптомайнеры, межсайтовые файлы cookie для отслеживания и некоторые другие средства отслеживания. Улучшенная защита от отслеживания защищает от многих распространенных угроз, но не блокирует все пути отслеживания, поскольку разработан таким образом, чтобы минимально или вообще не влиять на удобство использования сайта.
 
-##### Firefox Suggest (US only)
+##### Предложения Firefox (Только США)
 
 [Firefox Suggest](https://support.mozilla.org/en-US/kb/firefox-suggest) is a feature similar to search suggestions which is only available in the US. We recommend disabling it for the same reason we recommend disabling search suggestions. If you don't see these options under the **Address Bar** header, you do not have the new experience and can ignore these changes.
 
 - [ ] Uncheck **Suggestions from the web**
 - [ ] Uncheck **Suggestions from sponsors**
 
-##### Куки и данные сайтов:
+##### Отчистка при закрытии
 
-[Firefox Sync](https://hacks.mozilla.org/2018/11/firefox-sync-privacy/) использует сквозное шифрование.
+Если вы хотите оставаться залогиненными на некоторых сайтах, то вы можете создать исключения в **Куки и данные сайтов** → **Управление исключениями...**
 
 - Выберите «Удалять куки и данные сайтов при закрытии Firefox»
 
 Это защищает вас от постоянных файлов cookie, но не защищает вас от файлов cookie, полученных в течение одного сеанса просмотра. Когда эта функция включена, можно легко очистить куки браузера, просто перезапустив Firefox. Вы можете установить исключения для каждого сайта, если вы хотите оставаться зарегистрированным на определенном сайте, который вы часто посещаете.
 
-##### Отключение телеметрии
+##### Сбор и использование данных Firefox
 
-- [ ] Uncheck **Allow Firefox to send technical and interaction data to Mozilla**
-- [ ] Uncheck **Allow Firefox to install and run studies**
-- [ ] Uncheck **Allow Firefox to send backlogged crash reports on your behalf**
+- [ ] Отключите **Разрешить Firefox отправлять технические данные и данные взаимодействия в Mozilla**
+- [ ] Отключите **Разрешить Firefox устанавливать и проводить исследования**
+- [ ] Отключите **Разрешить Firefox отправлять от вашего имени накопившиеся сообщения о его падениях**
 
 > Firefox sends data about your Firefox version and language; device operating system and hardware configuration; memory, basic information about crashes and errors; outcome of automated processes like updates, safebrowsing, and activation to us. When Firefox sends data to us, your IP address is temporarily collected as part of our server logs.
 
-Additionally, the Firefox Accounts service collects [some technical data](https://www.mozilla.org/en-US/privacy/firefox/#firefox-accounts). If you use a Firefox Account you can opt-out:
+Кроме того, служба Firefox Accounts собирает [некоторые технические данные](https://www.mozilla.org/en-US/privacy/firefox/#firefox-accounts). Если вы используете учетную запись Firefox, вы можете отключить сбор этих данных:
 
-1. Open your [profile settings on accounts.firefox.com](https://accounts.firefox.com/settings#data-collection)
-2. Uncheck **Data Collection and Use** > **Help improve Firefox Accounts**
+1. Откройте [настройки профиля на сайте accounts.firefox.com](https://accounts.firefox.com/settings#data-collection)
+2. Отключие **Сбор и использование данных** > **Помогите улучшить ⁨аккаунты Firefox⁩**
 
 ##### Режим «Только HTTPS»:
 
@@ -174,17 +174,17 @@ Additionally, the Firefox Accounts service collects [some technical data](https:
 
 Это предотвращает непреднамеренное подключение к веб-сайту с обычным HTTP-текстом. Протокол HTTP в настоящее время используется крайне редко, поэтому это практически не должно повлиять на ваш ежедневный просмотр веб-страниц.
 
-#### Sync
+#### Синхронизация
 
-[Firefox Sync](https://hacks.mozilla.org/2018/11/firefox-sync-privacy/) allows your browsing data (history, bookmarks, etc.) to be accessible on all your devices and protects it with E2EE.
+[Синхронизация Firefox](https://hacks.mozilla.org/2018/11/firefox-sync-privacy/) делает данные вашего браузера (история, закладки и т.д.) доступными на всех ваших устройствах и защищает их с помощью E2EE.
 
-### Расширения
+### Arkenfox (дополнительно)
 
-!!! tip "Use Mullvad Browser for advanced anti-fingerprinting"
+!!! совет "Используйте Mullvad Browser для продвинутой защиты от цифровых отпечатков"
 
-    [Mullvad Browser](#mullvad-browser) provides the same anti-fingerprinting protections as Arkenfox out of the box, and does not require the use of Mullvad's VPN to benefit from these protections. Coupled with a VPN, Mullvad Browser can thwart more advanced tracking scripts which Arkenfox cannot. Arkenfox still has the advantage of being much more flexible, and allowing per-site exceptions for websites which you need to stay logged in to.
+    [Mullvad Browser](#mullvad-browser) обеспечивает ту же защиту от цифровых отпечатков, что и Arkenfox, и не требует использования VPN Mullvad, чтобы воспользоваться этой защитой. Coupled with a VPN, Mullvad Browser can thwart more advanced tracking scripts which Arkenfox cannot. Arkenfox still has the advantage of being much more flexible, and allowing per-site exceptions for websites which you need to stay logged in to.
 
-The [Arkenfox project](https://github.com/arkenfox/user.js) provides a set of carefully considered options for Firefox. If you [decide](https://github.com/arkenfox/user.js/wiki/1.1-To-Arkenfox-or-Not) to use Arkenfox, a [few options](https://github.com/arkenfox/user.js/wiki/3.2-Overrides-[Common]) are subjectively strict and/or may cause some websites to not work properly - [which you can easily change](https://github.com/arkenfox/user.js/wiki/3.1-Overrides) to suit your needs. We **strongly recommend** reading through their full [wiki](https://github.com/arkenfox/user.js/wiki). Arkenfox also enables [container](https://support.mozilla.org/en-US/kb/containers#w_for-advanced-users) support.
+[Проект Arkenfox](https://github.com/arkenfox/user.js) предоставляет набор тщательно подобранных настроек для Firefox. Если ты [решишь](https://github.com/arkenfox/user.js/wiki/1.1-To-Arkenfox-or-Not) использовать Arkenfox, то [несколько опций](https://github.com/arkenfox/user.js/wiki/3.2-Overrides-[Common]) являются субъективно строгими и/или могут привести к неправильной работе некоторых сайтов. [Эти настройки ты можешь легко изменить](https://github.com/arkenfox/user.js/wiki/3.1-Overrides) в соответствии с твоими потребностями. Мы **настоятельно рекомендуем** ознакомиться с их [вики](https://github.com/arkenfox/user.js/wiki). Arkenfox также включает поддержку [контейнеров](https://support.mozilla.org/ru/kb/kontejnery).
 
 Arkenfox only aims to thwart basic or naive tracking scripts through canvas randomization and Firefox's built-in fingerprint resistance configuration settings. It does not aim to make your browser blend in with a large crowd of other Arkenfox users in the same way Mullvad Browser or Tor Browser do, which is the only way to thwart advanced fingerprint tracking scripts. Remember you can always use multiple browsers, for example, you could consider using Firefox+Arkenfox for a few sites that you want to stay logged in on or otherwise trust, and Mullvad Browser for general browsing.
 
@@ -215,11 +215,11 @@ Arkenfox only aims to thwart basic or naive tracking scripts through canvas rand
 
 ### Рекомендованные настройки
 
-These options can be found in :material-menu: → **Settings**.
+Эти параметры можно найти в разделе :material-menu: → **Настройки**.
 
-#### Settings
+#### Настройки
 
-##### Режим «Только HTTPS»:
+##### Защита
 
 Brave включает несколько инструментов защиты от отслеживания в разделе [Shields](https://support.brave.com/hc/en-us/articles/360022973471-What-is-Shields-). Мы рекомендуем включить эти настройки [на всех сайтах](https://support.brave.com/hc/en-us/articles/360023646212-How-do-I-configure-global-and-site-specific-Shields-settings-), которые вы посещаете.
 
@@ -227,94 +227,98 @@ Brave включает несколько инструментов защиты 
 
 <div class="annotate" markdown>
 
-- [x] Select **Prevent sites from fingerprinting me based on my language preferences**
-- [x] Select **Aggressive** under Trackers & ads blocking
+- [x] Выберите **Запрещать сайтам использовать цифровые отпечатки для выбора языка**
+- [x] Выберите **Агрессивный** в разделе: Блокировка трекеров и рекламы
 
     ??? предупреждение «Дополнительные фильтры»
         Brave позволяет вам выбрать дополнительные фильтры на внутренней странице `brave://adblock`. Мы не рекомендуем использовать эту функцию; вместо этого оставьте списки фильтров по умолчанию. Использование дополнительных фильтров выделит вас среди других пользователей Brave, а также может увеличить площадь атаки, если в Brave есть эксплойт и вредоносное правило будет добавлено в один из используемых вами списков.
 
-- [x] (Optional) Select **Block Scripts** (1)
-- [x] Select **Strict, may break sites** under Block fingerprinting
+- [x] (Опционально) Выберите **Блокировать скрипты** (1)
+- [x] Выберите **Строгий, может нарушать работу вебсайтов** в разделе: Блокировка цифровых отпечатков
 
 </div>
 
 1. Эта опция обеспечивает функциональность, аналогичную расширенным [режимам блокировки](https://github.com/gorhill/uBlock/wiki/Blocking-mode) uBlock Origin или расширения [NoScript](https://noscript.net/).
 
-##### Постоянно включенный режим инкогнито
+##### Блокировка социальных сетей
 
 - [ ] Отключите все переключатели в этой секции
 
-##### Предотвращение перекрестного отслеживания
+##### Конфиденциальность и безопасность
 
 <div class="annotate" markdown>
 
-- [x] Select **Disable non-proxied UDP** under [WebRTC IP Handling Policy](https://support.brave.com/hc/en-us/articles/360017989132-How-do-I-change-my-Privacy-Settings-#webrtc)
-- [ ] Uncheck **Use Google services for push messaging**
-- [ ] Uncheck **Allow privacy-preserving product analytics (P3A)**
-- [ ] Uncheck **Automatically send daily usage ping to Brave**
-- [ ] Uncheck **Automatically send diagnostic reports**
-- [x] Select **Always use secure connections** in the **Security** menu
-- [ ] Uncheck **Private window with Tor** (1)
+- [x] Выберите **Отключить непроксируемый протокол UDP** в секции: [Политика обработки IP WebRTC](https://support.brave.com/hc/en-us/articles/360017989132-How-do-I-change-my-Privacy-Settings-#webrtc)
+- [ ] Отключите **Использовать сервисы Google для обмена push-сообщениями**
+- [ ] Отключите **Разрешить выполнение аналитики продукта, не нарушающей конфиденциальности**
+- [ ] Отключите **Автоматически отправлять ежедневные данные PING в Brave**
+- [ ] Отключите **Автоматически отправлять данные диагностики**
+- [x] Выберите **Всегда использовать безопасные соединения** в подразделе **Безопасность**
+- [ ] Отключите **Приватное окно с Tor** (1)
 
-    !!! tip "Sanitizing on Close"
+    !!! совет "Отчистка при закрытии"
 
-        - [x] Select **Clear cookies and site data when you close all windows** in the *Cookies and other site data* menu
+        - [x] Выберите **Удалять файлы cookie и данные сайтов при закрытии всех окон** в подразделе *Файлы cookie и другие данные сайтов*
 
-        If you wish to stay logged in to a particular site you visit often, you can set exceptions on a per-site basis under the *Customized behaviors* section.
+        Если вы хотите оставать залогинеными на сайтах, которые вы часто посещаете, вы можете установить исключения в разделе: Специальные настройки.
 
 </div>
 
-1. Brave is **not** as resistant to fingerprinting as the Tor Browser and far fewer people use Brave with Tor, so you will stand out. Where [strong anonymity is required](https://support.brave.com/hc/en-us/articles/360018121491-What-is-a-Private-Window-with-Tor-Connectivity-) use the [Tor Browser](tor.md#tor-browser).
+1. Brave **не так устойчив** к цифровым отпечаткам, как Tor Browser, и гораздо меньше людей используют Brave вместе с Tor, поэтому вы будете выделяться. Там, где [требуется сильная анонимность](https://support.brave.com/hc/en-us/articles/360018121491-What-is-a-Private-Window-with-Tor-Connectivity-) используйте [Tor Browser](tor.md#tor-browser).
 
-##### Отчет о конфиденциальности
+##### Расширения
 
-Disable built-in extensions you do not use in **Extensions**
+Отключите встроенные расширения, которые вы не используете, в разделе **Расширения**
 
-- [ ] Uncheck **Hangouts**
-- [ ] Uncheck **WebTorrent**
+- [ ] Отключите **Hangouts**
+- [ ] Отключите **WebTorrent**
 
 ##### Web3
 
-Brave's Web3 features can potentially add to your browser fingerprint and attack surface. Unless you use any of features, they should be disabled.
+Функции Web3 в Brave потенциально могут увеличить цифровой отпечаток вашего браузера и площадь атаки. Если ты не используешь эти функции, их следует отключить.
 
 - [ ] Set **Default Ethereum Wallet** to **None**
 - [ ] Set **Default Solana Wallet** to **None**
-- [ ] Set **Method to resolve IPFS resources** to **Disabled**
+- [ ] В **Метод преобразования IPFS-ресурсов** выбери **Отключено**
 
-##### System
+##### Система
 
 <div class="annotate" markdown>
 
-- [ ] Uncheck **Continue running apps when Brave is closed** to disable background apps (1)
+- [ ] Отключи **Продолжить выполнение фоновых приложений после закрытия Brave**, чтобы отключить фоновые приложения (1)
 
 </div>
 
-1. This option is not present on all platforms.
+1. Эта опция присутствует не на всех платформах.
 
-#### Sync
+#### Синхронизация
 
 [Brave Sync](https://support.brave.com/hc/en-us/articles/360059793111-Understanding-Brave-Sync) позволяет синхронизировать данные браузера (историю, закладки и т. д.) между несколькими устройствами без необходимости создавать аккаунт, а также защищает их при помощи E2EE.
 
-#### Brave Rewards and Wallet
+#### Вознаграждение Brave и Кошелек
 
-**Brave Rewards** lets you recieve Basic Attention Token (BAT) cryptocurrency for performing certain actions within Brave. It relies on a custodial account and KYC from a select number of providers. We do not recommend BAT as a [private cryptocurrency](cryptocurrency.md), nor do we recommend using a [custodial wallet](advanced/payments.md#other-coins-bitcoin-ethereum-etc), so we would discourage using this feature.
+**Вознаграждения Brave** позволяет получать криптовалюту Basic Attention Token (BAT) за выполнение определенных действий в Brave. It relies on a custodial account and KYC from a select number of providers. We do not recommend BAT as a [private cryptocurrency](cryptocurrency.md), nor do we recommend using a [custodial wallet](advanced/payments.md#other-coins-bitcoin-ethereum-etc), so we would discourage using this feature.
 
-**Brave Wallet** operates locally on your computer, but does not support any private cryptocurrencies, so we would discourage using this feature as well.
+**Кошелек Brave** работает локально на вашем компьютере, но не поддерживает никаких конфиденциальных криптовалют, поэтому мы бы не советовали использовать и эту функцию.
 
-## Дополнительные советы
+## Дополнительные ресурсы
 
-In general, we recommend keeping your browser extensions to a minimum to decrease your attack surface; they have privileged access within your browser, require you to trust the developer, can make you [stand out](https://en.wikipedia.org/wiki/Device_fingerprint#Browser_fingerprint), and [weaken](https://groups.google.com/a/chromium.org/g/chromium-extensions/c/0ei-UCHNm34/m/lDaXwQhzBAAJ) site isolation. However, uBlock Origin may prove useful if you value content blocking functionality.
+Обычно, мы рекомендуем использовать как можно меньше расширений, чтобы уменьшить площадь атаки; они имеют привилегированный доступ к твоему браузеру, требуют доверия к их разработчикам, могут [идентифицировать вас](https://en.wikipedia.org/wiki/Device_fingerprint#Browser_fingerprint), а также [ослабляют](https://groups.google.com/a/chromium.org/g/chromium-extensions/c/0ei-UCHNm34/m/lDaXwQhzBAAJ) изоляцию между сайтами. Однако uBlock Origin может оказаться полезным, если вам важна функциональность блокировки контента.
 
-### AdGuard для Safari
+### uBlock Origin
 
 !!! recommendation
 
-    ![Логотип Snowflake](assets/img/browsers/snowflake.svg#only-light){ align=right }
-    ![Логотип Snowflake](assets/img/browsers/snowflake-dark.svg#only-dark){ align=right }
+    ![Логотип uBlock Origin](assets/img/browsers/ublock_origin.svg){ align=right }
     
-    **Snowflake** - это расширение для браузера, которое позволяет вам отдавать свою скорость интернета проекту Tor, используя "прокси Snowflake" в вашем браузере.
+    **uBlock Origin** это популярный блокировщик контента, который может помочь тебе блокировать рекламу, трекеры и скрипты цифровых отпечатков.
     
-    Люди, подвергающиеся цензуре, могут использовать прокси-серверы Snowflake для подключения к сети Tor. downloads
+    [:octicons-repo-16: Репозиторий](https://github.com/gorhill/uBlock#readme){ .md-button .md-button--primary }
+    [:octicons-eye-16:](https://github.com/gorhill/uBlock/wiki/Privacy-policy){ .card-link title="Политика конфиденциальности" }
+    [:octicons-info-16:](https://github.com/gorhill/uBlock/wiki){ .card-link title=Документация}
+    [:octicons-code-16:](https://github.com/gorhill/uBlock){ .card-link title="Исходный код" }
+    
+    ??? downloads
     
         - [:simple-firefoxbrowser: Firefox](https://addons.mozilla.org/firefox/addon/ublock-origin/)
         - [:simple-googlechrome: Chrome](https://chrome.google.com/webstore/detail/ublock-origin/cjpalhdlnbpafiamejdnhcphjbkeiagm)
@@ -329,36 +333,36 @@ These are some other [filter lists](https://github.com/gorhill/uBlock/wiki/Dashb
 - [x] Check **Privacy** > **AdGuard URL Tracking Protection**
 - Add [Actually Legitimate URL Shortener Tool](https://raw.githubusercontent.com/DandelionSprout/adfilt/master/LegitimateURLShortener.txt)
 
-## Criteria
+## Критерии
 
 **Please note we are not affiliated with any of the projects we recommend.** In addition to [our standard criteria](about/criteria.md), we have developed a clear set of requirements to allow us to provide objective recommendations. We suggest you familiarize yourself with this list before choosing to use a project, and conduct your own research to ensure it's the right choice for you.
 
-!!! Для уменьшения этой угрозы рассмотрите возможность самостоятельного хостинга.
+!!! пример "Эта секция новая"
 
     We are working on establishing defined criteria for every section of our site, and this may be subject to change. If you have any questions about our criteria, please [ask on our forum](https://discuss.privacyguides.net/latest) and don't assume we didn't consider something when making our recommendations if it is not listed here. Мы учитываем и обсуждаем много факторов, перед тем как рекомендовать какой-то проект, и документирование каждого из них ещё не завершено.
 
 ### Минимальные требования к сервисам
 
-- Must be open-source software.
-- Supports automatic updates.
-- Receives engine updates in 0-1 days from upstream release.
-- Available on Linux, macOS, and Windows.
+- Должны иметь открытый исходный код.
+- Должны поддерживать автоматические обновления.
+- Должны получать обновления движка в течение 0-1 дня после релиза в upstream.
+- Доступны для Linux, macOS и Windows.
 - Любые изменения, необходимые для того, чтобы браузер больше соблюдал конфиденциальность, не должны негативно влиять на опыт использования.
-- Blocks third-party cookies by default.
-- Supports [state partitioning](https://developer.mozilla.org/en-US/docs/Web/Privacy/State_Partitioning) to mitigate cross-site tracking.[^1]
+- По умолчанию блокируют сторонние файлы cookie.
+- Поддерживают [разделение состояний](https://developer.mozilla.org/en-US/docs/Web/Privacy/State_Partitioning) для уменьшения межсайтового отслеживания.[^1]
 
 ### В лучшем случае
 
 Эти критерии представляют собой то, что мы хотели бы видеть от идеального проекта в этой категории. Наши рекомендации могут не соответствовать всем или нескольким из этих критериев, но проекты, которые им соответствуют, расположены выше остальных.
 
-- Includes built-in content blocking functionality.
-- Supports cookie compartmentalization (à la [Multi-Account Containers](https://support.mozilla.org/en-US/kb/containers)).
+- Включает в себя встроенную функцию блокировки контента.
+- Поддерживает разделение файлов cookie (как [Multi-Account Контейнеры](https://support.mozilla.org/en-US/kb/containers)).
 - Supports Progressive Web Apps.  
   PWAs enable you to install certain websites as if they were native apps on your computer. This can have advantages over installing Electron-based apps, because you benefit from your browser's regular security updates.
 - Does not include add-on functionality (bloatware) that does not impact user privacy.
-- Does not collect telemetry by default.
-- Provides open-source sync server implementation.
-- Defaults to a [private search engine](search-engines.md).
+- По умолчанию не собирает телеметрию.
+- Предоставляет реализацию сервера синхронизации с открытым исходным кодом.
+- По умолчанию включена [конфиденциальная поисковая система](search-engines.md).
 
 ### Критерии для расширений
 

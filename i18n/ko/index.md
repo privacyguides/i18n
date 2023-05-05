@@ -44,7 +44,7 @@ schema:
 
 '무언가를 숨기거나 감추는 것'과 '사생활 보호'를 혼동하면 안 됩니다. 여러분이 화장실에서 뭘 하는지는 명백함에도 불구하고, 여러분은 항상 화장실 문을 닫아둡니다. 이는 여러분이 무언가를 감추고자 한 것이 아닌, 사생활을 보호하고자 한 것이죠. **누구나** 보호해야 할 것이 있습니다. 우리가 사람답게 살기 위해서는 프라이버시가 필요합니다.
 
-[:material-book-outline: Why Privacy Matters](basics/why-privacy-matters.md){ class="md-button md-button--primary" }
+[:material-book-outline: 프라이버시를 신경 써야 하는 이유](basics/why-privacy-matters.md){ class="md-button md-button--primary" }
 
 ## 무엇을 해야 하나요?
 

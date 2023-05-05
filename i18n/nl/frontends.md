@@ -7,6 +7,10 @@ cover: frontends.png
 
 Soms proberen diensten je te dwingen zich aan te melden voor een account door de toegang tot inhoud te blokkeren met vervelende popups. Ze kunnen ook breken zonder JavaScript. Met deze frontends kunt je deze beperkingen omzeilen.
 
+If you choose to self-host these frontends, it is important that you have other people using your instance as well in order for you to blend in. You should be careful with where and how you are hosting, as other peoples' usage will be linked to your hosting.
+
+When you are using an instance run by someone else, make sure to read the privacy policy of that specific instance. They can be modified by their owners and therefore may not reflect the default policy. Sommige instanties hebben Tor .onion adressen die enige privacy kunnen bieden zolang jouw zoekopdrachten geen PII (Personally Identifiable Information) bevat.
+
 ## Cliënten
 
 ### Librarian
@@ -33,10 +37,6 @@ Soms proberen diensten je te dwingen zich aan te melden voor een account door de
 
     Librarian is handig als je LBRY content op mobiel wilt bekijken zonder verplichte telemetrie en als je JavaScript in je browser wilt uitschakelen, zoals het geval is met [Tor Browser](https://www.torproject.org/) op het veiligheidsniveau Safest.
 
-Bij zelf-hosting is het belangrijk dat er ook andere mensen gebruik maken van uw instantie, zodat je op kunt gaan in de menigte. U moet voorzichtig zijn met waar en hoe je Librarian host, aangezien het gebruik van anderen gelinkt zal worden aan jouw instantie.
-
-Wanneer je een librarian instantie gebruikt, moet je het privacybeleid van die specifieke instantie lezen. Librarian instances kunnen door hun eigenaars gewijzigd worden en geven daarom mogelijk niet het standaardbeleid weer. Librarian instances hebben een "privacy voedingslabel" om een overzicht te geven van hun beleid. Sommige instanties hebben Tor .onion adressen die enige privacy kunnen bieden zolang jouw zoekopdrachten geen PII (Personally Identifiable Information) bevat.
-
 ## Twitter
 
 ### Nitter
@@ -59,10 +59,6 @@ Wanneer je een librarian instantie gebruikt, moet je het privacybeleid van die s
 
     Nitter is handig als u de inhoud van Twitter wilt bekijken zonder in te loggen en als je JavaScript in jouw browser wilt uitschakelen, zoals het geval is met [Tor Browser](https://www.torproject.org/) op beveiligingsniveau safest. Je kunt er ook [RSS feeds voor Twitter mee maken](news-aggregators.md#twitter).
 
-Bij zelf-hosting is het belangrijk dat er ook andere mensen gebruik maken van uw instantie, zodat je op kunt gaan in de menigte. U moet voorzichtig zijn met waar en hoe u Nitter host, want het gebruik van andere mensen wordt gekoppeld aan jouw instantie.
-
-Wanneer je een Nitter-instantie gebruikt, moet je het privacybeleid van die specifieke instantie lezen. Nitter instanties kunnen door hun eigenaars worden gewijzigd en weerspiegelen daarom mogelijk niet het standaardbeleid. Sommige instanties hebben Tor .onion adressen die enige privacy kunnen bieden zolang jouw zoekopdrachten geen PII (Personally Identifiable Information) bevat.
-
 ## TikTok
 
 ### ProxiTok
@@ -83,10 +79,6 @@ Wanneer je een Nitter-instantie gebruikt, moet je het privacybeleid van die spec
 !!! tip
 
     ProxiTok is handig als je JavaScript wilt uitschakelen in jouw browser, zoals [Tor Browser](https://www.torproject.org/) op beveiligingsniveau safest.
-
-Bij zelf-hosting is het belangrijk dat er ook andere mensen gebruik maken van uw instantie, zodat je op kunt gaan in de menigte. U moet voorzichtig zijn met waar en hoe je ProxiTok host, want het gebruik van andere mensen wordt gekoppeld aan jouw instance.
-
-Als u een ProxiTok-instantie gebruikt, moet je het privacybeleid van die specifieke instantie lezen. ProxiTok-instanties kunnen door hun eigenaars worden gewijzigd en geven daarom mogelijk niet het bijbehorende privacybeleid weer. Sommige instanties hebben Tor .onion adressen die enige privacy kunnen bieden zolang jouw zoekopdrachten geen PII (Personally Identifiable Information) bevat.
 
 ## YouTube
 
@@ -221,10 +213,6 @@ LibreTube blokkeert standaard alle YouTube-advertenties. Bovendien gebruikt Libr
 
     Invidious is handig als je JavaScript wilt uitschakelen in je browser, zoals [Tor Browser](https://www.torproject.org/) op het beveiligingsniveau safest. Het biedt op zichzelf geen privacy, en wij raden niet aan in te loggen op een account.
 
-Bij zelf-hosting is het belangrijk dat er ook andere mensen gebruik maken van uw instantie, zodat je op kunt gaan in de menigte. U moet voorzichtig zijn met waar en hoe je Invidious host, omdat het gebruik van anderen gekoppeld zal worden aan jouw instantie.
-
-Als u een Invidious-instantie gebruikt, moet je het privacybeleid van die specifieke instantie lezen. Invidious instanties kunnen door hun eigenaren worden gewijzigd en weerspiegelen daarom mogelijk niet hun bijbehorende privacybeleid. Sommige instanties hebben Tor .onion adressen die enige privacy kunnen bieden zolang jouw zoekopdrachten geen PII (Personally Identifiable Information) bevat.
-
 ### Piped
 
 !!! recommendation
@@ -244,10 +232,6 @@ Als u een Invidious-instantie gebruikt, moet je het privacybeleid van die specif
 !!! tip
 
     Piped is handig als je [SponsorBlock](https://sponsor.ajay.app) wilt gebruiken zonder een extensie te installeren of als je zonder account toegang wilt krijgen tot inhoud met leeftijdsbeperkingen. Het biedt op zichzelf geen privacy, en wij raden niet aan in te loggen op een account.
-
-Bij zelf-hosting is het belangrijk dat er ook andere mensen gebruik maken van uw instantie, zodat je op kunt gaan in de menigte. U moet voorzichtig zijn met waar en hoe je Piped host, omdat het gebruik van andere mensen aan jouw instantie wordt gekoppeld.
-
-Wanneer je een Piped-instantie gebruikt, moet je het privacybeleid van die specifieke instantie lezen. Piped instanties kunnen worden gewijzigd door hun eigenaren en daarom kunnen niet hun bijbehorende privacybeleid weerspiegelen.
 
 ## Criteria
 

@@ -2,7 +2,7 @@
 meta_title: "프라이버시 중점 모바일(Android, iOS) 웹 브라우저 - Privacy Guides"
 title: "모바일 브라우저"
 icon: material/cellphone-information
-description: These browsers are what we currently recommend for standard/non-anonymous internet browsing on your phone.
+description: 현재 휴대폰에서 표준/비익명 인터넷 탐색 용도로 권장되는 브라우저 목록입니다.
 cover: mobile-browsers.png
 schema:
   - 
@@ -68,59 +68,59 @@ Android에서, Firefox는 Chrome 기반 대체제보다 보안성이 떨어집�
 
 Tor Browser is the only way to truly browse the internet anonymously. When you use Brave, we recommend changing the following settings to protect your privacy from certain parties, but all browsers other than the [Tor Browser](tor.md#tor-browser) will be traceable by *somebody* in some regard or another.
 
-These options can be found in :material-menu: → **Settings** → **Brave Shields & privacy**
+이러한 옵션은 :material-menu: → **설정** → **Brave Shields 및 프라이버시**에서 확인할 수 있습니다.
 
 ##### Shields
 
-Brave includes some anti-fingerprinting measures in its [Shields](https://support.brave.com/hc/en-us/articles/360022973471-What-is-Shields-) feature. We suggest configuring these options [globally](https://support.brave.com/hc/en-us/articles/360023646212-How-do-I-configure-global-and-site-specific-Shields-settings-) across all pages that you visit.
+Brave 브라우저는 [Shields](https://support.brave.com/hc/en-us/articles/360022973471-What-is-Shields-) 기능 내에 핑거프린팅 방지가 포함되어 있습니다. 방문하는 모든 페이지에 [전역적으로](https://support.brave.com/hc/en-us/articles/360023646212-How-do-I-configure-global-and-site-specific-Shields-settings-) 옵션을 설정하는 것이 좋습니다.
 
-##### Brave shields global defaults
+##### Brave Shields 전역 기본값
 
-Shields' options can be downgraded on a per-site basis as needed, but by default we recommend setting the following:
+필요에 따라 사이트별로 보호 옵션을 낮출 수 있으나, 기본적으로 다음과 같이 설정할 것을 권장드립니다:
 
 <div class="annotate" markdown>
 
-- [x] Select **Aggressive** under Block trackers & ads
+- [x] 트래커 & 광고 차단을 **공격적** 으로 설정
 
-    ??? warning "Use default filter lists"
-        Brave allows you to select additional content filters within the internal `brave://adblock` page. We advise against using this feature; instead, keep the default filter lists. Using extra lists will make you stand out from other Brave users and may also increase attack surface if there is an exploit in Brave and a malicious rule is added to one of the lists you use.
+    ??? warning "기본 필터 목록을 사용하세요"
+        Brave 브라우저는 `brave://adblock` 내부 페이지에서 추가적인 콘텐츠 필터를 선택할 수 있습니다. 이 기능을 사용하지 말고 기본 필터 목록을 유지할 것을 권장드립니다. 추가적인 목록을 사용하면 다른 Brave 사용자에 비해 더 눈에 띄게 되며, 만약 Brave에 취약점이 존재하고 여러분이 사용하는 규칙 목록에 악성 규칙이 포함될 경우 공격 표면을 증가시킬 수도 있습니다.
 
-- [x] Select **Upgrade connections to HTTPS**
-- [x] Select **Always use secure connections**
-- [x] (Optional) Select **Block Scripts** (1)
-- [x] Select **Strict, may break sites** under **Block fingerprinting**
+- [x] **연결을 HTTPS로 업그레이드** 활성화
+- [x] **항상 보안 연결 사용** 활성화
+- [x] (선택 사항) **스크립트 차단** 활성화 (1)
+- [x] **지문 차단**을 **엄격, 사이트가 작동하지 않을 수 있음**으로 설정
 
 </div>
 
-1. This option provides functionality similar to uBlock Origin's advanced [blocking modes](https://github.com/gorhill/uBlock/wiki/Blocking-mode) or the [NoScript](https://noscript.net/) extension.
+1. 해당 옵션은 uBlock Origin의 고급 [차단 모드](https://github.com/gorhill/uBlock/wiki/Blocking-mode)나 [NoScript](https://noscript.net/) 확장 프로그램과 유사한 기능을 제공합니다.
 
-##### Clear browsing data
+##### 인터넷 사용 기록 삭제
 
-- [x] Select **Clear data on exit**
+- [x] **종료 시 데이터 지우기** 활성화
 
 ##### 소셜 미디어 차단
 
-- [ ] Uncheck all social media components
+- [ ] 모든 소셜 미디어 항목 비활성화
 
-##### Other privacy settings
+##### 기타 프라이버시 설정
 
 <div class="annotate" markdown>
 
-- [x] Select **Disable non-proxied UDP** under [WebRTC IP Handling Policy](https://support.brave.com/hc/en-us/articles/360017989132-How-do-I-change-my-Privacy-Settings-#webrtc)
-- [ ] Uncheck **Allow sites to check if you have payment methods saved**
-- [ ] Uncheck **IPFS Gateway** (1)
-- [x] Select **Close tabs on exit**
-- [ ] Uncheck **Allow privacy-preserving product analytics (P3A)**
-- [ ] Uncheck **Automatically send diagnostic reports**
-- [ ] Uncheck **Automatically send daily usage ping to Brave**
+- [x] [WebRTC IP 처리 방침](https://support.brave.com/hc/en-us/articles/360017989132-How-do-I-change-my-Privacy-Settings-#webrtc)을 **프록시가 아닌 UDP 비활성화하기**로 설정
+- [ ] **사이트에서 저장된 결제 수단이 있는지 확인하도록 허용** 비활성화
+- [ ] **IPFS 게이트웨이** 비활성화 (1)
+- [x] **나갈 때 탭 닫기** 활성화
+- [ ] **프라이버시 보호 제품 분석(P3A) 허용** 비활성화
+- [ ] **진단 보고서 자동 전송** 비활성화
+- [ ] **일일 사용 Ping을 Brave에 자동으로 보내기** 비활성화
 
 </div>
 
-1. InterPlanetary File System (IPFS) is a decentralized, peer-to-peer network for storing and sharing data in a distributed filesystem. Unless you use the feature, disable it.
+1. IPFS(InterPlanetary File System)는 분산 파일 시스템에서 데이터를 저장하고 공유하기 위한 탈중앙화 P2P 네트워크입니다. 해당 기능을 사용하지 않는다면 비활성화하세요.
 
-#### Brave Sync
+#### Brave 동기화
 
-[Brave Sync](https://support.brave.com/hc/en-us/articles/360059793111-Understanding-Brave-Sync) allows your browsing data (history, bookmarks, etc.) to be accessible on all your devices without requiring an account and protects it with E2EE.
+[Brave 동기화](https://support.brave.com/hc/en-us/articles/360059793111-Understanding-Brave-Sync)를 이용하면 계정을 생성하지 않고도 자신의 모든 기기에서 브라우저 데이터(탐색 기록, 북마크 등)를 동기화할 수 있으며, E2EE로 보호됩니다.
 
 ## iOS
 
@@ -164,13 +164,13 @@ Webkit의 [지능형 추적 방지](https://webkit.org/tracking-prevention/#inte
 
 ##### 항상 개인정보 보호 브라우징
 
-Open Safari and tap the Tabs button, located in the bottom right. Then, expand the Tab Groups list.
+Safari를 열고 우측 하단의 탭 버튼을 탭합니다. 이후, 탭 그룹 목록을 펼칩니다.
 
-- [x] Select **Private**
+- [x] **개인정보 보호**를 활성화합니다.
 
-Safari's Private Browsing mode offers additional privacy protections. Private Browsing uses a new [ephemeral](https://developer.apple.com/documentation/foundation/urlsessionconfiguration/1410529-ephemeral) session for each tab, meaning tabs are isolated from one another. There are also other smaller privacy benefits with Private Browsing, such as not sending a webpage’s address to Apple when using Safari's translation feature.
+Safari 개인정보 보호 브라우징 모드는 추가적인 프라이버시 보호 기능을 제공합니다. 개인정보 보호 브라우징 모드는 각 탭마다 새로운 [임시](https://developer.apple.com/documentation/foundation/urlsessionconfiguration/1410529-ephemeral) 세션을 사용하여, 탭을 서로 격리합니다. 개인정보 보호 브라우징 모드에서는 Safari 번역 기능 사용 시 웹페이지 주소가 Apple에 전송되지 않는 등, 프라이버시에 도움이 되는 여타 소소한 이점도 존재합니다.
 
-Do note that Private Browsing does not save cookies and website data, so it won't be possible to remain signed into sites. This may be an inconvenience.
+단, 개인정보 보호 브라우징 모드는 쿠키 및 웹사이트 데이터를 저장하지 않으므로 사이트 로그인을 유지할 수 없음을 알아두어야 합니다. 이로 인해 사용이 불편할 수 있습니다.
 
 ##### iCloud 동기화
 

@@ -31,7 +31,7 @@ description: Creating accounts online is practically an internet necessity, take
 
 !!! tip
 
-    你也可以用你的密码管理器来组织其他认证方法 只需添加新条目并填写相应的字段，你可以为安全问题或备份钥匙等事项添加注释。
+    You can use your password manager to organize other authentication methods too! Just add the new entry and fill the appropriate fields, you can add notes for things like security questions or a backup key.
 
 你将负责管理你的登录凭证。 为了增加安全性，你可以在你的账户上设置 [MFA](multi-factor-authentication.md)。
 
@@ -45,15 +45,11 @@ description: Creating accounts online is practically an internet necessity, take
 
 [推荐的电子邮件别名服务](../email.md#email-aliasing-services ""){.md-button}
 
-### 单点登录
+### "Sign in with..." (OAuth)
 
-!!! note
+OAuth is an authentication protocol that allows you to register for a service without sharing much information with the service provider, if any, by using an existing account you have with another service instead. Whenever you see something along the lines of "Sign in with *provider name*" on a registration form, it's typically using OAuth.
 
-    我们讨论的是个人使用的单点登录，而不是企业用户。
-
-单点登录（SSO）是一种认证方法，允许你在不分享很多信息的情况下注册一个服务。 只要你在注册表上看到类似于 "用 *提供商名称*"的内容，就是SSO。
-
-当你在一个网站上选择单点登录时，它会提示你的SSO供应商的登录页面，之后你的账户就会被连接起来。 你的密码不会被分享，但一些基本信息会被分享（你可以在登录请求中查看）。 每次你想登录同一个账户时，都需要这个过程。
+When you sign in with OAuth, it will open a login page with the provider you choose, and your existing account and new account will be connected. Your password won't be shared, but some basic information typically will (you can review it during the login request). 每次你想登录同一个账户时，都需要这个过程。
 
 主要的优点是:
 
@@ -62,12 +58,12 @@ description: Creating accounts online is practically an internet necessity, take
 
 但也有弊端:
 
-- **隐私**：SSO供应商会知道你使用的服务。
-- **集中化**：如果你的SSO账户被泄露或你无法登录，所有与之相连的其他账户都会受到影响。
+- **Privacy**: the OAuth provider you log in with will know the services you use.
+- **Centralization**: if the account you use for OAuth is compromised or you aren't able to login to it, all other accounts connected to it are affected.
 
-SSO在那些你可以从服务之间的深度整合中获益的情况下，可以特别有用。 例如，这些服务中的一个可能为其他服务提供SSO。 我们的建议是将SSO限制在你需要的地方，用 [MFA](multi-factor-authentication.md)来保护主账户。
+OAuth authentication can be especially useful in those situations where you could benefit from deeper integration between services. Our recommendation is to limit using OAuth to only where you need it, and always protect the main account with [MFA](multi-factor-authentication.md).
 
-所有使用SSO的服务将和你的SSO账户一样安全。 例如，如果你想用硬件密钥保护一个账户，但该服务不支持硬件密钥，你可以用硬件密钥保护你的SSO账户，现在你的所有账户基本上都有硬件MFA。 但值得注意的是，SSO账户上的弱认证意味着与该登录方式相关的任何账户也会很弱。
+All the services that use OAuth will be as secure as your underlying provider's account. For example, if you want to secure an account with a hardware key, but that service doesn't support hardware keys, you can secure the account you use with OAuth with a hardware key instead, and now you essentially have hardware MFA on all your accounts. It is worth noting though that weak authentication on your OAuth provider account means that any account tied to that login will also be weak.
 
 ### 手机号
 
