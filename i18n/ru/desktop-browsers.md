@@ -1,5 +1,5 @@
 ---
-meta_title: "Интернет браузеры соблюдающие конфиденциальность для PC и Mac - Privacy Guides"
+meta_title: "Интернет браузеры соблюдающие конфиденциальность для ПК и Мак - Privacy Guides"
 title: "Браузеры для настольных компьютеров"
 icon: material/laptop
 description: Эти браузеры обеспечивают более надежную защиту конфиденциальности, чем Google Chrome.
@@ -67,58 +67,64 @@ schema:
 
     ![Логотип Mullvad Browser](assets/img/browsers/mullvad_browser.svg){ align=right }
     
-    **Mullvad Browser** - это версия [Tor Browser](tor.md#tor-browser) с удаленными интеграциями сети Tor, предназначенная для предоставления пользователям VPN браузерных технологий Tor Browser по борьбе с определением отпечатков. It is developed by the Tor Project and distributed by [Mullvad](vpn.md#mullvad), and does **not** require the use of Mullvad's VPN.
+    **Mullvad Browser** - это версия [Tor Browser](tor.md#tor-browser) с удаленными интеграциями сети Tor, предназначенная для предоставления пользователям VPN браузерных технологий Tor Browser по борьбе с определением отпечатков. Он разработан проектом Tor и распространяется [Mullvad](vpn.md#mullvad), и **не** требует использования VPN Mullvad.
     
     [:octicons-home-16: Домашняя страница](https://mullvad.net/en/browser){ .md-button .md-button--primary }
-    [:octicons-eye-16:](https://mullvad.net/en/help/privacy-policy/){ .card-link title="Privacy Policy" }
-    [:octicons-info-16:](https://mullvad.net/en/help/tag/mullvad-browser/){ .card-link title=Documentation}
-    [:octicons-code-16:](https://gitlab.torproject.org/tpo/applications/mullvad-browser){ .card-link title="Source Code" }
+    [:octicons-eye-16:](https://mullvad.net/en/help/privacy-policy/){ .card-link title="Политика конфиденциальности" }
+    [:octicons-info-16:](https://mullvad.net/en/help/tag/mullvad-browser/){ .card-link title=Документация}
+    [:octicons-code-16:](https://gitlab.torproject.org/tpo/applications/mullvad-browser){ .card-link title="Исходный код" }
     
-    ??? загрузить
+    ??? скачать
     
         - [:simple-windows11: Windows](https://mullvad.net/en/download/browser/windows)
         - [:simple-apple: macOS](https://mullvad.net/en/download/browser/macos)
         - [:simple-linux: Linux](https://mullvad.net/en/download/browser/linux)
 
-Like [Tor Browser](tor.md), Mullvad Browser is designed to prevent fingerprinting by making your browser fingerprint identical to all other Mullvad Browser users, and it includes default settings and extensions that are automatically configured by the default security levels: *Standard*, *Safer* and *Safest*. Therefore, it is imperative that you do not modify the browser at all outside adjusting the default [security levels](https://tb-manual.torproject.org/security-settings/). Other modifications would make your fingerprint unique, defeating the purpose of using this browser. If you want to configure your browser more heavily and fingerprinting is not a concern for you, we recommend [Firefox](#firefox) instead.
+Как и [Tor Browser](tor.md), Mullvad Browser разработан для предотвращения распознавания цифровых отпечатков, делая цифровые отпечатки вашего браузера идентичными цифровым отпечаткам всех других пользователей Mullvad Browser, и он содержит настройки и расширения по умолчанию, которые автоматически конфигурируются выбранным уровнем безопасности: *Standart*, *Safe* и *Safest*. Поэтому крайне важно, чтобы вы **не изменяли** браузер, помимо установленных по умолчанию [уровней безопасности](https://tb-manual.torproject.org/ru/security-settings/). Другие модификации сделают ваш отпечаток браузера уникальным, что лишает смысла использование этого браузера. Если вы хотите более жестко настроить браузер и отпечатки браузера вас не волнуют, мы рекомендуем использовать [Firefox](#firefox).
 
-### Anti-Fingerprinting
+### Система скрытия цифровых отпечатков
 
-**Without** using a [VPN](vpn.md), Mullvad Browser provides the same protections against [naive fingerprinting scripts](https://github.com/arkenfox/user.js/wiki/3.3-Overrides-%5BTo-RFP-or-Not%5D#-fingerprinting) as other private browsers like Firefox+[Arkenfox](#arkenfox-advanced) or [Brave](#brave). Mullvad Browser provides these protections out of the box, at the expense of some flexibility and convenience that other private browsers can provide.
+**Без** использования [VPN](vpn.md), Mullvad Browser обеспечивает такую же защиту от [наивных скриптов распознавания отпечатка браузера](https://github.com/arkenfox/user.js/wiki/3.3-Overrides-%5BTo-RFP-or-Not%5D#-fingerprinting) как и другие конфиденциальные браузеры, такие как Firefox+[Arkenfox](#arkenfox-advanced) или [Brave](#brave). Mullvad Browser обеспечивает эту защиту из коробки, в обмен на некоторую гибкость и удобство, которые могут предоставить другие конфиденциальные браузеры.
 
-==For the strongest anti-fingerprinting protection, we recommend using Mullvad Browser in conjunction **with** a VPN==, whether that is Mullvad or another recommended VPN provider. When using a VPN with Mullvad Browser, you will share a fingerprint and a pool of IP addresses with many other users, giving you a "crowd" to blend in with. This strategy is the only way to thwart advanced tracking scripts, and is the same anti-fingerprinting technique used by Tor Browser.
+==Для улучшения системы скрытия цифровых отпечатков мы рекомендуем использовать Mullvad Browser в сочетании **с** VPN==, будь то Mullvad или другой рекомендованный VPN провайдер. При использовании VPN с Mullvad Browser вы будете иметь общий отпечаток пальца и пул IP-адресов со многими другими пользователями, что позволит вам "слиться с толпой". Эта стратегия - единственный способ противостоять продвинутым скриптам отслеживания, и это та же самая техника защиты от цифровых отпечатков, которую использует Tor Browser.
 
-Note that while you can use Mullvad Browser with any VPN provider, other people on that VPN must also be using Mullvad Browser for this "crowd" to exist, something which is more likely on Mullvad VPN compared to other providers, particularly this close to the launch of Mullvad Browser. Mullvad Browser does not have built-in VPN connectivity, nor does it check whether you are using a VPN before browsing; your VPN connection has to be configured and managed separately.
+Обратите внимание, что, хотя вы и можете использовать Mullvad Browser с любым VPN провайдером, другие люди с этим VPN также должны использовать Mullvad Browser, чтобы эта "толпа" существовала. Более вероятно, что люди, использующие Mullwad Browser, также используют Mullwad VPN. Mullvad Browser не имеет встроенной возможности подключения к VPN и не проверяет, используете ли вы VPN; ваше VPN-соединение должно быть настроено и управляться отдельно.
 
-Mullvad Browser comes with the *uBlock Origin* and *NoScript* browser extensions pre-installed. While we typically [don't recommend](#extensions) adding *additional* browser extensions, these extensions that come pre-installed with the browser should **not** be removed or configured outside their default values, because doing so would noticeably make your browser fingerprint distinct from other Mullvad Browser users. It also comes pre-installed with the Mullvad Browser Extension, which *can* be safely removed without impacting your browser fingerprint if you would like, but is also safe to keep even if you don't use Mullvad VPN.
+Mullvad Browser поставляется с предустановленными расширениями *uBlock Origin* и *NoScript*. Хотя мы обычно [не рекомендуем](#extensions) добавлять *дополнительные* расширения для браузера, эти расширения, которые поставляются с браузером, **не нужно** удалять или дополнительно настраивать, потому что это сделает отпечаток вашего браузера заметно отличным от других пользователей Mullvad Browser. Он также поставляется с предустановленным расширением Mullvad Browser Extension, которое *можно* безопасно удалить без влияния на цифровой отпечаток браузера, оставить его тоже безопасно, даже если вы не используете Mullvad VPN.
 
 ### Режим приватного просмотра
 
-Mullvad Browser operates in permanent private browsing mode, meaning your history, cookies, and other site data will always be cleared every time the browser is closed. Your bookmarks, browser settings, and extension settings will still be preserved.
+Mullvad Browser работает в постоянном режиме приватного просмотра, а это значит, что ваша история, куки и другие данные сайтов будут очищаться при каждом закрытии браузера. Ваши закладки, настройки браузера и настройки расширений будут сохранены.
 
-This is required to prevent advanced forms of tracking, but does come at the cost of convenience and some Firefox features, such as Multi-Account Containers. Remember you can always use multiple browsers, for example, you could consider using Firefox+Arkenfox for a few sites that you want to stay logged in on or otherwise don't work properly in Mullvad Browser, and Mullvad Browser for general browsing.
+Это необходимо для предотвращения расширенных форм отслеживания, но за это приходится платить удобством и некоторыми функциями Firefox, например Multi-Account Containers. Помните, что вы всегда можете использовать несколько браузеров, например, вы можете использовать Firefox+Arkenfox для сайтов, на которых вы хотите оставаться под своим логином или которые не работают должным образом в Mullvad Browser, и Mullvad Browser для регулярного браузинга.
 
 ### Mullvad Leta
 
-Mullvad Browser comes with DuckDuckGo set as the default [search engine](search-engines.md), but it also comes preinstalled with **Mullvad Leta**, a search engine which requires an active Mullvad VPN subscription to access. Mullvad Leta queries Google's paid search API directly (which is why it is limited to paying subscribers), however because of this limitation it is possible for Mullvad to correlate search queries and Mullvad VPN accounts. For this reason we discourage the use of Mullvad Leta, even though Mullvad collects very little information about their VPN subscribers.
+Mullvad Browser поставляется с DuckDuckGo, установленным в качестве [поисковой системы](search-engines.md) по умолчанию, но он также поставляется с предустановленной **Mullvad Leta**, поисковой системой, для доступа к которой требуется активная подписка Mullvad VPN. Mullvad Leta напрямую запрашивает API платного поиска Google (именно поэтому он ограничен для платных подписчиков), однако из-за этого ограничения Mullvad может связать поисковые запросы и учетные записи Mullvad VPN. По этой причине мы не рекомендуем использовать Mullvad Leta, несмотря на то, что Mullvad собирает очень мало информации о своих подписчиках VPN.
 
 ## Firefox
 
 !!! recommendation
 
-    ![Логотип Bromite](assets/img/browsers/bromite.svg){ align=right }
+    ![Логотип Firefox](assets/img/browsers/firefox.svg){ align=right }
     
-    **Bromite** - это браузер, основанный на [Chromium](https://en.wikipedia.org/wiki/Chromium_(web_browser)), с основой на конфиденциальность и безопасность, встроенную блокировку рекламы и некоторую рандомизацию цифровых отпечатков.
+    **Firefox** предоставляет сильные настройки конфиденциальности, такие как [Enhanced Tracking Protection](https://support.mozilla.org/kb/enhanced-tracking-protection-firefox-desktop), которые могут помочь блокировать различные [типы отслеживания](https://support.mozilla.org/kb/enhanced-tracking-protection-firefox-desktop#w_what-enhanced-tracking-protection-blocks).
     
-    [Перейти на bromite.org](https://www.bromite.org){ .md-button .md-button--primary } [Политика конфиденциальности](https://www.bromite.org/privacy){ .md-button } downloads
+    [:octicons-home-16: Домашняя страница](https://firefox.com){ .md-button .md-button--primary }
+    [:octicons-eye-16:](https://www.mozilla.org/privacy/firefox/){ .card-link title="Политика конфиденциальности" }
+    [:octicons-info-16:](https://firefox-source-docs.mozilla.org/){ .card-link title=Документация}
+    [:octicons-code-16:](https://hg.mozilla.org/mozilla-central){ .card-link title="Исходный код" }
+    [:octicons-heart-16:](https://donate.mozilla.org/){ .card-link title=Поддержать }
+    
+    ??? скачать
     
         - [:simple-windows11: Windows](https://www.mozilla.org/firefox/windows)
         - [:simple-apple: macOS](https://www.mozilla.org/firefox/mac)
         - [:simple-linux: Linux](https://www.mozilla.org/firefox/linux)
         - [:simple-flathub: Flathub](https://flathub.org/apps/details/org.mozilla.firefox)
 
-!!! warning
-    Каждый установщик Firefox с веб-сайта Mozilla имеет в себе уникальный идентификатор, который используется для телеметрии. Идентификатор **не** включен в релизы браузера из [Mozilla FTP](https://ftp.mozilla.org/pub/firefox/releases/).
+!!! внимание
+    Каждый установщик Firefox с сайта Mozilla содержит уникальный [идентификатор](https://bugzilla.mozilla.org/show_bug.cgi?id=1677497#c0) и использует телеметрию в Firefox, чтобы отправить этот идентификатор. Идентификатор **не** включен в релизы браузера из [Mozilla FTP](https://ftp.mozilla.org/pub/firefox/releases/).
 
 ### Рекомендованные настройки
 
@@ -142,10 +148,10 @@ Mullvad Browser comes with DuckDuckGo set as the default [search engine](search-
 
 ##### Предложения Firefox (Только США)
 
-[Firefox Suggest](https://support.mozilla.org/en-US/kb/firefox-suggest) is a feature similar to search suggestions which is only available in the US. We recommend disabling it for the same reason we recommend disabling search suggestions. If you don't see these options under the **Address Bar** header, you do not have the new experience and can ignore these changes.
+[Предложения Firefox](https://support.mozilla.org/en-US/kb/firefox-suggest) - это функция, аналогичная поисковым предложениям, которая доступна только в США. Мы рекомендуем отключить его по той же причине, по которой мы рекомендуем отключать поисковые предложения. Если вы не видите этих опций в **Адресной строке**, то у вас нет этой функции и вы можете игнорировать эти изменения.
 
-- [ ] Uncheck **Suggestions from the web**
-- [ ] Uncheck **Suggestions from sponsors**
+- [ ] Отключи **Suggestions from the web**
+- [ ] Отключи **Suggestions from sponsors**
 
 ##### Отчистка при закрытии
 
@@ -161,7 +167,7 @@ Mullvad Browser comes with DuckDuckGo set as the default [search engine](search-
 - [ ] Отключите **Разрешить Firefox устанавливать и проводить исследования**
 - [ ] Отключите **Разрешить Firefox отправлять от вашего имени накопившиеся сообщения о его падениях**
 
-> Firefox sends data about your Firefox version and language; device operating system and hardware configuration; memory, basic information about crashes and errors; outcome of automated processes like updates, safebrowsing, and activation to us. When Firefox sends data to us, your IP address is temporarily collected as part of our server logs.
+> Firefox отправляет нам данные о версии и языке вашего Firefox; операционной системе устройства и конфигурации оборудования; памяти, основную информацию о сбоях и ошибках; результаты автоматизированных процессов, таких как обновления, безопасный просмотр и активация. Когда Firefox отправляет нам данные, ваш IP-адрес временно собирается как часть логов нашего сервера.
 
 Кроме того, служба Firefox Accounts собирает [некоторые технические данные](https://www.mozilla.org/en-US/privacy/firefox/#firefox-accounts). Если вы используете учетную запись Firefox, вы можете отключить сбор этих данных:
 
@@ -182,11 +188,11 @@ Mullvad Browser comes with DuckDuckGo set as the default [search engine](search-
 
 !!! совет "Используйте Mullvad Browser для продвинутой защиты от цифровых отпечатков"
 
-    [Mullvad Browser](#mullvad-browser) обеспечивает ту же защиту от цифровых отпечатков, что и Arkenfox, и не требует использования VPN Mullvad, чтобы воспользоваться этой защитой. Coupled with a VPN, Mullvad Browser can thwart more advanced tracking scripts which Arkenfox cannot. Arkenfox still has the advantage of being much more flexible, and allowing per-site exceptions for websites which you need to stay logged in to.
+    [Mullvad Browser](#mullvad-browser) обеспечивает ту же защиту от цифровых отпечатков, что и Arkenfox, и не требует использования VPN Mullvad, чтобы воспользоваться этой защитой. В сочетании с VPN, Mullvad Browser может предотвратить более продвинутые скрипты отслеживания, которые Arkenfox не может. Преимущество Arkenfox в том, что он гораздо более гибкий и позволяет делать исключения для отдельных сайтов, на которых вам необходимо оставаться залогиненными.
 
 [Проект Arkenfox](https://github.com/arkenfox/user.js) предоставляет набор тщательно подобранных настроек для Firefox. Если ты [решишь](https://github.com/arkenfox/user.js/wiki/1.1-To-Arkenfox-or-Not) использовать Arkenfox, то [несколько опций](https://github.com/arkenfox/user.js/wiki/3.2-Overrides-[Common]) являются субъективно строгими и/или могут привести к неправильной работе некоторых сайтов. [Эти настройки ты можешь легко изменить](https://github.com/arkenfox/user.js/wiki/3.1-Overrides) в соответствии с твоими потребностями. Мы **настоятельно рекомендуем** ознакомиться с их [вики](https://github.com/arkenfox/user.js/wiki). Arkenfox также включает поддержку [контейнеров](https://support.mozilla.org/ru/kb/kontejnery).
 
-Arkenfox only aims to thwart basic or naive tracking scripts through canvas randomization and Firefox's built-in fingerprint resistance configuration settings. It does not aim to make your browser blend in with a large crowd of other Arkenfox users in the same way Mullvad Browser or Tor Browser do, which is the only way to thwart advanced fingerprint tracking scripts. Remember you can always use multiple browsers, for example, you could consider using Firefox+Arkenfox for a few sites that you want to stay logged in on or otherwise trust, and Mullvad Browser for general browsing.
+Arkenfox нацелен только на предотвращение основных или наивных сценариев отслеживания с помощью рандомизации холста и встроенных в Firefox настроек конфигурации сопротивления отпечатку браузера. Он не стремится к тому, чтобы ваш браузер сливался с большой толпой других пользователей Arkenfox так, как это делают Mullvad Browser или Tor Browser, что является единственным способом помешать продвинутым сценариям отслеживания отпечатков браузера. Помните, что вы всегда можете использовать несколько браузеров, например, вы можете использовать Firefox+Arkenfox для сайтов, на которых вы хотите оставаться под своим логином или которые не работают должным образом в Mullvad Browser, и Mullvad Browser для регулярного браузинга.
 
 ## Brave
 
@@ -194,7 +200,7 @@ Arkenfox only aims to thwart basic or naive tracking scripts through canvas rand
 
     ![Логотип Brave](assets/img/browsers/brave.svg){ align=right }
     
-    **Браузер Brave** включает встроенный блокировщик контента и [инструменты конфиденциальности](https://brave.com/privacy-features/), многие из которых включены по умолчанию.
+    **Brave Browser** включает встроенный блокировщик контента и [инструменты конфиденциальности](https://brave.com/privacy-features/), многие из которых включены по умолчанию.
     
     Brave основан на Chromium, поэтому он покажется вам знакомым, а также у него не должно быть проблем с совместимостью.
     
@@ -204,14 +210,14 @@ Arkenfox only aims to thwart basic or naive tracking scripts through canvas rand
     [:octicons-info-16:](https://support.brave.com/){ .card-link title=Документация}
     [:octicons-code-16:](https://github.com/brave/brave-browser){ .card-link title="Исходный код" }
     
-    ??? downloads annotate
+    ??? скачать
     
         - [:simple-github: GitHub](https://github.com/brave/brave-browser/releases)
         - [:simple-windows11: Windows](https://brave.com/download/)
         - [:simple-apple: macOS](https://brave.com/download/)
         - [:simple-linux: Linux](https://brave.com/linux/) (1)
 
-    1. We advise against using the Flatpak version of Brave, as it replaces Chromium's sandbox with Flatpak's, which is less effective. Additionally, the package is not maintained by Brave Software, Inc.
+    1. Мы не рекомендуем использовать Flatpak-версию Brave, поскольку она заменяет песочницу Chromium песочницей Flatpak, что менее эффективно. Кроме того, установочный пакет не поддерживается компанией Brave Software, Inc.
 
 ### Рекомендованные настройки
 
@@ -277,8 +283,8 @@ Brave включает несколько инструментов защиты 
 
 Функции Web3 в Brave потенциально могут увеличить цифровой отпечаток вашего браузера и площадь атаки. Если ты не используешь эти функции, их следует отключить.
 
-- [ ] Set **Default Ethereum Wallet** to **None**
-- [ ] Set **Default Solana Wallet** to **None**
+- [ ] Установи **Кошелек Ethereum по умолчанию** как **Отключено**
+- [ ] Установи **Кошелек Solana по умолчанию** как **Отключено**
 - [ ] В **Метод преобразования IPFS-ресурсов** выбери **Отключено**
 
 ##### Система
@@ -297,7 +303,7 @@ Brave включает несколько инструментов защиты 
 
 #### Вознаграждение Brave и Кошелек
 
-**Вознаграждения Brave** позволяет получать криптовалюту Basic Attention Token (BAT) за выполнение определенных действий в Brave. It relies on a custodial account and KYC from a select number of providers. We do not recommend BAT as a [private cryptocurrency](cryptocurrency.md), nor do we recommend using a [custodial wallet](advanced/payments.md#other-coins-bitcoin-ethereum-etc), so we would discourage using this feature.
+**Вознаграждения Brave** позволяет получать криптовалюту Basic Attention Token (BAT) за выполнение определенных действий в Brave. Она опирается на кастодиальный аккаунт и KYC от определенного числа провайдеров. Мы не рекомендуем использовать BAT в качестве [конфиденциальной криптовалюты](cryptocurrency.md), также мы не рекомендуем использовать [кастодиальный кошелек](advanced/payments.md#other-coins-bitcoin-ethereum-etc), поэтому мы не советуем использовать эту функцию.
 
 **Кошелек Brave** работает локально на вашем компьютере, но не поддерживает никаких конфиденциальных криптовалют, поэтому мы бы не советовали использовать и эту функцию.
 
@@ -318,28 +324,28 @@ Brave включает несколько инструментов защиты 
     [:octicons-info-16:](https://github.com/gorhill/uBlock/wiki){ .card-link title=Документация}
     [:octicons-code-16:](https://github.com/gorhill/uBlock){ .card-link title="Исходный код" }
     
-    ??? downloads
+    ??? скачать
     
         - [:simple-firefoxbrowser: Firefox](https://addons.mozilla.org/firefox/addon/ublock-origin/)
         - [:simple-googlechrome: Chrome](https://chrome.google.com/webstore/detail/ublock-origin/cjpalhdlnbpafiamejdnhcphjbkeiagm)
         - [:simple-microsoftedge: Edge](https://microsoftedge.microsoft.com/addons/detail/ublock-origin/odfafepnkmbhccpbejgmiehpchacaeak)
 
-We suggest following the [developer's documentation](https://github.com/gorhill/uBlock/wiki/Blocking-mode) and picking one of the "modes". Additional filter lists can impact performance and [may increase attack surface](https://portswigger.net/research/ublock-i-exfiltrate-exploiting-ad-blockers-with-css).
+Мы рекомендуем следовать [документации разработчика](https://github.com/gorhill/uBlock/wiki/Blocking-mode) и выбрать один из "режимов". Дополнительные списки фильтров могут повлиять на производительность и [могут увеличить площадь атаки](https://portswigger.net/research/ublock-i-exfiltrate-exploiting-ad-blockers-with-css).
 
-##### Other lists
+##### Другие списки
 
-These are some other [filter lists](https://github.com/gorhill/uBlock/wiki/Dashboard:-Filter-lists) that you may want to consider adding:
+Вот некоторые другие [списки фильтров](https://github.com/gorhill/uBlock/wiki/Dashboard:-Filter-lists), которые вы, возможно, захотите добавить:
 
-- [x] Check **Privacy** > **AdGuard URL Tracking Protection**
-- Add [Actually Legitimate URL Shortener Tool](https://raw.githubusercontent.com/DandelionSprout/adfilt/master/LegitimateURLShortener.txt)
+- [x] Выберите **Конфиденциальность** > **AdGuard URL Tracking Protection**
+- Добавьте [Actually Legitimate URL Shortener Tool](https://raw.githubusercontent.com/DandelionSprout/adfilt/master/LegitimateURLShortener.txt)
 
 ## Критерии
 
-**Please note we are not affiliated with any of the projects we recommend.** In addition to [our standard criteria](about/criteria.md), we have developed a clear set of requirements to allow us to provide objective recommendations. We suggest you familiarize yourself with this list before choosing to use a project, and conduct your own research to ensure it's the right choice for you.
+**Обратите внимание, что у нас нет связей ни с одним проектом, который мы рекомендуем.** В дополнение к [нашим стандартным критериям](about/criteria.md) мы разработали четкий набор требований, позволяющий давать объективные рекомендации. Мы рекомендуем вам ознакомиться с этим списком, прежде чем выбрать продукт, и провести собственное исследование, чтобы убедиться в правильности своего выбора.
 
 !!! пример "Эта секция новая"
 
-    We are working on establishing defined criteria for every section of our site, and this may be subject to change. If you have any questions about our criteria, please [ask on our forum](https://discuss.privacyguides.net/latest) and don't assume we didn't consider something when making our recommendations if it is not listed here. Мы учитываем и обсуждаем много факторов, перед тем как рекомендовать какой-то проект, и документирование каждого из них ещё не завершено.
+    Мы сейчас работаем над установлением точных критериев для каждого раздела нашего сайта, поэтому они могут поменяться в будущем. Если у вас есть вопросы относительно наших критериев, [задайте вопрос на нашем форуме](https://discuss.privacyguides.net/latest), и не считайте, что мы что-то не учли при составлении наших рекомендаций, если это не указано здесь. Мы учитываем и обсуждаем много факторов, перед тем как рекомендовать какой-то проект, и документирование каждого из них ещё не завершено.
 
 ### Минимальные требования к сервисам
 
@@ -357,9 +363,9 @@ These are some other [filter lists](https://github.com/gorhill/uBlock/wiki/Dashb
 
 - Включает в себя встроенную функцию блокировки контента.
 - Поддерживает разделение файлов cookie (как [Multi-Account Контейнеры](https://support.mozilla.org/en-US/kb/containers)).
-- Supports Progressive Web Apps.  
-  PWAs enable you to install certain websites as if they were native apps on your computer. This can have advantages over installing Electron-based apps, because you benefit from your browser's regular security updates.
-- Does not include add-on functionality (bloatware) that does not impact user privacy.
+- Поддерживает Прогрессивные веб приложения.  
+  PWA позволяют устанавливать на компьютер определенные веб-сайты, как будто это нативные приложения. Это может иметь преимущества перед установкой приложений на базе Electron, поскольку вы получаете преимущества от регулярных обновлений безопасности вашего браузера.
+- Не включает дополнительные функции (bloatware), которые не влияют на конфиденциальность пользователя.
 - По умолчанию не собирает телеметрию.
 - Предоставляет реализацию сервера синхронизации с открытым исходным кодом.
 - По умолчанию включена [конфиденциальная поисковая система](search-engines.md).
@@ -369,4 +375,4 @@ These are some other [filter lists](https://github.com/gorhill/uBlock/wiki/Dashb
 - Не должны копировать встроенную функциональность браузера или ОС.
 - Должны непосредственно влиять на конфиденциальность пользователя, т.е. не просто предоставлять информацию.
 
-[^1]: Brave's implementation is detailed at [Brave Privacy Updates: Partitioning network-state for privacy](https://brave.com/privacy-updates/14-partitioning-network-state/).
+[^1]: Реализация Brave подробно описана на сайте [Обновления конфиденциальности Brave: Разделение состояния сети для обеспечения конфиденциальности](https://brave.com/privacy-updates/14-partitioning-network-state/).

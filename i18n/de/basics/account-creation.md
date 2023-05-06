@@ -45,7 +45,7 @@ Should a service get hacked, you might start receiving phishing or spam emails t
 
 [Recommended email aliasing services](../email.md#email-aliasing-services ""){.md-button}
 
-### "Sign in with..." (OAuth)
+### "Anmelden mit ..." (OAuth)
 
 OAuth is an authentication protocol that allows you to register for a service without sharing much information with the service provider, if any, by using an existing account you have with another service instead. Whenever you see something along the lines of "Sign in with *provider name*" on a registration form, it's typically using OAuth.
 

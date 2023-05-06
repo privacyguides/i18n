@@ -1,13 +1,13 @@
 ---
-title: "Why Privacy Matters"
+title: "Proč je soukromí důležité"
 icon: 'material/shield-account'
 ---
 
-In the modern age of digital data exploitation, your privacy has never been more critical, and yet many believe it is already a lost cause. It is not. ==Your privacy is up for grabs==, and you need to care about it. Privacy is about power, and it is so important that this power ends up in the right hands.
+V moderní době zneužívání digitálních dat nebylo vaše soukromí nikdy tak důležité, a přesto se mnozí domnívají, že je to již ztracená věc. Není. ==Vaše soukromí je k mání== a vy se o něj musíte starat. Soukromí je o moci a je tak důležité, aby tato moc skončila ve správných rukou.
 
 Privacy is ultimately about human information, and this is important because we know that human information confers power over human beings. If we care about our ability to be authentic, fulfilled, and free humans, we have to care about the rules that apply to information about us. So much of our modern society is structured around **information**. When you shop online, read the news, look something up, vote, seek directions, or really anything else, you are relying on information. If we live in an information society, our information matters, and therefore privacy matters.
 
-## What is Privacy?
+## Co je to soukromí?
 
 Many people get the concepts of **privacy**, **security**, and **anonymity** confused. You'll see people criticize various products as "not private" when really they mean it doesn't provide anonymity, for example. On this website, we cover all three of these topics, but it is important you understand the difference between them, and when each one comes into play.
 

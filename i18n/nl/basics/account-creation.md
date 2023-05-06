@@ -31,7 +31,7 @@ De meest gebruikelijke manier om een nieuwe account aan te maken is met een e-ma
 
 !!! tip
 
-    You can use your password manager to organize other authentication methods too! Just add the new entry and fill the appropriate fields, you can add notes for things like security questions or a backup key.
+    Je kunt jouw wachtwoord manager ook gebruiken om andere verificatiemethoden te organiseren! Voeg gewoon het nieuwe item toe en vul de juiste velden in, u kunt notities toevoegen voor zaken als beveiligingsvragen of een back-up sleutel.
 
 Je bent verantwoordelijk voor het beheer van jouw inloggegevens. Voor extra beveiliging kunt je  [MFA](multi-factor-authentication.md) instellen op jouw accounts.
 
@@ -45,11 +45,11 @@ Als een dienst wordt gehackt, kunt je phishing- of spam-e-mails ontvangen op het
 
 [Aanbevolen diensten voor e-mailaliasing](../email.md#email-aliasing-services ""){.md-button}
 
-### "Sign in with..." (OAuth)
+### Meld je aan met... OAuth
 
-OAuth is an authentication protocol that allows you to register for a service without sharing much information with the service provider, if any, by using an existing account you have with another service instead. Whenever you see something along the lines of "Sign in with *provider name*" on a registration form, it's typically using OAuth.
+OAuth is een authenticatieprotocol waarmee je je kan registreren voor een dienst zonder veel informatie te delen met de dienstverlener, als die er al is, door in plaats daarvan gebruik te maken van een bestaande account die je hebt bij een andere dienst. Wanneer je iets ziet in de trant van "Aanmelden met *providernaam*" op een registratieformulier, dan betreft dat meestal OAuth.
 
-When you sign in with OAuth, it will open a login page with the provider you choose, and your existing account and new account will be connected. Your password won't be shared, but some basic information typically will (you can review it during the login request). Dit proces is nodig elke keer dat je wilt inloggen op hetzelfde account.
+Wanneer je met OAuth inlogt, wordt een inlogpagina geopend met de aanbieder die je kiest, en jouw bestaande account en nieuwe account zullen worden verbonden. Jouw wachtwoord wordt niet gedeeld, maar sommige basisinformatie wel (je kunt deze bekijken tijdens het inlogverzoek). Dit proces is nodig elke keer dat je wilt inloggen op hetzelfde account.
 
 De belangrijkste voordelen zijn:
 
@@ -58,12 +58,12 @@ De belangrijkste voordelen zijn:
 
 Maar er zijn ook nadelen:
 
-- **Privacy**: the OAuth provider you log in with will know the services you use.
-- **Centralization**: if the account you use for OAuth is compromised or you aren't able to login to it, all other accounts connected to it are affected.
+- **Privacy**: de OAuth provider waarmee je je aanmeldt kent de diensten die je gebruikt.
+- **Centralisatie**: als het account dat je voor OAuth gebruikt, gecompromitteerd is of je niet kunt inloggen alle andere accounts die ermee verbonden zijn worden beïnvloed.
 
-OAuth authentication can be especially useful in those situations where you could benefit from deeper integration between services. Our recommendation is to limit using OAuth to only where you need it, and always protect the main account with [MFA](multi-factor-authentication.md).
+OAuth authenticatie kan vooral nuttig zijn in situaties waarin je zou kunnen profiteren van een diepere integratie tussen services. Onze aanbeveling is om OAuth alleen te gebruiken waar je het nodig hebt, en altijd de hoofdaccount te beschermen met [MFA](multi-factor-authentication.md).
 
-All the services that use OAuth will be as secure as your underlying provider's account. For example, if you want to secure an account with a hardware key, but that service doesn't support hardware keys, you can secure the account you use with OAuth with a hardware key instead, and now you essentially have hardware MFA on all your accounts. It is worth noting though that weak authentication on your OAuth provider account means that any account tied to that login will also be weak.
+Alle diensten die OAuth gebruiken zijn net zo veilig als jouw onderliggende account van de aanbieder. Als je bijvoorbeeld een account wilt beveiligen met een hardwaresleutel, maar die dienst ondersteunt geen hardwaresleutels, dan kun je jouw OAuth account beveiligen met een hardwaresleutel en nu hebt je in wezen hardware-MFA op al jouw accounts. Het is de moeite waard om op te merken dat zwakke authenticatie op jouw OAuth provider-account betekent dat elke account gekoppeld aan die login ook zwak zal zijn.
 
 ### Telefoonnummer
 

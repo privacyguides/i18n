@@ -7,9 +7,9 @@ cover: frontends.png
 
 Parfois, des services tentent de vous obliger à créer un compte en bloquant l'accès au contenu par des fenêtres pop-up gênantes. Ils peuvent également ne pas fonctionner sans JavaScript activé. Ces interfaces client peuvent vous permettre de contourner ces restrictions.
 
-If you choose to self-host these frontends, it is important that you have other people using your instance as well in order for you to blend in. You should be careful with where and how you are hosting, as other peoples' usage will be linked to your hosting.
+Si vous choisissez d'héberger vous-même ces clients, il est important que d'autres personnes utilisent également votre instance pour que vous puissiez vous fondre dans la masse. Vous devriez faire attention à l'endroit et à la manière dont vous hébergez, car l'utilisation par d'autres personnes sera liée à votre hébergement.
 
-When you are using an instance run by someone else, make sure to read the privacy policy of that specific instance. They can be modified by their owners and therefore may not reflect the default policy. Dans certains cas, les adresses Tor .onion peuvent garantir une certaine confidentialité tant que les requêtes de recherche ne contiennent pas d'informations personnelles identifiables.
+Lorsque vous utilisez une instance gérée par quelqu'un d'autre, veillez à lire la politique de confidentialité de cette instance spécifique. Elles peuvent être modifiées par leurs propriétaires et peuvent donc ne pas refléter la politique par défaut. Certaines instances ont des adresses Tor .onion qui peuvent garantir une certaine confidentialité tant que vos requêtes de recherche ne contiennent pas de DCP.
 
 ## LBRY
 

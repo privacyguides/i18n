@@ -7,9 +7,9 @@ cover: frontends.png
 
 Soms proberen diensten je te dwingen zich aan te melden voor een account door de toegang tot inhoud te blokkeren met vervelende popups. Ze kunnen ook breken zonder JavaScript. Met deze frontends kunt je deze beperkingen omzeilen.
 
-If you choose to self-host these frontends, it is important that you have other people using your instance as well in order for you to blend in. You should be careful with where and how you are hosting, as other peoples' usage will be linked to your hosting.
+Bij zelf-hosting is het belangrijk dat er ook andere mensen gebruik maken van jouw instantie, zodat je op kunt gaan in de menigte. Je moet voorzichtig zijn met waar en hoe je host, omdat het gebruik van andere mensen zal worden gekoppeld aan jouw hosting.
 
-When you are using an instance run by someone else, make sure to read the privacy policy of that specific instance. They can be modified by their owners and therefore may not reflect the default policy. Sommige instanties hebben Tor .onion adressen die enige privacy kunnen bieden zolang jouw zoekopdrachten geen PII (Personally Identifiable Information) bevat.
+Als je een instantie gebruikt die door iemand anders wordt beheerd, moet je het privacybeleid van die specifieke instantie lezen. Ze kunnen door hun eigenaren worden gewijzigd en kunnen daarom niet in overeenstemming zijn met het standaardbeleid. Sommige instanties hebben Tor .onion adressen die enige privacy kunnen bieden zolang jouw zoekopdrachten geen PII (Personally Identifiable Information) bevat.
 
 ## Cliënten
 

@@ -1,4 +1,4 @@
-*[2FA]: 2-Factor Authentication
+*[2FA]: Dvoufaktorové ověření
 *[ADB]: Android Debug Bridge
 *[AOSP]: Android Open Source Project
 *[ATA]: Advanced Technology Attachment
@@ -6,7 +6,7 @@
 *[AVB]: Android Verified Boot
 *[cgroups]: Control Groups
 *[CLI]: Command Line Interface
-*[CSV]: Comma-Separated Values
+*[CSV]: Hodnoty oddělené čárkou
 *[CVE]: Common Vulnerabilities and Exposures
 *[Digital Legacy]: Digital Legacy refers to features that allow you to give other people access to your data when you die
 *[DNSSEC]: Domain Name System Security Extensions
@@ -39,12 +39,12 @@
 *[IMAP]: Internet Message Access Protocol
 *[IMEI]: International Mobile Equipment Identity
 *[IMSI]: International Mobile Subscriber Identity
-*[IP]: Internet Protocol
-*[IPv4]: Internet Protocol version 4
-*[IPv6]: Internet Protocol version 6
-*[ISP]: Internet Service Provider
+*[IP]: Internetový protokol
+*[IPv4]: Internetový protokol verze 4
+*[IPv6]: Internetový protokol verze 6
+*[ISP]: Poskytovatel internetových služeb
 *[ISPs]: Internet Service Providers
-*[JNI]: Java Native Interface
+*[JNI]: Nativní rozhraní Java
 *[KYC]: Know Your Customer
 *[LUKS]: Linux Unified Key Setup (Full-Disk Encryption)
 *[MAC]: Media Access Control
@@ -83,14 +83,14 @@
 *[TCP]: Transmission Control Protocol
 *[TEE]: Trusted Execution Environment
 *[TLS]: Transport Layer Security
-*[ToS]: Terms of Service
-*[TOTP]: Time-based One-Time Password
+*[ToS]: Podmínky použití
+*[TOTP]: Časově založené jednočasové heslo
 *[TPM]: Trusted Platform Module
-*[U2F]: Universal 2nd Factor
+*[U2F]: Univerzální druhý faktor
 *[UEFI]: Unified Extensible Firmware Interface
 *[UDP]: User Datagram Protocol
 *[VPN]: Virtual Private Network
-*[VoIP]: Voice over IP (Internet Protocol)
+*[VoIP]: Hlas přes IP (internetový protokol)
 *[W3C]: World Wide Web Consortium
 *[XMPP]: Extensible Messaging and Presence Protocol
 *[PWA]: Progressive Web App

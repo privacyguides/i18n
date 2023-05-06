@@ -1,9 +1,9 @@
 ---
-title: "Why Privacy Matters"
+title: "Warum die Privatsphäre wichtig ist"
 icon: 'material/shield-account'
 ---
 
-In the modern age of digital data exploitation, your privacy has never been more critical, and yet many believe it is already a lost cause. It is not. ==Your privacy is up for grabs==, and you need to care about it. Privacy is about power, and it is so important that this power ends up in the right hands.
+Nie war deine Privatsphäre so wichtig, wie im modernen Zeitalter der digitalen Datenauswertung. Dennoch glaubne viele, dass es bereits ein hoffnungsloser Fall ist. Das ist es nicht. ==Deine Privatsphäre ist in Gefahr== und du musst dich darum kümmern. Bei der Privatsphäre geht es um Macht, darum ist es wichtig, dass die Macht in den richtigen Händen landet.
 
 Privacy is ultimately about human information, and this is important because we know that human information confers power over human beings. If we care about our ability to be authentic, fulfilled, and free humans, we have to care about the rules that apply to information about us. So much of our modern society is structured around **information**. When you shop online, read the news, look something up, vote, seek directions, or really anything else, you are relying on information. If we live in an information society, our information matters, and therefore privacy matters.
 
@@ -23,7 +23,7 @@ Security is the ability to trust the applications you use—that the parties inv
 
     Certificates prove you are talking directly to the website you're visiting, and keep attackers on your network from reading or modifying the data sent to or from the website.
 
-**Anonymity**
+**Anonymität**
 :
 
 Anonymity is the ability to act without a persistent identifier. You might achieve this online with [Tor](../tor.md), which allows you to browse the internet with a random IP address and network connection instead of your own.

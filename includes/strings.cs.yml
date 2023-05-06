@@ -8,44 +8,44 @@ config:
          Privacy Guides is a non-profit, socially motivated website that provides information for protecting your data security and privacy.
     - 
       2: |
-         We do not make money from recommending certain products, and we do not use affiliate links.
+         Nevyděláváme peníze z doporučování produktů a nepoužíváme partnerské odkazy.
     - 
       3: |
          Privacy Guides and contributors.
     - 
       4: |
-         Content licensed under CC BY-ND 4.0.
+         Obsah licencován pod CC BY-ND 4.0.
   feedback:
-    question: Was this page helpful?
-    yes: This page was helpful
-    yes-note: Thanks for your feedback!
-    no: This page could be improved
+    question: Byla tato stránka užitečná?
+    yes: Tato stránka byla užitečná
+    yes-note: Děkujeme Vám za zpětnou vazbu!
+    no: Tato stránka by mohla být vylepšena
     no-note: |
-      Thanks for your feedback! Help us improve this page by opening a discussion on our forum.
+      Děkujeme za vaši zpětnou vazbu! Pomozte nám vylepšit tuto stránku otevřením diskuse na našem fóru.
   theme:
-    dark: Switch to dark mode
-    light: Switch to light mode
-    system: Switch to system theme
+    dark: Přepnout do tmavého režimu
+    light: Přepnout do světlého režimu
+    system: Přepnout do systémového režimu
 nav:
   Home: Domů
-  Knowledge Base: Knowledge Base
+  Knowledge Base: Databáze znalostí
   Technology Essentials: Technology Essentials
-  Operating Systems: Operating Systems
-  Advanced Topics: Advanced Topics
-  Recommendations: Recommendations
-  Internet Browsing: Internet Browsing
-  Providers: Providers
+  Operating Systems: Operační systémy
+  Advanced Topics: Pokročilá témata
+  Recommendations: Doporučení
+  Internet Browsing: Prohlížení Internetu
+  Providers: Poskytovatelé
   Software: Software
   About: O nás
-  Community: Community
-  Online Services: Online Services
-  Code of Conduct: Code of Conduct
-  Contributing: Contributing
-  Writing Guide: Writing Guide
-  Technical Guides: Technical Guides
-  Changelog: Changelog
-  Forum: Forum
+  Community: Komunita
+  Online Services: Online služby
+  Code of Conduct: Kodex chování
+  Contributing: Přispívání
+  Writing Guide: Průvodce psaním
+  Technical Guides: Technické příručky
+  Changelog: Seznam změn
+  Forum: Fórum
   Blog: Blog
 site:
   translation: |
-    You're viewing the English copy of Privacy Guides, translated by our fantastic language team on Crowdin. If you notice an error, or see any untranslated sections on this page, please consider helping out!
+    Prohlížíte si českou verzi Privacy Guides, kterou přeložil náš fantastický jazykový tým na Crowdinu. Pokud si všimnete chyby nebo uvidíte na této stránce nepřeložené části, zvažte prosím pomoc!

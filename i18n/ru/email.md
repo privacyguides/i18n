@@ -1,8 +1,8 @@
 ---
-meta_title: "Encrypted Private Email Recommendations - Privacy Guides"
+meta_title: "Рекомендации по шифрованной конфиденциальной электронной почте - Privacy Guides"
 title: "Электронная почта"
 icon: material/email
-description: These email providers offer a great place to store your emails securely, and many offer interoperable OpenPGP encryption with other providers.
+description: Эти провайдеры электронной почты предлагают отличное место для безопасного хранения ваших писем, а многие из них предлагают еще и совместимое шифрование OpenPGP с другими провайдерами.
 cover: email.png
 ---
 
@@ -14,7 +14,7 @@ cover: email.png
 
 - [Провайдеры электронной почты, поддерживающие OpenPGP :material-arrow-right-drop-circle:](#openpgp-compatible-services)
 - [Другие провайдеры, поддерживающие шифрование :material-arrow-right-drop-circle:](#more-providers)
-- [Email Aliasing Services :material-arrow-right-drop-circle:](#email-aliasing-services)
+- [Сервисы псевдонимов электронной почты :material-arrow-right-drop-circle:](#email-aliasing-services)
 - [Варианты самостоятельного хостинга :material-arrow-right-drop-circle:](#self-hosting-email)
 
 ## Сервисы, поддерживающие OpenPGP
@@ -28,9 +28,9 @@ cover: email.png
 
 </div>
 
-!!! warning
+!!! предупреждение
 
-    При использовании технологии E2EE, такой как OpenPGP, сообщения все равно будут содержать некоторые незашифрованные метаданные в заголовках письма. Узнайте больше о [метаданных электронной почты](basics/email-security.md#email-metadata-overview).
+    При использовании технологии E2EE, такой, как OpenPGP, сообщения все равно будут содержать некоторые незашифрованные метаданные в заголовках письма. Узнайте больше о [метаданных электронной почты](basics/email-security.md#email-metadata-overview).
     
     OpenPGP также не поддерживает прямую секретность: если ваш закрытый ключ или закрытый ключ получателя окажется украден, все предыдущие сообщения, зашифрованные с его помощью, будут раскрыты. [Как я могу защитить свои закрытые ключи?](basics/email-security.md#how-do-i-protect-my-private-keys)
 
@@ -58,92 +58,92 @@ cover: email.png
         - [:simple-linux: Linux](https://proton.me/mail/bridge#download)
         - [:octicons-browser-16: Веб-версия](https://mail.proton.me)
 
-Free accounts have some limitations, such as not being able to search body text and not having access to [Proton Mail Bridge](https://proton.me/mail/bridge), which is required to use a [recommended desktop email client](email-clients.md) (e.g. Thunderbird). Paid accounts include features like Proton Mail Bridge, additional storage, and custom domain support. A [letter of attestation](https://proton.me/blog/security-audit-all-proton-apps) was provided for Proton Mail's apps on 9th November 2021 by [Securitum](https://research.securitum.com).
+Бесплатные аккаунты имеют некоторые ограничения, такие как невозможность поиска писем по седержимому и отсутствие доступа к [Proton Mail Bridge](https://proton.me/mail/bridge), который необходим для использования [рекомендуемого настольного почтового клиента](email-clients.md) (например, Thunderbird). Платные аккаунты включают такие функции, как Proton Mail Bridge, дополнительное хранилище и поддержку пользовательских доменов. [Аттестационное письмо](https://proton.me/blog/security-audit-all-proton-apps) было предоставлено для приложений Proton Mail 9 ноября 2021 года компанией [Securitum](https://research.securitum.com).
 
-If you have the Proton Unlimited, Business, or Visionary Plan, you also get [SimpleLogin](#simplelogin) Premium for free.
+Если у вас есть план Proton Unlimited, Business или Visionary, вы также получаете [SimpleLogin](#simplelogin) Premium бесплатно.
 
-Proton Mail has internal crash reports that they **do not** share with third parties. This can be disabled in: **Settings** > **Go to Settings** > **Account** > **Security and privacy** > **Send crash reports**.
+У компании Proton Mail есть внутренние отчеты об ошибках, которые они **не передают** третьим лицам. Это можно отключить в: **Настройки** > **Перейти в Настройки** > **Учетная запись** > **Безопасность и конфиденциальность** > **Отправка отчетов об ошибках**.
 
-#### :material-check:{ .pg-green } Custom Domains and Aliases
+#### :material-check:{ .pg-green } Пользовательские домены и псевдонимы
 
-Paid Proton Mail subscribers can use their own domain with the service or a [catch-all](https://proton.me/support/catch-all) address. Proton Mail also supports [subaddressing](https://proton.me/support/creating-aliases), which is useful for people who don't want to purchase a domain.
+Платные подписчики Proton Mail могут использовать свой собственный домен или [универсальный адрес](https://proton.me/support/catch-all). Proton Mail также поддерживает [субадресацию](https://proton.me/support/creating-aliases), что полезно для тех, кто не хочет покупать домен.
 
-#### :material-check:{ .pg-green } Private Payment Methods
+#### :material-check:{ .pg-green } Конфиденциальные способы оплаты
 
-Proton Mail [accepts](https://proton.me/support/payment-options) cash by mail in addition to standard credit/debit card, [Bitcoin](advanced/payments.md#other-coins-bitcoin-ethereum-etc), and PayPal payments.
+Proton Mail [принимает](https://proton.me/support/payment-options) наличные по почте в дополнение к стандартным платежам кредитными/дебетовыми картами, [Bitcoin](advanced/payments.md#other-coins-bitcoin-ethereum-etc), и PayPal.
 
-#### :material-check:{ .pg-green } Account Security
+#### :material-check:{ .pg-green } Безопасность аккаунта
 
-Proton Mail supports TOTP [two factor authentication](https://proton.me/support/two-factor-authentication-2fa) and [hardware security keys](https://proton.me/support/2fa-security-key) using FIDO2 or U2F standards. The use of a hardware security key requires setting up TOTP two factor authentication first.
+Proton Mail поддерживает [двухфакторную аутентификацию](https://proton.me/support/two-factor-authentication-2fa) TOTP и [аппаратные ключи безопасности](https://proton.me/support/2fa-security-key) с использованием стандартов FIDO2 или U2F. Использование аппаратного ключа безопасности сначала требует настройки двухфакторной аутентификации TOTP.
 
-#### :material-check:{ .pg-green } Data Security
+#### :material-check:{ .pg-green } Безопасность данных
 
-Proton Mail has [zero-access encryption](https://proton.me/blog/zero-access-encryption) at rest for your emails and [calendars](https://proton.me/news/protoncalendar-security-model). Data secured with zero-access encryption is only accessible by you.
+Proton Mail имеет [шифрование с нулевым доступом](https://proton.me/blog/zero-access-encryption) в состоянии покоя для ваших писем и [календарей](https://proton.me/news/protoncalendar-security-model). Данные, защищенные с помощью шифрования с нулевым доступом, доступны только вам.
 
-Certain information stored in [Proton Contacts](https://proton.me/support/proton-contacts), such as display names and email addresses, are not secured with zero-access encryption. Contact fields that support zero-access encryption, such as phone numbers, are indicated with a padlock icon.
+Определенная информация, хранящаяся в [Proton Contacts](https://proton.me/support/proton-contacts), такая, как имена пользователей и адреса электронной почты, не защищена шифрованием с нулевым доступом. Поля контактов, поддерживающие шифрование с нулевым доступом, например номера телефонов, обозначаются значком замка.
 
-#### :material-check:{ .pg-green } Email Encryption
+#### :material-check:{ .pg-green } Шифрование электронной почты
 
-Proton Mail has [integrated OpenPGP encryption](https://proton.me/support/how-to-use-pgp) in their webmail. Emails to other Proton Mail accounts are encrypted automatically, and encryption to non-Proton Mail addresses with an OpenPGP key can be enabled easily in your account settings. They also allow you to [encrypt messages to non-Proton Mail addresses](https://proton.me/support/password-protected-emails) without the need for them to sign up for a Proton Mail account or use software like OpenPGP.
+Proton Mail [интегрировал шифрование OpenPGP](https://proton.me/support/how-to-use-pgp) в свою веб-почту. Письма, отправленные на другие аккаунты Proton Mail шифруются автоматически. Шифрование писем с помощью ключа OpenPGP на адреса, не принадлежащие Proton Mail, можно легко включить в настройках аккаунта. Они также позволяют вам [шифровать сообщения на адреса, не относящиеся к Proton Mail](https://proton.me/support/password-protected-emails), без необходимости регистрировать учетную запись Proton Mail или использовать программное обеспечение типа OpenPGP.
 
-Proton Mail also supports the discovery of public keys via HTTP from their [Web Key Directory (WKD)](https://wiki.gnupg.org/WKD). This allows people who don't use Proton Mail to find the OpenPGP keys of Proton Mail accounts easily, for cross-provider E2EE.
+Proton Mail также поддерживает обнаружение открытых ключей через HTTP с их [Web Key Directory (WKD)](https://wiki.gnupg.org/WKD). Это позволяет людям, не использующим Proton Mail, легко находить OpenPGP-ключи учетных записей Proton Mail для кросс-провайдерского E2EE.
 
 
-#### :material-information-outline:{ .pg-blue } Account Termination
+#### :material-information-outline:{ .pg-blue } Блокировка аккаунта
 
-If you have a paid account and your [bill is unpaid](https://proton.me/support/delinquency) after 14 days, you won't be able to access your data. After 30 days, your account will become delinquent and won't receive incoming mail. You will continue to be billed during this period.
+Если у вас платный аккаунт, и ваш [счет не оплачен](https://proton.me/support/delinquency) в течение 14 дней, вы не сможете получить доступ к своим данным. Через 30 дней ваш аккаунт станет просроченным и не будет получать входящую почту. В течение этого периода вам будет по-прежнему выставляться счет.
 
-#### :material-information-outline:{ .pg-blue } Additional Functionality
+#### :material-information-outline:{ .pg-blue } Дополнительная функциональность
 
-Proton Mail offers an "Unlimited" account for €9.99/Month, which also enables access to Proton VPN in addition to providing multiple accounts, domains, aliases, and 500GB of storage.
+Proton Mail предлагает "Proton Unlimited" аккаунт за €9,99/месяц, который также позволяет получить доступ к Proton VPN в дополнение к предоставлению нескольких аккаунтов, доменов, псевдонимов и 500 ГБ хранилища.
 
-Proton Mail doesn't offer a digital legacy feature.
+Proton Mail не предлагает функцию цифрового наследия.
 
 ### Mailbox.org
 
 !!! recommendation
 
-    ![Mailbox.org logo](assets/img/email/mailboxorg.svg){ align=right }
+    ![Логотип Mailbox.org](assets/img/email/mailboxorg.svg){ align=right }
     
-    **Mailbox.org** is an email service with a focus on being secure, ad-free, and privately powered by 100% eco-friendly energy. They have been in operation since 2014. Mailbox.org is based in Berlin, Germany. Accounts start with 2 GB of storage, which can be upgraded as needed.
+    **Mailbox.org** - это сервис электронной почты, ориентированный на безопасность, отсутствие рекламы и приватное электроснабжение от 100% экологически чистой энергии. They have been in operation since 2014. Mailbox.org is based in Berlin, Germany. Accounts start with 2 GB of storage, which can be upgraded as needed.
     
-    [:octicons-home-16: Homepage](https://mailbox.org){ .md-button .md-button--primary }
-    [:octicons-eye-16:](https://mailbox.org/en/data-protection-privacy-policy){ .card-link title="Privacy Policy" }
-    [:octicons-info-16:](https://kb.mailbox.org/en/private){ .card-link title=Documentation}
+    [:octicons-home-16: Домашняя страница](https://mailbox.org){ .md-button .md-button--primary }
+    [:octicons-eye-16:](https://mailbox.org/en/data-protection-privacy-policy){ .card-link title="Политика конфеденциальности" }
+    [:octicons-info-16:](https://kb.mailbox.org/en/private){ .card-link title=Документация}
     
-    ??? downloads
+    ??? скачать
     
-        - [:octicons-browser-16: Web](https://login.mailbox.org)
+        - [:octicons-browser-16: Сайт](https://login.mailbox.org)
 
-#### :material-check:{ .pg-green } Custom Domains and Aliases
+#### :material-check:{ .pg-green } Пользовательские домены и псевдонимы
 
-Mailbox.org lets you use your own domain, and they support [catch-all](https://kb.mailbox.org/display/MBOKBEN/Using+catch-all+alias+with+own+domain) addresses. Mailbox.org also supports [subaddressing](https://kb.mailbox.org/display/BMBOKBEN/What+is+an+alias+and+how+do+I+use+it), which is useful if you don't want to purchase a domain.
+Mailbox.org позволяет вам использовать собственный домен, и поддерживает [универсальные](https://kb.mailbox.org/display/MBOKBEN/Using+catch-all+alias+with+own+domain) адреса. Mailbox.org также поддерживает [субадресацию](https://kb.mailbox.org/display/BMBOKBEN/What+is+an+alias+and+how+do+I+use+it), что полезно для тех, кто не хочет покупать домен.
 
-#### :material-check:{ .pg-green } Private Payment Methods
+#### :material-check:{ .pg-green } Конфиденциальные способы оплаты
 
-Mailbox.org doesn't accept any cryptocurrencies as a result of their payment processor BitPay suspending operations in Germany. However, they do accept Cash by mail, cash payment to bank account, bank transfer, credit card, PayPal and couple of German-specific processors: paydirekt and Sofortüberweisung.
+Mailbox.org не принимает криптовалюты в связи с тем, что их платежная система BitPay приостановила работу в Германии. Однако, они принимают наличные по почте, оплату наличными на банковский счет, банковский перевод, кредитные карты, PayPal и несколько немецких платёжных систем: paydirekt и Sofortüberweisung.
 
-#### :material-check:{ .pg-green } Account Security
+#### :material-check:{ .pg-green } Безопасность аккаунта
 
-Mailbox.org supports [two factor authentication](https://kb.mailbox.org/display/MBOKBEN/How+to+use+two-factor+authentication+-+2FA) for their webmail only. You can use either TOTP or a [YubiKey](https://en.wikipedia.org/wiki/YubiKey) via the [YubiCloud](https://www.yubico.com/products/services-software/yubicloud). Web standards such as [WebAuthn](https://en.wikipedia.org/wiki/WebAuthn) are not yet supported.
+Mailbox.org поддерживает [двухфакторную аутентификацию](https://kb.mailbox.org/display/MBOKBEN/How+to+use+two-factor+authentication+-+2FA) только для своей веб-почты. Вы можете использовать либо TOTP, либо [YubiKey](https://en.wikipedia.org/wiki/YubiKey) с помощью [YubiCloud](https://www.yubico.com/products/services-software/yubicloud). Веб-стандарты, такие, как [WebAuthn](https://en.wikipedia.org/wiki/WebAuthn), пока не поддерживаются.
 
-#### :material-information-outline:{ .pg-blue } Data Security
+#### :material-information-outline:{ .pg-blue } Безопасность данных
 
 Mailbox.org allows for encryption of incoming mail using their [encrypted mailbox](https://kb.mailbox.org/display/MBOKBEN/The+Encrypted+Mailbox). New messages that you receive will then be immediately encrypted with your public key.
 
 However, [Open-Exchange](https://en.wikipedia.org/wiki/Open-Xchange), the software platform used by Mailbox.org, [does not support](https://kb.mailbox.org/display/BMBOKBEN/Encryption+of+calendar+and+address+book) the encryption of your address book and calendar. A [standalone option](calendar.md) may be more appropriate for that information.
 
-#### :material-check:{ .pg-green } Email Encryption
+#### :material-check:{ .pg-green } Шифрование электронной почты
 
 Mailbox.org has [integrated encryption](https://kb.mailbox.org/display/MBOKBEN/Send+encrypted+e-mails+with+Guard) in their webmail, which simplifies sending messages to people with public OpenPGP keys. They also allow [remote recipients to decrypt an email](https://kb.mailbox.org/display/MBOKBEN/My+recipient+does+not+use+PGP) on Mailbox.org's servers. This feature is useful when the remote recipient does not have OpenPGP and cannot decrypt a copy of the email in their own mailbox.
 
 Mailbox.org also supports the discovery of public keys via HTTP from their [Web Key Directory (WKD)](https://wiki.gnupg.org/WKD). This allows people outside of Mailbox.org to find the OpenPGP keys of Mailbox.org accounts easily, for cross-provider E2EE.
 
-#### :material-information-outline:{ .pg-blue } Account Termination
+#### :material-information-outline:{ .pg-blue } Блокировка аккаунта
 
 Your account will be set to a restricted user account when your contract ends, after [30 days it will be irrevocably deleted](https://kb.mailbox.org/en/private/payment-article/what-happens-at-the-end-of-my-contract).
 
-#### :material-information-outline:{ .pg-blue } Additional Functionality
+#### :material-information-outline:{ .pg-blue } Дополнительная функциональность
 
 You can access your Mailbox.org account via IMAP/SMTP using their [.onion service](https://kb.mailbox.org/display/MBOKBEN/The+Tor+exit+node+of+mailbox.org). However, their webmail interface cannot be accessed via their .onion service and you may experience TLS certificate errors.
 
@@ -151,7 +151,7 @@ All accounts come with limited cloud storage that [can be encrypted](https://kb.
 
 Mailbox.org has a digital legacy feature for all plans. You can choose whether you want any of your data to be passed to heirs providing that they apply and provide your testament. Alternatively, you can nominate a person by name and address.
 
-## More Providers
+## Дополнительные провайдеров
 
 These providers store your emails with zero-knowledge encryption, making them great options for keeping your stored emails secure. However, they don't support interoperable encryption standards for E2EE communications between providers.
 
@@ -179,7 +179,7 @@ These providers store your emails with zero-knowledge encryption, making them gr
     
         - [:octicons-browser-16: Web](https://mail.startmail.com/login)
 
-#### :material-check:{ .pg-green } Custom Domains and Aliases
+#### :material-check:{ .pg-green } Пользовательские домены и псевдонимы
 
 Personal accounts can use [Custom or Quick](https://support.startmail.com/hc/en-us/articles/360007297457-Aliases) aliases. [Custom domains](https://support.startmail.com/hc/en-us/articles/4403911432209-Setup-a-custom-domain) are also available.
 
@@ -187,21 +187,21 @@ Personal accounts can use [Custom or Quick](https://support.startmail.com/hc/en-
 
 StartMail accepts Visa, MasterCard, American Express and Paypal. StartMail also has other [payment options](https://support.startmail.com/hc/en-us/articles/360006620637-Payment-methods) such as [Bitcoin](advanced/payments.md#other-coins-bitcoin-ethereum-etc) (currently only for Personal accounts) and SEPA Direct Debit for accounts older than a year.
 
-#### :material-check:{ .pg-green } Account Security
+#### :material-check:{ .pg-green } Безопасность аккаунта
 
 StartMail supports TOTP two factor authentication [for webmail only](https://support.startmail.com/hc/en-us/articles/360006682158-Two-factor-authentication-2FA). They do not allow U2F security key authentication.
 
-#### :material-information-outline:{ .pg-blue } Data Security
+#### :material-information-outline:{ .pg-blue } Безопасность данных
 
 StartMail has [zero access encryption at rest](https://www.startmail.com/en/whitepaper/#_Toc458527835), using their "user vault" system. When you log in, the vault is opened, and the email is then moved to the vault out of the queue where it is decrypted by the corresponding private key.
 
 StartMail supports importing [contacts](https://support.startmail.com/hc/en-us/articles/360006495557-Import-contacts) however, they are only accessible in the webmail and not through protocols such as [CalDAV](https://en.wikipedia.org/wiki/CalDAV). Contacts are also not stored using zero knowledge encryption.
 
-#### :material-check:{ .pg-green } Email Encryption
+#### :material-check:{ .pg-green } Шифрование электронной почты
 
 StartMail has [integrated encryption](https://support.startmail.com/hc/en-us/sections/360001889078-Encryption) in their webmail, which simplifies sending encrypted messages with public OpenPGP keys. However, they do not support the Web Key Directory standard, making the discovery of a Startmail mailbox's public key more challenging for other email providers or clients.
 
-#### :material-information-outline:{ .pg-blue } Account Termination
+#### :material-information-outline:{ .pg-blue } Блокировка аккаунта
 
 On account expiration, StartMail will permanently delete your account after [6 months in 3 phases](https://support.startmail.com/hc/en-us/articles/360006794398-Account-expiration).
 
@@ -237,7 +237,7 @@ StartMail does not offer a digital legacy feature.
 
 Tutanota doesn't support the [IMAP protocol](https://tutanota.com/faq/#imap) or the use of third-party [email clients](email-clients.md), and you also won't be able to add [external email accounts](https://github.com/tutao/tutanota/issues/544#issuecomment-670473647) to the Tutanota app. Neither [Email import](https://github.com/tutao/tutanota/issues/630) or [subfolders](https://github.com/tutao/tutanota/issues/927) are currently supported, though this is [due to be changed](https://tutanota.com/blog/posts/kickoff-import). Emails can be exported [individually or by bulk selection](https://tutanota.com/howto#generalMail) per folder, which may be inconvenient if you have many folders.
 
-#### :material-check:{ .pg-green } Custom Domains and Aliases
+#### :material-check:{ .pg-green } Пользовательские домены и псевдонимы
 
 Paid Tutanota accounts can use up to 5 [aliases](https://tutanota.com/faq#alias) and [custom domains](https://tutanota.com/faq#custom-domain). Tutanota doesn't allow for [subaddressing (plus addresses)](https://tutanota.com/faq#plus), but you can use a [catch-all](https://tutanota.com/howto#settings-global) with a custom domain.
 
@@ -245,11 +245,11 @@ Paid Tutanota accounts can use up to 5 [aliases](https://tutanota.com/faq#alias)
 
 Tutanota only directly accepts credit cards and PayPal, however [cryptocurrency](cryptocurrency.md) can be used to purchase gift cards via their [partnership](https://tutanota.com/faq/#cryptocurrency) with Proxystore.
 
-#### :material-check:{ .pg-green } Account Security
+#### :material-check:{ .pg-green } Безопасность аккаунта
 
 Tutanota supports [two factor authentication](https://tutanota.com/faq#2fa) with either TOTP or U2F.
 
-#### :material-check:{ .pg-green } Data Security
+#### :material-check:{ .pg-green } Безопасность данных
 
 Tutanota has [zero access encryption at rest](https://tutanota.com/faq#what-encrypted) for your emails, [address book contacts](https://tutanota.com/faq#encrypted-address-book), and [calendars](https://tutanota.com/faq#calendar). This means the messages and other data stored in your account are only readable by you.
 
@@ -257,7 +257,7 @@ Tutanota has [zero access encryption at rest](https://tutanota.com/faq#what-encr
 
 Tutanota [does not use OpenPGP](https://www.tutanota.com/faq/#pgp). Tutanota accounts can only receive encrypted emails from non-Tutanota email accounts when sent via a [temporary Tutanota mailbox](https://www.tutanota.com/howto/#encrypted-email-external).
 
-#### :material-information-outline:{ .pg-blue } Account Termination
+#### :material-information-outline:{ .pg-blue } Блокировка аккаунта
 
 Tutanota will [delete inactive free accounts](https://tutanota.com/faq#inactive-accounts) after six months. You can reuse a deactivated free account if you pay.
 
@@ -269,7 +269,7 @@ Tutanota also has a business feature called [Secure Connect](https://tutanota.co
 
 Tutanota doesn't offer a digital legacy feature.
 
-## Email Aliasing Services
+## Сервисы псевдонимов электронной почты
 
 An email aliasing service allows you to easily generate a new email address for every website you register for. The email aliases you generate are then forwarded to an email address of your choosing, hiding both your "main" email address and the identity of your email provider. True email aliasing is better than plus addressing commonly used and supported by many providers, which allows you to create aliases like yourname+[anythinghere]@example.com, because websites, advertisers, and tracking networks can trivially remove anything after the + sign to know your true email address.
 

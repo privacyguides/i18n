@@ -31,7 +31,7 @@ Le moyen le plus courant de créer un nouveau compte est d'utiliser une adresse 
 
 !!! tip "Conseil"
 
-    You can use your password manager to organize other authentication methods too! Just add the new entry and fill the appropriate fields, you can add notes for things like security questions or a backup key.
+    Vous pouvez également utiliser votre gestionnaire de mots de passe pour gérer d'autres méthodes d'authentification ! Il suffit d'ajouter la nouvelle entrée et de remplir les champs appropriés. Vous pouvez ajouter des notes pour des choses comme des questions de sécurité ou une clé de secours.
 
 Vous serez responsable de la gestion de vos identifiants de connexion. Pour plus de sécurité, vous pouvez configurer [MFA](multi-factor-authentication.md) sur vos comptes.
 
@@ -45,11 +45,11 @@ Si un service est piraté, vous pouvez commencer à recevoir des e-mails d'hame�
 
 [Services d'alias d'e-mail recommandés](../email.md#email-aliasing-services ""){.md-button}
 
-### "Sign in with..." (OAuth)
+### "Se connecter avec..." (OAuth)
 
-OAuth is an authentication protocol that allows you to register for a service without sharing much information with the service provider, if any, by using an existing account you have with another service instead. Whenever you see something along the lines of "Sign in with *provider name*" on a registration form, it's typically using OAuth.
+OAuth est un protocole d'authentification qui vous permet de vous inscrire à un service sans partager beaucoup d'informations avec le fournisseur de services, le cas échéant, en utilisant un compte existant que vous avez avec un autre service à la place. Chaque fois que vous voyez quelque chose du type "Se connecter avec *nom du fournisseur*" sur un formulaire d'inscription, c'est généralement qu'il utilise OAuth.
 
-When you sign in with OAuth, it will open a login page with the provider you choose, and your existing account and new account will be connected. Your password won't be shared, but some basic information typically will (you can review it during the login request). Ce processus est nécessaire chaque fois que vous voulez vous connecter au même compte.
+Lorsque vous vous connectez avec OAuth, une page de connexion s'ouvre avec le fournisseur que vous avez choisi, et votre compte existant et votre nouveau compte seront connectés. Votre mot de passe ne sera pas communiqué, mais certaines informations de base le seront généralement (vous pouvez les consulter lors de la demande de connexion). Ce processus est nécessaire chaque fois que vous voulez vous connecter au même compte.
 
 Les principaux avantages sont les suivants :
 
@@ -58,12 +58,12 @@ Les principaux avantages sont les suivants :
 
 Mais il y a des inconvénients :
 
-- **Privacy**: the OAuth provider you log in with will know the services you use.
-- **Centralization**: if the account you use for OAuth is compromised or you aren't able to login to it, all other accounts connected to it are affected.
+- **Vie privée**: le fournisseur OAuth avec lequel vous vous connectez connaîtra les services que vous utilisez.
+- **Centralisation**: si le compte que vous utilisez pour OAuth est compromis ou si vous n'êtes pas en mesure de vous y connecter, tous les autres comptes qui y sont connectés sont affectés.
 
-OAuth authentication can be especially useful in those situations where you could benefit from deeper integration between services. Our recommendation is to limit using OAuth to only where you need it, and always protect the main account with [MFA](multi-factor-authentication.md).
+L'authentification OAuth peut être particulièrement utile dans les situations où vous pourriez bénéficier d'une intégration plus poussée entre les services. Nous recommandons de limiter l'utilisation d'OAuth aux seuls cas où vous en avez besoin et de toujours protéger le compte principal à l'aide de [MFA](multi-factor-authentication.md).
 
-All the services that use OAuth will be as secure as your underlying provider's account. For example, if you want to secure an account with a hardware key, but that service doesn't support hardware keys, you can secure the account you use with OAuth with a hardware key instead, and now you essentially have hardware MFA on all your accounts. It is worth noting though that weak authentication on your OAuth provider account means that any account tied to that login will also be weak.
+Tous les services qui utilisent OAuth seront aussi sûrs que le compte de votre fournisseur sous-jacent. Par exemple, si vous souhaitez sécuriser un compte avec une clé matérielle, mais que ce service ne prend pas en charge les clés matérielles, vous pouvez sécuriser le compte que vous utilisez avec OAuth avec une clé matérielle à la place, et vous disposez alors d'une MFA matérielle sur tous vos comptes. Il convient toutefois de noter qu'une authentification faible sur votre compte de fournisseur OAuth signifie que tout compte lié à cette connexion sera également faiblement sécurisé.
 
 ### Numéro de téléphone
 

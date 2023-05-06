@@ -31,7 +31,7 @@ description: 인터넷을 하려면 계정 생성은 필수적입니다. 이 절
 
 !!! tip "도움말"
 
-    You can use your password manager to organize other authentication methods too! Just add the new entry and fill the appropriate fields, you can add notes for things like security questions or a backup key.
+    다른 인증 방법도 비밀번호 관리자에서 관리할 수 있습니다! 새 항목을 추가하고 적절한 필드를 채우면 보안 질문, 백업 키 등 관련 메모를 추가할 수 있습니다.
 
 로그인 자격 증명의 관리 책임은 자기 자신에게 있습니다. 보안을 강화하려면 계정에 [MFA](multi-factor-authentication.md)를 설정하세요.
 
@@ -45,11 +45,11 @@ description: 인터넷을 하려면 계정 생성은 필수적입니다. 이 절
 
 [권장 이메일 별칭 서비스](../email.md#email-aliasing-services ""){.md-button}
 
-### "Sign in with..." (OAuth)
+### '~ (으)로 로그인' (OAuth)
 
-OAuth is an authentication protocol that allows you to register for a service without sharing much information with the service provider, if any, by using an existing account you have with another service instead. Whenever you see something along the lines of "Sign in with *provider name*" on a registration form, it's typically using OAuth.
+OAuth는 가입하려는 서비스 제공 업체와 많은 정보를 공유하지 않고도, 다른 서비스에서 이미 사용 중이던 기존 계정을 이용해서 서비스에 가입할 수 있는 인증 프로토콜입니다. 가입 시에 '*제공 업체* (으)로 로그인' 문구로 표시되는 방식이 OAuth를 사용하는 것입니다.
 
-When you sign in with OAuth, it will open a login page with the provider you choose, and your existing account and new account will be connected. Your password won't be shared, but some basic information typically will (you can review it during the login request). 이 과정은 해당 계정에 로그인할 때마다 필요합니다.
+Oauth 로그인을 선택할 경우, OAuth 제공 업체의 로그인 페이지를 거쳐 계정이 연결됩니다. 여러분의 비밀번호는 공유되지 않지만, 보통 일부 기본 정보(로그인 과정에서 검토 가능합니다)는 공유됩니다. 이 과정은 해당 계정에 로그인할 때마다 필요합니다.
 
 주요 장점은 다음과 같습니다:
 
@@ -58,12 +58,12 @@ When you sign in with OAuth, it will open a login page with the provider you cho
 
 단점은 다음과 같습니다:
 
-- **Privacy**: the OAuth provider you log in with will know the services you use.
-- **Centralization**: if the account you use for OAuth is compromised or you aren't able to login to it, all other accounts connected to it are affected.
+- **프라이버시**: OAuth 제공 업체는 사용자가 어떤 서비스를 사용하는지 알 수 있습니다.
+- **중앙 집중화**: OAuth 계정이 손상되거나 로그인할 수 없는 경우, 해당 계정에 연결된 계정도 전부 영향을 받습니다.
 
-OAuth authentication can be especially useful in those situations where you could benefit from deeper integration between services. Our recommendation is to limit using OAuth to only where you need it, and always protect the main account with [MFA](multi-factor-authentication.md).
+OAuth 인증은 서비스 간 연동을 통해 이점을 얻을 수 있는 경우 특히 유용합니다. 되도록 OAuth는 필요한 경우에만 사용하고, 주요 계정은 [MFA](multi-factor-authentication.md)로 보호할 것을 권장드립니다.
 
-All the services that use OAuth will be as secure as your underlying provider's account. For example, if you want to secure an account with a hardware key, but that service doesn't support hardware keys, you can secure the account you use with OAuth with a hardware key instead, and now you essentially have hardware MFA on all your accounts. It is worth noting though that weak authentication on your OAuth provider account means that any account tied to that login will also be weak.
+OAuth를 사용하는 모든 서비스는 OAuth 계정과 동일한 보안 수준을 갖습니다. 예를 들어, 하드웨어 키를 사용해 계정을 보호하고 싶은데 해당 서비스는 하드웨어 키를 지원하지 않는 경우, OAuth 계정을 하드웨어 키로 보호하면 결과적으로 모든 계정을 하드웨어 키로 보호하는 효과를 얻습니다. 하지만 동시에, OAuth 계정 인증이 취약할 경우에는 해당 계정에 연결된 모든 계정의 인증 또한 취약해진다는 점을 명심해야합니다.
 
 ### 전화번호
 

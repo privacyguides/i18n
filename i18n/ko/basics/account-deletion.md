@@ -1,62 +1,62 @@
 ---
-title: "Account Deletion"
+title: "계정 삭제"
 icon: 'material/account-remove'
 description: It's easy to accumulate a large number of internet accounts, here are some tips on how to prune your collection.
 ---
 
-Over time, it can be easy to accumulate a number of online accounts, many of which you may no longer use. Deleting these unused accounts is an important step in reclaiming your privacy, as dormant accounts are vulnerable to data breaches. A data breach is when a service's security is compromised and protected information is viewed, transmitted, or stolen by unauthorized actors. Data breaches are unfortunately all [too common](https://haveibeenpwned.com/PwnedWebsites) these days, and so practicing good digital hygiene is the best way to minimize the impact they have on your life. The goal of this guide then is to help navigate you through the irksome process of account deletion, often made difficult by [deceptive design](https://www.deceptive.design/), for the betterment of your online presence.
+온라인 계정은 시간이 지날수록 쌓여갑니다. 그리고 그 중 상당수는 더 이상 사용하지 않는 계정일 겁니다. 휴면 계정은 데이터 유출에 취약하므로 '사용하지 않는 계정 삭제'는 프라이버시 보호에 있어서 중요합니다. 데이터 유출이란, 보호되어야 할 정보가 서비스 보안 손상으로 인해 무단으로 열람, 전송, 도난당하는 것을 말합니다. Data breaches are unfortunately all [too common](https://haveibeenpwned.com/PwnedWebsites) these days, and so practicing good digital hygiene is the best way to minimize the impact they have on your life. The goal of this guide then is to help navigate you through the irksome process of account deletion, often made difficult by [deceptive design](https://www.deceptive.design/), for the betterment of your online presence.
 
-## Finding Old Accounts
+## 오래된 계정 찾기
 
-### Password Manager
+### 비밀번호 관리자
 
-If you have a password manager that you've used for your entire digital life, this part will be very easy. Oftentimes, they include built-in functionality for detecting if your credentials were exposed in a data breach—such as Bitwarden's [Data Breach Report](https://bitwarden.com/blog/have-you-been-pwned/).
+디지털 생활 내내 비밀번호 관리자를 사용해 왔다면 이는 매우 간단합니다. 비밀번호 관리자는 데이터 유출로 자격 증명 노출이 발생했는지 감지하는 기능이 내장되어있는 경우도 있습니다(예시: Bitwarden [데이터 유출 보고서](https://bitwarden.com/blog/have-you-been-pwned/) 기능).
 
 <figure markdown>
-  ![Bitwarden's Data Breach Report feature](../assets/img/account-deletion/exposed_passwords.png)
+  ![Bitwarden 데이터 유출 보고서 기능](../assets/img/account-deletion/exposed_passwords.png)
 </figure>
 
-Even if you haven't explicitly used a password manager before, there's a chance you've used the one in your browser or your phone without even realizing it. For example: [Firefox Password Manager](https://support.mozilla.org/kb/password-manager-remember-delete-edit-logins), [Google Password Manager](https://passwords.google.com/intro) and [Edge Password Manager](https://support.microsoft.com/en-us/microsoft-edge/save-or-forget-passwords-in-microsoft-edge-b4beecb0-f2a8-1ca0-f26f-9ec247a3f336).
+비밀번호 관리자를 따로 사용한 적이 없더라도, 자신도 모르는 사이 브라우저나 휴대폰 내장 비밀번호 관리자를 사용했을 가능성이 있습니다. 예시: [Firefox 비밀번호 관리자](https://support.mozilla.org/kb/password-manager-remember-delete-edit-logins), [Google 비밀번호 관리자](https://passwords.google.com/intro), [Edge 암호 관리자](https://support.microsoft.com/en-us/microsoft-edge/save-or-forget-passwords-in-microsoft-edge-b4beecb0-f2a8-1ca0-f26f-9ec247a3f336)
 
-Desktop platforms also often have a password manager which may help you recover passwords you've forgotten about:
+데스크톱 플랫폼에도 보통 비밀번호 관리자가 있기 때문에, 잊어버린 비밀번호를 복구하는 데에 유용할 수 있습니다:
 
-- Windows [Credential Manager](https://support.microsoft.com/en-us/windows/accessing-credential-manager-1b5c916a-6a16-889f-8581-fc16e8165ac0)
-- macOS [Passwords](https://support.apple.com/en-us/HT211145)
-- iOS [Passwords](https://support.apple.com/en-us/HT211146)
-- Linux, Gnome Keyring, which can be accessed through [Seahorse](https://help.gnome.org/users/seahorse/stable/passwords-view.html.en) or [KDE Wallet Manager](https://userbase.kde.org/KDE_Wallet_Manager)
+- Windows [자격 증명 관리자](https://support.microsoft.com/en-us/windows/accessing-credential-manager-1b5c916a-6a16-889f-8581-fc16e8165ac0)
+- macOS [암호](https://support.apple.com/en-us/HT211145)
+- iOS [암호](https://support.apple.com/en-us/HT211146)
+- Linux Gnome Keyring ([Seahorse](https://help.gnome.org/users/seahorse/stable/passwords-view.html.en), [KDE Wallet Manager](https://userbase.kde.org/KDE_Wallet_Manager)로 사용 가능)
 
 ### 이메일
 
-If you didn't use a password manager in the past or you think you have accounts that were never added to your password manager, another option is to search the email account(s) that you believe you signed up on. On your email client, search for keywords such as "verify" or "welcome." Almost every time you make an online account, the service will send a verification link or an introductory message to your email. This can be a good way to find old, forgotten accounts.
+비밀번호 관리자를 사용한 적이 없거나 등록하지 않은 계정이 있는 경우, 가입하는 데에 사용했을 법한 이메일 계정에서 검색해보는 방법이 있습니다. 이메일 클라이언트에서 '환영합니다', '인증', '확인' 같은 키워드를 검색해보세요. 거의 모든 서비스는 계정 생성 시에 인증 링크나 소개 메시지를 이메일로 보냅니다. 이를 이용하면 잊어버린 오래된 계정을 찾을 수 있습니다.
 
-## Deleting Old Accounts
+## 오래된 계정 삭제
 
-### Log In
+### 로그인
 
-In order to delete your old accounts, you'll need to first make sure you can log in to them. Again, if the account was in your password manager, this step is easy. If not, you can try to guess your password. Failing that, there are typically options to regain access to your account, commonly available through a "forgot password" link on the login page. It may also be possible that accounts you've abandoned have already been deleted—sometimes services prune all old accounts.
+이전 계정을 삭제하려면, 먼저 해당 계정에 로그인해야 합니다. 비밀번호 관리자에서 해당 계정을 관리 중이었다면 이는 간단합니다. 아니라면 비밀번호를 추측해 봅시다. 비밀번호를 떠올리지 못 한 경우, 일반적으로 로그인 페이지에서 제공하는 '비밀번호 찾기' 링크를 통해 계정을 되찾을 수 있습니다. 서비스에서 자체적으로 오래된 계정을 정리하는 경우도 있기 때문에, 이미 해당 계정은 삭제되었을 수도 있습니다.
 
-When attempting to regain access, if the site returns an error message saying that email is not associated with an account, or you never receive a reset link after multiple attempts, then you do not have an account under that email address and should try a different one. If you can't figure out which email address you used, or you no longer have access to that email, you can try contacting the service's customer support. Unfortunately, there is no guarantee that you will be able to reclaim access your account.
+계정을 찾으려고 할 때 사이트에서 이메일에 연결된 계정이 없다거나 여러분 시도해도 재설정 링크가 나타나지 않는 경우, 해당 이메일 주소가 아닌 다른 이메일 주소로 가입했을지도 모릅니다. 다만 어떤 이메일 주소를 사용했는지 알 수 없거나, 더 이상 사용할 수 없는 이메일일 경우 서비스 고객센터에 문의해봐야 합니다. 이 경우, 계정을 되찾을 수 있다는 보장은 없습니다.
 
-### GDPR (EEA residents only)
+### GDPR (EEA 거주자만 해당)
 
-Residents of the EEA have additional rights regarding data erasure specified in [Article 17](https://www.gdpr.org/regulation/article-17.html) of the GDPR. If it's applicable to you, read the privacy policy for any given service to find information on how to exercise your right to erasure. Reading the privacy policy can prove important, as some services have a "Delete Account" option that only disables your account and for real deletion you have to take additional action. Sometimes actual deletion may involve filling out surveys, emailing the data protection officer of the service or even proving your residence in the EEA. If you plan to go this way, do **not** overwrite account information—your identity as an EEA resident may be required. Note that the location of the service does not matter; GDPR applies to anyone serving European users. If the service does not respect your right to erasure, you can contact your national [Data Protection Authority](https://ec.europa.eu/info/law/law-topic/data-protection/reform/rights-citizens/redress/what-should-i-do-if-i-think-my-personal-data-protection-rights-havent-been-respected_en) and you may be entitled to monetary compensation.
+EEA 거주자는 GDPR [제17조](https://www.gdpr.org/regulation/article-17.html)에 명시된 데이터 삭제권을 보장받습니다. EEA 거주자이신 경우, 해당 서비스의 프라이버시 정책(개인정보 처리방침)을 읽고 삭제권을 행사하는 방법을 찾아보세요. 일부 서비스는 '계정 삭제' 옵션이 계정을 비활성화할 뿐 실제 삭제를 위해서는 추가 조치가 필요하기에, 프라이버시 정책을 읽어보는 것은 중요합니다. 실제로 데이터를 삭제하려면 설문을 작성해야 하거나, 해당 서비스 데이터 보호 책임자에게 이메일을 보내야 하거나, EEA 거주자임을 증명해야 하는 경우도 있습니다. 따라서, 이 방법을 사용하고자 한다면 계정 정보 덮어쓰기를 해선 **안** 됩니다. EEA 거주자 신원이 필요할 수도 있기 때문입니다. 알아두실 점은, GDPR은 서비스 업체 위치에 무관하게 적용된다는 것입니다. GDPR은 유럽 사용자를 고객으로 삼는 서비스라면 모두 적용됩니다. 만약 서비스가 EEA 거주자의 삭제권을 존중하지 않는 경우, 여러분은 자기 나라의 [데이터 보호 기관](https://ec.europa.eu/info/law/law-topic/data-protection/reform/rights-citizens/redress/what-should-i-do-if-i-think-my-personal-data-protection-rights-havent-been-respected_en)에 연락하시면 됩니다(금전적 보상을 받을 수도 있습니다).
 
-### Overwriting Account information
+### 계정 정보 덮어쓰기
 
-In some situations where you plan to abandon an account, it may make sense to overwrite the account information with fake data. Once you've made sure you can log in, change all the information in your account to falsified information. The reason for this is that many sites will retain information you previously had even after account deletion. The hope is that they will overwrite the previous information with the newest data you entered. However, there is no guarantee that there won't be backups with the prior information.
+계정을 버리려는 경우 중 일부 상황에서는 계정 정보를 가짜 데이터로 덮어씌우는 게 합리적일 수도 있습니다. 계정에 로그인한 뒤, 계정의 모든 정보를 위조된 정보로 변경하세요. 계정 정보를 덮어씌워야 하는 이유는, 많은 사이트가 사용자의 계정 삭제 후에도 이전에 가지고 있던 정보를 보관하기 때문입니다. 이상적인 결과는 기존 정보가 모두 위조된 데이터로 덮어씌워지는 것입니다. 하지만 서비스 업체가 여러분의 기존 정보가 포함된 백업을 가지고 있을 가능성은 여전히 존재합니다.
 
-For the account email, either create a new alternate email account via your provider of choice or create an alias using an [email aliasing service](../email.md#email-aliasing-services). You can then delete your alternate email address once you are done. We recommend against using temporary email providers, as oftentimes it is possible to reactivate temporary emails.
+계정 이메일의 경우, 이메일 제공 업체를 선택해 대체할 이메일 계정을 새로 생성하거나, [이메일 별칭 서비스](../email.md#email-aliasing-services)를 사용해 별칭을 만드세요. 그런 다음, 대체한 이메일 주소를 삭제할 수 있습니다. 임시 이메일 서비스 사용은 추천드리지 않습니다. 임시 이메일은 다시 활성화할 수 있는 경우가 종종 있기 때문입니다.
 
-### Delete
+### 삭제
 
-You can check [JustDeleteMe](https://justdeleteme.xyz) for instructions on deleting the account for a specific service. Some sites will graciously have a "Delete Account" option, while others will go as far as to force you to speak with a support agent. The deletion process can vary from site to site, with account deletion being impossible on some.
+특정 서비스의 계정 삭제 방법은 [JustDeleteMe](https://justdeleteme.xyz)에서 확인할 수 있습니다. 몇몇 사이트는 '계정 삭제' 옵션을 제공해주지만, 일부 사이트는 고객센터에 직접 연락해야만 하는 경우도 있습니다. 삭제 절차는 사이트마다 다를 수 있으며, 일부 사이트는 계정 삭제가 불가능할 수도 있습니다.
 
-For services that don't allow account deletion, the best thing to do is falsify all your information as previously mentioned and strengthen account security. To do so, enable [MFA](multi-factor-authentication.md) and any extra security features offered. As well, change the password to a randomly-generated one that is the maximum allowed size (a [password manager](../passwords.md) can be useful for this).
+계정 삭제가 불가능한 서비스의 경우, 앞선 내용대로 모든 정보를 위조하고 계정 보안을 강화하는 것이 최선의 방법입니다. [MFA](multi-factor-authentication.md) 및 제공되는 추가 보안 기능을 활성화해 계정 보안을 강화하세요. 또한, 허용하는 최대 길이로 랜덤 생성한 비밀번호로 변경하세요([비밀번호 관리자](../passwords.md)를 사용하면 좋습니다).
 
-If you're satisfied that all information you care about is removed, you can safely forget about this account. If not, it might be a good idea to keep the credentials stored with your other passwords and occasionally re-login to reset the password.
+중요한 정보를 모두 제거했다면 해당 계정은 안심하고 머릿속에서 잊어버리셔도 됩니다. 제대로 제거하지 못했다면 자격 증명을 여러분의 다른 비밀번호들과 같이 저장해 두었다가 가끔씩 로그인하여 비밀번호를 재설정하는 것이 좋습니다.
 
-Even when you are able to delete an account, there is no guarantee that all your information will be removed. In fact, some companies are required by law to keep certain information, particularly when related to financial transactions. It's mostly out of your control what happens to your data when it comes to websites and cloud services.
+계정을 삭제할 수 있다고 해도 모든 정보가 제거된다는 보장은 없습니다. 실제로, 일부 회사는 법 규정으로 인해 (특히 금융 거래 관련) 특정 정보를 보관해야 합니다. 웹사이트나 클라우드 서비스에서는 대부분 여러분의 데이터에 발생하는 일을 여러분이 통제할 수 없습니다.
 
-## Avoid New Accounts
+## 계정 새로 생성하지 않기
 
-As the old saying goes, "an ounce of prevention is worth a pound of cure." Whenever you feel tempted to sign up for a new account, ask yourself, "Do I really need this? Can I accomplish what I need to without an account?" It can often be much harder to delete an account than to create one. And even after deleting or changing the info on your account, there might be a cached version from a third-party—like the [Internet Archive](https://archive.org/). Avoid the temptation when you're able to—your future self will thank you!
+"예방이 치료보다 낫다"라는 말도 있습니다. 새 계정을 가입하고 싶은 마음이 생길 때마다 한 번씩 생각해보세요. '이 계정이 정말 필요한가?' '계정 없이도 필요한 작업을 할 수 있나?' 계정 생성보다 삭제가 훨씬 더 어려운 경우가 많습니다. 게다가 계정을 삭제하거나 계정 정보를 변경한 이후에도 [인터넷 아카이브](https://archive.org/) 등 외부에 캐시된 버전이 존재할 수 있습니다. 미래에 후회하지 않기 위해서는 피할 수 있을 때 유혹을 피해야 합니다.

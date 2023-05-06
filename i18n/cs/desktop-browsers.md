@@ -1,5 +1,5 @@
 ---
-meta_title: "Privacy Respecting Web Browsers for PC and Mac - Privacy Guides"
+meta_title: "Webové prohlížeče respektující soukromí pro PC a Mac - Privacy Guides"
 title: "Prohlížeče pro počítače"
 icon: material/laptop
 description: Tyto webové prohlížeče nabízejí lepší ochranu soukromí než Google Chrome.
@@ -31,7 +31,7 @@ schema:
     name: Firefox
     image: /assets/img/browsers/firefox.svg
     url: https://firefox.com
-    sameAs: https://en.wikipedia.org/wiki/Firefox
+    sameAs: https://cs.wikipedia.org/wiki/Firefox
     applicationCategory: Web Browser
     operatingSystem:
       - Windows
@@ -46,7 +46,7 @@ schema:
     name: Brave
     image: /assets/img/browsers/brave.svg
     url: https://brave.com
-    sameAs: https://en.wikipedia.org/wiki/Brave_(web_browser)
+    sameAs: https://cs.wikipedia.org/wiki/Brave_(webový%20prohlížeč)
     applicationCategory: Web Browser
     operatingSystem:
       - Windows
