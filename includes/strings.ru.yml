@@ -11,7 +11,7 @@ config:
          Мы не зарабатываем на рекомендациях определенных продуктов и не используем партнерские ссылки.
     - 
       3: |
-         Privacy Guides и способствующие.
+         Privacy Guides и поддерживающие.
     - 
       4: |
          Содержание доступно под лицензией CC BY-ND 4.0.
@@ -23,22 +23,22 @@ config:
     no-note: |
       Спасибо за ваш отзыв! Помогите нам улучшить эту страницу, открыв обсуждение на нашем форуме.
   theme:
-    dark: Включить тёмный режим
-    light: Включить светлый режим
+    dark: Включить тёмную тему
+    light: Включить светлую тему
     system: Переключиться на тему системы
 nav:
   Home: Главная
   Knowledge Base: База знаний
   Technology Essentials: Технологические аспекты
-  Operating Systems: Программное обеспечение
+  Operating Systems: Операционные системы
   Advanced Topics: Дополнительные темы
   Recommendations: Рекомендации
-  Internet Browsing: Работа в интернете
+  Internet Browsing: Интернет-браузинг
   Providers: Провайдеры
   Software: ПО
   About: О сайте
   Community: Сообщество
-  Online Services: Онлайн-сервисов
+  Online Services: Онлайн-сервисы
   Code of Conduct: Правила поведения
   Contributing: Помощь проекту
   Writing Guide: Руководство по написанию

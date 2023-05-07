@@ -129,19 +129,19 @@ Mailbox.org поддерживает [двухфакторную аутенти�
 
 #### :material-information-outline:{ .pg-blue } Безопасность данных
 
-Mailbox.org allows for encryption of incoming mail using their [encrypted mailbox](https://kb.mailbox.org/display/MBOKBEN/The+Encrypted+Mailbox). New messages that you receive will then be immediately encrypted with your public key.
+Mailbox.org позволяет шифровать входящую почту с помощью своего [зашифрованного почтового ящика](https://kb.mailbox.org/display/MBOKBEN/The+Encrypted+Mailbox). Новые сообщения, которые вы получаете, будут немедленно зашифрованы вашим открытым ключом.
 
-However, [Open-Exchange](https://en.wikipedia.org/wiki/Open-Xchange), the software platform used by Mailbox.org, [does not support](https://kb.mailbox.org/display/BMBOKBEN/Encryption+of+calendar+and+address+book) the encryption of your address book and calendar. A [standalone option](calendar.md) may be more appropriate for that information.
+Однако [Open-Exchange](https://en.wikipedia.org/wiki/Open-Xchange), программная платформа, используемая Mailbox.org, [не поддерживает](https://kb.mailbox.org/display/BMBOKBEN/Encryption+of+calendar+and+address+book) шифрование вашей адресной книги и календаря. A [standalone option](calendar.md) may be more appropriate for that information.
 
 #### :material-check:{ .pg-green } Шифрование электронной почты
 
-Mailbox.org has [integrated encryption](https://kb.mailbox.org/display/MBOKBEN/Send+encrypted+e-mails+with+Guard) in their webmail, which simplifies sending messages to people with public OpenPGP keys. They also allow [remote recipients to decrypt an email](https://kb.mailbox.org/display/MBOKBEN/My+recipient+does+not+use+PGP) on Mailbox.org's servers. This feature is useful when the remote recipient does not have OpenPGP and cannot decrypt a copy of the email in their own mailbox.
+Mailbox.org использует [встроенное шифрование](https://kb.mailbox.org/display/MBOKBEN/Send+encrypted+e-mails+with+Guard) в свою веб-почту, что упрощает отправку сообщений людям с открытыми ключами OpenPGP. Они также позволяют [пользователям без Mailbox.org расшифровывать электронные письма](https://kb.mailbox.org/display/MBOKBEN/My+recipient+does+not+use+PGP) на серверах Mailbox.org. Эта функция полезна, когда получатель не имеет OpenPGP и не может расшифровать копию письма в собственном почтовом ящике.
 
-Mailbox.org also supports the discovery of public keys via HTTP from their [Web Key Directory (WKD)](https://wiki.gnupg.org/WKD). This allows people outside of Mailbox.org to find the OpenPGP keys of Mailbox.org accounts easily, for cross-provider E2EE.
+Mailbox.org также поддерживает обнаружение открытых ключей через HTTP с их [Web Key Directory (WKD)](https://wiki.gnupg.org/WKD). Это позволяет людям, не использующим Mailbox.org, легко находить OpenPGP-ключи учетных записей Proton Mail для кросс-провайдерского E2EE.
 
 #### :material-information-outline:{ .pg-blue } Блокировка аккаунта
 
-Your account will be set to a restricted user account when your contract ends, after [30 days it will be irrevocably deleted](https://kb.mailbox.org/en/private/payment-article/what-happens-at-the-end-of-my-contract).
+По окончании срока действия подписки ваша учетная запись будет переведена в ограниченный режим, по истечении [30 дней она будет безвозвратно удалена](https://kb.mailbox.org/en/private/payment-article/what-happens-at-the-end-of-my-contract).
 
 #### :material-information-outline:{ .pg-blue } Дополнительная функциональность
 
@@ -151,14 +151,14 @@ All accounts come with limited cloud storage that [can be encrypted](https://kb.
 
 Mailbox.org has a digital legacy feature for all plans. You can choose whether you want any of your data to be passed to heirs providing that they apply and provide your testament. Alternatively, you can nominate a person by name and address.
 
-## Дополнительные провайдеров
+## Дополнительные провайдеры
 
-These providers store your emails with zero-knowledge encryption, making them great options for keeping your stored emails secure. However, they don't support interoperable encryption standards for E2EE communications between providers.
+Эти провайдеры хранят вашу электронную почту с помощью шифрования с нулевым знанием, что делает их отличными вариантами для безопасного хранения вашей электронной почты. Однако они не поддерживают совместимые стандарты шифрования для коммуникаций E2EE между провайдерами.
 
 <div class="grid cards" markdown>
 
-- ![StartMail logo](assets/img/email/startmail.svg#only-light){ .twemoji }![StartMail logo](assets/img/email/startmail-dark.svg#only-dark){ .twemoji } [StartMail](email.md#startmail)
-- ![Tutanota logo](assets/img/email/tutanota.svg){ .twemoji } [Tutanota](email.md#tutanota)
+- ![Логотип StartMail](assets/img/email/startmail.svg#only-light){ .twemoji }![Логотип StartMail](assets/img/email/startmail-dark.svg#only-dark){ .twemoji } [StartMail](email.md#startmail)
+- ![Логотип Tutanota](assets/img/email/tutanota.svg){ .twemoji } [Tutanota](email.md#tutanota)
 
 </div>
 
@@ -166,73 +166,73 @@ These providers store your emails with zero-knowledge encryption, making them gr
 
 !!! recommendation
 
-    ![StartMail logo](assets/img/email/startmail.svg#only-light){ align=right }
-    ![StartMail logo](assets/img/email/startmail-dark.svg#only-dark){ align=right }
+    ![Логотип StartMail](assets/img/email/startmail.svg#only-light){ align=right }
+    ![Логотип StartMail](assets/img/email/startmail-dark.svg#only-dark){ align=right }
     
-    **StartMail** is an email service with a focus on security and privacy through the use of standard OpenPGP encryption. StartMail has been in operation since 2014 and is based in Boulevard 11, Zeist Netherlands. Accounts start with 10GB. They offer a 30-day trial.
+    **StartMail** - это сервис электронной почты, в котором особое внимание уделяется безопасности и конфиденциальности благодаря использованию стандартного шифрования OpenPGP. StartMail has been in operation since 2014 and is based in Boulevard 11, Zeist Netherlands. Accounts start with 10GB. They offer a 30-day trial.
     
-    [:octicons-home-16: Homepage](https://www.startmail.com/){ .md-button .md-button--primary }
-    [:octicons-eye-16:](https://www.startmail.com/en/privacy/){ .card-link title="Privacy Policy" }
-    [:octicons-info-16:](https://support.startmail.com){ .card-link title=Documentation}
+    [:octicons-home-16: Домашняя страница](https://www.startmail.com/){ .md-button .md-button--primary }
+    [:octicons-eye-16:](https://www.startmail.com/en/privacy/){ .card-link title="Политика конфиденциальности" }
+    [:octicons-info-16:](https://support.startmail.com){ .card-link title=Документация}
     
-    ??? downloads
+    ??? скачать
     
         - [:octicons-browser-16: Web](https://mail.startmail.com/login)
 
 #### :material-check:{ .pg-green } Пользовательские домены и псевдонимы
 
-Personal accounts can use [Custom or Quick](https://support.startmail.com/hc/en-us/articles/360007297457-Aliases) aliases. [Custom domains](https://support.startmail.com/hc/en-us/articles/4403911432209-Setup-a-custom-domain) are also available.
+Личные аккаунты могут использовать псевдонимы [Custom или Quick](https://support.startmail.com/hc/en-us/articles/360007297457-Aliases). [Пользовательские домены](https://support.startmail.com/hc/en-us/articles/4403911432209-Setup-a-custom-domain) также доступны.
 
-#### :material-alert-outline:{ .pg-orange } Private Payment Methods
+#### :material-alert-outline:{ .pg-orange } Конфиденциальные способы оплаты
 
-StartMail accepts Visa, MasterCard, American Express and Paypal. StartMail also has other [payment options](https://support.startmail.com/hc/en-us/articles/360006620637-Payment-methods) such as [Bitcoin](advanced/payments.md#other-coins-bitcoin-ethereum-etc) (currently only for Personal accounts) and SEPA Direct Debit for accounts older than a year.
+StartMail принимает к оплате Visa, MasterCard, American Express и Paypal. StartMail также имеет другие [варианты оплаты](https://support.startmail.com/hc/en-us/articles/360006620637-Payment-methods), такие как [Bitcoin](advanced/payments.md#other-coins-bitcoin-ethereum-etc) (в настоящее время только для личных счетов) и SEPA Direct Debit для счетов старше года.
 
 #### :material-check:{ .pg-green } Безопасность аккаунта
 
-StartMail supports TOTP two factor authentication [for webmail only](https://support.startmail.com/hc/en-us/articles/360006682158-Two-factor-authentication-2FA). They do not allow U2F security key authentication.
+StartMail поддерживает двухфакторную аутентификацию TOTP [только для веб-почты](https://support.startmail.com/hc/en-us/articles/360006682158-Two-factor-authentication-2FA). Он не поддерживает аутентификацию с помощью ключа безопасности U2F.
 
 #### :material-information-outline:{ .pg-blue } Безопасность данных
 
-StartMail has [zero access encryption at rest](https://www.startmail.com/en/whitepaper/#_Toc458527835), using their "user vault" system. When you log in, the vault is opened, and the email is then moved to the vault out of the queue where it is decrypted by the corresponding private key.
+StartMail имеет [шифрование с нулевым доступом в состоянии покоя](https://www.startmail.com/en/whitepaper/#_Toc458527835), используя свою систему "хранилище пользователя". Когда вы входите в систему, хранилище открывается, и электронное письмо перемещается в хранилище из очереди, где оно расшифровывается соответствующим закрытым ключом.
 
-StartMail supports importing [contacts](https://support.startmail.com/hc/en-us/articles/360006495557-Import-contacts) however, they are only accessible in the webmail and not through protocols such as [CalDAV](https://en.wikipedia.org/wiki/CalDAV). Contacts are also not stored using zero knowledge encryption.
+StartMail поддерживает импорт [контактов](https://support.startmail.com/hc/en-us/articles/360006495557-Import-contacts), однако они доступны только в веб-почте, и не доступны через другие протоколы, такие как [CalDAV](https://en.wikipedia.org/wiki/CalDAV). Контакты не хранятся с использованием шифрования с нулевым знанием.
 
 #### :material-check:{ .pg-green } Шифрование электронной почты
 
-StartMail has [integrated encryption](https://support.startmail.com/hc/en-us/sections/360001889078-Encryption) in their webmail, which simplifies sending encrypted messages with public OpenPGP keys. However, they do not support the Web Key Directory standard, making the discovery of a Startmail mailbox's public key more challenging for other email providers or clients.
+StartMail использует [встроенное шифрование](https://support.startmail.com/hc/en-us/sections/360001889078-Encryption) в своей веб-почте, что упрощает отправку сообщений людям с открытыми ключами OpenPGP. Однако они не поддерживают стандарт Web Key Directory, что делает обнаружение открытого ключа почтового ящика Startmail более сложной задачей для других поставщиков услуг электронной почты или клиентов.
 
 #### :material-information-outline:{ .pg-blue } Блокировка аккаунта
 
-On account expiration, StartMail will permanently delete your account after [6 months in 3 phases](https://support.startmail.com/hc/en-us/articles/360006794398-Account-expiration).
+По истечении срока действия аккаунта StartMail удалит вашу учетную запись навсегда после [6 месяцев в 3 этапа](https://support.startmail.com/hc/en-us/articles/360006794398-Account-expiration).
 
-#### :material-information-outline:{ .pg-blue } Additional Functionality
+#### :material-information-outline:{ .pg-blue } Дополнительная функциональность
 
-StartMail allows for proxying of images within emails. If you allow the remote image to be loaded, the sender won't know what your IP address is.
+StartMail позволяет проксировать изображения в электронных письмах. Если вы разрешите загрузку изображений, отправитель не будет знать, какой у вас IP-адрес.
 
-StartMail does not offer a digital legacy feature.
+StartMail не предлагает функцию цифрового наследия.
 
 ### Tutanota
 
 !!! recommendation
 
-    ![Tutanota logo](assets/img/email/tutanota.svg){ align=right }
+    ![Логотип Tutanota](assets/img/email/tutanota.svg){ align=right }
     
-    **Tutanota** is an email service with a focus on security and privacy through the use of encryption. Tutanota has been in operation since **2011** and is based in Hanover, Germany. Accounts start with 1GB storage with their free plan.
+    **Tutanota** - это сервис электронной почты, в котором особое внимание уделяется безопасности и конфиденциальности благодаря использованию шифрования. Tutanota has been in operation since **2011** and is based in Hanover, Germany. Accounts start with 1GB storage with their free plan.
     
-    [:octicons-home-16: Homepage](https://tutanota.com){ .md-button .md-button--primary }
-    [:octicons-eye-16:](https://tutanota.com/privacy){ .card-link title="Privacy Policy" }
-    [:octicons-info-16:](https://tutanota.com/faq){ .card-link title=Documentation}
-    [:octicons-code-16:](https://github.com/tutao/tutanota){ .card-link title="Source Code" }
-    [:octicons-heart-16:](https://tutanota.com/community/){ .card-link title=Contribute }
+    [:octicons-home-16: Домашняя страница](https://tutanota.com/ru/){ .md-button .md-button--primary }
+    [:octicons-eye-16:](https://tutanota.com/ru/privacy){ .card-link title="Политика конфиденциальности" }
+    [:octicons-info-16:](https://tutanota.com/ru/faq){ .card-link title=Документация}
+    [:octicons-code-16:](https://github.com/tutao/tutanota){ .card-link title="Исходный код" }
+    [:octicons-heart-16:](https://tutanota.com/community/){ .card-link title=Поддержать }
     
-    ??? downloads
+    ??? скачать
     
         - [:simple-googleplay: Google Play](https://play.google.com/store/apps/details?id=de.tutao.tutanota)
         - [:simple-appstore: App Store](https://apps.apple.com/app/tutanota/id922429609)
         - [:simple-github: GitHub](https://github.com/tutao/tutanota/releases)
-        - [:simple-windows11: Windows](https://tutanota.com/#download)
-        - [:simple-apple: macOS](https://tutanota.com/#download)
-        - [:simple-linux: Linux](https://tutanota.com/#download)
+        - [:simple-windows11: Windows](https://tutanota.com/ru/#download)
+        - [:simple-apple: macOS](https://tutanota.com/ru/#download)
+        - [:simple-linux: Linux](https://tutanota.com/ru/#download)
         - [:octicons-browser-16: Web](https://mail.tutanota.com/)
 
 Tutanota doesn't support the [IMAP protocol](https://tutanota.com/faq/#imap) or the use of third-party [email clients](email-clients.md), and you also won't be able to add [external email accounts](https://github.com/tutao/tutanota/issues/544#issuecomment-670473647) to the Tutanota app. Neither [Email import](https://github.com/tutao/tutanota/issues/630) or [subfolders](https://github.com/tutao/tutanota/issues/927) are currently supported, though this is [due to be changed](https://tutanota.com/blog/posts/kickoff-import). Emails can be exported [individually or by bulk selection](https://tutanota.com/howto#generalMail) per folder, which may be inconvenient if you have many folders.
@@ -241,7 +241,7 @@ Tutanota doesn't support the [IMAP protocol](https://tutanota.com/faq/#imap) or 
 
 Paid Tutanota accounts can use up to 5 [aliases](https://tutanota.com/faq#alias) and [custom domains](https://tutanota.com/faq#custom-domain). Tutanota doesn't allow for [subaddressing (plus addresses)](https://tutanota.com/faq#plus), but you can use a [catch-all](https://tutanota.com/howto#settings-global) with a custom domain.
 
-#### :material-information-outline:{ .pg-blue } Private Payment Methods
+#### :material-information-outline:{ .pg-blue } Конфиденциальные способы оплаты
 
 Tutanota only directly accepts credit cards and PayPal, however [cryptocurrency](cryptocurrency.md) can be used to purchase gift cards via their [partnership](https://tutanota.com/faq/#cryptocurrency) with Proxystore.
 
@@ -253,7 +253,7 @@ Tutanota supports [two factor authentication](https://tutanota.com/faq#2fa) with
 
 Tutanota has [zero access encryption at rest](https://tutanota.com/faq#what-encrypted) for your emails, [address book contacts](https://tutanota.com/faq#encrypted-address-book), and [calendars](https://tutanota.com/faq#calendar). This means the messages and other data stored in your account are only readable by you.
 
-#### :material-information-outline:{ .pg-blue } Email Encryption
+#### :material-information-outline:{ .pg-blue } Шифрование электронной почты
 
 Tutanota [does not use OpenPGP](https://www.tutanota.com/faq/#pgp). Tutanota accounts can only receive encrypted emails from non-Tutanota email accounts when sent via a [temporary Tutanota mailbox](https://www.tutanota.com/howto/#encrypted-email-external).
 
@@ -261,7 +261,7 @@ Tutanota [does not use OpenPGP](https://www.tutanota.com/faq/#pgp). Tutanota acc
 
 Tutanota will [delete inactive free accounts](https://tutanota.com/faq#inactive-accounts) after six months. You can reuse a deactivated free account if you pay.
 
-#### :material-information-outline:{ .pg-blue } Additional Functionality
+#### :material-information-outline:{ .pg-blue } Дополнительная функциональность
 
 Tutanota offers the business version of [Tutanota to non-profit organizations](https://tutanota.com/blog/posts/secure-email-for-non-profit) for free or with a heavy discount.
 

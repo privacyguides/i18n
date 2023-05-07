@@ -1,10 +1,10 @@
 ---
-title: "Tor Overview"
+title: "Tor 개요"
 icon: 'simple/torproject'
 description: Tor is a free to use, decentralized network designed for using the internet with as much privacy as possible.
 ---
 
-Tor is a free to use, decentralized network designed for using the internet with as much privacy as possible. If used properly, the network enables private and anonymous browsing and communications.
+Tor is a free to use, decentralized network designed for using the internet with as much privacy as possible. Tor 네트워크를 올바르게 사용하면 비공개 및 익명 웹 탐색과 커뮤니케이션이 가능합니다.
 
 ## Path Building to Clearnet Services
 

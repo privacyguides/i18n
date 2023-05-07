@@ -94,11 +94,11 @@ Tor 브라우저는 핑거프린팅 및 브라우저 설정 기반 사용자 식
 
 !!! tip "Android용 도움말"
 
-    Orbot can proxy individual apps if they support SOCKS or HTTP proxying. It can also proxy all your network connections using [VpnService](https://developer.android.com/reference/android/net/VpnService) and can be used with the VPN killswitch in :gear: **Settings** → **Network & internet** → **VPN** → :gear: → **Block connections without VPN**.
+    Orbot은 앱이 SOCKS/HTTP 프록시를 지원하는 경우 개별적으로 프록시를 적용하는 것도 가능합니다. 뿐만 아니라 [VpnService](https://developer.android.com/reference/android/net/VpnService)를 이용해 모든 네트워크 연결에 프록시를 적용할 수도 있으며, VPN 킬 스위치와 함께 사용할 수도 있습니다(:gear: **설정** → **네트워크 및 인터넷** → **VPN** → :gear: → **연결 차단(VPN 제외)**).
     
-    Orbot is often outdated on the Guardian Project's [F-Droid repository](https://guardianproject.info/fdroid) and [Google Play](https://play.google.com/store/apps/details?id=org.torproject.android), so consider downloading directly from the [GitHub repository](https://github.com/guardianproject/orbot/releases) instead.
+    Guardian Project [F-Droid 저장소](https://guardianproject.info/fdroid), [Google Play](https://play.google.com/store/apps/details?id=org.torproject.android)에서의 Orbot은 구버전인 경우가 많으므로, [GitHub 저장소](https://github.com/guardianproject/orbot/releases)에서 직접 다운로드하는 것을 추천드립니다.
     
-    All versions are signed using the same signature so they should be compatible with each other.
+    모든 버전은 동일한 서명을 사용하여 서명되므로 서로 호환됩니다.
 
 ## 릴레이 및 브리지
 
