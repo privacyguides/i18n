@@ -55,12 +55,12 @@ We have some additional tips on configuring and hardening your Signal installati
     
     **SimpleX** Chat is an instant messenger that is decentralized and doesn't depend on any unique identifiers such as phone numbers or usernames. Users of SimpleX Chat can scan a QR code or click an invite link to participate in group conversations.
     
-    [:octicons-home-16: Homepage](https://simplex.chat){ .md-button .md-button--primary }
-    [:octicons-eye-16:](https://github.com/simplex-chat/simplex-chat/blob/stable/PRIVACY.md){ .card-link title="Privacy Policy" }
-    [:octicons-info-16:](https://github.com/simplex-chat/simplex-chat/tree/stable/docs){ .card-link title=Documentation}
-    [:octicons-code-16:](https://github.com/simplex-chat){ .card-link title="Source Code" }
+    [:octicons-home-16: 홈페이지](https://simplex.chat){ .md-button .md-button--primary }
+    [:octicons-eye-16:](https://github.com/simplex-chat/simplex-chat/blob/stable/PRIVACY.md){ .card-link title="프라이버시 정책" }
+    [:octicons-info-16:](https://github.com/simplex-chat/simplex-chat/tree/stable/docs){ .card-link title=문서}
+    [:octicons-code-16:](https://github.com/simplex-chat){ .card-link title="소스 코드" }
     
-    ??? downloads
+    ??? downloads "다운로드"
     
         - [:simple-googleplay: Google Play](https://play.google.com/store/apps/details?id=chat.simplex.app)
         - [:simple-appstore: App Store](https://apps.apple.com/us/app/simplex-chat/id1605771084)
@@ -80,13 +80,13 @@ Your data can be exported, and imported onto another device, as there are no cen
     
     **Briar** is an encrypted instant messenger that [connects](https://briarproject.org/how-it-works/) to other clients using the Tor Network. Briar can also connect via Wi-Fi or Bluetooth when in local proximity. Briar’s local mesh mode can be useful when internet availability is a problem.
     
-    [:octicons-home-16: Homepage](https://briarproject.org/){ .md-button .md-button--primary }
-    [:octicons-eye-16:](https://briarproject.org/privacy-policy/){ .card-link title="Privacy Policy" }
-    [:octicons-info-16:](https://code.briarproject.org/briar/briar/-/wikis/home){ .card-link title=Documentation}
-    [:octicons-code-16:](https://code.briarproject.org/briar/briar){ .card-link title="Source Code" }
-    [:octicons-heart-16:](https://briarproject.org/){ .card-link title="Donation options are listed on the bottom of the homepage" }
+    [:octicons-home-16: 홈페이지](https://briarproject.org/){ .md-button .md-button--primary }
+    [:octicons-eye-16:](https://briarproject.org/privacy-policy/){ .card-link title="프라이버시 정책" }
+    [:octicons-info-16:](https://code.briarproject.org/briar/briar/-/wikis/home){ .card-link title=문서}
+    [:octicons-code-16:](https://code.briarproject.org/briar/briar){ .card-link title="소스 코드" }
+    [:octicons-heart-16:](https://briarproject.org/){ .card-link title="기부 옵션은 홈페이지 하단에 위치하고 있습니다" }
     
-    ??? downloads
+    ??? downloads "다운로드"
     
         - [:simple-googleplay: Google Play](https://play.google.com/store/apps/details?id=org.briarproject.briar.android)
         - [:simple-windows11: Windows](https://briarproject.org/download-briar-desktop/)
@@ -150,12 +150,12 @@ The protocol was independently [audited](https://matrix.org/blog/2016/11/21/matr
     
     Session uses the decentralized [Oxen Service Node Network](https://oxen.io/) to store and route messages. Every encrypted message is routed through three nodes in the Oxen Service Node Network, making it virtually impossible for the nodes to compile meaningful information on those using the network.
     
-    [:octicons-home-16: Homepage](https://getsession.org/){ .md-button .md-button--primary }
-    [:octicons-eye-16:](https://getsession.org/privacy-policy){ .card-link title="Privacy Policy" }
-    [:octicons-info-16:](https://getsession.org/faq){ .card-link title=Documentation}
-    [:octicons-code-16:](https://github.com/oxen-io){ .card-link title="Source Code" }
+    [:octicons-home-16: 홈페이지](https://getsession.org/){ .md-button .md-button--primary }
+    [:octicons-eye-16:](https://getsession.org/privacy-policy){ .card-link title="프라이버시 정책" }
+    [:octicons-info-16:](https://getsession.org/faq){ .card-link title=문서}
+    [:octicons-code-16:](https://github.com/oxen-io){ .card-link title="소스 코드" }
     
-    ??? downloads
+    ??? downloads "다운로드"
     
         - [:simple-googleplay: Google Play](https://play.google.com/store/apps/details?id=network.loki.messenger)
         - [:simple-appstore: App Store](https://apps.apple.com/app/id1470168868)

@@ -1,91 +1,91 @@
 ---
 title: "Tor 개요"
 icon: 'simple/torproject'
-description: Tor is a free to use, decentralized network designed for using the internet with as much privacy as possible.
+description: Tor는 무료로 이용 가능한 탈중앙화 네트워크입니다. 최대한 프라이버시를 보호하면서 인터넷을 이용할 수 있도록 설계되었습니다.
 ---
 
-Tor is a free to use, decentralized network designed for using the internet with as much privacy as possible. Tor 네트워크를 올바르게 사용하면 비공개 및 익명 웹 탐색과 커뮤니케이션이 가능합니다.
+Tor는 무료로 이용 가능한 탈중앙화 네트워크입니다. 최대한 프라이버시를 보호하면서 인터넷을 이용할 수 있도록 설계되었습니다. Tor 네트워크를 올바르게 사용하면 비공개 및 익명 웹 탐색과 커뮤니케이션이 가능합니다.
 
-## Path Building to Clearnet Services
+## Clearnet 서비스 경로 구축 방식
 
-"Clearnet services" are websites which you can access with any browser, like [privacyguides.org](https://www.privacyguides.org). Tor lets you connect to these websites anonymously by routing your traffic through a network comprised of thousands of volunteer-run servers called nodes (or relays).
+클리어넷(Clearnet) 서비스란, 모든 브라우저로 접근 가능한 웹사이트(예시: [privacyguides.org](https://www.privacyguides.org))를 말합니다. 클리어넷 서비스의 동의어로 '표면 웹(Surface Web)'이 쓰이기도 합니다. Tor는 '노드'(혹은 '릴레이')라고 하는 자원 봉사 운영 서버 수천 개로 구성된 네트워크를 통해 트래픽을 라우팅하여, 웹사이트를 익명으로 연결할 수 있도록 합니다.
 
-Every time you [connect to Tor](../tor.md), it will choose three nodes to build a path to the internet—this path is called a "circuit."
+여러분이 [Tor에 연결할](../tor.md) 때마다, 3개의 노드가 선택되어 인터넷 연결 경로를 구축합니다. 이 경로를 '우회로(Circuit)'라고 합니다.
 
 <figure markdown>
-  ![Tor path showing your device connecting to an entry node, middle node, and exit node before reaching the destination website](../assets/img/how-tor-works/tor-path.svg#only-light)
-  ![Tor path showing your device connecting to an entry node, middle node, and exit node before reaching the destination website](../assets/img/how-tor-works/tor-path-dark.svg#only-dark)
-  <figcaption>Tor circuit pathway</figcaption>
+  ![여러분의 기기가 목적지 웹사이트에 도달하기까지 거쳐가는 입구 노드, 중간 노드, 출구 노드를 나타내는 Tor 경로](../assets/img/how-tor-works/tor-path.svg#only-light)
+  ![여러분의 기기가 목적지 웹사이트에 도달하기까지 거쳐가는 입구 노드, 중간 노드, 출구 노드를 나타내는 Tor 경로](../assets/img/how-tor-works/tor-path-dark.svg#only-dark)
+  <figcaption>Tor 우회 경로</figcaption>
 </figure>
 
 Each of these nodes has its own function:
 
-### The Entry Node
+### 입구 노드
 
-The entry node, often called the guard node, is the first node to which your Tor client connects. The entry node is able to see your IP address, however it is unable to see what you are connecting to.
+입구 노드(Entry Node)는 Tor 클라이언트가 연결되는 첫 번째 노드입니다. 진입 노드/가드 노드(Guard Node)라고 불리기도 합니다. 입구 노드는 사용자의 IP 주소를 볼 수 있으나, 사용자가 어디에 연결하는지는 알 수 없습니다.
 
-Unlike the other nodes, the Tor client will randomly select an entry node and stick with it for two to three months to protect you from certain attacks.[^1]
+다른 노드와 달리, Tor 클라이언트는 여러분을 특정 공격으로부터 보호하기 위해 무작위로 입구 노드를 선택하여 2~3개월간 해당 노드를 유지합니다.
 
-### The Middle Node
+### 중간 노드
 
-The middle node is the second node to which your Tor client connects. It can see which node the traffic came from—the entry node—and to which node it goes to next. The middle node cannot, see your IP address or the domain you are connecting to.
+중간 노드(Middle Node)는 Tor 클라이언트가 연결되는 두 번째 노드입니다. 중간 노드는 트래픽이 어디서 왔는지, 즉 어떤 입구 노드에서 왔는지, 그리고 다음으로는 어떤 노드로 가는지 알 수 있습니다. 중간 노드는 사용자의 IP 주소 혹은 사용자가 연결하고자 하는 도메인은 알 수 없습니다.
 
-For each new circuit, the middle node is randomly selected out of all available Tor nodes.
+중간 노드는 우회로를 새로 생성할 때마다 사용 가능한 모든 Tor 노드 중에서 무작위로 선택됩니다.
 
-### The Exit Node
+### 출구 노드
 
-The exit node is the point in which your web traffic leaves the Tor network and is forwarded to your desired destination. The exit node is unable to see your IP address, but it does know what site it's connecting to.
+출구 노드(Exit Node)는 웹 트래픽이 Tor 네트워크를 벗어나, 사용자가 원하는 목적지로 전달되는 지점입니다. 출구 노드는 사용자의 IP 주소를 볼 수 없으나, 어떤 사이트에 연결하고 있는지는 알 수 있습니다.
 
-The exit node will be chosen at random from all available Tor nodes ran with an exit relay flag.[^2]
+출구 노드는 출구 릴레이 플래그로 실행된 모든 사용 가능한 Tor 노드 중에서 무작위로 선택됩니다.
 
-## Path Building to Onion Services
+## Onion 서비스 경로 구축 방식
 
-"Onion Services" (also commonly referred to as "hidden services") are websites which can only be accessed by the Tor browser. These websites have a long randomly generated domain name ending with `.onion`.
+'Onion 서비스'('Hidden 서비스'라고도 불립니다)는 Tor 브라우저로만 접근 가능한 웹사이트입니다. Onion 서비스 도메인은 랜덤으로 생성된 긴 문자열로 되어있으며, `.onion`으로 끝납니다.
 
-Connecting to an Onion Service in Tor works very similarly to connecting to a clearnet service, but your traffic is routed through a total of **six** nodes before reaching the destination server. Just like before however, only three of these nodes are contributing to *your* anonymity, the other three nodes protect *the Onion Service's* anonymity, hiding the website's true IP and location in the same manner that Tor Browser is hiding yours.
+Tor에서 Onion 서비스로의 연결은 클리어넷 서비스 연결과 매우 유사하게 작동하지만, 트래픽은 목적지 서버에 도달하기 전에 총 **6개**의 노드를 거쳐 라우팅됩니다. 단, 앞선 내용과 마찬가지로 *사용자의 익명성*에 기여하는 노드는 이 중 3개 뿐이며, 나머지 노드 3개는 *Onion 서비스의 익명성*을 보호합니다. 즉, Tor 브라우저가 사용자의 IP와 주소를 숨기는 것과 동일한 방식으로 웹사이트의 실제 IP와 주소를 숨깁니다.
 
 <figure style="width:100%" markdown>
-  ![Tor path showing your traffic being routed through your three Tor nodes plus three additional Tor nodes which hide the website's identity](../assets/img/how-tor-works/tor-path-hidden-service.svg#only-light)
-  ![Tor path showing your traffic being routed through your three Tor nodes plus three additional Tor nodes which hide the website's identity](../assets/img/how-tor-works/tor-path-hidden-service-dark.svg#only-dark)
-  <figcaption>Tor circuit pathway with Onion Services. Nodes in the <span class="pg-blue">blue</span> fence belong to your browser, while nodes in the <span class="pg-red">red</span> fence belong to the server, so their identity is hidden from you.</figcaption>
+  ![3개의 Tor 노드에 더해 웹사이트 신원을 숨기는 3개의 Tor 노드를 추가로 거쳐가는 트래픽을 나타내는 Tor 경로](../assets/img/how-tor-works/tor-path-hidden-service.svg#only-light)
+  ![3개의 Tor 노드에 더해 웹사이트 신원을 숨기는 3개의 Tor 노드를 추가로 거쳐가는 트래픽을 나타내는 Tor 경로](../assets/img/how-tor-works/tor-path-hidden-service-dark.svg#only-dark)
+  <figcaption>Onion 서비스 Tor 우회 경로 <span class="pg-blue">파란색</span> 테두리 내 노드는 사용자 브라우저에 해당하며, <span class="pg-red">빨간색</span> 테두리 내 노드는 서버에 해당합니다. 이리하여 서버의 신원은 노출되지 않습니다.</figcaption>
 </figure>
 
-## Encryption
+## 암호화
 
-Tor encrypts each packet (a block of transmitted data) three times with the keys from the exit, middle, and entry node—in that order.
+Tor는 각 패킷(전송되는 데이터 덩어리)을 출구, 중간, 입구 노드 순서대로 키를 3 번 암호화합니다.
 
-Once Tor has built a circuit, data transmission is done as follows:
+Tor 우회로가 구축되고 나면 데이터 전송은 다음과 같이 이루어집니다:
 
-1. Firstly: when the packet arrives at the entry node, the first layer of encryption is removed. In this encrypted packet, the entry node will find another encrypted packet with the middle node’s address. The entry node will then forward the packet to the middle node.
+1. 먼저, 패킷이 입구 노드에 도착하면 첫 번째 암호화 레이어가 제거됩니다. 입구 노드는 해당 암호화 패킷에서 중간 노드 주소가 포함된 또 다른 암호화 패킷을 찾습니다. 이후, 입구 노드는 중간 노드로 패킷을 전송합니다.
 
-2. Secondly: when the middle node receives the packet from the entry node, it too will remove a layer of encryption with its key, and this time finds an encrypted packet with the exit node's address. The middle node will then forward the packet to the exit node.
+2. 다음으로, 중간 노드가 입구 노드로부터 패킷을 수신하면 마찬가지로 키를 이용해 암호화 레이어를 제거합니다. 이번에는 출구 노드 주소가 포함된 암호화 패킷을 찾습니다. 이후, 중간 노드는 출구 노드로 패킷을 전송합니다.
 
-3. Lastly: when the exit node receives its packet, it will remove the last layer of encryption with its key. The exit node will see the destination address and forward the packet to that address.
+3. 마지막으로, 출구 노드가 패킷을 수신하면 해당 키로 마지막 암호화 레이어를 제거합니다. 출구 노드는 목적지 주소를 확인하고 해당 주소로 패킷을 전송합니다.
 
-Below is an alternative diagram showing the process. Each node removes its own layer of encryption, and when the destination server returns data, the same process happens entirely in reverse. For example, the exit node does not know who you are, but it does know which node it came from, and so it adds its own layer of encryption and sends it back.
+다음은 이 과정을 다이어그램으로 나타낸 것입니다. 각 노드는 해당 노드의 암호화 레이어를 제거하며, 목적지 서버가 데이터를 반환할 경우 이와 동일한 과정이 정반대로 진행됩니다. 예를 들어, 출구 노드는 사용자가 누구인지는 알 수 없으나 어떤 노드에서 전송해왔는지는 알고 있으므로 자체 암호화 레이어를 추가하여 전송합니다.
 
 <figure markdown>
-  ![Tor encryption](../assets/img/how-tor-works/tor-encryption.svg#only-light)
-  ![Tor encryption](../assets/img/how-tor-works/tor-encryption-dark.svg#only-dark)
-  <figcaption>Sending and receiving data through the Tor Network</figcaption>
+  ![Tor 암호화](../assets/img/how-tor-works/tor-encryption.svg#only-light)
+  ![Tor 암호화](../assets/img/how-tor-works/tor-encryption-dark.svg#only-dark)
+  <figcaption>Tor 네트워크를 통한 데이터 송수신</figcaption>
 </figure>
 
-Tor allows us to connect to a server without any single party knowing the entire path. The entry node knows who you are, but not where you are going; the middle node doesn’t know who you are or where you are going; and the exit node knows where you are going, but not who you are. Because the exit node is what makes the final connection, the destination server will never know your IP address.
+Tor를 이용하면 단일 주체에게 전체 경로를 노출하지 않고도 서버에 연결 가능합니다. 입구 노드는 사용자가 누구인지는 알지만 목적지는 알 수 없고, 중간 노드는 사용자와 목적지 모두 알 수 없으며, 출구 노드는 목적지는 알지만 사용자가 누구인지는 알 수 없습니다. 최종 연결이 생성되는 지점은 출구 노드이므로, 목적지 서버는 사용자의 IP 주소를 절대 알 수 없습니다.
 
-## Caveats
+## 주의 사항
 
-Though Tor does provide strong privacy guarantees, one must be aware that Tor is not perfect:
+Tor는 강력한 프라이버시를 보장하지만, 완벽하지는 않습니다:
 
-- Well-funded adversaries with the capability to passively watch most network traffic over the globe have a chance of deanonymizing Tor users by means of advanced traffic analysis. Nor does Tor protect you from exposing yourself by mistake, such as if you share too much information about your real identity.
-- Tor exit nodes can also monitor traffic that passes through them. This means traffic which is not encrypted, such as plain HTTP traffic, can be recorded and monitored. If such traffic contains personally identifiable information, then it can deanonymize you to that exit node. Thus, we recommend using HTTPS over Tor where possible.
+- 전 세계 대부분의 네트워크 트래픽을 수동적으로 감시하는 능력과 자금을 갖춘 공격자는 고급 트래픽 분석을 통해 Tor 사용자의 익명성을 무효화할 수 있습니다. 또한, Tor는 사용자가 자신의 실수로 신원 정보를 노출하는 것으로부터 보호하지는 못합니다.
+- Tor 출구 노드가 직접 트래픽을 모니터링하고 있을 수도 있습니다. 즉, 일반 HTTP 트래픽 등 암호화되지 않은 트래픽은 기록, 모니터링될 수 있습니다. 암호화되지 않은 트래픽에 개인 식별 정보가 포함된 경우 해당 출구 노드로 사용자의 익명성을 무효화할 수 있습니다. 따라서, Tor에서 HTTPS를 사용할 것을 권장합니다.
 
-If you wish to use Tor for browsing the web, we only recommend the **official** Tor Browser—it is designed to prevent fingerprinting.
+웹 탐색 용도로 Tor를 이용하고자 하실 경우, 핑거프린팅을 방지하도록 설계된 **공식** Tor 브라우저만 사용하실 것을 권장드립니다.
 
-- [Tor Browser :material-arrow-right-drop-circle:](../tor.md#tor-browser)
+- [Tor 브라우저 :material-arrow-right-drop-circle:](../tor.md#tor-browser)
 
-## Additional Resources
+## 추가 자료
 
-- [Tor Browser User Manual](https://tb-manual.torproject.org)
+- [Tor 브라우저 사용자 설명서](https://tb-manual.torproject.org)
 - [How Tor Works - Computerphile](https://invidious.privacyguides.net/embed/QRYzre4bf7I?local=true) <small>(YouTube)</small>
 - [Tor Onion Services - Computerphile](https://invidious.privacyguides.net/embed/lVcbq_a5N9I?local=true) <small>(YouTube)</small>
 

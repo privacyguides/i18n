@@ -145,11 +145,11 @@ Mailbox.org также поддерживает обнаружение откр�
 
 #### :material-information-outline:{ .pg-blue } Дополнительная функциональность
 
-You can access your Mailbox.org account via IMAP/SMTP using their [.onion service](https://kb.mailbox.org/display/MBOKBEN/The+Tor+exit+node+of+mailbox.org). However, their webmail interface cannot be accessed via their .onion service and you may experience TLS certificate errors.
+Вы можете получить доступ к вашему аккаунту Mailbox.org через IMAP/SMTP, используя их сервис [.onion](https://kb.mailbox.org/display/MBOKBEN/The+Tor+exit+node+of+mailbox.org). Однако доступ к интерфейсу веб-почты через службу .onion невозможен, и вы можете столкнуться с ошибками сертификата TLS.
 
-All accounts come with limited cloud storage that [can be encrypted](https://kb.mailbox.org/display/MBOKBEN/Encrypt+files+on+your+Drive). Mailbox.org also offers the alias [@secure.mailbox.org](https://kb.mailbox.org/display/MBOKBEN/Ensuring+E-Mails+are+Sent+Securely), which enforces the TLS encryption on the connection between mail servers, otherwise the message will not be sent at all. Mailbox.org also supports [Exchange ActiveSync](https://en.wikipedia.org/wiki/Exchange_ActiveSync) in addition to standard access protocols like IMAP and POP3.
+Все учетные записи имеют ограниченное облачное хранилище, которое [может быть зашифровано](https://kb.mailbox.org/display/MBOKBEN/Encrypt+files+on+your+Drive). Mailbox.org также предлагает псевдоним [@secure.mailbox.org](https://kb.mailbox.org/display/MBOKBEN/Ensuring+E-Mails+are+Sent+Securely), который требует шифрование TLS от соединения между почтовыми серверами, в противном случае сообщение вообще не будет отправлено. Mailbox.org также поддерживает [Exchange ActiveSync](https://en.wikipedia.org/wiki/Exchange_ActiveSync) в дополнение к стандартным протоколам доступа, таким как IMAP и POP3.
 
-Mailbox.org has a digital legacy feature for all plans. You can choose whether you want any of your data to be passed to heirs providing that they apply and provide your testament. Alternatively, you can nominate a person by name and address.
+Mailbox.org имеет функцию цифрового наследия для всех тарифных планов. Вы можете выбрать, хотите ли вы, чтобы какие-либо из ваших данных были переданы наследникам, при условии, что они подадут заявление и предоставят ваше завещание. Кроме того, вы можете назначить человека по имени и адресу.
 
 ## Дополнительные провайдеры
 
@@ -235,43 +235,43 @@ StartMail не предлагает функцию цифрового насле
         - [:simple-linux: Linux](https://tutanota.com/ru/#download)
         - [:octicons-browser-16: Web](https://mail.tutanota.com/)
 
-Tutanota doesn't support the [IMAP protocol](https://tutanota.com/faq/#imap) or the use of third-party [email clients](email-clients.md), and you also won't be able to add [external email accounts](https://github.com/tutao/tutanota/issues/544#issuecomment-670473647) to the Tutanota app. Neither [Email import](https://github.com/tutao/tutanota/issues/630) or [subfolders](https://github.com/tutao/tutanota/issues/927) are currently supported, though this is [due to be changed](https://tutanota.com/blog/posts/kickoff-import). Emails can be exported [individually or by bulk selection](https://tutanota.com/howto#generalMail) per folder, which may be inconvenient if you have many folders.
+Tutanota не поддерживает [протокол IMAP](https://tutanota.com/faq/#imap) или использование сторонних [почтовых клиентов](email-clients.md). Вы также не сможете добавить [внешние почтовые аккаунты](https://github.com/tutao/tutanota/issues/544#issuecomment-670473647) в приложение Tutanota. В настоящее время ни [импорт электронной почты](https://github.com/tutao/tutanota/issues/630), ни [вложенные папки](https://github.com/tutao/tutanota/issues/927) не поддерживаются, однако эти функции [находится в разработке](https://tutanota.com/blog/posts/kickoff-import). Письма можно экспортировать [по отдельности или массовым выбором](https://tutanota.com/howto#generalMail) в каждую папку, что может быть неудобно, если у вас много папок.
 
 #### :material-check:{ .pg-green } Пользовательские домены и псевдонимы
 
-Paid Tutanota accounts can use up to 5 [aliases](https://tutanota.com/faq#alias) and [custom domains](https://tutanota.com/faq#custom-domain). Tutanota doesn't allow for [subaddressing (plus addresses)](https://tutanota.com/faq#plus), but you can use a [catch-all](https://tutanota.com/howto#settings-global) with a custom domain.
+Платные аккаунты Tutanota могут использовать до 5 [псевдонимов](https://tutanota.com/faq#alias) и [пользовательских доменов](https://tutanota.com/faq#custom-domain). Tutanota не позволяет использовать [субадресацию (адреса с плюсом)](https://tutanota.com/faq#plus), но с пользовательским доменом вы можете использовать [универсальный адрес](https://tutanota.com/howto#settings-global).
 
 #### :material-information-outline:{ .pg-blue } Конфиденциальные способы оплаты
 
-Tutanota only directly accepts credit cards and PayPal, however [cryptocurrency](cryptocurrency.md) can be used to purchase gift cards via their [partnership](https://tutanota.com/faq/#cryptocurrency) with Proxystore.
+Tutanota напрямую принимает только кредитные карты и PayPal, однако [криптовалюта](cryptocurrency.md) может быть использована для покупки подарочных карт через их [партнерство](https://tutanota.com/faq/#cryptocurrency) с Proxystore.
 
 #### :material-check:{ .pg-green } Безопасность аккаунта
 
-Tutanota supports [two factor authentication](https://tutanota.com/faq#2fa) with either TOTP or U2F.
+Tutanota поддерживает [двухфакторную аутентификацию](https://tutanota.com/faq#2fa) с помощью TOTP или U2F.
 
 #### :material-check:{ .pg-green } Безопасность данных
 
-Tutanota has [zero access encryption at rest](https://tutanota.com/faq#what-encrypted) for your emails, [address book contacts](https://tutanota.com/faq#encrypted-address-book), and [calendars](https://tutanota.com/faq#calendar). This means the messages and other data stored in your account are only readable by you.
+Tutanota использует [шифрование с нулевым доступом в состоянии покоя](https://tutanota.com/faq#what-encrypted) для вашей электронной почты, [записей контактов](https://tutanota.com/faq#encrypted-address-book), и [календарей](https://tutanota.com/faq#calendar). Это означает, что сообщения и другие данные, хранящиеся на вашем аккаунте, доступны для чтения только вам.
 
 #### :material-information-outline:{ .pg-blue } Шифрование электронной почты
 
-Tutanota [does not use OpenPGP](https://www.tutanota.com/faq/#pgp). Tutanota accounts can only receive encrypted emails from non-Tutanota email accounts when sent via a [temporary Tutanota mailbox](https://www.tutanota.com/howto/#encrypted-email-external).
+Tutanota [не использует OpenPGP](https://www.tutanota.com/faq/#pgp). Учетные записи Tutanota могут получать зашифрованные электронные письма от учетных записей электронной почты, не принадлежащих Tutanota, только при отправке через [временный почтовый ящик Tutanota](https://www.tutanota.com/howto/#encrypted-email-external).
 
 #### :material-information-outline:{ .pg-blue } Блокировка аккаунта
 
-Tutanota will [delete inactive free accounts](https://tutanota.com/faq#inactive-accounts) after six months. You can reuse a deactivated free account if you pay.
+Tutanota будет [удалять неактивные бесплатные аккаунты](https://tutanota.com/faq#inactive-accounts) по истечении шести месяцев. Вы можете повторно использовать деактивированный бесплатный аккаунт, если заплатите.
 
 #### :material-information-outline:{ .pg-blue } Дополнительная функциональность
 
-Tutanota offers the business version of [Tutanota to non-profit organizations](https://tutanota.com/blog/posts/secure-email-for-non-profit) for free or with a heavy discount.
+Tutanota предлагает бизнес-версию [Tutanota для некоммерческих организаций](https://tutanota.com/blog/posts/secure-email-for-non-profit) бесплатно или с большой скидкой.
 
-Tutanota also has a business feature called [Secure Connect](https://tutanota.com/secure-connect/). This ensures customer contact to the business uses E2EE. The feature costs €240/y.
+Tutanota также имеет функцию для бизнеса под названием [Secure Connect](https://tutanota.com/secure-connect/). Это гарантирует, что контакт клиента с бизнесом использует E2EE. Стоимость функции составляет €240/год.
 
-Tutanota doesn't offer a digital legacy feature.
+Tutanota не предлагает функцию цифрового наследия.
 
 ## Сервисы псевдонимов электронной почты
 
-An email aliasing service allows you to easily generate a new email address for every website you register for. The email aliases you generate are then forwarded to an email address of your choosing, hiding both your "main" email address and the identity of your email provider. True email aliasing is better than plus addressing commonly used and supported by many providers, which allows you to create aliases like yourname+[anythinghere]@example.com, because websites, advertisers, and tracking networks can trivially remove anything after the + sign to know your true email address.
+Служба псевдонимов электронной почты позволяет легко генерировать новый адрес электронной почты для каждого сайта, на котором вы зарегистрированы. Созданные вами псевдонимы электронной почты затем пересылаются на выбранный вами адрес электронной почты, скрывая как ваш "основной" адрес электронной почты, так и личность вашего поставщика услуг электронной почты. Истинная адресация электронной почты лучше, чем плюсовая адресация, обычно используемая и поддерживаемая многими провайдерами, которая позволяет создавать псевдонимы типа ваше_имя+[что-то_ещё]@example.com, поскольку веб-сайты, рекламодатели и сети отслеживания могут тривиально удалить все, что идет после знака +, чтобы узнать ваш истинный адрес электронной почты.
 
 <div class="grid cards" markdown>
 
@@ -281,69 +281,69 @@ An email aliasing service allows you to easily generate a new email address for 
 
 </div>
 
-Email aliasing can act as a safeguard in case your email provider ever ceases operation. In that scenario, you can easily re-route your aliases to a new email address. In turn, however, you are placing trust in the aliasing service to continue functioning.
+Псевдоним электронной почты может служить защитой на случай, если ваш поставщик услуг электронной почты прекратит свою работу. В этом случае вы можете легко перенаправить свои псевдонимы на новый адрес электронной почты. Однако, в этом случае, вы доверяете службе псевдонимов продолжать функционировать.
 
-Using a dedicated email aliasing service also has a number of benefits over a catch-all alias on a custom domain:
+Использование специализированной службы псевдонимов электронной почты также имеет ряд преимуществ по сравнению с универсальным псевдонимом на пользовательском домене:
 
-- Aliases can be turned on and off individually when you need them, preventing websites from emailing you randomly.
-- Replies are sent from the alias address, shielding your real email address.
+- Псевдонимы можно включать и выключать по отдельности, когда это необходимо, что предотвращает случайную рассылку электронной почты веб-сайтами.
+- Ответы отправляются с псевдонимного адреса, скрывая ваш настоящий адрес электронной почты.
 
-They also have a number of benefits over "temporary email" services:
+Они также имеют ряд преимуществ по сравнению с услугами "временной электронной почты":
 
-- Aliases are permanent and can be turned on again if you need to receive something like a password reset.
-- Emails are sent to your trusted mailbox rather than stored by the alias provider.
-- Temporary email services typically have public mailboxes which can be accessed by anyone who knows the address, aliases are private to you.
+- Псевдонимы являются постоянными и могут быть включены снова, если вам нужно получить что-то вроде сброса пароля.
+- Письма отправляются на ваш доверенный почтовый ящик, а не хранятся у поставщика псевдонимов.
+- Временные почтовые службы обычно имеют публичные почтовые ящики, доступ к которым может получить любой, кто знает адрес, псевдонимы же доступны только вам.
 
-Our email aliasing recommendations are providers that allow you to create aliases on domains they control, as well as your own custom domain(s) for a modest yearly fee. They can also be self-hosted if you want maximum control. However, using a custom domain can have privacy-related drawbacks: If you are the only person using your custom domain, your actions can be easily tracked across websites simply by looking at the domain name in the email address and ignoring everything before the at (@) sign.
+Наши рекомендованные поставщики псевдонимов электронной почты позволяют вам создавать псевдонимы на доменах, которые они контролируют, а также на ваших собственных доменах за умеренную годовую плату. Вы так же можете разместить их на своем сервере, если вы хотите получить максимальный контроль. Однако использование пользовательского домена может иметь недостатки, связанные с конфиденциальностью: если вы единственный человек, использующий пользовательский домен, ваши действия можно легко отследить на всех сайтах, просто посмотрев на доменное имя в адресе электронной почты и проигнорировав все, что находится перед знаком "эт" (@).
 
-Using an aliasing service requires trusting both your email provider and your aliasing provider with your unencrypted messages. Some providers mitigate this slightly with automatic PGP encryption, which reduces the number of parties you need to trust from two to one by encrypting incoming emails before they are delivered to your final mailbox provider.
+Отправка/получение незашифрованных писем через службу псевдонимов требует доверия как к вашему почтовому провайдеру, так и к провайдеру псевдонимов. Некоторые провайдеры смягчают эту проблему с помощью автоматического шифрования PGP, которое уменьшает требующих доверия сторон, с двух до одной, шифруя входящие электронные письма до их доставки к вашему конечному почтовому провайдеру.
 
 ### AnonAddy
 
 !!! recommendation
 
-    ![AnonAddy logo](assets/img/email/anonaddy.svg#only-light){ align=right }
-    ![AnonAddy logo](assets/img/email/anonaddy-dark.svg#only-dark){ align=right }
+    ![Логотип AnonAddy](assets/img/email/anonaddy.svg#only-light){ align=right }
+    ![Логотип AnonAddy](assets/img/email/anonaddy-dark.svg#only-dark){ align=right }
     
-    **AnonAddy** lets you create 20 domain aliases on a shared domain for free, or unlimited "standard" aliases which are less anonymous.
+    **AnonAddy** позволяет вам бесплатно создать 20 доменных псевдонимов на общем домене или неограниченное количество "стандартных" псевдонимов, которые менее анонимны.
     
-    [:octicons-home-16: Homepage](https://anonaddy.com){ .md-button .md-button--primary }
-    [:octicons-eye-16:](https://anonaddy.com/privacy/){ .card-link title="Privacy Policy" }
-    [:octicons-info-16:](https://app.anonaddy.com/docs/){ .card-link title=Documentation}
-    [:octicons-code-16:](https://github.com/anonaddy){ .card-link title="Source Code" }
-    [:octicons-heart-16:](https://anonaddy.com/donate/){ .card-link title=Contribute }
+    [:octicons-home-16: Домашняя страница](https://anonaddy.com){ .md-button .md-button--primary }
+    [:octicons-eye-16:](https://anonaddy.com/privacy/){ .card-link title="Политика конфиденциальности" }
+    [:octicons-info-16:](https://app.anonaddy.com/docs/){ .card-link title=Документация}
+    [:octicons-code-16:](https://github.com/anonaddy){ .card-link title="Исходный код" }
+    [:octicons-heart-16:](https://anonaddy.com/donate/){ .card-link title=Поддержать }
     
-    ??? downloads
+    ??? скачать
     
         - [:simple-android: Android](https://anonaddy.com/faq/#is-there-an-android-app)
         - [:material-apple-ios: iOS](https://anonaddy.com/faq/#is-there-an-ios-app)
         - [:simple-firefoxbrowser: Firefox](https://addons.mozilla.org/en-GB/firefox/addon/anonaddy/)
         - [:simple-googlechrome: Chrome](https://chrome.google.com/webstore/detail/anonaddy-anonymous-email/iadbdpnoknmbdeolbapdackdcogdmjpe)
 
-The number of shared aliases (which end in a shared domain like @anonaddy.me) that you can create is limited to 20 on AnonAddy's free plan and 50 on their $12/year plan. You can create unlimited standard aliases (which end in a domain like @[username].anonaddy.com or a custom domain on paid plans), however, as previously mentioned, this can be detrimental to privacy because people can trivially tie your standard aliases together based on the domain name alone. Unlimited shared aliases are available for $36/year.
+Доступное вам количество общих псевдонимов (которые заканчиваются на общий домен, например @anonaddy.me), ограничено 20 на бесплатном плане AnonAddy и 50 на их плане за $12/год. Вы можете создавать неограниченное количество стандартных псевдонимов (которые заканчиваются на домен типа @[username].anonaddy.com или пользовательский домен в платных тарифных планах), однако, как уже говорилось ранее, это может нанести ущерб конфиденциальности, поскольку люди могут банально связать ваши стандартные псевдонимы вместе на основе одного только доменного имени. Неограниченное количество общих псевдонимов доступно за $36/год.
 
-Notable free features:
+Примечательные бесплатные функции:
 
-- [x] 20 Shared Aliases
-- [x] Unlimited Standard Aliases
-- [ ] No Outgoing Replies
-- [x] 2 Recipient Mailboxes
-- [x] Automatic PGP Encryption
+- [x] 20 общих псевдонимов
+- [x] Неограниченное количество стандартных псевдонимов
+- [ ] Нет исходящих ответов
+- [x] 2 почтовых ящика получателя
+- [x] Автоматическое шифрование PGP
 
 ### SimpleLogin
 
 !!! recommendation
 
-    ![Simplelogin logo](assets/img/email/simplelogin.svg){ align=right }
+    ![Логотип Simplelogin](assets/img/email/simplelogin.svg){ align=right }
     
-    **SimpleLogin** is a free service which provides email aliases on a variety of shared domain names, and optionally provides paid features like unlimited aliases and custom domains.
+    **SimpleLogin** - это бесплатный сервис, который предоставляет псевдонимы электронной почты на различных общих доменных именах, и опционально платные возможности, такие как неограниченное количество псевдонимов и пользовательские домены.
     
-    [:octicons-home-16: Homepage](https://simplelogin.io){ .md-button .md-button--primary }
-    [:octicons-eye-16:](https://simplelogin.io/privacy/){ .card-link title="Privacy Policy" }
-    [:octicons-info-16:](https://simplelogin.io/docs/){ .card-link title=Documentation}
-    [:octicons-code-16:](https://github.com/simple-login){ .card-link title="Source Code" }
+    [:octicons-home-16: Домашняя страница](https://simplelogin.io){ .md-button .md-button--primary }
+    [:octicons-eye-16:](https://simplelogin.io/privacy/){ .card-link title="Политика конфиденциальности" }
+    [:octicons-info-16:](https://simplelogin.io/docs/){ .card-link title=Документация}
+    [:octicons-code-16:](https://github.com/simple-login){ .card-link title="Исходный код" }
     
-    ??? downloads
+    ??? скачать
     
         - [:simple-googleplay: Google Play](https://play.google.com/store/apps/details?id=io.simplelogin.android)
         - [:simple-appstore: App Store](https://apps.apple.com/app/id1494359858)
@@ -395,7 +395,7 @@ For a more manual approach we've picked out these two articles:
 - [Setting up a mail server with OpenSMTPD, Dovecot and Rspamd](https://poolp.org/posts/2019-09-14/setting-up-a-mail-server-with-opensmtpd-dovecot-and-rspamd/) (2019)
 - [How To Run Your Own Mail Server](https://www.c0ffee.net/blog/mail-server-guide/) (August 2017)
 
-## Criteria
+## Критерии
 
 **Please note we are not affiliated with any of the providers we recommend.** In addition to [our standard criteria](about/criteria.md), we have developed a clear set of requirements for any Email provider wishing to be recommended, including implementing industry best practices, modern technology and more. We suggest you familiarize yourself with this list before choosing an Email provider, and conduct your own research to ensure the Email provider you choose is the right choice for you.
 
@@ -421,7 +421,7 @@ We regard these features as important in order to provide a safe and optimal ser
 - Catch-all or alias functionality for those who own their own domains.
 - Use of standard email access protocols such as IMAP, SMTP or [JMAP](https://en.wikipedia.org/wiki/JSON_Meta_Application_Protocol). Standard access protocols ensure customers can easily download all of their email, should they want to switch to another provider.
 
-### Privacy
+### Конфиденциальность
 
 We prefer our recommended providers to collect as little data as possible.
 
@@ -436,7 +436,7 @@ We prefer our recommended providers to collect as little data as possible.
 
 - Accepts [anonymous payment options](advanced/payments.md) ([cryptocurrency](cryptocurrency.md), cash, gift cards, etc.)
 
-### Security
+### Безопасность
 
 Email servers deal with a lot of very sensitive data. We expect that providers will adopt best industry practices in order to protect their members.
 
@@ -468,7 +468,7 @@ Email servers deal with a lot of very sensitive data. We expect that providers w
     - [Content Security Policy (CSP)](https://en.wikipedia.org/wiki/Content_Security_Policy)
     - [RFC9163 Expect-CT](https://datatracker.ietf.org/doc/rfc9163/)
 
-### Trust
+### Доверие
 
 You wouldn't trust your finances to someone with a fake identity, so why trust them with your email? We require our recommended providers to be public about their ownership or leadership. We also would like to see frequent transparency reports, especially in regard to how government requests are handled.
 
@@ -481,7 +481,7 @@ You wouldn't trust your finances to someone with a fake identity, so why trust t
 - Public-facing leadership.
 - Frequent transparency reports.
 
-### Marketing
+### Маркетинг
 
 With the email providers we recommend we like to see responsible marketing.
 
@@ -501,6 +501,6 @@ Must not have any marketing which is irresponsible:
 
 - Clear and easy to read documentation. This includes things like, setting up 2FA, email clients, OpenPGP, etc.
 
-### Additional Functionality
+### Дополнительная функциональность
 
 While not strictly requirements, there are some other convenience or privacy factors we looked into when determining which providers to recommend.
