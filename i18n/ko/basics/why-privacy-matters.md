@@ -52,6 +52,6 @@ Privacy is something we need to have baked into the [software and services](../t
 
 ## 출처
 
-- [Why Privacy Matters](https://www.amazon.com/Why-Privacy-Matters-Neil-Richards/dp/0190939044) (2021) by Neil Richards
+- Neil Richards - [Why Privacy Matters](https://www.amazon.com/Why-Privacy-Matters-Neil-Richards/dp/0190939044) (2021)
 - [The New Oil: Why Privacy & Security Matter](https://thenewoil.org/en/guides/prologue/why/)
-- [@Thorin-Oakenpants on GitHub](https://github.com/privacytools/privacytools.io/issues/1760#issuecomment-597497298)
+- [GitHub - @Thorin-Oakenpants](https://github.com/privacytools/privacytools.io/issues/1760#issuecomment-597497298)

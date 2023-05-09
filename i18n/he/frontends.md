@@ -7,9 +7,9 @@ cover: frontends.png
 
 לפעמים שירותים ינסו לאלץ אותך להירשם לחשבון על ידי חסימת גישה לתוכן עם חלונות קופצים מעצבנים. הם יכולים להישבר גם ללא הפעלת JavaScript. חזיתות אלה יכולות לאפשר לך לעקוף את ההגבלות הללו.
 
-If you choose to self-host these frontends, it is important that you have other people using your instance as well in order for you to blend in. You should be careful with where and how you are hosting, as other peoples' usage will be linked to your hosting.
+אם תבחר לארח בעצמך את החזיתות האלה, חשוב שאנשים אחרים ישתמשו גם במופע שלך כדי שתוכל להשתלב. אתה צריך להיות זהיר עם היכן וכיצד אתה מארח, מכיוון שהשימוש של אנשים אחרים יהיה מקושר לאירוח שלך.
 
-When you are using an instance run by someone else, make sure to read the privacy policy of that specific instance. They can be modified by their owners and therefore may not reflect the default policy. במקרים מסוימים יש כתובות .onion Tor אשר עשוי להעניק קצת פרטיות כל עוד שאילתות החיפוש שלך אינן מכילות PII.
+כאשר אתה משתמש במופע המופעל על ידי מישהו אחר, הקפד לקרוא את מדיניות הפרטיות של אותו מופע ספציפי. הם יכולים להשתנות על ידי בעליהם ולכן עשויים שלא לשקף את מדיניות ברירת המחדל. במקרים מסוימים יש כתובות .onion Tor אשר עשוי להעניק קצת פרטיות כל עוד שאילתות החיפוש שלך אינן מכילות PII.
 
 ## קליינטים
 

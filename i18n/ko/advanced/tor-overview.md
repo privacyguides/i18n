@@ -10,7 +10,7 @@ Tor는 무료로 이용 가능한 탈중앙화 네트워크입니다. 최대한 
 
 클리어넷(Clearnet) 서비스란, 모든 브라우저로 접근 가능한 웹사이트(예시: [privacyguides.org](https://www.privacyguides.org))를 말합니다. 클리어넷 서비스의 동의어로 '표면 웹(Surface Web)'이 쓰이기도 합니다. Tor는 '노드'(혹은 '릴레이')라고 하는 자원 봉사 운영 서버 수천 개로 구성된 네트워크를 통해 트래픽을 라우팅하여, 웹사이트를 익명으로 연결할 수 있도록 합니다.
 
-여러분이 [Tor에 연결할](../tor.md) 때마다, 3개의 노드가 선택되어 인터넷 연결 경로를 구축합니다. 이 경로를 '우회로(Circuit)'라고 합니다.
+여러분이 [Tor에 연결할](../tor.md) 때마다 3개의 노드가 선택되어 인터넷 연결 경로를 구축합니다. 이 경로를 '우회로(Circuit)'라고 합니다.
 
 <figure markdown>
   ![여러분의 기기가 목적지 웹사이트에 도달하기까지 거쳐가는 입구 노드, 중간 노드, 출구 노드를 나타내는 Tor 경로](../assets/img/how-tor-works/tor-path.svg#only-light)
@@ -18,7 +18,7 @@ Tor는 무료로 이용 가능한 탈중앙화 네트워크입니다. 최대한 
   <figcaption>Tor 우회 경로</figcaption>
 </figure>
 
-Each of these nodes has its own function:
+노드는 각각 다른 역할을 가지고 있습니다.
 
 ### 입구 노드
 
@@ -89,6 +89,6 @@ Tor는 강력한 프라이버시를 보장하지만, 완벽하지는 않습니�
 - [How Tor Works - Computerphile](https://invidious.privacyguides.net/embed/QRYzre4bf7I?local=true) <small>(YouTube)</small>
 - [Tor Onion Services - Computerphile](https://invidious.privacyguides.net/embed/lVcbq_a5N9I?local=true) <small>(YouTube)</small>
 
-[^1]: The first relay in your circuit is called an "entry guard" or "guard". It is a fast and stable relay that remains the first one in your circuit for 2-3 months in order to protect against a known anonymity-breaking attack. The rest of your circuit changes with every new website you visit, and all together these relays provide the full privacy protections of Tor. For more information on how guard relays work, see this [blog post](https://blog.torproject.org/improving-tors-anonymity-changing-guard-parameters) and [paper](https://www-users.cs.umn.edu/~hoppernj/single_guard.pdf) on entry guards. ([https://support.torproject.org/tbb/tbb-2/](https://support.torproject.org/tbb/tbb-2/))
+[^1]: 우회로의 첫 번째 릴레이는 'Entry Guard' 혹은 'Guard'라고 합니다. 알려진 익명성 침해 공격으로부터 보호하기 위해, 우회로에서 첫 번째 릴레이로 2~3개월간 유지되는 빠르고 안정적인 릴레이입니다. 우회로의 나머지 경로는 새로운 웹사이트를 방문할 때마다 변경되며, 이러한 릴레이가 모두 모여 Tor의 완벽한 프라이버시 보호를 제공합니다. 보다 자세한 가드 릴레이 작동 방식 설명은 [이 블로그 포스트](https://blog.torproject.org/improving-tors-anonymity-changing-guard-parameters)와 [이 논문](https://www-users.cs.umn.edu/~hoppernj/single_guard.pdf)을 참고해 주세요. ([https://support.torproject.org/tbb/tbb-2/](https://support.torproject.org/tbb/tbb-2/))
 
-[^2]: Relay flag: a special (dis-)qualification of relays for circuit positions (for example, "Guard", "Exit", "BadExit"), circuit properties (for example, "Fast", "Stable"), or roles (for example, "Authority", "HSDir"), as assigned by the directory authorities and further defined in the directory protocol specification. ([https://metrics.torproject.org/glossary.html](https://metrics.torproject.org/glossary.html))
+[^2]: '릴레이 플래그'란 우회로 위치(Guard, Exit, BadExit 등), 우회로 속성(Fast, Stable 등), 역할(Authority, HSDir 등) 같은 릴레이의 특수 자격을 말합니다. 이는 Directory Authority에 의해 할당되며, Directory Protocol 사양에 추가로 정의되어 있습니다. ([https://metrics.torproject.org/glossary.html](https://metrics.torproject.org/glossary.html))

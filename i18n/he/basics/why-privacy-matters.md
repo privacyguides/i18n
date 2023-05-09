@@ -1,57 +1,57 @@
 ---
-title: "Why Privacy Matters"
+title: "למה פרטיות חשובה"
 icon: 'material/shield-account'
 ---
 
-In the modern age of digital data exploitation, your privacy has never been more critical, and yet many believe it is already a lost cause. It is not. ==Your privacy is up for grabs==, and you need to care about it. Privacy is about power, and it is so important that this power ends up in the right hands.
+בעידן המודרני של ניצול נתונים דיגיטליים, הפרטיות שלך מעולם לא הייתה קריטית יותר, ובכל זאת רבים מאמינים שהיא כבר מקרה אבוד. זה לא. ==הפרטיות שלך נתונה לתפיסה==, ואתה צריך לדאוג לה. פרטיות עוסקת בכוח, וזה כל כך חשוב שהכוח הזה יגיע לידיים הנכונות.
 
-Privacy is ultimately about human information, and this is important because we know that human information confers power over human beings. If we care about our ability to be authentic, fulfilled, and free humans, we have to care about the rules that apply to information about us. So much of our modern society is structured around **information**. When you shop online, read the news, look something up, vote, seek directions, or really anything else, you are relying on information. If we live in an information society, our information matters, and therefore privacy matters.
+פרטיות עוסקת בסופו של דבר במידע אנושי, וזה חשוב מכיוון שאנו יודעים שמידע אנושי מעניק כוח על בני אדם. אם אכפת לנו מהיכולת שלנו להיות בני אדם אותנטיים, מוגשים וחופשיים, עלינו לדאוג לכללים החלים על מידע עלינו. כל כך הרבה מהחברה המודרנית שלנו בנוי סביב **מידע**. כשאתה קונה באינטרנט, קורא חדשות, מחפש משהו, מצביע, מחפש הנחיות, או באמת כל דבר אחר, אתה מסתמך על מידע. אם אנחנו חיים בחברת מידע, המידע שלנו חשוב, ולכן הפרטיות חשובה.
 
-## What is Privacy?
+## מהי פרטיות?
 
-Many people get the concepts of **privacy**, **security**, and **anonymity** confused. You'll see people criticize various products as "not private" when really they mean it doesn't provide anonymity, for example. On this website, we cover all three of these topics, but it is important you understand the difference between them, and when each one comes into play.
+אנשים רבים מבלבלים את המושגים של פרטיות, אבטחה ואנונימיות. אנשים רבים מבלבלים את המושגים של **פרטיות**, **אבטחה** ו**אנונימיות**. אתה תראה אנשים מבקרים מוצרים שונים כ"לא פרטיים" כאשר הם באמת מתכוונים שזה לא מספק אנונימיות, למשל. באתר זה אנו מכסים את כל שלושת הנושאים הללו, אך חשוב שתבינו את ההבדל ביניהם, ומתי כל אחד מהם נכנס לפעולה.
 
 **פרטיות**
 :
 
-==Privacy is the assurance that your data is only seen by the parties you intend to view it.== In the context of an instant messenger, for example, end-to-end encryption provides privacy by keeping your message visible only to yourself and the recipient.
+==פרטיות היא ההבטחה שהנתונים שלך ייראו רק על ידי הצדדים שאתה מתכוון לראות אותם.== בהקשר של מסגר מיידי, למשל, הצפנה מקצה לקצה מספקת פרטיות על ידי שמירה על ההודעה שלך גלויה רק לעצמך והמקבל.
 
 **אבטחה**
 :
 
-Security is the ability to trust the applications you use—that the parties involved are who they say they are—and keep those applications safe. In the context of browsing the web, for example, security can be provided by HTTPS certificates.
+אבטחה היא היכולת לסמוך על היישומים שבהם אתה משתמש - שהצדדים המעורבים הם מי שהם אומרים שהם - ולשמור על היישומים האלה בטוחים. בהקשר של גלישה באינטרנט, למשל, ניתן לספק אבטחה באמצעות תעודות HTTPS.
 
-    Certificates prove you are talking directly to the website you're visiting, and keep attackers on your network from reading or modifying the data sent to or from the website.
+    אישורים מוכיחים שאתה מדבר ישירות לאתר שבו אתה מבקר, ומונעות מהתוקפים ברשת שלך לקרוא או לשנות את הנתונים שנשלחו אל או ממנו.
 
-**Anonymity**
+**אנונימיות**
 :
 
-Anonymity is the ability to act without a persistent identifier. You might achieve this online with [Tor](../tor.md), which allows you to browse the internet with a random IP address and network connection instead of your own.
+אנונימיות היא היכולת לפעול ללא מזהה מתמשך. אתה עשוי להשיג זאת באופן מקוון באמצעות [Tor](../tor.md), המאפשר לך לגלוש באינטרנט עם כתובת IP אקראית וחיבור רשת במקום שלך.
 
-    **Pseudonymity** is a similar concept, but it allows you to have a persistent identifier without it being tied to your real identity. If everybody knows you as `@GamerGuy12` online, but nobody knows your real name, that is your pseudonym.
+    **דמיות בדוי** הוא מושג דומה, אך הוא מאפשר לך לקבל מזהה מתמשך מבלי שהוא יהיה קשור לזהות האמיתית שלך. אם כולם מכירים אותך בתור `@GamerGuy12` באינטרנט, אבל אף אחד לא יודע את שמך האמיתי, זה השם הבדוי שלך.
 
-All of these concepts overlap, but it is possible to have any combination of these. The sweet spot for most people is when all three of these concepts overlap. However, it's tricker to achieve than many initially believe. Sometimes, you have to compromise on some of these, and that's okay too. This is where **threat modeling** comes into play, allowing you to make informed decisions about the [software and services](../tools.md) you use.
+כל המושגים הללו חופפים, אבל אפשר לקבל כל שילוב של אלה. הנקודה המתוקה עבור רוב האנשים היא כאשר כל שלושת המושגים הללו חופפים. עם זאת, זה טריקי להשיג ממה שרבים מאמינים בתחילה. לפעמים, אתה צריך להתפשר על כמה מאלה, וגם זה בסדר. כאן נכנס לתמונה **מודל איומים** המאפשר לך לקבל החלטות מושכלות decisions about the [התוכנה והשירותים](../tools.md)שבהם אתה משתמש.
 
-[:material-book-outline: Learn More About Threat Modeling](basics/threat-modeling.md ""){.md-button}
+[:material-book-outline: למד עוד על מידול סיכונים](basics/threat-modeling.md ""){.md-button}
 
-## Privacy vs. Secrecy
+## פרטיות מול סודיות
 
-A common counter-argument to pro-privacy movements is the notion that one doesn't need privacy if they have **"nothing to hide."** This is a dangerous misconception, because it creates a sense that people who demand privacy must be deviant, criminal, or wrong.
+טיעון נגד נפוץ לתנועות התומכות בפרטיות היא התפיסה שאין צורך בפרטיות אם אין להם **"אין מה להסתיר."** זוהי תפיסה שגויה מסוכנת, כי זה יוצר תחושה שאנשים שדורשים פרטיות חייבים להיות סוטים, פליליים או טועים.
 
-==You shouldn't confuse privacy with secrecy.== We know what happens in the bathroom, but you still close the door. זה בגלל שאתה רוצה פרטיות, לא סודיות. There are always certain facts about us—say, personal health information, or sexual behavior—that we wouldn't want the whole world to know, and that's okay. The need for privacy is legitimate, and that's what makes us human. Privacy is about empowering your rights over your own information, not about hiding secrets.
+==לא כדאי לבלבל פרטיות עם סודיות.== אנחנו יודעים מה קורה בשירותים, אבל אתה עדיין סוגר את הדלת. זה בגלל שאתה רוצה פרטיות, לא סודיות. תמיד יש עובדות מסוימות עלינו - נגיד מידע בריאותי אישי או התנהגות מינית - שלא היינו רוצים שכל העולם ידע, וזה בסדר. הצורך בפרטיות הוא לגיטימי, וזה מה שהופך אותנו לאנושיים. פרטיות עוסקת בהעצמת זכויותיך על המידע שלך, לא בהסתרת סודות.
 
-## Is Privacy About Control?
+## האם פרטיות קשורה לשליטה?
 
-A common definition of privacy is that it is the ability to *control* who has access to your data. This is an easy trap to fall into, in fact it is the definition of privacy we operated this website on for a long time. It sounds nice, and it appeals to many people, but in practice it just doesn't work.
+הגדרה נפוצה לפרטיות היא שזו היכולת *לשלוט* למי יש גישה לנתונים שלך. זוהי מלכודת שקל ליפול אליה, למעשה זוהי הגדרת הפרטיות שבה הפעלנו אתר זה במשך זמן רב. זה נשמע נחמד, וזה פונה להרבה אנשים, אבל בפועל זה פשוט לא עובד.
 
-Take cookie consent forms, for example. You may encounter these dozens of times per day on the various websites you visit, with a nice array of checkboxes and sliders which allow you to "curate" your preferences to exactly fit your needs. In the end, we just hit the "I Agree" button, because we just want to read the article or make a purchase. Nobody wants to complete a personal privacy audit on every single website they visit. This is an exercise in [choice architecture](https://en.wikipedia.org/wiki/Choice_architecture), designed to make you take the easy route out instead of delving into a maze of configuration options that don't need to exist in the first place.
+קחו למשל טפסי הסכמה לעוגיות. אתה עלול להיתקל בעשרות פעמים ביום באתרים השונים שבהם אתה מבקר, עם מגוון נחמד של תיבות סימון ומחוונים המאפשרים לך "לאצור" את ההעדפות שלך כך שיתאימו בדיוק לצרכים שלך. בסופו של דבר, פשוט נלחץ על כפתור "אני מסכים", כי אנחנו רק רוצים לקרוא את המאמר או לבצע רכישה. אף אחד לא רוצה להשלים ביקורת פרטיות אישית בכל אתר אינטרנט שהוא מבקר. זהו תרגיל ב[ארכיטקטורת בחירה](https://en.wikipedia.org/wiki/Choice_architecture), שנועד לגרום לך לצאת בדרך הקלה במקום להתעמק במבוך של אפשרויות תצורה שלא צריכות להתקיים מלכתחילה.
 
-==Control over your privacy inside most apps is an illusion.== It's a shiny dashboard with all sorts of choices you can make about your data, but rarely the choices you're looking for, like "only use my data to help me." This type of control is meant to make you feel guilty about your choices, that you "had the choice" to make the apps you use more private, and you chose not to.
+==שליטה על הפרטיות שלך ברוב האפליקציות היא אשליה.== זהו לוח מחוונים נוצץ עם כל מיני בחירות שאתה יכול לעשות לגבי הנתונים שלך, אבל לעתים רחוקות הבחירות שאתה מחפש, כמו "השתמש רק בנתונים שלי כדי לעזור לי." סוג זה של שליטה נועד לגרום לך להרגיש אשמה על הבחירות שלך, ש"היתה לך הבחירה" להפוך את האפליקציות שבהן אתה משתמש לפרטיות יותר, ובחרת שלא.
 
-Privacy is something we need to have baked into the [software and services](../tools.md) we use by default, you can't bend most apps into being private on your own.
+פרטיות היא משהו שאנחנו צריכים להכניס ל[תוכנות ובשירותים](../tools.md) שבהם אנו משתמשים כברירת מחדל, אתה לא יכול לכופף את רוב האפליקציות להיות פרטיות בעצמך.
 
 ## מקורות
 
-- [Why Privacy Matters](https://www.amazon.com/Why-Privacy-Matters-Neil-Richards/dp/0190939044) (2021) by Neil Richards
-- [The New Oil: Why Privacy & Security Matter](https://thenewoil.org/en/guides/prologue/why/)
-- [@Thorin-Oakenpants on GitHub](https://github.com/privacytools/privacytools.io/issues/1760#issuecomment-597497298)
+- [Why Privacy Matters](https://www.amazon.com/Why-Privacy-Matters-Neil-Richards/dp/0190939044) (2021) מאת ניל ריצ'רדס
+- [The New Oil: מדוע פרטיות & עניין אבטחה](https://thenewoil.org/en/guides/prologue/why/)
+- [@Thorin-Oakenpants ב-GitHub](https://github.com/privacytools/privacytools.io/issues/1760#issuecomment-597497298)

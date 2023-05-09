@@ -31,7 +31,7 @@ description: יצירת חשבונות מקוונים היא למעשה צורך
 
 !!! tip "טיפ"
 
-    You can use your password manager to organize other authentication methods too! Just add the new entry and fill the appropriate fields, you can add notes for things like security questions or a backup key.
+    אתה יכול להשתמש במנהל הסיסמאות שלך כדי לארגן גם שיטות אימות אחרות! פשוט הוסף את הערך החדש ומלא את השדות המתאימים, אתה יכול להוסיף הערות לדברים כמו שאלות אבטחה או מפתח גיבוי.
 
 אתה תהיה אחראי על ניהול אישורי הכניסה שלך. לאבטחה נוספת, תוכל להגדיר [MFA](multi-factor-authentication.md) בחשבונות שלך.
 
@@ -45,11 +45,11 @@ description: יצירת חשבונות מקוונים היא למעשה צורך
 
 [שירותי כינוי אימייל מומלצים](../email.md#email-aliasing-services ""){.md-button}
 
-### "Sign in with..." (OAuth)
+### "להתחבר עם..." (OAuth)
 
-OAuth is an authentication protocol that allows you to register for a service without sharing much information with the service provider, if any, by using an existing account you have with another service instead. Whenever you see something along the lines of "Sign in with *provider name*" on a registration form, it's typically using OAuth.
+OAuth הוא פרוטוקול אימות המאפשר לך להירשם לשירות מבלי לשתף מידע רב עם ספק השירות, אם בכלל, על ידי שימוש בחשבון קיים שיש לך עם שירות אחר במקום זאת. בכל פעם שאתה רואה משהו בסגנון "היכנס עם *שם הספק*" בטופס הרשמה, זה בדרך כלל באמצעות OAuth.
 
-When you sign in with OAuth, it will open a login page with the provider you choose, and your existing account and new account will be connected. Your password won't be shared, but some basic information typically will (you can review it during the login request). תהליך זה נחוץ בכל פעם שאתה רוצה להיכנס לאותו חשבון.
+כאשר אתה נכנס עם OAuth, הוא יפתח דף התחברות עם הספק שתבחר, והחשבון הקיים והחשבון החדש שלך יחוברו. הסיסמה שלך לא תשותף, אבל בדרך כלל יש מידע בסיסי (תוכל לעיין בה במהלך בקשת ההתחברות). תהליך זה נחוץ בכל פעם שאתה רוצה להיכנס לאותו חשבון.
 
 היתרונות העיקריים הם:
 
@@ -58,12 +58,12 @@ When you sign in with OAuth, it will open a login page with the provider you cho
 
 אבל יש חסרונות:
 
-- **Privacy**: the OAuth provider you log in with will know the services you use.
-- **Centralization**: if the account you use for OAuth is compromised or you aren't able to login to it, all other accounts connected to it are affected.
+- **פרטיות**: ספק ה-OAuth שאיתו אתה מתחבר יידע באילו שירותים אתה משתמש.
+- **ריכוזיות**: אם החשבון שבו אתה משתמש עבור OAuth נפגע או שאינך יכול להתחבר אליו, כל שאר החשבונות המחוברים אליו מושפעים.
 
-OAuth authentication can be especially useful in those situations where you could benefit from deeper integration between services. Our recommendation is to limit using OAuth to only where you need it, and always protect the main account with [MFA](multi-factor-authentication.md).
+אימות OAuth יכול להיות שימושי במיוחד במצבים שבהם תוכל להפיק תועלת מאינטגרציה עמוקה יותר בין שירותים. ההמלצה שלנו היא להגביל את השימוש ב-OAuth רק למקום שבו אתה זקוק לו, ולהגן תמיד על החשבון הראשי באמצעות [MFA](multi-factor-authentication.md).
 
-All the services that use OAuth will be as secure as your underlying provider's account. For example, if you want to secure an account with a hardware key, but that service doesn't support hardware keys, you can secure the account you use with OAuth with a hardware key instead, and now you essentially have hardware MFA on all your accounts. It is worth noting though that weak authentication on your OAuth provider account means that any account tied to that login will also be weak.
+כל השירותים המשתמשים ב-OAuth יהיו מאובטחים כמו החשבון של הספק הבסיסי שלך. לדוגמה, אם אתה רוצה לאבטח חשבון עם מפתח חומרה, אבל השירות הזה לא תומך במפתחות חומרה, אתה יכול לאבטח את החשבון שבו אתה משתמש עם OAuth עם מפתח חומרה במקום, ועכשיו יש לך בעצם MFA חומרה בכל חשבונות. עם זאת, ראוי לציין שאימות חלש בחשבון ספק ה-OAuth שלך אומר שכל חשבון הקשור לכניסה זו יהיה גם חלש.
 
 ### מספר טלפון
 

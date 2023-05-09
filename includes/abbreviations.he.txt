@@ -10,12 +10,12 @@
 *[CVE]: Common Vulnerabilities and Exposures
 *[מורשת דיגיטלית]: Digital Legacy refers to features that allow you to give other people access to your data when you die
 *[DNSSEC]: Domain Name System Security Extensions
-*[DNS]: Domain Name System
+*[DNS]: מערכת שמות מתחם
 *[DoH]: DNS דרך HTTPS
 *[DoQ]: DNS over QUIC
 *[DoH3]: DNS over HTTP/3
 *[DoT]: DNS over TLS
-*[E2EE]: End-to-End Encryption/Encrypted
+*[E2EE]: הצפנה מקצה לקצה/מוצפנת
 *[ECS]: EDNS Client Subnet
 *[EEA]: European Economic Area
 *[entropy]: A measurement of how unpredictable something is
