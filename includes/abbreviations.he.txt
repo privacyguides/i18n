@@ -23,13 +23,13 @@
 *[Exif]: פורמט קובץ תמונה ניתן להחלפה
 *[FCM]: Firebase Cloud Messaging
 *[FDE]: הצפנת דיסק מלאה
-*[FIDO]: Fast IDentity Online
-*[fork]: A new software project created by copying an existing project and adding to it independently
-*[GDPR]: General Data Protection Regulation
-*[GPG]: GNU Privacy Guard (PGP implementation)
-*[GPS]: Global Positioning System
+*[FIDO]: זיהוי מהיר באינטרנט
+*[fork]: פרויקט תוכנה חדש שנוצר על ידי העתקת פרויקט קיים והוספה אליו באופן עצמאי
+*[GDPR]: תקנת הגנת מידע כללית
+*[GPG]: GNU Privacy Guard (יישום PGP)
+*[GPS]: מערכת מיקום גלובלית
 *[GUI]: Graphical User Interface
-*[GnuPG]: GNU Privacy Guard (PGP implementation)
+*[GnuPG]: GNU Privacy Guard (יישום PGP)
 *[HDD]: כונן קשיח
 *[HOTP]: HMAC (Hash-based Message Authentication Code) based One-Time Password
 *[HTTPS]: Hypertext Transfer Protocol Secure
