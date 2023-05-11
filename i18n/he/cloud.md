@@ -42,9 +42,9 @@ cover: cloud.png
 
 !!! recommendation
 
-    ![Tresorit לוגו](assets/img/cloud/tresorit.svg){ align=right }
+    ![Tresorit logo](assets/img/cloud/tresorit.svg){ align=right }
     
-    **Tresorit** היא ספקית אחסון ענן מוצפנת הונגרית שנוסדה ב-2011. Tresorit נמצאת בבעלות ה-Swiss Post, שירות הדואר הלאומי של שוויץ.
+    **Tresorit** is a Swiss-Hungarian encrypted cloud storage provider founded in 2011. Tresorit נמצאת בבעלות ה-Swiss Post, שירות הדואר הלאומי של שוויץ.
     
     [:octicons-home-16: דף הבית](https://tresorit.com/){ class="md-button md-button--primary" }
     [:octicons-eye-16:](https://tresorit.com/legal/privacy-policy){ .card-link title="מדיניות פרטיות" }

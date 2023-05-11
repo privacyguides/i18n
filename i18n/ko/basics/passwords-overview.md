@@ -1,7 +1,7 @@
 ---
-title: "Introduction to Passwords"
+title: "비밀번호 입문"
 icon: 'material/form-textbox-password'
-description: These are some tips and tricks on how to create the strongest passwords and keep your accounts secure.
+description: 강력한 비밀번호를 만들고 계정을 안전하게 보호하는 몇 가지 방법을 알려드립니다.
 ---
 
 '비밀번호'는 우리의 일상 디지털 생활에 있어서 필수적인 요소입니다. 우리는 비밀번호를 통해 계정, 기기, 개인 정보를 보호합니다. 간혹 비밀번호는 우리의 개인 정보를 노리는 공격자와 우리 사이의 유일한 방어 수단임에도 불구하고, 사람들은 비밀번호의 중요성을 심각하게 생각하지 않아 쉽게 추측되거나 무차별 대입 공격에 취약한 비밀번호를 사용하는 경우가 흔합니다.
@@ -16,7 +16,7 @@ description: These are some tips and tricks on how to create the strongest passw
 
 ### 무작위로 생성된 비밀번호 사용하기
 
-==You should **never** rely on yourself to come up with a good password.== We recommend using [randomly generated passwords](#passwords) or [diceware passphrases](#diceware-passphrases) with sufficient entropy to protect your accounts and devices.
+==좋은 비밀번호를 만들고자 한다면, **절대** 스스로에게 의존해서는 안 됩니다.== 계정 및 기기를 보호할 만큼 충분한 엔트로피를 갖춘 비밀번호를 만들려면 [랜덤 생성된 패스워드](#passwords)나 [Diceware 패스프레이즈](#diceware-passphrases) 방식을 사용하실 것을 권장드립니다.
 
 저희가 [권장하는 비밀번호 관리자](../passwords.md)는 전부 비밀번호 생성기를 내장하고 있습니다.
 
@@ -34,7 +34,7 @@ description: These are some tips and tricks on how to create the strongest passw
 
 ### 패스워드
 
-많은 서비스는 최소/최대 길이, 사용 가능한 특수 문자 등 비밀번호에 특정 제한이 존재합니다. 비밀번호 관리자에 내장된 비밀번호 생성기를 사용해 해당 서비스에서 허용되는 한도 내에서 최대한 길고 복잡한(대문자, 소문자, 숫자, 특수 문자를 포함한) 비밀번호를 만들어야 합니다.
+많은 서비스는 최소/최대 길이, 사용 가능한 특수 문자 등 패스워드(Password)에 특정 제한이 존재합니다. 비밀번호 관리자에 내장된 비밀번호 생성기를 사용해 해당 서비스에서 허용되는 한도 내에서 최대한 길고 복잡한(대문자, 소문자, 숫자, 특수 문자를 포함한) 패스워드를 만들어야 합니다.
 
 외워두어야 하는 비밀번호의 경우, [Diceware 패스프레이즈](#diceware-passphrases) 방식으로 생성할 것을 권장합니다.
 

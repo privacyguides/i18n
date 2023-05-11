@@ -55,16 +55,13 @@ Hay varias maneras de conectarte a la red Tor desde tu dispositivo, la más util
     [:octicons-code-16:](https://gitweb.torproject.org/tor-browser.git/){ .card-link title="Código Fuente" }
     [:octicons-heart-16:](https://donate.torproject.org/){ .card-link title=Contribuir }
     
-    ??? downloads "Descargas"
+    ??? descargas
     
         - [:simple-googleplay: Google Play](https://play.google.com/store/apps/details?id=org.torproject.torbrowser)
         - [:simple-android: Android](https://www.torproject.org/download/#android)
         - [:simple-windows11: Windows](https://www.torproject.org/download/)
         - [:simple-apple: macOS](https://www.torproject.org/download/)
         - [:simple-linux: Linux](https://www.torproject.org/download/)
-        - [:simple-freebsd: FreeBSD](https://www.freshports.org/security/tor)
-        - [:simple-openbsd: OpenBSD](https://openports.se/net/tor)
-        - [:simple-netbsd: NetBSD](https://pkgsrc.se/net/tor)
 
 !!! danger "Peligro"
 
@@ -115,23 +112,14 @@ Anteriormente recomendamos activar la preferencia *Aislar direcciones de destino
     
     Las personas censuradas pueden utilizar proxies Snowflake para conectarse a la red Tor. Snowflake es una gran forma de contribuir a la red incluso si no tienes los conocimientos técnicos para dirigir un repetidor o puente Tor.
     
-    [:octicons-home-16: Página Principal](https://snowflake.torproject.org/){ .md-button .md-button--primary }
+    [:octicons-home-16: Homepage](https://snowflake.torproject.org/){ .md-button .md-button--primary }
     [:octicons-info-16:](https://gitlab.torproject.org/tpo/anti-censorship/pluggable-transports/snowflake/-/wikis/Technical%20Overview){ .card-link title=Documentación}
     [:octicons-code-16:](https://gitweb.torproject.org/pluggable-transports/snowflake.git/){ .card-link title="Código Fuente" }
     [:octicons-heart-16:](https://donate.torproject.org/){ .card-link title=Contribuir }
-    
-    ??? downloads "Descargas"
-    
-        - [:simple-firefoxbrowser: Firefox](https://addons.mozilla.org/en-US/firefox/addon/torproject-snowflake/)
-        - [:simple-googlechrome: Chrome](https://chrome.google.com/webstore/detail/snowflake/mafpmfcccpbjnhfhjnllmmalhifmlcie)
-        - [:octicons-browser-16: Web](https://snowflake.torproject.org/embed "Leave this page open to be a Snowflake proxy")
 
-??? tip "Snowflake incrustado"
+Puede activar Snowflake en tu navegador abriéndolo en otra pestaña y activando el interruptor. Puedes dejarlo corriendo en segundo plano mientras navegas para contribuir a tu conexión. No recomendamos instalar Snowflake como extensión del navegador; añadir extensiones de terceros puede aumentar la posibilidad de un ataque.
 
-    Puedes activar Snowflake en tu navegador haciendo clic en el interruptor de abajo y ==dejando esta página abierta==. También puedes instalar Snowflake como una extensión del navegador para que se ejecute siempre mientras el navegador está abierto, aunque añadir extensiones de terceros puede aumentar tu superficie de ataque.
-    
-    <center><iframe src="https://snowflake.torproject.org/embed.html" width="320" height="240" frameborder="0" scrolling="no"></iframe></center>
-    <small>Si la incrustación no te aparece, asegúrate de que no estés bloqueando el marco de terceros de `torproject.org`. También puede visitar [esta página](https://snowflake.torproject.org/embed.html).</small>
+[Ejecute Snowflake en su navegador :material-arrow-right-drop-circle:](https://snowflake.torproject.org/embed.html ""){.md-button}
 
 Snowflake no aumenta tu privacidad de ninguna manera, ni se utiliza para conectarte a la red Tor dentro de tu navegador personal. Sin embargo, si tu conexión a Internet no está censurada, deberías ejecutarlo para ayudar a las personas en redes censuradas a conseguir mejor privacidad. No hay necesidad de preocuparte por los sitios web a los que la gente accede a través de tu proxy-su dirección IP de navegación visible coincidirá con su nodo de salida Tor, no con el tuyo.
 

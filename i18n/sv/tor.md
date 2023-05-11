@@ -62,7 +62,6 @@ There are a variety of ways to connect to the Tor network from your device, the 
         - [:simple-windows11: Windows](https://www.torproject.org/download/)
         - [:simple-apple: macOS](https://www.torproject.org/download/)
         - [:simple-linux: Linux](https://www.torproject.org/download/)
-        - [:simple-freebsd: FreeBSD](https://www.freshports.org/security/tor)
 
 !!! fara
 
@@ -117,19 +116,10 @@ We previously recommended enabling the *Isolate Destination Address* preference 
     [:octicons-info-16:](https://gitlab.torproject.org/tpo/anti-censorship/pluggable-transports/snowflake/-/wikis/Technical%20Overview){ .card-link title=Documentation}
     [:octicons-code-16:](https://gitweb.torproject.org/pluggable-transports/snowflake.git/){ .card-link title="Source Code" }
     [:octicons-heart-16:](https://donate.torproject.org/){ .card-link title=Contribute }
-    
-    ??? downloads
-    
-        - [:simple-firefoxbrowser: Firefox](https://addons.mozilla.org/en-US/firefox/addon/torproject-snowflake/)
-        - [:simple-googlechrome: Chrome](https://chrome.google.com/webstore/detail/snowflake/mafpmfcccpbjnhfhjnllmmalhifmlcie)
-        - [:octicons-browser-16: Web](https://snowflake.torproject.org/embed "Leave this page open to be a Snowflake proxy")
 
-??? tip "Embedded Snowflake"
+You can enable Snowflake in your browser by opening it in another tab and turning the switch on. You can leave it running in the background while you browse to contribute your connection. We don't recommend installing Snowflake as a browser extension; adding third-party extensions can increase your attack surface.
 
-    You can enable Snowflake in your browser by clicking the switch below and ==leaving this page open==. You can also install Snowflake as a browser extension to have it always run while your browser is open, however adding third-party extensions can increase your attack surface.
-    
-    <center><iframe src="https://snowflake.torproject.org/embed.html" width="320" height="240" frameborder="0" scrolling="no"></iframe></center>
-    <small>Om inbäddningen inte visas för dig, kontrollera att du inte blockerar tredjepartsramen från `torproject.org`. Du kan också besöka [denna sida] (https://snowflake.torproject.org/embed.html).</small>
+[Run Snowflake in your Browser :material-arrow-right-drop-circle:](https://snowflake.torproject.org/embed.html ""){.md-button}
 
 Snowflake ökar inte din integritet på något sätt och används inte heller för att ansluta till Tor-nätverket i din webbläsare. Om din internetanslutning är ocensurerad bör du dock överväga att använda den för att hjälpa människor i censurerade nätverk att själva få bättre integritet. Det finns ingen anledning att oroa sig för vilka webbplatser människor kommer åt via din proxy - deras synliga IP-adress kommer att matcha deras Tor exit-nod, inte din.
 

@@ -62,7 +62,6 @@ Tor працює, спрямовуючи ваш інтернет-трафік ч
         - [:simple-windows11: Windows](https://www.torproject.org/download/)
         - [:simple-apple: macOS](https://www.torproject.org/download/)
         - [:simple-linux: Linux](https://www.torproject.org/download/)
-        - [:simple-freebsd: FreeBSD](https://www.freshports.org/security/tor)
 
 !!! danger
 
@@ -113,23 +112,14 @@ We previously recommended enabling the *Isolate Destination Address* preference 
     
     Люди, які зазнають цензури, можуть використовувати проксі-сервери Snowflake для підключення до мережі Tor. Snowflake — це чудовий спосіб зробити внесок у мережу, навіть якщо ви не володієте технічними знаннями для запуску Tor-реле або моста.
     
-    [:octicons-home-16: Домашня сторінка](https://snowflake.torproject.org/?lang=uk){ .md-button .md-button--primary }
-    [:octicons-info-16:](https://gitlab.torproject.org/tpo/anti-censorship/pluggable-transports/snowflake/-/wikis/Technical%20Oперегляд){ .card-link title=Документація}
-    [:octicons-code-16:](https://gitweb.torproject.org/pluggable-transports/snowflake.git/){ .card-link title="Вихідний код" }
-    [:octicons-heart-16:](https://donate.torproject.org/){ .card-link title=Зробити внесок}
-    
-    ??? downloads
-    
-        - [:simple-firefoxbrowser: Firefox](https://addons.mozilla.org/en-US/firefox/addon/torproject-snowflake/)
-        - [:simple-googlechrome: Chrome](https://chrome.google.com/webstore/detail/snowflake/mafpmfcccpbjnhfhjnllmmalhifmlcie)
-        - [:octicons-browser-16: Web](https://snowflake.torproject.org/embed "Залиште цю сторінку відкритою, щоб бути Snowflake проксі")
+    [:octicons-home-16: Homepage](https://snowflake.torproject.org/){ .md-button .md-button--primary }
+    [:octicons-info-16:](https://gitlab.torproject.org/tpo/anti-censorship/pluggable-transports/snowflake/-/wikis/Technical%20Overview){ .card-link title=Documentation}
+    [:octicons-code-16:](https://gitweb.torproject.org/pluggable-transports/snowflake.git/){ .card-link title="Source Code" }
+    [:octicons-heart-16:](https://donate.torproject.org/){ .card-link title=Contribute }
 
-??? tip "Вбудована Snowflake"
+You can enable Snowflake in your browser by opening it in another tab and turning the switch on. You can leave it running in the background while you browse to contribute your connection. We don't recommend installing Snowflake as a browser extension; adding third-party extensions can increase your attack surface.
 
-    Ви можете увімкнути Snowflake у вашому браузері, натиснувши перемикач нижче і ==залишивши цю сторінку відкритою==. Ви також можете встановити Snowflake як розширення для браузера, щоб він завжди працював, коли браузер відкритий, однак додавання сторонніх розширень може збільшити вашу поверхню атаки.
-    
-    <center><iframe src="https://snowflake.torproject.org/embed.html" width="320" height="240" frameborder="0" scrolling="no"></iframe></center>
-    <small>Якщо вбудовуваний елемент не відображається, переконайтеся, що ви не заблокували сторонній фрейм з `torproject.org`. Крім того, відвідайте [цю сторінку](https://snowflake.torproject.org/embed.html).</small>
+[Run Snowflake in your Browser :material-arrow-right-drop-circle:](https://snowflake.torproject.org/embed.html ""){.md-button}
 
 Snowflake жодним чином не збільшує вашу конфіденційність і не використовується для підключення до мережі Tor у вашому власному браузері. Однак, якщо ваше інтернет-з'єднання не піддається цензурі, вам варто подумати про його використання, щоб допомогти людям, які перебувають у мережах з цензурою, самим досягти кращої конфіденційності. Вам не потрібно турбуватися про те, до яких сайтів люди отримують доступ через ваш проксі — їх видима IP-адреса буде відповідати їх вихідному вузлу з Tor, а не вашій.
 

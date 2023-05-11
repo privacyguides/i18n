@@ -57,12 +57,11 @@ Tor 的工作原理是通過志願者運營的服務器來引導您的網際網�
     
     ??? 下載
     
-        - [:simple-googleplay: Google Play] (https://play.google.com/store/apps/details?id=org.torproject.torbrowser)
-        - [:simple-android: Android] (https://www.torproject.org/download/#android)
-        - [:simple-windows11: Windows] (https://www.torproject.org/download/)
-        - [:simple-apple: macOS] (https://www.torproject.org/download/)
-        - [:simple-linux: Linux] (https://www.torproject.org/download/)
-        - [:simple-freebsd: FreeBSD] (https://www.freshports.org/security/tor)
+        - [:simple-googleplay: Google Play](https://play.google.com/store/apps/details?id=org.torproject.torbrowser)
+        - [:simple-android: Android](https://www.torproject.org/download/#android)
+        - [:simple-windows11: Windows](https://www.torproject.org/download/)
+        - [:simple-apple: macOS](https://www.torproject.org/download/)
+        - [:simple-linux: Linux](https://www.torproject.org/download/)
 
 !!! 危險
 
@@ -117,19 +116,10 @@ Tor 瀏覽器旨在防止指紋識別----根據您的瀏覽器配置識別您。
     [:octicons-info-16:](https://gitlab.torproject.org/tpo/anti-censorship/pluggable-transports/snowflake/-/wikis/Technical%20Overview){ .card-link title=Documentation}
     [:octicons-code-16:](https://gitweb.torproject.org/pluggable-transports/snowflake.git/){ .card-link title="Source Code" }
     [:octicons-heart-16:](https://donate.torproject.org/){ .card-link title=Contribute }
-    
-    ??? 下載
-    
-        - [:simple-firefoxbrowser: Firefox] (https://addons.mozilla.org/zh-CN/firefox/addon/torproject-snowflake/)
-        - [:simple-googlechrome: Chrome] (https://chrome.google.com/webstore/detail/snowflake/mafpmfcccpbjnhfhjnllmmalhifmlcie)
-        - [:octicons-browser-16: Web] (https://snowflake.torproject.org/embed "保持此頁面開啟成為Snowflake代理")
 
-??? 提示: Embedded Snowflake
+要啟用瀏覽器的 Snowflake 請在另一個標籤分頁下開啟其切換開關。 您可讓它在背景下執行而您的瀏覽器會協助其連接。 不建議將 Snowflake 作為瀏覽器附加元件安裝，因為第三方的擴展往往會增加攻擊面。
 
-    您可以在瀏覽器中啟用 Snowflake ，只需按下下方開關，即可= =保持此頁面開啟= =。 您還可以安裝 Snowflake 瀏覽器擴充元件，當開啟瀏覽器時它會一直執行，但添加第三方擴充元件可能會增加遭攻擊面。
-    
-    <center><iframe src="https://snowflake.torproject.org/embed.html" width="320" height="240" frameborder="0" scrolling="no"></iframe></center>
-    <small>如果沒有顯示嵌入，請確保您沒有封鎖來自`torproject.org`的第三方框架。 或者，請造訪[此頁面] (https://snowflake.torproject.org/embed.html)。</small>
+[在瀏覽器執行 Snowflake :material-arrow-right-drop-circle:](https://snowflake.torproject.org/embed.html ""){.md-button}
 
 Snowflake 無法加強隱私，也不會在您的個人瀏覽器中連接 Tor網絡。 但如果您的網際網路連接沒有被審查的情形，請考慮使用它，幫助受審查網路中的人們能有更好的隱私。 無需擔心人們通過您的代理訪問哪些網站----他們的可見瀏覽 IP 地址將與其 Tor 出口節點相匹配，而不是您的 IP 地址。
 

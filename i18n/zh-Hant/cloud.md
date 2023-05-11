@@ -42,9 +42,9 @@ Proton Drive 全新移動客戶端軟體尚未經過第三方公開審核。
 
 !!! recommendation
 
-    ! [Tresorit logo] (assets/img/cloud/tresorit.svg) {align = right}
+    ![Tresorit logo](assets/img/cloud/tresorit.svg){ align=right }
     
-    * * Tresorit * *是一家成立於2011年的匈牙利加密雲端儲存服務供應商。 Tresorit 由瑞士郵政擁有，瑞士郵政是瑞士的國家郵政服務。
+    **Tresorit** 為 2011年創辦於瑞士- 匃牙利的加密雲端儲存供應商。 Tresorit 由瑞士郵政擁有，瑞士郵政是瑞士的國家郵政服務。
     
     [:octicons-home-16: Homepage](https://tresorit.com/){ class="md-button md-button--primary" }
     [:octicons-eye-16:](https://tresorit.com/legal/privacy-policy){ .card-link title="Privacy Policy" }

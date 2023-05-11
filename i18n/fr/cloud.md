@@ -44,7 +44,7 @@ Les nouveaux clients mobiles de Proton Drive n'ont pas encore fait l'objet d'un 
 
     ![Logo Tresorit](assets/img/cloud/tresorit.svg){ align=right }
     
-    **Tresorit** est un fournisseur hongrois de stockage cloud chiffré fondé en 2011. Tresorit appartient à la Poste suisse, le service postal national de la Suisse.
+    **Tresorit** est un fournisseur suisse-hongrois de stockage cloud chiffré fondé en 2011. Tresorit appartient à la Poste suisse, le service postal national de la Suisse.
     
     [:octicons-home-16: Page d'accueil](https://tresorit.com/){ class="md-button md-button--primary" }
     [:octicons-eye-16:](https://tresorit.com/legal/privacy-policy){ .card-link title="Politique de confidentialité" }

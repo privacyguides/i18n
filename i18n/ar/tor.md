@@ -55,14 +55,13 @@ schema:
     [:octicons-code-16:](https://gitweb.torproject.org/tor-browser.git/){ .card-link title="رمز المصدر" }
     [:octicons-heart-16:](https://donate.torproject.org/){ .card-link title=ساهم }
     
-    ??? التنزيلات
+    ??? downloads
     
-        - [:simple-googleplay: متجر بلاي](https://play.google.com/store/apps/details?id=org.torproject.torbrowser)
-        - [:simple-android: أندرويد](https://www.torproject.org/download/#android)
-        - [:simple-windows11: ويندوز](https://www.torproject.org/download/)
-        - [:simple-apple: ماك‌أو‌إس](https://www.torproject.org/download/)
-        - [:simple-linux: لينكس](https://www.torproject.org/download/)
-        - [:simple-freebsd: فري‌بي‌إس‌دي](https://www.freshports.org/security/tor)
+        - [:simple-googleplay: Google Play](https://play.google.com/store/apps/details?id=org.torproject.torbrowser)
+        - [:simple-android: Android](https://www.torproject.org/download/#android)
+        - [:simple-windows11: Windows](https://www.torproject.org/download/)
+        - [:simple-apple: macOS](https://www.torproject.org/download/)
+        - [:simple-linux: Linux](https://www.torproject.org/download/)
 
 !!! خطر
 
@@ -113,24 +112,14 @@ We previously recommended enabling the *Isolate Destination Address* preference 
     
     يستطيع من يخضع للرقابة أن يستعمل وسطاء سنوفليك ليتَّصل بشبكة تور. ييسِّر سنوفليك المساهمة في شبكة تور، فلا تحتاج لمعلومات تقنية لتشغِّل مرحِّل تور أو جسرًا له.
     
-    [:octicons-home-16: الصفحة الرئيسة](https://snowflake.torproject.org/){ .md-button .md-button--primary }
-    [:octicons-info-16:](https://gitlab.torproject.org/tpo/anti-censorship/pluggable-transports/snowflake/-/wikis/Technical%20Overview){ .card-link title=التوثيق}
-    [:octicons-code-16:](https://gitweb.torproject.org/pluggable-transports/snowflake.git/){ .card-link title="رمز المصدر" }
-    [:octicons-heart-16:](https://donate.torproject.org/){ .card-link title=ساهم }
-    
-    ??? التنزيلات
-    
-    
-        - [:simple-firefoxbrowser: فيرفكس](https://addons.mozilla.org/en-US/firefox/addon/torproject-snowflake/)
-        - [:simple-googlechrome: كروم](https://chrome.google.com/webstore/detail/snowflake/mafpmfcccpbjnhfhjnllmmalhifmlcie)
-        - [:octicons-browser-16: وِب](https://snowflake.torproject.org/embed "اترك هذه الصفحة مفتوحةً لتصير وسيط سنوفليك")
+    [:octicons-home-16: Homepage](https://snowflake.torproject.org/){ .md-button .md-button--primary }
+    [:octicons-info-16:](https://gitlab.torproject.org/tpo/anti-censorship/pluggable-transports/snowflake/-/wikis/Technical%20Overview){ .card-link title=Documentation}
+    [:octicons-code-16:](https://gitweb.torproject.org/pluggable-transports/snowflake.git/){ .card-link title="Source Code" }
+    [:octicons-heart-16:](https://donate.torproject.org/){ .card-link title=Contribute }
 
-??? فائدة «سنوفليك مضمَّن»
+You can enable Snowflake in your browser by opening it in another tab and turning the switch on. You can leave it running in the background while you browse to contribute your connection. We don't recommend installing Snowflake as a browser extension; adding third-party extensions can increase your attack surface.
 
-    بوسعك تمكين سنوفليك في متصفِّحك بنقر المفتاح أدناه ==وترك الصفحة مفتوحةً==. ويمكنك أيضًا تثبيت سنوفليك إضافةً في متصفِّحك، ولك تشغيله طالما فُتح متصفِّحك، ولكن تنبَّه لأن إضافة إضافات خارجية يزيد المخاطر.
-    
-    <center><iframe src="https://snowflake.torproject.org/embed.html" width="320" height="240" frameborder="0" scrolling="no"></iframe></center>
-    <small>إن لم يظهر لك التضمين فتيقَّن من أنك لا تحظر الإطار الخارجيَّ من ‹torproject.org›. أو زر [هذه الصفحة](https://snowflake.torproject.org/embed.html).</small>
+[Run Snowflake in your Browser :material-arrow-right-drop-circle:](https://snowflake.torproject.org/embed.html ""){.md-button}
 
 لا يفيد سنوفليك في تحسين خصوصيتك أبدًا، وليس سبيلًا لاتصال بشبكة تور داخل متصفِّحك. ولكن إن كان اتصالك بالإنترنت لا يخضع لرقابة فتخيَّر تشغيله لتعين من يستعمل شبكات تخضع لها في تحسين خصوصيتهم. ولا تقلق حيال أيِّ صفحات يزورها من يستخدم وسيطك، ﻷن عنوان IP لهم يطابق ذاك التابع لعقدة مخرج تور، لا عقدتك.
 

@@ -55,14 +55,13 @@ Il existe plusieurs façons de se connecter au réseau Tor à partir de votre ap
     [:octicons-code-16:](https://gitweb.torproject.org/tor-browser.git/){ .card-link title="Code Source" }
     [:octicons-heart-16:](https://donate.torproject.org/){ .card-link title=Contribuer }
     
-    ??? downloads "Téléchargements"
+    ??? downloads
     
         - [:simple-googleplay: Google Play](https://play.google.com/store/apps/details?id=org.torproject.torbrowser)
         - [:simple-android: Android](https://www.torproject.org/download/#android)
         - [:simple-windows11: Windows](https://www.torproject.org/download/)
         - [:simple-apple: macOS](https://www.torproject.org/download/)
         - [:simple-linux: Linux](https://www.torproject.org/download/)
-        - [:simple-freebsd: FreeBSD](https://www.freshports.org/security/tor)
 
 !!! danger "Danger"
 
@@ -100,7 +99,7 @@ Nous avons précédemment recommandé d'activer la préférence *Isolate Destina
     
     Toutes les versions sont signées en utilisant la même signature, elles devraient donc être compatibles entre elles.
 
-## Relais et Ponts
+## Relais et ponts
 
 ### Snowflake
 
@@ -113,23 +112,14 @@ Nous avons précédemment recommandé d'activer la préférence *Isolate Destina
     
     Les personnes censurées peuvent utiliser les proxys Snowflake pour se connecter au réseau Tor. Snowflake est un excellent moyen de contribuer au réseau même si vous n'avez pas le savoir-faire technique pour gérer un relais ou un pont Tor.
     
-    [:octicons-home-16: Page d'accueil](https://snowflake.torproject.org/?lang=fr){ .md-button .md-button--primary }
+    [:octicons-home-16: Page d'accueil](https://snowflake.torproject.org/){ .md-button .md-button--primary }
     [:octicons-info-16:](https://gitlab.torproject.org/tpo/anti-censorship/pluggable-transports/snowflake/-/wikis/Technical%20Overview){ .card-link title=Documentation}
-    [:octicons-code-16:](https://gitweb.torproject.org/pluggable-transports/snowflake.git/){ .card-link title="Code Source" }
+    [:octicons-code-16:](https://gitweb.torproject.org/pluggable-transports/snowflake.git/){ .card-link title="Code source" }
     [:octicons-heart-16:](https://donate.torproject.org/){ .card-link title=Contribuer }
-    
-    ??? downloads "Téléchargements"
-    
-        - [:simple-firefoxbrowser: Firefox](https://addons.mozilla.org/fr-fr/firefox/addon/torproject-snowflake/)
-        - [:simple-googlechrome: Chrome](https://chrome.google.com/webstore/detail/snowflake/mafpmfcccpbjnhfhjnllmmalhifmlcie)
-        - [:octicons-browser-16: Web](https://snowflake.torproject.org/embed "Laissez cette page ouverte pour être un proxy Snowflake")
 
-??? tip "Snowflake intégré"
+Vous pouvez activer Snowflake dans votre navigateur en l'ouvrant dans un autre onglet et en activant l'interrupteur. Vous pouvez le laisser fonctionner en arrière-plan pendant que vous naviguez pour contribuer avec votre connexion. Nous ne recommandons pas d'installer Snowflake en tant qu'extension de navigateur ; l'ajout d'extensions tierces peut augmenter votre surface d'attaque.
 
-    Vous pouvez activer Snowflake dans votre navigateur en cliquant sur le bouton ci-dessous et en laissant cette page ouverte. Vous pouvez également installer Snowflake en tant qu'extension de navigateur pour qu'il s'exécute toujours lorsque votre navigateur est ouvert, mais l'ajout d'extensions tierces peut augmenter votre surface d'attaque.
-    
-    <center><iframe src="https://snowflake.torproject.org/embed.html" width="320" height="240" frameborder="0" scrolling="no"></iframe></center>
-    <small>Si l'intégration n'apparaît pas pour vous, assurez-vous que vous ne bloquez pas le cadre tiers de `torproject.org`. Vous pouvez également consulter [cette page](https://snowflake.torproject.org/embed.html).
+[Exécutez Snowflake dans votre navigateur :material-arrow-right-drop-circle:](https://snowflake.torproject.org/embed.html ""){.md-button}
 
 Snowflake n'améliore en rien votre vie privée et n'est pas utilisé pour se connecter au réseau Tor dans votre navigateur personnel. Toutefois, si votre connexion Internet n'est pas censurée, vous devriez envisager de l'utiliser pour aider les personnes se trouvant sur des réseaux censurés à améliorer elles-mêmes leur vie privée. Il n'y a pas besoin de s'inquiéter des sites web auxquels les gens accèdent via votre proxy - leur adresse IP de navigation visible correspondra à leur nœud de sortie Tor, pas à la vôtre.
 

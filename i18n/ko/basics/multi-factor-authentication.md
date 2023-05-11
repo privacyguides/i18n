@@ -4,7 +4,7 @@ icon: 'material/two-factor-authentication'
 description: MFA is a critical security mechanism for securing your online accounts, but some methods are stronger than others.
 ---
 
-**Multi-Factor Authentication** (**MFA**) is a security mechanism that requires additional steps beyond entering your username (or email) and password. The most common method is time limited codes you might receive from SMS or an app.
+**다중 인증**(**MFA**, Multi-Factor Authentication)은 사용자 이름(혹은 이메일)과 비밀번호 입력 외에도 추가 단계를 거치는 보안 방식입니다. The most common method is time limited codes you might receive from SMS or an app.
 
 Normally, if a hacker (or adversary) is able to figure out your password then they’d gain access to the account that password belongs to. An account with MFA forces the hacker to have both the password (something you *know*) and a device that you own (something you *have*), like your phone.
 
@@ -12,7 +12,7 @@ MFA methods vary in security, but are based on the premise that the more difficu
 
 ## MFA 방식 비교
 
-### SMS or Email MFA
+### SMS/이메일 MFA
 
 Receiving OTP codes via SMS or email are one of the weaker ways to secure your accounts with MFA. Obtaining a code by email or SMS takes away from the "something you *have*" idea, because there are a variety of ways a hacker could [take over your phone number](https://en.wikipedia.org/wiki/SIM_swap_scam) or gain access to your email without having physical access to any of your devices at all. If an unauthorized person gained access to your email, they would be able to use that access to both reset your password and receive the authentication code, giving them full access to your account.
 
@@ -62,9 +62,9 @@ The Yubico validation server is a cloud based service, and you're placing trust 
 
 If your threat model requires you to have different identities on different websites, **do not** use Yubico OTP with the same hardware security key across those websites as public ID is unique to each security key.
 
-#### FIDO (Fast IDentity Online)
+#### FIDO(Fast IDentity Online)
 
-[FIDO](https://en.wikipedia.org/wiki/FIDO_Alliance) includes a number of standards, first there was U2F and then later [FIDO2](https://en.wikipedia.org/wiki/FIDO2_Project) which includes the web standard [WebAuthn](https://en.wikipedia.org/wiki/WebAuthn).
+[FIDO](https://ko.wikipedia.org/wiki/FIDO_%EC%96%BC%EB%9D%BC%EC%9D%B4%EC%96%B8%EC%8A%A4)에는 여러 표준이 포함되어 있습니다. U2F가 먼저 추가되었고, 이후에는 [WebAuthn](https://en.wikipedia.org/wiki/WebAuthn) 웹 표준을 포함하는 [FIDO2](https://en.wikipedia.org/wiki/FIDO2_Project)가 추가되었습니다.
 
 U2F and FIDO2 refer to the [Client to Authenticator Protocol](https://en.wikipedia.org/wiki/Client_to_Authenticator_Protocol), which is the protocol between the security key and the computer, such as a laptop or phone. It complements WebAuthn which is the component used to authenticate with the website (the "Relying Party") you're trying to log in on.
 

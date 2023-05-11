@@ -55,14 +55,13 @@ Tor פועלת על ידי ניתוב תעבורת האינטרנט שלך דר�
     [:octicons-code-16:](https://gitweb.torproject.org/tor-browser.git/){ .card-link title="קוד מקור" }
     [:octicons-heart-16:](https://donate.torproject.org/){ .card-link title=לתרומה }
     
-    ??? downloads "הורדות"
+    ??? downloads
     
         - [:simple-googleplay: Google Play](https://play.google.com/store/apps/details?id=org.torproject.torbrowser)
         - [:simple-android: Android](https://www.torproject.org/download/#android)
         - [:simple-windows11: Windows](https://www.torproject.org/download/)
         - [:simple-apple: macOS](https://www.torproject.org/download/)
         - [:simple-linux: Linux](https://www.torproject.org/download/)
-        - [:simple-freebsd: FreeBSD](https://www.freshports.org/security/tor)
 
 !!! danger "סַכָּנָה"
 
@@ -113,23 +112,14 @@ Tor פועלת על ידי ניתוב תעבורת האינטרנט שלך דר�
     
     אנשים שמצונזרים יכולים להשתמש בפרוקסי של Snowflake כדי להתחבר לרשת Tor. Snowflake היא דרך מצוינת לתרום לרשת גם אם אין לך את הידע הטכני להפעיל ממסר Tor או גשר.
     
-    [:octicons-home-16: דף הבית](https://snowflake.torproject.org/){ .md-button .md-button--primary }
-    [:octicons-info-16:](https://gitlab.torproject.org/tpo/anti-censorship/pluggable-transports/snowflake/-/wikis/Technical%20Overview){ .card-link title=תיעוד}
-    [:octicons-code-16:](https://gitweb.torproject.org/pluggable-transports/snowflake.git/){ .card-link title="קוד מקור" }
-    [:octicons-heart-16:](https://donate.torproject.org/){ .card-link title=לתרומה }
-    
-    ??? downloads "הורדות"
-    
-        - [:simple-firefoxbrowser: Firefox](https://addons.mozilla.org/en-US/firefox/addon/torproject-snowflake/)
-        - [:simple-googlechrome: Chrome](https://chrome.google.com/webstore/detail/snowflake/mafpmfcccpbjnhfhjnllmmalhifmlcie)
-        - [:octicons-browser-16: Web](https://snowflake.torproject.org/embed "Leave this page open to be a Snowflake proxy")
+    [:octicons-home-16: Homepage](https://snowflake.torproject.org/){ .md-button .md-button--primary }
+    [:octicons-info-16:](https://gitlab.torproject.org/tpo/anti-censorship/pluggable-transports/snowflake/-/wikis/Technical%20Overview){ .card-link title=Documentation}
+    [:octicons-code-16:](https://gitweb.torproject.org/pluggable-transports/snowflake.git/){ .card-link title="Source Code" }
+    [:octicons-heart-16:](https://donate.torproject.org/){ .card-link title=Contribute }
 
-??? tip "מוטבע Snowflake"
+You can enable Snowflake in your browser by opening it in another tab and turning the switch on. You can leave it running in the background while you browse to contribute your connection. We don't recommend installing Snowflake as a browser extension; adding third-party extensions can increase your attack surface.
 
-    אתה יכול להפעיל את Snowflake בדפדפן שלך על ידי לחיצה על המתג למטה ו== השארת דף זה פתוח==. אתה יכול גם להתקין את Snowflake כתוסף לדפדפן כדי להפעיל אותו תמיד כשהדפדפן שלך פתוח, אולם הוספת הרחבות של צד שלישי יכולה להגדיל את משטח ההתקפה שלך.
-    
-    <center><iframe src="https://snowflake.torproject.org/embed.html" width="320" height="240" frameborder="0" scrolling="no"></iframe></center>
-    <small>אם ההטמעה לא מופיעה עבורך, ודא שאינך חוסם את המסגרת של צד שלישי מ- `torproject.org`. לחלופין, בקר ב[דף זה](https://snowflake.torproject.org/embed.html).</small>
+[Run Snowflake in your Browser :material-arrow-right-drop-circle:](https://snowflake.torproject.org/embed.html ""){.md-button}
 
 Snowflake אינו מגדיל את פרטיותך בשום צורה, ואינו משמש לחיבור לרשת Tor בתוך הדפדפן האישי שלך. עם זאת, אם חיבור האינטרנט שלך אינו מצונזר, עליך לשקול להפעיל אותו כדי לעזור לאנשים ברשתות מצונזרות להשיג פרטיות טובה יותר בעצמם. אין צורך לדאוג לאילו אתרים אנשים ניגשים דרך ה-proxy שלך - כתובת ה-IP הגלויה של הגלישה שלהם תתאים לצומת היציאה של Tor, לא שלך.
 

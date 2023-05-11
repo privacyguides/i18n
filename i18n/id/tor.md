@@ -62,7 +62,6 @@ Ada berbagai cara untuk terhubung ke jaringan Tor dari perangkat Anda, yang pali
         - [:simple-windows11: Windows](https://www.torproject.org/download/)
         - [:simple-apple: macOS](https://www.torproject.org/download/)
         - [:simple-linux: Linux](https://www.torproject.org/download/)
-        - [:simple-freebsd: FreeBSD](https://www.freshports.org/security/tor)
 
 !!! danger
 
@@ -113,23 +112,14 @@ We previously recommended enabling the *Isolate Destination Address* preference 
     
     Orang-orang yang disensor bisa menggunakan proksi Snowflake untuk menyambung ke jaringan Tor. Snowflake adalah cara yang bagus untuk berkontribusi pada jaringan bahkan jika Anda tidak memiliki pengetahuan teknis untuk menjalankan relai atau jembatan Tor.
     
-    [:octicons-home-16: Beranda](https://snowflake.torproject.org/){ .md-button .md-button--primary }
-    [:octicons-info-16:](https://gitlab.torproject.org/tpo/anti-censorship/pluggable-transports/snowflake/-/wikis/Technical%20Overview){ .card-link title=Dokumentasi}
-    [:octicons-code-16:](https://gitweb.torproject.org/pluggable-transports/snowflake.git/){ .card-link title="Kode Sumber" }
-    [:octicons-heart-16:](https://donate.torproject.org/){ .card-link title=Berkontribusi }
-    
-    ??? downloads
-    
-        - [:simple-firefoxbrowser: Firefox](https://addons.mozilla.org/en-US/firefox/addon/torproject-snowflake/)
-        - [:simple-googlechrome: Chrome](https://chrome.google.com/webstore/detail/snowflake/mafpmfcccpbjnhfhjnllmmalhifmlcie)
-        - [:octicons-browser-16: Web](https://snowflake.torproject.org/embed "Tinggalkan laman ini terbuka untuk menjadi proksi Snowflake")
+    [:octicons-home-16: Homepage](https://snowflake.torproject.org/){ .md-button .md-button--primary }
+    [:octicons-info-16:](https://gitlab.torproject.org/tpo/anti-censorship/pluggable-transports/snowflake/-/wikis/Technical%20Overview){ .card-link title=Documentation}
+    [:octicons-code-16:](https://gitweb.torproject.org/pluggable-transports/snowflake.git/){ .card-link title="Source Code" }
+    [:octicons-heart-16:](https://donate.torproject.org/){ .card-link title=Contribute }
 
-??? tip "Snowflake Tertanam"
+You can enable Snowflake in your browser by opening it in another tab and turning the switch on. You can leave it running in the background while you browse to contribute your connection. We don't recommend installing Snowflake as a browser extension; adding third-party extensions can increase your attack surface.
 
-    Anda dapat mengaktifkan Snowflake di browser Anda dengan mengeklik tombol di bawah ini dan ==membiarkan halaman ini terbuka==. Anda juga bisa memasang Snowflake sebagai ekstensi peramban agar selalu berjalan ketika peramban Anda terbuka, namun menambahkan ekstensi pihak ketiga bisa meningkatkan permukaan serangan.
-    
-    <center><iframe src="https://snowflake.torproject.org/embed.html" width="320" height="240" frameborder="0" scrolling="no"></iframe></center>
-    <small>Jika sematan tidak muncul untuk Anda, pastikan Anda tidak memblokir bingkai pihak ketiga dari `torproject.org`. Atau, kunjungi [halaman ini](https://snowflake.torproject.org/embed.html).</small>
+[Run Snowflake in your Browser :material-arrow-right-drop-circle:](https://snowflake.torproject.org/embed.html ""){.md-button}
 
 Snowflake tidak meningkatkan privasi Anda dengan cara apa pun, dan tidak juga tidak digunakan untuk terhubung ke jaringan Tor dalam peramban pribadi Anda. Namun, jika koneksi internet Anda tidak disensor, Anda sebaiknya mempertimbangkan untuk menjalankannya untuk membantu orang-orang di jaringan yang disensor mencapai privasi yang lebih baik. Tidak perlu khawatir tentang situs web mana yang diakses orang melalui proksi Anda—alamat IP penjelajahan mereka yang terlihat akan cocok dengan node keluar Tor mereka, bukan milik Anda.
 

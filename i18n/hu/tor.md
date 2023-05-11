@@ -62,7 +62,6 @@ A Tor-hálózathoz többféleképpen is csatlakozni lehet a készülékedről, a
         - [:simple-windows11: Windows](https://www.torproject.org/download/)
         - [:simple-apple: macOS](https://www.torproject.org/download/)
         - [:simple-linux: Linux](https://www.torproject.org/download/)
-        - [:simple-freebsd: FreeBSD](https://www.freshports.org/security/tor)
 
 !!! danger
 
@@ -113,23 +112,14 @@ We previously recommended enabling the *Isolate Destination Address* preference 
     
     Azok, akik cenzúra alatt állnak, Snowflake proxykat tudnak használni a Tor-hálózathoz való csatlakozáshoz. A Snowflake egy nagyszerű módja annak, hogy hozzájárulj a hálózathoz, még akkor is, ha nincs meg a technikai tudásod egy Tor elosztó vagy híd üzemeltetéséhez.
     
-    [:octicons-home-16: Honlap](https://snowflake.torproject.org/){ .md-button .md-button--primary }
-    [:octicons-info-16:](https://gitlab.torproject.org/tpo/anti-censorship/pluggable-transports/snowflake/-/wikis/Technical%20Overview){ .card-link title=Dokumentáció}
-    [:octicons-code-16:](https://gitweb.torproject.org/pluggable-transports/snowflake.git/){ .card-link title="Forráskód" }
-    [:octicons-heart-16:](https://donate.torproject.org/){ .card-link title=Közreműködés }
-    
-    ??? downloads
-    
-        - [:simple-firefoxbrowser: Firefox](https://addons.mozilla.org/en-US/firefox/addon/torproject-snowflake/)
-        - [:simple-googlechrome: Chrome](https://chrome.google.com/webstore/detail/snowflake/mafpmfcccpbjnhfhjnllmmalhifmlcie)
-        - [:octicons-browser-16: Web](https://snowflake.torproject.org/embed "Leave this page open to be a Snowflake proxy")
+    [:octicons-home-16: Homepage](https://snowflake.torproject.org/){ .md-button .md-button--primary }
+    [:octicons-info-16:](https://gitlab.torproject.org/tpo/anti-censorship/pluggable-transports/snowflake/-/wikis/Technical%20Overview){ .card-link title=Documentation}
+    [:octicons-code-16:](https://gitweb.torproject.org/pluggable-transports/snowflake.git/){ .card-link title="Source Code" }
+    [:octicons-heart-16:](https://donate.torproject.org/){ .card-link title=Contribute }
 
-??? tip "Beágyazott Snowflake"
+You can enable Snowflake in your browser by opening it in another tab and turning the switch on. You can leave it running in the background while you browse to contribute your connection. We don't recommend installing Snowflake as a browser extension; adding third-party extensions can increase your attack surface.
 
-    A Snowflake-et engedélyezheted a böngésződben, ha a lenti kapcsolóra kattintasz és ==megnyitva hagyod ezt az oldalt==. A Snowflake-et bővítményként is telepítheted, hogy az mindig fusson, amikor a böngésződ nyitva van, azonban a harmadik féltől származó bővítmények hozzáadása növelheti a támadási felületedet.
-    
-    <center><iframe src="https://snowflake.torproject.org/embed.html" width="320" height="240" frameborder="0" scrolling="no"></iframe></center>
-    <small>Ha a beágyazás nem jelenik meg nálad, győződj meg róla, hogy nem blokkolod a harmadik féltől származó keretet a `torproject.org`-ról. Alternatív megoldásként látogasson el [erre az oldalra](https://snowflake.torproject.org/embed.html).</small>
+[Run Snowflake in your Browser :material-arrow-right-drop-circle:](https://snowflake.torproject.org/embed.html ""){.md-button}
 
 A Snowflake semmilyen módon nem növeli az magánéletedet, és a személyes böngésződön keresztül a Tor-hálózathoz kapcsolódni sem használatos. Ha azonban az internetkapcsolatod nincs cenzúrázva, érdemes megfontolni a futtatását, hogy segíts cenzúrázott hálózatokon lévő személyeknek jobb magánéletet elérni. Nem kell aggódnod amiatt, hogy személyek milyen weboldalakhoz férnek hozzá a proxydon keresztül - a látható böngészési IP-címük majd megegyezik a Tor kilépő csomópontjukkal nem pedig tieddel.
 

@@ -7,9 +7,9 @@ cover: frontends.png
 
 A veces, los servicios intentarán obligarle a registrarse mediante el bloqueo al acceso a los contenidos con molestas ventanas emergentes. También pueden fallar si no se activa JavaScript. Estas interfaces pueden permitirle eludir estas restricciones.
 
-If you choose to self-host these frontends, it is important that you have other people using your instance as well in order for you to blend in. You should be careful with where and how you are hosting, as other peoples' usage will be linked to your hosting.
+Si decides autoalojar, es importante que otras personas utilicen también tu instancia para que puedas pasar desapercibido. Debes tener cuidado con dónde y cómo alojas, ya que el uso de otras personas estará vinculado a tu alojamiento.
 
-When you are using an instance run by someone else, make sure to read the privacy policy of that specific instance. They can be modified by their owners and therefore may not reflect the default policy. Algunas instancias tienen direcciones Tor .onion que pueden otorgar cierta privacidad siempre y cuando sus consultas de búsqueda no contengan PII (Información Personal Identificable).
+Cuando utilices una instancia gestionada por otra persona, asegúrate de leer la política de privacidad de esa instancia en específico. Pueden ser modificados por sus propietarios y, por lo tanto, pueden no reflejar la política por defecto. Algunas instancias tienen direcciones Tor .onion que pueden otorgar cierta privacidad siempre y cuando sus consultas de búsqueda no contengan PII (Información Personal Identificable).
 
 ## LBRY
 

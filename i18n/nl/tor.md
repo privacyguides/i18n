@@ -53,14 +53,13 @@ Er zijn verschillende manieren om verbinding te maken met het Tor-netwerk vanaf 
     [:octicons-code-16:](https://gitweb.torproject.org/tor-browser.git/){ .card-link title="Broncode" }
     [:octicons-heart-16:](https://donate.torproject.org/){ .card-link title=Bijdragen }
     
-    ??? downloads "Downloaden"
+    ??? downloads
     
         - [:simple-googleplay: Google Play](https://play.google.com/store/apps/details?id=org.torproject.torbrowser)
         - [:simple-android: Android](https://www.torproject.org/download/#android)
         - [:simple-windows11: Windows](https://www.torproject.org/download/)
         - [:simple-apple: macOS](https://www.torproject.org/download/)
         - [:simple-linux: Linux](https://www.torproject.org/download/)
-        - [:simple-freebsd: FreeBSD](https://www.freshports.org/security/tor)
 
 !!! danger "Gevaar"
 
@@ -112,22 +111,13 @@ Wij hebben eerder aanbevolen *Isolate Destination Address* in de Orbot instellin
     Mensen die gecensureerd worden kunnen Snowflake proxies gebruiken om verbinding te maken met het Tor-netwerk. Snowflake is een geweldige manier om bij te dragen aan het netwerk, zelfs als je niet de technische know-how hebt om een Tor relay of bridge te runnen.
     
     [:octicons-home-16: Homepage](https://snowflake.torproject.org/){ .md-button .md-button--primary }
-    [:octicons-info-16:](https://gitlab.torproject.org/tpo/anti-censorship/pluggable-transports/snowflake/-/wikis/Technical%20Overview){ .card-link title=Documentatie}
-    [:octicons-code-16:](https://gitweb.torproject.org/pluggable-transports/snowflake.git/){ .card-link title="Broncode" }
-    [:octicons-heart-16:](https://donate.torproject.org/){ .card-link title=Documentatie}
-    
-    ??? downloads "Downloaden"
-    
-        - [:simple-firefoxbrowser: Firefox](https://addons.mozilla.org/en-US/firefox/addon/torproject-snowflake/)
-        - [:simple-googlechrome: Chrome](https://chrome.google.com/webstore/detail/snowflake/mafpmfcccpbjnhfhjnllmmalhifmlcie)
-        - [:octicons-browser-16: Web](https://snowflake.torproject.org/embed "Laat deze pagina open om een Snowflake proxy te zijn")
+    [:octicons-info-16:](https://gitlab.torproject.org/tpo/anti-censorship/pluggable-transports/snowflake/-/wikis/Technical%20Overview){ .card-link title=Documentation}
+    [:octicons-code-16:](https://gitweb.torproject.org/pluggable-transports/snowflake.git/){ .card-link title="Source Code" }
+    [:octicons-heart-16:](https://donate.torproject.org/){ .card-link title=Contribute }
 
-??? tip "Embedded Snowflake"
+You can enable Snowflake in your browser by opening it in another tab and turning the switch on. You can leave it running in the background while you browse to contribute your connection. We don't recommend installing Snowflake as a browser extension; adding third-party extensions can increase your attack surface.
 
-    Je kunt Snowflake in jouw browser inschakelen door op de schakelaar hieronder te klikken en ==deze pagina open laten==. Je kunt Snowflake ook installeren als een browserextensie om het altijd te laten draaien terwijl jouw browser open is, maar het toevoegen van extensies van derden kan uw aanvalsoppervlak vergroten.
-    
-    <center><iframe src="https://snowflake.torproject.org/embed.html" width="320" height="240" frameborder="0" scrolling="no"></iframe></center>
-    <small>Als de embed niet voor je verschijnt, zorg er dan voor dat je het frame van derden van `torproject.org` niet blokkeert. Of bezoek [deze pagina](https://snowflake.torproject.org/embed.html).</small>
+[Run Snowflake in your Browser :material-arrow-right-drop-circle:](https://snowflake.torproject.org/embed.html ""){.md-button}
 
 Snowflake verhoogt jouw privacy op geen enkele manier, en wordt ook niet gebruikt om verbinding te maken met het Tor-netwerk binnen jouw persoonlijke browser. Als jouw internetverbinding echter ongecensureerd is, zou je moeten overwegen het te gebruiken om mensen in gecensureerde netwerken te helpen zelf betere privacy te krijgen. Je hoeft je geen zorgen te maken over welke websites mensen via je proxy bezoeken- hun zichtbare surf IP adres zal overeenkomen met hun Tor exit node, niet met die van jou.
 
