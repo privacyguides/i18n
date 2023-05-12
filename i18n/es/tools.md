@@ -350,7 +350,7 @@ Para obtener más información sobre cada proyecto, por qué han sido elegidos y
 
 [Más información :material-arrow-right-drop-circle:](encryption.md#openpgp)
 
-### Compartición y Sincronización de Archivos
+### Compartir y sincronizar archivos
 
 <div class="grid cards" markdown>
 
