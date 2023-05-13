@@ -188,11 +188,11 @@ Mullvad 브라우저는 DuckDuckGo가 기본 [검색 엔진](search-engines.md)�
 
 !!! tip "고급 핑거프린팅 방지 기능을 원하신다면 Mullvad 브라우저를 사용하세요"
 
-    [Mullvad Browser](#mullvad-browser) provides the same anti-fingerprinting protections as Arkenfox out of the box, and does not require the use of Mullvad's VPN to benefit from these protections. Coupled with a VPN, Mullvad Browser can thwart more advanced tracking scripts which Arkenfox cannot. Arkenfox still has the advantage of being much more flexible, and allowing per-site exceptions for websites which you need to stay logged in to.
+    [Mullvad 브라우저](#mullvad-browser)는 Arkenfox와 동일한 핑거프린팅 방지 보호 기능을 기본으로 제공합니다(이러한 보호 기능은 Mullvad VPN을 사용하지 않더라도 그대로 누릴 수 있습니다). VPN을 함께 사용할 경우, Mullvad 브라우저는 Arkenfox가 차단하지 못하는 고급 추적 스크립트까지 차단할 수 있습니다. 단, Arkenfox는 훨씬 더 유연성 있고, 사이트별 예외를 통해 특정 웹사이트에서 로그인 유지 등이 가능하다는 장점이 있습니다.
 
 [Arkenfox 프로젝트](https://github.com/arkenfox/user.js)는 신중하게 고려된 Firefox용 옵션 모음을 제공합니다. Arkenfox를 [사용하기로 결정한](https://github.com/arkenfox/user.js/wiki/1.1-To-Arkenfox-or-Not) 경우, [일부 옵션](https://github.com/arkenfox/user.js/wiki/3.2-Overrides-[Common])은 주관적으로 판단했을 때 지나치게 엄격하거나 웹사이트가 올바르게 작동하지 않을 수 있습니다. 옵션은 필요한 경우 [손쉽게 변경 가능합니다](https://github.com/arkenfox/user.js/wiki/3.1-Overrides). 저희는 전체 [위키](https://github.com/arkenfox/user.js/wiki) 내용을 읽어보실 것을 **강력히 권장드립니다**. Arkenfox에는 [컨테이너](https://support.mozilla.org/ko/kb/containers) 지원 활성화 또한 포함되어 있습니다.
 
-Arkenfox only aims to thwart basic or naive tracking scripts through canvas randomization and Firefox's built-in fingerprint resistance configuration settings. It does not aim to make your browser blend in with a large crowd of other Arkenfox users in the same way Mullvad Browser or Tor Browser do, which is the only way to thwart advanced fingerprint tracking scripts. Remember you can always use multiple browsers, for example, you could consider using Firefox+Arkenfox for a few sites that you want to stay logged in on or otherwise trust, and Mullvad Browser for general browsing.
+Arkenfox는 캔버스 무작위화(Randomization)와 Firefox에 기본 탑재된 핑거프린트 방지 구성 설정을 통해 기본적이거나 순진한(Naive) 추적 스크립트를 차단하는 것만 목표로 합니다. Mullvad 브라우저나 Tor 브라우저에서 사용하는 방식이자, 고급 핑거프린트 추적 스크립트를 막을 수 있는 유일한 방법인 '다른 사용자들 사이에 섞여들게 하는 것'은 Arkenfox의 목표가 아닙니다. 물론, 여러분은 여러 브라우저를 사용할 수 있습니다. 로그인이 유지되어야 하는 사이트나 믿을 만한 사이트는 Firefox+Arkenfox를 사용하고, 그 외 일반적인 브라우저 탐색에는 Mullvad 브라우저를 사용하는 방법도 있습니다.
 
 ## Brave
 
@@ -309,7 +309,7 @@ Brave의 Web3 기능은 잠재적으로 브라우저의 핑거프린트와 공�
 
 ## 추가 자료
 
-In general, we recommend keeping your browser extensions to a minimum to decrease your attack surface; they have privileged access within your browser, require you to trust the developer, can make you [stand out](https://en.wikipedia.org/wiki/Device_fingerprint#Browser_fingerprint), and [weaken](https://groups.google.com/a/chromium.org/g/chromium-extensions/c/0ei-UCHNm34/m/lDaXwQhzBAAJ) site isolation. However, uBlock Origin may prove useful if you value content blocking functionality.
+일반적으로 Privacy Guides는 여러분이 공격 표면을 최소화할 수 있도록, 브라우저 확장 프로그램은 최소한으로만 설치할 것을 권장드립니다. 브라우저 확장 프로그램은 여러분의 브라우저에 대해서 막대한 접근 권한을 가지며, 여러분을 보다 [눈에 띄게](https://en.wikipedia.org/wiki/Device_fingerprint#Browser_fingerprint) 만들고, 사이트 격리를 [약화시킵니다](https://groups.google.com/a/chromium.org/g/chromium-extensions/c/0ei-UCHNm34/m/lDaXwQhzBAAJ). 다만 예외적으로, 콘텐츠 차단 기능이 필요하다면 uBlock Origin을 권장드립니다.
 
 ### uBlock Origin
 

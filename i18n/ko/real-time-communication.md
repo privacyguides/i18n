@@ -12,7 +12,7 @@ These are our recommendations for encrypted real-time communication.
 
 ## 암호화 메신저
 
-These messengers are great for securing your sensitive communications.
+암호화 메신저는 민감한 대화를 보호하는 용도로 유용합니다.
 
 ### Signal
 
@@ -45,7 +45,7 @@ The protocol was independently [audited](https://eprint.iacr.org/2016/1013.pdf) 
 
 We have some additional tips on configuring and hardening your Signal installation:
 
-[Signal Configuration and Hardening :material-arrow-right-drop-circle:](https://blog.privacyguides.org/2022/07/07/signal-configuration-and-hardening/)
+[Signal 설정 및 보안 강화 :material-arrow-right-drop-circle:](https://blog.privacyguides.org/2022/07/07/signal-configuration-and-hardening/)
 
 ### SimpleX Chat
 
@@ -101,7 +101,7 @@ Briar has a fully [published specification](https://code.briarproject.org/briar/
 
 Briar supports perfect forward secrecy by using the Bramble [Handshake](https://code.briarproject.org/briar/briar-spec/blob/master/protocols/BHP.md) and [Transport](https://code.briarproject.org/briar/briar-spec/blob/master/protocols/BTP.md) protocol.
 
-## Additional Options
+## 추가 선택지
 
 !!! warning "경고"
 

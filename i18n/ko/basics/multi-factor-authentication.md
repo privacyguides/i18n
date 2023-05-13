@@ -20,9 +20,9 @@ SMS나 이메일로 OTP 코드를 받는 방식은 MFA를 통한 계정 보호 �
 
 푸시 알림 MFA는 계정의 새로운 로그인 확인을 요청하는 메시지가 휴대폰 앱으로 전송되는 방식입니다. 푸시 알림 MFA 방식은 SMS/이메일보다 훨씬 뛰어납니다. 공격자가 이미 해당 계정에 로그인된 기기를 가지고 있지 않은 이상, 여러분의 기기 중 하나를 손상시키지 않고서는 푸시 알림을 받을 수 없기 때문입니다.
 
-하지만 사람은 누구나 실수를 할 수 있고, 실수로 로그인을 승인할 위험성이 존재합니다. Push notification login authorizations are typically sent to *all* your devices at once, widening the availability of the MFA code if you have many devices.
+하지만 사람은 누구나 실수를 할 수 있고, 실수로 로그인을 승인할 위험성이 존재합니다. 일반적으로 푸시 알림 로그인 인증은 여러분의 *모든* 기기로 한꺼번에 전송되므로, 사용하는 기기가 많아질수록 MFA 코드의 철저한 관리는 어려워집니다.
 
-The security of push notification MFA is dependent on both the quality of the app, the server component and the trust of the developer who produces it. Installing an app may also require you to accept invasive privileges that grant access to other data on your device. An individual app also requires that you have a specific app for each service which may not require a password to open, unlike a good TOTP generator app.
+푸시 알림 MFA의 보안성은 앱의 품질, 서버 구성 요소, 앱 개발자의 신뢰도에 따라 달라집니다. Installing an app may also require you to accept invasive privileges that grant access to other data on your device. An individual app also requires that you have a specific app for each service which may not require a password to open, unlike a good TOTP generator app.
 
 ### TOTP(시간 기반 일회용 비밀번호)
 
@@ -32,17 +32,17 @@ The time-limited code is then derived from the shared secret and the current tim
 
 TOTP를 지원하는 하드웨어 보안 키를 가지고 계실 경우, '공유 비밀'을 해당 하드웨어 보안 키에 저장하실 것을 권장드립니다. YubiKey 등의 하드웨어 보안 키는 '공유 비밀'을 추출하거나 복사하는 것을 어렵게 만들기 위해서 개발되었습니다. 또한, TOTP 앱이 설치된 휴대폰과 달리 YubiKey는 인터넷에 연결되어 있지 않기 때문에 더 안전합니다.
 
-[WebAuthn](#fido-fast-identity-online)과 달리, TOTP는 [피싱](https://ko.wikipedia.org/wiki/%ED%94%BC%EC%8B%B1) 혹은 재사용 공격으로부터 보호하는 기능을 제공하지 않습니다. If an adversary obtains a valid code from you, they may use it as many times as they like until it expires (generally 60 seconds).
+[WebAuthn](#fido-fast-identity-online)과 달리, TOTP는 [피싱](https://ko.wikipedia.org/wiki/%ED%94%BC%EC%8B%B1) 혹은 재사용 공격으로부터 보호하는 기능을 제공하지 않습니다. 만약 공격자가 여러분의 유효 코드를 탈취해낸다면, 공격자는 해당 코드가 만료될 때까지(보통 60초) 몇 번이고 사용할 수 있습니다.
 
-An adversary could set up a website to imitate an official service in an attempt to trick you into giving out your username, password and current TOTP code. If the adversary then uses those recorded credentials they may be able to log into the real service and hijack the account.
+공격자는 어떤 서비스의 공식 웹사이트를 흉내낸 웹사이트를 만들어서 여러분이 사용자 이름, 비밀번호, 현재 TOTP 코드를 제출하도록 유도할 수도 있습니다. 만약 여러분이 이를 제출할 경우, 공격자는 해당 자격 증명 내용을 이용해 실제 서비스에 로그인하여 계정을 탈취할 수 있습니다.
 
-Although not perfect, TOTP is secure enough for most people, and when [hardware security keys](../multi-factor-authentication.md#hardware-security-keys) are not supported [authenticator apps](../multi-factor-authentication.md#authenticator-apps) are still a good option.
+TOTP는 완벽하지는 않습니다. 하지만 대부분의 사람들에게 있어서 충분히 안전하며, [하드웨어 보안 키](../multi-factor-authentication.md#hardware-security-keys)가 지원되지 않는 경우에는 [인증 앱](../multi-factor-authentication.md#authenticator-apps)도 여전히 훌륭한 선택지입니다.
 
 ### 하드웨어 보안 키
 
-The YubiKey stores data on a tamper-resistant solid-state chip which is [impossible to access](https://security.stackexchange.com/a/245772) non-destructively without an expensive process and a forensics laboratory.
+Yubikey는 변조 방지 Solid-State 칩에 데이터를 저장합니다. 변조 방지 칩은 포렌식 연구실을 동원하고 고가의 공정을 거치지 않는 이상 비파괴적 접근이 [불가능합니다](https://security.stackexchange.com/a/245772).
 
-These keys are generally multi-function and provide a number of methods to authenticate. Below are the most common ones.
+하드웨어 보안 키는 보통 여러 기능을 가지고 있으며 다양한 인증 방식을 제공합니다. Below are the most common ones.
 
 #### Yubico OTP
 

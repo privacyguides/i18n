@@ -57,7 +57,7 @@ Arch Linux는 롤링 릴리스 방식입니다. 정해진 릴리스가 존재하
 
 DIY 배포판이므로 여러분은 자신의 시스템을 여러분 자신이 [직접 구성하고 관리](os/linux-overview.md#arch-based-distributions)해야 합니다. Arch Linux에는 설치 과정을 보다 쉽게 만들어주는 [공식 설치 프로그램](https://wiki.archlinux.org/title/Archinstall)이 존재합니다.
 
-A large portion of [Arch Linux’s packages](https://reproducible.archlinux.org) are [reproducible](https://reproducible-builds.org).
+[Arch Linux의 패키지](https://reproducible.archlinux.org)는 대부분 [재현성](https://reproducible-builds.org)을 제공합니다.
 
 ## 변경 불가능한 배포판
 
@@ -73,7 +73,7 @@ A large portion of [Arch Linux’s packages](https://reproducible.archlinux.org)
     [:octicons-info-16:](https://docs.fedoraproject.org/en-US/fedora-silverblue/){ .card-link title=문서}
     [:octicons-heart-16:](https://whatcanidoforfedora.org/){ .card-link title=기여 }
 
-Silverblue (and Kinoite) differ from Fedora Workstation as they replace the [DNF](https://fedoraproject.org/wiki/DNF) package manager with a much more advanced alternative called [`rpm-ostree`](https://docs.fedoraproject.org/en-US/fedora/rawhide/system-administrators-guide/package-management/rpm-ostree/). The `rpm-ostree` package manager works by downloading a base image for the system, then overlaying packages over it in a [git](https://en.wikipedia.org/wiki/Git)-like commit tree. When the system is updated, a new base image is downloaded and the overlays will be applied to that new image.
+Fedora Workstation과의 차이점은, Silverblue, Kinoite는 [DNF](https://fedoraproject.org/wiki/DNF) 패키지 관리자를 사용하는 것이 아닌, [`rpm-ostree`](https://docs.fedoraproject.org/en-US/fedora/rawhide/system-administrators-guide/package-management/rpm-ostree/)라는 발전된 대체제를 사용합니다. The `rpm-ostree` package manager works by downloading a base image for the system, then overlaying packages over it in a [git](https://en.wikipedia.org/wiki/Git)-like commit tree. When the system is updated, a new base image is downloaded and the overlays will be applied to that new image.
 
 After the update is complete you will reboot the system into the new deployment. `rpm-ostree` keeps two deployments of the system so that you can easily rollback if something breaks in the new deployment. There is also the option to pin more deployments as needed.
 
@@ -113,18 +113,18 @@ Nix is a source-based package manager; if there’s no pre-built available in th
     
     **Whonix** is based on [Kicksecure](https://www.whonix.org/wiki/Kicksecure), a security-focused fork of Debian. It aims to provide privacy, security, and anonymity on the internet. Whonix is best used in conjunction with [Qubes OS](#qubes-os).
     
-    [:octicons-home-16: Homepage](https://www.whonix.org/){ .md-button .md-button--primary }
-    [:simple-torbrowser:](http://www.dds6qkxpwdeubwucdiaord2xgbbeyds25rbsgr73tbfpqpt4a6vjwsyd.onion){ .card-link title="Onion Service" }
-    [:octicons-info-16:](https://www.whonix.org/wiki/Documentation){ .card-link title=Documentation}
-    [:octicons-heart-16:](https://www.whonix.org/wiki/Donate){ .card-link title=Contribute }
+    [:octicons-home-16: 홈페이지](https://www.whonix.org/){ .md-button .md-button--primary }
+    [:simple-torbrowser:](http://www.dds6qkxpwdeubwucdiaord2xgbbeyds25rbsgr73tbfpqpt4a6vjwsyd.onion){ .card-link title="Onion 서비스" }
+    [:octicons-info-16:](https://www.whonix.org/wiki/Documentation){ .card-link title=문서}
+    [:octicons-heart-16:](https://www.whonix.org/wiki/Donate){ .card-link title=기부 }
 
-Whonix is meant to run as two virtual machines: a “Workstation” and a Tor “Gateway.” All communications from the Workstation must go through the Tor gateway. This means that even if the Workstation is compromised by malware of some kind, the true IP address remains hidden.
+Whonix는 'Workstation'과 Tor 'Gateway'라는 두 개의 가상 머신으로 구성되어 실행됩니다. Workstation 에서 발생하는 모든 통신은 반드시 Tor Gateway를 통과합니다. 즉, Workstation이 만약 멀웨어에 의해 손상된다 할지라도, 실제 IP 주소는 노출되지 않습니다.
 
-Some of its features include Tor Stream Isolation, [keystroke anonymization](https://www.whonix.org/wiki/Keystroke_Deanonymization#Kloak), [encrypted swap](https://github.com/Whonix/swap-file-creator), and a hardened memory allocator.
+Whonix는 다양한 기능을 제공합니다. 예시로는 Tor 스트림 격리, [키 입력 익명화](https://www.whonix.org/wiki/Keystroke_Deanonymization#Kloak), [암호화 Swap](https://github.com/Whonix/swap-file-creator), 메모리 할당 보안 강화 등이 있습니다.
 
-Future versions of Whonix will likely include [full system AppArmor policies](https://github.com/Whonix/apparmor-profile-everything) and a [sandbox app launcher](https://www.whonix.org/wiki/Sandbox-app-launcher) to fully confine all processes on the system.
+Whonix 향후 버전에서는 [전체 시스템 AppArmor 정책](https://github.com/Whonix/apparmor-profile-everything), [샌드박스 앱 런처](https://www.whonix.org/wiki/Sandbox-app-launcher) 등 시스템 내 모든 프로세스의 완전한 격리가 추가될 예정입니다.
 
-Whonix is best used [in conjunction with Qubes](https://www.whonix.org/wiki/Qubes/Why_use_Qubes_over_other_Virtualizers), Qubes-Whonix has various [disadvantages](https://forums.whonix.org/t/qubes-whonix-security-disadvantages-help-wanted/8581) when compared to other hypervisors.
+Whonix는 [Qubes와 결합해 사용하는 것이 가장 뛰어납니다](https://www.whonix.org/wiki/Qubes/Why_use_Qubes_over_other_Virtualizers). 하지만, Qubes-Whonix는 다른 하이퍼바이저와 비교했을 때 [여러 단점](https://forums.whonix.org/t/qubes-whonix-security-disadvantages-help-wanted/8581) 또한 가지고 있습니다.
 
 ### Tails
 
@@ -134,9 +134,9 @@ Whonix is best used [in conjunction with Qubes](https://www.whonix.org/wiki/Qube
     
     **Tails** is a live operating system based on Debian that routes all communications through Tor, which can boot on on almost any computer from a DVD, USB stick, or SD card installation. It uses [Tor](tor.md) to preserve privacy and anonymity while circumventing censorship, and it leaves no trace of itself on the computer it is used on after it is powered off.
     
-    [:octicons-home-16: Homepage](https://tails.boum.org/){ .md-button .md-button--primary }
-    [:octicons-info-16:](https://tails.boum.org/doc/index.en.html){ .card-link title=Documentation}
-    [:octicons-heart-16:](https://tails.boum.org/donate/){ .card-link title=Contribute }
+    [:octicons-home-16: 홈페이지](https://tails.boum.org/){ .md-button .md-button--primary }
+    [:octicons-info-16:](https://tails.boum.org/doc/index.en.html){ .card-link title=문서}
+    [:octicons-heart-16:](https://tails.boum.org/donate/){ .card-link title=기부 }
 
 Tails is great for counter forensics due to amnesia (meaning nothing is written to the disk); however, it is not a hardened distribution like Whonix. It lacks many anonymity and security features that Whonix has and gets updated much less often (only once every six weeks). A Tails system that is compromised by malware may potentially bypass the transparent proxy allowing for the user to be deanonymized.
 

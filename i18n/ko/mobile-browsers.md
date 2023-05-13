@@ -37,7 +37,7 @@ schema:
       url: "./"
 ---
 
-본 내용은 현재 표준/비익명 인터넷 탐색 용도로 권장되는 모바일 웹 브라우저 및 관련 설정 목록입니다. 익명으로 인터넷을 탐색해야 하는 경우라면, [Tor](tor.md)를 사용해야 합니다. In general, we recommend keeping extensions to a minimum; they have privileged access within your browser, require you to trust the developer, can make you [stand out](https://en.wikipedia.org/wiki/Device_fingerprint#Browser_fingerprint), and [weaken](https://groups.google.com/a/chromium.org/g/chromium-extensions/c/0ei-UCHNm34/m/lDaXwQhzBAAJ) site isolation.
+본 내용은 현재 표준/비익명 인터넷 탐색 용도로 권장되는 모바일 웹 브라우저 및 관련 설정 목록입니다. 익명으로 인터넷을 탐색해야 하는 경우라면, [Tor](tor.md)를 사용해야 합니다. 일반적으로 Privacy Guides는 여러분에게 '브라우저 확장 프로그램은 최소한으로만 설치할 것'을 권장드립니다. 브라우저 확장 프로그램은 여러분의 브라우저에 대해서 막대한 접근 권한을 가지며, 확장 프로그램 개발자를 신뢰해야 할 필요성을 발생시키고, 여러분을 보다 [눈에 띄게](https://en.wikipedia.org/wiki/Device_fingerprint#Browser_fingerprint) 만들고, 사이트 격리를 [약화시킵니다](https://groups.google.com/a/chromium.org/g/chromium-extensions/c/0ei-UCHNm34/m/lDaXwQhzBAAJ).
 
 ## Android
 
@@ -66,7 +66,7 @@ Android에서, Firefox는 Chrome 기반 대체제보다 보안성이 떨어집�
 
 #### 권장 설정
 
-Tor Browser is the only way to truly browse the internet anonymously. When you use Brave, we recommend changing the following settings to protect your privacy from certain parties, but all browsers other than the [Tor Browser](tor.md#tor-browser) will be traceable by *somebody* in some regard or another.
+진정한 익명 인터넷 탐색이 가능한 유일한 방법은 Tor 브라우저입니다. 다음 설정들은 여러분이 Brave를 사용할 때 특정 주체로부터 프라이버시를 보호할 수 있도록 권장드리는 사항입니다. [Tor 브라우저](tor.md#tor-browser) 이외의 모든 브라우저는 어떤 식으로든 누군가는 특정 대상을 추적할 수 있음을 명심해야 합니다.
 
 이러한 옵션은 :material-menu: → **설정** → **Brave Shields 및 프라이버시**에서 확인할 수 있습니다.
 

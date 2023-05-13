@@ -55,7 +55,7 @@ Tor는 방문하려는 사이트에 직접 연결하는 방식이 아닌, 자원
     [:octicons-code-16:](https://gitweb.torproject.org/tor-browser.git/){ .card-link title="소스 코드" }
     [:octicons-heart-16:](https://donate.torproject.org/){ .card-link title=기부 }
     
-    ??? downloads
+    ??? downloads "다운로드"
     
         - [:simple-googleplay: Google Play](https://play.google.com/store/apps/details?id=org.torproject.torbrowser)
         - [:simple-android: Android](https://www.torproject.org/download/#android)
@@ -112,14 +112,14 @@ Tor 브라우저는 핑거프린팅 및 브라우저 설정 기반 사용자 식
     
     검열을 받고 있는 사람들은 Snowflake 프록시를 사용해 Tor 네트워크에 접속할 수 있습니다. Snowflake는 Tor 릴레이나 브리지를 운영할 기술적 노하우가 없더라도 네트워크에 기여할 수 있는 좋은 방법입니다.
     
-    [:octicons-home-16: Homepage](https://snowflake.torproject.org/){ .md-button .md-button--primary }
-    [:octicons-info-16:](https://gitlab.torproject.org/tpo/anti-censorship/pluggable-transports/snowflake/-/wikis/Technical%20Overview){ .card-link title=Documentation}
-    [:octicons-code-16:](https://gitweb.torproject.org/pluggable-transports/snowflake.git/){ .card-link title="Source Code" }
-    [:octicons-heart-16:](https://donate.torproject.org/){ .card-link title=Contribute }
+    [:octicons-home-16: 홈페이지](https://snowflake.torproject.org/){ .md-button .md-button--primary }
+    [:octicons-info-16:](https://gitlab.torproject.org/tpo/anti-censorship/pluggable-transports/snowflake/-/wikis/Technical%20Overview){ .card-link title=문서}
+    [:octicons-code-16:](https://gitweb.torproject.org/pluggable-transports/snowflake.git/){ .card-link title="소스 코드" }
+    [:octicons-heart-16:](https://donate.torproject.org/){ .card-link title=기부 }
 
-You can enable Snowflake in your browser by opening it in another tab and turning the switch on. You can leave it running in the background while you browse to contribute your connection. We don't recommend installing Snowflake as a browser extension; adding third-party extensions can increase your attack surface.
+여러분이 사용하는 브라우저의 다른 탭에 Snowflake를 열고, 활성화 스위치를 켜면 Snowflake를 활성화할 수 있습니다. 브라우저를 사용하는 동안 백그라운드에서 실행시켜 두는 것만으로도 대역폭 기여가 가능합니다. Snowflake 브라우저 확장 프로그램도 존재하지만, Privacy Guides는 여러분의 공격 표면이 늘어날 가능성을 최소화하기 위해 브라우저 확장 프로그램 설치는 권장드리지 않습니다.
 
-[Run Snowflake in your Browser :material-arrow-right-drop-circle:](https://snowflake.torproject.org/embed.html ""){.md-button}
+[브라우저에서 Snowflake 실행 :material-arrow-right-drop-circle:](https://snowflake.torproject.org/embed.html ""){.md-button}
 
 Snowflake는 어떤 방식으로도 여러분의 프라이버시를 침해하지 않으며, 여러분이 사용하는 브라우저를 Tor 네트워크에 연결해 주지도 않습니다. 그러나, 여러분이 인터넷 연결을 검열받고 있지 않은 상황에 계신 경우, 네트워크를 검열받고 있는 사람들이 프라이버시를 강화할 수 있도록 돕는 걸 고려해주시기 바랍니다. 다른 사람들이 여러분의 프록시를 통해 어떤 사이트에 접근할지 걱정하지 않으셔도 됩니다. 사람들의 IP 주소는 Tor 출구 노드로 표시되며, 프록시 주소로 표시되지 않습니다.
 
