@@ -96,11 +96,11 @@ We have these general recommendations:
 
 ### 어떤 MFA 방식을 사용해야 하나요?
 
-When configuring your MFA method, keep in mind that it is only as secure as your weakest authentication method you use. This means it is important that you only use the best MFA method available. 예를 들어, TOTP를 이미 사용하고 있다면 SMS/이메일 MFA를 비활성화해야 합니다. FIDO/WebAuthn을 이미 사용 중인 경우라면 해당 계정에서 Yubico OTP/TOTP를 사용해서는 안 됩니다.
+MFA를 구성할 때 명심해야 하는 것은, '사용하는 방식 중 가장 취약한 방식으로 보안 수준이 결정난다'는 점입니다. 즉, 사용 가능한 것 중 가장 뛰어난 MFA 방식만 사용해야 합니다. 예를 들어, TOTP를 이미 사용하고 있다면 SMS/이메일 MFA를 비활성화해야 합니다. FIDO/WebAuthn을 이미 사용 중인 경우라면 해당 계정에서 Yubico OTP/TOTP를 사용해서는 안 됩니다.
 
 ### 백업
 
-You should always have backups for your MFA method. 하드웨어 보안 키는 세월이 지나며 분실, 도난, 혹은 단순 고장이 발생할 수 있습니다. 계정 접근 권한이 동일한 하드웨어 보안 키를 (예비용을 포함해) 두 개씩 마련해야 합니다.
+여러분은 항상 자신이 사용하는 MFA를 백업해두어야 합니다. 하드웨어 보안 키는 세월이 지나며 분실, 도난, 혹은 단순 고장이 발생할 수 있습니다. 계정 접근 권한이 동일한 하드웨어 보안 키를 (예비용을 포함해) 두 개씩 마련해야 합니다.
 
 TOTP 인증 앱을 사용하는 경우, 복구 키 혹은 앱 자체를 백업하거나, 다른 휴대폰에 설치한 앱이나 (VeraCrypt 등을 이용한) 별도 암호화 저장소에 '공유 비밀 키(Shared Secret Key)'를 복사해둬야 합니다.
 

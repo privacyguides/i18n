@@ -1,16 +1,16 @@
 ---
-title: "PrivacyTools FAQ"
+title: "PrivacyTools SSS"
 ---
 
-# Why we moved on from PrivacyTools
+# PrivacyTools'tan neden ayrıldık
 
-In September 2021, every active contributor unanimously agreed to move from PrivacyTools to work on this site: Privacy Guides. This decision was made because PrivacyTools’ founder and controller of the domain name had disappeared for an extended period of time and could not be contacted.
+Eylül 2021'de, her aktif katılımcı oybirliğiyle PrivacyTools'tan ayrılarak bu sitede yer almayı kabul etti: Privacy Guides. Bu karar, PrivacyTools'un kurucusu ve alan adı sorumlusunun uzun bir süre ortadan kaybolması ve kendisine ulaşılamaması nedeniyle alınmıştır.
 
-Having built a reputable site and set of services on PrivacyTools.io, this caused grave concerns for the future of PrivacyTools, as any future disruption could wipe out the entire organization with no recovery method. This transition was communicated to the PrivacyTools community many months in advance via a variety of channels including its blog, Twitter, Reddit, and Mastodon to ensure the entire process went as smoothly as possible. We did this to ensure nobody was kept in the dark, which has been our modus operandi since our team was created, and to make sure Privacy Guides was recognized as the same reliable organization that PrivacyTools was before the transition.
+PrivacyTools.io üzerinde saygın bir site ve bir dizi hizmet inşa etmiş olan PrivacyTools'un geleceği açısından bu durum ciddi endişelere yol açtı, zira gelecekte yaşanabilecek herhangi bir aksaklık, hiçbir kurtarma yöntemi olmadan tüm organizasyonu ortadan kaldırabilirdi. Bu geçiş, tüm sürecin mümkün olduğunca sorunsuz geçmesini sağlamak için blog, Twitter, Reddit ve Mastodon gibi çeşitli kanallar aracılığıyla PrivacyTools topluluğuna aylar öncesinden iletildi. Bunu, ekibimiz kurulduğundan beri çalışma şeklimiz olan kimsenin karanlıkta kalmamasını sağlamak ve Privacy Guides'ın geçişten önce PrivacyTools'un olduğu gibi güvenilir bir kuruluş olarak tanınmasını sağlamak için yaptık.
 
-After the organizational move was completed, the founder of PrivacyTools returned and began to spread misinformation about the Privacy Guides project. They continue to spread misinformation in addition to operating a paid link farm on the PrivacyTools domain. We are creating this page to clear up any misconceptions.
+Organizasyonun taşınması tamamlandıktan sonra PrivacyTools'un kurucusu geri döndü ve Privacy Guides projesi hakkında yanlış bilgiler yaymaya başladı. PrivacyTools alan adı üzerinde ücretli bir bağlantı zinciri işletmenin yanı sıra yanlış bilgi yaymaya devam ediyorlar. Bu sayfayı yanlış anlamaları ortadan kaldırmak için oluşturduk.
 
-## What is PrivacyTools?
+## PrivacyTools nedir?
 
 PrivacyTools was created in 2015 by "BurungHantu," who wanted to make a privacy information resource - helpful tools following the Snowden revelations. The site grew into a flourishing open-source project with [many contributors](https://github.com/privacytools/privacytools.io/graphs/contributors), some eventually given various organizational responsibilities, such as operating online services like Matrix and Mastodon, managing and reviewing changes to the site on GitHub, finding sponsors for the project, writing blog posts and operating social media outreach platforms like Twitter, etc.
 

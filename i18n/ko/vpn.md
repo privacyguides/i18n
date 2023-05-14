@@ -10,9 +10,9 @@ ISP로부터의 **프라이버시**가 필요하거나, 공용 Wi-Fi에 연결�
 
 <div class="grid cards" markdown>
 
-- ![IVPN logo](assets/img/vpn/mini/ivpn.svg){ .twemoji } [IVPN](#ivpn)
-- ![Mullvad logo](assets/img/vpn/mullvad.svg){ .twemoji } [Mullvad](#mullvad)
-- ![Proton VPN logo](assets/img/vpn/protonvpn.svg){ .twemoji } [Proton VPN](#proton-vpn)
+- ![IVPN 로고](assets/img/vpn/mini/ivpn.svg){ .twemoji } [IVPN](#ivpn)
+- ![Mullvad 로고](assets/img/vpn/mullvad.svg){ .twemoji } [Mullvad](#mullvad)
+- ![Proton VPN 로고](assets/img/vpn/protonvpn.svg){ .twemoji } [Proton VPN](#proton-vpn)
 
 </div>
 

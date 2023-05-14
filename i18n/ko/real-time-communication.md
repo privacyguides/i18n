@@ -105,17 +105,17 @@ Briar supports perfect forward secrecy by using the Bramble [Handshake](https://
 
 !!! warning "경고"
 
-    These messengers do not have Perfect [Forward Secrecy](https://en.wikipedia.org/wiki/Forward_secrecy) (PFS), and while they fulfill certain needs that our previous recommendations may not, we do not recommend them for long-term or sensitive communications. Any key compromise among message recipients would affect the confidentiality of **all** past communications.
+    이러한 메신저는 [완전 순방향 비밀성](https://en.wikipedia.org/wiki/Forward_secrecy)(PFS, Perfect Forward Secrecy)을 지원하지 않습니다. 이 중에는 앞서 권장드린 메신저가 지원하지 않는 요구 사항을 만족하는 것도 있지만, 장기적인 사용이나 민감한 대화를 나누는 용도로 사용하는 것은 권장드리지 않습니다. 대화 참여자 중 한 명만 키가 유출되더라도 이전에 주고받은 **모든** 메시지의 기밀성이 손상됩니다.
 
 ### Element
 
 !!! recommendation
 
-    ![Element logo](assets/img/messengers/element.svg){ align=right }
+    ![Element 로고](assets/img/messengers/element.svg){ align=right }
     
-    **Element** is the reference client for the [Matrix](https://matrix.org/docs/guides/introduction) protocol, an [open standard](https://matrix.org/docs/spec) for secure decentralized real-time communication.
+    **Element**는 [Matrix](https://matrix.org/docs/guides/introduction)라는 안전한 탈중앙화 실시간 통신 [개방형 표준](https://matrix.org/docs/spec) 프로토콜의 레퍼런스 클라이언트입니다.
     
-    Messages and files shared in private rooms (those which require an invite) are by default E2EE as are one to one voice and video calls.
+    비공개 대화방(초대가 필요한 대화방)에서 이루어지는 메시지 및 파일 공유는 기본적으로 E2EE가 적용되며, 일대일 음성 및 영상 통화도 마찬가지입니다.
     
     [:octicons-home-16: 홈페이지](https://element.io/){ .md-button .md-button--primary }
     [:octicons-eye-16:](https://element.io/privacy){ .card-link title="프라이버시 정책" }
@@ -132,13 +132,13 @@ Briar supports perfect forward secrecy by using the Bramble [Handshake](https://
         - [:simple-linux: Linux](https://element.io/get-started)
         - [:octicons-globe-16: Web](https://app.element.io)
 
-프로필 사진, 메시지 반응, 닉네임은 암호화되지 않습니다.
+프로필 사진, 메시지 반응, 닉네임은 암호화가 적용되지 않습니다.
 
-Group voice and video calls are [not](https://github.com/vector-im/element-web/issues/12878) E2EE, and use Jitsi, but this is expected to change with [Native Group VoIP Signalling](https://github.com/matrix-org/matrix-doc/pull/3401). Group calls have [no authentication](https://github.com/vector-im/element-web/issues/13074) currently, meaning that non-room participants can also join the calls. We recommend that you do not use this feature for private meetings.
+그룹 음성 및 영상 통화에는 E2EE가 [아닌](https://github.com/vector-im/element-web/issues/12878), Jitsi를 사용합니다. 단, 이는 추후 [Native Group VoIP Signalling](https://github.com/matrix-org/matrix-doc/pull/3401)으로 변경될 예정입니다. 현재 그룹 통화는 인증 과정을 거치지 [않습니다](https://github.com/vector-im/element-web/issues/13074). 즉, 룸 참가자가 아닌 사람도 통화에 난입하는 것이 가능합니다. 사적인 모임에서는 해당 기능을 사용하지 않는 것이 좋습니다.
 
-The Matrix protocol itself [theoretically supports PFS](https://gitlab.matrix.org/matrix-org/olm/blob/master/docs/megolm.md#partial-forward-secrecy), however this is [not currently supported in Element](https://github.com/vector-im/element-web/issues/7101) due to it breaking some aspects of the user experience such as key backups and shared message history.
+Matrix 프로토콜 자체는 [이론적으로 PFS를 지원하지만](https://gitlab.matrix.org/matrix-org/olm/blob/master/docs/megolm.md#partial-forward-secrecy), 키 백업 및 사용자 간 메시지 기록 공유 등의 사용자 경험을 해치기 때문에 [현시점에서 Element는 PFS를 지원하지 않습니다](https://github.com/vector-im/element-web/issues/7101).
 
-The protocol was independently [audited](https://matrix.org/blog/2016/11/21/matrixs-olm-end-to-end-encryption-security-assessment-released-and-implemented-cross-platform-on-riot-at-last) in 2016. The specification for the Matrix protocol can be found in their [documentation](https://spec.matrix.org/latest/). The [Olm](https://matrix.org/docs/projects/other/olm) cryptographic ratchet used by Matrix is an implementation of Signal’s [Double Ratchet algorithm](https://signal.org/docs/specifications/doubleratchet/).
+Matrix 프로토콜은 2016년에 독립적으로 [감사를 받았습니다](https://matrix.org/blog/2016/11/21/matrixs-olm-end-to-end-encryption-security-assessment-released-and-implemented-cross-platform-on-riot-at-last). Matirx 프로토콜 사양은 [문서](https://spec.matrix.org/latest/)에서 확인할 수 있습니다. The [Olm](https://matrix.org/docs/projects/other/olm) cryptographic ratchet used by Matrix is an implementation of Signal’s [Double Ratchet algorithm](https://signal.org/docs/specifications/doubleratchet/).
 
 ### Session
 

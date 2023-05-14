@@ -1,15 +1,15 @@
 ---
 title: "데스크톱/PC"
 icon: simple/linux
-description: Linux distributions are commonly recommended for privacy protection and software freedom.
+description: 프라이버시 보호와 자유 소프트웨어를 이유로, 일반적으로 Linux 배포판이 권장됩니다.
 cover: desktop.png
 ---
 
-Linux distributions are commonly recommended for privacy protection and software freedom. If you don't already use Linux, below are some distributions we suggest trying out, as well as some general privacy and security improvement tips that are applicable to many Linux distributions.
+프라이버시 보호와 자유 소프트웨어를 이유로, 일반적으로 Linux 배포판이 권장됩니다. 아직 Linux를 사용하지 않는 분을 위해, 사용해볼 만한 몇 가지 배포판을 추천드립니다. 대부분의 Linux 배포판에 적용 가능한 기본 프라이버시 및 보안 개선 안내도 찾아보실 수 있습니다.
 
-- [General Linux Overview :material-arrow-right-drop-circle:](os/linux-overview.md)
+- [일반 Linux 개요 :material-arrow-right-drop-circle:](os/linux-overview.md)
 
-## Traditional Distributions
+## 일반적인 배포판
 
 ### Fedora Workstation
 
@@ -33,7 +33,7 @@ Fedora는 반-롤링 릴리스 방식입니다. [GNOME](https://www.gnome.org) �
     
     **openSUSE Tumbleweed**는 안정적인 롤링 릴리스 배포판입니다.
     
-    openSUSE Tumbleweed has a [transactional update](https://kubic.opensuse.org/blog/2018-04-04-transactionalupdates/) system that uses [Btrfs](https://en.wikipedia.org/wiki/Btrfs) and [Snapper](https://en.opensuse.org/openSUSE:Snapper_Tutorial) to ensure that snapshots can be rolled back should there be a problem.
+    openSUSE Tumbleweed에는 [Btrfs](https://en.wikipedia.org/wiki/Btrfs), [Snapper](https://en.opensuse.org/openSUSE:Snapper_Tutorial)를 사용한 [트랜잭션 업데이트](https://kubic.opensuse.org/blog/2018-04-04-transactionalupdates/) 시스템이 존재하기 때문에 문제가 발생할 경우 스냅샷 롤백이 가능합니다.
     
     [:octicons-home-16: 홈페이지](https://get.opensuse.org/tumbleweed/){ .md-button .md-button--primary }
     [:octicons-info-16:](https://doc.opensuse.org/){ .card-link title=문서}
@@ -73,9 +73,9 @@ DIY 배포판이므로 여러분은 자신의 시스템을 여러분 자신이 [
     [:octicons-info-16:](https://docs.fedoraproject.org/en-US/fedora-silverblue/){ .card-link title=문서}
     [:octicons-heart-16:](https://whatcanidoforfedora.org/){ .card-link title=기여 }
 
-Fedora Workstation과의 차이점은, Silverblue, Kinoite는 [DNF](https://fedoraproject.org/wiki/DNF) 패키지 관리자를 사용하는 것이 아닌, [`rpm-ostree`](https://docs.fedoraproject.org/en-US/fedora/rawhide/system-administrators-guide/package-management/rpm-ostree/)라는 발전된 대체제를 사용합니다. The `rpm-ostree` package manager works by downloading a base image for the system, then overlaying packages over it in a [git](https://en.wikipedia.org/wiki/Git)-like commit tree. When the system is updated, a new base image is downloaded and the overlays will be applied to that new image.
+Fedora Workstation과 달리 Silverblue, Kinoite는 [DNF](https://fedoraproject.org/wiki/DNF) 패키지 관리자가 아닌 [`rpm-ostree`](https://docs.fedoraproject.org/en-US/fedora/rawhide/system-administrators-guide/package-management/rpm-ostree/)라는 발전된 대체제를 사용합니다. `rpm-ostree` 패키지 관리자는 시스템의 베이스 이미지를 다운로드한 이후 [git](https://en.wikipedia.org/wiki/Git)과 유사한 커밋 트리에서 패키지를 오버레이하는 방식으로 작동합니다. 시스템을 업데이트하는 경우, 새로운 베이스 이미지를 다운로드하고 해당 이미지에 오버레이합니다.
 
-After the update is complete you will reboot the system into the new deployment. `rpm-ostree` keeps two deployments of the system so that you can easily rollback if something breaks in the new deployment. There is also the option to pin more deployments as needed.
+업데이트가 완료되면 새로 만들어진 시스템으로 재부팅합니다. `rpm-ostree`는 두 개의 시스템을 모두 유지하므로, 새로 배포된 시스템에서 문제가 발생하는 경우 간단히 롤백할 수 있습니다. 필요에 따라 유지할 시스템 수를 더 늘리는 옵션도 존재합니다.
 
 [Flatpak](https://www.flatpak.org) is the primary package installation method on these distributions, as `rpm-ostree` is only meant to overlay packages that cannot stay inside of a container on top of the base image.
 
@@ -138,11 +138,11 @@ Whonix는 [Qubes와 결합해 사용하는 것이 가장 뛰어납니다](https:
     [:octicons-info-16:](https://tails.boum.org/doc/index.en.html){ .card-link title=문서}
     [:octicons-heart-16:](https://tails.boum.org/donate/){ .card-link title=기부 }
 
-Tails is great for counter forensics due to amnesia (meaning nothing is written to the disk); however, it is not a hardened distribution like Whonix. It lacks many anonymity and security features that Whonix has and gets updated much less often (only once every six weeks). A Tails system that is compromised by malware may potentially bypass the transparent proxy allowing for the user to be deanonymized.
+Tails는 휘발성(디스크에 아무것도 기록되지 않음) 특성으로 인해 포렌식 방어에 적합하지만, Whonix 처럼 특별히 보안이 강화된 배포판은 아닙니다. Whonix에 비해 많은 익명성, 보안 기능이 부족하며, 업데이트 빈도 또한 훨씬 낮습니다(Tails는 6주에 한 번 업데이트가 제공됩니다). A Tails system that is compromised by malware may potentially bypass the transparent proxy allowing for the user to be deanonymized.
 
-Tails includes [uBlock Origin](desktop-browsers.md#ublock-origin) in Tor Browser by default, which may potentially make it easier for adversaries to fingerprint Tails users. [Whonix](desktop.md#whonix) virtual machines may be more leak-proof, however they are not amnesic, meaning data may be recovered from your storage device.
+Tails는 Tor 브라우저에 [uBlock Origin](desktop-browsers.md#ublock-origin)을 기본 탑재하고 있습니다. 이는 공격자가 Tails 사용자를 핑거프린팅하는 용도로 쓰일 수 있습니다. [Whonix](desktop.md#whonix) 가상 머신은 유출 방지 면에서는 더 뛰어나지만, 휘발성 특성이 없으므로 저장 장치에서 데이터를 복구하는 것이 가능할 수도 있습니다.
 
-By design, Tails is meant to completely reset itself after each reboot. Encrypted [persistent storage](https://tails.boum.org/doc/persistent_storage/index.en.html) can be configured to store some data between reboots.
+Tails는 재부팅 시마다 완전히 초기화되도록 설계되었습니다. 재부팅 시에도 특정 데이터를 유지하려면 암호화 [영구 저장소](https://tails.boum.org/doc/persistent_storage/index.en.html)를 설정해야 합니다.
 
 ## 보안성 중점 배포판
 

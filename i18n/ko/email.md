@@ -413,12 +413,12 @@ Proton 계정과 SimpleLogin 계정 연결은 설정에서 가능합니다. Prot
 
 - Zero Access Encryption을 통해 모든 계정 데이터(연락처, 캘린더 등)를 암호화해야 합니다.
 - 웹메일에 E2EE/PGP 암호화가 통합되어 있어서 편리하게 사용할 수 있어야 합니다.
-- Support for [WKD](https://wiki.gnupg.org/WKD) to allow improved discovery of public OpenPGP keys via HTTP. GnuPG users can get a key by typing: `gpg --locate-key example_user@example.com`
+- [WKD](https://wiki.gnupg.org/WKD)를 지원하여 HTTP를 통한 공개 OpenPGP 키 검색 편의를 제공해야 합니다. GnuPG 사용자는 `gpg --locate-key example_user@example.com`를 입력하여 키를 얻을 수 있습니다.
 - 외부 사용자를 위해 임시 메일함을 지원해야 합니다. 수신자에게 실제 사본을 보내지 않고 암호화된 이메일을 보내고자 할 때 유용합니다. 이러한 이메일은 보통 수명이 제한돼 있으며 이후 자동으로 삭제됩니다. 수신자가 OpenPGP 등의 암호화를 설정할 필요가 없습니다.
 - [Onion 서비스](https://en.wikipedia.org/wiki/.onion)를 통해 이메일 서비스를 이용할 수 있어야 합니다.
-- [Subaddressing](https://en.wikipedia.org/wiki/Email_address#Subaddressing) support.
-- Catch-all or alias functionality for those who own their own domains.
-- Use of standard email access protocols such as IMAP, SMTP or [JMAP](https://en.wikipedia.org/wiki/JSON_Meta_Application_Protocol). Standard access protocols ensure customers can easily download all of their email, should they want to switch to another provider.
+- [보조 주소](https://en.wikipedia.org/wiki/Email_address#Subaddressing)를 지원해야 합니다.
+- 자체 도메인을 소유한 사용자를 위해 Catch-all 이나 별칭 기능을 제공해야 합니다.
+- IMAP, SMTP, [JMAP](https://en.wikipedia.org/wiki/JSON_Meta_Application_Protocol) 등 표준 이메일 접근 프로토콜을 사용해야 합니다. 표준 액세스 프로토콜을 사용함으로써, 사용자는 다른 서비스 제공 업체로 전환하고자 할 경우 모든 이메일을 쉽게 다운로드할 수 있습니다.
 
 ### 프라이버시
 
@@ -437,7 +437,7 @@ We prefer our recommended providers to collect as little data as possible.
 
 ### 보안
 
-Email servers deal with a lot of very sensitive data. We expect that providers will adopt best industry practices in order to protect their members.
+이메일 서버는 매우 민감한 데이터를 대량으로 처리합니다. We expect that providers will adopt best industry practices in order to protect their members.
 
 **최소 요구 사항:**
 
@@ -498,7 +498,7 @@ Privacy Guides는 권장 이메일 제공 업체가 책임감 있는 마케팅�
 
 **우대 사항:**
 
-- 명확하고 읽기 쉬운 문서를 제공해야 합니다. 2FA/이메일 클라이언트/OpenPGP 설정 방법 안내 등을 포함합니다.
+- 명확하고 읽기 쉬운 문서를 제공해야 합니다. 2FA/이메일 클라이언트/OpenPGP 설정 방법 안내 등의 문서도 제공해야 합니다.
 
 ### 추가 기능
 
