@@ -11,32 +11,6 @@ Se scegli di fare self-hosting di questi frontend, è importante che anche altre
 
 Quando utilizzi un'istanza gestita da altri, assicurati di leggere la politica sulla privacy di quella specifica istanza. Possono essere modificate dai loro proprietari e quindi potrebbero non rispecchiare la politica di default. Alcune istanze hanno indirizzi Tor .onion che possono garantire una certa privacy, a patto che le stringhe di ricerca non contengano PII (Personally Identifiable Information, Informazioni di Identificazione Personale).
 
-## LBRY
-
-### Librarian
-
-!!! recommendation
-
-    ![Librarian logo](assets/img/frontends/librarian.svg#only-light){ align=right }
-    ![Librarian logo](assets/img/frontends/librarian-dark.svg#only-dark){ align=right }
-    
-    **Librarian** è un frontend gratuito e open-source per [Odysee](https://odysee.com/) (LBRY) che permette anche il self-hosting.
-    
-    Esistono diverse istanze pubbliche, alcune delle quali supportano i servizi onion di [Tor](https://www.torproject.org).
-    
-    [:octicons-repo-16: Repository](https://codeberg.org/librarian/librarian){ .md-button .md-button--primary }
-    [:octicons-server-16:](https://librarian.codeberg.page/){ .card-link title="Istanze pubbliche"}
-    [:octicons-info-16:](https://codeberg.org/librarian/librarian/wiki){ .card-link title=Documentazione}
-    [:octicons-code-16:](https://codeberg.org/librarian/librarian){ .card-link title="Codice sorgente" }
-
-!!! warning
-
-    Librarian non fa da proxy dei video in modo predefinito. I video guardati attraverso Librarian continueranno a collegarsi direttamente ai server di Odysee (ad esempio, `odycdn.com`); tuttavia, alcune istanze possono abilitare il proxying, che sarà descritto in dettaglio nell'informativa sulla privacy dell'istanza.
-
-!!! important
-
-    Librarian è utile se si desidera guardare contenuti LBRY sul cellulare senza telemetria obbligatoria e se si desidera disabilitare JavaScript nel browser, come nel caso di [Tor Browser](https://www.torproject.org/) sul livello di sicurezza Molto Sicuro.
-
 ## Twitter
 
 ### Nitter

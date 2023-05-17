@@ -61,11 +61,11 @@ IVPN은 [35개 국가에 서버](https://www.ivpn.net/server-locations)를 보�
 
 1. 마지막 확인: 2022-09-16
 
-We also think it's better for the security of the VPN provider's private keys if they use [dedicated servers](https://en.wikipedia.org/wiki/Dedicated_hosting_service), instead of cheaper shared solutions (with other customers) such as [virtual private servers](https://en.wikipedia.org/wiki/Virtual_private_server).
+저희는 VPN 제공자가 독립적인 [데디케이티드 서버](https://en.wikipedia.org/wiki/Dedicated_hosting_service)를 사용하는 것이 제공자의 개인 키를 보호하는데 더 좋다고 봅니다. [개인 사설 서버](https://en.wikipedia.org/wiki/Virtual_private_server)는 더 싸지만, VPN 제공자는 한 서버를 다른 사람들과 같이 쓰게 됩니다.
 
-#### :material-check:{ .pg-green } Independently Audited
+#### :material-check:{ .pg-green } 독립 감사 여부
 
-IVPN has undergone a [no-logging audit from Cure53](https://cure53.de/audit-report_ivpn.pdf) which concluded in agreement with IVPN's no-logging claim. IVPN has also completed a [comprehensive pentest report Cure53](https://cure53.de/summary-report_ivpn_2019.pdf) in January 2020. IVPN has also said they plan to have [annual reports](https://www.ivpn.net/blog/independent-security-audit-concluded) in the future. A further review was conducted [in April 2022](https://www.ivpn.net/blog/ivpn-apps-security-audit-2022-concluded/) and was produced by Cure53 [on their website](https://cure53.de/pentest-report_IVPN_2022.pdf).
+IVPN은 [Cure53으로부터 감사](https://cure53.de/audit-report_ivpn.pdf)를 받아 로그가 존재하지 않는다는 IVPN의 주장이 사실임을 보였습니다. 또한, 2020년 1월에 [Cure53은 IVPN 침투 테스트 결과](https://cure53.de/summary-report_ivpn_2019.pdf)를 레포트로 작성하였습니다. IVPN은 [매년 보고서](https://www.ivpn.net/blog/independent-security-audit-concluded)를 작성하여 공개할 것이라는 계획을 발표했습니다. [2022년 4월](https://www.ivpn.net/blog/ivpn-apps-security-audit-2022-concluded/)에는 Cure53으로부터 추가적인 검토가 진행되었으며, [Cure53의 웹사이트](https://cure53.de/pentest-report_IVPN_2022.pdf)에 공개되었습니다.
 
 #### :material-check:{ .pg-green } 오픈 소스 클라이언트
 
@@ -123,9 +123,9 @@ Mullvad는 [41개 국가에 서버](https://mullvad.net/servers/)를 보유하�
 
 1. 마지막 확인: 2023-01-19
 
-We also think it's better for the security of the VPN provider's private keys if they use [dedicated servers](https://en.wikipedia.org/wiki/Dedicated_hosting_service), instead of cheaper shared solutions (with other customers) such as [virtual private servers](https://en.wikipedia.org/wiki/Virtual_private_server).
+저희는 VPN 제공자가 독립적인 [데디케이티드 서버](https://en.wikipedia.org/wiki/Dedicated_hosting_service)를 사용하는 것이 제공자의 개인 키를 보호하는데 더 좋다고 봅니다. [개인 사설 서버](https://en.wikipedia.org/wiki/Virtual_private_server)는 더 싸지만, VPN 제공자는 한 서버를 다른 사람들과 같이 쓰게 됩니다.
 
-#### :material-check:{ .pg-green } Independently Audited
+#### :material-check:{ .pg-green } 독립 감사 여부
 
 Mullvad의 VPN 클라이언트는 Cure53과 Assured AB의 감사를 받았으며, [cure53.de](https://cure53.de/pentest-report_mullvad_v2.pdf)에 게시된 침투 테스트 레포트를 볼 수 있습니다. 보안 연구원들은 다음과 같은 결론을 내렸습니다.
 
@@ -157,7 +157,7 @@ Mullvad는 차기 네트워크 주소 체계인 [IPv6](https://en.wikipedia.org/
 
 #### :material-check:{ .pg-green } 원격 포트 포워딩
 
-Remote [port forwarding](https://en.wikipedia.org/wiki/Port_forwarding) is allowed for people who make one-time payments, but not allowed for accounts with a recurring/subscription-based payment method. This is to prevent Mullvad from being able to identify you based on your port usage and stored subscription information. See [Port forwarding with Mullvad VPN](https://mullvad.net/help/port-forwarding-and-mullvad/) for more information.
+일회성 결제를 하는 사용자에게는 원격 [포트 포워딩](https://en.wikipedia.org/wiki/Port_forwarding)이 허용되지만, 구독형 결제 방식을 이용하는 사용자에게는 허용되지 않습니다. 이는 Mullvad가 포트 사용 정보와 구독 정보를 기반으로 해당 사용자가 누구인지 식별하는 것을 방지하기 위함입니다. 자세한 내용은 [Mullvad VPN으로 포트포워딩하기](https://mullvad.net/help/port-forwarding-and-mullvad/)에 있습니다.
 
 #### :material-check:{ .pg-green } 모바일 클라이언트
 
@@ -165,7 +165,7 @@ Mullvad has published [App Store](https://apps.apple.com/app/mullvad-vpn/id14884
 
 #### :material-information-outline:{ .pg-blue } 추가 기능
 
-Mullvad is very transparent about which nodes they [own or rent](https://mullvad.net/en/servers/). They use [ShadowSocks](https://shadowsocks.org/) in their ShadowSocks + OpenVPN configuration, making them more resistant against firewalls with [Deep Packet Inspection](https://en.wikipedia.org/wiki/Deep_packet_inspection) trying to block VPNs. Supposedly, [China has to use a different method to block ShadowSocks servers](https://github.com/net4people/bbs/issues/22). Mullvad's website is also accessible via Tor at [o54hon2e2vj6c7m3aqqu6uyece65by3vgoxxhlqlsvkmacw6a7m7kiad.onion](http://o54hon2e2vj6c7m3aqqu6uyece65by3vgoxxhlqlsvkmacw6a7m7kiad.onion).
+Mullvad는 자신이 [소유/임대](https://mullvad.net/en/servers/)한 노드에 대해 투명하게 공개하고 있습니다. They use [ShadowSocks](https://shadowsocks.org/) in their ShadowSocks + OpenVPN configuration, making them more resistant against firewalls with [Deep Packet Inspection](https://en.wikipedia.org/wiki/Deep_packet_inspection) trying to block VPNs. [중국은 다른 방식으로 ShadowSocks 서버를 막고 있다고 전해집니다](https://github.com/net4people/bbs/issues/22). Mullvad의 웹사이트는 Tor를 이용해서 접속할 수 있습니다. 주소는 [o54hon2e2vj6c7m3aqqu6uyece65by3vgoxxhlqlsvkmacw6a7m7kiad.onion](http://o54hon2e2vj6c7m3aqqu6uyece65by3vgoxxhlqlsvkmacw6a7m7kiad.onion)입니다.
 
 ### Proton VPN
 
@@ -195,9 +195,9 @@ Proton VPN은 [67개 국가에 서버](https://protonvpn.com/vpn-servers)를 보
 
 1. 마지막 확인: 2022-09-16
 
-We also think it's better for the security of the VPN provider's private keys if they use [dedicated servers](https://en.wikipedia.org/wiki/Dedicated_hosting_service), instead of cheaper shared solutions (with other customers) such as [virtual private servers](https://en.wikipedia.org/wiki/Virtual_private_server).
+저희는 VPN 제공자가 독립적인 [데디케이티드 서버](https://en.wikipedia.org/wiki/Dedicated_hosting_service)를 사용하는 것이 제공자의 개인 키를 보호하는데 더 좋다고 봅니다. [개인 사설 서버](https://en.wikipedia.org/wiki/Virtual_private_server)는 더 싸지만, VPN 제공자는 한 서버를 다른 사람들과 같이 쓰게 됩니다.
 
-#### :material-check:{ .pg-green } Independently Audited
+#### :material-check:{ .pg-green } 독립 감사 여부
 
 As of January 2020, Proton VPN has undergone an independent audit by SEC Consult. SEC Consult found some medium and low risk vulnerabilities in Proton VPN's Windows, Android, and iOS applications, all of which were "properly fixed" by Proton VPN before the reports were published. None of the issues identified would have provided an attacker remote access to your device or traffic. You can view individual reports for each platform at [protonvpn.com](https://protonvpn.com/blog/open-source/). In April 2022 Proton VPN underwent [another audit](https://protonvpn.com/blog/no-logs-audit/) and the report was [produced by Securitum](https://protonvpn.com/blog/wp-content/uploads/2022/04/securitum-protonvpn-nologs-20220330.pdf). A [letter of attestation](https://proton.me/blog/security-audit-all-proton-apps) was provided for Proton VPN's apps on 9th November 2021 by [Securitum](https://research.securitum.com).
 
@@ -278,16 +278,16 @@ We prefer our recommended providers to collect as little data as possible. Not c
 
 **최소 요구 사항:**
 
-- Strong Encryption Schemes: OpenVPN with SHA-256 authentication; RSA-2048 or better handshake; AES-256-GCM or AES-256-CBC data encryption.
+- 강력한 암호화 방식 사용: SHA-256 해시 기반 인증을 이용하는 OpenVPN, RSA-2048 또는 더 강력한 비대칭 암호 알고리즘을 이용하는 핸드셰이크, AES-256-GCM 또는 AES-256-CBC 를 이용하는 데이터 암호화
 - Perfect Forward Secrecy (PFS).
-- Published security audits from a reputable third-party firm.
+- 검증된 제 3자로부터 보안 감사 결과가 게시됨
 
 **우대 사항:**
 
 - 가장 강력한 암호화 방식으로 RSA-4096을 지원
 - Perfect Forward Secrecy (PFS).
-- Comprehensive published security audits from a reputable third-party firm.
-- Bug-bounty programs and/or a coordinated vulnerability-disclosure process.
+- 검증된 제 3자로부터 종합적인 보안 감사 결과가 게시됨
+- 버그 바운티 프로그램 또는 체계적인 취약점 공개 프로세스가 있음
 
 ### 신뢰
 
@@ -310,20 +310,20 @@ With the VPN providers we recommend we like to see responsible marketing.
 
 - Must self-host analytics (i.e., no Google Analytics). The provider's site must also comply with [DNT (Do Not Track)](https://en.wikipedia.org/wiki/Do_Not_Track) for people who want to opt-out.
 
-Must not have any marketing which is irresponsible:
+다음과 같은 무책임한 마케팅 방식을 사용하지 않아야 합니다.
 
-- Making guarantees of protecting anonymity 100%. When someone makes a claim that something is 100% it means there is no certainty for failure. We know people can quite easily deanonymize themselves in a number of ways, e.g.:
+- 익명성을 100% 보장해준다는 등의 내용: 만약 누군가가 100%라고 주장한다면, 이는 절대 실패할 수 없다고 하는 것과 같습니다. We know people can quite easily deanonymize themselves in a number of ways, e.g.:
     - Reusing personal information (e.g., email accounts, unique pseudonyms, etc.) that they accessed without anonymity software (Tor, VPN, etc.)
-    - [Browser fingerprinting](https://en.wikipedia.org/wiki/Device_fingerprint#Browser_fingerprint)
-- Claim that a single circuit VPN is "more anonymous" than Tor, which is a circuit of three or more hops that regularly changes.
+    - [브라우저 핑거프린팅](https://en.wikipedia.org/wiki/Device_fingerprint#Browser_fingerprint)
+- 노드 1개만을 거치는 VPN이 주기적으로 변하는 노드 3개를 거치는 Tor보다 익명성을 보호하는데 더 좋다는 주장
 - Use responsible language: i.e., it is okay to say that a VPN is "disconnected" or "not connected", however claiming that someone is "exposed", "vulnerable" or "compromised" is needless use of alarming language that may be incorrect. For example, that person might simply be on another VPN provider's service or using Tor.
 
 **우대 사항:**
 
 Responsible marketing that is both educational and useful to the consumer could include:
 
-- An accurate comparison to when [Tor](tor.md) should be used instead.
-- Availability of the VPN provider's website over a [.onion service](https://en.wikipedia.org/wiki/.onion)
+- [Tor](tor.md)를 사용하기 적합한 상황을 정확하게 설명함
+- VPN 제공자의 웹사이트가 [.onion](https://en.wikipedia.org/wiki/.onion)으로도 접근이 가능
 
 ### 추가 기능
 

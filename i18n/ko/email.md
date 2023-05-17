@@ -462,7 +462,7 @@ We prefer our recommended providers to collect as little data as possible.
 - Support for hardware authentication, i.e. U2F and [WebAuthn](https://en.wikipedia.org/wiki/WebAuthn). U2F and WebAuthn are more secure as they use a private key stored on a client-side hardware device to authenticate people, as opposed to a shared secret that is stored on the web server and on the client side when using TOTP. Furthermore, U2F and WebAuthn are more resistant to phishing as their authentication response is based on the authenticated [domain name](https://en.wikipedia.org/wiki/Domain_name).
 - [DNS Certification Authority Authorization (CAA) Resource Record](https://tools.ietf.org/html/rfc6844) in addition to DANE support.
 - Implementation of [Authenticated Received Chain (ARC)](https://en.wikipedia.org/wiki/Authenticated_Received_Chain), this is useful for people who post to mailing lists [RFC8617](https://tools.ietf.org/html/rfc8617).
-- Bug-bounty programs and/or a coordinated vulnerability-disclosure process.
+- 버그 바운티 프로그램 또는 체계적인 취약점 공개 프로세스가 있음
 - Website security standards such as:
     - [Content Security Policy (CSP)](https://en.wikipedia.org/wiki/Content_Security_Policy)
     - [RFC9163 Expect-CT](https://datatracker.ietf.org/doc/rfc9163/)
@@ -491,7 +491,7 @@ Privacy Guides는 권장 이메일 제공 업체가 책임감 있는 마케팅�
 다음과 같은 무책임한 마케팅은 일절 없어야 합니다:
 
 - "절대 뚫리지 않는 암호화" 등의 주장을 해선 안 됩니다. 암호화는 미래에 해당 암호화를 무력화할 수 있는 기술이 등장할 수 있다는 것을 항상 염두에 두고 사용해야 합니다.
-- "100% 익명성 보장" When someone makes a claim that something is 100% it means there is no certainty for failure. We know people can quite easily deanonymize themselves in a number of ways, e.g.:
+- "100% 익명성 보장" 만약 누군가가 100%라고 주장한다면, 이는 절대 실패할 수 없다고 하는 것과 같습니다. We know people can quite easily deanonymize themselves in a number of ways, e.g.:
 
 - Reusing personal information e.g. (email accounts, unique pseudonyms, etc.) that they accessed without anonymity software (Tor, VPN, etc.)
 - [브라우저 핑거프린팅 시도](https://en.wikipedia.org/wiki/Device_fingerprint#Browser_fingerprint)

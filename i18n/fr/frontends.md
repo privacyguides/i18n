@@ -11,32 +11,6 @@ Si vous choisissez d'héberger vous-même ces clients, il est important que d'au
 
 Lorsque vous utilisez une instance gérée par quelqu'un d'autre, veillez à lire la politique de confidentialité de cette instance spécifique. Elles peuvent être modifiées par leurs propriétaires et peuvent donc ne pas refléter la politique par défaut. Certaines instances ont des adresses Tor .onion qui peuvent garantir une certaine confidentialité tant que vos requêtes de recherche ne contiennent pas de DCP.
 
-## LBRY
-
-### Librarian
-
-!!! recommendation
-
-    ![Logo Librarian](assets/img/frontends/librarian.svg#only-light){ align=right }
-    ![Logo Librarian](assets/img/frontends/librarian-dark.svg#only-dark){ align=right }
-    
-    **Librarian** est une interface client web gratuite et open source pour le réseau de partage vidéo [Odysee](https://odysee.com/) (LBRY) qui est également auto-hébergeable.
-    
-    Il existe un certain nombre d'instances publiques, dont certaines bénéficient de la prise en charge des services oignon [Tor](https://www.torproject.org).
-    
-    [:octicons-repo-16: Page d'accueil](https://codeberg.org/librarian/librarian){ .md-button .md-button--primary }
-    [:octicons-server-16:](https://librarian.codeberg.page/){ .card-link title="Public Instances"}
-    [:octicons-info-16:](https://codeberg.org/librarian/librarian/wiki){ .card-link title=Documentation}
-    [:octicons-code-16:](https://codeberg.org/librarian/librarian){ .card-link title="Source Code" }
-
-!!! warning "Avertissement"
-
-    Par défaut Librarian n'utilise pas de proxy pour les flux vidéo. Les vidéos regardées via Librarian feront toujours l'objet de connexions directes aux serveurs d'Odysee (par exemple `odycdn.com`) ; cependant, certaines instances peuvent activer le proxy, ce qui serait détaillé dans la politique de confidentialité de l'instance.
-
-!!! tip "Conseil"
-
-    Librarian est utile si vous voulez regarder du contenu LBRY sur votre mobile sans télémétrie obligatoire et si vous voulez désactiver JavaScript dans votre navigateur, comme c'est le cas avec [le navigateur Tor](https://www.torproject.org/) au niveau de sécurité Le plus sûr.
-
 ## Twitter
 
 ### Nitter

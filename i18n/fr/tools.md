@@ -368,13 +368,13 @@ Nous [recommandons](dns.md#recommended-providers) un certain nombre de serveurs 
 
 <div class="grid cards" markdown>
 
-- ![Logo du bibliothécaire](assets/img/frontends/librarian.svg#only-light){ .twemoji }![Logo du bibliothécaire](assets/img/frontends/librarian-dark.svg#only-dark){ .twemoji } [Librarian (LBRY, Web)](frontends.md#librarian)
-- ![Logo Nitter](assets/img/frontends/nitter.svg){ .twemoji } [Nitter (Twitter, Web)](frontends.md#nitter)
-- ![Logo FreeTube](assets/img/frontends/freetube.svg){ .twemoji } [FreeTube (YouTube, Desktop)](frontends.md#freetube)
-- ![Logo Yattee](assets/img/frontends/yattee.svg){ .twemoji } [Yattee (YouTube ; iOS, tvOS, macOS)](frontends.md#yattee)
-- ![Logo NewPipe](assets/img/frontends/newpipe.svg){ .twemoji } [NewPipe (YouTube, Android)](frontends.md#newpipe-android)
-- ![Logo Invidious](assets/img/frontends/invidious.svg#only-light){ .twemoji }![Logo Invidious](assets/img/frontends/invidious-dark.svg#only-dark){ .twemoji } [Invidious (YouTube, Web)](frontends.md#invidious)
-- ![Logo Piped](assets/img/frontends/piped.svg){ .twemoji } [Piped (YouTube, Web)](frontends.md#piped)
+- ![Nitter logo](assets/img/frontends/nitter.svg){ .twemoji } [Nitter (Twitter, Web)](frontends.md#nitter)
+- ![FreeTube logo](assets/img/frontends/freetube.svg){ .twemoji } [FreeTube (YouTube, Desktop)](frontends.md#freetube)
+- ![Yattee logo](assets/img/frontends/yattee.svg){ .twemoji } [Yattee (YouTube; iOS, tvOS, macOS)](frontends.md#yattee)
+- ![LibreTube logo](assets/img/frontends/libretube.svg#only-light){ .twemoji }![LibreTube logo](assets/img/frontends/libretube-dark.svg#only-dark){ .twemoji } [LibreTube (YouTube, Android)](frontends.md#libretube-android)  
+- ![NewPipe logo](assets/img/frontends/newpipe.svg){ .twemoji } [NewPipe (YouTube, Android)](frontends.md#newpipe-android)
+- ![Invidious logo](assets/img/frontends/invidious.svg#only-light){ .twemoji }![Invidious logo](assets/img/frontends/invidious-dark.svg#only-dark){ .twemoji } [Invidious (YouTube, Web)](frontends.md#invidious)
+- ![Piped logo](assets/img/frontends/piped.svg){ .twemoji } [Piped (YouTube, Web)](frontends.md#piped)
 
 </div>
 

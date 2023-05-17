@@ -1,7 +1,7 @@
 ---
 title: "Häufige Bedrohungen"
 icon: 'material/eye-outline'
-description: Deine persönliche Bedrohungsanalyse kannst du nur selber durchführen. Vielen Besuchern dieser Webseite sind aber folgende Dinge wichtig.
+description: Deine persönliche Bedrohungsanalyse kannst nur du selber durchführen. Vielen Besuchern dieser Webseite sind aber folgende Dinge wichtig.
 ---
 
 Wir ordnen unsere Empfehlungen nach [Bedrohungen](threat-modeling.md) beziehungsweise Zielen, die für die meisten Menschen gelten. ==Dich können keine, eine, einige oder alle dieser Themen betreffen==, und du solltest die von dir eingesetzten Werkzeuge und Dienste von deinen Zielen abhängig machen. Du kannst auch spezifische Bedrohungen außerhalb dieser Kategorien haben, das ist völlig in Ordnung! Wichtig ist, dass du die Vorteile und Schwächen der von dir gewählten Werkzeuge kennst, denn praktisch keines davon schützt dich vor jeder Bedrohung.

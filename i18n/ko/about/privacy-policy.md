@@ -2,7 +2,7 @@
 title: "프라이버시 정책"
 ---
 
-Privacy Guides is a community project operated by a number of active volunteer contributors. The public list of team members [can be found on GitHub](https://github.com/orgs/privacyguides/people).
+Privacy Guides is a community project operated by a number of active volunteer contributors. 팀 구성원 공개 목록은 [GitHub에서 확인하실 수 있습니다](https://github.com/orgs/privacyguides/people).
 
 ## Data We Collect From Visitors
 

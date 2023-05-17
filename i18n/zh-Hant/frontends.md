@@ -11,32 +11,6 @@ cover: frontends.png
 
 當您使用其它人的實例，請確認有細讀此實例的隱私政策。 它們可以任擁有者修改因此不必然反映原本預設的政策。 有些實例有Tor .onion地址，只要您的搜尋查詢不包含PII ，這些地址可以保護某些隱私。
 
-## LBRY
-
-### Librarian
-
-!!! recommendation
-
-    ! [Librarian logo] (assets/img/frontends/librarian.svg#only-light) {align = right}
-    ! [Librarian logo] (assets/img/frontends/librarian-dark.svg#only-dark) {align = right}
-    
-    * * Librarian * *是 [Odysee](https://odysee.com/) (LBRY)的免費開源前端，也是可自我託管的。
-    
-    有許多公共實例，其中一些實例支援 [Tor]（ https://www.torproject.org ）onion 服務。
-    
-    [:octicons-repo-16: Repository](https://codeberg.org/librarian/librarian){ .md-button .md-button--primary }
-    [:octicons-server-16:](https://librarian.codeberg.page/){ .card-link title="Public Instances"}
-    [:octicons-info-16:](https://codeberg.org/librarian/librarian/wiki){ .card-link title=Documentation}
-    [:octicons-code-16:](https://codeberg.org/librarian/librarian){ .card-link title="Source Code" }
-
-!!! 警告
-
-    預設情況下，圖書館員不會代理影片串流。 透過 Libraria 觀看的影片仍可直接連接至 Odysee伺服器（例如 "odycdn.com"） ；然而某些情況下可能會啟用代理服務，詳情請參閱實例的隱私權政策。
-
-!!! 提示
-
-    如果您希望在行動裝置上觀看 LBRY 內容而無需強制遙測，以及想要瀏覽器禁用 JavaScript ，例如 [Tor瀏覽器] （ https://www.torproject.org/ ）最安全的級別設置，Librarian 非常有用。
-
 ## Twitter
 
 ### Nitter

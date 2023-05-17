@@ -381,13 +381,13 @@ Recomendamos armazenar uma chave de recuperação local em um local seguro, em v
 
 <div class="grid cards" markdown>
 
-- ![Leitor Fluente](/assets/img/news-aggregators/fluent-reader.svg){ .twemoji } [Leitor Fluente](https://hyliu.me/fluent-reader)
-- ![GNOME Feeds](/assets/img/news-aggregators/gfeeds.svg){ .twemoji } [GNOME Feeds](https://gfeeds.gabmus.org)
-- ![Akregator](/assets/img/news-aggregators/akregator.svg){ .twemoji } [Akregator](https://apps.kde.org/akregator)
-- ![Leitor de Notícias Handy](/assets/img/news-aggregators/handy-news-reader.svg){ .twemoji } [Leitor de Notícias Handy](https://github.com/yanus171/Handy-News-Reader)
-- ![NetNewsWire](/assets/img/news-aggregators/netnewswire.png){ .twemoji } [NetNewsWire](https://netnewswire.com)
-- ![Miniflux](/assets/img/news-aggregators/miniflux.svg#only-light){ .twemoji }![Miniflux logo](/assets/img/news-aggregators/miniflux-dark.svg#only-dark){ .twemoji } [Miniflux](https://miniflux.app)
-- ![Newsboat](/assets/img/news-aggregators/newsboat.svg){ .twemoji } [Newsboat](https://newsboat.org/)
+- ![Nitter logo](assets/img/frontends/nitter.svg){ .twemoji } [Nitter (Twitter, Web)](frontends.md#nitter)
+- ![FreeTube logo](assets/img/frontends/freetube.svg){ .twemoji } [FreeTube (YouTube, Desktop)](frontends.md#freetube)
+- ![Yattee logo](assets/img/frontends/yattee.svg){ .twemoji } [Yattee (YouTube; iOS, tvOS, macOS)](frontends.md#yattee)
+- ![LibreTube logo](assets/img/frontends/libretube.svg#only-light){ .twemoji }![LibreTube logo](assets/img/frontends/libretube-dark.svg#only-dark){ .twemoji } [LibreTube (YouTube, Android)](frontends.md#libretube-android)  
+- ![NewPipe logo](assets/img/frontends/newpipe.svg){ .twemoji } [NewPipe (YouTube, Android)](frontends.md#newpipe-android)
+- ![Invidious logo](assets/img/frontends/invidious.svg#only-light){ .twemoji }![Invidious logo](assets/img/frontends/invidious-dark.svg#only-dark){ .twemoji } [Invidious (YouTube, Web)](frontends.md#invidious)
+- ![Piped logo](assets/img/frontends/piped.svg){ .twemoji } [Piped (YouTube, Web)](frontends.md#piped)
 
 </div>
 

@@ -1,23 +1,23 @@
 ---
-meta_title: "How Do VPNs Protect Your Privacy? Our VPN Overview - Privacy Guides"
+meta_title: "Como As VPNs Protegem Sua Privacidade? Nossa Visão Geral Sobre VPN — Privacy Guides"
 title: VPN Overview
 icon: material/vpn
-description: As Redes Privadas Virtuais transferem o risco do seu ISP para um terceiro em quem você confia. You should keep these things in mind.
+description: As Redes Privadas Virtuais transferem o risco do seu ISP para um terceiro em quem você confia. Você deve ter isso em mente.
 ---
 
-Virtual Private Networks are a way of extending the end of your network to exit somewhere else in the world. An ISP can see the flow of internet traffic entering and exiting your network termination device (i.e. modem).
+Redes Privadas Virtuais são uma forma de estender o fim da sua conexão para sair de outro lugar do mundo. Um provedor de serviços de internet (ISP) pode ver o fluxo de tráfego da Internet que entra e sai do seu dispositivo de terminação de rede (por exemplo, o modem).
 
-Encryption protocols such as HTTPS are commonly used on the internet, so they may not be able to see exactly what you're posting or reading, but they can get an idea of the [domains you request](../advanced/dns-overview.md#why-shouldnt-i-use-encrypted-dns).
+Protocolos de criptografia, como o HTTPS, são frequentemente usados na Internet, de modo que eles não consigam ver exatamente o que você está postando ou lendo, mas eles podem ter uma ideia dos [domínios que você solicita](../advanced/dns-overview.md#why-shouldnt-i-use-encrypted-dns).
 
-A VPN can help as it can shift trust to a server somewhere else in the world. As a result, the ISP then only sees that you are connected to a VPN and nothing about the activity that you're passing into it.
+Uma VPN pode ajudar, visto que transfere a confiança para um servidor em outro lugar do mundo. Como resultado, seu provedor de Internet só vê que você está conectado a uma VPN e nada sobre a atividade que você está transmitindo através dela.
 
 ## Devo Usar Uma VPN?
 
-**Yes**, unless you are already using Tor. A VPN does two things: shifting the risks from your Internet Service Provider to itself and hiding your IP from a third-party service.
+**Sim**, a menos que você já esteja usando o Tor. Uma VPN faz duas coisas: transfere os riscos do seu Provedor de Serviços de Internet para você mesmo e oculta seu IP de um serviço de terceiros.
 
-VPNs cannot encrypt data outside of the connection between your device and the VPN server. VPN providers can see and modify your traffic the same way your ISP could. And there is no way to verify a VPN provider's "no logging" policies in any way.
+VPNs não podem criptografar dados fora da conexão entre o seu dispositivo e o servidor VPN. Provedores de VPN podem ver e modificar seu tráfego da mesma forma que seu provedor de internet pode. E não há nenhuma maneira de verificar as políticas de "não registro" dos provedores de VPN.
 
-However, they do hide your actual IP from a third-party service, provided that there are no IP leaks. They help you blend in with others and mitigate IP based tracking.
+No entanto, eles ocultam seu IP real de um serviço de terceiros, desde que não haja vazamentos de IP. They help you blend in with others and mitigate IP based tracking.
 
 ## Quando não deveria usar uma VPN?
 

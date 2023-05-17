@@ -11,32 +11,6 @@ Bij zelf-hosting is het belangrijk dat er ook andere mensen gebruik maken van jo
 
 Als je een instantie gebruikt die door iemand anders wordt beheerd, moet je het privacybeleid van die specifieke instantie lezen. Ze kunnen door hun eigenaren worden gewijzigd en kunnen daarom niet in overeenstemming zijn met het standaardbeleid. Sommige instanties hebben Tor .onion adressen die enige privacy kunnen bieden zolang jouw zoekopdrachten geen PII (Personally Identifiable Information) bevat.
 
-## Cliënten
-
-### Librarian
-
-!!! recommendation
-
-    ![Librarian logo](assets/img/frontends/librarian.svg#only-light){ align=right }
-    ![Librarian logo](assets/img/frontends/librarian-dark.svg#only-dark){ align=right }
-    
-    **Librarian** is een gratis en open-source frontend voor de [Odysee](https://odysee.com/) (LBRY) video sharing netwerk dat ook zelf te hosten is.
-    
-    Er zijn een aantal openbare instanties, waarvan sommige instanties [Tor](https://www.torproject.org) .onion diensten ondersteunen.
-    
-    [:octicons-repo-16: Repository](https://codeberg.org/librarian/librarian){ .md-button .md-button--primary }
-    [:octicons-server-16:](https://librarian.codeberg.page/){ .card-link title="Public Instances"}
-    [:octicons-info-16:](https://codeberg.org/librarian/librarian/wiki){ .card-link title=Documentatie}
-    [:octicons-code-16:](https://codeberg.org/librarian/librarian){ .card-link title="Broncode" }
-
-!!! warning
-
-    Librarian proxied standaard geen videos. Video's die bekeken worden via Librarian zullen nog steeds directe verbindingen maken naar de servers van Odysee (bv. `odycdn.com`); sommige instanties kunnen echter proxying inschakelen, wat gedetailleerd wordt beschreven in het privacybeleid van de instantie.
-
-!!! tip
-
-    Librarian is handig als je LBRY content op mobiel wilt bekijken zonder verplichte telemetrie en als je JavaScript in je browser wilt uitschakelen, zoals het geval is met [Tor Browser](https://www.torproject.org/) op het veiligheidsniveau Safest.
-
 ## Twitter
 
 ### Nitter

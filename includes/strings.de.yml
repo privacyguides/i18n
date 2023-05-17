@@ -21,10 +21,10 @@ config:
     yes-note: Vielen Dank für dein Feedback!
     no: Diese Seite könnte verbessert werden
     no-note: |
-      Hilf uns, diese Seite zu verbessern, indem du eine Diskussion in unserem Forum eröffnest.
+      Vielen Dank für dein Feedback! Hilf uns, diese Seite zu verbessern, indem du eine Diskussion in unserem Forum eröffnest.
   theme:
-    dark: Dunklen Design verwenden
-    light: Hellen Design verwenden
+    dark: Dunkles Design verwenden
+    light: Helles Design verwenden
     system: Gerätedesign verwenden
 nav:
   Home: Startseite
@@ -33,7 +33,7 @@ nav:
   Operating Systems: Betriebssysteme
   Advanced Topics: Fortgeschrittene Themen
   Recommendations: Empfehlungen
-  Internet Browsing: Surfen im Internet
+  Internet Browsing: Im Internet Surfen
   Providers: Anbieter
   Software: Software
   About: Über uns
@@ -42,7 +42,7 @@ nav:
   Code of Conduct: Verhaltensgrundsätze
   Contributing: Mitmachen
   Writing Guide: Schreibleitfaden
-  Technical Guides: Technische Anleitungen
+  Technical Guides: Technischer Leitfaden
   Changelog: Änderungsprotokoll
   Forum: Forum
   Blog: Blog

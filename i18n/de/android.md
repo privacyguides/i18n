@@ -1,14 +1,14 @@
 ---
-meta_title: "Android Recommendations: GrapheneOS and DivestOS - Privacy Guides"
+meta_title: "Android-Empfehlungen: GrapheneOS und DivestOS - Privacy Guides"
 title: "Android"
 icon: 'simple/android'
-description: You can replace the operating system on your Android phone with these secure and privacy-respecting alternatives.
+description: Du kannst das Betriebssystem deines Android-Handys mit diesen sicheren und Privatsphäre-freundlichen Alternativen ersetzen.
 cover: android.png
 schema:
   - 
     "@context": http://schema.org
     "@type": WebPage
-    name: Private Android Operating Systems
+    name: Private Android-Betriebssysteme
     url: "./"
   - 
     "@context": http://schema.org
@@ -16,14 +16,14 @@ schema:
     name: Android
     image: /assets/img/android/android.svg
     url: https://source.android.com/
-    sameAs: https://en.wikipedia.org/wiki/Android_(operating_system)
+    sameAs: https://de.wikipedia.org/wiki/Android_(Betriebssystem)
   - 
     "@context": http://schema.org
     "@type": CreativeWork
     name: GrapheneOS
     image: /assets/img/android/grapheneos.svg
     url: https://grapheneos.org/
-    sameAs: https://en.wikipedia.org/wiki/GrapheneOS
+    sameAs: https://de.wikipedia.org/wiki/GrapheneOS
     subjectOf:
       "@context": http://schema.org
       "@type": WebPage
@@ -47,7 +47,7 @@ schema:
       "@type": Brand
       name: Google
     image: /assets/img/android/google-pixel.png
-    sameAs: https://en.wikipedia.org/wiki/Google_Pixel
+    sameAs: https://de.wikipedia.org/wiki/Pixel_(Google)
     review:
       "@type": Review
       author:
@@ -68,13 +68,13 @@ schema:
   - 
     "@context": http://schema.org
     "@type": MobileApplication
-    name: Secure Camera
+    name: Sichere Kamera
     applicationCategory: Utilities
     operatingSystem: Android
   - 
     "@context": http://schema.org
     "@type": MobileApplication
-    name: Secure PDF Viewer
+    name: Sicherer PDF-Viewer
     applicationCategory: Utilities
     operatingSystem: Android
 ---
@@ -248,7 +248,7 @@ No personally identifiable information is submitted to the attestation service. 
 
 If your [threat model](basics/threat-modeling.md) requires privacy, you could consider using [Orbot](tor.md#orbot) or a VPN to hide your IP address from the attestation service. To make sure that your hardware and operating system is genuine, [perform local attestation](https://grapheneos.org/install/web#verifying-installation) immediately after the device has been installed and prior to any internet connection.
 
-### Secure Camera
+### Sichere Kamera
 
 !!! recommendation
 
@@ -280,7 +280,7 @@ Main privacy features include:
     
     The image orientation metadata is not deleted. If you enable location (in Secure Camera) that **won't** be deleted either. If you want to delete that later you will need to use an external app such as [ExifEraser](data-redaction.md#exiferaser).
 
-### Secure PDF Viewer
+### Sicherer PDF-Viewer
 
 !!! recommendation
 

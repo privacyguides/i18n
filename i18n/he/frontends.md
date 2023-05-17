@@ -11,32 +11,6 @@ cover: frontends.png
 
 כאשר אתה משתמש במופע המופעל על ידי מישהו אחר, הקפד לקרוא את מדיניות הפרטיות של אותו מופע ספציפי. הם יכולים להשתנות על ידי בעליהם ולכן עשויים שלא לשקף את מדיניות ברירת המחדל. במקרים מסוימים יש כתובות .onion Tor אשר עשוי להעניק קצת פרטיות כל עוד שאילתות החיפוש שלך אינן מכילות PII.
 
-## קליינטים
-
-### Librarian
-
-!!! recommendation
-
-    ![Librarian לוגו](assets/img/frontends/librarian.svg#only-light){ align=right }
-    ![Librarian לוגו](assets/img/frontends/librarian-dark.svg#only-dark){ align=right }
-    
-    **Librarian** היא חזית חינמית וקוד פתוח עבור [Odysee](https://odysee.com/) (LBRY) שגם היא ניתנת לאירוח עצמי.
-    
-    ישנם מספר מופעים ציבוריים, כאשר בחלק מהמקרים יש תמיכה בשירותי בצל [Tor](https://www.torproject.org).
-    
-    [:octicons-repo-16: מאגר](https://codeberg.org/librarian/librarian){ .md-button .md-button--primary }
-    [:octicons-server-16:](https://librarian.codeberg.page/){ .card-link title="מופעים ציבוריים"}
-    [:octicons-info-16:](https://codeberg.org/librarian/librarian/wiki){ .card-link title=תיעוד}
-    [:octicons-code-16:](https://codeberg.org/librarian/librarian){ .card-link title="קוד מקור" }
-
-!!! warning "אזהרה"
-
-    Librarian אינו משדר סרטוני פרוקסי כברירת מחדל. סרטונים שנצפו באמצעות Librarian עדיין יבצעו חיבורים ישירים לשרתים של Odysee (למשל `odycdn.com`); עם זאת, מופעים מסוימים עשויים לאפשר שרת proxy אשר יפורט במדיניות הפרטיות של המופע.
-
-!!! tip "טיפ"
-
-    Librarian שימושי אם אתה רוצה לצפות בתוכן LBRY בנייד ללא טלמטריה חובה ואם אתה רוצה להשבית את JavaScript בדפדפן שלך, כפי שקורה עם [דפדפן Tor](https://www.torproject.org/) באבטחה הבטוחה ביותר רָמָה.
-
 ## Twitter
 
 ### Nitter

@@ -11,32 +11,6 @@ Si decides autoalojar, es importante que otras personas utilicen también tu ins
 
 Cuando utilices una instancia gestionada por otra persona, asegúrate de leer la política de privacidad de esa instancia en específico. Pueden ser modificados por sus propietarios y, por lo tanto, pueden no reflejar la política por defecto. Algunas instancias tienen direcciones Tor .onion que pueden otorgar cierta privacidad siempre y cuando sus consultas de búsqueda no contengan PII (Información Personal Identificable).
 
-## LBRY
-
-### Librarian
-
-!!! recommendation
-
-    ![Librarian logo](assets/img/frontends/librarian.svg#only-light){ align=right }
-    ![Librarian logo](assets/img/frontends/librarian-dark.svg#only-dark){ align=right }
-    
-    **Librarian** es una interfaz gratuita y de código abierto para [Odysee](https://odysee.com/) (LBRY) que también es autoalojable.
-    
-    Existen varias instancias públicas, algunas de las cuales disponen de soporte para servicios onion [Tor](https://www.torproject.org).
-    
-    [:octicons-repo-16: Repositorio](https://codeberg.org/librarian/librarian){ .md-button .md-button--primary }
-    [:octicons-server-16:](https://librarian.codeberg.page/){ .card-link title="Instancias Públicas"}
-    [:octicons-info-16:](https://codeberg.org/librarian/librarian/wiki){ .card-link title=Documentación}
-    [:octicons-code-16:](https://codeberg.org/librarian/librarian){ .card-link title="Código Fuente" }
-
-!!! warning "Advertencia"
-
-    Librarian no proporciona un proxy para los vídeos por defecto. Los vídeos vistos a través de Librarian seguirán realizando conexiones directas a los servidores de Odysee (por ejemplo, 'odycdn.com'); sin embargo, algunas instancias pueden habilitar el proxy, lo que se detallaría en la política de privacidad de la instancia.
-
-!!! tip "Consejo"
-
-    Librarian es útil si quiere ver contenido LBRY en el móvil sin telemetría obligatoria y si quiere desactivar JavaScript en su navegador, como es el caso de [Tor Browser](https://www.torproject.org/) en el nivel de seguridad Más Seguro.
-
 ## Twitter
 
 ### Nitter
