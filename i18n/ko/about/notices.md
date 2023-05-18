@@ -35,14 +35,14 @@ When you contribute to our website you are doing so under the above licenses, an
 
 ## Acceptable Use
 
-You may not use this website in any way that causes or may cause damage to the website or impairment of the availability or accessibility of Privacy Guides, or in any way which is unlawful, illegal, fraudulent, harmful, or in connection with any unlawful, illegal, fraudulent, or harmful purpose or activity.
+여러분은 본 웹사이트에 피해를 입히거나, 입힐 수 있는 방식으로 이용할 수 없으며, Privacy Guides의 가용성이나 접근성을 저해할 수 없습니다. 또한, 기타 모든 불법, 위법, 사기, 유해 행위 등을 직접적으로 저지르거나, 본 웹사이트를 불법, 위법, 사기, 유해 목적으로 이용할 수 없습니다.
 
 You must not conduct any systematic or automated data collection activities on or in relation to this website without express written consent, including:
 
-* Excessive Automated Scans
+* 과도한 자동화 스캔
 * Denial of Service Attacks
 * Scraping
-* Data Mining
+* 데이터 마이닝
 * 'Framing' (IFrames)
 
 ---

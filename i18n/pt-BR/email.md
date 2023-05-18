@@ -62,25 +62,25 @@ Se você tem o Proton Unlimited, Bussiness, ou Visionary Plan, você também gan
 
 O Proton Mail tem relatórios internos de travamento que eles **não** compartilham com terceiros. Isto pode ser desativado em: **Configurações** > **Vá para Configurações** > **Conta** > **Segurança e privacidade** > **Enviar relatórios de erro**.
 
-#### :material-check:{ .pg-green } Custom Domains and Aliases
+#### :material-check: { .pg-green } Domínios e Pseudônimos Personalizados
 
 Assinantes pagos do Proton Mail podem usar seu próprio domínio com o serviço ou um endereço de [pega-tudo (catch-all)](https://proton.me/support/catch-all). Proton Mail também suporta [subendereçamento](https://proton.me/support/creating-aliases), o que é útil para as pessoas que não querem comprar um domínio.
 
-#### :material-check:{ .pg-green } Private Payment Methods
+#### :material-check:{ .pg-green } Métodos de Pagamento Privados
 
 Proton Mail [aceita](https://proton.me/support/payment-options) dinheiro por correio, para além dos pagamentos normais com cartão de crédito/débito, [Bitcoin](advanced/payments.md#other-coins-bitcoin-ethereum-etc) e PayPal.
 
-#### :material-check:{ .pg-green } Account Security
+#### :material-check:{ .pg-green } Segurança da Conta
 
 Proton Mail suporta TOTP [autenticação de dois factores](https://proton.me/support/two-factor-authentication-2fa) e [chaves de segurança de hardware](https://proton.me/support/2fa-security-key) utilizando as normas FIDO2 ou U2F. O uso de uma chave de segurança de hardware requer a configuração da autenticação de dois fatores TOTP primeiro.
 
-#### :material-check:{ .pg-green } Data Security
+#### :material-check:{ .pg-green } Segurança dos Dados
 
 Proton Mail tem [criptografia de acesso zero](https://proton.me/blog/zero-access-encryption) em repouso para seus e-mails e [calendários](https://proton.me/news/protoncalendar-security-model). Os dados protegidos com criptografia de acesso zero só são acessíveis por você.
 
 Certas informações armazenadas no [Proton Contacts](https://proton.me/support/proton-contacts), como nomes de exibição e endereços de e-mail, não são protegidas com criptografia de acesso zero. Campos de contatos que suportam criptografia de acesso zero, tais como números de telefone, são indicados com um ícone de cadeado.
 
-#### :material-check:{ .pg-green } Email Encryption
+#### :material-check:{ .pg-green } Criptografia do Email
 
 Proton Mail [tem criptografia OpenPGP integrada](https://proton.me/support/how-to-use-pgp) em seu webmail. E-mails para outras contas do Proton Mail são criptografados automaticamente, e criptografia para endereços não-Proton Mail com uma chave OpenPGP pode ser facilmente ativada nas configurações da sua conta. Eles também permitem que você [criptografe mensagens para endereços não-Proton Mail](https://proton.me/support/password-protected-emails) sem a necessidade de eles se cadastrarem para uma conta Proton Mail ou usar programas como OpenPGP.
 
@@ -131,7 +131,7 @@ Mailbox.org permite criptografia de e-mails recebidos usando sua [caixa de corre
 
 No entanto, [Open-Exchange](https://en.wikipedia.org/wiki/Open-Xchange), a plataforma de software usada por Mailbox.org, [não suporta](https://kb.mailbox.org/display/BMBOKBEN/Encryption+of+calendar+and+address+book) a criptografia do seu catálogo de endereços e calendário. Uma [opção autônoma](calendar.md) pode ser mais apropriada para essas informações.
 
-#### :material-check:{ .pg-green } Email Encryption
+#### :material-check:{ .pg-green } Criptografia do Email
 
 Mailbox.org tem [criptografia integrada](https://kb.mailbox.org/display/MBOKBEN/Send+encrypted+e-mails+with+Guard) em seu webmail, o que simplifica o envio de mensagens para pessoas com chaves OpenPGP públicas. Eles também permitem que [destinatários remotos descriptografem um e-mail](https://kb.mailbox.org/display/MBOKBEN/My+recipient+does+not+use+PGP) nos servidores da Mailbox.org. Esse recurso é útil quando o destinatário remoto não tem OpenPGP e não pode descriptografar uma cópia do e-mail em sua própria caixa de correio.
 
@@ -249,27 +249,27 @@ Tutanota suporta [autenticação de dois fatores](https://tutanota.com/faq#2fa) 
 
 #### :material-check:{ .pg-green } Segurança dos Dados
 
-Tutanota has [zero access encryption at rest](https://tutanota.com/faq#what-encrypted) for your emails, [address book contacts](https://tutanota.com/faq#encrypted-address-book), and [calendars](https://tutanota.com/faq#calendar). This means the messages and other data stored in your account are only readable by you.
+Tutanota tem [criptografia de acesso zero em repouso](https://tutanota.com/faq#what-encrypted) para seus e-mails, [contatos de agenda](https://tutanota.com/faq#encrypted-address-book) e [calendários](https://tutanota.com/faq#calendar). Isso significa que as mensagens e outros dados armazenados em sua conta só são legíveis por você.
 
-#### :material-information-outline:{ .pg-blue } Email Encryption
+#### :material-information-outline:{ .pg-blue } Criptografia do Email
 
-Tutanota [does not use OpenPGP](https://www.tutanota.com/faq/#pgp). Tutanota accounts can only receive encrypted emails from non-Tutanota email accounts when sent via a [temporary Tutanota mailbox](https://www.tutanota.com/howto/#encrypted-email-external).
+Tutanota [não usa o OpenPGP](https://www.tutanota.com/faq/#pgp). Contas Tutanota só podem receber e-mails criptografados de contas de e-mail não-Tutanota quando enviados através de uma [caixa de correio temporária do Tutanota](https://www.tutanota.com/howto/#encrypted-email-external).
 
 #### :material-information-outline:{ .pg-blue } Rescisão da Conta
 
-Tutanota will [delete inactive free accounts](https://tutanota.com/faq#inactive-accounts) after six months. You can reuse a deactivated free account if you pay.
+Tutanota [excluirá contas gratuitas inativas](https://tutanota.com/faq#inactive-accounts) após seis meses. Você poderá reutilizar uma conta gratuita desativada se pagar.
 
 #### :material-information-outline:{ .pg-blue } Funcionalidades Adicionais
 
-Tutanota offers the business version of [Tutanota to non-profit organizations](https://tutanota.com/blog/posts/secure-email-for-non-profit) for free or with a heavy discount.
+Tutanota oferece a versão de negócios do [Tutanota para organizações sem fins lucrativos](https://tutanota.com/blog/posts/secure-email-for-non-profit) de graça ou com um grande desconto.
 
-Tutanota also has a business feature called [Secure Connect](https://tutanota.com/secure-connect/). This ensures customer contact to the business uses E2EE. The feature costs €240/y.
+Tutanota também tem um recurso empresarial chamado [Secure Connect](https://tutanota.com/secure-connect/). Isso garante que o contato do cliente com a empresa use o E2EE. O recurso custa 240 euros por ano.
 
-Tutanota doesn't offer a digital legacy feature.
+Tutanota não oferece um recurso de legado digital.
 
 ## Serviços de Disfarce de Email
 
-An email aliasing service allows you to easily generate a new email address for every website you register for. The email aliases you generate are then forwarded to an email address of your choosing, hiding both your "main" email address and the identity of your email provider. True email aliasing is better than plus addressing commonly used and supported by many providers, which allows you to create aliases like yourname+[anythinghere]@example.com, because websites, advertisers, and tracking networks can trivially remove anything after the + sign to know your true email address.
+Um serviço de disfarce de e-mail permite que você gere facilmente um novo endereço de e-mail para cada site em que se registrar. Os e-mails alternativos que você gera são encaminhados para um endereço de e-mail que você escolher, ocultando o seu endereço de e-mail "principal" e a identidade do seu provedor de email. True email aliasing is better than plus addressing commonly used and supported by many providers, which allows you to create aliases like yourname+[anythinghere]@example.com, because websites, advertisers, and tracking networks can trivially remove anything after the + sign to know your true email address.
 
 <div class="grid cards" markdown>
 

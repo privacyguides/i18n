@@ -42,9 +42,9 @@ Proton Drive의 새로운 모바일 클라이언트는 아직 제3자에 의해 
 
 !!! recommendation
 
-    ![Tresorit logo](assets/img/cloud/tresorit.svg){ align=right }
+    ![Tresorit 로고](assets/img/cloud/tresorit.svg){ align=right }
     
-    **Tresorit** is a Swiss-Hungarian encrypted cloud storage provider founded in 2011. Tresorit은 스위스 국영 우편 서비스인 스위스 포스트(스위스 우체국)가 소유하고 있습니다.
+    **Tresorit**은 2011년에 설립된 스위스-헝가리의 암호화 클라우드 스토리지 제공 업체입니다. Tresorit은 스위스 국영 우편 서비스인 스위스 포스트(스위스 우체국)가 소유하고 있습니다.
     
     [:octicons-home-16: 홈페이지](https://tresorit.com/){ class="md-button md-button--primary" }
     [:octicons-eye-16:](https://tresorit.com/legal/privacy-policy){ .card-link title="프라이버시 정책" }
