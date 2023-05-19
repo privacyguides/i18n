@@ -2,11 +2,11 @@
 title: "프라이버시 정책"
 ---
 
-Privacy Guides is a community project operated by a number of active volunteer contributors. 팀 구성원 공개 목록은 [GitHub에서 확인하실 수 있습니다](https://github.com/orgs/privacyguides/people).
+Privacy Guides는 여러 자원봉사자들이 운영하는 커뮤니티 프로젝트입니다. 팀 구성원 공개 목록은 [GitHub에서 확인하실 수 있습니다](https://github.com/orgs/privacyguides/people).
 
-## Data We Collect From Visitors
+## 방문자로부터 수집하는 데이터
 
-The privacy of our website visitors is important to us, so we do not track any individual people. As a visitor to our website:
+Privacy Guides에게 있어 중요한 것은 바로 여러분의 프라이버시입니다. 따라서 저희는 각각의 개인을 추적하지 않습니다. As a visitor to our website:
 
 - No personal information is collected
 - No information such as cookies are stored in the browser
