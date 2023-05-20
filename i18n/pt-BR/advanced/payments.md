@@ -3,27 +3,27 @@ title: Private Payments
 icon: material/hand-coin
 ---
 
-There's a reason data about your buying habits is considered the holy grail of ad targeting: your purchases can leak a veritable treasure trove of data about you. Unfortunately, the current financial system is anti-privacy by design, enabling banks, other companies, and governments to easily trace transactions. Nevertheless, you have plenty of options when it comes to making payments privately.
+Há um motivo pelo qual os dados sobre seus hábitos de compra são considerados o Santo Graal da segmentação de anúncios: suas compras podem vazar um verdadeiro tesouro de dados sobre você. Infelizmente, o sistema financeiro atual é anti-privacidade por natureza, permitindo que bancos, outras empresas e governos rastreiem facilmente as transações. Contudo, você tem muitas opções quando se trata de fazer pagamentos de forma privada.
 
-## Cash
+## Dinheiro
 
-For centuries, **cash** has functioned as the primary form of private payment. Cash has excellent privacy properties in most cases, is widely accepted in most countries, and is **fungible**, meaning it is non-unique and completely interchangable.
+Por séculos, **dinheiro** tem funcionado como a forma primária de pagamento privado. O dinheiro tem excelentes propriedades de privacidade na maioria dos casos, é amplamente aceito na maioria dos países, e é **fungível**, o que significa que não é único e é completamente intercambiável.
 
-Cash payment laws vary by country. In the United States, special disclosure is required for cash payments over $10,000 to the IRS on [Form 8300](https://www.irs.gov/businesses/small-businesses-self-employed/form-8300-and-reporting-cash-payments-of-over-10000). The receiving business is required to ID verify the payee’s name, address, occupation, date of birth, and Social Security Number or other TIN (with some exceptions). Lower limits without ID such as $3,000 or less exist for exchanges and money transmission. Cash also contains serial numbers. These are almost never tracked by merchants, but they can be used by law enforcement in targeted investigations.
+As leis de pagamento em dinheiro variam por país. Nos Estados Unidos, é necessária uma declaração especial para pagamentos em dinheiro acima de US$10.000 para o IRS no [Formulário 8300](https://www.irs.gov/businesses/small-businesses-self-employed/form-8300-and-reporting-cash-payments-of-over-10000). A empresa recebedora é obrigada a verificar o nome, o endereço, a ocupação, a data de nascimento e o número do seguro social ou outro TIN do beneficiário (com algumas exceções). Existem limites mais baixos sem identificação, tais como $3.000 ou menos, para trocas e transferência de dinheiro. Dinheiro também contém números de série. Eles quase nunca são rastreados pelos comerciantes, mas podem ser usados pelas autoridades policiais em investigações direcionadas.
 
-Despite this, it’s typically the best option.
+Apesar disso, normalmente é a melhor opção.
 
-## Prepaid Cards & Gift Cards
+## Cartões Pré-pagos & Cartões-Presente
 
-It’s relatively simple to purchase gift cards and prepaid cards at most grocery stores and convenience stores with cash. Gift cards usually don’t have a fee, though prepaid cards often do, so pay close attention to these fees and expiry dates. Some stores may ask to see your ID at checkout to reduce fraud.
+É relativamente simples comprar cartões-presente e cartões pré-pagos na maioria dos supermercados e lojas de conveniência com dinheiro. Os cartões-presente normalmente não têm taxas, embora os cartões pré-pagos geralmente tenham, portanto, preste muita atenção a essas taxas e datas de validade. Algumas lojas podem pedir para ver seu documento de identidade no caixa para reduzir fraudes.
 
-Gift cards usually have limits of up to $200 per card, but some offer limits of up to $2,000 per card. Prepaid cards (eg: from Visa or Mastercard) usually have limits of up to $1,000 per card.
+Os cartões-presente geralmente têm limites de até $200 por cartão, mas alguns oferecem limites de até $2.000 por cartão. Os cartões pré-pagos (por exemplo, Visa ou Mastercard) geralmente têm limites de até $1.000 por cartão.
 
-Gift cards have the downside of being subject to merchant policies, which can have terrible terms and restrictions. For example, some merchants don’t accept payment in gift cards exclusively, or they may cancel the value of the card if they consider you to be a high-risk user. Once you have merchant credit, the merchant has a strong degree of control over this credit.
+Os cartões-presente têm a desvantagem de estarem sujeitos às políticas do comerciante, que podem ter termos e restrições terríveis. Por exemplo, alguns comerciantes não aceitam pagamento exclusivamente em cartões-presente ou podem cancelar o valor do cartão se considerarem que você é um usuário de alto risco. Quando você tem crédito comercial, o comerciante tem um alto grau de controle sobre esse crédito.
 
-Prepaid cards don’t allow cash withdrawals from ATMs or “peer-to-peer” payments in Venmo and similar apps.
+Cartões pré-pagos não permitem saques em dinheiro em caixas eletrônicos ou pagamentos "peer-to-peer" no Venmo e em aplicativos semelhantes.
 
-Cash remains the best option for in-person purchases for most people. Gift cards can be useful for the savings they bring. Prepaid cards can be useful for places that don’t accept cash. Gift cards and prepaid cards are easier to use online than cash, and they are easier to acquire with cryptocurrencies than cash.
+Dinheiro continua sendo a melhor opção para compras presenciais para a maioria das pessoas. Os cartões-presente podem ser úteis pela economia que proporcionam. Cartões pré-pagos podem ser úteis em locais que não aceitam dinheiro. Cartões-presente e cartões pré-pagos são mais fáceis de usar on-line do que o dinheiro, e são mais fáceis de adquirir com criptomoedas do que com dinheiro.
 
 ### Online Marketplaces
 

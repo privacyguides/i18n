@@ -269,7 +269,7 @@ Tutanota não oferece um recurso de legado digital.
 
 ## Serviços de Disfarce de Email
 
-Um serviço de disfarce de e-mail permite que você gere facilmente um novo endereço de e-mail para cada site em que se registrar. Os e-mails alternativos que você gera são encaminhados para um endereço de e-mail que você escolher, ocultando o seu endereço de e-mail "principal" e a identidade do seu provedor de email. True email aliasing is better than plus addressing commonly used and supported by many providers, which allows you to create aliases like yourname+[anythinghere]@example.com, because websites, advertisers, and tracking networks can trivially remove anything after the + sign to know your true email address.
+Um serviço de disfarce de e-mail permite que você gere facilmente um novo endereço de e-mail para cada site em que se registrar. Os e-mails alternativos que você gera são encaminhados para um endereço de e-mail que você escolher, ocultando o seu endereço de e-mail "principal" e a identidade do seu provedor de email. Um verdadeiro pseudônimo de e-mail é melhor do que o endereçamento plus comumente usado e suportado por muitos provedores, que permite criar pseudônimos como seunome+[anythinghere]@exemplo.com, porque sites, anunciantes e redes de rastreamento podem remover trivialmente qualquer coisa após o sinal + para saber seu verdadeiro endereço de e-mail.
 
 <div class="grid cards" markdown>
 
@@ -278,22 +278,22 @@ Um serviço de disfarce de e-mail permite que você gere facilmente um novo ende
 
 </div>
 
-Email aliasing can act as a safeguard in case your email provider ever ceases operation. In that scenario, you can easily re-route your aliases to a new email address. In turn, however, you are placing trust in the aliasing service to continue functioning.
+Os pseudônimos de e-mail podem funcionar como uma proteção caso seu provedor de e-mail encerre suas atividades. Nesse cenário, você pode facilmente redirecionar seus pseudônimos para um novo endereço de e-mail. Por outro lado, no entanto, você está depositando confiança na continuidade do funcionamento do serviço de pseudônimo.
 
-Using a dedicated email aliasing service also has a number of benefits over a catch-all alias on a custom domain:
+O uso de um serviço especializado em pseudônimos de e-mail também tem várias vantagens em relação a um pseudônimo "catch-all" genérico de um domínio personalizado:
 
-- Aliases can be turned on and off individually when you need them, preventing websites from emailing you randomly.
-- Replies are sent from the alias address, shielding your real email address.
+- Pseudônimos podem ser ativados e desativados individualmente quando você precisar deles, evitando que os sites enviem e-mails aleatórios para você.
+- Suas respostas são enviadas pelo endereço de pseudônimo, protegendo seu endereço de e-mail real.
 
-They also have a number of benefits over "temporary email" services:
+Eles também têm vários benefícios em relação aos serviços de "e-mail temporário":
 
-- Aliases are permanent and can be turned on again if you need to receive something like a password reset.
-- Emails are sent to your trusted mailbox rather than stored by the alias provider.
-- Temporary email services typically have public mailboxes which can be accessed by anyone who knows the address, aliases are private to you.
+- Os pseudônimos são permanentes e podem ser ativadas novamente se você precisar receber algo como uma redefinição de senha.
+- E-mails são enviados para sua caixa de correio confiável em vez de serem armazenados pelo provedor de pseudônimos.
+- Serviços de e-mail temporários normalmente têm caixas de correio públicas que podem ser acessadas por qualquer pessoa que conheça o endereço; os pseudônimos são privados para você.
 
-Our email aliasing recommendations are providers that allow you to create aliases on domains they control, as well as your own custom domain(s) for a modest yearly fee. They can also be self-hosted if you want maximum control. However, using a custom domain can have privacy-related drawbacks: If you are the only person using your custom domain, your actions can be easily tracked across websites simply by looking at the domain name in the email address and ignoring everything before the at (@) sign.
+Nossas recomendações de pseudônimos de e-mail são provedores que permitem que você crie pseudônimos nos domínios que eles controlam, bem como em seu(s) próprio(s) domínio(s) personalizado(s), por uma modesta taxa anual. Eles também podem ser auto-hospedados se você quiser ter o máximo de controle. Contudo, o uso de um domínio personalizado pode ter desvantagens relacionadas à privacidade: Se você for a única pessoa a usar seu domínio personalizado, suas ações poderão ser facilmente rastreadas em todos os sites simplesmente observando o nome do domínio no endereço de e-mail e ignorando tudo antes do sinal de arroba (@).
 
-Using an aliasing service requires trusting both your email provider and your aliasing provider with your unencrypted messages. Some providers mitigate this slightly with automatic PGP encryption, which reduces the number of parties you need to trust from two to one by encrypting incoming emails before they are delivered to your final mailbox provider.
+O uso de um serviço de pseudônimo exige que as mensagens não criptografadas sejam confiadas ao seu provedor de e-mail e ao provedor de pseudônimo. Alguns provedores diminuem um pouco esse problema com a criptografia PGP automática, que reduz o número de partes em que você precisa confiar de duas para uma, criptografando os e-mails recebidos antes de serem entregues ao seu provedor de caixa de correio final.
 
 ### AnonAddy
 
@@ -302,7 +302,7 @@ Using an aliasing service requires trusting both your email provider and your al
     ![AnonAddy logo](assets/img/email/anonaddy.svg#only-light){ align=right }
     ![AnonAddy logo](assets/img/email/anonaddy-dark.svg#only-dark){ align=right }
     
-    **AnonAddy** lets you create 20 domain aliases on a shared domain for free, or unlimited "standard" aliases which are less anonymous.
+    **AnonAddy** permite criar 20 pseudônimos de domínio gratuitamente em um domínio compartilhado, ou pseudônimos "padrão" ilimitados, que são menos anônimos.
     
     [:octicons-home-16: Homepage](https://anonaddy.com){ .md-button .md-button--primary }
     [:octicons-eye-16:](https://anonaddy.com/privacy/){ .card-link title="Privacy Policy" }
@@ -317,23 +317,23 @@ Using an aliasing service requires trusting both your email provider and your al
         - [:simple-firefoxbrowser: Firefox](https://addons.mozilla.org/en-GB/firefox/addon/anonaddy/)
         - [:simple-googlechrome: Chrome](https://chrome.google.com/webstore/detail/anonaddy-anonymous-email/iadbdpnoknmbdeolbapdackdcogdmjpe)
 
-The number of shared aliases (which end in a shared domain like @anonaddy.me) that you can create is limited to 20 on AnonAddy's free plan and 50 on their $12/year plan. You can create unlimited standard aliases (which end in a domain like @[username].anonaddy.com or a custom domain on paid plans), however, as previously mentioned, this can be detrimental to privacy because people can trivially tie your standard aliases together based on the domain name alone. Unlimited shared aliases are available for $36/year.
+O número de pseudônimos compartilhados (que terminam em um domínio compartilhado como @anonaddy.me) que você pode criar é limitado a 20 no plano gratuito do AnonAddy e a 50 no plano de 12 dólares por ano. Você pode criar pseudônimos padrão ilimitados (que terminam em um domínio como @[username].anonaddy.com ou um domínio personalizado em planos pagos); no entanto, conforme mencionado anteriormente, isso pode ser prejudicial à privacidade porque as pessoas podem vincular seus pseudônimos padrão de forma fácil com base apenas no nome do domínio. Pseudônimos compartilhados ilimitados estão disponíveis por um preço de 36 dólares por ano.
 
-Notable free features:
+Recursos gratuitos de destaque:
 
-- [x] 20 Shared Aliases
-- [x] Unlimited Standard Aliases
+- [x] 20 Pseudônimos Compartilhados
+- [x] Pseudônimos Padrão Ilimitados
 - [ ] No Outgoing Replies
-- [x] 2 Recipient Mailboxes
-- [x] Automatic PGP Encryption
+- [x] 2 Caixas de Correio Destinatárias
+- [x] Criptografia PGP automática
 
 ### SimpleLogin
 
 !!! recommendation
 
-    ![Simplelogin logo](assets/img/email/simplelogin.svg){ align=right }
+    ![Logótipo Simplelogin](assets/img/email/simplelogin.svg){ align=right }
     
-    **SimpleLogin** is a free service which provides email aliases on a variety of shared domain names, and optionally provides paid features like unlimited aliases and custom domains.
+    **SimpleLogin** é um serviço gratuito que fornece pseudônimos de e-mail em uma variedade de nomes de domínio compartilhados e, opcionalmente, oferece recursos pagos, como pseudônimos ilimitados e domínios personalizados.
     
     [:octicons-home-16: Homepage](https://simplelogin.io){ .md-button .md-button--primary }
     [:octicons-eye-16:](https://simplelogin.io/privacy/){ .card-link title="Privacy Policy" }
@@ -350,21 +350,21 @@ Notable free features:
         - [:simple-microsoftedge: Edge](https://microsoftedge.microsoft.com/addons/detail/simpleloginreceive-sen/diacfpipniklenphgljfkmhinphjlfff)
         - [:simple-safari: Safari](https://apps.apple.com/app/id1494051017)
 
-SimpleLogin was [acquired by Proton AG](https://proton.me/news/proton-and-simplelogin-join-forces) as of April 8, 2022. If you use Proton Mail for your primary mailbox, SimpleLogin is a great choice. As both products are now owned by the same company you now only have to trust a single entity. We also expect that SimpleLogin will be more tightly integrated with Proton's offerings in the future. SimpleLogin continues to support forwarding to any email provider of your choosing. Securitum [audited](https://simplelogin.io/blog/security-audit/) SimpleLogin in early 2022 and all issues [were addressed](https://simplelogin.io/audit2022/web.pdf).
+SimpleLogin foi [adquirido pelo Proton AG](https://proton.me/news/proton-and-simplelogin-join-forces) a partir de 8 de abril de 2022. Se você usa o Proton Mail como sua caixa de correio principal, o SimpleLogin é uma ótima opção. Como os dois produtos agora pertencem à mesma empresa, você só precisa confiar em uma única entidade. Também esperamos que, no futuro, o SimpleLogin seja mais fortemente integrado às ofertas da Proton. SimpleLogin continua a oferecer suporte ao encaminhamento para qualquer provedor de e-mail de sua escolha. A Securitum [auditou](https://simplelogin.io/blog/security-audit/) SimpleLogin no início de 2022 e todos os problemas [foram abordados](https://simplelogin.io/audit2022/web.pdf).
 
-You can link your SimpleLogin account in the settings with your Proton account. If you have the Proton Unlimited, Business, or Visionary Plan, you will have SimpleLogin Premium for free.
+Você pode vincular sua conta SimpleLogin com sua conta Proton nas configurações. Se você tiver o Proton Unlimited, Business ou Visionary Plan, terá o SimpleLogin Premium gratuitamente.
 
-Notable free features:
+Recursos gratuitos de destaque:
 
-- [x] 10 Shared Aliases
-- [x] Unlimited Replies
-- [x] 1 Recipient Mailbox
+- [x] 10 Pseudônimos Compartilhados
+- [x] Respostas ilimitadas
+- [x] 1 Caixa de Correio Destinatária
 
 ## Email Auto-Hospedado
 
-Advanced system administrators may consider setting up their own email server. Mail servers require attention and continuous maintenance in order to keep things secure and mail delivery reliable.
+Administratores de sistema avançados podem considerar a possibilidade de configurar seu próprio servidor de e-mail. Servidores de correio eletrônico requerem atenção e manutenção contínua para manter as coisas seguras e a entrega de correio eletrônico confiável.
 
-### Combined software solutions
+### Soluções combinadas de software
 
 !!! recommendation
 
@@ -381,28 +381,28 @@ Advanced system administrators may consider setting up their own email server. M
 
     ![Mail-in-a-Box logo](assets/img/email/mail-in-a-box.svg){ align=right }
     
-    **Mail-in-a-Box** is an automated setup script for deploying a mail server on Ubuntu. Its goal is to make it easier for people to set up their own mail server.
+    **Mail-in-a-Box** é um script de configuração automatizado para implementar um servidor de correio no Ubuntu. Seu objetivo é facilitar a configuração de seu próprio servidor de e-mail.
     
     [:octicons-home-16: Homepage](https://mailinabox.email){ .md-button .md-button--primary }
     [:octicons-info-16:](https://mailinabox.email/guide.html){ .card-link title=Documentation}
     [:octicons-code-16:](https://github.com/mail-in-a-box/mailinabox){ .card-link title="Source Code" }
 
-For a more manual approach we've picked out these two articles:
+Para uma abordagem mais manual, selecionamos estes dois artigos:
 
-- [Setting up a mail server with OpenSMTPD, Dovecot and Rspamd](https://poolp.org/posts/2019-09-14/setting-up-a-mail-server-with-opensmtpd-dovecot-and-rspamd/) (2019)
-- [How To Run Your Own Mail Server](https://www.c0ffee.net/blog/mail-server-guide/) (August 2017)
+- [Configurando um servidor de email com OpenSMTPD, Dovecot e Rspamd](https://poolp.org/posts/2019-09-14/setting-up-a-mail-server-with-opensmtpd-dovecot-and-rspamd/) (2019)
+- [Como executar seu próprio servidor de email](https://www.c0ffee.net/blog/mail-server-guide/) (agosto de 2017)
 
-## Criteria
+## Requisitos
 
-**Please note we are not affiliated with any of the providers we recommend.** In addition to [our standard criteria](about/criteria.md), we have developed a clear set of requirements for any Email provider wishing to be recommended, including implementing industry best practices, modern technology and more. We suggest you familiarize yourself with this list before choosing an Email provider, and conduct your own research to ensure the Email provider you choose is the right choice for you.
+**Por favor, note que não somos afiliados a nenhum dos provedores que recomendamos.** Além de [nossos critérios básicos](about/criteria.md), desenvolvemos um conjunto claro de requisitos para qualquer provedor de e-mail que queira ser mencionado, incluindo a implementação de melhores práticas do setor, tecnologia moderna e muito mais. Sugerimos que você se familiarize com esta lista antes de escolher um provedor de e-mail e faça sua própria pesquisa para garantir que o provedor de e-mail escolhido seja a opção certa para você.
 
-### Technology
+### Tecnologia
 
-We regard these features as important in order to provide a safe and optimal service. You should consider whether the provider which has the features you require.
+Consideramos esses recursos importantes para fornecer um serviço seguro e otimizado. Você deve considerar se o provedor tem os recursos de que você precisa.
 
-**Minimum to Qualify:**
+**Mínimo Para Qualificação:**
 
-- Encrypts email account data at rest with zero-access encryption.
+- Criptografa os dados da conta de e-mail em repouso com criptografia de acesso zero.
 - Export capability as [Mbox](https://en.wikipedia.org/wiki/Mbox) or individual .eml with [RFC5322](https://datatracker.ietf.org/doc/rfc5322/) standard.
 - Allow users to use their own [domain name](https://en.wikipedia.org/wiki/Domain_name). Custom domain names are important to users because it allows them to maintain their agency from the service, should it turn bad or be acquired by another company which doesn't prioritize privacy.
 - Operates on owned infrastructure, i.e. not built upon third-party email service providers.

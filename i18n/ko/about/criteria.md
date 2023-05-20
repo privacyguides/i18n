@@ -16,12 +16,12 @@ We do not make money from recommending certain products, we do not use affiliate
 
 We apply these priorities when considering new recommendations:
 
-- **Secure**: Tools should follow security best-practices wherever applicable.
-- **Source Availability**: Open source projects are generally preferred over equivalent proprietary alternatives.
-- **Cross-Platform**: We typically prefer recommendations to be cross-platform, to avoid vendor lock-in.
-- **Active Development**: The tools that we recommend should be actively developed, unmaintained projects will be removed in most cases.
-- **Usability**: Tools should be accessible to most computer users, an overly technical background should not be required.
-- **Documented**: Tools should have clear and extensive documentation for use.
+- **보안**: 툴은 (해당되는 경우) 보안 모범 사례를 따라야 합니다.
+- **소스 가용성**: 오픈 소스 프로젝트는 일반적으로 독점 프로젝트보다 우선됩니다.
+- **크로스 플랫폼**: 특정 벤더에 종속되는 것을 피하기 위해 일반적으로 크로스 플랫폼을 우선합니다.
+- **활발한 개발**: 권장 툴은 유지 관리가 활발하게 이루어져야 합니다. 개발이 중단된 프로젝트는 대부분 제거됩니다.
+- **사용성**: 툴은 대부분의 컴퓨터 사용자가 사용하는 데에 무리가 없어야 합니다. 지나치게 많은 기술적 배경 지식이 요구되어서는 안 됩니다.
+- **문서화**: 툴은 명확하고 폭넓은 안내 문서를 제공해야 합니다.
 
 ## Developer Self-Submissions
 

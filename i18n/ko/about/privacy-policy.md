@@ -6,56 +6,56 @@ Privacy Guides는 여러 자원봉사자들이 운영하는 커뮤니티 프로�
 
 ## 방문자로부터 수집하는 데이터
 
-Privacy Guides에게 있어 중요한 것은 바로 여러분의 프라이버시입니다. 따라서 저희는 각각의 개인을 추적하지 않습니다. As a visitor to our website:
+Privacy Guides에게 있어 중요한 것은 바로 여러분의 프라이버시입니다. 따라서 저희는 각각의 개인을 추적하지 않습니다. 사이트 방문자의 경우 다음 사항이 적용됩니다.
 
-- No personal information is collected
-- No information such as cookies are stored in the browser
-- No information is shared with, sent to or sold to third-parties
-- No information is shared with advertising companies
-- No information is mined and harvested for personal and behavioral trends
-- No information is monetized
+- 어떠한 개인 정보도 수집되지 않습니다
+- 쿠키 등의 정보는 브라우저에 저장되지 않습니다
+- 어떠한 정보도 제3자에게 공유, 전송 판매되지 않습니다
+- 어떠한 정보도 광고 회사와 공유되지 않습니다
+- 어떠한 정보도 개인 및 행동 경향을 알아내기 위해 분석, 수집되지 않습니다
+- 어떠한 정보도 수익 창출을 위해 이용되지 않습니다
 
-You can view the data we collect on our [statistics](statistics.md) page.
+Privacy Guides가 수집하는 데이터는 [통계](statistics.md) 페이지에서 확인하실 수 있습니다.
 
-We run a self-hosted installation of [Plausible Analytics](https://plausible.io) to collect some anonymous usage data for statistical purposes. The goal is to track overall trends in our website traffic, it is not to track individual visitors. All the data is in aggregate only. No personal data is collected.
+Privacy Guides는 통계 분석 목적으로 일부 사용 데이터를 수집하며, 여기에는 [Plausible Analytics](https://plausible.io)를 자체 호스팅하여 사용하고 있습니다. 데이터 수집 목표는 개별 방문자 추적이 아닌, 트래픽의 전반적인 경향을 알아내기 위함입니다. 모든 데이터는 총합으로만 집계됩니다. 개인 정보는 일절 수집하지 않습니다.
 
-Data collected includes referral sources, top pages, visit duration, information from the devices (device type, operating system, country and browser) used during the visit and more. You can learn more about how Plausible works and collects information in a privacy-respecting manner [here](https://plausible.io/data-policy).
+수집하는 데이터는 유입 경로, 인기 페이지, 방문 기간, 방문 시 사용한 기기 정보(기기 유형, 운영 체제, 국가 및 브라우저) 등이 있습니다. Plausible이 어떻게 프라이버시를 해치지 않으면서 데이터를 수집하는지는 [여기](https://plausible.io/data-policy)서 확인하실 수 있습니다.
 
-## Data We Collect From Account Holders
+## 계정 소유자로부터 수집하는 데이터
 
-On some websites and services we provide, many features may require an account. For example, an account may be required to post and reply to topics on a forum platform.
+Privacy Guides에서 운영하는 웹사이트, 서비스에는 계정이 필요한 기능이 여럿 있습니다. 대표적으로, 계정이 없으면 Privacy Guides 포럼에서 글을 게시하거나 댓글을 작성할 수 없습니다.
 
-To sign up for most accounts, we will collect a name, username, email, and password. In the event a website requires more information than just that data, that will be clearly marked and noted in a separate privacy statement per-site.
+대부분의 계정은 가입 시 이름, 사용자 이름, 이메일, 비밀번호가 수집됩니다. 추가 정보를 필요로 하는 경우, 사이트마다 존재하는 별도 프라이버시 정책에 해당 정보를 명확하게 명시해드립니다.
 
-We use your account data to identify you on the website and to create pages specific to you, such as your profile page. We will also use your account data to publish a public profile for you on our services.
+여러분의 계정 정보는 웹사이트에서 여러분을 식별하고, 프로필 페이지 등의 특정 페이지를 생성하는 용도로 사용됩니다. 또한 서비스 상의 공개 프로필을 생성하는 데에도 사용됩니다.
 
-We use your email to:
+여러분의 이메일 주소는 다음 목적으로 사용됩니다.
 
-- Notify you about posts and other activity on the websites or services.
-- Reset your password and help keep your account secure.
-- Contact you in special circumstances related to your account.
-- Contact you about legal requests, such as DMCA takedown requests.
+- 웹사이트 및 서비스에서 게시글을 비롯한 각종 활동에 대해 알려드립니다.
+- 비밀번호 재설정 및 계정 보호 관련 정보를 안내해 드립니다.
+- 계정과 관련된 특별한 상황이 발생할 경우 알려드립니다.
+- DMCA 게시 중단 등 법적 요청에 관련해 연락드립니다.
 
-On some websites and services you may provide additional information for your account, such as a short biography, avatar, your location, or your birthday. We make that information available to everyone who can access the website or service in question. This information is not required to use any of our services and can be erased at any time.
+일부 웹사이트 및 서비스에서는 간단한 소개, 아바타, 지역, 생일 등 추가 정보를 제공하실 수도 있습니다. 이러한 정보는 해당 웹사이트 및 서비스에 접근 가능한 모든 사람이 볼 수 있습니다. 이러한 정보는 Privacy Guides 서비스 이용에 필수적이지 않으며 언제든지 삭제하실 수 있습니다.
 
-We will store your account data as long as your account remains open. After closing an account, we may retain some or all of your account data in the form of backups or archives for up to 90 days.
+여러분의 계정 데이터는 계정이 활성화되어 있는 동안 보관됩니다. 계정을 해지할 경우, Privacy Guides는 백업 및 보존 목적으로 최대 90일간 여러분의 계정 데이터를 보관할 수 있습니다.
 
-## Contacting Us
+## 문의하기
 
-The Privacy Guides team generally does not have access to personal data outside of limited access granted via some moderation panels. Inquiries regarding your personal information should be sent directly to:
+일반적으로 Privacy Guides 팀은 관리 패널에서 접근 가능한 일부 데이터 외에는 여러분의 개인 데이터에 접근할 수 없습니다. 개인 정보 관련 문의는 다음 연락처로 직접 보내셔야 합니다.
 
 ```text
 Jonah Aragon
-Services Administrator
+서비스 관리자
 jonah@privacyguides.org
 ```
 
-For all other inquiries, you can contact any member of our team.
+기타 모든 문의 사항은 Privacy Guides 팀원에게 문의하시면 됩니다.
 
-For complaints under GDPR more generally, you may lodge complaints with your local data protection supervisory authorities. In France it's the Commission Nationale de l'Informatique et des Libertés which take care and handle the complaints. They provide a [template of complaint letter](https://www.cnil.fr/en/plaintes) to use.
+GDPR 관련 불만 사항은 해당 지역의 데이터 보호 감독 기관에 문의하실 수 있습니다. 프랑스의 경우 'Commission Nationale de l'Informatique et des Libertés'가 해당합니다. 해당 기관에서는 [컴플레인 템플릿](https://www.cnil.fr/en/plaintes)이 제공됩니다.
 
-## About This Policy
+## 정책 정보
 
-We will post any new versions of this statement [here](privacy-policy.md). We may change how we announce changes in future versions of this document. In the meantime we may update our contact information at any time without announcing a change. Please refer to the [Privacy Policy](privacy-policy.md) for the latest contact information at any time.
+본 정책이 새로 갱신될 경우 현재 보고 계신 [이 페이지](privacy-policy.md)에 게시될 예정입니다. 본 문서의 변경 사항 공지 방식은 향후 변경될 수도 있습니다. 연락처 정보의 경우 사전 공지 없이 언제든지 업데이트될 수 있습니다. 최신 연락처 정보를 확인해야 할 때는 [프라이버시 정책](privacy-policy.md)을 참고하시기 바랍니다.
 
-A full revision [history](https://github.com/privacyguides/privacyguides.org/commits/main/docs/about/privacy-policy.md) of this page can be found on GitHub.
+본 페이지의 [전체 변경 이력](https://github.com/privacyguides/privacyguides.org/commits/main/docs/about/privacy-policy.md)은 GitHub에서 확인하실 수 있습니다.

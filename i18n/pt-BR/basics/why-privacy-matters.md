@@ -1,57 +1,57 @@
 ---
-title: "Why Privacy Matters"
+title: "Porque a Privacidade Importa"
 icon: 'material/shield-account'
 ---
 
-In the modern age of digital data exploitation, your privacy has never been more critical, and yet many believe it is already a lost cause. It is not. ==Your privacy is up for grabs==, and you need to care about it. Privacy is about power, and it is so important that this power ends up in the right hands.
+Na era moderna da exploração de dados digitais, sua privacidade nunca foi tão importante e, ainda assim, muitos acreditam que ela já é uma causa perdida. Não é. ==Sua privacidade está em risco==, e você precisa se preocupar com ela. Privacidade é sobre poder, e é muito importante que esse poder esteja nas mãos certas.
 
-Privacy is ultimately about human information, and this is important because we know that human information confers power over human beings. If we care about our ability to be authentic, fulfilled, and free humans, we have to care about the rules that apply to information about us. So much of our modern society is structured around **information**. When you shop online, read the news, look something up, vote, seek directions, or really anything else, you are relying on information. If we live in an information society, our information matters, and therefore privacy matters.
+Privacidade é, no final das contas, sobre informações humanas, e isso é importante porque sabemos que as informações humanas conferem poder sobre os seres humanos. Se nós nos preocupamos com nossa capacidade de sermos seres humanos autênticos, realizados e livres, temos que nos preocupar com as regras que se aplicam às informações sobre nós. Grande parte de nossa sociedade moderna é construída com base em **informações**. Quando você faz compras on-line, lê as notícias, pesquisa algo, vota, procura endereços ou qualquer outra coisa, você depende de informações. Se vivemos em uma sociedade da informação, nossas informações são importantes, portanto, a privacidade é importante.
 
-## What is Privacy?
+## O que é Privacidade?
 
-Many people get the concepts of **privacy**, **security**, and **anonymity** confused. You'll see people criticize various products as "not private" when really they mean it doesn't provide anonymity, for example. On this website, we cover all three of these topics, but it is important you understand the difference between them, and when each one comes into play.
+Muitas pessoas confundem os conceitos de **privacidade**, **segurança**, e **anonimato**. Você verá pessoas criticando vários produtos como "não privados" quando, na verdade, elas querem dizer que eles não fornecem anonimato, por exemplo. Neste site, examinamos todos esses três tópicos, mas é importante que você entenda a diferença entre eles e quando cada um entra em ação.
 
-**Privacy**
+**Privacidade**
 :
 
-==Privacy is the assurance that your data is only seen by the parties you intend to view it.== In the context of an instant messenger, for example, end-to-end encryption provides privacy by keeping your message visible only to yourself and the recipient.
+==Privacidade é a garantia de que seus dados serão vistos apenas pelas partes que você pretende que os vejam.== No contexto de um mensageiro instantâneo, por exemplo, a criptografia de ponta a ponta oferece privacidade ao manter a mensagem visível apenas para você e para o destinatário.
 
-**Security**
+**Segurança**
 :
 
-Security is the ability to trust the applications you use—that the parties involved are who they say they are—and keep those applications safe. In the context of browsing the web, for example, security can be provided by HTTPS certificates.
+Segurança é a capacidade de confiar nos aplicativos que você usa — que as partes envolvidas são quem dizem ser — e manter esses aplicativos seguros. No contexto da navegação na Internet, por exemplo, a segurança pode ser fornecida por certificados HTTPS.
 
-    Certificates prove you are talking directly to the website you're visiting, and keep attackers on your network from reading or modifying the data sent to or from the website.
+    Os certificados comprovam que você está falando diretamente com o site que está visitando e impedem que invasores na sua rede leiam ou modifiquem os dados enviados para o site ou a partir dele.
 
-**Anonymity**
+**Anonimato**
 :
 
-Anonymity is the ability to act without a persistent identifier. You might achieve this online with [Tor](../tor.md), which allows you to browse the internet with a random IP address and network connection instead of your own.
+Anonimato é a capacidade de agir sem um identificador persistente. Você pode fazer isso on-line com o [Tor](../tor.md), que permite navegar na Internet com um endereço IP e uma conexão de rede aleatória, no lugar da sua própria.
 
-    **Pseudonymity** is a similar concept, but it allows you to have a persistent identifier without it being tied to your real identity. If everybody knows you as `@GamerGuy12` online, but nobody knows your real name, that is your pseudonym.
+    **Pseudonimato** é um conceito semelhante, mas permite que você tenha um identificador persistente sem que ele esteja vinculado à sua identidade real. Se todos conhecem você online como `@JogadorRapaz12`, mas ninguém sabe o seu nome verdadeiro, esse é o seu pseudônimo.
 
-All of these concepts overlap, but it is possible to have any combination of these. The sweet spot for most people is when all three of these concepts overlap. However, it's tricker to achieve than many initially believe. Sometimes, you have to compromise on some of these, and that's okay too. This is where **threat modeling** comes into play, allowing you to make informed decisions about the [software and services](../tools.md) you use.
+Todos esses conceitos se sobrepõem, mas é possível ter qualquer combinação deles. O ponto ideal para a maioria das pessoas é quando todos esses três conceitos se coincidem. Porém, isso é mais difícil de conseguir do que muitos acreditam inicialmente. Às vezes, você precisa fazer um meio-termo em relação a alguns desses itens, e isso também é normal. É nesse ponto que a **modelagem de ameaças** entra em ação, permitindo que você tome decisões informadas sobre os [aplicativos e serviços](../tools.md) que você usa.
 
-[:material-book-outline: Learn More About Threat Modeling](basics/threat-modeling.md ""){.md-button}
+[:material-book-outline: Saiba Mais Sobre a Modelagem de Ameaças](basics/threat-modeling.md ""){.md-button}
 
-## Privacy vs. Secrecy
+## Privacidade vs. Segredo
 
-A common counter-argument to pro-privacy movements is the notion that one doesn't need privacy if they have **"nothing to hide."** This is a dangerous misconception, because it creates a sense that people who demand privacy must be deviant, criminal, or wrong.
+Um contra-argumento comum aos movimentos pró-privacidade é a ideia de que uma pessoa não precisa de privacidade se não tiver **"nada a esconder"**. Essa é uma concepção falsa e perigosa, pois cria a sensação de que as pessoas que pedem privacidade devem ser desonestas, criminosas ou mal-intencionadas.
 
-==You shouldn't confuse privacy with secrecy.== We know what happens in the bathroom, but you still close the door. Isso é porque você quer privacidade, não segredo. There are always certain facts about us—say, personal health information, or sexual behavior—that we wouldn't want the whole world to know, and that's okay. The need for privacy is legitimate, and that's what makes us human. Privacy is about empowering your rights over your own information, not about hiding secrets.
+==Você nunca pode confundir privacidade com segredo.== Nós sabemos o que acontece no banheiro, mas mesmo assim você fecha a porta. Isso é porque você quer privacidade, não segredo. Sempre há certos fatos sobre nós — digamos, informações pessoais de saúde ou comportamento sexual — que não gostaríamos que o mundo inteiro soubesse, e tudo bem. A necessidade de privacidade é natural, e é isso que nos torna humanos. Privacidade é sobre fortalecer seus direitos sobre suas próprias informações, não sobre esconder segredos.
 
-## Is Privacy About Control?
+## Privacidade Fala Sobre Controle?
 
-A common definition of privacy is that it is the ability to *control* who has access to your data. This is an easy trap to fall into, in fact it is the definition of privacy we operated this website on for a long time. It sounds nice, and it appeals to many people, but in practice it just doesn't work.
+Uma definição comum de privacidade é a capacidade de *controlar* quem tem acesso aos seus dados. Essa é uma armadilha fácil de cair; na verdade, é a definição de privacidade com a qual operamos este site por muito tempo. Parece bom e agrada a muitas pessoas, mas, na prática, simplesmente não funciona.
 
-Take cookie consent forms, for example. You may encounter these dozens of times per day on the various websites you visit, with a nice array of checkboxes and sliders which allow you to "curate" your preferences to exactly fit your needs. In the end, we just hit the "I Agree" button, because we just want to read the article or make a purchase. Nobody wants to complete a personal privacy audit on every single website they visit. This is an exercise in [choice architecture](https://en.wikipedia.org/wiki/Choice_architecture), designed to make you take the easy route out instead of delving into a maze of configuration options that don't need to exist in the first place.
+Veja os formulários de consentimento de cookies, por exemplo. Você pode encontrá-los dezenas de vezes por dia nos vários sites que visita, com uma boa variedade de caixas de seleção e controles deslizantes que permitem "selecionar" suas preferências para atender exatamente às suas necessidades. No final, nós simplesmente apertamos o botão "Eu concordo", porque queremos apenas ler o artigo ou fazer uma compra. Ninguém quer fazer uma auditoria individual de privacidade em cada site que visita. Esse é um exercício de [maquiagem de escolha](https://en.wikipedia.org/wiki/Choice_architecture), projetado para fazer com que você escolha o caminho mais fácil, em vez de se aprofundar em um labirinto de opções de configuração que, em primeiro lugar, não precisam existir.
 
-==Control over your privacy inside most apps is an illusion.== It's a shiny dashboard with all sorts of choices you can make about your data, but rarely the choices you're looking for, like "only use my data to help me." This type of control is meant to make you feel guilty about your choices, that you "had the choice" to make the apps you use more private, and you chose not to.
+==O controle sobre sua privacidade na maioria dos aplicativos é uma ilusão.== É um painel brilhante com todas as opções do que você pode fazer sobre seus dados, mas raramente com as opções que você está procurando, como "usar meus dados apenas para me ajudar." Esse tipo de controle tem o objetivo de fazer com que você se sinta culpado por suas escolhas, pois você "tinha a opção" de tornar os aplicativos que usa mais privados e optou por não fazê-lo.
 
-Privacy is something we need to have baked into the [software and services](../tools.md) we use by default, you can't bend most apps into being private on your own.
+Privacidade é algo que precisa estar incluído por padrão nos [aplicativos e serviços](../tools.md) que usamos, porque você não pode fazer com que a maioria dos aplicativos seja privada por sua própria conta.
 
 ## Fontes
 
-- [Why Privacy Matters](https://www.amazon.com/Why-Privacy-Matters-Neil-Richards/dp/0190939044) (2021) by Neil Richards
+- [Why Privacy Matters](https://www.amazon.com/Why-Privacy-Matters-Neil-Richards/dp/0190939044) (2021) por Neil Richards
 - [The New Oil: Why Privacy & Security Matter](https://thenewoil.org/en/guides/prologue/why/)
-- [@Thorin-Oakenpants on GitHub](https://github.com/privacytools/privacytools.io/issues/1760#issuecomment-597497298)
+- [@Thorin-Oakenpants no GitHub](https://github.com/privacytools/privacytools.io/issues/1760#issuecomment-597497298)
