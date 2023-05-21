@@ -2,13 +2,13 @@
 title: Enviando Imagens
 ---
 
-Here are a couple of general rules for contributing to Privacy Guides:
+Aqui estão algumas regras gerais para contribuir com Privacy Guides:
 
 ## Imagens
 
-- We **prefer** SVG images, but if those do not exist we can use PNG images
+- Nós **preferimos** imagens SVG, mas se elas não existirem, você pode usar imagens PNG
 
-Company logos have canvas size of:
+Logotipos de empresa tem tamanho de tela de:
 
 - 128x128px
 - 384x128px
@@ -17,7 +17,7 @@ Company logos have canvas size of:
 
 ### PNG
 
-Use the [OptiPNG](https://sourceforge.net/projects/optipng/) to optimize the PNG image:
+Use o [OptiPNG](https://sourceforge.net/projects/optipng/) para otimizar a imagem PNG:
 
 ```bash
 optipng -o7 file.png

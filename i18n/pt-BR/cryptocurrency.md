@@ -9,8 +9,7 @@ Making payments online is one of the biggest challenges to privacy. These crypto
 
 [Making Private Payments :material-arrow-right-drop-circle:](advanced/payments.md ""){.md-button}
 
-!!! aviso
-    Você **nunca** deve instalar quaisquer extensões adicionais no Tor Browser, incluindo as que sugerimos para o Firefox.
+!!! danger
 
     Many if not most cryptocurrency projects are scams. Make transactions carefully with only projects you trust.
 

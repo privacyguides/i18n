@@ -1,12 +1,12 @@
 ---
-title: Writing Style
+title: Estilo de Redação
 ---
 
-Privacy Guides is written in American English, and you should refer to [APA Style guidelines](https://apastyle.apa.org/style-grammar-guidelines/grammar) when in doubt.
+Privacy Guides foi escrito em inglês americano e você deve consultar as [diretrizes do Estilo APA](https://apastyle.apa.org/style-grammar-guidelines/grammar) em caso de dúvida.
 
-In general the [United States federal plain language guidelines](https://www.plainlanguage.gov/guidelines/) provide a good overview of how to write clearly and concisely. We highlight a few important notes from these guidelines below.
+Em geral, as [diretrizes federais de linguagem comum dos Estados Unidos](https://www.plainlanguage.gov/guidelines/) oferecem uma boa visão geral de como escrever de forma clara e concisa. Destacamos abaixo algumas observações importantes dessas diretrizes.
 
-## Writing for our audience
+## Escrevendo para nossa audiência
 
 Privacy Guides' intended [audience](https://www.plainlanguage.gov/guidelines/audience/) is primarily average, technology using adults. Don't dumb down content as if you are addressing a middle-school class, but don't overuse complicated terminology about concepts average computer users wouldn't be familiar with.
 

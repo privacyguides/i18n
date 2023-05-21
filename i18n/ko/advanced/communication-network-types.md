@@ -54,7 +54,7 @@ When self-hosted, members of a federated server can discover and communicate wit
 - Federated servers generally require trusting your server's administrator. They may be a hobbyist or otherwise not a "security professional," and may not serve standard documents like a privacy policy or terms of service detailing how your data is used.
 - Server administrators sometimes choose to block other servers, which are a source of unmoderated abuse or break general rules of accepted behavior. This will hinder your ability to communicate with members of those servers.
 
-## Peer-to-Peer Networks
+## P2P 네트워크
 
 ![P2P diagram](../assets/img/layout/network-distributed.svg){ align=left }
 
@@ -66,12 +66,12 @@ Once a peer has found a route to its contact via any of these methods, a direct 
 
 P2P networks do not use servers, as peers communicate directly between each other and hence cannot be self-hosted. However, some additional services may rely on centralized servers, such as user discovery or relaying offline messages, which can benefit from self-hosting.
 
-**Advantages:**
+**장점:**
 
-- Minimal information is exposed to third-parties.
-- Modern P2P platforms implement E2EE by default. There are no servers that could potentially intercept and decrypt your transmissions, unlike centralized and federated models.
+- 제3자에게 노출되는 정보를 최소화합니다.
+- 최신 P2P 플랫폼은 E2EE를 기본적으로 구현하고 있습니다. There are no servers that could potentially intercept and decrypt your transmissions, unlike centralized and federated models.
 
-**Disadvantages:**
+**단점:**
 
 - Reduced feature set:
 - Messages can only be sent when both peers are online, however, your client may store messages locally to wait for the contact to return online.

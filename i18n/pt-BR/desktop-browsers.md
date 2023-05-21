@@ -225,7 +225,7 @@ Essas opções podem ser encontradas em :material-menu: → **Configurações**.
 
 #### Configurações
 
-##### Modo Somente HTTPS
+##### Shields (Escudos)
 
 A Brave inclui algumas medidas anti-impressão digital na sua funcionalidade [Shields](https://support.brave.com/hc/en-us/articles/360022973471-What-is-Shields-) . Nós sugerimos configurar essas opções [globalmente](https://support.brave.com/hc/en-us/articles/360023646212-How-do-I-configure-global-and-site-specific-Shields-settings-) em todas as páginas que você visitar.
 

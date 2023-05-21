@@ -407,7 +407,7 @@ Consideramos esses recursos importantes para fornecer um serviço seguro e otimi
 - Allow users to use their own [domain name](https://en.wikipedia.org/wiki/Domain_name). Custom domain names are important to users because it allows them to maintain their agency from the service, should it turn bad or be acquired by another company which doesn't prioritize privacy.
 - Operates on owned infrastructure, i.e. not built upon third-party email service providers.
 
-**Best Case:**
+**Melhor Caso:**
 
 - Encrypts all account data (Contacts, Calendars, etc.) at rest with zero-access encryption.
 - Integrated webmail E2EE/PGP encryption provided as a convenience.
@@ -418,26 +418,26 @@ Consideramos esses recursos importantes para fornecer um serviço seguro e otimi
 - Catch-all or alias functionality for those who own their own domains.
 - Use of standard email access protocols such as IMAP, SMTP or [JMAP](https://en.wikipedia.org/wiki/JSON_Meta_Application_Protocol). Standard access protocols ensure customers can easily download all of their email, should they want to switch to another provider.
 
-### Privacy
+### Privacidade
 
-We prefer our recommended providers to collect as little data as possible.
+Preferimos que nossos provedores recomendados coletem o mínimo possível de dados.
 
-**Minimum to Qualify:**
+**Mínimo Para Qualificação:**
 
 - Protect sender's IP address. Filter it from showing in the `Received` header field.
 - Don't require personally identifiable information (PII) besides a username and a password.
 - Privacy policy that meets the requirements defined by the GDPR
 - Must not be hosted in the US due to [ECPA](https://en.wikipedia.org/wiki/Electronic_Communications_Privacy_Act#Criticism) which has [yet to be reformed](https://epic.org/ecpa/).
 
-**Best Case:**
+**Melhor Caso:**
 
 - Aceita [opções de pagamento anônimas](advanced/payments.md) ([criptomoedas](cryptocurrency.md), dinheiro, cartões-presente, etc.)
 
-### Security
+### Segurança
 
 Email servers deal with a lot of very sensitive data. We expect that providers will adopt best industry practices in order to protect their members.
 
-**Minimum to Qualify:**
+**Mínimo Para Qualificação:**
 
 - Protection of webmail with 2FA, such as TOTP.
 - Zero access encryption, builds on encryption at rest. The provider does not have the decryption keys to the data they hold. This prevents a rogue employee leaking data they have access to or remote adversary from releasing data they have stolen by gaining unauthorized access to the server.
@@ -455,49 +455,49 @@ Email servers deal with a lot of very sensitive data. We expect that providers w
     - [Subresource Integrity](https://en.wikipedia.org/wiki/Subresource_Integrity) if loading things from external domains.
 - Must support viewing of [Message headers](https://en.wikipedia.org/wiki/Email#Message_header), as it is a crucial forensic feature to determine if an email is a phishing attempt.
 
-**Best Case:**
+**Melhor Caso:**
 
 - Support for hardware authentication, i.e. U2F and [WebAuthn](https://en.wikipedia.org/wiki/WebAuthn). U2F and WebAuthn are more secure as they use a private key stored on a client-side hardware device to authenticate people, as opposed to a shared secret that is stored on the web server and on the client side when using TOTP. Furthermore, U2F and WebAuthn are more resistant to phishing as their authentication response is based on the authenticated [domain name](https://en.wikipedia.org/wiki/Domain_name).
 - [DNS Certification Authority Authorization (CAA) Resource Record](https://tools.ietf.org/html/rfc6844) in addition to DANE support.
 - Implementation of [Authenticated Received Chain (ARC)](https://en.wikipedia.org/wiki/Authenticated_Received_Chain), this is useful for people who post to mailing lists [RFC8617](https://tools.ietf.org/html/rfc8617).
-- Bug-bounty programs and/or a coordinated vulnerability-disclosure process.
+- Programas de recompensa por bugs e/ou um processo coordenado de divulgação de vulnerabilidades.
 - Website security standards such as:
     - [Content Security Policy (CSP)](https://en.wikipedia.org/wiki/Content_Security_Policy)
     - [RFC9163 Expect-CT](https://datatracker.ietf.org/doc/rfc9163/)
 
-### Trust
+### Confiança
 
-You wouldn't trust your finances to someone with a fake identity, so why trust them with your email? We require our recommended providers to be public about their ownership or leadership. We also would like to see frequent transparency reports, especially in regard to how government requests are handled.
+You wouldn't trust your finances to someone with a fake identity, so why trust them with your email? Exigimos que nossos provedores recomendados sejam transparentes quanto a seus proprietários ou lideranças. Também esperamos ver relatórios de transparência frequentes, especialmente com relação à forma como as solicitações do governo são tratadas.
 
-**Minimum to Qualify:**
+**Mínimo Para Qualificação:**
 
-- Public-facing leadership or ownership.
+- Liderança ou propriedade voltada para o público.
 
-**Best Case:**
+**Melhor Caso:**
 
-- Public-facing leadership.
-- Frequent transparency reports.
+- Liderança orientada para o público (usuário).
+- Relatórios de transparência frequentes.
 
 ### Marketing
 
 With the email providers we recommend we like to see responsible marketing.
 
-**Minimum to Qualify:**
+**Mínimo Para Qualificação:**
 
 - Must self-host analytics (no Google Analytics, Adobe Analytics, etc.). The provider's site must also comply with [DNT (Do Not Track)](https://en.wikipedia.org/wiki/Do_Not_Track) for those who wish to opt-out.
 
-Must not have any marketing which is irresponsible:
+Não deve ter nenhum marketing irresponsável:
 
 - Claims of "unbreakable encryption." Encryption should be used with the intention that it may not be secret in the future when the technology exists to crack it.
-- Making guarantees of protecting anonymity 100%. When someone makes a claim that something is 100% it means there is no certainty for failure. We know people can quite easily deanonymize themselves in a number of ways, e.g.:
+- Garantir 100% de proteção ao anonimato. When someone makes a claim that something is 100% it means there is no certainty for failure. Sabemos que as pessoas podem se desanonimizar facilmente de várias maneiras, por exemplo:
 
 - Reusing personal information e.g. (email accounts, unique pseudonyms, etc.) that they accessed without anonymity software (Tor, VPN, etc.)
-- [Browser fingerprinting](https://en.wikipedia.org/wiki/Device_fingerprint#Browser_fingerprint)
+- [Impressão digital do navegador](https://en.wikipedia.org/wiki/Device_fingerprint#Browser_fingerprint)
 
-**Best Case:**
+**Melhor Caso:**
 
 - Clear and easy to read documentation. This includes things like, setting up 2FA, email clients, OpenPGP, etc.
 
-### Additional Functionality
+### Funções Adicionais
 
 While not strictly requirements, there are some other convenience or privacy factors we looked into when determining which providers to recommend.

@@ -190,7 +190,7 @@ Mullvad is very transparent about which nodes they [own or rent](https://mullvad
 
 #### :material-check:{ .pg-green } 67 Countries
 
-Proton VPN has [servers in 67 countries](https://protonvpn.com/vpn-servers).(1) Picking a VPN provider with a server nearest to you will reduce latency of the network traffic you send. Isto deve-se a um caminho mais curto (menos pulos) até ao destino.
+Proton VPN tem [servidores em 67 países](https://protonvpn.com/vpn-servers). (1) Escolher um provedor VPN com um servidor mais próximo de você reduzirá a latência do tráfego de rede que você envia. Isso se deve a uma rota mais curta (menos saltos) até o destino.
 { .annotate }
 
 1. Última verificação: 16-09-2022
@@ -203,129 +203,128 @@ Em Janeiro de 2020, ProtonVPN foi submetida a uma auditoria independente pela SE
 
 #### :material-check:{ .pg-green } Clientes de Código Aberto (Open-Source)
 
-Proton VPN provides the source code for their desktop and mobile clients in their [GitHub organization](https://github.com/ProtonVPN).
+Proton VPN fornece o código-fonte de seus clientes móveis e de desktop em sua [organização GitHub](https://github.com/ProtonVPN).
 
-#### :material-check:{ .pg-green } Accepts Cash
+#### :material-check:{ .pg-green } Aceita Dinheiro
 
-Proton VPN, in addition to accepting credit/debit cards, PayPal, and [Bitcoin](advanced/payments.md#other-coins-bitcoin-ethereum-etc), also accepts **cash/local currency** as an anonymous form of payment.
+Proton VPN, além de aceitar cartões de crédito/débito, PayPal e [Bitcoin](advanced/payments.md#other-coins-bitcoin-ethereum-etc), também aceita **dinheiro/moeda local** como forma anônima de pagamento.
 
 #### :material-check:{ .pg-green } Suporta WireGuard
 
 Proton VPN suporta principalmente o protocolo WireGuard®. [WireGuard](https://www.wireguard.com) é um protocolo mais recente que usa criptografia de última geração [](https://www.wireguard.com/protocol/). Além disso, WireGuard pretende ser mais simples e mais eficiente.
 
-Proton VPN [recommends](https://protonvpn.com/blog/wireguard/) the use of WireGuard with their service. On Proton VPN's Windows, macOS, iOS, Android, ChromeOS, and Android TV apps, WireGuard is the default protocol; however, [support](https://protonvpn.com/support/how-to-change-vpn-protocols/) for the protocol is not present in their Linux app.
+Proton VPN [recomenda](https://protonvpn.com/blog/wireguard/) o uso do WireGuard em seu serviço. Nos aplicativos do Proton VPN para Windows, macOS, iOS, Android, ChromeOS e Android TV, o WireGuard é o protocolo padrão; no entanto, o [suporte](https://protonvpn.com/support/how-to-change-vpn-protocols/) para o protocolo não está presente em seu aplicativo para Linux.
 
-#### :material-alert-outline:{ .pg-orange } Remote Port Forwarding
+#### :material-alert-outline:{ .pg-orange } Encaminhamento de Porta Remoto
 
-Proton VPN currently only supports remote [port forwarding](https://protonvpn.com/support/port-forwarding/) on Windows, which may impact some applications. Especially Peer-to-peer applications like Torrent clients.
+Atualmente, o Proton VPN só oferece suporte ao [encaminhamento remoto de portas](https://protonvpn.com/support/port-forwarding/) no Windows, o que pode afetar alguns aplicativos. Especialmente aplicativos peer-to-peer, como clientes Torrent.
 
 #### :material-check:{ .pg-green } Clientes Móveis
 
-In addition to providing standard OpenVPN configuration files, Proton VPN has mobile clients for [App Store](https://apps.apple.com/us/app/protonvpn-fast-secure-vpn/id1437005085), [Google Play](https://play.google.com/store/apps/details?id=ch.protonvpn.android&hl=en_US), and [GitHub](https://github.com/ProtonVPN/android-app/releases) allowing for easy connections to their servers.
+Além de fornecer arquivos de configuração padronizados para o OpenVPN, o Proton VPN tem clientes móveis para a [App Store](https://apps.apple.com/us/app/protonvpn-fast-secure-vpn/id1437005085), [Google Play](https://play.google.com/store/apps/details?id=ch.protonvpn.android&hl=en_US) e [GitHub](https://github.com/ProtonVPN/android-app/releases), permitindo conexões fáceis com seus servidores.
 
-#### :material-information-outline:{ .pg-blue } Funcionalidades Adicionais
+#### :material-information-outline:{ .pg-blue } Funções Adicionais
 
-Proton VPN clients support two factor authentication on all platforms except Linux at the moment. Proton VPN has their own servers and datacenters in Switzerland, Iceland and Sweden. They offer adblocking and known malware domains blocking with their DNS service. Additionally, Proton VPN also offers "Tor" servers allowing you to easily connect to onion sites, but we still strongly recommend using [the official Tor Browser](https://www.torproject.org/) for this purpose.
+Os clientes Proton VPN suportam a autenticação de dois fatores em todas as plataformas, exceto no Linux, no momento. Proton VPN tem seus próprios servidores e centros de dados na Suíça, Islândia e Suécia. Eles oferecem bloqueio de anúncios e bloqueio de domínios de vírus (malware) conhecidos com seu serviço DNS. Além disso, Proton VPN também oferece servidores "Tor" que permitem que você se conecte facilmente a sites onion, mas ainda recomendamos fortemente o uso do [Navegador Tor oficial](https://www.torproject.org/) para essa finalidade.
 
-#### :material-alert-outline:{ .pg-orange } Killswitch feature is broken on Intel-based Macs
+#### :material-alert-outline:{ .pg-orange } O recurso Killswitch não funciona em Macs baseados em Intel
 
-System crashes [may occur](https://protonvpn.com/support/macos-t2-chip-kill-switch/) on Intel-based Macs when using the VPN killswitch. If you require this feature, and you are using a Mac with Intel chipset, you should consider using another VPN service.
+Podem [ocorrer falhas](https://protonvpn.com/support/macos-t2-chip-kill-switch/) no sistema em Macs baseados em Intel ao usar o VPN killswitch. Se você precisar desse recurso e estiver usando um Mac com chipset Intel, considere usar outro serviço de VPN.
 
-## Criteria
+## Requisitos
 
-!!! aviso
-    Você **nunca** deve instalar quaisquer extensões adicionais no Tor Browser, incluindo as que sugerimos para o Firefox.
+!!! danger
 
-    It is important to note that using a VPN provider will not make you anonymous, but it will give you better privacy in certain situations. A VPN is not a tool for illegal activities. Não confie somente numa política de "não-rastreamento".
+    É importante observar que o uso de um provedor de VPN não o tornará anônimo, mas lhe dará mais privacidade em determinadas situações. Uma VPN não é uma ferramenta para atividades ilegais. Não confie em uma política de "nenhum registro".
 
-**Please note we are not affiliated with any of the providers we recommend. This allows us to provide completely objective recommendations.** In addition to [our standard criteria](about/criteria.md), we have developed a clear set of requirements for any VPN provider wishing to be recommended, including strong encryption, independent security audits, modern technology, and more. We suggest you familiarize yourself with this list before choosing a VPN provider, and conduct your own research to ensure the VPN provider you choose is as trustworthy as possible.
+**Observe que não somos afiliados a nenhum dos provedores que recomendamos. Isso nos permite fornecer recomendações totalmente objetivas. **Em adição aos [nossos critérios básicos](about/criteria.md), desenvolvemos um conjunto claro de requisitos para qualquer provedor de VPN que deseje ser recomendado, incluindo criptografia forte, auditorias de segurança independentes, tecnologia moderna e muito mais. Sugerimos que você se familiarize com esta lista antes de escolher um provedor de VPN e faça sua própria pesquisa para garantir que o provedor de VPN escolhido seja o mais confiável possível.
 
-### Technology
+### Tecnologia
 
-We require all our recommended VPN providers to provide OpenVPN configuration files to be used in any client. **If** a VPN provides their own custom client, we require a killswitch to block network data leaks when disconnected.
+Exigimos que todos os nossos provedores de VPN recomendados forneçam arquivos de configuração OpenVPN para serem usados em qualquer cliente. **Se** uma VPN fornecer seu próprio cliente personalizado, será necessário um killswitch para bloquear vazamentos de dados de rede quando desconectado.
 
-**Minimum to Qualify:**
+**Mínimo Para Qualificação:**
 
-- Support for strong protocols such as WireGuard & OpenVPN.
-- Killswitch built in to clients.
-- Multihop support. Multihopping is important to keep data private in case of a single node compromise.
-- If VPN clients are provided, they should be [open-source](https://en.wikipedia.org/wiki/Open_source), like the VPN software they generally have built into them. We believe that [source code](https://en.wikipedia.org/wiki/Source_code) availability provides greater transparency about what your device is actually doing.
+- Suporte para protocolos fortes, como WireGuard & OpenVPN.
+- Killswitch integrado aos clientes.
+- Suporte a Multihop. O Multihopping é importante para manter os dados privados no caso de comprometimento de um único nó.
+- Se forem fornecidos clientes VPN, eles devem ser de [código aberto](https://en.wikipedia.org/wiki/Open_source), como o software VPN que eles normalmente trazem incorporado. Acreditamos que a disponibilidade do [código-fonte](https://en.wikipedia.org/wiki/Source_code) proporciona maior transparência sobre o que o seu dispositivo está realmente fazendo.
 
-**Best Case:**
+**Melhor Caso:**
 
-- WireGuard and OpenVPN support.
-- Killswitch with highly configurable options (enable/disable on certain networks, on boot, etc.)
-- Easy-to-use VPN clients
-- Supports [IPv6](https://en.wikipedia.org/wiki/IPv6). We expect that servers will allow incoming connections via IPv6 and allow you to access services hosted on IPv6 addresses.
-- Capability of [remote port forwarding](https://en.wikipedia.org/wiki/Port_forwarding#Remote_port_forwarding) assists in creating connections when using P2P ([Peer-to-Peer](https://en.wikipedia.org/wiki/Peer-to-peer)) file sharing software or hosting a server (e.g., Mumble).
+- Suporte WireGuard e OpenVPN.
+- Killswitch com opções altamente configuráveis (ativar/desativar em determinadas redes, na inicialização, etc.)
+- Clientes VPN fáceis de usar
+- Suporta [IPv6](https://en.wikipedia.org/wiki/IPv6). Esperamos que os servidores permitam conexões de entrada via IPv6 e que você possa acessar serviços hospedados em endereços IPv6.
+- O recurso de [encaminhamento remoto de portas](https://en.wikipedia.org/wiki/Port_forwarding#Remote_port_forwarding) ajuda a criar conexões ao usar o software de compartilhamento de arquivos P2P ([Peer-to-Peer](https://en.wikipedia.org/wiki/Peer-to-peer)) ou ao hospedar um servidor (por exemplo, Mumble).
 
-### Privacy
+### Privacidade
 
-We prefer our recommended providers to collect as little data as possible. Not collecting personal information on registration, and accepting anonymous forms of payment are required.
+Preferimos que nossos provedores recomendados coletem o mínimo possível de dados. É necessário não coletar informações pessoais no registro e aceitar formas anônimas de pagamento.
 
-**Minimum to Qualify:**
+**Mínimo Para Qualificação:**
 
-- [Criptomoeda anônima](cryptocurrency.md) **ou** opção de pagamento em dinheiro.
-- No personal information required to register: Only username, password, and email at most.
+- Opção de pagamento anônimo em [criptomoeda](cryptocurrency.md) **ou** em dinheiro.
+- Nenhuma informação pessoal requerida para registro: Apenas nome de usuário, senha e e-mail, no máximo.
 
-**Best Case:**
+**Melhor Caso:**
 
 - Aceita múltiplas [opções de pagamento anônimas](advanced/payments.md).
 - Nenhuma informação pessoal é aceita (nome de usuário gerado automaticamente, nenhum e-mail necessário, etc.).
 
-### Security
+### Segurança
 
-A VPN is pointless if it can't even provide adequate security. We require all our recommended providers to abide by current security standards for their OpenVPN connections. Ideally, they would use more future-proof encryption schemes by default. We also require an independent third-party to audit the provider's security, ideally in a very comprehensive manner and on a repeated (yearly) basis.
+Uma VPN é inútil se não puder fornecer nem mesmo a segurança adequada. Exigimos que todos os nossos provedores recomendados cumpram os padrões de segurança atuais para suas conexões OpenVPN. O ideal é que eles usem, por padrão, esquemas de criptografia resistentes às mudanças futuras. Também exigimos que um terceiro independente audite a segurança do provedor, de preferência de forma bastante abrangente e repetida (anualmente).
 
-**Minimum to Qualify:**
+**Mínimo Para Qualificação:**
 
-- Strong Encryption Schemes: OpenVPN with SHA-256 authentication; RSA-2048 or better handshake; AES-256-GCM or AES-256-CBC data encryption.
+- Esquemas de Criptografia Fortes: OpenVPN com autenticação SHA-256; handshake RSA-2048 ou melhor; criptografia de dados AES-256-GCM ou AES-256-CBC.
 - Perfect Forward Secrecy (PFS).
-- Published security audits from a reputable third-party firm.
+- Auditorias de segurança publicadas por uma empresa terceirizada de boa reputação.
 
-**Best Case:**
+**Melhor Caso:**
 
-- Strongest Encryption: RSA-4096.
+- Criptografia Mais Forte: RSA-4096.
 - Perfect Forward Secrecy (PFS).
-- Comprehensive published security audits from a reputable third-party firm.
-- Bug-bounty programs and/or a coordinated vulnerability-disclosure process.
+- Auditorias abrangentes de segurança publicadas por uma empresa terceirizada de boa reputação.
+- Programas de recompensa por bugs e/ou um processo coordenado de divulgação de vulnerabilidades.
 
-### Trust
+### Confiança
 
-You wouldn't trust your finances to someone with a fake identity, so why trust them with your internet data? We require our recommended providers to be public about their ownership or leadership. We also would like to see frequent transparency reports, especially in regard to how government requests are handled.
+Você não confiaria suas finanças a alguém com uma identidade falsa, então por que confiar seus dados de Internet a essa pessoa? Exigimos que nossos provedores recomendados sejam transparentes quanto a seus proprietários ou lideranças. Também esperamos ver relatórios de transparência frequentes, especialmente com relação à forma como as solicitações do governo são tratadas.
 
-**Minimum to Qualify:**
+**Mínimo Para Qualificação:**
 
-- Public-facing leadership or ownership.
+- Liderança ou propriedade voltada para o público.
 
-**Best Case:**
+**Melhor Caso:**
 
-- Public-facing leadership.
-- Frequent transparency reports.
+- Liderança orientada para o público (usuário).
+- Relatórios de transparência frequentes.
 
 ### Marketing
 
-With the VPN providers we recommend we like to see responsible marketing.
+Com os provedores de VPN que recomendamos, gostamos de ver um marketing responsável.
 
-**Minimum to Qualify:**
+**Mínimo Para Qualificação:**
 
-- Must self-host analytics (i.e., no Google Analytics). The provider's site must also comply with [DNT (Do Not Track)](https://en.wikipedia.org/wiki/Do_Not_Track) for people who want to opt-out.
+- Deve hospedar análises por conta própria (ou seja, nada de Google Analytics). O site do provedor também deve estar em conformidade com [DNT (Do Not Track)](https://en.wikipedia.org/wiki/Do_Not_Track) para pessoas que queiram optar por não participar.
 
-Must not have any marketing which is irresponsible:
+Não deve ter nenhum marketing irresponsável:
 
-- Making guarantees of protecting anonymity 100%. When someone makes a claim that something is 100% it means there is no certainty for failure. We know people can quite easily deanonymize themselves in a number of ways, e.g.:
-    - Reusing personal information (e.g., email accounts, unique pseudonyms, etc.) that they accessed without anonymity software (Tor, VPN, etc.)
-    - [Browser fingerprinting](https://en.wikipedia.org/wiki/Device_fingerprint#Browser_fingerprint)
-- Claim that a single circuit VPN is "more anonymous" than Tor, which is a circuit of three or more hops that regularly changes.
-- Use responsible language: i.e., it is okay to say that a VPN is "disconnected" or "not connected", however claiming that someone is "exposed", "vulnerable" or "compromised" is needless use of alarming language that may be incorrect. For example, that person might simply be on another VPN provider's service or using Tor.
+- Garantir 100% de proteção ao anonimato. When someone makes a claim that something is 100% it means there is no certainty for failure. Sabemos que as pessoas podem se desanonimizar facilmente de várias maneiras, por exemplo:
+    - Reutilização de informações pessoais (por exemplo, contas de e-mail, pseudônimos exclusivos, etc.) que eles acessaram sem software de anonimato (Tor, VPN, etc.)
+    - [Impressão digital do navegador](https://en.wikipedia.org/wiki/Device_fingerprint#Browser_fingerprint)
+- Afirmar que uma VPN de circuito único é "mais anônima" do que o Tor, que é um circuito de três ou mais saltos que muda constantemente.
+- Use uma linguagem responsável: por exemplo, não há problema em dizer que uma VPN está "desconectada" ou "não conectada", mas afirmar que alguém está "exposto", "vulnerável" ou "comprometido" é um uso desnecessário de linguagem alarmante que pode estar incorreta. Por exemplo, essa pessoa pode simplesmente estar no serviço de outro provedor de VPN ou usando o Tor.
 
-**Best Case:**
+**Melhor Caso:**
 
-Responsible marketing that is both educational and useful to the consumer could include:
+O marketing responsável que é educativo e útil para o consumidor pode incluir:
 
-- An accurate comparison to when [Tor](tor.md) should be used instead.
-- Availability of the VPN provider's website over a [.onion service](https://en.wikipedia.org/wiki/.onion)
+- Uma comparação precisa de quando o [Tor](tor.md) deve ser usado como alternativa.
+- Disponibilidade do site do provedor de VPN em um [serviço .onion](https://en.wikipedia.org/wiki/.onion)
 
-### Additional Functionality
+### Funções Adicionais
 
-While not strictly requirements, there are some factors we looked into when determining which providers to recommend. These include adblocking/tracker-blocking functionality, warrant canaries, multihop connections, excellent customer support, the number of allowed simultaneous connections, etc.
+Embora não sejam requisitos estritos, há alguns fatores que consideramos ao determinar quais provedores recomendar. Isso inclui a funcionalidade de bloqueio de anúncios/rastreadores, canários de garantia, conexões multihop, excelente suporte ao cliente, o número de conexões simultâneas permitidas, etc.

@@ -37,11 +37,11 @@ schema:
       url: "./"
 ---
 
-These are our currently recommended mobile web browsers and configurations for standard/non-anonymous internet browsing. If you need to browse the internet anonymously, you should use [Tor](tor.md) instead. In general, we recommend keeping extensions to a minimum; they have privileged access within your browser, require you to trust the developer, can make you [stand out](https://en.wikipedia.org/wiki/Device_fingerprint#Browser_fingerprint), and [weaken](https://groups.google.com/a/chromium.org/g/chromium-extensions/c/0ei-UCHNm34/m/lDaXwQhzBAAJ) site isolation.
+Estes são os navegadores de celular e as configurações recomendadas atualmente para a navegação padrão/não anônima na Internet. Se você precisa navegar pela internet anonimamente, você deve usar o [Tor](tor.md). In general, we recommend keeping extensions to a minimum; they have privileged access within your browser, require you to trust the developer, can make you [stand out](https://en.wikipedia.org/wiki/Device_fingerprint#Browser_fingerprint), and [weaken](https://groups.google.com/a/chromium.org/g/chromium-extensions/c/0ei-UCHNm34/m/lDaXwQhzBAAJ) site isolation.
 
 ## Android
 
-On Android, Firefox is still less secure than Chromium-based alternatives: Mozilla's engine, [GeckoView](https://mozilla.github.io/geckoview/), has yet to support [site isolation](https://hacks.mozilla.org/2021/05/introducing-firefox-new-site-isolation-security-architecture) or enable [isolatedProcess](https://bugzilla.mozilla.org/show_bug.cgi?id=1565196).
+No Android, o Firefox continua a ser menos seguro do que as alternativas baseadas no Chromium: O motor da Mozilla, [GeckoView](https://mozilla.github.io/geckoview/), ainda não suporta [isolamento de site](https://hacks.mozilla.org/2021/05/introducing-firefox-new-site-isolation-security-architecture) nem ativa [isolamento de processo (isolatedProcess)](https://bugzilla.mozilla.org/show_bug.cgi?id=1565196).
 
 ### Brave
 
@@ -66,21 +66,21 @@ On Android, Firefox is still less secure than Chromium-based alternatives: Mozil
 
 #### Firefox
 
-Tor Browser is the only way to truly browse the internet anonymously. When you use Brave, we recommend changing the following settings to protect your privacy from certain parties, but all browsers other than the [Tor Browser](tor.md#tor-browser) will be traceable by *somebody* in some regard or another.
+O Navegador Tor é a única maneira de realmente navegar na Internet de forma anônima. Ao usar o Brave, recomendamos que você altere as seguintes configurações para proteger sua privacidade de determinadas partes, mas todos os navegadores, exceto o [Navegador Tor](tor.md#tor-browser), serão rastreáveis por *alguém* de uma forma ou de outra.
 
-These options can be found in :material-menu: → **Settings** → **Brave Shields & privacy**
+Essas opções podem ser encontradas em :material-menu: → **Configurações** → **Proteções do Brave & privacidade**
 
-##### Modo Somente HTTPS
+##### Shields (Escudos)
 
 Brave includes some anti-fingerprinting measures in its [Shields](https://support.brave.com/hc/en-us/articles/360022973471-What-is-Shields-) feature. We suggest configuring these options [globally](https://support.brave.com/hc/en-us/articles/360023646212-How-do-I-configure-global-and-site-specific-Shields-settings-) across all pages that you visit.
 
 ##### Brave shields global defaults
 
-Shields' options can be downgraded on a per-site basis as needed, but by default we recommend setting the following:
+As opções do Shields (Escudos) podem ser reduzidas de acordo com o site, conforme necessário, mas, por padrão, recomendamos configurar o seguinte:
 
 <div class="annotate" markdown>
 
-- [x] Select **Aggressive** under Block trackers & ads
+- [x] Select **Agressivo** em Bloquear rastreadores e anúncios
 
     ??? warning "Use default filter lists"
         Brave allows you to select additional content filters within the internal `brave://adblock` page. We advise against using this feature; instead, keep the default filter lists. Using extra lists will make you stand out from other Brave users and may also increase attack surface if there is an exploit in Brave and a malicious rule is added to one of the lists you use.
@@ -116,7 +116,7 @@ Shields' options can be downgraded on a per-site basis as needed, but by default
 
 </div>
 
-1. InterPlanetary File System (IPFS) is a decentralized, peer-to-peer network for storing and sharing data in a distributed filesystem. Unless you use the feature, disable it.
+1. O IPFS (InterPlanetary File System) é uma rede descentralizada, ponto a ponto, para armazenar e compartilhar dados em um sistema de arquivos distribuído. A menos que você use o recurso, desative-o.
 
 #### Brave Sync
 
@@ -138,15 +138,15 @@ On iOS, any app that can browse the web is [restricted](https://developer.apple.
     [:octicons-eye-16:](https://www.apple.com/legal/privacy/data/en/safari/){ .card-link title="Privacy Policy" }
     [:octicons-info-16:](https://support.apple.com/guide/safari/welcome/mac){ .card-link title=Documentation}
 
-#### Firefox
+#### Configuração Recomendada
 
-These options can be found in :gear: **Settings** → **Safari** → **Privacy and Security**.
+Estas opções podem ser encontradas em :gear: **Configurações** → **Safari** → **Privacidade e Segurança**.
 
 ##### Cross-Site Tracking Prevention
 
 - [x] Enable **Prevent Cross-Site Tracking**
 
-This enables WebKit's [Intelligent Tracking Protection](https://webkit.org/tracking-prevention/#intelligent-tracking-prevention-itp). The feature helps protect against unwanted tracking by using on-device machine learning to stop trackers. ITP protects against many common threats, but it does not block all tracking avenues because it is designed to not interfere with website usability.
+This enables WebKit's [Intelligent Tracking Protection](https://webkit.org/tracking-prevention/#intelligent-tracking-prevention-itp). O recurso ajuda a proteger contra o rastreamento indesejado, usando o aprendizado de máquina no dispositivo para impedir os rastreadores. O ITP protege contra muitas ameaças comuns, mas não bloqueia todas as vias de rastreamento porque foi projetado para não interferir na usabilidade do site.
 
 ##### Privacy Report
 
@@ -213,14 +213,14 @@ Additional filter lists do slow things down and may increase your attack surface
 
 ### Minimum Requirements
 
-- Must support automatic updates.
+- Deve suportar atualizações automáticas.
 - Must receive engine updates in 0-1 days from upstream release.
-- Any changes required to make the browser more privacy-respecting should not negatively impact user experience.
-- Android browsers must use the Chromium engine.
-    - Unfortunately, Mozilla GeckoView is still less secure than Chromium on Android.
-    - iOS browsers are limited to WebKit.
+- Qualquer mudança necessária para tornar o navegador mais compatível com a privacidade não deve afetar negativamente a experiência do usuário.
+- Navegadores Android devem usar o motor Chromium.
+    - Infelizmente, o Mozilla GeckoView ainda é menos seguro que o Chromium no Android.
+    - Navegadores iOS estão limitados ao WebKit.
 
-### Extension Criteria
+### Critérios para Extensões
 
-- Must not replicate built-in browser or OS functionality.
-- Must directly impact user privacy, i.e. must not simply provide information.
+- Não deve copiar a funcionalidade existente no navegador ou no sistema operacional.
+- Deve afetar diretamente a privacidade do usuário, ou seja, não deve simplesmente fornecer informações.

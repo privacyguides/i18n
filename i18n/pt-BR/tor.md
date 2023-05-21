@@ -63,8 +63,7 @@ Existem várias maneiras de se conectar à rede Tor a partir do seu dispositivo,
         - [:simple-apple: macOS](https://www.torproject.org/download/)
         - [:simple-linux: Linux](https://www.torproject.org/download/)
 
-!!! aviso
-    Você **nunca** deve instalar quaisquer extensões adicionais no Tor Browser, incluindo as que sugerimos para o Firefox.
+!!! danger
 
     Você nunca deve instalar outras extensões no Navegador Tor ou editar as configurações em `about:config`, incluindo as que sugerimos para o Firefox. downloads
     

@@ -1,13 +1,13 @@
 ---
 title: "Compartilhamento e Sincronização de Arquivos"
 icon: material/share-variant
-description: Discover how to privately share your files between your devices, with your friends and family, or anonymously online.
+description: Descubra como compartilhar seus arquivos de forma privada entre seus dispositivos, com seus amigos e familiares ou de forma anônima on-line.
 cover: file-sharing.png
 ---
 
-Discover how to privately share your files between your devices, with your friends and family, or anonymously online.
+Descubra como compartilhar seus arquivos de forma privada entre seus dispositivos, com seus amigos e familiares ou de forma anônima on-line.
 
-## File Sharing
+## Compartilhamento de Arquivos
 
 ### Send
 
@@ -56,9 +56,9 @@ ffsend upload --host https://send.vis.ee/ FILE
 
     We are working on establishing defined criteria for every section of our site, and this may be subject to change. If you have any questions about our criteria, please [ask on our forum](https://discuss.privacyguides.net/latest) and don't assume we didn't consider something when making our recommendations if it is not listed here. There are many factors considered and discussed when we recommend a project, and documenting every single one is a work-in-progress.
 
-- Must not store decrypted data on a remote server.
-- Must be open-source software.
-- Must either have clients for Linux, macOS, and Windows; or have a web interface.
+- Não deve armazenar dados descriptografados em um servidor remoto.
+- Deve ser um software de código aberto.
+- Deve ter aplicativos para Linux, macOS e Windows ou ter uma interface via site.
 
 ## FreedomBox
 
@@ -73,9 +73,9 @@ ffsend upload --host https://send.vis.ee/ FILE
     [:octicons-code-16:](https://salsa.debian.org/freedombox-team/freedombox){ .card-link title="Source Code" }
     [:octicons-heart-16:](https://freedomboxfoundation.org/donate/){ .card-link title=Contribute }
 
-## File Sync
+## Sincronização de Arquivos
 
-### Nextcloud (Client-Server)
+### Nextcloud (Cliente-Servidor)
 
 !!! recommendation
 
@@ -99,8 +99,7 @@ ffsend upload --host https://send.vis.ee/ FILE
         - [:simple-linux: Linux](https://nextcloud.com/install/#install-clients)
         - [:simple-freebsd: FreeBSD](https://www.freshports.org/www/nextcloud)
 
-!!! aviso
-    Você **nunca** deve instalar quaisquer extensões adicionais no Tor Browser, incluindo as que sugerimos para o Firefox.
+!!! danger
 
     We don't recommend using the [E2EE App](https://apps.nextcloud.com/apps/end_to_end_encryption) for Nextcloud as it may lead to data loss; it is highly experimental and not production quality.
 
@@ -139,7 +138,7 @@ ffsend upload --host https://send.vis.ee/ FILE
 
 - Must not require a third-party remote/cloud server.
 - Must be open-source software.
-- Must either have clients for Linux, macOS, and Windows; or have a web interface.
+- Deve ter aplicativos para Linux, macOS e Windows ou ter uma interface via site.
 
 #### Best-Case
 

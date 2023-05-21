@@ -1,22 +1,22 @@
 ---
-title: Branding Guidelines
+title: Diretrizes da Marca
 ---
 
-The name of the website is **Privacy Guides** and should **not** be changed to:
+O nome do site é **Privacy Guides** e **não deve** ser alterado para:
 
 <div class="pg-red" markdown>
-- PrivacyGuides
-- Privacy guides
-- PG
-- PG.org
+— PrivacyGuides
+— Privacy guides
+— PG
+— PG.org
 </div>
 
-The name of the subreddit is **r/PrivacyGuides** or **the Privacy Guides Subreddit**.
+O nome do subreddit é **r/PrivacyGuides** ou **the Privacy Guides Subreddit**.
 
-Additional branding guidelines can be found at [github.com/privacyguides/brand](https://github.com/privacyguides/brand)
+Outras diretrizes de marca podem ser encontradas em [github.com/privacyguides/brand](https://github.com/privacyguides/brand)
 
-## Trademark
+## Marca Registrada
 
-"Privacy Guides" and the shield logo are trademarks owned by Jonah Aragon, unlimited usage is granted to the Privacy Guides project.
+"Privacy Guides" e o logotipo do escudo são marcas registradas de propriedade de Jonah Aragon, o uso ilimitado é concedido ao projeto Privacy Guides.
 
-Without waiving any of its rights, Privacy Guides does not advise others on the scope of its intellectual property rights. Privacy Guides does not permit or consent to any use of its trademarks in any manner that is likely to cause confusion by implying association with or sponsorship by Privacy Guides. If you are aware of any such use, please contact Jonah Aragon at jonah@privacyguides.org. Consult your legal counsel if you have questions.
+Sem renunciar a quaisquer de seus direitos, o Privacy Guides não aconselha terceiros sobre o escopo de seus direitos de propriedade intelectual. Privacy Guides não permite nem consente qualquer uso de suas marcas registradas de qualquer maneira que possa causar confusão ao implicar associação com ou patrocínio do Privacy Guides. Se tiver conhecimento de qualquer uso desse tipo, entre em contato com Jonah Aragon em jonah@privacyguides.org. Consulte seu advogado se você tiver dúvidas.
