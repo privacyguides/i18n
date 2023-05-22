@@ -1,10 +1,10 @@
 ---
 title: "Tor Overview"
 icon: 'simple/torproject'
-description: Tor is a free to use, decentralized network designed for using the internet with as much privacy as possible.
+description: Tor é uma rede descentralizada de uso gratuito, projetada para usar a Internet com o máximo de privacidade possível.
 ---
 
-Tor is a free to use, decentralized network designed for using the internet with as much privacy as possible. If used properly, the network enables private and anonymous browsing and communications.
+Tor é uma rede descentralizada de uso gratuito, projetada para usar a Internet com o máximo de privacidade possível. Se usada corretamente, a rede permite navegação e comunicações privadas e anônimas.
 
 ## Path Building to Clearnet Services
 
@@ -18,29 +18,29 @@ Every time you [connect to Tor](../tor.md), it will choose three nodes to build 
   <figcaption>Tor circuit pathway</figcaption>
 </figure>
 
-Each of these nodes has its own function:
+Cada um desses nós tem sua própria função:
 
-### The Entry Node
+### O Nó de Entrada
 
-The entry node, often called the guard node, is the first node to which your Tor client connects. The entry node is able to see your IP address, however it is unable to see what you are connecting to.
+O nó de entrada, geralmente chamado de nó de guarda, é o primeiro nó ao qual seu cliente Tor se conecta. O nó de entrada consegue ver seu endereço IP, mas não consegue ver a que você está se conectando.
 
-Unlike the other nodes, the Tor client will randomly select an entry node and stick with it for two to three months to protect you from certain attacks.[^1]
+Diferente dos outros nós, o cliente Tor selecionará aleatoriamente um nó de entrada e permanecerá com ele por dois ou três meses para proteger você de determinados ataques.[^1]
 
-### The Middle Node
+### O Nó Intermediário
 
-The middle node is the second node to which your Tor client connects. It can see which node the traffic came from—the entry node—and to which node it goes to next. The middle node cannot, see your IP address or the domain you are connecting to.
+O nó intermediário é o segundo nó ao qual seu cliente Tor se conecta. Ele pode ver de qual nó o tráfego veio — o nó de entrada — e para qual nó ele vai em seguida. O nó intermediário não pode ver seu endereço IP ou o domínio ao qual você está se conectando.
 
-For each new circuit, the middle node is randomly selected out of all available Tor nodes.
+Para cada novo circuito, o nó intermediário é selecionado aleatoriamente entre todos os nós Tor disponíveis.
 
-### The Exit Node
+### O Nó de Saída
 
-The exit node is the point in which your web traffic leaves the Tor network and is forwarded to your desired destination. The exit node is unable to see your IP address, but it does know what site it's connecting to.
+O nó de saída é o ponto em que seu tráfego de internet deixa a rede Tor e é encaminhado para o destino que você deseja. O nó de saída não consegue ver seu endereço IP, mas sabe a que site você está se conectando.
 
-The exit node will be chosen at random from all available Tor nodes ran with an exit relay flag.[^2]
+O nó de saída será escolhido aleatoriamente entre todos os nós Tor disponíveis executados com um identificador de retransmissão de saída.[^2]
 
 ## Path Building to Onion Services
 
-"Onion Services" (also commonly referred to as "hidden services") are websites which can only be accessed by the Tor browser. These websites have a long randomly generated domain name ending with `.onion`.
+"Serviços Onion" (também conhecidos como "serviços ocultos") são sites que só podem ser acessados pelo Navegador Tor. Esses sites têm um nome de domínio longo, gerado aleatoriamente, que termina com `.onion`.
 
 Connecting to an Onion Service in Tor works very similarly to connecting to a clearnet service, but your traffic is routed through a total of **six** nodes before reaching the destination server. Just like before however, only three of these nodes are contributing to *your* anonymity, the other three nodes protect *the Onion Service's* anonymity, hiding the website's true IP and location in the same manner that Tor Browser is hiding yours.
 
@@ -52,7 +52,7 @@ Connecting to an Onion Service in Tor works very similarly to connecting to a cl
 
 ## Encryption
 
-Tor encrypts each packet (a block of transmitted data) three times with the keys from the exit, middle, and entry node—in that order.
+Tor criptografa cada pacote (um bloco de dados transmitidos) três vezes com as chaves do nó de saída, do nó intermediário e do nó de entrada — nessa ordem.
 
 Once Tor has built a circuit, data transmission is done as follows:
 

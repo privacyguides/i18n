@@ -75,9 +75,9 @@ Nitrokey's firmware is open-source, unlike the YubiKey. The firmware on modern N
 - Must not allow private key extraction.
 - Devices which cost over $35 must support handling OpenPGP and S/MIME.
 
-#### Best-Case
+#### Melhor Caso
 
-Our best-case criteria represents what we would like to see from the perfect project in this category. Our recommendations may not include any or all of this functionality, but those which do may rank higher than others on this page.
+Nosso critério de melhor caso representa o que gostaríamos de ver em um projeto perfeito nessa categoria. Our recommendations may not include any or all of this functionality, but those which do may rank higher than others on this page.
 
 - Should be available in USB-C form-factor.
 - Should be available with NFC.

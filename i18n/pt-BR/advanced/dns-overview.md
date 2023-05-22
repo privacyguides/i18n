@@ -4,7 +4,7 @@ icon: material/dns
 description: O Sistema de Nome de Domínio é a "agenda telefônica da internet", ajudando seu navegador a encontrar o site que ele está procurando.
 ---
 
-The [Domain Name System](https://en.wikipedia.org/wiki/Domain_Name_System) is the 'phonebook of the Internet'. DNS translates domain names to IP addresses so browsers and other services can load Internet resources, through a decentralized network of servers.
+The [Domain Name System](https://en.wikipedia.org/wiki/Domain_Name_System) is the 'phonebook of the Internet'. O DNS converte nomes de domínio em endereços IP para que os navegadores e outros serviços possam carregar recursos da Internet, através de uma rede descentralizada de servidores.
 
 ## O que é DNS?
 

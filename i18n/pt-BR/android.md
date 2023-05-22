@@ -160,9 +160,9 @@ Tenha muito **cuidado** ao comprar celulares usados nas lojas online. Sempre ver
 
 Mais algumas dicas sobre os aparelhos Android e a compatibilidade do sistema operacional:
 
-- Do not buy devices that have reached or are near their end-of-life, additional firmware updates must be provided by the manufacturer.
+- Não compre dispositivos que tenham atingido ou estejam próximos do fim de sua vida útil; atualizações adicionais de firmware devem ser fornecidas pelo fabricante.
 - Do not buy preloaded LineageOS or /e/ OS phones or any Android phones without proper [Verified Boot](https://source.android.com/security/verifiedboot) support and firmware updates. These devices also have no way for you to check whether they've been tampered with.
-- In short, if a device or Android distribution is not listed here, there is probably a good reason. Check out our [forum](https://discuss.privacyguides.net/) to find details!
+- Em resumo, se um dispositivo ou distribuição Android não estiver listado aqui, provavelmente há um bom motivo. Confira nosso [fórum](https://discuss.privacyguides.net/) para encontrar detalhes!
 
 ### Google Pixel
 
@@ -309,7 +309,7 @@ GrapheneOS's app store is available on [GitHub](https://github.com/GrapheneOS/Ap
 
 ### Aurora Store
 
-The Google Play Store requires a Google account to login which is not great for privacy. You can get around this by using an alternative client, such as Aurora Store.
+A Google Play Store exige uma conta do Google para fazer login, o que não é muito bom para a privacidade. Você pode contornar esse problema usando um cliente alternativo, como o Aurora Store.
 
 !!! recommendation
 
@@ -324,9 +324,9 @@ The Google Play Store requires a Google account to login which is not great for 
     
         - [:simple-gitlab: GitLab](https://gitlab.com/AuroraOSS/AuroraStore/-/releases)
 
-Aurora Store does not allow you to download paid apps with their anonymous account feature. You can optionally log in with your Google account with Aurora Store to download apps you have purchased, which does give access to the list of apps you've installed to Google, however you still benefit from not requiring the full Google Play client and Google Play Services or microG on your device.
+Aurora Store não permite que você baixe aplicativos pagos com o recurso de conta anônima. Opcionalmente, você pode fazer login com sua conta do Google na Aurora Store para baixar os aplicativos que comprou, o que dá acesso à lista de aplicativos que você instalou para o Google, mas você ainda se beneficia por não precisar do cliente completo do Google Play e do Google Play Services ou do microG no seu dispositivo.
 
-### Manually with RSS Notifications
+### Manualmente com Notificações RSS
 
 For apps that are released on platforms like GitHub and GitLab, you may be able to add an RSS feed to your [news aggregator](/news-aggregators) that will help you keep track of new releases.
 
@@ -344,15 +344,15 @@ On GitLab, using [Aurora Store](#aurora-store) as an example, you would navigate
 
 `https://gitlab.com/AuroraOSS/AuroraStore/-/tags?format=atom`
 
-#### Verifying APK Fingerprints
+#### Verificando as Impressões Digitais do APK
 
 If you download APK files to install manually, you can verify their signature with the [`apksigner`](https://developer.android.com/studio/command-line/apksigner) tool, which is a part of Android [build-tools](https://developer.android.com/studio/releases/build-tools).
 
-1. Install [Java JDK](https://www.oracle.com/java/technologies/downloads/).
+1. Instale o [Java JDK](https://www.oracle.com/java/technologies/downloads/).
 
 2. Download the [Android Studio command line tools](https://developer.android.com/studio#command-tools).
 
-3. Extract the downloaded archive:
+3. Extrair o arquivo baixado:
 
     ```bash
     unzip commandlinetools-*.zip
@@ -360,7 +360,7 @@ If you download APK files to install manually, you can verify their signature wi
     ./bin/sdkmanager --sdk_root=./ "build-tools;29.0.3"
     ```
 
-4. Run the signature verification command:
+4. Execute o comando de verificação de assinatura:
 
     ```bash
     ./build-tools/29.0.3/apksigner verify --print-certs ../Camera-37.apk
@@ -381,9 +381,9 @@ If you download APK files to install manually, you can verify their signature wi
 
 ==We do **not** currently recommend F-Droid as a way to obtain apps.== F-Droid is often recommended as an alternative to Google Play, particularly in the privacy community. The option to add third-party repositories and not be confined to Google's walled garden has led to its popularity. F-Droid additionally has [reproducible builds](https://f-droid.org/en/docs/Reproducible_Builds/) for some applications and is dedicated to free and open-source software. However, there are [notable problems](https://privsec.dev/posts/android/f-droid-security-issues/) with the official F-Droid client, their quality control, and how they build, sign, and deliver packages.
 
-Due to their process of building apps, apps in the official F-Droid repository often fall behind on updates. F-Droid maintainers also reuse package IDs while signing apps with their own keys, which is not ideal as it gives the F-Droid team ultimate trust.
+Devido ao seu processo de criação de aplicativos, os aplicativos no repositório oficial do F-Droid geralmente ficam para trás nas atualizações. Os mantenedores do F-Droid também reutilizam IDs de pacotes ao assinar aplicativos com suas próprias chaves, o que não é ideal, pois dá à equipe do F-Droid a confiança máxima.
 
-Other popular third-party repositories such as [IzzyOnDroid](https://apt.izzysoft.de/fdroid/) alleviate some of these concerns. The IzzyOnDroid repository pulls builds directly from GitHub and is the next best thing to the developers' own repositories. However, it is not something that we can recommend, as apps are typically [removed](https://github.com/vfsfitvnm/ViMusic/issues/240#issuecomment-1225564446) from that respository when they make it to the main F-Droid repository. While that makes sense (since the goal of that particular repository is to host apps before they're accepted into the main F-Droid repository), it can leave you with installed apps which no longer receive updates.
+Other popular third-party repositories such as [IzzyOnDroid](https://apt.izzysoft.de/fdroid/) alleviate some of these concerns. O repositório IzzyOnDroid extrai as compilações diretamente do GitHub e é a melhor opção em relação aos repositórios dos próprios desenvolvedores. However, it is not something that we can recommend, as apps are typically [removed](https://github.com/vfsfitvnm/ViMusic/issues/240#issuecomment-1225564446) from that respository when they make it to the main F-Droid repository. While that makes sense (since the goal of that particular repository is to host apps before they're accepted into the main F-Droid repository), it can leave you with installed apps which no longer receive updates.
 
 That said, the [F-Droid](https://f-droid.org/en/packages/) and [IzzyOnDroid](https://apt.izzysoft.de/fdroid/) repositories are home to countless apps, so they can be a useful tool to search for and discover open-source apps that you can then download through Play Store, Aurora Store, or by getting the APK directly from the developer. It is important to keep in mind that some apps in these repositories have not been updated in years and may rely on unsupported libraries, among other things, posing a potential security risk. You should use your best judgement when looking for new apps via this method.
 

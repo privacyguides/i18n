@@ -1,5 +1,5 @@
 ---
-title: "Types of Communication Networks"
+title: "통신 네트워크 유형"
 icon: 'material/transit-connection-variant'
 description: An overview of several network architectures commonly used by instant messaging applications.
 ---

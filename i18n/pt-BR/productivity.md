@@ -68,9 +68,9 @@ In general, we define collaboration platforms as full-fledged suites which could
 - Supports real-time document collaboration.
 - Supports exporting documents to standard document formats (e.g. ODF).
 
-#### Best-Case
+#### Melhor Caso
 
-Our best-case criteria represents what we would like to see from the perfect project in this category. Our recommendations may not include any or all of this functionality, but those which do may rank higher than others on this page.
+Nosso critério de melhor caso representa o que gostaríamos de ver em um projeto perfeito nessa categoria. Our recommendations may not include any or all of this functionality, but those which do may rank higher than others on this page.
 
 - Should store files in a conventional filesystem.
 - Should support TOTP or FIDO2 multi-factor authentication support, or Passkey logins.

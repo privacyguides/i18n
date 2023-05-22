@@ -140,9 +140,9 @@ ffsend upload --host https://send.vis.ee/ FILE
 - Must be open-source software.
 - Deve ter aplicativos para Linux, macOS e Windows ou ter uma interface via site.
 
-#### Best-Case
+#### Melhor Caso
 
-Our best-case criteria represents what we would like to see from the perfect project in this category. Our recommendations may not include any or all of this functionality, but those which do may rank higher than others on this page.
+Nosso critério de melhor caso representa o que gostaríamos de ver em um projeto perfeito nessa categoria. Our recommendations may not include any or all of this functionality, but those which do may rank higher than others on this page.
 
 - Has mobile clients for iOS and Android, which at least support document previews.
 - Supports photo backup from iOS and Android, and optionally supports file/folder sync on Android.

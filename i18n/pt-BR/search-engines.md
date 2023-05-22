@@ -102,9 +102,9 @@ Startpage's majority shareholder is System1 who is an adtech company. We don't b
 - Must not collect personally identifiable information per their privacy policy.
 - Must not allow users to create an account with them.
 
-### Best-Case
+### Melhor Caso
 
-Our best-case criteria represents what we would like to see from the perfect project in this category. Our recommendations may not include any or all of this functionality, but those which do may rank higher than others on this page.
+Nosso critério de melhor caso representa o que gostaríamos de ver em um projeto perfeito nessa categoria. Our recommendations may not include any or all of this functionality, but those which do may rank higher than others on this page.
 
 - Should be based on open-source software.
 - Should not block Tor exit node IP addresses.

@@ -5,7 +5,7 @@ description: Calendars contain some of your most sensitive data; use products th
 cover: calendar.png
 ---
 
-Calendars contain some of your most sensitive data; use products that implement E2EE at rest to prevent a provider from reading them.
+Os calendários contêm alguns de seus dados mais confidenciais; use produtos que implementem E2EE em repouso para impedir que um provedor os leia.
 
 ## Tutanota
 
@@ -16,7 +16,7 @@ Calendars contain some of your most sensitive data; use products that implement 
     
     **Tutanota** offers a free and encrypted calendar across their supported platforms. Features include: automatic E2EE of all data, sharing features, import/export functionality, multi-factor authentication, and [more](https://tutanota.com/calendar-app-comparison/).
     
-    Multiple calendars and extended sharing functionality is limited to paid subscribers.
+    A funcionalidade de múltiplos calendários e compartilhamento adicional é limitada a assinantes pagos.
     
     [:octicons-home-16: Homepage](https://tutanota.com/calendar){ .md-button .md-button--primary }
     [:octicons-eye-16:](https://tutanota.com/privacy){ .card-link title="Privacy Policy" }
@@ -64,8 +64,8 @@ Calendars contain some of your most sensitive data; use products that implement 
 
 - Must sync and store information with E2EE to ensure data is not visible to the service provider.
 
-### Best-Case
+### Melhor Caso
 
-Our best-case criteria represents what we would like to see from the perfect project in this category. Our recommendations may not include any or all of this functionality, but those which do may rank higher than others on this page.
+Nosso critério de melhor caso representa o que gostaríamos de ver em um projeto perfeito nessa categoria. Our recommendations may not include any or all of this functionality, but those which do may rank higher than others on this page.
 
 - Should integrate with native OS calendar and contact management apps if applicable.

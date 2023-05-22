@@ -87,9 +87,9 @@ They have also received the Digital Trust Label, a certification from the [Swiss
 - Must allow for easy exports of all files/documents.
 - Must use standard, audited encryption.
 
-### Best-Case
+### Melhor Caso
 
-Our best-case criteria represents what we would like to see from the perfect project in this category. Our recommendations may not include any or all of this functionality, but those which do may rank higher than others on this page.
+Nosso critério de melhor caso representa o que gostaríamos de ver em um projeto perfeito nessa categoria. Our recommendations may not include any or all of this functionality, but those which do may rank higher than others on this page.
 
 - Clients should be open-source.
 - Clients should be audited in their entirety by an independent third-party.

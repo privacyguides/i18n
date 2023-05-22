@@ -1,14 +1,14 @@
 ---
-meta_title: "The Best Password Managers to Protect Your Privacy and Security - Privacy Guides"
+meta_title: "Os Melhores Gerenciadores de Senhas para Proteger sua Privacidade e Segurança — Privacy Guides"
 title: "Gerenciadores de Senhas"
 icon: material/form-textbox-password
-description: Password managers allow you to securely store and manage passwords and other credentials.
+description: Gerenciadores de senhas permitem que você armazene e gerencie com segurança senhas e outras credenciais.
 cover: passwords.png
 schema:
   - 
     "@context": http://schema.org
     "@type": WebPage
-    name: Password Manager Recommendations
+    name: Gerenciadores de Senhas Recomendados
     url: "./"
   - 
     "@context": http://schema.org
@@ -118,19 +118,19 @@ schema:
       url: "./"
 ---
 
-Password managers allow you to securely store and manage passwords and other credentials with the use of a master password.
+Os gerenciadores de senhas permitem que você armazene e gerencie com segurança senhas e outras credenciais com o uso de uma senha mestra.
 
-[Introduction to Passwords :material-arrow-right-drop-circle:](./basics/passwords-overview.md)
+[Introdução às Senhas :material-arrow-right-drop-circle:](./basics/passwords-overview.md)
 
 !!! info
 
-    Built-in password managers in software like browsers and operating systems are sometimes not as good as dedicated password manager software. The advantage of a built-in password manager is good integration with the software, but it can often be very simple and lack privacy and security features standalone offerings have.
+    Gerenciadores de senhas que vêm de fábrica em aplicativos como navegadores e sistemas operacionais às vezes não são tão bons quanto um aplicativo exclusivo para gerenciamento de senhas. A vantagem de um gerenciador de senhas interno é a boa integração com o programa, mas, em geral, ele pode ser muito simples e não ter os recursos de privacidade e segurança que as ofertas autônomas têm.
     
-    For example, the password manager in Microsoft Edge doesn't offer E2EE at all. Google's password manager has [optional](https://support.google.com/accounts/answer/11350823) E2EE, and [Apple's](https://support.apple.com/en-us/HT202303) offers E2EE by default.
+    Por exemplo, o gerenciador de senhas do Microsoft Edge não oferece em absoluto o E2EE. O gerenciador de senhas do Google tem [optional](https://support.google.com/accounts/answer/11350823) E2EE, e [Apple's](https://support.apple.com/en-us/HT202303) oferece E2EE por padrão.
 
-## Cloud-based
+## Baseado na nuvem
 
-These password managers sync your passwords to a cloud server for easy accessibility from all your devices and safety against device loss.
+Esses gerenciadores de senhas sincronizam suas senhas com um servidor em nuvem para facilitar o acesso a partir de todos os seus dispositivos e proteger contra a perda de dispositivos.
 
 ### Bitwarden
 
@@ -163,7 +163,7 @@ You need the [Premium Plan](https://bitwarden.com/help/about-bitwarden-plans/#co
 
 Bitwarden's server-side code is [open-source](https://github.com/bitwarden/server), so if you don't want to use the Bitwarden cloud, you can easily host your own Bitwarden sync server.
 
-**Vaultwarden** is an alternative implementation of Bitwarden's sync server written in Rust and compatible with official Bitwarden clients, perfect for self-hosted deployment where running the official resource-heavy service might not be ideal. If you are looking to self-host Bitwarden on your own server, you almost certainly want to use Vaultwarden over Bitwarden's official server code.
+**Vaultwarden** é uma implementação alternativa do servidor de sincronização do Bitwarden, escrito em Rust e compatível com os clientes oficiais do Bitwarden, perfeito para a implementação auto-hospedada em que a execução do serviço oficial com muitos recursos pode não ser ideal. Se você deseja hospedar o Bitwarden em seu próprio servidor, é quase certo que queira usar o Vaultwarden em vez do código de servidor oficial do Bitwarden.
 
 [:octicons-repo-16: Vaultwarden Repository](https://github.com/dani-garcia/vaultwarden ""){.md-button} [:octicons-info-16:](https://github.com/dani-garcia/vaultwarden/wiki){ .card-link title=Documentation}
 [:octicons-code-16:](https://github.com/dani-garcia/vaultwarden){ .card-link title="Source Code" }
@@ -189,11 +189,11 @@ Bitwarden's server-side code is [open-source](https://github.com/bitwarden/serve
         - [:simple-apple: macOS](https://1password.com/downloads/mac/)
         - [:simple-linux: Linux](https://1password.com/downloads/linux/)
 
-Traditionally, **1Password** has offered the best password manager user experience for people using macOS and iOS; however, it has now achieved feature-parity across all platforms. It boasts many features geared towards families and less technical people, as well as advanced functionality.
+Tradicionalmente, o **1Password** oferece a melhor experiência de usuário de gerenciador de senhas para pessoas que usam macOS e iOS; no entanto, agora ele atingiu a igualdade de recursos em todas as plataformas. Ele apresenta muitos recursos voltados para famílias e pessoas menos técnicas, bem como funcionalidades avançadas.
 
-Your 1Password vault is secured with both your master password and a randomized 34-character security key to encrypt your data on their servers. This security key adds a layer of protection to your data because your data is secured with high entropy regardless of your master password. Many other password manager solutions are entirely reliant on the strength of your master password to secure your data.
+Seu cofre do 1Password é protegido com sua senha mestra e uma chave de segurança aleatória de 34 caracteres para criptografar seus dados nos servidores. Essa chave de segurança adiciona uma camada de proteção aos seus dados porque eles são protegidos com alta entropia, independentemente da sua senha mestra. Muitas outras soluções de gerenciador de senhas dependem totalmente da força de sua senha mestra para proteger seus dados.
 
-One advantage 1Password has over Bitwarden is its first-class support for native clients. While Bitwarden relegates many duties, especially account management features, to their web vault interface, 1Password makes nearly every feature available within its native mobile or desktop clients. 1Password's clients also have a more intuitive UI, which makes them easier to use and navigate.
+Uma vantagem do 1Password sobre o Bitwarden é seu suporte de primeira classe dos clientes nativos. Enquanto o Bitwarden reserva muitas funções, especialmente os recursos de gerenciamento de contas, para sua interface de cofre do site, o 1Password disponibiliza quase todos os recursos em seus clientes nativos para celular ou desktop. Os clientes do 1Password também têm uma interface de usuário mais intuitiva, o que os torna mais fáceis de usar e navegar.
 
 ### Psono
 
@@ -216,7 +216,7 @@ One advantage 1Password has over Bitwarden is its first-class support for native
         - [:simple-googlechrome: Chrome](https://chrome.google.com/webstore/detail/psonopw-password-manager/eljmjmgjkbmpmfljlmklcfineebidmlo)
         - [:simple-docker: Docker Hub](https://hub.docker.com/r/psono/psono-client)
 
-Psono provides extensive documentation for their product. The web-client for Psono can be self-hosted; alternatively, you can choose the full Community Edition or the Enterprise Edition with additional features.
+Psono fornece uma extensa documentação para seu produto. The web-client for Psono can be self-hosted; alternatively, you can choose the full Community Edition or the Enterprise Edition with additional features.
 
 ### Criteria
 
@@ -229,14 +229,14 @@ Psono provides extensive documentation for their product. The web-client for Pso
 #### Minimum Requirements
 
 - Must utilize strong, standards-based/modern E2EE.
-- Must have thoroughly documented encryption and security practices.
-- Must have a published audit from a reputable, independent third-party.
-- All non-essential telemetry must be optional.
-- Must not collect more PII than is necessary for billing purposes.
+- Deve ter práticas de criptografia e segurança totalmente documentadas.
+- Deve ter uma auditoria publicada por um terceiro independente e de boa reputação.
+- Toda telemetria não essencial deve ser opcional.
+- Não deve coletar mais PII (dados pessoais identificáveis) do que o necessário para fins de faturamento.
 
-#### Best-Case
+#### Melhor Caso
 
-Our best-case criteria represents what we would like to see from the perfect project in this category. Our recommendations may not include any or all of this functionality, but those which do may rank higher than others on this page.
+Nosso critério de melhor caso representa o que gostaríamos de ver em um projeto perfeito nessa categoria. Our recommendations may not include any or all of this functionality, but those which do may rank higher than others on this page.
 
 - Telemetry should be opt-in (disabled by default) or not collected at all.
 - Should be open-source and reasonably self-hostable.
