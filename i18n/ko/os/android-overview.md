@@ -4,7 +4,7 @@ icon: simple/android
 description: Android는 강력한 보안 및 보호 기능을 갖춘 오픈 소스 운영 체제로, 휴대폰에 있어서 최고의 선택입니다.
 ---
 
-Android is a secure operating system that has strong [app sandboxing](https://source.android.com/security/app-sandbox), [Verified Boot](https://source.android.com/security/verifiedboot) (AVB), and a robust [permission](https://developer.android.com/guide/topics/permissions/overview) control system.
+Android는 강력한 [애플리케이션 샌드박스](https://source.android.com/security/app-sandbox), [자체 검사 부팅](https://source.android.com/security/verifiedboot)(AVB) 기능과 엄밀한 [권한](https://developer.android.com/guide/topics/permissions/overview) 제어 시스템을 갖춘 안전한 운영 체제입니다.
 
 ## Choosing an Android Distribution
 

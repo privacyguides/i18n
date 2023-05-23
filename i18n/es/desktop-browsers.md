@@ -283,9 +283,7 @@ Desactiva las extensiones integradas que no utilice en **Extensiones**
 
 Las funciones Web3 de Brave pueden aumentar potencialmente la huella digital de tu navegador y la superficie de ataque. A menos que utilices alguna de las funciones, deberían estar desactivadas.
 
-- [ ] Establece **Cartera predeterminada de Ethereum** como **Ninguno**
-- [ ] Establece **Cartera predeterminada de Solana** como **Ninguno**
-- [ ] Establece **Método para resolver los recursos IPFS** como **Deshabilitado**
+Set **Default Ethereum wallet** to **Extensions (no fallback)** Set **Default Solana wallet** to **Extensions (no fallback)** Set **Method to resolve IPFS resources** to **Disabled**
 
 ##### Sistema
 

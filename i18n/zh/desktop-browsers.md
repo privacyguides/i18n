@@ -310,9 +310,7 @@ Shields的选项可以根据需要在每个站点的基础上进行降级，但�
 
 Brave's Web3 features can potentially add to your browser fingerprint and attack surface. Unless you use any of features, they should be disabled.
 
-- [ ] Set **Default Ethereum Wallet** to **None**
-- [ ] Set **Default Solana Wallet** to **None**
-- [ ] Set **Method to resolve IPFS resources** to **Disabled**
+Set **Default Ethereum wallet** to **Extensions (no fallback)** Set **Default Solana wallet** to **Extensions (no fallback)** Set **Method to resolve IPFS resources** to **Disabled**
 
 
 

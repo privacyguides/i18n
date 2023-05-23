@@ -283,9 +283,7 @@ Disabilita le estensioni integrate che non utilizzi in **Estensioni**
 
 Le funzionalità Web3 di Brave possono potenzialmente aumentare il fingerprint del browser e la superficie di attacco. Disattiva le funzioni, a meno che tu non le utilizzi.
 
-- [ ] Imposta **Portafoglio Ethereum predefinito** a **Nessuno**
-- [ ] Imposta **Portafoglio Solana predefinito** a **Nessuno**
-- [ ] Imposta **Metodo per risolvere le risorse IPFS ** su **Disabilitato**
+Imposta **Wallet Ethereum predefinito** su **Estensioni (nessun backup)** Imposta **Wallet Solana predefinito** su **Estensioni (nessun backup)** Imposta **Metodo per risolvere le risorse IPFS** su **Disabilitato**
 
 ##### Sistema
 

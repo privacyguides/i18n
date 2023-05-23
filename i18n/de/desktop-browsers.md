@@ -283,9 +283,7 @@ Deaktiviere die integrierten Erweiterungen, die du nicht verwendest, unter **Erw
 
 Die Web3-Funktionen von Brave können deinen Browser-Fingerabdruck und deine Angriffsfläche potenziell vergrößern. Wenn du keine der Funktionen verwendest, sollten sie deaktiviert werden.
 
-- [ ] **Standard Ethereum Wallet** auf **Keine** setzen
-- [ ] **Standard-Solana-Wallet** auf **Keine** setzen
-- [ ] Set **Method to resolve IPFS resources** to **Disabled**
+Set **Default Ethereum wallet** to **Extensions (no fallback)** Set **Default Solana wallet** to **Extensions (no fallback)** Set **Method to resolve IPFS resources** to **Disabled**
 
 ##### System
 

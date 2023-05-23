@@ -38,7 +38,7 @@ cover: vpn.png
 
     ![IVPN logo](assets/img/vpn/ivpn.svg){ align=right }
     
-    **IVPN** is another premium VPN provider, and they have been in operation since 2009. Выбор VPN-провайдера с ближайшим к вам сервером позволит снизить задержку передаваемого вами сетевого трафика.
+    **IVPN** - еще один платный VPN провайдер, работающий с 2009 года. Выбор VPN-провайдера с ближайшим к вам сервером позволит снизить задержку передаваемого вами сетевого трафика.
     
     Это происходит из-за более короткого маршрута (меньше промежуточных серверов) до пункта назначения. downloads
     
@@ -56,11 +56,11 @@ cover: vpn.png
 
 1. Последняя проверка: 2022-09-16
 
-We also think it's better for the security of the VPN provider's private keys if they use [dedicated servers](https://en.wikipedia.org/wiki/Dedicated_hosting_service), instead of cheaper shared solutions (with other customers) such as [virtual private servers](https://en.wikipedia.org/wiki/Virtual_private_server).
+Мы также считаем, что для безопасности закрытых ключей VPN-провайдера лучше чтобы провайдер использовал [выделенные сервера](https://en.wikipedia.org/wiki/Dedicated_hosting_service), вместо более дешевых разделяемых решений (делимых с другими клиентами), такие, как [виртуальные частные сервера](https://en.wikipedia.org/wiki/Virtual_private_server).
 
-#### :material-check:{ .pg-green } Independently Audited
+#### :material-check:{ .pg-green } Независимый аудит
 
-IVPN has undergone a [no-logging audit from Cure53](https://cure53.de/audit-report_ivpn.pdf) which concluded in agreement with IVPN's no-logging claim. IVPN has also completed a [comprehensive pentest report Cure53](https://cure53.de/summary-report_ivpn_2019.pdf) in January 2020. IVPN has also said they plan to have [annual reports](https://www.ivpn.net/blog/independent-security-audit-concluded) in the future. A further review was conducted [in April 2022](https://www.ivpn.net/blog/ivpn-apps-security-audit-2022-concluded/) and was produced by Cure53 [on their website](https://cure53.de/pentest-report_IVPN_2022.pdf).
+IVPN прошла [безучётный аудит от Cure53](https://cure53.de/audit-report_ivpn.pdf), который подтвердил заявление IVPN о безучёте. IVPN также подготовила [отчет о комплексном пентесте Cure53](https://cure53.de/summary-report_ivpn_2019.pdf) в январе 2020 года. IVPN также заявила, что в будущем планирует составлять [годовые отчеты](https://www.ivpn.net/blog/independent-security-audit-concluded). Дальнейшее рассмотрение было проведено [в апреле 2022](https://www.ivpn.net/blog/ivpn-apps-security-audit-2022-concluded/) и было подготовлено Cure53 [на их вебсайте](https://cure53.de/pentest-report_IVPN_2022.pdf).
 
 #### :material-check:{ .pg-green } Open-Source Clients
 
@@ -118,9 +118,9 @@ Mullvad has [servers in 41 countries](https://mullvad.net/servers/).(1) Picking 
 
 1. Last checked: 2023-01-19
 
-We also think it's better for the security of the VPN provider's private keys if they use [dedicated servers](https://en.wikipedia.org/wiki/Dedicated_hosting_service), instead of cheaper shared solutions (with other customers) such as [virtual private servers](https://en.wikipedia.org/wiki/Virtual_private_server).
+Мы также считаем, что для безопасности закрытых ключей VPN-провайдера лучше чтобы провайдер использовал [выделенные сервера](https://en.wikipedia.org/wiki/Dedicated_hosting_service), вместо более дешевых разделяемых решений (делимых с другими клиентами), такие, как [виртуальные частные сервера](https://en.wikipedia.org/wiki/Virtual_private_server).
 
-#### :material-check:{ .pg-green } Independently Audited
+#### :material-check:{ .pg-green } Независимый аудит
 
 Mullvad's VPN clients have been audited by Cure53 and Assured AB in a pentest report [published at cure53.de](https://cure53.de/pentest-report_mullvad_v2.pdf). The security researchers concluded:
 
@@ -186,9 +186,9 @@ Proton VPN has [servers in 67 countries](https://protonvpn.com/vpn-servers).(1) 
 
 1. Последняя проверка: 2022-09-16
 
-We also think it's better for the security of the VPN provider's private keys if they use [dedicated servers](https://en.wikipedia.org/wiki/Dedicated_hosting_service), instead of cheaper shared solutions (with other customers) such as [virtual private servers](https://en.wikipedia.org/wiki/Virtual_private_server).
+Мы также считаем, что для безопасности закрытых ключей VPN-провайдера лучше чтобы провайдер использовал [выделенные сервера](https://en.wikipedia.org/wiki/Dedicated_hosting_service), вместо более дешевых разделяемых решений (делимых с другими клиентами), такие, как [виртуальные частные сервера](https://en.wikipedia.org/wiki/Virtual_private_server).
 
-#### :material-check:{ .pg-green } Independently Audited
+#### :material-check:{ .pg-green } Независимый аудит
 
 VPN-клиенты Mullvad были проверены компаниями Cure53 и Assured AB в отчете по пентесту \[опубликовано на сайте cure53.de\] (https://cure53.de/pentest-report_mullvad_v2.pdf). Исследователи безопасности заключили:
 
