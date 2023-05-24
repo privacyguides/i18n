@@ -135,7 +135,7 @@ In general, we define collaboration platforms as full-fledged suites which could
 In general, we define office suites as applications which could reasonably act as a replacement for Microsoft Word for most needs.
 
 - 크로스 플랫폼을 지원해야 합니다.
-- Must be open-source software.
+- 오픈 소스 소프트웨어여야 합니다.
 - Must function offline.
 - Must support editing documents, spreadsheets, and slideshows.
 - Must export files to standard document formats.

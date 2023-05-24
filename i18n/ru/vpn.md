@@ -62,23 +62,23 @@ cover: vpn.png
 
 IVPN прошла [безучётный аудит от Cure53](https://cure53.de/audit-report_ivpn.pdf), который подтвердил заявление IVPN о безучёте. IVPN также подготовила [отчет о комплексном пентесте Cure53](https://cure53.de/summary-report_ivpn_2019.pdf) в январе 2020 года. IVPN также заявила, что в будущем планирует составлять [годовые отчеты](https://www.ivpn.net/blog/independent-security-audit-concluded). Дальнейшее рассмотрение было проведено [в апреле 2022](https://www.ivpn.net/blog/ivpn-apps-security-audit-2022-concluded/) и было подготовлено Cure53 [на их вебсайте](https://cure53.de/pentest-report_IVPN_2022.pdf).
 
-#### :material-check:{ .pg-green } Open-Source Clients
+#### :material-check:{ .pg-green } Клиенты с открытым исходным кодом
 
-As of February 2020 [IVPN applications are now open-source](https://www.ivpn.net/blog/ivpn-applications-are-now-open-source). Source code can be obtained from their [GitHub organization](https://github.com/ivpn).
+Начиная с февраля 2020 года [IVPN-приложения является открытой программой](https://www.ivpn.net/blog/ivpn-applications-are-now-open-source). Исходный код может быть получен от их [организации GitHub](https://github.com/ivpn).
 
-#### :material-check:{ .pg-green } Accepts Cash and Monero
+#### :material-check:{ .pg-green } Принимает наличные и Monero
 
-In addition to accepting credit/debit cards and PayPal, IVPN accepts Bitcoin, **Monero** and **cash/local currency** (on annual plans) as anonymous forms of payment.
+Помимо приема кредитных/дебетовых карт и PayPal, IVPN принимает биткоины, **Monero** и **наличные/местные валюты** (по годовым планам) как анонимные формы платежа.
 
-#### :material-check:{ .pg-green } WireGuard Support
+#### :material-check:{ .pg-green } Поддержка WireGuard
 
-IVPN supports the WireGuard® protocol. [WireGuard](https://www.wireguard.com) is a newer protocol that uses state-of-the-art [cryptography](https://www.wireguard.com/protocol/). Кроме того, WireGuard стремится быть более простым и производительным.
+IVPN поддерживает протокол WireGuard®️. [WireGuard](https://www.wireguard.com) - это более новый протокол, которой использует современную [криптография](https://www.wireguard.com/protocol/). Кроме того, WireGuard стремится быть более простым и производительным.
 
-IVPN [recommends](https://www.ivpn.net/wireguard/) the use of WireGuard with their service and, as such, the protocol is the default on all of IVPN's apps. IVPN also offers a WireGuard configuration generator for use with the official WireGuard [apps](https://www.wireguard.com/install/).
+IVPN [рекомендует](https://www.ivpn.net/wireguard/) использовать WireGuard для их сервиса, и поэтому протокол по умолчанию используется во всех IVPN приложениях. IVPN также предлагает генератор конфигурации WireGuard для использования с официальными [приложениями](https://www.wireguard.com/install/)WireGuard.
 
-#### :material-check:{ .pg-green } Remote Port Forwarding
+#### Удаленная переадресация портов :material-check:{ .pg-green }
 
-Remote [port forwarding](https://en.wikipedia.org/wiki/Port_forwarding) is possible with a Pro plan. Port forwarding [can be activated](https://www.ivpn.net/knowledgebase/81/How-do-I-activate-port-forwarding.html) via the client area. Port forwarding is only available on IVPN when using WireGuard or OpenVPN protocols and is [disabled on US servers](https://www.ivpn.net/knowledgebase/116/Port-forwarding-is-not-working-why.html).
+Удаленная [переадресация портов](https://en.wikipedia.org/wiki/Port_forwarding) возможна при тарифном плане Pro. Переадресация портов [может быть активирована](https://www.ivpn.net/knowledgebase/81/How-do-I-activate-port-forwarding.html) через клиентскую область. Port forwarding is only available on IVPN when using WireGuard or OpenVPN protocols and is [disabled on US servers](https://www.ivpn.net/knowledgebase/116/Port-forwarding-is-not-working-why.html).
 
 #### :material-check:{ .pg-green } Mobile Clients
 
@@ -132,17 +132,17 @@ In 2020 a second audit [was announced](https://mullvad.net/blog/2020/6/25/result
 
 In 2021 an infrastructure audit [was announced](https://mullvad.net/en/blog/2021/1/20/no-pii-or-privacy-leaks-found-cure53s-infrastructure-audit/) and the [final audit report](https://cure53.de/pentest-report_mullvad_2021_v1.pdf) was made available on Cure53's website. Another report was commissioned [in June 2022](https://mullvad.net/en/blog/2022/6/22/vpn-server-audit-found-no-information-leakage-or-logging-of-customer-data/) and is available on [Assured's website](https://www.assured.se/publications/Assured_Mullvad_relay_server_audit_report_2022.pdf).
 
-#### :material-check:{ .pg-green } Open-Source Clients
+#### :material-check:{ .pg-green } Клиенты с открытым исходным кодом
 
 Mullvad provides the source code for their desktop and mobile clients in their [GitHub organization](https://github.com/mullvad/mullvadvpn-app).
 
-#### :material-check:{ .pg-green } Accepts Cash and Monero
+#### :material-check:{ .pg-green } Принимает наличные и Monero
 
 Mullvad, in addition to accepting credit/debit cards and PayPal, accepts Bitcoin, Bitcoin Cash, **Monero** and **cash/local currency** as anonymous forms of payment. \[WireGuard\](https://www.wireguard.com)\[^1] - это более новый протокол, использующий самую современную [криптографию\](https://www.wireguard.com/protocol/).
 
-#### :material-check:{ .pg-green } WireGuard Support
+#### :material-check:{ .pg-green } Поддержка WireGuard
 
-Mullvad supports the WireGuard® protocol. [WireGuard](https://www.wireguard.com) is a newer protocol that uses state-of-the-art [cryptography](https://www.wireguard.com/protocol/). Кроме того, WireGuard стремится быть более простым и производительным.
+Mullvad supports the WireGuard® protocol. [WireGuard](https://www.wireguard.com) - это более новый протокол, которой использует современную [криптография](https://www.wireguard.com/protocol/). Кроме того, WireGuard стремится быть более простым и производительным.
 
 Mullvad [recommends](https://mullvad.net/en/help/why-wireguard/) the use of WireGuard with their service. It is the default or only protocol on Mullvad's Android, iOS, macOS, and Linux apps, but on Windows you have to [manually enable](https://mullvad.net/en/help/how-turn-wireguard-mullvad-app/) WireGuard. Mullvad also offers a WireGuard configuration generator for use with the official WireGuard [apps](https://www.wireguard.com/install/).
 
@@ -150,7 +150,7 @@ Mullvad [recommends](https://mullvad.net/en/help/why-wireguard/) the use of Wire
 
 Mullvad supports the future of networking [IPv6](https://en.wikipedia.org/wiki/IPv6). Their network allows you to [access services hosted on IPv6](https://mullvad.net/en/blog/2014/9/15/ipv6-support/) as opposed to other providers who block IPv6 connections.
 
-#### :material-check:{ .pg-green } Remote Port Forwarding
+#### Удаленная переадресация портов :material-check:{ .pg-green }
 
 Remote [port forwarding](https://en.wikipedia.org/wiki/Port_forwarding) is allowed for people who make one-time payments, but not allowed for accounts with a recurring/subscription-based payment method. This is to prevent Mullvad from being able to identify you based on your port usage and stored subscription information. See [Port forwarding with Mullvad VPN](https://mullvad.net/help/port-forwarding-and-mullvad/) for more information.
 
@@ -194,7 +194,7 @@ VPN-клиенты Mullvad были проверены компаниями Cure
 
 &gt; Cure53 и Assured AB довольны результатами аудита, и программное обеспечение оставляет общее положительное впечатление. Учитывая преданность безопасности в команде Mullvad VPN, проверяющие не сомневаются, что проект находится на правильном пути с точки зрения безопасности. You can view individual reports for each platform at [protonvpn.com](https://protonvpn.com/blog/open-source/). In April 2022 Proton VPN underwent [another audit](https://protonvpn.com/blog/no-logs-audit/) and the report was [produced by Securitum](https://protonvpn.com/blog/wp-content/uploads/2022/04/securitum-protonvpn-nologs-20220330.pdf). A [letter of attestation](https://proton.me/blog/security-audit-all-proton-apps) was provided for Proton VPN's apps on 9th November 2021 by [Securitum](https://research.securitum.com).
 
-#### :material-check:{ .pg-green } Open-Source Clients
+#### :material-check:{ .pg-green } Клиенты с открытым исходным кодом
 
 Proton VPN provides the source code for their desktop and mobile clients in their [GitHub organization](https://github.com/ProtonVPN).
 
@@ -202,9 +202,9 @@ Proton VPN provides the source code for their desktop and mobile clients in thei
 
 Proton VPN, in addition to accepting credit/debit cards, PayPal, and [Bitcoin](advanced/payments.md#other-coins-bitcoin-ethereum-etc), also accepts **cash/local currency** as an anonymous form of payment.
 
-#### :material-check:{ .pg-green } WireGuard Support
+#### :material-check:{ .pg-green } Поддержка WireGuard
 
-Mullvad поддерживает протокол WireGuard®. [WireGuard](https://www.wireguard.com) is a newer protocol that uses state-of-the-art [cryptography](https://www.wireguard.com/protocol/). Кроме того, WireGuard стремится быть более простым и производительным.
+Mullvad поддерживает протокол WireGuard®. [WireGuard](https://www.wireguard.com) - это более новый протокол, которой использует современную [криптография](https://www.wireguard.com/protocol/). Кроме того, WireGuard стремится быть более простым и производительным.
 
 Proton VPN [recommends](https://protonvpn.com/blog/wireguard/) the use of WireGuard with their service. On Proton VPN's Windows, macOS, iOS, Android, ChromeOS, and Android TV apps, WireGuard is the default protocol; however, [support](https://protonvpn.com/support/how-to-change-vpn-protocols/) for the protocol is not present in their Linux app.
 

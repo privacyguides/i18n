@@ -1,8 +1,8 @@
 ---
-meta_title: "Android Recommendations: GrapheneOS and DivestOS - Privacy Guides"
+meta_title: "Android 권장 사항: GrapheneOS, DivestOS - Privacy Guides"
 title: "Android"
 icon: 'simple/android'
-description: You can replace the operating system on your Android phone with these secure and privacy-respecting alternatives.
+description: Android 휴대폰의 운영 체제를 보다 안전하고 프라이버시를 중시하는 대체제로 변경할 수 있습니다.
 cover: android.png
 schema:
   - 
@@ -89,7 +89,7 @@ The **Android Open Source Project** is an open-source mobile operating system le
 
 These are the Android operating systems, devices, and apps we recommend to maximize your mobile device's security and privacy. To learn more about Android:
 
-[General Android Overview :material-arrow-right-drop-circle:](os/android-overview.md ""){.md-button}
+[Android 기본 개요 :material-arrow-right-drop-circle:](os/android-overview.md ""){.md-button}
 
 ## AOSP 기반
 
@@ -303,32 +303,32 @@ If your [threat model](basics/threat-modeling.md) requires privacy, you could co
 
 ## Obtaining Applications
 
-### GrapheneOS App Store
+### GrapheneOS 앱 스토어
 
-GrapheneOS's app store is available on [GitHub](https://github.com/GrapheneOS/Apps/releases). It supports Android 12 and above and is capable of updating itself. The app store has standalone applications built by the GrapheneOS project such as the [Auditor](https://attestation.app/), [Camera](https://github.com/GrapheneOS/Camera), and [PDF Viewer](https://github.com/GrapheneOS/PdfViewer). If you are looking for these applications, we highly recommend that you get them from GrapheneOS's app store instead of the Play Store, as the apps on their store are signed by the GrapheneOS's project own signature that Google does not have access to.
+GrapheneOS 앱 스토어는 [GitHub](https://github.com/GrapheneOS/Apps/releases)에서 찾을 수 있습니다. 안드로이드 12 이상을 지원하며 자체 업데이트를 지원합니다. 앱 스토어에는 [Auditor](https://attestation.app/), [Camera](https://github.com/GrapheneOS/Camera), [PDF Viewer](https://github.com/GrapheneOS/PdfViewer) 등 GraphneOS 프로젝트에서 제작한 독립 실행형 애플리케이션이 있습니다. 이러한 애플리케이션을 찾는 경우, GrapheneOS 앱 스토어의 앱은 Google이 접근할 수 없는 GrapheneOS 프로젝트 자체 서명으로 서명되어 있으므로, Play 스토어 대신 GrapheneOS 앱 스토어에서 다운로드하실 것을 권장드립니다.
 
 ### Aurora Store
 
-The Google Play Store requires a Google account to login which is not great for privacy. You can get around this by using an alternative client, such as Aurora Store.
+Google Play 스토어는 Google 계정 로그인이 필수적이기 때문에 프라이버시 면에서 좋지 않습니다. Aurora Store와 같은 대체 클라이언트를 사용하면 이 문제를 해결할 수 있습니다.
 
 !!! recommendation
 
-    ![Aurora Store logo](assets/img/android/aurora-store.webp){ align=right }
+    ![Aurora Store 로고](assets/img/android/aurora-store.webp){ align=right }
     
-    **Aurora Store** is a Google Play Store client which does not require a Google Account, Google Play Services, or microG to download apps.
+    **Aurora Store**는 Google 계정, Google Play 서비스, microG 없이 앱을 다운로드할 수 있는 Google Play 스토어 클라이언트입니다.
     
-    [:octicons-home-16: Homepage](https://auroraoss.com/){ .md-button .md-button--primary }
-    [:octicons-code-16:](https://gitlab.com/AuroraOSS/AuroraStore){ .card-link title="Source Code" }
+    [:octicons-home-16: 홈페이지](https://auroraoss.com/){ .md-button .md-button--primary }
+    [:octicons-code-16:](https://gitlab.com/AuroraOSS/AuroraStore){ .card-link title="소스 코드" }
     
     ??? downloads
     
         - [:simple-gitlab: GitLab](https://gitlab.com/AuroraOSS/AuroraStore/-/releases)
 
-Aurora Store does not allow you to download paid apps with their anonymous account feature. You can optionally log in with your Google account with Aurora Store to download apps you have purchased, which does give access to the list of apps you've installed to Google, however you still benefit from not requiring the full Google Play client and Google Play Services or microG on your device.
+Aurora Store에서는 익명 계정 기능을 사용해 유료 앱은 다운로드 불가능합니다. You can optionally log in with your Google account with Aurora Store to download apps you have purchased, which does give access to the list of apps you've installed to Google, however you still benefit from not requiring the full Google Play client and Google Play Services or microG on your device.
 
 ### Manually with RSS Notifications
 
-For apps that are released on platforms like GitHub and GitLab, you may be able to add an RSS feed to your [news aggregator](/news-aggregators) that will help you keep track of new releases.
+GitHub, GitLab 등의 플랫폼에서 릴리즈되는 앱은 [뉴스 애그리게이터](/news-aggregators)에 RSS 피드를 추가해 새로운 릴리즈를 확인할 수 있습니다.
 
 ![RSS APK](./assets/img/android/rss-apk-light.png#only-light) ![RSS APK](./assets/img/android/rss-apk-dark.png#only-dark) ![APK Changes](./assets/img/android/rss-changes-light.png#only-light) ![APK Changes](./assets/img/android/rss-changes-dark.png#only-dark)
 
@@ -344,9 +344,9 @@ GitLab에서는 ([Aurora Store](#aurora-store) 예시) [프로젝트 저장소](
 
 `https://gitlab.com/AuroraOSS/AuroraStore/-/tags?format=atom`
 
-#### Verifying APK Fingerprints
+#### APK 핑거프린트 확인
 
-If you download APK files to install manually, you can verify their signature with the [`apksigner`](https://developer.android.com/studio/command-line/apksigner) tool, which is a part of Android [build-tools](https://developer.android.com/studio/releases/build-tools).
+APK 파일을 다운로드해 수동으로 설치하는 경우, Android [빌드 도구](https://developer.android.com/studio/releases/build-tools)의 일부인 [`apksigner`](https://developer.android.com/studio/command-line/apksigner)를 사용해 앱 서명을 확인할 수 있습니다.
 
 1. [Java JDK](https://www.oracle.com/java/technologies/downloads/)를 설치합니다.
 
