@@ -157,59 +157,9 @@ These providers store your emails with zero-knowledge encryption, making them gr
 
 <div class="grid cards" markdown>
 
-- ![StartMail logo](assets/img/email/startmail.svg#only-light){ .twemoji }![StartMail logo](assets/img/email/startmail-dark.svg#only-dark){ .twemoji } [StartMail](email.md#startmail)
 - ![Tutanota logo](assets/img/email/tutanota.svg){ .twemoji } [Tutanota](email.md#tutanota)
 
 </div>
-
-### StartMail
-
-!!! recommendation
-
-    ![StartMail logo](assets/img/email/startmail.svg#only-light){ align=right }
-    ![StartMail logo](assets/img/email/startmail-dark.svg#only-dark){ align=right }
-    
-    **StartMail** is an email service with a focus on security and privacy through the use of standard OpenPGP encryption. StartMail telah beroperasi sejak 2014 dan berbasis di Boulevard 11, Zeist Belanda. Akun dimulai dengan 10GB. Mereka menawarkan uji coba 30 hari.
-    
-    [:octicons-home-16: Homepage](https://www.startmail.com/){ .md-button .md-button--primary }
-    [:octicons-eye-16:](https://www.startmail.com/en/privacy/){ .card-link title="Privacy Policy" }
-    [:octicons-info-16:](https://support.startmail.com){ .card-link title=Documentation}
-    
-    ??? unduhan
-    
-        - [:octicons-browser-16: Web](https://mail.startmail.com/login)
-
-#### :material-check:{ .pg-green } Domain dan Alias Khusus
-
-Personal accounts can use [Custom or Quick](https://support.startmail.com/hc/en-us/articles/360007297457-Aliases) aliases. [Custom domains](https://support.startmail.com/hc/en-us/articles/4403911432209-Setup-a-custom-domain) are also available.
-
-#### :material-alert-outline:{ .pg-orange } Private Payment Methods
-
-StartMail menerima Visa, MasterCard, American Express, dan Paypal. StartMail also has other [payment options](https://support.startmail.com/hc/en-us/articles/360006620637-Payment-methods) such as [Bitcoin](advanced/payments.md#other-coins-bitcoin-ethereum-etc) (currently only for Personal accounts) and SEPA Direct Debit for accounts older than a year.
-
-#### :material-check:{ .pg-green } Keamanan Akun
-
-StartMail supports TOTP two factor authentication [for webmail only](https://support.startmail.com/hc/en-us/articles/360006682158-Two-factor-authentication-2FA). They do not allow U2F security key authentication.
-
-#### :material-information-outline:{ .pg-blue } Data Security
-
-StartMail has [zero access encryption at rest](https://www.startmail.com/en/whitepaper/#_Toc458527835), using their "user vault" system. Ketika Anda masuk, brankas dibuka, dan email kemudian dipindahkan ke brankas dari antrian di mana ia didekripsi oleh kunci pribadi yang sesuai.
-
-StartMail supports importing [contacts](https://support.startmail.com/hc/en-us/articles/360006495557-Import-contacts) however, they are only accessible in the webmail and not through protocols such as [CalDAV](https://en.wikipedia.org/wiki/CalDAV). Contacts are also not stored using zero knowledge encryption.
-
-#### :material-check:{ .pg-green } Email Encryption
-
-StartMail has [integrated encryption](https://support.startmail.com/hc/en-us/sections/360001889078-Encryption) in their webmail, which simplifies sending encrypted messages with public OpenPGP keys. However, they do not support the Web Key Directory standard, making the discovery of a Startmail mailbox's public key more challenging for other email providers or clients.
-
-#### :material-information-outline:{ .pg-blue } Account Termination
-
-On account expiration, StartMail will permanently delete your account after [6 months in 3 phases](https://support.startmail.com/hc/en-us/articles/360006794398-Account-expiration).
-
-#### :material-information-outline:{ .pg-blue } Fungsionalitas Tambahan
-
-StartMail memungkinkan untuk proxy gambar dalam email. Jika Anda mengizinkan gambar jarak jauh dimuat, pengirim tidak akan tahu alamat IP Anda.
-
-StartMail does not offer a digital legacy feature.
 
 ### Tutanota
 

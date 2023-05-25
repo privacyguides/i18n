@@ -157,59 +157,9 @@ Ces fournisseurs stockent vos emails avec un chiffrement à connaissance zéro, 
 
 <div class="grid cards" markdown>
 
-- ![Logo StartMail](assets/img/email/startmail.svg#only-light){ .twemoji }![Logo StartMail](assets/img/email/startmail-dark.svg#only-dark){ .twemoji } [StartMail](email.md#startmail)
-- ![Logo Tutanota](assets/img/email/tutanota.svg){ .twemoji } [Tutanota](email.md#tutanota)
+- ![Tutanota logo](assets/img/email/tutanota.svg){ .twemoji } [Tutanota](email.md#tutanota)
 
 </div>
-
-### StartMail
-
-!!! recommendation
-
-    ![Logo de StartMail](assets/img/email/startmail.svg#only-light){ align=right }
-    ![Logo de StartMail](assets/img/email/startmail-dark.svg#only-dark){ align=right }
-    
-    **StartMail** est un service d'email qui met l'accent sur la sécurité et la confidentialité grâce à l'utilisation du standard de chiffrement OpenPGP. StartMail est en activité depuis 2014 et est basé à Boulevard 11, Zeist Pays-Bas. Les comptes commencent avec 10 Go. Ils offrent un essai de 30 jours.
-    
-    [:octicons-home-16: Page d'accueil](https://www.startmail.com/){ .md-button .md-button--primary }
-    [:octicons-eye-16:](https://www.startmail.com/en/privacy/){ .card-link title="Politique de confidentialité" }
-    [:octicons-info-16:](https://support.startmail.com){ .card-link title=Documentation}
-    
-    ??? downloads "Téléchargements"
-    
-        - [:octicons-browser-16: Web](https://mail.startmail.com/login)
-
-#### :material-check:{ .pg-green } Domaines personnalisés et alias
-
-Les comptes personnels peuvent utiliser des alias [Personnalisés ou Rapides](https://support.startmail.com/hc/en-us/articles/360007297457-Aliases) . Des [domaines personnalisés](https://support.startmail.com/hc/en-us/articles/4403911432209-Setup-a-custom-domain) sont également disponibles.
-
-#### :material-alert-outline:{ .pg-orange } Modes de paiement privés
-
-StartMail accepte Visa, MasterCard, American Express et Paypal. StartMail a aussi d'autres [options de paiement](https://support.startmail.com/hc/en-us/articles/360006620637-Payment-methods) comme [le Bitcoin](advanced/payments.md#other-coins-bitcoin-ethereum-etc) (actuellement seulement pour les comptes personnels) et le prélèvement direct SEPA pour les comptes de plus d'un an.
-
-#### :material-check:{ .pg-green } Sécurité du compte
-
-StartMail prend en charge l'authentification à deux facteurs TOTP [pour le webmail seulement](https://support.startmail.com/hc/en-us/articles/360006682158-Two-factor-authentication-2FA). Ils ne permettent pas l'authentification par clé de sécurité U2F.
-
-#### :material-information-outline:{ .pg-blue } Sécurité des données
-
-StartMail a du [chiffrement à accès zéro au repos](https://www.startmail.com/en/whitepaper/#_Toc458527835), en utilisant leur système "coffre-fort utilisateur". Lorsque vous vous connectez, le coffre-fort est ouvert, et l'email est alors déplacé dans le coffre-fort hors de la file d'attente où il est déchiffré par la clé privée correspondante.
-
-StartMail permet d'importer des [contacts](https://support.startmail.com/hc/en-us/articles/360006495557-Import-contacts) mais ceux-ci ne sont accessibles que dans le webmail et non via des protocoles tels que [CalDAV](https://fr.wikipedia.org/wiki/CalDAV). Les contacts ne sont pas non plus stockés à l'aide d'un chiffrement à connaissance zéro.
-
-#### :material-check:{ .pg-green } Chiffrement des emails
-
-StartMail a [du chiffrement intégré](https://support.startmail.com/hc/en-us/sections/360001889078-Encryption) dans son webmail, ce qui simplifie l'envoi de messages chiffrés avec des clés publiques OpenPGP. Cependant, ils ne supportent pas la norme Web Key Directory, ce qui rend la découverte de la clé publique d'une boîte mail Startmail plus difficile pour d'autres fournisseurs ou clients email.
-
-#### :material-information-outline:{ .pg-blue } Résiliation du compte
-
-A l'expiration du compte, StartMail supprimera définitivement votre compte après [6 mois en 3 phases](https://support.startmail.com/hc/en-us/articles/360006794398-Account-expiration).
-
-#### :material-information-outline:{ .pg-blue } Fonctionnalités supplémentaires
-
-StartMail permet de faire passer les images des emails par leur serveur proxy. Si vous autorisez le chargement de l'image distante, l'expéditeur ne saura pas quelle est votre adresse IP.
-
-StartMail ne propose pas de fonction d'héritage numérique.
 
 ### Tutanota
 

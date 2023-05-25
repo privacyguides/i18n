@@ -74,7 +74,7 @@ Se hai bisogno di navigare in Internet in modo anonimo, dovresti invece usare [T
     [:octicons-info-16:](https://mullvad.net/en/help/tag/mullvad-browser/){ .card-link title=Documentazione}
     [:octicons-code-16:](https://gitlab.torproject.org/tpo/applications/mullvad-browser){ .card-link title="Codice sorgente" }
     
-    ??? download
+    ??? download "Scaricare"
     
         - [:simple-windows11: Windows](https://mullvad.net/it/download/browser/windows)
         - [:simple-apple: macOS](https://mullvad.net/it/download/browser/macos)
@@ -116,7 +116,7 @@ Mullvad Browser utilizza DuckDuckGo come [motore di ricerca](search-engines.md) 
     [:octicons-code-16:](https://hg.mozilla.org/mozilla-central){ .card-link title="Codice sorgente" }
     [:octicons-heart-16:](https://donate.mozilla.org/){ .card-link title=Contribuisci }
     
-    ??? download
+    ??? downloads "Scaricare"
     
         - [:simple-windows11: Windows](https://www.mozilla.org/firefox/windows)
         - [:simple-apple: macOS](https://www.mozilla.org/firefox/mac)
@@ -210,7 +210,7 @@ Arkenfox mira solo a contrastare gli script di tracciamento di base o ingenui at
     [:octicons-info-16:](https://support.brave.com/){ .card-link title=Documentazione}
     [:octicons-code-16:](https://github.com/brave/brave-browser){ .card-link title="Codice sorgente" }
     
-    ??? download annotate
+    ??? download annotate "Scaricare"
     
         - [:simple-github: GitHub](https://github.com/brave/brave-browser/releases)
         - [:simple-windows11: Windows](https://brave.com/download/)
@@ -341,7 +341,7 @@ Queste sono altre [liste di filtri](https://github.com/gorhill/uBlock/wiki/Dashb
 
 **Si noti che non siamo affiliati a nessuno dei progetti che raccomandiamo.** Oltre ai [ nostri criteri standard](about/criteria.md), abbiamo sviluppato una serie di requisiti chiari che ci consentono di fornire raccomandazioni obiettive. Ti consigliamo di familiarizzare con questo elenco prima di scegliere di utilizzare un progetto e di condurre le vostre ricerche per assicurarvi che sia la scelta giusta per voi.
 
-!!! esempio "Questa sezione è nuova"
+!!! example "Questa sezione è nuova"
 
     Stiamo lavorando per stabilire criteri ben definiti per ogni sezione del nostro sito, e questo potrebbe essere soggetto a modifiche. Se avete domande sui nostri criteri, vi preghiamo di [chiedere sul nostro forum](https://discuss.privacyguides.net/latest) e non date per scontato che non abbiamo preso in considerazione qualcosa nel formulare le nostre raccomandazioni se non è elencato qui. Sono molti i fattori presi in considerazione e discussi quando consigliamo un progetto, e stiamo lavorando per documentare ogni singolo fattore.
 

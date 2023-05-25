@@ -151,57 +151,9 @@ These providers store your emails with zero-knowledge encryption, making them gr
 
 <div class="grid cards" markdown>
 
-- ![StartMail logo](assets/img/email/startmail.svg#only-light){ .twemoji }![StartMail logo](assets/img/email/startmail-dark.svg#only-dark){ .twemoji } [StartMail](email.md#startmail)
 - ![Tutanota logo](assets/img/email/tutanota.svg){ .twemoji } [Tutanota](email.md#tutanota)
 
 </div>
-
-### Desarraigar
-
-!!! nota
-    Consulte o [Tabela de Hardware](https://openwrt.org/toh/start) para verificar se o seu dispositivo é suportado.
-
-    Disroot permite que os utilizadores utilizem o seu próprio domínio. Eles têm pseudônimos, porém você deve [aplicar manualmente](https://disroot.org/en/forms/alias-request-form) para eles. Accounts start with 10GB. They offer a 30-day trial.
-    
-    [:octicons-home-16: Homepage](https://www.startmail.com/){ .md-button .md-button--primary }
-    [:octicons-eye-16:](https://www.startmail.com/en/privacy/){ .card-link title="Privacy Policy" }
-    [:octicons-info-16:](https://support.startmail.com){ .card-link title=Documentation}
-    
-    ??? downloads
-    
-        - [:octicons-browser-16: Web](https://mail.startmail.com/login)
-
-#### :material-check:{ .pg-green } Custom Domains and Aliases
-
-Personal accounts can use [Custom or Quick](https://support.startmail.com/hc/en-us/articles/360007297457-Aliases) aliases. [Custom domains](https://support.startmail.com/hc/en-us/articles/4403911432209-Setup-a-custom-domain) are also available.
-
-#### :material-alert-outline:{ .pg-orange } Private Payment Methods
-
-Disroot suporta \[TOTP\](https://en.wikipedia.org/wiki/Time-based_One-time_Password_Algorithm) autenticação de dois fatores apenas para webmail. StartMail also has other [payment options](https://support.startmail.com/hc/en-us/articles/360006620637-Payment-methods) such as [Bitcoin](advanced/payments.md#other-coins-bitcoin-ethereum-etc) (currently only for Personal accounts) and SEPA Direct Debit for accounts older than a year.
-
-#### :material-check:{ .pg-green } Account Security
-
-StartMail supports TOTP two factor authentication [for webmail only](https://support.startmail.com/hc/en-us/articles/360006682158-Two-factor-authentication-2FA). No entanto, não parece ser "acesso zero", o que significa que é tecnicamente possível para eles descriptografar os dados que têm se não forem adicionalmente encriptados com uma ferramenta como OpenPGP.
-
-#### :material-information-outline:{ .pg-blue } Data Security
-
-StartMail has [zero access encryption at rest](https://www.startmail.com/en/whitepaper/#_Toc458527835), using their "user vault" system. No entanto, Disroot não integrou um Web Key Directory (WKD) para os utilizadores na sua plataforma.
-
-StartMail supports importing [contacts](https://support.startmail.com/hc/en-us/articles/360006495557-Import-contacts) however, they are only accessible in the webmail and not through protocols such as [CalDAV](https://en.wikipedia.org/wiki/CalDAV). Contacts are also not stored using zero knowledge encryption.
-
-#### :material-check:{ .pg-green } Email Encryption
-
-StartMail has [integrated encryption](https://support.startmail.com/hc/en-us/sections/360001889078-Encryption) in their webmail, which simplifies sending encrypted messages with public OpenPGP keys. However, they do not support the Web Key Directory standard, making the discovery of a Startmail mailbox's public key more challenging for other email providers or clients.
-
-#### :material-information-outline:{ .pg-blue } Account Termination
-
-On account expiration, StartMail will permanently delete your account after [6 months in 3 phases](https://support.startmail.com/hc/en-us/articles/360006794398-Account-expiration).
-
-#### :material-information-outline:{ .pg-blue } Additional Functionality
-
-StartMail allows for proxying of images within emails. If you allow the remote image to be loaded, the sender won't know what your IP address is.
-
-StartMail does not offer a digital legacy feature.
 
 ### Software como um serviço (SaaS) apenas
 

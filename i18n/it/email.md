@@ -48,7 +48,7 @@ Questi provider supportano in modo nativo la cifratura/decifratura OpenPGP e lo 
     [:octicons-info-16:](https://proton.me/support/mail){ .card-link title=Documentazione}
     [:octicons-code-16:](https://github.com/ProtonMail){ .card-link title="Codice sorgente" }
     
-    ??? download
+    ??? download "Scaricare"
     
         - [:simple-googleplay: Google Play](https://play.google.com/store/apps/details?id=ch.protonmail.android)
         - [:simple-appstore: App Store](https://apps.apple.com/app/apple-store/id979659905)
@@ -111,7 +111,7 @@ Proton Mail non offre una funzione di eredità digitale.
     [:octicons-eye-16:](https://mailbox.org/en/data-protection-privacy-policy){ .card-link title="Politica sulla privacy" }
     [:octicons-info-16:](https://kb.mailbox.org/en/private){ .card-link title=Documentazione}
     
-    ??? download
+    ??? download "Scaricare"
     
         - [:octicons-browser-16: Web](https://login.mailbox.org)
 
@@ -157,59 +157,9 @@ Questi provider archiviano le tue e-mail con una crittografia a conoscenza zero,
 
 <div class="grid cards" markdown>
 
-- ![Logo StartMail](assets/img/email/startmail.svg#only-light){ .twemoji }![Logo StartMail](assets/img/email/startmail-dark.svg#only-dark){ .twemoji } [StartMail](email.md#startmail)
-- ![Logo Tutanota](assets/img/email/tutanota.svg){ .twemoji } [Tutanota](email.md#tutanota)
+- ![logo Tutanota](assets/img/email/tutanota.svg){ .twemoji } [Tutanota](email.md#tutanota)
 
 </div>
-
-### StartMail
-
-!!! recommendation
-
-    ![Logo StartMail](assets/img/email/startmail.svg#only-light){ align=right }
-    ![Logo StartMail](assets/img/email/startmail-dark.svg#only-dark){ align=right }
-    
-    **StartMail** è un servizio di posta elettronica incentrato sulla sicurezza e sulla privacy grazie all'uso della crittografia standard OpenPGP. StartMail è attiva dal 2014 e ha sede in Boulevard 11, Zeist, Paesi Bassi. Gli account partono da 10 GB. Viene offerto un periodo di prova di 30 giorni.
-    
-    [:octicons-home-16: Pagina Principale](https://www.startmail.com/){ .md-button .md-button--primary }
-    [:octicons-eye-16:](https://www.startmail.com/en/privacy/){ .card-link title="Politica sulla privacy" }
-    [:octicons-info-16:](https://support.startmail.com){ .card-link title=Documentazione}
-    
-    ??? download
-    
-        - [:octicons-browser-16: Web](https://mail.startmail.com/login)
-
-#### :material-check:{ .pg-green } Domini e alias personalizzati
-
-Gli account personali possono utilizzare [alias personalizzati o Quick](https://support.startmail.com/hc/en-us/articles/360007297457-Aliases). Sono disponibili anche [domini personalizzati](https://support.startmail.com/hc/en-us/articles/4403911432209-Setup-a-custom-domain).
-
-#### :material-alert-outline:{ .pg-orange } Metodi di pagamento privati
-
-StartMail accetta Visa, MasterCard, American Express e PayPal. StartMail ha anche altre [opzioni di pagamento](https://support.startmail.com/hc/en-us/articles/360006620637-Payment-methods) come [Bitcoin](advanced/payments.md#other-coins-bitcoin-ethereum-etc) (attualmente solo per i conti personali) e l'addebito diretto SEPA per account più vecchi di un anno.
-
-#### :material-check:{ .pg-green } Sicurezza dell'account
-
-StartMail supporta l'autenticazione a due fattori TOTP [solo per webmail](https://support.startmail.com/hc/en-us/articles/360006682158-Two-factor-authentication-2FA). Non consentono l'autenticazione con chiave di sicurezza U2F.
-
-#### :material-information-outline:{ .pg-blue } Sicurezza dei dati
-
-StartMail utilizza una [crittografia zero-access a riposo](https://www.startmail.com/en/whitepaper/#_Toc458527835), utilizzando il loro sistema "user vault". Quando accedi, la cassaforte viene aperta e l'e-mail viene spostata dalla coda e inserita, dove viene decifrata dalla corrispondente chiave privata.
-
-StartMail supporta l'importazione di [contatti](https://support.startmail.com/hc/en-us/articles/360006495557-Import-contacts), tuttavia, sono accessibili solo nella webmail e non attraverso protocolli come [CalDAV](https://en.wikipedia.org/wiki/CalDAV). Inoltre, i contatti non vengono memorizzati utilizzando la crittografia a "conoscenza zero", quindi potrebbe essere più appropriata un'opzione \[autonoma\](calendar-contacts.md).
-
-#### :material-check:{ .pg-green } Crittografia delle mail
-
-StartMail utilizza una [crittografia integrata](https://support.startmail.com/hc/en-us/sections/360001889078-Encryption) nella loro webmail, che semplifica l'invio di messaggi crittografati con chiavi OpenPGP pubbliche. Tuttavia, non supportano lo standard Web Key Directory, rendendo la scoperta della chiave pubblica di una casella postale Startmail più impegnativa per altri provider o client di posta elettronica.
-
-#### :material-information-outline:{ .pg-blue } Chiusura dell'account
-
-Alla scadenza dell'account, StartMail eliminerà definitivamente il tuo account dopo [6 mesi in 3 fasi](https://support.startmail.com/hc/en-us/articles/360006794398-Account-expiration).
-
-#### :material-information-outline:{ .pg-blue } Funzionalità aggiuntive
-
-StartMail consente il proxy delle immagini all'interno dei messaggi di posta elettronica. Se consenti il caricamento dell'immagine remota, il mittente non saprà quale sia il tuo indirizzo IP.
-
-StartMail non offre una funzione di eredità digitale.
 
 ### Tutanota
 
@@ -225,7 +175,7 @@ StartMail non offre una funzione di eredità digitale.
     [:octicons-code-16:](https://github.com/tutao/tutanota){ .card-link title="Codice sorgente" }
     [:octicons-heart-16:](https://tutanota.com/community/){ .card-link title=Contribuisci }
     
-    ??? download
+    ??? download "Scaricare"
     
         - [:simple-googleplay: Google Play](https://play.google.com/store/apps/details?id=de.tutao.tutanota)
         - [:simple-appstore: App Store](https://apps.apple.com/app/tutanota/id922429609)
@@ -312,7 +262,7 @@ L'utilizzo di un servizio di aliasing richiede la fiducia del provider di posta 
     [:octicons-code-16:](https://github.com/anonaddy){ .card-link title="Codice sorgente" }
     [:octicons-heart-16:](https://anonaddy.com/donate/){ .card-link title=Contribuisci}
     
-    ??? download
+    ??? download "Scaricare"
     
         - [:simple-android: Android](https://anonaddy.com/faq/#is-there-an-android-app)
         - [:material-apple-ios: iOS](https://anonaddy.com/faq/#is-there-an-ios-app)

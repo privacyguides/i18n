@@ -158,59 +158,9 @@ Diese Anbieter speichern deine E-Mails mit Zero-Knowledge-Verschlüsselung und s
 
 <div class="grid cards" markdown>
 
-- ![StartMail logo](assets/img/email/startmail.svg#only-light){ .twemoji }![StartMail logo](assets/img/email/startmail-dark.svg#only-dark){ .twemoji } [StartMail](email.md#startmail)
 - ![Tutanota logo](assets/img/email/tutanota.svg){ .twemoji } [Tutanota](email.md#tutanota)
 
 </div>
-
-### StartMail
-
-!!! recommendation
-
-    ![StartMail-Logo](assets/img/email/startmail.svg#only-light){ align=right }
-    ![StartMail-Logo](assets/img/email/startmail-dark.svg#only-dark){ align=right }
-    
-    **StartMail** ist ein E-Mail-Dienst mit dem Schwerpunkt auf Sicherheit und Datenschutz durch die Verwendung der Standard-OpenPGP-Verschlüsselung. StartMail ist seit 2014 in Betrieb und hat seinen Sitz am Boulevard 11 in Zeist, Niederlande. Konten beginnen mit 10 GB. Sie bieten eine 30-tägige Testphase an.
-    
-    [:octicons-home-16: Homepage](https://www.startmail.com/){ .md-button .md-button--primary }
-    [:octicons-eye-16:](https://www.startmail.com/en/privacy/){ .card-link title=Datenschutzrichtlinie }
-    [:octicons-info-16:](https://support.startmail.com){ .card-link title=Dokumentation}
-    
-    ??? downloads
-    
-        - [:octicons-browser-16: Web](https://mail.startmail.com/login)
-
-#### :material-check:{ .pg-green } Eigene Domains und Aliase
-
-Persönliche Konten können [Wegwerf-, Benutzerdefinierte und Schnelle Aliasa](https://support.startmail.com/hc/de/articles/360007297457-Alias-Adressen) verwenden. [Benutzerdefinierte Domains](https://support.startmail.com/hc/de/articles/4403911432209-Einrichten-einer-eigenen-Domain) sind ebenfalls verfügbar.
-
-#### :material-alert-outline:{ .pg-orange } Private Zahlungsmöglichkeiten
-
-StartMail akzeptiert Visa, MasterCard, American Express und Paypal. StartMail bietet auch andere [Zahlungsmethoden](https://support.startmail.com/hc/de/articles/360006620637-Zahlungsoptionen) wie [Bitcoin](advanced/payments.md#other-coins-bitcoin-ethereum-etc) (derzeit nur für persönliche Konten) und SEPA-Lastschrift für Konten an, die älter als ein Jahr sind.
-
-#### :material-check:{ .pg-green } Kontosicherheit
-
-StartMail unterstützt die Zwei-Faktor-Authentifizierung TOTP [nur für Webmail](https://support.startmail.com/hc/de/articles/360006682158-Zwei-Faktor-Authentifizierung-2FA-). Sie erlauben keine U2F-Sicherheitsschlüssel-Authentifizierung.
-
-#### :material-information-outline:{ .pg-blue } Datensicherheit
-
-StartMail hat <a href="https://www.startmail.com/de/whitepaper/#422-user-tresor>Zero-Access-Verschlüsselung im Ruhezustand</a>, unter Verwendung ihres "User Vault"-Systems. Wenn du dich anmeldest, wird der Tresor geöffnet, und die E-Mail wird aus der Warteschlange in den Tresor verschoben, wo sie mit dem entsprechenden privaten Schlüssel entschlüsselt wird.
-
-StartMail unterstützt den Import von [Kontakten](https://support.startmail.com/hc/de/articles/360006495557-Kontakte-importieren), allerdings sind diese nur im Webmail zugänglich und nicht über Protokolle wie [CalDAV](https://de.wikipedia.org/wiki/CalDAV). Die Kontakte werden auch nicht mit einer Zero-Knowledge-Verschlüsselung gespeichert.
-
-#### :material-check:{ .pg-green } E-Mail-Verschlüsselung
-
-StartMail hat [eine Verschlüsselung](https://support.startmail.com/hc/de/sections/360001889078-Verschl%C3%BCsselung) in sein Webmail integriert, die den Versand verschlüsselter Nachrichten mit öffentlichen OpenPGP-Schlüsseln vereinfacht. Sie unterstützen jedoch nicht den Web Key Directory-Standard, was die Ermittlung des öffentlichen Schlüssels eines Startmail-Postfachs für andere E-Mail-Anbieter oder -Clients erschwert.
-
-#### :material-information-outline:{ .pg-blue } Kontokündigung
-
-Wenn dein Konto abläuft, wird StartMail das Konto nach [6 Monaten in 3 Phasen](https://support.startmail.com/hc/de/articles/360006794398-Ihr-Konto-l%C3%A4uft-ab) endgültig löschen.
-
-#### :material-information-outline:{ .pg-blue } Zusätzliche Funktionen
-
-StartMail ermöglicht das Proxying von Bildern in E-Mails. Wenn du zulässt, dass das entfernte Bild geladen wird, erfährt der Absender nicht, wie deine IP-Adresse lautet.
-
-StartMail bietet keine Funktion für digitale Hinterlassenschaften.
 
 ### Tutanota
 

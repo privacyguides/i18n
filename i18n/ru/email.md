@@ -157,59 +157,9 @@ Mailbox.org имеет функцию цифрового наследия для
 
 <div class="grid cards" markdown>
 
-- ![Логотип StartMail](assets/img/email/startmail.svg#only-light){ .twemoji }![Логотип StartMail](assets/img/email/startmail-dark.svg#only-dark){ .twemoji } [StartMail](email.md#startmail)
-- ![Логотип Tutanota](assets/img/email/tutanota.svg){ .twemoji } [Tutanota](email.md#tutanota)
+- ![Tutanota logo](assets/img/email/tutanota.svg){ .twemoji } [Tutanota](email.md#tutanota)
 
 </div>
-
-### StartMail
-
-!!! recommendation
-
-    ![Логотип StartMail](assets/img/email/startmail.svg#only-light){ align=right }
-    ![Логотип StartMail](assets/img/email/startmail-dark.svg#only-dark){ align=right }
-    
-    **StartMail** - это сервис электронной почты, в котором особое внимание уделяется безопасности и конфиденциальности благодаря использованию стандартного шифрования OpenPGP. StartMail работает с 2014 года и базируется в Boulevard 11, Zeist Netherlands. Аккаунты начинаются с 10ГБ. Они предлагают 30-дневную пробную версию.
-    
-    [:octicons-home-16: Домашняя страница](https://www.startmail.com/){ .md-button .md-button--primary }
-    [:octicons-eye-16:](https://www.startmail.com/en/privacy/){ .card-link title="Политика конфиденциальности" }
-    [:octicons-info-16:](https://support.startmail.com){ .card-link title=Документация}
-    
-    ??? скачать
-    
-        - [:octicons-browser-16: Web](https://mail.startmail.com/login)
-
-#### :material-check:{ .pg-green } Пользовательские домены и псевдонимы
-
-Личные аккаунты могут использовать псевдонимы [Custom или Quick](https://support.startmail.com/hc/en-us/articles/360007297457-Aliases). [Пользовательские домены](https://support.startmail.com/hc/en-us/articles/4403911432209-Setup-a-custom-domain) также доступны.
-
-#### :material-alert-outline:{ .pg-orange } Конфиденциальные способы оплаты
-
-StartMail принимает к оплате Visa, MasterCard, American Express и Paypal. StartMail также имеет другие [варианты оплаты](https://support.startmail.com/hc/en-us/articles/360006620637-Payment-methods), такие как [Bitcoin](advanced/payments.md#other-coins-bitcoin-ethereum-etc) (в настоящее время только для личных счетов) и SEPA Direct Debit для счетов старше года.
-
-#### :material-check:{ .pg-green } Безопасность аккаунта
-
-StartMail поддерживает двухфакторную аутентификацию TOTP [только для веб-почты](https://support.startmail.com/hc/en-us/articles/360006682158-Two-factor-authentication-2FA). Он не поддерживает аутентификацию с помощью ключа безопасности U2F.
-
-#### :material-information-outline:{ .pg-blue } Безопасность данных
-
-StartMail имеет [шифрование с нулевым доступом в состоянии покоя](https://www.startmail.com/en/whitepaper/#_Toc458527835), используя свою систему "хранилище пользователя". Когда ты входишь в систему, хранилище открывается, и электронное письмо перемещается в хранилище из очереди, где оно расшифровывается соответствующим закрытым ключом.
-
-StartMail поддерживает импорт [контактов](https://support.startmail.com/hc/en-us/articles/360006495557-Import-contacts), однако они доступны только в веб-почте, и не доступны через другие протоколы, такие как [CalDAV](https://en.wikipedia.org/wiki/CalDAV). Контакты не хранятся с использованием шифрования с нулевым знанием.
-
-#### :material-check:{ .pg-green } Шифрование электронной почты
-
-StartMail использует [встроенное шифрование](https://support.startmail.com/hc/en-us/sections/360001889078-Encryption) в своей веб-почте, что упрощает отправку сообщений людям с открытыми ключами OpenPGP. Однако они не поддерживают стандарт Web Key Directory, что делает обнаружение открытого ключа почтового ящика Startmail более сложной задачей для других поставщиков услуг электронной почты или клиентов.
-
-#### :material-information-outline:{ .pg-blue } Блокировка аккаунта
-
-По истечении срока действия аккаунта, StartMail удалит твою учетную запись навсегда после [6 месяцев в 3 этапа](https://support.startmail.com/hc/en-us/articles/360006794398-Account-expiration).
-
-#### :material-information-outline:{ .pg-blue } Дополнительная функциональность
-
-StartMail позволяет проксировать изображения в электронных письмах. Если ты разрешишь загрузку изображений, отправитель не будет знать, какой у тебя IP-адрес.
-
-StartMail не предлагает функцию цифрового наследия.
 
 ### Tutanota
 

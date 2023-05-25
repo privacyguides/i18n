@@ -157,59 +157,9 @@ cover: email.png
 
 <div class="grid cards" markdown>
 
-- ![StartMail logo](assets/img/email/startmail.svg#only-light){ .twemoji }![StartMail logo](assets/img/email/startmail-dark.svg#only-dark){ .twemoji } [StartMail](email.md#startmail)
 - ![Tutanota logo](assets/img/email/tutanota.svg){ .twemoji } [Tutanota](email.md#tutanota)
 
 </div>
-
-### ستارت‌ميل
-
-!!! recommendation
-
-    ![StartMail logo](assets/img/email/startmail.svg#only-light){ align=left }
-    ![StartMail logo](assets/img/email/startmail-dark.svg#only-dark){ align=left }
-    
-    **ستارت‌ميل** هي خدمة بُرُد إلكترونية تركِّز على الأمن والخصوصية، وذلك باستخدامها تعمية أوبن‌بي‌جي‌بي. وهم يعملون منذ ٢٠١٤، ومقرُّهم في بولفارد ١١ في زايست في هولندا. تبدأ الحسابات بمساحة تخزين ١١ ج‌بايت. ويوفِّرون ثلاثين يومًا تجربةً.
-    
-    [:octicons-home-16: الصفحة الرئيسة](https://www.startmail.com/){ .md-button .md-button--primary }
-    [:octicons-eye-16:](https://www.startmail.com/en/privacy/){ .card-link title="سياسة الخصوصية" }
-    [:octicons-info-16:](https://support.startmail.com){ .card-link title=التوثيق}
-    
-    ??? التنزيلات
-    
-        - [:octicons-browser-16: وِب](https://mail.startmail.com/login)
-
-#### :material-check:{ .pg-green } النطاقات المخصَّصة والكنى
-
-للحسابات الشخصية استخدام الكنى [المخصَّصة والسريعة](https://support.startmail.com/hc/en-us/articles/360007297457-Aliases). وتتاح كذلك [النطاقات المخصَّصة](https://support.startmail.com/hc/en-us/articles/4403911432209-Setup-a-custom-domain).
-
-#### :material-alert-outline:{ .pg-orange } سُبُل الدفع الخاصَّة
-
-تقبل ستارت‌ميل فيزا وماستركارد وأميركن إكسبرس وبي‌بال. ولديهم أيضًا [خيارات دفع](https://support.startmail.com/hc/en-us/articles/360006620637-Payment-methods) أخرى، [كبتكوين](advanced/payments.md#other-coins-bitcoin-ethereum-etc) (وهذا حاليًّا للحسابات الشخصية فقط)، والخصم المباشر من سيبا للحسابات التي عمرها أكثر من سنة.
-
-#### :material-check:{ .pg-green } أمن الحساب
-
-تدعم ستارت‌ميل الاستيثاق بخطوتين باستخدام كلمة مرور لمرَّة واحدة حسب الوقت [في موقعهم فقط](https://support.startmail.com/hc/en-us/articles/360006682158-Two-factor-authentication-2FA). ولا يسمحون بالاستيثاق بمفتاح أمن المعامل الثاني الشامل (U2F).
-
-#### :material-information-outline:{ .pg-blue } أمن البيانات
-
-لدى ستارت‌ميل [تعمية دون أيِّ وصول](https://www.startmail.com/en/whitepaper/#_Toc458527835) باستخدام نظام «خزنة المستخدم». فإن سجَّلت دخولك فسوف تُفتح الخزنة، وعند ذلك تُنقل البُرُد إلى الخزنة من قائمة الانتظار، وهناك تُكشف تعميتها باستخدام ما يوافقها من مفاتيح خاصَّة.
-
-تدعم ستارت‌ميل استيراد [المتراسلين](https://support.startmail.com/hc/en-us/articles/360006495557-Import-contacts)، ولكن الوصول لهم محصور في موقعهم وليس باستخدام موافيق مثل [كال‌داف](https://en.wikipedia.org/wiki/CalDAV). ولا يخزَّن المتراسلون باستخدام التعمية دون علم.
-
-#### :material-check:{ .pg-green } تعمية البريد الإلكتروني
-
-عند ستارت‌ميل [تعمية مدمجة](https://support.startmail.com/hc/en-us/sections/360001889078-Encryption) في موقعهم، وهذا ييسِّر إرسال الرسائل المعمَّاة باستخدام مفاتيح أوبن‌بي‌جي‌بي العامَّة. ولكنهم لا يدعمون معيار دليل مفاتيح الوِب، وهذا يصعِّب على موفِّري الخدمة الآخرين والعملاء اكتشاف المفاتيح العامَّة لصناديق بُرُدهم.
-
-#### :material-information-outline:{ .pg-blue } إنهاء الحسابات
-
-حال انتهاء صلاحية الحساب فسوف تحذف ستارت‌ميل الحساب نهائيًّا بعد [ستة أشهر وفي ثلاث مراحل](https://support.startmail.com/hc/en-us/articles/360006794398-Account-expiration).
-
-#### :material-information-outline:{ .pg-blue } وظائف إضافية
-
-تتيح ستارت‌ميل التوسُّط للصور داخل الرسائل. فإن سمحت لصورة أن تحمَّل فلن يعرف مرسلها عنوان IP التابع لك.
-
-ليس عند ستارت‌ميل ميزة الإرث الرقميِّ.
 
 ### توتنوتا
 

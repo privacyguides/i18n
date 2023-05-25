@@ -19,7 +19,7 @@
 *[ECS]: EDNS 클라이언트 서브넷
 *[EEA]: 유럽 경제 지역
 *[엔트로피]: 예측하기 어려운 정도를 표현하는 척도
-*[EOL]: 지원 종료
+*[EOL]: 지원 종료 (End-of-Life)
 *[Exif]: 교환 이미지 파일 형식(Exchangeable image file format)
 *[FCM]: Firebase 클라우드 메시징
 *[FDE]: 전체 디스크 암호화

@@ -157,59 +157,9 @@ Mailbox.org 所有方案都提供了數位遺產功能。 你可以選擇是否�
 
 <div class="grid cards" markdown>
 
-- ![StartMail logo](assets/img/email/startmail.svg#only-light){ .twemoji }![StartMail logo](assets/img/email/startmail-dark.svg#only-dark){ .twemoji } [StartMail](email.md#startmail)
 - ![Tutanota logo](assets/img/email/tutanota.svg){ .twemoji } [Tutanota](email.md#tutanota)
 
 </div>
-
-### StartMail
-
-!!! recommendation
-
-    ! [StartMail logo] (assets/img/email/startmail.svg#only-light) {align = right}
-    ! [StartMail標誌] (assets/img/email/startmail-dark.svg#only-dark) {align = right}
-    
-    * * StartMail * *是一項電子郵件服務，通過使用標準OpenPGP加密來關注安全和隱私。 StartMail 自 2014 年開始運營，總部位於荷蘭 Zeist Boulevard 11。 帳戶以10GB開始。 提供 30天的試用期。
-    
-    [:octicons-home-16: Homepage](https://www.startmail.com/){ .md-button .md-button--primary }
-    [:octicons-eye-16:](https://www.startmail.com/en/privacy/){ .card-link title="Privacy Policy" }
-    [:octicons-info-16:](https://support.startmail.com){ .card-link title=Documentation}
-    
-    ??? 下載
-    
-        - [:octicons-browser-16: Web](https://mail.startmail.com/login)
-
-#### :material-check:{ .pg-green } Custom Domains and Aliases
-
-個人帳戶可以使用 [自定或系統生成](https://support.startmail.com/hc/en-us/articles/360007297457-Aliases) 別名。 也可用[自定網域](https://support.startmail.com/hc/en-us/articles/4403911432209-Setup-a-custom-domain) 。
-
-#### :material-alert-outline:{ .pg-orange } 私人付款方式
-
-StartMail 接受 Visa 、MasterCard 、American Express 信用卡和 Paypal。 StartMail還有其他 [付款選項](https://support.startmail.com/hc/en-us/articles/360006620637-Payment-methods) ，例如 [比特幣](advanced/payments.md#other-coins-bitcoin-ethereum-etc) （目前僅適用於個人帳戶）和 SEPA 直接扣賬（使用超過一年的帳戶）。
-
-#### :material-check:{ .pg-green } 帳戶安全
-
-StartMail 只支援網頁郵件 [ TOTP 雙因素驗證](https://support.startmail.com/hc/en-us/articles/360006682158-Two-factor-authentication-2FA)。 他們無法透過 U2F 安全金鑰驗證。
-
-#### :material-information-outline:{ .pg-blue } 資料安全
-
-StartMail 還有 [零存取加密](https://www.startmail.com/en/whitepaper/#_Toc458527835)，透過其「使用者保管庫」系統保護用戶未登入時的資料安全。 當您登入後，保管庫將被打開，並將電子郵件移出佇列，由相應的私鑰解密。
-
-StartMail 支援匯入 [聯絡人](https://support.startmail.com/hc/en-us/articles/360006495557-Import-contacts) ，但它們只能在網頁郵件中存取，而不能透過 [ CalDAV ](https://en.wikipedia.org/wiki/CalDAV)等協議存取。 連絡人資料也不會使用零知識加密儲存。
-
-#### :material-check:{ .pg-green }電子郵件加密
-
-StartMail  網頁郵件 [整合了加密](https://support.startmail.com/hc/en-us/sections/360001889078-Encryption) ，以便使用公開OpenPGP 密鑰發送加密消息。 但是，它們不支持 Web 密鑰目錄標準，這讓其他電子郵件提供商或客戶端軟體不容易找到 Startmail 郵箱的公鑰。
-
-#### :material-information-outline:{ .pg-blue } 帳戶終止
-
-若帳戶遲未按時繳款 StartMail 在[六個月內三階段警告](https://support.startmail.com/hc/en-us/articles/360006794398-Account-expiration)，最後會永久刪除帳戶。
-
-#### :material-information-outline:{ .pg-blue } 額外功能
-
-StartMail 允許在電子郵件中使用代理圖像。 如果您允許載入遠端影像，發件人將不會知道您的IP位址。
-
-Proton Mail不提供數字遺產功能。
 
 ### Tutanota
 

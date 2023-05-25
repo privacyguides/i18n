@@ -181,11 +181,9 @@ We [recommend](dns.md#recommended-providers) a number of encrypted DNS servers b
 
 <div class="grid cards" markdown>
 
-- ![logo Tutanota](/assets/img/calendar-contactos/tutanota.svg){ .twemoji } [Tutanota (SaaS)](https://tutanota.com/calendar)
-- ![logo Proton Calendar](/assets/img/calendar-contactos/proton-calendar.svg){ .twemoji } [Calendário Proton (SaaS)](https://calendar.protonmail.com/)
-- ![Logotipo EteSync](/assets/img/calendar-contacts/etesync.svg){ .twemoji } [EteSync](https://www.etesync.com/)
-- ![Logotipo Tutanota](/assets/img/calendar-contacts/nextcloud.svg){ .twemoji } [Nextcloud](https://nextcloud.com/)
-- ![Logotipo DecSync CC](/assets/img/calendar-contacts/decsync.svg){ .twemoji } [DecSync](https://github.com/39aldo39/DecSync)
+- ![Proton Mail logo](assets/img/email/protonmail.svg){ .twemoji } [Proton Mail](email.md#proton-mail)
+- ![Mailbox.org logo](assets/img/email/mailboxorg.svg){ .twemoji } [Mailbox.org](email.md#mailboxorg)
+- ![Tutanota logo](assets/img/email/tutanota.svg){ .twemoji } [Tutanota](email.md#tutanota)
 
 </div>
 

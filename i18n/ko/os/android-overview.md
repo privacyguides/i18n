@@ -34,19 +34,19 @@ Android 10 이상부터는 기존의 전체 디스크 암호화보다 유연한 
 
 자체 검사 부팅은 운영 체제 파일의 무결성을 보장하여 물리적 접근 권한을 가진 공격자가 디바이스를 변조하거나 멀웨어를 설치하는 것을 방지합니다. 흔치는 않지만 멀웨어가 시스템의 다른 부분을 악용하여 더 높은 접근 권한을 얻어낼 경우, 자체 검사 부팅은 장치를 재부팅할 때 시스템 파티션의 변경을 감지하고 되돌립니다.
 
-Unfortunately, OEMs are only obliged to support Verified Boot on their stock Android distribution. Only a few OEMs such as Google support custom AVB key enrollment on their devices. Additionally, some AOSP derivatives such as LineageOS or /e/ OS do not support Verified Boot even on hardware with Verified Boot support for third-party operating systems. We recommend that you check for support **before** purchasing a new device. AOSP derivatives which do not support Verified Boot are **not** recommended.
+안타깝게도, OEM의 자체 검사 부팅을 지원해야 할 의무는 오직 자신들의 기본 Android 배포판에서만 적용됩니다. Google 등 일부 OEM만이 기기에서 사용자 지정 AVB 키 등록을 지원합니다. 또한 제3자 운영 체제에 자체 검사 부팅을 지원하는 하드웨어를 사용하더라도, 어떤 AOSP 파생 버전을 사용하느냐에 따라 자체 검사 부팅 사용 가능 여부가 달라질 수 있습니다. 대표적으로 LineageOS, /e/ OS는 자체 검사 부팅을 지원하지 않습니다. 새 기기를 구매하기 이전에 **먼저** 지원 여부를 확인하실 것을 권장드립니다. 자체 검사 부팅을 지원하지 않는 AOSP 파생 버전은 권장드리지 **않습니다**.
 
-Many OEMs also have broken implementation of Verified Boot that you have to be aware of beyond their marketing. For example, the Fairphone 3 and 4 are not secure by default, as the [stock bootloader trusts the public AVB signing key](https://forum.fairphone.com/t/bootloader-avb-keys-used-in-roms-for-fairphone-3-4/83448/11). This breaks verified boot on a stock Fairphone device, as the system will boot alternative Android operating systems such (such as /e/) [without any warning](https://source.android.com/security/verifiedboot/boot-flow#locked-devices-with-custom-root-of-trust) about custom operating system usage.
+또한, OEM 중에는 마케팅과 달리 자체 검사 부팅을 제대로 구현하지 않는 경우도 많으므로 주의해야 합니다. 예시로 Fairphone 3, 4는 [기본 부트로더가 공개 AVB 서명 키를 신뢰하기 때문에](https://forum.fairphone.com/t/bootloader-avb-keys-used-in-roms-for-fairphone-3-4/83448/11), 기본적으로는 안전하지 않습니다. 이 경우 시스템이 커스텀 운영 체제 사용에 대한 [경고 없이](https://source.android.com/security/verifiedboot/boot-flow#locked-devices-with-custom-root-of-trust) 다른 Android 운영 체제(/e/ 등)를 부팅할 수 있으므로, Fairphone은 기본적으로 자체 검사 부팅이 활성화되지 않습니다.
 
 ## 펌웨어 업데이트
 
-Firmware updates are critical for maintaining security and without them your device cannot be secure. OEMs have support agreements with their partners to provide the closed-source components for a limited support period. These are detailed in the monthly [Android Security Bulletins](https://source.android.com/security/bulletin).
+펌웨어 업데이트는 보안에 있어 매우 중요합니다. 펌웨어 업데이트가 없으면 기기 보안을 유지할 수 없습니다. OEM은 자신들의 협력체와 지원 계약을 맺고 제한된 기간 동안 비공개 소스로 된 구성 요소를 제공합니다. 관련 내용은 [Android 보안 게시판](https://source.android.com/security/bulletin)에 자세히 설명되어 있습니다.
 
-As the components of the phone, such as the processor and radio technologies rely on closed-source components, the updates must be provided by the respective manufacturers. Therefore, it is important that you purchase a device within an active support cycle. [Qualcomm](https://www.qualcomm.com/news/releases/2020/12/16/qualcomm-and-google-announce-collaboration-extend-android-os-support-and) and [Samsung](https://news.samsung.com/us/samsung-galaxy-security-extending-updates-knox/) support their devices for 4 years, while cheaper products often have shorter support cycles. With the introduction of the [Pixel 6](https://support.google.com/pixelphone/answer/4457705), Google now makes their own SoC and they will provide a minimum of 5 years of support.
+휴대폰을 구성하는 요소(프로세서, 무선 기술 등)은 비공개 소스로 된 구성 요소에 의존하기 때문에, 업데이트는 각각의 제조업체로부터 제공받아야 합니다. 지원 기간 내의 기기를 구매해야 하는 이유가 바로 이것입니다. [Qualcomm](https://www.qualcomm.com/news/releases/2020/12/16/qualcomm-and-google-announce-collaboration-extend-android-os-support-and), [Samsung](https://news.samsung.com/kr/%EC%82%BC%EC%84%B1%EC%A0%84%EC%9E%90-%EA%B0%A4%EB%9F%AD%EC%8B%9C-%EB%AA%A8%EB%B0%94%EC%9D%BC-%EA%B8%B0%EA%B8%B0-%EB%B3%B4%EC%95%88-%EC%97%85%EB%8D%B0%EC%9D%B4%ED%8A%B8-%EC%B5%9C%EC%86%8C-4%EB%85%84)은 4년 이상의 기기 지원 기간을 가지고 있습니다. 지원 기간은 업체, 제품마다 다르지만, 저렴한 제품일수록 지원 기간이 짧은 경향이 있습니다. Google은 [Pixel 6](https://support.google.com/pixelphone/answer/4457705) 출시 이후로 자체 SoC를 제작하며, 최소 5년 이상의 지원 기간을 제공합니다.
 
-EOL devices which are no longer supported by the SoC manufacturer cannot receive firmware updates from OEM vendors or after market Android distributors. This means that security issues with those devices will remain unfixed.
+SoC 제조업체에서 더 이상 지원하지 않는 EOL 기기는 OEM 업체나 애프터 마켓 Android 배포자로부터 펌웨어 업데이트를 받는 것이 불가능합니다. 즉, 해당 기기의 보안 문제는 해결될 일이 없습니다.
 
-Fairphone, for example, markets their devices as receiving 6 years of support. However, the SoC (Qualcomm Snapdragon 750G on the Fairphone 4) has a considerably shorter EOL date. This means that firmware security updates from Qualcomm for the Fairphone 4 will end in September 2023, regardless of whether Fairphone continues to release software security updates.
+예시로, Fairphone은 6년의 지원 기간을 제공하는 것으로 홍보합니다. 하지만 SoC(Fairphone 4의 Qualcomm Snapdragon 750G)는 훨씬 짧은 EOL 날짜를 가지고 있습니다. 즉, Fairphone이 계속 소프트웨어 보안 업데이트를 릴리스하더라도, Fairphone 4에 대한 Qualcomm의 펌웨어 보안 업데이트는 2023년 9월에 종료됩니다.
 
 ## Android 버전
 

@@ -157,59 +157,9 @@ Estos proveedores almacenan tus correos electrónicos con cifrado de cero-conoci
 
 <div class="grid cards" markdown>
 
-- ![Logotipo de StartMail](assets/img/email/startmail.svg#only-light){ .twemoji }![Logotipo de StartMail](assets/img/email/startmail-dark.svg#only-dark){ .twemoji } [StartMail](email.md#startmail)
-- ![Logotipo de Tutanota](assets/img/email/tutanota.svg){ .twemoji } [Tutanota](email.md#tutanota)
+- ![Tutanota logo](assets/img/email/tutanota.svg){ .twemoji } [Tutanota](email.md#tutanota)
 
 </div>
-
-### StartMail
-
-!!! recommendation
-
-    ![Logotipo de StartMail](assets/img/email/startmail.svg#only-light){ align=right }
-    ![Logotipo de StartMail](assets/img/email/startmail-dark.svg#only-dark){ align=right }
-    
-    **StartMail** es un servicio de correo electrónico centrado en la seguridad y la privacidad mediante el uso del cifrado estándar OpenPGP. StartMail ha estado en operación desde 2014 y tiene su sede en Boulevard 11, Zeist Países Bajos. Cuentas empiezan con 10GB. Ofrecen una prueba de 30 días.
-    
-    [:octicons-home-16: Página de inicio](https://www.startmail.com/){ .md-button .md-button--primary }
-    [:octicons-eye-16:](https://www.startmail.com/en/privacy/){ .card-link title="Politica de Privacidad" }
-    [:octicons-info-16:](https://support.startmail.com){ .card-link title=Documentación}
-    
-    ??? downloads "Descargas"
-    
-        - [:octicons-browser-16: Web](https://mail.startmail.com/login)
-
-#### :material-check:{ .pg-green } Dominios Personalizados y Alias
-
-Cuentas personales pueden utilizar alias[ personalizados o rápidos](https://support.startmail.com/hc/en-us/articles/360007297457-Aliases). [Dominios personalizados](https://support.startmail.com/hc/en-us/articles/4403911432209-Setup-a-custom-domain) también están disponibles.
-
-#### :material-alert-outline:{ .pg-orange } Métodos Privados de Pago
-
-StartMail acepta Visa, MasterCard, American Express y Paypal. StartMail también dispone de otras[opciones de pago](https://support.startmail.com/hc/en-us/articles/360006620637-Payment-methods) como [Bitcoin](advanced/payments.md#other-coins-bitcoin-ethereum-etc) (actualmente sólo para cuentas Personales) y Débito Directo SEPA para cuentas de más de un año.
-
-#### :material-check:{ .pg-green } Seguridad de Cuenta
-
-StartMail soporta la autenticación de doble factor TOTP [para webmail solamente](https://support.startmail.com/hc/en-us/articles/360006682158-Two-factor-authentication-2FA). No permiten la autenticación con llave de seguridad U2F.
-
-#### :material-information-outline:{ .pg-blue } Seguridad de Datos
-
-StartMail dispone de [encriptación de cero acceso en reposo](https://www.startmail.com/en/whitepaper/#_Toc458527835), utilizando su sistema de "bóveda de usuario". Cuando ingresas, se abre la bóveda y el correo electrónico se traslada a la bóveda fuera de la cola, donde se desencripta con la clave privada correspondiente.
-
-StartMail admite la importación de [contactos](https://support.startmail.com/hc/en-us/articles/360006495557-Import-contacts), sin embargo, solo se puede acceder a ellos en el correo web y no a través de protocolos como [CalDAV](https://en.wikipedia.org/wiki/CalDAV). Los contactos tampoco se almacenan utilizando el cifrado de conocimiento cero.
-
-#### :material-check:{ .pg-green } Cifrado de correo electrónico
-
-StartMail tiene [cifrado integrado](https://support.startmail.com/hc/en-us/sections/360001889078-Encryption) en su correo web, lo que simplifica el envío de mensajes cifrados con claves públicas OpenPGP. Sin embargo, no son compatibles con el estándar Web Key Directory, lo que hace que el descubrimiento de la clave pública de un buzón de correo Startmail sea más difícil para otros proveedores de correo electrónico o clientes.
-
-#### :material-information-outline:{ .pg-blue } Cancelación de la cuenta
-
-Al vencimiento de la cuenta, StartMail eliminará permanentemente su cuenta después de [6 meses en 3 fases](https://support.startmail.com/hc/en-us/articles/360006794398-Account-expiration).
-
-#### :material-information-outline:{ .pg-blue } Funciones adicionales
-
-StartMail permite el proxy de imágenes dentro de los correos electrónicos. Si permite que se cargue la imagen remota, el remitente no sabrá cuál es su dirección IP.
-
-StartMail no ofrece una función de legado digital.
 
 ### Tutanota
 
@@ -237,7 +187,7 @@ StartMail no ofrece una función de legado digital.
 
 Tutanota no es compatible con el[protocolo IMAP](https://tutanota.com/faq/#imap) ni con el uso de[clientes de correo electrónico](email-clients.md)de terceros, y tampoco podrás añadir [cuentas de correo electrónico externas](https://github.com/tutao/tutanota/issues/544#issuecomment-670473647) a la aplicación Tutanota. Ni [importación de correo electrónico](https://github.com/tutao/tutanota/issues/630) ni [subcarpetas](https://github.com/tutao/tutanota/issues/927) son actualmente compatibles, aunque esto [está previsto que se cambie](https://tutanota.com/blog/posts/kickoff-import). Los correos electrónicos se pueden exportar [individualmente o por selección masiva](https://tutanota.com/howto#generalMail) por carpeta, lo que puede resultar incómodo si tiene muchas carpetas.
 
-#### :material-check:{ .pg-green } Dominios personalizados y alias
+#### :material-check:{ .pg-green } Dominios Personalizados y Alias
 
 Las cuentas de pago de Tutanota pueden usar hasta 5 [alias](https://tutanota.com/faq#alias) y [dominios personalizados](https://tutanota.com/faq#custom-domain). Tutanota no permite la [subdirección (más direcciones)](https://tutanota.com/faq#plus), pero puede utilizar un [catch-all](https://tutanota.com/howto#settings-global) con un dominio personalizado.
 
@@ -245,7 +195,7 @@ Las cuentas de pago de Tutanota pueden usar hasta 5 [alias](https://tutanota.com
 
 Tutanota solo acepta directamente tarjetas de crédito y PayPal, sin embargo, la [criptomoneda](cryptocurrency.md) se puede usar para comprar tarjetas de regalo a través de su [asociación](https://tutanota.com/faq/#cryptocurrency) con Proxystore.
 
-#### :material-check:{ .pg-green } Seguridad de las cuentas
+#### :material-check:{ .pg-green } Seguridad de Cuenta
 
 Tutanota soporta [autenticación de dosble factor](https://tutanota.com/faq#2fa) con TOTP o U2F.
 

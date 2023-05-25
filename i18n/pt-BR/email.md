@@ -155,59 +155,9 @@ Estes provedores armazenam os seus e-mails com criptografia de conhecimento zero
 
 <div class="grid cards" markdown>
 
-- ![StartMail logo](assets/img/email/startmail.svg#only-light){ .twemoji }![StartMail logo](assets/img/email/startmail-dark.svg#only-dark){ .twemoji } [StartMail](email.md#startmail)
 - ![Tutanota logo](assets/img/email/tutanota.svg){ .twemoji } [Tutanota](email.md#tutanota)
 
 </div>
-
-### StartMail
-
-!!! recommendation
-
-    ![StartMail logo](assets/img/email/startmail.svg#only-light){ align=right }
-    ![StartMail logo](assets/img/email/startmail-dark.svg#only-dark){ align=right }
-    
-    **StartMail** is an email service with a focus on security and privacy through the use of standard OpenPGP encryption. StartMail has been in operation since 2014 and is based in Boulevard 11, Zeist Netherlands. Accounts start with 10GB. They offer a 30-day trial.
-    
-    [:octicons-home-16: Homepage](https://www.startmail.com/){ .md-button .md-button--primary }
-    [:octicons-eye-16:](https://www.startmail.com/en/privacy/){ .card-link title="Privacy Policy" }
-    [:octicons-info-16:](https://support.startmail.com){ .card-link title=Documentation}
-    
-    ??? downloads
-    
-        - [:octicons-browser-16: Web](https://mail.startmail.com/login)
-
-#### :material-check: { .pg-green } Domínios e Pseudônimos Personalizados
-
-Contas pessoais podem usar pseudônimos [Personalizados ou Rápidos](https://support.startmail.com/hc/en-us/articles/360007297457-Aliases). [Domínios personalizados](https://support.startmail.com/hc/en-us/articles/4403911432209-Setup-a-custom-domain) também estão disponíveis.
-
-#### :material-alert-outline:{ .pg-orange } Métodos de Pagamento Privados
-
-StartMail aceita Visa, MasterCard, American Express e Paypal. StartMail também tem outras [opções de pagamento](https://support.startmail.com/hc/en-us/articles/360006620637-Payment-methods) como [Bitcoin](advanced/payments.md#other-coins-bitcoin-ethereum-etc) (atualmente apenas para contas pessoais) e o Débito Direto SEPA para contas com mais de um ano.
-
-#### :material-check:{ .pg-green } Segurança da Conta
-
-StartMail suporta autenticação de dois fatores TOTP [apenas para webmail](https://support.startmail.com/hc/en-us/articles/360006682158-Two-factor-authentication-2FA). Eles não permitem autenticação de chave de segurança U2F.
-
-#### :material-information-outline:{ .pg-blue } Segurança dos Dados
-
-StartMail tem [criptografia de acesso zero em repouso](https://www.startmail.com/en/whitepaper/#_Toc458527835), usando seu sistema de "cofre usuário". Quando você faz login, o cofre é aberto e o e-mail é movido para o cofre, fora da fila, onde é descriptografado pela chave privada correspondente.
-
-StartMail suporta a importação de [contatos](https://support.startmail.com/hc/en-us/articles/360006495557-Import-contacts), no entanto, eles só são acessíveis no webmail e não através de protocolos como [CalDAV](https://en.wikipedia.org/wiki/CalDAV). Os contatos também não são armazenados usando criptografia de conhecimento zero.
-
-#### :material-check:{ .pg-green } Criptografia do Email
-
-StartMail tem [criptografia integrada](https://support.startmail.com/hc/en-us/sections/360001889078-Encryption) em seus webmail, o que simplifica o envio de mensagens criptografadas com chaves OpenPGP públicas. No entanto, eles não são compatíveis com o padrão Web Key Directory, o que torna a descoberta da chave pública de uma caixa de correio do Startmail mais difícil para outros provedores ou clientes de e-mail.
-
-#### :material-information-outline:{ .pg-blue } Rescisão da Conta
-
-No vencimento da conta, StartMail excluirá permanentemente sua conta após [6 meses em 3 fases](https://support.startmail.com/hc/en-us/articles/360006794398-Account-expiration).
-
-#### :material-information-outline:{ .pg-blue } Funcionalidades Adicionais
-
-StartMail permite o proxy de imagens em e-mails. Se você permitir que a imagem remota seja carregada, o remetente não saberá qual é seu endereço IP.
-
-StartMail não oferece um recurso de legado digital.
 
 ### Tutanota
 

@@ -157,59 +157,9 @@ Deze providers slaan je e-mails op met zero-knowledge encryptie, waardoor ze gew
 
 <div class="grid cards" markdown>
 
-- ![StartMail logo](assets/img/email/startmail.svg#only-light){ .twemoji }![StartMail logo](assets/img/email/startmail-dark.svg#only-dark){ .twemoji } [StartMail](email.md#startmail)
 - ![Tutanota logo](assets/img/email/tutanota.svg){ .twemoji } [Tutanota](email.md#tutanota)
 
 </div>
-
-### StartMail
-
-!!! recommendation
-
-    ![StartMail-logo](assets/img/email/startmail.svg#only-light){ align=right }
-    ![StartMail-logo](assets/img/email/startmail-dark.svg#only-dark){ align=right }
-    
-    **StartMail** is een e-maildienst met de nadruk op veiligheid en privacy door het gebruik van standaard OpenPGP-versleuteling. StartMail is sinds 2014 actief en is gevestigd in Boulevard 11, Zeist Nederland. Accounts beginnen met 10GB. Ze bieden een 30 dagen proefperiode.
-    
-    [:octicons-home-16: Homepage](https://www.startmail.com/){ .md-button .md-button--primary }
-    [:octicons-eye-16:](https://www.startmail.com/en/privacy/){ .card-link title="Privacybeleid" }
-    [:octicons-info-16:](https://support.startmail.com){ .card-link title=Documentatie}
-    
-    ??? downloads "Downloaden"
-    
-        - [:octicons-browser-16: Web](https://mail.startmail.com/login)
-
-#### :material-check:{ .pg-green } Aangepaste domeinen en aliassen
-
-Persoonlijke accounts kunnen [aangepaste of Quick](https://support.startmail.com/hc/en-us/articles/360007297457-Aliases) aliassen gebruiken. [Aangepaste domeinen](https://support.startmail.com/hc/en-us/articles/4403911432209-Setup-a-custom-domain) zijn ook beschikbaar.
-
-#### :material-alert-outline:{ .pg-orange } Privé betaalmethodes
-
-StartMail accepteert Visa, MasterCard, American Express en Paypal. StartMail heeft ook andere [betalingsopties](https://support.startmail.com/hc/en-us/articles/360006620637-Payment-methods) zoals [Bitcoin](advanced/payments.md#other-coins-bitcoin-ethereum-etc) (momenteel alleen voor Persoonlijke accounts) en SEPA Direct Debit voor accounts ouder dan een jaar.
-
-#### :material-check:{ .pg-green } Accountbeveiliging
-
-StartMail ondersteunt TOTP tweefactorauthenticatie [alleen voor webmail](https://support.startmail.com/hc/en-us/articles/360006682158-Two-factor-authentication-2FA). Zij staan geen U2F-authenticatie met beveiligingssleutel toe.
-
-#### :material-information-outline:{ .pg-blue } Gegevensbeveiliging
-
-StartMail heeft [zero access encryptie bij rust](https://www.startmail.com/en/whitepaper/#_Toc458527835), met behulp van hun "user vault" systeem. Wanneer je inlogt, wordt de kluis geopend, en de e-mail wordt dan uit de wachtrij naar de kluis verplaatst, waar hij wordt ontsleuteld met de bijbehorende privésleutel.
-
-StartMail ondersteunt het importeren van [contacten](https://support.startmail.com/hc/en-us/articles/360006495557-Import-contacts) echter, ze zijn alleen toegankelijk in de webmail en niet via protocollen zoals [CalDAV](https://en.wikipedia.org/wiki/CalDAV). Contacten worden ook niet opgeslagen met behulp van zero knowledge encryptie.
-
-#### :material-check:{ .pg-green } Email encryptie
-
-StartMail heeft [encryptie](https://support.startmail.com/hc/en-us/sections/360001889078-Encryption) geïntegreerd in hun webmail, wat het versturen van versleutelde berichten met openbare OpenPGP-sleutels vereenvoudigt. Ze ondersteunen echter niet de Web Key Directory-standaard, waardoor de ontdekking van de openbare sleutel van een Startmail-postvak uitdagender wordt voor andere e-mailproviders of -clients.
-
-#### :material-information-outline:{ .pg-blue } Beëindiging van account
-
-Bij afloop van jouw account, zal StartMail jouw account definitief verwijderen na [6 maanden in 3 fasen](https://support.startmail.com/hc/en-us/articles/360006794398-Account-expiration).
-
-#### :material-information-outline:{ .pg-blue } extra functionaliteit
-
-StartMail maakt proxying van afbeeldingen in e-mails mogelijk. Als je toestaat dat het beeld op afstand wordt geladen, weet de verzender niet wat jouw IP-adres is.
-
-StartMail biedt geen digitale erfenisfunctie.
 
 ### Tutanota
 

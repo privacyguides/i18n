@@ -157,59 +157,9 @@ Mailbox.org כולל תכונת מורשת דיגיטלית לכל התוכני�
 
 <div class="grid cards" markdown>
 
-- ![StartMail לוגו](assets/img/email/startmail.svg#only-light){ .twemoji }![StartMail לוגו](assets/img/email/startmail-dark.svg#only-dark){ .twemoji } [StartMail](email.md#startmail)
-- ![Tutanota לוגו](assets/img/email/tutanota.svg){ .twemoji } [Tutanota](email.md#tutanota)
+- ![Tutanota logo](assets/img/email/tutanota.svg){ .twemoji } [Tutanota](email.md#tutanota)
 
 </div>
-
-### StartMail
-
-!!! recommendation
-
-    ![StartMail לוגו](assets/img/email/startmail.svg#only-light){ align=right }
-    ![StartMail לוגו](assets/img/email/startmail-dark.svg#only-dark){ align=right }
-    
-    ** StartMail ** הוא שירות דואר אלקטרוני עם דגש על אבטחה ופרטיות באמצעות הצפנת OpenPGP סטנדרטית. StartMail פועלת מאז 2014 וממוקמת בBoulevard 11, Zeist הולנד. החשבון מתחיל עם 10GB. הם מציעים תקופת ניסיון של 30 יום.
-    
-    [:octicons-home-16: Homepage](https://www.startmail.com/){ .md-button .md-button--primary }
-    [:octicons-eye-16:](https://www.startmail.com/en/privacy/){ .card-link title="מדיניות פרטיות" }
-    [:octicons-info-16:](https://support.startmail.com){ .card-link title=תיעוד}
-    
-    ??? downloads "הורדות"
-    
-        - [:octicons-browser-16: Web](https://mail.startmail.com/login)
-
-#### :material-check:{ .pg-green } דומיינים וכינויים מותאמים אישית
-
-חשבונות אישיים יכולים להשתמש ב[כינויים מותאמים אישית או מהירים](https://support.startmail.com/hc/en-us/articles/360007297457-Aliases). [דומיינים מותאמים אישית](https://support.startmail.com/hc/en-us/articles/4403911432209-Setup-a-custom-domain) זמינים גם כן.
-
-#### :material-alert-outline:{ .pg-orange } שיטות תשלום פרטיות
-
-StartMail מקבלת ויזה, מאסטרקארד, אמריקן אקספרס ו - Paypal. ל-StartMail יש גם [אפשרויות תשלום](https://support.startmail.com/hc/en-us/articles/360006620637-Payment-methods) אחרות כגון [ביטקוין](advanced/payments.md#other-coins-bitcoin-ethereum-etc) (כרגע רק עבור חשבונות אישיים) ו-SEPA ישיר עבור חשבונות מעל שנה.
-
-#### :material-check:{ .pg-green } אבטחת חשבון
-
-StartMail תומך באימות TOTP בשני גורמים עבור [דואר אינטרנט](https://support.startmail.com/hc/en-us/articles/360006682158-Two-factor-authentication-2FA) בלבד. הם אינם מאפשרים אימות מפתח אבטחה U2F.
-
-#### :material-information-outline:{ .pg-blue } אבטחת מידע
-
-ל-StartMail יש [הצפנת גישה אפסית במצב מנוחה](https://www.startmail.com/en/whitepaper/#_Toc458527835), באמצעות מערכת "כספת המשתמש" שלהם. כאשר אתה נכנס, הכספת נפתחת, ולאחר מכן הדואר האלקטרוני מועבר לכספת מחוץ לתור, שם הוא מפוענח על-ידי המפתח הפרטי המתאים.
-
-StartMail תומך בייבוא [אנשי קשר](https://support.startmail.com/hc/en-us/articles/360006495557-Import-contacts) עם זאת, הם נגישים רק בדואר האינטרנט ולא באמצעות פרוטוקולים כגון [CalDAV](https://en.wikipedia.org/wiki/CalDAV). אנשי קשר גם אינם מאוחסנים באמצעות הצפנת ידע אפס.
-
-#### :material-check:{ .pg-green } הצפנת אימייל
-
-ל-StartMail [הצפנה משולבת](https://support.startmail.com/hc/en-us/sections/360001889078-Encryption) בדואר האינטרנט שלהם, מה שמקל על שליחת הודעות מוצפנות עם מפתחות OpenPGP ציבוריים. עם זאת, הם אינם תומכים בתקן Web Key Directory, מה שהופך את גילוי המפתח הציבורי של תיבת דואר של Startmail למאתגר יותר עבור ספקי אימייל או לקוחות אחרים.
-
-#### :material-information-outline:{ .pg-blue } סגירת חשבון
-
-עם פקיעת החשבון, StartMail תמחק לצמיתות את חשבונך לאחר [ 6 חודשים בשלושה שלבים](https://support.startmail.com/hc/en-us/articles/360006794398-Account-expiration).
-
-#### :material-information-outline:{ .pg-blue } פונקציונליות נוספת
-
-StartMail מאפשר פרוקסי של תמונות בתוך הודעות דוא"ל. אם תאפשרו את טעינת התמונה המרוחקת, השולח לא יידע מהי כתובת ה-IP שלכם.
-
-StartMail אינו מציע תכונה דיגיטלית מדור קודם.
 
 ### Tutanota
 

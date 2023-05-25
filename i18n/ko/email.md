@@ -157,59 +157,9 @@ Mailbox.org는 모든 플랜에 디지털 유산 상속 기능을 제공합니�
 
 <div class="grid cards" markdown>
 
-- ![StartMail 로고](assets/img/email/startmail.svg#only-light){ .twemoji }![StartMail 로고](assets/img/email/startmail-dark.svg#only-dark){ .twemoji } [StartMail](email.md#startmail)
-- ![Tutanota 로고](assets/img/email/tutanota.svg){ .twemoji } [Tutanota](email.md#tutanota)
+- ![Tutanota logo](assets/img/email/tutanota.svg){ .twemoji } [Tutanota](email.md#tutanota)
 
 </div>
-
-### StartMail
-
-!!! recommendation
-
-    ![StartMail 로고](assets/img/email/startmail.svg#only-light){ align=right }
-    ![StartMail 로고](assets/img/email/startmail-dark.svg#only-dark){ align=right }
-    
-    **StartMail**은 표준 OpenPGP 암호화를 사용하여 보안 및 프라이버시에 중점을 둔 이메일 서비스입니다. StartMail은 2014년부터 운영되었으며 본사는 네덜란드 제이스트 Boulevard 11에 위치하고 있습니다. 계정은 10GB부터 시작합니다. 30일 체험 기간을 제공합니다.
-    
-    [:octicons-home-16: 홈페이지](https://www.startmail.com/){ .md-button .md-button--primary }
-    [:octicons-eye-16:](https://www.startmail.com/en/privacy/){ .card-link title="프라이버시 정책" }
-    [:octicons-info-16:](https://support.startmail.com){ .card-link title=문서}
-    
-    ??? downloads "다운로드"
-    
-        - [:octicons-browser-16: Web](https://mail.startmail.com/login)
-
-#### :material-check:{ .pg-green } 사용자 지정 도메인 및 별칭
-
-개인 계정은 [사용자 지정](https://support.startmail.com/hc/en-us/articles/360007297457-Aliases) 별칭을 사용할 수 있습니다. [사용자 지정 도메인](https://support.startmail.com/hc/en-us/articles/4403911432209-Setup-a-custom-domain)도 사용 가능합니다.
-
-#### :material-alert-outline:{ .pg-orange } 비공개 결제 수단
-
-StartMail은 Visa, MasterCard, American Express, Paypal 결제를 지원합니다. [비트코인](advanced/payments.md#other-coins-bitcoin-ethereum-etc)(개인 계정 한정)이나 1년 이상 지난 계정의 SPEA 자동 이체 등 [추가 결제 옵션](https://support.startmail.com/hc/en-us/articles/360006620637-Payment-methods) 또한 지원합니다.
-
-#### :material-check:{ .pg-green } 계정 보안
-
-StartMail은 [웹메일에 한해](https://support.startmail.com/hc/en-us/articles/360006682158-Two-factor-authentication-2FA) TOTP 이중 인증을 지원합니다. U2F 보안 키 인증은 허용하지 않습니다.
-
-#### :material-information-outline:{ .pg-blue } 데이터 보안
-
-StartMail에서는 '사용자 보관함' 시스템으로 [Zero Access Encryption을 적용](https://www.startmail.com/en/whitepaper/#_Toc458527835)합니다. 사용자가 로그인할 경우 먼저 보관함이 열리고, 이메일이 보관함으로 이동하여, 보관함에서 이메일을 개인 키로 해독합니다.
-
-StartMail은 [연락처 가져오기](https://support.startmail.com/hc/en-us/articles/360006495557-Import-contacts)를 지원합니다. 하지만 연락처는 웹메일에서만 접근 가능하며, [CalDAV](https://en.wikipedia.org/wiki/CalDAV) 등의 프로토콜로는 접근할 수 없습니다. 연락처는 Zero Knowledge Encryption이 적용되지 않고 저장됩니다.
-
-#### :material-check:{ .pg-green } 이메일 암호화
-
-StartMail은 웹메일에 [암호화 기능을 내장](https://support.startmail.com/hc/en-us/sections/360001889078-Encryption)하고 있으므로, OpenPGP 공개 키로 간편하게 암호화 메시지를 전송할 수 있습니다. 하지만 Web Key Directory 표준을 지원하지 않기 때문에 StartMail 메일함의 공개 키 검색은 쉽지 않습니다.
-
-#### :material-information-outline:{ .pg-blue } 계정 삭제
-
-계정이 만료되면 StartMail은 [6개월동안 3개의 단계를 걸쳐서](https://support.startmail.com/hc/en-us/articles/360006794398-Account-expiration) 계정을 영구적으로 삭제합니다.
-
-#### :material-information-outline:{ .pg-blue } 추가 기능
-
-StartMail은 메일 내 이미지 프록시를 지원합니다. 원격 이미지 프록시 로드를 허용할 경우, 발신자는 여러분의 IP 주소를 알 수 없습니다.
-
-StartMail은 디지털 유산 상속 기능을 제공하지 않습니다.
 
 ### Tutanota
 
@@ -257,7 +207,7 @@ Tutanota는 이메일, [주소록 연락처](https://tutanota.com/faq#encrypted-
 
 Tutanota는 [OpenPGP를 사용하지 않습니다](https://www.tutanota.com/faq/#pgp). Tutanota 계정이 Tutanota 외의 이메일 계정으로부터 암호화된 이메일을 받는 것은 [임시 Tutanota 메일함](https://www.tutanota.com/howto/#encrypted-email-external)을 통해 전송된 경우에만 가능합니다.
 
-#### :material-information-outline:{ .pg-blue } 계정 해지
+#### :material-information-outline:{ .pg-blue } 계정 삭제
 
 Tutanota는 6개월 이상 [활동이 없는 무료 계정을 삭제](https://tutanota.com/faq#inactive-accounts)합니다. 돈을 지불하면 비활성화된 계정을 재사용할 수 있습니다.
 
