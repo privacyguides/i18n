@@ -8,7 +8,7 @@ schema:
   - 
     "@context": http://schema.org
     "@type": WebPage
-    name: Private Android Operating Systems
+    name: 프라이버시 중점 Android 운영 체제
     url: "./"
   - 
     "@context": http://schema.org
@@ -79,7 +79,7 @@ schema:
     operatingSystem: Android
 ---
 
-![Android logo](assets/img/android/android.svg){ align=right }
+![Android 로고](assets/img/android/android.svg){ align=right }
 
 The **Android Open Source Project** is an open-source mobile operating system led by Google which powers the majority of the world's mobile devices. Most phones sold with Android are modified to include invasive integrations and apps such as Google Play Services, so you can significantly improve your privacy on your mobile device by replacing your phone's default installation with a version of Android without these invasive features.
 
@@ -330,7 +330,7 @@ Aurora Store에서는 익명 계정 기능을 사용해 유료 앱은 다운로�
 
 GitHub, GitLab 등의 플랫폼에서 릴리즈되는 앱은 [뉴스 애그리게이터](/news-aggregators)에 RSS 피드를 추가해 새로운 릴리즈를 확인할 수 있습니다.
 
-![RSS APK](./assets/img/android/rss-apk-light.png#only-light) ![RSS APK](./assets/img/android/rss-apk-dark.png#only-dark) ![APK Changes](./assets/img/android/rss-changes-light.png#only-light) ![APK Changes](./assets/img/android/rss-changes-dark.png#only-dark)
+![RSS APK](./assets/img/android/rss-apk-light.png#only-light) ![RSS APK](./assets/img/android/rss-apk-dark.png#only-dark) ![APK 변경 사항](./assets/img/android/rss-changes-light.png#only-light) ![APK 변경 사항](./assets/img/android/rss-changes-dark.png#only-dark)
 
 #### GitHub
 
@@ -377,7 +377,7 @@ APK 파일을 다운로드해 수동으로 설치하는 경우, Android [빌드 
 
 ### F-Droid
 
-![F-Droid logo](assets/img/android/f-droid.svg){ align=right width=120px }
+![F-Droid 로고](assets/img/android/f-droid.svg){ align=right width=120px }
 
 ==We do **not** currently recommend F-Droid as a way to obtain apps.== F-Droid is often recommended as an alternative to Google Play, particularly in the privacy community. The option to add third-party repositories and not be confined to Google's walled garden has led to its popularity. F-Droid additionally has [reproducible builds](https://f-droid.org/en/docs/Reproducible_Builds/) for some applications and is dedicated to free and open-source software. However, there are [notable problems](https://privsec.dev/posts/android/f-droid-security-issues/) with the official F-Droid client, their quality control, and how they build, sign, and deliver packages.
 
@@ -402,23 +402,23 @@ That said, the [F-Droid](https://f-droid.org/en/packages/) and [IzzyOnDroid](htt
 ### 운영 체제
 
 - 오픈 소스 소프트웨어여야 합니다.
-- Must support bootloader locking with custom AVB key support.
-- Must receive major Android updates within 0-1 months of release.
-- Must receive Android feature updates (minor version) within 0-14 days of release.
-- Must receive regular security patches within 0-5 days of release.
-- Must **not** be "rooted" out of the box.
-- Must **not** enable Google Play Services by default.
-- Must **not** require system modification to support Google Play Services.
+- 부트로더 잠금 시 사용자 지정 AVB 키를 사용할 수 있도록 지원해야 합니다.
+- Android 메이저 업데이트는 출시 1개월 이내에 제공되어야 합니다.
+- Android 기능 업데이트(마이너 버전)은 출시 14일 이내에 제공되어야 합니다.
+- 정기적인 보안 패치는 출시 5일 이내에 제공되어야 합니다.
+- 기본적으로 루팅이 되어있어서는 **안 됩니다**.
+- Google Play 서비스가 기본적으로 활성화된 상태로 제공되어서는 **안 됩니다**.
+- Google Play 서비스를 활성화하기 위해 시스템 수정이 필요해서는 **안 됩니다**.
 
 ### 기기
 
-- Must support at least one of our recommended custom operating systems.
+- 권장 운영 체제 중 한 가지 이상을 지원해야 합니다.
 - 현재 새 제품을 팔고 있어야 합니다.
 - 최소 5년 이상 보안 업데이트를 받아야 합니다.
 - 전용 보안 칩(Secure Element) 하드웨어가 장착되어 있어야 합니다.
 
 ### 애플리케이션
 
-- Applications on this page must not be applicable to any other software category on the site.
-- General applications should extend or replace core system functionality.
-- Applications should receive regular updates and maintenance.
+- 본 페이지에 등재된 애플리케이션은 Privacy Guides 사이트의 다른 소프트웨어 카테고리에 해당되지 않아야 합니다.
+- 일반 애플리케이션은 핵심 시스템 기능을 확장하거나 대체해야 합니다.
+- 애플리케이션은 꾸준한 업데이트 및 유지 관리가 이루어져야 합니다.

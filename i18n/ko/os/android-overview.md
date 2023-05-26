@@ -50,7 +50,7 @@ SoC 제조업체에서 더 이상 지원하지 않는 EOL 기기는 OEM 업체�
 
 ## Android 버전
 
-It's important to not use an [end-of-life](https://endoflife.date/android) version of Android. Newer versions of Android not only receive security updates for the operating system but also important privacy enhancing updates too. For example, [prior to Android 10](https://developer.android.com/about/versions/10/privacy/changes), any apps with the [`READ_PHONE_STATE`](https://developer.android.com/reference/android/Manifest.permission#READ_PHONE_STATE) permission could access sensitive and unique serial numbers of your phone such as [IMEI](https://en.wikipedia.org/wiki/International_Mobile_Equipment_Identity), [MEID](https://en.wikipedia.org/wiki/Mobile_equipment_identifier), your SIM card's [IMSI](https://en.wikipedia.org/wiki/International_mobile_subscriber_identity), whereas now they must be system apps to do so. System apps are only provided by the OEM or Android distribution.
+[지원 기간이 종료된](https://endoflife.date/android) Android 버전은 사용하지 않아야 합니다. 최신 버전 Android에는 운영 체제 보안 업데이트뿐만 아니라, 중요한 프라이버시 강화 업데이트도 포함되어 있습니다. 예를 들어, [Android 10 이전](https://developer.android.com/about/versions/10/privacy/changes?hl=ko)에는 어떤 앱이든 [`READ_PHONE_STATE`](https://developer.android.com/reference/android/Manifest.permission#READ_PHONE_STATE) 권한을 가졌다면 [IMEI](https://en.wikipedia.org/wiki/International_Mobile_Equipment_Identity), [MEID](https://en.wikipedia.org/wiki/Mobile_equipment_identifier), SIM 카드 [IMSI](https://ko.wikipedia.org/wiki/%EA%B5%AD%EC%A0%9C_%EB%AA%A8%EB%B0%94%EC%9D%BC_%EA%B0%80%EC%9E%85%EC%9E%90_%EA%B5%AC%EB%B3%84%EC%9E%90) 등 여러분 휴대폰의 민감한 고유 일련 번호에 접근 가능했지만, 현재는 시스템 앱만 가능합니다. 시스템 앱은 OEM이나 Android 배포판에서만 제공됩니다.
 
 ## Android 권한
 
@@ -81,27 +81,27 @@ Android 13:
 - [세분화된 미디어 권한](https://developer.android.com/about/versions/13/behavior-changes-13?hl=ko#granular-media-permissions)이 도입되어, 이미지, 동영상, 오디오 파일에만 접근 가능한 권한을 부여할 수 있습니다.
 - [`BODY_SENSORS`](https://developer.android.com/about/versions/13/behavior-changes-13?hl=ko#body-sensors-background-permission) 권한이 없으면 백그라운드에서 센서를 사용할 수 없습니다.
 
-An app may request a permission for a specific feature it has. For example, any app that can scan QR codes will require the camera permission. Some apps can request more permissions than they need.
+앱은 특정 기능에 대한 권한을 요청할 수 있습니다. 예를 들어, QR 코드를 스캔할 수 있는 모든 앱에는 카메라 권한이 필요합니다. 일부 앱은 해당 앱에 필요한 권한보다 더 많은 권한을 요청하는 경우도 있습니다.
 
-[Exodus](https://exodus-privacy.eu.org/) can be useful when comparing apps that have similar purposes. If an app requires a lot of permissions and has a lot of advertising and analytics this is probably a bad sign. We recommend looking at the individual trackers and reading their descriptions rather than simply **counting the total** and assuming all items listed are equal.
+[Exodus](https://exodus-privacy.eu.org/)는 유사한 용도의 앱을 비교하는 데에 유용합니다. 앱이 과도한 권한을 요구하고 광고 및 분석 기능이 많다면, 해당 앱은 피해야 할지도 모릅니다. Privacy Guides는 각 항목의 차이를 보지 않고 **단순히 총합 수치로 비교**하기보다는 각각의 추적기와 그 설명을 하나씩 읽어보실 것을 권장드립니다.
 
 !!! warning "경고"
 
-    앱이 대부분 웹 기반 서비스로 이루어진 경우, 추적은 서버 측에서 이루어질 수도 있습니다. [Facebook](https://reports.exodus-privacy.eu.org/en/reports/com.facebook.katana/latest/)은 '추적기 없음'이라 표시되어 있지만, 사이트 전반에서 사용자의 관심사와 행동을 추적하는 것은 틀림없습니다. 앱이 광고 업계에서 제작한 표준 광고 라이브러리 외의 수단을 사용함으로써 탐지에서 벗어나는 것도 있을 수 있는 일이지만, 가능성은 낮습니다.
+    앱의 상당 부분이 웹 기반 서비스로 이루어진 경우, 추적은 서버 측에서 이루어질 수도 있습니다. [Facebook](https://reports.exodus-privacy.eu.org/en/reports/com.facebook.katana/latest/)은 '추적기 없음'이라 표시되어 있지만, 사이트 전반에서 사용자의 관심사와 행동을 추적하는 것은 틀림없습니다. 앱이 광고 업계에서 제작한 표준 광고 라이브러리 외의 수단을 사용함으로써 탐지에서 벗어나는 것도 있을 수 있는 일이지만, 가능성은 낮습니다.
 
 !!! note "참고"
 
-    [Bitwarden](https://reports.exodus-privacy.eu.org/en/reports/com.x8bit.bitwarden/latest/) 처럼 프라이버시 친화적인 앱에서도 [Google Firebase Analytics](https://reports.exodus-privacy.eu.org/en/trackers/49/) 등의 일부 추적기가 표시될 수 있습니다. 해당 라이브러리는 앱에서 [푸시 알림](https://ko.wikipedia.org/wiki/%ED%91%B8%EC%8B%9C_%EA%B8%B0%EB%B2%95)을 제공할 수 있는 [Firebase 클라우드 메시징(FCM)](https://en.wikipedia.org/wiki/Firebase_Cloud_Messaging)이 포함되어 있습니다. This [is the case](https://fosstodon.org/@bitwarden/109636825700482007) with Bitwarden. That doesn't mean that Bitwarden is using all of the analytics features that are provided by Google Firebase Analytics.
+    [Bitwarden](https://reports.exodus-privacy.eu.org/en/reports/com.x8bit.bitwarden/latest/) 처럼 프라이버시 친화적인 앱에서도 [Google Firebase Analytics](https://reports.exodus-privacy.eu.org/en/trackers/49/) 등의 일부 추적기가 표시될 수 있습니다. 해당 라이브러리는 앱에서 [푸시 알림](https://ko.wikipedia.org/wiki/%ED%91%B8%EC%8B%9C_%EA%B8%B0%EB%B2%95)을 제공할 수 있는 [Firebase 클라우드 메시징(FCM)](https://en.wikipedia.org/wiki/Firebase_Cloud_Messaging)이 포함되어 있습니다. Bitwarden이 바로 [이러한 경우](https://fosstodon.org/@bitwarden/109636825700482007)에 해당합니다. Bitwarden에서 Google Firebase Analytics 트래커가 발견됐다는 사실이 Bitwarden에서 Google Firebase Analytics의 모든 분석 기능을 사용한다는 것을 의미하지는 않습니다.
 
-## Media Access
+## 미디어 액세스
 
-Quite a few applications allows you to "share" a file with them for media upload. If you want to, for example, tweet a picture to Twitter, do not grant Twitter access to your "media and photos", because it will have access to all of your pictures then. Instead, go to your file manager (documentsUI), hold onto the picture, then share it with Twitter.
+많은 애플리케이션은 '공유' 기능을 이용해 미디어를 업로드하는 기능을 지원합니다. Twitter에 사진을 트윗하려는 경우로 예를 들면, Twitter가 여러분의 모든 사진에 접근할 수 있도록 하고 싶은 것이 아닌 이상 '미디어 및 사진' 접근 권한을 허용해선 안 됩니다. 대신 파일 관리자(documentsUI)로 이동해, 파일 관리자에서 사진을 길게 터치한 다음 Twitter에 공유하세요.
 
 ## 사용자 프로필
 
-다중 사용자 프로필은 Android에서 격리 환경을 가장 간단하게 구축할 수 있는 방법으로, **설정** → **시스템** → **여러 사용자**에서 확인할 수 있습니다.
+여러 사용자 프로필은 Android에서 격리 환경을 가장 간단하게 구축할 수 있는 방법으로, **설정** → **시스템** → **여러 사용자**에서 확인할 수 있습니다.
 
-With user profiles, you can impose restrictions on a specific profile, such as: making calls, using SMS, or installing apps on the device. 각 프로필은 고유한 암호화 키를 사용하여 암호화되며 다른 프로필의 데이터에 접근할 수 없습니다. 기기 소유자라 할지라도 비밀번호를 모르면 다른 프로필의 데이터를 볼 수 없습니다. Multiple user profiles are a more secure method of isolation.
+사용자 프로필 기능을 이용하면 전화 걸기, SMS 사용, 앱 설치 등의 행위를 특정 프로필에서만 제한적으로 수행할 수 있습니다. 각 프로필은 고유한 암호화 키를 사용하여 암호화되며 다른 프로필의 데이터에 접근할 수 없습니다. 기기 소유자라 할지라도 비밀번호를 모르면 다른 프로필의 데이터를 볼 수 없습니다. '여러 사용자 프로필'은 여타 방법보다 더 안전한 격리 방법입니다.
 
 ## 직장 프로필
 
@@ -117,31 +117,31 @@ With user profiles, you can impose restrictions on a specific profile, such as: 
 
 Android 7 이상은 외부 앱을 설치할 필요 없이 VPN 킬 스위치를 자체적으로 지원합니다. 해당 기능은 VPN 연결이 끊어졌을 때 유출이 발생하지 않도록 방지할 수 있습니다. :gear: **설정** → **네트워크 및 인터넷** → **VPN** → :gear: → **연결 차단(VPN 제외)**에서 확인할 수 있습니다.
 
-## Global Toggles
+## 전역 제어
 
-Modern Android devices have global toggles for disabling Bluetooth and location services. Android 12 introduced toggles for the camera and microphone. When not in use, we recommend disabling these features. Apps cannot use disabled features (even if granted individual permission) until re-enabled.
+최신 Android 기기에는 Bluetooth 및 위치 서비스를 비활성화할 수 있는 전역 제어 기능이 존재합니다. Android 12에는 카메라, 마이크 접근 제어 기능이 도입되었습니다. 해당 기능들을 사용하지 않을 때에는 전역적으로 비활성화해 두는 것을 권장드립니다. 개별 권한이 허가된 앱일지라도 해당 기능 접근이 활성화되기 전까진 접근할 수 없습니다.
 
 ## Google
 
-If you are using a device with Google services, either your stock operating system or an operating system that safely sandboxes Google Play Services like GrapheneOS, there are a number of additional changes you can make to improve your privacy. We still recommend avoiding Google services entirely, or limiting Google Play services to a specific user/work profile by combining a device controller like *Shelter* with GrapheneOS's Sandboxed Google Play.
+기본 운영 체제를 사용하든 GrapheneOS에서 샌드박스 Google Play 서비스를 사용하든, 기기에서 Google 서비스를 사용하고 있다면 여러 추가 변경 사항을 적용해 프라이버시를 강화할 수 있습니다. 물론, Privacy Guides에서는 '가능하다면' Google 서비스를 아예 사용하지 않거나, Shelter 등의 기기 컨트롤러와 GrapheneOS의 Sandboxed Google Play 기능을 결합해 특정 사용자/업무 프로필로 Google Play 서비스를 제한해서 사용하실 것을 권장드립니다.
 
 ### 고급 보호 프로그램
 
 Google 계정을 가지고 있다면 [고급 보호 프로그램](https://landing.google.com/advancedprotection/)에 등록하시는 것을 권장드립니다. [FIDO](../basics/multi-factor-authentication.md#fido-fast-identity-online)를 지원하는 하드웨어 보안 키를 2개 이상 가지고 있다면 누구나 무료로 이용할 수 있습니다.
 
-The Advanced Protection Program provides enhanced threat monitoring and enables:
+고급 보호 프로그램은 향상된 위협 모니터링 기능을 제공합니다.
 
-- Stricter two factor authentication; e.g. that [FIDO](../basics/multi-factor-authentication.md#fido-fast-identity-online) **must** be used and disallows the use of [SMS OTPs](../basics/multi-factor-authentication.md#sms-or-email-mfa), [TOTP](../basics/multi-factor-authentication.md#time-based-one-time-password-totp) and [OAuth](https://en.wikipedia.org/wiki/OAuth)
-- Only Google and verified third-party apps can access account data
-- Scanning of incoming emails on Gmail accounts for [phishing](https://en.wikipedia.org/wiki/Phishing#Email_phishing) attempts
-- Stricter [safe browser scanning](https://www.google.com/chrome/privacy/whitepaper.html#malware) with Google Chrome
-- Stricter recovery process for accounts with lost credentials
+- 더 엄격한 이중 인증([SMS OTP](../basics/multi-factor-authentication.md#sms-or-email-mfa), [TOTP](../basics/multi-factor-authentication.md#time-based-one-time-password-totp), [OAuth](https://ko.wikipedia.org/wiki/OAuth) 사용이 불가능하고 **반드시** [FIDO](../basics/multi-factor-authentication.md#fido-fast-identity-online)를 사용해야 함)
+- Google 및 인증된 제3자 앱만이 계정 데이터에 접근 가능
+- Google 계정의 받은 편지함에서 [피싱](https://en.wikipedia.org/wiki/Phishing#Email_phishing) 시도 스캔
+- Google Chrome의 더 엄격한 [세이프 브라우징 검사](https://www.google.com/chrome/privacy/whitepaper.html#malware)
+- 계정 자격 증명 손실 시 더 엄격한 복구 절차
 
- If you use non-sandboxed Google Play Services (common on stock operating systems), the Advanced Protection Program also comes with [additional benefits](https://support.google.com/accounts/answer/9764949?hl=en) such as:
+ Google Play에 샌드박스가 적용되지 않은 환경의 경우(기본 운영 체제는 대부분 이 경우입니다), 고급 보호 프로그램은 다음과 같은 [추가 이점](https://support.google.com/accounts/answer/9764949?hl=ko)을 제공합니다.
 
-- Not allowing app installation outside of the Google Play Store, the OS vendor's app store, or via [`adb`](https://en.wikipedia.org/wiki/Android_Debug_Bridge)
-- Mandatory automatic device scanning with [Play Protect](https://support.google.com/googleplay/answer/2812853?hl=en#zippy=%2Chow-malware-protection-works%2Chow-privacy-alerts-work)
-- Warning you about unverified applications
+- Google Play 스토어, OS 공급 업체 앱 스토어, [`adb`](https://en.wikipedia.org/wiki/Android_Debug_Bridge) 외 경로의 앱 설치 비허용
+- [Play 프로텍트](https://support.google.com/googleplay/answer/2812853?hl=ko#zippy=%2Chow-malware-protection-works%2Chow-privacy-alerts-work%2C%EA%B0%9C%EC%9D%B8%EC%A0%95%EB%B3%B4-%EB%B3%B4%ED%98%B8-%EC%95%8C%EB%A6%BC-%EC%9E%91%EB%8F%99-%EB%B0%A9%EC%8B%9D)에 의한 필수적인 자동 기기 스캔
+- 검증되지 않은 애플리케이션에 대한 경고 표시
 
 ### Google Play 시스템 업데이트
 
@@ -153,17 +153,17 @@ The Advanced Protection Program provides enhanced threat monitoring and enables:
 
 Google Play 서비스가 설치된 모든 기기는 타겟 광고에 사용되는 [광고 ID](https://support.google.com/googleplay/android-developer/answer/6048248?hl=ko)가 자동으로 생성됩니다. 이 기능을 비활성화하여 수집되는 데이터를 제한할 수 있습니다.
 
-On Android distributions with [Sandboxed Google Play](https://grapheneos.org/usage#sandboxed-google-play), go to :gear: **Settings** → **Apps** → **Sandboxed Google Play** → **Google Settings** → **Ads**, and select *Delete advertising ID*.
+[Sandboxed Google Play](https://grapheneos.org/usage#sandboxed-google-play)가 존재하는 Android 배포판의 경우, :gear: **Settings** → **Apps** → **Sandboxed Google Play** → **Google Settings** → **Ads**, *Delete advertising ID*를 선택하세요.
 
-On Android distributions with privileged Google Play Services (such as stock OSes), the setting may be in one of several locations. Check
+기본 OS 상태의 기기의 경우(Google Play 서비스가 시스템에 통합된 Android 배포판의 경우), 설정 옵션의 위치는 기기마다 다를 수 있습니다. 확인해보세요.
 
 - :gear: **설정** → **Google** → **광고**
 - :gear: **설정** → **개인정보 보호** → **광고**
 
-You will either be given the option to delete your advertising ID or to *Opt out of interest-based ads*, this varies between OEM distributions of Android. If presented with the option to delete the advertising ID that is preferred. If not, then make sure to opt out and reset your advertising ID.
+여러분이 사용하시는 Android OEM 배포판에 따라, 광고 ID를 삭제하거나 *관심 분야 기반 광고 동의를 거부*하실 수 있습니다. 광고 ID 삭제가 가능한 경우가 더 이상적입니다. 불가능한 경우에는 동의를 거부하고 광고 ID를 재설정하세요.
 
 ### SafetyNet, Play Integrity API
 
 [SafetyNet](https://developer.android.com/training/safetynet/attestation?hl=ko), [Play Integrity API](https://developer.android.com/google/play/integrity?hl=ko)는 일반적으로 [뱅킹 앱](https://grapheneos.org/usage#banking-apps)에서 사용됩니다. 대부분의 뱅킹 앱은 샌드박스가 적용된 Play 서비스를 통해 GrapheneOS에서 정상적으로 작동하지만, 자체적으로 조잡한 변조 방지 메커니즘을 사용하는 일부 비금융 앱은 제대로 작동하지 않을 수 있습니다. GrapheneOS는 `basicIntegrity`(관대한 기기 무결성) 검사를 통과했지만, `ctsProfileMatch`(엄격한 기기 무결성) 인증 검사는 통과하지 못했습니다. Android 8 이상의 기기는 키 유출이나 심각한 취약점이 발생하지 않고서는 우회 불가능한 하드웨어 증명이 지원됩니다.
 
-As for Google Wallet, we don't recommend this due to their [privacy policy](https://payments.google.com/payments/apis-secure/get_legal_document?ldo=0&ldt=privacynotice&ldl=en), which states you must opt-out if you don't want your credit rating and personal information shared with affiliate marketing services.
+Google Wallet의 경우, [프라이버시 정책](https://payments.google.com/payments/apis-secure/get_legal_document?ldo=0&ldt=privacynotice&ldl=en)을 이유로 사용을 권장드리지 않습니다. Google Wallet 직접 동의 사항을 찾아서 거부하지 않는 이상 기본적으로 신용 등급 및 개인 정보를 제휴 마케팅 서비스와 공유합니다.

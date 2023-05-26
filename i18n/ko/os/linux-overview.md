@@ -1,5 +1,5 @@
 ---
-title: Linux Overview
+title: Linux 개요
 icon: simple/linux
 description: Linux is an open-source, privacy-focused desktop operating system alternative, but not all distribitions are created equal.
 ---

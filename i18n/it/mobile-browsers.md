@@ -1,7 +1,7 @@
 ---
 meta_title: "Browser Web che rispettano la privacy per Android e iOS - Privacy Guides"
 title: "Browser mobile"
-icon: octicons/device-mobile-16
+icon: material/cellphone-information
 description: Questi browser sono quelli che attualmente consigliamo per la navigazione Internet standard/non anonima sul tuo telefono.
 cover: mobile-browsers.png
 schema:
@@ -59,7 +59,7 @@ Per Android, Firefox è meno sicuro delle alternative basate su Chromium: il mot
     [:octicons-info-16:](https://support.brave.com/){ .card-link title=Documentazione}
     [:octicons-code-16:](https://github.com/brave/brave-browser){ .card-link title="Codice sorgente" }
     
-    ??? downloads annotate
+    ??? downloads annotate "Scaricare"
     
         - [:simple-googleplay: Google Play](https://play.google.com/store/apps/details?id=com.brave.browser)
         - [:simple-github: GitHub](https://github.com/brave/brave-browser/releases)
@@ -197,7 +197,7 @@ Se usi iCloud con la Protezione avanzata dei dati, consigliamo anche di controll
     [:octicons-info-16:](https://kb.adguard.com/ios){ .card-link title=Documentazione}
     [:octicons-code-16:](https://github.com/AdguardTeam/AdguardForiOS){ .card-link title="Codice sorgente" }
     
-    ??? download
+    ??? download "Scaricare"
     
         - [:simple-appstore: App Store](https://apps.apple.com/app/apple-store/id1047223162)
 
@@ -207,7 +207,7 @@ Liste di filtri aggiuntive possono intaccare le prestazioni ed aumentare la supe
 
 **Si noti che non siamo affiliati a nessuno dei progetti che consigliamo.** Oltre a [i nostri criteri standard](about/criteria.md), abbiamo sviluppato una chiara serie di requisiti che ci permettono di fornire raccomandazioni obiettive. Ti consigliamo di familiarizzare con questo elenco prima di scegliere di utilizzare un progetto e condurre le tue ricerche per assicurarti che sia la scelta giusta per te.
 
-!!! esempio "Questa sezione è nuova"
+!!! example "Questa sezione è nuova"
 
     Stiamo lavorando per stabilire criteri definiti per ogni sezione del nostro sito, e questo potrebbe essere soggetto a modifiche. Se hai domande sui nostri criteri, [chiedi sul nostro forum](https://discuss.privacyguides.net/latest) e non dare per scontato che non abbiamo preso in considerazione qualcosa quando formuliamo i nostri consigli se non è elencato qui. Sono molti i fattori presi in considerazione e discussi quando raccomandiamo un progetto e documentare ogni singolo fattore è un lavoro in corso.
 

@@ -292,7 +292,7 @@ Funzionalità gratuite degne di nota:
     [:octicons-info-16:](https://simplelogin.io/docs/){ .card-link title=Documentazione}
     [:octicons-code-16:](https://github.com/simple-login){ .card-link title="Codice sorgente" }
     
-    ??? download
+    ??? download "Scaricare"
     
         - [:simple-googleplay: Google Play](https://play.google.com/store/apps/details?id=io.simplelogin.android)
         - [:simple-appstore: App Store](https://apps.apple.com/app/id1494359858)

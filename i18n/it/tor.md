@@ -55,7 +55,7 @@ Esistono diversi modi per connettersi alla rete Tor dal proprio dispositivo, il 
     [:octicons-code-16:](https://gitweb.torproject.org/tor-browser.git/){ .card-link title="Codice sorgente" }
     [:octicons-heart-16:](https://donate.torproject.org/){ .card-link title=Contribuisci }
     
-    ??? download
+    ??? download "Scaricare"
     
         - [:simple-googleplay: Google Play](https://play.google.com/store/apps/details?id=org.torproject.torbrowser)
         - [:simple-android: Android](https://www.torproject.org/download/#android)
@@ -63,7 +63,7 @@ Esistono diversi modi per connettersi alla rete Tor dal proprio dispositivo, il 
         - [:simple-apple: macOS](https://www.torproject.org/download/)
         - [:simple-linux: Linux](https://www.torproject.org/download/)
 
-!!! attenzione
+!!! danger "Attenzione"
 
     Non si devono **mai** installare estensioni aggiuntive su Tor Browser o modificare le impostazioni `about:config`, comprese quelle suggerite per Firefox. Le estensioni del browser e impostazioni non standard ti rendono distinguibile dagli altri utenti della rete Tor, aumentando così il [fingerprint](https://support.torproject.org/glossary/browser-fingerprinting) del tuo browser.
 
@@ -83,7 +83,7 @@ Tor Browser è progettato per evitare il fingerprinting o l'identificazione dell
     [:octicons-code-16:](https://orbot.app/code){ .card-link title="Codice sorgente" }
     [:octicons-heart-16:](https://orbot.app/donate){ .card-link title=Contribuisci }
     
-    ??? download
+    ??? download "Scaricare"
     
         - [:simple-googleplay: Google Play](https://play.google.com/store/apps/details?id=org.torproject.android)
         - [:simple-appstore: App Store](https://apps.apple.com/us/app/orbot/id1609461599)

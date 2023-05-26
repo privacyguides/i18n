@@ -157,7 +157,7 @@ Ces fournisseurs stockent vos emails avec un chiffrement à connaissance zéro, 
 
 <div class="grid cards" markdown>
 
-- ![Tutanota logo](assets/img/email/tutanota.svg){ .twemoji } [Tutanota](email.md#tutanota)
+- ![Logo Tutanota](assets/img/email/tutanota.svg){ .twemoji } [Tutanota](email.md#tutanota)
 
 </div>
 
