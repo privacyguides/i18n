@@ -36,7 +36,7 @@ BurungHantu와 연락이 불가능한 상태에서, 팀은 기존 도메인 통�
 
 2021년 말, 저희는 PrivacyTools 커뮤니티에서 새로운 이름을 고르고, 2022년 8월 2일부터 [선정된](https://web.archive.org/web/20210729190935/https://aragon.cloud/apps/forms/cMPxG9KyopapBbcw) 새 도메인에서 프로젝트를 이어나갈 의향을 [알렸습니다](https://web.archive.org/web/20210729184422/https://blog.privacytools.io/the-future-of-privacytools/). 결과적으로 'Privacy Guides'가 선정됐고, Jonah가 2020년에 시작했지만 개발이 진행되지 않은 사이드 프로젝트에 사용하기 위해 소유하고 있던 `privacyguides.org` 도메인을 사용하기로 했습니다.
 
-## Control of r/privacytoolsIO
+## r/privacytoolsIO 운영 권한
 
 privacytools.io 웹사이트 문제가 계속되는 동시에, 레딧의 r/privacytoolsIO 서브레딧(게시판) 운영팀은 관리에 어려움을 겪고 있었습니다. 서브레딧 운영은 웹사이트 개발과는 독립적으로 이루어졌지만, BurungHantu는 서브레딧의 주 관리자이기도 했으며 '모든 권한'을 가진 유일한 관리자였습니다. 2021년 6월 28일, 당시 유일하게 활동하던 관리자인 u/trai_dep은 레딧 운영자에게 서브레딧 운영에 필요한 주 관리자 지위와 모든 권한을 요청하는 [게시글을](https://www.reddit.com/r/redditrequest/comments/o9tllh/requesting_rprivacytoolsio_im_only_active_mod_top/) 작성했습니다.
 

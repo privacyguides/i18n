@@ -1,50 +1,50 @@
 ---
-title: Supporting Us
+title: 후원하기
 ---
 
 <!-- markdownlint-disable MD036 -->
-It takes a lot of [people](https://github.com/privacyguides/privacyguides.org/graphs/contributors) and [work](https://github.com/privacyguides/privacyguides.org/pulse/monthly) to keep Privacy Guides up to date and spreading the word about privacy and mass surveillance. If you like what we do, consider getting involved by [editing the site](https://github.com/privacyguides/privacyguides.org) or [contributing translations](https://crowdin.com/project/privacyguides).
+Privacy Guides를 지속적으로 업데이트하고, 디지털 프라이버시의 가치와 대규모 감시를 보다 널리 알리기 위해서는 많은 [사람들](https://github.com/privacyguides/privacyguides.org/graphs/contributors)의 [노력](https://github.com/privacyguides/privacyguides.org/pulse/monthly)이 필요합니다. If you like what we do, consider getting involved by [editing the site](https://github.com/privacyguides/privacyguides.org) or [contributing translations](https://crowdin.com/project/privacyguides).
 
-If you want to support us financially, the most convenient method for us is contributing via Open Collective, a website operated by our fiscal host. Open Collective accepts payments via credit/debit card, PayPal, and bank transfers.
+Privacy Guides를 재정적으로 후원하고 싶으시다면 Privacy Guides의 재정 호스트(Fiscal Host)인 Open Collective를 통해 후원하시는 것이 가장 편리한 방법입니다. Open Collective는 신용카드/체크카드, PayPal, 은행 송금을 통한 결제를 지원합니다.
 
-[Donate on OpenCollective.com](https://opencollective.com/privacyguides/donate){ class="md-button md-button--primary" }
+[OpenCollective.com에서 후원하기](https://opencollective.com/privacyguides/donate){ class="md-button md-button--primary" }
 
-Donations made directly to us on Open Collective are generally tax-deductible in the US, because our fiscal host (the Open Collective Foundation) is a registered 501(c)3 organization. You will receive a receipt from the Open Collective Foundation after donating. Privacy Guides does not provide financial advice, and you should contact your tax advisor to find out whether this is applicable to you.
+재정 호스트인 Open Collective 재단이 501(c)3 단체로 등록되어 있기 때문에(역주: 501(c)3는 비영리/공공 자선 등의 목적으로 운영되는 기금/재정 단체 등에는 세금을 면제해주는 미국 세법 조항을 의미함), Open Collective에서 Privacy Guides로 직접 후원하신 후원금은 보통 미국 내에서 세금 공제 대상입니다. 후원하신 후에 Open Collective 재단으로부터 영수증을 받게 되실 겁니다. Privacy Guides에서는 재정적인 자문을 제공하지 않으므로, 여러분에게 해당되는지 여부는 세무사에게 문의하셔야 합니다.
 
-If you already make use of GitHub sponsorships, you can also sponsor our organization there.
+GitHub Sponsor 후원자 기능을 이미 사용하고 계신다면 해당 기능으로도 Privacy Guides를 후원하실 수 있습니다.
 
-[Sponsor us on GitHub](https://github.com/sponsors/privacyguides ""){.md-button}
+[GitHub에서 Sponsor 후원하기](https://github.com/sponsors/privacyguides ""){.md-button}
 
-## Backers
+## 후원자
 
-A special thanks to all those who support our mission! :heart:
+Privacy Guides와 함께해 주시는 모든 분들에게 정말 감사드립니다! :heart:
 
-*Please note: This section loads a widget directly from Open Collective. This section does not reflect donations made outside of Open Collective, and we have no control over the specific donors featured in this section.*
+*참고: 이 단락은 Open Collective에서 직접 위젯을 불러옵니다. Open Collective 외부에서 이루어진 후원은 반영되지 않으며, 저희는 이 단락에 소개된 특정 후원자에 대한 통제권이 없습니다.*
 
 <script src="https://opencollective.com/privacyguides/banner.js"></script>
 
-## How We Use Donations
+## 후원금 사용 내역
 
-Privacy Guides is a **non-profit** organization. We use donations for a variety of purposes, including:
+Privacy Guides는 **비영리** 단체입니다. Privacy Guides는 후원금을 다음과 같은 용도로 사용합니다.
 
-**Domain Registrations**
+**도메인 등록**
 :
 
-We have a few domain names like `privacyguides.org` which cost us around $10 yearly to maintain their registration.
+Privacy Guides는 `privacyguides.org`를 비롯한 몇 가지 도메인을 보유하고 있습니다. 도메인 등록 유지 비용은 연간 약 10달러 정도입니다.
 
-**Web Hosting**
+**웹 호스팅**
 :
 
-Traffic to this website uses hundreds of gigabytes of data per month, we use a variety of service providers to keep up with this traffic.
+본 사이트는 매달 수백 기가바이트의 트래픽이 발생합니다. Privacy Guides는 사이트 트래픽을 처리하기 위해 다양한 서비스 제공 업체를 이용합니다.
 
-**Online Services**
+**온라인 서비스**
 :
 
 We host [internet services](https://privacyguides.net) for testing and showcasing different privacy-products we like and [recommend](../tools.md). Some of which are made publicly available for our community's use (SearXNG, Tor, etc.), and some are provided for our team members (email, etc.).
 
-**Product Purchases**
+**제품 구매**
 :
 
-We occasionally purchase products and services for the purposes of testing our [recommended tools](../tools.md).
+Privacy Guides는 때때로 [권장 목록](../tools.md)의 서비스나 툴을 테스트하기 위한 목적으로 제품을 구매합니다.
 
-We are still working with our fiscal host (the Open Collective Foundation) to receive cryptocurrency donations, at the moment the accounting is unfeasible for many smaller transactions, but this should change in the future. In the meantime, if you wish to make a sizable (> $100) cryptocurrency donation, please reach out to [jonah@privacyguides.org](mailto:jonah@privacyguides.org).
+암호화폐 후원의 경우, 현재로서는 다량의 소액 결제에 대해 회계 처리가 불가능하기 때문에 재정 호스트(Open Collective 재단)와 협력하고 있지만 향후에는 변경될 예정입니다. 그동안 상당한 금액($100 이상)의 암호화폐를 기부하시려는 경우, [jonah@privacyguides.org](mailto:jonah@privacyguides.org)로 문의해 주시기 바랍니다.
