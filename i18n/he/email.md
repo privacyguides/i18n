@@ -157,7 +157,7 @@ Mailbox.org כולל תכונת מורשת דיגיטלית לכל התוכני�
 
 <div class="grid cards" markdown>
 
-- ![Tutanota logo](assets/img/email/tutanota.svg){ .twemoji } [Tutanota](email.md#tutanota)
+- ![Tutanota לוגו](assets/img/email/tutanota.svg){ .twemoji } [Tutanota](email.md#tutanota)
 
 </div>
 

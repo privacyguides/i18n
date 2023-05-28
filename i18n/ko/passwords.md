@@ -1,5 +1,5 @@
 ---
-meta_title: "The Best Password Managers to Protect Your Privacy and Security - Privacy Guides"
+meta_title: "프라이버시 및 보안을 지키기에 가장 적합한 비밀번호 관리자 - Privacy Guides"
 title: "비밀번호 관리자"
 icon: material/form-textbox-password
 description: 비밀번호 관리자를 사용하여 비밀번호를 비롯한 기타 자격 증명을 안전하게 저장 및 관리할 수 있습니다.
@@ -120,7 +120,7 @@ schema:
 
 비밀번호 관리자를 사용하여, 비밀번호를 비롯한 기타 자격 증명을 마스터 비밀번호로 안전하게 저장 및 관리할 수 있습니다.
 
-[Introduction to Passwords :material-arrow-right-drop-circle:](./basics/passwords-overview.md)
+[비밀번호 입문 :material-arrow-right-drop-circle:](./basics/passwords-overview.md)
 
 !!! info "정보"
 
@@ -249,9 +249,9 @@ Psono는 제품에 관련된 문서를 매우 폭넓게 제공합니다. Psono �
 
 !!! recommendation
 
-    ![KeePassXC logo](assets/img/password-management/keepassxc.svg){ align=right }
+    ![KeePassXC 로고](assets/img/password-management/keepassxc.svg){ align=right }
     
-    **KeePassXC** is a community fork of KeePassX, a native cross-platform port of KeePass Password Safe, with the goal to extend and improve it with new features and bugfixes to provide a feature-rich, cross-platform and modern open-source password manager.
+    **KeePassXC**는 KeePassX(KeePass Password Safe를 네이티브 크로스 플랫폼으로 포팅한 프로젝트)를 커뮤니티에서 포크한 프로젝트입니다. 새로운 기능 추가와 버그 수정을 통해 확장 및 개선하여, 풍부한 기능을 갖추고 크로스 플랫폼을 지원하는 최신 오픈 소스 비밀번호 관리자를 제공하는 것이 목표입니다.
     
     [:octicons-home-16: 홈페이지](https://keepassxc.org){ .md-button .md-button--primary }
     [:octicons-eye-16:](https://keepassxc.org/privacy){ .card-link title="프라이버시 정책" }
@@ -268,15 +268,15 @@ Psono는 제품에 관련된 문서를 매우 폭넓게 제공합니다. Psono �
         - [:simple-firefoxbrowser: Firefox](https://addons.mozilla.org/firefox/addon/keepassxc-browser)
         - [:simple-googlechrome: Chrome](https://chrome.google.com/webstore/detail/keepassxc-browser/oboonakemofpalcgghocfoadofidjkkk)
 
-KeePassXC stores its export data as [CSV](https://en.wikipedia.org/wiki/Comma-separated_values) files. 즉, 해당 파일을 다른 비밀번호 관리자로 불러올 경우 데이터 손실이 발생할 수 있습니다. 각 데이터 항목을 수동으로 확인해보는 것이 좋습니다.
+KeePassXC는 데이터 내보내기 시 [CSV](https://en.wikipedia.org/wiki/Comma-separated_values) 파일로 저장합니다. 즉, 해당 파일을 다른 비밀번호 관리자로 불러올 경우 데이터 손실이 발생할 수 있습니다. 각 데이터 항목을 수동으로 확인해보는 것이 좋습니다.
 
 ### KeePassDX (Android)
 
 !!! recommendation
 
-    ![KeePassDX logo](assets/img/password-management/keepassdx.svg){ align=right }
+    ![KeePassDX 로고](assets/img/password-management/keepassdx.svg){ align=right }
     
-    **KeePassDX** is a lightweight password manager for Android, allows editing encrypted data in a single file in KeePass format and can fill in the forms in a secure way. [Contributor Pro](https://play.google.com/store/apps/details?id=com.kunzisoft.keepass.pro) allows unlocking cosmetic content and non-standard protocol features, but more importantly, it helps and encourages development.
+    **KeePassDX**는 Android용 가벼운 비밀번호 관리자입니다. 암호화된 데이터를 KeePass 형식 단일 파일로 편집할 수 있으며, 안전한 방식으로 입력 항목을 채울 수 있습니다. [Contributor Pro](https://play.google.com/store/apps/details?id=com.kunzisoft.keepass.pro)를 결제하면 프로젝트 개발에 큰 도움을 주는 동시에, 추가 디자인 테마 및 비표준 프로토콜 기능을 사용할 수 있습니다.
     
     [:octicons-home-16: 홈페이지](https://www.keepassdx.com){ .md-button .md-button--primary }
     [:octicons-info-16:](https://github.com/Kunzisoft/KeePassDX/wiki){ .card-link title=문서}

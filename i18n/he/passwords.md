@@ -177,9 +177,9 @@ Bitwarden כולל גם [Bitwarden Send](https://bitwarden.com/products/send/), 
     
     **1Password** הוא מנהל סיסמאות עם דגש חזק על אבטחה וקלות שימוש, המאפשר לך לאחסן סיסמאות, כרטיסי אשראי, רישיונות תוכנה וכל מידע רגיש אחר בכספת דיגיטלית מאובטחת. הכספת שלכם מתארחת בשרתים של 1Password תמורת [תשלום חודשי](https://1password.com/sign-up/). 1Password [מבוקרת](https://support.1password.com/security-assessments/) על בסיס קבוע ומספקת תמיכת לקוחות יוצאת דופן. 1Password הוא מקור סגור; עם זאת, האבטחה של המוצר מתועדת ביסודיות ב[מסמך האבטחה הלבן](https://1passwordstatic.com/files/security/1password-white-paper.pdf) שלהם.
     
-    [:octicons-home-16: Homepage](https://1password.com/){ .md-button .md-button--primary }
-    [:octicons-eye-16:](https://1password.com/legal/privacy/){ .card-link title="Privacy Policy" }
-    [:octicons-info-16:](https://support.1password.com/){ .card-link title=Documentation}
+    [:octicons-home-16: דף הבית](https://1password.com/){ .md-button .md-button--primary }
+    [:octicons-eye-16:](https://1password.com/legal/privacy/){ .card-link title="מדיניות פרטיות" }
+    [:octicons-info-16:](https://support.1password.com/){ .card-link title=תיעוד}
     
     ??? downloads "הורדות"
     

@@ -3,7 +3,7 @@ title: 후원하기
 ---
 
 <!-- markdownlint-disable MD036 -->
-Privacy Guides를 지속적으로 업데이트하고, 디지털 프라이버시의 가치와 대규모 감시를 보다 널리 알리기 위해서는 많은 [사람들](https://github.com/privacyguides/privacyguides.org/graphs/contributors)의 [노력](https://github.com/privacyguides/privacyguides.org/pulse/monthly)이 필요합니다. If you like what we do, consider getting involved by [editing the site](https://github.com/privacyguides/privacyguides.org) or [contributing translations](https://crowdin.com/project/privacyguides).
+Privacy Guides를 지속적으로 업데이트하고, 디지털 프라이버시의 가치와 대규모 감시를 보다 널리 알리기 위해서는 많은 [사람들](https://github.com/privacyguides/privacyguides.org/graphs/contributors)의 [노력](https://github.com/privacyguides/privacyguides.org/pulse/monthly)이 필요합니다. 저희의 노력을 응원하신다면 [사이트 편집 기여](https://github.com/privacyguides/privacyguides.org) 혹은 [번역 기여](https://crowdin.com/project/privacyguides)에 참여해보세요.
 
 Privacy Guides를 재정적으로 후원하고 싶으시다면 Privacy Guides의 재정 호스트(Fiscal Host)인 Open Collective를 통해 후원하시는 것이 가장 편리한 방법입니다. Open Collective는 신용카드/체크카드, PayPal, 은행 송금을 통한 결제를 지원합니다.
 
@@ -40,7 +40,7 @@ Privacy Guides는 `privacyguides.org`를 비롯한 몇 가지 도메인을 보�
 **온라인 서비스**
 :
 
-We host [internet services](https://privacyguides.net) for testing and showcasing different privacy-products we like and [recommend](../tools.md). Some of which are made publicly available for our community's use (SearXNG, Tor, etc.), and some are provided for our team members (email, etc.).
+Privacy Guides는 여러 [서비스](https://privacyguides.net)를 호스팅하여 저희가 [추천하고 있는](../tools.md) 다양한 프라이버시 제품을 테스트 및 시연하고 있습니다. SearXNG, Tor 등의 일부는 커뮤니티에서 사용 가능하도록 공개적으로 제공되며, 이메일 등의 일부는 팀원에게만 제공됩니다.
 
 **제품 구매**
 :

@@ -1,10 +1,10 @@
 ---
-title: Uploading Images
+title: 이미지 업로드
 ---
 
-Here are a couple of general rules for contributing to Privacy Guides:
+본 내용은 Privacy Guides에 기여할 때 주의해야 하는 규정입니다.
 
-## Images
+## 이미지
 
 - We **prefer** SVG images, but if those do not exist we can use PNG images
 
@@ -13,11 +13,11 @@ Company logos have canvas size of:
 - 128x128px
 - 384x128px
 
-## Optimization
+## 최적화
 
 ### PNG
 
-Use the [OptiPNG](https://sourceforge.net/projects/optipng/) to optimize the PNG image:
+PNG 이미지는 [OptiPNG](https://sourceforge.net/projects/optipng/)를 이용해 최적화하세요.
 
 ```bash
 optipng -o7 file.png

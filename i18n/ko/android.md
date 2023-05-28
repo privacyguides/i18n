@@ -81,23 +81,23 @@ schema:
 
 ![Android 로고](assets/img/android/android.svg){ align=right }
 
-The **Android Open Source Project** is an open-source mobile operating system led by Google which powers the majority of the world's mobile devices. Most phones sold with Android are modified to include invasive integrations and apps such as Google Play Services, so you can significantly improve your privacy on your mobile device by replacing your phone's default installation with a version of Android without these invasive features.
+**Android 오픈소스 프로젝트**는 Google이 주도하는 오픈 소스 모바일 운영 체제로, 전 세계 모바일 기기의 대부분이 사용하고 있습니다. Android가 탑재되어 판매되는 대부분의 휴대폰은 Google Play 서비스 등의 여러 앱이 강력하게 통합되어 있습니다. 이러한 프라이버시 침해 기능이 포함되지 않은 Android 버전으로 모바일 기기 운영 체제를 교체하여 프라이버시를 크게 향상시킬 수 있습니다.
 
-[:octicons-home-16:](https://source.android.com/){ .card-link title=Homepage }
-[:octicons-info-16:](https://source.android.com/docs){ .card-link title=Documentation}
-[:octicons-code-16:](https://cs.android.com/android/platform/superproject/){ .card-link title="Source Code" }
+[:octicons-home-16:](https://source.android.com/){ .card-link title=홈페이지 }
+[:octicons-info-16:](https://source.android.com/docs){ .card-link title=문서}
+[:octicons-code-16:](https://cs.android.com/android/platform/superproject/){ .card-link title="소스 코드" }
 
-These are the Android operating systems, devices, and apps we recommend to maximize your mobile device's security and privacy. To learn more about Android:
+본 내용은 모바일 기기의 보안 및 프라이버시 보호를 극대화하는 용도로 권장드리는 Android 운영 체제, 기기, 애플리케이션 목록입니다. Android 자체에 대한 내용은 Android 기본 개요를 참고해주세요.
 
 [Android 기본 개요 :material-arrow-right-drop-circle:](os/android-overview.md ""){.md-button}
 
 ## AOSP 기반
 
-We recommend installing one of these custom Android operating systems on your device, listed in order of preference, depending on your device's compatibility with these operating systems.
+Privacy Guides에서 권장하는 커스텀 Android 운영 체제의 우선 순위는 본 페이지에 나열된 순서와 동일합니다. 여러분이 가진 기기 호환성에 따라 적절한 운영 체제를 선택하시는 것을 권장드립니다.
 
 !!! note "참고"
 
-    End-of-life devices (such as GrapheneOS or CalyxOS's "extended support" devices) do not have full security patches (firmware updates) due to the OEM discontinuing support. These devices cannot be considered completely secure regardless of installed software.
+    지원 종료 기기(GrapheneOS, CalyxOS에서 '연장 지원'에 해당하는 기기)의 경우, OEM 지원 중단으로 인해 전체 보안 패치(펌웨어 업데이트)를 제공받을 수 없습니다. 지원 종료 기기는 그 어떤 소프트웨어를 설치하더라도 완벽히 안전하다고 간주할 수 없습니다.
 
 ### GrapheneOS
 
@@ -108,7 +108,7 @@ We recommend installing one of these custom Android operating systems on your de
     
     **GrapheneOS**는 프라이버시 및 보안 면에서 최고의 선택입니다.
     
-    GraphneOS는 추가적인 [보안 강화(Security Hardening)](https://en.wikipedia.org/wiki/Hardening_(computing))와 프라이버시 강화 기능을 제공합니다. It has a [hardened memory allocator](https://github.com/GrapheneOS/hardened_malloc), network and sensor permissions, and various other [security features](https://grapheneos.org/features). GrapheneOS also comes with full firmware updates and signed builds, so verified boot is fully supported.
+    GraphneOS는 추가적인 [보안 강화](https://en.wikipedia.org/wiki/Hardening_(computing))와 프라이버시 강화 기능을 제공합니다. [메모리 할당 보안 강화](https://github.com/GrapheneOS/hardened_malloc), 네트워크 및 센서 권한 등 다양한 [보안 기능](https://grapheneos.org/features)을 포함하고 있습니다. GrapheneOS는 전체 펌웨어 업데이트 및 서명된 빌드 또한 제공하므로, 자체 검사 부팅을 완벽하게 지원합니다.
     
     [:octicons-home-16: 홈페이지](https://grapheneos.org/){ .md-button .md-button--primary }
     [:octicons-eye-16:](https://grapheneos.org/faq#privacy-policy){ .card-link title="프라이버시 정책" }
@@ -116,9 +116,9 @@ We recommend installing one of these custom Android operating systems on your de
     [:octicons-code-16:](https://grapheneos.org/source){ .card-link title="소스 코드" }
     [:octicons-heart-16:](https://grapheneos.org/donate){ .card-link title=기부 }
 
-GrapheneOS supports [Sandboxed Google Play](https://grapheneos.org/usage#sandboxed-google-play), which runs [Google Play Services](https://en.wikipedia.org/wiki/Google_Play_Services) fully sandboxed like any other regular app. This means you can take advantage of most Google Play Services, such as [push notifications](https://firebase.google.com/docs/cloud-messaging/), while giving you full control over their permissions and access, and while containing them to a specific [work profile](os/android-overview.md#work-profile) or [user profile](os/android-overview.md#user-profiles) of your choice.
+GrapheneOS는 [Sandboxed Google Play](https://grapheneos.org/usage#sandboxed-google-play) 지원하여, [Google Play 서비스](https://en.wikipedia.org/wiki/Google_Play_Services)를 여타 일반 앱처럼 완벽하게 샌드박스를 적용하여 실행할 수 있습니다. 즉, 원하는 특정 [직장 프로필](os/android-overview.md#work-profile)이나 [사용자 프로필](os/android-overview.md#user-profiles)에 추가하여, [푸시 알림](https://firebase.google.com/docs/cloud-messaging/) 등 대부분의 Google Play 서비스를 이용하면서도 권한 및 접근 영역을 완전히 제어할 수 있습니다.
 
-Google Pixel 스마트폰은 현재 GpapheneOS [하드웨어 보안 요구 사항](https://grapheneos.org/faq#device-support)을 충족하는 유일한 기기입니다.
+Google Pixel 스마트폰은 현재 GrapheneOS [하드웨어 보안 요구 사항](https://grapheneos.org/faq#device-support)을 충족하는 유일한 기기입니다.
 
 [CalyxOS보다 GrapheneOS를 추천하는 이유 :material-arrow-right-drop-circle:](https://blog.privacyguides.org/2022/04/21/grapheneos-or-calyxos/ ""){.md-button}
 
@@ -199,11 +199,11 @@ We recommend a wide variety of Android apps throughout this site. The apps liste
 
 !!! recommendation
 
-    ![Shelter logo](assets/img/android/shelter.svg){ align=right }
+    ![Shelter 로고](assets/img/android/shelter.svg){ align=right }
     
-    **Shelter** is an app that helps you leverage Android's Work Profile functionality to isolate or duplicate apps on your device.
+    **Shelter**는 Android의 직장 프로필 기능을 이용해 기기에서 앱을 격리/복제할 수 있게 해주는 앱입니다.
     
-    Shelter supports blocking contact search cross profiles and sharing files across profiles via the default file manager ([DocumentsUI](https://source.android.com/devices/architecture/modular-system/documentsui)).
+    Shelter는 기본 파일 관리자([DocumentsUI](https://source.android.com/docs/core/architecture/modular-system/documentsui?hl=ko))를 통해 프로필 간 연락처 검색 차단 및 프로필 간 파일 공유를 지원합니다.
     
     [:octicons-repo-16: 저장소](https://gitea.angry.im/PeterCxy/Shelter#shelter){ .md-button .md-button--primary }
     [:octicons-code-16:](https://gitea.angry.im/PeterCxy/Shelter){ .card-link title="소스 코드" }
@@ -291,11 +291,11 @@ If your [threat model](basics/threat-modeling.md) requires privacy, you could co
     
     [Content-Security-Policy](https://en.wikipedia.org/wiki/Content_Security_Policy) is used to enforce that the JavaScript and styling properties within the WebView are entirely static content.
     
-    [:octicons-repo-16: Repository](https://github.com/GrapheneOS/PdfViewer){ .md-button .md-button--primary }
-    [:octicons-code-16:](https://github.com/GrapheneOS/PdfViewer){ .card-link title="Source Code" }
-    [:octicons-heart-16:](https://grapheneos.org/donate){ .card-link title=Contribute }
+    [:octicons-repo-16: 저장소](https://github.com/GrapheneOS/PdfViewer){ .md-button .md-button--primary }
+    [:octicons-code-16:](https://github.com/GrapheneOS/PdfViewer){ .card-link title="소스 코드" }
+    [:octicons-heart-16:](https://grapheneos.org/donate){ .card-link title=기부 }
     
-    ??? downloads
+    ??? downloads "다운로드"
     
         - [:simple-googleplay: Google Play](https://play.google.com/store/apps/details?id=app.grapheneos.pdfviewer.play)
         - [:simple-github: GitHub](https://github.com/GrapheneOS/PdfViewer/releases)

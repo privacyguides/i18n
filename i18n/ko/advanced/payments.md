@@ -51,7 +51,7 @@ Cryptocurrencies are a digital form of currency designed to work without central
     
     Additionally, many if not most cryptocurrencies are scams. Make transactions carefully with only projects you trust.
 
-### Privacy Coins
+### 프라이버시 코인
 
 There are a number of cryptocurrency projects which purport to provide privacy by making transactions anonymous. We recommend using one which provides transaction anonymity **by default** to avoid operational errors.
 
