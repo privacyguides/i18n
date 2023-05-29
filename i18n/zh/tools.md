@@ -72,60 +72,6 @@ If you want assistance figuring out the best privacy tools and alternative progr
 
 [了解更多 :hero-arrow-circle-right-fill:](mobile-browsers.md#adguard)
 
-## 服务供应商
-
-### Android
-
-<div class="grid cards" markdown>
-
-- ![Neo Store logo](assets/img/android/neo-store.png){ .twemoji } [Neo Store (F-Droid Client)](android.md#neo-store)
-- ![Aurora Store logo](/assets/img/android/aurora-store.webp){ .twemoji } [Aurora Store (Google Play Client)](android.md#aurora-store)
-- ![Shelter logo](assets/img/android/mini/shelter.svg){ .twemoji } [Shelter (Work Profiles)](android.md#shelter)
-- ![Auditor logo](assets/img/android/auditor.svg#only-light){ .twemoji }![GrapheneOS logo](assets/img/android/auditor-dark.svg#only-dark){ .twemoji } [Auditor (Supported Devices)](android.md#auditor)
-- ![Secure Camera logo](assets/img/android/secure_camera.svg#only-light){ .twemoji }![Secure Camera logo](assets/img/android/secure_camera-dark.svg#only-dark){ .twemoji } [Secure Camera](android.md#secure-camera)
-- ![Secure PDF Viewer logo](assets/img/android/secure_pdf_viewer.svg#only-light){ .twemoji }![GrapheneOS logo](assets/img/android/secure_pdf_viewer-dark.svg#only-dark){ .twemoji } [Secure PDF Viewer](android.md#secure-pdf-viewer)
-
-</div>
-
-[了解更多 :hero-arrow-circle-right-fill:](android.md)
-
-#### DNS 供应商
-
-<div class="grid cards" markdown>
-
-- ![Aurora Store logo](assets/img/android/aurora-store.webp){ .twemoji } [Aurora Store (Google Play Client)](android.md#aurora-store)
-- ![Shelter logo](assets/img/android/mini/shelter.svg){ .twemoji } [Shelter (Work Profiles)](android.md#shelter)
-- ![Auditor logo](assets/img/android/auditor.svg#only-light){ .twemoji }![GrapheneOS logo](assets/img/android/auditor-dark.svg#only-dark){ .twemoji } [Auditor (Supported Devices)](android.md#auditor)
-- ![Secure Camera logo](assets/img/android/secure_camera.svg#only-light){ .twemoji }![Secure Camera logo](assets/img/android/secure_camera-dark.svg#only-dark){ .twemoji } [Secure Camera](android.md#secure-camera)
-- ![Secure PDF Viewer logo](assets/img/android/secure_pdf_viewer.svg#only-light){ .twemoji }![GrapheneOS logo](assets/img/android/secure_pdf_viewer-dark.svg#only-dark){ .twemoji } [Secure PDF Viewer](android.md#secure-pdf-viewer)
-
-</div>
-
-[了解更多 :hero-arrow-circle-right-fill:](android.md#general-apps)
-
-### Android 应用
-
-<div class="grid cards" markdown>
-
-- ![OpenWrt logo](assets/img/router/openwrt.svg#only-light){ .twemoji }![OpenWrt logo](assets/img/router/openwrt-dark.svg#only-dark){ .twemoji } [OpenWrt](router.md#openwrt)
-- ![OPNsense logo](assets/img/router/opnsense.svg){ .twemoji } [OPNsense](router.md#opnsense)
-
-</div>
-
-[了解更多 :hero-arrow-circle-right-fill:](desktop.md)
-
-### Router Firmware
-
-<div class="grid cards" markdown>
-
-- ![Cryptee logo](assets/img/cloud/cryptee.svg#only-light){ .twemoji }![Cryptee logo](assets/img/cloud/cryptee-dark.svg#only-dark){ .twemoji } [Cryptee](cloud.md#cryptee)
-- ![Nextcloud logo](assets/img/cloud/nextcloud.svg){ .twemoji } [Nextcloud (Self-Hostable)](cloud.md#nextcloud)
-- ![Proton Drive logo](assets/img/cloud/protondrive.svg){ .twemoji } [Proton Drive](cloud.md#proton-drive)
-
-</div>
-
-[了解更多 :hero-arrow-circle-right-fill:](router.md)
-
 ## 软件
 
 ### 路由器固件
@@ -476,3 +422,57 @@ We [recommend](dns.md#recommended-providers) a number of encrypted DNS servers b
 </div>
 
 [了解更多 :hero-arrow-circle-right-fill:](video-streaming.md)
+
+## 服务供应商
+
+### Android
+
+<div class="grid cards" markdown>
+
+- ![Neo Store logo](assets/img/android/neo-store.png){ .twemoji } [Neo Store (F-Droid Client)](android.md#neo-store)
+- ![Aurora Store logo](/assets/img/android/aurora-store.webp){ .twemoji } [Aurora Store (Google Play Client)](android.md#aurora-store)
+- ![Shelter logo](assets/img/android/mini/shelter.svg){ .twemoji } [Shelter (Work Profiles)](android.md#shelter)
+- ![Auditor logo](assets/img/android/auditor.svg#only-light){ .twemoji }![GrapheneOS logo](assets/img/android/auditor-dark.svg#only-dark){ .twemoji } [Auditor (Supported Devices)](android.md#auditor)
+- ![Secure Camera logo](assets/img/android/secure_camera.svg#only-light){ .twemoji }![Secure Camera logo](assets/img/android/secure_camera-dark.svg#only-dark){ .twemoji } [Secure Camera](android.md#secure-camera)
+- ![Secure PDF Viewer logo](assets/img/android/secure_pdf_viewer.svg#only-light){ .twemoji }![GrapheneOS logo](assets/img/android/secure_pdf_viewer-dark.svg#only-dark){ .twemoji } [Secure PDF Viewer](android.md#secure-pdf-viewer)
+
+</div>
+
+[了解更多 :hero-arrow-circle-right-fill:](android.md)
+
+#### DNS 供应商
+
+<div class="grid cards" markdown>
+
+- ![Aurora Store logo](assets/img/android/aurora-store.webp){ .twemoji } [Aurora Store (Google Play Client)](android.md#aurora-store)
+- ![Shelter logo](assets/img/android/mini/shelter.svg){ .twemoji } [Shelter (Work Profiles)](android.md#shelter)
+- ![Auditor logo](assets/img/android/auditor.svg#only-light){ .twemoji }![GrapheneOS logo](assets/img/android/auditor-dark.svg#only-dark){ .twemoji } [Auditor (Supported Devices)](android.md#auditor)
+- ![Secure Camera logo](assets/img/android/secure_camera.svg#only-light){ .twemoji }![Secure Camera logo](assets/img/android/secure_camera-dark.svg#only-dark){ .twemoji } [Secure Camera](android.md#secure-camera)
+- ![Secure PDF Viewer logo](assets/img/android/secure_pdf_viewer.svg#only-light){ .twemoji }![GrapheneOS logo](assets/img/android/secure_pdf_viewer-dark.svg#only-dark){ .twemoji } [Secure PDF Viewer](android.md#secure-pdf-viewer)
+
+</div>
+
+[了解更多 :hero-arrow-circle-right-fill:](android.md#general-apps)
+
+### Android 应用
+
+<div class="grid cards" markdown>
+
+- ![OpenWrt logo](assets/img/router/openwrt.svg#only-light){ .twemoji }![OpenWrt logo](assets/img/router/openwrt-dark.svg#only-dark){ .twemoji } [OpenWrt](router.md#openwrt)
+- ![OPNsense logo](assets/img/router/opnsense.svg){ .twemoji } [OPNsense](router.md#opnsense)
+
+</div>
+
+[了解更多 :hero-arrow-circle-right-fill:](desktop.md)
+
+### Router Firmware
+
+<div class="grid cards" markdown>
+
+- ![Cryptee logo](assets/img/cloud/cryptee.svg#only-light){ .twemoji }![Cryptee logo](assets/img/cloud/cryptee-dark.svg#only-dark){ .twemoji } [Cryptee](cloud.md#cryptee)
+- ![Nextcloud logo](assets/img/cloud/nextcloud.svg){ .twemoji } [Nextcloud (Self-Hostable)](cloud.md#nextcloud)
+- ![Proton Drive logo](assets/img/cloud/protondrive.svg){ .twemoji } [Proton Drive](cloud.md#proton-drive)
+
+</div>
+
+[了解更多 :hero-arrow-circle-right-fill:](router.md)

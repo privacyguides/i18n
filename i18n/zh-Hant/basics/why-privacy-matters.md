@@ -32,7 +32,7 @@ icon: 'material/shield-account'
 
 這些概念都有重疊，也有可能將這些概念任意組合。 對大多數人來說，最佳狀態是這三個概念都重疊的時候。 然而，實現起來比許多人原本想的更困難。 有時候必須在某些部份讓步，這也沒關係。 這就是**威脅建模**發揮作用之處，讓您可以就使用[軟體和服務](../tools.md) 做出明智決定 。
 
-[:material-book-outline: 了解更多威脅模型](basics/threat-modeling.md ""){.md-button}
+[:material-book-outline: 了解更多威脅模型](threat-modeling.md ""){.md-button}
 
 ## 隱私 vs. 祕密
 

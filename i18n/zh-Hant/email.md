@@ -378,12 +378,12 @@ SimpleLogin 在  2022年4 月 8 日被 [ Proton AG](https://proton.me/news/proto
 
 - 保護發件人的IP位址。 在 `Received` 標題欄位中過濾它。
 - 除了使用者名稱和密碼外，不要求提供個人身份識別資訊(PII)。
-- 符合 GDPR 的隱私政策
-- 主機機房不要放在美國，因為 [ECPA](https://en.wikipedia.org/wiki/Electronic_Communications_Privacy_Act#Criticism)  [尚未改革](https://epic.org/ecpa/)。
+- 隱私政策符合 GDPR 之要求。
 
 **最佳案例：**
 
 - 接受 [匿名付款選項](advanced/payments.md) （[加密貨幣](cryptocurrency.md)，現金，禮品卡等）
+- 託管在有強力法律保障隱私的司法管轄區。
 
 ### 安全
 

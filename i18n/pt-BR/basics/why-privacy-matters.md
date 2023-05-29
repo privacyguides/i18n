@@ -32,7 +32,7 @@ Anonimato é a capacidade de agir sem um identificador persistente. Você pode f
 
 Todos esses conceitos se sobrepõem, mas é possível ter qualquer combinação deles. O ponto ideal para a maioria das pessoas é quando todos esses três conceitos se coincidem. Porém, isso é mais difícil de conseguir do que muitos acreditam inicialmente. Às vezes, você precisa fazer um meio-termo em relação a alguns desses itens, e isso também é normal. É nesse ponto que a **modelagem de ameaças** entra em ação, permitindo que você tome decisões informadas sobre os [aplicativos e serviços](../tools.md) que você usa.
 
-[:material-book-outline: Saiba Mais Sobre a Modelagem de Ameaças](basics/threat-modeling.md ""){.md-button}
+[:material-book-outline: Saiba Mais Sobre a Modelagem de Ameaças](threat-modeling.md ""){.md-button}
 
 ## Privacidade vs. Segredo
 

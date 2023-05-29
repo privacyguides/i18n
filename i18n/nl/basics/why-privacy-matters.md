@@ -32,7 +32,7 @@ Anonimiteit is de mogelijkheid om te handelen zonder blijvende identificatie. Je
 
 Al deze begrippen overlappen elkaar, maar het is mogelijk om er een combinatie van te maken. De beste plek voor de meeste mensen is wanneer deze drie concepten elkaar overlappen. Het is echter lastiger te bereiken dan velen aanvankelijk denken. Soms moet je compromissen sluiten op sommige daarvan, en dat is ook oké. Dit is waar **dreigingsmodellering** wordt gebruikt, zodat je weloverwogen beslissingen kunt nemen over de [software en diensten](../tools.md) die je gebruikt.
 
-[:material-book-outline: Meer informatie over dreigingsmodellering](basics/threat-modeling.md ""){.md-button}
+[:material-book-outline: Meer informatie over dreigingsmodellering](threat-modeling.md ""){.md-button}
 
 ## Privacy versus geheimzinnigheid
 

@@ -70,61 +70,6 @@ description: Privacy Guides הוא האתר השקוף והאמין ביותר �
 
 [למד עוד :material-arrow-right-drop-circle:](mobile-browsers.md#adguard)
 
-## מערכות הפעלה
-
-### נייד
-
-<div class="grid cards" markdown>
-
-- ![GrapheneOS לוגו](assets/img/android/grapheneos.svg#only-light){ .twemoji }![GrapheneOS לוגו](assets/img/android/grapheneos-dark.svg#only-dark){ .twemoji } [GrapheneOS](android.md#grapheneos)
-- ![DivestOS לוגו](assets/img/android/divestos.svg){ .twemoji } [DivestOS](android.md#divestos)
-
-</div>
-
-[למד עוד :material-arrow-right-drop-circle:](android.md)
-
-#### אפליקציות אנדרואיד
-
-<div class="grid cards" markdown>
-
-- ![Aurora Store לוגו](assets/img/android/aurora-store.webp){ .twemoji } [Aurora Store (Google Play Client)](android.md#aurora-store)
-- ![Shelter לוגו](assets/img/android/mini/shelter.svg){ .twemoji } [Shelter (Work Profiles)](android.md#shelter)
-- ![Auditor לוגו](assets/img/android/auditor.svg#only-light){ .twemoji }![GrapheneOS לוגו](assets/img/android/auditor-dark.svg#only-dark){ .twemoji } [Auditor (Supported Devices)](android.md#auditor)
-- ![Secure Camera לוגו](assets/img/android/secure_camera.svg#only-light){ .twemoji }![Secure Camera לוגו](assets/img/android/secure_camera-dark.svg#only-dark){ .twemoji } [Secure Camera](android.md#secure-camera)
-- ![Secure PDF Viewer לוגו](assets/img/android/secure_pdf_viewer.svg#only-light){ .twemoji }![GrapheneOS לוגו](assets/img/android/secure_pdf_viewer-dark.svg#only-dark){ .twemoji } [Secure PDF Viewer](android.md#secure-pdf-viewer)
-
-</div>
-
-[למד עוד :material-arrow-right-drop-circle:](android.md#general-apps)
-
-### שולחן עבודה/מחשב אישי
-
-<div class="grid cards" markdown>
-
-- ![Qubes OS לוגו](assets/img/qubes/qubes_os.svg){ .twemoji } [Qubes OS (Xen VM Distribution)](desktop.md#qubes-os)
-- ![Fedora לוגו](assets/img/linux-desktop/fedora-workstation.svg){ .twemoji } [Fedora Workstation](desktop.md#fedora-workstation)
-- ![openSUSE Tumbleweed לוגו](assets/img/linux-desktop/opensuse-tumbleweed.svg){ .twemoji } [OpenSUSE Tumbleweed](desktop.md#opensuse-tumbleweed)
-- ![Arch לוגו](assets/img/linux-desktop/archlinux.svg){ .twemoji } [Arch Linux](desktop.md#arch-linux)
-- ![Fedora Silverblue לוגו](assets/img/linux-desktop/fedora-silverblue.svg){ .twemoji } [Fedora Silverblue & Kinoite](desktop.md#fedora-silverblue)
-- ![nixOS לוגו](assets/img/linux-desktop/nixos.svg){ .twemoji } [NixOS](desktop.md#nixos)
-- ![Whonix לוגו](assets/img/linux-desktop/whonix.svg){ .twemoji } [Whonix (Tor)](desktop.md#whonix)
-- ![Tails לוגו](assets/img/linux-desktop/tails.svg){ .twemoji } [Tails (Live Boot)](desktop.md#tails)
-
-</div>
-
-[למד עוד :material-arrow-right-drop-circle:](desktop.md)
-
-### קושחת הנתב
-
-<div class="grid cards" markdown>
-
-- ![OpenWrt לוגו](assets/img/router/openwrt.svg#only-light){ .twemoji }![OpenWrt logo](assets/img/router/openwrt-dark.svg#only-dark){ .twemoji } [OpenWrt](router.md#openwrt)
-- ![OPNsense לוגו](assets/img/router/opnsense.svg){ .twemoji } [OPNsense](router.md#opnsense)
-
-</div>
-
-[למד עוד :material-arrow-right-drop-circle:](router.md)
-
 ## ספקי שירות
 
 ### אחסון בענן
@@ -474,3 +419,58 @@ description: Privacy Guides הוא האתר השקוף והאמין ביותר �
 </div>
 
 [למד עוד :material-arrow-right-drop-circle:](video-streaming.md)
+
+## מערכות הפעלה
+
+### נייד
+
+<div class="grid cards" markdown>
+
+- ![GrapheneOS לוגו](assets/img/android/grapheneos.svg#only-light){ .twemoji }![GrapheneOS לוגו](assets/img/android/grapheneos-dark.svg#only-dark){ .twemoji } [GrapheneOS](android.md#grapheneos)
+- ![DivestOS לוגו](assets/img/android/divestos.svg){ .twemoji } [DivestOS](android.md#divestos)
+
+</div>
+
+[למד עוד :material-arrow-right-drop-circle:](android.md)
+
+#### אפליקציות אנדרואיד
+
+<div class="grid cards" markdown>
+
+- ![Aurora Store לוגו](assets/img/android/aurora-store.webp){ .twemoji } [Aurora Store (Google Play Client)](android.md#aurora-store)
+- ![Shelter לוגו](assets/img/android/mini/shelter.svg){ .twemoji } [Shelter (Work Profiles)](android.md#shelter)
+- ![Auditor לוגו](assets/img/android/auditor.svg#only-light){ .twemoji }![GrapheneOS לוגו](assets/img/android/auditor-dark.svg#only-dark){ .twemoji } [Auditor (Supported Devices)](android.md#auditor)
+- ![Secure Camera לוגו](assets/img/android/secure_camera.svg#only-light){ .twemoji }![Secure Camera לוגו](assets/img/android/secure_camera-dark.svg#only-dark){ .twemoji } [Secure Camera](android.md#secure-camera)
+- ![Secure PDF Viewer לוגו](assets/img/android/secure_pdf_viewer.svg#only-light){ .twemoji }![GrapheneOS לוגו](assets/img/android/secure_pdf_viewer-dark.svg#only-dark){ .twemoji } [Secure PDF Viewer](android.md#secure-pdf-viewer)
+
+</div>
+
+[למד עוד :material-arrow-right-drop-circle:](android.md#general-apps)
+
+### שולחן עבודה/מחשב אישי
+
+<div class="grid cards" markdown>
+
+- ![Qubes OS לוגו](assets/img/qubes/qubes_os.svg){ .twemoji } [Qubes OS (Xen VM Distribution)](desktop.md#qubes-os)
+- ![Fedora לוגו](assets/img/linux-desktop/fedora-workstation.svg){ .twemoji } [Fedora Workstation](desktop.md#fedora-workstation)
+- ![openSUSE Tumbleweed לוגו](assets/img/linux-desktop/opensuse-tumbleweed.svg){ .twemoji } [OpenSUSE Tumbleweed](desktop.md#opensuse-tumbleweed)
+- ![Arch לוגו](assets/img/linux-desktop/archlinux.svg){ .twemoji } [Arch Linux](desktop.md#arch-linux)
+- ![Fedora Silverblue לוגו](assets/img/linux-desktop/fedora-silverblue.svg){ .twemoji } [Fedora Silverblue & Kinoite](desktop.md#fedora-silverblue)
+- ![nixOS לוגו](assets/img/linux-desktop/nixos.svg){ .twemoji } [NixOS](desktop.md#nixos)
+- ![Whonix לוגו](assets/img/linux-desktop/whonix.svg){ .twemoji } [Whonix (Tor)](desktop.md#whonix)
+- ![Tails לוגו](assets/img/linux-desktop/tails.svg){ .twemoji } [Tails (Live Boot)](desktop.md#tails)
+
+</div>
+
+[למד עוד :material-arrow-right-drop-circle:](desktop.md)
+
+### קושחת הנתב
+
+<div class="grid cards" markdown>
+
+- ![OpenWrt לוגו](assets/img/router/openwrt.svg#only-light){ .twemoji }![OpenWrt logo](assets/img/router/openwrt-dark.svg#only-dark){ .twemoji } [OpenWrt](router.md#openwrt)
+- ![OPNsense לוגו](assets/img/router/opnsense.svg){ .twemoji } [OPNsense](router.md#opnsense)
+
+</div>
+
+[למד עוד :material-arrow-right-drop-circle:](router.md)

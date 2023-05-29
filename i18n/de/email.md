@@ -379,12 +379,12 @@ Wir ziehen es vor, dass die von uns empfohlenen Anbieter so wenig Daten wie mög
 
 - IP-Adresse des Absenders schützen. Der `Received`-Header wird aus der E-Mail entfernt.
 - Benötigt keine personenbezogenen Daten (PII) außer eines Benutzernamens und eines Passwortes.
-- Datenschutzpolitik, die den Anforderungen der DSGVO entspricht
-- Darf aufgrund des [ECPA](https://en.wikipedia.org/wiki/Electronic_Communications_Privacy_Act#Criticism) nicht in den USA gehostet werden, da dieser [noch reformiert werden muss](https://epic.org/ecpa/).
+- Privacy policy that meets the requirements defined by the GDPR.
 
 **Im Besten Fall:**
 
 - Akzeptiert [anonyme Zahlungsmöglichkeiten](advanced/payments.md) ([Kryptowährungen](cryptocurrency.md), Bargeld, Geschenkkarten, etc.)
+- Hosted in a jurisdiction with strong email privacy protection laws.
 
 ### Sicherheit
 

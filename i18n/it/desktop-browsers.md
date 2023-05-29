@@ -322,7 +322,7 @@ In generale, si consiglia di ridurre al minimo le estensioni del browser; hanno 
     [:octicons-info-16:](https://github.com/gorhill/uBlock/wiki){ .card-link title=Documentazione}
     [:octicons-code-16:](https://github.com/gorhill/uBlock){ .card-link title="Codice sorgente" }
     
-    ??? download
+    ??? download "Scaricare"
     
         - [:simple-firefoxbrowser: Firefox](https://addons.mozilla.org/firefox/addon/ublock-origin/)
         - [:simple-googlechrome: Chrome](https://chrome.google.com/webstore/detail/ublock-origin/cjpalhdlnbpafiamejdnhcphjbkeiagm)

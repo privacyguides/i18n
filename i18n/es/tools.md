@@ -70,61 +70,6 @@ Para obtener más información sobre cada proyecto, por qué han sido elegidos y
 
 [Más información :material-arrow-right-drop-circle:](mobile-browsers.md#adguard)
 
-## Sistemas Operativos
-
-### Móvil
-
-<div class="grid cards" markdown>
-
-- ![GrapheneOS logo](assets/img/android/grapheneos.svg#only-light){ .twemoji }![GrapheneOS logo](assets/img/android/grapheneos-dark.svg#only-dark){ .twemoji } [GrapheneOS](android.md#grapheneos)
-- ![DivestOS logo](assets/img/android/divestos.svg){ .twemoji } [DivestOS](android.md#divestos)
-
-</div>
-
-[Más información :material-arrow-right-drop-circle:](android.md)
-
-#### Aplicaciones de Android
-
-<div class="grid cards" markdown>
-
-- ![Aurora Store logo](assets/img/android/aurora-store.webp){ .twemoji } [Aurora Store (Cliente de Google Play)](android.md#aurora-store)
-- ![Shelter logo](assets/img/android/mini/shelter.svg){ .twemoji } [Shelter (Perfiles de Trabajo)](android.md#shelter)
-- ![Auditor logo](assets/img/android/auditor.svg#only-light){ .twemoji }![GrapheneOS logo](assets/img/android/auditor-dark.svg#only-dark){ .twemoji } [Auditor (Dispositivos Compatibles)](android.md#auditor)
-- ![Secure Camera logo](assets/img/android/secure_camera.svg#only-light){ .twemoji }![Secure Camera logo](assets/img/android/secure_camera-dark.svg#only-dark){ .twemoji } [Secure Camera](android.md#secure-camera)
-- ![Secure PDF Viewer logo](assets/img/android/secure_pdf_viewer.svg#only-light){ .twemoji }![GrapheneOS logo](assets/img/android/secure_pdf_viewer-dark.svg#only-dark){ .twemoji } [Secure PDF Viewer](android.md#secure-pdf-viewer)
-
-</div>
-
-[Más información :material-arrow-right-drop-circle:](android.md#general-apps)
-
-### Escritorio/PC
-
-<div class="grid cards" markdown>
-
-- ![Qubes OS logo](assets/img/qubes/qubes_os.svg){ .twemoji } [Qubes OS (Distribución de MV de Xen)](desktop.md#qubes-os)
-- ![Fedora logo](assets/img/linux-desktop/fedora-workstation.svg){ .twemoji } [Fedora Workstation](desktop.md#fedora-workstation)
-- ![openSUSE Tumbleweed logo](assets/img/linux-desktop/opensuse-tumbleweed.svg){ .twemoji } [OpenSUSE Tumbleweed](desktop.md#opensuse-tumbleweed)
-- ![Arch logo](assets/img/linux-desktop/archlinux.svg){ .twemoji } [Arch Linux](desktop.md#arch-linux)
-- ![Fedora Silverblue logo](assets/img/linux-desktop/fedora-silverblue.svg){ .twemoji } [Fedora Silverblue & Kinoite](desktop.md#fedora-silverblue)
-- ![nixOS logo](assets/img/linux-desktop/nixos.svg){ .twemoji } [NixOS](desktop.md#nixos)
-- ![Whonix logo](assets/img/linux-desktop/whonix.svg){ .twemoji } [Whonix (Tor)](desktop.md#whonix)
-- ![Tails logo](assets/img/linux-desktop/tails.svg){ .twemoji } [Tails (Live Boot)](desktop.md#tails)
-
-</div>
-
-[Más información :material-arrow-right-drop-circle:](desktop.md)
-
-### Firmware del Router
-
-<div class="grid cards" markdown>
-
-- ![OpenWrt logo](assets/img/router/openwrt.svg#only-light){ .twemoji }![OpenWrt logo](assets/img/router/openwrt-dark.svg#only-dark){ .twemoji } [OpenWrt](router.md#openwrt)
-- ![OPNsense logo](assets/img/router/opnsense.svg){ .twemoji } [OPNsense](router.md#opnsense)
-
-</div>
-
-[Más información :material-arrow-right-drop-circle:](router.md)
-
 ## Proveedores de Servicios
 
 ### Almacenamiento en la Nube
@@ -474,3 +419,58 @@ Para obtener más información sobre cada proyecto, por qué han sido elegidos y
 </div>
 
 [Más información :material-arrow-right-drop-circle:](video-streaming.md)
+
+## Sistemas Operativos
+
+### Móvil
+
+<div class="grid cards" markdown>
+
+- ![GrapheneOS logo](assets/img/android/grapheneos.svg#only-light){ .twemoji }![GrapheneOS logo](assets/img/android/grapheneos-dark.svg#only-dark){ .twemoji } [GrapheneOS](android.md#grapheneos)
+- ![DivestOS logo](assets/img/android/divestos.svg){ .twemoji } [DivestOS](android.md#divestos)
+
+</div>
+
+[Más información :material-arrow-right-drop-circle:](android.md)
+
+#### Aplicaciones de Android
+
+<div class="grid cards" markdown>
+
+- ![Aurora Store logo](assets/img/android/aurora-store.webp){ .twemoji } [Aurora Store (Cliente de Google Play)](android.md#aurora-store)
+- ![Shelter logo](assets/img/android/mini/shelter.svg){ .twemoji } [Shelter (Perfiles de Trabajo)](android.md#shelter)
+- ![Auditor logo](assets/img/android/auditor.svg#only-light){ .twemoji }![GrapheneOS logo](assets/img/android/auditor-dark.svg#only-dark){ .twemoji } [Auditor (Dispositivos Compatibles)](android.md#auditor)
+- ![Secure Camera logo](assets/img/android/secure_camera.svg#only-light){ .twemoji }![Secure Camera logo](assets/img/android/secure_camera-dark.svg#only-dark){ .twemoji } [Secure Camera](android.md#secure-camera)
+- ![Secure PDF Viewer logo](assets/img/android/secure_pdf_viewer.svg#only-light){ .twemoji }![GrapheneOS logo](assets/img/android/secure_pdf_viewer-dark.svg#only-dark){ .twemoji } [Secure PDF Viewer](android.md#secure-pdf-viewer)
+
+</div>
+
+[Más información :material-arrow-right-drop-circle:](android.md#general-apps)
+
+### Escritorio/PC
+
+<div class="grid cards" markdown>
+
+- ![Qubes OS logo](assets/img/qubes/qubes_os.svg){ .twemoji } [Qubes OS (Distribución de MV de Xen)](desktop.md#qubes-os)
+- ![Fedora logo](assets/img/linux-desktop/fedora-workstation.svg){ .twemoji } [Fedora Workstation](desktop.md#fedora-workstation)
+- ![openSUSE Tumbleweed logo](assets/img/linux-desktop/opensuse-tumbleweed.svg){ .twemoji } [OpenSUSE Tumbleweed](desktop.md#opensuse-tumbleweed)
+- ![Arch logo](assets/img/linux-desktop/archlinux.svg){ .twemoji } [Arch Linux](desktop.md#arch-linux)
+- ![Fedora Silverblue logo](assets/img/linux-desktop/fedora-silverblue.svg){ .twemoji } [Fedora Silverblue & Kinoite](desktop.md#fedora-silverblue)
+- ![nixOS logo](assets/img/linux-desktop/nixos.svg){ .twemoji } [NixOS](desktop.md#nixos)
+- ![Whonix logo](assets/img/linux-desktop/whonix.svg){ .twemoji } [Whonix (Tor)](desktop.md#whonix)
+- ![Tails logo](assets/img/linux-desktop/tails.svg){ .twemoji } [Tails (Live Boot)](desktop.md#tails)
+
+</div>
+
+[Más información :material-arrow-right-drop-circle:](desktop.md)
+
+### Firmware del Router
+
+<div class="grid cards" markdown>
+
+- ![OpenWrt logo](assets/img/router/openwrt.svg#only-light){ .twemoji }![OpenWrt logo](assets/img/router/openwrt-dark.svg#only-dark){ .twemoji } [OpenWrt](router.md#openwrt)
+- ![OPNsense logo](assets/img/router/opnsense.svg){ .twemoji } [OPNsense](router.md#opnsense)
+
+</div>
+
+[Más información :material-arrow-right-drop-circle:](router.md)

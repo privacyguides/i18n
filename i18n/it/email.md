@@ -378,12 +378,12 @@ Preferiamo che i provider da noi consigliati raccolgano il minor numero di dati 
 
 - Protezione dell'indirizzo IP del mittente. Filtrare la visualizzazione nell'header d'intestazione `ricevuto`.
 - Non richiedere informazioni d'identificazione personale, oltre a un nome utente e una password.
-- Un'informativa sulla privacy che soddisfa i requisiti definiti dal GDPR
-- Non deve essere hostato negli Stati Uniti a causa del [ECPA](https://en.wikipedia.org/wiki/Electronic_Communications_Privacy_Act#Criticism), il quale dev'essere [ancora riformato](https://epic.org/ecpa/).
+- Una politica sulla privacy che soddisfa i requisiti definiti dal GDPR.
 
 **Caso migliore:**
 
 - Accetta [opzioni di pagamento anonime](advanced/payments.md) ([criptovalute](cryptocurrency.md), contanti, carte regalo, ecc.)
+- Ospitato in una giurisdizione con forti leggi sulla protezione della privacy e-mail.
 
 ### Sicurezza
 

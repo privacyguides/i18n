@@ -1,14 +1,14 @@
 ---
-meta_title: "The Best Private Instant Messengers - Privacy Guides"
+meta_title: "프라이버시 중점 메신저 - Privacy Guides"
 title: "실시간 커뮤니케이션"
 icon: material/chat-processing
-description: Other instant messengers make all of your private conversations available to the company that runs them.
+description: 일반적인 메신저는 사용자의 개인적인 대화를 해당 메신저 운영 회사에서 모두 살펴볼 수 있습니다.
 cover: real-time-communication.png
 ---
 
-These are our recommendations for encrypted real-time communication.
+본 내용은 실시간 커뮤니케이션 용도로 권장드리는 암호화 메신저 목록입니다.
 
-[Types of Communication Networks :material-arrow-right-drop-circle:](./advanced/communication-network-types.md)
+[통신 네트워크 유형 :material-arrow-right-drop-circle:](./advanced/communication-network-types.md)
 
 ## 암호화 메신저
 
@@ -39,11 +39,11 @@ These are our recommendations for encrypted real-time communication.
         - [:simple-apple: macOS](https://signal.org/download/macos)
         - [:simple-linux: Linux](https://signal.org/download/linux)
 
-Signal supports [private groups](https://signal.org/blog/signal-private-group-system/). The server has no record of your group memberships, group titles, group avatars, or group attributes. Signal has minimal metadata when [Sealed Sender](https://signal.org/blog/sealed-sender/) is enabled. The sender address is encrypted along with the message body, and only the recipient address is visible to the server. Sealed Sender is only enabled for people in your contacts list, but can be enabled for all recipients with the increased risk of receiving spam. Signal requires your phone number as a personal identifier.
+Singal은 [비공개 그룹](https://signal.org/blog/signal-private-group-system/)을 지원합니다. 그룹 구성원, 그룹 이름, 아바타, 속성 등은 서버에 기록되지 않습니다. 메타데이터를 최소화하는 [Sealed Sender](https://signal.org/blog/sealed-sender/) 기능도 존재합니다. 해당 기능을 사용할 경우, 발신자 주소는 메시지 본문과 함께 암호화되어 서버에서는 수신자 주소만 볼 수 있습니다. Sealed Sender는 연락처 목록에 있는 사람들에게만 활성화되지만, 스팸 수신 위험성이 높아짐에 따라 모든 수신자에게 활성화하는 것도 가능합니다. Signal을 사용하려면 반드시 자신의 전화번호를 개인 식별 정보로 입력해야만 합니다.
 
-The protocol was independently [audited](https://eprint.iacr.org/2016/1013.pdf) in 2016. The specification for the Signal protocol can be found in their [documentation](https://signal.org/docs/).
+Signal 프로토콜은 2016년에 독립적으로 [감사를 받았습니다](https://eprint.iacr.org/2016/1013.pdf). Signal 프로토콜 사양은 [문서](https://signal.org/docs/)에서 확인할 수 있습니다.
 
-We have some additional tips on configuring and hardening your Signal installation:
+Signal 설치 구성 및 보안 강화 관련 도움말이 필요하신 분은 다음 내용을 참고하세요.
 
 [Signal 설정 및 보안 강화 :material-arrow-right-drop-circle:](https://blog.privacyguides.org/2022/07/07/signal-configuration-and-hardening/)
 
@@ -51,9 +51,9 @@ We have some additional tips on configuring and hardening your Signal installati
 
 !!! recommendation
 
-    ![Simplex logo](assets/img/messengers/simplex.svg){ align=right }
+    ![Simplex 로고](assets/img/messengers/simplex.svg){ align=right }
     
-    **SimpleX** Chat is an instant messenger that is decentralized and doesn't depend on any unique identifiers such as phone numbers or usernames. Users of SimpleX Chat can scan a QR code or click an invite link to participate in group conversations.
+    **SimpleX** Chat은 탈중앙화 메신저입니다. 전화번호나 사용자 아이디 등의 고유 식별자에 의존하지 않는 것이 특징입니다. SimpleX Chat에서는 QR 코드를 스캔하거나 초대 링크를 클릭하여 그룹 대화에 참여합니다.
     
     [:octicons-home-16: 홈페이지](https://simplex.chat){ .md-button .md-button--primary }
     [:octicons-eye-16:](https://github.com/simplex-chat/simplex-chat/blob/stable/PRIVACY.md){ .card-link title="프라이버시 정책" }
@@ -66,19 +66,19 @@ We have some additional tips on configuring and hardening your Signal installati
         - [:simple-appstore: App Store](https://apps.apple.com/us/app/simplex-chat/id1605771084)
         - [:simple-github: GitHub](https://github.com/simplex-chat/simplex-chat/releases)
 
-SimpleX Chat [was audited](https://simplex.chat/blog/20221108-simplex-chat-v4.2-security-audit-new-website.html) by Trail of Bits in October 2022.
+SimpleX Chat 보안 감사는 Trail of Bits이 2022년 10월에 [진행하였습니다](https://simplex.chat/blog/20221108-simplex-chat-v4.2-security-audit-new-website.html).
 
-Currently SimpleX Chat only provides a client for Android and iOS. Basic group chatting functionality, direct messaging, editing of messages and markdown are supported. E2EE Audio and Video calls are also supported.
+현재 SimpleX Chat은 Android, iOS 클라이언트만 제공하고 있습니다. 기본적인 그룹 채팅, 개인 메시지, 메시지 편집 및 마크다운 기능이 지원됩니다. E2EE 음성 및 영상 통화 또한 지원됩니다.
 
-Your data can be exported, and imported onto another device, as there are no central servers where this is backed up.
+여러분은 데이터를 내보내고 다른 기기에서 해당 데이터를 가져올 수 있습니다. Simplex Chat은 데이터가 백업되는 중앙 서버가 존재하지 않습니다.
 
 ### Briar
 
 !!! recommendation
 
-    ![Briar logo](assets/img/messengers/briar.svg){ align=right }
+    ![Briar 로고](assets/img/messengers/briar.svg){ align=right }
     
-    **Briar** is an encrypted instant messenger that [connects](https://briarproject.org/how-it-works/) to other clients using the Tor Network. Briar can also connect via Wi-Fi or Bluetooth when in local proximity. Briar’s local mesh mode can be useful when internet availability is a problem.
+    **Briar**는 Tor 네트워크를 이용해 다른 클라이언트에 연결하는 방식으로 [작동하는](https://briarproject.org/how-it-works/) 암호화 메신저입니다. 근거리에 있는 경우 Wi-Fi 혹은 Bluetooth를 통해 연결하는 것도 가능합니다. Briar 로컬 메시 모드는 인터넷을 제대로 사용할 수 없는 상황에도 유용합니다.
     
     [:octicons-home-16: 홈페이지](https://briarproject.org/){ .md-button .md-button--primary }
     [:octicons-eye-16:](https://briarproject.org/privacy-policy/){ .card-link title="프라이버시 정책" }
@@ -93,13 +93,13 @@ Your data can be exported, and imported onto another device, as there are no cen
         - [:simple-linux: Linux](https://briarproject.org/download-briar-desktop/)
         - [:simple-flathub: Flathub](https://flathub.org/apps/details/org.briarproject.Briar)
 
-To add a contact on Briar, you must both add each other first. You can either exchange `briar://` links or scan a contact’s QR code if they are nearby.
+Briar 연락처에 누군가를 등록하려면 서로가 모두 서로를 연락처에 추가해야 합니다. `briar://` 링크를 서로 교환하거나, (가까운 거리에 있는 경우) 연락처에서 QR 코드를 스캔하여 추가할 수 있습니다.
 
-The client software was independently [audited](https://briarproject.org/news/2017-beta-released-security-audit/), and the anonymous routing protocol uses the Tor network which has also been audited.
+클라이언트 소프트웨어는 제3자로부터 [보안 감사를 받았습니다](https://briarproject.org/news/2017-beta-released-security-audit/). 메신저의 익명 라우팅 프로토콜은 마찬가지로 보안 감사가 진행된 바 있는 Tor 네트워크가 사용됩니다.
 
-Briar has a fully [published specification](https://code.briarproject.org/briar/briar-spec).
+Briar [사양 문서](https://code.briarproject.org/briar/briar-spec)는 전체 공개되어 있습니다.
 
-Briar supports perfect forward secrecy by using the Bramble [Handshake](https://code.briarproject.org/briar/briar-spec/blob/master/protocols/BHP.md) and [Transport](https://code.briarproject.org/briar/briar-spec/blob/master/protocols/BTP.md) protocol.
+Briar는 Bramble [핸드셰이크](https://code.briarproject.org/briar/briar-spec/blob/master/protocols/BHP.md) 및 [전송](https://code.briarproject.org/briar/briar-spec/blob/master/protocols/BTP.md) 프로토콜을 사용해 완전 순방향 비밀성을 지원합니다.
 
 ## 추가 선택지
 
@@ -138,17 +138,17 @@ Briar supports perfect forward secrecy by using the Bramble [Handshake](https://
 
 Matrix 프로토콜 자체는 [이론적으로 PFS를 지원하지만](https://gitlab.matrix.org/matrix-org/olm/blob/master/docs/megolm.md#partial-forward-secrecy), 키 백업 및 사용자 간 메시지 기록 공유 등의 사용자 경험을 해치기 때문에 [현시점에서 Element는 PFS를 지원하지 않습니다](https://github.com/vector-im/element-web/issues/7101).
 
-Matrix 프로토콜은 2016년에 독립적으로 [감사를 받았습니다](https://matrix.org/blog/2016/11/21/matrixs-olm-end-to-end-encryption-security-assessment-released-and-implemented-cross-platform-on-riot-at-last). Matirx 프로토콜 사양은 [문서](https://spec.matrix.org/latest/)에서 확인할 수 있습니다. The [Olm](https://matrix.org/docs/projects/other/olm) cryptographic ratchet used by Matrix is an implementation of Signal’s [Double Ratchet algorithm](https://signal.org/docs/specifications/doubleratchet/).
+Matrix 프로토콜은 2016년에 독립적으로 [감사를 받았습니다](https://matrix.org/blog/2016/11/21/matrixs-olm-end-to-end-encryption-security-assessment-released-and-implemented-cross-platform-on-riot-at-last). Matirx 프로토콜 사양은 [문서](https://spec.matrix.org/latest/)에서 확인할 수 있습니다. Matrix에서 사용하는 [Olm](https://matrix.org/docs/projects/other/olm) 암호화 래칫(Cryptographic Ratchet)은 Signal의 [더블 래칫 알고리즘(Double Ratchet algorithm)](https://signal.org/docs/specifications/doubleratchet/)을 구현한 것입니다.
 
 ### Session
 
 !!! recommendation
 
-    ![Session logo](assets/img/messengers/session.svg){ align=right }
+    ![Session 로고](assets/img/messengers/session.svg){ align=right }
     
-    **Session** is a decentralized messenger with a focus on private, secure, and anonymous communications. Session offers support for direct messages, group chats, and voice calls.
+    **Session**는 비공개, 보안, 익명 대화에 중점을 둔 탈중앙화 메신저입니다. Session은 개인 메시지, 그룹 채팅, 음성 통화를 지원합니다.
     
-    Session uses the decentralized [Oxen Service Node Network](https://oxen.io/) to store and route messages. Every encrypted message is routed through three nodes in the Oxen Service Node Network, making it virtually impossible for the nodes to compile meaningful information on those using the network.
+    Session은 탈중앙화된 [Oxen Service Node Network](https://oxen.io/)를 이용해 메시지 저장 및 라우팅을 수행합니다. 모든 암호화 메시지는 Oxen 서비스 노드 네트워크의 노드 3개를 이용해 라우팅되므로, 특정 노드가 사용자에 대한 의미 있는 정보를 수집하는 것은 불가능에 가깝습니다.
     
     [:octicons-home-16: 홈페이지](https://getsession.org/){ .md-button .md-button--primary }
     [:octicons-eye-16:](https://getsession.org/privacy-policy){ .card-link title="프라이버시 정책" }
@@ -164,13 +164,13 @@ Matrix 프로토콜은 2016년에 독립적으로 [감사를 받았습니다](ht
         - [:simple-apple: macOS](https://getsession.org/download)
         - [:simple-linux: Linux](https://getsession.org/download)
 
-Session allows for E2EE in one-on-one chats or closed groups which allow for up to 100 members. Open groups have no restriction on the number of members, but are open by design.
+Session은 일대일 채팅 및 최대 100명까지 참여 가능한 비공개 그룹에서 E2EE를 지원합니다. 공개 그룹은 구성원 수에 제한이 없지만, 설계상 개방되어 있습니다.
 
-Session does [not](https://getsession.org/blog/session-protocol-technical-information) support PFS, which is when an encryption system automatically and frequently changes the keys it uses to encrypt and decrypt information, such that if the latest key is compromised it exposes a smaller portion of sensitive information.
+Session은 완전 순방향 비밀성을 지원하지 [않습니다](https://getsession.org/blog/session-protocol-technical-information). 즉, '암호화 시스템이 자동으로 빈번하게 암호화 및 복호화에 사용되는 키를 변경하여, 최신 키가 손상되더라도 민감한 정보는 일부만 노출되게 하는 시스템'이 존재하지 않습니다.
 
-Oxen requested an independent audit for Session in March of 2020. The audit [concluded](https://getsession.org/session-code-audit) in April of 2021, “The overall security level of this application is good and makes it usable for privacy-concerned people.”
+Oxen은 2020년 3월에 Session의 제3자 감사를 요청했습니다. 감사는 2021년 4월에 [완료되었으며](https://getsession.org/session-code-audit), "이 애플리케이션의 전반적인 보안 수준은 양호하며, 프라이버시를 중시하는 사람들이 사용하기에 적합합니다"라는 결론이 내려졌습니다.
 
-Session has a [whitepaper](https://arxiv.org/pdf/2002.04609.pdf) describing the technicals of the app and protocol.
+Session은 애플리케이션 및 프로토콜의 기술적인 설명을 담은 [백서](https://arxiv.org/pdf/2002.04609.pdf)를 제공하고 있습니다.
 
 ## 평가 기준
 

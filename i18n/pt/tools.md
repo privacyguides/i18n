@@ -78,59 +78,6 @@ For more details about each project, why they were chosen, and additional tips o
 
 [Saiba mais...](mobile-browsers.md#adguard)
 
-## Software
-
-### Mobile
-
-<div class="grid cards" markdown>
-
-- ![Logótipo OpenWrt](/assets/img/router/openwrt.svg#only-light){ .twemoji }![Logótipo OpenWrt](/assets/img/router/openwrt-dark.svg#only-dark){ .twemoji } [OpenWrt](https://openwrt.org/)
-- ![logótipo pfSense](/assets/img/router/pfsense.svg#only-light){ .twemoji }![logótipo pfSense](/assets/img/router/pfsense-dark.svg#only-dark){ .twemoji } [pfSense](https://www.pfsense.org/)
-
-</div>
-
-[Saiba mais...](android.md)
-
-#### Android Apps
-
-<div class="grid cards" markdown>
-
-- ![Aurora Store logo](assets/img/android/aurora-store.webp){ .twemoji } [Aurora Store (Google Play Client)](android.md#aurora-store)
-- ![Shelter logo](assets/img/android/mini/shelter.svg){ .twemoji } [Shelter (Work Profiles)](android.md#shelter)
-- ![Auditor logo](assets/img/android/auditor.svg#only-light){ .twemoji }![GrapheneOS logo](assets/img/android/auditor-dark.svg#only-dark){ .twemoji } [Auditor (Supported Devices)](android.md#auditor)
-- ![Secure Camera logo](assets/img/android/secure_camera.svg#only-light){ .twemoji }![Secure Camera logo](assets/img/android/secure_camera-dark.svg#only-dark){ .twemoji } [Secure Camera](android.md#secure-camera)
-- ![Secure PDF Viewer logo](assets/img/android/secure_pdf_viewer.svg#only-light){ .twemoji }![GrapheneOS logo](assets/img/android/secure_pdf_viewer-dark.svg#only-dark){ .twemoji } [Secure PDF Viewer](android.md#secure-pdf-viewer)
-
-</div>
-
-[Saiba mais...](android.md#general-apps)
-
-### Armazenamento em nuvem
-
-<div class="grid cards" markdown>
-
-- ![Logotipo ProtonMail](/assets/img/email/mini/protonmail.svg){ .twemoji } [ProtonMail](https://protonmail.com/)
-- ![Logotipo mailbox.org](/assets/img/email/mini/mailboxorg.svg){ .twemoji } [Mailbox.org](https://mailbox.org/)
-- ![Logotipo de raiz](/assets/img/img/email/mini/disroot.svg#only-light){ .twemoji }![Logotipo de raiz](/assets/img/email/mini/disroot-dark.svg#only-dark){ .twemoji } [Disroot](https://disroot.org/)
-- ![Logotipo Tutanota](/assets/img/email/mini/tutanota.svg){ .twemoji } [Tutanota](https://tutanota.com/)
-- ![Logotipo StartMail](/assets/img/email/mini/tutanota.svg#only-light){ .twemoji }![StartMail logo](/assets/img/email/mini/startmail-dark.svg#only-dark){ .twemoji } [StartMail](https://startmail.com/)
-- ![CTemplar logo](/assets/img/email/mini/ctemplar.svg#only-light){ .twemoji }![CTemplar logo](/assets/img/email/mini/ctemplar-dark.svg#only-dark){ .twemoji } [CTemplar](https://ctemplar.com/)
-
-</div>
-
-[Saiba mais...](desktop.md)
-
-### Router Firmware
-
-<div class="grid cards" markdown>
-
-- ![AnonAddy logo](/assets/img/img/email/mini/anonaddy.svg#only-light){ .twemoji }![AnonAddy logo](/assets/img/email/mini/anonaddy-dark.svg#only-dark){ .twemoji } [AnonAddy](https://anonaddy.com/)
-- ![SimpleLogin logo](/assets/img/email/mini/simplelogin.svg){ .twemoji } [SimpleLogin](https://simplelogin.io/)
-
-</div>
-
-[Saiba mais...](router.md)
-
 ## Service Providers
 
 ### Email
@@ -485,3 +432,56 @@ Recomendamos armazenar uma chave de recuperação local em um local seguro, em v
 </div>
 
 [Saiba mais...](video-streaming.md)
+
+## Software
+
+### Mobile
+
+<div class="grid cards" markdown>
+
+- ![Logótipo OpenWrt](/assets/img/router/openwrt.svg#only-light){ .twemoji }![Logótipo OpenWrt](/assets/img/router/openwrt-dark.svg#only-dark){ .twemoji } [OpenWrt](https://openwrt.org/)
+- ![logótipo pfSense](/assets/img/router/pfsense.svg#only-light){ .twemoji }![logótipo pfSense](/assets/img/router/pfsense-dark.svg#only-dark){ .twemoji } [pfSense](https://www.pfsense.org/)
+
+</div>
+
+[Saiba mais...](android.md)
+
+#### Android Apps
+
+<div class="grid cards" markdown>
+
+- ![Aurora Store logo](assets/img/android/aurora-store.webp){ .twemoji } [Aurora Store (Google Play Client)](android.md#aurora-store)
+- ![Shelter logo](assets/img/android/mini/shelter.svg){ .twemoji } [Shelter (Work Profiles)](android.md#shelter)
+- ![Auditor logo](assets/img/android/auditor.svg#only-light){ .twemoji }![GrapheneOS logo](assets/img/android/auditor-dark.svg#only-dark){ .twemoji } [Auditor (Supported Devices)](android.md#auditor)
+- ![Secure Camera logo](assets/img/android/secure_camera.svg#only-light){ .twemoji }![Secure Camera logo](assets/img/android/secure_camera-dark.svg#only-dark){ .twemoji } [Secure Camera](android.md#secure-camera)
+- ![Secure PDF Viewer logo](assets/img/android/secure_pdf_viewer.svg#only-light){ .twemoji }![GrapheneOS logo](assets/img/android/secure_pdf_viewer-dark.svg#only-dark){ .twemoji } [Secure PDF Viewer](android.md#secure-pdf-viewer)
+
+</div>
+
+[Saiba mais...](android.md#general-apps)
+
+### Armazenamento em nuvem
+
+<div class="grid cards" markdown>
+
+- ![Logotipo ProtonMail](/assets/img/email/mini/protonmail.svg){ .twemoji } [ProtonMail](https://protonmail.com/)
+- ![Logotipo mailbox.org](/assets/img/email/mini/mailboxorg.svg){ .twemoji } [Mailbox.org](https://mailbox.org/)
+- ![Logotipo de raiz](/assets/img/img/email/mini/disroot.svg#only-light){ .twemoji }![Logotipo de raiz](/assets/img/email/mini/disroot-dark.svg#only-dark){ .twemoji } [Disroot](https://disroot.org/)
+- ![Logotipo Tutanota](/assets/img/email/mini/tutanota.svg){ .twemoji } [Tutanota](https://tutanota.com/)
+- ![Logotipo StartMail](/assets/img/email/mini/tutanota.svg#only-light){ .twemoji }![StartMail logo](/assets/img/email/mini/startmail-dark.svg#only-dark){ .twemoji } [StartMail](https://startmail.com/)
+- ![CTemplar logo](/assets/img/email/mini/ctemplar.svg#only-light){ .twemoji }![CTemplar logo](/assets/img/email/mini/ctemplar-dark.svg#only-dark){ .twemoji } [CTemplar](https://ctemplar.com/)
+
+</div>
+
+[Saiba mais...](desktop.md)
+
+### Router Firmware
+
+<div class="grid cards" markdown>
+
+- ![AnonAddy logo](/assets/img/img/email/mini/anonaddy.svg#only-light){ .twemoji }![AnonAddy logo](/assets/img/email/mini/anonaddy-dark.svg#only-dark){ .twemoji } [AnonAddy](https://anonaddy.com/)
+- ![SimpleLogin logo](/assets/img/email/mini/simplelogin.svg){ .twemoji } [SimpleLogin](https://simplelogin.io/)
+
+</div>
+
+[Saiba mais...](router.md)

@@ -7,12 +7,12 @@ cover: tor.png
 schema:
   - 
     "@context": http://schema.org
-    "@type": Applicazione Software
+    "@type": SoftwareApplication
     name: Tor Browser
     image: /assets/img/browsers/tor.svg
     url: https://www.torproject.org
     sameAs: https://it.wikipedia.org/wiki/Tor_(software)
-    applicationCategory: Browser Web
+    applicationCategory: Web Browser
     operatingSystem:
       - Windows
       - macOS

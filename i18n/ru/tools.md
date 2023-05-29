@@ -85,56 +85,6 @@ For more details about each project, why they were chosen, and additional tips o
 
 [Подробнее :hero-arrow-circle-right-fill:](mobile-browsers.md#adguard)
 
-## Программное обеспечение
-
-### Прошивки для роутера
-
-<div class="grid cards" markdown>
-
-- ![Логотип OpenWrt](assets/img/router/openwrt.svg#only-light){ .twemoji }![Логотип OpenWrt](assets/img/router/openwrt-dark.svg#only-dark){ .twemoji } [OpenWrt](router.md#openwrt)
-- ![Логотип pfSense](assets/img/router/pfsense.svg#only-light){ .twemoji }![Логотип pfSense](assets/img/router/pfsense-dark.svg#only-dark){ .twemoji } [pfSense](router.md#pfsense)
-
-</div>
-
-[Подробнее :hero-arrow-circle-right-fill:](android.md)
-
-#### Android Apps
-
-<div class="grid cards" markdown>
-
-- ![Aurora Store logo](assets/img/android/aurora-store.webp){ .twemoji } [Aurora Store (Google Play Client)](android.md#aurora-store)
-- ![Shelter logo](assets/img/android/mini/shelter.svg){ .twemoji } [Shelter (Work Profiles)](android.md#shelter)
-- ![Auditor logo](assets/img/android/auditor.svg#only-light){ .twemoji }![GrapheneOS logo](assets/img/android/auditor-dark.svg#only-dark){ .twemoji } [Auditor (Supported Devices)](android.md#auditor)
-- ![Secure Camera logo](assets/img/android/secure_camera.svg#only-light){ .twemoji }![Secure Camera logo](assets/img/android/secure_camera-dark.svg#only-dark){ .twemoji } [Secure Camera](android.md#secure-camera)
-- ![Secure PDF Viewer logo](assets/img/android/secure_pdf_viewer.svg#only-light){ .twemoji }![GrapheneOS logo](assets/img/android/secure_pdf_viewer-dark.svg#only-dark){ .twemoji } [Secure PDF Viewer](android.md#secure-pdf-viewer)
-
-</div>
-
-[Подробнее :hero-arrow-circle-right-fill:](android.md#general-apps)
-
-### Облачные хранилища
-
-<div class="grid cards" markdown>
-
-- ![Логотип RethinkDNS](assets/img/android/rethinkdns.svg#only-light){ .twemoji }![Логотип RethinkDNS](assets/img/android/rethinkdns-dark.svg#only-dark){ .twemoji } [RethinkDNS](dns.md#rethinkdns)
-- ![Логотип DNSCloak](assets/img/ios/dnscloak.png){ .twemoji } [DNSCloak](dns.md#dnscloak)
-- ![Логотип dnscrypt-proxy](assets/img/dns/dnscrypt-proxy.svg){ .twemoji } [dnscrypt-proxy](dns.md#dnscrypt-proxy)
-
-</div>
-
-[Подробнее :hero-arrow-circle-right-fill:](desktop.md)
-
-### Прошивки для роутера
-
-<div class="grid cards" markdown>
-
-- ![Логотип AdGuard Home](assets/img/dns/adguard-home.svg){ .twemoji } [AdGuard Home](dns.md#adguard-home)
-- ![Логотип Pi-hole](assets/img/dns/pi-hole.svg){ .twemoji } [Pi-hole](dns.md#pi-hole)
-
-</div>
-
-[Подробнее :hero-arrow-circle-right-fill:](router.md)
-
 ## Service Providers
 
 ### Электронная почта
@@ -484,3 +434,53 @@ We [recommend](dns.md#recommended-providers) a number of encrypted DNS servers b
 </div>
 
 [Подробнее :hero-arrow-circle-right-fill:](video-streaming.md)
+
+## Программное обеспечение
+
+### Прошивки для роутера
+
+<div class="grid cards" markdown>
+
+- ![Логотип OpenWrt](assets/img/router/openwrt.svg#only-light){ .twemoji }![Логотип OpenWrt](assets/img/router/openwrt-dark.svg#only-dark){ .twemoji } [OpenWrt](router.md#openwrt)
+- ![Логотип pfSense](assets/img/router/pfsense.svg#only-light){ .twemoji }![Логотип pfSense](assets/img/router/pfsense-dark.svg#only-dark){ .twemoji } [pfSense](router.md#pfsense)
+
+</div>
+
+[Подробнее :hero-arrow-circle-right-fill:](android.md)
+
+#### Android Apps
+
+<div class="grid cards" markdown>
+
+- ![Aurora Store logo](assets/img/android/aurora-store.webp){ .twemoji } [Aurora Store (Google Play Client)](android.md#aurora-store)
+- ![Shelter logo](assets/img/android/mini/shelter.svg){ .twemoji } [Shelter (Work Profiles)](android.md#shelter)
+- ![Auditor logo](assets/img/android/auditor.svg#only-light){ .twemoji }![GrapheneOS logo](assets/img/android/auditor-dark.svg#only-dark){ .twemoji } [Auditor (Supported Devices)](android.md#auditor)
+- ![Secure Camera logo](assets/img/android/secure_camera.svg#only-light){ .twemoji }![Secure Camera logo](assets/img/android/secure_camera-dark.svg#only-dark){ .twemoji } [Secure Camera](android.md#secure-camera)
+- ![Secure PDF Viewer logo](assets/img/android/secure_pdf_viewer.svg#only-light){ .twemoji }![GrapheneOS logo](assets/img/android/secure_pdf_viewer-dark.svg#only-dark){ .twemoji } [Secure PDF Viewer](android.md#secure-pdf-viewer)
+
+</div>
+
+[Подробнее :hero-arrow-circle-right-fill:](android.md#general-apps)
+
+### Облачные хранилища
+
+<div class="grid cards" markdown>
+
+- ![Логотип RethinkDNS](assets/img/android/rethinkdns.svg#only-light){ .twemoji }![Логотип RethinkDNS](assets/img/android/rethinkdns-dark.svg#only-dark){ .twemoji } [RethinkDNS](dns.md#rethinkdns)
+- ![Логотип DNSCloak](assets/img/ios/dnscloak.png){ .twemoji } [DNSCloak](dns.md#dnscloak)
+- ![Логотип dnscrypt-proxy](assets/img/dns/dnscrypt-proxy.svg){ .twemoji } [dnscrypt-proxy](dns.md#dnscrypt-proxy)
+
+</div>
+
+[Подробнее :hero-arrow-circle-right-fill:](desktop.md)
+
+### Прошивки для роутера
+
+<div class="grid cards" markdown>
+
+- ![Логотип AdGuard Home](assets/img/dns/adguard-home.svg){ .twemoji } [AdGuard Home](dns.md#adguard-home)
+- ![Логотип Pi-hole](assets/img/dns/pi-hole.svg){ .twemoji } [Pi-hole](dns.md#pi-hole)
+
+</div>
+
+[Подробнее :hero-arrow-circle-right-fill:](router.md)

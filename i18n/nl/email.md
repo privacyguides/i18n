@@ -378,12 +378,12 @@ Wij geven er de voorkeur aan dat de door ons aanbevolen aanbieders zo weinig mog
 
 - Beschermt het IP adres van de afzender. Filter het uit de weergave in het `Received` header veld.
 - Vereisen geen persoonlijk identificeerbare informatie (PII) naast een gebruikersnaam en een wachtwoord.
-- Privacybeleid dat voldoet aan de vereisten van de GDPR.
-- Mag niet in de VS worden gehost wegens [ECPA](https://en.wikipedia.org/wiki/Electronic_Communications_Privacy_Act#Criticism) die [nog moet worden hervormd](https://epic.org/ecpa/).
+- Privacy policy that meets the requirements defined by the GDPR.
 
 **Beste geval:**
 
 - Accepteert [anonieme betalingsopties](advanced/payments.md) ([cryptocurrency](cryptocurrency.md), contant geld, cadeaukaarten, etc.)
+- Hosted in a jurisdiction with strong email privacy protection laws.
 
 ### Veiligheid
 

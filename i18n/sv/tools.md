@@ -70,61 +70,6 @@ Om du vill ha mer information om varje projekt, varför de valdes ut och ytterli
 
 [Läs mer :material-arrow-right-drop-circle:](mobile-browsers.md#adguard)
 
-## Operativsystem
-
-### Mobil
-
-<div class="grid cards" markdown>
-
-- ![GrapheneOS logo](assets/img/android/grapheneos.svg#only-light){ .twemoji }![GrapheneOS logo](assets/img/android/grapheneos-dark.svg#only-dark){ .twemoji } [GrapheneOS](android.md#grapheneos)
-- ![DivestOS logo](assets/img/android/divestos.svg){ .twemoji } [DivestOS](android.md#divestos)
-
-</div>
-
-[Läs mer :material-arrow-right-drop-circle:](android.md)
-
-#### Android-app
-
-<div class="grid cards" markdown>
-
-- ![Aurora Store logo](assets/img/android/aurora-store.webp){ .twemoji } [Aurora Store (Google Play Client)](android.md#aurora-store)
-- ![Shelter logo](assets/img/android/mini/shelter.svg){ .twemoji } [Shelter (Work Profiles)](android.md#shelter)
-- ![Auditor logo](assets/img/android/auditor.svg#only-light){ .twemoji }![GrapheneOS logo](assets/img/android/auditor-dark.svg#only-dark){ .twemoji } [Auditor (Supported Devices)](android.md#auditor)
-- ![Secure Camera logo](assets/img/android/secure_camera.svg#only-light){ .twemoji }![Secure Camera logo](assets/img/android/secure_camera-dark.svg#only-dark){ .twemoji } [Secure Camera](android.md#secure-camera)
-- ![Secure PDF Viewer logo](assets/img/android/secure_pdf_viewer.svg#only-light){ .twemoji }![GrapheneOS logo](assets/img/android/secure_pdf_viewer-dark.svg#only-dark){ .twemoji } [Secure PDF Viewer](android.md#secure-pdf-viewer)
-
-</div>
-
-[Läs mer :material-arrow-right-drop-circle:](android.md#general-apps)
-
-### Skrivbord
-
-<div class="grid cards" markdown>
-
-- ![Qubes OS logo](assets/img/qubes/qubes_os.svg){ .twemoji } [Qubes OS (Xen VM Distribution)](desktop.md#qubes-os)
-- ![Fedora logo](assets/img/linux-desktop/fedora-workstation.svg){ .twemoji } [Fedora Workstation](desktop.md#fedora-workstation)
-- ![openSUSE Tumbleweed logo](assets/img/linux-desktop/opensuse-tumbleweed.svg){ .twemoji } [OpenSUSE Tumbleweed](desktop.md#opensuse-tumbleweed)
-- ![Arch logo](assets/img/linux-desktop/archlinux.svg){ .twemoji } [Arch Linux](desktop.md#arch-linux)
-- ![Fedora Silverblue logo](assets/img/linux-desktop/fedora-silverblue.svg){ .twemoji } [Fedora Silverblue & Kinoite](desktop.md#fedora-silverblue)
-- ![nixOS logo](assets/img/linux-desktop/nixos.svg){ .twemoji } [NixOS](desktop.md#nixos)
-- ![Whonix logo](assets/img/linux-desktop/whonix.svg){ .twemoji } [Whonix (Tor)](desktop.md#whonix)
-- ![Tails logo](assets/img/linux-desktop/tails.svg){ .twemoji } [Tails (Live Boot)](desktop.md#tails)
-
-</div>
-
-[Läs mer :material-arrow-right-drop-circle:](desktop.md)
-
-### Router Firmware
-
-<div class="grid cards" markdown>
-
-- ![GrapheneOS logo](assets/img/android/grapheneos.svg#only-light){ .twemoji }![GrapheneOS logo](assets/img/android/openwrt-dark.svg#only-dark){ .twemoji } [OpenWrt](router.md#openwrt)
-- ![DivestOS logo](assets/img/android/opnsense.svg){ .twemoji } [OPNsense](router.md#opnsense)
-
-</div>
-
-[Läs mer :material-arrow-right-drop-circle:](router.md)
-
 ## Tjänsteleverantörer
 
 ### Molnlagring
@@ -474,3 +419,58 @@ Vi [rekommenderar](dns.md#recommended-providers) ett antal krypterade DNS-servra
 </div>
 
 [Läs mer :material-arrow-right-drop-circle:](video-streaming.md)
+
+## Operativsystem
+
+### Mobil
+
+<div class="grid cards" markdown>
+
+- ![GrapheneOS logo](assets/img/android/grapheneos.svg#only-light){ .twemoji }![GrapheneOS logo](assets/img/android/grapheneos-dark.svg#only-dark){ .twemoji } [GrapheneOS](android.md#grapheneos)
+- ![DivestOS logo](assets/img/android/divestos.svg){ .twemoji } [DivestOS](android.md#divestos)
+
+</div>
+
+[Läs mer :material-arrow-right-drop-circle:](android.md)
+
+#### Android-app
+
+<div class="grid cards" markdown>
+
+- ![Aurora Store logo](assets/img/android/aurora-store.webp){ .twemoji } [Aurora Store (Google Play Client)](android.md#aurora-store)
+- ![Shelter logo](assets/img/android/mini/shelter.svg){ .twemoji } [Shelter (Work Profiles)](android.md#shelter)
+- ![Auditor logo](assets/img/android/auditor.svg#only-light){ .twemoji }![GrapheneOS logo](assets/img/android/auditor-dark.svg#only-dark){ .twemoji } [Auditor (Supported Devices)](android.md#auditor)
+- ![Secure Camera logo](assets/img/android/secure_camera.svg#only-light){ .twemoji }![Secure Camera logo](assets/img/android/secure_camera-dark.svg#only-dark){ .twemoji } [Secure Camera](android.md#secure-camera)
+- ![Secure PDF Viewer logo](assets/img/android/secure_pdf_viewer.svg#only-light){ .twemoji }![GrapheneOS logo](assets/img/android/secure_pdf_viewer-dark.svg#only-dark){ .twemoji } [Secure PDF Viewer](android.md#secure-pdf-viewer)
+
+</div>
+
+[Läs mer :material-arrow-right-drop-circle:](android.md#general-apps)
+
+### Skrivbord
+
+<div class="grid cards" markdown>
+
+- ![Qubes OS logo](assets/img/qubes/qubes_os.svg){ .twemoji } [Qubes OS (Xen VM Distribution)](desktop.md#qubes-os)
+- ![Fedora logo](assets/img/linux-desktop/fedora-workstation.svg){ .twemoji } [Fedora Workstation](desktop.md#fedora-workstation)
+- ![openSUSE Tumbleweed logo](assets/img/linux-desktop/opensuse-tumbleweed.svg){ .twemoji } [OpenSUSE Tumbleweed](desktop.md#opensuse-tumbleweed)
+- ![Arch logo](assets/img/linux-desktop/archlinux.svg){ .twemoji } [Arch Linux](desktop.md#arch-linux)
+- ![Fedora Silverblue logo](assets/img/linux-desktop/fedora-silverblue.svg){ .twemoji } [Fedora Silverblue & Kinoite](desktop.md#fedora-silverblue)
+- ![nixOS logo](assets/img/linux-desktop/nixos.svg){ .twemoji } [NixOS](desktop.md#nixos)
+- ![Whonix logo](assets/img/linux-desktop/whonix.svg){ .twemoji } [Whonix (Tor)](desktop.md#whonix)
+- ![Tails logo](assets/img/linux-desktop/tails.svg){ .twemoji } [Tails (Live Boot)](desktop.md#tails)
+
+</div>
+
+[Läs mer :material-arrow-right-drop-circle:](desktop.md)
+
+### Router Firmware
+
+<div class="grid cards" markdown>
+
+- ![GrapheneOS logo](assets/img/android/grapheneos.svg#only-light){ .twemoji }![GrapheneOS logo](assets/img/android/openwrt-dark.svg#only-dark){ .twemoji } [OpenWrt](router.md#openwrt)
+- ![DivestOS logo](assets/img/android/opnsense.svg){ .twemoji } [OPNsense](router.md#opnsense)
+
+</div>
+
+[Läs mer :material-arrow-right-drop-circle:](router.md)

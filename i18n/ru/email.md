@@ -378,12 +378,12 @@ SimpleLogin был [приобретен компанией Proton AG](https://p
 
 - Защищает IP-адрес отправителя. Отфильтрует его от отображения в поле заголовка `Received`.
 - Не требуйте личной идентификационной информации (PII), кроме имени пользователя и пароля.
-- Политика конфиденциальности, отвечающая требованиям GDPR
-- Не размещён в США из-за [ECPA](https://en.wikipedia.org/wiki/Electronic_Communications_Privacy_Act#Criticism), который [еще не реформирован](https://epic.org/ecpa/).
+- Privacy policy that meets the requirements defined by the GDPR.
 
 **В лучшем случае:**
 
 - Принимает [анонимные варианты оплаты](advanced/payments.md) ([криптовалюту](cryptocurrency.md), наличные, подарочные карты и т.д.)
+- Hosted in a jurisdiction with strong email privacy protection laws.
 
 ### Безопасность
 

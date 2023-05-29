@@ -32,7 +32,7 @@ L'anonymat est la capacité d'agir sans identifiant permanent. Vous pouvez y par
 
 Tous ces concepts se chevauchent, mais il est possible de les combiner. Pour la plupart des gens, l'idéal est que ces trois concepts se chevauchent. Cependant, il est plus difficile d'y parvenir que beaucoup ne le croient au premier abord. Parfois, il faut faire des compromis sur certains points, et c'est très bien ainsi. C'est là que la **modélisation des menaces** entre en jeu, vous permettant de prendre des décisions éclairées sur [les logiciels et les services](../tools.md) que vous utilisez.
 
-[:material-book-outline: En savoir plus sur la modélisation des menaces](basics/threat-modeling.md ""){.md-button}
+[:material-book-outline: En savoir plus sur la modélisation des menaces](threat-modeling.md ""){.md-button}
 
 ## Vie privée vs secret
 

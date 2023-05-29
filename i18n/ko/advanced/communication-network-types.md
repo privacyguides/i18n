@@ -6,7 +6,7 @@ description: An overview of several network architectures commonly used by insta
 
 사람들 간에 메시지를 전달할 때 일반적으로 쓰이는 네트워크의 구조는 여러 유형이 있습니다. 네트워크 유형마다 프라이버시 면에서 각각 다른 장단점이 존재하므로, 어떤 유형의 애플리케이션을 사용할지는 여러분의 [위협 모델](../basics/threat-modeling.md)을 고려하여 결정하는 것이 좋습니다.
 
-[권장 인스턴트 메신저](../real-time-communication.md ""){.md-button}
+[권장 메신저](../real-time-communication.md ""){.md-button}
 
 ## 중앙 집중형 네트워크
 
@@ -50,8 +50,8 @@ When self-hosted, members of a federated server can discover and communicate wit
 
 - 어떤 새로운 기능이 추가되려면 해당 기능이 네트워크상의 모든 서버에서 작동해야 합니다. 즉, 기능의 표준화와 테스트를 거쳐야 하므로 새로운 기능의 추가는 쉽지 않습니다.
 - 앞선 이유와 마찬가지로, 메시지 삭제나 오프라인 상태에서의 메시지 전달 등의 기능이 중앙 집중형 플랫폼에 비해 부족하거나, 불완전하거나, 예상치 못한 방식으로 작동할 수 있습니다.
-- Some metadata may be available (e.g., information like "who is talking to whom," but not actual message content if E2EE is used).
-- Federated servers generally require trusting your server's administrator. They may be a hobbyist or otherwise not a "security professional," and may not serve standard documents like a privacy policy or terms of service detailing how your data is used.
+- 일부 메타데이터가 유출될 가능성이 존재합니다(E2EE가 적용될 경우 실제 메시지 내용은 알 수 없지만, '누가 누구랑 대화하고 있는지'는 알 수 있습니다).
+- 연합형 서버를 사용하려면 일반적으로 해당 서버의 관리자를 신뢰해야 합니다. 하지만 서버 관리자가 '보안 전문가'일 것이란 보장은 없습니다. 단순히 취미로 운영할 수도 있으며, 사용자 데이터 처리 방침/서비스 약관/프라이버시 정책 등의 표준 문서를 제공하지 않을 수 있습니다.
 - Server administrators sometimes choose to block other servers, which are a source of unmoderated abuse or break general rules of accepted behavior. This will hinder your ability to communicate with members of those servers.
 
 ## P2P 네트워크
@@ -91,12 +91,12 @@ Self-hosting a node in an anonymous routing network does not provide the hoster 
 
 **장점:**
 
-- Minimal to no information is exposed to other parties.
+- 제3자에게 노출되는 정보를 최소화합니다.
 - Messages can be relayed in a decentralized manner even if one of the parties is offline.
 
 **단점:**
 
-- Slow message propagation.
+- 메시지 전달 속도가 느립니다.
 - Often limited to fewer media types, mostly text, since the network is slow.
 - Less reliable if nodes are selected by randomized routing, some nodes may be very far from the sender and receiver, adding latency or even failing to transmit messages if one of the nodes goes offline.
 - More complex to get started, as the creation and secured backup of a cryptographic private key is required.

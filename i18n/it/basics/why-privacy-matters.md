@@ -32,7 +32,7 @@ L'anonimato è la capacità di agire senza un identificatore persistente. È pos
 
 Tutti questi concetti si sovrappongono, ma è possibile avere qualsiasi combinazione di tutti e tre. La perfezione per la maggior parte delle persone la si raggiunge quando tutti e tre i concetti si sovrappongono. Tuttavia, è più difficile da raggiungere di quanto molti credano inizialmente. A volte, dovrai sacrificarne uno dei 3, e va bene anche così. È qui che entra in gioco la **modellazione delle minacce** che consente di prendere decisioni informate sui [software e sui servizi](../tools.md) da utilizzare.
 
-[:material-book-outline: Per saperne di più sulla Modellazione delle minacce](basics/threat-modeling.md ""){.md-button}
+[:material-book-outline: Per saperne di più sulla Modellazione delle minacce](threat-modeling.md ""){.md-button}
 
 ## Privacy vs Segretezza
 

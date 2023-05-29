@@ -376,12 +376,12 @@ Preferimos que nossos provedores recomendados coletem o mínimo possível de dad
 
 - Protect sender's IP address. Filter it from showing in the `Received` header field.
 - Don't require personally identifiable information (PII) besides a username and a password.
-- Privacy policy that meets the requirements defined by the GDPR
-- Must not be hosted in the US due to [ECPA](https://en.wikipedia.org/wiki/Electronic_Communications_Privacy_Act#Criticism) which has [yet to be reformed](https://epic.org/ecpa/).
+- Privacy policy that meets the requirements defined by the GDPR.
 
 **Melhor Caso:**
 
 - Aceita [opções de pagamento anônimas](advanced/payments.md) ([criptomoedas](cryptocurrency.md), dinheiro, cartões-presente, etc.)
+- Hosted in a jurisdiction with strong email privacy protection laws.
 
 ### Segurança
 

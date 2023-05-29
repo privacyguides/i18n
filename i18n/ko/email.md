@@ -6,9 +6,9 @@ description: 이러한 이메일 제공 업체는 여러분의 이메일을 안�
 cover: email.png
 ---
 
-이메일은 모든 온라인 서비스 이용에 사실상 필수적이지만, 개인 간 대화에는 권장드리지 않습니다. 다른 사람에게 연락할 때는 이메일보다는 순방향 비밀성을 지원하는 인스턴트 메신저를 사용하는 것이 좋습니다.
+이메일은 모든 온라인 서비스 이용에 사실상 필수적이지만, 개인 간 대화에는 권장드리지 않습니다. 다른 사람에게 연락할 때는 이메일보다는 순방향 비밀성을 지원하는 메신저를 사용하는 것이 좋습니다.
 
-[권장 인스턴트 메신저](real-time-communication.md ""){.md-button}
+[권장 메신저](real-time-communication.md ""){.md-button}
 
 그 외 용도로 이메일을 사용한다면, 지속 가능한 비즈니스 모델을 갖추고 보안 및 프라이버시 기능을 기본 제공하는 이메일 제공 업체를 권장합니다.
 
@@ -302,7 +302,7 @@ AnonAddy에서 생성 가능한 공통 도메인 별칭(공통 도메인은 @ano
         - [:simple-microsoftedge: Edge](https://microsoftedge.microsoft.com/addons/detail/simpleloginreceive-sen/diacfpipniklenphgljfkmhinphjlfff)
         - [:simple-safari: Safari](https://apps.apple.com/app/id1494051017)
 
-SimpleLogin은 [2022년 4월 8일자로 Proton AG](https://proton.me/news/proton-and-simplelogin-join-forces)에 인수되었습니다. Proton Mail을 주로 사용하고 계신다면 SimpleLogin은 훌륭한 선택입니다. 이제 두 제품 모두 동일한 회사에서 소유하고 있으므로, 신뢰해야 할 업체의 개수가 하나로 줄어듭니다. SimpleLogin은 향후 Proton 제품과 더욱 긴밀하게 통합될 것으로 기대하고 있습니다. SimpleLogin은 사용자가 선택한 어떤 이메일 제공업체든 계속 전달을 지원합니다. SimpleLogin은 2022년 초 Securitum으로부터 [감사받았으며](https://simplelogin.io/blog/security-audit/), 제기된 모든 문제는 [해결되었습니다](https://simplelogin.io/audit2022/web.pdf).
+SimpleLogin은 [2022년 4월 8일자로 Proton AG](https://proton.me/news/proton-and-simplelogin-join-forces)에 인수되었습니다. Proton Mail을 주로 사용하고 계신다면 SimpleLogin은 훌륭한 선택입니다. 이제 두 제품 모두 동일한 회사에서 소유하고 있으므로, 신뢰해야 할 업체의 개수가 하나로 줄어듭니다. SimpleLogin은 향후 Proton 제품과 더욱 긴밀하게 통합될 것으로 기대하고 있습니다. SimpleLogin은 사용자가 선택한 어떤 이메일 제공업체든 계속 전달을 지원합니다. SimpleLogin은 2022년 초 Securitum으로부터 [감사받았으며](https://simplelogin.io/blog/security-audit/), 당시 제기된 문제는 이후 모두 [해결되었습니다](https://simplelogin.io/audit2022/web.pdf).
 
 Proton 계정과 SimpleLogin 계정 연결은 설정에서 가능합니다. Proton Unlimited, Business, Visionary 플랜을 이용 중이라면 SimpleLogin 프리미엄도 무료로 제공됩니다.
 
@@ -378,12 +378,12 @@ We prefer our recommended providers to collect as little data as possible.
 
 - 발신자의 IP 주소를 보호해야 합니다. `Received` 헤더 필드에 표시되지 않도록 필터링해야 합니다.
 - 사용자 이름과 비밀번호 외에 개인 식별 정보(PII, Personally Identifiable Information)를 요구하지 않아야 합니다.
-- 프라이버시 정책은 GDPR에서 정의한 요구 사항을 충족해야 합니다.
-- [ECPA](https://en.wikipedia.org/wiki/Electronic_Communications_Privacy_Act#Criticism)가 [아직 개정되지 않았기 때문에](https://epic.org/ecpa/), 미국에서 호스트되어서는 안 됩니다.
+- Privacy policy that meets the requirements defined by the GDPR.
 
 **우대 사항:**
 
 - [익명 결제 수단](advanced/payments.md)([암호 화폐](cryptocurrency.md), 현금, 기프트 카드 등)을 지원해야 합니다.
+- Hosted in a jurisdiction with strong email privacy protection laws.
 
 ### 보안
 

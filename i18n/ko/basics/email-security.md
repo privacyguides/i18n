@@ -15,7 +15,7 @@ description: 이메일은 태생적으로 여러 가지 면에서 안전하지 �
 
 비즈니스에서 널리 사용되는 [S/MIME](https://en.wikipedia.org/wiki/S/MIME) 표준도 있으나, S/MIME는 [인증 기관](https://en.wikipedia.org/wiki/Certificate_authority)(모든 인증 기관이 S/MIME 인증서를 발급하지는 않습니다)에서 발급한 인증서가 필요합니다. S/MIME는 [Google Workplace](https://support.google.com/a/topic/9061730?hl=en&ref_topic=9061731), [웹용 Outlook 또는 Exchange Server 2016, 2019](https://support.office.com/en-us/article/encrypt-messages-by-using-s-mime-in-outlook-on-the-web-878c79fc-7088-4b39-966f-14512658f480)에서 지원됩니다.
 
-OpenPGP를 사용하더라도 [순방향 비밀성(Forward secrecy)](https://en.wikipedia.org/wiki/Forward_secrecy)을 지원하지 않으므로, 본인 혹은 수신자의 개인 키가 도난당할 경우 해당 키로 암호화된 이전 메시지가 전부 노출됩니다. 따라서, 개인 간 의사소통에는 이메일보다는 순방향 비밀성이 구현된 [인스턴트 메신저](../real-time-communication.md) 이용을 권장합니다.
+OpenPGP를 사용하더라도 [순방향 비밀성(Forward secrecy)](https://en.wikipedia.org/wiki/Forward_secrecy)을 지원하지 않으므로, 본인 혹은 수신자의 개인 키가 도난당할 경우 해당 키로 암호화된 이전 메시지가 전부 노출됩니다. 따라서, 개인 간 의사소통에는 이메일보다는 순방향 비밀성이 구현된 [메신저](../real-time-communication.md)를 이용하실 것을 권장드립니다.
 
 ### E2EE 지원 이메일 클라이언트는 무엇인가요?
 

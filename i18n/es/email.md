@@ -378,12 +378,12 @@ Preferimos que nuestros proveedores recomendados recojan la menor cantidad de da
 
 - Proteger la dirección IP del remitente. Filtrarlo para que no aparezca en el campo de cabecera `Recibido`.
 - No requiera información personal identificable (PII) aparte de un nombre de usuario y una contraseña.
-- Política de privacidad que cumple los requisitos definidos por el GDPR
-- No debe estar alojado en los Estados Unidos debido a [ECPA](https://en.wikipedia.org/wiki/Electronic_Communications_Privacy_Act#Criticism) que aún tiene [que ser reformado](https://epic.org/ecpa/).
+- Privacy policy that meets the requirements defined by the GDPR.
 
 **Mejor caso:**
 
 - Acepte [opciones de pago anónimas](advanced/payments.md) ([criptomonedas](cryptocurrency.md), efectivo, tarjetas regalo, etc.)
+- Hosted in a jurisdiction with strong email privacy protection laws.
 
 ### Seguridad
 

@@ -70,61 +70,6 @@ For more details about each project, why they were chosen, and additional tips o
 
 [자세히 알아보기 :material-arrow-right-drop-circle:](mobile-browsers.md#adguard)
 
-## 운영 체제
-
-### 모바일
-
-<div class="grid cards" markdown>
-
-- ![GrapheneOS 로고](assets/img/android/grapheneos.svg#only-light){ .twemoji }![GrapheneOS 로고](assets/img/android/grapheneos-dark.svg#only-dark){ .twemoji } [GrapheneOS](android.md#grapheneos)
-- ![DivestOS 로고](assets/img/android/divestos.svg){ .twemoji } [DivestOS](android.md#divestos)
-
-</div>
-
-[자세히 알아보기 :material-arrow-right-drop-circle:](android.md)
-
-#### Android 앱
-
-<div class="grid cards" markdown>
-
-- ![Aurora Store 로고](assets/img/android/aurora-store.webp){ .twemoji } [Aurora Store (Google Play 클라이언트)](android.md#aurora-store)
-- ![Shelter 로고](assets/img/android/mini/shelter.svg){ .twemoji } [Shelter (직장 프로필)](android.md#shelter)
-- ![Auditor 로고](assets/img/android/auditor.svg#only-light){ .twemoji }![GrapheneOS logo](assets/img/android/auditor-dark.svg#only-dark){ .twemoji } [Auditor (지원 기기)](android.md#auditor)
-- ![Secure Camera 로고](assets/img/android/secure_camera.svg#only-light){ .twemoji }![Secure Camera 로고](assets/img/android/secure_camera-dark.svg#only-dark){ .twemoji } [Secure Camera](android.md#secure-camera)
-- ![Secure PDF Viewer 로고](assets/img/android/secure_pdf_viewer.svg#only-light){ .twemoji }![GrapheneOS 로고](assets/img/android/secure_pdf_viewer-dark.svg#only-dark){ .twemoji } [Secure PDF Viewer](android.md#secure-pdf-viewer)
-
-</div>
-
-[자세히 알아보기 :material-arrow-right-drop-circle:](android.md#general-apps)
-
-### 데스크톱/PC
-
-<div class="grid cards" markdown>
-
-- ![Qubes OS 로고](assets/img/qubes/qubes_os.svg){ .twemoji } [Qubes OS (Xen VM 배포판)](desktop.md#qubes-os)
-- ![Fedora 로고](assets/img/linux-desktop/fedora-workstation.svg){ .twemoji } [Fedora Workstation](desktop.md#fedora-workstation)
-- ![openSUSE Tumbleweed 로고](assets/img/linux-desktop/opensuse-tumbleweed.svg){ .twemoji } [OpenSUSE Tumbleweed](desktop.md#opensuse-tumbleweed)
-- ![Arch 로고](assets/img/linux-desktop/archlinux.svg){ .twemoji } [Arch Linux](desktop.md#arch-linux)
-- ![Fedora Silverblue 로고](assets/img/linux-desktop/fedora-silverblue.svg){ .twemoji } [Fedora Silverblue & Kinoite](desktop.md#fedora-silverblue)
-- ![nixOS 로고](assets/img/linux-desktop/nixos.svg){ .twemoji } [NixOS](desktop.md#nixos)
-- ![Whonix 로고](assets/img/linux-desktop/whonix.svg){ .twemoji } [Whonix (Tor)](desktop.md#whonix)
-- ![Tails 로고](assets/img/linux-desktop/tails.svg){ .twemoji } [Tails (Live Boot)](desktop.md#tails)
-
-</div>
-
-[자세히 알아보기 :material-arrow-right-drop-circle:](desktop.md)
-
-### 공유기 펌웨어
-
-<div class="grid cards" markdown>
-
-- ![OpenWrt 로고](assets/img/router/openwrt.svg#only-light){ .twemoji }![OpenWrt 로고](assets/img/router/openwrt-dark.svg#only-dark){ .twemoji } [OpenWrt](router.md#openwrt)
-- ![OPNsense 로고](assets/img/router/opnsense.svg){ .twemoji } [OPNsense](router.md#opnsense)
-
-</div>
-
-[자세히 알아보기 :material-arrow-right-drop-circle:](router.md)
-
 ## Service Providers
 
 ### 클라우드 스토리지
@@ -474,3 +419,58 @@ We [recommend](dns.md#recommended-providers) a number of encrypted DNS servers b
 </div>
 
 [자세히 알아보기 :material-arrow-right-drop-circle:](video-streaming.md)
+
+## 운영 체제
+
+### 모바일
+
+<div class="grid cards" markdown>
+
+- ![GrapheneOS 로고](assets/img/android/grapheneos.svg#only-light){ .twemoji }![GrapheneOS 로고](assets/img/android/grapheneos-dark.svg#only-dark){ .twemoji } [GrapheneOS](android.md#grapheneos)
+- ![DivestOS 로고](assets/img/android/divestos.svg){ .twemoji } [DivestOS](android.md#divestos)
+
+</div>
+
+[자세히 알아보기 :material-arrow-right-drop-circle:](android.md)
+
+#### Android 앱
+
+<div class="grid cards" markdown>
+
+- ![Aurora Store 로고](assets/img/android/aurora-store.webp){ .twemoji } [Aurora Store (Google Play 클라이언트)](android.md#aurora-store)
+- ![Shelter 로고](assets/img/android/mini/shelter.svg){ .twemoji } [Shelter (직장 프로필)](android.md#shelter)
+- ![Auditor 로고](assets/img/android/auditor.svg#only-light){ .twemoji }![GrapheneOS logo](assets/img/android/auditor-dark.svg#only-dark){ .twemoji } [Auditor (지원 기기)](android.md#auditor)
+- ![Secure Camera 로고](assets/img/android/secure_camera.svg#only-light){ .twemoji }![Secure Camera 로고](assets/img/android/secure_camera-dark.svg#only-dark){ .twemoji } [Secure Camera](android.md#secure-camera)
+- ![Secure PDF Viewer 로고](assets/img/android/secure_pdf_viewer.svg#only-light){ .twemoji }![GrapheneOS 로고](assets/img/android/secure_pdf_viewer-dark.svg#only-dark){ .twemoji } [Secure PDF Viewer](android.md#secure-pdf-viewer)
+
+</div>
+
+[자세히 알아보기 :material-arrow-right-drop-circle:](android.md#general-apps)
+
+### 데스크톱/PC
+
+<div class="grid cards" markdown>
+
+- ![Qubes OS 로고](assets/img/qubes/qubes_os.svg){ .twemoji } [Qubes OS (Xen VM 배포판)](desktop.md#qubes-os)
+- ![Fedora 로고](assets/img/linux-desktop/fedora-workstation.svg){ .twemoji } [Fedora Workstation](desktop.md#fedora-workstation)
+- ![openSUSE Tumbleweed 로고](assets/img/linux-desktop/opensuse-tumbleweed.svg){ .twemoji } [OpenSUSE Tumbleweed](desktop.md#opensuse-tumbleweed)
+- ![Arch 로고](assets/img/linux-desktop/archlinux.svg){ .twemoji } [Arch Linux](desktop.md#arch-linux)
+- ![Fedora Silverblue 로고](assets/img/linux-desktop/fedora-silverblue.svg){ .twemoji } [Fedora Silverblue & Kinoite](desktop.md#fedora-silverblue)
+- ![nixOS 로고](assets/img/linux-desktop/nixos.svg){ .twemoji } [NixOS](desktop.md#nixos)
+- ![Whonix 로고](assets/img/linux-desktop/whonix.svg){ .twemoji } [Whonix (Tor)](desktop.md#whonix)
+- ![Tails 로고](assets/img/linux-desktop/tails.svg){ .twemoji } [Tails (Live Boot)](desktop.md#tails)
+
+</div>
+
+[자세히 알아보기 :material-arrow-right-drop-circle:](desktop.md)
+
+### 공유기 펌웨어
+
+<div class="grid cards" markdown>
+
+- ![OpenWrt 로고](assets/img/router/openwrt.svg#only-light){ .twemoji }![OpenWrt 로고](assets/img/router/openwrt-dark.svg#only-dark){ .twemoji } [OpenWrt](router.md#openwrt)
+- ![OPNsense 로고](assets/img/router/opnsense.svg){ .twemoji } [OPNsense](router.md#opnsense)
+
+</div>
+
+[자세히 알아보기 :material-arrow-right-drop-circle:](router.md)

@@ -378,12 +378,12 @@ Jobban szeretjük, ha az általunk ajánlott szolgáltatók a lehető legkeveseb
 
 - Protect sender's IP address. Filter it from showing in the `Received` header field.
 - Don't require personally identifiable information (PII) besides a username and a password.
-- Privacy policy that meets the requirements defined by the GDPR
-- Must not be hosted in the US due to [ECPA](https://en.wikipedia.org/wiki/Electronic_Communications_Privacy_Act#Criticism) which has [yet to be reformed](https://epic.org/ecpa/).
+- Privacy policy that meets the requirements defined by the GDPR.
 
 **Legjobb Esetben:**
 
 - Accepts [anonymous payment options](advanced/payments.md) ([cryptocurrency](cryptocurrency.md), cash, gift cards, etc.)
+- Hosted in a jurisdiction with strong email privacy protection laws.
 
 ### Adatbiztonság
 

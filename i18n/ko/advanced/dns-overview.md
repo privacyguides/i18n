@@ -1,7 +1,7 @@
 ---
 title: "DNS 개요"
 icon: material/dns
-description: The Domain Name System is the "phonebook of the internet," helping your browser find the website it's looking for.
+description: DNS, 즉 도메인 네임 시스템은 '인터넷의 전화번호부'라고 할 수 있습니다. DNS가 있기 때문에 여러분은 브라우저에서 원하는 사이트를 찾아 연결할 수 있습니다.
 ---
 
 [도메인 네임 시스템](https://ko.wikipedia.org/wiki/%EB%8F%84%EB%A9%94%EC%9D%B8_%EB%84%A4%EC%9E%84_%EC%8B%9C%EC%8A%A4%ED%85%9C)은 '인터넷의 전화번호부'라고 할 수 있습니다. DNS는 분산 서버 네트워크를 통해 도메인 이름을 IP 주소로 변환합니다. 브라우저 등의 서비스는 이를 이용해 인터넷 리소스를 로드할 수 있습니다.
@@ -328,31 +328,31 @@ If the network observer has the public certificate, which is publicly available,
 
 
 
-## Should I use encrypted DNS?
+## "제가 암호화 DNS를 사용해야 할까요?"
 
-We made this flow chart to describe when you *should* use encrypted DNS:
+Privacy Guides는 여러분이 *언제 암호화 DNS를 사용해야 할지* 판단할 수 있도록 플로우차트로 정리해 보았습니다.
 
 
 
 ``` mermaid
 graph TB
-    Start[Start] --> anonymous{Trying to be<br> anonymous?}
-    anonymous--> | Yes | tor(Use Tor)
-    anonymous --> | No | censorship{Avoiding<br> censorship?}
-    censorship --> | Yes | vpnOrTor(Use<br> VPN or Tor)
-    censorship --> | No | privacy{Want privacy<br> from ISP?}
-    privacy --> | Yes | vpnOrTor
-    privacy --> | No | obnoxious{ISP makes<br> obnoxious<br> redirects?}
-    obnoxious --> | Yes | encryptedDNS(Use<br> encrypted DNS<br> with 3rd party)
-    obnoxious --> | No | ispDNS{Does ISP support<br> encrypted DNS?}
-    ispDNS --> | Yes | useISP(Use<br> encrypted DNS<br> with ISP)
-    ispDNS --> | No | nothing(Do nothing)
+    Start[시작] --> anonymous{익명성을<br>원하시나요?}
+    anonymous--> | 예 | tor(Tor를 사용하세요)
+    anonymous --> | 아니요 | censorship{검열 회피가<br>목적인가요?}
+    censorship --> | 예 | vpnOrTor(VPN이나 Tor를<br>사용하세요)
+    censorship --> | 아니요 | privacy{ISP로부터의<br>프라이버시가<br>목적인가요?}
+    privacy --> | 예 | vpnOrTor
+    privacy --> | 아니요 | obnoxious{"ISP의 간섭이<br>성가신가요?<br>(강제 리다이렉트 등)"}
+    obnoxious --> | 예 | encryptedDNS(제3자 암호화 DNS를<br>사용하세요)
+    obnoxious --> | 아니요 | ispDNS{ISP에서<br>암호화 DNS를<br>지원하나요?}
+    ispDNS --> | 예 | useISP(ISP 암호화 DNS를<br>사용하세요)
+    ispDNS --> | 아니요 | nothing(아무 것도<br>할 필요 없습니다)
 ```
 
 
 Encrypted DNS with a third-party should only be used to get around redirects and basic [DNS blocking](https://en.wikipedia.org/wiki/DNS_blocking) when you can be sure there won't be any consequences or you're interested in a provider that does some rudimentary filtering.
 
-[List of recommended DNS servers](../dns.md ""){.md-button}
+[권장 DNS 서버 목록](../dns.md ""){.md-button}
 
 
 
