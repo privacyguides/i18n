@@ -29,7 +29,7 @@ Di solito ci sono diversi modi per iscriversi ad un account, ognuno con i propri
 
 Il modo più comune per creare un nuovo account è tramite un indirizzo e-mail e una password. Quando si utilizza questo metodo, è necessario utilizzare un gestore di password e seguire le [migliori pratiche](passwords-overview.md) per quanto riguarda le password.
 
-!!! important
+!!! tip "Suggerimento"
 
     Puoi utilizzare il tuo gestore di password per organizzare anche altri metodi di autenticazione! Basta aggiungere la nuova voce e riempire i relativi campi; è inoltre possibile aggiungere note per cose come le domande di sicurezza o per una chiave di backup.
 

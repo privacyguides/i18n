@@ -35,7 +35,7 @@ Quando si parla di sicurezza delle applicazioni, in genere non sappiamo (e a vol
 
 Per ridurre al minimo i danni che un software dannoso *potrebbe* arrecare, è necessario utilizzare la sicurezza per compartimentazione. Ad esempio, si potrebbe utilizzare computer diversi per lavori diversi, macchine virtuali per separare gruppi diversi di applicazioni correlate o un sistema operativo sicuro con una forte attenzione al sandboxing delle applicazioni e al controllo obbligatorio degli accessi.
 
-!!! suggerimento
+!!! tip "Suggerimento"
 
     I sistemi operativi mobile hanno in genere un sandboxing delle applicazioni migliore rispetto ai sistemi operativi desktop: Le applicazioni non possono ottenere l'accesso root e richiedono l'autorizzazione per accedere alle risorse di sistema.
     
@@ -45,7 +45,7 @@ Per ridurre al minimo i danni che un software dannoso *potrebbe* arrecare, è ne
 
 Gli attacchi mirati contro una persona specifica sono più problematici da gestire. Gli attacchi più comuni includono l'invio di documenti dannosi via e-mail, lo sfruttamento di vulnerabilità (ad esempio nei browser e nei sistemi operativi) e gli attacchi fisici. Se questo è un problema per voi, dovreste impiegare strategie di mitigazione delle minacce più avanzate.
 
-!!! suggerimento
+!!! tip "Suggerimento"
 
     Per loro natura, i **web browser**, i **client di posta elettronica** e le **applicazioni per ufficio** eseguono tipicamente codice non attendibile, inviato da terzi. L'esecuzione di più macchine virtuali, per separare applicazioni come queste dal sistema host e da ogni altra, è una tecnica che si può utilizzare per ridurre la possibilità che un exploit in queste applicazioni comprometta il resto del sistema. Ad esempio, tecnologie come Qubes OS o Microsoft Defender Application Guard su Windows offrono metodi pratici per farlo.
 
@@ -61,7 +61,7 @@ Il problema evidente è che il fornitore di servizi (o un hacker che abbia compr
 
 Fortunatamente, E2EE può alleviare questo problema crittografando le comunicazioni tra l'utente e i destinatari desiderati prima ancora che vengano inviate al server. La riservatezza dei messaggi è garantita, a patto che il fornitore del servizio non abbia accesso alle chiavi private di entrambe le parti.
 
-!!! nota "Nota sulla crittografia Web-based"
+!!! note "Nota sulla crittografia Web-based"
 
     In pratica, l'efficacia delle diverse implementazioni E2EE varia. Le applicazioni, come [Signal](../real-time-communication.md#signal), vengono eseguite in modo nativo sul dispositivo e ogni copia dell'applicazione è la stessa in tutte le installazioni. Se il fornitore di servizi introducesse una [backdoor](https://en.wikipedia.org/wiki/Backdoor_(computing)) nella propria applicazione - nel tentativo di rubare le chiavi private - potrebbe in seguito essere individuato con il [reverse engineering] (https://en.wikipedia.org/wiki/Reverse_engineering).
     
@@ -133,7 +133,7 @@ La censura sulle piattaforme aziendali è sempre più comune, in quanto piattafo
 
 Le persone preoccupate dalla minaccia della censura possono utilizzare tecnologie come [Tor](../advanced/tor-overview.md) per aggirarla e sostenere piattaforme di comunicazione resistenti alla censura come [Matrix](../real-time-communication.md#element), che non hanno un'autorità centralizzata che può chiudere gli account arbitrariamente.
 
-!!! suggerimento
+!!! tip "Suggerimento"
 
     Se eludere la censura in sé può essere facile, nascondere il fatto che lo si sta facendo può essere molto problematico.
     

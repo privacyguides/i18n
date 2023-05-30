@@ -45,7 +45,7 @@ Queste tendono ad essere buone opzioni per i pagamenti ricorrenti o abbonamenti 
 
 Le criptovalute sono una forma di moneta digitale progettata per funzionare senza autorità centrali come un governo o una banca. Mentre *alcuni * progetti di criptovaluta consentono di effettuare transazioni private online, molti utilizzano una blockchain pubblica che non garantisce la privacy delle transazioni. Le criptovalute tendono inoltre ad essere asset molto volatili, il che significa che il loro valore può cambiare rapidamente e in modo significativo in qualsiasi momento. Per questo motivo, in genere non consigliamo di utilizzare le criptovalute come riserva di valore a lungo termine. Se decidete di utilizzare le criptovalute online, assicuratevi di conoscere bene gli aspetti relativi alla privacy e di investire solo somme che non sarebbero disastrose da perdere.
 
-!!! attenzione
+!!! danger "Attenzione"
 
     La maggior parte delle criptovalute operano su una blockchain **pubblica**, il che significa che ogni transazione è di dominio pubblico. Questo include anche le criptovalute più note come Bitcoin ed Ethereum. Le transazioni con queste criptovalute non devono essere considerate private e non proteggono l'anonimato.
     

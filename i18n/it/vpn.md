@@ -45,7 +45,7 @@ I fornitori che consigliamo utilizzano la crittografia, accettano Monero, suppor
     [:octicons-info-16:](https://www.ivpn.net/knowledgebase/general){ .card-link title=Documentazione}
     [:octicons-code-16:](https://github.com/ivpn){ .card-link title="Codice sorgente" }
     
-    ??? download
+    ??? download "Scaricare"
     
         - [:simple-googleplay: Google Play](https://play.google.com/store/apps/details?id=net.ivpn.client)
         - [:octicons-moon-16: Accrescent](https://accrescent.app/app/net.ivpn.client)
@@ -107,7 +107,7 @@ I client IVPN supportano l'autenticazione a due fattori (i client Mullvad no). I
     [:octicons-info-16:](https://mullvad.net/en/help/){ .card-link title=Documentazione}
     [:octicons-code-16:](https://github.com/mullvad){ .card-link title="Codice Sorgente" }
     
-    ??? download
+    ??? download "Scaricare"
     
         - [:simple-googleplay: Google Play](https://play.google.com/store/apps/details?id=net.mullvad.mullvadvpn)
         - [:simple-appstore: App Store](https://apps.apple.com/app/mullvad-vpn/id1488466513)
@@ -180,7 +180,7 @@ Mullvad è molto trasparente su quali nodi [possiede o affitta](https://mullvad.
     [:octicons-info-16:](https://protonvpn.com/support/){ .card-link title=Documentazione}
     [:octicons-code-16:](https://github.com/ProtonVPN){ .card-link title="Codice Sorgente" }
     
-    ??? download
+    ??? download "Scaricare"
     
         - [:simple-googleplay: Google Play](https://play.google.com/store/apps/details?id=ch.protonvpn.android)
         - [:simple-appstore: App Store](https://apps.apple.com/app/apple-store/id1437005085)
@@ -233,7 +233,7 @@ Arresti anomali del sistema [possono verificarsi](https://protonvpn.com/support/
 
 ## Criteri
 
-!!! attenzione
+!!! danger "Attenzione"
 
     È importante notare che l'utilizzo di una VPN non ti rende anonimo, ma può migliorare la tua privacy in alcune situazioni. Una VPN non è uno strumento per attività illegali. Non affidarti ad una politica "no log".
 
