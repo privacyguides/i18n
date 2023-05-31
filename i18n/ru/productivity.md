@@ -154,3 +154,24 @@ In general, we define office suites as applications which could reasonably act a
     [:octicons-server-16:](https://privatebin.info/directory/){ .card-link title="Public Instances"}
     [:octicons-info-16:](https://github.com/PrivateBin/PrivateBin/wiki/FAQ){ .card-link title=Documentation}
     [:octicons-code-16:](https://github.com/PrivateBin/PrivateBin){ .card-link title="Source Code" }
+
+### Criteria
+
+**Please note we are not affiliated with any of the projects we recommend.** In addition to [our standard criteria](about/criteria.md), we have developed a clear set of requirements to allow us to provide objective recommendations. We suggest you familiarize yourself with this list before choosing to use a project, and conduct your own research to ensure it's the right choice for you.
+
+!!! Для уменьшения этой угрозы рассмотрите возможность самостоятельного хостинга.
+
+    We are working on establishing defined criteria for every section of our site, and this may be subject to change. If you have any questions about our criteria, please [ask on our forum](https://discuss.privacyguides.net/latest) and don't assume we didn't consider something when making our recommendations if it is not listed here. Мы учитываем и обсуждаем много факторов, перед тем как рекомендовать какой-то проект, и документирование каждого из них ещё не завершено.
+
+#### Минимальные требования к сервисам
+
+- Must be open-source.
+- Must implement "zero-trust" end-to-end encryption.
+- Must support password-protected files.
+
+
+#### В лучшем случае
+
+Эти критерии представляют собой то, что мы хотели бы видеть от идеального проекта в этой категории. Наши рекомендации могут не соответствовать всем или нескольким из этих критериев, но проекты, которые им соответствуют, расположены выше остальных.
+
+- Should have a published audit from a reputable, independent third-party.

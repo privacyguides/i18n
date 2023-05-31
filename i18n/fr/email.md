@@ -378,12 +378,12 @@ Nous préférons que nos prestataires recommandés collectent le moins de donné
 
 - Protéger l'adresse IP de l'expéditeur. Filtrez-la pour qu'elle n'apparaisse pas dans le champ d'en-tête `Received`.
 - Ne demandez pas de Données à Caractère Personnel (DCP) en plus d'un nom d'utilisateur et d'un mot de passe.
-- Privacy policy that meets the requirements defined by the GDPR.
+- Politique de confidentialité répondant aux exigences définies par le RGPD.
 
 **Dans le meilleur des cas :**
 
 - Accepte des [options de paiement anonymes](advanced/payments.md) ([crypto-monnaie](cryptocurrency.md), argent liquide, cartes cadeaux, etc.)
-- Hosted in a jurisdiction with strong email privacy protection laws.
+- Hébergé dans une juridiction disposant de lois strictes en matière de protection de la confidentialité des courriels.
 
 ### Sécurité
 

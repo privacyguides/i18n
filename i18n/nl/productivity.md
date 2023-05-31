@@ -154,3 +154,24 @@ In het algemeen definiëren wij kantoorsuites als toepassingen die voor de meest
     [:octicons-server-16:](https://privatebin.info/directory/){ .card-link title="Public Instances"}
     [:octicons-info-16:](https://github.com/PrivateBin/PrivateBin/wiki/FAQ){ .card-link title=Documentatie}
     [:octicons-code-16:](https://github.com/PrivateBin/PrivateBin){ .card-link title="Broncode" }
+
+### Criteria
+
+**Wij zijn niet verbonden aan de projecten die wij aanbevelen.** Naast [onze standaardcriteria](about/criteria.md)hebben wij een duidelijke reeks eisen ontwikkeld om objectieve aanbevelingen te kunnen doen. Wij stellen voor dat je jezelf vertrouwd maakt met deze lijst voordat je een project kiest, en jouw eigen onderzoek uitvoert om er zeker van te zijn dat je de juiste keuze maakt.
+
+!!! example "Deze sectie is nieuw"
+
+    We werken aan het vaststellen van gedefinieerde criteria voor elk deel van onze site, en dit kan onderhevig zijn aan verandering. Als je vragen hebt over onze criteria, stel ze dan [op ons forum](https://discuss.privacyguides.net/latest) en neem niet aan dat we iets niet in overweging hebben genomen bij het opstellen van onze aanbevelingen als het hier niet vermeld staat. Er zijn veel factoren die worden overwogen en besproken wanneer wij een project aanbevelen, en het documenteren van elke factor is een werk in uitvoering.
+
+#### Minimale vereisten
+
+- Moet open-source zijn.
+- Must implement "zero-trust" end-to-end encryption.
+- Must support password-protected files.
+
+
+#### Beste geval
+
+Onze best-case criteria geven aan wat wij zouden willen zien van het perfecte project in deze categorie. Het is mogelijk dat onze aanbevelingen geen of niet alle functies bevatten, maar degene die dat wel doen kunnen hoger gerangschikt worden dan andere op deze pagina.
+
+- Should have a published audit from a reputable, independent third-party.

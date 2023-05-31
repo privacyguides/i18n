@@ -180,3 +180,26 @@ In general, we define office suites as applications which could reasonably act a
     [:octicons-server-16:](https://privatebin.info/directory/){ .card-link title="Public Instances"}
     [:octicons-info-16:](https://github.com/PrivateBin/PrivateBin/wiki/FAQ){ .card-link title=Documentation}
     [:octicons-code-16:](https://github.com/PrivateBin/PrivateBin){ .card-link title="Source Code" }
+
+### Framadate
+
+**Please note we are not affiliated with any of the projects we recommend.** In addition to [our standard criteria](about/criteria.md), we have developed a clear set of requirements to allow us to provide objective recommendations. We suggest you familiarize yourself with this list before choosing to use a project, and conduct your own research to ensure it's the right choice for you.
+
+!!! Considere o auto-hospedagem para mitigar esta ameaça.
+
+    ![logo PrivateBin](/assets/img/productivity/privatebin.svg){ align=right }
+    
+    **PrivateBin** é um pastebin online minimalista e de código aberto onde o servidor tem zero conhecimento de dados colados. Os dados são criptografados/descriptografados no navegador usando AES de 256 bits. Psono suporta compartilhamento seguro de senhas, arquivos, marcadores e e-mails.
+
+#### Minimum Requirements
+
+- Must be open-source.
+- Must implement "zero-trust" end-to-end encryption.
+- Must support password-protected files.
+
+
+#### Best-Case
+
+Our best-case criteria represents what we would like to see from the perfect project in this category. Our recommendations may not include any or all of this functionality, but those which do may rank higher than others on this page.
+
+- Should have a published audit from a reputable, independent third-party.

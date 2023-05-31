@@ -68,7 +68,7 @@ A legtöbb online irodai programcsomag nem támogatja az End-to-End titkosítás
 - Támogat valós idejű dokumentum-kollaborációt.
 - Támogatja a dokumentumok szabványos dokumentumformátumba (pl. ODF) történő exportálását.
 
-#### Legjobb Esetben
+#### Best-Case
 
 A legjobb esetben alkalmazott követelményeink azt fejezik ki, hogy mit szeretnénk látni egy tökéletes projekttől ebben a kategóriában. Előfordulhat, hogy ajánlásaink nem tartalmazzák az összes ilyen funkciót, de azok, amelyek igen, magasabb helyen szerepelhetnek, mint mások ezen az oldalon.
 
@@ -154,3 +154,24 @@ A legjobb esetben alkalmazott követelményeink azt fejezik ki, hogy mit szeretn
     [:octicons-server-16:](https://privatebin.info/directory/){ .card-link title="Publikus Példányok"}
     [:octicons-info-16:](https://github.com/PrivateBin/PrivateBin/wiki/FAQ){ .card-link title=Dokumentáció}
     [:octicons-code-16:](https://github.com/PrivateBin/PrivateBin){ .card-link title="Forráskód" }
+
+### Követelmények
+
+**Tartsd figyelemben, hogy nem állunk kapcsolatban az általunk ajánlott projektek egyikével sem.** Az [alap kritériumaink mellett](about/criteria.md), egyértelmű követelményrendszert dolgoztunk ki, hogy objektív ajánlásokat tudjunk tenni. Javasoljuk, hogy ismerkedj meg ezzel a listával, mielőtt kiválasztanál egy projektet, és végezz saját kutatásokat, hogy megbizonyosodj arról, hogy ez a megfelelő választás számodra.
+
+!!! example "Ez a szakasz új"
+
+    Azon dolgozunk, hogy meghatározott követelményeket állapítsunk meg az oldalunk minden egyes szakaszára vonatkozóan, és ez még változhat. Ha bármilyen kérdésed van a követelményinkkel kapcsolatban, kérjük, [kérdezz a fórumon](https://discuss.privacyguides.net/latest), és ne feltételezd, hogy valamit nem vettünk figyelembe az ajánlásaink elkészítésekor, ha az nem szerepel itt. Számos tényezőt veszünk figyelembe és vitatunk meg, amikor egy projektet ajánlunk, és minden egyes tényező dokumentálása folyamatban lévő munka.
+
+#### Minimum Requirements
+
+- Must be open-source.
+- Must implement "zero-trust" end-to-end encryption.
+- Must support password-protected files.
+
+
+#### Best-Case
+
+Our best-case criteria represents what we would like to see from the perfect project in this category. Our recommendations may not include any or all of this functionality, but those which do may rank higher than others on this page.
+
+- Should have a published audit from a reputable, independent third-party.
