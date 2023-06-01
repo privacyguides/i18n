@@ -17,7 +17,7 @@ schema:
     - https://mastodon.neat.computer/@privacyguides
 ---
 
-![Privacy Guides 로고](../assets/brand/png/square/pg-yellow.png){ align=right }
+![Privacy Guides 로고](../assets/brand/PNG/Square/pg-yellow.png){ align=right }
 
 **Privacy Guides**는 여러분의 데이터 보안, 프라이버시 보호 [정보 제공](/kb)을 목적으로 운영되는 사이트입니다. Privacy Guides 존재 의의는 '디지털 프라이버시의 가치'와 '여러분의 온라인 활동을 모니터링하고자 하는 전 세계 각국 정부의 활동'을 보다 널리, 그리고 분명하게 알리는 것입니다. Privacy Guides는 비영리 단체이며, 순수하게 [자원봉사자로 이루어진 팀](https://discuss.privacyguides.net/g/team)과 기여자 분들에 의해 운영됩니다. Privacy Guides 웹사이트에는 광고가 존재하지 않으며, 서술된 서비스 제공 업체와 어떠한 제휴도 맺지 않았습니다.
 

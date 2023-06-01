@@ -17,7 +17,7 @@ schema:
     - https://mastodon.neat.computer/@privacyguides
 ---
 
-![Privacy Guides logo](../assets/brand/png/square/pg-yellow.png){ align=right }
+![Privacy Guides logo](../assets/brand/PNG/Square/pg-yellow.png){ align=right }
 
 A **Privacy Guides** egy szociálisan motivált weboldal, amely [információkat nyújt](/kb) az adatbiztonság és a magánélet védelméről. Our mission is to inform the public about the value of digital privacy, and global government initiatives which aim to monitor your online activity. Mi egy non-profit csoport vagyunk, ameit teljes egészében önkéntes [csapattagok](https://discuss.privacyguides.net/g/team) és közreműködők működtetnek. Our website is free of advertisements and not affiliated with any of the listed providers.
 

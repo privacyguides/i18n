@@ -17,7 +17,7 @@ schema:
     - https://mastodon.neat.computer/@privacyguides
 ---
 
-![Privacy Guides logo](../assets/brand/png/square/pg-yellow.png){ align=right }
+![Privacy Guides logo](../assets/brand/PNG/Square/pg-yellow.png){ align=right }
 
 **Privacy Guides** הוא אתר בעל מוטיבציה חברתית המספק [מידע](/kb) להגנה על אבטחת הנתונים ופרטיותך. המשימה שלך היא ליידע את הציבור על הערך של פרטיות דיגיטלית, ויוזמות ממשלתיות גלובליות שמטרתן לנטר את הפעילות המקוונת שלך. אנחנו קולקטיב ללא מטרות רווח המופעל כולו על ידי [חברי צוות](https://discuss.privacyguides.net/g/team) מתנדבים ותורמים. האתר שלנו נקי מפרסומות ואינו מזוהה עם אף אחד מהספקים הרשומים.
 

@@ -153,11 +153,11 @@ Mullvad [raccomanda ](https://mullvad.net/en/help/why-wireguard/) l'uso di WireG
 
 #### :material-check:{ .pg-green } Supporto IPv6
 
-Mullvad supporta il futuro del networking [IPv6](https://en.wikipedia.org/wiki/IPv6). La loro rete consente di accedere a [servizi ospitati su IPv6](https://mullvad.net/en/blog/2014/9/15/ipv6-support/) a differenza di altri provider che bloccano le connessioni IPv6.
+Mullvad ti consente di accedere a [servizi hostati su IPv6](https://mullvad.net/en/blog/2014/9/15/ipv6-support/), a differenza di altri provider che bloccano le connessioni IPv6.
 
-#### :material-check:{ .pg-green } Port Forwarding remoto
+#### :material-alert-outline:{ .pg-orange } Port Forwarding remoto
 
-Il [port forwarding](https://en.wikipedia.org/wiki/Port_forwarding) remoto è consentito per chi effettua pagamenti una tantum, ma non per gli account con metodo di pagamento ricorrente/sottoscrizione. Questo per evitare che Mullvad possa identificarti in base all'utilizzo della porta e alle informazioni di abbonamento memorizzate. Per ulteriori informazioni, controlla [Port forwarding con Mullvad VPN](https://mullvad.net/help/port-forwarding-and-mullvad/).
+Mullvad in precedenza supportava il port forwarding, ma ha rimosso l'opzione a [maggio 2023](https://mullvad.net/en/blog/2023/5/29/removing-the-support-for-forwarded-ports/). L'assenza di questa funzione potrebbe avere un impatto negativo su alcune applicazioni, soprattutto quelle peer-to-peer come i client torrent.
 
 #### :material-check:{ .pg-green } Client Mobile
 

@@ -153,11 +153,11 @@ Mullvad [merekomendasikan](https://mullvad.net/en/help/why-wireguard/) penggunaa
 
 #### :material-check:{ .pg-green } Dukungan IPv6
 
-Mullvad mendukung masa depan jaringan [IPv6](https://id.wikipedia.org/wiki/IPv6). Jaringan mereka memungkinkan Anda untuk [mengakses layanan yang dihosting pada IPv6](https://mullvad.net/en/blog/2014/9/15/ipv6-support/) dibandingkan dengan penyedia lain yang memblokir koneksi IPv6.
+Mullvad allows you to [access services hosted on IPv6](https://mullvad.net/en/blog/2014/9/15/ipv6-support/), as opposed to other providers which block IPv6 connections.
 
-#### :material-check:{ .pg-green } Penerusan Porta Jarak Jauh
+#### :material-alert-outline:{ .pg-orange } Penerusan Porta Jarak Jauh
 
-[Penerusan porta jarak jauh](https://en.wikipedia.org/wiki/Port_forwarding) diperbolehkan untuk orang yang melakukan pembayaran satu kali, tetapi tidak diperbolehkan untuk akun dengan metode pembayaran berulang/berlangganan. Hal ini untuk mencegah Mullvad mengidentifikasi Anda berdasarkan penggunaan porta dan informasi langganan yang tersimpan. Lihat [Penerusan porta dengan Mullvad VPN](https://mullvad.net/help/port-forwarding-and-mullvad/) untuk informasi lebih lanjut.
+Mullvad previously supported port forwarding, but removed the option in [May 2023](https://mullvad.net/en/blog/2023/5/29/removing-the-support-for-forwarded-ports/). Missing this feature could negatively impact certain applications, especially peer-to-peer applications like torrent clients.
 
 #### :material-check:{ .pg-green } Klien Ponsel
 

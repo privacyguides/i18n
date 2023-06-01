@@ -187,13 +187,13 @@ Mullvad [建議](https://mullvad.net/en/help/why-wireguard/) 搭配 WireGuard �
 
 #### :material-check:{ .pg-green } IPv6 支持
 
-Mullvad 支持未來的網路主流 [IPv6](https://en.wikipedia.org/wiki/IPv6)。 他們的網路可讓您 [存取託管在 IPv6](https://mullvad.net/en/blog/2014/9/15/ipv6-support/) 的服務，有些供應商會阻止IPv6 連接。
+Mullvad allows you to [access services hosted on IPv6](https://mullvad.net/en/blog/2014/9/15/ipv6-support/), as opposed to other providers which block IPv6 connections.
 
 
 
-#### :material-check:{ .pg-green } Remote Port Forwarding
+#### :material-alert-outline:{ .pg-orange } 遠端端口轉發
 
-遠端 [端口輚發](https://en.wikipedia.org/wiki/Port_forwarding) 可允許單次付款的使用者，但長期/訂閱付款的帳戶不可使用。 這是為了防止 Mullvad 能夠根據端口使用情況和存儲的訂閱資訊來辨識使用者。 請參見 Mullvad VPN</a> 端口轉發 了解更多資訊。</p> 
+Mullvad previously supported port forwarding, but removed the option in [May 2023](https://mullvad.net/en/blog/2023/5/29/removing-the-support-for-forwarded-ports/). Missing this feature could negatively impact certain applications, especially peer-to-peer applications like torrent clients.
 
 
 

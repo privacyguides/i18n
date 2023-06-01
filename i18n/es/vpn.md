@@ -153,11 +153,11 @@ Mullvad [recomienda a](https://mullvad.net/en/help/why-wireguard/) el uso de Wir
 
 #### :material-check:{ .pg-green } Soporte de IPv6
 
-Mullvad soporta el futuro de la red [IPv6](https://en.wikipedia.org/wiki/IPv6). Su red permite [acceder a servicios alojados en IPv6](https://mullvad.net/en/blog/2014/9/15/ipv6-support/), a diferencia de otros proveedores que bloquean las conexiones IPv6.
+Mullvad allows you to [access services hosted on IPv6](https://mullvad.net/en/blog/2014/9/15/ipv6-support/), as opposed to other providers which block IPv6 connections.
 
-#### :material-check:{ .pg-green } Reenvío Remoto de Puertos
+#### :material-alert-outline:{ .pg-orange } Reenvío Remoto de Puertos
 
-Se permite el [reenvío remoto de puertos](https://en.wikipedia.org/wiki/Port_forwarding) para personas que realizan pagos de una sola vez, pero no para cuentas con un método de pago recurrente y basado en suscripción. La aplicación móvil en Android también está disponible en \[F-Droid\](https://f-droid.org/en/packages/net.ivpn.client), lo que garantiza que se compila con \[builds reproducibles\](https://www.f-droid.org/en/2019/05/05/trust-privacy-and-free-software.html). Consulte [Port forwarding with Mullvad VPN](https://mullvad.net/help/port-forwarding-and-mullvad/) para obtener más información.
+Mullvad previously supported port forwarding, but removed the option in [May 2023](https://mullvad.net/en/blog/2023/5/29/removing-the-support-for-forwarded-ports/). Missing this feature could negatively impact certain applications, especially peer-to-peer applications like torrent clients.
 
 #### :material-check:{ .pg-green } Clientes Móviles
 

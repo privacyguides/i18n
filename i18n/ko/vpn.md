@@ -153,11 +153,11 @@ Mullvad는 자신들의 서비스에서 WireGuard 사용을 [권장](https://mul
 
 #### :material-check:{ .pg-green } IPv6 지원
 
-Mullvad는 차기 네트워크 주소 체계인 [IPv6](https://en.wikipedia.org/wiki/IPv6)를 지원합니다. IPv6 연결들을 차단하는 다른 제공자와 달리 Mullvad의 네트워크는 [IPv6에 호스팅되는 서비스에 접근](https://mullvad.net/en/blog/2014/9/15/ipv6-support/)할 수 있도록 합니다.
+Mullvad allows you to [access services hosted on IPv6](https://mullvad.net/en/blog/2014/9/15/ipv6-support/), as opposed to other providers which block IPv6 connections.
 
-#### :material-check:{ .pg-green } 원격 포트 포워딩
+#### :material-alert-outline:{ .pg-orange } 원격 포트 포워딩
 
-일회성 결제를 하는 사용자에게는 원격 [포트 포워딩](https://en.wikipedia.org/wiki/Port_forwarding)이 허용되지만, 구독형 결제 방식을 이용하는 사용자에게는 허용되지 않습니다. 이는 Mullvad가 포트 사용 정보와 구독 정보를 기반으로 해당 사용자가 누구인지 식별하는 것을 방지하기 위함입니다. 자세한 내용은 [Mullvad VPN으로 포트포워딩하기](https://mullvad.net/help/port-forwarding-and-mullvad/)에 있습니다.
+Mullvad previously supported port forwarding, but removed the option in [May 2023](https://mullvad.net/en/blog/2023/5/29/removing-the-support-for-forwarded-ports/). Missing this feature could negatively impact certain applications, especially peer-to-peer applications like torrent clients.
 
 #### :material-check:{ .pg-green } 모바일 클라이언트
 

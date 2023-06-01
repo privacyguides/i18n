@@ -153,11 +153,11 @@ Mullvad [ממליץ](https://mullvad.net/en/help/why-wireguard/) על השימו
 
 #### :material-check:{ .pg-green } תמיכה ב-IPv6
 
-Mullvad תומך בעתיד של רשת [IPv6](https://en.wikipedia.org/wiki/IPv6). הרשת שלהם מאפשרת לך [לגשת לשירותים המתארחים ב-IPv6](https://mullvad.net/en/blog/2014/9/15/ipv6-support/) בניגוד לספקים אחרים שחוסמים חיבורי IPv6.
+Mullvad allows you to [access services hosted on IPv6](https://mullvad.net/en/blog/2014/9/15/ipv6-support/), as opposed to other providers which block IPv6 connections.
 
-#### :material-check:{ .pg-green } העברת פורטים מרחוק
+#### :material-alert-outline:{ .pg-orange } העברת פורטים מרחוק
 
-[העברת פורטים](https://en.wikipedia.org/wiki/Port_forwarding) מרחוק מותרת לאנשים המבצעים תשלומים חד פעמיים, אך אסורה עבור חשבונות עם אמצעי תשלום חוזר/מבוסס מנוי. זאת כדי למנוע מ-Mullvad להיות מסוגל לזהות אותך על סמך השימוש שלך בנמל ופרטי המנוי המאוחסנים. ראה [העברת פורטים עם Mullvad VPN ](https://mullvad.net/help/port-forwarding-and-mullvad/) למידע נוסף.
+Mullvad previously supported port forwarding, but removed the option in [May 2023](https://mullvad.net/en/blog/2023/5/29/removing-the-support-for-forwarded-ports/). Missing this feature could negatively impact certain applications, especially peer-to-peer applications like torrent clients.
 
 #### :material-check:{ .pg-green } לקוחות ניידים
 

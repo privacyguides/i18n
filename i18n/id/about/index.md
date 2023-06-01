@@ -17,7 +17,7 @@ schema:
     - https://mastodon.neat.computer/@privacyguides
 ---
 
-![Logo Privacy Guides](../assets/brand/png/square/pg-yellow.png){ align=right }
+![Logo Privacy Guides](../assets/brand/PNG/Square/pg-yellow.png){ align=right }
 
 **Privacy Guides** adalah situs web bermotif sosial yang menyediakan [informasi](/kb) untuk melindungi keamanan dan privasi data Anda. Our mission is to inform the public about the value of digital privacy, and global government initiatives which aim to monitor your online activity. Kami adalah kolektif nirlaba yang dioperasikan sepenuhnya oleh [anggota tim](https://discuss.privacyguides.net/g/team) dan kontributor sukarelawan. Our website is free of advertisements and not affiliated with any of the listed providers.
 

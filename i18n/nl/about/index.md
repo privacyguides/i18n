@@ -17,7 +17,7 @@ schema:
     - https://mastodon.neat.computer/@privacyguides
 ---
 
-![Privacy Guides logo](../assets/brand/png/square/pg-yellow.png){ align=right }
+![Privacy Guides logo](../assets/brand/PNG/Square/pg-yellow.png){ align=right }
 
 **Privacy Guides** is een sociaal gemotiveerde website die [informatie biedt](/kb) voor de bescherming van jouw gegevens en privacy. Onze missie is om het publiek te informeren over de waarde van digitale privacy, en wereldwijde overheidsinitiatieven die erop gericht zijn jouw online activiteiten te controleren. Wij zijn een non-profit collectief dat volledig wordt beheerd door vrijwillige [teamleden](https://discuss.privacyguides.net/g/team) en bijdragers. Onze website is vrij van advertenties en niet geaffilieerd met andere aanbieders in de lijst.
 
