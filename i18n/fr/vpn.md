@@ -153,11 +153,11 @@ Mullvad [recommande](https://mullvad.net/en/help/why-wireguard/) l'utilisation d
 
 #### :material-check:{ .pg-green } Prise en charge de l'IPv6
 
-Mullvad allows you to [access services hosted on IPv6](https://mullvad.net/en/blog/2014/9/15/ipv6-support/), as opposed to other providers which block IPv6 connections.
+Mullvad vous permet d'accéder aux [services hébergés sur IPv6](https://mullvad.net/en/blog/2014/9/15/ipv6-support/), contrairement à d'autres fournisseurs qui bloquent les connexions IPv6.
 
 #### :material-alert-outline:{ .pg-orange } Redirection de port
 
-Mullvad previously supported port forwarding, but removed the option in [May 2023](https://mullvad.net/en/blog/2023/5/29/removing-the-support-for-forwarded-ports/). Missing this feature could negatively impact certain applications, especially peer-to-peer applications like torrent clients.
+Mullvad prenait auparavant en charge la redirection de port, mais a supprimé cette option en [mai 2023](https://mullvad.net/en/blog/2023/5/29/removing-the-support-for-forwarded-ports/). L'absence de cette fonctionnalité pourrait avoir un impact négatif sur certaines applications, en particulier les applications pair-à-pair telles que les clients torrent.
 
 #### :material-check:{ .pg-green } Clients mobiles
 

@@ -1,13 +1,13 @@
 ---
 title: "생산성 툴"
 icon: material/file-sign
-description: Most online office suites do not support E2EE, meaning the cloud provider has access to everything you do.
+description: 온라인 오피스 프로그램은 대부분 E2EE를 제공하지 않으며, 여러분의 작업 파일을 클라우드 제공 업체가 볼 수 있습니다.
 cover: productivity.png
 ---
 
-Most online office suites do not support E2EE, meaning the cloud provider has access to everything you do. The privacy policy may legally protect your rights, but it does not provide technical access constraints.
+온라인 오피스 프로그램은 대부분 E2EE를 제공하지 않으며, 여러분의 작업 파일을 클라우드 제공 업체가 볼 수 있습니다. 여러분의 권리는 프라이버시 정책에 의해 법적으로 보호되지만, 기술적으로 클라우드 제공 업체의 접근을 방지하지는 않습니다.
 
-## Collaboration Platforms
+## 협업 플랫폼
 
 ### Nextcloud
 
@@ -59,31 +59,31 @@ Most online office suites do not support E2EE, meaning the cloud provider has ac
 
     Privacy Guides 팀은 사이트의 모든 항목마다 명확한 평가 기준을 정립하는 중이며, 따라서 세부 내용은 변경될 수 있습니다. 평가 기준에 대해서 질문이 있다면 [포럼에서 문의](https://discuss.privacyguides.net/latest)하시기 바랍니다. (무언가가 목록에 존재하지 않다고 해서 권장 목록을 작성할 때 고려한 적이 없을 것으로 단정 짓지 마세요.) 권장 목록에 어떤 프로젝트를 추가할 때 고려하고 논의해야 할 요소는 매우 많으며, 모든 요소를 문서화하는 것은 현재 진행 중인 작업입니다.
 
-In general, we define collaboration platforms as full-fledged suites which could reasonably act as a replacement to collaboration platforms like Google Drive.
+일반적으로, Privacy Guides에서 선정하는 '협업 플랫폼'의 기준은 'Google 드라이브 같은 협업 플랫폼을 대체할 수 있을 만한 완전한 제품군'입니다.
 
-- Open-source.
-- Makes files accessible via WebDAV unless it is impossible due to E2EE.
-- Has sync clients for Linux, macOS, and Windows.
-- Supports document and spreadsheet editing.
-- Supports real-time document collaboration.
-- Supports exporting documents to standard document formats (e.g. ODF).
+- 오픈 소스여야 합니다.
+- WebDAV를 통한 파일 접근을 지원해야 합니다(종단 간 암호화로 인해 불가능한 경우 제외).
+- Linux, macOS, Windows 동기화 클라이언트를 제공해야 합니다.
+- 문서 및 스프레드시트 편집을 지원해야 합니다.
+- 실시간 문서 협업을 지원해야 합니다.
+- 표준 문서 형식(ODF 등)으로 문서 내보내기를 지원해야 합니다.
 
 #### 우대 사항
 
 평가 기준에서 '우대 사항'은 해당 부문에서 완벽한 프로젝트에 기대하는 바를 나타냅니다. 다음의 우대 사항에 해당하지 않더라도 권장 목록에 포함될 수 있습니다. 단, 우대 사항에 해당할수록 이 페이지의 다른 항목보다 높은 순위를 갖습니다.
 
-- Should store files in a conventional filesystem.
-- Should support TOTP or FIDO2 multi-factor authentication support, or Passkey logins.
+- 파일 관리는 일반적인 파일 시스템 상에서 이루어져야 합니다.
+- TOTP/FIDO2 다중 인증 혹은 Passkey 로그인을 지원해야 합니다.
 
-## Office Suites
+## 오피스 제품군
 
 ### LibreOffice
 
 !!! recommendation
 
-    ![LibreOffice logo](assets/img/productivity/libreoffice.svg){ align=right }
+    ![LibreOffice 로고](assets/img/productivity/libreoffice.svg){ align=right }
     
-    **LibreOffice** is a free and open-source office suite with extensive functionality.
+    **LibreOffice**는 다양한 기능을 갖춘 무료 오픈 소스 오피스 프로그램 제품군입니다.
     
     [:octicons-home-16: 홈페이지](https://www.libreoffice.org){ .md-button .md-button--primary }
     [:octicons-eye-16:](https://www.libreoffice.org/about-us/privacy/privacy-policy-en/){ .card-link title="프라이버시 정책" }
@@ -105,9 +105,9 @@ In general, we define collaboration platforms as full-fledged suites which could
 
 !!! recommendation
 
-    ![OnlyOffice logo](assets/img/productivity/onlyoffice.svg){ align=right }
+    ![OnlyOffice 로고](assets/img/productivity/onlyoffice.svg){ align=right }
     
-    **OnlyOffice** is a cloud-based free and open-source office suite with extensive functionality, including integration with Nextcloud.
+    **OnlyOffice**는 클라우드 기반 무료 오픈 소스 오피스 프로그램 제품군입니다. Nextcloud 연동 등 다양한 기능을 제공합니다.
     
     [:octicons-home-16: 홈페이지](https://www.onlyoffice.com){ .md-button .md-button--primary }
     [:octicons-eye-16:](https://help.onlyoffice.com/products/files/doceditor.aspx?fileid=5048502&doc=SXhWMEVzSEYxNlVVaXJJeUVtS0kyYk14YWdXTEFUQmRWL250NllHNUFGbz0_IjUwNDg1MDIi0){ .card-link title="프라이버시 정책" }
@@ -132,23 +132,23 @@ In general, we define collaboration platforms as full-fledged suites which could
 
     Privacy Guides 팀은 사이트의 모든 항목마다 명확한 평가 기준을 정립하는 중이며, 따라서 세부 내용은 변경될 수 있습니다. 평가 기준에 대해서 질문이 있다면 [포럼에서 문의](https://discuss.privacyguides.net/latest)하시기 바랍니다. (무언가가 목록에 존재하지 않다고 해서 권장 목록을 작성할 때 고려한 적이 없을 것으로 단정 짓지 마세요.) 권장 목록에 어떤 프로젝트를 추가할 때 고려하고 논의해야 할 요소는 매우 많으며, 모든 요소를 문서화하는 것은 현재 진행 중인 작업입니다.
 
-In general, we define office suites as applications which could reasonably act as a replacement for Microsoft Word for most needs.
+일반적으로, Privacy Guides에서 선정하는 '오피스 제품군'의 기준은 'Microsoft Word 대신 사용할 만한 애플리케이션'입니다.
 
 - 크로스 플랫폼을 지원해야 합니다.
 - 오픈 소스 소프트웨어여야 합니다.
-- Must function offline.
-- Must support editing documents, spreadsheets, and slideshows.
-- Must export files to standard document formats.
+- 오프라인에서 작동해야 합니다.
+- 문서, 스프레드시트, 슬라이드쇼 편집을 지원해야 합니다.
+- 파일을 표준 문서 형식으로 내보내야 합니다.
 
-## Paste services
+## 텍스트 공유 서비스
 
 ### PrivateBin
 
 !!! recommendation
 
-    ![PrivateBin logo](assets/img/productivity/privatebin.svg){ align=right }
+    ![PrivateBin 로고](assets/img/productivity/privatebin.svg){ align=right }
     
-    **PrivateBin** is a minimalist, open-source online pastebin where the server has zero knowledge of pasted data. Data is encrypted/decrypted in the browser using 256-bit AES. It is the improved version of ZeroBin. There is a [list of instances](https://privatebin.info/directory/).
+    **PrivateBin**은 서버에 어떠한 정보도 공유되지 않는 미니멀한 오픈 소스 온라인 텍스트 공유 서비스입니다. 데이터는 브라우저에서 AES-256으로 암호화/복호화됩니다. ZeroBin을 개선한 버전의 서비스이기도 합니다. 인스턴스 목록은 [여기에서](https://privatebin.info/directory/) 확인할 수 있습니다.
     
     [:octicons-home-16: 홈페이지](https://privatebin.info){ .md-button .md-button--primary }
     [:octicons-server-16:](https://privatebin.info/directory/){ .card-link title="공개 인스턴스"}
@@ -166,12 +166,12 @@ In general, we define office suites as applications which could reasonably act a
 #### 최소 요구 사항
 
 - 오픈 소스여야 합니다.
-- Must implement "zero-trust" end-to-end encryption.
-- Must support password-protected files.
+- 'Zero Trust' 종단 간 암호화를 구현해야 합니다.
+- 파일을 비밀번호로 보호하는 기능을 지원해야 합니다
 
 
 #### 우대 사항
 
 평가 기준에서 '우대 사항'은 해당 부문에서 완벽한 프로젝트에 기대하는 바를 나타냅니다. 다음의 우대 사항에 해당하지 않더라도 권장 목록에 포함될 수 있습니다. 단, 우대 사항에 해당할수록 이 페이지의 다른 항목보다 높은 순위를 갖습니다.
 
-- Should have a published audit from a reputable, independent third-party.
+- 평판이 좋은 독립적인 제3자로부터 공개 감사를 받아야 합니다.

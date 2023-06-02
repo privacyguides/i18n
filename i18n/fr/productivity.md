@@ -166,12 +166,12 @@ En général, nous définissons les suites bureautiques comme des applications q
 #### Exigences minimales
 
 - Doivent être open-source.
-- Must implement "zero-trust" end-to-end encryption.
-- Must support password-protected files.
+- Doit implémenter le chiffrement de bout en bout "à confiance zéro".
+- Doit prendre en charge les fichiers protégés par un mot de passe.
 
 
 #### Dans le meilleur des cas
 
 Nos critères de cas idéal représentent ce que nous aimerions voir d'un projet parfait dans cette catégorie. Nos recommandations peuvent ne pas inclure tout ou partie de cette fonctionnalité, mais celles qui l'inclus peuvent être mieux classées que les autres sur cette page.
 
-- Should have a published audit from a reputable, independent third-party.
+- Devrait disposer d'un audit publié par une tierce partie indépendante et réputée.

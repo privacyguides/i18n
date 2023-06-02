@@ -69,30 +69,30 @@ P2P 네트워크는 피어가 서로 직접 통신하므로 서버를 사용하�
 **장점:**
 
 - 제3자에게 노출되는 정보를 최소화합니다.
-- 최신 P2P 플랫폼은 E2EE를 기본적으로 구현하고 있습니다. There are no servers that could potentially intercept and decrypt your transmissions, unlike centralized and federated models.
+- 최신 P2P 플랫폼은 E2EE를 기본적으로 구현하고 있습니다. 중앙 집중형/연합형 모델과 달리, 잠재적으로 사용자의 통신을 가로채고 해독할 여지가 있는 서버가 아예 존재하지 않습니다.
 
 **단점:**
 
-- Reduced feature set:
+- 일반적으로 기능이 부족합니다.
 - 메시지를 주고받으려면 대화 발신자/수신자가 모두 온라인 상태여야 합니다. 단, 이 문제는 클라이언트에 따라 상대방이 온라인 상태가 될 때까지 메시지를 로컬에 저장한 채로 기다렸다가 전송하는 등의 방식을 이용해 어느 정도 완화하기도 합니다.
-- Generally increases battery usage on mobile devices, because the client must stay connected to the distributed network to learn about who is online.
-- Some common messenger features may not be implemented or incompletely, such as message deletion.
-- Your IP address and that of the contacts you're communicating with may be exposed if you do not use the software in conjunction with a [VPN](../vpn.md) or [Tor](../tor.md). Many countries have some form of mass surveillance and/or metadata retention.
+- 일반적으로 모바일 기기의 배터리 소모량이 높아집니다. 상대가 온라인 상태인지를 파악하기 위해서 클라이언트가 분산형 네트워크에 계속 연결되어 있어야 하기 때문입니다.
+- 메시지 삭제 등의 일반적인 메신저 기능이 구현되어 있지 않거나, 구현이 불완전할 수 있습니다.
+- [VPN](../vpn.md)이나 [Tor](../tor.md) 등의 소프트웨어와 함께 사용하지 않을 경우, 자신이나 대화 상대의 IP 주소가 노출될 수 있습니다. 많은 국가에서는 어떤 형태로든 대규모 감시 혹은 메타데이터 수집을 진행하고 있습니다.
 
 ## 익명 라우팅
 
 ![Anonymous routing diagram](../assets/img/layout/network-anonymous-routing.svg){ align=left }
 
-A messenger using [anonymous routing](https://doi.org/10.1007/978-1-4419-5906-5_628) hides either the identity of the sender, the receiver, or evidence that they have been communicating. Ideally, a messenger should hide all three.
+[익명 라우팅](https://doi.org/10.1007/978-1-4419-5906-5_628)을 사용하는 메신저는 발신자, 수신자의 신원 혹은 통신 흔적을 드러내지 않습니다. 이상적으로는, 메신저는 이 세 가지(발신자 신원, 수신자 신원, 통신 흔적) 모두를 숨길 수 있어야 합니다.
 
-There are [many](https://doi.org/10.1145/3182658) different ways to implement anonymous routing. One of the most famous is [onion routing](https://en.wikipedia.org/wiki/Onion_routing) (i.e. [Tor](tor-overview.md)), which communicates encrypted messages through a virtual [overlay network](https://en.wikipedia.org/wiki/Overlay_network) that hides the location of each node as well as the recipient and sender of each message. The sender and recipient never interact directly and only meet through a secret rendezvous node so that there is no leak of IP addresses nor physical location. Nodes cannot decrypt messages, nor the final destination; only the recipient can. Each intermediary node can only decrypt a part that indicates where to send the still encrypted message next, until it arrives at the recipient who can fully decrypt it, hence the "onion layers."
+익명 라우팅을 구현하는 방법은 [여러 가지](https://doi.org/10.1145/3182658)가 존재합니다. 대표적인 방법으로는 [Onion 라우팅](https://en.wikipedia.org/wiki/Onion_routing)([Tor](tor-overview.md))이 존재합니다. 각 메시지의 발신자나 수신자뿐만 아니라 각 노드의 위치를 숨기는 가상 [오버레이 네트워크](https://en.wikipedia.org/wiki/Overlay_network)를 통해 암호화 메시지를 주고받습니다. 발신자와 수신자는 직접적으로 상호작용하지 않고 비밀 랑데부 노드를 통해서만 만나기 때문에 IP 주소나 실제 위치는 노출되지 않습니다. 노드는 메시지를 복호화하거나 최종 목적지를 알 수 없으며, 수신자만이 해독 가능합니다. 각 중개 노드는 메시지를 다음에는 어디로 보낼지를 나타내는 부분만 해독 가능하며 그 외에는 여전히 암호화가 적용되어 있습니다. 그리고 이 과정은 수신자에게 도달해 완전히 복호화될 때까지 반복됩니다. 'Onion(양파) 레이어'라는 명칭은 이러한 작동 방식에서 유래되었습니다.
 
-Self-hosting a node in an anonymous routing network does not provide the hoster with additional privacy benefits, but rather contributes to the whole network's resilience against identification attacks for everyone's benefit.
+익명 라우팅 네트워크에서 노드를 자체 호스팅하는 행위는 자신의 프라이버시에 추가적인 이점을 제공하지 않습니다. 전체 네트워크로 하여금 식별 공격에 대한 복원력을 높이는 데 기여하는, 모두의 이익을 위한 행위입니다.
 
 **장점:**
 
 - 제3자에게 노출되는 정보를 최소화합니다.
-- Messages can be relayed in a decentralized manner even if one of the parties is offline.
+- 당사자 중 한명이 오프라인 상태이더라도 분산형 방식으로 메시지를 전달할 수 있습니다.
 
 **단점:**
 
