@@ -19,4 +19,4 @@ title: 브랜드 가이드라인
 
 'Privacy Guides' 및 방패 로고는 Jonah Aragon이 소유한 상표이며, Privacy Guides 프로젝트에 무제한적인 사용 권리가 부여됩니다.
 
-Without waiving any of its rights, Privacy Guides does not advise others on the scope of its intellectual property rights. Privacy Guides does not permit or consent to any use of its trademarks in any manner that is likely to cause confusion by implying association with or sponsorship by Privacy Guides. If you are aware of any such use, please contact Jonah Aragon at jonah@privacyguides.org. Consult your legal counsel if you have questions.
+Privacy Guides는 어떠한 권리도 포기하지 않으며, 다른 이에게 지적 재산권의 범위에 대해 조언하지 않습니다. Privacy Guides는 Privacy Guides와의 연관성 혹은 후원 관계를 암시하여 혼란을 야기할 수 있는 방식으로 상표를 사용하는 것을 허용하거나 동의하지 않습니다. 해당 사례를 발견하실 경우 Jonah Aragon에게 jonah@privacyguides.org으로 연락해 주세요. 궁금한 점이 있다면 직접 법률 전문가에게 자문을 받으시기 바랍니다.

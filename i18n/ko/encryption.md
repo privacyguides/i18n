@@ -12,7 +12,7 @@ Encryption of data is the only way to control who can access it. If you are curr
 
 The options listed here are multi-platform and great for creating encrypted backups of your data.
 
-### Cryptomator (Cloud)
+### Cryptomator (클라우드)
 
 !!! recommendation
 
@@ -20,13 +20,13 @@ The options listed here are multi-platform and great for creating encrypted back
     
     **Cryptomator** is an encryption solution designed for privately saving files to any cloud provider. It allows you to create vaults that are stored on a virtual drive, the contents of which are encrypted and synced with your cloud storage provider.
     
-    [:octicons-home-16: Homepage](https://cryptomator.org){ .md-button .md-button--primary }
-    [:octicons-eye-16:](https://cryptomator.org/privacy){ .card-link title="Privacy Policy" }
-    [:octicons-info-16:](https://docs.cryptomator.org/){ .card-link title=Documentation}
-    [:octicons-code-16:](https://github.com/cryptomator){ .card-link title="Source Code" }
-    [:octicons-heart-16:](https://cryptomator.org/donate/){ .card-link title=Contribute }
+    [:octicons-home-16: 홈페이지](https://cryptomator.org){ .md-button .md-button--primary }
+    [:octicons-eye-16:](https://cryptomator.org/privacy){ .card-link title="프라이버시 정책" }
+    [:octicons-info-16:](https://docs.cryptomator.org/){ .card-link title=문서}
+    [:octicons-code-16:](https://github.com/cryptomator){ .card-link title="소스 코드" }
+    [:octicons-heart-16:](https://cryptomator.org/donate/){ .card-link title=기부 }
     
-    ??? downloads
+    ??? downloads "다운로드"
     
         - [:simple-googleplay: Google Play](https://play.google.com/store/apps/details?id=org.cryptomator)
         - [:simple-appstore: App Store](https://apps.apple.com/us/app/cryptomator-2/id1560822163)
@@ -42,7 +42,7 @@ Some Cryptomator cryptographic libraries have been [audited](https://community.c
 
 Cryptomator's documentation details its intended [security target](https://docs.cryptomator.org/en/latest/security/security-target/), [security architecture](https://docs.cryptomator.org/en/latest/security/architecture/), and [best practices](https://docs.cryptomator.org/en/latest/security/best-practices/) for use in further detail.
 
-### Picocrypt (File)
+### Picocrypt (파일)
 
 !!! recommendation
 
@@ -50,11 +50,11 @@ Cryptomator's documentation details its intended [security target](https://docs.
     
     **Picocrypt** is a small and simple encryption tool that provides modern encryption. Picocrypt uses the secure XChaCha20 cipher and the Argon2id key derivation function to provide a high level of security. It uses Go's standard x/crypto modules for its encryption features.
     
-    [:octicons-repo-16: Repository](https://github.com/HACKERALERT/Picocrypt){ .md-button .md-button--primary }
-    [:octicons-code-16:](https://github.com/HACKERALERT/Picocrypt){ .card-link title="Source Code" }
-    [:octicons-heart-16:](https://opencollective.com/picocrypt){ .card-link title=Contribute }
+    [:octicons-repo-16: 저장소](https://github.com/HACKERALERT/Picocrypt){ .md-button .md-button--primary }
+    [:octicons-code-16:](https://github.com/HACKERALERT/Picocrypt){ .card-link title="소스 코드" }
+    [:octicons-heart-16:](https://opencollective.com/picocrypt){ .card-link title=기부 }
     
-    ??? downloads
+    ??? downloads "다운로드"
     
         - [:simple-windows11: Windows](https://github.com/HACKERALERT/Picocrypt/releases)
         - [:simple-apple: macOS](https://github.com/HACKERALERT/Picocrypt/releases)
@@ -69,12 +69,12 @@ Cryptomator's documentation details its intended [security target](https://docs.
     
     **VeraCrypt** is a source-available freeware utility used for on-the-fly encryption. It can create a virtual encrypted disk within a file, encrypt a partition, or encrypt the entire storage device with pre-boot authentication.
     
-    [:octicons-home-16: Homepage](https://veracrypt.fr){ .md-button .md-button--primary }
-    [:octicons-info-16:](https://veracrypt.fr/en/Documentation.html){ .card-link title=Documentation}
-    [:octicons-code-16:](https://veracrypt.fr/code/){ .card-link title="Source Code" }
-    [:octicons-heart-16:](https://veracrypt.fr/en/Donation.html){ .card-link title=Contribute }
+    [:octicons-home-16: 홈페이지](https://veracrypt.fr){ .md-button .md-button--primary }
+    [:octicons-info-16:](https://veracrypt.fr/en/Documentation.html){ .card-link title=문서}
+    [:octicons-code-16:](https://veracrypt.fr/code/){ .card-link title="소스 코드" }
+    [:octicons-heart-16:](https://veracrypt.fr/en/Donation.html){ .card-link title=기부 }
     
-    ??? downloads
+    ??? downloads "다운로드"
     
         - [:simple-windows11: Windows](https://www.veracrypt.fr/en/Downloads.html)
         - [:simple-apple: macOS](https://www.veracrypt.fr/en/Downloads.html)
@@ -86,9 +86,9 @@ When encrypting with VeraCrypt, you have the option to select from different [ha
 
 Truecrypt has been [audited a number of times](https://en.wikipedia.org/wiki/TrueCrypt#Security_audits), and VeraCrypt has also been [audited separately](https://en.wikipedia.org/wiki/VeraCrypt#VeraCrypt_audit).
 
-## OS Full Disk Encryption
+## OS 전체 디스크 암호화
 
-Modern operating systems include [FDE](https://en.wikipedia.org/wiki/Disk_encryption) and will have a [secure cryptoprocessor](https://en.wikipedia.org/wiki/Secure_cryptoprocessor).
+현대 운영 체제에는 [FDE(Full Disk Encryption, 전체 디스크 암호화)](https://ko.wikipedia.org/wiki/%EB%94%94%EC%8A%A4%ED%81%AC_%EC%95%94%ED%98%B8%ED%99%94) 기능이 내장되어 있습니다. 훗날에는 [보안 암호화 프로세서(Secure Cryptoprocessor)](https://en.wikipedia.org/wiki/Secure_cryptoprocessor)도 기본적으로 탑재될 것입니다.
 
 ### BitLocker
 
@@ -98,11 +98,11 @@ Modern operating systems include [FDE](https://en.wikipedia.org/wiki/Disk_encryp
     
     **BitLocker** is the full volume encryption solution bundled with Microsoft Windows. The main reason we recommend it is because of its [use of TPM](https://docs.microsoft.com/en-us/windows/security/information-protection/tpm/how-windows-uses-the-tpm). [ElcomSoft](https://en.wikipedia.org/wiki/ElcomSoft), a forensics company, has written about it in [Understanding BitLocker TPM Protection](https://blog.elcomsoft.com/2021/01/understanding-BitLocker-tpm-protection/).
     
-    [:octicons-info-16:](https://docs.microsoft.com/en-us/windows/security/information-protection/BitLocker/BitLocker-overview){ .card-link title=Documentation}
+    [:octicons-info-16:](https://learn.microsoft.com/ko-kr/windows/security/information-protection/bitlocker/bitlocker-overview){ .card-link title=문서}
 
 BitLocker is [only supported](https://support.microsoft.com/en-us/windows/turn-on-device-encryption-0c453637-bc88-5f74-5105-741561aae838) on Pro, Enterprise and Education editions of Windows. It can be enabled on Home editions provided that they meet the prerequisites.
 
-??? example "Enabling BitLocker on Windows Home"
+??? example "Windows Home에서 BitLocker를 활성화하는 방법"
 
     To enable BitLocker on "Home" editions of Windows, you must have partitions formatted with a [GUID Partition Table](https://en.wikipedia.org/wiki/GUID_Partition_Table) and have a dedicated TPM (v1.2, 2.0+) module.
 
@@ -148,7 +148,7 @@ BitLocker is [only supported](https://support.microsoft.com/en-us/windows/turn-o
     
     **FileVault** is the on-the-fly volume encryption solution built into macOS. FileVault is recommended because it [leverages](https://support.apple.com/guide/security/volume-encryption-with-filevault-sec4c6dc1b6e/web) hardware security capabilities present on an Apple silicon SoC or T2 Security Chip.
     
-    [:octicons-info-16:](https://support.apple.com/guide/mac-help/encrypt-mac-data-with-filevault-mh11785/mac){ .card-link title=Documentation}
+    [:octicons-info-16:](https://support.apple.com/ko-kr/guide/mac-help/mh11785/mac){ .card-link title=문서}
 
 We recommend storing a local recovery key in a secure place as opposed to using your iCloud account for recovery.
 
@@ -160,9 +160,9 @@ We recommend storing a local recovery key in a secure place as opposed to using 
     
     **LUKS** is the default FDE method for Linux. It can be used to encrypt full volumes, partitions, or create encrypted containers.
     
-    [:octicons-home-16: Homepage](https://gitlab.com/cryptsetup/cryptsetup/-/blob/main/README.md){ .md-button .md-button--primary }
-    [:octicons-info-16:](https://gitlab.com/cryptsetup/cryptsetup/-/wikis/home){ .card-link title=Documentation}
-    [:octicons-code-16:](https://gitlab.com/cryptsetup/cryptsetup/){ .card-link title="Source Code" }
+    [:octicons-home-16: 홈페이지](https://gitlab.com/cryptsetup/cryptsetup/-/blob/main/README.md){ .md-button .md-button--primary }
+    [:octicons-info-16:](https://gitlab.com/cryptsetup/cryptsetup/-/wikis/home){ .card-link title=문서}
+    [:octicons-code-16:](https://gitlab.com/cryptsetup/cryptsetup/){ .card-link title="소스 코드" }
 
 ??? example "Creating and opening encrypted containers"
 
@@ -187,7 +187,7 @@ We recommend storing a local recovery key in a secure place as opposed to using 
     cryptsetup luksHeaderBackup /dev/device --header-backup-file /mnt/backup/file.img
     ```
 
-## Browser-based
+## 브라우저 기반
 
 Browser-based encryption can be useful when you need to encrypt a file but cannot install software or apps on your device.
 
@@ -200,11 +200,11 @@ Browser-based encryption can be useful when you need to encrypt a file but canno
     
     **Hat.sh** is a web application that provides secure client-side file encryption in your browser. It can also be self-hosted and is useful if you need to encrypt a file but cannot install any software on your device due to organizational policies.
     
-    [:octicons-globe-16: Website](https://hat.sh){ .md-button .md-button--primary }
-    [:octicons-eye-16:](https://hat.sh/about/){ .card-link title="Privacy Policy" }
-    [:octicons-info-16:](https://hat.sh/about/){ .card-link title=Documentation}
-    [:octicons-code-16:](https://github.com/sh-dv/hat.sh){ .card-link title="Source Code" }
-    [:octicons-heart-16:](https://github.com/sh-dv/hat.sh#donations){ .card-link title="Donations methods can be found at the bottom of the website" }
+    [:octicons-globe-16: 웹사이트](https://hat.sh){ .md-button .md-button--primary }
+    [:octicons-eye-16:](https://hat.sh/about/){ .card-link title="프라이버시 정책" }
+    [:octicons-info-16:](https://hat.sh/about/){ .card-link title=문서}
+    [:octicons-code-16:](https://github.com/sh-dv/hat.sh){ .card-link title="소스 코드" }
+    [:octicons-heart-16:](https://github.com/sh-dv/hat.sh#donations){ .card-link title="기부 방법은 홈페이지 하단에서 확인하실 수 있습니다" }
 
 ## 커맨드라인
 
@@ -218,13 +218,13 @@ Tools with command-line interfaces are useful for integrating [shell scripts](ht
     
     **Kryptor** is a free and open-source file encryption and signing tool that makes use of modern and secure cryptographic algorithms. It aims to be a better version of [age](https://github.com/FiloSottile/age) and [Minisign](https://jedisct1.github.io/minisign/) to provide a simple, easier alternative to GPG.
     
-    [:octicons-home-16: Homepage](https://www.kryptor.co.uk){ .md-button .md-button--primary }
-    [:octicons-eye-16:](https://www.kryptor.co.uk/features#privacy){ .card-link title="Privacy Policy" }
-    [:octicons-info-16:](https://www.kryptor.co.uk/tutorial){ .card-link title=Documentation}
-    [:octicons-code-16:](https://github.com/samuel-lucas6/Kryptor){ .card-link title="Source Code" }
-    [:octicons-heart-16:](https://www.kryptor.co.uk/#donate){ .card-link title=Contribute }
+    [:octicons-home-16: 홈페이지](https://www.kryptor.co.uk){ .md-button .md-button--primary }
+    [:octicons-eye-16:](https://www.kryptor.co.uk/features#privacy){ .card-link title="프라이버시 정책" }
+    [:octicons-info-16:](https://www.kryptor.co.uk/tutorial){ .card-link title=문서}
+    [:octicons-code-16:](https://github.com/samuel-lucas6/Kryptor){ .card-link title="소스 코드" }
+    [:octicons-heart-16:](https://www.kryptor.co.uk/#donate){ .card-link title=기부 }
     
-    ??? downloads
+    ??? downloads "다운로드"
     
         - [:simple-windows11: Windows](https://www.kryptor.co.uk)
         - [:simple-apple: macOS](https://www.kryptor.co.uk)
@@ -238,10 +238,10 @@ Tools with command-line interfaces are useful for integrating [shell scripts](ht
     
     **Tomb** is a command-line shell wrapper for LUKS. It supports steganography via [third-party tools](https://github.com/dyne/Tomb#how-does-it-work).
     
-    [:octicons-home-16: Homepage](https://www.dyne.org/software/tomb){ .md-button .md-button--primary }
-    [:octicons-info-16:](https://github.com/dyne/Tomb/wiki){ .card-link title=Documentation}
-    [:octicons-code-16:](https://github.com/dyne/Tomb){ .card-link title="Source Code" }
-    [:octicons-heart-16:](https://www.dyne.org/donate){ .card-link title=Contribute }
+    [:octicons-home-16: 홈페이지](https://www.dyne.org/software/tomb){ .md-button .md-button--primary }
+    [:octicons-info-16:](https://github.com/dyne/Tomb/wiki){ .card-link title=문서}
+    [:octicons-code-16:](https://github.com/dyne/Tomb){ .card-link title="소스 코드" }
+    [:octicons-heart-16:](https://www.dyne.org/donate){ .card-link title=기부 }
 
 ## OpenPGP
 
@@ -265,12 +265,12 @@ When encrypting with PGP, you have the option to configure different options in 
     
     **GnuPG** is a GPL-licensed alternative to the PGP suite of cryptographic software. GnuPG is compliant with [RFC 4880](https://tools.ietf.org/html/rfc4880), which is the current IETF specification of OpenPGP. The GnuPG project has been working on an [updated draft](https://datatracker.ietf.org/doc/draft-ietf-openpgp-crypto-refresh/) in an attempt to modernize OpenPGP. GnuPG is a part of the Free Software Foundation's GNU software project and has received major [funding](https://gnupg.org/blog/20220102-a-new-future-for-gnupg.html) from the German government.
     
-    [:octicons-home-16: Homepage](https://gnupg.org){ .md-button .md-button--primary }
-    [:octicons-eye-16:](https://gnupg.org/privacy-policy.html){ .card-link title="Privacy Policy" }
-    [:octicons-info-16:](https://gnupg.org/documentation/index.html){ .card-link title=Documentation}
-    [:octicons-code-16:](https://git.gnupg.org/cgi-bin/gitweb.cgi?p=gnupg.git){ .card-link title="Source Code" }
+    [:octicons-home-16: 홈페이지](https://gnupg.org){ .md-button .md-button--primary }
+    [:octicons-eye-16:](https://gnupg.org/privacy-policy.html){ .card-link title="프라이버시 정책" }
+    [:octicons-info-16:](https://gnupg.org/documentation/index.html){ .card-link title=문서}
+    [:octicons-code-16:](https://git.gnupg.org/cgi-bin/gitweb.cgi?p=gnupg.git){ .card-link title="소스 코드" }
     
-    ??? downloads
+    ??? downloads "다운로드"
     
         - [:simple-googleplay: Google Play](https://play.google.com/store/apps/details?id=org.sufficientlysecure.keychain)
         - [:simple-windows11: Windows](https://gpg4win.org/download.html)
@@ -285,13 +285,13 @@ When encrypting with PGP, you have the option to configure different options in 
     
     **GPG4win** is a package for Windows from [Intevation and g10 Code](https://gpg4win.org/impressum.html). It includes [various tools](https://gpg4win.org/about.html) that can assist you in using GPG on Microsoft Windows. The project was initiated and originally [funded by](https://web.archive.org/web/20190425125223/https://joinup.ec.europa.eu/news/government-used-cryptography) Germany's Federal Office for Information Security (BSI) in 2005.
     
-    [:octicons-home-16: Homepage](https://gpg4win.org){ .md-button .md-button--primary }
-    [:octicons-eye-16:](https://gpg4win.org/privacy-policy.html){ .card-link title="Privacy Policy" }
-    [:octicons-info-16:](https://gpg4win.org/documentation.html){ .card-link title=Documentation}
-    [:octicons-code-16:](https://git.gnupg.org/cgi-bin/gitweb.cgi?p=gpg4win.git;a=summary){ .card-link title="Source Code" }
-    [:octicons-heart-16:](https://gpg4win.org/donate.html){ .card-link title=Contribute }
+    [:octicons-home-16: 홈페이지](https://gpg4win.org){ .md-button .md-button--primary }
+    [:octicons-eye-16:](https://gpg4win.org/privacy-policy.html){ .card-link title="프라이버시 정책" }
+    [:octicons-info-16:](https://gpg4win.org/documentation.html){ .card-link title=문서}
+    [:octicons-code-16:](https://git.gnupg.org/cgi-bin/gitweb.cgi?p=gpg4win.git;a=summary){ .card-link title="소스 코드" }
+    [:octicons-heart-16:](https://gpg4win.org/donate.html){ .card-link title=기부 }
     
-    ??? downloads
+    ??? downloads "다운로드"
     
         - [:simple-windows11: Windows](https://gpg4win.org/download.html)
 
@@ -309,12 +309,12 @@ When encrypting with PGP, you have the option to configure different options in 
     
     We recommend taking a look at their [First steps](https://gpgtools.tenderapp.com/kb/how-to/first-steps-where-do-i-start-where-do-i-begin-setup-gpgtools-create-a-new-key-your-first-encrypted-email) and [Knowledge base](https://gpgtools.tenderapp.com/kb) for support.
     
-    [:octicons-home-16: Homepage](https://gpgtools.org){ .md-button .md-button--primary }
-    [:octicons-eye-16:](https://gpgtools.org/privacy){ .card-link title="Privacy Policy" }
-    [:octicons-info-16:](https://gpgtools.tenderapp.com/kb){ .card-link title=Documentation}
-    [:octicons-code-16:](https://github.com/GPGTools){ .card-link title="Source Code" }
+    [:octicons-home-16: 홈페이지](https://gpgtools.org){ .md-button .md-button--primary }
+    [:octicons-eye-16:](https://gpgtools.org/privacy){ .card-link title="프라이버시 정책" }
+    [:octicons-info-16:](https://gpgtools.tenderapp.com/kb){ .card-link title=문서}
+    [:octicons-code-16:](https://github.com/GPGTools){ .card-link title="소스 코드" }
     
-    ??? downloads
+    ??? downloads "다운로드"
     
         - [:simple-apple: macOS](https://gpgtools.org)
 
@@ -326,12 +326,12 @@ When encrypting with PGP, you have the option to configure different options in 
     
     **OpenKeychain** is an Android implementation of GnuPG. It's commonly required by mail clients such as [K-9 Mail](email-clients.md#k-9-mail) and [FairEmail](email-clients.md#fairemail) and other Android apps to provide encryption support. Cure53 completed a [security audit](https://www.openkeychain.org/openkeychain-3-6) of OpenKeychain 3.6 in October 2015. Technical details about the audit and OpenKeychain's solutions can be found [here](https://github.com/open-keychain/open-keychain/wiki/cure53-Security-Audit-2015).
     
-    [:octicons-home-16: Homepage](https://www.openkeychain.org){ .md-button .md-button--primary }
-    [:octicons-eye-16:](https://www.openkeychain.org/help/privacy-policy){ .card-link title="Privacy Policy" }
-    [:octicons-info-16:](https://www.openkeychain.org/faq/){ .card-link title=Documentation}
-    [:octicons-code-16:](https://github.com/open-keychain/open-keychain){ .card-link title="Source Code" }
+    [:octicons-home-16: 홈페이지](https://www.openkeychain.org){ .md-button .md-button--primary }
+    [:octicons-eye-16:](https://www.openkeychain.org/help/privacy-policy){ .card-link title="프라이버시 정책" }
+    [:octicons-info-16:](https://www.openkeychain.org/faq/){ .card-link title=문서}
+    [:octicons-code-16:](https://github.com/open-keychain/open-keychain){ .card-link title="소스 코드" }
     
-    ??? downloads
+    ??? downloads "다운로드"
     
         - [:simple-googleplay: Google Play](https://play.google.com/store/apps/details?id=org.sufficientlysecure.keychain)
 
@@ -343,7 +343,7 @@ When encrypting with PGP, you have the option to configure different options in 
 
     Privacy Guides 팀은 사이트의 모든 항목마다 명확한 평가 기준을 정립하는 중이며, 따라서 세부 내용은 변경될 수 있습니다. 평가 기준에 대해서 질문이 있다면 [포럼에서 문의](https://discuss.privacyguides.net/latest)하시기 바랍니다. (무언가가 목록에 존재하지 않다고 해서 권장 목록을 작성할 때 고려한 적이 없을 것으로 단정 짓지 마세요.) 권장 목록에 어떤 프로젝트를 추가할 때 고려하고 논의해야 할 요소는 매우 많으며, 모든 요소를 문서화하는 것은 현재 진행 중인 작업입니다.
 
-### Minimum Qualifications
+### 최소 요구 사항
 
 - Cross-platform encryption apps must be open-source.
 - File encryption apps must support decryption on Linux, macOS, and Windows.

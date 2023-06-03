@@ -1,6 +1,6 @@
 ---
 meta_title: "How Do VPNs Protect Your Privacy? Our VPN Overview - Privacy Guides"
-title: VPN Overview
+title: VPN 개요
 icon: material/vpn
 description: Virtual Private Networks shift risk away from your ISP to a third-party you trust. You should keep these things in mind.
 ---
@@ -39,7 +39,7 @@ A common reason to recommend encrypted DNS is that it helps against DNS spoofing
 
 Needless to say, **you shouldn't use encrypted DNS with Tor**. This would direct all of your DNS requests through a single circuit and would allow the encrypted DNS provider to deanonymize you.
 
-## Should I use Tor *and* a VPN?
+## Tor를 사용할 때에도 VPN을 사용해야 하나요?
 
 By using a VPN with Tor, you're creating essentially a permanent entry node, often with a money trail attached. This provides zero additional benefits to you, while increasing the attack surface of your connection dramatically. If you wish to hide your Tor usage from your ISP or your government, Tor has a built-in solution for that: Tor bridges. [Read more about Tor bridges and why using a VPN is not necessary](../advanced/tor-overview.md).
 
@@ -53,7 +53,7 @@ Do not use that feature. The point of using Tor is that you do not trust your VP
 
 The feature should be viewed as a convenient way to access the Tor Network, not to stay anonymous. For proper anonymity, use the Tor Browser, TorSocks, or a Tor gateway.
 
-## When are VPNs useful?
+## VPN은 어떤 상황에 유용한가요?
 
 A VPN may still be useful to you in a variety of scenarios, such as:
 
@@ -70,7 +70,7 @@ For situations like these, or if you have another compelling reason, the VPN pro
 1. [IVPN Privacy Guides](https://www.ivpn.net/privacy-guides)
 1. ["Do I need a VPN?"](https://www.doineedavpn.com), a tool developed by IVPN to challenge aggressive VPN marketing by helping individuals decide if a VPN is right for them.
 
-## Related VPN Information
+## VPN 관련 추가 정보
 
 - [The Trouble with VPN and Privacy Review Sites](https://blog.privacyguides.org/2019/11/20/the-trouble-with-vpn-and-privacy-review-sites/)
 - [Free VPN App Investigation](https://www.top10vpn.com/free-vpn-app-investigation/)

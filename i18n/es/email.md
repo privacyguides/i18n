@@ -376,14 +376,14 @@ Preferimos que nuestros proveedores recomendados recojan la menor cantidad de da
 
 **Mínimo para calificar:**
 
-- Proteger la dirección IP del remitente. Filtrarlo para que no aparezca en el campo de cabecera `Recibido`.
-- No requiera información personal identificable (PII) aparte de un nombre de usuario y una contraseña.
-- Privacy policy that meets the requirements defined by the GDPR.
+- Protege la dirección IP del remitente. La filtra para que no aparezca en el campo de cabecera `Recibido`.
+- No requiere información personal identificable (PII) aparte de un nombre de usuario y una contraseña.
+- Política de privacidad que cumple los requisitos definidos por el RGPD.
 
 **Mejor caso:**
 
-- Acepte [opciones de pago anónimas](advanced/payments.md) ([criptomonedas](cryptocurrency.md), efectivo, tarjetas regalo, etc.)
-- Hosted in a jurisdiction with strong email privacy protection laws.
+- Acepta [opciones de pago anónimas](advanced/payments.md) ([criptomonedas](cryptocurrency.md), efectivo, tarjetas regalo, etc.)
+- Alojado en una jurisdicción con leyes de protección de la privacidad del correo electrónico estrictas.
 
 ### Seguridad
 

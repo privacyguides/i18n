@@ -15,6 +15,10 @@ Se você já usa os patrocínios do GitHub, também pode patrocinar nossa organi
 
 [Patrocine-nos no GitHub](https://github.com/sponsors/privacyguides ""){.md-button}
 
+Another option to support us is by buying our merchandise from HelloTux. We get roughly $4 for every shirt sold, and you get a quality product to show for it.
+
+[Buy on HelloTux.com](https://hellotux.com/privacyguides){ class="md-button" }
+
 ## Contribuidores
 
 Um agradecimento especial a todos aqueles que apoiam a nossa missão! :heart:

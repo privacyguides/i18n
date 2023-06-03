@@ -13,9 +13,9 @@ cover: productivity.png
 
 !!! recommendation
 
-    ![Nextcloud logo](assets/img/productivity/nextcloud.svg){ align=right }
+    ![Nextcloud 로고](assets/img/productivity/nextcloud.svg){ align=right }
     
-    **Nextcloud** is a suite of free and open-source client-server software for creating your own file hosting services on a private server you control.
+    **Nextcloud**는 사용자가 관리하는 개인 서버에서 자기만의 파일 호스팅 서비스를 구축할 수 있는 무료 오픈 소스 클라이언트-서버 소프트웨어 제품군입니다.
     
     [:octicons-home-16: 홈페이지](https://nextcloud.com){ .md-button .md-button--primary }
     [:octicons-eye-16:](https://nextcloud.com/privacy){ .card-link title="프라이버시 정책" }
@@ -35,15 +35,15 @@ cover: productivity.png
 
 !!! danger "위험"
 
-    We don't recommend using the [E2EE App](https://apps.nextcloud.com/apps/end_to_end_encryption) for Nextcloud as it may lead to data loss; it is highly experimental and not production quality. For this reason, we don't recommend third-party Nextcloud providers.
+    Privacy Guides는 Nextcloud용 [E2EE 앱](https://apps.nextcloud.com/apps/end_to_end_encryption)을 사용하는 것을 권장드리지 않습니다. 데이터 손실이 발생할 수 있고, 실험적인 성향이 강하며, 실사용할 만한 품질이 아니기 때문입니다. Nextcloud에는 적절한 E2EE 수단이 존재하지 않기 때문에, Privacy Guides는 타인이 운영하는 Nextcloud 서비스를 사용하는 것을 권장드리지 않습니다.
 
 ### CryptPad
 
 !!! recommendation
 
-    ![CryptPad logo](assets/img/productivity/cryptpad.svg){ align=right }
+    ![CryptPad 로고](assets/img/productivity/cryptpad.svg){ align=right }
     
-    **CryptPad** is a private-by-design alternative to popular office tools. All content on this web service is end-to-end encrypted and can be shared with other users easily.
+    **CryptPad**는 보편적으로 쓰이는 오피스 툴의 프라이버시 중심 대체제입니다. CryptPad 웹 서비스의 모든 콘텐츠는 종단 간 암호화되며, 다른 사용자와의 공유도 간편합니다.
     
     [:octicons-home-16: 홈페이지](https://cryptpad.fr){ .md-button .md-button--primary }
     [:octicons-eye-16:](https://cryptpad.fr/pad/#/2/pad/view/GcNjAWmK6YDB3EO2IipRZ0fUe89j43Ryqeb4fjkjehE/){ .card-link title="프라이버시 정책" }

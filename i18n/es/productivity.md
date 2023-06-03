@@ -166,12 +166,12 @@ En general, definimos las paquetes ofimáticos como aplicaciones que podrían su
 #### Requisitos Mínimos
 
 - Deben ser de código abierto.
-- Must implement "zero-trust" end-to-end encryption.
-- Must support password-protected files.
+- Debe implementar el cifrado de extremo a extremo de "confianza cero".
+- Debe admitir archivos protegidos por contraseña.
 
 
 #### Mejor Caso
 
 Nuestro criterio del mejor caso representa lo que nos gustaría ver del proyecto perfecto en esta categoría. Es posible que nuestras recomendaciones no incluyan todas o algunas de estas funciones, pero las que sí las incluyan pueden estar mejor clasificadas que otras en esta página.
 
-- Should have a published audit from a reputable, independent third-party.
+- Debe tener una auditoría publicada por una tercera parte independiente y de buena reputación.

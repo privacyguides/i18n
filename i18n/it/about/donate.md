@@ -15,6 +15,10 @@ Le donazioni fatte direttamente a noi su Open Collective sono generalmente deduc
 
 [Sponsorizzaci su Github](https://github.com/sponsors/privacyguides ""){.md-button}
 
+Another option to support us is by buying our merchandise from HelloTux. We get roughly $4 for every shirt sold, and you get a quality product to show for it.
+
+[Buy on HelloTux.com](https://hellotux.com/privacyguides){ class="md-button" }
+
 ## Sostenitori
 
 Un ringraziamento speciale a tutti coloro che supportano la nostra missione! :heart:

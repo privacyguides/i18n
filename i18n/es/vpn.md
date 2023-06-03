@@ -153,11 +153,11 @@ Mullvad [recomienda a](https://mullvad.net/en/help/why-wireguard/) el uso de Wir
 
 #### :material-check:{ .pg-green } Soporte de IPv6
 
-Mullvad allows you to [access services hosted on IPv6](https://mullvad.net/en/blog/2014/9/15/ipv6-support/), as opposed to other providers which block IPv6 connections.
+Mullvad te permite acceder a [a servicios alojados en IPv6](https://mullvad.net/en/blog/2014/9/15/ipv6-support/), a diferencia de otros proveedores que bloquean las conexiones IPv6.
 
 #### :material-alert-outline:{ .pg-orange } Reenvío Remoto de Puertos
 
-Mullvad previously supported port forwarding, but removed the option in [May 2023](https://mullvad.net/en/blog/2023/5/29/removing-the-support-for-forwarded-ports/). Missing this feature could negatively impact certain applications, especially peer-to-peer applications like torrent clients.
+Anteriormente, Mullvad admitía el reenvío de puertos, pero eliminó la opción en [Mayo de 2023](https://mullvad.net/en/blog/2023/5/29/removing-the-support-for-forwarded-ports/). La ausencia de esta característica podría afectar negativamente a ciertas aplicaciones, especialmente a las aplicaciones peer-to-peer como los clientes torrent.
 
 #### :material-check:{ .pg-green } Clientes Móviles
 

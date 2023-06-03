@@ -15,6 +15,10 @@ Ha már használod a GitHub szponzorálási lehetőséget, akkor ott is támogat
 
 [Szponzorálj minket GitHub-on](https://github.com/sponsors/privacyguides ""){.md-button}
 
+Another option to support us is by buying our merchandise from HelloTux. We get roughly $4 for every shirt sold, and you get a quality product to show for it.
+
+[Buy on HelloTux.com](https://hellotux.com/privacyguides){ class="md-button" }
+
 ## Támogatók
 
 Egy különleges köszönet mindazoknak akik támogatják a küldetésünket! :heart:

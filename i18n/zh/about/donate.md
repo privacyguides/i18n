@@ -15,6 +15,10 @@ title: 支持我们
 
 [在GitHub上赞助我们](https://github.com/sponsors/privacyguides ""){.md-button}
 
+Another option to support us is by buying our merchandise from HelloTux. We get roughly $4 for every shirt sold, and you get a quality product to show for it.
+
+[Buy on HelloTux.com](https://hellotux.com/privacyguides){ class="md-button" }
+
 ## 支持者
 
 特别感谢所有支持我们任务的人! :heart:
