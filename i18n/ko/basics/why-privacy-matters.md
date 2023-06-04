@@ -1,5 +1,5 @@
 ---
-title: "Why Privacy Matters"
+title: "프라이버시를 신경 써야 하는 이유"
 icon: 'material/shield-account'
 ---
 
@@ -7,14 +7,14 @@ In the modern age of digital data exploitation, your privacy has never been more
 
 Privacy is ultimately about human information, and this is important because we know that human information confers power over human beings. If we care about our ability to be authentic, fulfilled, and free humans, we have to care about the rules that apply to information about us. So much of our modern society is structured around **information**. When you shop online, read the news, look something up, vote, seek directions, or really anything else, you are relying on information. If we live in an information society, our information matters, and therefore privacy matters.
 
-## What is Privacy?
+## '프라이버시'란?
 
-Many people get the concepts of **privacy**, **security**, and **anonymity** confused. You'll see people criticize various products as "not private" when really they mean it doesn't provide anonymity, for example. On this website, we cover all three of these topics, but it is important you understand the difference between them, and when each one comes into play.
+많은 사람들은 **프라이버시**, **보안**, **익명성**의 개념을 혼동하곤 합니다. 어떤 서비스가 익명성을 제공하지 않는다는 이유로 '프라이버시 친화적이지 않다'며 비판하는 사람도 많습니다. 본 웹사이트에서는 이 세 가지 개념을 모두 주제로 다루고 있지만, 각 개념의 차이를 정확히 알고 언제 어떤 것이 필요한지를 이해해야 합니다.
 
 **프라이버시**
 :
 
-==Privacy is the assurance that your data is only seen by the parties you intend to view it.== In the context of an instant messenger, for example, end-to-end encryption provides privacy by keeping your message visible only to yourself and the recipient.
+=='프라이버시'란, '여러분에 대한 정보를 여러분이 관리하고 통제할 수 있는 권리'를 의미합니다.== 예를 들어, 메신저에서 여러분의 프라이버시를 보호하는 방법은 메신저에 종단 간 암호화를 적용하여 주고받는 메시지를 여러분 자신과 상대방 이외에는 아무도 볼 수 없게 하는 것입니다.
 
 **보안**
 :
@@ -23,22 +23,22 @@ Security is the ability to trust the applications you use—that the parties inv
 
     Certificates prove you are talking directly to the website you're visiting, and keep attackers on your network from reading or modifying the data sent to or from the website.
 
-**Anonymity**
+**익명성**
 :
 
-Anonymity is the ability to act without a persistent identifier. You might achieve this online with [Tor](../tor.md), which allows you to browse the internet with a random IP address and network connection instead of your own.
+Anonymity is the ability to act without a persistent identifier. 익명성을 보장하는 대표적인 수단으로는 [Tor](../tor.md)가 있습니다. Tor를 이용하면 자신의 IP 주소나 네트워크 연결망을 사용하지 않고 임의의 IP 주소로 인터넷을 탐색할 수 있습니다.
 
-    **Pseudonymity** is a similar concept, but it allows you to have a persistent identifier without it being tied to your real identity. If everybody knows you as `@GamerGuy12` online, but nobody knows your real name, that is your pseudonym.
+    **'가명'**도 익명과 유사한 개념이지만, 가명은 실제 신원과 연결점이 없는 영구 식별자를 사용한다는 것이 특징입니다. '온라인에서 누구나 나를 `@GamerGuy12`라는 이름으로 찾을 수 있지만, 내 본명을 아는 사람은 아무도 없는 것', 이것이 바로 가명입니다.
 
 All of these concepts overlap, but it is possible to have any combination of these. The sweet spot for most people is when all three of these concepts overlap. However, it's tricker to achieve than many initially believe. Sometimes, you have to compromise on some of these, and that's okay too. This is where **threat modeling** comes into play, allowing you to make informed decisions about the [software and services](../tools.md) you use.
 
-[:material-book-outline: Learn More About Threat Modeling](threat-modeling.md ""){.md-button}
+[:material-book-outline: 위협 모델링에 대해 자세히 알아보기](threat-modeling.md ""){.md-button}
 
 ## Privacy vs. Secrecy
 
-A common counter-argument to pro-privacy movements is the notion that one doesn't need privacy if they have **"nothing to hide."** This is a dangerous misconception, because it creates a sense that people who demand privacy must be deviant, criminal, or wrong.
+'프라이버시를 지켜야 합니다'라고 주장할 때 항상 튀어나오는 반박은 **"숨길 게 없다면 프라이버시를 신경 쓸 이유가 없다"**라는 주장입니다. 이는 프라이버시를 지키고자 하는 사람들을 반사회적인 사람이나 범죄자처럼 묘사하고, 마치 프라이버시 보호는 잘못된 행동인 것 같은 느낌을 만들어내는 위험한 오해입니다.
 
-==You shouldn't confuse privacy with secrecy.== We know what happens in the bathroom, but you still close the door. 이는 여러분이 무언가를 감추고자 한 것이 아닌, 사생활을 보호하고자 한 것이죠. There are always certain facts about us—say, personal health information, or sexual behavior—that we wouldn't want the whole world to know, and that's okay. The need for privacy is legitimate, and that's what makes us human. Privacy is about empowering your rights over your own information, not about hiding secrets.
+=='무언가를 숨기거나 감추는 것'과 '사생활 보호'를 혼동하면 안 됩니다.== 여러분이 화장실에서 뭘 하는지는 명백함에도 불구하고, 여러분은 항상 화장실 문을 닫아둡니다. 이는 여러분이 무언가를 감추고자 한 것이 아닌, 사생활을 보호하고자 한 것이죠. 우리는 개인 건강 정보나 성생활 등 자신에 대한 정보를 여기저기 퍼뜨리고 다니는 것을 싫어하지만, 이런 마음가짐이 규탄받지는 않습니다. 사생활, 즉 프라이버시를 지키고자 하는 것은 정당한 욕구이며, 우리가 사람답게 살기 위해서는 반드시 필요한 것입니다. 프라이버시란, 비밀을 감추는 것이 아닌, '자신의 정보에 대한 권리를 강화하는 것'입니다.
 
 ## Is Privacy About Control?
 

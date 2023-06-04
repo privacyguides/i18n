@@ -1,6 +1,6 @@
 ---
 meta_title: "Recommended Encryption Software: VeraCrypt, Cryptomator, PicoCrypt, and OpenPGP - Privacy Guides"
-title: "Encryption Software"
+title: "암호화 소프트웨어"
 icon: material/file-lock
 description: Encryption of data is the only way to control who can access it. These tools allow you to encrypt your emails and any other files.
 cover: encryption.png
@@ -60,7 +60,7 @@ Cryptomator's documentation details its intended [security target](https://docs.
         - [:simple-apple: macOS](https://github.com/HACKERALERT/Picocrypt/releases)
         - [:simple-linux: Linux](https://github.com/HACKERALERT/Picocrypt/releases)
 
-### VeraCrypt (Disk)
+### VeraCrypt (디스크)
 
 !!! recommendation
 
@@ -84,7 +84,7 @@ VeraCrypt is a fork of the discontinued TrueCrypt project. According to its deve
 
 When encrypting with VeraCrypt, you have the option to select from different [hash functions](https://en.wikipedia.org/wiki/VeraCrypt#Encryption_scheme). We suggest you **only** select [SHA-512](https://en.wikipedia.org/wiki/SHA-512) and stick to the [AES](https://en.wikipedia.org/wiki/Advanced_Encryption_Standard) block cipher.
 
-Truecrypt has been [audited a number of times](https://en.wikipedia.org/wiki/TrueCrypt#Security_audits), and VeraCrypt has also been [audited separately](https://en.wikipedia.org/wiki/VeraCrypt#VeraCrypt_audit).
+Truecrypt는 [여러 차례 감사 받은 이력이 있으며](https://en.wikipedia.org/wiki/TrueCrypt#Security_audits), VeraCrypt 또한 [별도 감사](https://en.wikipedia.org/wiki/VeraCrypt#VeraCrypt_audit)를 받았습니다.
 
 ## OS 전체 디스크 암호화
 
@@ -136,29 +136,29 @@ BitLocker is [only supported](https://support.microsoft.com/en-us/windows/turn-o
         manage-bde -protectors -get c: > %UserProfile%\Desktop\BitLocker-Recovery-Key.txt
         ```
 
-        !!! tip
+        !!! tip "도움말"
    
-        Backup `BitLocker-Recovery-Key.txt` on your Desktop to a separate storage device. Loss of this recovery code may result in loss of data.
+        데스크톱의 `BitLocker-Recovery-Key.txt`를 별도 저장 장치에 백업하세요. 해당 복구 코드를 분실하면 데이터를 잃어버리게 될 수 있습니다.
 
 ### FileVault
 
 !!! recommendation
 
-    ![FileVault logo](assets/img/encryption-software/filevault.png){ align=right }
+    ![FileVault 로고](assets/img/encryption-software/filevault.png){ align=right }
     
-    **FileVault** is the on-the-fly volume encryption solution built into macOS. FileVault is recommended because it [leverages](https://support.apple.com/guide/security/volume-encryption-with-filevault-sec4c6dc1b6e/web) hardware security capabilities present on an Apple silicon SoC or T2 Security Chip.
+    **FileVault**는 macOS에 기본 내장된, 즉시 사용 가능한 볼륨 암호화 솔루션입니다. FileVault is recommended because it [leverages](https://support.apple.com/guide/security/volume-encryption-with-filevault-sec4c6dc1b6e/web) hardware security capabilities present on an Apple silicon SoC or T2 Security Chip.
     
     [:octicons-info-16:](https://support.apple.com/ko-kr/guide/mac-help/mh11785/mac){ .card-link title=문서}
 
-We recommend storing a local recovery key in a secure place as opposed to using your iCloud account for recovery.
+저희는 복구 수단으로 iCloud 계정을 사용하는 것보다는 로컬 복구 키를 안전한 곳에 보관해둘 것을 권장드립니다.
 
 ### Linux Unified Key Setup
 
 !!! recommendation
 
-    ![LUKS logo](assets/img/encryption-software/luks.png){ align=right }
+    ![LUKS 로고](assets/img/encryption-software/luks.png){ align=right }
     
-    **LUKS** is the default FDE method for Linux. It can be used to encrypt full volumes, partitions, or create encrypted containers.
+    **LUKS**는 Linux에서 기본으로 사용하는 FDE 방식입니다. 전체 볼륨, 파티션을 암호화하거나 암호화 컨테이너를 만들 수 있습니다.
     
     [:octicons-home-16: 홈페이지](https://gitlab.com/cryptsetup/cryptsetup/-/blob/main/README.md){ .md-button .md-button--primary }
     [:octicons-info-16:](https://gitlab.com/cryptsetup/cryptsetup/-/wikis/home){ .card-link title=문서}
@@ -208,15 +208,15 @@ Browser-based encryption can be useful when you need to encrypt a file but canno
 
 ## 커맨드라인
 
-Tools with command-line interfaces are useful for integrating [shell scripts](https://en.wikipedia.org/wiki/Shell_script).
+커맨드라인 인터페이스가 존재하는 툴은 [Shell 스크립트](https://ko.wikipedia.org/wiki/%EC%85%B8_%EC%8A%A4%ED%81%AC%EB%A6%BD%ED%8A%B8)에 통합하는 용도로 유용합니다.
 
 ### Kryptor
 
 !!! recommendation
 
-    ![Kryptor logo](assets/img/encryption-software/kryptor.png){ align=right }
+    ![Kryptor 로고](assets/img/encryption-software/kryptor.png){ align=right }
     
-    **Kryptor** is a free and open-source file encryption and signing tool that makes use of modern and secure cryptographic algorithms. It aims to be a better version of [age](https://github.com/FiloSottile/age) and [Minisign](https://jedisct1.github.io/minisign/) to provide a simple, easier alternative to GPG.
+    **Kryptor**는 현대적이고 안전한 암호화 알고리즘을 사용하는 무료 오픈 소스 툴로, 파일 암호화 및 서명 기능을 제공합니다. [age](https://github.com/FiloSottile/age)와 [Minisign](https://jedisct1.github.io/minisign/)을 개선하여 GPG를 대체할 수 있는 쉽고 간편한 대안을 제공하는 것을 목표로 합니다.
     
     [:octicons-home-16: 홈페이지](https://www.kryptor.co.uk){ .md-button .md-button--primary }
     [:octicons-eye-16:](https://www.kryptor.co.uk/features#privacy){ .card-link title="프라이버시 정책" }
@@ -234,9 +234,9 @@ Tools with command-line interfaces are useful for integrating [shell scripts](ht
 
 !!! recommendation
 
-    ![Tomb logo](assets/img/encryption-software/tomb.png){ align=right }
+    ![Tomb 로고](assets/img/encryption-software/tomb.png){ align=right }
     
-    **Tomb** is a command-line shell wrapper for LUKS. It supports steganography via [third-party tools](https://github.com/dyne/Tomb#how-does-it-work).
+    **Tomb**는 LUKS의 커맨드라인 Shell 래퍼(Wrapper)입니다. [외부 툴](https://github.com/dyne/Tomb#how-does-it-work)을 통해 스테가노그래피(Steganography)를 지원합니다.
     
     [:octicons-home-16: 홈페이지](https://www.dyne.org/software/tomb){ .md-button .md-button--primary }
     [:octicons-info-16:](https://github.com/dyne/Tomb/wiki){ .card-link title=문서}

@@ -1,7 +1,7 @@
 ---
 title: "통신 네트워크 유형"
 icon: 'material/transit-connection-variant'
-description: An overview of several network architectures commonly used by instant messaging applications.
+description: 메신저 애플리케이션에서 보편적으로 사용되는 몇 가지 네트워크 구조에 대한 개요입니다.
 ---
 
 사람들 간에 메시지를 전달할 때 일반적으로 쓰이는 네트워크의 구조는 여러 유형이 있습니다. 네트워크 유형마다 프라이버시 면에서 각각 다른 장단점이 존재하므로, 어떤 유형의 애플리케이션을 사용할지는 여러분의 [위협 모델](../basics/threat-modeling.md)을 고려하여 결정하는 것이 좋습니다.
@@ -10,7 +10,7 @@ description: An overview of several network architectures commonly used by insta
 
 ## 중앙 집중형 네트워크
 
-![Centralized networks diagram](../assets/img/layout/network-centralized.svg){ align=left }
+![중앙 집중형 네트워크 다이어그램](../assets/img/layout/network-centralized.svg){ align=left }
 
 중앙 집중형(Centralized) 메신저는 모든 참가자가 하나의 서버 혹은 하나의 단체가 관리하는 서버 네트워크를 이용합니다.
 
@@ -33,11 +33,11 @@ description: An overview of several network architectures commonly used by insta
 
 ## 연합형 네트워크
 
-![Federated networks diagram](../assets/img/layout/network-decentralized.svg){ align=left }
+![연합형 네트워크 다이어그램](../assets/img/layout/network-decentralized.svg){ align=left }
 
-연합형(Federated) 메신저는 서로 간에 대화할 수 있는 여러 개의 독립적이고 분산된 서버를 이용합니다(이메일이 연합형 메신저의 대표적인 예시입니다). Federation allows system administrators to control their own server and still be a part of the larger communications network.
+연합형(Federated) 메신저는 서로 간에 대화할 수 있는 여러 개의 독립적이고 분산된 서버를 이용합니다(이메일이 연합형 메신저의 대표적인 예시입니다). 연합 방식에서는 어떤 시스템 관리자가 자신의 서버를 통제하면서도 더 큰 통신 네트워크의 일부가 되는 것이 가능합니다.
 
-When self-hosted, members of a federated server can discover and communicate with members of other servers, although some servers may choose to remain private by being non-federated (e.g., work team server).
+자체 호스팅하는 경우, 해당 연합형 서버의 구성원은 다른 서버의 구성원을 찾아내고 통신할 수 있습니다. 단, 서버 연합 네트워크에 참여하지 않고 비공개로 유지하는 것도 가능합니다(업무용 서버 등이 대표적입니다).
 
 **장점:**
 
@@ -52,17 +52,17 @@ When self-hosted, members of a federated server can discover and communicate wit
 - 앞선 이유와 마찬가지로, 메시지 삭제나 오프라인 상태에서의 메시지 전달 등의 기능이 중앙 집중형 플랫폼에 비해 부족하거나, 불완전하거나, 예상치 못한 방식으로 작동할 수 있습니다.
 - 일부 메타데이터가 유출될 가능성이 존재합니다(E2EE가 적용될 경우 실제 메시지 내용은 알 수 없지만, '누가 누구랑 대화하고 있는지'는 알 수 있습니다).
 - 연합형 서버를 사용하려면 일반적으로 해당 서버의 관리자를 신뢰해야 합니다. 하지만 서버 관리자가 '보안 전문가'일 것이란 보장은 없습니다. 단순히 취미로 운영할 수도 있으며, 사용자 데이터 처리 방침/서비스 약관/프라이버시 정책 등의 표준 문서를 제공하지 않을 수 있습니다.
-- Server administrators sometimes choose to block other servers, which are a source of unmoderated abuse or break general rules of accepted behavior. This will hinder your ability to communicate with members of those servers.
+- 중재되지 않는 어뷰징이 일어나거나 일반적인 규칙을 위반하는 다른 서버를 여러분의 서버 관리자가 차단하기도 합니다. 이 경우 해당 서버의 구성원과는 소통하기 어려워집니다.
 
 ## P2P 네트워크
 
-![P2P diagram](../assets/img/layout/network-distributed.svg){ align=left }
+![P2P 다이어그램](../assets/img/layout/network-distributed.svg){ align=left }
 
 P2P 메신저는 [분산형(Distributed) 네트워크](https://en.wikipedia.org/wiki/Distributed_networking)에 노드로서 연결되어 제3자 서버 없이 수신자에게 메시지를 전달합니다.
 
-클라이언트(피어)는 일반적으로 [분산 컴퓨팅](https://en.wikipedia.org/wiki/Distributed_computing) 네트워크를 이용해 서로를 찾아냅니다. 예시로는 [토렌트](https://ko.wikipedia.org/wiki/%EB%B9%84%ED%8A%B8%ED%86%A0%EB%A0%8C%ED%8A%B8), [IPFS](https://ko.wikipedia.org/wiki/InterPlanetary_File_System)에서 사용하는 [분산 해시 테이블](https://ko.wikipedia.org/wiki/%EB%B6%84%EC%82%B0_%ED%95%B4%EC%8B%9C_%ED%85%8C%EC%9D%B4%EB%B8%94)(DHT)이 있습니다. Another approach is proximity based networks, where a connection is established over WiFi or Bluetooth (for example, Briar or the [Scuttlebutt](https://www.scuttlebutt.nz) social network protocol).
+클라이언트(피어)는 일반적으로 [분산 컴퓨팅](https://en.wikipedia.org/wiki/Distributed_computing) 네트워크를 이용해 서로를 찾아냅니다. 예시로는 [토렌트](https://ko.wikipedia.org/wiki/%EB%B9%84%ED%8A%B8%ED%86%A0%EB%A0%8C%ED%8A%B8), [IPFS](https://ko.wikipedia.org/wiki/InterPlanetary_File_System)에서 사용하는 [분산 해시 테이블](https://ko.wikipedia.org/wiki/%EB%B6%84%EC%82%B0_%ED%95%B4%EC%8B%9C_%ED%85%8C%EC%9D%B4%EB%B8%94)(DHT)이 있습니다. Wi-Fi나 Bluetooth를 통해 연결하는 근접 기반 네트워크 방식(Proximity Based Network)을 사용하는 경우도 있습니다. Briar, [Scuttlebutt](https://www.scuttlebutt.nz) 소셜 네트워크 프로토콜이 대표적입니다.
 
-피어가 이러한 방법을 통해 연락 상대로 연결되는 경로를 찾아내면 서로 직접 연결이 이루어집니다. Although messages are usually encrypted, an observer can still deduce the location and identity of the sender and recipient.
+피어가 이러한 방법을 통해 연락 상대로 연결되는 경로를 찾아내면 서로 직접 연결이 이루어집니다. 메시지에는 일반적으로 암호화가 적용되나, 관찰자는 발신자/수신자의 위치와 신원을 유추할 수 있습니다.
 
 P2P 네트워크는 피어가 서로 직접 통신하므로 서버를 사용하지 않고, 따라서 자체 호스팅은 불가능합니다. 하지만 사용자 검색, 오프라인 메시지 전달 등 일부 추가 서비스는 중앙 집중형 서버에 의존하는 경우도 있으며, 이러한 서비스는 자체 호스팅의 이점이 존재합니다.
 
@@ -81,7 +81,7 @@ P2P 네트워크는 피어가 서로 직접 통신하므로 서버를 사용하�
 
 ## 익명 라우팅
 
-![Anonymous routing diagram](../assets/img/layout/network-anonymous-routing.svg){ align=left }
+![익명 라우팅 다이어그램](../assets/img/layout/network-anonymous-routing.svg){ align=left }
 
 [익명 라우팅](https://doi.org/10.1007/978-1-4419-5906-5_628)을 사용하는 메신저는 발신자, 수신자의 신원 혹은 통신 흔적을 드러내지 않습니다. 이상적으로는, 메신저는 이 세 가지(발신자 신원, 수신자 신원, 통신 흔적) 모두를 숨길 수 있어야 합니다.
 
@@ -97,7 +97,7 @@ P2P 네트워크는 피어가 서로 직접 통신하므로 서버를 사용하�
 **단점:**
 
 - 메시지 전달 속도가 느립니다.
-- Often limited to fewer media types, mostly text, since the network is slow.
-- Less reliable if nodes are selected by randomized routing, some nodes may be very far from the sender and receiver, adding latency or even failing to transmit messages if one of the nodes goes offline.
-- More complex to get started, as the creation and secured backup of a cryptographic private key is required.
-- Just like other decentralized platforms, adding features is more complex for developers than on a centralized platform. Hence, features may be lacking or incompletely implemented, such as offline message relaying or message deletion.
+- 네트워크의 느린 속도로 인해 전송 가능한 미디어 유형이 제한됩니다. 실질적으로 텍스트만 가능합니다.
+- 무작위 라우팅으로 노드를 선정하는 경우, 일부 노드는 발신자와 수신자로부터 매우 멀리 떨어져 있을 수 있습니다. 이 경우 지연 시간이 길어지거나 노드 중 하나가 오프라인 상태가 되면 메시지 전송에 실패할 수도 있습니다.
+- 암호화 개인 키를 생성하고 안전하게 백업하는 방법을 알아야 하므로, 사용 난이도가 높은 편입니다.
+- 여타 분산형 플랫폼과 마찬가지로 중앙 집중형 플랫폼에 비해 새로운 기능이 추가되는 과정이 복잡합니다. 오프라인 메시지 전달이나 메시지 삭제 등의 기능이 부족하거나, 불완전할 수 있습니다.

@@ -1,6 +1,6 @@
 ---
 title: Panoramica Android
-icon: fontawesome/brands/android
+icon: simple/android
 description: Android è un sistema operativo open-source con forti protezioni per la sicurezza, il che lo rende la nostra scelta migliore per i telefoni.
 ---
 

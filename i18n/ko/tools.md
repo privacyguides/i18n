@@ -1,6 +1,6 @@
 ---
 meta_title: "The Best Privacy Tools, Services, and Ad-Free Recommendations - Privacy Guides"
-title: "Privacy Tools"
+title: "프라이버시 툴 목록"
 icon: material/tools
 hide:
   - toc
@@ -39,7 +39,7 @@ For more details about each project, why they were chosen, and additional tips o
 
 [자세히 알아보기 :material-arrow-right-drop-circle:](desktop-browsers.md)
 
-### Additional Resources
+### 추가 자료
 
 <div class="grid cards" markdown>
 
@@ -60,7 +60,7 @@ For more details about each project, why they were chosen, and additional tips o
 
 [자세히 알아보기 :material-arrow-right-drop-circle:](mobile-browsers.md)
 
-### Additional Resources
+### 추가 자료
 
 <div class="grid cards annotate" markdown>
 
@@ -70,14 +70,14 @@ For more details about each project, why they were chosen, and additional tips o
 
 [자세히 알아보기 :material-arrow-right-drop-circle:](mobile-browsers.md#adguard)
 
-## Service Providers
+## 서비스 제공자
 
 ### 클라우드 스토리지
 
 <div class="grid cards" markdown>
 
-- ![Proton Drive logo](assets/img/cloud/protondrive.svg){ .twemoji } [Proton Drive](cloud.md#proton-drive)
-- ![Tresorit logo](assets/img/cloud/tresorit.svg){ .twemoji } [Tresorit](cloud.md#tresorit)
+- ![Proton Drive 로고](assets/img/cloud/protondrive.svg){ .twemoji } [Proton Drive](cloud.md#proton-drive)
+- ![Tresorit 로고](assets/img/cloud/tresorit.svg){ .twemoji } [Tresorit](cloud.md#tresorit)
 
 </div>
 
@@ -91,23 +91,23 @@ We [recommend](dns.md#recommended-providers) a number of encrypted DNS servers b
 
 [자세히 알아보기 :material-arrow-right-drop-circle:](dns.md)
 
-#### Encrypted DNS Proxies
+#### 암호화 DNS 프록시
 
 <div class="grid cards" markdown>
 
-- ![RethinkDNS logo](assets/img/android/rethinkdns.svg#only-light){ .twemoji }![RethinkDNS logo](assets/img/android/rethinkdns-dark.svg#only-dark){ .twemoji } [RethinkDNS](dns.md#rethinkdns)
-- ![dnscrypt-proxy logo](assets/img/dns/dnscrypt-proxy.svg){ .twemoji } [dnscrypt-proxy](dns.md#dnscrypt-proxy)
+- ![RethinkDNS 로고](assets/img/android/rethinkdns.svg#only-light){ .twemoji }![RethinkDNS 로고](assets/img/android/rethinkdns-dark.svg#only-dark){ .twemoji } [RethinkDNS](dns.md#rethinkdns)
+- ![dnscrypt-proxy 로고](assets/img/dns/dnscrypt-proxy.svg){ .twemoji } [dnscrypt-proxy](dns.md#dnscrypt-proxy)
 
 </div>
 
 [자세히 알아보기 :material-arrow-right-drop-circle:](dns.md#encrypted-dns-proxies)
 
-#### Self-hosted Solutions
+#### 자체 호스팅 솔루션
 
 <div class="grid cards" markdown>
 
-- ![AdGuard Home logo](assets/img/dns/adguard-home.svg){ .twemoji } [AdGuard Home](dns.md#adguard-home)
-- ![Pi-hole logo](assets/img/dns/pi-hole.svg){ .twemoji } [Pi-hole](dns.md#pi-hole)
+- ![AdGuard Home 로고](assets/img/dns/adguard-home.svg){ .twemoji } [AdGuard Home](dns.md#adguard-home)
+- ![Pi-hole 로고](assets/img/dns/pi-hole.svg){ .twemoji } [Pi-hole](dns.md#pi-hole)
 
 </div>
 
@@ -117,9 +117,9 @@ We [recommend](dns.md#recommended-providers) a number of encrypted DNS servers b
 
 <div class="grid cards" markdown>
 
-- ![Proton Mail logo](assets/img/email/protonmail.svg){ .twemoji } [Proton Mail](email.md#proton-mail)
-- ![Mailbox.org logo](assets/img/email/mailboxorg.svg){ .twemoji } [Mailbox.org](email.md#mailboxorg)
-- ![Tutanota logo](assets/img/email/tutanota.svg){ .twemoji } [Tutanota](email.md#tutanota)
+- ![Proton Mail 로고](assets/img/email/protonmail.svg){ .twemoji } [Proton Mail](email.md#proton-mail)
+- ![Mailbox.org 로고](assets/img/email/mailboxorg.svg){ .twemoji } [Mailbox.org](email.md#mailboxorg)
+- ![Tutanota 로고](assets/img/email/tutanota.svg){ .twemoji } [Tutanota](email.md#tutanota)
 
 </div>
 
@@ -153,8 +153,8 @@ We [recommend](dns.md#recommended-providers) a number of encrypted DNS servers b
 
 <div class="grid cards" markdown>
 
-- ![Privacy.com logo](assets/img/financial-services/privacy_com.svg#only-light){ .twemoji }![Privacy.com logo](assets/img/financial-services/privacy_com-dark.svg#only-dark){ .twemoji } [Privacy.com](financial-services.md#privacycom-us-free)
-- ![MySudo logo](assets/img/financial-services/mysudo.svg#only-light){ .twemoji }![MySudo logo](assets/img/financial-services/mysudo-dark.svg#only-dark){ .twemoji } [MySudo](financial-services.md#mysudo-us-paid)
+- ![Privacy.com 로고](assets/img/financial-services/privacy_com.svg#only-light){ .twemoji }![Privacy.com 로고](assets/img/financial-services/privacy_com-dark.svg#only-dark){ .twemoji } [Privacy.com](financial-services.md#privacycom-us-free)
+- ![MySudo 로고](assets/img/financial-services/mysudo.svg#only-light){ .twemoji }![MySudo 로고](assets/img/financial-services/mysudo-dark.svg#only-dark){ .twemoji } [MySudo](financial-services.md#mysudo-us-paid)
 </div>
 
 [자세히 알아보기 :material-arrow-right-drop-circle:](financial-services.md#payment-masking-services)
@@ -232,11 +232,11 @@ We [recommend](dns.md#recommended-providers) a number of encrypted DNS servers b
 
 <div class="grid cards" markdown>
 
-- ![MAT2 logo](assets/img/data-redaction/mat2.svg){ .twemoji } [MAT2](data-redaction.md#mat2)
-- ![ExifEraser logo](assets/img/data-redaction/exiferaser.svg){ .twemoji } [ExifEraser (Android)](data-redaction.md#exiferaser-android)
-- ![Metapho logo](assets/img/data-redaction/metapho.jpg){ .twemoji } [Metapho (iOS)](data-redaction.md#metapho-ios)
-- ![PrivacyBlur logo](assets/img/data-redaction/privacyblur.svg){ .twemoji } [PrivacyBlur](data-redaction.md#privacyblur)
-- ![ExifTool logo](assets/img/data-redaction/exiftool.png){ .twemoji } [ExifTool (CLI)](data-redaction.md#exiftool)
+- ![MAT2 로고](assets/img/data-redaction/mat2.svg){ .twemoji } [MAT2](data-redaction.md#mat2)
+- ![ExifEraser 로고](assets/img/data-redaction/exiferaser.svg){ .twemoji } [ExifEraser (Android)](data-redaction.md#exiferaser-android)
+- ![Metapho 로고](assets/img/data-redaction/metapho.jpg){ .twemoji } [Metapho (iOS)](data-redaction.md#metapho-ios)
+- ![PrivacyBlur 로고](assets/img/data-redaction/privacyblur.svg){ .twemoji } [PrivacyBlur](data-redaction.md#privacyblur)
+- ![ExifTool 로고](assets/img/data-redaction/exiftool.png){ .twemoji } [ExifTool (CLI)](data-redaction.md#exiftool)
 
 </div>
 
@@ -246,21 +246,21 @@ We [recommend](dns.md#recommended-providers) a number of encrypted DNS servers b
 
 <div class="grid cards" markdown>
 
-- ![Thunderbird logo](assets/img/email-clients/thunderbird.svg){ .twemoji } [Thunderbird](email-clients.md#thunderbird)
-- ![Apple Mail logo](assets/img/email-clients/applemail.png){ .twemoji } [Apple Mail (macOS)](email-clients.md#apple-mail-macos)
-- ![Canary Mail logo](assets/img/email-clients/canarymail.svg){ .twemoji } [Canary Mail (iOS)](email-clients.md#canary-mail-ios)
-- ![FairEmail logo](assets/img/email-clients/fairemail.svg){ .twemoji } [FairEmail (Android)](email-clients.md#fairemail-android)
-- ![GNOME Evolution logo](assets/img/email-clients/evolution.svg){ .twemoji } [GNOME Evolution (Linux)](email-clients.md#gnome-evolution-gnome)
-- ![K-9 Mail logo](assets/img/email-clients/k9mail.svg){ .twemoji } [K-9 Mail (Android)](email-clients.md#k-9-mail-android)
-- ![Kontact logo](assets/img/email-clients/kontact.svg){ .twemoji } [Kontact (Linux)](email-clients.md#kontact-kde)
-- ![Mailvelope logo](assets/img/email-clients/mailvelope.svg){ .twemoji } [Mailvelope (PGP in standard webmail)](email-clients.md#mailvelope-browser)
-- ![NeoMutt logo](assets/img/email-clients/mutt.svg){ .twemoji } [NeoMutt (CLI)](email-clients.md#neomutt-cli)
+- ![Thunderbird 로고](assets/img/email-clients/thunderbird.svg){ .twemoji } [Thunderbird](email-clients.md#thunderbird)
+- ![Apple Mail 로고](assets/img/email-clients/applemail.png){ .twemoji } [Apple Mail (macOS)](email-clients.md#apple-mail-macos)
+- ![Canary Mail 로고](assets/img/email-clients/canarymail.svg){ .twemoji } [Canary Mail (iOS)](email-clients.md#canary-mail-ios)
+- ![FairEmail 로고](assets/img/email-clients/fairemail.svg){ .twemoji } [FairEmail (Android)](email-clients.md#fairemail-android)
+- ![GNOME Evolution 로고](assets/img/email-clients/evolution.svg){ .twemoji } [GNOME Evolution (Linux)](email-clients.md#gnome-evolution-gnome)
+- ![K-9 Mail 로고](assets/img/email-clients/k9mail.svg){ .twemoji } [K-9 Mail (Android)](email-clients.md#k-9-mail-android)
+- ![Kontact 로고](assets/img/email-clients/kontact.svg){ .twemoji } [Kontact (Linux)](email-clients.md#kontact-kde)
+- ![Mailvelope 로고](assets/img/email-clients/mailvelope.svg){ .twemoji } [Mailvelope (표준 웹메일에서 PGP 사용)](email-clients.md#mailvelope-browser)
+- ![NeoMutt 로고](assets/img/email-clients/mutt.svg){ .twemoji } [NeoMutt (CLI)](email-clients.md#neomutt-cli)
 
 </div>
 
 [자세히 알아보기 :material-arrow-right-drop-circle:](email-clients.md)
 
-### Encryption Software
+### 암호화 소프트웨어
 
 ??? info "Operating System Disk Encryption"
 
@@ -270,12 +270,12 @@ We [recommend](dns.md#recommended-providers) a number of encrypted DNS servers b
 
 <div class="grid cards" markdown>
 
-- ![Cryptomator logo](assets/img/encryption-software/cryptomator.svg){ .twemoji } [Cryptomator](encryption.md#cryptomator-cloud)
-- ![Picocrypt logo](assets/img/encryption-software/picocrypt.svg){ .twemoji } [Picocrypt](encryption.md#picocrypt-file)
-- ![VeraCrypt logo](assets/img/encryption-software/veracrypt.svg#only-light){ .twemoji }![VeraCrypt logo](assets/img/encryption-software/veracrypt-dark.svg#only-dark){ .twemoji } [VeraCrypt (FDE)](encryption.md#veracrypt-disk)
-- ![Hat.sh logo](assets/img/encryption-software/hat-sh.png#only-light){ .twemoji }![Hat.sh logo](assets/img/encryption-software/hat-sh-dark.png#only-dark){ .twemoji } [Hat.sh (Browser-based)](encryption.md#hatsh)
-- ![Kryptor logo](assets/img/encryption-software/kryptor.png){ .twemoji } [Kryptor](encryption.md#kryptor)
-- ![Tomb logo](assets/img/encryption-software/tomb.png){ .twemoji } [Tomb](encryption.md#tomb)
+- ![Cryptomator 로고](assets/img/encryption-software/cryptomator.svg){ .twemoji } [Cryptomator](encryption.md#cryptomator-cloud)
+- ![Picocrypt 로고](assets/img/encryption-software/picocrypt.svg){ .twemoji } [Picocrypt](encryption.md#picocrypt-file)
+- ![VeraCrypt 로고](assets/img/encryption-software/veracrypt.svg#only-light){ .twemoji }![VeraCrypt 로고](assets/img/encryption-software/veracrypt-dark.svg#only-dark){ .twemoji } [VeraCrypt (FDE)](encryption.md#veracrypt-disk)
+- ![Hat.sh 로고](assets/img/encryption-software/hat-sh.png#only-light){ .twemoji }![Hat.sh 로고](assets/img/encryption-software/hat-sh-dark.png#only-dark){ .twemoji } [Hat.sh (브라우저 기반)](encryption.md#hatsh)
+- ![Kryptor 로고](assets/img/encryption-software/kryptor.png){ .twemoji } [Kryptor](encryption.md#kryptor)
+- ![Tomb 로고](assets/img/encryption-software/tomb.png){ .twemoji } [Tomb](encryption.md#tomb)
 
 </div>
 
@@ -312,19 +312,19 @@ We [recommend](dns.md#recommended-providers) a number of encrypted DNS servers b
 
 <div class="grid cards" markdown>
 
-- ![Nitter logo](assets/img/frontends/nitter.svg){ .twemoji } [Nitter (Twitter, Web)](frontends.md#nitter)
-- ![FreeTube logo](assets/img/frontends/freetube.svg){ .twemoji } [FreeTube (YouTube, Desktop)](frontends.md#freetube)
-- ![Yattee logo](assets/img/frontends/yattee.svg){ .twemoji } [Yattee (YouTube; iOS, tvOS, macOS)](frontends.md#yattee)
-- ![LibreTube logo](assets/img/frontends/libretube.svg#only-light){ .twemoji }![LibreTube logo](assets/img/frontends/libretube-dark.svg#only-dark){ .twemoji } [LibreTube (YouTube, Android)](frontends.md#libretube-android)  
-- ![NewPipe logo](assets/img/frontends/newpipe.svg){ .twemoji } [NewPipe (YouTube, Android)](frontends.md#newpipe-android)
-- ![Invidious logo](assets/img/frontends/invidious.svg#only-light){ .twemoji }![Invidious logo](assets/img/frontends/invidious-dark.svg#only-dark){ .twemoji } [Invidious (YouTube, Web)](frontends.md#invidious)
-- ![Piped logo](assets/img/frontends/piped.svg){ .twemoji } [Piped (YouTube, Web)](frontends.md#piped)
+- ![Nitter 로고](assets/img/frontends/nitter.svg){ .twemoji } [Nitter (Twitter / 웹)](frontends.md#nitter)
+- ![FreeTube 로고](assets/img/frontends/freetube.svg){ .twemoji } [FreeTube (YouTube / 데스크톱)](frontends.md#freetube)
+- ![Yattee 로고](assets/img/frontends/yattee.svg){ .twemoji } [Yattee (YouTube / iOS, tvOS, macOS)](frontends.md#yattee)
+- ![LibreTube 로고](assets/img/frontends/libretube.svg#only-light){ .twemoji }![LibreTube 로고](assets/img/frontends/libretube-dark.svg#only-dark){ .twemoji } [LibreTube (YouTube / Android)](frontends.md#libretube-android)  
+- ![NewPipe 로고](assets/img/frontends/newpipe.svg){ .twemoji } [NewPipe (YouTube / Android)](frontends.md#newpipe-android)
+- ![Invidious 로고](assets/img/frontends/invidious.svg#only-light){ .twemoji }![Invidious 로고](assets/img/frontends/invidious-dark.svg#only-dark){ .twemoji } [Invidious (YouTube / 웹)](frontends.md#invidious)
+- ![Piped 로고](assets/img/frontends/piped.svg){ .twemoji } [Piped (YouTube / 웹)](frontends.md#piped)
 
 </div>
 
 [자세히 알아보기 :material-arrow-right-drop-circle:](frontends.md)
 
-### Multi-Factor Authentication Tools
+### 다중 인증 수단
 
 <div class="grid cards" markdown>
 
@@ -337,30 +337,30 @@ We [recommend](dns.md#recommended-providers) a number of encrypted DNS servers b
 
 [자세히 알아보기 :material-arrow-right-drop-circle:](multi-factor-authentication.md)
 
-### News Aggregators
+### 뉴스 애그리게이터
 
 <div class="grid cards" markdown>
 
-- ![Akregator logo](assets/img/news-aggregators/akregator.svg){ .twemoji } [Akregator](news-aggregators.md#akregator)
-- ![Feeder logo](assets/img/news-aggregators/feeder.png){ .twemoji} [Feeder](news-aggregators.md#feeder)
-- ![Fluent Reader logo](assets/img/news-aggregators/fluent-reader.svg){ .twemoji } [Fluent Reader](news-aggregators.md#fluent-reader)
-- ![GNOME Feeds logo](assets/img/news-aggregators/gfeeds.svg){ .twemoji } [GNOME Feeds](news-aggregators.md#gnome-feeds)
-- ![Miniflux logo](assets/img/news-aggregators/miniflux.svg#only-light){ .twemoji }![Miniflux logo](assets/img/news-aggregators/miniflux-dark.svg#only-dark){ .twemoji } [Miniflux](news-aggregators.md#miniflux)
-- ![NetNewsWire logo](assets/img/news-aggregators/netnewswire.png){ .twemoji } [NetNewsWire](news-aggregators.md#netnewswire)
-- ![Newsboat logo](assets/img/news-aggregators/newsboat.svg){ .twemoji } [Newsboat](news-aggregators.md#newsboat)
+- ![Akregator 로고](assets/img/news-aggregators/akregator.svg){ .twemoji } [Akregator](news-aggregators.md#akregator)
+- ![Feeder 로고](assets/img/news-aggregators/feeder.png){ .twemoji} [Feeder](news-aggregators.md#feeder)
+- ![Fluent Reader 로고](assets/img/news-aggregators/fluent-reader.svg){ .twemoji } [Fluent Reader](news-aggregators.md#fluent-reader)
+- ![GNOME Feeds 로고](assets/img/news-aggregators/gfeeds.svg){ .twemoji } [GNOME Feeds](news-aggregators.md#gnome-feeds)
+- ![Miniflux 로고](assets/img/news-aggregators/miniflux.svg#only-light){ .twemoji }![Miniflux 로고](assets/img/news-aggregators/miniflux-dark.svg#only-dark){ .twemoji } [Miniflux](news-aggregators.md#miniflux)
+- ![NetNewsWire 로고](assets/img/news-aggregators/netnewswire.png){ .twemoji } [NetNewsWire](news-aggregators.md#netnewswire)
+- ![Newsboat 로고](assets/img/news-aggregators/newsboat.svg){ .twemoji } [Newsboat](news-aggregators.md#newsboat)
 
 </div>
 
 [자세히 알아보기 :material-arrow-right-drop-circle:](news-aggregators.md)
 
-### Notebooks
+### 노트 작성 애플리케이션
 
 <div class="grid cards" markdown>
 
-- ![Joplin logo](assets/img/notebooks/joplin.svg){ .twemoji } [Joplin](notebooks.md#joplin)
-- ![Standard Notes logo](assets/img/notebooks/standard-notes.svg){ .twemoji } [Standard Notes](notebooks.md#standard-notes)
-- ![Cryptee logo](assets/img/notebooks/cryptee.svg#only-light){ .twemoji }![Cryptee logo](assets/img/notebooks/cryptee-dark.svg#only-dark){ .twemoji } [Cryptee](notebooks.md#cryptee)
-- ![Org-mode logo](assets/img/notebooks/org-mode.svg){ .twemoji } [Org-mode](notebooks.md#org-mode)
+- ![Joplin 로고](assets/img/notebooks/joplin.svg){ .twemoji } [Joplin](notebooks.md#joplin)
+- ![Standard Notes 로고](assets/img/notebooks/standard-notes.svg){ .twemoji } [Standard Notes](notebooks.md#standard-notes)
+- ![Cryptee 로고](assets/img/notebooks/cryptee.svg#only-light){ .twemoji }![Cryptee 로고](assets/img/notebooks/cryptee-dark.svg#only-dark){ .twemoji } [Cryptee](notebooks.md#cryptee)
+- ![Org-mode 로고](assets/img/notebooks/org-mode.svg){ .twemoji } [Org-mode](notebooks.md#org-mode)
 
 </div>
 
@@ -396,7 +396,7 @@ We [recommend](dns.md#recommended-providers) a number of encrypted DNS servers b
 
 [자세히 알아보기 :material-arrow-right-drop-circle:](productivity.md)
 
-### Real-Time Communication
+### 실시간 커뮤니케이션
 
 <div class="grid cards" markdown>
 
@@ -410,11 +410,11 @@ We [recommend](dns.md#recommended-providers) a number of encrypted DNS servers b
 
 [자세히 알아보기 :material-arrow-right-drop-circle:](real-time-communication.md)
 
-### Video Streaming Clients
+### 동영상 스트리밍 클라이언트
 
 <div class="grid cards" markdown>
 
-- ![LBRY logo](assets/img/video-streaming/lbry.svg){ .twemoji } [LBRY](video-streaming.md#lbry)
+- ![LBRY 로고](assets/img/video-streaming/lbry.svg){ .twemoji } [LBRY](video-streaming.md#lbry)
 
 </div>
 

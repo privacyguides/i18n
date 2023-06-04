@@ -65,14 +65,14 @@ For situations like these, or if you have another compelling reason, the VPN pro
 
 ## Sources and Further Reading
 
-1. [VPN - a Very Precarious Narrative](https://schub.io/blog/2019/04/08/very-precarious-narrative.html) by Dennis Schubert
-1. [Tor Network Overview](../advanced/tor-overview.md)
-1. [IVPN Privacy Guides](https://www.ivpn.net/privacy-guides)
-1. ["Do I need a VPN?"](https://www.doineedavpn.com), a tool developed by IVPN to challenge aggressive VPN marketing by helping individuals decide if a VPN is right for them.
+1. (영문) Dennis Schubert - [VPN - 매우 위험한 홍보 문구(Very Precarious Narrative)](https://schub.io/blog/2019/04/08/very-precarious-narrative.html)
+1. [Tor 네트워크 개요](../advanced/tor-overview.md)
+1. [(영문) IVPN Privacy Guides](https://www.ivpn.net/privacy-guides)
+1. (영문) ["Do I need a VPN?"](https://www.doineedavpn.com)은 IVPN에서 타 VPN 서비스들의 공격적인 마케팅을 저지하기 위해 제작한 사이트로, '자신은 VPN을 사용해야 하는가'를 판단하기 어려운 사람들에게 유용한 사이트입니다.
 
 ## VPN 관련 추가 정보
 
-- [The Trouble with VPN and Privacy Review Sites](https://blog.privacyguides.org/2019/11/20/the-trouble-with-vpn-and-privacy-review-sites/)
-- [Free VPN App Investigation](https://www.top10vpn.com/free-vpn-app-investigation/)
-- [Hidden VPN owners unveiled: 101 VPN products run by just 23 companies](https://vpnpro.com/blog/hidden-vpn-owners-unveiled-97-vpns-23-companies/)
-- [This Chinese company is secretly behind 24 popular apps seeking dangerous permissions](https://vpnpro.com/blog/chinese-company-secretly-behind-popular-apps-seeking-dangerous-permissions/)
+- [(영문) VPN 및 프라이버시 리뷰 사이트의 문제점](https://blog.privacyguides.org/2019/11/20/the-trouble-with-vpn-and-privacy-review-sites/)
+- [(영문) 무료 VPN 앱 조사 내용](https://www.top10vpn.com/free-vpn-app-investigation/)
+- [(영문) 드러나지 않았던 VPN 운영의 실체: 단 23개의 회사가 101개 VPN 제품을 운영하고 있습니다](https://vpnpro.com/blog/hidden-vpn-owners-unveiled-97-vpns-23-companies/)
+- [(영문) 인기 앱 24개에 파고들어 위험한 권한을 요구하고 있는 어떤 중국 회사](https://vpnpro.com/blog/chinese-company-secretly-behind-popular-apps-seeking-dangerous-permissions/)

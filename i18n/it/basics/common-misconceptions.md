@@ -79,7 +79,7 @@ Uno dei modelli di minaccia più chiari è quello in cui le persone *sanno chi s
 
     Non suggeriamo di utilizzare una VPN o Tor per queste cose, poiché la vostra identità è già nota attraverso altri mezzi.
 
-    !!! important
+    !!! tip "Suggerimento"
    
         Quando si fanno acquisti online, l'uso di un [punto pacchi automatico](https://it.wikipedia.org/wiki/Paccomat) può aiutare a mantenere privato il proprio indirizzo fisico.
 

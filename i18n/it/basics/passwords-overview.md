@@ -48,7 +48,7 @@ Un esempio di passfrase diceware è `viewable fastness reluctant squishy sevente
 
 Per generare una passfrase diceware utilizzando un vero dado, segui questi passaggi:
 
-!!! nota
+!!! note "Nota"
 
     Queste istruzioni presuppongono l'utilizzo del [grande elenco di parole di EFF](https://www.eff.org/files/2016/07/18/eff_large_wordlist.txt) per generare la passfrase, che richiede cinque lanci di dadi per parola. Altri elenchi di parole potrebbero richiedere più o meno tiri per parola, e possono richiedere una quantità diversa di parole per ottenere la stessa entropia.
 
@@ -98,7 +98,7 @@ Ci sono molte opzioni valide tra cui scegliere, sia basata su cloud, sia locali.
 
 [Elenco dei gestori di password consigliati](../passwords.md ""){.md-button}
 
-!!! attenzione "Non memorizzare le tue password e i token TOTP nello stesso gestore di password"
+!!! warning "Non memorizzare le tue password e i token TOTP nello stesso gestore di password"
 
     Quando utilizzi i codici TOTP come [autenticazione a più fattori](../multi-factor-authentication.md), la migliore prassi per la sicurezza è quella di conservare i codici TOTP in una [app separata](../multi-factor-authentication.md#authenticator-apps).
     
