@@ -166,12 +166,12 @@ cover: productivity.png
 #### 最低合格要求
 
 - 必須是開源的。
-- Must implement "zero-trust" end-to-end encryption.
-- Must support password-protected files.
+- 必須落實"零信任"端對端加密。
+- 必須支援密碼保護檔案。
 
 
 #### 最佳案例
 
 最佳案例標準代表了我們希望從這個類別的完美項目應具備的功能。 推薦產品可能沒有此功能，但若有這些功能則會讓排名更為提高。
 
-- Should have a published audit from a reputable, independent third-party.
+- 應有來自聲譽良好、獨立的第三方公開審查報告。

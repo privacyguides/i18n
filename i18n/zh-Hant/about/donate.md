@@ -15,9 +15,9 @@ Privacy Guides 需要大量的 [人](https://github.com/privacyguides/privacygui
 
 [在 GitHub 上贊助我們](https://github.com/sponsors/privacyguides ""){.md-button}
 
-Another option to support us is by buying our merchandise from HelloTux. We get roughly $4 for every shirt sold, and you get a quality product to show for it.
+另一個支持我們的方是從 HelloTux 購買我們的商品。 每賣出一件 T-恤我們可獲得 $4元，而您也可以得到一件優質商品。
 
-[Buy on HelloTux.com](https://hellotux.com/privacyguides){ class="md-button" }
+[在HelloTux.com 購買](https://hellotux.com/privacyguides){ class="md-button" }
 
 ## 贊助者清單
 
