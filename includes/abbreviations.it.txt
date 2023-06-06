@@ -8,7 +8,7 @@
 *[CLI]: Interfaccia a linea di comando
 *[CSV]: Comma-Separated Values
 *[CVE]: Common Vulnerabilities and Exposures
-*[Eredità digitale]: Digital Legacy si riferisce a funzioni che consentono di dare ad altre persone l'accesso ai propri dati quando si muore
+*[digital legacy feature]: Digital Legacy si riferisce a funzioni che consentono di dare ad altre persone l'accesso ai propri dati quando si muore
 *[DNSSEC]: Domain Name System Security Extensions
 *[DNS]: Domain Name System
 *[DoH]: DNS over HTTPS

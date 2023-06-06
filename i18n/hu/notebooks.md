@@ -44,7 +44,7 @@ A Joplin nem támogatja a jelszavas/PIN-kódos védelmet magához az [alkalmazá
 
     ![Standard Notes logo](assets/img/notebooks/standard-notes.svg){ align=right }
     
-    A **Standard Notes** egy egyszerű és privát jegyzetkezelő alkalmazás, amely megkönnyíti és elérhetővé teszi a feljegyzéseid kezelését bárhol is legyél. Minden platformon End-to-End titkosítást, valamint erőteljes asztali élményt kínál témákkal és egyedi szerkesztőkkel. Emellett [felül is lett vizsgálva egy független fél által (PDF)](https://s3.amazonaws.com/standard-notes/security/Report-SN-Audit.pdf).
+    A **Standard Notes** egy egyszerű és privát jegyzetkezelő alkalmazás, amely megkönnyíti és elérhetővé teszi a feljegyzéseid kezelését bárhol is legyél. Minden platformon End-to-End titkosítást, valamint erőteljes asztali élményt kínál témákkal és egyedi szerkesztőkkel. It has also been [independently audited](https://standardnotes.com/help/2/has-standard-notes-completed-a-third-party-security-audit).
     
     [:octicons-home-16: Honlap](https://standardnotes.com){ .md-button .md-button--primary }
     [:octicons-eye-16:](https://standardnotes.com/privacy){ .card-link title="Adatvédelmi Nyilatkozat" }

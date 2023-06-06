@@ -10,7 +10,7 @@ Molti fornitori di spazio di archiviazione cloud richiedono la tua totale fiduci
 
 Se queste alternative non soddisfano le vostre esigenze, vi suggeriamo di utilizzare un software di crittografia come [Cryptomator](encryption.md#cryptomator-cloud) con un altro cloud provider. L'uso di Cryptomator insieme a **qualsiasi ** provider cloud (compresi questi) può essere una buona idea per ridurre il rischio di falle di crittografia nei client nativi di un provider.
 
-??? domanda "Stai cercando Nextcloud?"
+??? question "Stai cercando Nextcloud?"
 
     Nextcloud è [ancora uno strumento consigliato](productivity.md) per il self-hosting di una suite di gestione dei file, tuttavia al momento non raccomandiamo fornitori di storage Nextcloud di terze parti, perché [non consigliamo](https://discuss.privacyguides.net/t/dont-recommend-nextcloud-e2ee/10352/29) la funzionalità E2EE integrata di Nextcloud per gli utenti normali.
 
@@ -27,7 +27,7 @@ Se queste alternative non soddisfano le vostre esigenze, vi suggeriamo di utiliz
     [:octicons-info-16:](https://proton.me/support/drive){ .card-link title=Documentazione}
     [:octicons-code-16:](https://github.com/ProtonMail/WebClients){ .card-link title="Codice sorgente" }
     
-    ??? download
+    ??? downloads "Scaricare"
     
         - [:simple-googleplay: Google Play](https://play.google.com/store/apps/details?id=me.proton.android.drive)
         - [:simple-appstore: App Store](https://apps.apple.com/app/id1509667851)
@@ -50,7 +50,7 @@ I nuovi client mobile di Proton Drive non sono ancora stati sottoposti ad audit 
     [:octicons-eye-16:](https://tresorit.com/legal/privacy-policy){ .card-link title="Politica sulla privacy" }
     [:octicons-info-16:](https://support.tresorit.com/hc/en-us){ .card-link title=Documentazione}
     
-    ??? download
+    ??? downloads "Scaricare"
     
         - [:simple-googleplay: Google Play](https://play.google.com/store/apps/details?id=com.tresorit.mobile)
         - [:simple-appstore: App Store](https://apps.apple.com/app/apple-store/id722163232)
@@ -74,7 +74,7 @@ Hanno anche ricevuto il Digital Trust Label, una certificazione della [Swiss Dig
 
 **Si noti che non siamo affiliati a nessuno dei progetti che raccomandiamo.** Oltre ai [ nostri criteri standard](about/criteria.md), abbiamo sviluppato una serie di requisiti chiari che ci consentono di fornire raccomandazioni obiettive. Ti consigliamo di familiarizzare con questo elenco prima di scegliere di utilizzare un progetto e di condurre le vostre ricerche per assicurarvi che sia la scelta giusta per voi.
 
-!!! esempio "Questa sezione è nuova"
+!!! example "Questa sezione è nuova"
 
     Stiamo lavorando per stabilire criteri ben definiti per ogni sezione del nostro sito, e questo potrebbe essere soggetto a modifiche. Se avete domande sui nostri criteri, vi preghiamo di [chiedere sul nostro forum](https://discuss.privacyguides.net/latest) e non date per scontato che non abbiamo preso in considerazione qualcosa nel formulare le nostre raccomandazioni se non è elencato qui. Sono molti i fattori presi in considerazione e discussi quando consigliamo un progetto, e stiamo lavorando per documentare ogni singolo fattore.
 

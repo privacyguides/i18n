@@ -8,7 +8,7 @@
 *[CLI]: Antarmuka Baris Perintah
 *[CSV]: Nilai yang Dipisahkan dengan Koma
 *[CVE]: Kerentanan dan Paparan Umum
-*[Warisan Digital]: Warisan Digital mengacu pada fitur yang memungkinkan Anda untuk memberikan akses ke data Anda kepada orang lain ketika Anda meninggal dunia
+*[digital legacy feature]: Warisan Digital mengacu pada fitur yang memungkinkan Anda untuk memberikan akses ke data Anda kepada orang lain ketika Anda meninggal dunia
 *[DNSSEC]: Ekstensi Keamanan Sistem Nama Domain
 *[DNS]: Sistem Nama Domain
 *[DoH]: DNS melalui HTTPS

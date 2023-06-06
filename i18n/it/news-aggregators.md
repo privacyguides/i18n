@@ -1,6 +1,6 @@
 ---
 title: "Aggregatori di notizie"
-icon: octicons/rss-24
+icon: material/rss
 description: Questi client di aggregazione di notizie consentono di tenersi aggiornati con i blog e siti di news preferiti utilizzando standard Internet come RSS.
 cover: news-aggregators.png
 ---
@@ -23,7 +23,7 @@ Un [Aggregatore di news](https://en.wikipedia.org/wiki/News_aggregator)è un mod
     [:octicons-code-16:](https://invent.kde.org/pim/akregator){ .card-link title="Codice Sorgente" }
     [:octicons-heart-16:](https://kde.org/community/donations/){ .card-link title=Contribuisci }
     
-    ??? download
+    ??? downloads "Scaricare"
     
         - [:simple-flathub: Flathub](https://flathub.org/apps/details/org.kde.akregator)
 
@@ -39,7 +39,7 @@ Un [Aggregatore di news](https://en.wikipedia.org/wiki/News_aggregator)è un mod
     [:octicons-code-16:](https://gitlab.com/spacecowboy/Feeder){ .card-link title="Source Code" }
     [:octicons-heart-16:](https://ko-fi.com/spacecowboy){ .card-link title=Contribute }
     
-    ??? download
+    ??? downloads "Scaricare"
     
         - [:simple-googleplay: Google Play](https://play.google.com/store/apps/details?id=com.nononsenseapps.feeder.play)
 
@@ -57,7 +57,7 @@ Un [Aggregatore di news](https://en.wikipedia.org/wiki/News_aggregator)è un mod
     [:octicons-code-16:](https://github.com/yang991178/fluent-reader){ .card-link title="Codice sorgente" }
     [:octicons-heart-16:](https://github.com/sponsors/yang991178){ .card-link title=Contribuisci }
     
-    ??? download
+    ??? downloads "Scaricare"
     
         - [:simple-windows11: Windows](https://hyliu.me/fluent-reader)
         - [:simple-appstore: App Store](https://apps.apple.com/app/id1520907427)
@@ -74,7 +74,7 @@ Un [Aggregatore di news](https://en.wikipedia.org/wiki/News_aggregator)è un mod
     [:octicons-code-16:](https://gitlab.gnome.org/World/gfeeds){ .card-link title="Codice Sorgente" }
     [:octicons-heart-16:](https://liberapay.com/gabmus/){ .card-link title=Contribuisci }
     
-    ??? download
+    ??? downloads "Scaricare"
     
         - [:simple-linux: Linux](https://gfeeds.gabmus.org/#install)
         - [:simple-flathub: Flathub](https://flathub.org/apps/details/org.gabmus.gfeeds)
@@ -106,7 +106,7 @@ Un [Aggregatore di news](https://en.wikipedia.org/wiki/News_aggregator)è un mod
     [:octicons-info-16:](https://netnewswire.com/help/){ .card-link title=Documentazione}
     [:octicons-code-16:](https://github.com/Ranchero-Software/NetNewsWire){ .card-link title="Codice sorgente" }
     
-    ??? download
+    ??? downloads "Scaricare"
     
         - [:simple-appstore: App Store](https://apps.apple.com/us/app/netnewswire-rss-reader/id1480640210)
         - [:simple-apple: macOS](https://netnewswire.com)
@@ -127,7 +127,7 @@ Un [Aggregatore di news](https://en.wikipedia.org/wiki/News_aggregator)è un mod
 
 **Si noti che non siamo affiliati a nessuno dei progetti che raccomandiamo.** Oltre ai [ nostri criteri standard](about/criteria.md), abbiamo sviluppato una serie di requisiti chiari che ci consentono di fornire raccomandazioni obiettive. Ti consigliamo di familiarizzare con questo elenco prima di scegliere di utilizzare un progetto e di condurre le vostre ricerche per assicurarvi che sia la scelta giusta per voi.
 
-!!! esempio "Questa sezione è nuova"
+!!! example "Questa sezione è nuova"
 
     Stiamo lavorando per stabilire criteri ben definiti per ogni sezione del nostro sito, e questo potrebbe essere soggetto a modifiche. Se avete domande sui nostri criteri, vi preghiamo di [chiedere sul nostro forum](https://discuss.privacyguides.net/latest) e non date per scontato che non abbiamo preso in considerazione qualcosa nel formulare le nostre raccomandazioni se non è elencato qui. Sono molti i fattori presi in considerazione e discussi quando consigliamo un progetto, e stiamo lavorando per documentare ogni singolo fattore.
 
@@ -153,7 +153,7 @@ Reddit consente d'iscriverti ai subreddit tramite RSS.
 
 Puoi iscriverti ai canali YouTube senza accedere e senza associare le informazioni di utilizzo al proprio account Google.
 
-!!! esempio
+!!! example "Esempio"
     1. Scegli un istanza e imposta `istanza_nitter`.
     2. Sostituisci `account_twitter` con il nome dell'account che desideri seguire.
 
@@ -165,7 +165,7 @@ Puoi iscriverti ai canali YouTube senza accedere e senza associare le informazio
 
 È possibile iscriversi ai canali YouTube senza effettuare il login e senza associare le proprie informazioni al tuo account Google.
 
-!!! esempio
+!!! example "Esempio"
 
     Per iscriversi ad un canale YouTube con un client RSS, cercare innanzitutto il [codice canale](https://support.google.com/youtube/answer/6180214), sostituendo `[ID CANALE]` qui sotto:
     ```text

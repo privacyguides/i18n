@@ -17,7 +17,7 @@ schema:
     image: /assets/img/password-management/bitwarden.svg
     url: https://bitwarden.com
     sameAs: https://it.wikipedia.org/wiki/Bitwarden
-    applicationCategory: Gestore di password
+    applicationCategory: Password Manager
     operatingSystem:
       - Windows
       - macOS
@@ -35,7 +35,7 @@ schema:
     image: /assets/img/password-management/1password.svg
     url: https://1password.com
     sameAs: https://en.wikipedia.org/wiki/1Password
-    applicationCategory: Gestore di password
+    applicationCategory: Password Manager
     operatingSystem:
       - Windows
       - macOS
@@ -52,7 +52,7 @@ schema:
     name: Psono
     image: /assets/img/password-management/psono.svg
     url: https://psono.com
-    applicationCategory: Gestore di password
+    applicationCategory: Password Manager
     operatingSystem:
       - Android
       - iOS
@@ -63,11 +63,11 @@ schema:
   - 
     "@context": http://schema.org
     "@type": SoftwareApplication
-    name: KeePassDX (Android)
+    name: KeePassXC
     image: /assets/img/password-management/keepassxc.svg
     url: https://keepassxc.org/
     sameAs: https://it.wikipedia.org/wiki/KeePassXC
-    applicationCategory: Gestore di password
+    applicationCategory: Password Manager
     operatingSystem:
       - Windows
       - macOS
@@ -82,7 +82,7 @@ schema:
     name: KeePassDX
     image: /assets/img/password-management/keepassdx.svg
     url: https://www.keepassdx.com/
-    applicationCategory: Gestore di password
+    applicationCategory: Password Manager
     operatingSystem: Android
     subjectOf:
       "@context": http://schema.org
@@ -94,7 +94,7 @@ schema:
     name: Strongbox
     image: /assets/img/password-management/strongbox.svg
     url: https://strongboxsafe.com/
-    applicationCategory: Gestore di password
+    applicationCategory: Password Manager
     operatingSystem: iOS
     subjectOf:
       "@context": http://schema.org
@@ -106,7 +106,7 @@ schema:
     name: gopass
     image: /assets/img/password-management/gopass.svg
     url: https://www.gopass.pw/
-    applicationCategory: Gestore di password
+    applicationCategory: Password Manager
     operatingSystem:
       - Windows
       - macOS
@@ -145,7 +145,7 @@ Questi gestori di password sincronizzano le password su un server cloud per faci
     [:octicons-info-16:](https://bitwarden.com/help/){ .card-link title=Documentazione}
     [:octicons-code-16:](https://github.com/bitwarden){ .card-link title="Codice sorgente" }
     
-    ??? download
+    ??? downloads "Scaricare"
     
         - [:simple-googleplay: Google Play](https://play.google.com/store/apps/details?id=com.x8bit.bitwarden)
         - [:simple-appstore: App Store](https://apps.apple.com/app/bitwarden-password-manager/id1137397744)
@@ -181,7 +181,7 @@ Il codice lato server di Bitwarden è [open-source](https://github.com/bitwarden
     [:octicons-eye-16:](https://1password.com/legal/privacy/){ .card-link title="Politica sulla Privacy" }
     [:octicons-info-16:](https://support.1password.com/){ .card-link title=Documentazione}
     
-    ??? download
+    ??? downloads "Scaricare"
     
         - [:simple-googleplay: Google Play](https://play.google.com/store/apps/details?id=com.onepassword.android)
         - [:simple-appstore: App Store](https://apps.apple.com/app/id1511601750?mt=8)
@@ -208,7 +208,7 @@ Un vantaggio di 1Password rispetto a Bitwarden è il supporto di prima classe pe
     [:octicons-info-16:](https://doc.psono.com){ .card-link title=Documentazione}
     [:octicons-code-16:](https://gitlab.com/psono){ .card-link title="Codice sorgente" }
     
-    ??? download
+    ??? downloads "Scaricare"
     
         - [:simple-googleplay: Google Play](https://play.google.com/store/apps/details?id=com.psono.psono)
         - [:simple-appstore: App Store](https://apps.apple.com/us/app/psono-password-manager/id1545581224)
@@ -222,7 +222,7 @@ Psono fornisce un'ampia documentazione sul proprio prodotto. Il web-client di Ps
 
 **Si noti che non siamo affiliati a nessuno dei progetti che raccomandiamo.** Oltre ai [ nostri criteri standard](about/criteria.md), abbiamo sviluppato una serie di requisiti chiari che ci consentono di fornire raccomandazioni obiettive. Ti consigliamo di familiarizzare con questo elenco prima di scegliere di utilizzare un progetto e di condurre le vostre ricerche per assicurarvi che sia la scelta giusta per voi.
 
-!!! esempio "Questa sezione è nuova"
+!!! example "Questa sezione è nuova"
 
     Stiamo lavorando per stabilire criteri ben definiti per ogni sezione del nostro sito, e questo potrebbe essere soggetto a modifiche. Se avete domande sui nostri criteri, vi preghiamo di [chiedere sul nostro forum](https://discuss.privacyguides.net/latest) e non date per scontato che non abbiamo preso in considerazione qualcosa nel formulare le nostre raccomandazioni se non è elencato qui. Sono molti i fattori presi in considerazione e discussi quando consigliamo un progetto, e stiamo lavorando per documentare ogni singolo fattore.
 
@@ -259,7 +259,7 @@ Queste opzioni ti consentono di gestire localmente un database di password cript
     [:octicons-code-16:](https://github.com/keepassxreboot/keepassxc){ .card-link title="Codice sorgente" }
     [:octicons-heart-16:](https://keepassxc.org/donate/){ .card-link title=Contribuisci }
     
-    ??? download
+    ??? downloads "Scaricare"
     
         - [:simple-windows11: Windows](https://keepassxc.org/download/#windows)
         - [:simple-apple: macOS](https://keepassxc.org/download/#mac)
@@ -283,7 +283,7 @@ KeePassXC memorizza i dati esportati come file [CSV](https://en.wikipedia.org/wi
     [:octicons-code-16:](https://github.com/Kunzisoft/KeePassDX){ .card-link title="Codice Sorgente" }
     [:octicons-heart-16:](https://www.keepassdx.com/#donation){ .card-link title=Contribuisci }
     
-    ??? download
+    ??? downloads "Scaricare"
     
         - [:simple-googleplay: Google Play](https://play.google.com/store/apps/details?id=com.kunzisoft.keepass.free)
         - [:simple-github: GitHub](https://github.com/Kunzisoft/KeePassDX/releases)
@@ -303,7 +303,7 @@ KeePassXC memorizza i dati esportati come file [CSV](https://en.wikipedia.org/wi
     [:octicons-code-16:](https://github.com/strongbox-password-safe/Strongbox){ .card-link title="Codice sorgente" }
     [:octicons-heart-16:](https://github.com/strongbox-password-safe/Strongbox#supporting-development){ .card-link title=Contribuisci }
     
-    ??? download
+    ??? downloads "Scaricare"
     
         - [:simple-appstore: App Store](https://apps.apple.com/app/strongbox-keepass-pwsafe/id897283731)
 
@@ -326,7 +326,7 @@ Questi prodotti sono gestori di password minimali che possono essere utilizzati 
     [:octicons-code-16:](https://github.com/gopasspw/gopass){ .card-link title="Codice sorgente" }
     [:octicons-heart-16:](https://github.com/sponsors/dominikschulz){ .card-link title=Contribuisci }
     
-    ??? download
+    ??? downloads "Scaricare"
     
         - [:simple-windows11: Windows](https://www.gopass.pw/#install-windows)
         - [:simple-apple: macOS](https://www.gopass.pw/#install-macos)
@@ -337,7 +337,7 @@ Questi prodotti sono gestori di password minimali che possono essere utilizzati 
 
 **Si noti che non siamo affiliati a nessuno dei progetti che raccomandiamo.** Oltre ai [ nostri criteri standard](about/criteria.md), abbiamo sviluppato una serie di requisiti chiari che ci consentono di fornire raccomandazioni obiettive. Ti consigliamo di familiarizzare con questo elenco prima di scegliere di utilizzare un progetto e di condurre le vostre ricerche per assicurarvi che sia la scelta giusta per voi.
 
-!!! esempio "Questa sezione è nuova"
+!!! example "Questa sezione è nuova"
 
     Stiamo lavorando per stabilire criteri ben definiti per ogni sezione del nostro sito, e questo potrebbe essere soggetto a modifiche. Se avete domande sui nostri criteri, vi preghiamo di [chiedere sul nostro forum](https://discuss.privacyguides.net/latest) e non date per scontato che non abbiamo preso in considerazione qualcosa nel formulare le nostre raccomandazioni se non è elencato qui. Sono molti i fattori presi in considerazione e discussi quando consigliamo un progetto, e stiamo lavorando per documentare ogni singolo fattore.
 

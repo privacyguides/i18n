@@ -44,7 +44,7 @@ Joplin no admite la protección mediante contraseña/PIN de la[ propia aplicaci�
 
     ![Logotipo de Standard Notes](assets/img/notebooks/standard-notes.svg){ align=right }
     
-    **Standard Notes** es una aplicación de notas simple y privada que hace que tus notas sean fáciles y estén disponibles dondequiera que estés. Ofrece E2EE en todas las plataformas y una potente experiencia de escritorio con temas y editores personalizados. También ha sido [auditada de forma independiente (PDF)](https://s3.amazonaws.com/standard-notes/security/Report-SN-Audit.pdf).
+    **Standard Notes** es una aplicación de notas simple y privada que hace que tus notas sean fáciles y estén disponibles dondequiera que estés. Ofrece E2EE en todas las plataformas y una potente experiencia de escritorio con temas y editores personalizados. Además ha sido [auditada de forma independiente](https://standardnotes.com/help/2/has-standard-notes-completed-a-third-party-security-audit).
     
     [:octicons-home-16: Página Principal](https://standardnotes.com){ .md-button .md-button--primary }
     [:octicons-eye-16:](https://standardnotes.com/privacy){ .card-link title="Política de Privacidad" }

@@ -8,7 +8,7 @@
 *[CLI]: Interfaz de Línea de Comando
 *[CSV]: Valores Separados por Coma
 *[CVE]: Vulnerabilidades y Exposiciones Comunes
-*[Legado Digital]: Legado Digital se refiere a funciones que te permiten darle a otras personas acceso a tus datos cuando fallezcas
+*[función de legado digital]: Legado Digital se refiere a funciones que te permiten darle a otras personas acceso a tus datos cuando fallezcas
 *[DNSSEC]: Extensiones de Seguridad del Sistema de Nombres de Dominio
 *[DNS]: Sistema de Nombre de Dominio
 *[DoH]: DNS sobre HTTPS

@@ -48,11 +48,11 @@ I modelli Nitrokey possono essere configurati utilizzando l'applicazione [Nitrok
 
 Per i modelli che supportano HOTP e TOTP, ci sono 3 slot per HOTP e 15 per TOTP. Alcune Nitrokey possono fungere da gestori di password. Possono memorizzare fino a 16 credenziali diverse, criptandole con la stessa password dell'interfaccia OpenPGP.
 
-!!! warning
+!!! warning "Attenzione"
 
     Sebbene le Nitrokey non rilascino i segreti HOTP/TOTP al dispositivo a cui sono collegati, la memoria HOTP e TOTP non è crittografata ed è vulnerabile agli attacchi fisici. Se vuoi memorizzare le chiavi segrete HOTP o TOTP, si consiglia vivamente di utilizzare una YubiKey.
 
-!!! warning
+!!! warning "Attenzione"
 
     Reimpostare l'interfaccia OpenPGP su una Nitrokey rende il database [inaccessible](https://docs.nitrokey.com/pro/factory-reset.html).
 
@@ -64,7 +64,7 @@ Il firmware di Nitrokey è open-source, a differenza di YubiKey. Il firmware dei
 
 **Si noti che non siamo affiliati a nessuno dei progetti che raccomandiamo.** Oltre ai [ nostri criteri standard](about/criteria.md), abbiamo sviluppato una serie di requisiti chiari che ci consentono di fornire raccomandazioni obiettive. Ti consigliamo di familiarizzare con questo elenco prima di scegliere di utilizzare un progetto e di condurre le vostre ricerche per assicurarvi che sia la scelta giusta per voi.
 
-!!! esempio "Questa sezione è nuova"
+!!! example "Questa sezione è nuova"
 
     Stiamo lavorando per stabilire criteri ben definiti per ogni sezione del nostro sito, e questo potrebbe essere soggetto a modifiche. Se avete domande sui nostri criteri, vi preghiamo di [chiedere sul nostro forum](https://discuss.privacyguides.net/latest) e non date per scontato che non abbiamo preso in considerazione qualcosa nel formulare le nostre raccomandazioni se non è elencato qui. Sono molti i fattori presi in considerazione e discussi quando consigliamo un progetto, e stiamo lavorando per documentare ogni singolo fattore.
 
@@ -104,7 +104,7 @@ Consigliamo vivamente di utilizare applicazioni TOTP per dispositivi mobili inve
     [:octicons-code-16:](https://github.com/beemdevelopment/Aegis){ .card-link title="Codice sorgente" }
     [:octicons-heart-16:](https://www.buymeacoffee.com/beemdevelopment){ .card-link title=Contribuisci }
     
-    ??? download
+    ??? downloads "Scaricare"
     
         - [:simple-googleplay: Google Play](https://play.google.com/store/apps/details?id=com.beemdevelopment.aegis)
         - [:simple-github: GitHub](https://github.com/beemdevelopment/Aegis/releases)
@@ -122,7 +122,7 @@ Consigliamo vivamente di utilizare applicazioni TOTP per dispositivi mobili inve
     [:octicons-code-16:](https://github.com/raivo-otp/ios-application){ .card-link title="Codice sorgente" }
     [:octicons-heart-16:](https://raivo-otp.com/donate){ .card-link title=Contribuisci }
     
-    ??? download
+    ??? downloads "Scaricare"
     
         - [:simple-appstore: App Store](https://apps.apple.com/it/app/raivo-otp/id1459042137)
 
@@ -130,7 +130,7 @@ Consigliamo vivamente di utilizare applicazioni TOTP per dispositivi mobili inve
 
 **Si noti che non siamo affiliati a nessuno dei progetti che raccomandiamo.** Oltre ai [ nostri criteri standard](about/criteria.md), abbiamo sviluppato una serie di requisiti chiari che ci consentono di fornire raccomandazioni obiettive. Ti consigliamo di familiarizzare con questo elenco prima di scegliere di utilizzare un progetto e di condurre le vostre ricerche per assicurarvi che sia la scelta giusta per voi.
 
-!!! esempio "Questa sezione è nuova"
+!!! example "Questa sezione è nuova"
 
     Stiamo lavorando per stabilire criteri ben definiti per ogni sezione del nostro sito, e questo potrebbe essere soggetto a modifiche. Se avete domande sui nostri criteri, vi preghiamo di [chiedere sul nostro forum](https://discuss.privacyguides.net/latest) e non date per scontato che non abbiamo preso in considerazione qualcosa nel formulare le nostre raccomandazioni se non è elencato qui. Sono molti i fattori presi in considerazione e discussi quando consigliamo un progetto, e stiamo lavorando per documentare ogni singolo fattore.
 

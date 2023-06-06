@@ -44,7 +44,7 @@ Joplinは、[アプリケーション自体や個々のノート](https://github
 
     ![Standard Notesのロゴ](assets/img/notebooks/standard-notes.svg){ align=right }
     
-    **Standard Notes**はどこからでも簡単にメモを取れる、シンプルかつプライベートなノートアプリです。 すべてのプラットフォームでエンドツーエンド暗号化を使用し、テーマやカスタムエディタによる強力なデスクトップ環境を提供します。 また、[独立監査（PDF）](https://s3.amazonaws.com/standard-notes/security/Report-SN-Audit.pdf)も受けています。
+    **Standard Notes**はどこからでも簡単にメモを取れる、シンプルかつプライベートなノートアプリです。 すべてのプラットフォームでエンドツーエンド暗号化を使用し、テーマやカスタムエディタによる強力なデスクトップ環境を提供します。 It has also been [independently audited](https://standardnotes.com/help/2/has-standard-notes-completed-a-third-party-security-audit).
     
     [:octicons-home-16: ホームページ](https://standardnotes.com){ .md-button .md-button--primary }
     [:octicons-eye-16:](https://standardnotes.com/privacy){ .card-link title="プライバシーポリシー" }

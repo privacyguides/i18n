@@ -95,7 +95,7 @@ Questi sono i sistemi operativi, i dispositivi e le applicazioni Android che con
 
 Consigliamo di installare sul dispositivo uno dei seguenti sistemi operativi basati su Android, elencati in ordine di preferenza, a seconda della compatibilità del proprio dispositivo con questi sistemi operativi.
 
-!!! note
+!!! note "Nota"
 
     I dispositivi a fine vita (come i dispositivi a "supporto esteso" di GrapheneOS o CalyxOS) non hanno patch di sicurezza complete (aggiornamenti del firmware) a causa dell'interruzione del supporto da parte dell'OEM. Questi dispositivi non possono essere considerati completamente sicuri, indipendentemente dal software installato.
 
@@ -230,7 +230,7 @@ In questo sito raccomandiamo un'ampia gamma di applicazioni per Android. Le app 
     [:octicons-code-16:](https://attestation.app/source){ .card-link title="Codice sorgente" }
     [:octicons-heart-16:](https://attestation.app/donate){ .card-link title=Contribuisci }
     
-    ??? download
+    ??? downloads "Scaricare"
     
         - [:simple-googleplay: Google Play](https://play.google.com/store/apps/details?id=app.attestation.auditor)
         - [:simple-github: GitHub](https://github.com/GrapheneOS/Auditor/releases)
@@ -262,7 +262,7 @@ Se il proprio [modello di minaccia](basics/threat-modeling.md) richiede privacy,
     [:octicons-code-16:](https://github.com/GrapheneOS/Camera){ .card-link title="Codice sorgente" }
     [:octicons-heart-16:](https://grapheneos.org/donate){ .card-link title=Contribuisci }
     
-    ??? download
+    ??? downloads "Scaricare"
     
         - [:simple-googleplay: Google Play](https://play.google.com/store/apps/details?id=app.grapheneos.camera.play)
         - [:simple-github: GitHub](https://github.com/GrapheneOS/Camera/releases)
@@ -274,7 +274,7 @@ Le principali funzionalità di privacy includono:
 - Utilizzo della nuova API [Media](https://developer.android.com/training/data-storage/shared/media), pertanto non è richiesta [l'autorizzazione per tutti i file](https://developer.android.com/training/data-storage)
 - L'autorizzazione al microfono non è necessaria, a meno che non si voglia registrare l'audio
 
-!!! note
+!!! note "Nota"
 
     Attualmente i metadati non vengono eliminati dai file video, ma la funzione è in sviluppo.
     
@@ -295,7 +295,7 @@ Le principali funzionalità di privacy includono:
     [:octicons-code-16:](https://github.com/GrapheneOS/PdfViewer){ .card-link title="Codice sorgente" }
     [:octicons-heart-16:](https://grapheneos.org/donate){ .card-link title=Contribuisci }
     
-    ??? download
+    ??? downloads "Scaricare"
     
         - [:simple-googleplay: Google Play](https://play.google.com/store/apps/details?id=app.grapheneos.pdfviewer.play)
         - [:simple-github: GitHub](https://github.com/GrapheneOS/PdfViewer/releases)
@@ -320,7 +320,7 @@ Il Google Play Store richiede un account Google per l'accesso, il che non è un 
     [:octicons-home-16: Pagina Principale](https://auroraoss.com/){ .md-button .md-button--primary }
     [:octicons-code-16:](https://gitlab.com/AuroraOSS/AuroraStore){ .card-link title="Codice sorgente" }.
     
-    ??? download
+    ??? downloads "Scaricare"
     
         - [:simple-gitlab: GitLab](https://gitlab.com/AuroraOSS/AuroraStore/-/releases)
 
@@ -387,7 +387,7 @@ Altri popolari repository di terze parti, come [IzzyOnDroid](https://apt.izzysof
 
 Detto ciò, i repository [F-Droid](https://f-droid.org/en/packages/) e [IzzyOnDroid](https://apt.izzysoft.de/fdroid/) ospitano innumerevoli app, quindi possono essere uno strumento utile per cercare e scoprire applicazioni open-source che si possono poi scaricare tramite Play Store, Aurora Store o ottenendo l'APK direttamente dallo sviluppatore. È importante tenere presente che alcune app presenti in questi repository non sono state aggiornate da anni e possono fare affidamento su librerie non supportate, costituendo un potenziale rischio per la sicurezza. Quando cerchi nuove app con questo metodo, è bene usare il tuo miglior giudizio.
 
-!!! note
+!!! note "Nota"
 
     In alcuni rari casi, lo sviluppatore di un'app la distribuisce solo attraverso F-Droid ([Gadgetbridge](https://gadgetbridge.org/) ne è un esempio). Se hai davvero bisogno di un'app del genere, ti consigliamo di usare [Neo Store](https://github.com/NeoApplications/Neo-Store/) al posto dell'app ufficiale di F-Droid per ottenerla.
 

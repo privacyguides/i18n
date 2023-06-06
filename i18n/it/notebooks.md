@@ -25,7 +25,7 @@ Se stai attualmente utilizzando un'applicazione come Evernote, Google Keep o Mic
     [:octicons-code-16:](https://github.com/laurent22/joplin){ .card-link title="Codice sorgente" }
     [:octicons-heart-16:](https://joplinapp.org/donate/){ .card-link title=Contribuisci }
     
-    ??? download
+    ??? downloads "Scaricare"
     
         - [:simple-googleplay: Google Play](https://play.google.com/store/apps/details?id=net.cozic.joplin)
         - [:simple-appstore: App Store](https://apps.apple.com/us/app/joplin/id1315599797)
@@ -44,7 +44,7 @@ Joplin non supporta la protezione con password/PIN per [l'applicazione stessa o 
 
     ![Logo Standard Notes](assets/img/notebooks/standard-notes.svg){ align=right }
     
-    **Standard Notes** è un'applicazione per appunti semplice e privata che rende i tuoi appunti facili e disponibili ovunque tu sia. È dotato di E2EE su ogni piattaforma e di una potente esperienza desktop con temi ed editor personalizzati. È stato anche [sottoposto a ispezione indipendente (PDF)](https://s3.amazonaws.com/standard-notes/security/Report-SN-Audit.pdf).
+    **Standard Notes** è un'applicazione per appunti semplice e privata che rende i tuoi appunti facili e disponibili ovunque tu sia. È dotato di E2EE su ogni piattaforma e di una potente esperienza desktop con temi ed editor personalizzati. È stato anche sottoposto ad un [audit indipendente](https://standardnotes.com/help/2/has-standard-notes-completed-a-third-party-security-audit).
     
     [:octicons-home-16: Pagina Principale](https://standardnotes.com){ .md-button .md-button--primary }
     [:octicons-eye-16:](https://standardnotes.com/privacy){ .card-link title="Politica sulla privacy" }
@@ -52,7 +52,7 @@ Joplin non supporta la protezione con password/PIN per [l'applicazione stessa o 
     [:octicons-code-16:](https://github.com/standardnotes){ .card-link title="Codice sorgente" }
     [:octicons-heart-16:](https://standardnotes.com/donate){ .card-link title=Contribuisci }
     
-    ??? download
+    ??? downloads "Scaricare"
     
         - [:simple-googleplay: Google Play](https://play.google.com/store/apps/details?id=com.standardnotes)
         - [:simple-appstore: App Store](https://apps.apple.com/app/id1285392450)
@@ -75,7 +75,7 @@ Joplin non supporta la protezione con password/PIN per [l'applicazione stessa o 
     [:octicons-info-16:](https://crypt.ee/help){ .card-link title=Documentazione}
     [:octicons-code-16:](https://github.com/cryptee){ .card-link title="Codice Sorgente" }
     
-    ??? download
+    ??? downloads "Scaricare"
     
         - [:octicons-globe-16: PWA](https://crypt.ee/download)
 
@@ -100,7 +100,7 @@ Cryptee offre 100 MB di spazio di archiviazione gratuito, con opzioni a pagament
 
 **Si noti che non siamo affiliati a nessuno dei progetti che raccomandiamo.** Oltre ai [ nostri criteri standard](about/criteria.md), abbiamo sviluppato una serie di requisiti chiari che ci consentono di fornire raccomandazioni obiettive. Ti consigliamo di familiarizzare con questo elenco prima di scegliere di utilizzare un progetto e di condurre le vostre ricerche per assicurarvi che sia la scelta giusta per voi.
 
-!!! esempio "Questa sezione è nuova"
+!!! example "Questa sezione è nuova"
 
     Stiamo lavorando per stabilire criteri ben definiti per ogni sezione del nostro sito, e questo potrebbe essere soggetto a modifiche. Se avete domande sui nostri criteri, vi preghiamo di [chiedere sul nostro forum](https://discuss.privacyguides.net/latest) e non date per scontato che non abbiamo preso in considerazione qualcosa nel formulare le nostre raccomandazioni se non è elencato qui. Sono molti i fattori presi in considerazione e discussi quando consigliamo un progetto, e stiamo lavorando per documentare ogni singolo fattore.
 

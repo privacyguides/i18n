@@ -26,7 +26,7 @@ Le opzioni qui elencate sono multipiattaforma e ottime per la creazione di backu
     [:octicons-code-16:](https://github.com/cryptomator){ .card-link title="Codice sorgente" }
     [:octicons-heart-16:](https://cryptomator.org/donate/){ .card-link title=Contribuisci }
     
-    ??? download
+    ??? downloads "Scaricare"
     
         - [:simple-googleplay: Google Play](https://play.google.com/store/apps/details?id=org.cryptomator)
         - [:simple-appstore: App Store](https://apps.apple.com/us/app/cryptomator-2/id1560822163)
@@ -54,7 +54,7 @@ La documentazione di Cryptomator descrive più nel dettaglio [i suoi obiettivi d
     [:octicons-code-16:](https://github.com/HACKERALERT/Picocrypt){ .card-link title="Codice sorgente" }
     [:octicons-heart-16:](https://opencollective.com/picocrypt){ .card-link title=Contribuisci }
     
-    ??? download
+    ??? downloads "Scaricare"
     
         - [:simple-windows11: Windows](https://github.com/HACKERALERT/Picocrypt/releases)
         - [:simple-apple: macOS](https://github.com/HACKERALERT/Picocrypt/releases)
@@ -74,7 +74,7 @@ La documentazione di Cryptomator descrive più nel dettaglio [i suoi obiettivi d
     [:octicons-code-16:](https://veracrypt.fr/code/){ .card-link title="Codice sorgente" }
     [:octicons-heart-16:](https://veracrypt.fr/en/Donation.html){ .card-link title=Contribuisci }
     
-    ??? download
+    ??? downloads "Scaricare"
     
         - [:simple-windows11: Windows](https://www.veracrypt.fr/en/Downloads.html)
         - [:simple-apple: macOS](https://www.veracrypt.fr/en/Downloads.html)
@@ -115,7 +115,7 @@ BitLocker è [supportato solo](https://support.microsoft.com/it-it/windows/abili
     2. Esegui questo comando (in un prompt dei comandi di amministrazione) per verificare la versione del TPM. Dovresti vedere `2.0` o `1.2` elencati accanto a `SpecVersion`:
 
         ```
-        powershell Get-Disk 0 | findstr GPT && echo This is a GPT system disk!
+        powershell Get-WmiObject -Namespace "root/cimv2/security/microsofttpm" -Class WIN32_tpm
         ```
 
     3. Accedi alle [Opzioni di Avvio Avanzate](https://support.microsoft.com/it-it/windows/opzioni-di-avvio-avanzate-inclusa-la-modalit%C3%A0-provvisoria-b90e7808-80b5-a291-d4b8-1a1af602b617). È necessario riavviare il sistema premendo il tasto F8 prima dell'avvio di Windows ed entrare nel *prompt dei comandi* in **Risoluzione dei problemi** → **Opzioni avanzate** → **Prompt dei comandi**.
@@ -132,11 +132,11 @@ BitLocker è [supportato solo](https://support.microsoft.com/it-it/windows/abili
 
         ```
         manage-bde c: -protectors -add -rp -tpm
-    manage-bde -protectors -enable c:
-    manage-bde -protectors -get c: > %UserProfile%\Desktop\BitLocker-Recovery-Key.txt
+        manage-bde -protectors -enable c:
+        manage-bde -protectors -get c: > %UserProfile%\Desktop\BitLocker-Recovery-Key.txt
         ```
 
-        !!! important
+        !!! tip "Suggerimento"
    
         Esegui il backup di `BitLocker-Recovery-Key.txt` sul desktop in un dispositivo di archiviazione separato. La perdita di questo codice di recupero può comportare la perdita dei dati.
 
@@ -224,7 +224,7 @@ Gli strumenti con interfacce a riga di comando sono utili per integrare [script 
     [:octicons-code-16:](https://github.com/samuel-lucas6/Kryptor){ .card-link title="Codice sorgente" }
     [:octicons-heart-16:](https://www.kryptor.co.uk/#donate){ .card-link title=Contribuisci }
     
-    ??? download
+    ??? downloads "Scaricare"
     
         - [:simple-windows11: Windows](https://www.kryptor.co.uk)
         - [:simple-apple: macOS](https://www.kryptor.co.uk)
@@ -270,7 +270,7 @@ Quando cripti con PGP, puoi configurare diverse opzioni nel file `gpg.conf`. Rac
     [:octicons-info-16:](https://gnupg.org/documentation/index.html){ .card-link title=Documentazione}
     [:octicons-code-16:](https://git.gnupg.org/cgi-bin/gitweb.cgi?p=gnupg.git){ .card-link title="Codice sorgente" }
     
-    ??? download
+    ??? downloads "Scaricare"
     
         - [:simple-googleplay: Google Play](https://play.google.com/store/apps/details?id=org.sufficientlysecure.keychain)
         - [:simple-windows11: Windows](https://gpg4win.org/download.html)
@@ -291,13 +291,13 @@ Quando cripti con PGP, puoi configurare diverse opzioni nel file `gpg.conf`. Rac
     [:octicons-code-16:](https://git.gnupg.org/cgi-bin/gitweb.cgi?p=gpg4win.git;a=summary){ .card-link title="Codice sorgente" }
     [:octicons-heart-16:](https://gpg4win.org/donate.html){ .card-link title=Contribuisci }
     
-    ??? download
+    ??? downloads "Scaricare"
     
         - [:simple-windows11: Windows](https://gpg4win.org/download.html)
 
 ### GPG Suite
 
-!!! note
+!!! note "Nota"
 
     Suggeriamo [Canary Mail](email-clients.md#canary-mail) per utilizzare PGP con le email su dispositivi iOS.
 
@@ -314,7 +314,7 @@ Quando cripti con PGP, puoi configurare diverse opzioni nel file `gpg.conf`. Rac
     [:octicons-info-16:](https://gpgtools.tenderapp.com/kb){ .card-link title=Documentazione}
     [:octicons-code-16:](https://github.com/GPGTools){ .card-link title="Codice sorgente" }
     
-    ??? download
+    ??? downloads "Scaricare"
     
         - [:simple-apple: macOS](https://gpgtools.org)
 
@@ -331,7 +331,7 @@ Quando cripti con PGP, puoi configurare diverse opzioni nel file `gpg.conf`. Rac
     [:octicons-info-16:](https://www.openkeychain.org/faq/){ .card-link title=Documentazione}
     [:octicons-code-16:](https://github.com/open-keychain/open-keychain){ .card-link title="Codice Sorgente" }
     
-    ??? download
+    ??? downloads "Scaricare"
     
         - [:simple-googleplay: Google Play](https://play.google.com/store/apps/details?id=org.sufficientlysecure.keychain)
 
@@ -339,7 +339,7 @@ Quando cripti con PGP, puoi configurare diverse opzioni nel file `gpg.conf`. Rac
 
 **Si noti che non siamo affiliati a nessuno dei progetti che raccomandiamo.** Oltre ai [ nostri criteri standard](about/criteria.md), abbiamo sviluppato una serie di requisiti chiari che ci consentono di fornire raccomandazioni obiettive. Ti consigliamo di familiarizzare con questo elenco prima di scegliere di utilizzare un progetto e di condurre le vostre ricerche per assicurarvi che sia la scelta giusta per voi.
 
-!!! esempio "Questa sezione è nuova"
+!!! example "Questa sezione è nuova"
 
     Stiamo lavorando per stabilire criteri ben definiti per ogni sezione del nostro sito, e questo potrebbe essere soggetto a modifiche. Se avete domande sui nostri criteri, vi preghiamo di [chiedere sul nostro forum](https://discuss.privacyguides.net/latest) e non date per scontato che non abbiamo preso in considerazione qualcosa nel formulare le nostre raccomandazioni se non è elencato qui. Sono molti i fattori presi in considerazione e discussi quando consigliamo un progetto, e stiamo lavorando per documentare ogni singolo fattore.
 

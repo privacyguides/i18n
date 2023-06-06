@@ -44,7 +44,7 @@ Joplin은 [개별 노트 및 노트북이나 애플리케이션 자체에](https
 
     ![Standard Notes 로고](assets/img/notebooks/standard-notes.svg){ align=right }
     
-    **Standard Notes**는 어디서나 간편하게 노트를 작성하고 읽을 수 있는 단순한 개인 노트 앱입니다. 모든 플랫폼에서 E2EE를 지원하며, 테마 및 사용자 정의 가능한 편집기가 포함된 강력한 데스크톱 사용 경험을 제공합니다. 또한 [독립적인 보안 감사(PDF)](https://s3.amazonaws.com/standard-notes/security/Report-SN-Audit.pdf)를 받았습니다.
+    **Standard Notes**는 어디서나 간편하게 노트를 작성하고 읽을 수 있는 단순한 개인 노트 앱입니다. 모든 플랫폼에서 E2EE를 지원하며, 테마 및 사용자 정의 가능한 편집기가 포함된 강력한 데스크톱 사용 경험을 제공합니다. It has also been [independently audited](https://standardnotes.com/help/2/has-standard-notes-completed-a-third-party-security-audit).
     
     [:octicons-home-16: 홈페이지](https://standardnotes.com){ .md-button .md-button--primary }
     [:octicons-eye-16:](https://standardnotes.com/privacy){ .card-link title="프라이버시 정책" }

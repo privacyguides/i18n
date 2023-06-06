@@ -1,12 +1,12 @@
 ---
-meta_title: "Recommended Encryption Software: VeraCrypt, Cryptomator, PicoCrypt, and OpenPGP - Privacy Guides"
+meta_title: "암호화 소프트웨어 권장 목록: VeraCrypt, Cryptomator, PicoCrypt, OpenPGP - Privacy Guides"
 title: "암호화 소프트웨어"
 icon: material/file-lock
-description: Encryption of data is the only way to control who can access it. These tools allow you to encrypt your emails and any other files.
+description: 데이터 암호화는 데이터에 접근 가능한 사람을 통제하는 유일한 방법입니다. 암호화 툴로 이메일이나 각종 파일을 암호화하세요.
 cover: encryption.png
 ---
 
-Encryption of data is the only way to control who can access it. If you are currently not using encryption software for your hard disk, emails or files, you should pick an option here.
+데이터 암호화는 데이터에 접근 가능한 사람을 통제하는 유일한 방법입니다. If you are currently not using encryption software for your hard disk, emails or files, you should pick an option here.
 
 ## Multi-platform
 

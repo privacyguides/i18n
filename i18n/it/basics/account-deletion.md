@@ -8,7 +8,7 @@ Con il tempo, può essere facile accumulare una serie di profili online, molti d
 
 ## Trovare i vecchi account
 
-### Gestore di password
+### Password Manager
 
 Se hai un gestore di password che hai usato per tutta la tua vita digitale, questa parte sarà molto semplice. Spesso includono funzionalità integrate per rilevare se le vostre credenziali sono state esposte in una violazione dei dati, come ad esempio [Data Breach Report](https://bitwarden.com/blog/have-you-been-pwned/) di Bitwarden.
 

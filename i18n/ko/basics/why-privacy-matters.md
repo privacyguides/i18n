@@ -3,7 +3,7 @@ title: "프라이버시를 신경 써야 하는 이유"
 icon: 'material/shield-account'
 ---
 
-In the modern age of digital data exploitation, your privacy has never been more critical, and yet many believe it is already a lost cause. It is not. ==Your privacy is up for grabs==, and you need to care about it. Privacy is about power, and it is so important that this power ends up in the right hands.
+현대 사회에서는 디지털 데이터가 온갖 곳에서 남용되고 있습니다. 디지털 프라이버시의 중요성은 그 어느때보다 높아졌지만, 많은 사람들은 이제와서 자신이 할 수 있는 것은 없다고 생각하는 경향이 있습니다. 하지만 실제로는 그렇지 않습니다. ==Your privacy is up for grabs==, and you need to care about it. Privacy is about power, and it is so important that this power ends up in the right hands.
 
 Privacy is ultimately about human information, and this is important because we know that human information confers power over human beings. If we care about our ability to be authentic, fulfilled, and free humans, we have to care about the rules that apply to information about us. So much of our modern society is structured around **information**. When you shop online, read the news, look something up, vote, seek directions, or really anything else, you are relying on information. If we live in an information society, our information matters, and therefore privacy matters.
 

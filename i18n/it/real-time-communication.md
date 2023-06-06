@@ -103,7 +103,7 @@ Briar supporta la Perfect Forward Secrecy usando l'[Handshake](https://code.bria
 
 ## Altre alternative
 
-!!! warning
+!!! warning "Attenzione"
 
     Questi messenger non hanno la Perfect [Forward Secrecy](https://it.wikipedia.org/wiki/Forward_secrecy) (PFS) e, pur soddisfacendo alcune esigenze che le nostre precedenti raccomandazioni potrebbero non fare, non li consigliamo per comunicazioni a lungo termine o sensibili. Qualsiasi compromissione di chiavi tra i destinatari del messaggio inciderebbe sulla riservatezza di **tutte** le comunicazioni passate.
 

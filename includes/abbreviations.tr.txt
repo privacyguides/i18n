@@ -8,7 +8,7 @@
 *[CLI]: Komut satırı arayüzü
 *[CSV]: CSV Dosyası
 *[CVE]: Yaygın Güvenlik Açıkları ve Maruziyetler
-*[Digital Legacy]: Digital Legacy refers to features that allow you to give other people access to your data when you die
+*[digital legacy feature]: Digital Legacy refers to features that allow you to give other people access to your data when you die
 *[DNSSEC]: Domain Name System Security Extensions
 *[DNS]: Domain Name System
 *[DoH]: DNS over HTTPS

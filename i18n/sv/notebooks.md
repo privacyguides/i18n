@@ -44,7 +44,7 @@ Joplin stöder inte lösenord/PIN-skydd för [applikationen själv eller enskild
 
     ![Standard Notes logo](assets/img/notebooks/standard-notes.svg){ align=right }
     
-    **Standard Notes** är en enkel och privat anteckningsapp som gör dina anteckningar enkla och tillgängliga överallt. Den har E2EE på alla plattformar och en kraftfull skrivbordsupplevelse med teman och anpassade redaktörer. Den har också [reviderats av en oberoende revisionsbyrå (PDF)] (https://s3.amazonaws.com/standard-notes/security/Report-SN-Audit.pdf).
+    **Standard Notes** är en enkel och privat anteckningsapp som gör dina anteckningar enkla och tillgängliga överallt. Den har E2EE på alla plattformar och en kraftfull skrivbordsupplevelse med teman och anpassade redaktörer. It has also been [independently audited](https://standardnotes.com/help/2/has-standard-notes-completed-a-third-party-security-audit).
     
     [:octicons-home-16: Startsida](https://cryptomator.org){ .md-button .md-button--primary }
     [:octicons-eye-16:](https://cryptomator.org/privacy){ .card-link title="Privacy Policy" }

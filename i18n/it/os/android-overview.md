@@ -85,11 +85,11 @@ Un'applicazione potrebbe richiedere un'autorizzazione per far funzionare una sua
 
 [Exodus](https://exodus-privacy.eu.org/) può essere utile se devi confrontare app con scopi simili. Se un'applicazione richiede molte autorizzazioni e presenta molte pubblicità e analytics, probabilmente è un brutto segno. Consigliamo di esaminare i singoli tracker e di leggerne le descrizioni piuttosto che limitarsi a **contare il totale di** e assumere che tutte le voci elencate siano uguali.
 
-!!! warning
+!!! warning "Attenzione"
 
     Se un'applicazione è principalmente un servizio web-based, il tracciamento può avvenire sul lato server. [Facebook](https://reports.exodus-privacy.eu.org/it/reports/com.facebook.katana/latest/) mostra "nessun tracker", ma sicuramente traccia gli interessi e il comportamento degli utenti all'interno del sito. Le applicazioni potrebbero eludere il rilevamento non utilizzando librerie di codici standard prodotte dalla società pubblicitaria, anche se è molto improbabile.
 
-!!! nota
+!!! note "Nota"
 
     Le applicazioni che rispettano la privacy come [Bitwarden](https://reports.exodus-privacy.eu.org/en/reports/com.x8bit.bitwarden/latest/) possono mostrare alcuni tracker come [Google Firebase Analytics](https://reports.exodus-privacy.eu.org/it/trackers/49/). Questa libreria include [Firebase Cloud Messaging](https://en.wikipedia.org/wiki/Firebase_Cloud_Messaging) che può fornire [notifiche push](https://en.wikipedia.org/wiki/Push_technology) nelle applicazioni. Questo [è il caso] (https://fosstodon.org/@bitwarden/109636825700482007) di Bitwarden. Ciò non significa che Bitwarden utilizzi tutte le funzioni di analytics fornite da Google Firebase Analytics.
 

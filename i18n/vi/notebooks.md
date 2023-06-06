@@ -41,7 +41,7 @@ Joplin does not support password/PIN protection for the [application itself or i
 
     ![Standard Notes logo](assets/img/notebooks/standard-notes.svg){ align=right }
     
-    Standard Notes là một ứng dụng ghi chú đơn giản và riêng tư giúp bạn ghi chú dễ dàng và có sẵn ở mọi nơi. Nó có tính năng E2EE trên mọi nền tảng và trải nghiệm máy tính để bàn mạnh mẽ với các chủ đề và trình chỉnh sửa tùy chỉnh. Nó cũng đã được [kiểm toán độc lập (PDF)](https://s3.amazonaws.com/standard-notes/security/Report-SN-Audit.pdf).
+    Standard Notes là một ứng dụng ghi chú đơn giản và riêng tư giúp bạn ghi chú dễ dàng và có sẵn ở mọi nơi. Nó có tính năng E2EE trên mọi nền tảng và trải nghiệm máy tính để bàn mạnh mẽ với các chủ đề và trình chỉnh sửa tùy chỉnh. It has also been [independently audited](https://standardnotes.com/help/2/has-standard-notes-completed-a-third-party-security-audit).
     
     [Website](https://standardnotes.com){ .md-button .md-button--primary }
     

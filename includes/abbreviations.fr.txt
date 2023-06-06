@@ -8,7 +8,7 @@
 *[CLI]: Interface de ligne de commande
 *[CSV]: Valeurs séparées par des virgules
 *[CVE]: Vulnérabilités et expositions courantes
-*[Héritage numérique]: L'héritage numérique désigne les fonctions qui vous permettent de donner à d'autres personnes l'accès à vos données à votre décès
+*[fonctionnalité d'héritage numérique]: L'héritage numérique désigne les fonctions qui vous permettent de donner à d'autres personnes l'accès à vos données après votre décès
 *[DNSSEC]: Extensions de sécurité du système de nom de domaine
 *[DNS]: Système de nom de domaine
 *[DoH]: DNS sur HTTPS

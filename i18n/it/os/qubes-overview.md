@@ -1,6 +1,6 @@
 ---
 title: "Panoramica di Qubes"
-icon: pg/qubes-os
+icon: simple/qubesos
 description: Qubes è un sistema operativo costruito per isolare le applicazioni all'interno di macchine virtuali per una maggiore sicurezza.
 ---
 

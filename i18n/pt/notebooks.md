@@ -49,7 +49,7 @@ Joplin does not support password/PIN protection for the [application itself or i
 !!! nota
     Consulte o [Tabela de Hardware](https://openwrt.org/toh/start) para verificar se o seu dispositivo é suportado.
 
-    Nota: A partir de Dezembro de 2018, o Joplin não suporta a protecção por senha/pino para a aplicação em si ou para as notas/portáteis individuais. Os dados ainda estão criptografados em trânsito e em local sincronizado usando sua chave mestra. It has also been [independently audited (PDF)](https://s3.amazonaws.com/standard-notes/security/Report-SN-Audit.pdf).
+    Nota: A partir de Dezembro de 2018, o Joplin não suporta a protecção por senha/pino para a aplicação em si ou para as notas/portáteis individuais. Os dados ainda estão criptografados em trânsito e em local sincronizado usando sua chave mestra. It has also been [independently audited](https://standardnotes.com/help/2/has-standard-notes-completed-a-third-party-security-audit).
     
     [:octicons-home-16: Homepage](https://standardnotes.com){ .md-button .md-button--primary }
     [:octicons-eye-16:](https://standardnotes.com/privacy){ .card-link title="Privacy Policy" }

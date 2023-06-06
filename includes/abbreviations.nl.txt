@@ -8,7 +8,7 @@
 *[CLI]: Command Line Interface
 *[CSV]: Comma-Separated Values
 *[CVE]: Common Vulnerabilities and Exposures
-*[Digitaal erfgoed]: Digital Legacy verwijst naar functies waarmee je andere mensen toegang kunt geven tot jouw gegevens wanneer je overlijdt
+*[digital legacy feature]: Digital Legacy verwijst naar functies waarmee je andere mensen toegang kunt geven tot jouw gegevens wanneer je overlijdt
 *[DNSSEC]: Domain Name System Security Extensions
 *[DNS]: Domain Name System
 *[DoH]: DNS over HTTPS

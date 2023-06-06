@@ -8,7 +8,7 @@
 *[CLI]: Интерфейс командной строки
 *[CSV]: Comma-Separated Values, формат таблиц
 *[CVE]: Common Vulnerabilities and Exposures
-*[Цифровое наследие]: Цифровое наследие относится к функциям, которые позволяют вам предоставить другим людям доступ к вашим данным после вашей смерти
+*[digital legacy feature]: Цифровое наследие относится к функциям, которые позволяют вам предоставить другим людям доступ к вашим данным после вашей смерти
 *[DNSSEC]: Domain Name System Security Extensions
 *[DNS]: Система доменных имён (Domain Name System)
 *[DoH]: DNS через HTTPS

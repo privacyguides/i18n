@@ -8,7 +8,7 @@
 *[CLI]: Command Line Interface - Parancssor Interface
 *[CSV]: Comma-Separated Values
 *[CVE]: Common Vulnerabilities and Exposures
-*[Digital Legacy]: A digitális hagyaték olyan funkciókra utal, amelyek lehetővé teszik, hogy halál esetén más személyek is hozzáférhessenek az adataidhoz
+*[digital legacy feature]: A digitális hagyaték olyan funkciókra utal, amelyek lehetővé teszik, hogy halál esetén más személyek is hozzáférhessenek az adataidhoz
 *[DNSSEC]: Domain Name System Security Extensions - Domain Név Rendszer Biztonsági Kiterjesztések
 *[DNS]: Domain Name System - Domain Név Rendszer
 *[DoH]: DNS over HTTPS

@@ -24,7 +24,7 @@ Quando vengono condivisi file, è importante rimuovere i relativi metadata. I fi
     [:octicons-info-16:](https://0xacab.org/jvoisin/mat2/-/blob/master/README.md){ .card-link title=Documentazione}
     [:octicons-code-16:](https://0xacab.org/jvoisin/mat2){ .card-link title="Codice sorgente" }
     
-    ??? download
+    ??? downloads "Scaricare"
     
         - [:simple-windows11: Windows](https://pypi.org/project/mat2)
         - [:simple-apple: macOS](https://0xacab.org/jvoisin/mat2#requirements-setup-on-macos-os-x-using-homebrew)
@@ -47,7 +47,7 @@ Quando vengono condivisi file, è importante rimuovere i relativi metadata. I fi
     [:octicons-info-16:](https://github.com/Tommy-Geenexus/exif-eraser#readme){ .card-link title=Documentazione}
     [:octicons-code-16:](https://github.com/Tommy-Geenexus/exif-eraser){ .card-link title="Codice sorgente" }
     
-    ??? download
+    ??? downloads "Scaricare"
     
         - [:simple-googleplay: Google Play](https://play.google.com/store/apps/details?id=com.none.tom.exiferaser)
         - [:octicons-moon-16: Accrescent](https://accrescent.app/app/com.none.tom.exiferaser)
@@ -80,7 +80,7 @@ L'applicazione offre diversi modi per cancellare i metadati dalle immagini. Ovve
     [:octicons-home-16: Pagina principale](https://zininworks.com/metapho){ .md-button .md-button--primary }
     [:octicons-eye-16:](https://zininworks.com/privacy/){ .card-link title="Informativa sulla privacy" }
     
-    ??? download
+    ??? downloads "Scaricare"
     
         - [:simple-appstore: App Store](https://apps.apple.com/us/app/metapho/id914457352)
 
@@ -97,12 +97,12 @@ L'applicazione offre diversi modi per cancellare i metadati dalle immagini. Ovve
     [:octicons-info-16:](https://github.com/MATHEMA-GmbH/privacyblur#readme){ .card-link title=Documentazione}
     [:octicons-code-16:](https://github.com/MATHEMA-GmbH/privacyblur){ .card-link title="Codice sorgente" }
     
-    ??? download
+    ??? downloads "Scaricare"
     
         - [:simple-googleplay: Google Play](https://play.google.com/store/apps/details?id=de.mathema.privacyblur)
         - [:simple-appstore: App Store](https://apps.apple.com/us/app/privacyblur/id1536274106)
 
-!!! warning
+!!! warning "Attenzione"
 
     Non dovresti **mai** usare la sfocatura per nascondere [il testo nelle immagini] (https://bishopfox.com/blog/unredacter-tool-never-pixelation). Se desideri censurare il testo di un'immagine, disegna un riquadro sopra il testo. A questo scopo, suggeriamo applicazioni come [Pocket Paint](https://github.com/Catrobat/Paintroid).
 
@@ -123,13 +123,13 @@ L'applicazione offre diversi modi per cancellare i metadati dalle immagini. Ovve
     [:octicons-code-16:](https://github.com/exiftool/exiftool){ .card-link title="Codice sorgente" }
     [:octicons-heart-16:](https://exiftool.org/#donate){ .card-link title=Contribuisci }
     
-    ??? download
+    ??? downloads "Scaricare"
     
         - [:simple-windows11: Windows](https://exiftool.org)
         - [:simple-apple: macOS](https://exiftool.org)
-        - [:simple-linux: Linux](https://exiftool.org)
+        - [:simple-linux: Linux](https://exiftool.org)downloads annotate "Scaricare"
 
-!!! esempio "Rimozione di metadati dai file di una cartella"
+!!! example "Rimozione di metadati dai file di una cartella"
 
     ```bash
     exiftool -all= *.file_extension
@@ -139,7 +139,7 @@ L'applicazione offre diversi modi per cancellare i metadati dalle immagini. Ovve
 
 **Si noti che non siamo affiliati a nessuno dei progetti che raccomandiamo.** Oltre ai [ nostri criteri standard](about/criteria.md), abbiamo sviluppato una serie di requisiti chiari che ci consentono di fornire raccomandazioni obiettive. Ti consigliamo di familiarizzare con questo elenco prima di scegliere di utilizzare un progetto e di condurre le vostre ricerche per assicurarvi che sia la scelta giusta per voi.
 
-!!! esempio "Questa sezione è nuova"
+!!! example "Questa sezione è nuova"
 
     Stiamo lavorando per stabilire criteri ben definiti per ogni sezione del nostro sito, e questo potrebbe essere soggetto a modifiche. Se avete domande sui nostri criteri, vi preghiamo di [chiedere sul nostro forum](https://discuss.privacyguides.net/latest) e non date per scontato che non abbiamo preso in considerazione qualcosa nel formulare le nostre raccomandazioni se non è elencato qui. Sono molti i fattori presi in considerazione e discussi quando consigliamo un progetto, e stiamo lavorando per documentare ogni singolo fattore.
 
