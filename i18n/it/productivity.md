@@ -91,7 +91,7 @@ KeePassXC memorizza i suoi dati di esportazione come file [CSV](https://en.wikip
     [:octicons-code-16:](https://it.libreoffice.org/chi-siamo/codice-sorgente/){ .card-link title="Codice Sorgente" }
     [:octicons-heart-16:](https://it.libreoffice.org/donazioni/){ .card-link title=Contribuisci }
     
-    ??? download
+    ??? downloads "Scaricare"
     
         - [:simple-googleplay: Google Play](https://www.libreoffice.org/download/android-and-ios/)
         - [:simple-appstore: App Store](https://www.libreoffice.org/download/android-and-ios/)
@@ -114,7 +114,7 @@ KeePassXC memorizza i suoi dati di esportazione come file [CSV](https://en.wikip
     [:octicons-info-16:](https://helpcenter.onlyoffice.com/userguides.aspx){ .card-link title=Documentazione}
     [:octicons-code-16:](https://github.com/ONLYOFFICE){ .card-link title="Codice Sorgente" }
     
-    ??? download
+    ??? downloads "Scaricare"
     
         - [:simple-googleplay: Google Play](https://play.google.com/store/apps/details?id=com.onlyoffice.documents)
         - [:simple-appstore: App Store](https://apps.apple.com/app/id944896972)

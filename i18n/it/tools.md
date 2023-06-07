@@ -185,7 +185,7 @@ Per maggiori dettagli su ogni progetto, sul motivo per cui è stato scelto e su 
 
 ### Fornitori di VPN
 
-??? attenzione "Le VPN non garantiscono l'anonimato"
+??? danger "Le VPN non garantiscono l'anonimato"
 
     L'utilizzo di una VPN **non** manterrà anonime le tue abitudini di navigazione, né aggiungerà ulteriore sicurezza al traffico non sicuro (HTTP).
     

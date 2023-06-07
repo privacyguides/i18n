@@ -30,7 +30,7 @@ Questi messenger sono ideali per proteggere le tue comunicazioni sensibili.
     [:octicons-code-16:](https://github.com/signalapp){ .card-link title="Codice sorgente" }
     [:octicons-heart-16:](https://signal.org/donate/){ .card-link title=Contribuisci }
     
-    ??? download
+    ??? downloads "Scaricare"
     
         - [:simple-googleplay: Google Play](https://play.google.com/store/apps/details?id=org.thoughtcrime.securesms)
         - [:simple-appstore: App Store](https://apps.apple.com/app/id874139669)
@@ -60,7 +60,7 @@ Abbiamo alcuni suggerimenti aggiuntivi per configurare e rendere più sicuro Sig
     [:octicons-info-16:](https://github.com/simplex-chat/simplex-chat/tree/stable/docs){.card-link title=Documentazione}
     [:octicons-code-16:](https://github.com/simplex-chat){.card-link title="Codice sorgente" }
     
-    ??? download
+    ??? downloads "Scaricare"
     
         - [:simple-googleplay: Google Play](https://play.google.com/store/apps/details?id=chat.simplex.app)
         - [:simple-appstore: App Store](https://apps.apple.com/it/app/simplex-chat/id1605771084)
@@ -86,7 +86,7 @@ I dati possono essere esportati e importati su un altro dispositivo, poiché non
     [:octicons-code-16:](https://code.briarproject.org/briar/briar){ .card-link title="Codice Sorgente" }
     [:octicons-heart-16:](https://briarproject.org/){ .card-link title="Le opzioni per donare sono elencatein fondo alla pagina principale" }
     
-    ??? download
+    ??? downloads "Scaricare"
     
         - [:simple-googleplay: Google Play](https://play.google.com/store/apps/details?id=org.briarproject.briar.android)
         - [:simple-windows11: Windows](https://briarproject.org/download-briar-desktop/)
@@ -122,7 +122,7 @@ Briar supporta la Perfect Forward Secrecy usando l'[Handshake](https://code.bria
     [:octicons-info-16:](https://element.io/help){ .card-link title=Documentazione}
     [:octicons-code-16:](https://github.com/vector-im){ .card-link title="Codice sorgente" }
     
-    ??? download
+    ??? downloads "Scaricare"
     
         - [:simple-googleplay: Google Play](https://play.google.com/store/apps/details?id=im.vector.app)
         - [:simple-appstore: App Store](https://apps.apple.com/app/vector/id1083446067)
@@ -155,7 +155,7 @@ Il protocollo è stato [verificato](https://matrix.org/blog/2016/11/21/matrixs-o
     [:octicons-info-16:](https://getsession.org/faq){ .card-link title=Documentazione}
     [:octicons-code-16:](https://github.com/oxen-io){ .card-link title="Codice sorgente" }
     
-    ??? download
+    ??? downloads "Scaricare"
     
         - [:simple-googleplay: Google Play](https://play.google.com/store/apps/details?id=network.loki.messenger)
         - [:simple-appstore: App Store](https://apps.apple.com/app/id1470168868)
