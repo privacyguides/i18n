@@ -136,7 +136,7 @@ Google Pixel 手機是目前唯一符合 GrapheneOS [硬體安全要求](https:/
     [:octicons-eye-16:](https://divestos.org/index.php?page=privacy_policy){ .card-link title="Privacy Policy" }
     [:octicons-info-16:](https://divestos.org/index.php?page=faq){ .card-link title=Documentation}
     [:octicons-code-16:](https://github.com/divested-mobile){ .card-link title="Source Code" }
-    [:octicons-heart-16:](https://divested.dev/index.php?page=donate){ .card-link title=Contribute }
+    [:octicons-heart-16:](https://divested.dev/pages/donate){ .card-link title=Contribute }
 
 DivestOS 有自動內核弱點 ([CVE](https://en.wikipedia.org/wiki/Common_Vulnerabilities_and_Exposures)) [補丁](https://gitlab.com/divested-mobile/cve_checker)、更少的商業專用 blobs 與自定的 [hosts](https://divested.dev/index.php?page=dnsbl) 檔案。 其加固的 WebView, [Mulch](https://gitlab.com/divested-mobile/mulch)，能使 [CFI](https://en.wikipedia.org/wiki/Control-flow_integrity) 用在所有架構和 [網路狀態分區](https://developer.mozilla.org/en-US/docs/Web/Privacy/State_Partitioning)，且接收額外更新。 DivestOS 還包括來自GrapheneOS 內核補丁，並通過 [defconfig hardening](https://github.com/Divested-Mobile/DivestOS-Build/blob/master/Scripts/Common/Functions.sh#L758)，開啟所有可用的內核安全功能。 3.4 版之後更新的內核都包括全頁[淨化](https://lwn.net/Articles/334747/) ，所有 ~22 Clang 編譯的內核都啟用了 [`-ftrivial-auto-var-init=zero`](https://reviews.llvm.org/D54604?id=174471)。
 

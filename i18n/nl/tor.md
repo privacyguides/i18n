@@ -115,9 +115,9 @@ Wij hebben eerder aanbevolen *Isolate Destination Address* in de Orbot instellin
     [:octicons-code-16:](https://gitweb.torproject.org/pluggable-transports/snowflake.git/){ .card-link title="Source Code" }
     [:octicons-heart-16:](https://donate.torproject.org/){ .card-link title=Contribute }
 
-You can enable Snowflake in your browser by opening it in another tab and turning the switch on. You can leave it running in the background while you browse to contribute your connection. We don't recommend installing Snowflake as a browser extension; adding third-party extensions can increase your attack surface.
+Je kunt Snowflake inschakelen in je browser door deze in een ander tabblad te openen en de schakelaar aan te zetten. Je kunt het op de achtergrond laten werken tijdens het browsen om een bijdrage te leveren met jouw verbinding. We raden het installeren van Snowflake niet aan als een browserextensie; het toevoegen van extensies van derden kan je aanvalsoppervlak vergroten.
 
-[Run Snowflake in your Browser :material-arrow-right-drop-circle:](https://snowflake.torproject.org/embed.html ""){.md-button}
+[Snowflake uitvoeren in je browser :material-arrow-right-drop-circle:](https://snowflake.torproject.org/embed.html ""){.md-button}
 
 Snowflake verhoogt jouw privacy op geen enkele manier, en wordt ook niet gebruikt om verbinding te maken met het Tor-netwerk binnen jouw persoonlijke browser. Als jouw internetverbinding echter ongecensureerd is, zou je moeten overwegen het te gebruiken om mensen in gecensureerde netwerken te helpen zelf betere privacy te krijgen. Je hoeft je geen zorgen te maken over welke websites mensen via je proxy bezoeken- hun zichtbare surf IP adres zal overeenkomen met hun Tor exit node, niet met die van jou.
 

@@ -133,10 +133,10 @@ Google Pixel-telefoons zijn de enige apparaten die momenteel voldoen aan Graphen
     
     [:octicons-home-16: Homepage](https://divestos.org){ .md-button .md-button--primary }
     [:simple-torbrowser:](http://divestoseb5nncsydt7zzf5hrfg44md4bxqjs5ifcv4t7gt7u6ohjyyd.onion){ .card-link title="Onion Service" }
-    [:octicons-eye-16:](https://divestos.org/index.php?page=privacy_policy){ .card-link title="Privacybeleid" }
-    [:octicons-info-16:](https://divestos.org/index.php?page=faq){ .card-link title=Documentatie}
-    [:octicons-code-16:](https://github.com/divested-mobile){ .card-link title="Broncode" }
-    [:octicons-heart-16:](https://divested.dev/index.php?page=donate){ .card-link title=Bijdragen }
+    [:octicons-eye-16:](https://divestos.org/index.php?page=privacy_policy){ .card-link title="Privacy Policy" }
+    [:octicons-info-16:](https://divestos.org/index.php?page=faq){ .card-link title=Documentation}
+    [:octicons-code-16:](https://github.com/divested-mobile){ .card-link title="Source Code" }
+    [:octicons-heart-16:](https://divested.dev/pages/donate){ .card-link title=Contribute }
 
 DivestOS heeft geautomatiseerde kernel kwetsbaarheden ([CVE](https://en.wikipedia.org/wiki/Common_Vulnerabilities_and_Exposures)) [patching](https://gitlab.com/divested-mobile/cve_checker), minder propriëtaire blobs, en een aangepaste [hosts](https://divested.dev/index.php?page=dnsbl) bestand. Zijn geharde WebView, [Mulch](https://gitlab.com/divested-mobile/mulch), maakt [CFI](https://en.wikipedia.org/wiki/Control-flow_integrity) mogelijk voor alle architecturen en [network state partitioning](https://developer.mozilla.org/en-US/docs/Web/Privacy/State_Partitioning), en ontvangt out-of-band updates. DivestOS bevat ook kernelpatches van GrapheneOS en schakelt alle beschikbare kernelbeveiligingsfuncties in via [defconfig hardening](https://github.com/Divested-Mobile/DivestOS-Build/blob/master/Scripts/Common/Functions.sh#L758). Alle kernels nieuwer dan versie 3.4 bevatten volledige pagina [sanitization](https://lwn.net/Articles/334747/) en alle ~22 Clang-gecompileerde kernels hebben [`-ftrivial-auto-var-init=zero`](https://reviews.llvm.org/D54604?id=174471) ingeschakeld.
 

@@ -10,11 +10,11 @@ description: DNS, 즉 도메인 네임 시스템은 '인터넷의 전화번호�
 
 사이트를 방문하면 숫자로 구성된 주소가 반환됩니다. 예를 들어, `privacyguides.org`를 방문할 경우에는 `192.98.54.105` 주소가 반환됩니다.
 
-DNS는 [인터넷의 초창기](https://ko.wikipedia.org/wiki/%EB%8F%84%EB%A9%94%EC%9D%B8_%EB%84%A4%EC%9E%84_%EC%8B%9C%EC%8A%A4%ED%85%9C#%EC%97%AD%EC%82%AC)부터 존재해 왔습니다. DNS 서버와 주고받는 DNS 요청은 일반적으로 암호화가 적용되어 있지 **않습니다**. In a residential setting, a customer is given servers by the ISP via [DHCP](https://en.wikipedia.org/wiki/Dynamic_Host_Configuration_Protocol).
+DNS는 [인터넷의 초창기](https://ko.wikipedia.org/wiki/%EB%8F%84%EB%A9%94%EC%9D%B8_%EB%84%A4%EC%9E%84_%EC%8B%9C%EC%8A%A4%ED%85%9C#%EC%97%AD%EC%82%AC)부터 존재해 왔습니다. DNS 서버와 주고받는 DNS 요청은 일반적으로 암호화가 적용되어 있지 **않습니다**. 가정 환경에서는 [DHCP](https://ko.wikipedia.org/wiki/%EB%8F%99%EC%A0%81_%ED%98%B8%EC%8A%A4%ED%8A%B8_%EA%B5%AC%EC%84%B1_%ED%94%84%EB%A1%9C%ED%86%A0%EC%BD%9C)를 통해 ISP로부터 서버를 제공받습니다.
 
-암호화되지 않은 DNS 요청은 전송 도중에 쉽게 **감시** 및 **변조**될 수 있습니다. 일부 지역에서는 ISP가 기초적인 [DNS 필터링](https://en.wikipedia.org/wiki/DNS_blocking)을 수행하도록 명령받기도 합니다. 이 경우, ISP가 차단하고 있는 도메인의 IP 주소를 요청하면 서버가 응답하지 않거나, 목적지가 아닌 다른 IP 주소로 응답이 돌아옵니다. As the DNS protocol is not encrypted, the ISP (or any network operator) can use [DPI](https://en.wikipedia.org/wiki/Deep_packet_inspection) to monitor requests. ISPs can also block requests based on common characteristics, regardless of which DNS server is used. Unencrypted DNS always uses [port](https://en.wikipedia.org/wiki/Port_(computer_networking)) 53 and always uses UDP.
+암호화되지 않은 DNS 요청은 전송 도중에 쉽게 **감시** 및 **변조**될 수 있습니다. 일부 지역에서는 ISP가 기초적인 [DNS 필터링](https://en.wikipedia.org/wiki/DNS_blocking)을 수행하도록 명령받기도 합니다. 이 경우, ISP가 차단하고 있는 도메인의 IP 주소를 요청하면 서버가 응답하지 않거나, 목적지가 아닌 다른 IP 주소로 응답이 돌아옵니다. DNS 프로토콜은 암호화되지 않아서 ISP를 비롯한 모든 네트워크 사업자는 [DPI](https://ko.wikipedia.org/wiki/%EC%8B%AC%EC%B8%B5_%ED%8C%A8%ED%82%B7_%EA%B2%80%EC%82%AC)를 통해 요청을 모니터링할 수 있습니다. 또한 ISP는 어떤 DNS 서버를 사용하든 공통된 특징을 이용해 요청을 차단하는 것도 가능합니다. 암호화되지 않은 DNS는 항상 [53번 포트](https://ko.wikipedia.org/wiki/%ED%8F%AC%ED%8A%B8_(%EC%BB%B4%ED%93%A8%ED%84%B0_%EB%84%A4%ED%8A%B8%EC%9B%8C%ED%82%B9))와 UDP를 사용합니다.
 
-Below, we discuss and provide a tutorial to prove what an outside observer may see using regular unencrypted DNS and [encrypted DNS](#what-is-encrypted-dns).
+다음 내용은 암호화되지 않은 일반적인 DNS와 [암호화가 적용된 DNS](#what-is-encrypted-dns)를 비교해 외부 관찰자가 볼 수 있는 것은 무엇이 있는지 증명하는 튜토리얼입니다.
 
 ### 암호화되지 않은 DNS
 
@@ -129,25 +129,25 @@ DoH 네이티브 구현은 iOS 14, macOS 11, Microsoft Windows, Android 13(단, 
 
 ## 암호화 DNS를 사용하지 **말아야** 하는 이유는 무엇인가요?
 
-In locations where there is internet filtering (or censorship), visiting forbidden resources may have its own consequences which you should consider in your [threat model](../basics/threat-modeling.md). We do **not** suggest the use of encrypted DNS for this purpose. Use [Tor](https://torproject.org) or a [VPN](../vpn.md) instead. If you're using a VPN, you should use your VPN's DNS servers. When using a VPN, you are already trusting them with all your network activity.
+인터넷 필터링(혹은 검열)이 존재하는 지역에서는 '차단된 정보에 접근하는 행위' 자체가 자신의 [위협 모델](../basics/threat-modeling.md)에서 고려해야 할 어떠한 결과를 초래할 수도 있습니다. Privacy Guides는 이러한 목적으로 암호화 DNS를 사용하는 것은 추천드리지 **않습니다**. 대신 [Tor](https://torproject.org)나 [VPN](../vpn.md)을 사용하세요. VPN을 사용하는 경우, 자신이 사용하는 VPN의 DNS 서버를 사용해야 합니다. VPN을 사용하는 순간부터 이미 자신의 모든 네트워크 활동을 VPN 업체에게 맡기고 있는 것이기 때문입니다.
 
-When we do a DNS lookup, it's generally because we want to access a resource. Below, we will discuss some of the methods that may disclose your browsing activities even when using encrypted DNS:
+When we do a DNS lookup, it's generally because we want to access a resource. 다음은 암호화 DNS를 사용하더라도 여러분의 인터넷 탐색 활동이 노출될 수 있는 몇 가지 경우입니다.
 
 
 
 ### IP 주소
 
-The simplest way to determine browsing activity might be to look at the IP addresses your devices are accessing. For example, if the observer knows that `privacyguides.org` is at `198.98.54.105`, and your device is requesting data from `198.98.54.105`, there is a good chance you're visiting Privacy Guides.
+인터넷 탐색 활동을 알아내는 가장 쉬운 방법은 해당 기기에서 접근하는 IP 주소를 확인하는 것입니다. 예를 들어, 어떤 관찰자가 `privacyguides.org`는 `198.98.54.105`에 존재함을 알고 있는 상태에서, 여러분의 기기가 `198.98.54.105`로 데이터를 요청한 것을 확인했다면, 여러분이 Privacy Guides를 방문했을 것으로 예상할 수 있습니다.
 
-This method is only useful when the IP address belongs to a server that only hosts few websites. It's also not very useful if the site is hosted on a shared platform (e.g. Github Pages, Cloudflare Pages, Netlify, WordPress, Blogger, etc.). It also isn't very useful if the server is hosted behind a [reverse proxy](https://en.wikipedia.org/wiki/Reverse_proxy), which is very common on the modern Internet.
+이 방식은 해당 IP 주소의 서버가 호스팅하고 있는 웹사이트의 개수가 적을 경우에만 유효합니다. 또한 공유 플랫폼(Github Pages, Cloudflare Pages, Netlify, WordPress, Blogger 등)에서 사이트가 호스팅되고 있는 경우에도 그다지 효과가 없습니다. 최신 인터넷 환경에서는 매우 일반적인 [리버스 프록시](https://ko.wikipedia.org/wiki/%EB%A6%AC%EB%B2%84%EC%8A%A4_%ED%94%84%EB%A1%9D%EC%8B%9C) 뒤에 호스팅되고 있는 경우에도 마찬가지로 그다지 효과가 없습니다.
 
 
 
 ### SNI(Server Name Indication)
 
-Server Name Indication is typically used when a IP address hosts many websites. This could be a service like Cloudflare, or some other [Denial-of-service attack](https://en.wikipedia.org/wiki/Denial-of-service_attack) protection.
+SNI(Server Name Indication, 서버 이름 표시)는 주로 하나의 IP 주소에서 여러 웹사이트를 호스팅하는 경우에 사용됩니다. Cloudflare 등의 서비스나, 그 외 [서비스 거부 공격(DosS공격)](https://ko.wikipedia.org/wiki/%EC%84%9C%EB%B9%84%EC%8A%A4_%EA%B1%B0%EB%B6%80_%EA%B3%B5%EA%B2%A9) 보호 서비스 등이 해당 예시입니다.
 
-1. Start capturing again with `tshark`. We've added a filter with our IP address so you don't capture many packets: 
+1. 마찬가지로 `tshark`로 캡처를 시작합니다. 지나치게 많은 패킷이 캡처되지 않도록 Privacy Guides의 IP 주소 필터를 추가합시다. 
    
    
 
@@ -156,11 +156,11 @@ Server Name Indication is typically used when a IP address hosts many websites. 
     ```
 
 
-2. Then we visit [https://privacyguides.org](https://privacyguides.org).
+2. 이제 [https://privacyguides.org](https://privacyguides.org)를 방문합니다.
 
-3. After visiting the website, we want to stop the packet capture with <kbd>CTRL</kbd> + <kbd>C</kbd>.
+3. 사이트를 방문한 이후에는 <kbd>CTRL</kbd> + <kbd>C</kbd>로 패킷 캡처를 중지합니다.
 
-4. Next we want to analyze the results: 
+4. 이제 결과를 분석합시다. 
    
    
 
@@ -169,9 +169,9 @@ Server Name Indication is typically used when a IP address hosts many websites. 
     ```
 
 
-We will see the connection establishment, followed by the TLS handshake for the Privacy Guides website. Around frame 5. you'll see a "Client Hello".
+연결이 설정이 이루어지고 Privacy Guides 사이트에 대한 TLS 핸드셰이크 과정을 확인할 수 있습니다. 프레임 5 주변에서 "Client Hello"를 확인할 수 있습니다.
 
-5. Expand the triangle &#9656; next to each field: 
+5. 각 필드 옆의 삼각형 &#9656;을 눌러 펼칩니다. 
    
    
 
@@ -184,7 +184,7 @@ We will see the connection establishment, followed by the TLS handshake for the 
     ```
 
 
-6. We can see the SNI value which discloses the website we are visiting. The `tshark` command can give you the value directly for all packets containing a SNI value: 
+6. 방문 중인 사이트를 나타내는 SNI 값을 확인할 수 있습니다. `tshark` 명령어로 SNI 값을 포함한 모든 패킷 값을 직접 확인 가능합니다. 
    
    
 
@@ -193,9 +193,9 @@ We will see the connection establishment, followed by the TLS handshake for the 
     ```
 
 
-This means even if we are using "Encrypted DNS" servers, the domain will likely be disclosed through SNI. The [TLS v1.3](https://en.wikipedia.org/wiki/Transport_Layer_Security#TLS_1.3) protocol brings with it [Encrypted Client Hello](https://blog.cloudflare.com/encrypted-client-hello/), which prevents this kind of leak.
+즉, '암호화 DNS'를 사용하더라도 도메인은 SNI를 통해 노출될 가능성이 높습니다. [TLS 1.3](https://en.wikipedia.org/wiki/Transport_Layer_Security#TLS_1.3) 프로토콜에는 이런 방식의 유출을 방지하는 [Encrypted Client Hello](https://blog.cloudflare.com/encrypted-client-hello/) 기능이 존재합니다.
 
-Governments, in particular [China](https://www.zdnet.com/article/china-is-now-blocking-all-encrypted-https-traffic-using-tls-1-3-and-esni/) and [Russia](https://www.zdnet.com/article/russia-wants-to-ban-the-use-of-secure-protocols-such-as-tls-1-3-doh-dot-esni/), have either already [started blocking](https://en.wikipedia.org/wiki/Server_Name_Indication#Encrypted_Client_Hello) it or expressed a desire to do so. Recently, Russia has [started blocking foreign websites](https://github.com/net4people/bbs/issues/108) that use the [HTTP/3](https://en.wikipedia.org/wiki/HTTP/3) standard. This is because the [QUIC](https://en.wikipedia.org/wiki/QUIC) protocol that is a part of HTTP/3 requires that `ClientHello` also be encrypted.
+하지만 Encrypted Client Hello 또한 여러 정부(특히 [중국](https://www.zdnet.com/article/china-is-now-blocking-all-encrypted-https-traffic-using-tls-1-3-and-esni/), [러시아](https://www.zdnet.com/article/russia-wants-to-ban-the-use-of-secure-protocols-such-as-tls-1-3-doh-dot-esni/))에서 [차단을 시작했거나](https://en.wikipedia.org/wiki/Server_Name_Indication#Encrypted_Client_Hello), 차단을 시도하고 있습니다. 최근 러시아는 [HTTP/3](https://en.wikipedia.org/wiki/HTTP/3) 표준을 사용하는 [해외 사이트를 차단하기 시작했습니다](https://github.com/net4people/bbs/issues/108). HTTP/3의 일부인 [QUIC](https://ko.wikipedia.org/wiki/QUIC) 프로토콜에서는 `ClientHello` 암호화가 필수적이기 때문입니다.
 
 
 
@@ -207,7 +207,7 @@ The OCSP request contains the certificate "[serial number](https://en.wikipedia.
 
 We can simulate what a browser would do using the [`openssl`](https://en.wikipedia.org/wiki/OpenSSL) command.
 
-1. Get the server certificate and use [`sed`](https://en.wikipedia.org/wiki/Sed) to keep just the important part and write it out to a file: 
+1. 서버 인증서를 가져오고 [`sed`](https://ko.wikipedia.org/wiki/Sed_(%EC%9C%A0%ED%8B%B8%EB%A6%AC%ED%8B%B0))를 이용해 중요한 부분만 파일에 기록합니다. 
    
    
 
@@ -370,9 +370,9 @@ DNSSEC implements a hierarchical digital signing policy across all layers of DNS
 
 
 
-## What is QNAME minimization?
+## QNAME 최소화란 무엇인가요?
 
-A QNAME is a "qualified name", for example `privacyguides.org`. QNAME minimisation reduces the amount of information sent from the DNS server to the [authoritative name server](https://en.wikipedia.org/wiki/Name_server#Authoritative_name_server).
+QNAME은 '정규화된 이름(Qualified Name)'입니다(예시: `privacyguides.org`). QNAME minimisation reduces the amount of information sent from the DNS server to the [authoritative name server](https://en.wikipedia.org/wiki/Name_server#Authoritative_name_server).
 
 Instead of sending the whole domain `privacyguides.org`, QNAME minimization means the DNS server will ask for all the records that end in `.org`. Further technical description is defined in [RFC 7816](https://datatracker.ietf.org/doc/html/rfc7816).
 

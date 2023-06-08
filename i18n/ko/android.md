@@ -131,12 +131,12 @@ Google Pixel 스마트폰은 현재 GrapheneOS [하드웨어 보안 요구 사�
     **DivestOS**는 [LineageOS](https://lineageos.org/)의 소프트 포크입니다.
     DivestOS는 LineageOS의 다양한 [지원 기기](https://divestos.org/index.php?page=devices&base=LineageOS)를 물려받았습니다. 서명된 빌드가 존재하여, Pixel 외 기기에서 [검증 부팅(Verified Boot)](https://source.android.com/security/verifiedboot)을 사용할 수 있습니다.
     
-    [:octicons-home-16: 홈페이지](https://divestos.org){ .md-button .md-button--primary }
-    [:simple-torbrowser:](http://divestoseb5nncsydt7zzf5hrfg44md4bxqjs5ifcv4t7gt7u6ohjyyd.onion){ .card-link title="Onion 서비스" }
-    [:octicons-eye-16:](https://divestos.org/index.php?page=privacy_policy){ .card-link title="프라이버시 정책" }
-    [:octicons-info-16:](https://divestos.org/index.php?page=faq){ .card-link title=문서}
-    [:octicons-code-16:](https://github.com/divested-mobile){ .card-link title="소스 코드" }
-    [:octicons-heart-16:](https://divested.dev/index.php?page=donate){ .card-link title=기부 }
+    [:octicons-home-16: Homepage](https://divestos.org){ .md-button .md-button--primary }
+    [:simple-torbrowser:](http://divestoseb5nncsydt7zzf5hrfg44md4bxqjs5ifcv4t7gt7u6ohjyyd.onion){ .card-link title="Onion Service" }
+    [:octicons-eye-16:](https://divestos.org/index.php?page=privacy_policy){ .card-link title="Privacy Policy" }
+    [:octicons-info-16:](https://divestos.org/index.php?page=faq){ .card-link title=Documentation}
+    [:octicons-code-16:](https://github.com/divested-mobile){ .card-link title="Source Code" }
+    [:octicons-heart-16:](https://divested.dev/pages/donate){ .card-link title=Contribute }
 
 DivestOS has automated kernel vulnerability ([CVE](https://en.wikipedia.org/wiki/Common_Vulnerabilities_and_Exposures)) [patching](https://gitlab.com/divested-mobile/cve_checker), fewer proprietary blobs, and a custom [hosts](https://divested.dev/index.php?page=dnsbl) file. Its hardened WebView, [Mulch](https://gitlab.com/divested-mobile/mulch), enables [CFI](https://en.wikipedia.org/wiki/Control-flow_integrity) for all architectures and [network state partitioning](https://developer.mozilla.org/en-US/docs/Web/Privacy/State_Partitioning), and receives out-of-band updates. DivestOS also includes kernel patches from GrapheneOS and enables all available kernel security features via [defconfig hardening](https://github.com/Divested-Mobile/DivestOS-Build/blob/master/Scripts/Common/Functions.sh#L758). All kernels newer than version 3.4 include full page [sanitization](https://lwn.net/Articles/334747/) and all ~22 Clang-compiled kernels have [`-ftrivial-auto-var-init=zero`](https://reviews.llvm.org/D54604?id=174471) enabled.
 

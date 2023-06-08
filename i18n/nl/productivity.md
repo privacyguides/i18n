@@ -166,12 +166,12 @@ In het algemeen definiëren wij kantoorsuites als toepassingen die voor de meest
 #### Minimale vereisten
 
 - Moet open-source zijn.
-- Must implement "zero-trust" end-to-end encryption.
-- Must support password-protected files.
+- End-to-end versleuteling, "zero-trust", moet worden geïmplementeerd.
+- Moet wachtwoordbeveiligde bestanden ondersteunen.
 
 
 #### Beste geval
 
 Onze best-case criteria geven aan wat wij zouden willen zien van het perfecte project in deze categorie. Het is mogelijk dat onze aanbevelingen geen of niet alle functies bevatten, maar degene die dat wel doen kunnen hoger gerangschikt worden dan andere op deze pagina.
 
-- Should have a published audit from a reputable, independent third-party.
+- Moet een gepubliceerde audit hebben van een gerenommeerde, onafhankelijke derde partij.

@@ -38,7 +38,7 @@ cover: cryptocurrency.png
 
 לפרטיות מקסימלית (אפילו עם ארנק לא משמורן), עליך להפעיל צומת Monero משלך. שימוש בצומת של אדם אחר יחשוף בפניו מידע מסוים, כגון כתובת ה-IP שממנה אתה מתחבר אליו, חותמות הזמן שאתה מסנכרן את הארנק שלך והעסקאות שאתה שולח מהארנק שלך (אם כי אין פרטים נוספים על עסקאות אלו). לחלופין, אתה יכול להתחבר לצומת Monero של מישהו אחר באמצעות Tor או i2p.
 
-באוגוסט 2021, [הודיעה](https://finance.yahoo.com/news/ciphertrace-announces-enhanced-monero-tracing-160000275.html) CipherTrace על יכולות מעקב משופרות של Monero עבור סוכנויות ממשלתיות. פרסומים פומביים מראים כי רשת אכיפת הפשעים הפיננסיים של משרד האוצר האמריקאי העניקה [רישיון](https://sam.gov/opp/d12cbe9afbb94ca68006d0f006d355ac/view) ל-"Monero Module" של CipherTrace בסוף 2022.
+In August 2021, CipherTrace [announced](https://ciphertrace.com/enhanced-monero-tracing/) enhanced Monero tracing capabilities for government agencies. פרסומים פומביים מראים כי רשת אכיפת הפשעים הפיננסיים של משרד האוצר האמריקאי העניקה [רישיון](https://sam.gov/opp/d12cbe9afbb94ca68006d0f006d355ac/view) ל-"Monero Module" של CipherTrace בסוף 2022.
 
 פרטיות גרף העסקאות של Monero מוגבלת על ידי חתימות הטבעות הקטנות יחסית שלה, במיוחד נגד התקפות ממוקדות. תכונות הפרטיות של Monero גם [הוטלו בספק](https://web.archive.org/web/20180331203053/https://www.wired.com/story/monero-privacy/) על ידי כמה חוקרי אבטחה, ומספר נקודות תורפה חמורות נמצאו ותוקנו בעבר, כך שהטענות שהועלו על ידי ארגונים כמו CipherTrace אינן באות בחשבון. אמנם אין זה סביר שכלי מעקב המוני Monero קיימים כפי שהם קיימים עבור ביטקוין ואחרים, אך בטוח שכלי מעקב מסייעים בחקירות ממוקדות.
 

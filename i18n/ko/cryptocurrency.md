@@ -38,7 +38,7 @@ Monero를 사용할 경우, Monero를 거래하는 주소, 거래 금액, 주소
 
 (비수탁형 지갑을 사용하더라도) 프라이버시를 극대화하려면 자체 Monero 노드를 운용해야 합니다. 다른 사람의 노드를 사용할 경우 해당 노드에 연결할 때 사용한 IP 주소, 지갑을 동기화한 시각, 지갑에서 전송된 트랜잭션(해당 트랜잭션에 대한 자세한 정보는 알 수 없음) 등 일부 정보가 해당 노드에 노출됩니다. 다른 사람의 Monero 노드에 연결할 때에 Tor 혹은 i2p를 사용하는 것이 대안이 될 수 있습니다.
 
-2021년 8월, CipherTrace는 정부 기관을 위해 향상된 Monero 추적 기능을 [발표했습니다](https://finance.yahoo.com/news/ciphertrace-announces-enhanced-monero-tracing-160000275.html). 공개 포스트에 따르면, 미국 재무부의 금융 범죄 단속 네트워크(Financial Crimes Enforcement Network)는 2022년 말 CipherTrace의 'Monero 모듈'에 라이선스 자격을 [부여했습니다](https://sam.gov/opp/d12cbe9afbb94ca68006d0f006d355ac/view).
+In August 2021, CipherTrace [announced](https://ciphertrace.com/enhanced-monero-tracing/) enhanced Monero tracing capabilities for government agencies. 공개 포스트에 따르면, 미국 재무부의 금융 범죄 단속 네트워크(Financial Crimes Enforcement Network)는 2022년 말 CipherTrace의 'Monero 모듈'에 라이선스 자격을 [부여했습니다](https://sam.gov/opp/d12cbe9afbb94ca68006d0f006d355ac/view).
 
 Monero 트랜잭션 그래프는 프라이버시 면에서 제한적입니다. 상대적으로 작은 링 서명(Ring Signature)으로 인해, 표적 공격에 취약합니다. 이 외에도 Monero의 프라이버시 기능은 일부 보안 연구자들에 의해 [의문이 제기된 바 있으며](https://web.archive.org/web/20180331203053/https://www.wired.com/story/monero-privacy/), 과거에는 여러 심각한 취약점이 발견되어 패치되기도 했습니다. 따라서 CipherTrace 같은 단체의 주장은 충분히 일리가 있습니다. 비트코인이나 다른 암호화폐처럼 대규모 감시 도구가 Monero에도 존재할 가능성은 낮지만, 추적 툴이 표적 수사에 효과가 있을 것은 확실합니다.
 

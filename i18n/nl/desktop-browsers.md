@@ -283,7 +283,7 @@ Ingebouwde extensies die je niet gebruikt uitschakelen in **Extensies**
 
 De Web3-functies van Brave kunnen de vingerafdruk van jouw browser en het aanvalsoppervlak vergroten. Tenzij je een van de functies gebruikt, moeten ze worden uitgeschakeld.
 
-Set **Default Ethereum wallet** to **Extensions (no fallback)** Set **Default Solana wallet** to **Extensions (no fallback)** Set **Method to resolve IPFS resources** to **Disabled**
+Stel **Standaard Ethereum portemonnee** in op **Extensies (geen fallback)** Stel **Standaard Solana portemonnee** in op **Extensies (geen fallback)** Stel **Methode om IPFS bronnen op te lossen** in op **Uitgeschakeld**
 
 ##### Systeem
 

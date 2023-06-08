@@ -1,8 +1,8 @@
 ---
-meta_title: "Recommended Encryption Software: VeraCrypt, Cryptomator, PicoCrypt, and OpenPGP - Privacy Guides"
-title: "Инструменты для шифрования"
+meta_title: "Рекомендуемые программы для шифрования: VeraCrypt, Cryptomator, PicoCrypt и OpenPGP - Privacy Guides"
+title: "Программы для шифрования"
 icon: material/file-lock
-description: Шифрование данных - единственный способ контролировать доступ к ним. These tools allow you to encrypt your emails and any other files.
+description: Шифрование данных - единственный способ контролировать доступ к ним. Эти программы позволяют шифровать электронную почту и любые другие файлы.
 cover: encryption.png
 ---
 
@@ -12,71 +12,81 @@ cover: encryption.png
 
 Перечисленные здесь программы являются многоплатформенными и отлично подходят для создания зашифрованных резервных копий ваших данных.
 
-### VeraCrypt
+### Cryptomator (Облако)
 
 !!! recommendation
 
-    ![VeraCrypt logo](assets/img/encryption-software/veracrypt.svg#only-light){ align=right }
-    ![VeraCrypt logo](assets/img/encryption-software/veracrypt-dark.svg#only-dark){ align=right }
+    ![Логотип Cryptomator](assets/img/encryption-software/cryptomator.svg){ align=right }
     
-    **VeraCrypt** - бесплатная и открытая программа, используемая для шифрования «на лету». Программа может создавать виртуальный зашифрованный диск в файле, зашифровать логический раздел или даже зашифровать все устройство с предзагрузочной аутентификацией.
+    **Cryptomator** - это программа для шифрования, разработанная для приватного хранения файлов в любом облачном хранилище. Программа может создавать хранилища в виртуальном диске, содержимое которых зашифровано и синхронизировано с твоим облачным хранилищем.
     
-    [Посетить veracrypt.fr](https://veracrypt.fr){ .md-button .md-button--primary } downloads
+    [:octicons-home-16: Домашняя страница](https://cryptomator.org){ .md-button .md-button--primary }
+    [:octicons-eye-16:](https://cryptomator.org/privacy){ .card-link title="Политика конфиденциальности" }
+    [:octicons-info-16:](https://docs.cryptomator.org/){ .card-link title=Документация}
+    [:octicons-code-16:](https://github.com/cryptomator){ .card-link title="Исходный код" }
+    [:octicons-heart-16:](https://cryptomator.org/donate/){ .card-link title=Поддержать }
     
-        - [:fontawesome-brands-windows: Windows](https://www.veracrypt.fr/en/Downloads.html)
-        - [:fontawesome-brands-apple: macOS](https://www.veracrypt.fr/en/Downloads.html)
-        - [:fontawesome-brands-linux: Linux](https://www.veracrypt.fr/en/Downloads.html)
-        - [:fontawesome-brands-git: Исходный код](https://www.veracrypt.fr/code)
+    ??? скачать
+    
+        - [:simple-googleplay: Google Play](https://play.google.com/store/apps/details?id=org.cryptomator)
+        - [:simple-appstore: App Store](https://apps.apple.com/us/app/cryptomator-2/id1560822163)
+        - [:simple-android: Android](https://cryptomator.org/android)
+        - [:simple-windows11: Windows](https://cryptomator.org/downloads)
+        - [:simple-apple: macOS](https://cryptomator.org/downloads)
+        - [:simple-linux: Linux](https://cryptomator.org/downloads)
+        - [:simple-flathub: Flathub](https://flathub.org/apps/details/org.cryptomator.Cryptomator)
 
-VeraCrypt - это форк прекратившего свое существование проекта TrueCrypt. По словам разработчиков, были реализованы улучшения безопасности и решены проблемы, найденные в ходе первоначального аудита кода TrueCrypt.
+Cryptomator использует шифрование AES-256 для шифрования как файлов, так и их имён. Cryptomator не может зашифровать метаданные, такие как: время создания, изменения и доступа к файлу, количество и размер файлов и папок.
 
-При шифровании с помощью VeraCrypt пользователь может выбирать различные [хэш-функции](https://en.wikipedia.org/wiki/VeraCrypt#Encryption_scheme) из их списка. Мы настоятельно рекомендуем выбирать [SHA-512](https://en.wikipedia.org/wiki/SHA-512) и блочное шифрование по алгоритму [AES](https://en.wikipedia.org/wiki/Advanced_Encryption_Standard). The audit did not extend to [cryptolib-swift](https://github.com/cryptomator/cryptolib-swift), which is a library used by Cryptomator for iOS.
+Cure53 провёл [аудит](https://community.cryptomator.org/t/has-there-been-a-security-review-audit-of-cryptomator/44) некоторых криптографических библиотек Cryptomator. Эти библиотеки включают в себя [cryptolib](https://github.com/cryptomator/cryptolib), [cryptofs](https://github.com/cryptomator/cryptofs), [siv-mode](https://github.com/cryptomator/siv-mode) и [cryptomator-objc-cryptor](https://github.com/cryptomator/cryptomator-objc-cryptor). Аудит не проходила [cryptolib-swift](https://github.com/cryptomator/cryptolib-swift), которая сейчас используется в iOS.
 
-Аудит Truecrypt проводился [несколько раз](https://en.wikipedia.org/wiki/TrueCrypt#Security_audits). Veracrypt [проходил](https://en.wikipedia.org/wiki/VeraCrypt#VeraCrypt_audit) аудит уже отдельно.
+В документации Cryptomator подробно описаны его предполагаемые [цели безопасности](https://docs.cryptomator.org/en/latest/security/security-target/), [архитектура безопасности](https://docs.cryptomator.org/en/latest/security/architecture/), и [лучшие практики](https://docs.cryptomator.org/en/latest/security/best-practices/) для использования.
 
-### Cryptomator
+### Picocrypt (Файлы)
 
 !!! recommendation
 
-    ![Cryptomator logo](assets/img/encryption-software/cryptomator.svg){ align=right }
-    **Cryptomator** позволяет легко загружать файлы в облако в виде зашифрованной файловой системы. [Посетить cryptomator.org](https://cryptomator.org){ .md-button .md-button--primary } [Privacy Policy](https://cryptomator.org/privacy){ .md-button } downloads
+    ![Логотип Picocrypt](assets/img/encryption-software/picocrypt.svg){ align=right }
     
-        - [:fontawesome-brands-windows: Windows](https://cryptomator.org/downloads)
-        - [:fontawesome-brands-apple: macOS](https://cryptomator.org/downloads)
-        - [:fontawesome-brands-linux: Linux](https://cryptomator.org/downloads)
-        - [:pg-flathub: Flatpak](https://flathub.org/apps/details/org.cryptomator.Cryptomator)
-        - [:fontawesome-brands-google-play: Google Play](https://play.google.com/store/apps/details?id=org.cryptomator)
-        - [:fontawesome-brands-android: F-Droid repo](https://cryptomator.org/android)
-        - [:fontawesome-brands-app-store-ios: App Store](https://apps.apple.com/us/app/cryptomator-2/id1560822163)
-        - [:fontawesome-brands-github: Исходный код](https://github.com/cryptomator)
+    **Picocrypt** - это маленькая и простая программа, предоставляющая современное шифрование. Picocrypt использует безопасный шифр XChaCha20 и функцию формирования ключа Argon2id для обеспечения высокого уровня безопасности. Для функций шифрования он использует стандартные модули Go x/crypto.
     
-    [:octicons-repo-16: Repository](https://github.com/HACKERALERT/Picocrypt){ .md-button .md-button--primary }
-    [:octicons-code-16:](https://github.com/HACKERALERT/Picocrypt){ .card-link title="Source Code" }
-    [:octicons-heart-16:](https://opencollective.com/picocrypt){ .card-link title=Contribute }
+    [:octicons-repo-16: Репозиторий](https://github.com/HACKERALERT/Picocrypt){ .md-button .md-button--primary }
+    [:octicons-code-16:](https://github.com/HACKERALERT/Picocrypt){ .card-link title="Исходный код" }
+    [:octicons-heart-16:](https://opencollective.com/picocrypt){ .card-link title=Поддержать }
     
-    ??? downloads
+    ??? скачать
     
         - [:simple-windows11: Windows](https://github.com/HACKERALERT/Picocrypt/releases)
         - [:simple-apple: macOS](https://github.com/HACKERALERT/Picocrypt/releases)
         - [:simple-linux: Linux](https://github.com/HACKERALERT/Picocrypt/releases)
 
-### Picocrypt
+### VeraCrypt (Диск)
 
 !!! recommendation
 
-    ![Picocrypt logo](assets/img/encryption-software/picocrypt.svg){ align=right }
+    ![Логотип VeraCrypt](assets/img/encryption-software/veracrypt.svg#only-light){ align=right }
+    ![Логотип VeraCrypt](assets/img/encryption-software/veracrypt-dark.svg#only-dark){ align=right }
     
-    **Picocrypt** - небольшая и простая программа для современного шифрования. Picocrypt использует безопасный шифр XChaCha20 и функцию формирования ключа Argon2id для обеспечения высокого уровня безопасности.
+    **VeraCrypt** - это свободно распространяемая утилита с исходным кодом, используемая для шифрования "на лету". Программа может создавать виртуальный зашифрованный диск в файле, зашифровать логический раздел или даже зашифровать все устройство с предзагрузочной аутентификацией.
     
-    Для функций шифрования он использует стандартные модули Go x/crypto. [Посетить github.com](https://github.com/HACKERALERT/Picocrypt){ .md-button .md-button--primary }
+    [:octicons-home-16: Домашняя страница](https://veracrypt.fr){ .md-button .md-button--primary }
+    [:octicons-info-16:](https://veracrypt.fr/en/Documentation.html){ .card-link title=Документация}
+    [:octicons-code-16:](https://veracrypt.fr/code/){ .card-link title="Исходный код" }
+    [:octicons-heart-16:](https://veracrypt.fr/en/Donation.html){ .card-link title=Поддержать }
+    
+    ??? скачать
+    
+        - [:simple-windows11: Windows](https://www.veracrypt.fr/en/Downloads.html)
+        - [:simple-apple: macOS](https://www.veracrypt.fr/en/Downloads.html)
+        - [:simple-linux: Linux](https://www.veracrypt.fr/en/Downloads.html)
 
-VeraCrypt is a fork of the discontinued TrueCrypt project. recommendation
+VeraCrypt - это форк, прекратившего свое существование, проекта TrueCrypt. По словам разработчиков, были реализованы улучшения безопасности и решены проблемы, найденные в ходе первоначального аудита кода TrueCrypt.
 
-When encrypting with VeraCrypt, you have the option to select from different [hash functions](https://en.wikipedia.org/wiki/VeraCrypt#Encryption_scheme). We suggest you **only** select [SHA-512](https://en.wikipedia.org/wiki/SHA-512) and stick to the [AES](https://en.wikipedia.org/wiki/Advanced_Encryption_Standard) block cipher.
+При шифровании с помощью VeraCrypt ты можешь выбрать различные [хэш-функции](https://en.wikipedia.org/wiki/VeraCrypt#Encryption_scheme). Мы настоятельно рекомендуем выбрать **только** [SHA-512](https://en.wikipedia.org/wiki/SHA-512) и блочное шифрование по алгоритму [AES](https://en.wikipedia.org/wiki/Advanced_Encryption_Standard).
 
-Truecrypt has been [audited a number of times](https://en.wikipedia.org/wiki/TrueCrypt#Security_audits), and VeraCrypt has also been [audited separately](https://en.wikipedia.org/wiki/VeraCrypt#VeraCrypt_audit).
+Аудит Truecrypt проводился [несколько раз](https://en.wikipedia.org/wiki/TrueCrypt#Security_audits). Veracrypt [проходил](https://en.wikipedia.org/wiki/VeraCrypt#VeraCrypt_audit) аудит уже отдельно.
 
-## Функции ОС для полного шифрования диска
+## Шифрование всего диска
 
 Современные ОС включают в себя [шифрование диска](https://en.wikipedia.org/wiki/Disk_encryption) и используют [безопасный криптопроцессор](https://en.wikipedia.org/wiki/Secure_cryptoprocessor).
 
@@ -84,17 +94,17 @@ Truecrypt has been [audited a number of times](https://en.wikipedia.org/wiki/Tru
 
 !!! recommendation
 
-    ![BitLocker logo](assets/img/encryption-software/bitlocker.png){ align=right }
+    ![Логотип BitLocker](assets/img/encryption-software/bitlocker.png){ align=right }
     
-    **BitLocker** - решение для полного шифрования логического тома в Microsoft Windows. Основная причина, по которой мы рекомендуем его, заключается в [использовании доверенного платформенного модуля](https://docs.microsoft.com/en-us/windows/security/information-protection/tpm/how-windows-uses-the-tpm). [ElcomSoft](https://ru.wikipedia.org/wiki/ElcomSoft), криминалистическая компания, написала об этом в [Understanding BitLocker TPM Protection](https://blog.elcomsoft.com/2021/01/understanding-BitLocker-tpm-protection/).
+    **BitLocker** - решение для полного шифрования диска в Microsoft Windows. Основная причина, по которой мы рекомендуем его, заключается в [использовании доверенного платформенного модуля (TPM)](https://docs.microsoft.com/en-us/windows/security/information-protection/tpm/how-windows-uses-the-tpm). [ElcomSoft](https://ru.wikipedia.org/wiki/ElcomSoft), криминалистическая компания, написала об этом в [Understanding BitLocker TPM Protection](https://blog.elcomsoft.com/2021/01/understanding-BitLocker-tpm-protection/).
     
-    [Посетить microsoft.com](https://docs.microsoft.com/en-us/windows/security/information-protection/BitLocker/BitLocker-overview){ .md-button .md-button--primary }
+    [:octicons-info-16:](https://docs.microsoft.com/en-us/windows/security/information-protection/BitLocker/BitLocker-overview){ .card-link title=Документация}
 
-BitLocker is [only supported](https://support.microsoft.com/en-us/windows/turn-on-device-encryption-0c453637-bc88-5f74-5105-741561aae838) on Pro, Enterprise and Education editions of Windows. It can be enabled on Home editions provided that they meet the prerequisites.
+BitLocker [поддерживается только](https://support.microsoft.com/en-us/windows/turn-on-device-encryption-0c453637-bc88-5f74-5105-741561aae838) в Pro, Enterprise и Education версиях Windows. Эту функцию можно включить и в Home версии при соответствии условиям.
 
-??? example "Enabling BitLocker on Windows Home"
+??? пример «Включение BitLocker на Windows Home»
 
-    To enable BitLocker on "Home" editions of Windows, you must have partitions formatted with a [GUID Partition Table](https://en.wikipedia.org/wiki/GUID_Partition_Table) and have a dedicated TPM (v1.2, 2.0+) module.
+    Чтобы включить BitLocker в "Домашних" редакциях Windows, необходимо, чтобы разделы были отформатированы с помощью [GUID Partition Table](https://en.wikipedia.org/wiki/GUID_Partition_Table) и имели выделенный модуль TPM (v1.2, 2.0+).
 
     1. Open a command prompt and check your drive's partition table format with the following command. You should see "**GPT**" listed under "Partition Style":
 

@@ -42,9 +42,9 @@ De gloednieuwe mobiele klanten van Proton Drive zijn nog niet publiekelijk gecon
 
 !!! recommendation
 
-    ![Tresorit logo](assets/img/cloud/tresorit.svg){ align=right }
+    Tresorit logo](assets/img/cloud/tresorit.svg){ align=right }
     
-    **Tresorit** is a Swiss-Hungarian encrypted cloud storage provider founded in 2011. Tresorit is eigendom van de Zwitserse Post, de nationale postdienst van Zwitserland.
+    **Tresorit** is een Zwitsers-Hongaarse aanbieder van versleutelde cloud-opslag, opgericht in 2011. Tresorit is eigendom van de Zwitserse Post, de nationale postdienst van Zwitserland.
     
     [:octicons-home-16: Homepage](https://tresorit.com/){ class="md-button md-button--primary" }
     [:octicons-eye-16:](https://tresorit.com/legal/privacy-policy){ .card-link title="Privacy Policy" }

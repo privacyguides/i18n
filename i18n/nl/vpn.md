@@ -153,11 +153,11 @@ Mullvad [adviseert](https://mullvad.net/en/help/why-wireguard/) het gebruik van 
 
 #### :material-check:{ .pg-green } IPv6-ondersteuning
 
-Mullvad allows you to [access services hosted on IPv6](https://mullvad.net/en/blog/2014/9/15/ipv6-support/), as opposed to other providers which block IPv6 connections.
+Met Mullvad heb je via [toegang tot services die gehost worden op IPv6](https://mullvad.net/en/blog/2014/9/15/ipv6-support/), in tegenstelling tot andere providers die IPv6-verbindingen blokkeren.
 
 #### :material-alert-outline:{ .pg-orange } Remote Port Forwarding
 
-Mullvad previously supported port forwarding, but removed the option in [May 2023](https://mullvad.net/en/blog/2023/5/29/removing-the-support-for-forwarded-ports/). Missing this feature could negatively impact certain applications, especially peer-to-peer applications like torrent clients.
+Mullvad ondersteunde voorheen port forwarding, maar heeft deze optie verwijderd in [Mei 2023](https://mullvad.net/en/blog/2023/5/29/removing-the-support-for-forwarded-ports/). Het ontbreken van deze functie kan bepaalde toepassingen negatief beïnvloeden, met name peer-to-peer applicaties zoals torrent clients.
 
 #### :material-check:{ .pg-green } Mobiele Clients
 

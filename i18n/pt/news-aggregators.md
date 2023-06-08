@@ -111,10 +111,12 @@ A [news aggregator](https://en.wikipedia.org/wiki/News_aggregator) is a way to k
     
     **Miniflux** é um agregador de notícias baseado na web que você pode auto-hospedar. It supports the typical feed formats alongside built-in support for Reddit feeds.
     
-    [Visite miniflux.app](https://miniflux.app){ .md-button .md-button--primary }
+    [:octicons-home-16: Homepage](https://netnewswire.com/){ .md-button .md-button--primary }
+    [:octicons-eye-16:](https://netnewswire.com/privacypolicy.html){ .card-link title="Privacy Policy" }
+    [:octicons-info-16:](https://netnewswire.com/help/){ .card-link title=Documentation}
+    [:octicons-code-16:](https://github.com/Ranchero-Software/NetNewsWire){ .card-link title="Source Code" }
     
-    **Downloads***
-    - [:fontawesome-brands-github: Fonte](https://github.com/miniflux) downloads
+    ??? downloads
     
         - [:simple-appstore: App Store](https://apps.apple.com/us/app/netnewswire-rss-reader/id1480640210)
         - [:simple-apple: macOS](https://netnewswire.com)

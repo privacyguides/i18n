@@ -101,12 +101,12 @@ A [news aggregator](https://en.wikipedia.org/wiki/News_aggregator) is a way to k
     
     **NetNewsWire** är en gratis och öppen källkodsläsare för macOS och iOS med fokus på en inhemsk design och funktionalitet. It supports the typical feed formats alongside built-in support for Reddit feeds.
     
-    [:octicons-home-16: Startsida](https://cryptomator.org){ .md-button .md-button--primary }
+    [:octicons-home-16: Homepage](https://netnewswire.com/){ .md-button .md-button--primary }
+    [:octicons-eye-16:](https://netnewswire.com/privacypolicy.html){ .card-link title="Privacy Policy" }
+    [:octicons-info-16:](https://netnewswire.com/help/){ .card-link title=Documentation}
+    [:octicons-code-16:](https://github.com/Ranchero-Software/NetNewsWire){ .card-link title="Source Code" }
     
-    [:octicons-eye-16:](https://cryptomator.org/privacy){ .card-link title="Privacy Policy" }
-    [:octicons-info-16:](https://netnewswire.com/help/){ .card-link title=Dokumentation}
-    [:octicons-code-16:](https://github.com/Ranchero-Software/NetNewsWire){ .card-link title="Källkod" }
-    [](/){ .card-link title=Contribute??? nedladdningar
+    ??? nedladdningar
     
         - [:simple-appstore: App Store](https://apps.apple.com/us/app/netnewswire-rss-reader/id1480640210)
         - [:simple-apple: macOS](https://netnewswire.com)

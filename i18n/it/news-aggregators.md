@@ -102,9 +102,9 @@ Un [Aggregatore di news](https://en.wikipedia.org/wiki/News_aggregator)è un mod
     **NetNewsWire** è un lettore di feed gratuito ed open-source per macOS e iOS, con un focus su design e funzionalità native. Supporta i formati classici dei feed, oltre al supporto integrato per i feed di Reddit.
     
     [:octicons-home-16: Pagina principale](https://netnewswire.com/){ .md-button .md-button--primary }
-    [:octicons-eye-16:](https://netnewswire.com/privacypolicy){ .card-link title="Informativa sulla privacy" }
+    [:octicons-eye-16:](https://netnewswire.com/privacypolicy.html){ .card-link title="Politica sulla Privacy" }
     [:octicons-info-16:](https://netnewswire.com/help/){ .card-link title=Documentazione}
-    [:octicons-code-16:](https://github.com/Ranchero-Software/NetNewsWire){ .card-link title="Codice sorgente" }
+    [:octicons-code-16:](https://github.com/Ranchero-Software/NetNewsWire){ .card-link title="Codice Sorgente" }
     
     ??? downloads "Scaricare"
     

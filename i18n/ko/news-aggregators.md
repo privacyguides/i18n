@@ -101,10 +101,10 @@ cover: news-aggregators.png
     
     **NetNewsWire**는 네이티브 디자인 및 기능에 중점을 둔 macOS, iOS용 무료 오픈소스 피드 리더입니다. 일반적인 피드 형식과 함께 Reddit 피드를 기본 지원합니다.
     
-    [:octicons-home-16: 홈페이지](https://netnewswire.com/){ .md-button .md-button--primary }
-    [:octicons-eye-16:](https://netnewswire.com/privacypolicy){ .card-link title="프라이버시 정책" }
-    [:octicons-info-16:](https://netnewswire.com/help/){ .card-link title=문서}
-    [:octicons-code-16:](https://github.com/Ranchero-Software/NetNewsWire){ .card-link title="소스 코드" }
+    [:octicons-home-16: Homepage](https://netnewswire.com/){ .md-button .md-button--primary }
+    [:octicons-eye-16:](https://netnewswire.com/privacypolicy.html){ .card-link title="Privacy Policy" }
+    [:octicons-info-16:](https://netnewswire.com/help/){ .card-link title=Documentation}
+    [:octicons-code-16:](https://github.com/Ranchero-Software/NetNewsWire){ .card-link title="Source Code" }
     
     ??? downloads "다운로드"
     

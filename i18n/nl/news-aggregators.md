@@ -102,9 +102,9 @@ Een [nieuwsaggregator](https://en.wikipedia.org/wiki/News_aggregator) is een man
     **NetNewsWire** een gratis en open-source feedlezer voor macOS en iOS met een focus op een native ontwerp en functieset. Het ondersteunt de typische feed formaten naast ingebouwde ondersteuning voor Reddit feeds.
     
     [:octicons-home-16: Homepage](https://netnewswire.com/){ .md-button .md-button--primary }
-    [:octicons-eye-16:](https://netnewswire.com/privacypolicy){ .card-link title="Privacybeleid" }
-    [:octicons-info-16:](https://netnewswire.com/help/){ .card-link title=Documentatie}
-    [:octicons-code-16:](https://github.com/Ranchero-Software/NetNewsWire){ .card-link title="Broncode" }
+    [:octicons-eye-16:](https://netnewswire.com/privacypolicy.html){ .card-link title="Privacy Policy" }
+    [:octicons-info-16:](https://netnewswire.com/help/){ .card-link title=Documentation}
+    [:octicons-code-16:](https://github.com/Ranchero-Software/NetNewsWire){ .card-link title="Source Code" }
     
     ??? downloads "Downloaden"
     

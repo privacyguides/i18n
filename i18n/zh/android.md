@@ -131,11 +131,12 @@ Google Pixel phones are the only devices that currently meet GrapheneOS's [hardw
     **DivestOS**是 [LineageOS](https://lineageos.org/)的一个软分叉。
     DivestOS从LineageOS继承了许多[支持的设备](https://divestos.org/index.php?page=devices&base=LineageOS)。 它有签名的构建，使得在一些非Pixel设备上可以有[验证的启动](https://source.android.com/security/verifiedboot)。
     
-    [:octicons-home-16: 主页](https://grapheneos.org/){ .md-button .md-button--primary }
-    [:octicons-eye-16:](https://grapheneos.org/faq#privacy-policy){ .card-link title="隐私政策" }
-    [:octicons-info-16:](https://grapheneos.org/faq){ .card-link title=文档}
-    [:octicons-code-16:](https://grapheneos.org/source){ .card-link title="源代码" }
-    [:octicons-heart-16:](https://grapheneos.org/donate){ .card-link title="贡献" }
+    [:octicons-home-16: Homepage](https://divestos.org){ .md-button .md-button--primary }
+    [:simple-torbrowser:](http://divestoseb5nncsydt7zzf5hrfg44md4bxqjs5ifcv4t7gt7u6ohjyyd.onion){ .card-link title="Onion Service" }
+    [:octicons-eye-16:](https://divestos.org/index.php?page=privacy_policy){ .card-link title="Privacy Policy" }
+    [:octicons-info-16:](https://divestos.org/index.php?page=faq){ .card-link title=Documentation}
+    [:octicons-code-16:](https://github.com/divested-mobile){ .card-link title="Source Code" }
+    [:octicons-heart-16:](https://divested.dev/pages/donate){ .card-link title=Contribute }
 
 DivestOS has automated kernel vulnerability ([CVE](https://en.wikipedia.org/wiki/Common_Vulnerabilities_and_Exposures)) [patching](https://gitlab.com/divested-mobile/cve_checker), fewer proprietary blobs, and a custom [hosts](https://divested.dev/index.php?page=dnsbl) file. Its hardened WebView, [Mulch](https://gitlab.com/divested-mobile/mulch), enables [CFI](https://en.wikipedia.org/wiki/Control-flow_integrity) for all architectures and [network state partitioning](https://developer.mozilla.org/en-US/docs/Web/Privacy/State_Partitioning), and receives out-of-band updates. DivestOS also includes kernel patches from GrapheneOS and enables all available kernel security features via [defconfig hardening](https://github.com/Divested-Mobile/DivestOS-Build/blob/master/Scripts/Common/Functions.sh#L758). All kernels newer than version 3.4 include full page [sanitization](https://lwn.net/Articles/334747/) and all ~22 Clang-compiled kernels have [`-ftrivial-auto-var-init=zero`](https://reviews.llvm.org/D54604?id=174471) enabled.
 
