@@ -16,7 +16,7 @@ Questo fenomeno è chiamato [credential stuffing](https://en.wikipedia.org/wiki/
 
 ### Usa password generate randomicamente
 
-== Non dovresti **mai** affidarti a te stesso per creare un'ottima password.== Consigliamo di utilizzare [password generate randomicamente](#passwords) o [passphrase di tipo diceware](#diceware-passphrases) con un'entropia sufficiente a proteggere i tuoi account e dispositivi.
+==Non dovresti **mai** affidarti a te stesso per creare un'ottima password.== Consigliamo di utilizzare [password generate randomicamente](#passwords) o [passphrase di tipo diceware](#diceware-passphrases) con un'entropia sufficiente a proteggere i tuoi account e dispositivi.
 
 Tutti i nostri [gestori di password consigliati](../passwords.md) includono un generatore di password integrato che puoi utilizzare.
 
@@ -26,7 +26,7 @@ Dovresti evitare di cambiare troppo spesso le password che necessitano di essere
 
 Per quanto riguarda le password che non devi ricordare (come quelle memorizzate all'interno del vostro gestore di password), se la vostra [ modellazione delle minacce](threat-modeling.md) lo richiede, vi consigliamo di controllare gli account importanti (soprattutto quelli che non utilizzano l'autenticazione a più fattori) e di cambiare la loro password almeno ogni due mesi, nel caso in cui siano stati compromessi in una violazione dei dati non ancora resa pubblica. La maggior parte dei gestori di password ti consente d'impostare una data di scadenza per le tue password cosi da gestirle più facilmente.
 
-!!! consiglio "Controlla le violazioni dei dati"
+!!! tip "Controlla le violazioni dei dati"
 
     Se il tuo gestore di password permette di verificare la presenza di password compromesse, assicurati di controllare le vostre password e di cambiare immediatamente qualsiasi password che potrebbe essere stata esposta in una violazione dei dati. In alternativa, puoi seguire il feed di [Have I Been Pwned's Latest Breaches](https://feeds.feedburner.com/HaveIBeenPwnedLatestBreaches) con l'aiuto di un [aggregatore di notizie](../news-aggregators.md).
 
@@ -60,7 +60,7 @@ Per generare una passfrase diceware utilizzando un vero dado, segui questi passa
 
 4. Ripeti questa procedura finché la vostra passfrase non avrà il numero di parole necessario, che dovrete separare con uno spazio.
 
-!!! avviso "Importante"
+!!! warning "Importante"
 
     **Non** dovresti rigenerare le parole affinché non ottieni una combinazione di parole che ti attragga. Il processo dovrebbe essere effettuato randomicamente.
 

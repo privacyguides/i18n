@@ -107,7 +107,7 @@ Fairphone, למשל, משווקת את המכשירים שלהם כמקבלים 
 
 [פרופילי עבודה](https://support.google.com/work/android/answer/6191949) הם דרך נוספת לבודד אפליקציות בודדות ועשויה להיות נוחה יותר מפרופילי משתמשים נפרדים.
 
-נדרשת אפליקציית **בקר מכשיר** כגון [Shelter](#recommended-apps) כדי ליצור פרופיל עבודה ללא MDM ארגוני, אלא אם אתה משתמש במערכת הפעלה אנדרואיד מותאמת אישית הכוללת אחת.
+A **device controller** app such as [Shelter](../android.md#shelter) is required to create a Work Profile without an enterprise MDM, unless you're using a custom Android OS which includes one.
 
 פרופיל העבודה תלוי בבקר התקן כדי לתפקד. תכונות כגון *מעבורת קבצים* ו*חסימת חיפוש אנשי קשר* או כל סוג של תכונות בידוד חייבות להיות מיושמות על ידי הבקר. עליך גם לסמוך באופן מלא על אפליקציית בקר המכשיר, מכיוון שיש לה גישה מלאה לנתונים שלך בתוך פרופיל העבודה.
 

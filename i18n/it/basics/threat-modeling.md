@@ -53,7 +53,7 @@ La valutazione dei rischi è un processo personale e soggettivo. Molte persone t
 
 Ci sono molti modi in cui un avversario può accedere ai tuoi dati. Per esempio, un avversario può leggere le tue comunicazioni private mentre attraversano la rete, o può eliminare o corrompere i tuoi dati.
 
-== Le motivazioni degli avversari sono molto diverse, così come le loro tattiche.== Un governo che cerca di impedire la diffusione di un video che mostra la violenza della polizia può accontentarsi di cancellare o ridurre la disponibilità di quel video. Al contrario, un avversario politico può desiderare di accedere a contenuti segreti e pubblicarli all'insaputa dell'interessato.
+==Le motivazioni degli avversari sono molto diverse, così come le loro tattiche.== Un governo che cerca di impedire la diffusione di un video che mostra la violenza della polizia può accontentarsi di cancellare o ridurre la disponibilità di quel video. Al contrario, un avversario politico può desiderare di accedere a contenuti segreti e pubblicarli all'insaputa dell'interessato.
 
 La pianificazione della sicurezza comporta la comprensione di quanto catastrofiche possono essere le conseguenze se un avversario riesce a impossessarsi di uno dei tuoi asset. Per determinare ciò, dovresti prendere in considerazione la capacità del tuo avversario. Ad esempio, il tuo operatore di telefonia mobile ha accesso a tutti i tuoi record telefonici. Un hacker su una rete Wi-Fi aperta può accedere alle tue comunicazioni non criptate. Il tuo governo potrebbe avere capacità maggiori.
 
@@ -61,7 +61,7 @@ La pianificazione della sicurezza comporta la comprensione di quanto catastrofic
 
 ### Quanti problemi sono disposto ad affrontare per tentare di prevenire le potenziali conseguenze?
 
-== Non esiste un'opzione perfetta per la sicurezza.== Non tutti hanno le stesse priorità, preoccupazioni o accesso alle risorse. La valutazione dei rischi consentirà di pianificare la giusta strategia per te, bilanciando convenienza, costi e privacy.
+==Non esiste un'opzione perfetta per la sicurezza.== Non tutti hanno le stesse priorità, preoccupazioni o accesso alle risorse. La valutazione dei rischi consentirà di pianificare la giusta strategia per te, bilanciando convenienza, costi e privacy.
 
 Per esempio, un avvocato che rappresenta un cliente in un caso di sicurezza nazionale potrebbe essere disposto a prendere più provvedimenti per proteggere le comunicazioni relative al caso, come ad esempio usando mail criptate, rispetto ad una madre che manda regolarmente email alla figlia con video divertenti di gattini.
 

@@ -107,7 +107,7 @@ Avec les profils d'utilisateur, vous pouvez imposer des restrictions à un profi
 
 Les [Profils Professionnels](https://support.google.com/work/android/answer/6191949?hl=fr) sont une autre façon d'isoler des applications de manière individuelles et peuvent s'avérer plus pratiques que des profils d'utilisateur séparés.
 
-Une application de **gestionnaire d'appareil** telle que [Shelter](#recommended-apps) est nécessaire pour créer un profil professionnel sans MDM d'entreprise, à moins que vous n'utilisiez un OS Android personnalisé qui en comprend une.
+Une application de **gestionnaire d'appareil** telle que [Shelter](../android.md#shelter) est nécessaire pour créer un profil professionnel sans MDM d'entreprise, à moins que vous n'utilisiez un système d'exploitation Android personnalisé qui en comprend une.
 
 Le profil professionnel dépend d'un gestionnaire d'appareil pour fonctionner. Les fonctionnalités telles que la *Navigation de Fichiers* et le *blocage de la recherche de contacts* ou tout autre type de fonctionnalités d'isolation doivent être implémentées par le gestionnaire. Vous devez également faire entièrement confiance à l'application de gestionnaire d'appareil, car elle a un accès total à vos données au sein du profil professionnel.
 

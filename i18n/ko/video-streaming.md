@@ -1,5 +1,5 @@
 ---
-title: "Video Streaming"
+title: "동영상 스트리밍"
 icon: material/video-wireless
 description: These networks allow you to stream internet content without building an advertising profile based on your interests.
 cover: video-streaming.png

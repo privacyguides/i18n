@@ -1,10 +1,10 @@
 ---
 title: "계정 삭제"
 icon: 'material/account-remove'
-description: It's easy to accumulate a large number of internet accounts, here are some tips on how to prune your collection.
+description: 온라인 계정은 어느새 잔뜩 쌓여 있기 마련입니다. 여러분의 계정을 정리하는 데 도움이 될 몇 가지 팁을 알려드립니다.
 ---
 
-온라인 계정은 시간이 지날수록 쌓여갑니다. 그리고 그 중 상당수는 더 이상 사용하지 않는 계정일 겁니다. 휴면 계정은 데이터 유출에 취약하므로 '사용하지 않는 계정 삭제'는 프라이버시 보호에 있어서 중요합니다. 데이터 유출이란, 보호되어야 할 정보가 서비스 보안 손상으로 인해 무단으로 열람, 전송, 도난당하는 것을 말합니다. Data breaches are unfortunately all [too common](https://haveibeenpwned.com/PwnedWebsites) these days, and so practicing good digital hygiene is the best way to minimize the impact they have on your life. The goal of this guide then is to help navigate you through the irksome process of account deletion, often made difficult by [deceptive design](https://www.deceptive.design/), for the betterment of your online presence.
+온라인 계정은 시간이 지날수록 쌓여갑니다. 그리고 그 중 상당수는 더 이상 사용하지 않는 계정일 겁니다. 휴면 계정은 데이터 유출에 취약하므로 '사용하지 않는 계정을 삭제하는 것'은 프라이버시 보호에 있어서 중요합니다. 데이터 유출이란, 보호되어야 할 정보가 서비스 보안 손상으로 인해 무단으로 열람, 전송, 도난당하는 것을 말합니다. 안타깝게도 최근에는 데이터 유출 사고가 [너무 많이 발생합니다](https://haveibeenpwned.com/PwnedWebsites). 데이터 유출 사고가 여러분의 삶에 미치는 영향을 최소화하고자 한다면 디지털에서도 위생 관념을 철저히 해야 합니다. 본 내용은 온라인 상에서 여러분의 발자취를 지우기 어렵게 만드는 각종 [다크 패턴](https://www.deceptive.design/)으로 인해 복잡해진 계정 삭제 절차를 안내하는 것을 목적으로 작성되었습니다.
 
 ## 오래된 계정 찾기
 
@@ -16,7 +16,7 @@ description: It's easy to accumulate a large number of internet accounts, here a
   ![Bitwarden 데이터 유출 보고서 기능](../assets/img/account-deletion/exposed_passwords.png)
 </figure>
 
-비밀번호 관리자를 따로 사용한 적이 없더라도, 자신도 모르는 사이 브라우저나 휴대폰 내장 비밀번호 관리자를 사용했을 가능성이 있습니다. 예시: [Firefox 비밀번호 관리자](https://support.mozilla.org/kb/password-manager-remember-delete-edit-logins), [Google 비밀번호 관리자](https://passwords.google.com/intro), [Edge 암호 관리자](https://support.microsoft.com/en-us/microsoft-edge/save-or-forget-passwords-in-microsoft-edge-b4beecb0-f2a8-1ca0-f26f-9ec247a3f336)
+비밀번호 관리자를 따로 사용한 적이 없더라도, 자신도 모르는 사이 브라우저나 휴대폰 내장 비밀번호 관리자를 사용했을 가능성이 있습니다. (예시: [Firefox 비밀번호 관리자](https://support.mozilla.org/kb/password-manager-remember-delete-edit-logins), [Google 비밀번호 관리자](https://passwords.google.com/intro), [Edge 암호 관리자](https://support.microsoft.com/en-us/microsoft-edge/save-or-forget-passwords-in-microsoft-edge-b4beecb0-f2a8-1ca0-f26f-9ec247a3f336))
 
 데스크톱 플랫폼에도 보통 비밀번호 관리자가 있기 때문에, 잊어버린 비밀번호를 복구하는 데에 유용할 수 있습니다:
 
@@ -29,7 +29,7 @@ description: It's easy to accumulate a large number of internet accounts, here a
 
 비밀번호 관리자를 사용한 적이 없거나 등록하지 않은 계정이 있는 경우, 가입하는 데에 사용했을 법한 이메일 계정에서 검색해보는 방법이 있습니다. 이메일 클라이언트에서 '환영합니다', '인증', '확인' 같은 키워드를 검색해보세요. 거의 모든 서비스는 계정 생성 시에 인증 링크나 소개 메시지를 이메일로 보냅니다. 이를 이용하면 잊어버린 오래된 계정을 찾을 수 있습니다.
 
-## 오래된 계정 삭제
+## 오래된 계정 삭제하기
 
 ### 로그인
 
@@ -59,4 +59,4 @@ EEA 거주자는 GDPR [제17조](https://www.gdpr.org/regulation/article-17.html
 
 ## 계정 새로 생성하지 않기
 
-"예방이 치료보다 낫다"라는 말도 있습니다. 새 계정을 가입하고 싶은 마음이 생길 때마다 한 번씩 생각해보세요. '이 계정이 정말 필요한가?' '계정 없이도 필요한 작업을 할 수 있나?' 계정 생성보다 삭제가 훨씬 더 어려운 경우가 많습니다. 게다가 계정을 삭제하거나 계정 정보를 변경한 이후에도 [인터넷 아카이브](https://archive.org/) 등 외부에 캐시된 버전이 존재할 수 있습니다. 미래에 후회하지 않기 위해서는 피할 수 있을 때 유혹을 피해야 합니다.
+"예방이 치료보다 낫다"라는 말도 있습니다. 새 계정을 가입하고 싶은 마음이 생길 때마다 한 번씩 생각해보세요. '이 계정이 정말 필요한가?' '계정 없이도 내가 원하는 작업을 할 수 있나?' 계정 생성보다 삭제가 훨씬 더 어려운 경우가 많습니다. 게다가 계정을 삭제하거나 계정 정보를 변경한 이후에도 [인터넷 아카이브](https://archive.org/) 등 외부에 캐시된 버전이 존재할 수 있습니다. 미래에 후회하지 않기 위해서는 피할 수 있을 때 유혹을 피해야 합니다.

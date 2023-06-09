@@ -107,7 +107,7 @@ An app may request a permission for a specific feature it has. For example, any 
 
 [工作配置文件](https://support.google.com/work/android/answer/6191949) 是隔离单个应用程序的另一种方式，可能比单独的用户配置文件更方便。
 
-在没有企业MDM的情况下，需要一个 **设备控制器** 应用程序，如 [Shelter](#recommended-apps) ，以创建一个工作档案，除非你使用的是包括一个自定义的Android操作系统。
+A **device controller** app such as [Shelter](../android.md#shelter) is required to create a Work Profile without an enterprise MDM, unless you're using a custom Android OS which includes one.
 
 该工作档案依赖于设备控制器来运作。 诸如 *文件穿梭* 和 *接触搜索封锁* 或任何种类的隔离功能必须由控制器实现。 你还必须完全信任设备控制器应用程序，因为它可以完全访问你在工作档案中的数据。
 

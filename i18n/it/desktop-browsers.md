@@ -262,7 +262,7 @@ Le funzionalità di Shields possono essere ridotte per ogni sito se necessario; 
 - [x] Seleziona **Utilizza sempre connessioni sicure** nel menu **Sicurezza** 
 - [ ] Disabilita **Finestra in Incognito con Tor** (1)
 
-    !!! Suggerimento "Pulizia alla chiusura"
+    !!! tip "Pulizia alla chiusura"
 
         - [x] Selezionare **Cancella i cookie e i dati del sito alla chiusura di tutte le finestre** nel menu *Cookies e altri dati del sito*
 

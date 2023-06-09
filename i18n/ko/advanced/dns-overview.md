@@ -131,7 +131,7 @@ DoH 네이티브 구현은 iOS 14, macOS 11, Microsoft Windows, Android 13(단, 
 
 인터넷 필터링(혹은 검열)이 존재하는 지역에서는 '차단된 정보에 접근하는 행위' 자체가 자신의 [위협 모델](../basics/threat-modeling.md)에서 고려해야 할 어떠한 결과를 초래할 수도 있습니다. Privacy Guides는 이러한 목적으로 암호화 DNS를 사용하는 것은 추천드리지 **않습니다**. 대신 [Tor](https://torproject.org)나 [VPN](../vpn.md)을 사용하세요. VPN을 사용하는 경우, 자신이 사용하는 VPN의 DNS 서버를 사용해야 합니다. VPN을 사용하는 순간부터 이미 자신의 모든 네트워크 활동을 VPN 업체에게 맡기고 있는 것이기 때문입니다.
 
-When we do a DNS lookup, it's generally because we want to access a resource. 다음은 암호화 DNS를 사용하더라도 여러분의 인터넷 탐색 활동이 노출될 수 있는 몇 가지 경우입니다.
+일반적으로 우리가 무언가에 대한 DNS 조회를 할 때는 해당 리소스에 접근하고자 하는 의도가 있습니다. 다음은 암호화 DNS를 사용하더라도 여러분의 인터넷 탐색 활동이 노출될 수 있는 몇 가지 경우입니다.
 
 
 
@@ -201,11 +201,11 @@ SNI(Server Name Indication, 서버 이름 표시)는 주로 하나의 IP 주소�
 
 ### OCSP(온라인 인증서 상태 프로토콜)
 
-Another way your browser can disclose your browsing activities is with the [Online Certificate Status Protocol](https://en.wikipedia.org/wiki/Online_Certificate_Status_Protocol). When visiting an HTTPS website, the browser might check to see if the website's [certificate](https://en.wikipedia.org/wiki/Public_key_certificate) has been revoked. This is generally done through the HTTP protocol, meaning it is **not** encrypted.
+[OCSP](https://ko.wikipedia.org/wiki/%EC%98%A8%EB%9D%BC%EC%9D%B8_%EC%9D%B8%EC%A6%9D%EC%84%9C_%EC%83%81%ED%83%9C_%ED%94%84%EB%A1%9C%ED%86%A0%EC%BD%9C)를 통해 인터넷 탐색 활동이 노출될 가능성도 있습니다. 여러분이 HTTPS 웹사이트를 방문할 때, 브라우저는 해당 웹사이트의 [인증서](https://ko.wikipedia.org/wiki/%EA%B3%B5%EA%B0%9C_%ED%82%A4_%EC%9D%B8%EC%A6%9D%EC%84%9C)가 만료되었는지 확인합니다. 이 과정은 HTTP 프로토콜을 사용해 이루어집니다. 다시 말해, 암호화가 적용되지 **않습니다**.
 
-The OCSP request contains the certificate "[serial number](https://en.wikipedia.org/wiki/Public_key_certificate#Common_fields)", which is unique. It is sent to the "OCSP responder" in order to check its status.
+OCSP 요청에는 고유한 인증서 [일련번호](https://en.wikipedia.org/wiki/Public_key_certificate#Common_fields)가 포함되어 있습니다. 이는 인증서 상태를 확인하는 과정에서 'OCSP 응답자(Responder)'에게 전송됩니다.
 
-We can simulate what a browser would do using the [`openssl`](https://en.wikipedia.org/wiki/OpenSSL) command.
+[`openssl`](https://ko.wikipedia.org/wiki/OpenSSL) 명령어로 브라우저의 동작을 시뮬레이션할 수 있습니다.
 
 1. 서버 인증서를 가져오고 [`sed`](https://ko.wikipedia.org/wiki/Sed_(%EC%9C%A0%ED%8B%B8%EB%A6%AC%ED%8B%B0))를 이용해 중요한 부분만 파일에 기록합니다. 
    
@@ -217,7 +217,7 @@ We can simulate what a browser would do using the [`openssl`](https://en.wikiped
     ```
 
 
-2. Get the intermediate certificate. [Certificate Authorities (CA)](https://en.wikipedia.org/wiki/Certificate_authority) normally don't sign a certificate directly; they use what is known as an "intermediate" certificate. 
+2. 중간 인증서(Intermediate Certificate)를 받습니다. [인증 기관(CA)](https://ko.wikipedia.org/wiki/%EC%9D%B8%EC%A6%9D_%EA%B8%B0%EA%B4%80)은 일반적으로 인증서에 직접 서명하지 않고 '중간 인증서'라고 불리는 것을 사용합니다. 
    
    
 
@@ -227,7 +227,7 @@ We can simulate what a browser would do using the [`openssl`](https://en.wikiped
     ```
 
 
-3. The first certificate in `pg_and_intermediate.cert` is actually the server certificate from step 1. We can use `sed` again to delete until the first instance of END: 
+3. `pg_and_intermediate.cert`의 첫 번째 인증서는 1단계에서의 서버에 대한 인증서입니다. `sed` 명령어를 다시 사용해 END가 처음 등장하는 부분까지 제거합니다. 
    
    
 
@@ -237,7 +237,7 @@ We can simulate what a browser would do using the [`openssl`](https://en.wikiped
     ```
 
 
-4. Get the OCSP responder for the server certificate: 
+4. 서버 인증서에 대한 OCSP 응답자를 얻어냅니다. 
    
    
 
@@ -246,7 +246,7 @@ We can simulate what a browser would do using the [`openssl`](https://en.wikiped
     ```
 
 
-Our certificate shows the Lets Encrypt certificate responder. If we want to see all the details of the certificate we can use: 
+인증서에서 Lets Encrypt 인증서 응답자를 확인할 수 있습니다. 인증서의 모든 세부 정보를 확인하려면 다음 명령어를 사용합니다. 
 
 
 
@@ -255,7 +255,7 @@ Our certificate shows the Lets Encrypt certificate responder. If we want to see 
     ```
 
 
-5. Start the packet capture: 
+5. 패킷 캡처를 시작합니다. 
    
    
 
@@ -264,7 +264,7 @@ Our certificate shows the Lets Encrypt certificate responder. If we want to see 
     ```
 
 
-6. Make the OCSP request: 
+6. OCSP 요청을 생성합니다. 
    
    
 
@@ -276,7 +276,7 @@ Our certificate shows the Lets Encrypt certificate responder. If we want to see 
     ```
 
 
-7. Open the capture: 
+7. 캡처를 엽니다. 
    
    
 
@@ -285,7 +285,7 @@ Our certificate shows the Lets Encrypt certificate responder. If we want to see 
     ```
 
 
-There will be two packets with the "OCSP" protocol: a "Request" and a "Response". For the "Request" we can see the "serial number" by expanding the triangle &#9656; next to each field: 
+'OCSP' 프로토콜에서 'Request', 'Response'라는 두 패킷을 확인할 수 있습니다. 'Request'에서는 각 필드 옆의 삼각형 &#9656;을 눌러 일련번호(Serial Number)를 확인할 수 있습니다. 
 
 
 
@@ -299,7 +299,7 @@ There will be two packets with the "OCSP" protocol: a "Request" and a "Response"
     ```
 
 
-For the "Response" we can also see the "serial number": 
+'Response'에서도 마찬가지로 일련번호를 확인할 수 있습니다. 
 
 
 
@@ -315,7 +315,7 @@ For the "Response" we can also see the "serial number":
     ```
 
 
-8. Or use `tshark` to filter the packets for the Serial Number: 
+8. 혹은 `tshark`를 이용해 패킷을 일련번호로 필터링합니다. 
    
    
 
@@ -324,7 +324,7 @@ For the "Response" we can also see the "serial number":
     ```
 
 
-If the network observer has the public certificate, which is publicly available, they can match the serial number with that certificate and therefore determine the site you're visiting from that. The process can be automated and can associate IP addresses with serial numbers. It is also possible to check [Certificate Transparency](https://en.wikipedia.org/wiki/Certificate_Transparency) logs for the serial number.
+네트워크 관찰자가 공개적으로 사용할 수 있는 공개 인증서를 가지고 있는 경우, 일련번호를 해당 인증서와 대조할 수 있으므로 여러분이 어떤 사이트를 방문하는지 알아낼 수 있습니다. 이 과정은 자동화될 수 있으며, 일련번호를 IP 주소와 연관시킬 수 있습니다. [인증서 투명성](https://en.wikipedia.org/wiki/Certificate_Transparency) 로그에서 일련번호를 확인하는 것 또한 가능합니다.
 
 
 
@@ -350,7 +350,7 @@ graph TB
 ```
 
 
-Encrypted DNS with a third-party should only be used to get around redirects and basic [DNS blocking](https://en.wikipedia.org/wiki/DNS_blocking) when you can be sure there won't be any consequences or you're interested in a provider that does some rudimentary filtering.
+제3자 서버를 사용하는 암호화 DNS는 '이를 사용함으로써 아무런 문제가 발생하지 않을 것이라고 확신할 수 있을 때' ISP의 기본적인 리디렉션 및 [DNS 차단](https://en.wikipedia.org/wiki/DNS_blocking)을 우회하는 용도로만 사용하거나, 기초적인 DNS 필터링 서비스를 필요로 할 때만 사용해야 합니다.
 
 [권장 DNS 서버 목록](../dns.md ""){.md-button}
 
@@ -358,30 +358,30 @@ Encrypted DNS with a third-party should only be used to get around redirects and
 
 ## DNSSEC이란 무엇인가요?
 
-[Domain Name System Security Extensions](https://en.wikipedia.org/wiki/Domain_Name_System_Security_Extensions) (DNSSEC) is a feature of DNS that authenticates responses to domain name lookups. It does not provide privacy protections for those lookups, but rather prevents attackers from manipulating or poisoning the responses to DNS requests.
+DNSSEC([Domain Name System Security Extensions](https://ko.wikipedia.org/wiki/DNSSEC))는 도메인 이름 조회에 대한 응답을 인증하는 DNS 기능입니다. 이 기능은 프라이버시 보호와는 별 관련이 없지만, 공격자가 DNS 요청 응답을 변조하거나 오염시키는 것을 방지합니다.
 
-In other words, DNSSEC digitally signs data to help ensure its validity. In order to ensure a secure lookup, the signing occurs at every level in the DNS lookup process. As a result, all answers from DNS can be trusted.
+DNSSEC은 데이터 유효성을 보장하기 위해 데이터에 디지털 서명을 수행합니다. 안전한 조회 과정을 보장하기 위해, 디지털 서명은 DNS 조회 과정의 모든 영역에서 이루어집니다. 결과적으로, 모든 DNS 응답을 신뢰할 수 있습니다.
 
-The DNSSEC signing process is similar to someone signing a legal document with a pen; that person signs with a unique signature that no one else can create, and a court expert can look at that signature and verify that the document was signed by that person. These digital signatures ensure that data has not been tampered with.
+DNSSEC 서명 과정은 사람이 펜으로 법적 문서에 서명하는 과정과 유사합니다. 다른 사람이 따라 만들 수 없는 고유한 서명으로 서명하고, 법조인은 해당 서명을 보고 문서의 서명이 위조되지 않았음을 확인합니다. 마찬가지로 디지털 서명은 데이터가 변조되지 않았음을 확인합니다.
 
-DNSSEC implements a hierarchical digital signing policy across all layers of DNS. For example, in the case of a `privacyguides.org` lookup, a root DNS server would sign a key for the `.org` nameserver, and the `.org` nameserver would then sign a key for `privacyguides.org`’s authoritative nameserver.
+DNSSEC은 DNS의 모든 계층에 걸쳐 계층적(Hierarchical) 디지털 서명 정책을 구현합니다. 예를 들어 `privacyguides.org`를 조회하는 경우, 루트 DNS 서버는 자신의 키로 서명해 `.org` 네임 서버에게 제공하고, `.org` 네임 서버 또한 자신의 키로 서명해 `privacyguides.org`의 권한 있는 서버에 제공합니다.
 
-<small>Adapted from [DNS Security Extensions (DNSSEC) overview](https://cloud.google.com/dns/docs/dnssec) by Google and [DNSSEC: An Introduction](https://blog.cloudflare.com/dnssec-an-introduction/) by Cloudflare, both licensed under [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/).</small> 
+<small>Google의 [DNS Security Extensions (DNSSEC) 개요](https://cloud.google.com/dns/docs/dnssec?hl=ko)와 Cloudflare의 [DNSSEC: An Introduction](https://blog.cloudflare.com/dnssec-an-introduction/)를 각색하였으며, 두 글은 모두 [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/) 라이선스를 따릅니다.</small> 
 
 
 
 ## QNAME 최소화란 무엇인가요?
 
-QNAME은 '정규화된 이름(Qualified Name)'입니다(예시: `privacyguides.org`). QNAME minimisation reduces the amount of information sent from the DNS server to the [authoritative name server](https://en.wikipedia.org/wiki/Name_server#Authoritative_name_server).
+QNAME은 '정규화된 이름(Qualified Name)'입니다(예시: `privacyguides.org`). QNAME 최소화(QNAME Minimization)는 DNS 서버로부터 [Authoritative Name Server(권한 있는 이름 서버)](https://en.wikipedia.org/wiki/Name_server#Authoritative_name_server)로 전송되는 정보의 양을 줄입니다.
 
-Instead of sending the whole domain `privacyguides.org`, QNAME minimization means the DNS server will ask for all the records that end in `.org`. Further technical description is defined in [RFC 7816](https://datatracker.ietf.org/doc/html/rfc7816).
+QNAME 최소화를 이용하면 DNS 서버가 `privacyguides.org`이라는 전체 도메인을 전송하는 것이 아닌, `.org`로 끝나는 모든 레코드를 요청하게 됩니다. 세부 기술 설명은 [RFC 7816](https://datatracker.ietf.org/doc/html/rfc7816)에 정의되어 있습니다.
 
 
 
 ## ECS(EDNS 클라이언트 서브넷)란 무엇인가요?
 
-The [EDNS Client Subnet](https://en.wikipedia.org/wiki/EDNS_Client_Subnet) is a method for a recursive DNS resolver to specify a [subnetwork](https://en.wikipedia.org/wiki/Subnetwork) for the [host or client](https://en.wikipedia.org/wiki/Client_(computing)) which is making the DNS query.
+[EDNS 클라이언트 서브넷](https://en.wikipedia.org/wiki/EDNS_Client_Subnet)이란, DNS 쿼리를 생성하는 [호스트나 클라이언트](https://ko.wikipedia.org/wiki/%ED%81%B4%EB%9D%BC%EC%9D%B4%EC%96%B8%ED%8A%B8_(%EC%BB%B4%ED%93%A8%ED%8C%85))의 [서브넷](https://ko.wikipedia.org/wiki/%EB%B6%80%EB%B6%84%EB%A7%9D)을 Recursive DNS 리졸버가 지정할 수 있는 방식입니다.
 
-It's intended to "speed up" delivery of data by giving the client an answer that belongs to a server that is close to them such as a [content delivery network](https://en.wikipedia.org/wiki/Content_delivery_network), which are often used in video streaming and serving JavaScript web apps.
+ECS는 동영상 스트리밍이나 JavaScript 웹 앱 서비스에 때 자주 쓰이는 [콘텐츠 전송 네트워크(CDN)](https://ko.wikipedia.org/wiki/%EC%BD%98%ED%85%90%EC%B8%A0_%EC%A0%84%EC%86%A1_%EB%84%A4%ED%8A%B8%EC%9B%8C%ED%81%AC)처럼 클라이언트와 가까운 서버의 응답을 제공하여 데이터 전송 속도를 높이는 기술입니다.
 
-This feature does come at a privacy cost, as it tells the DNS server some information about the client's location.
+단, ECS는 DNS 서버에 클라이언트의 위치에 관한 일부 정보를 알려주기 때문에 프라이버시 면에서 불이익이 존재합니다.

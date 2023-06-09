@@ -129,7 +129,7 @@ I telefoni Google Pixel sono gli unici dispositivi che attualmente soddisfano i 
     ![DivestOS logo](assets/img/android/divestos.svg){ align=right }
     
     **DivestOS** è un soft-fork di [LineageOS](https://lineageos.org/).
-    DivestOS eredita molti [dispositivi supportati] (https://divestos.org/index.php?page=devices&base=LineageOS) da LineageOS. Fornisce build firmate, che consentono di avere [verified boot](https://source.android.com/security/verifiedboot) su alcuni dispositivi non-Pixel.
+    DivestOS eredita molti [dispositivi supportati](https://divestos.org/index.php?page=devices&base=LineageOS) da LineageOS. Fornisce build firmate, che consentono di avere [verified boot](https://source.android.com/security/verifiedboot) su alcuni dispositivi non-Pixel.
     
     [:octicons-home-16: Pagina principale](https://divestos.org){ .md-button .md-button--primary }
     [:simple-torbrowser:](http://divestoseb5nncsydt7zzf5hrfg44md4bxqjs5ifcv4t7gt7u6ohjyyd.onion){ .card-link title="Servizi Onion" }
@@ -211,7 +211,7 @@ In questo sito raccomandiamo un'ampia gamma di applicazioni per Android. Le app 
 
 !!! warning "Attenzione"
 
-    Shelter è consigliato rispetto a [Insular](https://secure-system.gitlab.io/Insular/) e [Island](https://github.com/oasisfeng/island) perché supporta il [blocco della ricerca dei contatti] (https://secure-system.gitlab.io/Insular/faq.html).
+    Shelter è consigliato rispetto a [Insular](https://secure-system.gitlab.io/Insular/) e [Island](https://github.com/oasisfeng/island) perché supporta il [blocco della ricerca dei contatti](https://secure-system.gitlab.io/Insular/faq.html).
     
     Utilizzando Shelter, l'utente si affida completamente al suo sviluppatore, in quanto Shelter agisce come [amministratore del dispositivo](https://developer.android.com/guide/topics/admin/device-admin) per creare il profilo di lavoro e ha ampio accesso ai dati memorizzati all'interno del profilo di lavoro.
 
@@ -379,7 +379,7 @@ Se scarichi i file APK da installare manualmente, è possibile verificarne la fi
 
 ![Logo di F-Droid](assets/img/android/f-droid.svg){ align=right width=120px }
 
-**Non** raccomandiamo attualmente F-Droid come metodo per ottenere applicazioni.== F-Droid è spesso consigliato come alternativa a Google Play, in particolare nelle comunità sulla privacy. La possibilità di aggiungere repository di terze parti e di non essere confinati nel giardino recintato di Google ne ha determinato la popolarità. F-Droid ha inoltre [build riproducibili](https://f-droid.org/en/docs/Reproducible_Builds/) per alcune applicazioni ed è dedicato al software libero e open-source. Tuttavia, ci sono [problemi notevoli](https://privsec.dev/posts/android/f-droid-security-issues/) con il client ufficiale F-Droid, il loro controllo di qualità e il modo in cui costruiscono, firmano e pubblicano i pacchetti.
+==**Non** raccomandiamo attualmente F-Droid come metodo per ottenere applicazioni.== F-Droid è spesso consigliato come alternativa a Google Play, in particolare nelle comunità sulla privacy. La possibilità di aggiungere repository di terze parti e di non essere confinati nel giardino recintato di Google ne ha determinato la popolarità. F-Droid ha inoltre [build riproducibili](https://f-droid.org/en/docs/Reproducible_Builds/) per alcune applicazioni ed è dedicato al software libero e open-source. Tuttavia, ci sono [problemi notevoli](https://privsec.dev/posts/android/f-droid-security-issues/) con il client ufficiale F-Droid, il loro controllo di qualità e il modo in cui costruiscono, firmano e pubblicano i pacchetti.
 
 A causa del processo di costruzione delle app, le applicazioni presenti nel repository ufficiale di F-Droid sono spesso in ritardo con gli aggiornamenti. Inoltre i manutentori di F-Droid riutilizzano gli ID dei pacchetti mentre firmano le app con le proprie chiavi, il che non è l'ideale perché conferisce al team di F-Droid la massima fiducia.
 

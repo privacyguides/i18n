@@ -1,4 +1,4 @@
-# Community Code of Conduct
+# 커뮤니티 행동 강령
 
 **We pledge** to make our community a harassment-free experience for everyone.
 

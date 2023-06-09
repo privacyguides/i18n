@@ -156,9 +156,7 @@ Canary Mail è closed-source. Lo consigliamo a causa della scarsa scelta di clie
 
 !!! warning "Attenzione"
 
-    ![Kontact logo](assets/img/email-clients/kontact.svg){ align=right }
-    
-    **Kontact** è un'applicazione di gestione delle informazioni personali (PIM, personal information manager) del progetto [KDE](https://kde.org). Offre un client di posta, una rubrica, un'agenda e un client RSS.
+    Quando si risponde a qualcuno di una mailing list, l'opzione "rispondi" può includere anche la mailing list. Per maggiori informazioni visita le loro (https://github.com/thundernest/k-9/issues/3738).
 
 ### Kontact (KDE)
 

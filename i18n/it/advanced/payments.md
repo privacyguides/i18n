@@ -65,7 +65,7 @@ La maggior parte delle criptovalute utilizza una blockchain pubblica, il che sig
 
 Le transazioni anonime su una blockchain pubblica sono *teoricamente* possibili, e la wiki di Bitcoin [fornisce un esempio di transazione "completamente anonima"](https://en.bitcoin.it/wiki/Privacy#Example_-_A_perfectly_private_donation). Tuttavia, per farlo è necessaria una configurazione complicata che coinvolge Tor e il "solo-mining" di un blocco per generare criptovalute completamente indipendenti, una pratica che non è stata praticata da quasi nessun appassionato per molti anni.
 
-== La scelta migliore è quella di evitare del tutto queste criptovalute e di scegliere una che garantisca la privacy di default.== l'utilizzo di altre criptovalute non rientra nell'ambito di questo sito ed è fortemente sconsigliato.
+==La scelta migliore è quella di evitare del tutto queste criptovalute e di scegliere una che garantisca la privacy di default.== l'utilizzo di altre criptovalute non rientra nell'ambito di questo sito ed è fortemente sconsigliato.
 
 ### Custodia portafoglio
 

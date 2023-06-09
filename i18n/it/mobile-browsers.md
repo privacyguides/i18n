@@ -82,7 +82,7 @@ Le funzionalità di Shields possono essere ridotte per ogni sito se necessario; 
 
 - [x] Seleziona **Aggressivo** sotto Blocca tracker & pubblicità
 
-???? warning "Usa gli elenchi di filtri predefiniti"
+??? warning "Usa gli elenchi di filtri predefiniti"
         Brave ti consente di selezionare ulteriori filtri di contenuti mediante la pagina interna `brave://adblock`. Si consiglia di non utilizzare questa funzione e di mantenere gli elenchi di filtri predefiniti. il loro utilizzo ti distingue dagli altri utenti Brave, e potrebbe inoltre aumentare la superficie di attacco se esiste un exploit nel browser sfruttabile da codice malizioso presente nelle liste stesse.
 
 - [x] Seleziona **Aggiorna le connessioni a HTTPS**

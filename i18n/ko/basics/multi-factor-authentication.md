@@ -1,7 +1,7 @@
 ---
 title: "다중 인증"
 icon: 'material/two-factor-authentication'
-description: MFA is a critical security mechanism for securing your online accounts, but some methods are stronger than others.
+description: MFA는 온라인 계정을 보호하는 데에 있어서 중요한 보안 메커니즘이지만, 방식에 따라 보안성은 달라집니다.
 ---
 
 **다중 인증**(**MFA**, Multi-Factor Authentication)은 사용자 이름(혹은 이메일)과 비밀번호 입력 외에도 추가 단계를 거치는 보안 방식입니다. 가장 흔히 볼 수 있는 예시로는 문자 메시지나 앱으로 받는 시간 제한 인증 코드가 대표적입니다.
@@ -22,7 +22,7 @@ SMS나 이메일로 OTP 코드를 받는 방식은 MFA를 통한 계정 보호 �
 
 하지만 사람은 누구나 실수를 할 수 있고, 실수로 로그인을 승인할 위험성이 존재합니다. 일반적으로 푸시 알림 로그인 인증은 여러분의 *모든* 기기로 한꺼번에 전송되므로, 사용하는 기기가 많아질수록 MFA 코드의 철저한 관리는 어려워집니다.
 
-푸시 알림 MFA의 보안성은 앱의 품질, 서버 구성 요소, 앱 개발자의 신뢰도에 따라 달라집니다. Installing an app may also require you to accept invasive privileges that grant access to other data on your device. An individual app also requires that you have a specific app for each service which may not require a password to open, unlike a good TOTP generator app.
+푸시 알림 MFA의 보안성은 앱의 품질, 서버 구성 요소, 앱 개발자의 신뢰도에 따라 달라집니다. 어떤 앱은 설치할 때 기기의 다른 데이터에 접근하는 권한 등의 막대한 권한을 부여하도록 강제할 수도 있습니다. An individual app also requires that you have a specific app for each service which may not require a password to open, unlike a good TOTP generator app.
 
 ### TOTP(시간 기반 일회용 비밀번호)
 
@@ -108,11 +108,11 @@ TOTP 인증 앱을 사용하는 경우, 복구 키 혹은 앱 자체를 백업�
 
 보안 키를 구매했다면, 기본 자격 증명 변경, 보안 키 비밀번호 보호 설정, (지원하는 경우) 터치식 인증 확인 활성화를 진행해야 합니다. Products such as the YubiKey have multiple interfaces with separate credentials for each one of them, so you should go over each interface and set up protection as well.
 
-### Email and SMS
+### 이메일, SMS
 
 If you have to use email for MFA, make sure that the email account itself is secured with a proper MFA method.
 
-If you use SMS MFA, use a carrier who will not switch your phone number to a new SIM card without account access, or use a dedicated VoIP number from a provider with similar security to avoid a [SIM swap attack](https://en.wikipedia.org/wiki/SIM_swap_scam).
+SMS로 MFA를 사용할 경우에는 [SIM 스와핑 사기](https://en.wikipedia.org/wiki/SIM_swap_scam)를 주의해야 합니다. 계정에 접근하지 않고도 휴대폰 번호가 새로운 SIM 카드로 전환되는 통신사는 이용하지 말아야 합니다. 혹은 이런 류의 공격에 대한 보안 기능을 제공하는 제공 업체의 전용 VoIP 번호를 사용해야 합니다.
 
 [MFA tools we recommend](../multi-factor-authentication.md ""){.md-button}
 

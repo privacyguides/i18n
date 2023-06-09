@@ -62,13 +62,14 @@ Joplin non supporta la protezione con password/PIN per [l'applicazione stessa o 
         - [:simple-linux: Linux](https://standardnotes.com)
         - [:octicons-globe-16: Web](https://app.standardnotes.com/)
 
-### Org-mode
+### Cryptee
 
 !!! recommendation
 
-    ![Logo Org-mode](assets/img/notebooks/org-mode.svg){ align=right }
+    ![Logo Cryptee](./assets/img/notebooks/cryptee.svg#only-light){ align=right }
+    ![Logo Cryptee](./assets/img/notebooks/cryptee-dark.svg#only-dark){ align=right }
     
-    **Org-mode** è una [major mode](https://www.gnu.org/software/emacs/manual/html_node/elisp/Major-Modes.html) per GNU Emacs. Org-mode serve per prendere appunti, mantenere elenchi TODO, pianificare progetti e scrivere documenti con un sistema di testo semplice rapido ed efficace.
+    **Cryptee** è un editor di documenti E2EE open-source, basato sul web e un'applicazione per l'archiviazione di foto. Cryptee è una PWA, il che significa che funziona senza problemi su tutti i dispositivi moderni senza richiedere applicazioni native per ciascuna piattaforma.
     
     [:octicons-home-16: Pagina Principale](https://crypt.ee){ .md-button .md-button--primary }
     [:octicons-eye-16:](https://crypt.ee/privacy){ .card-link title="Politica sulla Privacy" }

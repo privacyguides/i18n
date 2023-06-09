@@ -107,7 +107,7 @@ Android 13:
 
 [직장 프로필](https://support.google.com/work/android/answer/6191949)은 개별 앱을 격리하는 방식 중 하나로, 경우에 따라서 별도 사용자 프로필을 사용하는 것보다 편리합니다.
 
-여러분이 별도로 해당 기능을 탑재한 커스텀 Android 운영 체제를 사용하는 것이 아닌 한, 엔터프라이즈 MDM 없이 직장 프로필을 생성하려면 [Shelter](#recommended-apps) 등의 **기기 컨트롤러** 앱을 사용해야 합니다.
+A **device controller** app such as [Shelter](../android.md#shelter) is required to create a Work Profile without an enterprise MDM, unless you're using a custom Android OS which includes one.
 
 직장 프로필은 기기 컨트롤러에 따라 작동 방식이 달라집니다. *File Shuttle*, *연락처 검색 차단*을 비롯한 모든 격리 기능은 컨트롤러에서 구현됩니다. 기기 컨트롤러는 직장 프로필 내부 데이터의 전체 접근 권한을 가지고 있으므로, 믿을 수 있는 기기 컨트롤러 앱을 사용해야 합니다.
 

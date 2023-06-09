@@ -1,7 +1,7 @@
 ---
 title: "일반적인 오해"
 icon: 'material/robot-confused'
-description: 프라이버시는 결코 간단하지 않고, 마케팅성 주장이나 기타 잘못된 정보에 현혹되기 쉽습니다.
+description: 프라이버시는 단순한 주제가 아닙니다. 홍보성 문구나 여타 잘못된 정보에 현혹당하지 않도록 조심해야 합니다.
 schema:
   - 
     "@context": https://schema.org
@@ -9,7 +9,7 @@ schema:
     mainEntity:
       - 
         "@type": Question
-        name: 오픈 소스 소포트웨어는 본질적으로 안전한가요?
+        name: 오픈 소스 소프트웨어는 본질적으로 안전한가요?
         acceptedAnswer:
           "@type": Answer
           text: |

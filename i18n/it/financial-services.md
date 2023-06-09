@@ -12,7 +12,7 @@ Effettuare pagamenti online è una delle maggiori sfide per la privacy. Questi s
 
 Esistono diversi servizi che forniscono "carte di debito virtuali" che si possono utilizzare con i negozi online senza rivelare i propri dati bancari o di fatturazione nella maggior parte dei casi. È importante sapere che questi servizi finanziari **non** sono anonimi e sono soggetti alle leggi "Know Your Customer" (KYC) e possono richiedere un documento d'identità o altre informazioni identificative. Questi servizi sono utili soprattutto per proteggere l'utente dalle violazioni dei dati dei negozi, dal tracciamento meno sofisticato o dalla correlazione degli acquisti da parte delle agenzie di marketing e dal furto di dati online; e **non** per effettuare un acquisto in modo completamente anonimo.
 
-!!! consiglio "Controlla la tua banca"
+!!! tip "Controlla la tua banca"
 
     Molte banche e fornitori di carte di credito offrono una funzionalità nativa di carte virtuali. Se sei cliente di una banca che offre già questa opzione, è preferibile usarla rispetto a questi altri servizi consigliati. In questo modo non affidate i vostri dati personali a più soggetti.
 

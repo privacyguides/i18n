@@ -17,9 +17,9 @@ cover: multi-factor-authentication.png
     
     One of the benefits of the YubiKey is that one key can do almost everything (YubiKey 5), you could expect from a hardware security key. We do encourage you to take the [quiz](https://www.yubico.com/quiz/) before purchasing in order to make sure you make the right choice.
     
-    [:octicons-home-16: Homepage](https://www.yubico.com){ .md-button .md-button--primary }
-    [:octicons-eye-16:](https://www.yubico.com/support/terms-conditions/privacy-notice){ .card-link title="Privacy Policy" }
-    [:octicons-info-16:](https://docs.yubico.com/){ .card-link title=Documentation}
+    [:octicons-home-16: 홈페이지](https://www.yubico.com){ .md-button .md-button--primary }
+    [:octicons-eye-16:](https://www.yubico.com/support/terms-conditions/privacy-notice){ .card-link title="프라이버시 정책" }
+    [:octicons-info-16:](https://docs.yubico.com/){ .card-link title=문서}
 
 The [comparison table](https://www.yubico.com/store/compare/) shows the features and how the YubiKeys compare. We highly recommend that you select keys from the YubiKey 5 Series.
 
@@ -38,9 +38,9 @@ For models which support HOTP and TOTP, there are 2 slots in the OTP interface w
     
     **Nitrokey** has a security key capable of [FIDO2 and WebAuthn](basics/multi-factor-authentication.md#fido-fast-identity-online) called the **Nitrokey FIDO2**. For PGP support, you need to purchase one of their other keys such as the **Nitrokey Start**, **Nitrokey Pro 2** or the **Nitrokey Storage 2**.
     
-    [:octicons-home-16: Homepage](https://www.nitrokey.com){ .md-button .md-button--primary }
-    [:octicons-eye-16:](https://www.nitrokey.com/data-privacy-policy){ .card-link title="Privacy Policy" }
-    [:octicons-info-16:](https://docs.nitrokey.com/){ .card-link title=Documentation}
+    [:octicons-home-16: 홈페이지](https://www.nitrokey.com){ .md-button .md-button--primary }
+    [:octicons-eye-16:](https://www.nitrokey.com/data-privacy-policy){ .card-link title="프라이버시 정책" }
+    [:octicons-info-16:](https://docs.nitrokey.com/){ .card-link title=문서}
 
 The [comparison table](https://www.nitrokey.com/#comparison) shows the features and how the Nitrokey models compare. The **Nitrokey 3** listed will have a combined feature set.
 
@@ -70,21 +70,21 @@ Nitrokey's firmware is open-source, unlike the YubiKey. The firmware on modern N
 
 #### 최소 요구 사항
 
-- Must use high quality, tamper resistant hardware security modules.
-- Must support the latest FIDO2 specification.
-- Must not allow private key extraction.
-- Devices which cost over $35 must support handling OpenPGP and S/MIME.
+- 고품질의 변조 방지 하드웨어 보안 모듈을 사용해야 합니다.
+- 최신 FIDO2 사양을 지원해야 합니다.
+- 개인 키 추출을 허용해서는 안 됩니다.
+- 가격이 $35 이상인 기기는 OpenPGP, S/MIME를 지원해야 합니다.
 
 #### 우대 사항
 
 평가 기준에서 '우대 사항'은 해당 부문에서 완벽한 프로젝트에 기대하는 바를 나타냅니다. 다음의 우대 사항에 해당하지 않더라도 권장 목록에 포함될 수 있습니다. 단, 우대 사항에 해당할수록 이 페이지의 다른 항목보다 높은 순위를 갖습니다.
 
-- Should be available in USB-C form-factor.
-- Should be available with NFC.
-- Should support TOTP secret storage.
-- Should support secure firmware updates.
+- USB-C 단자로 된 버전을 제공해야 합니다.
+- NFC를 지원해야 합니다.
+- TOTP 비밀 저장소(Secret Storage)를 지원해야 합니다.
+- 보안 펌웨어 업데이트를 지원해야 합니다.
 
-## Authenticator Apps
+## 인증 앱
 
 Authenticator Apps implement a security standard adopted by the Internet Engineering Task Force (IETF) called **Time-based One-time Passwords**, or **TOTP**. This is a method where websites share a secret with you which is used by your authenticator app to generate a six (usually) digit code based on the current time, which you enter while logging in for the website to check. Typically these codes are regenerated every 30 seconds, and once a new code is generated the old one becomes useless. Even if a hacker gets one six-digit code, there is no way for them to reverse that code to get the original secret or otherwise be able to predict what any future codes might be.
 
@@ -98,13 +98,13 @@ We highly recommend that you use mobile TOTP apps instead of desktop alternative
     
     **Aegis Authenticator** is a free, secure and open-source app to manage your 2-step verification tokens for your online services.
     
-    [:octicons-home-16: Homepage](https://getaegis.app){ .md-button .md-button--primary }
-    [:octicons-eye-16:](https://getaegis.app/aegis/privacy.html){ .card-link title="Privacy Policy" }
-    [:octicons-info-16:](https://github.com/beemdevelopment/Aegis/wiki){ .card-link title=Documentation}
-    [:octicons-code-16:](https://github.com/beemdevelopment/Aegis){ .card-link title="Source Code" }
-    [:octicons-heart-16:](https://www.buymeacoffee.com/beemdevelopment){ .card-link title=Contribute }
+    [:octicons-home-16: 홈페이지](https://getaegis.app){ .md-button .md-button--primary }
+    [:octicons-eye-16:](https://getaegis.app/aegis/privacy.html){ .card-link title="프라이버시 정책" }
+    [:octicons-info-16:](https://github.com/beemdevelopment/Aegis/wiki){ .card-link title=문서}
+    [:octicons-code-16:](https://github.com/beemdevelopment/Aegis){ .card-link title="소스 코드" }
+    [:octicons-heart-16:](https://www.buymeacoffee.com/beemdevelopment){ .card-link title=기부 }
     
-    ??? downloads
+    ??? downloads "다운로드"
     
         - [:simple-googleplay: Google Play](https://play.google.com/store/apps/details?id=com.beemdevelopment.aegis)
         - [:simple-github: GitHub](https://github.com/beemdevelopment/Aegis/releases)
@@ -117,12 +117,12 @@ We highly recommend that you use mobile TOTP apps instead of desktop alternative
     
     **Raivo OTP** is a native, lightweight and secure time-based (TOTP) & counter-based (HOTP) password client for iOS. Raivo OTP offers optional iCloud backup & sync. Raivo OTP is also available for macOS in the form of a status bar application, however the Mac app does not work independently of the iOS app.
     
-    [:octicons-home-16: Homepage](https://raivo-otp.com){ .md-button .md-button--primary }
-    [:octicons-eye-16:](https://raivo-otp.com/privacy-policy){ .card-link title="Privacy Policy" }
-    [:octicons-code-16:](https://github.com/raivo-otp/ios-application){ .card-link title="Source Code" }
-    [:octicons-heart-16:](https://raivo-otp.com/donate){ .card-link title=Contribute }
+    [:octicons-home-16: 홈페이지](https://raivo-otp.com){ .md-button .md-button--primary }
+    [:octicons-eye-16:](https://raivo-otp.com/privacy-policy){ .card-link title="프라이버시 정책" }
+    [:octicons-code-16:](https://github.com/raivo-otp/ios-application){ .card-link title="소스 코드" }
+    [:octicons-heart-16:](https://raivo-otp.com/donate){ .card-link title=기부 }
     
-    ??? downloads
+    ??? downloads "다운로드"
     
         - [:simple-appstore: App Store](https://apps.apple.com/us/app/raivo-otp/id1459042137)
 
@@ -134,7 +134,7 @@ We highly recommend that you use mobile TOTP apps instead of desktop alternative
 
     Privacy Guides 팀은 사이트의 모든 항목마다 명확한 평가 기준을 정립하는 중이며, 따라서 세부 내용은 변경될 수 있습니다. 평가 기준에 대해서 질문이 있다면 [포럼에서 문의](https://discuss.privacyguides.net/latest)하시기 바랍니다. (무언가가 목록에 존재하지 않다고 해서 권장 목록을 작성할 때 고려한 적이 없을 것으로 단정 짓지 마세요.) 권장 목록에 어떤 프로젝트를 추가할 때 고려하고 논의해야 할 요소는 매우 많으며, 모든 요소를 문서화하는 것은 현재 진행 중인 작업입니다.
 
-- Source code must be publicly available.
-- Must not require internet connectivity.
-- Must not sync to a third-party cloud sync/backup service.
-    - **Optional** E2EE sync support with OS-native tools is acceptable, e.g. encrypted sync via iCloud.
+- 소스 코드는 공개적으로 이용 가능해야 합니다.
+- 인터넷 연결 없이도 작동해야 합니다.
+- 제3자 클라우드 동기화/백업 서비스와 동기화하는 식으로 작동해서는 안 됩니다.
+    - **선택적인** (운영 체제 네이티브 툴을 이용한) E2EE 동기화 지원은 허용됩니다. 예시: 'iCloud를 통한 암호화 동기화'
