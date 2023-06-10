@@ -14,7 +14,7 @@ Mucha gente confunde los conceptos de **privacidad**, **seguridad**, y **anonima
 **Privacidad**
 :
 
-==La privacidad es la garantía de que tus datos sólo son vistos por las partes a las que van dirigidos. = En el contexto de la mensajería instantánea, por ejemplo, el cifrado de extremo a extremo proporciona privacidad al mantener tu mensaje visible sólo para ti y para el destinatario.
+==La privacidad es la garantía de que tus datos sólo son vistos por las partes a las que van dirigidos.== En el contexto de la mensajería instantánea, por ejemplo, el cifrado de extremo a extremo proporciona privacidad al mantener tu mensaje visible sólo para ti y para el destinatario.
 
 **Seguridad**
 :

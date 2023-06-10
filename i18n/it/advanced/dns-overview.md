@@ -262,15 +262,15 @@ Abbiamo creato questo diagramma di flusso per descrivere quando *dovresti* utili
 
 ``` mermaid
 graph TB
-    Inizio[Inizio] --> anonymous{Cerchi di<br> essere anonimo?}
-    anonymous--> | Sì | tor(Usa Tor)
-    anonymous --> | No | censorship{Evitare<br> la censura?}
+    Inizio[Inizio] --> anonymous{"Cerchi di<br> essere anonimo?"}
+    anonymous --> | Sì | tor(Usa Tor)
+    anonymous --> | No | censorship{"Evitare<br> la censura?"}
     censorship --> | Sì | vpnOrTor(Usa<br> VPN o Tor)
-    censorship --> | No | privacy{Vuoi privacy<br> dall'ISP?}
+    censorship --> | No | privacy{"Vuoi privacy<br> dall'ISP?"}
     privacy --> | Sì | vpnOrTor
-    privacy --> | No | obnoxious{ISP fa<br> reindirizzamenti<br> odiosi?}
+    privacy --> | No | obnoxious{"ISP fa<br> reindirizzamenti<br> odiosi?"}
     obnoxious --> | Sì | encryptedDNS(Usa<br> DNS criptato<br> di terze parti)
-    obnoxious --> | No | ispDNS{L'ISP supporta<br> DNS criptato?}
+    obnoxious --> | No | ispDNS{"L'ISP supporta<br> DNS criptato?"}
     ispDNS --> | Sì | useISP(Usa<br> DNS criptato<br> con l'ISP)
     ispDNS --> | No | nothing(Non fare nulla)
 ```

@@ -40,9 +40,9 @@ schema:
 
 ## "오픈소스 소프트웨어는 항상 안전하다" 또는 "독점 소프트웨어가 더 안전하다"
 
-이러한 오해는 여러가지 편견에서 비롯된 것이지만, 소스 코드가 공개되었는지와 사용하는 라이선스 그 자체만으로는 보안에 그 어떤 영향을 미치지 않습니다. ==오픈소스 소프트웨어는 독점 소프트웨어보다 보안이 더 좋을 *가능성*이 있지만, 반드시 그렇다는 보장은 없습니다. 소프트웨어에 대한 평가를 내릴 때에는 각 프로그램의 평판과 보안을 개별적으로 살펴보는 것이 좋습니다.
+이런 오해는 여러 편견에서 비롯된 것입니다. 소스 코드 공개 여부이나 라이선스 방식 자체는 보안에 어떠한 영향도 미치지 않습니다. ==오픈 소스 소프트웨어는 독점 소프트웨어보다 보안이 뛰어날 *가능성*이 존재하지만, 반드시 그러하리라는 보장은 없습니다.== 특정 소프트웨어를 평가할 때는 해당 소프트웨어의 평판과 보안을 개별적으로 판단해야 합니다.
 
-오픈소스 소프트웨어는 제 3자로부터 감사를 *받을 수 있고*, 독점 소프트웨어보다 잠재적인 취약점에 대해 더 공개적입니다. 또한, 코드를 직접 점검할 수 있고 원치 않는 기능들을 직접 비활성화할 수 있습니다. However, *unless you do so*, there is no guarantee that code has ever been evaluated, especially with smaller software projects. The open development process has also sometimes been exploited to introduce new vulnerabilities into even large projects.[^1]
+오픈 소스 소프트웨어는 제3자로부터 검증(감사)받는 것이 *가능하고*, 잠재적인 취약점을 취급하는 데에 있어서 독점 소프트웨어보다 투명하게 이루어지는 경우가 많습니다. 하고자 한다면 자신이 직접 코드를 검토할 수도 있으며, 의심스러운 기능은 비활성화 하는 것도 가능합니다. 하지만 이론상 가능한 것과는 별개로, (특히 소규모 소프트웨어 프로젝트일수록) 해당 코드가 검증되었다는 보장은 없습니다. 게다가 개방형 개발 프로세스를 악용하여 대규모 프로젝트에 새로운 취약점을 심는 경우도 있습니다.[^1]
 
 On the flip side, proprietary software is less transparent, but that doesn't imply that it's not secure. Major proprietary software projects can be audited internally and by third-party agencies, and independent security researchers can still find vulnerabilities with techniques like reverse engineering.
 

@@ -197,7 +197,7 @@ Se usi iCloud con la Protezione avanzata dei dati, consigliamo anche di controll
     [:octicons-info-16:](https://kb.adguard.com/ios){ .card-link title=Documentazione}
     [:octicons-code-16:](https://github.com/AdguardTeam/AdguardForiOS){ .card-link title="Codice sorgente" }
     
-    ??? download "Scaricare"
+    ??? downloads "Scaricare"
     
         - [:simple-appstore: App Store](https://apps.apple.com/app/apple-store/id1047223162)
 

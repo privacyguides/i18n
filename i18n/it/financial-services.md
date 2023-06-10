@@ -38,7 +38,7 @@ Privacy.com fornisce di default alla vostra banca informazioni sui commercianti 
     ![Logo MySudo](assets/img/financial-services/mysudo.svg#only-light){ align=right }
     ![Logo MySudo](assets/img/financial-services/mysudo-dark.svg#only-dark){ align=right }
     
-    **MySudo* * fornisce fino a 9 carte virtuali a seconda del piano acquistato. I loro piani a pagamento includono inoltre funzionalità che possono essere utili per effettuare acquisti in privato, come numeri di telefono e indirizzi e-mail virtuali, anche se in genere raccomandiamo altri [provider di aliasing e-mail] (email.md) per un uso prolungato dell'aliasing e-mail.
+    **MySudo** fornisce fino a 9 carte virtuali a seconda del piano acquistato. I loro piani a pagamento includono inoltre funzionalità che possono essere utili per effettuare acquisti in privato, come numeri di telefono e indirizzi e-mail virtuali, anche se in genere raccomandiamo altri [provider di aliasing e-mail] (email.md) per un uso prolungato dell'aliasing e-mail.
     
     [:octicons-home-16: Pagina Principale](https://mysudo.com/){ .md-button .md-button--primary }
     [:octicons-eye-16:](https://anonyome.com/privacy-policy/){ .card-link title="Politica sulla Privacy" }

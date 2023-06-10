@@ -1,5 +1,5 @@
 ---
-title: General Criteria
+title: 일반적인 평가 기준
 ---
 
 !!! example "Work in Progress"

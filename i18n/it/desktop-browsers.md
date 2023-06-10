@@ -74,7 +74,7 @@ Se hai bisogno di navigare in Internet in modo anonimo, dovresti invece usare [T
     [:octicons-info-16:](https://mullvad.net/en/help/tag/mullvad-browser/){ .card-link title=Documentazione}
     [:octicons-code-16:](https://gitlab.torproject.org/tpo/applications/mullvad-browser){ .card-link title="Codice sorgente" }
     
-    ??? download "Scaricare"
+    ??? downloads "Scaricare"
     
         - [:simple-windows11: Windows](https://mullvad.net/it/download/browser/windows)
         - [:simple-apple: macOS](https://mullvad.net/it/download/browser/macos)
@@ -210,7 +210,7 @@ Arkenfox mira solo a contrastare gli script di tracciamento di base o ingenui at
     [:octicons-info-16:](https://support.brave.com/){ .card-link title=Documentazione}
     [:octicons-code-16:](https://github.com/brave/brave-browser){ .card-link title="Codice sorgente" }
     
-    ??? download annotate "Scaricare"
+    ??? downloads annotate "Scaricare"
     
         - [:simple-github: GitHub](https://github.com/brave/brave-browser/releases)
         - [:simple-windows11: Windows](https://brave.com/download/)
@@ -322,7 +322,7 @@ In generale, si consiglia di ridurre al minimo le estensioni del browser; hanno 
     [:octicons-info-16:](https://github.com/gorhill/uBlock/wiki){ .card-link title=Documentazione}
     [:octicons-code-16:](https://github.com/gorhill/uBlock){ .card-link title="Codice sorgente" }
     
-    ??? download "Scaricare"
+    ??? downloads "Scaricare"
     
         - [:simple-firefoxbrowser: Firefox](https://addons.mozilla.org/firefox/addon/ublock-origin/)
         - [:simple-googlechrome: Chrome](https://chrome.google.com/webstore/detail/ublock-origin/cjpalhdlnbpafiamejdnhcphjbkeiagm)
