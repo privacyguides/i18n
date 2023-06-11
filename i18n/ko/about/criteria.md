@@ -2,7 +2,7 @@
 title: 일반적인 평가 기준
 ---
 
-!!! example "Work in Progress"
+!!! example "진행 중인 작업"
 
     본 페이지는 현재 작업 중이며, 현시점에 존재하는 모든 권장 사항에 반영되는 전체 평가 기준이 아닙니다. 본 주제 관련 예전 토론: [#24](https://github.com/privacyguides/privacyguides.org/discussions/24)
 

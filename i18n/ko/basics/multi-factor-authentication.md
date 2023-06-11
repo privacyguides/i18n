@@ -28,7 +28,7 @@ SMS나 이메일로 OTP 코드를 받는 방식은 MFA를 통한 계정 보호 �
 
 TOTP(시간 기반 일회용 비밀번호, Time-based One-time Password)는 널리 쓰이는 MFA 방식 중 하나입니다. 일반적으로 TOTP 설정은 사용하고자 하는 서비스에서 [QR 코드](https://ko.wikipedia.org/wiki/QR_%EC%BD%94%EB%93%9C)를 스캔하여 '[공유 비밀(Shared Secret)](https://en.wikipedia.org/wiki/Shared_secret)'을 설정하는 방식으로 이루어집니다. 공유 비밀은 인증 앱의 데이터 내부에서 보호되며, 간혹 비밀번호로 보호되는 경우도 있습니다.
 
-The time-limited code is then derived from the shared secret and the current time. As the code is only valid for a short time, without access to the shared secret, an adversary cannot generate new codes.
+시간 제한 코드는 공유 비밀과 현재 시간 정보를 기반으로 만들어집니다. 코드는 짧은 시간 동안만 유효하므로 공격자는 공유 비밀에 접근하지 않고서는 새로운 코드를 생성할 수 없습니다.
 
 TOTP를 지원하는 하드웨어 보안 키를 가지고 계실 경우, '공유 비밀'을 해당 하드웨어 보안 키에 저장하실 것을 권장드립니다. YubiKey 등의 하드웨어 보안 키는 '공유 비밀'을 추출하거나 복사하는 것을 어렵게 만들기 위해서 개발되었습니다. 또한, TOTP 앱이 설치된 휴대폰과 달리 YubiKey는 인터넷에 연결되어 있지 않기 때문에 더 안전합니다.
 
@@ -58,7 +58,7 @@ Yubico OTP는 일반적으로 하드웨어 보안 키로 구현되는 인증 프
 
 Yubico OTP는 TOTP와 비교했을 때 몇 가지 장단점이 있습니다.
 
-Yubico 유효성 검사 서버는 클라우드 기반 서비스입니다. 따라서 사용자는 그저 Yubico 측에서 데이터를 안전하게 저장하고, 사용자를 프로파일링하지 않을 것이라 믿고 있어야 합니다. 또한, Yubico OTP와 연결된 공개 ID는 모든 웹사이트에서 재사용되므로 제3자가 여러분을 프로파일링하는 수단으로 쓰일 수 있습니다. TOTP와 마찬가지로, Yubico OTP에서 피싱 방지 기능은 제공하지 않습니다.
+Yubico 유효성 검사 서버는 클라우드 기반 서비스입니다. 따라서 사용자는 그저 Yubico 측에서 데이터를 안전하게 저장하고 사용자를 프로파일링하지 않을 것이라 믿고 있어야 합니다. 또한 Yubico OTP와 연결된 공개 ID는 모든 웹사이트에서 재사용되므로 제3자가 여러분을 프로파일링하는 수단으로 쓰일 수 있습니다. TOTP와 마찬가지로 Yubico OTP는 피싱 방지 기능을 제공하지 않습니다.
 
 여러분의 위협 모델에 따라, '웹사이트마다 서로 다른 신원을 사용하고자 하는 경우'에는 여러 사이트에서 동일한 하드웨어 보안 키로 Yubico OTP를 사용해서는 **안 됩니다**. 각 보안 키는 고유한 공개 ID를 갖기 때문입니다.
 
@@ -68,7 +68,7 @@ Yubico 유효성 검사 서버는 클라우드 기반 서비스입니다. 따라
 
 U2F and FIDO2 refer to the [Client to Authenticator Protocol](https://en.wikipedia.org/wiki/Client_to_Authenticator_Protocol), which is the protocol between the security key and the computer, such as a laptop or phone. It complements WebAuthn which is the component used to authenticate with the website (the "Relying Party") you're trying to log in on.
 
-WebAuthn is the most secure and private form of second factor authentication. While the authentication experience is similar to Yubico OTP, the key does not print out a one-time password and validate with a third-party server. Instead, it uses [public key cryptography](https://en.wikipedia.org/wiki/Public-key_cryptography) for authentication.
+WebAuthn은 가장 안전하고 프라이버시 친화적인 형태의 이중 인증 방식입니다. 인증 편의성은 Yubico OTP와 비슷한 수준이지만, Yubico OTP와는 달리 일회용 비밀번호를 출력하거나 유효성 검증 과정에 제3자 서버가 끼어들지 않습니다. WebAuthn은 인증 과정에 [공개 키 암호화 방식](https://ko.wikipedia.org/wiki/%EA%B3%B5%EA%B0%9C_%ED%82%A4_%EC%95%94%ED%98%B8_%EB%B0%A9%EC%8B%9D)을 사용합니다.
 
 <figure markdown>
   ![FIDO](../assets/img/multi-factor-authentication/fido.png)
@@ -114,7 +114,7 @@ If you have to use email for MFA, make sure that the email account itself is sec
 
 SMS로 MFA를 사용할 경우에는 [SIM 스와핑 사기](https://en.wikipedia.org/wiki/SIM_swap_scam)를 주의해야 합니다. 계정에 접근하지 않고도 휴대폰 번호가 새로운 SIM 카드로 전환되는 통신사는 이용하지 말아야 합니다. 혹은 이런 류의 공격에 대한 보안 기능을 제공하는 제공 업체의 전용 VoIP 번호를 사용해야 합니다.
 
-[MFA tools we recommend](../multi-factor-authentication.md ""){.md-button}
+[권장 MFA 툴](../multi-factor-authentication.md ""){.md-button}
 
 ## More Places to Set Up MFA
 

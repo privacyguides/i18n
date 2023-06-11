@@ -10,9 +10,9 @@ cover: vpn.png
 
 <div class="grid cards" markdown>
 
-- ![IVPN logo](assets/img/vpn/mini/ivpn.svg){ .twemoji } [IVPN](#ivpn)
-- ![Mullvad logo](assets/img/vpn/mullvad.svg){ .twemoji } [Mullvad](#mullvad)
-- ![Proton VPN logo](assets/img/vpn/protonvpn.svg){ .twemoji } [Proton VPN](#proton-vpn)
+- ![Логотип IVPN](assets/img/vpn/mini/ivpn.svg){ .twemoji } [IVPN](#ivpn)
+- ![Логотип Mullvad](assets/img/vpn/mullvad.svg){ .twemoji } [Mullvad](#mullvad)
+- ![Логотип Proton VPN](assets/img/vpn/protonvpn.svg){ .twemoji } [Proton VPN](#proton-vpn)
 
 </div>
 
@@ -36,11 +36,16 @@ cover: vpn.png
 
 !!! recommendation
 
-    ![IVPN logo](assets/img/vpn/ivpn.svg){ align=right }
+    ![Логотип IVPN](assets/img/vpn/ivpn.svg){ align=right }
     
     **IVPN** — еще один платный VPN-провайдер, работающий с 2009 года. Выбор VPN-провайдера с ближайшим к вам сервером позволит снизить задержку передаваемого вами сетевого трафика.
     
-    Это происходит из-за более короткого маршрута (меньше промежуточных серверов) до пункта назначения. downloads
+    [:octicons-home-16: Домашняя страница](https://www.ivpn.net/){ .md-button .md-button--primary }
+    [:octicons-eye-16:](https://www.ivpn.net/privacy/){ .card-link title="Политика конфиденциальности" }
+    [:octicons-info-16:](https://www.ivpn.net/knowledgebase/general/){ .card-link title=Документация}
+    [:octicons-code-16:](https://github.com/ivpn){ .card-link title="Исходный код" }
+    
+    ??? скачать
     
         - [:simple-googleplay: Google Play](https://play.google.com/store/apps/details?id=net.ivpn.client)
         - [:octicons-moon-16: Accrescent](https://accrescent.app/app/net.ivpn.client)
@@ -80,29 +85,29 @@ IVPN [рекомендует](https://www.ivpn.net/wireguard/) использо�
 
 Удаленная [переадресация портов](https://en.wikipedia.org/wiki/Port_forwarding) возможна при тарифном плане Pro. Переадресация портов [может быть активирована](https://www.ivpn.net/knowledgebase/81/How-do-I-activate-port-forwarding.html) через клиентскую область. Переадресация портов в IVPN доступна только при использовании протоколов WireGuard или OpenVPN и [недоступна на серверах США](https://www.ivpn.net/knowledgebase/116/Port-forwarding-is-not-working-why.html).
 
-#### :material-check:{ .pg-green } Mobile Clients
+#### :material-check:{ .pg-green } Приложения для смартфонов
 
 Помимо обычных файлов конфигурации OpenVPN, IVPN предлагает приложения в [App Store](https://apps.apple.com/us/app/ivpn-serious-privacy-protection/id1193122683), [Google Play](https://play.google.com/store/apps/details?id=net.ivpn.client) и на [GitHub](https://github.com/ivpn/android-app/releases), позволяющие легко подключиться к их серверам.
 
-#### :material-information-outline:{ .pg-blue } Additional Functionality
+#### :material-information-outline:{ .pg-blue } Дополнительная функциональность
 
-IVPN clients support two factor authentication (Mullvad's clients do not). IVPN also provides "[AntiTracker](https://www.ivpn.net/antitracker)" functionality, which blocks advertising networks and trackers from the network level.
+Приложения IVPN поддерживают двухфакторную аутентификацию (приложения Mullvad - нет). IVPN также предоставляет функцию "[AntiTracker](https://www.ivpn.net/antitracker)", которая блокирует рекламу и трекеры на сетевом уровне.
 
 ### Mullvad
 
 !!! recommendation
 
-    ![Mullvad logo](assets/img/vpn/mullvad.svg){ align=right }
+    ![Логотип Mullvad](assets/img/vpn/mullvad.svg){ align=right }
     
-    **Mullvad** is a fast and inexpensive VPN with a serious focus on transparency and security. Выбор VPN-провайдера с ближайшим к вам сервером позволит снизить задержку передаваемого вами сетевого трафика. Это происходит из-за более короткого маршрута (меньше промежуточных серверов) до пункта назначения.
+    **Mullvad** - это быстрый и недорогой VPN с серьезным акцентом на прозрачность и безопасность. Выбор VPN-провайдера с ближайшим к вам сервером позволит снизить задержку передаваемого вами сетевого трафика. Это происходит из-за более короткого маршрута (меньше промежуточных серверов) до пункта назначения.
     
-    [:octicons-home-16: Homepage](https://mullvad.net){ .md-button .md-button--primary }
-    [:simple-torbrowser:](http://o54hon2e2vj6c7m3aqqu6uyece65by3vgoxxhlqlsvkmacw6a7m7kiad.onion){ .card-link title="Onion Service" }
-    [:octicons-eye-16:](https://mullvad.net/en/help/privacy-policy/){ .card-link title="Privacy Policy" }
-    [:octicons-info-16:](https://mullvad.net/en/help/){ .card-link title=Documentation}
-    [:octicons-code-16:](https://github.com/mullvad){ .card-link title="Source Code" }
+    [:octicons-home-16: Домашняя страница](https://mullvad.net){ .md-button .md-button--primary }
+    [:simple-torbrowser:](http://o54hon2e2vj6c7m3aqqu6uyece65by3vgoxxhlqlsvkmacw6a7m7kiad.onion){ .card-link title="Сервис Onion" }
+    [:octicons-eye-16:](https://mullvad.net/en/help/privacy-policy/){ .card-link title="Политика конфиденциальности" }
+    [:octicons-info-16:](https://mullvad.net/en/help/){ .card-link title=Документация}
+    [:octicons-code-16:](https://github.com/mullvad){ .card-link title="Исходный код" }
     
-    ??? downloads
+    ??? скачать
     
         - [:simple-googleplay: Google Play](https://play.google.com/store/apps/details?id=net.mullvad.mullvadvpn)
         - [:simple-appstore: App Store](https://apps.apple.com/app/mullvad-vpn/id1488466513)
@@ -111,12 +116,12 @@ IVPN clients support two factor authentication (Mullvad's clients do not). IVPN 
         - [:simple-apple: macOS](https://mullvad.net/en/download/macos/)
         - [:simple-linux: Linux](https://mullvad.net/en/download/linux/)
 
-#### :material-check:{ .pg-green } 41 Countries
+#### :material-check:{ .pg-green } 41 Страна
 
-Mullvad has [servers in 41 countries](https://mullvad.net/servers/).(1) Picking a VPN provider with a server nearest to you will reduce latency of the network traffic you send. Это происходит из-за более короткого маршрута (меньше промежуточных серверов) до пункта назначения.
+У Mullvad есть [серверы в 41 странах](https://mullvad.net/servers/).(1) Выбор VPN с ближайшим к вам сервером позволит снизить задержку передаваемого вами трафика. Это происходит из-за более короткого маршрута (меньше промежуточных серверов) до пункта назначения.
 { .annotate }
 
-1. Last checked: 2023-01-19
+1. Последняя проверка: 2023-01-19
 
 Мы также считаем, что для безопасности закрытых ключей VPN-провайдера ему следует использовать [выделенные серверы](https://ru.wikipedia.org/wiki/%D0%92%D1%8B%D0%B4%D0%B5%D0%BB%D0%B5%D0%BD%D0%BD%D1%8B%D0%B9_%D1%81%D0%B5%D1%80%D0%B2%D0%B5%D1%80), а не более дешевые виртуальные хостинги (которые разделены между несколькими клиентами), такие как [виртуальные частные серверы](https://ru.wikipedia.org/wiki/VPS).
 
@@ -154,11 +159,11 @@ Mullvad allows you to [access services hosted on IPv6](https://mullvad.net/en/bl
 
 Mullvad previously supported port forwarding, but removed the option in [May 2023](https://mullvad.net/en/blog/2023/5/29/removing-the-support-for-forwarded-ports/). Missing this feature could negatively impact certain applications, especially peer-to-peer applications like torrent clients.
 
-#### :material-check:{ .pg-green } Mobile Clients
+#### :material-check:{ .pg-green } Приложения для смартфонов
 
 Mullvad has published [App Store](https://apps.apple.com/app/mullvad-vpn/id1488466513) and [Google Play](https://play.google.com/store/apps/details?id=net.mullvad.mullvadvpn) clients, both supporting an easy-to-use interface as opposed to requiring you to manually configure your WireGuard connection. The Android client is also available on [GitHub](https://github.com/mullvad/mullvadvpn-app/releases).
 
-#### :material-information-outline:{ .pg-blue } Additional Functionality
+#### :material-information-outline:{ .pg-blue } Дополнительная функциональность
 
 Mullvad is very transparent about which nodes they [own or rent](https://mullvad.net/en/servers/). They use [ShadowSocks](https://shadowsocks.org/) in their ShadowSocks + OpenVPN configuration, making them more resistant against firewalls with [Deep Packet Inspection](https://en.wikipedia.org/wiki/Deep_packet_inspection) trying to block VPNs. Supposedly, [China has to use a different method to block ShadowSocks servers](https://github.com/net4people/bbs/issues/22). Mullvad's website is also accessible via Tor at [o54hon2e2vj6c7m3aqqu6uyece65by3vgoxxhlqlsvkmacw6a7m7kiad.onion](http://o54hon2e2vj6c7m3aqqu6uyece65by3vgoxxhlqlsvkmacw6a7m7kiad.onion).
 
@@ -212,11 +217,11 @@ Proton VPN [recommends](https://protonvpn.com/blog/wireguard/) the use of WireGu
 
 Proton VPN currently only supports remote [port forwarding](https://protonvpn.com/support/port-forwarding/) on Windows, which may impact some applications. Especially Peer-to-peer applications like Torrent clients.
 
-#### :material-check:{ .pg-green } Mobile Clients
+#### :material-check:{ .pg-green } Приложения для смартфонов
 
 In addition to providing standard OpenVPN configuration files, Proton VPN has mobile clients for [App Store](https://apps.apple.com/us/app/protonvpn-fast-secure-vpn/id1437005085), [Google Play](https://play.google.com/store/apps/details?id=ch.protonvpn.android&hl=en_US), and [GitHub](https://github.com/ProtonVPN/android-app/releases) allowing for easy connections to their servers.
 
-#### :material-information-outline:{ .pg-blue } Additional Functionality
+#### :material-information-outline:{ .pg-blue } Дополнительная функциональность
 
 Proton VPN clients support two factor authentication on all platforms except Linux at the moment. Proton VPN has their own servers and datacenters in Switzerland, Iceland and Sweden. They offer adblocking and known malware domains blocking with their DNS service. Additionally, Proton VPN also offers "Tor" servers allowing you to easily connect to onion sites, but we still strongly recommend using [the official Tor Browser](https://www.torproject.org/) for this purpose.
 

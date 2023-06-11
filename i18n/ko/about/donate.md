@@ -15,9 +15,9 @@ GitHub Sponsor 후원자 기능을 이미 사용하고 계신다면 해당 기�
 
 [GitHub에서 Sponsor 후원하기](https://github.com/sponsors/privacyguides ""){.md-button}
 
-HelloTux에서 상품을 구매하여 Privacy Guides를 후원하실 수도 있습니다. We get roughly $4 for every shirt sold, and you get a quality product to show for it.
+HelloTux에서 상품을 구매하여 Privacy Guides를 후원하실 수도 있습니다. 여러분은 좋은 품질의 제품을 구매해서 얻으실 수 있고, 저희는 판매된 셔츠 한 장 당 약 $4의 수익을 얻습니다.
 
-[Buy on HelloTux.com](https://hellotux.com/privacyguides){ class="md-button" }
+[HelloTux.com에서 구매하기](https://hellotux.com/privacyguides){ class="md-button" }
 
 ## 후원자
 

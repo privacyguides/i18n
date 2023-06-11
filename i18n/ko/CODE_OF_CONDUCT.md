@@ -1,22 +1,22 @@
 # 커뮤니티 행동 강령
 
-**We pledge** to make our community a harassment-free experience for everyone.
+**우리는 선서합니다.** 그 누구도 괴롭힘 받지 않는 커뮤니티를 만들기 위해 노력하겠습니다.
 
-**We strive** to create a positive environment, using welcoming and inclusive language, and being respectful of the viewpoints of others.
+**우리는 노력하겠습니다.** 긍정적인 환경을 조성하고, 따뜻하고 친절한 언어를 사용하고, 다른 사람의 의견을 존중하겠습니다.
 
-**We do not allow** inappropriate or otherwise unacceptable behavior, such as sexualized language, trolling and insulting comments, or otherwise promoting intolerance or harassment.
+**우리는 허용하지 않습니다.** 성적인 언행, 모욕적이거나 혐오적 혹은 차별적인 표현, 남을 괴롭히는 행위 등을 허용하지 않겠습니다.
 
-## Community Standards
+## 커뮤니티 규칙
 
-What we expect from members of our communities:
+커뮤니티 구성원에게 기대하는 바는 다음과 같습니다.
 
 1. **잘못된 정보를 퍼뜨리지 않습니다**
 
-      We are creating an evidence-based educational community around information privacy and security, not a home for conspiracy theories. For example, when making a claim that a certain piece of software is malicious or that certain telemetry data is privacy invasive, explain in detail what is collected and how it collected. Claims of this nature must be backed by technical evidence.
+      우리가 만들고자 하는 커뮤니티는 탄탄한 근거를 갖추고 교육적으로 구성된 프라이버시 및 보안 관련 커뮤니티입니다. 음모론 커뮤니티가 되길 원치 않습니다. 대표적인 예시로, 특정 소프트웨어가 악성 소프트웨어라고 주장하거나, 특정 텔레메트리 데이터가 프라이버시를 침해한다고 주장할 때는 정확히 무엇이 수집되며 어떤 방식으로 수집되는지 자세히 설명하세요. 이러한 주장은 반드시 기술적인 증거가 제시되어야 합니다.
 
 1. **선의를 악용하지 않습니다**
 
-      커뮤니티 구성원은 무료 기술 지원 상담사가 아닙니다. We are happy to help you with specific steps on your privacy journey if you are willing to put in effort on your end. 하지만 인터넷에서 검색해보기만 한다면 30초 안에 답을 얻을 수 있는 흔한 컴퓨터 문제에 대해 매번 답변해야 할 이유는 없습니다. Don't be a [help vampire](https://slash7.com/2006/12/22/vampires/).
+      커뮤니티 구성원은 무료 기술 지원 상담사가 아닙니다. 의지를 가지고 노력하시는 분에게는 기꺼이 자세한 도움을 제공해드릴 수 있습니다. 하지만 인터넷에서 검색해보기만 한다면 30초 안에 답을 얻을 수 있는 흔한 컴퓨터 문제에 대해 매번 답변해 드려야 할 이유는 없습니다. 커뮤니티를 좀먹는 [Help Vampire](https://slash7.com/2006/12/22/vampires/)가 되지 마세요.
 
 1. **긍정적이고 건설적인 방식으로 행동합니다**
 

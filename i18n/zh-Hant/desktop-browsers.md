@@ -16,7 +16,7 @@ schema:
     "@type": SoftwareApplication
     name: Mullvad Browser
     image: /assets/img/browsers/mullvad_browser.svg
-    url: https://mullvad.net/en/browser
+    url: https://mullvad.net/zh-hant/browser
     applicationCategory: Web Browser
     operatingSystem:
       - Windows
@@ -31,7 +31,7 @@ schema:
     name: Firefox
     image: /assets/img/browsers/firefox.svg
     url: https://firefox.com
-    sameAs: https://en.wikipedia.org/wiki/Firefox
+    sameAs: https://zh.wikipedia.org/wiki/Firefox
     applicationCategory: Web Browser
     operatingSystem:
       - Windows
@@ -46,7 +46,7 @@ schema:
     name: Brave
     image: /assets/img/browsers/brave.svg
     url: https://brave.com
-    sameAs: https://en.wikipedia.org/wiki/Brave_(web_browser)
+    sameAs: https://zh.wikipedia.org/wiki/Brave%E6%B5%8F%E8%A7%88%E5%99%A8
     applicationCategory: Web Browser
     operatingSystem:
       - Windows
@@ -65,16 +65,16 @@ schema:
 
 !!! recommendation
 
-    ! [Mullvad Browser logo] (assets/img/browsers/mullvad_browser.svg) {align = right}
+    ![Mullvad Browser logo](assets/img/browsers/mullvad_browser.svg){ align=right }
     
-    * * Mullvad 瀏覽器* *是移除 Tor 網路整合的[Tor 瀏覽器] (tor.md#tor-browser)版本，旨在為 VPN 用戶提供Tor 瀏覽器的反指紋辨識瀏覽器技術。 它由 Tor Porject 開發並由 [Mullvad](vpn.md#mullvad)發佈，且不需要使用 Mullvad 的 VPN。
+    **Mullvad 瀏覽器** 是移除 Tor 網路整合的[Tor 瀏覽器](tor.md#tor-browser)版本，旨在為 VPN 用戶提供Tor 瀏覽器的反指紋辨識瀏覽器技術。 它由 Tor Porject 開發並由 [Mullvad](vpn.md#mullvad)發佈，且不需要使用 Mullvad 的 VPN。
     
     [:octicons-home-16: Homepage](https://mullvad.net/en/browser){ .md-button .md-button--primary }
     [:octicons-eye-16:](https://mullvad.net/en/help/privacy-policy/){ .card-link title="Privacy Policy" }
     [:octicons-info-16:](https://mullvad.net/en/help/tag/mullvad-browser/){ .card-link title=Documentation}
     [:octicons-code-16:](https://gitlab.torproject.org/tpo/applications/mullvad-browser){ .card-link title="Source Code" }
     
-    ??? 下載
+    ??? downloads "下載"
     
         - [:simple-windows11: Windows](https://mullvad.net/en/download/browser/windows)
         - [:simple-apple: macOS](https://mullvad.net/en/download/browser/macos)
@@ -106,9 +106,9 @@ Mullvad Browser 將DuckDuckGo 設置為預設的 [搜索引擎](search-engines.m
 
 !!! recommendation
 
-    ! [Firefox標誌] (assets/img/browsers/firefox.svg) {align = right}
+    ![Firefox標誌](assets/img/browsers/firefox.svg){ align=right }
     
-    * * Firefox * *提供強大的隱私設定，例如[Enhanced Tracking Protection] (https://support.mozilla.org/kb/enhanced-tracking-protection-firefox-desktop) ，可以幫助阻止各種[類型的追蹤] (https://support.mozilla.org/kb/enhanced-tracking-protection-firefox-desktop#w_what-enhanced-tracking-protection-blocks)。
+    **Firefox** 提供強大的隱私設定，例如[Enhanced Tracking Protection](https://support.mozilla.org/kb/enhanced-tracking-protection-firefox-desktop) ，可以幫助阻止各種[類型的追蹤](https://support.mozilla.org/kb/enhanced-tracking-protection-firefox-desktop#w_what-enhanced-tracking-protection-blocks)。
     
     [:octicons-home-16: Homepage](https://firefox.com){ .md-button .md-button--primary }
     [:octicons-eye-16:](https://www.mozilla.org/privacy/firefox/){ .card-link title="Privacy Policy" }
@@ -116,14 +116,14 @@ Mullvad Browser 將DuckDuckGo 設置為預設的 [搜索引擎](search-engines.m
     [:octicons-code-16:](https://hg.mozilla.org/mozilla-central){ .card-link title="Source Code" }
     [:octicons-heart-16:](https://donate.mozilla.org/){ .card-link title=Contribute }
     
-    ??? 下載
+    ??? downloads "下載"
     
         - [:simple-windows11: Windows](https://www.mozilla.org/firefox/windows)
         - [:simple-apple: macOS](https://www.mozilla.org/firefox/mac)
         - [:simple-linux: Linux](https://www.mozilla.org/firefox/linux)
         - [:simple-flathub: Flathub](https://flathub.org/apps/details/org.mozilla.firefox)
 
-!!! 警告
+!!! warning "警告"
     Firefox 在 Mozilla 網站的下載中包含一個獨特的 [下載令牌](https://bugzilla.mozilla.org/show_bug.cgi?id=1677497#c0) ，並使用 Firefox 的遙測來發送令牌。 此令牌**not** 不包含在 [Mozilla FTP](https://ftp.mozilla.org/pub/firefox/releases/)版本。
 
 ### 建議配置
@@ -198,9 +198,9 @@ Arkenfox的目標只是通過Canvas隨機化和Firefox內置的指紋阻力配�
 
 !!! recommendation
 
-    ! [Brave logo] (assets/img/browsers/brave.svg) {align = right}
+    ![Brave logo](assets/img/browsers/brave.svg){ align=right }
     
-    * * Brave Browser * *內建內容封鎖程式和[隱私權功能] (https://brave.com/privacy-features/) ，其中許多功能預設已啟用。
+    **Brave Browser** 內建內容封鎖程式和[隱私權功能](https://brave.com/privacy-features/) ，其中許多功能預設已啟用。
     
     Brave 建立在 Chromium 瀏覽器專案，因此令人感到熟悉並且具有最小的網站兼容性問題。
     
@@ -210,7 +210,7 @@ Arkenfox的目標只是通過Canvas隨機化和Firefox內置的指紋阻力配�
     [:octicons-info-16:](https://support.brave.com/){ .card-link title=Documentation}
     [:octicons-code-16:](https://github.com/brave/brave-browser){ .card-link title="Source Code" }
     
-    ??? 下載 annotate
+    ??? downloads annotate "下載"
     
         - [:simple-github: GitHub](https://github.com/brave/brave-browser/releases)
         - [:simple-windows11: Windows](https://brave.com/download/)
@@ -311,16 +311,16 @@ Brave Web3 功能可能會增加瀏覽器指紋和攻擊面。 除非有用到�
 
 !!! recommendation
 
-    ! [uBlock Origin標誌] (assets/img/browsers/ublock_origin.svg) {align = right}
+    ![uBlock Origin標誌](assets/img/browsers/ublock_origin.svg){ align=right }
     
-    * * uBlock Origin * *是一個受歡迎的內容攔截程式，可以幫助您封鎖廣告、追蹤器和指紋腳本。
+    **uBlock Origin** 是一個受歡迎的內容攔截程式，可以幫助您封鎖廣告、追蹤器和指紋腳本。
     
     [:octicons-repo-16: Repository](https://github.com/gorhill/uBlock#readme){ .md-button .md-button--primary }
     [:octicons-eye-16:](https://github.com/gorhill/uBlock/wiki/Privacy-policy){ .card-link title="Privacy Policy" }
     [:octicons-info-16:](https://github.com/gorhill/uBlock/wiki){ .card-link title=Documentation}
     [:octicons-code-16:](https://github.com/gorhill/uBlock){ .card-link title="Source Code" }
     
-    ??? 下載
+    ??? downloads "下載"
     
         - [:simple-firefoxbrowser: Firefox](https://addons.mozilla.org/firefox/addon/ublock-origin/)
         - [:simple-googlechrome: Chrome](https://chrome.google.com/webstore/detail/ublock-origin/cjpalhdlnbpafiamejdnhcphjbkeiagm)
@@ -339,9 +339,9 @@ Brave Web3 功能可能會增加瀏覽器指紋和攻擊面。 除非有用到�
 
 **請注意，我們所推薦專案沒有任何瓜葛。 ** 除了 [標準準則](about/criteria.md)外，我們還發展出一套明確要求以提出客觀建議。 我們建議您在選擇使用項目之前先熟悉此列表，並進行自己的研究，以確保它是您的正確選擇。
 
-!!! 示例“此部分是新的”
+!!! example "此部分是新的"
 
-    我們正在努力為我們網站的每個部分建立定義的標準，這可能會有所變化。 如果您對我們的標準有任何疑問，請在[論壇上提問] (https://discuss.privacyguides.net/latest) ，如果沒有列出，請不要認為我們在提出建議時沒有考慮到某些事情。 當我們推薦一個項目時，有許多因素被考慮和討論，記錄每一個項目都是正在進行式。
+    我們正在努力為我們網站的每個部分建立定義的標準，這可能會有所變化。 如果您對我們的標準有任何疑問，請在[論壇上提問](https://discuss.privacyguides.net/latest) ，如果沒有列出，請不要認為我們在提出建議時沒有考慮到某些事情。 當我們推薦一個項目時，有許多因素被考慮和討論，記錄每一個項目都是正在進行式。
 
 ### 最低合格要求
 
@@ -358,10 +358,10 @@ Brave Web3 功能可能會增加瀏覽器指紋和攻擊面。 除非有用到�
 最佳案例標準代表了我們希望從這個類別的完美項目應具備的功能。 推薦產品可能沒有此功能，但若有這些功能則會讓排名更為提高。
 
 - 包括內置的內容攔截功能。
-- 支持cookie分割（ à la [Multi-Account Containers](https://support.mozilla.org/en-US/kb/containers)）。
+- 支持cookie分割（à la [Multi-Account Containers](https://support.mozilla.org/en-US/kb/containers)）。
 - 支援漸進式網絡應用程式(Progressive Web Apps)，  
   PWA 可讓您安裝某些網站，就像是電腦上的原生應用程式一樣。 這可能比安裝 Electron 應用程式更有優勢，因為您可以受益於瀏覽器定期安全更新。
-- 不包括不影響用戶隱私的附加功能( bloatware)。
+- 不包括不影響用戶隱私的附加功能(bloatware)。
 - 預設情況下不收集遙測。
 - 提供開源同步伺服器實作。
 - 預設為 [私密搜尋引擎](search-engines.md)。

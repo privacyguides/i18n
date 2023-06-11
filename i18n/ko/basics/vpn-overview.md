@@ -1,5 +1,5 @@
 ---
-meta_title: "How Do VPNs Protect Your Privacy? Our VPN Overview - Privacy Guides"
+meta_title: "VPN은 어떤 방식으로 프라이버시를 보호하나요? VPN 개요 - Privacy Guides"
 title: VPN 개요
 icon: material/vpn
 description: Virtual Private Networks shift risk away from your ISP to a third-party you trust. You should keep these things in mind.
@@ -19,7 +19,7 @@ VPNs cannot encrypt data outside of the connection between your device and the V
 
 However, they do hide your actual IP from a third-party service, provided that there are no IP leaks. They help you blend in with others and mitigate IP based tracking.
 
-## When shouldn't I use a VPN?
+## VPN을 사용하지 말아야 할 때는 언제인가요?
 
 Using a VPN in cases where you're using your [known identity](common-threats.md#common-misconceptions) is unlikely be useful.
 
@@ -43,9 +43,9 @@ Needless to say, **you shouldn't use encrypted DNS with Tor**. This would direct
 
 By using a VPN with Tor, you're creating essentially a permanent entry node, often with a money trail attached. This provides zero additional benefits to you, while increasing the attack surface of your connection dramatically. If you wish to hide your Tor usage from your ISP or your government, Tor has a built-in solution for that: Tor bridges. [Read more about Tor bridges and why using a VPN is not necessary](../advanced/tor-overview.md).
 
-## What if I need anonymity?
+## 익명성이 필요하다면 어떻게 해야 하나요?
 
-VPNs cannot provide anonymity. Your VPN provider will still see your real IP address, and often has a money trail that can be linked directly back to you. You cannot rely on "no logging" policies to protect your data. Use [Tor](https://www.torproject.org/) instead.
+VPNs cannot provide anonymity. Your VPN provider will still see your real IP address, and often has a money trail that can be linked directly back to you. You cannot rely on "no logging" policies to protect your data. VPN 대신 [Tor](https://www.torproject.org/)를 사용하세요.
 
 ## What about VPN providers that provide Tor nodes?
 

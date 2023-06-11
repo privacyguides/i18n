@@ -5,7 +5,7 @@ icon: 'material/shield-account'
 
 현대 사회에서는 디지털 데이터가 온갖 곳에서 남용되고 있습니다. 디지털 프라이버시의 중요성은 그 어느때보다 높아졌지만, 많은 사람들은 이제와서 자신이 할 수 있는 것은 없다고 생각하는 경향이 있습니다. 하지만 실제로는 그렇지 않습니다. ==자신의 프라이버시는 자신의 행동에 달려있습니다.== 즉, 여러분은 프라이버시에 관심을 갖고 신경을 써야 합니다. 프라이버시는 권리입니다. 이 권리를 타인의 손에 넘겨주어서는 안 됩니다.
 
-Privacy is ultimately about human information, and this is important because we know that human information confers power over human beings. If we care about our ability to be authentic, fulfilled, and free humans, we have to care about the rules that apply to information about us. So much of our modern society is structured around **information**. When you shop online, read the news, look something up, vote, seek directions, or really anything else, you are relying on information. If we live in an information society, our information matters, and therefore privacy matters.
+Privacy is ultimately about human information, and this is important because we know that human information confers power over human beings. 여러분이 진정으로 자유로운 인간으로서 존재하기를 원한다면, 여러분은 자신의 정보가 어떻게 취급되는지에 대해 관심을 가져야 합니다. **정보**는 현대 사회의 근간을 이루고 있습니다. 온라인 쇼핑, 뉴스 확인, 자료 검색, 길 찾기 등 우리가 하는 모든 활동은 정보에 의존하고 있습니다. If we live in an information society, our information matters, and therefore privacy matters.
 
 ## '프라이버시'란?
 
@@ -42,13 +42,13 @@ All of these concepts overlap, but it is possible to have any combination of the
 
 ## 프라이버시는 결국 '통제'인가요?
 
-(디지털) 프라이버시의 일반적인 정의는 '자신에 대한 정보를 자신이 관리하고 **통제**할 수 있는 권리'입니다. 따라서 프라이버시를 '통제'로 생각하게 되는 것은 자연스럽습니다. 실제로 저희는 이런 생각을 가지고 본 웹사이트를 오랫동안 운영해 왔습니다. It sounds nice, and it appeals to many people, but in practice it just doesn't work.
+(디지털) 프라이버시의 일반적인 정의는 '자신에 대한 정보를 자신이 관리하고 **통제**할 수 있는 권리'입니다. 따라서 프라이버시를 '통제'로 생각하게 되는 것은 자연스럽습니다. 실제로 저희도 이런 생각을 가지고 본 웹사이트를 오랫동안 운영해 왔습니다. 하지만 이런 생각은 실질적으로는 그다지 효과적이지 않습니다.
 
-Take cookie consent forms, for example. You may encounter these dozens of times per day on the various websites you visit, with a nice array of checkboxes and sliders which allow you to "curate" your preferences to exactly fit your needs. In the end, we just hit the "I Agree" button, because we just want to read the article or make a purchase. Nobody wants to complete a personal privacy audit on every single website they visit. This is an exercise in [choice architecture](https://en.wikipedia.org/wiki/Choice_architecture), designed to make you take the easy route out instead of delving into a maze of configuration options that don't need to exist in the first place.
+쿠키 동의 팝업을 생각해보세요. 여러 글로벌 웹사이트를 돌아다니다 보면 하루에도 수십 번씩 만나게 되는 이것은, 다양한 체크박스나 슬라이더를 통해 자신의 필요에 맞게 설정을 '타협'할 수 있습니다. 하지만 결국 '동의' 버튼을 눌러야 하죠. 글을 읽거나 물건을 구매하려면 그리해야 하니까요. 방문하는 모든 웹사이트마다 세부적인 프라이버시 조항을 검토하기를 원하는 사람은 없습니다. This is an exercise in [choice architecture](https://en.wikipedia.org/wiki/Choice_architecture), designed to make you take the easy route out instead of delving into a maze of configuration options that don't need to exist in the first place.
 
-==Control over your privacy inside most apps is an illusion.== It's a shiny dashboard with all sorts of choices you can make about your data, but rarely the choices you're looking for, like "only use my data to help me." This type of control is meant to make you feel guilty about your choices, that you "had the choice" to make the apps you use more private, and you chose not to.
+==대부분의 앱에서, 자신의 프라이버시를 통제할 수 있을 것이라는 생각은 환상에 불과합니다.== 사용자 데이터에 관한 각종 옵션이 즐비한 대시보드는 존재하지만 "제 데이터를 제게 도움이 되는 방향으로만 사용하세요"같이 정작 우리가 원하는 옵션은 존재하지 않습니다. This type of control is meant to make you feel guilty about your choices, that you "had the choice" to make the apps you use more private, and you chose not to.
 
-Privacy is something we need to have baked into the [software and services](../tools.md) we use by default, you can't bend most apps into being private on your own.
+프라이버시는 우리가 사용하는 [소프트웨어 및 서비스](../tools.md)에 기본적으로 내장되어 있어야 하는 것입니다. 사용자 개개인의 힘만으로는 직접 수많은 앱을 프라이버시 친화적이도록 수정하는 것은 불가능합니다.
 
 ## 출처
 
