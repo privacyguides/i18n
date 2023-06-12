@@ -61,7 +61,7 @@ Some of these threats may be more important to you than others, depending on you
 
 К счастью, сквозное шифрование (далее - E2EE) может облегчить эту проблему, шифруя сообщения между вами и желаемыми получателями еще до того, как они будут отправлены на сервер. Конфиденциальность ваших сообщений гарантирована при условии, что поставщик услуг не имеет доступа к закрытым ключам ни одной из сторон.
 
-!!! note "Note on Web-based Encryption"
+!!! note "Примечание о шифровании на основе веб-технологий"
 
     На практике эффективность различных реализаций E2EE может варьироваться. Приложения, такие как [Signal](../real-time-communication.md#signal), работают на вашем устройстве, и каждая копия приложения является одинаковой при различных установках. Если поставщик услуг внедрит [backdoor](https://ru.wikipedia.org/wiki/%D0%91%D1%8D%D0%BA%D0%B4%D0%BE%D1%80) в свое приложение - в попытке украсть ваши закрытые ключи - это можно будет обнаружить с помощью [reverse engineering] (https://ru.wikipedia.org/wiki/%D0%9E%D0%B1%D1%80%D0%B0%D1%82%D0%BD%D0%B0%D1%8F_%D1%80%D0%B0%D0%B7%D1%80%D0%B0%D0%B1%D0%BE%D1%82%D0%BA%D0%B0).
     
@@ -91,13 +91,13 @@ Governments often justify mass surveillance programs as necessary means to comba
 
 Despite growing mass surveillance in the United States, the government has found that mass surveillance programs like Section 215 have had "little unique value" with respect to stopping actual crimes or terrorist plots, with efforts largely duplicating the FBI's own targeted surveillance programs.[^2]
 
-Online, you can be tracked via a variety of methods:
+В Интернете тебя можно отследить по различным параметрам:
 
-- Your IP address
-- Browser cookies
-- The data you submit to websites
-- Your browser or device fingerprint
-- Payment method correlation
+- Твой IP адрес
+- Файлы cookie в браузере
+- Данные, которые ты предоставляешь на веб-сайтах
+- Цифровой отпечаток твоего браузера или устройства
+- Корреляция способов оплаты
 
 \[This list isn't exhaustive].
 

@@ -155,23 +155,23 @@ In general, we define office suites as applications which could reasonably act a
     [:octicons-info-16:](https://github.com/PrivateBin/PrivateBin/wiki/FAQ){ .card-link title=Documentation}
     [:octicons-code-16:](https://github.com/PrivateBin/PrivateBin){ .card-link title="Source Code" }
 
-### Criteria
+### Критерии
 
-**Please note we are not affiliated with any of the projects we recommend.** In addition to [our standard criteria](about/criteria.md), we have developed a clear set of requirements to allow us to provide objective recommendations. We suggest you familiarize yourself with this list before choosing to use a project, and conduct your own research to ensure it's the right choice for you.
+**Обрати внимание, что у нас нет связей ни с одним проектом, который мы рекомендуем.** В дополнение к [нашим стандартным критериям](about/criteria.md) мы разработали четкий набор требований, позволяющий давать объективные рекомендации. Мы рекомендуем тебе ознакомиться с этим списком, прежде чем выбрать продукт, и провести собственное исследование, чтобы убедиться в правильности своего выбора.
 
 !!! Для уменьшения этой угрозы рассмотрите возможность самостоятельного хостинга.
 
-    We are working on establishing defined criteria for every section of our site, and this may be subject to change. If you have any questions about our criteria, please [ask on our forum](https://discuss.privacyguides.net/latest) and don't assume we didn't consider something when making our recommendations if it is not listed here. Мы учитываем и обсуждаем много факторов, перед тем как рекомендовать какой-то проект, и документирование каждого из них ещё не завершено.
+    Мы пока работаем над установлением определенных критериев для каждого раздела нашего сайта, и они могут поменяться в будущем. Если у тебя есть какие-нибудь вопросы по поводу наших критериев, пожалуйста, [задавай их на нашем форуме](https://discuss.privacyguides.net/latest) и не думай, что мы не учли что-то при составлении наших рекомендаций, если это не указано здесь. Мы учитываем и обсуждаем много факторов, перед тем как рекомендовать какой-то проект, и документирование каждого из них ещё не завершено.
 
-#### Минимальные требования к сервисам
+#### Минимальные требования
 
-- Must be open-source.
-- Must implement "zero-trust" end-to-end encryption.
-- Must support password-protected files.
+- Должен быть с открытым исходным кодом.
+- Должно быть реализовано сквозное шифрование "с нулевым доверием".
+- Должен поддерживать файлы, защищенные паролем.
 
 
 #### В лучшем случае
 
 Эти критерии представляют собой то, что мы хотели бы видеть от идеального проекта в этой категории. Наши рекомендации могут не соответствовать всем или нескольким из этих критериев, но проекты, которые им соответствуют, расположены выше остальных.
 
-- Should have a published audit from a reputable, independent third-party.
+- Должен иметь опубликованный аудит от авторитетной, независимой третьей стороны.

@@ -47,9 +47,9 @@ schema:
 
 !!! recommendation
 
-    ! [Brave logo] (assets/img/browsers/brave.svg) {align = right}
+    ![Brave logo](assets/img/browsers/brave.svg){ align=right }
     
-    * * Brave Browser * *內建內容封鎖程式和[隱私權功能] (https://brave.com/privacy-features/) ，其中許多功能預設已啟用。
+    **Brave Browser** 內建內容封鎖程式和[隱私權功能](https://brave.com/privacy-features/) ，其中許多功能預設已啟用。
     
     Brave 建立在 Chromium 瀏覽器專案，因此令人感到熟悉並且具有最小的網站兼容性問題。
     
@@ -59,7 +59,7 @@ schema:
     [:octicons-info-16:](https://support.brave.com/){ .card-link title=Documentation}
     [:octicons-code-16:](https://github.com/brave/brave-browser){ .card-link title="Source Code" }
     
-    ??? 下載說明
+    ??? downloads anotate "下載"
     
         - [:simple-googleplay: Google Play](https://play.google.com/store/apps/details?id=com.brave.browser)
         - [:simple-github: GitHub](https://github.com/brave/brave-browser/releases)
@@ -85,10 +85,10 @@ Shields 可以選擇根據需要依各網站情況降級，但我們建議預設
     ??? warning "使用預設過濾器列表"
         Brave 允許您在內部 `brave://adblock`頁面中選擇其他內容過濾器。 我們建議您不要使用此功能；請保留預設的篩選條件清單。 使用額外清單將使您在一般 Brave 用戶中被突顯出來，如果Brave有漏洞，並將惡意規則添加到您使用的清單中，也可能會增加攻擊面。
 
-- [x] 選擇 ** 昇級使用 HTTPS 連接 **
-- [x] 選擇 ** 一直使用安全連接 **
-- [x] (可選的) 選擇 * * 封鎖腳本 ** (1)
-- [x] ** Block fingerprinting ** 選擇 **嚴格(可能會打斷網站)* *
+- [x] 選擇 **昇級使用 HTTPS 連接**
+- [x] 選擇 **一直使用安全連接**
+- [x] (可選的) 選擇 **封鎖腳本** (1)
+- [x] **Block fingerprinting** 選擇 **嚴格(可能會打斷網站)**
 
 </div>
 
@@ -130,7 +130,7 @@ Shields 可以選擇根據需要依各網站情況降級，但我們建議預設
 
 !!! recommendation
 
-    ! [Safari logo] (assets/img/browsers/safari.svg) {align = right}
+    ![Safari logo](assets/img/browsers/safari.svg){ align=right }
     
     * * Safari * *是iOS 預設瀏覽器。 它包括[隱私權功能] (https://support.apple.com/guide/iphone/browse-the-web-privately-iphb01fc3c85/15.0/ios/15.0) ，例如智慧追蹤保護、隱私權報告、獨立的私人瀏覽標籤、iCloud 私人中繼和自動HTTPS  升級。
     

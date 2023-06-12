@@ -153,11 +153,11 @@ Mullvad [recommends](https://mullvad.net/en/help/why-wireguard/) the use of Wire
 
 #### :material-check:{ .pg-green } IPv6 Support
 
-Mullvad allows you to [access services hosted on IPv6](https://mullvad.net/en/blog/2014/9/15/ipv6-support/), as opposed to other providers which block IPv6 connections.
+Mullvad позволяет вам [получить доступ к сервисам, размещенным на IPv6](https://mullvad.net/en/blog/2014/9/15/ipv6-support/), в отличие от других провайдеров, которые блокируют IPv6-соединения.
 
 #### :material-alert-outline:{ .pg-orange } Remote Port Forwarding
 
-Mullvad previously supported port forwarding, but removed the option in [May 2023](https://mullvad.net/en/blog/2023/5/29/removing-the-support-for-forwarded-ports/). Missing this feature could negatively impact certain applications, especially peer-to-peer applications like torrent clients.
+Mullvad ранее поддерживал переадресацию портов, но убрал эту возможность в [May 2023](https://mullvad.net/en/blog/2023/5/29/removing-the-support-for-forwarded-ports/). Отсутствие этой функции может негативно сказаться на некоторых приложениях, особенно на пиринговых приложениях, таких как торрент-клиенты.
 
 #### :material-check:{ .pg-green } Приложения для смартфонов
 
@@ -213,7 +213,7 @@ Mullvad поддерживает протокол WireGuard®. [WireGuard](https
 
 Proton VPN [recommends](https://protonvpn.com/blog/wireguard/) the use of WireGuard with their service. On Proton VPN's Windows, macOS, iOS, Android, ChromeOS, and Android TV apps, WireGuard is the default protocol; however, [support](https://protonvpn.com/support/how-to-change-vpn-protocols/) for the protocol is not present in their Linux app.
 
-#### :material-alert-outline:{ .pg-orange } Remote Port Forwarding
+#### :material-alert-outline:{ .pg-orange } Удаленная переадресация портов
 
 Proton VPN currently only supports remote [port forwarding](https://protonvpn.com/support/port-forwarding/) on Windows, which may impact some applications. Especially Peer-to-peer applications like Torrent clients.
 

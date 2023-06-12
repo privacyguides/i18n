@@ -15,9 +15,9 @@ title: Поддержать нас
 
 [Спонсировать нас на GitHub](https://github.com/sponsors/privacyguides ""){.md-button}
 
-Another option to support us is by buying our merchandise from HelloTux. We get roughly $4 for every shirt sold, and you get a quality product to show for it.
+Еще один способ поддержать нас - это купить наш мерч на HelloTux. Мы получаем примерно 4 доллара за каждую проданную футболку, а вы получаете качественный продукт.
 
-[Buy on HelloTux.com](https://hellotux.com/privacyguides){ class="md-button" }
+[Купить на HelloTux.com](https://hellotux.com/privacyguides){ class="md-button" }
 
 ## Спонсоры
 

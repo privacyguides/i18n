@@ -44,7 +44,7 @@ Joplin [не поддерживает](https://github.com/laurent22/joplin/issue
 
     ![Логотип Standard Notes](assets/img/notebooks/standard-notes.svg){ align=right }
     
-    **Standard Notes** - это простое и приватное приложение для заметок, которое делает ваши заметки легкими и доступными везде, где бы вы ни находились. Приложение имеет E2EE на каждой платформе, а также продвинутую систему работы с темами и пользовательскими редакторами. It has also been [independently audited](https://standardnotes.com/help/2/has-standard-notes-completed-a-third-party-security-audit).
+    **Standard Notes** - это простое и приватное приложение для заметок, которое делает ваши заметки легкими и доступными везде, где бы вы ни находились. Приложение имеет E2EE на каждой платформе, а также продвинутую систему работы с темами и пользовательскими редакторами. Он также прошел [независимый аудит] (https://standardnotes.com/help/2/has-standard-notes-completed-a-third-party-security-audit).
     
     [:octicons-home-16: Домашняя страница](https://standardnotes.com){ .md-button .md-button--primary }
     [:octicons-eye-16:](https://standardnotes.com/privacy){ .card-link title="Политика конфиденциальности" }

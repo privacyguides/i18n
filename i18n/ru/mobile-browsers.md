@@ -172,7 +172,7 @@ Safari's Private Browsing mode offers additional privacy protections. Private Br
 
 Do note that Private Browsing does not save cookies and website data, so it won't be possible to remain signed into sites. This may be an inconvenience.
 
-##### iCloud Sync
+##### Синхронизация iCloud
 
 Synchronization of Safari History, Tab Groups, iCloud Tabs and saved passwords are E2EE. However, by default, bookmarks are [not](https://support.apple.com/en-us/HT202303). Apple can decrypt and access them in accordance with their [privacy policy](https://www.apple.com/legal/privacy/en-ww/).
 

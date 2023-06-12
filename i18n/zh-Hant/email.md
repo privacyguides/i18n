@@ -28,19 +28,19 @@ cover: email.png
 
 </div>
 
-!!! 警告
+!!! warning "警告"
 
-    當使用像 OpenPGP 這類 E2EE 技術時，電子郵件仍然會有一些未加密的元數據。 閱讀更多有關[電子郵件元數據] (basics/email-security.md#email-metadata-overview)的資訊。
+    當使用像 OpenPGP 這類 E2EE 技術時，電子郵件仍然會有一些未加密的元數據。 閱讀更多有關[電子郵件元數據](basics/email-security.md#email-metadata-overview)的資訊。
     
-    OpenPGP 也不支持前向保密，這意味著如果你或收件人的私鑰被盜，所有以前用它加密的消息都會洩露。 [如何保護我的私鑰？] (basics/email-security.md#how-do-i-protect-my-private-keys)
+    OpenPGP 也不支持前向保密，這意味著如果你或收件人的私鑰被盜，所有以前用它加密的消息都會洩露。 [如何保護我的私鑰？](basics/email-security.md#how-do-i-protect-my-private-keys)
 
 ### Proton Mail
 
 !!! recommendation
 
-    ! [Proton Mail logo] (assets/img/email/protonmail.svg) {align = right}
+    ![Proton Mail logo](assets/img/email/protonmail.svg){ align=right }
     
-    * * Proton Mail * *是一家專注於隱私、加密、安全性和易用性的電子郵件服務。 自* * 2013 年* *開始運營。 Proton AG 總部位於瑞士日內瓦。 免費帳戶有 500 MB 的存儲j容量。
+    **Proton Mail** 是一家專注於隱私、加密、安全性和易用性的電子郵件服務。 自* * 2013 年* *開始運營。 Proton AG 總部位於瑞士日內瓦。 免費帳戶有 500 MB 的存儲j容量。
     
     [:octicons-home-16: Homepage](https://proton.me/mail){ .md-button .md-button--primary }
     [:simple-torbrowser:](https://protonmailrmez3lotccipshtkleegetolb73fuirgj7r4o4vfu7ozyd.onion){ .card-link title="Onion Service" }
@@ -48,7 +48,7 @@ cover: email.png
     [:octicons-info-16:](https://proton.me/support/mail){ .card-link title=Documentation}
     [:octicons-code-16:](https://github.com/ProtonMail){ .card-link title="Source Code" }
     
-    ??? 下載
+    ??? downloads "下載"
     
         - [:simple-googleplay: Google Play] (https://play.google.com/store/apps/details?id=ch.protonmail.android)
         - [:simple-appstore: App Store] (https://apps.apple.com/app/apple-store/id979659905)
@@ -103,15 +103,15 @@ Proton Mail不提供數字遺產功能。
 
 !!! recommendation
 
-    ! [Mailbox.org 標誌] (assets/img/email/mailboxorg.svg) {align = right}
+    ![Mailbox.org 標誌](assets/img/email/mailboxorg.svg){ align=right }
     
-    * * Mailbox.org * *電子郵件服務，專注於安全、無廣告和使用 100% 民間環保發電能源。 自* * 2014 年* *開始運營。 Mailbox.org總部位於德國柏林。 初級帳戶有 2GB 儲存空間，可以根據需要升級。
+    **Mailbox.org** 電子郵件服務，專注於安全、無廣告和使用 100% 民間環保發電能源。 自 **2014 年** 開始運營。 Mailbox.org總部位於德國柏林。 初級帳戶有 2GB 儲存空間，可以根據需要升級。
     
     [:octicons-home-16: Homepage](https://mailbox.org){ .md-button .md-button--primary }
     [:octicons-eye-16:](https://mailbox.org/en/data-protection-privacy-policy){ .card-link title="Privacy Policy" }
     [:octicons-info-16:](https://kb.mailbox.org/en/private){ .card-link title=Documentation}
     
-    ??? downloads
+    ??? downloads "下載"
     
         - [:octicons-browser-16: Web](https://login.mailbox.org)
 
@@ -165,9 +165,9 @@ Mailbox.org 所有方案都提供了數位遺產功能。 你可以選擇是否�
 
 !!! recommendation
 
-    ! [Tutanota標誌] (assets/img/email/tutanota.svg) {align = right}
+    ![Tutanota標誌](assets/img/email/tutanota.svg){ align=right }
     
-    * * Tutanota * * 使用加密、關注安全和隱私的電子郵件服務。 Tutanota自* * 2011 年* *開始運營，總部位於德國漢諾威。 免費帳戶有 1GB 儲存空間。
+    **Tutanota** 使用加密、關注安全和隱私的電子郵件服務。 Tutanota自 **2011 年** 開始運營，總部位於德國漢諾威。 免費帳戶有 1GB 儲存空間。
     
     [:octicons-home-16: Homepage](https://tutanota.com){ .md-button .md-button--primary }
     [:octicons-eye-16:](https://tutanota.com/privacy){ .card-link title="Privacy Policy" }
@@ -175,7 +175,7 @@ Mailbox.org 所有方案都提供了數位遺產功能。 你可以選擇是否�
     [:octicons-code-16:](https://github.com/tutao/tutanota){ .card-link title="Source Code" }
     [:octicons-heart-16:](https://tutanota.com/community/){ .card-link title=Contribute }
     
-    ??? 下載
+    ??? downloads "下載"
     
         - [:simple-googleplay: Google Play](https://play.google.com/store/apps/details?id=de.tutao.tutanota)
         - [:simple-appstore: App Store](https://apps.apple.com/app/tutanota/id922429609)
@@ -251,10 +251,10 @@ Tutanota不提供數字遺產功能。
 
 !!! recommendation
 
-    ! [AnonAddy logo] (assets/img/email/anonaddy.svg#only-light) {align = right}
-    ! [AnonAddy標誌] (assets/img/email/anonaddy-dark.svg#only-dark) {align = right}
+    ![AnonAddy 標誌](assets/img/email/anonaddy.svg#only-light){ align=right }
+    ![AnonAddy標誌](assets/img/email/anonaddy-dark.svg#only-dark){ align=right }
     
-    * * AnonAddy * *可讓您在共享網域上免費創建 20 個網域別名，或無限制的「標準」別名，但後者匿名度低。
+    **AnonAddy** 可讓您在共享網域上免費創建 20 個網域別名，或無限制的「標準」別名，但後者匿名度低。
     
     [:octicons-home-16: Homepage](https://anonaddy.com){ .md-button .md-button--primary }
     [:octicons-eye-16:](https://anonaddy.com/privacy/){ .card-link title="Privacy Policy" }
@@ -262,7 +262,7 @@ Tutanota不提供數字遺產功能。
     [:octicons-code-16:](https://github.com/anonaddy){ .card-link title="Source Code" }
     [:octicons-heart-16:](https://anonaddy.com/donate/){ .card-link title=Contribute }
     
-    ??? 下載
+    ??? downloads "下載"
     
         - [:simple-android: Android](https://anonaddy.com/faq/#is-there-an-android-app)
         - [:material-apple-ios: iOS](https://anonaddy.com/faq/#is-there-an-ios-app)
@@ -283,16 +283,16 @@ Tutanota不提供數字遺產功能。
 
 !!! recommendation
 
-    ! [Simplelogin logo] (assets/img/email/simplelogin.svg) {align = right}
+    ![Simplelogin logo](assets/img/email/simplelogin.svg){ align=right }
     
-    * * SimpleLogin * *是一項免費服務，可在各種共享域名上提供電子郵件別名，並可選擇提供無限別名和自訂域名等付費功能。
+    **SimpleLogin** 是一項免費服務，可在各種共享域名上提供電子郵件別名，並可選擇提供無限別名和自訂域名等付費功能。
     
     [:octicons-home-16: Homepage](https://simplelogin.io){ .md-button .md-button--primary }
     [:octicons-eye-16:](https://simplelogin.io/privacy/){ .card-link title="Privacy Policy" }
     [:octicons-info-16:](https://simplelogin.io/docs/){ .card-link title=Documentation}
     [:octicons-code-16:](https://github.com/simple-login){ .card-link title="Source Code" }
     
-    ??? 下載
+    ??? downloads "下載"
     
         - [:simple-googleplay: Google Play](https://play.google.com/store/apps/details?id=io.simplelogin.android)
         - [:simple-appstore: App Store](https://apps.apple.com/app/id1494359858)
@@ -320,9 +320,9 @@ SimpleLogin 在  2022年4 月 8 日被 [ Proton AG](https://proton.me/news/proto
 
 !!! recommendation
 
-    ! [Mailcow logo] (assets/img/email/mailcow.svg) {align = right}
+    ![Mailcow logo](assets/img/email/mailcow.svg){ align=right }
     
-    * * Mailcow * *是一個更先進的郵件伺服器，非常適合有豐富 Linux 經驗者。 它的 Docke r容器中擁有您需要的一切：支援 DKIM 的郵件伺服器、防毒和垃圾郵件監控、具有SOGo 的 Webmail 和 ActiveSync ，以及具有2FA 支援的網頁管理介面。
+    **Mailcow** 是一個更先進的郵件伺服器，非常適合有豐富 Linux 經驗者。 它的 Docke r容器中擁有您需要的一切：支援 DKIM 的郵件伺服器、防毒和垃圾郵件監控、具有SOGo 的 Webmail 和 ActiveSync ，以及具有2FA 支援的網頁管理介面。
     
     [:octicons-home-16: Homepage](https://mailcow.email){ .md-button .md-button--primary }
     [:octicons-info-16:](https://mailcow.github.io/mailcow-dockerized-docs/){ .card-link title=Documentation}
@@ -331,9 +331,9 @@ SimpleLogin 在  2022年4 月 8 日被 [ Proton AG](https://proton.me/news/proto
 
 !!! recommendation
 
-    ! [Mail-in-a-Box logo] (assets/img/email/mail-in-a-box.svg) {align = right}
+    ![Mail-in-a-Box logo](assets/img/email/mail-in-a-box.svg){ align = right }
     
-    * * Mail-in-a-Box * *是部署 Ubuntu 郵件伺服器的自動設置腳本。 它的目標是讓人們更容易建立自己的郵件伺服器。
+    **Mail-in-a-Box** 是部署 Ubuntu 郵件伺服器的自動設置腳本。 它的目標是讓人們更容易建立自己的郵件伺服器。
     
     [:octicons-home-16: Homepage](https://mailinabox.email){ .md-button .md-button--primary }
     [:octicons-info-16:](https://mailinabox.email/guide.html){ .card-link title=Documentation}
