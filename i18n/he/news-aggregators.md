@@ -101,10 +101,10 @@ cover: news-aggregators.png
     
     **NetNewsWire** קורא עדכונים חינמי וקוד פתוח עבור macOS ו-iOS עם התמקדות בעיצוב ותכונות מקוריות. הוא תומך בפורמטי ההזנה האופייניים לצד תמיכה מובנית בפיד טוויטר ו-Reddit.
     
-    [:octicons-home-16: Homepage](https://netnewswire.com/){ .md-button .md-button--primary }
-    [:octicons-eye-16:](https://netnewswire.com/privacypolicy.html){ .card-link title="Privacy Policy" }
-    [:octicons-info-16:](https://netnewswire.com/help/){ .card-link title=Documentation}
-    [:octicons-code-16:](https://github.com/Ranchero-Software/NetNewsWire){ .card-link title="Source Code" }
+    [:octicons-home-16: דף הבית](https://netnewswire.com/){ .md-button .md-button--primary }
+    [:octicons-eye-16:](https://netnewswire.com/privacypolicy.html){ .card-link title="מדיניות הפרטיות" }
+    [:octicons-info-16:](https://netnewswire.com/help/){ .card-link title=תיעוד}
+    [:octicons-code-16:](https://github.com/Ranchero-Software/NetNewsWire){ .card-link title="קוד מקור" }
     
     ??? downloads "הורדות"
     

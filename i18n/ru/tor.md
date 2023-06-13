@@ -117,9 +117,9 @@ Tor работает, направляя твой трафик через эти
     [:octicons-code-16:](https://gitweb.torproject.org/pluggable-transports/snowflake.git/){ .card-link title="Исходный код" }
     [:octicons-heart-16:](https://donate.torproject.org/){ .card-link title=Поддержать }
 
-You can enable Snowflake in your browser by opening it in another tab and turning the switch on. You can leave it running in the background while you browse to contribute your connection. We don't recommend installing Snowflake as a browser extension; adding third-party extensions can increase your attack surface.
+Вы можете включить Snowflake в своем браузере, открыв его в другой вкладке и включив переключатель. Вы можете оставить его работать в фоновом режиме во время просмотра веб-страниц, чтобы способствовать подключению. Мы не рекомендуем устанавливать Snowflake в качестве расширения браузера; добавление сторонних расширений может увеличить площадь атаки.
 
-[Run Snowflake in your Browser :material-arrow-right-drop-circle:](https://snowflake.torproject.org/embed.html ""){.md-button}
+[Запуск "Snowflake" в браузере :material-arrow-right-drop-circle:](https://snowflake.torproject.org/embed.html ""){.md-button}
 
 Snowflake никоим образом не увеличивает вашу конфиденциальность и не используется для подключения к сети Tor в вашем персональном браузере. Однако если ваше интернет-соединение не подвергается цензуре, вам следует рассмотреть возможность его запуска, чтобы помочь людям в сетях с цензурой добиться большей конфиденциальности. Нет необходимости беспокоиться о том, на какие сайты люди заходят через ваш прокси-сервер - их видимый IP адрес будет соответствовать их выходному узлу Tor, а не вашему.
 

@@ -153,11 +153,11 @@ Mullvad [ממליץ](https://mullvad.net/en/help/why-wireguard/) על השימו
 
 #### :material-check:{ .pg-green } תמיכה ב-IPv6
 
-Mullvad allows you to [access services hosted on IPv6](https://mullvad.net/en/blog/2014/9/15/ipv6-support/), as opposed to other providers which block IPv6 connections.
+Mullvad מאפשרת לך [ גישה לשירותים המתארחים ב-IPv6](https://mullvad.net/en/blog/2014/9/15/ipv6-support/), בניגוד לספקים אחרים החוסמים חיבורי IPv6.
 
 #### :material-alert-outline:{ .pg-orange } העברת פורטים מרחוק
 
-Mullvad previously supported port forwarding, but removed the option in [May 2023](https://mullvad.net/en/blog/2023/5/29/removing-the-support-for-forwarded-ports/). Missing this feature could negatively impact certain applications, especially peer-to-peer applications like torrent clients.
+Mullvad תמך בעבר בהעברת יציאות, אך הסיר את האפשרות ב [מאי 2023](https://mullvad.net/en/blog/2023/5/29/removing-the-support-for-forwarded-ports/). חיסרון של תכונה זו עלולה להשפיע לרעה על יישומים מסוימים, במיוחד יישומי עמית לעמית כמו לקוחות טורנט.
 
 #### :material-check:{ .pg-green } לקוחות ניידים
 

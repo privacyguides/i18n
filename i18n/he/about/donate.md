@@ -15,9 +15,9 @@ title: תמיכה בנו
 
 [תנו לנו חסות ב-GitHub](https://github.com/sponsors/privacyguides ""){.md-button}
 
-Another option to support us is by buying our merchandise from HelloTux. We get roughly $4 for every shirt sold, and you get a quality product to show for it.
+אפשרות נוספת לתמוך בנו היא על ידי רכישת הסחורה שלנו מ-HelloTux. אנחנו מקבלים בערך $4 עבור כל חולצה שנמכרת, ואתה מקבל מוצר איכותי להראות עבורו.
 
-[Buy on HelloTux.com](https://hellotux.com/privacyguides){ class="md-button" }
+[קנה ב- HelloTux.com](https://hellotux.com/privacyguides){ class="md-button" }
 
 ## תומכים
 

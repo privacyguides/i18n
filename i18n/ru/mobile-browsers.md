@@ -59,7 +59,7 @@ schema:
     [:octicons-info-16:](https://support.brave.com/){ .card-link title=Документация}
     [:octicons-code-16:](https://github.com/brave/brave-browser){ .card-link title="Исходный код" }
     
-    ??? скачать
+    ??? downloads annotate
     
         - [:simple-googleplay: Google Play](https://play.google.com/store/apps/details?id=com.brave.browser)
         - [:simple-github: GitHub](https://github.com/brave/brave-browser/releases)
@@ -132,7 +132,9 @@ Brave включает несколько инструментов защиты 
 
     ![Логотип Safari](assets/img/browsers/safari.svg){ align=right }
     
-    **Safari** — браузер по умолчанию на iOS. Он включает в себя [функции обеспечения конфиденциальности](https://support.apple.com/guide/iphone/browse-the-web-privately-iphb01fc3c85/15.0/ios/15.0): Intelligent Tracking Protection, отчет о конфиденциальности, изолированные вкладки частного доступа, частный узел iCloud и автоматическое обновление до HTTPS.
+    **Safari** — браузер по умолчанию на iOS. Он включает в себя [функции конфиденциальности] (https://support.apple.com/ru-ru/guide/iphone/iphb01fc3c85/15.0/ios/15.0), такие как [Интеллектуальное предотвращение слежения] (https://webkit.org/blog/7675/intelligent-tracking-prevention/), Отчеты о конфиденциальности, изолированные и эфемерные вкладки частного доступа, частный узел iCloud, а также уменьшение цифровых отпечатков путем представления упрощенной версии конфигурации системы на веб-сайтах, чтобы больше устройств выглядели одинаково.
+    
+    Safari предназначен только для устройств Apple и защищен [Защитой целостности системы](https://support.apple.com/ru-ru/guide/security/secb7ea06b49/web), функцией безопасности, которая ограничивает системные программы и файлы только для чтения, чтобы они не могли быть "испорчены" вами или вредоносным По.
     
     [:octicons-home-16: Домашняя страница](https://www.apple.com/ru/safari/){ .md-button .md-button--primary }
     [:octicons-eye-16:](https://www.apple.com/ru/legal/privacy/data/ru/safari/){ .card-link title="Политика конфиденциальности" }
@@ -144,7 +146,7 @@ Brave включает несколько инструментов защиты 
 
 ##### Предотвращение перекрёстного отслеживания
 
-- [x] Включи **Предотвращать перекрестное отслеживание**
+- [x] Включи **Без перекрестного отслеживания**
 
 Это активирует функцию WebKit: [Intelligent Tracking Protection](https://webkit.org/tracking-prevention/#intelligent-tracking-prevention-itp). Эта функция помогает защититься от нежелательного отслеживания, используя машинное обучение на устройстве для остановки отслеживающих устройств. ITP защищает от многих распространенных угроз, но не блокирует все пути слежения, поскольку разработан таким образом, чтобы не мешать удобству использования сайта.
 
@@ -154,33 +156,33 @@ Brave включает несколько инструментов защиты 
 
 Отчет о конфиденциальности доступен через меню "Настройки страницы".
 
-##### Privacy Preserving Ad Measurement
+##### Конфиденциальные рекламные отчеты
 
-- [ ] Disable **Privacy Preserving Ad Measurement**
+- [ ] Отключи **Конфиденциальные рекламные отчеты**
 
-Ad click measurement has traditionally used tracking technology that infringes on user privacy. [Private Click Measurement](https://webkit.org/blog/11529/introducing-private-click-measurement-pcm/) is a WebKit feature and proposed web standard aimed towards allowing advertisers to measure the effectiveness of web campaigns without compromising on user privacy.
+Для измерения количества рекламных кликов традиционно используется технология отслеживания, нарушающая конфиденциальность пользователей. [Private Click Measurement](https://webkit.org/blog/11529/introducing-private-click-measurement-pcm/) - это функция WebKit и предлагаемый веб-стандарт, позволяющий рекламодателям измерять эффективность веб-кампаний без ущерба для конфиденциальности пользователей.
 
-The feature has little privacy concerns on its own, so while you can choose to leave it on, we consider the fact that it's automatically disabled in Private Browsing to be an indicator for disabling the feature.
+Сама по себе эта функция не вызывает особых опасений в плане конфиденциальности, и хотя вы можете оставить ее включенной, мы рекомендуем её отключить, так как она автоматически отключается в Private Browsing.
 
-##### Always-on Private Browsing
+##### Всегда включенный частный доступ
 
-Open Safari and tap the Tabs button, located in the bottom right. Then, expand the Tab Groups list.
+Откройте Safari и нажмите кнопку Вкладки, расположенную в правом нижнем углу. Затем разверните список Группы вкладок.
 
-- [x] Select **Private**
+- [x] Выбери **Частный доступ**
 
-Safari's Private Browsing mode offers additional privacy protections. Private Browsing uses a new [ephemeral](https://developer.apple.com/documentation/foundation/urlsessionconfiguration/1410529-ephemeral) session for each tab, meaning tabs are isolated from one another. There are also other smaller privacy benefits with Private Browsing, such as not sending a webpage’s address to Apple when using Safari's translation feature.
+Режим Частный доступ в Safari обеспечивает дополнительную защиту конфиденциальности. Приватный просмотр использует новую [эфемерную](https://developer.apple.com/documentation/foundation/urlsessionconfiguration/1410529-ephemeral) сессию для каждой вкладки, то есть вкладки изолированы друг от друга. При использовании частного доступа есть и другие небольшие преимущества, например, не отправлять адрес веб-страницы в Apple при использовании функции перевода в Safari.
 
-Do note that Private Browsing does not save cookies and website data, so it won't be possible to remain signed into sites. This may be an inconvenience.
+Обрати внимание, что частный доступ не сохраняет файлы cookie и данные веб-сайтов, поэтому оставаться залогиненным на сайтах не получится. Это может доставить неудобства.
 
 ##### Синхронизация iCloud
 
-Synchronization of Safari History, Tab Groups, iCloud Tabs and saved passwords are E2EE. However, by default, bookmarks are [not](https://support.apple.com/en-us/HT202303). Apple can decrypt and access them in accordance with their [privacy policy](https://www.apple.com/legal/privacy/en-ww/).
+Синхронизация истории Safari, групп вкладок, вкладок iCloud и сохраненных паролей осуществляется с E2EE. Однако по умолчанию закладки [не используют E2EE](https://support.apple.com/ru-ru/HT202303). Apple может расшифровать их и получить к ним доступ в соответствии со своей [политикой конфиденциальности](https://www.apple.com/legal/privacy/en-ww/).
 
-You can enable E2EE for you Safari bookmarks and downloads by enabling [Advanced Data Protection](https://support.apple.com/en-us/HT212520). Go to your **Apple ID name → iCloud → Advanced Data Protection**.
+Вы можете включить E2EE для закладок и загрузок Safari, включив [Расширенную защиту данных](https://support.apple.com/ru-ru/HT212520). Перейди к настройке **Apple ID → iCloud → Расширенная защита данных**.
 
-- [x] Turn On **Advanced Data Protection**
+- [x] Включи **Расширенная защита данных**
 
-If you use iCloud with Advanced Data Protection disabled, we also recommend checking to ensure Safari's default download location is set to locally on your device. This option can be found in :gear: **Settings** → **Safari** → **General** → **Downloads**.
+Если вы используете iCloud вместе с расширенной защитой данных, мы также рекомендуем проверить, что место по умолчанию для загрузки файлов в Safari установлено локально на устройстве. Эта опция может быть найдена в :gear: **Настройки** → **Safari** → **Основные** → **Загрузки**.
 
 ### AdGuard
 
@@ -197,7 +199,7 @@ If you use iCloud with Advanced Data Protection disabled, we also recommend chec
     [:octicons-info-16:](https://kb.adguard.com/ios){ .card-link title=Документация}
     [:octicons-code-16:](https://github.com/AdguardTeam/AdguardForiOS){ .card-link title="Исходный код" }
     
-    ??? скачать
+    ??? downoloads
     
         - [:simple-appstore: App Store](https://apps.apple.com/app/apple-store/id1047223162)
 
@@ -207,9 +209,9 @@ If you use iCloud with Advanced Data Protection disabled, we also recommend chec
 
 **Обрати внимание, что у нас нет связей ни с одним проектом, который мы рекомендуем.** В дополнение к [нашим стандартным критериям](about/criteria.md) мы разработали четкий набор требований, позволяющий давать объективные рекомендации. Мы рекомендуем тебе ознакомиться с этим списком, прежде чем выбрать продукт, и провести собственное исследование, чтобы убедиться в правильности своего выбора.
 
-!!! пример "Это новая секция"
+!!! example "Это новая секция"
 
-    Мы сейчас работаем над установлением точных критериев для каждого раздела нашего сайта, поэтому они могут поменяться в будущем. If you have any questions about our criteria, please [ask on our forum](https://discuss.privacyguides.net/latest) and don't assume we didn't consider something when making our recommendations if it is not listed here. Мы учитываем и обсуждаем много факторов, перед тем как рекомендовать какой-то проект, и документирование каждого из них ещё не завершено.
+    Мы сейчас работаем над установлением точных критериев для каждого раздела нашего сайта, поэтому они могут поменяться в будущем. Если у тебя есть вопросы по поводу наших критериев, пожалуйста, [задавай их на нашем форуме](https://discuss.privacyguides.net/latest) и не думай, что мы не учли что-то при составлении наших рекомендаций, если это не указано здесь. Мы учитываем и обсуждаем много факторов, перед тем как рекомендовать какой-то проект, и документирование каждого из них ещё не завершено.
 
 ### Минимальные требования к сервисам
 

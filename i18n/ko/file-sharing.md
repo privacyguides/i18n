@@ -1,11 +1,11 @@
 ---
 title: "파일 공유 및 동기화"
 icon: material/share-variant
-description: Discover how to privately share your files between your devices, with your friends and family, or anonymously online.
+description: 기기 간에, 친구 및 가족과, 혹은 익명으로 온라인 상에서 파일을 개인적으로 공유하는 방법을 알아보세요.
 cover: file-sharing.png
 ---
 
-Discover how to privately share your files between your devices, with your friends and family, or anonymously online.
+기기 간에, 친구 및 가족과, 혹은 익명으로 온라인 상에서 파일을 개인적으로 공유하는 방법을 알아보세요.
 
 ## 파일 공유
 

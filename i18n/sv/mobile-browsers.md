@@ -131,7 +131,9 @@ I iOS är alla appar som kan surfa på webben [](https://developer.apple.com/app
 
     ![Safari-logotyp](assets/img/browsers/safari.svg){ align=right }
     
-    **Safari** är standardwebbläsaren i iOS. Den innehåller [integritetsfunktioner] (https://support.apple.com/guide/iphone/browse-the-web-privately-iphb01fc3c85/15.0/ios/15.0) som intelligent spårningsskydd, integritetsrapport, isolerade flikar för privat surfning, iCloud Private Relay och automatiska HTTPS-uppgraderingar.
+    **Safari** är standardwebbläsaren i iOS. It includes [privacy features](https://support.apple.com/guide/iphone/browse-the-web-privately-iphb01fc3c85/15.0/ios/15.0) such as [Intelligent Tracking Prevention](https://webkit.org/blog/7675/intelligent-tracking-prevention/), Privacy Report, isolated and ephemeral Private Browsing tabs, iCloud Private Relay, and fingerprinting reduction by presenting a simplified version of the system configuration to websites so more devices look identical.
+    
+    Safari is restricted to Apple devices and is covered by [System Integrity Protection](https://support.apple.com/guide/security/system-integrity-protection-secb7ea06b49/web), a security feature which limits system programs and files to being read-only so they can't be tampered with by you or malware.
     
     [:octicons-home-16: Repository](https://github.com/Hackeralert/Picocrypt){ .md-button .md-button--primary }
     [:octicons-eye-16:](https://github.com/Hackeralert/Picocrypt){ .card-link title="Source Code" }

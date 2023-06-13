@@ -44,7 +44,7 @@ Joplin אינו תומך בהגנה על סיסמה/PIN עבור [יישום ע�
 
     ![Standard Notes לוגו](assets/img/notebooks/standard-notes.svg){ align=right }
     
-    **Standard Notes** היא אפליקציית הערות פשוטה ופרטית שהופכת את ההערות שלך לקלות וזמינות בכל מקום שבו אתה נמצא. הוא כולל E2EE בכל פלטפורמה, וחוויית שולחן עבודה רבת עוצמה עם ערכות עיצוב ואפשריות עריכה מותאמים אישית. It has also been [independently audited](https://standardnotes.com/help/2/has-standard-notes-completed-a-third-party-security-audit).
+    **Standard Notes** היא אפליקציית הערות פשוטה ופרטית שהופכת את ההערות שלך לקלות וזמינות בכל מקום שבו אתה נמצא. הוא כולל E2EE בכל פלטפורמה, וחוויית שולחן עבודה רבת עוצמה עם ערכות עיצוב ואפשריות עריכה מותאמים אישית. זה גם עבר [ביקורת עצמאית](https://standardnotes.com/help/2/has-standard-notes-completed-a-third-party-security-audit).
     
     [:octicons-home-16: Homepage](https://standardnotes.com){ .md-button .md-button--primary }
     [:octicons-eye-16:](https://standardnotes.com/privacy){ .card-link title="Privacy Policy" }

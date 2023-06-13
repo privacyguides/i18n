@@ -378,12 +378,12 @@ SimpleLogin [נרכשה על ידי Proton AG](https://proton.me/news/proton-and
 
 - להגן על כתובת ה - IP של השולח. מסנן אותו כך שלא יוצג בשדה `השולח` header.
 - אין צורך במידע המאפשר זיהוי אישי (PII) מלבד שם משתמש וסיסמה.
-- Privacy policy that meets the requirements defined by the GDPR.
+- מדיניות פרטיות העומדת בדרישות שהוגדרו ב-GDPR.
 
 **המקרה הטוב ביותר:**
 
 - מקבל [אפשרויות תשלום אנונימיות](advanced/payments.md) ([cryptocurrency](cryptocurrency.md), מזומן, כרטיסי מתנה וכו')
-- Hosted in a jurisdiction with strong email privacy protection laws.
+- מתארח באזור שיפוט עם חוקים חזקים להגנה על פרטיות האימייל.
 
 ### אבטחה
 

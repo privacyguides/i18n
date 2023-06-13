@@ -19,7 +19,7 @@ schema:
     url: https://brave.com
     applicationCategory: Web Browser
     operatingSystem:
-      - 安卓
+      - Android
     subjectOf:
       "@type": WebPage
       url: "./"
@@ -106,13 +106,13 @@ Shields 可以選擇根據需要依各網站情況降級，但我們建議預設
 
 <div class="annotate" markdown>
 
-- [x] 選擇* *在[WebRTC IP處理政策] (https://support.brave.com/hc/en-us/articles/360017989132-How-do-I-change-my-Privacy-Settings-#webrtc)
-- []取消勾選**允許網站檢查您是否儲存了付款方式* *
-- []取消勾選** IPFS閘道* * (1)
-- [x] 選擇* *關閉出口標籤* *
-- [ ] 取消勾選**允許隱私保護產品分析(P3A) **
-- [ ] 取消勾選**自動發送診斷報告* *
-- [ ] 取消勾選** 自動發送每日使用情況給Brave **
+- [x] 選擇 **在[WebRTC IP處理政策](https://support.brave.com/hc/en-us/articles/360017989132-How-do-I-change-my-Privacy-Settings-#webrtc)
+- []取消勾選 **允許網站檢查您是否儲存了付款方式**
+- []取消勾選 **IPFS閘道** (1)
+- [x] 選擇 **關閉出口標籤**
+- [ ] 取消勾選**允許隱私保護產品分析(P3A)**
+- [ ] 取消勾選 **自動發送診斷報告**
+- [ ] 取消勾選 **自動發送每日使用情況給Brave**
 
 </div>
 
@@ -132,7 +132,9 @@ Shields 可以選擇根據需要依各網站情況降級，但我們建議預設
 
     ![Safari logo](assets/img/browsers/safari.svg){ align=right }
     
-    * * Safari * *是iOS 預設瀏覽器。 它包括[隱私權功能] (https://support.apple.com/guide/iphone/browse-the-web-privately-iphb01fc3c85/15.0/ios/15.0) ，例如智慧追蹤保護、隱私權報告、獨立的私人瀏覽標籤、iCloud 私人中繼和自動HTTPS  升級。
+    **Safari** 是iOS 預設瀏覽器。 It includes [privacy features](https://support.apple.com/guide/iphone/browse-the-web-privately-iphb01fc3c85/15.0/ios/15.0) such as [Intelligent Tracking Prevention](https://webkit.org/blog/7675/intelligent-tracking-prevention/), Privacy Report, isolated and ephemeral Private Browsing tabs, iCloud Private Relay, and fingerprinting reduction by presenting a simplified version of the system configuration to websites so more devices look identical.
+    
+    Safari is restricted to Apple devices and is covered by [System Integrity Protection](https://support.apple.com/guide/security/system-integrity-protection-secb7ea06b49/web), a security feature which limits system programs and files to being read-only so they can't be tampered with by you or malware.
     
     [:octicons-home-16: Homepage](https://www.apple.com/safari/){ .md-button .md-button--primary }
     [:octicons-eye-16:](https://www.apple.com/legal/privacy/data/en/safari/){ .card-link title="Privacy Policy" }
@@ -186,9 +188,9 @@ Safari 歷史記錄、標籤組、iCloud 標籤分頁和保存密碼的同步都
 
 !!! recommendation
 
-    ! [AdGuard logo] (assets/img/browsers/adguard.svg) {align = right}
+    ![AdGuard logo](assets/img/browsers/adguard.svg){ align=right }
     
-    * *適用於 iOS的 AdGuard * *是使用原生[Content Blocker API] (https://developer.apple.com/documentation/safariservices/creating_a_content_blocker 的Safari 免費開源內容封鎖擴展。
+    **適用於 iOS的 AdGuard** 是使用原生[Content Blocker API](https://developer.apple.com/documentation/safariservices/creating_a_content_blocker) 的Safari 免費開源內容封鎖擴展。
     
     iOS 版 AdGuard 有一些高級功能；然而，標準Safari 內容封鎖是免費的。
     
@@ -197,7 +199,7 @@ Safari 歷史記錄、標籤組、iCloud 標籤分頁和保存密碼的同步都
     [:octicons-info-16:](https://kb.adguard.com/ios){ .card-link title=Documentation}
     [:octicons-code-16:](https://github.com/AdguardTeam/AdguardForiOS){ .card-link title="Source Code" }
     
-    ??? 下載
+    ??? downloads "下載"
     
         - [:simple-appstore: App Store](https://apps.apple.com/app/apple-store/id1047223162)
 
@@ -207,7 +209,7 @@ Safari 歷史記錄、標籤組、iCloud 標籤分頁和保存密碼的同步都
 
 **請注意，我們所推薦專案沒有任何瓜葛。 ** 除了 [標準準則](about/criteria.md)外，我們還發展出一套明確要求以提出客觀建議。 我們建議您在選擇使用項目之前先熟悉此列表，並進行自己的研究，以確保它是您的正確選擇。
 
-!!! 示例“此部分是新的”
+!!! example "此部分是新的"
 
     我們正在努力為我們網站的每個部分建立定義的標準，這可能會有所變化。 如果您對我們的標準有任何疑問，請在[論壇上提問] (https://discuss.privacyguides.net/latest) ，如果沒有列出，請不要認為我們在提出建議時沒有考慮到某些事情。 當我們推薦一個項目時，有許多因素被考慮和討論，記錄每一個項目都是正在進行式。
 

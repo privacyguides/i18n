@@ -134,7 +134,9 @@ On iOS, any app that can browse the web is [restricted](https://developer.apple.
 
     ![logotipo AdGuard](/assets/img/browsers/adguard.svg){ align=right }
     
-    **AdGuard for Safari** é uma extensão gratuita e de código aberto para bloqueio de conteúdo do Safari que usa a API nativa [Content Blocker API](https://developer.apple.com/documentation/safariservices/creating_a_content_blocker). Sugerimos activar os filtros labled *#recommended* sob "Ad Blocking" e "Privacy" [bloqueadores de conteúdo](https://kb.adguard.com/en/safari/overview#content-blockers).
+    **AdGuard for Safari** é uma extensão gratuita e de código aberto para bloqueio de conteúdo do Safari que usa a API nativa [Content Blocker API](https://developer.apple.com/documentation/safariservices/creating_a_content_blocker). It includes [privacy features](https://support.apple.com/guide/iphone/browse-the-web-privately-iphb01fc3c85/15.0/ios/15.0) such as [Intelligent Tracking Prevention](https://webkit.org/blog/7675/intelligent-tracking-prevention/), Privacy Report, isolated and ephemeral Private Browsing tabs, iCloud Private Relay, and fingerprinting reduction by presenting a simplified version of the system configuration to websites so more devices look identical.
+    
+    Safari is restricted to Apple devices and is covered by [System Integrity Protection](https://support.apple.com/guide/security/system-integrity-protection-secb7ea06b49/web), a security feature which limits system programs and files to being read-only so they can't be tampered with by you or malware.
     
     Os filtros *#recommended* também podem ser ativados para os bloqueadores de conteúdo "Social Widgets" e "Annoyances", mas eles podem quebrar algumas funções das mídias sociais.
 

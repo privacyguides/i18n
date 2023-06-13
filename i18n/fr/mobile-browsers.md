@@ -132,7 +132,9 @@ Sur iOS, toute application capable de naviguer sur le web est [](https://develop
 
     ![Logo Safari](assets/img/browsers/safari.svg){ align=right }
     
-    **Safari** est le navigateur par défaut dans iOS. Il comprend des [fonctions de confidentialité](https://support.apple.com/fr-fr/guide/iphone/iphb01fc3c85/15.0/ios/15.0) telles que la Protection Intelligente contre le Pistage, le Rapport de Confidentialité, les Onglets de Navigation Privée isolés, le Relais Privé iCloud et les mises à niveau HTTPS automatiques.
+    **Safari** est le navigateur par défaut dans iOS. Il comprend des [fonctions de confidentialité](https://support.apple.com/guide/iphone/browse-the-web-privately-iphb01fc3c85/15.0/ios/15.0) telles que [la protection intelligente contre le pistage](https://webkit.org/blog/7675/intelligent-tracking-prevention/), le rapport de confidentialité, des onglets de navigation privée isolés et éphémères, le relais privé iCloud, et la réduction des empreintes numériques en présentant une version simplifiée de la configuration du système aux sites web afin que d'avantage d'appareils soient identiques.
+    
+    Safari est réservé aux appareils Apple et est couvert par la [protection de l'intégrité du système](https://support.apple.com/guide/security/system-integrity-protection-secb7ea06b49/web), une fonction de sécurité qui limite les programmes et les fichiers du système en lecture seule afin qu'ils ne puissent pas être altérés par vous ou par des logiciels malveillants.
     
     [:octicons-home-16: Page d'accueil](https://www.apple.com/fr/safari/){ .md-button .md-button--primary }
     [:octicons-eye-16:](https://www.apple.com/legal/privacy/data/fr/safari/){ .card-link title="Politique de Confidentialité" }

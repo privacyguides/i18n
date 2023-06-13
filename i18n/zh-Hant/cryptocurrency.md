@@ -38,7 +38,7 @@ cover: cryptocurrency.png
 
 為了獲得最大的隱私（即便使用非保管錢包），您應該運行自己的 Monero 節點。 使用別人的節點會暴露一些信息，例如您從中連接到它的IP位址，同步錢包的時間戳記以及您從錢包發送的交易（儘管沒有關於這些交易的其他細節）。 或者，您可以通過Tor或i2p連接到其他人的Monero節點。
 
-In August 2021, CipherTrace [announced](https://ciphertrace.com/enhanced-monero-tracing/) enhanced Monero tracing capabilities for government agencies. 公開貼文顯示，美國財政部金融犯罪執法網絡 [在2022年底授權](https://sam.gov/opp/d12cbe9afbb94ca68006d0f006d355ac/view) CipherTrace 的 “Monero 模塊”。
+2021 年8 月 CipherTrace [宣佈](https://ciphertrace.com/enhanced-monero-tracing/) 為政府機構提供強化的Monero 追蹤效能。 公開貼文顯示，美國財政部金融犯罪執法網絡 [在2022年底授權](https://sam.gov/opp/d12cbe9afbb94ca68006d0f006d355ac/view) CipherTrace 的 “Monero 模塊”。
 
 Monero 交易圖隱私受到其相對較小的環形簽名的限制，特別是抵抗針對性的攻擊。 Monero's 隱私功能也曾被某些資安研究人員 [質疑](https://web.archive.org/web/20180331203053/https://www.wired.com/story/monero-privacy/) ，過去已發現一些弱點與補丁，因此如 CipherTrace 的宣稱並非不可能。 雖然 Monero 大規模監控工具不太可能像比特幣和其他工具一樣存在，但可以肯定的是，追蹤工具有助於進行針對性的調查。
 

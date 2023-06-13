@@ -44,9 +44,9 @@ schema:
 
 오픈 소스 소프트웨어는 제3자로부터 검증(감사)받는 것이 *가능하고*, 잠재적인 취약점을 취급하는 데에 있어서 독점 소프트웨어보다 투명하게 이루어지는 경우가 많습니다. 하고자 한다면 자신이 직접 코드를 검토할 수도 있으며, 의심스러운 기능은 비활성화 하는 것도 가능합니다. 하지만 이론상 가능한 것과는 별개로 (특히 소규모 소프트웨어 프로젝트일수록) 해당 코드가 검증되었다는 보장은 없습니다. 게다가 개방형 개발 프로세스를 악용하여 대규모 프로젝트에 새로운 취약점을 심는 경우도 있습니다.[^1]
 
-On the flip side, proprietary software is less transparent, but that doesn't imply that it's not secure. Major proprietary software projects can be audited internally and by third-party agencies, and independent security researchers can still find vulnerabilities with techniques like reverse engineering.
+반면 독점 소프트웨어는 투명성이 상대적으로 떨어지지만, 그렇다고 해서 안전하지 않다는 뜻은 아닙니다. 메이저 독점 소프트웨어는 내부 및 외부 기관에서 감사를 진행할 수 있으며, 외부 보안 연구원도 리버스 엔지니어링 등의 기술을 통해 취약점을 발견할 수 있습니다.
 
-To avoid biased decisions, it's *vital* that you evaluate the privacy and security standards of the software you use.
+편향된 판단을 내리지 않기 위해선 소프트웨어의 프라이버시 및 보안 수준을 객관적으로 평가하는 것이 중요합니다.
 
 ## "신뢰하는 대상을 바꾸면 프라이버시를 강화할 수 있다"
 

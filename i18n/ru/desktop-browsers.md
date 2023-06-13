@@ -283,7 +283,7 @@ Brave содержит несколько инструментов защиты 
 
 Функции Web3 в Brave потенциально могут увеличить цифровой отпечаток твоего браузера и площадь атаки. Если ты не используешь эти функции, их следует отключить.
 
-Set **Default Ethereum wallet** to **Extensions (no fallback)** Set **Default Solana wallet** to **Extensions (no fallback)** Set **Method to resolve IPFS resources** to **Disabled**
+В **Кошелек Ethereum по умолчанию** выбери **Расширения (без бэкапа)** В **Кошелек Solana по умолчанию** выбери **Расширения (без бэкапа)** В **Метод преобразования IPFS-ресурсов** выбери **Отключено**
 
 ##### Система
 
@@ -322,7 +322,7 @@ Set **Default Ethereum wallet** to **Extensions (no fallback)** Set **Default So
     [:octicons-info-16:](https://github.com/gorhill/uBlock/wiki){ .card-link title=Документация}
     [:octicons-code-16:](https://github.com/gorhill/uBlock){ .card-link title="Исходный код" }
     
-    ??? скачать
+    ??? downloads
     
         - [:simple-firefoxbrowser: Firefox](https://addons.mozilla.org/firefox/addon/ublock-origin/)
         - [:simple-googlechrome: Chrome](https://chrome.google.com/webstore/detail/ublock-origin/cjpalhdlnbpafiamejdnhcphjbkeiagm)

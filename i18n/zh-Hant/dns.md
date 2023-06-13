@@ -35,7 +35,7 @@ cover: dns.png
 
 ## 原生作業系統支援
 
-### 安卓
+### Android
 
 Android 9 以上版本支持 DoT (DNS over TLS)。 設定方式可以在以下位置找到： **設定** &rarr; **網路 & 網際網路** &rarr; **私人 DNS**。
 

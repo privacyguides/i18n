@@ -132,7 +132,9 @@ Brave כולל כמה אמצעים נגד טביעת אצבע בתכונת [Shie
 
     ![Safari לוגו](assets/img/browsers/safari.svg){ align=right }
     
-    **Safari** הוא דפדפן ברירת המחדל ב - iOS. הוא כולל [תכונות פרטיות](https://support.apple.com/guide/iphone/browse-the-web-privately-iphb01fc3c85/15.0/ios/15.0) כגון הגנת מעקב חכמה, דוח פרטיות, כרטיסיות גלישה פרטית מבודדות, iCloud Private Relay ושדרוגי HTTPS אוטומטיים.
+    **Safari** הוא דפדפן ברירת המחדל ב - iOS. הוא כולל [תכונות פרטיות](https://support.apple.com/guide/iphone/browse-the-web-privately-iphb01fc3c85/15.0/ios/15.0) כגון [מניעת מעקב חכמה](https://webkit.org/blog/7675/intelligent-tracking-prevention/), דוח פרטיות, כרטיסיות גלישה פרטית מבודדות וארעיות, ממסר פרטי של iCloud והפחתת טביעות אצבע על ידי הצגת גרסה פשוטה של תצורת המערכת לאתרים כך שיותר מכשירים ייראו זהים.
+    
+    Safari מוגבל למכשירי אפל ומכוסה על ידי [הגנה על שלמות המערכת](https://support.apple.com/guide/security/system-integrity-protection-secb7ea06b49/web), תכונת אבטחה המגבילה תוכניות וקבצי מערכת להיות קריאה בלבד כדי שלא תוכל לחבל בהם על ידך או תוכנה זדונית.
     
     [:octicons-home-16: דף הבית](https://www.apple.com/safari/){ .md-button .md-button--primary }
     [:octicons-eye-16:](https://www.apple.com/legal/privacy/data/en/safari/){ .card-link title="מדיניות פרטיות" }

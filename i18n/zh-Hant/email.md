@@ -40,7 +40,7 @@ cover: email.png
 
     ![Proton Mail logo](assets/img/email/protonmail.svg){ align=right }
     
-    **Proton Mail** 是一家專注於隱私、加密、安全性和易用性的電子郵件服務。 自* * 2013 年* *開始運營。 Proton AG 總部位於瑞士日內瓦。 免費帳戶有 500 MB 的存儲j容量。
+    **Proton Mail** 是一家專注於隱私、加密、安全性和易用性的電子郵件服務。 自 **2013 年** 開始運營。 Proton AG 總部位於瑞士日內瓦。 免費帳戶有 500 MB 的存儲j容量。
     
     [:octicons-home-16: Homepage](https://proton.me/mail){ .md-button .md-button--primary }
     [:simple-torbrowser:](https://protonmailrmez3lotccipshtkleegetolb73fuirgj7r4o4vfu7ozyd.onion){ .card-link title="Onion Service" }

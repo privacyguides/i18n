@@ -118,7 +118,7 @@ Android 13:
 
 [工作用設定檔](https://support.google.com/work/android/answer/6191949) 是另一個隔離個別應用的方法，也比單獨的用戶設定檔更為方便。
 
-A **device controller** app such as [Shelter](../android.md#shelter) is required to create a Work Profile without an enterprise MDM, unless you're using a custom Android OS which includes one.
+**設備控制器**應用例如 [Shelter](../android.md#shelter) 需要建立不用企業 行動裝置管理(MDM) 工作設定檔，除非使用自定的Android 作業系統已包括。
 
 工作配置檔需靠裝置控制器才能運作。 控制器必須實現 *File Shuttle* 和 *Contact Search Blocking* 等功能或任何類型的隔離功能。 您還必須完全信任設備控制器應用程序，因為它可以完全訪問工作配置文件中的數據。
 

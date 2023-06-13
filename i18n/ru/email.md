@@ -28,7 +28,7 @@ cover: email.png
 
 </div>
 
-!!! предупреждение
+!!! warning "Предупреждение"
 
     При использовании технологии E2EE, такой, как OpenPGP, сообщения все равно будут содержать некоторые незашифрованные метаданные в заголовках письма. Узнай больше о [метаданных электронной почты](basics/email-security.md#email-metadata-overview).
     
@@ -48,7 +48,7 @@ cover: email.png
     [:octicons-info-16:](https://proton.me/support/mail){ .card-link title=Документация}
     [:octicons-code-16:](https://github.com/ProtonMail){ .card-link title="Исходный код" }
     
-    ??? скачать
+    ??? downoloads "скачать"
     
         - [:simple-googleplay: Google Play](https://play.google.com/store/apps/details?id=ch.protonmail.android)
         - [:simple-appstore: App Store](https://apps.apple.com/app/apple-store/id979659905)
@@ -111,7 +111,7 @@ Proton Mail не предлагает функцию цифрового насл
     [:octicons-eye-16:](https://mailbox.org/en/data-protection-privacy-policy){ .card-link title="Политика конфеденциальности" }
     [:octicons-info-16:](https://kb.mailbox.org/en/private){ .card-link title=Документация}
     
-    ??? скачать
+    ??? downoloads "скачать"
     
         - [:octicons-browser-16: Сайт](https://login.mailbox.org)
 
@@ -157,7 +157,7 @@ Mailbox.org имеет функцию цифрового наследия для
 
 <div class="grid cards" markdown>
 
-- ![Tutanota logo](assets/img/email/tutanota.svg){ .twemoji } [Tutanota](email.md#tutanota)
+- ![Логотип Tutanota](assets/img/email/tutanota.svg){ .twemoji } [Tutanota](email.md#tutanota)
 
 </div>
 
@@ -175,7 +175,7 @@ Mailbox.org имеет функцию цифрового наследия для
     [:octicons-code-16:](https://github.com/tutao/tutanota){ .card-link title="Исходный код" }
     [:octicons-heart-16:](https://tutanota.com/community/){ .card-link title=Поддержать }
     
-    ??? скачать
+    ??? downloads "скачать"
     
         - [:simple-googleplay: Google Play](https://play.google.com/store/apps/details?id=de.tutao.tutanota)
         - [:simple-appstore: App Store](https://apps.apple.com/app/tutanota/id922429609)
@@ -262,7 +262,7 @@ Tutanota не предлагает функцию цифрового насле�
     [:octicons-code-16:](https://github.com/anonaddy){ .card-link title="Исходный код" }
     [:octicons-heart-16:](https://anonaddy.com/donate/){ .card-link title=Пожертвовать }
     
-    ??? скачать
+    ??? downoloads "скачать"
     
         - [:simple-android: Android](https://anonaddy.com/faq/#is-there-an-android-app)
         - [:material-apple-ios: iOS](https://anonaddy.com/faq/#is-there-an-ios-app)
@@ -292,7 +292,7 @@ Tutanota не предлагает функцию цифрового насле�
     [:octicons-info-16:](https://simplelogin.io/docs/){ .card-link title=Документация}
     [:octicons-code-16:](https://github.com/simple-login){ .card-link title="Исходный код" }
     
-    ??? скачать
+    ??? downoloads "скачать"
     
         - [:simple-googleplay: Google Play](https://play.google.com/store/apps/details?id=io.simplelogin.android)
         - [:simple-appstore: App Store](https://apps.apple.com/app/id1494359858)
@@ -378,12 +378,12 @@ SimpleLogin был [приобретен компанией Proton AG](https://p
 
 - Защищает IP-адрес отправителя. Отфильтрует его от отображения в поле заголовка `Received`.
 - Не требуйте личной идентификационной информации (PII), кроме имени пользователя и пароля.
-- Privacy policy that meets the requirements defined by the GDPR.
+- Политика конфиденциальности, отвечающая требованиям GDPR.
 
 **В лучшем случае:**
 
 - Принимает [анонимные варианты оплаты](advanced/payments.md) ([криптовалюту](cryptocurrency.md), наличные, подарочные карты и т.д.)
-- Hosted in a jurisdiction with strong email privacy protection laws.
+- Хостинг в юрисдикции с сильными законами о защите конфиденциальности электронной почты.
 
 ### Безопасность
 

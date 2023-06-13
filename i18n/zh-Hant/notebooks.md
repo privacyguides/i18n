@@ -44,7 +44,7 @@ Joplin 不支援 [應用程式本身或個別筆記和筆記本](https://github.
 
     ! [Standard Notes 標誌] (assets/img/notebooks/standard-notes.svg) {align = right}
     
-    * *Standard Notes * *是一款簡單而私密的筆記應用程式，可隨時隨地輕鬆使用筆記功能。 它在每個平臺上都具有E2EE ，並且具有強大的主題和自訂編輯器的桌面體驗。 It has also been [independently audited](https://standardnotes.com/help/2/has-standard-notes-completed-a-third-party-security-audit).
+    * *Standard Notes * *是一款簡單而私密的筆記應用程式，可隨時隨地輕鬆使用筆記功能。 它在每個平臺上都具有E2EE ，並且具有強大的主題和自訂編輯器的桌面體驗。 它也作過 [獨立審記](https://standardnotes.com/help/2/has-standard-notes-completed-a-third-party-security-audit).
     
     [:octicons-home-16: Homepage](https://standardnotes.com){ .md-button .md-button--primary }
     [:octicons-eye-16:](https://standardnotes.com/privacy){ .card-link title="Privacy Policy" }

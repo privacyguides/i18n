@@ -8,7 +8,7 @@
 *[CLI]: 命令列介面
 *[CSV]: Comma-Separated Values (以逗號分開數值的文件)
 *[CVE]: Common Vulnerabilities and Exposures (常見漏洞和暴露)
-*[digital legacy feature]: 數位遺產是指在您死亡之後，允許讓其他人取用您留下的資料。
+*[數位遺產功能]: 數位遺產是指在您死亡之後，允許讓其他人取用您留下的資料。
 *[DNSSEC]: 網域名稱系統安全擴充套件
 *[DNS]: 域名系統
 *[DoH]: 通過 HTTPS 的 DNS

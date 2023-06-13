@@ -1,6 +1,6 @@
 ---
 meta_title: "Android 推薦: GrapheneOS 與 DivestOS - Privacy Guides"
-title: "安卓"
+title: "Android"
 icon: 'simple/android'
 description: Android 手機可考慮使用這些更為安全與尊重隱私的作業系統。
 cover: android.png
@@ -13,7 +13,7 @@ schema:
   - 
     "@context": http://schema.org
     "@type": CreativeWork
-    name: 安卓
+    name: Android
     image: /assets/img/android/android.svg
     url: https://source.android.com/
     sameAs: https://zh.wikipedia.org/wiki/Android_ (operating_system)
@@ -58,25 +58,25 @@ schema:
     "@type": MobileApplication
     name: Shelter
     applicationCategory: Utilities
-    operatingSystem: 安卓
+    operatingSystem: Android
   - 
     "@context": http://schema.org
     "@type": MobileApplication
     name: Auditor
     applicationCategory: Utilities
-    operatingSystem: 安卓
+    operatingSystem: Android
   - 
     "@context": http://schema.org
     "@type": MobileApplication
     name: 安全相機
     applicationCategory: Utilities
-    operatingSystem: 安卓
+    operatingSystem: Android
   - 
     "@context": http://schema.org
     "@type": MobileApplication
     name: 安全的 PDF 檢視器
     applicationCategory: Utilities
-    operatingSystem: 安卓
+    operatingSystem: Android
 ---
 
 ![Android 圖標](assets/img/android/android.svg){ align=right }

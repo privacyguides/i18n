@@ -17,7 +17,7 @@ schema:
       - Windows
       - macOS
       - Linux
-      - 安卓
+      - Android
     subjectOf:
       "@type": 網頁
       url: "./"
@@ -45,9 +45,9 @@ Tor 的工作原理是通過志願者運營的服務器來引導您的網際網�
 
 !!! recommendation
 
-    ! [Tor 瀏覽器標誌] (assets/img/browsers/tor.svg) {align = right}
+    ![Tor 瀏覽器標誌](assets/img/browsers/tor.svg){ align=right }
     
-    * * Tor 瀏覽器* *需要匿名的好選擇，為您提供 Tor 網絡和橋接的存取權限，它包含預設設置和擴展其自動配置安全級別有： *標準* 、 *更安全*和*最安全*三種。
+    **Tor 瀏覽器** 需要匿名的好選擇，為您提供 Tor 網絡和橋接的存取權限，它包含預設設置和擴展其自動配置安全級別有： *標準* 、 *更安全*和*最安全*三種。
     
     [:octicons-home-16: Homepage](https://www.torproject.org){ .md-button .md-button--primary }
     [:simple-torbrowser:](http://2gzyxa5ihm7nsggfxnu52rck2vv4rvmdlkiu3zzui5du4xyclen53wid.onion){ .card-link title="Onion Service" }
@@ -55,7 +55,7 @@ Tor 的工作原理是通過志願者運營的服務器來引導您的網際網�
     [:octicons-code-16:](https://gitweb.torproject.org/tor-browser.git/){ .card-link title="Source Code" }
     [:octicons-heart-16:](https://donate.torproject.org/){ .card-link title=Contribute }
     
-    ??? 下載
+    ??? downloads "下載"
     
         - [:simple-googleplay: Google Play](https://play.google.com/store/apps/details?id=org.torproject.torbrowser)
         - [:simple-android: Android](https://www.torproject.org/download/#android)
@@ -63,9 +63,9 @@ Tor 的工作原理是通過志願者運營的服務器來引導您的網際網�
         - [:simple-apple: macOS](https://www.torproject.org/download/)
         - [:simple-linux: Linux](https://www.torproject.org/download/)
 
-!!! 危險
+!!! danger "危險"
 
-    您應該* *永遠不要* *在Tor瀏覽器上安裝任何其他擴充功能，或編輯「關於：配置」設定，包括我們為Firefox建議的設定。 瀏覽器擴充套件和非標準設置會使您在 Tor 網絡上突顯出來，從而使您的瀏覽器更容易變成 [fingerprint]（ https://support.torproject.org/glossary/browser-fingerprinting ）。
+    您應該 **永遠不要** 在Tor瀏覽器上安裝任何其他擴充功能，或編輯「關於：配置」設定，包括我們為Firefox建議的設定。 瀏覽器擴充套件和非標準設置會使您在 Tor 網絡上突顯出來，從而使您的瀏覽器更容易變成 [fingerprint]（ https://support.torproject.org/glossary/browser-fingerprinting ）。
 
 Tor 瀏覽器旨在防止指紋識別----根據您的瀏覽器配置識別您。 因此，您 **不應** 修改瀏覽器超出預設 [安全級別](https://tb-manual.torproject.org/security-settings/)。
 
@@ -73,9 +73,9 @@ Tor 瀏覽器旨在防止指紋識別----根據您的瀏覽器配置識別您。
 
 !!! recommendation
 
-    ! [Orbot標誌] (assets/img/self-contained-networks/orbot.svg) {align = right}
+    ![Orbot標誌](assets/img/self-contained-networks/orbot.svg){ align=right }
     
-    * * Orbot * *是一款免費的Tor VPN ，適用於智慧型手機，可讓裝置上的任何應用程式流量通過 Tor 網絡。
+    **Orbot** 是一款免費的Tor VPN ，適用於智慧型手機，可讓裝置上的任何應用程式流量通過 Tor 網絡。
     
     [:octicons-home-16: Homepage](https://orbot.app/){ .md-button .md-button--primary }
     [:octicons-eye-16:](https://orbot.app/privacy-policy){ .card-link title="Privacy Policy" }
@@ -83,19 +83,19 @@ Tor 瀏覽器旨在防止指紋識別----根據您的瀏覽器配置識別您。
     [:octicons-code-16:](https://orbot.app/code){ .card-link title="Source Code" }
     [:octicons-heart-16:](https://orbot.app/donate){ .card-link title=Contribute }
     
-    ??? 下載
+    ??? downloads "下載"
     
-        - [:simple-googleplay: Google Play] (https://play.google.com/store/apps/details?id=org.torproject.android)
-        - [:simple-appstore: App Store] (https://apps.apple.com/us/app/orbot/id1609461599)
-        - [:simple-github: GitHub] (https://github.com/guardianproject/orbot/releases)
+        - [:simple-googleplay: Google Play](https://play.google.com/store/apps/details?id=org.torproject.android)
+        - [:simple-appstore: App Store](https://apps.apple.com/us/app/orbot/id1609461599)
+        - [:simple-github: GitHub](https://github.com/guardianproject/orbot/releases)
 
 我們之前建議在 Orbot 設定中啟用 *隔離目標地址* 偏好設定。 雖然從理論上講，此設置可以強制您連接不同 IP地址使用不同的迴路來改善隱私，但它並未為大多數應用程式（特別是 Web瀏覽）提供實際優勢，可能會帶來顯著的效能拖累，增加 Tor 網絡的負載。 我們不再建議您從預設值調整此設定，除非您知道需要調整。[^1]
 
-!!! 提示“ Android 使用訣竅”
+!!! tip "Android 使用訣竅"
 
-    Orbot 可以代理個別應用程式，如果它們有支援 SOCKS 或 HTTP 代理。 它也能使用 [VpnService]（ https://developer.android.com/reference/android/net/VpnService ）代理您的所有網路連接，其 VPN killswitch 設置在   :gear: **Settings** → **Network & internet** → **VPN** → :gear: → **Block connections without VPN**.。
+    Orbot 可以代理個別應用程式，如果它們有支援 SOCKS 或 HTTP 代理。 它也能使用 [VpnService](https://developer.android.com/reference/android/net/VpnService）代理您的所有網路連接，其 VPN killswitch 設置在 :gear: **Settings** → **Network & internet** → **VPN** → :gear: → **Block connections without VPN**.。
     
-    Guardian Project 的[F-Droid repository] (https://guardianproject.info/fdroid)和[Google Play] (https://play.google.com/store/apps/details?id=org.torproject.android)上Orbot 往往不是最新版，因此請考慮直接從 [GitHub repository] (https://github.com/guardianproject/orbot/releases) 下載。
+    Guardian Project 的[F-Droid repository](https://guardianproject.info/fdroid)和 [Google Play](https://play.google.com/store/apps/details?id=org.torproject.android) 上Orbot 往往不是最新版，因此請考慮直接從 [GitHub repository](https://github.com/guardianproject/orbot/releases) 下載。
     
     所有版本都使用同一個簽名，因此它們應該相互兼容。
 
@@ -105,10 +105,10 @@ Tor 瀏覽器旨在防止指紋識別----根據您的瀏覽器配置識別您。
 
 !!! recommendation
 
-    ! [Snowflake logo] (assets/img/browsers/snowflake.svg#only-light) {align = right}
-    ! [Snowflake logo] (assets/img/browsers/snowflake-dark.svg#only-dark) {align = right}
+    ![Snowflake logo](assets/img/browsers/snowflake.svg#only-light){ align=right }
+    ![Snowflake logo](assets/img/browsers/snowflake-dark.svg#only-dark){ align=right }
     
-    * * Snowflake * *允許您在瀏覽器中操作「Snowflake proxy」，將網路頻寛捐給 Tor 專案。
+    **Snowflake** 允許您在瀏覽器中操作「Snowflake proxy」，將網路頻寛捐給 Tor 專案。
     
     被審查的人可以使用 Snowflake 代理來連接 Tor 網絡。 Snowflake 是貢獻 Tor 網絡的好方法，即便您沒有運行 Tor 中繼或橋接的技術知識。
     

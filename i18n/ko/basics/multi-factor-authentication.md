@@ -66,7 +66,7 @@ Yubico 유효성 검사 서버는 클라우드 기반 서비스입니다. 따라
 
 [FIDO](https://ko.wikipedia.org/wiki/FIDO_%EC%96%BC%EB%9D%BC%EC%9D%B4%EC%96%B8%EC%8A%A4)에는 여러 표준이 포함되어 있습니다. U2F가 먼저 추가되었고, 이후에는 [WebAuthn](https://en.wikipedia.org/wiki/WebAuthn) 웹 표준을 포함하는 [FIDO2](https://en.wikipedia.org/wiki/FIDO2_Project)가 추가되었습니다.
 
-U2F and FIDO2 refer to the [Client to Authenticator Protocol](https://en.wikipedia.org/wiki/Client_to_Authenticator_Protocol), which is the protocol between the security key and the computer, such as a laptop or phone. It complements WebAuthn which is the component used to authenticate with the website (the "Relying Party") you're trying to log in on.
+U2F, FIDO2는 보안 키와 컴퓨터(노트북, 스마트폰 등) 간의 프로토콜인 [CTAP(Client to Authenticator Protocol)](https://en.wikipedia.org/wiki/Client_to_Authenticator_Protocol)를 포함합니다. 이는 여러분이 로그인하려는 웹사이트, 즉 신뢰 당사자(Relying Party)와 인증하는 데 쓰이는 WebAuthn을 보완합니다.
 
 WebAuthn은 가장 안전하고 프라이버시 친화적인 형태의 이중 인증 방식입니다. 인증 편의성은 Yubico OTP와 비슷한 수준이지만, Yubico OTP와는 달리 일회용 비밀번호를 출력하거나 유효성 검증 과정에 제3자 서버가 끼어들지 않습니다. WebAuthn은 인증 과정에 [공개 키 암호화 방식](https://ko.wikipedia.org/wiki/%EA%B3%B5%EA%B0%9C_%ED%82%A4_%EC%95%94%ED%98%B8_%EB%B0%A9%EC%8B%9D)을 사용합니다.
 
@@ -74,25 +74,25 @@ WebAuthn은 가장 안전하고 프라이버시 친화적인 형태의 이중 �
   ![FIDO](../assets/img/multi-factor-authentication/fido.png)
 </figure>
 
-When you create an account, the public key is sent to the service, then when you log in, the service will require you to "sign" some data with your private key. The benefit of this is that no password data is ever stored by the service, so there is nothing for an adversary to steal.
+계정을 생성할 때에는 공개 키가 서비스로 전송됩니다. 그리고 로그인 시에는 서비스로부터 사용자 측에서 사용자의 개인 키로 일부 데이터에 '서명''할 것을 요구합니다. 이 방식의 장점은, 서비스에 비밀번호 데이터는 전혀 저장되지 않기 때문에 공격자가 훔칠 수 있는게 없다는 점입니다.
 
-This presentation discusses the history of password authentication, the pitfalls (such as password reuse), and discussion of FIDO2 and [WebAuthn](https://webauthn.guide) standards.
+다음 프레젠테이션은 비밀번호 인증의 역사, 비밀번호 재사용 등의 위험성, FIDO2 및 [WebAuthn](https://webauthn.guide) 표준에 관한 내용을 다루고 있습니다.
 
 <div class="yt-embed">
   <iframe width="560" height="315" src="https://invidious.privacyguides.net/embed/aMo4ZlWznao?local=true" title="How FIDO2 and WebAuthn Stop Account Takeovers" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 </div>
 
-FIDO2 and WebAuthn have superior security and privacy properties when compared to any MFA methods.
+FIDO2, WebAuthn은 여타 MFA 방식에 비해 보안성과 프라이버시 면에서 우월합니다.
 
-Typically for web services it is used with WebAuthn which is a part of the [W3C recommendations](https://en.wikipedia.org/wiki/World_Wide_Web_Consortium#W3C_recommendation_(REC)). It uses public key authentication and is more secure than shared secrets used in Yubico OTP and TOTP methods, as it includes the origin name (usually, the domain name) during authentication. Attestation is provided to protect you from phishing attacks, as it helps you to determine that you are using the authentic service and not a fake copy.
+일반적으로 웹 서비스에서는 [W3C 권고안](https://en.wikipedia.org/wiki/World_Wide_Web_Consortium#W3C_recommendation_(REC))의 일부인 WebAuthn을 사용합니다. WebAuthn은 공개 키 인증을 사용하며 인증 시 출처(보통은 도메인 이름)를 포함하므로, Yubico OTP나 TOTP 방식에 사용되는 공유 비밀보다 안전합니다. 또한 WebAuthn의 증명(Attestation)은 사용자가 현재 위조된 것이 아닌 실제 서비스를 사용하고 있는지를 확인하는 데에 도움이 되어 여러분을 피싱 공격으로부터 보호합니다.
 
-Unlike Yubico OTP, WebAuthn does not use any public ID, so the key is **not** identifiable across different websites. It also does not use any third-party cloud server for authentication. All communication is completed between the key and the website you are logging into. FIDO also uses a counter which is incremented upon use in order to prevent session reuse and cloned keys.
+Yubico OTP와는 달리 WebAuthn은 공개 ID를 사용하지 않기 때문에, 키를 기반으로 여러 사이트에서 누군가를 식별하는 것이 **불가능합니다**. 인증 과정에 제3자 클라우드 서버를 사용하지도 않습니다. 모든 통신은 키와 (로그인하고자 하는) 웹사이트 간에서만 이루어집니다. FIDO는 사용할 때마다 카운터가 증가하는 방식을 사용하기 때문에, 세션 재사용이나 키 복제가 방지됩니다.
 
-If a website or service supports WebAuthn for the authentication, it is highly recommended that you use it over any other form of MFA.
+만약 웹사이트/서비스가 WebAuthn 인증을 지원하는 경우, 다른 MFA 방식 대신 WebAuthn을 사용하실 것을 강력히 권장드립니다.
 
-## General Recommendations
+## 보편적인 권장 사항
 
-We have these general recommendations:
+다음은 보편적으로 적용되는 내용입니다.
 
 ### 어떤 MFA 방식을 사용해야 하나요?
 
