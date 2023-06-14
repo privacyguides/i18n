@@ -30,7 +30,7 @@ Anonymity is the ability to act without a persistent identifier. 익명성을 �
 
     **'가명'**도 익명과 유사한 개념이지만, 가명은 실제 신원과 연결점이 없는 영구 식별자를 사용한다는 것이 특징입니다. '온라인에서 누구나 나를 `@GamerGuy12`라는 이름으로 찾을 수 있지만, 내 본명을 아는 사람은 아무도 없는 것', 이것이 바로 가명입니다.
 
-All of these concepts overlap, but it is possible to have any combination of these. The sweet spot for most people is when all three of these concepts overlap. However, it's tricker to achieve than many initially believe. Sometimes, you have to compromise on some of these, and that's okay too. This is where **threat modeling** comes into play, allowing you to make informed decisions about the [software and services](../tools.md) you use.
+All of these concepts overlap, but it is possible to have any combination of these. The sweet spot for most people is when all three of these concepts overlap. However, it's tricker to achieve than many initially believe. 때로는 일부를 타협해야 하겠지만, 괜찮습니다. This is where **threat modeling** comes into play, allowing you to make informed decisions about the [software and services](../tools.md) you use.
 
 [:material-book-outline: 위협 모델링에 대해 자세히 알아보기](threat-modeling.md ""){.md-button}
 
@@ -44,9 +44,9 @@ All of these concepts overlap, but it is possible to have any combination of the
 
 (디지털) 프라이버시의 일반적인 정의는 '자신에 대한 정보를 자신이 관리하고 **통제**할 수 있는 권리'입니다. 따라서 프라이버시를 '통제'로 생각하게 되는 것은 자연스럽습니다. 실제로 저희도 이런 생각을 가지고 본 웹사이트를 오랫동안 운영해 왔습니다. 하지만 이런 생각은 실질적으로는 그다지 효과적이지 않습니다.
 
-쿠키 동의 팝업을 생각해보세요. 여러 글로벌 웹사이트를 돌아다니다 보면 하루에도 수십 번씩 만나게 되는 이것은, 다양한 체크박스나 슬라이더를 통해 자신의 필요에 맞게 설정을 '타협'할 수 있습니다. 하지만 결국 '동의' 버튼을 눌러야 하죠. 글을 읽거나 물건을 구매하려면 그리해야 하니까요. 방문하는 모든 웹사이트마다 세부적인 프라이버시 조항을 검토하기를 원하는 사람은 없습니다. This is an exercise in [choice architecture](https://en.wikipedia.org/wiki/Choice_architecture), designed to make you take the easy route out instead of delving into a maze of configuration options that don't need to exist in the first place.
+쿠키 동의 팝업을 생각해보세요. 여러 글로벌 웹사이트를 돌아다니다 보면 하루에도 수십 번씩 만나게 되는 이것은, 다양한 체크박스나 슬라이더를 통해 자신의 필요에 맞게 설정을 '타협'할 수 있습니다. 하지만 결국 '동의' 버튼을 눌러야 하죠. 글을 읽거나 물건을 구매하려면 그리해야 하니까요. 방문하는 모든 웹사이트마다 세부적인 프라이버시 조항을 검토하기를 원하는 사람은 없습니다. 이는 [선택 구조물(Choice Architecture)](https://en.wikipedia.org/wiki/Choice_architecture)의 사례입니다. 사실은 처음부터 존재할 필요가 없던 수많은 선택지의 늪을 보여주고, 이용자가 하여금 자연스레 쉬운 길을 선택하게끔 설계되었습니다.
 
-==대부분의 앱에서, 자신의 프라이버시를 통제할 수 있을 것이라는 생각은 환상에 불과합니다.== 사용자 데이터에 관한 각종 옵션이 즐비한 대시보드는 존재하지만 "제 데이터를 제게 도움이 되는 방향으로만 사용하세요"같이 정작 우리가 원하는 옵션은 존재하지 않습니다. This type of control is meant to make you feel guilty about your choices, that you "had the choice" to make the apps you use more private, and you chose not to.
+==대부분의 앱에서, 자신의 프라이버시를 통제할 수 있을 것이라는 생각은 환상에 불과합니다.== 사용자 데이터에 관한 각종 옵션이 즐비한 설정 화면은 존재하지만 "제 데이터를 제게 도움이 되는 방향으로만 사용하세요"같이 정작 우리가 원하는 옵션은 존재하지 않습니다. 이러한 통제 방식은 사용자가 자신이 사용하는 앱을 더 프라이버시를 비공개로 설정할 수 있는 '선택권'이 존재함에도 불구하고 그걸 하나하나 찾아보고 설정하지 않은 자신에게 책임이 있는 것 처럼 느끼도록 만들기 위해서 존재합니다.
 
 프라이버시는 우리가 사용하는 [소프트웨어 및 서비스](../tools.md)에 기본적으로 내장되어 있어야 하는 것입니다. 사용자 개개인의 힘만으로는 직접 수많은 앱을 프라이버시 친화적이도록 수정하는 것은 불가능합니다.
 

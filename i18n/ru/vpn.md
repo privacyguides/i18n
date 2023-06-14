@@ -45,7 +45,7 @@ cover: vpn.png
     [:octicons-info-16:](https://www.ivpn.net/knowledgebase/general/){ .card-link title=Документация}
     [:octicons-code-16:](https://github.com/ivpn){ .card-link title="Исходный код" }
     
-    ??? скачать
+    ??? downloads "скачать"
     
         - [:simple-googleplay: Google Play](https://play.google.com/store/apps/details?id=net.ivpn.client)
         - [:octicons-moon-16: Accrescent](https://accrescent.app/app/net.ivpn.client)
@@ -107,7 +107,7 @@ IVPN [рекомендует](https://www.ivpn.net/wireguard/) использо�
     [:octicons-info-16:](https://mullvad.net/en/help/){ .card-link title=Документация}
     [:octicons-code-16:](https://github.com/mullvad){ .card-link title="Исходный код" }
     
-    ??? скачать
+    ??? downloads "скачать"
     
         - [:simple-googleplay: Google Play](https://play.google.com/store/apps/details?id=net.mullvad.mullvadvpn)
         - [:simple-appstore: App Store](https://apps.apple.com/app/mullvad-vpn/id1488466513)
@@ -127,56 +127,60 @@ IVPN [рекомендует](https://www.ivpn.net/wireguard/) использо�
 
 #### :material-check:{ .pg-green } Независимый аудит
 
-Mullvad's VPN clients have been audited by Cure53 and Assured AB in a pentest report [published at cure53.de](https://cure53.de/pentest-report_mullvad_v2.pdf). The security researchers concluded:
+Приложения Mullvad VPN прошли аудит от Cure53 и Assured AB в отчёте на проникновение [опубликованном на сайте cure53.de](https://cure53.de/pentest-report_mullvad_v2.pdf). Исследователи безопасности пришли к выводу:
 
-> Cure53 and Assured AB are happy with the results of the audit and the software leaves an overall positive impression. With security dedication of the in-house team at the Mullvad VPN compound, the testers have no doubts about the project being on the right track from a security standpoint.
+> Cure53 и Assured AB довольны результатами аудита, а программное обеспечение оставляет в целом положительное впечатление. Учитывая преданность безопасности внутренней команды Mullvad VPN, у тестеров нет сомнений в том, что проект находится на правильном пути с точки зрения безопасности.
 
-In 2020 a second audit [was announced](https://mullvad.net/blog/2020/6/25/results-available-audit-mullvad-app/) and the [final audit report](https://cure53.de/pentest-report_mullvad_2020_v2.pdf) was made available on Cure53's website:
+В 2020 году [было объявлено](https://mullvad.net/blog/2020/6/25/results-available-audit-mullvad-app/) о проведении повторного аудита и на сайте Cure53 был размещен [итоговый отчет об аудите](https://cure53.de/pentest-report_mullvad_2020_v2.pdf):
 
-> The results of this May-June 2020 project targeting the Mullvad complex are quite positive. [...] The overall application ecosystem used by Mullvad leaves a sound and structured impression. The overall structure of the application makes it easy to roll out patches and fixes in a structured manner. More than anything, the findings spotted by Cure53 showcase the importance of constantly auditing and re-assessing the current leak vectors, in order to always ensure privacy of the end-users. With that being said, Mullvad does a great job protecting the end-user from common PII leaks and privacy related risks.
+> Результаты этого проекта, осуществляемого в мае-июне 2020 года и направленного на комплекс Mullvad, весьма позитивны. [...] Общая экосистема приложений, используемая Mullvad, оставляет впечатление надежности и структурированности. Общая структура приложения позволяет легко и структурировано внедрять исправления и патчи. Более того, результаты, обнаруженные Cure53, демонстрируют важность постоянного аудита и переоценки текущих векторов утечки, чтобы всегда обеспечивать конфиденциальность конечных пользователей. Mullvad отлично справляется с защитой конечных пользователей от утечек личной информации и рисков, связанных с конфиденциальностью.
 
-In 2021 an infrastructure audit [was announced](https://mullvad.net/en/blog/2021/1/20/no-pii-or-privacy-leaks-found-cure53s-infrastructure-audit/) and the [final audit report](https://cure53.de/pentest-report_mullvad_2021_v1.pdf) was made available on Cure53's website. Another report was commissioned [in June 2022](https://mullvad.net/en/blog/2022/6/22/vpn-server-audit-found-no-information-leakage-or-logging-of-customer-data/) and is available on [Assured's website](https://www.assured.se/publications/Assured_Mullvad_relay_server_audit_report_2022.pdf).
+В 2021 году [было объявлено](https://mullvad.net/en/blog/2021/1/20/no-pii-or-privacy-leaks-found-cure53s-infrastructure-audit/) о проведении аудита инфраструктуры и на сайте Cure53 был размещен [итоговый отчет об аудите](https://cure53.de/pentest-report_mullvad_2021_v1.pdf). Другой отчет был заказан [в июне 2022 года](https://mullvad.net/en/blog/2022/6/22/vpn-server-audit-found-no-information-leakage-or-logging-of-customer-data/) и доступен на [сайте Assured](https://www.assured.se/publications/Assured_Mullvad_relay_server_audit_report_2022.pdf).
 
 #### :material-check:{ .pg-green } Клиенты с открытым исходным кодом
 
-Mullvad provides the source code for their desktop and mobile clients in their [GitHub organization](https://github.com/mullvad/mullvadvpn-app).
+Mullvad предоставляет исходный код для своих настольных и мобильных клиентов в [GitHub](https://github.com/mullvad/mullvadvpn-app).
 
 #### :material-check:{ .pg-green } Принимает наличные и Monero
 
-Mullvad, in addition to accepting credit/debit cards and PayPal, accepts Bitcoin, Bitcoin Cash, **Monero** and **cash/local currency** as anonymous forms of payment. \[WireGuard\](https://www.wireguard.com)\[^1] - это более новый протокол, использующий самую современную [криптографию\](https://www.wireguard.com/protocol/).
+Помимо приема кредитных/дебетовых карт и PayPal, Mullvad принимает Bitcoin, Bitcoin Cash, **Monero** и **наличные/местные валюты** как анонимные формы платежа. \[WireGuard\](https://www.wireguard.com)\[^1] - это более новый протокол, использующий самую современную [криптографию\](https://www.wireguard.com/protocol/).
 
 #### :material-check:{ .pg-green } Поддержка WireGuard
 
-Mullvad supports the WireGuard® protocol. [WireGuard](https://www.wireguard.com) - это более новый протокол, которой использует современную [криптография](https://www.wireguard.com/protocol/). Кроме того, WireGuard стремится быть более простым и производительным.
+Mullvad поддерживает протокол WireGuard®. [WireGuard](https://www.wireguard.com) - это более новый протокол, которой использует современную [криптография](https://www.wireguard.com/protocol/). Кроме того, WireGuard стремится быть более простым и производительным.
 
-Mullvad [recommends](https://mullvad.net/en/help/why-wireguard/) the use of WireGuard with their service. It is the default or only protocol on Mullvad's Android, iOS, macOS, and Linux apps, but on Windows you have to [manually enable](https://mullvad.net/en/help/how-turn-wireguard-mullvad-app/) WireGuard. Mullvad also offers a WireGuard configuration generator for use with the official WireGuard [apps](https://www.wireguard.com/install/).
+Mullvad [рекомендует](https://mullvad.net/en/help/why-wireguard/) использовать WireGuard с их сервисами. Это протокол по умолчанию или единственный протокол в приложениях Mullvad для Android, iOS, macOS и Linux, но в Windows вам придется [вручную включить](https://mullvad.net/en/help/how-turn-wireguard-mullvad-app/) WireGuard. Mullvad также предлагает генератор конфигурации WireGuard для использования с официальными[приложениями](https://www.wireguard.com/install/) WireGuard.
 
-#### :material-check:{ .pg-green } IPv6 Support
+#### :material-check:{ .pg-green } Поддержка IPv6
 
 Mullvad позволяет вам [получить доступ к сервисам, размещенным на IPv6](https://mullvad.net/en/blog/2014/9/15/ipv6-support/), в отличие от других провайдеров, которые блокируют IPv6-соединения.
 
-#### :material-alert-outline:{ .pg-orange } Remote Port Forwarding
+#### :material-alert-outline:{ .pg-orange } Удалённая переадресация портов
 
 Mullvad ранее поддерживал переадресацию портов, но убрал эту возможность в [May 2023](https://mullvad.net/en/blog/2023/5/29/removing-the-support-for-forwarded-ports/). Отсутствие этой функции может негативно сказаться на некоторых приложениях, особенно на пиринговых приложениях, таких как торрент-клиенты.
 
 #### :material-check:{ .pg-green } Приложения для смартфонов
 
-Mullvad has published [App Store](https://apps.apple.com/app/mullvad-vpn/id1488466513) and [Google Play](https://play.google.com/store/apps/details?id=net.mullvad.mullvadvpn) clients, both supporting an easy-to-use interface as opposed to requiring you to manually configure your WireGuard connection. The Android client is also available on [GitHub](https://github.com/mullvad/mullvadvpn-app/releases).
+Mullvad опубликовал клиенты в [App Store](https://apps.apple.com/app/mullvad-vpn/id1488466513) и [Google Play](https://play.google.com/store/apps/details?id=net.mullvad.mullvadvpn), оба поддерживают простой в использовании интерфейс, не требующий ручной настройки соединения WireGuard. Клиент для Android также доступен на [GitHub](https://github.com/mullvad/mullvadvpn-app/releases).
 
 #### :material-information-outline:{ .pg-blue } Дополнительная функциональность
 
-Mullvad is very transparent about which nodes they [own or rent](https://mullvad.net/en/servers/). They use [ShadowSocks](https://shadowsocks.org/) in their ShadowSocks + OpenVPN configuration, making them more resistant against firewalls with [Deep Packet Inspection](https://en.wikipedia.org/wiki/Deep_packet_inspection) trying to block VPNs. Supposedly, [China has to use a different method to block ShadowSocks servers](https://github.com/net4people/bbs/issues/22). Mullvad's website is also accessible via Tor at [o54hon2e2vj6c7m3aqqu6uyece65by3vgoxxhlqlsvkmacw6a7m7kiad.onion](http://o54hon2e2vj6c7m3aqqu6uyece65by3vgoxxhlqlsvkmacw6a7m7kiad.onion).
+Mullvad очень прозрачен в отношении того, какими узлами они [владеют или арендуют](https://mullvad.net/en/servers/). Они используют [ShadowSocks](https://shadowsocks.org/) в конфигурации ShadowSocks + OpenVPN, что делает их более устойчивыми к фаэрволам с [Deep Packet Inspection](https://en.wikipedia.org/wiki/Deep_packet_inspection), пытающимся блокировать VPN. Предположительно, [Китаю приходится использовать другой метод для блокировки серверов ShadowSocks](https://github.com/net4people/bbs/issues/22). Сайт Mullvad также доступен через Tor по адресу [o54hon2e2vj6c7m3aqqu6uyece65by3vgoxxhlqlsvkmacw6a7m7kiad.onion](http://o54hon2e2vj6c7m3aqqu6uyece65by3vgoxxhlqlsvkmacw6a7m7kiad.onion).
 
-### Mullvad
+### Proton VPN
 
 !!! recommendation annotate
 
-    ![Логотип Mullvad](/assets/img/vpn/mullvad.svg#only-light){ align=right }
-    ![Логотип Mullvad](/assets/img/vpn/mullvad-dark.svg#only-dark){ align=right }
+    ![Логотип Proton VPN](assets/img/vpn/protonvpn.svg){ align=right }
     
-    **Mullvad** - это быстрый и недорогой VPN с серьезным акцентом на прозрачность и безопасность. Они работают с **2009 года**.
+    **Proton VPN** - сильный соперник в сфере VPN, работающий с 2016 года. Proton AG базируется в Швейцарии и предлагает ограниченный бесплатный доступ, а также более функциональный премиум вариант.
     
-    Mullvad базируется в Швеции и не имеет бесплатной пробной версии. downloads
+    [:octicons-home-16: Домашняя страница](https://protonvpn.com/){ .md-button .md-button--primary }
+    [:octicons-eye-16:](https://protonvpn.com/privacy-policy){ .card-link title="Политика конфиденциальности" }
+    [:octicons-info-16:](https://protonvpn.com/support/){ .card-link title=Документация}
+    [:octicons-code-16:](https://github.com/ProtonVPN){ .card-link title="Исходный код" }
+    
+    ??? downloads "скачать"
     
         - [:simple-googleplay: Google Play](https://play.google.com/store/apps/details?id=ch.protonvpn.android)
         - [:simple-appstore: App Store](https://apps.apple.com/app/apple-store/id1437005085)
@@ -184,9 +188,9 @@ Mullvad is very transparent about which nodes they [own or rent](https://mullvad
         - [:simple-windows11: Windows](https://protonvpn.com/download-windows)
         - [:simple-linux: Linux](https://protonvpn.com/support/linux-vpn-setup/)
 
-#### :material-check:{ .pg-green } 67 Countries
+#### :material-check:{ .pg-green } 67 стран
 
-Proton VPN has [servers in 67 countries](https://protonvpn.com/vpn-servers).(1) Picking a VPN provider with a server nearest to you will reduce latency of the network traffic you send. Это происходит из-за более короткого маршрута (меньше промежуточных серверов) до пункта назначения.
+Сервера Proton VPN находятся [в 67 странах](https://protonvpn.com/vpn-servers).(1) Выбор VPN-провайдера с ближайшим к вам сервером позволит снизить задержку передаваемого вами сетевого трафика. Это происходит из-за более короткого маршрута (меньше промежуточных серверов) до пункта назначения.
 { .annotate }
 
 1. Последняя проверка: 2022-09-16
@@ -195,134 +199,132 @@ Proton VPN has [servers in 67 countries](https://protonvpn.com/vpn-servers).(1) 
 
 #### :material-check:{ .pg-green } Независимый аудит
 
-VPN-клиенты Mullvad были проверены компаниями Cure53 и Assured AB в отчете по пентесту \[опубликовано на сайте cure53.de\] (https://cure53.de/pentest-report_mullvad_v2.pdf). Исследователи безопасности заключили:
-
-&gt; Cure53 и Assured AB довольны результатами аудита, и программное обеспечение оставляет общее положительное впечатление. Учитывая преданность безопасности в команде Mullvad VPN, проверяющие не сомневаются, что проект находится на правильном пути с точки зрения безопасности. You can view individual reports for each platform at [protonvpn.com](https://protonvpn.com/blog/open-source/). In April 2022 Proton VPN underwent [another audit](https://protonvpn.com/blog/no-logs-audit/) and the report was [produced by Securitum](https://protonvpn.com/blog/wp-content/uploads/2022/04/securitum-protonvpn-nologs-20220330.pdf). A [letter of attestation](https://proton.me/blog/security-audit-all-proton-apps) was provided for Proton VPN's apps on 9th November 2021 by [Securitum](https://research.securitum.com).
+По состоянию на январь 2020 года компания Proton VPN прошла независимый аудит от SEC Consult. SEC Consult обнаружила несколько уязвимостей среднего и низкого риска в приложениях Proton VPN для Windows, Android и iOS, все из которых Proton VPN "должным образом устранил" ещё до публикации отчетов. Ни одна из выявленных проблем не предоставила бы злоумышленнику удаленный доступ к вашему устройству или трафику. Вы можете просмотреть отдельные отчеты для каждой платформы на сайте [protonvpn.com](https://protonvpn.com/blog/open-source/). В апреле 2022 года Proton VPN прошел [еще один аудит](https://protonvpn.com/blog/no-logs-audit/), отчет был [подготовлен компанией Securitum](https://protonvpn.com/blog/wp-content/uploads/2022/04/securitum-protonvpn-nologs-20220330.pdf). [Аттестационное письмо](https://proton.me/blog/security-audit-all-proton-apps) было предоставлено для приложений Proton VPN 9 ноября 2021 года компанией [Securitum](https://research.securitum.com).
 
 #### :material-check:{ .pg-green } Клиенты с открытым исходным кодом
 
-Proton VPN provides the source code for their desktop and mobile clients in their [GitHub organization](https://github.com/ProtonVPN).
+Proton VPN предоставляет исходный код для своих настольных и мобильных клиентов в своём [GitHub](https://github.com/ProtonVPN).
 
-#### :material-check:{ .pg-green } Accepts Cash
+#### :material-check:{ .pg-green } Принимает наличные
 
-Proton VPN, in addition to accepting credit/debit cards, PayPal, and [Bitcoin](advanced/payments.md#other-coins-bitcoin-ethereum-etc), also accepts **cash/local currency** as an anonymous form of payment.
+Помимо приема кредитных/дебетовых карт и PayPal, Proton VPN принимает [Bitcoin](advanced/payments.md#other-coins-bitcoin-ethereum-etc) и **наличные/местные валюты** как анонимные формы платежа.
 
 #### :material-check:{ .pg-green } Поддержка WireGuard
 
-Mullvad поддерживает протокол WireGuard®. [WireGuard](https://www.wireguard.com) - это более новый протокол, которой использует современную [криптография](https://www.wireguard.com/protocol/). Кроме того, WireGuard стремится быть более простым и производительным.
+Proton VPN, в основном, поддерживает протокол WireGuard®. [WireGuard](https://www.wireguard.com) - это более новый протокол, которой использует современную [криптография](https://www.wireguard.com/protocol/). Кроме того, WireGuard стремится быть более простым и производительным.
 
-Proton VPN [recommends](https://protonvpn.com/blog/wireguard/) the use of WireGuard with their service. On Proton VPN's Windows, macOS, iOS, Android, ChromeOS, and Android TV apps, WireGuard is the default protocol; however, [support](https://protonvpn.com/support/how-to-change-vpn-protocols/) for the protocol is not present in their Linux app.
+Proton VPN [рекомендует](https://protonvpn.com/blog/wireguard/) использовать WireGuard вместе со своими сервисами. В приложениях Proton VPN для Windows, macOS, iOS, Android, ChromeOS и Android TV протокол WireGuard используется по умолчанию; однако [поддержка](https://protonvpn.com/support/how-to-change-vpn-protocols/) для этого протокола отсутствует в их приложении для Linux.
 
 #### :material-alert-outline:{ .pg-orange } Удаленная переадресация портов
 
-Proton VPN currently only supports remote [port forwarding](https://protonvpn.com/support/port-forwarding/) on Windows, which may impact some applications. Especially Peer-to-peer applications like Torrent clients.
+В настоящее время Proton VPN поддерживает удаленную [переадресацию портов](https://protonvpn.com/support/port-forwarding/) только на Windows, что может повлиять на некоторые приложения. Особенно это касается приложений Peer-to-peer, например Torrent-клиенты.
 
 #### :material-check:{ .pg-green } Приложения для смартфонов
 
-In addition to providing standard OpenVPN configuration files, Proton VPN has mobile clients for [App Store](https://apps.apple.com/us/app/protonvpn-fast-secure-vpn/id1437005085), [Google Play](https://play.google.com/store/apps/details?id=ch.protonvpn.android&hl=en_US), and [GitHub](https://github.com/ProtonVPN/android-app/releases) allowing for easy connections to their servers.
+Помимо предоставления стандартных файлов конфигурации OpenVPN, Proton VPN имеет мобильные клиенты в [App Store](https://apps.apple.com/us/app/protonvpn-fast-secure-vpn/id1437005085), [Google Play](https://play.google.com/store/apps/details?id=ch.protonvpn.android&hl=en_US), и [GitHub](https://github.com/ProtonVPN/android-app/releases), позволяющие легко подключаться к их серверам.
 
 #### :material-information-outline:{ .pg-blue } Дополнительная функциональность
 
-Proton VPN clients support two factor authentication on all platforms except Linux at the moment. Proton VPN has their own servers and datacenters in Switzerland, Iceland and Sweden. They offer adblocking and known malware domains blocking with their DNS service. Additionally, Proton VPN also offers "Tor" servers allowing you to easily connect to onion sites, but we still strongly recommend using [the official Tor Browser](https://www.torproject.org/) for this purpose.
+В настоящее время клиенты Proton VPN поддерживают двухфакторную аутентификацию на всех платформах, кроме Linux. Proton VPN имеет собственные серверы и дата-центры в Швейцарии, Исландии и Швеции. Он предлагает блокировку рекламы и блокировку известных вредоносных доменов с помощью их DNS. Кроме того, Proton VPN также предлагает "Tor" серверы, позволяющие легко подключаться к onion сайтам, но мы все же настоятельно рекомендуем использовать для этих целей [официальный Tor Browser](https://www.torproject.org/).
 
-#### :material-alert-outline:{ .pg-orange } Killswitch feature is broken on Intel-based Macs
+#### :material-alert-outline:{ .pg-orange } Функция Killswitch не работает на Mac на базе Intel
 
-System crashes [may occur](https://protonvpn.com/support/macos-t2-chip-kill-switch/) on Intel-based Macs when using the VPN killswitch. If you require this feature, and you are using a Mac with Intel chipset, you should consider using another VPN service.
+При использовании VPN killswitch [возможны системные сбои](https://protonvpn.com/support/macos-t2-chip-kill-switch/) на компьютерах Mac на базе Intel. Если вам необходима эта функция, и вы используете Mac с чипсетом Intel, вам следует рассмотреть возможность использования другой службы VPN.
 
-## Criteria
+## Критерии
 
-!!! recommendation
+!!! danger "осторожно"
 
-    It is important to note that using a VPN provider will not make you anonymous, but it will give you better privacy in certain situations. A VPN is not a tool for illegal activities. Don't rely on a "no log" policy.
+    Важно отметить, что использование VPN не сделает вас анонимным, но в определенных ситуациях это обеспечит вам лучшую конфиденциальность. VPN не является инструментом для незаконной деятельности. Не полагайтесь на политику "отсутствия логов".
 
-**Please note we are not affiliated with any of the providers we recommend. This allows us to provide completely objective recommendations.** In addition to [our standard criteria](about/criteria.md), we have developed a clear set of requirements for any VPN provider wishing to be recommended, including strong encryption, independent security audits, modern technology, and more. We suggest you familiarize yourself with this list before choosing a VPN provider, and conduct your own research to ensure the VPN provider you choose is as trustworthy as possible.
+**Обратите внимание, что мы не связаны ни с одним из рекомендуемых нами провайдеров. Это позволяет нам давать абсолютно объективные рекомендации.** Помимо [наших стандартных критериев](about/criteria.md), мы разработали четкий набор требований к любому VPN-провайдеру, желающему быть рекомендованным, включая надежное шифрование, независимый аудит безопасности, современные технологии и многое другое. Мы рекомендуем вам ознакомиться с этим списком перед выбором VPN-провайдера, а также провести собственное исследование, чтобы убедиться, что выбранный вами VPN-провайдер заслуживает максимального доверия.
 
-### Technology
+### Технологии
 
-We require all our recommended VPN providers to provide OpenVPN configuration files to be used in any client. **If** a VPN provides their own custom client, we require a killswitch to block network data leaks when disconnected.
+Мы требуем, чтобы все рекомендуемые нами VPN-провайдеры предоставляли файлы конфигурации OpenVPN для использования в любом клиенте. **Если** VPN предоставляет свой собственный пользовательский клиент, мы требуем наличия killswitch для блокировки утечки сетевых данных при отключении.
 
-**Minimum to Qualify:**
+**Минимальные требования:**
 
-- Support for strong protocols such as WireGuard & OpenVPN.
-- Killswitch built in to clients.
-- Multihop support. Multihopping is important to keep data private in case of a single node compromise.
-- If VPN clients are provided, they should be [open-source](https://en.wikipedia.org/wiki/Open_source), like the VPN software they generally have built into them. We believe that [source code](https://en.wikipedia.org/wiki/Source_code) availability provides greater transparency about what your device is actually doing.
+- Поддержка надежных протоколов, таких как WireGuard & OpenVPN.
+- Killswitch встроен в приложения.
+- Поддержка Multihop. Multihop важен для сохранения конфиденциальности данных в случае компрометации одного узла.
+- Если предоставляются приложения VPN, они должны быть [с открытым исходным кодом](https://en.wikipedia.org/wiki/Open_source), как и программное обеспечение VPN, которое обычно в них встроено. Мы считаем, что доступность [исходного кода](https://en.wikipedia.org/wiki/Source_code) обеспечивает большую прозрачность в отношении того, что на самом деле делает ваше устройство.
 
-**Best Case:**
+**В лучшем случае:**
 
-- WireGuard and OpenVPN support.
-- Killswitch with highly configurable options (enable/disable on certain networks, on boot, etc.)
-- Easy-to-use VPN clients
-- Supports [IPv6](https://en.wikipedia.org/wiki/IPv6). We expect that servers will allow incoming connections via IPv6 and allow you to access services hosted on IPv6 addresses.
-- Capability of [remote port forwarding](https://en.wikipedia.org/wiki/Port_forwarding#Remote_port_forwarding) assists in creating connections when using P2P ([Peer-to-Peer](https://en.wikipedia.org/wiki/Peer-to-peer)) file sharing software or hosting a server (e.g., Mumble).
+- Поддержка WireGuard и OpenVPN.
+- Killswitch с широкими возможностями настройки (включение/выключение в определенных сетях, при включении и т.д.)
+- Простые в использовании приложения VPN
+- Поддержка [IPv6](https://en.wikipedia.org/wiki/IPv6). Мы ожидаем, что серверы будут разрешать входящие соединения через IPv6 и позволят вам получить доступ к услугам, размещенным на адресах IPv6.
+- Возможность [удаленной переадресации портов](https://en.wikipedia.org/wiki/Port_forwarding#Remote_port_forwarding) помогает создавать соединения при использовании программного обеспечения для обмена файлами P2P ([Peer-to-Peer](https://en.wikipedia.org/wiki/Peer-to-peer)) или хостинга сервера (например, Mumble).
 
-### Privacy
+### Конфиденциальность
 
-We prefer our recommended providers to collect as little data as possible. Not collecting personal information on registration, and accepting anonymous forms of payment are required.
+Мы предпочитаем, чтобы рекомендуемые нами поставщики собирали как можно меньше данных. Не собирали личную информацию при регистрации и принимали анонимные формы оплаты.
 
-**Minimum to Qualify:**
+**Минимальные требования:**
 
-- [Anonymous cryptocurrency](cryptocurrency.md) **or** cash payment option.
-- No personal information required to register: Only username, password, and email at most.
+- [Анонимная криптовалюта](cryptocurrency.md) **или** возможность оплаты наличными.
+- Для регистрации не требуется никакой личной информации: Только имя пользователя, пароль и, максимум электронная почта.
 
-**Best Case:**
+**В лучшем случае:**
 
-- Accepts multiple [anonymous payment options](advanced/payments.md).
-- No personal information accepted (autogenerated username, no email required, etc.).
+- Принимает множество [анонимных вариантов оплаты](advanced/payments.md).
+- Не принимается личная информация (автогенерируемое имя пользователя, не требуется электронная почта и т.д.).
 
-### Security
+### Безопасность
 
-A VPN is pointless if it can't even provide adequate security. We require all our recommended providers to abide by current security standards for their OpenVPN connections. Ideally, they would use more future-proof encryption schemes by default. We also require an independent third-party to audit the provider's security, ideally in a very comprehensive manner and on a repeated (yearly) basis.
+VPN бессмысленен, если он даже не может обеспечить адекватную безопасность. Мы требуем, чтобы все рекомендуемые нами провайдеры соблюдали современные стандарты безопасности для своих соединений OpenVPN. В идеале, они должны по умолчанию использовать более перспективные схемы шифрования. Мы также требуем, чтобы независимая третья сторона провела аудит безопасности провайдера, в идеале - в полном объеме и на повторяющейся (ежегодной) основе.
 
-**Minimum to Qualify:**
+**Минимальные требования:**
 
-- Strong Encryption Schemes: OpenVPN with SHA-256 authentication; RSA-2048 or better handshake; AES-256-GCM or AES-256-CBC data encryption.
-- Perfect Forward Secrecy (PFS).
-- Published security audits from a reputable third-party firm.
+- Надежные схемы шифрования: OpenVPN с аутентификацией SHA-256; рукопожатие RSA-2048 или лучше; шифрование данных AES-256-GCM или AES-256-CBC.
+- Совершенная прямая секретность (PFS).
+- Опубликованные аудиты безопасности от авторитетной сторонней фирмы.
 
-**Best Case:**
+**В лучшем случае:**
 
-- Strongest Encryption: RSA-4096.
-- Perfect Forward Secrecy (PFS).
-- Comprehensive published security audits from a reputable third-party firm.
-- Bug-bounty programs and/or a coordinated vulnerability-disclosure process.
+- Самое сильное шифрование: RSA-4096.
+- Совершенная прямая секретность (PFS).
+- Опубликованные аудиты безопасности от авторитетной сторонней фирмы.
+- Программы "bug-bounty" и/или скоординированный процесс раскрытия информации об уязвимостях.
 
-### Trust
+### Доверие
 
-You wouldn't trust your finances to someone with a fake identity, so why trust them with your internet data? We require our recommended providers to be public about their ownership or leadership. We also would like to see frequent transparency reports, especially in regard to how government requests are handled.
+Вы бы не доверили свои финансы человеку с фальшивой личностью, так зачем доверять ему свой интернет трафик? Мы требуем, чтобы рекомендованные нами поставщики услуг открыто заявляли о своих владельцах или своём руководстве. Мы также хотели бы видеть частые отчеты о прозрачности, особенно в отношении того, как обрабатываются правительственные запросы.
 
-**Minimum to Qualify:**
+**Минимальные требования:**
 
-- Public-facing leadership or ownership.
+- Руководство или владение, ориентированное на общественность.
 
-**Best Case:**
+**В лучшем случае:**
 
-- Public-facing leadership.
-- Frequent transparency reports.
+- Лидерство, ориентированное на общественность.
+- Частые отчеты о прозрачности.
 
-### Marketing
+### Маркетинг
 
-With the VPN providers we recommend we like to see responsible marketing.
+От провайдеров VPN, которых мы рекомендуем, мы ожидаем ответственный маркетинг.
 
-**Minimum to Qualify:**
+**Минимальные требования:**
 
-- Must self-host analytics (i.e., no Google Analytics). The provider's site must also comply with [DNT (Do Not Track)](https://en.wikipedia.org/wiki/Do_Not_Track) for people who want to opt-out.
+- Должен самостоятельно проводить аналитику (т.е. не Google Analytics). Сайт провайдера также должен соответствовать требованиям [DNT (Do Not Track)](https://en.wikipedia.org/wiki/Do_Not_Track) для людей, которые хотят отказаться от аналитики.
 
-Must not have any marketing which is irresponsible:
+Не должно быть никакого маркетинга, который является безответственным:
 
-- Making guarantees of protecting anonymity 100%. When someone makes a claim that something is 100% it means there is no certainty for failure. We know people can quite easily deanonymize themselves in a number of ways, e.g.:
-    - Reusing personal information (e.g., email accounts, unique pseudonyms, etc.) that they accessed without anonymity software (Tor, VPN, etc.)
-    - [Browser fingerprinting](https://en.wikipedia.org/wiki/Device_fingerprint#Browser_fingerprint)
-- Claim that a single circuit VPN is "more anonymous" than Tor, which is a circuit of three or more hops that regularly changes.
-- Use responsible language: i.e., it is okay to say that a VPN is "disconnected" or "not connected", however claiming that someone is "exposed", "vulnerable" or "compromised" is needless use of alarming language that may be incorrect. For example, that person might simply be on another VPN provider's service or using Tor.
+- Предоставление гарантий защиты анонимности на 100%. Когда кто-то утверждает: "Это является на 100% ..." - это не означает, что кто-то не может ошибиться. Мы знаем, что люди могут довольно легко деанонимизировать себя различными способами, например:
+    - Повторное использование личной информации, например (учетные записи электронной почты, уникальные псевдонимы и т.д.), к которой они получили доступ без программного обеспечения обеспечивающего анонимность (Tor, VPN и т.д.)
+    - [Цифровые отпечатки браузера](https://en.wikipedia.org/wiki/Device_fingerprint#Browser_fingerprint)
+- Утверждение, что VPN с одним слоем "более анонимен", чем Tor, который представляет собой сеть из трех или более, регулярно меняющихся, слоёв.
+- Использует ответственные формулировки: например, можно сказать, что VPN "отключена" или "не подключена", но утверждать, что кто-то "подвержен утечкам", "уязвим" или "скомпрометирован" - это ненужное использование тревожных формулировок, которые могут быть неверными. Например, этот человек может быть просто использует другого провайдера VPN или Tor.
 
-**Best Case:**
+**В лучшем случае:**
 
-Responsible marketing that is both educational and useful to the consumer could include:
+Ответственный маркетинг, который является одновременно образовательным и полезным для потребителя, может включать:
 
-- An accurate comparison to when [Tor](tor.md) should be used instead.
-- Availability of the VPN provider's website over a [.onion service](https://en.wikipedia.org/wiki/.onion)
+- Точное описание ситуаций, когда вместо VPN следует использовать [Tor](tor.md).
+- Доступность веб-сайта провайдера VPN через сервис [.onion](https://en.wikipedia.org/wiki/.onion)
 
-### Additional Functionality
+### Дополнительная функциональность
 
-While not strictly requirements, there are some factors we looked into when determining which providers to recommend. These include adblocking/tracker-blocking functionality, warrant canaries, multihop connections, excellent customer support, the number of allowed simultaneous connections, etc.
+Хотя это и не является строгими требованиями, существуют и другие факторы удобства или конфиденциальности, на которые мы обращали внимание при выборе рекомендуемых провайдеров. К ним относятся функции блокировки рекламы/трекеров, свидетельство канарейки, многослойные соединения, отличная поддержка клиентов, количество разрешенных одновременных подключений и т.д.
