@@ -1,5 +1,5 @@
 ---
-title: Pagos privados
+title: Pagos Privados
 icon: material/hand-coin
 ---
 
@@ -13,7 +13,7 @@ La legislación sobre pagos en efectivo varía según el país. En Estados Unido
 
 A pesar de ello, suele ser la mejor opción.
 
-## Tarjetas prepago y tarjetas regalo
+## Tarjetas de Prepago & Tarjetas de Regalo
 
 Es relativamente sencillo comprar tarjetas regalo y tarjetas prepago en la mayoría de los supermercados y tiendas de conveniencia con dinero en efectivo. Las tarjetas regalo no suelen tener comisión, aunque las de prepago a menudo sí, así que presta mucha atención a estas comisiones y a las fechas de caducidad. Algunos comercios pueden pedirte el DNI en la caja para reducir el fraude.
 
@@ -25,7 +25,7 @@ Las tarjetas de prepago no permiten retirar dinero de los cajeros automáticos n
 
 El efectivo sigue siendo la mejor opción para las compras en persona para la mayoría de la gente. Las tarjetas regalo pueden ser útiles por el ahorro que suponen. Las tarjetas de prepago pueden ser útiles en lugares donde no se acepta dinero en efectivo. Las tarjetas regalo y las tarjetas prepago son más fáciles de utilizar en Internet que el dinero en efectivo, y son más fáciles de adquirir con criptomonedas que con dinero en efectivo.
 
-### Mercados en línea
+### Mercados en Línea
 
 Si tienes [criptomonedas](../cryptocurrency.md), puedes comprar tarjetas regalo en una tienda online de tarjetas de regalo. Algunos de estos servicios ofrecen opciones de verificación de identidad para límites más altos, pero también permiten cuentas con sólo una dirección de correo electrónico. Los límites básicos comienzan en 5.000-10.000 dólares al día para las cuentas básicas, y límites significativamente más altos para las cuentas verificadas por ID (si se ofrecen).
 
@@ -45,21 +45,21 @@ Estas tienden a ser buenas opciones para pagos recurrentes/de suscripción en l�
 
 Las criptomonedas son una forma digital de moneda diseñada para funcionar sin autoridades centrales como un gobierno o un banco. Mientras que *algunos* proyectos de criptodivisas pueden permitirle realizar transacciones privadas en línea, muchos utilizan una blockchain pública que no proporciona ninguna privacidad en las transacciones. Las criptomonedas también tienden a ser activos muy volátiles, lo que significa que su valor puede cambiar rápida y significativamente en cualquier momento. Por ello, en general no recomendamos utilizar criptomonedas como depósito de valor a largo plazo. Si decides utilizar criptomoneda en línea, asegúrate de conocer bien sus aspectos de privacidad de antemano, y sólo invierte cantidades cuya pérdida no sea desastrosa.
 
-!!! danger "Peligro"
+!!! peligro
 
     La gran mayoría de las criptomonedas operan en una cadena de bloques **pública**, lo que significa que cada transacción es de dominio público. Esto incluye incluso las criptomonedas más conocidas, como Bitcoin y Ethereum. Las transacciones con estas criptomonedas no deben considerarse privadas y no protegerán tu anonimato.
     
     Además, muchas criptomonedas, si no la mayoría, son estafas. Únicamente realice transacciones con los proyectos en los que confíe.
 
-### Monedas de privacidad
+### Monedas de Privacidad
 
 Existen varios proyectos de criptomonedas que pretenden proporcionar privacidad haciendo anónimas las transacciones. Recomendamos utilizar uno que proporcione anonimato de transacciones **por defecto** para evitar errores operativos.
 
-- [Criptomoneda recomendada :material-arrow-right-drop-circle:](../cryptocurrency.md#coins)
+- [Criptomoneda Recomendada :material-arrow-right-drop-circle:](../cryptocurrency.md#coins)
 
-Las monedas de privacidad han sido objeto de un creciente escrutinio por parte de los organismos gubernamentales. En 2020, [el IRS publicó una recompensa de 625.000 dólares](https://www.forbes.com/sites/kellyphillipserb/2020/09/14/irs-will-pay-up-to-625000-if-you-can-crack-monero-other-privacy-coins/?sh=2e9808a085cc) para herramientas que puedan romper Bitcoin Lightning Network y/o la privacidad de las transacciones de Monero. En última instancia, [pagó a dos empresas](https://sam.gov/opp/5ab94eae1a8d422e88945b64181c6018/view) (Chainalysis e Integra Fec) una suma combinada de 1,25 millones de dólares por herramientas que supuestamente lo hacen (se desconoce a qué red de criptomonedas se dirigen estas herramientas). Debido al secretismo que rodea a este tipo de herramientas, ==ninguno de estos métodos de rastreo de criptomonedas ha sido confirmado de forma independiente.== Sin embargo, es bastante probable que existan herramientas que ayuden a realizar investigaciones específicas sobre las transacciones de monedas privadas, y que éstas sólo consigan frustrar la vigilancia masiva.
+Las monedas de privacidad han sido objeto de un creciente escrutinio por parte de organismos gubernamentales. En 2020, [el IRS publicó una recompensa de 625.000 dólares](https://www.forbes.com/sites/kellyphillipserb/2020/09/14/irs-will-pay-up-to-625000-if-you-can-crack-monero-other-privacy-coins/?sh=2e9808a085cc) para herramientas que puedan romper Bitcoin Lightning Network y/o la privacidad de las transacciones de Monero. En última instancia, [pagó a dos empresas](https://sam.gov/opp/5ab94eae1a8d422e88945b64181c6018/view) (Chainalysis e Integra Fec) una suma combinada de 1,25 millones de dólares por herramientas que supuestamente lo hacen (se desconoce a qué red de criptomonedas se dirigen estas herramientas). Debido al secretismo que rodea a este tipo de herramientas, ==ninguno de estos métodos de rastreo de criptomonedas ha sido confirmado de forma independiente.== Sin embargo, es bastante probable que existan herramientas que ayuden a realizar investigaciones específicas sobre las transacciones de monedas privadas, y que éstas sólo consigan frustrar la vigilancia masiva.
 
-### Otras monedas (Bitcoin, Ethereum, etc.)
+### Otras Monedas (Bitcoin, Ethereum, etc.)
 
 La gran mayoría de los proyectos de criptomonedas utilizan una cadena de bloques pública, lo que significa que todas las transacciones son fácilmente rastreables y permanentes. Por ello, desaconsejamos encarecidamente el uso de la mayoría de las criptomonedas por motivos relacionados con la privacidad.
 
@@ -67,7 +67,7 @@ Las transacciones anónimas en una blockchain pública son *teóricamente* posib
 
 ==Tu mejor opción es evitar estas criptomonedas por completo y quedarse con una que proporcione privacidad por defecto.== Intentar utilizar otra criptomoneda está fuera del alcance de este sitio y se desaconseja encarecidamente.
 
-### Custodia de carteras
+### Custodia de Carteras
 
 En el caso de las criptomonedas existen dos tipos de monederos: los monederos con custodia y los monederos sin custodia. Los monederos custodiados son operados por empresas/intercambios centralizados, donde la clave privada de tu monedero la tiene esa empresa, y puedes acceder a ellos desde cualquier lugar normalmente con un nombre de usuario y contraseña normales. Los monederos no custodiados son monederos en los que tu controlas y gestionas las claves privadas para acceder a él. Asumiendo que mantienes las claves privadas de tu monedero seguras y con copias de seguridad, los monederos sin custodia proporcionan mayor seguridad y resistencia a la censura que los monederos con custodia, porque tu criptomoneda no puede ser robada o congelada por una empresa con custodia sobre tus claves privadas. La custodia de claves es especialmente importante cuando se trata de monedas con privacidad: Los monederos de custodia conceden a la empresa operadora la capacidad de ver tus transacciones, anulando los beneficios de privacidad de esas criptodivisas.
 
@@ -77,7 +77,7 @@ Adquirir [criptomonedas](../cryptocurrency.md) como Monero de forma privada pued
 
 Si sigues este camino, asegúrate de comprar Monero en momentos diferentes y en cantidades distintas a las que lo gastarás. Si compras 5.000 dólares de Monero en una bolsa y haces una compra de 5.000 dólares en Monero una hora más tarde, esas acciones podrían ser potencialmente correlacionadas por un observador externo independientemente del camino que haya tomado el Monero. Escalonar las compras y adquirir grandes cantidades de Monero por adelantado para luego gastarlas en múltiples transacciones más pequeñas puede evitar este escollo.
 
-## 8. Consideraciones Adicionales
+## Consideraciones Adicionales
 
 Cuando hagas un pago en persona con efectivo, asegúrate de tener en cuenta tu privacidad en persona. Las cámaras de seguridad son omnipresentes. Considere usar ropa no distintiva y una máscara facial (como una máscara quirúrgica o N95). No te inscribas en programas de recompensas ni facilites ninguna otra información sobre ti.
 
