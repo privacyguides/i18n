@@ -107,7 +107,7 @@ Con los perfiles de usuario, puedes imponer restricciones a un perfil específic
 
 Los [perfiles de trabajo](https://support.google.com/work/android/answer/6191949) son otra manera de aislar aplicaciones individuales y pueden ser más convenientes que usar perfiles de usuario separados.
 
-A **device controller** app such as [Shelter](../android.md#shelter) is required to create a Work Profile without an enterprise MDM, unless you're using a custom Android OS which includes one.
+Para crear un perfil de trabajo sin un MDM empresarial se necesita una aplicación de **controlador de dispositivo** como [Shelter](../android.md#shelter), a menos que se utilice un sistema operativo personalizado de Android que incluya uno.
 
 El perfil de trabajo depende de un controlador de dispositivo para funcionar. Características como el *transbordador de archivos* y el *bloqueo de búsqueda de contactos* o cualquier tipo de característica de aislamiento debe ser implementada por el controlador. También debes confiar plenamente en la aplicación del controlador del dispositivo, ya que tiene acceso completo a tus datos dentro del perfil de trabajo.
 

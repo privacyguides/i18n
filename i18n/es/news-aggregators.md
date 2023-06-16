@@ -102,9 +102,9 @@ Un [lector de noticias](https://en.wikipedia.org/wiki/News_aggregator) es una ma
     **NetNewsWire** es un lector de fuentes gratuito y de código abierto para macOS e iOS centrado en un diseño y unas funciones nativos. Es compatible con los formatos de fuente típicos, además incluye soporte integrado para fuentes de Reddit.
     
     [:octicons-home-16: Homepage](https://netnewswire.com/){ .md-button .md-button--primary }
-    [:octicons-eye-16:](https://netnewswire.com/privacypolicy.html){ .card-link title="Privacy Policy" }
+    [:octicons-eye-16:](https://netnewswire.com/privacypolicy.html){ .card-link title="Política de Privacidad" }
     [:octicons-info-16:](https://netnewswire.com/help/){ .card-link title=Documentation}
-    [:octicons-code-16:](https://github.com/Ranchero-Software/NetNewsWire){ .card-link title="Source Code" }
+    [:octicons-code-16:](https://github.com/Ranchero-Software/NetNewsWire){ .card-link title="Código Fuente" }
     
     ??? downloads "Descargas"
     

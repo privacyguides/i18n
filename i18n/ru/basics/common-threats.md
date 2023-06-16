@@ -12,10 +12,10 @@ description: Модель угрозы уникальна для каждого,
 - <span class="pg-teal">:material-server-network: Поставщики услуг</span> - защита твоих данных от поставщиков услуг (например, с помощью E2EE, которое делает твои данные нечитаемыми для сервера).
 - <span class="pg-blue">:material-eye-outline: Массовая слежка</span> - защита от правительственных агентств, организаций, веб-сайтов и служб, которые совместно отслеживают твою активность.
 - <span class="pg-brown">:material-account-cash: Surveillance Capitalism</span> - Protecting yourself from big advertising networks, like Google and Facebook, as well as a myriad of other third-party data collectors.
-- <span class="pg-green">:material-account-search: Public Exposure</span> - Limiting the information about you that is accessible online—to search engines or the general public.
-- <span class="pg-blue-gray">:material-close-outline: Censorship</span> - Avoiding censored access to information or being censored yourself when speaking online.
+- <span class="pg-green">:material-account-search: Публичная экспозиция</span> - ограничение информации о вас, которая доступна онлайн поисковым системам или широкой общественности.
+- <span class="pg-blue-gray">:material-close-outline: Цензура</span> - избегание цензуры как для доступа к информации, так и для её создания онлайн.
 
-Some of these threats may be more important to you than others, depending on your specific concerns. For example, a software developer with access to valuable or critical data may be primarily concerned with <span class="pg-red">:material-target-account: Targeted Attacks</span>, but they probably still want to protect their personal data from being swept up in <span class="pg-blue">:material-eye-outline: Mass Surveillance</span> programs. Similarly, many people may be primarily concerned with <span class="pg-green">:material-account-search: Public Exposure</span> of their personal data, but they should still be wary of security-focused issues, such as <span class="pg-orange">:material-bug-outline: Passive Attacks</span>—like malware affecting their devices.
+В зависимости от твоих конкретных ситуаций, некоторые угрозы могут быть более важные, чем другие. Например, разработчик программного обеспечения, имеющий доступ к ценным или важным данным, может быть в первую очередь заинтересован в <span class="pg-red">:material-target-account: таргетированных атаках</span>, но, вероятно, он все же хочет защитить свои личные данные от попадания в программы <span class="pg-blue">:material-eye-outline: массового наблюдения</span>. Аналогичным образом, многие люди могут быть в первую очередь обеспокоены <span class="pg-green">:material-account-search: публичной экспозицией</span> своих личных данных, но им все равно следует опасаться проблем, связанных с безопасностью, таких как <span class="pg-orange">:material-bug-outline: пассивные атаки</span> - например, вредоносных программ, воздействующих на их устройства.
 
 ## Анонимность и Конфиденциальность
 
@@ -35,7 +35,7 @@ Some of these threats may be more important to you than others, depending on you
 
 Чтобы минимизировать возможный ущерб, которое *может* причинить вредоносное ПО, следует использовать защиту путём разделения. К примеру, это может выражаться в использовании разных компьютеров для разных задач, использовании виртуальных машин для разделения различных групп связанных приложений или использовании безопасной операционной системы с сильным акцентом на "песочницу" приложений и обязательный контроль доступа.
 
-!!! tip
+!!! tip "Совет"
 
     Мобильные операционные системы, как правило, имеют лучшую "песочницу" для приложений, чем настольные операционные системы: приложения не могут получить root-доступ и требуют разрешения на доступ к системным ресурсам.
     
@@ -45,7 +45,7 @@ Some of these threats may be more important to you than others, depending on you
 
 С целенаправленными атаками на конкретного человека бороться сложнее. К распространенным атакам относятся рассылка вредоносных документов по электронной почте, использование уязвимостей (например, в браузерах и операционных системах) и физические атаки. Если это вас беспокоит, вам следует использовать более продвинутые стратегии защиты от угроз.
 
-!!! tip
+!!! tip "Совет"
 
     По своей конструкции **веб-браузеры**, **почтовые клиенты** и **офисные приложения** обычно выполняют ненадёжный код, переданный вам третьими лицами. Запуск нескольких виртуальных машин для отделения подобных приложений от хост-системы, а также друг от друга - это одна из техник, которую можно использовать для снижения вероятности того, что эксплойт в этих приложениях скомпрометирует остальную часть вашей системы. Например, такие технологии, как Qubes OS или Microsoft Defender Application Guard в Windows, предоставляют удобные методы для этого.
 
@@ -113,7 +113,7 @@ Additionally, even companies outside of the *AdTech* or tracking industry can sh
 
 ## Ограничение публичной информации
 
-<span class="pg-green">:material-account-search: Общественное воздействие</span>
+<span class="pg-green">:material-account-search: Публичная экспозиция</span>
 
 Лучший способ сохранить свои данные в тайне - просто не предавать их огласке. Удаление нежелательной информации, которую вы нашли о себе в Интернете, - один из лучших первых шагов, которые вы можете предпринять для восстановления своей конфиденциальности.
 
@@ -133,7 +133,7 @@ Additionally, even companies outside of the *AdTech* or tracking industry can sh
 
 Люди, обеспокоенные угрозой цензуры, могут использовать такие технологии, как [Tor](../advanced/tor-overview.md), чтобы обойти ее, и поддерживать устойчивые к цензуре платформы для общения, такие как [Matrix](../real-time-communication.md#element), где нет централизованного органа, который может произвольно закрыть учетные записи.
 
-!!! совет
+!!! tip "Совет"
 
     Хотя уклонение от цензуры само по себе может быть легким, скрыть тот факт, что вы это делаете, может быть очень проблематично.
     

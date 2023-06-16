@@ -1,53 +1,53 @@
-# Community Code of Conduct
+# Código de Conduta da Comunidade
 
-**We pledge** to make our community a harassment-free experience for everyone.
+**Comprometemo-nos** a fazer com que a nossa comunidade seja, para todos, uma experiência livre de qualquer assédio.
 
-**We strive** to create a positive environment, using welcoming and inclusive language, and being respectful of the viewpoints of others.
+**Esforçamo-nos** para criar um ambiente positivo, usando uma linguagem acolhedora e inclusiva, e respeitando os pontos de vista dos demais.
 
-**We do not allow** inappropriate or otherwise unacceptable behavior, such as sexualized language, trolling and insulting comments, or otherwise promoting intolerance or harassment.
+**Não permitimos** comportamentos inapropriados ou inaceitáveis, como linguagem de cariz sexual, ofensas e comentários insultuosos, ou a promoção da intolerância e do assédio.
 
-## Community Standards
+## Normas Comunitárias
 
-What we expect from members of our communities:
+O que esperamos dos membros das nossas comunidades:
 
-1. **Don't spread misinformation**
+1. **Não espalhe desinformação**
 
-      We are creating an evidence-based educational community around information privacy and security, not a home for conspiracy theories. For example, when making a claim that a certain piece of software is malicious or that certain telemetry data is privacy invasive, explain in detail what is collected and how it collected. Claims of this nature must be backed by technical evidence.
+      Estamos a criar uma comunidade educacional baseada em evidências relacionadas com a privacidade e segurança da informação, não um espaço para teorias da conspiração. Por exemplo, ao fazer uma alegação de que um determinado software é malicioso ou que determinados dados de telemetria invadem a privacidade, explique, em detalhe, o que é recolhido e de que forma é feito. Alegações dessa natureza devem ser sustentadas por factos técnicos.
 
-1. **Don't abuse our willingness to help**
+1. **Não abuse da nossa disponibilidade para ajudar**
 
-      Our community members are not your free tech support. We are happy to help you with specific steps on your privacy journey if you are willing to put in effort on your end. We are not willing to answer endlessly repeated questions about generic computer problems you could have answered yourself with a 30-second internet search. Don't be a [help vampire](https://slash7.com/2006/12/22/vampires/).
+      Os membros da nossa comunidade não são o seu suporte técnico gratuito. Se estiver disposto a esforçar-se, teremos todo o gosto em ajudá-lo, através de passos específicos, na sua jornada de privacidade. Não estamos dispostos a responder a perguntas intermináveis sobre problemas genéricos de informática, sobretudo quando a resposta está à distância de uma pesquisa de apenas 30 segundos na Internet. Não sejas um [vampiro das ajudas](https://slash7.com/2006/12/22/vampires/).
 
-1. **Behave in a positive and constructive manner**
+1. **Comporte-se de uma forma positiva e construtiva**
 
-      Examples of behavior that contributes to a positive environment for our community include:
+      Exemplos de comportamentos que contribuem para um ambiente positivo na nossa comunidade, incluem:
 
-      - Demonstrating empathy and kindness toward other people
-      - Being respectful of differing opinions, viewpoints, and experiences
-      - Giving and gracefully accepting constructive feedback
-      - Accepting responsibility and apologizing to those affected by our mistakes, and learning from the experience
-      - Focusing on what is best not just for us as individuals, but for the overall community
+      - Demonstrar empatia e gentileza para com os outros
+      - Ser respeitoso com diferentes opiniões, pontos de vista e experiências
+      - Dar e aceitar graciosamente feedback construtivo
+      - Assumir as responsabilidades e pedir desculpas aos afetados pelos nossos erros, bem como aprender com a experiência
+      - Focar-se no que é melhor não apenas para nós, como indivíduos, mas para a comunidade em geral
 
-### Unacceptable Behavior
+### Comportamento Inaceitável
 
-The following behaviors are considered harassment and are unacceptable within our community:
+Os seguintes comportamentos são considerados assédio, sendo inaceitáveis na nossa comunidade:
 
-- The use of sexualized language or imagery, and sexual attention or advances of any kind
-- Trolling, insulting or derogatory comments, and personal or political attacks
-- Public or private harassment
-- Publishing others' private information, such as a physical or email address, without their explicit permission
-- Other conduct which could reasonably be considered inappropriate in a professional setting
+- O uso de linguagem ou imagens de cariz sexual, bem com interesse ou avanços sexuais de qualquer tipo
+- Ofensas, comentários insultuosos ou depreciativos e ataques pessoais ou políticos
+- Assédio público ou privado
+- Publicar informações privadas de outras pessoas, tais como endereços físicos ou de e-mail, sem a sua autorização explícita
+- Qualquer outra conduta que possa ser consensualmente considerada inadequada num ambiente profissional
 
-## Scope
+## Âmbito
 
-Our Code of Conduct applies within all project spaces, as well as when an individual is representing the Privacy Guides project in other communities.
+O nosso Código de Conduta aplica-se a todos os espaços do projeto, bem como quando qualquer indivíduo representa o projeto Privacy Guides noutras comunidades.
 
-We are responsible for clarifying the standards of our community, and have the right to remove or alter the comments of those participating within our community, as necessary and at our discretion.
+Somos responsáveis pela clarificação das normas da nossa comunidade e temos o direito de remover ou alterar os comentários dos participantes da nossa comunidade, sempre segundo o nosso critério e quando necessário.
 
-### Contact
+### Contacto
 
-If you observe a problem on a platform like Matrix or Reddit, please contact our moderators on that platform in chat, via DM, or through any designated "Modmail" system.
+Se observar algum problema, entre em contacto com os nossos moderadores nas plataformas Matrix ou Reddit. Poderá fazê-lo através de chat, mensagem direta, ou qualquer sistema do tipo "Modmail".
 
-If you have a problem elsewhere, or a problem our community moderators are unable to resolve, reach out to `jonah@privacyguides.org` and/or `dngray@privacyguides.org`.
+Se tiver um problema noutro local ou um problema que os nossos moderadores da comunidade não consigam resolver, entre em contacto com `jonah@privacyguides.org` e/ou `dngray@privacyguides.org`.
 
-All community leaders are obligated to respect the privacy and security of the reporter of any incident.
+Todos os líderes da comunidade são obrigados a respeitar a privacidade e a segurança do denunciante de qualquer incidente.

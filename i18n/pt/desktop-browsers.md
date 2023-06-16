@@ -1,14 +1,14 @@
 ---
-meta_title: "Privacy Respecting Web Browsers for PC and Mac - Privacy Guides"
-title: "Desktop Browsers"
+meta_title: "Navegadores Web para PC e Mac que respeitam a privacidade - Privacy Guides"
+title: "Navegadores para Desktop"
 icon: material/laptop
-description: These web browsers provide stronger privacy protections than Google Chrome.
+description: Estes navegadores web protegem muito mais a sua privacidade do que o Google Chrome.
 cover: desktop-browsers.png
 schema:
   - 
     "@context": http://schema.org
     "@type": WebPage
-    name: Private Desktop Browser Recommendations
+    name: Recomendações de Navegadores para Desktop privados
     url: "./"
     relatedLink: "../mobile-browsers/"
   - 
@@ -31,7 +31,7 @@ schema:
     name: Firefox
     image: /assets/img/browsers/firefox.svg
     url: https://firefox.com
-    sameAs: https://en.wikipedia.org/wiki/Firefox
+    sameAs: https://pt.wikipedia.org/wiki/Firefox
     applicationCategory: Web Browser
     operatingSystem:
       - Windows
@@ -46,7 +46,7 @@ schema:
     name: Bromite
     image: /assets/img/browsers/brave.svg
     url: https://brave.com
-    sameAs: https://en.wikipedia.org/wiki/Brave_(web_browser)
+    sameAs: https://pt.wikipedia.org/wiki/Brave_(web_browser)
     applicationCategory: Web Browser
     operatingSystem:
       - Windows
@@ -57,31 +57,29 @@ schema:
       url: "./"
 ---
 
-These are our currently recommended desktop web browsers and configurations for standard/non-anonymous browsing. We recommend [Mullvad Browser](#mullvad-browser) if you are focused on strong privacy protections and anti-fingerprinting out of the box, [Firefox](#firefox) for casual internet browsers looking for a good alternative to Google Chrome, and [Brave](#brave) if you need Chromium browser compatibility.
+Estes são, de momento, os navegadores web para desktop e configurações para uma navegação standard/não-anónima que recomendamos. Recomendamos o [Mullvad Browser](#mullvad-browser) para quem pretenda fortes proteções de privacidade e ferramentas anti-impressão digital por defeito, o [Firefox](#firefox) para utilizadores casuais da internet que procurem uma boa alternativa ao Google Chrome e o [Brave](#brave) para quem necessite de compatibilidade com o navegador Chromium.
 
-If you need to browse the internet anonymously, you should use [Tor](tor.md) instead. We make some configuration recommendations on this page, but all browsers other than Tor Browser will be traceable by *somebody* in some manner or another.
+Se precisar de navegar anonimamente na internet, deverá usar antes o [Tor](tor.md). Fazemos algumas recomendações de configuração nesta página, mas todos os navegadores, com a exceção do Tor, são rastreáveis por *qualquer pessoa*, de uma maneira ou de outra.
 
-## Mullvad Browser
+## Navegador Mullvad
 
 !!! nota
     Consulte o [Tabela de Hardware](https://openwrt.org/toh/start) para verificar se o seu dispositivo é suportado.
 
-    ![Mullvad Browser logo](assets/img/browsers/mullvad_browser.svg){ align=right }
+    ![Logotipo do navegador Mullvad](assets/img/browsers/mullvad_browser.svg){ align=right }
     
-    **Mullvad Browser** is a version of [Tor Browser](tor.md#tor-browser) with Tor network integrations removed, aimed at providing Tor Browser's anti-fingerprinting browser technologies to VPN users. It is developed by the Tor Project and distributed by [Mullvad](vpn.md#mullvad), and does **not** require the use of Mullvad's VPN.
+    O **Navegador Mullvad** é baseado no [Navegador Tor](tor.md#tor-browser), mas com as integrações da rede Tor removidas, com o objetivo de beneficiar das suas tecnologias de anti-fingerprinting para quem utilize uma VPN. É desenvolvido pelo Projeto Tor e distribuído por [Mullvad](vpn.md#mullvad), e **não** requer a utilização da VPN do Mullvad.
     
     [:octicons-home-16: Homepage](https://mullvad.net/en/browser){ .md-button .md-button--primary }
     [:octicons-eye-16:](https://mullvad.net/en/help/privacy-policy/){ .card-link title="Privacy Policy" }
     [:octicons-info-16:](https://mullvad.net/en/help/tag/mullvad-browser/){ .card-link title=Documentation}
     [:octicons-code-16:](https://gitlab.torproject.org/tpo/applications/mullvad-browser){ .card-link title="Source Code" }
     
-    ??? downloads
-    
-        - [:simple-windows11: Windows](https://mullvad.net/en/download/browser/windows)
+    ??? - [:simple-windows11: Windows](https://mullvad.net/en/download/browser/windows)
         - [:simple-apple: macOS](https://mullvad.net/en/download/browser/macos)
         - [:simple-linux: Linux](https://mullvad.net/en/download/browser/linux)
 
-Like [Tor Browser](tor.md), Mullvad Browser is designed to prevent fingerprinting by making your browser fingerprint identical to all other Mullvad Browser users, and it includes default settings and extensions that are automatically configured by the default security levels: *Standard*, *Safer* and *Safest*. Therefore, it is imperative that you do not modify the browser at all outside adjusting the default [security levels](https://tb-manual.torproject.org/security-settings/). Other modifications would make your fingerprint unique, defeating the purpose of using this browser. If you want to configure your browser more heavily and fingerprinting is not a concern for you, we recommend [Firefox](#firefox) instead.
+Tal como o [Navegador Tor](tor.md), o Navegador Mullvad foi concebido para evitar a recolha da sua impressão digital, tornando-a idêntica a todos os outros utilizadores do Navegador Mullvad, e inclui configurações padrão e extensões que são configuradas automaticamente para níveis de segurança padrão: *Standard*, *Mais seguro* e *Segurança máxima*. Therefore, it is imperative that you do not modify the browser at all outside adjusting the default [security levels](https://tb-manual.torproject.org/security-settings/). Other modifications would make your fingerprint unique, defeating the purpose of using this browser. If you want to configure your browser more heavily and fingerprinting is not a concern for you, we recommend [Firefox](#firefox) instead.
 
 ### Anti-Fingerprinting
 

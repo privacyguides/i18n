@@ -1,51 +1,51 @@
 #The strings in these files need to be copied MANUALLY to /config/mkdocs.LANG.yml
 #This file exists just so these strings can be originally translated on Crowdin.
 config:
-  description: Privacy Guides is your central privacy and security resource to protect yourself online.
+  description: O Privacy Guides é o seu centro de recursos sobre privacidade e segurança on-line.
   copyright:
     - 
       1: |
-         Privacy Guides is a non-profit, socially motivated website that provides information for protecting your data security and privacy.
+         Privacy Guides é uma página web sem fins lucrativos, de motivações sociais, que disponibiliza informações sobre como proteger e tornar seguros os seus dados.
     - 
       2: |
-         We do not make money from recommending certain products, and we do not use affiliate links.
+         Não ganhamos dinheiro ao recomendar certos produtos e não utilizamos links de afiliados.
     - 
       3: |
-         Privacy Guides and contributors.
+         Guias de privacidade e contribuidores.
     - 
       4: |
-         Content licensed under CC BY-ND 4.0.
+         Conteúdo licenciado ao abrigo de CC BY-ND 4.0.
   feedback:
-    question: Was this page helpful?
-    yes: This page was helpful
-    yes-note: Thanks for your feedback!
-    no: This page could be improved
+    question: Esta página foi útil?
+    yes: Esta página foi útil
+    yes-note: Obrigado pelo seu feedback!
+    no: Esta página pode ser melhorada
     no-note: |
-      Thanks for your feedback! Help us improve this page by opening a discussion on our forum.
+      Obrigado pelo seu feedback! Ajude-nos a melhorar esta página, abrindo um debate no nosso fórum.
   theme:
-    dark: Switch to dark mode
-    light: Switch to light mode
-    system: Switch to system theme
+    dark: Mudar para modo escuro
+    light: Mudar para modo claro
+    system: Mudar para o tema do sistema
 nav:
-  Home: Home
-  Knowledge Base: Knowledge Base
-  Technology Essentials: Technology Essentials
-  Operating Systems: Software
-  Advanced Topics: Advanced Topics
-  Recommendations: Recommendations
-  Internet Browsing: Internet Browsing
-  Providers: Providers
+  Home: Início
+  Knowledge Base: Base de conhecimento
+  Technology Essentials: Fundamentos essenciais de Tecnologia
+  Operating Systems: Sistemas Operativos
+  Advanced Topics: Tópicos Avançados
+  Recommendations: Recomendações
+  Internet Browsing: Navegação na Internet
+  Providers: Fornecedores
   Software: Software
-  About: About
-  Community: Community
+  About: Sobre nós
+  Community: Comunidade
   Online Services: Serviços Online
-  Code of Conduct: Code of Conduct
-  Contributing: Contributing
-  Writing Guide: Writing Guide
-  Technical Guides: Technical Guides
-  Changelog: Changelog
-  Forum: Forum
-  Blog: Blog
+  Code of Conduct: Código de Conduta
+  Contributing: Contribuir
+  Writing Guide: Guia de Escrita
+  Technical Guides: Guias Técnicos
+  Changelog: Registo de alterações
+  Forum: Fórum
+  Blog: Blogue
 site:
   translation: |
-    You're viewing the English copy of Privacy Guides, translated by our fantastic language team on Crowdin. If you notice an error, or see any untranslated sections on this page, please consider helping out!
+    Está a ver a versão portuguesa de Privacy Guides, traduzida pela nossa fantástica equipa no Crowdin. Se detetar algum erro de tradução, ou alguma secção da página por traduzir, agradecemos a sua ajuda!

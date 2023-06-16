@@ -1,23 +1,23 @@
 ---
-title: Uploading Images
+title: Carregamento de imagens
 ---
 
-Here are a couple of general rules for contributing to Privacy Guides:
+Eis algumas regras para contribuir para o Privacy Guides:
 
-## Images
+## Imagens
 
-- We **prefer** SVG images, but if those do not exist we can use PNG images
+- Nós **preferimos** a utilização de imagens SVG, mas se tal não for possível, podem ser usadas imagens PNG
 
-Company logos have canvas size of:
+Os logótipos das empresas devem ter um tamanho de tela de:
 
 - 128x128px
 - 384x128px
 
-## Optimization
+## Otimização
 
 ### PNG
 
-Use the [OptiPNG](https://sourceforge.net/projects/optipng/) to optimize the PNG image:
+Use o [OptiPNG](https://sourceforge.net/projects/optipng/) para otimizar a imagem PNG:
 
 ```bash
 optipng -o7 file.png
@@ -27,51 +27,51 @@ optipng -o7 file.png
 
 #### Inkscape
 
-[Scour](https://github.com/scour-project/scour) all SVG images.
+[Examine](https://github.com/scour-project/scour) todas as imagens SVG.
 
-In Inkscape:
+No Inkscape:
 
-1. File Save As..
-2. Set type to Optimized SVG (*.svg)
+1. Na aba Ficheiro, selecione Guardar como..
+2. Defina o tipo para SVG otimizado (*.svg)
 
-In the **Options** tab:
+Na aba das **Opções**:
 
-- **Number of significant digits for coordinates** > **5**
-- [x] Turn on **Shorten color values**
-- [x] Turn on **Convert CSS attributes to XML attributes**
-- [x] Turn on **Collapse groups**
-- [x] Turn on **Create groups for similar attributes**
-- [ ] Turn off **Keep editor data**
-- [ ] Turn off **Keep unreferenced definitions**
-- [x] Turn on **Work around renderer bugs**
+- **Número de dígitos significantes para as coordenadas** > **5**
+- [x] Ative **Abreviar valores de cor**
+- [x] Ative **Converter atributos CSS em atributos XML**
+- [x] Ative **Contrair grupos**
+- [x] Ative **Criar grupos para atributos similares**
+- [ ] Desative **Manter dados do editor**
+- [ ] Desative **Manter definições não referenciadas**
+- [x] Ative **Usar recurso alternativo para evitar erros**
 
-In the **SVG Output** tab under **Document options**:
+Na janela **Exportar em SVG** nas **Opções do documento**:
 
-- [ ] Turn off **Remove the XML declaration**
-- [x] Turn on **Remove metadata**
-- [x] Turn on **Remove comments**
-- [x] Turn on **Embeded raster images**
-- [x] Turn on **Enable viewboxing**
+- [ ] Desative **Remover a declaração XML**
+- [x] Ative **Remover metadados**
+- [x] Ative **Remover comentários**
+- [x] Ative **Embutir imagens raster**
+- [x] Ative **Ativar viewBox**
 
-In the **SVG Output** under **Pretty-printing**:
+Na janela **Exportar em SVG** em **Impressão organizada**:
 
-- [ ] Turn off **Format output with line-breaks and indentation**
-- **Indentation characters** > Select **Space**
-- **Depth of indentation** > **1**
-- [ ] Turn off **Strip the "xml:space" attribute from the root SVG element**
+- [ ] Desative **Formatar saída com quebras de linha e indentação**
+- **Caracteres de indentação** > Selecione **Espaço**
+- **Profundidade da indentação** > **1**
+- [ ] Desative **Retirar o atributo "xml:space" do elemento SVG raiz**
 
-In the **IDs** tab:
+Na janela **Exportar em SVG** em **IDs**:
 
-- [x] Turn on **Remove unused IDs**
-- [ ] Turn off **Shorten IDs**
-- **Prefix shortened IDs with** > `leave blank`
-- [x] Turn on **Preserve manually created IDs not ending with digits**
-- **Preserve the following IDs** > `leave blank`
-- **Preserve IDs starting with** > `leave blank`
+- [x] Ative **Remover IDs por usar**
+- [ ] Desative **Abreviar IDs**
+- **Adicionar prefixo nos IDs abreviados com** > `deixe em branco`
+- [x] Ative **Preservar IDs criados manualmente que não terminem com dígitos**
+- **Preservar os seguintes IDs** > `deixe em branco`
+- **Preservar IDs que começam com** > `deixe em branco`
 
 #### CLI
 
-The same can be achieved with the [Scour](https://github.com/scour-project/scour) command:
+O mesmo pode ser feito com o comando [Scour](https://github.com/scour-project/scour):
 
 ```bash
 scour --set-precision=5 \
