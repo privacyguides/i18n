@@ -52,6 +52,8 @@
 *[MEID]: Identifiering av mobil utrustning
 *[MFA]: Multi-Faktor Autentisering
 *[NVMe]: Icke-flyktigt minne Express
+*[NAT]: Network address translation
+*[NAT-PMP]: NAT Port Mapping Protocol
 *[NTP]: Nätverkstidsprotokoll
 *[OCI]: Initiativ för öppna behållare
 *[OCSP]: Certifikatstatus online

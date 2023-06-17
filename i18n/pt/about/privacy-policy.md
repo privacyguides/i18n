@@ -2,47 +2,47 @@
 title: "Política de Privacidade"
 ---
 
-O Privacy Guides é um projeto comunitário operado por uma série de colaboradores voluntários ativos. A lista pública de membros da equipe [pode ser encontrada no GitHub](https://github.com/orgs/privacyguides/people).
+O Privacy Guides é um projeto comunitário gerido por uma série de colaboradores voluntários ativos. A lista pública de membros da equipa [pode ser encontrada no GitHub](https://github.com/orgs/privacyguides/people).
 
-## Quem são os Guias de Privacidade?
+## Dados que recolhemos dos visitantes
 
-The privacy of our website visitors is important to us, so we do not track any individual people. As a visitor to our website:
+A privacidade dos visitantes do nosso site é importante para nós, pelo que não rastreamos qualquer pessoa individualmente. Como visitante do nosso site:
 
-- Quando você navega em um site, fórum ou outro serviço de Guias de Privacidade.
-- No information such as cookies are stored in the browser
-- Quando você postar, enviar mensagens privadas ou participar de qualquer outra forma de um serviço de Guias de Privacidade.
-- No information is shared with advertising companies
-- No information is mined and harvested for personal and behavioral trends
-- No information is monetized
+- Não são recolhidas informações pessoais
+- Não são armazenadas no navegador informações como cookies
+- Nenhuma informação é partilhada, enviada ou vendida a terceiros
+- Nenhuma informação é partilhada com empresas de publicidade
+- Nenhuma informação é extraída e recolhida para determinar tendências pessoais e comportamentais
+- Nenhuma informação é utilizada como fonte de receita
 
-You can view the data we collect on our [statistics](statistics.md) page.
+Pode ver os dados que recolhemos na nossa página de estatísticas [](statistics.md).
 
-We run a self-hosted installation of [Plausible Analytics](https://plausible.io) to collect some anonymous usage data for statistical purposes. The goal is to track overall trends in our website traffic, it is not to track individual visitors. All the data is in aggregate only. No personal data is collected.
+Temos uma versão auto-hospedada de [Plausible Analytics](https://plausible.io) para recolher alguns dados de utilização anónimos, somente para fins estatísticos. O objetivo é seguir as perceber as tendências gerais do tráfego do nosso site, e não seguir visitantes individuais. Todos os dados recolhidos dizem respeito apenas a totais acumulados. Nenhum dado pessoal é recolhido.
 
-Data collected includes referral sources, top pages, visit duration, information from the devices (device type, operating system, country and browser) used during the visit and more. You can learn more about how Plausible works and collects information in a privacy-respecting manner [here](https://plausible.io/data-policy).
+Os dados recolhidos incluem fontes de referência, principais páginas, duração da visita e informações dos dispositivos (tipo de dispositivo, sistema operativo, país e navegador) usados durante a visita. Pode ficar a saber mais sobre a política de recolha de dados e a política de respeito da privacidade do Plausible [aqui](https://plausible.io/data-policy).
 
-## Como é que os Guias de Privacidade recolhem dados sobre mim?
+## Dados que recolhemos dos titulares de contas
 
-On some websites and services we provide, many features may require an account. For example, an account may be required to post and reply to topics on a forum platform.
+Em alguns dos sites e serviços que disponibilizamos, para beneficiar de muitas das funcionalidades pode ser necessário a criação de uma conta. Por exemplo, pode ser necessária uma conta para publicar e responder a tópicos numa plataforma de fórum.
 
-Dados brutos como páginas visitadas, IPs de visitantes anonimizados e ações de visitantes serão retidos por 60 dias. Em circunstâncias especiais - tais como investigações prolongadas relativas a um ataque técnico - podemos preservar os dados registados por períodos mais longos para análise.
+Na criação da maioria das contas, recolhemos o nome, nome de utilizador, e-mail e palavra-passe. No caso de um site exigir mais informações do que apenas esses dados, tal será expressamente assinalado e registado numa declaração de privacidade, para cada um dos sites.
 
-We use your account data to identify you on the website and to create pages specific to you, such as your profile page. We will also use your account data to publish a public profile for you on our services.
+Utilizamos os dados da sua conta para o identificar no site e para criar páginas específicas para si, como a sua página de perfil. Também utilizaremos esses dados para publicar um perfil público do utilizador nos nossos serviços.
 
-We use your email to:
+Utilizamos o seu e-mail para:
 
-- Que páginas você visita,
-- O seu endereço IP anonimizado: Nós anonimizamos os últimos 3 bytes do seu IP, por exemplo 192.xxx.xxx.xxx.xxx.
-- Contact you in special circumstances related to your account.
-- Contact you about legal requests, such as DMCA takedown requests.
+- Notificá-lo sobre publicações e outras atividades nos sites ou serviços.
+- Repôr a sua palavra-passe e ajudar a manter a sua conta segura.
+- Contactá-lo em circunstâncias especiais relacionadas com a sua conta.
+- Contactá-lo sobre pedidos legais, tais como pedidos de remoção DMCA.
 
-Usamos os dados da sua conta para identificá-lo no site e para criar páginas específicas para você, como a sua página de perfil. Também utilizaremos os dados da sua conta para publicar um perfil público para você em nossos serviços. This information is not required to use any of our services and can be erased at any time.
+Em alguns sites e serviços, o utilizador pode fornecer informações adicionais ao criar a conta, tais como uma pequena biografia, um avatar, a localização ou a data de nascimento. Essas informações serão disponibilizadas a quem aceda ao site ou ao serviço em questão. Estas informações não são necessárias para utilizar qualquer um dos nossos serviços e podem ser apagadas em qualquer altura.
 
-We will store your account data as long as your account remains open. After closing an account, we may retain some or all of your account data in the form of backups or archives for up to 90 days.
+Armazenaremos os seus dados apenas durante o tempo em que a sua conta permanecer aberta. Após o encerramento de uma conta, poderemos reter alguns ou todos os dados sob a forma de cópias de segurança ou arquivos, durante um período máximo de 90 dias.
 
-## Que dados você coleta e por quê?
+## Contacte-nos
 
-The Privacy Guides team generally does not have access to personal data outside of limited access granted via some moderation panels. Inquiries regarding your personal information should be sent directly to:
+De um modo geral, a equipa do Privacy Guides não tem acesso a dados pessoais, para além do acesso limitado disponibilizado através de alguns painéis de moderação. Os pedidos de informação relativos às suas informações pessoais devem ser enviados diretamente para:
 
 ```text
 Jonah Aragon
@@ -50,12 +50,12 @@ Administrador de Serviços, Aragon Ventures LLC
 jonah@privacyguides.org
 ```
 
-For all other inquiries, you can contact any member of our team.
+Para quaisquer questões de outra natureza, pode contactar qualquer membro da nossa equipa.
 
-For complaints under GDPR more generally, you may lodge complaints with your local data protection supervisory authorities. In France it's the Commission Nationale de l'Informatique et des Libertés which take care and handle the complaints. They provide a [template of complaint letter](https://www.cnil.fr/en/plaintes) to use.
+Para outras reclamações ao abrigo do RGPD, dirija-se às autoridades locais de supervisão da proteção de dados. Em Portugal, é a Comissão de Proteção de Dados que se ocupa e trata das queixas. No site da CPD há modelos disponíveis para [participações](https://www.cnpd.pt/cidadaos/participacoes/).
 
-## Com quem é que os meus dados são partilhados?
+## Sobre esta política
 
-We will post any new versions of this statement [here](privacy-policy.md). We may change how we announce changes in future versions of this document. In the meantime we may update our contact information at any time without announcing a change. Please refer to the [Privacy Policy](privacy-policy.md) for the latest contact information at any time.
+Publicaremos quaisquer novas versões desta declaração [aqui](privacy-policy.md). Poderemos alterar a forma como anunciamos as alterações em futuras versões do presente documento. Entretanto, poderemos atualizar as nossas informações de contacto a qualquer altura, sem que essa alteração seja anunciada. Consulte a [Política de Privacidade](privacy-policy.md) para obter as informações de contacto mais recentes.
 
-A full revision [history](https://github.com/privacyguides/privacyguides.org/commits/main/docs/about/privacy-policy.md) of this page can be found on GitHub.
+Uma revisão completa do [histórico](https://github.com/privacyguides/privacyguides.org/commits/main/docs/about/privacy-policy.md) desta página pode ser encontrada no GitHub.

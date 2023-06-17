@@ -268,7 +268,7 @@ graph TB
     censorship --> | Sì | vpnOrTor(Usa<br> VPN o Tor)
     censorship --> | No | privacy{"Vuoi privacy<br> dall'ISP?"}
     privacy --> | Sì | vpnOrTor
-    privacy --> | No | obnoxious{L'ISP fa<br> reindirizzamenti<br> odiosi?"}
+    privacy --> | No | obnoxious{"L'ISP fa<br> reindirizzamenti<br> odiosi?"}
     obnoxious --> | Sì | encryptedDNS(Usa<br> DNS criptato<br> di terze parti)
     obnoxious --> | No | ispDNS{"L'ISP supporta<br> DNS criptato?"}
     ispDNS --> | Sì | useISP(Usa<br> DNS criptato<br> con l'ISP)

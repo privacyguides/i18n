@@ -253,9 +253,9 @@ Se il proprio [modello di minaccia](basics/threat-modeling.md) richiede privacy,
 !!! recommendation
 
     ![Secure camera logo](assets/img/android/secure_camera.svg#only-light){ align=right }
-    ![Secure camera logo](assets/img/android/secure_camera-dark. vg#only-dark){ align=right }
+    ![Secure camera logo](assets/img/android/secure_camera-dark.svg#only-dark){ align=right }
     
-      **Secure Camera** è un'app per fotocamera incentrata sulla privacy e sulla sicurezza che può catturare immagini, video e codici QR. Le estensioni del vendor CameraX (Ritratto, HDR, Visione Notturna, Ritocco del Viso e Auto) sono supportate su dispositivi disponibili.
+     **Secure Camera** è un'app per fotocamera incentrata sulla privacy e sulla sicurezza che può catturare immagini, video e codici QR. Le estensioni del vendor CameraX (Ritratto, HDR, Visione Notturna, Ritocco del Viso e Auto) sono supportate su dispositivi disponibili.
     
     [:octicons-repo-16: Repository](https://github.com/GrapheneOS/Camera){ .md-button .md-button--primary }
     [:octicons-info-16:](https://grapheneos.org/usage#camera){ .card-link title=Documentazione}

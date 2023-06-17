@@ -52,6 +52,8 @@
 *[MEID]: Pengidentifikasi Peralatan Seluler
 *[MFA]: Autentikasi Multifaktor
 *[NVMe]: Memori Ekspres yang Tidak Mudah Menguap
+*[NAT]: Network address translation
+*[NAT-PMP]: NAT Port Mapping Protocol
 *[NTP]: Protokol Waktu Jaringan
 *[OCI]: Inisiatif Kontainer Terbuka
 *[OCSP]: Protokol Status Sertifikat Daring

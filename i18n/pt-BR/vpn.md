@@ -217,7 +217,7 @@ Proton VPN [recomenda](https://protonvpn.com/blog/wireguard/) o uso do WireGuard
 
 #### :material-alert-outline:{ .pg-orange } Encaminhamento de Porta Remoto
 
-Atualmente, o Proton VPN só oferece suporte ao [encaminhamento remoto de portas](https://protonvpn.com/support/port-forwarding/) no Windows, o que pode afetar alguns aplicativos. Especialmente aplicativos peer-to-peer, como clientes Torrent.
+Proton VPN currently only supports ephemeral remote [port forwarding](https://protonvpn.com/support/port-forwarding/) via NAT-PMP, with 60 second lease times. The Windows app provides an easy to access option for it, while on other operating systems you'll need to run your own [NAT-PMP client](https://protonvpn.com/support/port-forwarding-manual-setup/). Torrent applications often support NAT-PMP natively.
 
 #### :material-check:{ .pg-green } Clientes Móveis
 

@@ -22,7 +22,7 @@ cover: vpn.png
     
     如果您追求的是 **匿名性** ，應該使用 Tor 瀏覽器 **代替** VPN。
     
-    如果要的是更多* *安全性* * ，您應該確保您全程使用 HTTPS 連接到網站。 VPN 不能取代良好的安全措施。
+    如果要的是更多 **安全性** ，您應該確保您全程使用 HTTPS 連接到網站。 VPN 不能取代良好的安全措施。
     
     [Download Tor] (https://www.torproject.org/){ .md-button .md-button--primary } [Tor Myths & FAQ] (advanced/tor-overview.md){ .md-button }
 
@@ -36,16 +36,16 @@ cover: vpn.png
 
 !!! recommendation
 
-    ! [IVPN logo] (assets/img/vpn/ivpn.svg) {align = right}
+    ![IVPN logo](assets/img/vpn/ivpn.svg){ align=right }
     
-    * * IVPN * *是另一家高級 VPN 提供商，自  2009年開始運營。 IVPN 位於直布羅陀。
+    **IVPN** 是另一家高級 VPN 提供商，自  2009年開始運營。 IVPN 位於直布羅陀。
     
     [:octicons-home-16: Homepage](https://www.ivpn.net/){ .md-button .md-button--primary }
     [:octicons-eye-16:](https://www.ivpn.net/privacy/){ .card-link title="Privacy Policy" }
     [:octicons-info-16:](https://www.ivpn.net/knowledgebase/general/){ .card-link title=Documentation}
     [:octicons-code-16:](https://github.com/ivpn){ .card-link title="Source Code" }
     
-    ??? 下載
+    ??? downloads "下載"
     
         - [:simple-googleplay: Google Play](https://play.google.com/store/apps/details?id=net.ivpn.client)
         - [:octicons-moon-16: Accrescent](https://accrescent.app/app/net.ivpn.client)
@@ -113,9 +113,9 @@ IVPN 客戶端支援雙因素驗證（Mullvad 客戶端不支援）。 IVPN 有"
 
 !!! recommendation
 
-    ! [Mullvad 標誌] (assets/img/vpn/mullvad.svg) {align = right}
+    ![Mullvad 標誌](assets/img/vpn/mullvad.svg){ align = right }
     
-    * * Mullvad * *是一個快速且便宜的VPN ，非常注重透明和安全性。 自* * 2009 年* *開始運營。 Mullvad 總部位於瑞典，不提供免費試用。
+    **Mullvad** 是一個快速且便宜的VPN ，非常注重透明和安全性。 自 **2009 年** 開始運營。 Mullvad 總部位於瑞典，不提供免費試用。
     
     [:octicons-home-16: Homepage](https://mullvad.net){ .md-button .md-button--primary }
     [:simple-torbrowser:](http://o54hon2e2vj6c7m3aqqu6uyece65by3vgoxxhlqlsvkmacw6a7m7kiad.onion){ .card-link title="Onion Service" }
@@ -123,14 +123,14 @@ IVPN 客戶端支援雙因素驗證（Mullvad 客戶端不支援）。 IVPN 有"
     [:octicons-info-16:](https://mullvad.net/en/help/){ .card-link title=Documentation}
     [:octicons-code-16:](https://github.com/mullvad){ .card-link title="Source Code" }
     
-    ??? 下載
+    ??? downloads "下載"
     
-        - [:simple-googleplay: Google Play] (https://play.google.com/store/apps/details?id=net.mullvad.mullvadvpn)
-        - [:simple-appstore: App Store] (https://apps.apple.com/app/mullvad-vpn/id1488466513)
-        - [:simple-github: GitHub] (https://github.com/mullvad/mullvadvpn-app/releases)
-        - [:simple-windows11: Windows] (https://mullvad.net/en/download/windows/)
-        - [:simple-apple: macOS] (https://mullvad.net/en/download/macos/)
-        - [:simple-linux: ] (https://mullvad.net/en/download/linux/)
+        - [:simple-googleplay: Google Play](https://play.google.com/store/apps/details?id=net.mullvad.mullvadvpn)
+        - [:simple-appstore: App Store](https://apps.apple.com/app/mullvad-vpn/id1488466513)
+        - [:simple-github: GitHub](https://github.com/mullvad/mullvadvpn-app/releases)
+        - [:simple-windows11: Windows](https://mullvad.net/en/download/windows/)
+        - [:simple-apple: macOS](https://mullvad.net/en/download/macos/)
+        - [:simple-linux:](https://mullvad.net/en/download/linux/)
     
 
 
@@ -273,7 +273,7 @@ Proton VPN [建議](https://protonvpn.com/blog/wireguard/) 搭配 WireGuard 使�
 
 #### :material-alert-outline:{ .pg-orange } 遠端端口轉發
 
-Proton VPN 目前只支援 Windows 遠端 [端口轉發](https://protonvpn.com/support/port-forwarding/) ，它可能會影響某些應用程式。 尤其是像 Torrent 客戶端這類 P2P 應用程式。
+Proton VPN currently only supports ephemeral remote [port forwarding](https://protonvpn.com/support/port-forwarding/) via NAT-PMP, with 60 second lease times. The Windows app provides an easy to access option for it, while on other operating systems you'll need to run your own [NAT-PMP client](https://protonvpn.com/support/port-forwarding-manual-setup/). Torrent applications often support NAT-PMP natively.
 
 
 

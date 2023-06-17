@@ -52,6 +52,8 @@
 *[MEID]: 行動裝置識別碼
 *[MFA]: 多重身分驗證
 *[NVMe]: NVMe (非揮發性記憶體控制規範)
+*[NAT]: Network address translation
+*[NAT-PMP]: NAT Port Mapping Protocol
 *[NTP]: 網絡時間協議
 *[OCI]: Open Container Initiative
 *[OCSP]: 線上憑邆狀態協議

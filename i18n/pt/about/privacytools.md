@@ -67,52 +67,52 @@ Cerca de uma semana após a transição, BurungHantu voltou a ficar online pela 
 
 Aí chegados, BurungHantu alegou que queria continuar a trabalhar no privacytools.io por conta própria e solicitou que fosse removido o redirecionamento de www.privacytools.io para [www. privacyguides.org](https://www.privacyguides.org). Acedemos ao pedido e solicitámos que fossem mantidos os subdomínios Matrix, Mastodon e PeerTube ativos para que pudessem prestar um serviço público à nossa comunidade, pelo menos durante alguns meses, a fim de permitir que os utilizadores dessas plataformas migrassem facilmente para outras contas. Devido à natureza federada dos serviços que fornecíamos, estes estavam vinculados a domínios específicos, o que tornava a migração muito difícil (e, em alguns casos, até impossível).
 
-Unfortunately, because control of the r/privacytoolsIO subreddit was not returned to BurungHantu at his demand (further information below), those subdomains were [cut off](https://www.reddit.com/r/PrivacyGuides/comments/pymthv/comment/hexwrps/) at the beginning of October, ending any migration possibilities to any users still using those services.
+Infelizmente, uma vez que o controle do subreddit r/privacytoolsIO não foi devolvido a BurungHantu a seu pedido (mais informações abaixo), esses subdomínios foram [cortados](https://www.reddit.com/r/PrivacyGuides/comments/pymthv/ comment/hexwrps/) no início de outubro, não deixando qualquer possibilidade de migração aos utilizadores que ainda estivessem a utilizar esses serviços.
 
-Following this, BurungHantu made false accusations about Jonah stealing donations from the project. BurungHantu had over a year since the alleged incident occurred, and yet he never made anyone aware of it until after the Privacy Guides migration. BurungHantu has been repeatedly asked for proof and to comment on the reason for his silence by the team [and the community](https://twitter.com/TommyTran732/status/1526153536962281474), and has not done so.
+Em seguida, BurungHantu fez falsas acusações de que Jonah roubava donativos ao projeto. Passou mais de um ano desde que o suposto incidente ocorreu, sem que BurungHantu tenha informado alguém, o que veio a acontecer apenas após a migração do Privacy Guides. Repetidamente, a equipa [e a comunidade](https://twitter.com/TommyTran732/status/1526153536962281474) solicitaram a BurungHantu que fornecesse provas e explicasse o motivo do seu silêncio.
 
-BurungHantu also made a [twitter post](https://twitter.com/privacytoolsIO/status/1510560676967710728) alleging that an "attorney" had reached out to him on Twitter and was providing advice, in another attempt to bully us into giving him control of our subreddit, and as part of his smear campaign to muddy the waters surrounding the launch of Privacy Guides while pretending to be a victim.
+BurungHantu, inclusive, fez uma [publicação no Twitter](https://twitter.com/privacytoolsIO/status/1510560676967710728) alegando que um "advogado" o procurou para lhe dar conselhos, no que consistiu outra tentativa para nos intimidar, de forma a que lhe concedessemos o controle do nosso subreddit e, como parte de sua campanha de difamação, para turvar as águas em torno do lançamento do Privacy Guides, fingindo ser uma vítima.
 
-## PrivacyTools.io Now
+## PrivacyTools.io Agora
 
-As of September 25th 2022 we are seeing BurungHantu's overall plans come to fruition on privacytools.io, and this is the very reason we decided to create this explainer page today. The website he is operating appears to be a heavily SEO-optimized version of the site which recommends tools in exchange for financial compensation. Very recently, IVPN and Mullvad, two VPN providers near-universally [recommended](../vpn.md) by the privacy community and notable for their stance against affiliate programs were removed from PrivacyTools. In their place? NordVPN, Surfshark, ExpressVPN, and hide.me; Giant VPN corporations with untrustworthy platforms and business practices, notorious for their aggressive marketing and affiliate programs.
+Desde 25 de setembro de 2022, que vemos que os planos de BurungHantu se estão a concretizar em privacytools.io, motivo pelo qual decidimos criar esta página explicativa. O site que ele está a gerir parece ser uma versão altamente otimizada para SEO, que recomenda ferramentas em troca de compensação financeira. Muito recentemente, IVPN e Mullvad, dois fornecedores de VPN recorrentemente [recomendados](../vpn.md) pela comunidade de privacidade, e notáveis pela sua política contra programas afiliados, foram removidos do PrivacyTools. E no seu lugar? No seu lugar estão agora NordVPN, Surfshark, ExpressVPN e hide.me; grandes fornecedores de VPN com plataformas e práticas comerciais pouco confiáveis, conhecidas pelo marketing agressivo e programa de afiliados.
 
-==**PrivacyTools has become exactly the type of site we [warned against](https://web.archive.org/web/20210729205249/https://blog.privacytools.io/the-trouble-with-vpn-and-privacy-reviews/) on the PrivacyTools blog in 2019.**== We've tried to keep our distance from PrivacyTools since the transition, but their continued harassment towards our project and now their absurd abuse of the credibility their brand gained over 6 years of open source contributions is extremely troubling to us. Those of us actually fighting for privacy are not fighting against each other, and are not getting our advice from the highest bidder.
+==**PrivacyTools transformou-se num tipo de site que mereceu as nossas [objeções](https://web.archive.org/web/20210729205249/https://blog.privacytools.io/the- trouble-with-vpn-and-privacy-reviews/) no blogue PrivacyTools, em 2019.**== Tentamos manter distância do PrivacyTools desde a transição, mas o contínuo assédio ao nosso projeto e o absurdo abuso da credibilidade que a marca ganhou ao longo de 6 anos de contribuições de código aberto são factos extremamente preocupantes para nós. Aqueles de nós que realmente lutam pela privacidade não estão a lutar uns contra os outros e não estão a ceder a pressões de quem paga mais.
 
-## r/privacytoolsIO Now
+## r/privacytoolsIO Agora
 
-After the launch of [r/PrivacyGuides](https://www.reddit.com/r/privacyguides), it was impractical for u/trai_dep to continue moderating both subreddits, and with the community on-board with the transition, r/privacytoolsIO was [made](https://www.reddit.com/r/privacytoolsIO/comments/qk7qrj/a_new_era_why_rptio_is_now_a_restricted_sub/) a restricted sub in a post on November 1st, 2021:
+Após o lançamento de [r/PrivacyGuides](https://www.reddit.com/r/privacyguides), era impraticável para u/trai_dep continuar a moderar ambos os subreddits e com a comunidade a bordo da transição, r/privacytoolsIO foi [feito](https://www.reddit.com/r/privacytoolsIO/comments/qk7qrj/a_new_era_why_rptio_is_now_a_restricted_sub/) um sub restrito numa publicação de 1 de novembro de 2021:
 
-> [...] The growth of this Sub was the result of great effort, across several years, by the PrivacyGuides.org team. And by every one of you.
+> [...] O crescimento deste sub foi fruto de um grande esforço, ao longo de vários anos, da equipa PrivacyGuides.org. E do esforço de cada um de vós.
 > 
-> A Subreddit is a great deal of work to administer and moderate. Like a garden, it requires patient tending and daily care. It’s not a task for dilettantes or commitment-challenged people. It can’t thrive under a gardener who abandons it for several years, then shows up demanding this year’s harvest as their tribute. It’s unfair to the team formed years ago. It’s unfair to you. [...]
+> A administração e moderação de um subreddit dá muito trabalho. Como num jardim, requer um tratamento paciente e cuidados diários. Não é tarefa para diletantes ou pessoas com falta de empenho e determinação. Não pode prosperar como jardineiro aquele que abandona o seu jardim durante anos, e que depois aparece a reclamar os frutos do trabalho como sua pertença. ´E injusta para toda uma equipa formada há anos. É injusto para si. [...]
 
-Subreddits do not belong to anybody, and they especially do not belong to brand-holders. They belong to their communities, and the community and its moderators made the decision to support the move to r/PrivacyGuides.
+Os subreddits não pertencem a ninguém e, sobretudo, não pertencem aos detentores de marcas. Eles pertencem às suas comunidades, e a comunidade e os seus moderadores tomaram a decisão de apoiar a mudança para r/PrivacyGuides.
 
-In the months since, BurungHantu has threatened and begged for returning subreddit control to his account in [violation](https://www.reddit.com/r/redditrequest/wiki/top_mod_removal/) of Reddit rules:
+Nos meses que se seguiram, BurungHantu ameaçou e implorou para que fosse devolvido o controle do subreddit à sua conta em [violação](https://www.reddit.com/r/redditrequest/wiki/top_mod_removal/) das regras do Reddit:
 
-> Retaliation from any moderator with regards to removal requests is disallowed.
+> Não é permitido a qualquer moderador retaliar em relação a pedidos de remoção.
 
-For a community with many thousands of remaining subscribers, we feel that it would be incredibly disrespectful to return control of that massive platform to the person who abandoned it for over a year, and who now operates a website that we feel provides very low-quality information. Preserving the years of past discussions in that community is more important to us, and thus u/trai_dep and the rest of the subreddit moderation team has made the decision to keep r/privacytoolsIO as-is.
+Para uma comunidade com muitos milhares de subscritores, consideramos que seria incrivelmente desrespeitoso devolver o controle dessa enorme plataforma para uma pessoa que a abandonou durante mais de um ano, e que agora gere um site que, na nossa opinião, fornecer informações de muito pouca qualidade. Preservar os anos de discussões passadas nessa comunidade é mais importante para nós e, por isso, u/trai_dep e a restante equipa de moderação do subreddit tomaram a decisão de manter r/privacytoolsIO tal como está.
 
-## OpenCollective Now
+## OpenCollective Agora
 
-Our fundraising platform, OpenCollective, is another source of contention. Our position is that OpenCollective was put in place by our team and managed by our team to fund services we currently operate and which PrivacyTools no longer does. We [reached out](https://opencollective.com/privacyguides/updates/transitioning-to-privacy-guides) to all of our donors regarding our move to Privacy Guides, and we were unanimously supported by our sponsors and community.
+A nossa plataforma de angariação de fundos, OpenCollective, é outra fonte de discórdia. A nossa posição em relação a esse assunto é que o OpenCollective foi implantado e gerido pela nossa equipa para financiar os serviços que disponibilizamos atualmente e que o PrivacyTools não oferece mais. [Entrámos em contacto](https://opencollective.com/privacyguides/updates/transitioning-to-privacy-guides) com todos os nossos doadores, informando-os sobre a nossa mudança para o Privacy Guides, e recebemos um apoio unânime de todos os nossos patrocinadores e da comunidade.
 
-Thus, the funds in OpenCollective belong to Privacy Guides, they were given to our project, and not the owner of a well known domain name. In the announcement made to donors on September 17th, 2021, we offered refunds to any donor who disagrees with the stance we took, but nobody has taken us up on this offer:
+Por esse motivo, os fundos no OpenCollective pertencem ao Privacy Guides, foram dados ao nosso projeto e não ao proprietário de um bem conhecido domínio. No anúncio feito aos doadores, em 17 de setembro de 2021, dissemos que seriam oferecidos reembolsos a qualquer dos doadores que discordasse da postura que assumimos, mas ninguém aceitou a nossa oferta:
 
-> If any sponsors or backers disagree with or feel misled by these recent events and would like to request a refund given these highly unusual circumstances, please get in touch with our project admin by emailing jonah@triplebit.net.
+> Se algum patrocinador ou apoiante discordar ou se sentir enganado pelos recentes acontecimentos, e quiser solicitar um reembolso devido às circunstâncias altamente incomuns, poderá entrar em contacto com o administrador do projeto, enviando um e-mail para jonah@triplebit.net.
 
-## Further Reading
+## Leitura Adicional
 
-This topic has been discussed extensively within our communities in various locations, and it seems likely that most people reading this page will already be familiar with the events leading up to the move to Privacy Guides. Some of our previous posts on the matter may have extra detail we omitted here for brevity. They have been linked below for the sake of completion.
+Este tópico foi amplamente discutido nas nossas comunidades, em vários locais, e provavelmente a maioria das pessoas que estão a ler esta página já esteja familiarizada com os motivos que levaram à mudança para o Privacy Guides. Algumas das nossas publicações anteriores sobre o assunto poderão ter detalhes extra que omitimos aqui, apenas por questões de brevidade. Por uma questão de rigor e de disponibilização do máximo de informação possível, deixámos os links das publicações abaixo.
 
-- [June 28, 2021 request for control of r/privacytoolsIO](https://www.reddit.com/r/redditrequest/comments/o9tllh/requesting_rprivacytoolsio_im_only_active_mod_top/)
-- [July 27, 2021 announcement of our intentions to move on the PrivacyTools blog, written by the team](https://web.archive.org/web/20210729184422/https://blog.privacytools.io/the-future-of-privacytools/)
-- [Sept 13, 2021 announcement of the beginning of our transition to Privacy Guides on r/privacytoolsIO](https://www.reddit.com/r/privacytoolsIO/comments/pnql46/rprivacyguides_privacyguidesorg_what_you_need_to/)
-- [Sept 17, 2021 announcement on OpenCollective from Jonah](https://opencollective.com/privacyguides/updates/transitioning-to-privacy-guides)
-- [Sept 30, 2021 Twitter thread detailing most of the events now described on this page](https://twitter.com/privacy_guides/status/1443633412800225280)
-- [Oct 1, 2021 post by u/dng99 noting subdomain failure](https://www.reddit.com/r/PrivacyGuides/comments/pymthv/comment/hexwrps/)
-- [Apr 2, 2022 response by u/dng99 to PrivacyTools' accusatory blog post](https://www.reddit.com/comments/tuo7mm/comment/i35kw5a/)
-- [May 16, 2022 response by @TommyTran732 on Twitter](https://twitter.com/TommyTran732/status/1526153497984618496)
-- [Sep 3, 2022 post on Techlore's forum by @dngray](https://discuss.techlore.tech/t/has-anyone-seen-this-video-wondering-your-thoughts/792/20)
+- [28 de junho de 2021 pedido de controle de r/privacytoolsIO](https://www.reddit.com/r/redditrequest/comments/o9tllh/requesting_rprivacytoolsio_im_only_active_mod_top/)
+- [27 de julho de 2021 anúncio das nossas intenções de continuar o blogue PrivacyTools, escrito pela equipa](https://web.archive.org/web/20210729184422/https://blog.privacytools.io/the-future-of-privacytools/)
+- [13 de setembro de 2021 anúncio do início da nossa transição para o Privacy Guides em r/privacytoolsIO](https://www.reddit.com/r/privacytoolsIO/comments/pnql46/rprivacyguides_privacyguidesorg_what_you_need_to/)
+- [17 de setembro de 2021 anúncio no OpenCollective de Jonah](https://opencollective.com/privacyguides/updates/transitioning-to-privacy-guides)
+- [30 de setembro de 2021 Tópico do Twitter com detalhes sobre a maioria dos eventos agora descritos nesta página](https://twitter.com/privacy_guides/status/1443633412800225280)
+- [1 de outubro de 2021 publicação de u/dng99 dando conta da falha no subdomínio](https://www.reddit.com/r/PrivacyGuides/comments/pymthv/comment/hexwrps/)
+- [2 de abril de 2022 resposta de u/dng99 à publicação de blogue acusatória do PrivacyTools](https://www.reddit.com/comments/tuo7mm/comment/i35kw5a/)
+- [16 de maio de 2022 resposta de @TommyTran732 no Twitter](https://twitter.com/TommyTran732/status/1526153497984618496)
+- [3 de setembro de 2022 publicação no fórum da Techlore por @dngray](https://discuss.techlore.tech/t/has-anyone-seen-this-video-wondering-your-thoughts/792/20)

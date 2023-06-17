@@ -24,7 +24,7 @@ Se stai cercando ulteriore **privacy** dal tuo ISP, su una rete Wi-Fi pubblica o
     
     Se stai cercando maggiore **sicurezza**, dovresti sempre assicurarti di connetterti a siti Web usando HTTPS. Una VPN non è un sostituto per buone pratiche di sicurezza.
     
-    [Scarica Tor](https://www.torproject.org/){ .md-button .md-button--primary } [Tor Myths & FAQ](basics/tor-overview.md){ .md-button }
+    [Scarica Tor](https://www.torproject.org/){ .md-button .md-button--primary } [Tor Myths & FAQ](advanced/tor-overview.md){ .md-button }
 
 [Panoramica dettagliata sulle VPN :material-arrow-right-drop-circle:](basics/vpn-overview.md ""){.md-button}
 
@@ -217,7 +217,7 @@ Proton VPN [consiglia](https://protonvpn.com/blog/wireguard/) l'uso di WireGuard
 
 #### :material-alert-outline:{ .pg-orange } Port Forwarding remoto
 
-Proton VPN attualmente supporta solo il [port forwarding](https://protonvpn.com/support/port-forwarding/) remoto su Windows, il che potrebbe influire su alcune applicazioni. In particolare le applicazioni Peer-to-peer come i client Torrent.
+Proton VPN attualmente supporta solo il [port forwarding](https://protonvpn.com/support/port-forwarding/) remoto effimero tramite NAT-PMP, con 60 secondi di lease. L'applicazione per Windows fornisce un'opzione di facile accesso per utilizzarlo, mentre su altri sistemi operativi dovrai avviare il tuo client [NAT-PMP](https://protonvpn.com/support/port-forwarding-manual-setup/). Le applicazioni torrent di solito supportano NAT-PMP in modo nativo.
 
 #### :material-check:{ .pg-green } Client mobile
 

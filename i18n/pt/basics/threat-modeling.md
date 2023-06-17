@@ -100,7 +100,7 @@ Só depois de se ter feito estas perguntas é que estará em condições de aval
 
 Fazer um plano de segurança o ajudará a entender as ameaças que são únicas para você e a avaliar seus ativos, seus adversários e as capacidades de seus adversários, juntamente com a probabilidade de riscos que você enfrenta.
 
-## Further Reading
+## Leitura Adicional
 
 For people looking to increase their privacy and security online, we've compiled a list of common threats our visitors face or goals our visitors have, to give you some inspiration and demonstrate the basis of our recommendations.
 

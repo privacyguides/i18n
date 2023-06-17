@@ -219,7 +219,7 @@ Proton VPN [recomienda](https://protonvpn.com/blog/wireguard/) el uso de WireGua
 
 #### :material-alert-outline:{ .pg-orange } Reenvío Remoto de Puertos
 
-Actualmente, Proton VPN solo admite el [ reenvío remoto del puerto](https://protonvpn.com/support/port-forwarding/) en Windows, lo que puede afectar a algunas aplicaciones. Su red permite \[acceder a servicios alojados en IPv6\](https://mullvad.net/en/blog/2014/9/15/ipv6-support/) a diferencia de otros proveedores que bloquean las conexiones IPv6.
+Proton VPN currently only supports ephemeral remote [port forwarding](https://protonvpn.com/support/port-forwarding/) via NAT-PMP, with 60 second lease times. The Windows app provides an easy to access option for it, while on other operating systems you'll need to run your own [NAT-PMP client](https://protonvpn.com/support/port-forwarding-manual-setup/). Torrent applications often support NAT-PMP natively.
 
 #### :material-check:{ .pg-green } Clientes Móviles
 

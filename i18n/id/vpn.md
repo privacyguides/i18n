@@ -217,7 +217,7 @@ Proton VPN [merekomendasikan](https://protonvpn.com/blog/wireguard/) penggunaan 
 
 #### :material-alert-outline:{ .pg-orange } Penerusan Porta Jarak Jauh
 
-Proton VPN saat ini hanya mendukung penerusan porta [jarak jauh](https://protonvpn.com/support/port-forwarding/) di Windows, yang mungkin berdampak pada beberapa aplikasi. Terutama aplikasi peer-to-peer seperti klien Torrent.
+Proton VPN currently only supports ephemeral remote [port forwarding](https://protonvpn.com/support/port-forwarding/) via NAT-PMP, with 60 second lease times. The Windows app provides an easy to access option for it, while on other operating systems you'll need to run your own [NAT-PMP client](https://protonvpn.com/support/port-forwarding-manual-setup/). Torrent applications often support NAT-PMP natively.
 
 #### :material-check:{ .pg-green } Klien Ponsel
 

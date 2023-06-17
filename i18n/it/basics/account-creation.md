@@ -9,7 +9,7 @@ Spesso le persone si iscrivono a servizi senza riflettere. Forse si tratta di un
 
 Ci sono rischi associati ad ogni nuovo servizio che utilizzi. Violazioni dei dati, divulgazione d'informazioni sui clienti a terzi, accesso ai dati da parte di dipendenti furfanti: sono tutte possibilità che devono essere prese in considerazione al momento in cui fornisci le tue informazioni. Devi essere sicuro di poterti fidare del servizio, motivo per cui non consigliamo di archiviare dati preziosi su nulla se non sui prodotti più maturi e testati. Ciò di solito significa servizi che forniscono E2EE e sono stati sottoposti a un ispezione crittografica. Un ispezione aumenta la garanzia che il prodotto sia stato progettato senza problemi di sicurezza evidenti causati da uno sviluppatore inesperto.
 
-Può anche essere difficile eliminare gli account su alcuni servizi. A volte [sovrascrivere i dati](account-deletion.en.md#overwriting-account-information) associati a un account può essere possibile, ma in altri casi il servizio manterrà un'intera cronologia delle modifiche apportate all'account.
+Può anche essere difficile eliminare gli account su alcuni servizi. A volte [sovrascrivere i dati](account-deletion.md#overwriting-account-information) associati a un account può essere possibile, ma in altri casi il servizio manterrà un'intera cronologia delle modifiche apportate all'account.
 
 ## Termini di servizio & Informativa sulla privacy
 

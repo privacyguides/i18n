@@ -217,7 +217,7 @@ Proton VPN [recommande](https://protonvpn.com/blog/wireguard/) l'utilisation de 
 
 #### :material-alert-outline:{ .pg-orange } Redirection de port
 
-Proton VPN ne prend actuellement en charge que la [redirection de port](https://protonvpn.com/support/port-forwarding/) sous Windows, ce qui peut avoir un impact sur certaines applications. En particulier les applications pair à pair comme les clients Torrent.
+Proton VPN ne prend actuellement en charge que la [redirection de port](https://protonvpn.com/support/port-forwarding/) éphémère via NAT-PMP, avec des durées de location de 60 secondes. L'application Windows offre une option facile d'accès, tandis que sur les autres systèmes d'exploitation, vous devrez exécuter votre propre [client NAT-PMP](https://protonvpn.com/support/port-forwarding-manual-setup/). Les applications de torrent prennent souvent en charge NAT-PMP nativement.
 
 #### :material-check:{ .pg-green } Clients mobiles
 

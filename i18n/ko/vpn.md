@@ -217,7 +217,7 @@ Proton VPN은 자신들의 서비스에서 WireGuard 사용을 [권장](https://
 
 #### :material-alert-outline:{ .pg-orange } 원격 포트 포워딩
 
-Proton VPN currently only supports remote [port forwarding](https://protonvpn.com/support/port-forwarding/) on Windows, which may impact some applications. Especially Peer-to-peer applications like Torrent clients.
+Proton VPN currently only supports ephemeral remote [port forwarding](https://protonvpn.com/support/port-forwarding/) via NAT-PMP, with 60 second lease times. The Windows app provides an easy to access option for it, while on other operating systems you'll need to run your own [NAT-PMP client](https://protonvpn.com/support/port-forwarding-manual-setup/). Torrent applications often support NAT-PMP natively.
 
 #### :material-check:{ .pg-green } 모바일 클라이언트
 

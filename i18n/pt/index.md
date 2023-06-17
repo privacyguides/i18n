@@ -1,5 +1,5 @@
 ---
-meta_title: "Privacy Guides: Your Independent Privacy and Security Resource"
+meta_title: "Privacy Guides: o seu recurso independente de privacidade e segurança"
 template: overrides/home.pt.html
 hide:
   - navigation
@@ -36,7 +36,7 @@ schema:
 ---
 
 <!-- markdownlint-disable-next-line -->
-## Why should I care?
+## Porque é que eu me devo importar?
 
 ##### “I have nothing to hide. Why should I care about my privacy?”
 

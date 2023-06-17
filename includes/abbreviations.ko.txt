@@ -52,6 +52,8 @@
 *[MEID]: 이동 장비 식별 번호(Mobile Equipment Identifier)
 *[MFA]: 다중 인증
 *[NVMe]: Nonvolatile Memory Express
+*[NAT]: Network address translation
+*[NAT-PMP]: NAT Port Mapping Protocol
 *[NTP]: 네트워크 타임 프로토콜(Network Time Protocol)
 *[OCI]: Open Container Initiative
 *[OCSP]: 온라인 인증서 상태 프로토콜(Online Certificate Status Protocol)
