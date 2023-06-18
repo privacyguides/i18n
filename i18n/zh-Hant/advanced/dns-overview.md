@@ -26,13 +26,13 @@ DNS 從網際網路的 [早期](https://en.wikipedia.org/wiki/Domain_Name_System
 
 2. 然後我們可以使用 [`dig`](https://en.wikipedia.org/wiki/Dig_(command)) （ Linux ， MacOS 等）或 [`nslookup`](https://en.wikipedia.org/wiki/Nslookup) （ Windows ）將 DNS查詢發送到兩個伺服器。 Web 瀏覽器等軟體會自動執行這些查詢，除非它們被配置為使用加密的DNS。
 
-    = = = "Linux ， macOS"
+    === "Linux ， macOS"
 
         ```
         dig +noall +answer privacyguides.org @1.1.1.1
         dig +noall +answer privacyguides.org @8.8.8.8
         ```
-    = = = "Windows"
+    === "Windows"
 
         ```
         nslookup privacyguides.org 1.1.1.1
@@ -44,7 +44,7 @@ DNS 從網際網路的 [早期](https://en.wikipedia.org/wiki/Domain_Name_System
     === "Wireshark"
 
         ```
-        wireshark -r/tmp/dns.pcap
+        wireshark -r /tmp/dns.pcap
         ```
 
     === "tshark"
@@ -137,7 +137,7 @@ DoH 原生執行出現在 iOS 14, macOS 11, Microsoft Windows, 與 Android 13 (�
 4. 接下來分析結果：
 
     ```bash
-    wireshark -r/tmp/pg.pcap
+    wireshark -r /tmp/pg.pcap
     ```
 
     連接建立後與 privacyguides 網站的TLS 握手。 大約在第5 幀附近。 你會看到一個“客戶你好”。

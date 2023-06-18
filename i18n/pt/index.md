@@ -38,34 +38,34 @@ schema:
 <!-- markdownlint-disable-next-line -->
 ## Porque é que eu me devo importar?
 
-##### “I have nothing to hide. Why should I care about my privacy?”
+##### "Não tenho nada a esconder. Porque hei de preocupar com a minha privacidade?"
 
-Much like the right to interracial marriage, woman's suffrage, freedom of speech, and many others, our right to privacy hasn't always been upheld. In several dictatorships, it still isn't. Generations before ours fought for our right to privacy. ==Privacy is a human right, inherent to all of us,== that we are entitled to (without discrimination).
+Tal como o direito ao casamento interracial, o sufrágio feminino, a liberdade de expressão e muitos outros, o nosso direito à privacidade nem sempre foi defendido. Em várias ditaduras, continua a não o ser. As gerações anteriores à nossa lutaram pelo nosso direito à privacidade. ==A privacidade é um direito humano, inerente a todos nós,== a que temos direito (sem discriminação).
 
-You shouldn't confuse privacy with secrecy. We know what happens in the bathroom, but you still close the door. That's because you want privacy, not secrecy. **Everyone** has something to protect. Privacy is something that makes us human.
+Não se deve confundir privacidade com secretismo. Sabemos o que acontece na casa de banho, mas mesmo assim fechamos a porta. Isso é porque queremos privacidade, não secretismo. **Toda a gente** tem algo a proteger. A privacidade é algo que nos torna humanos.
 
-[:material-book-outline: Why Privacy Matters](basics/why-privacy-matters.md){ class="md-button md-button--primary" }
+[:material-book-outline: Porque é que a privacidade é importante](basics/why-privacy-matters.md){ class="md-button md-button--primary" }
 
-## What should I do?
+## O que devo fazer?
 
-##### First, you need to make a plan
+##### Primeiro, é preciso fazer um plano
 
-Trying to protect all your data from everyone all the time is impractical, expensive, and exhausting. But don't worry! Security is a process, and, by thinking ahead, you can put together a plan that's right for you. Security isn't just about the tools you use or the software you download. Rather, it begins by understanding the unique threats you face, and how you can mitigate them.
+Tentar proteger os seus dados de toda a gente, a toda a hora, é impraticável, dispendioso e exaustivo. Mas não se preocupe! A segurança é um processo e, se pensar um pouco à frente, pode elaborar um plano adequado para si. A segurança não se resume apenas às ferramentas que utiliza ou ao software que descarrega. Não raras vezes, começa por compreender as ameaças únicas que enfrenta e como as pode atenuar.
 
-==This process of identifying threats and defining countermeasures is called **threat modeling**==, and it forms the basis of every good security and privacy plan.
+==Este processo de identificação de ameaças e definição de contramedidas é designado por **modelagem de ameaças**== e constitui a base de qualquer bom plano de segurança e privacidade.
 
-[:material-book-outline: Learn More About Threat Modeling](basics/threat-modeling.md){ class="md-button md-button--primary" }
+[:material-book-outline: Saiba mais sobre a modelação de ameaças](basics/threat-modeling.md){ class="md-button md-button--primary" }
 
 ---
 
-## We need you! Here's how to get involved:
+## Precisamos de si! Eis como participar:
 
-[:simple-discourse:](https://discuss.privacyguides.net/){ title="Join our Forum" }
-[:simple-mastodon:](https://mastodon.neat.computer/@privacyguides){ rel=me title="Follow us on Mastodon" }
-[:material-book-edit:](https://github.com/privacyguides/privacyguides.org){ title="Contribute to this website" }
-[:material-translate:](https://matrix.to/#/#pg-i18n:aragon.sh){ title="Help translate this website" }
-[:simple-matrix:](https://matrix.to/#/#privacyguides:matrix.org){ title="Chat with us on Matrix" }
-[:material-information-outline:](about/index.md){ title="Learn more about us" }
-[:material-hand-coin-outline:](about/donate.md){ title="Support the project" }
+[:simple-discourse:](https://discuss.privacyguides.net/){ title="Junte-se ao Fórum" }
+[:simple-mastodon:](https://mastodon.neat.computer/@privacyguides){ rel=me title="Siga-nos no Mastodon" }
+[:material-book-edit:](https://github.com/privacyguides/privacyguides.org){ title="Contribua para este site" }
+[:material-translate:](https://matrix.to/#/#pg-i18n:aragon.sh){ title="Ajude a traduzir o site" }
+[:simple-matrix:](https://matrix.to/#/#privacyguides:matrix.org){ title="Fale connosco no Matrix" }
+[:material-information-outline:](about/index.md){ title="Saiba mais sibre nós" }
+[:material-hand-coin-outline:](about/donate.md){ title="Apoie o projeto" }
 
-It's important for a website like Privacy Guides to always stay up-to-date. We need our audience to keep an eye on software updates for the applications listed on our site and follow recent news about providers that we recommend. It's hard to keep up with the fast pace of the internet, but we try our best. If you spot an error, think a provider should not be listed, notice a qualified provider is missing, believe a browser plugin is no longer the best choice, or uncover any other issue, please let us know.
+É importante que um site como o Privacy Guides esteja sempre atualizado. Precisamos que o nosso público esteja atento às atualizações de software para as aplicações listadas no nosso site e siga as notícias recentes sobre os fornecedores que recomendamos. É difícil acompanhar o ritmo acelerado da Internet, mas tentamos fazer o nosso melhor. Se detetar um erro, se achar que um fornecedor não deveria constar da lista, se notar que falta um fornecedor qualificado, se achar que um plugin do browser já não é a melhor opção ou se descobrir qualquer outro problema, informe-nos.

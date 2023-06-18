@@ -269,20 +269,20 @@ As opções de proteção podem ser revogadas por cada site, de acordo com as ne
 
 </div>
 
-1. Brave is **not** as resistant to fingerprinting as the Tor Browser and far fewer people use Brave with Tor, so you will stand out. Where [strong anonymity is required](https://support.brave.com/hc/en-us/articles/360018121491-What-is-a-Private-Window-with-Tor-Connectivity-) use the [Tor Browser](tor.md#tor-browser).
+1. O Brave **não é** tão resistente à recolha de impressões digitais como o Tor e muito menos pessoas utilizam o Brave com o Tor, pelo que a sua presença se destacará. Quando [é necessário um forte anonimato](https://support.brave.com/hc/en-us/articles/360018121491-What-is-a-Private-Window-with-Tor-Connectivity-), utilize o navegador Tor [](tor.md#tor-browser).
 
 ##### Extensões
 
-Disable built-in extensions you do not use in **Extensions**
+Desative as extensões incluídas que não utilizar em **Extensões**
 
-- [ ] Uncheck **Hangouts**
-- [ ] Uncheck **WebTorrent**
+- [ ] Desmarque **Hangouts**
+- [ ] Desmarque **WebTorrent**
 
 ##### Web3
 
-Brave's Web3 features can potentially add to your browser fingerprint and attack surface. Unless you use any of features, they should be disabled.
+As funcionalidades Web3 do Brave podem potencialmente aumentar a impressão digital do seu browser e a superfície de ataque. A menos que utilize alguma destas funcionalidades, desative-as.
 
-Set **Default Ethereum wallet** to **Extensions (no fallback)** Set **Default Solana wallet** to **Extensions (no fallback)** Set **Method to resolve IPFS resources** to **Disabled**
+Defina **Default Ethereum wallet** para **Extensions (no fallback)** Defina **Default Solana wallet** para **Extensions (no fallback)** Defina **Method to resolve IPFS resources** para **Desativado**
 
 ##### System
 

@@ -47,7 +47,7 @@ Estes fornecedores suportam nativamente a encriptação/desencriptação OpenPGP
     [:simple-torbrowser:](https://protonmailrmez3lotccipshtkleegetolb73fuirgj7r4o4vfu7ozyd.onion){ .card-link title="Serviço Onion" }
     [:octicons-eye-16:](https://proton.me/legal/privacy){ .card-link title="Política de Privacidade" }
     [:octicons-info-16:](https://proton.me/support/mail){ .card-link title=Documentação}
-    [:octicons-code-16:](https://github.com/ProtonMail){ .card-link title="Código Fonte" }
+    [:octicons-code-16:](https://github.com/ProtonMail){ .card-link title="Código-fonte" }
     
     ??? downloads
     
@@ -175,8 +175,8 @@ Estes fornecedores armazenam os seus e-mails com encriptação de acesso zero, o
     [:octicons-home-16: Homepage](https://tutanota.com){ .md-button .md-button--primary }
     [:octicons-eye-16:](https://tutanota.com/privacy){ .card-link title="Política de Privacidade" }
     [:octicons-info-16:](https://tutanota.com/faq){ .card-link title=Documentação}
-    [:octicons-code-16:](https://github.com/tutao/tutanota){ .card-link title="Código Fonte" }
-    [:octicons-heart-16:](https://tutanota.com/community/){ .card-link title=Contributo }
+    [:octicons-code-16:](https://github.com/tutao/tutanota){ .card-link title="Código-fonte" }
+    [:octicons-heart-16:](https://tutanota.com/community/){ .card-link title=Contribuir }
     
     ??? downloads
     
@@ -224,80 +224,80 @@ O Tutanota não oferece funcionalidade de legado digital.
 
 ## Serviços de aliasing de e-mail
 
-Um serviço de aliasing de e-mail permite-lhe gerar facilmente um novo endereço de e-mail para cada sítio Web em que efetue um registo. Os aliases de e-mail que gera são depois reencaminhados para um endereço de e-mail à sua escolha, ocultando tanto o seu endereço de e-mail "principal" como a identidade do seu fornecedor de e-mail. True email aliasing is better than plus addressing commonly used and supported by many providers, which allows you to create aliases like yourname+[anythinghere]@example.com, because websites, advertisers, and tracking networks can trivially remove anything after the + sign to know your true email address.
+Um serviço de aliasing de e-mail permite-lhe gerar facilmente um novo endereço de e-mail para cada sítio Web em que efetue um registo. Os aliases de e-mail que gera são depois reencaminhados para um endereço de e-mail à sua escolha, ocultando tanto o seu endereço de e-mail "principal" como a identidade do seu fornecedor de e-mail. Um serviço de aliasing de e-mail é melhor do que o endereçamento plus habitualmente utilizado e suportado por muitos fornecedores, que permite criar aliases como yourname+[anythinghere]@example.com, porque os sites, os anunciantes e as redes de rastreio podem remover trivialmente tudo o que se segue ao sinal + para conhecer o seu verdadeiro endereço de e-mail.
 
 <div class="grid cards" markdown>
 
-- ![Joplin logo](/assets/img/notebooks/joplin.svg){ .twemoji } [Joplin](https://joplinapp.org/)
-- ![Standard Notes logo](/assets/img/notebooks/standard-notes.svg){ .twemoji } [Standard Notes](https://standardnotes.org/)
+- ![Logótipo AnonAddy](assets/img/email/anonaddy.svg#only-light){ .twemoji }![Logótipo AnonAddy](assets/img/email/anonaddy-dark.svg#only-dark){ .twemoji } [AnonAddy](email.md#anonaddy)
+- ![Logótipo SimpleLogin](assets/img/email/simplelogin.svg){ .twemoji } [SimpleLogin](email.md#simplelogin)
 
 </div>
 
-Email aliasing can act as a safeguard in case your email provider ever ceases operation. In that scenario, you can easily re-route your aliases to a new email address. In turn, however, you are placing trust in the aliasing service to continue functioning.
+O aliasing de e-mail pode funcionar como uma salvaguarda no caso de o seu fornecedor de e-mail cessar atividade. Nesse caso, pode facilmente reencaminhar os seus pseudónimos para um novo endereço de correio eletrónico. No entanto, está a depositar toda confiança apenas no serviço de aliasing para continuar a ter acesso ao seu e-mail.
 
-Using a dedicated email aliasing service also has a number of benefits over a catch-all alias on a custom domain:
+A utilização de um serviço de aliasing de e-mail dedicado tem uma série de vantagens em relação a um alias global num domínio personalizado:
 
-- Aliases can be turned on and off individually when you need them, preventing websites from emailing you randomly.
-- Replies are sent from the alias address, shielding your real email address.
+- Os pseudónimos podem ser ativados e desativados individualmente quando necessário, evitando que os sites enviem mensagens de e-mail de forma aleatória.
+- As respostas são enviadas a partir do endereço alias, protegendo o seu endereço de e-mail real.
 
-They also have a number of benefits over "temporary email" services:
+Têm também uma série de vantagens em relação aos serviços de "e-mail temporário":
 
-- Aliases are permanent and can be turned on again if you need to receive something like a password reset.
-- Emails are sent to your trusted mailbox rather than stored by the alias provider.
-- Temporary email services typically have public mailboxes which can be accessed by anyone who knows the address, aliases are private to you.
+- Os pseudónimos são permanentes e podem ser ativados novamente se for necessário receber alguma informação, como por exemplo uma redefinição de palavra-passe.
+- Os e-mails são enviados para a sua caixa de correio de confiança, em vez de serem guardados pelo fornecedor do pseudónimo.
+- Os serviços de e-mail temporário têm normalmente caixas de correio públicas que podem ser acedidas por qualquer pessoa que conheça o endereço; os pseudónimos são privados.
 
-Our email aliasing recommendations are providers that allow you to create aliases on domains they control, as well as your own custom domain(s) for a modest yearly fee. They can also be self-hosted if you want maximum control. However, using a custom domain can have privacy-related drawbacks: If you are the only person using your custom domain, your actions can be easily tracked across websites simply by looking at the domain name in the email address and ignoring everything before the at (@) sign.
+As nossas recomendações de aliasing de e-mail são fornecedores que lhe permitem criar aliases em domínios que eles controlam, bem como no(s) seu(s) próprio(s) domínio(s) personalizado(s), por uma módica taxa anual. Também podem ser auto-hospedados, caso pretenda um controlo máximo. No entanto, a utilização de um domínio personalizado pode ter desvantagens relacionadas com a privacidade: Se for a única pessoa a utilizar o seu domínio personalizado, as suas ações podem ser facilmente localizadas em todos os sites bastando olhar para o nome do domínio no endereço de e-mail e ignorar tudo o que vem antes do sinal arroba (@).
 
-Using an aliasing service requires trusting both your email provider and your aliasing provider with your unencrypted messages. Some providers mitigate this slightly with automatic PGP encryption, which reduces the number of parties you need to trust from two to one by encrypting incoming emails before they are delivered to your final mailbox provider.
+A utilização de um serviço de aliasing requer a sua confiança no fornecedor de e-mail e no fornecedor de aliasing, no caso das suas mensagens não serem encriptadas. Alguns fornecedores atenuam ligeiramente esta situação com a encriptação PGP automática, o que encripta os e-mails recebidos antes de serem entregues ao fornecedor final de e-mail, reduzindo o número de entidades terceiras em que é necessário confiar, de duas para uma.
 
-### StartMail
+### AnonAddy
 
 !!! nota
     Consulte o [Tabela de Hardware](https://openwrt.org/toh/start) para verificar se o seu dispositivo é suportado.
 
-    ![AnonAddy logo](assets/img/email/anonaddy.svg#only-light){ align=right }
-    ![AnonAddy logo](assets/img/email/anonaddy-dark.svg#only-dark){ align=right }
+    ![Logótipo AnonAddy](assets/img/email/anonaddy.svg#only-light){ align=right }
+    ![Logótipo AnonAddy](assets/img/email/anonaddy-dark.svg#only-dark){ align=right }
     
-    **AnonAddy** lets you create 20 domain aliases on a shared domain for free, or unlimited "standard" aliases which are less anonymous.
+    **AnonAddy** permite-lhe criar 20 aliases de domínio num domínio partilhado, gratuitamente, ou aliases "standard" ilimitados que são menos anónimos.
     
     [:octicons-home-16: Homepage](https://anonaddy.com){ .md-button .md-button--primary }
-    [:octicons-eye-16:](https://anonaddy.com/privacy/){ .card-link title="Privacy Policy" }
-    [:octicons-info-16:](https://app.anonaddy.com/docs/){ .card-link title=Documentation}
-    [:octicons-code-16:](https://github.com/anonaddy){ .card-link title="Source Code" }
-    [:octicons-heart-16:](https://anonaddy.com/donate/){ .card-link title=Contribute }
+    [:octicons-eye-16:](https://anonaddy.com/privacy/){ .card-link title="Política de Privacidade" }
+    [:octicons-info-16:](https://app.anonaddy.com/docs/){ .card-link title=Documentação}
+    [:octicons-code-16:](https://github.com/anonaddy){ .card-link title="Código-fonte" }
+    [:octicons-heart-16:](https://anonaddy.com/donate/){ .card-link title=Contribuir }
     
-    ??? downloads
+    ??? transferências
     
         - [:simple-android: Android](https://anonaddy.com/faq/#is-there-an-android-app)
         - [:material-apple-ios: iOS](https://anonaddy.com/faq/#is-there-an-ios-app)
         - [:simple-firefoxbrowser: Firefox](https://addons.mozilla.org/en-GB/firefox/addon/anonaddy/)
         - [:simple-googlechrome: Chrome](https://chrome.google.com/webstore/detail/anonaddy-anonymous-email/iadbdpnoknmbdeolbapdackdcogdmjpe)
 
-The number of shared aliases (which end in a shared domain like @anonaddy.me) that you can create is limited to 20 on AnonAddy's free plan and 50 on their $12/year plan. You can create unlimited standard aliases (which end in a domain like @[username].anonaddy.com or a custom domain on paid plans), however, as previously mentioned, this can be detrimental to privacy because people can trivially tie your standard aliases together based on the domain name alone. Unlimited shared aliases are available for $36/year.
+O número de aliases partilhados (que terminam num domínio partilhado como @anonaddy.me) que pode criar está limitado a 20, no plano gratuito do AnonAddy, e a 50, no plano que custa 12 dólares por ano. Pode criar pseudónimos padrão ilimitados (que terminam num domínio como @[username].anonaddy.com ou um domínio personalizado em planos pagos), no entanto, tal como mencionado anteriormente, isto pode ser prejudicial para a privacidade, uma vez que as pessoas podem associar trivialmente os seus pseudónimos padrão com base apenas no nome do domínio. Estão disponíveis aliases partilhados ilimitados por $36/ano.
 
-Notable free features:
+Funcionalidades gratuitas dignas de nota:
 
-- Criptografa os dados da conta em repouso.
-- A criptografia integrada do webmail proporciona conveniência aos usuários que desejam melhorar ao não ter [E2EE](https://en.wikipedia.org/wiki/End-to-end_encryption) criptografia.
-- [ ] No Outgoing Replies
-- [x] 2 Recipient Mailboxes
-- [x] Automatic PGP Encryption
+- [x] 20 Aliases partilhados
+- [x] Aliases padrão ilimitados
+- [ ] Nenhuma resposta de saída
+- [x] 2 Caixas de correio de destinatários
+- [x] Encriptação PGP automática
 
-### CTemplar
+### SimpleLogin
 
 !!! nota
     Consulte o [Tabela de Hardware](https://openwrt.org/toh/start) para verificar se o seu dispositivo é suportado.
 
-    ![Simplelogin logo](assets/img/email/simplelogin.svg){ align=right }
+    ![Logótipo Simplelogin](assets/img/email/simplelogin.svg){ align=right }
     
-    **SimpleLogin** is a free service which provides email aliases on a variety of shared domain names, and optionally provides paid features like unlimited aliases and custom domains.
+    O **SimpleLogin** é um serviço gratuito que fornece aliases de e-mail numa variedade de nomes de domínio partilhados e, opcionalmente, fornece funcionalidades pagas, como aliases ilimitados e domínios personalizados.
     
     [:octicons-home-16: Homepage](https://simplelogin.io){ .md-button .md-button--primary }
-    [:octicons-eye-16:](https://simplelogin.io/privacy/){ .card-link title="Privacy Policy" }
-    [:octicons-info-16:](https://simplelogin.io/docs/){ .card-link title=Documentation}
-    [:octicons-code-16:](https://github.com/simple-login){ .card-link title="Source Code" }
+    [:octicons-eye-16:](https://simplelogin.io/privacy/){ .card-link title="Política de Privacidade" }
+    [:octicons-info-16:](https://simplelogin.io/docs/){ .card-link title=Documentação}
+    [:octicons-code-16:](https://github.com/simple-login){ .card-link title="Código-fonte" }
     
-    ??? downloads
+    ??? transferências
     
         - [:simple-googleplay: Google Play](https://play.google.com/store/apps/details?id=io.simplelogin.android)
         - [:simple-appstore: App Store](https://apps.apple.com/app/id1494359858)
@@ -307,156 +307,156 @@ Notable free features:
         - [:simple-microsoftedge: Edge](https://microsoftedge.microsoft.com/addons/detail/simpleloginreceive-sen/diacfpipniklenphgljfkmhinphjlfff)
         - [:simple-safari: Safari](https://apps.apple.com/app/id1494051017)
 
-SimpleLogin was [acquired by Proton AG](https://proton.me/news/proton-and-simplelogin-join-forces) as of April 8, 2022. If you use Proton Mail for your primary mailbox, SimpleLogin is a great choice. As both products are now owned by the same company you now only have to trust a single entity. We also expect that SimpleLogin will be more tightly integrated with Proton's offerings in the future. SimpleLogin continues to support forwarding to any email provider of your choosing. Securitum [audited](https://simplelogin.io/blog/security-audit/) SimpleLogin in early 2022 and all issues [were addressed](https://simplelogin.io/audit2022/web.pdf).
+O SimpleLogin foi [adquirido pela Proton AG](https://proton.me/news/proton-and-simplelogin-join-forces), em 8 de abril de 2022. Se utiliza o Proton Mail para a sua caixa de correio principal, o SimpleLogin é uma ótima escolha. Uma vez que ambos os produtos são agora propriedade da mesma empresa, só tem de confiar numa única entidade. Também esperamos que o SimpleLogin seja integrado de forma mais estreita com as ofertas da Proton no futuro. O SimpleLogin continua a suportar o reencaminhamento para qualquer fornecedor de e-mail de sua preferência. A Securitum [auditou o](https://simplelogin.io/blog/security-audit/) SimpleLogin no início de 2022 e todas os problemas identificados [foram resolvidos](https://simplelogin.io/audit2022/web.pdf).
 
-You can link your SimpleLogin account in the settings with your Proton account. If you have the Proton Unlimited, Business, or Visionary Plan, you will have SimpleLogin Premium for free.
+Nas definições, pode associar a sua conta SimpleLogin à sua conta Proton. Se tiver o Plano Proton Unlimited, Business ou Visionary, terá o SimpleLogin Premium gratuitamente.
 
-Notable free features:
+Funcionalidades gratuitas dignas de nota:
 
-- Criptografa os dados da conta em repouso com criptografia de acesso zero.
-- [x] Unlimited Replies
-- [x] 1 Recipient Mailbox
+- [x] 10 Aliases partilhados
+- [x] Respostas ilimitadas
+- [x] 1 Caixa de correio do destinatário
 
-## Visão Geral dos Metadados de Email
+## E-mail auto-hospedado
 
-Advanced system administrators may consider setting up their own email server. Mail servers require attention and continuous maintenance in order to keep things secure and mail delivery reliable.
+Os administradores de sistemas avançados podem considerar a possibilidade de configurar o seu próprio servidor de e-mail. Os servidores de e-mail requerem atenção e manutenção contínua para se manterem seguros e para que a entrega de e-mail seja fiável.
 
-### Combined software solutions
+### Soluções de software combinadas
 
 !!! nota
     Consulte o [Tabela de Hardware](https://openwrt.org/toh/start) para verificar se o seu dispositivo é suportado.
 
-    ![Mailcow logo](assets/img/email/mailcow.svg){ align=right }
+    ![Logótipo Mailcow](assets/img/email/mailcow.svg){ align=right }
     
-    **Mailcow** is a more advanced mail server perfect for those with a bit more Linux experience. It has everything you need in a Docker container: A mail server with DKIM support, antivirus and spam monitoring, webmail and ActiveSync with SOGo, and web-based administration with 2FA support.
+    **Mailcow** é um servidor de e-mail mais avançado, perfeito para quem tem um pouco mais de experiência em Linux. Tem tudo o que é necessário num contentor Docker: um servidor de e-mail com suporte DKIM, antivírus e monitorização de spam, webmail e ActiveSync com SOGo, e administração baseada na Web com suporte 2FA.
     
     [:octicons-home-16: Homepage](https://mailcow.email){ .md-button .md-button--primary }
-    [:octicons-info-16:](https://mailcow.github.io/mailcow-dockerized-docs/){ .card-link title=Documentation}
-    [:octicons-code-16:](https://github.com/mailcow/mailcow-dockerized){ .card-link title="Source Code" }
-    [:octicons-heart-16:](https://www.servercow.de/mailcow?lang=en#sal){ .card-link title=Contribute }
+    [:octicons-info-16:](https://mailcow.github.io/mailcow-dockerized-docs/){ .card-link title=Documentação}
+    [:octicons-code-16:](https://github.com/mailcow/mailcow-dockerized){ .card-link title="Código-fonte" }
+    [:octicons-heart-16:](https://www.servercow.de/mailcow?lang=en#sal){ .card-link title=Contribuir }
 
 !!! nota
     Consulte o [Tabela de Hardware](https://openwrt.org/toh/start) para verificar se o seu dispositivo é suportado.
 
-    ![Mail-in-a-Box logo](assets/img/email/mail-in-a-box.svg){ align=right }
+    ![Logótipo Mail-in-a-Box](assets/img/email/mail-in-a-box.svg){ align=right }
     
-    **Mail-in-a-Box** is an automated setup script for deploying a mail server on Ubuntu. Its goal is to make it easier for people to set up their own mail server.
+    **Mail-in-a-Box** é um script de configuração automatizado para implementar um servidor de e-mail no Ubuntu. O seu objetivo é facilitar a criação do seu próprio servidor de e-mail.
     
     [:octicons-home-16: Homepage](https://mailinabox.email){ .md-button .md-button--primary }
-    [:octicons-info-16:](https://mailinabox.email/guide.html){ .card-link title=Documentation}
-    [:octicons-code-16:](https://github.com/mail-in-a-box/mailinabox){ .card-link title="Source Code" }
+    [:octicons-info-16:](https://mailinabox.email/guide.html){ .card-link title=Documentação}
+    [:octicons-code-16:](https://github.com/mail-in-a-box/mailinabox){ .card-link title="Código-fonte" }
 
-For a more manual approach we've picked out these two articles:
+Para uma abordagem mais manual, selecionámos estes dois artigos:
 
-- [Setting up a mail server with OpenSMTPD, Dovecot and Rspamd](https://poolp.org/posts/2019-09-14/setting-up-a-mail-server-with-opensmtpd-dovecot-and-rspamd/) (2019)
-- [How To Run Your Own Mail Server](https://www.c0ffee.net/blog/mail-server-guide/) (August 2017)
+- [Configurar um servidor de e-mail com OpenSMTPD, Dovecot e Rspamd](https://poolp.org/posts/2019-09-14/setting-up-a-mail-server-with-opensmtpd-dovecot-and-rspamd/) (2019)
+- [Como gerir o seu próprio servidor de e-mail](https://www.c0ffee.net/blog/mail-server-guide/) (agosto de 2017)
 
-## Framadate
+## Critérios
 
-**Please note we are not affiliated with any of the providers we recommend.** In addition to [our standard criteria](about/criteria.md), we have developed a clear set of requirements for any Email provider wishing to be recommended, including implementing industry best practices, modern technology and more. We suggest you familiarize yourself with this list before choosing an Email provider, and conduct your own research to ensure the Email provider you choose is the right choice for you.
-
-### Jurisdição
-
-We regard these features as important in order to provide a safe and optimal service. You should consider whether the provider which has the features you require.
-
-**O melhor caso:**
-
-- Operando fora dos EUA ou de outros países da Five Eyes.
-- Export capability as [Mbox](https://en.wikipedia.org/wiki/Mbox) or individual .eml with [RFC5322](https://datatracker.ietf.org/doc/rfc5322/) standard.
-- Allow users to use their own [domain name](https://en.wikipedia.org/wiki/Domain_name). Custom domain names are important to users because it allows them to maintain their agency from the service, should it turn bad or be acquired by another company which doesn't prioritize privacy.
-- Operates on owned infrastructure, i.e. not built upon third-party email service providers.
-
-**Best Case:**
-
-- Encrypts all account data (Contacts, Calendars, etc.) at rest with zero-access encryption.
-- Integrated webmail E2EE/PGP encryption provided as a convenience.
-- Support for [WKD](https://wiki.gnupg.org/WKD) to allow improved discovery of public OpenPGP keys via HTTP. GnuPG users can get a key by typing: `gpg --locate-key example_user@example.com`
-- Support for a temporary mailbox for external users. This is useful when you want to send an encrypted email, without sending an actual copy to your recipient. These emails usually have a limited lifespan and then are automatically deleted. They also don't require the recipient to configure any cryptography like OpenPGP.
-- Availability of the email provider's services via an [onion service](https://en.wikipedia.org/wiki/.onion).
-- [Subaddressing](https://en.wikipedia.org/wiki/Email_address#Subaddressing) support.
-- Catch-all or alias functionality for those who own their own domains.
-- Use of standard email access protocols such as IMAP, SMTP or [JMAP](https://en.wikipedia.org/wiki/JSON_Meta_Application_Protocol). Standard access protocols ensure customers can easily download all of their email, should they want to switch to another provider.
+**Tenha em atenção que não somos afiliados de nenhum dos fornecedores que recomendamos.** Para além dos [nossos critérios padrão](about/criteria.md), desenvolvemos um conjunto claro de critérios para qualquer fornecedor de e-mail que pretenda ser recomendado, incluindo a implementação das melhores práticas da indústria, tecnologia moderna e muito mais. Sugerimos que se familiarize com esta lista antes de escolher um fornecedor de e-mail e que faça a sua própria pesquisa para garantir que o fornecedor de e-mail que escolher é a escolha certa.
 
 ### Tecnologia
 
-We prefer our recommended providers to collect as little data as possible.
+Consideramos que estas características são importantes para podermos prestar um serviço seguro e otimizado. Deve garantir que o fornecedor tem as características de que necessita.
 
-**O melhor caso:**
+**Mínimos de qualificação:**
 
-- Protect sender's IP address. Filter it from showing in the `Received` header field.
-- Don't require personally identifiable information (PII) besides a username and a password.
-- Privacy policy that meets the requirements defined by the GDPR.
+- Encriptação de todos os dados da conta de e-mail em estado de repouso, com encriptação de acesso zero.
+- Capacidade de exportação como [Mbox](https://en.wikipedia.org/wiki/Mbox) ou .eml individual com a norma [RFC5322](https://datatracker.ietf.org/doc/rfc5322/) .
+- Permitir que aos utilizadores configurar o seu próprio nome de domínio [](https://en.wikipedia.org/wiki/Domain_name). Os nomes de domínio personalizados são importantes para os utilizadores, porque lhes permitem manter a sua agência do serviço, caso este se torne mau ou seja adquirido por outra empresa que não dê prioridade à privacidade.
+- Funciona com uma infraestrutura própria, isto é, não se baseia em fornecedores de serviços de e-mail de terceiros.
 
-**Best Case:**
+**Melhor caso:**
 
-- Accepts [anonymous payment options](advanced/payments.md) ([cryptocurrency](cryptocurrency.md), cash, gift cards, etc.)
-- Hosted in a jurisdiction with strong email privacy protection laws.
+- Encriptação de todos os dados da conta (contactos, calendários, etc.) em estado de repouso, com encriptação de acesso zero.
+- Encriptação E2EE/PGP integrada no webmail, fornecida como uma conveniência.
+- Suporte para [WKD](https://wiki.gnupg.org/WKD) para permitir uma melhor descoberta de chaves OpenPGP públicas através de HTTP. Os utilizadores do GnuPG podem obter uma chave escrevendo: `gpg --locate-key example_user@example.com`
+- Suporte para uma caixa de correio temporária para utilizadores externos. Isto é útil quando se pretende enviar uma mensagem de e-mail encriptada, sem enviar uma cópia real ao destinatário. Estas mensagens de e-mail têm normalmente um tempo de vida limitado e depois são automaticamente eliminadas. Também não requerem que o destinatário configure qualquer criptografia como o OpenPGP.
+- Disponibilidade dos serviços do fornecedor de e-mail através de um serviço onion [](https://en.wikipedia.org/wiki/.onion).
+- Suporte de [Sub-endereçamento](https://en.wikipedia.org/wiki/Email_address#Subaddressing).
+- Funcionalidade de Catch-all ou alias para quem possui os seus próprios domínios.
+- Utilização de protocolos normais de acesso ao e-mail, como IMAP, SMTP ou [JMAP](https://en.wikipedia.org/wiki/JSON_Meta_Application_Protocol). Os protocolos de acesso normalizados garantem que os clientes podem transferir facilmente todo o seu e-mail, caso pretendam mudar para outro fornecedor.
 
 ### Privacidade
 
-Email servers deal with a lot of very sensitive data. We expect that providers will adopt best industry practices in order to protect their members.
+Preferimos que os nossos fornecedores recomendados recolham o mínimo de dados possível.
 
-**O melhor caso:**
+**Mínimos de qualificação:**
 
-- Protection of webmail with 2FA, such as TOTP.
-- Zero access encryption, builds on encryption at rest. The provider does not have the decryption keys to the data they hold. This prevents a rogue employee leaking data they have access to or remote adversary from releasing data they have stolen by gaining unauthorized access to the server.
-- [DNSSEC](https://en.wikipedia.org/wiki/Domain_Name_System_Security_Extensions) support.
-- No TLS errors or vulnerabilities when being profiled by tools such as [Hardenize](https://www.hardenize.com/), [testssl.sh](https://testssl.sh/), or [Qualys SSL Labs](https://www.ssllabs.com/ssltest); this includes certificate related errors and weak DH parameters, such as those that led to [Logjam](https://en.wikipedia.org/wiki/Logjam_(computer_security)).
-- A server suite preference (optional on TLSv1.3) for strong cipher suites which support forward secrecy and authenticated encryption.
-- A valid [MTA-STS](https://tools.ietf.org/html/rfc8461) and [TLS-RPT](https://tools.ietf.org/html/rfc8460) policy.
-- Valid [DANE](https://en.wikipedia.org/wiki/DNS-based_Authentication_of_Named_Entities) records.
-- Valid [SPF](https://en.wikipedia.org/wiki/Sender_Policy_Framework) and [DKIM](https://en.wikipedia.org/wiki/DomainKeys_Identified_Mail) records.
-- Have a proper [DMARC](https://en.wikipedia.org/wiki/DMARC) record and policy or use [ARC](https://en.wikipedia.org/wiki/Authenticated_Received_Chain) for authentication. If DMARC authentication is being used, the policy must be set to `reject` or `quarantine`.
-- A server suite preference of TLS 1.2 or later and a plan for [RFC8996](https://datatracker.ietf.org/doc/rfc8996/).
-- [SMTPS](https://en.wikipedia.org/wiki/SMTPS) submission, assuming SMTP is used.
-- Website security standards such as:
-    - [HTTP Strict Transport Security](https://en.wikipedia.org/wiki/HTTP_Strict_Transport_Security)
-    - [Subresource Integrity](https://en.wikipedia.org/wiki/Subresource_Integrity) if loading things from external domains.
-- Must support viewing of [Message headers](https://en.wikipedia.org/wiki/Email#Message_header), as it is a crucial forensic feature to determine if an email is a phishing attempt.
+- Proteção do endereço IP do remetente. Filtrar o IP para que não apareça no campo de cabeçalho `Recebido`.
+- Não exigir informações de identificação pessoal (PII) para além de um nome de utilizador e uma palavra-passe.
+- Política de privacidade que cumpra os requisitos definidos pelo RGPD.
 
-**Best Case:**
+**Melhor caso:**
 
-- Support for hardware authentication, i.e. U2F and [WebAuthn](https://en.wikipedia.org/wiki/WebAuthn). U2F and WebAuthn are more secure as they use a private key stored on a client-side hardware device to authenticate people, as opposed to a shared secret that is stored on the web server and on the client side when using TOTP. Furthermore, U2F and WebAuthn are more resistant to phishing as their authentication response is based on the authenticated [domain name](https://en.wikipedia.org/wiki/Domain_name).
-- [DNS Certification Authority Authorization (CAA) Resource Record](https://tools.ietf.org/html/rfc6844) in addition to DANE support.
-- Implementation of [Authenticated Received Chain (ARC)](https://en.wikipedia.org/wiki/Authenticated_Received_Chain), this is useful for people who post to mailing lists [RFC8617](https://tools.ietf.org/html/rfc8617).
-- Programas de recompensa de bugs e/ou um processo coordenado de divulgação de vulnerabilidades.
-- Website security standards such as:
-    - [Content Security Policy (CSP)](https://en.wikipedia.org/wiki/Content_Security_Policy)
-    - [RFC9163 Expect-CT](https://datatracker.ietf.org/doc/rfc9163/)
+- Aceitação de [opções de pagamento anónimas](advanced/payments.md) ([criptomoeda](cryptocurrency.md), dinheiro, cartões de oferta, etc.)
+- Alojamento numa jurisdição com leis rigorosas de proteção da privacidade do e-mail.
 
 ### Segurança
 
-You wouldn't trust your finances to someone with a fake identity, so why trust them with your email? We require our recommended providers to be public about their ownership or leadership. We also would like to see frequent transparency reports, especially in regard to how government requests are handled.
+Os servidores de e-mail lidam com uma grande quantidade de dados muito sensíveis. É esperado que os fornecedores adotem as melhores práticas do setor para proteger os seus membros.
 
-**O melhor caso:**
+**Mínimos de qualificação:**
 
-- Esquemas de Criptografia Fortes: OpenVPN com autenticação SHA-256; RSA-2048 ou melhor aperto de mão; AES-256-GCM ou AES-256-CBC encriptação de dados.
+- Proteção do webmail com 2FA, como o TOTP.
+- Encriptação de acesso zero, baseada na encriptação em estado de repouso. Vedar o acesso do fornecedor às chaves de desencriptação dos dados. Isto impede que um funcionário desonesto divulgue os dados a que tem acesso ou que um adversário remoto divulgue os dados que roubou ao obter acesso não autorizado ao servidor.
+- [Suporte DNSSEC](https://en.wikipedia.org/wiki/Domain_Name_System_Security_Extensions).
+- Nenhum erro ou vulnerabilidade de TLS ao ser analisado por ferramentas como [Hardenize](https://www.hardenize.com/), [testssl.sh](https://testssl.sh/), ou [Qualys SSL Labs](https://www.ssllabs.com/ssltest); isto inclui erros relacionados com certificados e parâmetros DH fracos, como os que levaram a [Logjam](https://en.wikipedia.org/wiki/Logjam_(computer_security)).
+- Uma opção de suite de servidor (opcional no TLSv1.3) para suites de cifras fortes que suportem encaminhamento sigiloso e encriptação autenticada.
+- Uma política válida [MTA-STS](https://tools.ietf.org/html/rfc8461) e [TLS-RPT](https://tools.ietf.org/html/rfc8460).
+- Registos [DANE](https://en.wikipedia.org/wiki/DNS-based_Authentication_of_Named_Entities) válidos.
+- Registos [SPF](https://en.wikipedia.org/wiki/Sender_Policy_Framework) e [DKIM](https://en.wikipedia.org/wiki/DomainKeys_Identified_Mail) válidos.
+- Registo e política [DMARC](https://en.wikipedia.org/wiki/DMARC) adequados ou [ARC](https://en.wikipedia.org/wiki/Authenticated_Received_Chain) para autenticação. Se estiver a ser utilizada a autenticação DMARC, a política deve ser definida como `reject` ou `quarantine`.
+- Uma opção de suite de servidor por TLS 1.2 ou posterior e um plano para [RFC8996](https://datatracker.ietf.org/doc/rfc8996/).
+- Submissão [SMTPS](https://en.wikipedia.org/wiki/SMTPS), assumindo que é utilizado o SMTP.
+- Normas de segurança de sites Web, tais como:
+    - [Segurança de transporte estrito HTTP](https://en.wikipedia.org/wiki/HTTP_Strict_Transport_Security)
+    - [Integridade do sub-recurso](https://en.wikipedia.org/wiki/Subresource_Integrity) se estiver a carregar dados de domínios externos.
+- Suporte para visualização dos cabeçalhos de mensagens [](https://en.wikipedia.org/wiki/Email#Message_header), uma vez que se trata de uma caraterística forense crucial para determinar se uma mensagem de e-mail é uma tentativa de phishing.
 
-**Best Case:**
+**Melhor caso:**
 
-- A Encriptação mais forte: RSA-4096.
-- Perfect Forward Secrecy (PFS).
+- Suporte para autenticação de hardware, isto é. U2F e [WebAuthn](https://en.wikipedia.org/wiki/WebAuthn). O U2F e o WebAuthn são mais seguros porque utilizam uma chave privada, armazenada num dispositivo de hardware do lado do cliente, para efeitos de autenticação, ao contrário de um segredo partilhado que é armazenado no servidor Web e no lado do cliente quando se utiliza o TOTP. Além disso, o U2F e o WebAuthn são mais resistentes ao phishing, uma vez que a sua resposta de autenticação se baseia no nome de domínio autenticado [](https://en.wikipedia.org/wiki/Domain_name).
+- [Registo de Recursos de Autorização de Autoridade de Certificação (CAA) do DNS](https://tools.ietf.org/html/rfc6844), para além do suporte DANE.
+- Implementação de [Authenticated Received Chain (ARC)](https://en.wikipedia.org/wiki/Authenticated_Received_Chain), útil para pessoas que enviam mensagens para listas de e-mail [RFC8617](https://tools.ietf.org/html/rfc8617).
+- Programas de recompensa de bugs e/ou um processo coordenado de divulgação de vulnerabilidades.
+- Normas de segurança de sites Web, tais como:
+    - [Política de segurança de conteúdo (CSP)](https://en.wikipedia.org/wiki/Content_Security_Policy)
+    - [RFC9163 Expect-CT](https://datatracker.ietf.org/doc/rfc9163/)
 
 ### Confiança
 
-With the email providers we recommend we like to see responsible marketing.
+Se não confiaria as suas finanças a alguém com uma identidade falsa, por que razão deveria confiar-lhe o seu e-mail? Exigimos que os nossos fornecedores recomendados sejam transparentes quanto à sua propriedade ou liderança. Gostaríamos também de ver relatórios de transparência frequentes, especialmente no que diz respeito à forma como os pedidos do governo são tratados.
 
-**O melhor caso:**
+**Mínimos de qualificação:**
 
-- Must self-host analytics (no Google Analytics, Adobe Analytics, etc.). The provider's site must also comply with [DNT (Do Not Track)](https://en.wikipedia.org/wiki/Do_Not_Track) for those who wish to opt-out.
+- Liderança ou propriedade virada para o público.
 
-Must not have any marketing which is irresponsible:
+**Melhor caso:**
 
-- Claims of "unbreakable encryption." Encryption should be used with the intention that it may not be secret in the future when the technology exists to crack it.
-- Fazer garantias de protecção do anonimato a 100%. Quando alguém afirma que algo é 100%, significa que não há certeza de fracasso. We know people can quite easily deanonymize themselves in a number of ways, e.g.:
-
-- Reusing personal information e.g. (email accounts, unique pseudonyms, etc.) that they accessed without anonymity software (Tor, VPN, etc.)
-- [Impressão digital do navegador](https://en.wikipedia.org/wiki/Device_fingerprint#Browser_fingerprint)
-
-**Best Case:**
-
-- Deve auto-instalar análises (sem Google Analytics, etc.). This includes things like, setting up 2FA, email clients, OpenPGP, etc.
+- Liderança virada para o público.
+- Relatórios de transparência frequentes.
 
 ### Marketing
 
-While not strictly requirements, there are some other convenience or privacy factors we looked into when determining which providers to recommend.
+Gostaríamos que os fornecedores de e-mail que recomendamos tivessem uma política de marketing responsável.
+
+**Mínimos de qualificação:**
+
+- As estatísticas de análise devem ser auto-hospedados (evitar Google Analytics, Adobe Analytics, etc.). O site do fornecedor deve também estar em conformidade com a política [DNT (Do Not Track)](https://en.wikipedia.org/wiki/Do_Not_Track), para quem opte por não participar.
+
+Não deverão ter políticas de marketing irresponsáveis:
+
+- Reivindicações de "encriptação inquebrável" A encriptação deve ser utilizada com a consciência de poder vir a não ser secreta no futuro, quando existir tecnologia para a decifrar.
+- Garantir a proteção do anonimato a 100%. Quando alguém afirma que algo é 100%, significa que não há possibilidade de falha. Sabemos que as pessoas podem desanonimizar-se muito facilmente de várias formas, por exemplo:
+
+- Reutilizar informações pessoais, por exemplo (contas de e-mail, pseudónimos únicos, etc.) a que acederam sem software de anonimato (Tor, VPN, etc.)
+- [Impressão digital do browser](https://en.wikipedia.org/wiki/Device_fingerprint#Browser_fingerprint)
+
+**Melhor caso:**
+
+- Documentação clara e fácil de ler. Isto inclui questões como a configuração de 2FA, clientes de e-mail, OpenPGP, etc.
+
+### Funcionalidade adicional
+
+Embora não sejam requisitos obrigatórios, existem outros fatores de conveniência ou privacidade que analisámos ao determinar os fornecedores a recomendar.

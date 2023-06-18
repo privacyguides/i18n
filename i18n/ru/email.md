@@ -48,7 +48,7 @@ cover: email.png
     [:octicons-info-16:](https://proton.me/support/mail){ .card-link title=Документация}
     [:octicons-code-16:](https://github.com/ProtonMail){ .card-link title="Исходный код" }
     
-    ??? downoloads "скачать"
+    ??? downloads "Скачать"
     
         - [:simple-googleplay: Google Play](https://play.google.com/store/apps/details?id=ch.protonmail.android)
         - [:simple-appstore: App Store](https://apps.apple.com/app/apple-store/id979659905)
@@ -111,7 +111,7 @@ Proton Mail не предлагает функцию цифрового насл
     [:octicons-eye-16:](https://mailbox.org/en/data-protection-privacy-policy){ .card-link title="Политика конфеденциальности" }
     [:octicons-info-16:](https://kb.mailbox.org/en/private){ .card-link title=Документация}
     
-    ??? downoloads "скачать"
+    ??? downloads "скачать"
     
         - [:octicons-browser-16: Сайт](https://login.mailbox.org)
 
@@ -262,7 +262,7 @@ Tutanota не предлагает функцию цифрового насле�
     [:octicons-code-16:](https://github.com/anonaddy){ .card-link title="Исходный код" }
     [:octicons-heart-16:](https://anonaddy.com/donate/){ .card-link title=Пожертвовать }
     
-    ??? downoloads "скачать"
+    ??? downloads "скачать"
     
         - [:simple-android: Android](https://anonaddy.com/faq/#is-there-an-android-app)
         - [:material-apple-ios: iOS](https://anonaddy.com/faq/#is-there-an-ios-app)
@@ -292,7 +292,7 @@ Tutanota не предлагает функцию цифрового насле�
     [:octicons-info-16:](https://simplelogin.io/docs/){ .card-link title=Документация}
     [:octicons-code-16:](https://github.com/simple-login){ .card-link title="Исходный код" }
     
-    ??? downoloads "скачать"
+    ??? downloads "скачать"
     
         - [:simple-googleplay: Google Play](https://play.google.com/store/apps/details?id=io.simplelogin.android)
         - [:simple-appstore: App Store](https://apps.apple.com/app/id1494359858)

@@ -1,14 +1,14 @@
 ---
-meta_title: "Privacy Respecting Mobile Web Browsers for Android and iOS - Privacy Guides"
-title: "Mobile Browsers"
+meta_title: "Browsers para Android e iOS que respeitam a privacidade - Privacy Guides"
+title: "Browsers para dispositivos móveis"
 icon: material/cellphone-information
-description: These browsers are what we currently recommend for standard/non-anonymous internet browsing on your phone.
+description: Estes browsers são os que recomendamos atualmente para a navegação normal/não anónima na Internet no seu telemóvel.
 cover: mobile-browsers.png
 schema:
   - 
     "@context": http://schema.org
     "@type": WebPage
-    name: Private Mobile Browser Recommendations
+    name: Recomendações de browsers privados para dispositivos móveis
     url: "./"
     relatedLink: "../desktop-browsers/"
   - 
@@ -37,41 +37,41 @@ schema:
       url: "./"
 ---
 
-These are our currently recommended mobile web browsers and configurations for standard/non-anonymous internet browsing. If you need to browse the internet anonymously, you should use [Tor](tor.md) instead. In general, we recommend keeping extensions to a minimum; they have privileged access within your browser, require you to trust the developer, can make you [stand out](https://en.wikipedia.org/wiki/Device_fingerprint#Browser_fingerprint), and [weaken](https://groups.google.com/a/chromium.org/g/chromium-extensions/c/0ei-UCHNm34/m/lDaXwQhzBAAJ) site isolation.
+Estes são os browsers para dispositivos móveis e as configurações atualmente recomendados para a navegação normal/não anónima na Internet. Se precisar de navegar anonimamente na Internet, deve utilizar o [Tor](tor.md). Em geral, recomendamos que a utilização de extensões seja reduzida ao mínimo; têm acesso privilegiado no seu browser, exigem que confie no programador, podem fazer com que se destaque [](https://en.wikipedia.org/wiki/Device_fingerprint#Browser_fingerprint)e [enfraquecem o isolamento do site](https://groups.google.com/a/chromium.org/g/chromium-extensions/c/0ei-UCHNm34/m/lDaXwQhzBAAJ).
 
 ## Android
 
-On Android, Firefox is still less secure than Chromium-based alternatives: Mozilla's engine, [GeckoView](https://mozilla.github.io/geckoview/), has yet to support [site isolation](https://hacks.mozilla.org/2021/05/introducing-firefox-new-site-isolation-security-architecture) or enable [isolatedProcess](https://bugzilla.mozilla.org/show_bug.cgi?id=1565196).
+No Android, o Firefox continua a ser menos seguro do que as alternativas baseadas no Chromium: o motor da Mozilla, [GeckoView](https://mozilla.github.io/geckoview/), ainda não suporta [o isolamento de sites](https://hacks.mozilla.org/2021/05/introducing-firefox-new-site-isolation-security-architecture) nem ativa [isolatedProcess](https://bugzilla.mozilla.org/show_bug.cgi?id=1565196).
 
-### Bromite
+### Brave
 
 !!! nota
     Consulte o [Tabela de Hardware](https://openwrt.org/toh/start) para verificar se o seu dispositivo é suportado.
 
-    ![logotipo Safari](/assets/img/browsers/safari.svg){ align=right }
+    ![Logótipo Brave](assets/img/browsers/brave.svg){ align=right }
     
-    **Safari** é o navegador padrão no iOS.
+    O **Braver** inclui um bloqueador de conteúdos incorporado e [funcionalidades de privacidade] (https://brave.com/privacy-features/), muitas das quais estão ativadas por predefinição.
     
-    Inclui [características de privacidade](https://support.apple.com/guide/iphone/browse-the-web-privately-iphb01fc3c85/15.0/ios/15.0), tais como Proteção de Rastreamento Inteligente, Relatório de Privacidade, abas isoladas de Navegação Privada, iCloud Private Relay, e atualizações automáticas de HTTPS.
+    O Brave foi criado com base no projeto do Chromium, pelo que deve ser familiar a muita gente e não deve grandes problemas de compatibilidade com sites.
     
     [:octicons-home-16: Homepage](https://brave.com/){ .md-button .md-button--primary }
-    [:simple-torbrowser:](https://brave4u7jddbv7cyviptqjc7jusxh72uik7zt6adtckl5f4nwy2v72qd.onion){ .card-link title="Onion Service" }
-    [:octicons-eye-16:](https://brave.com/privacy/browser/){ .card-link title="Privacy Policy" }
-    [:octicons-info-16:](https://support.brave.com/){ .card-link title=Documentation}
-    [:octicons-code-16:](https://github.com/brave/brave-browser){ .card-link title="Source Code" }
+    [:simple-torbrowser:](https://brave4u7jddbv7cyviptqjc7jusxh72uik7zt6adtckl5f4nwy2v72qd.onion){ .card-link title="Serviço Onion" }
+    [:octicons-eye-16:](https://brave.com/privacy/browser/){ .card-link title="Política de Privacidade" }
+    [:octicons-info-16:](https://support.brave.com/){ .card-link title=Documentação}
+    [:octicons-code-16:](https://github.com/brave/brave-browser){ .card-link title="Código-fonte" }
     
-    ??? downloads annotate
+    ??? downloads anotar
     
         - [:simple-googleplay: Google Play](https://play.google.com/store/apps/details?id=com.brave.browser)
         - [:simple-github: GitHub](https://github.com/brave/brave-browser/releases)
 
-#### Firefox
+#### Configuração recomendada
 
-Tor Browser is the only way to truly browse the internet anonymously. When you use Brave, we recommend changing the following settings to protect your privacy from certain parties, but all browsers other than the [Tor Browser](tor.md#tor-browser) will be traceable by *somebody* in some regard or another.
+O Tor é a única forma de navegar verdadeiramente de forma anónima na Internet. Quando utilizar o Brave, recomendamos que altere as seguintes definições para proteger a sua privacidade de determinadas entidades terceiras. Contudo, todos os browsers, com a exceção do [Tor](tor.md#tor-browser) serão rastreáveis por *alguém* de uma forma ou de outra.
 
-These options can be found in :material-menu: → **Settings** → **Brave Shields & privacy**
+Estas opções podem ser encontradas em :material-menu: → **Definições** → **Proteção do Brave & privacidade**
 
-##### Shields
+##### Proteções
 
 Brave includes some anti-fingerprinting measures in its [Shields](https://support.brave.com/hc/en-us/articles/360022973471-What-is-Shields-) feature. We suggest configuring these options [globally](https://support.brave.com/hc/en-us/articles/360023646212-How-do-I-configure-global-and-site-specific-Shields-settings-) across all pages that you visit.
 
@@ -140,7 +140,7 @@ On iOS, any app that can browse the web is [restricted](https://developer.apple.
     
     Os filtros *#recommended* também podem ser ativados para os bloqueadores de conteúdo "Social Widgets" e "Annoyances", mas eles podem quebrar algumas funções das mídias sociais.
 
-#### Firefox
+#### Configuração recomendada
 
 These options can be found in :gear: **Settings** → **Safari** → **Privacy and Security**.
 

@@ -213,16 +213,16 @@ Mullvad 對 [自有或租用](https://mullvad.net/en/servers/)的節點非常透
 
 !!! recommendation annotate
 
-    ! [Proton VPN標誌] (assets/img/vpn/protonvpn.svg) {align = right}
+    ![Proton VPN標誌](assets/img/vpn/protonvpn.svg){ align=right }
     
-    * * Proton VPN * *是 VPN 領域強大競爭者，自 2016 年開始營運。 Proton AG 總部位於瑞士，提供有限的免費會員等級，以及更多功能的付費選項。
+    **Proton VPN** 是 VPN 領域強大競爭者，自 2016 年開始營運。 Proton AG 總部位於瑞士，提供有限的免費會員等級，以及更多功能的付費選項。
     
     [:octicons-home-16: Homepage](https://protonvpn.com/){ .md-button .md-button--primary }
     [:octicons-eye-16:](https://protonvpn.com/privacy-policy){ .card-link title="Privacy Policy" }
     [:octicons-info-16:](https://protonvpn.com/support/){ .card-link title=Documentation}
     [:octicons-code-16:](https://github.com/ProtonVPN){ .card-link title="Source Code" }
     
-    ??? 下載
+    ??? downloads "下載"
     
         - [:simple-googleplay: Google Play] (https://play.google.com/store/apps/details?id=ch.protonvpn.android)
         - [:simple-appstore: App Store] (https://apps.apple.com/app/apple-store/id1437005085)
@@ -297,7 +297,7 @@ Intel 處理器的 Mac 電腦 若用 VPN killswitch 會發生 [系統崩潰](htt
 
 ## 標準
 
-!!! 危險
+!!! danger "危險"
 
     重要的是要注意，使用 VPN 不會使您匿名，但在某些情況下可以提供更好的隱私。 VPN不是非法活動的工具。 不要依靠“不留記錄”政策。
     

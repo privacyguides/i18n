@@ -1,15 +1,15 @@
 ---
 title: "Email kliensek"
 icon: material/email-open
-description: These email clients are privacy-respecting and support OpenPGP email encryption.
+description: Ezek az e-mail kliensek tiszteletben tartják a magánéletet és támogatják az OpenPGP email titkosítást.
 cover: email-clients.png
 ---
 
-Our recommendation list contains email clients that support both [OpenPGP](encryption.md#openpgp) and strong authentication such as [Open Authorization (OAuth)](https://en.wikipedia.org/wiki/OAuth). OAuth allows you to use [Multi-Factor Authentication](basics/multi-factor-authentication.md) and prevent account theft.
+Ajánlási listánk olyan e-mail klienseket tartalmaz, amelyek támogatják mind az [OpenPGP](encryption.md#openpgp)-t és az erős hitelesítést, például az [Open Authorization-t (OAuth-ot)](https://en.wikipedia.org/wiki/OAuth). Az OAuth lehetővé teszi a [többlépcsős hitelesítés használatát](basics/multi-factor-authentication.md) és a fiók ellopásának megelőzését.
 
-??? warning "Email does not provide forward secrecy"
+??? warning "Az email nem nem biztosít forward secrecy-t"
 
-    When using end-to-end encryption (E2EE) technology like OpenPGP, email will still have [some metadata](email.md#email-metadata-overview) that is not encrypted in the header of the email.
+    Az OpenPGP-hez hasonló végponttól-végpontig terjedő titkosítási (E2E titkosítás) technológiák használata esetén az email még mindig tartalmaz [bizonyos metaadatokat](email.md#email-metaadatok-áttekintés), amelyek nincsenek titkosítva az email fejlécében.
     
     OpenPGP also does not support [forward secrecy](https://en.wikipedia.org/wiki/Forward_secrecy), which means if either your or the recipient's private key is ever stolen, all previous messages encrypted with it will be exposed: [How do I protect my private keys?](basics/email-security.md) Consider using a medium that provides forward secrecy:
     

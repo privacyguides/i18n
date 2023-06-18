@@ -217,7 +217,7 @@ Proton VPN [рекомендует](https://protonvpn.com/blog/wireguard/) ис�
 
 #### :material-alert-outline:{ .pg-orange } Удаленная переадресация портов
 
-Proton VPN currently only supports ephemeral remote [port forwarding](https://protonvpn.com/support/port-forwarding/) via NAT-PMP, with 60 second lease times. The Windows app provides an easy to access option for it, while on other operating systems you'll need to run your own [NAT-PMP client](https://protonvpn.com/support/port-forwarding-manual-setup/). Torrent applications often support NAT-PMP natively.
+В настоящее время Proton VPN поддерживает только эфемерную удаленную [переадресацию портов](https://protonvpn.com/support/port-forwarding/) через NAT-PMP, со временем аренды на 60 секунд. Приложение для Windows обеспечивает легкий доступ к нему, в то время как в других операционных системах вам придется запустить собственное [приложение NAT-PMP](https://protonvpn.com/support/port-forwarding-manual-setup/). Торрент приложения часто поддерживают NAT-PMP нативно.
 
 #### :material-check:{ .pg-green } Приложения для смартфонов
 

@@ -14,7 +14,7 @@ Tor 是一個免費使用的去中心化網路，其讓用戶在使用網際網�
 
 <figure markdown>
   ! [Tor 路徑顯示您的設備到達目的地網站之前所連接的入口節點，中間節點和出口節點] (../assets/img/how-tor-works/tor-path.svg#only-light)
-  ! Tor 路徑顯示您的設備到達目的地網站之前所連接的入口節點，中間節點和出口節點] (../assets/img/how-tor-works/tor-path-dark.svg#only-dark)
+! Tor 路徑顯示您的設備到達目的地網站之前所連接的入口節點，中間節點和出口節點] (../assets/img/how-tor-works/tor-path-dark.svg#only-dark)
   <figcaption>Tor 迴路路徑</figcaption>
 </figure>
 

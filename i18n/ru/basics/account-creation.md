@@ -1,71 +1,71 @@
 ---
-meta_title: "How to Create Internet Accounts Privately - Privacy Guides"
-title: "Account Creation"
+meta_title: "Как создавать аккаунты в интернете конфиденциально - Privacy Guides"
+title: "Создание аккаунтов"
 icon: 'material/account-plus'
-description: Creating accounts online is practically an internet necessity, take these steps to make sure you stay private.
+description: Создание аккаунтов в интернете является, практически, необходимостью, предпримите следующие шаги, чтобы сохранить вашу конфиденциальность.
 ---
 
-Often people sign up for services without thinking. Maybe it's a streaming service so you can watch that new show everyone's talking about, or an account that gives you a discount for your favorite fast food place. Whatever the case may be, you should consider the implications for your data now and later on down the line.
+Часто люди регистрируются на сайтах, не задумываясь. Возможно, это стриминг, позволяющий смотреть новое шоу, о котором все говорят, или аккаунт, предоставляющий скидку в любимом заведении быстрого питания. В любом случае вы должны рассмотреть сегодняшние и последующие последствия для ваших данных.
 
-There are risks associated with every new service that you use. Data breaches; disclosure of customer information to third parties; rogue employees accessing data; all are possibilities that must be considered when giving your information out. You need to be confident that you can trust the service, which is why we don't recommend storing valuable data on anything but the most mature and battle-tested products. That usually means services which provide E2EE and have undergone a cryptographic audit. An audit increases assurance that the product was designed without glaring security issues caused by an inexperienced developer.
+Определённые риски связаны с каждой новой услугой, которой вы пользуетесь. Утечки данных; раскрытие информации о клиенте третьим лицам; недобросовестные сотрудники, получившие доступ к данным - все это возможности, которые необходимо учитывать при передаче информации. Вы должны быть уверены, что можете доверять сервису, поэтому мы не рекомендуем хранить ценные данные ни на чем, кроме самых совершенных и проверенных в боях продуктов. Обычно это означает сервисы, предоставляющие E2EE и прошедшие криптографический аудит. Аудит повышает уверенность в том, что продукт был разработан без проблем безопасности, вызванных неопытностью разработчиков.
 
-It can also be difficult to delete the accounts on some services. Sometimes [overwriting data](account-deletion.md#overwriting-account-information) associated with an account can be possible, but in other cases the service will keep an entire history of changes to the account.
+Также может быть сложно удалить учетные записи в некоторых сервисах. Иногда возможна [перезапись данных](account-deletion.md#overwriting-account-information), связанных с учетной записью, но в остальных случаях служба будет хранить всю историю изменений учетной записи.
 
-## Terms of Service & Privacy Policy
+## Условия использования & Политика конфиденциальности
 
-The ToS are the rules that you agree to follow when using the service. With larger services these rules are often enforced by automated systems. Sometimes these automated systems can make mistakes. For example, you may be banned or locked out of your account on some services for using a VPN or VOIP number. Appealing such bans is often difficult, and involves an automated process too, which isn't always successful. This would be one of the reasons why we wouldn't suggest using Gmail for email as an example. Email is crucial for access to other services you might have signed up for.
+Условия использования - это правила использования сервиса, с которыми вы соглашаетесь. В крупных сервисах за соблюдением этих правил часто следят автоматизированные системы. Иногда эти автоматизированные системы могут допускать ошибки. Например, вас могут забанить или заблокировать ваш аккаунт в некоторых сервисах за использование VPN или номера VOIP. Обжаловать такие запреты часто бывает сложно, к тому же этот процесс автоматизирован и не всегда успешен. Это одна из причин, по которой мы не советуем использовать Gmail для электронной почты. Электронная почта имеет критическое значение для доступа к другим сервисам, на которые вы, возможно, подписались.
 
-The Privacy Policy is how the service says they will use your data and it is worth reading so that you understand how your data will be used. A company or organization might not be legally obligated to follow everything contained in the policy (it depends on the jurisdiction). We would recommend having some idea what your local laws are and what they permit a provider to collect.
+Политика конфиденциальности - это то, как сервис заявляет, что будет использовать ваши данные, и ее стоит прочитать, чтобы вы понимали, как будут использоваться ваши данные. Компания или организация может не быть юридически обязана следовать всему, что содержится в этой политике (это зависит от юрисдикции). Мы рекомендуем иметь представление о местных законах и о том, какие данные о вас они позволяют собирать провайдеру.
 
-We recommend looking for particular terms such as "data collection", "data analysis", "cookies", "ads" or "3rd-party" services. Sometimes you will be able to opt-out from data collection or from sharing your data, but it is best to choose a service that respects your privacy from the start.
+Мы рекомендуем искать конкретные термины, такие как "сбор данных", "анализ данных", "cookies", "реклама" или "сторонние" услуги. Иногда вы можете отказаться от сбора данных или от обмена информацией, но лучше всего выбирать сервис, который с самого начала уважает вашу конфиденциальность.
 
-Keep in mind you're also placing your trust in the company or organization and that they will comply with their own privacy policy.
+Помните, что вы также доверяете компании или организации и уверены, что они будут соблюдать собственную политику конфиденциальности.
 
-## Authentication methods
+## Методы аутентификации
 
-There are usually multiple ways to sign up for an account, each with their own benefits and drawbacks.
+Обычно существует несколько способов регистрации аккаунтов, каждый из которых имеет свои преимущества и недостатки.
 
-### Email and password
+### Электронная почта и пароль
 
-The most common way to create a new account is by an email address and password. When using this method, you should use a password manager and follow [best practices](passwords-overview.md) regarding passwords.
+Самый распространенный способ создания новой учетной записи - это адрес электронной почты и пароль. При использовании этого метода следует использовать менеджер паролей и следовать [лучшим практикам](passwords-overview.md) при выборе паролей.
 
-!!! tip
+!!! tip "Совет"
 
-    You can use your password manager to organize other authentication methods too! Just add the new entry and fill the appropriate fields, you can add notes for things like security questions or a backup key.
+    Вы можете использовать свой менеджер паролей также и для организации других методов аутентификации! Просто добавьте новую запись и заполните соответствующие поля, вы можете добавить примечания для таких вещей, как вопросы безопасности или резервный код.
 
-You will be responsible for managing your login credentials. For added security, you can set up [MFA](multi-factor-authentication.md) on your accounts.
+Вы будете ответственны за управление своими данными для входа в систему. Для дополнительной безопасности вы можете настроить [МФА](multi-factor-authentication.md) в своих аккаунтах.
 
-[Recommended password managers](../passwords.md ""){.md-button}
+[Рекомендуемые менеджеры паролей](../passwords.md ""){.md-button}
 
-#### Email aliases
+#### Псевдонимы электронной почты
 
 If you don't want to give your real email address to a service, you have the option to use an alias. We described them in more detail on our email services recommendation page. Essentially, alias services allow you to generate new email addresses that forward all emails to your main address. This can help prevent tracking across services and help you manage the marketing emails that sometimes come with the sign up process. Those can be filtered automatically based on the alias they are sent to.
 
 Should a service get hacked, you might start receiving phishing or spam emails to the address you used to sign up. Using unique aliases for each service can assist in identifying exactly what service was hacked.
 
-[Recommended email aliasing services](../email.md#email-aliasing-services ""){.md-button}
+[Рекомендуемые провайдеры псевдонимов электронной почты](../email.md#email-aliasing-services ""){.md-button}
 
-### "Sign in with..." (OAuth)
+### "Войти с помощью..." (OAuth)
 
 OAuth is an authentication protocol that allows you to register for a service without sharing much information with the service provider, if any, by using an existing account you have with another service instead. Whenever you see something along the lines of "Sign in with *provider name*" on a registration form, it's typically using OAuth.
 
 When you sign in with OAuth, it will open a login page with the provider you choose, and your existing account and new account will be connected. Your password won't be shared, but some basic information typically will (you can review it during the login request). This process is needed every time you want to log in to the same account.
 
-The main advantages are:
+Основными преимуществами являются:
 
-- **Security**: no risk of being involved in a [data breach](https://en.wikipedia.org/wiki/Data_breach) because the website does not store your credentials.
-- **Ease of use**: multiple accounts are managed by a single login.
+- **Безопасность**: нет риска быть подверженным [утечке данных](https://en.wikipedia.org/wiki/Data_breach), поскольку сайт не хранит ваши учетные данные.
+- **Простота использования**: управление несколькими учетными записями осуществляется с помощью одного логина.
 
-But there are disadvantages:
+Но есть и недостатки:
 
-- **Privacy**: the OAuth provider you log in with will know the services you use.
-- **Centralization**: if the account you use for OAuth is compromised or you aren't able to login to it, all other accounts connected to it are affected.
+- **Конфиденциальность**: провайдер OAuth, с помощью которого вы входите в систему, будет знать, какими услугами вы пользуетесь.
+- **Централизация**: если учетная запись, которую вы используете для OAuth, скомпрометирована или вы не можете войти в нее, все остальные учетные записи, подключенные к ней, будут также недоступны.
 
-OAuth authentication can be especially useful in those situations where you could benefit from deeper integration between services. Our recommendation is to limit using OAuth to only where you need it, and always protect the main account with [MFA](multi-factor-authentication.md).
+Аутентификация OAuth может быть особенно полезна в тех ситуациях, когда вы можете выиграть от более тесной интеграции между сервисами. Наша рекомендация - ограничить использование OAuth только там, где это необходимо, и всегда защищать основной аккаунт с помощью [МФА](multi-factor-authentication.md).
 
-All the services that use OAuth will be as secure as your underlying provider's account. For example, if you want to secure an account with a hardware key, but that service doesn't support hardware keys, you can secure the account you use with OAuth with a hardware key instead, and now you essentially have hardware MFA on all your accounts. It is worth noting though that weak authentication on your OAuth provider account means that any account tied to that login will also be weak.
+Все сервисы, использующие OAuth, будут безопасны настолько, насколько безопасна ваша основная учетная запись. Например, если вы хотите защитить учетную запись аппаратным ключом, но сервис не поддерживает аппаратные ключи, вы можете защитить учетную запись, используемую с помощью OAuth, аппаратным ключом, и теперь у вас есть аппаратная МФА для всех ваших учетных записей. Однако стоит отметить, что слабая аутентификация в учетной записи поставщика OAuth означает, что любая учетная запись, привязанная к этому логину, также будет слабой.
 
-### Phone number
+### Номер телефона
 
 We recommend avoiding services that require a phone number for sign up. A phone number can identity you across multiple services and depending on data sharing agreements this will make your usage easier to track, particularly if one of those services is breached as the phone number is often **not** encrypted.
 
@@ -73,6 +73,6 @@ You should avoid giving out your real phone number if you can. Some services wil
 
 In many cases you will need to provide a number that you can receive SMS or calls from, particularly when shopping internationally, in case there is a problem with your order at border screening. It's common for services to use your number as a verification method; don't let yourself get locked out of an important account because you wanted to be clever and give a fake number!
 
-### Username and password
+### Имя пользователя и пароль
 
 Some services allow you to register without using an email address and only require you to set a username and password. These services may provide increased anonymity when combined with a VPN or Tor. Keep in mind that for these accounts there will most likely be **no way to recover your account** in the event you forget your username or password.

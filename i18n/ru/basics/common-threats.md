@@ -4,14 +4,14 @@ icon: 'material/eye-outline'
 description: Модель угрозы уникальна для каждого, но здесь описаны некоторые из тех вещей, которые волнуют многих посетителей этого сайта.
 ---
 
-В широком смысле мы разделяем наши рекомендации по категориям [угроз](threat-modeling.md) или целей, которые применимы к большинству людей. ==You may be concerned with none, one, a few, or all of these possibilities==, and the tools and services you use depend on what your goals are. У тебя могут быть специфичные угрозы, не относящиеся к этим категориям, что определённо нормально! Важной частью является развитие понимания преимуществ и недостатков инструментов, которые ты решил использовать, потому что ни один из них не защитит тебя от всех угроз.
+В широком смысле мы разделяем наши рекомендации по категориям [угроз](threat-modeling.md) или целей, которые применимы к большинству людей. ==Вас может волновать одна, несколько, все эти возможности или они могут не волновать вас вовсе==, и инструменты и услуги, которые вы используете, зависят от ваших целей. У тебя могут быть специфичные угрозы, не относящиеся к этим категориям, что определённо нормально! Важной частью является развитие понимания преимуществ и недостатков инструментов, которые ты решил использовать, потому что ни один из них не защитит тебя от всех угроз.
 
 - <span class="pg-purple">:material-incognito: Анонимность</span> - изоляция твоей деятельности в интернете от твоей настоящей личности, защита тебя от людей, пытающихся раскрыть *именно твою* личность.
 - <span class="pg-red">:material-target-account: Таргетированные атаки</span> - защита от хакеров и других злоумышленников, которые пытаются получить доступ к *именно твоим* данным и устройствам.
 - <span class="pg-orange">:material-bug-outline: Пассивные атаки</span> - защита от таких вещей, как вредоносное ПО, утечка данных и других атак, которые совершаются одновременно против многих людей.
 - <span class="pg-teal">:material-server-network: Поставщики услуг</span> - защита твоих данных от поставщиков услуг (например, с помощью E2EE, которое делает твои данные нечитаемыми для сервера).
 - <span class="pg-blue">:material-eye-outline: Массовая слежка</span> - защита от правительственных агентств, организаций, веб-сайтов и служб, которые совместно отслеживают твою активность.
-- <span class="pg-brown">:material-account-cash: Surveillance Capitalism</span> - Protecting yourself from big advertising networks, like Google and Facebook, as well as a myriad of other third-party data collectors.
+- <span class="pg-brown">:material-account-cash: Капитализм слежки</span> - Защита от крупных рекламных сетей, таких как Google и Facebook, а также от множества других сторонних сборщиков данных.
 - <span class="pg-green">:material-account-search: Публичная экспозиция</span> - ограничение информации о вас, которая доступна онлайн поисковым системам или широкой общественности.
 - <span class="pg-blue-gray">:material-close-outline: Цензура</span> - избегание цензуры как для доступа к информации, так и для её создания онлайн.
 
@@ -75,21 +75,21 @@ description: Модель угрозы уникальна для каждого,
 
 <span class="pg-blue">:material-eye-outline: Массовое наблюдение</span>
 
-Mass surveillance is the intricate effort to monitor the "behavior, many activities, or information" of an entire (or substantial fraction of a) population.[^1] It often refers to government programs, such as the ones [disclosed by Edward Snowden in 2013](https://en.wikipedia.org/wiki/Global_surveillance_disclosures_(2013%E2%80%93present)). However, it can also be carried out by corporations, either on behalf of government agencies or by their own initiative.
+Массовое наблюдение - это изощренные способы по отслеживанию "поведения, многих действий или информации" всего населения (или значительной его части).[^1] Часто это относится к правительственным программам, например[раскрытым Эдвардом Сноуденом в 2013 году](https://en.wikipedia.org/wiki/Global_surveillance_disclosures_(2013%E2%80%93present)). Однако она может осуществляться и корпорациями, либо по поручению государственных органов, либо по собственной инициативе.
 
-!!! abstract "Atlas of Surveillance"
+!!! abstract "Атлас наблюдений"
 
-    If you want to learn more about surveillance methods and how they're implemented in your city you can also take a look at the [Atlas of Surveillance](https://atlasofsurveillance.org/) by the [Electronic Frontier Foundation](https://www.eff.org/).
+    Если вы хотите узнать больше о методах наблюдения и о том, как они применяются в вашем городе, вы также можете взглянуть на [Атлас наблюдения](https://atlasofsurveillance.org/) от [Electronic Frontier Foundation](https://www.eff.org/).
     
-    In France you can take a look at the [Technolopolice website](https://technopolice.fr/villes/) maintained by the non-profit association La Quadrature du Net.
+    Во Франции вы можете заглянуть на сайт [Technolopolice](https://technopolice.fr/villes/), поддерживаемый некоммерческой ассоциацией La Quadrature du Net.
 
-Governments often justify mass surveillance programs as necessary means to combat terrorism and prevent crime. However, breaching human rights, it's most often used to disproportionately target minority groups and political dissidents, among others.
+Правительства часто оправдывают программы массовой слежки как необходимые средства для борьбы с терроризмом и предотвращения преступлений. Однако, нарушая права человека, она чаще всего используется для непропорционального преследования меньшинств и политических диссидентов.
 
-!!! quote "ACLU: [*The Privacy Lesson of 9/11: Mass Surveillance is Not the Way Forward*](https://www.aclu.org/news/national-security/the-privacy-lesson-of-9-11-mass-surveillance-is-not-the-way-forward)"
+!!! quote "ACLU: [*Урок конфиденциальности после 11 сентября: Массовое наблюдение - не путь вперед*](https://www.aclu.org/news/national-security/the-privacy-lesson-of-9-11-mass-surveillance-is-not-the-way-forward)"
 
-    In the face of [Edward Snowden's disclosures of government programs such as [PRISM](https://en.wikipedia.org/wiki/PRISM) and [Upstream](https://en.wikipedia.org/wiki/Upstream_collection)], intelligence officials also admitted that the NSA had for years been secretly collecting records about virtually every American’s phone calls — who’s calling whom, when those calls are made, and how long they last. This kind of information, when amassed by the NSA day after day, can reveal incredibly sensitive details about people’s lives and associations, such as whether they have called a pastor, an abortion provider, an addiction counselor, or a suicide hotline.
+    Перед лицом [разоблачений Эдварда Сноудена о таких правительственных программах, как [PRISM](https://en.wikipedia.org/wiki/PRISM) и [Upstream](https://en.wikipedia.org/wiki/Upstream_collection)], представители разведки также признали, что АНБ в течение многих лет тайно собирало записи о телефонных звонках практически каждого американца - кто кому звонит, когда эти звонки совершаются и как долго они длятся. Подобная информация, накапливаемая АНБ день за днем, может раскрыть невероятно чувствительные детали о жизни и связях людей, например, звонили ли они пастору, специалисту по абортам, консультанту по наркомании или на горячую линию для самоубийц.
 
-Despite growing mass surveillance in the United States, the government has found that mass surveillance programs like Section 215 have had "little unique value" with respect to stopping actual crimes or terrorist plots, with efforts largely duplicating the FBI's own targeted surveillance programs.[^2]
+Несмотря на растущую массовую слежку в Соединенных Штатах, правительство обнаружило, что программы массовой слежки, такие как Раздел 215, имеют "мало уникальной ценности" в отношении пресечения реальных преступлений или террористических заговоров, а усилия в основном дублируют собственные целевые программы слежки ФБР.[^2]
 
 В Интернете тебя можно отследить по различным параметрам:
 
@@ -99,17 +99,17 @@ Despite growing mass surveillance in the United States, the government has found
 - Цифровой отпечаток твоего браузера или устройства
 - Корреляция способов оплаты
 
-\[This list isn't exhaustive].
+\[Этот список не является исчерпывающим].
 
-If you're concerned about mass surveillance programs, you can use strategues like compartmentalizing your online identities, blending in with other users, or, whenever possible, simply avoiding giving out identifying information.
+Если вас беспокоят программы массовой слежки, вы можете использовать такие стратегии, как разделение своей личности в Интернете, смешивание с другими пользователями или, по возможности, просто избегать предоставления идентифицирующей информации.
 
-<span class="pg-brown">:material-account-cash: Surveillance Capitalism</span>
+<span class="pg-brown">:material-account-cash: Капитализм слежки</span>
 
-> Surveillance capitalism is an economic system centered around the capture and commodification of personal data for the core purpose of profit-making.[^3]
+> Капитализм слежки - это экономическая система, сосредоточенная вокруг сбора и коммерциализации персональных данных с основной целью получения прибыли.[^3]
 
-For many people, tracking and surveillance by private corporations is a growing concern. Pervasive ad networks, such as those operated by Google and Facebook, span the internet far beyond just the sites they control, tracking your actions along the way. Using tools like content blockers to limit network requests to their servers, and reading the privacy policies of the services you use can help you avoid many basic adversaries (although it can't completely prevent tracking).[^4]
+Для многих людей слежка и наблюдение со стороны частных корпораций вызывает растущее беспокойство. Всепроникающие рекламные сети, такие как Google и Facebook, распространяются в Интернете далеко за пределы контролируемых ими сайтов, отслеживая ваши действия на всём пути. Использование таких инструментов, как блокировщики контента, для ограничения сетевых запросов к их серверам, а также чтение политики конфиденциальности сервисов, которыми вы пользуетесь, может помочь вам избежать многих основных недоброжелателей (хотя это не может полностью предотвратить слежку).[^4]
 
-Additionally, even companies outside of the *AdTech* or tracking industry can share your information with [data brokers](https://en.wikipedia.org/wiki/Information_broker) (such as Cambridge Analytica, Experian, or Datalogix) or other parties. You can't automatically assume your data is safe just because the service you're using doesn't fall within the typical AdTech or tracking business model. The strongest protection against corporate data collection is to encrypt or obfuscate your data whenever possible, making it difficult for different providers to correlate data with each other and build a profile on you.
+Кроме того, даже компании, не относящиеся к *AdTech* или индустрии отслеживания, могут передавать вашу информацию брокерам данных [](https://en.wikipedia.org/wiki/Information_broker) (таким как Cambridge Analytica, Experian или Datalogix) или другим сторонам. Вы не можете автоматически считать, что ваши данные в безопасности только потому, что сервис, которым вы пользуетесь, не относится к типичной бизнес-модели AdTech или отслеживания. Самой надежной защитой от сбора корпоративных данных является шифрование или обфускация ваших данных всегда, когда это возможно, что затрудняет различным провайдерам соотнесение данных друг с другом и создание профиля на вас.
 
 ## Ограничение публичной информации
 
@@ -142,7 +142,7 @@ Additionally, even companies outside of the *AdTech* or tracking industry can sh
 Вы всегда должны учитывать риски при попытке обойти цензуру, возможные последствия и то, насколько изощренным может быть ваш враг. Вы должны быть осторожны в выборе программного обеспечения и иметь запасной план на случай, если вас поймают.
 
 [^1]: Wikipedia: [*Mass Surveillance*](https://en.wikipedia.org/wiki/Mass_surveillance) and [*Surveillance*](https://en.wikipedia.org/wiki/Surveillance).
-[^2]: United States Privacy and Civil Liberties Oversight Board: [*Report on the Telephone Records Program Conducted under Section 215*](https://documents.pclob.gov/prod/Documents/OversightReport/ec542143-1079-424a-84b3-acc354698560/215-Report_on_the_Telephone_Records_Program.pdf)
+[^2]: Совет по надзору за соблюдением конфиденциальности и гражданских свобод США: [*Отчет о программе записи телефонных разговоров, проводимой в соответствии с разделом 215*](https://documents.pclob.gov/prod/Documents/OversightReport/ec542143-1079-424a-84b3-acc354698560/215-Report_on_the_Telephone_Records_Program.pdf)
 [^3]: Wikipedia: [*Surveillance capitalism*](https://en.wikipedia.org/wiki/Surveillance_capitalism)
-[^4]: "[Enumerating badness](https://www.ranum.com/security/computer_security/editorials/dumb/)" (or, "listing all the bad things that we know about"), as many adblockers and antivirus programs do, fails to adequately protect you from new and unknown threats because they have not yet been added to the filter list. You should also employ other mitigation techniques.
-[^5]: United Nations: [*Universal Declaration of Human Rights*](https://www.un.org/en/about-us/universal-declaration-of-human-rights).
+[^4]: "[Перечисление плохих вещей](https://www.ranum.com/security/computer_security/editorials/dumb/)" (или "перечисление всех плохих вещей, которые мы знаем"), как это делают многие блокировщики рекламы и антивирусные программы, не может адекватно защитить вас от новых и неизвестных угроз, потому что они еще не добавлены в список фильтров. Вы также должны использовать другие методы смягчения последствий.
+[^5]: Организация Объединенных Наций: [*Всеобщая декларация прав человека*](https://www.un.org/en/about-us/universal-declaration-of-human-rights).

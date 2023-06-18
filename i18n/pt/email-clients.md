@@ -40,7 +40,7 @@ Recomendamos armazenar uma chave de recuperação local em um local seguro, em v
         - [:simple-linux: Linux](https://www.thunderbird.net)
         - [:simple-flathub: Flathub](https://flathub.org/apps/details/org.mozilla.Thunderbird)
 
-#### Firefox
+#### Configuração recomendada
 
 We recommend changing some of these settings to make Thunderbird a little more private.
 
