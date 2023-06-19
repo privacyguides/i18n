@@ -73,80 +73,82 @@ Estas opções podem ser encontradas em :material-menu: → **Definições** →
 
 ##### Proteções
 
-Brave includes some anti-fingerprinting measures in its [Shields](https://support.brave.com/hc/en-us/articles/360022973471-What-is-Shields-) feature. We suggest configuring these options [globally](https://support.brave.com/hc/en-us/articles/360023646212-How-do-I-configure-global-and-site-specific-Shields-settings-) across all pages that you visit.
+A Brave inclui algumas medidas de bloqueio de impressão digital na sua funcionalidade [Proteção](https://support.brave.com/hc/en-us/articles/360022973471-What-is-Shields-). Sugerimos que configure estas opções [globalmente](https://support.brave.com/hc/en-us/articles/360023646212-How-do-I-configure-global-and-site-specific-Shields-settings-) em todas as páginas que visitar.
 
-##### Brave shields global defaults
+##### Predefinições globais das proteções do Brave
 
-Shields' options can be downgraded on a per-site basis as needed, but by default we recommend setting the following:
-
-<div class="annotate" markdown>
-
-- [x] Select **Aggressive** under Block trackers & ads
-
-    ??? warning "Use default filter lists"
-        Brave allows you to select additional content filters within the internal `brave://adblock` page. We advise against using this feature; instead, keep the default filter lists. Using extra lists will make you stand out from other Brave users and may also increase attack surface if there is an exploit in Brave and a malicious rule is added to one of the lists you use.
-
-- [x] Select **Upgrade connections to HTTPS**
-- [x] Select **Always use secure connections**
-- [x] (Optional) Select **Block Scripts** (1)
-- [x] Select **Strict, may break sites** under **Block fingerprinting**
-
-</div>
-
-1. This option provides functionality similar to uBlock Origin's advanced [blocking modes](https://github.com/gorhill/uBlock/wiki/Blocking-mode) or the [NoScript](https://noscript.net/) extension.
-
-##### Clear browsing data
-
-- [x] Select **Clear data on exit**
-
-##### Social Media Blocking
-
-- Selecione: "Abrir links em abas incógnitas sempre".
-
-##### Other privacy settings
+As opções de proteção podem ser revogadas por cada site, de acordo com as necessidades, mas por predefinição recomendamos as seguintes definições:
 
 <div class="annotate" markdown>
 
-- [x] Select **Disable non-proxied UDP** under [WebRTC IP Handling Policy](https://support.brave.com/hc/en-us/articles/360017989132-How-do-I-change-my-Privacy-Settings-#webrtc)
-- [ ] Uncheck **Allow sites to check if you have payment methods saved**
-- [ ] Uncheck **IPFS Gateway** (1)
-- [x] Select **Close tabs on exit**
-- [ ] Uncheck **Allow privacy-preserving product analytics (P3A)**
-- [ ] Uncheck **Automatically send diagnostic reports**
-- [ ] Uncheck **Automatically send daily usage ping to Brave**
+- [x] Selecione **Agressivo** em Rastreadores e bloqueio de anúncios
+
+    ??? aviso "Use listas de filtro padrão"
+        O Brave permite-lhe selecionar filtros de conteúdo adicional na página interna `brave://adblock`. Aconselhamos a não utilizar esta funcionalidade; em vez disso, mantenha as listas de filtros predefinidas. A utilização de listas extra fará com que se destaque dos outros utilizadores do Brave e pode também aumentar a superfície de ataque se houver uma vulnerabilidade no Brave e uma regra maliciosa for adicionada a uma das listas que utiliza.
+
+- [x] Selecione **Atualizar as ligações para HTTPS**
+- [x] Selecione **Utilizar sempre ligações seguras**
+- [x] (Opcional) Selecionar **Bloquear scripts** (1)
+- [x] na opção Bloquear impressão digital, selecionar **Estrito, pode causar problemas nos sites**
 
 </div>
 
-1. InterPlanetary File System (IPFS) is a decentralized, peer-to-peer network for storing and sharing data in a distributed filesystem. Unless you use the feature, disable it.
+1. Esta opção disponibiliza uma funcionalidade semelhante aos modos de bloqueio avançados do uBlock Origin [](https://github.com/gorhill/uBlock/wiki/Blocking-mode) ou à extensão [NoScript](https://noscript.net/).
 
-#### Brave Sync
+##### Limpar dados de navegação
 
-[Brave Sync](https://support.brave.com/hc/en-us/articles/360059793111-Understanding-Brave-Sync) allows your browsing data (history, bookmarks, etc.) to be accessible on all your devices without requiring an account and protects it with E2EE.
+- [x] Selecionar **Limpar dados ao sair**
+
+##### Bloqueio de redes sociais
+
+- [ ] Desmarcar todos os componentes das redes sociais
+
+##### Outras definições de privacidade
+
+<div class="annotate" markdown>
+
+- [x] Selecione **Desativar UDP não-proxy**, em [Política de utilização WebRTC IP](https://support.brave.com/hc/en-us/articles/360017989132-How-do-I-change-my-Privacy-Settings-#webrtc)
+- [ ] Desative **Permitir aos sites verificar as suas opções de pagamento**
+- [ ] Desative **IPFS Gateway** (1)
+- [x] Selecione **Fechar tabs ao sair**
+- [ ] Desative **Permitir análises de produtos que preservam a privacidade (P3A)**
+- [ ] Desative **Enviar relatórios de diagnóstico automaticamente**
+- [ ] Desative **Enviar automaticamente ping de utilização diária para a Brave**
+
+</div>
+
+1. O InterPlanetary File System (IPFS) é uma rede descentralizada, peer-to-peer, para armazenar e partilhar dados num sistema de ficheiros distribuído. A menos que utilize a funcionalidade, desative-a.
+
+#### Sincronização do Brave
+
+[A Sincronização do Brave](https://support.brave.com/hc/en-us/articles/360059793111-Understanding-Brave-Sync) permite que os seus dados de navegação (histórico, marcadores, etc.) estejam acessíveis em todos os seus dispositivos, sem necessidade de uma conta, e protege-os com E2EE.
 
 ## iOS
 
-On iOS, any app that can browse the web is [restricted](https://developer.apple.com/app-store/review/guidelines) to using an Apple-provided [WebKit framework](https://developer.apple.com/documentation/webkit), so there is little reason to use a third-party web browser.
+No iOS, qualquer aplicação que possa navegar na Web está [limitada](https://developer.apple.com/app-store/review/guidelines) à utilização de uma estrutura WebKit fornecida pela Apple [](https://developer.apple.com/documentation/webkit), pelo que não há nenhuma vantagem em utilizar um browser diferente de outro fornecedor.
 
-### Origem do uBlock
+### Safari
 
 !!! nota
     Consulte o [Tabela de Hardware](https://openwrt.org/toh/start) para verificar se o seu dispositivo é suportado.
 
-    ![logotipo AdGuard](/assets/img/browsers/adguard.svg){ align=right }
+    ![Logótipo Safari](assets/img/browsers/safari.svg){ align=right }
     
-    **AdGuard for Safari** é uma extensão gratuita e de código aberto para bloqueio de conteúdo do Safari que usa a API nativa [Content Blocker API](https://developer.apple.com/documentation/safariservices/creating_a_content_blocker). It includes [privacy features](https://support.apple.com/guide/iphone/browse-the-web-privately-iphb01fc3c85/15.0/ios/15.0) such as [Intelligent Tracking Prevention](https://webkit.org/blog/7675/intelligent-tracking-prevention/), Privacy Report, isolated and ephemeral Private Browsing tabs, iCloud Private Relay, and fingerprinting reduction by presenting a simplified version of the system configuration to websites so more devices look identical.
+    O **Safari** é o browser predefinido no iOS. Inclui [funcionalidades de privacidade] (https://support.apple.com/guide/iphone/browse-the-web-privately-iphb01fc3c85/15.0/ios/15.0), tais como [Previsão inteligente de rastreio] (https://webkit.org/blog/7675/intelligent-tracking-prevention/), Relatório de Privacidade, separadores de navegação privada isolados e efémeros, iCloud Private Relay e redução de impressões digitais, através da apresentação de uma versão simplificada da configuração do sistema aos sites, para que o miro número possível de dispositivos pareçam idênticos.
     
-    Safari is restricted to Apple devices and is covered by [System Integrity Protection](https://support.apple.com/guide/security/system-integrity-protection-secb7ea06b49/web), a security feature which limits system programs and files to being read-only so they can't be tampered with by you or malware.
+    O Safari está limitado a dispositivos Apple e está coberto pela [Proteção de Integridade do Sistema] (https://support.apple.com/guide/security/system-integrity-protection-secb7ea06b49/web), uma funcionalidade de segurança que faz com que os programas e ficheiros do sistema sejam apenas de leitura, para que não possam ser alterados por si ou por malware.
     
-    Os filtros *#recommended* também podem ser ativados para os bloqueadores de conteúdo "Social Widgets" e "Annoyances", mas eles podem quebrar algumas funções das mídias sociais.
+    [:octicons-home-16: Homepage](https://www.apple.com/safari/){ .md-button .md-button--primary }
+    [:octicons-eye-16:](https://www.apple.com/legal/privacy/data/en/safari/){ .card-link title="Política de Privacidade" }
+    [:octicons-info-16:](https://support.apple.com/guide/safari/welcome/mac){ .card-link title=Documentação}
 
 #### Configuração recomendada
 
-These options can be found in :gear: **Settings** → **Safari** → **Privacy and Security**.
+Estas opções podem ser encontradas em :gear: **Definições** → **Safari** → **Privacidade e segurança**.
 
-##### Cross-Site Tracking Prevention
+##### Prevenção de rastreio entre sites
 
-- [x] Enable **Prevent Cross-Site Tracking**
+- [x] Ativar **Prevenir o rastreio entre sites**
 
 This enables WebKit's [Intelligent Tracking Protection](https://webkit.org/tracking-prevention/#intelligent-tracking-prevention-itp). The feature helps protect against unwanted tracking by using on-device machine learning to stop trackers. ITP protects against many common threats, but it does not block all tracking avenues because it is designed to not interfere with website usability.
 

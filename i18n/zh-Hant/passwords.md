@@ -19,7 +19,7 @@ schema:
     sameAs: https://en.wikipedia.org/wiki/Bitwarden
     applicationCategory: 密碼管理器。
     operatingSystem:
-      - Windows
+      - Windows 作業系統
       - macOS
       - Linux
       - Android
@@ -37,7 +37,7 @@ schema:
     sameAs: https://en.wikipedia.org/wiki/1Password
     applicationCategory: 密碼管理器。
     operatingSystem:
-      - Windows
+      - Windows 作業系統
       - macOS
       - Linux
       - Android
@@ -69,7 +69,7 @@ schema:
     sameAs: https://en.wikipedia.org/wiki/KeePassXC
     applicationCategory: 密碼管理器。
     operatingSystem:
-      - Windows
+      - Windows 作業系統
       - macOS
       - Linux
     subjectOf:
@@ -108,7 +108,7 @@ schema:
     url: https://www.gopass.pw/
     applicationCategory: 密碼管理器。
     operatingSystem:
-      - Windows
+      - Windows 作業系統
       - macOS
       - Linux
       - FreeBSD

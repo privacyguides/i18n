@@ -19,16 +19,18 @@ icon: 'material/shield-account'
 **Безопасность**
 :
 
-Безопасность - это возможность доверять приложениям, которые вы используете, что участвующие стороны являются теми, за кого себя выдают. В контексте интернет сёрфинга, безопасность может быть обеспечена сертификатами HTTPS.
+Security is the ability to trust the applications you use—that the parties involved are who they say they are—and keep those applications safe. In the context of browsing the web, for example, security can be provided by HTTPS certificates.
+:
 
-    Сертификаты подтверждают, что вы напрямую общаетесь с веб-сайтом, который посещаете, и не позволяют злоумышленникам в вашей сети читать или изменять данные, отправленные на веб-сайт или из него.
+Certificates prove you are talking directly to the website you're visiting, and keep attackers on your network from reading or modifying the data sent to or from the website.
 
 **Анонимность**
 :
 
-Анонимность - это возможность действовать без постоянного идентификатора. Вы можете достичь этого онлайн с помощью [Tor](../tor.md), который позволяет просматривать интернет со случайным IP адресом и сетевым подключением вместо вашего собственного.
+Anonymity is the ability to act without a persistent identifier. You might achieve this online with [Tor](../tor.md), which allows you to browse the internet with a random IP address and network connection instead of your own.
+:
 
-    **Псевдоним** является похожим понятием, но он позволяет иметь постоянный идентификатор без его привязки к вашей реальной личности. Если в интернете все знают вас как `@GamerGuy12`, но никто не знает вашего настоящего имени, это и есть ваш псевдоним.
+**Pseudonymity** is a similar concept, but it allows you to have a persistent identifier without it being tied to your real identity. If everybody knows you as `@GamerGuy12` online, but nobody knows your real name, that is your pseudonym.
 
 Все эти понятия накладываются друг на друга, и возможно любое их сочетание. Для большинства людей оптимальный вариант - когда все эти три понятия пересекаются. Однако добиться этого гораздо сложнее, чем многие думают на первый взгляд. Иногда приходится идти на компромисс в некоторых вопросах, и это тоже нормально. Вот где **моделирование угроз** становится важным, позволяя вам принимать обоснованные решения относительно [программ и услуг](../tools.md), которые вы используете.
 

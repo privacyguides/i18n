@@ -19,16 +19,18 @@ icon: 'material/shield-account'
 **安全**
 :
 
-安全是信任所使用的應用程式——相關人士如他們所說的那樣——保證這些應用程式的安全。 又例如，在網頁瀏覽時 ，透過 HTTPS 憑證提供安全性。
+Security is the ability to trust the applications you use—that the parties involved are who they say they are—and keep those applications safe. In the context of browsing the web, for example, security can be provided by HTTPS certificates.
+:
 
-    憑證證明您直接與正在訪問的網站對話，防止網路攻擊者讀取或修改與網站之間交流通訊的資料。
+Certificates prove you are talking directly to the website you're visiting, and keep attackers on your network from reading or modifying the data sent to or from the website.
 
 **匿名**
 :
 
-匿名指沒有一個長期可識別的身份 您可以使用 [Tor](../tor.md) 達成此目的，它允許您使用隨機 IP 地址與網路連接與瀏覽網際網路而不是自己的 IP。
+Anonymity is the ability to act without a persistent identifier. You might achieve this online with [Tor](../tor.md), which allows you to browse the internet with a random IP address and network connection instead of your own.
+:
 
-    **假名** 是類似概念，它允許您擁有一個持久的識別符號，而無需將此符號與您的真實身份聯繫起來。 如果網上每個人都知道您是 `@GamerGuy12`，但沒有人知道您的真實姓名，那就是您的假名。
+**Pseudonymity** is a similar concept, but it allows you to have a persistent identifier without it being tied to your real identity. If everybody knows you as `@GamerGuy12` online, but nobody knows your real name, that is your pseudonym.
 
 這些概念都有重疊，也有可能將這些概念任意組合。 對大多數人來說，最佳狀態是這三個概念都重疊的時候。 然而，實現起來比許多人原本想的更困難。 有時候必須在某些部份讓步，這也沒關係。 這就是**威脅建模**發揮作用之處，讓您可以就使用[軟體和服務](../tools.md) 做出明智決定 。
 

@@ -1,30 +1,30 @@
 ---
-title: "DNS Overview"
+title: "Visão geral do DNS"
 icon: material/dns
-description: The Domain Name System is the "phonebook of the internet," helping your browser find the website it's looking for.
+description: O sistema de nomes de domínio, DNS, é a "lista telefónica da Internet", e ajuda o seu browser a encontrar o site que procura.
 ---
 
-O [Domain Name System (DNS)](https://en.wikipedia.org/wiki/Domain_Name_System) é a 'lista telefónica da Internet'. DNS traduz nomes de domínio para [IP](https://en.wikipedia.org/wiki/Internet_Protocol) endereços para que os navegadores e outros serviços possam carregar recursos da Internet, através de uma rede descentralizada de servidores.
+O sistema de nomes de domínio [](https://en.wikipedia.org/wiki/Domain_Name_System) é a "lista telefónica da Internet". O DNS traduz os nomes de domínio em endereços IP, para que os navegadores e outros serviços possam carregar os recursos da Internet, através de uma rede descentralizada de servidores.
 
-## O que é DNS?
+## O que é o DNS?
 
-Quando você visita um site, um endereço numérico é devolvido. Por exemplo, quando você visita `privacyguides.org`, o endereço `192.98.54.105` é retornado.
+Quando se visita um site, é devolvido um endereço numérico. Por exemplo, quando se visita o `privacyguides.org`, é devolvido o endereço `192.98.54.105`.
 
-O DNS existe desde o [dos primeiros dias](https://en.wikipedia.org/wiki/Domain_Name_System#History) da Internet. Os pedidos DNS feitos para e dos servidores DNS são **não** geralmente encriptados. Em uma configuração residencial, um cliente recebe servidores pelo [ISP](https://en.wikipedia.org/wiki/Internet_service_provider) via [Dynamic Host Configuration Protocol (DHCP)](https://en.wikipedia.org/wiki/Dynamic_Host_Configuration_Protocol).
+O DNS existe desde os [primeiros dias](https://en.wikipedia.org/wiki/Domain_Name_System#History) da Internet. Os pedidos de DNS realizado, de e para servidores DNS, **não são** geralmente encriptados. Numa configuração caseira, o utilizador usa os servidores de DNS do ISP, através de [DHCP](https://en.wikipedia.org/wiki/Dynamic_Host_Configuration_Protocol).
 
-Os pedidos DNS não encriptados são capazes de ser facilmente **surveilled** e **modificados** em trânsito. Em algumas partes do mundo, os ISPs são solicitados a fazer [filtragem DNS](https://en.wikipedia.org/wiki/DNS_blocking). Quando um usuário solicita o IP de um domínio que está bloqueado, o servidor pode não responder ou pode responder com um endereço IP diferente. Como o protocolo DNS não é criptografado, o ISP (ou qualquer operador de rede) pode usar [deep packet inspection (DPI)](https://en.wikipedia.org/wiki/Deep_packet_inspection) para monitorar as solicitações. Os ISPs também podem bloquear pedidos com base em características comuns, independentemente do servidor DNS utilizado. DNS não encriptado usa sempre [port](https://en.wikipedia.org/wiki/Port_(computer_networking)) 53 e usa sempre o [User Datagram Protocol (UDP)](https://en.wikipedia.org/wiki/User_Datagram_Protocol).
+Os pedidos de DNS não encriptados podem ser facilmente **vigiados** e **modificados** em trânsito. Em algumas partes do mundo, os ISP são obrigados a efetuar uma [filtragem de DNS](https://en.wikipedia.org/wiki/DNS_blocking). Quando solicita o endereço IP de um domínio que está bloqueado, o servidor pode não responder ou pode responder com um endereço IP diferente. Como o protocolo DNS não é encriptado, o ISP (ou qualquer operador de rede) pode utilizar o [DPI](https://en.wikipedia.org/wiki/Deep_packet_inspection) para monitorizar os pedidos. Os ISPs também podem bloquear pedidos com base em características comuns, independentemente do servidor DNS utilizado. O DNS não encriptado utiliza sempre a porta [](https://en.wikipedia.org/wiki/Port_(computer_networking)) 53 e o protocolo UDP.
 
-Abaixo, discutimos e fornecemos um tutorial para provar o que um observador externo pode ver usando DNS regular não criptografado e [DNS criptografado](#what-is-encrypted-dns).
+Abaixo, discutimos e fornecemos um tutorial que prova o que um observador externo pode ver, quando se utiliza DNS normal não encriptado e [DNS encriptado](#what-is-encrypted-dns).
 
-### DNS não criptografado
+### DNS não encriptado
 
-1. Usando [`tshark`](https://www.wireshark.org/docs/man-pages/tshark.html) (parte do [Wireshark](https://en.wikipedia.org/wiki/Wireshark) project) podemos monitorar e gravar o fluxo de pacotes da Internet. Este comando registra os pacotes que atendem às regras especificadas:
+1. Utilizando o [`tshark`](https://www.wireshark.org/docs/man-pages/tshark.html) (que faz parte do projeto [Wireshark](https://en.wikipedia.org/wiki/Wireshark)), podemos monitorizar e gravar o fluxo de pacotes da Internet. Este é um comando que regista os pacotes que cumprem determinadas regras:
 
     ```bash
     tshark -w /tmp/dns.pcap udp porto 53 e host 1.1.1.1 ou host 8.8.8.8
     ```
 
-2. We can then use [`dig`](https://en.wikipedia.org/wiki/Dig_(command)) (Linux, MacOS, etc.) or [`nslookup`](https://en.wikipedia.org/wiki/Nslookup) (Windows) to send the DNS lookup to both servers. Software como navegadores web fazem estas pesquisas automaticamente, a menos que estejam configurados para usar [DNS encriptado](#what-is-encrypted-dns).
+2. Podemos depois utilizar o [`dig`](https://en.wikipedia.org/wiki/Dig_(command)) (Linux, MacOS, etc.) ou o [`nslookup`](https://en.wikipedia.org/wiki/Nslookup) (Windows) para enviar a pesquisa de DNS para ambos os servidores. Software como, por exemplo, os browsers fazem estas pesquisas automaticamente, a menos que estejam configurados para utilizar DNS encriptado.
 
     === "Linux, macOS"
 
@@ -32,14 +32,14 @@ Abaixo, discutimos e fornecemos um tutorial para provar o que um observador exte
         dig noall answer privacyguides.org @1.1.1.1.1
         dig noall answer privacyguides.org @8.8.8.8
         ```
-    ==== "Windows"
+    === "Windows"
 
         ```
         nslookup privacyguides.org 1.1.1.1
         nslookup privacyguides.org 8.8.8.8
         ```
 
-3. A seguir, queremos [analisar](https://www.wireshark.org/docs/wsug_html_chunked/ChapterIntroduction.html#ChIntroWhatIs) os resultados:
+3. Em seguida, vamos [analisar](https://www.wireshark.org/docs/wsug_html_chunked/ChapterIntroduction.html#ChIntroWhatIs) os resultados:
 
     ==== "Wireshark"
 
@@ -53,9 +53,9 @@ Abaixo, discutimos e fornecemos um tutorial para provar o que um observador exte
         tshark -r /tmp/dns.pcap
         ```
 
-Se você executar o comando Wireguard acima, o painel superior mostra o "[frames](https://en.wikipedia.org/wiki/Ethernet_frame)", e o painel inferior mostra todos os dados sobre o frame selecionado. Soluções de filtragem e monitoramento empresarial (como as adquiridas pelos governos) podem fazer o processo automaticamente, sem interação humana, e podem agregar esses quadros para produzir dados estatísticos úteis para o observador da rede.
+Se executar o comando Wireshark indicado acima, o painel superior mostra os "[frames](https://en.wikipedia.org/wiki/Ethernet_frame)", e o painel inferior mostra todos os dados sobre o frame selecionado. As soluções empresariais de filtragem e monitorização (como as adquiridas pelos governos) podem fazer o processo automaticamente, sem interação humana, e podem agregar essas imagens para produzir dados estatísticos úteis para o observador da rede.
 
-| Não. | Hora     | Fonte     | Destino   | Protocolo | Comprimento | Informações                                                                |
+| Não. | Hora     | Origem    | Destino   | Protocolo | Comprimento | Informações                                                                |
 | ---- | -------- | --------- | --------- | --------- | ----------- | -------------------------------------------------------------------------- |
 | 1    | 0.000000 | 192.0.2.1 | 1.1.1.1   | DNS       | 104         | Consulta padrão 0x58ba A privacyguides.org OPT                             |
 | 2    | 0.293395 | 1.1.1.1   | 192.0.2.1 | DNS       | 108         | Resposta de consulta padrão 0x58ba A privacyguides.org A 198.98.54.105 OPT |
@@ -64,21 +64,21 @@ Se você executar o comando Wireguard acima, o painel superior mostra o "[frames
 
 Um observador pode modificar qualquer um destes pacotes.
 
-## O que é "DNS criptografado"?
+## O que é o "DNS encriptado"?
 
-DNS criptografado pode se referir a um de vários protocolos, sendo os mais comuns:
+O DNS encriptado pode referir-se a um de vários protocolos, sendo os mais comuns:
 
 ### DNSCrypt
 
-[**DNSCrypt**](https://en.wikipedia.org/wiki/DNSCrypt) foi um dos primeiros métodos de encriptação de consultas DNS. O [protocolo](https://en.wikipedia.org/wiki/DNSCrypt#Protocol) opera em [porta 443](https://en.wikipedia.org/wiki/Well-known_ports) e funciona tanto com o [TCP](https://en.wikipedia.org/wiki/Transmission_Control_Protocol) ou [UDP](https://en.wikipedia.org/wiki/User_Datagram_Protocol) protocolos de transporte. DNSCrypt nunca foi submetido ao processo [Internet Engineering Task Force (IETF)](https://en.wikipedia.org/wiki/Internet_Engineering_Task_Force) nem foi submetido ao processo [Request for Comments (RFC)](https://en.wikipedia.org/wiki/Request_for_Comments) , portanto não tem sido usado amplamente fora de alguns [implementações](https://dnscrypt.info/implementations). Como resultado, foi amplamente substituído pelo mais popular [DNS sobre HTTPS (DoH)](#dns-over-https-doh).
+O [**DNSCrypt**](https://en.wikipedia.org/wiki/DNSCrypt) foi um dos primeiros métodos de encriptação de pedidos DNS. O DNSCrypt funciona na porta 443 e utiliza os protocolos de transporte TCP ou UDP. O DNSCrypt nunca foi submetido à [Internet Engineering Task Force (IETF)](https://en.wikipedia.org/wiki/Internet_Engineering_Task_Force), nem passou pelo processo [Request for Comments (RFC)](https://en.wikipedia.org/wiki/Request_for_Comments), pelo que não foi amplamente utilizado, exceto em algumas implementações [](https://dnscrypt.info/implementations). Por esse motivo, foi amplamente substituído pelo mais popular [DNS sobre HTTPS](#dns-over-https-doh).
 
 ### DNS sobre TLS (DoT)
 
-[**DNS sobre TLS (DoT)**](https://en.wikipedia.org/wiki/DNS_over_TLS) é outro método para encriptar a comunicação DNS que é definida em [RFC 7858](https://datatracker.ietf.org/doc/html/rfc7858). O suporte foi implementado inicialmente em [Android 9](https://en.wikipedia.org/wiki/Android_Pie), [iOS 14](https://en.wikipedia.org/wiki/IOS_14), e no Linux em [systemd-resolved](https://www.freedesktop.org/software/systemd/man/resolved.conf.html#DNSOverTLS=) na versão 237. A preferência na indústria tem se afastado do DoT para [DNS sobre HTTPS](#dns-over-https-doh) nos últimos anos, pois o DoT é um [protocolo complexo](https://dnscrypt.info/faq/) e tem conformidade variável com a RFC nas implementações que existem. DoT também opera em uma porta dedicada 853 e que pode ser facilmente bloqueada por firewalls restritivos.
+O [**DNS sobre TLS**](https://en.wikipedia.org/wiki/DNS_over_TLS) é outro método para encriptar a comunicação DNS, definido em [RFC 7858](https://datatracker.ietf.org/doc/html/rfc7858). O suporte foi implementado pela primeira vez no Android 9, iOS 14 e no Linux, no [systemd-resolved](https://www.freedesktop.org/software/systemd/man/resolved.conf.html#DNSOverTLS=), na versão 237. Nos últimos anos, o setor tem vindo a afastar-se do DoT em favor do DoH, uma vez que o DoT é um [protocolo complexo](https://dnscrypt.info/faq/) e tem uma conformidade variável com o RFC nas implementações existentes. O DoT também funciona numa porta dedicada, a 853, que pode ser facilmente bloqueada por firewalls restritivas.
 
 ### DNS sobre HTTPS (DoH)
 
-[**DNS sobre HTTPS**](https://en.wikipedia.org/wiki/DNS_over_HTTPS) como definido em [RFC 8484](https://datatracker.ietf.org/doc/html/rfc8484) consultas de pacotes no protocolo [HTTP/2](https://en.wikipedia.org/wiki/HTTP/2) e fornece segurança com [HTTPS](https://en.wikipedia.org/wiki/HTTPS). O suporte foi adicionado pela primeira vez em navegadores web como [Firefox 60](https://support.mozilla.org/en-US/kb/firefox-dns-over-https) e [Chrome 83](https://blog.chromium.org/2020/05/a-safer-and-more-private-browsing-DoH.html).
+O [**DNS sobre HTTPS**](https://en.wikipedia.org/wiki/DNS_over_HTTPS), tal como definido em [RFC 8484](https://datatracker.ietf.org/doc/html/rfc8484), agrupa as consultas através do protocolo [HTTP/2](https://en.wikipedia.org/wiki/HTTP/2) e proporciona segurança com HTTPS. O suporte foi adicionado pela primeira vez em browsers como o Firefox 60 e o Chrome 83.
 
 Native implementation of DoH showed up in iOS 14, macOS 11, Microsoft Windows, and Android 13 (however, it won't be enabled [by default](https://android-review.googlesource.com/c/platform/packages/modules/DnsResolver/+/1833144)). General Linux desktop support is waiting on the systemd [implementation](https://github.com/systemd/systemd/issues/8639) so [installing third-party software is still required](../dns.md#encrypted-dns-proxies).
 

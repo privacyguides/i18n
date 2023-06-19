@@ -19,16 +19,18 @@ Molte persone confondono il significato di **privacy**, **sicurezza**, e **anoni
 **Sicurezza**
 :
 
-La sicurezza è la capacità di fidarsi delle applicazioni che utilizzi—che le parti coinvolte sono quelle che dicono di essere—e di mantenerle sicure. Nel contesto della navigazione web, per esempio, la sicurezza può essere fornita attraverso i certificati HTTPS.
+La sicurezza è la capacità di fidarsi delle applicazioni che utilizzi—che le parti coinvolte sono quelle che dicono di essere—e di mantene le app sicure. Nel contesto della navigazione web, ad esempio, la sicurezza può essere garantita attraverso i certificati HTTPS.
+:
 
-    I certificati dimostrano che stai parlando effettivamente con il sito che stai visitando, impedendo agli aggressori presenti sulla tua rete di leggere o modificare i dati inviati o ricevuti dal sito web.
+I certificati dimostrano che stai parlando direttamente con il sito web che stai visitando e impediscono agli aggressori sulla tua rete di leggere o modificare i dati inviati o provenienti dal sito web in questione.
 
 **Anonimato**
 :
 
-L'anonimato è la capacità di agire senza un identificatore persistente. È possibile ottenere questo risultato online utilizzando [Tor](../tor.md), che consente di navigare in Internet con un indirizzo IP ed una connessione di rete casuale anziché la tua.
+L'anonimato è la capacità di agire senza un identificatore persistente. Potresti ottenere questo risultato online utilizzando [Tor](../tor.md), che consente di navigare in Internet con un indirizzo IP ed una connessione di rete casuale anziché utilizzare la tua.
+:
 
-    **Pseudonimato** è un concetto simile, ma ti consente di avere un identificatore persistente che non viene legato alla tua vera identità. Se tutti ti conoscono come `@GamerGuy12` online, ma nessuno conosce il tuo vero nome, quello è il tuo pseudonimo.
+**Pseudonimato** è un concetto simile, ma consente di avere un identificatore persistente senza che venga collegato alla tua vera identità. Se tutti ti conoscono come `@GamerGuy12` online, ma nessuno conosce il tuo vero nome, quello è il tuo pseudonimo.
 
 Tutti questi concetti si sovrappongono, ma è possibile avere qualsiasi combinazione di tutti e tre. La perfezione per la maggior parte delle persone la si raggiunge quando tutti e tre i concetti si sovrappongono. Tuttavia, è più difficile da raggiungere di quanto molti credano inizialmente. A volte, dovrai sacrificarne uno dei 3, e va bene anche così. È qui che entra in gioco la **modellazione delle minacce** che consente di prendere decisioni informate sui [software e sui servizi](../tools.md) da utilizzare.
 

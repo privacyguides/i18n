@@ -59,7 +59,7 @@ schema:
     [:octicons-info-16:](https://support.brave.com/){ .card-link title=Документация}
     [:octicons-code-16:](https://github.com/brave/brave-browser){ .card-link title="Исходный код" }
     
-    ??? downloads annotate "скачать"
+    ??? downloads annotate "Скачать"
     
         - [:simple-googleplay: Google Play](https://play.google.com/store/apps/details?id=com.brave.browser)
         - [:simple-github: GitHub](https://github.com/brave/brave-browser/releases)
@@ -199,7 +199,7 @@ Brave включает несколько инструментов защиты 
     [:octicons-info-16:](https://kb.adguard.com/ios){ .card-link title=Документация}
     [:octicons-code-16:](https://github.com/AdguardTeam/AdguardForiOS){ .card-link title="Исходный код" }
     
-    ??? downoloads "скачать"
+    ??? downoloads "Скачать"
     
         - [:simple-appstore: App Store](https://apps.apple.com/app/apple-store/id1047223162)
 

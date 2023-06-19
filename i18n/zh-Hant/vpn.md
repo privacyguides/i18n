@@ -273,7 +273,7 @@ Proton VPN [建議](https://protonvpn.com/blog/wireguard/) 搭配 WireGuard 使�
 
 #### :material-alert-outline:{ .pg-orange } 遠端端口轉發
 
-Proton VPN currently only supports ephemeral remote [port forwarding](https://protonvpn.com/support/port-forwarding/) via NAT-PMP, with 60 second lease times. The Windows app provides an easy to access option for it, while on other operating systems you'll need to run your own [NAT-PMP client](https://protonvpn.com/support/port-forwarding-manual-setup/). Torrent applications often support NAT-PMP natively.
+Proton VPN 目前僅支援暫寺性NAT-PMP遠方 [連接埠轉發](https://protonvpn.com/support/port-forwarding/)期間為 60 秒。 Windows 應用提供簡易使用選項，而其它作業系統則需運行 [NAT-PMP 客戶端](https://protonvpn.com/support/port-forwarding-manual-setup/)。 Torrent 應用往往支援 NAT-PMP 原生。
 
 
 

@@ -11,6 +11,54 @@ Nếu bạn hiện đang sử dụng một ứng dụng như Evernote, Google Ke
 
 ## Dựa trên đám mây
 
+### Standard Notes
+
+!!! khuyến nghị
+
+    ![Standard Notes logo](assets/img/notebooks/standard-notes.svg){ align=right }
+    
+    Standard Notes là một ứng dụng ghi chú đơn giản và riêng tư giúp bạn ghi chú dễ dàng và có sẵn ở mọi nơi. Nó có tính năng E2EE trên mọi nền tảng và trải nghiệm máy tính để bàn mạnh mẽ với các chủ đề và trình chỉnh sửa tùy chỉnh. It has also been [independently audited](https://standardnotes.com/help/2/has-standard-notes-completed-a-third-party-security-audit).
+    
+    [Website](https://standardnotes.com){ .md-button .md-button--primary }
+    
+    ??? tải xuống
+    
+        - [:fontawesome-brands-windows: Windows](https://standardnotes.com)
+        - [:fontawesome-brands-apple: macOS](https://standardnotes.com)
+        - [:fontawesome-brands-linux: Linux](https://standardnotes.com)
+        - [:fontawesome-brands-app-store-ios: App Store](https://apps.apple.com/app/id1285392450)
+        - [:fontawesome-brands-google-play: Google Play](https://play.google.com/store/apps/details?id=com.standardnotes)
+        - [:pg-f-droid: F-Droid](https://f-droid.org/en/packages/com.standardnotes)
+        - [:octicons-browser-16: Browser](https://app.standardnotes.com/)
+        - [:fontawesome-brands-github: GitHub](https://github.com/standardnotes)
+
+### Notesnook
+
+!!! khuyến nghị
+
+    ![Notesnook logo](assets/img/notebooks/notesnook.svg){ align=right }
+    
+    **Notesnook** is a free (as in speech) & open-source note-taking app focused on user privacy & ease of use. It features end-to-end encryption on all platforms with a powerful sync to take your notes on the go. You can easily import your notes from Evernote, OneNote & a lot of other apps using their [official importer](https://importer.notesnook.com/).
+    
+    [:octicons-home-16: Homepage](https://notesnook.com/){ .md-button .md-button--primary }
+    [:octicons-eye-16:](https://notesnook.com/privacy){ .card-link title="Privacy Policy" }
+    [:octicons-info-16:](https://help.notesnook.com/){ .card-link title=Documentation}
+    [:octicons-code-16:](https://github.com/streetwriters/notesnook){ .card-link title="Source Code" }
+    [:octicons-heart-16:](https://github.com/streetwriters/notesnook/blob/master/CONTRIBUTING.md){ .card-link title=Contribute }
+    
+    ??? downloads
+    
+        - [:simple-googleplay: Google Play](https://play.google.com/store/apps/details?id=com.streetwriters.notesnook)
+        - [:simple-appstore: App Store](https://apps.apple.com/us/app/notesnook-take-private-notes/id1544027013)
+        - [:simple-github: GitHub](https://github.com/streetwriters/notesnook/releases)
+        - [:simple-windows11: Windows](https://notesnook.com/downloads)
+        - [:simple-apple: macOS](https://notesnook.com/downloads)
+        - [:simple-linux: Linux](https://notesnook.com/downloads)
+        - [:simple-firefoxbrowser: Firefox](https://notesnook.com/notesnook-web-clipper/)
+        - [:simple-googlechrome: Chrome](https://chrome.google.com/webstore/detail/notesnook-web-clipper/kljhpemdlcnjohmfmkogahelkcidieaj)
+
+Notesnook does not support password/PIN protection on the web & desktop apps. However, you can still lock individual notes, and your data is always encrypted in transit and on your device using your master key.
+
 ### Joplin
 
 !!! khuyến nghị
@@ -34,27 +82,6 @@ Nếu bạn hiện đang sử dụng một ứng dụng như Evernote, Google Ke
         - [:fontawesome-brands-github: GitHub](https://github.com/laurent22/joplin)
 
 Joplin does not support password/PIN protection for the [application itself or individual notes and notebooks](https://github.com/laurent22/joplin/issues/289). Dữ liệu vẫn được mã hóa khi chuyển tiếp và tại vị trí đồng bộ hóa bằng khóa chính của bạn. Since January 2023, Joplin supports biometrics app lock for [Android](https://joplinapp.org/changelog_android/#android-v2-10-3-https-github-com-laurent22-joplin-releases-tag-android-v2-10-3-pre-release-2023-01-05t11-29-06z) and [iOS](https://joplinapp.org/changelog_ios/#ios-v12-10-2-https-github-com-laurent22-joplin-releases-tag-ios-v12-10-2-2023-01-20t17-41-13z).
-
-### Standard Notes
-
-!!! khuyến nghị
-
-    ![Standard Notes logo](assets/img/notebooks/standard-notes.svg){ align=right }
-    
-    Standard Notes là một ứng dụng ghi chú đơn giản và riêng tư giúp bạn ghi chú dễ dàng và có sẵn ở mọi nơi. Nó có tính năng E2EE trên mọi nền tảng và trải nghiệm máy tính để bàn mạnh mẽ với các chủ đề và trình chỉnh sửa tùy chỉnh. It has also been [independently audited](https://standardnotes.com/help/2/has-standard-notes-completed-a-third-party-security-audit).
-    
-    [Website](https://standardnotes.com){ .md-button .md-button--primary }
-    
-    ??? tải xuống
-    
-        - [:fontawesome-brands-windows: Windows](https://standardnotes.com)
-        - [:fontawesome-brands-apple: macOS](https://standardnotes.com)
-        - [:fontawesome-brands-linux: Linux](https://standardnotes.com)
-        - [:fontawesome-brands-app-store-ios: App Store](https://apps.apple.com/app/id1285392450)
-        - [:fontawesome-brands-google-play: Google Play](https://play.google.com/store/apps/details?id=com.standardnotes)
-        - [:pg-f-droid: F-Droid](https://f-droid.org/en/packages/com.standardnotes)
-        - [:octicons-browser-16: Browser](https://app.standardnotes.com/)
-        - [:fontawesome-brands-github: GitHub](https://github.com/standardnotes)
 
 ### EteSync Notes
 

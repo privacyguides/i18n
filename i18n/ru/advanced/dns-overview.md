@@ -1,10 +1,10 @@
 ---
-title: "DNS Overview"
+title: "Обзор DNS"
 icon: material/dns
-description: The Domain Name System is the "phonebook of the internet," helping your browser find the website it's looking for.
+description: Система доменных имен - это "телефонная книга интернета", помогающая вашему браузеру найти нужный сайт.
 ---
 
-The [Domain Name System](https://en.wikipedia.org/wiki/Domain_Name_System) is the 'phonebook of the Internet'. DNS translates domain names to IP addresses so browsers and other services can load Internet resources, through a decentralized network of servers.
+[Система доменных имен](https://en.wikipedia.org/wiki/Domain_Name_System) - это "телефонная книга Интернета". DNS переводит доменные имена в IP адреса, чтобы браузеры и другие службы могли загружать интернет-ресурсы, через децентрализованную сеть серверов.
 
 ## Что такое DNS?
 
@@ -55,18 +55,18 @@ Below, we discuss and provide a tutorial to prove what an outside observer may s
 
 If you run the Wireshark command above, the top pane shows the "[frames](https://en.wikipedia.org/wiki/Ethernet_frame)", and the bottom pane shows all the data about the selected frame. Enterprise filtering and monitoring solutions (such as those purchased by governments) can do the process automatically, without human interaction, and can aggregate those frames to produce statistical data useful to the network observer.
 
-| No. | Time     | Source    | Destination | Protocol | Length | Info                                                                   |
-| --- | -------- | --------- | ----------- | -------- | ------ | ---------------------------------------------------------------------- |
-| 1   | 0.000000 | 192.0.2.1 | 1.1.1.1     | DNS      | 104    | Standard query 0x58ba A privacyguides.org OPT                          |
-| 2   | 0.293395 | 1.1.1.1   | 192.0.2.1   | DNS      | 108    | Standard query response 0x58ba A privacyguides.org A 198.98.54.105 OPT |
-| 3   | 1.682109 | 192.0.2.1 | 8.8.8.8     | DNS      | 104    | Standard query 0xf1a9 A privacyguides.org OPT                          |
-| 4   | 2.154698 | 8.8.8.8   | 192.0.2.1   | DNS      | 108    | Standard query response 0xf1a9 A privacyguides.org A 198.98.54.105 OPT |
+| № | Время    | Источник  | Назначение | Протокол | Длина | Инфо                                                                   |
+| - | -------- | --------- | ---------- | -------- | ----- | ---------------------------------------------------------------------- |
+| 1 | 0.000000 | 192.0.2.1 | 1.1.1.1    | DNS      | 104   | Standard query 0x58ba A privacyguides.org OPT                          |
+| 2 | 0.293395 | 1.1.1.1   | 192.0.2.1  | DNS      | 108   | Standard query response 0x58ba A privacyguides.org A 198.98.54.105 OPT |
+| 3 | 1.682109 | 192.0.2.1 | 8.8.8.8    | DNS      | 104   | Standard query 0xf1a9 A privacyguides.org OPT                          |
+| 4 | 2.154698 | 8.8.8.8   | 192.0.2.1  | DNS      | 108   | Standard query response 0xf1a9 A privacyguides.org A 198.98.54.105 OPT |
 
 An observer could modify any of these packets.
 
-## What is "encrypted DNS"?
+## Что такое "зашифрованный DNS"?
 
-Encrypted DNS can refer to one of a number of protocols, the most common ones being:
+Зашифрованный DNS может относиться к одному из нескольких протоколов, наиболее распространенными из которых являются:
 
 ### DNSCrypt
 
@@ -256,7 +256,7 @@ We can simulate what a browser would do using the [`openssl`](https://en.wikiped
 
 If the network observer has the public certificate, which is publicly available, they can match the serial number with that certificate and therefore determine the site you're visiting from that. The process can be automated and can associate IP addresses with serial numbers. It is also possible to check [Certificate Transparency](https://en.wikipedia.org/wiki/Certificate_Transparency) logs for the serial number.
 
-## Should I use encrypted DNS?
+## Следует ли мне использовать зашифрованный DNS?
 
 We made this flow chart to describe when you *should* use encrypted DNS:
 
@@ -279,7 +279,7 @@ Encrypted DNS with a third-party should only be used to get around redirects and
 
 [List of recommended DNS servers](../dns.md ""){.md-button}
 
-## What is DNSSEC?
+## Что такое DNSSEC?
 
 [Domain Name System Security Extensions](https://en.wikipedia.org/wiki/Domain_Name_System_Security_Extensions) (DNSSEC) is a feature of DNS that authenticates responses to domain name lookups. It does not provide privacy protections for those lookups, but rather prevents attackers from manipulating or poisoning the responses to DNS requests.
 

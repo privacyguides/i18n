@@ -11,6 +11,57 @@ cover: notebooks.png
 
 ## 클라우드 기반
 
+### Standard Notes
+
+!!! recommendation
+
+    ![Standard Notes 로고](assets/img/notebooks/standard-notes.svg){ align=right }
+    
+    **Standard Notes**는 어디서나 간편하게 노트를 작성하고 읽을 수 있는 단순한 개인 노트 앱입니다. 모든 플랫폼에서 E2EE를 지원하며, 테마 및 사용자 정의 가능한 편집기가 포함된 강력한 데스크톱 사용 경험을 제공합니다. Standard Notes는 [독립적인 감사](https://standardnotes.com/help/2/has-standard-notes-completed-a-third-party-security-audit)를 받았습니다.
+    
+    [:octicons-home-16: 홈페이지](https://standardnotes.com){ .md-button .md-button--primary }
+    [:octicons-eye-16:](https://standardnotes.com/privacy){ .card-link title="프라이버시 정책" }
+    [:octicons-info-16:](https://standardnotes.com/help){ .card-link title=문서}
+    [:octicons-code-16:](https://github.com/standardnotes){ .card-link title="소스 코드" }
+    [:octicons-heart-16:](https://standardnotes.com/donate){ .card-link title=기부 }
+    
+    ??? downloads "다운로드"
+    
+        - [:simple-googleplay: Google Play](https://play.google.com/store/apps/details?id=com.standardnotes)
+        - [:simple-appstore: App Store](https://apps.apple.com/app/id1285392450)
+        - [:simple-github: GitHub](https://github.com/standardnotes/app/releases)
+        - [:simple-windows11: Windows](https://standardnotes.com)
+        - [:simple-apple: macOS](https://standardnotes.com)
+        - [:simple-linux: Linux](https://standardnotes.com)
+        - [:octicons-globe-16: Web](https://app.standardnotes.com/)
+
+### Notesnook
+
+!!! recommendation
+
+    ![Notesnook logo](assets/img/notebooks/notesnook.svg){ align=right }
+    
+    **Notesnook** is a free (as in speech) & open-source note-taking app focused on user privacy & ease of use. It features end-to-end encryption on all platforms with a powerful sync to take your notes on the go. You can easily import your notes from Evernote, OneNote & a lot of other apps using their [official importer](https://importer.notesnook.com/).
+    
+    [:octicons-home-16: Homepage](https://notesnook.com/){ .md-button .md-button--primary }
+    [:octicons-eye-16:](https://notesnook.com/privacy){ .card-link title="Privacy Policy" }
+    [:octicons-info-16:](https://help.notesnook.com/){ .card-link title=Documentation}
+    [:octicons-code-16:](https://github.com/streetwriters/notesnook){ .card-link title="Source Code" }
+    [:octicons-heart-16:](https://github.com/streetwriters/notesnook/blob/master/CONTRIBUTING.md){ .card-link title=Contribute }
+    
+    ??? downloads
+    
+        - [:simple-googleplay: Google Play](https://play.google.com/store/apps/details?id=com.streetwriters.notesnook)
+        - [:simple-appstore: App Store](https://apps.apple.com/us/app/notesnook-take-private-notes/id1544027013)
+        - [:simple-github: GitHub](https://github.com/streetwriters/notesnook/releases)
+        - [:simple-windows11: Windows](https://notesnook.com/downloads)
+        - [:simple-apple: macOS](https://notesnook.com/downloads)
+        - [:simple-linux: Linux](https://notesnook.com/downloads)
+        - [:simple-firefoxbrowser: Firefox](https://notesnook.com/notesnook-web-clipper/)
+        - [:simple-googlechrome: Chrome](https://chrome.google.com/webstore/detail/notesnook-web-clipper/kljhpemdlcnjohmfmkogahelkcidieaj)
+
+Notesnook does not support password/PIN protection on the web & desktop apps. However, you can still lock individual notes, and your data is always encrypted in transit and on your device using your master key.
+
 ### Joplin
 
 !!! recommendation
@@ -37,30 +88,6 @@ cover: notebooks.png
         - [:simple-googlechrome: Chrome](https://chrome.google.com/webstore/detail/joplin-web-clipper/alofnhikmmkdbbbgpnglcpdollgjjfek)
 
 Joplin은 [개별 노트 및 노트북이나 애플리케이션 자체에](https://github.com/laurent22/joplin/issues/289)에 비밀번호/PIN 보호를 설정할 수 있는 기능을 지원하지 않습니다. 전송 과정 및 동기화 서버에서는 마스터 키로 여러분의 데이터가 암호화됩니다. Joplin은 2023년 1월부터 [Android](https://joplinapp.org/changelog_android/#android-v2-10-3-https-github-com-laurent22-joplin-releases-tag-android-v2-10-3-pre-release-2023-01-05t11-29-06z), [iOS](https://joplinapp.org/changelog_ios/#ios-v12-10-2-https-github-com-laurent22-joplin-releases-tag-ios-v12-10-2-2023-01-20t17-41-13z)에서 생체 인식 앱 잠금을 지원합니다.
-
-### Standard Notes
-
-!!! recommendation
-
-    ![Standard Notes 로고](assets/img/notebooks/standard-notes.svg){ align=right }
-    
-    **Standard Notes**는 어디서나 간편하게 노트를 작성하고 읽을 수 있는 단순한 개인 노트 앱입니다. 모든 플랫폼에서 E2EE를 지원하며, 테마 및 사용자 정의 가능한 편집기가 포함된 강력한 데스크톱 사용 경험을 제공합니다. Standard Notes는 [독립적인 감사](https://standardnotes.com/help/2/has-standard-notes-completed-a-third-party-security-audit)를 받았습니다.
-    
-    [:octicons-home-16: 홈페이지](https://standardnotes.com){ .md-button .md-button--primary }
-    [:octicons-eye-16:](https://standardnotes.com/privacy){ .card-link title="프라이버시 정책" }
-    [:octicons-info-16:](https://standardnotes.com/help){ .card-link title=문서}
-    [:octicons-code-16:](https://github.com/standardnotes){ .card-link title="소스 코드" }
-    [:octicons-heart-16:](https://standardnotes.com/donate){ .card-link title=기부 }
-    
-    ??? downloads "다운로드"
-    
-        - [:simple-googleplay: Google Play](https://play.google.com/store/apps/details?id=com.standardnotes)
-        - [:simple-appstore: App Store](https://apps.apple.com/app/id1285392450)
-        - [:simple-github: GitHub](https://github.com/standardnotes/app/releases)
-        - [:simple-windows11: Windows](https://standardnotes.com)
-        - [:simple-apple: macOS](https://standardnotes.com)
-        - [:simple-linux: Linux](https://standardnotes.com)
-        - [:octicons-globe-16: Web](https://app.standardnotes.com/)
 
 ### Cryptee
 

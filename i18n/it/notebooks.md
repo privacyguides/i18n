@@ -11,6 +11,57 @@ Se stai attualmente utilizzando un'applicazione come Evernote, Google Keep o Mic
 
 ## Basati sul Cloud
 
+### Standard Notes
+
+!!! recommendation
+
+    ![Logo Standard Notes](assets/img/notebooks/standard-notes.svg){ align=right }
+    
+    **Standard Notes** è un'applicazione per appunti semplice e privata che rende i tuoi appunti facili e disponibili ovunque tu sia. È dotato di E2EE su ogni piattaforma e di una potente esperienza desktop con temi ed editor personalizzati. È stato anche sottoposto ad un [audit indipendente](https://standardnotes.com/help/2/has-standard-notes-completed-a-third-party-security-audit).
+    
+    [:octicons-home-16: Pagina Principale](https://standardnotes.com){ .md-button .md-button--primary }
+    [:octicons-eye-16:](https://standardnotes.com/privacy){ .card-link title="Politica sulla privacy" }
+    [:octicons-info-16:](https://standardnotes.com/help){ .card-link title=Documentazione}
+    [:octicons-code-16:](https://github.com/standardnotes){ .card-link title="Codice sorgente" }
+    [:octicons-heart-16:](https://standardnotes.com/donate){ .card-link title=Contribuisci }
+    
+    ??? downloads "Scaricare"
+    
+        - [:simple-googleplay: Google Play](https://play.google.com/store/apps/details?id=com.standardnotes)
+        - [:simple-appstore: App Store](https://apps.apple.com/app/id1285392450)
+        - [:simple-github: GitHub](https://github.com/standardnotes/app/releases)
+        - [:simple-windows11: Windows](https://standardnotes.com)
+        - [:simple-apple: macOS](https://standardnotes.com)
+        - [:simple-linux: Linux](https://standardnotes.com)
+        - [:octicons-globe-16: Web](https://app.standardnotes.com/)
+
+### Notesnook
+
+!!! recommendation
+
+    ![Notesnook logo](assets/img/notebooks/notesnook.svg){ align=right }
+    
+    **Notesnook** è un'applicazione gratuita & open-source per prendere appunti incentrata sulla privacy dell'utente & facile da utilizzare. È dotata di crittografia end-to-end su tutte le piattaforme con una potente sincronizzazione per prendere appunti mentre sei in giro. Puoi importare facilmente le tue note da Evernote, OneNote & molte altre applicazioni utilizzando il loro [importatore ufficiale] (https://importer.notesnook.com/).
+    
+    [:octicons-home-16: Pagina principale](https://notesnook.com/){ .md-button .md-button--primary }
+    [:octicons-eye-16:](https://notesnook.com/privacy){ .card-link title="Politica sulla Privacy" }
+    [:octicons-info-16:](https://help.notesnook.com/){ .card-link title=Documentazione}
+    [:octicons-code-16:](https://github.com/streetwriters/notesnook){ .card-link title="Codice Sorgente" }
+    [:octicons-heart-16:](https://github.com/streetwriters/notesnook/blob/master/CONTRIBUTING.md){ .card-link title=Contribuisci }
+    
+    ??? downloads "Scarica"
+    
+        - [:simple-googleplay: Google Play](https://play.google.com/store/apps/details?id=net.cozic.joplin)
+        - [:simple-appstore: App Store](https://apps.apple.com/it/app/joplin/id1315599797)
+        - [:simple-github: GitHub](https://github.com/laurent22/joplin-android/releases)
+        - [:simple-windows11: Windows](https://joplinapp.org/#desktop-applications)
+        - [:simple-apple: macOS](https://joplinapp.org/#desktop-applications)
+        - [:simple-linux: Linux](https://joplinapp.org/#desktop-applications)
+        - [:simple-firefoxbrowser: Firefox](https://addons.mozilla.org/firefox/addon/joplin-web-clipper/)
+        - [:simple-googlechrome: Chrome](https://chrome.google.com/webstore/detail/joplin-web-clipper/alofnhikmmkdbbbgpnglcpdollgjjfek)
+
+Notesnook non supporta la protezione con password/PIN sulle app web & desktop. Tuttavia, puoi bloccare le singole note e i tuoi dati sono sempre crittografati in transito e sul tuo dispositivo utilizzando la tua chiave principale.
+
 ### Joplin
 
 !!! recommendation
@@ -38,30 +89,6 @@ Se stai attualmente utilizzando un'applicazione come Evernote, Google Keep o Mic
 
 Joplin non supporta la protezione con password/PIN per [l'applicazione stessa o per i singoli appunti e taccuini](https://github.com/laurent22/joplin/issues/289). Tuttavia, i dati vengono comunque crittografati durante il transito e nella posizione di sincronizzazione utilizzando la chiave master. Da Gennaio 2023, Joplin supporta il blocco biometrico dell'app per [Android](https://joplinapp.org/changelog_android/#android-v2-10-3-https-github-com-laurent22-joplin-releases-tag-android-v2-10-3-pre-release-2023-01-05t11-29-06z) e [iOS](https://joplinapp.org/changelog_ios/#ios-v12-10-2-https-github-com-laurent22-joplin-releases-tag-ios-v12-10-2-2023-01-20t17-41-13z).
 
-### Standard Notes
-
-!!! recommendation
-
-    ![Logo Standard Notes](assets/img/notebooks/standard-notes.svg){ align=right }
-    
-    **Standard Notes** è un'applicazione per appunti semplice e privata che rende i tuoi appunti facili e disponibili ovunque tu sia. È dotato di E2EE su ogni piattaforma e di una potente esperienza desktop con temi ed editor personalizzati. È stato anche sottoposto ad un [audit indipendente](https://standardnotes.com/help/2/has-standard-notes-completed-a-third-party-security-audit).
-    
-    [:octicons-home-16: Pagina Principale](https://standardnotes.com){ .md-button .md-button--primary }
-    [:octicons-eye-16:](https://standardnotes.com/privacy){ .card-link title="Politica sulla privacy" }
-    [:octicons-info-16:](https://standardnotes.com/help){ .card-link title=Documentazione}
-    [:octicons-code-16:](https://github.com/standardnotes){ .card-link title="Codice sorgente" }
-    [:octicons-heart-16:](https://standardnotes.com/donate){ .card-link title=Contribuisci }
-    
-    ??? downloads "Scaricare"
-    
-        - [:simple-googleplay: Google Play](https://play.google.com/store/apps/details?id=com.standardnotes)
-        - [:simple-appstore: App Store](https://apps.apple.com/app/id1285392450)
-        - [:simple-github: GitHub](https://github.com/standardnotes/app/releases)
-        - [:simple-windows11: Windows](https://standardnotes.com)
-        - [:simple-apple: macOS](https://standardnotes.com)
-        - [:simple-linux: Linux](https://standardnotes.com)
-        - [:octicons-globe-16: Web](https://app.standardnotes.com/)
-
 ### Cryptee
 
 !!! recommendation
@@ -86,7 +113,7 @@ Cryptee offre 100 MB di spazio di archiviazione gratuito, con opzioni a pagament
 
 ### Org-mode
 
-!!! recommendation
+!!! raccomandazione
 
     ![Logo Org-mode](assets/img/notebooks/org-mode.svg){ align=right }
     

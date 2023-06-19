@@ -236,7 +236,7 @@ As opções de proteção podem ser revogadas por cada site, de acordo com as ne
 - [x] Selecione **Agressivo** em Rastreadores e bloqueio de anúncios
 
 ??? aviso "Use listas de filtro padrão"
-        O Brave permite-lhe selecionar filtros de conteúdo adicional na página interna `brave://adblock`. Aconselhamos a não utilizar esta funcionalidade; em vez disso, mantenha as listas de filtros predefinidas. A utilização de listas extra fará com que se destaque dos outros utilizadores do Brave e pode também aumentar a superfície de ataque se houver uma exploração no Brave e uma regra maliciosa for adicionada a uma das listas que utiliza.
+        O Brave permite-lhe selecionar filtros de conteúdo adicional na página interna `brave://adblock`. Aconselhamos a não utilizar esta funcionalidade; em vez disso, mantenha as listas de filtros predefinidas. A utilização de listas extra fará com que se destaque dos outros utilizadores do Brave e pode também aumentar a superfície de ataque se houver uma vulnerabilidade no Brave e uma regra maliciosa for adicionada a uma das listas que utiliza.
 
 - [x] (Opcional) Selecionar **Bloquear scripts** (1)
 - [x] na opção Bloquear impressão digital, selecionar **Estrito, pode causar problemas nos sites**
@@ -296,7 +296,7 @@ Defina **Default Ethereum wallet** para **Extensions (no fallback)** Defina **De
 
 #### Sincronizar
 
-[Brave Sync](https://support.brave.com/hc/en-us/articles/360059793111-Understanding-Brave-Sync) allows your browsing data (history, bookmarks, etc.) to be accessible on all your devices without requiring an account and protects it with E2EE.
+[A Sincronização do Brave](https://support.brave.com/hc/en-us/articles/360059793111-Understanding-Brave-Sync) permite que os seus dados de navegação (histórico, marcadores, etc.) estejam acessíveis em todos os seus dispositivos, sem necessidade de uma conta, e protege-os com E2EE.
 
 #### Brave Rewards and Wallet
 

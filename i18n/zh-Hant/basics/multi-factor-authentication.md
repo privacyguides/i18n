@@ -120,7 +120,7 @@ WebAuthn是最安全、最私密的第二要素驗證形式。 雖然驗證體�
 
 除了保護您的網站登錄外，多因素身份驗證還可用於保護您的本地設備的登錄、 SSH 密鑰甚至密碼資料庫。
 
-### Windows
+### Windows 作業系統
 
 Yubico 有專門的 [憑證提供者](https://docs.microsoft.com/en-us/windows/win32/secauthn/credential-providers-in-windows) ，為本地 Windows 帳戶在登錄流程添加了Challenge-Response 驗證。 如果您擁有具 Challenge-Response 驗證支援的 YubiKey ，請查看 [Yubico Login for Windows Configuration Guide](https://support.yubico.com/hc/en-us/articles/360013708460-Yubico-Login-for-Windows-Configuration-Guide)，該指南將協助您在 Windows 電腦上設置MFA。
 

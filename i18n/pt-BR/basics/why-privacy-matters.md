@@ -19,16 +19,18 @@ Muitas pessoas confundem os conceitos de **privacidade**, **segurança**, e **an
 **Segurança**
 :
 
-Segurança é a capacidade de confiar nos aplicativos que você usa — que as partes envolvidas são quem dizem ser — e manter esses aplicativos seguros. No contexto da navegação na Internet, por exemplo, a segurança pode ser fornecida por certificados HTTPS.
+Security is the ability to trust the applications you use—that the parties involved are who they say they are—and keep those applications safe. In the context of browsing the web, for example, security can be provided by HTTPS certificates.
+:
 
-    Os certificados comprovam que você está falando diretamente com o site que está visitando e impedem que invasores na sua rede leiam ou modifiquem os dados enviados para o site ou a partir dele.
+Certificates prove you are talking directly to the website you're visiting, and keep attackers on your network from reading or modifying the data sent to or from the website.
 
 **Anonimato**
 :
 
-Anonimato é a capacidade de agir sem um identificador persistente. Você pode fazer isso on-line com o [Tor](../tor.md), que permite navegar na Internet com um endereço IP e uma conexão de rede aleatória, no lugar da sua própria.
+Anonymity is the ability to act without a persistent identifier. You might achieve this online with [Tor](../tor.md), which allows you to browse the internet with a random IP address and network connection instead of your own.
+:
 
-    **Pseudonimato** é um conceito semelhante, mas permite que você tenha um identificador persistente sem que ele esteja vinculado à sua identidade real. Se todos conhecem você online como `@JogadorRapaz12`, mas ninguém sabe o seu nome verdadeiro, esse é o seu pseudônimo.
+**Pseudonymity** is a similar concept, but it allows you to have a persistent identifier without it being tied to your real identity. If everybody knows you as `@GamerGuy12` online, but nobody knows your real name, that is your pseudonym.
 
 Todos esses conceitos se sobrepõem, mas é possível ter qualquer combinação deles. O ponto ideal para a maioria das pessoas é quando todos esses três conceitos se coincidem. Porém, isso é mais difícil de conseguir do que muitos acreditam inicialmente. Às vezes, você precisa fazer um meio-termo em relação a alguns desses itens, e isso também é normal. É nesse ponto que a **modelagem de ameaças** entra em ação, permitindo que você tome decisões informadas sobre os [aplicativos e serviços](../tools.md) que você usa.
 

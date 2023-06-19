@@ -19,16 +19,18 @@ Veel mensen halen de begrippen **privacy**, **veiligheid**, en **anonimiteit** d
 **Veiligheid**
 :
 
-Veiligheid is het vermogen om de applicaties die je gebruikt te vertrouwen, dat de betrokken partijen zijn wie ze zeggen te zijn, en deze applicaties veilig te houden. In de context van het browsen op het web kan de beveiliging bijvoorbeeld worden verstrekt door HTTPS-certificaten.
+Security is the ability to trust the applications you use—that the parties involved are who they say they are—and keep those applications safe. In the context of browsing the web, for example, security can be provided by HTTPS certificates.
+:
 
-    Certificaten bewijzen dat je rechtstreeks praat met de website die je bezoekt, en voorkomt dat aanvallers op jouw netwerk de gegevens kunnen lezen of wijzigen die van of naar de website worden gestuurd.
+Certificates prove you are talking directly to the website you're visiting, and keep attackers on your network from reading or modifying the data sent to or from the website.
 
 **Anonimiteit**
 :
 
-Anonimiteit is de mogelijkheid om te handelen zonder blijvende identificatie. Je kunt dit online bereiken met [Tor](../tor.md), waarmee je op het internet kunt surfen met een willekeurig IP-adres en netwerkverbinding in plaats van jouw eigen.
+Anonymity is the ability to act without a persistent identifier. You might achieve this online with [Tor](../tor.md), which allows you to browse the internet with a random IP address and network connection instead of your own.
+:
 
-    **Pseudonimiteit** is een vergelijkbaar concept, maar maakt het mogelijk een persistente identificatiecode te hebben zonder dat die aan je echte identiteit is gekoppeld. Als iedereen je online kent als `@GamerGuy12` , maar niemand je echte naam kent, is dat je pseudoniem.
+**Pseudonymity** is a similar concept, but it allows you to have a persistent identifier without it being tied to your real identity. If everybody knows you as `@GamerGuy12` online, but nobody knows your real name, that is your pseudonym.
 
 Al deze begrippen overlappen elkaar, maar het is mogelijk om er een combinatie van te maken. De beste plek voor de meeste mensen is wanneer deze drie concepten elkaar overlappen. Het is echter lastiger te bereiken dan velen aanvankelijk denken. Soms moet je compromissen sluiten op sommige daarvan, en dat is ook oké. Dit is waar **dreigingsmodellering** wordt gebruikt, zodat je weloverwogen beslissingen kunt nemen over de [software en diensten](../tools.md) die je gebruikt.
 

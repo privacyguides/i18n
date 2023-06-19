@@ -45,7 +45,7 @@ cover: vpn.png
     [:octicons-info-16:](https://www.ivpn.net/knowledgebase/general/){ .card-link title=Документация}
     [:octicons-code-16:](https://github.com/ivpn){ .card-link title="Исходный код" }
     
-    ??? downloads "скачать"
+    ??? downloads "Скачать"
     
         - [:simple-googleplay: Google Play](https://play.google.com/store/apps/details?id=net.ivpn.client)
         - [:octicons-moon-16: Accrescent](https://accrescent.app/app/net.ivpn.client)
@@ -107,7 +107,7 @@ IVPN [рекомендует](https://www.ivpn.net/wireguard/) использо�
     [:octicons-info-16:](https://mullvad.net/en/help/){ .card-link title=Документация}
     [:octicons-code-16:](https://github.com/mullvad){ .card-link title="Исходный код" }
     
-    ??? downloads "скачать"
+    ??? downloads "Скачать"
     
         - [:simple-googleplay: Google Play](https://play.google.com/store/apps/details?id=net.mullvad.mullvadvpn)
         - [:simple-appstore: App Store](https://apps.apple.com/app/mullvad-vpn/id1488466513)
@@ -180,13 +180,13 @@ Mullvad очень прозрачен в отношении того, каким
     [:octicons-info-16:](https://protonvpn.com/support/){ .card-link title=Документация}
     [:octicons-code-16:](https://github.com/ProtonVPN){ .card-link title="Исходный код" }
     
-    ??? downloads "скачать"
+    ??? downloads "Скачать"
     
         - [:simple-googleplay: Google Play](https://play.google.com/store/apps/details?id=ch.protonvpn.android)
         - [:simple-appstore: App Store](https://apps.apple.com/app/apple-store/id1437005085)
         - [:simple-github: GitHub](https://github.com/ProtonVPN/android-app/releases)
         - [:simple-windows11: Windows](https://protonvpn.com/download-windows)
-        - [:simple-linux: Linux](https://protonvpn.com/support/linux-vpn-setup/)
+        - [:simple-linux: Linux](https://protonvpn.com/support/linux-vpn-setup/)downloads "Скачать"
 
 #### :material-check:{ .pg-green } 67 стран
 
@@ -233,7 +233,7 @@ Proton VPN [рекомендует](https://protonvpn.com/blog/wireguard/) ис�
 
 ## Критерии
 
-!!! danger "осторожно"
+!!! danger "Опасность"
 
     Важно отметить, что использование VPN не сделает вас анонимным, но в определенных ситуациях это обеспечит вам лучшую конфиденциальность. VPN не является инструментом для незаконной деятельности. Не полагайтесь на политику "отсутствия логов".
 

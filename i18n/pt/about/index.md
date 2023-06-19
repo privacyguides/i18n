@@ -1,6 +1,6 @@
 ---
-title: "About Privacy Guides"
-description: Privacy Guides is a socially motivated website that provides information for protecting your data security and privacy.
+title: "Acerca do Privacy Guides"
+description: O Privacy Guides é um site de motivação social que fornece informações com vista à segurança e privacidade dos seus dados.
 schema:
   "@context": https://schema.org
   "@type": Organization
@@ -19,23 +19,23 @@ schema:
 
 ![Privacy Guides logo](../assets/brand/PNG/Square/pg-yellow.png){ align=right }
 
-**Privacy Guides** is a socially motivated website that provides [information](/kb) for protecting your data security and privacy. Our mission is to inform the public about the value of digital privacy, and global government initiatives which aim to monitor your online activity. We are a non-profit collective operated entirely by volunteer [team members](https://discuss.privacyguides.net/g/team) and contributors. Our website is free of advertisements and not affiliated with any of the listed providers.
+**Privacy Guides** is a socially motivated website that provides [information](/kb) for protecting your data security and privacy. A nossa missão é informar o público sobre o valor da privacidade digital e as iniciativas governamentais globais que têm como objetivo monitorizar a sua atividade online. Somos um coletivo sem fins lucrativos, gerido inteiramente por uma [equipa de voluntários](https://discuss.privacyguides.net/g/team) e colaboradores. O nosso site não tem publicidade e não é afiliado a nenhum dos fornecedores listados.
 
 [:octicons-home-16:](https://www.privacyguides.org/){ .card-link title=Homepage }
-[:octicons-code-16:](https://github.com/privacyguides/privacyguides.org){ .card-link title="Source Code" }
-[:octicons-heart-16:](donate.md){ .card-link title=Contribute }
+[:octicons-code-16:](https://github.com/privacyguides/privacyguides.org){ .card-link title="Código-fonte" }
+[:octicons-heart-16:](donate.md){ .card-link title=Contribuir }
 
-> To find [privacy-focused alternative] apps, check out sites like Good Reports and **Privacy Guides**, which list privacy-focused apps in a variety of categories, notably including email providers (usually on paid plans) that aren’t run by the big tech companies.
+> Para encontrar aplicações [alternativas centradas na privacidade], consulte sites como Good Reports e **Privacy Guides**, que listam aplicações centradas na privacidade numa variedade de categorias, nomeadamente fornecedores de e-mail (normalmente em planos pagos) que não são geridos pelas grandes empresas tecnológicas.
 
-— [New York Times](https://www.nytimes.com/wirecutter/guides/online-security-social-media-privacy/)
+- [New York Times](https://www.nytimes.com/wirecutter/guides/online-security-social-media-privacy/)
 
-> If you're looking for a new VPN, you can go to the discount code of just about any podcast. If you are looking for a **good** VPN, you need professional help. The same goes for email clients, browsers, operating systems and password managers. How do you know which of these is the best, most privacy-friendly option? For that there is **Privacy Guides**, a platform on which a number of volunteers search day in, day out for the best privacy-friendly tools to use on the internet.
+> Se está à procura de uma nova VPN, pode beneficiar do código de desconto de praticamente qualquer podcast. Se está à procura de uma **boa** VPN, precisa de ajuda profissional. O mesmo se aplica aos clientes de e-mail, browsers, sistemas operativos e gestores de palavras-passe. Como saber qual é a melhor opção no que diz respeito à privacidade? Para isso, existe o **Privacy Guides**, uma plataforma com vários voluntários que pesquisam diariamente as melhores ferramentas de proteção da privacidade para utilizar na Internet.
 
-— [Tweakers.net](https://tweakers.net/reviews/10568/op-zoek-naar-privacyvriendelijke-tools-niek-de-wilde-van-privacy-guides.html) [Translated from Dutch]
+- [Tweakers.net](https://tweakers.net/reviews/10568/op-zoek-naar-privacyvriendelijke-tools-niek-de-wilde-van-privacy-guides.html) [Traduzido do holandês]
 
-Also featured on: [Ars Technica](https://arstechnica.com/gadgets/2022/02/is-firefox-ok/), [Wirecutter](https://www.nytimes.com/wirecutter/guides/practical-guide-to-securing-windows-pc/) [[2](https://www.nytimes.com/wirecutter/guides/practical-guide-to-securing-your-mac/)], [NPO Radio 1](https://www.nporadio1.nl/nieuws/binnenland/8eaff3a2-8b29-4f63-9b74-36d2b28b1fe1/ooit-online-eens-wat-doms-geplaatst-ga-jezelf-eens-googlen-en-kijk-dan-wat-je-tegenkomt), and [Wired](https://www.wired.com/story/firefox-mozilla-2022/).
+Também destacado em: [Ars Technica](https://arstechnica.com/gadgets/2022/02/is-firefox-ok/), [Wirecutter](https://www.nytimes.com/wirecutter/guides/practical-guide-to-securing-windows-pc/) [[2](https://www.nytimes.com/wirecutter/guides/practical-guide-to-securing-your-mac/)], [NPO Radio 1](https://www.nporadio1.nl/nieuws/binnenland/8eaff3a2-8b29-4f63-9b74-36d2b28b1fe1/ooit-online-eens-wat-doms-geplaatst-ga-jezelf-eens-googlen-en-kijk-dan-wat-je-tegenkomt), e [Wired](https://www.wired.com/story/firefox-mozilla-2022/).
 
-## History
+## História
 
 Privacy Guides was launched in September 2021 as a continuation of the [defunct](privacytools.md) "PrivacyTools" open-source educational project. We recognized the importance of independent, criteria-focused product recommendations and general knowledge in the privacy space, which is why we needed to preserve the work that had been created by so many contributors since 2015 and make sure that information had a stable home on the web indefinitely.
 

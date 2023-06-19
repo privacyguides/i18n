@@ -1,14 +1,14 @@
 ---
-meta_title: "The Best Password Managers to Protect Your Privacy and Security - Privacy Guides"
+meta_title: "Лучшие менеджеры паролей для защиты вашей конфиденциальности и безопасности - Privacy Guides"
 title: "Менеджеры паролей"
 icon: material/form-textbox-password
-description: Password managers allow you to securely store and manage passwords and other credentials.
+description: Менеджеры паролей позволяют безопасно хранить и управлять паролями и другими учетными данными.
 cover: passwords.png
 schema:
   - 
     "@context": http://schema.org
     "@type": WebPage
-    name: Password Manager Recommendations
+    name: Рекомендации менеджера паролей
     url: "./"
   - 
     "@context": http://schema.org
@@ -17,7 +17,7 @@ schema:
     image: /assets/img/password-management/bitwarden.svg
     url: https://bitwarden.com
     sameAs: https://en.wikipedia.org/wiki/Bitwarden
-    applicationCategory: Password Manager
+    applicationCategory: Менеджер паролей
     operatingSystem:
       - Windows
       - macOS
@@ -35,7 +35,7 @@ schema:
     image: /assets/img/password-management/1password.svg
     url: https://1password.com
     sameAs: https://en.wikipedia.org/wiki/1Password
-    applicationCategory: Password Manager
+    applicationCategory: Менеджер паролей
     operatingSystem:
       - Windows
       - macOS

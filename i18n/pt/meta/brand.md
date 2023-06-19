@@ -1,8 +1,8 @@
 ---
-title: Branding Guidelines
+title: Diretrizes de Marca
 ---
 
-The name of the website is **Privacy Guides** and should **not** be changed to:
+O nome do site é **Privacy Guides** e **e não** deve ser alterado para:
 
 <div class="pg-red" markdown>
 - PrivacyGuides
@@ -11,12 +11,12 @@ The name of the website is **Privacy Guides** and should **not** be changed to:
 - PG.org
 </div>
 
-The name of the subreddit is **r/PrivacyGuides** or **the Privacy Guides Subreddit**.
+O nome do subreddit é **r/PrivacyGuides** ou **the Privacy Guides Subreddit**.
 
-Additional branding guidelines can be found at [github.com/privacyguides/brand](https://github.com/privacyguides/brand)
+Podem ser encontradas diretrizes de marca adicionais em [github.com/privacyguides/brand](https://github.com/privacyguides/brand)
 
-## Trademark
+## Marca registada
 
-"Privacy Guides" and the shield logo are trademarks owned by Jonah Aragon, unlimited usage is granted to the Privacy Guides project.
+"Privacy Guides" e o logótipo do escudo são marcas registadas, propriedade de Jonah Aragon, sendo concedida ao projeto Privacy Guides a sua utilização ilimitada.
 
-Without waiving any of its rights, Privacy Guides does not advise others on the scope of its intellectual property rights. Privacy Guides does not permit or consent to any use of its trademarks in any manner that is likely to cause confusion by implying association with or sponsorship by Privacy Guides. If you are aware of any such use, please contact Jonah Aragon at jonah@privacyguides.org. Consult your legal counsel if you have questions.
+Sem renunciar a nenhum dos seus direitos, o Privacy Guides não aconselha terceiros sobre o âmbito dos seus direitos de propriedade intelectual. O Privacy Guides não permite nem consente utilizações das suas marcas registadas que possam causar confusão ao implicar a associação do Privacy Guides com algum patrocínio. Se tiver conhecimento de uma utilização deste tipo, contacte Jonah Aragon através do endereço jonah@privacyguides.org. Consulte o seu advogado se tiver dúvidas.

@@ -55,7 +55,7 @@ Tor работает, направляя твой трафик через эти
     [:octicons-code-16:](https://gitweb.torproject.org/tor-browser.git/){ .card-link title="Исходный код" }
     [:octicons-heart-16:](https://donate.torproject.org/){ .card-link title=Пожертвовать }
     
-    ??? downloads "скачать"
+    ??? downloads "Скачать"
     
         - [:simple-googleplay: Google Play](https://play.google.com/store/apps/details?id=org.torproject.torbrowser)
         - [:simple-android: Android](https://www.torproject.org/download/#android)
@@ -63,7 +63,7 @@ Tor работает, направляя твой трафик через эти
         - [:simple-apple: macOS](https://www.torproject.org/download/)
         - [:simple-linux: Linux](https://www.torproject.org/download/)
 
-!!! danger "осторожно"
+!!! danger "Опасность"
 
     Тебе **никогда** не следует устанавливать дополнительные расширения для Tor Browser или редактировать настройки `about:config`, включая те, которые мы предлагаем для Firefox. Расширения браузера и нестандартные настройки выделяют тебя среди других пользователей сети Tor, тем самым делая уникальным твой [отпечаток браузера](https://support.torproject.org/ru/glossary/browser-fingerprinting/).
 
@@ -83,7 +83,7 @@ Tor работает, направляя твой трафик через эти
     [:octicons-code-16:](https://orbot.app/code){ .card-link title="Исходный код" }
     [:octicons-heart-16:](https://orbot.app/donate){ .card-link title=Пожертвовать }
     
-    ??? downloads "скачать"
+    ??? downloads "Скачать"
     
         - [:simple-googleplay: Google Play](https://play.google.com/store/apps/details?id=org.torproject.android)
         - [:simple-appstore: App Store](https://apps.apple.com/us/app/orbot/id1609461599)

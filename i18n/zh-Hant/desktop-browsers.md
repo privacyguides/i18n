@@ -19,7 +19,7 @@ schema:
     url: https://mullvad.net/zh-hant/browser
     applicationCategory: Web Browser
     operatingSystem:
-      - Windows
+      - Windows 作業系統
       - macOS
       - Linux
     subjectOf:
@@ -34,7 +34,7 @@ schema:
     sameAs: https://zh.wikipedia.org/wiki/Firefox
     applicationCategory: Web Browser
     operatingSystem:
-      - Windows
+      - Windows 作業系統
       - macOS
       - Linux
     subjectOf:
@@ -49,7 +49,7 @@ schema:
     sameAs: https://zh.wikipedia.org/wiki/Brave%E6%B5%8F%E8%A7%88%E5%99%A8
     applicationCategory: Web Browser
     operatingSystem:
-      - Windows
+      - Windows 作業系統
       - macOS
       - Linux
     subjectOf:

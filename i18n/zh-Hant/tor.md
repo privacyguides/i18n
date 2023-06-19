@@ -14,7 +14,7 @@ schema:
     sameAs: https://en.wikipedia.org/wiki/Tor_(network)
     applicationCategory: 網頁瀏覽器
     operatingSystem:
-      - Windows
+      - Windows 作業系統
       - macOS
       - Linux
       - Android
@@ -41,7 +41,7 @@ Tor 的工作原理是通過志願者運營的服務器來引導您的網際網�
 
 有多種方式可以從您的設備連上  Tor 網絡，最常用的是 ** Tor 瀏覽器**，這是 Firefox 的一個分支，專為桌面電腦和 Android 的匿名瀏覽而設計。 除了下面列出的應用程序外，還有專門設計用於連接到 Tor 網絡的操作系統，例如 [Qubes OS 作業系統](desktop.md#qubes-os) [Whonix](desktop.md#whonix)，它們提供比標準 Tor 瀏覽器更高的安全性和保護。
 
-### Tor Browser
+### Tor 瀏覽器
 
 !!! recommendation
 

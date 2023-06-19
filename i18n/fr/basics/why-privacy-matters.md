@@ -19,16 +19,18 @@ De nombreuses personnes confondent les concepts de **vie privée**, **sécurité
 **Sécurité**
 :
 
-La sécurité est la capacité à faire confiance aux applications que vous utilisez, à savoir que les parties impliquées sont bien celles qu'elles prétendent être, et à garder ces applications sécurisés. Dans le contexte de la navigation sur le web, par exemple, la sécurité peut être assurée par des certificats HTTPS.
+Security is the ability to trust the applications you use—that the parties involved are who they say they are—and keep those applications safe. In the context of browsing the web, for example, security can be provided by HTTPS certificates.
+:
 
-    Les certificats prouvent que vous communiquez directement avec le site web que vous visitez et empêchent les attaquants sur votre réseau de lire ou de modifier les données envoyées vers ou depuis le site web.
+Certificates prove you are talking directly to the website you're visiting, and keep attackers on your network from reading or modifying the data sent to or from the website.
 
 **Anonymat**
 :
 
-L'anonymat est la capacité d'agir sans identifiant permanent. Vous pouvez y parvenir en ligne avec [Tor](../tor.md), qui vous permet de naviguer sur internet avec une adresse IP et une connexion réseau aléatoires au lieu de la vôtre.
+Anonymity is the ability to act without a persistent identifier. You might achieve this online with [Tor](../tor.md), which allows you to browse the internet with a random IP address and network connection instead of your own.
+:
 
-    Le **pseudonymat** est un concept similaire, mais il vous permet d'avoir un identifiant persistant sans qu'il soit lié à votre identité réelle. Si tout le monde vous connaît sous le nom de `@KevinDu59` en ligne, mais que personne ne connaît votre vrai nom, c'est votre pseudonyme.
+**Pseudonymity** is a similar concept, but it allows you to have a persistent identifier without it being tied to your real identity. If everybody knows you as `@GamerGuy12` online, but nobody knows your real name, that is your pseudonym.
 
 Tous ces concepts se chevauchent, mais il est possible de les combiner. Pour la plupart des gens, l'idéal est que ces trois concepts se chevauchent. Cependant, il est plus difficile d'y parvenir que beaucoup ne le croient au premier abord. Parfois, il faut faire des compromis sur certains points, et c'est très bien ainsi. C'est là que la **modélisation des menaces** entre en jeu, vous permettant de prendre des décisions éclairées sur [les logiciels et les services](../tools.md) que vous utilisez.
 

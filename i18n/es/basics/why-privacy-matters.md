@@ -19,16 +19,18 @@ Mucha gente confunde los conceptos de **privacidad**, **seguridad**, y **anonima
 **Seguridad**
 :
 
-La seguridad es la capacidad de confiar en las aplicaciones que se utilizan -que las partes implicadas son quienes dicen ser- y mantenerlas seguras. En el contexto de la navegación por Internet, por ejemplo, la seguridad puede ser proporcionada por certificados HTTPS.
+Security is the ability to trust the applications you use—that the parties involved are who they say they are—and keep those applications safe. In the context of browsing the web, for example, security can be provided by HTTPS certificates.
+:
 
-    Los certificados demuestran que está hablando directamente con el sitio web que visitas y evitan que los atacantes de su red lean o modifiquen los datos enviados al sitio web o desde él.
+Certificates prove you are talking directly to the website you're visiting, and keep attackers on your network from reading or modifying the data sent to or from the website.
 
 **Anonimato**
 :
 
-El anonimato es la capacidad de actuar sin un identificador persistente. Puedes conseguirlo en línea con [Tor](../tor.md), que te permite navegar por Internet con una dirección IP y una conexión de red aleatorias en lugar de las tuyas propias.
+Anonymity is the ability to act without a persistent identifier. You might achieve this online with [Tor](../tor.md), which allows you to browse the internet with a random IP address and network connection instead of your own.
+:
 
-    El **pseudonimato** es un concepto similar, pero te permite tener un identificador persistente sin que esté vinculado a tu identidad real. Si todo el mundo te conoce como `@GamerGuy12` online, pero nadie conoce tu nombre real, ese es tu seudónimo.
+**Pseudonymity** is a similar concept, but it allows you to have a persistent identifier without it being tied to your real identity. If everybody knows you as `@GamerGuy12` online, but nobody knows your real name, that is your pseudonym.
 
 Todos estos conceptos se solapan, pero es posible tener cualquier combinación de ellos. Para la mayoría de la gente, el punto óptimo es cuando estos tres conceptos se solapan. Sin embargo, es más difícil de conseguir de lo que muchos creen en un principio. A veces hay que hacer concesiones en algunos aspectos, y eso también está bien. Aquí es donde entra en juego el **modelado de amenazas**, que te permite tomar buenas decisiones sobre [el software y los servicios](../tools.md) que utilizas.
 
