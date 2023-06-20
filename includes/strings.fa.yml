@@ -27,10 +27,10 @@ config:
     light: Switch to light mode
     system: Switch to system theme
 nav:
-  Home: Home
-  Knowledge Base: Knowledge Base
+  Home: خانه
+  Knowledge Base: پایگاه دانش
   Technology Essentials: Technology Essentials
-  Operating Systems: Operating Systems
+  Operating Systems: سیستم عامل
   Advanced Topics: Advanced Topics
   Recommendations: Recommendations
   Internet Browsing: Internet Browsing

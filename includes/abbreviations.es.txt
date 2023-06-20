@@ -52,8 +52,8 @@
 *[MEID]: Identificador de Equipo Móvil
 *[MFA]: Autenticación de Múltiples Factores
 *[NVMe]: Memoria No Volátil Express
-*[NAT]: Network address translation
-*[NAT-PMP]: NAT Port Mapping Protocol
+*[NAT]: Traducción de direcciones de red
+*[NAT-PMP]: NAT Protocolo de Asignación de Puertos
 *[NTP]: Protocolo de Tiempo de Red
 *[OCI]: Iniciativa de Contenedor Abierto
 *[OCSP]: Protocolo del Estado del Certificado de Línea

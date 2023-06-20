@@ -1,5 +1,5 @@
 ---
-title: "Partilha de ficheiros"
+title: "Clientes de e-mail"
 icon: material/email-open
 description: These email clients are privacy-respecting and support OpenPGP email encryption.
 cover: email-clients.png

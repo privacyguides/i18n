@@ -1,40 +1,40 @@
 ---
-title: General Criteria
+title: Critérios gerais
 ---
 
-!!! example "Work in Progress"
+!!! exemplo "Trabalho em curso"
 
-    The following page is a work in progress, and does not reflect the full criteria for our recommendations at this time. Past discussion on this topic: [#24](https://github.com/privacyguides/privacyguides.org/discussions/24)
+    A página seguinte é um trabalho em curso e não reflete, neste momento, todos os critérios das nossas recomendações. Discussão anterior sobre este tópico: [#24](https://github.com/privacyguides/privacyguides.org/discussions/24)
 
-Below are some things that must apply to all submissions to Privacy Guides. Each category will have additional requirements for inclusion.
+Seguem-se alguns aspetos que devem ser aplicados a todas as contribuições para o Privacy Guides. Cada uma das categorias tem requisitos adicionais para ser incluída.
 
-## Financial Disclosure
+## Divulgação financeira
 
-We do not make money from recommending certain products, we do not use affiliate links, and we do not provide special consideration to project donors.
+Não ganhamos dinheiro com a recomendação de determinados produtos, não utilizamos ligações de afiliados e não damos tratamento preferencial aos doadores do projeto.
 
-## General Guidelines
+## Orientações gerais
 
-We apply these priorities when considering new recommendations:
+Aos considerarmos novas recomendações, aplicamos as seguintes prioridades:
 
-- **Secure**: Tools should follow security best-practices wherever applicable.
-- **Source Availability**: Open source projects are generally preferred over equivalent proprietary alternatives.
-- **Cross-Platform**: We typically prefer recommendations to be cross-platform, to avoid vendor lock-in.
-- **Active Development**: The tools that we recommend should be actively developed, unmaintained projects will be removed in most cases.
-- **Usability**: Tools should be accessible to most computer users, an overly technical background should not be required.
-- **Documented**: Tools should have clear and extensive documentation for use.
+- **Segurança**: as ferramentas devem seguir as melhores práticas de segurança, sempre que aplicável.
+- **Disponibilidade da fonte**: os projetos de fonte aberta são geralmente preferidos às alternativas proprietárias equivalentes.
+- **Multiplataforma**: normalmente, preferimos que as recomendações sejam multiplataforma, para evitar a dependência do fornecedor.
+- **Desenvolvimento ativo**: as ferramentas que recomendamos devem ser desenvolvidas ativamente. Os projetos que não tenham uma manutenção regular serão removidos, na maioria dos casos.
+- **Usabilidade**: as ferramentas devem ser acessíveis à maioria dos utilizadores de computadores, não devendo ser necessária uma formação ou conhecimento demasiado técnicos.
+- **Documentado**: as ferramentas devem ter a sua utilização documentada de forma clara e extensa.
 
-## Developer Self-Submissions
+## Auto-submissões do desenvolvedor
 
-We have these requirements in regard to developers which wish to submit their project or software for consideration.
+Os programadores que pretendam submeter o seu projeto ou software para apreciação devem observar os seguintes requisitos.
 
-- Must disclose affiliation, i.e. your position within the project being submitted.
+- Devem indicar a sua afiliação, ou seja, a sua posição no âmbito do projeto apresentado.
 
-- Must have a security whitepaper if it is a project that involves handling of sensitive information like a messenger, password manager, encrypted cloud storage, etc.
-    - Third party audit status. We want to know if you have one, or have one planned. If possible please mention who will be conducting the audit.
+- Devem ter um documento técnico de segurança, se se tratar de um projeto que envolva o tratamento de informações sensíveis, como um serviço de mensagens, um gestor de palavras-passe, um armazenamento encriptado na nuvem, etc.
+    - Estatuto de auditoria de terceiros. Queremos saber se solicitam auditorias ou se estão a planear solicitá-las. Sempre que possível, devem mencionar quem efetuará a(s) auditoria(s).
 
-- Must explain what the project brings to the table in regard to privacy.
-    - Does it solve any new problem?
-    - Why should anyone use it over the alternatives?
+- Devem explicar qual a mais-valia que o projeto traz às questões relacionadas com a privacidade.
+    - Resolve algum problema novo?
+    - Porque é que alguém deveria optar pelo projeto em vez das alternativas já existentes?
 
-- Must state what the exact threat model is with their project.
-    - It should be clear to potential users what the project can provide, and what it cannot.
+- Devem indicar de forma precisa qual o modelo de ameaça do seu projeto.
+    - Deve ser claro para os potenciais utilizadores aquilo que o projeto pode fornecer e o que não pode.

@@ -1,5 +1,5 @@
 ---
-title: "Clientes de e-mail"
+title: "Sincronização do calendário"
 icon: material/calendar
 description: Calendars contain some of your most sensitive data; use products that implement encryption at rest.
 cover: calendar.png

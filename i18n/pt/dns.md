@@ -57,7 +57,7 @@ Apple does not provide a native interface for creating encrypted DNS profiles. I
     
     **DNSCloak** é um cliente iOS de código aberto que suporta [DNS-over-HTTPS](/dns/#dns-over-https-doh), [DNSCrypt](/dns/#dnscrypt), e [dnscrypt-proxy](https://github.com/DNSCrypt/dnscrypt-proxy/wiki) opções como respostas DNS em cache, consultas DNS de registo local, e listas de blocos personalizadas. Os usuários podem [adicionar resolvedores personalizados por carimbo DNS](https://medium.com/privacyguides/adding-custom-dns-over-https-resolvers-to-dnscloak-20ff5845f4b5).
 
-## Encrypted DNS Proxies
+## Proxies DNS encriptados
 
 Encrypted DNS proxy software provides a local proxy for the [unencrypted DNS](advanced/dns-overview.md#unencrypted-dns) resolver to forward to. Typically it is used on platforms that don't natively support [encrypted DNS](advanced/dns-overview.md#what-is-encrypted-dns).
 
@@ -100,7 +100,7 @@ Encrypted DNS proxy software provides a local proxy for the [unencrypted DNS](ad
         - [:simple-apple: macOS](https://github.com/DNSCrypt/dnscrypt-proxy/wiki/Installation-macOS)
         - [:simple-linux: Linux](https://github.com/DNSCrypt/dnscrypt-proxy/wiki/Installation-linux)
 
-## Self-hosted Solutions
+## Soluções auto-hospedadas
 
 A self-hosted DNS solution is useful for providing filtering on controlled platforms, such as Smart TVs and other IoT devices, as no client-side software is needed.
 

@@ -19,20 +19,20 @@ Many people get the concepts of **privacy**, **security**, and **anonymity** con
 **Segurança**
 :
 
-Security is the ability to trust the applications you use—that the parties involved are who they say they are—and keep those applications safe. In the context of browsing the web, for example, security can be provided by HTTPS certificates.
+A segurança é a capacidade de confiar nas aplicações que utiliza - que são o que as partes envolvidas dizem ser - e de manter essas aplicações seguras. No contexto da navegação Web, por exemplo, a segurança pode ser fornecida por certificados HTTPS.
 :
 
-Certificates prove you are talking directly to the website you're visiting, and keep attackers on your network from reading or modifying the data sent to or from the website.
+Os certificados permitem a certeza de que está a falar diretamente com o site que está a visitar e impedem que os atacantes na sua rede leiam ou modifiquem os dados enviados para ou a partir do site.
 
 **Anonymity**
 :
 
-Anonymity is the ability to act without a persistent identifier. You might achieve this online with [Tor](../tor.md), which allows you to browse the internet with a random IP address and network connection instead of your own.
+O anonimato é a capacidade de agir sem um identificador persistente. Pode obter essa privacidade online com o browser [Tor](../tor.md), que lhe permite navegar na Internet com um endereço IP e uma ligação de rede aleatórios, que substituem os seus.
 :
 
-**Pseudonymity** is a similar concept, but it allows you to have a persistent identifier without it being tied to your real identity. If everybody knows you as `@GamerGuy12` online, but nobody knows your real name, that is your pseudonym.
+O **Pseudonimato** é um conceito semelhante, e permite-lhe usar um identificador persistente sem ligação à sua identidade real. Se todos o conhecerem como `@GamerGuy12` online, mas ninguém souber o seu nome verdadeiro, esse será o seu pseudónimo.
 
-All of these concepts overlap, but it is possible to have any combination of these. The sweet spot for most people is when all three of these concepts overlap. However, it's tricker to achieve than many initially believe. Sometimes, you have to compromise on some of these, and that's okay too. This is where **threat modeling** comes into play, allowing you to make informed decisions about the [software and services](../tools.md) you use.
+All of these concepts overlap, but it is possible to have any combination of these. The sweet spot for most people is when all three of these concepts overlap. No entanto, é mais difícil de conseguir do que à partida se poderia pensar. Sometimes, you have to compromise on some of these, and that's okay too. This is where **threat modeling** comes into play, allowing you to make informed decisions about the [software and services](../tools.md) you use.
 
 [:material-book-outline: Learn More About Threat Modeling](threat-modeling.md ""){.md-button}
 

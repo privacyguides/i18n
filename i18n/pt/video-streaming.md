@@ -1,25 +1,27 @@
 ---
-title: "Transmissão de vídeo"
+title: "Streaming de vídeo"
 icon: material/video-wireless
-description: These networks allow you to stream internet content without building an advertising profile based on your interests.
+description: Estas redes permitem-lhe fazer streaming de conteúdos na Internet sem que seja necessário criar um perfil baseado nos seus interesses.
 cover: video-streaming.png
 ---
 
-A principal ameaça ao usar uma plataforma de streaming de vídeo é que os seus hábitos de streaming e listas de assinaturas podem ser usados para traçar o seu perfil. Você deve combinar estas ferramentas com um [VPN](/vpn) ou [Tor](https://www.torproject.org/) para tornar mais difícil o perfil do seu uso.
+A principal ameaça quando se utiliza uma plataforma de streaming de vídeo é que os seus hábitos de streaming e listas de subscrição podem ser utilizados para traçar o seu perfil. Deve combinar estas ferramentas com uma [VPN](vpn.md) ou [com o Tor](https://www.torproject.org/), de forma a dificultar a definição do seu perfil de utilização.
 
-## Clientes
+## LBRY
 
 !!! nota
     Consulte o [Tabela de Hardware](https://openwrt.org/toh/start) para verificar se o seu dispositivo é suportado.
 
-    Ao usar o Freetube, seu endereço IP ainda é conhecido pelo YouTube, [Invidious](https://instances.invidious.io) e as instâncias SponsorBlock que você usa. It uses a [BitTorrent](https://wikipedia.org/wiki/BitTorrent)-like network to store the video content, and a [blockchain](https://wikipedia.org/wiki/Blockchain) to store the indexes for those videos. The main benefit of this design is censorship resistance.
+    ![Logótipo LBRY](assets/img/video-streaming/lbry.svg){ align=right }
     
-    **The LBRY desktop client** helps you stream videos from the LBRY network and stores your subscription list in your own LBRY wallet.
+    **A rede LBRY** é uma rede descentralizada de partilha de vídeos. Utiliza uma rede do tipo [BitTorrent](https://wikipedia.org/wiki/BitTorrent) para armazenar o conteúdo de vídeo e uma rede do tipo [blockchain](https://wikipedia.org/wiki/Blockchain) para armazenar os índices desses vídeos. A principal vantagem deste modelo conceptual é a resistência à censura.
+    
+    **O cliente de desktop LBRY** ajuda-o a fazer stream vídeos da rede LBRY e armazena a sua lista de subscrições na sua própria carteira LBRY.
     
     [:octicons-home-16: Homepage](https://lbry.com){ .md-button .md-button--primary }
-    [:octicons-eye-16:](https://lbry.com/privacypolicy){ .card-link title="Privacy Policy" }
-    [:octicons-info-16:](https://lbry.com/faq){ .card-link title=Documentation}
-    [:octicons-code-16:](https://github.com/lbryio/lbry-desktop){ .card-link title="Source Code" }
+    [:octicons-eye-16:](https://lbry.com/privacypolicy){ .card-link title="Política de Privacidade" }
+    [:octicons-info-16:](https://lbry.com/faq){ .card-link title=Documentação}
+    [:octicons-code-16:](https://github.com/lbryio/lbry-desktop){ .card-link title="Código-fonte" }
     
     ??? downloads
     
@@ -27,27 +29,25 @@ A principal ameaça ao usar uma plataforma de streaming de vídeo é que os seus
         - [:simple-apple: macOS](https://lbry.com/osx)
         - [:simple-linux: Linux](https://lbry.com/linux)
 
-!!! note
+!!! nota
 
-    Only the **LBRY desktop client** is recommended, as the [Odysee](https://odysee.com) website and the LBRY clients in F-Droid, Play Store, and the App Store have mandatory synchronization and telemetry.
+    Apenas recomendamos a utilização do **cliente LBRY para desktop**, uma vez que o site [Odysee](https://odysee.com) e os clientes LBRY no F-Droid, Play Store e App Store têm sincronização e telemetria obrigatórias.
 
-!!! Recomendamos que você verifique o [documentação](https://developers.yubico.com/SSH/) de Yubico sobre como configurar isso.
+!!! aviso
 
-    While watching and hosting videos, your IP address is visible to the LBRY network. Consider using a [VPN](vpn.md) or [Tor](https://www.torproject.org) if your [threat model](basics/threat-modeling.md) requires hiding your IP address.
+    Durante a visualização e hospedagem de vídeos, o seu endereço IP fica visível para a rede LBRY. Considere a utilização de uma [VPN](vpn.md) ou [Tor](https://www.torproject.org) se o seu [modelo de ameaça](basics/threat-modeling.md) exigir a ocultação do seu endereço IP.
 
-We recommend **against** synchronizing your wallet with LBRY Inc., as synchronizing encrypted wallets is not supported yet. If you synchronize your wallet with LBRY Inc., you have to trust them to not look at your subscription list, [LBC](https://lbry.com/faq/earn-credits) funds, or take control of your channel.
+Recomendamos ** que não sincronize** a sua carteira com a LBRY Inc., uma vez que a sincronização de carteiras encriptadas ainda não é suportada. Se sincronizar a sua carteira com a LBRY Inc., terá de confiar que a lista de subscrições não será acedida, ou divulgada a fundos [LBC](https://lbry.com/faq/earn-credits), ou mesmo que o controle do canal possa ser assumido indevidamente.
 
-You can disable *Save hosting data to help the LBRY network* option in :gear: **Settings** → **Advanced Settings**, to avoid exposing your IP address and watched videos when using LBRY for a prolonged period of time.
+Pode desativar a opção *Guardar dados de alojamento para ajudar a rede LBRY* em :gear: **Definições** → **Definições avançadas**, para evitar a exposição do seu endereço IP e dos vídeos vistos quando utilizar LBRY durante um período de tempo prolongado.
 
-## Framadate
+## Critérios
 
-**Please note we are not affiliated with any of the projects we recommend.** In addition to [our standard criteria](about/criteria.md), we have developed a clear set of requirements to allow us to provide objective recommendations. We suggest you familiarize yourself with this list before choosing to use a project, and conduct your own research to ensure it's the right choice for you.
+**Note que não estamos associados a nenhum dos projetos que recomendamos.** Para além dos [nossos critérios padrão](about/criteria.md), desenvolvemos um conjunto claro de requisitos que nos permitem fornecer recomendações objetivas. Sugerimos que se familiarize com esta lista antes de optar pela utilização de um projeto, e que faça a sua própria investigação para garantir que a escolha que faz é a certa para si.
 
-!!! Considere o auto-hospedagem para mitigar esta ameaça.
+!!! exemplo "Esta secção é nova"
 
-    ![logo PrivateBin](/assets/img/productivity/privatebin.svg){ align=right }
-    
-    **PrivateBin** é um pastebin online minimalista e de código aberto onde o servidor tem zero conhecimento de dados colados. Os dados são criptografados/descriptografados no navegador usando AES de 256 bits. Psono suporta compartilhamento seguro de senhas, arquivos, marcadores e e-mails.
+    Estamos a trabalhar no sentido de definir critérios para cada secção do nosso site, o que pode dar origem a alterações. Se tiver alguma dúvida sobre os nossos critérios, por favor [pergunte no nosso fórum] (https://discuss.privacyguides.net/latest) e não parta do princípio de que omitimos algum projeto nas nossas recomendações, caso ele não se encontre nas nossas recomendações. São muitos os fatores considerados e discutidos quando recomendamos um projeto, e a documentação de cada um deles é um trabalho em curso.
 
-- Must not require a centralized account to view videos.
-    - Decentralized authentication, such as via a mobile wallet's private key is acceptable.
+- Não deve ser exigida uma conta centralizada para visualizar vídeos.
+    - A autenticação descentralizada através da chave privada de uma carteira móvel é aceitável.

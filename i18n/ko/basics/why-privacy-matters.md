@@ -32,7 +32,7 @@ Anonymity is the ability to act without a persistent identifier. You might achie
 
 **Pseudonymity** is a similar concept, but it allows you to have a persistent identifier without it being tied to your real identity. If everybody knows you as `@GamerGuy12` online, but nobody knows your real name, that is your pseudonym.
 
-All of these concepts overlap, but it is possible to have any combination of these. The sweet spot for most people is when all three of these concepts overlap. However, it's tricker to achieve than many initially believe. 때로는 일부를 타협해야 하겠지만, 괜찮습니다. This is where **threat modeling** comes into play, allowing you to make informed decisions about the [software and services](../tools.md) you use.
+All of these concepts overlap, but it is possible to have any combination of these. The sweet spot for most people is when all three of these concepts overlap. However, it's trickier to achieve than many initially believe. 때로는 일부를 타협해야 하겠지만, 괜찮습니다. This is where **threat modeling** comes into play, allowing you to make informed decisions about the [software and services](../tools.md) you use.
 
 [:material-book-outline: 위협 모델링에 대해 자세히 알아보기](threat-modeling.md ""){.md-button}
 

@@ -1,5 +1,5 @@
 ---
-title: "Armazenamento em nuvem"
+title: "Desktop/PC"
 icon: fontawesome/brands/linux
 description: Linux distributions are commonly recommended for privacy protection and software freedom.
 cover: desktop.png

@@ -1,5 +1,5 @@
 ---
-title: "Ferramentas de Autenticação Multi-Factor"
+title: "Partilha e sincronização de ficheiros"
 icon: material/share-variant
 description: Descubra como partilhar os seus ficheiros em privado entre os seus dispositivos, com os seus amigos e família, ou anonimamente online.
 cover: file-sharing.png

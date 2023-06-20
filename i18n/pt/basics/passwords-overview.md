@@ -90,7 +90,7 @@ To sum it up, diceware passphrases are your best option when you need something 
 
 ## Storing Passwords
 
-### Redes Auto-Contidas
+### Gestores de palavras-passe
 
 The best way to store your passwords is by using a password manager. They allow you to store your passwords in a file or in the cloud and protect them with a single master password. That way, you will only have to remember one strong password, which lets you access the rest of them.
 

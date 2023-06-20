@@ -1,5 +1,5 @@
 ---
-title: "Cadernos de notas"
+title: "Blocos de notas"
 icon: material/notebook-edit-outline
 description: These encrypted note-taking apps let you keep track of your notes without giving them to a third-party.
 cover: notebooks.png
@@ -39,15 +39,15 @@ Se você está usando atualmente uma aplicação como Evernote, Google Keep ou M
 !!! nota
     Consulte o [Tabela de Hardware](https://openwrt.org/toh/start) para verificar se o seu dispositivo é suportado.
 
-    ![Notesnook logo](assets/img/notebooks/notesnook.svg){ align=right }
+    ![Logótipo Notesnook](assets/img/notebooks/notesnook.svg){ align=right }
     
-    **Notesnook** is a free (as in speech) & open-source note-taking app focused on user privacy & ease of use. It features end-to-end encryption on all platforms with a powerful sync to take your notes on the go. You can easily import your notes from Evernote, OneNote & a lot of other apps using their [official importer](https://importer.notesnook.com/).
+    **Notesnook** é uma aplicação de anotações de código aberto & gratuita (como na liberdade de expressão), centrada na privacidade do utilizador e na facilidade de utilização. Possui encriptação de ponta a ponta em todas as plataformas e uma sincronização poderosa para que possa escrever as suas notas em qualquer local e dispositivo. Pode importar facilmente as suas notas do Evernote, OneNote e de muitas outras aplicações, utilizando o seu [importador oficial] (https://importer.notesnook.com/).
     
     [:octicons-home-16: Homepage](https://notesnook.com/){ .md-button .md-button--primary }
-    [:octicons-eye-16:](https://notesnook.com/privacy){ .card-link title="Privacy Policy" }
-    [:octicons-info-16:](https://help.notesnook.com/){ .card-link title=Documentation}
-    [:octicons-code-16:](https://github.com/streetwriters/notesnook){ .card-link title="Source Code" }
-    [:octicons-heart-16:](https://github.com/streetwriters/notesnook/blob/master/CONTRIBUTING.md){ .card-link title=Contribute }
+    [:octicons-eye-16:](https://notesnook.com/privacy){ .card-link title="Política de Privacidade" }
+    [:octicons-info-16:](https://help.notesnook.com/){ .card-link title=Documentação}
+    [:octicons-code-16:](https://github.com/streetwriters/notesnook){ .card-link title="Codigo-fonte" }
+    [:octicons-heart-16:](https://github.com/streetwriters/notesnook/blob/master/CONTRIBUTING.md){ .card-link title=Contribuir }
     
     ??? downloads
     
@@ -60,7 +60,7 @@ Se você está usando atualmente uma aplicação como Evernote, Google Keep ou M
         - [:simple-firefoxbrowser: Firefox](https://notesnook.com/notesnook-web-clipper/)
         - [:simple-googlechrome: Chrome](https://chrome.google.com/webstore/detail/notesnook-web-clipper/kljhpemdlcnjohmfmkogahelkcidieaj)
 
-Notesnook does not support password/PIN protection on the web & desktop apps. However, you can still lock individual notes, and your data is always encrypted in transit and on your device using your master key.
+O Notesnook não suporta proteção por palavra-passe/PIN de proteção na web e aplicações de ambiente de trabalho. No entanto, poderá continuar a bloquear notas individuais e os seus dados são sempre encriptados em trânsito e no seu dispositivo, utilizando a sua chave mestra.
 
 ### Joplin
 

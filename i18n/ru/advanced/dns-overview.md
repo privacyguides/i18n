@@ -8,23 +8,23 @@ description: Система доменных имен - это "телефонн
 
 ## Что такое DNS?
 
-When you visit a website, a numerical address is returned. For example, when you visit `privacyguides.org`, the address `192.98.54.105` is returned.
+Когда вы посещаете веб-сайт, вам возвращается числовой адрес. Например, при посещении сайта `privacyguides.org`возвращается адрес `192.98.54.105`.
 
-DNS has existed since the [early days](https://en.wikipedia.org/wiki/Domain_Name_System#History) of the Internet. DNS requests made to and from DNS servers are **not** generally encrypted. In a residential setting, a customer is given servers by the ISP via [DHCP](https://en.wikipedia.org/wiki/Dynamic_Host_Configuration_Protocol).
+DNS существует с [первых дней](https://en.wikipedia.org/wiki/Domain_Name_System#History) существования Интернета. DNS-запросы, направляемые на DNS-серверы и от них, обычно **не** зашифрованы. Клиент получает серверы от провайдера через [DHCP](https://en.wikipedia.org/wiki/Dynamic_Host_Configuration_Protocol) по месту жительства.
 
-Unencrypted DNS requests are able to be easily **surveilled** and **modified** in transit. In some parts of the world, ISPs are ordered to do primitive [DNS filtering](https://en.wikipedia.org/wiki/DNS_blocking). When you request the IP address of a domain that is blocked, the server may not respond or may respond with a different IP address. As the DNS protocol is not encrypted, the ISP (or any network operator) can use [DPI](https://en.wikipedia.org/wiki/Deep_packet_inspection) to monitor requests. ISPs can also block requests based on common characteristics, regardless of which DNS server is used. Unencrypted DNS always uses [port](https://en.wikipedia.org/wiki/Port_(computer_networking)) 53 and always uses UDP.
+Незашифрованные DNS запросы могут быть легко **подсмотрены** и **изменены** во время передачи. В некоторых частях мира интернет-провайдеры обязаны осуществлять примитивную [DNS-фильтрацию](https://en.wikipedia.org/wiki/DNS_blocking). Когда вы запрашиваете IP-адрес домена, который заблокирован, сервер может не ответить или ответить другим IP-адресом. Поскольку протокол DNS не зашифрован, провайдер (или любой оператор сети) может использовать [DPI](https://en.wikipedia.org/wiki/Deep_packet_inspection) для мониторинга запросов. Интернет-провайдеры также могут блокировать запросы на основе общих характеристик, независимо от того, какой DNS-сервер используется. Незашифрованный DNS всегда использует [порт](https://en.wikipedia.org/wiki/Port_(computer_networking)) 53 и UDP.
 
-Below, we discuss and provide a tutorial to prove what an outside observer may see using regular unencrypted DNS and [encrypted DNS](#what-is-encrypted-dns).
+Ниже мы рассмотрим и предоставим учебное пособие для доказательства того, что может увидеть сторонний наблюдатель, используя обычный незашифрованный DNS и [зашифрованный DNS](#what-is-encrypted-dns).
 
 ### Незашифрованный DNS
 
-1. Using [`tshark`](https://www.wireshark.org/docs/man-pages/tshark.html) (part of the [Wireshark](https://en.wikipedia.org/wiki/Wireshark) project) we can monitor and record internet packet flow. This command records packets that meet the rules specified:
+1. Используя [`tshark`](https://www.wireshark.org/docs/man-pages/tshark.html) (часть проекта [Wireshark](https://en.wikipedia.org/wiki/Wireshark)), мы можем отслеживать и записывать поток интернет-пакетов. Эта команда записывает пакеты, которые соответствуют заданным правилам:
 
     ```bash
     tshark -w /tmp/dns.pcap udp port 53 and host 1.1.1.1 or host 8.8.8.8
     ```
 
-2. We can then use [`dig`](https://en.wikipedia.org/wiki/Dig_(command)) (Linux, MacOS, etc.) or [`nslookup`](https://en.wikipedia.org/wiki/Nslookup) (Windows) to send the DNS lookup to both servers. Software such as web browsers do these lookups automatically, unless they are configured to use encrypted DNS.
+2. Затем мы можем использовать [`dig`](https://en.wikipedia.org/wiki/Dig_(command)) (Linux, MacOS и т.д.) или [`nslookup`](https://en.wikipedia.org/wiki/Nslookup) (Windows) для поиска DNS на обоих серверах. Такие программы, как веб-браузеры, выполняют эти поиски автоматически, если только они не настроены на использование зашифрованного DNS.
 
     === "Linux, macOS"
 
@@ -39,7 +39,7 @@ Below, we discuss and provide a tutorial to prove what an outside observer may s
         nslookup privacyguides.org 8.8.8.8
         ```
 
-3. Next, we want to [analyse](https://www.wireshark.org/docs/wsug_html_chunked/ChapterIntroduction.html#ChIntroWhatIs) the results:
+3. Далее мы хотим [проанализировать](https://www.wireshark.org/docs/wsug_html_chunked/ChapterIntroduction.html#ChIntroWhatIs) результаты:
 
     === "Wireshark"
 
@@ -53,16 +53,16 @@ Below, we discuss and provide a tutorial to prove what an outside observer may s
         tshark -r /tmp/dns.pcap
         ```
 
-If you run the Wireshark command above, the top pane shows the "[frames](https://en.wikipedia.org/wiki/Ethernet_frame)", and the bottom pane shows all the data about the selected frame. Enterprise filtering and monitoring solutions (such as those purchased by governments) can do the process automatically, without human interaction, and can aggregate those frames to produce statistical data useful to the network observer.
+Если вы pfgecnbnt приведенную выше команду Wireshark, на верхней панели отобразится "[frames](https://en.wikipedia.org/wiki/Ethernet_frame)", а на нижней - все данные о выбранном кадре(frame). Корпоративные решения для фильтрации и мониторинга (например, те, которые приобретаются правительствами) могут выполнять этот процесс автоматически, без участия человека, и могут собирать эти frames для получения статистических данных, полезных для сетевого наблюдателя.
 
-| № | Время    | Источник  | Назначение | Протокол | Длина | Инфо                                                                   |
-| - | -------- | --------- | ---------- | -------- | ----- | ---------------------------------------------------------------------- |
-| 1 | 0.000000 | 192.0.2.1 | 1.1.1.1    | DNS      | 104   | Standard query 0x58ba A privacyguides.org OPT                          |
-| 2 | 0.293395 | 1.1.1.1   | 192.0.2.1  | DNS      | 108   | Standard query response 0x58ba A privacyguides.org A 198.98.54.105 OPT |
-| 3 | 1.682109 | 192.0.2.1 | 8.8.8.8    | DNS      | 104   | Standard query 0xf1a9 A privacyguides.org OPT                          |
-| 4 | 2.154698 | 8.8.8.8   | 192.0.2.1  | DNS      | 108   | Standard query response 0xf1a9 A privacyguides.org A 198.98.54.105 OPT |
+| No. (Номер) | Time (Время) | Source (Источник) | Destination (Назначение) | Protocol (Протокол) | Length (Длина) | Info (Инфо)                                                            |
+| ----------- | ------------ | ----------------- | ------------------------ | ------------------- | -------------- | ---------------------------------------------------------------------- |
+| 1           | 0.000000     | 192.0.2.1         | 1.1.1.1                  | DNS                 | 104            | Standard query 0x58ba A privacyguides.org OPT                          |
+| 2           | 0.293395     | 1.1.1.1           | 192.0.2.1                | DNS                 | 108            | Standard query response 0x58ba A privacyguides.org A 198.98.54.105 OPT |
+| 3           | 1.682109     | 192.0.2.1         | 8.8.8.8                  | DNS                 | 104            | Standard query 0xf1a9 A privacyguides.org OPT                          |
+| 4           | 2.154698     | 8.8.8.8           | 192.0.2.1                | DNS                 | 108            | Standard query response 0xf1a9 A privacyguides.org A 198.98.54.105 OPT |
 
-An observer could modify any of these packets.
+Наблюдатель может изменить любой из этих пакетов.
 
 ## Что такое "зашифрованный DNS"?
 
@@ -70,79 +70,79 @@ An observer could modify any of these packets.
 
 ### DNSCrypt
 
-[**DNSCrypt**](https://en.wikipedia.org/wiki/DNSCrypt) was one of the first methods of encrypting DNS queries. DNSCrypt operates on port 443 and works with both the TCP or UDP transport protocols. DNSCrypt has never been submitted to the [Internet Engineering Task Force (IETF)](https://en.wikipedia.org/wiki/Internet_Engineering_Task_Force) nor has it gone through the [Request for Comments (RFC)](https://en.wikipedia.org/wiki/Request_for_Comments) process, so it has not been used widely outside of a few [implementations](https://dnscrypt.info/implementations). As a result, it has been largely replaced by the more popular [DNS over HTTPS](#dns-over-https-doh).
+[**DNSCrypt**](https://en.wikipedia.org/wiki/DNSCrypt) был одним из первых методов шифрования DNS-запросов. DNSCrypt работает через порт 443 и работает с транспортными протоколами TCP или UDP. DNSCrypt никогда не был представлен в [Internet Engineering Task Force (IETF)](https://en.wikipedia.org/wiki/Internet_Engineering_Task_Force) и не проходил через [Request for Comments (RFC)](https://en.wikipedia.org/wiki/Request_for_Comments) процесс, поэтому он не использовался широко за пределами нескольких [реализаций](https://dnscrypt.info/implementations). В результате он был в значительной степени заменён более популярным [DNS через HTTPS](#dns-over-https-doh).
 
 ### DNS через TLS (DoT)
 
-[**DNS over TLS**](https://en.wikipedia.org/wiki/DNS_over_TLS) is another method for encrypting DNS communication that is defined in [RFC 7858](https://datatracker.ietf.org/doc/html/rfc7858). Support was first implemented in Android 9, iOS 14, and on Linux in [systemd-resolved](https://www.freedesktop.org/software/systemd/man/resolved.conf.html#DNSOverTLS=) in version 237. Preference in the industry has been moving away from DoT to DoH in recent years, as DoT is a [complex protocol](https://dnscrypt.info/faq/) and has varying compliance to the RFC across the implementations that exist. DoT also operates on a dedicated port 853 which can be blocked easily by restrictive firewalls.
+[**DNS через TLS**](https://en.wikipedia.org/wiki/DNS_over_TLS) - это еще один метод шифрования DNS-коммуникаций, который определен в [RFC 7858](https://datatracker.ietf.org/doc/html/rfc7858). Впервые поддержка была реализована в Android 9, iOS 14 и в Linux в [systemd-resolved](https://www.freedesktop.org/software/systemd/man/resolved.conf.html#DNSOverTLS=) в версии 237. В последние годы предпочтение в этой отрасли отошло от DoT к DoH, поскольку DoT является [комплексным протоколом](https://dnscrypt.info/faq/) и имеет различное соответствие RFC между существующими реализациями. DoT также работает на выделенном порту 853, который может быть легко заблокирован брандмауэрами.
 
 ### DNS через HTTPS (DoH)
 
-[**DNS over HTTPS**](https://en.wikipedia.org/wiki/DNS_over_HTTPS) as defined in [RFC 8484](https://datatracker.ietf.org/doc/html/rfc8484) packages queries in the [HTTP/2](https://en.wikipedia.org/wiki/HTTP/2) protocol and provides security with HTTPS. Support was first added in web browsers such as Firefox 60 and Chrome 83.
+[**DNS через HTTPS**](https://en.wikipedia.org/wiki/DNS_over_HTTPS) как определено в [RFC 8484](https://datatracker.ietf.org/doc/html/rfc8484) упаковывает запросы в [HTTP/2](https://en.wikipedia.org/wiki/HTTP/2) протокол и обеспечивает безопасность с помощью HTTPS. Впервые поддержка была добавлена в таких браузерах, как Firefox 60 и Chrome 83.
 
-Native implementation of DoH showed up in iOS 14, macOS 11, Microsoft Windows, and Android 13 (however, it won't be enabled [by default](https://android-review.googlesource.com/c/platform/packages/modules/DnsResolver/+/1833144)). General Linux desktop support is waiting on the systemd [implementation](https://github.com/systemd/systemd/issues/8639) so [installing third-party software is still required](../dns.md#encrypted-dns-proxies).
+Нативная реализация DoH появилась в iOS 14, macOS 11, Microsoft Windows и Android 13 (однако она не будет включена [по умолчанию](https://android-review.googlesource.com/c/platform/packages/modules/DnsResolver/+/1833144)). Общая поддержка Linux'а ожидает [реализации](https://github.com/systemd/systemd/issues/8639) systemd, поэтому [всё еще требуется установка стороннего программного обеспечения](../dns.md#encrypted-dns-proxies).
 
-## What can an outside party see?
+## Что может увидеть посторонний человек?
 
-In this example we will record what happens when we make a DoH request:
+В этом примере мы запишем, что происходит, когда мы делаем запрос DoH:
 
-1. First, start `tshark`:
+1. Сначала запустите `tshark`:
 
     ```bash
     tshark -w /tmp/dns_doh.pcap -f "tcp port https and host 1.1.1.1"
     ```
 
-2. Second, make a request with `curl`:
+2. Во-вторых, сделайте запрос с помощью `curl`:
 
     ```bash
     curl -vI --doh-url https://1.1.1.1/dns-query https://privacyguides.org
     ```
 
-3. After making the request, we can stop the packet capture with <kbd>CTRL</kbd> + <kbd>C</kbd>.
+3. После выполнения запроса мы можем остановить захват пакетов с помощью <kbd>CTRL</kbd> + <kbd>C</kbd>.
 
-4. Analyse the results in Wireshark:
+4. Проанализируйте результаты в программе Wireshark:
 
     ```bash
     wireshark -r /tmp/dns_doh.pcap
     ```
 
-We can see the [connection establishment](https://en.wikipedia.org/wiki/Transmission_Control_Protocol#Connection_establishment) and [TLS handshake](https://www.cloudflare.com/learning/ssl/what-happens-in-a-tls-handshake/) that occurs with any encrypted connection. When looking at the "application data" packets that follow, none of them contain the domain we requested or the IP address returned.
+Мы видим [установление соединения](https://en.wikipedia.org/wiki/Transmission_Control_Protocol#Connection_establishment) и [TLS-рукопожатие](https://www.cloudflare.com/ru-ru/learning/ssl/what-happens-in-a-tls-handshake/), которое происходит при любом зашифрованном соединении. При просмотре последующих пакетов "данных приложения" ни один из них не содержит запрашиваемого нами домена или возвращаемого IP-адреса.
 
-## Почему **не следует** использовать зашифрованный DNS?
+## Почему мне **не следует** использовать зашифрованный DNS?
 
-In locations where there is internet filtering (or censorship), visiting forbidden resources may have its own consequences which you should consider in your [threat model](../basics/threat-modeling.md). We do **not** suggest the use of encrypted DNS for this purpose. Use [Tor](https://torproject.org) or a [VPN](../vpn.md) instead. If you're using a VPN, you should use your VPN's DNS servers. When using a VPN, you are already trusting them with all your network activity.
+В местах, где существует фильтрация интернета (или цензура), посещение запрещенных ресурсов может иметь свои последствия, которые следует учитывать в [модели угроз](../basics/threat-modeling.md). Мы **не** предлагаем использовать для этих целей зашифрованный DNS. Вместо этого используйте [Tor](https://torproject.org) или [VPN](../vpn.md). Если вы используете VPN, вам следует использовать DNS-серверы вашего VPN. Используя VPN, вы уже доверяете им всю свою сетевую активность.
 
-When we do a DNS lookup, it's generally because we want to access a resource. Below, we will discuss some of the methods that may disclose your browsing activities even when using encrypted DNS:
+Когда мы выполняем поиск в DNS, это, как правило, связано с тем, что мы хотим получить доступ к ресурсу. Ниже мы покажем некоторые методы, которые могут раскрыть вашу активность в интернете, даже при использовании зашифрованного DNS:
 
 ### IP-адрес
 
-The simplest way to determine browsing activity might be to look at the IP addresses your devices are accessing. For example, if the observer knows that `privacyguides.org` is at `198.98.54.105`, and your device is requesting data from `198.98.54.105`, there is a good chance you're visiting Privacy Guides.
+Самым простым способом определения активности в интернете может быть просмотр IP-адресов, к которым обращаются ваши устройства. Например, если наблюдатель знает, что сайт `privacyguides.org` находится по адресу `198.98.54.105`, а ваше устройство запрашивает данные с `198.98.54.105`, то велика вероятность, что вы посещаете Privacy Guides.
 
-This method is only useful when the IP address belongs to a server that only hosts few websites. It's also not very useful if the site is hosted on a shared platform (e.g. Github Pages, Cloudflare Pages, Netlify, WordPress, Blogger, etc.). It also isn't very useful if the server is hosted behind a [reverse proxy](https://en.wikipedia.org/wiki/Reverse_proxy), which is very common on the modern Internet.
+Этот метод полезен только в том случае, если IP-адрес принадлежит серверу, на котором размещено всего несколько веб-сайтов. Он также не очень полезен, если сайт размещен на общей платформе (например, Github Pages, Cloudflare Pages, Netlify, WordPress, Blogger и т.д.). Он также не очень полезен, если сервер размещен за [обратным прокси](https://en.wikipedia.org/wiki/Reverse_proxy), что очень часто встречается в современном интернете.
 
-### Server Name Indication (SNI)
+### Индикация имени сервера (SNI)
 
-Server Name Indication is typically used when a IP address hosts many websites. This could be a service like Cloudflare, or some other [Denial-of-service attack](https://en.wikipedia.org/wiki/Denial-of-service_attack) protection.
+Индикация имени сервера обычно используется, когда на одном IP-адресе размещается множество веб-сайтов. Это может быть сервис, например Cloudflare, или какая-либо другая защита от [Denial-of-Service атак](https://en.wikipedia.org/wiki/Denial-of-service_attack).
 
-1. Start capturing again with `tshark`. We've added a filter with our IP address so you don't capture many packets:
+1. Снова запустите захват с помощью `tshark`. Мы добавили фильтр с нашим IP-адресом, чтобы не перехватывать много пакетов:
 
     ```bash
     tshark -w /tmp/pg.pcap port 443 and host 198.98.54.105
     ```
 
-2. Then we visit [https://privacyguides.org](https://privacyguides.org).
+2. Затем мы посетим сайт [https://privacyguides.org](https://privacyguides.org).
 
-3. After visiting the website, we want to stop the packet capture with <kbd>CTRL</kbd> + <kbd>C</kbd>.
+3. После посещения сайта мы хотим остановить захват пакетов с помощью <kbd>CTRL</kbd> + <kbd>C</kbd>.
 
-4. Next we want to analyze the results:
+4. Далее мы хотим проанализировать полученные результаты:
 
     ```bash
     wireshark -r /tmp/pg.pcap
     ```
 
-    We will see the connection establishment, followed by the TLS handshake for the Privacy Guides website. Around frame 5. you'll see a "Client Hello".
+    Мы увидим установление соединения, а затем TLS-рукопожатие для сайта Privacy Guides. Около frame 5. вы увидите "Client Hello".
 
-5. Expand the triangle &#9656; next to each field:
+5. Раскройте треугольник &#9656; рядом с каждым полем:
 
     ```text
     ▸ Transport Layer Security

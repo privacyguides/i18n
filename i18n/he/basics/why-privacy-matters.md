@@ -32,7 +32,7 @@ Anonymity is the ability to act without a persistent identifier. You might achie
 
 **Pseudonymity** is a similar concept, but it allows you to have a persistent identifier without it being tied to your real identity. If everybody knows you as `@GamerGuy12` online, but nobody knows your real name, that is your pseudonym.
 
-כל המושגים הללו חופפים, אבל אפשר לקבל כל שילוב של אלה. הנקודה המתוקה עבור רוב האנשים היא כאשר כל שלושת המושגים הללו חופפים. עם זאת, זה טריקי להשיג ממה שרבים מאמינים בתחילה. לפעמים, אתה צריך להתפשר על כמה מאלה, וגם זה בסדר. כאן נכנס לתמונה **מודל איומים** המאפשר לך לקבל החלטות מושכלות decisions about the [התוכנה והשירותים](../tools.md)שבהם אתה משתמש.
+כל המושגים הללו חופפים, אבל אפשר לקבל כל שילוב של אלה. הנקודה המתוקה עבור רוב האנשים היא כאשר כל שלושת המושגים הללו חופפים. However, it's trickier to achieve than many initially believe. לפעמים, אתה צריך להתפשר על כמה מאלה, וגם זה בסדר. כאן נכנס לתמונה **מודל איומים** המאפשר לך לקבל החלטות מושכלות decisions about the [התוכנה והשירותים](../tools.md)שבהם אתה משתמש.
 
 [:material-book-outline: למד עוד על מידול סיכונים](threat-modeling.md ""){.md-button}
 

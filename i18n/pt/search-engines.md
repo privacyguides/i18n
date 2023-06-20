@@ -1,112 +1,114 @@
 ---
-meta_title: "Recommended Search Engines: Anonymous Google Alternatives - Privacy Guides"
+meta_title: "Motores de pesquisa recomendados: alternativas anónimas ao Google - Privacy Guides"
 title: "Motores de Busca"
 icon: material/search-web
-description: These privacy-respecting search engines don't build an advertising profile based on your searches.
+description: Estes motores de busca, que respeitam a privacidade, não criam um perfil de marketing com base nas suas pesquisas.
 cover: search-engines.png
 ---
 
-Use um motor de busca que não construa um perfil publicitário baseado nas suas pesquisas.
+Utilize um motor de busca que não crie um perfil de marketing com base nas suas pesquisas.
 
-As recomendações aqui são baseadas nos méritos da política de privacidade de cada serviço. Há **sem garantia** de que estas políticas de privacidade sejam honradas.
+As recomendações aqui apresentadas baseiam-se nos méritos da política de privacidade de cada serviço. Não existe **qualquer garantia** de que estas políticas de privacidade sejam respeitadas.
 
-Considere usar um [VPN](/vpn) ou [Tor](https://www.torproject.org/) se o seu modelo de ameaça requer esconder o seu endereço IP do fornecedor de pesquisa.
+Considere a utilização de uma [VPN](vpn.md) ou o [Tor](https://www.torproject.org/), se o seu modelo de ameaça exigir a ocultação do seu endereço IP do motor de busca.
 
 ## Brave Search
 
 !!! nota
     Consulte o [Tabela de Hardware](https://openwrt.org/toh/start) para verificar se o seu dispositivo é suportado.
 
-    ![logo DuckDuckGo](/assets/img/search-engines/duckduckgo.svg){ align=right }
+    ![Logótipo Brave Search](assets/img/search-engines/brave-search.svg){ align=right }
     
-    **DuckDuckGo*** é um motor de busca popular e é o padrão para o Tor Browser. DuckDuckGo usa uma API comercial Bing e várias [outras fontes](https://help.duckduckgo.com/results/sources) para fornecer seus dados de pesquisa.
+    O **Brave Search** é desenvolvido pela Brave e apresenta resultados que resultam do seu próprio índice independente. O índice está otimizado para emular a pesquisa Google e, por esse motivo, está em condições de fornecer resultados mais precisos em termos contextuais do que outras alternativas.
     
-    [Visite duckduckgo.com](https://duckduckgo.com){ .md-button .md-button--primary } [:pg-tor:](https://duckduckgogg42xjoc72x3sjasowoarfbgcmvfimaftt6twagswzczad.onion){ .md-button } [Política de Privacidade](https://duckduckgo.com/privacy){ .md-button }
+    O Brave Search inclui funcionalidades exclusivas, como as Discussões, que destacam resultados centrados em conversações, como publicações em fóruns.
     
-    We recommend you disable [Anonymous usage metrics](https://search.brave.com/help/usage-metrics) as it is enabled by default and can be disabled within settings.
+    Recomendamos que desative a opção [Métricas de utilização anónimas] (https://search.brave.com/help/usage-metrics), nas definições, uma vez que está ativada por defeito.
     
     [:octicons-home-16: Homepage](https://search.brave.com/){ .md-button .md-button--primary }
-    [:simple-torbrowser:](https://search.brave4u7jddbv7cyviptqjc7jusxh72uik7zt6adtckl5f4nwy2v72qd.onion){ .card-link title="Onion Service" }
-    [:octicons-eye-16:](https://search.brave.com/help/privacy-policy){ .card-link title="Privacy Policy" }
-    [:octicons-info-16:](https://search.brave.com/help){ .card-link title=Documentation}
+    [:simple-torbrowser:](https://search.brave4u7jddbv7cyviptqjc7jusxh72uik7zt6adtckl5f4nwy2v72qd.onion){ .card-link title="Serviço Onion" }
+    [:octicons-eye-16:](https://search.brave.com/help/privacy-policy){ .card-link title="Política de Privacidade" }
+    [:octicons-info-16:](https://search.brave.com/help){ .card-link title=Documentação}
 
-Brave Search is based in the United States. Their [privacy policy](https://search.brave.com/help/privacy-policy) states they collect aggregated usage metrics, which includes the operating system and browser in use, however no personally identifiable information is collected. IP addresses are temporarily processed, but are not retained.
+O Brave Search está sediado nos Estados Unidos. A sua [ política de privacidade ](https://search.brave.com/help/privacy-policy) faz saber que recolhem métricas de utilização agregadas, que incluem o sistema operativo e o browser utilizado, mas não são recolhidas informações pessoais. Os endereços IP são processados temporariamente, mas não são armazenados.
 
 ## DuckDuckGo
 
 !!! nota
     Consulte o [Tabela de Hardware](https://openwrt.org/toh/start) para verificar se o seu dispositivo é suportado.
 
-    DuckDuckGo está sediado em 🇺🇸 US. Sua [Política de Privacidade](https://duckduckgo.com/privacy) declara que eles registram sua consulta de pesquisa, mas não o seu IP ou qualquer outra informação de identificação. The search engine relies on a commercial Bing API to serve most results, but it does use numerous [other sources](https://help.duckduckgo.com/results/sources/) for instant answers and other non-primary results.
+    ![Logótipo DuckDuckGo](assets/img/search-engines/duckduckgo.svg){ align=right }
     
-    DuckDuckGo is the default search engine for the Tor Browser and is one of the few available options on Apple’s Safari browser.
+    O **DuckDuckGo** é um dos motores de pesquisa mais comuns, no que toca à privacidade. De entre as suas notáveis funcionalidades de pesquisa, destque para os [bangs](https://duckduckgo.com/bang) e muitas [respostas instantâneas] (https://help.duckduckgo.com/duckduckgo-help-pages/features/instant-answers-and-other-features/). Para fornecer os resultado, o motor de busca baseia-se numa API comercial do Bing, embora utilize diversas [outras fontes] (https://help.duckduckgo.com/results/sources/) para respostas instantâneas e outros resultados não primários.
+    
+    O DuckDuckGo é o motor de busca predefinido do browser Tor e é uma das poucas opções disponíveis no browser Safari da Apple.
     
     [:octicons-home-16: Homepage](https://duckduckgo.com){ .md-button .md-button--primary }
-    [:simple-torbrowser:](https://duckduckgogg42xjoc72x3sjasowoarfbgcmvfimaftt6twagswzczad.onion){ .card-link title="Onion Service" }
-    [:octicons-eye-16:](https://duckduckgo.com/privacy){ .card-link title="Privacy Policy" }
-    [:octicons-info-16:](https://help.duckduckgo.com/){ .card-link title=Documentation}
+    [:simple-torbrowser:](https://duckduckgogg42xjoc72x3sjasowoarfbgcmvfimaftt6twagswzczad.onion){ .card-link title="Serviço Onion" }
+    [:octicons-eye-16:](https://duckduckgo.com/privacy){ .card-link title="Política de Privacidade" }
+    [:octicons-info-16:](https://help.duckduckgo.com/){ .card-link title=Documentação}
 
-DuckDuckGo is based in the United States. Their [privacy policy](https://duckduckgo.com/privacy) states they **do** log your searches for product improvement purposes, but not your IP address or any other personally identifying information.
+O DuckDuckGo está sediado nos Estados Unidos. A sua [política de privacidade](https://duckduckgo.com/privacy) faz saber que **são feitos** registos das suas pesquisas para fins de melhoria do produto, mas não o seu endereço IP ou qualquer outra informação de identificação pessoal.
 
-DuckDuckGo offers two [other versions](https://help.duckduckgo.com/features/non-javascript/) of their search engine, both of which do not require JavaScript. These versions do lack features, however. These versions can also be used in conjunction with their [Tor onion address](https://duckduckgogg42xjoc72x3sjasowoarfbgcmvfimaftt6twagswzczad.onion/) by appending [/lite](https://duckduckgogg42xjoc72x3sjasowoarfbgcmvfimaftt6twagswzczad.onion/lite) or [/html](https://duckduckgogg42xjoc72x3sjasowoarfbgcmvfimaftt6twagswzczad.onion/html) for the respective version.
+O DuckDuckGo oferece duas [outras versões](https://help.duckduckgo.com/features/non-javascript/) do seu motor de pesquisa, e ambas não requerem JavaScript. No entanto, estas versões carecem de funcionalidades. Estas versões também podem ser utilizadas em conjunto com o seu endereço [onion no Tor](https://duckduckgogg42xjoc72x3sjasowoarfbgcmvfimaftt6twagswzczad.onion/), acrescentando [/lite](https://duckduckgogg42xjoc72x3sjasowoarfbgcmvfimaftt6twagswzczad.onion/lite) ou [/html](https://duckduckgogg42xjoc72x3sjasowoarfbgcmvfimaftt6twagswzczad.onion/html) para a respectiva versão.
 
 ## SearXNG
 
 !!! nota
     Consulte o [Tabela de Hardware](https://openwrt.org/toh/start) para verificar se o seu dispositivo é suportado.
 
-    ![logo da página inicial](/assets/img/search-engines/startpage.svg){ align=right }
+    ![Logótipo SearXNG](assets/img/search-engines/searxng.svg){ align=right }
     
-    **Startpage** é um motor de pesquisa que fornece resultados de pesquisa do Google. É uma forma muito conveniente de obter resultados de pesquisa no Google sem experimentar padrões escuros, tais como capturas difíceis ou acesso recusado porque você usou um [VPN](/vpn) ou [Tor](https://www.torproject.org/download/).
+    **SearXNG** é um motor de meta-pesquisa de código aberto, auto-hospedado, que agrega os resultados de outros motores de busca, sem armazenar qualquer informação. É um fork de [SearX](https://github.com/searx/searx) com atualizações regulares.
     
-    [Visite startpage.com](https://www.startpage.com){ .md-button .md-button--primary } [Política de Privacidade](https://www.startpage.com/en/privacy-policy){ .md-button }
+    [:octicons-home-16: Homepage](https://searxng.org){ .md-button .md-button--primary }
+    [:octicons-server-16:](https://searx.space/){ .card-link title="Instâncias públicas"}
+    [:octicons-code-16:](https://github.com/searxng/searxng){ .card-link title="Código-fonte" }
 
-SearXNG is a proxy between you and the search engines it aggregates from. Your search queries will still be sent to the search engines that SearXNG gets its results from.
+O SearXNG funciona como um proxy entre si e os motores de busca que agrega. As suas consultas de pesquisa continuarão a ser enviadas para os motores de busca, sendo os resultados obtidos pelo SearXNG.
 
-When self-hosting, it is important that you have other people using your instance so that the queries would blend in. You should be careful with where and how you are hosting SearXNG, as people looking up illegal content on your instance could draw unwanted attention from authorities.
+Ao usar a auto-hospedagem, é importante as outras pessoas utilizem a sua instância, de forma a que as consultas sejam integradas. Deve ter cuidado com o local e a forma como aloja o SearXNG, uma vez que as pessoas que procuram conteúdos ilegais na sua instância podem chamar a atenção indesejada das autoridades.
 
-When you are using a SearXNG instance, be sure to go read their privacy policy. Since SearXNG instances may be modified by their owners, they do not necessarily reflect their privacy policy. Some instances run as a Tor hidden service, which may grant some privacy as long as your search queries does not contain PII.
+Quando estiver a utilizar uma instância do SearXNG, certifique-se de que lê a política de privacidade. Uma vez que as instâncias do SearXNG podem ser modificadas pelos seus proprietários, não é garantido que sigam a sua política de privacidade. Algumas instâncias são executadas como um serviço oculto Tor, o que pode garantir alguma privacidade, desde que as suas consultas de pesquisa não contenham informações pessoais.
 
-## Startpage
+## StartPage
 
 !!! nota
     Consulte o [Tabela de Hardware](https://openwrt.org/toh/start) para verificar se o seu dispositivo é suportado.
 
-    ![Startpage logo](assets/img/search-engines/startpage.svg#only-light){ align=right }
-    ![Startpage logo](assets/img/search-engines/startpage-dark.svg#only-dark){ align=right }
+    ![Logótipo Startpage](assets/img/search-engines/startpage.svg#only-light){ align=right }
+    ![Logótipo Startpage](assets/img/search-engines/startpage-dark.svg#only-dark){ align=right }
     
-    **Startpage** is a private search engine known for serving Google search results.  One of Startpage's unique features is the [Anonymous View](https://www.startpage.com/en/anonymous-view/), which puts forth efforts to standardize user activity to make it more difficult to be uniquely identified. The feature can be useful for hiding [some](https://support.startpage.com/hc/en-us/articles/4455540212116-The-Anonymous-View-Proxy-technical-details) network and browser properties. Unlike the name suggests, the feature should not be relied upon for anonymity. If you are looking for anonymity, use the [Tor Browser](tor.md#tor-browser) instead.
+    O **Startpage** é um motor de pesquisa com a privacidade em mente, conhecido por apresentar resultados de pesquisa do Google.  Uma das características únicas do Startpage é a [Visualização anónima] (https://www.startpage.com/en/anonymous-view/), tentando normalizar a atividade do utilizador para que a sua identificação exclusiva seja dificultada. A funcionalidade pode ser útil para ocultar [some](https://support.startpage.com/hc/en-us/articles/4455540212116-The-Anonymous-View-Proxy-technical-details) propriedades da rede e do browser. Ao contrário do que o nome sugere, esta funcionalidade não deve ser utilizada para garantir o anonimato. Se procura anonimato, utilize o [Browser Tor] (tor.md#tor-browser).
     
     [:octicons-home-16: Homepage](https://www.startpage.com){ .md-button .md-button--primary }
-    [:octicons-eye-16:](https://www.startpage.com/en/privacy-policy){ .card-link title="Privacy Policy" }
-    [:octicons-info-16:](https://support.startpage.com/hc/en-us/categories/4481917470356-Startpage-Search-Engine){ .card-link title=Documentation}
+    [:octicons-eye-16:](https://www.startpage.com/en/privacy-policy){ .card-link title="Política de Privacidade" }
+    [:octicons-info-16:](https://support.startpage.com/hc/en-us/categories/4481917470356-Startpage-Search-Engine){ .card-link title=Documentação}
 
-!!! Recomendamos que você verifique o [documentação](https://developers.yubico.com/SSH/) de Yubico sobre como configurar isso.
+!!! aviso
 
-    Startpage regularly limits service access to certain IP addresses, such as IPs reserved for VPNs or Tor. [DuckDuckGo](#duckduckgo) and [Brave Search](#brave-search) are friendlier options if your threat model requires hiding your IP address from the search provider.
+    O Startpage limita regularmente o acesso a determinados endereços IP, tais como IPs reservados para VPNs ou Tor. O [DuckDuckGo](#duckduckgo) e o [Brave Search](#brave-search) são opções mais amigáveis, se o seu modelo de ameaça exigir que oculte o seu endereço IP do motor de busca.
 
-Startpage is based in the Netherlands. According to their [privacy policy](https://www.startpage.com/en/privacy-policy/), they log details such as: operating system, type of browser, and language. They do not log your IP address, search queries, or other personally identifying information.
+O Startpage está sediado nos Países Baixos. De acordo com a sua [política de privacidade](https://www.startpage.com/en/privacy-policy/), são registados detalhes como: sistema operativo, tipo de browser e idioma. Não registam o seu endereço IP, pesquisas ou outras informações de identificação pessoal.
 
-Startpage's majority shareholder is System1 who is an adtech company. We don't believe that to be an issue as they have a distinctly separate [privacy policy](https://system1.com/terms/privacy-policy). The Privacy Guides team reached out to Startpage [back in 2020](https://web.archive.org/web/20210118031008/https://blog.privacytools.io/relisting-startpage/) to clear up any concerns with System1's sizeable investment into the service. We were satisfied with the answers we received.
+O acionista maioritário do Startpage é a System1, uma empresa marketing tecnológico. Não acreditamos que isso constitua um problema, uma vez que têm uma [ política de privacidade](https://system1.com/terms/privacy-policy) separada. A equipa do Privacy Guides contactou o Startpage [em 2020](https://web.archive.org/web/20210118031008/https://blog.privacytools.io/relisting-startpage/) para esclarecer preocupações suscitadas pelo investimento considerável da System1 no serviço. Ficámos satisfeitos com as respostas que recebemos.
 
-## Framadate
+## Critérios
 
-**Please note we are not affiliated with any of the projects we recommend.** In addition to [our standard criteria](about/criteria.md), we have developed a clear set of requirements to allow us to provide objective recommendations. We suggest you familiarize yourself with this list before choosing to use a project, and conduct your own research to ensure it's the right choice for you.
+**Note que não estamos associados a nenhum dos projetos que recomendamos.** Para além dos [nossos critérios padrão](about/criteria.md), temos um conjunto claro de requisitos que nos permitem fornecer recomendações objetivas. Sugerimos que se familiarize com esta lista antes de optar por um projeto e que desenvolva a sua própria investigação para garantir que se trata da escolha certa para si.
 
-!!! Considere o auto-hospedagem para mitigar esta ameaça.
+!!! exemplo "Esta secção é nova"
 
-    ![logo PrivateBin](/assets/img/productivity/privatebin.svg){ align=right }
-    
-    **PrivateBin** é um pastebin online minimalista e de código aberto onde o servidor tem zero conhecimento de dados colados. Os dados são criptografados/descriptografados no navegador usando AES de 256 bits. Psono suporta compartilhamento seguro de senhas, arquivos, marcadores e e-mails.
+    Estamos a trabalhar no sentido de estabelecer critérios para cada secção do nosso site, o que pode originar alterações. Se tiver alguma dúvida sobre os critérios utilizados, por favor [pergunte no nosso fórum] (https://discuss.privacyguides.net/latest) e não parta do princípio de que algo foi excluído das nossas recomendações, caso não esteja listado aqui. São muitos os fatores considerados e discutidos quando recomendamos um projeto, e documentar cada um deles é um trabalho em curso.
 
-### Minimum Requirements
+### Requisitos mínimos
 
-- Must not collect personally identifiable information per their privacy policy.
-- Must not allow users to create an account with them.
+- A sua política de privacidade deve garantir que não são recolhidas informações pessoais identificáveis.
+- Não deve ser obrigatório criar uma conta.
 
-### Best-Case
+### Melhor caso
 
-Our best-case criteria represents what we would like to see from the perfect project in this category. Our recommendations may not include any or all of this functionality, but those which do may rank higher than others on this page.
+Os nossos melhores critérios representam o que gostaríamos de ver num projeto perfeito desta categoria. As nossas recomendações podem não incluir todas as funcionalidades, mas incluem as que, na nossa opinião, têm um impacto mais elevado.
 
-- Should be based on open-source software.
-- Should not block Tor exit node IP addresses.
+- Deve basear-se em software de fonte aberta.
+- Não deve bloquear os endereços IP dos nós de saída do Tor.

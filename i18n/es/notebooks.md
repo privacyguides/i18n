@@ -41,15 +41,15 @@ Si actualmente utilizas una aplicación como Evernote, Google Keep o Microsoft O
 
     ![Notesnook logo](assets/img/notebooks/notesnook.svg){ align=right }
     
-    **Notesnook** is a free (as in speech) & open-source note-taking app focused on user privacy & ease of use. It features end-to-end encryption on all platforms with a powerful sync to take your notes on the go. You can easily import your notes from Evernote, OneNote & a lot of other apps using their [official importer](https://importer.notesnook.com/).
+    **Notesnook** es una aplicación de código abierto y gratuita para tomar notas (como en el habla) centrada en la privacidad del usuario y en la facilidad de uso. Ofrece cifrado de extremo a extremo en todas las plataformas con una potente sincronización para tomar tus notas sobre la marcha. Puedes importar fácilmente tus notas desde Evernote, OneNote y muchas otras aplicaciones utilizando su [importador oficial](https://importer.notesnook.com/).
     
-    [:octicons-home-16: Homepage](https://notesnook.com/){ .md-button .md-button--primary }
-    [:octicons-eye-16:](https://notesnook.com/privacy){ .card-link title="Privacy Policy" }
-    [:octicons-info-16:](https://help.notesnook.com/){ .card-link title=Documentation}
-    [:octicons-code-16:](https://github.com/streetwriters/notesnook){ .card-link title="Source Code" }
-    [:octicons-heart-16:](https://github.com/streetwriters/notesnook/blob/master/CONTRIBUTING.md){ .card-link title=Contribute }
+    [:octicons-home-16: Página Principal](https://notesnook.com/){ .md-button .md-button--primary }
+    [:octicons-eye-16:](https://notesnook.com/privacy){ .card-link title="Politica de Privacidad" }
+    [:octicons-info-16:](https://help.notesnook.com/){ .card-link title=Documentación}
+    [:octicons-code-16:](https://github.com/streetwriters/notesnook){ .card-link title="Código Fuente" }
+    [:octicons-heart-16:](https://github.com/streetwriters/notesnook/blob/master/CONTRIBUTING.md){ .card-link title=Contribuir }
     
-    ??? downloads
+    ??? descargas
     
         - [:simple-googleplay: Google Play](https://play.google.com/store/apps/details?id=com.streetwriters.notesnook)
         - [:simple-appstore: App Store](https://apps.apple.com/us/app/notesnook-take-private-notes/id1544027013)
@@ -60,7 +60,7 @@ Si actualmente utilizas una aplicación como Evernote, Google Keep o Microsoft O
         - [:simple-firefoxbrowser: Firefox](https://notesnook.com/notesnook-web-clipper/)
         - [:simple-googlechrome: Chrome](https://chrome.google.com/webstore/detail/notesnook-web-clipper/kljhpemdlcnjohmfmkogahelkcidieaj)
 
-Notesnook does not support password/PIN protection on the web & desktop apps. However, you can still lock individual notes, and your data is always encrypted in transit and on your device using your master key.
+Notesnook no soporta la protección por contraseña/PIN en la web ni en las aplicaciones de escritorio. Sin embargo, puedes bloquear notas individuales, y tus datos siempre están encriptados en tránsito y en tu dispositivo utilizando tu clave maestra.
 
 ### Joplin
 
@@ -113,7 +113,7 @@ Cryptee ofrece 100MB de almacenamiento gratuito, con opciones de pago si necesit
 
 ### Org-mode
 
-!!! recommendation
+!!! recomendación
 
     ![Org-mode logo](assets/img/notebooks/org-mode.svg){ align=right }
     

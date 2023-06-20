@@ -17,9 +17,9 @@ schema:
     - https://mastodon.neat.computer/@privacyguides
 ---
 
-![Privacy Guides logo](../assets/brand/PNG/Square/pg-yellow.png){ align=right }
+![Logótipo do Privacy Guides](../assets/brand/PNG/Square/pg-yellow.png){ align=right }
 
-**Privacy Guides** is a socially motivated website that provides [information](/kb) for protecting your data security and privacy. A nossa missão é informar o público sobre o valor da privacidade digital e as iniciativas governamentais globais que têm como objetivo monitorizar a sua atividade online. Somos um coletivo sem fins lucrativos, gerido inteiramente por uma [equipa de voluntários](https://discuss.privacyguides.net/g/team) e colaboradores. O nosso site não tem publicidade e não é afiliado a nenhum dos fornecedores listados.
+O **Privacy Guides** é um site de motivação social que fornece [informações](/kb) com vista à segurança e a privacidade dos seus dados. A nossa missão é informar o público sobre o valor da privacidade digital e as iniciativas governamentais globais que têm como objetivo monitorizar a sua atividade online. Somos um coletivo sem fins lucrativos, gerido inteiramente por uma [equipa de voluntários](https://discuss.privacyguides.net/g/team) e colaboradores. O nosso site não tem publicidade e não é afiliado a nenhum dos fornecedores listados.
 
 [:octicons-home-16:](https://www.privacyguides.org/){ .card-link title=Homepage }
 [:octicons-code-16:](https://github.com/privacyguides/privacyguides.org){ .card-link title="Código-fonte" }
@@ -37,15 +37,15 @@ Também destacado em: [Ars Technica](https://arstechnica.com/gadgets/2022/02/is-
 
 ## História
 
-Privacy Guides was launched in September 2021 as a continuation of the [defunct](privacytools.md) "PrivacyTools" open-source educational project. We recognized the importance of independent, criteria-focused product recommendations and general knowledge in the privacy space, which is why we needed to preserve the work that had been created by so many contributors since 2015 and make sure that information had a stable home on the web indefinitely.
+O Privacy Guides foi lançado em setembro de 2021 como uma continuação do [defunto](privacytools.md) projeto educativo de código aberto "PrivacyTools". Reconhecemos a importância de recomendações de produtos independentes, cujo foco está centrado nas preocupações relacionadas com a privacidade, razão pela qual precisávamos de preservar o trabalho que tinha sido criado por tantos colaboradores, desde 2015, e garantir que as informações continuavam a ter uma casa estável na Web, por tempo indeterminado.
 
-In 2022, we completed the transition of our main website framework from Jekyll to MkDocs, using the `mkdocs-material` documentation software. This change made open-source contributions to our site significantly easier for outsiders, because instead of needing to know complicated syntax to write posts effectively, contributing is now as easy as writing a standard Markdown document.
+Em 2022, concluímos a transição da estrutura do nosso principal site de Jekyll para MkDocs, utilizando o software de documentação `mkdocs-material`. Esta alteração tornou as contribuições de código aberto para o nosso site significativamente mais fáceis de realizar por pessoas de fora da estrutura, uma vez que deixou de ser necessária a utilização de uma sintaxe complicada para escrever mensagens de forma eficaz, bastando agora escrever um documento em formato Markdown.
 
-We additionally launched our new discussion forum at [discuss.privacyguides.net](https://discuss.privacyguides.net/) as a community platform to share ideas and ask questions about our mission. This augments our existing community on Matrix, and replaced our previous GitHub Discussions platform, decreasing our reliance on proprietary discussion platforms.
+Além disso, lançámos o nosso novo fórum de discussão em [discuss.privacyguides.net](https://discuss.privacyguides.net/) como uma plataforma comunitária para partilhar ideias e colocar questões sobre a nossa missão. Com isto, aumentamos a nossa comunidade existente no Matrix e substituimos a nossa anterior plataforma GitHub Discussions, diminuindo a nossa dependência de plataformas de discussão proprietárias.
 
-So far in 2023 we've launched international translations of our website in [French](/fr/), [Hebrew](/he/), and [Dutch](/nl/), with more languages on the way, made possible by our excellent translation team on [Crowdin](https://crowdin.com/project/privacyguides). We plan to continue carrying forward our mission of outreach and education, and finding ways to more clearly highlight the dangers of a lack of privacy awareness in the modern digital age, and the prevalence and harms of security breaches across the technology industry.
+Até ao momento, lançámos traduções internacionais do nosso site em [Francês](/fr/), [Hebraico](/he/), e [Holandês](/nl/), estando neste momento em preparação versões em mais línguas, graças ao contributo da nossa excelente equipa de tradução do [Crowdin](https://crowdin.com/project/privacyguides). Tencionamos continuar a levar por diante a nossa missão de divulgação e educação e encontrar formas de realçar mais claramente os perigos da falta de sensibilização para a privacidade na era digital moderna, bem como a prevalência e os danos das violações de segurança na indústria tecnológica.
 
-## Our Team
+## A nossa equipa
 
 Recomendamos armazenar uma chave de recuperação local em um local seguro, em vez de utilizar a recuperação do iCloud FileVault. person "@jonah"
 
@@ -59,21 +59,21 @@ Recomendamos armazenar uma chave de recuperação local em um local seguro, em v
     - [:simple-discourse: Discourse](https://discuss.privacyguides.net/u/Niek-de-Wilde)
     - [:simple-github: GitHub](https://github.com/blacklight447 "@blacklight447")
     - [:simple-mastodon: Mastodon](https://mastodon.social/@blacklight447 "@blacklight447@mastodon.social"){rel=me}
-    - [:fontawesome-solid-envelope: Email](mailto:niekdewilde@privacyguides.org)
+    - [:fontawesome-solid-envelope: E-mail](mailto:niekdewilde@privacyguides.org)
 
 Recomendamos armazenar uma chave de recuperação local em um local seguro, em vez de utilizar a recuperação do iCloud FileVault. person "@dngray"
 
     - [:simple-discourse: Discourse](https://discuss.privacyguides.net/u/dngray)
     - [:simple-github: GitHub](https://github.com/dngray "@dngray")
     - [:simple-mastodon: Mastodon](https://mastodon.social/@dngray "@dngray@mastodon.social"){rel=me}
-    - [:fontawesome-solid-envelope: Email](mailto:dngray@privacyguides.org)
+    - [:fontawesome-solid-envelope: E-mail](mailto:dngray@privacyguides.org)
 
 Recomendamos armazenar uma chave de recuperação local em um local seguro, em vez de utilizar a recuperação do iCloud FileVault. person "@freddy"
 
     - [:simple-discourse: Discourse](https://discuss.privacyguides.net/u/freddy)
     - [:simple-github: GitHub](https://github.com/freddy-m "@freddy-m")
     - [:simple-mastodon: Mastodon](https://social.lol/@freddy "@freddy@social.lol"){rel=me}
-    - [:fontawesome-solid-envelope: Email](mailto:freddy@privacyguides.org)
+    - [:fontawesome-solid-envelope: E-mail](mailto:freddy@privacyguides.org)
     - [:fontawesome-solid-house: Homepage](https://freddy.omg.lol)
 
 Recomendamos armazenar uma chave de recuperação local em um local seguro, em vez de utilizar a recuperação do iCloud FileVault. person "@mfwmyfacewhen"
@@ -88,16 +88,16 @@ Recomendamos armazenar uma chave de recuperação local em um local seguro, em v
     - [:simple-github: GitHub](https://github.com/hook9 "@hook9")
     - [:simple-mastodon: Mastodon](https://mastodon.neat.computer/@oliviablob "@oliviablob@neat.computer"){rel=me}
 
-Additionally, [many people](https://github.com/privacyguides/privacyguides.org/graphs/contributors) have made contributions to the project. You can too, we're open sourced on GitHub, and accepting translation suggestions on [Crowdin](https://crowdin.com/project/privacyguides).
+Além destas pessoas, [muitas outras](https://github.com/privacyguides/privacyguides.org/graphs/contributors) deram o seu contributo para o projeto. Também poderá fazê-lo. O nosso código é aberto no GitHub e estamos a aceitar sugestões de tradução em [Crowdin](https://crowdin.com/project/privacyguides).
 
-Our team members review all changes made to the website and handle administrative duties such as web hosting and financials, however they do not personally profit from any contributions made to this site. Our financials are transparently hosted by the Open Collective Foundation 501(c)(3) at [opencollective.com/privacyguides](https://opencollective.com/privacyguides). Donations to Privacy Guides are generally tax-deductible in the United States.
+Os membros da nossa equipa analisam todas as alterações feitas ao site e tratam das tarefas administrativas, como o alojamento Web e as finanças, sem que lucrem pessoalmente com quaisquer contribuições financeiras a este site. As nossas finanças podem ser consultadas, de forma transparente, na Open Collective Foundation 501(c)(3) em [opencollective.com/privacyguides](https://opencollective.com/privacyguides). Os donativos para o Privacy Guides são geralmente dedutíveis nos Estados Unidos.
 
-## Site License
+## Licença do site
 
 !!! danger ""
 
     Segue-se um resumo legível por humanos (e não um substituto) do [license](/license).
 
-:fontawesome-brands-creative-commons: :fontawesome-brands-creative-commons-by: :fontawesome-brands-creative-commons-nd: Unless otherwise noted, the original content on this website is made available under the [Creative Commons Attribution-NoDerivatives 4.0 International Public License](https://github.com/privacyguides/privacyguides.org/blob/main/LICENSE). This means that you are free to copy and redistribute the material in any medium or format for any purpose, even commercially; as long as you give appropriate credit to `Privacy Guides (www.privacyguides.org)` and provide a link to the license. Você **não pode** utilizar a marca Privacy Guides no seu próprio projecto sem a aprovação expressa deste projecto. If you remix, transform, or build upon the content of this website, you may not distribute the modified material.
+:fontawesome-brands-creative-commons: :fontawesome-brands-creative-commons-by: :fontawesome-brands-creative-commons-nd: Salvo indicação em contrário, o conteúdo original deste site é disponibilizado ao abrigo da licença pública internacional [Creative Commons Attribution-NoDerivatives 4.0](https://github.com/privacyguides/privacyguides.org/blob/main/LICENSE). Isto significa que o utilizador é livre de copiar e redistribuir o material em qualquer meio ou formato para qualquer fim, mesmo comercialmente, desde que atribua o devido crédito a `Privacy Guides (www.privacyguides.org)` e forneça uma hiperligação para a licença. Pode fazê-lo de forma razoável, mas não de uma forma que sugira que o Privacy Guides o apoia ou apoia o modo como usa a informação. Se combinar, transformar ou desenvolver conteúdo a partir deste site, não pode distribuir o material modificado.
 
-This license is in place to prevent people from sharing our work without giving proper credit, and to prevent people from modifying our work in a way that could be used to mislead people. If you find the terms of this license too restrictive for the project you're working on, please reach out to us at `jonah@privacyguides.org`. We are happy to provide alternative licensing options for well-intentioned projects in the privacy space!
+Esta licença existe para evitar que o nosso trabalho seja partilhado sem que seja dado o devido crédito, assim como para evitar que o nosso trabalho possa ser modificado de forma a enganar as pessoas. Se considerar que os termos desta licença são demasiado restritivos para o projeto em que está a trabalhar, contacte-nos através do e-mail `jonah@privacyguides.org`. Teremos todo o gosto em oferecer opções de licenciamento alternativas para projetos bem intencionados no âmbito da defesa da privacidade!

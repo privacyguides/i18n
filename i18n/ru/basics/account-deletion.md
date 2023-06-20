@@ -1,16 +1,16 @@
 ---
 title: "Удаление аккаунта"
 icon: 'material/account-remove'
-description: It's easy to accumulate a large number of internet accounts, here are some tips on how to prune your collection.
+description: Легко накопить большое количество интернет-аккаунтов, вот несколько советов о том, как уменьшить их количество.
 ---
 
-Over time, it can be easy to accumulate a number of online accounts, many of which you may no longer use. Deleting these unused accounts is an important step in reclaiming your privacy, as dormant accounts are vulnerable to data breaches. A data breach is when a service's security is compromised and protected information is viewed, transmitted, or stolen by unauthorized actors. Data breaches are unfortunately all [too common](https://haveibeenpwned.com/PwnedWebsites) these days, and so practicing good digital hygiene is the best way to minimize the impact they have on your life. The goal of this guide then is to help navigate you through the irksome process of account deletion, often made difficult by [deceptive design](https://www.deceptive.design/), for the betterment of your online presence.
+Со временем можно легко накопить множество учетных записей в Интернете, многие из которых вы можете уже не использовать. Удаление этих неиспользуемых учетных записей - важный шаг в восстановлении конфиденциальности, поскольку неиспользуемые учетные записи уязвимы для утечки данных. Утечка данных - это когда безопасность сервиса скомпрометирована, и защищенная информация просматривается, передается или похищается неавторизованными лицами. К сожалению, утечки данных - [слишком частое](https://haveibeenpwned.com/PwnedWebsites) явление в наши дни, поэтому соблюдение правил цифровой гигиены - лучший способ минимизировать их влияние на вашу жизнь. The goal of this guide then is to help navigate you through the irksome process of account deletion, often made difficult by [deceptive design](https://www.deceptive.design/), for the betterment of your online presence.
 
-## Finding Old Accounts
+## Поиск старых аккаунтов
 
-### Password Manager
+### Менеджер паролей
 
-If you have a password manager that you've used for your entire digital life, this part will be very easy. Oftentimes, they include built-in functionality for detecting if your credentials were exposed in a data breach—such as Bitwarden's [Data Breach Report](https://bitwarden.com/blog/have-you-been-pwned/).
+Если у вас есть менеджер паролей, которым вы пользовались на протяжении всей своей цифровой жизни, то эта часть будет очень простой. Oftentimes, they include built-in functionality for detecting if your credentials were exposed in a data breach—such as Bitwarden's [Data Breach Report](https://bitwarden.com/blog/have-you-been-pwned/).
 
 <figure markdown>
   ![Bitwarden's Data Breach Report feature](../assets/img/account-deletion/exposed_passwords.png)

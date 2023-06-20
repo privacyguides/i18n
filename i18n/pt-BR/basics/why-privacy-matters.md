@@ -32,7 +32,7 @@ Anonymity is the ability to act without a persistent identifier. You might achie
 
 **Pseudonymity** is a similar concept, but it allows you to have a persistent identifier without it being tied to your real identity. If everybody knows you as `@GamerGuy12` online, but nobody knows your real name, that is your pseudonym.
 
-Todos esses conceitos se sobrepõem, mas é possível ter qualquer combinação deles. O ponto ideal para a maioria das pessoas é quando todos esses três conceitos se coincidem. Porém, isso é mais difícil de conseguir do que muitos acreditam inicialmente. Às vezes, você precisa fazer um meio-termo em relação a alguns desses itens, e isso também é normal. É nesse ponto que a **modelagem de ameaças** entra em ação, permitindo que você tome decisões informadas sobre os [aplicativos e serviços](../tools.md) que você usa.
+Todos esses conceitos se sobrepõem, mas é possível ter qualquer combinação deles. O ponto ideal para a maioria das pessoas é quando todos esses três conceitos se coincidem. However, it's trickier to achieve than many initially believe. Às vezes, você precisa fazer um meio-termo em relação a alguns desses itens, e isso também é normal. É nesse ponto que a **modelagem de ameaças** entra em ação, permitindo que você tome decisões informadas sobre os [aplicativos e serviços](../tools.md) que você usa.
 
 [:material-book-outline: Saiba Mais Sobre a Modelagem de Ameaças](threat-modeling.md ""){.md-button}
 

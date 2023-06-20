@@ -1,6 +1,6 @@
 ---
 meta_title: "Private Cryptocurrency Blockchains - Privacy Guides"
-title: Cryptocurrency
+title: Criptomoeda
 icon: material/bank-circle
 cover: cryptocurrency.png
 ---

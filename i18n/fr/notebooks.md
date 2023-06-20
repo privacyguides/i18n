@@ -39,17 +39,17 @@ Si vous utilisez actuellement une application comme Evernote, Google Keep, ou Mi
 
 !!! recommendation
 
-    ![Notesnook logo](assets/img/notebooks/notesnook.svg){ align=right }
+    ![Logo Notesnook](assets/img/notebooks/notesnook.svg){ align=right }
     
-    **Notesnook** is a free (as in speech) & open-source note-taking app focused on user privacy & ease of use. It features end-to-end encryption on all platforms with a powerful sync to take your notes on the go. You can easily import your notes from Evernote, OneNote & a lot of other apps using their [official importer](https://importer.notesnook.com/).
+    **Notesnook** est une application de prise de notes libre & open-source axée sur la confidentialité de l'utilisateur & la facilité d'utilisation. Elle propose un chiffrement de bout en bout sur toutes les plateformes et une synchronisation puissante pour prendre vos notes en déplacement. Vous pouvez facilement importer vos notes depuis Evernote, OneNote & bien d'autres applications en utilisant leur [importateur officiel](https://importer.notesnook.com/).
     
-    [:octicons-home-16: Homepage](https://notesnook.com/){ .md-button .md-button--primary }
-    [:octicons-eye-16:](https://notesnook.com/privacy){ .card-link title="Privacy Policy" }
+    [:octicons-home-16: Page d'accueil](https://notesnook.com/){ .md-button .md-button--primary }
+    [:octicons-eye-16:](https://notesnook.com/privacy){ .card-link title="Politique de confidentialité" }
     [:octicons-info-16:](https://help.notesnook.com/){ .card-link title=Documentation}
-    [:octicons-code-16:](https://github.com/streetwriters/notesnook){ .card-link title="Source Code" }
-    [:octicons-heart-16:](https://github.com/streetwriters/notesnook/blob/master/CONTRIBUTING.md){ .card-link title=Contribute }
+    [:octicons-code-16:](https://github.com/streetwriters/notesnook){ .card-link title="Code source" }
+    [:octicons-heart-16:](https://github.com/streetwriters/notesnook/blob/master/CONTRIBUTING.md){ .card-link title=Contribuer }
     
-    ??? downloads
+    ??? downloads "Téléchargements"
     
         - [:simple-googleplay: Google Play](https://play.google.com/store/apps/details?id=com.streetwriters.notesnook)
         - [:simple-appstore: App Store](https://apps.apple.com/us/app/notesnook-take-private-notes/id1544027013)
@@ -60,7 +60,7 @@ Si vous utilisez actuellement une application comme Evernote, Google Keep, ou Mi
         - [:simple-firefoxbrowser: Firefox](https://notesnook.com/notesnook-web-clipper/)
         - [:simple-googlechrome: Chrome](https://chrome.google.com/webstore/detail/notesnook-web-clipper/kljhpemdlcnjohmfmkogahelkcidieaj)
 
-Notesnook does not support password/PIN protection on the web & desktop apps. However, you can still lock individual notes, and your data is always encrypted in transit and on your device using your master key.
+Notesnook ne prend pas en charge la protection par mot de passe/PIN sur les applications web & bureau. Cependant, vous pouvez toujours verrouiller des notes individuelles, et vos données sont toujours chiffrées en transit et sur votre appareil à l'aide de votre clé principale.
 
 ### Joplin
 

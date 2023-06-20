@@ -1,35 +1,35 @@
 ---
-meta_title: "The Best Private Instant Messengers - Privacy Guides"
-title: "Clientes de streaming de vídeo"
+meta_title: "As melhores aplicações de mensagens instantâneas com foco na privacidade - Privacy Guides"
+title: "Comunicação em tempo real"
 icon: material/chat-processing
-description: Other instant messengers make all of your private conversations available to the company that runs them.
+description: Outras aplicações de mensagens instantâneas disponibilizam todas as suas conversas privadas à empresa que as gere.
 cover: real-time-communication.png
 ---
 
-These are our recommendations for encrypted real-time communication.
+Estas são as nossas recomendações para comunicação encriptada em tempo real.
 
-[Types of Communication Networks :material-arrow-right-drop-circle:](./advanced/communication-network-types.md)
+[Tipos de redes de comunicação :material-arrow-right-drop-circle:](./advanced/communication-network-types.md)
 
-## Mensageiros Instantâneos Criptografados
+## Aplicações de mensagens encriptadas
 
-These messengers are great for securing your sensitive communications.
+Estas aplicações de mensagens são ótimas para proteger as suas comunicações sensíveis.
 
 ### Signal
 
 !!! nota
     Consulte o [Tabela de Hardware](https://openwrt.org/toh/start) para verificar se o seu dispositivo é suportado.
 
-    ![Logotipo do sinal](/assets/img/messengers/signal.svg){ align=right }
+    ![Logótipo Signal](assets/img/messengers/signal.svg){ align=right }
     
-    **Sinal*** é uma aplicação móvel desenvolvida pela Signal Messenger LLC. O aplicativo fornece mensagens instantâneas, bem como chamadas de voz e vídeo.
+    **Signal** é uma aplicação para dispositivos móveis desenvolvida pela Signal Messenger LLC. A aplicação permite o envio de mensagens instantâneas, bem como chamadas de voz e vídeo.
     
-    Todas as comunicações são E2EE. As listas de contatos são criptografadas usando seu PIN de login e o servidor não tem acesso a elas. Personal profiles are also encrypted and only shared with contacts you chat with.
+    Todas as comunicações são E2EE. As listas de contactos são encriptadas utilizando o PIN do Signal e o servidor não tem acesso a elas. Os perfis pessoais também são encriptados e apenas são partilhados com os contactos com quem conversa.
     
     [:octicons-home-16: Homepage](https://signal.org/){ .md-button .md-button--primary }
-    [:octicons-eye-16:](https://signal.org/legal/#privacy-policy){ .card-link title="Privacy Policy" }
-    [:octicons-info-16:](https://support.signal.org/hc/en-us){ .card-link title=Documentation}
-    [:octicons-code-16:](https://github.com/signalapp){ .card-link title="Source Code" }
-    [:octicons-heart-16:](https://signal.org/donate/){ .card-link title=Contribute }
+    [:octicons-eye-16:](https://signal.org/legal/#privacy-policy){ .card-link title="Política de Privacidade" }
+    [:octicons-info-16:](https://support.signal.org/hc/en-us){ .card-link title=Documentação}
+    [:octicons-code-16:](https://github.com/signalapp){ .card-link title="Código-fonte" }
+    [:octicons-heart-16:](https://signal.org/donate/){ .card-link title=Contribuir }
     
     ??? downloads
     
@@ -40,41 +40,37 @@ These messengers are great for securing your sensitive communications.
         - [:simple-apple: macOS](https://signal.org/download/macos)
         - [:simple-linux: Linux](https://signal.org/download/linux)
 
-Signal supports [private groups](https://signal.org/blog/signal-private-group-system/). The server has no record of your group memberships, group titles, group avatars, or group attributes. Signal has minimal metadata when [Sealed Sender](https://signal.org/blog/sealed-sender/) is enabled. The sender address is encrypted along with the message body, and only the recipient address is visible to the server. Sealed Sender is only enabled for people in your contacts list, but can be enabled for all recipients with the increased risk of receiving spam. Signal requires your phone number as a personal identifier.
+O Signal suporta [grupos privados](https://signal.org/blog/signal-private-group-system/). O servidor não tem qualquer registo dos grupos a que pertence, títulos de grupo, avatares de grupo ou atributos de grupo. O Signal tem metadados mínimos quando se ativa o[Sealed Sender](https://signal.org/blog/sealed-sender/). O endereço do remetente é encriptado juntamente com o corpo da mensagem e apenas o endereço do destinatário é visível para o servidor. O Sealed Sender só está ativado para as pessoas da sua lista de contactos, mas pode ser ativado para todos os destinatários, com o risco acrescido de poder receber spam. O Signal requer o seu número de telefone como identificador pessoal.
 
-The protocol was independently [audited](https://eprint.iacr.org/2016/1013.pdf) in 2016. The specification for the Signal protocol can be found in their [documentation](https://signal.org/docs/).
+O protocolo foi objeto de uma [auditoria](https://eprint.iacr.org/2016/1013.pdf) independente em 2016. A especificação do protocolo Signal pode ser encontrada na sua [documentação](https://signal.org/docs/).
 
-We have some additional tips on configuring and hardening your Signal installation:
+Temos algumas dicas adicionais sobre como configurar e fortalecer a sua instalação do Signal:
 
-[Signal Configuration and Hardening :material-arrow-right-drop-circle:](https://blog.privacyguides.org/2022/07/07/signal-configuration-and-hardening/)
+[Configuração e robustecimento do Signal :material-arrow-right-drop-circle:](https://blog.privacyguides.org/2022/07/07/signal-configuration-and-hardening/)
 
 ### SimpleX Chat
 
 !!! nota
     Consulte o [Tabela de Hardware](https://openwrt.org/toh/start) para verificar se o seu dispositivo é suportado.
 
-    Element logo](/assets/img/messengers/element.svg){ align=right }
+    ![Logótipo Simplex](assets/img/messengers/simplex.svg){ align=right }
     
-    **Element** é o cliente de referência para o protocolo [Matrix](https://matrix.org/docs/guides/introduction), um [padrão aberto](https://matrix.org/docs/spec) para comunicação segura descentralizada em tempo real. As mensagens e ficheiros partilhados em salas privadas (aquelas que requerem um convite) são, por defeito, E2EE, tal como as chamadas de voz e vídeo de 1 para 1.
+    O **SimpleX** Chat é uma aplicação descentralizada de mensagens instantâneas e não depende de quaisquer identificadores únicos, tais como números de telefone ou nomes de utilizador. Os utilizadores do SimpleX Chat podem fazer scan a um código QR ou clicar numa ligação de convite para participar em conversas de grupo.
     
-    [Visit element.io](https://element.io/){ .md-button .md-button--primary }
+    [:octicons-home-16: Homepage](https://simplex.chat){ .md-button .md-button--primary }
+    [:octicons-eye-16:](https://github.com/simplex-chat/simplex-chat/blob/stable/PRIVACY.md){ .card-link title="Política de Privacidade" }
+    [:octicons-info-16:](https://github.com/simplex-chat/simplex-chat/tree/stable/docs){ .card-link title=Documentação}
+    [:octicons-code-16:](https://github.com/simplex-chat){ .card-link title="Código-fonte" }
     
-    **Downloads***
-    - [:fontawesome-brands-windows: Windows](https://element.io/get-started)
-    - [:fontawesome-brands-apple: macOS](https://element.io/get-started)
-    - [:fontawesome-brands-linux: Linux](https://element.io/get-started)
-    - [:fontawesome-brands-android: Android](https://f-droid.org/packages/im.vector.app/)
-    - [:fontawesome-brands-google-play: Google Play](https://play.google.com/store/apps/details?id=im.vector.app)
-    - [:fontawesome-brands-app-store-ios: App Store](https://apps.apple.com/app/vector/id1083446067)
-    - [:fontawesome-brands-github: Source](https://github.com/vector-im/element-web) downloads
+    ??? downloads
     
         - [:simple-googleplay: Google Play](https://play.google.com/store/apps/details?id=chat.simplex.app)
         - [:simple-appstore: App Store](https://apps.apple.com/us/app/simplex-chat/id1605771084)
         - [:simple-github: GitHub](https://github.com/simplex-chat/simplex-chat/releases)
 
-SimpleX Chat [was audited](https://simplex.chat/blog/20221108-simplex-chat-v4.2-security-audit-new-website.html) by Trail of Bits in October 2022.
+O SimpleX Chat [foi auditado](https://simplex.chat/blog/20221108-simplex-chat-v4.2-security-audit-new-website.html) por Trail of Bits, em outubro de 2022.
 
-Currently SimpleX Chat only provides a client for Android and iOS. Basic group chatting functionality, direct messaging, editing of messages and markdown are supported. E2EE Audio and Video calls are also supported.
+Atualmente, o SimpleX Chat apenas disponibiliza clientes para Android e iOS. São suportadas as funcionalidades básicas de conversação em grupo, mensagens diretas, edição de mensagens e markdown. E2EE Audio and Video calls are also supported.
 
 Your data can be exported, and imported onto another device, as there are no central servers where this is backed up.
 

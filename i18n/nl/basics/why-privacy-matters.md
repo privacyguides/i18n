@@ -32,7 +32,7 @@ Anonymity is the ability to act without a persistent identifier. You might achie
 
 **Pseudonymity** is a similar concept, but it allows you to have a persistent identifier without it being tied to your real identity. If everybody knows you as `@GamerGuy12` online, but nobody knows your real name, that is your pseudonym.
 
-Al deze begrippen overlappen elkaar, maar het is mogelijk om er een combinatie van te maken. De beste plek voor de meeste mensen is wanneer deze drie concepten elkaar overlappen. Het is echter lastiger te bereiken dan velen aanvankelijk denken. Soms moet je compromissen sluiten op sommige daarvan, en dat is ook oké. Dit is waar **dreigingsmodellering** wordt gebruikt, zodat je weloverwogen beslissingen kunt nemen over de [software en diensten](../tools.md) die je gebruikt.
+Al deze begrippen overlappen elkaar, maar het is mogelijk om er een combinatie van te maken. De beste plek voor de meeste mensen is wanneer deze drie concepten elkaar overlappen. However, it's trickier to achieve than many initially believe. Soms moet je compromissen sluiten op sommige daarvan, en dat is ook oké. Dit is waar **dreigingsmodellering** wordt gebruikt, zodat je weloverwogen beslissingen kunt nemen over de [software en diensten](../tools.md) die je gebruikt.
 
 [:material-book-outline: Meer informatie over dreigingsmodellering](threat-modeling.md ""){.md-button}
 
