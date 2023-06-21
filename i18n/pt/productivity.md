@@ -1,36 +1,30 @@
 ---
 title: "Ferramentas de produtividade"
 icon: material/file-sign
-description: Most online office suites do not support E2EE, meaning the cloud provider has access to everything you do.
+description: A maioria das suites de escritório online não suporta E2EE, o que significa que o fornecedor da nuvem tem acesso a tudo o que faz.
 cover: productivity.png
 ---
 
-Most online office suites do not support E2EE, meaning the cloud provider has access to everything you do. The privacy policy may legally protect your rights, but it does not provide technical access constraints.
+A maioria das suites de escritório online não suporta E2EE, o que significa que o fornecedor da nuvem tem acesso a tudo o que faz. A política de privacidade pode proteger legalmente os seus direitos, mas não prevê restrições técnicas de acesso.
 
-## Suítes de Escritório
+## Plataformas de colaboração
 
 ### LibreOffice
 
 !!! nota
     Consulte o [Tabela de Hardware](https://openwrt.org/toh/start) para verificar se o seu dispositivo é suportado.
 
-    ![logotipo do LibreOffice](/assets/img/productivity/libreoffice.svg){ align=right }
+    ![Logótipo Nextcloud](assets/img/productivity/nextcloud.svg){ align=right }
     
-    **LibreOffice** é uma suite de escritório gratuita e de código aberto com amplas funcionalidades.
+    O **Nextcloud** é um conjunto de software cliente-servidor gratuito e de código aberto que lhe permite criar os seus próprios serviços de alojamento de ficheiros num servidor que controla.
     
-    [Visite libreoffice.org](https://www.libreoffice.org){ .md-button .md-button--primary } [Política de Privacidade](https://www.libreoffice.org/about-us/privacy/privacy-policy-en/){ .md-button }
+    [:octicons-home-16: Homepage](https://nextcloud.com){ .md-button .md-button--primary }
+    [:octicons-eye-16:](https://nextcloud.com/privacy){ .card-link title="Política de Privacidade" }
+    [:octicons-info-16:](https://nextcloud.com/support/){ .card-link title=Documentação}
+    [:octicons-code-16:](https://github.com/nextcloud){ .card-link title="Código-fonte" }
+    [:octicons-heart-16:](https://nextcloud.com/contribute/){ .card-link title=Contribuir }
     
-    **Downloads***
-    - [:fontawesome-brands-windows: Windows](https://www.libreoffice.org/download/download/)
-    - [:fontawesome-brands-apple: macOS](https://www.libreoffice.org/download/download/)
-    - [:fontawesome-brands-linux: Linux](https://www.libreoffice.org/download/download/)
-    - [:pg-flathub: Flatpak](https://www.libreoffice.org/download/download/)
-    - [:fontawesome-brands-freebsd: FreeBSD](https://www.freshports.org/editors/libreoffice/)
-    - [:pg-openbsd: OpenBSD](https://openports.se/editors/libreoffice)
-    - [:pg-netbsd: NetBSD](https://pkgsrc.se/misc/libreoffice)
-    - [:fontawesome-brands-google-play: Google Play](https://www.libreoffice.org/download/android-and-ios/)
-    - [:fontawesome-brands-app-store-ios: App Store](https://www.libreoffice.org/download/android-and-ios/)
-    - [:fontawesome-brands-git: Source](https://www.libreoffice.org/about-us/source-code) downloads
+    ??? downloads
     
         - [:simple-googleplay: Google Play](https://play.google.com/store/apps/details?id=com.nextcloud.client)
         - [:simple-appstore: App Store](https://apps.apple.com/app/id1125420102)
@@ -40,65 +34,52 @@ Most online office suites do not support E2EE, meaning the cloud provider has ac
         - [:simple-linux: Linux](https://nextcloud.com/install/#install-clients)
         - [:simple-freebsd: FreeBSD](https://www.freshports.org/www/nextcloud)
 
-!!! Isto permite-nos fornecer recomendações completamente objectivas.</strong> Desenvolvemos um conjunto claro de requisitos para qualquer provedor de VPN que deseje ser recomendado, incluindo criptografia forte, auditorias de segurança independentes, tecnologia moderna, e muito mais.
+!!! perigo
 
-    ![OnlyOffice logo](/assets/img/productivity/onlyoffice.svg){ align=right }
-    
-    **OnlyOffice** é uma alternativa, é uma suite de escritório gratuita e de código aberto com uma extensa funcionalidade. [Visite apenasoffice.com](https://www.onlyoffice.com){ .md-button .md-button--primary } [Política de Privacidade](https://help.onlyoffice.com/products/files/doceditor.aspx?fileid=5048502&doc=SXhWMEVzSEYxNlVVaXJJeUVtS0kyYk14YWdXTEFUQmRWL250NllHNUFGbz0_IjUwNDg1MDIi0){ .md-button }
-    
-    **Downloads***
-    - [:fontawesome-brands-windows: Windows](https://www.onlyoffice.com/download-desktop.aspx?from=default)
-    - [:fontawesome-brands-apple: macOS](https://www.onlyoffice.com/download-desktop.aspx?from=default)
-    - [:fontawesome-brands-linux: Linux](https://www.libreoffice.org/download/download/)
-    - [:fontawesome-brands-freebsd: FreeBSD](https://www.freshports.org/wwww/onlyoffice-documentserver/)
-    - [:fontawesome-brands-google-play: Google Play](https://play.google.com/store/apps/details?id=com.onlyoffice.documents)
-    - [:fontawesome-brands-app-store-ios: App Store](https://apps.apple.com/us/app/onlyoffice-documents/id944896972)
-    - [:fontawesome-brands-github: Source](https://github.com/ONLYOFFICE)
+    Não recomendamos a utilização da [E2EE App](https://apps.nextcloud.com/apps/end_to_end_encryption) para o Nextcloud, uma vez que pode levar à perda de dados; é altamente experimental e não tem qualidade de produção. Por esse motivo, não recomendamos fornecedores Nextcloud de terceiros.
 
-### OnlyOffice
+### CryptPad
 
 !!! nota
     Consulte o [Tabela de Hardware](https://openwrt.org/toh/start) para verificar se o seu dispositivo é suportado.
 
-    ![logo Framadate](/assets/img/productivity/framadate.svg){ align=right }
+    ![Logótipo CryptPad](assets/img/productivity/cryptpad.svg){ align=right }
     
-    **Framadate** é um serviço online gratuito e de código aberto para planejar uma consulta ou tomar uma decisão de forma rápida e fácil. Não é necessário registo.
+    O **CryptPad** é uma alternativa privada por design às ferramentas de escritório populares. Todos os conteúdos deste serviço Web são encriptados de ponta a ponta e podem ser facilmente partilhados com outros utilizadores.
     
     [:octicons-home-16: Homepage](https://cryptpad.fr){ .md-button .md-button--primary }
-    [:octicons-eye-16:](https://cryptpad.fr/pad/#/2/pad/view/GcNjAWmK6YDB3EO2IipRZ0fUe89j43Ryqeb4fjkjehE/){ .card-link title="Privacy Policy" }
-    [:octicons-info-16:](https://docs.cryptpad.fr/){ .card-link title=Documentation}
-    [:octicons-code-16:](https://github.com/xwiki-labs/cryptpad){ .card-link title="Source Code" }
-    [:octicons-heart-16:](https://opencollective.com/cryptpad){ .card-link title=Contribute }
+    [:octicons-eye-16:](https://cryptpad.fr/pad/#/2/pad/view/GcNjAWmK6YDB3EO2IipRZ0fUe89j43Ryqeb4fjkjehE/){ .card-link title="Olítica de Privacidade" }
+    [:octicons-info-16:](https://docs.cryptpad.fr/){ .card-link title=Documentação}
+    [:octicons-code-16:](https://github.com/xwiki-labs/cryptpad){ .card-link title="Código-fonte" }
+    [:octicons-heart-16:](https://opencollective.com/cryptpad){ .card-link title=Contribuir }
 
-### Framadate
+### Critérios
 
-**Please note we are not affiliated with any of the projects we recommend.** In addition to [our standard criteria](about/criteria.md), we have developed a clear set of requirements to allow us to provide objective recommendations. We suggest you familiarize yourself with this list before choosing to use a project, and conduct your own research to ensure it's the right choice for you.
+**Note que não estamos associados a nenhum dos projetos que recomendamos.** Para além dos [nossos critérios padrão](about/criteria.md), temos um conjunto claro de requisitos que nos permitem fornecer recomendações objetivas. Sugerimos que se familiarize com esta lista antes de optar por um projeto e que desenvolva a sua própria investigação para garantir que se trata da escolha certa para si.
 
-!!! Considere o auto-hospedagem para mitigar esta ameaça.
+!!! exemplo "Esta secção é nova"
 
-    ![logo PrivateBin](/assets/img/productivity/privatebin.svg){ align=right }
-    
-    **PrivateBin** é um pastebin online minimalista e de código aberto onde o servidor tem zero conhecimento de dados colados. Os dados são criptografados/descriptografados no navegador usando AES de 256 bits. Psono suporta compartilhamento seguro de senhas, arquivos, marcadores e e-mails.
+    Estamos a trabalhar no sentido de estabelecer critérios para cada secção do nosso site, o que pode originar alterações. Se tiver alguma dúvida sobre os critérios utilizados, por favor [pergunte no nosso fórum] (https://discuss.privacyguides.net/latest) e não parta do princípio de que algo foi excluído das nossas recomendações, caso não esteja listado aqui. São muitos os fatores considerados e discutidos quando recomendamos um projeto, e documentar cada um deles é um trabalho em curso.
 
-In general, we define collaboration platforms as full-fledged suites which could reasonably act as a replacement to collaboration platforms like Google Drive.
+Em geral, definimos as plataformas de colaboração como suites completas que podem razoavelmente atuar como substitutos de plataformas de colaboração, como o Google Drive.
 
-- Open-source.
-- Makes files accessible via WebDAV unless it is impossible due to E2EE.
-- Has sync clients for Linux, macOS, and Windows.
-- Supports document and spreadsheet editing.
-- Supports real-time document collaboration.
-- Supports exporting documents to standard document formats (e.g. ODF).
+- Código aberto.
+- Torna os ficheiros acessíveis através de WebDAV, a menos que tal seja impossível devido ao E2EE.
+- Tem clientes de sincronização para Linux, macOS e Windows.
+- Suporta a edição de documentos e folhas de cálculo.
+- Suporta a colaboração de documentos em tempo real.
+- Suporta a exportação de documentos para formatos de documento padrão (por exemplo, ODF).
 
-#### Best-Case
+#### Melhor caso
 
-Our best-case criteria represents what we would like to see from the perfect project in this category. Our recommendations may not include any or all of this functionality, but those which do may rank higher than others on this page.
+Os nossos melhores critérios representam o que gostaríamos de ver num projeto perfeito desta categoria. As nossas recomendações podem não incluir todas as funcionalidades, mas incluem as que, na nossa opinião, têm um impacto mais elevado.
 
-- Should store files in a conventional filesystem.
-- Should support TOTP or FIDO2 multi-factor authentication support, or Passkey logins.
+- Deve armazenar ficheiros num sistema de ficheiros convencional.
+- Deve suportar a autenticação multifator TOTP ou FIDO2, ou logins Passkey.
 
-## Planejamento
+## Suites de escritório
 
-### PrivateBin
+### LibreOffice
 
 !!! nota
     Consulte o [Tabela de Hardware](https://openwrt.org/toh/start) para verificar se o seu dispositivo é suportado.

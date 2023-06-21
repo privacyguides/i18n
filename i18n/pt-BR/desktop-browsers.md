@@ -161,7 +161,7 @@ O serviço [Firefox Sync](https://hacks.mozilla.org/2018/11/firefox-sync-privacy
 
 Isso protege você contra cookies persistentes, mas não te protege contra cookies adquiridos durante a atual sessão de navegação. A extensão também é uma extensão :trophy: [recomendada](https://support.mozilla.org/kb/add-on-badges#w_recommended-extensions) pela Mozilla. Você pode estabelecer exceções por site, se deseja permanecer logado em um site específico que você visita com frequência.
 
-##### Desativar Telemetria
+##### Telemetria
 
 - Limpar **Permitir que o Firefox envie dados técnicos e de interação para o Mozilla**
 - Limpar **Permitir que o Firefox instale e execute estudos**

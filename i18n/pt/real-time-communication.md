@@ -70,70 +70,61 @@ Temos algumas dicas adicionais sobre como configurar e fortalecer a sua instala�
 
 O SimpleX Chat [foi auditado](https://simplex.chat/blog/20221108-simplex-chat-v4.2-security-audit-new-website.html) por Trail of Bits, em outubro de 2022.
 
-Atualmente, o SimpleX Chat apenas disponibiliza clientes para Android e iOS. São suportadas as funcionalidades básicas de conversação em grupo, mensagens diretas, edição de mensagens e markdown. E2EE Audio and Video calls are also supported.
+Atualmente, o SimpleX Chat apenas disponibiliza clientes para Android e iOS. São suportadas as funcionalidades básicas de conversação em grupo, mensagens diretas, edição de mensagens e markdown. Chamadas de áudio e vídeo E2EE também são suportadas.
 
-Your data can be exported, and imported onto another device, as there are no central servers where this is backed up.
+Os seus dados podem ser exportados e importados para outro dispositivo, dado não existirem servidores centrais com cópias de segurança.
 
 ### Briar
 
 !!! nota
     Consulte o [Tabela de Hardware](https://openwrt.org/toh/start) para verificar se o seu dispositivo é suportado.
 
-    ![logótipo Briar](/assets/img/messengers/briar.svg){ align=right }
+    ![Logótipo Briar](assets/img/messengers/briar.svg){ align=right }
     
-    **Briar** é um mensageiro instantâneo encriptado que [connects](https://briarproject.org/how-it-works/) para outros clientes que utilizam a Rede Tor. Briar também pode se conectar via Wi-Fi ou Bluetooth quando em proximidade local. O modo de rede local do Briar pode ser útil quando a disponibilidade da Internet é um problema.
+    O **Briar** é uma aplicação de mensagens instantâneas encriptada que [connects](https://briarproject.org/how-it-works/) a outros clientes, usando a rede Tor. O Briar pode ligar-se através de Wi-Fi ou Bluetooth. O modo de rede local do Briar pode ser útil, quando não estiver garantida a disponibilidade da Internet.
     
-    [Visite briarproject.org](https://briarproject.org/){ .md-button .md-button--primary }
+    [:octicons-home-16: Homepage](https://briarproject.org/){ .md-button .md-button--primary }
+    [:octicons-eye-16:](https://briarproject.org/privacy-policy/){ .card-link title="Política de Privacidade" }
+    [:octicons-info-16:](https://code.briarproject.org/briar/briar/-/wikis/home){ .card-link title=Documentação}
+    [:octicons-code-16:](https://code.briarproject.org/briar/briar){ .card-link title="Código-fonte" }
+    [:octicons-heart-16:](https://briarproject.org/){ .card-link title="As opções de donativos estão listadas na parte inferior da página inicial" }
     
-    **Downloads***
-    - [:fontawesome-brands-android: Android](https://f-droid.org/packages/org.briarproject.briar.android)
-    - [:fontawesome-brands-google-play: Google Play](https://play.google.com/store/apps/details?id=org.briarproject.briar.android)
-    - [:fontawesome-brands-git: Source](https://code.briarproject.org/briar/briar) downloads
+    ??? downloads
     
         - [:simple-googleplay: Google Play](https://play.google.com/store/apps/details?id=org.briarproject.briar.android)
         - [:simple-windows11: Windows](https://briarproject.org/download-briar-desktop/)
         - [:simple-linux: Linux](https://briarproject.org/download-briar-desktop/)
         - [:simple-flathub: Flathub](https://flathub.org/apps/details/org.briarproject.Briar)
 
-To add a contact on Briar, you must both add each other first. You can either exchange `briar://` links or scan a contact’s QR code if they are nearby.
+Para adicionar um contacto no Briar, é necessário que você e o contacto se adicionem mutuamente. Pode trocar links `briar://` ou digitalizar o código QR de um contacto, se este estiver próximo.
 
-The client software was independently [audited](https://briarproject.org/news/2017-beta-released-security-audit/), and the anonymous routing protocol uses the Tor network which has also been audited.
+O software cliente foi [auditado de forma independente](https://briarproject.org/news/2017-beta-released-security-audit/), e o protocolo de encaminhamento anónimo utiliza a rede Tor, que também foi auditada.
 
-Briar has a fully [published specification](https://code.briarproject.org/briar/briar-spec).
+O Briar publicou na íntegra a sua [especificação](https://code.briarproject.org/briar/briar-spec).
 
-Briar supports perfect forward secrecy by using the Bramble [Handshake](https://code.briarproject.org/briar/briar-spec/blob/master/protocols/BHP.md) and [Transport](https://code.briarproject.org/briar/briar-spec/blob/master/protocols/BTP.md) protocol.
+O Briar suporta encaminhamento totalmente sigiloso, através do Bramble [Handshake](https://code.briarproject.org/briar/briar-spec/blob/master/protocols/BHP.md) e [Transport](https://code.briarproject.org/briar/briar-spec/blob/master/protocols/BTP.md).
 
-## Tipos de Redes de Comunicação
+## Opções adicionais
 
-!!! Recomendamos que você verifique o [documentação](https://developers.yubico.com/SSH/) de Yubico sobre como configurar isso.
+!!! aviso
 
-    These messengers do not have Perfect [Forward Secrecy](https://en.wikipedia.org/wiki/Forward_secrecy) (PFS), and while they fulfill certain needs that our previous recommendations may not, we do not recommend them for long-term or sensitive communications. [Visite getession.org](https://getsession.org/){ .md-button .md-button--primary }
-    
-    **Downloads***
-    - [:fontawesome-brands-windows: Windows](https://getsession.org/windows)
-    - [:fontawesome-brands-apple: macOS](https://getsession.org/mac)
-    - [:fontawesome-brands-app-store-ios: App Store](https://apps.apple.com/app/id1470168868)
-    - [:fontawesome-brands-linux: Linux](https://www.getession.org/linux)
-    - [:fontawesome-brands-android: Android](https://fdroid.getsession.org/)
-    - [:fontawesome-brands-google-play: Google Play](https://play.google.com/store/apps/details?id=network.loki.messenger)
-    - [:pg-f-droid: F-Droid](https://fdroid.getsession.org)
-    - [:fontawesome-brands-github: Source](https://github.com/oxen-io/session-desktop)
+    Estas aplicações de mensagens instantâneas não têm Perfect [Forward Secrecy] (https://en.wikipedia.org/wiki/Forward_secrecy) (PFS) e, embora satisfaçam certas necessidades que as nossas recomendações anteriores não podem satisfazer, não os recomendamos para comunicações de longo prazo ou sensíveis. Qualquer comprometimento da chave entre os destinatários da mensagem afetará a confidencialidade de **todas** as comunicações anteriores.
 
 ### Element
 
 !!! nota
     Consulte o [Tabela de Hardware](https://openwrt.org/toh/start) para verificar se o seu dispositivo é suportado.
 
-    ![Element logo](assets/img/messengers/element.svg){ align=right }
+    ![Logótipo Element](assets/img/messengers/element.svg){ align=right }
     
-    **Element** is the reference client for the [Matrix](https://matrix.org/docs/guides/introduction) protocol, an [open standard](https://matrix.org/docs/spec) for secure decentralized real-time communication.
+    **Element** é o cliente de referência para o protocolo [Matrix](https://matrix.org/docs/guides/introduction), uma [norma aberta](https://matrix.org/docs/spec) para comunicação segura e descentralizada, em tempo real.
     
-    Messages and files shared in private rooms (those which require an invite) are by default E2EE as are one to one voice and video calls.
+    As mensagens e os ficheiros partilhados em salas privadas (que requerem um convite) são, por defeito, E2EE, tal como as chamadas de voz e de vídeo, de um para um.
     
     [:octicons-home-16: Homepage](https://element.io/){ .md-button .md-button--primary }
-    [:octicons-eye-16:](https://element.io/privacy){ .card-link title="Privacy Policy" }
-    [:octicons-info-16:](https://element.io/help){ .card-link title=Documentation}
-    [:octicons-code-16:](https://github.com/vector-im){ .card-link title="Source Code" }
+    [:octicons-eye-16:](https://element.io/privacy){ .card-link title="Política de Privacidade" }
+    [:octicons-info-16:](https://element.io/help){ .card-link title=Documentação}
+    [:octicons-code-16:](https://github.com/vetor-im){ .card-link title="Código-fonte" }
     
     ??? downloads
     
@@ -145,29 +136,29 @@ Briar supports perfect forward secrecy by using the Bramble [Handshake](https://
         - [:simple-linux: Linux](https://element.io/get-started)
         - [:octicons-globe-16: Web](https://app.element.io)
 
-Profile pictures, reactions, and nicknames are not encrypted.
+As imagens de perfil, as reações e os nicknames não são encriptados.
 
-Group voice and video calls are [not](https://github.com/vector-im/element-web/issues/12878) E2EE, and use Jitsi, but this is expected to change with [Native Group VoIP Signalling](https://github.com/matrix-org/matrix-doc/pull/3401). Group calls have [no authentication](https://github.com/vector-im/element-web/issues/13074) currently, meaning that non-room participants can also join the calls. We recommend that you do not use this feature for private meetings.
+As chamadas de voz e vídeo em grupo [não são](https://github.com/vector-im/element-web/issues/12878) E2EE e utilizam Jitsi, mas espera-se que esta situação se altere com o [Native Group VoIP Signalling](https://github.com/matrix-org/matrix-doc/pull/3401). Atualmente, as chamadas de grupo [não têm autenticação](https://github.com/vector-im/element-web/issues/13074), o que significa que os participantes que não estão na sala também podem juntar-se às chamadas. Recomendamos que não utilize esta funcionalidade para reuniões privadas.
 
-The Matrix protocol itself [theoretically supports PFS](https://gitlab.matrix.org/matrix-org/olm/blob/master/docs/megolm.md#partial-forward-secrecy), however this is [not currently supported in Element](https://github.com/vector-im/element-web/issues/7101) due to it breaking some aspects of the user experience such as key backups and shared message history.
+O próprio protocolo Matrix [suporta teoricamente o PFS](https://gitlab.matrix.org/matrix-org/olm/blob/master/docs/megolm.md#partial-forward-secrecy), no entanto, este [não é atualmente suportado no Element](https://github.com/vector-im/element-web/issues/7101) devido aos problemas que provoca em alguns aspetos da experiência do utilizador, como as cópias de segurança de chaves e o histórico de mensagens partilhadas.
 
-The protocol was independently [audited](https://matrix.org/blog/2016/11/21/matrixs-olm-end-to-end-encryption-security-assessment-released-and-implemented-cross-platform-on-riot-at-last) in 2016. The specification for the Matrix protocol can be found in their [documentation](https://spec.matrix.org/latest/). The [Olm](https://matrix.org/docs/projects/other/olm) cryptographic ratchet used by Matrix is an implementation of Signal’s [Double Ratchet algorithm](https://signal.org/docs/specifications/doubleratchet/).
+O protocolo foi objeto de uma [auditoria independente](https://matrix.org/blog/2016/11/21/matrixs-olm-end-to-end-encryption-security-assessment-released-and-implemented-cross-platform-on-riot-at-last) em 2016. A especificação do protocolo Matrix pode ser encontrada na sua [documentação](https://spec.matrix.org/latest/). O [Olm](https://matrix.org/docs/projects/other/olm) criptográfico utilizado pelo Matrix é uma implementação do algoritmo [Double Ratchet da Signal](https://signal.org/docs/specifications/doubleratchet/).
 
 ### Session
 
 !!! nota
     Consulte o [Tabela de Hardware](https://openwrt.org/toh/start) para verificar se o seu dispositivo é suportado.
 
-    ![Session logo](assets/img/messengers/session.svg){ align=right }
+    ![Logótipo Session](assets/img/messengers/session.svg){ align=right }
     
-    **Session** is a decentralized messenger with a focus on private, secure, and anonymous communications. Session offers support for direct messages, group chats, and voice calls.
+    **Session** é uma aplicação descentralizada de mensagens instantâneas com foco em comunicações privadas, seguras e anónimas. A sessão oferece suporte para mensagens diretas, conversas de grupo e chamadas de voz.
     
-    Session uses the decentralized [Oxen Service Node Network](https://oxen.io/) to store and route messages. Every encrypted message is routed through three nodes in the Oxen Service Node Network, making it virtually impossible for the nodes to compile meaningful information on those using the network.
+    O Session utiliza a rede descentralizada [Oxen Service Node Network] (https://oxen.io/) para armazenar e encaminhar mensagens. Cada mensagem encriptada é encaminhada através de três nós na Oxen Service Node Network, tornando virtualmente impossível que os nós compilem informação significativa sobre aqueles que utilizam a rede.
     
     [:octicons-home-16: Homepage](https://getsession.org/){ .md-button .md-button--primary }
-    [:octicons-eye-16:](https://getsession.org/privacy-policy){ .card-link title="Privacy Policy" }
-    [:octicons-info-16:](https://getsession.org/faq){ .card-link title=Documentation}
-    [:octicons-code-16:](https://github.com/oxen-io){ .card-link title="Source Code" }
+    [:octicons-eye-16:](https://getsession.org/privacy-policy){ .card-link title="Política de Privacidade" }
+    [:octicons-info-16:](https://getsession.org/faq){ .card-link title=Documentação}
+    [:octicons-code-16:](https://github.com/oxen-io){ .card-link title="Código-fonte" }
     
     ??? downloads
     
@@ -178,35 +169,33 @@ The protocol was independently [audited](https://matrix.org/blog/2016/11/21/matr
         - [:simple-apple: macOS](https://getsession.org/download)
         - [:simple-linux: Linux](https://getsession.org/download)
 
-Session allows for E2EE in one-on-one chats or closed groups which allow for up to 100 members. Open groups have no restriction on the number of members, but are open by design.
+O Session permite E2EE em conversas individuais ou em grupos fechados com um máximo de 100 membros. Os grupos abertos não têm restrições quanto ao número de membros, mas são abertos por definição.
 
-Session does [not](https://getsession.org/blog/session-protocol-technical-information) support PFS, which is when an encryption system automatically and frequently changes the keys it uses to encrypt and decrypt information, such that if the latest key is compromised it exposes a smaller portion of sensitive information.
+O Session [não](https://getsession.org/blog/session-protocol-technical-information) suporta PFS, que é quando um sistema de encriptação altera automática e frequentemente as chaves que utiliza para encriptar e desencriptar informações, de modo a que, se a chave mais recente for comprometida, exponha uma parte reduzida de informações sensíveis.
 
-Oxen requested an independent audit for Session in March of 2020. The audit [concluded](https://getsession.org/session-code-audit) in April of 2021, “The overall security level of this application is good and makes it usable for privacy-concerned people.”
+A Oxen solicitou uma auditoria independente para o Session, em março de 2020. Em abril de 2021, a auditoria [concluiu](https://getsession.org/session-code-audit): "O nível geral de segurança desta aplicação é bom e torna-a utilizável por pessoas preocupadas com a privacidade."
 
-Session has a [whitepaper](https://arxiv.org/pdf/2002.04609.pdf) describing the technicals of the app and protocol.
+O Session tem um [whitepaper](https://arxiv.org/pdf/2002.04609.pdf) que descreve os aspetos técnicos da aplicação e do protocolo.
 
-## Framadate
+## Critérios
 
-**Please note we are not affiliated with any of the projects we recommend.** In addition to [our standard criteria](about/criteria.md), we have developed a clear set of requirements to allow us to provide objective recommendations. We suggest you familiarize yourself with this list before choosing to use a project, and conduct your own research to ensure it's the right choice for you.
+**Note que não estamos associados a nenhum dos projetos que recomendamos.** Para além dos [nossos critérios padrão](about/criteria.md), temos um conjunto claro de requisitos que nos permitem fornecer recomendações objetivas. Sugerimos que se familiarize com esta lista antes de optar por um projeto e que desenvolva a sua própria investigação para garantir que se trata da escolha certa para si.
 
-!!! Considere o auto-hospedagem para mitigar esta ameaça.
+!!! exemplo "Esta secção é nova"
 
-    ![logo PrivateBin](/assets/img/productivity/privatebin.svg){ align=right }
-    
-    **PrivateBin** é um pastebin online minimalista e de código aberto onde o servidor tem zero conhecimento de dados colados. Os dados são criptografados/descriptografados no navegador usando AES de 256 bits. Psono suporta compartilhamento seguro de senhas, arquivos, marcadores e e-mails.
+    Estamos a trabalhar no sentido de estabelecer critérios para cada secção do nosso site, o que pode originar alterações. Se tiver alguma dúvida sobre os critérios utilizados, por favor [pergunte no nosso fórum] (https://discuss.privacyguides.net/latest) e não parta do princípio de que algo foi excluído das nossas recomendações, caso não esteja listado aqui. São muitos os fatores considerados e discutidos quando recomendamos um projeto, e documentar cada um deles é um trabalho em curso.
 
-- Must have open-source clients.
-- Must use E2EE for private messages by default.
-- Must support E2EE for all messages.
-- Must have been independently audited.
+- Deve ter clientes de código aberto.
+- Deve utilizar o E2EE para mensagens privadas por defeito.
+- Deve suportar E2EE para todas as mensagens.
+- Deve ter sido objeto de uma auditoria independente.
 
-### Best-Case
+### Melhor caso
 
-Our best-case criteria represents what we would like to see from the perfect project in this category. Our recommendations may not include any or all of this functionality, but those which do may rank higher than others on this page.
+Os nossos melhores critérios representam o que gostaríamos de ver num projeto perfeito desta categoria. As nossas recomendações podem não incluir todas as funcionalidades, mas incluem as que, na nossa opinião, têm um impacto mais elevado.
 
-- Should have Perfect Forward Secrecy.
-- Should have open-source servers.
-- Should be decentralized, i.e. federated or P2P.
-- Should use E2EE for all messages by default.
-- Should support Linux, macOS, Windows, Android, and iOS.
+- Deve ter o Perfect Forward Secrecy.
+- Deve ter servidores de código aberto.
+- Deve ser descentralizado, ou seja, federado ou P2P.
+- Deve utilizar o E2EE para todas as mensagens por defeito.
+- Deve ser compatível com Linux, macOS, Windows, Android e iOS.

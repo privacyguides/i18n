@@ -11,16 +11,16 @@ cover: dns.png
 
 ## Рекомендованные провайдеры
 
-| DNS-провайдер                                                                   | Политика конфиденциальности                                                                           | Протоколы                                                          | Логирование      | ECS                | Фильтрация                                                                                                                                                  |
-| ------------------------------------------------------------------------------- | ----------------------------------------------------------------------------------------------------- | ------------------------------------------------------------------ | ---------------- | ------------------ | ----------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| [**AdGuard**](https://adguard.com/en/adguard-dns/overview.html)                 | [:octicons-link-external-24:](https://adguard.com/en/privacy/dns.html)                                | Без шифрования <br> DoH/3 <br> DoT <br> DNSCrypt | Частичное[^1]    | Нет                | Based on personal configuration. Используемый список фильтрации можно найти здесь. [:octicons-link-external-24:](https://github.com/AdguardTeam/AdGuardDNS) |
-| [**Cloudflare**](https://developers.cloudflare.com/1.1.1.1/setting-up-1.1.1.1/) | [:octicons-link-external-24:](https://developers.cloudflare.com/1.1.1.1/privacy/public-dns-resolver/) | Без шифрования <br> DoH/3 <br> DoT                     | Частичное[^2]    | Нет                | Based on personal configuration.                                                                                                                            |
-| [**Control-D**](https://controld.com/free-dns)                                  | [:octicons-link-external-24:](https://controld.com/privacy)                                           | Без шифрования <br> DoH/3 <br> DoT <br> DoQ      | Опциональное[^3] | Нет                | Based on personal configuration.                                                                                                                            |
-| [**Mullvad**](https://mullvad.net/en/help/dns-over-https-and-dns-over-tls)      | [:octicons-link-external-24:](https://mullvad.net/en/help/no-logging-data-policy/)                    | DoH <br> DoT                                                 | Нет[^4]          | Нет                | Based on personal configuration. Используемый список фильтрации можно найти здесь. [:octicons-link-external-24:](https://github.com/mullvad/dns-adblock)    |
-| [**NextDNS**](https://www.nextdns.io)                                           | [:octicons-link-external-24:](https://www.nextdns.io/privacy)                                         | Без шифрования <br> DoH/3 <br> DoT <br> DoQ      | Опциональное[^5] | Необязательное[^5] | Based on personal configuration.                                                                                                                            |
-| [**Quad9**](https://quad9.net)                                                  | [:octicons-link-external-24:](https://quad9.net/privacy/policy/)                                      | Без шифрования <br> DoH <br> DoT <br> DNSCrypt   | Частичное[^6]    | Необязательное[^5] | Based on personal configuration, Malware blocking by default.                                                                                               |
+| DNS-провайдер                                                                   | Политика конфиденциальности                                                                           | Протоколы                                                          | Логирование      | ECS                | Фильтрация                                                                                                                                                             |
+| ------------------------------------------------------------------------------- | ----------------------------------------------------------------------------------------------------- | ------------------------------------------------------------------ | ---------------- | ------------------ | ---------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| [**AdGuard**](https://adguard.com/en/adguard-dns/overview.html)                 | [:octicons-link-external-24:](https://adguard.com/en/privacy/dns.html)                                | Без шифрования <br> DoH/3 <br> DoT <br> DNSCrypt | Частичное[^1]    | Нет                | В зависимости от персональной конфигурации. Используемый список фильтрации можно найти здесь. [:octicons-link-external-24:](https://github.com/AdguardTeam/AdGuardDNS) |
+| [**Cloudflare**](https://developers.cloudflare.com/1.1.1.1/setting-up-1.1.1.1/) | [:octicons-link-external-24:](https://developers.cloudflare.com/1.1.1.1/privacy/public-dns-resolver/) | Без шифрования <br> DoH/3 <br> DoT                     | Частичное[^2]    | Нет                | В зависимости от персональной конфигурации.                                                                                                                            |
+| [**Control D**](https://controld.com/free-dns)                                  | [:octicons-link-external-24:](https://controld.com/privacy)                                           | Без шифрования <br> DoH/3 <br> DoT <br> DoQ      | Опциональное[^3] | Нет                | В зависимости от персональной конфигурации.                                                                                                                            |
+| [**Mullvad**](https://mullvad.net/en/help/dns-over-https-and-dns-over-tls)      | [:octicons-link-external-24:](https://mullvad.net/en/help/no-logging-data-policy/)                    | DoH <br> DoT                                                 | Нет[^4]          | Нет                | В зависимости от персональной конфигурации. Используемый список фильтрации можно найти здесь. [:octicons-link-external-24:](https://github.com/mullvad/dns-adblock)    |
+| [**NextDNS**](https://www.nextdns.io)                                           | [:octicons-link-external-24:](https://www.nextdns.io/privacy)                                         | Без шифрования <br> DoH/3 <br> DoT <br> DoQ      | Опциональное[^5] | Необязательное[^5] | В зависимости от персональной конфигурации.                                                                                                                            |
+| [**Quad9**](https://quad9.net)                                                  | [:octicons-link-external-24:](https://quad9.net/privacy/policy/)                                      | Без шифрования <br> DoH <br> DoT <br> DNSCrypt   | Частичное[^6]    | Необязательное[^5] | В зависимости от персональной конфигурации, блокировка вредоносных программ по умолчанию.                                                                              |
 
-### Criteria
+### Критерии
 
 **Обратите внимание, что у нас нет связей ни с одним проектом, которые мы рекомендуем.** В дополнение к [нашим стандартным критериям](about/criteria.md) мы разработали четкий набор требований, позволяющий давать объективные рекомендации. Мы рекомендуем ознакомиться с данным списком перед выбором и провести самостоятельное исследование, чтобы убедиться, что для вас это правильный выбор.
 
@@ -29,17 +29,17 @@ cover: dns.png
     Мы работаем над установлением определенных критериев для каждого раздела сайта, и они могут поменяться в будущем. Если у вас есть вопросы относительно наших критериев, [задайте вопрос на нашем форуме](https://discuss.privacyguides.net/latest), и не считайте, что мы что-то не учли при составлении наших рекомендаций, если это не указано здесь. Мы учитываем и обсуждаем много факторов, перед тем как рекомендовать какой-то проект, и документирование каждого из них ещё не завершено.
 
 - Поддержка [DNSSEC](technology/dns.md#what-is-dnssec-and-when-is-it-used)
-- [QNAME Minimization](advanced/dns-overview.md#what-is-qname-minimization).
-- Allow for [ECS](advanced/dns-overview.md#what-is-edns-client-subnet-ecs) to be disabled.
-- Prefer [anycast](https://en.wikipedia.org/wiki/Anycast#Addressing_methods) support or geo-steering support.
+- [Минимизация QNAME](advanced/dns-overview.md#what-is-qname-minimization).
+- Позволяет отключить [ECS](advanced/dns-overview.md#what-is-edns-client-subnet-ecs).
+- Предпочтительна поддержка [anycast](https://en.wikipedia.org/wiki/Anycast#Addressing_methods) или поддержка гео-позиционирования.
 
-## Native Operating System Support
+## Нативная поддержка в операционных системах
 
 ### Android
 
-Android 9 и новее поддерживает DNS over TLS. Его можно включить в **Настройках** &rarr; **Сеть и интернет** &rarr; **Персональный DNS-сервер**.
+Android 9 и новее поддерживает DNS over TLS. Его можно включить в **Настройках** &rarr; **Сеть и интернет** &rarr; **Частный DNS-сервер**.
 
-### Apple Devices
+### Устройства Apple
 
 Последние версии iOS, iPadOS, tvOS и macOS поддерживают протоколы DoT и DoH. Оба протокола можно настроить при помощи [профилей конфигурации](https://support.apple.com/guide/security/configuration-profile-enforcement-secf6fb9f053/web) или [API настроек DNS](https://developer.apple.com/documentation/networkextension/dns_settings).
 
@@ -53,7 +53,7 @@ Apple не предоставляет нативного интерфейса д
 
     `systemd-resolved`, используемый во многих дистрибутивах Linux для DNS-запросов, всё еще [не поддерживает DoH](https://github.com/systemd/systemd/issues/8639). Если вы хотите использовать DoH, вам следует установить [dnscrypt-proxy](https://github.com/DNSCrypt/dnscrypt-proxy) и [настроить его](https://wiki.archlinux.org/title/Dnscrypt-proxy) для обработки всех DNS-запросов в системе по протоколу HTTPS.
 
-## Encrypted DNS Proxies
+## Зашифрованные DNS-прокси
 
 Зашифрованные DNS-прокси создают локальный прокси-сервер, на который будут перенаправляться запросы с вашего системного [незашифрованного DNS-резолвера](advanced/dns-overview.md#unencrypted-dns). Обычно они подходят для устройств, не поддерживающих [зашифрованный DNS](advanced/dns-overview.md#what-is-encrypted-dns).
 
@@ -71,7 +71,7 @@ Apple не предоставляет нативного интерфейса д
     [:octicons-info-16:](https://docs.rethinkdns.com/){ .card-link title=Документация}
     [:octicons-code-16:](https://github.com/celzero/rethink-app){ .card-link title="Исходный код" }
     
-    ??? downloads
+    ??? downloads "Скачать"
     
         - [:simple-googleplay: Google Play](https://play.google.com/store/apps/details?id=com.celzero.bravedns)
         - [:simple-github: GitHub](https://github.com/celzero/rethink-app/releases)
@@ -91,13 +91,13 @@ Apple не предоставляет нативного интерфейса д
     [:octicons-code-16:](https://github.com/DNSCrypt/dnscrypt-proxy){ .card-link title="Исходный код" }
     [:octicons-heart-16:](https://opencollective.com/dnscrypt/contribute){ .card-link title=Поддержать }
     
-    ??? downloads
+    ??? downloads "Скачать"
     
         - [:simple-windows11: Windows](https://github.com/DNSCrypt/dnscrypt-proxy/wiki/Installation-Windows)
         - [:simple-apple: macOS](https://github.com/DNSCrypt/dnscrypt-proxy/wiki/Installation-macOS)
-        - [:simple-linux: Linux](https://github.com/DNSCrypt/dnscrypt-proxy/wiki/Installation-linux)
+        - [:simple-linux: Linux](https://github.com/DNSCrypt/dnscrypt-proxy/wiki/Installation-linux) ""
 
-## Self-hosted Solutions
+## Решения для самостоятельного хостинга
 
 DNS с самостоятельным хостингом полезно для обеспечения фильтрации на управляемых платформах, таких как телевизоры Smart TV и устройства IoT (Internet of Things - Интернет вещей), поскольку для этого не требуется клиентское ПО.
 
