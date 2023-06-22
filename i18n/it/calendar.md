@@ -24,10 +24,10 @@ I calendari contengono alcuni dei vostri dati più sensibili; utilizzate prodott
     [:octicons-code-16:](https://github.com/tutao/tutanota){ .card-link title="Codice sorgente" }
     [:octicons-heart-16:](https://tutanota.com/community/){ .card-link title=Contribuisci }
     
-    ??? downloads "Scaricare"
+    ??? downloads "Scarica"
     
         - [:simple-googleplay: Google Play](https://play.google.com/store/apps/details?id=de.tutao.tutanota)
-        - [:simple-appstore: App Store](https://apps.apple.com/us/app/tutanota/id922429609)
+        - [:simple-appstore: App Store](https://apps.apple.com/it/app/tutanota/id922429609)
         - [:simple-windows11: Windows](https://tutanota.com/blog/posts/desktop-clients/)
         - [:simple-apple: macOS](https://tutanota.com/blog/posts/desktop-clients/)
         - [:simple-linux: Linux](https://tutanota.com/blog/posts/desktop-clients/)
@@ -47,7 +47,7 @@ I calendari contengono alcuni dei vostri dati più sensibili; utilizzate prodott
     [:octicons-info-16:](https://proton.me/support/proton-calendar-guide){ .card-link title=Documentazione}
     [:octicons-code-16:](https://github.com/ProtonMail/WebClients){ .card-link title="Codice sorgente" }
     
-    ??? downloads "Scaricare"
+    ??? downloads "Scarica"
     
         - [:simple-googleplay: Google Play](https://play.google.com/store/apps/details?id=me.proton.android.calendar)
         - [:octicons-browser-16: Web](https://calendar.proton.me)

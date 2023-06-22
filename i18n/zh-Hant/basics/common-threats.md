@@ -47,7 +47,7 @@ description: 您的威脅模型雖說是個人的事，但它也是本站許多�
 
 !!! tip "提示"
 
-    在設計上， * *網頁瀏覽器* *、* *電子郵件用戶端* *和* *辦公室應用程式* *常常運行第三方發送無法信任的代碼。 運行多個虛擬器-將這些應用程序與主機系統相互分開，此技術可減少系統遭到應用程序攻擊的機會。 例如， Qubes OS 或 Windows 上的 Microsoft Defender Application Guard 等技術提供了方便的作法。
+    在設計上， **網頁瀏覽器**、**電子郵件用戶端** 和 **辦公室應用程式** 常常運行第三方發送無法信任的代碼。 運行多個虛擬器-將這些應用程序與主機系統相互分開，此技術可減少系統遭到應用程序攻擊的機會。 例如， Qubes OS 或 Windows 上的 Microsoft Defender Application Guard 等技術提供了方便的作法。
 
 若您特別擔心 **物理攻擊**，就應選用具安全驗證開機的作業系統，例如 Android, iOS, macOS, 或[Windows (帶 TPM)](https://docs.microsoft.com/en-us/windows/security/information-protection/secure-the-windows-10-boot-process)。 應確保您的驅動器是加密的，並且操作系統使用 TPM或 Secure [Enclave](https://support.apple.com/guide/security/secure-enclave-sec59b0b31ff/1/web/1) 或 [Element](https://developers.google.com/android/security/android-ready-se) 來限制輸入加密密碼的嘗試率。 您應該避免與不信任的人共享您的電腦，因為大多數桌面作業系統不會單獨加密每個用戶的數據。
 
@@ -63,7 +63,7 @@ description: 您的威脅模型雖說是個人的事，但它也是本站許多�
 
 !!! note "Web 加密備註"
 
-    實際上，不同 E2EE 操作的效力各不相同。 應用程式，例如 [Signal](../real-time-communication.md#signal) ，會在您的裝置上原生執行，且此應用程式在不同設備的安裝上都是如此。 如果服務提供商在他們的應用程序中引入 [後門](https://zh.wikipedia.org/wiki/Backdoor_(computing)  ----試圖竊取您的私鑰----它稍後可以通過[逆向工程] (https://zh.wikipedia.org/wiki/Reverse_engineering )檢測。
+    實際上，不同 E2EE 操作的效力各不相同。 應用程式，例如 [Signal](../real-time-communication.md#signal) ，會在您的裝置上原生執行，且此應用程式在不同設備的安裝上都是如此。 如果服務提供商在他們的應用程序中引入 [後門](https://zh.wikipedia.org/wiki/Backdoor_(computing) ----試圖竊取您的私鑰----它稍後可以通過[逆向工程](https://zh.wikipedia.org/wiki/Reverse_engineering)檢測。
     
     另一方面，執行網頁 E2EE，例如 Proton Mail 的網頁郵件或Bitwarden 的* Web Vault * ，依靠伺服器動態地向瀏覽器提供JavaScript 代碼來處理加密。 惡意伺服器可以針對您發送惡意 JavaScript 代碼以竊取您的加密密鑰（這將非常難以察覺）。 因為伺服器可以選擇為不同的人提供不同的網頁用戶端，即使您注意到攻擊也很難證明提供商有罪。
     
@@ -79,15 +79,15 @@ description: 您的威脅模型雖說是個人的事，但它也是本站許多�
 
 !!! abstract "監控地圖集"
 
-    如果您想進一步了解監控方法及其在您所在城市的實施方式，您也可以查看[電子前鋒基金會 EFF] (https://www.eff.org/)的[監控地圖集] (https://atlasofsurveillance.org/)。
+    如果您想進一步了解監控方法及其在您所在城市的實施方式，您也可以查看[電子前鋒基金會 Eff](https://www.eff.org/)的[監控地圖集](https://atlasofsurveillance.org/)。
     
-    在法國，您可以看看非營利組織 La Quadrature du Net 維護的 [Technolopolice 網站] (https://technopolice.fr/villes/ )。
+    在法國，您可以看看非營利組織 La Quadrature du Net 維護的 [Technolopolice 網站](https://technopolice.fr/villes/)。
 
 政府常認為大規模監控計劃是打擊恐怖主義和預防犯罪的必要手段。 然而，少數羣體和政治異見人士最常遭受不成比例地人權侵害。
 
 !!! 美國自由民權聯盟 ACLU： [*9/11 的隱私教訓：大規模監控不是前進的道路*](https://www.aclu.org/news/national-security/the-privacy-lesson-of-9-11-mass-surveillance-is-not-the-way-forward)
 
-    面對[愛德華·斯諾登（ Edward Snowden ）披露的 [PRISM]（ https://en.wikipedia.org/wiki/PRISM ）和 [Upstream]（ https://en.wikipedia.org/wiki/Upstream_collection ）]等政府計劃，情報官員承認，國家安全局多年來一直祕密地收集每個美國人電話的記錄—誰在打電話，何時打電話，以及通話時間多久。 當  NSA 日復一日地收集這類資訊時，就可以揭示人們生活相關聯的敏感細節，例如他們是否打電話給牧師、墮胎提供者、成癮顧問或自殺熱線。
+    面對[愛德華·斯諾登（Edward Snowden）披露的 [PRISM]（ https://en.wikipedia.org/wiki/PRISM ）和 [Upstream]（ https://en.wikipedia.org/wiki/Upstream_collection ）]等政府計劃，情報官員承認，國家安全局多年來一直祕密地收集每個美國人電話的記錄—誰在打電話，何時打電話，以及通話時間多久。 當  NSA 日復一日地收集這類資訊時，就可以揭示人們生活相關聯的敏感細節，例如他們是否打電話給牧師、墮胎提供者、成癮顧問或自殺熱線。
 
 儘管在美國有越來越多的大規模監控，政府卻發現像依 215 條採取的監控計畫在阻卻犯案與恐怖陰謀上沒有實用價值，它們幾乎只是重複著 FBI 所做的特定監控計畫而已。[^2]
 
@@ -137,7 +137,7 @@ description: 您的威脅模型雖說是個人的事，但它也是本站許多�
 
     雖然很容易避掉審查，但隱藏您正在做的事可就沒那麼簡單了。
     
-    您應該考慮可讓對手觀察哪些網路行為，以及能否對這些行為有合理的否認說辭。 例如，使用[加密 DNS ] (../advanced/dns-overview.md#what-is-encrypted-dns)可以幫助您繞過對 DNS 基本審查系統，但它無法對 ISP 隱藏您正在訪問的內容。 VPN 或 Tor 有助於向網路管理員隱藏您正在訪問的內容，但無法隱藏您正在使用 VPN 或 Tor 。 可插拔傳輸（例如 Obfs4proxy、Meek 或 Shadowsocks ）可以幫助您避開阻擋常見VPN 協議或 Tor 的防火牆，但仍然可以通過探測或[深度封包檢查] (https://en.wikipedia.org/wiki/Deep_packet_inspection)等方法檢測您嘗圖作的規避。
+    您應該考慮可讓對手觀察哪些網路行為，以及能否對這些行為有合理的否認說辭。 例如，[使用[加密 DNS](../advanced/dns-overview.md#what-is-encrypted-dns)可以幫助您繞過對 DNS 基本審查系統，但它無法對 ISP 隱藏您正在訪問的內容。 VPN 或 Tor 有助於向網路管理員隱藏您正在訪問的內容，但無法隱藏您正在使用 VPN 或 Tor 。 可插拔傳輸（例如 Obfs4proxy、Meek 或 Shadowsocks）可以幫助您避開阻擋常見VPN 協議或 Tor 的防火牆，但仍然可以通過探測或[深度封包檢查](https://en.wikipedia.org/wiki/Deep_packet_inspection) 等方法檢測您嘗圖作的規避。
 
 您必須考慮試圖繞過網路審查的風險、潛在的後果以及您的對手可能很經驗老道。 您應該謹慎選擇軟件，並制定備份計劃以防被抓住。
 

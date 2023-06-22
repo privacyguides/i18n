@@ -91,11 +91,11 @@ These are the Android operating systems, devices, and apps we recommend to maxim
 
 [General Android Overview :material-arrow-right-drop-circle:](os/android-overview.md ""){.md-button}
 
-## Деривативы AOSP
+## Основанные на AOSP
 
-We recommend installing one of these custom Android operating systems on your device, listed in order of preference, depending on your device's compatibility with these operating systems.
+Мы рекомендуем установить на ваше устройство одну из этих кастомных операционных систем Android, перечисленных в порядке предпочтения, в зависимости от совместимости вашего устройства с этими операционными системами.
 
-!!! note
+!!! note "Примечание"
 
     End-of-life devices (such as GrapheneOS or CalyxOS's "extended support" devices) do not have full security patches (firmware updates) due to the OEM discontinuing support. These devices cannot be considered completely secure regardless of installed software.
 
@@ -103,12 +103,12 @@ We recommend installing one of these custom Android operating systems on your de
 
 !!! recommendation
 
-    ![GrapheneOS logo](assets/img/android/grapheneos.svg#only-light){ align=right }
-    ![GrapheneOS logo](assets/img/android/grapheneos-dark.svg#only-dark){ align=right }
+    ![Логотип GrapheneOS](assets/img/android/grapheneos.svg#only-light){ align=right }
+    ![Логотип GrapheneOS](assets/img/android/grapheneos-dark.svg#only-dark){ align=right }
     
-    **GrapheneOS** is the best choice when it comes to privacy and security.
+    **GrapheneOS** - это лучший выбор для вашей безопасности и конфиденциальности.
     
-    GrapheneOS provides additional [security hardening](https://en.wikipedia.org/wiki/Hardening_(computing)) and privacy improvements. It has a [hardened memory allocator](https://github.com/GrapheneOS/hardened_malloc), network and sensor permissions, and various other [security features](https://grapheneos.org/features). GrapheneOS also comes with full firmware updates and signed builds, so verified boot is fully supported.
+    GrapheneOS обеспечивает дополнительное [улучшение безопасности](https://en.wikipedia.org/wiki/Hardening_(computing)) и улучшение конфиденциальности. It has a [hardened memory allocator](https://github.com/GrapheneOS/hardened_malloc), network and sensor permissions, and various other [security features](https://grapheneos.org/features). GrapheneOS also comes with full firmware updates and signed builds, so verified boot is fully supported.
     
     [:octicons-home-16: Homepage](https://grapheneos.org/){ .md-button .md-button--primary }
     [:octicons-eye-16:](https://grapheneos.org/faq#privacy-policy){ .card-link title="Политика Конфиденциальности" }
@@ -120,16 +120,16 @@ GrapheneOS supports [Sandboxed Google Play](https://grapheneos.org/usage#sandbox
 
 Google Pixel phones are the only devices that currently meet GrapheneOS's [hardware security requirements](https://grapheneos.org/faq#device-support).
 
-[Why we recommend GrapheneOS over CalyxOS :material-arrow-right-drop-circle:](https://blog.privacyguides.org/2022/04/21/grapheneos-or-calyxos/ ""){.md-button}
+[Почему мы рекомендуем GrapheneOS, а не CalyxOS :material-arrow-right-drop-circle:](https://blog.privacyguides.org/2022/04/21/grapheneos-or-calyxos/ ""){.md-button}
 
 ### DivestOS
 
 !!! recommendation
 
-    ![DivestOS logo](assets/img/android/divestos.svg){ align=right }
+    ![Логотип DivestOS](assets/img/android/divestos.svg){ align=right }
     
-    **DivestOS** is a soft-fork of [LineageOS](https://lineageos.org/).
-    DivestOS inherits many [supported devices](https://divestos.org/index.php?page=devices&base=LineageOS) from LineageOS. It has signed builds, making it possible to have [verified boot](https://source.android.com/security/verifiedboot) on some non-Pixel devices.
+    **DivestOS** - это лёгкий форк [LineageOS](https://lineageos.org/).
+    DivestOS наследует многие [поддерживаемые устройства](https://divestos.org/index.php?page=devices&base=LineageOS) от LineageOS. Он имеет подписанные сборки, что делает возможным [verified boot](https://source.android.com/security/verifiedboot) на некоторых не-Pixel устройствах.
     
     [:octicons-home-16: Домашняя страница](https://divestos.org){ .md-button .md-button--primary }
     [:simple-torbrowser:](http://divestoseb5nncsydt7zzf5hrfg44md4bxqjs5ifcv4t7gt7u6ohjyyd.onion){ .card-link title="Сервис Onion" }
@@ -144,7 +144,7 @@ DivestOS implements some system hardening patches originally developed for Graph
 
 DivestOS uses F-Droid as its default app store. Normally, we would recommend avoiding F-Droid due to its numerous [security issues](#f-droid). However, doing so on DivestOS isn't viable; the developers update their apps via their own F-Droid repositories ([DivestOS Official](https://divestos.org/fdroid/official/?fingerprint=E4BE8D6ABFA4D9D4FEEF03CDDA7FF62A73FD64B75566F6DD4E5E577550BE8467) and [DivestOS WebView](https://divestos.org/fdroid/webview/?fingerprint=FB426DA1750A53D7724C8A582B4D34174E64A84B38940E5D5A802E1DFF9A40D2)). We recommend disabling the official F-Droid app and using [Neo Store](https://github.com/NeoApplications/Neo-Store/) with the DivestOS repositories enabled to keep those components up to date. For other apps, our recommended methods of obtaining them still apply.
 
-!!! note
+!!! warning "Осторожно"
 
     DivestOS firmware update [status](https://gitlab.com/divested-mobile/firmware-empty/-/blob/master/STATUS) and quality control varies across the devices it supports. We still recommend GrapheneOS depending on your device's compatibility. For other devices, DivestOS is a good alternative.
     
@@ -191,7 +191,7 @@ A few more tips for purchasing a Google Pixel:
 - Look at online community bargain sites in your country. These can alert you to good sales.
 - Google provides a list showing the [support cycle](https://support.google.com/nexus/answer/4457705) for each one of their devices. The price per day for a device can be calculated as: $\text{Cost} \over \text {EOL Date}-\text{Current Date}$, meaning that the longer use of the device the lower cost per day.
 
-## General Apps
+## Основные приложения
 
 We recommend a wide variety of Android apps throughout this site. The apps listed here are Android-exclusive and specifically enhance or replace key system functionality.
 
@@ -209,7 +209,7 @@ We recommend a wide variety of Android apps throughout this site. The apps liste
     [:octicons-code-16:](https://gitea.angry.im/PeterCxy/Shelter){ .card-link title="Source Code" }
     [:octicons-heart-16:](https://www.patreon.com/PeterCxy){ .card-link title=Contribute }
 
-!!! note
+!!! warning "Осторожно"
 
     Shelter is recommended over [Insular](https://secure-system.gitlab.io/Insular/) and [Island](https://github.com/oasisfeng/island) as it supports [contact search blocking](https://secure-system.gitlab.io/Insular/faq.html).
     
@@ -230,7 +230,7 @@ We recommend a wide variety of Android apps throughout this site. The apps liste
     [:octicons-code-16:](https://attestation.app/source){ .card-link title="Source Code" }
     [:octicons-heart-16:](https://attestation.app/donate){ .card-link title=Contribute }
     
-    ??? downloads
+    ??? downloads "Скачать"
     
         - [:simple-googleplay: Google Play](https://play.google.com/store/apps/details?id=app.attestation.auditor.play)
         - [:simple-github: GitHub](https://github.com/GrapheneOS/Auditor/releases)
@@ -262,7 +262,7 @@ If your [threat model](basics/threat-modeling.md) requires privacy, you could co
     [:octicons-code-16:](https://github.com/GrapheneOS/Camera){ .card-link title="Source Code" }
     [:octicons-heart-16:](https://grapheneos.org/donate){ .card-link title=Contribute }
     
-    ??? downloads
+    ??? downloads "Скачать"
     
         - [:simple-googleplay: Google Play](https://play.google.com/store/apps/details?id=app.grapheneos.camera.play)
         - [:simple-github: GitHub](https://github.com/GrapheneOS/Camera/releases)
@@ -274,9 +274,9 @@ Main privacy features include:
 - Use of the new [Media](https://developer.android.com/training/data-storage/shared/media) API, therefore [storage permissions](https://developer.android.com/training/data-storage) are not required
 - Microphone permission not required unless you want to record sound
 
-!!! note
+!!! note "Примечание"
 
-    Metadata is not currently deleted from video files but that is planned.
+    В настоящее время метаданные не удаляются из видео, но эта функция запланирована.
     
     The image orientation metadata is not deleted. If you enable location (in Secure Camera) that **won't** be deleted either. If you want to delete that later you will need to use an external app such as [ExifEraser](data-redaction.md#exiferaser).
 
@@ -291,17 +291,17 @@ Main privacy features include:
     
     [Content-Security-Policy](https://en.wikipedia.org/wiki/Content_Security_Policy) is used to enforce that the JavaScript and styling properties within the WebView are entirely static content.
     
-    [:octicons-repo-16: Repository](https://github.com/GrapheneOS/PdfViewer){ .md-button .md-button--primary }
-    [:octicons-code-16:](https://github.com/GrapheneOS/PdfViewer){ .card-link title="Source Code" }
-    [:octicons-heart-16:](https://grapheneos.org/donate){ .card-link title=Contribute }
+    [:octicons-repo-16: Репозиторий](https://github.com/GrapheneOS/PdfViewer){ .md-button .md-button--primary }
+    [:octicons-code-16:](https://github.com/GrapheneOS/PdfViewer){ .card-link title="Исходный код" }
+    [:octicons-heart-16:](https://grapheneos.org/donate){ .card-link title=Поддержать }
     
-    ??? downloads
+    ??? downloads "Скачать"
     
         - [:simple-googleplay: Google Play](https://play.google.com/store/apps/details?id=app.grapheneos.pdfviewer.play)
         - [:simple-github: GitHub](https://github.com/GrapheneOS/PdfViewer/releases)
         - [:material-cube-outline: GrapheneOS App Store](https://github.com/GrapheneOS/Apps/releases)
 
-## Obtaining Applications
+## Скачивание приложений
 
 ### GrapheneOS App Store
 
@@ -317,16 +317,16 @@ The Google Play Store requires a Google account to login which is not great for 
     
     **Aurora Store** is a Google Play Store client which does not require a Google Account, Google Play Services, or microG to download apps.
     
-    [:octicons-home-16: Homepage](https://auroraoss.com/){ .md-button .md-button--primary }
-    [:octicons-code-16:](https://gitlab.com/AuroraOSS/AuroraStore){ .card-link title="Source Code" }
+    [:octicons-home-16: Домашняя страница](https://auroraoss.com/){ .md-button .md-button--primary }
+    [:octicons-code-16:](https://gitlab.com/AuroraOSS/AuroraStore){ .card-link title="Исходный код" }
     
-    ??? downloads
+    ??? downloads "Скачать"
     
         - [:simple-gitlab: GitLab](https://gitlab.com/AuroraOSS/AuroraStore/-/releases)
 
 Aurora Store does not allow you to download paid apps with their anonymous account feature. You can optionally log in with your Google account with Aurora Store to download apps you have purchased, which does give access to the list of apps you've installed to Google, however you still benefit from not requiring the full Google Play client and Google Play Services or microG on your device.
 
-### Manually with RSS Notifications
+### Вручную с помощью уведомлений RSS
 
 For apps that are released on platforms like GitHub and GitLab, you may be able to add an RSS feed to your [news aggregator](/news-aggregators) that will help you keep track of new releases.
 
@@ -344,7 +344,7 @@ On GitLab, using [Aurora Store](#aurora-store) as an example, you would navigate
 
 `https://gitlab.com/AuroraOSS/AuroraStore/-/tags?format=atom`
 
-#### Verifying APK Fingerprints
+#### Проверка цифровых отпечатков APK
 
 If you download APK files to install manually, you can verify their signature with the [`apksigner`](https://developer.android.com/studio/command-line/apksigner) tool, which is a part of Android [build-tools](https://developer.android.com/studio/releases/build-tools).
 
@@ -387,11 +387,11 @@ Other popular third-party repositories such as [IzzyOnDroid](https://apt.izzysof
 
 That said, the [F-Droid](https://f-droid.org/en/packages/) and [IzzyOnDroid](https://apt.izzysoft.de/fdroid/) repositories are home to countless apps, so they can be a useful tool to search for and discover open-source apps that you can then download through Play Store, Aurora Store, or by getting the APK directly from the developer. It is important to keep in mind that some apps in these repositories have not been updated in years and may rely on unsupported libraries, among other things, posing a potential security risk. You should use your best judgement when looking for new apps via this method.
 
-!!! note
+!!! note "Примечание"
 
     In some rare cases, the developer of an app will only distribute it through F-Droid ([Gadgetbridge](https://gadgetbridge.org/) is one example of this). If you really need an app like that, we recommend using [Neo Store](https://github.com/NeoApplications/Neo-Store/) instead of the official F-Droid app to obtain it.
 
-## Criteria
+## Критерии
 
 **Please note we are not affiliated with any of the projects we recommend.** In addition to [our standard criteria](about/criteria.md), we have developed a clear set of requirements to allow us to provide objective recommendations. We suggest you familiarize yourself with this list before choosing to use a project, and conduct your own research to ensure it's the right choice for you.
 
@@ -410,14 +410,14 @@ That said, the [F-Droid](https://f-droid.org/en/packages/) and [IzzyOnDroid](htt
 - Must **not** enable Google Play Services by default.
 - Must **not** require system modification to support Google Play Services.
 
-### Devices
+### Устройства
 
 - Must support at least one of our recommended custom operating systems.
 - Must be currently sold new in stores.
 - Must receive a minimum of 5 years of security updates.
 - Must have dedicated secure element hardware.
 
-### Applications
+### Приложения
 
 - Applications on this page must not be applicable to any other software category on the site.
 - General applications should extend or replace core system functionality.

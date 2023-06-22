@@ -82,7 +82,7 @@ They have also received the Digital Trust Label, a certification from the [Swiss
     
     **PrivateBin** é um pastebin online minimalista e de código aberto onde o servidor tem zero conhecimento de dados colados. Os dados são criptografados/descriptografados no navegador usando AES de 256 bits. Psono suporta compartilhamento seguro de senhas, arquivos, marcadores e e-mails.
 
-### Minimum Requirements
+### Requisitos mínimos
 
 - Must enforce end-to-end encryption.
 - Must offer a free plan or trial period for testing.
@@ -91,9 +91,9 @@ They have also received the Digital Trust Label, a certification from the [Swiss
 - Must allow for easy exports of all files/documents.
 - Must use standard, audited encryption.
 
-### Best-Case
+### Melhor caso
 
-Our best-case criteria represents what we would like to see from the perfect project in this category. Our recommendations may not include any or all of this functionality, but those which do may rank higher than others on this page.
+Os nossos melhores critérios representam o que gostaríamos de ver num projeto perfeito desta categoria. As nossas recomendações podem não incluir todas as funcionalidades, mas incluem as que, na nossa opinião, têm um impacto mais elevado.
 
 - Clients should be open-source.
 - Clients should be audited in their entirety by an independent third-party.

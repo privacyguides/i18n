@@ -30,7 +30,7 @@ Il nostro elenco di raccomandazioni contiene client di posta elettronica che sup
     [:octicons-info-16:](https://support.mozilla.org/products/thunderbird){ .card-link title=Documentazione}
     [:octicons-code-16:](https://hg.mozilla.org/comm-central){ .card-link title="Codice sorgente" }
     
-    ??? downloads "Scaricare"
+    ??? downloads "Scarica"
     
         - [:simple-windows11: Windows](https://www.thunderbird.net)
         - [:simple-apple: macOS](https://www.thunderbird.net)
@@ -84,7 +84,7 @@ Apple Mail ha la possibilità di caricare contenuti in remoto in background o di
     [:octicons-eye-16:](https://canarymail.io/privacy.html){ .card-link title="Politica sulla privacy" }
     [:octicons-info-16:](https://canarymail.zendesk.com/){ .card-link title=Documentazione}
     
-    ??? downloads "Scaricare"
+    ??? downloads "Scarica"
     
         - [:simple-googleplay: Google Play](https://play.google.com/store/apps/details?id=io.canarymail.android)
         - [:simple-appstore: App Store](https://apps.apple.com/app/id1236045954)
@@ -110,7 +110,7 @@ Canary Mail è closed-source. Lo consigliamo a causa della scarsa scelta di clie
     [:octicons-code-16:](https://github.com/M66B/FairEmail){ .card-link title="Codice sorgente" }
     [:octicons-heart-16:](https://email.faircode.eu/donate/){ .card-link title=Contribuisci }
     
-    ??? downloads "Scaricare"
+    ??? downloads "Scarica"
     
         - [:simple-googleplay: Google Play](https://play.google.com/store/apps/details?id=eu.faircode.email)
         - [:simple-github: GitHub](https://github.com/M66B/FairEmail/releases)
@@ -129,7 +129,7 @@ Canary Mail è closed-source. Lo consigliamo a causa della scarsa scelta di clie
     [:octicons-code-16:](https://gitlab.gnome.org/GNOME/evolution/){ .card-link title="Codice sorgente" }
     [:octicons-heart-16:](https://www.gnome.org/donate/){ .card-link title=Contribuisci }
     
-    ??? downloads "Scaricare"
+    ??? downloads "Scarica"
     
         - [:simple-flathub: Flathub](https://flathub.org/apps/details/org.gnome.Evolution)
 
@@ -149,7 +149,7 @@ Canary Mail è closed-source. Lo consigliamo a causa della scarsa scelta di clie
     [:octicons-code-16:](https://github.com/k9mail/k-9){ .card-link title="Codice sorgente" }
     [:octicons-heart-16:](https://k9mail.app/contribute){ .card-link title=Contribuisci }
     
-    ??? downloads "Scaricare"
+    ??? downloads "Scarica"
     
         - [:simple-googleplay: Google Play](https://play.google.com/store/apps/details?id=com.fsck.k9)
         - [:simple-github: GitHub](https://github.com/k9mail/k-9/releases)
@@ -172,7 +172,7 @@ Canary Mail è closed-source. Lo consigliamo a causa della scarsa scelta di clie
     [:octicons-code-16:](https://invent.kde.org/pim/kmail){ .card-link title="Codice Sorgente" }
     [:octicons-heart-16:](https://kde.org/community/donations/){ .card-link title=Contribuisci }
     
-    ??? downloads "Scaricare"
+    ??? downloads "Scarica"
     
         - [:simple-linux: Linux](https://kontact.kde.org/download)
         - [:simple-flathub: Flathub](https://flathub.org/apps/details/org.kde.kontact)
@@ -190,7 +190,7 @@ Canary Mail è closed-source. Lo consigliamo a causa della scarsa scelta di clie
     [:octicons-info-16:](https://mailvelope.com/faq){ .card-link title=Documentazione}
     [:octicons-code-16:](https://github.com/mailvelope/mailvelope){ .card-link title="Codice Sorgente" }
     
-    ??? downloads "Scaricare"
+    ??? downloads "Scarica"
     
         - [:simple-firefoxbrowser: Firefox](https://addons.mozilla.org/firefox/addon/mailvelope)
         - [:simple-googlechrome: Chrome](https://chrome.google.com/webstore/detail/mailvelope/kajibbejlbohfaggdiogboambcijhkke)
@@ -211,7 +211,7 @@ Canary Mail è closed-source. Lo consigliamo a causa della scarsa scelta di clie
     [:octicons-code-16:](https://github.com/neomutt/neomutt){ .card-link title="Codice Sorgente" }
     [:octicons-heart-16:](https://www.paypal.com/paypalme/russon/){ .card-link title=Contribuisci }
     
-    ??? downloads "Scaricare"
+    ??? downloads "Scarica"
     
         - [:simple-apple: macOS](https://neomutt.org/distro)
         - [:simple-linux: Linux](https://neomutt.org/distro)

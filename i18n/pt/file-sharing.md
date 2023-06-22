@@ -65,7 +65,7 @@ ffsend upload --host https://send.vis.ee/ FILE
     **PrivateBin** é um pastebin online minimalista e de código aberto onde o servidor tem zero conhecimento de dados colados. Os dados são criptografados/descriptografados no navegador usando AES de 256 bits. Psono suporta compartilhamento seguro de senhas, arquivos, marcadores e e-mails.
 
 - Must not store decrypted data on a remote server.
-- Must be open-source software.
+- O software deve ser de código aberto.
 - Must either have clients for Linux, macOS, and Windows; or have a web interface.
 
 ## FreedomBox
@@ -155,15 +155,15 @@ ffsend upload --host https://send.vis.ee/ FILE
     
     **PrivateBin** é um pastebin online minimalista e de código aberto onde o servidor tem zero conhecimento de dados colados. Os dados são criptografados/descriptografados no navegador usando AES de 256 bits. Psono suporta compartilhamento seguro de senhas, arquivos, marcadores e e-mails.
 
-#### Minimum Requirements
+#### Requisitos mínimos
 
 - Must not require a third-party remote/cloud server.
-- Must be open-source software.
+- O software deve ser de código aberto.
 - Must either have clients for Linux, macOS, and Windows; or have a web interface.
 
-#### Best-Case
+#### Melhor caso
 
-Our best-case criteria represents what we would like to see from the perfect project in this category. Our recommendations may not include any or all of this functionality, but those which do may rank higher than others on this page.
+Os nossos melhores critérios representam o que gostaríamos de ver num projeto perfeito desta categoria. As nossas recomendações podem não incluir todas as funcionalidades, mas incluem as que, na nossa opinião, têm um impacto mais elevado.
 
 - Has mobile clients for iOS and Android, which at least support document previews.
 - Supports photo backup from iOS and Android, and optionally supports file/folder sync on Android.

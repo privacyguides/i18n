@@ -13,8 +13,8 @@ Tor 是一個免費使用的去中心化網路，其讓用戶在使用網際網�
 每當您連接到 Tor 時，它都會選擇三個節點來構建通往網際網路的路徑，這種路徑稱為「迴路」。
 
 <figure markdown>
-  ! [Tor 路徑顯示您的設備到達目的地網站之前所連接的入口節點，中間節點和出口節點] (../assets/img/how-tor-works/tor-path.svg#only-light)
-! Tor 路徑顯示您的設備到達目的地網站之前所連接的入口節點，中間節點和出口節點] (../assets/img/how-tor-works/tor-path-dark.svg#only-dark)
+  ![Tor 路徑顯示您的設備到達目的地網站之前所連接的入口節點，中間節點和出口節點](../assets/img/how-tor-works/tor-path.svg#only-light)
+!Tor 路徑顯示您的設備到達目的地網站之前所連接的入口節點，中間節點和出口節點](../assets/img/how-tor-works/tor-path-dark.svg#only-dark)
   <figcaption>Tor 迴路路徑</figcaption>
 </figure>
 
@@ -45,8 +45,8 @@ Tor 是一個免費使用的去中心化網路，其讓用戶在使用網際網�
 在Tor中連接到 Onion服務的工作原理與連接到明網服務非常相似，但您的流量在到達目的地伺服器之前會通過 **6 個** 節點。 不過就如之前所言，其中只有三個節點會有助 *您的*匿名性，而另外三個節點則是為了保護 * Onion 服務* 匿名性，隱藏該網站的真正  IP 和位置，就如同 Tor 瀏覽器如何隱蔽您的 IP 一樣。
 
 <figure style="width:100%" markdown>
-  ! [Tor路徑顯示您的流量通過您的三個Tor節點加上三個額外的Tor節點隱藏網站的身份] (../assets/img/how-tor-works/tor-path-hidden-service.svg#only-light)
-  ! [Tor路徑顯示您的流量被路由通過您的三個Tor節點加上三個額外的Tor節點隱藏網站的身份] (../assets/img/how-tor-works/tor-path-hidden-service-dark.svg#only-dark)
+  ![Tor路徑顯示您的流量通過您的三個Tor節點加上三個額外的Tor節點隱藏網站的身份](../assets/img/how-tor-works/tor-path-hidden-service.svg#only-light)
+  ![Tor路徑顯示您的流量被路由通過您的三個Tor節點加上三個額外的Tor節點隱藏網站的身份](../assets/img/how-tor-works/tor-path-hidden-service-dark.svg#only-dark)
   <figcaption>Tor電路路徑與洋蔥服務。 <span class="pg-blue">藍色</span> 圍欄中的節點屬於您的瀏覽器，而 <span class="pg-red">紅色</span> 圍欄中的節點屬於伺服器，因此它們的身份對您是隱藏的。</figcaption>
 </figure>
 

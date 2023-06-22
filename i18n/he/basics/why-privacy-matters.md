@@ -19,20 +19,20 @@ icon: 'material/shield-account'
 **אבטחה**
 :
 
-Security is the ability to trust the applications you use—that the parties involved are who they say they are—and keep those applications safe. In the context of browsing the web, for example, security can be provided by HTTPS certificates.
+אבטחה היא היכולת לסמוך על היישומים שבהם אתה משתמש - שהצדדים המעורבים הם מי שהם אומרים שהם - ולשמור על היישומים האלה בטוחים. בהקשר של גלישה באינטרנט, למשל, ניתן לספק אבטחה באמצעות תעודות HTTPS.
 :
 
-Certificates prove you are talking directly to the website you're visiting, and keep attackers on your network from reading or modifying the data sent to or from the website.
+אישורים מוכיחים שאתה מדבר ישירות לאתר שבו אתה מבקר, ומונעות מהתוקפים ברשת שלך לקרוא או לשנות את הנתונים שנשלחו אל או ממנו.
 
 **אנונימיות**
 :
 
-Anonymity is the ability to act without a persistent identifier. You might achieve this online with [Tor](../tor.md), which allows you to browse the internet with a random IP address and network connection instead of your own.
+אנונימיות היא היכולת לפעול ללא מזהה מתמשך. אתה עשוי להשיג זאת באופן מקוון באמצעות [Tor](../tor.md), המאפשר לך לגלוש באינטרנט עם כתובת IP אקראית וחיבור רשת במקום שלך.
 :
 
-**Pseudonymity** is a similar concept, but it allows you to have a persistent identifier without it being tied to your real identity. If everybody knows you as `@GamerGuy12` online, but nobody knows your real name, that is your pseudonym.
+**דמיות בדוי** הוא מושג דומה, אך הוא מאפשר לך לקבל מזהה מתמשך מבלי שהוא יהיה קשור לזהות האמיתית שלך. אם כולם מכירים אותך בתור `@GamerGuy12` באינטרנט, אבל אף אחד לא יודע את שמך האמיתי, זה השם הבדוי שלך.
 
-כל המושגים הללו חופפים, אבל אפשר לקבל כל שילוב של אלה. הנקודה המתוקה עבור רוב האנשים היא כאשר כל שלושת המושגים הללו חופפים. However, it's trickier to achieve than many initially believe. לפעמים, אתה צריך להתפשר על כמה מאלה, וגם זה בסדר. כאן נכנס לתמונה **מודל איומים** המאפשר לך לקבל החלטות מושכלות decisions about the [התוכנה והשירותים](../tools.md)שבהם אתה משתמש.
+כל המושגים הללו חופפים, אבל אפשר לקבל כל שילוב של אלה. הנקודה המתוקה עבור רוב האנשים היא כאשר כל שלושת המושגים הללו חופפים. עם זאת, זה טריקי להשיג ממה שרבים מאמינים בתחילה. לפעמים, אתה צריך להתפשר על כמה מאלה, וגם זה בסדר. כאן נכנס לתמונה **מודל איומים** המאפשר לך לקבל החלטות מושכלות decisions about the [התוכנה והשירותים](../tools.md)שבהם אתה משתמש.
 
 [:material-book-outline: למד עוד על מידול סיכונים](threat-modeling.md ""){.md-button}
 

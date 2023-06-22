@@ -22,7 +22,7 @@ Il rischio principale quando si usa una piattaforma di streaming video è che le
     [:octicons-info-16:](https://lbry.com/faq){ .card-link title=Documentazione}
     [:octicons-code-16:](https://github.com/lbryio/lbry-desktop){ .card-link title="Codice sorgente" }
     
-    ??? downloads "Scaricare"
+    ??? downloads "Scarica"
     
         - [:simple-windows11: Windows](https://lbry.com/windows)
         - [:simple-apple: macOS](https://lbry.com/osx)

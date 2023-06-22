@@ -1,94 +1,94 @@
 ---
-title: "Tor Overview"
+title: "Обзор Tor"
 icon: 'simple/torproject'
-description: Tor is a free to use, decentralized network designed for using the internet with as much privacy as possible.
+description: Tor - это бесплатная в использовании децентрализованная сеть, разработанная для использования интернета с максимально возможной степенью конфиденциальности.
 ---
 
-Tor is a free to use, decentralized network designed for using the internet with as much privacy as possible. If used properly, the network enables private and anonymous browsing and communications.
+Tor - это бесплатная в использовании децентрализованная сеть, разработанная для использования интернета с максимально возможной степенью конфиденциальности. При правильном использовании сеть позволяет осуществлять частный и анонимный браузинг и общение.
 
-## Path Building to Clearnet Services
+## Построение пути к сервисам Clearnet
 
-"Clearnet services" are websites which you can access with any browser, like [privacyguides.org](https://www.privacyguides.org). Tor lets you connect to these websites anonymously by routing your traffic through a network comprised of thousands of volunteer-run servers called nodes (or relays).
+"Сервисы Clearnet" - это веб-сайты, доступ к которым можно получить с помощью любого браузера, например [privacyguides.org](https://www.privacyguides.org). Tor позволяет вам анонимно подключаться к этим сайтам, направляя ваш трафик через сеть, состоящую из тысяч, управляемых волонтёрами, серверов, которые называются узлами (или ретрансляторами).
 
-Every time you [connect to Tor](../tor.md), it will choose three nodes to build a path to the internet—this path is called a "circuit."
+Каждый раз, когда вы [подключаетесь к Tor](../tor.md), он выбирает три узла для построения пути в интернет - этот путь называется "цепь."
 
 <figure markdown>
-  ![Tor path showing your device connecting to an entry node, middle node, and exit node before reaching the destination website](../assets/img/how-tor-works/tor-path.svg#only-light)
-  ![Tor path showing your device connecting to an entry node, middle node, and exit node before reaching the destination website](../assets/img/how-tor-works/tor-path-dark.svg#only-dark)
-  <figcaption>Tor circuit pathway</figcaption>
+  ![Путь Tor, показывающий подключение вашего устройства к узлу входа, среднему узлу и узлу выхода до достижения целевого сайта](../assets/img/how-tor-works/tor-path.svg#only-light)
+  ![Путь Tor, показывающий подключение вашего устройства к узлу входа, среднему узлу и узлу выхода до достижения целевого сайта](../assets/img/how-tor-works/tor-path-dark.svg#only-dark)
+  <figcaption>Путь Tor</figcaption>
 </figure>
 
-Each of these nodes has its own function:
+Каждый из этих узлов имеет свою функцию:
 
-### The Entry Node
+### Входной узел
 
-The entry node, often called the guard node, is the first node to which your Tor client connects. The entry node is able to see your IP address, however it is unable to see what you are connecting to.
+Входной узел, часто называемый сторожевым узлом, является первым узлом, к которому подключается ваш клиент Tor. Входной узел может видеть ваш IP-адрес, однако он не может видеть, к чему вы подключаетесь.
 
-Unlike the other nodes, the Tor client will randomly select an entry node and stick with it for two to three months to protect you from certain attacks.[^1]
+В отличие от других узлов, клиент Tor будет случайным образом выбирать входной узел и придерживаться его в течение двух-трех месяцев, чтобы защитить вас от определенных атак.[^1]
 
-### The Middle Node
+### Средний узел
 
-The middle node is the second node to which your Tor client connects. It can see which node the traffic came from—the entry node—and to which node it goes to next. The middle node cannot, see your IP address or the domain you are connecting to.
+Средний узел - это второй узел, к которому подключается ваш клиент Tor. Он может видеть, с какого узла пришел трафик (входного узла) и к какому узлу он идет дальше. Средний узел не может видеть ваш IP-адрес или домен, к которому вы подключаетесь.
 
-For each new circuit, the middle node is randomly selected out of all available Tor nodes.
+Для каждой новой цепи средний узел выбирается случайным образом из всех доступных узлов Tor.
 
-### The Exit Node
+### Выходной узел
 
-The exit node is the point in which your web traffic leaves the Tor network and is forwarded to your desired destination. The exit node is unable to see your IP address, but it does know what site it's connecting to.
+Выходной узел - это точка, в которой ваш веб-трафик покидает сеть Tor и перенаправляется в нужное вам место назначения. Выходной узел не может видеть ваш IP-адрес, но он знает, к какому сайту подключается.
 
-The exit node will be chosen at random from all available Tor nodes ran with an exit relay flag.[^2]
+Выходной узел  будет выбран случайным образом из всех доступных узлов Tor, запущенных с флагом ретрансляции выхода.[^2]
 
-## Path Building to Onion Services
+## Построение пути к сервисам Onion
 
-"Onion Services" (also commonly referred to as "hidden services") are websites which can only be accessed by the Tor browser. These websites have a long randomly generated domain name ending with `.onion`.
+"Сервисы Onion" (также часто называемые "скрытыми сервисами") - это веб-сайты, доступ к которым возможен только через браузер Tor. Эти сайты имеют длинное случайно сгенерированное доменное имя, заканчивающееся на `.onion`.
 
-Connecting to an Onion Service in Tor works very similarly to connecting to a clearnet service, but your traffic is routed through a total of **six** nodes before reaching the destination server. Just like before however, only three of these nodes are contributing to *your* anonymity, the other three nodes protect *the Onion Service's* anonymity, hiding the website's true IP and location in the same manner that Tor Browser is hiding yours.
+Подключение к сервису Onion в Tor работает аналогично подключению к сервису clearnet, но ваш трафик проходит в общей сложности через **шесть узлов**, прежде чем достигнет сервера назначения. Однако, как и раньше, только три из этих узлов способствуют *вашей* анонимности, остальные три узла защищают анонимность *сервисов Onion*, скрывая истинный IP и местоположение сайта так же, как Tor Browser скрывает ваш.
 
 <figure style="width:100%" markdown>
-  ![Tor path showing your traffic being routed through your three Tor nodes plus three additional Tor nodes which hide the website's identity](../assets/img/how-tor-works/tor-path-hidden-service.svg#only-light)
-  ![Tor path showing your traffic being routed through your three Tor nodes plus three additional Tor nodes which hide the website's identity](../assets/img/how-tor-works/tor-path-hidden-service-dark.svg#only-dark)
-  <figcaption>Tor circuit pathway with Onion Services. Nodes in the <span class="pg-blue">blue</span> fence belong to your browser, while nodes in the <span class="pg-red">red</span> fence belong to the server, so their identity is hidden from you.</figcaption>
+  ![Путь Tor, показывающий, что ваш трафик направляется через три ваших Tor-узла плюс три дополнительных Tor-узла, скрывающих идентичность сайта](../assets/img/how-tor-works/tor-path-hidden-service.svg#only-light)
+  ![Путь Tor, показывающий, что ваш трафик направляется через три ваших Tor-узла плюс три дополнительных Tor-узла, скрывающих идентичность веб-сайта](../assets/img/how-tor-works/tor-path-hidden-service-dark.svg#only-dark)
+  <figcaption>Путь цепи Tor с  сервисами Onion. Узлы в <span class="pg-blue">синем</span> квадрате принадлежат вашему браузеру, а узлы в <span class="pg-red">красном</span> квадрате принадлежат серверу, поэтому их идентичность скрыта от вас.</figcaption>
 </figure>
 
-## Encryption
+## Шифрование
 
-Tor encrypts each packet (a block of transmitted data) three times with the keys from the exit, middle, and entry node—in that order.
+Tor шифрует каждый пакет (блок передаваемых данных) три раза с помощью ключей от выходного, среднего и входного узла - именно в таком порядке.
 
-Once Tor has built a circuit, data transmission is done as follows:
+После того как Tor построил цепь, передача данных осуществляется следующим образом:
 
-1. Firstly: when the packet arrives at the entry node, the first layer of encryption is removed. In this encrypted packet, the entry node will find another encrypted packet with the middle node’s address. The entry node will then forward the packet to the middle node.
+1. Во-первых: когда пакет поступает на входной узел, первый уровень шифрования снимается. В этом зашифрованном пакете входной узел найдет другой зашифрованный пакет с адресом среднего узла. Затем входной узел пересылает пакет среднему узлу.
 
-2. Secondly: when the middle node receives the packet from the entry node, it too will remove a layer of encryption with its key, and this time finds an encrypted packet with the exit node's address. The middle node will then forward the packet to the exit node.
+2. Во-вторых: когда средний узел получает пакет от входного узла, он тоже снимает слой шифрования своим ключом, и на этот раз находит зашифрованный пакет с адресом выходного узла. Затем средний узел пересылает пакет на выходной узел.
 
-3. Lastly: when the exit node receives its packet, it will remove the last layer of encryption with its key. The exit node will see the destination address and forward the packet to that address.
+3. И последнее: когда выходной узел получает свой пакет, он удаляет последний уровень шифрования своим ключом. Выходной узел увидит адрес назначения и перешлет пакет на этот адрес.
 
-Below is an alternative diagram showing the process. Each node removes its own layer of encryption, and when the destination server returns data, the same process happens entirely in reverse. For example, the exit node does not know who you are, but it does know which node it came from, and so it adds its own layer of encryption and sends it back.
+Ниже приведена альтернативная диаграмма, показывающая этот процесс. Каждый узел снимает свой собственный уровень шифрования, а когда сервер назначения возвращает данные, тот же процесс происходит полностью в обратном порядке. Например, выходной узел не знает, кто вы, но он знает, с какого узла пришло сообщение, поэтому он добавляет свой собственный уровень шифрования и отправляет его обратно.
 
 <figure markdown>
-  ![Tor encryption](../assets/img/how-tor-works/tor-encryption.svg#only-light)
-  ![Tor encryption](../assets/img/how-tor-works/tor-encryption-dark.svg#only-dark)
-  <figcaption>Sending and receiving data through the Tor Network</figcaption>
+  ![Шифрование Tor](../assets/img/how-tor-works/tor-encryption.svg#only-light)
+  ![Шифрование Tor](../assets/img/how-tor-works/tor-encryption-dark.svg#only-dark)
+  <figcaption>Отправка и получение данных через сеть Tor</figcaption>
 </figure>
 
-Tor allows us to connect to a server without any single party knowing the entire path. The entry node knows who you are, but not where you are going; the middle node doesn’t know who you are or where you are going; and the exit node knows where you are going, but not who you are. Because the exit node is what makes the final connection, the destination server will never know your IP address.
+Tor позволяет нам подключаться к серверу так, чтобы никто не знал всего пути. Входной узел знает, кто вы, но не знает, куда вы идете; средний узел не знает, кто вы и куда вы идете; а выходной узел знает, куда вы идете, но не знает, кто вы. Поскольку конечный узел устанавливает окончательное соединение, сервер назначения никогда не узнает ваш IP-адрес.
 
-## Caveats
+## Предостережения
 
-Though Tor does provide strong privacy guarantees, one must be aware that Tor is not perfect:
+Хотя Tor обеспечивает надежные гарантии конфиденциальности, следует помнить, что Tor не совершенен:
 
-- Well-funded adversaries with the capability to passively watch most network traffic over the globe have a chance of deanonymizing Tor users by means of advanced traffic analysis. Nor does Tor protect you from exposing yourself by mistake, such as if you share too much information about your real identity.
-- Tor exit nodes can also monitor traffic that passes through them. This means traffic which is not encrypted, such as plain HTTP traffic, can be recorded and monitored. If such traffic contains personally identifiable information, then it can deanonymize you to that exit node. Thus, we recommend using HTTPS over Tor where possible.
+- Хорошо финансируемые противники, способные пассивно следить за большинством сетевого трафика по всему миру, имеют шанс деанонимизировать пользователей Tor с помощью продвинутого анализа трафика. Tor также не защищает вас от саморазоблачения по ошибке, например, если вы поделитесь слишком большой информацией о своей настоящей личности.
+- Выходные узлы Tor также могут отслеживать проходящий через них трафик. Это означает, что трафик, который не зашифрован, например, обычный трафик HTTP, можно записывать и отслеживать. Если такой трафик содержит персонально идентифицируемую информацию, то он может деанонимизировать вас для этого выходного узла. Таким образом, мы рекомендуем использовать HTTPS через Tor, где это возможно.
 
-If you wish to use Tor for browsing the web, we only recommend the **official** Tor Browser—it is designed to prevent fingerprinting.
+Если вы хотите использовать Tor для просмотра веб-страниц, мы рекомендуем только **официальный ** Tor Browser - он разработан для предотвращения цифровых отпечатков.
 
 - [Tor Browser :material-arrow-right-drop-circle:](../tor.md#tor-browser)
 
 ## Дополнительные советы
 
-- [Tor Browser User Manual](https://tb-manual.torproject.org)
+- [Руководство пользователя Tor Browser](https://tb-manual.torproject.org)
 - [How Tor Works - Computerphile](https://invidious.privacyguides.net/embed/QRYzre4bf7I?local=true) <small>(YouTube)</small>
 - [Tor Onion Services - Computerphile](https://invidious.privacyguides.net/embed/lVcbq_a5N9I?local=true) <small>(YouTube)</small>
 
-[^1]: The first relay in your circuit is called an "entry guard" or "guard". It is a fast and stable relay that remains the first one in your circuit for 2-3 months in order to protect against a known anonymity-breaking attack. The rest of your circuit changes with every new website you visit, and all together these relays provide the full privacy protections of Tor. For more information on how guard relays work, see this [blog post](https://blog.torproject.org/improving-tors-anonymity-changing-guard-parameters) and [paper](https://www-users.cs.umn.edu/~hoppernj/single_guard.pdf) on entry guards. ([https://support.torproject.org/tbb/tbb-2/](https://support.torproject.org/tbb/tbb-2/))
+[^1]: Первый ретранслятор в вашей цепи называется "входным" или "охранным". Это быстрый и стабильный ретранслятор, который остается первым в вашей цепи в течение 2-3 месяцев для защиты от известной атаки, нарушающей анонимность. Остальная часть цепи меняется с каждым новым посещаемым сайтом, и все вместе эти реле обеспечивают полную защиту конфиденциальности Tor. Более подробную информацию о том, как работают охранные ретрансляторы, можно найти в этом [посте в блоге](https://blog.torproject.org/improving-tors-anonymity-changing-guard-parameters) и [документе](https://www-users.cs.umn.edu/~hoppernj/single_guard.pdf) о входных узлах. ([https://support.torproject.org/tbb/tbb-2/](https://support.torproject.org/tbb/tbb-2/))
 
-[^2]: Relay flag: a special (dis-)qualification of relays for circuit positions (for example, "Guard", "Exit", "BadExit"), circuit properties (for example, "Fast", "Stable"), or roles (for example, "Authority", "HSDir"), as assigned by the directory authorities and further defined in the directory protocol specification. ([https://metrics.torproject.org/glossary.html](https://metrics.torproject.org/glossary.html))
+[^2]: Флаг ретраслятора: специальная (дис)квалификация реле для позиций цепи (например, "Guard", "Exit", "BadExit"), свойств цепи (например, "Fast", "Stable") или ролей (например, "Authority", "HSDir"), назначаемых владельцами директории и далее определенных в спецификации протокола директории. ([https://metrics.torproject.org/glossary.html](https://metrics.torproject.org/glossary.html))

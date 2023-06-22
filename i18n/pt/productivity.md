@@ -64,18 +64,18 @@ A maioria das suites de escritório online não suporta E2EE, o que significa qu
 Em geral, definimos as plataformas de colaboração como suites completas que podem razoavelmente atuar como substitutos de plataformas de colaboração, como o Google Drive.
 
 - Código aberto.
-- Torna os ficheiros acessíveis através de WebDAV, a menos que tal seja impossível devido ao E2EE.
-- Tem clientes de sincronização para Linux, macOS e Windows.
-- Suporta a edição de documentos e folhas de cálculo.
-- Suporta a colaboração de documentos em tempo real.
-- Suporta a exportação de documentos para formatos de documento padrão (por exemplo, ODF).
+- Tornam os ficheiros acessíveis através de WebDAV, a menos que tal seja impossível devido ao E2EE.
+- Têm clientes de sincronização para Linux, macOS e Windows.
+- Suportam a edição de documentos e folhas de cálculo.
+- Suportam a colaboração de documentos em tempo real.
+- Suportam a exportação de documentos para formatos de documento padrão (por exemplo, ODF).
 
 #### Melhor caso
 
 Os nossos melhores critérios representam o que gostaríamos de ver num projeto perfeito desta categoria. As nossas recomendações podem não incluir todas as funcionalidades, mas incluem as que, na nossa opinião, têm um impacto mais elevado.
 
-- Deve armazenar ficheiros num sistema de ficheiros convencional.
-- Deve suportar a autenticação multifator TOTP ou FIDO2, ou logins Passkey.
+- Devem armazenar ficheiros num sistema de ficheiros convencional.
+- Devem suportar a autenticação multifator TOTP ou FIDO2, ou logins Passkey.
 
 ## Suites de escritório
 
@@ -84,15 +84,15 @@ Os nossos melhores critérios representam o que gostaríamos de ver num projeto 
 !!! nota
     Consulte o [Tabela de Hardware](https://openwrt.org/toh/start) para verificar se o seu dispositivo é suportado.
 
-    ![LibreOffice logo](assets/img/productivity/libreoffice.svg){ align=right }
+    ![Logótipo LibreOffice](assets/img/productivity/libreoffice.svg){ align=right }
     
-    **LibreOffice** is a free and open-source office suite with extensive functionality.
+    O **LibreOffice** é uma suite de escritório gratuita e de código aberto com uma vasta funcionalidade.
     
     [:octicons-home-16: Homepage](https://www.libreoffice.org){ .md-button .md-button--primary }
-    [:octicons-eye-16:](https://www.libreoffice.org/about-us/privacy/privacy-policy-en/){ .card-link title="Privacy Policy" }
-    [:octicons-info-16:](https://documentation.libreoffice.org/en/english-documentation/){ .card-link title=Documentation}
-    [:octicons-code-16:](https://www.libreoffice.org/about-us/source-code){ .card-link title="Source Code" }
-    [:octicons-heart-16:](https://www.libreoffice.org/donate/){ .card-link title=Contribute }
+    [:octicons-eye-16:](https://www.libreoffice.org/about-us/privacy/privacy-policy-en/){ .card-link title="Política de Privacidade" }
+    [:octicons-info-16:](https://documentation.libreoffice.org/en/english-documentation/){ .card-link title=Documentação}
+    [:octicons-code-16:](https://www.libreoffice.org/about-us/source-code){ .card-link title="Código-fonte" }
+    [:octicons-heart-16:](https://www.libreoffice.org/donate/){ .card-link title=Contribuir }
     
     ??? downloads
     
@@ -109,14 +109,14 @@ Os nossos melhores critérios representam o que gostaríamos de ver num projeto 
 !!! nota
     Consulte o [Tabela de Hardware](https://openwrt.org/toh/start) para verificar se o seu dispositivo é suportado.
 
-    ![OnlyOffice logo](assets/img/productivity/onlyoffice.svg){ align=right }
+    ![Logótipo OnlyOffice](assets/img/productivity/onlyoffice.svg){ align=right }
     
-    **OnlyOffice** is a cloud-based free and open-source office suite with extensive functionality, including integration with Nextcloud.
+    **OnlyOffice** é uma suite de escritório gratuita e de código aberto, baseada na nuvem, com uma vasta funcionalidade, incluindo a integração com a Nextcloud.
     
     [:octicons-home-16: Homepage](https://www.onlyoffice.com){ .md-button .md-button--primary }
-    [:octicons-eye-16:](https://help.onlyoffice.com/products/files/doceditor.aspx?fileid=5048502&doc=SXhWMEVzSEYxNlVVaXJJeUVtS0kyYk14YWdXTEFUQmRWL250NllHNUFGbz0_IjUwNDg1MDIi0){ .card-link title="Privacy Policy" }
-    [:octicons-info-16:](https://helpcenter.onlyoffice.com/userguides.aspx){ .card-link title=Documentation}
-    [:octicons-code-16:](https://github.com/ONLYOFFICE){ .card-link title="Source Code" }
+    [:octicons-eye-16:](https://help.onlyoffice.com/products/files/doceditor.aspx?fileid=5048502&doc=SXhWMEVzSEYxNlVVaXJJeUVtS0kyYk14YWdXTEFUQmRWL250NllHNUFGbz0_IjUwNDg1MDIi0){ .card-link title="Política de Privacidade" }
+    [:octicons-info-16:](https://helpcenter.onlyoffice.com/userguides.aspx){ .card-link title=Documentação}
+    [:octicons-code-16:](https://github.com/ONLYOFFICE){ .card-link title="Código-fonte" }
     
     ??? downloads
     
@@ -128,59 +128,55 @@ Os nossos melhores critérios representam o que gostaríamos de ver num projeto 
         - [:simple-flathub: Flathub](https://flathub.org/apps/details/org.onlyoffice.desktopeditors)
         - [:simple-freebsd: FreeBSD](https://www.freshports.org/www/onlyoffice-documentserver/)
 
-### Framadate
+### Critérios
 
-**Please note we are not affiliated with any of the projects we recommend.** In addition to [our standard criteria](about/criteria.md), we have developed a clear set of requirements to allow us to provide objective recommendations. We suggest you familiarize yourself with this list before choosing to use a project, and conduct your own research to ensure it's the right choice for you.
+**Note que não estamos associados a nenhum dos projetos que recomendamos.**Para além dos [nossos critérios padrão](about/criteria.md), temos um conjunto claro de requisitos que nos permitem fornecer recomendações objetivas. Sugerimos que se familiarize com esta lista antes de optar por um projeto e que desenvolva a sua própria investigação para garantir que se trata da escolha certa para si.
 
-!!! Considere o auto-hospedagem para mitigar esta ameaça.
+!!! exemplo "Esta secção é nova"
 
-    ![logo PrivateBin](/assets/img/productivity/privatebin.svg){ align=right }
-    
-    **PrivateBin** é um pastebin online minimalista e de código aberto onde o servidor tem zero conhecimento de dados colados. Os dados são criptografados/descriptografados no navegador usando AES de 256 bits. Psono suporta compartilhamento seguro de senhas, arquivos, marcadores e e-mails.
+    Estamos a trabalhar no sentido de estabelecer critérios para cada secção do nosso site, o que pode originar alterações. Se tiver alguma dúvida sobre os critérios utilizados, por favor [pergunte no nosso fórum] (https://discuss.privacyguides.net/latest) e não parta do princípio de que algo foi excluído das nossas recomendações, caso não esteja listado aqui. São muitos os fatores considerados e discutidos quando recomendamos um projeto, e documentar cada um deles é um trabalho em curso.
 
-In general, we define office suites as applications which could reasonably act as a replacement for Microsoft Word for most needs.
+Em geral, definimos suites de escritório como aplicações que podem razoavelmente substituir o Microsoft Word para a maioria das necessidades.
 
-- Must be cross-platform.
-- Must be open-source software.
-- Must function offline.
-- Must support editing documents, spreadsheets, and slideshows.
-- Must export files to standard document formats.
+- Devem ser multiplataforma.
+- Devem ser um software de código aberto.
+- Devem funcionar offline.
+- Devem suportar a edição de documentos, folhas de cálculo e apresentações de diapositivos.
+- Devem exportar ficheiros para formatos de documentos normalizados.
 
-## Paste services
+## Serviços de colagem
 
 ### PrivateBin
 
 !!! nota
     Consulte o [Tabela de Hardware](https://openwrt.org/toh/start) para verificar se o seu dispositivo é suportado.
 
-    ![PrivateBin logo](assets/img/productivity/privatebin.svg){ align=right }
+    ![Logotipo PrivateBin](assets/img/productivity/privatebin.svg){ align=right }
     
-    **PrivateBin** is a minimalist, open-source online pastebin where the server has zero knowledge of pasted data. Data is encrypted/decrypted in the browser using 256-bit AES. It is the improved version of ZeroBin. There is a [list of instances](https://privatebin.info/directory/).
+    O **PrivateBin** é um pastebin online minimalista e de código aberto, e cujo servidor não tem conhecimento dos dados colados. Os dados são encriptados/desencriptados no browser utilizando AES de 256 bits. É a versão melhorada do ZeroBin. Existe uma [lista de instâncias] (https://privatebin.info/directory/).
     
     [:octicons-home-16: Homepage](https://privatebin.info){ .md-button .md-button--primary }
-    [:octicons-server-16:](https://privatebin.info/directory/){ .card-link title="Public Instances"}
-    [:octicons-info-16:](https://github.com/PrivateBin/PrivateBin/wiki/FAQ){ .card-link title=Documentation}
-    [:octicons-code-16:](https://github.com/PrivateBin/PrivateBin){ .card-link title="Source Code" }
+    [:octicons-server-16:](https://privatebin.info/directory/){ .card-link title="Instâncias Públicas"}
+    [:octicons-info-16:](https://github.com/PrivateBin/PrivateBin/wiki/FAQ){ .card-link title=Documentação}
+    [:octicons-code-16:](https://github.com/PrivateBin/PrivateBin){ .card-link title="Código-fonte" }
 
-### Framadate
+### Critérios
 
-**Please note we are not affiliated with any of the projects we recommend.** In addition to [our standard criteria](about/criteria.md), we have developed a clear set of requirements to allow us to provide objective recommendations. We suggest you familiarize yourself with this list before choosing to use a project, and conduct your own research to ensure it's the right choice for you.
+**Note que não estamos associados a nenhum dos projetos que recomendamos.**Para além dos [nossos critérios padrão](about/criteria.md), temos um conjunto claro de requisitos que nos permitem fornecer recomendações objetivas. Sugerimos que se familiarize com esta lista antes de optar por um projeto e que desenvolva a sua própria investigação para garantir que se trata da escolha certa para si.
 
-!!! Considere o auto-hospedagem para mitigar esta ameaça.
+!!! exemplo "Esta secção é nova"
 
-    ![logo PrivateBin](/assets/img/productivity/privatebin.svg){ align=right }
-    
-    **PrivateBin** é um pastebin online minimalista e de código aberto onde o servidor tem zero conhecimento de dados colados. Os dados são criptografados/descriptografados no navegador usando AES de 256 bits. Psono suporta compartilhamento seguro de senhas, arquivos, marcadores e e-mails.
+    Estamos a trabalhar no sentido de estabelecer critérios para cada secção do nosso site, o que pode originar alterações. Se tiver alguma dúvida sobre os critérios utilizados, por favor [pergunte no nosso fórum] (https://discuss.privacyguides.net/latest) e não parta do princípio de que algo foi excluído das nossas recomendações, caso não esteja listado aqui. São muitos os fatores considerados e discutidos quando recomendamos um projeto, e documentar cada um deles é um trabalho em curso.
 
-#### Minimum Requirements
+#### Requisitos mínimos
 
-- Must be open-source.
-- Must implement "zero-trust" end-to-end encryption.
-- Must support password-protected files.
+- Devem ser de código aberto.
+- Devem implementar uma encriptação de ponta a ponta de "confiança zero".
+- Devem suportar ficheiros protegidos por palavra-passe.
 
 
-#### Best-Case
+#### Melhor caso
 
-Our best-case criteria represents what we would like to see from the perfect project in this category. Our recommendations may not include any or all of this functionality, but those which do may rank higher than others on this page.
+Os nossos melhores critérios representam o que gostaríamos de ver num projeto perfeito desta categoria. As nossas recomendações podem não incluir todas as funcionalidades, mas incluem as que, na nossa opinião, têm um impacto mais elevado.
 
-- Should have a published audit from a reputable, independent third-party.
+- Devem ter uma auditoria publicada por um terceiro independente e de boa reputação.

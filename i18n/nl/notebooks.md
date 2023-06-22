@@ -41,7 +41,7 @@ Als je momenteel een toepassing zoals Evernote, Google Keep of Microsoft OneNote
 
     ![Notesnook logo](assets/img/notebooks/notesnook.svg){ align=right }
     
-    **Notesnook** is a free (as in speech) & open-source note-taking app focused on user privacy & ease of use. It features end-to-end encryption on all platforms with a powerful sync to take your notes on the go. You can easily import your notes from Evernote, OneNote & a lot of other apps using their [official importer](https://importer.notesnook.com/).
+    **Notesnook** is een gratis (als in spraak) & open-source app voor het maken van notities, gericht op de privacy van de gebruiker & gebruiksgemak. Het biedt end-to-end encryptie op alle platformen met een krachtige synchronisatie om je notities onderweg te maken. Je kunt je notities eenvoudig importeren vanuit Evernote, OneNote & en vele andere apps met behulp van hun [officiële importeur] (https://importer.notesnook.com/).
     
     [:octicons-home-16: Homepage](https://notesnook.com/){ .md-button .md-button--primary }
     [:octicons-eye-16:](https://notesnook.com/privacy){ .card-link title="Privacy Policy" }
@@ -49,7 +49,7 @@ Als je momenteel een toepassing zoals Evernote, Google Keep of Microsoft OneNote
     [:octicons-code-16:](https://github.com/streetwriters/notesnook){ .card-link title="Source Code" }
     [:octicons-heart-16:](https://github.com/streetwriters/notesnook/blob/master/CONTRIBUTING.md){ .card-link title=Contribute }
     
-    ??? downloads
+    ??? downloads "Downloaden"
     
         - [:simple-googleplay: Google Play](https://play.google.com/store/apps/details?id=com.streetwriters.notesnook)
         - [:simple-appstore: App Store](https://apps.apple.com/us/app/notesnook-take-private-notes/id1544027013)
@@ -60,7 +60,7 @@ Als je momenteel een toepassing zoals Evernote, Google Keep of Microsoft OneNote
         - [:simple-firefoxbrowser: Firefox](https://notesnook.com/notesnook-web-clipper/)
         - [:simple-googlechrome: Chrome](https://chrome.google.com/webstore/detail/notesnook-web-clipper/kljhpemdlcnjohmfmkogahelkcidieaj)
 
-Notesnook does not support password/PIN protection on the web & desktop apps. However, you can still lock individual notes, and your data is always encrypted in transit and on your device using your master key.
+Notesnook ondersteunt geen wachtwoord/PIN beveiliging op het web & desktop apps. Je kunt echter nog steeds individuele notities vergrendelen en je gegevens worden altijd versleuteld tijdens het transport en op je apparaat met behulp van je hoofdsleutel.
 
 ### Joplin
 

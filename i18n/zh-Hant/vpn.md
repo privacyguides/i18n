@@ -24,7 +24,7 @@ cover: vpn.png
     
     如果要的是更多 **安全性** ，您應該確保您全程使用 HTTPS 連接到網站。 VPN 不能取代良好的安全措施。
     
-    [Download Tor] (https://www.torproject.org/){ .md-button .md-button--primary } [Tor Myths & FAQ] (advanced/tor-overview.md){ .md-button }
+    [Download Tor](https://www.torproject.org/){ .md-button .md-button--primary } [Tor Myths & FAQ](advanced/tor-overview.md){ .md-button }
 
 [VPN 概述 :material-arrow-right-drop-circle:](basics/vpn-overview.md ""){.md-button}
 

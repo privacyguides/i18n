@@ -1,173 +1,166 @@
 ---
 title: "Agregadores de notícias"
 icon: material/rss
-description: These news aggregator clients let you keep up with your favorite blogs and news sites using internet standards like RSS.
+description: Estes clientes agregadores de notícias funcionam com base em normas da Internet como o RSS, e permitem-lhe manter-se a par dos seus blogues e sites de notícias favoritos.
 cover: news-aggregators.png
 ---
 
-A [news aggregator](https://en.wikipedia.org/wiki/News_aggregator) is a way to keep up with your favorite blogs and news sites.
+Um [agregador de notícias](https://en.wikipedia.org/wiki/News_aggregator) é uma forma de se manter a par dos seus blogues e sites de notícias favoritos.
 
 ## Clientes agregadores
-
-### Leitor Fluente
-
-!!! nota
-    Consulte o [Tabela de Hardware](https://openwrt.org/toh/start) para verificar se o seu dispositivo é suportado.
-
-    ![logo Fluent Reader](/assets/img/news-aggregators/fluent-reader.svg){ align=right }
-    
-    **Fluent Reader** é um agregador de notícias seguro em várias plataformas que possui recursos de privacidade úteis, como exclusão de cookies na saída, [políticas de segurança de conteúdo (CSP)](https://en.wikipedia.org/wiki/Content_Security_Policy) e suporte a proxy, o que significa que você pode usá-lo sobre [Tor](/self-contained-networks/#tor). [Visite hyliu.me](https://hyliu.me/fluent-reader){ .md-button .md-button--primary } [Política de Privacidade](https://github.com/yang991178/fluent-reader/wiki/Privacy){ .md-button }
-    
-    **Downloads***
-    - [:fontawesome-brands-windows: Windows](https://hyliu.me/fluent-reader)
-    - [:fontawesome-brands-app-store: Mac App Store](https://apps.apple.com/app/id1520907427)
-    - [:fontawesome-brands-github: Source](https://github.com/yang991178/fluent-reader.git)
-    
-    [:octicons-home-16: Homepage](https://apps.kde.org/akregator){ .md-button .md-button--primary }
-    [:octicons-eye-16:](https://kde.org/privacypolicy-apps){ .card-link title="Privacy Policy" }
-    [:octicons-info-16:](https://docs.kde.org/?application=akregator){ .card-link title=Documentation}
-    [:octicons-code-16:](https://invent.kde.org/pim/akregator){ .card-link title="Source Code" }
-    [:octicons-heart-16:](https://kde.org/community/donations/){ .card-link title=Contribute }
-    
-    ??? downloads
-    
-        - [:simple-flathub: Flathub](https://flathub.org/apps/details/org.kde.akregator)
-
-### Alimentadores GNOME
-
-!!! nota
-    Consulte o [Tabela de Hardware](https://openwrt.org/toh/start) para verificar se o seu dispositivo é suportado.
-
-    ![logo GNOME Feeds](/assets/img/news-aggregators/gfeeds.svg){ align=right }
-    
-    **GNOME Feeds*** é um [RSS](https://en.wikipedia.org/wiki/RSS) e [Atom](https://en.wikipedia.org/wiki/Atom_(Web_standard)) leitor de notícias para [GNOME](https://www.gnome.org). Tem uma interface simples e é bastante rápida.
-    
-    [Visite gfeeds.gabmus.org](https://gfeeds.gabmus.org){ .md-button .md-button--primary }
-    
-    **Downloads***
-    - [:fontawesome-brands-linux: Linux](https://gfeeds.gabmus.org/#install)
-    - [:pg-flathub: Flatpak](https://flathub.org/apps/details/org.gabmus.gfeeds)
-    - [:fontawesome-brands-gitlab: Fonte](https://gitlab.gnome.org/World/gfeeds) downloads
-    
-        - [:simple-googleplay: Google Play](https://play.google.com/store/apps/details?id=com.nononsenseapps.feeder.play)
 
 ### Akregator
 
 !!! nota
     Consulte o [Tabela de Hardware](https://openwrt.org/toh/start) para verificar se o seu dispositivo é suportado.
 
-    ![logotipo Akregator](/assets/img/news-aggregators/akregator.svg){ align=right }
+    ![Logótipo Akregator](assets/img/news-aggregators/akregator.svg){ align=right }
     
-    **Akregator** é um leitor de notícias que faz parte do projecto [KDE](https://kde.org).
+    O **Akregator** é um leitor de feeds de notícias que faz parte do projeto [KDE](https://kde.org). Inclui uma pesquisa rápida, uma funcionalidade avançada de arquivo e um browser interno para facilitar a leitura de notícias.
     
-    Ele vem com uma pesquisa rápida, funcionalidade avançada de arquivamento e um navegador interno para facilitar a leitura de notícias. [Visite kde.org](https://apps.kde.org/akregator){ .md-button .md-button--primary } [Política de Privacidade](https://kde.org/privacypolicy-apps){ .md-button }
+    [:octicons-home-16: Homepage](https://apps.kde.org/akregator){ .md-button .md-button--primary }
+    [:octicons-eye-16:](https://kde.org/privacypolicy-apps){ .card-link title="Política de Privacidade" }
+    [:octicons-info-16:](https://docs.kde.org/?application=akregator){ .card-link title=Documentação}
+    [:octicons-code-16:](https://invent.kde.org/pim/akregator){ .card-link title="Código-fonte" }
+    [:octicons-heart-16:](https://kde.org/community/donations/){ .card-link title=Contribuir }
     
-    **Downloads***
-    - [:pg-flathub: Flatpak](https://flathub.org/apps/details/org.kde.akregator)
-    - [:fontawesome-brands-git: Fonte](https://invent.kde.org/pim/akregator)
+    ??? downloads
+    
+        - [:simple-flathub: Flathub](https://flathub.org/apps/details/org.kde.akregator)
 
-### Leitor de Notícias Handy
+### Feeder
 
 !!! nota
     Consulte o [Tabela de Hardware](https://openwrt.org/toh/start) para verificar se o seu dispositivo é suportado.
 
-    ![Logotipo do Handy News Reader](/assets/img/news-aggregators/handy-news-reader.svg){ align=right }
+    ![Logótipo Feeder](assets/img/news-aggregators/feeder.png){ align=right }
     
-    **Handy News Reader** é um garfo de [Flym](https://github.com/FredJul/Flym) que tem muitos [features](https://github.com/yanus171/Handy-News-Reader#features) e funciona bem com pastas de feeds RSS. Ele suporta [RSS](https://en.wikipedia.org/wiki/RSS), [Atom](https://en.wikipedia.org/wiki/Atom_(Web_standard)) e [RDF](https://en.wikipedia.org/wiki/RDF%2FXML).
+    **Feeder** é um cliente RSS moderno para Android que tem muitas [features](https://gitlab.com/spacecowboy/Feeder#features) e funciona bem com pastas de feeds RSS. Suporta [RSS](https://en.wikipedia.org/wiki/RSS), [Atom](https://en.wikipedia.org/wiki/Atom_(Web_standard)), [RDF](https://en.wikipedia.org/wiki/RDF%2FXML) e [JSON Feed](https://en.wikipedia.org/wiki/JSON_Feed).
     
-    [Visite yanus171.github.io](https://yanus171.github.io/Handy-News-Reader/){ .md-button .md-button--primary }
+    [:octicons-repo-16: Repositório](https://gitlab.com/spacecowboy/Feeder){ .md-button .md-button--primary }
+    [:octicons-code-16:](https://gitlab.com/spacecowboy/Feeder){ .card-link title="Código Fonte" }
+    [:octicons-heart-16:](https://ko-fi.com/spacecowboy){ .card-link title=Contribuir }
     
-    **Downloads***
-    - [:fontawesome-brands-google-play: Google Play](https://play.google.com/store/apps/details?id=ru.yanus171.feedexfork)
-    - [:pg-f-droid: F-Droid](https://f-droid.org/en/packages/ru.yanus171.feedexfork/)
-    - [:fontawesome-brands-github: Source](https://github.com/yanus171/Handy-News-Reader) downloads
+    ??? downloads
+    
+        - [:simple-googleplay: Google Play](https://play.google.com/store/apps/details?id=com.nononsenseapps.feeder.play)
+
+### Fluent Reader
+
+!!! nota
+    Consulte o [Tabela de Hardware](https://openwrt.org/toh/start) para verificar se o seu dispositivo é suportado.
+
+    ![Logótipo Fluent Reader](assets/img/news-aggregators/fluent-reader.svg){ align=right }
+    
+    O **Fluent Reader** é um agregador de notícias seguro e multiplataforma que possui características de privacidade úteis, tais como a eliminação de cookies ao sair, [políticas de segurança de conteúdos (CSP)] (https://en.wikipedia.org/wiki/Content_Security_Policy) rigorosas e suporte de proxy, o que significa que pode utilizá-lo com o [Tor](tor.md).
+    
+    [:octicons-home-16: Homepage](https://hyliu.me/fluent-reader){ .md-button .md-button--primary }
+    [:octicons-eye-16:](https://github.com/yang991178/fluent-reader/wiki/Privacy){ .card-link title="Política de Privacidade" }
+    [:octicons-info-16:](https://github.com/yang991178/fluent-reader/wiki/){ .card-link title=Documentação}
+    [:octicons-code-16:](https://github.com/yang991178/fluent-reader){ .card-link title="Código-fonte" }
+    [:octicons-heart-16:](https://github.com/sponsors/yang991178){ .card-link title=Contribuir }
+    
+    ??? downloads
+    
+        - [:simple-windows11: Windows](https://hyliu.me/fluent-reader)
+        - [:simple-appstore: App Store](https://apps.apple.com/app/id1520907427)
+
+### GNOME Feeds
+
+!!! nota
+    Consulte o [Tabela de Hardware](https://openwrt.org/toh/start) para verificar se o seu dispositivo é suportado.
+
+    ![Logotipo GNOME Feeds](assets/img/news-aggregators/gfeeds.svg){ align=right }
+    
+    O **GNOME Feeds** é um leitor de notícias [RSS](https://en.wikipedia.org/wiki/RSS) e [Atom](https://en.wikipedia.org/wiki/Atom_(Web_standard)) para [GNOME](https://www.gnome.org). Tem uma interface simples e é bastante rápida.
+    
+    [:octicons-home-16: Homepage](https://gfeeds.gabmus.org){ .md-button .md-button--primary }
+    [:octicons-code-16:](https://gitlab.gnome.org/World/gfeeds){ .card-link title="Código-fonte" }
+    [:octicons-heart-16:](https://liberapay.com/gabmus/){ .card-link title=Contribuir }
+    
+    ??? downloads
     
         - [:simple-linux: Linux](https://gfeeds.gabmus.org/#install)
         - [:simple-flathub: Flathub](https://flathub.org/apps/details/org.gabmus.gfeeds)
-
-### NetNewsWire
-
-!!! nota
-    Consulte o [Tabela de Hardware](https://openwrt.org/toh/start) para verificar se o seu dispositivo é suportado.
-
-    ![NetNewsWire logo](/assets/img/news-aggregators/netnewswire.png){ align=right }
-    
-    **NetNewsWire** um leitor de alimentação livre e de código aberto para macOS e iOS com foco em um design nativo e conjunto de recursos. Tem uma interface simples e é bastante rápida.
-    
-    [Visite netnewswire.com](https://netnewswire.com/){ .md-button .md-button--primary } [Política de Privacidade](https://netnewswire.com/privacypolicy){ .md-button }
-    
-    **Downloads***
-    - [:fontawesome-brands-apple: macOS](https://netnewswire.com)
-    - [:fontawesome-brands-app-store-ios: App Store](https://apps.apple.com/us/app/netnewswire-rss-reader/id1480640210)
-    - [:fontawesome-brands-github: Source](https://github.com/Ranchero-Software/NetNewsWire)
 
 ### Miniflux
 
 !!! nota
     Consulte o [Tabela de Hardware](https://openwrt.org/toh/start) para verificar se o seu dispositivo é suportado.
 
-    ![logo Miniflux](/assets/img/news-aggregators/miniflux.svg#only-light){ align=right }
-    ![Logotipo Miniflux](/assets/img/news-aggregators/miniflux-dark.svg#only-dark){ align=right }
+    ![Logótipo Miniflux](assets/img/news-aggregators/miniflux.svg#only-light){ align=right }
+    ![Logótipo Miniflux](assets/img/news-aggregators/miniflux-dark.svg#only-dark){ align=right }
     
-    **Miniflux** é um agregador de notícias baseado na web que você pode auto-hospedar. It supports the typical feed formats alongside built-in support for Reddit feeds.
+    O **Miniflux** é um agregador de notícias baseado na Web, que pode ser alojado por si. Suporta [RSS](https://en.wikipedia.org/wiki/RSS), [Atom](https://en.wikipedia.org/wiki/Atom_(Web_standard)), [RDF](https://en.wikipedia.org/wiki/RDF%2FXML) e [JSON Feed](https://en.wikipedia.org/wiki/JSON_Feed).
+    
+    [:octicons-home-16: Homepage](https://miniflux.app){ .md-button .md-button--primary }
+    [:octicons-info-16:](https://miniflux.app/docs/index.html){ .card-link title=Documentação}
+    [:octicons-code-16:](https://github.com/miniflux/v2){ .card-link title="Código-fonte" }
+    [:octicons-heart-16:](https://miniflux.app/#donations){ .card-link title=Contribuir }
+
+### NetNewsWire
+
+!!! nota
+    Consulte o [Tabela de Hardware](https://openwrt.org/toh/start) para verificar se o seu dispositivo é suportado.
+
+    ![Logótipo NetNewsWire](assets/img/news-aggregators/netnewswire.png){ align=right }
+    
+    O **NetNewsWire** é um leitor de feeds gratuito e de código aberto para macOS e iOS, centrado num design nativo e num conjunto de funcionalidades. Suporta os formatos de feeds típicos, juntamente com suporte integrado para feeds do Reddit.
     
     [:octicons-home-16: Homepage](https://netnewswire.com/){ .md-button .md-button--primary }
-    [:octicons-eye-16:](https://netnewswire.com/privacypolicy.html){ .card-link title="Privacy Policy" }
-    [:octicons-info-16:](https://netnewswire.com/help/){ .card-link title=Documentation}
-    [:octicons-code-16:](https://github.com/Ranchero-Software/NetNewsWire){ .card-link title="Source Code" }
+    [:octicons-eye-16:](https://netnewswire.com/privacypolicy.html){ .card-link title="Política de Privacidade" }
+    [:octicons-info-16:](https://netnewswire.com/help/){ .card-link title=Documentação}
+    [:octicons-code-16:](https://github.com/Ranchero-Software/NetNewsWire){ .card-link title="Código-fonte" }
     
     ??? downloads
     
         - [:simple-appstore: App Store](https://apps.apple.com/us/app/netnewswire-rss-reader/id1480640210)
         - [:simple-apple: macOS](https://netnewswire.com)
 
-### Barco de notícias
+### Newsboat
 
 !!! nota
     Consulte o [Tabela de Hardware](https://openwrt.org/toh/start) para verificar se o seu dispositivo é suportado.
 
-    ![logo do Newsboat](/assets/img/news-aggregators/newsboat.svg){ align=right }
+    ![Logótipo Newsboat](assets/img/news-aggregators/newsboat.svg){ align=right }
     
-    **Newsboat** é um leitor de RSS/Atom feed para a consola de texto. É um garfo mantido ativamente de [Newsbeuter](https://en.wikipedia.org/wiki/Newsbeuter). É muito leve, e ideal para uso sobre [Secure Shell](https://en.wikipedia.org/wiki/Secure_Shell).
+    O **Newsboat** é um leitor de feeds RSS/Atom para a consola de texto. É um fork de [Newsbeuter](https://en.wikipedia.org/wiki/Newsbeuter), e tem atualizações frequentes. É muito leve e ideal para utilização em [Secure Shell] (https://en.wikipedia.org/wiki/Secure_Shell).
     
-    [Visite newsboat.org](https://newsboat.org){ .md-button .md-button--primary }
-    
-    **Downloads***
-    - [:fontawesome-brands-github: Fonte](https://github.com/newsboat/newsboat)
+    [:octicons-home-16: Homepage](https://newsboat.org){ .md-button .md-button--primary }
+    [:octicons-info-16:](https://newsboat.org/releases/2.27/docs/newsboat.html){ .card-link title=Documentação}
+    [:octicons-code-16:](https://github.com/newsboat/newsboat){ .card-link title="Código-fonte" }
 
-## Framadate
+## Critérios
 
-**Please note we are not affiliated with any of the projects we recommend.** In addition to [our standard criteria](about/criteria.md), we have developed a clear set of requirements to allow us to provide objective recommendations. We suggest you familiarize yourself with this list before choosing to use a project, and conduct your own research to ensure it's the right choice for you.
+**Note que não estamos associados a nenhum dos projetos que recomendamos.** Para além dos [nossos critérios padrão](about/criteria.md), temos um conjunto claro de requisitos que nos permitem fornecer recomendações objetivas. Sugerimos que se familiarize com esta lista antes de optar por um projeto e que desenvolva a sua própria investigação para garantir que se trata da escolha certa para si.
 
-!!! Considere o auto-hospedagem para mitigar esta ameaça.
+!!! exemplo "Esta secção é nova"
 
-    ![logo PrivateBin](/assets/img/productivity/privatebin.svg){ align=right }
-    
-    **PrivateBin** é um pastebin online minimalista e de código aberto onde o servidor tem zero conhecimento de dados colados. Os dados são criptografados/descriptografados no navegador usando AES de 256 bits. Psono suporta compartilhamento seguro de senhas, arquivos, marcadores e e-mails.
+    Estamos a trabalhar no sentido de estabelecer critérios para cada secção do nosso site, o que pode originar alterações. Se tiver alguma dúvida sobre os critérios utilizados, por favor [pergunte no nosso fórum] (https://discuss.privacyguides.net/latest) e não parta do princípio de que algo foi excluído das nossas recomendações, caso não esteja listado aqui. São muitos os fatores considerados e discutidos quando recomendamos um projeto, e documentar cada um deles é um trabalho em curso.
 
-- Must be open-source software.
-- Must operate locally, i.e. must not be a cloud service.
+- O software deve ser de código aberto.
+- Devem funcionar localmente, ou seja, não devem ser um serviço em nuvem.
 
-## Social Media RSS Support
+## Suporte RSS para redes sociais
 
-Some social media services also support RSS although it's not often advertised.
+Alguns serviços de redes sociais também suportam RSS, embora isso não seja frequentemente anunciado.
 
-### Youtube
+### Reddit
 
-Reddit allows you to subscribe to subreddits via RSS.
+O Reddit permite-lhe subscrever subreddits através de RSS.
 
-!!! example
-    Replace `subreddit_name` with the subreddit you wish to subscribe to.
+!!! exemplo
+    Substitua `subreddit_name` pelo subreddit que pretende subscrever.
 
     ```text
     https://www.reddit.com/r/{{ subreddit_name }}/new/.rss
     ```
 
-### Reddit
+### Twitter
 
-Using any of the Nitter [instances](https://github.com/zedeus/nitter/wiki/Instances) you can easily subscribe using RSS.
+Utilizando qualquer uma das [instâncias do Nitter](https://github.com/zedeus/nitter/wiki/Instances), pode subscrever facilmente o RSS.
 
-!!! example
+!!! exemplo
     1. Escolha uma instância e defina `nitter_instance`.
     2. Substitua `twitter_account` pelo nome da conta.
 
@@ -175,13 +168,13 @@ Using any of the Nitter [instances](https://github.com/zedeus/nitter/wiki/Instan
        https://{{ nitter_instance }}/{{ twitter_account }}/rss
        ```
 
-### Twitter
+### YouTube
 
-You can subscribe YouTube channels without logging in and associating usage information with your Google Account.
+Pode subscrever canais do YouTube sem iniciar sessão e associar informações de utilização à sua conta Google.
 
-!!! example
+!!! exemplo
 
-    https://www.reddit.com/r/{{ subreddit_name }}/new/.rss
+    Para subscrever um canal do YouTube com um cliente RSS, procure primeiro o seu [código do canal] (https://support.google.com/youtube/answer/6180214), substitua `[CHANNEL ID]` abaixo:
     ```text
     https://www.youtube.com/feeds/videos.xml?channel_id=[CHANNEL ID]
     ```

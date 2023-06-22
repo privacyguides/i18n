@@ -48,7 +48,7 @@ Questi provider supportano in modo nativo la cifratura/decifratura OpenPGP e lo 
     [:octicons-info-16:](https://proton.me/support/mail){ .card-link title=Documentazione}
     [:octicons-code-16:](https://github.com/ProtonMail){ .card-link title="Codice sorgente" }
     
-    ??? downloads "Scaricare"
+    ??? downloads "Scarica"
     
         - [:simple-googleplay: Google Play](https://play.google.com/store/apps/details?id=ch.protonmail.android)
         - [:simple-appstore: App Store](https://apps.apple.com/app/apple-store/id979659905)
@@ -111,7 +111,7 @@ Proton Mail non offre una funzione di eredità digitale.
     [:octicons-eye-16:](https://mailbox.org/en/data-protection-privacy-policy){ .card-link title="Politica sulla privacy" }
     [:octicons-info-16:](https://kb.mailbox.org/en/private){ .card-link title=Documentazione}
     
-    ??? downloads "Scaricare"
+    ??? downloads "Scarica"
     
         - [:octicons-browser-16: Web](https://login.mailbox.org)
 
@@ -175,7 +175,7 @@ Questi provider archiviano le tue e-mail con una crittografia a conoscenza zero,
     [:octicons-code-16:](https://github.com/tutao/tutanota){ .card-link title="Codice sorgente" }
     [:octicons-heart-16:](https://tutanota.com/community/){ .card-link title=Contribuisci }
     
-    ??? downloads "Scaricare"
+    ??? downloads "Scarica"
     
         - [:simple-googleplay: Google Play](https://play.google.com/store/apps/details?id=de.tutao.tutanota)
         - [:simple-appstore: App Store](https://apps.apple.com/app/tutanota/id922429609)
@@ -262,7 +262,7 @@ L'utilizzo di un servizio di aliasing richiede la fiducia del provider di posta 
     [:octicons-code-16:](https://github.com/anonaddy){ .card-link title="Codice sorgente" }
     [:octicons-heart-16:](https://anonaddy.com/donate/){ .card-link title=Contribuisci}
     
-    ??? downloads "Scaricare"
+    ??? downloads "Scarica"
     
         - [:simple-android: Android](https://anonaddy.com/faq/#is-there-an-android-app)
         - [:material-apple-ios: iOS](https://anonaddy.com/faq/#is-there-an-ios-app)
@@ -292,7 +292,7 @@ Funzionalità gratuite degne di nota:
     [:octicons-info-16:](https://simplelogin.io/docs/){ .card-link title=Documentazione}
     [:octicons-code-16:](https://github.com/simple-login){ .card-link title="Codice sorgente" }
     
-    ??? downloads "Scaricare"
+    ??? downloads "Scarica"
     
         - [:simple-googleplay: Google Play](https://play.google.com/store/apps/details?id=io.simplelogin.android)
         - [:simple-appstore: App Store](https://apps.apple.com/app/id1494359858)

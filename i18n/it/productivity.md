@@ -23,7 +23,7 @@ La maggior parte delle suite per ufficio online non supportano la crittografia e
     [:octicons-code-16:](https://github.com/nextcloud){ .card-link title="Codice Sorgente" }
     [:octicons-heart-16:](https://nextcloud.com/contribute/){ .card-link title=Contribuisci }
     
-    ??? downloads "Scaricare"
+    ??? downloads "Scarica"
     
         - [:simple-googleplay: Google Play](https://play.google.com/store/apps/details?id=com.nextcloud.client)
         - [:simple-appstore: App Store](https://apps.apple.com/app/id1125420102)
@@ -91,7 +91,7 @@ KeePassXC memorizza i suoi dati di esportazione come file [CSV](https://en.wikip
     [:octicons-code-16:](https://it.libreoffice.org/chi-siamo/codice-sorgente/){ .card-link title="Codice Sorgente" }
     [:octicons-heart-16:](https://it.libreoffice.org/donazioni/){ .card-link title=Contribuisci }
     
-    ??? downloads "Scaricare"
+    ??? downloads "Scarica"
     
         - [:simple-googleplay: Google Play](https://www.libreoffice.org/download/android-and-ios/)
         - [:simple-appstore: App Store](https://www.libreoffice.org/download/android-and-ios/)
@@ -114,7 +114,7 @@ KeePassXC memorizza i suoi dati di esportazione come file [CSV](https://en.wikip
     [:octicons-info-16:](https://helpcenter.onlyoffice.com/userguides.aspx){ .card-link title=Documentazione}
     [:octicons-code-16:](https://github.com/ONLYOFFICE){ .card-link title="Codice Sorgente" }
     
-    ??? downloads "Scaricare"
+    ??? downloads "Scarica"
     
         - [:simple-googleplay: Google Play](https://play.google.com/store/apps/details?id=com.onlyoffice.documents)
         - [:simple-appstore: App Store](https://apps.apple.com/app/id944896972)

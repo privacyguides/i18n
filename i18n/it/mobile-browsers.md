@@ -59,7 +59,7 @@ Per Android, Firefox è meno sicuro delle alternative basate su Chromium: il mot
     [:octicons-info-16:](https://support.brave.com/){ .card-link title=Documentazione}
     [:octicons-code-16:](https://github.com/brave/brave-browser){ .card-link title="Codice sorgente" }
     
-    ??? downloads annotate "Scaricare"
+    ??? downloads annotate "Scarica"
     
         - [:simple-googleplay: Google Play](https://play.google.com/store/apps/details?id=com.brave.browser)
         - [:simple-github: GitHub](https://github.com/brave/brave-browser/releases)
@@ -199,7 +199,7 @@ Se usi iCloud con la Protezione avanzata dei dati, consigliamo anche di controll
     [:octicons-info-16:](https://kb.adguard.com/ios){ .card-link title=Documentazione}
     [:octicons-code-16:](https://github.com/AdguardTeam/AdguardForiOS){ .card-link title="Codice sorgente" }
     
-    ??? downloads "Scaricare"
+    ??? downloads "Scarica"
     
         - [:simple-appstore: App Store](https://apps.apple.com/app/apple-store/id1047223162)
 

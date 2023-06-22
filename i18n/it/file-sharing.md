@@ -42,7 +42,7 @@ ffsend upload --host https://send.vis.ee/ FILE
     [:octicons-info-16:](https://docs.onionshare.org){ .card-link title=Documentazione}
     [:octicons-code-16:](https://github.com/onionshare/onionshare){ .card-link title="Codice sorgente" }
     
-    ??? downloads "Scaricare"
+    ??? downloads "Scarica"
     
         - [:simple-windows11: Windows](https://onionshare.org/#download)
         - [:simple-apple: macOS](https://onionshare.org/#download)
@@ -89,7 +89,7 @@ ffsend upload --host https://send.vis.ee/ FILE
     [:octicons-code-16:](https://github.com/nextcloud){ .card-link title="Codice Sorgente" }
     [:octicons-heart-16:](https://nextcloud.com/contribute/){ .card-link title=Contribuisci }
     
-    ??? downloads "Scaricare"
+    ??? downloads "Scarica"
     
         - [:simple-googleplay: Google Play](https://play.google.com/store/apps/details?id=com.nextcloud.client)
         - [:simple-appstore: App Store](https://apps.apple.com/app/id1125420102)
@@ -116,7 +116,7 @@ ffsend upload --host https://send.vis.ee/ FILE
     [:octicons-code-16:](https://github.com/syncthing){ .card-link title="Codice Sorgente" }
     [:octicons-heart-16:](https://syncthing.net/donations/){ .card-link title=Contribuisci }
     
-    ??? downloads "Scaricare"
+    ??? downloads "Scarica"
     
         - [:simple-googleplay: Google Play](https://play.google.com/store/apps/details?id=com.nutomic.syncthingandroid)
         - [:simple-windows11: Windows](https://syncthing.net/downloads/)

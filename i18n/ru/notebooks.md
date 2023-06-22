@@ -17,7 +17,7 @@ cover: notebooks.png
 
     ![Логотип Standard Notes](assets/img/notebooks/standard-notes.svg){ align=right }
     
-    **Standard Notes** - это простое и приватное приложение для заметок, которое делает ваши заметки легкими и доступными везде, где бы вы ни находились. Приложение имеет E2EE на каждой платформе, а также продвинутую систему работы с темами и пользовательскими редакторами. Он также прошел [независимый аудит] (https://standardnotes.com/help/2/has-standard-notes-completed-a-third-party-security-audit).
+    **Standard Notes** - это простое и приватное приложение для заметок, которое делает ваши заметки легкими и доступными везде, где бы вы ни находились. Приложение имеет E2EE на каждой платформе и продвинутый функционал с темами и кастомными редакторами для ПК. Он также прошел [независимый аудит] (https://standardnotes.com/help/2/has-standard-notes-completed-a-third-party-security-audit).
     
     [:octicons-home-16: Домашняя страница](https://standardnotes.com){ .md-button .md-button--primary }
     [:octicons-eye-16:](https://standardnotes.com/privacy){ .card-link title="Политика конфиденциальности" }
@@ -41,7 +41,7 @@ cover: notebooks.png
 
     ![Логотип Notesnook](assets/img/notebooks/notesnook.svg){ align=right }
     
-    **Notesnook** - это бесплатное (на словах) & приложение для ведения заметок с открытым исходным кодом, ориентированное на конфиденциальность пользователей & простоту использования. В нем реализовано сквозное шифрование на всех платформах и мощная синхронизация, позволяющая делать заметки на ходу. Вы можете легко импортировать свои заметки из Evernote, OneNote & и многих других приложений, используя их [официальный импортер] (https://importer.notesnook.com/).
+    **Notesnook** - это бесплатное приложение для ведения заметок с открытым исходным кодом, ориентированное на конфиденциальность пользователей & простоту использования. В нем реализовано сквозное шифрование на всех платформах и мощная синхронизация, позволяющая делать заметки на ходу. Вы можете легко импортировать свои заметки из Evernote, OneNote & многих других приложений, используя их [официальный инструмент импорта] (https://importer.notesnook.com/).
     
     [:octicons-home-16: Домашняя страница](https://notesnook.com/){ .md-button .md-button--primary }
     [:octicons-eye-16:](https://notesnook.com/privacy){ .card-link title="Политика конфиленциальности" }
@@ -87,7 +87,7 @@ Notesnook не поддерживает защиту паролем/PIN-кодо
         - [:simple-firefoxbrowser: Firefox](https://addons.mozilla.org/firefox/addon/joplin-web-clipper/)
         - [:simple-googlechrome: Chrome](https://chrome.google.com/webstore/detail/joplin-web-clipper/alofnhikmmkdbbbgpnglcpdollgjjfek)
 
-Joplin [не поддерживает](https://github.com/laurent22/joplin/issues/289) защиту приложения и отдельных заметок паролем или PIN-кодом. Но ваши данные по-прежнему шифруются вашим секретным ключом при передаче и в месте синхронизации. С января 2023 года Joplin поддерживает вход при помощи биометрии на [Android](https://joplinapp.org/changelog_android/#android-v2-10-3-https-github-com-laurent22-joplin-releases-tag-android-v2-10-3-pre-release-2023-01-05t11-29-06z) и [iOS](https://joplinapp.org/changelog_ios/#ios-v12-10-2-https-github-com-laurent22-joplin-releases-tag-ios-v12-10-2-2023-01-20t17-41-13z).
+Joplin не поддерживает защиту [приложения и отдельных заметок](https://github.com/laurent22/joplin/issues/289)  паролем или PIN-кодом. Но ваши данные по-прежнему шифруются вашим секретным ключом при передаче и в месте синхронизации. С января 2023 года Joplin поддерживает вход при помощи биометрии на [Android](https://joplinapp.org/changelog_android/#android-v2-10-3-https-github-com-laurent22-joplin-releases-tag-android-v2-10-3-pre-release-2023-01-05t11-29-06z) и [iOS](https://joplinapp.org/changelog_ios/#ios-v12-10-2-https-github-com-laurent22-joplin-releases-tag-ios-v12-10-2-2023-01-20t17-41-13z).
 
 ### Cryptee
 
@@ -117,7 +117,7 @@ Cryptee предлагает 100 МБ хранилища бесплатно, а 
 
     ![Логотип Org-mode](assets/img/notebooks/org-mode.svg){ align=right }
     
-    **Org-mode** - это [основной режим](https://www.gnu.org/software/emacs/manual/html_node/elisp/Major-Modes.html) для GNU Emacs. Org-mode is for keeping notes, maintaining to-do lists, planning projects, and authoring documents with a fast and effective plain-text system. Синхронизация возможна с помощью инструментов [синхронизации файлов](file-sharing.md#синхронизация-файлов).
+    **Org-mode** - это [основной режим](https://www.gnu.org/software/emacs/manual/html_node/elisp/Major-Modes.html) для GNU Emacs. Org-mode предназначен для ведения заметок, to-do листов, планирования проектов и создания документов с помощью быстрой и эффективной системы работы с обычным текстом. Синхронизация возможна с помощью программ для [синхронизации файлов](file-sharing.md#синхронизация-файлов).
     
     [:octicons-home-16: Домашняя страница](https://orgmode.org){ .md-button .md-button--primary }
     [:octicons-info-16:](https://orgmode.org/manuals.html){ .card-link title=Документация}
@@ -132,7 +132,7 @@ Cryptee предлагает 100 МБ хранилища бесплатно, а 
 
     Мы пока работаем над установлением определенных критериев для каждого раздела нашего сайта, и они могут поменяться в будущем. Если у вас есть вопросы по поводу наших критериев, пожалуйста, [задавайте их на нашем форуме](https://discuss.privacyguides.net/latest) и не думайте, что мы не учли что-то при составлении наших рекомендаций, если это не указано здесь. Мы учитываем и обсуждаем много факторов, перед тем как рекомендовать какой-то проект, и документирование каждого из них ещё не завершено.
 
-- Клиенты должны иметь открытый код.
+- Приложения должны иметь открытый исходный код.
 - Облачная синхронизация должна использовать E2EE.
 - Должна быть поддержка экспорта документов в стандартных форматах.
 

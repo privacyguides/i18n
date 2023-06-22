@@ -340,9 +340,9 @@ These are some other [filter lists](https://github.com/gorhill/uBlock/wiki/Dashb
     
     **PrivateBin** é um pastebin online minimalista e de código aberto onde o servidor tem zero conhecimento de dados colados. Os dados são criptografados/descriptografados no navegador usando AES de 256 bits. Psono suporta compartilhamento seguro de senhas, arquivos, marcadores e e-mails.
 
-### Minimum Requirements
+### Requisitos mínimos
 
-- Must be open-source software.
+- O software deve ser de código aberto.
 - Supports automatic updates.
 - Receives engine updates in 0-1 days from upstream release.
 - Available on Linux, macOS, and Windows.
@@ -350,9 +350,9 @@ These are some other [filter lists](https://github.com/gorhill/uBlock/wiki/Dashb
 - Blocks third-party cookies by default.
 - Supports [state partitioning](https://developer.mozilla.org/en-US/docs/Web/Privacy/State_Partitioning) to mitigate cross-site tracking.[^1]
 
-### Best-Case
+### Melhor caso
 
-Our best-case criteria represents what we would like to see from the perfect project in this category. Our recommendations may not include any or all of this functionality, but those which do may rank higher than others on this page.
+Os nossos melhores critérios representam o que gostaríamos de ver num projeto perfeito desta categoria. As nossas recomendações podem não incluir todas as funcionalidades, mas incluem as que, na nossa opinião, têm um impacto mais elevado.
 
 - Includes built-in content blocking functionality.
 - Supports cookie compartmentalization (à la [Multi-Account Containers](https://support.mozilla.org/en-US/kb/containers)).

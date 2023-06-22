@@ -218,7 +218,7 @@ Additional filter lists do slow things down and may increase your attack surface
     
     **PrivateBin** é um pastebin online minimalista e de código aberto onde o servidor tem zero conhecimento de dados colados. Os dados são criptografados/descriptografados no navegador usando AES de 256 bits. Psono suporta compartilhamento seguro de senhas, arquivos, marcadores e e-mails.
 
-### Minimum Requirements
+### Requisitos mínimos
 
 - Must support automatic updates.
 - Must receive engine updates in 0-1 days from upstream release.

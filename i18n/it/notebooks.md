@@ -25,7 +25,7 @@ Se stai attualmente utilizzando un'applicazione come Evernote, Google Keep o Mic
     [:octicons-code-16:](https://github.com/standardnotes){ .card-link title="Codice sorgente" }
     [:octicons-heart-16:](https://standardnotes.com/donate){ .card-link title=Contribuisci }
     
-    ??? downloads "Scaricare"
+    ??? downloads "Scarica"
     
         - [:simple-googleplay: Google Play](https://play.google.com/store/apps/details?id=com.standardnotes)
         - [:simple-appstore: App Store](https://apps.apple.com/app/id1285392450)
@@ -76,10 +76,10 @@ Notesnook non supporta la protezione con password/PIN sulle app web & desktop. T
     [:octicons-code-16:](https://github.com/laurent22/joplin){ .card-link title="Codice sorgente" }
     [:octicons-heart-16:](https://joplinapp.org/donate/){ .card-link title=Contribuisci }
     
-    ??? downloads "Scaricare"
+    ??? downloads "Scarica"
     
         - [:simple-googleplay: Google Play](https://play.google.com/store/apps/details?id=net.cozic.joplin)
-        - [:simple-appstore: App Store](https://apps.apple.com/us/app/joplin/id1315599797)
+        - [:simple-appstore: App Store](https://apps.apple.com/it/app/joplin/id1315599797)
         - [:simple-github: GitHub](https://github.com/laurent22/joplin-android/releases)
         - [:simple-windows11: Windows](https://joplinapp.org/#desktop-applications)
         - [:simple-apple: macOS](https://joplinapp.org/#desktop-applications)
@@ -103,7 +103,7 @@ Joplin non supporta la protezione con password/PIN per [l'applicazione stessa o 
     [:octicons-info-16:](https://crypt.ee/help){ .card-link title=Documentazione}
     [:octicons-code-16:](https://github.com/cryptee){ .card-link title="Codice Sorgente" }
     
-    ??? downloads "Scaricare"
+    ??? downloads "Scarica"
     
         - [:octicons-globe-16: PWA](https://crypt.ee/download)
 

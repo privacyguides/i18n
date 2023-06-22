@@ -152,64 +152,64 @@ DNS существует с [первых дней](https://en.wikipedia.org/wik
             ▸ Server Name Indication extension
     ```
 
-6. We can see the SNI value which discloses the website we are visiting. The `tshark` command can give you the value directly for all packets containing a SNI value:
+6. Мы можем увидеть значение SNI, которые показывают посещаемые нами сайты. Команда `tshark` может дать вам значения непосредственно для всех пакетов, содержащих значение SNI:
 
     ```bash
     tshark -r /tmp/pg.pcap -Tfields -Y tls.handshake.extensions_server_name -e tls.handshake.extensions_server_name
     ```
 
-This means even if we are using "Encrypted DNS" servers, the domain will likely be disclosed through SNI. The [TLS v1.3](https://en.wikipedia.org/wiki/Transport_Layer_Security#TLS_1.3) protocol brings with it [Encrypted Client Hello](https://blog.cloudflare.com/encrypted-client-hello/), which prevents this kind of leak.
+Это означает, что даже если мы используем серверы "зашифрованных DNS", домен, скорее всего, будет раскрыт через SNI. Протокол [TLS v1.3](https://en.wikipedia.org/wiki/Transport_Layer_Security#TLS_1.3) предлагает функцию [Encrypted Client Hello](https://blog.cloudflare.com/encrypted-client-hello/), которая предотвращает подобную утечку.
 
-Governments, in particular [China](https://www.zdnet.com/article/china-is-now-blocking-all-encrypted-https-traffic-using-tls-1-3-and-esni/) and [Russia](https://www.zdnet.com/article/russia-wants-to-ban-the-use-of-secure-protocols-such-as-tls-1-3-doh-dot-esni/), have either already [started blocking](https://en.wikipedia.org/wiki/Server_Name_Indication#Encrypted_Client_Hello) it or expressed a desire to do so. Recently, Russia has [started blocking foreign websites](https://github.com/net4people/bbs/issues/108) that use the [HTTP/3](https://en.wikipedia.org/wiki/HTTP/3) standard. This is because the [QUIC](https://en.wikipedia.org/wiki/QUIC) protocol that is a part of HTTP/3 requires that `ClientHello` also be encrypted.
+Правительства, в частности [Китая](https://www.zdnet.com/article/china-is-now-blocking-all-encrypted-https-traffic-using-tls-1-3-and-esni/) и [России](https://www.zdnet.com/article/russia-wants-to-ban-the-use-of-secure-protocols-such-as-tls-1-3-doh-dot-esni/), либо уже [начали блокировать](https://en.wikipedia.org/wiki/Server_Name_Indication#Encrypted_Client_Hello) его, либо выразили желание сделать это. Недавно Россия [начала блокировать иностранные сайты](https://github.com/net4people/bbs/issues/108), использующие стандарт [HTTP/3](https://en.wikipedia.org/wiki/HTTP/3). Это связано с тем, что протокол [QUIC](https://en.wikipedia.org/wiki/QUIC), который является частью HTTP/3, требует, чтобы `ClientHello` также был зашифрован.
 
-### Online Certificate Status Protocol (OCSP)
+### Протокол состояния сетевого сертификата (OCSP)
 
-Another way your browser can disclose your browsing activities is with the [Online Certificate Status Protocol](https://en.wikipedia.org/wiki/Online_Certificate_Status_Protocol). When visiting an HTTPS website, the browser might check to see if the website's [certificate](https://en.wikipedia.org/wiki/Public_key_certificate) has been revoked. This is generally done through the HTTP protocol, meaning it is **not** encrypted.
+Ваш браузер может раскрыть информацию о ваших действиях в нём ещё одним путём - [протоколом состояния сетевого сертификата](https://ru.wikipedia.org/wiki/OCSP). При посещении веб-сайта HTTPS, браузер может проверить, не был ли отозван [сертификат](https://en.wikipedia.org/wiki/Public_key_certificate) веб-сайта. Обычно это делается через протокол HTTP, что означает, что это действие **не** зашифровано.
 
-The OCSP request contains the certificate "[serial number](https://en.wikipedia.org/wiki/Public_key_certificate#Common_fields)", which is unique. It is sent to the "OCSP responder" in order to check its status.
+Запрос OCSP содержит "[серийный номер](https://en.wikipedia.org/wiki/Public_key_certificate#Common_fields)" сертификата, который является уникальным. Он отправляется "ответчику OCSP" для проверки его статуса.
 
-We can simulate what a browser would do using the [`openssl`](https://en.wikipedia.org/wiki/OpenSSL) command.
+Мы можем имитировать действия браузера с помощью команды [`openssl`](https://en.wikipedia.org/wiki/OpenSSL).
 
-1. Get the server certificate and use [`sed`](https://en.wikipedia.org/wiki/Sed) to keep just the important part and write it out to a file:
+1. Получите сертификат сервера и с помощью [`sed`](https://en.wikipedia.org/wiki/Sed) сохраните только важную часть и запишите ее в файл:
 
     ```bash
     openssl s_client -connect privacyguides.org:443 < /dev/null 2>&1 |
         sed -n '/^-*BEGIN/,/^-*END/p' > /tmp/pg_server.cert
     ```
 
-2. Get the intermediate certificate. [Certificate Authorities (CA)](https://en.wikipedia.org/wiki/Certificate_authority) normally don't sign a certificate directly; they use what is known as an "intermediate" certificate.
+2. Получите промежуточный сертификат. [Центры сертификации (ЦС)](https://ru.wikipedia.org/wiki/%D0%A6%D0%B5%D0%BD%D1%82%D1%80_%D1%81%D0%B5%D1%80%D1%82%D0%B8%D1%84%D0%B8%D0%BA%D0%B0%D1%86%D0%B8%D0%B8), обычно, не подписывают сертификат напрямую, они используют так называемый "промежуточный" сертификат.
 
     ```bash
     openssl s_client -showcerts -connect privacyguides.org:443 < /dev/null 2>&1 |
         sed -n '/^-*BEGIN/,/^-*END/p' > /tmp/pg_and_intermediate.cert
     ```
 
-3. The first certificate in `pg_and_intermediate.cert` is actually the server certificate from step 1. We can use `sed` again to delete until the first instance of END:
+3. Первый сертификат в `pg_and_intermediate.cert` на самом деле является сертификатом сервера из шага 1. Мы можем снова использовать `sed` для удаления всего, до первого экземпляра END:
 
     ```bash
     sed -n '/^-*END CERTIFICATE-*$/!d;:a n;p;ba' \
         /tmp/pg_and_intermediate.cert > /tmp/intermediate_chain.cert
     ```
 
-4. Get the OCSP responder for the server certificate:
+4. Получение ответчика OCSP для сертификата сервера:
 
     ```bash
     openssl x509 -noout -ocsp_uri -in /tmp/pg_server.cert
     ```
 
-    Our certificate shows the Lets Encrypt certificate responder. If we want to see all the details of the certificate we can use:
+    Наш сертификат показывает ответчика сертификата Lets Encrypt. Если мы хотим увидеть все детали сертификата, мы можем использовать:
 
     ```bash
     openssl x509 -text -noout -in /tmp/pg_server.cert
     ```
 
-5. Start the packet capture:
+5. Запустите захват пакетов:
 
     ```bash
     tshark -w /tmp/pg_ocsp.pcap -f "tcp port http"
     ```
 
-6. Make the OCSP request:
+6. Выполните запрос OCSP:
 
     ```bash
     openssl ocsp -issuer /tmp/intermediate_chain.cert \
@@ -218,13 +218,13 @@ We can simulate what a browser would do using the [`openssl`](https://en.wikiped
                  -url http://r3.o.lencr.org
     ```
 
-7. Open the capture:
+7. Откройте захват:
 
     ```bash
     wireshark -r /tmp/pg_ocsp.pcap
     ```
 
-    There will be two packets with the "OCSP" protocol: a "Request" and a "Response". For the "Request" we can see the "serial number" by expanding the triangle &#9656; next to each field:
+    В протоколе "OCSP" будет два пакета: "Request"(Запрос) и "Response"(Ответ). Для "Запроса" мы можем увидеть "серийный номер", развернув треугольник &#9656; рядом с каждым полем:
 
     ```bash
     ▸ Online Certificate Status Protocol
@@ -235,7 +235,7 @@ We can simulate what a browser would do using the [`openssl`](https://en.wikiped
               serialNumber
     ```
 
-    For the "Response" we can also see the "serial number":
+    Для "Ответа" мы также можем увидеть "серийный номер":
 
     ```bash
     ▸ Online Certificate Status Protocol
@@ -248,17 +248,17 @@ We can simulate what a browser would do using the [`openssl`](https://en.wikiped
                   serialNumber
     ```
 
-8. Or use `tshark` to filter the packets for the Serial Number:
+8. Или используйте `tshark` для фильтрации пакетов по серийному номеру:
 
     ```bash
     tshark -r /tmp/pg_ocsp.pcap -Tfields -Y ocsp.serialNumber -e ocsp.serialNumber
     ```
 
-If the network observer has the public certificate, which is publicly available, they can match the serial number with that certificate and therefore determine the site you're visiting from that. The process can be automated and can associate IP addresses with serial numbers. It is also possible to check [Certificate Transparency](https://en.wikipedia.org/wiki/Certificate_Transparency) logs for the serial number.
+Если у сетевого наблюдателя есть публичный сертификат, который находится в открытом доступе, он может сопоставить серийный номер с этим сертификатом и по нему определить сайт, который вы посещаете. Этот процесс можно автоматизировать и связать IP-адреса с серийными номерами. Также можно проверить серийный номер в логах [Certificate Transparency](https://en.wikipedia.org/wiki/Certificate_Transparency).
 
 ## Следует ли мне использовать зашифрованный DNS?
 
-We made this flow chart to describe when you *should* use encrypted DNS:
+Мы составили эту блок-схему, чтобы описать, когда вам *следует* использовать зашифрованный DNS:
 
 ``` mermaid
 graph TB
@@ -275,32 +275,32 @@ graph TB
     ispDNS --> | No | nothing(Do nothing)
 ```
 
-Encrypted DNS with a third-party should only be used to get around redirects and basic [DNS blocking](https://en.wikipedia.org/wiki/DNS_blocking) when you can be sure there won't be any consequences or you're interested in a provider that does some rudimentary filtering.
+Зашифрованный DNS, предоставляемые не вашим интернет-провайдером, следует использовать только для обхода перенаправлений и обхода базовой [блокировки DNS](https://en.wikipedia.org/wiki/DNS_blocking) тогда, когда вы можете быть уверены, что это не повлечет за собой никаких последствий или вы заинтересованы в провайдере, который осуществляет элементарную фильтрацию.
 
-[List of recommended DNS servers](../dns.md ""){.md-button}
+[Список рекомендуемых DNS-серверов](../dns.md ""){.md-button}
 
 ## Что такое DNSSEC?
 
-[Domain Name System Security Extensions](https://en.wikipedia.org/wiki/Domain_Name_System_Security_Extensions) (DNSSEC) is a feature of DNS that authenticates responses to domain name lookups. It does not provide privacy protections for those lookups, but rather prevents attackers from manipulating or poisoning the responses to DNS requests.
+[Domain Name System Security Extensions](https://en.wikipedia.org/wiki/Domain_Name_System_Security_Extensions) (DNSSEC) - это функция DNS, обеспечивающая проверку подлинности ответов на запросы о поиске доменных имен. Она не обеспечивает защиту конфиденциальности этих поисков, а скорее не позволяет злоумышленникам манипулировать ответами на запросы DNS.
 
-In other words, DNSSEC digitally signs data to help ensure its validity. In order to ensure a secure lookup, the signing occurs at every level in the DNS lookup process. As a result, all answers from DNS can be trusted.
+Другими словами, DNSSEC подписывает данные цифровой подписью, чтобы гарантировать их достоверность. Чтобы обеспечить безопасность поиска, подпись происходит на каждом уровне процесса поиска DNS. В результате всем ответам DNS можно доверять.
 
-The DNSSEC signing process is similar to someone signing a legal document with a pen; that person signs with a unique signature that no one else can create, and a court expert can look at that signature and verify that the document was signed by that person. These digital signatures ensure that data has not been tampered with.
+Процесс подписи DNSSEC похож на процесс подписи юридического документа ручкой; этот человек подписывается уникальной подписью, которую никто другой не может создать, и судебный эксперт может посмотреть на эту подпись и убедиться, что документ был подписан именно этим человеком. Эти цифровые подписи гарантируют, что данные не были подделаны.
 
-DNSSEC implements a hierarchical digital signing policy across all layers of DNS. For example, in the case of a `privacyguides.org` lookup, a root DNS server would sign a key for the `.org` nameserver, and the `.org` nameserver would then sign a key for `privacyguides.org`’s authoritative nameserver.
+DNSSEC реализует иерархическую политику цифровой подписи на всех уровнях DNS. For example, in the case of a `privacyguides.org` lookup, a root DNS server would sign a key for the `.org` nameserver, and the `.org` nameserver would then sign a key for `privacyguides.org`’s authoritative nameserver.
 
 <small>Adapted from [DNS Security Extensions (DNSSEC) overview](https://cloud.google.com/dns/docs/dnssec) by Google and [DNSSEC: An Introduction](https://blog.cloudflare.com/dnssec-an-introduction/) by Cloudflare, both licensed under [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/).</small>
 
-## What is QNAME minimization?
+## Что такое минимизация QNAME?
 
-A QNAME is a "qualified name", for example `privacyguides.org`. QNAME minimisation reduces the amount of information sent from the DNS server to the [authoritative name server](https://en.wikipedia.org/wiki/Name_server#Authoritative_name_server).
+QNAME - это "квалифицированное имя", например `privacyguides.org`. QNAME minimisation reduces the amount of information sent from the DNS server to the [authoritative name server](https://en.wikipedia.org/wiki/Name_server#Authoritative_name_server).
 
-Instead of sending the whole domain `privacyguides.org`, QNAME minimization means the DNS server will ask for all the records that end in `.org`. Further technical description is defined in [RFC 7816](https://datatracker.ietf.org/doc/html/rfc7816).
+Вместо того чтобы отправлять весь домен `privacyguides.org`, минимизация QNAME означает, что DNS-сервер будет запрашивать все записи, которые заканчиваются на `.org`. Дальнейшее техническое описание определено в [RFC 7816](https://datatracker.ietf.org/doc/html/rfc7816).
 
-## What is EDNS Client Subnet (ECS)?
+## Что такое клиентская подсеть EDNS (ECS)?
 
-The [EDNS Client Subnet](https://en.wikipedia.org/wiki/EDNS_Client_Subnet) is a method for a recursive DNS resolver to specify a [subnetwork](https://en.wikipedia.org/wiki/Subnetwork) for the [host or client](https://en.wikipedia.org/wiki/Client_(computing)) which is making the DNS query.
+[Клиентская подсеть EDNS](https://en.wikipedia.org/wiki/EDNS_Client_Subnet) - это метод рекурсивного DNS-резольвера для определения [подсети](https://en.wikipedia.org/wiki/Subnetwork) для [хоста или клиента](https://en.wikipedia.org/wiki/Client_(computing)), который делает DNS-запрос.
 
-It's intended to "speed up" delivery of data by giving the client an answer that belongs to a server that is close to them such as a [content delivery network](https://en.wikipedia.org/wiki/Content_delivery_network), which are often used in video streaming and serving JavaScript web apps.
+Он предназначен для "ускорения" доставки данных путем предоставления клиенту ответа, принадлежащего серверу, который находится рядом, например, [content delivery network](https://en.wikipedia.org/wiki/Content_delivery_network), которые часто используются при потоковой передаче видео и обслуживании веб-приложений JavaScript.
 
-This feature does come at a privacy cost, as it tells the DNS server some information about the client's location.
+Эта функция работает в ущерб конфиденциальности, поскольку она сообщает DNS-серверу некоторую информацию о местонахождении клиента.

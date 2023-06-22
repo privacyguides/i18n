@@ -51,7 +51,7 @@ A Apple não fornece uma interface nativa para a criação de perfis DNS criptog
 
 Apple does not provide a native interface for creating encrypted DNS profiles. Informações Signed profiles are preferred; signing validates a profile's origin and helps to ensure the integrity of the profiles. A green "Verified" label is given to signed configuration profiles. For more information on code signing, see [About Code Signing](https://developer.apple.com/library/archive/documentation/Security/Conceptual/CodeSigningGuide/Introduction/Introduction.html). **Signed profiles** are offered by [AdGuard](https://adguard.com/en/blog/encrypted-dns-ios-14.html), [NextDNS](https://apple.nextdns.io), and [Quad9](https://www.quad9.net/news/blog/ios-mobile-provisioning-profiles/).
 
-!!! info
+!!! informações
 
     ![logótipo DNSCloak](/assets/img/ios/dnscloak.png){ align=right }
     

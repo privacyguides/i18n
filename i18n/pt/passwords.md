@@ -1,14 +1,14 @@
 ---
-meta_title: "The Best Password Managers to Protect Your Privacy and Security - Privacy Guides"
+meta_title: "Os melhores gestores de palavras-passe para proteger a sua privacidade e segurança - Privacy Guides"
 title: "Gestores de palavras-passe"
 icon: material/form-textbox-password
-description: Password managers allow you to securely store and manage passwords and other credentials.
+description: Os gestores de palavras-passe permitem-lhe armazenar e gerir de forma segura as suas palavras-passe e outras credenciais.
 cover: passwords.png
 schema:
   - 
     "@context": http://schema.org
     "@type": WebPage
-    name: Password Manager Recommendations
+    name: Recomendações de gestores de palavras-passe
     url: "./"
   - 
     "@context": http://schema.org
@@ -17,7 +17,7 @@ schema:
     image: /assets/img/password-management/bitwarden.svg
     url: https://bitwarden.com
     sameAs: https://en.wikipedia.org/wiki/Bitwarden
-    applicationCategory: Password Manager
+    applicationCategory: Gestor de palavras-passe
     operatingSystem:
       - Windows
       - macOS
@@ -35,7 +35,7 @@ schema:
     image: /assets/img/password-management/1password.svg
     url: https://1password.com
     sameAs: https://en.wikipedia.org/wiki/1Password
-    applicationCategory: Password Manager
+    applicationCategory: Gestor de palavras-passe
     operatingSystem:
       - Windows
       - macOS
@@ -118,42 +118,33 @@ schema:
       url: "./"
 ---
 
-Fique seguro e protegido on-line com um gerenciador de senhas criptografado e de código aberto.
+Os gestores de palavras-passe permitem-lhe armazenar e gerir de forma segura as suas palavras-passe e outras credenciais, através da utilização de uma palavra-passe mestra.
 
-[Introduction to Passwords :material-arrow-right-drop-circle:](./basics/passwords-overview.md)
+[Introdução às palavras-passe :material-arrow-right-drop-circle:](./basics/passwords-overview.md)
 
-!!! info
+!!! informações
 
-    ![logotipo KeepassXC](/assets/img/password-management/keepassxc.svg){ align=right }
+    Os gestores de palavras-passe integrados em software, como browsers e sistemas operativos, não são, por vezes, tão bons como o software dedicado de gestão de palavras-passe. A vantagem de um gestor de palavras-passe integrado é a sua boa integração com o software em causa, mas muitas vezes pode ser muito simples e carecer de funcionalidades de privacidade e segurança que as ofertas autónomas possuem.
     
-    **KeePassXC** é um garfo comunitário do KeePassX, uma porta nativa multi-plataforma do KeePass Password Safe, com o objectivo de o alargar e melhorar com novas funcionalidades e correcções de bugs para fornecer um gestor de senhas moderno, totalmente multi-plataforma e de código aberto. [Visite keepassxc.org](https://keepassxc.org){ .md-button .md-button--primary } [Política de Privacidade](https://keepassxc.org/privacy){ .md-button }
-    
-    **Downloads***
-    - [:fontawesome-brands-windows: Windows](https://keepassxc.org/download/#windows)
-    - [:fontawesome-brands-apple: macOS](https://keepassxc.org/download/#mac)
-    - [:fontawesome-brands-linux: Linux](https://keepassxc.org/download/#linux)
-    - [:pg-flathub: Flatpak](https://flathub.org/apps/details/org.keepassxc.KeePassXC)
-    - [:fontawesome-brands-firefox: Firefox](https://addons.mozilla.org/firefox/addon/keepassxc-browser)
-    - [:fontawesome-brands-chrome: Chrome](https://chrome.google.com/webstore/detail/keepassxc-browser/oboonakemofpalcgghocfoadofidjkkk)
-    - [:fontawesome-brands-github: Source](https://github.com/keepassxreboot/keepassxc)
-    
-    For example, the password manager in Microsoft Edge doesn't offer E2EE at all. Google's password manager has [optional](https://support.google.com/accounts/answer/11350823) E2EE, and [Apple's](https://support.apple.com/en-us/HT202303) offers E2EE by default.
+    Por exemplo, o gestor de palavras-passe no Microsoft Edge não oferece E2EE. O gestor de palavras-passe da Google tem [optional](https://support.google.com/accounts/answer/11350823) E2EE, e o [da Apple](https://support.apple.com/en-us/HT202303) oferece E2EE por predefinição.
 
-## Baseado nas nuvens
+## Baseado na nuvem
 
-These password managers sync your passwords to a cloud server for easy accessibility from all your devices and safety against device loss.
+Estes gestores de palavras-passe sincronizam as suas palavras-passe com um servidor na nuvem, para uma fácil acessibilidade a partir de todos os seus dispositivos e para segurança contra a perda de dispositivos.
 
-### KeepassXC
+### Bitwarden
 
 !!! nota
     Consulte o [Tabela de Hardware](https://openwrt.org/toh/start) para verificar se o seu dispositivo é suportado.
 
-    KeepassXC armazena seus dados de exportação como [comma-separated values (CSV)](https://en.wikipedia.org/wiki/Comma-separated_values). Isto pode significar perda de dados se você importar este arquivo para outro gerenciador de senhas. Aconselhamo-lo a verificar cada registo manualmente.
+    ![Logótipo Bitwarden](assets/img/password-management/bitwarden.svg){ align=right }
+    
+    **Bitwarden** é um gestor de palavras-passe gratuito e de código aberto. O seu objetivo é resolver problemas de gestão de palavras-passe para indivíduos, equipas e organizações empresariais. O Bitwarden é uma das melhores e mais seguras soluções para armazenar todos os seus logins e palavras-passe, mantendo-os convenientemente sincronizados entre todos os seus dispositivos.
     
     [:octicons-home-16: Homepage](https://bitwarden.com){ .md-button .md-button--primary }
-    [:octicons-eye-16:](https://bitwarden.com/privacy){ .card-link title="Privacy Policy" }
-    [:octicons-info-16:](https://bitwarden.com/help/){ .card-link title=Documentation}
-    [:octicons-code-16:](https://github.com/bitwarden){ .card-link title="Source Code" }
+    [:octicons-eye-16:](https://bitwarden.com/privacy){ .card-link title="Política de Privacidade" }
+    [:octicons-info-16:](https://bitwarden.com/help/){ .card-link title=Documentação}
+    [:octicons-code-16:](https://github.com/bitwarden){ .card-link title="Código-fonte" }
     
     ??? downloads
     
@@ -167,35 +158,30 @@ These password managers sync your passwords to a cloud server for easy accessibi
         - [:simple-googlechrome: Chrome](https://chrome.google.com/webstore/detail/bitwarden-free-password-m/nngceckbapebfimnlniiiahkandclblb)
         - [:simple-microsoftedge: Edge](https://microsoftedge.microsoft.com/addons/detail/jbkfoedolllekgbhcbcoahefnbanhhlh)
 
-Bitwarden also features [Bitwarden Send](https://bitwarden.com/products/send/), which allows you to share text and files securely with [end-to-end encryption](https://bitwarden.com/help/send-encryption). A [password](https://bitwarden.com/help/send-privacy/#send-passwords) can be required along with the send link. Bitwarden Send also features [automatic deletion](https://bitwarden.com/help/send-lifespan).
+O Bitwarden também inclui [Bitwarden Send](https://bitwarden.com/products/send/), que lhe permite partilhar texto e ficheiros de forma segura com [encriptação de ponta a ponta](https://bitwarden.com/help/send-encryption). Pode ser necessária uma palavra-passe [palavra-passe](https://bitwarden.com/help/send-privacy/#send-passwords) juntamente com o link de envio. O Bitwarden Send também inclui [eliminação automática](https://bitwarden.com/help/send-lifespan).
 
-You need the [Premium Plan](https://bitwarden.com/help/about-bitwarden-plans/#compare-personal-plans) to be able to share files. The free plan only allows text sharing.
+É necessário o [Plano Premium](https://bitwarden.com/help/about-bitwarden-plans/#compare-personal-plans) para poder partilhar ficheiros. O plano gratuito apenas permite a partilha de texto.
 
-Bitwarden's server-side code is [open-source](https://github.com/bitwarden/server), so if you don't want to use the Bitwarden cloud, you can easily host your own Bitwarden sync server.
+O código do lado do servidor do Bitwarden é [open-source](https://github.com/bitwarden/server), por isso, se não quiser utilizar a nuvem Bitwarden, pode facilmente configurar o seu próprio servidor de sincronização Bitwarden.
 
-**Vaultwarden** is an alternative implementation of Bitwarden's sync server written in Rust and compatible with official Bitwarden clients, perfect for self-hosted deployment where running the official resource-heavy service might not be ideal. If you are looking to self-host Bitwarden on your own server, you almost certainly want to use Vaultwarden over Bitwarden's official server code.
+**O Vaultwarden** é uma implementação alternativa do servidor de sincronização do Bitwarden, escrito em Rust, e compatível com os clientes oficiais do Bitwarden. É uma solução perfeita para uma implementação auto-hospedada, onde a execução do serviço oficial com muitos recursos pode não ser ideal. Se você está a pensar auto-hospedar o Bitwarden no seu próprio servidor, vai certamente querer usar o Vaultwarden sobre o código de servidor oficial do Bitwarden.
 
-[:octicons-repo-16: Vaultwarden Repository](https://github.com/dani-garcia/vaultwarden ""){.md-button} [:octicons-info-16:](https://github.com/dani-garcia/vaultwarden/wiki){ .card-link title=Documentation}
-[:octicons-code-16:](https://github.com/dani-garcia/vaultwarden){ .card-link title="Source Code" }
-[:octicons-heart-16:](https://github.com/sponsors/dani-garcia){ .card-link title=Contribute }
+[:octicons-repo-16: Repositório Vaultwarden](https://github.com/dani-garcia/vaultwarden ""){.md-button} [:octicons-info-16:](https://github.com/dani-garcia/vaultwarden/wiki){ .card-link title=Documentação}
+[:octicons-code-16:](https://github.com/dani-garcia/vaultwarden){ .card-link title="Código-fonte" }
+[:octicons-heart-16:](https://github.com/sponsors/dani-garcia){ .card-link title=Contribuir }
 
-### KeepassDX
+### 1Password
 
 !!! nota
     Consulte o [Tabela de Hardware](https://openwrt.org/toh/start) para verificar se o seu dispositivo é suportado.
 
-    ![logotipo KeepassDX](/assets/img/password-management/keepassdx.svg){ align=right }
+    ![Logótipo 1Password](assets/img/password-management/1password.svg){ align=right }
     
-    **KeepassDX*** é um gerenciador de senhas leve para Android, permite editar dados criptografados em um único arquivo no formato KeePass e pode preencher os formulários de uma forma segura. [Contributor Pro](https://play.google.com/store/apps/details?id=com.kunzisoft.keepass.pro) permite desbloquear conteúdos cosméticos e recursos de protocolo não-padrão, mas, mais importante, ajuda e incentiva o desenvolvimento. Para mais detalhes, recomendamos que veja o seu [FAQ](https://github.com/Kunzisoft/KeePassDX/wiki/FAQ). [Visite keepassdx.com](https://www.keepassdx.com){ .md-button .md-button--primary }
-    
-    **Downloads***
-    - [:fontawesome-brands-google-play: Google Play](https://play.google.com/store/apps/details?id=com.kunzisoft.keepass.free)
-    - [:pg-f-droid: F-Droid](https://www.f-droid.org/packages/com.kunzisoft.keepass.libre)
-    - [:fontawesome-brands-github: Source](https://github.com/Kunzisoft/KeePassDX)
+    **1Password** é um gestor de palavras-passe com um forte foco na segurança e facilidade de utilização, que lhe permite guardar palavras-passe, cartões de crédito, licenças de software e qualquer outra informação sensível num cofre digital seguro. Seu cofre é hospedado nos servidores do 1Password por uma [taxa mensal] (https://1password.com/sign-up/). O 1Password é [audited](https://support.1password.com/security-assessments/) regularmente e oferece um apoio ao cliente excecional. O 1Password é de código fechado; no entanto, a segurança do produto está documentada de forma exaustiva no seu [livro branco de segurança] (https://1passwordstatic.com/files/security/1password-white-paper.pdf).
     
     [:octicons-home-16: Homepage](https://1password.com/){ .md-button .md-button--primary }
-    [:octicons-eye-16:](https://1password.com/legal/privacy/){ .card-link title="Privacy Policy" }
-    [:octicons-info-16:](https://support.1password.com/){ .card-link title=Documentation}
+    [:octicons-eye-16:](https://1password.com/legal/privacy/){ .card-link title="Política de privacidade" }
+    [:octicons-info-16:](https://support.1password.com/){ .card-link title=Documentação}
     
     ??? downloads
     
@@ -205,25 +191,25 @@ Bitwarden's server-side code is [open-source](https://github.com/bitwarden/serve
         - [:simple-apple: macOS](https://1password.com/downloads/mac/)
         - [:simple-linux: Linux](https://1password.com/downloads/linux/)
 
-Traditionally, **1Password** has offered the best password manager user experience for people using macOS and iOS; however, it has now achieved feature-parity across all platforms. It boasts many features geared towards families and less technical people, as well as advanced functionality.
+Tradicionalmente, o **1Password** tem oferecido a melhor experiência de utilizador para quem utiliza macOS e iOS; no entanto, atingiu agora a paridade de funcionalidades em todas as plataformas. Possui muitas características orientadas para as famílias e pessoas menos técnicas, bem como outras funcionalidades avançadas.
 
-Your 1Password vault is secured with both your master password and a randomized 34-character security key to encrypt your data on their servers. This security key adds a layer of protection to your data because your data is secured with high entropy regardless of your master password. Many other password manager solutions are entirely reliant on the strength of your master password to secure your data.
+O seu cofre 1Password é protegido com a sua palavra-passe mestra e uma chave de segurança aleatória de 34 caracteres, de forma a encriptar os seus dados nos seus servidores. Esta chave de segurança acrescenta uma camada de proteção aos seus dados, uma vez que estes são protegidos com elevada entropia, independentemente da sua palavra-passe mestra. Para proteger os seus dados, muitas outras soluções de gestão de palavras-passe dependem inteiramente da força da sua palavra-passe mestra.
 
-One advantage 1Password has over Bitwarden is its first-class support for native clients. While Bitwarden relegates many duties, especially account management features, to their web vault interface, 1Password makes nearly every feature available within its native mobile or desktop clients. 1Password's clients also have a more intuitive UI, which makes them easier to use and navigate.
+Uma vantagem do 1Password sobre o Bitwarden é o seu suporte de primeira classe para clientes nativos. Enquanto o Bitwarden relega muitas tarefas, especialmente as funcionalidades de gestão de contas, para a sua interface de cofre Web, o 1Password disponibiliza quase todas as funcionalidades nos seus clientes nativos para telemóvel ou computador. Os clientes do 1Password também têm uma interface de utilizador mais intuitiva, o que facilita a sua utilização e navegação.
 
-### Bitwarden
+### Psono
 
 !!! nota
     Consulte o [Tabela de Hardware](https://openwrt.org/toh/start) para verificar se o seu dispositivo é suportado.
 
-    ![Bitwarden logo](/assets/img/password-management/bitwarden.svg){ align=right }
+    ![Logótipo Psono](assets/img/password-management/psono.svg){ align=right }
     
-    **Bitwarden** é um gerenciador de senhas gratuito e de código aberto. Visa resolver problemas de gerenciamento de senhas para indivíduos, equipes e organizações empresariais. Bitwarden está entre as soluções mais fáceis e seguras para armazenar todos os seus logins e senhas, mantendo-os convenientemente sincronizados entre todos os seus dispositivos.
+    **Psono** é um gestor de palavras-passe gratuito e de código aberto, da Alemanha, com foco na gestão de palavras-passe para equipas. O Psono suporta a partilha segura de palavras-passe, ficheiros, marcadores e e-mails. Todos os segredos são protegidos por uma palavra-passe mestra.
     
     [:octicons-home-16: Homepage](https://psono.com){ .md-button .md-button--primary }
-    [:octicons-eye-16:](https://psono.com/privacy-policy){ .card-link title="Privacy Policy" }
-    [:octicons-info-16:](https://doc.psono.com){ .card-link title=Documentation}
-    [:octicons-code-16:](https://gitlab.com/psono){ .card-link title="Source Code" }
+    [:octicons-eye-16:](https://psono.com/privacy-policy){ .card-link title="Política de Privacidade" }
+    [:octicons-info-16:](https://doc.psono.com){ .card-link title=Documentação}
+    [:octicons-code-16:](https://gitlab.com/psono){ .card-link title="Código-fonte" }
     
     ??? downloads
     
@@ -233,51 +219,49 @@ One advantage 1Password has over Bitwarden is its first-class support for native
         - [:simple-googlechrome: Chrome](https://chrome.google.com/webstore/detail/psonopw-password-manager/eljmjmgjkbmpmfljlmklcfineebidmlo)
         - [:simple-docker: Docker Hub](https://hub.docker.com/r/psono/psono-client)
 
-Psono provides extensive documentation for their product. The web-client for Psono can be self-hosted; alternatively, you can choose the full Community Edition or the Enterprise Edition with additional features.
+O Psono disponibiliza uma vasta documentação sobre o seu produto. O cliente Web do Psono pode ser auto-hospedado; em alternativa, pode escolher a Community Edition completa ou a Enterprise Edition com funcionalidades adicionais.
 
-### Framadate
+### Critérios
 
-**Please note we are not affiliated with any of the projects we recommend.** In addition to [our standard criteria](about/criteria.md), we have developed a clear set of requirements to allow us to provide objective recommendations. We suggest you familiarize yourself with this list before choosing to use a project, and conduct your own research to ensure it's the right choice for you.
+**Note que não estamos associados a nenhum dos projetos que recomendamos.** Para além dos [nossos critérios padrão](about/criteria.md), temos um conjunto claro de requisitos que nos permitem fornecer recomendações objetivas. Sugerimos que se familiarize com esta lista antes de optar por um projeto e que desenvolva a sua própria investigação para garantir que se trata da escolha certa para si.
 
-!!! Considere o auto-hospedagem para mitigar esta ameaça.
+!!! exemplo "Esta secção é nova"
 
-    ![logo PrivateBin](/assets/img/productivity/privatebin.svg){ align=right }
-    
-    **PrivateBin** é um pastebin online minimalista e de código aberto onde o servidor tem zero conhecimento de dados colados. Os dados são criptografados/descriptografados no navegador usando AES de 256 bits. Psono suporta compartilhamento seguro de senhas, arquivos, marcadores e e-mails.
+    Estamos a trabalhar no sentido de estabelecer critérios para cada secção do nosso site, o que pode originar alterações. Se tiver alguma dúvida sobre os critérios utilizados, por favor [pergunte no nosso fórum] (https://discuss.privacyguides.net/latest) e não parta do princípio de que algo foi excluído das nossas recomendações, caso não esteja listado aqui. São muitos os fatores considerados e discutidos quando recomendamos um projeto, e documentar cada um deles é um trabalho em curso.
 
-#### Minimum Requirements
+#### Requisitos mínimos
 
-- Must utilize strong, standards-based/modern E2EE.
-- Must have thoroughly documented encryption and security practices.
-- Must have a published audit from a reputable, independent third-party.
-- All non-essential telemetry must be optional.
-- Must not collect more PII than is necessary for billing purposes.
+- Devem utilizar E2EE forte, standard/moderno.
+- Devem ter práticas de encriptação e segurança completamente documentadas.
+- Devem ter uma auditoria publicada por uma entidade independente de renome.
+- Toda a telemetria não essencial deve ser facultativa.
+- Não podem recolher mais informações pessoais do que as necessárias para efeitos de faturação.
 
-#### Best-Case
+#### Melhor caso
 
-Our best-case criteria represents what we would like to see from the perfect project in this category. Our recommendations may not include any or all of this functionality, but those which do may rank higher than others on this page.
+Os nossos melhores critérios representam o que gostaríamos de ver num projeto perfeito desta categoria. As nossas recomendações podem não incluir todas as funcionalidades, mas incluem as que, na nossa opinião, têm um impacto mais elevado.
 
-- Telemetry should be opt-in (disabled by default) or not collected at all.
-- Should be open-source and reasonably self-hostable.
+- A telemetria deve ser opcional (desativada por defeito) ou não deve ser recolhida de todo.
+- Devem ser de fonte aberta e razoavelmente auto-hospedáveis.
 
-## Gestores locais de senhas
+## Armazenamento local
 
-These options allow you to manage an encrypted password database locally.
+Estas opções permitem-lhe gerir localmente uma base de dados de palavras-passe encriptadas.
 
-### Vaultwarden
+### KeePassXC
 
 !!! nota
     Consulte o [Tabela de Hardware](https://openwrt.org/toh/start) para verificar se o seu dispositivo é suportado.
 
-    ![KeePassXC logo](assets/img/password-management/keepassxc.svg){ align=right }
+    ![Logótipo KeePassXC](assets/img/password-management/keepassxc.svg){ align=right }
     
-    **KeePassXC** is a community fork of KeePassX, a native cross-platform port of KeePass Password Safe, with the goal to extend and improve it with new features and bugfixes to provide a feature-rich, cross-platform and modern open-source password manager.
+    O **KeePassXC** é um fork comunitário do KeePassX, um port nativo multi-plataforma do KeePass Password Safe, que tem como objetivo aumentar e melhorar novas funcionalidades e correcções de erros, de forma a proporcionar um gestor de palavras-passe open-source rico em funcionalidades, multi-plataforma e moderno.
     
     [:octicons-home-16: Homepage](https://keepassxc.org){ .md-button .md-button--primary }
-    [:octicons-eye-16:](https://keepassxc.org/privacy){ .card-link title="Privacy Policy" }
-    [:octicons-info-16:](https://keepassxc.org/docs/){ .card-link title=Documentation}
-    [:octicons-code-16:](https://github.com/keepassxreboot/keepassxc){ .card-link title="Source Code" }
-    [:octicons-heart-16:](https://keepassxc.org/donate/){ .card-link title=Contribute }
+    [:octicons-eye-16:](https://keepassxc.org/privacy){ .card-link title="Política de Privacidade" }
+    [:octicons-info-16:](https://keepassxc.org/docs/){ .card-link title=Documentação}
+    [:octicons-code-16:](https://github.com/keepassxreboot/keepassxc){ .card-link title="Código-fonte" }
+    [:octicons-heart-16:](https://keepassxc.org/donate/){ .card-link title=Contribuir }
     
     ??? downloads
     
@@ -288,65 +272,65 @@ These options allow you to manage an encrypted password database locally.
         - [:simple-firefoxbrowser: Firefox](https://addons.mozilla.org/firefox/addon/keepassxc-browser)
         - [:simple-googlechrome: Chrome](https://chrome.google.com/webstore/detail/keepassxc-browser/oboonakemofpalcgghocfoadofidjkkk)
 
-KeePassXC stores its export data as [CSV](https://en.wikipedia.org/wiki/Comma-separated_values) files. This may mean data loss if you import this file into another password manager. We advise you check each record manually.
+O KeePassXC armazena os seus dados de exportação em formato [CSV](https://en.wikipedia.org/wiki/Comma-separated_values). Este facto poderá originar perda de dados, se importar o ficheiro noutro gestor de palavras-passe. Aconselhamos a verificação manual de cada registo.
 
 ### KeePassDX (Android)
 
 !!! nota
     Consulte o [Tabela de Hardware](https://openwrt.org/toh/start) para verificar se o seu dispositivo é suportado.
 
-    ![KeePassDX logo](assets/img/password-management/keepassdx.svg){ align=right }
+    ![Logótipo KeePassDX](assets/img/password-management/keepassdx.svg){ align=right }
     
-    **KeePassDX** is a lightweight password manager for Android, allows editing encrypted data in a single file in KeePass format and can fill in the forms in a secure way. [Contributor Pro](https://play.google.com/store/apps/details?id=com.kunzisoft.keepass.pro) allows unlocking cosmetic content and non-standard protocol features, but more importantly, it helps and encourages development.
+    O **KeePassDX** é um gestor de palavras-passe leve para Android, que permite editar dados encriptados num único ficheiro, no formato KeePass, e preencher os formulários de forma segura. O [Contributor Pro] (https://play.google.com/store/apps/details?id=com.kunzisoft.keepass.pro) permite desbloquear conteúdos de personalização e funcionalidades de protocolo não normalizadas, e, mais importante, ajuda e incentiva o desenvolvimento.
     
     [:octicons-home-16: Homepage](https://www.keepassdx.com){ .md-button .md-button--primary }
-    [:octicons-info-16:](https://github.com/Kunzisoft/KeePassDX/wiki){ .card-link title=Documentation}
-    [:octicons-code-16:](https://github.com/Kunzisoft/KeePassDX){ .card-link title="Source Code" }
-    [:octicons-heart-16:](https://www.keepassdx.com/#donation){ .card-link title=Contribute }
+    [:octicons-info-16:](https://github.com/Kunzisoft/KeePassDX/wiki){ .card-link title=Documentação}
+    [:octicons-code-16:](https://github.com/Kunzisoft/KeePassDX){ .card-link title="Código-fonte" }
+    [:octicons-heart-16:](https://www.keepassdx.com/#donation){ .card-link title=Contribuir }
     
     ??? downloads
     
         - [:simple-googleplay: Google Play](https://play.google.com/store/apps/details?id=com.kunzisoft.keepass.free)
         - [:simple-github: GitHub](https://github.com/Kunzisoft/KeePassDX/releases)
 
-### Strongbox (iOS & macOS)
+### Strongbox (iOS e macOS)
 
 !!! nota
     Consulte o [Tabela de Hardware](https://openwrt.org/toh/start) para verificar se o seu dispositivo é suportado.
 
-    ![Strongbox logo](assets/img/password-management/strongbox.svg){ align=right }
+    ![Logótipo Strongbox](assets/img/password-management/strongbox.svg){ align=right }
     
-    **Strongbox** is a native, open-source password manager for iOS and macOS. Supporting both KeePass and Password Safe formats, Strongbox can be used in tandem with other password managers, like KeePassXC, on non-Apple platforms. By employing a [freemium model](https://strongboxsafe.com/pricing/), Strongbox offers most features under its free tier with more convenience-oriented [features](https://strongboxsafe.com/comparison/)—such as biometric authentication—locked behind a subscription or perpetual license.
+    O **Strongbox** é um gestor de palavras-passe nativo e de código aberto para iOS e macOS. Suportando os formatos KeePass e Password Safe, o Strongbox pode ser utilizado em conjunto com outros gestores de palavras-passe, como o KeePassXC, em plataformas que não sejam da Apple. Ao empregar um [modelo freemium] (https://strongboxsafe.com/pricing/), a Strongbox inclui a maioria das funcionalidades no plano gratuito, estando as funcionalidades orientadas para a conveniência [features](https://strongboxsafe.com/comparison/) - como a autenticação biométrica - disponíveis através de subscrição ou licença perpétua.
     
     [:octicons-home-16: Homepage](https://strongboxsafe.com){ .md-button .md-button--primary }
-    [:octicons-eye-16:](https://strongboxsafe.com/privacy/){ .card-link title="Privacy Policy" }
-    [:octicons-info-16:](https://strongboxsafe.com/getting-started/){ .card-link title=Documentation}
-    [:octicons-code-16:](https://github.com/strongbox-password-safe/Strongbox){ .card-link title="Source Code" }
-    [:octicons-heart-16:](https://github.com/strongbox-password-safe/Strongbox#supporting-development){ .card-link title=Contribute }
+    [:octicons-eye-16:](https://strongboxsafe.com/privacy/){ .card-link title="Política de Privacidade" }
+    [:octicons-info-16:](https://strongboxsafe.com/getting-started/){ .card-link title=Documentação}
+    [:octicons-code-16:](https://github.com/strongbox-password-safe/Strongbox){ .card-link title="Código-fonte" }
+    [:octicons-heart-16:](https://github.com/strongbox-password-safe/Strongbox#supporting-development){ .card-link title=Contribuir }
     
     ??? downloads
     
         - [:simple-appstore: App Store](https://apps.apple.com/app/strongbox-keepass-pwsafe/id897283731)
 
-Additionally, there is an offline-only version offered: [Strongbox Zero](https://apps.apple.com/app/strongbox-keepass-pwsafe/id1581589638). This version is stripped down in an attempt to reduce attack surface.
+Além disso, é oferecida uma versão offline: [Strongbox Zero](https://apps.apple.com/app/strongbox-keepass-pwsafe/id1581589638). Esta versão é simplificada e procura reduzir a superfície de ataque.
 
 ### Linha de comando
 
-These products are minimal password managers that can be used within scripting applications.
+Estes produtos são gestores de palavras-passe minimalistas, que podem ser utilizados em aplicações de scripting.
 
 #### gopass
 
 !!! nota
     Consulte o [Tabela de Hardware](https://openwrt.org/toh/start) para verificar se o seu dispositivo é suportado.
 
-    ![gopass logo](assets/img/password-management/gopass.svg){ align=right }
+    ![logótipo do gopass](assets/img/password-management/gopass.svg){ align=right }
     
-    **gopass** is a password manager for the command line written in Go. It works on all major desktop and server operating systems (Linux, macOS, BSD, Windows).
+    **gopass** é um gestor de palavras-passe para a linha de comandos, escrito em Go. Funciona em todos os principais sistemas operativos para desktop e servidor (Linux, macOS, BSD, Windows).
     
     [:octicons-home-16: Homepage](https://www.gopass.pw){ .md-button .md-button--primary }
-    [:octicons-info-16:](https://github.com/gopasspw/gopass/tree/master/docs){ .card-link title=Documentation}
-    [:octicons-code-16:](https://github.com/gopasspw/gopass){ .card-link title="Source Code" }
-    [:octicons-heart-16:](https://github.com/sponsors/dominikschulz){ .card-link title=Contribute }
+    [:octicons-info-16:](https://github.com/gopasspw/gopass/tree/master/docs){ .card-link title=Documentação}
+    [:octicons-code-16:](https://github.com/gopasspw/gopass){ .card-link title="Código-fonte" }
+    [:octicons-heart-16:](https://github.com/sponsors/dominikschulz){ .card-link title=Contribuir }
     
     ??? downloads
     
@@ -355,14 +339,12 @@ These products are minimal password managers that can be used within scripting a
         - [:simple-linux: Linux](https://www.gopass.pw/#install-linux)
         - [:simple-freebsd: FreeBSD](https://www.gopass.pw/#install-bsd)
 
-### Framadate
+### Critérios
 
-**Please note we are not affiliated with any of the projects we recommend.** In addition to [our standard criteria](about/criteria.md), we have developed a clear set of requirements to allow us to provide objective recommendations. We suggest you familiarize yourself with this list before choosing to use a project, and conduct your own research to ensure it's the right choice for you.
+**Note que não estamos associados a nenhum dos projetos que recomendamos.** Para além dos [nossos critérios padrão](about/criteria.md), temos um conjunto claro de requisitos que nos permitem fornecer recomendações objetivas. Sugerimos que se familiarize com esta lista antes de optar por um projeto e que desenvolva a sua própria investigação para garantir que se trata da escolha certa para si.
 
-!!! Considere o auto-hospedagem para mitigar esta ameaça.
+!!! exemplo "Esta secção é nova"
 
-    ![logo PrivateBin](/assets/img/productivity/privatebin.svg){ align=right }
-    
-    **PrivateBin** é um pastebin online minimalista e de código aberto onde o servidor tem zero conhecimento de dados colados. Os dados são criptografados/descriptografados no navegador usando AES de 256 bits. Psono suporta compartilhamento seguro de senhas, arquivos, marcadores e e-mails.
+    Estamos a trabalhar no sentido de estabelecer critérios para cada secção do nosso site, o que pode originar alterações. Se tiver alguma dúvida sobre os critérios utilizados, por favor [pergunte no nosso fórum] (https://discuss.privacyguides.net/latest) e não parta do princípio de que algo foi excluído das nossas recomendações, caso não esteja listado aqui. São muitos os fatores considerados e discutidos quando recomendamos um projeto, e documentar cada um deles é um trabalho em curso.
 
-- Must be cross-platform.
+- Devem ser multiplataforma.

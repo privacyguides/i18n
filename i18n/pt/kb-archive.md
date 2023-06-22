@@ -1,17 +1,17 @@
 ---
-title: KB Archive
+title: Arquivo KB
 icon: material/archive
-description: Some pages that used to be in our knowledge base can now be found on our blog.
+description: Algumas páginas que costumavam estar na nossa base de conhecimento podem agora ser encontradas no nosso blogue.
 ---
 
-# Pages Moved to Blog
+# Páginas movidas para o blogue
 
-Some pages that used to be in our knowledge base can now be found on our blog:
+Algumas páginas que costumavam estar na nossa base de conhecimento podem agora ser encontradas no nosso blogue:
 
 - [GrapheneOS vs. CalyxOS](https://blog.privacyguides.org/2022/04/21/grapheneos-or-calyxos/)
-- [Signal Configuration Hardening](https://blog.privacyguides.org/2022/07/07/signal-configuration-and-hardening/)
-- [Linux - System Hardening](https://blog.privacyguides.org/2022/04/22/linux-system-hardening/)
-- [Linux - Application Sandboxing](https://blog.privacyguides.org/2022/04/22/linux-application-sandboxing/)
-- [Secure Data Erasure](https://blog.privacyguides.org/2022/05/25/secure-data-erasure/)
-- [Integração da Remoção de Metadados](https://blog.privacyguides.org/2022/04/09/integrating-metadata-removal/)
-- [iOS Configuration Guide](https://blog.privacyguides.org/2022/10/22/ios-configuration-guide/)
+- [Robustecimento da configuração do Signal](https://blog.privacyguides.org/2022/07/07/signal-configuration-and-hardening/)
+- [Linux - Robsutecimento do sistema](https://blog.privacyguides.org/2022/04/22/linux-system-hardening/)
+- [Linux - Sandboxing para aplicações](https://blog.privacyguides.org/2022/04/22/linux-application-sandboxing/)
+- [Eliminação segura de dados](https://blog.privacyguides.org/2022/05/25/secure-data-erasure/)
+- [Integração da remoção de metadados](https://blog.privacyguides.org/2022/04/09/integrating-metadata-removal/)
+- [Guia de configuração do iOS](https://blog.privacyguides.org/2022/10/22/ios-configuration-guide/)
