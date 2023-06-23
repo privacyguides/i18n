@@ -28,7 +28,7 @@ Se stai cercando ulteriore **privacy** dal tuo ISP, su una rete Wi-Fi pubblica o
 
 [Panoramica dettagliata sulle VPN :material-arrow-right-drop-circle:](basics/vpn-overview.md ""){.md-button}
 
-## Provider consigliati
+## Fornitori consigliati
 
 I fornitori che consigliamo utilizzano la crittografia, accettano Monero, supportano WireGuard & OpenVPN e applicano una politica di non registrazione del traffico. Leggi la nostra [lista completa di criteri](#criteria) per maggiori informazioni.
 

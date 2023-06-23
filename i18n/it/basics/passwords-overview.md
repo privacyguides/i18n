@@ -14,7 +14,7 @@ Immagina questo: registrate un account con la stessa email e la stessa password 
 
 Questo fenomeno è chiamato [credential stuffing](https://en.wikipedia.org/wiki/Credential_stuffing) ed è uno dei modi più comuni tramite cui i vostri account potrebbero venir compromessi da malintenzionati. Per evitare che ciò accada, assicurati di non riutilizzare mai le password.
 
-### Usa password generate randomicamente
+### Usa password generate casualmente
 
 ==Non dovresti **mai** affidarti a te stesso per creare un'ottima password.== Consigliamo di utilizzare [password generate randomicamente](#passwords) o [passphrase di tipo diceware](#diceware-passphrases) con un'entropia sufficiente a proteggere i tuoi account e dispositivi.
 
@@ -36,21 +36,21 @@ Per quanto riguarda le password che non devi ricordare (come quelle memorizzate 
 
 Molti servizi impongono determinati criteri per quanto riguarda le password, tra cui una lunghezza minima o massima e l'eventuale utilizzo di caratteri speciali. Dovreste utilizzare il generatore di password integrato nel vostro gestore di password per creare password complesse e lunghe quanto la dimensione massima che il sito permette, includendo lettere maiuscole e minuscole, numeri e caratteri speciali.
 
-Se hai bisogno di una password da memorizzare, ti consigliamo una [passfrase diceware](#diceware-passphrases).
+Se hai bisogno di una password da memorizzare, ti consigliamo una [passphrase diceware](#diceware-passphrases).
 
-### Passfrasi Diceware
+### Passphrase Diceware
 
-Il metodo Diceware serve per creare passfrasi facili da ricordare, ma difficili da indovinare.
+Il metodo Diceware serve per creare passphrase facili da ricordare, ma difficili da indovinare.
 
-Le passfrasi diceware sono un'ottima opzione quando è necessario memorizzare o inserire manualmente le proprie credenziali, come ad esempio la password principale del proprio gestore di password o la password di crittografia del proprio dispositivo.
+Le passphrase diceware sono un'ottima opzione quando è necessario memorizzare o inserire manualmente le proprie credenziali, come ad esempio la password principale del proprio gestore di password o la password di crittografia del proprio dispositivo.
 
-Un esempio di passfrase diceware è `viewable fastness reluctant squishy seventeen shown pencil`.
+Un esempio di passphrase diceware è `viewable fastness reluctant squishy seventeen shown pencil`.
 
-Per generare una passfrase diceware utilizzando un vero dado, segui questi passaggi:
+Per generare una passphrase diceware utilizzando un vero dado, segui questi passaggi:
 
 !!! note "Nota"
 
-    Queste istruzioni presuppongono l'utilizzo del [grande elenco di parole di EFF](https://www.eff.org/files/2016/07/18/eff_large_wordlist.txt) per generare la passfrase, che richiede cinque lanci di dadi per parola. Altri elenchi di parole potrebbero richiedere più o meno tiri per parola, e possono richiedere una quantità diversa di parole per ottenere la stessa entropia.
+    Queste istruzioni presuppongono l'utilizzo del [grande elenco di parole di EFF](https://www.eff.org/files/2016/07/18/eff_large_wordlist.txt) per generare la passphrase, che richiede cinque lanci di dadi per parola. Altri elenchi di parole potrebbero richiedere più o meno tiri per parola, e possono richiedere una quantità diversa di parole per ottenere la stessa entropia.
 
 1. Lancia un dado a sei facce 5 volte, annota il numero ottenuto dopo ogni tiro.
 
@@ -58,35 +58,35 @@ Per generare una passfrase diceware utilizzando un vero dado, segui questi passa
 
 3. Troverai la parola `encrypt`. Annota questa parola.
 
-4. Ripeti questa procedura finché la vostra passfrase non avrà il numero di parole necessario, che dovrete separare con uno spazio.
+4. Ripeti questa procedura finché la vostra passphrase non avrà il numero di parole necessario, che dovrete separare con uno spazio.
 
 !!! warning "Importante"
 
-    **Non** dovresti rigenerare le parole affinché non ottieni una combinazione di parole che ti attragga. Il processo dovrebbe essere effettuato randomicamente.
+    **Non** dovresti rigenerare le parole affinché non ottieni una combinazione di parole che ti attragga. Il processo dovrebbe essere totalmente casuale.
 
-Se non hai un dado, o semplicemente non lo vuoi usare, puoi utilizzare il generatore di password del tuo gestore di password, molti di questi hanno l'opzione di poter generare passfrasi diceware oltre alle classiche password.
+Se non hai un dado, o semplicemente non lo vuoi usare, puoi utilizzare il generatore di password del tuo gestore di password, molti di questi hanno l'opzione di poter generare passphrase diceware oltre alle classiche password.
 
-Consigliamo di utilizzare il [grande elenco di parole di EFF](https://www.eff.org/files/2016/07/18/eff_large_wordlist.txt) per generare le tue passfrasi diceware, in quanto offre la stessa sicurezza dell'elenco originale, pur contenendo parole più facili da memorizzare. Esistono anche [altri elenchi di parole in lingue diverse](https://theworld.com/~reinhold/diceware.html#Diceware%20in%20Other%20Languages|outline), se non vuoi che la tua passfrase sia in Inglese.
+Consigliamo di utilizzare il [grande elenco di parole di EFF](https://www.eff.org/files/2016/07/18/eff_large_wordlist.txt) per generare le tue passphrase diceware, in quanto offre la stessa sicurezza dell'elenco originale, pur contenendo parole più facili da memorizzare. Esistono anche [altri elenchi di parole in lingue diverse](https://theworld.com/~reinhold/diceware.html#Diceware%20in%20Other%20Languages|outline), se non vuoi che la tua passphrase sia in Inglese.
 
-??? nota "Spiegazione dell'entropia e della forza delle passfrasi diceware"
+??? nota "Spiegazione dell'entropia e della forza delle passphrase diceware"
 
-    Per dimostrare quanto siano forti le passfrasi diceware, useremo la già citata passfrase di sette parole (`viewable fastness reluctant squishy seventeen shown pencil`) e il [grande elenco di parole di EFF](https://www.eff.org/files/2016/07/18/eff_large_wordlist.txt) come esempio.
+    Per dimostrare quanto siano forti le passphrase diceware, useremo la già citata passphrase di sette parole (`viewable fastness reluctant squishy seventeen shown pencil`) e il [grande elenco di parole di EFF](https://www.eff.org/files/2016/07/18/eff_large_wordlist.txt) come esempio.
     
-    Un parametro per determinare la forza di una passfrase diceware è la sua entropia. L'entropia per parola in una passphrase diceware è calcolata come $\text{log}_2(\text{WordsInList})$ e l'entropia complessiva della passfrase è calcolata come $\text{log}_2(\text{WordsInList}^\text{WordsInPhrase})$.
+    Un parametro per determinare la forza di una passphrase diceware è la sua entropia. L'entropia per parola in una passphrase diceware è calcolata come $\text{log}_2(\text{WordsInList})$ e l'entropia complessiva della passphrase è calcolata come $\text{log}_2(\text{WordsInList}^\text{WordsInPhrase})$.
     
-    Pertanto, ogni parola del suddetto elenco produce ~12,9 bit di entropia ($\text{log}_2(7776)$), e una passfrase di sette parole derivata da esso ha ~90,47 bit di entropia ($\text{log}_2(7776^7)$).
+    Pertanto, ogni parola del suddetto elenco produce ~12,9 bit di entropia ($\text{log}_2(7776)$), e una passphrase di sette parole derivata da esso ha ~90,47 bit di entropia ($\text{log}_2(7776^7)$).
     
-    Il [grande elenco di parole di EFF](https://www.eff.org/files/2016/07/18/eff_large_wordlist.txt) contiene 7776 parole uniche. Per calcolare la quantità di passfrasi possibili, tutto ciò che dobbiamo fare è $\text{WordsInList}^\text{WordsInPhrase}$, o nel nostro caso, $ 7776^7 $.
+    Il [grande elenco di parole di EFF](https://www.eff.org/files/2016/07/18/eff_large_wordlist.txt) contiene 7776 parole uniche. Per calcolare la quantità di passphrase possibili, tutto ciò che dobbiamo fare è $\text{WordsInList}^\text{WordsInPhrase}$, o nel nostro caso, $ 7776^7 $.
     
-    Mettiamo tutto questo in prospettiva: Una passfrase di sette parole utilizzando il [Grande elenco di parole di EFF](https://www.eff.org/files/2016/07/18/eff_large_wordlist.txt) è una delle ~1.719.070.799.748.422.500.000.000.000.000 possibili passfrasi.
+    Mettiamo tutto questo in prospettiva: Una passphrase di sette parole utilizzando il [Grande elenco di parole di EFF](https://www.eff.org/files/2016/07/18/eff_large_wordlist.txt) è una delle ~1.719.070.799.748.422.500.000.000.000.000 possibili passphrase.
     
-    In media, è necessario tentare il 50% di tutte le combinazioni possibili per indovinare la tua passfrase. E con questo, anche se l'avversario è in grado di fare ~1.000.000.000.000 tentativi al secondo, gli ci vorrebbero comunque ~27.255.689 anni per indovinare la vostra passfrase. Questo vale solo se le seguenti cose sono vere:
+    In media, è necessario tentare il 50% di tutte le combinazioni possibili per indovinare la tua passfrase. E con questo, anche se l'avversario è in grado di fare ~1.000.000.000.000 tentativi al secondo, gli ci vorrebbero comunque ~27.255.689 anni per indovinare la tua passphrase. Questo vale solo se le seguenti cose sono vere:
 
     - Il tuo avversario sa che hai usato il metodo diceware.
     - Il tuo avversario conosce l'elenco specifico che hai utilizzato.
-    - Il tuo avversario sa quante parole contiene la tua passfrase.
+    - Il tuo avversario sa quante parole contiene la tua passphrase.
 
-Ricapitolando, le passfrasi diceware sono la scelta migliore se hai bisogno di qualcosa che sia facile da ricordare *e* estremamente forte.
+Ricapitolando, le passphrase diceware sono la scelta migliore se hai bisogno di qualcosa che sia facile da ricordare *ed* estremamente forte.
 
 ## Memorizzare le password
 
@@ -94,7 +94,7 @@ Ricapitolando, le passfrasi diceware sono la scelta migliore se hai bisogno di q
 
 Il miglior modo per memorizzare le proprie password è quello di utilizzare un gestore di password. Ti consentono di memorizzare le password in un singolo file o nel cloud e di proteggerle con un'unica password principale. In questo modo, dovrete ricordare solo un'unica password forte, che vi permetterà di accedere alle altre.
 
-Ci sono molte opzioni valide tra cui scegliere, sia basata su cloud, sia locali. Scegli uno dei nostri gestori di password consigliati e usalo per impostare password forti per tutti i tuoi account. Consigliamo di proteggere il vostro gestore di password con una [passfrase diceware](#diceware-passphrases) composta da almeno 7 parole.
+Ci sono molte opzioni valide tra cui scegliere, sia basata su cloud, sia locali. Scegli uno dei nostri gestori di password consigliati e usalo per impostare password forti per tutti i tuoi account. Consigliamo di proteggere il vostro gestore di password con una [password diceware](#diceware-passphrases) composta da almeno 7 parole.
 
 [Elenco dei gestori di password consigliati](../passwords.md ""){.md-button}
 

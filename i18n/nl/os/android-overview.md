@@ -107,7 +107,7 @@ Met gebruikersprofielen kun je beperkingen opleggen aan een specifiek profiel, z
 
 [Werkprofielen](https://support.google.com/work/android/answer/6191949) zijn een andere manier om afzonderlijke apps te isoleren en kunnen handiger zijn dan afzonderlijke gebruikersprofielen.
 
-A **device controller** app such as [Shelter](../android.md#shelter) is required to create a Work Profile without an enterprise MDM, unless you're using a custom Android OS which includes one.
+Een **apparaatcontroller** zoals [Shelter](../android.md#shelter) is vereist, tenzij je CalyxOS gebruikt die er een bevat.
 
 Het werkprofiel is afhankelijk van een apparaatcontroller om te kunnen functioneren. Functies zoals *File Shuttle* en *contact zoeken blokkeren* of enige vorm van isolatiefuncties moeten door de controller worden geïmplementeerd. Je moet de apparaatcontroller-app ook volledig vertrouwen, aangezien deze volledige toegang heeft tot jouw gegevens binnen het werkprofiel.
 

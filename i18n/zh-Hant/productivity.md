@@ -13,9 +13,9 @@ cover: productivity.png
 
 !!! recommendation
 
-    ! [Nextcloud logo] (assets/img/productivity/nextcloud.svg) {align = right}
+    ![Nextcloud logo](assets/img/productivity/nextcloud.svg){ align=right }
     
-    * * Nextcloud * *是一套免費開源用戶端伺服器軟體，可在您控制的私人伺服器上建立自己的檔案託管服務。
+    **Nextcloud** 是一套免費開源用戶端伺服器軟體，可在您控制的私人伺服器上建立自己的檔案託管服務。
     
     [:octicons-home-16: Homepage](https://nextcloud.com){ .md-button .md-button--primary }
     [:octicons-eye-16:](https://nextcloud.com/privacy){ .card-link title="Privacy Policy" }
@@ -23,7 +23,7 @@ cover: productivity.png
     [:octicons-code-16:](https://github.com/nextcloud){ .card-link title="Source Code" }
     [:octicons-heart-16:](https://nextcloud.com/contribute/){ .card-link title=Contribute }
     
-    ??? 下載
+    ??? downloads "下載"
     
         - [:simple-googleplay: Google Play](https://play.google.com/store/apps/details?id=com.nextcloud.client)
         - [:simple-appstore: App Store](https://apps.apple.com/app/id1125420102)
@@ -33,9 +33,9 @@ cover: productivity.png
         - [:simple-linux: Linux](https://nextcloud.com/install/#install-clients)
         - [:simple-freebsd: FreeBSD](https://www.freshports.org/www/nextcloud)
 
-!!! 危險
+!!! danger "危險"
 
-    我們不建議使用 Nextcloud [E2EE App] (https://apps.nextcloud.com/apps/end_to_end_encryption) ，因為它可能會導致資料丟失；目前它仍是高度實驗性，未達穩定品質。 因此，我們不推薦第三方Nextcloud提供商。
+    我們不建議使用 Nextcloud [E2EE App](https://apps.nextcloud.com/apps/end_to_end_encryption) ，因為它可能會導致資料丟失；目前它仍是高度實驗性，未達穩定品質。 因此，我們不推薦第三方Nextcloud提供商。
 
 ### CryptPad
 
@@ -55,9 +55,9 @@ cover: productivity.png
 
 **請注意，我們所推薦專案沒有任何瓜葛。 ** 除了 [標準準則](about/criteria.md)外，我們還發展出一套明確要求以提出客觀建議。 我們建議您在選擇使用項目之前先熟悉此列表，並進行自己的研究，以確保它是您的正確選擇。
 
-!!! 示例“此部分是新的”
+!!! !!! 例如 "本节是新的"
 
-    我們正在努力為我們網站的每個部分建立定義的標準，這可能會有所變化。 如果您對我們的標準有任何疑問，請在[論壇上提問] (https://discuss.privacyguides.net/latest) ，如果沒有列出，請不要認為我們在提出建議時沒有考慮到某些事情。 當我們推薦一個項目時，有許多因素被考慮和討論，記錄每一個項目都是正在進行式。
+    我們正在努力為我們網站的每個部分建立定義的標準，這可能會有所變化。 如果您對我們的標準有任何疑問，請在 [論壇上提問](https://discuss.privacyguides.net/latest) ，如果沒有列出，請不要認為我們在提出建議時沒有考慮到某些事情。 當我們推薦一個項目時，有許多因素被考慮和討論，記錄每一個項目都是正在進行式。
 
 一般來說，我們將協作平臺定義為成熟的套件，可以合理地替代Google Drive 等協作平臺。
 
@@ -128,9 +128,9 @@ cover: productivity.png
 
 **請注意，我們所推薦專案沒有任何瓜葛。 ** 除了 [標準準則](about/criteria.md)外，我們還發展出一套明確要求以提出客觀建議。 我們建議您在選擇使用項目之前先熟悉此列表，並進行自己的研究，以確保它是您的正確選擇。
 
-!!! 示例“此部分是新的”
+!!! !!! 例如 "本节是新的"
 
-    我們正在努力為我們網站的每個部分建立定義的標準，這可能會有所變化。 如果您對我們的標準有任何疑問，請在[論壇上提問] (https://discuss.privacyguides.net/latest) ，如果沒有列出，請不要認為我們在提出建議時沒有考慮到某些事情。 當我們推薦一個項目時，有許多因素被考慮和討論，記錄每一個項目都是正在進行式。
+    我們正在努力為我們網站的每個部分建立定義的標準，這可能會有所變化。 如果您對我們的標準有任何疑問，請在 [論壇上提問](https://discuss.privacyguides.net/latest) ，如果沒有列出，請不要認為我們在提出建議時沒有考慮到某些事情。 當我們推薦一個項目時，有許多因素被考慮和討論，記錄每一個項目都是正在進行式。
 
 一般來說，我們將辦公套件定義為可以合理地替代 Microsoft Word 以滿足大多數需求的應用程式。
 
@@ -159,9 +159,9 @@ cover: productivity.png
 
 **請注意，我們所推薦專案沒有任何瓜葛。 ** 除了 [標準準則](about/criteria.md)外，我們還發展出一套明確要求以提出客觀建議。 我們建議您在選擇使用項目之前先熟悉此列表，並進行自己的研究，以確保它是您的正確選擇。
 
-!!! 示例“此部分是新的”
+!!! !!! 例如 "本节是新的"
 
-    我們正在努力為我們網站的每個部分建立定義的標準，這可能會有所變化。 如果您對我們的標準有任何疑問，請在[論壇上提問] (https://discuss.privacyguides.net/latest) ，如果沒有列出，請不要認為我們在提出建議時沒有考慮到某些事情。 當我們推薦一個項目時，有許多因素被考慮和討論，記錄每一個項目都是正在進行式。
+    我們正在努力為我們網站的每個部分建立定義的標準，這可能會有所變化。 如果您對我們的標準有任何疑問，請在 [論壇上提問](https://discuss.privacyguides.net/latest) ，如果沒有列出，請不要認為我們在提出建議時沒有考慮到某些事情。 當我們推薦一個項目時，有許多因素被考慮和討論，記錄每一個項目都是正在進行式。
 
 #### 最低合格要求
 

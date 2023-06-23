@@ -14,45 +14,45 @@ description: Обзор нескольких сетевых архитектур
 
 Централизованные мессенджеры - это те, где все участники находятся на одном сервере или сети серверов, контролируемых одной организацией.
 
-Some self-hosted messengers allow you to set up your own server. Self-hosting can provide additional privacy guarantees, such as no usage logs or limited access to metadata (data about who is talking to whom). Self-hosted centralized messengers are isolated and everyone must be on the same server to communicate.
+Некоторые мессенджеры позволяют настроить собственный сервер. Самостоятельный хостинг может обеспечить дополнительные гарантии конфиденциальности, например, отсутствие журналов использования или ограниченный доступ к метаданным (данные о том, кто с кем разговаривает). При самостоятельном хостинге централизованные мессенджеры изолированы, и для общения все должны находиться на одном сервере.
 
 **Преимущества:**
 
-- New features and changes can be implemented more quickly.
-- Easier to get started with and to find contacts.
-- Most mature and stable features ecosystems, as they are easier to program in a centralized software.
-- Privacy issues may be reduced when you trust a server that you're self-hosting.
+- Новые функции и изменения могут быть внедрены быстрее.
+- Легче начать использовать и найти контакты.
+- Наиболее проверенные и стабильные функции экосистем, так как их легче программировать в централизованном программном обеспечении.
+- Проблемы конфиденциальности могут быть снижены, если вы доверяете серверу, который вы самостоятельно размещаете.
 
 **Недостатки:**
 
-- Can include [restricted control or access](https://drewdevault.com/2018/08/08/Signal.html). This can include things like:
-- Being [forbidden from connecting third-party clients](https://github.com/LibreSignal/LibreSignal/issues/37#issuecomment-217211165) to the centralized network that might provide for greater customization or a better experience. Often defined in Terms and Conditions of usage.
-- Poor or no documentation for third-party developers.
-- The [ownership](https://web.archive.org/web/20210729191953/https://blog.privacytools.io/delisting-wire/), privacy policy, and operations of the service can change easily when a single entity controls it, potentially compromising the service later on.
-- Self-hosting requires effort and knowledge of how to set up a service.
+- Может включать [ограниченный контроль или доступ](https://drewdevault.com/2018/08/08/Signal.html). Это может включать в себя такие вещи, как:
+- [Запрет на подключение сторонних клиентов](https://github.com/LibreSignal/LibreSignal/issues/37#issuecomment-217211165) к централизованной сети, которые могли бы обеспечить большую персонализацию или лучший опыт. Это часто написано в условиях использования.
+- Плохая документация для сторонних разработчиков или ее полное отсутствие.
+- [Руководство](https://web.archive.org/web/20210729191953/https://blog.privacytools.io/delisting-wire/), политика конфиденциальности и операции сервиса могут легко измениться, если его контролирует одна организация, что впоследствии может поставить сервис под угрозу.
+- Самостоятельный хостинг требует усилий и знаний о том, как настроить сервис.
 
 ## Федеративные сети
 
 ![Схема федеративных сетей](../assets/img/layout/network-decentralized.svg){ align=left }
 
-Federated messengers use multiple, independent, decentralized servers that are able to talk to each other (email is one example of a federated service). Federation allows system administrators to control their own server and still be a part of the larger communications network.
+Федеративные мессенджеры используют несколько независимых, децентрализованных серверов, которые могут общаться друг с другом (электронная почта является одним из примеров федеративной службы). Федерация позволяет системным администраторам контролировать свой собственный сервер и при этом быть частью большой коммуникационной сети.
 
-When self-hosted, members of a federated server can discover and communicate with members of other servers, although some servers may choose to remain private by being non-federated (e.g., work team server).
+При самостоятельном хостинге участники объединенного сервера могут обнаруживать и общаться с участниками других серверов, хотя некоторые серверы могут предпочесть оставаться закрытыми, не будучи объединенными (например, сервер рабочей группы).
 
 **Преимущества:**
 
-- Allows for greater control over your own data when running your own server.
-- Allows you to choose whom to trust your data with by choosing between multiple "public" servers.
-- Often allows for third-party clients which can provide a more native, customized, or accessible experience.
-- Server software can be verified that it matches public source code, assuming you have access to the server or you trust the person who does (e.g., a family member).
+- Позволяют получить больший контроль над собственными данными при работе на собственном сервере.
+- Позволяют выбирать, кому доверять свои данные, выбирая между несколькими "публичными" серверами.
+- Часто позволяют использовать сторонние клиенты, которые могут обеспечить более нативный, индивидуальный или доступный опыт использования.
+- Программное обеспечение сервера может быть проверено на соответствие публичному исходному коду, если у вас есть доступ к серверу или вы доверяете человеку, который имеет такой доступ (например, члену семьи).
 
 **Недостатки:**
 
-- Adding new features is more complex because these features need to be standardized and tested to ensure they work with all servers on the network.
-- Due to the previous point, features can be lacking, or incomplete or working in unexpected ways compared to centralized platforms, such as message relay when offline or message deletion.
-- Some metadata may be available (e.g., information like "who is talking to whom," but not actual message content if E2EE is used).
-- Federated servers generally require trusting your server's administrator. They may be a hobbyist or otherwise not a "security professional," and may not serve standard documents like a privacy policy or terms of service detailing how your data is used.
-- Server administrators sometimes choose to block other servers, which are a source of unmoderated abuse or break general rules of accepted behavior. This will hinder your ability to communicate with members of those servers.
+- Добавление новых функций является более сложной задачей, поскольку эти функции должны быть стандартизированы и протестированы для обеспечения их работы со всеми серверами в сети.
+- В связи с предыдущим пунктом, функции могут отсутствовать, быть неполными или работать неожиданным образом по сравнению с централизованными платформами, например, передача сообщений в автономном режиме или удаление сообщений.
+- Некоторые метаданные могут быть доступны (например, информация "кто с кем разговаривает", но не фактическое содержание сообщения, если используется E2EE).
+- Федеративные серверы обычно требуют доверия к администратору вашего сервера. Они могут быть любителями или не являться "профессионалами в области безопасности" и не предоставлять стандартные документы, такие как политика конфиденциальности или условия предоставления услуг, в которых подробно описывается, как используются ваши данные.
+- Администраторы серверов иногда решают блокировать другие серверы, которые являются источником немодерируемых злоупотреблений или нарушают правила общепринятого поведения. Это затруднит вашу возможность общаться с участниками этих серверов.
 
 ## Пиринговые сети
 

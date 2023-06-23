@@ -1,5 +1,5 @@
 ---
-title: "Appunti"
+title: "Appunti e note"
 icon: material/notebook-edit-outline
 description: Queste app criptate per prendere appunti consentono di tenere traccia dei propri appunti senza darli a terze parti.
 cover: notebooks.png
@@ -41,7 +41,7 @@ Se stai attualmente utilizzando un'applicazione come Evernote, Google Keep o Mic
 
     ![Notesnook logo](assets/img/notebooks/notesnook.svg){ align=right }
     
-    **Notesnook** è un'applicazione gratuita & open-source per prendere appunti incentrata sulla privacy dell'utente & facile da utilizzare. È dotata di crittografia end-to-end su tutte le piattaforme con una potente sincronizzazione per prendere appunti mentre sei in giro. Puoi importare facilmente le tue note da Evernote, OneNote & molte altre applicazioni utilizzando il loro [importatore ufficiale] (https://importer.notesnook.com/).
+    **Notesnook** è un'applicazione gratuita & open-source per prendere appunti, incentrata sulla privacy dell'utente & facile da utilizzare. È dotata di crittografia end-to-end su tutte le piattaforme con una potente sincronizzazione per prendere appunti mentre sei in giro. Puoi importare facilmente le tue note da Evernote, OneNote & molte altre applicazioni utilizzando il loro [importatore ufficiale] (https://importer.notesnook.com/).
     
     [:octicons-home-16: Pagina principale](https://notesnook.com/){ .md-button .md-button--primary }
     [:octicons-eye-16:](https://notesnook.com/privacy){ .card-link title="Politica sulla Privacy" }
@@ -109,7 +109,7 @@ Joplin non supporta la protezione con password/PIN per [l'applicazione stessa o 
 
 Cryptee offre 100 MB di spazio di archiviazione gratuito, con opzioni a pagamento se hai bisogno di più spazio. L'iscrizione non richiede l'email o altre informazioni d'identificazione personale.
 
-## Note locali
+## Note in locale
 
 ### Org-mode
 

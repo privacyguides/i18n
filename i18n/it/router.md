@@ -1,5 +1,5 @@
 ---
-title: "Firmware Router"
+title: "Firmware per router"
 icon: material/router-wireless
 description: Questi sistemi operativi alternativi possono essere utilizzati per proteggere il router o l'access point del Wi-Fi.
 cover: router.png

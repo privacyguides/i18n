@@ -1,7 +1,7 @@
 ---
 title: "Resolver DNS"
 icon: material/dns
-description: Questi sono alcuni provider DNS cifrati a cui consigliamo di passare, per sostituire la configurazione predefinita del tuo ISP.
+description: Questi sono alcuni fornitori DNS cifrati a cui consigliamo di passare, per sostituire la configurazione predefinita del tuo ISP.
 cover: dns.png
 ---
 
@@ -9,7 +9,7 @@ I DNS cifrati con server di terze parti dovrebbero essere utilizzati solo per ag
 
 [Per saperne di più sui DNS :material-arrow-right-drop-circle:](advanced/dns-overview.md ""){.md-button}
 
-## Provider consigliati
+## Fornitori consigliati
 
 | Fornitore DNS                                                                   | Informativa sulla privacy                                                                             | Protocolli                                                    | Logging       | ECS       | Filtraggio                                                                                                                                                        |
 | ------------------------------------------------------------------------------- | ----------------------------------------------------------------------------------------------------- | ------------------------------------------------------------- | ------------- | --------- | ----------------------------------------------------------------------------------------------------------------------------------------------------------------- |

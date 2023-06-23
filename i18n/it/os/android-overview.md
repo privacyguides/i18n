@@ -1,14 +1,14 @@
 ---
 title: Panoramica Android
 icon: simple/android
-description: Android è un sistema operativo open-source con forti protezioni per la sicurezza, il che lo rende la nostra scelta migliore per i telefoni.
+description: Android è un sistema operativo open-source con forti protezioni per la sicurezza, il che lo rende la nostra scelta migliore per quanto riguarda i telefoni.
 ---
 
 Android è un sistema operativo sicuro, dotato di [sandboxing delle app](https://source.android.com/security/app-sandbox), [Verified Boot](https://source.android.com/security/verifiedboot) (AVB) e di un robusto sistema di controllo delle [autorizzazioni](https://developer.android.com/guide/topics/permissions/overview).
 
 ## Scegliere una distribuzione di Android
 
-Quando acquisti un telefono Android, il sistema operativo predefinito del dispositivo è spesso dotato di un'integrazione invasiva con applicazioni e servizi che non fanno parte di [Android Open-Source Project](https://source.android.com/). Un esempio è Google Play Services, che ha privilegi irrevocabili di accesso ai file, alla memoria dei contatti, ai registri delle chiamate, ai messaggi SMS, alla posizione, alla fotocamera, al microfono, agli identificatori hardware e così via. Queste applicazioni e servizi aumentano la superficie di attacco del dispositivo e sono all'origine di vari problemi di privacy con Android.
+Quando acquisti un telefono Android, il sistema operativo predefinito del dispositivo è spesso dotato di un'integrazione invasiva con applicazioni e servizi che non fanno parte di [Android Open-Source Project](https://source.android.com/). Un esempio è Google Play Services, che ha privilegi irrevocabili di accesso ai file, ai contatti, ai registri delle chiamate, ai messaggi SMS, alla posizione, alla fotocamera, al microfono, agli identificatori hardware e così via. Queste applicazioni e servizi aumentano la superficie di attacco del dispositivo e sono all'origine di vari problemi di privacy con Android.
 
 Questo problema potrebbe essere risolto utilizzando una distribuzione modificata di Android che non preveda un'integrazione così invasiva. Purtroppo, molte distribuzioni di Android personalizzate spesso violano il modello di sicurezza di Android, non supportando funzioni di sicurezza critiche come AVB, protezione rollback, aggiornamenti del firmware e così via. Alcune distribuzioni forniscono anche build [`userdebug`](https://source.android.com/setup/build/building#choose-a-target) che espongono root tramite [ADB](https://developer.android.com/studio/command-line/adb) e richiedono politiche SELinux [più permissive](https://github.com/LineageOS/android_system_sepolicy/search?q=userdebug&type=code) per ospitare le funzionalità di debug, con conseguente ulteriore aumento della superficie di attacco e indebolimento del modello di sicurezza.
 
@@ -77,13 +77,13 @@ Android 12:
 
 Android 13:
 
-- Un permesso per [l'accesso wifi nelle vicinanze](https://developer.android.com/about/versions/13/behavior-changes-13#nearby-wifi-devices-permission). Gli indirizzi MAC degli access point WiFi nelle vicinanze erano un modo molto diffuso per le app di tracciare la posizione dell'utente.
+- Un'autorizzazione per [l'accesso wifi nelle vicinanze](https://developer.android.com/about/versions/13/behavior-changes-13#nearby-wifi-devices-permission). Gli indirizzi MAC degli access point WiFi nelle vicinanze erano un modo molto diffuso per le app di tracciare la posizione dell'utente.
 - Più [autorizzazioni granulari per i media](https://developer.android.com/about/versions/13/behavior-changes-13#granular-media-permissions), il che significa che è possibile concedere l'accesso solo a immagini, video o file audio.
 - L'uso in background dei sensori richiede ora l'autorizzazione [`BODY_SENSORS`](https://developer.android.com/about/versions/13/behavior-changes-13#body-sensors-background-permission).
 
 Un'applicazione potrebbe richiedere un'autorizzazione per far funzionare una sua specifica funzione. Ad esempio, qualsiasi app in grado di scansionare codici QR richiederà l'autorizzazione della fotocamera. Alcune app possono richiedere più autorizzazioni di quelle necessarie.
 
-[Exodus](https://exodus-privacy.eu.org/) può essere utile se devi confrontare app con scopi simili. Se un'applicazione richiede molte autorizzazioni e presenta molte pubblicità e analytics, probabilmente è un brutto segno. Consigliamo di esaminare i singoli tracker e di leggerne le descrizioni piuttosto che limitarsi a **contare il totale di** e assumere che tutte le voci elencate siano uguali.
+[Exodus](https://exodus-privacy.eu.org/) può essere utile se devi confrontare app con scopi simili. Se un'applicazione richiede molte autorizzazioni e presenta molte pubblicità e analytics, probabilmente è un brutto segno. Consigliamo di esaminare i singoli tracker e di leggerne le descrizioni piuttosto che limitarsi a **contarne il totale** e supporre che tutte le voci elencate siano uguali.
 
 !!! warning "Attenzione"
 

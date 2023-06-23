@@ -113,7 +113,7 @@ Cryptee biedt gratis 100MB opslag, met betaalde opties als je meer nodig hebt. A
 
 ### Org-mode
 
-!!! recommendation
+!!! aanbeveling
 
     ![Org-mode logo](assets/img/notebooks/org-mode.svg){ align=right }
     

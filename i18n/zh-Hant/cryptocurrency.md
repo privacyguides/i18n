@@ -9,7 +9,7 @@ cover: cryptocurrency.png
 
 [私密付款 :material-arrow-right-drop-circle:](advanced/payments.md ""){.md-button}
 
-!!! 危險
+!!! danger "危險"
 
     許多（如果不是大多數）加密貨幣項目都是騙局。 只用你信任的項目小心進行交易。
 
@@ -17,9 +17,9 @@ cover: cryptocurrency.png
 
 !!! recommendation
 
-    ! [Monero 標誌] (assets/img/cryptocurrency/monero.svg) {align = right}
+    ![Monero 標誌](assets/img/cryptocurrency/monero.svg){ align=right }
     
-    * * Monero * *使用增強隱私技術的區塊鏈，混淆交易以實現匿名性。 每筆 Monero 交易都隱藏了交易金額、發送和接收地址以及資金來源，使其成為加密貨幣新手的理想選擇。
+    **Monero** 使用增強隱私技術的區塊鏈，混淆交易以實現匿名性。 每筆 Monero 交易都隱藏了交易金額、發送和接收地址以及資金來源，使其成為加密貨幣新手的理想選擇。
     
     [:octicons-home-16: Homepage](https://www.getmonero.org/){ .md-button .md-button--primary }
     [:octicons-info-16:](https://www.getmonero.org/resources/user-guides/){ .card-link title=Documentation}
@@ -50,6 +50,6 @@ Monero 是隱私友好的加密貨幣中最強大的競爭者，但它的隱私�
 
 !!! 示例“此部分是新的”
 
-    我們正在努力為網站的每個部分建立定義的標準，這可能會有所變化。 如果您對我們的標準有任何疑問，請[論壇上提問] (https://discuss.privacyguides.net/latest) ，如果沒有列出，請不要認為我們在提出建議時沒有考慮到某些事情。 推薦項目時，我們會考慮與討論許多因素，且記錄下每一個項目種種工作流程。
+    我們正在努力為網站的每個部分建立定義的標準，這可能會有所變化。 如果您對我們的標準有任何疑問，請 [論壇上提問](https://discuss.privacyguides.net/latest) ，如果沒有列出，請不要認為我們在提出建議時沒有考慮到某些事情。 推薦項目時，我們會考慮與討論許多因素，且記錄下每一個項目種種工作流程。
 
 - 預設情況下，加密貨幣必須提供私密/無法追蹤的交易。

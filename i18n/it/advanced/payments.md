@@ -13,7 +13,7 @@ Le leggi sul pagamento in contanti variano a seconda del paese. Negli Stati Unit
 
 Nonostante ciò, in genere è l'opzione migliore.
 
-## Carte Prepagate & Carte Regalo
+## Carte prepagate e carte regalo
 
 È relativamente semplice acquistare carte regalo e carte prepagate presso la maggior parte dei negozi di alimentari e dei minimarket con denaro contante. Le carte regalo di solito non prevedono commissioni, ma spesso le hanno le carte prepagate, quindi prestate molta attenzione a queste commissioni e alle date di scadenza. Alcuni negozi potrebbero chiedere di vedere il tuo documento d'identità per ridurre le frodi.
 
@@ -33,7 +33,7 @@ Quando si acquistano carte regalo online, di solito ti offrono un piccolo sconto
 
 - [Negozi di carte regalo online :material-arrow-right-drop-circle:](../financial-services.md#gift-card-marketplaces)
 
-## Carte Virtuali
+## Carte virtuali
 
 Un altro modo per proteggere le vostre informazioni dai commercianti online è quello di utilizzare carte virtuali, monouso, che nascondono le vostre informazioni bancarie o di fatturazione reali. Questo è utile soprattutto per proteggervi dalle violazioni dei dati dei commercianti, dal tracciamento meno sofisticato o dalla correlazione degli acquisti da parte delle agenzie di marketing e dal furto di dati online. **Non** ti aiutano a effettuare pagamenti totalmente anonimi, né a nascondere informazioni all'istituto bancario stesso. I normali istituti finanziari che offrono carte virtuali sono soggetti alle leggi "Know Your Customer" (KYC), il che significa che potrebbero richiedere un documento d'identità o altre informazioni d'identificazione.
 
@@ -67,7 +67,7 @@ Le transazioni anonime su una blockchain pubblica sono *teoricamente* possibili,
 
 ==La scelta migliore è quella di evitare del tutto queste criptovalute e di scegliere una che garantisca la privacy di default.== l'utilizzo di altre criptovalute non rientra nell'ambito di questo sito ed è fortemente sconsigliato.
 
-### Custodia portafoglio
+### Custodia del portafoglio
 
 Per le criptovalute esistono due forme di portafogli: portafogli custodial e portafogli noncustodial. I portafogli custodial sono gestiti da società/exchange centralizzati, dove la chiave privata del vostro portafoglio è detenuta da quella società e potete accedervi ovunque, in genere con i classici nome utente e una password. I portafogli non custodial sono portafogli in cui l'utente controlla e gestisce le chiavi private per accedervi. Supponendo che abbiate fatto il backup sicuro delle vostre chiavi private del portafoglio, i portafogli non custodial offrono una maggiore sicurezza e resistenza alla censura rispetto ai portafogli custodial, perché le vostre criptovalute non possono essere rubate o congelate da una società che ha in custodia le vostre chiavi private. La custodia delle chiavi è particolarmente importante quando si tratta di privacy coins: I portafogli custodial garantiscono alla società che li gestisce la possibilità di visualizzare le transazioni dell'utente, annullando i vantaggi di queste criptovalute in termini di privacy.
 

@@ -39,7 +39,7 @@ Qubes OS 利用 [DOM0](https://wiki.xenproject.org/wiki/Dom0) Xen VM （即「Ad
 
 ??? info" AppVms沒有自己的檔案系統"
 
-    您可以在Qubes之間[複製和移動檔案] (https://www.qubes-os.org/doc/how-to-copy-and-move-files/)。 當這樣做時，不會立即進行更改，並且在發生事故時可以輕鬆撤消。
+    [您可以在Qubes之間[複製和移動檔案](https://www.qubes-os.org/doc/how-to-copy-and-move-files/)。 當這樣做時，不會立即進行更改，並且在發生事故時可以輕鬆撤消。
 
 ### 虛擬機之間交互
 

@@ -24,7 +24,7 @@ cover: dns.png
 
 **請注意，我們這裏所推薦專案沒有任何牽扯。 ** 除了 [我們的標準準則](about/criteria.md)外，還有一套明確要求以提出客觀建議。 我們建議您在選擇使用任何項目之前先熟悉此列表，並進行自己的研究，以確保您的正確選擇。
 
-!!! 示例“此部分是新的”
+!!! example "此部分是新的"
 
     我們正在努力為這個網站的各個部分建立明確標準，它可能依情況變化。 如果您對我們的標準有任何疑問，請[在我們的論壇上提問] (https://discuss.privacyguides.net/latest) ，不要因為未列出而認為我們在提出建議時沒有考慮到某些事情。 當我們推薦一個專案時，會考慮和討論許多因素，記錄每一個項目都是一件持續的工作。
 
@@ -49,7 +49,7 @@ Android 9 以上版本支持 DoT (DNS over TLS)。 設定方式可以在以下�
 
 Apple不提供用於建立加密DNS設定檔的原生介面。 [Secure DNS profile creator](https://dns.notjakob.com/tool.html) 是一款非正式工具用以建立您自己的加密 DNS 設定檔。不過這個軟體並未得到簽署。 最好是簽署過個人資設定檔；簽署會驗證個人資料的來源，並有助於確保個人資料的完整性。 綠色的「已驗證」標籤會提供給已簽署的配置文件。 代碼簽名的詳細資訊，請參閱 [關於代碼簽名](https://developer.apple.com/library/archive/documentation/Security/Conceptual/CodeSigningGuide/Introduction/Introduction.html)。 由 [AdGuard](https://adguard.com/en/blog/encrypted-dns-ios-14.html)、 [NextDNS](https://apple.nextdns.io)和 [Quad9](https://www.quad9.net/news/blog/ios-mobile-provisioning-profiles/)提供的**簽名設定檔** 。
 
-!!! 資訊
+!!! info "資訊"
 
     許多 Linux 發行版用來進行DNS查詢的`systemd-resolved` 還不[支援 DoH] (https://github.com/systemd/systemd/issues/8639)。 如果要使用 DoH ，您需要安裝一個類似 [dnscrypt-proxy](https://github.com/DNSCrypt/dnscrypt-proxy)的代理，並[設定] (https://wiki.archlinux.org/title/Dnscrypt-proxy)讓系統解析器獲取所有 DNS 查詢，並透過 HTTPS 轉發。
 
@@ -61,17 +61,17 @@ Apple不提供用於建立加密DNS設定檔的原生介面。 [Secure DNS profi
 
 !!! recommendation
 
-    ! [RethinkDNS logo] (assets/img/android/rethinkdns.svg#only-light) {align = right}
-    ! [RethinkDNS logo] (assets/img/android/rethinkdns-dark.svg#only-dark) {align = right}
+    ![RethinkDNS logo](assets/img/android/rethinkdns.svg#only-light){ align=right }
+    ![RethinkDNS logo](assets/img/android/rethinkdns-dark.svg#only-dark){ align=right }
     
-    * * RethinkDNS * *是一個開源 Android 用戶端工具，支持 [DNS-over-HTTPS](advanced/dns-overview.md#dns-over-https-doh)、 [DNS-over-TLS](advanced/dns-overview.md#dns-over-tls-dot)、 [DNSCrypt](advanced/dns-overview.md#dnscrypt)和 DNS 代理，以及快取DNS 回應、本地記錄 DNS 查詢，也可用作防火牆。
+    **RethinkDNS** 是一個開源 Android 用戶端工具，支持 [DNS-over-HTTPS](advanced/dns-overview.md#dns-over-https-doh)、 [DNS-over-TLS](advanced/dns-overview.md#dns-over-tls-dot)、 [DNSCrypt](advanced/dns-overview.md#dnscrypt)和 DNS 代理，以及快取DNS 回應、本地記錄 DNS 查詢，也可用作防火牆。
     
     [:octicons-home-16: Homepage](https://rethinkdns.com){ .md-button .md-button--primary }
     [:octicons-eye-16:](https://rethinkdns.com/privacy){ .card-link title="Privacy Policy" }
     [:octicons-info-16:](https://docs.rethinkdns.com/){ .card-link title=Documentation}
     [:octicons-code-16:](https://github.com/celzero/rethink-app){ .card-link title="Source Code" }
     
-    ??? 下載
+    ??? downloads "下載"
     
         - [:simple-googleplay: Google Play](https://play.google.com/store/apps/details?id=com.celzero.bravedns)
         - [:simple-github: GitHub](https://github.com/celzero/rethink-app/releases)
@@ -80,18 +80,18 @@ Apple不提供用於建立加密DNS設定檔的原生介面。 [Secure DNS profi
 
 !!! recommendation
 
-    ! [dnscrypt-proxy logo] (assets/img/dns/dnscrypt-proxy.svg) {align = right}
+    ![dnscrypt-proxy logo](assets/img/dns/dnscrypt-proxy.svg){ align=right }
     
-    * * dnscrypt-proxy * *是 DNS 代理，支持 [DNSCrypt](advanced/dns-overview.md#dnscrypt)、 [DNS-over-HTTPS](advanced/dns-overview.md#dns-over-https-doh)和[Anonymized DNS] (https://github.com/DNSCrypt/dnscrypt-proxy/wiki/Anonymized-DNS)。
+    **dnscrypt-proxy** 是 DNS 代理，支持 [DNSCrypt](advanced/dns-overview.md#dnscrypt)、 [DNS-over-HTTPS](advanced/dns-overview.md#dns-over-https-doh)和[Anonymized DNS](https://github.com/DNSCrypt/dnscrypt-proxy/wiki/Anonymized-DNS)。
     
-    !!! 警告 "匿名化 DNS 功能[* * 不會 * *] (advanced/dns-overview.md#why-shouldnt-i-use-encrypted-dns)匿名化其他網路流量。
+    !!! warning "匿名化 DNS 功能[**不會**](advanced/dns-overview.md#why-shouldnt-i-use-encrypted-dns) 匿名化其他網路流量。
     
     [:octicons-repo-16: Repository](https://github.com/DNSCrypt/dnscrypt-proxy){ .md-button .md-button--primary }
     [:octicons-info-16:](https://github.com/DNSCrypt/dnscrypt-proxy/wiki){ .card-link title=Documentation}
     [:octicons-code-16:](https://github.com/DNSCrypt/dnscrypt-proxy){ .card-link title="Source Code" }
     [:octicons-heart-16:](https://opencollective.com/dnscrypt/contribute){ .card-link title=Contribute }
     
-    ??? 下載
+    ??? downloads "下載"
     
         - [:simple-windows11: Windows](https://github.com/DNSCrypt/dnscrypt-proxy/wiki/Installation-Windows)
         - [:simple-apple: macOS](https://github.com/DNSCrypt/dnscrypt-proxy/wiki/Installation-macOS)
@@ -105,9 +105,9 @@ Apple不提供用於建立加密DNS設定檔的原生介面。 [Secure DNS profi
 
 !!! recommendation
 
-    ! [AdGuard 首頁標誌] (assets/img/dns/adguard-home.svg) {align = right}
+    ![AdGuard 首頁標誌](assets/img/dns/adguard-home.svg){ align=right }
     
-    * * AdGuard * *是一個開源的 [DNS-sinkhole](https://wikipedia.org/wiki/DNS_sinkhole) ，使用[DNS 過濾] (https://www.cloudflare.com/learning/access-management/what-is-dns-filtering/)來封鎖不需要的網頁內容，例如廣告。
+    **AdGuard** 是一個開源的 [DNS-sinkhole](https://wikipedia.org/wiki/DNS_sinkhole) ，使用[DNS 過濾] (https://www.cloudflare.com/learning/access-management/what-is-dns-filtering/) 來封鎖不需要的網頁內容，例如廣告。
     
     AdGuard 首頁提供精美的網頁介面，可查看有用資訊並管理被封鎖的內容。
     
@@ -120,9 +120,9 @@ Apple不提供用於建立加密DNS設定檔的原生介面。 [Secure DNS profi
 
 !!! recommendation
 
-    ! [Pi-hole logo] (assets/img/dns/pi-hole.svg) {align = right}
+    ![Pi-hole logo](assets/img/dns/pi-hole.svg){ align=right }
     
-    * * Pi-hole * *是一個開源的 [DNS-sinkhole](https://wikipedia.org/wiki/DNS_sinkhole) ，它使用 [DNS 篩選] (https://www.cloudflare.com/learning/access-management/what-is-dns-filtering/)來阻止不需要的網頁內容，例如廣告。
+    **Pi-hole** 是一個開源的 [DNS-sinkhole](https://wikipedia.org/wiki/DNS_sinkhole) ，它使用 [DNS 篩選] (https://www.cloudflare.com/learning/access-management/what-is-dns-filtering/)來阻止不需要的網頁內容，例如廣告。
     
     Pi-hole 設計應用在 Raspberry Pi ，但它不限於這種硬體。 該軟體良好的 Web 界面，可查看有用資訊和管理被阻止的內容。
     

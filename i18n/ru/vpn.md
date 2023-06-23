@@ -38,7 +38,7 @@ cover: vpn.png
 
     ![Логотип IVPN](assets/img/vpn/ivpn.svg){ align=right }
     
-    **IVPN** — еще один платный VPN-провайдер, работающий с 2009 года. Выбор VPN-провайдера с ближайшим к вам сервером позволит снизить задержку передаваемого вами сетевого трафика.
+    **IVPN** — еще один платный VPN-провайдер, работающий с 2009 года. Компания IVPN базируется в Гибралтаре.
     
     [:octicons-home-16: Домашняя страница](https://www.ivpn.net/){ .md-button .md-button--primary }
     [:octicons-eye-16:](https://www.ivpn.net/privacy/){ .card-link title="Политика конфиденциальности" }

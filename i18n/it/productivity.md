@@ -7,9 +7,9 @@ cover: productivity.png
 
 La maggior parte delle suite per ufficio online non supportano la crittografia end-to-end, il che significa che il provider del cloud ha accesso a tutto ciò che fai. L'informativa sulla privacy potrebbe proteggere legalmente i tuoi diritti, ma non fornisce vincoli tecnici di accesso.
 
-## Suite per ufficio
+## Piattaforme di collaborazione
 
-### LibreOffice
+### Nextcloud
 
 !!! recommendation
 
@@ -37,7 +37,7 @@ La maggior parte delle suite per ufficio online non supportano la crittografia e
 
     Sconsigliamo di utilizzare l'[App E2EE](https://apps.nextcloud.com/apps/end_to_end_encryption) per Nextcloud, in quanto potrebbe causare la perdita di dati; è altamente sperimentale e non soddisfa i criteri di qualità. Per questo motivo, non consigliamo i provider Nextcloud di terze parti.
 
-### OnlyOffice
+### CryptPad
 
 !!! recommendation
 
@@ -70,14 +70,14 @@ In generale, definiamo le piattaforme di collaborazione come suite complete che 
 
 #### Caso migliore
 
-KeePassXC memorizza i suoi dati di esportazione come file [CSV](https://en.wikipedia.org/wiki/Comma-separated_values). Ciò può comportare la perdita di dati se si importa questo file in un altro gestore di password.
+I nostri criteri ottimali rappresentano ciò che vorremmo vedere dal progetto perfetto in questa categoria. Le nostre raccomandazioni potrebbero non includere tutte o alcune di queste funzionalità, ma quelle che le includono potrebbero avere una posizione più alta rispetto ad altre in questa pagina.
 
 - Dovrebbe memorizzare i file in un filesystem convenzionale.
 - Dovrebbe supportare l'autenticazione a più fattori TOTP o FIDO2, o i login con Passkey.
 
-## Servizi di paste
+## Suite per ufficio
 
-### PrivateBin
+### LibreOffice
 
 !!! recommendation
 
@@ -140,7 +140,7 @@ In generale, definiamo suite per ufficio le applicazioni che possono facilmente 
 - Deve supportare la modifica dei documenti, fogli di calcolo e presentazioni.
 - Deve esportare i file in formati documenti standard.
 
-## Servizi Paste
+## Servizi di copia-incolla
 
 ### PrivateBin
 

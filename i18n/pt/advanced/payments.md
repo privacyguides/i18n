@@ -1,15 +1,15 @@
 ---
-title: Private Payments
+title: Pagamentos privados
 icon: material/hand-coin
 ---
 
-There's a reason data about your buying habits is considered the holy grail of ad targeting: your purchases can leak a veritable treasure trove of data about you. Unfortunately, the current financial system is anti-privacy by design, enabling banks, other companies, and governments to easily trace transactions. Nevertheless, you have plenty of options when it comes to making payments privately.
+Há uma razão para que os dados sobre os seus hábitos de compra sejam considerados o Santo Graal da segmentação de anúncios: as suas compras podem revelar um verdadeiro tesouro de dados sobre si. Infelizmente, o atual sistema financeiro, por conceção, é anti-privacidade, o que permite a bancos, a outras empresas e aos governos rastrear facilmente as suas transações. No entanto, há muitas opções para efetuar pagamentos com privacidade.
 
-## Cash
+## Dinheiro
 
-For centuries, **cash** has functioned as the primary form of private payment. Cash has excellent privacy properties in most cases, is widely accepted in most countries, and is **fungible**, meaning it is non-unique and completely interchangable.
+Durante séculos, o **dinheiro** foi a principal forma de pagamento. O numerário tem excelentes propriedades de privacidade na maioria dos casos, é amplamente aceite na maioria dos países e é **fungível**, o que significa que não é único e é completamente intercambiável.
 
-Cash payment laws vary by country. In the United States, special disclosure is required for cash payments over $10,000 to the IRS on [Form 8300](https://www.irs.gov/businesses/small-businesses-self-employed/form-8300-and-reporting-cash-payments-of-over-10000). The receiving business is required to ID verify the payee’s name, address, occupation, date of birth, and Social Security Number or other TIN (with some exceptions). Lower limits without ID such as $3,000 or less exist for exchanges and money transmission. Cash also contains serial numbers. These are almost never tracked by merchants, but they can be used by law enforcement in targeted investigations.
+A legislação relativa ao pagamento em numerário varia de acordo com o país. Nos Estados Unidos, os pagamentos em dinheiro superiores a 10.000 dólares devem ser comunicados no IRS, através do [formulário 8300](https://www.irs.gov/businesses/small-businesses-self-employed/form-8300-and-reporting-cash-payments-of-over-10000). A empresa recetora é obrigada a verificar o nome, a morada, a profissão, a data de nascimento e o número de segurança social ou NIF do beneficiário (com algumas exceções). Lower limits without ID such as $3,000 or less exist for exchanges and money transmission. Cash also contains serial numbers. These are almost never tracked by merchants, but they can be used by law enforcement in targeted investigations.
 
 Despite this, it’s typically the best option.
 

@@ -1,5 +1,5 @@
 ---
-title: "Perchè la Privacy è importante"
+title: "Perchè la privacy è importante"
 icon: 'material/shield-account'
 ---
 
@@ -7,7 +7,7 @@ Nell'era moderna dello sfruttamento dei dati digitali, la tua privacy non è mai
 
 La privacy riguarda dopotutto le informazioni umane, e questo è importante poiché sappiamo che le informazioni umane conferiscono potere sugli esseri umani. Se ci interessa la nostra capacità di diventare esseri umani autentici, realizzati e liberi, dobbiamo preoccuparci innanzitutto delle regole che si applicano alle informazioni che ci riguardano. Gran parte della società moderna in cui viviamo si basa sulle **informazioni**. Quando fai acquisti online, leggi notizie, cerchi qualcosa, voti, cerchi indicazioni stradali o qualsiasi altra cosa, ti stai affidando a informazioni. Se viviamo in una società basata sulle informazioni, le nostre informazioni sono importanti e di conseguenza la privacy è importante.
 
-## Che cos'è la Privacy?
+## Che cos'è la privacy?
 
 Molte persone confondono il significato di **privacy**, **sicurezza**, e **anonimato**. Vedrai persone criticare diversi prodotti definendoli "non privati", quando in realtà intendono che non forniscono l'anonimato, per esempio. In questo sito, trattiamo tutti e tre gli argomenti, ma è importante capire la differenza tra loro e quando ciascuno di essi entra in gioco.
 

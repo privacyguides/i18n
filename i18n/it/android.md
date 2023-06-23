@@ -191,7 +191,7 @@ Altri suggerimenti per l'acquisto di un Google Pixel:
 - Consulta le community di sconti online del proprio Paese. Possono segnalarti le vendite più convenienti.
 - Google pubblica un elenco che mostra il [ciclo di supporto](https://support.google.com/nexus/answer/4457705) per ciascuno dei suoi dispositivi. Il prezzo giornaliero di un dispositivo può essere calcolato come: $\text{Prezzo} \over \text {Data fine vita}-\text{Data attuale}$, il che significa che più lungo è l'uso del dispositivo, minore è il costo giornaliero.
 
-## App Generali
+## App generali
 
 In questo sito raccomandiamo un'ampia gamma di applicazioni per Android. Le app qui elencate sono esclusive di Android e migliorano o sostituiscono in modo specifico le principali funzionalità del sistema.
 

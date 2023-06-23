@@ -1,6 +1,6 @@
 ---
 meta_title: "Perché l'email non è la scelta migliore per la privacy e la sicurezza - Privacy Guides"
-title: Sicurezza Email
+title: Sicurezza email
 icon: material/email
 description: La posta elettronica è intrinsecamente insicura sotto molti punti di vista e questi sono alcuni dei motivi per cui non è la nostra scelta principale per le comunicazioni sicure.
 ---
@@ -9,7 +9,7 @@ L'e-mail è una forma di comunicazione insicura per impostazione predefinita. È
 
 Di conseguenza, l'e-mail è utilizzata al meglio per ricevere e-mail transazionali (come notifiche, e-mail di verifica, reimpostazione della password e così via) dai servizi a cui ci si iscrive online, non per comunicare con gli altri.
 
-## Panoramica sulla crittografia delle e-mail
+## Panoramica sulla crittografia delle email
 
 Il modo standard per aggiungere l'E2EE alle e-mail tra diversi provider di posta elettronica è l'utilizzo di OpenPGP. Esistono diverse implementazioni dello standard OpenPGP, le più comuni sono [GnuPG](https://en.wikipedia.org/wiki/GNU_Privacy_Guard) e [OpenPGP.js](https://openpgpjs.org).
 
@@ -27,7 +27,7 @@ Una smartcard (come una [ YubiKey](https://support.yubico.com/hc/en-us/articles/
 
 È preferibile che la decodifica avvenga sulla smartcard, per evitare di esporre la chiave privata a un dispositivo compromesso.
 
-## Panoramica sui metadati e-mail
+## Panoramica sui metadati email
 
 I metadati delle e-mail sono memorizzati [nell'header del messaggio](https://en.wikipedia.org/wiki/Email#Message_header) e comprendono alcune intestazioni visibili, come ad esempio: `A`, `Da`, `Cc`, `Data`, `Oggetto`. Ci sono anche una serie di intestazioni nascoste incluse da molti client e provider di posta elettronica che possono rivelare informazioni sul tuo account.
 

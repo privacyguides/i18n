@@ -44,7 +44,7 @@ Proprio come il diritto al matrimonio interrazziale, il suffragio della donna, l
 
 Non bisogna confondere la privacy con la segretezza. Sappiamo cosa succede in bagno, ma chiudi lo stesso la porta. Questo perché vuoi la privacy, non la segretezza. **Tutti** hanno qualcosa da proteggere. La privacy è qualcosa che ci rende umani.
 
-[:material-book-outline: Perchè la Privacy è importante](basics/why-privacy-matters.md){ class="md-button md-button--primary" }
+[:material-book-outline: Perchè la privacy è importante](basics/why-privacy-matters.md){ class="md-button md-button--primary" }
 
 ## Cosa dovrei fare?
 
@@ -52,9 +52,9 @@ Non bisogna confondere la privacy con la segretezza. Sappiamo cosa succede in ba
 
 Cercare di proteggere tutti i dati da tutti, in ogni momento, è poco pratico, costoso ed estenuante. Ma non preoccuparti! La sicurezza è un processo e, pensando in anticipo, puoi mettere a punto un piano adatto a te. La sicurezza non riguarda solo gli strumenti utilizzati o il software scaricato. Piuttosto, inizia con la comprensione delle minacce personali che devi affrontare e di come puoi mitigarle.
 
-==Questo processo d'identificazione delle minacce e di definizione delle contromisure si chiama **threat modeling**== e costituisce la base di ogni buon piano di sicurezza e privacy.
+==Questo processo d'identificazione delle minacce e di definizione delle contromisure si chiama **modello di minaccia**== e costituisce la base di ogni buon piano di sicurezza e privacy.
 
-[:material-book-outline: Per saperne di più sulla modellazione delle minacce](basics/threat-modeling.md){ class="md-button md-button--primary" }
+[:material-book-outline: Per saperne di più sui modelli di minaccia](basics/threat-modeling.md){ class="md-button md-button--primary" }
 
 ---
 

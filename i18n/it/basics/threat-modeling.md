@@ -1,6 +1,6 @@
 ---
-meta_title: "Modellazione delle minacce: Il primo passo nel viaggio verso la privacy - Privacy Guides"
-title: "Modellazione delle minacce"
+meta_title: "Modelli di minaccia: Il primo passo nel viaggio verso la privacy - Privacy Guides"
+title: "Modelli di minaccia"
 icon: 'material/target-account'
 description: Bilanciare sicurezza, privacy e usabilità è uno dei primi e più difficili obiettivi che dovrete affrontare nel vostro viaggio verso la privacy.
 ---
@@ -15,7 +15,7 @@ Se si vogliono utilizzare gli strumenti **più** sicuri a disposizione, è neces
 
 Concentrarsi sulle minacce che contano per te restringe il tuo pensiero sulla protezione di cui hai bisogno, in modo da poter scegliere gli strumenti giusti per il lavoro.
 
-## Creare il Tuo Modello di Minaccia
+## Creare il tuo modello di minaccia
 
 Per identificare cosa potrebbe accadere alle cose che valorizzi e determinare da chi devi proteggerle, dovresti rispondere a queste cinque domande:
 

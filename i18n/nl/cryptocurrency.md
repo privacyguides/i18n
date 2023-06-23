@@ -38,7 +38,7 @@ Voor optimale privacy, zorg ervoor dat je een noncustodial wallet gebruikt waar 
 
 Voor maximale privacy (zelfs met een niet-custodiale wallet) moet je jouw eigen Monero-knooppunt beheren. Als je een knooppunt van een ander gebruikt, krijgt hij enige informatie, zoals het IP-adres van waaruit je verbinding maakt, de tijdstempels waarmee je jouw portemonnee synchroniseert, en de transacties die je vanuit jouw portemonnee verstuurt (maar geen andere details over die transacties). Als alternatief kun je via Tor of i2p verbinding maken met het Monero-knooppunt van iemand anders.
 
-In August 2021, CipherTrace [announced](https://ciphertrace.com/enhanced-monero-tracing/) enhanced Monero tracing capabilities for government agencies. Uit openbare berichten blijkt dat het Financial Crimes Enforcement Network van het Amerikaanse ministerie van Financiën [eind 2022 een licentie heeft verleend aan](https://sam.gov/opp/d12cbe9afbb94ca68006d0f006d355ac/view) CipherTrace's "Monero Module".
+In augustus 2021 kondigde CipherTrace [](https://ciphertrace.com/enhanced-monero-tracing/) verbeterde Monero-tracing-mogelijkheden aan voor overheidsinstanties. Uit openbare berichten blijkt dat het Financial Crimes Enforcement Network van het Amerikaanse ministerie van Financiën [eind 2022 een licentie heeft verleend aan](https://sam.gov/opp/d12cbe9afbb94ca68006d0f006d355ac/view) CipherTrace's "Monero Module".
 
 De privacy van de Monero-transactiegrafiek wordt beperkt door de relatief kleine ringhandtekeningen, vooral tegen gerichte aanvallen. </a> De privacyfuncties van Monero zijn ook
 

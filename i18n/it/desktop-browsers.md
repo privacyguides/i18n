@@ -355,7 +355,7 @@ Queste sono altre [liste di filtri](https://github.com/gorhill/uBlock/wiki/Dashb
 - Blocca i cookie di terze parti con le impostazioni predefinite.
 - Supporta il [partizionamento degli stati](https://developer.mozilla.org/en-US/docs/Web/Privacy/State_Partitioning) per mitigare il tracciamento cross-site.[^1]
 
-### Criteri Ottimali
+### Criteri ottimali
 
 KeePassXC memorizza i suoi dati di esportazione come file [CSV](https://en.wikipedia.org/wiki/Comma-separated_values). Ciò può comportare la perdita di dati se si importa questo file in un altro gestore di password.
 

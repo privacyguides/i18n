@@ -95,7 +95,7 @@ schema:
 
 根據設備與這些作業系統的兼容性，列出偏好順序以安裝我們推薦的某款定制 Android 作業系統。
 
-!!! 備註
+!!! note "備註"
 
     由於 OEM 停止支持，壽命終止的設備（如GrapheneOS或CalyxOS的 "延長支授 "設備）沒有完整的安全補丁（軔體更新）。 這些設備無論安裝何種軟體，都不能視為完全安全。
 
@@ -144,7 +144,7 @@ DivestOS 實現了一些最初為 GrapheneOS 開發的系統加固補丁。 Dive
 
 DivestOS 以 F-Droid 為預設的應用下載服務。 通常我們建議避免使用 F-Droid，它有不少[安全問題](#f-droid)。 然而 DivestOS 這樣卻不可行，開發者透過 ([DivestOS 官方](https://divestos.org/fdroid/official/?fingerprint=E4BE8D6ABFA4D9D4FEEF03CDDA7FF62A73FD64B75566F6DD4E5E577550BE8467) 與 [DivestOS WebView](https://divestos.org/fdroid/webview/?fingerprint=FB426DA1750A53D7724C8A582B4D34174E64A84B38940E5D5A802E1DFF9A40D2))的 F-Droid 存取庫來更新他們的應用程式。 我們建議禁用官方 F-Droid 應用，並使用 [Neo Store](https://github.com/NeoApplications/Neo-Store/) ，啟用DivestOS 存取庫，以保持這些組件為最新。 至於其它應用，我們建議的獲取方式仍適用。
 
-!!! 警告
+!!! warning "警告"
 
     DivestOS 軔體更新 [status](https://gitlab.com/divested-mobile/firmware-empty/-/blob/master/STATUS)和品管依所支援的設備不同而異。 雖取決於設備的兼容性，我们仍推薦 GrapheneOS。 對其它設備，DivestOS 是不錯的選項。
     
@@ -170,11 +170,11 @@ Google Pixel 是**唯一** 推薦的手機。 由於對第三方作業系統的�
 
 !!! recommendation
 
-    ![ Google Pixel 6](assets/img/android/google-pixel.png){ align=right }
+    ![Google Pixel 6](assets/img/android/google-pixel.png){ align=right }
     
-    眾所周知，** Google Pixel**設備具有良好安全性，支持[Verified Boot](https://source.android.com/security/verifiedboot)，即使安裝自定義作業系統時也是如此。
+    眾所周知，**Google Pixel** 設備具有良好安全性，支持 [Verified Boot](https://source.android.com/security/verifiedboot)，即使安裝自定義作業系統時也是如此。
     
-    從**Pixel 6**和**6 Pro**開始，Pixel 設備至少有 5年的安全更新保證，確保其使用壽命比其他競爭OEM 廠商 2-4年長得多。
+    從 **Pixel 6**和 **6 Pro** 開始，Pixel 設備至少有 5年的安全更新保證，確保其使用壽命比其他競爭OEM 廠商 2-4年長得多。
     
     [:material-shopping: Store](https://store.google.com/category/phones){ .md-button .md-button--primary }
 
@@ -209,9 +209,9 @@ Pixel 手機很容易安裝 GrapheneOS 只需依其 [網頁安裝程式](https:/
     [:octicons-code-16:](https://gitea.angry.im/PeterCxy/Shelter){ .card-link title="Source Code" }
     [:octicons-heart-16:](https://www.patreon.com/PeterCxy){ .card-link title=Contribute }
 
-!!! 警告
+!!! warning "警告"
 
-    推薦使用 Shelter 取代[Insular](https://secure-system.gitlab.io/Insular/)和 [Island](https://github.com/oasisfeng/island)，因為 Shelter 支持[聯繫人搜索屏蔽](https://secure-system.gitlab.io/Insular/faq.html)。
+    推薦使用 Shelter 取代 [Insular](https://secure-system.gitlab.io/Insular/)和 [Island](https://github.com/oasisfeng/island)，因為 Shelter 支持[聯繫人搜索屏蔽](https://secure-system.gitlab.io/Insular/faq.html)。
     
     當使用 Shelter 時，將信任置於其開發者，Shelter 作為[設備管理員](https://developer.android.com/guide/topics/admin/device-admin)來創建工作設定檔，它有大量權限訪問存儲在工作設定檔的資料。
 
@@ -230,7 +230,7 @@ Pixel 手機很容易安裝 GrapheneOS 只需依其 [網頁安裝程式](https:/
     [:octicons-code-16:](https://attestation.app/source){ .card-link title="Source Code" }
     [:octicons-heart-16:](https://attestation.app/donate){ .card-link title=Contribute }
     
-    ??? 下載
+    ??? downloads "下載"
     
         - [:simple-googleplay: Google Play](https://play.google.com/store/apps/details?id=app.attestation.auditor.play)
         - [:simple-github: GitHub](https://github.com/GrapheneOS/Auditor/releases)
@@ -262,7 +262,7 @@ Auditor 通過下列方式鑑證和入侵檢測。
     [:octicons-code-16:](https://github.com/GrapheneOS/Camera){ .card-link title="Source Code" }
     [:octicons-heart-16:](https://grapheneos.org/donate){ .card-link title=Contribute }
     
-    ??? 下載
+    ??? downloads "下載"
     
         - [:simple-googleplay: Google Play](https://play.google.com/store/apps/details?id=app.grapheneos.camera.play)
         - [:simple-github: GitHub](https://github.com/GrapheneOS/Camera/releases)
@@ -274,11 +274,11 @@ Auditor 通過下列方式鑑證和入侵檢測。
 - 使用新的 [媒介](https://developer.android.com/training/data-storage/shared/media) API，因此不需要 [儲存權限](https://developer.android.com/training/data-storage)。
 - 除非需錄制聲音，否則無需麥克風權限。
 
-!!! 備註
+!!! note "備註"
 
     目前影片沒有刪除中繼資料，未來計畫要刪除。
     
-    圖片方向的中繼資料未刪除。 如果 ( Secure Camera) 開啟定位， 也 **不會** 被不會偵測到。 如果之後想刪除，必須使用外部應用如[ExifEraser](data-redaction.md#exiferaser)。
+    圖片方向的中繼資料未刪除。 如果 (Secure Camera) 開啟定位， 也 **不會** 被不會偵測到。 如果之後想刪除，必須使用外部應用如[ExifEraser](data-redaction.md#exiferaser)。
 
 ### 安全的 PDF 檢視器
 
@@ -287,7 +287,7 @@ Auditor 通過下列方式鑑證和入侵檢測。
     ![Secure PDF Viewer logo](assets/img/android/secure_pdf_viewer.svg#only-light){ align=right }
     ![Secure PDF Viewer logo](assets/img/android/secure_pdf_viewer-dark.svg#only-dark){ align=right }
     
-    **Secure PDF Viewer** 是基於 [pdf.js](https://en.wikipedia.org/wiki/PDF.js)的PDF 瀏覽器，無需任何權限。 此 PDF 被送入[sandboxed](https://en.wikipedia.org/wiki/Sandbox_(software_development))[webview](https://developer.android.com/guide/webapps/webview)。 這意味著它不需要權限就能直接存取內容或檔案。
+    **Secure PDF Viewer** 是基於 [pdf.js](https://en.wikipedia.org/wiki/PDF.js)的PDF 瀏覽器，無需任何權限。 此 PDF 被送入 [sandboxed](https://en.wikipedia.org/wiki/Sandbox_(software_development)) [webview](https://developer.android.com/guide/webapps/webview)。 這意味著它不需要權限就能直接存取內容或檔案。
     
     [內容安全政策](https://en.wikipedia.org/wiki/Content_Security_Policy)用來強制要求 WebView 內的JavaScript 和造型屬性需全為靜態內容。
     
@@ -295,7 +295,7 @@ Auditor 通過下列方式鑑證和入侵檢測。
     [:octicons-code-16:](https://github.com/GrapheneOS/PdfViewer){ .card-link title="Source Code" }
     [:octicons-heart-16:](https://grapheneos.org/donate){ .card-link title=Contribute }
     
-    ??? 下載
+    ??? downloads "下載"
     
         - [:simple-googleplay: Google Play](https://play.google.com/store/apps/details?id=app.grapheneos.pdfviewer.play)
         - [:simple-github: GitHub](https://github.com/GrapheneOS/PdfViewer/releases)
@@ -320,7 +320,7 @@ Google Play商店需要登錄 Google 帳戶，這對隱私來說不是很好。 
     [:octicons-home-16: Homepage](https://auroraoss.com/){ .md-button .md-button--primary }
     [:octicons-code-16:](https://gitlab.com/AuroraOSS/AuroraStore){ .card-link title="Source Code" }
     
-    ??? 下載
+    ??? downloads "下載"
     
         - [:simple-gitlab: GitLab](https://gitlab.com/AuroraOSS/AuroraStore/-/releases)
 
@@ -395,9 +395,9 @@ Aurora Store不允許其匿名帳戶下載付費應用程式。 您可以選擇�
 
 **請注意，我們所推薦專案沒有任何瓜葛。 ** 除了 [標準準則](about/criteria.md)外，我們還發展出一套明確要求以提出客觀建議。 我們建議您在選擇使用項目之前先熟悉此列表，並進行自己的研究，以確保它是您的正確選擇。
 
-!!! 示例“此部分是新的”
+!!! !!! 例如 "本节是新的"
 
-    我們正在努力為我們網站的每個部分建立定義的標準，這可能會有所變化。 如果您對我們的標準有任何疑問，請在[論壇上提問] (https://discuss.privacyguides.net/latest) ，如果沒有列出，請不要認為我們在提出建議時沒有考慮到某些事情。 當我們推薦一個項目時，有許多因素被考慮和討論，記錄每一個項目都是正在進行式。
+    我們正在努力為我們網站的每個部分建立定義的標準，這可能會有所變化。 如果您對我們的標準有任何疑問，請在 [論壇上提問](https://discuss.privacyguides.net/latest) ，如果沒有列出，請不要認為我們在提出建議時沒有考慮到某些事情。 當我們推薦一個項目時，有許多因素被考慮和討論，記錄每一個項目都是正在進行式。
 
 ### 作業系統
 

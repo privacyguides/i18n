@@ -3,35 +3,35 @@ title: Приватные платежи
 icon: material/hand-coin
 ---
 
-There's a reason data about your buying habits is considered the holy grail of ad targeting: your purchases can leak a veritable treasure trove of data about you. Unfortunately, the current financial system is anti-privacy by design, enabling banks, other companies, and governments to easily trace transactions. Nevertheless, you have plenty of options when it comes to making payments privately.
+Не зря данные о ваших покупательских привычках считаются святым Граалем таргетинга рекламы: ваши покупки могут рассказать очень много информации о вас. К сожалению, существующая финансовая система по своей сути является антиприватной, позволяя банкам, другим компаниям и правительствам легко отслеживать транзакции. Тем не менее у вас есть много вариантов осуществлять платежи приватно.
 
 ## Наличные
 
-For centuries, **cash** has functioned as the primary form of private payment. Cash has excellent privacy properties in most cases, is widely accepted in most countries, and is **fungible**, meaning it is non-unique and completely interchangable.
+На протяжении веков **наличные** функционировали как основная форма приватных платежей. Наличные деньги обладают превосходными свойствами конфиденциальности в большинстве случаев, широко принимаются в большинстве стран и являются **заменяемыми**, то есть они не уникальны и полностью взаимозаменяемы.
 
-Cash payment laws vary by country. In the United States, special disclosure is required for cash payments over $10,000 to the IRS on [Form 8300](https://www.irs.gov/businesses/small-businesses-self-employed/form-8300-and-reporting-cash-payments-of-over-10000). The receiving business is required to ID verify the payee’s name, address, occupation, date of birth, and Social Security Number or other TIN (with some exceptions). Lower limits without ID such as $3,000 or less exist for exchanges and money transmission. Cash also contains serial numbers. These are almost never tracked by merchants, but they can be used by law enforcement in targeted investigations.
+Законы об оплате наличными варьируются в зависимости от страны. В США требуется специальное раскрытие информации о денежных платежах свыше 10 000 долларов США в налоговую службу по [форме 8300](https://www.irs.gov/businesses/small-businesses-self-employed/form-8300-and-reporting-cash-payments-of-over-10000). Получающее предприятие обязано проверить имя, адрес, род занятий, дату рождения и номер социального страхования или другой ИНН получателя (за некоторыми исключениями). Более низкие лимиты без удостоверения личности, такие как $3 000 или меньше, существуют для обмена и передачи денег. Наличные деньги также содержат серийные номера. Они почти никогда не отслеживаются продавцами, но могут быть использованы правоохранительными органами в расследованиях.
 
-Despite this, it’s typically the best option.
+Несмотря на это, как правило, это лучший вариант.
 
 ## Предоплаченные карты & Подарочные карты
 
-It’s relatively simple to purchase gift cards and prepaid cards at most grocery stores and convenience stores with cash. Gift cards usually don’t have a fee, though prepaid cards often do, so pay close attention to these fees and expiry dates. Some stores may ask to see your ID at checkout to reduce fraud.
+Приобрести подарочные карты и предоплаченные карты в большинстве продуктовых и круглосуточных магазинов за наличные деньги довольно просто. Подарочные карты обычно не имеют комиссии, предоплаченные - часто имеют, поэтому обращайте пристальное внимание на эти комиссии и сроки действия. Некоторые магазины могут попросить предъявить удостоверение личности на кассе для предотвращения мошенничества.
 
-Gift cards usually have limits of up to $200 per card, but some offer limits of up to $2,000 per card. Prepaid cards (eg: from Visa or Mastercard) usually have limits of up to $1,000 per card.
+Подарочные карты обычно имеют лимит до 200 долларов, но некоторые предлагают лимиты до 2 000 долларов. Предоплаченные карты (например, от Visa или Mastercard) обычно имеют лимит до 1000 долларов США.
 
-Gift cards have the downside of being subject to merchant policies, which can have terrible terms and restrictions. For example, some merchants don’t accept payment in gift cards exclusively, or they may cancel the value of the card if they consider you to be a high-risk user. Once you have merchant credit, the merchant has a strong degree of control over this credit.
+Подарочные карты имеют тот недостаток, что они зависят от политики продавцов, которые могут иметь ужасные условия использования и ограничения. Например, некоторые продавцы не принимают оплату исключительно подарочными картами или могут аннулировать стоимость карты, если сочтут вас пользователем с высоким уровнем риска. Получив торговый кредит, торговое предприятие имеет сильную степень контроля над этим кредитом.
 
-Prepaid cards don’t allow cash withdrawals from ATMs or “peer-to-peer” payments in Venmo and similar apps.
+Предоплаченные карты не позволяют снимать наличные в банкоматах или осуществлять "peer-to-peer" платежи в Venmo и подобных приложениях.
 
-Cash remains the best option for in-person purchases for most people. Gift cards can be useful for the savings they bring. Prepaid cards can be useful for places that don’t accept cash. Gift cards and prepaid cards are easier to use online than cash, and they are easier to acquire with cryptocurrencies than cash.
+Для большинства людей наличные остаются лучшим вариантом для покупок, совершаемых при личном присутствии. Подарочные карты могут быть полезны благодаря экономии, которую они приносят. Предоплаченные карты могут быть полезны в местах, где не принимают наличные. В отличие от наличных, подарочные карты и предоплаченные карты легче использовать в интернете и их легче приобрести с помощью криптовалют.
 
 ### Онлайн магазины
 
-If you have [cryptocurrency](../cryptocurrency.md), you can purchase gift cards with an online gift card marketplace. Some of these services offer ID verification options for higher limits, but they also allow accounts with just an email address. Basic limits start at $5,000-10,000 a day for basic accounts, and significantly higher limits for ID verified accounts (if offered).
+Если у вас есть [криптовалюта](../cryptocurrency.md), вы можете приобрести подарочные карты на онлайн-маркетплейсе подарочных карт. Некоторые из этих служб предлагают возможность проверки личности для получения более высоких лимитов, но они также позволяют открывать счета, используя только адрес электронной почты. Базовые лимиты начинаются от $5,000-10,000 в день для базовых счетов, и значительно выше лимиты для счетов, подтвержденных документами (если они предлагаются).
 
-When buying gift cards online, there is usually a slight discount. Prepaid cards are usually sold online at face value or with a fee. If you buy prepaid cards and gift cards with cryptocurrencies, you should strongly prefer to pay with Monero which provides strong privacy, more on this below. Paying for a gift card with a traceable payment method negates the benefits a gift card can provide when purchased with cash or Monero.
+При покупке подарочных карт через интернет обычно предоставляется небольшая скидка. Предоплаченные карты обычно продаются в интернете по номинальной стоимости или с комиссией. Если вы покупаете предоплаченные карты и подарочные карты с помощью криптовалюты, вам следует отдать предпочтение оплате с помощью Monero, которая обеспечивает высокую степень конфиденциальности, подробнее об этом ниже. Оплата подарочной карты с помощью отслеживаемого способа оплаты сводит на нет преимущества, которые может предоставить подарочная карта при покупке за наличные или Monero.
 
-- [Online Gift Card Marketplaces :material-arrow-right-drop-circle:](../financial-services.md#gift-card-marketplaces)
+- [Онлайн-маркетплейсы подарочных карт :material-arrow-right-drop-circle:](../financial-services.md#gift-card-marketplaces)
 
 ## Виртуальные карты
 

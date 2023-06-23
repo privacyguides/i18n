@@ -55,7 +55,7 @@ Privacy.com fornisce di default alla vostra banca informazioni sui commercianti 
 - Consente la creazione di più carte che fungono da scudo tra il commerciante e le vostre finanze personali.
 - Le carte non devono richiedere di fornire informazioni precise sull'indirizzo di fatturazione al commerciante.
 
-## Negozi di Carte Regalo
+## Negozi di carte regalo
 
 Questi servizi ti consentono di acquistare carte regalo per una varietà di commercianti online con [criptovalute](cryptocurrency.md). Alcuni di questi servizi offrono limiti più elevati dopo aver verificato la propria identità, ma consentono la creazione di account utilizzando soltanto l'email. I limiti di base partono in genere dai 5.000-10.000 dollari al giorno per i conti base, mentre ci sono limiti significativamente più alti per i conti con l'identità verificata (se offerti).
 

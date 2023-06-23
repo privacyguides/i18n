@@ -217,7 +217,7 @@ Proton VPN [adviseert](https://protonvpn.com/blog/wireguard/) het gebruik van Wi
 
 #### :material-alert-outline:{ .pg-orange } Remote Port Forwarding
 
-Proton VPN currently only supports ephemeral remote [port forwarding](https://protonvpn.com/support/port-forwarding/) via NAT-PMP, with 60 second lease times. The Windows app provides an easy to access option for it, while on other operating systems you'll need to run your own [NAT-PMP client](https://protonvpn.com/support/port-forwarding-manual-setup/). Torrent applications often support NAT-PMP natively.
+Proton VPN ondersteunt momenteel alleen ephemeral remote [port forwarding](https://protonvpn.com/support/port-forwarding/) via NAT-PMP, met een leasetijd van 60 seconden. De Windows-app biedt hiervoor een gemakkelijk toegankelijke optie, terwijl je op andere besturingssystemen je eigen [NAT-PMP-client](https://protonvpn.com/support/port-forwarding-manual-setup/)moet draaien. Torrent toepassingen ondersteunen vaak de NAT-PMP volledig.
 
 #### :material-check:{ .pg-green } Mobiele Clients
 

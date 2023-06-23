@@ -15,9 +15,9 @@ cover: desktop.png
 
 !!! recommendation
 
-    ! [Fedora logo] (assets/img/linux-desktop/fedora-workstation.svg) {align = right}
+    ![Fedora logo](assets/img/linux-desktop/fedora-workstation.svg){ align=right }
     
-    * * Fedora Workstation * *是我們推薦給Linux新手的發行版。 Fedora 通常較其他發行版更早採用較新技術，例如 [Wayland](https://wayland.freedesktop.org/) ， [PipeWire](https://pipewire.org)。 這些新技術通常會在安全性、隱私性和可用性方面有所改善。
+    **Fedora Workstation** 是我們推薦給Linux新手的發行版。 Fedora 通常較其他發行版更早採用較新技術，例如 [Wayland](https://wayland.freedesktop.org/) ， [PipeWire](https://pipewire.org)。 這些新技術通常會在安全性、隱私性和可用性方面有所改善。
     
     [:octicons-home-16: Homepage](https://getfedora.org/){ .md-button .md-button--primary }
     [:octicons-info-16:](https://docs.fedoraproject.org/en-US/docs/){ .card-link title=Documentation}
@@ -29,11 +29,11 @@ Fedora 有一個半滾動的發布週期。 雖然像 [GNOME](https://www.gnome.
 
 !!! recommendation
 
-    ! [openSUSE Tumbleweed logo] (assets/img/linux-desktop/opensuse-tumbleweed.svg) {align = right}
+    ![openSUSE Tumbleweed logo](assets/img/linux-desktop/opensuse-tumbleweed.svg){ align=right }
     
-    * * openSUSE Tumbleweed * *是一個穩定滾動發行版。
+    **openSUSE Tumbleweed** 是一個穩定滾動發行版。
     
-    openSUSE Tumbleweed 有一個[transactional update] (https://kubic.opensuse.org/blog/2018-04-04-transactionalupdates/)系統，使用 [Btrfs](https://en.wikipedia.org/wiki/Btrfs)和 [Snapper](https://en.opensuse.org/openSUSE: Snapper_Tutorial)來確保快照可以在出現問題時回滾。
+    openSUSE Tumbleweed 有一個 [transactional update](https://kubic.opensuse.org/blog/2018-04-04-transactionalupdates/)系統，使用 [Btrfs](https://en.wikipedia.org/wiki/Btrfs)和 [Snapper](https://en.opensuse.org/openSUSE: Snapper_Tutorial)來確保快照可以在出現問題時回滾。
     
     [:octicons-home-16: Homepage](https://get.opensuse.org/tumbleweed/){ .md-button .md-button--primary }
     [:octicons-info-16:](https://doc.opensuse.org/){ .card-link title=Documentation}
@@ -45,9 +45,9 @@ Tumbleweed 遵循滾動發佈模式，每個更新都是快照發布。 當您�
 
 !!! recommendation
 
-    ! [Arch logo] (assets/img/linux-desktop/archlinux.svg) {align = right}
+    ![Arch logo](assets/img/linux-desktop/archlinux.svg){ align=right }
     
-    * * Arch Linux * *是一個輕量級的、自己動手(DIY)的發行版，意味著只能得到你安裝的東西。 如需更多資訊，請參閱他們的 [FAQ](https://wiki.archlinux.org/title/Frequently_asked_questions)。
+    **Arch Linux** 是一個輕量級的、自己動手(DIY)的發行版，意味著只能得到你安裝的東西。 如需更多資訊，請參閱他們的 [FAQ](https://wiki.archlinux.org/title/Frequently_asked_questions)。
     
     [:octicons-home-16: Homepage](https://archlinux.org/){ .md-button .md-button--primary }
     [:octicons-info-16:](https://wiki.archlinux.org/){ .card-link title=Documentation}
@@ -65,9 +65,9 @@ Arch Linux有一個滾動發佈週期。 沒有固定的發布時間表，套件
 
 !!! recommendation
 
-    ! [Fedora Silverblue logo] (assets/img/linux-desktop/fedora-silverblue.svg) {align = right}
+    ![Fedora Silverblue logo](assets/img/linux-desktop/fedora-silverblue.svg){ align=right }
     
-    * * Fedora Silverblue * *和* * Fedora Kinoite * *是自 Fedora 變體的不可更動發行版，主要關注容器工作流程。 Silverblue 搭配 [GNOME](https://www.gnome.org/)桌面環境，而 Kinoite 則探 [KDE](https://kde.org/)。 Silverblue 和 Kinoite 遵循 Fedora Workstation 同樣的發佈時間表，受益於相同的快速更新並保持非常接近上遊。
+    **Fedora Silverblue** 和 **Fedora Kinoite** 是自 Fedora 變體的不可更動發行版，主要關注容器工作流程。 Silverblue 搭配 [GNOME](https://www.gnome.org/)桌面環境，而 Kinoite 則探 [KDE](https://kde.org/)。 Silverblue 和 Kinoite 遵循 Fedora Workstation 同樣的發佈時間表，受益於相同的快速更新並保持非常接近上遊。
     
     [:octicons-home-16: Homepage](https://silverblue.fedoraproject.org/){ .md-button .md-button--primary }
     [:octicons-info-16:](https://docs.fedoraproject.org/en-US/fedora-silverblue/){ .card-link title=Documentation}
@@ -85,9 +85,9 @@ Silverblue （和Kinoite ）與  Fedora Workstation 不同的是，它們用更�
 
 !!! recommendation
 
-    ! [NixOS logo] (assets/img/linux-desktop/nixos.svg) {align = right}
+    ![NixOS logo](assets/img/linux-desktop/nixos.svg){ align=right }
     
-    NixOS 是基於  Nix套件管理器的獨立發行版，專注於可重複性和可靠性。
+    NixOS 是基於 Nix套件管理器的獨立發行版，專注於可重複性和可靠性。
     
     [:octicons-home-16: Homepage](https://nixos.org/){ .md-button .md-button--primary }
     [:octicons-info-16:](https://nixos.org/learn.html){ .card-link title=Documentation}
@@ -109,9 +109,9 @@ Nix是一個基於源的套件管理器；如果二進位快取中沒有預先�
 
 !!! recommendation
 
-    ! [Whonix logo] (assets/img/linux-desktop/whonix.svg) {align = right}
+    ![Whonix logo](assets/img/linux-desktop/whonix.svg){ align=right }
     
-    * * Whonix * * 來自 [Kicksecure](https://www.whonix.org/wiki/Kicksecure)，為 Debian 安全分支。 它旨在提供網際網路的隱私、安全和匿名性。 Whonix 最好與[Qubes OS](# qubes-os) 配合使用。
+    **Whonix** 來自 [Kicksecure](https://www.whonix.org/wiki/Kicksecure)，為 Debian 安全分支。 它旨在提供網際網路的隱私、安全和匿名性。 Whonix 最好與 [Qubes OS](# qubes-os) 配合使用。
     
     [:octicons-home-16: Homepage](https://www.whonix.org/){ .md-button .md-button--primary }
     [:simple-torbrowser:](http://www.dds6qkxpwdeubwucdiaord2xgbbeyds25rbsgr73tbfpqpt4a6vjwsyd.onion){ .card-link title="Onion Service" }
@@ -133,9 +133,9 @@ Whonix 最好與 Qubes</a>一起使用
 
 !!! recommendation
 
-    ! [Tails logo] (assets/img/linux-desktop/tails.svg) {align = right}
+    ![Tails logo](assets/img/linux-desktop/tails.svg){ align=right }
     
-    * * Tails * *是一個基於Debian 的自生作業系統，通過 Tor 路由所有通訊，透過 DVD ， USB記憶棒或 SD卡安裝幾乎可在任何電腦上啟動。 它使用 [Tor](tor.md)來保護隱私和匿名性，同時規避審查制度，並且使用的電腦在關閉電源後不會留下任何痕跡。
+    **Tails** 是一個基於Debian 的自生作業系統，通過 Tor 路由所有通訊，透過 DVD ， USB記憶棒或 SD卡安裝幾乎可在任何電腦上啟動。 它使用 [Tor](tor.md) 來保護隱私和匿名性，同時規避審查制度，並且使用的電腦在關閉電源後不會留下任何痕跡。
     
     [:octicons-home-16: Homepage](https://tails.boum.org/){ .md-button .md-button--primary }
     [:octicons-info-16:](https://tails.boum.org/doc/index.en.html){ .card-link title=Documentation}
@@ -158,9 +158,9 @@ Tails Tor 瀏覽器預設包含 [uBlock Origin](desktop-browsers.md#ublock-origi
 
 !!! recommendation
 
-    ! [Qubes OS logo] (assets/img/qubes/qubes_os.svg) {align = right}
+    ![Qubes OS logo](assets/img/qubes/qubes_os.svg){ align=right }
     
-    * * Qubes OS * *是一個開源作業系統，旨在為桌機運算提供強大的安全性。 Qubes 基於 Xen、X Window System 和 Linux ，可以運行大多數 Linux 應用程式與使用大多數 Linux 驅動程式。
+    **Qubes OS** 是一個開源作業系統，旨在為桌機運算提供強大的安全性。 Qubes 基於 Xen、X Window System 和 Linux ，可以運行大多數 Linux 應用程式與使用大多數 Linux 驅動程式。
     
     [:octicons-home-16: Homepage](https://www.qubes-os.org/){ .md-button .md-button--primary }
     [:material-arrow-right-drop-circle: Overview](os/qubes-overview.md){ .md-button .md-button--primary }
@@ -181,9 +181,9 @@ Qubes OS 作業系統將子系統（例如網絡、USB等）和應用程式隔�
 
 **請注意，我們所推薦專案沒有任何瓜葛。 ** 除了 [標準準則](about/criteria.md)外，我們還發展出一套明確要求以提出客觀建議。 我們建議您在選擇使用項目之前先熟悉此列表，並進行自己的研究，以確保它是您的正確選擇。
 
-!!! 示例“此部分是新的”
+!!! example "此部分是新的"
 
-    我們正在努力為我們網站的每個部分建立定義的標準，這可能會有所變化。 如果您對我們的標準有任何疑問，請在[論壇上提問] (https://discuss.privacyguides.net/latest) ，如果沒有列出，請不要認為我們在提出建議時沒有考慮到某些事情。 當我們推薦一個項目時，有許多因素被考慮和討論，記錄每一個項目都是正在進行式。
+    我們正在努力為我們網站的每個部分建立定義的標準，這可能會有所變化。 如果您對我們的標準有任何疑問，請在 [論壇上提問](https://discuss.privacyguides.net/latest) ，如果沒有列出，請不要認為我們在提出建議時沒有考慮到某些事情。 當我們推薦一個項目時，有許多因素被考慮和討論，記錄每一個項目都是正在進行式。
     
 
 我們推薦的作業系統：

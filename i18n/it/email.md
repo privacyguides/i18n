@@ -151,7 +151,7 @@ Tutti gli account vengono forniti con uno spazio di archiviazione cloud limitato
 
 Mailbox.org dispone di una funzione di eredità digitale per tutti i piani. Puoi scegliere se vuoi che i dati siano trasmessi agli eredi, a condizione che ne facciano richiesta e forniscano il testamento. In alternativa, è possibile nominare una persona per nome e indirizzo.
 
-## Altri provider
+## Altri fornitori
 
 Questi provider archiviano le tue e-mail con una crittografia a conoscenza zero, il che li rende ottime opzioni per mantenere sicure le tue e-mail archiviate. Tuttavia, non supportano standard di crittografia interoperabili per le comunicazioni E2EE tra provider.
 

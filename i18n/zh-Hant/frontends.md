@@ -179,7 +179,7 @@ cover: frontends.png
     [:octicons-code-16:](https://github.com/iv-org/invidious){ .card-link title="Source Code" }
     [:octicons-heart-16:](https://invidious.io/donate/){ .card-link title=Contribute }
 
-!!! 警告
+!!! warning "警告"
 
     預設情況下， Invidious不會代理影片串流。 通過 Invidious 觀看的影片會直接連接到 Google 伺服器（例如`googlevideo.com` )，但是有些實例支持影片代理-只需在實例設置中啟用*Proxy videos*或在 URL 中添加`&local = true`。
 

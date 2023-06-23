@@ -282,90 +282,95 @@ Desative as extensões incluídas que não utilizar em **Extensões**
 
 As funcionalidades Web3 do Brave podem potencialmente aumentar a impressão digital do seu browser e a superfície de ataque. A menos que utilize alguma destas funcionalidades, desative-as.
 
-Defina **Default Ethereum wallet** para **Extensions (no fallback)** Defina **Default Solana wallet** para **Extensions (no fallback)** Defina **Method to resolve IPFS resources** para **Desativado**
+Defina **Carteira Ethereum predefinida** para **Extensões (sem cópia de segurança)** Defina **Carteira Solana predefinida** para **Extensões (sem cópia de segurança)** Defina **Método para solucionar métodos IPFS** para **Desativada**
 
-##### System
+##### Sistema
 
 <div class="annotate" markdown>
 
-- [ ] Uncheck **Continue running apps when Brave is closed** to disable background apps (1)
+- [ ] Desmarque a opção **Continuar a executar aplicações quando o Brave é fechado** para desativar as aplicações em segundo plano (1)
 
 </div>
 
-1. This option is not present on all platforms.
+1. Esta opção não está presente em todas as plataformas.
 
-#### Sincronizar
+#### Sincronização
 
 [A Sincronização do Brave](https://support.brave.com/hc/en-us/articles/360059793111-Understanding-Brave-Sync) permite que os seus dados de navegação (histórico, marcadores, etc.) estejam acessíveis em todos os seus dispositivos, sem necessidade de uma conta, e protege-os com E2EE.
 
-#### Brave Rewards and Wallet
+#### Recompensar Brave
 
-**Brave Rewards** lets you recieve Basic Attention Token (BAT) cryptocurrency for performing certain actions within Brave. It relies on a custodial account and KYC from a select number of providers. We do not recommend BAT as a [private cryptocurrency](cryptocurrency.md), nor do we recommend using a [custodial wallet](advanced/payments.md#other-coins-bitcoin-ethereum-etc), so we would discourage using this feature.
+**Recompensas Brave** permite-lhe receber criptomoeda Basic Attention Token (BAT) pelo facto de realizar determinadas ações. Baseia-se numa conta de custódia e no KYC de um número selecionado de fornecedores. Não recomendamos a BAT como uma criptomoeda privada [](cryptocurrency.md), nem recomendamos a utilização de uma carteira de custódia [](advanced/payments.md#other-coins-bitcoin-ethereum-etc), pelo que desencorajamos a utilização desta funcionalidade.
 
-**Brave Wallet** operates locally on your computer, but does not support any private cryptocurrencies, so we would discourage using this feature as well.
+**A Brave Wallet** funciona localmente no seu computador, mas não suporta quaisquer criptomoedas privadas, pelo que desencorajamos a utilização desta funcionalidade também.
 
 ## Recursos Adicionais
 
-In general, we recommend keeping your browser extensions to a minimum to decrease your attack surface; they have privileged access within your browser, require you to trust the developer, can make you [stand out](https://en.wikipedia.org/wiki/Device_fingerprint#Browser_fingerprint), and [weaken](https://groups.google.com/a/chromium.org/g/chromium-extensions/c/0ei-UCHNm34/m/lDaXwQhzBAAJ) site isolation. However, uBlock Origin may prove useful if you value content blocking functionality.
+Em geral, recomendamos que a utilização de extensões seja reduzida ao mínimo; têm acesso privilegiado no seu browser, exigem que confie no programador, podem fazer com que se [destaque](https://en.wikipedia.org/wiki/Device_fingerprint#Browser_fingerprint)e [enfraquecem](https://groups.google.com/a/chromium.org/g/chromium-extensions/c/0ei-UCHNm34/m/lDaXwQhzBAAJ) o isolamento do site. No entanto, o uBlock Origin pode ser útil se valorizar a funcionalidade de bloqueio de conteúdos.
 
-### AdGuard para Safari
+### uBlock Origin
 
 !!! nota
     Consulte o [Tabela de Hardware](https://openwrt.org/toh/start) para verificar se o seu dispositivo é suportado.
 
-    Não recomendamos a instalação do ToS;DR como uma extensão do navegador.
+    ![logótipo uBlock Origin](assets/img/browsers/ublock_origin.svg){ align=right }
     
-    A mesma informação é fornecida no site deles. downloads
+    O **uBlock Origin** é um popular bloqueador de conteúdos que pode ajudá-lo a bloquear anúncios, rastreadores e scripts de impressões digitais.
+    
+    [:octicons-repo-16: Repositório](https://github.com/gorhill/uBlock#readme){ .md-button .md-button--primary }
+    [:octicons-eye-16:](https://github.com/gorhill/uBlock/wiki/Privacy-policy){ .card-link title="Política de Privacidade" }
+    [:octicons-info-16:](https://github.com/gorhill/uBlock/wiki){ .card-link title=Documentação}
+    [:octicons-code-16:](https://github.com/gorhill/uBlock){ .card-link title="Código-fonte" }
+    
+    ??? downloads
     
         - [:simple-firefoxbrowser: Firefox](https://addons.mozilla.org/firefox/addon/ublock-origin/)
         - [:simple-googlechrome: Chrome](https://chrome.google.com/webstore/detail/ublock-origin/cjpalhdlnbpafiamejdnhcphjbkeiagm)
         - [:simple-microsoftedge: Edge](https://microsoftedge.microsoft.com/addons/detail/ublock-origin/odfafepnkmbhccpbejgmiehpchacaeak)
 
-We suggest following the [developer's documentation](https://github.com/gorhill/uBlock/wiki/Blocking-mode) and picking one of the "modes". Additional filter lists can impact performance and [may increase attack surface](https://portswigger.net/research/ublock-i-exfiltrate-exploiting-ad-blockers-with-css).
+Sugerimos que siga as instruções da documentação do programador [](https://github.com/gorhill/uBlock/wiki/Blocking-mode) e escolha um dos "modos". Listas de filtros adicionais podem afetar o desempenho e [podem aumentar a superfície de ataque](https://portswigger.net/research/ublock-i-exfiltrate-exploiting-ad-blockers-with-css).
 
-##### Other lists
+##### Outras listas
 
-These are some other [filter lists](https://github.com/gorhill/uBlock/wiki/Dashboard:-Filter-lists) that you may want to consider adding:
+Estas são algumas [listas de filtros](https://github.com/gorhill/uBlock/wiki/Dashboard:-Filter-lists) que pode querer considerar adicionar:
 
-- [x] Check **Privacy** > **AdGuard URL Tracking Protection**
-- Add [Actually Legitimate URL Shortener Tool](https://raw.githubusercontent.com/DandelionSprout/adfilt/master/LegitimateURLShortener.txt)
+- [x] Selecione **Privacidade** > **Proteção de rastreio de URL do AdGuard**
+- Adicionar [Ferramenta de encurtamento de URL realmente legítima](https://raw.githubusercontent.com/DandelionSprout/adfilt/master/LegitimateURLShortener.txt)
 
-## Framadate
+## Critérios
 
-**Please note we are not affiliated with any of the projects we recommend.** In addition to [our standard criteria](about/criteria.md), we have developed a clear set of requirements to allow us to provide objective recommendations. We suggest you familiarize yourself with this list before choosing to use a project, and conduct your own research to ensure it's the right choice for you.
+**Note que não estamos associados a nenhum dos projetos que recomendamos.** Para além dos [nossos critérios padrão](about/criteria.md), temos um conjunto claro de requisitos que nos permitem fornecer recomendações objetivas. Sugerimos que se familiarize com esta lista antes de optar por um projeto e que desenvolva a sua própria investigação para garantir que se trata da escolha certa para si.
 
-!!! Considere o auto-hospedagem para mitigar esta ameaça.
+!!! exemplo "Esta secção é nova"
 
-    ![logo PrivateBin](/assets/img/productivity/privatebin.svg){ align=right }
-    
-    **PrivateBin** é um pastebin online minimalista e de código aberto onde o servidor tem zero conhecimento de dados colados. Os dados são criptografados/descriptografados no navegador usando AES de 256 bits. Psono suporta compartilhamento seguro de senhas, arquivos, marcadores e e-mails.
+    Estamos a trabalhar no sentido de estabelecer critérios para cada secção do nosso site, o que pode originar alterações. Se tiver alguma dúvida sobre os critérios utilizados, por favor [pergunte no nosso fórum] (https://discuss.privacyguides.net/latest) e não parta do princípio de que algo foi excluído das nossas recomendações, caso não esteja listado aqui. São muitos os fatores considerados e discutidos quando recomendamos um projeto, e documentar cada um deles é um trabalho em curso.
 
 ### Requisitos mínimos
 
-- O software deve ser de código aberto.
-- Supports automatic updates.
-- Receives engine updates in 0-1 days from upstream release.
-- Available on Linux, macOS, and Windows.
-- Any changes required to make the browser more privacy-respecting should not negatively impact user experience.
-- Blocks third-party cookies by default.
-- Supports [state partitioning](https://developer.mozilla.org/en-US/docs/Web/Privacy/State_Partitioning) to mitigate cross-site tracking.[^1]
+- Software de código aberto.
+- Atualizações automáticas.
+- Atualizações do motor em 0-1 dias a partir do lançamento upstream.
+- Disponível em Linux, macOS e Windows.
+- Alterações necessárias para tornar o browser mais respeitador da privacidade não devem afetar negativamente a experiência do utilizador.
+- Bloqueio de cookies de terceiros por defeito.
+- [Particionamento de estado](https://developer.mozilla.org/en-US/docs/Web/Privacy/State_Partitioning) para mitigar o rastreio entre sítios.[^1]
 
 ### Melhor caso
 
-Os nossos melhores critérios representam o que gostaríamos de ver num projeto perfeito desta categoria. As nossas recomendações podem não incluir todas as funcionalidades, mas incluem as que, na nossa opinião, têm um impacto mais elevado.
+Estes são os critérios que consideramos essenciais para um projeto perfeito nesta categoria. As nossas recomendações podem não incluir todas as funcionalidades, mas incluem as que, na nossa opinião, têm um impacto mais elevado.
 
-- Includes built-in content blocking functionality.
-- Supports cookie compartmentalization (à la [Multi-Account Containers](https://support.mozilla.org/en-US/kb/containers)).
-- Supports Progressive Web Apps.  
-  PWAs enable you to install certain websites as if they were native apps on your computer. This can have advantages over installing Electron-based apps, because you benefit from your browser's regular security updates.
-- Does not include add-on functionality (bloatware) that does not impact user privacy.
-- Does not collect telemetry by default.
-- Provides open-source sync server implementation.
-- Defaults to a [private search engine](search-engines.md).
+- Inclui a funcionalidade de bloqueio de conteúdos incorporada.
+- Suporta a compartimentação de cookies (à la [Multi-Account Containers](https://support.mozilla.org/en-US/kb/containers)).
+- Suporta Progressive Web Apps.  
+  Os PWAs permitem-lhe instalar determinados sites como se fossem aplicações nativas no seu computador. Isto pode ter vantagens sobre a instalação de aplicações baseadas no Electron, uma vez que beneficia das atualizações de segurança regulares do seu browser.
+- Não inclui funcionalidades adicionais (bloatware) que não afetam a privacidade do utilizador.
+- Não recolhe telemetria por predefinição.
+- Fornece implementação de código aberto de sincronização de servidor.
+- Tem predefinido um motor de busca privado [](search-engines.md).
 
-### Extension Criteria
+### Critérios de extensão
 
-- Must not replicate built-in browser or OS functionality.
-- Must directly impact user privacy, i.e. must not simply provide information.
+- Não deve replicar a funcionalidade incorporada do browser ou do sistema operativo.
+- Deve ter um impacto direto na privacidade do utilizador, ou seja, não deve limitar-se a fornecer informações.
 
-[^1]: Brave's implementation is detailed at [Brave Privacy Updates: Partitioning network-state for privacy](https://brave.com/privacy-updates/14-partitioning-network-state/).
+[^1]: A implementação do Brave é pormenorizada em [Brave Privacy Updates: Partitioning network-state for privacy](https://brave.com/privacy-updates/14-partitioning-network-state/).

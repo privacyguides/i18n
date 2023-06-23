@@ -7,7 +7,7 @@ cover: email-clients.png
 
 Il nostro elenco di raccomandazioni contiene client di posta elettronica che supportano sia [OpenPGP](encryption.md#openpgp) che l'autenticazione forte come [Open Authorization (OAuth)](https://it.wikipedia.org/wiki/OAuth). OAuth consente di utilizzare l'[autenticazione a più fattori](basics/multi-factor-authentication.md) e di prevenire il furto di account.
 
-??? warning "L'e-mail non fornisce la segretezza dell'inoltro"
+??? warning "L'email non fornisce la segretezza dell'inoltro"
 
     Quando si utilizza una tecnologia di crittografia end-to-end (E2EE) come OpenPGP, le e-mail avranno ancora [alcuni metadati](email.md#email-metadata-overview) non crittografati nell'intestazione dell'e-mail.
     
@@ -230,7 +230,7 @@ Canary Mail è closed-source. Lo consigliamo a causa della scarsa scelta di clie
 - Non deve raccogliere la telemetria o deve avere un modo semplice per disabilitare tutta la telemetria.
 - Deve supportare la crittografia dei messaggi OpenPGP.
 
-### Criteri Ottimali
+### Criteri ottimali
 
 I nostri criteri ottimali rappresentano ciò che vorremmo vedere dal progetto perfetto in questa categoria. Le nostre raccomandazioni potrebbero non includere tutte o alcune di queste funzionalità, ma quelle che le includono potrebbero avere una posizione più alta rispetto ad altre in questa pagina.
 
