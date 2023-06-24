@@ -13,9 +13,9 @@ cover: multi-factor-authentication.png
 
     ![YubiKeys](assets/img/multifactor-authentication/yubikey.png)
     
-    * * YubiKeys * *是最常用的安全金鑰之一。 有些 YubiKey 型號具廣泛的功能，例如： [Universal 2nd Factor (U2F)] (https://en.wikipedia.org/wiki/Universal_2nd_Factor)、[FIDO2 and WebAuthn] (basics/multifactor-authentication.md#fido-fast-identity-online)、[Yubico OTP] (basics/multifactor-authentication.md#yubico-otp)、[Personal Identity Verification (PIV)] (https://developers.yubico.com/PIV)、 [OpenPGP](https://developers.yubico.com/PGP/)、[TOTP and HOTP] (https://developers.yubico.com/OATH)驗證。
+    **YubiKeys** 是最常用的安全金鑰之一。 有些 YubiKey 型號具廣泛的功能，例如： [Universal 2nd Factor (U2F)](https://en.wikipedia.org/wiki/Universal_2nd_Factor)、[FIDO2 and WebAuthn](basics/multifactor-authentication.md#fido-fast-identity-online)、[Yubico OTP](basics/multifactor-authentication.md#yubico-otp)、[Personal Identity Verification (PIV)](https://developers.yubico.com/PIV)、 [OpenPGP](https://developers.yubico.com/PGP/)、[TOTP and HOTP](https://developers.yubico.com/OATH)驗證。
     
-    YubiKey 好處之一是，一支密鑰（ 例如 YubiKey 5 ）可以滿足對安全密鑰硬體的全部期待。 我們建議您在購買前先[作個小測驗](https://www.yubico.com/quiz/) ，以確保您做出正確的選擇。
+    YubiKey 好處之一是，一支密鑰（ 例如 YubiKey 5 ）可以滿足對安全密鑰硬體的全部期待。 我們建議您在購買前先 [作個小測驗](https://www.yubico.com/quiz/) ，以確保您做出正確的選擇。
     
     [:octicons-home-16: Homepage](https://www.yubico.com){ .md-button .md-button--primary }
     [:octicons-eye-16:](https://www.yubico.com/support/terms-conditions/privacy-notice){ .card-link title="Privacy Policy" }
@@ -27,16 +27,16 @@ YubiKeys可以利用 [YubiKey Manager](https://www.yubico.com/support/download/y
 
 支持 HOTP 和 TOTP 的機型， OTP 介面中有2個插槽可用於HOTP 和32個插槽來存儲 TOTP 機密。 這些機密經加密後存儲在密鑰上，永遠不會將它們暴露在插入的設備上。 一旦向 Yubico Authenticator 提供種子（共享祕密） ，它將只會給出六位數的代碼，但永遠不會提供種子。 此安全模型有助於限制攻擊者，即便運行 Yubico Authenticator的設備受到破壞，讓受到物理攻擊時 Yubikey 仍具抵抗力。
 
-!!! 警告
+!!! warning "警告"
     YubiKey 軔體沒有開源，不可更新。 如果您想要使用較新韌體版本的功能，或者使用中的韌體版本存在漏洞，則需要購買新的金鑰。
 
 ### Nitrokey
 
 !!! recommendation
 
-    ![Nitrokey](assets/img/multifactor-authentication/nitrokey.jpg) {align = right}
+    ![Nitrokey](assets/img/multifactor-authentication/nitrokey.jpg){ align=right }
     
-    * * Nitrokey * * 能夠[FIDO2 和 WebAuthn] (basics/multifactor-authentication.md#fido-fast-identity-online)的安全金鑰，稱為* * Nitrokey FIDO2 * *。 若要獲得 PGP 支援，您需要購買他們其他鑰匙，例如* * Nitrokey Start * *、* * Nitrokey Pro 2 * *或* * Nitrokey Storage 2 * *。
+    **Nitrokey** 能夠 [FIDO2 和 WebAuthn](basics/multifactor-authentication.md#fido-fast-identity-online)的安全金鑰，稱為 **Nitrokey FIDO2**。 若要獲得 PGP 支援，您需要購買他們其他鑰匙，例如 **Nitrokey Start**、**Nitrokey Pro 2** 或 **Nitrokey Storage 2**。
     
     [:octicons-home-16: Homepage](https://www.nitrokey.com){ .md-button .md-button--primary }
     [:octicons-eye-16:](https://www.nitrokey.com/data-privacy-policy){ .card-link title="Privacy Policy" }
@@ -48,11 +48,11 @@ YubiKeys可以利用 [YubiKey Manager](https://www.yubico.com/support/download/y
 
 支持 HOTP 和 TOTP 的型號，有3個 HOTP 插槽，15 個 TOTP 插槽。 有些 Nitrokeys 可以充當密碼管理器。 可以存儲 16 組憑證，並使用與 OpenPGP 接口相同的密碼對憑證加密。
 
-!!! 警告
+!!! warning "警告"
 
     雖然 Nitrokeys 不會將 HOTP/TOTP 機密釋放給所插入的設備，但HOTP 和 TOTP存儲* *未經加密* * ，容易受到物理攻擊。 如果需要存儲 HOTP 或 TOTP 這類祕密，強烈建議使用Yubikey 代替。
 
-!!! 警告
+!!! warning "警告"
 
     重置 Nitrokey 的 OpenPGP 介面會使密碼資料庫變為 [無法存取](https://docs.nitrokey.com/pro/linux/factory-reset)。
 
@@ -64,9 +64,9 @@ Nitrokey Pro 2、Nitrokey Storage 2 和即將推出的 Nitrokey 3 支持筆記�
 
 **請注意，我們所推薦專案沒有任何瓜葛。 ** 除了 [標準準則](about/criteria.md)外，我們還發展出一套明確要求以提出客觀建議。 建議您在選擇使用項目之前先熟悉此列表，並進行自己的研究，以確保它是您的正確選擇。
 
-!!! 示例“此部分是新的”
+!!! example "此部分是新的"
 
-    我們正在努力為這個網站的各個部分建立明確標準，它可能依情況變化。 如果您對我們的標準有任何疑問，請在[論壇上提問] (https://discuss.privacyguides.net/latest) ，如果沒有列出，請不要認為我們在提出建議時沒有考慮到某些事情。 當我們推薦一個項目時，有許多因素被考慮和討論，記錄每一個項目都是正在進行式。
+    我們正在努力為這個網站的各個部分建立明確標準，它可能依情況變化。 如果您對我們的標準有任何疑問，請在 [論壇上提問](https://discuss.privacyguides.net/latest) ，如果沒有列出，請不要認為我們在提出建議時沒有考慮到某些事情。 當我們推薦一個項目時，有許多因素被考慮和討論，記錄每一個項目都是正在進行式。
 
 #### 最低合格要求
 
@@ -94,9 +94,9 @@ Nitrokey Pro 2、Nitrokey Storage 2 和即將推出的 Nitrokey 3 支持筆記�
 
 !!! recommendation
 
-    ! [Aegis logo] (assets/img/multifactor-authentication/aegis.png) {align = right}
+    ![Aegis logo](assets/img/multifactor-authentication/aegis.png){ align=right }
     
-    * * Aegis Authenticator * *是一款免費、安全且開源的應用程式，可為您的線上服務管理兩步驗證令牌。
+    **Aegis Authenticator** 是一款免費、安全且開源的應用程式，可為您的線上服務管理兩步驗證令牌。
     
     [:octicons-home-16: Homepage](https://getaegis.app){ .md-button .md-button--primary }
     [:octicons-eye-16:](https://getaegis.app/aegis/privacy.html){ .card-link title="Privacy Policy" }
@@ -104,7 +104,7 @@ Nitrokey Pro 2、Nitrokey Storage 2 和即將推出的 Nitrokey 3 支持筆記�
     [:octicons-code-16:](https://github.com/beemdevelopment/Aegis){ .card-link title="Source Code" }
     [:octicons-heart-16:](https://www.buymeacoffee.com/beemdevelopment){ .card-link title=Contribute }
     
-    ??? 下載
+    ??? downloads "下載"
     
         - [:simple-googleplay: Google Play](https://play.google.com/store/apps/details?id=com.beemdevelopment.aegis)
         - [:simple-github: GitHub](https://github.com/beemdevelopment/Aegis/releases)
@@ -113,16 +113,16 @@ Nitrokey Pro 2、Nitrokey Storage 2 和即將推出的 Nitrokey 3 支持筆記�
 
 !!! recommendation
 
-    ! [Raivo OTP logo] (assets/img/multifactor-authentication/raivo-otp.png) {align = right}
+    ![Raivo OTP logo](assets/img/multifactor-authentication/raivo-otp.png){ align=right }
     
-    * * Raivo OTP * *是原生、輕量和安全的時間基礎(TOTP) & 計數器(HOTP)密碼用戶端應用，適用於iOS。 Raivo OTP 提供可選的 iCloud 備份 & 同步。 Raivo OTP也以狀態列應用程式的形式提供給macOS ，但Mac應用程式並不獨立於iOS應用程式運作。
+    **Raivo OTP** 是原生、輕量和安全的時間基礎(TOTP) & 計數器(HOTP)密碼用戶端應用，適用於iOS。 Raivo OTP 提供可選的 iCloud 備份 & 同步。 Raivo OTP也以狀態列應用程式的形式提供給macOS ，但Mac應用程式並不獨立於iOS應用程式運作。
     
     [:octicons-home-16: Homepage](https://raivo-otp.com){ .md-button .md-button--primary }
     [:octicons-eye-16:](https://raivo-otp.com/privacy-policy){ .card-link title="Privacy Policy" }
     [:octicons-code-16:](https://github.com/raivo-otp/ios-application){ .card-link title="Source Code" }
     [:octicons-heart-16:](https://raivo-otp.com/donate){ .card-link title=Contribute }
     
-    ??? 下載
+    ??? downloads "下載"
     
         - [:simple-appstore: App Store](https://apps.apple.com/us/app/raivo-otp/id1459042137)
 
@@ -130,9 +130,9 @@ Nitrokey Pro 2、Nitrokey Storage 2 和即將推出的 Nitrokey 3 支持筆記�
 
 **請注意，我們所推薦專案沒有任何瓜葛。 ** 除了 [標準準則](about/criteria.md)外，我們還發展出一套明確要求以提出客觀建議。 建議您在選擇使用項目之前先熟悉此列表，並進行自己的研究，以確保它是您的正確選擇。
 
-!!! 示例“此部分是新的”
+!!! example "此部分是新的"
 
-    我們正在努力為這個網站的各個部分建立明確標準，它可能依情況變化。 如果您對我們的標準有任何疑問，請在[論壇上提問] (https://discuss.privacyguides.net/latest) ，如果沒有列出，請不要認為我們在提出建議時沒有考慮到某些事情。 當我們推薦一個項目時，有許多因素被考慮和討論，記錄每一個項目都是正在進行式。
+    我們正在努力為這個網站的各個部分建立明確標準，它可能依情況變化。 如果您對我們的標準有任何疑問，請在 [論壇上提問](https://discuss.privacyguides.net/latest) ，如果沒有列出，請不要認為我們在提出建議時沒有考慮到某些事情。 當我們推薦一個項目時，有許多因素被考慮和討論，記錄每一個項目都是正在進行式。
 
 - 源代碼必須公開。
 - 無需網際網路連線。

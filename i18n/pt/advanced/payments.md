@@ -1,5 +1,5 @@
 ---
-title: Pagamentos privados
+title: Pagamentos com privacidade
 icon: material/hand-coin
 ---
 
@@ -9,76 +9,76 @@ Há uma razão para que os dados sobre os seus hábitos de compra sejam consider
 
 Durante séculos, o **dinheiro** foi a principal forma de pagamento. O numerário tem excelentes propriedades de privacidade na maioria dos casos, é amplamente aceite na maioria dos países e é **fungível**, o que significa que não é único e é completamente intercambiável.
 
-A legislação relativa ao pagamento em numerário varia de acordo com o país. Nos Estados Unidos, os pagamentos em dinheiro superiores a 10.000 dólares devem ser comunicados no IRS, através do [formulário 8300](https://www.irs.gov/businesses/small-businesses-self-employed/form-8300-and-reporting-cash-payments-of-over-10000). A empresa recetora é obrigada a verificar o nome, a morada, a profissão, a data de nascimento e o número de segurança social ou NIF do beneficiário (com algumas exceções). Lower limits without ID such as $3,000 or less exist for exchanges and money transmission. Cash also contains serial numbers. These are almost never tracked by merchants, but they can be used by law enforcement in targeted investigations.
+A legislação relativa ao pagamento em numerário varia de acordo com o país. Nos Estados Unidos, os pagamentos em dinheiro superiores a 10 mil dólares devem ser comunicados no IRS, através do [formulário 8300](https://www.irs.gov/businesses/small-businesses-self-employed/form-8300-and-reporting-cash-payments-of-over-10000). A empresa recetora é obrigada a verificar o nome, a morada, a profissão, a data de nascimento e o número de segurança social ou NIF do beneficiário (com algumas exceções). É possível pagar sem que seja necessária a identificação, nos casos de câmbio ou transmissão de dinheiro em que o valor não exceda os 3 mil dólares. O dinheiro também contém números de série. Estes quase nunca são monitorizados pelos comerciantes, mas podem ser utilizados pelas autoridades policiais em investigações específicas.
 
-Despite this, it’s typically the best option.
+Apesar disso, pagar em dinheiro é normalmente a melhor opção.
 
-## Prepaid Cards & Gift Cards
+## Cartões pré-pagos e Cartões de oferta
 
-It’s relatively simple to purchase gift cards and prepaid cards at most grocery stores and convenience stores with cash. Gift cards usually don’t have a fee, though prepaid cards often do, so pay close attention to these fees and expiry dates. Some stores may ask to see your ID at checkout to reduce fraud.
+É relativamente simples comprar cartões de oferta e cartões pré-pagos com dinheiro, na maioria das mercearias e lojas de conveniência. Os cartões-presente geralmente não têm associada uma taxa. Não é o caso dos cartões pré-pagos, que muitas vezes têm taxas e datas de validade, o que deve suscitar a sua atenção. No momento de pagar, algumas lojas podem pedir a sua identificação, de forma a evitar fraudes.
 
-Gift cards usually have limits of up to $200 per card, but some offer limits of up to $2,000 per card. Prepaid cards (eg: from Visa or Mastercard) usually have limits of up to $1,000 per card.
+Os cartões-presente têm geralmente limites de 200 dólares por cartão, podendo esses limites chegar aos 2 mil dólares por cartão. Os cartões pré-pagos (por exemplo, da Visa ou da Mastercard) têm normalmente limites de mil dólares por cartão.
 
-Gift cards have the downside of being subject to merchant policies, which can have terrible terms and restrictions. For example, some merchants don’t accept payment in gift cards exclusively, or they may cancel the value of the card if they consider you to be a high-risk user. Once you have merchant credit, the merchant has a strong degree of control over this credit.
+Os cartões de oferta têm a desvantagem de estarem sujeitos às políticas do comerciante, que podem ter condições e restrições terríveis. Por exemplo, alguns comerciantes não aceitam pagamentos exclusivamente em cartões de oferta ou podem mesmo cancelar o valor do cartão, se o considerarem um utilizador de alto risco. Quando se tem crédito comercial, o comerciante tem um forte grau de controlo sobre esse crédito.
 
-Prepaid cards don’t allow cash withdrawals from ATMs or “peer-to-peer” payments in Venmo and similar apps.
+Os cartões pré-pagos não permitem levantamentos de dinheiro em caixas multibanco, nem pagamentos "peer-to-peer" no Venmo, e em aplicações semelhantes.
 
-Cash remains the best option for in-person purchases for most people. Gift cards can be useful for the savings they bring. Prepaid cards can be useful for places that don’t accept cash. Gift cards and prepaid cards are easier to use online than cash, and they are easier to acquire with cryptocurrencies than cash.
+Para a maioria das pessoas, o dinheiro continua a ser a melhor opção para as compras presenciais. Os cartões de oferta podem ser úteis pelas poupanças que proporcionam. Os cartões pré-pagos podem ser úteis em locais onde o dinheiro não é aceite. Os cartões de oferta e os cartões pré-pagos são mais fáceis de utilizar online do que o dinheiro, sendo mais fáceis de adquirir com criptomoedas do que com dinheiro.
 
-### Online Marketplaces
+### Marketplaces Online
 
-If you have [cryptocurrency](../cryptocurrency.md), you can purchase gift cards with an online gift card marketplace. Some of these services offer ID verification options for higher limits, but they also allow accounts with just an email address. Basic limits start at $5,000-10,000 a day for basic accounts, and significantly higher limits for ID verified accounts (if offered).
+Se tiver [criptomoedas](../cryptocurrency.md), pode comprar cartões de oferta através de um marketplace online. Alguns destes serviços oferecem opções de verificação de identidade para limites mais elevados, mas também permitem contas apenas com um endereço de e-mail. As contas básicas possuem limites que começam entre 5 mil e 10 mil dólares, sendo os limites significativamente mais elevados nas contas com identidade verificada (se disponíveis).
 
-When buying gift cards online, there is usually a slight discount. Prepaid cards are usually sold online at face value or with a fee. If you buy prepaid cards and gift cards with cryptocurrencies, you should strongly prefer to pay with Monero which provides strong privacy, more on this below. Paying for a gift card with a traceable payment method negates the benefits a gift card can provide when purchased with cash or Monero.
+Quando se compram cartões-presente online, há normalmente um ligeiro desconto. Os cartões pré-pagos são normalmente vendidos online pelo seu valor nominal ou mediante o pagamento de uma taxa. Se comprar cartões pré-pagos e cartões de oferta com criptomoedas, deverá optr por pagar com Monero, uma vez que proporciona grande privacidade. Pagar um cartão-presente com um método de pagamento rastreável, anula os benefícios que um cartão-presente pode oferecer quando comprado com dinheiro ou Monero.
 
-- [Online Gift Card Marketplaces :material-arrow-right-drop-circle:](../financial-services.md#gift-card-marketplaces)
+- [Marketplaces online de cartões-presente :material-arrow-right-drop-circle:](../financial-services.md#gift-card-marketplaces)
 
-## Virtual Cards
+## Cartões virtuais
 
-Another way to protect your information from merchants online is to use virtual, single-use cards which mask your actual banking or billing information. This is primarily useful for protecting you from merchant data breaches, less sophisticated tracking or purchase correlation by marketing agencies, and online data theft. They do **not** assist you in making a purchase completely anonymously, nor do they hide any information from the banking institution themselves. Regular financial institutions which offer virtual cards are subject to "Know Your Customer" (KYC) laws, meaning they may require your ID or other identifying information.
+Outra forma de proteger as suas informações dos comerciantes online é utilizar cartões virtuais de utilização única, que ocultam as suas informações bancárias ou de pagamento. Este método é útil para o proteger contra violações de dados de comerciantes, rastreio menos sofisticado, correlação de compras por agências de marketing e roubo de dados em linha. **Não** permitem fazer uma compra de forma completamente anónima, nem escondem as informações da própria instituição bancária. As instituições financeiras que oferecem cartões virtuais estão sujeitas à legislação "Know Your Customer" (KYC), o que significa que podem exigir o seu cartão de cidadão ou outras informações de identificação.
 
-- [Recommended Payment Masking Services :material-arrow-right-drop-circle:](../financial-services.md#payment-masking-services)
+- [Serviços recomendados de mascaramento de pagamentos :material-arrow-right-drop-circle:](../financial-services.md#payment-masking-services)
 
-These tend to be good options for recurring/subscription payments online, while prepaid gift cards are preferred for one-time transactions.
+Estes serviços tendem a ser boas opções para pagamentos recorrentes/assinaturas online, ao contrário dos cartões-presente pré-pagos, que são preferidos para transações únicas.
 
-## Criptomoeda
+## Criptomoedas
 
-Cryptocurrencies are a digital form of currency designed to work without central authorities such as a government or bank. While *some* cryptocurrency projects can allow you to make private transactions online, many use a public blockchain which does not provide any transaction privacy. Cryptocurrencies also tend to be very volatile assets, meaning their value can change rapidly and significantly at any time. As such, we generally don't recommend using cryptocurrency as a long-term store of value. If you decide to use cryptocurrency online, make sure you have a full understanding of its privacy aspects beforehand, and only invest amounts which would not be disastrous to lose.
+As criptomoedas são uma forma digital de moeda concebida para funcionar sem autoridades centrais, como um governo ou um banco. Enquanto *alguns* projetos de criptomoeda podem permitir transações online com privacidade, muitos deles utilizam uma blockchain pública que não proporciona qualquer privacidade nas transações. As criptomoedas também tendem a ser ativos muito voláteis, o que significa que o seu valor pode mudar rápida e significativamente a qualquer momento. Como tal, não recomendamos a utilização de criptomoeda como uma reserva de valor a longo prazo. Se decidir utilizar criptomoedas online, certifique-se de que conhece previamente todos os aspetos da sua política de privacidade e invista apenas em montantes que não signifiquem uma perda avultada.
 
-!!! Isto permite-nos fornecer recomendações completamente objectivas.</strong> Desenvolvemos um conjunto claro de requisitos para qualquer provedor de VPN que deseje ser recomendado, incluindo criptografia forte, auditorias de segurança independentes, tecnologia moderna, e muito mais.
+!!! perigo
 
-    The vast majority of cryptocurrencies operate on a **public** blockchain, meaning that every transaction is public knowledge. This includes even most well-known cryptocurrencies like Bitcoin and Ethereum. Transactions with these cryptocurrencies should not be considered private and will not protect your anonymity.
+    A grande maioria das criptomoedas opera numa blockchain **pública**, o que significa que todas as transações são do conhecimento público. Isto inclui até as criptomoedas mais conhecidas, como a Bitcoin e a Ethereum. As transações com estas criptomoedas não garantem privacidade, não protegendo o anonimato.
     
-    Additionally, many if not most cryptocurrencies are scams. Make transactions carefully with only projects you trust.
+    Além disso, muitas das criptomoedas, se não a maioria, são burlas. Faça transações com cuidado, escolhendo apenas projetos em que confia.
 
-### Privacy Coins
+### Moedas orientadas para a privacidade
 
-There are a number of cryptocurrency projects which purport to provide privacy by making transactions anonymous. We recommend using one which provides transaction anonymity **by default** to avoid operational errors.
+Há uma série de projetos de criptomoeda que pretendem proporcionar privacidade, tornando as transações anónimas. Recomendamos a utilização de uma que proporcione o anonimato da transação **por defeito**, para evitar erros operacionais.
 
-- [Recommended Cryptocurrency :material-arrow-right-drop-circle:](../cryptocurrency.md#coins)
+- [Criptomoedas recomendadas :material-arrow-right-drop-circle:](../cryptocurrency.md#coins)
 
-Privacy coins have been subject to increasing scrutiny by government agencies. In 2020, [the IRS published a $625,000 bounty](https://www.forbes.com/sites/kellyphillipserb/2020/09/14/irs-will-pay-up-to-625000-if-you-can-crack-monero-other-privacy-coins/?sh=2e9808a085cc) for tools which can break Bitcoin Lightning Network and/or Monero's transaction privacy. They ultimately [paid two companies](https://sam.gov/opp/5ab94eae1a8d422e88945b64181c6018/view) (Chainalysis and Integra Fec) a combined $1.25 million for tools which purport to do so (it is unknown which cryptocurrency network these tools target). Due to the secrecy surrounding tools like these, ==none of these methods of tracing cryptocurrencies have been independently confirmed.== However, it is quite likely that tools which assist targeted investigations into private coin transactions exist, and that privacy coins only succeed in thwarting mass surveillance.
+As moedas que pretendem garantir privacidade têm sido objeto de um controlo crescente por parte das agências governamentais. Em 2020, [o IRS publicou uma recompensa de 625 mil dólares](https://www.forbes.com/sites/kellyphillipserb/2020/09/14/irs-will-pay-up-to-625000-if-you-can-crack-monero-other-privacy-coins/?sh=2e9808a085cc) para quem desenvolvesse ferramentas capazes de quebrar a Bitcoin Lightning Network e/ou a privacidade das transações do Monero. Acabaram [por pagar a duas empresas, a ](https://sam.gov/opp/5ab94eae1a8d422e88945b64181c6018/view) (Chainalysis e a Integra Fec), um total de 1,25 milhões de dólares por ferramentas que supostamente o fazem (desconhece-se qual a rede de criptomoedas visada por estas ferramentas). Há muito secretismo a rodear ferramentas como estas, ==nenhum destes métodos de rastreio de criptomoedas foi confirmado de forma independente.== No entanto, é bastante provável que existam ferramentas que ajudem investigações relacionadas com transações de criptomoedas orientadas para a privacidade, o que deixa espaço para que estas apenas consigam impedir a vigilância em massa.
 
-### Other Coins (Bitcoin, Ethereum, etc.)
+### Outras moedas (Bitcoin, Ethereum, etc.)
 
-The vast majority of cryptocurrency projects use a public blockchain, meaning that all transactions are both easily traceable and permanent. As such, we strongly discourage the use of most cryptocurrency for privacy-related reasons.
+A grande maioria dos projetos de criptomoeda utiliza uma blockchain pública, o que significa que todas as transações são facilmente rastreáveis e permanentes. Como tal, desaconselhamos vivamente a utilização da maioria das criptomoedas por motivos relacionados com a privacidade.
 
-Anonymous transactions on a public blockchain are *theoretically* possible, and the Bitcoin wiki [gives one example of a "completely anonymous" transaction](https://en.bitcoin.it/wiki/Privacy#Example_-_A_perfectly_private_donation). However, doing so requires a complicated setup involving Tor and "solo-mining" a block to generate completely independent cryptocurrency, a practice which has not been practical for nearly any enthusiast for many years.
+As transações anónimas numa blockchain pública são *teoricamente* possíveis, e a wiki da Bitcoin [dá um exemplo de uma transação "completamente anónima"](https://en.bitcoin.it/wiki/Privacy#Example_-_A_perfectly_private_donation). No entanto, isso requer uma configuração complicada que envolve o Tor e a "mineração solitária" de um bloco para gerar criptomoeda completamente independente, uma prática que, durante todos estes anos, não se tem revelado conveniente para quase nenhum entusiasta.
 
-==Your best option is to avoid these cryptocurrencies entirely and stick with one which provides privacy by default.== Attempting to use other cryptocurrency is outside the scope of this site and strongly discouraged.
+==A sua melhor opção é evitar estas criptomoedas por completo e ficar com uma que forneça privacidade por defeito.== Tentar usar outras criptomoedas está fora do âmbito deste site e é fortemente desencorajado.
 
-### Wallet Custody
+### Custódia da carteira
 
-With cryptocurrency there are two forms of wallets: custodial wallets and noncustodial wallets. Custodial wallets are operated by centralized companies/exchanges, where the private key for your wallet is held by that company, and you can access them anywhere typically with a regular username and password. Noncustodial wallets are wallets where you control and manage the private keys to access it. Assuming you keep your wallet's private keys secured and backed up, noncustodial wallets provide greater security and censorship-resistance over custodial wallets, because your cryptocurrency can't be stolen or frozen by a company with custody over your private keys. Key custody is especially important when it comes to privacy coins: Custodial wallets grant the operating company the ability to view your transactions, negating the privacy benefits of those cryptocurrencies.
+Nas criptomoedas, existem duas formas de carteiras: carteiras com custódia e carteiras sem custódia. As carteiras com custódia são operadas por empresas/casas de câmbio centralizadas, onde a chave privada da sua carteira é mantida por essa empresa, e pode aceder a ela em qualquer lugar, normalmente com um nome de utilizador e uma palavra-passe. As carteiras sem custódia são carteiras em que o utilizador controla e gere as chaves privadas de acesso. Partindo do princípio que mantém as chaves privadas da sua carteira seguras e com cópias de segurança, as carteiras sem custódia oferecem maior segurança e resistência à censura do que as carteiras com custódia, porque a sua criptomoeda não pode ser roubada ou congelada por uma empresa que tenha a custódia das suas chaves privadas. A custódia de chaves é especialmente importante quando se trata de moedas orientadas para a privacidade: As carteiras de custódia concedem à empresa operadora a capacidade de ver as suas transações, negando os benefícios de privacidade dessas criptomoedas.
 
-### Acquisition
+### Aquisição
 
-Acquiring [cryptocurrencies](../cryptocurrency.md) like Monero privately can be difficult. P2P marketplaces like [LocalMonero](https://localmonero.co/), a platform which facilitates trades between people, are one option that can be used. If using an exchange which requires KYC is an acceptable risk for you as long as subsequent transactions can't be traced, a much easier option is to purchase Monero on an exchange like [Kraken](https://kraken.com/), or purchase Bitcoin/Litecoin from a KYC exchange which can then be swapped for Monero. Then, you can withdraw the purchased Monero to your own noncustodial wallet to use privately from that point forward.
+Comprar com privacidade [criptomoedas](../cryptocurrency.md) como o Monero pode ser difícil. Mercados P2P como o [LocalMonero](https://localmonero.co/), uma plataforma que facilita as transações entre pessoas, são uma opção a considerar. Se a utilização de uma casa de câmbio que exija KYC for um risco aceitável para si, desde que as transações subsequentes não possam ser rastreadas, uma opção muito mais fácil será comprar Monero numa casa de câmbio como a [Kraken](https://kraken.com/), ou comprar Bitcoin/Litecoin numa casa de câmbio KYC que pode depois ser trocada por Monero. Depois, pode retirar o Monero comprado para a sua própria carteira sem custódia para o utilizar com privacidade a partir desse momento.
 
-If you go this route, make sure to purchase Monero at different times and in different amounts than where you will spend it. If you purchase $5000 of Monero at an exchange and make a $5000 purchase in Monero an hour later, those actions could potentially be correlated by an outside observer regardless of which path the Monero took. Staggering purchases and purchasing larger amounts of Monero in advance to later spend on multiple smaller transactions can avoid this pitfall.
+Se optar por esta via, certifique-se de que compra Monero em alturas diferentes das que vão ser utilizadas para o gastar, bem como em montantes diferentes. Se comprar 5 mil dólares de Monero numa casa de câmbio e fizer uma compra de 5 mil euros em Monero uma hora mais tarde, esse comportamento pode ser potencialmente correlacionado por um observador externo, independentemente do caminho que o Monero tomou. O escalonamento das compras e a compra antecipada de grandes quantidades de Monero para depois gastar em várias transações mais pequenas pode evitar esta armadilha.
 
-## Additional Considerations
+## Considerações adicionais
 
-When you're making a payment in-person with cash, make sure to keep your in-person privacy in mind. Security cameras are ubiquitous. Consider wearing non-distinct clothing and a face mask (such as a surgical mask or N95). Don’t sign up for rewards programs or provide any other information about yourself.
+Quando efetuar um pagamento presencial com dinheiro, não se esqueça de ter em conta a sua privacidade presencial. As câmaras de segurança são omnipresentes. Por esse motivo, considerar o uso de vestuário não distinto e de uma máscara facial (por exemplo, uma máscara cirúrgica ou N95) pode ser uma escolha prudente. Não se inscreva em programas de prémios nem forneça quaisquer outras informações sobre si.
 
-When purchasing online, ideally you should do so over [Tor](tor-overview.md). However, many merchants don’t allow purchases with Tor. You can consider using a [recommended VPN](../vpn.md) (paid for with cash, gift card, or Monero), or making the purchase from a coffee shop or library with free Wi-Fi. If you are ordering a physical item that needs to be delivered, you will need to provide a delivery address. You should consider using a PO box, private mailbox, or work address.
+Ao comprar online, o ideal é fazê-lo através do browser [Tor](tor-overview.md). No entanto, muitos comerciantes não permitem compras com o Tor. Pode considerar a utilização de uma [VPN recomendada](../vpn.md) (paga com dinheiro, cartão de oferta ou Monero), ou efetuar a compra num café ou biblioteca com Wi-Fi gratuito. Se estiver a encomendar um artigo físico que tenha de ser entregue, terá de indicar um endereço de entrega. Deve considerar a utilização de uma caixa postal, de uma caixa de correio privada ou de um endereço profissional.

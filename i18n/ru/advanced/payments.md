@@ -35,21 +35,21 @@ icon: material/hand-coin
 
 ## Виртуальные карты
 
-Another way to protect your information from merchants online is to use virtual, single-use cards which mask your actual banking or billing information. This is primarily useful for protecting you from merchant data breaches, less sophisticated tracking or purchase correlation by marketing agencies, and online data theft. They do **not** assist you in making a purchase completely anonymously, nor do they hide any information from the banking institution themselves. Regular financial institutions which offer virtual cards are subject to "Know Your Customer" (KYC) laws, meaning they may require your ID or other identifying information.
+Еще один способ защитить свою информацию от продавцов в интернете - использовать виртуальные, одноразовые карты, которые маскируют вашу реальную банковскую или платежную информацию. В первую очередь это полезно для защиты от утечки данных продавцов, против простого отслеживания или корреляции покупок маркетинговыми агентствами, а также от кражи данных в интернете. Они **не** помогают вам совершить покупку полностью анонимно и не скрывают никакой информации от самого банковского учреждения. Обычные финансовые учреждения, предлагающие виртуальные карты, подчиняются законам "Знай своего клиента" (KYC), что означает, что они могут потребовать ваше удостоверение личности или другую идентифицирующую информацию.
 
-- [Recommended Payment Masking Services :material-arrow-right-drop-circle:](../financial-services.md#payment-masking-services)
+- [Рекомендуемые сервисы маскировки платежей :material-arrow-right-drop-circle:](../financial-services.md#payment-masking-services)
 
-These tend to be good options for recurring/subscription payments online, while prepaid gift cards are preferred for one-time transactions.
+Это, как правило, хорошие варианты для периодических/подписных платежей в интернете, в то время как предоплаченные подарочные карты предпочтительнее для разовых операций.
 
 ## Криптовалюта
 
-Cryptocurrencies are a digital form of currency designed to work without central authorities such as a government or bank. While *some* cryptocurrency projects can allow you to make private transactions online, many use a public blockchain which does not provide any transaction privacy. Cryptocurrencies also tend to be very volatile assets, meaning their value can change rapidly and significantly at any time. As such, we generally don't recommend using cryptocurrency as a long-term store of value. If you decide to use cryptocurrency online, make sure you have a full understanding of its privacy aspects beforehand, and only invest amounts which would not be disastrous to lose.
+Криптовалюты - это цифровая форма валюты, разработанная для работы без центральных органов власти, таких как правительство или банк. Хотя *некоторые* криптовалютные проекты могут позволить вам совершать приватные транзакции онлайн, многие из них используют публичный блокчейн, который не обеспечивает конфиденциальности транзакций. Криптовалюты также имеют тенденцию быть очень волатильными активами, то есть их стоимость может быстро и значительно измениться в любой момент. Поэтому мы обычно не рекомендуем использовать криптовалюту в качестве долгосрочного хранилища финансов. Если вы решили использовать криптовалюту для онлайн-платежей, убедитесь, что вы заранее полностью изучили аспекты ее конфиденциальности, и вкладывайте только те суммы, потеря которых не будет катастрофической.
 
 !!! danger "Опасность"
 
-    The vast majority of cryptocurrencies operate on a **public** blockchain, meaning that every transaction is public knowledge. This includes even most well-known cryptocurrencies like Bitcoin and Ethereum. Transactions with these cryptocurrencies should not be considered private and will not protect your anonymity.
+    Подавляющее большинство криптовалют работает на **публичном** блокчейне, что означает, что каждая транзакция является общеизвестной. Это касается даже самых известных криптовалют, таких как Bitcoin и Ethereum. Операции с этими криптовалютами не должны считаться приватными и они не защитят вашу анонимность.
     
-    Additionally, many if not most cryptocurrencies are scams. Make transactions carefully with only projects you trust.
+    Кроме того, многие, если не большинство криптовалют, являются скамом. Осуществляйте транзакции осторожно, используя только те проекты, которым вы доверяете.
 
 ### Конфиденциальные монеты
 

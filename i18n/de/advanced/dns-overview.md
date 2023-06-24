@@ -1,24 +1,24 @@
 ---
-title: "DNS Overview"
+title: "DNS Übersicht"
 icon: material/dns
-description: The Domain Name System is the "phonebook of the internet," helping your browser find the website it's looking for.
+description: Das Domain Name System ist das "Telefonbuch des Internets" und hilft dem Browser, die gesuchte Webseite zu finden.
 ---
 
-The [Domain Name System](https://en.wikipedia.org/wiki/Domain_Name_System) is the 'phonebook of the Internet'. DNS translates domain names to IP addresses so browsers and other services can load Internet resources, through a decentralized network of servers.
+Das [Domain Name System](https://de.wikipedia.org/wiki/Domain_Name_System) ist das "Telefonbuch des Internets". DNS übersetzt Domainnamen in IP-Adressen, damit Browser und andere Dienste Internet-Ressourcen über ein dezentrales Netz von Servern laden können.
 
-## What is DNS?
+## Was ist DNS?
 
-When you visit a website, a numerical address is returned. For example, when you visit `privacyguides.org`, the address `192.98.54.105` is returned.
+Wenn du eine Website besuchst, wird eine numerische Adresse zurückgegeben. Wenn du zum Beispiel `privacyguides.org` besuchst, wird die Adresse `192.98.54.105` zurückgegeben.
 
-DNS has existed since the [early days](https://en.wikipedia.org/wiki/Domain_Name_System#History) of the Internet. DNS requests made to and from DNS servers are **not** generally encrypted. In a residential setting, a customer is given servers by the ISP via [DHCP](https://en.wikipedia.org/wiki/Dynamic_Host_Configuration_Protocol).
+DNS gibt es schon seit den [Anfängen des Internets](https://de.wikipedia.org/wiki/Domain_Name_System#%C3%9Cberblick). DNS-Anfragen an und von DNS-Servern werden im Allgemeinen **nicht** verschlüsselt. In einer privaten Umgebung erhält der Kunde die Server vom Internetanbieter über [DHCP](https://de.wikipedia.org/wiki/Dynamic_Host_Configuration_Protocol).
 
-Unencrypted DNS requests are able to be easily **surveilled** and **modified** in transit. In some parts of the world, ISPs are ordered to do primitive [DNS filtering](https://en.wikipedia.org/wiki/DNS_blocking). When you request the IP address of a domain that is blocked, the server may not respond or may respond with a different IP address. As the DNS protocol is not encrypted, the ISP (or any network operator) can use [DPI](https://en.wikipedia.org/wiki/Deep_packet_inspection) to monitor requests. ISPs can also block requests based on common characteristics, regardless of which DNS server is used. Unencrypted DNS always uses [port](https://en.wikipedia.org/wiki/Port_(computer_networking)) 53 and always uses UDP.
+Unverschlüsselte DNS-Anfragen können während der Übertragung leicht **überwacht** und **verändert** werden. In some parts of the world, ISPs are ordered to do primitive [DNS filtering](https://en.wikipedia.org/wiki/DNS_blocking). Wenn du die IP-Adresse einer gesperrten Domain anforderst, kann es sein, dass der Server nicht oder mit einer anderen IP-Adresse antwortet. Da das DNS-Protokoll nicht verschlüsselt ist, kann der Internetanbieter (oder jeder andere Netzbetreiber) [DPI](https://de.wikipedia.org/wiki/Deep_Packet_Inspection) einsetzen, um Anfragen zu überwachen. Internetanbieter können Anfragen auch auf der Grundlage gemeinsamer Merkmale blockieren, unabhängig davon, welcher DNS-Server verwendet wird. Beim unverschlüsselten DNS wird immer [Port](https://de.wikipedia.org/wiki/Port_(Protokoll)) 53 und UDP verwendet.
 
 Below, we discuss and provide a tutorial to prove what an outside observer may see using regular unencrypted DNS and [encrypted DNS](#what-is-encrypted-dns).
 
-### Unencrypted DNS
+### Unverschlüsselter DNS
 
-1. Using [`tshark`](https://www.wireshark.org/docs/man-pages/tshark.html) (part of the [Wireshark](https://en.wikipedia.org/wiki/Wireshark) project) we can monitor and record internet packet flow. This command records packets that meet the rules specified:
+1. Mit [`tshark`](https://www.wireshark.org/docs/man-pages/tshark.html) (Teil des [Wireshark](https://de.wikipedia.org/wiki/Wireshark)-Projekts) können wir den Internet-Paketfluss überwachen und aufzeichnen. Dieser Befehl zeichnet Pakete auf, die den angegebenen Regeln entsprechen:
 
     ```bash
     tshark -w /tmp/dns.pcap udp port 53 and host 1.1.1.1 or host 8.8.8.8

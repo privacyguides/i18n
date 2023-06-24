@@ -1,125 +1,123 @@
 ---
-title: "Common Threats"
+title: "Ameaças comuns"
 icon: 'material/eye-outline'
-description: Your threat model is personal to you, but these are some of the things many visitors to this site care about.
+description: Cada utilizador tem o seu modelo de ameaça, mas estes são alguns dos aspetos que interessam a muitos visitantes deste site.
 ---
 
-Broadly speaking, we categorize our recommendations into the [threats](threat-modeling.md) or goals that apply to most people. ==You may be concerned with none, one, a few, or all of these possibilities==, and the tools and services you use depend on what your goals are. You may have specific threats outside of these categories as well, which is perfectly fine! The important part is developing an understanding of the benefits and shortcomings of the tools you choose to use, because virtually none of them will protect you from every threat.
+Em termos gerais, categorizamos as nossas recomendações no tipo de [ameaças](threat-modeling.md) ou objetivos que se aplicam à maioria das pessoas. ==Pode preocupar-se com nenhuma, uma, algumas ou todas estas possibilidades==, e as ferramentas e serviços que utiliza dependem dos seus objetivos. Também pode ter ameaças específicas fora destas categorias, o que é perfeitamente normal! O que importa realmente é que compreenda as vantagens e desvantagens das ferramentas que escolher, uma vez que praticamente nenhuma delas o protegerá de todas as ameaças.
 
-- <span class="pg-purple">:material-incognito: Anonymity</span> - Shielding your online activity from your real identity, protecting you from people who are trying to uncover *your* identity specifically.
-- <span class="pg-red">:material-target-account: Targeted Attacks</span> - Being protected from hackers or other malicious actors who are trying to gain access to *your* data or devices specifically.
-- <span class="pg-orange">:material-bug-outline: Passive Attacks</span> - Being protected from things like malware, data breaches, and other attacks that are made against many people at once.
-- <span class="pg-teal">:material-server-network: Service Providers</span> - Protecting your data from service providers (e.g. with E2EE, which renders your data unreadable to the server).
-- <span class="pg-blue">:material-eye-outline: Mass Surveillance</span> - Protection from government agencies, organizations, websites, and services which work together to track your activities.
-- <span class="pg-brown">:material-account-cash: Surveillance Capitalism</span> - Protecting yourself from big advertising networks, like Google and Facebook, as well as a myriad of other third-party data collectors.
-- <span class="pg-green">:material-account-search: Public Exposure</span> - Limiting the information about you that is accessible online—to search engines or the general public.
-- <span class="pg-blue-gray">:material-close-outline: Censorship</span> - Avoiding censored access to information or being censored yourself when speaking online.
+- <span class="pg-purple">:material-incognito: Anonimato</span> - Protege a sua atividade online da sua identidade real, protegendo-o de pessoas que estão a tentar descobrir *a sua * identidade.
+- <span class="pg-red">:material-target-account: Ataques direcionados</span> - Estar protegido contra hackers ou outros agentes maliciosos que estão a tentar obter acesso aos *seus* dados ou dispositivos.
+- <span class="pg-orange">:material-bug-outline: Ataques passivos</span> - Estar protegido contra coisas como malware, violações de dados e outros ataques que são feitos contra muitas pessoas ao mesmo tempo.
+- <span class="pg-teal">:material-server-network: Fornecedores de serviços</span> - Proteger os seus dados dos fornecedores de serviços (por exemplo, com E2EE, que torna os seus dados ilegíveis para o servidor).
+- <span class="pg-blue">:material-eye-outline: Vigilância em massa</span> - Proteção contra agências governamentais, organizações, sites e serviços que trabalham em conjunto para seguir as suas atividades.
+- <span class="pg-brown">:material-account-cash: Capitalismo de vigilância</span> - Proteger-se das grandes redes de marketing, como o Google e o Facebook, bem como de uma miríade de outros coletores de dados de terceiros.
+- <span class="pg-green">:material-account-search: Exposição pública</span> - Limitar as informações sobre si que estão acessíveis online - para motores de busca ou para o público em geral.
+- <span class="pg-blue-gray">:material-close-outline: Censura</span> - Evitar a censura ao acesso de informações ou quando nos expressamos online.
 
-Some of these threats may be more important to you than others, depending on your specific concerns. For example, a software developer with access to valuable or critical data may be primarily concerned with <span class="pg-red">:material-target-account: Targeted Attacks</span>, but they probably still want to protect their personal data from being swept up in <span class="pg-blue">:material-eye-outline: Mass Surveillance</span> programs. Similarly, many people may be primarily concerned with <span class="pg-green">:material-account-search: Public Exposure</span> of their personal data, but they should still be wary of security-focused issues, such as <span class="pg-orange">:material-bug-outline: Passive Attacks</span>—like malware affecting their devices.
+Algumas destas ameaças podem ser mais importantes para si do que outras, dependendo das suas preocupações específicas. Por exemplo, um programador de software com acesso a dados valiosos ou críticos pode estar principalmente preocupado com <span class="pg-red">:material-target-account: Ataques direcionados</span>, mas provavelmente quererá também proteger os seus dados pessoais de serem apanhados em programas de <span class="pg-blue">:material-eye-outline: Vigilância em massa</span>. Da mesma forma, muitas pessoas podem estar principalmente preocupadas com a <span class="pg-green">:material-account-search: Exposição pública</span> dos seus dados pessoais, mas podem também importar-se com questões de segurança, como <span class="pg-orange">:material-bug-outline: Ataques passivos</span>- como o malware que afeta os seus dispositivos.
 
-## Anonymity vs. Privacy
+## Anonimato vs. Privacidade
 
-<span class="pg-purple">:material-incognito: Anonymity</span>
+<span class="pg-purple">:material-incognito: Anonimato</span>
 
-Anonymity is often confused with privacy, but they're distinct concepts. While privacy is a set of choices you make about how your data is used and shared, anonymity is the complete disassociation of your online activities from your real identity.
+O anonimato é muitas vezes confundido com a privacidade, mas são conceitos distintos. Enquanto a privacidade é um conjunto de escolhas que faz sobre a forma como os seus dados são utilizados e partilhados, o anonimato é a dissociação completa das suas atividades online da sua identidade real.
 
-Whistleblowers and journalists, for example, can have a much more extreme threat model which requires total anonymity. That's not only hiding what they do, what data they have, and not getting hacked by malicious actors or governments, but also hiding who they are entirely. They will often sacrifice any kind of convenience if it means protecting their anonymity, privacy, or security, because their lives could depend on it. Most people don't need to go so far.
+Os denunciantes e os jornalistas, por exemplo, podem ter um modelo de ameaça muito mais extremo, que exige o anonimato total. Não se trata apenas de esconder o que fazem, os dados que possuem e de não serem pirateados por agentes maliciosos ou governos, mas também de esconder totalmente quem são. Muitas vezes, sacrificarão qualquer tipo de conveniência se isso significar proteger o seu anonimato, privacidade ou segurança, porque as suas vidas podem depender disso. A maioria das pessoas não precisa de ir tão longe.
 
-## Security and Privacy
+## Segurança e Privacidade
 
-<span class="pg-orange">:material-bug-outline: Passive Attacks</span>
+<span class="pg-orange">:material-bug-outline: Ataques passivos</span>
 
-Security and privacy are also often confused, because you need security to obtain any semblance of privacy: Using tools—even if they're private by design—is futile if they could be easily exploited by attackers who later release your data. However, the inverse isn't necessarily true: The most secure service in the world *isn't necessarily* private. The best example of this is trusting data to Google who, given their scale, have had few security incidents by employing industry-leading security experts to secure their infrastructure. Even though Google provides very secure services, very few people would consider their data private in Google's free consumer products (Gmail, YouTube, etc.)
+A segurança e a privacidade também são frequentemente confundidas, uma vez que é necessária segurança para obter privacidade: A utilização de ferramentas - mesmo que sejam privadas por conceção - é inútil se puderem ser facilmente exploradas por atacantes que mais tarde divulgam os seus dados. No entanto, o inverso não é necessariamente verdadeiro: o serviço mais seguro do mundo *não é necessariamente* orientado para as questões da privacidade. O melhor exemplo disto é a confiança que depositamos na Google que, embora com uma escala muito significativa, tem tido poucos incidentes de segurança, o que consegue através do concurso de especialistas em segurança líderes do setor. Embora a Google forneça serviços muito seguros, poucas pessoas consideram os seus dados protegidos contra olhares indiscretos, sobretudo nos produtos gratuitos da Google (Gmail, YouTube, etc.)
 
-When it comes to application security, we generally don't (and sometimes can't) know if the software we use is malicious, or might one day become malicious. Even with the most trustworthy developers, there's generally no guarantee that their software doesn't have a serious vulnerability that could later be exploited.
+No que diz respeito à segurança das aplicações, geralmente não sabemos (e por vezes não podemos saber) se o software que utilizamos é malicioso ou se poderá um dia tornar-se malicioso. Mesmo com os programadores mais fiáveis, geralmente não há garantia de que o seu software não tenha uma vulnerabilidade grave que possa ser explorada mais tarde.
 
-To minimize the damage that a malicious piece of software *could* do, you should employ security by compartmentalization. For example, this could come in the form of using different computers for different jobs, using virtual machines to separate different groups of related applications, or using a secure operating system with a strong focus on application sandboxing and mandatory access control.
+Para minimizar os danos que um software malicioso *pode* causar, deve utilizar a segurança por compartimentação. Essa compartimentação pode ser conseguida na forma de utilização de computadores diferentes para trabalhos diferentes, utilização de máquinas virtuais para separar diferentes grupos de aplicações relacionadas ou utilização de um sistema operativo seguro com uma forte ênfase na solução de sandbox das aplicações e no controlo de acesso obrigatório.
 
-!!! aviso
-     Backup `BitLocker-Recovery-Key.txt` em um dispositivo de armazenamento separado.
+!!! dica
 
-    Mobile operating systems generally have better application sandboxing than desktop operating systems: Apps can't obtain root access, and require permission for access to system resources.
+    Os sistemas operativos móveis têm geralmente uma melhor proteção das aplicações do que os sistemas operativos de secretária: as aplicações não podem obter acesso à raiz e necessitam de permissão para aceder aos recursos do sistema.
     
-    Desktop operating systems generally lag behind on proper sandboxing. ChromeOS has similar sandboxing capabilities to Android, and macOS has full system permission control (and developers can opt-in to sandboxing for applications). However, these operating systems do transmit identifying information to their respective OEMs. Linux tends to not submit information to system vendors, but it has poor protection against exploits and malicious apps. This can be mitigated somewhat with specialized distributions which make significant use of virtual machines or containers, such as [Qubes OS](../../desktop/#qubes-os).
+    Os sistemas operativos para desktop deixam a desejar no que diz respeito a uma adequada proteção. O ChromeOS tem capacidades de sandbox semelhantes às do Android e o macOS tem controlo total das permissões do sistema (e os programadores podem optar pela sandbox para as aplicações). No entanto, estes sistemas operativos transmitem informações de identificação aos respectivos OEMs. O Linux tende a não enviar informações aos fornecedores de sistemas, mas tem uma fraca proteção contra exploits e aplicações maliciosas. Isto pode ser mitigado de alguma forma com distribuições especializadas que fazem uso significativo de máquinas virtuais ou contentores, como o [Qubes OS](../../desktop/#qubes-os).
 
-<span class="pg-red">:material-target-account: Targeted Attacks</span>
+<span class="pg-red">:material-target-account: Ataques direcionados</span>
 
-Targeted attacks against a specific person are more problematic to deal with. Common attacks include sending malicious documents via email, exploiting vulnerabilities (e.g. in browsers and operating systems), and physical attacks. If this is a concern for you, you should employ more advanced threat mitigation strategies.
+Os ataques direcionados contra uma pessoa específica são mais problemáticos de tratar. Os ataques mais comuns incluem o envio de documentos maliciosos por e-mail, a exploração de vulnerabilidades (por exemplo, em navegadores e sistemas operativos) e ataques físicos. Se isto for uma preocupação para si, deve utilizar estratégias de mitigação de ameaças mais avançadas.
 
-!!! aviso
-     Backup `BitLocker-Recovery-Key.txt` em um dispositivo de armazenamento separado.
+!!! dica
 
-    By design, **web browsers**, **email clients**, and **office applications** typically run untrusted code, sent to you from third parties. Running multiple virtual machines—to separate applications like these from your host system, as well as each other—is one technique you can use to mitigate the chance of an exploit in these applications compromising the rest of your system. For example, technologies like Qubes OS or Microsoft Defender Application Guard on Windows provide convenient methods to do this.
+    Por definição, os **browsers**, os **clientes de e-mail** e as **suites de escritório** executam normalmente código não fiável, enviado por terceiros. Executar várias máquinas virtuais - para separar aplicações como estas do seu sistema anfitrião, bem como umas das outras - é uma técnica que pode utilizar para reduzir a possibilidade de uma exploração nestas aplicações poder comprometer o resto do seu sistema. Por exemplo, tecnologias como o Qubes OS ou o Microsoft Defender Application Guard no Windows fornecem métodos convenientes para o fazer.
 
-If you are concerned about **physical attacks** you should use an operating system with a secure verified boot implementation, such as Android, iOS, macOS, or [Windows (with TPM)](https://docs.microsoft.com/en-us/windows/security/information-protection/secure-the-windows-10-boot-process). You should also make sure that your drive is encrypted, and that the operating system uses a TPM or Secure [Enclave](https://support.apple.com/guide/security/secure-enclave-sec59b0b31ff/1/web/1) or [Element](https://developers.google.com/android/security/android-ready-se) to rate limit attempts to enter the encryption passphrase. You should avoid sharing your computer with people you don't trust, because most desktop operating systems don't encrypt data separately per-user.
+Se estiver preocupado com **ataques físicos** deve utilizar um sistema operativo com uma implementação de arranque seguro verificado, como o Android, iOS, macOS ou [Windows (com TPM)](https://docs.microsoft.com/en-us/windows/security/information-protection/secure-the-windows-10-boot-process). Deve também certificar-se de que a sua unidade está encriptada e que o sistema operativo utiliza um TPM, Secure [Enclave](https://support.apple.com/guide/security/secure-enclave-sec59b0b31ff/1/web/1) ou [Element](https://developers.google.com/android/security/android-ready-se) para limitar as tentativas de introdução da frase-chave de encriptação. Deve evitar partilhar o seu computador com pessoas em quem não confia, uma vez que a maioria dos sistemas operativos de computador de secretária não encripta os dados separadamente por utilizador.
 
-## Privacy From Service Providers
+## Privacidade dos prestadores de serviços
 
-<span class="pg-teal">:material-server-network: Service Providers</span>
+<span class="pg-teal">:material-server-network: Fornecedores de serviços</span>
 
-We live in a world where almost everything is connected to the internet. Our "private" messages, emails, and social interactions are typically stored on a server, somewhere. Generally, when you send someone a message it's stored on a server, and when your friend wants to read the message the server will show it to them.
+Vivemos num mundo em que quase tudo está ligado à Internet. As nossas mensagens "privadas", e-mails e interações sociais são normalmente armazenadas num servidor, em qualquer parte do mundo. Geralmente, quando envia uma mensagem a alguém, esta é armazenada num servidor e, quando o seu amigo quer ler a mensagem, o servidor mostra-a.
 
-The obvious problem with this is that the service provider (or a hacker who has compromised the server) can access your conversations whenever and however they want, without you ever knowing. This applies to many common services, like SMS messaging, Telegram, and Discord.
+Há um problema óbvio devido ao facto do fornecedor de serviços (ou um hacker que tenha comprometido o servidor) poder aceder às conversas quando e como quiser, sem que o utilizador alguma vez o saiba. Isto aplica-se a muitos serviços comuns, como as mensagens SMS, o Telegram e o Discord.
 
-Thankfully, E2EE can alleviate this issue by encrypting communications between you and your desired recipients before they are even sent to the server. The confidentiality of your messages is guaranteed, assuming the service provider doesn't have access to the private keys of either party.
+Felizmente, a E2EE pode aliviar este problema, através da encriptação das comunicações entre si e os seus destinatários, antes mesmo de serem enviadas para o servidor. A confidencialidade das suas mensagens é garantida, assumindo que o fornecedor de serviços não tem acesso às chaves privadas de nenhuma das partes.
 
-!!! note "Note on Web-based Encryption"
+!!! nota "Nota sobre a encriptação baseada na Web"
 
-    In practice, the effectiveness of different E2EE implementations varies. Applications, such as [Signal](../real-time-communication.md#signal), run natively on your device, and every copy of the application is the same across different installations. If the service provider were to introduce a [backdoor](https://en.wikipedia.org/wiki/Backdoor_(computing)) in their application—in an attempt to steal your private keys—it could later be detected with [reverse engineering](https://en.wikipedia.org/wiki/Reverse_engineering).
+    Na prática, a eficácia das diferentes implementações E2EE varia. As aplicações, como o [Signal](../real-time-communication.md#signal), são executadas nativamente no seu dispositivo e todas as cópias da aplicação são as mesmas em diferentes instalações. Se o fornecedor de serviços introduzisse um [backdoor](https://en.wikipedia.org/wiki/Backdoor_(computing)) na sua aplicação - numa tentativa de roubar as suas chaves privadas - esse facto poderia mais tarde ser detetado através de [engenharia inversa] (https://en.wikipedia.org/wiki/Reverse_engineering).
     
-    On the other hand, web-based E2EE implementations, such as Proton Mail's webmail or Bitwarden's *Web Vault*, rely on the server dynamically serving JavaScript code to the browser to handle cryptography. A malicious server can target you and send you malicious JavaScript code to steal your encryption key (and it would be extremely hard to notice). Because the server can choose to serve different web clients to different people—even if you noticed the attack—it would be incredibly hard to prove the provider's guilt.
+    Por outro lado, as implementações E2EE baseadas na Web, como o webmail do Proton Mail ou o *Web Vault* da Bitwarden, dependem do servidor que fornece dinamicamente código JavaScript ao browser para tratar da criptografia. Um servidor malicioso pode visá-lo e enviar-lhe código JavaScript malicioso para roubar a sua chave de encriptação (e seria extremamente difícil de notar). Uma vez que o servidor pode optar por servir clientes Web diferentes a pessoas diferentes - mesmo que se tenha apercebido do ataque - seria incrivelmente difícil provar a culpa do fornecedor.
     
-    Therefore, you should use native applications over web clients whenever possible.
+    Por conseguinte, sempre que possível, deve utilizar aplicações nativas em vez de clientes Web.
 
-Even with E2EE, service providers can still profile you based on **metadata**, which typically isn't protected. While the service provider can't read your messages, they can still observe important things, such as who you're talking to, how often you message them, and when you're typically active. Protection of metadata is fairly uncommon, and—if it's within your [threat model](threat-modeling.md)—you should pay close attention to the technical documentation of the software you're using to see if there's any metadata minimization or protection at all.
+Mesmo com a E2EE, os fornecedores de serviços podem ainda traçar o seu perfil com base nos **metadados**, que normalmente não estão protegidos. Embora o fornecedor de serviços não possa ler as suas mensagens, pode observar coisas importantes, como com quem está a falar, com que frequência lhes envia mensagens e quando está normalmente ativo. A proteção de metadados é bastante invulgar e, se estiver incluída no seu [modelo de ameaças](threat-modeling.md), deve prestar muita atenção à documentação técnica do software que está a utilizar, de forma a verificar se existe alguma minimização ou proteção de metadados.
 
-## Mass Surveillance Programs
+## Programas de vigilância em massa
 
-<span class="pg-blue">:material-eye-outline: Mass Surveillance</span>
+<span class="pg-blue">:material-eye-outline: Vigilância em massa</span>
 
-Mass surveillance is the intricate effort to monitor the "behavior, many activities, or information" of an entire (or substantial fraction of a) population.[^1] It often refers to government programs, such as the ones [disclosed by Edward Snowden in 2013](https://en.wikipedia.org/wiki/Global_surveillance_disclosures_(2013%E2%80%93present)). However, it can also be carried out by corporations, either on behalf of government agencies or by their own initiative.
+A vigilância em massa é o esforço intrincado para monitorizar o "comportamento, atividades ou informações" de toda uma população (ou de uma sua fração substancial).[^1] Refere-se frequentemente a programas governamentais, como os [ revelados por Edward Snowden em 2013](https://en.wikipedia.org/wiki/Global_surveillance_disclosures_(2013%E2%80%93present)). No entanto, também pode ser efetuada por empresas, quer em nome de agências governamentais, quer por sua própria iniciativa.
 
-!!! abstract "Atlas of Surveillance"
+!!! resumo "Atlas da Vigilância"
 
-    If you want to learn more about surveillance methods and how they're implemented in your city you can also take a look at the [Atlas of Surveillance](https://atlasofsurveillance.org/) by the [Electronic Frontier Foundation](https://www.eff.org/).
+    Se quiser saber mais sobre os métodos de vigilância e a forma como são aplicados na sua cidade, pode consultar o [Atlas da Vigilância] (https://atlasofsurveillance.org/) da [Electronic Frontier Foundation] (https://www.eff.org/).
     
-    In France you can take a look at the [Technolopolice website](https://technopolice.fr/villes/) maintained by the non-profit association La Quadrature du Net.
+    Em França, pode consultar o [site Technolopolice] (https://technopolice.fr/villes/), mantido pela associação sem fins lucrativos La Quadrature du Net.
 
-Governments often justify mass surveillance programs as necessary means to combat terrorism and prevent crime. However, breaching human rights, it's most often used to disproportionately target minority groups and political dissidents, among others.
+Os governos justificam frequentemente os programas de vigilância em massa como meios necessários para combater o terrorismo e prevenir a criminalidade. No entanto, e violando os direitos humanos, é mais frequentemente utilizado para atingir de forma desproporcionada grupos minoritários e dissidentes políticos, entre outros.
 
-!!! quote "ACLU: [*The Privacy Lesson of 9/11: Mass Surveillance is Not the Way Forward*](https://www.aclu.org/news/national-security/the-privacy-lesson-of-9-11-mass-surveillance-is-not-the-way-forward)"
+!!! quote "ACLU: [*A lição de privacidade do 11 de setembro: A vigilância em massa não é o caminho a seguir*](https://www.aclu.org/news/national-security/the-privacy-lesson-of-9-11-mass-surveillance-is-not-the-way-forward)"
 
-    In the face of [Edward Snowden's disclosures of government programs such as [PRISM](https://en.wikipedia.org/wiki/PRISM) and [Upstream](https://en.wikipedia.org/wiki/Upstream_collection)], intelligence officials also admitted that the NSA had for years been secretly collecting records about virtually every American’s phone calls — who’s calling whom, when those calls are made, and how long they last. This kind of information, when amassed by the NSA day after day, can reveal incredibly sensitive details about people’s lives and associations, such as whether they have called a pastor, an abortion provider, an addiction counselor, or a suicide hotline.
+    Perante [as revelações de Edward Snowden sobre programas governamentais como [PRISM](https://en.wikipedia.org/wiki/PRISM) e [Upstream](https://en.wikipedia.org/wiki/Upstream_collection)], os funcionários dos serviços secretos também admitiram que a NSA recolhia secretamente, há anos, registos sobre praticamente todas as chamadas telefónicas dos americanos - quem liga a quem, quando são feitas e quanto tempo duram. Este tipo de informação, quando recolhida pela NSA dia após dia, pode revelar pormenores incrivelmente sensíveis sobre a vida e as associações das pessoas, como por exemplo, se telefonaram a um pastor, a um fornecedor de abortos, a um conselheiro de toxicodependência ou a uma linha de apoio ao suicídio.
 
-Despite growing mass surveillance in the United States, the government has found that mass surveillance programs like Section 215 have had "little unique value" with respect to stopping actual crimes or terrorist plots, with efforts largely duplicating the FBI's own targeted surveillance programs.[^2]
+Apesar da crescente vigilância em massa nos Estados Unidos, o governo concluiu que os programas de vigilância em massa, como a Secção 215, têm tido "pouco valor único" no que diz respeito a impedir crimes reais ou conspirações terroristas, com esforços que duplicam em grande parte os programas de vigilância direcionada do próprio FBI.[^2]
 
-Online, you can be tracked via a variety of methods:
+Enquanto online, pode ser seguido através de uma variedade de métodos:
 
-- Your IP address
-- Browser cookies
-- The data you submit to websites
-- Your browser or device fingerprint
-- Payment method correlation
+- O seu endereço IP
+- Cookies do browser
+- Os dados que submete a sites
+- A impressão digital do seu browser ou dispositivo
+- Correlação dos métodos de pagamento
 
-\[This list isn't exhaustive].
+\[Esta não é uma lista exaustiva].
 
-If you're concerned about mass surveillance programs, you can use strategues like compartmentalizing your online identities, blending in with other users, or, whenever possible, simply avoiding giving out identifying information.
+Se estiver preocupado com os programas de vigilância em massa, pode utilizar estratégias como compartimentar as suas identidades online, misturar-se com outros utilizadores ou, sempre que possível, simplesmente evitar fornecer informações de identificação.
 
-<span class="pg-brown">:material-account-cash: Surveillance Capitalism</span>
+<span class="pg-brown">:material-account-cash: Capitalismo de vigilância</span>
 
-> Surveillance capitalism is an economic system centered around the capture and commodification of personal data for the core purpose of profit-making.[^3]
+> O capitalismo de vigilância é um sistema económico centrado na captura e mercantilização de dados pessoais, com o objetivo principal de gerar lucro.[^3]
 
-For many people, tracking and surveillance by private corporations is a growing concern. Pervasive ad networks, such as those operated by Google and Facebook, span the internet far beyond just the sites they control, tracking your actions along the way. Using tools like content blockers to limit network requests to their servers, and reading the privacy policies of the services you use can help you avoid many basic adversaries (although it can't completely prevent tracking).[^4]
+Para muitas pessoas, a localização e vigilância por parte de empresas privadas é uma preocupação crescente. As redes de marketing omnipresentes, como as operadas pela Google e pelo Facebook, abrangem a Internet muito para além dos sites que controlam, acompanhando todas as suas ações ao longo da sua jornada de navegação. A utilização de ferramentas tais como bloqueadores de conteúdos para limitar os pedidos de rede aos seus servidores, bem como a leitura das políticas de privacidade dos serviços que utiliza, pode ajudá-lo a evitar muitos adversários básicos (embora não possa impedir completamente o rastreio).[^4]
 
-Additionally, even companies outside of the *AdTech* or tracking industry can share your information with [data brokers](https://en.wikipedia.org/wiki/Information_broker) (such as Cambridge Analytica, Experian, or Datalogix) or other parties. You can't automatically assume your data is safe just because the service you're using doesn't fall within the typical AdTech or tracking business model. The strongest protection against corporate data collection is to encrypt or obfuscate your data whenever possible, making it difficult for different providers to correlate data with each other and build a profile on you.
+Além disso, mesmo as empresas que não pertencem à *AdTech* ou à indústria de rastreio podem partilhar as suas informações com [corretores de dados](https://en.wikipedia.org/wiki/Information_broker) (como a Cambridge Analytica, a Experian ou a Datalogix) ou outras partes. Não pode assumir que os seus dados estão seguros só porque o serviço que está a utilizar não se enquadra no modelo de negócio típico da AdTech ou do rastreio. A proteção mais forte contra a recolha de dados empresariais é encriptar ou ofuscar os seus dados sempre que possível, dificultando a correlação entre os dados de diferentes fornecedores e a criação de um perfil sobre si.
 
-## Limiting Public Information
+## Limitação da informação pública
 
-<span class="pg-green">:material-account-search: Public Exposure</span>
+<span class="pg-green">:material-account-search: Exposição pública</span>
 
-The best way to keep your data private is simply not making it public in the first place. Deleting unwanted information you find about yourself online is one of the best first steps you can take to regain your privacy.
+A melhor forma de manter os seus dados privados é simplesmente não os tornar públicos. A eliminação de informações indesejadas que encontra online é um dos melhores primeiros passos que pode dar para recuperar a sua privacidade.
 
-- [View our guide on account deletion :material-arrow-right-drop-circle:](account-deletion.md)
+- [Veja o nosso guia sobre a eliminação de contas :material-arrow-right-drop-circle:](account-deletion.md)
 
 On sites where you do share information, checking the privacy settings of your account to limit how widely that data is spread is very important. For example, enable "private mode" on your accounts if given the option: This ensures that your account isn't being indexed by search engines, and that it can't be viewed without your permission.
 

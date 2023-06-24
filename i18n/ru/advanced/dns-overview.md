@@ -262,17 +262,17 @@ DNS существует с [первых дней](https://en.wikipedia.org/wik
 
 ``` mermaid
 graph TB
-    Start[Start] --> anonymous{Trying to be<br> anonymous?}
-    anonymous--> | Yes | tor(Use Tor)
-    anonymous --> | No | censorship{Avoiding<br> censorship?}
-    censorship --> | Yes | vpnOrTor(Use<br> VPN or Tor)
-    censorship --> | No | privacy{Want privacy<br> from ISP?}
-    privacy --> | Yes | vpnOrTor
-    privacy --> | No | obnoxious{ISP makes<br> obnoxious<br> redirects?}
-    obnoxious --> | Yes | encryptedDNS(Use<br> encrypted DNS<br> with 3rd party)
-    obnoxious --> | No | ispDNS{Does ISP support<br> encrypted DNS?}
-    ispDNS --> | Yes | useISP(Use<br> encrypted DNS<br> with ISP)
-    ispDNS --> | No | nothing(Do nothing)
+    Start[Старт] --> anonymous{Пытаетесь быть <br> анонимны?}
+    censorship --> | Да | tor(используйте Tor)
+    censorship --> | Нет | censorship{Избегаете<br> цензуру?}
+    censorship --> | Да| vpnOrTor(Используйте<br> VPN или Tor)
+    censorship --> | Нет| privacy{Хотите больше приватности<br> от интернет-провайдера?}
+    privacy --> | Да | vpnOrTor
+    privacy --> | Нет | obnoxious{Интернет-провайдер <br> перенаправляет<br> ссылки?}
+    obnoxious --> | Да | encryptedDNS(Используйте<br> зашифрованный DNS<br> от других фирм)
+    obnoxious --> | Нет | ispDNS{Интернет-провайдер поддерживает<br> зашифрованный DNS?}
+    ispDNS --> | Да | useISP(Используйте<br> зашифрованный DNS<br> от интернет-провайдера)
+    ispDNS --> | Нет | nothing(Ничего не делайте)
 ```
 
 Зашифрованный DNS, предоставляемые не вашим интернет-провайдером, следует использовать только для обхода перенаправлений и обхода базовой [блокировки DNS](https://en.wikipedia.org/wiki/DNS_blocking) тогда, когда вы можете быть уверены, что это не повлечет за собой никаких последствий или вы заинтересованы в провайдере, который осуществляет элементарную фильтрацию.
@@ -287,13 +287,13 @@ graph TB
 
 Процесс подписи DNSSEC похож на процесс подписи юридического документа ручкой; этот человек подписывается уникальной подписью, которую никто другой не может создать, и судебный эксперт может посмотреть на эту подпись и убедиться, что документ был подписан именно этим человеком. Эти цифровые подписи гарантируют, что данные не были подделаны.
 
-DNSSEC реализует иерархическую политику цифровой подписи на всех уровнях DNS. For example, in the case of a `privacyguides.org` lookup, a root DNS server would sign a key for the `.org` nameserver, and the `.org` nameserver would then sign a key for `privacyguides.org`’s authoritative nameserver.
+DNSSEC реализует иерархическую политику цифровой подписи на всех уровнях DNS. Например, в случае поиска `privacyguides.org` корневой DNS-сервер подпишет ключ для сервера имен `.org`, а сервер имен `.org` затем подпишет ключ для авторитетного сервера имен от `privacyguides.org`.
 
-<small>Adapted from [DNS Security Extensions (DNSSEC) overview](https://cloud.google.com/dns/docs/dnssec) by Google and [DNSSEC: An Introduction](https://blog.cloudflare.com/dnssec-an-introduction/) by Cloudflare, both licensed under [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/).</small>
+<small>Адаптировано из [Обзор расширений безопасности DNS (DNSSEC)](https://cloud.google.com/dns/docs/dnssec) от Google и [DNSSEC: введение](https://blog.cloudflare.com/dnssec-an-introduction/) от Cloudflare, оба лицензированы под [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/).</small>
 
 ## Что такое минимизация QNAME?
 
-QNAME - это "квалифицированное имя", например `privacyguides.org`. QNAME minimisation reduces the amount of information sent from the DNS server to the [authoritative name server](https://en.wikipedia.org/wiki/Name_server#Authoritative_name_server).
+QNAME - это "квалифицированное имя", например `privacyguides.org`. Минимизация QNAME уменьшает объем информации, отправляемой с сервера DNS на [авторитетный сервер имен](https://en.wikipedia.org/wiki/Name_server#Authoritative_name_server).
 
 Вместо того чтобы отправлять весь домен `privacyguides.org`, минимизация QNAME означает, что DNS-сервер будет запрашивать все записи, которые заканчиваются на `.org`. Дальнейшее техническое описание определено в [RFC 7816](https://datatracker.ietf.org/doc/html/rfc7816).
 

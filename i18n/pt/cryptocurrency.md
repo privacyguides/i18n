@@ -11,7 +11,7 @@ Making payments online is one of the biggest challenges to privacy. These crypto
 
 !!! Isto permite-nos fornecer recomendações completamente objectivas.</strong> Desenvolvemos um conjunto claro de requisitos para qualquer provedor de VPN que deseje ser recomendado, incluindo criptografia forte, auditorias de segurança independentes, tecnologia moderna, e muito mais.
 
-    Many if not most cryptocurrency projects are scams. Make transactions carefully with only projects you trust.
+    Many if not most cryptocurrency projects are scams. Faça transações com cuidado, escolhendo apenas projetos em que confia.
 
 ## Monero
 

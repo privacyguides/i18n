@@ -23,7 +23,7 @@ description: 一般人很容易累積大量的網路服務帳戶，這裏有一�
 - Windows [憑證管理器r](https://support.microsoft.com/en-us/windows/accessing-credential-manager-1b5c916a-6a16-889f-8581-fc16e8165ac0)
 - macOS [密碼](https://support.apple.com/en-us/HT211145)
 - iOS [密碼](https://support.apple.com/en-us/HT211146)
-- Linux ， Gnome Keyring ，可以通過 [Seahorse](https://help.gnome.org/users/seahorse/stable/passwords-view.html.en) 或 [KDE Wallet Manager](https://userbase.kde.org/KDE_Wallet_Manager)訪問
+- Linux, Gnome Keyring, which can be accessed through [Seahorse](https://wiki.gnome.org/Apps/Seahorse) or [KDE Wallet Manager](https://userbase.kde.org/KDE_Wallet_Manager)
 
 ### 電子郵件
 

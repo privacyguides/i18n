@@ -1,7 +1,7 @@
 ---
 title: "Многофакторная аутентификация"
 icon: 'material/two-factor-authentication'
-description: MFA - это важнейший механизм безопасности для защиты ваших учетных записей в интернете, однако некоторые методы MFA сильнее, чем другие.
+description: МФА - это важнейший механизм безопасности для защиты ваших учетных записей в интернете, однако некоторые методы МФА сильнее, чем другие.
 ---
 
 **Многофакторная аутентификация** (**МФА**) это механизм безопасности, который требует от вас дополнительных шагов, помимо ввода логина (или электронной почты) и пароля. Самый распространенный метод - временный коды, которые вы можете получить по СМС или из приложения.
@@ -58,57 +58,57 @@ Yubico OTP - это протокол аутентификации, обычно 
 
 Существуют некоторые преимущества и недостатки использования Yubico OTP по сравнению с TOTP.
 
-The Yubico validation server is a cloud based service, and you're placing trust in Yubico that they are storing data securely and not profiling you. The public ID associated with Yubico OTP is reused on every website and could be another avenue for third-parties to profile you. Like TOTP, Yubico OTP does not provide phishing resistance.
+Сервер проверки Yubico - это облачная служба, и вы доверяете компании Yubico в том, что она надежно хранит данные и не занимается их профилированием. Публичный идентификатор, связанный с Yubico OTP, используется повторно на каждом сайте и может стать еще одной возможностью для третьих лиц составить ваш профиль. Как и TOTP, Yubico OTP не обеспечивает защиту от фишинга.
 
-If your threat model requires you to have different identities on different websites, **do not** use Yubico OTP with the same hardware security key across those websites as public ID is unique to each security key.
+Если ваша модель угроз требует наличия разных идентификаторов на разных сайтах, **не** используйте Yubico OTP с одним и тем же аппаратным ключом безопасности на этих сайтах, поскольку публичный идентификатор уникален для каждого ключа безопасности.
 
 #### FIDO (Fast IDentity Online)
 
-[FIDO](https://en.wikipedia.org/wiki/FIDO_Alliance) includes a number of standards, first there was U2F and then later [FIDO2](https://en.wikipedia.org/wiki/FIDO2_Project) which includes the web standard [WebAuthn](https://en.wikipedia.org/wiki/WebAuthn).
+[FIDO](https://en.wikipedia.org/wiki/FIDO_Alliance) включает в себя ряд стандартов, сначала был U2F, а затем [FIDO2](https://en.wikipedia.org/wiki/FIDO2_Project), который включает в себя веб-стандарт [WebAuthn](https://en.wikipedia.org/wiki/WebAuthn).
 
-U2F and FIDO2 refer to the [Client to Authenticator Protocol](https://en.wikipedia.org/wiki/Client_to_Authenticator_Protocol), which is the protocol between the security key and the computer, such as a laptop or phone. It complements WebAuthn which is the component used to authenticate with the website (the "Relying Party") you're trying to log in on.
+U2F и FIDO2 относятся к [Client to Authenticator Protocol](https://en.wikipedia.org/wiki/Client_to_Authenticator_Protocol), который представляет собой протокол между ключом безопасности и компьютером, например ноутбуком или телефоном. Он дополняет WebAuthn, который является компонентом, используемым для аутентификации на сайте ("Relying Party"), на котором вы пытаетесь залогиниться.
 
-WebAuthn is the most secure and private form of second factor authentication. While the authentication experience is similar to Yubico OTP, the key does not print out a one-time password and validate with a third-party server. Instead, it uses [public key cryptography](https://en.wikipedia.org/wiki/Public-key_cryptography) for authentication.
+WebAuthn - это наиболее безопасная и приватная форма двух-факторной аутентификации. Хотя процесс аутентификации похож на Yubico OTP, ключ не показывает одноразовый пароль и не проверяет его на стороннем сервере. Вместо этого он использует [криптографию с открытым ключом](https://en.wikipedia.org/wiki/Public-key_cryptography) для аутентификации.
 
 <figure markdown>
   ![FIDO](../assets/img/multi-factor-authentication/fido.png)
 </figure>
 
-When you create an account, the public key is sent to the service, then when you log in, the service will require you to "sign" some data with your private key. The benefit of this is that no password data is ever stored by the service, so there is nothing for an adversary to steal.
+Когда вы создаете учетную запись, открытый ключ отправляется в службу, затем, когда вы входите в систему, служба потребует от вас "подписать" некоторые данные вашим закрытым ключом. Преимуществом этого является то, что служба никогда не хранит данные пароля, поэтому злоумышленнику нечего украсть.
 
-This presentation discusses the history of password authentication, the pitfalls (such as password reuse), and discussion of FIDO2 and [WebAuthn](https://webauthn.guide) standards.
+В презентации рассматривается история парольной аутентификации, подводные камни (такие, как повторное использование пароля), а также обсуждаются стандарты FIDO2 и [WebAuthn](https://webauthn.guide).
 
 <div class="yt-embed">
-  <iframe width="560" height="315" src="https://invidious.privacyguides.net/embed/aMo4ZlWznao?local=true" title="How FIDO2 and WebAuthn Stop Account Takeovers" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+  <iframe width="560" height="315" src="https://invidious.privacyguides.net/embed/aMo4ZlWznao?local=true" title="Как FIDO2 и WebAuthn предотвращают захват аккаунтов" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 </div>
 
-FIDO2 and WebAuthn have superior security and privacy properties when compared to any MFA methods.
+FIDO2 и WebAuthn обладают превосходными свойствами безопасности и конфиденциальности по сравнению с любыми методами МФА.
 
-Typically for web services it is used with WebAuthn which is a part of the [W3C recommendations](https://en.wikipedia.org/wiki/World_Wide_Web_Consortium#W3C_recommendation_(REC)). It uses public key authentication and is more secure than shared secrets used in Yubico OTP and TOTP methods, as it includes the origin name (usually, the domain name) during authentication. Attestation is provided to protect you from phishing attacks, as it helps you to determine that you are using the authentic service and not a fake copy.
+Обычно для веб-сервисов он используется вместе с WebAuthn, который является частью [рекомендаций W3C](https://en.wikipedia.org/wiki/World_Wide_Web_Consortium#W3C_recommendation_(REC)). Он использует аутентификацию с открытым ключом и является более безопасным, чем общие секреты, используемые в методах Yubico OTP и TOTP, поскольку включает имя происхождения (обычно доменное имя) при аутентификации. Аттестация предоставляется для защиты от фишинговых атак, так как помогает определить, что вы используете оригинальный сервис, а не поддельную копию.
 
-Unlike Yubico OTP, WebAuthn does not use any public ID, so the key is **not** identifiable across different websites. It also does not use any third-party cloud server for authentication. All communication is completed between the key and the website you are logging into. FIDO also uses a counter which is incremented upon use in order to prevent session reuse and cloned keys.
+В отличие от Yubico OTP, WebAuthn не использует публичный идентификатор, поэтому ключ **не** идентифицировать на разных сайтах. Он также не использует сторонние облачные серверы для аутентификации. Все коммуникации осуществляются между ключом и веб-сайтом, на который вы заходите. FIDO также использует счетчик, который увеличивается при использовании, чтобы предотвратить повторное использование сеанса и клонирование ключей.
 
-If a website or service supports WebAuthn for the authentication, it is highly recommended that you use it over any other form of MFA.
+Если сайт или сервис поддерживает WebAuthn для аутентификации, настоятельно рекомендуется использовать его вместо любой другой формы МФА.
 
 ## Общие рекомендации
 
-We have these general recommendations:
+У нас есть следующие общие рекомендации:
 
 ### Какой метод мне выбрать?
 
-При настройке метода МФА следует помнить, что он настолько безопасен, насколько безопасен самый слабый метод аутентификации, который вы используете. This means it is important that you only use the best MFA method available. For instance, if you are already using TOTP, you should disable email and SMS MFA. If you are already using FIDO2/WebAuthn, you should not be using Yubico OTP or TOTP on your account.
+При настройке метода МФА следует помнить, что она настолько безопасна, насколько безопасен её самый слабый метод, который вы используете. Это означает, что важно использовать только лучший из доступных методов МФА. Например, если вы уже используете TOTP, вам следует отключить МФА по электронной почте и СМС. Если вы уже используете FIDO2/WebAuthn, вы не должны использовать Yubico OTP или TOTP на своем аккаунте.
 
-### Backups
+### Резервное копирование
 
 You should always have backups for your MFA method. Hardware security keys can get lost, stolen or simply stop working over time. It is recommended that you have a pair of hardware security keys with the same access to your accounts instead of just one.
 
 When using TOTP with an authenticator app, be sure to back up your recovery keys or the app itself, or copy the "shared secrets" to another instance of the app on a different phone or to an encrypted container (e.g. [VeraCrypt](../encryption.md#veracrypt)).
 
-### Initial Set Up
+### Первоначальная настройка
 
 When buying a security key, it is important that you change the default credentials, set up password protection for the key, and enable touch confirmation if your key supports it. Products such as the YubiKey have multiple interfaces with separate credentials for each one of them, so you should go over each interface and set up protection as well.
 
-### Email and SMS
+### Электронная почта и СМС
 
 If you have to use email for MFA, make sure that the email account itself is secured with a proper MFA method.
 
@@ -140,9 +140,9 @@ The command will prevent an adversary from bypassing MFA when the computer boots
 
 ### Linux
 
-!!! note
+!!! warning "Осторожно"
 
-    If the hostname of your system changes (such as due to DHCP), you would be unable to login. It is vital that you set up a proper hostname for your computer before following this guide.
+    Если имя хоста вашей системы изменится (например, из-за DHCP), вы не сможете залогиниться. It is vital that you set up a proper hostname for your computer before following this guide.
 
 The `pam_u2f` module on Linux can provide two-factor authentication for logging in on most popular Linux distributions. If you have a hardware security key that supports U2F, you can set up MFA authentication for your login. Yubico has a guide [Ubuntu Linux Login Guide - U2F](https://support.yubico.com/hc/en-us/articles/360016649099-Ubuntu-Linux-Login-Guide-U2F) which should work on any distribution. The package manager commands—such as `apt-get`—and package names may however differ. This guide does **not** apply to Qubes OS.
 

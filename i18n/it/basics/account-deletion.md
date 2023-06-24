@@ -23,7 +23,7 @@ Le piattaforme desktop spesso dispongono di un gestore di password che può aiut
 - [Gestione credenziali](https://support.microsoft.com/en-us/windows/accessing-credential-manager-1b5c916a-6a16-889f-8581-fc16e8165ac0) Windows
 - [Password ](https://support.apple.com/en-us/HT211145) macOS
 - [ Password ](https://support.apple.com/en-us/HT211146) iOS
-- Linux, GNOME Keyring, accessibile tramite [Seahorse](https://help.gnome.org/users/seahorse/stable/passwords-view.html.en) o [Gestione portafogli di KDE](https://userbase.kde.org/KDE_Wallet_Manager)
+- Linux, Gnome Keyring, accessibile tramite [Seahorse](https://wiki.gnome.org/Apps/Seahorse) o [KDE Wallet Manager](https://userbase.kde.org/KDE_Wallet_Manager)
 
 ### Email
 

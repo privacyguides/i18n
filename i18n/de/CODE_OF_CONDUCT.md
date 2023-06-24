@@ -12,13 +12,13 @@ Was wir von den Mitgliedern unserer Gemeinschaften erwarten:
 
 1. **Keine Fehlinformationen verbreiten**
 
-      Wir schaffen eine evidenzbasierte Bildungsgemeinschaft rund um Datenschutz und Informationssicherheit, keine Heimat für Verschwörungserzählungen. For example, when making a claim that a certain piece of software is malicious or that certain telemetry data is privacy invasive, explain in detail what is collected and how it collected. Claims of this nature must be backed by technical evidence.
+      Wir schaffen eine faktenbasierte Bildungsgemeinschaft rund um den Datenschutz und die Sicherheit von Informationen, keine Heimat für Verschwörungstheorien. Wenn beispielsweise behauptet wird, dass eine bestimmte Software bösartig ist oder dass bestimmte Telemetriedaten in die Privatsphäre eingreifen, muss genau erklärt werden, was gesammelt wird und wie es gesammelt wird. Behauptungen dieser Art müssen durch technische Beweise untermauert werden.
 
-1. **Don't abuse our willingness to help**
+1. **Missbrauche unsere Bereitschaft zu helfen nicht**
 
-      Unsere Community-Mitglieder sind kein kostenloser technischer Support. We are happy to help you with specific steps on your privacy journey if you are willing to put in effort on your end. We are not willing to answer endlessly repeated questions about generic computer problems you could have answered yourself with a 30-second internet search. Don't be a [help vampire](https://slash7.com/2006/12/22/vampires/).
+      Unsere Community-Mitglieder sind kein kostenloser technischer Support. Wir helfen dir gerne bei den einzelnen Schritten auf deinem Weg zur Privatsphäre, wenn du bereit bist, selbst etwas dafür zu tun. Wir sind nicht bereit, endlos wiederholte Fragen zu allgemeinen Computerproblemen zu beantworten, die mit einer 30-sekündigen Internetrecherche selbst hätten beantwortet werden können. Sei kein [Hilfsvampir](https://slash7. com/2006/12/22/vampires/).
 
-1. **Behave in a positive and constructive manner**
+1. **Positiv und konstruktiv verhalten**
 
       Examples of behavior that contributes to a positive environment for our community include:
 

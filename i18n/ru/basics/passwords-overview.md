@@ -106,6 +106,6 @@ There are many good options to choose from, both cloud-based and local. Choose o
     
     Furthermore, we do not recommend storing single-use recovery codes in your password manager. Those should be stored separately such as in an encrypted container on an offline storage device.
 
-### Backups
+### Резервное копирование
 
 You should store an [encrypted](../encryption.md) backup of your passwords on multiple storage devices or a cloud storage provider. This can help you access your passwords if something happens to your primary device or the service you are using.

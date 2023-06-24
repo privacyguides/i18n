@@ -40,20 +40,20 @@ schema:
 
 ## "ПО с открытым исходным кодом всегда безопасно" или "Проприетарное ПО более безопасно"
 
-These myths stem from a number of prejudices, but whether the source code is available and how software is licensed does not inherently affect its security in any way. ==Open-source software has the *potential* to be more secure than proprietary software, but there is absolutely no guarantee this is the case.== When you evaluate software, you should look at the reputation and security of each tool on an individual basis.
+Эти мифы проистекают из ряда предрассудков, однако доступность исходного кода и способ лицензирования программного обеспечения по своей сути никак не влияют на его безопасность. == Программное обеспечение с открытым исходным кодом имеет *потенциал* быть более безопасным, чем проприетарное программное обеспечение, но нет абсолютно никаких гарантий, что это так.== Когда вы оцениваете программное обеспечение, вы должны смотреть на репутацию и безопасность каждого инструмента в отдельности.
 
-Open-source software *can* be audited by third-parties, and is often more transparent about potential vulnerabilities than proprietary counterparts. It also allows you to review the code and disable any suspicious functionality you find yourself. However, *unless you do so*, there is no guarantee that code has ever been evaluated, especially with smaller software projects. The open development process has also sometimes been exploited to introduce new vulnerabilities into even large projects.[^1]
+Программное обеспечение с открытым исходным кодом *может* проверяться третьими сторонами, и зачастую оно более прозрачно в отношении потенциальных уязвимостей, чем проприетарные аналоги. Оно также позволяет просматривать код и отключать любые подозрительные функции, которые вы обнаружите. Однако, *если вы не сделаете этого*, нет никакой гарантии того, что код когда-либо проверялся, особенно в небольших проектах. Процесс открытой разработки также иногда использовался для внесения новых уязвимостей даже в крупные проекты.[^1]
 
-On the flip side, proprietary software is less transparent, but that doesn't imply that it's not secure. Major proprietary software projects can be audited internally and by third-party agencies, and independent security researchers can still find vulnerabilities with techniques like reverse engineering.
+С другой стороны, проприетарное программное обеспечение менее прозрачно, но это не означает, что оно небезопасно. Крупные проекты по разработке проприетарного программного обеспечения могут подвергаться внутреннему аудиту и аудиту сторонних организаций, а независимые исследователи безопасности все еще могут находить уязвимости с помощью таких методов, как реверс-инжиниринг.
 
-To avoid biased decisions, it's *vital* that you evaluate the privacy and security standards of the software you use.
+Чтобы избежать необъективных решений, *жизненно важно* оценить стандарты конфиденциальности и безопасности программного обеспечения, которое вы используете.
 
 ## "Смещение доверия может повысить уровень конфиденциальности"
 
-We talk about "shifting trust" a lot when discussing solutions like VPNs (which shift the trust you place in your ISP to the VPN provider). While this protects your browsing data from your ISP *specifically*, the VPN provider you choose still has access to your browsing data: Your data isn't completely secured from all parties. This means that:
+Мы часто говорим о "смещении доверия" при обсуждении таких решений, как VPN (смещающие доверие с интернет-провайдера на VPN-провайдера). Хотя это защищает ваши данные *конкретно* от вашего интернет-провайдера, выбранный вами VPN-провайдер все равно имеет доступ к вашим данным: ваши данные не защищены от всех сторон. Это означает, что:
 
-1. You must exercise caution when choosing a provider to shift trust to.
-2. You should still use other techniques, like E2EE, to protect your data completely. Merely distrusting one provider to trust another is not securing your data.
+1. Вы должны проявлять осторожность при выборе провайдера, которому вы будете доверять.
+2. Для полной защиты данных все же следует использовать другие методы, например E2EE. Простое недоверие к одному провайдеру для того, чтобы довериться другому, не обеспечивает безопасность ваших данных.
 
 ## "Решения, ориентированные на конфиденциальность, по своей сути являются надёжными"
 
@@ -67,28 +67,28 @@ We talk about "shifting trust" a lot when discussing solutions like VPNs (which 
 
 Поиск "лучшего" решения для себя не обязательно означает, что вам нужно безошибочное решение с десятками условий - с такими решениями часто трудно работать в реальности. Как мы уже говорили ранее, безопасность часто достигается ценой удобства. Ниже мы приводим несколько советов:
 
-1. ==Actions need to serve a particular purpose:== think about how to do what you want with the fewest actions.
-2. ==Remove human failure points:== We fail, get tired, and forget things. To maintain security, avoid relying on manual conditions and processes that you have to remember.
-3. ==Use the right level of protection for what you intend.== We often see recommendations of so-called law-enforcement or subpoena-proof solutions. These often require specialist knowledge and generally aren't what people want. There's no point in building an intricate threat model for anonymity if you can be easily de-anonymized by a simple oversight.
+1. == Действия должны служить определенной цели:== подумайте о том, как сделать то, что вы хотите, с помощью наименьшего количества действий.
+2. ==Избегание человеческого фактора:== Мы терпим неудачи, устаем и забываем. Чтобы поддерживать безопасность, не полагайтесь на ручные условия и действия, которые вы должны помнить.
+3. ==Используйте правильный уровень защиты для того, что вы задумали.== Мы часто встречаем рекомендации так называемых решений, защищенных от правоохранительных органов или судебных решений. Они часто требуют специальных знаний и, как правило, не являются тем, что нужно людям. Нет смысла строить сложную модель угроз для анонимности, если вас можно легко деанонимизировать из-за простой оплошности.
 
-So, how might this look?
+Итак, как это может выглядеть?
 
-One of the clearest threat models is one where people *know who you are* and one where they do not. There will always be situations where you must declare your legal name and there are others where you don't need to.
+Одна из самых четких моделей угроз - это модель, в которой люди *знают, кто вы*, и модель, в которой они этого не знают. Всегда будут ситуации, когда вы должны объявить свое юридическое имя, а есть такие, где это не нужно.
 
-1. **Known identity** - A known identity is used for things where you must declare your name. There are many legal documents and contracts where a legal identity is required. This could range from opening a bank account, signing a property lease, obtaining a passport, customs declarations when importing items, or otherwise dealing with your government. These things will usually lead to credentials such as credit cards, credit rating checks, account numbers, and possibly physical addresses.
+1. **Известная личность** - известная личность используется в случаях, когда необходимо объявить свое имя. Существует множество юридических документов и контрактов, где требуется удостоверение личности. Это может быть открытие банковского счета, подписание договора аренды недвижимости, получение паспорта, оформление таможенных деклараций при импорте товаров или другие действия, связанные с вашим правительством. Обычно это связано с такими учетными данными, как кредитные карты, проверка кредитного рейтинга, номера счетов и, возможно, физические адреса.
 
-    We don't suggest using a VPN or Tor for any of these things, as your identity is already known through other means.
+    Мы не рекомендуем использовать VPN или Tor для этих целей, поскольку ваша личность уже известна другими способами.
 
-    !!! tip
+    !!! tip "Совет"
    
-        When shopping online, the use of a [parcel locker](https://en.wikipedia.org/wiki/Parcel_locker) can help keep your physical address private.
+        При совершении покупок онлайн, использование [постамата] (https://ru.wikipedia.org/wiki/%D0%90%D0%B2%D1%82%D0%BE%D0%BC%D0%B0%D1%82%D0%B8%D0%B7%D0%B8%D1%80%D0%BE%D0%B2%D0%B0%D0%BD%D0%BD%D0%B0%D1%8F_%D0%BF%D0%BE%D1%87%D1%82%D0%BE%D0%B2%D0%B0%D1%8F_%D1%81%D1%82%D0%B0%D0%BD%D1%86%D0%B8%D1%8F) поможет сохранить ваш физический адрес в тайне.
 
-2. **Unknown identity** - An unknown identity could be a stable pseudonym that you regularly use. It is not anonymous because it doesn't change. If you're part of an online community, you may wish to retain a persona that others know. This pseudonym isn't anonymous because—if monitored for long enough—details about the owner can reveal further information, such as the way they write, their general knowledge about topics of interest, etc.
+2. **Неизвестная личность** - неизвестная личность может быть устойчивым псевдонимом, который вы регулярно используете. Она не анонимна, потому что не меняется. Если вы являетесь частью онлайн-сообщества, вы можете захотеть сохранить личность, которую знают другие. Этот псевдоним не является анонимным, поскольку, если достаточно долго понаблюдать, можно заметить некоторые детали, которые раскроют дополнительную информацию, такую как манера письма, общие знания по интересующим темам и т.д.
 
-    You may wish to use a VPN for this, to mask your IP address. Financial transactions are more difficult to mask: You could consider using anonymous cryptocurrencies, such as [Monero](https://www.getmonero.org/). Employing altcoin shifting may also help to disguise where your currency originated. Typically, exchanges require KYC (know your customer) to be completed before they'll allow you to exchange fiat currency into any kind of cryptocurrency. Local meet-up options may also be a solution; however, those are often more expensive and sometimes also require KYC.
+    Для этого вы можете использовать VPN, чтобы замаскировать свой IP-адрес. Финансовые операции сложнее замаскировать: вы можете рассмотреть возможность использования анонимных криптовалют, таких как [Monero](https://www.getmonero.org/). Использование альткоин-шифтинга также может помочь замаскировать место происхождения вашей валюты. Как правило, биржи требуют заполнения KYC (знай своего клиента), прежде чем они позволят вам обменять фиатную валюту на любую криптовалюту. Варианты местных встреч также могут быть решением проблемы; однако они часто более дорогие и иногда требуют KYC.
 
-3. **Anonymous identity** - Even with experience, anonymous identities are difficult to maintain over long periods of time. They should be short-term and short-lived identities which are rotated regularly.
+3. **Анонимная личность** - даже при наличии опыта анонимные личности трудно поддерживать в течение длительного времени. Это должны быть краткосрочные и недолговечные личности, которые регулярно меняются.
 
-    Using Tor can help with this. It is also worth noting that greater anonymity is possible through asynchronous communication: Real-time communication is vulnerable to analysis of typing patterns (i.e. more than a paragraph of text, distributed on a forum, via email, etc.)
+    Использование Tor может помочь в этом. Стоит также отметить, что большая анонимность возможна при асинхронном общении: общение в реальном времени уязвимо для анализа шаблонов набора текста (т.е. более чем абзац текста, распространяемый на форуме, по электронной почте и т.д.)
 
-[^1]: One notable example of this is the [2021 incident in which University of Minnesota researchers introduced three vulnerabilities into the Linux kernel development project](https://cse.umn.edu/cs/linux-incident).
+[^1]: Одним из ярких примеров этого является инцидент [2021, когда исследователи из университета Миннесоты внедрили три уязвимости в проект разработки ядра Linux](https://cse.umn.edu/cs/linux-incident).

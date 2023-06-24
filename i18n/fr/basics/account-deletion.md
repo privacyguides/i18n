@@ -23,7 +23,7 @@ Les systèmes d'exploitation aussi, disposent souvent d'un gestionnaire de mots 
 - Windows [Credential Manager](https://support.microsoft.com/fr-fr/windows/acc%C3%A8s-au-gestionnaire-d-informations-d-identification-1b5c916a-6a16-889f-8581-fc16e8165ac0)
 - macOS [Passwords](https://support.apple.com/fr-fr/HT211145)
 - iOS [Passwords](https://support.apple.com/fr-fr/HT211146)
-- Linux, Gnome Keyring, accessible par [Seahorse](https://help.gnome.org/users/seahorse/stable/passwords-view.html.fr) ou [KDE Wallet Manager](https://userbase.kde.org/KDE_Wallet_Manager).
+- Linux, Gnome Keyring, which can be accessed through [Seahorse](https://wiki.gnome.org/Apps/Seahorse) or [KDE Wallet Manager](https://userbase.kde.org/KDE_Wallet_Manager)
 
 ### Email
 

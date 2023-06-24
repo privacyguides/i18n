@@ -1,7 +1,7 @@
 ---
-title: "Обмен Файлами"
+title: "Почтовые клиенты"
 icon: material/email-open
-description: These email clients are privacy-respecting and support OpenPGP email encryption.
+description: Эти почтовые клиенты соблюдают конфиденциальность и поддерживают шифрование электронной почты OpenPGP.
 cover: email-clients.png
 ---
 
@@ -15,52 +15,56 @@ cover: email-clients.png
     
     [Real-time Communication](real-time-communication.md){ .md-button }
 
-## Cross-Platform
+## Кросс-платформенные приложения
 
 ### Thunderbird
 
 !!! recommendation
 
-    ![Thunderbird logo](assets/img/email-clients/thunderbird.svg){ align=right }
+    ![Логотип Thunderbird](assets/img/email-clients/thunderbird.svg){ align=right }
     
     **Thunderbird** - бесплатный кроссплатформенный клиент электронной почты, новостных лент и чатов (XMPP, IRC, Twitter) с открытым исходным кодом, разработанный сообществом Thunderbird, а ранее - Mozilla Foundation.
     
-    [Перейти на thunderbird.net](https://www.thunderbird.net){ .md-button .md-button--primary } [Политика конфиденциальности](https://www.mozilla.org/privacy/thunderbird){ .md-button } downloads
+    [:octicons-home-16: Домашняя страница](https://www.thunderbird.net){ .md-button .md-button--primary }
+    [:octicons-eye-16:](https://www.mozilla.org/privacy/thunderbird){ .card-link title="Политика конфиденциальности" }
+    [:octicons-info-16:](https://support.mozilla.org/products/thunderbird){ .card-link title=Документация}
+    [:octicons-code-16:](https://hg.mozilla.org/comm-central){ .card-link title="Исходный код" }
     
-        - [:fontawesome-brands-windows: Windows](https://www.thunderbird.net)
-        - [:fontawesome-brands-apple: macOS](https://www.thunderbird.net)
-        - [:fontawesome-brands-linux: Linux](https://www.thunderbird.net)
-        - [:pg-flathub: Flatpak](https://flathub.org/apps/details/org.mozilla.Thunderbird)
-        - [:fontawesome-brands-git: Исходный код](https://hg.mozilla.org/comm-central)
+    ??? downloads "Скачать"
+    
+        - [:simple-windows11: Windows](https://www.thunderbird.net)
+        - [:simple-apple: macOS](https://www.thunderbird.net)
+        - [:simple-linux: Linux](https://www.thunderbird.net)
+        - [:simple-flathub: Flathub](https://flathub.org/apps/details/org.mozilla.Thunderbird)
 
 #### Рекомендованные настройки
 
-We recommend changing some of these settings to make Thunderbird a little more private.
+Мы рекомендуем изменить некоторые из этих настроек, чтобы сделать Thunderbird более приватным.
 
-Эти параметры можно найти на странице настроек *Приватность и защита* ( ≡ → Настройки → Приватность и защита).
+Эти параметры можно найти в разделе :material-menu: → **Настройки** → **Приватность и защита**.
 
-##### Web Content
+##### Содержимое веб-сайтов
 
-- [ ] Uncheck  **Remember websites and links I've visited**
-- [ ] Uncheck  **Accept cookies from sites**
+- [ ] Убрать галочку  **Помнить посещённые мной веб-сайты и ссылки**
+- [ ] Убрать галочку  **Принимать куки с сайтов**
 
-##### Отключение телеметрии
+##### Сбор и использование данных Thunderbird
 
-- [ ] Uncheck  **Allow Thunderbird to send technical and interaction data to Mozilla**
+- [ ] Убрать галочку  **Разрешить Thunderbird отправлять технические данные и данные взаимодействия в Mozilla**
 
-#### Thunderbird-user.js (advanced)
+#### Thunderbird-user.js (продвинутый)
 
-[`thunderbird-user.js`](https://github.com/HorlogeSkynet/thunderbird-user.js), is a set of configurations options that aims to disable as many of the web-browsing features within Thunderbird as possible in order to reduce surface area and maintain privacy. Some of the changes are backported from the [Arkenfox project](https://github.com/arkenfox/user.js).
+[`thunderbird-user.js`](https://github.com/HorlogeSkynet/thunderbird-user.js), представляет собой набор конфигурации, цель которых - отключить как можно больше функций веб-браузинга в Thunderbird, чтобы уменьшить поверхность атаки и сохранить конфиденциальность. Некоторые изменения перенесены из [проекта Arkenfox](https://github.com/arkenfox/user.js).
 
-## Platform Specific
+## Конкретные платформы
 
-### Apple Mail (macOS)
+### Почта Apple (macOS)
 
 !!! recommendation
 
-    ![Apple Mail logo](assets/img/email-clients/applemail.png){ align=right }
+    ![Логотип Apple Mail](assets/img/email-clients/applemail.png){ align=right }
     
-    **Apple Mail** is included in macOS and can be extended to have OpenPGP support with [GPG Suite](encryption.md#gpg-suite), which adds the ability to send PGP-encrypted email.
+    **Почта Apple** входит в состав macOS и может быть расширен поддержкой OpenPGP с помощью [GPG Suite](encryption.md#gpg-suite), что добавляет возможность отправлять зашифрованную PGP электронную почту.
     
     [:octicons-home-16: Домашняя страница](https://support.apple.com/ru-ru/guide/mail/welcome/mac){ .md-button .md-button--primary }
     [:octicons-eye-16:](https://www.apple.com/ru/legal/privacy/ru/){ .card-link title="Политика конфиденциальности" }
@@ -72,25 +76,25 @@ We recommend changing some of these settings to make Thunderbird a little more p
 
 !!! recommendation
 
-    ![Canary Mail logo](assets/img/email-clients/canarymail.svg){ align=right }
+    ![Логотип Canary Mail](assets/img/email-clients/canarymail.svg){ align=right }
     
-    **Canary Mail** is a paid email client designed to make end-to-end encryption seamless with security features such as a biometric app lock.
+    **Canary Mail** - это платный почтовый клиент, разработанный для обеспечения сквозного шифрования с такими функциями безопасности, как биометрическая блокировка приложений.
     
-    [:octicons-home-16: Homepage](https://canarymail.io){ .md-button .md-button--primary }
-    [:octicons-eye-16:](https://canarymail.io/privacy.html){ .card-link title="Privacy Policy" }
-    [:octicons-info-16:](https://canarymail.zendesk.com/){ .card-link title=Documentation}
+    [:octicons-home-16: Домашняя страница](https://canarymail.io){ .md-button .md-button--primary }
+    [:octicons-eye-16:](https://canarymail.io/privacy.html){ .card-link title="Политика конфиденциальности" }
+    [:octicons-info-16:](https://canarymail.zendesk.com/){ .card-link title=Документация}
     
-    ??? downloads
+    ??? downloads "Скачать"
     
         - [:simple-googleplay: Google Play](https://play.google.com/store/apps/details?id=io.canarymail.android)
         - [:simple-appstore: App Store](https://apps.apple.com/app/id1236045954)
         - [:simple-windows11: Windows](https://canarymail.io/downloads.html)
 
-!!! note
+!!! warning "Осторожно"
 
-    Canary Mail only recently released a Windows and Android client, though we don't believe they are as stable as their iOS and Mac counterparts.
+    Canary Mail только недавно выпустила клиенты для Windows и Android. Мы считаем, что они не настолько стабильные, как клиенты для iOS и Mac.
 
-Canary Mail is closed-source. We recommend it due to the few choices there are for email clients on iOS that support PGP E2EE.
+Canary Mail имеет закрытый исходный код. Мы рекомендуем его из-за небольшого выбора почтовых клиентов на iOS, поддерживающих PGP E2EE.
 
 ### FairEmail (Android)
 

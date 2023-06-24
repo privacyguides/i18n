@@ -1,5 +1,5 @@
 ---
-title: Private Payments
+title: 비공개 결제 수단
 icon: material/hand-coin
 ---
 
@@ -7,27 +7,27 @@ There's a reason data about your buying habits is considered the holy grail of a
 
 ## 현금
 
-**현금**은 수 세기 동안 주된 비공개 결제 수단으로 쓰여 왔습니다. Cash has excellent privacy properties in most cases, is widely accepted in most countries, and is **fungible**, meaning it is non-unique and completely interchangable.
+**현금**은 수 세기 동안 주된 비공개 결제 수단으로 쓰여 왔습니다. 현금은 수많은 나라들에서 사용할 뿐만 아니라, 대부분의 상황에서 매우 뛰어난 프라이버시를 제공합니다. 또한, 고유하지 않아 똑같이 생긴 물건과 구별할 수 없습니다.
 
-Cash payment laws vary by country. In the United States, special disclosure is required for cash payments over $10,000 to the IRS on [Form 8300](https://www.irs.gov/businesses/small-businesses-self-employed/form-8300-and-reporting-cash-payments-of-over-10000). The receiving business is required to ID verify the payee’s name, address, occupation, date of birth, and Social Security Number or other TIN (with some exceptions). Lower limits without ID such as $3,000 or less exist for exchanges and money transmission. Cash also contains serial numbers. These are almost never tracked by merchants, but they can be used by law enforcement in targeted investigations.
+현금 결제 관련 법률은 국가마다 다릅니다. 미국의 경우에는 $10,000 이상의 현금 결제를 할 때[Form 8300](https://www.irs.gov/businesses/small-businesses-self-employed/form-8300-and-reporting-cash-payments-of-over-10000)를 이용하여 IRS에게 보고해야 합니다. 이를 받는 회사는 해당 결제를 진행하는 사람의 이름, 주소, 직업, 생년월일과 주민등록번호나 다른 TIN을 확인할 의무가 있습니다 (일부 예외 사항 제외). 환전 또는 송금과 같은 경우에는 신분증 없이 결제할 수 있는 금액이 $3,000 이하입니다. 또한, 현금에는 일렬번호가 인쇄되어 있습니다. 판매자가 일렬번호를 추적하는 일은 거의 없지만, 법 집행 기관은 수사에서 이를 사용할 수 있습니다.
 
-Despite this, it’s typically the best option.
+그럼에도 불구하고 현금은 일반적으로 가장 좋은 결제 방식입니다.
 
-## Prepaid Cards & Gift Cards
+## 선불 카드와 기프트 카드
 
-It’s relatively simple to purchase gift cards and prepaid cards at most grocery stores and convenience stores with cash. Gift cards usually don’t have a fee, though prepaid cards often do, so pay close attention to these fees and expiry dates. Some stores may ask to see your ID at checkout to reduce fraud.
+마트나 편의점에서 현금으로 기프트 카드 또는 선불 카드를 손쉽게 구매할 수 있습니다. 기프트 카드는 대부분 수수료가 없지만, 선불 카드는 있는 경우가 많습니다. 따라서 수수료와 만료일을 잘 살펴봐야 합니다. 일부 매장은 사기를 방지하기 위해 결제 시 신분증 제시를 요청할 수 있습니다.
 
-Gift cards usually have limits of up to $200 per card, but some offer limits of up to $2,000 per card. Prepaid cards (eg: from Visa or Mastercard) usually have limits of up to $1,000 per card.
+기프트 카드는 일반적으로 카드당 최대 $200이지만, 일부 기프트 카드는 카드당 $2,000까지 제공할 수 있습니다. Visa 또는 Mastercard 선불 카드는 일반적으로 카드당 최대 $1,000까지 제공할 수 있습니다.
 
-Gift cards have the downside of being subject to merchant policies, which can have terrible terms and restrictions. For example, some merchants don’t accept payment in gift cards exclusively, or they may cancel the value of the card if they consider you to be a high-risk user. Once you have merchant credit, the merchant has a strong degree of control over this credit.
+기프트 카드의 단점으로는 사용할 때 사용처의 정책이 적용된다는 점입니다. 이 정책은 매우 제한적일 수 있습니다. 예시로, 몇 판매자들은 기프트 카드로만 결제하는 것을 허용하지 않거나, 고위험군 사용자라고 판단될 경우 기프트 카드를 임의로 취소할 수 있습니다. 판매자 포인트는 해당 판매자가 강력한 제어권을 지니고 있습니다.
 
-Prepaid cards don’t allow cash withdrawals from ATMs or “peer-to-peer” payments in Venmo and similar apps.
+선불 카드는 ATM을 통한 현금 인출이나 Venmo와 같은 유사 P2P 결제 방식에서 사용할 수 없습니다.
 
-Cash remains the best option for in-person purchases for most people. Gift cards can be useful for the savings they bring. Prepaid cards can be useful for places that don’t accept cash. Gift cards and prepaid cards are easier to use online than cash, and they are easier to acquire with cryptocurrencies than cash.
+하지만 대부분의 사람들에게 현금 결제는 가장 좋은 대면 결제 방식입니다. 기프트 카드를 사용할 경우 할인을 받을 수 있다는 점에서 유용하게 쓰일 수 있습니다. 선불 카드는 현금 결제를 받지 않는 곳에서 사용할 수 있습니다. 기프트 카드와 선불 카드는 온라인에서 현금보다 더 쉽게 사용할 수 있고, 현금보다 암호화폐로 구매하기가 더 쉽습니다.
 
-### Online Marketplaces
+### 오픈 마켓
 
-If you have [cryptocurrency](../cryptocurrency.md), you can purchase gift cards with an online gift card marketplace. Some of these services offer ID verification options for higher limits, but they also allow accounts with just an email address. Basic limits start at $5,000-10,000 a day for basic accounts, and significantly higher limits for ID verified accounts (if offered).
+[암호화폐](../cryptocurrency.md)를 소지하고 있을 경우 오픈 마켓에서 기프트 카드를 구매할 수 있습니다. Some of these services offer ID verification options for higher limits, but they also allow accounts with just an email address. Basic limits start at $5,000-10,000 a day for basic accounts, and significantly higher limits for ID verified accounts (if offered).
 
 When buying gift cards online, there is usually a slight discount. Prepaid cards are usually sold online at face value or with a fee. If you buy prepaid cards and gift cards with cryptocurrencies, you should strongly prefer to pay with Monero which provides strong privacy, more on this below. Paying for a gift card with a traceable payment method negates the benefits a gift card can provide when purchased with cash or Monero.
 

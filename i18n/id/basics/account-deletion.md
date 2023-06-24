@@ -23,7 +23,7 @@ Platform desktop juga sering kali memiliki pengelola kata sandi yang dapat memba
 - Windows [Manajer Kredensial](https://support.microsoft.com/en-us/windows/accessing-credential-manager-1b5c916a-6a16-889f-8581-fc16e8165ac0)
 - macOS [Kata Sandi](https://support.apple.com/en-us/HT211145)
 - iOS [Kata Sandi](https://support.apple.com/en-us/HT211146)
-- Linux, Gnome Keyring, yang dapat diakses melalui [Seahorse](https://help.gnome.org/users/seahorse/stable/passwords-view.html.en) atau [KDE Wallet Manager](https://userbase.kde.org/KDE_Wallet_Manager)
+- Linux, Gnome Keyring, which can be accessed through [Seahorse](https://wiki.gnome.org/Apps/Seahorse) or [KDE Wallet Manager](https://userbase.kde.org/KDE_Wallet_Manager)
 
 ### Email
 
