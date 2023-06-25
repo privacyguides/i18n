@@ -1,5 +1,5 @@
 *[2FA]: 2-Faktor-Authentifizierung
-*[ADB]: Android Debug Bridge
+*[ADB]: Android Debugging Brücke
 *[AOSP]: Android Open-Source Projekt
 *[ATA]: Advanced Technology Attachment
 *[attack surface]: Die Gesamtzahl der möglichen Einstiegspunkte für einen unbefugten Zugriff auf ein System
@@ -34,7 +34,7 @@
 *[HOTP]: HMAC (Hash-based Message Authentication Code) based One-Time Password
 *[HTTPS]: sicheres Hypertext-Übertragungsprotokoll
 *[HTTP]: Hypertext-Übertragungsprotokoll
-*[hypervisor]: Computer software, firmware, or hardware that splits the resources of a CPU among multiple operating systems
+*[hypervisor]: Computer Software, -Firmware oder -Hardware welche die Ressourcen eines CPUs auf mehrere Betriebssysteme aufteilt
 *[ICCID]: Integrated Circuit Card Identifier
 *[IMAP]: Internet Message Access Protocol
 *[IMEI]: International Mobile Equipment Identity

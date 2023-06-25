@@ -117,19 +117,19 @@ Proton Mailにはデジタル遺産の機能はありません。
 
 #### :material-check:{ .pg-green } カスタムドメインとエイリアス
 
-Mailbox.org lets you use your own domain, and they support [catch-all](https://kb.mailbox.org/display/MBOKBEN/Using+catch-all+alias+with+own+domain) addresses. Mailbox.org also supports [subaddressing](https://kb.mailbox.org/display/BMBOKBEN/What+is+an+alias+and+how+do+I+use+it), which is useful if you don't want to purchase a domain.
+Mailbox.orgでは独自ドメインを使用することができ、 [キャッチオール](https://kb.mailbox.org/display/MBOKBEN/Using+catch-all+alias+with+own+domain) アドレスをサポートしています。 Mailbox.orgはドメインを購入したくない人に便利な [サブアドレス](https://kb.mailbox.org/display/BMBOKBEN/What+is+an+alias+and+how+do+I+use+it) もサポートしています。
 
 #### :material-check:{ .pg-green } プライベートな支払い方法
 
-Mailbox.org doesn't accept any cryptocurrencies as a result of their payment processor BitPay suspending operations in Germany. However, they do accept Cash by mail, cash payment to bank account, bank transfer, credit card, PayPal and couple of German-specific processors: paydirekt and Sofortüberweisung.
+Mailbox.orgは決済プロセッサBitPayがドイツでの業務を停止したために暗号通貨を受け付けていません。 しかし、郵送による現金払い、銀行口座への現金払い、銀行振込、クレジットカード、PayPal、そしてドイツ固有のプロセッサであるpaydirektとSofortüberweisungを受け付けています。
 
 #### :material-check:{ .pg-green } アカウントのセキュリティ
 
-Mailbox.org supports [two factor authentication](https://kb.mailbox.org/display/MBOKBEN/How+to+use+two-factor+authentication+-+2FA) for their webmail only. You can use either TOTP or a [YubiKey](https://en.wikipedia.org/wiki/YubiKey) via the [YubiCloud](https://www.yubico.com/products/services-software/yubicloud). Web standards such as [WebAuthn](https://en.wikipedia.org/wiki/WebAuthn) are not yet supported.
+Mailbox.orgはwebメールに限り [二要素認証](https://kb.mailbox.org/display/MBOKBEN/How+to+use+two-factor+authentication+-+2FA) をサポートしています。 [YubiCloud](https://www.yubico.com/products/services-software/yubicloud)を介して、TOTP または [YubiKey](https://en.wikipedia.org/wiki/YubiKey) のいずれかを使用することができます。 [WebAuthn](https://en.wikipedia.org/wiki/WebAuthn) などのウェブ標準はまだサポートされていません。
 
-#### :material-information-outline:{ .pg-blue } Data Security
+#### :material-information-outline:{ .pg-blue } データのセキュリティ
 
-Mailbox.org allows for encryption of incoming mail using their [encrypted mailbox](https://kb.mailbox.org/display/MBOKBEN/The+Encrypted+Mailbox). New messages that you receive will then be immediately encrypted with your public key.
+Mailbox.orgでは [encrypted mailbox](https://kb.mailbox.org/display/MBOKBEN/The+Encrypted+Mailbox) を使用して受信メールを暗号化することができます。 新しいメッセージを受信するとすぐにあなたの公開鍵で暗号化されます。
 
 However, [Open-Exchange](https://en.wikipedia.org/wiki/Open-Xchange), the software platform used by Mailbox.org, [does not support](https://kb.mailbox.org/display/BMBOKBEN/Encryption+of+calendar+and+address+book) the encryption of your address book and calendar. A [standalone option](calendar.md) may be more appropriate for that information.
 

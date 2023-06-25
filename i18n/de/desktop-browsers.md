@@ -233,34 +233,32 @@ Die Optionen von Shields können je nach Bedarf für jede Website heruntergestuf
 
 <div class="annotate" markdown>
 
-- [x] Select **Prevent sites from fingerprinting me based on my language preferences**
-- [x] Select **Aggressive** under Trackers & ads blocking
+- [x] Wähle **Verhindern, dass Websites aufgrund meiner Spracheinstellungen Fingerabdrücke von mir erstellen**
+- [x] Wähle **Aggressiv** unter Tracker & Anzeigenblockierung warnung "Verwende Standard Filterlisten"
+        Brave erlaubt es dir zusätzliche Filter unter der internen `brave://adblock` Seite zu wählen. Wir raten davon ab, diese Funktion zu verwenden; behalte stattdessen die Standard-Filterlisten bei. Die Verwendung zusätzlicher Listen hebt dich von anderen Brave-Benutzern ab und kann auch die Angriffsfläche vergrößern, wenn es eine Sicherheitslücke in Brave gibt und eine bösartige Regel zu einer der von dir verwendeten Listen hinzugefügt wird.
 
-    ??? warning "Use default filter lists"
-        Brave allows you to select additional content filters within the internal `brave://adblock` page. Wir raten davon ab, diese Funktion zu verwenden; behalte stattdessen die Standard-Filterlisten bei. Die Verwendung zusätzlicher Listen hebt dich von anderen Brave-Benutzern ab und kann auch die Angriffsfläche vergrößern, wenn es eine Sicherheitslücke in Brave gibt und eine bösartige Regel zu einer der von dir verwendeten Listen hinzugefügt wird.
-
-- [x] (Optional) Select **Block Scripts** (1)
-- [x] Select **Strict, may break sites** under Block fingerprinting
+- [x] (Optional) Wähle **JavaScript blockieren** (1)
+- [x] Wähle **Streng, könnte Websites kaputtmachen** unter Fingerprinting blockieren
 
 </div>
 
 1. Diese Option bietet eine ähnliche Funktionalität wie die erweiterten Blockierungsmodi von uBlock Origin [](https://github.com/gorhill/uBlock/wiki/Blocking-mode) oder die Erweiterung [NoScript](https://noscript.net/).
 
-##### Social media blocking
+##### Social-Media Blockierung
 
 - [ ] Deaktiviere alle Social Media Komponenten
 
-##### Privacy and security
+##### Privatsphäre und Sicherheit
 
 <div class="annotate" markdown>
 
-- [x] Select **Disable non-proxied UDP** under [WebRTC IP Handling Policy](https://support.brave.com/hc/en-us/articles/360017989132-How-do-I-change-my-Privacy-Settings-#webrtc)
-- [ ] Uncheck **Use Google services for push messaging**
-- [ ] Uncheck **Allow privacy-preserving product analytics (P3A)**
-- [ ] Uncheck **Automatically send daily usage ping to Brave**
-- [ ] Uncheck **Automatically send diagnostic reports**
-- [x] Select **Always use secure connections** in the **Security** menu
-- [ ] Uncheck **Private window with Tor** (1)
+- [x] Wähle **Nicht-proxisiertes UDP deaktivieren** unter [WebRTC-IP-Nutzungsrichtlinien](https://support.brave.com/hc/en-us/articles/360017989132-How-do-I-change-my-Privacy-Settings-#webrtc)
+- [ ] Entwähle **Nutzen Sie Google-Services für Push-Benachrichtigungen**
+- [ ] Entwähle **Erlaubt Produktanalyse, die den Datenschutz respektiert (P3A)**
+- [ ] Entwähle **Ping der täglichen Nutzung automatisch an Brave senden**
+- [ ] Entwähle **Automatisch Diagnoseberichte senden**
+- [x] Wähle **Immer sichere Verbindungen verwenden**
+- [ ] Entwähle **Privates Fenster mit Tor** (1)
 
     !!! tip "Sanitizing on Close"
 

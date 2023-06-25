@@ -58,32 +58,32 @@ description: Обзор нескольких сетевых архитектур
 
 ![Схема P2P](../assets/img/layout/network-distributed.svg){ align=left }
 
-P2P messengers connect to a [distributed network](https://en.wikipedia.org/wiki/Distributed_networking) of nodes to relay a message to the recipient without a third-party server.
+Мессенджеры P2P подключаются к [распределенной сети](https://en.wikipedia.org/wiki/Distributed_networking) узлов, чтобы передать сообщение получателю без стороннего сервера.
 
-Clients (peers) usually find each other through the use of a [distributed computing](https://en.wikipedia.org/wiki/Distributed_computing) network. Examples of this include [Distributed Hash Tables](https://en.wikipedia.org/wiki/Distributed_hash_table) (DHT), used by [torrents](https://en.wikipedia.org/wiki/BitTorrent_(protocol)) and [IPFS](https://en.wikipedia.org/wiki/InterPlanetary_File_System) for example. Another approach is proximity based networks, where a connection is established over WiFi or Bluetooth (for example, Briar or the [Scuttlebutt](https://www.scuttlebutt.nz) social network protocol).
+Клиенты (peers) обычно находят друг друга с помощью сети [распределенных вычислений](https://en.wikipedia.org/wiki/Distributed_computing). Примером могут служить [распределенные хэш-таблицы](https://en.wikipedia.org/wiki/Distributed_hash_table) (DHT), используемые, например, в [торрентах](https://en.wikipedia.org/wiki/BitTorrent_(protocol)) и [IPFS](https://en.wikipedia.org/wiki/InterPlanetary_File_System). Другой подход - сети, основанные на отдалении пользователей, где соединение устанавливается по WiFi или Bluetooth (например, Briar или протокол социальной сети [Scuttlebutt](https://www.scuttlebutt.nz)).
 
-Once a peer has found a route to its contact via any of these methods, a direct connection between them is made. Although messages are usually encrypted, an observer can still deduce the location and identity of the sender and recipient.
+Если клиент нашел маршрут к своему контакту с помощью любого из этих методов, между ними устанавливается прямое соединение. Хотя сообщения обычно шифруются, наблюдатель все равно может определить местоположение и личность отправителя и получателя.
 
-P2P networks do not use servers, as peers communicate directly between each other and hence cannot be self-hosted. However, some additional services may rely on centralized servers, such as user discovery or relaying offline messages, which can benefit from self-hosting.
+В сетях P2P не используются серверы, так как пиры общаются непосредственно между собой. Однако некоторые сервисы могут зависеть от централизованных серверов, например, обнаружение пользователей или ретрансляция автономных сообщений, которые могут выиграть от самостоятельного хостинга.
 
 **Преимущества:**
 
-- Minimal information is exposed to third-parties.
-- Modern P2P platforms implement E2EE by default. There are no servers that could potentially intercept and decrypt your transmissions, unlike centralized and federated models.
+- Минимальная информация передается третьим лицам.
+- Современные платформы P2P реализуют E2EE по умолчанию. В отличие от централизованных и федеративных моделей, здесь нет серверов, которые могли бы перехватывать и расшифровывать ваши передачи.
 
 **Недостатки:**
 
-- Reduced feature set:
-- Messages can only be sent when both peers are online, however, your client may store messages locally to wait for the contact to return online.
-- Generally increases battery usage on mobile devices, because the client must stay connected to the distributed network to learn about who is online.
-- Some common messenger features may not be implemented or incompletely, such as message deletion.
-- Your IP address and that of the contacts you're communicating with may be exposed if you do not use the software in conjunction with a [VPN](../vpn.md) or [Tor](../tor.md). Many countries have some form of mass surveillance and/or metadata retention.
+- Уменьшенный набор функций:
+- Сообщения могут быть отправлены только тогда, когда оба собеседника находятся в сети, однако ваш клиент может хранить сообщения локально, чтобы дождаться возвращения контакта в сеть.
+- Обычно увеличивается расход заряда батареи на мобильных устройствах, поскольку клиент должен оставаться подключенным к распределенной сети, чтобы узнать, кто находится в сети.
+- Некоторые распространенные функции мессенджера могут быть не реализованы или реализованы не полностью, например, удаление сообщений.
+- Ваш IP-адрес и IP-адрес контактов, с которыми вы общаетесь, могут быть раскрыты, если вы не используете программное обеспечение в сочетании с [VPN](../vpn.md) или [Tor](../tor.md). Во многих странах, в том или ином виде, существует форма массового наблюдения и/или хранения метаданных.
 
 ## Анонимная маршрутизация
 
 ![Схема анонимной маршрутизации](../assets/img/layout/network-anonymous-routing.svg){ align=left }
 
-A messenger using [anonymous routing](https://doi.org/10.1007/978-1-4419-5906-5_628) hides either the identity of the sender, the receiver, or evidence that they have been communicating. Ideally, a messenger should hide all three.
+Мессенджер, использующий [анонимную маршрутизацию](https://doi.org/10.1007/978-1-4419-5906-5_628), скрывает либо личность отправителя/получателя, либо доказательства того, что они общаются. Ideally, a messenger should hide all three.
 
 There are [many](https://doi.org/10.1145/3182658) different ways to implement anonymous routing. One of the most famous is [onion routing](https://en.wikipedia.org/wiki/Onion_routing) (i.e. [Tor](tor-overview.md)), which communicates encrypted messages through a virtual [overlay network](https://en.wikipedia.org/wiki/Overlay_network) that hides the location of each node as well as the recipient and sender of each message. The sender and recipient never interact directly and only meet through a secret rendezvous node so that there is no leak of IP addresses nor physical location. Nodes cannot decrypt messages, nor the final destination; only the recipient can. Each intermediary node can only decrypt a part that indicates where to send the still encrypted message next, until it arrives at the recipient who can fully decrypt it, hence the "onion layers."
 
