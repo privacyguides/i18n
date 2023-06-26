@@ -1,98 +1,98 @@
-*[2FA]: Двухфакторная аутентификация
-*[ADB]: Android Debug Bridge
+*[2ФА]: Двухфакторная аутентификация
+*[ADB]: Отладочный мост Android
 *[AOSP]: Проект с открытым исходным кодом Android
 *[ATA]: Advanced Technology Attachment
 *[площадь атаки]: Общее количество возможных точек входа для несанкционированного доступа к системе
-*[AVB]: Android Verified Boot
+*[AVB]: Проверенная загрузка Android
 *[cgroups]: Control Groups
 *[CLI]: Интерфейс командной строки
 *[CSV]: Comma-Separated Values, формат таблиц
 *[CVE]: Common Vulnerabilities and Exposures
 *[функция цифрового наследия]: Цифровое наследие относится к функциям, которые позволяют вам предоставить другим людям доступ к вашим данным после вашей смерти
-*[DNSSEC]: Domain Name System Security Extensions
-*[DNS]: Система доменных имён (Domain Name System)
+*[DNSSEC]: Модули безопасности службы доменных имен
+*[DNS]: Система доменных имен
 *[DoH]: DNS через HTTPS
 *[DoQ]: DNS через QUIC
 *[DoH3]: DNS через HTTP/3
 *[DoT]: DNS через TLS
 *[E2EE]: Сквозное шифрование
-*[ECS]: EDNS Client Subnet
-*[EEA]: European Economic Area
-*[энтропия]: A measurement of how unpredictable something is
-*[EOL]: End-of-Life
-*[Exif]: Exchangeable image file format
-*[FCM]: Firebase Cloud Messaging
-*[FDE]: Шифрование всего диска
-*[FIDO]: Fast IDentity Online
+*[ECS]: Подсеть клиента EDNS
+*[ЕЭЗ]: Европейская экономическая зона
+*[энтропия]: Показывает то, насколько непредсказуемым является что-либо
+*[EOL]: Конец поддержки
+*[Exif]: Метаданные в медиафайлах
+*[FCM]: Обмен сообщениями Firebase Cloud
+*[FDE]: Полное шифрование диска
+*[FIDO]: Быстрая идентификация онлайн
 *[форк]: Новое программное обеспечение, созданное путем модификации открытого кода существующего проекта
-*[GDPR]: Общее положение о защите данных (General Data Protection Regulation)
+*[GDPR]: Общий регламент по защите данных
 *[GPG]: GNU Privacy Guard (реализация PGP)
-*[GPS]: Глобальная система позиционирования (Global Positioning System)
+*[GPS]: Глобальная система позиционирования
 *[GUI]: Графический пользовательский интерфейс
 *[GnuPG]: GNU Privacy Guard (реализация PGP)
 *[HDD]: Жесткий диск
-*[HOTP]: HMAC (Hash-based Message Authentication Code) based One-Time Password
-*[HTTPS]: Hypertext Transfer Protocol Secure
-*[HTTP]: Hypertext Transfer Protocol
+*[HOTP]: Одноразовый пароль на основе HMAC (Hash-based Message Authentication Code)
+*[HTTPS]: Безопасный протокол передачи гипертекста
+*[HTTP]: Протокол передачи гипертекста
 *[гипервизор]: Программное обеспечение, прошивка или оборудование, которое распределяет ресурсы процессора между несколькими операционными системами
 *[ICCID]: Integrated Circuit Card Identifier
-*[IMAP]: Internet Message Access Protocol
-*[IMEI]: International Mobile Equipment Identity
+*[IMAP]: Протокол доступа к сообщениям в интернете
+*[IMEI]: Международная идентификация мобильного оборудования
 *[IMSI]: International Mobile Subscriber Identity
-*[IP]: Internet Protocol
-*[IPv4]: Интернет протокол версии 4 (Internet Protocol version 4)
-*[IPv6]: Интернет протокол версии 6 (Internet Protocol version 6)
+*[IP]: Интернет-протокол
+*[IPv4]: Интернет-протокол версии 4
+*[IPv6]: Интернет-протокол версии 6
 *[ISP]: Интернет-провайдер
 *[ISPs]: Интернет-провайдеры
-*[JNI]: Java Native Interface
+*[JNI]: Нативный интерфейс Java
 *[KYC]: Знай своего клиента (Know Your Customer)
 *[LUKS]: Шифрование всего диска Linux (Linux Unified Key Setup)
 *[MAC]: Media Access Control
 *[MDAG]: Microsoft Defender Application Guard
-*[MEID]: Mobile Equipment Identifier
-*[MFA]: Многофакторная аутентификация
+*[MEID]: Идентификатор мобильного оборудования
+*[МФА]: Многофакторная аутентификация
 *[NVMe]: Nonvolatile Memory Express
 *[NAT]: Преобразование сетевых адресов (Network address translation)
 *[NAT-PMP]: Протокол сопоставления портов NAT (NAT Port Mapping Protocol)
-*[NTP]: Network Time Protocol
-*[OCI]: Open Container Initiative
-*[OCSP]: Online Certificate Status Protocol
-*[OEM]: Original Equipment Manufacturer
-*[OEMs]: Original Equipment Manufacturers
-*[OS]: Операционная система
+*[NTP]: Сетевой протокол времени
+*[OCI]: Инициатива, которая создаёт открытые стандарты для контейнеров
+*[OCSP]: Протокол состояния сетевого сертификата
+*[OEM]: Оригинальный производитель оборудования
+*[OEMs]: Оригинальные производители оборудования
+*[ОС]: Операционная система
 *[OTP]: Одноразовый пароль (One-Time Password)
 *[OTPs]: Одноразовые пароли (One-Time Passwords)
 *[OpenPGP]: Реализация PGP с открытым исходным кодом
 *[P2P]: Peer-to-Peer
-*[PAM]: Linux Pluggable Authentication Modules
-*[POP3]: Post Office Protocol 3
+*[PAM]: Подключаемые модули аутентификации Linux
+*[POP3]: Протокол почтового отделения версии 3
 *[PGP]: Pretty Good Privacy (смотри OpenPGP)
 *[ПД]: Персональные данные
-*[QNAME]: Qualified Name
-*[rolling release]: Updates which are released frequently rather than set intervals
-*[RSS]: Really Simple Syndication
-*[SELinux]: Security-Enhanced Linux
-*[SIM]: Subscriber Identity Module
+*[QNAME]: Квалифицированное имя элемента, атрибута или идентификатора в документе XML
+*[rolling release]: Обновления, которые выходят часто, а не через определенные промежутки времени
+*[RSS]: Способ распространения лент новостей или изменений в блогах
+*[SELinux]: Linux с повышенной безопасностью
+*[SIM]: Модуль идентификации абонента
 *[СМС]: Служба коротких сообщений (стандартный обмен текстовыми сообщениями)
-*[SMTP]: Simple Mail Transfer Protocol
-*[SNI]: Server Name Indication
+*[SMTP]: Простой протокол передачи почты
+*[SNI]: Индикация имени сервера
 *[SSD]: Твердотельный накопитель
-*[SSH]: Secure Shell
+*[SSH]: Безопасная оболочка
 *[SUID]: Set Owner User ID
 *[SaaS]: Программное обеспечение как услуга (облачное программное обеспечение)
 *[SoC]: Система на кристалле (System on Chip)
-*[SSO]: Single sign-on
-*[TCP]: Transmission Control Protocol
-*[TEE]: Trusted Execution Environment
+*[SSO]: Единый вход
+*[TCP]: Протокол управления передачей данных
+*[TEE]: Доверенная среда исполнения
 *[TLS]: Протокол защиты транспортного уровня
 *[ToS]: Условия использования
 *[TOTP]: Одноразовый пароль, основанный на времени (Time-based One-Time Password)
-*[TPM]: Trusted Platform Module
+*[TPM]: Модуль доверенной платформы
 *[U2F]: Универсальный второй фактор
-*[UEFI]: Unified Extensible Firmware Interface
-*[UDP]: User Datagram Protocol
+*[UEFI]: Интерфейс между операционной системой и микропрограммами
+*[UDP]: Протокол пользовательских датаграмм
 *[VPN]: Виртуальная частная сеть
-*[VoIP]: Voice over IP (Internet Protocol)
-*[W3C]: World Wide Web Consortium
-*[XMPP]: Extensible Messaging and Presence Protocol
+*[VoIP]: Передача голоса по IP (интернет-протокол)
+*[W3C]: Консорциум всемирной паутины
+*[XMPP]: Расширяемый протокол обмена сообщениями и информацией о присутствии
 *[PWA]: Прогрессивное веб-приложение

@@ -83,21 +83,21 @@ description: Обзор нескольких сетевых архитектур
 
 ![Схема анонимной маршрутизации](../assets/img/layout/network-anonymous-routing.svg){ align=left }
 
-Мессенджер, использующий [анонимную маршрутизацию](https://doi.org/10.1007/978-1-4419-5906-5_628), скрывает либо личность отправителя/получателя, либо доказательства того, что они общаются. Ideally, a messenger should hide all three.
+Мессенджер, использующий [анонимную маршрутизацию](https://doi.org/10.1007/978-1-4419-5906-5_628), скрывает либо личность отправителя, либо личность получателя, либо доказательства того, что они общаются. В идеале, мессенджер должен скрывать все эти три составляющие.
 
-There are [many](https://doi.org/10.1145/3182658) different ways to implement anonymous routing. One of the most famous is [onion routing](https://en.wikipedia.org/wiki/Onion_routing) (i.e. [Tor](tor-overview.md)), which communicates encrypted messages through a virtual [overlay network](https://en.wikipedia.org/wiki/Overlay_network) that hides the location of each node as well as the recipient and sender of each message. The sender and recipient never interact directly and only meet through a secret rendezvous node so that there is no leak of IP addresses nor physical location. Nodes cannot decrypt messages, nor the final destination; only the recipient can. Each intermediary node can only decrypt a part that indicates where to send the still encrypted message next, until it arrives at the recipient who can fully decrypt it, hence the "onion layers."
+Существует [много](https://doi.org/10.1145/3182658) различных способов реализации анонимной маршрутизации. Одним из самых известных является [onion routing](https://en.wikipedia.org/wiki/Onion_routing) (т.е. [Tor](tor-overview.md)), который передает зашифрованные сообщения через виртуальную [оверлейную сеть](https://ru.wikipedia.org/wiki/%D0%9E%D0%B2%D0%B5%D1%80%D0%Bb%D0%B5%D0%B9%D0%Bd%D0%B0%D1%8F_%D1%81%D0%B5%D1%82%D1%8C), скрывающую местоположение каждого узла, а также получателя и отправителя каждого сообщения. Отправитель и получатель никогда не взаимодействуют напрямую и встречаются только через секретный узел рандеву(rendezvous node), так что утечки IP-адресов и физического местоположения не происходит. Узлы не могут расшифровывать сообщения, как и конечный пункт назначения; это может сделать только получатель. Каждый промежуточный узел может расшифровать только ту часть, в которой содержится информация, указывающая дальнейший путь зашифрованного сообщения. Только получатель сможет полностью расшифровать сообщение, отсюда и "луковые слои."
 
-Self-hosting a node in an anonymous routing network does not provide the hoster with additional privacy benefits, but rather contributes to the whole network's resilience against identification attacks for everyone's benefit.
+Самостоятельный хостинг узла в анонимной сети маршрутизации не дает хостеру дополнительных преимуществ в плане конфиденциальности, однако это способствует повышению устойчивости всей сети к атакам идентификации, что выгодно всем.
 
 **Преимущества:**
 
-- Minimal to no information is exposed to other parties.
-- Messages can be relayed in a decentralized manner even if one of the parties is offline.
+- Третьим лицам передаётся либо минимальная информация, либо вообще никакая.
+- Сообщения могут передаваться децентрализованно, даже если одна из сторон находится в офлайн.
 
 **Недостатки:**
 
-- Slow message propagation.
-- Often limited to fewer media types, mostly text, since the network is slow.
-- Less reliable if nodes are selected by randomized routing, some nodes may be very far from the sender and receiver, adding latency or even failing to transmit messages if one of the nodes goes offline.
-- More complex to get started, as the creation and secured backup of a cryptographic private key is required.
-- Just like other decentralized platforms, adding features is more complex for developers than on a centralized platform. Hence, features may be lacking or incompletely implemented, such as offline message relaying or message deletion.
+- Медленное распространение сообщений.
+- Часто можно отправить только текст, поскольку сеть медленная.
+- Менее надежны, если узлы выбираются методом случайной маршрутизации, некоторые узлы могут находиться очень далеко от отправителя и получателя, добавляя задержку или даже не передавая сообщения, если один из узлов выходит из сети.
+- Более сложный для начала работы, поскольку требуется создание и защищенное резервное копирование криптографического приватного ключа.
+- Как и на других децентрализованных платформах, добавление функций является более сложным для разработчиков, чем на централизованной платформе. Следовательно, могут отсутствовать или быть не полностью реализованы такие функции, как офлайн передача сообщений или удаление сообщений.

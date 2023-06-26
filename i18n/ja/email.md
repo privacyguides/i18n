@@ -131,27 +131,27 @@ Mailbox.orgはwebメールに限り [二要素認証](https://kb.mailbox.org/dis
 
 Mailbox.orgでは [encrypted mailbox](https://kb.mailbox.org/display/MBOKBEN/The+Encrypted+Mailbox) を使用して受信メールを暗号化することができます。 新しいメッセージを受信するとすぐにあなたの公開鍵で暗号化されます。
 
-However, [Open-Exchange](https://en.wikipedia.org/wiki/Open-Xchange), the software platform used by Mailbox.org, [does not support](https://kb.mailbox.org/display/BMBOKBEN/Encryption+of+calendar+and+address+book) the encryption of your address book and calendar. A [standalone option](calendar.md) may be more appropriate for that information.
+ただし、Mailbox.orgが使用しているソフトウェアプラットフォームである [Open-Exchange](https://en.wikipedia.org/wiki/Open-Xchange) はアドレス帳とカレンダーの暗号化を [サポートしていません](https://kb.mailbox.org/display/BMBOKBEN/Encryption+of+calendar+and+address+book) 。 その情報については、 [スタンドアロンオプション](calendar.md) の方が適切であるかもしれません。
 
 #### :material-check:{ .pg-green } メールの暗号化
 
-Mailbox.org has [integrated encryption](https://kb.mailbox.org/display/MBOKBEN/Send+encrypted+e-mails+with+Guard) in their webmail, which simplifies sending messages to people with public OpenPGP keys. They also allow [remote recipients to decrypt an email](https://kb.mailbox.org/display/MBOKBEN/My+recipient+does+not+use+PGP) on Mailbox.org's servers. This feature is useful when the remote recipient does not have OpenPGP and cannot decrypt a copy of the email in their own mailbox.
+Mailbox.orgはwebメールに [暗号化を組み込んで](https://kb.mailbox.org/display/MBOKBEN/Send+encrypted+e-mails+with+Guard) おり、OpenPGP公開鍵を持つ人へのメッセージ送信を簡素化します。 また、Mailbox.orgのサーバ上にある [メールをリモートの受信者が復号](https://kb.mailbox.org/display/MBOKBEN/My+recipient+does+not+use+PGP) することもできます。 この機能はリモートの受信者がOpenPGPを持っておらず、自分のメールボックスにあるメールのコピーを複合できない場合に便利です。
 
-Mailbox.org also supports the discovery of public keys via HTTP from their [Web Key Directory (WKD)](https://wiki.gnupg.org/WKD). This allows people outside of Mailbox.org to find the OpenPGP keys of Mailbox.org accounts easily, for cross-provider E2EE.
+Mailbox.orgは [Web Key Directory (WKD)](https://wiki.gnupg.org/WKD) からHTTP経由で公開鍵を発見することもサポートしています。 これにより、Mailbox.orgを使っていない人でも、Mailbox.orgアカウントのOpenPGPキーを簡単に見つけることができ、プロバイダをまたいだE2EEが可能になります。
 
 #### :material-information-outline:{ .pg-blue } アカウントの停止
 
-Your account will be set to a restricted user account when your contract ends, after [30 days it will be irrevocably deleted](https://kb.mailbox.org/en/private/payment-article/what-happens-at-the-end-of-my-contract).
+アカウントは契約が終了すると制限付きユーザアカウントに設定されます。 [30日後、取り消し不能で削除されます](https://kb.mailbox.org/en/private/payment-article/what-happens-at-the-end-of-my-contract) 。
 
-#### :material-information-outline:{ .pg-blue } Additional Functionality
+#### :material-information-outline:{ .pg-blue } 追加機能
 
-You can access your Mailbox.org account via IMAP/SMTP using their [.onion service](https://kb.mailbox.org/display/MBOKBEN/The+Tor+exit+node+of+mailbox.org). However, their webmail interface cannot be accessed via their .onion service and you may experience TLS certificate errors.
+[.onionサービス](https://kb.mailbox.org/display/MBOKBEN/The+Tor+exit+node+of+mailbox.org) を使って、IMAP/SMTP経由でMailboxl.orgアカウントにアクセスできます。 ただし .onionサービスからwebメールのインターフェイスにアクセスすることはできず、TLS証明書のエラーが発生する可能性があります。
 
-All accounts come with limited cloud storage that [can be encrypted](https://kb.mailbox.org/display/MBOKBEN/Encrypt+files+on+your+Drive). Mailbox.org also offers the alias [@secure.mailbox.org](https://kb.mailbox.org/display/MBOKBEN/Ensuring+E-Mails+are+Sent+Securely), which enforces the TLS encryption on the connection between mail servers, otherwise the message will not be sent at all. Mailbox.org also supports [Exchange ActiveSync](https://en.wikipedia.org/wiki/Exchange_ActiveSync) in addition to standard access protocols like IMAP and POP3.
+全てのアカウントには [暗号化可能](https://kb.mailbox.org/display/MBOKBEN/Encrypt+files+on+your+Drive) な限られたクラウドストレージが付属しています。 Mailbox.orgは [@secure.mailbox.org](https://kb.mailbox.org/display/MBOKBEN/Ensuring+E-Mails+are+Sent+Securely) エイリアスも提供しており、これはメールサーバ間の接続にTLS暗号化を強制し、さもなければメッセージは全く送信されません。 Mailbox.orgはIMAPやPOP3のような標準的なアクセスプロトコルに加え、 [Exchange ActiveSync](https://en.wikipedia.org/wiki/Exchange_ActiveSync) もサポートしています。
 
-Mailbox.org has a digital legacy feature for all plans. You can choose whether you want any of your data to be passed to heirs providing that they apply and provide your testament. Alternatively, you can nominate a person by name and address.
+Mailbox.orgの全てのプランにはデジタル遺産機能があります。 相続人が申請し、遺言書を提出することを条件に、自分のデータを相続人に渡すかどうかを選択することができます。 または、名前と住所で人を指名することもできます。
 
-## More Providers
+## その他のプロバイダ
 
 These providers store your emails with zero-knowledge encryption, making them great options for keeping your stored emails secure. However, they don't support interoperable encryption standards for E2EE communications between providers.
 

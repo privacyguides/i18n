@@ -41,7 +41,7 @@ cover: notebooks.png
 
     ![Notesnook logo](assets/img/notebooks/notesnook.svg){ align=right }
     
-    **Notesnook** is a free (as in speech) & open-source note-taking app focused on user privacy & ease of use. It features end-to-end encryption on all platforms with a powerful sync to take your notes on the go. You can easily import your notes from Evernote, OneNote & a lot of other apps using their [official importer](https://importer.notesnook.com/).
+    **Notesnook** 為自由 (此同言論自由之意) & 開放源代碼的筆記應用，其注重隱私 & 容易使用。 其跨平台的端對端加密具備強大的同步功能以便輕易地携帶檔案文件。 可輕鬆從 Evernote, OneNote & 及許多類似筆記應用透過其[官方滙入](https://importer.notesnook.com/) 來滙入資料。
     
     [:octicons-home-16: Homepage](https://notesnook.com/){ .md-button .md-button--primary }
     [:octicons-eye-16:](https://notesnook.com/privacy){ .card-link title="Privacy Policy" }
@@ -60,7 +60,7 @@ cover: notebooks.png
         - [:simple-firefoxbrowser: Firefox](https://notesnook.com/notesnook-web-clipper/)
         - [:simple-googlechrome: Chrome](https://chrome.google.com/webstore/detail/notesnook-web-clipper/kljhpemdlcnjohmfmkogahelkcidieaj)
 
-Notesnook does not support password/PIN protection on the web & desktop apps. However, you can still lock individual notes, and your data is always encrypted in transit and on your device using your master key.
+Notesnook 在網頁 & 與桌面應用不支援密碼/PIN 保護。 不過您仍然可以鎖住個別筆記，而資料數據在傳輸中或在設備上都會使用主密碼進行加密。
 
 ### Joplin
 
@@ -113,7 +113,7 @@ Cryptee 免費提供100MB 的儲存空間，如果需要更多容量，則另有
 
 ### Org-mode
 
-!!! recommendation
+!!! 推薦
 
     ! [Org-mode logo] (assets/img/notebooks/org-mode.svg) {align = right}
     
