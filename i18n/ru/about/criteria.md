@@ -1,40 +1,40 @@
 ---
-title: General Criteria
+title: Общие критерии
 ---
 
-!!! example "Work in Progress"
+!!! example "Работа в процессе"
 
-    The following page is a work in progress, and does not reflect the full criteria for our recommendations at this time. Past discussion on this topic: [#24](https://github.com/privacyguides/privacyguides.org/discussions/24)
+    Следующая страница незавершена и на данный момент не отражает всех критериев наших рекомендаций. Предыдущие обсуждения этой темы: [#24](https://github.com/privacyguides/privacyguides.org/discussions/24)
 
-Below are some things that must apply to all submissions to Privacy Guides. Each category will have additional requirements for inclusion.
+Ниже перечислены некоторые критерии, которые должны применяться ко всем материалам, представленным в Privacy Guides. Каждая категория будет иметь дополнительные требования для включения.
 
-## Financial Disclosure
+## Раскрытие финансовой информации
 
-We do not make money from recommending certain products, we do not use affiliate links, and we do not provide special consideration to project donors.
+Мы не зарабатываем на рекомендации определенных продуктов, не используем партнерские ссылки и не предоставляем особых условий проектам, которые нас поддерживают.
 
-## General Guidelines
+## Общие принципы
 
-We apply these priorities when considering new recommendations:
+Мы применяем эти приоритеты при рассмотрении новых рекомендаций:
 
-- **Secure**: Tools should follow security best-practices wherever applicable.
-- **Source Availability**: Open source projects are generally preferred over equivalent proprietary alternatives.
-- **Cross-Platform**: We typically prefer recommendations to be cross-platform, to avoid vendor lock-in.
-- **Active Development**: The tools that we recommend should be actively developed, unmaintained projects will be removed in most cases.
-- **Usability**: Tools should be accessible to most computer users, an overly technical background should not be required.
-- **Documented**: Tools should have clear and extensive documentation for use.
+- **Безопасность**: Инструменты должны следовать лучшим практикам безопасности, где это применимо.
+- **Доступность исходного кода**: Проекты с открытым исходным кодом обычно предпочтительнее, чем эквивалентные проекты с закрытым исходным кодом.
+- **Кросс-платформенность**: Мы обычно предпочитаем, чтобы рекомендации были кросс-платформенными, чтобы избежать привязки к производителю.
+- **Активная разработка**: Инструменты, которые мы рекомендуем, должны активно разрабатываться, не поддерживаемые проекты в большинстве случаев будут удалены.
+- **Юзабилити**: Инструменты должны быть доступны большинству пользователей компьютеров, не должно требоваться чрезмерной технической подготовки.
+- **Документация**: Инструменты должны иметь четкую и обширную документацию по использованию.
 
-## Developer Self-Submissions
+## Самостоятельные заявки разработчиков
 
-We have these requirements in regard to developers which wish to submit their project or software for consideration.
+Мы предъявляем эти требования к разработчикам, которые хотят представить свой проект или программное обеспечение на рассмотрение.
 
-- Must disclose affiliation, i.e. your position within the project being submitted.
+- Должны раскрыть связь с проектом, т.е. вашу должность в представляемом проекте.
 
-- Must have a security whitepaper if it is a project that involves handling of sensitive information like a messenger, password manager, encrypted cloud storage, etc.
-    - Third party audit status. We want to know if you have one, or have one planned. If possible please mention who will be conducting the audit.
+- Должен иметь документ по безопасности, если проект предполагает работу с конфиденциальной информацией, например, мессенджер, менеджер паролей, зашифрованное облачное хранилище и т.д.
+    - Статус аудита третьей стороной. Мы хотим знать, есть ли у вас статус аудита или запланирован ли он. Если возможно, укажите, кто будет проводить аудит.
 
-- Must explain what the project brings to the table in regard to privacy.
-    - Does it solve any new problem?
-    - Why should anyone use it over the alternatives?
+- Должен объяснить, что проект дает в плане конфиденциальности.
+    - Решает ли он какую-то новую проблему?
+    - Почему кто-то должен использовать ваш проект, а не альтернативы?
 
-- Must state what the exact threat model is with their project.
-    - It should be clear to potential users what the project can provide, and what it cannot.
+- Должна быть указана модель угроз, для которой этот проект создан.
+    - Потенциальные пользователи должны легко понять, что проект может предоставить, а что нет.

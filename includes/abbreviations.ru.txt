@@ -47,8 +47,8 @@
 *[JNI]: Нативный интерфейс Java
 *[KYC]: Знай своего клиента (Know Your Customer)
 *[LUKS]: Шифрование всего диска Linux (Linux Unified Key Setup)
-*[MAC]: Media Access Control
-*[MDAG]: Microsoft Defender Application Guard
+*[MAC]: Управление доступом к среде
+*[MDAG]: Защита приложений при помощи Microsoft Defender
 *[MEID]: Идентификатор мобильного оборудования
 *[МФА]: Многофакторная аутентификация
 *[NVMe]: Nonvolatile Memory Express

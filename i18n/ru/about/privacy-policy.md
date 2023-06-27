@@ -52,10 +52,10 @@ jonah@privacyguides.org
 
 По другим вопросам вы можете обратиться к любому члену нашей команды.
 
-For complaints under GDPR more generally, you may lodge complaints with your local data protection supervisory authorities. In France it's the Commission Nationale de l'Informatique et des Libertés which take care and handle the complaints. They provide a [template of complaint letter](https://www.cnil.fr/en/plaintes) to use.
+Что касается жалоб по GDPR в целом, вы можете подать жалобу в ваши местные органы надзора по защите данных. Во Франции это Commission Nationale de l'Informatique et des Libertés, которая занимается рассмотрением жалоб. Они предоставляют [шаблон письма-жалобы](https://www.cnil.fr/en/plaintes) для использования.
 
 ## Об этой политике
 
-We will post any new versions of this statement [here](privacy-policy.md). Мы можем изменить способ объявления изменений в будущих версиях политики. В то же время мы можем обновить контактные данные в любое время без объявления об изменениях. Please refer to the [Privacy Policy](privacy-policy.md) for the latest contact information at any time.
+We will post any new versions of this statement [here](privacy-policy.md). Мы можем изменить способ объявления изменений в будущих версиях политики. В то же время мы можем обновить контактные данные в любое время без объявления об изменениях. Пожалуйста, в любое время обратитесь к [политике конфиденциальности](privacy-policy.md) для получения последней контактной информации.
 
-A full revision [history](https://github.com/privacyguides/privacyguides.org/commits/main/docs/about/privacy-policy.md) of this page can be found on GitHub.
+Полная [история](https://github.com/privacyguides/privacyguides.org/commits/main/docs/about/privacy-policy.md) этой страницы может быть найдена на GitHub.

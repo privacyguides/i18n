@@ -26,7 +26,7 @@ cover: video-streaming.png
         - [:simple-apple: macOS](https://lbry.com/osx)
         - [:simple-linux: Linux](https://lbry.com/linux)
 
-!!! note
+!!! note "Примечание"
 
     Only the **LBRY desktop client** is recommended, as the [Odysee](https://odysee.com) website and the LBRY clients in F-Droid, Play Store, and the App Store have mandatory synchronization and telemetry.
 

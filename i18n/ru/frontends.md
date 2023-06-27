@@ -29,7 +29,7 @@ When you are using an instance run by someone else, make sure to read the privac
     [:octicons-code-16:](https://github.com/zedeus/nitter){ .card-link title="Source Code" }
     [:octicons-heart-16:](https://github.com/zedeus/nitter#nitter){ .card-link title=Contribute }
 
-!!! tip
+!!! tip "Совет"
 
     Nitter is useful if you want to browse Twitter content without having to log in and if you want to disable JavaScript in your browser, as is the case with [Tor Browser](https://www.torproject.org/) on the Safest security level. It also allows you to [create RSS feeds for Twitter](news-aggregators.md#twitter).
 
@@ -50,7 +50,7 @@ When you are using an instance run by someone else, make sure to read the privac
     [:octicons-info-16:](https://github.com/pablouser1/ProxiTok/wiki){ .card-link title=Documentation}
     [:octicons-code-16:](https://github.com/pablouser1/ProxiTok){ .card-link title="Source Code" }
 
-!!! tip
+!!! tip "Совет"
 
     ProxiTok is useful if you want to disable JavaScript in your browser, such as [Tor Browser](https://www.torproject.org/) on the Safest security level.
 
@@ -183,7 +183,7 @@ By default, LibreTube blocks all YouTube advertisements. Additionally, Libretube
 
     Invidious does not proxy video streams by default. Videos watched through Invidious will still make direct connections to Google's servers (e.g. `googlevideo.com`); however, some instances support video proxying—simply enable *Proxy videos* within the instances' settings or add `&local=true` to the URL.
 
-!!! tip
+!!! tip "Совет"
 
     Invidious is useful if you want to disable JavaScript in your browser, such as [Tor Browser](https://www.torproject.org/) on the Safest security level. It does not provide privacy by itself, and we don’t recommend logging into any accounts.
 
@@ -203,7 +203,7 @@ By default, LibreTube blocks all YouTube advertisements. Additionally, Libretube
     [:octicons-code-16:](https://github.com/TeamPiped/Piped){ .card-link title="Source Code" }
     [:octicons-heart-16:](https://github.com/TeamPiped/Piped#donations){ .card-link title=Contribute }
 
-!!! tip
+!!! tip "Совет"
 
     Piped is useful if you want to use [SponsorBlock](https://sponsor.ajay.app) without installing an extension or to access age-restricted content without an account. It does not provide privacy by itself, and we don’t recommend logging into any accounts.
 

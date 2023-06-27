@@ -23,7 +23,7 @@ description: קל לצבור מספר רב של חשבונות אינטרנט, �
 - מנהל אישורי Windows
 - macOS [סיסמאות](https://support.apple.com/en-us/HT211145)
 - iOS [סיסמאות](https://support.apple.com/en-us/HT211146)
-- Linux, Gnome Keyring, which can be accessed through [Seahorse](https://wiki.gnome.org/Apps/Seahorse) or [KDE Wallet Manager](https://userbase.kde.org/KDE_Wallet_Manager)
+- Linux, Gnome Keyring, שאליו ניתן לגשת דרך [Seahorse](https://wiki.gnome.org/Apps/Seahorse) או [KDE Wallet Manager](https://userbase.kde.org/KDE_Wallet_Manager)
 
 ### אימייל
 

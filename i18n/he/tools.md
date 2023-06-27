@@ -298,11 +298,11 @@ description: Privacy Guides הוא האתר השקוף והאמין ביותר �
 
 <div class="grid cards" markdown>
 
-- ![Send logo](assets/img/file-sharing-sync/send.svg){ .twemoji } [Send](file-sharing.md#send)
-- ![OnionShare logo](assets/img/file-sharing-sync/onionshare.svg){ .twemoji } [OnionShare](file-sharing.md#onionshare)
-- ![FreedomBox logo](assets/img/file-sharing-sync/freedombox.svg){ .twemoji } [FreedomBox](file-sharing.md#freedombox)
-- ![Nextcloud logo](assets/img/productivity/nextcloud.svg){ .twemoji } [Nextcloud (Self-Hostable)](file-sharing.md#nextcloud-client-server)
-- ![Syncthing logo](assets/img/file-sharing-sync/syncthing.svg){ .twemoji } [Syncthing](file-sharing.md#syncthing-p2p)
+- ![Send לוגו](assets/img/file-sharing-sync/send.svg){ .twemoji } [Send](file-sharing.md#send)
+- ![OnionShare לוגו](assets/img/file-sharing-sync/onionshare.svg){ .twemoji } [OnionShare](file-sharing.md#onionshare)
+- ![FreedomBox לוגו](assets/img/file-sharing-sync/freedombox.svg){ .twemoji } [FreedomBox](file-sharing.md#freedombox)
+- ![Nextcloud לוגו](assets/img/productivity/nextcloud.svg){ .twemoji } [Nextcloud (Self-Hostable)](file-sharing.md#nextcloud-client-server)
+- ![Syncthing לוגו](assets/img/file-sharing-sync/syncthing.svg){ .twemoji } [Syncthing](file-sharing.md#syncthing-p2p)
 
 </div>
 
@@ -357,11 +357,11 @@ description: Privacy Guides הוא האתר השקוף והאמין ביותר �
 
 <div class="grid cards" markdown>
 
-- ![Standard Notes logo](assets/img/notebooks/standard-notes.svg){ .twemoji } [Standard Notes](notebooks.md#standard-notes)
-- ![Notesnook logo](assets/img/notebooks/notesnook.svg){ .twemoji } [Notesnook](notebooks.md#notesnook)
-- ![Joplin logo](assets/img/notebooks/joplin.svg){ .twemoji } [Joplin](notebooks.md#joplin)
-- ![Cryptee logo](assets/img/notebooks/cryptee.svg#only-light){ .twemoji }![Cryptee logo](assets/img/notebooks/cryptee-dark.svg#only-dark){ .twemoji } [Cryptee](notebooks.md#cryptee)
-- ![Org-mode logo](assets/img/notebooks/org-mode.svg){ .twemoji } [Org-mode](notebooks.md#org-mode)
+- ![Standard Notes לוגו](assets/img/notebooks/standard-notes.svg){ .twemoji } [Standard Notes](notebooks.md#standard-notes)
+- ![Notesnook לוגו](assets/img/notebooks/notesnook.svg){ .twemoji } [Notesnook](notebooks.md#notesnook)
+- ![Joplin לוגו](assets/img/notebooks/joplin.svg){ .twemoji } [Joplin](notebooks.md#joplin)
+- ![Cryptee לוגו](assets/img/notebooks/cryptee.svg#only-light){ .twemoji }![Cryptee logo](assets/img/notebooks/cryptee-dark.svg#only-dark){ .twemoji } [Cryptee](notebooks.md#cryptee)
+- ![Org-mode לוגו](assets/img/notebooks/org-mode.svg){ .twemoji } [Org-mode](notebooks.md#org-mode)
 
 </div>
 

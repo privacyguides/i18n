@@ -39,28 +39,28 @@ cover: notebooks.png
 
 !!! recommendation
 
-    ![Notesnook logo](assets/img/notebooks/notesnook.svg){ align=right }
+    ![Notesnook לוגו](assets/img/notebooks/notesnook.svg){ align=right }
     
-    **Notesnook** is a free (as in speech) & open-source note-taking app focused on user privacy & ease of use. It features end-to-end encryption on all platforms with a powerful sync to take your notes on the go. You can easily import your notes from Evernote, OneNote & a lot of other apps using their [official importer](https://importer.notesnook.com/).
+    **Notesnook** הוא חינמי (כמו בדיבור) & אפליקציית רישום הערות בקוד פתוח המתמקדת בפרטיות המשתמש & קלות שימוש. הוא כולל הצפנה מקצה לקצה בכל הפלטפורמות עם סנכרון רב עוצמה כדי לרשום את ההערות שלך תוך כדי תנועה. אתה יכול בקלות לייבא את ההערות שלך מ-Evernote, OneNote & הרבה אפליקציות אחרות המשתמשות ב[יבואן הרשמי](https://importer.notesnook.com/).
     
-    [:octicons-home-16: Homepage](https://notesnook.com/){ .md-button .md-button--primary }
-    [:octicons-eye-16:](https://notesnook.com/privacy){ .card-link title="Privacy Policy" }
-    [:octicons-info-16:](https://help.notesnook.com/){ .card-link title=Documentation}
-    [:octicons-code-16:](https://github.com/streetwriters/notesnook){ .card-link title="Source Code" }
-    [:octicons-heart-16:](https://github.com/streetwriters/notesnook/blob/master/CONTRIBUTING.md){ .card-link title=Contribute }
+    [:octicons-home-16: דף הבית](https://notesnook.com/){ .md-button .md-button--primary }
+    [:octicons-eye-16:](https://notesnook.com/privacy){ .card-link title="מדיניות הפרטיות" }
+    [:octicons-info-16:](https://help.notesnook.com/){ .card-link title=תיעוד}
+    [:octicons-code-16:](https://github.com/streetwriters/notesnook){ .card-link title="קוד מקור" }
+    [:octicons-heart-16:](https://github.com/streetwriters/notesnook/blob/master/CONTRIBUTING.md){ .card-link title=לתרומה }
     
-    ??? downloads
+    ??? downloads "הורדות"
     
         - [:simple-googleplay: Google Play](https://play.google.com/store/apps/details?id=com.streetwriters.notesnook)
         - [:simple-appstore: App Store](https://apps.apple.com/us/app/notesnook-take-private-notes/id1544027013)
-        - [:simple-github: GitHub](https://github.com/streetwriters/notesnook/releases)
-        - [:simple-windows11: Windows](https://notesnook.com/downloads)
+        - [:simple-github: גיטהאב](https://github.com/streetwriters/notesnook/releases)
+        - [:simple-windows11: ווינדוס](https://notesnook.com/downloads)
         - [:simple-apple: macOS](https://notesnook.com/downloads)
-        - [:simple-linux: Linux](https://notesnook.com/downloads)
+        - [:simple-linux: לינוקס](https://notesnook.com/downloads)
         - [:simple-firefoxbrowser: Firefox](https://notesnook.com/notesnook-web-clipper/)
-        - [:simple-googlechrome: Chrome](https://chrome.google.com/webstore/detail/notesnook-web-clipper/kljhpemdlcnjohmfmkogahelkcidieaj)
+        - [:simple-googlechrome: כרום](https://chrome.google.com/webstore/detail/notesnook-web-clipper/kljhpemdlcnjohmfmkogahelkcidieaj)
 
-Notesnook does not support password/PIN protection on the web & desktop apps. However, you can still lock individual notes, and your data is always encrypted in transit and on your device using your master key.
+Notesnook אינו תומך בהגנה על סיסמה/קוד באינטרנט & אפליקציות לשולחן העבודה. עם זאת, אתה עדיין יכול לנעול הערות בודדות, והנתונים שלך תמיד מוצפנים במעבר ובמכשיר שלך באמצעות המפתח הראשי שלך.
 
 ### Joplin
 
@@ -113,7 +113,7 @@ Cryptee מציע 100MB של אחסון בחינם, עם אפשרויות בתש�
 
 ### מצב ארגון
 
-!!! recommendation
+!!! המלצה
 
     ![Org-mode לוגו](assets/img/notebooks/org-mode.svg){ align=right }
     

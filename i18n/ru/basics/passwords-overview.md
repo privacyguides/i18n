@@ -4,69 +4,69 @@ icon: 'material/form-textbox-password'
 description: Вот несколько советов и рекомендаций о том, как создавать самые надежные пароли и обеспечивать безопасность своих учетных записей.
 ---
 
-Passwords are an essential part of our everyday digital lives. We use them to protect our accounts, our devices and our secrets. Despite often being the only thing between us and an adversary who's after our private information, not a lot of thought is put into them, which often leads to people using passwords that can be easily guessed or brute-forced.
+Пароли являются неотъемлемой частью нашей повседневной цифровой жизни. Мы используем их для защиты наших аккаунтов, девайсов и секретов. Очень часто пароли, это единственное, что защищает нас от злоумышленников, которые хотят получить нашу личную информацию или деньги. Несмотря на это, паролям не уделяют должного внимания, что часто приводит к использованию простых паролей, которые легко угадать или подобрать.
 
 ## Лучшие практики
 
 ### Используйте уникальные пароли для каждого сервиса
 
-Imagine this; you sign up for an account with the same e-mail and password on multiple online services. If one of those service providers is malicious, or their service has a data breach that exposes your password in an unencrypted format, all a bad actor would have to do is try that e-mail and password combination across multiple popular services until they get a hit. It doesn't matter how strong that one password is, because they already have it.
+Представьте: вы регистрируете учетную запись с одним и тем же электронным адресом и паролем на нескольких веб-сайтах. Если один из владельцев этих сайтов злоумышленник, или в его сервисе произошла утечка данных, в результате которой ваш пароль оказался в незашифрованном виде, все, что нужно сделать злоумышленнику, это попробовать комбинацию электронной почты и пароля в нескольких популярных сервисах, пока он не добьется успеха. Не имеет значения, насколько сложным является этот пароль, потому что он уже у них есть.
 
-This is called [credential stuffing](https://en.wikipedia.org/wiki/Credential_stuffing), and it is one of the most common ways that your accounts can be compromised by bad actors. To avoid this, make sure that you never re-use your passwords.
+Это называется [подстановка учетных данных](https://en.wikipedia.org/wiki/Credential_stuffing), и это один из самых распространенных способов взлома ваших учетных записей. Чтобы избежать этого, убедитесь, что вы никогда не используете свои пароли повторно.
 
 ### Используйте случайно сгенерированные пароли
 
-==You should **never** rely on yourself to come up with a good password.== We recommend using [randomly generated passwords](#passwords) or [diceware passphrases](#diceware-passphrases) with sufficient entropy to protect your accounts and devices.
+==Вы **никогда** не должны полагаться на себя, чтобы придумать хороший пароль.== Мы рекомендуем использовать [случайно сгенерированные пароли](#passwords) или [парольные фразы с помощью кубика](#diceware-passphrases) с достаточной энтропией для защиты ваших учетных записей и устройств.
 
-All of our [recommended password managers](../passwords.md) include a built-in password generator that you can use.
+Все рекомендуемые нами [менеджеры паролей](../passwords.md) включают встроенный генератор паролей, который вы можете использовать.
 
 ### Изменение паролей
 
-You should avoid changing passwords that you have to remember (such as your password manager's master password) too often unless you have reason to believe it has been compromised, as changing it too often exposes you to the risk of forgetting it.
+Вам не следует слишком часто менять пароли, которые вы должны помнить (например, мастер-пароль от вашего менеджера паролей), если у вас нет оснований полагать, что он был взломан, поскольку слишком частая смена пароля подвергает вас риску его забыть.
 
-When it comes to passwords that you don't have to remember (such as passwords stored inside your password manager), if your [threat model](threat-modeling.md) calls for it, we recommend going through important accounts (especially accounts that don't use multi-factor authentication) and changing their password every couple of months, in case they have been compromised in a data breach that hasn't become public yet. Most password managers allow you to set an expiry date for your password to make this easier to manage.
+Что касается паролей, которые вам не нужно запоминать (например, пароли, хранящиеся в менеджере паролей), если [модель угроз](threat-modeling.md) требует этого, мы рекомендуем просматривать важные учетные записи (особенно те, которые не используют многофакторную аутентификацию) и менять их пароль каждые пару месяцев, на случай, если они были скомпрометированы в результате утечки данных, которая еще не стала известной. Большинство менеджеров паролей позволяют установить срок действия пароля, чтобы облегчить отслеживание их давности.
 
-!!! tip "Checking for data breaches"
+!!! tip "Проверка утечек данных"
 
-    If your password manager lets you check for compromised passwords, make sure to do so and promptly change any password that may have been exposed in a data breach. Alternatively, you could follow [Have I Been Pwned's Latest Breaches feed](https://feeds.feedburner.com/HaveIBeenPwnedLatestBreaches) with the help of a [news aggregator](../news-aggregators.md).
+    Если ваш менеджер паролей позволяет проверять скомпрометированные пароли, обязательно сделайте это и незамедлительно измените любой пароль, который мог быть раскрыт в результате утечки данных. В качестве альтернативы вы можете подписаться на [ленту последних взломов от Have I Been Pwned](https://feeds.feedburner.com/HaveIBeenPwnedLatestBreaches) с помощью [агрегатора новостей](../news-aggregators.md).
 
 ## Создание надежных паролей
 
 ### Пароли
 
-A lot of services impose certain criteria when it comes to passwords, including a minimum or maximum length, as well as which special characters, if any, can be used. You should use your password manager's built-in password generator to create passwords that are as long and complex as the service will allow by including capitalized and lowercase letters, numbers and special characters.
+Многие сервисы устанавливают определенные критерии для паролей, включая минимальную или максимальную длину, а также то, какие специальные символы могут быть использованы. Вы должны использовать встроенный в менеджере паролей генератор паролей, чтобы создавать пароли настолько длинные и сложные, насколько это позволяет сервис, включая заглавные и строчные буквы, цифры и специальные символы.
 
-If you need a password you can memorize, we recommend a [diceware passphrase](#diceware-passphrases).
+Если вам нужен пароль, который можно запомнить, мы рекомендуем вам [парольные фразы с помощью кубика](#diceware-passphrases).
 
 ### Парольные фразы с помощью игрального кубика
 
 С помощью игрального кубика можно создавать парольные фразы, которые легко запомнить, но трудно угадать.
 
-Diceware passphrases are a great option when you need to memorize or manually input your credentials, such as for your password manager's master password or your device's encryption password.
+Парольные фразы с помощью кубика - это отличный вариант, когда вам нужно запомнить или ввести вручную свои учетные данные, например, главный пароль менеджера паролей или пароль шифрования вашего устройства.
 
-An example of a diceware passphrase is `viewable fastness reluctant squishy seventeen shown pencil`.
+Примером такой парольной фразы является `viewable fastness reluctant squishy seventeen shown pencil`.
 
-To generate a diceware passphrase using real dice, follow these steps:
+Чтобы сгенерировать парольную фразу с использованием настоящих игральных кубиков, выполните следующие действия:
 
 !!! note "Примечание"
 
-    These instructions assume that you are using [EFF's large wordlist](https://www.eff.org/files/2016/07/18/eff_large_wordlist.txt) to generate the passphrase, which requires five dice rolls per word. Other wordlists may require more or less rolls per word, and may require a different amount of words to achieve the same entropy.
+    Эти инструкции предполагают, что вы используете [большой список слов EFF](https://www.eff.org/files/2016/07/18/eff_large_wordlist.txt) для генерации парольной фразы, что требует пяти бросков кубика на слово. Другие списки слов могут требовать больше или меньше бросков на слово, и могут потребоваться другое количество слов для достижения той же энтропии.
 
-1. Roll a six-sided die five times, noting down the number after each roll.
+1. Бросьте шестигранный кубик пять раз, записывая число после каждого броска.
 
-2. As an example, let's say you rolled `2-5-2-6-6`. Look through the [EFF's large wordlist](https://www.eff.org/files/2016/07/18/eff_large_wordlist.txt) for the word that corresponds to `25266`.
+2. В качестве примера, допустим, вы бросили `2-5-2-6-6`. Найдите в [Большом списке слов EFF](https://www.eff.org/files/2016/07/18/eff_large_wordlist.txt) слово, соответствующее `25266`.
 
-3. You will find the word `encrypt`. Write that word down.
+3. Вы найдете слово `encrypt`. Запишите это слово.
 
-4. Repeat this process until your passphrase has as many words as you need, which you should separate with a space.
+4. Повторяйте этот процесс до тех пор, пока ваша парольная фраза не будет содержать столько слов, сколько вам нужно, которые следует разделять пробелом.
 
-!!! warning "Important"
+!!! warning "Важно"
 
-    You should **not** re-roll words until you get a combination of words that appeal to you. The process should be completely random.
+    Вы **не** должны перебрасывать кубик, в надежде получить комбинацию слов, которая вам нравится. Процесс должен быть полностью случайным.
 
-If you don't have access to or would prefer to not use real dice, you can use your password manager's built-in password generator, as most of them have the option to generate diceware passphrases in addition to regular passwords.
+Если у вас нет доступа к настоящим игральным костям или вы предпочитаете не использовать их, вы можете воспользоваться встроенным в менеджере паролей генератором паролей, поскольку большинство из них имеют возможность генерировать парольные фразы в дополнение к обычным паролям.
 
-We recommend using [EFF's large wordlist](https://www.eff.org/files/2016/07/18/eff_large_wordlist.txt) to generate your diceware passphrases, as it offers the exact same security as the original list, while containing words that are easier to memorize. There are also [other wordlists in different languages](https://theworld.com/~reinhold/diceware.html#Diceware%20in%20Other%20Languages|outline), if you do not want your passphrase to be in English.
+Мы рекомендуем использовать [большой список слов EFF](https://www.eff.org/files/2016/07/18/eff_large_wordlist.txt) для генерации парольных фраз, поскольку он обеспечивает точно такую же безопасность, как и оригинальный список, но содержит слова, которые легче запомнить. Есть также [другие списки слов на разных языках](https://theworld.com/~reinhold/diceware.html#Diceware%20in%20Other%20Languages|outline), если вы не хотите, чтобы ваша парольная фраза была на английском языке.
 
 ??? note "Объяснение энтропии и прочности парольных фраз, созданных с помощью кубика"
 
@@ -92,20 +92,20 @@ We recommend using [EFF's large wordlist](https://www.eff.org/files/2016/07/18/e
 
 ### Менеджеры паролей
 
-The best way to store your passwords is by using a password manager. They allow you to store your passwords in a file or in the cloud and protect them with a single master password. That way, you will only have to remember one strong password, which lets you access the rest of them.
+Лучший способ хранения паролей - это использование менеджера паролей. Они позволяют хранить пароли в файле или в облаке и защищать их одним мастер-паролем. Таким образом, вам придется запомнить только один надежный пароль, который позволит вам получить доступ к остальным.
 
-There are many good options to choose from, both cloud-based and local. Choose one of our recommended password managers and use it to establish strong passwords across all of your accounts. We recommend securing your password manager with a [diceware passphrase](#diceware-passphrases) comprised of at least seven words.
+Существует множество хороших вариантов, как облачных, так и локальных. Выберите один из рекомендуемых нами менеджеров паролей и используйте его для создания надежных паролей для всех ваших учетных записей. Мы рекомендуем защитить ваш менеджер паролей [парольной фразой](#diceware-passphrases), состоящей как минимум из семи слов.
 
-[List of recommended password managers](../passwords.md ""){.md-button}
+[Список рекомендуемых менеджеров паролей](../passwords.md ""){.md-button}
 
-!!! warning "Don't place your passwords and TOTP tokens inside the same password manager"
+!!! warning "Не размещайте пароли и TOTP-токены в одном менеджере паролей"
 
-    When using TOTP codes as [multi-factor authentication](../multi-factor-authentication.md), the best security practice is to keep your TOTP codes in a [separate app](../multi-factor-authentication.md#authenticator-apps).
+    При использовании TOTP-кодов в качестве [многофакторной аутентификации](../multi-factor-authentication.md), лучшей практикой безопасности является хранение TOTP-кодов в [отдельном приложении](../multi-factor-authentication.md#authenticator-apps).
     
-    Storing your TOTP tokens in the same place as your passwords, while convenient, reduces the accounts to a single factor in the event that an adversary gains access to your password manager.
+    Хранение TOTP-токенов в том же месте, что и паролей, хотя и удобно, но сводит защиту учетных записей к одному фактору в случае, если злоумышленник получит доступ к вашему менеджеру паролей.
     
-    Furthermore, we do not recommend storing single-use recovery codes in your password manager. Those should be stored separately such as in an encrypted container on an offline storage device.
+    Кроме того, мы не рекомендуем хранить одноразовые коды восстановления в менеджере паролей. Их следует хранить отдельно, например, в зашифрованном контейнере на автономном устройстве хранения.
 
 ### Резервное копирование
 
-You should store an [encrypted](../encryption.md) backup of your passwords on multiple storage devices or a cloud storage provider. This can help you access your passwords if something happens to your primary device or the service you are using.
+Вы должны хранить [зашифрованную](../encryption.md) резервную копию ваших паролей на нескольких устройствах или в облачном хранилище. Это может быть полезно, если что-то случится с вашим устройством или с сервисом, которым вы пользуетесь.

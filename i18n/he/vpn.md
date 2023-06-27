@@ -217,7 +217,7 @@ Proton VPN [ממליץ](https://protonvpn.com/blog/wireguard/) על השימוש
 
 #### :material-alert-outline:{ .pg-orange } העברת פורטים מרחוק
 
-Proton VPN currently only supports ephemeral remote [port forwarding](https://protonvpn.com/support/port-forwarding/) via NAT-PMP, with 60 second lease times. The Windows app provides an easy to access option for it, while on other operating systems you'll need to run your own [NAT-PMP client](https://protonvpn.com/support/port-forwarding-manual-setup/). Torrent applications often support NAT-PMP natively.
+Proton VPN תומך כרגע רק ב[העברת פורטים](https://protonvpn.com/support/port-forwarding/) מרחוק ארעיים באמצעות NAT-PMP, עם זמני חכירה של 60 שניות. אפליקציית Windows מספקת אפשרות קלה לגישה עבורה, בעוד שבמערכות הפעלה אחרות תצטרך להפעיל [ משלך לקוח NAT-PMP](https://protonvpn.com/support/port-forwarding-manual-setup/). יישומי טורנט תומכים לעתים קרובות ב-NAT-PMP באופן מקורי.
 
 #### :material-check:{ .pg-green } לקוחות ניידים
 

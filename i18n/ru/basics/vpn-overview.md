@@ -1,76 +1,76 @@
 ---
-meta_title: "How Do VPNs Protect Your Privacy? Our VPN Overview - Privacy Guides"
-title: VPN Overview
+meta_title: "Как VPN защищает вашу конфиденциальность? Наш обзор VPN - Privacy Guides"
+title: Обзор VPN
 icon: material/vpn
-description: Virtual Private Networks shift risk away from your ISP to a third-party you trust. You should keep these things in mind.
+description: Виртуальные частные сети переносят риск от вашего провайдера на третью сторону, которой вы доверяете. Вам следует помнить об этих вещах.
 ---
 
-Virtual Private Networks are a way of extending the end of your network to exit somewhere else in the world. An ISP can see the flow of internet traffic entering and exiting your network termination device (i.e. modem).
+Виртуальные частные сети - это способ перенести выход вашей сети куда-либо в мире. Провайдер может видеть поток интернет-трафика, входящего и выходящего сетевого устройства (т.е. модема).
 
-Encryption protocols such as HTTPS are commonly used on the internet, so they may not be able to see exactly what you're posting or reading, but they can get an idea of the [domains you request](../advanced/dns-overview.md#why-shouldnt-i-use-encrypted-dns).
+В интернете широко используются протоколы шифрования, такие как HTTPS, поэтому интернет-провайдеры не могут видеть, что именно вы публикуете или читаете, но они могут получить представление о [посещаемых вами доменах](../advanced/dns-overview.md#why-shouldnt-i-use-encrypted-dns).
 
-A VPN can help as it can shift trust to a server somewhere else in the world. As a result, the ISP then only sees that you are connected to a VPN and nothing about the activity that you're passing into it.
+VPN может помочь, поскольку он может сместить доверие на сервер в другой точке мира. В результате провайдер видит только то, что вы подключены к VPN, и ничего о деятельности, которую вы проводите через VPN.
 
-## Should I use a VPN?
+## Следует ли мне использовать VPN?
 
-**Yes**, unless you are already using Tor. A VPN does two things: shifting the risks from your Internet Service Provider to itself and hiding your IP from a third-party service.
+**Да**, если только вы уже не используете Tor. VPN делает две вещи: перенимает риски с вашего интернет-провайдера на себя и скрывает ваш IP от сторонних служб.
 
-VPNs cannot encrypt data outside of the connection between your device and the VPN server. VPN providers can see and modify your traffic the same way your ISP could. And there is no way to verify a VPN provider's "no logging" policies in any way.
+VPN не могут шифровать данные за пределами соединения между вашим устройством и VPN-сервером. Провайдеры VPN могут видеть и изменять ваш трафик так же, как и ваш интернет-провайдер. И нет никакого способа проверить политику VPN-провайдера "без ведения логов".
 
-However, they do hide your actual IP from a third-party service, provided that there are no IP leaks. They help you blend in with others and mitigate IP based tracking.
+Однако они скрывают ваш реальный IP от сторонних служб, если нет утечки IP-адресов. Они помогают вам слиться с окружающими и смягчают отслеживание по IP-адресу.
 
-## When shouldn't I use a VPN?
+## Когда мне не следует использовать VPN?
 
-Using a VPN in cases where you're using your [known identity](common-threats.md#common-misconceptions) is unlikely be useful.
+Использование VPN в случаях, когда вы используете свою [известную личность](common-threats.md#common-misconceptions), вряд ли будет полезным.
 
-Doing so may trigger spam and fraud detection systems, such as if you were to log into your bank's website.
+Это может привести к срабатыванию систем обнаружения спама и мошенничества, например, если вы зашли на сайт своего банка.
 
-## What about encryption?
+## А как насчет шифрования?
 
-Encryption offered by VPN providers are between your devices and their servers. It guarantees that this specific link is secure. This is a step up from using unencrypted proxies where an adversary on the network can intercept the communications between your devices and said proxies and modify them. However, encryption between your apps or browsers with the service providers are not handled by this encryption.
+Шифрование, предлагаемое провайдерами VPN, осуществляется между вашими устройствами и их серверами. Это гарантирует, что данная конкретная связь безопасна. Это шаг вперед от использования незашифрованных прокси-серверов, где сетевой противник может перехватить коммуникацию между вашими устройствами и указанными прокси-серверами и изменить её. Однако шифрование между вашими приложениями/браузерами и поставщиками услуг не обрабатывается этим шифрованием.
 
-In order to keep what you actually do on the websites you visit private and secure, you must use HTTPS. This will keep your passwords, session tokens, and queries safe from the VPN provider. Consider enabling "HTTPS everywhere" in your browser to mitigate downgrade attacks like [SSL Strip](https://www.blackhat.com/presentations/bh-dc-09/Marlinspike/BlackHat-DC-09-Marlinspike-Defeating-SSL.pdf).
+Чтобы сохранить конфиденциальность и безопасность того, что вы делаете на посещаемых вами сайтах, необходимо использовать HTTPS. Это позволит сохранить ваши пароли, токены сессии и запросы в безопасности от провайдера VPN. Рассмотрите возможность включения "только HTTPS" в вашем браузере для смягчения атак, таких как [SSL Strip](https://www.blackhat.com/presentations/bh-dc-09/Marlinspike/BlackHat-DC-09-Marlinspike-Defeating-SSL.pdf).
 
-## Should I use encrypted DNS with a VPN?
+## Нужно ли мне использовать зашифрованный DNS вместе с VPN?
 
-Unless your VPN provider hosts the encrypted DNS servers, **no**. Using DOH/DOT (or any other form of encrypted DNS) with third-party servers will simply add more entities to trust and does **absolutely nothing** to improve your privacy/security. Your VPN provider can still see which websites you visit based on the IP addresses and other methods. Instead of just trusting your VPN provider, you are now trusting both the VPN provider and the DNS provider.
+Если ваш VPN-провайдер не хостит собственные зашифрованные DNS-серверы, то **нет**. Использование DOH/DOT (или любой другой формы зашифрованного DNS) со сторонними серверами просто добавит еще больше объектов для доверия и не сделает **абсолютно ничего** для улучшения вашей конфиденциальности/безопасности. Ваш провайдер VPN все еще может видеть, какие сайты вы посещаете, основываясь на IP-адресах и других методах. Вместо того чтобы доверять только своему VPN-провайдеру, теперь вы доверяете и VPN-провайдеру, и DNS-провайдеру.
 
-A common reason to recommend encrypted DNS is that it helps against DNS spoofing. However, your browser should already be checking for [TLS certificates](https://en.wikipedia.org/wiki/Transport_Layer_Security#Digital_certificates) with **HTTPS** and warn you about it. If you are not using **HTTPS**, then an adversary can still just modify anything other than your DNS queries and the end result will be little different.
+Распространенная причина для рекомендации зашифрованного DNS заключается в том, что он помогает противостоять подделке DNS. Однако ваш браузер уже должен проверять наличие [TLS сертификатов](https://en.wikipedia.org/wiki/Transport_Layer_Security#Digital_certificates) с **HTTPS** и предупреждать вас об этом. Если вы не используете **HTTPS**, то злоумышленник все равно может просто модифицировать что угодно, кроме ваших DNS-запросов, и конечный результат будет немного отличаться.
 
-Needless to say, **you shouldn't use encrypted DNS with Tor**. This would direct all of your DNS requests through a single circuit and would allow the encrypted DNS provider to deanonymize you.
+Само собой разумеется, **не следует использовать зашифрованные DNS с Tor**. Это позволит направить все ваши DNS-запросы через единую цепь и даст возможность провайдеру DNS с шифрованием деанонимизировать вас.
 
-## Should I use Tor *and* a VPN?
+## Следует ли мне использовать Tor *и* VPN?
 
-By using a VPN with Tor, you're creating essentially a permanent entry node, often with a money trail attached. This provides zero additional benefits to you, while increasing the attack surface of your connection dramatically. If you wish to hide your Tor usage from your ISP or your government, Tor has a built-in solution for that: Tor bridges. [Read more about Tor bridges and why using a VPN is not necessary](../advanced/tor-overview.md).
+Используя VPN с Tor, вы создаете, по сути, постоянный входной узел, часто с привязкой к денежному следу. Это не дает вам никаких дополнительных преимуществ, но при этом значительно увеличивает поверхность атаки вашего соединения. Если вы хотите скрыть использование Tor от провайдера или правительства, в Tor есть встроенное решение для этого: мосты Tor. [Подробнее о мостах Tor и о том, почему использование VPN необязательно](../advanced/tor-overview.md).
 
-## What if I need anonymity?
+## А если мне нужна анонимность?
 
-VPNs cannot provide anonymity. Your VPN provider will still see your real IP address, and often has a money trail that can be linked directly back to you. You cannot rely on "no logging" policies to protect your data. Use [Tor](https://www.torproject.org/) instead.
+VPN не могут обеспечить анонимность. Ваш VPN-провайдер все равно будет видеть ваш реальный IP-адрес, и часто у него есть денежный след, который может быть связан непосредственно с вами. Вы не можете полагаться на политику "никаких логов" для защиты своих данных. Вместо этого используйте [Tor](https://www.torproject.org/).
 
-## What about VPN providers that provide Tor nodes?
+## Как насчет VPN-провайдеров, которые предоставляют узлы Tor?
 
-Do not use that feature. The point of using Tor is that you do not trust your VPN provider. Currently Tor only supports the [TCP](https://en.wikipedia.org/wiki/Transmission_Control_Protocol) protocol. [UDP](https://en.wikipedia.org/wiki/User_Datagram_Protocol) (used in [WebRTC](https://en.wikipedia.org/wiki/WebRTC) for voice and video sharing, the new [HTTP3/QUIC](https://en.wikipedia.org/wiki/HTTP/3) protocol, etc.), [ICMP](https://en.wikipedia.org/wiki/Internet_Control_Message_Protocol) and other packets will be dropped. To compensate for this, VPN providers typically will route all non-TCP packets through their VPN server (your first hop). This is the case with [ProtonVPN](https://protonvpn.com/support/tor-vpn/). Additionally, when using this Tor over VPN setup, you do not have control over other important Tor features such as [Isolated Destination Address](https://www.whonix.org/wiki/Stream_Isolation) (using a different Tor circuit for every domain you visit).
+Не используйте эту функцию. Смысл использования Tor заключается в том, что вы не доверяете своему VPN-провайдеру. В настоящее время Tor поддерживает только протокол [TCP](https://en.wikipedia.org/wiki/Transmission_Control_Protocol). [UDP](https://en.wikipedia.org/wiki/User_Datagram_Protocol) (используется в [WebRTC](https://en.wikipedia.org/wiki/WebRTC) для обмена голосом и видео, новом [HTTP3/QUIC](https://en.wikipedia.org/wiki/HTTP/3) протоколе и т.д.), [ICMP](https://en.wikipedia.org/wiki/Internet_Control_Message_Protocol) и другие пакеты будут отброшены. Чтобы компенсировать это, провайдеры VPN обычно направляют все пакеты, не относящиеся к TCP, через свой VPN-сервер (первый путь вашего трафика). Это случай с [ProtonVPN](https://protonvpn.com/support/tor-vpn/). Кроме того, при использовании функции Tor через VPN вы не сможете контролировать другие важные функции Tor, например [Isolated Destination Address](https://www.whonix.org/wiki/Stream_Isolation) (использование отдельной цепи Tor для каждого посещаемого вами домена).
 
-The feature should be viewed as a convenient way to access the Tor Network, not to stay anonymous. For proper anonymity, use the Tor Browser, TorSocks, or a Tor gateway.
+Эту функцию следует рассматривать как удобный способ доступа к сети Tor, а не для сохранения анонимности. Для обеспечения анонимности используйте браузер Tor, TorSocks или шлюз Tor.
 
-## When are VPNs useful?
+## Когда VPN полезны?
 
-A VPN may still be useful to you in a variety of scenarios, such as:
+VPN может оказаться полезным для вас в различных сценариях, например:
 
-1. Hiding your traffic from **only** your Internet Service Provider.
-1. Hiding your downloads (such as torrents) from your ISP and anti-piracy organizations.
-1. Hiding your IP from third-party websites and services, preventing IP based tracking.
+1. Скрывать ваш трафик **только** от вашего интернет-провайдера.
+1. Скрывать ваши загрузки (например, торренты) от провайдера и антипиратских организаций.
+1. Скрывать ваш IP от сторонних веб-сайтов и служб, предотвращение отслеживания на основе IP.
 
-For situations like these, or if you have another compelling reason, the VPN providers we listed above are who we think are the most trustworthy. However, using a VPN provider still means you're *trusting* the provider. In pretty much any other scenario you should be using a secure**-by-design** tool such as Tor.
+Для подобных ситуаций, или если у вас есть другая веская причина, VPN-провайдеры, перечисленные выше, по нашему мнению, являются наиболее надежными. Однако использование VPN-провайдера все равно означает, что вы *доверяете* провайдеру. В практически любом другом сценарии вы должны использовать безопасный**-по-дизайну** инструмент, такой как Tor.
 
-## Sources and Further Reading
+## Источники и дополнительное чтение
 
 1. [VPN - a Very Precarious Narrative](https://schub.io/blog/2019/04/08/very-precarious-narrative.html) by Dennis Schubert
 1. [Tor Network Overview](../advanced/tor-overview.md)
 1. [IVPN Privacy Guides](https://www.ivpn.net/privacy-guides)
 1. ["Do I need a VPN?"](https://www.doineedavpn.com), a tool developed by IVPN to challenge aggressive VPN marketing by helping individuals decide if a VPN is right for them.
 
-## Related VPN Information
+## Связанная информация о VPN
 
 - [The Trouble with VPN and Privacy Review Sites](https://blog.privacyguides.org/2019/11/20/the-trouble-with-vpn-and-privacy-review-sites/)
 - [Free VPN App Investigation](https://www.top10vpn.com/free-vpn-app-investigation/)
