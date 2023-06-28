@@ -1,5 +1,5 @@
 ---
-title: "Облачные хранилища"
+title: "Персональный компьютер"
 icon: fontawesome/brands/linux
 description: Дистрибутивы Linux часто рекомендуются для защиты конфиденциальности и свободы пользователей.
 cover: desktop.png
@@ -7,7 +7,7 @@ cover: desktop.png
 
 Дистрибутивы Linux часто рекомендуются для защиты конфиденциальности и свободы пользователей. Если вы еще не используете Linux, ниже приведены некоторые дистрибутивы, которые мы рекомендуем попробовать, а также несколько общих советов по улучшению конфиденциальности и безопасности, которые применимы ко многим дистрибутивам Linux.
 
-- [General Linux Overview :material-arrow-right-drop-circle:](os/linux-overview.md)
+- [Общий обзор Linux :material-arrow-right-drop-circle:](os/linux-overview.md)
 
 ## Традиционные дистрибутивы
 
@@ -17,11 +17,13 @@ cover: desktop.png
 
     ![Логотип Fedora](assets/img/linux-desktop/fedora-workstation.svg){ align=right }
     
-    **Fedora Workstation** - наш рекомендуемый дистрибутив для начинающих пользователей Linux. Fedora обычно внедряет новые технологии раньше других дистрибутивов, например, [Wayland](https://wayland.freedesktop.org/), [PipeWire](https://pipewire.org), и скоро [FS-Verity](https://fedoraproject.org/wiki/Changes/FsVerityRPM). Эти новые технологии часто улучшают безопасность, конфиденциальность и удобство использования в целом.
+    **Fedora Workstation** - наш рекомендуемый дистрибутив для начинающих пользователей Linux. Fedora обычно внедряет новые технологии раньше других дистрибутивов, например [Wayland](https://wayland.freedesktop.org/), [PipeWire](https://pipewire.org). Эти новые технологии часто улучшают безопасность, конфиденциальность и удобство использования в целом.
     
-    [Перейти на getfedora.org](https://getfedora.org/){ .md-button .md-button--primary }
+    [:octicons-home-16: Домашняя страница](https://getfedora.org/){ .md-button .md-button--primary }
+    [:octicons-info-16:](https://docs.fedoraproject.org/en-US/docs/){ .card-link title=Документация}
+    [:octicons-heart-16:](https://whatcanidoforfedora.org/){ .card-link title=Поддержать }
 
-Fedora has a semi-rolling release cycle. While some packages like [GNOME](https://www.gnome.org) are frozen until the next Fedora release, most packages (including the kernel) are updated frequently throughout the lifespan of the release. Каждый выпуск Fedora поддерживается в течение одного года, а новая версия выходит каждые 6 месяцев.
+Fedora имеет \[полу-плавающий\](https://ru.wikipedia.org/wiki/Rolling_release) цикл релиза. В то время как некоторые пакеты, такие как [GNOME](https://www.gnome.org), замораживаются до следующего выпуска Fedora, большинство пакетов (включая ядро) часто обновляются в течение всего срока жизни релиза. Каждый выпуск Fedora поддерживается в течение одного года, а новая версия выходит каждые 6 месяцев.
 
 ### openSUSE Tumbleweed
 
@@ -31,43 +33,45 @@ Fedora has a semi-rolling release cycle. While some packages like [GNOME](https:
     
     **openSUSE Tumbleweed** - стабильный дистрибутив с [плавающей системой релизов](https://ru.wikipedia.org/wiki/Rolling_release).
     
-    openSUSE Tumbleweed has a [transactional update](https://kubic.opensuse.org/blog/2018-04-04-transactionalupdates/) system that uses [Btrfs](https://en.wikipedia.org/wiki/Btrfs) and [Snapper](https://en.opensuse.org/openSUSE:Snapper_Tutorial) to ensure that snapshots can be rolled back should there be a problem.
+    openSUSE Tumbleweed имеет систему [транзакционного обновления](https://kubic.opensuse.org/blog/2018-04-04-transactionalupdates/), которая использует [Btrfs](https://en.wikipedia.org/wiki/Btrfs) и [Snapper](https://en.opensuse.org/openSUSE:Snapper_Tutorial) для обеспечения возможности отката моментальных снимков системы в случае возникновения проблем.
     
-    [Перейти на get.opensuse.org](https://get.opensuse.org/tumbleweed/){ .md-button .md-button--primary }
+    [:octicons-home-16: Домашняя страница](https://get.opensuse.org/tumbleweed/){ .md-button .md-button--primary }
+    [:octicons-info-16:](https://doc.opensuse.org/){ .card-link title=Документация}
+    [:octicons-heart-16:](https://shop.opensuse.org/){ .card-link title=Поддержать }
 
-Tumbleweed follows a rolling release model where each update is released as a snapshot of the distribution. When you upgrade your system, a new snapshot is downloaded. Each snapshot is run through a series of automated tests by [openQA](https://openqa.opensuse.org) to ensure its quality.
+Tumbleweed следует модели плавающего релиза, когда каждое обновление выпускается как снимок дистрибутива. При обновлении системы скачивается новый снимок. Каждый снимок проходит через серию автоматизированных тестов [openQA](https://openqa.opensuse.org) для обеспечения его качества.
 
 ### Arch Linux
 
 !!! recommendation
 
-    ![Arch logo](assets/img/linux-desktop/archlinux.svg){ align=right }
+    ![Логотип Arch](assets/img/linux-desktop/archlinux.svg){ align=right }
     
-    **Arch Linux** is a lightweight, do-it-yourself (DIY) distribution meaning that you only get what you install. For more information see their [FAQ](https://wiki.archlinux.org/title/Frequently_asked_questions).
+    **Arch Linux** - это легкий, "сделай сам" (DIY) дистрибутив, означающий, что вы получаете только то, что устанавливаете. Более подробную информацию можно найти на их сайте [FAQ](https://wiki.archlinux.org/title/Frequently_asked_questions).
     
-    [:octicons-home-16: Homepage](https://archlinux.org/){ .md-button .md-button--primary }
-    [:octicons-info-16:](https://wiki.archlinux.org/){ .card-link title=Documentation}
-    [:octicons-heart-16:](https://archlinux.org/donate/){ .card-link title=Contribute }
+    [:octicons-home-16: Домашняя страница](https://archlinux.org/){ .md-button .md-button--primary }
+    [:octicons-info-16:](https://wiki.archlinux.org/){ .card-link title=Документация}
+    [:octicons-heart-16:](https://archlinux.org/donate/){ .card-link title=Поддержать }
 
-Arch Linux has a rolling release cycle. There is no fixed release schedule and packages are updated very frequently.
+Arch Linux имеет плавающий цикл релиза. Не существует фиксированного графика релиза, пакеты обновляются очень часто.
 
-Being a DIY distribution, you are [expected to set up and maintain](os/linux-overview.md#arch-based-distributions) your system on your own. Arch has an [official installer](https://wiki.archlinux.org/title/Archinstall) to make the installation process a little easier.
+Будучи DIY дистрибутивом, вы [должны самостоятельно установить и поддерживать](os/linux-overview.md#arch-based-distributions) свою систему. Arch имеет [официальный установщик](https://wiki.archlinux.org/title/Archinstall), чтобы немного облегчить процесс установки.
 
-A large portion of [Arch Linux’s packages](https://reproducible.archlinux.org) are [reproducible](https://reproducible-builds.org).
+Большая часть пакетов [Arch Linux](https://reproducible.archlinux.org) является [воспроизводимой](https://reproducible-builds.org).
 
-## Immutable Distributions
+## Неизменяемые дистрибутивы
 
 ### Fedora Silverblue
 
 !!! recommendation
 
-    ![Fedora Silverblue logo](assets/img/linux-desktop/fedora-silverblue.svg){ align=right }
+    ![Логотип Fedora Silverblue](assets/img/linux-desktop/fedora-silverblue.svg){ align=right }
     
-    **Fedora Silverblue** and **Fedora Kinoite** are immutable variants of Fedora with a strong focus on container workflows. Silverblue comes with the [GNOME](https://www.gnome.org/) desktop environment while Kinoite comes with [KDE](https://kde.org/). Silverblue and Kinoite follow the same release schedule as Fedora Workstation, benefiting from the same fast updates and staying very close to upstream.
+    **Fedora Silverblue** и **Fedora Kinoite** - это неизменяемые варианты Fedora с сильным фокусом на контейнерные рабочие процессы. Silverblue поставляется с окружением рабочего стола [GNOME](https://www.gnome.org/), а Kinoite - с [KDE](https://kde.org/). Silverblue и Kinoite следуют тому же графику релиза, что и Fedora Workstation, получая преимущества от таких же быстрых обновлений и оставаясь очень близкими к upstream.
     
-    [:octicons-home-16: Homepage](https://silverblue.fedoraproject.org/){ .md-button .md-button--primary }
-    [:octicons-info-16:](https://docs.fedoraproject.org/en-US/fedora-silverblue/){ .card-link title=Documentation}
-    [:octicons-heart-16:](https://whatcanidoforfedora.org/){ .card-link title=Contribute }
+    [:octicons-home-16: Домашняя страница](https://silverblue.fedoraproject.org/){ .md-button .md-button--primary }
+    [:octicons-info-16:](https://docs.fedoraproject.org/en-US/fedora-silverblue/){ .card-link title=Документация}
+    [:octicons-heart-16:](https://whatcanidoforfedora.org/){ .card-link title=Поддержать }
 
 Silverblue (and Kinoite) differ from Fedora Workstation as they replace the [DNF](https://fedoraproject.org/wiki/DNF) package manager with a much more advanced alternative called [`rpm-ostree`](https://docs.fedoraproject.org/en-US/fedora/rawhide/system-administrators-guide/package-management/rpm-ostree/). The `rpm-ostree` package manager works by downloading a base image for the system, then overlaying packages over it in a [git](https://en.wikipedia.org/wiki/Git)-like commit tree. When the system is updated, a new base image is downloaded and the overlays will be applied to that new image.
 
@@ -81,13 +85,13 @@ As an alternative to Flatpaks, there is the option of [Toolbox](https://docs.fed
 
 !!! recommendation
 
-    ![NixOS logo](assets/img/linux-desktop/nixos.svg){ align=right }
+    ![Логотип NixOS](assets/img/linux-desktop/nixos.svg){ align=right }
     
-    NixOS is an independent distribution based on the Nix package manager with a focus on reproducibility and reliability.
+    NixOS - это независимый дистрибутив, основанный на пакетном менеджере Nix с акцентом на воспроизводимость и надежность.
     
-    [:octicons-home-16: Homepage](https://nixos.org/){ .md-button .md-button--primary }
-    [:octicons-info-16:](https://nixos.org/learn.html){ .card-link title=Documentation}
-    [:octicons-heart-16:](https://nixos.org/donate.html){ .card-link title=Contribute }
+    [:octicons-home-16: Домашняя страница](https://nixos.org/){ .md-button .md-button--primary }
+    [:octicons-info-16:](https://nixos.org/learn.html){ .card-link title=Документация}
+    [:octicons-heart-16:](https://nixos.org/donate.html){ .card-link title=Поддержать }
 
 NixOS’s package manager keeps every version of every package in a different folder in the **Nix store**. Due to this you can have different versions of the same package installed on your system. After the package contents have been written to the folder, the folder is made read-only.
 
@@ -99,20 +103,20 @@ Nix the package manager uses a purely functional language - which is also called
 
 Nix is a source-based package manager; if there’s no pre-built available in the binary cache, Nix will just build the package from source using its definition. It builds each package in a sandboxed *pure* environment, which is as independent of the host system as possible, thus making binaries reproducible.
 
-## Anonymity-Focused Distributions
+## Дистрибутивы для анонимности
 
 ### Whonix
 
 !!! recommendation
 
-    ![Whonix logo](assets/img/linux-desktop/whonix.svg){ align=right }
+    ![Логотип Whonix](assets/img/linux-desktop/whonix.svg){ align=right }
     
-    **Whonix** is based on [Kicksecure](https://www.whonix.org/wiki/Kicksecure), a security-focused fork of Debian. It aims to provide privacy, security, and anonymity on the internet. Whonix is best used in conjunction with [Qubes OS](#qubes-os).
+    **Whonix** основан на [Kicksecure](https://www.whonix.org/wiki/Kicksecure), форке Debian, ориентированном на безопасность. Его цель - обеспечить конфиденциальность, безопасность и анонимность в интернете. Whonix лучше всего использовать в сочетании с [Qubes OS](#qubes-os).
     
-    [:octicons-home-16: Homepage](https://www.whonix.org/){ .md-button .md-button--primary }
-    [:simple-torbrowser:](http://www.dds6qkxpwdeubwucdiaord2xgbbeyds25rbsgr73tbfpqpt4a6vjwsyd.onion){ .card-link title="Onion Service" }
-    [:octicons-info-16:](https://www.whonix.org/wiki/Documentation){ .card-link title=Documentation}
-    [:octicons-heart-16:](https://www.whonix.org/wiki/Donate){ .card-link title=Contribute }
+    [:octicons-home-16: Домашняя страница](https://www.whonix.org/){ .md-button .md-button--primary }
+    [:simple-torbrowser:](http://www.dds6qkxpwdeubwucdiaord2xgbbeyds25rbsgr73tbfpqpt4a6vjwsyd.onion){ .card-link title="Сервис Onion" }
+    [:octicons-info-16:](https://www.whonix.org/wiki/Documentation){ .card-link title=Документация}
+    [:octicons-heart-16:](https://www.whonix.org/wiki/Donate){ .card-link title=Поддержать }
 
 Whonix is meant to run as two virtual machines: a “Workstation” and a Tor “Gateway.” All communications from the Workstation must go through the Tor gateway. This means that even if the Workstation is compromised by malware of some kind, the true IP address remains hidden.
 
@@ -126,13 +130,13 @@ Whonix is best used [in conjunction with Qubes](https://www.whonix.org/wiki/Qube
 
 !!! recommendation
 
-    ![Tails logo](assets/img/linux-desktop/tails.svg){ align=right }
+    ![Логотип Tails](assets/img/linux-desktop/tails.svg){ align=right }
     
-    **Tails** is a live operating system based on Debian that routes all communications through Tor, which can boot on on almost any computer from a DVD, USB stick, or SD card installation. It uses [Tor](tor.md) to preserve privacy and anonymity while circumventing censorship, and it leaves no trace of itself on the computer it is used on after it is powered off.
+    **Tails** - это операционная система, основанная на Debian и направляющая все коммуникации через Tor, которая может загружаться практически на любом компьютере с DVD или USB-накопителя или SD-карты. Она использует [Tor](tor.md) для сохранения конфиденциальности и анонимности, обходя цензуру и не оставляет следов на используемом компьютере после выключения.
     
-    [:octicons-home-16: Homepage](https://tails.boum.org/){ .md-button .md-button--primary }
-    [:octicons-info-16:](https://tails.boum.org/doc/index.en.html){ .card-link title=Documentation}
-    [:octicons-heart-16:](https://tails.boum.org/donate/){ .card-link title=Contribute }
+    [:octicons-home-16: Домашняя страница](https://tails.boum.org/){ .md-button .md-button--primary }
+    [:octicons-info-16:](https://tails.boum.org/doc/index.en.html){ .card-link title=Документация}
+    [:octicons-heart-16:](https://tails.boum.org/donate/){ .card-link title=Поддержать }
 
 Tails is great for counter forensics due to amnesia (meaning nothing is written to the disk); however, it is not a hardened distribution like Whonix. It lacks many anonymity and security features that Whonix has and gets updated much less often (only once every six weeks). A Tails system that is compromised by malware may potentially bypass the transparent proxy allowing for the user to be deanonymized.
 
@@ -140,7 +144,7 @@ Tails includes [uBlock Origin](desktop-browsers.md#ublock-origin) in Tor Browser
 
 By design, Tails is meant to completely reset itself after each reboot. Encrypted [persistent storage](https://tails.boum.org/doc/persistent_storage/index.en.html) can be configured to store some data between reboots.
 
-## Security-focused Distributions
+## Дистрибутивы для безопасности
 
 ### Qubes OS
 
@@ -150,25 +154,25 @@ By design, Tails is meant to completely reset itself after each reboot. Encrypte
     
     **Qubes OS** - это операционная система с открытым исходным кодом, разработанная для обеспечения сильной безопасности персональных компьютеров. Qubes основан на Xen, X Window System и Linux, и может запускать большинство Linux-приложений и использовать большинство драйверов для Linux.
     
-    [:octicons-home-16: Homepage](https://www.qubes-os.org/){ .md-button .md-button--primary }
-    [:material-arrow-right-drop-circle: Overview](os/qubes-overview.md){ .md-button .md-button--primary }
-    [:simple-torbrowser:](http://qubesosfasa4zl44o4tws22di6kepyzfeqv3tg4e3ztknltfxqrymdad.onion){ .card-link title="Onion Service" }
-    [:octicons-eye-16:](https://www.qubes-os.org/privacy/){ .card-link title="Privacy Policy" }
-    [:octicons-info-16:](https://www.qubes-os.org/doc/){ .card-link title=Documentation }
-    [:octicons-code-16:](https://github.com/QubesOS/){ .card-link title="Source Code" }
-    [:octicons-heart-16:](https://www.qubes-os.org/donate/){ .card-link title=Contribute }
+    [:octicons-home-16: Домашняя страница](https://www.qubes-os.org/){ .md-button .md-button--primary }
+    [:material-arrow-right-drop-circle: Обзор](os/qubes-overview.md){ .md-button .md-button--primary }
+    [:simple-torbrowser:](http://qubesosfasa4zl44o4tws22di6kepyzfeqv3tg4e3ztknltfxqrymdad.onion){ .card-link title="Сервис Onion" }
+    [:octicons-eye-16:](https://www.qubes-os.org/privacy/){ .card-link title="Политика конфиденциальности" }
+    [:octicons-info-16:](https://www.qubes-os.org/doc/){ .card-link title=Документация }
+    [:octicons-code-16:](https://github.com/QubesOS/){ .card-link title="Исходный код" }
+    [:octicons-heart-16:](https://www.qubes-os.org/donate/){ .card-link title=Поддержать }
 
 Qubes OS is a Xen-based operating system meant to provide strong security for desktop computing through secure virtual machines (VMs), also known as *Qubes*.
 
 The Qubes OS operating system secures the computer by isolating subsystems (e.g., networking, USB, etc.) and applications in separate VMs. Should one part of the system be compromised, the extra isolation is likely to protect the rest of the system. For further details see the Qubes [FAQ](https://www.qubes-os.org/faq/).
 
-## Criteria
+## Критерии
 
-**Please note we are not affiliated with any of the projects we recommend.** In addition to [our standard criteria](about/criteria.md), we have developed a clear set of requirements to allow us to provide objective recommendations. We suggest you familiarize yourself with this list before choosing to use a project, and conduct your own research to ensure it's the right choice for you.
+**Обрати внимание, что у нас нет связей ни с одним проектом, который мы рекомендуем.** В дополнение к [нашим стандартным критериям](about/criteria.md) мы разработали четкий набор требований, позволяющий давать объективные рекомендации. Перед тем, как вы решите выбрать какой-либо проект, мы рекомендуем вам ознакомиться со списком критериев и провести собственное исследование, чтобы убедиться в правильности своего выбора.
 
-!!! Для уменьшения этой угрозы рассмотрите возможность самостоятельного хостинга.
+!!! example "Это новый раздел"
 
-    We are working on establishing defined criteria for every section of our site, and this may be subject to change. If you have any questions about our criteria, please [ask on our forum](https://discuss.privacyguides.net/latest) and don't assume we didn't consider something when making our recommendations if it is not listed here. Мы учитываем и обсуждаем много факторов, перед тем как рекомендовать какой-то проект, и документирование каждого из них ещё не завершено.
+    Мы всё еще работаем над установлением критериев для каждого раздела нашего сайта, поэтому они могут поменяться в будущем. Если у вас есть вопросы по поводу наших критериев, пожалуйста, [задавайте их на нашем форуме](https://discuss.privacyguides.net/latest). Если какой-то критерий здесь не указан, это не значит, что мы его не учли. Перед тем, как рекомендовать какой-либо проект мы учитываем и обсуждаем множество факторов. Документирование этих факторов ещё не завершено.
 
 Our recommended operating systems:
 

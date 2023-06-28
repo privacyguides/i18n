@@ -79,7 +79,7 @@ schema:
     operatingSystem: Android
 ---
 
-![Android logo](assets/img/android/android.svg){ align=right }
+![Логотип Android](assets/img/android/android.svg){ align=right }
 
 **Проект с открытым исходным кодом Android** - это мобильная операционная система с открытым исходным кодом под руководством Google, на которой работает большинство мобильных устройств в мире. Большинство телефонов, продаваемых с ОС Android, модифицированы для включения инвазивных интеграций и приложений, таких как Google Play Services, поэтому вы можете значительно улучшить свою конфиденциальность на мобильном устройстве, заменив стандартную ОС телефона на версию Android без этих инвазивных функций.
 
@@ -207,7 +207,7 @@ DivestOS использует F-Droid в качестве магазина пр�
     
     [:octicons-repo-16: Репозиторий](https://gitea.angry.im/PeterCxy/Shelter#shelter){ .md-button .md-button--primary }
     [:octicons-code-16:](https://gitea.angry.im/PeterCxy/Shelter){ .card-link title="Исходный код" }
-    [:octicons-heart-16:](https://www.patreon.com/PeterCxy){ .card-link title=Поддержать}
+    [:octicons-heart-16:](https://www.patreon.com/PeterCxy){ .card-link title=Поддержать }
 
 !!! warning "Осторожно"
 
@@ -228,7 +228,7 @@ DivestOS использует F-Droid в качестве магазина пр�
     [:octicons-eye-16:](https://attestation.app/privacy-policy){ .card-link title="Политика конфиденциальности" }
     [:octicons-info-16:](https://attestation.app/about){ .card-link title=Документация}
     [:octicons-code-16:](https://attestation.app/source){ .card-link title="Исходный код" }
-    [:octicons-heart-16:](https://attestation.app/donate){ .card-link title=Поддержать}
+    [:octicons-heart-16:](https://attestation.app/donate){ .card-link title=Поддержать }
     
     ??? downloads "Скачать"
     
@@ -246,7 +246,7 @@ Auditor осуществляет аттестацию и обнаружение 
 
 В службу аттестации не передается информация, позволяющая установить личность. Мы рекомендуем вам зарегистрироваться с анонимной учетной записью и включить удаленную аттестацию для постоянного мониторинга.
 
-Если ваша [модель угроз](basics/threat-modeling.md) требует конфиденциальности, вы можете рассмотреть возможность использования [Orbot](tor.md#orbot) или VPN, чтобы скрыть свой IP-адрес от службы аттестации. To make sure that your hardware and operating system is genuine, [perform local attestation](https://grapheneos.org/install/web#verifying-installation) immediately after the device has been installed and prior to any internet connection.
+Если ваша [модель угроз](basics/threat-modeling.md) требует конфиденциальности, вы можете рассмотреть возможность использования [Orbot](tor.md#orbot) или VPN, чтобы скрыть свой IP-адрес от службы аттестации. Чтобы убедиться в подлинности оборудования и операционной системы, [проведите локальную аттестацию](https://grapheneos.org/install/web#verifying-installation) сразу после настройки устройства и до подключения к Интернету.
 
 ### Secure Camera
 
@@ -260,7 +260,7 @@ Auditor осуществляет аттестацию и обнаружение 
     [:octicons-repo-16: Репозиторий](https://github.com/GrapheneOS/Camera){ .md-button .md-button--primary }
     [:octicons-info-16:](https://grapheneos.org/usage#camera){ .card-link title=Документация}
     [:octicons-code-16:](https://github.com/GrapheneOS/Camera){ .card-link title="Исходный код" }
-    [:octicons-heart-16:](https://grapheneos.org/donate){ .card-link title=Поддержать}
+    [:octicons-heart-16:](https://grapheneos.org/donate){ .card-link title=Поддержать }
     
     ??? downloads "Скачать"
     
@@ -305,17 +305,17 @@ Auditor осуществляет аттестацию и обнаружение 
 
 ### GrapheneOS App Store
 
-GrapheneOS's app store is available on [GitHub](https://github.com/GrapheneOS/Apps/releases). It supports Android 12 and above and is capable of updating itself. The app store has standalone applications built by the GrapheneOS project such as the [Auditor](https://attestation.app/), [Camera](https://github.com/GrapheneOS/Camera), and [PDF Viewer](https://github.com/GrapheneOS/PdfViewer). If you are looking for these applications, we highly recommend that you get them from GrapheneOS's app store instead of the Play Store, as the apps on their store are signed by the GrapheneOS's project own signature that Google does not have access to.
+Магазин приложений GrapheneOS доступен на [GitHub](https://github.com/GrapheneOS/Apps/releases). Он поддерживается на Android 12 и выше и способен самостоятельно обновляться. В магазине приложений есть отдельные приложения, созданные в рамках проекта GrapheneOS, такие, как [Auditor](https://attestation.app/), [Camera](https://github.com/GrapheneOS/Camera), и [PDF Viewer](https://github.com/GrapheneOS/PdfViewer). Если вы ищете эти приложения, мы настоятельно рекомендуем вам приобрести их в магазине приложений GrapheneOS, а не в Play Store, так как приложения в их магазине подписаны собственной подписью проекта GrapheneOS, к которой Google не имеет доступа.
 
 ### Aurora Store
 
-The Google Play Store requires a Google account to login which is not great for privacy. You can get around this by using an alternative client, such as Aurora Store.
+Для входа в Google Play Store требуется учетная запись Google, что не лучшим образом сказывается на конфиденциальности. Это можно обойти, используя альтернативный клиент, например, Aurora Store.
 
 !!! recommendation
 
-    ![Aurora Store logo](assets/img/android/aurora-store.webp){ align=right }
+    ![Логотип Aurora Store](assets/img/android/aurora-store.webp){ align=right }
     
-    **Aurora Store** is a Google Play Store client which does not require a Google Account, Google Play Services, or microG to download apps.
+    **Aurora Store** - это клиент Google Play Store, которому для загрузки приложений не требуется учетная запись Google, службы Google Play Services или microG.
     
     [:octicons-home-16: Домашняя страница](https://auroraoss.com/){ .md-button .md-button--primary }
     [:octicons-code-16:](https://gitlab.com/AuroraOSS/AuroraStore){ .card-link title="Исходный код" }
@@ -324,35 +324,35 @@ The Google Play Store requires a Google account to login which is not great for 
     
         - [:simple-gitlab: GitLab](https://gitlab.com/AuroraOSS/AuroraStore/-/releases)
 
-Aurora Store does not allow you to download paid apps with their anonymous account feature. You can optionally log in with your Google account with Aurora Store to download apps you have purchased, which does give access to the list of apps you've installed to Google, however you still benefit from not requiring the full Google Play client and Google Play Services or microG on your device.
+Aurora Store не позволяет загружать платные приложения через анонимный аккаунт. Для загрузки купленных вами раннее приложений в Aurora Store можно, по желанию, залогиниться с учетной записью Google, что дает доступ к списку установленных приложений в Google, однако вы все равно получаете преимущество, поскольку вам не требуется полный клиент Google Play и службы Google Play Services или microG на вашем устройстве.
 
 ### Вручную с помощью уведомлений RSS
 
-For apps that are released on platforms like GitHub and GitLab, you may be able to add an RSS feed to your [news aggregator](/news-aggregators) that will help you keep track of new releases.
+Для приложений, которые выпускаются на таких платформах, как GitHub и GitLab, вы можете добавить RSS-ленту в свой [агрегатор новостей](/news-aggregators), которая поможет вам отслеживать новые релизы.
 
-![RSS APK](./assets/img/android/rss-apk-light.png#only-light) ![RSS APK](./assets/img/android/rss-apk-dark.png#only-dark) ![APK Changes](./assets/img/android/rss-changes-light.png#only-light) ![APK Changes](./assets/img/android/rss-changes-dark.png#only-dark)
+![RSS APK](./assets/img/android/rss-apk-light.png#only-light) ![RSS APK](./assets/img/android/rss-apk-dark.png#only-dark) ![Изменения APK](./assets/img/android/rss-changes-light.png#only-light) ![Изменения APK](./assets/img/android/rss-changes-dark.png#only-dark)
 
 #### GitHub
 
-On GitHub, using [Secure Camera](#secure-camera) as an example, you would navigate to its [releases page](https://github.com/GrapheneOS/Camera/releases) and append `.atom` to the URL:
+На GitHub (используем в качестве примера [Secure Camera](#secure-camera)) нужно перейти на [страницу релизов](https://github.com/GrapheneOS/Camera/releases) и добавить `.atom` к URL:
 
 `https://github.com/GrapheneOS/Camera/releases.atom`
 
 #### GitLab
 
-On GitLab, using [Aurora Store](#aurora-store) as an example, you would navigate to its [project repository](https://gitlab.com/AuroraOSS/AuroraStore) and append `/-/tags?format=atom` to the URL:
+На GitLab (используем в качестве примера [Aurora Store](#aurora-store)) нужно открыть [репозиторий проекта](https://gitlab.com/AuroraOSS/AuroraStore) и добавить `/-/tags?format=atom` к URL:
 
 `https://gitlab.com/AuroraOSS/AuroraStore/-/tags?format=atom`
 
 #### Проверка цифровых отпечатков APK
 
-If you download APK files to install manually, you can verify their signature with the [`apksigner`](https://developer.android.com/studio/command-line/apksigner) tool, which is a part of Android [build-tools](https://developer.android.com/studio/releases/build-tools).
+Если вы загружаете APK-файлы для установки вручную, вы можете проверить их подпись с помощью утилиты [`apksigner`](https://developer.android.com/studio/command-line/apksigner), которая является частью Android [build-tools](https://developer.android.com/studio/releases/build-tools).
 
-1. Install [Java JDK](https://www.oracle.com/java/technologies/downloads/).
+1. Установите [Java JDK](https://www.oracle.com/java/technologies/downloads/).
 
-2. Download the [Android Studio command line tools](https://developer.android.com/studio#command-tools).
+2. Скачайте [Android Studio command line tools](https://developer.android.com/studio#command-tools).
 
-3. Extract the downloaded archive:
+3. Разархивируйте скачанный архив:
 
     ```bash
     unzip commandlinetools-*.zip
@@ -360,13 +360,13 @@ If you download APK files to install manually, you can verify their signature wi
     ./bin/sdkmanager --sdk_root=./ "build-tools;29.0.3"
     ```
 
-4. Run the signature verification command:
+4. Запустите команду проверки подписи:
 
     ```bash
     ./build-tools/29.0.3/apksigner verify --print-certs ../Camera-37.apk
     ```
 
-5. The resulting hashes can then be compared with another source. Some developers such as Signal [show the fingerprints](https://signal.org/android/apk/) on their website.
+5. Затем полученные хэши можно сравнить с другим источником. Некоторые разработчики, такие как Signal, [показывают хэши](https://signal.org/android/apk/) на своем сайте.
 
     ```bash
     Signer #1 certificate DN: CN=GrapheneOS
@@ -377,48 +377,48 @@ If you download APK files to install manually, you can verify their signature wi
 
 ### F-Droid
 
-![F-Droid logo](assets/img/android/f-droid.svg){ align=right width=120px }
+![Логотип F-Droid](assets/img/android/f-droid.svg){ align=right width=120px }
 
-==We do **not** currently recommend F-Droid as a way to obtain apps.== F-Droid is often recommended as an alternative to Google Play, particularly in the privacy community. The option to add third-party repositories and not be confined to Google's walled garden has led to its popularity. F-Droid additionally has [reproducible builds](https://f-droid.org/en/docs/Reproducible_Builds/) for some applications and is dedicated to free and open-source software. However, there are [notable problems](https://privsec.dev/posts/android/f-droid-security-issues/) with the official F-Droid client, their quality control, and how they build, sign, and deliver packages.
+==В настоящее время мы **не** рекомендуем F-Droid в качестве способа получения приложений.== F-Droid часто рекомендуется в качестве альтернативы Google Play, особенно в сообществе, занимающемся вопросами конфиденциальности. Возможность добавлять сторонние репозитории и не ограничиваться рамками Google стала причиной его популярности. F-Droid дополнительно имеет [воспроизводимые сборки](https://f-droid.org/en/docs/Reproducible_Builds/) для некоторых приложений и является приверженцем свободного программного обеспечения с открытым исходным кодом. Однако есть [заметные проблемы](https://privsec.dev/posts/android/f-droid-security-issues/) с официальным клиентом F-Droid, их контролем качества и тем, как они создают, подписывают и доставляют пакеты.
 
-Due to their process of building apps, apps in the official F-Droid repository often fall behind on updates. F-Droid maintainers also reuse package IDs while signing apps with their own keys, which is not ideal as it gives the F-Droid team ultimate trust.
+Из-за их процесса сборки приложений, приложения в официальном репозитории F-Droid часто не получают обновлений. Владельцы F-Droid повторно используют идентификаторы пакетов при подписании приложений собственными ключами, что не является идеальным, поскольку это дает команде F-Droid абсолютное доверие.
 
-Other popular third-party repositories such as [IzzyOnDroid](https://apt.izzysoft.de/fdroid/) alleviate some of these concerns. The IzzyOnDroid repository pulls builds directly from GitHub and is the next best thing to the developers' own repositories. However, it is not something that we can recommend, as apps are typically [removed](https://github.com/vfsfitvnm/ViMusic/issues/240#issuecomment-1225564446) from that respository when they make it to the main F-Droid repository. While that makes sense (since the goal of that particular repository is to host apps before they're accepted into the main F-Droid repository), it can leave you with installed apps which no longer receive updates.
+Другие популярные сторонние репозитории, такие как [IzzyOnDroid](https://apt.izzysoft.de/fdroid/), решают некоторые из этих проблем. Репозиторий IzzyOnDroid берет сборки непосредственно с GitHub и является аналогом собственных репозиториев разработчиков. Однако мы не рекомендуем этого делать, поскольку приложения обычно [удаляются](https://github.com/vfsfitvnm/ViMusic/issues/240#issuecomment-1225564446) из этого репозитория, когда они попадают в основной репозиторий F-Droid. Хотя в этом есть смысл (поскольку цель этого конкретного репозитория - размещение приложений до того, как они будут приняты в основной репозиторий F-Droid), это может оставить вас с установленными приложениями, которые больше не получают обновлений.
 
-That said, the [F-Droid](https://f-droid.org/en/packages/) and [IzzyOnDroid](https://apt.izzysoft.de/fdroid/) repositories are home to countless apps, so they can be a useful tool to search for and discover open-source apps that you can then download through Play Store, Aurora Store, or by getting the APK directly from the developer. It is important to keep in mind that some apps in these repositories have not been updated in years and may rely on unsupported libraries, among other things, posing a potential security risk. You should use your best judgement when looking for new apps via this method.
+Тем не менее, репозитории [F-Droid](https://f-droid.org/en/packages/) и [IzzyOnDroid](https://apt.izzysoft.de/fdroid/) являются домом для бесчисленных приложений, поэтому они могут быть полезным инструментом для поиска и обнаружения приложений с открытым исходным кодом, которые затем можно загрузить через Play Store, Aurora Store или получить APK непосредственно от разработчика. Важно помнить, что некоторые приложения в этих репозиториях не обновлялись годами и могут опираться на неподдерживаемые библиотеки, что, помимо прочего, представляет потенциальную угрозу безопасности. При поиске новых приложений с помощью этого метода следует руководствоваться своими соображениями.
 
 !!! note "Примечание"
 
-    In some rare cases, the developer of an app will only distribute it through F-Droid ([Gadgetbridge](https://gadgetbridge.org/) is one example of this). If you really need an app like that, we recommend using [Neo Store](https://github.com/NeoApplications/Neo-Store/) instead of the official F-Droid app to obtain it.
+    В некоторых редких случаях разработчик приложения будет распространять его только через F-Droid ([Gadgetbridge](https://gadgetbridge.org/) - один из примеров этого). Если вам действительно нужно такое приложение, мы рекомендуем использовать [Neo Store](https://github.com/NeoApplications/Neo-Store/) вместо официального приложения F-Droid для его получения.
 
 ## Критерии
 
-**Please note we are not affiliated with any of the projects we recommend.** In addition to [our standard criteria](about/criteria.md), we have developed a clear set of requirements to allow us to provide objective recommendations. We suggest you familiarize yourself with this list before choosing to use a project, and conduct your own research to ensure it's the right choice for you.
+**Обрати внимание, что у нас нет связей ни с одним проектом, который мы рекомендуем.** В дополнение к [нашим стандартным критериям](about/criteria.md) мы разработали четкий набор требований, позволяющий давать объективные рекомендации. Перед тем, как вы решите выбрать какой-либо проект, мы рекомендуем вам ознакомиться со списком критериев и провести собственное исследование, чтобы убедиться в правильности своего выбора.
 
-!!! Для уменьшения этой угрозы рассмотрите возможность самостоятельного хостинга.
+!!! example "Это новый раздел"
 
-    We are working on establishing defined criteria for every section of our site, and this may be subject to change. If you have any questions about our criteria, please [ask on our forum](https://discuss.privacyguides.net/latest) and don't assume we didn't consider something when making our recommendations if it is not listed here. Мы учитываем и обсуждаем много факторов, перед тем как рекомендовать какой-то проект, и документирование каждого из них ещё не завершено.
+    Мы всё еще работаем над установлением критериев для каждого раздела нашего сайта, поэтому они могут поменяться в будущем. Если у вас есть вопросы по поводу наших критериев, пожалуйста, [задавайте их на нашем форуме](https://discuss.privacyguides.net/latest). Если какой-то критерий здесь не указан, это не значит, что мы его не учли. Перед тем, как рекомендовать какой-либо проект мы учитываем и обсуждаем множество факторов. Документирование этих факторов ещё не завершено.
 
-### Программное обеспечение
+### Операционные системы
 
-- Must be open-source software.
-- Must support bootloader locking with custom AVB key support.
-- Must receive major Android updates within 0-1 months of release.
-- Must receive Android feature updates (minor version) within 0-14 days of release.
-- Must receive regular security patches within 0-5 days of release.
-- Must **not** be "rooted" out of the box.
-- Must **not** enable Google Play Services by default.
-- Must **not** require system modification to support Google Play Services.
+- Должны иметь открытый исходный код.
+- Должны поддерживать блокировку загрузчика с поддержкой кастомного ключа AVB.
+- Должны получать основные обновления Android в течение 1 месяца после релиза.
+- Должны получать обновления функций Android (минорные версии) в течение 14 дней после релиза.
+- Должен регулярно получать патчи безопасности в течение 5 дней после релиза.
+- По умолчанию root-доступ должен **выключен**.
+- По умолчанию Google Play Services должны быть **выключены**.
+- **Не** должны требоваться модификации системы для поддержки Google Play Services.
 
-### Устройства
+### Девайсы
 
-- Must support at least one of our recommended custom operating systems.
-- Must be currently sold new in stores.
-- Must receive a minimum of 5 years of security updates.
-- Must have dedicated secure element hardware.
+- Должны поддерживать хотя бы одну из рекомендованных нами кастомных операционных систем.
+- Должны продаваться новыми в магазинах.
+- Должны получать обновления безопасности минимум 5 лет.
+- Должен быть отдельный аппаратный элемент безопасности.
 
 ### Приложения
 
-- Applications on this page must not be applicable to any other software category on the site.
-- General applications should extend or replace core system functionality.
-- Applications should receive regular updates and maintenance.
+- Приложения на этой странице не должны относиться к какой-либо другой категории программного обеспечения на сайте.
+- В целом приложения должны расширять или заменять основную функциональность системы.
+- Приложения должны регулярно обновляться и поддерживаться.

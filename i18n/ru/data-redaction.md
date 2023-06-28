@@ -1,80 +1,86 @@
 ---
-meta_title: "Remove PII with Metadata Scrubbers and Data Redaction Tools - Privacy Guides"
-title: "Инструменты для шифрования"
+meta_title: "Удаление ПД с помощью инструментов удаления метаданных и редактирования данных - Privacy Guides"
+title: "Редактирование данных и метаданных"
 icon: material/tag-remove
-description: Use these tools to remove metadata like GPS location and other identifying information from photos and files you share.
+description: Используйте эти инструменты для удаления метаданных, таких как местоположение GPS и другой идентифицирующей информации, с фотографий и файлов, которыми вы делитесь.
 cover: data-redaction.png
 ---
 
-Когда вы делитесь с кем-то файлами, то не забудьте удалить связанные с ними метаданные. Файлы изображений обычно содержат [данные EXIF](https://ru.wikipedia.org/wiki/Exif). Иногда фотографии даже включают ваши [GPS](https://ru.wikipedia.org/wiki/GPS) координаты в метаданные файла.
+Когда вы делитесь с кем-то файлами, то не забудьте удалить связанные с ними метаданные. Файлы изображений обычно содержат [данные EXIF](https://ru.wikipedia.org/wiki/Exif). Иногда фотографии даже содержат ваши GPS координаты в метаданных файла.
 
 ## Для компьютеров
 
-### ExifCleaner
+### MAT2
 
 !!! recommendation
 
-    ![MAT2 logo](assets/img/data-redaction/mat2.svg){ align=right }
+    ![Логотип MAT2](assets/img/data-redaction/mat2.svg){ align=right }
     
-    **MAT2** is free software, which allows the metadata to be removed from image, audio, torrent, and document file types. Он поддерживает многоядерную обработку нескольких файлов одновременно, а также темную тему.
+    **MAT2** - это бесплатное программное обеспечение, которое позволяет удалять метаданные из изображений, аудио, торрентов и документов. Оно предоставляет как инструмент командной строки, так и графический интерфейс пользователя через [расширение для Nautilus](https://0xacab.org/jvoisin/mat2/-/tree/master/nautilus) (файловый менеджер по умолчанию в [GNOME](https://www.gnome.org)), и [Dolphin](https://0xacab.org/jvoisin/mat2/-/tree/master/dolphin) (файловый менеджер по умолчанию в [KDE](https://kde.org)).
     
-    [Посетить exifcleaner.com](https://exifcleaner.com){ .md-button .md-button--primary }
+    В Linux существует сторонний графический инструмент [Metadata Cleaner](https://gitlab.com/rmnvgr/metadata-cleaner) на базе MAT2, который [доступен на Flathub](https://flathub.org/apps/details/fr.romainvigier.MetadataCleaner).
     
-    downloads
+    [:octicons-repo-16: Репозиторий](https://0xacab.org/jvoisin/mat2){ .md-button .md-button--primary }
+    [:octicons-info-16:](https://0xacab.org/jvoisin/mat2/-/blob/master/README.md){ .card-link title=Документация}
+    [:octicons-code-16:](https://0xacab.org/jvoisin/mat2){ .card-link title="Исходный код" }
     
-        - [:fontawesome-brands-windows: Windows](https://github.com/szTheory/exifcleaner/releases)
-        - [:fontawesome-brands-apple: macOS](https://github.com/szTheory/exifcleaner/releases)
-        - [:fontawesome-brands-linux: Linux](https://github.com/szTheory/exifcleaner/releases)
-        - [:fontawesome-brands-github: Исходный код](https://github.com/szTheory/exifcleaner) downloads
+    ??? downloads "Скачать"
     
         - [:simple-windows11: Windows](https://pypi.org/project/mat2)
         - [:simple-apple: macOS](https://0xacab.org/jvoisin/mat2#requirements-setup-on-macos-os-x-using-homebrew)
         - [:simple-linux: Linux](https://pypi.org/project/mat2)
         - [:octicons-globe-16: Web](https://0xacab.org/jvoisin/mat2#web-interface)
 
-## Прошивки для роутера
+## Для телефонов
 
-### Scrambled Exif
+### ExifEraser (Android)
 
 !!! recommendation
 
-    ![ExifEraser logo](assets/img/data-redaction/exiferaser.svg){ align=right }
+    ![Логотип ExifEraser](assets/img/data-redaction/exiferaser.svg){ align=right }
     
-    **ExifEraser** is a modern, permissionless image metadata erasing application for Android.
+    **ExifEraser** - это современное приложение, не требующее разрешений, для удаления метаданных изображений для Android.
     
-    Он может удалять данные [EXIF](https://ru.wikipedia.org/wiki/Exif) из многих форматов файлов и переведен на [множество](https://gitlab.com/juanitobananas/scrambled-exif/-/tree/master/app/src/main/res) языков.
+    В настоящее время он поддерживает файлы JPEG, PNG и WebP.
     
-    [Перейти на gitlab.com](https://gitlab.com/juanitobananas/scrambled-exif){ .md-button .md-button--primary } downloads
+    [:octicons-repo-16: Репозиторий](https://github.com/Tommy-Geenexus/exif-eraser){ .md-button .md-button--primary }
+    [:octicons-info-16:](https://github.com/Tommy-Geenexus/exif-eraser#readme){ .card-link title=Документация}
+    [:octicons-code-16:](https://github.com/Tommy-Geenexus/exif-eraser){ .card-link title="Исходный код" }
+    
+    ??? downloads "Скачать"
     
         - [:simple-googleplay: Google Play](https://play.google.com/store/apps/details?id=com.none.tom.exiferaser)
         - [:octicons-moon-16: Accrescent](https://accrescent.app/app/com.none.tom.exiferaser)
         - [:simple-github: GitHub](https://github.com/Tommy-Geenexus/exif-eraser/releases)
 
-The metadata that is erased depends on the image's file type:
+Удаляемые метаданные зависят от типа файла изображения:
 
-* **JPEG**: ICC Profile, Exif, Photoshop Image Resources and XMP/ExtendedXMP metadata will be erased if it exists.
-* **PNG**: ICC Profile, Exif and XMP metadata will be erased if it exists.
-* **WebP**: ICC Profile, Exif and XMP metadata will be erased if it exists.
+* **JPEG**: ICC Профиль, Exif, Photoshop Image Resources и XMP/ExtendedXMP будут удалены, если они существуют.
+* **PNG**: ICC Profile, Exif и XMP будут удалены, если они существуют.
+* **WebP**: ICC Profile, Exif и XMP будут удалены, если они существуют.
 
-After processing the images, ExifEraser provides you with a full report about what exactly was removed from each image.
+После обработки изображений ExifEraser предоставляет вам полный отчет о том, что именно было удалено с каждого изображения.
 
-The app offers multiple ways to erase metadata from images. recommendation
+Приложение предлагает несколько способов удаления метаданных с изображений. А именно:
 
-* You can share an image from another application with ExifEraser.
-* Through the app itself, you can select a single image, multiple images at once, or even an entire directory.
-* It features a "Camera" option, which uses your operating system's camera app to take a photo, and then it removes the metadata from it.
-* It allows you to drag photos from another app into ExifEraser when they are both open in split-screen mode.
-* Lastly, it allows you to paste an image from your clipboard.
+* С помощью ExifEraser можно поделиться изображением из другого приложения.
+* В самом приложении можно выбрать одно изображение, несколько изображений сразу или даже целый каталог.
+* В нем есть опция "Камера", которая использует приложение камеры вашей операционной системы для создания фотографии, а затем удаляет из нее метаданные.
+* Он позволяет перетаскивать фотографии из другого приложения в ExifEraser, когда они оба открыты в режиме разделенного экрана.
+* Наконец, он позволяет вставить изображение из буфера обмена.
 
-### Imagepipe
+### Metapho (iOS)
 
 !!! recommendation
 
-    ![Metapho logo](assets/img/data-redaction/metapho.jpg){ align=right }
+    ![Логотип Metapho](assets/img/data-redaction/metapho.jpg){ align=right }
     
-    **Metapho** is a simple and clean viewer for photo metadata such as date, file name, size, camera model, shutter speed, and location.
+    **Metapho** - это простая и чистая программа для просмотра метаданных фотографии, таких как дата, имя файла, размер, модель камеры, выдержка и местоположение.
     
-    [Перейти на codeberg.org](https://codeberg.org/Starfish/Imagepipe){ .md-button .md-button--primary } downloads
+    [:octicons-home-16: Домашняя страница](https://zininworks.com/metapho){ .md-button .md-button--primary }
+    [:octicons-eye-16:](https://zininworks.com/privacy/){ .card-link title="Политика конфиденциальности" }
+    
+    ??? downloads "Скачать"
     
         - [:simple-appstore: App Store](https://apps.apple.com/us/app/metapho/id914457352)
 
@@ -82,60 +88,60 @@ The app offers multiple ways to erase metadata from images. recommendation
 
 !!! recommendation
 
-    ![PrivacyBlur logo](assets/img/data-redaction/privacyblur.svg){ align=right }
+    ![Логотип PrivacyBlur](assets/img/data-redaction/privacyblur.svg){ align=right }
     
-    **PrivacyBlur** is a free app which can blur sensitive portions of pictures before sharing them online.
+    **PrivacyBlur** - это бесплатное приложение, которое позволяет размыть чувствительные части фотографий перед тем, как поделиться ими в интернете.
     
-    [:octicons-home-16: Homepage](https://privacyblur.app/){ .md-button .md-button--primary }
-    [:octicons-eye-16:](https://privacyblur.app/privacy.html){ .card-link title="Privacy Policy" }
-    [:octicons-info-16:](https://github.com/MATHEMA-GmbH/privacyblur#readme){ .card-link title=Documentation}
-    [:octicons-code-16:](https://github.com/MATHEMA-GmbH/privacyblur){ .card-link title="Source Code" }
+    [:octicons-home-16: Домашняя страница](https://privacyblur.app/){ .md-button .md-button--primary }
+    [:octicons-eye-16:](https://privacyblur.app/privacy.html){ .card-link title="Политика конфиденциальности" }
+    [:octicons-info-16:](https://github.com/MATHEMA-GmbH/privacyblur#readme){ .card-link title=Документация}
+    [:octicons-code-16:](https://github.com/MATHEMA-GmbH/privacyblur){ .card-link title="Исходный код" }
     
-    ??? downloads
+    ??? downloads "Скачать"
     
         - [:simple-googleplay: Google Play](https://play.google.com/store/apps/details?id=de.mathema.privacyblur)
         - [:simple-appstore: App Store](https://apps.apple.com/us/app/privacyblur/id1536274106)
 
-!!! note
+!!! warning "Осторожно"
 
-    You should **never** use blur to redact [text in images](https://bishopfox.com/blog/unredacter-tool-never-pixelation). If you want to redact text in an image, draw a box over the text. For this, we suggest apps like [Pocket Paint](https://github.com/Catrobat/Paintroid).
+    Вы **никогда** не должны использовать размытие для редактирования [текста на изображениях] (https://bishopfox.com/blog/unredacter-tool-never-pixelation). Если вы хотите скрыть текст на изображении, закройте текст черным квадратом. Для этого мы предлагаем такие приложения, как [Pocket Paint](https://github.com/Catrobat/Paintroid).
 
-## Шифрование через командную строку
+## Для командной строки
 
-### Metapho
+### ExifTool
 
 !!! recommendation
 
-    ![ExifTool logo](assets/img/data-redaction/exiftool.png){ align=right }
+    ![Логотип ExifTool](assets/img/data-redaction/exiftool.png){ align=right }
     
-    **ExifTool** is the original perl library and command-line application for reading, writing, and editing meta information (Exif, IPTC, XMP, and more) in a wide variety of file formats (JPEG, TIFF, PNG, PDF, RAW, and more).
+    **ExifTool** - это оригинальная библиотека perl и приложение командной строки для чтения, записи и редактирования метаинформации (Exif, IPTC, XMP и др.) в самых разных форматах файлов (JPEG, TIFF, PNG, PDF, RAW и др.).
     
-    Оно переведено на [множество](https://codeberg.org/Starfish/Imagepipe#translations) языков.
+    Он часто является компонентом других приложений для удаления Exif и находится в репозиториях большинства дистрибутивов Linux.
     
-    [:octicons-home-16: Homepage](https://exiftool.org){ .md-button .md-button--primary }
-    [:octicons-info-16:](https://exiftool.org/faq.html){ .card-link title=Documentation}
-    [:octicons-code-16:](https://github.com/exiftool/exiftool){ .card-link title="Source Code" }
-    [:octicons-heart-16:](https://exiftool.org/#donate){ .card-link title=Contribute }
+    [:octicons-home-16: Домашняя страница](https://exiftool.org){ .md-button .md-button--primary }
+    [:octicons-info-16:](https://exiftool.org/faq.html){ .card-link title=Документация}
+    [:octicons-code-16:](https://github.com/exiftool/exiftool){ .card-link title="Исходный код" }
+    [:octicons-heart-16:](https://exiftool.org/#donate){ .card-link title=Поддержать }
     
-    ??? downloads
+    ??? downloads "Скачать"
     
         - [:simple-windows11: Windows](https://exiftool.org)
         - [:simple-apple: macOS](https://exiftool.org)
         - [:simple-linux: Linux](https://exiftool.org)
 
-!!! example "Deleting data from a directory of files"
+!!! example "Удаление данных из каталога файлов"
 
     ```bash
     exiftool -all= *.file_extension
     ```
 
-## Criteria
+## Критерии
 
-**Please note we are not affiliated with any of the projects we recommend.** In addition to [our standard criteria](about/criteria.md), we have developed a clear set of requirements to allow us to provide objective recommendations. We suggest you familiarize yourself with this list before choosing to use a project, and conduct your own research to ensure it's the right choice for you.
+**Обрати внимание, что у нас нет связей ни с одним проектом, который мы рекомендуем.** В дополнение к [нашим стандартным критериям](about/criteria.md) мы разработали четкий набор требований, позволяющий давать объективные рекомендации. Перед тем, как вы решите выбрать какой-либо проект, мы рекомендуем вам ознакомиться со списком критериев и провести собственное исследование, чтобы убедиться в правильности своего выбора.
 
-!!! Для уменьшения этой угрозы рассмотрите возможность самостоятельного хостинга.
+!!! example "Это новый раздел"
 
-    We are working on establishing defined criteria for every section of our site, and this may be subject to change. If you have any questions about our criteria, please [ask on our forum](https://discuss.privacyguides.net/latest) and don't assume we didn't consider something when making our recommendations if it is not listed here. Мы учитываем и обсуждаем много факторов, перед тем как рекомендовать какой-то проект, и документирование каждого из них ещё не завершено.
+    Мы всё еще работаем над установлением критериев для каждого раздела нашего сайта, поэтому они могут поменяться в будущем. Если у вас есть вопросы по поводу наших критериев, пожалуйста, [задавайте их на нашем форуме](https://discuss.privacyguides.net/latest). Если какой-то критерий здесь не указан, это не значит, что мы его не учли. Перед тем, как рекомендовать какой-либо проект мы учитываем и обсуждаем множество факторов. Документирование этих факторов ещё не завершено.
 
-- Apps developed for open-source operating systems must be open-source.
-- Apps must be free and should not include ads or other limitations.
+- Приложения, разработанные для операционных систем с открытым исходным кодом, должны быть с открытым исходным кодом.
+- Приложения должны быть бесплатными и не должны содержать рекламы или других ограничений.

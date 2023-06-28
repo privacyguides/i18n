@@ -1,5 +1,5 @@
 ---
-title: "О Privacy Guides"
+title: "Что такое Privacy Guides"
 description: Privacy Guides - это сайт, предоставляющий информацию по защите безопасности и конфиденциальности ваших данных.
 schema:
   "@context": https://schema.org

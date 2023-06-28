@@ -1,56 +1,57 @@
 ---
-meta_title: "The Best Private and Secure Cloud Storage Providers - Privacy Guides"
-title: "Электронная почта"
+meta_title: "Лучшие приватные и безопасные облачные хранилища - Privacy Guides"
+title: "Облачное хранилище"
 icon: material/file-cloud
-description: Many cloud storage providers require your trust that they will not look at your files. These are private alternatives!
+description: Многие облачные хранилища требуют от вас полностью им доверять, что они не будут просматривать ваши файлы. Это приватные альтернативы!
 cover: cloud.png
 ---
 
-Многие сервисы облачного хранилища требуют от вас полного доверия, что они не будут просматривать ваши файлы. The alternatives listed below eliminate the need for trust by implementing secure E2EE.
+Многие облачные хранилища требуют от вас полностью им доверять, что они не будут просматривать ваши файлы. Альтернативы, перечисленные ниже, устраняют необходимость в доверии путем внедрения безопасного E2EE.
 
-If these alternatives do not fit your needs, we suggest you look into using encryption software like [Cryptomator](encryption.md#cryptomator-cloud) with another cloud provider. Using Cryptomator in conjunction with **any** cloud provider (including these) may be a good idea to reduce the risk of encryption flaws in a provider's native clients.
+Если эти альтернативы не соответствуют вашим потребностям, мы предлагаем вам рассмотреть возможность использования программного обеспечения для шифрования, например, [Cryptomator](encryption.md#cryptomator-cloud) с другими облачными хранилищами. Использование Cryptomator в сочетании с **любым** облачным хранилищем (включая эти) может быть хорошей идеей для снижения риска ошибок шифрования в собственных клиентах провайдера.
 
 ??? question "Ищете Nextcloud?"
 
-    Nextcloud is [still a recommended tool](productivity.md) for self-hosting a file management suite, however we do not recommend third-party Nextcloud storage providers at the moment, because we do [not recommend](https://discuss.privacyguides.net/t/dont-recommend-nextcloud-e2ee/10352/29) Nextcloud's built-in E2EE functionality for home users.
+    Nextcloud по-прежнему является [рекомендуем инструментом](productivity.md) для самостоятельного хостинга, но мы не рекомендуем использование сторонних провайдеров хранилища Nextcloud, так как 
+     мы [не рекомендуем](https://discuss.privacyguides.net/t/dont-recommend-nextcloud-e2ee/10352/29) встроенное в Nextcloud E2EE для домашнего использования.
 
 ## Proton Drive
 
 !!! recommendation
 
-    ![Proton Drive logo](assets/img/cloud/protondrive.svg){ align=right }
+    ![Логотип Proton Drive](assets/img/cloud/protondrive.svg){ align=right }
     
-    **Proton Drive** is a Swiss encrypted cloud storage provider from the popular encrypted email provider [Proton Mail](email.md#proton-mail).
+    **Proton Drive** - швейцарское зашифрованное облачных хранилищ от популярного провайдера зашифрованной электронной почты [Proton Mail](email.md#proton-mail).
     
-    [:octicons-home-16: Homepage](https://proton.me/drive){ class="md-button md-button--primary" }
-    [:octicons-eye-16:](https://proton.me/legal/privacy){ .card-link title="Privacy Policy" }
-    [:octicons-info-16:](https://proton.me/support/drive){ .card-link title=Documentation}
-    [:octicons-code-16:](https://github.com/ProtonMail/WebClients){ .card-link title="Source Code" }
+    [:octicons-home-16: Домашняя страница](https://proton.me/drive){ class="md-button md-button--primary" }
+    [:octicons-eye-16:](https://proton.me/legal/privacy){ .card-link title="Политика конфиденциальности" }
+    [:octicons-info-16:](https://proton.me/support/drive){ .card-link title=Документация}
+    [:octicons-code-16:](https://github.com/ProtonMail/WebClients){ .card-link title="Исходный код" }
     
     ??? downloads "Скачать"
     
         - [:simple-googleplay: Google Play](https://play.google.com/store/apps/details?id=me.proton.android.drive)
         - [:simple-appstore: App Store](https://apps.apple.com/app/id1509667851)
 
-The Proton Drive web application has been independently audited by Securitum in [2021](https://proton.me/blog/security-audit-all-proton-apps), full details were not made available, but Securitum's letter of attestation states:
+Веб-приложение Proton Drive прошло независимый аудит компании Securitum в [2021 году](https://proton.me/blog/security-audit-all-proton-apps), полные подробности не были предоставлены, но в аттестационном письме Securitum говорится:
 
-> Auditors identified two low-severity vulnerabilities. Additionally, five general recommendations were reported. At the same time, we confirm that no important security issues were identified during the pentest.
+> Аудиторы выявили две уязвимости низкой степени серьезности. Кроме того, были представлены пять общих рекомендаций. В то же время мы подтверждаем, что в ходе теста на проникновение не было выявлено никаких важных проблем с безопасностью.
 
-Proton Drive's brand new mobile clients have not yet been publicly audited by a third-party.
+Новые мобильные клиенты "Proton Drive" еще не прошли публичный аудит третьей стороной.
 
 ## Tresorit
 
 !!! recommendation
 
-    ![Tresorit logo](assets/img/cloud/tresorit.svg){ align=right }
+    ![Логотип Tresorit](assets/img/cloud/tresorit.svg){ align=right }
     
-    **Tresorit** is a Swiss-Hungarian encrypted cloud storage provider founded in 2011. Tresorit is owned by the Swiss Post, the national postal service of Switzerland.
+    **Tresorit** - швейцарско-венгерский провайдер зашифрованных облачных хранилищ, основанный в 2011 году. Tresorit принадлежит Swiss Post, национальной почтовой службе Швейцарии.
     
-    [:octicons-home-16: Homepage](https://tresorit.com/){ class="md-button md-button--primary" }
-    [:octicons-eye-16:](https://tresorit.com/legal/privacy-policy){ .card-link title="Privacy Policy" }
-    [:octicons-info-16:](https://support.tresorit.com/hc/en-us){ .card-link title=Documentation}
+    [:octicons-home-16: Домашняя страница](https://tresorit.com/){ class="md-button md-button--primary" }
+    [:octicons-eye-16:](https://tresorit.com/legal/privacy-policy){ .card-link title="Политика конфиденциальности" }
+    [:octicons-info-16:](https://support.tresorit.com/hc/en-us){ .card-link title=Документация}
     
-    ??? downloads
+    ??? downloads "Скачать"
     
         - [:simple-googleplay: Google Play](https://play.google.com/store/apps/details?id=com.tresorit.mobile)
         - [:simple-appstore: App Store](https://apps.apple.com/app/apple-store/id722163232)
@@ -58,27 +59,27 @@ Proton Drive's brand new mobile clients have not yet been publicly audited by a 
         - [:simple-apple: macOS](https://tresorit.com/download)
         - [:simple-linux: Linux](https://tresorit.com/download)
 
-Tresorit has received a number of independent security audits:
+Компания Tresorit прошла ряд независимых аудитов безопасности:
 
-- [2022](https://tresorit.com/blog/tresorit-receives-iso-27001-certification/): ISO/IEC 27001:2013[^1] Compliance [Certification](https://www.certipedia.com/quality_marks/9108644476) by TÜV Rheinland InterCert Kft
-- [2021](https://tresorit.com/blog/fresh-penetration-testing-confirms-tresorit-security/): Penetration Testing by Computest
-    - This review assessed the security of the Tresorit web client, Android app, Windows app, and associated infrastructure.
-    - Computest discovered two vulnerabilities which have been resolved.
-- [2019](https://tresorit.com/blog/ernst-young-review-verifies-tresorits-security-architecture/): Penetration Testing by Ernst & Young.
-    - This review analyzed the full source code of Tresorit and validated that the implementation matches the concepts described in Tresorit's [white paper](https://prodfrontendcdn.azureedge.net/202208011608/tresorit-encryption-whitepaper.pdf).
-    - Ernst & Young additionally tested the web, mobile, and desktop clients: "Test results found no deviation from Tresorit’s data confidentiality claims."
+- [2022](https://tresorit.com/blog/tresorit-receives-iso-27001-certification/): ISO/IEC 27001:2013[^1] соответствие [сертификации](https://www.certipedia.com/quality_marks/9108644476) от TÜV Rheinland InterCert Kft
+- [2021](https://tresorit.com/blog/fresh-penetration-testing-confirms-tresorit-security/): Тестирование на проникновение от Computest
+    - В данном обзоре оценивалась безопасность веб-клиента Tresorit, приложения для Android, приложения для Windows и соответствующей инфраструктуры.
+    - Computest обнаружил две уязвимости, которые были устранены.
+- [2019](https://tresorit.com/blog/ernst-young-review-verifies-tresorits-security-architecture/): Тестирование на проникновение от Ernst & Young.
+    - В данном обзоре был проанализирован весь исходный код Tresorit и было подтверждено, что реализация соответствует концепциям, описанным в [техническом документе](https://prodfrontendcdn.azureedge.net/202208011608/tresorit-encryption-whitepaper.pdf) Tresorit.
+    - Компания Ernst & Young дополнительно протестировала веб-приложение, мобильные и настольные клиенты: "Результаты тестирования не выявили никаких отклонений от заявлений Tresorit о конфиденциальности данных."
 
-They have also received the Digital Trust Label, a certification from the [Swiss Digital Initiative](https://www.swiss-digital-initiative.org/digital-trust-label/) which requires passing [35 criteria](https://digitaltrust-label.swiss/criteria/) related to security, privacy, and reliability.
+Они также получили Digital Trust Label, сертификацию от [Swiss Digital Initiative](https://www.swiss-digital-initiative.org/digital-trust-label/), которая требует соответствия [35 критериям](https://digitaltrust-label.swiss/criteria/), связанных с безопасностью, конфиденциальностью и надежностью.
 
 ## Критерии
 
-**Обратите внимание, что у нас нет связей ни с одним из проектов, которые мы рекомендуем.** В дополнение к [нашим стандартным критериям](about/criteria.md)мы разработали четкий набор требований, позволяющий нам давать объективные рекомендации. Мы рекомендуем вам ознакомиться с этим списком, прежде чем выбрать программу, и провести самостоятельное исследование, чтобы убедиться, что это правильный выбор для вас.
+**Обрати внимание, что у нас нет связей ни с одним проектом, который мы рекомендуем.** В дополнение к [нашим стандартным критериям](about/criteria.md) мы разработали четкий набор требований, позволяющий давать объективные рекомендации. Перед тем, как вы решите выбрать какой-либо проект, мы рекомендуем вам ознакомиться со списком критериев и провести собственное исследование, чтобы убедиться в правильности своего выбора.
 
 !!! example "Это новый раздел"
 
-    Мы пока работаем над установлением определенных критериев для каждого раздела нашего сайта, и они могут поменяться в будущем. Если у вас есть вопросы по поводу наших критериев, пожалуйста, [задавайте их на нашем форуме](https://discuss.privacyguides.net/latest) и не думайте, что мы не учли что-то при составлении наших рекомендаций, если это не указано здесь. Мы учитываем и обсуждаем много факторов, перед тем как рекомендовать какой-то проект, и документирование каждого из них ещё не завершено.
+    Мы всё еще работаем над установлением критериев для каждого раздела нашего сайта, поэтому они могут поменяться в будущем. Если у вас есть вопросы по поводу наших критериев, пожалуйста, [задавайте их на нашем форуме](https://discuss.privacyguides.net/latest). Если какой-то критерий здесь не указан, это не значит, что мы его не учли. Перед тем, как рекомендовать какой-либо проект мы учитываем и обсуждаем множество факторов. Документирование этих факторов ещё не завершено.
 
-### Минимальные требования к сервисам
+### Минимальные требования
 
 - Должны использовать обязательное сквозное шифрование.
 - Должны иметь бесплатную версию или пробный период для тестирования.
@@ -98,4 +99,4 @@ They have also received the Digital Trust Label, a certification from the [Swiss
 - Должны поддерживать простой обмен файлами с другими пользователями.
 - Должны предлагать, по крайней мере, базовые функции предварительного просмотра и редактирования файлов в веб-интерфейсе.
 
-[^1]: [ISO/IEC 27001](https://en.wikipedia.org/wiki/ISO/IEC_27001):2013 compliance relates to the company's [information security management system](https://en.wikipedia.org/wiki/Information_security_management) and covers the sales, development, maintenance and support of their cloud services.
+[^1]: Соотвествие стандарту [ISO/IEC 27001](https://en.wikipedia.org/wiki/ISO/IEC_27001):2013 относится к [системе управления информационной безопасностью](https://en.wikipedia.org/wiki/Information_security_management) компании и распространяется на продажу, разработку, обслуживание и поддержку облачных услуг.

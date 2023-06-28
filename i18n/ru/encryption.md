@@ -206,7 +206,7 @@ BitLocker [поддерживается только](https://support.microsoft.
     [:octicons-code-16:](https://github.com/sh-dv/hat.sh){ .card-link title="Исходный код" }
     [:octicons-heart-16:](https://github.com/sh-dv/hat.sh#donations){ .card-link title="Способы донатов можно найти внизу сайта" }
 
-## Шифрование через командную строку
+## Для командной строки
 
 Инструменты с интерфейсом командной строки полезны для интеграции [shell scripts](https://en.wikipedia.org/wiki/Shell_script).
 

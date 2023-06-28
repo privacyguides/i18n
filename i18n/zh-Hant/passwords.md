@@ -136,16 +136,16 @@ schema:
 
 !!! recommendation
 
-    ! [Bitwarden logo] (assets/img/password-management/bitwarden.svg) {align = right}
+    ![Bitwarden logo](assets/img/password-management/bitwarden.svg){ align=right }
     
-    * * Bitwarden * *是一個免費的開源密碼管理器。 它旨在解決個人、團隊和商業組織的密碼管理問題。 Bitwarden 是最佳和最安全的解決方案之一，可存儲所有登錄名和密碼，同時方便地在所有設備之間保持同步。
+    **Bitwarden** 是一個免費的開源密碼管理器。 它旨在解決個人、團隊和商業組織的密碼管理問題。 Bitwarden 是最佳和最安全的解決方案之一，可存儲所有登錄名和密碼，同時方便地在所有設備之間保持同步。
     
     [:octicons-home-16: Homepage](https://bitwarden.com){ .md-button .md-button--primary }
     [:octicons-eye-16:](https://bitwarden.com/privacy){ .card-link title="Privacy Policy" }
     [:octicons-info-16:](https://bitwarden.com/help/){ .card-link title=Documentation}
     [:octicons-code-16:](https://github.com/bitwarden){ .card-link title="Source Code" }
     
-    ??? 下載
+    ??? download "下載"
     
         - [:simple-googleplay: Google Play](https://play.google.com/store/apps/details?id=com.x8bit.bitwarden)
         - [:simple-appstore: App Store](https://apps.apple.com/app/bitwarden-password-manager/id1137397744)
@@ -173,15 +173,15 @@ Bitwarden 伺服器端代碼是 [開源](https://github.com/bitwarden/server)，
 
 !!! recommendation
 
-    ! [1Password logo] (assets/img/password-management/1password.svg) {align = right}
+    ![1Password logo](assets/img/password-management/1password.svg){ align=right }
     
-    * * 1Password * *是一個密碼管理器，非常注重安全性和易用性，允許您將密碼、信用卡、軟體許可證和任何其他敏感資訊存儲在安全的數位保管庫。 您的保管庫託管在 1Password 伺服器，費用為[每月收取] (https://1password.com/sign-up/)。 1Password 定期[接受審計](https://support.1password.com/security-assessments/)並提供卓越的客戶支援。 1Password 是封閉原始碼；但是，產品的安全性已徹底記錄在他們的[安全白皮書] (https://1passwordstatic.com/files/security/1password-white-paper.pdf)。
+    **1Password** 是一個密碼管理器，非常注重安全性和易用性，允許您將密碼、信用卡、軟體許可證和任何其他敏感資訊存儲在安全的數位保管庫。 您的保管庫託管在 1Password 伺服器，費用為 [每月收取](https://1password.com/sign-up/)。 1Password 定期 [接受審計](https://support.1password.com/security-assessments/) 並提供卓越的客戶支援。 1Password 是封閉原始碼；但是，產品的安全性已徹底記錄在他們的 [安全白皮書](https://1passwordstatic.com/files/security/1password-white-paper.pdf)。
     
     [:octicons-home-16: Homepage](https://1password.com/){ .md-button .md-button--primary }
     [:octicons-eye-16:](https://1password.com/legal/privacy/){ .card-link title="Privacy Policy" }
     [:octicons-info-16:](https://support.1password.com/){ .card-link title=Documentation}
     
-    ??? 下載
+    ??? downloads "下載"
     
         - [:simple-googleplay: Google Play](https://play.google.com/store/apps/details?id=com.onepassword.android)
         - [:simple-appstore: App Store](https://apps.apple.com/app/id1511601750?mt=8)
@@ -199,16 +199,16 @@ Bitwarden 伺服器端代碼是 [開源](https://github.com/bitwarden/server)，
 
 !!! recommendation
 
-    ! [Psono logo] (assets/img/password-management/psono.svg) {align = right}
+    ![Psono logo](assets/img/password-management/psono.svg){ align=right }
     
-    * * Psono * *是來自德國的免費開源密碼管理器，專注於團隊的密碼管理。 Psono支援安全分享密碼、檔案、書籤和電子郵件。 所有機密都受到主密碼的保護。
+    **Psono** 是來自德國的免費開源密碼管理器，專注於團隊的密碼管理。 Psono支援安全分享密碼、檔案、書籤和電子郵件。 所有機密都受到主密碼的保護。
     
     [:octicons-home-16: Homepage](https://psono.com){ .md-button .md-button--primary }
     [:octicons-eye-16:](https://psono.com/privacy-policy){ .card-link title="Privacy Policy" }
     [:octicons-info-16:](https://doc.psono.com){ .card-link title=Documentation}
     [:octicons-code-16:](https://gitlab.com/psono){ .card-link title="Source Code" }
     
-    ??? 下載
+    ??? downloads "下載"
     
         - [:simple-googleplay: Google Play](https://play.google.com/store/apps/details?id=com.psono.psono)
         - [:simple-appstore: App Store](https://apps.apple.com/us/app/psono-password-manager/id1545581224)
@@ -222,7 +222,7 @@ Psono為其產品提供廣泛的文檔。 Psono 的網頁用戶端可以自行�
 
 **請注意，我們所推薦專案沒有任何瓜葛。 ** 除了 [標準準則](about/criteria.md)外，我們還發展出一套明確要求以提出客觀建議。 我們建議您在選擇使用項目之前先熟悉此列表，並進行自己的研究，以確保它是您的正確選擇。
 
-!!! !!! 例如 "本节是新的"
+!!! example "此部分是新的"
 
     我們正在努力為我們網站的每個部分建立定義的標準，這可能會有所變化。 如果您對我們的標準有任何疑問，請在 [論壇上提問](https://discuss.privacyguides.net/latest) ，如果沒有列出，請不要認為我們在提出建議時沒有考慮到某些事情。 當我們推薦一個項目時，有許多因素被考慮和討論，記錄每一個項目都是正在進行式。
 
@@ -249,9 +249,9 @@ Psono為其產品提供廣泛的文檔。 Psono 的網頁用戶端可以自行�
 
 !!! recommendation
 
-    ! [KeePassXC logo] (assets/img/password-management/keepassxc.svg) {align = right}
+    ![KeePassXC logo](assets/img/password-management/keepassxc.svg){ align=right }
     
-    * * KeePassXC * *是 KeePassX 的社區分支， KeePassX 是KeePass Password Safe 的原生跨平臺端口，其目標是通過新功能和錯誤修復來擴展和改善它，以提供功能豐富，跨平臺和現代開源密碼管理器。
+    **KeePassXC** 是 KeePassX 的社區分支， KeePassX 是KeePass Password Safe 的原生跨平臺端口，其目標是通過新功能和錯誤修復來擴展和改善它，以提供功能豐富，跨平臺和現代開源密碼管理器。
     
     [:octicons-home-16: Homepage](https://keepassxc.org){ .md-button .md-button--primary }
     [:octicons-eye-16:](https://keepassxc.org/privacy){ .card-link title="Privacy Policy" }
@@ -259,7 +259,7 @@ Psono為其產品提供廣泛的文檔。 Psono 的網頁用戶端可以自行�
     [:octicons-code-16:](https://github.com/keepassxreboot/keepassxc){ .card-link title="Source Code" }
     [:octicons-heart-16:](https://keepassxc.org/donate/){ .card-link title=Contribute }
     
-    ??? 下載
+    ??? downloads "下載"
     
         - [:simple-windows11: Windows](https://keepassxc.org/download/#windows)
         - [:simple-apple: macOS](https://keepassxc.org/download/#mac)
@@ -274,16 +274,16 @@ KeePassXC 將其匯出數據存儲為 [CSV](https://en.wikipedia.org/wiki/Comma-
 
 !!! recommendation
 
-    ! [KeePassDX標誌] (assets/img/password-management/keepassdx.svg) {align = right}
+    ![KeePassDX 標誌](assets/img/password-management/keepassdx.svg){ align=right }
     
-    * * KeePassDX * *是 Android 輕量級密碼管理器，允許編輯KeePass 格式文件中的加密資料，與安全填寫密碼表單。 [Contributor Pro] (https://play.google.com/store/apps/details?id=com.kunzisoft.keepass.pro)允許解鎖上妝的內容和非標準協議功能，但更重要的是，它有助於並鼓勵開發。
+    **KeePassDX** 是 Android 輕量級密碼管理器，允許編輯KeePass 格式文件中的加密資料，與安全填寫密碼表單。 [Contributor Pro](https://play.google.com/store/apps/details?id=com.kunzisoft.keepass.pro) 允許解鎖上妝的內容和非標準協議功能，但更重要的是，它有助於並鼓勵開發。
     
     [:octicons-home-16: Homepage](https://www.keepassdx.com){ .md-button .md-button--primary }
     [:octicons-info-16:](https://github.com/Kunzisoft/KeePassDX/wiki){ .card-link title=Documentation}
     [:octicons-code-16:](https://github.com/Kunzisoft/KeePassDX){ .card-link title="Source Code" }
     [:octicons-heart-16:](https://www.keepassdx.com/#donation){ .card-link title=Contribute }
     
-    ??? 下載
+    ??? downloads "下載"
     
         - [:simple-googleplay: Google Play](https://play.google.com/store/apps/details?id=com.kunzisoft.keepass.free)
         - [:simple-github: GitHub](https://github.com/Kunzisoft/KeePassDX/releases)
@@ -292,9 +292,9 @@ KeePassXC 將其匯出數據存儲為 [CSV](https://en.wikipedia.org/wiki/Comma-
 
 !!! recommendation
 
-    ! [Strongbox logo] (assets/img/password-management/strongbox.svg) {align = right}
+    ![Strongbox logo](assets/img/password-management/strongbox.svg){ align=right }
     
-    * * Strongbox * *是 iOS 和 macOS 原生開源密碼管理器。 支援 KeePass 和 Password Safe 格式， Strongbox 可以與其他密碼管理器（如KeePassXC ）一起在非 Apple 平臺上使用。 通過採用[免費增值模式] (https://strongboxsafe.com/pricing/) ， Strongbox 免費會員等級提供了大多數功能，而更方便的 [功能](https://strongboxsafe.com/comparison/) -例如生物識別驗證-則必須在訂閱或購買永久授權之後才能享受。
+    **Strongbox** 是 iOS 和 macOS 原生開源密碼管理器。 支援 KeePass 和 Password Safe 格式， Strongbox 可以與其他密碼管理器（如KeePassXC）一起在非 Apple 平臺上使用。 通過採用 [免費增值模式](https://strongboxsafe.com/pricing/) ， Strongbox 免費會員等級提供了大多數功能，而更方便的 [功能](https://strongboxsafe.com/comparison/) -例如生物識別驗證-則必須在訂閱或購買永久授權之後才能享受。
     
     [:octicons-home-16: Homepage](https://strongboxsafe.com){ .md-button .md-button--primary }
     [:octicons-eye-16:](https://strongboxsafe.com/privacy/){ .card-link title="Privacy Policy" }
@@ -302,7 +302,7 @@ KeePassXC 將其匯出數據存儲為 [CSV](https://en.wikipedia.org/wiki/Comma-
     [:octicons-code-16:](https://github.com/strongbox-password-safe/Strongbox){ .card-link title="Source Code" }
     [:octicons-heart-16:](https://github.com/strongbox-password-safe/Strongbox#supporting-development){ .card-link title=Contribute }
     
-    ??? 下載
+    ??? downloads "下載"
     
         - [:simple-appstore: App Store](https://apps.apple.com/app/strongbox-keepass-pwsafe/id897283731)
 
@@ -316,16 +316,16 @@ KeePassXC 將其匯出數據存儲為 [CSV](https://en.wikipedia.org/wiki/Comma-
 
 !!! recommendation
 
-    ! [gopass logo] (assets/img/password-management/gopass.svg) {align = right}
+    ![gopass logo](assets/img/password-management/gopass.svg){ align=right }
     
-    * * gopass * *是用Go編寫的命令行的密碼管理器。 它適用於所有主要的桌面和伺服器作業系統（ Linux ， macOS ， BSD ， Windows ）。
+    **gopass** 是用Go編寫的命令行的密碼管理器。 它適用於所有主要的桌面和伺服器作業系統（Linux， macOS， BSD， Windows）。
     
     [:octicons-home-16: Homepage](https://www.gopass.pw){ .md-button .md-button--primary }
     [:octicons-info-16:](https://github.com/gopasspw/gopass/tree/master/docs){ .card-link title=Documentation}
     [:octicons-code-16:](https://github.com/gopasspw/gopass){ .card-link title="Source Code" }
     [:octicons-heart-16:](https://github.com/sponsors/dominikschulz){ .card-link title=Contribute }
     
-    ??? 下載
+    ??? downloads "下載"
     
         - [:simple-windows11: Windows](https://www.gopass.pw/#install-windows)
         - [:simple-apple: macOS](https://www.gopass.pw/#install-macos)
@@ -336,7 +336,7 @@ KeePassXC 將其匯出數據存儲為 [CSV](https://en.wikipedia.org/wiki/Comma-
 
 **請注意，我們所推薦專案沒有任何瓜葛。 ** 除了 [標準準則](about/criteria.md)外，我們還發展出一套明確要求以提出客觀建議。 我們建議您在選擇使用項目之前先熟悉此列表，並進行自己的研究，以確保它是您的正確選擇。
 
-!!! !!! 例如 "本节是新的"
+!!! example "此部分是新的"
 
     我們正在努力為我們網站的每個部分建立定義的標準，這可能會有所變化。 如果您對我們的標準有任何疑問，請在 [論壇上提問](https://discuss.privacyguides.net/latest) ，如果沒有列出，請不要認為我們在提出建議時沒有考慮到某些事情。 當我們推薦一個項目時，有許多因素被考慮和討論，記錄每一個項目都是正在進行式。
 

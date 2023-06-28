@@ -249,7 +249,7 @@ We [recommend](dns.md#recommended-providers) a number of encrypted DNS servers b
 
 [Подробнее :hero-arrow-circle-right-fill:](cryptocurrency.md)
 
-### Инструменты для шифрования
+### Редактирование данных и метаданных
 
 <div class="grid cards" markdown>
 
@@ -438,7 +438,7 @@ We [recommend](dns.md#recommended-providers) a number of encrypted DNS servers b
 
 ## Программное обеспечение
 
-### Прошивки для роутера
+### Для телефонов
 
 <div class="grid cards" markdown>
 
