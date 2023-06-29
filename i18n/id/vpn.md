@@ -279,13 +279,13 @@ VPN tidak ada gunanya jika tidak bisa menyediakan keamanan yang memadai. Kami me
 **Minimum untuk Memenuhi Syarat:**
 
 - Skema enkripsi yang kuat: OpenVPN dengan autentikasi SHA-256; RSA-2048 atau jabat tangan yang lebih baik; enkripsi data AES-256-GCM atau AES-256-CBC.
-- Kerahasiaan Maju Sempurna (PFS).
+- Forward Secrecy.
 - Audit keamanan yang dipublikasikan dari perusahaan pihak ketiga yang memiliki reputasi baik.
 
 **Kasus Terbaik:**
 
 - Enkripsi terkuat: RSA-4096.
-- Kerahasiaan Maju Sempurna (PFS).
+- Forward Secrecy.
 - Audit keamanan yang dipublikasikan secara komprehensif dari perusahaan pihak ketiga yang memiliki reputasi baik.
 - Program bug-bounty dan/atau proses pengungkapan kerentanan yang terkoordinasi.
 

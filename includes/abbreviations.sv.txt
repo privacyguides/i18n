@@ -24,6 +24,7 @@
 *[FCM]: Firebase Cloud Messaging
 *[FDE]: Fullständig diskkryptering
 *[FIDO]: Snabb IDentitet online
+*[FS]: Forward Secrecy
 *[fork]: Ett nytt programvaruprojekt som skapas genom att ett befintligt projekt kopieras och kompletteras självständigt
 *[GDPR]: Allmän dataskyddsförordning
 *[GPG]: GNU Privacy Guard (PGP-implementering)

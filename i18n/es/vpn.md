@@ -281,13 +281,13 @@ Una VPN no tiene sentido si ni siquiera puede proporcionar una seguridad adecuad
 **Mínimo para Calificar:**
 
 - Esquemas de cifrado fuertes: OpenVPN con autenticación SHA-256; RSA-2048 o mejor handshake; AES-256-CBC o cifrado de datos AES-256-GCM.
-- Perfect Forward Secrecy (PFS).
+- Forward Secrecy.
 - Auditorías de seguridad publicadas por una empresa externa de prestigio.
 
 **Mejor Caso:**
 
 - Cifrado más fuerte: RSA-4096.
-- Perfect Forward Secrecy (PFS).
+- Forward Secrecy.
 - Auditorías de seguridad exhaustivas publicadas por una empresa externa de prestigio.
 - Programas de recompensa de errores y/o un proceso coordinado de divulgación de vulnerabilidades.
 

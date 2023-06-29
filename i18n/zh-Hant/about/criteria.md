@@ -2,9 +2,9 @@
 title: 通用標準
 ---
 
-!!! 示例“工作進行中”
+!!! example "工作進行中"
 
-    以下頁面是一項正在進行的工作，並未反映我們目前的建議的全部標準。 過去關於此主題的討論： [# 24] (https://github.com/privacyguides/privacyguides.org/ discussion/24)
+    以下頁面是一項正在進行的工作，並未反映我們目前的建議的全部標準。 過去關於此主題的討論： [#24](https://github.com/privacyguides/privacyguides.org/discussion/24)
 
 以下是一些必須適用於所有提交給 Privacy Guides 的內容。 每個類別都會有額外的加入要求。
 

@@ -279,13 +279,13 @@ We prefer our recommended providers to collect as little data as possible. Not c
 **최소 요구 사항:**
 
 - 강력한 암호화 방식 사용: SHA-256 해시 기반 인증을 이용하는 OpenVPN, RSA-2048 또는 더 강력한 비대칭 암호 알고리즘을 이용하는 핸드셰이크, AES-256-GCM 또는 AES-256-CBC 를 이용하는 데이터 암호화
-- Perfect Forward Secrecy (PFS).
+- Forward Secrecy.
 - 검증된 제 3자로부터 보안 감사 결과가 게시됨
 
 **우대 사항:**
 
 - 가장 강력한 암호화 방식으로 RSA-4096을 지원
-- Perfect Forward Secrecy (PFS).
+- Forward Secrecy.
 - 검증된 제 3자로부터 종합적인 보안 감사 결과가 게시됨
 - 버그 바운티 프로그램 또는 체계적인 취약점 공개 프로세스가 있음
 

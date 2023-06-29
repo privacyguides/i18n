@@ -99,13 +99,13 @@ Il software per il client è stato [verificato](https://briarproject.org/news/20
 
 Le specifiche di Briar sono [completamente pubbliche](https://code.briarproject.org/briar/briar-spec).
 
-Briar supporta la Perfect Forward Secrecy usando l'[Handshake](https://code.briarproject.org/briar/briar-spec/blob/master/protocols/BHP.md) Bramble e il protocollo [Transport](https://code.briarproject.org/briar/briar-spec/blob/master/protocols/BTP.md).
+Briar supporta la Forward Secrecy usando l'[Handshake](https://code.briarproject.org/briar/briar-spec/blob/master/protocols/BHP.md) Bramble e il protocollo [Transport](https://code.briarproject.org/briar/briar-spec/blob/master/protocols/BTP.md).
 
 ## Altre alternative
 
 !!! warning "Attenzione"
 
-    Questi messenger non hanno la Perfect [Forward Secrecy](https://it.wikipedia.org/wiki/Forward_secrecy) (PFS) e, pur soddisfacendo alcune esigenze che le nostre precedenti raccomandazioni potrebbero non fare, non li consigliamo per comunicazioni a lungo termine o sensibili. Qualsiasi compromissione di chiavi tra i destinatari del messaggio inciderebbe sulla riservatezza di **tutte** le comunicazioni passate.
+    Questi messenger non utilizzano la [Forward Secrecy](https://it.wikipedia.org/wiki/Forward_secrecy) e anche se soddisfano alcune esigenze che le nostre precedenti raccomandazioni non soddisfano, non le raccomandiamo per le comunicazioni a lungo termine o sensibili. Qualsiasi compromissione di chiavi tra i destinatari del messaggio inciderebbe sulla riservatezza di **tutte** le comunicazioni passate.
 
 ### Element
 
@@ -189,7 +189,7 @@ Session ha un [libro bianco](https://arxiv.org/pdf/2002.04609.pdf) che descrive 
 
 I nostri criteri ottimali rappresentano ciò che vorremmo vedere dal progetto perfetto in questa categoria. Le nostre raccomandazioni potrebbero non includere tutte o alcune di queste funzionalità, ma quelle che le includono potrebbero avere una posizione più alta rispetto ad altre in questa pagina.
 
-- Deve avere la Perfect Forward Secrecy.
+- Dovrebbe avere la Forward Secrecy.
 - Deve avere server open source.
 - Deve essere decentralizzato, cioè federato o P2P.
 - Deve usare E2EE per tutti i messaggi in modo predefinito.

@@ -99,13 +99,13 @@ Briar 연락처에 누군가를 등록하려면 서로가 모두 서로를 연�
 
 Briar [사양 문서](https://code.briarproject.org/briar/briar-spec)는 전체 공개되어 있습니다.
 
-Briar는 Bramble [핸드셰이크](https://code.briarproject.org/briar/briar-spec/blob/master/protocols/BHP.md) 및 [전송](https://code.briarproject.org/briar/briar-spec/blob/master/protocols/BTP.md) 프로토콜을 사용해 완전 순방향 비밀성을 지원합니다.
+Briar supports Forward Secrecy by using the Bramble [Handshake](https://code.briarproject.org/briar/briar-spec/blob/master/protocols/BHP.md) and [Transport](https://code.briarproject.org/briar/briar-spec/blob/master/protocols/BTP.md) protocol.
 
 ## 추가 선택지
 
 !!! warning "경고"
 
-    이러한 메신저는 [완전 순방향 비밀성](https://en.wikipedia.org/wiki/Forward_secrecy)(PFS, Perfect Forward Secrecy)을 지원하지 않습니다. 이 중에는 앞서 권장드린 메신저가 지원하지 않는 요구 사항을 만족하는 것도 있지만, 장기적인 사용이나 민감한 대화를 나누는 용도로 사용하는 것은 권장드리지 않습니다. 대화 참여자 중 한 명만 키가 유출되더라도 이전에 주고받은 **모든** 메시지의 기밀성이 손상됩니다.
+    These messengers do not have [Forward Secrecy](https://en.wikipedia.org/wiki/Forward_secrecy), and while they fulfill certain needs that our previous recommendations may not, we do not recommend them for long-term or sensitive communications. 대화 참여자 중 한 명만 키가 유출되더라도 이전에 주고받은 **모든** 메시지의 기밀성이 손상됩니다.
 
 ### Element
 
@@ -189,7 +189,7 @@ Session은 애플리케이션 및 프로토콜의 기술적인 설명을 담은 
 
 평가 기준에서 '우대 사항'은 해당 부문에서 완벽한 프로젝트에 기대하는 바를 나타냅니다. 다음의 우대 사항에 해당하지 않더라도 권장 목록에 포함될 수 있습니다. 단, 우대 사항에 해당할수록 이 페이지의 다른 항목보다 높은 순위를 갖습니다.
 
-- 완전 순방향 비밀성(Perfect Forward Secrecy)을 보장해야 합니다.
+- Should have Forward Secrecy.
 - 오픈 소스 서버가 있어야 합니다.
 - 탈중앙 방식(연합 방식/P2P 방식)이어야 합니다.
 - 모든 메시지에 E2EE가 기본 적용이어야 합니다.

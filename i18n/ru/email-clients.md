@@ -5,15 +5,15 @@ description: Эти почтовые клиенты соблюдают конф�
 cover: email-clients.png
 ---
 
-Наш список рекомендаций содержит только почтовые клиенты, которые поддерживают [OpenPGP](/encryption/#openpgp) и безопасную аутентификацию (например, [OAuth](https://ru.wikipedia.org/wiki/OAuth)). OAuth позволяет использовать [многофакторную аутентификацию](/multi-factor-authentication) и предотвратить кражу учетных записей.
+Наш список рекомендаций содержит только почтовые клиенты, которые поддерживают [OpenPGP](/encryption/#openpgp) и безопасную аутентификацию (например, [OAuth](https://ru.wikipedia.org/wiki/OAuth)). OAuth позволяет использовать [многофакторную аутентификацию](basics/multi-factor-authentication.md) и предотвратить кражу учетных записей.
 
-??? warning "Email does not provide forward secrecy"
+??? warning "Электронная почта не обеспечивает прямую секретность"
 
-    When using end-to-end encryption (E2EE) technology like OpenPGP, email will still have [some metadata](email.md#email-metadata-overview) that is not encrypted in the header of the email.
+    При использовании технологии сквозного шифрования (E2EE), например OpenPGP, электронная почта все равно будет содержать [некоторые метаданные](email.md#email-metadata-overview), которые не зашифрованы в заголовке письма.
     
-    OpenPGP also does not support [forward secrecy](https://en.wikipedia.org/wiki/Forward_secrecy), which means if either your or the recipient's private key is ever stolen, all previous messages encrypted with it will be exposed: [How do I protect my private keys?](basics/email-security.md) Consider using a medium that provides forward secrecy:
+    OpenPGP также не поддерживает прямую секретность] (https://ru.wikipedia.org/wiki/Perfect_forward_secrecy), что означает: если ваш приватный ключ или приватный ключ получателя будет украден, то все предыдущие сообщения, зашифрованные с его помощью, будут раскрыты: [Как защитить мои приватные ключи?](basics/email-security.md) Рассмотрите возможность использования среды, обеспечивающей прямую секретность:
     
-    [Real-time Communication](real-time-communication.md){ .md-button }
+    [Связь в реальном времени](real-time-communication.md){ .md-button }
 
 ## Кросс-платформенные приложения
 
@@ -100,31 +100,36 @@ Canary Mail имеет закрытый исходный код. Мы реком
 
 !!! recommendation
 
-    ![Логотип Mailvelope](assets/img/email-clients/mailvelope.svg){ align=right }
+    ![Логотип FairEmail](assets/img/email-clients/fairemail.svg){ align=right }
     
-    **Mailvelope** - браузерное расширение, позволяющее обмениваться зашифрованными письмами по стандарту OpenPGP.
+    **FairEmail** - это небольшое приложение электронной почты с открытым исходным кодом, использующее открытые стандарты (IMAP, SMTP, OpenPGP) с низким потреблением данных и заряда батареи.
     
-    [Перейти на mailvelope.com](https://www.mailvelope.com){ .md-button .md-button--primary } [Политика конфиденциальности](https://www.mailvelope.com/en/privacy-policy){ .md-button }
+    [:octicons-home-16: Домашняя страница](https://email.faircode.eu){ .md-button .md-button--primary }
+    [:octicons-eye-16:](https://github.com/M66B/FairEmail/blob/master/PRIVACY.md){ .card-link title="Политика конфиденциальности" }
+    [:octicons-info-16:](https://github.com/M66B/FairEmail/blob/master/FAQ.md){ .card-link title=Документация}
+    [:octicons-code-16:](https://github.com/M66B/FairEmail){ .card-link title="Исходный код" }
+    [:octicons-heart-16:](https://email.faircode.eu/donate/){ .card-link title=Поддержать }
     
-    **Скачать**
-    - [:fontawesome-brands-firefox: Firefox](https://addons.mozilla.org/firefox/addon/mailvelope)
-    - [:fontawesome-brands-chrome: Chrome](https://chrome.google.com/webstore/detail/mailvelope/kajibbejlbohfaggdiogboambcijhkke)
-    - [:fontawesome-brands-edge: Edge](https://microsoftedge.microsoft.com/addons/detail/mailvelope/dgcbddhdhjppfdfjpciagmmibadmoapc)
-    - [:fontawesome-brands-github: Исходный код](https://github.com/mailvelope/mailvelope) [Перейти на kontact.kde.org](https://kontact.kde.org){ .md-button .md-button--primary } [Политика конфиденциальности](https://kde.org/privacypolicy-apps){ .md-button }
+    ??? downloads "Скачать"
+    
+        - [:simple-googleplay: Google Play](https://play.google.com/store/apps/details?id=eu.faircode.email)
+        - [:simple-github: GitHub](https://github.com/M66B/FairEmail/releases)
 
 ### GNOME Evolution (GNOME)
 
 !!! recommendation
 
-    ![K-9 Mail logo](assets/img/email-clients/k9mail.svg){ align=right }
+    ![Логотип Evolution](assets/img/email-clients/evolution.svg){ align=right }
     
-    **K-9 Mail** - независимое почтовое приложение, которое поддерживает и POP3, и IMAP (только push). [Перейти на k9mail.app](https://k9mail.app){ .md-button .md-button--primary } [Политика конфиденциальности](https://k9mail.app/privacy){ .md-button }
+    **Evolution** — это приложение для управления персональной информацией, которое обеспечивает интегрированную почту, календарь и функциональность адресной книги. Evolution имеет подробную [документацию](https://help.gnome.org/users/evolution/stable/), чтобы помочь вам начать работу.
     
-    downloads
-     - [:fontawesome-brands-firefox: Firefox](https://addons.mozilla.org/firefox/addon/mailvelope)
-    - [:fontawesome-brands-chrome: Chrome](https://chrome.google.com/webstore/detail/mailvelope/kajibbejlbohfaggdiogboambcijhkke)
-    - [:fontawesome-brands-edge: Edge](https://microsoftedge.microsoft.com/addons/detail/mailvelope/dgcbddhdhjppfdfjpciagmmibadmoapc)
-    - [:fontawesome-brands-github: Исходный код](https://github.com/mailvelope/mailvelope) downloads
+    [:octicons-home-16: Домашняя страница](https://wiki.gnome.org/Apps/Evolution){ .md-button .md-button--primary }
+    [:octicons-eye-16:](https://wiki.gnome.org/Apps/Evolution/PrivacyPolicy){ .card-link title="Политика конфиденциальности" }
+    [:octicons-info-16:](https://help.gnome.org/users/evolution/stable/){ .card-link title=Документация}
+    [:octicons-code-16:](https://gitlab.gnome.org/GNOME/evolution/){ .card-link title="Исходный код" }
+    [:octicons-heart-16:](https://www.gnome.org/donate/){ .card-link title=Поддержать }
+    
+    ??? downloads "Скачать"
     
         - [:simple-flathub: Flathub](https://flathub.org/apps/details/org.gnome.Evolution)
 
@@ -132,47 +137,47 @@ Canary Mail имеет закрытый исходный код. Мы реком
 
 !!! recommendation
 
-    ![FairEmail logo](assets/img/email-clients/fairemail.svg){ align=right }
+    ![логотип K-9 Mail](assets/img/email-clients/k9mail. vg){ align=right }
     
-    **FairEmail** — минимальное почтовое приложение с открытым исходным ходом, использующее открытые стандарты (IMAP, SMTP, OpenPGP) с малым потреблением памяти и заряда батареи.
+    **K-9 Mail** — это независимое почтовое приложение, которое поддерживает как POP3, так и IMAP, но поддерживает только push-почту для IMAP.
     
-    [Перейти на email.faircode.eu](https://email.faircode.eu){ .md-button .md-button--primary } [Политика конфиденциальности](https://github.com/M66B/FairEmail/blob/master/PRIVACY.md){ .md-button }
+    В будущем, K-9 Mail станет [официальным](https://k9mail.app/2022/06/13/K-9-Mail-and-Thunderbird.html) клиентом Thunderbird для Android.
     
-    downloads
+    [:octicons-home-16: Домашняя страница](https://k9mail.app){ .md-button .md-button--primary }
+    [:octicons-eye-16:](https://k9mail.app/privacy){ .card-link title="Политика конфиденциальности" }
+    [:octicons-info-16:](https://docs.k9mail.app/){ .card-link title=Документация}
+    [:octicons-code-16:](https://github.com/k9mail/k-9){ .card-link title="Исходный код" }
+    [:octicons-heart-16:](https://k9mail.app/contribute){ .card-link title=Поддержать }
     
-        - [:fontawesome-brands-google-play: Google Play](https://play.google.com/store/apps/details?id=com.fsck.k9)
-        - [:pg-f-droid: F-Droid](https://f-droid.org/packages/com.fsck.k9/)
-        - [:fontawesome-brands-github: Исходный код](https://github.com/k9mail) downloads
+    ??? downloads "Скачать"
     
         - [:simple-googleplay: Google Play](https://play.google.com/store/apps/details?id=com.fsck.k9)
         - [:simple-github: GitHub](https://github.com/k9mail/k-9/releases)
 
 !!! warning "Осторожно"
 
-    ![Canary Mail logo](assets/img/email-clients/canarymail.svg){ align=right }
-    
-    **Canary Mail** - платный почтовый клиент, разработанный для обеспечения сквозного шифрования с использованием таких функций, как биометрическая блокировка и т.д. [Перейти на canarymail.io](https://canarymail.io){ .md-button .md-button--primary } [Политика конфиденциальности](https://canarymail.io/privacy.html){ .md-button }
+    Когда вы отвечаете кому-то на письмо, отправленное сразу нескольким людям, поле с получателем может также содержать несколько адресов. Более подробную информацию можно найти тут [thundernest/k-9 #3738](https://github.com/thundernest/k-9/issues/3738).
 
 ### Kontact (KDE)
 
 !!! recommendation
 
-    ![Kontact logo](assets/img/email-clients/kontact.svg){ align=right }
+    ![Логотип Kontact](assets/img/email-clients/kontact.svg){ align=right }
     
-    **Kontact** is a personal information manager (PIM) application from the [KDE](https://kde.org) project. It provides a mail client, address book, organizer and RSS client.
+    **Kontact** - это менеджер персональной информации от проекта [KDE](https://kde.org). Он предоставляет почтовый клиент, адресную книгу, органайзер и клиент RSS.
     
-    [:octicons-home-16: Homepage](https://kontact.kde.org){ .md-button .md-button--primary }
-    [:octicons-eye-16:](https://kde.org/privacypolicy-apps){ .card-link title="Privacy Policy" }
-    [:octicons-info-16:](https://kontact.kde.org/users/){ .card-link title=Documentation}
-    [:octicons-code-16:](https://invent.kde.org/pim/kmail){ .card-link title="Source Code" }
-    [:octicons-heart-16:](https://kde.org/community/donations/){ .card-link title=Contribute }
+    [:octicons-home-16: Домашняя страница](https://kontact.kde.org){ .md-button .md-button--primary }
+    [:octicons-eye-16:](https://kde.org/privacypolicy-apps){ .card-link title="Политика конфиденциальности" }
+    [:octicons-info-16:](https://kontact.kde.org/users/){ .card-link title=Документация}
+    [:octicons-code-16:](https://invent.kde.org/pim/kmail){ .card-link title="Исходный код" }
+    [:octicons-heart-16:](https://kde.org/community/donations/){ .card-link title=Поддержать }
     
-    ??? downloads
+    ??? downloads "Скачать"
     
         - [:simple-linux: Linux](https://kontact.kde.org/download)
         - [:simple-flathub: Flathub](https://flathub.org/apps/details/org.kde.kontact)
 
-### Mailvelope (Browser)
+### Mailvelope (Браузер)
 
 !!! recommendation
 
@@ -191,7 +196,7 @@ Canary Mail имеет закрытый исходный код. Мы реком
         - [:simple-googlechrome: Chrome](https://chrome.google.com/webstore/detail/mailvelope/kajibbejlbohfaggdiogboambcijhkke)
         - [:simple-microsoftedge: Edge](https://microsoftedge.microsoft.com/addons/detail/mailvelope/dgcbddhdhjppfdfjpciagmmibadmoapc)
 
-### NeoMutt (CLI)
+### NeoMutt (Командная строка)
 
 !!! recommendation
 

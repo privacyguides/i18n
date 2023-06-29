@@ -96,13 +96,13 @@ The client software was independently [audited](https://briarproject.org/news/20
 
 Briar has a fully [published specification](https://code.briarproject.org/briar/briar-spec).
 
-Briar supports perfect forward secrecy by using the Bramble [Handshake](https://code.briarproject.org/briar/briar-spec/blob/master/protocols/BHP.md) and [Transport](https://code.briarproject.org/briar/briar-spec/blob/master/protocols/BTP.md) protocol.
+Briar поддерживает прямую секретность пересылки, используя протоколы Bramble [Handshake](https://code.briarproject.org/briar/briar-spec/blob/master/protocols/BHP.md) и [Transport](https://code.briarproject.org/briar/briar-spec/blob/master/protocols/BTP.md).
 
 ## Типы коммуникационных сетей
 
 !!! warning "Осторожно"
 
-    These messengers do not have Perfect [Forward Secrecy](https://en.wikipedia.org/wiki/Forward_secrecy) (PFS), and while they fulfill certain needs that our previous recommendations may not, we do not recommend them for long-term or sensitive communications. Any key compromise among message recipients would affect the confidentiality of **all** past communications.
+    Хотя эти мессенджеры и проходят по определённым критериям, они не поддерживают [прямую секретность](https://ru.wikipedia.org/wiki/Perfect_forward_secrecy), поэтому мы не рекомендуем их для длительных или конфиденциальных коммуникаций. Any key compromise among message recipients would affect the confidentiality of **all** past communications.
 
 ### Element
 
@@ -186,7 +186,7 @@ Session has a [whitepaper](https://arxiv.org/pdf/2002.04609.pdf) describing the 
 
 Эти критерии представляют собой то, что мы хотели бы видеть от идеального проекта в этой категории. Наши рекомендации могут не соответствовать всем или нескольким из этих критериев, но проекты, которые им соответствуют, расположены выше остальных.
 
-- Should have Perfect Forward Secrecy.
+- Должны поддерживать прямую секретность.
 - Should have open-source servers.
 - Should be decentralized, i.e. federated or P2P.
 - Should use E2EE for all messages by default.

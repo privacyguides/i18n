@@ -279,13 +279,13 @@ Un VPN est inutile s'il ne peut même pas fournir une sécurité adéquate. Nous
 **Minimum pour se qualifier :**
 
 - Schémas de chiffrement forts : OpenVPN avec authentification SHA-256 ; poignée de main RSA-2048 ou mieux ; chiffrement des données AES-256-GCM ou AES-256-CBC.
-- Confidentialité Persistante (PFS).
+- Forward Secrecy.
 - Des audits de sécurité publiés par une société tierce réputée.
 
 **Dans le meilleur des cas :**
 
 - Chiffrement le plus fort : RSA-4096.
-- Confidentialité Persistante (PFS).
+- Forward Secrecy.
 - Des audits de sécurité complets publiés par une société tierce réputée.
 - Des programmes de primes aux bugs et/ou un processus coordonné de divulgation des vulnérabilités.
 

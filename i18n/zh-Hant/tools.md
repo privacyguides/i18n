@@ -187,11 +187,11 @@ description: Privacy Guides 是最透明和可靠的網站，用於尋找保護�
 
 ??? 注意 "VPN 不會讓您匿名"
 
-    使用 VPN * *不會* *讓您的瀏覽習慣匿名，也不會為不安全（ HTTP ）流量增加額外的安全性。
+    使用 VPN **不會** 讓您的瀏覽習慣匿名，也不會為不安全（ HTTP ）流量增加額外的安全性。
     
-    如果追求的是**匿名性** ，應該使用 Tor 瀏覽器**取代** VPN。
+    如果追求的是 **匿名性** ，應該使用 Tor 瀏覽器**取代** VPN。
     
-    如果需要額外的**安全性** ，應該確保一直使用 HTTPS 連接到網站。 VPN不能取代良好的安全措施。
+    如果需要額外的 **安全性** ，應該確保一直使用 HTTPS 連接到網站。 VPN不能取代良好的安全措施。
     
     [了解更多 :material-arrow-right-drop-circle:](vpn.md)
 
@@ -262,9 +262,9 @@ description: Privacy Guides 是最透明和可靠的網站，用於尋找保護�
 
 ### 加密軟體
 
-??? 資訊 "作業系統磁碟加密"
+??? info "作業系統磁碟加密"
 
-    若要加密作業系統磁碟，通常建議使用作業系統提供的加密工具，無論是 Windows 的* * BitLocker * *、macOS * * FileVault * *或 Linux * * LUKS * *。 這些工具包含在作業系統中，通常使用硬體加密要素，例如 TPM ，而 VeraCrypt 等其他全磁碟加密軟體則不然。 VeraCrypt 仍然適用於非作業系統磁碟，例如外接磁碟，特別是可以從多重作業系統訪問的磁碟。
+    若要加密作業系統磁碟，通常建議使用作業系統提供的加密工具，無論是 Windows 的 **BitLocker**、macOS **FileVault** 或 Linux **LUKS**。 這些工具包含在作業系統中，通常使用硬體加密要素，例如 TPM ，而 VeraCrypt 等其他全磁碟加密軟體則不然。 VeraCrypt 仍然適用於非作業系統磁碟，例如外接磁碟，特別是可以從多重作業系統訪問的磁碟。
     
     [了解更多 :material-arrow-right-drop-circle:](encryption.md##operating-system-included-full-disk-encryption-fde)
 

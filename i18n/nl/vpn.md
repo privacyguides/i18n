@@ -279,13 +279,13 @@ Een VPN is zinloos als het niet eens voldoende beveiliging kan bieden. Wij eisen
 **Minimum om in aanmerking te komen:**
 
 - Sterke coderingsschema's: OpenVPN met SHA-256 authenticatie; RSA-2048 of betere handshake; AES-256-GCM of AES-256-CBC data-encryptie.
-- Perfect Forward Secrecy (PFS).
+- Forward Secrecy.
 - Gepubliceerde veiligheidscontroles van een gerenommeerde derde partij.
 
 **Beste geval:**
 
 - Sterkste encryptie: RSA-4096.
-- Perfect Forward Secrecy (PFS).
+- Forward Secrecy.
 - Uitgebreide gepubliceerde veiligheidscontroles door een gerenommeerde derde partij.
 - Programma's voor bug-bounty's en/of een gecoördineerd proces voor de openbaarmaking van kwetsbaarheden.
 

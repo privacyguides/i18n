@@ -1,20 +1,20 @@
 ---
-title: "Why Privacy Matters"
+title: "Porque é que a privacidade é importante"
 icon: 'material/shield-account'
 ---
 
-In the modern age of digital data exploitation, your privacy has never been more critical, and yet many believe it is already a lost cause. It is not. ==Your privacy is up for grabs==, and you need to care about it. Privacy is about power, and it is so important that this power ends up in the right hands.
+Na era moderna da exploração dos dados digitais, a sua privacidade nunca foi tão crítica e, mesmo assim, muitos acreditam que já é uma causa perdida. Não é. ==A sua privacidade está em jogo==, e precisa de se preocupar com isso. A privacidade tem a ver com poder, e é muito importante que esse poder esteja nas mãos certas.
 
-Privacy is ultimately about human information, and this is important because we know that human information confers power over human beings. If we care about our ability to be authentic, fulfilled, and free humans, we have to care about the rules that apply to information about us. So much of our modern society is structured around **information**. When you shop online, read the news, look something up, vote, seek directions, or really anything else, you are relying on information. If we live in an information society, our information matters, and therefore privacy matters.
+Em última análise, a privacidade diz respeito à informação humana, e sabemos que a informação humana confere poder sobre os seres humanos. Se nos importamos com nossa capacidade de sermos humanos autênticos, plenos e livres, temos de nos preocupar com as regras que se aplicam à utilização da nossa informação. Grande parte da nossa sociedade moderna está estruturada em torno de **informações**. Quando faz compras online, lê as notícias, olha para cima, vota, procura orientações ou qualquer outra coisa, depende de informações. Se vivemos numa sociedade da informação, a informação é importante e, como consequência, também a privacidade.
 
-## What is Privacy?
+## O que é Privacidade?
 
-Many people get the concepts of **privacy**, **security**, and **anonymity** confused. You'll see people criticize various products as "not private" when really they mean it doesn't provide anonymity, for example. On this website, we cover all three of these topics, but it is important you understand the difference between them, and when each one comes into play.
+Muitas pessoas confundem os conceitos de **privacidade**, **segurança** e **anonimato**. Há pessoas que criticam vários produtos como "não oferecendo privacidade", quando na realidade não oferecem anonimato. Neste site, abordamos os três temas, mas é importante que se compreenda a diferença entre eles, e quando cada um entra em jogo.
 
 **Privacidade**
 :
 
-==Privacy is the assurance that your data is only seen by the parties you intend to view it.== In the context of an instant messenger, for example, end-to-end encryption provides privacy by keeping your message visible only to yourself and the recipient.
+==A privacidade é a garantia de que os seus dados só são vistos por quem autoriza.== No contexto de uma aplicação de mensagens instantâneas, por exemplo, a encriptação ponta a ponta garante privacidade, mantendo a sua mensagem visível apenas para si e para o destinatário.
 
 **Segurança**
 :
@@ -24,7 +24,7 @@ A segurança é a capacidade de confiar nas aplicações que utiliza - que são 
 
 Os certificados permitem a certeza de que está a falar diretamente com o site que está a visitar e impedem que os atacantes na sua rede leiam ou modifiquem os dados enviados para ou a partir do site.
 
-**Anonymity**
+**Anonimato**
 :
 
 O anonimato é a capacidade de agir sem um identificador persistente. Pode obter essa privacidade online com o browser [Tor](../tor.md), que lhe permite navegar na Internet com um endereço IP e uma ligação de rede aleatórios, que substituem os seus.

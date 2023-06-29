@@ -99,13 +99,13 @@ Le logiciel client a été indépendamment [audité](https://briarproject.org/ne
 
 Briar a un [cahier des charges](https://code.briarproject.org/briar/briar-spec) entièrement publié.
 
-Briar prend en charge la confidentialité persistante en utilisant le protocole de [Handshake](https://code.briarproject.org/briar/briar-spec/blob/master/protocols/BHP.md) et [Transport](https://code.briarproject.org/briar/briar-spec/blob/master/protocols/BTP.md) Bramble.
+Briar supports Forward Secrecy by using the Bramble [Handshake](https://code.briarproject.org/briar/briar-spec/blob/master/protocols/BHP.md) and [Transport](https://code.briarproject.org/briar/briar-spec/blob/master/protocols/BTP.md) protocol.
 
 ## Autres options
 
 !!! warning "Avertissement"
 
-    Ces messagers ne disposent pas de la fonction Perfect [Forward Secrecy](https://en.wikipedia.org/wiki/Forward_secrecy) (PFS), et bien qu'ils répondent à certains besoins que nos recommandations précédentes ne peuvent pas satisfaire, nous ne les recommandons pas pour les communications sensibles ou à long terme. Toute compromission de la clé parmi les destinataires du message affecterait la confidentialité de **toutes** les communications passées.
+    These messengers do not have [Forward Secrecy](https://en.wikipedia.org/wiki/Forward_secrecy), and while they fulfill certain needs that our previous recommendations may not, we do not recommend them for long-term or sensitive communications. Toute compromission de la clé parmi les destinataires du message affecterait la confidentialité de **toutes** les communications passées.
 
 ### Element
 
@@ -189,7 +189,7 @@ Session a un [livre blanc](https://arxiv.org/pdf/2002.04609.pdf) décrivant les 
 
 Nos critères de cas idéal représentent ce que nous aimerions voir d'un projet parfait dans cette catégorie. Nos recommandations peuvent ne pas inclure tout ou partie de cette fonctionnalité, mais celles qui l'inclus peuvent être mieux classées que les autres sur cette page.
 
-- Devrait prendre en charge la Confidentialité Persistante.
+- Should have Forward Secrecy.
 - Devrait avoir des serveurs open-source.
 - Devrait être décentralisé, c'est-à-dire fédéré ou P2P.
 - Devrait utiliser E2EE pour tous les messages par défaut.

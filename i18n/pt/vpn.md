@@ -281,13 +281,13 @@ Uma VPN é inútil se não proporcionar uma segurança adequada. Exigimos que to
 **Mínimos de qualificação:**
 
 - Esquemas de encriptação fortes: OpenVPN com autenticação SHA-256; handshake RSA-2048 ou superior; encriptação de dados AES-256-GCM ou AES-256-CBC.
-- Perfect Forward Secrecy (PFS).
+- Forward Secrecy.
 - Auditorias de segurança publicadas por uma empresa terceira de renome.
 
 **Melhor caso:**
 
 - Encriptação máxima: RSA-4096.
-- Perfect Forward Secrecy (PFS).
+- Forward Secrecy.
 - Auditorias de segurança exaustivas publicadas por uma empresa terceira de renome.
 - Programas de recompensa por deteção de erros e/ou processos coordenados de divulgação de vulnerabilidades.
 

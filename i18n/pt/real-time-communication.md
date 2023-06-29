@@ -102,13 +102,13 @@ O software cliente foi [auditado de forma independente](https://briarproject.org
 
 O Briar publicou na íntegra a sua [especificação](https://code.briarproject.org/briar/briar-spec).
 
-O Briar suporta encaminhamento totalmente sigiloso, através do Bramble [Handshake](https://code.briarproject.org/briar/briar-spec/blob/master/protocols/BHP.md) e [Transport](https://code.briarproject.org/briar/briar-spec/blob/master/protocols/BTP.md).
+O Briar suporta Forward Secrecy, através do Bramble [Handshake](https://code.briarproject.org/briar/briar-spec/blob/master/protocols/BHP.md) e do [Transport](https://code.briarproject.org/briar/briar-spec/blob/master/protocols/BTP.md).
 
 ## Opções adicionais
 
 !!! aviso
 
-    Estas aplicações de mensagens instantâneas não têm Perfect [Forward Secrecy] (https://en.wikipedia.org/wiki/Forward_secrecy) (PFS) e, embora satisfaçam certas necessidades que as nossas recomendações anteriores não podem satisfazer, não os recomendamos para comunicações de longo prazo ou sensíveis. Qualquer comprometimento da chave entre os destinatários da mensagem afetará a confidencialidade de **todas** as comunicações anteriores.
+    Estas aplicações de mensagens instantâneas não têm [Forward Secrecy] (https://en.wikipedia.org/wiki/Forward_secrecy) e, embora satisfaçam certas necessidades que as nossas recomendações anteriores não podem satisfazer, não os recomendamos para comunicações de longo prazo ou sensíveis. Qualquer comprometimento da chave entre os destinatários da mensagem afetará a confidencialidade de **todas** as comunicações anteriores.
 
 ### Element
 
@@ -194,7 +194,7 @@ O Session tem um [whitepaper](https://arxiv.org/pdf/2002.04609.pdf) que descreve
 
 Os nossos melhores critérios representam o que gostaríamos de ver num projeto perfeito desta categoria. As nossas recomendações podem não incluir todas as funcionalidades, mas incluem as que, na nossa opinião, têm um impacto mais elevado.
 
-- Deve ter o Perfect Forward Secrecy.
+- Deve ter o Forward Secrecy.
 - Deve ter servidores de código aberto.
 - Deve ser descentralizado, ou seja, federado ou P2P.
 - Deve utilizar o E2EE para todas as mensagens por defeito.

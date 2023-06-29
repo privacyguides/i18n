@@ -24,6 +24,7 @@
 *[FCM]: Firebase Cloud Messaging
 *[FDE]: Full Disk Encryption - Teljes Lemez Titkosítás
 *[FIDO]: Fast IDentity Online
+*[FS]: Forward Secrecy
 *[fork]: Egy meglévő projekt másolásával és független hozzájárulással létrehozott új szoftverprojekt
 *[GDPR]: General Data Protection Regulation - Általános Adatvédelmi Rendelet
 *[GPG]: GNU Privacy Guard (PGP implementáció)

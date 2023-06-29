@@ -99,13 +99,13 @@ El software cliente fue [auditado](https://briarproject.org/news/2017-beta-relea
 
 Briar tiene una [especificación publicada](https://code.briarproject.org/briar/briar-spec) completamente.
 
-Briar admite el secreto de reenvío perfecto utilizando el protocolo Bramble [Handshake](https://code.briarproject.org/briar/briar-spec/blob/master/protocols/BHP.md) y el protocolo [Transport](https://code.briarproject.org/briar/briar-spec/blob/master/protocols/BTP.md).
+Briar supports Forward Secrecy by using the Bramble [Handshake](https://code.briarproject.org/briar/briar-spec/blob/master/protocols/BHP.md) and [Transport](https://code.briarproject.org/briar/briar-spec/blob/master/protocols/BTP.md) protocol.
 
 ## Opciones Adicionales
 
 !!! warning "Advertencia"
 
-    Estos servicios de mensajería no tienen Perfect [Forward Secrecy](https://es.wikipedia.org/wiki/Perfect_forward_secrecy) (PFS), y aunque satisfacen ciertas necesidades que nuestras recomendaciones anteriores no pueden satisfacer, no los recomendamos para comunicaciones a largo plazo o sensibles. Cualquier compromiso de claves entre los destinatarios de los mensajes afectaría a la confidencialidad de **todas** las comunicaciones anteriores.
+    These messengers do not have [Forward Secrecy](https://en.wikipedia.org/wiki/Forward_secrecy), and while they fulfill certain needs that our previous recommendations may not, we do not recommend them for long-term or sensitive communications. Cualquier compromiso de claves entre los destinatarios de los mensajes afectaría a la confidencialidad de **todas** las comunicaciones anteriores.
 
 ### Element
 
@@ -189,7 +189,7 @@ Session tiene un [informe oficial](https://arxiv.org/pdf/2002.04609.pdf) que des
 
 Nuestro criterio del mejor caso representa lo que nos gustaría ver del proyecto perfecto en esta categoría. Es posible que nuestras recomendaciones no incluyan todas o algunas de estas funciones, pero las que sí las incluyan pueden estar mejor clasificadas que otras en esta página.
 
-- Debe tener Perfect Forward Secrecy.
+- Should have Forward Secrecy.
 - Debe tener servidores de código abierto.
 - Debe ser descentralizado, es decir, federado o P2P.
 - Debe utilizar E2EE para todos los mensajes por defecto.

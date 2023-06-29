@@ -24,6 +24,7 @@
 *[FCM]: Хмарний обмін повідомленнями Firebase (Firebase Cloud Messaging)
 *[FDE]: Повне шифрування диска (Full Disk Encryption)
 *[FIDO]: Швидка ідентифікація особи онлайн (Fast IDentity Online)
+*[FS]: Forward Secrecy
 *[форк]: Новий програмний проєкт, створений шляхом копіювання наявного проєкту та самостійного його доповнення
 *[GDPR]: Загальний регламент про захист даних ЄС (General Data Protection Regulation)
 *[GPG]: GNU Privacy Guard (реалізація PGP)

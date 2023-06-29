@@ -73,13 +73,13 @@ Arch Linux имеет плавающий цикл релиза. Не сущес�
     [:octicons-info-16:](https://docs.fedoraproject.org/en-US/fedora-silverblue/){ .card-link title=Документация}
     [:octicons-heart-16:](https://whatcanidoforfedora.org/){ .card-link title=Поддержать }
 
-Silverblue (and Kinoite) differ from Fedora Workstation as they replace the [DNF](https://fedoraproject.org/wiki/DNF) package manager with a much more advanced alternative called [`rpm-ostree`](https://docs.fedoraproject.org/en-US/fedora/rawhide/system-administrators-guide/package-management/rpm-ostree/). The `rpm-ostree` package manager works by downloading a base image for the system, then overlaying packages over it in a [git](https://en.wikipedia.org/wiki/Git)-like commit tree. When the system is updated, a new base image is downloaded and the overlays will be applied to that new image.
+Silverblue (и Kinoite) отличаются от Fedora Workstation тем, что заменяют пакетный менеджер [DNF](https://fedoraproject.org/wiki/DNF) гораздо более продвинутой альтернативой под названием [`rpm-ostree`](https://docs.fedoraproject.org/en-US/fedora/rawhide/system-administrators-guide/package-management/rpm-ostree/). Менеджер пакетов `rpm-ostree` работает путем скачивания базового образа для системы, а затем наложения пакетов на него в [git](https://en.wikipedia.org/wiki/Git)-подобном дереве коммитов. Когда система обновляется, загружается новое базовое изображение, и наложения будут применены к этому новому изображению.
 
-After the update is complete you will reboot the system into the new deployment. `rpm-ostree` keeps two deployments of the system so that you can easily rollback if something breaks in the new deployment. There is also the option to pin more deployments as needed.
+После завершения обновления вы перезагрузите систему в новую установку. `rpm-ostree` сохраняет две версии системы, чтобы вы могли легко откатиться назад, если что-то сломается в новой версии. Также есть возможность подключить большее количество версий по мере необходимости.
 
-[Flatpak](https://www.flatpak.org) is the primary package installation method on these distributions, as `rpm-ostree` is only meant to overlay packages that cannot stay inside of a container on top of the base image.
+[Flatpak](https://www.flatpak.org) является основным методом установки пакетов в этих дистрибутивах, так как `rpm-ostree` предназначен только для наложения пакетов, которые не могут оставаться внутри контейнера, поверх базового образа.
 
-As an alternative to Flatpaks, there is the option of [Toolbox](https://docs.fedoraproject.org/en-US/fedora-silverblue/toolbox/) to create [Podman](https://podman.io) containers with a shared home directory with the host operating system and mimic a traditional Fedora environment, which is a [useful feature](https://containertoolbx.org) for the discerning developer.
+В качестве альтернативы для Flatpak существует возможность [Toolbox](https://docs.fedoraproject.org/en-US/fedora-silverblue/toolbox/) для создания [Podman](https://podman.io) контейнеров с общим домашним каталогом с операционной системой хоста и имитации традиционного окружения Fedora, что является [полезной функцией](https://containertoolbx.org) для взыскательных разработчиков.
 
 ### NixOS
 
@@ -93,7 +93,7 @@ As an alternative to Flatpaks, there is the option of [Toolbox](https://docs.fed
     [:octicons-info-16:](https://nixos.org/learn.html){ .card-link title=Документация}
     [:octicons-heart-16:](https://nixos.org/donate.html){ .card-link title=Поддержать }
 
-NixOS’s package manager keeps every version of every package in a different folder in the **Nix store**. Due to this you can have different versions of the same package installed on your system. After the package contents have been written to the folder, the folder is made read-only.
+Менеджер пакетов NixOS хранит каждую версию каждого пакета в отдельной папке в **хранилище Nix**. Из-за этого в вашей системе могут быть установлены разные версии одного и того же пакета. После записи содержимого пакета в папку, папка становится доступной только для чтения.
 
 NixOS also provides atomic updates; first it downloads (or builds) the packages and files for the new system generation and then switches to it. There are different ways to switch to a new generation; you can tell NixOS to activate it after reboot or you can switch to it at runtime. You can also *test* the new generation by switching to it at runtime, but not setting it as the current system generation. If something in the update process breaks, you can just reboot and automatically and return to a working version of your system.
 
@@ -118,13 +118,13 @@ Nix is a source-based package manager; if there’s no pre-built available in th
     [:octicons-info-16:](https://www.whonix.org/wiki/Documentation){ .card-link title=Документация}
     [:octicons-heart-16:](https://www.whonix.org/wiki/Donate){ .card-link title=Поддержать }
 
-Whonix is meant to run as two virtual machines: a “Workstation” and a Tor “Gateway.” All communications from the Workstation must go through the Tor gateway. This means that even if the Workstation is compromised by malware of some kind, the true IP address remains hidden.
+Whonix предназначен для запуска в виде двух виртуальных машин: "Рабочая" и "Шлюз Tor." Все соединения рабочей станции должны проходить через шлюз Tor. Это означает, даже если рабочая станция будет скомпрометирована каким-либо вредоносным ПО, настоящий IP-адрес останется скрытым.
 
 Some of its features include Tor Stream Isolation, [keystroke anonymization](https://www.whonix.org/wiki/Keystroke_Deanonymization#Kloak), [encrypted swap](https://github.com/Whonix/swap-file-creator), and a hardened memory allocator.
 
 Future versions of Whonix will likely include [full system AppArmor policies](https://github.com/Whonix/apparmor-profile-everything) and a [sandbox app launcher](https://www.whonix.org/wiki/Sandbox-app-launcher) to fully confine all processes on the system.
 
-Whonix is best used [in conjunction with Qubes](https://www.whonix.org/wiki/Qubes/Why_use_Qubes_over_other_Virtualizers), Qubes-Whonix has various [disadvantages](https://forums.whonix.org/t/qubes-whonix-security-disadvantages-help-wanted/8581) when compared to other hypervisors.
+Whonix лучше всего использовать [в сочетании с Qubes](https://www.whonix.org/wiki/Qubes/Why_use_Qubes_over_other_Virtualizers), Qubes-Whonix имеет различные [недостатки](https://forums.whonix.org/t/qubes-whonix-security-disadvantages-help-wanted/8581) по сравнению с другими гипервизорами.
 
 ### Tails
 
@@ -138,11 +138,11 @@ Whonix is best used [in conjunction with Qubes](https://www.whonix.org/wiki/Qube
     [:octicons-info-16:](https://tails.boum.org/doc/index.en.html){ .card-link title=Документация}
     [:octicons-heart-16:](https://tails.boum.org/donate/){ .card-link title=Поддержать }
 
-Tails is great for counter forensics due to amnesia (meaning nothing is written to the disk); however, it is not a hardened distribution like Whonix. It lacks many anonymity and security features that Whonix has and gets updated much less often (only once every six weeks). A Tails system that is compromised by malware may potentially bypass the transparent proxy allowing for the user to be deanonymized.
+Tails отлично подходит для криминалистической экспертизы благодаря амнезии (то есть ничего не записывается на диск); однако это не такой защищенный дистрибутив, как Whonix. В нем нет многих функций анонимности и безопасности, которые есть в Whonix, и он обновляется гораздо реже (только раз в шесть недель). A Tails system that is compromised by malware may potentially bypass the transparent proxy allowing for the user to be deanonymized.
 
 Tails includes [uBlock Origin](desktop-browsers.md#ublock-origin) in Tor Browser by default, which may potentially make it easier for adversaries to fingerprint Tails users. [Whonix](desktop.md#whonix) virtual machines may be more leak-proof, however they are not amnesic, meaning data may be recovered from your storage device.
 
-By design, Tails is meant to completely reset itself after each reboot. Encrypted [persistent storage](https://tails.boum.org/doc/persistent_storage/index.en.html) can be configured to store some data between reboots.
+By design, Tails is meant to completely reset itself after each reboot. Зашифрованное [постоянное хранилище](https://tails.boum.org/doc/persistent_storage/index.en.html) может быть настроено для хранения некоторых данных между перезагрузками.
 
 ## Дистрибутивы для безопасности
 
@@ -162,9 +162,9 @@ By design, Tails is meant to completely reset itself after each reboot. Encrypte
     [:octicons-code-16:](https://github.com/QubesOS/){ .card-link title="Исходный код" }
     [:octicons-heart-16:](https://www.qubes-os.org/donate/){ .card-link title=Поддержать }
 
-Qubes OS is a Xen-based operating system meant to provide strong security for desktop computing through secure virtual machines (VMs), also known as *Qubes*.
+Qubes OS - это операционная система на базе Xen, предназначенная для обеспечения надежной защиты настольных компьютеров с помощью защищенных виртуальных машин (ВМ), также известных как *Qubes*.
 
-The Qubes OS operating system secures the computer by isolating subsystems (e.g., networking, USB, etc.) and applications in separate VMs. Should one part of the system be compromised, the extra isolation is likely to protect the rest of the system. For further details see the Qubes [FAQ](https://www.qubes-os.org/faq/).
+Операционная система Qubes OS обеспечивает безопасность компьютера путем изоляции подсистем (например, сетевых, USB и т.д.) и приложений в отдельных виртуальных машинах. Should one part of the system be compromised, the extra isolation is likely to protect the rest of the system. For further details see the Qubes [FAQ](https://www.qubes-os.org/faq/).
 
 ## Критерии
 
@@ -174,11 +174,11 @@ The Qubes OS operating system secures the computer by isolating subsystems (e.g.
 
     Мы всё еще работаем над установлением критериев для каждого раздела нашего сайта, поэтому они могут поменяться в будущем. Если у вас есть вопросы по поводу наших критериев, пожалуйста, [задавайте их на нашем форуме](https://discuss.privacyguides.net/latest). Если какой-то критерий здесь не указан, это не значит, что мы его не учли. Перед тем, как рекомендовать какой-либо проект мы учитываем и обсуждаем множество факторов. Документирование этих факторов ещё не завершено.
 
-Our recommended operating systems:
+Наши рекомендованные операционные системы:
 
-- Must be open-source.
-- Must receive regular software and Linux kernel updates.
-- Linux distributions must support [Wayland](os/linux-overview.md#Wayland).
-- Must support full-disk encryption during installation.
-- Must not freeze regular releases for more than 1 year. We [do not recommend](os/linux-overview.md#release-cycle) "Long Term Support" or "stable" distro releases for desktop usage.
-- Must support a wide variety of hardware.
+- Должны иметь открытый исходный код.
+- Должны получать регулярные обновления программного обеспечения и ядра Linux.
+- Дистрибутивы Linux должны поддерживать [Wayland](os/linux-overview.md#Wayland).
+- Должны предлагать шифрование всего диска во время установки.
+- Не должны замораживать релизы более чем на 1 год. Мы [не рекомендуем](os/linux-overview.md#release-cycle) дистрибутивы с "Long Term Support" или "stable" релизами для персональных компьютеров.
+- Должны поддерживать широкий спектр устройств.

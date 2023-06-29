@@ -99,13 +99,13 @@ De clientsoftware was onafhankelijk [gecontroleerd](https://briarproject.org/new
 
 Briar heeft een volledig [gepubliceerde specificatie](https://code.briarproject.org/briar/briar-spec).
 
-Briar ondersteunt perfect forward secrecy door het gebruik van jet Bramble [Handshake](https://code.briarproject.org/briar/briar-spec/blob/master/protocols/BHP.md) en [Transport](https://code.briarproject.org/briar/briar-spec/blob/master/protocols/BTP.md) protocol.
+Briar supports Forward Secrecy by using the Bramble [Handshake](https://code.briarproject.org/briar/briar-spec/blob/master/protocols/BHP.md) and [Transport](https://code.briarproject.org/briar/briar-spec/blob/master/protocols/BTP.md) protocol.
 
 ## Aanvullende opties
 
 !!! warning
 
-    Deze boodschappers hebben geen Perfect [Forward Secrecy](https://en.wikipedia.org/wiki/Forward_secrecy) (PFS), en hoewel zij in bepaalde behoeften voorzien die onze vorige aanbevelingen niet hebben, bevelen wij ze niet aan voor langdurige of gevoelige communicatie. Elke compromittering van sleutels tussen ontvangers van berichten zou de vertrouwelijkheid van **alle** eerdere communicaties aantasten.
+    These messengers do not have [Forward Secrecy](https://en.wikipedia.org/wiki/Forward_secrecy), and while they fulfill certain needs that our previous recommendations may not, we do not recommend them for long-term or sensitive communications. Elke compromittering van sleutels tussen ontvangers van berichten zou de vertrouwelijkheid van **alle** eerdere communicaties aantasten.
 
 ### Element
 
@@ -189,7 +189,7 @@ Session heeft een [whitepaper](https://arxiv.org/pdf/2002.04609.pdf) die de tech
 
 Onze best-case criteria geven aan wat wij zouden willen zien van het perfecte project in deze categorie. Het is mogelijk dat onze aanbevelingen geen of niet alle functies bevatten, maar degene die dat wel doen kunnen hoger gerangschikt worden dan andere op deze pagina.
 
-- Moet Perfect Forward Secrecy hebben.
+- Should have Forward Secrecy.
 - Moet open-source servers hebben.
 - Moet gedecentraliseerd zijn, d.w.z. gefedereerd of P2P.
 - Moet standaard E2EE gebruiken voor privé-berichten.

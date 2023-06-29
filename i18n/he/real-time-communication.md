@@ -99,13 +99,13 @@ SimpleX Chat [נבדק](https://simplex.chat/blog/20221108-simplex-chat-v4.2-sec
 
 ל Briar יש מפרט ש[פורסם במלואו](https://code.briarproject.org/briar/briar-spec).
 
-Briar תומך בסודיות קדימה מושלמת על ידי שימוש ב-[Handshake](https://code.briarproject.org/briar/briar-spec/blob/master/protocols/BHP.md) ו [Transport](https://code.briarproject.org/briar/briar-spec/blob/master/protocols/BTP.md) פרוטוקול.
+Briar supports Forward Secrecy by using the Bramble [Handshake](https://code.briarproject.org/briar/briar-spec/blob/master/protocols/BHP.md) and [Transport](https://code.briarproject.org/briar/briar-spec/blob/master/protocols/BTP.md) protocol.
 
 ## אפשרויות נוספות
 
 !!! warning "אזהרה"
 
-    למסנג'רים האלה אין [סודיות קדימה](https://en.wikipedia.org/wiki/Forward_secrecy) מושלם (PFS), ולמרות שהם ממלאים צרכים מסוימים שהמלצות קודמות שלנו אולי לא, אנחנו לא ממליצים עליהם לאורך זמן- מונחים או תקשורת רגישה. כל פשרה מרכזית בין מקבלי ההודעות תשפיע על הסודיות של **כל** התקשורת העבר.
+    These messengers do not have [Forward Secrecy](https://en.wikipedia.org/wiki/Forward_secrecy), and while they fulfill certain needs that our previous recommendations may not, we do not recommend them for long-term or sensitive communications. כל פשרה מרכזית בין מקבלי ההודעות תשפיע על הסודיות של **כל** התקשורת העבר.
 
 ### Element
 
@@ -189,7 +189,7 @@ Oxen ביקשה ביקורת בלתי תלויה למפגש במרץ 2020. הב�
 
 הקריטריונים הטובים ביותר שלנו מייצגים את מה שהיינו רוצים לראות מהפרויקט המושלם בקטגוריה זו. ייתכן שההמלצות שלנו לא יכללו חלק מהפונקציונליות הזו או את כולה, אך אלו שכן כן עשויות לדרג גבוה יותר מאחרות בדף זה.
 
-- צריך להיות סודיות קדימה מושלמת.
+- Should have Forward Secrecy.
 - צריכים להיות שרתי קוד פתוח.
 - צריך להיות מבוזר, כלומר מאוחד או P2P.
 - אמור להשתמש ב- E2EE עבור כל ההודעות כברירת מחדל.

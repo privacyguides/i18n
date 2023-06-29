@@ -279,13 +279,13 @@ Egy VPN értelmetlen, ha még megfelelő biztonságot sem tud nyújtani. Minden 
 **Minimális Elvárások:**
 
 - Erős Titkosítási Rendszerek: OpenVPN SHA-256 hitelesítssel; RSA-2048 vagy jobb handshake; AES-256-GCM vagy AES-256-CBC adattitkosítás.
-- Perfect Forward Secrecy (PFS).
+- Forward Secrecy.
 - Közzétett biztonsági felülvizsgálatok egy megbízható harmadik feles cégtől.
 
 **Legjobb Esetben:**
 
 - Legerősebb Titkosítás: RSA-4096.
-- Perfect Forward Secrecy (PFS).
+- Forward Secrecy.
 - Széleskürű és közzétett biztonsági felülvizsgálatok egy megbízható harmadik feles cégtől.
 - Bug-bounty programok és/vagy összehangolt sebezhetőség-közzétételi folyamat.
 

@@ -119,31 +119,30 @@ A melhor forma de manter os seus dados privados é simplesmente não os tornar p
 
 - [Veja o nosso guia sobre a eliminação de contas :material-arrow-right-drop-circle:](account-deletion.md)
 
-On sites where you do share information, checking the privacy settings of your account to limit how widely that data is spread is very important. For example, enable "private mode" on your accounts if given the option: This ensures that your account isn't being indexed by search engines, and that it can't be viewed without your permission.
+Nos sites onde partilha informações, é muito importante verificar as definições de privacidade da sua conta, de forma a limitar a divulgação desses dados. Por exemplo, ative o "modo privado" nas suas contas, se tiver essa opção: assim, garante que a sua conta não está a ser indexada pelos motores de busca e que não pode ser visualizada sem a sua autorização.
 
-If you've already submitted your real information to sites which shouldn't have it, consider using disinformation tactics, like submitting fictitious information related to that online identity. This makes your real information indistinguishable from the false information.
+Se já submeteu as suas informações reais a sites que não as deveriam ter, considere a possibilidade de utilizar táticas de desinformação, como submeter informações fictícias relacionadas com essa identidade online. Isso torna as suas informações reais indistinguíveis das falsas.
 
-## Avoiding Censorship
+## Evitar a Censura
 
-<span class="pg-blue-gray">:material-close-outline: Censorship</span>
+<span class="pg-blue-gray">:material-close-outline: Censura</span>
 
-Censorship online can be carried out (to varying degrees) by actors including totalitarian governments, network administrators, and service providers. These efforts to control communication and restrict access to information will always be incompatible with the human right to Freedom of Expression.[^5]
+A censura online pode ser realizada (em diferentes graus) por diversos atores, incluindo governos totalitários, administradores de redes e prestadores de serviços. Estes esforços para controlar a comunicação e restringir o acesso à informação serão sempre incompatíveis com o direito humano à liberdade de expressão.[^5]
 
-Censorship on corporate platforms is increasingly common, as platforms like Twitter and Facebook give in to public demand, market pressures, and pressures from government agencies. Government pressures can be covert requests to businesses, such as the White House [requesting the takedown](https://www.nytimes.com/2012/09/17/technology/on-the-web-a-fine-line-on-free-speech-across-globe.html) of a provocative YouTube video, or overt, such as the Chinese government requiring companies to adhere to a strict regime of censorship.
+A censura nas plataformas corporativas é cada vez mais comum, uma vez que plataformas como o Twitter e o Facebook cedem à procura pública, às pressões do mercado e às pressões das agências governamentais. As pressões do governo podem ser solicitações dissimuladas a empresas, como no caso em que a Casa Branca [solicitou a retirada](https://www.nytimes.com/2012/09/17/technology/on-the-web-a-fine-line-on-free-speech-across-globe.html) de um vídeo provocador do YouTube, ou, de forma evidente, quando o Governo chinês exige que as empresas respeitem um regime rigoroso de censura.
 
-People concerned with the threat of censorship can use technologies like [Tor](../advanced/tor-overview.md) to circumvent it, and support censorship-resistant communication platforms like [Matrix](../real-time-communication.md#element), which doesn't have a centralized account authority that can close accounts arbitrarily.
+As pessoas que se preocupam com a ameaça da censura podem usar tecnologias como o [Tor](../advanced/tor-overview.md) para contorná-la, e utilizar plataformas de comunicação resistentes à censura, como o [Matrix](../real-time-communication.md#element), que não tem uma autoridade de conta centralizada que pode fechar as contas arbitrariamente.
 
-!!! aviso
-     Backup `BitLocker-Recovery-Key.txt` em um dispositivo de armazenamento separado.
+!!! dica
 
-    While evading censorship itself can be easy, hiding the fact that you are doing it can be very problematic.
+    Enquanto evitar a censura em si pode ser fácil, esconder esse facto pode ser muito problemático.
     
-    You should consider which aspects of the network your adversary can observe, and whether you have plausible deniability for your actions. For example, using [encrypted DNS](../advanced/dns-overview.md#what-is-encrypted-dns) can help you bypass rudimentary, DNS-based censorship systems, but it can't truly hide what you are visiting from your ISP. A VPN or Tor can help hide what you are visiting from network administrators, but can't hide that you're using those networks in the first place. Pluggable transports (such as Obfs4proxy, Meek, or Shadowsocks) can help you evade firewalls that block common VPN protocols or Tor, but your circumvention attempts can still be detected by methods like probing or [deep packet inspection](https://en.wikipedia.org/wiki/Deep_packet_inspection).
+    Deve considerar quais os aspetos da rede que o seu adversário pode observar e se tem negação plausível das suas ações. Por exemplo, usar [DNS criptografado](../advanced/dns-overview.md#what-is-encrypted-dns) pode ajudá-lo a contornar sistemas rudimentares de censura baseados em DNS, mas não pode realmente esconder as suas atividades online do seu ISP. Uma VPN ou o Tor podem ajudar a esconder o que está a visitar dos administradores de rede, mas não pode esconder o facto de estar a usar essas redes. Transportes conectáveis (como Obfs4proxy, Meek ou Shadowsocks) podem ajudá-lo a evitar firewalls que bloqueiam protocolos VPN comuns ou Tor, mas as suas tentativas de contornar o problema podem ser detetadas através de métodos como sondagem ou [inspeção profunda de pacotes](https://en. wikipedia.org/wiki/Deep_packet_inspection).
 
-You must always consider the risks of trying to bypass censorship, the potential consequences, and how sophisticated your adversary may be. You should be cautious with your software selection, and have a backup plan in case you are caught.
+Deve sempre considerar os riscos de tentar contornar a censura, as possíveis consequências e o quão sofisticado o seu adversário pode ser. Deve ser cauteloso com a sua seleção de software e ter um plano de backup, caso seja apanhado.
 
-[^1]: Wikipedia: [*Mass Surveillance*](https://en.wikipedia.org/wiki/Mass_surveillance) and [*Surveillance*](https://en.wikipedia.org/wiki/Surveillance).
-[^2]: United States Privacy and Civil Liberties Oversight Board: [*Report on the Telephone Records Program Conducted under Section 215*](https://documents.pclob.gov/prod/Documents/OversightReport/ec542143-1079-424a-84b3-acc354698560/215-Report_on_the_Telephone_Records_Program.pdf)
-[^3]: Wikipedia: [*Surveillance capitalism*](https://en.wikipedia.org/wiki/Surveillance_capitalism)
-[^4]: "[Enumerating badness](https://www.ranum.com/security/computer_security/editorials/dumb/)" (or, "listing all the bad things that we know about"), as many adblockers and antivirus programs do, fails to adequately protect you from new and unknown threats because they have not yet been added to the filter list. You should also employ other mitigation techniques.
-[^5]: United Nations: [*Universal Declaration of Human Rights*](https://www.un.org/en/about-us/universal-declaration-of-human-rights).
+[^1]: Wikipedia: [*Vigilância em massa*](https://en.wikipedia.org/wiki/Mass_surveillance) e [*Vigilância*](https: //en.wikipedia.org/wiki/Surveillance).
+[^2]: Conselho de Supervisão de Privacidade e Liberdades Civis dos Estados Unidos: [*Relatório sobre o Programa de Registos Telefónicos Conduzido ao abrigo da Secção 215*](https://documents.pclob.gov/prod/Documents/OversightReport/ec542143-1079-424a-84b3-acc354698560/215-Report_on_the_Telephone_Records_Program.pdf)
+[^3]: Wikipedia: [*Capitalismo de vigilância<*](https://en.wikipedia.org/wiki/Surveillance_capitalism)
+[^4]: "[Enumerar maldades](https://www.ranum.com/security/computer_security/editorials/dumb/)" (ou "listar todas as coisas más que conhecemos"), como muitos bloqueadores de anúncios e programas antivírus, não o protegem adequadamente contra novas ameaças ou ameaças desconhecidas, dado estas aindam não terem sido adicionadas à lista de filtros. Deve empregar outras técnicas de mitigação.
+[^5]: Nações Unidas: [*Declaração Universal dos Direitos Humanos *](https://www.un.org/en/about-us/universal-declaration-of-human-rights).
