@@ -387,7 +387,7 @@ Aurora Store不允許其匿名帳戶下載付費應用程式。 您可以選擇�
 
 也就是說， [F-droid](https://f-droid.org/en/packages/) 和 [IzzyOnDroid](https://apt.izzysoft.de/fdroid/) 存取庫有無數應用程式，所以它們成為搜索和發現開源應用程式的有用工具，然後通過 Play Store、Aurora Store 或直接從開發者獲得 APK 下載。 重要的是要記住，這些資源庫裏一些應用程式已多年未更新，可能依賴於不支援的程式庫等，構成潛在的安全風險。 使用這種方法尋找新的應用程式時，應該善用最佳判斷。
 
-!!! 備註
+!!! note "備註"
 
     在某些罕見情況下，應用程式開發者將只通過 F-droid 發布（[Gadgetbridge](https://gadgetbridge.org/)就是一例。) 如果真需要這樣的應用程式，建議使用 [Neo Store](https://github.com/NeoApplications/Neo-Store/)，而不是從官方的 F-droid 應用程式來獲得。
 
@@ -395,7 +395,7 @@ Aurora Store不允許其匿名帳戶下載付費應用程式。 您可以選擇�
 
 **請注意，我們所推薦專案沒有任何瓜葛。 ** 除了 [標準準則](about/criteria.md)外，我們還發展出一套明確要求以提出客觀建議。 我們建議您在選擇使用項目之前先熟悉此列表，並進行自己的研究，以確保它是您的正確選擇。
 
-!!! !!! 例如 "本节是新的"
+!!! example "此部分是新的"
 
     我們正在努力為我們網站的每個部分建立定義的標準，這可能會有所變化。 如果您對我們的標準有任何疑問，請在 [論壇上提問](https://discuss.privacyguides.net/latest) ，如果沒有列出，請不要認為我們在提出建議時沒有考慮到某些事情。 當我們推薦一個項目時，有許多因素被考慮和討論，記錄每一個項目都是正在進行式。
 

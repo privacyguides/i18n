@@ -10,9 +10,9 @@ If you're looking for additional **privacy** from your ISP, on a public Wi-Fi ne
 
 <div class="grid cards" markdown>
 
+- ![Proton VPN logo](assets/img/vpn/protonvpn.svg){ .twemoji } [Proton VPN](#proton-vpn)
 - ![IVPN logo](assets/img/vpn/mini/ivpn.svg){ .twemoji } [IVPN](#ivpn)
 - ![Mullvad logo](assets/img/vpn/mullvad.svg){ .twemoji } [Mullvad](#mullvad)
-- ![Proton VPN logo](assets/img/vpn/protonvpn.svg){ .twemoji } [Proton VPN](#proton-vpn)
 
 </div>
 
@@ -31,6 +31,70 @@ If you're looking for additional **privacy** from your ISP, on a public Wi-Fi ne
 ## Ajánlott Szolgáltatók
 
 Az általunk ajánlott szolgáltatók titkosítást használnak, elfogadják a Monero-t, támogatják a WireGuard-ot és OpenVPN-t, valamint naplózásmentes irányelvekkel rendelkeznek. Read our [full list of criteria](#criteria) for more information.
+
+### Proton VPN
+
+!!! recommendation annotate
+
+    ![Proton VPN logo](assets/img/vpn/protonvpn.svg){ align=right }
+    
+    A **Proton VPN** egy erős pályázó a VPN-térben, és 2016 óta vannak működésben. A svájci székhelyű Proton AG egy korlátozott ingyenes előfizetést, valamint egy jobban felszerelt prémium opciót is kínál.
+    
+    [:octicons-home-16: Honlap](https://protonvpn.com/){ .md-button .md-button--primary }
+    [:octicons-eye-16:](https://protonvpn.com/privacy-policy){ .card-link title="Adatvédelmi Tájékoztató" }
+    [:octicons-info-16:](https://protonvpn.com/support/){ .card-link title=Dokumentáció}
+    [:octicons-code-16:](https://github.com/ProtonVPN){ .card-link title="Forráskód" }
+    
+    ??? downloads
+    
+        - [:simple-googleplay: Google Play](https://play.google.com/store/apps/details?id=ch.protonvpn.android)
+        - [:simple-appstore: App Store](https://apps.apple.com/app/apple-store/id1437005085)
+        - [:simple-github: GitHub](https://github.com/ProtonVPN/android-app/releases)
+        - [:simple-windows11: Windows](https://protonvpn.com/download-windows)
+        - [:simple-linux: Linux](https://protonvpn.com/support/linux-vpn-setup/)
+
+#### :material-check:{ .pg-green } 67 Countries
+
+Proton VPN has [servers in 67 countries](https://protonvpn.com/vpn-servers).(1) Picking a VPN provider with a server nearest to you will reduce latency of the network traffic you send. Ennek oka a célállomáshoz vezető rövidebb útvonal (kevesebb ugrás).
+{ .annotate }
+
+1. Utoljára ellenőrizve: 2022-09-16
+
+We also think it's better for the security of the VPN provider's private keys if they use [dedicated servers](https://en.wikipedia.org/wiki/Dedicated_hosting_service), instead of cheaper shared solutions (with other customers) such as [virtual private servers](https://en.wikipedia.org/wiki/Virtual_private_server).
+
+#### :material-check:{ .pg-green } Independently Audited
+
+A Proton VPN átesett a SEC Consult független felülvizsálatán 2020 januárjában. A SEC Consult közepes és alacsony kockázatú sebezhetőségeket talált a Proton VPN Windows, Android és iOS alkalmazásaiban, amelyeket a Proton VPN a jelentések közzététele előtt "megfelelően kijavított". Az azonosított problémák egyike sem biztosított volna egy támadó számára távoli hozzáférést az eszközödhöz vagy forgalmadhoz. You can view individual reports for each platform at [protonvpn.com](https://protonvpn.com/blog/open-source/). In April 2022 Proton VPN underwent [another audit](https://protonvpn.com/blog/no-logs-audit/) and the report was [produced by Securitum](https://protonvpn.com/blog/wp-content/uploads/2022/04/securitum-protonvpn-nologs-20220330.pdf). A [letter of attestation](https://proton.me/blog/security-audit-all-proton-apps) was provided for Proton VPN's apps on 9th November 2021 by [Securitum](https://research.securitum.com).
+
+#### :material-check:{ .pg-green } Open-Source Clients
+
+Proton VPN provides the source code for their desktop and mobile clients in their [GitHub organization](https://github.com/ProtonVPN).
+
+#### :material-check:{ .pg-green } Elfogad Készpénzt
+
+Proton VPN, in addition to accepting credit/debit cards, PayPal, and [Bitcoin](advanced/payments.md#other-coins-bitcoin-ethereum-etc), also accepts **cash/local currency** as an anonymous form of payment.
+
+#### :material-check:{ .pg-green } WireGuard Support
+
+A Proton VPN többnyire támogatja a WireGuard® protokollt. [WireGuard](https://www.wireguard.com) is a newer protocol that uses state-of-the-art [cryptography](https://www.wireguard.com/protocol/). Emellett a WireGuard célja, hogy egyszerűbb és hatékonyabb legyen.
+
+Proton VPN [recommends](https://protonvpn.com/blog/wireguard/) the use of WireGuard with their service. On Proton VPN's Windows, macOS, iOS, Android, ChromeOS, and Android TV apps, WireGuard is the default protocol; however, [support](https://protonvpn.com/support/how-to-change-vpn-protocols/) for the protocol is not present in their Linux app.
+
+#### :material-alert-outline:{ .pg-orange } Remote Port Forwarding
+
+Proton VPN currently only supports ephemeral remote [port forwarding](https://protonvpn.com/support/port-forwarding/) via NAT-PMP, with 60 second lease times. The Windows app provides an easy to access option for it, while on other operating systems you'll need to run your own [NAT-PMP client](https://protonvpn.com/support/port-forwarding-manual-setup/). Torrent applications often support NAT-PMP natively.
+
+#### :material-check:{ .pg-green } Mobile Clients
+
+In addition to providing standard OpenVPN configuration files, Proton VPN has mobile clients for [App Store](https://apps.apple.com/us/app/protonvpn-fast-secure-vpn/id1437005085), [Google Play](https://play.google.com/store/apps/details?id=ch.protonvpn.android&hl=en_US), and [GitHub](https://github.com/ProtonVPN/android-app/releases) allowing for easy connections to their servers.
+
+#### :material-information-outline:{ .pg-blue } Additional Functionality
+
+A Proton VPN kliensek jelenleg a Linux kivételével minden platformon támogatják a kétlépcsős hitelesítést. A Proton VPN saját szerverekkel és adatközpontokkal rendelkezik Svájcban, Izlandon és Svédországban. A DNS-szolgáltatásukkal együtt reklámblokkolást és ismert kártékony szoftverek domainjeinek blokkolását is kínálják. Additionally, Proton VPN also offers "Tor" servers allowing you to easily connect to onion sites, but we still strongly recommend using [the official Tor Browser](https://www.torproject.org/) for this purpose.
+
+#### :material-alert-outline:{ .pg-orange } Killswitch feature is broken on Intel-based Macs
+
+System crashes [may occur](https://protonvpn.com/support/macos-t2-chip-kill-switch/) on Intel-based Macs when using the VPN killswitch. Ha szükséged van erre a funkcióra, és Intel chipsettel rendelkező Mac-et használsz, akkor fontold meg egy másik VPN szolgáltatás használatát.
 
 ### IVPN
 
@@ -81,9 +145,9 @@ Az IVPN támogatja a WireGuard® protokollt. [WireGuard](https://www.wireguard.c
 
 IVPN [recommends](https://www.ivpn.net/wireguard/) the use of WireGuard with their service and, as such, the protocol is the default on all of IVPN's apps. IVPN also offers a WireGuard configuration generator for use with the official WireGuard [apps](https://www.wireguard.com/install/).
 
-#### :material-check:{ .pg-green } Remote Port Forwarding
+#### :material-alert-outline:{ .pg-orange } Remote Port Forwarding
 
-Remote [port forwarding](https://en.wikipedia.org/wiki/Port_forwarding) is possible with a Pro plan. Port forwarding [can be activated](https://www.ivpn.net/knowledgebase/81/How-do-I-activate-port-forwarding.html) via the client area. Port forwarding is only available on IVPN when using WireGuard or OpenVPN protocols and is [disabled on US servers](https://www.ivpn.net/knowledgebase/116/Port-forwarding-is-not-working-why.html).
+IVPN previously supported port forwarding, but removed the option in [June 2023](https://www.ivpn.net/blog/gradual-removal-of-port-forwarding). Missing this feature could negatively impact certain applications, especially peer-to-peer applications like torrent clients.
 
 #### :material-check:{ .pg-green } Mobile Clients
 
@@ -166,70 +230,6 @@ Mullvad has published [App Store](https://apps.apple.com/app/mullvad-vpn/id14884
 #### :material-information-outline:{ .pg-blue } Additional Functionality
 
 Mullvad is very transparent about which nodes they [own or rent](https://mullvad.net/en/servers/). They use [ShadowSocks](https://shadowsocks.org/) in their ShadowSocks + OpenVPN configuration, making them more resistant against firewalls with [Deep Packet Inspection](https://en.wikipedia.org/wiki/Deep_packet_inspection) trying to block VPNs. Supposedly, [China has to use a different method to block ShadowSocks servers](https://github.com/net4people/bbs/issues/22). Mullvad's website is also accessible via Tor at [o54hon2e2vj6c7m3aqqu6uyece65by3vgoxxhlqlsvkmacw6a7m7kiad.onion](http://o54hon2e2vj6c7m3aqqu6uyece65by3vgoxxhlqlsvkmacw6a7m7kiad.onion).
-
-### Proton VPN
-
-!!! recommendation annotate
-
-    ![Proton VPN logo](assets/img/vpn/protonvpn.svg){ align=right }
-    
-    A **Proton VPN** egy erős pályázó a VPN-térben, és 2016 óta vannak működésben. A svájci székhelyű Proton AG egy korlátozott ingyenes előfizetést, valamint egy jobban felszerelt prémium opciót is kínál.
-    
-    [:octicons-home-16: Honlap](https://protonvpn.com/){ .md-button .md-button--primary }
-    [:octicons-eye-16:](https://protonvpn.com/privacy-policy){ .card-link title="Adatvédelmi Tájékoztató" }
-    [:octicons-info-16:](https://protonvpn.com/support/){ .card-link title=Dokumentáció}
-    [:octicons-code-16:](https://github.com/ProtonVPN){ .card-link title="Forráskód" }
-    
-    ??? downloads
-    
-        - [:simple-googleplay: Google Play](https://play.google.com/store/apps/details?id=ch.protonvpn.android)
-        - [:simple-appstore: App Store](https://apps.apple.com/app/apple-store/id1437005085)
-        - [:simple-github: GitHub](https://github.com/ProtonVPN/android-app/releases)
-        - [:simple-windows11: Windows](https://protonvpn.com/download-windows)
-        - [:simple-linux: Linux](https://protonvpn.com/support/linux-vpn-setup/)
-
-#### :material-check:{ .pg-green } 67 Countries
-
-Proton VPN has [servers in 67 countries](https://protonvpn.com/vpn-servers).(1) Picking a VPN provider with a server nearest to you will reduce latency of the network traffic you send. Ennek oka a célállomáshoz vezető rövidebb útvonal (kevesebb ugrás).
-{ .annotate }
-
-1. Utoljára ellenőrizve: 2022-09-16
-
-We also think it's better for the security of the VPN provider's private keys if they use [dedicated servers](https://en.wikipedia.org/wiki/Dedicated_hosting_service), instead of cheaper shared solutions (with other customers) such as [virtual private servers](https://en.wikipedia.org/wiki/Virtual_private_server).
-
-#### :material-check:{ .pg-green } Independently Audited
-
-A Proton VPN átesett a SEC Consult független felülvizsálatán 2020 januárjában. A SEC Consult közepes és alacsony kockázatú sebezhetőségeket talált a Proton VPN Windows, Android és iOS alkalmazásaiban, amelyeket a Proton VPN a jelentések közzététele előtt "megfelelően kijavított". Az azonosított problémák egyike sem biztosított volna egy támadó számára távoli hozzáférést az eszközödhöz vagy forgalmadhoz. You can view individual reports for each platform at [protonvpn.com](https://protonvpn.com/blog/open-source/). In April 2022 Proton VPN underwent [another audit](https://protonvpn.com/blog/no-logs-audit/) and the report was [produced by Securitum](https://protonvpn.com/blog/wp-content/uploads/2022/04/securitum-protonvpn-nologs-20220330.pdf). A [letter of attestation](https://proton.me/blog/security-audit-all-proton-apps) was provided for Proton VPN's apps on 9th November 2021 by [Securitum](https://research.securitum.com).
-
-#### :material-check:{ .pg-green } Open-Source Clients
-
-Proton VPN provides the source code for their desktop and mobile clients in their [GitHub organization](https://github.com/ProtonVPN).
-
-#### :material-check:{ .pg-green } Elfogad Készpénzt
-
-Proton VPN, in addition to accepting credit/debit cards, PayPal, and [Bitcoin](advanced/payments.md#other-coins-bitcoin-ethereum-etc), also accepts **cash/local currency** as an anonymous form of payment.
-
-#### :material-check:{ .pg-green } WireGuard Support
-
-A Proton VPN többnyire támogatja a WireGuard® protokollt. [WireGuard](https://www.wireguard.com) is a newer protocol that uses state-of-the-art [cryptography](https://www.wireguard.com/protocol/). Emellett a WireGuard célja, hogy egyszerűbb és hatékonyabb legyen.
-
-Proton VPN [recommends](https://protonvpn.com/blog/wireguard/) the use of WireGuard with their service. On Proton VPN's Windows, macOS, iOS, Android, ChromeOS, and Android TV apps, WireGuard is the default protocol; however, [support](https://protonvpn.com/support/how-to-change-vpn-protocols/) for the protocol is not present in their Linux app.
-
-#### :material-alert-outline:{ .pg-orange } Remote Port Forwarding
-
-Proton VPN currently only supports ephemeral remote [port forwarding](https://protonvpn.com/support/port-forwarding/) via NAT-PMP, with 60 second lease times. The Windows app provides an easy to access option for it, while on other operating systems you'll need to run your own [NAT-PMP client](https://protonvpn.com/support/port-forwarding-manual-setup/). Torrent applications often support NAT-PMP natively.
-
-#### :material-check:{ .pg-green } Mobile Clients
-
-In addition to providing standard OpenVPN configuration files, Proton VPN has mobile clients for [App Store](https://apps.apple.com/us/app/protonvpn-fast-secure-vpn/id1437005085), [Google Play](https://play.google.com/store/apps/details?id=ch.protonvpn.android&hl=en_US), and [GitHub](https://github.com/ProtonVPN/android-app/releases) allowing for easy connections to their servers.
-
-#### :material-information-outline:{ .pg-blue } Additional Functionality
-
-A Proton VPN kliensek jelenleg a Linux kivételével minden platformon támogatják a kétlépcsős hitelesítést. A Proton VPN saját szerverekkel és adatközpontokkal rendelkezik Svájcban, Izlandon és Svédországban. A DNS-szolgáltatásukkal együtt reklámblokkolást és ismert kártékony szoftverek domainjeinek blokkolását is kínálják. Additionally, Proton VPN also offers "Tor" servers allowing you to easily connect to onion sites, but we still strongly recommend using [the official Tor Browser](https://www.torproject.org/) for this purpose.
-
-#### :material-alert-outline:{ .pg-orange } Killswitch feature is broken on Intel-based Macs
-
-System crashes [may occur](https://protonvpn.com/support/macos-t2-chip-kill-switch/) on Intel-based Macs when using the VPN killswitch. Ha szükséged van erre a funkcióra, és Intel chipsettel rendelkező Mac-et használsz, akkor fontold meg egy másik VPN szolgáltatás használatát.
 
 ## Követelmények
 

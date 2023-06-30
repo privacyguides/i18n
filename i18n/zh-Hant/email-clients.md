@@ -7,7 +7,7 @@ cover: email-clients.png
 
 我們的推薦清單包含支援 [OpenPGP](encryption.md#openpgp) 和如[Open Authorization (OAuth)](https://en.wikipedia.org/wiki/OAuth)強認證的電子郵件用戶端 。 OAuth允許您使用 [多因素驗證](basics/multi-factor-authentication.md) 並防止帳戶被盜。
 
-??? 警告：「電子郵件不提供前向保密」
+??? warning "電子郵件不提供前向保密"
 
     當使用端到端加密（ E2EE ）技術（如OpenPGP ）時，電子郵件仍然會有一些未在電子郵件標頭中加密的[一些中繼數據] （ email.md#email-metadata-overview ）。
     

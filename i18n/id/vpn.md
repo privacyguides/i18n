@@ -10,9 +10,9 @@ Jika Anda mencari **privasi tambahan** dari ISP Anda, pada jaringan Wi-Fi publik
 
 <div class="grid cards" markdown>
 
-- ![Logo IVPN](assets/img/vpn/mini/ivpn.svg){ .twemoji } [IVPN](#ivpn)
-- ![Logo Mullvad](assets/img/vpn/mullvad.svg){ .twemoji } [Mullvad](#mullvad)
-- ![Logo Proton VPN](assets/img/vpn/protonvpn.svg){ .twemoji } [Proton VPN](#proton-vpn)
+- ![Proton VPN logo](assets/img/vpn/protonvpn.svg){ .twemoji } [Proton VPN](#proton-vpn)
+- ![IVPN logo](assets/img/vpn/mini/ivpn.svg){ .twemoji } [IVPN](#ivpn)
+- ![Mullvad logo](assets/img/vpn/mullvad.svg){ .twemoji } [Mullvad](#mullvad)
 
 </div>
 
@@ -31,6 +31,70 @@ Jika Anda mencari **privasi tambahan** dari ISP Anda, pada jaringan Wi-Fi publik
 ## Penyedia yang Direkomendasikan
 
 Penyedia yang kami rekomendasikan menggunakan enkripsi, menerima Monero, mendukung WireGuard & OpenVPN, dan memiliki kebijakan tanpa pencatatan. Baca [daftar lengkap kriteria kami](#criteria) untuk informasi lebih lanjut.
+
+### Proton VPN
+
+!!! recommendation annotate
+
+    ![Logo Proton VPN](assets/img/vpn/protonvpn.svg){ align=right }
+    
+    **Proton VPN** adalah pesaing kuat dalam bidang VPN, dan mereka telah beroperasi sejak 2016. Proton AG berbasis di Swiss dan menawarkan tingkat gratis terbatas, serta opsi premium yang lebih berfitur.
+    
+    [:octicons-home-16: Laman Beranda](https://protonvpn.com/){ .md-button .md-button--primary }
+    [:octicons-eye-16:](https://protonvpn.com/privacy-policy){ .card-link title="Kebijakan Privasi" }
+    [:octicons-info-16:](https://protonvpn.com/support/){ .card-link title=Dokumentasi}
+    [:octicons-code-16:](https://github.com/ProtonVPN){ .card-link title="Kode Sumber" }
+    
+    ??? downloads
+    
+        - [:simple-googleplay: Google Play](https://play.google.com/store/apps/details?id=ch.protonvpn.android)
+        - [:simple-appstore: App Store](https://apps.apple.com/app/apple-store/id1437005085)
+        - [:simple-github: GitHub](https://github.com/ProtonVPN/android-app/releases)
+        - [:simple-windows11: Windows](https://protonvpn.com/download-windows)
+        - [:simple-linux: Linux](https://protonvpn.com/support/linux-vpn-setup/)
+
+#### :material-check:{ .pg-green } 67 Negara
+
+Proton VPN memiliki server [di 67 negara](https://protonvpn.com/vpn-servers).(1) Memilih penyedia VPN dengan server terdekat dengan Anda akan mengurangi latensi lalu lintas jaringan yang Anda kirim. Ini karena rute yang lebih pendek (lebih sedikit loncatan) ke tempat tujuan.
+{ .annotate }
+
+1. Terakhir diperiksa: 2022-09-16
+
+Kami juga berpikir akan lebih baik untuk keamanan kunci pribadi penyedia VPN jika mereka menggunakan [server khusus](https://en.wikipedia.org/wiki/Dedicated_hosting_service), daripada solusi berbagi pakai yang lebih murah (dengan pelanggan lain) seperti [peladen pribadi virtual](https://id.wikipedia.org/wiki/Peladen_pribadi_virtual).
+
+#### :material-check:{ .pg-green } Diaudit Secara Independen
+
+Pada Januari 2020, Proton VPN telah menjalani audit independen oleh SEC Consult. SEC Consult menemukan beberapa kerentanan berisiko sedang dan rendah di aplikasi Proton VPN di Windows, Android, dan iOS, yang semuanya telah "diperbaiki dengan benar" oleh Proton VPN sebelum laporan diterbitkan. Tidak satu pun dari masalah yang diidentifikasi akan memberikan penyerang akses jarak jauh ke perangkat atau lalu lintas Anda. Anda dapat melihat laporan individual untuk setiap platform di [protonvpn.com](https://protonvpn.com/blog/open-source/). Pada bulan April 2022, Proton VPN menjalani [audit lagi](https://protonvpn.com/blog/no-logs-audit/) dan laporannya [dibuat oleh Securitum](https://protonvpn.com/blog/wp-content/uploads/2022/04/securitum-protonvpn-nologs-20220330.pdf). [Surat pengesahan ](https://proton.me/blog/security-audit-all-proton-apps) diberikan untuk aplikasi Proton VPN pada tanggal 9 November 2021 oleh [Securitum](https://research.securitum.com).
+
+#### :material-check:{ .pg-green } Klien Sumber Terbuka
+
+Proton VPN menyediakan kode sumber untuk klien desktop dan seluler mereka di [organisasi GitHub](https://github.com/ProtonVPN) mereka.
+
+#### :material-check:{ .pg-green } Menerima Uang Tunai
+
+Proton VPN, selain menerima kartu kredit/debit, PayPal, dan [Bitcoin](advanced/payments.md#other-coins-bitcoin-ethereum-etc), juga menerima **uang tunai/mata uang lokal** sebagai bentuk pembayaran anonim.
+
+#### :material-check:{ .pg-green } Dukungan WireGuard
+
+Proton VPN sebagian besar mendukung protokol WireGuard®. [WireGuard](https://www.wireguard.com) adalah protokol yang lebih baru yang menggunakan kriptografi [yang canggih](https://www.wireguard.com/protocol/). Selain itu, WireGuard bertujuan untuk menjadi lebih sederhana dan lebih berkinerja.
+
+Proton VPN [merekomendasikan](https://protonvpn.com/blog/wireguard/) penggunaan WireGuard dengan layanan mereka. Pada aplikasi Proton VPN di Windows, macOS, iOS, Android, Android, ChromeOS, dan Android TV, WireGuard merupakan protokol bawaan; namun, [dukungan](https://protonvpn.com/support/how-to-change-vpn-protocols/) untuk protokol ini tidak ada pada aplikasi Linux mereka.
+
+#### :material-alert-outline:{ .pg-orange } Penerusan Porta Jarak Jauh
+
+Proton VPN currently only supports ephemeral remote [port forwarding](https://protonvpn.com/support/port-forwarding/) via NAT-PMP, with 60 second lease times. The Windows app provides an easy to access option for it, while on other operating systems you'll need to run your own [NAT-PMP client](https://protonvpn.com/support/port-forwarding-manual-setup/). Torrent applications often support NAT-PMP natively.
+
+#### :material-check:{ .pg-green } Klien Ponsel
+
+Selain menyediakan file konfigurasi OpenVPN standar, Proton VPN memiliki klien seluler untuk [App Store](https://apps.apple.com/us/app/protonvpn-fast-secure-vpn/id1437005085), [Google Play](https://play.google.com/store/apps/details?id=ch.protonvpn.android&hl=en_US), dan [GitHub](https://github.com/ProtonVPN/android-app/releases) yang memungkinkan koneksi yang mudah ke server mereka.
+
+#### :material-information-outline:{ .pg-blue } Fungsionalitas Tambahan
+
+Klien Proton VPN mendukung autentikasi dua faktor di semua platform kecuali Linux saat ini. Proton VPN memiliki server dan pusat data mereka sendiri di Swiss, Islandia, dan Swedia. Mereka menawarkan pemblokiran iklan dan pemblokiran domain malware yang dikenal dengan layanan DNS mereka. Selain itu, Proton VPN juga menawarkan server "Tor" yang memungkinkan Anda untuk dengan mudah terhubung ke situs-situs onion, tetapi kami masih sangat menyarankan untuk menggunakan [Tor Browser resmi](https://www.torproject.org/) untuk tujuan ini.
+
+#### :material-alert-outline:{ .pg-orange } Fitur killswitch rusak pada Mac berbasis Intel
+
+Kerusakan sistem [dapat terjadi](https://protonvpn.com/support/macos-t2-chip-kill-switch/) pada Mac berbasis Intel saat menggunakan killswitch VPN. Jika Anda memerlukan fitur ini, dan Anda menggunakan Mac dengan chipset Intel, Anda sebaiknya mempertimbangkan untuk menggunakan layanan VPN lain.
 
 ### IVPN
 
@@ -81,9 +145,9 @@ IVPN mendukung protokol WireGuard®. [WireGuard](https://www.wireguard.com) adal
 
 IVPN [merekomendasikan](https://www.ivpn.net/wireguard/) penggunaan WireGuard dengan layanan mereka dan, dengan demikian, protokol ini merupakan standar pada semua aplikasi IVPN. IVPN juga menawarkan generator konfigurasi WireGuard untuk digunakan dengan [aplikasi resmi](https://www.wireguard.com/install/) WireGuard.
 
-#### :material-check:{ .pg-green } Penerusan Porta Jarak Jauh
+#### :material-alert-outline:{ .pg-orange } Penerusan Porta Jarak Jauh
 
-[Penerusan porta jarak jauh](https://en.wikipedia.org/wiki/Port_forwarding) dimungkinkan dengan paket Pro. Port forwarding [dapat diaktifkan](https://www.ivpn.net/knowledgebase/81/How-do-I-activate-port-forwarding.html) melalui area klien. Penerusan porta jarak kauh hanya tersedia di IVPN ketika menggunakan protokol WireGuard atau OpenVPN dan [dinonaktifkan di server AS](https://www.ivpn.net/knowledgebase/116/Port-forwarding-is-not-working-why.html).
+IVPN previously supported port forwarding, but removed the option in [June 2023](https://www.ivpn.net/blog/gradual-removal-of-port-forwarding). Missing this feature could negatively impact certain applications, especially peer-to-peer applications like torrent clients.
 
 #### :material-check:{ .pg-green } Klien Ponsel
 
@@ -166,70 +230,6 @@ Mullvad telah menerbitkan klien [App Store](https://apps.apple.com/app/mullvad-v
 #### :material-information-outline:{ .pg-blue } Fungsionalitas Tambahan
 
 Mullvad sangat transparan tentang node mana yang mereka [miliki atau sewa](https://mullvad.net/en/servers/). Mereka menggunakan [ShadowSocks](https://shadowsocks.org/) dalam konfigurasi ShadowSocks + OpenVPN mereka, membuat mereka lebih tahan terhadap tembok api dengan [Inspeksi Paket Dalam](https://en.wikipedia.org/wiki/Deep_packet_inspection) yang mencoba memblokir VPN. Seharusnya, [Cina harus menggunakan metode yang berbeda untuk memblokir server ShadowSocks](https://github.com/net4people/bbs/issues/22). Situs web Mullvad juga dapat diakses melalui Tor di [o54hon2e2vj6c7m3aqqu6uyece65by3vgoxxhlqlsvkmacw6a7m7kiad.onion](http://o54hon2e2vj6c7m3aqqu6uyece65by3vgoxxhlqlsvkmacw6a7m7kiad.onion).
-
-### Proton VPN
-
-!!! recommendation annotate
-
-    ![Logo Proton VPN](assets/img/vpn/protonvpn.svg){ align=right }
-    
-    **Proton VPN** adalah pesaing kuat dalam bidang VPN, dan mereka telah beroperasi sejak 2016. Proton AG berbasis di Swiss dan menawarkan tingkat gratis terbatas, serta opsi premium yang lebih berfitur.
-    
-    [:octicons-home-16: Laman Beranda](https://protonvpn.com/){ .md-button .md-button--primary }
-    [:octicons-eye-16:](https://protonvpn.com/privacy-policy){ .card-link title="Kebijakan Privasi" }
-    [:octicons-info-16:](https://protonvpn.com/support/){ .card-link title=Dokumentasi}
-    [:octicons-code-16:](https://github.com/ProtonVPN){ .card-link title="Kode Sumber" }
-    
-    ??? downloads
-    
-        - [:simple-googleplay: Google Play](https://play.google.com/store/apps/details?id=ch.protonvpn.android)
-        - [:simple-appstore: App Store](https://apps.apple.com/app/apple-store/id1437005085)
-        - [:simple-github: GitHub](https://github.com/ProtonVPN/android-app/releases)
-        - [:simple-windows11: Windows](https://protonvpn.com/download-windows)
-        - [:simple-linux: Linux](https://protonvpn.com/support/linux-vpn-setup/)
-
-#### :material-check:{ .pg-green } 67 Negara
-
-Proton VPN memiliki server [di 67 negara](https://protonvpn.com/vpn-servers).(1) Memilih penyedia VPN dengan server terdekat dengan Anda akan mengurangi latensi lalu lintas jaringan yang Anda kirim. Ini karena rute yang lebih pendek (lebih sedikit loncatan) ke tempat tujuan.
-{ .annotate }
-
-1. Terakhir diperiksa: 2022-09-16
-
-Kami juga berpikir akan lebih baik untuk keamanan kunci pribadi penyedia VPN jika mereka menggunakan [server khusus](https://en.wikipedia.org/wiki/Dedicated_hosting_service), daripada solusi berbagi pakai yang lebih murah (dengan pelanggan lain) seperti [peladen pribadi virtual](https://id.wikipedia.org/wiki/Peladen_pribadi_virtual).
-
-#### :material-check:{ .pg-green } Diaudit Secara Independen
-
-Pada Januari 2020, Proton VPN telah menjalani audit independen oleh SEC Consult. SEC Consult menemukan beberapa kerentanan berisiko sedang dan rendah di aplikasi Proton VPN di Windows, Android, dan iOS, yang semuanya telah "diperbaiki dengan benar" oleh Proton VPN sebelum laporan diterbitkan. Tidak satu pun dari masalah yang diidentifikasi akan memberikan penyerang akses jarak jauh ke perangkat atau lalu lintas Anda. Anda dapat melihat laporan individual untuk setiap platform di [protonvpn.com](https://protonvpn.com/blog/open-source/). Pada bulan April 2022, Proton VPN menjalani [audit lagi](https://protonvpn.com/blog/no-logs-audit/) dan laporannya [dibuat oleh Securitum](https://protonvpn.com/blog/wp-content/uploads/2022/04/securitum-protonvpn-nologs-20220330.pdf). [Surat pengesahan ](https://proton.me/blog/security-audit-all-proton-apps) diberikan untuk aplikasi Proton VPN pada tanggal 9 November 2021 oleh [Securitum](https://research.securitum.com).
-
-#### :material-check:{ .pg-green } Klien Sumber Terbuka
-
-Proton VPN menyediakan kode sumber untuk klien desktop dan seluler mereka di [organisasi GitHub](https://github.com/ProtonVPN) mereka.
-
-#### :material-check:{ .pg-green } Menerima Uang Tunai
-
-Proton VPN, selain menerima kartu kredit/debit, PayPal, dan [Bitcoin](advanced/payments.md#other-coins-bitcoin-ethereum-etc), juga menerima **uang tunai/mata uang lokal** sebagai bentuk pembayaran anonim.
-
-#### :material-check:{ .pg-green } Dukungan WireGuard
-
-Proton VPN sebagian besar mendukung protokol WireGuard®. [WireGuard](https://www.wireguard.com) adalah protokol yang lebih baru yang menggunakan kriptografi [yang canggih](https://www.wireguard.com/protocol/). Selain itu, WireGuard bertujuan untuk menjadi lebih sederhana dan lebih berkinerja.
-
-Proton VPN [merekomendasikan](https://protonvpn.com/blog/wireguard/) penggunaan WireGuard dengan layanan mereka. Pada aplikasi Proton VPN di Windows, macOS, iOS, Android, Android, ChromeOS, dan Android TV, WireGuard merupakan protokol bawaan; namun, [dukungan](https://protonvpn.com/support/how-to-change-vpn-protocols/) untuk protokol ini tidak ada pada aplikasi Linux mereka.
-
-#### :material-alert-outline:{ .pg-orange } Penerusan Porta Jarak Jauh
-
-Proton VPN currently only supports ephemeral remote [port forwarding](https://protonvpn.com/support/port-forwarding/) via NAT-PMP, with 60 second lease times. The Windows app provides an easy to access option for it, while on other operating systems you'll need to run your own [NAT-PMP client](https://protonvpn.com/support/port-forwarding-manual-setup/). Torrent applications often support NAT-PMP natively.
-
-#### :material-check:{ .pg-green } Klien Ponsel
-
-Selain menyediakan file konfigurasi OpenVPN standar, Proton VPN memiliki klien seluler untuk [App Store](https://apps.apple.com/us/app/protonvpn-fast-secure-vpn/id1437005085), [Google Play](https://play.google.com/store/apps/details?id=ch.protonvpn.android&hl=en_US), dan [GitHub](https://github.com/ProtonVPN/android-app/releases) yang memungkinkan koneksi yang mudah ke server mereka.
-
-#### :material-information-outline:{ .pg-blue } Fungsionalitas Tambahan
-
-Klien Proton VPN mendukung autentikasi dua faktor di semua platform kecuali Linux saat ini. Proton VPN memiliki server dan pusat data mereka sendiri di Swiss, Islandia, dan Swedia. Mereka menawarkan pemblokiran iklan dan pemblokiran domain malware yang dikenal dengan layanan DNS mereka. Selain itu, Proton VPN juga menawarkan server "Tor" yang memungkinkan Anda untuk dengan mudah terhubung ke situs-situs onion, tetapi kami masih sangat menyarankan untuk menggunakan [Tor Browser resmi](https://www.torproject.org/) untuk tujuan ini.
-
-#### :material-alert-outline:{ .pg-orange } Fitur killswitch rusak pada Mac berbasis Intel
-
-Kerusakan sistem [dapat terjadi](https://protonvpn.com/support/macos-t2-chip-kill-switch/) pada Mac berbasis Intel saat menggunakan killswitch VPN. Jika Anda memerlukan fitur ini, dan Anda menggunakan Mac dengan chipset Intel, Anda sebaiknya mempertimbangkan untuk menggunakan layanan VPN lain.
 
 ## Kriteria
 

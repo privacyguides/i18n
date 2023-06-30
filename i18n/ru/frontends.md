@@ -11,7 +11,7 @@ If you choose to self-host these frontends, it is important that you have other 
 
 When you are using an instance run by someone else, make sure to read the privacy policy of that specific instance. They can be modified by their owners and therefore may not reflect the default policy. Some instances have Tor .onion addresses which may grant some privacy as long as your search queries don't contain PII.
 
-## Reddit
+## Twitter
 
 ### Nitter
 
@@ -54,7 +54,7 @@ When you are using an instance run by someone else, make sure to read the privac
 
     ProxiTok is useful if you want to disable JavaScript in your browser, such as [Tor Browser](https://www.torproject.org/) on the Safest security level.
 
-## Twitter
+## YouTube
 
 ### FreeTube
 
@@ -217,7 +217,7 @@ By default, LibreTube blocks all YouTube advertisements. Additionally, Libretube
 
 Recommended frontends...
 
-- Must be open-source software.
+- Должно иметь открытый исходный код.
 - Must be self-hostable.
 - Must provide all basic website functionality available to anonymous users.
 

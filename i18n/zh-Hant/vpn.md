@@ -10,9 +10,9 @@ cover: vpn.png
 
 <div class="grid cards" markdown>
 
+- ![Proton VPN logo](assets/img/vpn/protonvpn.svg){ .twemoji } [Proton VPN](#proton-vpn)
 - ![IVPN logo](assets/img/vpn/mini/ivpn.svg){ .twemoji } [IVPN](#ivpn)
 - ![Mullvad logo](assets/img/vpn/mullvad.svg){ .twemoji } [Mullvad](#mullvad)
-- ![Proton VPN logo](assets/img/vpn/protonvpn.svg){ .twemoji } [Proton VPN](#proton-vpn)
 
 </div>
 
@@ -31,6 +31,70 @@ cover: vpn.png
 ## 推薦的 DNS 提供商
 
 我們推薦的提供商使用加密、可接受Monero 、支持WireGuard & OpenVPN ，且具有不記錄政策。 閱讀我們的 [完整列表標準](#criteria) 以獲取更多信息。
+
+### Proton VPN
+
+!!! recommendation annotate
+
+    ![Proton VPN標誌](assets/img/vpn/protonvpn.svg){ align=right }
+    
+    **Proton VPN** 是 VPN 領域強大競爭者，自 2016 年開始營運。 Proton AG 總部位於瑞士，提供有限的免費會員等級，以及更多功能的付費選項。
+    
+    [:octicons-home-16: Homepage](https://protonvpn.com/){ .md-button .md-button--primary }
+    [:octicons-eye-16:](https://protonvpn.com/privacy-policy){ .card-link title="Privacy Policy" }
+    [:octicons-info-16:](https://protonvpn.com/support/){ .card-link title=Documentation}
+    [:octicons-code-16:](https://github.com/ProtonVPN){ .card-link title="Source Code" }
+    
+    ??? downloads "下載"
+    
+        - [:simple-googleplay: Google Play] (https://play.google.com/store/apps/details?id=ch.protonvpn.android)
+        - [:simple-appstore: App Store] (https://apps.apple.com/app/apple-store/id1437005085)
+        - [:simple-github: GitHub] (https://github.com/ProtonVPN/android-app/releases)
+        - [:simple-windows11: Windows] (https://protonvpn.com/download-windows)
+        - [:simple-linux: Linux] (https://protonvpn.com/support/linux-vpn-setup/)
+
+#### :material-check:{ .pg-green } 67個國家
+
+Proton VPN 在67個國家/地區設有 [伺服器](https://protonvpn.com/vpn-servers). (1)選擇距離您最近的伺服器的VPN供應商，將減少您網路流量的延遲。 這是因為到目的地的路線較短（跳數較少）。
+{ .annotate }
+
+1. 上次檢查日期： 2022-09-16
+
+我們認為，如果 VPN 提供商使用 [專用伺服器](https://en.wikipedia.org/wiki/Dedicated_hosting_service)，而不是更便宜（與其他客戶共享)的解決方案 ，例如 [虛擬專用服務器](https://en.wikipedia.org/wiki/Virtual_private_server)，則 VPN提供商的私鑰更安全。
+
+#### :material-check:{ .pg-green } 獨立稽核
+
+截至 2020年1月， Proton VPN 已接受 SEC Consult 的獨立審計。 SEC Consult 在 Proton VPN Windows、Android 和 iOS應用程序中發現一些中低風險漏洞，Proton VPN 已在報告發布之前全部“正確修復”這些漏洞。 所發現的問題都不會讓攻擊者遠端存取您的裝置或流量。 您可以透過 [protonvpn.com](https://protonvpn.com/blog/open-source/)查看各個平臺的報告。  2022 年 4月Proton VPN 通過 [另一次審計](https://protonvpn.com/blog/no-logs-audit/) ，[ Securitum 所作的報告在此](https://protonvpn.com/blog/wp-content/uploads/2022/04/securitum-protonvpn-nologs-20220330.pdf)。  [Securitum](https://research.securitum.com)  在 2021年11月9日簽發 [Proton VPN 的應用程式認證函](https://proton.me/blog/security-audit-all-proton-apps) 。
+
+#### :material-check:{ .pg-green } 開源客戶端
+
+Proton VPN 在 [GitHub](https://github.com/ProtonVPN) 提供其桌面和移動客戶端的源代碼。
+
+#### :material-check:{ .pg-green } 接受現金
+
+除信用卡/簽帳卡、PayPal 和 [Bitcoin](advanced/payments.md#other-coins-bitcoin-ethereum-etc)之外，Proton VPN 還接受 **現金/當地貨幣** 等匿名付款方式。
+
+#### :material-check:{ .pg-green } WireGuard支持
+
+Proton VPN 支持 WireGuard ®協議。 [WireGuard](https://www.wireguard.com) 是一個較新的協議，使用最先進的 [加密技術](https://www.wireguard.com/protocol/)。 此外， WireGuard的目標是更簡單，更高效。
+
+Proton VPN [建議](https://protonvpn.com/blog/wireguard/) 搭配 WireGuard 使用。   Proton VPN 在 Windows, macOS, iOS, Android, ChromeOS, 以及 Android TV 等平台的應用軟體， WireGuard 已是預設協議，不過[尚未支援](https://protonvpn.com/support/how-to-change-vpn-protocols/) Linux 作業系統的應用軟體。
+
+#### :material-alert-outline:{ .pg-orange } 遠端端口轉發
+
+Proton VPN 目前僅支援暫寺性NAT-PMP遠方 [連接埠轉發](https://protonvpn.com/support/port-forwarding/)期間為 60 秒。 Windows 應用提供簡易使用選項，而其它作業系統則需運行 [NAT-PMP 客戶端](https://protonvpn.com/support/port-forwarding-manual-setup/)。 Torrent 應用往往支援 NAT-PMP 原生。
+
+#### :material-check:{ .pg-green } 手機客戶端
+
+除了提供標準的 OpenVPN 配置檔案外， Proton VPN 還有 [ App Store](https://apps.apple.com/us/app/protonvpn-fast-secure-vpn/id1437005085)、 [ Google Play](https://play.google.com/store/apps/details?id=ch.protonvpn.android&hl=en_US)和 [個GitHub](https://github.com/ProtonVPN/android-app/releases) 的移動客戶端，可以輕鬆連接到其伺服器。
+
+#### :material-information-outline:{ .pg-blue } 額外功能
+
+除 Linux 以外，Proton VPN 客戶端目前支持所有平臺上的雙因素身份驗證。 在瑞士、冰島和瑞典，Proton VPN 擁有自己的伺服器和資料中心。 他們透過自己的 DNS 服務，來封鎖廣告和已知的惡意軟體網域。 此外， Proton VPN 還提供“Tor”伺服器，讓您可輕鬆連接到洋蔥網站，但我們仍然強烈建議這類目的，最好還是使用 [官方 Tor 瀏覽器](https://www.torproject.org/) 。
+
+#### :material-alert-outline:{ .pg-orange } Killswitch 無法用在  Intel 處理器的 Mac 電腦
+
+Intel 處理器的 Mac 電腦 若用 VPN killswitch 會發生 [系統崩潰](https://protonvpn.com/support/macos-t2-chip-kill-switch/) 。 如果您需要此功能，但使用的是搭載 Intel 晶片組的Mac ，則應考慮使用其他 VPN 服務。
 
 ### IVPN
 
@@ -91,9 +155,9 @@ IVPN [建議](https://www.ivpn.net/wireguard/)搭配 WireGuard 一起使用， I
 
 
 
-#### :material-check:{ .pg-green } 遠端端口轉發
+#### :material-alert-outline:{ .pg-orange } 遠端端口轉發
 
-使用昇級方案可用遠端 [端口轉發](https://en.wikipedia.org/wiki/Port_forwarding) 。  [可以由客戶端區域激活](https://www.ivpn.net/knowledgebase/81/How-do-I-activate-port-forwarding.html)端口轉發 。 只有使用 WireGuard 或 OpenVPN 協議，IVPN 方可轉發端口，但在[美國的伺服器](https://www.ivpn.net/knowledgebase/116/Port-forwarding-is-not-working-why.html) 不支援此功能。
+IVPN previously supported port forwarding, but removed the option in [June 2023](https://www.ivpn.net/blog/gradual-removal-of-port-forwarding). 失去此功能將對應用程式造成負面影響，尤其是點對點的應用如 torrent 客戶端軟體。
 
 
 
@@ -206,92 +270,6 @@ Mullvad 有 [App Store](https://apps.apple.com/app/mullvad-vpn/id1488466513) 和
 #### :material-information-outline:{ .pg-blue } 額外功能
 
 Mullvad 對 [自有或租用](https://mullvad.net/en/servers/)的節點非常透明。 他們在 ShadowSocks + OpenVPN 配置中使用 [ShadowSocks](https://shadowsocks.org/) ，以更能抵抗 [Deep Packet Inspection](https://en.wikipedia.org/wiki/Deep_packet_inspection) 試圖阻止 VPN 之防火牆。 據推測， [中國使用不同的方法來阻止 ShadowSocks 伺服器](https://github.com/net4people/bbs/issues/22)。 Mullvad 網站也可以通過 Tor 訪問 [o54hon2e2vj6c7m3aqqu6uyece65by3vgoxxhlqlsvkmacw6a7m7kiad.onion](http://o54hon2e2vj6c7m3aqqu6uyece65by3vgoxxhlqlsvkmacw6a7m7kiad.onion)。
-
-
-
-### Proton VPN
-
-!!! recommendation annotate
-
-    ![Proton VPN標誌](assets/img/vpn/protonvpn.svg){ align=right }
-    
-    **Proton VPN** 是 VPN 領域強大競爭者，自 2016 年開始營運。 Proton AG 總部位於瑞士，提供有限的免費會員等級，以及更多功能的付費選項。
-    
-    [:octicons-home-16: Homepage](https://protonvpn.com/){ .md-button .md-button--primary }
-    [:octicons-eye-16:](https://protonvpn.com/privacy-policy){ .card-link title="Privacy Policy" }
-    [:octicons-info-16:](https://protonvpn.com/support/){ .card-link title=Documentation}
-    [:octicons-code-16:](https://github.com/ProtonVPN){ .card-link title="Source Code" }
-    
-    ??? downloads "下載"
-    
-        - [:simple-googleplay: Google Play] (https://play.google.com/store/apps/details?id=ch.protonvpn.android)
-        - [:simple-appstore: App Store] (https://apps.apple.com/app/apple-store/id1437005085)
-        - [:simple-github: GitHub] (https://github.com/ProtonVPN/android-app/releases)
-        - [:simple-windows11: Windows] (https://protonvpn.com/download-windows)
-        - [:simple-linux: Linux] (https://protonvpn.com/support/linux-vpn-setup/)
-    
-
-
-
-#### :material-check:{ .pg-green } 67個國家
-
-Proton VPN 在67個國家/地區設有 [伺服器](https://protonvpn.com/vpn-servers). (1)選擇距離您最近的伺服器的VPN供應商，將減少您網路流量的延遲。 這是因為到目的地的路線較短（跳數較少）。 
-
-{ .annotate }
-
-1. 上次檢查日期： 2022-09-16
-
-我們認為，如果 VPN 提供商使用 [專用伺服器](https://en.wikipedia.org/wiki/Dedicated_hosting_service)，而不是更便宜（與其他客戶共享)的解決方案 ，例如 [虛擬專用服務器](https://en.wikipedia.org/wiki/Virtual_private_server)，則 VPN提供商的私鑰更安全。
-
-
-
-#### :material-check:{ .pg-green } 獨立稽核
-
-截至 2020年1月， Proton VPN 已接受 SEC Consult 的獨立審計。 SEC Consult 在 Proton VPN Windows、Android 和 iOS應用程序中發現一些中低風險漏洞，Proton VPN 已在報告發布之前全部“正確修復”這些漏洞。 所發現的問題都不會讓攻擊者遠端存取您的裝置或流量。 您可以透過 [protonvpn.com](https://protonvpn.com/blog/open-source/)查看各個平臺的報告。  2022 年 4月Proton VPN 通過 [另一次審計](https://protonvpn.com/blog/no-logs-audit/) ，[ Securitum 所作的報告在此](https://protonvpn.com/blog/wp-content/uploads/2022/04/securitum-protonvpn-nologs-20220330.pdf)。  [Securitum](https://research.securitum.com)  在 2021年11月9日簽發 [Proton VPN 的應用程式認證函](https://proton.me/blog/security-audit-all-proton-apps) 。
-
-
-
-#### :material-check:{ .pg-green } 開源客戶端
-
-Proton VPN 在 [GitHub](https://github.com/ProtonVPN) 提供其桌面和移動客戶端的源代碼。
-
-
-
-#### :material-check:{ .pg-green } 接受現金
-
-除信用卡/簽帳卡、PayPal 和 [Bitcoin](advanced/payments.md#other-coins-bitcoin-ethereum-etc)之外，Proton VPN 還接受 **現金/當地貨幣** 等匿名付款方式。
-
-
-
-#### :material-check:{ .pg-green } WireGuard支持
-
-Proton VPN 支持 WireGuard ®協議。 [WireGuard](https://www.wireguard.com) 是一個較新的協議，使用最先進的 [加密技術](https://www.wireguard.com/protocol/)。 此外， WireGuard的目標是更簡單，更高效。
-
-Proton VPN [建議](https://protonvpn.com/blog/wireguard/) 搭配 WireGuard 使用。   Proton VPN 在 Windows, macOS, iOS, Android, ChromeOS, 以及 Android TV 等平台的應用軟體， WireGuard 已是預設協議，不過[尚未支援](https://protonvpn.com/support/how-to-change-vpn-protocols/) Linux 作業系統的應用軟體。
-
-
-
-#### :material-alert-outline:{ .pg-orange } 遠端端口轉發
-
-Proton VPN 目前僅支援暫寺性NAT-PMP遠方 [連接埠轉發](https://protonvpn.com/support/port-forwarding/)期間為 60 秒。 Windows 應用提供簡易使用選項，而其它作業系統則需運行 [NAT-PMP 客戶端](https://protonvpn.com/support/port-forwarding-manual-setup/)。 Torrent 應用往往支援 NAT-PMP 原生。
-
-
-
-#### :material-check:{ .pg-green } 手機客戶端
-
-除了提供標準的 OpenVPN 配置檔案外， Proton VPN 還有 [ App Store](https://apps.apple.com/us/app/protonvpn-fast-secure-vpn/id1437005085)、 [ Google Play](https://play.google.com/store/apps/details?id=ch.protonvpn.android&hl=en_US)和 [個GitHub](https://github.com/ProtonVPN/android-app/releases) 的移動客戶端，可以輕鬆連接到其伺服器。
-
-
-
-#### :material-information-outline:{ .pg-blue } 額外功能
-
-除 Linux 以外，Proton VPN 客戶端目前支持所有平臺上的雙因素身份驗證。 在瑞士、冰島和瑞典，Proton VPN 擁有自己的伺服器和資料中心。 他們透過自己的 DNS 服務，來封鎖廣告和已知的惡意軟體網域。 此外， Proton VPN 還提供“Tor”伺服器，讓您可輕鬆連接到洋蔥網站，但我們仍然強烈建議這類目的，最好還是使用 [官方 Tor 瀏覽器](https://www.torproject.org/) 。
-
-
-
-#### :material-alert-outline:{ .pg-orange } Killswitch 無法用在  Intel 處理器的 Mac 電腦
-
-Intel 處理器的 Mac 電腦 若用 VPN killswitch 會發生 [系統崩潰](https://protonvpn.com/support/macos-t2-chip-kill-switch/) 。 如果您需要此功能，但使用的是搭載 Intel 晶片組的Mac ，則應考慮使用其他 VPN 服務。
 
 
 

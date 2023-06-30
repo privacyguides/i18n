@@ -14,7 +14,7 @@ Privacy Guides inoltre non garantisce che questo sito sarà costantemente dispon
 
 ## Panoramica sulle licenze
 
-!!! danger ""
+!!! danger "Attenzione"
 
     Quanto segue è un riassunto scritto in formato leggibile di (e non un sostituto di) [licenza](/licenza).
 

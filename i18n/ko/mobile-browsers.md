@@ -178,7 +178,7 @@ Safari 개인정보 보호 브라우징 모드는 추가적인 프라이버시 �
 
 Safari 방문 기록, 탭 그룹, iCloud 탭, 저장된 암호는 E2EE 동기화됩니다. 하지만, 책갈피는 기본적으로 [종단 간 암호화되지 않습니다](https://support.apple.com/ko-kr/HT202303). Apple은 [개인정보 처리방침](https://www.apple.com/kr/legal/privacy/kr/)에 따라 복호화하고 접근할 수 있습니다.
 
-[고급 데이터 보호](https://support.apple.com/ko-kr/HT212520)를 활성화하여 Safari 책갈피 및 다운로드에 E2EE를 적용할 수 있습니다. **Apple 사용자 이름 → iCloud → 고급 데이터 보호**로 이동하세요.
+You can enable E2EE for your Safari bookmarks and downloads by enabling [Advanced Data Protection](https://support.apple.com/en-us/HT212520). **Apple 사용자 이름 → iCloud → 고급 데이터 보호**로 이동하세요.
 
 - [x] **고급 데이터 보호** 활성화
 

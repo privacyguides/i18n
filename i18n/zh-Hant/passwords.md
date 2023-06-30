@@ -122,7 +122,7 @@ schema:
 
 [密碼介紹 :material-arrow-right-drop-circle:](./basics/passwords-overview.md)
 
-!!! 資訊
+!!! info "資訊"
 
     瀏覽器和作業系統所內置的密碼管理器常常不如專用密碼管理器軟體。 內建的密碼管理器優點是與原生軟體很好地整合，但它通常非常簡單，並且缺乏獨立產品具有的隱私和安全功能。
     

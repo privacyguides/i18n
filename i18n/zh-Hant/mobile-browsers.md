@@ -178,7 +178,7 @@ Safari的私人瀏覽模式提供額外的隱私保護。 隱私瀏覽每個標�
 
 Safari 歷史記錄、標籤組、iCloud 標籤分頁和保存密碼的同步都是 E2EE。 但默認情況下，書籤[不是](https://support.apple.com/en-us/HT202303)。 Apple可以根據其 [隱私權政策](https://www.apple.com/legal/privacy/en-ww/)解密並存取它們。
 
-您可以為Safari 書籤和下載啟用 E2EE ，只需啟用 [Advanced Data Protection](https://support.apple.com/en-us/HT212520)即可。 請在 **Apple ID name → iCloud → 進階資料保護**.
+You can enable E2EE for your Safari bookmarks and downloads by enabling [Advanced Data Protection](https://support.apple.com/en-us/HT212520). 請在 **Apple ID name → iCloud → 進階資料保護**.
 
 - [x] 開啟 **進階資料保護**
 

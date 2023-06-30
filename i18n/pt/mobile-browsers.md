@@ -1,14 +1,14 @@
 ---
-meta_title: "Browsers para Android e iOS que respeitam a privacidade - Privacy Guides"
-title: "Browsers para dispositivos móveis"
+meta_title: "Navegadores para Android e iOS que respeitam a privacidade - Privacy Guides"
+title: "Navegadores para dispositivos móveis"
 icon: material/cellphone-information
-description: Estes browsers são os que recomendamos atualmente para a navegação normal/não anónima na Internet no seu telemóvel.
+description: Estes navegadores são os que recomendamos atualmente para a navegação normal/não anónima na Internet no seu telemóvel.
 cover: mobile-browsers.png
 schema:
   - 
     "@context": http://schema.org
     "@type": WebPage
-    name: Recomendações de browsers privados para dispositivos móveis
+    name: Recomendações de navegadores privados para dispositivos móveis
     url: "./"
     relatedLink: "../desktop-browsers/"
   - 
@@ -37,7 +37,7 @@ schema:
       url: "./"
 ---
 
-Estes são os browsers para dispositivos móveis e as configurações atualmente recomendados para a navegação normal/não anónima na Internet. Se precisar de navegar anonimamente na Internet, deve utilizar o [Tor](tor.md). Em geral, recomendamos que a utilização de extensões seja reduzida ao mínimo; têm acesso privilegiado no seu browser, exigem que confie no programador, podem fazer com que se destaque [](https://en.wikipedia.org/wiki/Device_fingerprint#Browser_fingerprint)e [enfraquecem o isolamento do site](https://groups.google.com/a/chromium.org/g/chromium-extensions/c/0ei-UCHNm34/m/lDaXwQhzBAAJ).
+Estes são os navegadores para dispositivos móveis e as configurações atualmente recomendados para a navegação normal/não anónima na Internet. Se precisar de navegar anonimamente na Internet, deve utilizar o [Tor](tor.md). Em geral, recomendamos que a utilização de extensões seja reduzida ao mínimo; têm acesso privilegiado no seu browser, exigem que confie no programador, podem fazer com que se destaque [](https://en.wikipedia.org/wiki/Device_fingerprint#Browser_fingerprint)e [enfraquecem o isolamento do site](https://groups.google.com/a/chromium.org/g/chromium-extensions/c/0ei-UCHNm34/m/lDaXwQhzBAAJ).
 
 ## Android
 
@@ -50,9 +50,9 @@ No Android, o Firefox continua a ser menos seguro do que as alternativas baseada
 
     ![Logótipo Brave](assets/img/browsers/brave.svg){ align=right }
     
-    O **Braver** inclui um bloqueador de conteúdos incorporado e [funcionalidades de privacidade] (https://brave.com/privacy-features/), muitas das quais estão ativadas por predefinição.
+    O **Brave** inclui um bloqueador de conteúdos incorporado e [funcionalidades de privacidade] (https://brave.com/privacy-features/), muitas das quais estão ativadas por predefinição.
     
-    O Brave foi criado com base no projeto do Chromium, pelo que deve ser familiar a muita gente e não deve grandes problemas de compatibilidade com sites.
+    Inclui [características de privacidade](https://support.apple.com/guide/iphone/browse-the-web-privately-iphb01fc3c85/15.0/ios/15.0), tais como Proteção de Rastreamento Inteligente, Relatório de Privacidade, abas isoladas de Navegação Privada, iCloud Private Relay, e atualizações automáticas de HTTPS.
     
     [:octicons-home-16: Homepage](https://brave.com/){ .md-button .md-button--primary }
     [:simple-torbrowser:](https://brave4u7jddbv7cyviptqjc7jusxh72uik7zt6adtckl5f4nwy2v72qd.onion){ .card-link title="Serviço Onion" }
@@ -83,7 +83,7 @@ As opções de proteção podem ser revogadas por cada site, de acordo com as ne
 
 - [x] Selecione **Agressivo** em Rastreadores e bloqueio de anúncios
 
-    ??? aviso "Use listas de filtro padrão"
+    ??? aviso "Use listas de filtro por padrão"
         O Brave permite-lhe selecionar filtros de conteúdo adicional na página interna `brave://adblock`. Aconselhamos a não utilizar esta funcionalidade; em vez disso, mantenha as listas de filtros predefinidas. A utilização de listas extra fará com que se destaque dos outros utilizadores do Brave e pode também aumentar a superfície de ataque se houver uma vulnerabilidade no Brave e uma regra maliciosa for adicionada a uma das listas que utiliza.
 
 - [x] Selecione **Atualizar as ligações para HTTPS**
@@ -125,7 +125,7 @@ As opções de proteção podem ser revogadas por cada site, de acordo com as ne
 
 ## iOS
 
-No iOS, qualquer aplicação que possa navegar na Web está [limitada](https://developer.apple.com/app-store/review/guidelines) à utilização de uma estrutura WebKit fornecida pela Apple [](https://developer.apple.com/documentation/webkit), pelo que não há nenhuma vantagem em utilizar um browser diferente de outro fornecedor.
+No iOS, qualquer aplicação que possa navegar na Web está [limitada](https://developer.apple.com/app-store/review/guidelines) à utilização de uma estrutura WebKit fornecida pela Apple [](https://developer.apple.com/documentation/webkit), pelo que não há nenhuma vantagem em utilizar um navegador diferente de outro fornecedor.
 
 ### Safari
 
@@ -134,7 +134,7 @@ No iOS, qualquer aplicação que possa navegar na Web está [limitada](https://d
 
     ![Logótipo Safari](assets/img/browsers/safari.svg){ align=right }
     
-    O **Safari** é o browser predefinido no iOS. Inclui [funcionalidades de privacidade] (https://support.apple.com/guide/iphone/browse-the-web-privately-iphb01fc3c85/15.0/ios/15.0), tais como [Previsão inteligente de rastreio] (https://webkit.org/blog/7675/intelligent-tracking-prevention/), Relatório de Privacidade, separadores de navegação privada isolados e efémeros, iCloud Private Relay e redução de impressões digitais, através da apresentação de uma versão simplificada da configuração do sistema aos sites, para que o miro número possível de dispositivos pareçam idênticos.
+    O **Safari** é o navegador predefinido no iOS. Inclui [funcionalidades de privacidade] (https://support.apple.com/guide/iphone/browse-the-web-privately-iphb01fc3c85/15.0/ios/15.0), tais como [Previsão inteligente de rastreio] (https://webkit.org/blog/7675/intelligent-tracking-prevention/), Relatório de Privacidade, separadores de navegação privada isolados e efémeros, iCloud Private Relay e redução de impressões digitais, através da apresentação de uma versão simplificada da configuração do sistema aos sites, para que o miro número possível de dispositivos pareçam idênticos.
     
     O Safari está limitado a dispositivos Apple e está coberto pela [Proteção de Integridade do Sistema] (https://support.apple.com/guide/security/system-integrity-protection-secb7ea06b49/web), uma funcionalidade de segurança que faz com que os programas e ficheiros do sistema sejam apenas de leitura, para que não possam ser alterados por si ou por malware.
     
@@ -150,67 +150,66 @@ Estas opções podem ser encontradas em :gear: **Definições** → **Safari** �
 
 - [x] Ativar **Prevenir o rastreio entre sites**
 
-This enables WebKit's [Intelligent Tracking Protection](https://webkit.org/tracking-prevention/#intelligent-tracking-prevention-itp). The feature helps protect against unwanted tracking by using on-device machine learning to stop trackers. ITP protects against many common threats, but it does not block all tracking avenues because it is designed to not interfere with website usability.
+Isto liga a [Proteção Inteligente de Rastreio da WebKit](https://webkit.org/tracking-prevention/#intelligent-tracking-prevention-itp). A funcionalidade ajuda a proteger contra o rastreio indesejado, utilizando a aprendizagem automática no dispositivo para impedir os rastreadores. A ITP contra a monitorização protege-o contra muitas ameaças comuns, mas não bloqueia todos os modos de rastreio, uma vez que foi concebida para ter um impacto mínimo ou nulo na usabilidade do site.
 
-##### Privacy Report
+##### Relatório de Privacidade
 
-Privacy Report provides a snapshot of cross-site trackers currently prevented from profiling you on the website you're visiting. It can also display a weekly report to show which trackers have been blocked over time.
+O Relatório de Privacidade fornece uma foto de rastreadores entre sites atualmente impedidos de criar perfis no site que está a visitar. Também pode exibir um relatório semanal para mostrar quais rastreadores foram bloqueados ao longo do tempo.
 
-Privacy Report is accessible via the Page Settings menu.
+O Relatório de Privacidade é acessível através do menu de Configurações.
 
-##### Privacy Preserving Ad Measurement
+##### Medidor de Anúncios Respeitador de Privacidade
 
-- [ ] Disable **Privacy Preserving Ad Measurement**
+- [ ] Desativar **Medidor de Anúncios Respeitador de Privacidade**
 
-Ad click measurement has traditionally used tracking technology that infringes on user privacy. [Private Click Measurement](https://webkit.org/blog/11529/introducing-private-click-measurement-pcm/) is a WebKit feature and proposed web standard aimed towards allowing advertisers to measure the effectiveness of web campaigns without compromising on user privacy.
+A medição de clique em anúncios tem usado tradicionalmente a tecnologia de rastreamento que viola a privacidade do utilizador. A [Medição de Clique Privado](https://webkit.org/blog/11529/introducing-private-click-measurement-pcm/) é um recurso de WebKit e um padrão proposto para permitir que anunciantes meçam a eficácia de campanhas na web sem comprometer a privacidade do utilizador.
 
-The feature has little privacy concerns on its own, so while you can choose to leave it on, we consider the fact that it's automatically disabled in Private Browsing to be an indicator for disabling the feature.
+A funcionalidade tem poucas preocupações de privacidade por si só, então enquanto pode optar por deixá-lo ligado, nós consideramos que ele é automaticamente desativado na navegação privativa como um indicador para desativar o recurso.
 
-##### Always-on Private Browsing
+##### Navegação Privada sempre-ativa
 
-Open Safari and tap the Tabs button, located in the bottom right. Then, expand the Tab Groups list.
+Abra o Safari e clique no botão Abas, localizado na parte inferior direita. Depois, expanda a lista de Grupos de Abas.
 
-- [x] Select **Private**
+- [x] Selecione **Privado**
 
-Safari's Private Browsing mode offers additional privacy protections. Private Browsing uses a new [ephemeral](https://developer.apple.com/documentation/foundation/urlsessionconfiguration/1410529-ephemeral) session for each tab, meaning tabs are isolated from one another. There are also other smaller privacy benefits with Private Browsing, such as not sending a webpage’s address to Apple when using Safari's translation feature.
+O modo de Navegação Privada do Safari oferece adicionais proteções de privacidade. A Navegação Privada usa uma nova sessão [efémera](https://developer.apple.com/documentation/foundation/urlsessionconfiguration/1410529-ephemeral) para cada aba, o que significa que as abas estão isoladas uma da outra. Também há outras vantagens pequenas em privacidade com a Navegação Privada, como não enviar o endereço de página de web à Apple quando usar a funcionalidade de tradução do Safari.
 
-Do note that Private Browsing does not save cookies and website data, so it won't be possible to remain signed into sites. This may be an inconvenience.
+Tenha em atenção que a Navegação Privada não guarda cookies e dados de sítios Web, pelo que não será possível permanecer ligado a sítios. Isto pode ser uma inconveniência.
 
-##### iCloud Sync
+##### Sincronização iCloud
 
-Synchronization of Safari History, Tab Groups, iCloud Tabs and saved passwords are E2EE. However, by default, bookmarks are [not](https://support.apple.com/en-us/HT202303). Apple can decrypt and access them in accordance with their [privacy policy](https://www.apple.com/legal/privacy/en-ww/).
+A sincronização do histórico do Safari, grupos de separadores, separadores do iCloud e palavras-passe guardadas são E2EE. No entanto, por predefinição, os marcadores não [são](https://support.apple.com/en-us/HT202303). A Apple pode desencriptá-los e aceder-lhes segundo a sua [política de privacidade](https://www.apple.com/legal/privacy/en-ww/).
 
-You can enable E2EE for you Safari bookmarks and downloads by enabling [Advanced Data Protection](https://support.apple.com/en-us/HT212520). Go to your **Apple ID name → iCloud → Advanced Data Protection**.
+Pode ativar o E2EE para os seus favoritos e transferências do Safari ativando a [Proteção Avançada de Dados](https://support.apple.com/en-us/HT212520). Aceda ao seu **Nome de ID Apple → iCloud → Proteção de Dados Avançada**.
 
-- [x] Turn On **Advanced Data Protection**
+- [x] Ligue a **Proteção de Dados Avançada**
 
-If you use iCloud with Advanced Data Protection disabled, we also recommend checking to ensure Safari's default download location is set to locally on your device. This option can be found in :gear: **Settings** → **Safari** → **General** → **Downloads**.
+Se utilizar o iCloud com a Proteção Avançada de Dados desativada, também recomendamos que verifique se a localização de transferência predefinida do Safari está definida para localmente no seu dispositivo. Esta opção pode ser encontrada em :gear: **Definições** → **Safari** → **General** → **Transferências**.
 
 ### AdGuard
 
 !!! nota
     Consulte o [Tabela de Hardware](https://openwrt.org/toh/start) para verificar se o seu dispositivo é suportado.
 
-    ![AdGuard logo](assets/img/browsers/adguard.svg){ align=right }
+    ![Logótipo do AdGuard](assets/img/browsers/adguard.svg){ align=right }
     
-    **AdGuard for iOS** is a free and open-source content-blocking extension for Safari that uses the native [Content Blocker API](https://developer.apple.com/documentation/safariservices/creating_a_content_blocker).
+    O **AdGuard para iOS** é uma extensão de bloqueio de conteúdos gratuita e de código aberto para o Safari que utiliza a [Content Blocker API] nativa (https://developer.apple.com/documentation/safariservices/creating_a_content_blocker).
     
-    AdGuard for iOS has some premium features; however, standard Safari content blocking is free of charge.
+    O AdGuard para iOS tem algumas funcionalidades premium; no entanto, o bloqueio de conteúdos normal do Safari é gratuito.
     
-    [:octicons-home-16: Homepage](https://adguard.com/en/adguard-ios/overview.html){ .md-button .md-button--primary }
-    [:octicons-eye-16:](https://adguard.com/privacy/ios.html){ .card-link title="Privacy Policy" }
-    [:octicons-info-16:](https://kb.adguard.com/ios){ .card-link title=Documentation}
-    [:octicons-code-16:](https://github.com/AdguardTeam/AdguardForiOS){ .card-link title="Source Code" }
-    
-    ??? downloads
+    [:octicons-home-16: Página Inicial](https://adguard.com/pt_pt/adguard-ios/overview.html){ .md-button .md-button--primary }
+    [:octicons-eye-16:](https://adguard.com/pt_pt/privacy/ios.html){ .card-link title="Política de Privacidade" }
+    [:octicons-info-16:](https://kb.adguard.com/ios){ .card-link title=Documentação}
+    [:octicons-code-16:](https://github.com/AdguardTeam/AdguardForiOS){ .card-link title="Código fonte" }
+    ??? transferências
     
         - [:simple-appstore: App Store](https://apps.apple.com/app/apple-store/id1047223162)
 
-Additional filter lists do slow things down and may increase your attack surface, so only apply what you need.
+As listas de filtros adicionais tornam as coisas mais lentas e podem aumentar a sua superfície de ataque, por isso aplique apenas o necessário.
 
 ## Framadate
 
-**Please note we are not affiliated with any of the projects we recommend.** In addition to [our standard criteria](about/criteria.md), we have developed a clear set of requirements to allow us to provide objective recommendations. We suggest you familiarize yourself with this list before choosing to use a project, and conduct your own research to ensure it's the right choice for you.
+**Por favor, note que não somos afiliados a nenhum dos projetos que recomendamos.** Para além dos [nossos critérios padrões](about/criteria.md), desenvolvemos um conjunto claro de requisitos que nos permitem fornecer recomendações objetivas. Sugerimos que se familiarize com esta lista antes de optar por utilizar um projeto e que faça a sua própria investigação para garantir que é a escolha certa para si.
 
 !!! Considere o auto-hospedagem para mitigar esta ameaça.
 
@@ -218,16 +217,16 @@ Additional filter lists do slow things down and may increase your attack surface
     
     **PrivateBin** é um pastebin online minimalista e de código aberto onde o servidor tem zero conhecimento de dados colados. Os dados são criptografados/descriptografados no navegador usando AES de 256 bits. Psono suporta compartilhamento seguro de senhas, arquivos, marcadores e e-mails.
 
-### Requisitos mínimos
+### Requisitos Mínimos
 
-- Must support automatic updates.
-- Must receive engine updates in 0-1 days from upstream release.
-- Any changes required to make the browser more privacy-respecting should not negatively impact user experience.
-- Android browsers must use the Chromium engine.
-    - Unfortunately, Mozilla GeckoView is still less secure than Chromium on Android.
-    - iOS browsers are limited to WebKit.
+- Deve suportar atualizações automáticas.
+- Deve receber atualizações do motor em 0-1 dias a partir do lançamento do upstream.
+- Quaisquer alterações necessárias para tornar o browser mais respeitador da privacidade não devem afetar negativamente a experiência do utilizador.
+- Os navegadores Android têm de utilizar o motor Chromium.
+    - Infelizmente, o Mozilla GeckoView continua menos seguro do que o Chromium no Android.
+    - Os navegadores iOS estão limitados ao WebKit.
 
-### Extension Criteria
+### Critérios das Extensões
 
-- Must not replicate built-in browser or OS functionality.
-- Must directly impact user privacy, i.e. must not simply provide information.
+- Não deve replicar a funcionalidade incorporada do browser ou do sistema operativo.
+- Deve ter um impacto direto na privacidade do utilizador, ou seja, não deve limitar-se a fornecer informações.

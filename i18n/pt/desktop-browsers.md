@@ -121,7 +121,7 @@ O Mullvad Browser vem com o motor de pesquisa DuckDuckGo predefinido [](search-e
         - [:simple-linux: Linux](https://www.mozilla.org/firefox/linux)
         - [:simple-flathub: Flathub](https://flathub.org/apps/details/org.mozilla.firefox)
 
-!!! aviso
+!!! warning
     O Firefox inclui no seu site um token de transferência [único](https://bugzilla.mozilla.org/show_bug.cgi?id=1677497#c0) e utiliza a telemetria no Firefox para enviar o token. O token não é **** incluído nas versões do [Mozilla FTP](https://ftp.mozilla.org/pub/firefox/releases/).
 
 ### Configuração recomendada

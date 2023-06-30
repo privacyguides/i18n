@@ -179,7 +179,7 @@ BitLocker [僅支援](https://support.microsoft.com/en-us/windows/turn-on-device
     udisksctl unlock -b /dev/loop0
     ```
 
-!!! 備註 "記得備份磁區標頭"
+!!! note "記得備份磁區標頭"
 
     我們建議您務必 [備份您的LUKS標頭](https://wiki.archlinux.org/title/Dm-crypt/Device_encryption#Backup_and_restore) 以防部分驅動器故障。 可以通過以下方式完成：
 
@@ -196,7 +196,7 @@ BitLocker [僅支援](https://support.microsoft.com/en-us/windows/turn-on-device
 !!! recommendation
 
     ![hat.sh logo](assets/img/encryption-software/hat-sh.png#only-light){ align=right }
-    ![hat.sh logo](assets/img/encryption-software/hat-shark.png#only-dark){ align=right }
+    ![hat.sh logo](assets/img/encryption-software/hat-sh-dark.png#only-dark){ align=right }
     
     **Hat.sh** 是一款在瀏覽器中提供安全用戶端檔案加密的網頁應用程式。 它也可以是自行託管，如果您需要加密文件，但由於組織政策無法在設備上安裝任何軟件，這個方法將非常有用。
     
@@ -297,7 +297,7 @@ OpenPGP 有時需要執行特定任務，例如數位簽署和加密電子郵件
 
 ### GPG Suite
 
-!!! 備註
+!!! note "備註"
 
     我們建議 [Canary Mail](email-clients.md#canary-mail) 在iOS裝置上使用PGP和電子郵件。
 

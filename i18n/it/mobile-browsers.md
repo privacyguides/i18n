@@ -178,7 +178,7 @@ Nota che la navigazione privata non salva i cookie e i dati dei siti, quindi non
 
 La sincronizzazione della cronologia di Safari, dei gruppi di schede, delle schede iCloud e delle password salvate è E2EE. Tuttavia, i segnalibri [non](https://support.apple.com/it-it/HT202303) lo sono in modo predefinito. Apple può decifrarli e accedervi in conformità con la sua [politica sulla privacy](https://www.apple.com/legal/privacy/it/).
 
-Puoi abilitare la E2EE per i segnalibri e i download di Safari attivando la [Protezione avanzata dei dati](https://support.apple.com/it-it/HT212520). Vai al tuo **nome ID Apple → iCloud → Protezione avanzata dei dati**.
+Puoi abilitare la E2EE per i tuoi segnalibri e i download di Safari attivando la [Protezione avanzata dei dati](https://support.apple.com/it-it/HT212520). Vai al tuo **nome ID Apple → iCloud → Protezione avanzata dei dati**.
 
 - [x] Attiva **Protezione avanzata dei dati**
 

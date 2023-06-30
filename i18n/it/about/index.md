@@ -94,7 +94,7 @@ I membri del nostro team controllano tutte le modifiche apportate al sito e si o
 
 ## Licenza del sito
 
-!!! danger ""
+!!! danger "Attenzione"
 
     Quanto segue è un riassunto scritto in formato leggibile di (e non un sostituto di) [licenza](/licenza).
 

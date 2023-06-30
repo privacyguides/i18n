@@ -142,7 +142,7 @@ cover: news-aggregators.png
 
 Reddit 允許您通過 RSS 訂閱 subreddits。
 
-!!! 案例
+!!! example "案例"
     替換 `subreddit_name` 改為所要訂閱的 subreddit
 
     ```text
@@ -153,7 +153,7 @@ Reddit 允許您通過 RSS 訂閱 subreddits。
 
 使用任何 Nitter [實例](https://github.com/zedeus/nitter/wiki/Instances) ，您可以使用 RSS 輕鬆訂閱。
 
-!!! 例子
+!!! example "例子"
     1. 選取實例並設定 `nitter_instance`。
     2. 將 `twitter_account` 替換為帳戶名稱。
 
@@ -165,7 +165,7 @@ Reddit 允許您通過 RSS 訂閱 subreddits。
 
 您可以訂閱  YouTube頻道而無需登入，不會把使用情況資訊與Google 帳戶關聯。
 
-!!! 例子
+!!! example "例子"
 
     若要使用 RSS 客戶端訂閱 YouTube 頻道，請先查看您的 [channel code](https://support.google.com/youtube/answer/6180214) ，然後在下方替換[CHANNE ID]」：
     ```text

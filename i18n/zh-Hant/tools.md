@@ -185,7 +185,7 @@ description: Privacy Guides 是最透明和可靠的網站，用於尋找保護�
 
 ### VPN提供商
 
-??? 注意 "VPN 不會讓您匿名"
+??? danger "VPN 不會讓您匿名"
 
     使用 VPN **不會** 讓您的瀏覽習慣匿名，也不會為不安全（ HTTP ）流量增加額外的安全性。
     
@@ -197,9 +197,9 @@ description: Privacy Guides 是最透明和可靠的網站，用於尋找保護�
 
 <div class="grid cards" markdown>
 
+- ![Proton VPN logo](assets/img/vpn/protonvpn.svg){ .twemoji } [Proton VPN](vpn.md#proton-vpn)
 - ![IVPN logo](assets/img/vpn/mini/ivpn.svg){ .twemoji } [IVPN](vpn.md#ivpn)
 - ![Mullvad logo](assets/img/vpn/mullvad.svg){ .twemoji } [Mullvad](vpn.md#mullvad)
-- ![Proton VPN logo](assets/img/vpn/protonvpn.svg){ .twemoji } [Proton VPN](vpn.md#proton-vpn)
 
 </div>
 

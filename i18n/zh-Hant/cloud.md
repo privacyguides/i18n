@@ -10,7 +10,7 @@ cover: cloud.png
 
 如果這些替代方案不符合您的需求，建議您考慮使用其他雲端提供商的加密軟件，例如 [Cryptomator](encryption.md#cryptomator-cloud) 。 把 Cryptomator 結合在 **任一種** 雲服務商(包含這裡推薦的) 也是好方法，可減低某服務商原生客立端加密漏洞之風險。
 
-??? 提問：找不到 Nextcloud ?
+??? question "找不到 Nextcloud?"
 
     Nextcloud 是[仍然是一個推薦的工具] (productivity.md) ，可用於自我託管檔案管理套件，但目前不推薦第三方 Nextcloud儲存服務提供商，因為我們[不建議]使用 (https://discuss.privacyguides.net/t/dont-recommend-nextcloud-e2ee/10352/29) Nextcloud  家庭用戶版內置的 E2EE 功能。
 

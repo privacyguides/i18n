@@ -10,9 +10,9 @@ ISP로부터의 **프라이버시**가 필요하거나, 공용 Wi-Fi에 연결�
 
 <div class="grid cards" markdown>
 
-- ![IVPN 로고](assets/img/vpn/mini/ivpn.svg){ .twemoji } [IVPN](#ivpn)
-- ![Mullvad 로고](assets/img/vpn/mullvad.svg){ .twemoji } [Mullvad](#mullvad)
-- ![Proton VPN 로고](assets/img/vpn/protonvpn.svg){ .twemoji } [Proton VPN](#proton-vpn)
+- ![Proton VPN logo](assets/img/vpn/protonvpn.svg){ .twemoji } [Proton VPN](#proton-vpn)
+- ![IVPN logo](assets/img/vpn/mini/ivpn.svg){ .twemoji } [IVPN](#ivpn)
+- ![Mullvad logo](assets/img/vpn/mullvad.svg){ .twemoji } [Mullvad](#mullvad)
 
 </div>
 
@@ -31,6 +31,70 @@ ISP로부터의 **프라이버시**가 필요하거나, 공용 Wi-Fi에 연결�
 ## 권장 제공 업체
 
 Privacy Guides 권장 제공 업체는 암호화 사용, Monero 결제 지원, WireGuard & OpenVPN 지원, 노 로그 정책을 가지고 있습니다. 자세한 사항은 [전체 평가 기준](#criteria)을 참고해 주세요.
+
+### Proton VPN
+
+!!! recommendation annotate
+
+    ![Proton VPN 로고](assets/img/vpn/protonvpn.svg){ align=right }
+    
+    **Proton VPN**은 VPN 분야의 강력한 경쟁자로, 2016년부터 운영되고 있습니다. Proton AG 본사는 스위스에 위치하고 있으며, 제한된 무료 플랜과 더 많은 기능을 갖춘 프리미엄 옵션을 제공합니다.
+    
+    [:octicons-home-16: 홈페이지](https://protonvpn.com/){ .md-button .md-button--primary }
+    [:octicons-eye-16:](https://protonvpn.com/privacy-policy){ .card-link title="프라이버시 정책" }
+    [:octicons-info-16:](https://protonvpn.com/support/){ .card-link title=문서}
+    [:octicons-code-16:](https://github.com/ProtonVPN){ .card-link title="소스 코드" }
+    
+    ??? downloads "다운로드"
+    
+        - [:simple-googleplay: Google Play](https://play.google.com/store/apps/details?id=ch.protonvpn.android)
+        - [:simple-appstore: App Store](https://apps.apple.com/app/apple-store/id1437005085)
+        - [:simple-github: GitHub](https://github.com/ProtonVPN/android-app/releases)
+        - [:simple-windows11: Windows](https://protonvpn.com/download-windows)
+        - [:simple-linux: Linux](https://protonvpn.com/support/linux-vpn-setup/)
+
+#### :material-check:{ .pg-green } 67개 국가
+
+Proton VPN은 [67개 국가에 서버](https://protonvpn.com/vpn-servers)를 보유하고 있습니다.(1) 자신으로부터 가장 가까운 서버를 보유한 VPN 제공 업체를 선택하면 네트워크 트래픽 전송 지연 시간을 줄일 수 있습니다. 목적지까지의 경로가 더 짧기(Hop 횟수가 적기) 때문입니다.
+{ .annotate }
+
+1. 마지막 확인: 2022-09-16
+
+저희는 VPN 제공자가 독립적인 [데디케이티드 서버](https://en.wikipedia.org/wiki/Dedicated_hosting_service)를 사용하는 것이 제공자의 개인 키를 보호하는데 더 좋다고 봅니다. [개인 사설 서버](https://en.wikipedia.org/wiki/Virtual_private_server)는 더 싸지만, VPN 제공자는 한 서버를 다른 사람들과 같이 쓰게 됩니다.
+
+#### :material-check:{ .pg-green } 독립 감사 여부
+
+As of January 2020, Proton VPN has undergone an independent audit by SEC Consult. SEC Consult found some medium and low risk vulnerabilities in Proton VPN's Windows, Android, and iOS applications, all of which were "properly fixed" by Proton VPN before the reports were published. None of the issues identified would have provided an attacker remote access to your device or traffic. You can view individual reports for each platform at [protonvpn.com](https://protonvpn.com/blog/open-source/). In April 2022 Proton VPN underwent [another audit](https://protonvpn.com/blog/no-logs-audit/) and the report was [produced by Securitum](https://protonvpn.com/blog/wp-content/uploads/2022/04/securitum-protonvpn-nologs-20220330.pdf). A [letter of attestation](https://proton.me/blog/security-audit-all-proton-apps) was provided for Proton VPN's apps on 9th November 2021 by [Securitum](https://research.securitum.com).
+
+#### :material-check:{ .pg-green } 오픈 소스 클라이언트
+
+Proton VPN 데스크톱, 모바일 클라이언트는 [GitHub](https://github.com/ProtonVPN)에 공개되어 있습니다.
+
+#### :material-check:{ .pg-green } Accepts Cash
+
+Proton VPN, in addition to accepting credit/debit cards, PayPal, and [Bitcoin](advanced/payments.md#other-coins-bitcoin-ethereum-etc), also accepts **cash/local currency** as an anonymous form of payment.
+
+#### :material-check:{ .pg-green } WireGuard 지원
+
+Proton VPN은 일반적으로 WireGuard® 프로토콜을 지원합니다. [WireGuard](https://www.wireguard.com)는 최신식 [암호화](https://www.wireguard.com/protocol/)를 사용하는 최신 프로토콜입니다. 또한, WireGuard는 보다 단순하면서도 더 나은 성능을 목표로 합니다.
+
+Proton VPN은 자신들의 서비스에서 WireGuard 사용을 [권장](https://protonvpn.com/blog/wireguard/)합니다. WireGuard 프로토콜은 Windows, macOS, iOS, Android, ChromeOS, Android TV의 Proton VPN 앱에서는 기본으로 설정되어 있지만, Linux 앱에서는 [지원되지 않습니다](https://protonvpn.com/support/how-to-change-vpn-protocols/).
+
+#### :material-alert-outline:{ .pg-orange } 원격 포트 포워딩
+
+Proton VPN currently only supports ephemeral remote [port forwarding](https://protonvpn.com/support/port-forwarding/) via NAT-PMP, with 60 second lease times. The Windows app provides an easy to access option for it, while on other operating systems you'll need to run your own [NAT-PMP client](https://protonvpn.com/support/port-forwarding-manual-setup/). Torrent applications often support NAT-PMP natively.
+
+#### :material-check:{ .pg-green } 모바일 클라이언트
+
+Proton VPN은 표준 OpenVPN 설정 파일 외에도, 간편하게 Proton VPN 서버와 연결 가능한 모바일 클라이언트를 [App Store](https://apps.apple.com/us/app/protonvpn-fast-secure-vpn/id1437005085), [Google Play](https://play.google.com/store/apps/details?id=ch.protonvpn.android&hl=en_US), [GitHub](https://github.com/ProtonVPN/android-app/releases)에서 제공하고 있습니다.
+
+#### :material-information-outline:{ .pg-blue } 추가 기능
+
+Proton VPN clients support two factor authentication on all platforms except Linux at the moment. Proton VPN has their own servers and datacenters in Switzerland, Iceland and Sweden. They offer adblocking and known malware domains blocking with their DNS service. Additionally, Proton VPN also offers "Tor" servers allowing you to easily connect to onion sites, but we still strongly recommend using [the official Tor Browser](https://www.torproject.org/) for this purpose.
+
+#### :material-alert-outline:{ .pg-orange } Killswitch feature is broken on Intel-based Macs
+
+System crashes [may occur](https://protonvpn.com/support/macos-t2-chip-kill-switch/) on Intel-based Macs when using the VPN killswitch. If you require this feature, and you are using a Mac with Intel chipset, you should consider using another VPN service.
 
 ### IVPN
 
@@ -81,9 +145,9 @@ IVPN은 WireGuard® 프로토콜을 지원합니다. [WireGuard](https://www.wir
 
 IVPN은 자신들의 서비스에서 WireGuard 사용을 [권장](https://www.ivpn.net/wireguard/)하며, 모든 IVPN 앱은 WireGuard가 기본값으로 설정되어 있습니다. WireGuard [공식 앱](https://www.wireguard.com/install/)에서 사용할 수 있는 IVPN WireGuard 설정 생성기도 제공하고 있습니다.
 
-#### :material-check:{ .pg-green } 원격 포트 포워딩
+#### :material-alert-outline:{ .pg-orange } 원격 포트 포워딩
 
-원격 [포트 포워딩](https://ko.wikipedia.org/wiki/%ED%8F%AC%ED%8A%B8_%ED%8F%AC%EC%9B%8C%EB%94%A9)은 Pro 요금제에서 사용 가능합니다. 포트 포워딩은 [Client Area에서 활성화](https://www.ivpn.net/knowledgebase/81/How-do-I-activate-port-forwarding.html)할 수 있습니다. IVPN에서 포트 포워딩은 WireGuard/OpenVPN 프로토콜을 사용할 때만 사용 가능하며, [미국 서버에서는 이용할 수 없습니다](https://www.ivpn.net/knowledgebase/116/Port-forwarding-is-not-working-why.html).
+IVPN previously supported port forwarding, but removed the option in [June 2023](https://www.ivpn.net/blog/gradual-removal-of-port-forwarding). Missing this feature could negatively impact certain applications, especially peer-to-peer applications like torrent clients.
 
 #### :material-check:{ .pg-green } 모바일 클라이언트
 
@@ -166,70 +230,6 @@ Mullvad has published [App Store](https://apps.apple.com/app/mullvad-vpn/id14884
 #### :material-information-outline:{ .pg-blue } 추가 기능
 
 Mullvad는 자신이 [소유/임대](https://mullvad.net/en/servers/)한 노드에 대해 투명하게 공개하고 있습니다. They use [ShadowSocks](https://shadowsocks.org/) in their ShadowSocks + OpenVPN configuration, making them more resistant against firewalls with [Deep Packet Inspection](https://en.wikipedia.org/wiki/Deep_packet_inspection) trying to block VPNs. [중국은 다른 방식으로 ShadowSocks 서버를 막고 있다고 전해집니다](https://github.com/net4people/bbs/issues/22). Mullvad의 웹사이트는 Tor를 이용해서 접속할 수 있습니다. 주소는 [o54hon2e2vj6c7m3aqqu6uyece65by3vgoxxhlqlsvkmacw6a7m7kiad.onion](http://o54hon2e2vj6c7m3aqqu6uyece65by3vgoxxhlqlsvkmacw6a7m7kiad.onion)입니다.
-
-### Proton VPN
-
-!!! recommendation annotate
-
-    ![Proton VPN 로고](assets/img/vpn/protonvpn.svg){ align=right }
-    
-    **Proton VPN**은 VPN 분야의 강력한 경쟁자로, 2016년부터 운영되고 있습니다. Proton AG 본사는 스위스에 위치하고 있으며, 제한된 무료 플랜과 더 많은 기능을 갖춘 프리미엄 옵션을 제공합니다.
-    
-    [:octicons-home-16: 홈페이지](https://protonvpn.com/){ .md-button .md-button--primary }
-    [:octicons-eye-16:](https://protonvpn.com/privacy-policy){ .card-link title="프라이버시 정책" }
-    [:octicons-info-16:](https://protonvpn.com/support/){ .card-link title=문서}
-    [:octicons-code-16:](https://github.com/ProtonVPN){ .card-link title="소스 코드" }
-    
-    ??? downloads "다운로드"
-    
-        - [:simple-googleplay: Google Play](https://play.google.com/store/apps/details?id=ch.protonvpn.android)
-        - [:simple-appstore: App Store](https://apps.apple.com/app/apple-store/id1437005085)
-        - [:simple-github: GitHub](https://github.com/ProtonVPN/android-app/releases)
-        - [:simple-windows11: Windows](https://protonvpn.com/download-windows)
-        - [:simple-linux: Linux](https://protonvpn.com/support/linux-vpn-setup/)
-
-#### :material-check:{ .pg-green } 67개 국가
-
-Proton VPN은 [67개 국가에 서버](https://protonvpn.com/vpn-servers)를 보유하고 있습니다.(1) 자신으로부터 가장 가까운 서버를 보유한 VPN 제공 업체를 선택하면 네트워크 트래픽 전송 지연 시간을 줄일 수 있습니다. 목적지까지의 경로가 더 짧기(Hop 횟수가 적기) 때문입니다.
-{ .annotate }
-
-1. 마지막 확인: 2022-09-16
-
-저희는 VPN 제공자가 독립적인 [데디케이티드 서버](https://en.wikipedia.org/wiki/Dedicated_hosting_service)를 사용하는 것이 제공자의 개인 키를 보호하는데 더 좋다고 봅니다. [개인 사설 서버](https://en.wikipedia.org/wiki/Virtual_private_server)는 더 싸지만, VPN 제공자는 한 서버를 다른 사람들과 같이 쓰게 됩니다.
-
-#### :material-check:{ .pg-green } 독립 감사 여부
-
-As of January 2020, Proton VPN has undergone an independent audit by SEC Consult. SEC Consult found some medium and low risk vulnerabilities in Proton VPN's Windows, Android, and iOS applications, all of which were "properly fixed" by Proton VPN before the reports were published. None of the issues identified would have provided an attacker remote access to your device or traffic. You can view individual reports for each platform at [protonvpn.com](https://protonvpn.com/blog/open-source/). In April 2022 Proton VPN underwent [another audit](https://protonvpn.com/blog/no-logs-audit/) and the report was [produced by Securitum](https://protonvpn.com/blog/wp-content/uploads/2022/04/securitum-protonvpn-nologs-20220330.pdf). A [letter of attestation](https://proton.me/blog/security-audit-all-proton-apps) was provided for Proton VPN's apps on 9th November 2021 by [Securitum](https://research.securitum.com).
-
-#### :material-check:{ .pg-green } 오픈 소스 클라이언트
-
-Proton VPN 데스크톱, 모바일 클라이언트는 [GitHub](https://github.com/ProtonVPN)에 공개되어 있습니다.
-
-#### :material-check:{ .pg-green } Accepts Cash
-
-Proton VPN, in addition to accepting credit/debit cards, PayPal, and [Bitcoin](advanced/payments.md#other-coins-bitcoin-ethereum-etc), also accepts **cash/local currency** as an anonymous form of payment.
-
-#### :material-check:{ .pg-green } WireGuard 지원
-
-Proton VPN은 일반적으로 WireGuard® 프로토콜을 지원합니다. [WireGuard](https://www.wireguard.com)는 최신식 [암호화](https://www.wireguard.com/protocol/)를 사용하는 최신 프로토콜입니다. 또한, WireGuard는 보다 단순하면서도 더 나은 성능을 목표로 합니다.
-
-Proton VPN은 자신들의 서비스에서 WireGuard 사용을 [권장](https://protonvpn.com/blog/wireguard/)합니다. WireGuard 프로토콜은 Windows, macOS, iOS, Android, ChromeOS, Android TV의 Proton VPN 앱에서는 기본으로 설정되어 있지만, Linux 앱에서는 [지원되지 않습니다](https://protonvpn.com/support/how-to-change-vpn-protocols/).
-
-#### :material-alert-outline:{ .pg-orange } 원격 포트 포워딩
-
-Proton VPN currently only supports ephemeral remote [port forwarding](https://protonvpn.com/support/port-forwarding/) via NAT-PMP, with 60 second lease times. The Windows app provides an easy to access option for it, while on other operating systems you'll need to run your own [NAT-PMP client](https://protonvpn.com/support/port-forwarding-manual-setup/). Torrent applications often support NAT-PMP natively.
-
-#### :material-check:{ .pg-green } 모바일 클라이언트
-
-Proton VPN은 표준 OpenVPN 설정 파일 외에도, 간편하게 Proton VPN 서버와 연결 가능한 모바일 클라이언트를 [App Store](https://apps.apple.com/us/app/protonvpn-fast-secure-vpn/id1437005085), [Google Play](https://play.google.com/store/apps/details?id=ch.protonvpn.android&hl=en_US), [GitHub](https://github.com/ProtonVPN/android-app/releases)에서 제공하고 있습니다.
-
-#### :material-information-outline:{ .pg-blue } 추가 기능
-
-Proton VPN clients support two factor authentication on all platforms except Linux at the moment. Proton VPN has their own servers and datacenters in Switzerland, Iceland and Sweden. They offer adblocking and known malware domains blocking with their DNS service. Additionally, Proton VPN also offers "Tor" servers allowing you to easily connect to onion sites, but we still strongly recommend using [the official Tor Browser](https://www.torproject.org/) for this purpose.
-
-#### :material-alert-outline:{ .pg-orange } Killswitch feature is broken on Intel-based Macs
-
-System crashes [may occur](https://protonvpn.com/support/macos-t2-chip-kill-switch/) on Intel-based Macs when using the VPN killswitch. If you require this feature, and you are using a Mac with Intel chipset, you should consider using another VPN service.
 
 ## 평가 기준
 

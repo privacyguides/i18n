@@ -178,7 +178,7 @@ Houd er rekening mee dat privénavigatie geen cookies en gegevens opslaat, zodat
 
 De synchronisatie van de Safari-geschiedenis, tabbladgroepen, iCloud-tabbladen en opgeslagen wachtwoorden verloopt via E2EE. Standaard zijn bladwijzers dat echter [niet](https://support.apple.com/en-us/HT202303). Apple kan ze ontsleutelen en openen in overeenstemming met hun [privacybeleid](https://www.apple.com/legal/privacy/en-ww/).
 
-Je kunt E2EE inschakelen voor jouw Safari bladwijzers en downloads door [Geavanceerde gegevensbescherming](https://support.apple.com/en-us/HT212520)in te schakelen. Ga naar jouw **Apple ID naam → iCloud → Geavanceerde gegevensbescherming**.
+You can enable E2EE for your Safari bookmarks and downloads by enabling [Advanced Data Protection](https://support.apple.com/en-us/HT212520). Ga naar jouw **Apple ID naam → iCloud → Geavanceerde gegevensbescherming**.
 
 - [x] Zet **Geavanceerde gegevensbescherming aan**
 

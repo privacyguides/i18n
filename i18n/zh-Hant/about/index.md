@@ -94,7 +94,7 @@ Privacy Guides 於2021年9月推出，是 [已解散的](privacytools.md) "Priva
 
 ## 網站授權
 
-!!! danger ""
+!!! danger "危險"
 
     以下是人類可讀的[授權](/license)摘要(但無法替代授權內容)。
 

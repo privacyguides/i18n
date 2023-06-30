@@ -10,9 +10,9 @@ Als je op zoek bent naar extra **privacy** van uw ISP, op een openbaar Wi-Fi-net
 
 <div class="grid cards" markdown>
 
+- ![Proton VPN logo](assets/img/vpn/protonvpn.svg){ .twemoji } [Proton VPN](#proton-vpn)
 - ![IVPN logo](assets/img/vpn/mini/ivpn.svg){ .twemoji } [IVPN](#ivpn)
 - ![Mullvad logo](assets/img/vpn/mullvad.svg){ .twemoji } [Mullvad](#mullvad)
-- ![Proton VPN logo](assets/img/vpn/protonvpn.svg){ .twemoji } [Proton VPN](#proton-vpn)
 
 </div>
 
@@ -31,6 +31,70 @@ Als je op zoek bent naar extra **privacy** van uw ISP, op een openbaar Wi-Fi-net
 ## Aanbevolen Providers
 
 Onze aanbevolen providers gebruiken encryptie, accepteren Monero, ondersteunen WireGuard & OpenVPN, en hebben een no logging beleid. Lees onze [volledige lijst met criteria](#criteria) voor meer informatie.
+
+### Proton VPN
+
+!!! recommendation annotate
+
+    ![Proton VPN logo](assets/img/vpn/protonvpn.svg){ align=right }
+    
+    **Proton VPN** is een sterke speler in de VPN-ruimte en is in bedrijf sinds 2016. Proton AG is gevestigd in Zwitserland en biedt een beperkte gratis versie aan en ook een meer uitgebreide premium optie.
+    
+    [:octicons-home-16: Homepage](https://protonvpn.com/){ .md-button .md-button--primary }
+    [:octicons-eye-16:](https://protonvpn.com/privacy-policy){ .card-link title="Privacybeleid" }
+    [:octicons-info-16:](https://protonvpn.com/support/){ .card-link title=Documentatie}
+    [:octicons-code-16:](https://github.com/ProtonVPN){ .card-link title="Broncode" }
+    
+    ??? downloads "Downloaden"
+    
+        - [:simple-googleplay: Google Play](https://play.google.com/store/apps/details?id=ch.protonvpn.android)
+        - [:simple-appstore: App Store](https://apps.apple.com/app/apple-store/id1437005085)
+        - [:simple-github: GitHub](https://github.com/ProtonVPN/android-app/releases)
+        - [:simple-windows11: Windows](https://protonvpn.com/download-windows)
+        - [:simple-linux: Linux](https://protonvpn.com/support/linux-vpn-setup/)
+
+#### :material-check:{ .pg-green } 67 Landen
+
+Proton VPN heeft [servers in 67 landen](https://protonvpn.com/vpn-servers).(1) Door een VPN-provider te kiezen met een server die het dichtst bij je in de buurt staat, verminder je de vertraging van het netwerkverkeer die je verstuurt. Dit komt door een kortere route (minder hops) naar de bestemming.
+{ .annotate }
+
+1. Laatst gecontroleerd: 2022-09-16
+
+Wij denken ook dat het beter is voor de veiligheid van de privésleutels van de VPN-provider als ze [dedicated servers](https://en.wikipedia.org/wiki/Dedicated_hosting_service) gebruiken, in plaats van goedkopere gedeelde servers (met andere klanten) zoals [virtual private servers](https://en.wikipedia.org/wiki/Virtual_private_server).
+
+#### :material-check:{ .pg-green } Onafhankelijk geaudit
+
+Vanaf januari 2020, heeft Proton VPN een onafhankelijke audit door SEC Consult ondergaan. SEC Consult vond enkele kwetsbaarheden met een gemiddeld en laag risico in de Windows-, Android- en iOS-applicaties van Proton VPN, die allemaal door Proton VPN "naar behoren waren verholpen" voordat de rapporten werden gepubliceerd. Geen van de geconstateerde problemen zou een aanvaller op afstand toegang hebben verschaft tot jouw apparaat of verkeer. Je kunt individuele rapporten voor elk platform bekijken op [protonvpn.com](https://protonvpn.com/blog/open-source/). In april 2022 onderging Proton VPN [nog een audit](https://protonvpn.com/blog/no-logs-audit/) en het rapport werd [opgesteld door Securitum](https://protonvpn.com/blog/wp-content/uploads/2022/04/securitum-protonvpn-nologs-20220330.pdf). Een [attestatiebrief](https://proton.me/blog/security-audit-all-proton-apps) werd op 9 november 2021 voor de apps van Proton VPN verstrekt door [Securitum](https://research.securitum.com).
+
+#### :material-check:{ .pg-green } Open-source clients
+
+Proton VPN levert de broncode voor hun desktop en mobiele clients in hun [GitHub organisatie](https://github.com/ProtonVPN).
+
+#### :material-check:{ .pg-green } Accepteert contant geld
+
+Proton VPN accepteert, naast credit/debit cards, PayPal en [Bitcoin](advanced/payments.md#other-coins-bitcoin-ethereum-etc), ook **contant geld** als anonieme vorm van betaling.
+
+#### :material-check:{ .pg-green } WireGuard ondersteuning
+
+Proton VPN ondersteunt hoofdzakelijk het WireGuard® protocol. [WireGuard](https://www.wireguard.com) is een nieuwer protocol dat gebruik maakt van geavanceerde [cryptografie](https://www.wireguard.com/protocol/). Bovendien streeft WireGuard ernaar om eenvoudiger en sneller te zijn.
+
+Proton VPN [adviseert](https://protonvpn.com/blog/wireguard/) het gebruik van WireGuard met hun dienst. Op de Windows, macOS, iOS, Android, ChromeOS en Android TV apps van Proton VPN is WireGuard het standaardprotocol; [ondersteuning](https://protonvpn.com/support/how-to-change-vpn-protocols/) voor het protocol is echter niet aanwezig in hun Linux app.
+
+#### :material-alert-outline:{ .pg-orange } Remote Port Forwarding
+
+Proton VPN ondersteunt momenteel alleen ephemeral remote [port forwarding](https://protonvpn.com/support/port-forwarding/) via NAT-PMP, met een leasetijd van 60 seconden. De Windows-app biedt hiervoor een gemakkelijk toegankelijke optie, terwijl je op andere besturingssystemen je eigen [NAT-PMP-client](https://protonvpn.com/support/port-forwarding-manual-setup/)moet draaien. Torrent toepassingen ondersteunen vaak de NAT-PMP volledig.
+
+#### :material-check:{ .pg-green } Mobiele Clients
+
+Naast het leveren van standaard OpenVPN-configuratiebestanden, heeft Proton VPN mobiele clients voor [App Store](https://apps.apple.com/us/app/protonvpn-fast-secure-vpn/id1437005085), [Google Play](https://play.google.com/store/apps/details?id=ch.protonvpn.android&hl=en_US), en [GitHub](https://github.com/ProtonVPN/android-app/releases) die eenvoudige verbindingen met hun servers mogelijk maken.
+
+#### :material-information-outline:{ .pg-blue } Aanvullende functionaliteit
+
+Proton VPN heeft eigen servers en datacenters in Zwitserland, IJsland en Zweden. Ze bieden adblocking en het blokkeren van bekende malware domeinen met hun DNS service. Ze bieden adblocking en blokkering van bekende malwaredomeinen met hun DNS-dienst. Bovendien biedt Proton VPN ook "Tor" -servers waarmee je eenvoudig verbinding kunt maken met. onion sites, maar we raden je nog steeds ten zeerste aan om hiervoor [de officiële Tor Browser](https://www.torproject.org/) te gebruiken.
+
+#### :material-alert-outline:{ .pg-orange } Killswitch-functie is kapot op Intel-gebaseerde Macs
+
+Systeemcrashes [kunnen optreden](https://protonvpn.com/support/macos-t2-chip-kill-switch/) op Intel-gebaseerde Macs bij het gebruik van de VPN killswitch. Als je deze functie nodig hebt, en je gebruikt een Mac met Intel-chipset, moet je overwegen een andere VPN-dienst te gebruiken.
 
 ### IVPN
 
@@ -81,9 +145,9 @@ IVPN ondersteunt het WireGuard® protocol. [WireGuard](https://www.wireguard.com
 
 IVPN [adviseert](https://www.ivpn.net/wireguard/) het gebruik van WireGuard met hun dienst en daarom is het protocol de standaard op alle apps van IVPN. IVPN biedt ook een WireGuard configuratie generator voor gebruik met de officiële WireGuard [apps](https://www.wireguard.com/install/).
 
-#### :material-check:{ .pg-green } Remote Port Forwarding
+#### :material-alert-outline:{ .pg-orange } Remote Port Forwarding
 
-Remote [port forwarding](https://en.wikipedia.org/wiki/Port_forwarding) is mogelijk met een Pro-abonnement. Port forwarding [kan](https://www.ivpn.net/knowledgebase/81/How-do-I-activate-port-forwarding.html) geactiveerd worden via de client area. Port forwarding is alleen beschikbaar op IVPN bij gebruik van WireGuard- of OpenVPN-protocollen en is [uitgeschakeld op Amerikaanse servers](https://www.ivpn.net/knowledgebase/116/Port-forwarding-is-not-working-why.html).
+IVPN previously supported port forwarding, but removed the option in [June 2023](https://www.ivpn.net/blog/gradual-removal-of-port-forwarding). Het ontbreken van deze functie kan bepaalde toepassingen negatief beïnvloeden, met name peer-to-peer applicaties zoals torrent clients.
 
 #### :material-check:{ .pg-green } Mobiele Clients
 
@@ -166,70 +230,6 @@ Mullvad heeft [App Store](https://apps.apple.com/app/mullvad-vpn/id1488466513) e
 #### :material-information-outline:{ .pg-blue } Aanvullende functionaliteit
 
 Mullvad is zeer transparant over welke knooppunten zij [bezitten of huren](https://mullvad.net/en/servers/). Ze gebruiken [ShadowSocks](https://shadowsocks.org/) in hun ShadowSocks + OpenVPN-configuratie, waardoor ze beter bestand zijn tegen firewalls met [Deep Packet Inspection](https://en.wikipedia.org/wiki/Deep_packet_inspection) die VPN's proberen te blokkeren. Vermoedelijk moet [China een andere methode gebruiken om ShadowSocks servers te blokkeren](https://github.com/net4people/bbs/issues/22). Mullvad's website is ook toegankelijk via Tor via [o54hon2e2vj6c7m3aqqu6uyece65by3vgoxxhlqlsvkmacw6a7m7kiad.onion](http://o54hon2e2vj6c7m3aqqu6uyece65by3vgoxxhlqlsvkmacw6a7m7kiad.onion).
-
-### Proton VPN
-
-!!! recommendation annotate
-
-    ![Proton VPN logo](assets/img/vpn/protonvpn.svg){ align=right }
-    
-    **Proton VPN** is een sterke speler in de VPN-ruimte en is in bedrijf sinds 2016. Proton AG is gevestigd in Zwitserland en biedt een beperkte gratis versie aan en ook een meer uitgebreide premium optie.
-    
-    [:octicons-home-16: Homepage](https://protonvpn.com/){ .md-button .md-button--primary }
-    [:octicons-eye-16:](https://protonvpn.com/privacy-policy){ .card-link title="Privacybeleid" }
-    [:octicons-info-16:](https://protonvpn.com/support/){ .card-link title=Documentatie}
-    [:octicons-code-16:](https://github.com/ProtonVPN){ .card-link title="Broncode" }
-    
-    ??? downloads "Downloaden"
-    
-        - [:simple-googleplay: Google Play](https://play.google.com/store/apps/details?id=ch.protonvpn.android)
-        - [:simple-appstore: App Store](https://apps.apple.com/app/apple-store/id1437005085)
-        - [:simple-github: GitHub](https://github.com/ProtonVPN/android-app/releases)
-        - [:simple-windows11: Windows](https://protonvpn.com/download-windows)
-        - [:simple-linux: Linux](https://protonvpn.com/support/linux-vpn-setup/)
-
-#### :material-check:{ .pg-green } 67 Landen
-
-Proton VPN heeft [servers in 67 landen](https://protonvpn.com/vpn-servers).(1) Door een VPN-provider te kiezen met een server die het dichtst bij je in de buurt staat, verminder je de vertraging van het netwerkverkeer die je verstuurt. Dit komt door een kortere route (minder hops) naar de bestemming.
-{ .annotate }
-
-1. Laatst gecontroleerd: 2022-09-16
-
-Wij denken ook dat het beter is voor de veiligheid van de privésleutels van de VPN-provider als ze [dedicated servers](https://en.wikipedia.org/wiki/Dedicated_hosting_service) gebruiken, in plaats van goedkopere gedeelde servers (met andere klanten) zoals [virtual private servers](https://en.wikipedia.org/wiki/Virtual_private_server).
-
-#### :material-check:{ .pg-green } Onafhankelijk geaudit
-
-Vanaf januari 2020, heeft Proton VPN een onafhankelijke audit door SEC Consult ondergaan. SEC Consult vond enkele kwetsbaarheden met een gemiddeld en laag risico in de Windows-, Android- en iOS-applicaties van Proton VPN, die allemaal door Proton VPN "naar behoren waren verholpen" voordat de rapporten werden gepubliceerd. Geen van de geconstateerde problemen zou een aanvaller op afstand toegang hebben verschaft tot jouw apparaat of verkeer. Je kunt individuele rapporten voor elk platform bekijken op [protonvpn.com](https://protonvpn.com/blog/open-source/). In april 2022 onderging Proton VPN [nog een audit](https://protonvpn.com/blog/no-logs-audit/) en het rapport werd [opgesteld door Securitum](https://protonvpn.com/blog/wp-content/uploads/2022/04/securitum-protonvpn-nologs-20220330.pdf). Een [attestatiebrief](https://proton.me/blog/security-audit-all-proton-apps) werd op 9 november 2021 voor de apps van Proton VPN verstrekt door [Securitum](https://research.securitum.com).
-
-#### :material-check:{ .pg-green } Open-source clients
-
-Proton VPN levert de broncode voor hun desktop en mobiele clients in hun [GitHub organisatie](https://github.com/ProtonVPN).
-
-#### :material-check:{ .pg-green } Accepteert contant geld
-
-Proton VPN accepteert, naast credit/debit cards, PayPal en [Bitcoin](advanced/payments.md#other-coins-bitcoin-ethereum-etc), ook **contant geld** als anonieme vorm van betaling.
-
-#### :material-check:{ .pg-green } WireGuard ondersteuning
-
-Proton VPN ondersteunt hoofdzakelijk het WireGuard® protocol. [WireGuard](https://www.wireguard.com) is een nieuwer protocol dat gebruik maakt van geavanceerde [cryptografie](https://www.wireguard.com/protocol/). Bovendien streeft WireGuard ernaar om eenvoudiger en sneller te zijn.
-
-Proton VPN [adviseert](https://protonvpn.com/blog/wireguard/) het gebruik van WireGuard met hun dienst. Op de Windows, macOS, iOS, Android, ChromeOS en Android TV apps van Proton VPN is WireGuard het standaardprotocol; [ondersteuning](https://protonvpn.com/support/how-to-change-vpn-protocols/) voor het protocol is echter niet aanwezig in hun Linux app.
-
-#### :material-alert-outline:{ .pg-orange } Remote Port Forwarding
-
-Proton VPN ondersteunt momenteel alleen ephemeral remote [port forwarding](https://protonvpn.com/support/port-forwarding/) via NAT-PMP, met een leasetijd van 60 seconden. De Windows-app biedt hiervoor een gemakkelijk toegankelijke optie, terwijl je op andere besturingssystemen je eigen [NAT-PMP-client](https://protonvpn.com/support/port-forwarding-manual-setup/)moet draaien. Torrent toepassingen ondersteunen vaak de NAT-PMP volledig.
-
-#### :material-check:{ .pg-green } Mobiele Clients
-
-Naast het leveren van standaard OpenVPN-configuratiebestanden, heeft Proton VPN mobiele clients voor [App Store](https://apps.apple.com/us/app/protonvpn-fast-secure-vpn/id1437005085), [Google Play](https://play.google.com/store/apps/details?id=ch.protonvpn.android&hl=en_US), en [GitHub](https://github.com/ProtonVPN/android-app/releases) die eenvoudige verbindingen met hun servers mogelijk maken.
-
-#### :material-information-outline:{ .pg-blue } Aanvullende functionaliteit
-
-Proton VPN heeft eigen servers en datacenters in Zwitserland, IJsland en Zweden. Ze bieden adblocking en het blokkeren van bekende malware domeinen met hun DNS service. Ze bieden adblocking en blokkering van bekende malwaredomeinen met hun DNS-dienst. Bovendien biedt Proton VPN ook "Tor" -servers waarmee je eenvoudig verbinding kunt maken met. onion sites, maar we raden je nog steeds ten zeerste aan om hiervoor [de officiële Tor Browser](https://www.torproject.org/) te gebruiken.
-
-#### :material-alert-outline:{ .pg-orange } Killswitch-functie is kapot op Intel-gebaseerde Macs
-
-Systeemcrashes [kunnen optreden](https://protonvpn.com/support/macos-t2-chip-kill-switch/) op Intel-gebaseerde Macs bij het gebruik van de VPN killswitch. Als je deze functie nodig hebt, en je gebruikt een Mac met Intel-chipset, moet je overwegen een andere VPN-dienst te gebruiken.
 
 ## Criteria
 

@@ -177,7 +177,7 @@ Observera att privat surfning inte sparar cookies och webbplatsdata, så det är
 
 Synkronisering av Safari-historik, flikgrupper, iCloud-flikar och sparade lösenord är E2EE. Som standard är bokmärken dock [och inte](https://support.apple.com/en-us/HT202303). Apple kan dekryptera och komma åt dem i enlighet med sin sekretesspolicy för [](https://www.apple.com/legal/privacy/en-ww/).
 
-Du kan aktivera E2EE för dig Safari-bokmärken och nedladdningar genom att aktivera [Avancerat dataskydd](https://support.apple.com/en-us/HT212520). Gå till ditt **Apple-ID-namn → iCloud → Avancerat dataskydd**.
+You can enable E2EE for your Safari bookmarks and downloads by enabling [Advanced Data Protection](https://support.apple.com/en-us/HT212520). Gå till ditt **Apple-ID-namn → iCloud → Avancerat dataskydd**.
 
 - [x] Aktivera **Avancerat dataskydd**
 

@@ -178,7 +178,7 @@ Notez que la Navigation Privée n'enregistre pas les cookies et les données des
 
 La synchronisation de l'Historique de Safari, des Groupes d'Onglets, des Onglets iCloud et des mots de passe enregistrés est E2EE. Cependant, les signets ne le sont [pas](https://support.apple.com/fr-fr/HT202303). Apple peut les déchiffrer et y accéder conformément à sa [politique de confidentialité](https://www.apple.com/fr/legal/privacy/fr-ww/).
 
-Si vous utilisez iCloud, nous vous recommandons également de vérifier que l'emplacement de téléchargement par défaut de Safari est défini sur "localement sur votre appareil". Accédez à votre **nom d'identifiant Apple → iCloud → Protection Avancée des Données**.
+Vous pouvez activer l'E2EE pour vos signets et vos téléchargements Safari en activant la [Protection Avancée des Données](https://support.apple.com/en-us/HT212520). Accédez à votre **nom d'identifiant Apple → iCloud → Protection Avancée des Données**.
 
 - [x] Activez **Protection Avancée des Données**
 

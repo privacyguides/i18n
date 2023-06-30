@@ -135,7 +135,7 @@ In general, we define collaboration platforms as full-fledged suites which could
 In general, we define office suites as applications which could reasonably act as a replacement for Microsoft Word for most needs.
 
 - Программа должна быть кроссплатформенной.
-- Must be open-source software.
+- Должно иметь открытый исходный код.
 - Must function offline.
 - Must support editing documents, spreadsheets, and slideshows.
 - Must export files to standard document formats.

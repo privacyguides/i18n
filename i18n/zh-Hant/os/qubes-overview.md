@@ -37,7 +37,7 @@ Qubes OS 利用 [DOM0](https://wiki.xenproject.org/wiki/Dom0) Xen VM （即「Ad
 
 若要將檔案和目錄(資料夾)從一個 VM 複製貼到另一個 VM ，您可以使用選項 **Copy to Other AppVM...** 或 **Move to Other AppVM...**。 不同之處在於 **Move** 選項會刪除原始檔案。 這兩個選項都可以保護您的剪貼簿不會洩漏到任何其他 Qubes。 這比網閘式檔案傳輸更安全，因為網閘電腦仍將被迫解析分割區或檔案系統。 這在inter-qube複製系統中是不需要的。
 
-??? info" AppVms沒有自己的檔案系統"
+??? info "AppVms沒有自己的檔案系統"
 
     [您可以在Qubes之間[複製和移動檔案](https://www.qubes-os.org/doc/how-to-copy-and-move-files/)。 當這樣做時，不會立即進行更改，並且在發生事故時可以輕鬆撤消。
 

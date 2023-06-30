@@ -178,7 +178,7 @@ Beachte, dass Private Browsing keine Cookies und Website-Daten speichert, sodass
 
 Die Synchronisierung von Safari-Verlauf, Tab-Gruppen, iCloud-Tabs und gespeicherten Kennwörtern erfolgt über E2EE. Standardmäßig sind die Lesezeichen jedoch [nicht](https://support.apple.com/en-us/HT202303) auf diese Weise geschützt. Apple kann sie entschlüsseln und in Übereinstimmung mit der [Datenschutzrichtlinie](https://www.apple.com/legal/privacy/en-ww/) darauf zugreifen.
 
-Du kannst E2EE für deine Safari-Lesezeichen und Downloads aktivieren, indem du [Advanced Data Protection](https://support.apple.com/en-us/HT212520) aktivierst. Go to your **Apple ID name → iCloud → Advanced Data Protection**.
+You can enable E2EE for your Safari bookmarks and downloads by enabling [Advanced Data Protection](https://support.apple.com/en-us/HT212520). Go to your **Apple ID name → iCloud → Advanced Data Protection**.
 
 - [x] Turn On **Advanced Data Protection**
 
