@@ -136,8 +136,6 @@ No iOS, qualquer aplicação que possa navegar na Web está [limitada](https://d
     
     O **Safari** é o navegador predefinido no iOS. Inclui [funcionalidades de privacidade] (https://support.apple.com/guide/iphone/browse-the-web-privately-iphb01fc3c85/15.0/ios/15.0), tais como [Previsão inteligente de rastreio] (https://webkit.org/blog/7675/intelligent-tracking-prevention/), Relatório de Privacidade, separadores de navegação privada isolados e efémeros, iCloud Private Relay e redução de impressões digitais, através da apresentação de uma versão simplificada da configuração do sistema aos sites, para que o miro número possível de dispositivos pareçam idênticos.
     
-    O Safari está limitado a dispositivos Apple e está coberto pela [Proteção de Integridade do Sistema] (https://support.apple.com/guide/security/system-integrity-protection-secb7ea06b49/web), uma funcionalidade de segurança que faz com que os programas e ficheiros do sistema sejam apenas de leitura, para que não possam ser alterados por si ou por malware.
-    
     [:octicons-home-16: Homepage](https://www.apple.com/safari/){ .md-button .md-button--primary }
     [:octicons-eye-16:](https://www.apple.com/legal/privacy/data/en/safari/){ .card-link title="Política de Privacidade" }
     [:octicons-info-16:](https://support.apple.com/guide/safari/welcome/mac){ .card-link title=Documentação}

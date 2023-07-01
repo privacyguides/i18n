@@ -149,7 +149,7 @@ IVPN [recomienda](https://www.ivpn.net/wireguard/) el uso de WireGuard con su se
 
 #### :material-alert-outline:{ .pg-orange } Reenvío Remoto de Puertos
 
-IVPN previously supported port forwarding, but removed the option in [June 2023](https://www.ivpn.net/blog/gradual-removal-of-port-forwarding). La ausencia de esta característica podría afectar negativamente a ciertas aplicaciones, especialmente a las aplicaciones peer-to-peer como los clientes torrent.
+Anteriormente, IVPN admitía el reenvío de puertos, pero eliminó la opción en [junio de 2023](https://www.ivpn.net/blog/gradual-removal-of-port-forwarding). La ausencia de esta característica podría afectar negativamente a ciertas aplicaciones, especialmente a las aplicaciones peer-to-peer como los clientes torrent.
 
 #### :material-check:{ .pg-green } Clientes Móviles
 
@@ -281,13 +281,13 @@ Una VPN no tiene sentido si ni siquiera puede proporcionar una seguridad adecuad
 **Mínimo para Calificar:**
 
 - Esquemas de cifrado fuertes: OpenVPN con autenticación SHA-256; RSA-2048 o mejor handshake; AES-256-CBC o cifrado de datos AES-256-GCM.
-- Forward Secrecy.
+- Secreto Hacia Adelante.
 - Auditorías de seguridad publicadas por una empresa externa de prestigio.
 
 **Mejor Caso:**
 
 - Cifrado más fuerte: RSA-4096.
-- Forward Secrecy.
+- Secreto Hacia Adelante.
 - Auditorías de seguridad exhaustivas publicadas por una empresa externa de prestigio.
 - Programas de recompensa de errores y/o un proceso coordinado de divulgación de vulnerabilidades.
 

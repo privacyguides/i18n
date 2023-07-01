@@ -134,8 +134,6 @@ Brave включает несколько инструментов защиты 
     
     **Safari** — браузер по умолчанию на iOS. Он включает в себя [функции конфиденциальности] (https://support.apple.com/ru-ru/guide/iphone/iphb01fc3c85/15.0/ios/15.0), такие как [Интеллектуальное предотвращение слежения] (https://webkit.org/blog/7675/intelligent-tracking-prevention/), Отчеты о конфиденциальности, изолированные и эфемерные вкладки частного доступа, частный узел iCloud, а также уменьшение цифровых отпечатков путем представления упрощенной версии конфигурации системы на веб-сайтах, чтобы больше устройств выглядели одинаково.
     
-    Safari предназначен только для устройств Apple и защищен [Защитой целостности системы](https://support.apple.com/ru-ru/guide/security/secb7ea06b49/web), функцией безопасности, которая ограничивает системные программы и файлы только для чтения, чтобы они не могли быть "испорчены" вами или вредоносным По.
-    
     [:octicons-home-16: Домашняя страница](https://www.apple.com/ru/safari/){ .md-button .md-button--primary }
     [:octicons-eye-16:](https://www.apple.com/ru/legal/privacy/data/ru/safari/){ .card-link title="Политика конфиденциальности" }
     [:octicons-info-16:](https://support.apple.com/ru-ru/guide/safari/welcome/mac){ .card-link title=Документация}

@@ -134,8 +134,6 @@ En iOS, cualquier aplicación que puede navegar en internet está [limitada](htt
     
     **Safari** es el navegador predeterminado en iOS. Incluye [funciones de privacidad](https://support.apple.com/guide/iphone/browse-the-web-privately-iphb01fc3c85/15.0/ios/15.0) como [Prevención de seguimiento inteligente](https://webkit.org/blog/7675/intelligent-tracking-prevention/), Informe de privacidad, pestañas de Navegación privada aisladas y efímeras, Retransmisión privada de iCloud y reducción de huellas digitales presentando una versión simplificada de la configuración del sistema a los sitios web para que más dispositivos parezcan idénticos.
     
-    Safari está limitado a los dispositivos Apple y está cubierto por [Protección de la Integridad del Sistema](https://support.apple.com/es-es/guide/security/system-integrity-protection-secb7ea06b49/web), una función de seguridad que limita los programas y archivos del sistema a sólo lectura para que no puedan ser manipulados por ti o por malware.
-    
     [:octicons-home-16: Página Principal](https://www.apple.com/safari/){ .md-button .md-button--primary }
     [:octicons-eye-16:](https://www.apple.com/legal/privacy/data/en/safari/){ .card-link title="Política de Privacidad" }
     [:octicons-info-16:](https://support.apple.com/guide/safari/welcome/mac){ .card-link title=Documentación}
@@ -178,7 +176,7 @@ Ten en cuenta que la Navegación Privada no guarda cookies ni datos de sitios we
 
 La sincronización del historial de Safari, los grupos de pestañas, las pestañas de iCloud y las contraseñas guardadas son E2EE. Sin embargo, por defecto, los marcadores [no](https://support.apple.com/en-us/HT202303) lo son. Apple puede descifrarlos y acceder a ellos de acuerdo con su [política de privacidad](https://www.apple.com/legal/privacy/en-ww/).
 
-You can enable E2EE for your Safari bookmarks and downloads by enabling [Advanced Data Protection](https://support.apple.com/en-us/HT212520). Vaya a su **Nombre de ID de Apple → iCloud → Protección de datos avanzada**.
+Puedes activar E2EE para tus favoritos y tus descargas de Safari activando [Protección de Datos Avanzada](https://support.apple.com/en-us/HT212520). Vaya a su **Nombre de ID de Apple → iCloud → Protección de datos avanzada**.
 
 - [x] Activa **Protección de datos avanzada**
 

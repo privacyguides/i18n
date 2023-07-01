@@ -134,8 +134,6 @@ Unter iOS [muss](https://developer.apple.com/app-store/review/guidelines) jede A
     
     **Safari** ist der Standard-Browser in iOS. It includes [privacy features](https://support.apple.com/guide/iphone/browse-the-web-privately-iphb01fc3c85/15.0/ios/15.0) such as [Intelligent Tracking Prevention](https://webkit.org/blog/7675/intelligent-tracking-prevention/), Privacy Report, isolated and ephemeral Private Browsing tabs, iCloud Private Relay, and fingerprinting reduction by presenting a simplified version of the system configuration to websites so more devices look identical.
     
-    Safari is restricted to Apple devices and is covered by [System Integrity Protection](https://support.apple.com/guide/security/system-integrity-protection-secb7ea06b49/web), a security feature which limits system programs and files to being read-only so they can't be tampered with by you or malware.
-    
     [:octicons-home-16: Webseite](https://www.apple.com/safari/){ .md-button .md-button--primary }
     [:octicons-eye-16:](https://www.apple.com/legal/privacy/data/en/safari/){ .card-link title="Safari & Datenschutz" }
     [:octicons-info-16:](https://support.apple.com/guide/safari/welcome/mac){ .card-link title=Documentation}

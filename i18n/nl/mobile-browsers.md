@@ -134,8 +134,6 @@ Op iOS is elke app die op het web kan surfen beperkt tot [](https://developer.ap
     
     **Safari** is de standaardbrowser in iOS. Het bevat [privacy functies](https://support.apple.com/guide/iphone/browse-web-privately-iphb01fc3c85/15.0/ios/15.0) zoals [Intelligent Tracking Prevention](https://webkit. rg/blog/7675/intelligent-tracking-preventie/), Privacy report, geïsoleerd privébrowsing tabbladen, iCloud Private Relay, en vermindering van vingerafdrukken door een vereenvoudigde versie van de systeemconfiguratie aan websites voor te leggen, zodat meer apparaten er identiek uitzien.
     
-    Safari is beperkt tot Apple-apparaten en wordt gedekt door [System Integrity Protection](https://support.apple.com/guide/security/system-integrity-protection-secb7ea06b49/web), een beveiligingsfunctie die systeemprogramma's en -bestanden beperkt tot read only (alleen lezen), zodat er niet door jou of malware mee geknoeid kan worden.
-    
     [:octicons-home-16: Homepage](https://www.apple.com/safari/){ .md-button .md-button--primary }
     [:octicons-eye-16:](https://www.apple.com/legal/privacy/data/en/safari/){ .card-link title="Privacybeleid" }
     [:octicons-info-16:](https://support.apple.com/guide/safari/welcome/mac){ .card-link title=Documentatie}

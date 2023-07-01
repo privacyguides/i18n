@@ -10,9 +10,9 @@ Se procura privacidade adicional **** para o seu ISP, quando usa uma rede Wi-Fi 
 
 <div class="grid cards" markdown>
 
-- ![Proton VPN logo](assets/img/vpn/protonvpn.svg){ .twemoji } [Proton VPN](#proton-vpn)
-- ![IVPN logo](assets/img/vpn/mini/ivpn.svg){ .twemoji } [IVPN](#ivpn)
-- ![Mullvad logo](assets/img/vpn/mullvad.svg){ .twemoji } [Mullvad](#mullvad)
+- ![Logótipo da Proton VPN](assets/img/vpn/protonvpn.svg){ .twemoji } [Proton VPN](#proton-vpn)
+- ![Logótipo da IVPN](assets/img/vpn/mini/ivpn.svg){ .twemoji } [IVPN](#ivpn)
+- ![Logótipo da Mullvad](assets/img/vpn/mullvad.svg){ .twemoji } [Mullvad](#mullvad)
 
 </div>
 
@@ -148,7 +148,7 @@ O IVPN [recomenda](https://www.ivpn.net/wireguard/) a utilização do WireGuard 
 
 #### :material-alert-outline:{ .pg-orange } Encaminhamento de porta remota
 
-IVPN previously supported port forwarding, but removed the option in [June 2023](https://www.ivpn.net/blog/gradual-removal-of-port-forwarding). A falta desta funcionalidade pode ter um impacto negativo em certas aplicações, especialmente nas aplicações ponto-a-ponto, como os clientes de torrent.
+A IVPN suportava anteriormente o reencaminhamento de portas, mas removeu a opção em [junho de 2023](https://www.ivpn.net/blog/gradual-removal-of-port-forwarding). A falta desta funcionalidade pode ter um impacto negativo em certas aplicações, especialmente nas aplicações ponto-a-ponto, como os clientes de torrent.
 
 #### :material-check:{ .pg-green } Clientes para dispositivos móveis
 

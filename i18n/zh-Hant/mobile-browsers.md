@@ -134,8 +134,6 @@ Shields 可以選擇根據需要依各網站情況降級，但我們建議預設
     
     **Safari** 是iOS 預設瀏覽器。 它包含 [隱私功能](https://support.apple.com/guide/iphone/browse-the-web-privately-iphb01fc3c85/15.0/ios/15.0) 例如 [Intelligent Tracking Prevention](https://webkit.org/blog/7675/intelligent-tracking-prevention/)、隱私報告、暫持隔離私密瀏覽標籤分頁、iCloud Private Relay 以及透過簡單設置來減除瀏覽器識別特徵好讓網頁無法查察設備突出特徵。
     
-    Safari 僅限於 Apple 設備，其具備[System Integrity Protection](https://support.apple.com/guide/security/system-integrity-protection-secb7ea06b49/web) 此安全功能會限制系統應用程式與檔案為唯讀才不致於遭到使用者或惡意軟體的篡改。
-    
     [:octicons-home-16: Homepage](https://www.apple.com/safari/){ .md-button .md-button--primary }
     [:octicons-eye-16:](https://www.apple.com/legal/privacy/data/en/safari/){ .card-link title="Privacy Policy" }
     [:octicons-info-16:](https://support.apple.com/guide/safari/welcome/mac){ .card-link title=Documentation}
