@@ -1,45 +1,45 @@
 ---
-title: "Account Deletion"
+title: "Eliminação de Contas"
 icon: 'material/account-remove'
-description: It's easy to accumulate a large number of internet accounts, here are some tips on how to prune your collection.
+description: É fácil acumular um grande número de contas na Internet. Eis algumas dicas sobre como reduzir a sua coleção.
 ---
 
-Over time, it can be easy to accumulate a number of online accounts, many of which you may no longer use. Deleting these unused accounts is an important step in reclaiming your privacy, as dormant accounts are vulnerable to data breaches. A data breach is when a service's security is compromised and protected information is viewed, transmitted, or stolen by unauthorized actors. Data breaches are unfortunately all [too common](https://haveibeenpwned.com/PwnedWebsites) these days, and so practicing good digital hygiene is the best way to minimize the impact they have on your life. The goal of this guide then is to help navigate you through the irksome process of account deletion, often made difficult by [deceptive design](https://www.deceptive.design/), for the betterment of your online presence.
+Com o passar do tempo, pode ser fácil acumular uma série de contas em linha, muitas das quais podem já não ser utilizadas. A eliminação destas contas não utilizadas é um passo importante para recuperar a sua privacidade, uma vez que as contas inativas são vulneráveis a violações de dados. Uma violação de dados ocorre quando a segurança de um serviço é comprometida e as informações protegidas são visualizadas, transmitidas ou roubadas por pessoas não autorizadas. Infelizmente, as violações de dados são [demasiado comuns](https://haveibeenpwned.com/PwnedWebsites) atualmente, pelo que praticar uma boa higiene digital é a melhor forma de minimizar o impacto tido na sua vida. O objetivo deste guia é ajudá-lo a navegar pelo processo incómodo de eliminação de contas, muitas vezes dificultado pelo [design enganador](https://www.deceptive.design/), para melhorar a sua presença online.
 
-## Finding Old Accounts
+## Encontrar Contas Antigas
 
-### Password Manager
+### Gestor de Palavras-Passe
 
-If you have a password manager that you've used for your entire digital life, this part will be very easy. Oftentimes, they include built-in functionality for detecting if your credentials were exposed in a data breach—such as Bitwarden's [Data Breach Report](https://bitwarden.com/blog/have-you-been-pwned/).
+Se tiver um gestor de palavras-passe que tenha utilizado durante toda a sua vida digital, esta parte será muito fácil. Muitas vezes, incluem funcionalidades incorporadas para detetar se as suas credenciais foram expostas numa violação de dados — como o Relatório de violação de dados [da Bitwarden](https://bitwarden.com/blog/have-you-been-pwned/).
 
 <figure markdown>
-  ![Bitwarden's Data Breach Report feature](../assets/img/account-deletion/exposed_passwords.png)
+  ![Funcionalidade do Relatório de Violação de Dados da Bitwarden](../assets/img/account-deletion/exposed_passwords.png)
 </figure>
 
-Even if you haven't explicitly used a password manager before, there's a chance you've used the one in your browser or your phone without even realizing it. For example: [Firefox Password Manager](https://support.mozilla.org/kb/password-manager-remember-delete-edit-logins), [Google Password Manager](https://passwords.google.com/intro) and [Edge Password Manager](https://support.microsoft.com/en-us/microsoft-edge/save-or-forget-passwords-in-microsoft-edge-b4beecb0-f2a8-1ca0-f26f-9ec247a3f336).
+Mesmo que nunca tenha utilizado explicitamente um gestor de palavras-passe, é provável que já o tenha feito no seu navegador ou no seu telemóvel sem se aperceber. Por exemplo: [Gestor de Palavras-Passe da Google](https://support.mozilla.org/kb/password-manager-remember-delete-edit-logins), [Gestor de Palavras-Passe da Google](https://passwords.google.com/intro) e [Gestor de Palavras-Passe da Google](https://support.microsoft.com/en-us/microsoft-edge/save-or-forget-passwords-in-microsoft-edge-b4beecb0-f2a8-1ca0-f26f-9ec247a3f336).
 
-Desktop platforms also often have a password manager which may help you recover passwords you've forgotten about:
+As plataformas de ambiente de trabalho também têm frequentemente um gestor de palavras-passe que pode ajudá-lo a recuperar palavras-passe esquecidas:
 
-- Windows [Credential Manager](https://support.microsoft.com/en-us/windows/accessing-credential-manager-1b5c916a-6a16-889f-8581-fc16e8165ac0)
-- macOS [Passwords](https://support.apple.com/en-us/HT211145)
-- iOS [Passwords](https://support.apple.com/en-us/HT211146)
+- [Gestor de Credenciais](https://support.microsoft.com/en-us/windows/accessing-credential-manager-1b5c916a-6a16-889f-8581-fc16e8165ac0) Windows
+- [Palavras-passe](https://support.apple.com/en-us/HT211145) macOS
+- [Palavras-passe](https://support.apple.com/en-us/HT211146) iOS
 - Linux, Gnome Keyring, que pode ser acedido através de [Seahorse](https://wiki.gnome.org/Apps/Seahorse) ou [KDE Wallet Manager](https://userbase.kde.org /KDE_Wallet_Manager)
 
-### E-mail
+### Correio eletrónico
 
-If you didn't use a password manager in the past or you think you have accounts that were never added to your password manager, another option is to search the email account(s) that you believe you signed up on. On your email client, search for keywords such as "verify" or "welcome." Almost every time you make an online account, the service will send a verification link or an introductory message to your email. This can be a good way to find old, forgotten accounts.
+Se não utilizou um gestor de palavras-passe no passado ou se pensa que tem contas que nunca foram adicionadas ao seu gestor de palavras-passe, outra opção é pesquisar a(s) conta(s) de correio eletrónico em que pensa ter-se registado. No seu cliente de correio eletrónico, procure palavras-chave como "verificar" ou "bem-vindo." Quase sempre que cria uma conta em linha, o serviço envia uma ligação de verificação ou uma mensagem introdutória para o seu correio eletrónico. Esta pode ser uma boa forma de encontrar contas antigas e esquecidas.
 
-## Deleting Old Accounts
+## Eliminar Contas Antigas
 
-### Log In
+### Iniciar Sessão
 
-In order to delete your old accounts, you'll need to first make sure you can log in to them. Again, if the account was in your password manager, this step is easy. If not, you can try to guess your password. Failing that, there are typically options to regain access to your account, commonly available through a "forgot password" link on the login page. It may also be possible that accounts you've abandoned have already been deleted—sometimes services prune all old accounts.
+Para eliminar as contas antigas, tem de se certificar primeiro de que pode iniciar sessão nas mesmas. Mais uma vez, se a conta estava no seu gestor de palavras-passe, este passo é fácil. Caso contrário, pode tentar adivinhar a sua palavra-passe. Caso contrário, normalmente existem opções para recuperar o acesso à sua conta, normalmente disponíveis através de uma ligação "esqueci-me da palavra-passe" na página de início de sessão. Também pode ser possível que as contas que abandonou já tenham sido eliminadas — por vezes, os serviços eliminam todas as contas antigas.
 
-When attempting to regain access, if the site returns an error message saying that email is not associated with an account, or you never receive a reset link after multiple attempts, then you do not have an account under that email address and should try a different one. If you can't figure out which email address you used, or you no longer have access to that email, you can try contacting the service's customer support. Unfortunately, there is no guarantee that you will be able to reclaim access your account.
+Ao tentar recuperar o acesso, se o sítio web devolver uma mensagem de erro a indicar que o endereço de correio eletrónico não está associado a uma conta, ou se nunca receber uma ligação de reposição após várias tentativas, então não tem uma conta com esse endereço de correio eletrónico e deve tentar um endereço diferente. Se não conseguir descobrir qual o endereço de correio eletrónico que utilizou, ou se já não tiver acesso a esse correio eletrónico, pode tentar contactar o apoio ao cliente do serviço. Infelizmente, não existe nenhuma garantia de que conseguirá recuperar o acesso à sua conta.
 
-### GDPR (EEA residents only)
+### RGPD (somente residentes no EEE)
 
-Residents of the EEA have additional rights regarding data erasure specified in [Article 17](https://www.gdpr.org/regulation/article-17.html) of the GDPR. If it's applicable to you, read the privacy policy for any given service to find information on how to exercise your right to erasure. Reading the privacy policy can prove important, as some services have a "Delete Account" option that only disables your account and for real deletion you have to take additional action. Sometimes actual deletion may involve filling out surveys, emailing the data protection officer of the service or even proving your residence in the EEA. If you plan to go this way, do **not** overwrite account information—your identity as an EEA resident may be required. Note that the location of the service does not matter; GDPR applies to anyone serving European users. If the service does not respect your right to erasure, you can contact your national [Data Protection Authority](https://ec.europa.eu/info/law/law-topic/data-protection/reform/rights-citizens/redress/what-should-i-do-if-i-think-my-personal-data-protection-rights-havent-been-respected_en) and you may be entitled to monetary compensation.
+Os residentes do EEE têm direitos adicionais relativamente à eliminação de dados especificados em [Artigo 17](https://www.gdpr.org/regulation/article-17.html) do RGPD. Se for aplicável ao seu caso, leia a política de privacidade de um determinado serviço para obter informações sobre como exercer o seu direito ao apagamento. A leitura da política de privacidade pode revelar-se importante, uma vez que alguns serviços têm uma opção "Eliminar conta" que apenas desativa a sua conta e, para uma verdadeira eliminação, tem de tomar medidas adicionais. Sometimes actual deletion may involve filling out surveys, emailing the data protection officer of the service or even proving your residence in the EEA. If you plan to go this way, do **not** overwrite account information—your identity as an EEA resident may be required. Note that the location of the service does not matter; GDPR applies to anyone serving European users. If the service does not respect your right to erasure, you can contact your national [Data Protection Authority](https://ec.europa.eu/info/law/law-topic/data-protection/reform/rights-citizens/redress/what-should-i-do-if-i-think-my-personal-data-protection-rights-havent-been-respected_en) and you may be entitled to monetary compensation.
 
 ### Overwriting Account information
 

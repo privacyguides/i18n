@@ -1,79 +1,79 @@
 ---
-meta_title: "How to Create Internet Accounts Privately - Privacy Guides"
-title: "Account Creation"
+meta_title: "Como Criar Contas Na Internet Privadamente - Privacy Guides"
+title: "Criação de Contas"
 icon: 'material/account-plus'
-description: Creating accounts online is practically an internet necessity, take these steps to make sure you stay private.
+description: A criação de contas online é praticamente uma necessidade da Internet, siga estes passos para garantir a sua privacidade.
 ---
 
-Often people sign up for services without thinking. Maybe it's a streaming service so you can watch that new show everyone's talking about, or an account that gives you a discount for your favorite fast food place. Whatever the case may be, you should consider the implications for your data now and later on down the line.
+Muitas vezes, as pessoas inscrevem-se em serviços sem pensar. Talvez seja um serviço de streaming para poder ver aquela nova série de que todos falam, ou uma conta que lhe dá um desconto no seu restaurante de fast food favorito. Seja qual for o caso, deve considerar as implicações para os seus dados agora e mais tarde.
 
-There are risks associated with every new service that you use. Data breaches; disclosure of customer information to third parties; rogue employees accessing data; all are possibilities that must be considered when giving your information out. You need to be confident that you can trust the service, which is why we don't recommend storing valuable data on anything but the most mature and battle-tested products. That usually means services which provide E2EE and have undergone a cryptographic audit. An audit increases assurance that the product was designed without glaring security issues caused by an inexperienced developer.
+Há riscos associados a cada novo serviço que utiliza. Violações de dados; divulgação de informações de clientes a terceiros; acesso de funcionários desonestos aos dados; todas estas são possibilidades que devem ser tidas em conta ao se divulgarem informações. É necessário ter a certeza de que pode confiar no serviço, razão pela qual não recomendamos o armazenamento de dados valiosos em nada que não seja os produtos mais maduros e testados. Isto significa, normalmente, serviços que fornecem E2EE e que foram submetidos a uma auditoria criptográfica. Uma auditoria aumenta a garantia de que o produto foi concebido sem problemas de segurança evidentes causados por um programador inexperiente.
 
-It can also be difficult to delete the accounts on some services. Sometimes [overwriting data](account-deletion.md#overwriting-account-information) associated with an account can be possible, but in other cases the service will keep an entire history of changes to the account.
+Também pode ser difícil apagar as contas em alguns serviços. Por vezes, [substituir os dados](account-deletion.md#overwriting-account-information) associados a uma conta é possível, mas noutros casos o serviço manterá um histórico completo das alterações à conta.
 
-## Terms of Service & Privacy Policy
+## Termos de Serviço e Política de Privacidade
 
-The ToS are the rules that you agree to follow when using the service. With larger services these rules are often enforced by automated systems. Sometimes these automated systems can make mistakes. For example, you may be banned or locked out of your account on some services for using a VPN or VOIP number. Appealing such bans is often difficult, and involves an automated process too, which isn't always successful. This would be one of the reasons why we wouldn't suggest using Gmail for email as an example. Email is crucial for access to other services you might have signed up for.
+Os ToS são as regras que aceita seguir quando utiliza o serviço. Nos serviços de maior dimensão, estas regras são frequentemente aplicadas por sistemas automatizados. Por vezes, estes sistemas automatizados podem cometer erros. Por exemplo, pode ser banido ou bloqueado da sua conta em alguns serviços por utilizar uma VPN, ou VOIP. O recurso a estas proibições é muitas vezes difícil e envolve também um processo automatizado, que nem sempre é bem-sucedido. Esta é uma das razões pelas quais não sugerimos a utilização do Gmail para correio eletrónico, por exemplo. O correio eletrónico é crucial para o acesso a outros serviços em que se tenha inscrito.
 
-The Privacy Policy is how the service says they will use your data and it is worth reading so that you understand how your data will be used. A company or organization might not be legally obligated to follow everything contained in the policy (it depends on the jurisdiction). We would recommend having some idea what your local laws are and what they permit a provider to collect.
+A Política de Privacidade é como o serviço diz que irá utilizar os seus dados e vale a pena lê-la para compreender como os seus dados serão utilizados. Uma empresa ou organização pode não ser legalmente obrigada a seguir tudo o que está contido na política (depende da jurisdição). Recomendamos que tenha uma ideia das leis locais e do que estas permitem que um fornecedor recolha.
 
-We recommend looking for particular terms such as "data collection", "data analysis", "cookies", "ads" or "3rd-party" services. Sometimes you will be able to opt-out from data collection or from sharing your data, but it is best to choose a service that respects your privacy from the start.
+Recomendamos que procure termos específicos como "recolha de dados", "análise de dados", "cookies", "anúncios" ou serviços "de terceiros". Por vezes, pode optar por não participar na recolha de dados ou na partilha dos seus dados, mas é melhor escolher um serviço que respeite a sua privacidade desde o início.
 
-Keep in mind you're also placing your trust in the company or organization and that they will comply with their own privacy policy.
+Não se esqueça de que também está a depositar a sua confiança na empresa ou organização e que esta irá cumprir a sua própria política de privacidade.
 
-## Authentication methods
+## Métodos de autenticação
 
-There are usually multiple ways to sign up for an account, each with their own benefits and drawbacks.
+Normalmente, existem várias formas de registar uma conta, cada uma com as suas próprias vantagens e desvantagens.
 
-### Email and password
+### Correio eletrónico + palavra-passe
 
-The most common way to create a new account is by an email address and password. When using this method, you should use a password manager and follow [best practices](passwords-overview.md) regarding passwords.
+A forma mais comum de criar uma nova conta é por um endereço de correio eletrónico e de uma palavra-passe. Ao utilizar este método, deve utilizar um gestor de palavras-passe e seguir as [melhores práticas](passwords-overview.md) relativamente a palavras-passe.
 
 !!! aviso
-     Backup `BitLocker-Recovery-Key.txt` em um dispositivo de armazenamento separado.
+ Backup `BitLocker-Recovery-Key. txt` em um dispositivo de armazenamento separado
 
-    You can use your password manager to organize other authentication methods too! Just add the new entry and fill the appropriate fields, you can add notes for things like security questions or a backup key.
+    Também pode utilizar o seu gestor de palavra-passes para organizar outros métodos de autenticação! Basta adicionar a nova entrada e preencher os campos adequados, pode adicionar notas para coisas como perguntas de segurança ou uma chave de segurança.
 
-You will be responsible for managing your login credentials. For added security, you can set up [MFA](multi-factor-authentication.md) on your accounts.
+Será responsável pela gestão das suas credenciais de início de sessão. Para maior segurança, pode configurar [MFA](multi-factor-authentication.md) nas suas contas.
 
-[Recommended password managers](../passwords.md ""){.md-button}
+[Gestores de palavras-passe recomendados](../passwords.md ""){.md-button}
 
-#### Email aliases
+#### Aliases de correio eletrónico
 
-If you don't want to give your real email address to a service, you have the option to use an alias. We described them in more detail on our email services recommendation page. Essentially, alias services allow you to generate new email addresses that forward all emails to your main address. This can help prevent tracking across services and help you manage the marketing emails that sometimes come with the sign up process. Those can be filtered automatically based on the alias they are sent to.
+Se não quiser fornecer o seu verdadeiro endereço de correio eletrónico a um serviço, tem a opção de utilizar um pseudónimo. Descrevemos los com mais pormenor na nossa página de recomendações de serviços de correio eletrónico. Essencialmente, os serviços de alias permitem-lhe gerar novos endereços de correio eletrónico que reencaminham todas as mensagens para o seu endereço principal. Isto pode ajudar a evitar o rastreio entre serviços e ajudá-lo a gerir as mensagens eletrónicas de marketing que, por vezes, acompanham o processo de registo. Estes podem ser filtrados automaticamente com base no pseudónimo para o qual são enviados.
 
-Should a service get hacked, you might start receiving phishing or spam emails to the address you used to sign up. Using unique aliases for each service can assist in identifying exactly what service was hacked.
+Se um serviço for comprometido, pode começar a receber mensagens eletrónicas de phishing ou spam no endereço que utilizou para se registar. A utilização de aliases únicos para cada serviço pode ajudar a identificar exatamente qual o serviço comprometido.
 
-[Recommended email aliasing services](../email.md#email-aliasing-services ""){.md-button}
+[Serviços de aliasing de correio eletrónico recomendados](../email.md#email-aliasing-services ""){.md-button}
 
-### "Sign in with..." (OAuth)
+### "Iniciar a sessão com..." (OAuth)
 
-OAuth is an authentication protocol that allows you to register for a service without sharing much information with the service provider, if any, by using an existing account you have with another service instead. Whenever you see something along the lines of "Sign in with *provider name*" on a registration form, it's typically using OAuth.
+A OAuth é um protocolo de autenticação que permite registar-se num serviço sem partilhar muitas informações com o fornecedor do serviço, se for caso disso, utilizando uma conta existente noutro serviço. Sempre que vir algo como "Inicie sessão com o nome do fornecedor **" num formulário de registo, normalmente utiliza o OAuth.
 
-When you sign in with OAuth, it will open a login page with the provider you choose, and your existing account and new account will be connected. Your password won't be shared, but some basic information typically will (you can review it during the login request). This process is needed every time you want to log in to the same account.
+Quando iniciar sessão com o OAuth, será aberta uma página de início de sessão com o fornecedor que escolher, e a sua conta existente e a nova conta serão ligadas. A sua palavra-passe não será partilhada, mas algumas informações básicas serão normalmente partilhadas (pode revê-las durante o pedido de início de sessão). Este processo é necessário sempre que se pretende iniciar sessão na mesma conta.
 
-The main advantages are:
+As principais vantagens são:
 
-- **Security**: no risk of being involved in a [data breach](https://en.wikipedia.org/wiki/Data_breach) because the website does not store your credentials.
-- **Ease of use**: multiple accounts are managed by a single login.
+- **Segurança**: não há risco de estar envolvido numa violação de dados [](https://en.wikipedia.org/wiki/Data_breach) porque o sítio web não armazena as suas credenciais.
+- **Facilidade de utilização**: várias contas são geridas por um único início de sessão.
 
-But there are disadvantages:
+Mas há desvantagens:
 
-- **Privacy**: the OAuth provider you log in with will know the services you use.
-- **Centralization**: if the account you use for OAuth is compromised or you aren't able to login to it, all other accounts connected to it are affected.
+- **Privacidade**: o fornecedor OAuth com o qual inicia sessão conhecerá os serviços que utiliza.
+- **Centralização**: se a conta que utiliza para o OAuth for comprometida ou se não conseguir iniciar sessão nela, todas as outras contas ligadas a essa conta são afetadas.
 
-OAuth authentication can be especially useful in those situations where you could benefit from deeper integration between services. Our recommendation is to limit using OAuth to only where you need it, and always protect the main account with [MFA](multi-factor-authentication.md).
+A autenticação OAuth pode ser especialmente útil nas situações em que pode beneficiar de uma integração mais profunda entre serviços. A nossa recomendação é limitar a utilização do OAuth apenas onde for necessário e proteger sempre a conta principal com [MFA](multi-factor-authentication.md).
 
-All the services that use OAuth will be as secure as your underlying provider's account. For example, if you want to secure an account with a hardware key, but that service doesn't support hardware keys, you can secure the account you use with OAuth with a hardware key instead, and now you essentially have hardware MFA on all your accounts. It is worth noting though that weak authentication on your OAuth provider account means that any account tied to that login will also be weak.
+Todos os serviços que utilizam o OAuth serão tão seguros como a conta do seu fornecedor subjacente. Por exemplo, se quiser proteger uma conta com uma chave de hardware, mas esse serviço não suportar chaves de hardware, pode proteger a conta que utiliza com o OAuth com uma chave de hardware, e agora tem essencialmente MFA de hardware em todas as suas contas. No entanto, vale a pena notar que uma autenticação fraca na sua conta de fornecedor OAuth significa que qualquer conta associada a esse início de sessão também será fraca.
 
-### Phone number
+### Número de telemóvel
 
-We recommend avoiding services that require a phone number for sign up. A phone number can identity you across multiple services and depending on data sharing agreements this will make your usage easier to track, particularly if one of those services is breached as the phone number is often **not** encrypted.
+Recomendamos que evite serviços que exijam um número de telefone para se registar. Um número de telefone pode identificá-lo em vários serviços e, dependendo dos acordos de partilha de dados, facilitará o rastreio da sua utilização, especialmente se um desses serviços for violado, dado que o número de telefone é frequentemente **e não** encriptado.
 
-You should avoid giving out your real phone number if you can. Some services will allow the use of VOIP numbers, however these often trigger fraud detection systems, causing an account to be locked down, so we don't recommend that for important accounts.
+Se possível, deve evitar dar o seu número de telefone verdadeiro. Alguns serviços permitem a utilização de números VOIP, no entanto, estes acionam frequentemente sistemas de deteção de fraudes, fazendo com que uma conta seja bloqueada, pelo que não recomendamos a sua utilização para contas importantes.
 
-In many cases you will need to provide a number that you can receive SMS or calls from, particularly when shopping internationally, in case there is a problem with your order at border screening. It's common for services to use your number as a verification method; don't let yourself get locked out of an important account because you wanted to be clever and give a fake number!
+Em muitos casos, é necessário fornecer um número a partir do qual possa receber SMS ou chamadas, especialmente em compras internacionais, para o caso de haver um problema com a sua encomenda no controlo fronteiriço. É comum os serviços utilizarem o seu número como método de verificação; não se deixe bloquear numa conta importante porque quis ser esperto e dar um número falso!
 
-### Username and password
+### Nome de utilizador e palavra-passe
 
-Some services allow you to register without using an email address and only require you to set a username and password. These services may provide increased anonymity when combined with a VPN or Tor. Keep in mind that for these accounts there will most likely be **no way to recover your account** in the event you forget your username or password.
+Alguns serviços permitem-lhe registar-se sem utilizar um endereço de correio eletrónico e apenas lhe exigem a definição de um nome de utilizador e de uma palavra-passe. Estes serviços podem proporcionar um maior anonimato quando combinados com uma VPN ou Tor. Tenha em atenção que, para estas contas, é muito provável que não haja **forma de recuperar a sua conta** caso se esqueça do seu nome de utilizador ou palavra-passe.

@@ -181,16 +181,16 @@ Canary Mail имеет закрытый исходный код. Мы реком
 
 !!! recommendation
 
-    ![Mailvelope logo](assets/img/email-clients/mailvelope.svg){ align=right }
+    ![Логотип Mailvelope](assets/img/email-clients/mailvelope.svg){ align=right }
     
-    **Mailvelope** is a browser extension that enables the exchange of encrypted emails following the OpenPGP encryption standard.
+    **Mailvelope** - это расширение для браузера, позволяющее обмениваться зашифрованными электронными письмами в соответствии со стандартом шифрования OpenPGP.
     
-    [:octicons-home-16: Homepage](https://www.mailvelope.com){ .md-button .md-button--primary }
-    [:octicons-eye-16:](https://www.mailvelope.com/en/privacy-policy){ .card-link title="Privacy Policy" }
-    [:octicons-info-16:](https://mailvelope.com/faq){ .card-link title=Documentation}
-    [:octicons-code-16:](https://github.com/mailvelope/mailvelope){ .card-link title="Source Code" }
+    [:octicons-home-16: Домашняя страница](https://www.mailvelope.com){ .md-button .md-button--primary }
+    [:octicons-eye-16:](https://www.mailvelope.com/en/privacy-policy){ .card-link title="Политика конфиденциальности" }
+    [:octicons-info-16:](https://mailvelope.com/faq){ .card-link title=Документация}
+    [:octicons-code-16:](https://github.com/mailvelope/mailvelope){ .card-link title="Исходный код" }
     
-    ??? downloads
+    ??? downloads "Скачать"
     
         - [:simple-firefoxbrowser: Firefox](https://addons.mozilla.org/firefox/addon/mailvelope)
         - [:simple-googlechrome: Chrome](https://chrome.google.com/webstore/detail/mailvelope/kajibbejlbohfaggdiogboambcijhkke)
@@ -200,18 +200,18 @@ Canary Mail имеет закрытый исходный код. Мы реком
 
 !!! recommendation
 
-    ![NeoMutt logo](assets/img/email-clients/mutt.svg){ align=right }
+    ![Логотип NeoMutt](assets/img/email-clients/mutt.svg){ align=right }
     
-    **NeoMutt** is an open-source command line mail reader (or MUA) for Linux and BSD. It's a fork of [Mutt](https://en.wikipedia.org/wiki/Mutt_(email_client)) with added features.
+    **NeoMutt** - это читалка почты (или MUA) для командной строки с открытым исходным кодом для Linux и BSD. Это форк [Mutt](https://en.wikipedia.org/wiki/Mutt_(email_client)) с добавленными возможностями.
     
-    NeoMutt is a text-based client that has a steep learning curve. It is however, very customizable.
+    Neomut - это текстовый клиент, которым сложно научиться пользоваться. Тем не менее он очень кастомизируемый.
     
-    [:octicons-home-16: Homepage](https://neomutt.org){ .md-button .md-button--primary }
-    [:octicons-info-16:](https://neomutt.org/guide/){ .card-link title=Documentation}
-    [:octicons-code-16:](https://github.com/neomutt/neomutt){ .card-link title="Source Code" }
-    [:octicons-heart-16:](https://www.paypal.com/paypalme/russon/){ .card-link title=Contribute }
+    [:octicons-home-16: Домашняя страница](https://neomutt.org){ .md-button .md-button--primary }
+    [:octicons-info-16:](https://neomutt.org/guide/){ .card-link title=Документация}
+    [:octicons-code-16:](https://github.com/neomutt/neomutt){ .card-link title="Исходный код" }
+    [:octicons-heart-16:](https://www.paypal.com/paypalme/russon/){ .card-link title=Поддержать }
     
-    ??? downloads
+    ??? downloads "Скачать"
     
         - [:simple-apple: macOS](https://neomutt.org/distro)
         - [:simple-linux: Linux](https://neomutt.org/distro)
@@ -227,15 +227,15 @@ Canary Mail имеет закрытый исходный код. Мы реком
 ### Минимальные требования
 
 - Приложения, разработанные для операционных систем с открытым исходным кодом, должны быть с открытым исходным кодом.
-- Must not collect telemetry, or have an easy way to disable all telemetry.
-- Must support OpenPGP message encryption.
+- Не должны собирать телеметрию или должен быть простой способ её отключить.
+- Должны поддерживать шифрование сообщений OpenPGP.
 
 ### В лучшем случае
 
 Эти критерии представляют собой то, что мы хотели бы видеть от идеального проекта в этой категории. Наши рекомендации могут не соответствовать всем или нескольким из этих критериев, но проекты, которые им соответствуют, расположены выше остальных.
 
-- Should be open-source.
-- Should be cross-platform.
-- Should not collect any telemetry by default.
-- Should support OpenPGP natively, i.e. without extensions.
-- Should support storing OpenPGP encrypted emails locally.
+- Должны иметь открытый исходный код.
+- Должны быть кроссплатформенными.
+- По умолчанию не должны собирать телеметрию.
+- Должны нативно поддерживать OpenPGP, т.е. без расширений.
+- Должны поддерживать локальное хранение писем, зашифрованных OpenPGP.

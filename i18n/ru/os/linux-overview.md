@@ -1,32 +1,32 @@
 ---
-title: Linux Overview
+title: Обзор Linux
 icon: fontawesome/brands/linux
-description: Linux is an open-source, privacy-focused desktop operating system alternative, but not all distribitions are created equal.
+description: Linux - это альтернативная настольная операционная система с открытым исходным кодом, ориентированная на конфиденциальность, но не все дистрибутивы созданы одинаково.
 ---
 
-It is often believed that [open-source](https://en.wikipedia.org/wiki/Open-source_software) software is inherently secure because the source code is available. There is an expectation that community verification occurs regularly; however, this isn’t always [the case](https://seirdy.one/posts/2022/02/02/floss-security/). It does depend on a number of factors, such as project activity, developer experience, level of rigor applied to [code reviews](https://en.wikipedia.org/wiki/Code_review), and how often attention is given to specific parts of the [codebase](https://en.wikipedia.org/wiki/Codebase) that may go untouched for years.
+Часто считается, что программное обеспечение с [открытым исходным кодом](https://en.wikipedia.org/wiki/Open-source_software) по своей сути безопасно, поскольку исходный код доступен. Существует ожидание, что проверка сообщества происходит регулярно; однако это [не всегда так](https://seirdy.one/posts/2022/02/02/floss-security/). Это зависит от ряда факторов, таких как активность проекта, опыт разработчиков, уровень строгости, применяемый в [обзорах кода](https://en.wikipedia.org/wiki/Code_review), и как часто уделяется внимание определенным частям [кодовой базы](https://en.wikipedia.org/wiki/Codebase), которые могут оставаться нетронутыми годами.
 
-At the moment, desktop Linux does have some areas that could be better improved when compared to their proprietary counterparts, e.g.:
+На данный момент в настольном Linux есть некоторые области, которые можно улучшить при сравнении с проприетарными аналогами, например:
 
-- A verified boot chain, like Apple’s [Secure Boot](https://support.apple.com/guide/security/startup-security-utility-secc7b34e5b5/web) (with [Secure Enclave](https://support.apple.com/guide/security/secure-enclave-sec59b0b31ff/1/web/1)), Android’s [Verified Boot](https://source.android.com/security/verifiedboot), ChromeOS' [Verified boot](https://www.chromium.org/chromium-os/chromiumos-design-docs/security-overview/#verified-boot), or Microsoft Windows’s [boot process](https://docs.microsoft.com/en-us/windows/security/information-protection/secure-the-windows-10-boot-process) with [TPM](https://docs.microsoft.com/en-us/windows/security/information-protection/tpm/how-windows-uses-the-tpm). These features and hardware technologies can all help prevent persistent tampering by malware or [evil maid attacks](https://en.wikipedia.org/wiki/Evil_Maid_attack)
-- A strong sandboxing solution such as that found in [macOS](https://developer.apple.com/library/archive/documentation/Security/Conceptual/AppSandboxDesignGuide/AboutAppSandbox/AboutAppSandbox.html), [ChromeOS](https://chromium.googlesource.com/chromiumos/docs/+/HEAD/sandboxing.md), and [Android](https://source.android.com/security/app-sandbox). Commonly used Linux sandboxing solutions such as [Flatpak](https://docs.flatpak.org/en/latest/sandbox-permissions.html) and [Firejail](https://firejail.wordpress.com/) still have a long way to go
-- Strong [exploit mitigations](https://madaidans-insecurities.github.io/linux.html#exploit-mitigations)
+- Проверенная загрузка, например, [безопасная загрузка](https://support.apple.com/ru-ru/guide/security/secc7b34e5b5/web) от Apple (с [Secure Enclave](https://support.apple.com/ru-ru/guide/security/sec59b0b31ff/1/web/1)), [проверенная загрузка](https://source.android.com/security/verifiedboot) в Android, [Verified boot](https://www.chromium.org/chromium-os/chromiumos-design-docs/security-overview/#verified-boot) в ChromeOS или [защита процесса загрузки](https://learn.microsoft.com/ru-ru/windows/security/operating-system-security/system-security/secure-the-windows-10-boot-process) с [TPM](https://learn.microsoft.com/ru-ru/windows/security/information-protection/tpm/how-windows-uses-the-tpm) в Microsoft Windows. Все эти функции и аппаратные технологии могут помочь предотвратить постоянное вмешательство вредоносных программ или предотвратить [атаки злой горничной](https://encyclopedia.kaspersky.ru/glossary/evil-maid/)
+- Сильная "песочница", такая как в [macOS](https://developer.apple.com/library/archive/documentation/Security/Conceptual/AppSandboxDesignGuide/AboutAppSandbox/AboutAppSandbox.html), [ChromeOS](https://chromium.googlesource.com/chromiumos/docs/+/HEAD/sandboxing.md), и [Android](https://source.android.com/security/app-sandbox). Широко используемые решения для создания песочниц в Linux, например [Flatpak](https://docs.flatpak.org/en/latest/sandbox-permissions.html) и [Firejail](https://firejail.wordpress.com/), все еще требуют много улучшений
+- Сильные [средства защиты от эксплойтов](https://madaidans-insecurities.github.io/linux.html#exploit-mitigations)
 
-Despite these drawbacks, desktop Linux distributions are great if you want to:
+Несмотря на эти недостатки, настольные дистрибутивы Linux отлично вам подойдут, если вы хотите:
 
-- Avoid telemetry that often comes with proprietary operating systems
-- Maintain [software freedom](https://www.gnu.org/philosophy/free-sw.en.html#four-freedoms)
-- Have privacy focused systems such as [Whonix](https://www.whonix.org) or [Tails](https://tails.boum.org/)
+- Избежать телеметрии, которая часто поставляется с проприетарными операционными системами
+- Поддержать [свободу программного обеспечения](https://www.gnu.org/philosophy/free-sw.en.html#four-freedoms)
+- Использовать системы, ориентированные на конфиденциальность, такие как [Whonix](https://www.whonix.org) или [Tails](https://tails.boum.org/index.ru.html)
 
-Our website generally uses the term “Linux” to describe desktop Linux distributions. Other operating systems which also use the Linux kernel such as ChromeOS, Android, and Qubes OS are not discussed here.
+На нашем сайте термин "Linux" обычно используется для описания дистрибутивов Linux для настольных компьютеров. Другие операционные системы, которые также используют ядро Linux (ChromeOS, Android и Qubes OS) здесь не рассматриваются.
 
-[Our Linux Recommendations :material-arrow-right-drop-circle:](../desktop.md ""){.md-button}
+[Наши рекомендации Linux :material-arrow-right-drop-circle:](../desktop.md ""){.md-button}
 
-## Choosing your distribution
+## Выбор дистрибутива
 
 Not all Linux distributions are created equal. While our Linux recommendation page is not meant to be an authoritative source on which distribution you should use, there are a few things you should keep in mind when choosing which distribution to use.
 
-### Release cycle
+### Цикл релиза
 
 We highly recommend that you choose distributions which stay close to the stable upstream software releases, often referred to as rolling release distributions. This is because frozen release cycle distributions often don’t update package versions and fall behind on security updates.
 
@@ -38,7 +38,7 @@ We don’t believe holding packages back and applying interim patches is a good 
   <iframe width="560" height="315" src="https://invidious.privacyguides.net/embed/i8c0mg_mS7U?local=true" title="Regular Releases are Wrong, Roll for your life" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 </div>
 
-### Traditional vs Atomic updates
+### Традиционные vs атомные обновления
 
 Traditionally, Linux distributions update by sequentially updating the desired packages. Traditional updates such as those used in Fedora, Arch Linux, and Debian based distributions can be less reliable if an error occurs while updating.
 
@@ -52,11 +52,11 @@ The Atomic update method is used for immutable distributions like Silverblue, Tu
   <iframe width="560" height="315" src="https://invidious.privacyguides.net/embed/-hpV5l-gJnQ?local=true" title="Let's try Fedora Silverblue — an immutable desktop OS! - Adam Šamalik" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 </div>
 
-### “Security-focused” distributions
+### Дистрибутивы "ориентированные на безопасность"
 
 There is often some confusion between “security-focused” distributions and “pentesting” distributions. A quick search for “the most secure Linux distribution” will often give results like Kali Linux, Black Arch and Parrot OS. These distributions are offensive penetration testing distributions that bundle tools for testing other systems. They don’t include any “extra security” or defensive mitigations intended for regular use.
 
-### Arch-based distributions
+### Дистрибутивы на базе Arch
 
 Arch based distributions are not recommended for those new to Linux, (regardless of distribution) as they require regular [system maintenance](https://wiki.archlinux.org/title/System_maintenance). Arch does not have an distribution update mechanism for the underlying software choices. As a result you have to stay aware with current trends and adopt technologies as they supersede older practices on your own.
 
@@ -66,20 +66,20 @@ Anyone using the [Arch User Repository (AUR)](https://wiki.archlinux.org/title/A
 
 If you are experienced with Linux and wish to use an Arch-based distribution, we only recommend mainline Arch Linux, not any of its derivatives. We recommend against these two Arch derivatives specifically:
 
-- **Manjaro**: This distribution holds packages back for 2 weeks to make sure that their own changes don’t break, not to make sure that upstream is stable. When AUR packages are used, they are often built against the latest [libraries](https://en.wikipedia.org/wiki/Library_(computing)) from Arch’s repositories.
-- **Garuda**: They use [Chaotic-AUR](https://aur.chaotic.cx/) which automatically and blindly compiles packages from the AUR. There is no verification process to make sure that the AUR packages don’t suffer from supply chain attacks.
+- **Manjaro**: Этот дистрибутив задерживает пакеты на 2 недели, чтобы убедиться, что их собственные изменения не сломаются, а не для того, чтобы убедиться в стабильности upstream. When AUR packages are used, they are often built against the latest [libraries](https://en.wikipedia.org/wiki/Library_(computing)) from Arch’s repositories.
+- **Garuda**: Они используют [Chaotic-AUR](https://aur.chaotic.cx/), который автоматически и вслепую компилирует пакеты из AUR. There is no verification process to make sure that the AUR packages don’t suffer from supply chain attacks.
 
 ### Kicksecure
 
 While we strongly recommend against using outdated distributions like Debian, there is a Debian based operating system that has been hardened to be much more secure than typical Linux distributions: [Kicksecure](https://www.kicksecure.com/). Kicksecure, in oversimplified terms, is a set of scripts, configurations, and packages that substantially reduce the attack surface of Debian. It covers a lot of privacy and hardening recommendations by default.
 
-### Linux-libre kernel and “Libre” distributions
+### Ядро Linux-libre и дистрибутивы "Libre"
 
-We strongly recommend **against** using the Linux-libre kernel, since it [removes security mitigations](https://www.phoronix.com/scan.php?page=news_item&px=GNU-Linux-Libre-5.7-Released) and [suppresses kernel warnings](https://news.ycombinator.com/item?id=29674846) about vulnerable microcode for ideological reasons.
+Мы настоятельно рекомендуем **не** использовать ядро Linux-libre, поскольку оно [удаляет некоторые компоненты безопасности](https://www.phoronix.com/scan.php?page=news_item&px=GNU-Linux-Libre-5.7-Released) и [подавляет предупреждения ядра](https://news.ycombinator.com/item?id=29674846) об уязвимом микрокоде (по идеологическим причинам).
 
 ## Общие рекомендации
 
-### Drive Encryption
+### Шифрование диска
 
 Most Linux distributions have an option within its installer for enabling [LUKS](../encryption.md#linux-unified-key-setup) FDE. If this option isn’t set at installation time, you will have to backup your data and re-install, as encryption is applied after [disk partitioning](https://en.wikipedia.org/wiki/Disk_partitioning), but before [file systems](https://en.wikipedia.org/wiki/File_system) are formatted. We also suggest securely erasing your storage device:
 
@@ -97,13 +97,13 @@ Fortunately, common environments such as [GNOME](https://www.gnome.org), [KDE](h
 
 We recommend **against** using desktop environments or window managers that do not have Wayland support, such as Cinnamon (default on Linux Mint), Pantheon (default on Elementary OS), MATE, Xfce, and i3.
 
-### Proprietary Firmware (Microcode Updates)
+### Проприетарная прошивка (обновления микрокода)
 
 Linux distributions such as those which are [Linux-libre](https://en.wikipedia.org/wiki/Linux-libre) or DIY (Arch Linux) don’t come with the proprietary [microcode](https://en.wikipedia.org/wiki/Microcode) updates that often patch vulnerabilities. Some notable examples of these vulnerabilities include [Spectre](https://en.wikipedia.org/wiki/Spectre_(security_vulnerability)), [Meltdown](https://en.wikipedia.org/wiki/Meltdown_(security_vulnerability)), [SSB](https://en.wikipedia.org/wiki/Speculative_Store_Bypass), [Foreshadow](https://en.wikipedia.org/wiki/Foreshadow), [MDS](https://en.wikipedia.org/wiki/Microarchitectural_Data_Sampling), [SWAPGS](https://en.wikipedia.org/wiki/SWAPGS_(security_vulnerability)), and other [hardware vulnerabilities](https://www.kernel.org/doc/html/latest/admin-guide/hw-vuln/index.html).
 
 We **highly recommend** that you install the microcode updates, as your CPU is already running the proprietary microcode from the factory. Fedora and openSUSE both have the microcode updates applied by default.
 
-### Updates
+### Обновления
 
 Most Linux distributions will automatically install updates or remind you to do so. It is important to keep your OS up to date so that your software is patched when a vulnerability is found.
 
@@ -111,9 +111,9 @@ Some distributions (particularly those aimed at advanced users) are more barebon
 
 Additionally, some distributions will not download firmware updates automatically. For that you will need to install [`fwupd`](https://wiki.archlinux.org/title/Fwupd).
 
-## Privacy Tweaks
+## Твики конфиденциальности
 
-### MAC Address Randomization
+### Рандомизация MAC-адресов
 
 Many desktop Linux distributions (Fedora, openSUSE, etc.) will come with [NetworkManager](https://en.wikipedia.org/wiki/NetworkManager), to configure Ethernet and Wi-Fi settings.
 
@@ -125,7 +125,7 @@ If you are using [systemd-networkd](https://en.wikipedia.org/wiki/Systemd#Ancill
 
 There isn’t many points in randomizing the MAC address for Ethernet connections as a system administrator can find you by looking at the port you are using on the [network switch](https://en.wikipedia.org/wiki/Network_switch). Randomizing Wi-Fi MAC addresses depends on support from the Wi-Fi’s firmware.
 
-### Other Identifiers
+### Другие идентификаторы
 
 There are other system identifiers which you may wish to be careful about. You should give this some thought to see if it applies to your [threat model](../basics/threat-modeling.md):
 
@@ -133,7 +133,7 @@ There are other system identifiers which you may wish to be careful about. You s
 - **Usernames:** Similarly, your username is used in a variety of ways across your system. Consider using generic terms like "user" rather than your actual name.
 - **Machine ID:**: During installation a unique machine ID is generated and stored on your device. Consider [setting it to a generic ID](https://madaidans-insecurities.github.io/guides/linux-hardening.html#machine-id).
 
-### System Counting
+### Подсчёт систем
 
 The Fedora Project [counts](https://fedoraproject.org/wiki/Changes/DNF_Better_Counting) how many unique systems access its mirrors by using a [`countme`](https://fedoraproject.org/wiki/Changes/DNF_Better_Counting#Detailed_Description) variable instead of a unique ID. Fedora does this to determine load and provision better servers for updates where necessary.
 
