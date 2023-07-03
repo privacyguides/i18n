@@ -99,13 +99,13 @@ Briar 要新增聯絡人，必須先彼此互加。 您可以交換 `briar://` �
 
 Briar有一個完整 [發布的規範](https://code.briarproject.org/briar/briar-spec)。
 
-Briar supports Forward Secrecy by using the Bramble [Handshake](https://code.briarproject.org/briar/briar-spec/blob/master/protocols/BHP.md) and [Transport](https://code.briarproject.org/briar/briar-spec/blob/master/protocols/BTP.md) protocol.
+Briar 使用 Bramble [Handshake](https://code.briarproject.org/briar/briar-spec/blob/master/protocols/BHP.md) 與 [Transport](https://code.briarproject.org/briar/briar-spec/blob/master/protocols/BTP.md) 協議來支援向前保密機制。
 
 ## 額外選項
 
 !!! warning "警告"
 
-    These messengers do not have [Forward Secrecy](https://en.wikipedia.org/wiki/Forward_secrecy), and while they fulfill certain needs that our previous recommendations may not, we do not recommend them for long-term or sensitive communications. 訊息收件人之間的任何密鑰洩露都會影響* *所有* *過去通信的機密性。
+    這些通訊軟體無 [向前保密](https://en.wikipedia.org/wiki/Forward_secrecy) 雖然它們達成我們之前建議的某些需求，但不推薦將其用於長期或敏感通信。 訊息收件人之間的任何密鑰洩露都會影響* *所有* *過去通信的機密性。
 
 ### Element
 
@@ -198,7 +198,7 @@ Session [白皮書](https://arxiv.org/pdf/2002.04609.pdf) ，描述了應用程�
 
 最佳案例標準代表了我們希望從這個類別的完美項目應具備的功能。 推薦產品可能沒有此功能，但若有這些功能則會讓排名更為提高。
 
-- Should have Forward Secrecy.
+- 應有向前保密功能。
 - 應該有開源伺服器。
 - 應該是分散的，即聯邦式或 P2P。
 - 預設情況下，所有訊息皆應使用 E2EE。

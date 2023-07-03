@@ -23,7 +23,7 @@ La mayoría de las paquetes de ofimática en línea no admiten E2EE, lo que sign
     [:octicons-code-16:](https://github.com/nextcloud){ .card-link title="Código Fuente" }
     [:octicons-heart-16:](https://nextcloud.com/contribute/){ .card-link title=Contribuir }
     
-    ??? downloads "Descargas"
+    ??? downloads
     
         - [:simple-googleplay: Google Play](https://play.google.com/store/apps/details?id=com.nextcloud.client)
         - [:simple-appstore: App Store](https://apps.apple.com/app/id1125420102)
@@ -31,7 +31,6 @@ La mayoría de las paquetes de ofimática en línea no admiten E2EE, lo que sign
         - [:simple-windows11: Windows](https://nextcloud.com/install/#install-clients)
         - [:simple-apple: macOS](https://nextcloud.com/install/#install-clients)
         - [:simple-linux: Linux](https://nextcloud.com/install/#install-clients)
-        - [:simple-freebsd: FreeBSD](https://www.freshports.org/www/nextcloud)
 
 !!! danger "Peligro"
 
@@ -91,7 +90,7 @@ Nuestro criterio del mejor caso representa lo que nos gustaría ver del proyecto
     [:octicons-code-16:](https://www.libreoffice.org/about-us/source-code){ .card-link title="Código Fuente" }
     [:octicons-heart-16:](https://www.libreoffice.org/donate/){ .card-link title=Contribuir }
     
-    ??? downloads "Descargas"
+    ??? downloads
     
         - [:simple-googleplay: Google Play](https://www.libreoffice.org/download/android-and-ios/)
         - [:simple-appstore: App Store](https://www.libreoffice.org/download/android-and-ios/)
@@ -99,7 +98,6 @@ Nuestro criterio del mejor caso representa lo que nos gustaría ver del proyecto
         - [:simple-apple: macOS](https://www.libreoffice.org/download/download/)
         - [:simple-linux: Linux](https://www.libreoffice.org/download/download/)
         - [:simple-flathub: Flathub](https://flathub.org/apps/details/org.libreoffice.LibreOffice)
-        - [:simple-freebsd: FreeBSD](https://www.freshports.org/editors/libreoffice/)
 
 ### OnlyOffice
 
@@ -114,7 +112,7 @@ Nuestro criterio del mejor caso representa lo que nos gustaría ver del proyecto
     [:octicons-info-16:](https://helpcenter.onlyoffice.com/userguides.aspx){ .card-link title=Documentación}
     [:octicons-code-16:](https://github.com/ONLYOFFICE){ .card-link title="Código Fuente" }
     
-    ??? downloads "Descargas"
+    ??? downloads
     
         - [:simple-googleplay: Google Play](https://play.google.com/store/apps/details?id=com.onlyoffice.documents)
         - [:simple-appstore: App Store](https://apps.apple.com/app/id944896972)
@@ -122,7 +120,6 @@ Nuestro criterio del mejor caso representa lo que nos gustaría ver del proyecto
         - [:simple-apple: macOS](https://www.onlyoffice.com/download-desktop.aspx)
         - [:simple-linux: Linux](https://www.onlyoffice.com/download-desktop.aspx)
         - [:simple-flathub: Flathub](https://flathub.org/apps/details/org.onlyoffice.desktopeditors)
-        - [:simple-freebsd: FreeBSD](https://www.freshports.org/www/onlyoffice-documentserver/)
 
 ### Criterios
 

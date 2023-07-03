@@ -23,7 +23,7 @@ De meeste online office suites ondersteunen geen E2EE, wat betekent dat de cloud
     [:octicons-code-16:](https://github.com/nextcloud){ .card-link title="Broncode" }
     [:octicons-heart-16:](https://nextcloud.com/contribute/){ .card-link title=Bijdragen }
     
-    ??? downloads "Downloaden"
+    ??? downloads
     
         - [:simple-googleplay: Google Play](https://play.google.com/store/apps/details?id=com.nextcloud.client)
         - [:simple-appstore: App Store](https://apps.apple.com/app/id1125420102)
@@ -31,7 +31,6 @@ De meeste online office suites ondersteunen geen E2EE, wat betekent dat de cloud
         - [:simple-windows11: Windows](https://nextcloud.com/install/#install-clients)
         - [:simple-apple: macOS](https://nextcloud.com/install/#install-clients)
         - [:simple-linux: Linux](https://nextcloud.com/install/#install-clients)
-        - [:simple-freebsd: FreeBSD](https://www.freshports.org/www/nextcloud)
 
 !!! danger "Gevaar"
 
@@ -91,7 +90,7 @@ Onze best-case criteria geven aan wat wij zouden willen zien van het perfecte pr
     [:octicons-code-16:](https://www.libreoffice.org/about-us/source-code){ .card-link title="Broncode" }
     [:octicons-heart-16:](https://www.libreoffice.org/donate/){ .card-link title=Bijdragen }
     
-    ??? downloads "Downloaden"
+    ??? downloads
     
         - [:simple-googleplay: Google Play](https://www.libreoffice.org/download/android-and-ios/)
         - [:simple-appstore: App Store](https://www.libreoffice.org/download/android-and-ios/)
@@ -99,7 +98,6 @@ Onze best-case criteria geven aan wat wij zouden willen zien van het perfecte pr
         - [:simple-apple: macOS](https://www.libreoffice.org/download/download/)
         - [:simple-linux: Linux](https://www.libreoffice.org/download/download/)
         - [:simple-flathub: Flathub](https://flathub.org/apps/details/org.libreoffice.LibreOffice)
-        - [:simple-freebsd: FreeBSD](https://www.freshports.org/editors/libreoffice/)
 
 ### OnlyOffice
 
@@ -114,7 +112,7 @@ Onze best-case criteria geven aan wat wij zouden willen zien van het perfecte pr
     [:octicons-info-16:](https://helpcenter.onlyoffice.com/userguides.aspx){ .card-link title=Documentatie}
     [:octicons-code-16:](https://github.com/ONLYOFFICE){ .card-link title="Broncode" }
     
-    ??? downloads "Downloaden"
+    ??? downloads
     
         - [:simple-googleplay: Google Play](https://play.google.com/store/apps/details?id=com.onlyoffice.documents)
         - [:simple-appstore: App Store](https://apps.apple.com/app/id944896972)
@@ -122,7 +120,6 @@ Onze best-case criteria geven aan wat wij zouden willen zien van het perfecte pr
         - [:simple-apple: macOS](https://www.onlyoffice.com/download-desktop.aspx)
         - [:simple-linux: Linux](https://www.onlyoffice.com/download-desktop.aspx)
         - [:simple-flathub: Flathub](https://flathub.org/apps/details/org.onlyoffice.desktopeditors)
-        - [:simple-freebsd: FreeBSD](https://www.freshports.org/www/onlyoffice-documentserver/)
 
 ### Criteria
 

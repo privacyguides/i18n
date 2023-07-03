@@ -157,7 +157,7 @@ IVPN [建議](https://www.ivpn.net/wireguard/)搭配 WireGuard 一起使用， I
 
 #### :material-alert-outline:{ .pg-orange } 遠端端口轉發
 
-IVPN previously supported port forwarding, but removed the option in [June 2023](https://www.ivpn.net/blog/gradual-removal-of-port-forwarding). 失去此功能將對應用程式造成負面影響，尤其是點對點的應用如 torrent 客戶端軟體。
+IVPN 之前支援向前轉發，但於[2023年6月](https://www.ivpn.net/blog/gradual-removal-of-port-forwarding)移除此功能選項。 失去此功能將對應用程式造成負面影響，尤其是點對點的應用如 torrent 客戶端軟體。
 
 
 
@@ -328,13 +328,13 @@ Mullvad 對 [自有或租用](https://mullvad.net/en/servers/)的節點非常透
 **最低合格要求：**
 
 - 強固加密方案：具有 SHA-256 驗證的 OpenVPN; RSA-2048 或更好的握手; AES-256-GCM 或 AES-256-CBC 數據加密。
-- Forward Secrecy.
+- 前向保密
 - 公佈信譽良好第三方公司的安全審計。
 
 **最佳案例：**
 
 - 最強加密： RSA-4096。
-- Forward Secrecy.
+- 前向保密
 - 由信譽良好的第三方公司執行公佈的全面安全審計。
 - 漏洞獎勵計劃和/或協調漏洞披露過程。
 

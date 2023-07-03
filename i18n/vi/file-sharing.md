@@ -90,18 +90,14 @@ ffsend upload --host https://send.vis.ee/ FILE
     
     [Homepage](https://www.libreoffice.org){ .md-button .md-button--primary } [Chính Sách Bảo Mật](https://www.libreoffice.org/about-us/privacy/privacy-policy-en/){ .md-button }
     
-    ??? tải xuống
+    ??? downloads
     
-        - [:fontawesome-brands-windows: Windows](https://www.libreoffice.org/download/download/)
-        - [:fontawesome-brands-apple: macOS](https://www.libreoffice.org/download/download/)
-        - [:fontawesome-brands-linux: Linux](https://www.libreoffice.org/download/download/)
-        - [:pg-flathub: Flatpak](https://www.libreoffice.org/download/download/)
-        - [:fontawesome-brands-freebsd: FreeBSD](https://www.freshports.org/editors/libreoffice/)
-        - [:pg-openbsd: OpenBSD](https://openports.se/editors/libreoffice)
-        - [:pg-netbsd: NetBSD](https://pkgsrc.se/misc/libreoffice)
-        - [:fontawesome-brands-google-play: Google Play](https://www.libreoffice.org/download/android-and-ios/)
-        - [:fontawesome-brands-app-store-ios: App Store](https://www.libreoffice.org/download/android-and-ios/)
-        - [:fontawesome-brands-git: Mã nguồn](https://www.libreoffice.org/about-us/source-code)
+        - [:simple-googleplay: Google Play](https://play.google.com/store/apps/details?id=com.nextcloud.client)
+        - [:simple-appstore: App Store](https://apps.apple.com/app/id1125420102)
+        - [:simple-github: GitHub](https://github.com/nextcloud/android/releases)
+        - [:simple-windows11: Windows](https://nextcloud.com/install/#install-clients)
+        - [:simple-apple: macOS](https://nextcloud.com/install/#install-clients)
+        - [:simple-linux: Linux](https://nextcloud.com/install/#install-clients)
 
 !!! danger
 
@@ -129,8 +125,6 @@ ffsend upload --host https://send.vis.ee/ FILE
         - [:simple-apple: macOS](https://syncthing.net/downloads/)
         - [:simple-linux: Linux](https://syncthing.net/downloads/)
         - [:simple-freebsd: FreeBSD](https://syncthing.net/downloads/)
-        - [:simple-openbsd: OpenBSD](https://syncthing.net/downloads/)
-        - [:simple-netbsd: NetBSD](https://syncthing.net/downloads/)
 
 ### Framadate
 

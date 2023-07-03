@@ -24,29 +24,29 @@ description: Linux - это альтернативная настольная о
 
 ## Выбор дистрибутива
 
-Not all Linux distributions are created equal. While our Linux recommendation page is not meant to be an authoritative source on which distribution you should use, there are a few things you should keep in mind when choosing which distribution to use.
+Не все дистрибутивы Linux созданы одинаковыми. Хотя наша страница рекомендаций по Linux не является авторитетным источником информации о том, какой дистрибутив вам следует использовать, есть несколько моментов, на которые следует обращать внимание при выборе дистрибутива.
 
 ### Цикл релиза
 
-We highly recommend that you choose distributions which stay close to the stable upstream software releases, often referred to as rolling release distributions. This is because frozen release cycle distributions often don’t update package versions and fall behind on security updates.
+Мы настоятельно рекомендуем вам выбирать дистрибутивы, которые близки к стабильным релизам программного обеспечения, часто называемые дистрибутивами с плавающим релизом. Это связано с тем, что дистрибутивы с замороженным циклом выпуска часто не обновляют версии пакетов и не получают обновлений безопасности.
 
-For frozen distributions such as [Debian](https://www.debian.org/security/faq#handling), package maintainers are expected to backport patches to fix vulnerabilities rather than bump the software to the “next version” released by the upstream developer. Some security fixes [do not](https://arxiv.org/abs/2105.14565) receive a [CVE](https://en.wikipedia.org/wiki/Common_Vulnerabilities_and_Exposures) (particularly less popular software) at all and therefore do not make it into the distribution with this patching model. As a result minor security fixes are sometimes held back until the next major release.
+В замороженных дистрибутивах, таких как [Debian](https://www.debian.org/security/faq#handling), ожидается, что сопровождающие пакетов будут вносить исправления из новых релизов для устранения уязвимостей, а не переводить программное обеспечение на новый релиз, выпущенный вышестоящим разработчиком. Некоторые исправления безопасности [вообще не](https://arxiv.org/abs/2105.14565) получают [CVE](https://en.wikipedia.org/wiki/Common_Vulnerabilities_and_Exposures) (особенно менее популярные программы) и поэтому не попадают в дистрибутив при такой модели исправлений. В результате незначительные исправления безопасности иногда задерживаются до следующего крупного релиза.
 
-We don’t believe holding packages back and applying interim patches is a good idea, as it diverges from the way the developer might have intended the software to work. [Richard Brown](https://rootco.de/aboutme/) has a presentation about this:
+Мы не считаем, что задержка пакетов и применение промежуточных исправлений является хорошей идеей, так как это расходится с тем, как разработчик мог задумать работу программного обеспечения. [Ричард Браун](https://rootco.de/aboutme/) подготовил презентацию об этом:
 
 <div class="yt-embed">
   <iframe width="560" height="315" src="https://invidious.privacyguides.net/embed/i8c0mg_mS7U?local=true" title="Regular Releases are Wrong, Roll for your life" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 </div>
 
-### Традиционные vs атомные обновления
+### Традиционные vs атомарные обновления
 
-Traditionally, Linux distributions update by sequentially updating the desired packages. Traditional updates such as those used in Fedora, Arch Linux, and Debian based distributions can be less reliable if an error occurs while updating.
+Традиционно дистрибутивы Linux обновляются путем последовательного обновления нужных пакетов. Традиционные обновления, например, используемые в дистрибутивах Fedora, Arch Linux и Debian, могут быть менее надежными, если в процессе обновления возникает ошибка.
 
-Atomic updating distributions apply updates in full or not at all. Typically, transactional update systems are also atomic.
+Дистрибутивы с отомарными обновлениями применяют обновления полностью или не применяют вообще. Как правило, транзакционные системы обновления также являются атомарными.
 
-A transactional update system creates a snapshot that is made before and after an update is applied. If an update fails at any time (perhaps due to a power failure), the update can be easily rolled back to a “last known good state."
+Система транзакционного обновления создает снимок, который делается до и после применения обновления. Если обновление ломается в любой момент времени (например из-за сбоя питания), обновление можно легко откатить до "последнего известного хорошего состояния."
 
-The Atomic update method is used for immutable distributions like Silverblue, Tumbleweed, and NixOS and can achieve reliability with this model. [Adam Šamalík](https://twitter.com/adsamalik) provided a presentation on how `rpm-ostree` works with Silverblue:
+Метод атомарного обновления используется для таких неизменяемых дистрибутивов, как Silverblue, Tumbleweed и NixOS и может повысить надежность с помощью этой модели. [Adam Šamalík](https://twitter.com/adsamalik) предоставил презентацию о том, как `rpm-ostree` работает с Silverblue:
 
 <div class="yt-embed">
   <iframe width="560" height="315" src="https://invidious.privacyguides.net/embed/-hpV5l-gJnQ?local=true" title="Let's try Fedora Silverblue — an immutable desktop OS! - Adam Šamalik" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
@@ -54,24 +54,24 @@ The Atomic update method is used for immutable distributions like Silverblue, Tu
 
 ### Дистрибутивы "ориентированные на безопасность"
 
-There is often some confusion between “security-focused” distributions and “pentesting” distributions. A quick search for “the most secure Linux distribution” will often give results like Kali Linux, Black Arch and Parrot OS. These distributions are offensive penetration testing distributions that bundle tools for testing other systems. They don’t include any “extra security” or defensive mitigations intended for regular use.
+Часто возникает путаница между дистрибутивами "ориентированными на безопасность" и дистрибутивами для "тестов на проникновение". Быстрый поиск "самый безопасный дистрибутив Linux" часто дает такие результаты, как Kali Linux, Black Arch и Parrot OS. Эти дистрибутивы представляют собой дистрибутивы для тестирования на проникновение, в которых собраны инструменты для тестирования других систем. Они не включают никаких "дополнительных мер безопасности" или защитных механизмов, предназначенных для регулярного использования.
 
 ### Дистрибутивы на базе Arch
 
-Arch based distributions are not recommended for those new to Linux, (regardless of distribution) as they require regular [system maintenance](https://wiki.archlinux.org/title/System_maintenance). Arch does not have an distribution update mechanism for the underlying software choices. As a result you have to stay aware with current trends and adopt technologies as they supersede older practices on your own.
+Дистрибутивы на базе Arch не рекомендуется использовать новичкам в Linux (независимо от дистрибутива), так как они требуют регулярного [обслуживания системы](https://wiki.archlinux.org/title/System_maintenance). Arch не имеет механизма обновления дистрибутива для выбора основного программного обеспечения. В результате вы должны быть в курсе современных тенденций и самостоятельно внедрять технологии по мере того, как они вытесняют старые методы.
 
-For a secure system, you are also expected to have sufficient Linux knowledge to properly set up security for their system such as adopting a [mandatory access control](https://en.wikipedia.org/wiki/Mandatory_access_control) system, setting up [kernel module](https://en.wikipedia.org/wiki/Loadable_kernel_module#Security) blacklists, hardening boot parameters, manipulating [sysctl](https://en.wikipedia.org/wiki/Sysctl) parameters, and knowing what components they need such as [Polkit](https://en.wikipedia.org/wiki/Polkit).
+Для поддержания безопасности системы от вас ожидается, что вы обладаете достаточными знаниями Linux, чтобы правильно настроить безопасность своей системы, например, принять систему [обязательного контроля доступа](https://en.wikipedia.org/wiki/Mandatory_access_control), настроить черные списки [модулей ядра](https://en.wikipedia.org/wiki/Loadable_kernel_module#Security), усилить параметры загрузки, манипулировать параметрами [sysctl](https://en.wikipedia.org/wiki/Sysctl) и знать, какие компоненты им необходимы, например, [Polkit](https://en.wikipedia.org/wiki/Polkit).
 
-Anyone using the [Arch User Repository (AUR)](https://wiki.archlinux.org/title/Arch_User_Repository), **must** be comfortable in auditing PKGBUILDs that they install from that service. AUR packages are community-produced content and are not vetted in any way, and therefore are vulnerable to software supply chain attacks, which has in fact happened [in the past](https://www.bleepingcomputer.com/news/security/malware-found-in-arch-linux-aur-package-repository/). AUR should always be used sparingly and often there is a lot of bad advice on various pages which direct people to blindly use [AUR helpers](https://wiki.archlinux.org/title/AUR_helpers) without sufficient warning. Similar warnings apply to use third-party Personal Package Archives (PPAs) on Debian based distributions or Community Projects (COPR) on Fedora.
+Тот, кто использует [Arch User Repository (AUR)](https://wiki.archlinux.org/title/Arch_User_Repository), **, должен** быть уверен в том, что он сможет провести аудит PKGBUILD, которые он устанавливает из этой службы. Пакеты AUR - это контент, созданный сообществом, он никак не проверяется и поэтому уязвим для атак на цепочки поставок программного обеспечения, что, собственно, и произошло [в прошлом](https://www.bleepingcomputer.com/news/security/malware-found-in-arch-linux-aur-package-repository/). AUR всегда следует использовать осторожно, и часто на различных страницах можно встретить множество плохих советов, которые направляют людей на слепое использование [помощников AUR](https://wiki.archlinux.org/title/AUR_helpers) без достаточного предупреждения. Аналогичные предупреждения относятся к использованию сторонних персональных архивов пакетов (PPA) в дистрибутивах на базе Debian или проектов сообщества (COPR) в Fedora.
 
-If you are experienced with Linux and wish to use an Arch-based distribution, we only recommend mainline Arch Linux, not any of its derivatives. We recommend against these two Arch derivatives specifically:
+Если у вас есть опыт работы с Linux и вы хотите использовать дистрибутив на базе Arch, мы рекомендуем только основной Arch Linux, а не его варианты. Мы особенно не рекомендуем использовать эти два варианта Arch:
 
-- **Manjaro**: Этот дистрибутив задерживает пакеты на 2 недели, чтобы убедиться, что их собственные изменения не сломаются, а не для того, чтобы убедиться в стабильности upstream. When AUR packages are used, they are often built against the latest [libraries](https://en.wikipedia.org/wiki/Library_(computing)) from Arch’s repositories.
-- **Garuda**: Они используют [Chaotic-AUR](https://aur.chaotic.cx/), который автоматически и вслепую компилирует пакеты из AUR. There is no verification process to make sure that the AUR packages don’t suffer from supply chain attacks.
+- **Manjaro**: Этот дистрибутив задерживает пакеты на 2 недели, чтобы убедиться, что их собственные изменения не сломаются, а не для того, чтобы убедиться в стабильности upstream. Когда используются пакеты AUR, они часто собираются на основе последних [библиотек](https://en.wikipedia.org/wiki/Library_(computing)) из репозиториев Arch.
+- **Garuda**: Они используют [Chaotic-AUR](https://aur.chaotic.cx/), который автоматически и вслепую компилирует пакеты из AUR. Не существует процесса проверки, чтобы убедиться, что пакеты AUR не страдают от атак в цепи поставок.
 
 ### Kicksecure
 
-While we strongly recommend against using outdated distributions like Debian, there is a Debian based operating system that has been hardened to be much more secure than typical Linux distributions: [Kicksecure](https://www.kicksecure.com/). Kicksecure, in oversimplified terms, is a set of scripts, configurations, and packages that substantially reduce the attack surface of Debian. It covers a lot of privacy and hardening recommendations by default.
+Хотя мы настоятельно рекомендуем не использовать устаревшие дистрибутивы, такие как Debian, существует операционная система на базе Debian, которая была усилена, чтобы быть намного более безопасной, чем обычные дистрибутивы Linux: [Kicksecure](https://www.kicksecure.com/). Kicksecure, если говорить упрощенно, это набор скриптов, конфигураций и пакетов, которые значительно уменьшают поверхность атаки Debian. Он охватывает множество рекомендаций по обеспечению конфиденциальности и усилению защиты, без необходимости дополнительной настройки.
 
 ### Ядро Linux-libre и дистрибутивы "Libre"
 
@@ -81,21 +81,21 @@ While we strongly recommend against using outdated distributions like Debian, th
 
 ### Шифрование диска
 
-Most Linux distributions have an option within its installer for enabling [LUKS](../encryption.md#linux-unified-key-setup) FDE. If this option isn’t set at installation time, you will have to backup your data and re-install, as encryption is applied after [disk partitioning](https://en.wikipedia.org/wiki/Disk_partitioning), but before [file systems](https://en.wikipedia.org/wiki/File_system) are formatted. We also suggest securely erasing your storage device:
+Большинство дистрибутивов Linux имеют опцию в программе установки для включения [LUKS](../encryption.md#linux-unified-key-setup) FDE. Если этот параметр небыл выбран во время установки, вам придется создать резервную копию данных и выполнить повторную установку, поскольку шифрование применяется после [разметки диска](https://ru.wikipedia.org/wiki/%D0%A0%D0%B0%D0%B7%D0%B4%D0%B5%D0%BB_%D0%B4%D0%B8%D1%81%D0%BA%D0%B0), но до [форматирования файловых систем](https://ru.wikipedia.org/wiki/%D0%A4%D0%B0%D0%B9%D0%BB%D0%BE%D0%B2%D0%B0%D1%8F_%D1%81%D0%B8%D1%81%D1%82%D0%B5%D0%BC%D0%B0). Мы также рекомендуем безопасно удалять файлы на вашем накопителе:
 
-- [Secure Data Erasure :material-arrow-right-drop-circle:](https://blog.privacyguides.org/2022/05/25/secure-data-erasure/)
+- [Безопасное удаление данных :material-arrow-right-drop-circle:](https://blog.privacyguides.org/2022/05/25/secure-data-erasure/)
 
 ### Swap
 
-Consider using [ZRAM](https://wiki.archlinux.org/title/Swap#zram-generator) or [encrypted swap](https://wiki.archlinux.org/title/Dm-crypt/Swap_encryption) instead of unencrypted swap to avoid potential security issues with sensitive data being pushed to [swap space](https://en.wikipedia.org/wiki/Memory_paging). Fedora based distributions [use ZRAM by default](https://fedoraproject.org/wiki/Changes/SwapOnZRAM).
+Consider using [ZRAM](https://wiki.archlinux.org/title/Swap#zram-generator) or [encrypted swap](https://wiki.archlinux.org/title/Dm-crypt/Swap_encryption) instead of unencrypted swap to avoid potential security issues with sensitive data being pushed to [swap space](https://en.wikipedia.org/wiki/Memory_paging). Дистрибутивы на базе Fedora [по умолчанию используют ZRAM](https://fedoraproject.org/wiki/Changes/SwapOnZRAM).
 
 ### Wayland
 
-We recommend using a desktop environment that supports the [Wayland](https://en.wikipedia.org/wiki/Wayland_(display_server_protocol)) display protocol as it was developed with security [in mind](https://lwn.net/Articles/589147/). Its predecessor, [X11](https://en.wikipedia.org/wiki/X_Window_System), does not support GUI isolation, allowing all windows to [record screen, log and inject inputs in other windows](https://blog.invisiblethings.org/2011/04/23/linux-security-circus-on-gui-isolation.html), making any attempt at sandboxing futile. While there are options to do nested X11 such as [Xpra](https://en.wikipedia.org/wiki/Xpra) or [Xephyr](https://en.wikipedia.org/wiki/Xephyr), they often come with negative performance consequences and are not convenient to set up and are not preferable over Wayland.
+Мы рекомендуем использовать среду рабочего стола, которая поддерживает графический протокол [Wayland](https://ru.wikipedia.org/wiki/Wayland), поскольку он был разработан [с учетом](https://lwn.net/Articles/589147/) требований безопасности. Его предшественник, [X11](https://en.wikipedia.org/wiki/X_Window_System), не поддерживает изоляцию графического интерфейса, позволяя всем окнам [записывать экран, логи и вводить данные в другие окна](https://blog.invisiblethings.org/2011/04/23/linux-security-circus-on-gui-isolation.html), что делает любые попытки создания "песочницы" бесполезными. Хотя существуют варианты вложенных X11, например [Xpra](https://en.wikipedia.org/wiki/Xpra) или [Xephyr](https://en.wikipedia.org/wiki/Xephyr), они часто имеют негативные последствия для производительности, не удобны в настройке и всё равно хуже Wayland.
 
-Fortunately, common environments such as [GNOME](https://www.gnome.org), [KDE](https://kde.org), and the window manager [Sway](https://swaywm.org) have support for Wayland. Some distributions like Fedora and Tumbleweed use it by default, and some others may do so in the future as X11 is in [hard maintenance mode](https://www.phoronix.com/scan.php?page=news_item&px=X.Org-Maintenance-Mode-Quickly). If you’re using one of those environments it is as easy as selecting the “Wayland” session at the desktop display manager ([GDM](https://en.wikipedia.org/wiki/GNOME_Display_Manager), [SDDM](https://en.wikipedia.org/wiki/Simple_Desktop_Display_Manager)).
+К счастью, такие распространенные среды, как [GNOME](https://www.gnome.org), [KDE](https://kde.org) и оконный менеджер [Sway](https://swaywm.org) имеют поддержку Wayland. Some distributions like Fedora and Tumbleweed use it by default, and some others may do so in the future as X11 is in [hard maintenance mode](https://www.phoronix.com/scan.php?page=news_item&px=X.Org-Maintenance-Mode-Quickly). Если вы используете одну из этих сред, можно просто выбрать сессию "Wayland" в менеджере отображения рабочего стола ([GDM](https://en.wikipedia.org/wiki/GNOME_Display_Manager), [SDDM](https://en.wikipedia.org/wiki/Simple_Desktop_Display_Manager)).
 
-We recommend **against** using desktop environments or window managers that do not have Wayland support, such as Cinnamon (default on Linux Mint), Pantheon (default on Elementary OS), MATE, Xfce, and i3.
+Мы рекомендуем **не использовать** окружения рабочего стола или оконные менеджеры, которые не имеют поддержки Wayland, например Cinnamon (по умолчанию в Linux Mint), Pantheon (стандартный в Elementary OS), MATE, Xfce и i3.
 
 ### Проприетарная прошивка (обновления микрокода)
 

@@ -1,11 +1,11 @@
 ---
-title: "Ferramentas de produtividade"
+title: "Ferramentas de Produtividade"
 icon: material/file-sign
-description: A maioria das suites de escritório online não suporta E2EE, o que significa que o fornecedor da nuvem tem acesso a tudo o que faz.
+description: A maioria das suítes de escritório online não suporta E2EE, o que significa que o fornecedor da nuvem tem acesso a tudo o que faz.
 cover: productivity.png
 ---
 
-A maioria das suites de escritório online não suporta E2EE, o que significa que o fornecedor da nuvem tem acesso a tudo o que faz. A política de privacidade pode proteger legalmente os seus direitos, mas não prevê restrições técnicas de acesso.
+A maioria das suítes de escritório online não suporta E2EE, o que significa que o fornecedor da nuvem tem acesso a tudo o que faz. A política de privacidade pode proteger legalmente os seus direitos, mas não prevê restrições técnicas de acesso.
 
 ## Plataformas de colaboração
 
@@ -18,10 +18,10 @@ A maioria das suites de escritório online não suporta E2EE, o que significa qu
     
     O **Nextcloud** é um conjunto de software cliente-servidor gratuito e de código aberto que lhe permite criar os seus próprios serviços de alojamento de ficheiros num servidor que controla.
     
-    [:octicons-home-16: Homepage](https://nextcloud.com){ .md-button .md-button--primary }
+    [:octicons-home-16: Página Inicial](https://nextcloud.com){ .md-button .md-button--primary }
     [:octicons-eye-16:](https://nextcloud.com/privacy){ .card-link title="Política de Privacidade" }
     [:octicons-info-16:](https://nextcloud.com/support/){ .card-link title=Documentação}
-    [:octicons-code-16:](https://github.com/nextcloud){ .card-link title="Código-fonte" }
+    [:octicons-code-16:](https://github.com/nextcloud){ .card-link title="Código fonte" }
     [:octicons-heart-16:](https://nextcloud.com/contribute/){ .card-link title=Contribuir }
     
     ??? downloads
@@ -32,7 +32,6 @@ A maioria das suites de escritório online não suporta E2EE, o que significa qu
         - [:simple-windows11: Windows](https://nextcloud.com/install/#install-clients)
         - [:simple-apple: macOS](https://nextcloud.com/install/#install-clients)
         - [:simple-linux: Linux](https://nextcloud.com/install/#install-clients)
-        - [:simple-freebsd: FreeBSD](https://www.freshports.org/www/nextcloud)
 
 !!! perigo
 
@@ -86,12 +85,12 @@ Os nossos melhores critérios representam o que gostaríamos de ver num projeto 
 
     ![Logótipo LibreOffice](assets/img/productivity/libreoffice.svg){ align=right }
     
-    O **LibreOffice** é uma suite de escritório gratuita e de código aberto com uma vasta funcionalidade.
+    O **LibreOffice** é uma suíte de escritório gratuita e de código aberto com uma vasta funcionalidade.
     
-    [:octicons-home-16: Homepage](https://www.libreoffice.org){ .md-button .md-button--primary }
+    [:octicons-home-16: Página Inicial](https://www.libreoffice.org){ .md-button .md-button--primary }
     [:octicons-eye-16:](https://www.libreoffice.org/about-us/privacy/privacy-policy-en/){ .card-link title="Política de Privacidade" }
     [:octicons-info-16:](https://documentation.libreoffice.org/en/english-documentation/){ .card-link title=Documentação}
-    [:octicons-code-16:](https://www.libreoffice.org/about-us/source-code){ .card-link title="Código-fonte" }
+    [:octicons-code-16:](https://www.libreoffice.org/about-us/source-code){ .card-link title="Código fonte" }
     [:octicons-heart-16:](https://www.libreoffice.org/donate/){ .card-link title=Contribuir }
     
     ??? downloads
@@ -102,7 +101,6 @@ Os nossos melhores critérios representam o que gostaríamos de ver num projeto 
         - [:simple-apple: macOS](https://www.libreoffice.org/download/download/)
         - [:simple-linux: Linux](https://www.libreoffice.org/download/download/)
         - [:simple-flathub: Flathub](https://flathub.org/apps/details/org.libreoffice.LibreOffice)
-        - [:simple-freebsd: FreeBSD](https://www.freshports.org/editors/libreoffice/)
 
 ### OnlyOffice
 
@@ -111,7 +109,7 @@ Os nossos melhores critérios representam o que gostaríamos de ver num projeto 
 
     ![Logótipo OnlyOffice](assets/img/productivity/onlyoffice.svg){ align=right }
     
-    **OnlyOffice** é uma suite de escritório gratuita e de código aberto, baseada na nuvem, com uma vasta funcionalidade, incluindo a integração com a Nextcloud.
+    **OnlyOffice** é uma suíte de escritório gratuita e de código aberto, baseada na nuvem, com uma vasta funcionalidade, incluindo a integração com a Nextcloud.
     
     [:octicons-home-16: Homepage](https://www.onlyoffice.com){ .md-button .md-button--primary }
     [:octicons-eye-16:](https://help.onlyoffice.com/products/files/doceditor.aspx?fileid=5048502&doc=SXhWMEVzSEYxNlVVaXJJeUVtS0kyYk14YWdXTEFUQmRWL250NllHNUFGbz0_IjUwNDg1MDIi0){ .card-link title="Política de Privacidade" }
@@ -126,7 +124,6 @@ Os nossos melhores critérios representam o que gostaríamos de ver num projeto 
         - [:simple-apple: macOS](https://www.onlyoffice.com/download-desktop.aspx)
         - [:simple-linux: Linux](https://www.onlyoffice.com/download-desktop.aspx)
         - [:simple-flathub: Flathub](https://flathub.org/apps/details/org.onlyoffice.desktopeditors)
-        - [:simple-freebsd: FreeBSD](https://www.freshports.org/www/onlyoffice-documentserver/)
 
 ### Critérios
 

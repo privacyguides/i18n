@@ -48,10 +48,10 @@ Existem várias formas de se ligar à rede Tor a partir do seu dispositivo, send
     
     O **Browser Tor** é a escolha certa se precisar de anonimato, uma vez que lhe dá acesso à rede Tor e às sua bridges, e inclui definições por defeito e extensões que são automaticamente configuradas com níveis de segurança predefinidos: *Standard*, *Seguro* e *Máxima Segurança*.
     
-    [:octicons-home-16: Homepage](https://www.torproject.org){ .md-button .md-button--primary }
+    [:octicons-home-16: Página Inicial](https://www.torproject.org){ .md-button .md-button--primary }
     [:simple-torbrowser:](http://2gzyxa5ihm7nsggfxnu52rck2vv4rvmdlkiu3zzui5du4xyclen53wid.onion){ .card-link title="Serviço Onion" }
     [:octicons-info-16:](https://tb-manual.torproject.org/){ .card-link title=Documentação }
-    [:octicons-code-16:](https://gitweb.torproject.org/tor-browser.git/){ .card-link title="Código-fonte" }
+    [:octicons-code-16:](https://gitweb.torproject.org/tor-browser.git/){ .card-link title="Código fonte" }
     [:octicons-heart-16:](https://donate.torproject.org/){ .card-link title=Contribuir }
     
     ??? downloads
@@ -93,7 +93,7 @@ Anteriormente, recomendamos ativar a preferência *Isolar endereço de destino* 
 
 !!! dica "Dicas para o Android"
 
-    Os dados de cada usuário são criptografados usando sua própria chave de criptografia exclusiva, e os arquivos do sistema operacional são deixados não criptografados. It can also proxy all your network connections using [VpnService](https://developer.android.com/reference/android/net/VpnService) and can be used with the VPN killswitch in :gear: **Settings** → **Network & internet** → **VPN** → :gear: → **Block connections without VPN**.
+    Os dados de cada usuário são criptografados usando sua própria chave de criptografia exclusiva, e os arquivos do sistema operacional são deixados não criptografados. Também pode fazer proxy de todas as suas ligações de rede utilizando [VpnService](https://developer.android.com/reference/android/net/VpnService) e pode ser utilizado com a killswitch da VPN em :gear: **Definições** → **Rede e Internet** → **VPN** → :gear: → **Bloquear ligações sem VPN**.
     
     O Orbot está frequentemente desatualizado no [repositório F-Droid](https://guardianproject.info/fdroid) e no [Google Play](https://play.google.com/store/apps/details?id=org.torproject.android) do Projeto Guardian, então considere fazer o download diretamente do [repositório GitHub](https://github.com/guardianproject/orbot/releases).
     
@@ -117,7 +117,7 @@ Anteriormente, recomendamos ativar a preferência *Isolar endereço de destino* 
     
     **Snowflake** permite-lhe doar largura de banda ao Projeto Tor através da utilização de um "proxy Snowflake" no seu navegador.
     
-    As pessoas censuradas podem utilizar proxies Snowflake para se ligarem à rede Tor. Snowflake is a great way to contribute to the network even if you don't have the technical know-how to run a Tor relay or bridge.
+    As pessoas censuradas podem utilizar proxies Snowflake para se ligarem à rede Tor. Snowflake é uma ótima maneira de contribuir para a rede, mesmo que não tenha o conhecimento técnico para executar um retransmissor ou ponte Tor.
     
     [:octicons-home-16: Página Inicial](https://snowflake.torproject.org/){ .md-button .md-button--primary }
     [:octicons-info-16:](https://gitlab.torproject.org/tpo/anti-censorship/pluggable-transports/snowflake/-/wikis/Technical%20Overview){ .card-link title=Documentação}

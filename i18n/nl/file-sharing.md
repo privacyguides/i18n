@@ -89,7 +89,7 @@ ffsend upload --host https://send.vis.ee/ FILE
     [:octicons-code-16:](https://github.com/nextcloud){ .card-link title="Broncode" }
     [:octicons-heart-16:](https://nextcloud.com/contribute/){ .card-link title=Bijdragen }
     
-    ??? downloads "Downloaden"
+    ??? downloads
     
         - [:simple-googleplay: Google Play](https://play.google.com/store/apps/details?id=com.nextcloud.client)
         - [:simple-appstore: App Store](https://apps.apple.com/app/id1125420102)
@@ -97,7 +97,6 @@ ffsend upload --host https://send.vis.ee/ FILE
         - [:simple-windows11: Windows](https://nextcloud.com/install/#install-clients)
         - [:simple-apple: macOS](https://nextcloud.com/install/#install-clients)
         - [:simple-linux: Linux](https://nextcloud.com/install/#install-clients)
-        - [:simple-freebsd: FreeBSD](https://www.freshports.org/www/nextcloud)
 
 !!! danger "Gevaar"
 
@@ -123,8 +122,6 @@ ffsend upload --host https://send.vis.ee/ FILE
         - [:simple-apple: macOS](https://syncthing.net/downloads/)
         - [:simple-linux: Linux](https://syncthing.net/downloads/)
         - [:simple-freebsd: FreeBSD](https://syncthing.net/downloads/)
-        - [:simple-openbsd: OpenBSD](https://syncthing.net/downloads/)
-        - [:simple-netbsd: NetBSD](https://syncthing.net/downloads/)
 
 ### Criteria
 

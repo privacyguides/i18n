@@ -1,7 +1,7 @@
 ---
-title: "Менеджеры паролей"
+title: "Фронтенды"
 icon: material/flip-to-front
-description: These open-source frontends for various internet services allow you to access content without JavaScript or other annoyances.
+description: Эти фронтенды с открытым исходным кодом для различных интернет-сервисов позволяют получить доступ к содержимому без JavaScript или других раздражающих факторов.
 cover: frontends.png
 ---
 
@@ -23,11 +23,11 @@ When you are using an instance run by someone else, make sure to read the privac
     
     There are a number of public instances, with some instances having [Tor](https://www.torproject.org) onion services support.
     
-    [:octicons-repo-16: Repository](https://github.com/zedeus/nitter){ .md-button .md-button--primary }
-    [:octicons-server-16:](https://github.com/zedeus/nitter/wiki/Instances){ .card-link title="Public Instances"}
-    [:octicons-info-16:](https://github.com/zedeus/nitter/wiki){ .card-link title=Documentation}
-    [:octicons-code-16:](https://github.com/zedeus/nitter){ .card-link title="Source Code" }
-    [:octicons-heart-16:](https://github.com/zedeus/nitter#nitter){ .card-link title=Contribute }
+    [:octicons-repo-16: Репозиторий](https://github.com/zedeus/nitter){ .md-button .md-button--primary }
+    [:octicons-server-16:](https://github.com/zedeus/nitter/wiki/Instances){ .card-link title="Публичный экземпляр"}
+    [:octicons-info-16:](https://github.com/zedeus/nitter/wiki){ .card-link title=Документация}
+    [:octicons-code-16:](https://github.com/zedeus/nitter){ .card-link title="Исходный код" }
+    [:octicons-heart-16:](https://github.com/zedeus/nitter#nitter){ .card-link title=Поддержать }
 
 !!! tip "Совет"
 
@@ -45,10 +45,10 @@ When you are using an instance run by someone else, make sure to read the privac
     
     There are a number of public instances, with some instances having [Tor](https://www.torproject.org) onion services support.
     
-    [:octicons-repo-16: Repository](https://github.com/pablouser1/ProxiTok){ .md-button .md-button--primary }
-    [:octicons-server-16:](https://github.com/pablouser1/ProxiTok/wiki/Public-instances){ .card-link title="Public Instances"}
-    [:octicons-info-16:](https://github.com/pablouser1/ProxiTok/wiki){ .card-link title=Documentation}
-    [:octicons-code-16:](https://github.com/pablouser1/ProxiTok){ .card-link title="Source Code" }
+    [:octicons-repo-16: Репозиторий](https://github.com/pablouser1/ProxiTok){ .md-button .md-button--primary }
+    [:octicons-server-16:](https://github.com/pablouser1/ProxiTok/wiki/Public-instances){ .card-link title="Публичный экземпляр"}
+    [:octicons-info-16:](https://github.com/pablouser1/ProxiTok/wiki){ .card-link title=Документация}
+    [:octicons-code-16:](https://github.com/pablouser1/ProxiTok){ .card-link title="Исходный код" }
 
 !!! tip "Совет"
 
@@ -66,13 +66,13 @@ When you are using an instance run by someone else, make sure to read the privac
     
     By default, FreeTube blocks all YouTube advertisements. In addition, FreeTube optionally integrates with [SponsorBlock](https://sponsor.ajay.app) to help you skip sponsored video segments.
     
-    [:octicons-home-16: Homepage](https://freetubeapp.io){ .md-button .md-button--primary }
-    [:octicons-eye-16:](https://freetubeapp.io/privacy.php){ .card-link title="Privacy Policy" }
-    [:octicons-info-16:](https://docs.freetubeapp.io/){ .card-link title=Documentation}
-    [:octicons-code-16:](https://github.com/FreeTubeApp/FreeTube){ .card-link title="Source Code" }
-    [:octicons-heart-16:](https://liberapay.com/FreeTube){ .card-link title=Contribute }
+    [:octicons-home-16: Домашняя страница](https://freetubeapp.io){ .md-button .md-button--primary }
+    [:octicons-eye-16:](https://freetubeapp.io/privacy.php){ .card-link title="Политика конфиденциальности" }
+    [:octicons-info-16:](https://docs.freetubeapp.io/){ .card-link title=Документация}
+    [:octicons-code-16:](https://github.com/FreeTubeApp/FreeTube){ .card-link title="Исходный код" }
+    [:octicons-heart-16:](https://liberapay.com/FreeTube){ .card-link title=Поддержать }
     
-    ??? downloads
+    ??? downloads "Скачать"
     
         - [:simple-windows11: Windows](https://freetubeapp.io/#download)
         - [:simple-apple: macOS](https://freetubeapp.io/#download)
@@ -93,13 +93,13 @@ When you are using an instance run by someone else, make sure to read the privac
     
     You will need to take a few [extra steps](https://gonzoknows.com/posts/Yattee/) before you can use Yattee to watch YouTube, due to App Store restrictions.
     
-    [:octicons-home-16: Homepage](https://github.com/yattee/yattee){ .md-button .md-button--primary }
-    [:octicons-eye-16:](https://r.yattee.stream/docs/privacy.html){ .card-link title="Privacy Policy" }
-    [:octicons-info-16:](https://github.com/yattee/yattee/wiki){ .card-link title=Documentation}
-    [:octicons-code-16:](https://github.com/yattee/yattee){ .card-link title="Source Code" }
-    [:octicons-heart-16:](https://github.com/yattee/yattee/wiki/Donations){ .card-link title=Contribute }
+    [:octicons-home-16: Домашняя страница](https://github.com/yattee/yattee){ .md-button .md-button--primary }
+    [:octicons-eye-16:](https://r.yattee.stream/docs/privacy.html){ .card-link title="Политика конфиденциальности" }
+    [:octicons-info-16:](https://github.com/yattee/yattee/wiki){ .card-link title=Документация}
+    [:octicons-code-16:](https://github.com/yattee/yattee){ .card-link title="Исходный код" }
+    [:octicons-heart-16:](https://github.com/yattee/yattee/wiki/Donations){ .card-link title=Поддержать }
     
-    ??? downloads
+    ??? downloads "Скачать"
     
         - [:simple-apple: App Store](https://apps.apple.com/us/app/yattee/id1595136629)
         - [:simple-github: GitHub](https://github.com/yattee/yattee/releases)
@@ -114,25 +114,25 @@ By default, Yattee blocks all YouTube advertisements. In addition, Yattee option
 
 !!! recommendation
 
-    ![LibreTube logo](assets/img/frontends/libretube.svg#only-light){ align=right }
-    ![LibreTube logo](assets/img/frontends/libretube-dark.svg#only-dark){ align=right }
+    ![Логотип LibreTube](assets/img/frontends/libretube.svg#only-light){ align=right }
+    ![Логотип LibreTube](assets/img/frontends/libretube-dark.svg#only-dark){ align=right }
     
-    **LibreTube** is a free and open-source Android application for [YouTube](https://youtube.com) which uses the [Piped](#piped) API.
+    **LibreTube** - это бесплатное приложение для Android с открытым исходным кодом для доступа к [YouTube](https://youtube.com), которое использует API [Piped](#piped).
     
-    LibreTube allows you to store your subscription list and playlists locally on your Android device, or to an account on your Piped instance of choice, which allows you to access them seamlessly on other devices as well.
+    LibreTube позволяет хранить список подписок и плейлисты локально на устройстве Android или в учетной записи на выбранном вами экземпляре Piped, что дает возможность беспрепятственного доступа к ним и на других устройствах.
     
-    [:octicons-home-16: Homepage](https://libre-tube.github.io){ .md-button .md-button--primary }
-    [:octicons-eye-16:](https://github.com/libre-tube/LibreTube#privacy-policy-and-disclaimer){ .card-link title="Privacy Policy" }
-    [:octicons-info-16:](https://github.com/libre-tube/LibreTube#readme){ .card-link title=Documentation}
-    [:octicons-code-16:](https://github.com/libre-tube/LibreTube){ .card-link title="Source Code" }
+    [:octicons-home-16: Домашняя страница](https://libre-tube.github.io){ .md-button .md-button--primary }
+    [:octicons-eye-16:](https://github.com/libre-tube/LibreTube#privacy-policy-and-disclaimer){ .card-link title="Политика конфиденциальности" }
+    [:octicons-info-16:](https://github.com/libre-tube/LibreTube#readme){ .card-link title=Документация}
+    [:octicons-code-16:](https://github.com/libre-tube/LibreTube){ .card-link title="Исходный код" }
     
-    ??? downloads
+    ??? downloads "Скачать"
     
         - [:simple-github: GitHub](https://github.com/libre-tube/LibreTube/releases)
 
 !!! warning "Осторожно"
 
-    When using LibreTube, your IP address will be visible to the [Piped](https://github.com/TeamPiped/Piped/wiki/Instances) instance you choose and/or [SponsorBlock](https://sponsor.ajay.app/) depending on your configuration. Consider using a [VPN](vpn.md) or [Tor](https://www.torproject.org) if your [threat model](basics/threat-modeling.md) requires hiding your IP address.
+    При использовании LibreTube ваш IP-адрес будет виден выбранному вами экземпляру [Piped](https://github.com/TeamPiped/Piped/wiki/Instances) и/или [SponsorBlock](https://sponsor.ajay.app/) в зависимости от вашей конфигурации. Consider using a [VPN](vpn.md) or [Tor](https://www.torproject.org) if your [threat model](basics/threat-modeling.md) requires hiding your IP address.
 
 By default, LibreTube blocks all YouTube advertisements. Additionally, Libretube uses [SponsorBlock](https://sponsor.ajay.app) to help you skip sponsored video segments. You are able to fully configure the types of segments that SponsorBlock will skip, or disable it completely. There is also a button on the video player itself to disable it for a specific video if desired.
 
@@ -146,13 +146,13 @@ By default, LibreTube blocks all YouTube advertisements. Additionally, Libretube
     
     Your subscription list and playlists are saved locally on your Android device.
     
-    [:octicons-home-16: Homepage](https://newpipe.net){ .md-button .md-button--primary }
-    [:octicons-eye-16:](https://newpipe.net/legal/privacy){ .card-link title="Privacy Policy" }
-    [:octicons-info-16:](https://teamnewpipe.github.io/documentation/){ .card-link title=Documentation}
-    [:octicons-code-16:](https://github.com/TeamNewPipe/NewPipe){ .card-link title="Source Code" }
-    [:octicons-heart-16:](https://newpipe.net/donate/){ .card-link title=Contribute }
+    [:octicons-home-16: Домашняя страница](https://newpipe.net){ .md-button .md-button--primary }
+    [:octicons-eye-16:](https://newpipe.net/legal/privacy){ .card-link title="Политика конфиденциальности" }
+    [:octicons-info-16:](https://teamnewpipe.github.io/documentation/){ .card-link title=Документация}
+    [:octicons-code-16:](https://github.com/TeamNewPipe/NewPipe){ .card-link title="Исходный код" }
+    [:octicons-heart-16:](https://newpipe.net/donate/){ .card-link title=Поддержать }
     
-    ??? downloads
+    ??? downloads "Скачать"
     
         - [:simple-github: GitHub](https://github.com/TeamNewPipe/NewPipe/releases)
 
@@ -215,9 +215,9 @@ By default, LibreTube blocks all YouTube advertisements. Additionally, Libretube
 
     Мы всё еще работаем над установлением критериев для каждого раздела нашего сайта, поэтому они могут поменяться в будущем. Если у вас есть вопросы по поводу наших критериев, пожалуйста, [задавайте их на нашем форуме](https://discuss.privacyguides.net/latest). Если какой-то критерий здесь не указан, это не значит, что мы его не учли. Перед тем, как рекомендовать какой-либо проект мы учитываем и обсуждаем множество факторов. Документирование этих факторов ещё не завершено.
 
-Recommended frontends...
+Рекомендованные фронтенды...
 
-- Должно иметь открытый исходный код.
+- Должны иметь открытый исходный код.
 - Must be self-hostable.
 - Must provide all basic website functionality available to anonymous users.
 
