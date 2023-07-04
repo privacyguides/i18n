@@ -1,10 +1,10 @@
 *[2FA]: 2-Faktor-Authentifizierung
 *[ADB]: Android Debugging Brücke
 *[AOSP]: Android Open-Source Projekt
-*[ATA]: Advanced Technology Attachment
+*[ATA]: AT Attachment (Standard für die parallele Verbindung von Laufwerken)
 *[attack surface]: Die Gesamtzahl der möglichen Einstiegspunkte für einen unbefugten Zugriff auf ein System
 *[AVB]: Android Verified Boot
-*[cgroups]: Control Groups
+*[cgroups]: Control Groups. Ein Bestandteil des Linux-Kernels, welcher Resourcennutzung isoliert und begrenzt.
 *[CLI]: Kommandozeilen-Schnittstelle
 *[CSV]: Kommagetrennte Werte
 *[CVE]: Häufige Schwachstellen und Gefährdungen
@@ -19,7 +19,7 @@
 *[ECS]: EDNS Client Subnet
 *[EEA]: Europäischer Wirtschaftsraum
 *[entropy]: Ein Maß dafür, wie unvorhersehbar etwas ist
-*[EOL]: End-of-Life
+*[EOL]: Ende des Produktlebens- oder Support-Zyklus. Gemeint ist häufig das Ende der Unterstützung mit Sicherheitsupdates.
 *[Exif]: Exchangeable image file format
 *[FCM]: Firebase Cloud Messaging
 *[FDE]: vollständige Festplattenverschlüsselung

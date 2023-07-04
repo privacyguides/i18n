@@ -1,11 +1,11 @@
 ---
 title: "Агрегаторы новостей"
 icon: octicons/rss-24
-description: These news aggregator clients let you keep up with your favorite blogs and news sites using internet standards like RSS.
+description: Эти агрегаторы новостей позволяют вам следить за любимыми блогами и новостными сайтами, используя такие интернет-стандарты, как RSS.
 cover: news-aggregators.png
 ---
 
-A [news aggregator](https://en.wikipedia.org/wiki/News_aggregator) is a way to keep up with your favorite blogs and news sites.
+[Новостные агрегаторы](https://en.wikipedia.org/wiki/News_aggregator) - это простой способ следить за любимыми блогами и новостными сайтами.
 
 ## Клиенты-агрегаторы
 
@@ -31,9 +31,9 @@ A [news aggregator](https://en.wikipedia.org/wiki/News_aggregator) is a way to k
 
 !!! recommendation
 
-    ![Feeder logo](assets/img/news-aggregators/feeder.png){ align=right }
+    ![Логотип Feeder](assets/img/news-aggregators/feeder.png){ align=right }
     
-    **Feeder** is a modern RSS client for Android that has many [features](https://gitlab.com/spacecowboy/Feeder#features) and works well with folders of RSS feeds. It supports [RSS](https://en.wikipedia.org/wiki/RSS), [Atom](https://en.wikipedia.org/wiki/Atom_(Web_standard)), [RDF](https://en.wikipedia.org/wiki/RDF%2FXML) and [JSON Feed](https://en.wikipedia.org/wiki/JSON_Feed).
+    **Feeder** - это современный RSS-клиент для Android, который имеет множество [функций](https://gitlab.com/spacecowboy/Feeder#features) и хорошо работает с группами RSS-лент. Он поддерживает [RSS](https://ru.wikipedia.org/wiki/RSS), [Atom](https://ru.wikipedia.org/wiki/Atom), [RDF](https://ru.wikipedia.org/wiki/RDF/XML) и [JSON Feed](https://ru.wikipedia.org/wiki/JSON_feed).
     
     [:octicons-repo-16: Репозиторий](https://gitlab.com/spacecowboy/Feeder){ .md-button .md-button--primary }
     [:octicons-code-16:](https://gitlab.com/spacecowboy/Feeder){ .card-link title="Исходный код" }
@@ -47,9 +47,9 @@ A [news aggregator](https://en.wikipedia.org/wiki/News_aggregator) is a way to k
 
 !!! recommendation
 
-    ![Fluent Reader logo](assets/img/news-aggregators/fluent-reader.svg){ align=right }
+    ![Логотип Fluent Reader](assets/img/news-aggregators/fluent-reader.svg){ align=right }
     
-    **Fluent Reader** is a secure cross-platform news aggregator that has useful privacy features such as deletion of cookies on exit, strict [content security policies (CSP)](https://en.wikipedia.org/wiki/Content_Security_Policy) and proxy support, meaning you can use it over [Tor](tor.md).
+    **Fluent Reader** - это безопасный кроссплатформенный агрегатор новостей, обладающий такими полезными функциями конфиденциальности, как удаление cookies при выходе, строгие [политики безопасности контента (CSP)](https://en.wikipedia.org/wiki/Content_Security_Policy) и поддержка прокси, что означает, что вы можете использовать его через [Tor](tor.md).
     
     [:octicons-home-16: Домашняя страница](https://hyliu.me/fluent-reader){ .md-button .md-button--primary }
     [:octicons-eye-16:](https://github.com/yang991178/fluent-reader/wiki/Privacy){ .card-link title="Политика конфиденциальности" }
@@ -66,9 +66,9 @@ A [news aggregator](https://en.wikipedia.org/wiki/News_aggregator) is a way to k
 
 !!! recommendation
 
-    ![GNOME Feeds logo](assets/img/news-aggregators/gfeeds.svg){ align=right }
+    ![Логотип GNOME Feeds](assets/img/news-aggregators/gfeeds.svg){ align=right }
     
-    **GNOME Feeds** is an [RSS](https://en.wikipedia.org/wiki/RSS) and [Atom](https://en.wikipedia.org/wiki/Atom_(Web_standard)) news reader for [GNOME](https://www.gnome.org). It has a simple interface and is quite fast.
+    **GNOME Feeds** - это программа для чтения новостей [RSS](https://ru.wikipedia.org/wiki/RSS) и [Atom](https://ru.wikipedia.org/wiki/Atom) для [GNOME](https://www.gnome.org). Он имеет простой интерфейс и работает довольно быстро.
     
     [:octicons-home-16: Домашняя страница](https://gfeeds.gabmus.org){ .md-button .md-button--primary }
     [:octicons-code-16:](https://gitlab.gnome.org/World/gfeeds){ .card-link title="Исходный код" }
@@ -83,10 +83,10 @@ A [news aggregator](https://en.wikipedia.org/wiki/News_aggregator) is a way to k
 
 !!! recommendation
 
-    ![Miniflux logo](assets/img/news-aggregators/miniflux.svg#only-light){ align=right }
-    ![Miniflux logo](assets/img/news-aggregators/miniflux-dark.svg#only-dark){ align=right }
+    ![Логотип Miniflux](assets/img/news-aggregators/miniflux.svg#only-light){ align=right }
+    ![Логотип Miniflux](assets/img/news-aggregators/miniflux-dark.svg#only-dark){ align=right }
     
-    **Miniflux** is a web-based news aggregator that you can self-host. It supports [RSS](https://en.wikipedia.org/wiki/RSS), [Atom](https://en.wikipedia.org/wiki/Atom_(Web_standard)), [RDF](https://en.wikipedia.org/wiki/RDF%2FXML) and [JSON Feed](https://en.wikipedia.org/wiki/JSON_Feed).
+    **Miniflux** - это веб-агрегатор новостей, который поддерживает самостоятельный хостинг. Он поддерживает [RSS](https://ru.wikipedia.org/wiki/RSS), [Atom](https://ru.wikipedia.org/wiki/Atom), [RDF](https://ru.wikipedia.org/wiki/RDF/XML) и [JSON Feed](https://ru.wikipedia.org/wiki/JSON_feed).
     
     [:octicons-home-16: Домашняя страница](https://miniflux.app){ .md-button .md-button--primary }
     [:octicons-info-16:](https://miniflux.app/docs/index.html){ .card-link title=Документация}
@@ -97,9 +97,9 @@ A [news aggregator](https://en.wikipedia.org/wiki/News_aggregator) is a way to k
 
 !!! recommendation
 
-    ![NetNewsWire logo](assets/img/news-aggregators/netnewswire.png){ align=right }
+    ![Логотип NetNewsWire](assets/img/news-aggregators/netnewswire.png){ align=right }
     
-    **NetNewsWire** a free and open-source feed reader for macOS and iOS with a focus on a native design and feature set. It supports the typical feed formats alongside built-in support for Reddit feeds.
+    **NetNewsWire** - бесплатная программа для чтения лент новостей с открытым исходным кодом для macOS и iOS с упором на нативный дизайн и набор функций. Он поддерживает типичные форматы лент, а также встроенную поддержку лент Reddit.
     
     [:octicons-home-16: Домашняя страница](https://netnewswire.com/){ .md-button .md-button--primary }
     [:octicons-eye-16:](https://netnewswire.com/privacypolicy.html){ .card-link title="Политика конфиденциальности" }
@@ -115,9 +115,9 @@ A [news aggregator](https://en.wikipedia.org/wiki/News_aggregator) is a way to k
 
 !!! recommendation
 
-    ![Newsboat logo](assets/img/news-aggregators/newsboat.svg){ align=right }
+    ![Логотип Newsboat](assets/img/news-aggregators/newsboat.svg){ align=right }
     
-    **Newsboat** is an RSS/Atom feed reader for the text console. It's an actively maintained fork of [Newsbeuter](https://en.wikipedia.org/wiki/Newsbeuter). It is very lightweight, and ideal for use over [Secure Shell](https://en.wikipedia.org/wiki/Secure_Shell).
+    **Newsboat** - это программа для чтения RSS/Atom-лент в текстовой консоли. Это активно поддерживаемый форк [Newsbeuter](https://en.wikipedia.org/wiki/Newsbeuter). Он очень легкий и идеально подходит для использования через [Secure Shell](https://ru.wikipedia.org/wiki/SSH).
     
     [:octicons-home-16: Домашняя страница](https://newsboat.org){ .md-button .md-button--primary }
     [:octicons-info-16:](https://newsboat.org/releases/2.27/docs/newsboat.html){ .card-link title=Документация}
@@ -136,7 +136,7 @@ A [news aggregator](https://en.wikipedia.org/wiki/News_aggregator) is a way to k
 
 ## Поддержка RSS в социальных сетях
 
-Some social media services also support RSS although it's not often advertised.
+Некоторые сервисы социальных сетей также поддерживают RSS, хотя это часто не заявляется.
 
 ### Reddit
 
@@ -163,11 +163,11 @@ Using any of the Nitter [instances](https://github.com/zedeus/nitter/wiki/Instan
 
 ### YouTube
 
-You can subscribe YouTube channels without logging in and associating usage information with your Google Account.
+Вы можете подписаться на каналы YouTube, не входя в систему и не связывая информацию об использовании с вашей учетной записью Google.
 
 !!! example "Пример"
 
     To subscribe to a YouTube channel with an RSS client, first look for your [channel code](https://support.google.com/youtube/answer/6180214), replace `[CHANNEL ID]` below:
     ```text
-    https://www.youtube.com/feeds/videos.xml?channel_id=[CHANNEL ID]
+    https://www.youtube.com/feeds/videos.xml?channel_id=[Идентификатор канала]
     ```

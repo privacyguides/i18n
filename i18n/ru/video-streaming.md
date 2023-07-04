@@ -1,26 +1,28 @@
 ---
 title: "Видеохостинги"
 icon: material/video-wireless
-description: These networks allow you to stream internet content without building an advertising profile based on your interests.
+description: Эти сети позволяют просматривать интернет-контент без создания рекламного профиля на основе ваших интересов.
 cover: video-streaming.png
 ---
 
-Основная угроза при использовании платформ потокового видео заключается в том, что ваши интересы и списки подписчиков могут быть использованы чтобы отслеживать вас. Вам следует сочетать эти инструменты с [VPN](/vpn) или [Tor](https://www.torproject.org/), чтобы усложнить отслеживание вашего использования.
+Основная угроза при использовании платформ потокового видео заключается в том, что ваши интересы и списки подписчиков могут быть использованы, чтобы отслеживать вас. Вам следует сочетать эти инструменты с [VPN](vpn.md) или [Tor](https://www.torproject.org/), чтобы усложнить отслеживание вашего использования.
 
-## Клиенты
+## LBRY
 
 !!! recommendation
 
-    При использовании Freetube ваш IP-адрес по-прежнему известен YouTube, [Invidious](https://instances.invidious.io) и экземплярам SponsorBlock, которые вы используете. It uses a [BitTorrent](https://wikipedia.org/wiki/BitTorrent)-like network to store the video content, and a [blockchain](https://wikipedia.org/wiki/Blockchain) to store the indexes for those videos. The main benefit of this design is censorship resistance.
+    ![Логотип LBRY](assets/img/video-streaming/lbry.svg){ align=right }
     
-    **The LBRY desktop client** helps you stream videos from the LBRY network and stores your subscription list in your own LBRY wallet.
+    **Сеть LBRY** - это децентрализованная сеть обмена видео. Она использует [BitTorrent](https://ru.wikipedia.org/wiki/BitTorrent)-подобную сеть для хранения видео-контента и [блокчейн](https://ru.wikipedia.org/wiki/%D0%91%D0%BB%D0%BE%D0%BA%D1%87%D0%B5%D0%B9%D0%BD) для хранения индексов этих видео. Главное преимущество такого дизайна - устойчивость к цензуре.
     
-    [:octicons-home-16: Homepage](https://lbry.com){ .md-button .md-button--primary }
-    [:octicons-eye-16:](https://lbry.com/privacypolicy){ .card-link title="Privacy Policy" }
-    [:octicons-info-16:](https://lbry.com/faq){ .card-link title=Documentation}
-    [:octicons-code-16:](https://github.com/lbryio/lbry-desktop){ .card-link title="Source Code" }
+    **Клиент LBRY для ПК** поможет вам смотреть видео из сети LBRY и хранить список подписчиков в собственном кошельке LBRY.
     
-    ??? downloads
+    [:octicons-home-16: Домашняя страница](https://lbry.com){ .md-button .md-button--primary }
+    [:octicons-eye-16:](https://lbry.com/privacypolicy){ .card-link title="Политика конфиденциальности" }
+    [:octicons-info-16:](https://lbry.com/faq){ .card-link title=Документация}
+    [:octicons-code-16:](https://github.com/lbryio/lbry-desktop){ .card-link title="Исходный код" }
+    
+    ??? downloads "Скачать"
     
         - [:simple-windows11: Windows](https://lbry.com/windows)
         - [:simple-apple: macOS](https://lbry.com/osx)
@@ -28,15 +30,15 @@ cover: video-streaming.png
 
 !!! note "Примечание"
 
-    Only the **LBRY desktop client** is recommended, as the [Odysee](https://odysee.com) website and the LBRY clients in F-Droid, Play Store, and the App Store have mandatory synchronization and telemetry.
+    Рекомендуется использовать только **настольный клиент LBRY**, так как на сайте [Odysee](https://odysee.com) и в клиентах LBRY в F-Droid, Play Store и App Store синхронизация и телеметрия обязательны.
 
 !!! warning "Осторожно"
 
-    While watching and hosting videos, your IP address is visible to the LBRY network. Consider using a [VPN](vpn.md) or [Tor](https://www.torproject.org) if your [threat model](basics/threat-modeling.md) requires hiding your IP address.
+    Во время просмотра и размещения видео ваш IP-адрес виден сети LBRY. Используйте [VPN](vpn.md) или [Tor](https://www.torproject.org), если ваша [модель угроз](basics/threat-modeling.md) требует скрытия вашего IP-адреса.
 
-We recommend **against** synchronizing your wallet with LBRY Inc., as synchronizing encrypted wallets is not supported yet. If you synchronize your wallet with LBRY Inc., you have to trust them to not look at your subscription list, [LBC](https://lbry.com/faq/earn-credits) funds, or take control of your channel.
+Мы рекомендуем **не синхронизировать** ваш кошелек с LBRY Inc., поскольку синхронизация зашифрованных кошельков пока не поддерживается. Если вы синхронизируете свой кошелек с LBRY Inc., вы должны доверять им в том, что они не будут просматривать ваш список подписок, [баланс LBC](https://lbry.com/faq/earn-credits), или брать под контроль ваш канал.
 
-You can disable *Save hosting data to help the LBRY network* option in :gear: **Settings** → **Advanced Settings**, to avoid exposing your IP address and watched videos when using LBRY for a prolonged period of time.
+Вы можете отключить опцию *Save hosting data to help the LBRY network* в :gear: **Settings** → **Advanced Settings**, чтобы избежать раскрытия вашего IP-адреса и просмотренных видеороликов при длительном использовании LBRY.
 
 ## Критерии
 
@@ -46,5 +48,5 @@ You can disable *Save hosting data to help the LBRY network* option in :gear: **
 
     Мы всё еще работаем над установлением критериев для каждого раздела нашего сайта, поэтому они могут поменяться в будущем. Если у вас есть вопросы по поводу наших критериев, пожалуйста, [задавайте их на нашем форуме](https://discuss.privacyguides.net/latest). Если какой-то критерий здесь не указан, это не значит, что мы его не учли. Перед тем, как рекомендовать какой-либо проект мы учитываем и обсуждаем множество факторов. Документирование этих факторов ещё не завершено.
 
-- Must not require a centralized account to view videos.
-    - Decentralized authentication, such as via a mobile wallet's private key is acceptable.
+- Не должен требовать централизованной учетной записи для просмотра видео.
+    - Допустима децентрализованная аутентификация, например, через приватный ключ мобильного кошелька.

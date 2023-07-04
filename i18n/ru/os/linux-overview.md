@@ -87,37 +87,37 @@ description: Linux - это альтернативная настольная о
 
 ### Swap
 
-Consider using [ZRAM](https://wiki.archlinux.org/title/Swap#zram-generator) or [encrypted swap](https://wiki.archlinux.org/title/Dm-crypt/Swap_encryption) instead of unencrypted swap to avoid potential security issues with sensitive data being pushed to [swap space](https://en.wikipedia.org/wiki/Memory_paging). Дистрибутивы на базе Fedora [по умолчанию используют ZRAM](https://fedoraproject.org/wiki/Changes/SwapOnZRAM).
+Рассмотрите возможность использования [ZRAM](https://wiki.archlinux.org/title/Swap#zram-generator) или [зашифрованного свопа](https://wiki.archlinux.org/title/Dm-crypt/Swap_encryption) вместо незашифрованного свопа, чтобы избежать потенциальных проблем безопасности, связанных с перемещением конфиденциальных данных в [пространство свопа](https://en.wikipedia.org/wiki/Memory_paging). Дистрибутивы на базе Fedora [по умолчанию используют ZRAM](https://fedoraproject.org/wiki/Changes/SwapOnZRAM).
 
 ### Wayland
 
 Мы рекомендуем использовать среду рабочего стола, которая поддерживает графический протокол [Wayland](https://ru.wikipedia.org/wiki/Wayland), поскольку он был разработан [с учетом](https://lwn.net/Articles/589147/) требований безопасности. Его предшественник, [X11](https://en.wikipedia.org/wiki/X_Window_System), не поддерживает изоляцию графического интерфейса, позволяя всем окнам [записывать экран, логи и вводить данные в другие окна](https://blog.invisiblethings.org/2011/04/23/linux-security-circus-on-gui-isolation.html), что делает любые попытки создания "песочницы" бесполезными. Хотя существуют варианты вложенных X11, например [Xpra](https://en.wikipedia.org/wiki/Xpra) или [Xephyr](https://en.wikipedia.org/wiki/Xephyr), они часто имеют негативные последствия для производительности, не удобны в настройке и всё равно хуже Wayland.
 
-К счастью, такие распространенные среды, как [GNOME](https://www.gnome.org), [KDE](https://kde.org) и оконный менеджер [Sway](https://swaywm.org) имеют поддержку Wayland. Some distributions like Fedora and Tumbleweed use it by default, and some others may do so in the future as X11 is in [hard maintenance mode](https://www.phoronix.com/scan.php?page=news_item&px=X.Org-Maintenance-Mode-Quickly). Если вы используете одну из этих сред, можно просто выбрать сессию "Wayland" в менеджере отображения рабочего стола ([GDM](https://en.wikipedia.org/wiki/GNOME_Display_Manager), [SDDM](https://en.wikipedia.org/wiki/Simple_Desktop_Display_Manager)).
+К счастью, такие распространенные среды, как [GNOME](https://www.gnome.org), [KDE](https://kde.org) и оконный менеджер [Sway](https://swaywm.org) имеют поддержку Wayland. Некоторые дистрибутивы, такие как Fedora и Tumbleweed, используют его по умолчанию, а некоторые другие могут сделать это в будущем, поскольку X11 находится в [режиме жесткого обслуживания](https://www.phoronix.com/scan.php?page=news_item&px=X.Org-Maintenance-Mode-Quickly). Если вы используете одну из этих сред, можно просто выбрать сессию "Wayland" в менеджере отображения рабочего стола ([GDM](https://en.wikipedia.org/wiki/GNOME_Display_Manager), [SDDM](https://en.wikipedia.org/wiki/Simple_Desktop_Display_Manager)).
 
 Мы рекомендуем **не использовать** окружения рабочего стола или оконные менеджеры, которые не имеют поддержки Wayland, например Cinnamon (по умолчанию в Linux Mint), Pantheon (стандартный в Elementary OS), MATE, Xfce и i3.
 
 ### Проприетарная прошивка (обновления микрокода)
 
-Linux distributions such as those which are [Linux-libre](https://en.wikipedia.org/wiki/Linux-libre) or DIY (Arch Linux) don’t come with the proprietary [microcode](https://en.wikipedia.org/wiki/Microcode) updates that often patch vulnerabilities. Some notable examples of these vulnerabilities include [Spectre](https://en.wikipedia.org/wiki/Spectre_(security_vulnerability)), [Meltdown](https://en.wikipedia.org/wiki/Meltdown_(security_vulnerability)), [SSB](https://en.wikipedia.org/wiki/Speculative_Store_Bypass), [Foreshadow](https://en.wikipedia.org/wiki/Foreshadow), [MDS](https://en.wikipedia.org/wiki/Microarchitectural_Data_Sampling), [SWAPGS](https://en.wikipedia.org/wiki/SWAPGS_(security_vulnerability)), and other [hardware vulnerabilities](https://www.kernel.org/doc/html/latest/admin-guide/hw-vuln/index.html).
+Такие дистрибутивы Linux, как [Linux-libre](https://en.wikipedia.org/wiki/Linux-libre) или DIY (Arch Linux), не поставляются с собственными обновлениями [микрокода](https://en.wikipedia.org/wiki/Microcode), которые часто исправляют уязвимости. Некоторыми яркими примерами таких уязвимостей являются [Spectre](https://en.wikipedia.org/wiki/Spectre_(security_vulnerability)), [Meltdown](https://en.wikipedia.org/wiki/Meltdown_(security_vulnerability)), [SSB](https://en.wikipedia.org/wiki/Speculative_Store_Bypass), [Foreshadow](https://en.wikipedia.org/wiki/Foreshadow), [MDS](https://en.wikipedia.org/wiki/Microarchitectural_Data_Sampling), [SWAPGS](https://en.wikipedia.org/wiki/SWAPGS_(security_vulnerability)), и других [аппаратные уязвимости](https://www.kernel.org/doc/html/latest/admin-guide/hw-vuln/index.html).
 
-We **highly recommend** that you install the microcode updates, as your CPU is already running the proprietary microcode from the factory. Fedora and openSUSE both have the microcode updates applied by default.
+Мы **настоятельно рекомендуем** устанавливать обновления микрокода, поскольку ваш процессор уже работает под управлением фирменного микрокода с завода. В Fedora и openSUSE обновления микрокода применяются по умолчанию.
 
 ### Обновления
 
-Most Linux distributions will automatically install updates or remind you to do so. It is important to keep your OS up to date so that your software is patched when a vulnerability is found.
+Большинство дистрибутивов Linux автоматически устанавливают обновления или напоминают вам сделать это. Важно поддерживать ОС в актуальном состоянии, чтобы при обнаружении уязвимости программное обеспечение было исправлено.
 
-Some distributions (particularly those aimed at advanced users) are more barebones and expect you to do things yourself (e.g. Arch or Debian). These will require running the "package manager" (`apt`, `pacman`, `dnf`, etc.) manually in order to receive important security updates.
+Некоторые дистрибутивы (особенно предназначенные для опытных пользователей) более "голые" и предполагают, что вы все сделаете сами (например, Arch или Debian). Для получения важных обновлений безопасности потребуется вручную запустить "менеджер пакетов" (`apt`, `pacman`, `dnf` и т.д.).
 
-Additionally, some distributions will not download firmware updates automatically. For that you will need to install [`fwupd`](https://wiki.archlinux.org/title/Fwupd).
+Кроме того, некоторые дистрибутивы не будут автоматически загружать обновления прошивки. Для этого вам нужно установить [`fwupd`](https://wiki.archlinux.org/title/Fwupd).
 
 ## Твики конфиденциальности
 
 ### Рандомизация MAC-адресов
 
-Many desktop Linux distributions (Fedora, openSUSE, etc.) will come with [NetworkManager](https://en.wikipedia.org/wiki/NetworkManager), to configure Ethernet and Wi-Fi settings.
+Многие настольные дистрибутивы Linux (Fedora, openSUSE и т.д.) поставляются с [NetworkManager](https://en.wikipedia.org/wiki/NetworkManager), для настройки параметров Ethernet и Wi-Fi.
 
-It is possible to [randomize](https://fedoramagazine.org/randomize-mac-address-nm/) the [MAC address](https://en.wikipedia.org/wiki/MAC_address) when using NetworkManager. This provides a bit more privacy on Wi-Fi networks as it makes it harder to track specific devices on the network you’re connected to. It does [**not**](https://papers.mathyvanhoef.com/wisec2016.pdf) make you anonymous.
+Можно [рандомизировать](https://fedoramagazine.org/randomize-mac-address-nm/) [MAC-адрес](https://ru.wikipedia.org/wiki/MAC-%D0%B0%D0%B4%D1%80%D0%B5%D1%81) при использовании NetworkManager. This provides a bit more privacy on Wi-Fi networks as it makes it harder to track specific devices on the network you’re connected to. It does [**not**](https://papers.mathyvanhoef.com/wisec2016.pdf) make you anonymous.
 
 We recommend changing the setting to **random** instead of **stable**, as suggested in the [article](https://fedoramagazine.org/randomize-mac-address-nm/).
 

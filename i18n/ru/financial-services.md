@@ -1,48 +1,48 @@
 ---
-title: Financial Services
+title: Финансовые услуги
 icon: material/bank
 cover: financial-services.png
 ---
 
-Making payments online is one of the biggest challenges to privacy. These services can assist you in protecting your privacy from merchants and other trackers, provided you have a strong understanding of how to make private payments effectively. We strongly encourage you first read our payments overview article before making any purchases:
+Платежи в интернете - одно из самых больших испытаний для конфиденциальности. Эти службы могут помочь вам защитить вашу конфиденциальность от продавцов и других отслеживающих устройств, если вы хорошо понимаете, как эффективно осуществлять приватные платежи. Мы настоятельно рекомендуем вам сначала прочитать нашу обзорную статью о платежах, прежде чем совершать какие-либо покупки:
 
-[Making Private Payments :material-arrow-right-drop-circle:](advanced/payments.md ""){.md-button}
+[Совершение приватных платежей :material-arrow-right-drop-circle:](advanced/payments.md ""){.md-button}
 
-## Payment Masking Services
+## Услуги по маскировке платежей
 
-There are a number of services which provide "virtual debit cards" which you can use with online merchants without revealing your actual banking or billing information in most cases. It's important to note that these financial services are **not** anonymous and are subject to "Know Your Customer" (KYC) laws and may require your ID or other identifying information. These services are primarily useful for protecting you from merchant data breaches, less sophisticated tracking or purchase correlation by marketing agencies, and online data theft; and **not** for making a purchase completely anonymously.
+Существует ряд служб, предоставляющих "виртуальные дебетовые карты", которые вы можете использовать в интернет-магазинах, не раскрывая в большинстве случаев свою реальную банковскую или платежную информацию. Важно отметить, что эти финансовые услуги **не** анонимны и подчиняются законам "Знай своего клиента" (KYC) и могут потребовать от вас удостоверение личности или другую идентифицирующую информацию. Эти услуги в первую очередь полезны для защиты от утечки данных продавцов, менее сложного отслеживания или корреляции покупок маркетинговыми агентствами и кражи данных в интернете; но **не** для совершения покупки полностью анонимно.
 
-!!! tip "Check your current bank"
+!!! tip "Проверьте ваш текущий банк"
 
-    Many banks and credit card providers offer native virtual card functionality. If you use one which provides this option already, you should use it over the following recommendations in most cases. That way you are not trusting multiple parties with your personal information.
+    Многие банки и поставщики кредитных карт предлагают встроенные функции виртуальных карт. Если вы уже используете провайдера, который предоставляет такую возможность, в большинстве случаев следует использовать его вместо следующих рекомендаций. Таким образом, вы не доверяете свою личную информацию нескольким лицам.
 
-### Privacy.com (US)
-
-!!! recommendation
-
-    ![Privacy.com logo](assets/img/financial-services/privacy_com.svg#only-light){ align=right }
-    ![Privacy.com logo](assets/img/financial-services/privacy_com-dark.svg#only-dark){ align=right }
-    
-    **Privacy.com**'s free plan allows you to create up to 12 virtual cards per month, set spend limits on those cards, and shut off cards instantly. Their paid plan allows you to create up to 36 cards per month, get 1% cash back on purchases, and hide transaction information from your bank.
-    
-    [:octicons-home-16: Homepage](https://privacy.com){ .md-button .md-button--primary }
-    [:octicons-eye-16:](https://privacy.com/privacy-policy){ .card-link title="Privacy Policy" }
-    [:octicons-info-16:](https://support.privacy.com/hc/en-us){ .card-link title=Documentation}
-
-Privacy.com gives information about the merchants you purchase from to your bank by default. Their paid "discreet merchants" feature hides merchant information from your bank, so your bank only sees that a purchase was made with Privacy.com but not where that money was spent, however that is not foolproof, and of course Privacy.com still has knowledge about the merchants you are spending money with.
-
-### MySudo (US, Paid)
+### Privacy.com (США)
 
 !!! recommendation
 
-    ![MySudo logo](assets/img/financial-services/mysudo.svg#only-light){ align=right }
-    ![MySudo logo](assets/img/financial-services/mysudo-dark.svg#only-dark){ align=right }
+    ![Логотип Privacy.com](assets/img/financial-services/privacy_com.svg#only-light){ align=right }
+    ![Логотип Privacy.com](assets/img/financial-services/privacy_com-dark.svg#only-dark){ align=right }
     
-    **MySudo** provides up to 9 virtual cards depending on the plan you purchase. Their paid plans additionally include functionality which may be useful for making purchases privately, such as virtual phone numbers and email addresses, although we typically recommend other [email aliasing providers](email.md) for extensive email aliasing use.
+    Бесплатный тарифный план **Privacy.com** позволяет создавать до 12 виртуальных карт в месяц, устанавливать лимиты расходов по этим картам и мгновенно отключать карты. Платный тарифный план позволяет создавать до 36 карт в месяц, получать 1% кэшбэка за покупки и скрывать информацию о транзакциях от вашего банка.
     
-    [:octicons-home-16: Homepage](https://mysudo.com/){ .md-button .md-button--primary }
-    [:octicons-eye-16:](https://anonyome.com/privacy-policy/){ .card-link title="Privacy Policy" }
-    [:octicons-info-16:](https://support.mysudo.com/hc/en-us){ .card-link title=Documentation}
+    [:octicons-home-16: Домашняя страница](https://privacy.com){ .md-button .md-button--primary }
+    [:octicons-eye-16:](https://privacy.com/privacy-policy){ .card-link title="Политика конфиденциальности" }
+    [:octicons-info-16:](https://support.privacy.com/hc/en-us){ .card-link title=Документация}
+
+Privacy.com по умолчанию передает информацию о продавцах, у которых вы совершаете покупки, в ваш банк. Их платная функция "скрытых продавцов" скрывает информацию о продавцах от вашего банка, так что ваш банк видит только то, что покупка была сделана с помощью Privacy.com, но не то, куда были потрачены деньги, однако это не является надежной защитой, и, конечно, Privacy.com все равно имеет информацию о продавцах, у которых вы тратите деньги.
+
+### MySudo (США, платно)
+
+!!! recommendation
+
+    ![Логотип MySudo](assets/img/financial-services/mysudo.svg#only-light){ align=right }
+    ![Логотип MySudo](assets/img/financial-services/mysudo-dark.svg#only-dark){ align=right }
+    
+    **MySudo** предоставляет до 9 виртуальных карт в зависимости от приобретенного вами тарифного плана. Их платные тарифные планы дополнительно включают функциональность, которая может быть полезна для совершения покупок в приватном порядке, например, виртуальные номера телефонов и адреса электронной почты, хотя для широкого использования псевдонимов электронной почты мы обычно рекомендуем других [провайдеров псевдонимов электронной почты](email.md).
+    
+    [:octicons-home-16: Домашняя страница](https://mysudo.com/){ .md-button .md-button--primary }
+    [:octicons-eye-16:](https://anonyome.com/privacy-policy/){ .card-link title="Политика конфиденциальности" }
+    [:octicons-info-16:](https://support.mysudo.com/hc/en-us){ .card-link title=Документация}
 
 ### Критерии
 
@@ -52,36 +52,36 @@ Privacy.com gives information about the merchants you purchase from to your bank
 
     Мы всё еще работаем над установлением критериев для каждого раздела нашего сайта, поэтому они могут поменяться в будущем. Если у вас есть вопросы по поводу наших критериев, пожалуйста, [задавайте их на нашем форуме](https://discuss.privacyguides.net/latest). Если какой-то критерий здесь не указан, это не значит, что мы его не учли. Перед тем, как рекомендовать какой-либо проект мы учитываем и обсуждаем множество факторов. Документирование этих факторов ещё не завершено.
 
-- Allows the creation of multiple cards which function as a shield between the merchant and your personal finances.
-- Cards must not require you to provide accurate billing address information to the merchant.
+- Позволяет создавать несколько карт, которые выполняют функцию щита между продавцом и вашими личными финансами.
+- Карты не должны требовать от вас предоставления продавцу точной информации об адресе для выставления счетов.
 
-## Gift Card Marketplaces
+## Маркетплейсы подарочных карт
 
-These services allow you to purchase gift cards for a variety of merchants online with [cryptocurrency](cryptocurrency.md). Some of these services offer ID verification options for higher limits, but they also allow accounts with just an email address. Basic limits typically start at $5,000-10,000 a day for basic accounts, and significantly higher limits for ID verified accounts (if offered).
+Эти сервисы позволяют приобретать подарочные карты для различных онлайн-площадок с помощью [криптовалюты](cryptocurrency.md). Некоторые из этих сервисов предлагают возможность проверки личности для получения более высоких лимитов, но они также позволяют создавать аккаунты, используя только адрес электронной почты. Базовые лимиты обычно начинаются от $5,000-10,000 в день для базовых аккаунтов. Значительно большие лимиты предоставляются для аккаунтов, подтвержденных документами (если такая возможность предлагается).
 
 ### Cake Pay
 
 !!! recommendation
 
-    ![CakePay logo](assets/img/financial-services/cakepay.svg){ align=right }
+    ![Логотип CakePay](assets/img/financial-services/cakepay.svg){ align=right }
     
-    **Cake Pay** allows you to purchase gift cards and related products with Monero. Purchases for USA merchants are available in the Cake Wallet mobile app, while the Cake Pay web app includes a broad selection of global merchants.
+    **Cake Pay** позволяет приобретать подарочные карты и сопутствующие товары с помощью Monero. Покупки для американских продавцов доступны в мобильном приложении Cake Wallet, в то время как веб-приложение Cake Pay включает широкий выбор мировых продавцов.
     
-    [:octicons-home-16: Homepage](https://cakepay.com/){ .md-button .md-button--primary }
-    [:octicons-eye-16:](https://ionia.docsend.com/view/jhjvdn7qq7k3ukwt){ .card-link title="Privacy Policy" }
-    [:octicons-info-16:](https://guides.cakewallet.com/){ .card-link title=Documentation}
+    [:octicons-home-16: Домашняя страница](https://cakepay.com/){ .md-button .md-button--primary }
+    [:octicons-eye-16:](https://ionia.docsend.com/view/jhjvdn7qq7k3ukwt){ .card-link title="Политика конфиденциальности" }
+    [:octicons-info-16:](https://guides.cakewallet.com/){ .card-link title=Документация}
 
 ### CoinCards
 
 !!! recommendation
 
-    ![CoinCards logo](assets/img/financial-services/coincards.svg){ align=right }
+    ![Логотип CoinCards](assets/img/financial-services/coincards.svg){ align=right }
     
-    **CoinCards** (available in the US and Canada) allows you to purchase gift cards for a large variety of merchants.
+    **CoinCards** (доступна в США и Канаде) позволяет приобретать подарочные карты для большого количества продавцов.
     
-    [:octicons-home-16: Homepage](https://coincards.com/){ .md-button .md-button--primary }
-    [:octicons-eye-16:](https://coincards.com/privacy-policy/){ .card-link title="Privacy Policy" }
-    [:octicons-info-16:](https://coincards.com/frequently-asked-questions/){ .card-link title=Documentation}
+    [:octicons-home-16: Домашняя страница](https://coincards.com/){ .md-button .md-button--primary }
+    [:octicons-eye-16:](https://coincards.com/privacy-policy/){ .card-link title="Политика конфиденциальности" }
+    [:octicons-info-16:](https://coincards.com/frequently-asked-questions/){ .card-link title=Документация}
 
 ### Критерии
 
@@ -91,5 +91,5 @@ These services allow you to purchase gift cards for a variety of merchants onlin
 
     Мы всё еще работаем над установлением критериев для каждого раздела нашего сайта, поэтому они могут поменяться в будущем. Если у вас есть вопросы по поводу наших критериев, пожалуйста, [задавайте их на нашем форуме](https://discuss.privacyguides.net/latest). Если какой-то критерий здесь не указан, это не значит, что мы его не учли. Перед тем, как рекомендовать какой-либо проект мы учитываем и обсуждаем множество факторов. Документирование этих факторов ещё не завершено.
 
-- Accepts payment in [a recommended cryptocurrency](cryptocurrency.md).
-- No ID requirement.
+- Принимает оплату в [рекомендуемой криптовалюте](cryptocurrency.md).
+- Не требуется удостоверение личности.

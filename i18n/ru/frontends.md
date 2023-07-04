@@ -5,11 +5,11 @@ description: Эти фронтенды с открытым исходным ко
 cover: frontends.png
 ---
 
-Sometimes services will try to force you to sign up for an account by blocking access to content with annoying popups. They might also break without JavaScript enabled. These frontends can allow you to get around these restrictions.
+Иногда сервисы пытаются заставить вас создать аккаунт, блокируя доступ к контенту с помощью назойливых всплывающих окон. Они также могут не работать без включенного JavaScript. Эти фронтенды могут позволить вам обойти эти ограничения.
 
-If you choose to self-host these frontends, it is important that you have other people using your instance as well in order for you to blend in. You should be careful with where and how you are hosting, as other peoples' usage will be linked to your hosting.
+Если вы решите самостоятельно хостить эти фронтенды, важно, чтобы вашим экземпляром пользовались и другие люди, чтобы вашу активность нельзя было отследить. Вы должны быть осторожны с тем, где и как вы размещаете хостинг, поскольку активность других людей будет связана с вашим хостингом.
 
-When you are using an instance run by someone else, make sure to read the privacy policy of that specific instance. They can be modified by their owners and therefore may not reflect the default policy. Some instances have Tor .onion addresses which may grant some privacy as long as your search queries don't contain PII.
+Если вы используете чей-то экземпляр, обязательно ознакомьтесь с политикой конфиденциальности этого конкретного экземпляра. Они могут быть изменены их владельцами и поэтому могут не отражать политику по умолчанию. Некоторые экземпляры имеют адреса .onion, которые могут обеспечить некоторую конфиденциальность, если ваши поисковые запросы не содержат ПД.
 
 ## Twitter
 
@@ -17,11 +17,11 @@ When you are using an instance run by someone else, make sure to read the privac
 
 !!! recommendation
 
-    ![Nitter logo](assets/img/frontends/nitter.svg){ align=right }
+    ![Логотип Nitter](assets/img/frontends/nitter.svg){ align=right }
     
-    **Nitter** is a free and open-source frontend for [Twitter](https://twitter.com) that is also self-hostable.
+    **Nitter** - это бесплатный фронтенд с открытым исходным кодом для [Twitter](https://twitter.com), который можно самостоятельно хостить.
     
-    There are a number of public instances, with some instances having [Tor](https://www.torproject.org) onion services support.
+    Существует ряд публичных экземпляров, причем некоторые экземпляры имеют поддержку [Tor](https://www.torproject.org).
     
     [:octicons-repo-16: Репозиторий](https://github.com/zedeus/nitter){ .md-button .md-button--primary }
     [:octicons-server-16:](https://github.com/zedeus/nitter/wiki/Instances){ .card-link title="Публичный экземпляр"}
@@ -31,7 +31,7 @@ When you are using an instance run by someone else, make sure to read the privac
 
 !!! tip "Совет"
 
-    Nitter is useful if you want to browse Twitter content without having to log in and if you want to disable JavaScript in your browser, as is the case with [Tor Browser](https://www.torproject.org/) on the Safest security level. It also allows you to [create RSS feeds for Twitter](news-aggregators.md#twitter).
+    Nitter полезен, если вы хотите просматривать содержимое Twitter без входа в аккаунт и если вы хотите отключить JavaScript в своем браузере, как в случае с [Tor Browser](https://www.torproject.org/) с выбранным "высшим" уровне безопасности. Он также позволяет [создавать RSS-ленты для Twitter](news-aggregators.md#twitter).
 
 ## TikTok
 
@@ -39,11 +39,11 @@ When you are using an instance run by someone else, make sure to read the privac
 
 !!! recommendation
 
-    ![ProxiTok logo](assets/img/frontends/proxitok.svg){ align=right }
+    ![Логотип ProxiTok](assets/img/frontends/proxitok.svg){ align=right }
     
-    **ProxiTok** is an open source frontend to the [TikTok](https://www.tiktok.com) website that is also self-hostable.
+    **ProxiTok** - это фронтенд с открытым исходным кодом для [TikTok](https://www.tiktok.com), который можно самостоятельно хостить.
     
-    There are a number of public instances, with some instances having [Tor](https://www.torproject.org) onion services support.
+    Существует ряд публичных экземпляров, причем некоторые экземпляры имеют поддержку [Tor](https://www.torproject.org).
     
     [:octicons-repo-16: Репозиторий](https://github.com/pablouser1/ProxiTok){ .md-button .md-button--primary }
     [:octicons-server-16:](https://github.com/pablouser1/ProxiTok/wiki/Public-instances){ .card-link title="Публичный экземпляр"}
@@ -52,7 +52,7 @@ When you are using an instance run by someone else, make sure to read the privac
 
 !!! tip "Совет"
 
-    ProxiTok is useful if you want to disable JavaScript in your browser, such as [Tor Browser](https://www.torproject.org/) on the Safest security level.
+    ProxiTok полезен, если вы хотите отключить JavaScript в своем браузере, как в случае с [Tor Browser](https://www.torproject.org/) с выбранным "высшим" уровне безопасности.
 
 ## YouTube
 
@@ -60,11 +60,11 @@ When you are using an instance run by someone else, make sure to read the privac
 
 !!! recommendation
 
-    ![FreeTube logo](assets/img/frontends/freetube.svg){ align=right }
+    ![Логотип FreeTube](assets/img/frontends/freetube.svg){ align=right }
     
-    **FreeTube** is a free and open-source desktop application for [YouTube](https://youtube.com). When using FreeTube, your subscription list and playlists are saved locally on your device.
+    **FreeTube** - это бесплатное настольное приложение с открытым исходным кодом для [YouTube](https://youtube.com). Когда вы используете FreeTube, ваш список подписок и плейлисты сохранены локально на вашем устройстве.
     
-    By default, FreeTube blocks all YouTube advertisements. In addition, FreeTube optionally integrates with [SponsorBlock](https://sponsor.ajay.app) to help you skip sponsored video segments.
+    По умолчанию FreeTube блокирует всю рекламу YouTube. Кроме того, FreeTube опционально интегрируется с [SponsorBlock](https://sponsor.ajay.app), чтобы помочь вам пропускать спонсируемые сегменты видео.
     
     [:octicons-home-16: Домашняя страница](https://freetubeapp.io){ .md-button .md-button--primary }
     [:octicons-eye-16:](https://freetubeapp.io/privacy.php){ .card-link title="Политика конфиденциальности" }
@@ -81,17 +81,17 @@ When you are using an instance run by someone else, make sure to read the privac
 
 !!! warning "Осторожно"
 
-    When using FreeTube, your IP address may still be known to YouTube, [Invidious](https://instances.invidious.io) or [SponsorBlock](https://sponsor.ajay.app/) depending on your configuration. Consider using a [VPN](vpn.md) or [Tor](https://www.torproject.org) if your [threat model](basics/threat-modeling.md) requires hiding your IP address.
+    При использовании FreeTube ваш IP-адрес все равно может быть известен YouTube, [Invidious](https://instances.invidious.io) или [SponsorBlock](https://sponsor.ajay.app/) в зависимости от вашей конфигурации. Используйте [VPN](/vpn) или [Tor](https://www.torproject.org), если ваша [модель угроз](/threat-modeling) требует скрытия вашего IP-адреса.
 
 ### Yattee
 
 !!! recommendation
 
-    ![Yattee logo](assets/img/frontends/yattee.svg){ align=right }
+    ![Логотип Yattee](assets/img/frontends/yattee.svg){ align=right }
     
-    **Yattee** is a free and open-source privacy oriented video player for iOS, tvOS and macOS for [YouTube](https://youtube.com). When using Yattee, your subscription list are saved locally on your device.
+    **Yattee** - это бесплатный, ориентированный на конфиденциальность видеоплеер с открытым исходным кодом для iOS, tvOS и macOS для [YouTube](https://youtube.com). При использовании Yattee список подписок сохраняется локально на вашем устройстве.
     
-    You will need to take a few [extra steps](https://gonzoknows.com/posts/Yattee/) before you can use Yattee to watch YouTube, due to App Store restrictions.
+    Вам придется сделать несколько [дополнительных шагов](https://gonzoknows.com/posts/Yattee/), прежде чем вы сможете использовать Yattee для просмотра YouTube, из-за ограничений App Store.
     
     [:octicons-home-16: Домашняя страница](https://github.com/yattee/yattee){ .md-button .md-button--primary }
     [:octicons-eye-16:](https://r.yattee.stream/docs/privacy.html){ .card-link title="Политика конфиденциальности" }
@@ -106,9 +106,9 @@ When you are using an instance run by someone else, make sure to read the privac
 
 !!! warning "Осторожно"
 
-    When using Yattee, your IP address may still be known to YouTube, [Invidious](https://instances.invidious.io), [Piped](https://github.com/TeamPiped/Piped/wiki/Instances) or [SponsorBlock](https://sponsor.ajay.app/) depending on your configuration. Consider using a [VPN](vpn.md) or [Tor](https://www.torproject.org) if your [threat model](basics/threat-modeling.md) requires hiding your IP address.
+    При использовании Yattee ваш IP-адрес все еще может быть известен YouTube, [Invidious](https://instances.invidious.io), [Piped](https://github.com/TeamPiped/Piped/wiki/Instances) или [SponsorBlock](https://sponsor.ajay.app/) в зависимости от вашей конфигурации. Используйте [VPN](/vpn) или [Tor](https://www.torproject.org), если ваша [модель угроз](/threat-modeling) требует скрытия вашего IP-адреса.
 
-By default, Yattee blocks all YouTube advertisements. In addition, Yattee optionally integrates with [SponsorBlock](https://sponsor.ajay.app) to help you skip sponsored video segments.
+По умолчанию Yattee блокирует всю рекламу на YouTube. Кроме того, Yattee опционально интегрируется с [SponsorBlock](https://sponsor.ajay.app), чтобы помочь вам пропускать спонсируемые сегменты видео.
 
 ### LibreTube (Android)
 
@@ -132,19 +132,19 @@ By default, Yattee blocks all YouTube advertisements. In addition, Yattee option
 
 !!! warning "Осторожно"
 
-    При использовании LibreTube ваш IP-адрес будет виден выбранному вами экземпляру [Piped](https://github.com/TeamPiped/Piped/wiki/Instances) и/или [SponsorBlock](https://sponsor.ajay.app/) в зависимости от вашей конфигурации. Consider using a [VPN](vpn.md) or [Tor](https://www.torproject.org) if your [threat model](basics/threat-modeling.md) requires hiding your IP address.
+    При использовании LibreTube ваш IP-адрес будет виден выбранному вами экземпляру [Piped](https://github.com/TeamPiped/Piped/wiki/Instances) и/или [SponsorBlock](https://sponsor.ajay.app/) в зависимости от вашей конфигурации. Используйте [VPN](/vpn) или [Tor](https://www.torproject.org), если ваша [модель угроз](/threat-modeling) требует скрытия вашего IP-адреса.
 
-By default, LibreTube blocks all YouTube advertisements. Additionally, Libretube uses [SponsorBlock](https://sponsor.ajay.app) to help you skip sponsored video segments. You are able to fully configure the types of segments that SponsorBlock will skip, or disable it completely. There is also a button on the video player itself to disable it for a specific video if desired.
+По умолчанию LibreTube блокирует всю рекламу YouTube. Кроме того, Libretube использует [SponsorBlock](https://sponsor.ajay.app), чтобы помочь вам пропускать спонсируемые сегменты видео. Вы можете полностью настроить типы сегментов, которые SponsorBlock будет пропускать, или полностью отключить его. На самом видеоплеере также есть кнопка, позволяющая при желании отключить его для конкретного видео.
 
 ### NewPipe (Android)
 
 !!! recommendation annotate
 
-    ![Newpipe logo](assets/img/frontends/newpipe.svg){ align=right }
+    ![Логотип Newpipe](assets/img/frontends/newpipe.svg){ align=right }
     
-    **NewPipe** is a free and open-source Android application for [YouTube](https://youtube.com), [SoundCloud](https://soundcloud.com), [media.ccc.de](https://media.ccc.de), [Bandcamp](https://bandcamp.com), and [PeerTube](https://joinpeertube.org/) (1).
+    **NewPipe** - это бесплатное приложение для Android с открытым исходным кодом для [YouTube](https://youtube.com), [SoundCloud](https://soundcloud.com), [media.ccc.de](https://media.ccc.de), [Bandcamp](https://bandcamp.com) и [PeerTube](https://joinpeertube.org/) (1).
     
-    Your subscription list and playlists are saved locally on your Android device.
+    Список подписок и плейлисты сохраняются локально на вашем устройстве Android.
     
     [:octicons-home-16: Домашняя страница](https://newpipe.net){ .md-button .md-button--primary }
     [:octicons-eye-16:](https://newpipe.net/legal/privacy){ .card-link title="Политика конфиденциальности" }
@@ -156,56 +156,56 @@ By default, LibreTube blocks all YouTube advertisements. Additionally, Libretube
     
         - [:simple-github: GitHub](https://github.com/TeamNewPipe/NewPipe/releases)
 
-1. The default instance is [FramaTube](https://framatube.org/), however more can be added via **Settings** → **Content** → **PeerTube instances**
+1. По умолчанию используется экземпляр [FramaTube](https://framatube.org/), однако другие экземпляры можно добавить через **Настройки** → **Контент** → **Серверы PeerTube**
 
 !!! warning "Осторожно"
 
-    When using NewPipe, your IP address will be visible to the video providers used. Consider using a [VPN](vpn.md) or [Tor](https://www.torproject.org) if your [threat model](basics/threat-modeling.md) requires hiding your IP address.
+    При использовании NewPipe ваш IP-адрес будет виден используемым видеопровайдерам. Используйте [VPN](/vpn) или [Tor](https://www.torproject.org), если ваша [модель угроз](/threat-modeling) требует скрытия вашего IP-адреса.
 
 ### Invidious
 
 !!! recommendation
 
-    ![Invidious logo](assets/img/frontends/invidious.svg#only-light){ align=right }
-    ![Invidious logo](assets/img/frontends/invidious-dark.svg#only-dark){ align=right }
+    ![Логотип Invidious](assets/img/frontends/invidious.svg#only-light){ align=right }
+    ![Логотип Invidious](assets/img/frontends/invidious-dark.svg#only-dark){ align=right }
     
-    **Invidious** is a free and open-source frontend for [YouTube](https://youtube.com) that is also self-hostable.
+    **Invidious** - это бесплатный фронтенд с открытым исходным кодом для [YouTube](https://youtube.com), который можно самостоятельно хостить.
     
-    There are a number of public instances, with some instances having [Tor](https://www.torproject.org) onion services support.
+    Существует ряд публичных экземпляров, причем некоторые экземпляры имеют поддержку [Tor](https://www.torproject.org).
     
-    [:octicons-home-16: Homepage](https://invidious.io){ .md-button .md-button--primary }
-    [:octicons-server-16:](https://instances.invidious.io){ .card-link title="Public Instances"}
-    [:octicons-info-16:](https://docs.invidious.io/){ .card-link title=Documentation}
-    [:octicons-code-16:](https://github.com/iv-org/invidious){ .card-link title="Source Code" }
-    [:octicons-heart-16:](https://invidious.io/donate/){ .card-link title=Contribute }
+    [:octicons-home-16: Домашняя страница](https://invidious.io){ .md-button .md-button--primary }
+    [:octicons-server-16:](https://instances.invidious.io){ .card-link title="Публичный экземпляр"}
+    [:octicons-info-16:](https://docs.invidious.io/){ .card-link title=Документация}
+    [:octicons-code-16:](https://github.com/iv-org/invidious){ .card-link title="Исходный код" }
+    [:octicons-heart-16:](https://invidious.io/donate/){ .card-link title=Поддержать }
 
 !!! warning "Осторожно"
 
-    Invidious does not proxy video streams by default. Videos watched through Invidious will still make direct connections to Google's servers (e.g. `googlevideo.com`); however, some instances support video proxying—simply enable *Proxy videos* within the instances' settings or add `&local=true` to the URL.
+    По умолчанию Invidious не проксирует видеопотоки. Видео, просматриваемое через Invidious, по-прежнему будет напрямую подключаться к серверам Google (например, `googlevideo.com`); однако некоторые экземпляры поддерживают проксирование видео - просто включите *Proxy videos* в настройках экземпляра или добавьте `&local=true` к URL.
 
 !!! tip "Совет"
 
-    Invidious is useful if you want to disable JavaScript in your browser, such as [Tor Browser](https://www.torproject.org/) on the Safest security level. It does not provide privacy by itself, and we don’t recommend logging into any accounts.
+    Invidious полезен, если вы хотите отключить JavaScript в вашем браузере, например [Tor Browser](https://www.torproject.org/) с выбранным "высшим" уровне безопасности. Сам по себе он не обеспечивает конфиденциальности, и мы не рекомендуем входить в какие-либо учетные записи.
 
 ### Piped
 
 !!! recommendation
 
-    ![Piped logo](assets/img/frontends/piped.svg){ align=right }
+    ![Логотип Piped](assets/img/frontends/piped.svg){ align=right }
     
-    **Piped** is a free and open-source frontend for [YouTube](https://youtube.com) that is also self-hostable.
+    **Piped** - это бесплатный фронтенд с открытым исходным кодом для [YouTube](https://youtube.com), который можно самостоятельно хостить.
     
-    Piped requires JavaScript in order to function and there are a number of public instances.
+    Для работы Piped требуется JavaScript, и существует множество публичных экземпляров.
     
-    [:octicons-repo-16: Repository](https://github.com/TeamPiped/Piped){ .md-button .md-button--primary }
-    [:octicons-server-16:](https://piped.kavin.rocks/preferences#ddlInstanceSelection){ .card-link title="Public Instances"}
-    [:octicons-info-16:](https://piped-docs.kavin.rocks/){ .card-link title=Documentation}
-    [:octicons-code-16:](https://github.com/TeamPiped/Piped){ .card-link title="Source Code" }
-    [:octicons-heart-16:](https://github.com/TeamPiped/Piped#donations){ .card-link title=Contribute }
+    [:octicons-repo-16: Репозиторий](https://github.com/TeamPiped/Piped){ .md-button .md-button--primary }
+    [:octicons-server-16:](https://piped.kavin.rocks/preferences#ddlInstanceSelection){ .card-link title="Публичный экземпляр"}
+    [:octicons-info-16:](https://piped-docs.kavin.rocks/){ .card-link title=Документация}
+    [:octicons-code-16:](https://github.com/TeamPiped/Piped){ .card-link title="Исходный код" }
+    [:octicons-heart-16:](https://github.com/TeamPiped/Piped#donations){ .card-link title=Поддержать }
 
 !!! tip "Совет"
 
-    Piped is useful if you want to use [SponsorBlock](https://sponsor.ajay.app) without installing an extension or to access age-restricted content without an account. It does not provide privacy by itself, and we don’t recommend logging into any accounts.
+    Piped полезен, если вы хотите использовать [SponsorBlock](https://sponsor.ajay.app) без установки расширения или получить доступ к контенту с возрастными ограничениями без учетной записи. Сам по себе он не обеспечивает конфиденциальности, и мы не рекомендуем входить в какие-либо учетные записи.
 
 ## Критерии
 
@@ -218,9 +218,9 @@ By default, LibreTube blocks all YouTube advertisements. Additionally, Libretube
 Рекомендованные фронтенды...
 
 - Должны иметь открытый исходный код.
-- Must be self-hostable.
-- Must provide all basic website functionality available to anonymous users.
+- Должны иметь возможность самостоятельного хостинга.
+- Должны предоставлять все основные функции сайта анонимным пользователям.
 
-We only consider frontends for websites which are...
+Мы рассматриваем фронтенды только для сайтов, которые...
 
-- Not normally accessible without JavaScript.
+- Обычно недоступны без JavaScript.

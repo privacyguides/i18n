@@ -147,7 +147,7 @@ IVPN [adviseert](https://www.ivpn.net/wireguard/) het gebruik van WireGuard met 
 
 #### :material-alert-outline:{ .pg-orange } Remote Port Forwarding
 
-IVPN previously supported port forwarding, but removed the option in [June 2023](https://www.ivpn.net/blog/gradual-removal-of-port-forwarding). Het ontbreken van deze functie kan bepaalde toepassingen negatief beïnvloeden, met name peer-to-peer applicaties zoals torrent clients.
+Mullvad ondersteunde voorheen port forwarding, maar heeft deze optie verwijderd in [Mei 2023](https://www.ivpn.net/blog/gradual-removal-of-port-forwarding). Het ontbreken van deze functie kan bepaalde toepassingen negatief beïnvloeden, met name peer-to-peer applicaties zoals torrent clients.
 
 #### :material-check:{ .pg-green } Mobiele Clients
 

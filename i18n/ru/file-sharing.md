@@ -89,7 +89,7 @@ ffsend upload --host https://send.vis.ee/ FILE
     [:octicons-code-16:](https://github.com/nextcloud){ .card-link title="Исходный код" }
     [:octicons-heart-16:](https://nextcloud.com/contribute/){ .card-link title=Поддержать }
     
-    ??? downloads
+    ??? downloads "Скачать"
     
         - [:simple-googleplay: Google Play](https://play.google.com/store/apps/details?id=com.nextcloud.client)
         - [:simple-appstore: App Store](https://apps.apple.com/app/id1125420102)
@@ -115,7 +115,7 @@ ffsend upload --host https://send.vis.ee/ FILE
     [:octicons-code-16:](https://github.com/syncthing){ .card-link title="Исходный код" }
     [:octicons-heart-16:](https://syncthing.net/donations/){ .card-link title=Поддержать }
     
-    ??? downloads
+    ??? downloads "Скачать"
     
         - [:simple-googleplay: Google Play](https://play.google.com/store/apps/details?id=com.nutomic.syncthingandroid)
         - [:simple-windows11: Windows](https://syncthing.net/downloads/)

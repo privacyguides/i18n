@@ -260,11 +260,11 @@ Die Optionen von Shields können je nach Bedarf für jede Website heruntergestuf
 - [x] Wähle **Immer sichere Verbindungen verwenden**
 - [ ] Entwähle **Privates Fenster mit Tor** (1)
 
-    !!! tip "Sanitizing on Close"
+    !!! tip "Bereinigen beim Beenden"
 
-        - [x] Select **Clear cookies and site data when you close all windows** in the *Cookies and other site data* menu
+        - [x] Wähle **Cookies und Websitedaten löschen, wenn alle Fenster geschlossen werden** im Menü *Cookies und andere Websitedaten*
 
-        If you wish to stay logged in to a particular site you visit often, you can set exceptions on a per-site basis under the *Customized behaviors* section.
+        Wenn du in einer häufig besuchten Webseite eingeloggt bleiben willst, kannst du Ausnahmen pro Seite über den *Benutzerdefinierte Einstellungen*-Bereich auswählen.
 
 </div>
 
@@ -281,13 +281,13 @@ Deaktiviere die integrierten Erweiterungen, die du nicht verwendest, unter **Erw
 
 Die Web3-Funktionen von Brave können deinen Browser-Fingerabdruck und deine Angriffsfläche potenziell vergrößern. Wenn du keine der Funktionen verwendest, sollten sie deaktiviert werden.
 
-Set **Default Ethereum wallet** to **Extensions (no fallback)** Set **Default Solana wallet** to **Extensions (no fallback)** Set **Method to resolve IPFS resources** to **Disabled**
+Setze **Standard-Ethereum-Wallet** auf **Erweiterungen (kein Backup)** Setze **Standard-Solana-Wallet** auf **Erweiterungen (kein Backup)** Setze **Methode zum Lösen von IPFS-Ressourcen** auf **Deaktiviert**
 
 ##### System
 
 <div class="annotate" markdown>
 
-- [ ] Uncheck **Continue running apps when Brave is closed** to disable background apps (1)
+- [ ] Deaktiviere **Apps weiter im Hintergrund ausführen, wenn Brave geschlossen wird** um Hintergrundapps zu deaktivieren (1)
 
 </div>
 
@@ -332,8 +332,8 @@ Wir empfehlen, der [Dokumentation des Entwicklers](https://github.com/gorhill/uB
 
 Dies sind einige andere [Filterlisten](https://github.com/gorhill/uBlock/wiki/Dashboard:-Filter-lists), die du vielleicht hinzufügen möchtest:
 
-- [x] Check **Privacy** > **AdGuard URL Tracking Protection**
-- Add [Actually Legitimate URL Shortener Tool](https://raw.githubusercontent.com/DandelionSprout/adfilt/master/LegitimateURLShortener.txt)
+- [x] Wähle **Datenschutz** > **AdGuard URL Tracking Protection**
+- Füge das [Actually Legitimate URL Shortener Tool](https://raw.githubusercontent.com/DandelionSprout/adfilt/master/LegitimateURLShortener.txt) hinzu
 
 ## Kriterien
 
