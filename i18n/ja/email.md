@@ -10,7 +10,7 @@ cover: email.png
 
 [おすすめのインスタントメッセンジャ](real-time-communication.md ""){.md-button}
 
-それ以外のことについては、持続可能なビジネスモデル、組み込まれたセキュリティとプライバシー機能に基づいていろんな電子メールプロバイダをお勧めします。
+それ以外のことについては、持続可能なビジネスモデル、組み込まれたセキュリティとプライバシー機能に基づいて様々な電子メールプロバイダをお勧めします。
 
 - [OpenPGP対応電子メールプロバイダ :material-arrow-right-drop-circle:](#openpgp-compatible-services)
 - [その他の暗号化プロバイダ :material-arrow-right-drop-circle:](#more-providers)
@@ -344,11 +344,11 @@ For a more manual approach we've picked out these two articles:
 - [Setting up a mail server with OpenSMTPD, Dovecot and Rspamd](https://poolp.org/posts/2019-09-14/setting-up-a-mail-server-with-opensmtpd-dovecot-and-rspamd/) (2019)
 - [How To Run Your Own Mail Server](https://www.c0ffee.net/blog/mail-server-guide/) (August 2017)
 
-## Criteria
+## 基準
 
 **Please note we are not affiliated with any of the providers we recommend.** In addition to [our standard criteria](about/criteria.md), we have developed a clear set of requirements for any Email provider wishing to be recommended, including implementing industry best practices, modern technology and more. We suggest you familiarize yourself with this list before choosing an Email provider, and conduct your own research to ensure the Email provider you choose is the right choice for you.
 
-### Technology
+### テクノロジー
 
 We regard these features as important in order to provide a safe and optimal service. You should consider whether the provider which has the features you require.
 
@@ -359,7 +359,7 @@ We regard these features as important in order to provide a safe and optimal ser
 - Allow users to use their own [domain name](https://en.wikipedia.org/wiki/Domain_name). Custom domain names are important to users because it allows them to maintain their agency from the service, should it turn bad or be acquired by another company which doesn't prioritize privacy.
 - Operates on owned infrastructure, i.e. not built upon third-party email service providers.
 
-**Best Case:**
+**最良の場合：**
 
 - Encrypts all account data (Contacts, Calendars, etc.) at rest with zero-access encryption.
 - Integrated webmail E2EE/PGP encryption provided as a convenience.
@@ -370,9 +370,9 @@ We regard these features as important in order to provide a safe and optimal ser
 - Catch-all or alias functionality for those who own their own domains.
 - Use of standard email access protocols such as IMAP, SMTP or [JMAP](https://en.wikipedia.org/wiki/JSON_Meta_Application_Protocol). Standard access protocols ensure customers can easily download all of their email, should they want to switch to another provider.
 
-### Privacy
+### プライバシー
 
-We prefer our recommended providers to collect as little data as possible.
+私たちは、推奨するプロバイダーができるだけデータを収集しないことを望んでいます。
 
 **Minimum to Qualify:**
 
@@ -380,12 +380,12 @@ We prefer our recommended providers to collect as little data as possible.
 - Don't require personally identifiable information (PII) besides a username and a password.
 - Privacy policy that meets the requirements defined by the GDPR.
 
-**Best Case:**
+**最良の場合：**
 
 - Accepts [anonymous payment options](advanced/payments.md) ([cryptocurrency](cryptocurrency.md), cash, gift cards, etc.)
 - Hosted in a jurisdiction with strong email privacy protection laws.
 
-### Security
+### セキュリティ
 
 Email servers deal with a lot of very sensitive data. We expect that providers will adopt best industry practices in order to protect their members.
 
@@ -407,7 +407,7 @@ Email servers deal with a lot of very sensitive data. We expect that providers w
     - [Subresource Integrity](https://en.wikipedia.org/wiki/Subresource_Integrity) if loading things from external domains.
 - Must support viewing of [Message headers](https://en.wikipedia.org/wiki/Email#Message_header), as it is a crucial forensic feature to determine if an email is a phishing attempt.
 
-**Best Case:**
+**最良の場合：**
 
 - Support for hardware authentication, i.e. U2F and [WebAuthn](https://en.wikipedia.org/wiki/WebAuthn). U2F and WebAuthn are more secure as they use a private key stored on a client-side hardware device to authenticate people, as opposed to a shared secret that is stored on the web server and on the client side when using TOTP. Furthermore, U2F and WebAuthn are more resistant to phishing as their authentication response is based on the authenticated [domain name](https://en.wikipedia.org/wiki/Domain_name).
 - [DNS Certification Authority Authorization (CAA) Resource Record](https://tools.ietf.org/html/rfc6844) in addition to DANE support.
@@ -417,20 +417,20 @@ Email servers deal with a lot of very sensitive data. We expect that providers w
     - [Content Security Policy (CSP)](https://en.wikipedia.org/wiki/Content_Security_Policy)
     - [RFC9163 Expect-CT](https://datatracker.ietf.org/doc/rfc9163/)
 
-### Trust
+### 信頼
 
 You wouldn't trust your finances to someone with a fake identity, so why trust them with your email? We require our recommended providers to be public about their ownership or leadership. We also would like to see frequent transparency reports, especially in regard to how government requests are handled.
 
 **Minimum to Qualify:**
 
-- Public-facing leadership or ownership.
+- 公の場でのリーダーシップやオーナーシップ。
 
-**Best Case:**
+**最良の場合：**
 
-- Public-facing leadership.
-- Frequent transparency reports.
+- 公の場でのリーダーシップ。
+- 頻繁な透明性レポート。
 
-### Marketing
+### マーケティング
 
 With the email providers we recommend we like to see responsible marketing.
 
@@ -438,18 +438,18 @@ With the email providers we recommend we like to see responsible marketing.
 
 - Must self-host analytics (no Google Analytics, Adobe Analytics, etc.). The provider's site must also comply with [DNT (Do Not Track)](https://en.wikipedia.org/wiki/Do_Not_Track) for those who wish to opt-out.
 
-Must not have any marketing which is irresponsible:
+無責任なマーケティングをしてはいけない：
 
 - Claims of "unbreakable encryption." Encryption should be used with the intention that it may not be secret in the future when the technology exists to crack it.
-- Making guarantees of protecting anonymity 100%. When someone makes a claim that something is 100% it means there is no certainty for failure. We know people can quite easily deanonymize themselves in a number of ways, e.g.:
+- 匿名性を100％保証すること。 誰かが何かを100％だと主張するとき、それは失敗の確実性がないことを意味します。 私たちは、人々が多くの方法で簡単に匿名化を解除できることを知っています：
 
 - Reusing personal information e.g. (email accounts, unique pseudonyms, etc.) that they accessed without anonymity software (Tor, VPN, etc.)
-- [Browser fingerprinting](https://en.wikipedia.org/wiki/Device_fingerprint#Browser_fingerprint)
+- [ブラウザフィンガープリント](https://en.wikipedia.org/wiki/Device_fingerprint#Browser_fingerprint)
 
-**Best Case:**
+**最良の場合：**
 
 - Clear and easy to read documentation. This includes things like, setting up 2FA, email clients, OpenPGP, etc.
 
-### Additional Functionality
+### 追加機能
 
 While not strictly requirements, there are some other convenience or privacy factors we looked into when determining which providers to recommend.

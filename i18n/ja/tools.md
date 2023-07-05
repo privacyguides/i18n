@@ -1,13 +1,13 @@
 ---
-meta_title: "The Best Privacy Tools, Services, and Ad-Free Recommendations - Privacy Guides"
-title: "Privacy Tools"
+meta_title: "最高のプライバシーツール、サービス、広告なしの推奨事項 - Privacy Guides"
+title: "プライバシーツール"
 icon: material/tools
 hide:
   - toc
-description: Privacy Guides is the most transparent and reliable website for finding software, apps, and services that protect your personal data from mass surveillance programs and other internet threats.
+description: Privacy Guidesは、大規模監視プログラムやその他のインターネットの脅威から個人データを保護するソフトウェア、アプリ、サービスを見つけるための最も透明性が高く信頼できる Web サイトです。
 ---
 
-If you're looking for a specific solution to something, these are the hardware and software tools we recommend in a variety of categories. Our recommended privacy tools are primarily chosen based on security features, with additional emphasis on decentralized and open-source tools. They are applicable to a variety of threat models ranging from protection against global mass surveillance programs and avoiding big tech companies to mitigating attacks, but only you can determine what will work best for your needs.
+何か特定のソリューションをお探しなら、様々なカテゴリーでお勧めのハードウェアとソフトウェアのツールをご紹介します。 私たちが推奨するプライバシーツールは、主にセキュリティ機能に基づいて選択されており、さらに分散型やオープンソースのツールに重点を置いています。 これらは、世界的な大規模監視プログラムからの保護や大手ハイテク企業の回避から攻撃の緩和まで、さまざまな脅威モデルに適用できます。しかし、あなただけがあなたのニーズに最適であるかを判断できます。
 
 If you want assistance figuring out the best privacy tools and alternative programs for your needs, start a discussion on our [forum](https://discuss.privacyguides.net/) or our [Matrix](https://matrix.to/#/#privacyguides:matrix.org) community!
 

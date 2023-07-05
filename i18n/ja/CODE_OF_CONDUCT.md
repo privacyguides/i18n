@@ -1,53 +1,53 @@
-# Community Code of Conduct
+# コミュニティ行動規範
 
-**We pledge** to make our community a harassment-free experience for everyone.
+**私たちは誓います** 誰にとってもハラスメントのないコミュニティにすることを誓います。
 
-**We strive** to create a positive environment, using welcoming and inclusive language, and being respectful of the viewpoints of others.
+**私たちは努力します** 歓迎と包括的な言葉を使い、他者の視点を尊重しながら、前向きな環境づくりに努めています。
 
-**We do not allow** inappropriate or otherwise unacceptable behavior, such as sexualized language, trolling and insulting comments, or otherwise promoting intolerance or harassment.
+**私たちは許可しません** 性的な表現、荒らしや侮辱的なコメント、不寛容やハラスメントの助長など、不適切な行為やその他の容認できない行為を許可しません。
 
-## Community Standards
+## コミュニティ規定
 
-What we expect from members of our communities:
+コミュニティのメンバーに期待されること
 
-1. **Don't spread misinformation**
+1. **誤った情報を広めない**
 
-      We are creating an evidence-based educational community around information privacy and security, not a home for conspiracy theories. For example, when making a claim that a certain piece of software is malicious or that certain telemetry data is privacy invasive, explain in detail what is collected and how it collected. Claims of this nature must be backed by technical evidence.
+      私たちは、陰謀論の本拠地ではなく、情報プライバシーとセキュリティに関する証拠に基づいた教育コミュニティを構築しています。 たとえば、特定のソフトウェアが悪意のあるものであると主張する場合、または特定のテレメトリーデータがプライバシーを侵害していると主張する場合、 収集される内容と収集方法を詳細に説明してください。 このような主張は、技術的な証拠によって裏付けられている必要があります。
 
-1. **Don't abuse our willingness to help**
+1. **私たちの助けたいという意志を悪用しないでください**
 
-      Our community members are not your free tech support. We are happy to help you with specific steps on your privacy journey if you are willing to put in effort on your end. We are not willing to answer endlessly repeated questions about generic computer problems you could have answered yourself with a 30-second internet search. Don't be a [help vampire](https://slash7.com/2006/12/22/vampires/).
+      私たちのコミュニティメンバーは、あなたの無料の技術サポートではありません。 私たちは、あなたが自身によって努力を惜しまないのであれば、あなたのプライバシーへの取り組みにおける具体的なステップを喜んでお手伝いします。 インターネットで 30 秒検索すれば答えられるような一般的なコンピューターの問題について、際限なく繰り返される質問に答えるつもりはありません。 [help vampire](https://slash7.com/2006/12/22/vampires/) にならないでください。
 
-1. **Behave in a positive and constructive manner**
+1. **前向きかつ建設的な態度で行動する**
 
-      Examples of behavior that contributes to a positive environment for our community include:
+      前向きな環境を作り上げることに貢献する行動の例：
 
-      - Demonstrating empathy and kindness toward other people
-      - Being respectful of differing opinions, viewpoints, and experiences
-      - Giving and gracefully accepting constructive feedback
-      - Accepting responsibility and apologizing to those affected by our mistakes, and learning from the experience
-      - Focusing on what is best not just for us as individuals, but for the overall community
+      - 他人に対する共感と優しさを示す
+      - 異なる意見、視点、経験を尊重する
+      - 建設的なフィードバックを提供し、適切に受け入れる
+      - 自らの過ちによって影響を受けた人々に責任を認めて謝罪し、経験から学ぶ
+      - 私たち個人だけでなく、コミュニティ全体にとって何が最善であるかに焦点を当てる
 
-### Unacceptable Behavior
+### 容認できない行為
 
-The following behaviors are considered harassment and are unacceptable within our community:
+以下の行為はハラスメントとみなされ、私たちのコミュニティでは容認されません：
 
-- The use of sexualized language or imagery, and sexual attention or advances of any kind
-- Trolling, insulting or derogatory comments, and personal or political attacks
-- Public or private harassment
-- Publishing others' private information, such as a physical or email address, without their explicit permission
-- Other conduct which could reasonably be considered inappropriate in a professional setting
+- 性的な言葉や画像の使用、およびあらゆる種類の性的注目や性的誘い
+- 荒らし行為、侮辱的または軽蔑的なコメント、個人的または政治的な攻撃
+- 公的または私的な嫌がらせ
+- 明示的な許可なしに、住所やメールアドレスなどの他人の個人情報を公開すること
+- その他、プロフェッショナルとして不適切であると合理的に考えられる行為
 
-## Scope
+## 対象範囲
 
-Our Code of Conduct applies within all project spaces, as well as when an individual is representing the Privacy Guides project in other communities.
+私たちの行動規範は、すべてのプロジェクトスペースで適用されるだけでなく、個人が他のコミュニティでPrivacy Guides プロジェクトを代表する場合にも適用されます。
 
-We are responsible for clarifying the standards of our community, and have the right to remove or alter the comments of those participating within our community, as necessary and at our discretion.
+私たちはコミュニティの基準を明確にする責任があり、必要に応じて私たちの裁量でコミュニティに参加している人のコメントを削除または変更する権利を有します。
 
-### Contact
+### 連絡先
 
-If you observe a problem on a platform like Matrix or Reddit, please contact our moderators on that platform in chat, via DM, or through any designated "Modmail" system.
+MatrixやRedditのようなプラットフォームで問題が発生した場合は、そのプラットフォームのモデレーターにチャット、DM、または指定された「Modmail」システムを通じて連絡してください。
 
-If you have a problem elsewhere, or a problem our community moderators are unable to resolve, reach out to `jonah@privacyguides.org` and/or `dngray@privacyguides.org`.
+他の場所で問題が発生した場合、またはコミュニティのモデレーターが解決できない場合は、 `jonah@privacyguides.org` および/または `dngray@privacyguides.org`までご連絡ください。
 
-All community leaders are obligated to respect the privacy and security of the reporter of any incident.
+すべてのコミュニティのリーダーは、あらゆる事件の報告者のプライバシーと安全を尊重する義務があります。

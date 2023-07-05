@@ -2,11 +2,11 @@
 meta_title: "プライベートVPNサービスのおすすめと比較、スポンサーや広告なし - Privacy Guides"
 title: "VPNサービス"
 icon: material/vpn
-description: These are the best VPN services for protecting your privacy and security online. Find a provider here that isn’t out to spy on you.
+description: これらは、あなたのプライバシーとセキュリティをオンラインで保護するための最高のVPNサービスです。 ここで、あなたを監視しようとしないプロバイダーを見つけてください。
 cover: vpn.png
 ---
 
-ISPや公共Wi-Fiネットワークでの、またはファイルのトレンド中の、追加の**プライバシー保護**手段をお探しの場合で、リスクを理解している場合は、VPNはあなたにとっての解決策になるかもしれません。 以下のプロバイダは他のプロバイダと比較して洗練されていると、私たちは考えています。
+ISPや公共Wi-Fiネットワーク、またはファイルのTorrent中の、追加の**プライバシー保護**手段をお探しの場合で、リスクを理解している場合は、VPNはあなたにとっての解決策になるかもしれません。 以下のプロバイダは他のプロバイダと比較して洗練されていると、私たちは考えています。
 
 <div class="grid cards" markdown>
 
@@ -24,13 +24,13 @@ ISPや公共Wi-Fiネットワークでの、またはファイルのトレンド
     
     追加の**セキュリティ**を確保したい場合は、ウェブサイトへの接続に常にHTTPSを使用するのが有効です。 VPNは、優れたセキュリティ対策の代わりにはなりません。
     
-    [Download Tor](https://www.torproject.org/){ .md-button .md-button--primary } [Tor Myths & FAQ](advanced/tor-overview.md){ .md-button }
+    [Torをダウンロード](https://www.torproject.org/){ .md-button .md-button--primary } [Torの神話とよくある質問](advanced/tor-overview.md){ .md-button }
 
-[Detailed VPN Overview :material-arrow-right-drop-circle:](basics/vpn-overview.md ""){.md-button}
+[VPNの詳細な概要 :material-arrow-right-drop-circle:](basics/vpn-overview.md ""){.md-button}
 
-## おすすめのプロバイダ
+## 推奨プロバイダー
 
-私たちがおすすめするプロバイダは、暗号化を使用し、Moneroを受け入れ、WireGuardとOpenVPNに対応し、ノーログポリシーを持っています。 Read our [full list of criteria](#criteria) for more information.
+私たちがおすすめするプロバイダは、暗号化を使用し、Moneroを受け入れ、WireGuardとOpenVPNに対応し、ノーログポリシーを持っています。 詳細については、[基準の完全なリスト](#criteria)をお読みください。
 
 ### Proton VPN
 
@@ -38,7 +38,7 @@ ISPや公共Wi-Fiネットワークでの、またはファイルのトレンド
 
     ![Proton VPN logo](assets/img/vpn/protonvpn.svg){ align=right }
     
-    **Proton VPN** is a strong contender in the VPN space, and they have been in operation since 2016. Proton AG is based in Switzerland and offers a limited free tier, as well as a more featured premium option.
+    **Proton VPN**はVPN分野の強力な候補であり、2016 年から運営されています。 Proton AGはスイスに本社を置き、限定的な無料層と、より機能的なプレミアムオプションを提供している。
     
     [:octicons-home-16: Homepage](https://protonvpn.com/){ .md-button .md-button--primary }
     [:octicons-eye-16:](https://protonvpn.com/privacy-policy){ .card-link title="Privacy Policy" }
@@ -153,7 +153,7 @@ IVPN previously supported port forwarding, but removed the option in [June 2023]
 
 In addition to providing standard OpenVPN configuration files, IVPN has mobile clients for [App Store](https://apps.apple.com/us/app/ivpn-serious-privacy-protection/id1193122683), [Google Play](https://play.google.com/store/apps/details?id=net.ivpn.client), and [GitHub](https://github.com/ivpn/android-app/releases) allowing for easy connections to their servers.
 
-#### :material-information-outline:{ .pg-blue } Additional Functionality
+#### :material-information-outline:{ .pg-blue } 追加機能
 
 IVPN clients support two factor authentication (Mullvad's clients do not). IVPN also provides "[AntiTracker](https://www.ivpn.net/antitracker)" functionality, which blocks advertising networks and trackers from the network level.
 
@@ -163,7 +163,7 @@ IVPN clients support two factor authentication (Mullvad's clients do not). IVPN 
 
     ![Mullvad logo](assets/img/vpn/mullvad.svg){ align=right }
     
-    **Mullvad** is a fast and inexpensive VPN with a serious focus on transparency and security. They have been in operation since **2009**. Mullvadの拠点はスウェーデンで、フリートライアルはありません。
+    **Mullvad**は、透明性とセキュリティに重点を置いた、高速で安価なVPNです。 **2009年**から運営されています。 Mullvadの拠点はスウェーデンで、フリートライアルはありません。
     
     [:octicons-home-16: Homepage](https://mullvad.net){ .md-button .md-button--primary }
     [:simple-torbrowser:](http://o54hon2e2vj6c7m3aqqu6uyece65by3vgoxxhlqlsvkmacw6a7m7kiad.onion){ .card-link title="Onion Service" }
@@ -227,19 +227,19 @@ Mullvad previously supported port forwarding, but removed the option in [May 202
 
 Mullvad has published [App Store](https://apps.apple.com/app/mullvad-vpn/id1488466513) and [Google Play](https://play.google.com/store/apps/details?id=net.mullvad.mullvadvpn) clients, both supporting an easy-to-use interface as opposed to requiring you to manually configure your WireGuard connection. The Android client is also available on [GitHub](https://github.com/mullvad/mullvadvpn-app/releases).
 
-#### :material-information-outline:{ .pg-blue } Additional Functionality
+#### :material-information-outline:{ .pg-blue } 追加機能
 
-Mullvad is very transparent about which nodes they [own or rent](https://mullvad.net/en/servers/). They use [ShadowSocks](https://shadowsocks.org/) in their ShadowSocks + OpenVPN configuration, making them more resistant against firewalls with [Deep Packet Inspection](https://en.wikipedia.org/wiki/Deep_packet_inspection) trying to block VPNs. Supposedly, [China has to use a different method to block ShadowSocks servers](https://github.com/net4people/bbs/issues/22). Mullvad's website is also accessible via Tor at [o54hon2e2vj6c7m3aqqu6uyece65by3vgoxxhlqlsvkmacw6a7m7kiad.onion](http://o54hon2e2vj6c7m3aqqu6uyece65by3vgoxxhlqlsvkmacw6a7m7kiad.onion).
+Mullvadは、どのノードを[所有またはレンタル](https://mullvad.net/en/servers/)しているのかについて非常に透明性があります。 They use [ShadowSocks](https://shadowsocks.org/) in their ShadowSocks + OpenVPN configuration, making them more resistant against firewalls with [Deep Packet Inspection](https://en.wikipedia.org/wiki/Deep_packet_inspection) trying to block VPNs. Supposedly, [China has to use a different method to block ShadowSocks servers](https://github.com/net4people/bbs/issues/22). Mullvad's website is also accessible via Tor at [o54hon2e2vj6c7m3aqqu6uyece65by3vgoxxhlqlsvkmacw6a7m7kiad.onion](http://o54hon2e2vj6c7m3aqqu6uyece65by3vgoxxhlqlsvkmacw6a7m7kiad.onion).
 
-## Criteria
+## 基準
 
-!!! danger
+!!! 危険
 
     It is important to note that using a VPN provider will not make you anonymous, but it will give you better privacy in certain situations. A VPN is not a tool for illegal activities. Don't rely on a "no log" policy.
 
 **Please note we are not affiliated with any of the providers we recommend. This allows us to provide completely objective recommendations.** In addition to [our standard criteria](about/criteria.md), we have developed a clear set of requirements for any VPN provider wishing to be recommended, including strong encryption, independent security audits, modern technology, and more. We suggest you familiarize yourself with this list before choosing a VPN provider, and conduct your own research to ensure the VPN provider you choose is as trustworthy as possible.
 
-### Technology
+### テクノロジー
 
 We require all our recommended VPN providers to provide OpenVPN configuration files to be used in any client. **If** a VPN provides their own custom client, we require a killswitch to block network data leaks when disconnected.
 
@@ -250,81 +250,81 @@ We require all our recommended VPN providers to provide OpenVPN configuration fi
 - Multihop support. Multihopping is important to keep data private in case of a single node compromise.
 - If VPN clients are provided, they should be [open-source](https://en.wikipedia.org/wiki/Open_source), like the VPN software they generally have built into them. We believe that [source code](https://en.wikipedia.org/wiki/Source_code) availability provides greater transparency about what your device is actually doing.
 
-**Best Case:**
+**最良の場合：**
 
-- WireGuard and OpenVPN support.
-- Killswitch with highly configurable options (enable/disable on certain networks, on boot, etc.)
-- Easy-to-use VPN clients
-- Supports [IPv6](https://en.wikipedia.org/wiki/IPv6). We expect that servers will allow incoming connections via IPv6 and allow you to access services hosted on IPv6 addresses.
-- Capability of [remote port forwarding](https://en.wikipedia.org/wiki/Port_forwarding#Remote_port_forwarding) assists in creating connections when using P2P ([Peer-to-Peer](https://en.wikipedia.org/wiki/Peer-to-peer)) file sharing software or hosting a server (e.g., Mumble).
+- WireGuardとOpenVPNをサポート。
+- 高度に構成可能なオプションを備えたキルスイッチ（特定のネットワークや起動時などで有効/無効）
+- 使いやすいVPNクライアント
+- [IPv6](https://en.wikipedia.org/wiki/IPv6)をサポートする。 サーバーがIPv6経由の着信接続を許可し、IPv6アドレスでホストされているサービスにアクセスできるようになることを期待しています。
+- [リモートポート転送](https://en.wikipedia.org/wiki/Port_forwarding#Remote_port_forwarding) 機能はP2P（[Peer-to-Peer](https://en.wikipedia.org/wiki/Peer-to-peer)）ファイル共有ソフトウェアの使用時やサーバー（Mumbleなど）のホスト時に接続を作成するのに役立ちます。
 
-### Privacy
+### プライバシー
 
-We prefer our recommended providers to collect as little data as possible. Not collecting personal information on registration, and accepting anonymous forms of payment are required.
+私たちは、推奨するプロバイダーができるだけデータを収集しないことを望んでいます。 登録時に個人情報を収集しないこと、匿名の支払い方法を受け入れることが求められます。
 
-**Minimum to Qualify:**
+**最低条件：**
 
-- [Anonymous cryptocurrency](cryptocurrency.md) **or** cash payment option.
-- No personal information required to register: Only username, password, and email at most.
+- [匿名の仮想通貨](cryptocurrency.md)**もしくは**現金支払いオプション。
+- 登録に個人情報が必要ありません。最大でもユーザー名、パスワード、電子メールのみです。
 
-**Best Case:**
+**最良の場合：**
 
-- Accepts multiple [anonymous payment options](advanced/payments.md).
-- No personal information accepted (autogenerated username, no email required, etc.).
+- 複数の[匿名支払いオプション](advanced/payments.md)に対応。
+- 個人情報が一切必要ありません。（自動生成されたユーザー名、電子メールは必要ないなど）
 
-### Security
+### セキュリティ
 
 A VPN is pointless if it can't even provide adequate security. We require all our recommended providers to abide by current security standards for their OpenVPN connections. Ideally, they would use more future-proof encryption schemes by default. We also require an independent third-party to audit the provider's security, ideally in a very comprehensive manner and on a repeated (yearly) basis.
 
-**Minimum to Qualify:**
+**最低条件：**
 
 - Strong Encryption Schemes: OpenVPN with SHA-256 authentication; RSA-2048 or better handshake; AES-256-GCM or AES-256-CBC data encryption.
 - Forward Secrecy.
 - Published security audits from a reputable third-party firm.
 
-**Best Case:**
+**最良の場合：**
 
 - Strongest Encryption: RSA-4096.
 - Forward Secrecy.
 - Comprehensive published security audits from a reputable third-party firm.
 - Bug-bounty programs and/or a coordinated vulnerability-disclosure process.
 
-### Trust
+### 信頼
 
 You wouldn't trust your finances to someone with a fake identity, so why trust them with your internet data? We require our recommended providers to be public about their ownership or leadership. We also would like to see frequent transparency reports, especially in regard to how government requests are handled.
 
-**Minimum to Qualify:**
+**最低条件：**
 
-- Public-facing leadership or ownership.
+- 公の場でのリーダーシップやオーナーシップ。
 
-**Best Case:**
+**最良の場合：**
 
-- Public-facing leadership.
-- Frequent transparency reports.
+- 公の場でのリーダーシップ。
+- 頻繁な透明性レポート。
 
-### Marketing
+### マーケティング
 
-With the VPN providers we recommend we like to see responsible marketing.
+私たちが推薦するVPNプロバイダーには、責任あるマーケティングを求めます。
 
-**Minimum to Qualify:**
+**最低条件：**
 
-- Must self-host analytics (i.e., no Google Analytics). The provider's site must also comply with [DNT (Do Not Track)](https://en.wikipedia.org/wiki/Do_Not_Track) for people who want to opt-out.
+- アナリティクスを自己ホストする必要があります。（つまり、Googleアナリティクスは不可） プロバイダーのサイトは、オプトアウトを希望するユーザーのために [DNT (Do Not Track)](https://en.wikipedia.org/wiki/Do_Not_Track) に準拠しなければならない。
 
-Must not have any marketing which is irresponsible:
+無責任なマーケティングをしてはいけない：
 
-- Making guarantees of protecting anonymity 100%. When someone makes a claim that something is 100% it means there is no certainty for failure. We know people can quite easily deanonymize themselves in a number of ways, e.g.:
-    - Reusing personal information (e.g., email accounts, unique pseudonyms, etc.) that they accessed without anonymity software (Tor, VPN, etc.)
-    - [Browser fingerprinting](https://en.wikipedia.org/wiki/Device_fingerprint#Browser_fingerprint)
-- Claim that a single circuit VPN is "more anonymous" than Tor, which is a circuit of three or more hops that regularly changes.
-- Use responsible language: i.e., it is okay to say that a VPN is "disconnected" or "not connected", however claiming that someone is "exposed", "vulnerable" or "compromised" is needless use of alarming language that may be incorrect. For example, that person might simply be on another VPN provider's service or using Tor.
+- 匿名性を100％保証すること。 誰かが何かを100％だと主張するとき、それは失敗の確実性がないことを意味します。 私たちは、人々が多くの方法で簡単に匿名化を解除できることを知っています：
+    - 匿名化ソフトウェア（Tor、VPNなど）を使用せずにアクセスした個人情報（メールアカウント、固有のペンネームなど）を再利用する。
+    - [ブラウザフィンガープリント](https://en.wikipedia.org/wiki/Device_fingerprint#Browser_fingerprint)
+- 単一回線のVPNは、定期的に変更される3ホップ以上の回線であるTorよりも「匿名性が高い」と主張する。
+- 責任ある言葉を使用してください：つまり、VPNが「切断されている」または「接続されていない」と言うのは問題ありませんが、誰かが「公開されている」、「脆弱」、または「侵害されている」と主張することは、正しくない可能性のある憂慮すべき言葉を不必要に使用することです。 例えば、その人は単に他のVPNプロバイダーのサービスを利用しているだけかもしれないし、Torを使っているだけかもしれない。
 
-**Best Case:**
+**最良の場合：**
 
-Responsible marketing that is both educational and useful to the consumer could include:
+教育的かつ消費者にとって有用な責任あるマーケティングには以下のものがあります:
 
-- An accurate comparison to when [Tor](tor.md) should be used instead.
-- Availability of the VPN provider's website over a [.onion service](https://en.wikipedia.org/wiki/.onion)
+- 代わりに[Tor](tor.md)を使用する必要がある場合との正確な比較。
+- [.onion サービス](https://en.wikipedia.org/wiki/.onion)を介したVPNプロバイダーのウェブサイトの利用可能性
 
-### Additional Functionality
+### 追加機能
 
 While not strictly requirements, there are some factors we looked into when determining which providers to recommend. These include adblocking/tracker-blocking functionality, warrant canaries, multihop connections, excellent customer support, the number of allowed simultaneous connections, etc.

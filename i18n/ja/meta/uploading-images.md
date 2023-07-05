@@ -1,23 +1,23 @@
 ---
-title: Uploading Images
+title: 画像のアップロード
 ---
 
-Here are a couple of general rules for contributing to Privacy Guides:
+プライバシーガイドに投稿する際の一般的なルールをいくつか紹介します：
 
-## Images
+## 画像
 
-- We **prefer** SVG images, but if those do not exist we can use PNG images
+- 私たちはSVG画像を**推奨**しますが、存在しない場合は PNG 画像を使用できます
 
-Company logos have canvas size of:
+企業ロゴのキャンバスサイズ：
 
 - 128x128px
 - 384x128px
 
-## Optimization
+## 最適化
 
 ### PNG
 
-Use the [OptiPNG](https://sourceforge.net/projects/optipng/) to optimize the PNG image:
+[OptiPNG](https://sourceforge.net/projects/optipng/)を使用してPNG画像を最適化します。
 
 ```bash
 optipng -o7 file.png
@@ -27,16 +27,16 @@ optipng -o7 file.png
 
 #### Inkscape
 
-[Scour](https://github.com/scour-project/scour) all SVG images.
+すべてのSVG画像に[Scour](https://github.com/scour-project/scour)を使用します。
 
-In Inkscape:
+Inkscapeで：
 
-1. File Save As..
-2. Set type to Optimized SVG (*.svg)
+1. 名前を付けてファイルを保存...
+2. タイプを最適化されたSVG (*.svg)に設定する
 
-In the **Options** tab:
+**オプション** タブで：
 
-- **Number of significant digits for coordinates** > **5**
+- **座標の有効桁数** > **5**
 - [x] Turn on **Shorten color values**
 - [x] Turn on **Convert CSS attributes to XML attributes**
 - [x] Turn on **Collapse groups**
@@ -71,7 +71,7 @@ In the **IDs** tab:
 
 #### CLI
 
-The same can be achieved with the [Scour](https://github.com/scour-project/scour) command:
+同じことが [Scour](https://github.com/scour-project/scour) コマンドでも可能です：
 
 ```bash
 scour --set-precision=5 \

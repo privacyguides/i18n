@@ -1,7 +1,7 @@
 ---
-title: "Common Misconceptions"
+title: "Equívocos Comuns"
 icon: 'material/robot-confused'
-description: Privacy isn't a straightforward topic, and it's easy to get caught up in marketing claims and other disinformation.
+description: A privacidade não é um tema simples, e é fácil ser apanhado por alegações de marketing e outras desinformações.
 schema:
   - 
     "@context": https://schema.org
@@ -9,87 +9,86 @@ schema:
     mainEntity:
       - 
         "@type": Question
-        name: Is open source software inherently secure?
+        name: É o software de código aberto inerentemente seguro?
         acceptedAnswer:
           "@type": Answer
           text: |
-            Whether the source code is available and how software is licensed does not inherently affect its security in any way. Open-source software has the potential to be more secure than proprietary software, but there is absolutely no guarantee this is the case. When you evaluate software, you should look at the reputation and security of each tool on an individual basis.
+            O facto de o código-fonte estar ou não disponível e a forma como o software é licenciado não afetam de forma alguma a sua segurança. O software de código aberto tem potencial para ser mais seguro do que o software proprietário, mas não há nenhuma garantia de que seja esse o caso. Ao avaliar o software, deve ter em conta a reputação e a segurança de cada ferramenta numa base individual.
       - 
         "@type": Question
-        name: Can shifting trust to another provider increase privacy?
+        name: Pode a transferência de confiança para outro fornecedor aumentar a privacidade?
         acceptedAnswer:
           "@type": Answer
           text: |
-            We talk about "shifting trust" a lot when discussing solutions like VPNs (which shift the trust you place in your ISP to the VPN provider). While this protects your browsing data from your ISP specifically, the VPN provider you choose still has access to your browsing data: Your data isn't completely secured from all parties.
+            Falamos muito de "transferência de confiança" quando discutimos soluções como as VPN (que transferem a confiança que deposita no seu ISP para o fornecedor de VPN). Embora isto proteja especificamente os seus dados de navegação do seu ISP, o fornecedor de VPN que escolher continua a ter acesso aos seus dados de navegação: os seus dados não estão completamente protegidos de todas as partes.
       - 
         "@type": Question
-        name: Are privacy-focused solutions inherently trustworthy?
+        name: São as soluções centradas na privacidade intrinsecamente fiáveis?
         acceptedAnswer:
           "@type": Answer
           text: |
-            Focusing solely on the privacy policies and marketing of a tool or provider can blind you to its weaknesses. When you're looking for a more private solution, you should determine what the underlying problem is and find technical solutions to that problem. For example, you may want to avoid Google Drive, which gives Google access to all of your data. The underlying problem in this case is lack of E2EE, so you should make sure that the provider you switch to actually implements E2EE, or use a tool (like Cryptomator) which provides E2EE on any cloud provider. Switching to a "privacy-focused" provider (that doesn't implement E2EE) doesn't solve your problem: it just shifts trust from Google to that provider.
+            Concentrar-se apenas nas políticas de privacidade e no marketing de uma ferramenta ou fornecedor pode cegá-lo para os seus pontos fracos. Quando procura uma solução mais privada, deve determinar qual é o problema subjacente e encontrar soluções técnicas para esse problema. Por exemplo, pode querer evitar o Google Drive, que dá ao Google acesso a todos os seus dados. O problema subjacente neste caso é a falta de E2EE, pelo que deve certificar-se de que o fornecedor para o qual muda implementa efetivamente o E2EE, ou utilizar uma ferramenta (como o Cryptomator) que fornece E2EE em qualquer fornecedor de serviços em nuvem. Mudar para um fornecedor "centrado na privacidade" (que não implementa o E2EE) não resolve o seu problema: apenas transfere a confiança da Google para esse fornecedor.
       - 
         "@type": Question
-        name: How complicated should my threat model be?
+        name: Quão complicado deve ser o meu modelo de ameaça?
         acceptedAnswer:
           "@type": Answer
           text: |
-            We often see people describing privacy threat models that are overly complex. Often, these solutions include problems like many different email accounts or complicated setups with lots of moving parts and conditions. The replies are usually answers to "What is the best way to do X?"
-            Finding the "best" solution for yourself doesn't necessarily mean you are after an infallible solution with dozens of conditions—these solutions are often difficult to work with realistically. As we discussed previously, security often comes at the cost of convenience.
+            É frequente vermos pessoas a descrever modelos de ameaças à privacidade que são demasiado complexos. Muitas vezes, estas soluções incluem problemas como muitas contas de correio eletrónico diferentes ou configurações complicadas com muitas partes móveis e condições. As respostas são geralmente respostas a "Qual é a melhor forma de fazer X?"
+            Encontrar a "melhor" solução para si não significa necessariamente que está à procura de uma solução infalível com dezenas de condições — estas soluções são muitas vezes difíceis de trabalhar de forma realista. Tal como referimos anteriormente, a segurança tem muitas vezes um custo em termos de conveniência.
 ---
 
-## "Open-source software is always secure" or "Proprietary software is more secure"
+## "O software de código aberto é sempre seguro" ou "O software proprietário é mais seguro"
 
-These myths stem from a number of prejudices, but whether the source code is available and how software is licensed does not inherently affect its security in any way. ==Open-source software has the *potential* to be more secure than proprietary software, but there is absolutely no guarantee this is the case.== When you evaluate software, you should look at the reputation and security of each tool on an individual basis.
+Estes mitos têm origem numa série de preconceitos, mas o facto de o código-fonte estar ou não disponível e como o software é licenciado não afetam de forma alguma a sua segurança. ==O software de código aberto tem o *potencial* de ser mais seguro do que o software proprietário, mas não há qualquer garantia de que seja esse o caso.== Ao avaliar o software, deve analisar a reputação e a segurança de cada ferramenta numa base individual.
 
-Open-source software *can* be audited by third-parties, and is often more transparent about potential vulnerabilities than proprietary counterparts. It also allows you to review the code and disable any suspicious functionality you find yourself. However, *unless you do so*, there is no guarantee that code has ever been evaluated, especially with smaller software projects. The open development process has also sometimes been exploited to introduce new vulnerabilities into even large projects.[^1]
+O software de código aberto *pode* ser auditado por terceiros e é frequentemente mais transparente relativamente a potenciais vulnerabilidades do que as contrapartes proprietárias. Permite-lhe também rever o código e desativar qualquer funcionalidade suspeita que encontre. No entanto, *a menos que o faça*, não há garantia de que o código tenha sido alguma vez avaliado, especialmente em projetos de software menores. O processo de desenvolvimento aberto também foi por vezes explorado para introduzir novas vulnerabilidades até em grandes projetos.[^1]
 
-On the flip side, proprietary software is less transparent, but that doesn't imply that it's not secure. Major proprietary software projects can be audited internally and by third-party agencies, and independent security researchers can still find vulnerabilities with techniques like reverse engineering.
+Por outro lado, o software proprietário é menos transparente, mas isso não significa que não seja seguro. Os principais projetos de software proprietário podem ser auditados internamente e por agências terceiras, e os investigadores de segurança independentes podem ainda encontrar vulnerabilidades com técnicas como a engenharia inversa.
 
-To avoid biased decisions, it's *vital* that you evaluate the privacy and security standards of the software you use.
+Para evitar decisões tendenciosas, é *vital* que avalie as normas de privacidade e segurança do software que utiliza.
 
-## "Shifting trust can increase privacy"
+## "A mudança de confiança pode aumentar a privacidade"
 
-We talk about "shifting trust" a lot when discussing solutions like VPNs (which shift the trust you place in your ISP to the VPN provider). While this protects your browsing data from your ISP *specifically*, the VPN provider you choose still has access to your browsing data: Your data isn't completely secured from all parties. This means that:
+Falamos muito de "transferência de confiança" quando discutimos soluções como as VPN (que transferem a confiança que deposita no seu ISP para o fornecedor de VPN). Embora isto *especificamente* proteja os seus dados de navegação do seu ISP, o fornecedor de VPN que escolher continua a ter acesso aos seus dados de navegação: os seus dados não estão completamente protegidos de todas as partes. Isto significa que:
 
-1. You must exercise caution when choosing a provider to shift trust to.
-2. You should still use other techniques, like E2EE, to protect your data completely. Merely distrusting one provider to trust another is not securing your data.
+1. Deve exercitar cuidado ao escolher um provedor para mudar confiança.
+2. Deve ainda utilizar outras técnicas, como a E2EE, para proteger completamente os seus dados. O simples facto de desconfiar de um fornecedor para confiar noutro não protege os seus dados.
 
-## "Privacy-focused solutions are inherently trustworthy"
+## "As soluções centradas na privacidade são inerentemente fiáveis"
 
-Focusing solely on the privacy policies and marketing of a tool or provider can blind you to its weaknesses. When you're looking for a more private solution, you should determine what the underlying problem is and find technical solutions to that problem. For example, you may want to avoid Google Drive, which gives Google access to all of your data. The underlying problem in this case is lack of E2EE, so you should make sure that the provider you switch to actually implements E2EE, or use a tool (like [Cryptomator](../encryption.md#cryptomator-cloud)) which provides E2EE on any cloud provider. Switching to a "privacy-focused" provider (that doesn't implement E2EE) doesn't solve your problem: it just shifts trust from Google to that provider.
+Concentrar-se apenas nas políticas de privacidade e no marketing de uma ferramenta ou fornecedor pode cegá-lo para os seus pontos fracos. Quando procura uma solução mais privada, deve determinar qual é o problema subjacente e encontrar soluções técnicas para esse problema. Por exemplo, pode querer evitar o Google Drive, que dá ao Google acesso a todos os seus dados. O problema subjacente neste caso é a falta de E2EE, pelo que deve certificar-se de que o fornecedor para o qual muda implementa efetivamente o E2EE, ou utilizar uma ferramenta (como o [Cryptomator](../encryption.md#cryptomator-cloud)) que fornece E2EE em qualquer fornecedor de serviços em nuvem. Mudar para um fornecedor "centrado na privacidade" (que não implementa o E2EE) não resolve o seu problema: apenas transfere a confiança da Google para esse fornecedor.
 
-The privacy policies and business practices of providers you choose are very important, but should be considered secondary to technical guarantees of your privacy: You shouldn't shift trust to another provider when trusting a provider isn't a requirement at all.
+As políticas de privacidade e as práticas comerciais dos fornecedores que escolher são muito importantes, mas devem ser consideradas secundárias relativamente às garantias técnicas da sua privacidade: não se deve transferir a confiança para outro fornecedor quando a confiança num fornecedor não é de todo um requisito.
 
-## "Complicated is better"
+## "Complicado é melhor"
 
-We often see people describing privacy threat models that are overly complex. Often, these solutions include problems like many different email accounts or complicated setups with lots of moving parts and conditions. The replies are usually answers to "What is the best way to do *X*?"
+É frequente vermos pessoas a descrever modelos de ameaças à privacidade que são demasiado complexos. Muitas vezes, estas soluções incluem problemas como muitas contas de correio eletrónico diferentes ou configurações complicadas com muitas partes móveis e condições. As respostas são geralmente respostas a "Qual é a melhor maneira de fazer *X*?"
 
-Finding the "best" solution for yourself doesn't necessarily mean you are after an infallible solution with dozens of conditions—these solutions are often difficult to work with realistically. As we discussed previously, security often comes at the cost of convenience. Below, we provide some tips:
+Encontrar a "melhor" solução para si não significa necessariamente que está à procura de uma solução infalível com dezenas de condições — estas soluções são muitas vezes difíceis de trabalhar de forma realista. Tal como referimos anteriormente, a segurança tem muitas vezes um custo em termos de conveniência. Em seguida, apresentamos alguns conselhos:
 
-1. ==Actions need to serve a particular purpose:== think about how to do what you want with the fewest actions.
-2. ==Remove human failure points:== We fail, get tired, and forget things. To maintain security, avoid relying on manual conditions and processes that you have to remember.
-3. ==Use the right level of protection for what you intend.== We often see recommendations of so-called law-enforcement or subpoena-proof solutions. These often require specialist knowledge and generally aren't what people want. There's no point in building an intricate threat model for anonymity if you can be easily de-anonymized by a simple oversight.
+1. ==As ações têm de servir um determinado objetivo:== pense em como fazer o que pretende com o menor número de ações.
+2. ==Remova os pontos de falha humanos:== Falhamos, cansamo-nos e esquecemo-nos de coisas. Para manter a segurança, evite depender de condições e processos manuais dos quais tem de se lembrar.
+3. ==Utilize o nível de proteção adequado para o que pretende== É frequente vermos recomendações das chamadas soluções à prova de intimação ou de aplicação da lei. Estes requerem frequentemente conhecimentos especializados e não são geralmente o que as pessoas querem. Não adianta criar um modelo de ameaças complexo para o anonimato se pode ser facilmente desanonimizado por um simples descuido.
 
-So, how might this look?
+Então, o que isto pode parecer?
 
-One of the clearest threat models is one where people *know who you are* and one where they do not. There will always be situations where you must declare your legal name and there are others where you don't need to.
+Um dos modelos de ameaça mais claros é aquele no qual as pessoas *sabem quem é* e aquele em que não sabem. Haverá sempre situações em que tem de declarar o seu nome legal e outras em que não precisa de o fazer.
 
-1. **Known identity** - A known identity is used for things where you must declare your name. There are many legal documents and contracts where a legal identity is required. This could range from opening a bank account, signing a property lease, obtaining a passport, customs declarations when importing items, or otherwise dealing with your government. These things will usually lead to credentials such as credit cards, credit rating checks, account numbers, and possibly physical addresses.
+1. **Identidade conhecida** - A identidade conhecida é utilizada para situações em que é necessário declarar o seu nome. Existem muitos documentos jurídicos e contratos que exigem uma identidade legal. Pode tratar-se da abertura de uma conta bancária, da assinatura de um contrato de arrendamento de um imóvel, da obtenção de um passaporte, de declarações aduaneiras aquando da importação de artigos ou de qualquer outra forma de contacto com o seu governo. Estas coisas conduzem normalmente a credenciais como cartões de crédito, verificações de notação de crédito, números de conta e, possivelmente, endereços físicos.
 
-    We don't suggest using a VPN or Tor for any of these things, as your identity is already known through other means.
+    Não sugerimos utilizar uma VPN ou Tor para qualquer uma destas coisas, uma vez que a sua identidade já é conhecida mediante outros meios.
 
-    !!! aviso
-     Backup `BitLocker-Recovery-Key.txt` em um dispositivo de armazenamento separado.
+    !!! dica
    
-        When shopping online, the use of a [parcel locker](https://en.wikipedia.org/wiki/Parcel_locker) can help keep your physical address private.
+        Nas compras online, a utilização de um [armário de encomendas](https://en.wikipedia.org/wiki/Parcel_locker) pode ajudar a manter o seu endereço físico privado.
 
-2. **Unknown identity** - An unknown identity could be a stable pseudonym that you regularly use. It is not anonymous because it doesn't change. If you're part of an online community, you may wish to retain a persona that others know. This pseudonym isn't anonymous because—if monitored for long enough—details about the owner can reveal further information, such as the way they write, their general knowledge about topics of interest, etc.
+2. **Identidade desconhecida** - Uma identidade desconhecida pode ser um pseudónimo estável que utiliza regularmente. Não é anónimo porque não muda. Se faz parte de uma comunidade online, pode querer manter uma personalidade que os outros conheçam. Este pseudónimo não é anónimo porque — se for monitorizado durante tempo suficiente — os detalhes sobre o proprietário podem revelar mais informações, como a forma como escreve, o seu conhecimento geral sobre tópicos de interesse, etc.
 
-    You may wish to use a VPN for this, to mask your IP address. Financial transactions are more difficult to mask: You could consider using anonymous cryptocurrencies, such as [Monero](https://www.getmonero.org/). Employing altcoin shifting may also help to disguise where your currency originated. Typically, exchanges require KYC (know your customer) to be completed before they'll allow you to exchange fiat currency into any kind of cryptocurrency. Local meet-up options may also be a solution; however, those are often more expensive and sometimes also require KYC.
+    Para o efeito, poderá utilizar uma VPN para ocultar o seu endereço IP. As transações financeiras são mais difíceis de mascarar: pode considerar a utilização de criptomoedas anónimas, como [Monero](https://www.getmonero.org/). A utilização da mudança de altcoin também pode ajudar a disfarçar a origem da sua moeda. Normalmente, as bolsas exigem que o COSC (conheça o seu cliente) seja concluído antes de permitirem a troca de moeda fiduciária por qualquer tipo de moeda criptográfica. As opções de encontros locais também podem ser uma solução; no entanto, estas são frequentemente mais caras e, por vezes, também exigem COSC.
 
-3. **Anonymous identity** - Even with experience, anonymous identities are difficult to maintain over long periods of time. They should be short-term and short-lived identities which are rotated regularly.
+3. **Identidade anónima** - Mesmo com experiência, as identidades anónimas são difíceis de manter durante longos períodos de tempo. Devem ser identidades de curto prazo e de curta duração, sendo objeto de rotação regular.
 
-    Using Tor can help with this. It is also worth noting that greater anonymity is possible through asynchronous communication: Real-time communication is vulnerable to analysis of typing patterns (i.e. more than a paragraph of text, distributed on a forum, via email, etc.)
+    A utilização do Tor pode ajudar neste aspeto. É também de salientar que é possível um maior anonimato através da comunicação assíncrona: A comunicação em tempo real é vulnerável à análise de padrões de digitação (ou seja, mais do que um parágrafo de texto, distribuído num fórum, por correio eletrónico, etc.)
 
-[^1]: One notable example of this is the [2021 incident in which University of Minnesota researchers introduced three vulnerabilities into the Linux kernel development project](https://cse.umn.edu/cs/linux-incident).
+[^1]: Um exemplo notável é o incidente [2021 em que investigadores da Universidade do Minnesota introduziram três vulnerabilidades no projeto de desenvolvimento do kernel Linux](https://cse.umn.edu/cs/linux-incident).

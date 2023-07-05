@@ -1,5 +1,5 @@
 ---
-title: "Partilha e sincronização de ficheiros"
+title: "Partilha e Sincronização de Ficheiros"
 icon: material/share-variant
 description: Descubra como partilhar os seus ficheiros em privado entre os seus dispositivos, com os seus amigos e família, ou anonimamente online.
 cover: file-sharing.png
@@ -14,55 +14,49 @@ Descubra como partilhar os seus ficheiros em privado entre os seus dispositivos,
 !!! nota
     Consulte o [Tabela de Hardware](https://openwrt.org/toh/start) para verificar se o seu dispositivo é suportado.
 
-    ![logotipo OnionShare](/assets/img/file-sharing-sync/onionshare.svg){ align=right }
+    ![Send logo](assets/img/file-sharing-sync/send.svg){ align=right }
     
-    **OnionShare** é uma ferramenta de código aberto que lhe permite partilhar de forma segura e anónima um ficheiro de qualquer tamanho. Funciona iniciando um servidor web acessível como um serviço Tor onion, com um URL indiscutível que você pode compartilhar com os destinatários para baixar ou enviar arquivos. [Visite onionshare.org](https://onionshare.org){ .md-button .md-button--primary } [:pg-tor:](http://lldan5gahapx5k7iafb3s4ikijc4ni7gx5iywdflkba5y2ezyg6sjgyd.onion){ .md-button }
+    **Send** é um fork do serviço Firefox Send, descontinuado pela Mozilla, que lhe permite enviar ficheiros para outros com uma hiperligação. Os ficheiros são encriptados no seu dispositivo para não poderem ser lidos pelo servidor e, opcionalmente, também podem ser protegidos por palavra-passe. O responsável pelo envio aloja uma [instância pública](https://send.vis.ee/). Pode utilizar outras instâncias públicas ou pode alojar o Send por si.
     
-    **Downloads***
-    - [:fontawesome-brands-windows: Windows](https://onionshare.org/#download)
-    - [:fontawesome-brands-apple: macOS](https://onionshare.org/#download)
-    - [:fontawesome-brands-linux: Linux](https://onionshare.org/#download)
-    - [:fontawesome-brands-github: Fonte](https://github.com/onionshare/onionshare) You can use other public instances, or you can host Send yourself.
-    
-    [:octicons-home-16: Homepage](https://send.vis.ee){ .md-button .md-button--primary }
-    [:octicons-server-16:](https://github.com/timvisee/send-instances){ .card-link title="Public Instances"}
-    [:octicons-info-16:](https://github.com/timvisee/send#readme){ .card-link title=Documentation}
-    [:octicons-code-16:](https://github.com/timvisee/send){ .card-link title="Source Code" }
-    [:octicons-heart-16:](https://github.com/sponsors/timvisee){ .card-link title=Contribute }
+    [:octicons-home-16: Página Inicial](https://send.vis.ee){ .md-button .md-button--primary }
+    [:octicons-server-16:](https://github.com/timvisee/send-instances){ .card-link title="Instâncias Públicas"}
+    [:octicons-info-16:](https://github.com/timvisee/send#readme){ .card-link title=Documentação}
+    [:octicons-code-16:](https://github.com/timvisee/send){ .card-link title="Código fonte" }
+    [:octicons-heart-16:](https://github.com/sponsors/timvisee){ .card-link title=Contribuir }
 
-Send can be used via its web interface or via the [ffsend](https://github.com/timvisee/ffsend) CLI. If you are familiar with the command-line and send files frequently, we recommend using the CLI client to avoid JavaScript-based encryption. You can specify the `--host` flag to use a specific server:
+O Send pode ser utilizado através da sua interface web ou através do [ffsend](https://github.com/timvisee/ffsend) CLI. Se estiver familiarizado com a linha de comandos e enviar ficheiros frequentemente, recomendamos a utilização do cliente CLI para evitar a encriptação baseada em JavaScript. Pode especificar o sinalizador `--host` para utilizar um servidor específico:
 
 ```bash
 ffsend upload --host https://send.vis.ee/ FILE
 ```
 
-### Buraco de Verme Mágico
+### OnionShare
 
 !!! nota
     Consulte o [Tabela de Hardware](https://openwrt.org/toh/start) para verificar se o seu dispositivo é suportado.
 
-    ![logotipo FreedomBox](/assets/img/file-sharing-sync/freedombox.svg){ align=right }
+    ![Logótipo OnionShare](assets/img/file-sharing-sync/onionshare.svg){ align=right }
     
-    **FreedomBox** é um sistema operacional projetado para ser executado em um [computador de placa única (SBC)](https://en.wikipedia.org/wiki/Single-board_computer). O objetivo é facilitar a configuração de aplicações de servidor que você pode querer auto-hospedar.
+    **OnionShare** é uma ferramenta de código aberto que lhe permite partilhar segura e anonimamente um ficheiro de qualquer tamanho. Funciona iniciando um servidor web acessível como um serviço Tor onion, com um URL indetetável que pode ser partilhado com os destinatários para descarregar ou enviar ficheiros.
     
-    [Visite freedombox.org](https://freedombox.org){ .md-button .md-button--primary }
+    [:octicons-home-16: Página Inicial](https://onionshare.org){ .md-button .md-button--primary }
+    [:simple-torbrowser:](http://lldan5gahapx5k7iafb3s4ikijc4ni7gx5iywdflkba5y2ezyg6sjgyd.onion){ .card-link title="Serviço Onion" }
+    [:octicons-info-16:](https://docs.onionshare.org){ .card-link title=Documentação}
+    [:octicons-code-16:](https://github.com/onionshare/onionshare){ .card-link title="Código fonte" }
     
-    **Downloads***
-    - [:fontawesome-brands-git: Fonte](https://salsa.debian.org/freedombox-team/freedombox) downloads
+    ??? downloads
     
         - [:simple-windows11: Windows](https://onionshare.org/#download)
         - [:simple-apple: macOS](https://onionshare.org/#download)
         - [:simple-linux: Linux](https://onionshare.org/#download)
 
-### Framadate
+### Critérios
 
-**Please note we are not affiliated with any of the projects we recommend.** In addition to [our standard criteria](about/criteria.md), we have developed a clear set of requirements to allow us to provide objective recommendations. We suggest you familiarize yourself with this list before choosing to use a project, and conduct your own research to ensure it's the right choice for you.
+**Por favor note que não somos afiliados a nenhum dos projetos que recomendamos.** Para além dos [nossos critérios padrões](about/criteria.md), nós desenvolvemos um conjunto claro de requisitos que nos permitem fornecer recomendações objetivas. Sugerimos que se familiarize com esta lista antes de optar por utilizar um projeto e que faça a sua própria investigação para garantir que é a escolha certa para si.
 
-!!! Considere o auto-hospedagem para mitigar esta ameaça.
+!!! exemplo "Esta secção é nova"
 
-    ![logo PrivateBin](/assets/img/productivity/privatebin.svg){ align=right }
-    
-    **PrivateBin** é um pastebin online minimalista e de código aberto onde o servidor tem zero conhecimento de dados colados. Os dados são criptografados/descriptografados no navegador usando AES de 256 bits. Psono suporta compartilhamento seguro de senhas, arquivos, marcadores e e-mails.
+    Estamos a trabalhar no sentido de estabelecer critérios definidos para cada secção do nosso sítio, o que pode estar sujeito a alterações. Os dados são criptografados/descriptografados no navegador usando AES de 256 bits. Psono suporta compartilhamento seguro de senhas, arquivos, marcadores e e-mails.
 
 - Must not store decrypted data on a remote server.
 - O software deve ser de código aberto.

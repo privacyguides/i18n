@@ -19,33 +19,33 @@ schema:
 
 ![Лого Privacy Guides](../assets/brand/PNG/Square/pg-yellow.png){ align=right }
 
-**Privacy Guides** is a socially motivated website that provides [information](/kb) for protecting your data security and privacy. Our mission is to inform the public about the value of digital privacy, and global government initiatives which aim to monitor your online activity. We are a non-profit collective operated entirely by volunteer [team members](https://discuss.privacyguides.net/g/team) and contributors. Our website is free of advertisements and not affiliated with any of the listed providers.
+**Privacy Guides** - это социально мотивированный сайт, предоставляющий [информацию](/kb) по защите безопасности и конфиденциальности ваших данных. Наша миссия - информировать общественность о ценности цифровой конфиденциальности и о глобальных правительственных инициативах, направленных на мониторинг вашей активности в интернете. Мы являемся некоммерческим коллективом, который полностью управляется [волонтёрами](https://discuss.privacyguides.net/g/team) и помогающими нам людьми. Наш сайт не содержит рекламы и не связан ни с одним из перечисленных провайдеров.
 
-[:octicons-home-16:](https://www.privacyguides.org/){ .card-link title=Homepage }
-[:octicons-code-16:](https://github.com/privacyguides/privacyguides.org){ .card-link title="Source Code" }
-[:octicons-heart-16:](donate.md){ .card-link title=Contribute }
+[:octicons-home-16:](https://www.privacyguides.org/){ .card-link title=Домашняя страница }
+[:octicons-code-16:](https://github.com/privacyguides/privacyguides.org){ .card-link title="Исходный код" }
+[:octicons-heart-16:](donate.md){ .card-link title=Поддержать }
 
-> To find [privacy-focused alternative] apps, check out sites like Good Reports and **Privacy Guides**, which list privacy-focused apps in a variety of categories, notably including email providers (usually on paid plans) that aren’t run by the big tech companies.
+> Чтобы найти [ориентированные на конфиденциальность альтернативы], посетите такие сайты, как Good Reports и **Privacy Guides**. На этих сайтах в различных категориях перечислены ориентированные на конфиденциальность приложения, в частности, включая провайдеров электронной почты (обычно платных), которые не принадлежат крупным технологическим компаниям.
 
-— [New York Times](https://www.nytimes.com/wirecutter/guides/online-security-social-media-privacy/)
+— [New York Times](https://www.nytimes.com/wirecutter/guides/online-security-social-media-privacy/) [Переведено с английского]
 
-> If you're looking for a new VPN, you can go to the discount code of just about any podcast. If you are looking for a **good** VPN, you need professional help. The same goes for email clients, browsers, operating systems and password managers. How do you know which of these is the best, most privacy-friendly option? For that there is **Privacy Guides**, a platform on which a number of volunteers search day in, day out for the best privacy-friendly tools to use on the internet.
+> Если вы ищете новый VPN, вы можете найти скидочный код практически в любом подкасте. Если вы ищете **хороший** VPN, вам нужна помощь профессионалов. То же самое касается почтовых клиентов, браузеров, операционных систем и менеджеров паролей. Как узнать, какой из этих вариантов является лучшим, наиболее благоприятным для конфиденциальности? Для этого существует **Privacy Guides**, платформа, на которой несколько добровольцев изо дня в день ищут лучшие инструменты для обеспечения конфиденциальности в интернете.
 
-— [Tweakers.net](https://tweakers.net/reviews/10568/op-zoek-naar-privacyvriendelijke-tools-niek-de-wilde-van-privacy-guides.html) [Translated from Dutch]
+— [Tweakers.net](https://tweakers.net/reviews/10568/op-zoek-naar-privacyvriendelijke-tools-niek-de-wilde-van-privacy-guides.html) [Переведено с голландского]
 
-Also featured on: [Ars Technica](https://arstechnica.com/gadgets/2022/02/is-firefox-ok/), [Wirecutter](https://www.nytimes.com/wirecutter/guides/practical-guide-to-securing-windows-pc/) [[2](https://www.nytimes.com/wirecutter/guides/practical-guide-to-securing-your-mac/)], [NPO Radio 1](https://www.nporadio1.nl/nieuws/binnenland/8eaff3a2-8b29-4f63-9b74-36d2b28b1fe1/ooit-online-eens-wat-doms-geplaatst-ga-jezelf-eens-googlen-en-kijk-dan-wat-je-tegenkomt), and [Wired](https://www.wired.com/story/firefox-mozilla-2022/).
+Нас также упоминали: [Ars Technica](https://arstechnica.com/gadgets/2022/02/is-firefox-ok/), [Wirecutter](https://www.nytimes.com/wirecutter/guides/practical-guide-to-securing-windows-pc/) [[2](https://www.nytimes.com/wirecutter/guides/practical-guide-to-securing-your-mac/)], [NPO Radio 1](https://www.nporadio1.nl/nieuws/binnenland/8eaff3a2-8b29-4f63-9b74-36d2b28b1fe1/ooit-online-eens-wat-doms-geplaatst-ga-jezelf-eens-googlen-en-kijk-dan-wat-je-tegenkomt) и [Wired](https://www.wired.com/story/firefox-mozilla-2022/).
 
-## History
+## История
 
-Privacy Guides was launched in September 2021 as a continuation of the [defunct](privacytools.md) "PrivacyTools" open-source educational project. We recognized the importance of independent, criteria-focused product recommendations and general knowledge in the privacy space, which is why we needed to preserve the work that had been created by so many contributors since 2015 and make sure that information had a stable home on the web indefinitely.
+Privacy Guides был запущен в сентябре 2021 года как продолжение [недействующего](privacytools.md) образовательного проекта с открытым исходным кодом "PrivacyTools". Мы распознали важность независимых, ориентированных на критерии рекомендаций продуктов и общих знаний в области конфиденциальности, поэтому нам необходимо сохранить работу, проделанную многими участниками с 2015 года, и убедиться, что информация будет иметь стабильный дом в интернете на неопределенный срок.
 
-In 2022, we completed the transition of our main website framework from Jekyll to MkDocs, using the `mkdocs-material` documentation software. This change made open-source contributions to our site significantly easier for outsiders, because instead of needing to know complicated syntax to write posts effectively, contributing is now as easy as writing a standard Markdown document.
+В 2022 году мы завершили переход нашей основной структуры сайта с Jekyll на MkDocs, используя программное обеспечение для работы с документацией `mkdocs-material`. Это изменение значительно облегчило сторонним пользователям внесение вклада в наш сайт, поскольку вместо того, чтобы знать сложный синтаксис для эффективного написания постов, теперь вносить вклад стало так же просто, как писать стандартный документ в формате Markdown.
 
-We additionally launched our new discussion forum at [discuss.privacyguides.net](https://discuss.privacyguides.net/) as a community platform to share ideas and ask questions about our mission. This augments our existing community on Matrix, and replaced our previous GitHub Discussions platform, decreasing our reliance on proprietary discussion platforms.
+Кроме того, мы запустили новый форум для обсуждений на сайте [discuss.privacyguides.net](https://discuss.privacyguides.net/) в качестве платформы сообщества, где можно делиться идеями и задавать вопросы о нашей миссии. Это дополнит наше существующее сообщество на Matrix и заменит нашу предыдущую платформу GitHub Discussions, снизив нашу зависимость от проприетарных дискуссионных платформ.
 
-So far in 2023 we've launched international translations of our website in [French](/fr/), [Hebrew](/he/), and [Dutch](/nl/), with more languages on the way, made possible by our excellent translation team on [Crowdin](https://crowdin.com/project/privacyguides). We plan to continue carrying forward our mission of outreach and education, and finding ways to more clearly highlight the dangers of a lack of privacy awareness in the modern digital age, and the prevalence and harms of security breaches across the technology industry.
+К настоящему времени в 2023 году мы запустили международные переводы нашего сайта на [французском](/fr/), [иврите](/he/) и [голландском](/nl/) языках, и еще больше языков на подходе, что стало возможным благодаря нашей замечательной команде переводчиков на [Crowdin](https://crowdin.com/project/privacyguides). Мы планируем продолжать выполнять нашу миссию по информированию и просвещению, а также искать пути более четкого освещения опасностей, связанных с недостаточной осведомленностью о конфиденциальности в современную цифровую эпоху, а также распространенности и вреда от нарушений безопасности в технологической отрасли.
 
-## Our Team
+## Наша команда
 
 ??? person "@jonah"
 
@@ -88,16 +88,16 @@ So far in 2023 we've launched international translations of our website in [Fren
     - [:simple-github: GitHub](https://github.com/hook9 "@hook9")
     - [:simple-mastodon: Mastodon](https://mastodon.neat.computer/@oliviablob "@oliviablob@neat.computer"){rel=me}
 
-Additionally, [many people](https://github.com/privacyguides/privacyguides.org/graphs/contributors) have made contributions to the project. You can too, we're open sourced on GitHub, and accepting translation suggestions on [Crowdin](https://crowdin.com/project/privacyguides).
+Кроме них, [множество других людей](https://github.com/privacyguides/privacyguides.org/graphs/contributors) внесли свой вклад в проект. Вы можете тоже, у нас открытый исходный код на GitHub и мы принимаем предложения по переводу на [Crowdin](https://crowdin.com/project/privacyguides).
 
-Our team members review all changes made to the website and handle administrative duties such as web hosting and financials, however they do not personally profit from any contributions made to this site. Our financials are transparently hosted by the Open Collective Foundation 501(c)(3) at [opencollective.com/privacyguides](https://opencollective.com/privacyguides). Donations to Privacy Guides are generally tax-deductible in the United States.
+Члены нашей команды проверяют все изменения, вносимые на сайт, и выполняют административные обязанности, такие как веб-хостинг и управление финансами, однако они не получают личной прибыли от этого сайта. Наша финансовая отчетность прозрачно размещена фондом Open Collective Foundation 501(c)(3) по адресу [opencollective.com/privacyguides](https://opencollective.com/privacyguides). Денежные пожертвования для Privacy Guides подлежат налоговым вычетам в США.
 
-## Site License
+## Лицензия Сайта
 
 !!! danger ""
 
-    The following is a human-readable summary of (and not a substitute for) the [license](/license).
+    Следующий текст является человеко-читаемым кратким изложением (но не заменой) [лицензии](/license).
 
-:fontawesome-brands-creative-commons: :fontawesome-brands-creative-commons-by: :fontawesome-brands-creative-commons-nd: Unless otherwise noted, the original content on this website is made available under the [Creative Commons Attribution-NoDerivatives 4.0 International Public License](https://github.com/privacyguides/privacyguides.org/blob/main/LICENSE). This means that you are free to copy and redistribute the material in any medium or format for any purpose, even commercially; as long as you give appropriate credit to `Privacy Guides (www.privacyguides.org)` and provide a link to the license. Однако вы **не можете** использовать бренд PrivacyGuides в своем проекте без нашего специального разрешения. If you remix, transform, or build upon the content of this website, you may not distribute the modified material.
+:fontawesome-brands-creative-commons: :fontawesome-brands-creative-commons-by: :fontawesome-brands-creative-commons-nd: Если не указано иное, оригинальное содержание этого сайта доступно на условиях [Creative Commons Attribution-NoDerivatives 4.0 International Public License](https://github.com/privacyguides/privacyguides.org/blob/main/LICENSE). Это означает, что вы можете свободно копировать и распространять материал на любом носителе или в любом формате для любых целей, даже коммерческих; при условии, что вы укажете соответствующую ссылку на `Privacy Guides (www.privacyguides.org)` и дадите ссылку на лицензию. Вы можете делать это любым способом в рамках разумного, но не говорить, что Privacy Guides одобряет ваш проект или ваше использование материалов. Если вы смешиваете, преобразовываете или создаете что-то на основе содержимого этого сайта, вы не имеете права распространять измененный материал.
 
-This license is in place to prevent people from sharing our work without giving proper credit, and to prevent people from modifying our work in a way that could be used to mislead people. If you find the terms of this license too restrictive for the project you're working on, please reach out to us at `jonah@privacyguides.org`. We are happy to provide alternative licensing options for well-intentioned projects in the privacy space!
+Эта лицензия существует для того, чтобы предотвратить распространение нашей работы без должной благодарности, а также для того, чтобы предотвратить изменение нашей работы таким образом, который может быть использован для введения людей в заблуждение. Если вы считаете условия этой лицензии слишком ограничивающими для проекта, над которым вы работаете, пожалуйста, свяжитесь с нами по адресу `jonah@privacyguides.org`. Мы рады предоставить альтернативные варианты лицензирования для проектов с благими намерениями в сфере конфиденциальности!

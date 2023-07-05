@@ -1,8 +1,8 @@
 ---
-title: Git Recommendations
+title: Рекомендации по Git
 ---
 
-If you make changes to this website on GitHub.com's web editor directly, you shouldn't have to worry about this. If you are developing locally and/or are a long-term website editor (who should probably be developing locally!), consider these recommendations.
+Если вы вносите изменения на этом сайте непосредственно в веб-редакторе GitHub.com, вам не стоит беспокоиться об этом. If you are developing locally and/or are a long-term website editor (who should probably be developing locally!), consider these recommendations.
 
 ## Enable SSH Key Commit Signing
 

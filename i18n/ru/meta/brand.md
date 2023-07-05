@@ -1,8 +1,8 @@
 ---
-title: Branding Guidelines
+title: Гайдлайн по брендингу
 ---
 
-The name of the website is **Privacy Guides** and should **not** be changed to:
+Название сайта **Privacy Guides** **не** должно быть изменено на:
 
 <div class="pg-red" markdown>
 - PrivacyGuides
@@ -11,12 +11,12 @@ The name of the website is **Privacy Guides** and should **not** be changed to:
 - PG.org
 </div>
 
-The name of the subreddit is **r/PrivacyGuides** or **the Privacy Guides Subreddit**.
+Название сабреддита - **r/PrivacyGuides** или **the Privacy Guides Subreddit**.
 
-Additional branding guidelines can be found at [github.com/privacyguides/brand](https://github.com/privacyguides/brand)
+Дополнительные рекомендации по брендингу можно найти на сайте [github.com/privacyguides/brand](https://github.com/privacyguides/brand)
 
-## Trademark
+## Товарный знак
 
-"Privacy Guides" and the shield logo are trademarks owned by Jonah Aragon, unlimited usage is granted to the Privacy Guides project.
+"Privacy Guides" и логотип щита являются торговыми марками, принадлежащими Jonah Aragon, неограниченное использование предоставляется проекту Privacy Guides.
 
-Without waiving any of its rights, Privacy Guides does not advise others on the scope of its intellectual property rights. Privacy Guides does not permit or consent to any use of its trademarks in any manner that is likely to cause confusion by implying association with or sponsorship by Privacy Guides. If you are aware of any such use, please contact Jonah Aragon at jonah@privacyguides.org. Consult your legal counsel if you have questions.
+Не отказываясь от каких-либо своих прав, Privacy Guides не консультирует других относительно объема своих прав на интеллектуальную собственность. Privacy Guides не разрешает и не дает согласия на использование своих торговых марок любым способом, который может вызвать путаницу, подразумевая связь с Privacy Guides или спонсорство с их стороны. Если вам известно о любом таком использовании, пожалуйста, свяжитесь с Jonah Aragon по адресу jonah@privacyguides.org. При возникновении вопросов проконсультируйтесь с юристом.

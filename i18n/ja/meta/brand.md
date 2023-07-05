@@ -1,8 +1,8 @@
 ---
-title: Branding Guidelines
+title: ブランドガイドライン
 ---
 
-The name of the website is **Privacy Guides** and should **not** be changed to:
+ウェブサイトの名前は **Privacy Guides** であり、次のように変更**しない**でください：
 
 <div class="pg-red" markdown>
 - PrivacyGuides
@@ -11,12 +11,12 @@ The name of the website is **Privacy Guides** and should **not** be changed to:
 - PG.org
 </div>
 
-The name of the subreddit is **r/PrivacyGuides** or **the Privacy Guides Subreddit**.
+サブレディットの名前は **r/PrivacyGuides** または **the Privacy Guides Subreddit** です。
 
-Additional branding guidelines can be found at [github.com/privacyguides/brand](https://github.com/privacyguides/brand)
+その他のブランドガイドラインについては、次のサイトを参照してください。 [github.com/privacyguides/brand](https://github.com/privacyguides/brand)
 
-## Trademark
+## 商標
 
-"Privacy Guides" and the shield logo are trademarks owned by Jonah Aragon, unlimited usage is granted to the Privacy Guides project.
+「Privacy Guides」と盾のロゴはJonah Aragonが所有する商標であり、Privacy Guidesプロジェクトには無制限の使用が認められています。
 
-Without waiving any of its rights, Privacy Guides does not advise others on the scope of its intellectual property rights. Privacy Guides does not permit or consent to any use of its trademarks in any manner that is likely to cause confusion by implying association with or sponsorship by Privacy Guides. If you are aware of any such use, please contact Jonah Aragon at jonah@privacyguides.org. Consult your legal counsel if you have questions.
+Privacy Guidesは、その権利を放棄することなく、その知的財産権の範囲について他者に助言することはありません。 Privacy Guidesは、Privacy Guidesとの関連または後援を暗示することによって混乱を引き起こす可能性のある方法での商標の使用を許可または同意しません。 そのような使用に気付いた場合は、Jonah Aragon (jonah@privacyguides.org) までご連絡ください。 質問がある場合は、弁護士に相談してください。

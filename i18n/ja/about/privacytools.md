@@ -1,8 +1,8 @@
 ---
-title: "PrivacyTools FAQ"
+title: "PrivacyToolsに関するよくある質問"
 ---
 
-# Why we moved on from PrivacyTools
+# PrivacyToolsから移行した理由
 
 In September 2021, every active contributor unanimously agreed to move from PrivacyTools to work on this site: Privacy Guides. This decision was made because PrivacyTools’ founder and controller of the domain name had disappeared for an extended period of time and could not be contacted.
 

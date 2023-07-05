@@ -1,25 +1,25 @@
 ---
-title: Git Recommendations
+title: Gitの推奨事項
 ---
 
-If you make changes to this website on GitHub.com's web editor directly, you shouldn't have to worry about this. If you are developing locally and/or are a long-term website editor (who should probably be developing locally!), consider these recommendations.
+GitHub.comのウェブエディターでこのウェブサイトに直接変更を加える場合は、この心配する必要はありません。 ローカルで開発している場合、および/または長期的なウェブサイトエディタ（おそらくローカルで開発しているはずです！）である場合は、これらの推奨事項を検討してください。
 
-## Enable SSH Key Commit Signing
+## SSHキーのコミット署名を有効にする
 
-You can use an existing SSH key for signing, or [create a new one](https://docs.github.com/en/authentication/connecting-to-github-with-ssh/generating-a-new-ssh-key-and-adding-it-to-the-ssh-agent).
+署名に既存の SSH キーを使用することも、[新しいSSH キーを作成することもできます。](https://docs.github.com/en/authentication/connecting-to-github-with-ssh/generating-a-new-ssh-key-and-adding-it-to-the-ssh-agent)
 
-1. Configure your Git client to sign commits and tags by default (remove `--global` to only sign by default for this repo):
+1. デフォルトでコミットとタグに署名するように Git クライアントを設定する (remove `--global` to only sign by default for this repo):
    ```
    git config --global commit.gpgsign true
    git config --global gpg.format ssh
    git config --global tag.gpgSign true
    ```
-2. Copy your SSH public key to your clipboard, for example:
+2. SSH公開鍵をクリップボードにコピーします。例：
    ```
    pbcopy < ~/.ssh/id_ed25519.pub
     # Copies the contents of the id_ed25519.pub file to your clipboard
    ```
-3. Set your SSH key for signing in Git with the following command, replacing the last string in quotes with the public key in your clipboard:
+3. 次のコマンドを使用して、Git に署名するための SSH キーを設定します。引用符で囲まれた最後の文字列をクリップボード内の公開キーに置き換えます。
    ```
    git config --global user.signingkey 'ssh-ed25519 AAAAC3(...) user@example.com'
    ```

@@ -1,8 +1,8 @@
 *[2FA]: 二要素認証（2-Factor Authentication）
 *[ADB]: Android Debug Bridge
-*[AOSP]: Android Open Source Project
+*[AOSP]: Android オープンソース プロジェクト（Android Open Source Project）
 *[ATA]: Advanced Technology Attachment
-*[attack surface]: The total number of possible entry points for unauthorized access to a system
+*[攻撃対象領域]: システムへ不正にアクセスできる可能性のある侵入口の総数。
 *[AVB]: Android Verified Boot
 *[cgroups]: Control Groups
 *[CLI]: Command Line Interface
@@ -43,7 +43,7 @@
 *[IP]: Internet Protocol
 *[IPv4]: Internet Protocol version 4
 *[IPv6]: Internet Protocol version 6
-*[ISP]: Internet Service Provider
+*[ISP]: インターネットサービスプロバイダ（Internet Service Provider）
 *[ISPs]: Internet Service Providers
 *[JNI]: Java Native Interface
 *[KYC]: Know Your Customer
@@ -87,7 +87,7 @@
 *[TEE]: Trusted Execution Environment
 *[TLS]: Transport Layer Security
 *[ToS]: 利用規約（Terms of Service）
-*[TOTP]: Time-based One-Time Password
+*[TOTP]: タイムベースドワンタイムパスワード（Time-based One-Time Password）
 *[TPM]: Trusted Platform Module
 *[U2F]: Universal 2nd Factor
 *[UEFI]: Unified Extensible Firmware Interface

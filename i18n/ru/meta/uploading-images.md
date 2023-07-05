@@ -1,23 +1,23 @@
 ---
-title: Uploading Images
+title: Загрузка изображений
 ---
 
 Here are a couple of general rules for contributing to Privacy Guides:
 
-## Images
+## Изображения
 
-- We **prefer** SVG images, but if those do not exist we can use PNG images
+- Мы **предпочитаем** SVG-изображения, но если их нет, мы можем использовать PNG-изображения
 
-Company logos have canvas size of:
+Логотипы компании имеют размер холста:
 
 - 128x128px
 - 384x128px
 
-## Optimization
+## Оптимизация
 
 ### PNG
 
-Use the [OptiPNG](https://sourceforge.net/projects/optipng/) to optimize the PNG image:
+Используйте [OptiPNG](https://sourceforge.net/projects/optipng/) для оптимизации PNG-изображения:
 
 ```bash
 optipng -o7 file.png
@@ -27,12 +27,12 @@ optipng -o7 file.png
 
 #### Inkscape
 
-[Scour](https://github.com/scour-project/scour) all SVG images.
+Используйте [Scour](https://github.com/scour-project/scour) для всех SVG-изображений.
 
-In Inkscape:
+В Inkscape:
 
-1. File Save As..
-2. Set type to Optimized SVG (*.svg)
+1. Файл Сохранить как..
+2. Установите тип Оптимизированный SVG (*.svg)
 
 In the **Options** tab:
 

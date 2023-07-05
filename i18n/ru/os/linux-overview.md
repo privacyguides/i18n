@@ -117,26 +117,26 @@ description: Linux - это альтернативная настольная о
 
 Многие настольные дистрибутивы Linux (Fedora, openSUSE и т.д.) поставляются с [NetworkManager](https://en.wikipedia.org/wiki/NetworkManager), для настройки параметров Ethernet и Wi-Fi.
 
-Можно [рандомизировать](https://fedoramagazine.org/randomize-mac-address-nm/) [MAC-адрес](https://ru.wikipedia.org/wiki/MAC-%D0%B0%D0%B4%D1%80%D0%B5%D1%81) при использовании NetworkManager. This provides a bit more privacy on Wi-Fi networks as it makes it harder to track specific devices on the network you’re connected to. It does [**not**](https://papers.mathyvanhoef.com/wisec2016.pdf) make you anonymous.
+Можно [рандомизировать](https://fedoramagazine.org/randomize-mac-address-nm/) [MAC-адрес](https://ru.wikipedia.org/wiki/MAC-%D0%B0%D0%B4%D1%80%D0%B5%D1%81) при использовании NetworkManager. Это обеспечивает большую конфиденциальность в сетях Wi-Fi, так как затрудняет отслеживание конкретных устройств в сети, к которой вы подключены. Это [**не**](https://papers.mathyvanhoef.com/wisec2016.pdf) делает вас анонимным.
 
-We recommend changing the setting to **random** instead of **stable**, as suggested in the [article](https://fedoramagazine.org/randomize-mac-address-nm/).
+Мы рекомендуем изменить настройки на **random** вместо **stable**, как предлагается в [статье](https://fedoramagazine.org/randomize-mac-address-nm/).
 
-If you are using [systemd-networkd](https://en.wikipedia.org/wiki/Systemd#Ancillary_components), you will need to set [`MACAddressPolicy=random`](https://www.freedesktop.org/software/systemd/man/systemd.link.html#MACAddressPolicy=) which will enable [RFC 7844 (Anonymity Profiles for DHCP Clients)](https://www.freedesktop.org/software/systemd/man/systemd.network.html#Anonymize=).
+Если вы используете [systemd-networkd](https://en.wikipedia.org/wiki/Systemd#Ancillary_components), вам необходимо установить [`MACAddressPolicy=random`](https://www.freedesktop.org/software/systemd/man/systemd.link.html#MACAddressPolicy=), что позволит включить [RFC 7844 (профили анонимности для клиентов DHCP)](https://www.freedesktop.org/software/systemd/man/systemd.network.html#Anonymize=).
 
-There isn’t many points in randomizing the MAC address for Ethernet connections as a system administrator can find you by looking at the port you are using on the [network switch](https://en.wikipedia.org/wiki/Network_switch). Randomizing Wi-Fi MAC addresses depends on support from the Wi-Fi’s firmware.
+Нет особого смысла в рандомизации MAC-адресов для Ethernet-подключений, поскольку системный администратор может найти вас, посмотрев на порт, который вы используете на [сетевом коммутаторе](https://en.wikipedia.org/wiki/Network_switch). Рандомизация MAC-адресов Wi-Fi зависит от поддержки встроенного программного обеспечения Wi-Fi.
 
 ### Другие идентификаторы
 
-There are other system identifiers which you may wish to be careful about. You should give this some thought to see if it applies to your [threat model](../basics/threat-modeling.md):
+Существуют и другие системные идентификаторы, с которыми следует быть осторожными. Вам следует подумать, применимо ли это к вашей [модели угрозы](../basics/threat-modeling.md):
 
-- **Hostnames:** Your system's hostname is shared with the networks you connect to. You should avoid including identifying terms like your name or operating system in your hostname, instead sticking to generic terms or random strings.
-- **Usernames:** Similarly, your username is used in a variety of ways across your system. Consider using generic terms like "user" rather than your actual name.
-- **Machine ID:**: During installation a unique machine ID is generated and stored on your device. Consider [setting it to a generic ID](https://madaidans-insecurities.github.io/guides/linux-hardening.html#machine-id).
+- **Хост-имена:** Имя хоста вашей системы является общим для сетей, к которым вы подключаетесь. Вам следует избегать включения в имя хоста идентифицирующих терминов, таких как ваше имя или операционная система, вместо этого следует использовать общие термины или случайные строки.
+- **Имена пользователей:** Аналогично, ваше имя пользователя используется различными способами в вашей системе. Рассмотрите возможность использования общих терминов, таких как "пользователь", вместо вашего настоящего имени.
+- **Идентификатор устройства:**: Во время установки генерируется уникальный идентификатор устройства, который сохраняется на вашем устройстве. Рассмотрите возможность [установки случайного идентификатора](https://madaidans-insecurities.github.io/guides/linux-hardening.html#machine-id).
 
 ### Подсчёт систем
 
-The Fedora Project [counts](https://fedoraproject.org/wiki/Changes/DNF_Better_Counting) how many unique systems access its mirrors by using a [`countme`](https://fedoraproject.org/wiki/Changes/DNF_Better_Counting#Detailed_Description) variable instead of a unique ID. Fedora does this to determine load and provision better servers for updates where necessary.
+Проект Fedora [подсчитывает](https://fedoraproject.org/wiki/Changes/DNF_Better_Counting), сколько уникальных систем обращаются к его зеркалам, используя переменную [`countme`](https://fedoraproject.org/wiki/Changes/DNF_Better_Counting#Detailed_Description) вместо уникального ID. Fedora делает это для определения нагрузки и предоставления лучших серверов для обновлений, где это необходимо.
 
-This [option](https://dnf.readthedocs.io/en/latest/conf_ref.html#options-for-both-main-and-repo) is currently off by default. We recommend adding `countme=false` to `/etc/dnf/dnf.conf` just in case it is enabled in the future. On systems that use `rpm-ostree` such as Silverblue, the countme option is disabled by masking the [rpm-ostree-countme](https://fedoramagazine.org/getting-better-at-counting-rpm-ostree-based-systems/) timer.
+Эта [опция](https://dnf.readthedocs.io/en/latest/conf_ref.html#options-for-both-main-and-repo) в настоящее время по умолчанию выключена. Мы рекомендуем добавить `countme=false` в `/etc/dnf/dnf.conf` на случай, если она будет включена в будущем. В системах, использующих `rpm-ostree`, например Silverblue, опция countme отключается путем маскировки таймера [rpm-ostree-countme](https://fedoramagazine.org/getting-better-at-counting-rpm-ostree-based-systems/).
 
-openSUSE also uses a [unique ID](https://en.opensuse.org/openSUSE:Statistics) to count systems, which can be disabled by deleting the `/var/lib/zypp/AnonymousUniqueId` file.
+openSUSE также использует [уникальный идентификатор](https://en.opensuse.org/openSUSE:Statistics) для подсчета систем, который можно отключить, удалив файл `/var/lib/zypp/AnonymousUniqueId`.

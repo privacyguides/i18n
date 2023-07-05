@@ -140,10 +140,10 @@ cover: news-aggregators.png
 
 ### Reddit
 
-Reddit allows you to subscribe to subreddits via RSS.
+Reddit позволяет подписываться на сабреддиты через RSS.
 
-!!! example
-    Replace `subreddit_name` with the subreddit you wish to subscribe to.
+!!! example "Пример"
+    Замените `subreddit_name` названием сабреддита, на который вы хотите подписаться.
 
     ```text
     https://www.reddit.com/r/{{ subreddit_name }}/new/.rss
@@ -151,11 +151,11 @@ Reddit allows you to subscribe to subreddits via RSS.
 
 ### Twitter
 
-Using any of the Nitter [instances](https://github.com/zedeus/nitter/wiki/Instances) you can easily subscribe using RSS.
+Используя любой из [экземпляров](https://github.com/zedeus/nitter/wiki/Instances) Nitter, вы можете легко подписаться, используя RSS.
 
 !!! example "Пример"
-    1. Pick an instance and set `nitter_instance`.
-    2. Replace `twitter_account` with the account name.
+    1. Выберите экземпляр и установите `nitter_instance`.
+    2. Замените `twitter_account` на имя аккаунта.
 
        ```text
        https://{{ nitter_instance }}/{{ twitter_account }}/rss
@@ -167,7 +167,7 @@ Using any of the Nitter [instances](https://github.com/zedeus/nitter/wiki/Instan
 
 !!! example "Пример"
 
-    To subscribe to a YouTube channel with an RSS client, first look for your [channel code](https://support.google.com/youtube/answer/6180214), replace `[CHANNEL ID]` below:
+    Чтобы подписаться на канал YouTube с помощью RSS-клиента, сначала найдите свой [код канала](https://support.google.com/youtube/answer/6180214), замените `[Идентификатор канала]` ниже:
     ```text
     https://www.youtube.com/feeds/videos.xml?channel_id=[Идентификатор канала]
     ```

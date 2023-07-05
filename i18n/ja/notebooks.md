@@ -60,7 +60,7 @@ cover: notebooks.png
         - [:simple-firefoxbrowser: Firefox](https://notesnook.com/notesnook-web-clipper/)
         - [:simple-googlechrome: Chrome](https://chrome.google.com/webstore/detail/notesnook-web-clipper/kljhpemdlcnjohmfmkogahelkcidieaj)
 
-Notesnook does not support password/PIN protection on the web & desktop apps. However, you can still lock individual notes, and your data is always encrypted in transit and on your device using your master key.
+Notesnookは、Web アプリとデスクトップアプリでのパスワード/PIN 保護をサポートしていません。 ただし、個々のメモをロッ​​クすることはでき、データは転送中およびデバイス上でマスター キーを使用して常に暗号化されます。
 
 ### Joplin
 

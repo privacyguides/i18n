@@ -2,26 +2,26 @@
 title: "プライバシーポリシー"
 ---
 
-Privacy Guides is a community project operated by a number of active volunteer contributors. The public list of team members [can be found on GitHub](https://github.com/orgs/privacyguides/people).
+Privacy Guidesは、多数の積極的なボランティア貢献者によって運営されているコミュニティプロジェクトです。 チームメンバーの公開リストは[GitHubで確認](https://github.com/orgs/privacyguides/people)できます。
 
 ## 私たちが閲覧者から収集するデータ
 
-私たちは、ウェブサイト閲覧者のプライバシーを重視しているため、各個人を追跡することはありません。 As a visitor to our website:
+私たちは、ウェブサイト閲覧者のプライバシーを重視しているため、各個人を追跡することはありません。 私たちのウェブサイトの訪問者として：
 
 - 個人情報を収集しません
 - Cookieなどの情報をブラウザに保存しません
 - 第三者に情報を共有・送信・販売しません
 - 広告会社に情報を共有しません
-- No information is mined and harvested for personal and behavioral trends
+- 個人情報および行動傾向のために情報が収集されることはありません。
 - 情報を収益化しません
 
-You can view the data we collect on our [statistics](statistics.md) page.
+収集したデータは[統計](statistics.md)ページで確認できます。
 
-We run a self-hosted installation of [Plausible Analytics](https://plausible.io) to collect some anonymous usage data for statistical purposes. The goal is to track overall trends in our website traffic, it is not to track individual visitors. All the data is in aggregate only. No personal data is collected.
+私たちは[Plausible Analytics](https://plausible.io)の自己ホスト型インストールを実行し、統計目的で匿名の使用状況データを収集します。 目的は、ウェブサイトのトラフィックの全体的な傾向を追跡することであり、個々の訪問者を追跡することではありません。 データはすべて集計値です。 個人情報は収集されません。
 
 Data collected includes referral sources, top pages, visit duration, information from the devices (device type, operating system, country and browser) used during the visit and more. You can learn more about how Plausible works and collects information in a privacy-respecting manner [here](https://plausible.io/data-policy).
 
-## Data We Collect From Account Holders
+## アカウント所有者から収集するデータ
 
 On some websites and services we provide, many features may require an account. For example, an account may be required to post and reply to topics on a forum platform.
 
@@ -42,7 +42,7 @@ We will store your account data as long as your account remains open. After clos
 
 ## 連絡先
 
-The Privacy Guides team generally does not have access to personal data outside of limited access granted via some moderation panels. Inquiries regarding your personal information should be sent directly to:
+Privacy Guidesチームは通常、一部のモデレーションパネルを介して許可された限定的なアクセス以外で、個人データにアクセスすることはできません。 個人情報に関するお問い合わせは、以下に直接お送りください：
 
 ```text
 Jonah Aragon
@@ -50,12 +50,12 @@ Jonah Aragon
 jonah@privacyguides.org
 ```
 
-For all other inquiries, you can contact any member of our team.
+その他すべてのお問い合わせについては、チームのメンバーに連絡することができます。
 
-For complaints under GDPR more generally, you may lodge complaints with your local data protection supervisory authorities. In France it's the Commission Nationale de l'Informatique et des Libertés which take care and handle the complaints. They provide a [template of complaint letter](https://www.cnil.fr/en/plaintes) to use.
+より一般的なGDPRに基づく申し立てについては、各地域のデータ保護監督当局に申し立てることができます。 フランスでは、 Commission Nationale de l'Informatique et des Libertés が申し立てを処理します。 使用できる[申し立てのテンプレート](https://www.cnil.fr/en/plaintes)が提供されています。
 
 ## このポリシーについて
 
-We will post any new versions of this statement [here](privacy-policy.md). We may change how we announce changes in future versions of this document. In the meantime we may update our contact information at any time without announcing a change. Please refer to the [Privacy Policy](privacy-policy.md) for the latest contact information at any time.
+このステートメントに新しいバージョンがあれば、[ここ](privacy-policy.md)に掲載します。 このドキュメントの将来のバージョンでは、変更の発表方法が変更される可能性があります。 それまでの間、変更を告知することなく、いつでも連絡先情報を更新することができます。 最新の連絡先情報については、[プライバシーポリシー](privacy-policy.md)を随時参照してください。
 
-A full revision [history](https://github.com/privacyguides/privacyguides.org/commits/main/docs/about/privacy-policy.md) of this page can be found on GitHub.
+このページの完全な改訂[履歴](https://github.com/privacyguides/privacyguides.org/commits/main/docs/about/privacy-policy.md)はGitHubにあります。
