@@ -63,7 +63,7 @@ description: 您的威脅模型雖說是個人的事，但它也是本站許多�
 
 !!! note "Web 加密備註"
 
-    實際上，不同 E2EE 操作的效力各不相同。 應用程式，例如 [Signal](../real-time-communication.md#signal) ，會在您的裝置上原生執行，且此應用程式在不同設備的安裝上都是如此。 如果服務提供商在他們的應用程序中引入 [後門](https://zh.wikipedia.org/wiki/Backdoor_(computing) ----試圖竊取您的私鑰----它稍後可以通過[逆向工程](https://zh.wikipedia.org/wiki/Reverse_engineering)檢測。
+    實際上，不同 E2EE 操作的效力各不相同。 應用程式，例如 [Signal](../real-time-communication.md#signal) ，會在您的裝置上原生執行，且此應用程式在不同設備的安裝上都是如此。 如果服務提供商在他們的應用程序中引入 [後門](https://zh.wikipedia.org/wiki/Backdoor_(computing)) ----試圖竊取您的私鑰----它稍後可以通過[逆向工程](https://zh.wikipedia.org/wiki/Reverse_engineering)檢測。
     
     另一方面，執行網頁 E2EE，例如 Proton Mail 的網頁郵件或Bitwarden 的* Web Vault * ，依靠伺服器動態地向瀏覽器提供JavaScript 代碼來處理加密。 惡意伺服器可以針對您發送惡意 JavaScript 代碼以竊取您的加密密鑰（這將非常難以察覺）。 因為伺服器可以選擇為不同的人提供不同的網頁用戶端，即使您注意到攻擊也很難證明提供商有罪。
     

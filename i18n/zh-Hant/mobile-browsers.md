@@ -106,7 +106,7 @@ Shields 可以選擇根據需要依各網站情況降級，但我們建議預設
 
 <div class="annotate" markdown>
 
-- [x] 選擇 **在[WebRTC IP處理政策](https://support.brave.com/hc/en-us/articles/360017989132-How-do-I-change-my-Privacy-Settings-#webrtc)
+- [x] 選擇 **在[WebRTC IP處理政策](https://support.brave.com/hc/en-us/articles/360017989132-How-do-I-change-my-Privacy-Settings-#webrtc)**
 - []取消勾選 **允許網站檢查您是否儲存了付款方式**
 - []取消勾選 **IPFS閘道** (1)
 - [x] 選擇 **關閉出口標籤**

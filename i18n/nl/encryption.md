@@ -138,7 +138,7 @@ BitLocker is [alleen ondersteund](https://support.microsoft.com/en-us/windows/tu
 
         !!! tip
    
-        Back-up de `BitLocker-Recovery-Key.txt` op uw bureaublad naar een apart opslagapparaat. Het verlies van deze herstelcode kan leiden tot verlies van gegevens.
+             Back-up de `BitLocker-Recovery-Key.txt` op uw bureaublad naar een apart opslagapparaat. Het verlies van deze herstelcode kan leiden tot verlies van gegevens.
 
 ### FileVault
 

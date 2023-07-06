@@ -11,10 +11,10 @@ cover: calendar.png
 
 !!! recommendation
 
-    ![Tutanota 標誌 (assets/img/calendar/tutanota.svg#only-light){ align=right }
+    ![Tutanota 標誌](assets/img/calendar/tutanota.svg#only-light){ align=right }
     ![Tutanota 標誌](assets/img/calendar/tutanota-dark.svg#only-dark){ align=right }
     
-    **Tutanota** 在其支援的平臺上提供免費和加密的日曆。 功能包括：所有數據的自動E2EE ，共享功能，匯入/匯出功能，多因素驗證和 [more](https://tutanota.com/calendar-app-comparison/）。
+    **Tutanota** 在其支援的平臺上提供免費和加密的日曆。 功能包括：所有數據的自動E2EE ，共享功能，匯入/匯出功能，多因素驗證和 [more](https://tutanota.com/calendar-app-comparison/)。
     
     多個行事曆和擴展共享功能僅限於付費訂閱者。
     

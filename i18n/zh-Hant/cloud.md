@@ -12,7 +12,7 @@ cover: cloud.png
 
 ??? question "找不到 Nextcloud?"
 
-    Nextcloud 是[仍然是一個推薦的工具] (productivity.md) ，可用於自我託管檔案管理套件，但目前不推薦第三方 Nextcloud儲存服務提供商，因為我們[不建議]使用 (https://discuss.privacyguides.net/t/dont-recommend-nextcloud-e2ee/10352/29) Nextcloud  家庭用戶版內置的 E2EE 功能。
+    Nextcloud 是 [仍然是一個推薦的工具](productivity.md) ，可用於自我託管檔案管理套件，但目前不推薦第三方 Nextcloud儲存服務提供商，因為我們 [不建議]使用](https://discuss.privacyguides.net/t/dont-recommend-nextcloud-e2ee/10352/29) Nextcloud 家庭用戶版內置的 E2EE 功能。
 
 ## Proton Drive
 

@@ -96,7 +96,7 @@ Truecrypt 已完成[多次審計](https://en.wikipedia.org/wiki/TrueCrypt#Securi
 
     ![BitLocker logo](assets/img/encryption-software/bitlocker.png){ align=right }
     
-    **BitLocker** 是 Microsoft Windows 捆綁的全磁區加密解決方案。 我們推薦它的主要原因是 [使用 TPM](https://docs.microsoft.com/en-us/windows/security/information-protection/tpm/how-windows-uses-the-tpm)。 取證公司[ElcomSoft](https://en.wikipedia.org/wiki/ElcomSoft)在[Understanding BitLocker TPM Protection] (https://blog.elcomsoft.com/2021/01/understanding-BitLocker-tpm-protection/)中撰寫了有關此問題的文章。
+    **BitLocker** 是 Microsoft Windows 捆綁的全磁區加密解決方案。 我們推薦它的主要原因是 [使用 TPM](https://docs.microsoft.com/en-us/windows/security/information-protection/tpm/how-windows-uses-the-tpm)。 取證公司 [ElcomSoft](https://en.wikipedia.org/wiki/ElcomSoft)在 [Understanding BitLocker TPM Protection](https://blog.elcomsoft.com/2021/01/understanding-BitLocker-tpm-protection/) 中撰寫了有關此問題的文章。
     
     [:octicons-info-16:](https://docs.microsoft.com/en-us/windows/security/information-protection/BitLocker/BitLocker-overview){ .card-link title=Documentation}
 
@@ -251,7 +251,7 @@ OpenPGP 有時需要執行特定任務，例如數位簽署和加密電子郵件
 
 !!! tip "在生成金鑰時使用未來的預設值"
 
-    [生成密鑰] (https://www.gnupg.org/gph/en/manual/c14.html)時，建議使用`future-default`命令，因為這將指示 GnuPG 使用現代密碼學，例如 [Curve25519](https://en.wikipedia.org/wiki/Curve25519#History) 和 [Ed25519](https://ed25519.cr.yp.to/) ：
+    [生成密鑰](https://www.gnupg.org/gph/en/manual/c14.html) 時，建議使用`future-default`命令，因為這將指示 GnuPG 使用現代密碼學，例如 [Curve25519](https://en.wikipedia.org/wiki/Curve25519#History) 和 [Ed25519](https://ed25519.cr.yp.to/) ：
 
     ```bash
     gpg --quick-gen-key alice@example.com future-default
@@ -324,7 +324,7 @@ OpenPGP 有時需要執行特定任務，例如數位簽署和加密電子郵件
 
     ![OpenKeychain logo](assets/img/encryption-software/openkeychain.svg){ align=right }
     
-    **OpenKeychain** 是 GnuPG 的Android 實作。 郵件客戶端通常需要它，例如 [K-9 Mail]（ email-clients.md#k-9-mail）和 [FairEmail]（email-clients.md#fairemail）以及其他 Android 應用程序提供加密支持。 Cure53 於2015年10月完成了 OpenKeychain 3.6 的 [安全審核](https://www.openkeychain.org/openkeychain-3-6)。 審核 OpenKeychain 方案的 [技術細節在此](https://github.com/open-keychain/open-keychain/wiki/cure53-Security-Audit-2015)。
+    **OpenKeychain** 是 GnuPG 的Android 實作。 郵件客戶端通常需要它，例如 [K-9 Mail](email-clients.md#k-9-mail) 和 [FairEmail](email-clients.md#fairemail) 以及其他 Android 應用程序提供加密支持。 Cure53 於2015年10月完成了 OpenKeychain 3.6 的 [安全審核](https://www.openkeychain.org/openkeychain-3-6)。 審核 OpenKeychain 方案的 [技術細節在此](https://github.com/open-keychain/open-keychain/wiki/cure53-Security-Audit-2015)。
     
     [:octicons-home-16: Homepage](https://www.openkeychain.org){ .md-button .md-button--primary }
     [:octicons-eye-16:](https://www.openkeychain.org/help/privacy-policy){ .card-link title="Privacy Policy" }

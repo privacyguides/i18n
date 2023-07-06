@@ -138,7 +138,7 @@ BitLocker [ נתמך רק](https://support.microsoft.com/en-us/windows/turn-on-d
 
         !!! tip "טיפ"
    
-        גיבוי 'BitLocker-Recovery-Key.txt' בשולחן העבודה שלך להתקן אחסון נפרד. אובדן קוד שחזור זה עלול לגרום לאובדן נתונים.
+            גיבוי 'BitLocker-Recovery-Key.txt' בשולחן העבודה שלך להתקן אחסון נפרד. אובדן קוד שחזור זה עלול לגרום לאובדן נתונים.
 
 ### FileVault
 

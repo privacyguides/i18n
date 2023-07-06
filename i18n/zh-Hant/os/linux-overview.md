@@ -111,7 +111,7 @@ description: Linux 為開源、以隱私為中心的桌面作業系統替代選�
 
 幸好常見的桌面環境，如 [GNOME](https://www.gnome.org)， [KDE](https://kde.org)以及視窗管理器 [Sway](https://swaywm.org) 都支持 Wayland。 一些發行版 Fedora, Tumbleweed預設使用，其他發行版可能未來也會跟進，因為 X11處於 [hard maintenance mode](https://www.phoronix.com/scan.php?page=news_item&px=X.Org-Maintenance-Mode-Quickly)。 如果使用以下的桌面環境，就像在桌面顯示管理器中選擇 "Wayland "一樣簡單([GDM](https://en.wikipedia.org/wiki/GNOME_Display_Manager), [SDDM](https://en.wikipedia.org/wiki/Simple_Desktop_Display_Manager)) 。
 
-我們**反對**使用不支援 Wayland 的桌面環境或視窗管理器，如Cinnamon（Linux Mint ）、Pantheon（Elementary OS）、MATE、Xfce 和 i3。
+我們**反對**使用不支援 Wayland 的桌面環境或視窗管理器，如Cinnamon（Linux Mint）、Pantheon（Elementary OS）、MATE、Xfce 和 i3。
 
 
 

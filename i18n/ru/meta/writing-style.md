@@ -1,87 +1,87 @@
 ---
-title: Writing Style
+title: Стиль написания
 ---
 
-Privacy Guides is written in American English, and you should refer to [APA Style guidelines](https://apastyle.apa.org/style-grammar-guidelines/grammar) when in doubt.
+Privacy Guides написан на американском английском, и в случае сомнений вам следует обратиться к [руководству по стилю APA](https://apastyle.apa.org/style-grammar-guidelines/grammar).
 
-In general the [United States federal plain language guidelines](https://www.plainlanguage.gov/guidelines/) provide a good overview of how to write clearly and concisely. We highlight a few important notes from these guidelines below.
+В целом [Федеральное руководство США по написанию текстов](https://www.plainlanguage.gov/guidelines/) дает хорошее представление о том, как писать ясно и лаконично. Ниже мы приводим несколько важных замечаний из этих рекомендаций.
 
-## Writing for our audience
+## Пишите для нашей аудитории
 
-Privacy Guides' intended [audience](https://www.plainlanguage.gov/guidelines/audience/) is primarily average, technology using adults. Don't dumb down content as if you are addressing a middle-school class, but don't overuse complicated terminology about concepts average computer users wouldn't be familiar with.
+Предполагаемая [аудитория](https://www.plainlanguage.gov/guidelines/audience/) "Privacy Guides" - это в основном взрослые люди, пользующиеся техникой. Не упрощайте содержание, как будто вы обращаетесь к классу средней школы, но и не злоупотребляйте сложной терминологией в отношении понятий, с которыми не знакомы обычные пользователи компьютеров.
 
-### Address only what people want to know
+### Обращайтесь только к тому, что люди хотят знать
 
-People don't need overly complex articles with little relevance to them. Figure out what you want people to accomplish when writing an article, and only include those details.
+Людям не нужны слишком сложные статьи, имеющие к ним мало отношения. При написании статьи определите, что, по вашему мнению, люди должны вынести из вашей статьи и включайте только эти детали.
 
-> Tell your audience why the material is important to them. Say, “If you want a research grant, here’s what you have to do.” Or, “If you want to mine federal coal, here’s what you should know.” Or, “If you’re planning a trip to Rwanda, read this first.”
+> Расскажите своей аудитории, почему материал важен для нее. Например: "Если вы хотите получить грант на исследование, вот что вы должны сделать." Или: "Если вы хотите добывать уголь на федеративных землях, вот что вы должны знать." Или: "Если вы планируете поездку в Руанду, сначала прочитайте это."
 
-### Address people directly
+### Обращайтесь к людям напрямую
 
-We're writing *for* a wide variety of people, but we are writing *to* the person who is actually reading it. Use "you" to address the reader directly.
+Мы пишем *для* самых разных людей, но мы пишем *конкретному* человеку, который это читает. Используйте "Вы" для прямого обращения к читателю.
 
-> More than any other single technique, using “you” pulls users into the information and makes it relevant to them.
+> Как никакой другой отдельный прием, использование "Вы" привлекает пользователей к информации и делает ее актуальной для них.
 > 
-> When you use “you” to address users, they are more likely to understand what their responsibility is.
+> Когда вы обращаетесь к пользователям на "Вы", они с большей вероятностью поймут, в чем заключается их ответственность.
 
-Source: [plainlanguage.gov](https://www.plainlanguage.gov/guidelines/audience/address-the-user/)
+Источник: [plainlanguage.gov](https://www.plainlanguage.gov/guidelines/audience/address-the-user/)
 
-### Avoid "users"
+### Избегайте слова "пользователи"
 
-Avoid calling people "users", in favor of "people", or a more specific description of the group of people you are writing for.
+Избегайте называть людей "пользователями", предпочитая "людьми" или более конкретное описание группы людей, для которых вы пишете.
 
-## Organizing content
+## Организация контента
 
-Organization is key. Content should flow from most to least important information, and use headers as much as needed to logically separate different ideas.
+Организация - это ключ. Содержание должно идти от наиболее важной информации к наименее важной, используйте заголовки по мере необходимости, чтобы логически разделить различные идеи.
 
-- Limit the document to around five or six sections. Long documents should probably be broken up into separate pages.
-- Mark important ideas with **bold** or *italics*.
+- Ограничьте документ примерно пятью-шестью разделами. Длинные документы, вероятно, следует разделить на отдельные страницы.
+- Отметьте важные идеи **жирным** или *курсивом *.
 
-Source: [plainlanguage.gov](https://www.plainlanguage.gov/guidelines/design/)
+Источник: [plainlanguage.gov](https://www.plainlanguage.gov/guidelines/design/)
 
-### Begin with a topic sentence
+### Начните с вывода
 
-> If you tell your reader what they’re going to read about, they’re less likely to have to read your paragraph again. Headings help, but they’re not enough. Establish a context for your audience before you provide them with the details.
+> Если вы скажете читателю, о чем он собирается читать, ему с меньшей вероятностью придется перечитывать ваш абзац еще раз. Заголовки помогают, но их недостаточно. Прежде чем рассказывать подробности, создайте контекст для своей аудитории.
 > 
-> We often write the way we think, putting our premises first and then our conclusion. It may be the natural way to develop thoughts, but we wind up with the topic sentence at the end of the paragraph. Move it up front and let users know where you’re going. Don’t make readers hold a lot of information in their heads before getting to the point.
+> Мы часто пишем так, как думаем: сначала ставим предпосылки, а затем вывод. Возможно, это естественный способ развития мысли, но в итоге мы получаем вывод в конце абзаца. Переместите его вперед и дайте пользователям понять, куда вы направляетесь. Не заставляйте читателей держать в голове много информации, прежде чем перейти к сути.
 
-Source: [plainlanguage.gov](https://www.plainlanguage.gov/guidelines/organize/have-a-topic-sentence/)
+Источник: [plainlanguage.gov](https://www.plainlanguage.gov/guidelines/organize/have-a-topic-sentence/)
 
-## Choose your words carefully
+## Тщательно подбирайте слова
 
-> Words matter. They are the most basic building blocks of written and spoken communication. Don’t complicate things by using jargon, technical terms, or abbreviations that people won’t understand.
+> Слова имеют значение. Они являются самыми основными элементами письменного и устного общения. Не усложняйте тему, используя жаргон, технические термины или аббревиатуры, которые люди не поймут.
 
-We should try to avoid abbreviations where possible, but technology is full of abbreviations. In general, spell out the abbreviation/acronym the first time it is used on a page, and add the abbreviation to the abbreviation glossary file when it is used repeatedly.
+Мы должны стараться избегать аббревиатур, когда это возможно, к сожалению технологии полны аббревиатур. Как правило, пишите аббревиатуру/акроним в первый раз, когда она используется на странице, и добавляйте аббревиатуру в файл глоссария аббревиатур, если она используется неоднократно.
 
-> Kathy McGinty offers tongue-in-cheek instructions for bulking up your simple, direct sentences:
+> Kathy McGinty предлагает шутливые инструкции по увеличению объема ваших простых и прямых предложений:
 > 
-> > There is no escaping the fact that it is considered very important to note that a number of various available applicable studies ipso facto have generally identified the fact that additional appropriate nocturnal employment could usually keep juvenile adolescents off thoroughfares during the night hours, including but not limited to the time prior to midnight on weeknights and/or 2 a.m. on weekends.
+> > Невозможно избежать того факта, что считается очень важным отметить, что ряд различных доступных применимых исследований ipso facto в целом выявили тот факт, что дополнительная соответствующая ночная занятость могла бы обычно удерживать несовершеннолетних подростков от проезжей части в ночные часы, включая, но не ограничиваясь, временем до полуночи в будние дни и/или 2 часов ночи по выходным.
 > 
-> And the original, using stronger, simpler words:
+> И оригинал, использующий более сильные и простые слова:
 > 
-> > More night jobs would keep youths off the streets.
+> > Увеличение количества ночных рабочих мест убережет молодежь от уличных беспорядков.
 
-## Be concise
+## Будьте лаконичны
 
-> Unnecessary words waste your audience’s time. Great writing is like a conversation. Omit information that the audience doesn’t need to know. This can be difficult as a subject matter expert so it’s important to have someone look at the information from the audience’s perspective.
+> Лишние слова тратят время вашей аудитории. Искусство написания текстов - это как разговор. Пропустите информацию, которую аудитории не нужно знать. Это может быть непросто, если вы являетесь экспертом в данной области, поэтому важно, чтобы кто-то посмотрел на информацию с точки зрения аудитории.
 
-Source: [plainlanguage.gov](https://www.plainlanguage.gov/guidelines/concise/)
+Источник: [plainlanguage.gov](https://www.plainlanguage.gov/guidelines/concise/)
 
-## Keep text conversational
+## Сохраняйте разговорный характер текста
 
-> Verbs are the fuel of writing. They give your sentences power and direction. They enliven your writing and make it more interesting.
+> Глаголы - это топливо для письма. Они придают вашим предложениям силу и направление. Они оживляют ваше письмо и делают его более интересным.
 > 
-> Verbs tell your audience what to do. Make sure it’s clear who does what.
+> Глаголы говорят вашей аудитории, что нужно делать. Обозначьте, кто что делает.
 
-### Use active voice
+### Использовать активный голос
 
-> Active voice makes it clear who is supposed to do what. It eliminates ambiguity about responsibilities. Not “It must be done,” but “You must do it.”
+> Активный голос уточняет, кто что должен сделать. Это устраняет двусмысленность в отношении обязанностей. Не "Это должно быть сделано", а "Ты должен это сделать."
 
-Source: [plainlanguage.gov](https://www.plainlanguage.gov/guidelines/conversational/use-active-voice/)
+Источник: [plainlanguage.gov](https://www.plainlanguage.gov/guidelines/conversational/use-active-voice/)
 
-### Use "must" for requirements
+### Используйте слово "должен" для требований
 
-> - “must” for an obligation
-> - “must not” for a prohibition
-> - “may” for a discretionary action
-> - “should” for a recommendation
+> - "должен" для обязательства
+> - "не должен" для запрета
+> - "может" для дискреционного действия
+> - "нужно" для рекомендации

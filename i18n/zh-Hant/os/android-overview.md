@@ -95,7 +95,7 @@ Android 13:
 
 !!! note "備註"
 
-    [Bitwarden](https://reports.exodus-privacy.eu.org/en/reports/com.x8bit.bitwarden/latest/)等隱私友好型應用程式可能會顯示[Google Firebase Analytics] (https://reports.exodus-privacy.eu.org/en/trackers/49/)等追蹤程式。 此程式庫包括[Firebase Cloud Messaging] (https://zh.wikipedia.org/wiki/Firebase_Cloud_Messaging) ，可以在應用程式中提供[推送通知] (https://zh.wikipedia.org/wiki/Push_technology)。 這是Bitwarden的[情況] (https://fosstodon.org/ @ bitwarden/109636825700482007)。 這並不意味 Bitwarden 使用 Google Firebase Analytics 提供的所有分析功能。
+    [Bitwarden](https://reports.exodus-privacy.eu.org/en/reports/com.x8bit.bitwarden/latest/)等隱私友好型應用程式可能會顯示 [Google Firebase Analytics](https://reports.exodus-privacy.eu.org/en/trackers/49/)等追蹤程式。 此程式庫包括 [Firebase Cloud Messaging](https://zh.wikipedia.org/wiki/Firebase_Cloud_Messaging) ，可以在應用程式中提供 [推送通知](https://zh.wikipedia.org/wiki/Push_technology)。 這是Bitwarden的 [情況](https://fosstodon.org/ @ bitwarden/109636825700482007)。 這並不意味 Bitwarden 使用 Google Firebase Analytics 提供的所有分析功能。
     
 
 

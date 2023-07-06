@@ -138,7 +138,7 @@ BitLocker è [supportato solo](https://support.microsoft.com/it-it/windows/abili
 
         !!! tip "Suggerimento"
    
-        Esegui il backup di `BitLocker-Recovery-Key.txt` sul desktop in un dispositivo di archiviazione separato. La perdita di questo codice di recupero può comportare la perdita dei dati.
+            Esegui il backup di `BitLocker-Recovery-Key.txt` sul desktop in un dispositivo di archiviazione separato. La perdita di questo codice di recupero può comportare la perdita dei dati.
 
 ### FileVault
 

@@ -1,53 +1,53 @@
-# Community Code of Conduct
+# Кодекс поведения сообщества
 
-**We pledge** to make our community a harassment-free experience for everyone.
+**Мы обязуемся** сделать наше сообщество свободным от любых притеснений.
 
-**We strive** to create a positive environment, using welcoming and inclusive language, and being respectful of the viewpoints of others.
+**Мы стремимся** создать позитивную атмосферу, используя приветливые и инклюзивные формулировки и уважительно относясь к точкам зрения других.
 
-**We do not allow** inappropriate or otherwise unacceptable behavior, such as sexualized language, trolling and insulting comments, or otherwise promoting intolerance or harassment.
+**Мы не разрешаем** неуместное или иным образом неприемлемое поведение, такое как сексуализированные высказывания, троллинг и оскорбительные комментарии, а также иное поощрение нетерпимости или харасмента.
 
-## Community Standards
+## Стандарты сообщества
 
-What we expect from members of our communities:
+Что мы ожидаем от участников наших сообществ:
 
-1. **Don't spread misinformation**
+1. **Не распространяйте дезинформацию**
 
-      We are creating an evidence-based educational community around information privacy and security, not a home for conspiracy theories. For example, when making a claim that a certain piece of software is malicious or that certain telemetry data is privacy invasive, explain in detail what is collected and how it collected. Claims of this nature must be backed by technical evidence.
+      Мы создаем основанное на фактах образовательное сообщество по вопросам конфиденциальности и безопасности информации, а не дом для теорий заговора. Например, утверждая, что определенное программное обеспечение является вредоносным или что определенные телеметрические данные нарушают неприкосновенность частной жизни, подробно объясните, что и как собирается. Заявления такого рода должны быть подкреплены техническими доказательствами.
 
-1. **Don't abuse our willingness to help**
+1. **Не злоупотребляйте нашей готовностью помочь**
 
-      Our community members are not your free tech support. We are happy to help you with specific steps on your privacy journey if you are willing to put in effort on your end. We are not willing to answer endlessly repeated questions about generic computer problems you could have answered yourself with a 30-second internet search. Don't be a [help vampire](https://slash7.com/2006/12/22/vampires/).
+      Члены нашего сообщества - это не бесплатная техническая поддержка. Мы будем рады помочь вам с конкретными шагами на пути к конфиденциальности, если вы готовы приложить усилия со своей стороны. Мы не готовы отвечать на бесконечно повторяющиеся вопросы об общих компьютерных проблемах, на которые вы могли бы ответить сами, проведя 30-ти секундный поиск в интернете. Не будьте [вампиром, ищущим помощь](https://slash7.com/2006/12/22/vampires/).
 
-1. **Behave in a positive and constructive manner**
+1. **Ведите себя позитивно и конструктивно**
 
-      Examples of behavior that contributes to a positive environment for our community include:
+      Примеры поведения, которые способствуют созданию благоприятной среды для нашего сообщества, включают:
 
-      - Demonstrating empathy and kindness toward other people
-      - Being respectful of differing opinions, viewpoints, and experiences
-      - Giving and gracefully accepting constructive feedback
-      - Accepting responsibility and apologizing to those affected by our mistakes, and learning from the experience
-      - Focusing on what is best not just for us as individuals, but for the overall community
+      - Демонстрация сочувствия и доброты по отношению к другим людям
+      - Уважительное отношение к различным мнениям, точкам зрения и опыту
+      - Давать и вежливо принимать конструктивный фидбэк
+      - Брать ответственность и приносить извинения тем, кого затронули наши ошибки, и учиться на этом опыте
+      - Сосредоточение внимания на том, что лучше не только для нас, но и для всего сообщества
 
-### Unacceptable Behavior
+### Неприемлемое поведение
 
-The following behaviors are considered harassment and are unacceptable within our community:
+Следующие виды поведения считаются харасментом и являются неприемлемыми в нашем сообществе:
 
-- The use of sexualized language or imagery, and sexual attention or advances of any kind
-- Trolling, insulting or derogatory comments, and personal or political attacks
-- Public or private harassment
-- Publishing others' private information, such as a physical or email address, without their explicit permission
-- Other conduct which could reasonably be considered inappropriate in a professional setting
+- Использование сексуализированного языка или образов, а также сексуальное внимание или приставания любого рода
+- Издевательства, оскорбительные или уничижительные комментарии, а также личные или политические нападки
+- Публичный или личный харасмент
+- Публикация личной информации других людей, такой как физический адрес или адрес электронной почты, без их явного разрешения
+- Другие действия, которые можно обоснованно считать неуместными в профессиональной среде
 
-## Scope
+## Область применения
 
-Our Code of Conduct applies within all project spaces, as well as when an individual is representing the Privacy Guides project in other communities.
+Наш кодекс поведения действует во всех областях проекта, а также в тех случаях, когда человек представляет проект Privacy Guides в других сообществах.
 
-We are responsible for clarifying the standards of our community, and have the right to remove or alter the comments of those participating within our community, as necessary and at our discretion.
+Мы несем ответственность за разъяснение стандартов нашего сообщества и имеем право удалять или изменять комментарии участников нашего сообщества по мере необходимости и по нашему усмотрению.
 
-### Contact
+### Обратная связь
 
-If you observe a problem on a platform like Matrix or Reddit, please contact our moderators on that platform in chat, via DM, or through any designated "Modmail" system.
+Если вы заметили проблему на такой платформе, как Matrix или Reddit, пожалуйста, свяжитесь с нашими модераторами на этой платформе в чате, через DM или через любую специальную систему "Modmail".
 
-If you have a problem elsewhere, or a problem our community moderators are unable to resolve, reach out to `jonah@privacyguides.org` and/or `dngray@privacyguides.org`.
+Если у вас возникла проблема в другом месте или проблема, которую не могут решить наши модераторы сообщества, обращайтесь на `jonah@privacyguides.org` и/или `dngray@privacyguides.org`.
 
-All community leaders are obligated to respect the privacy and security of the reporter of any incident.
+Все лидеры сообщества обязуются уважать конфиденциальность и безопасность сообщившего о любом инциденте.

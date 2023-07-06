@@ -37,7 +37,7 @@ Brave Search 總部在美國。 他們的 [隱私政策](https://search.brave.co
 
     ![DuckDuckGo logo](assets/img/search-engines/duckduckgo.svg){ align=right }
     
-    **DuckDuckGo** 最主流的隱私搜尋引擎選項之一。 著名的 DuckDuckGo 搜索功能包括 [bangs]( https://duckduckgo.com/bang)和許多[即時答案] (https://help.duckduckgo.com/duckduckgo-help-pages/features/instant-answers-and-other-features/)。 搜尋引擎依賴商業 Bing API 來提供大多數結果，但它確實使用許多[其他來源](https://help.duckduckgo.com/results/sources/ )來獲取即時答案和其他非主要結果。
+    **DuckDuckGo** 最主流的隱私搜尋引擎選項之一。 著名的 DuckDuckGo 搜索功能包括 [bangs](https://duckduckgo.com/bang)和許多[即時答案](https://help.duckduckgo.com/duckduckgo-help-pages/features/instant-answers-and-other-features/)。 搜尋引擎依賴商業 Bing API 來提供大多數結果，但它確實使用許多[其他來源](https://help.duckduckgo.com/results/sources/ )來獲取即時答案和其他非主要結果。
     
     DuckDuckGo 是 Tor瀏覽器的預設搜尋引擎，也是 Apple Safari 瀏覽器上為數不多的可用選項之一。
     

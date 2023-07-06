@@ -90,7 +90,7 @@ schema:
 
 請注意，雖然可以將 Mullvad 瀏覽器與任何 VPN 一起使用，但該 VPN 的其他人也必須使用 Mullvad瀏覽器 "人群"才會存在。比起其他提供商， Mullvad VPN 更可能存在相同的人群，特別是Mullvad 瀏覽器的推出。 Mullvad 瀏覽器沒有內建VPN 連接，也不會在瀏覽之前檢查是否使用 VPN，必須單獨配置和管理VPN 連接。
 
-Mullvad 瀏覽器附帶預先安裝的 *uBlock Origin* 和 *NoScript* 擴充功能。 我們尤其[不建議](#extensions) 增 *額外的/em> 瀏覽器擴充套件，有些擴充在瀏覽器安裝之前已存在**無法**移除或改變預設值，因為一旦隨意更動就會突顯出您的 Mullvad 瀏覽器與其它Mullvad 瀏覽器的差異。 它還預先安裝了 Mullvad 瀏覽器擴展套件，但也可將之*安全地移除 * ，並不會影響瀏覽器指紋，但即使不使用Mullvad VPN ，也可以安全地保留。</p>
+Mullvad 瀏覽器附帶預先安裝的 *uBlock Origin* 和 *NoScript* 擴充功能。 我們尤其[不建議](#extensions) 增 *額外的* 瀏覽器擴充套件，有些擴充在瀏覽器安裝之前已存在**無法**移除或改變預設值，因為一旦隨意更動就會突顯出您的 Mullvad 瀏覽器與其它Mullvad 瀏覽器的差異。 它還預先安裝了 Mullvad 瀏覽器擴展套件，但也可將之*安全地移除* ，並不會影響瀏覽器指紋，但即使不使用Mullvad VPN ，也可以安全地保留。
 
 ### 隱私瀏覽模式
 
@@ -151,7 +151,7 @@ Mullvad Browser 將DuckDuckGo 設置為預設的 [搜索引擎](search-engines.m
 [Firefox  Suggest](https://support.mozilla.org/en-US/kb/firefox-suggest) 功能只限美國地區，其類似於搜尋建議。 我們建議停用此功能的原因與我們建議停用搜尋建議的原因相同。 如果您在 **地址欄** 標題下沒有看到這些選項，則表示您沒有新的體驗，可以忽略這些變更。
 
 - [ ] 取消勾選 **提供搜尋建議**
-- []取消勾選 **贊助商的建議**
+- [ ] 取消勾選 **贊助商的建議**
 
 ##### 關閉時消毒
 
@@ -164,8 +164,8 @@ Mullvad Browser 將DuckDuckGo 設置為預設的 [搜索引擎](search-engines.m
 ##### 遙測
 
 - [ ] 取消勾選 **允許 Firefox 傳送技術與互動資料給 Mozilla**
-- [ ] 取消勾選k **允許 Firefox 安裝並進行研究/strong></li>
-- [ ] 取消勾選 **允許 Firefox 以您的身分自動回報錯誤報告**</ul>
+- [ ] 取消勾選k **允許 Firefox 安裝並進行研究**
+- [ ] 取消勾選 **允許 Firefox 以您的身分自動回報錯誤報告**
 
 > Firefox 會傳送有關 Firefox 版本和語言的資料；裝置作業系統和硬體配置；記憶體、有關崩潰和錯誤的基本資訊；更新、安全瀏覽和啟動等自動化程序的結果。 當 Firefox 將資料傳送給我們時，您的IP位址會作為伺服器記錄的一部分暫時收集。
 
@@ -188,7 +188,7 @@ Mullvad Browser 將DuckDuckGo 設置為預設的 [搜索引擎](search-engines.m
 
 !!! tip "使用Mullvad 瀏覽器進階防指紋辨識"
 
-    [Mullvad瀏覽器] (#mullvad-browser)提供與 Arkenfox 相同的防指紋保護，不需要使用 Mullvad VPN 就能獲得這些保護。 再加上VPN ， Mullvad 瀏覽器可以阻擋 Arkenfox 無法處理的更先進追蹤腳本。 Arkenfox 仍具有更靈活的優勢，可以對需要繼續登錄的網站設置例外。
+    [Mullvad瀏覽器](#mullvad-browser) 提供與 Arkenfox 相同的防指紋保護，不需要使用 Mullvad VPN 就能獲得這些保護。 再加上VPN ， Mullvad 瀏覽器可以阻擋 Arkenfox 無法處理的更先進追蹤腳本。 Arkenfox 仍具有更靈活的優勢，可以對需要繼續登錄的網站設置例外。
 
 [Arkenfox 專案](https://github.com/arkenfox/user.js) 為 Firefox  提供一套完整的考量選項。 如果您 [決定](https://github.com/arkenfox/user.js/wiki/1.1-To-Arkenfox-or-Not) 使用Arkenfox ，則 [有幾個選項](https://github.com/arkenfox/user.js/wiki/3.2-Overrides-[Common]) 在主觀上嚴格而且可能導致某些網站無法正常運作- [可以輕鬆更改](https://github.com/arkenfox/user.js/wiki/3.1-Overrides) 以滿足需求。  **強列建議**仔細看過他們完整的[維基頁wiki](https://github.com/arkenfox/user.js/wiki). Arkenfox還支持 [容器](https://support.mozilla.org/en-US/kb/containers#w_for-advanced-users) 。
 
@@ -248,13 +248,13 @@ Shields 可以選擇根據需要依各網站情況降級，但我們建議預設
 
 ##### 阻擋社群媒體
 
-- [ ]取消勾選所有社群媒體組件
+- [ ] 取消勾選所有社群媒體組件
 
 ##### 隐私和安全
 
 <div class="annotate" markdown>
 
-- [x] 在[WebRTC IP 處理政策](https://support.brave.com/hc/en-us/articles/360017989132-How-do-I-change-my-Privacy-Settings-#webrtc）選擇**禁用非代理的 UDP**
+- [x] 在 [WebRTC IP 處理政策](https://support.brave.com/hc/en-us/articles/360017989132-How-do-I-change-my-Privacy-Settings-#webrtc) 選擇**禁用非代理的 UDP**
 - [ ] 取消勾選 **使用 Google 推送消息**
 - [ ] 取消勾選 **允許保留隱私的產品分析（P3A）**
 - [ ] 取消勾選 **自動向 Brave 發送每日使用情况 **
@@ -262,7 +262,7 @@ Shields 可以選擇根據需要依各網站情況降級，但我們建議預設
 - [x] 勾選  **安全** 選單**一直維持安全連接**
 - [ ] 取消勾選 **使用 Tor 的私密視窗** (1) 提示「關閉時進行消毒」
 
-        - [x] 選擇 在** Cookies 和其他網站資料*選單中**關閉所有視窗時清除 cookies 和網站資料* *
+        - [x] 選擇 在 **Cookies 和其他網站資料*選單中**關閉所有視窗時清除 cookies 和網站資料**
 
         如果希望繼續登入經常訪問的特定網站，可以在*自訂行為*處根據每個網站設定例外情況。
 
@@ -287,7 +287,7 @@ Brave Web3 功能可能會增加瀏覽器指紋和攻擊面。 除非有用到�
 
 <div class="annotate" markdown>
 
-- [ ] 取消勾選* * Brave 關閉時繼續執行應用程式* *以禁用背景應用程式(1)
+- [ ] 取消勾選 **Brave 關閉時繼續執行應用程式** 以禁用背景應用程式(1)
 
 </div>
 

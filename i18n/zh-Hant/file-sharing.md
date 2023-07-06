@@ -13,7 +13,7 @@ cover: file-sharing.png
 
 !!! recommendation
 
-    ![Send logo](assets/img/file-sharing-sync/send.svg){align = right}
+    ![Send logo](assets/img/file-sharing-sync/send.svg){ align=right }
     
     **Send** 是分支自 Mozilla 已停止的 Firefox Send服務，它允許您使用鏈接將檔案發送給其他人。 檔案在您的裝置上已加密，因此無法被伺服器讀取，並且它們也可以選擇受密碼保護。 Send 維護者託管 [公共實例](https://send.vis.ee/)。 你可以利用其他公開實例，也可以自行託管 Send。
     
@@ -89,7 +89,7 @@ ffsend upload --host https://send.vis.ee/ FILE
     [:octicons-code-16:](https://github.com/nextcloud){ .card-link title="Source Code" }
     [:octicons-heart-16:](https://nextcloud.com/contribute/){ .card-link title=Contribute }
     
-    ??? 下載
+    ??? downloads "下載"
     
         - [:simple-googleplay: Google Play](https://play.google.com/store/apps/details?id=com.nextcloud.client)
         - [:simple-appstore: App Store](https://apps.apple.com/app/id1125420102)
@@ -115,7 +115,7 @@ ffsend upload --host https://send.vis.ee/ FILE
     [:octicons-code-16:](https://github.com/syncthing){ .card-link title="Source Code" }
     [:octicons-heart-16:](https://syncthing.net/donations/){ .card-link title=Contribute }
     
-    ??? 下載
+    ??? downloads "下載"
     
         - [:simple-googleplay: Google Play](https://play.google.com/store/apps/details?id=com.nutomic.syncthingandroid)
         - [:simple-windows11: Windows](https://syncthing.net/downloads/)

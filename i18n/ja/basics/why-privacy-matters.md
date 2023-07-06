@@ -5,11 +5,11 @@ icon: 'material/shield-account'
 
 デジタルデータが搾取される現代において、あなたのプライバシーはかつてないほど重要になっています。しかし、多くの人はプライバシーが既に失われていると感じています。 それは違います。 ==プライバシーは手に入ります==が、あなたはそれを気にかける必要があります。 プライバシーは力であり、この力が正しい人の手にあることは非常に重要です。
 
-プライバシーは究極的には人間の情報に関するものであり、人間の情報は人間に力を与えるので、これは重要です。 If we care about our ability to be authentic, fulfilled, and free humans, we have to care about the rules that apply to information about us. So much of our modern society is structured around **information**. When you shop online, read the news, look something up, vote, seek directions, or really anything else, you are relying on information. If we live in an information society, our information matters, and therefore privacy matters.
+プライバシーは究極的には人間の情報に関するものであり、人間の情報は人間に力を与えるので、これは重要です。 真に満たされた自由な人間になる能力が欲しいなら、私たちの情報に適用されるルールをよく確認する必要があります。 現代社会の多くは**情報**を中心に構成されています。 オンラインで買い物をし、ニュースを読み、何かを調べ、投票し、ルートを調べ、その他何かするとき、あなたは情報に頼っています。 情報社会において、私たちの情報は重要であり、したがってプライバシーは重要です。
 
 ## プライバシーとは何か？
 
-Many people get the concepts of **privacy**, **security**, and **anonymity** confused. You'll see people criticize various products as "not private" when really they mean it doesn't provide anonymity, for example. On this website, we cover all three of these topics, but it is important you understand the difference between them, and when each one comes into play.
+多くの人は、**プライバシー**、**セキュリティ**、**匿名性**の概念を混同しています。 You'll see people criticize various products as "not private" when really they mean it doesn't provide anonymity, for example. On this website, we cover all three of these topics, but it is important you understand the difference between them, and when each one comes into play.
 
 **プライバシー**
 :
@@ -24,7 +24,7 @@ Security is the ability to trust the applications you use—that the parties inv
 
 Certificates prove you are talking directly to the website you're visiting, and keep attackers on your network from reading or modifying the data sent to or from the website.
 
-**Anonymity**
+**匿名性**
 :
 
 Anonymity is the ability to act without a persistent identifier. You might achieve this online with [Tor](../tor.md), which allows you to browse the internet with a random IP address and network connection instead of your own.

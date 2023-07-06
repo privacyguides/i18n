@@ -21,7 +21,7 @@ cover: frontends.png
     
     **Nitter** 是 [Twitter](https://twitter.com)的免費開源前端，也是可自我託管。
     
-    有許多公共實例，其中一些實例支援 [Tor]（https://www.torproject.org）onion 服務。
+    有許多公共實例，其中一些實例支援 [Tor](https://www.torproject.org) onion 服務。
     
     [:octicons-repo-16: Repository](https://github.com/zedeus/nitter){ .md-button .md-button--primary }
     [:octicons-server-16:](https://github.com/zedeus/nitter/wiki/Instances){ .card-link title="Public Instances"}
@@ -31,7 +31,7 @@ cover: frontends.png
 
 !!! tip "訣竅"
 
-    如果想在不登錄的情況下瀏覽 Twitter 內容，或是在瀏覽器中禁用 JavaScript ， Nitter非常有用，就像 [Tor 瀏覽器]（https://www.torproject.org）在最安全級別會關閉 JavaScript 。 它還可以 [為 Twitter 建立 RSS 新聞源](news-aggregators.md#twitter)。
+    如果想在不登錄的情況下瀏覽 Twitter 內容，或是在瀏覽器中禁用 JavaScript ， Nitter非常有用，就像 [Tor 瀏覽器](https://www.torproject.org) 在最安全級別會關閉 JavaScript 。 它還可以 [為 Twitter 建立 RSS 新聞源](news-aggregators.md#twitter)。
 
 ## TikTok
 
@@ -43,7 +43,7 @@ cover: frontends.png
     
     **ProxiTok** 是 [TikTok](https://www.tiktok.com)網站的開源前端，也可自主託管。
     
-    有許多公共實例，其中一些實例支援 [Tor]（https://www.torproject.org）onion 服務。
+    有許多公共實例，其中一些實例支援 [Tor](https://www.torproject.org) onion 服務。
     
     [:octicons-repo-16: Repository](https://github.com/pablouser1/ProxiTok){ .md-button .md-button--primary }
     [:octicons-server-16:](https://github.com/pablouser1/ProxiTok/wiki/Public-instances){ .card-link title="Public Instances"}
@@ -91,7 +91,7 @@ cover: frontends.png
     
     **Yattee** 是一款免費的開源隱私導向影片播放器，適用於iOS、tvOS 和 macOS 觀看 [YouTube](https://youtube.com)。 使用 Yattee 時，訂閱清單和播放列表會儲存在 本地裝置上。
     
-    由於 App Store 限制，您需要採取一些[額外步驟] (https://gonzoknows.com/posts/Yattee/)才能使用 Yattee 觀看YouTube。
+    由於 App Store 限制，您需要採取一些[額外步驟](https://gonzoknows.com/posts/Yattee/) 才能使用 Yattee 觀看YouTube。
     
     [:octicons-home-16: Homepage](https://github.com/yattee/yattee){ .md-button .md-button--primary }
     [:octicons-eye-16:](https://r.yattee.stream/docs/privacy.html){ .card-link title="Privacy Policy" }
@@ -171,7 +171,7 @@ cover: frontends.png
     
     **Invidious** 是 [YouTube](https://youtube.com)的免費開源前端，也可自行託管。
     
-    有許多公共實例，其中一些實例支援 [Tor]（https://www.torproject.org）onion 服務。
+    有許多公共實例，其中一些實例支援 [Tor](https://www.torproject.org) onion 服務。
     
     [:octicons-home-16: Homepage](https://invidious.io){ .md-button .md-button--primary }
     [:octicons-server-16:](https://instances.invidious.io){ .card-link title="Public Instances"}

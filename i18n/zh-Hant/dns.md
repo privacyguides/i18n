@@ -51,7 +51,7 @@ Apple不提供用於建立加密DNS設定檔的原生介面。 [Secure DNS profi
 
 !!! info "資訊"
 
-    許多 Linux 發行版用來進行DNS查詢的`systemd-resolved` 還不[支援 DoH] (https://github.com/systemd/systemd/issues/8639)。 如果要使用 DoH ，您需要安裝一個類似 [dnscrypt-proxy](https://github.com/DNSCrypt/dnscrypt-proxy)的代理，並[設定] (https://wiki.archlinux.org/title/Dnscrypt-proxy)讓系統解析器獲取所有 DNS 查詢，並透過 HTTPS 轉發。
+    許多 Linux 發行版用來進行DNS查詢的`systemd-resolved` 還不[支援 DoH](https://github.com/systemd/systemd/issues/8639)。 如果要使用 DoH ，您需要安裝一個類似 [dnscrypt-proxy](https://github.com/DNSCrypt/dnscrypt-proxy)的代理，並[設定](https://wiki.archlinux.org/title/Dnscrypt-proxy) 讓系統解析器獲取所有 DNS 查詢，並透過 HTTPS 轉發。
 
 ## 加密的DNS代理
 
@@ -107,7 +107,7 @@ Apple不提供用於建立加密DNS設定檔的原生介面。 [Secure DNS profi
 
     ![AdGuard 首頁標誌](assets/img/dns/adguard-home.svg){ align=right }
     
-    **AdGuard** 是一個開源的 [DNS-sinkhole](https://wikipedia.org/wiki/DNS_sinkhole) ，使用[DNS 過濾] (https://www.cloudflare.com/learning/access-management/what-is-dns-filtering/) 來封鎖不需要的網頁內容，例如廣告。
+    **AdGuard** 是一個開源的 [DNS-sinkhole](https://wikipedia.org/wiki/DNS_sinkhole) ，使用[DNS 過濾](https://www.cloudflare.com/learning/access-management/what-is-dns-filtering/) 來封鎖不需要的網頁內容，例如廣告。
     
     AdGuard 首頁提供精美的網頁介面，可查看有用資訊並管理被封鎖的內容。
     
@@ -122,7 +122,7 @@ Apple不提供用於建立加密DNS設定檔的原生介面。 [Secure DNS profi
 
     ![Pi-hole logo](assets/img/dns/pi-hole.svg){ align=right }
     
-    **Pi-hole** 是一個開源的 [DNS-sinkhole](https://wikipedia.org/wiki/DNS_sinkhole) ，它使用 [DNS 篩選] (https://www.cloudflare.com/learning/access-management/what-is-dns-filtering/)來阻止不需要的網頁內容，例如廣告。
+    **Pi-hole** 是一個開源的 [DNS-sinkhole](https://wikipedia.org/wiki/DNS_sinkhole) ，它使用 [DNS 篩選](https://www.cloudflare.com/learning/access-management/what-is-dns-filtering/)來阻止不需要的網頁內容，例如廣告。
     
     Pi-hole 設計應用在 Raspberry Pi ，但它不限於這種硬體。 該軟體良好的 Web 界面，可查看有用資訊和管理被阻止的內容。
     

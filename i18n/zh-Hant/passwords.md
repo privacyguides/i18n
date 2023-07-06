@@ -126,7 +126,7 @@ schema:
 
     瀏覽器和作業系統所內置的密碼管理器常常不如專用密碼管理器軟體。 內建的密碼管理器優點是與原生軟體很好地整合，但它通常非常簡單，並且缺乏獨立產品具有的隱私和安全功能。
     
-    例如，Microsoft Edge 的密碼管理器根本不提供 E2EE。 Google的密碼管理員有 [optional](https://support.google.com/accounts/answer/11350823)個E2EE ，而[Apple] (https://support.apple.com/en-us/HT202303)預設提供E2EE。
+    例如，Microsoft Edge 的密碼管理器根本不提供 E2EE。 Google的密碼管理員有 [optional](https://support.google.com/accounts/answer/11350823) 個E2EE ，而 [Apple](https://support.apple.com/en-us/HT202303)預設提供E2EE。
 
 ## 雲端型
 
@@ -145,7 +145,7 @@ schema:
     [:octicons-info-16:](https://bitwarden.com/help/){ .card-link title=Documentation}
     [:octicons-code-16:](https://github.com/bitwarden){ .card-link title="Source Code" }
     
-    ??? download "下載"
+    ??? downloads "下載"
     
         - [:simple-googleplay: Google Play](https://play.google.com/store/apps/details?id=com.x8bit.bitwarden)
         - [:simple-appstore: App Store](https://apps.apple.com/app/bitwarden-password-manager/id1137397744)

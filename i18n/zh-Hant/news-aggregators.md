@@ -31,7 +31,7 @@ cover: news-aggregators.png
 
 !!! recommendation
 
-    ![Feeder logo](assets/img/news-aggregators/feeder.png){ align=righ t}
+    ![Feeder logo](assets/img/news-aggregators/feeder.png){ align=right }
     
     **Feeder** 是 Android 版本的 RSS 客戶端，具有許多 [特色](https://gitlab.com/spacecowboy/Feeder#features) ，且可與RSS 訊息來源的資料夾配合使用。 它支持 [RSS](https://en.wikipedia.org/wiki/RSS), [Atom](https://en.wikipedia.org/wiki/Atom_(Web_standard)), [RDF](https://en.wikipedia.org/wiki/RDF%2FXML) 和 [JSON Feed](https://en.wikipedia.org/wiki/JSON_Feed)。
     
@@ -74,7 +74,7 @@ cover: news-aggregators.png
     [:octicons-code-16:](https://gitlab.gnome.org/World/gfeeds){ .card-link title="Source Code" }
     [:octicons-heart-16:](https://liberapay.com/gabmus/){ .card-link title=Contribute }
     
-    ??? dowloads "下載"
+    ??? downloads "下載"
     
         - [:simple-linux: Linux](https://gfeeds.gabmus.org/#install)
         - [:simple-flathub: Flathub](https://flathub.org/apps/details/org.gabmus.gfeeds)

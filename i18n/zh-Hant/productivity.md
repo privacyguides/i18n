@@ -23,7 +23,7 @@ cover: productivity.png
     [:octicons-code-16:](https://github.com/nextcloud){ .card-link title="Source Code" }
     [:octicons-heart-16:](https://nextcloud.com/contribute/){ .card-link title=Contribute }
     
-    ??? 下載
+    ??? downloads "下載"
     
         - [:simple-googleplay: Google Play](https://play.google.com/store/apps/details?id=com.nextcloud.client)
         - [:simple-appstore: App Store](https://apps.apple.com/app/id1125420102)
@@ -80,7 +80,7 @@ cover: productivity.png
 
 !!! recommendation
 
-    ![LibreOffice logo](assets/img/productivity/libreoffice.svg){ align= ight }
+    ![LibreOffice logo](assets/img/productivity/libreoffice.svg){ align=right }
     
     **LibreOffice** 是一個免費且開源的辦公套件，具有廣泛的功能。
     
@@ -90,7 +90,7 @@ cover: productivity.png
     [:octicons-code-16:](https://www.libreoffice.org/about-us/source-code){ .card-link title="Source Code" }
     [:octicons-heart-16:](https://www.libreoffice.org/donate/){ .card-link title=Contribute }
     
-    ??? 下載
+    ??? downloads "下載"
     
         - [:simple-googleplay: Google Play](https://www.libreoffice.org/download/android-and-ios/)
         - [:simple-appstore: App Store](https://www.libreoffice.org/download/android-and-ios/)
@@ -112,7 +112,7 @@ cover: productivity.png
     [:octicons-info-16:](https://helpcenter.onlyoffice.com/userguides.aspx){ .card-link title=Documentation}
     [:octicons-code-16:](https://github.com/ONLYOFFICE){ .card-link title="Source Code" }
     
-    ??? 下載
+    ??? downloads "下載"
     
         - [:simple-googleplay: Google Play](https://play.google.com/store/apps/details?id=com.onlyoffice.documents)
         - [:simple-appstore: App Store](https://apps.apple.com/app/id944896972)

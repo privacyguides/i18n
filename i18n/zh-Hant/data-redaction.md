@@ -18,7 +18,7 @@ cover: data-redaction.png
     
     **MAT2** 是免費軟體，可以移除圖像，音頻，種子和文件文件類型的中繼資料。 它通過 [Nautilus 擴展元件](https://0xacab.org/jvoisin/mat2/-/tree/master/nautilus)提供命令行工具和圖形用戶界面，Nautilus 是 [GNOME](https://www.gnome.org)的預設檔案管理器， [Dolphin](https://0xacab.org/jvoisin/mat2/-/tree/master/dolphin)是 [KDE](https://kde.org)的預設檔案管理器。
     
-    Linux 有MAT2 提供支持的第三方圖形界面工具[Metadata Cleaner] (https://gitlab.com/rmnvgr/metadata-cleaner) ，並且[可從 Flathub 取得] (https://flathub.org/apps/details/fr.romainvigier.MetadataCleaner)。
+    Linux 有MAT2 提供支持的第三方圖形界面工具 [Metadata Cleaner](https://gitlab.com/rmnvgr/metadata-cleaner) ，並且[可從 Flathub 取得](https://flathub.org/apps/details/fr.romainvigier.MetadataCleaner)。
     
     [:octicons-repo-16: Repository](https://0xacab.org/jvoisin/mat2){ .md-button .md-button--primary }
     [:octicons-info-16:](https://0xacab.org/jvoisin/mat2/-/blob/master/README.md){ .card-link title=Documentation}

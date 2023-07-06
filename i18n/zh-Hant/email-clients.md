@@ -64,7 +64,7 @@ cover: email-clients.png
 
     ![Apple Mail標誌](assets/img/email-clients/applemail.png){ align=right }
     
-    **Apple Mail** 包含在 macOS，並可利用[GPG Suite] (encryption.md#gpg-suite)擴展支援 OpenPGP，增加了發送PGP 加密電子郵件的能力。
+    **Apple Mail** 包含在 macOS，並可利用[GPG Suite](encryption.md#gpg-suite)擴展支援 OpenPGP，增加了發送PGP 加密電子郵件的能力。
     
     [:octicons-home-16: Homepage](https://support.apple.com/guide/mail/welcome/mac){ .md-button .md-button--primary }
     [:octicons-eye-16:](https://www.apple.com/legal/privacy/en-ww/){ .card-link title="Privacy Policy" }
@@ -156,7 +156,7 @@ Canary Mail 源碼為封閉式。 我們推薦它，因為 iOS 電子郵件客�
 
 !!! warning "警告"
 
-    當回覆郵件群組中的某人時，「回覆」選項也可能包括郵件群組。 如需更多資訊，請參閱 [thundernest/k-9 # 3738](https://github.com/thundernest/k-9/issues/3738)。
+    當回覆郵件群組中的某人時，「回覆」選項也可能包括郵件群組。 如需更多資訊，請參閱 [thundernest/k-9 #3738](https://github.com/thundernest/k-9/issues/3738)。
 
 ### Kontact (KDE)
 

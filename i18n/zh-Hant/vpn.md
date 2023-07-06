@@ -177,7 +177,7 @@ IVPN 客戶端支援雙因素驗證（Mullvad 客戶端不支援）。 IVPN 有"
 
 !!! recommendation
 
-    ![Mullvad 標誌](assets/img/vpn/mullvad.svg){ align = right }
+    ![Mullvad 標誌](assets/img/vpn/mullvad.svg){ align=right }
     
     **Mullvad** 是一個快速且便宜的VPN ，非常注重透明和安全性。 自 **2009 年** 開始運營。 Mullvad 總部位於瑞典，不提供免費試用。
     
@@ -201,7 +201,7 @@ IVPN 客戶端支援雙因素驗證（Mullvad 客戶端不支援）。 IVPN 有"
 
 #### :material-check:{ .pg-green } 41 個國家
 
-Mullvad 在 41 個國家/地區設有 [伺服器](https://mullvad.net/servers/)。(1)選擇離您最近伺服器，這將減少您網路流量的延遲。 這是因為到目的地的路線較短（跳數較少）。 
+Mullvad 在 41 個國家/地區設有 [伺服器](https://mullvad.net/servers/)。(1) 選擇離您最近伺服器，這將減少您網路流量的延遲。 這是因為到目的地的路線較短（跳數較少）。 
 
 { .annotate }
 

@@ -28,7 +28,7 @@ description: 以下是關於如何建立最強密碼並確保帳戶安全的一�
 
 !!! tip "檢查數據洩露"
 
-    如果您的密碼管理器可以檢查密碼是否已被破壞，請務必檢查並立即更改可能已暴露在資料外洩的密碼。 或者，您可以在[news aggregator] (../news-aggregators.md)的幫助下關注[Have I Been Pwned  最新資料外洩情報] (https://feeds.feedburner.com/HaveIBeenPwnedLatestBreaches)。
+    如果您的密碼管理器可以檢查密碼是否已被破壞，請務必檢查並立即更改可能已暴露在資料外洩的密碼。 或者，您可以在 [news aggregator](../news-aggregators.md)的幫助下關注 [Have I Been Pwned 最新資料外洩情報](https://feeds.feedburner.com/HaveIBeenPwnedLatestBreaches)。
 
 ## 建立強密碼
 
@@ -72,7 +72,7 @@ Diceware 是一種創建密碼短語的方法，這些密短口令易於記憶�
 
     為了證明 diceware 密語的強度，我們將使用前面提到的七個單詞密語（`viewable fastness reluctant squishy seventeen shown pencil` ）和 [EFF 的大型單詞列表] (https://www.eff.org/files/2016/07/18/eff_large_wordlist.txt)作例子。
     
-    判斷 diceware 口令密語強度的衡量標準是確定它有多少熵。 diceware 口令密語中的個別單詞的熵為  $\text{log}_2(\text{WordsInList})$ 而整組密語的熵總量為 $\text{log}_2(\text{WordsInList}^\text{WordsInPhrase})$.
+    判斷 diceware 口令密語強度的衡量標準是確定它有多少熵。 Diceware 口令密語中的個別單詞的熵為 $\text{log}_2(\text{WordsInList})$ 而整組密語的熵總量為 $\text{log}_2(\text{WordsInList}^\text{WordsInPhrase}).
     
     因此，上述列表中的每個單詞都會產生~ 12.9 位熵（($\text{log}_2 (7776) $)  ，而其中取得七個單詞組成的口令密語就具有~ 90.47位熵 ($\text{log}_2 (7776 ^ 7) $ )。
     
@@ -100,7 +100,7 @@ Diceware 是一種創建密碼短語的方法，這些密短口令易於記憶�
 
 !!! warning "不要將密碼和 TOTP 令牌放在同一個密碼管理器中"
 
-    當使用 TOTP 代碼作為[多因素驗證] (../multifactor-authentication.md)時，最好的安全措施是將 TOTP 代碼保存在[分開的應用程序] (../multifactor-authentication.md#authenticator-apps)中。
+    當使用 TOTP 代碼作為 [多因素驗證](../multi-factor-authentication.md) 時，最好的安全措施是將 TOTP 代碼保存在 [分開的應用程序](../multi-factor-authentication.md#authenticator-apps) 中。
     
     將您的 TOTP 令牌存儲在與密碼相同的位置，雖然方便，但假若對手可以存取密碼管理器，則帳戶安全驗證則減少為單一因素。
     

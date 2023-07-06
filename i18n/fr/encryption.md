@@ -138,7 +138,7 @@ BitLocker est [uniquement pris en charge](https://support.microsoft.com/en-us/wi
 
         !!! tip "Conseil"
    
-        Sauvegardez le fichier `BitLocker-Recovery-Key.txt` de votre ordinateur de bureau sur un périphérique de stockage distinct. La perte de ce code de récupération peut entraîner la perte de données.
+            Sauvegardez le fichier `BitLocker-Recovery-Key.txt` de votre ordinateur de bureau sur un périphérique de stockage distinct. La perte de ce code de récupération peut entraîner la perte de données.
 
 ### FileVault
 

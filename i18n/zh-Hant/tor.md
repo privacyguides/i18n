@@ -65,7 +65,7 @@ Tor 的工作原理是通過志願者運營的服務器來引導您的網際網�
 
 !!! danger "危險"
 
-    您應該 **永遠不要** 在Tor瀏覽器上安裝任何其他擴充功能，或編輯「關於：配置」設定，包括我們為Firefox建議的設定。 瀏覽器擴充套件和非標準設置會使您在 Tor 網絡上突顯出來，從而使您的瀏覽器更容易變成 [fingerprint]（ https://support.torproject.org/glossary/browser-fingerprinting ）。
+    您應該 **永遠不要** 在Tor瀏覽器上安裝任何其他擴充功能，或編輯「關於：配置」設定，包括我們為Firefox建議的設定。 瀏覽器擴充套件和非標準設置會使您在 Tor 網絡上突顯出來，從而使您的瀏覽器更容易變成 [fingerprint](https://support.torproject.org/glossary/browser-fingerprinting)。
 
 Tor 瀏覽器旨在防止指紋識別----根據您的瀏覽器配置識別您。 因此，您 **不應** 修改瀏覽器超出預設 [安全級別](https://tb-manual.torproject.org/security-settings/)。
 
@@ -93,7 +93,7 @@ Tor 瀏覽器旨在防止指紋識別----根據您的瀏覽器配置識別您。
 
 !!! tip "Android 使用訣竅"
 
-    Orbot 可以代理個別應用程式，如果它們有支援 SOCKS 或 HTTP 代理。 它也能使用 [VpnService](https://developer.android.com/reference/android/net/VpnService）代理您的所有網路連接，其 VPN killswitch 設置在 :gear: **Settings** → **Network & internet** → **VPN** → :gear: → **Block connections without VPN**.。
+    Orbot 可以代理個別應用程式，如果它們有支援 SOCKS 或 HTTP 代理。 它也能使用 [VpnService](https://developer.android.com/reference/android/net/VpnService) 代理您的所有網路連接，其 VPN killswitch 設置在 :gear: **Settings** → **Network & internet** → **VPN** → :gear: → **Block connections without VPN**.。
     
     Guardian Project 的[F-Droid repository](https://guardianproject.info/fdroid)和 [Google Play](https://play.google.com/store/apps/details?id=org.torproject.android) 上Orbot 往往不是最新版，因此請考慮直接從 [GitHub repository](https://github.com/guardianproject/orbot/releases) 下載。
     

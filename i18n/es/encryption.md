@@ -138,7 +138,7 @@ BitLocker es [únicamente compatible](https://support.microsoft.com/en-us/window
 
         !!! tip "Consejo"
    
-        Haga una copia de seguridad de `BitLocker-Recovery-Key.txt` en su escritorio para un dispositivo de almacenamiento independiente. La pérdida de este código de recuperación puede resultar en la pérdida de datos.
+            Haga una copia de seguridad de `BitLocker-Recovery-Key.txt` en su escritorio para un dispositivo de almacenamiento independiente. La pérdida de este código de recuperación puede resultar en la pérdida de datos.
 
 ### FileVault
 

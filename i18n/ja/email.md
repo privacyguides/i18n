@@ -1,5 +1,5 @@
 ---
-meta_title: "暗号化プライベートメールのおすすめ - Privacy Guides"
+meta_title: "暗号化プライベートメールの推奨事項 - Privacy Guides"
 title: "メールサービス"
 icon: material/email
 description: これらの電子メールプロバイダはメールを安全に保存するのに最適な場所で、多くは他のプロバイダと相互運用可能なOpenPGP暗号化を提供しています。
@@ -387,9 +387,9 @@ We regard these features as important in order to provide a safe and optimal ser
 
 ### セキュリティ
 
-Email servers deal with a lot of very sensitive data. We expect that providers will adopt best industry practices in order to protect their members.
+メール サーバーは、非常に機密性の高いデータを大量に扱います。 私たちは、プロバイダーが顧客を保護するために業界のベストプラクティスを採用することを期待しています。
 
-**Minimum to Qualify:**
+**最低条件：**
 
 - Protection of webmail with 2FA, such as TOTP.
 - Zero access encryption, builds on encryption at rest. The provider does not have the decryption keys to the data they hold. This prevents a rogue employee leaking data they have access to or remote adversary from releasing data they have stolen by gaining unauthorized access to the server.
@@ -421,7 +421,7 @@ Email servers deal with a lot of very sensitive data. We expect that providers w
 
 You wouldn't trust your finances to someone with a fake identity, so why trust them with your email? We require our recommended providers to be public about their ownership or leadership. We also would like to see frequent transparency reports, especially in regard to how government requests are handled.
 
-**Minimum to Qualify:**
+**最低条件：**
 
 - 公の場でのリーダーシップやオーナーシップ。
 
@@ -434,22 +434,22 @@ You wouldn't trust your finances to someone with a fake identity, so why trust t
 
 With the email providers we recommend we like to see responsible marketing.
 
-**Minimum to Qualify:**
+**最低条件：**
 
 - Must self-host analytics (no Google Analytics, Adobe Analytics, etc.). The provider's site must also comply with [DNT (Do Not Track)](https://en.wikipedia.org/wiki/Do_Not_Track) for those who wish to opt-out.
 
 無責任なマーケティングをしてはいけない：
 
-- Claims of "unbreakable encryption." Encryption should be used with the intention that it may not be secret in the future when the technology exists to crack it.
+- 「破れない暗号化」という主張。 暗号化は、それを解読する技術が存在する将来に、秘密ではなくなるかもしれないという意図のもとに使用される必要があります。
 - 匿名性を100％保証すること。 誰かが何かを100％だと主張するとき、それは失敗の確実性がないことを意味します。 私たちは、人々が多くの方法で簡単に匿名化を解除できることを知っています：
 
-- Reusing personal information e.g. (email accounts, unique pseudonyms, etc.) that they accessed without anonymity software (Tor, VPN, etc.)
+- 匿名化ソフトウェア（Tor、VPNなど）を使わずにアクセスした個人情報（メールアカウント、固有のペンネームなど）を再利用する。
 - [ブラウザフィンガープリント](https://en.wikipedia.org/wiki/Device_fingerprint#Browser_fingerprint)
 
 **最良の場合：**
 
-- Clear and easy to read documentation. This includes things like, setting up 2FA, email clients, OpenPGP, etc.
+- 明確で読みやすいドキュメント。 これには、2FA のセットアップ、電子メールクライアント、OpenPGP などが含まれます。
 
 ### 追加機能
 
-While not strictly requirements, there are some other convenience or privacy factors we looked into when determining which providers to recommend.
+厳密な要件ではありませんが、推奨するプロバイダーを決定する際に考慮した利便性やプライバシーの要素が他にもいくつかあります。
