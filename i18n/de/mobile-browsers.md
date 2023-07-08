@@ -80,43 +80,42 @@ Die Optionen von Shields können je nach Bedarf für jede Website heruntergestuf
 
 <div class="annotate" markdown>
 
-- [x] Select **Aggressive** under Block trackers & ads
+- [x] Wähle **Tracker und Werbung blockieren (aggressiv)** unter **Tracker & Werbung blockieren**
 
-    ??? warning "Use default filter lists"
-        Brave allows you to select additional content filters within the internal `brave://adblock` page. We advise against using this feature; instead, keep the default filter lists. Using extra lists will make you stand out from other Brave users and may also increase attack surface if there is an exploit in Brave and a malicious rule is added to one of the lists you use.
+    ??? warning "Standard-Filterlisten verwenden"
+        Brave ermöglicht die Auswahl zusätzlicher Inhaltsfilter auf der internen Seite `brave://adblock`. Wir raten davon ab diese Funktion zu verwenden. Verwende stattdessen die voreingestellten Filterlisten. Die Verwendung zusätzlicher Listen hebt dich von anderen Brave-Benutzern ab, kann die Angriffsfläche vergrößern, wenn es eine Sicherheitslücke in Brave gibt und eine bösartige Regel zu einer von dir verwendeten Listen hinzugefügt wird.
 
-- [x] Select **Upgrade connections to HTTPS**
-- [x] Select **Always use secure connections**
-- [x] (Optional) Select **Block Scripts** (1)
-- [x] Select **Strict, may break sites** under **Block fingerprinting**
+- [x] Wähle **Alle Verbindungen müssen HTTPS verwenden (streng)**
+- [x] (Optional) Wähle **Skripte blockieren** (1)
+- [x] Wähle **Fingerabdruck blockiert (streng, könnte Websites kaputtmachen** unter **Fingerprinting blockieren**
 
 </div>
 
-1. This option provides functionality similar to uBlock Origin's advanced [blocking modes](https://github.com/gorhill/uBlock/wiki/Blocking-mode) or the [NoScript](https://noscript.net/) extension.
+1. Diese Option bietet eine ähnliche Funktionalität wie die erweiterten Blockierungsmodi von uBlock Origin [](https://github.com/gorhill/uBlock/wiki/Blocking-mode) oder die Erweiterung [NoScript](https://noscript.net/).
 
-##### Clear browsing data
+##### Browserdaten löschen
 
-- [x] Select **Clear data on exit**
+- [x] Wähle **Daten beim Beenden löschen**
 
 ##### Social Media Blocking
 
 - [ ] Deaktiviere alle Social Media Komponenten
 
-##### Weitere Datenschutzeinstellungen
+##### Andere Datenschutzeinstellungen
 
 <div class="annotate" markdown>
 
-- [x] Select **Disable non-proxied UDP** under [WebRTC IP Handling Policy](https://support.brave.com/hc/en-us/articles/360017989132-How-do-I-change-my-Privacy-Settings-#webrtc)
-- [ ] Uncheck **Allow sites to check if you have payment methods saved**
-- [ ] Uncheck **IPFS Gateway** (1)
-- [x] Select **Close tabs on exit**
-- [ ] Uncheck **Allow privacy-preserving product analytics (P3A)**
-- [ ] Uncheck **Automatically send diagnostic reports**
-- [ ] Uncheck **Automatically send daily usage ping to Brave**
+- [x] Wähle **Nicht-proxisiertes UDP deaktivieren** unter [WebRTC-IP-Nutzungsrichtlinien](https://support.brave.com/hc/en-us/articles/360017989132-How-do-I-change-my-Privacy-Settings-#webrtc)
+- [ ] Deaktiviere **Websites die Abfrage gespeicherter Zahlungsmethoden erlauben**
+- [ ] Deaktiviere **IPFS-Gateway** (1)
+- [x] Wähle **Registerkarten beim Beenden schließen**
+- [ ] Deaktiviere **Erlaubt Produktanalyse, die den Datenschutz respektiert (P3A)**
+- [ ] Deaktiviere **Automatisch Diagnoseberichte senden**
+- [ ] Deaktiviere **Ping der täglichen Nutzung automatisch an Brave senden.**
 
 </div>
 
-1. InterPlanetary File System (IPFS) is a decentralized, peer-to-peer network for storing and sharing data in a distributed filesystem. Wenn du die Funktion nicht nutzt, deaktiviere sie.
+1. InterPlanetary File System (IPFS) ist ein dezentrales Peer-To-Peer-Netzwerk zum Speichern und Teilen von Daten in einem verteilten Dateisystem. Wenn du die Funktion nicht nutzt, deaktiviere sie.
 
 #### Brave Sync
 

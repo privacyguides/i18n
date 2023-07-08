@@ -12,7 +12,7 @@ schema:
     image: /assets/img/browsers/tor.svg
     url: https://www.torproject.org/ru/
     sameAs: https://ru.wikipedia.org/wiki/Tor
-    applicationCategory: Браузер
+    applicationCategory: Web Browser
     operatingSystem:
       - Windows
       - macOS

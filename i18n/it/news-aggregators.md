@@ -167,7 +167,8 @@ Puoi iscriverti ai canali YouTube senza accedere e senza associare le informazio
 
 !!! example "Esempio"
 
-    Per iscriversi ad un canale YouTube con un client RSS, cercare innanzitutto il [codice canale](https://support.google.com/youtube/answer/6180214), sostituendo `[ID CANALE]` qui sotto:
+    Per iscriverti ad un canale YouTube con un client RSS, cerca innanzitutto il [codice canale](https://support.google.com/youtube/answer/6180214). Il codice del canale si trova nella pagina delle informazioni del canale YouTube a cui ti vuoi iscrivere, sotto la voce: **Informazioni** > **Condividi** > **Copia ID canale**. Sostituisci `[ID CANALE]` di seguito:
+
     ```text
     https://www.youtube.com/feeds/videos.xml?channel_id=[ID CANALE]
     ```

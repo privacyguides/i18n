@@ -28,7 +28,7 @@ cover: dns.png
 
     Мы работаем над установлением определенных критериев для каждого раздела сайта, и они могут поменяться в будущем. Если у вас есть вопросы относительно наших критериев, [задайте вопрос на нашем форуме](https://discuss.privacyguides.net/latest), и не считайте, что мы что-то не учли при составлении наших рекомендаций, если это не указано здесь. Перед тем, как рекомендовать какой-либо проект мы учитываем и обсуждаем множество факторов. Документирование этих факторов ещё не завершено.
 
-- Поддержка [DNSSEC](technology/dns.md#what-is-dnssec-and-when-is-it-used)
+- Поддержка [DNSSEC](advanced/dns-overview.md#what-is-dnssec).
 - [Минимизация QNAME](advanced/dns-overview.md#what-is-qname-minimization).
 - Позволяет отключить [ECS](advanced/dns-overview.md#what-is-edns-client-subnet-ecs).
 - Предпочтительна поддержка [anycast](https://en.wikipedia.org/wiki/Anycast#Addressing_methods) или поддержка гео-позиционирования.

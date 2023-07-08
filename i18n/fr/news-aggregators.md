@@ -167,7 +167,8 @@ Vous pouvez vous abonner aux chaînes YouTube sans vous connecter et sans associ
 
 !!! example "Exemple"
 
-    Pour s'abonner à une chaîne YouTube avec un client RSS, cherchez d'abord votre [code de chaîne](https://support.google.com/youtube/answer/6180214), remplacez `[CHANNEL ID]` ci-dessous :
+    To subscribe to a YouTube channel with an RSS client, first look for its [channel code](https://support.google.com/youtube/answer/6180214). Le code de chaîne se trouve sur la page "A propos" de la chaîne YouTube à laquelle vous souhaitez vous abonner : **A propos** > **Partager** > **Copier l'ID de la chaîne**. Remplacez `[CHANNEL ID]` ci-dessous :
+
     ```text
     https://www.youtube.com/feeds/videos.xml?channel_id=[CHANNEL ID]
     ```

@@ -10,7 +10,7 @@ schema:
     "@type": SoftwareApplication
     name: Tor Browser
     image: /assets/img/browsers/tor.svg
-    url: https://www.torproject.org
+    url: https://www.torproject.org/it/
     sameAs: https://it.wikipedia.org/wiki/Tor_(software)
     applicationCategory: Web Browser
     operatingSystem:

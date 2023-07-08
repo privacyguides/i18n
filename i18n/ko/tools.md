@@ -23,7 +23,7 @@ For more details about each project, why they were chosen, and additional tips o
 
 </div>
 
-1. Snowflake does not increase privacy, however it allows you to easily contribute to the Tor network and help people in censored networks achieve better privacy.
+1. Snowflake를 사용하는 것은 프라이버시를 강화하지 않지만, Tor 네트워크에 기여할 수 있도록 하고 인터넷이 검열된 곳에서 더 좋은 프라이버시를 얻을 수 있도록 도울 수 있습니다.
 
 [자세히 알아보기 :material-arrow-right-drop-circle:](tor.md)
 
@@ -85,7 +85,7 @@ For more details about each project, why they were chosen, and additional tips o
 
 ### DNS
 
-#### DNS Providers
+#### DNS 제공 업체
 
 We [recommend](dns.md#recommended-providers) a number of encrypted DNS servers based on a variety of criteria, such as [Mullvad](https://mullvad.net/en/help/dns-over-https-and-dns-over-tls) and [Quad9](https://quad9.net/) amongst others. We recommend for you to read our pages on DNS before choosing a provider. In many cases, using an alternative DNS provider is not recommended.
 
@@ -147,7 +147,7 @@ We [recommend](dns.md#recommended-providers) a number of encrypted DNS servers b
 
 [자세히 알아보기 :material-arrow-right-drop-circle:](email.md#self-hosting-email)
 
-### Financial Services
+### 금융 서비스
 
 #### Payment Masking Services
 
@@ -183,15 +183,15 @@ We [recommend](dns.md#recommended-providers) a number of encrypted DNS servers b
 
 [자세히 알아보기 :material-arrow-right-drop-circle:](search-engines.md)
 
-### VPN Providers
+### VPN 제공자
 
-??? danger "VPNs do not provide anonymity"
+??? danger "VPN은 익명성을 제공하지 않습니다"
 
-    Using a VPN will **not** keep your browsing habits anonymous, nor will it add additional security to non-secure (HTTP) traffic.
+    VPN은 브라우저 사용 패턴을 익명화하지 않고, 보호되지 않은 트래픽 (HTTP)에 추가적인 보안을 제공하지 않습니다.
     
-    If you are looking for **anonymity**, you should use the Tor Browser **instead** of a VPN.
+    만약 익명성이 필요하다면 VPN 대신 Tor 브라우저를 사용해야 합니다.
     
-    If you're looking for added **security**, you should always ensure you're connecting to websites using HTTPS. A VPN is not a replacement for good security practices.
+    만약 추가적인 보안이 필요하다면, 연결된 웹사이트가 HTTPS를 사용하는지 꼭 확인해야 합니다. VPN은 올바른 보안 관행을 대체할 수 없습니다.
     
     [자세히 알아보기 :material-arrow-right-drop-circle:](vpn.md)
 
@@ -262,11 +262,11 @@ We [recommend](dns.md#recommended-providers) a number of encrypted DNS servers b
 
 ### 암호화 소프트웨어
 
-??? info "Operating System Disk Encryption"
+??? info "운영 체제 디스크 암호화"
 
-    For encrypting your operating system drive, we typically recommend using whichever encryption tool your operating system provides, whether that is **BitLocker** on Windows, **FileVault** on macOS, or **LUKS** on Linux. These tools are included with the operating system and typically use hardware encryption elements such as a TPM that other full-disk encryption software like VeraCrypt do not. VeraCrypt is still suitable for non-operating system disks such as external drives, especially drives that may be accessed from multiple operating systems.
+    운영 체제가 설치된 드라이브를 암호화할 때 해당 운영 체제가 제공하는 암호화 툴을 사용하는 것을 추천합니다. 예시로, Windows의 경우에는 **BitLocker**를, macOS의 경우에는 **FileVault**를, 그리고 Linux의 경우에는 **LUKS**를 사용하는 것이 좋습니다. 이러한 툴들은 운영 체제에 기본적으로 포함되어 있으며, VeraCrypt와 같은 디스크 암호화 프로그램들과 달리 TPM과 같은 하드웨어를 이용하여 암호화합니다. VeraCrypt는 운영체제가 설치되지 않은 디스크에 사용하는 데에는 적합합니다. 특히, 다양한 운영체제에서 사용할 외장 하드에 사용할 수 있습니다.
     
-    [Learn more :material-arrow-right-drop-circle:](encryption.md##operating-system-included-full-disk-encryption-fde)
+    [자세히 알아보기 :material-arrow-right-drop-circle:](encryption.md##operating-system-included-full-disk-encryption-fde)
 
 <div class="grid cards" markdown>
 
@@ -298,17 +298,17 @@ We [recommend](dns.md#recommended-providers) a number of encrypted DNS servers b
 
 <div class="grid cards" markdown>
 
-- ![Send logo](assets/img/file-sharing-sync/send.svg){ .twemoji } [Send](file-sharing.md#send)
-- ![OnionShare logo](assets/img/file-sharing-sync/onionshare.svg){ .twemoji } [OnionShare](file-sharing.md#onionshare)
-- ![FreedomBox logo](assets/img/file-sharing-sync/freedombox.svg){ .twemoji } [FreedomBox](file-sharing.md#freedombox)
-- ![Nextcloud logo](assets/img/productivity/nextcloud.svg){ .twemoji } [Nextcloud (Self-Hostable)](file-sharing.md#nextcloud-client-server)
-- ![Syncthing logo](assets/img/file-sharing-sync/syncthing.svg){ .twemoji } [Syncthing](file-sharing.md#syncthing-p2p)
+- ![Send 로고](assets/img/file-sharing-sync/send.svg){ .twemoji } [Send](file-sharing.md#send)
+- ![OnionShare 로고](assets/img/file-sharing-sync/onionshare.svg){ .twemoji } [OnionShare](file-sharing.md#onionshare)
+- ![FreedomBox 로고](assets/img/file-sharing-sync/freedombox.svg){ .twemoji } [FreedomBox](file-sharing.md#freedombox)
+- ![Nextcloud 로고](assets/img/productivity/nextcloud.svg){ .twemoji } [Nextcloud (Self-Hostable)](file-sharing.md#nextcloud-client-server)
+- ![Syncthing 로고](assets/img/file-sharing-sync/syncthing.svg){ .twemoji } [Syncthing](file-sharing.md#syncthing-p2p)
 
 </div>
 
 [자세히 알아보기 :material-arrow-right-drop-circle:](file-sharing.md)
 
-### Frontends
+### 프론트엔드
 
 <div class="grid cards" markdown>
 
@@ -357,11 +357,11 @@ We [recommend](dns.md#recommended-providers) a number of encrypted DNS servers b
 
 <div class="grid cards" markdown>
 
-- ![Standard Notes logo](assets/img/notebooks/standard-notes.svg){ .twemoji } [Standard Notes](notebooks.md#standard-notes)
-- ![Notesnook logo](assets/img/notebooks/notesnook.svg){ .twemoji } [Notesnook](notebooks.md#notesnook)
-- ![Joplin logo](assets/img/notebooks/joplin.svg){ .twemoji } [Joplin](notebooks.md#joplin)
-- ![Cryptee logo](assets/img/notebooks/cryptee.svg#only-light){ .twemoji }![Cryptee logo](assets/img/notebooks/cryptee-dark.svg#only-dark){ .twemoji } [Cryptee](notebooks.md#cryptee)
-- ![Org-mode logo](assets/img/notebooks/org-mode.svg){ .twemoji } [Org-mode](notebooks.md#org-mode)
+- ![Standard Notes 로고](assets/img/notebooks/standard-notes.svg){ .twemoji } [Standard Notes](notebooks.md#standard-notes)
+- ![Notesnook 로고](assets/img/notebooks/notesnook.svg){ .twemoji } [Notesnook](notebooks.md#notesnook)
+- ![Joplin 로고](assets/img/notebooks/joplin.svg){ .twemoji } [Joplin](notebooks.md#joplin)
+- ![Cryptee 로고](assets/img/notebooks/cryptee.svg#only-light){ .twemoji }![Cryptee logo](assets/img/notebooks/cryptee-dark.svg#only-dark){ .twemoji } [Cryptee](notebooks.md#cryptee)
+- ![Org-mode 로고](assets/img/notebooks/org-mode.svg){ .twemoji } [Org-mode](notebooks.md#org-mode)
 
 </div>
 

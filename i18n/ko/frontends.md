@@ -1,5 +1,5 @@
 ---
-title: "Frontends"
+title: "프론트엔드"
 icon: material/flip-to-front
 description: These open-source frontends for various internet services allow you to access content without JavaScript or other annoyances.
 cover: frontends.png

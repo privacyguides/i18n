@@ -167,7 +167,8 @@ Du kan prenumerera på YouTube-kanaler utan att logga in och koppla användnings
 
 !!! exempel
 
-    Om du vill prenumerera på en YouTube-kanal med en RSS-klient letar du först efter din [kanalkod] (https://support.google.com/youtube/answer/6180214) och ersätter `[KANAL-ID]` nedan:
+    To subscribe to a YouTube channel with an RSS client, first look for its [channel code](https://support.google.com/youtube/answer/6180214). The channel code can be found on the about page of the YouTube channel you wish to subscribe to, under: **About** > **Share** > **Copy channel ID**. Replace `[CHANNEL ID]` below:
+
     ```text
     https://www.youtube.com/feeds/videos.xml?channel_id=[KANAL-ID]
     ```

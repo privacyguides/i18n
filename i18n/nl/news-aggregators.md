@@ -167,7 +167,8 @@ Je kunt zich abonneren op YouTube-kanalen zonder in te loggen en gebruiksinforma
 
 !!! Voorbeeld
 
-    Om je te abonneren op een YouTube kanaal met een RSS client, zoek je eerst je [channel code](https://support.google.com/youtube/answer/6180214), vervang `channel_id` hieronder:
+    To subscribe to a YouTube channel with an RSS client, first look for its [channel code](https://support.google.com/youtube/answer/6180214). The channel code can be found on the about page of the YouTube channel you wish to subscribe to, under: **About** > **Share** > **Copy channel ID**. Replace `[CHANNEL ID]` below:
+
     ```text
     https://www.youtube.com/feeds/videos.xml?channel_id=[CHANNEL ID]
     ```

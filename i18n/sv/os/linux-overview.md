@@ -75,7 +75,7 @@ Vi rekommenderar starkt att du inte använder föråldrade distributioner som De
 
 ### Linux-libre-kärnan och "Libre"-distributioner
 
-Vi rekommenderar starkt **att** inte använder Linux-libre-kärnan, eftersom den [tar bort säkerhetsåtgärder](https://www.phoronix.com/scan.php?page=news_item&px=GNU-Linux-Libre-5.7-Released) och [av ideologiska skäl undertrycker kärnans varningar](https://news.ycombinator.com/item?id=29674846) om sårbar mikrokod.
+We strongly recommend **against** using the Linux-libre kernel, since it [removes security mitigations](https://www.phoronix.com/news/GNU-Linux-Libre-5.7-Released) and [suppresses kernel warnings](https://news.ycombinator.com/item?id=29674846) about vulnerable microcode for ideological reasons.
 
 ## Allmänna rekommendationer
 
@@ -87,13 +87,13 @@ De flesta Linux-distributioner har ett alternativ i installationsprogrammet för
 
 ### Växla
 
-Överväg att använda [ZRAM](https://wiki.archlinux.org/title/Swap#zram-generator) eller [krypterad swap](https://wiki.archlinux.org/title/Dm-crypt/Swap_encryption) i stället för okrypterad swap för att undvika potentiella säkerhetsproblem med känsliga data som flyttas till [swaputrymme](https://en.wikipedia.org/wiki/Memory_paging). Fedora-baserade distributioner [använder ZRAM som standard](https://fedoraproject.org/wiki/Changes/SwapOnZRAM).
+Consider using [ZRAM](https://wiki.archlinux.org/title/Zram#Using_zram-generator) or [encrypted swap](https://wiki.archlinux.org/title/Dm-crypt/Swap_encryption) instead of unencrypted swap to avoid potential security issues with sensitive data being pushed to [swap space](https://en.wikipedia.org/wiki/Memory_paging). Fedora-baserade distributioner [använder ZRAM som standard](https://fedoraproject.org/wiki/Changes/SwapOnZRAM).
 
 ### Wayland
 
 Vi rekommenderar att du använder en skrivbordsmiljö som stöder visningsprotokollet [Wayland](https://en.wikipedia.org/wiki/Wayland_(display_server_protocol)) eftersom det har utvecklats med säkerheten [i åtanke](https://lwn.net/Articles/589147/). Dess föregångare, [X11](https://en.wikipedia.org/wiki/X_Window_System), har inte stöd för isolering av grafiska gränssnitt, vilket gör att alla fönster kan [spela in skärmen, logga och injicera inmatningar i andra fönster](https://blog.invisiblethings.org/2011/04/23/linux-security-circus-on-gui-isolation.html), vilket gör alla försök till sandboxing meningslösa. Även om det finns alternativ för att göra nested X11, t.ex. [Xpra](https://en.wikipedia.org/wiki/Xpra) eller [Xephyr](https://en.wikipedia.org/wiki/Xephyr), har de ofta negativa konsekvenser för prestandan och är inte bekväma att konfigurera och är inte att föredra framför Wayland.
 
-Lyckligtvis har vanliga miljöer som [GNOME](https://www.gnome.org), [KDE](https://kde.org)och fönsterhanteraren [Sway](https://swaywm.org) stöd för Wayland. Vissa distributioner som Fedora och Tumbleweed använder det som standard, och andra kan komma att göra det i framtiden eftersom X11 är i [hard maintenance mode](https://www.phoronix.com/scan.php?page=news_item&px=X.Org-Maintenance-Mode-Quickly). Om du använder en av dessa miljöer är det lika enkelt som att välja "Wayland"-sessionen i skrivbordsdisplayhanteraren ([GDM](https://en.wikipedia.org/wiki/GNOME_Display_Manager), [SDDM](https://en.wikipedia.org/wiki/Simple_Desktop_Display_Manager)).
+Lyckligtvis har vanliga miljöer som [GNOME](https://www.gnome.org), [KDE](https://kde.org)och fönsterhanteraren [Sway](https://swaywm.org) stöd för Wayland. Some distributions like Fedora and Tumbleweed use it by default, and some others may do so in the future as X11 is in [hard maintenance mode](https://www.phoronix.com/news/X.Org-Maintenance-Mode-Quickly). Om du använder en av dessa miljöer är det lika enkelt som att välja "Wayland"-sessionen i skrivbordsdisplayhanteraren ([GDM](https://en.wikipedia.org/wiki/GNOME_Display_Manager), [SDDM](https://en.wikipedia.org/wiki/Simple_Desktop_Display_Manager)).
 
 Vi rekommenderar **mot** om du använder skrivbordsmiljöer eller fönsterhanterare som inte har stöd för Wayland, till exempel Cinnamon (standard i Linux Mint), Pantheon (standard i Elementary OS), MATE, Xfce och i3.
 

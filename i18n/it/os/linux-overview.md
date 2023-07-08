@@ -75,7 +75,7 @@ Sebbene sconsigliamo vivamente di utilizzare distribuzioni obsolete come Debian,
 
 ### Distribuzioni kernel linux-libre e "Libre"
 
-**Sconsigliamo** vivamente di usare il kernel Linux-libre, in quanto[rimuove parametri di sicurezza](https://www.phoronix.com/scan.php?page=news_item&px=GNU-Linux-Libre-5.7-Released) e [sopprime gli avvisi del kernel](https://news.ycombinator.com/item?id=29674846) sul microcodice vulnerabile per motivi ideologici.
+**Sconsigliamo** vivamente di utilizzare il kernel Linux-libre, in quanto[rimuove parametri di sicurezza](https://www.phoronix.com/news/GNU-Linux-Libre-5.7-Released) e [sopprime gli avvisi del kernel](https://news.ycombinator.com/item?id=29674846) sul microcodice vulnerabile per motivi ideologici.
 
 ## Consigli generali
 
@@ -87,13 +87,13 @@ Molte delle distribuzioni Linux hanno un opzione nel proprio programma d'install
 
 ### Swap
 
-Considera l'utilizzo di [ZRAM](https://wiki.archlinux.org/title/Swap#zram-generator) o [swap criptato](https://wiki.archlinux.org/title/Dm-crypt/Swap_encryption) anzichè swap non criptato per evitare potenziali problemi di sicurezza dovuti al trasferimento di dati sensibili verso lo [spazio swap ](https://en.wikipedia.org/wiki/Memory_paging). Le distribuzioni basate su Fedora [utilizzano ZRAM di default](https://fedoraproject.org/wiki/Changes/SwapOnZRAM).
+Consida l'utilizzo di [ZRAM](https://wiki.archlinux.org/title/Zram#Using_zram-generator) o [swap criptato](https://wiki.archlinux.org/title/Dm-crypt/Swap_encryption) invece di swap non criptato per evitare potenziali problemi di sicurezza dovuti al trasferimento di dati sensibili nello [spazio di swap](https://en.wikipedia.org/wiki/Memory_paging). Le distribuzioni basate su Fedora [utilizzano ZRAM di default](https://fedoraproject.org/wiki/Changes/SwapOnZRAM).
 
 ### Wayland
 
 Consigliamo di utilizzare un ambiente desktop che supporti il protocollo grafico [Wayland](https://en.wikipedia.org/wiki/Wayland_(display_server_protocol)) in quanto è stato sviluppato [tenendo conto](https://lwn.net/Articles/589147/) della sicurezza. Il suo predecessore, [X11](https://en.wikipedia.org/wiki/X_Window_System), non supporta l'isolamento della GUI, permettendo a tutte le finestre di [registrare lo schermo, registrare e dare input ad altre finestre](https://blog.invisiblethings.org/2011/04/23/linux-security-circus-on-gui-isolation.html), rendendo vano qualsiasi tentativo di fare sandboxing. Sebbene esistano opzioni per eseguire X11 annidato, come[Xpra](https://en.wikipedia.org/wiki/Xpra) o [Xephyr](https://en.wikipedia.org/wiki/Xephyr), spesso hanno un impatto negativo sulle prestazioni, non sono facili da configurare e non sono preferibili a Wayland.
 
-Fortunatamente, ambienti comuni come [GNOME](https://www.gnome.org), [KDE](https://kde.org), e il gestore di finestre [Sway](https://swaywm.org) supportano Wayland. Alcune distribuzioni come Fedora e Tumbleweed lo utilizzano di default, e altre potrebbero farlo in futuro dato che X11 è in [modalità manuntenzione](https://www.phoronix.com/scan.php?page=news_item&px=X.Org-Maintenance-Mode-Quickly). Se stai utilizzando uno di questi ambienti è molto facile, basta selezionare la sessione “Wayland” nel display manager del desktop([GDM](https://en.wikipedia.org/wiki/GNOME_Display_Manager), [SDDM](https://en.wikipedia.org/wiki/Simple_Desktop_Display_Manager)).
+Fortunatamente, ambienti comuni come [GNOME](https://www.gnome.org), [KDE](https://kde.org), e il gestore di finestre [Sway](https://swaywm.org) supportano Wayland. Alcune distribuzioni come Fedora e Tumbleweed lo usano di default e altre potrebbero farlo in futuro, dato che X11 è in [modalità di manutenzione](https://www.phoronix.com/news/X.Org-Maintenance-Mode-Quickly). Se stai utilizzando uno di questi ambienti è molto facile, basta selezionare la sessione “Wayland” nel display manager del desktop([GDM](https://en.wikipedia.org/wiki/GNOME_Display_Manager), [SDDM](https://en.wikipedia.org/wiki/Simple_Desktop_Display_Manager)).
 
 **Sconsigliamo** di usare ambienti desktop o gestori di finestre che non hanno il supporto per Wayland, come Cinnamon (è di default su Linux Mint), Pantheon (è di default su Elementary OS), MATE, Xfce, e i3.
 

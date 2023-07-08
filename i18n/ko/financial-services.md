@@ -1,5 +1,5 @@
 ---
-title: Financial Services
+title: 금융 서비스
 icon: material/bank
 cover: financial-services.png
 ---

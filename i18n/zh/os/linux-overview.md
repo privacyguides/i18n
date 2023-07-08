@@ -83,7 +83,7 @@ description: Linux is an open-source, privacy-focused desktop operating system a
 
 ### Linux-libre内核和“Libre”发行版
 
-</strong> 我们强烈建议 **，不要使用Linux-libre内核，因为它 [，删除了安全缓解措施](https://www.phoronix.com/scan.php?page=news_item&px=GNU-Linux-Libre-5.7-Released) ，并且 [，出于意识形态的原因，抑制了内核对脆弱微码的警告](https://news.ycombinator.com/item?id=29674846)。</p> 
+We strongly recommend **against** using the Linux-libre kernel, since it [removes security mitigations](https://www.phoronix.com/news/GNU-Linux-Libre-5.7-Released) and [suppresses kernel warnings](https://news.ycombinator.com/item?id=29674846) about vulnerable microcode for ideological reasons.
 
 
 
@@ -101,7 +101,7 @@ description: Linux is an open-source, privacy-focused desktop operating system a
 
 ### Swap
 
-考虑使用 [ZRAM](https://wiki.archlinux.org/title/Swap#zram-generator) 或 [加密的交换空间](https://wiki.archlinux.org/title/Dm-crypt/Swap_encryption) ，而不是未加密的交换空间，以避免敏感数据被推送到 [交换空间](https://en.wikipedia.org/wiki/Memory_paging)的潜在安全问题。 基于Fedora的发行版 [，默认使用ZRAM](https://fedoraproject.org/wiki/Changes/SwapOnZRAM)。
+Consider using [ZRAM](https://wiki.archlinux.org/title/Zram#Using_zram-generator) or [encrypted swap](https://wiki.archlinux.org/title/Dm-crypt/Swap_encryption) instead of unencrypted swap to avoid potential security issues with sensitive data being pushed to [swap space](https://en.wikipedia.org/wiki/Memory_paging). 基于Fedora的发行版 [，默认使用ZRAM](https://fedoraproject.org/wiki/Changes/SwapOnZRAM)。
 
 
 
@@ -109,7 +109,7 @@ description: Linux is an open-source, privacy-focused desktop operating system a
 
 我们建议使用支持 [Wayland](https://en.wikipedia.org/wiki/Wayland_(display_server_protocol)) 显示协议的桌面环境，因为它的开发考虑到了安全 [](https://lwn.net/Articles/589147/)。 其前身 [X11](https://en.wikipedia.org/wiki/X_Window_System)，不支持GUI隔离，允许所有窗口 [，记录屏幕、日志和注入其他窗口的输入](https://blog.invisiblethings.org/2011/04/23/linux-security-circus-on-gui-isolation.html)，使任何沙箱的尝试都是徒劳的。 虽然有一些选项可以做嵌套的X11，比如 [Xpra](https://en.wikipedia.org/wiki/Xpra) 或 [Xephyr](https://en.wikipedia.org/wiki/Xephyr)，但它们往往会带来负面的性能后果，而且设置起来也不方便，比起Wayland来并不可取。
 
-幸运的是，常见的环境，如 [GNOME](https://www.gnome.org)， [KDE](https://kde.org)，以及窗口管理器 [Sway](https://swaywm.org) 都支持 Wayland。 一些发行版如Fedora和Tumbleweed默认使用它，其他一些发行版可能在未来也会这样做，因为X11处于 [hard maintenance mode](https://www.phoronix.com/scan.php?page=news_item&px=X.Org-Maintenance-Mode-Quickly)。 如果你使用的是这些环境之一，就像在桌面显示管理器中选择 "Wayland "会话一样简单([GDM](https://en.wikipedia.org/wiki/GNOME_Display_Manager), [SDDM](https://en.wikipedia.org/wiki/Simple_Desktop_Display_Manager)) 。
+幸运的是，常见的环境，如 [GNOME](https://www.gnome.org)， [KDE](https://kde.org)，以及窗口管理器 [Sway](https://swaywm.org) 都支持 Wayland。 Some distributions like Fedora and Tumbleweed use it by default, and some others may do so in the future as X11 is in [hard maintenance mode](https://www.phoronix.com/news/X.Org-Maintenance-Mode-Quickly). 如果你使用的是这些环境之一，就像在桌面显示管理器中选择 "Wayland "会话一样简单([GDM](https://en.wikipedia.org/wiki/GNOME_Display_Manager), [SDDM](https://en.wikipedia.org/wiki/Simple_Desktop_Display_Manager)) 。
 
 </strong> 我们建议 **，反对使用没有Wayland支持的桌面环境或窗口管理器，如Cinnamon（Linux Mint的默认）、Pantheon（Elementary OS的默认）、MATE、Xfce和i3。</p> 
 

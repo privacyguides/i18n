@@ -137,7 +137,7 @@ Canary Mail имеет закрытый исходный код. Мы реком
 
 !!! recommendation
 
-    ![логотип K-9 Mail](assets/img/email-clients/k9mail. vg){ align=right }
+    ![логотип K-9 Mail](assets/img/email-clients/k9mail.svg){ align=right }
     
     **K-9 Mail** — это независимое почтовое приложение, которое поддерживает как POP3, так и IMAP, но поддерживает только push-почту для IMAP.
     

@@ -63,7 +63,7 @@ Es gibt eine Vielzahl von Möglichkeiten, sich von deinem Gerät aus mit dem Tor
         - [:simple-apple: macOS](https://www.torproject.org/download/)
         - [:simple-linux: Linux](https://www.torproject.org/download/)
 
-!!! danger
+!!! !!! danger "Achtung"
 
     Du solltest **niemals** zusätzliche Erweiterungen für den Tor-Browser installieren oder die "about:config"-Einstellungen bearbeiten, auch nicht die, die wir für Firefox vorschlagen. Browsererweiterungen und nicht standardisierte Einstellungen heben dich von anderen im Tor-Netzwerk ab und machen deinen Browser einfacher zu [fingerprinten](https://support.torproject.org/glossary/browser-fingerprinting).
 

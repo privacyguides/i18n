@@ -75,7 +75,7 @@ Bien que nous déconseillions fortement l'utilisation de distributions obsolète
 
 ### Le noyau Linux-libre et les distributions "libres"
 
-Nous recommandons fortement **de ne pas** utiliser le noyau Linux-libre, car il [supprime des mesures de sécurité et d'atténuation](https://www.phoronix.com/scan.php?page=news_item&px=GNU-Linux-Libre-5.7-Released) et [supprime des avertissements de noyau](https://news.ycombinator.com/item?id=29674846) concernant les microcodes vulnérables pour des raisons idéologiques.
+Nous recommandons fortement **de ne pas** utiliser le noyau Linux-libre, car il [supprime des mesures de sécurité et d'atténuation](https://www.phoronix.com/news/GNU-Linux-Libre-5.7-Released) et [supprime des avertissements de noyau](https://news.ycombinator.com/item?id=29674846) concernant les microcodes vulnérables pour des raisons idéologiques.
 
 ## Recommandations générales
 
@@ -87,13 +87,13 @@ La plupart des distributions Linux ont une option dans leur installateur pour ac
 
 ### Swap
 
-Envisagez l'utilisation de [ZRAM](https://wiki.archlinux.org/title/Swap#zram-generator) ou du [swap chiffré](https://wiki.archlinux.org/title/Dm-crypt/Swap_encryption) au lieu du swap non chiffré pour éviter les problèmes de sécurité potentiels avec des données sensibles poussées vers [l'espace swap](https://en.wikipedia.org/wiki/Memory_paging). Les distributions basées sur Fedora [utilisent ZRAM par défaut](https://fedoraproject.org/wiki/Changes/SwapOnZRAM).
+Envisagez l'utilisation de [ZRAM](https://wiki.archlinux.org/title/Zram#Using_zram-generator) ou du [swap chiffré](https://wiki.archlinux.org/title/Dm-crypt/Swap_encryption) au lieu du swap non chiffré pour éviter les problèmes de sécurité potentiels avec des données sensibles poussées vers [l'espace swap](https://en.wikipedia.org/wiki/Memory_paging). Les distributions basées sur Fedora [utilisent ZRAM par défaut](https://fedoraproject.org/wiki/Changes/SwapOnZRAM).
 
 ### Wayland
 
 Nous recommandons l'utilisation d'un environnement de bureau prenant en charge le protocole d'affichage [Wayland](https://en.wikipedia.org/wiki/Wayland_(display_server_protocol)) car il a été développé dans [un souci](https://lwn.net/Articles/589147/) de sécurité. Son prédécesseur, [X11](https://en.wikipedia.org/wiki/X_Window_System), ne prend pas en charge l'isolation de l'interface graphique, ce qui permet à toutes les fenêtres [d'enregistrer l'écran, d'enregistrer et d'injecter des entrées dans d'autres fenêtres](https://blog.invisiblethings.org/2011/04/23/linux-security-circus-on-gui-isolation.html), rendant toute tentative de sandboxing futile. Bien qu'il existe des options pour faire du X11 imbriqué telles que [Xpra](https://en.wikipedia.org/wiki/Xpra) ou [Xephyr](https://en.wikipedia.org/wiki/Xephyr), elles ont souvent des conséquences négatives sur les performances, ne sont pas pratiques à mettre en place et ne sont pas préférables à Wayland.
 
-Heureusement, des environnements courants tels que [GNOME](https://www.gnome.org), [KDE](https://kde.org), et le gestionnaire de fenêtres [Sway](https://swaywm.org) prennent en charge Wayland. Certaines distributions comme Fedora et Tumbleweed l'utilisent par défaut, et d'autres pourraient le faire à l'avenir car X11 est en [mode maintenance limitée](https://www.phoronix.com/scan.php?page=news_item&px=X.Org-Maintenance-Mode-Quickly). Si vous utilisez l'un de ces environnements, il vous suffit de sélectionner la session "Wayland" dans le gestionnaire d'affichage du bureau ([GDM](https://en.wikipedia.org/wiki/GNOME_Display_Manager), [SDDM](https://en.wikipedia.org/wiki/Simple_Desktop_Display_Manager)).
+Heureusement, des environnements courants tels que [GNOME](https://www.gnome.org), [KDE](https://kde.org), et le gestionnaire de fenêtres [Sway](https://swaywm.org) prennent en charge Wayland. Certaines distributions comme Fedora et Tumbleweed l'utilisent par défaut, et d'autres pourraient le faire à l'avenir car X11 est en [mode maintenance limitée](https://www.phoronix.com/news/X.Org-Maintenance-Mode-Quickly). Si vous utilisez l'un de ces environnements, il vous suffit de sélectionner la session "Wayland" dans le gestionnaire d'affichage du bureau ([GDM](https://en.wikipedia.org/wiki/GNOME_Display_Manager), [SDDM](https://en.wikipedia.org/wiki/Simple_Desktop_Display_Manager)).
 
 Nous recommandons **de ne pas** utiliser des environnements de bureau ou des gestionnaires de fenêtres qui ne prennent pas en charge Wayland, comme Cinnamon (par défaut sur Linux Mint), Pantheon (par défaut sur Elementary OS), MATE, Xfce et i3.
 

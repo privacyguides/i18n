@@ -104,7 +104,7 @@ cover: data-redaction.png
 
 !!! warning "Осторожно"
 
-    Вы **никогда** не должны использовать размытие для редактирования [текста на изображениях] (https://bishopfox.com/blog/unredacter-tool-never-pixelation). Если вы хотите скрыть текст на изображении, закройте текст черным квадратом. Для этого мы предлагаем такие приложения, как [Pocket Paint](https://github.com/Catrobat/Paintroid).
+    Вы **никогда** не должны использовать размытие для редактирования [текста на изображениях](https://bishopfox.com/blog/unredacter-tool-never-pixelation). Если вы хотите скрыть текст на изображении, закройте текст черным квадратом. Для этого мы предлагаем такие приложения, как [Pocket Paint](https://github.com/Catrobat/Paintroid).
 
 ## Для командной строки
 

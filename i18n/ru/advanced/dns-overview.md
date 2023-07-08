@@ -263,8 +263,8 @@ DNS существует с [первых дней](https://en.wikipedia.org/wik
 ``` mermaid
 graph TB
     Start[Старт] --> anonymous{Пытаетесь быть <br> анонимны?}
-    censorship --> | Да | tor(используйте Tor)
-    censorship --> | Нет | censorship{Избегаете<br> цензуру?}
+    anonymous --> | Да | tor(используйте Tor)
+    anonymous --> | Нет | censorship{Избегаете<br> цензуру?}
     censorship --> | Да| vpnOrTor(Используйте<br> VPN или Tor)
     censorship --> | Нет| privacy{Хотите больше приватности<br> от интернет-провайдера?}
     privacy --> | Да | vpnOrTor

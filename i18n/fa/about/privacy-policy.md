@@ -40,21 +40,21 @@ On some websites and services you may provide additional information for your ac
 
 We will store your account data as long as your account remains open. After closing an account, we may retain some or all of your account data in the form of backups or archives for up to 90 days.
 
-## Contacting Us
+## تماس با ما
 
-The Privacy Guides team generally does not have access to personal data outside of limited access granted via some moderation panels. Inquiries regarding your personal information should be sent directly to:
+تیم Privacy Guides خارح از برخی از پنل‌های نظارتی، در کل به داده‌های شخصی دسترسی ندارد. برای پرسش‌ها درباره اطلاعات شخصی خود، باید آن را مستقیماً به آدرس زیر ارسال کنید:
 
 ```text
 Jonah Aragon
-Services Administrator
+مدیر خدمات
 jonah@privacyguides.org
 ```
 
-For all other inquiries, you can contact any member of our team.
+برای سایر پرسش‌ها، می‌توانید با هر عضوی از تیم ما تماس بگیرید.
 
-For complaints under GDPR more generally, you may lodge complaints with your local data protection supervisory authorities. In France it's the Commission Nationale de l'Informatique et des Libertés which take care and handle the complaints. They provide a [template of complaint letter](https://www.cnil.fr/en/plaintes) to use.
+بطور کلی، شما می‌توانید شکایات خود را در خصوص قوانین حفاظت از داده‌ها GDPR به مراجع نظارتی محلی حفاظت از داده‌ها ارسال کنید. در فرانسه، مرجعی که مسئولیت رسیدگی به شکایات را برعهده دارد، کمیسیون ملی اطلاعاتی و آزادی‌های شخصیCommission Nationale de l'Informatique et des Libertés است. آن‌ها یک [قالب نامه شکایت](https://www.cnil.fr/en/plaintes) را برای استفاده در اختیار شما قرار می‌دهند.
 
-## About This Policy
+## درباره این سیاست
 
 We will post any new versions of this statement [here](privacy-policy.md). We may change how we announce changes in future versions of this document. In the meantime we may update our contact information at any time without announcing a change. Please refer to the [Privacy Policy](privacy-policy.md) for the latest contact information at any time.
 

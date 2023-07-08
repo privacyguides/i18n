@@ -75,7 +75,7 @@ description: לינוקס היא חלופה למערכת הפעלה שולחני
 
 ### הפצות ליבה של לינוקס ו-"Libre"
 
-אנו ממליצים בחום **נגד** להשתמש בליבת Linux-libre, שכן היא [מסירה הגבלות אבטחה](https://www.phoronix.com/scan.php?page=news_item&px=GNU-Linux-Libre-5.7-Released) ו[מדכא אזהרות ליבה](https://news.ycombinator.com/item?id=29674846) על מיקרוקוד פגיע מסיבות אידיאולוגיות.
+We strongly recommend **against** using the Linux-libre kernel, since it [removes security mitigations](https://www.phoronix.com/news/GNU-Linux-Libre-5.7-Released) and [suppresses kernel warnings](https://news.ycombinator.com/item?id=29674846) about vulnerable microcode for ideological reasons.
 
 ## המלצות כלליות
 
@@ -87,13 +87,13 @@ description: לינוקס היא חלופה למערכת הפעלה שולחני
 
 ### החלף
 
-שקול להשתמש ב-[ZRAM](https://wiki.archlinux.org/title/Swap#zram-generator) או [החלפה מוצפנת](https://wiki.archlinux.org/title/Dm-crypt/Swap_encryption) במקום החלפה לא מוצפנת כדי למנוע בעיות אבטחה פוטנציאליות עם דחיפה של נתונים רגישים ל[מרחב החלפה](https://en.wikipedia.org/wiki/Memory_paging). הפצות מבוססות פדורה [משתמשות ב-ZRAM כברירת מחדל](https://fedoraproject.org/wiki/Changes/SwapOnZRAM).
+Consider using [ZRAM](https://wiki.archlinux.org/title/Zram#Using_zram-generator) or [encrypted swap](https://wiki.archlinux.org/title/Dm-crypt/Swap_encryption) instead of unencrypted swap to avoid potential security issues with sensitive data being pushed to [swap space](https://en.wikipedia.org/wiki/Memory_paging). הפצות מבוססות פדורה [משתמשות ב-ZRAM כברירת מחדל](https://fedoraproject.org/wiki/Changes/SwapOnZRAM).
 
 ### Wayland
 
 אנו ממליצים להשתמש בסביבת שולחן עבודה התומכת בפרוטוקול התצוגה [Wayland](https://en.wikipedia.org/wiki/Wayland_(display_server_protocol)) כפי שפותח [תוך מחשבה](https://lwn.net/Articles/589147/) על אבטחה. קודמו, [X11](https://en.wikipedia.org/wiki/X_Window_System), אינו תומך בבידוד GUI, מה שמאפשר לכל החלונות [רשום מסך, רישום והכנס קלט בחלונות אחרים](https://blog.invisiblethings.org/2011/04/23/linux-security-circus-on-gui-isolation.html), מה שהופך כל ניסיון לארגז חול לחסר תועלת. אמנם יש אפשרויות לעשות X11 מקונן כגון [Xpra](https://en.wikipedia.org/wiki/Xpra) או [Xephyr](https://en.wikipedia.org/wiki/Xephyr), לעתים קרובות הם מגיעים עם השלכות ביצועים שליליות ואינם נוחים להגדרה ואינם עדיפים על פני Wayland.
 
-למרבה המזל, סביבות נפוצות כגון [GNOME](https://www.gnome.org), [KDE](https://kde.org) וה- למנהל החלונות [Sway](https://swaywm.org) יש תמיכה ב-Wayland. חלק מההפצות כמו Fedora ו- Tumbleweed משתמשות בו כברירת מחדל, וחלק אחרות עשויות לעשות זאת בעתיד מכיוון ש-X11 נמצא ב[מצב תחזוקה קשה](https://www.phoronix.com/scan.php?page=news_item&px=X.Org-Maintenance-Mode-Quickly). אם אתה משתמש באחת מהסביבות האלה זה קל כמו לבחור את הפגישה "Wayland" במנהל התצוגה של שולחן העבודה ([GDM](https://en.wikipedia.org/wiki/GNOME_Display_Manager), [SDDM](https://en.wikipedia.org/wiki/Simple_Desktop_Display_Manager)).
+למרבה המזל, סביבות נפוצות כגון [GNOME](https://www.gnome.org), [KDE](https://kde.org) וה- למנהל החלונות [Sway](https://swaywm.org) יש תמיכה ב-Wayland. Some distributions like Fedora and Tumbleweed use it by default, and some others may do so in the future as X11 is in [hard maintenance mode](https://www.phoronix.com/news/X.Org-Maintenance-Mode-Quickly). אם אתה משתמש באחת מהסביבות האלה זה קל כמו לבחור את הפגישה "Wayland" במנהל התצוגה של שולחן העבודה ([GDM](https://en.wikipedia.org/wiki/GNOME_Display_Manager), [SDDM](https://en.wikipedia.org/wiki/Simple_Desktop_Display_Manager)).
 
 אנו ממליצים **נגד** להשתמש בסביבות שולחן עבודה או במנהלי חלונות שאין להם תמיכה ב-Wayland, כגון Cinnamon (ברירת מחדל ב-Linux Mint), Pantheon (ברירת מחדל במערכת ההפעלה היסודית), MATE, Xfce, ו-i3.
 

@@ -75,7 +75,7 @@ Hoewel we sterk afraden om verouderde distributies zoals Debian te gebruiken, al
 
 ### Linux-libre kernel en "Libre" distributies
 
-Wij raden **sterk af om** de Linux-libre kernel te gebruiken, aangezien [beveiligingsbeperkingen verwijdert](https://www.phoronix.com/scan.php?page=news_item&px=GNU-Linux-Libre-5.7-Released) en [om ideologische redenen kernelwaarschuwingen](https://news.ycombinator.com/item?id=29674846) over kwetsbare microcode onderdrukt.
+We strongly recommend **against** using the Linux-libre kernel, since it [removes security mitigations](https://www.phoronix.com/news/GNU-Linux-Libre-5.7-Released) and [suppresses kernel warnings](https://news.ycombinator.com/item?id=29674846) about vulnerable microcode for ideological reasons.
 
 ## Algemene aanbevelingen
 
@@ -87,13 +87,13 @@ De meeste Linux-distributies hebben een optie in het installatieprogramma om [LU
 
 ### Wissel
 
-Overweeg het gebruik van [ZRAM](https://wiki.archlinux.org/title/Swap#zram-generator) of [versleutelde swap](https://wiki.archlinux.org/title/Dm-crypt/Swap_encryption) in plaats van onversleutelde swap om potentiële beveiligingsproblemen te vermijden met gevoelige gegevens die naar [swap space](https://en.wikipedia.org/wiki/Memory_paging)worden geduwd. Op Fedora gebaseerde distributies [gebruiken standaard ZRAM](https://fedoraproject.org/wiki/Changes/SwapOnZRAM).
+Consider using [ZRAM](https://wiki.archlinux.org/title/Zram#Using_zram-generator) or [encrypted swap](https://wiki.archlinux.org/title/Dm-crypt/Swap_encryption) instead of unencrypted swap to avoid potential security issues with sensitive data being pushed to [swap space](https://en.wikipedia.org/wiki/Memory_paging). Op Fedora gebaseerde distributies [gebruiken standaard ZRAM](https://fedoraproject.org/wiki/Changes/SwapOnZRAM).
 
 ### Wayland
 
 We raden aan een desktopomgeving te gebruiken die het [Wayland](https://en.wikipedia.org/wiki/Wayland_(display_server_protocol)) weergaveprotocol ondersteunt, aangezien het ontwikkeld is met beveiliging [in gedachten](https://lwn.net/Articles/589147/). Zijn voorganger, [X11](https://en.wikipedia.org/wiki/X_Window_System), ondersteunt geen GUI isolatie, waardoor alle vensters [scherm kunnen opnemen, loggen en invoer injecteren in andere vensters](https://blog.invisiblethings.org/2011/04/23/linux-security-circus-on-gui-isolation.html), waardoor elke poging tot sandboxing zinloos wordt. Hoewel er opties zijn om geneste X11 te doen, zoals [Xpra](https://en.wikipedia.org/wiki/Xpra) of [Xephyr](https://en.wikipedia.org/wiki/Xephyr), komen ze vaak met negatieve prestatiegevolgen en zijn ze niet handig op te zetten en hebben ze geen voorkeur boven Wayland.
 
-Gelukkig hebben veelgebruikte omgevingen zoals [GNOME](https://www.gnome.org), [KDE](https://kde.org), en de window manager [Sway](https://swaywm.org) ondersteuning voor Wayland. Sommige distributies zoals Fedora en Tumbleweed gebruiken het standaard, en sommige andere zullen dat misschien in de toekomst doen aangezien X11 in [harde onderhoudsmodus is](https://www.phoronix.com/scan.php?page=news_item&px=X.Org-Maintenance-Mode-Quickly). Als je een van deze omgevingen gebruikt is het zo eenvoudig als het selecteren van de "Wayland" sessie bij de desktop display manager ([GDM](https://en.wikipedia.org/wiki/GNOME_Display_Manager), [SDDM](https://en.wikipedia.org/wiki/Simple_Desktop_Display_Manager)).
+Gelukkig hebben veelgebruikte omgevingen zoals [GNOME](https://www.gnome.org), [KDE](https://kde.org), en de window manager [Sway](https://swaywm.org) ondersteuning voor Wayland. Some distributions like Fedora and Tumbleweed use it by default, and some others may do so in the future as X11 is in [hard maintenance mode](https://www.phoronix.com/news/X.Org-Maintenance-Mode-Quickly). Als je een van deze omgevingen gebruikt is het zo eenvoudig als het selecteren van de "Wayland" sessie bij de desktop display manager ([GDM](https://en.wikipedia.org/wiki/GNOME_Display_Manager), [SDDM](https://en.wikipedia.org/wiki/Simple_Desktop_Display_Manager)).
 
 Wij raden **aan tegen** door desktop omgevingen of window managers te gebruiken die geen Wayland ondersteuning hebben, zoals Cinnamon (standaard op Linux Mint), Pantheon (standaard op Elementary OS), MATE, Xfce, en i3.
 

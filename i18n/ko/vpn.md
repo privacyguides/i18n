@@ -10,9 +10,9 @@ ISP로부터의 **프라이버시**가 필요하거나, 공용 Wi-Fi에 연결�
 
 <div class="grid cards" markdown>
 
-- ![Proton VPN logo](assets/img/vpn/protonvpn.svg){ .twemoji } [Proton VPN](#proton-vpn)
-- ![IVPN logo](assets/img/vpn/mini/ivpn.svg){ .twemoji } [IVPN](#ivpn)
-- ![Mullvad logo](assets/img/vpn/mullvad.svg){ .twemoji } [Mullvad](#mullvad)
+- ![Proton VPN 로고](assets/img/vpn/protonvpn.svg){ .twemoji } [Proton VPN](#proton-vpn)
+- ![IVPN 로고](assets/img/vpn/mini/ivpn.svg){ .twemoji } [IVPN](#ivpn)
+- ![Mullvad 로고](assets/img/vpn/mullvad.svg){ .twemoji } [Mullvad](#mullvad)
 
 </div>
 
@@ -24,7 +24,7 @@ ISP로부터의 **프라이버시**가 필요하거나, 공용 Wi-Fi에 연결�
     
     만약 추가적인 보안이 필요하다면, 연결된 웹사이트가 HTTPS를 사용하는지 꼭 확인해야 합니다. VPN은 올바른 보안 관행을 대체할 수 없습니다.
     
-    [Download Tor](https://www.torproject.org/){ .md-button .md-button--primary } [Tor Myths & FAQ](advanced/tor-overview.md){ .md-button }
+    [Tor 다운로드](https://www.torproject.org/){ .md-button .md-button--primary } [Tor 관련 질문 및 루머](advanced/tor-overview.md){ .md-button }
 
 [VPN에 대해서 :material-arrow-right-drop-circle:](basics/vpn-overview.md ""){.md-button}
 
@@ -60,19 +60,19 @@ Proton VPN은 [67개 국가에 서버](https://protonvpn.com/vpn-servers)를 보
 
 1. 마지막 확인: 2022-09-16
 
-저희는 VPN 제공자가 독립적인 [데디케이티드 서버](https://en.wikipedia.org/wiki/Dedicated_hosting_service)를 사용하는 것이 제공자의 개인 키를 보호하는데 더 좋다고 봅니다. [개인 사설 서버](https://en.wikipedia.org/wiki/Virtual_private_server)는 더 싸지만, VPN 제공자는 한 서버를 다른 사람들과 같이 쓰게 됩니다.
+우리는 VPN 제공자가 독립적인 [데디케이티드 서버](https://en.wikipedia.org/wiki/Dedicated_hosting_service)를 사용하는 것이 제공자의 개인 키를 보호하는데 더 좋다고 봅니다. [개인 사설 서버](https://en.wikipedia.org/wiki/Virtual_private_server)는 더 싸지만, VPN 제공자는 한 서버를 다른 사람들과 같이 쓰게 됩니다.
 
 #### :material-check:{ .pg-green } 독립 감사 여부
 
-As of January 2020, Proton VPN has undergone an independent audit by SEC Consult. SEC Consult found some medium and low risk vulnerabilities in Proton VPN's Windows, Android, and iOS applications, all of which were "properly fixed" by Proton VPN before the reports were published. None of the issues identified would have provided an attacker remote access to your device or traffic. You can view individual reports for each platform at [protonvpn.com](https://protonvpn.com/blog/open-source/). In April 2022 Proton VPN underwent [another audit](https://protonvpn.com/blog/no-logs-audit/) and the report was [produced by Securitum](https://protonvpn.com/blog/wp-content/uploads/2022/04/securitum-protonvpn-nologs-20220330.pdf). A [letter of attestation](https://proton.me/blog/security-audit-all-proton-apps) was provided for Proton VPN's apps on 9th November 2021 by [Securitum](https://research.securitum.com).
+2020년 1월에 Proton VPN은 SEC Consult로부터 독립 감사를 받았습니다. SEC Consult는 Proton VPN의 Windows, Android와 iOS 클라이언트에서 취약점을 찾았으며, 이 취약점들은 감사 레포트가 공개되기 전에 모두 적절히 고쳤다고 합니다. 확인된 취약점 중에서 공격자가 사용자의 기기 또는 트래픽에 원격으로 접속하는 것을 허용하는 것은 없습니다. 각 플랫폼에 대한 보고서는 [protonvpn.com](https://protonvpn.com/blog/open-source/)에서 확인할 수 있습니다. 2022년 4월에는 [또 다른 감사](https://protonvpn.com/blog/no-logs-audit/)를 받았으며, [Securitum이](https://protonvpn.com/blog/wp-content/uploads/2022/04/securitum-protonvpn-nologs-20220330.pdf) 관련 레포트를 작성했습니다. A [letter of attestation](https://proton.me/blog/security-audit-all-proton-apps) was provided for Proton VPN's apps on 9th November 2021 by [Securitum](https://research.securitum.com).
 
 #### :material-check:{ .pg-green } 오픈 소스 클라이언트
 
 Proton VPN 데스크톱, 모바일 클라이언트는 [GitHub](https://github.com/ProtonVPN)에 공개되어 있습니다.
 
-#### :material-check:{ .pg-green } Accepts Cash
+#### :material-check:{ .pg-green } 현금 결제 가능
 
-Proton VPN, in addition to accepting credit/debit cards, PayPal, and [Bitcoin](advanced/payments.md#other-coins-bitcoin-ethereum-etc), also accepts **cash/local currency** as an anonymous form of payment.
+Proton VPN은 신용카드, 체크카드, 페이팔 외에도 [비트코인](advanced/payments.md#other-coins-bitcoin-ethereum-etc)과 **현금** 결제도 받습니다.
 
 #### :material-check:{ .pg-green } WireGuard 지원
 
@@ -82,7 +82,7 @@ Proton VPN은 자신들의 서비스에서 WireGuard 사용을 [권장](https://
 
 #### :material-alert-outline:{ .pg-orange } 원격 포트 포워딩
 
-Proton VPN currently only supports ephemeral remote [port forwarding](https://protonvpn.com/support/port-forwarding/) via NAT-PMP, with 60 second lease times. The Windows app provides an easy to access option for it, while on other operating systems you'll need to run your own [NAT-PMP client](https://protonvpn.com/support/port-forwarding-manual-setup/). Torrent applications often support NAT-PMP natively.
+Proton VPN은 현재 NAT-PMP를 통한 임시적인 원격 [포트포워딩](https://protonvpn.com/support/port-forwarding/)만을 허용하며, 이는 60초동안 유지됩니다. Windows 앱은 쉽게 접근할 수 있는 옵션을 제공하지만, 다른 운영체제의 경우에는 직접 [NAT-PMP 클라이언트](https://protonvpn.com/support/port-forwarding-manual-setup/)를 실행해야 합니다. 토렌트 애플리케이션은 대부분 NAT-PMP를 지원합니다.
 
 #### :material-check:{ .pg-green } 모바일 클라이언트
 
@@ -90,11 +90,11 @@ Proton VPN은 표준 OpenVPN 설정 파일 외에도, 간편하게 Proton VPN �
 
 #### :material-information-outline:{ .pg-blue } 추가 기능
 
-Proton VPN clients support two factor authentication on all platforms except Linux at the moment. Proton VPN has their own servers and datacenters in Switzerland, Iceland and Sweden. They offer adblocking and known malware domains blocking with their DNS service. Additionally, Proton VPN also offers "Tor" servers allowing you to easily connect to onion sites, but we still strongly recommend using [the official Tor Browser](https://www.torproject.org/) for this purpose.
+Proton VPN 클라이언트는 Linux를 제외한 모든 플랫폼에서 2단계 인증을 지원합니다. Proton VPN은 스위스, 아이슬란드와 스웨덴에 자체 서버와 데이터 센터를 보유하고 있습니다. DNS 서비스로 광고 차단 및 멀웨어 관련 도메인 차단 기능도 제공합니다. 추가적으로, Proton VPN은 onion 사이트를 쉽게 접속할 수 있도록 "Tor" 서버를 제공하지만, 이런 목적으로는 [공식 토르 브라우저](https://www.torproject.org/)를 사용하는 것을 추천합니다.
 
-#### :material-alert-outline:{ .pg-orange } Killswitch feature is broken on Intel-based Macs
+#### :material-alert-outline:{ .pg-orange } Intel 기반 Mac에서의 킬스위치 문제
 
-System crashes [may occur](https://protonvpn.com/support/macos-t2-chip-kill-switch/) on Intel-based Macs when using the VPN killswitch. If you require this feature, and you are using a Mac with Intel chipset, you should consider using another VPN service.
+Intel 기반 Mac에서 VPN 킬스위치 기능을 사용할 경우 시스템 크래시가 [발생할 수 있습니다](https://protonvpn.com/support/macos-t2-chip-kill-switch/). 만약 이 기능이 필요하지만 Intel 기반 Mac을 사용하고 있다면, 다른 VPN 서비스를 사용하는 것을 추천합니다.
 
 ### IVPN
 
@@ -125,7 +125,7 @@ IVPN은 [35개 국가에 서버](https://www.ivpn.net/server-locations)를 보�
 
 1. 마지막 확인: 2022-09-16
 
-저희는 VPN 제공자가 독립적인 [데디케이티드 서버](https://en.wikipedia.org/wiki/Dedicated_hosting_service)를 사용하는 것이 제공자의 개인 키를 보호하는데 더 좋다고 봅니다. [개인 사설 서버](https://en.wikipedia.org/wiki/Virtual_private_server)는 더 싸지만, VPN 제공자는 한 서버를 다른 사람들과 같이 쓰게 됩니다.
+우리는 VPN 제공자가 독립적인 [데디케이티드 서버](https://en.wikipedia.org/wiki/Dedicated_hosting_service)를 사용하는 것이 제공자의 개인 키를 보호하는데 더 좋다고 봅니다. [개인 사설 서버](https://en.wikipedia.org/wiki/Virtual_private_server)는 더 싸지만, VPN 제공자는 한 서버를 다른 사람들과 같이 쓰게 됩니다.
 
 #### :material-check:{ .pg-green } 독립 감사 여부
 
@@ -147,7 +147,7 @@ IVPN은 자신들의 서비스에서 WireGuard 사용을 [권장](https://www.iv
 
 #### :material-alert-outline:{ .pg-orange } 원격 포트 포워딩
 
-IVPN previously supported port forwarding, but removed the option in [June 2023](https://www.ivpn.net/blog/gradual-removal-of-port-forwarding). Missing this feature could negatively impact certain applications, especially peer-to-peer applications like torrent clients.
+IVPN은 이전에 포트포워딩을 지원했지만, [2023년 6월](https://www.ivpn.net/blog/gradual-removal-of-port-forwarding) 이후로 해당 기능이 삭제되었습니다. 이 기능이 없을 경우 토렌트 클라이언트와 같은 P2P 앱을 사용하는 데에 문제가 발생할 수 있습니다.
 
 #### :material-check:{ .pg-green } 모바일 클라이언트
 
@@ -187,7 +187,7 @@ Mullvad는 [41개 국가에 서버](https://mullvad.net/servers/)를 보유하�
 
 1. 마지막 확인: 2023-01-19
 
-저희는 VPN 제공자가 독립적인 [데디케이티드 서버](https://en.wikipedia.org/wiki/Dedicated_hosting_service)를 사용하는 것이 제공자의 개인 키를 보호하는데 더 좋다고 봅니다. [개인 사설 서버](https://en.wikipedia.org/wiki/Virtual_private_server)는 더 싸지만, VPN 제공자는 한 서버를 다른 사람들과 같이 쓰게 됩니다.
+우리는 VPN 제공자가 독립적인 [데디케이티드 서버](https://en.wikipedia.org/wiki/Dedicated_hosting_service)를 사용하는 것이 제공자의 개인 키를 보호하는데 더 좋다고 봅니다. [개인 사설 서버](https://en.wikipedia.org/wiki/Virtual_private_server)는 더 싸지만, VPN 제공자는 한 서버를 다른 사람들과 같이 쓰게 됩니다.
 
 #### :material-check:{ .pg-green } 독립 감사 여부
 
@@ -207,7 +207,7 @@ Mullvad 데크스톱, 모바일 클라이언트 소스 코드는 [GitHub](https:
 
 #### :material-check:{ .pg-green } 현금 및 Monero 결제 가능
 
-Mullvad는 신용카드, 체크카드, 페이팔과 같은 결제 수단 외에도 비트코인, 비트코인 캐쉬 (Bitcoin Cash), **Monero**와 **현금**과 같은 익명 결제 수단 또한 지원합니다. They also accept Swish and bank wire transfers.
+Mullvad는 신용카드, 체크카드, 페이팔과 같은 결제 수단 외에도 비트코인, 비트코인 캐쉬 (Bitcoin Cash), **Monero**와 **현금**과 같은 익명 결제 수단 또한 지원합니다. Swish 및 은행 송금도 가능합니다.
 
 #### :material-check:{ .pg-green } WireGuard 지원
 
@@ -217,19 +217,19 @@ Mullvad는 자신들의 서비스에서 WireGuard 사용을 [권장](https://mul
 
 #### :material-check:{ .pg-green } IPv6 지원
 
-Mullvad allows you to [access services hosted on IPv6](https://mullvad.net/en/blog/2014/9/15/ipv6-support/), as opposed to other providers which block IPv6 connections.
+Mullvad는 다른 VPN 제공자들과 달리 [IPv6에 호스팅된 서비스](https://mullvad.net/en/blog/2014/9/15/ipv6-support/)에 접속하는 것을 허용합니다.
 
 #### :material-alert-outline:{ .pg-orange } 원격 포트 포워딩
 
-Mullvad previously supported port forwarding, but removed the option in [May 2023](https://mullvad.net/en/blog/2023/5/29/removing-the-support-for-forwarded-ports/). Missing this feature could negatively impact certain applications, especially peer-to-peer applications like torrent clients.
+Mullvad는 이전에 포트포워딩 기능을 지원했지만, [2023년 5월](https://mullvad.net/en/blog/2023/5/29/removing-the-support-for-forwarded-ports/) 이후로는 사용할 수 없습니다. 이 기능이 없을 경우 토렌트 클라이언트와 같은 P2P 앱을 사용하는 데에 문제가 발생할 수 있습니다.
 
 #### :material-check:{ .pg-green } 모바일 클라이언트
 
-Mullvad has published [App Store](https://apps.apple.com/app/mullvad-vpn/id1488466513) and [Google Play](https://play.google.com/store/apps/details?id=net.mullvad.mullvadvpn) clients, both supporting an easy-to-use interface as opposed to requiring you to manually configure your WireGuard connection. The Android client is also available on [GitHub](https://github.com/mullvad/mullvadvpn-app/releases).
+Mullvad는 [앱 스토어](https://apps.apple.com/app/mullvad-vpn/id1488466513)와 [구글 플레이](https://play.google.com/store/apps/details?id=net.mullvad.mullvadvpn)에 사용하기 쉬운 VPN 클라이언트를 제공했습니다. 안드로이드 클라이언트는 [Github](https://github.com/mullvad/mullvadvpn-app/releases)에서도 구할 수 있습니다.
 
 #### :material-information-outline:{ .pg-blue } 추가 기능
 
-Mullvad는 자신이 [소유/임대](https://mullvad.net/en/servers/)한 노드에 대해 투명하게 공개하고 있습니다. They use [ShadowSocks](https://shadowsocks.org/) in their ShadowSocks + OpenVPN configuration, making them more resistant against firewalls with [Deep Packet Inspection](https://en.wikipedia.org/wiki/Deep_packet_inspection) trying to block VPNs. [중국은 다른 방식으로 ShadowSocks 서버를 막고 있다고 전해집니다](https://github.com/net4people/bbs/issues/22). Mullvad의 웹사이트는 Tor를 이용해서 접속할 수 있습니다. 주소는 [o54hon2e2vj6c7m3aqqu6uyece65by3vgoxxhlqlsvkmacw6a7m7kiad.onion](http://o54hon2e2vj6c7m3aqqu6uyece65by3vgoxxhlqlsvkmacw6a7m7kiad.onion)입니다.
+Mullvad는 자신이 [소유/임대](https://mullvad.net/en/servers/)한 노드에 대해 투명하게 공개하고 있습니다. ShadowSocks + OpenVPN 설정에 [ShadowSocks](https://shadowsocks.org/)가 있어 [심층 패킷 분석](https://en.wikipedia.org/wiki/Deep_packet_inspection)을 이용하는 방화벽을 회피할 수 있습니다. [중국은 다른 방식으로 ShadowSocks 서버를 막고 있다고 전해집니다](https://github.com/net4people/bbs/issues/22). Mullvad의 웹사이트는 Tor를 이용해서 접속할 수 있습니다. 주소는 [o54hon2e2vj6c7m3aqqu6uyece65by3vgoxxhlqlsvkmacw6a7m7kiad.onion](http://o54hon2e2vj6c7m3aqqu6uyece65by3vgoxxhlqlsvkmacw6a7m7kiad.onion)입니다.
 
 ## 평가 기준
 
@@ -255,12 +255,12 @@ We require all our recommended VPN providers to provide OpenVPN configuration fi
 - WireGuard 및 OpenVPN 지원
 - 다양한 설정들을 가진 킬스위치 기능 (일부 네트워크에만 활성화하기, 부팅시에만 활성화하기 등)
 - 사용하기 쉬운 VPN 클라이언트
-- Supports [IPv6](https://en.wikipedia.org/wiki/IPv6). We expect that servers will allow incoming connections via IPv6 and allow you to access services hosted on IPv6 addresses.
-- Capability of [remote port forwarding](https://en.wikipedia.org/wiki/Port_forwarding#Remote_port_forwarding) assists in creating connections when using P2P ([Peer-to-Peer](https://en.wikipedia.org/wiki/Peer-to-peer)) file sharing software or hosting a server (e.g., Mumble).
+- [IPv6](https://en.wikipedia.org/wiki/IPv6) 지원: 서버들은 IPv6를 통한 연결을 허용하고, IPv6 주소에 호스팅되는 서비스에 접속할 수 있도록 해야 합니다.
+- [원격 포트포워딩](https://en.wikipedia.org/wiki/Port_forwarding#Remote_port_forwarding)을 지원하여 P2P ([Peer-to-Peer](https://en.wikipedia.org/wiki/Peer-to-peer)) 파일 공유와 Mumble과 같은 서비스 호스팅할 수 있음
 
 ### 프라이버시
 
-We prefer our recommended providers to collect as little data as possible. Not collecting personal information on registration, and accepting anonymous forms of payment are required.
+Privacy Guides이 권장하는 제공자들은 최소한의 데이터만을 수집해야 합니다. 가입할 때 개인 정보를 수집하지 않아야 하고, 익명 결제 방식을 허용해야 합니다.
 
 **최소 요구 사항:**
 
@@ -274,18 +274,18 @@ We prefer our recommended providers to collect as little data as possible. Not c
 
 ### 보안
 
-적절한 보안을 제공하지 않는 VPN은 없으나마나입니다. We require all our recommended providers to abide by current security standards for their OpenVPN connections. Ideally, they would use more future-proof encryption schemes by default. We also require an independent third-party to audit the provider's security, ideally in a very comprehensive manner and on a repeated (yearly) basis.
+적절한 보안을 제공하지 않는 VPN은 없으나마나입니다. Privacy Guides가 권장하는 모든 제공업체는 OpenVPN 연결에 대한 최신 보안 표준을 따라야 합니다. 미래에도 유효한 암호화 체계를 사용하는 것이 제일 이상적입니다. 또한, 권장하는 제공자들은 외부 감사를 꼭 받아야 하며, 포괄적이면서 주기적으로 (매년) 받는 것이 이상적입니다.
 
 **최소 요구 사항:**
 
 - 강력한 암호화 방식 사용: SHA-256 해시 기반 인증을 이용하는 OpenVPN, RSA-2048 또는 더 강력한 비대칭 암호 알고리즘을 이용하는 핸드셰이크, AES-256-GCM 또는 AES-256-CBC 를 이용하는 데이터 암호화
-- Forward Secrecy.
+- 순방향 비밀성 제공
 - 검증된 제 3자로부터 보안 감사 결과가 게시됨
 
 **우대 사항:**
 
 - 가장 강력한 암호화 방식으로 RSA-4096을 지원
-- Forward Secrecy.
+- 순방향 비밀성 제공
 - 검증된 제 3자로부터 종합적인 보안 감사 결과가 게시됨
 - 버그 바운티 프로그램 또는 체계적인 취약점 공개 프로세스가 있음
 
@@ -304,27 +304,27 @@ You wouldn't trust your finances to someone with a fake identity, so why trust t
 
 ### 마케팅
 
-With the VPN providers we recommend we like to see responsible marketing.
+Privacy Guides가 권장하는 VPN 제공 업체들은 책임감 있는 마케팅을 할 것이라고 기대하고 있습니다.
 
 **최소 요구 사항:**
 
-- Must self-host analytics (i.e., no Google Analytics). The provider's site must also comply with [DNT (Do Not Track)](https://en.wikipedia.org/wiki/Do_Not_Track) for people who want to opt-out.
+- 애널리틱스 서비스는 자체 호스팅을 해야 합니다. (Google Analytics와 같은 서비스 사용 금지) VPN 제공자의 사이트는 [DNT (Do Not Track)](https://en.wikipedia.org/wiki/Do_Not_Track) 요구를 준수해야 합니다.
 
 다음과 같은 무책임한 마케팅 방식을 사용하지 않아야 합니다.
 
-- 익명성을 100% 보장해준다는 등의 내용: 만약 누군가가 100%라고 주장한다면, 이는 절대 실패할 수 없다고 하는 것과 같습니다. We know people can quite easily deanonymize themselves in a number of ways, e.g.:
-    - Reusing personal information (e.g., email accounts, unique pseudonyms, etc.) that they accessed without anonymity software (Tor, VPN, etc.)
+- 익명성을 100% 보장해준다는 등의 내용: 만약 누군가가 100%라고 주장한다면, 이는 절대 실패할 수 없다고 하는 것과 같습니다. 익명성을 잃는 방법은 간단하면서도 다양하다는 것은 잘 알려져 있습니다. 예시로는 다음과 같습니다:
+    - 익명성 소프트웨어 (Tor, VPN 등) 를 사용하지 않고 개인 정보 (이메일 계정, 온라인 아이디) 를 재사용하는 행위
     - [브라우저 핑거프린팅](https://en.wikipedia.org/wiki/Device_fingerprint#Browser_fingerprint)
 - 노드 1개만을 거치는 VPN이 주기적으로 변하는 노드 3개를 거치는 Tor보다 익명성을 보호하는데 더 좋다는 주장
-- Use responsible language: i.e., it is okay to say that a VPN is "disconnected" or "not connected", however claiming that someone is "exposed", "vulnerable" or "compromised" is needless use of alarming language that may be incorrect. For example, that person might simply be on another VPN provider's service or using Tor.
+- 무책임한 표현 사용 금지: 사이트에서 VPN에 "연결됨" 또는 "연결되지 않음"이라고 표시하는 것은 문제되지 않지만, VPN에 연결되지 않았을 경우 "노출됨", "취약함"과 같은 단어 표현은 필요 이상으로 사용자에게 경고를 주며, 아예 올바르지 않을 수 있습니다. 예시로, 해당 사용자는 타사의 VPN을 사용하고 있거나 Tor를 사용하고 있을 수 있습니다.
 
 **우대 사항:**
 
-Responsible marketing that is both educational and useful to the consumer could include:
+사용자에게 유용한 책임감 있는 마케팅의 예시는 다음과 같습니다:
 
 - [Tor](tor.md)를 사용하기 적합한 상황을 정확하게 설명함
 - VPN 제공자의 웹사이트가 [.onion](https://en.wikipedia.org/wiki/.onion)으로도 접근이 가능
 
 ### 추가 기능
 
-While not strictly requirements, there are some factors we looked into when determining which providers to recommend. These include adblocking/tracker-blocking functionality, warrant canaries, multihop connections, excellent customer support, the number of allowed simultaneous connections, etc.
+엄격하게 적용한 요구 사항은 아니지만, 이 외의 요소 일부 또한 고려하여 권장 제공 업체를 결정했습니다. 이 요소에는 광고/트래커 차단 기능, warrant canary, 멀티홉 기능, 고객 지원 서비스의 질, 동시에 연결할 수 있는 기기 수가 포함됩니다.

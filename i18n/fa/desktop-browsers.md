@@ -1,6 +1,6 @@
 ---
 meta_title: "Privacy Respecting Web Browsers for PC and Mac - Privacy Guides"
-title: "Desktop Browsers"
+title: "مرورگرهای دسکتاپ"
 icon: material/laptop
 description: These web browsers provide stronger privacy protections than Google Chrome.
 cover: desktop-browsers.png
@@ -61,7 +61,7 @@ These are our currently recommended desktop web browsers and configurations for 
 
 If you need to browse the internet anonymously, you should use [Tor](tor.md) instead. We make some configuration recommendations on this page, but all browsers other than Tor Browser will be traceable by *somebody* in some manner or another.
 
-## Mullvad Browser
+## مرورگر Mullvad
 
 !!! recommendation
 

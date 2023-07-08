@@ -1,50 +1,50 @@
 ---
-title: "Notices and Disclaimers"
+title: "اطلاعیه ها و سلب مسئولیت"
 ---
 
 ## سلب مسئولیت حقوقی
 
 Privacy Guides(راهنمای حفظ حریم خصوصی) یک شرکت حقوقی نیست. به این ترتیب، که وب سایت راهنمای حریم خصوصی و مشارکت کنندگان . مشاوره حقوقی ارائه نمی دهند. مطالب و توصیه‌های موجود در وب‌سایت و راهنماهای ما به منزله مشاوره حقوقی نیست و مشارکت در وب‌سایت یا برقراری ارتباط با راهنمای حریم خصوصی یا سایر مشارکت‌کنندگان در مورد وب‌سایت ما باعث ایجاد رابطه وکیل و مشتری نمی‌شود.
 
-راه اندازی این وب سایت، مانند هر تلاش انسانی، مستلزم عدم اطمینان و مبادله است. امیدواریم این وب سایت به شما کمک کند، اما ممکن است شامل اشتباهاتی باشد و نتواند به هر موقعیتی رسیدگی کند. اگر در مورد وضعیت خود سؤالی دارید، ما شما را تشویق می‌کنیم که تحقیقات خود را انجام دهید، کارشناسان دیگر را جستجو کنید و با انجمن راهنماهای حریم خصوصی وارد بحث شوید. If you have any legal questions, you should consult with your own legal counsel before moving forward.
+راه اندازی این وب سایت، مانند هر تلاش انسانی، مستلزم عدم اطمینان و مبادله است. امیدواریم این وب سایت به شما کمک کند، اما ممکن است شامل اشتباهاتی باشد و نتواند به هر موقعیتی رسیدگی کند. اگر در مورد وضعیت خود سؤالی دارید، ما شما را تشویق می‌کنیم که تحقیقات خود را انجام دهید، کارشناسان دیگر را جستجو کنید و با انجمن راهنماهای حریم خصوصی وارد بحث شوید. اگر سؤالات قانونی دارید، قبل از ادامه کار باید با وکیل قانونی خود مشاوره کنید.
 
-Privacy Guides is an open source project contributed to under licenses that include terms that, for the protection of the website and its contributors, make clear that the Privacy Guides project and website is offered "as-is", without warranty, and disclaiming liability for damages resulting from using the website or any recommendations contained within. Privacy Guides does not warrant or make any representations concerning the accuracy, likely results, or reliability of the use of the materials on the website or otherwise relating to such materials on the website or on any third-party sites linked on this site.
+"Privacy Guides" یک پروژه منبع باز است که با مجوزهایی که شامل شرایطی برای حفاظت از وب سایت و مشارکت کنندگان آن است، به آن کمک می‌کند. این پروژه و وب سایت "Privacy Guides" به همان شکلی که می‌بینید ارائه شده است، بدون هیچ گونه ضمانتی ارائه می‌شود و هیچ مسئولیتی در قبال آسیب‌های ناشی از استفاده از وب سایت یا هر گونه توصیه موجود در آن ندارد. "Privacy Guides" هیچ گونه ضمانتی درباره دقت، نتایج محتمل یا قابلیت اعتماد استفاده از محتوای موجود در وب سایت و یا در مورد هر گونه محتوای دیگری مرتبط با محتوای موجود در وب سایت یا در هر سایت شخص ثالثی که در این سایت لینک شده است، ارائه نمی‌دهد و هیچ گونه تضمینی نیز ندارد.
 
-Privacy Guides additionally does not warrant that this website will be constantly available, or available at all.
+همچنین "Privacy Guides" هیچ ضمانتی درباره دسترسی مداوم یا کلی به این وب سایت ارائه نمی‌دهد.
 
-## Licensing Overview
+## نمای کلی مجوزها
 
 !!! danger ""
 
     The following is a human-readable summary of (and not a substitute for) the [license](/license).
 
-Unless otherwise noted, all **content** on this website is made available under the terms of the [Creative Commons Attribution-NoDerivatives 4.0 International Public License](https://github.com/privacyguides/privacyguides.org/blob/main/LICENSE). The underlying **source code** used to generate this website and display that content is released under the [MIT License](https://github.com/privacyguides/privacyguides.org/tree/main/LICENSE-CODE).
+مگر اینکه به طور جداگانه ذکر شده باشد، تمام **محتواها** در این وب سایت بر اساس شرایط مجوز عمومی Creative Commons Attribution-NoDerivatives 4.0 International در دسترس قرار می‌گیرد. لطفاً متن کامل مجوز را در [اینجا](https://github.com/privacyguides/privacyguides.org/blob/main/LICENSE) مشاهده کنید. کد منبع پایه‌ای **source code** که برای تولید این وب سایت و نمایش آن محتوا استفاده شده است، تحت مجوز MIT License منتشر شده است. لطفاً متن کامل مجوز MIT را در [اینجا](https://github.com/privacyguides/privacyguides.org/tree/main/LICENSE-CODE) مشاهده کنید.
 
-This does not include third-party code embedded in this repository, or code where a superseding license is otherwise noted. The following are notable examples, but this list may not be all-inclusive:
+این شامل کدهای شخص ثالثی که در این مخزن جاسازی شده است یا کدهایی که مجوز جایگزین دیگری در آنها ذکر شده است، نمی‌شود. موارد زیر نمونه‌های قابل توجه هستند، اما این لیست ممکن است کامل نباشد:
 
 * [MathJax](https://github.com/privacyguides/privacyguides.org/blob/main/theme/assets/javascripts/mathjax.js) is licensed under the [Apache License 2.0](https://github.com/privacyguides/privacyguides.org/blob/main/docs/assets/javascripts/LICENSE.mathjax.txt).
 * The [Bagnard](https://github.com/privacyguides/brand/tree/main/WOFF/bagnard) heading font is licensed under the [SIL Open Font License 1.1](https://github.com/privacyguides/brand/blob/main/WOFF/bagnard/LICENSE.txt).
 * The [Public Sans](https://github.com/privacyguides/brand/tree/main/WOFF/public_sans) font used for most text on the site is licensed under the terms detailed [here](https://github.com/privacyguides/brand/blob/main/WOFF/public_sans/LICENSE.txt).
 * The [DM Mono](https://github.com/privacyguides/brand/tree/main/WOFF/dm_mono) font used for monospaced text on the site is licensed under the [SIL Open Font License 1.1](https://github.com/privacyguides/brand/blob/main/WOFF/dm_mono/LICENSE.txt).
 
-This means that you can use the human-readable content in this repository for your own project, per the terms outlined in the Creative Commons Attribution-NoDerivatives 4.0 International Public License text. You may do so in any reasonable manner, but not in any way that suggests Privacy Guides endorses you or your use. You **may not** use the Privacy Guides branding in your own project without express approval from this project. Privacy Guides's brand trademarks include the "Privacy Guides" wordmark and shield logo.
+این بدان معناست که شما می‌توانید از محتوای قابل فهم بشری در این مخزن برای پروژه خود استفاده کنید، طبق شرایطی که در متن مجوز عمومی Creative Commons Attribution-NoDerivatives 4.0 International Public License تعیین شده است. شما می‌توانید این کار را به هر نحو منصفانه‌ای انجام دهید، اما نباید به هر نحوی که به نظر برسد Privacy Guides شما یا استفاده شما را تأیید می‌کند. شما **نمی‌توانید** از برندینگ Privacy Guides در پروژه خود استفاده کنید مگر با تأیید صریح از این پروژه. علامت تجاری برند Privacy Guides شامل عبارت "Privacy Guides" به همراه لوگوی سپر می‌باشد.
 
-We believe that the logos and other images in `assets` obtained from third-party providers are either in the public domain or **fair use**. In a nutshell, legal [fair use doctrine](https://www.copyright.gov/fair-use/more-info.html) allows the use of copyrighted images in order to identify the subject matter for purposes of public comment. However, these logos and other images may still be subject to trademark laws in one or more jurisdictions. Before using this content, please ensure that it is used to identify the entity or organization that owns the trademark and that you have the right to use it under the laws which apply in the circumstances of your intended use. *When copying content from this website, you are solely responsible for ensuring that you do not infringe someone else's trademark or copyright.*
+ما اعتقاد داریم که لوگوها و تصاویر دیگر موجود در `assets` که از تامین‌کنندگان شخص ثالث به دست می‌آیند، یا در دامنه عمومی هستند یا تحت استفاده عادلانه **fair use** قرار می‌گیرند. به طور خلاصه، مفهوم استفاده عادلانه قانونی اجازه استفاده از تصاویری که تحت حقوق تکثیر قرار دارند به منظور شناسایی موضوع برای اهداف نظر عمومی را می‌دهد. شما می‌توانید از تصاویری که تحت حقوق تکثیر قرار دارند برای شناسایی موضوع به منظور ارائه نظر عمومی استفاده کنید. لطفاً متن کامل مفهوم استفاده عادلانه قانونی را در [اینجا](https://www.copyright.gov/fair-use/more-info.html) بخوانید. با این حال، این لوگوها و تصاویر دیگر ممکن است همچنان تحت قوانین علامت تجاری در یک یا چند حقوق امتیاز موجود باشند. قبل از استفاده از این محتوا، لطفاً اطمینان حاصل کنید که از آن برای شناسایی شرکت یا سازمانی که علامت تجاری را دارد، استفاده می‌شود و شما در قوانینی که در شرایط استفاده مورد نظر شما اعمال می‌شود، حق استفاده از آن را دارید. *هنگام کپی محتوا از این وب سایت، شما به تنهایی مسئولیت اطمینان از عدم نقض حقوق تجاری یا حقوق تکثیر شخص دیگر را دارید.*
 
-When you contribute to our website you are doing so under the above licenses, and you are granting Privacy Guides a perpetual, worldwide, non-exclusive, transferable, royalty-free, irrevocable license with the right to sublicense such rights through multiple tiers of sublicensees, to reproduce, modify, display, perform and distribute your contribution as part of our project.
+هنگامی که شما به وب سایت ما مشارکت می‌کنید، این کار را به موجب مجوزهای فوق انجام می‌دهید و به Privacy Guides یک مجوز دائمی، جهانی، غیر انحصاری، قابل انتقال، بدون نیاز به پرداخت حق کپی، بدون امکان لغو صدور می‌دهید. این مجوز حق دارد که از طریق زیرلیسانس‌دهندگان چندگانه، حقوقی را که بدین وسیله اعطا می‌کنید، تکثیر، اصلاح، نمایش، اجرا و توزیع مشارکت شما را به عنوان بخشی از پروژه ما، بهره‌برداری نماید.
 
-## Acceptable Use
+## استفاده قابل قبول
 
-You may not use this website in any way that causes or may cause damage to the website or impairment of the availability or accessibility of Privacy Guides, or in any way which is unlawful, illegal, fraudulent, harmful, or in connection with any unlawful, illegal, fraudulent, or harmful purpose or activity.
+شما نباید از این وب سایت به هر نحوی استفاده کنید که باعث آسیب رساندن به وب سایت، محدود کردن دسترسی به Privacy Guides یا به هر نحوی قانونی، غیرقانونی، تقلبی یا مضر باشد، یا به هر نحوی در ارتباط با هر هدف یا فعالیت قانونی، غیرقانونی، تقلبی یا مضر باشد.
 
-You must not conduct any systematic or automated data collection activities on or in relation to this website without express written consent, including:
+شما نباید فعالیت‌های جمع‌آوری داده‌ها به صورت سیستماتیک یا خودکار در این وب سایت را بدون داشتن موافقت کتبی صریح انجام دهید، که شامل موارد زیر می‌شود:
 
-* Excessive Automated Scans
+* اسکن‌های خودکار بیش از حد
 * Denial of Service Attacks
 * Scraping
-* Data Mining
+* داده‌‌کاوی
 * 'Framing' (IFrames)
 
 ---
 
-*Portions of this notice itself were adopted from [opensource.guide](https://github.com/github/opensource.guide/blob/master/notices.md) on GitHub. That resource and this page itself are released under [CC-BY-4.0](https://creativecommons.org/licenses/by-sa/4.0/).*
+*بخش‌هایی از این اطلاعیه به طور خودیار از منبع [opensource.guide](https://github.com/github/opensource.guide/blob/master/notices.md) در GitHub استفاده شده است. منبع مذکور و این صفحه خود به موجب مجوز [CC-BY-4.0](https://creativecommons.org/licenses/by-sa/4.0/) منتشر شده‌اند.*

@@ -1,25 +1,25 @@
-*[2FA]: 2-Factor Authentication
+*[2FA]: احراز هویت دو مرحله‌ای
 *[ADB]: Android Debug Bridge
-*[AOSP]: Android Open Source Project
+*[AOSP]: پروژه متن باز اندروید
 *[ATA]: Advanced Technology Attachment
 *[attack surface]: The total number of possible entry points for unauthorized access to a system
 *[AVB]: Android Verified Boot
 *[cgroups]: Control Groups
-*[CLI]: Command Line Interface
+*[CLI]: رابط خط فرمان
 *[CSV]: Comma-Separated Values
 *[CVE]: Common Vulnerabilities and Exposures
 *[digital legacy feature]: Digital Legacy refers to features that allow you to give other people access to your data when you die
 *[DNSSEC]: Domain Name System Security Extensions
 *[DNS]: Domain Name System
-*[DoH]: DNS over HTTPS
-*[DoQ]: DNS over QUIC
-*[DoH3]: DNS over HTTP/3
-*[DoT]: DNS over TLS
-*[E2EE]: End-to-End Encryption/Encrypted
+*[DoH]: DNS بر روی HTTPS
+*[DoQ]: DNS بر روی QUIC
+*[DoH3]: DNS بر روی HTTP/3
+*[DoT]: DNS بر روی TLS
+*[E2EE]: رمزگذاری پایان به پایان
 *[ECS]: EDNS Client Subnet
 *[EEA]: European Economic Area
 *[entropy]: A measurement of how unpredictable something is
-*[EOL]: End-of-Life
+*[EOL]: پایان عمر
 *[Exif]: Exchangeable image file format
 *[FCM]: Firebase Cloud Messaging
 *[FDE]: Full Disk Encryption
@@ -29,9 +29,9 @@
 *[GDPR]: General Data Protection Regulation
 *[GPG]: GNU Privacy Guard (PGP implementation)
 *[GPS]: Global Positioning System
-*[GUI]: Graphical User Interface
+*[GUI]: رابط کاربری گرافیکی
 *[GnuPG]: GNU Privacy Guard (PGP implementation)
-*[HDD]: Hard Disk Drive
+*[HDD]: هارد دیسک
 *[HOTP]: HMAC (Hash-based Message Authentication Code) based One-Time Password
 *[HTTPS]: Hypertext Transfer Protocol Secure
 *[HTTP]: Hypertext Transfer Protocol

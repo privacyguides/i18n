@@ -1,6 +1,6 @@
 ---
 title: "Персональный компьютер"
-icon: fontawesome/brands/linux
+icon: simple/linux
 description: Дистрибутивы Linux часто рекомендуются для защиты конфиденциальности и свободы пользователей.
 cover: desktop.png
 ---

@@ -236,7 +236,7 @@ BitLocker [поддерживается только](https://support.microsoft.
 
     ![Логотип Tomb](assets/img/encryption-software/tomb.png){ align=right }
     
-    **Tomb** - это оболочка командной строки для LUKS. Он поддерживает стеганографию с помощью [сторонних инструментов] (https://github.com/dyne/Tomb#how-does-it-work).
+    **Tomb** - это оболочка командной строки для LUKS. Он поддерживает стеганографию с помощью [сторонних инструментов](https://github.com/dyne/Tomb#how-does-it-work).
     
     [:octicons-home-16: Домашняя страница](https://www.dyne.org/software/tomb){ .md-button .md-button--primary }
     [:octicons-info-16:](https://github.com/dyne/Tomb/wiki){ .card-link title=Документация}
@@ -251,7 +251,7 @@ OpenPGP иногда необходим для решения специфиче
 
 !!! tip "Используйте future defaults при генерации ключа"
 
-    При [генерации ключей] (https://www.gnupg.org/gph/en/manual/c14.html) мы рекомендуем использовать команду `future-default`, так как это позволит GnuPG использовать современную криптографию, такую как [Curve25519](https://en.wikipedia.org/wiki/Curve25519#History) и [Ed25519](https://ed25519.cr.yp.to/):
+    При [генерации ключей](https://www.gnupg.org/gph/en/manual/c14.html) мы рекомендуем использовать команду `future-default`, так как это позволит GnuPG использовать современную криптографию, такую как [Curve25519](https://en.wikipedia.org/wiki/Curve25519#History) и [Ed25519](https://ed25519.cr.yp.to/):
 
     ```bash
     gpg --quick-gen-key alice@example.com future-default
@@ -263,7 +263,7 @@ OpenPGP иногда необходим для решения специфиче
 
     ![Логотип GNU Privacy Guard](assets/img/encryption-software/gnupg.svg){ align=right }
     
-    **GnuPG** - это GPL-альтернатива криптографическому пакету PGP. GnuPG совместим с [RFC 4880] (https://tools.ietf.org/html/rfc4880), который является текущей спецификацией IETF для OpenPGP. Проект GnuPG работает над [обновленным проектом](https://datatracker.ietf.org/doc/draft-ietf-openpgp-crypto-refresh/) в попытке улучшить OpenPGP. GnuPG является частью фонда свободного программного обеспечения GNU и получил крупное [финансирование](https://gnupg.org/blog/20220102-a-new-future-for-gnupg.html) от правительства Германии.
+    **GnuPG** - это GPL-альтернатива криптографическому пакету PGP. GnuPG совместим с [RFC 4880](https://tools.ietf.org/html/rfc4880), который является текущей спецификацией IETF для OpenPGP. Проект GnuPG работает над [обновленным проектом](https://datatracker.ietf.org/doc/draft-ietf-openpgp-crypto-refresh/) в попытке улучшить OpenPGP. GnuPG является частью фонда свободного программного обеспечения GNU и получил крупное [финансирование](https://gnupg.org/blog/20220102-a-new-future-for-gnupg.html) от правительства Германии.
     
     [:octicons-home-16: Домашняя страница](https://gnupg.org){ .md-button .md-button--primary }
     [:octicons-eye-16:](https://gnupg.org/privacy-policy.html){ .card-link title="Политика конфиденциальности" }

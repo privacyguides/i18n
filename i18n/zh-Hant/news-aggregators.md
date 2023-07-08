@@ -167,7 +167,8 @@ Reddit 允許您通過 RSS 訂閱 subreddits。
 
 !!! example "例子"
 
-    若要使用 RSS 客戶端訂閱 YouTube 頻道，請先查看您的 [channel code](https://support.google.com/youtube/answer/6180214) ，然後在下方替換[CHANNE ID]」：
+    To subscribe to a YouTube channel with an RSS client, first look for its [channel code](https://support.google.com/youtube/answer/6180214). The channel code can be found on the about page of the YouTube channel you wish to subscribe to, under: **About** > **Share** > **Copy channel ID**. Replace `[CHANNEL ID]` below:
+
     ```text
     https://www.youtube.com/feeds/videos.xml?channel_id=[CHANNEL ID]
     ```

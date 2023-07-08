@@ -53,19 +53,19 @@ Cryptocurrencies are a digital form of currency designed to work without central
 
 ### 프라이버시 코인
 
-There are a number of cryptocurrency projects which purport to provide privacy by making transactions anonymous. We recommend using one which provides transaction anonymity **by default** to avoid operational errors.
+거래를 익명화함으로써 프라이버시를 제공한다고 주장하는 몇몇 암호화폐 프로젝트들이 존재합니다. 사용자 실수가 발생하지 않도록 **기본적으로** 익명성을 제공하는 암호화폐 사용을 추천합니다.
 
-- [Recommended Cryptocurrency :material-arrow-right-drop-circle:](../cryptocurrency.md#coins)
+- [권장하는 암호화폐 :material-arrow-right-drop-circle:](../cryptocurrency.md#coins)
 
-Privacy coins have been subject to increasing scrutiny by government agencies. In 2020, [the IRS published a $625,000 bounty](https://www.forbes.com/sites/kellyphillipserb/2020/09/14/irs-will-pay-up-to-625000-if-you-can-crack-monero-other-privacy-coins/?sh=2e9808a085cc) for tools which can break Bitcoin Lightning Network and/or Monero's transaction privacy. They ultimately [paid two companies](https://sam.gov/opp/5ab94eae1a8d422e88945b64181c6018/view) (Chainalysis and Integra Fec) a combined $1.25 million for tools which purport to do so (it is unknown which cryptocurrency network these tools target). Due to the secrecy surrounding tools like these, ==none of these methods of tracing cryptocurrencies have been independently confirmed.== However, it is quite likely that tools which assist targeted investigations into private coin transactions exist, and that privacy coins only succeed in thwarting mass surveillance.
+프라이버시 코인들은 정부 기관들로부터 감시를 받고 있습니다. 2020년에는 [IRS에서 비트코인 Lightning 네트워크와 모네로의 거래를 해독할 수 있는 도구에 대해 625,000 달러의 현상금](https://www.forbes.com/sites/kellyphillipserb/2020/09/14/irs-will-pay-up-to-625000-if-you-can-crack-monero-other-privacy-coins/?sh=2e9808a085cc)을 발표했습니다. 결론적으로 IRS는 Chainanalysis와 Integra Fec [이 두 회사에게 총합 125만 달러의 현상금을 지급했습니다](https://sam.gov/opp/5ab94eae1a8d422e88945b64181c6018/view). 이 도구들이 어떤 네트워크를 대상으로 만들어졌는지는 공개되지 않았습니다. 기밀 유지로 인해 ==이 암호화폐 추적 방법들이 실제로 작동하는지는 독립적으로 확인된 바는 없습니다.== 하지만, 표적 조사를 돕는 암호화폐 추적 도구는 존재할 확률이 높으며, 이런 암호화폐는 대규모 감시만 피할 수 있을 것입니다.
 
-### Other Coins (Bitcoin, Ethereum, etc.)
+### 기타 코인 (비트코인, 이더리움 등)
 
-The vast majority of cryptocurrency projects use a public blockchain, meaning that all transactions are both easily traceable and permanent. As such, we strongly discourage the use of most cryptocurrency for privacy-related reasons.
+대부분의 암호화폐 프로젝트는 공개된 블록체인을 사용합니다. 즉, 누구든지 거래 기록을 볼 수 있고 블록체인에 영구적으로 저장됩니다. 따라서 프라이버시 관련 이유로 대부분의 암호화폐 사용을 권장하지 않습니다.
 
-Anonymous transactions on a public blockchain are *theoretically* possible, and the Bitcoin wiki [gives one example of a "completely anonymous" transaction](https://en.bitcoin.it/wiki/Privacy#Example_-_A_perfectly_private_donation). However, doing so requires a complicated setup involving Tor and "solo-mining" a block to generate completely independent cryptocurrency, a practice which has not been practical for nearly any enthusiast for many years.
+공개 블록체인을 통한 익명 거래는 *이론적으로* 가능하고, 비트코인 위키에서 ["완전 익명"인 거래의 예시를 볼 수 있습니다](https://en.bitcoin.it/wiki/Privacy#Example_-_A_perfectly_private_donation). 하지만 이 방식은 Tor 사용과 블록을 "단독 채굴"하는 것을 요구하며, 이는 누구에게나 실용적이지 않습니다.
 
-==Your best option is to avoid these cryptocurrencies entirely and stick with one which provides privacy by default.== Attempting to use other cryptocurrency is outside the scope of this site and strongly discouraged.
+==따라서 최선의 선택지는 이런 암호화폐를 사용하지 않고 기본적으로 프라이버시를 제공하는 암호화폐를 사용하는 것입니다.== 타 암호화폐의 사용은 주제 범위에서 벗어나고, 권장하지도 않습니다.
 
 ### Wallet Custody
 
