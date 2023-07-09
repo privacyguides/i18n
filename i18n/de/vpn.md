@@ -217,31 +217,31 @@ Mullvad [empfiehlt](https://mullvad.net/en/help/why-wireguard/) die Verwendung v
 
 #### :material-check:{ .pg-green } IPv6-Unterstützung
 
-Mullvad allows you to [access services hosted on IPv6](https://mullvad.net/en/blog/2014/9/15/ipv6-support/), as opposed to other providers which block IPv6 connections.
+Mit Mullvad kannst du [auf Dienste zugreifen, die mit IPv6 gehostet werden](https://mullvad.net/en/blog/2014/9/15/ipv6-support/), im Gegensatz zu anderen Anbietern, die IPv6-Verbindungen blockieren.
 
 #### :material-alert-outline:{ .pg-orange } Remote Portweiterleitung
 
-Mullvad previously supported port forwarding, but removed the option in [May 2023](https://mullvad.net/en/blog/2023/5/29/removing-the-support-for-forwarded-ports/). Das Fehlen dieser Funktion könnte sich negativ auf bestimmte Anwendungen auswirken, insbesondere auf Peer-to-Peer-Anwendungen wie Torrent-Clients.
+Mullvad unterstützte früher Portweiterleitung, entfernte diese Möglichkeit aber in [Mai 2023](https://mullvad.net/en/blog/2023/5/29/removing-the-support-for-forwarded-ports/). Das Fehlen dieser Funktion könnte sich negativ auf bestimmte Anwendungen auswirken, insbesondere auf Peer-to-Peer-Anwendungen wie Torrent-Clients.
 
 #### :material-check:{ .pg-green } Mobile Anwendungen
 
-Mullvad has published [App Store](https://apps.apple.com/app/mullvad-vpn/id1488466513) and [Google Play](https://play.google.com/store/apps/details?id=net.mullvad.mullvadvpn) clients, both supporting an easy-to-use interface as opposed to requiring you to manually configure your WireGuard connection. The Android client is also available on [GitHub](https://github.com/mullvad/mullvadvpn-app/releases).
+Mullvad hat [App Store](https://apps.apple.com/app/mullvad-vpn/id1488466513) und [Google Play](https://play.google.com/store/apps/details?id=net.mullvad.mullvadvpn) Clients veröffentlicht, die beide eine einfach zu bedienende Benutzeroberfläche haben, anstatt dass du deine WireGuard-Verbindung manuell konfigurieren musst. Der Android-Client ist auch auf [GitHub](https://github.com/mullvad/mullvadvpn-app/releases) verfügbar.
 
 #### :material-information-outline:{ .pg-blue } Zusätzliche Funktionalität
 
-Mullvad is very transparent about which nodes they [own or rent](https://mullvad.net/en/servers/). They use [ShadowSocks](https://shadowsocks.org/) in their ShadowSocks + OpenVPN configuration, making them more resistant against firewalls with [Deep Packet Inspection](https://en.wikipedia.org/wiki/Deep_packet_inspection) trying to block VPNs. Supposedly, [China has to use a different method to block ShadowSocks servers](https://github.com/net4people/bbs/issues/22). Mullvad's website is also accessible via Tor at [o54hon2e2vj6c7m3aqqu6uyece65by3vgoxxhlqlsvkmacw6a7m7kiad.onion](http://o54hon2e2vj6c7m3aqqu6uyece65by3vgoxxhlqlsvkmacw6a7m7kiad.onion).
+Mullvad ist sehr transparent darüber, welche Netzwerk-Knotenpunkte sie [besitzen oder mieten](https://mullvad.net/en/servers/). Sie verwenden [ShadowSocks](https://shadowsocks.org/) in ihrer ShadowSocks + OpenVPN-Konfiguration, was sie resistenter gegen Firewalls mit [Deep Packet Inspection](https://en.wikipedia.org/wiki/Deep_packet_inspection) macht, die versuchen, VPNs zu blockieren. Angeblich muss [China eine andere Methode verwenden, um ShadowSocks-Server zu blockieren](https://github.com/net4people/bbs/issues/22). Die Website von Mullvad ist auch über Tor zugänglich: [o54hon2e2vj6c7m3aqqu6uyece65by3vgoxxhlqlsvkmacw6a7m7kiad.onion](http://o54hon2e2vj6c7m3aqqu6uyece65by3vgoxxhlqlsvkmacw6a7m7kiad.onion).
 
 ## Kriterien
 
-!!! danger
+!!! !!! danger "Achtung"
 
-    It is important to note that using a VPN provider will not make you anonymous, but it will give you better privacy in certain situations. Ein VPN ist kein Werkzeug für illegale Aktivitäten. Verlasse dich nicht auf "no Log" Richtlienen.
+    Es ist wichtig zu wissen, dass die Nutzung eines VPN-Anbieters dich nicht anonym macht, aber in bestimmten Situationen einen besseren Datenschutz bietet. Ein VPN ist kein Werkzeug für illegale Aktivitäten. Verlasse dich nicht auf "no Log" Richtlienen.
 
-**Bitte beachte, dass wir mit keinem der Projekte, die wir empfehlen, verbunden sind. Dies ermöglicht es uns, völlig objektive Empfehlungen zu geben.** Zusätzlich zu unseren [Standardkriterien](about/criteria.md) haben wir eine Reihe klarer Anforderungen für alle VPN-Anbieter*innen entwickelt, die empfohlen werden wollen, darunter starke Verschlüsselung, unabhängige Sicherheitsprüfungen, moderne Technologie und mehr. We suggest you familiarize yourself with this list before choosing a VPN provider, and conduct your own research to ensure the VPN provider you choose is as trustworthy as possible.
+**Bitte beachte, dass wir mit keinem der Projekte, die wir empfehlen, verbunden sind. Dies ermöglicht es uns, völlig objektive Empfehlungen zu geben.** Zusätzlich zu unseren [Standardkriterien](about/criteria.md) haben wir eine Reihe klarer Anforderungen für alle VPN-Anbieter*innen entwickelt, die empfohlen werden wollen, darunter starke Verschlüsselung, unabhängige Sicherheitsprüfungen, moderne Technologie und mehr. Wir empfehlen dir, dich mit dieser Liste vertraut zu machen, bevor du dich für einen VPN-Anbieter entscheidest, und deine eigenen Nachforschungen anstellst, um sicherzustellen, dass der von dir gewählte VPN-Anbieter so vertrauenswürdig wie möglich ist.
 
 ### Technologie
 
-We require all our recommended VPN providers to provide OpenVPN configuration files to be used in any client. **If** a VPN provides their own custom client, we require a killswitch to block network data leaks when disconnected.
+Wir setzen von allen von uns empfohlenen VPN-Anbietern voraus, dass sie OpenVPN-Konfigurationsdateien zur Verfügung stellen, die in jedem Client verwendet werden können. **Wenn** ein eigener VPN-Client bereitstellt wird, benötigt er einen Killswitch, um Datenlecks im Netzwerk zu blockieren, wenn die Verbindung getrennt wird.
 
 **Mindestvoraussetzung um zu qualifizieren:**
 
@@ -250,13 +250,13 @@ We require all our recommended VPN providers to provide OpenVPN configuration fi
 - Multihop-Unterstützung. Multihopping ist wichtig, um Daten im Falle einer Kompromittierung eines einzelnen Knotens geheim zu halten.
 - Wenn VPN-Clients zur Verfügung gestellt werden, sollten sie [Open Source](https://de.wikipedia.org/wiki/Open_Source)sein, wie die VPN-Software, die in der Regel in sie integriert ist. Wir sind der Meinung, dass [Quellcode](https://de.wikipedia.org/wiki/Quelltext) mehr Transparenz darüber bietet, was dein Gerät tatsächlich tut.
 
-**Best Case:**
+**Im besten Fall:**
 
 - Unterstützung von WireGuard und OpenVPN.
 - Notaus mit hochgradig konfigurierbaren Optionen (Aktivierung/Deaktivierung in bestimmten Netzen, beim Booten usw.)
 - Einfach zu bedienende VPN-Clients
 - Unterstützt [IPv6](https://de.wikipedia.org/wiki/IPv6). Wir erwarten, dass die Server eingehende Verbindungen über IPv6 zulassen und dir den Zugang zu Diensten ermöglichen, die auf IPv6-Adressen gehostet werden.
-- Capability of [remote port forwarding](https://en.wikipedia.org/wiki/Port_forwarding#Remote_port_forwarding) assists in creating connections when using P2P ([Peer-to-Peer](https://en.wikipedia.org/wiki/Peer-to-peer)) file sharing software or hosting a server (e.g., Mumble).
+- Die Möglichkeit der [Remote-Port-Weiterleitung](https://en.wikipedia.org/wiki/Port_forwarding#Remote_port_forwarding) hilft bei der Herstellung von Verbindungen bei der Verwendung von P2P ([Peer-to-Peer](https://en.wikipedia.org/wiki/Peer-to-peer)) Dateitauschbörsen-Software zum Austausch von Dateien oder zum Hosten eines Servers (z. B. Mumble).
 
 ### Datenschutz
 
@@ -264,67 +264,67 @@ Wir ziehen es vor, dass die von uns empfohlenen Anbieter*innen so wenig Daten wi
 
 **Mindestvoraussetzung um zu qualifizieren:**
 
-- [Anonymous cryptocurrency](cryptocurrency.md) **or** cash payment option.
+- [Anonyme Kryptowährung](cryptocurrency.md) **oder** Barzahlung möglich.
 - Für die Registrierung sind keine persönlichen Daten erforderlich: Höchstens Benutzername, Passwort und E-Mail.
 
-**Best Case:**
+**Im besten Fall:**
 
-- Accepts multiple [anonymous payment options](advanced/payments.md).
-- No personal information accepted (autogenerated username, no email required, etc.).
+- Akzeptiert mehrere [anonyme Zahlungsmöglichkeiten](advanced/payments.md).
+- Es werden keine persönlichen Informationen akzeptiert (automatisch generierter Benutzername, keine E-Mail erforderlich, usw.).
 
 ### Sicherheit
 
-A VPN is pointless if it can't even provide adequate security. We require all our recommended providers to abide by current security standards for their OpenVPN connections. Ideally, they would use more future-proof encryption schemes by default. We also require an independent third-party to audit the provider's security, ideally in a very comprehensive manner and on a repeated (yearly) basis.
+Ein VPN ist sinnlos, wenn es nicht einmal angemessene Sicherheit bieten kann. Wir setzen für all von uns empfohlenen Anbietern voraus, dass sie die aktuellen Sicherheitsstandards für ihre OpenVPN-Verbindungen einhalten. Idealerweise würden sie standardmäßig zukunftssichere Verschlüsselungsverfahren verwenden. Wir setzen auch voraus, dass ein unabhängiger Dritter die Sicherheit des Anbieters überprüft, idealerweise sehr umfassend und wiederholt (jährlich).
 
 **Mindestvoraussetzung um zu qualifizieren:**
 
-- Strong Encryption Schemes: OpenVPN with SHA-256 authentication; RSA-2048 or better handshake; AES-256-GCM or AES-256-CBC data encryption.
-- Forward Secrecy.
-- Published security audits from a reputable third-party firm.
+- Starke Verschlüsselungsschemata: OpenVPN mit SHA-256-Authentifizierung; RSA-2048 oder besserer Handshake; AES-256-GCM oder AES-256-CBC Datenverschlüsselung.
+- Forward Secrecy (vorwärts gerichtete Geheimhaltung).
+- Veröffentlichte Sicherheitsaudits durch ein angesehenes Drittunternehmen.
 
-**Best Case:**
+**Im besten Fall:**
 
-- Strongest Encryption: RSA-4096.
-- Forward Secrecy.
-- Comprehensive published security audits from a reputable third-party firm.
-- Bug-bounty programs and/or a coordinated vulnerability-disclosure process.
+- Stärkste Verschlüsselung: RSA-4096.
+- Forward Secrecy (vorwärts gerichtete Geheimhaltung).
+- Umfassende veröffentlichte Sicherheitsaudits durch ein angesehenes Drittunternehmen.
+- Bug-Bounty-Programme und/oder ein koordiniertes Verfahren zur Offenlegung von Sicherheitslücken.
 
 ### Vertrauen
 
-You wouldn't trust your finances to someone with a fake identity, so why trust them with your internet data? We require our recommended providers to be public about their ownership or leadership. We also would like to see frequent transparency reports, especially in regard to how government requests are handled.
+Du würdest nicht jemandem mit einer gefälschten Identität deine Finanzen anvertrauen, warum solltest du ihm also deine Internetdaten anvertrauen? Wir setzen für die von uns empfohlenen Anbietern voraus, dass sie ihre Eigentumsverhältnisse oder ihre Führungsrolle öffentlich gemacht haben. Außerdem wünschen wir uns häufige Transparenzberichte, insbesondere über die Bearbeitung von Regierungsanfragen.
 
 **Mindestvoraussetzung um zu qualifizieren:**
 
-- Public-facing leadership or ownership.
+- Öffentliche Führungs- oder Eigentumsverhältnisse.
 
-**Best Case:**
+**Im besten Fall:**
 
-- Public-facing leadership.
-- Frequent transparency reports.
+- Öffentliche Führung.
+- Häufige Transparenzberichte.
 
 ### Marketing
 
-With the VPN providers we recommend we like to see responsible marketing.
+Bei den von uns empfohlenen VPN-Anbietern legen wir Wert auf ein verantwortungsvolles Marketing.
 
 **Mindestvoraussetzung um zu qualifizieren:**
 
-- Must self-host analytics (i.e., no Google Analytics). The provider's site must also comply with [DNT (Do Not Track)](https://en.wikipedia.org/wiki/Do_Not_Track) for people who want to opt-out.
+- Sie müssen die Analysen selbst hosten (d. h. kein Google Analytics). Die Website des Anbieters muss auch die Anforderungen von [DNT (Do Not Track)](https://en.wikipedia.org/wiki/Do_Not_Track) für Personen erfüllen, die das möchten.
 
-Must not have any marketing which is irresponsible:
+Es darf kein Marketing geben, das unverantwortlich ist:
 
-- Making guarantees of protecting anonymity 100%. When someone makes a claim that something is 100% it means there is no certainty for failure. We know people can quite easily deanonymize themselves in a number of ways, e.g.:
-    - Reusing personal information (e.g., email accounts, unique pseudonyms, etc.) that they accessed without anonymity software (Tor, VPN, etc.)
-    - [Browser fingerprinting](https://en.wikipedia.org/wiki/Device_fingerprint#Browser_fingerprint)
-- Claim that a single circuit VPN is "more anonymous" than Tor, which is a circuit of three or more hops that regularly changes.
-- Use responsible language: i.e., it is okay to say that a VPN is "disconnected" or "not connected", however claiming that someone is "exposed", "vulnerable" or "compromised" is needless use of alarming language that may be incorrect. For example, that person might simply be on another VPN provider's service or using Tor.
+- Versprechung eines 100%-igen Schutzes der Anonymität. Wenn jemand behauptet, etwas sei zu 100% sicher, bedeutet das, dass es keine Möglichkeit für ein Scheitern gibt. Wir wissen, dass Menschen sich auf verschiedene Weise recht einfach deanonymisieren können, z. B.:
+    - Wiederverwendung persönlicher Informationen (z. B. E-Mail-Konten, eindeutige Pseudonyme usw.), auf die sie ohne Anonymisierungssoftware (Tor, VPN usw.) zugegriffen haben
+    - [Browser-Fingerprinting](https://en.wikipedia.org/wiki/Device_fingerprint#Browser_fingerprint)
+- Behauptung, dass ein VPN mit einer einzigen Verbindung "anonymer" ist als Tor, das eine Verbindung mit drei oder mehr Sprüngen ist, die sich regelmäßig ändert.
+- Verwendet eine verantwortungsbewusste Sprache: Es ist in Ordnung zu sagen, dass ein VPN "getrennt" oder "nicht verbunden" ist, aber zu behaupten, dass jemand "gefährdet", "angreifbar" oder "kompromittiert" ist, ist ein unnötiger Gebrauch von alarmierenden Worten, die möglicherweise nicht korrekt sind. Diese Person könnte zum Beispiel einfach den Dienst eines anderen VPN-Anbieters nutzen oder Tor verwenden.
 
-**Best Case:**
+**Im besten Fall:**
 
-Responsible marketing that is both educational and useful to the consumer could include:
+Verantwortungsbewusstes Marketing, das sowohl lehrreich als auch nützlich für den Verbraucher ist, könnte Folgendes beinhalten:
 
-- An accurate comparison to when [Tor](tor.md) should be used instead.
-- Availability of the VPN provider's website over a [.onion service](https://en.wikipedia.org/wiki/.onion)
+- Ein genauer Vergleich zu [Tor](tor.md) sollte stattdessen verwendet werden.
+- Verfügbarkeit der Website des VPN-Anbieters über einen [.onion-Dienst](https://en.wikipedia.org/wiki/.onion)
 
 ### Zusätzliche Funktionalitäten
 
-While not strictly requirements, there are some factors we looked into when determining which providers to recommend. These include adblocking/tracker-blocking functionality, warrant canaries, multihop connections, excellent customer support, the number of allowed simultaneous connections, etc.
+Obwohl es dafür keine strikten Anforderungen gibt, gibt es einige Faktoren, die wir geprüft haben, um zu ermitteln, welche Anbieter zu empfehlen sind. Dazu gehören Ad-/Tracker-Blocking-Funktionen, Warrant Canaries, Multihop-Verbindungen, ein ausgezeichneter Kundendienst, die Anzahl der zulässigen gleichzeitigen Verbindungen usw.
