@@ -83,7 +83,7 @@ description: Linux 為開源、以隱私為中心的桌面作業系統替代選�
 
 ### Linux-libre 內核與 “Libre” 發行版
 
-We strongly recommend **against** using the Linux-libre kernel, since it [removes security mitigations](https://www.phoronix.com/news/GNU-Linux-Libre-5.7-Released) and [suppresses kernel warnings](https://news.ycombinator.com/item?id=29674846) about vulnerable microcode for ideological reasons.
+我們非常 **不推薦**使用 Linux-libre 內核，因為它[移除了安全緩和](https://www.phoronix.com/news/GNU-Linux-Libre-5.7-Released) 以及由於意識型態而 [壓制有關微碼脆弱的內核警告](https://news.ycombinator.com/item?id=29674846)。
 
 
 
@@ -101,7 +101,7 @@ We strongly recommend **against** using the Linux-libre kernel, since it [remove
 
 ### Swap
 
-Consider using [ZRAM](https://wiki.archlinux.org/title/Zram#Using_zram-generator) or [encrypted swap](https://wiki.archlinux.org/title/Dm-crypt/Swap_encryption) instead of unencrypted swap to avoid potential security issues with sensitive data being pushed to [swap space](https://en.wikipedia.org/wiki/Memory_paging). 基於 Fedora 的發行版 [預設使用 ZRAM](https://fedoraproject.org/wiki/Changes/SwapOnZRAM)。
+考慮使用[ZRAM](https://wiki.archlinux.org/title/Zram#Using_zram-generator) 或 [加密的d swap](https://wiki.archlinux.org/title/Dm-crypt/Swap_encryption)取代未加密的swap 以避免潛在地把敏感資料推送到 [swap 空間](https://en.wikipedia.org/wiki/Memory_paging)的安全問題。 基於 Fedora 的發行版 [預設使用 ZRAM](https://fedoraproject.org/wiki/Changes/SwapOnZRAM)。
 
 
 
@@ -109,7 +109,7 @@ Consider using [ZRAM](https://wiki.archlinux.org/title/Zram#Using_zram-generator
 
 建議使用支持 [Wayland](https://en.wikipedia.org/wiki/Wayland_(display_server_protocol)) 顯示協議的桌面環境，因為它的開發 [考慮到了安全](https://lwn.net/Articles/589147/)。 其前身 [X11](https://en.wikipedia.org/wiki/X_Window_System)，不支持GUI 隔離，允許所有視窗[記錄畫面、日誌和注入其他視窗的輸入](https://blog.invisiblethings.org/2011/04/23/linux-security-circus-on-gui-isolation.html)，使任何沙盒嘗試都是徒勞。 雖然有一些選項可以做嵌套 X11，比如 [Xpra](https://en.wikipedia.org/wiki/Xpra) 或 [Xephyr](https://en.wikipedia.org/wiki/Xephyr)，但它們往往會帶來負面性能，設置也不方便，不如 Wayland 可取。
 
-幸好常見的桌面環境，如 [GNOME](https://www.gnome.org)， [KDE](https://kde.org)以及視窗管理器 [Sway](https://swaywm.org) 都支持 Wayland。 Some distributions like Fedora and Tumbleweed use it by default, and some others may do so in the future as X11 is in [hard maintenance mode](https://www.phoronix.com/news/X.Org-Maintenance-Mode-Quickly). 如果使用以下的桌面環境，就像在桌面顯示管理器中選擇 "Wayland "一樣簡單([GDM](https://en.wikipedia.org/wiki/GNOME_Display_Manager), [SDDM](https://en.wikipedia.org/wiki/Simple_Desktop_Display_Manager)) 。
+幸好常見的桌面環境，如 [GNOME](https://www.gnome.org)， [KDE](https://kde.org)以及視窗管理器 [Sway](https://swaywm.org) 都支持 Wayland。 某些發佈版本如 Fedora 和 Tumbleweed 預設使用它，有些則可能在未來也會這樣作在 X11 成為 [硬性維護模式](https://www.phoronix.com/news/X.Org-Maintenance-Mode-Quickly)後。 如果使用以下的桌面環境，就像在桌面顯示管理器中選擇 "Wayland "一樣簡單([GDM](https://en.wikipedia.org/wiki/GNOME_Display_Manager), [SDDM](https://en.wikipedia.org/wiki/Simple_Desktop_Display_Manager)) 。
 
 我們**反對**使用不支援 Wayland 的桌面環境或視窗管理器，如Cinnamon（Linux Mint）、Pantheon（Elementary OS）、MATE、Xfce 和 i3。
 

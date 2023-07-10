@@ -176,7 +176,7 @@ Brave כולל כמה אמצעים נגד טביעת אצבע בתכונת [Shie
 
 סנכרון של היסטוריית ספארי, קבוצות כרטיסיות, כרטיסיות iCloud וסיסמאות שמורות הם E2EE. עם זאת, כברירת מחדל, סימניות [לא](https://support.apple.com/en-us/HT202303). Apple יכולה לפענח ולגשת אליהם בהתאם ל[מדיניות הפרטיות](https://www.apple.com/legal/privacy/en-ww/) שלהם.
 
-You can enable E2EE for your Safari bookmarks and downloads by enabling [Advanced Data Protection](https://support.apple.com/en-us/HT212520). עבור אל **שם Apple ID שלך ← iCloud ← הגנת נתונים מתקדמת**.
+אתה יכול להפעיל את E2EE עבור הסימניות וההורדות שלך ב-Safari על ידי הפעלת [הגנה על נתונים מתקדמת](https://support.apple.com/en-us/HT212520). עבור אל **שם Apple ID שלך ← iCloud ← הגנת נתונים מתקדמת**.
 
 - [x] הפעל **הגנת נתונים מתקדמת**
 

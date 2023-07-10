@@ -90,7 +90,7 @@ Le applicazioni di autenticazione implementano lo standard di sicurezza daottato
 
 Consigliamo vivamente di utilizare applicazioni TOTP per dispositivi mobili invece delle alternative desktop; questo perché Android e iOS offrono una migliore sicurezza e isolazione delle applicazioni, rispetto alla maggior parte dei sistemi operativi per desktop.
 
-### Raivo OTP
+### Aegis Authenticator (Android)
 
 !!! recommendation
 

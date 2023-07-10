@@ -178,7 +178,7 @@ Qubes OS操作系统通过将子系统（如网络、USB等）和应用程序隔
 
 - 必须是开源的。
 - 必须定期接受软件和Linux内核的更新。
-- Linux发行版必须支持 [Wayland](os/linux-overview.md#Wayland)。
+- Linux distributions must support [Wayland](os/linux-overview.md#wayland).
 - 在安装过程中必须支持全盘加密。
 - 不得将定期发布的信息冻结1年以上。 我们 [，不建议将](os/linux-overview.md#release-cycle) "长期支持 "或 "稳定 "的发行版用于桌面使用。
 - 必须支持各种各样的硬件。

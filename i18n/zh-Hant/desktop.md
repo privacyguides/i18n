@@ -190,7 +190,7 @@ Qubes OS 作業系統將子系統（例如網絡、USB等）和應用程式隔�
 
 - 必須是開源的。
 - 必須定期接收軟體和Linux內核更新。
-- Linux 發行版必須支援 [Wayland](os/linux-overview.md#Wayland)。
+- Linux 發行版本必須支援[Wayland](os/linux-overview.md#wayland)。
 - 安裝時必須支援全磁碟加密。
 - 不可將定期更新發佈凍結超過1年。 我們 [不建議](os/linux-overview.md#release-cycle) 桌機使用“長期支援”或“穩定”發行版。
 - 需要支持各種各樣的硬體。

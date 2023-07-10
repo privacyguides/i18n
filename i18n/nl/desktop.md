@@ -176,7 +176,7 @@ Onze aanbevolen besturingssystemen:
 
 - Moet open-source zijn.
 - Moet regelmatig software en Linux kernel updates ontvangen.
-- Linux-distributies moeten [Wayland](os/linux-overview.md#Wayland) ondersteunen.
+- Linux distributions must support [Wayland](os/linux-overview.md#wayland).
 - Moet tijdens de installatie volledige schijfversleuteling ondersteunen.
 - Mag regelmatige releases niet langer dan 1 jaar bevriezen. Wij [raden](os/linux-overview.md#release-cycle) "Long Term Support" of "stabiele" distro-uitgaven niet aan voor desktopgebruik.
 - Moet een grote verscheidenheid aan hardware ondersteunen.

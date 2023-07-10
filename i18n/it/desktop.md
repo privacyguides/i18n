@@ -178,7 +178,7 @@ I nostri sistemi operativi consigliati:
 
 - Devono essere open-source.
 - Devono ricevere regolarmente aggiornamenti del software e del kernel Linux.
-- Le distribuzioni Linux devono supportare [Wayland](os/linux-overview.md#Wayland).
+- Le distribuzioni Linux devono supportare [Wayland](os/linux-overview.md#wayland).
 - Devono supportare la crittografia dell'intero disco durante l'installazione.
 - Non devono fermare i rilasci regolari per più di 1 anno. Noi [non consigliamo](os/linux-overview.md#release-cycle) le distribuzioni "Long Term Support" o "stable" per utilizzo desktop.
 - Devono supportare un'ampia varietà di hardware.

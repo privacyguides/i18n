@@ -89,14 +89,14 @@ ffsend upload -- host https://send.vis.ee/ FILE
     [:octicons-code-16:](https://github.com/nextcloud){ .card-link title="קוד מקור" }
     [:octicons-heart-16:](https://nextcloud.com/contribute/){ .card-link title=לתרומה }
     
-    ??? downloads
+    ??? downloads "הורדות"
     
-        - [:simple-googleplay: Google Play](https://play.google.com/store/apps/details?id=com.nextcloud.client)
+    - [:simple-googleplay: Google Play](https://play.google.com/store/apps/details?id=com.nextcloud.client)
         - [:simple-appstore: App Store](https://apps.apple.com/app/id1125420102)
-        - [:simple-github: GitHub](https://github.com/nextcloud/android/releases)
-        - [:simple-windows11: Windows](https://nextcloud.com/install/#install-clients)
+        - [:simple-github: גיטהאב](https://github.com/nextcloud/android/releases)
+        - [:simple-windows11: ווינדוס](https://nextcloud.com/install/#install-clients)
         - [:simple-apple: macOS](https://nextcloud.com/install/#install-clients)
-        - [:simple-linux: Linux](https://nextcloud.com/install/#install-clients)
+        - [:simple-linux: לינוקס](https://nextcloud.com/install/#install-clients)
 
 !!! danger "סַכָּנָה"
 
@@ -115,12 +115,12 @@ ffsend upload -- host https://send.vis.ee/ FILE
     [:octicons-code-16:](https://github.com/syncthing){ .card-link title="קוד מקור" }
     [:octicons-heart-16:](https://syncthing.net/donations/){ .card-link title=לתרומה }
     
-    ??? downloads
+    ??? downloads "הורדות"
     
         - [:simple-googleplay: Google Play](https://play.google.com/store/apps/details?id=com.nutomic.syncthingandroid)
-        - [:simple-windows11: Windows](https://syncthing.net/downloads/)
+        - [:simple-windows11: ווינדוס](https://syncthing.net/downloads/)
         - [:simple-apple: macOS](https://syncthing.net/downloads/)
-        - [:simple-linux: Linux](https://syncthing.net/downloads/)
+        - [:simple-linux: לינוקס](https://syncthing.net/downloads/)
         - [:simple-freebsd: FreeBSD](https://syncthing.net/downloads/)
 
 ### קריטריונים

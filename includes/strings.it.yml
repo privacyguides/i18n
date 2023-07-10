@@ -1,7 +1,7 @@
 #The strings in these files need to be copied MANUALLY to /config/mkdocs.LANG.yml
 #This file exists just so these strings can be originally translated on Crowdin.
 config:
-  description: Privacy Guides è la risorsa centrale per la privacy e la sicurezza per proteggersi online.
+  description: Privacy Guides è la tua risorsa centrale per la privacy e la sicurezza, per proteggerti online.
   copyright:
     - 
       1: |

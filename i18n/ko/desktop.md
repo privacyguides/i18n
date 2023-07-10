@@ -178,7 +178,7 @@ Privacy Guides 권장 운영 체제는 다음 조건을 만족해야 합니다:
 
 - 오픈 소스여야 합니다.
 - 소프트웨어 및 Linux 커널 업데이트를 정기적으로 받아야 합니다.
-- Linux 배포판은 [Wayland](os/linux-overview.md#Wayland)를 지원해야 합니다.
+- Linux distributions must support [Wayland](os/linux-overview.md#wayland).
 - 설치 과정에서 전체 디스크 암호화를 지원해야 합니다.
 - 정기 릴리스가 1년 이상 고정되어선 안됩니다. Privacy Guides 데스크톱 사용에 있어서 'LTS(Long Term Support, 장기 지원)'이나 'Stable(안정적인)' 릴리스 배포판을 [권장하지 않습니다](os/linux-overview.md#release-cycle).
 - 다양한 하드웨어를 지원해야 합니다.

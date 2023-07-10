@@ -177,7 +177,7 @@ Nos systèmes d'exploitation recommandés :
 
 - Doivent être open-source.
 - Doivent recevoir régulièrement des mises à jour des logiciels et du noyau Linux.
-- Les distributions Linux doivent prendre en charge [Wayland](os/linux-overview.md#Wayland).
+- Linux distributions must support [Wayland](os/linux-overview.md#wayland).
 - Doitvent prendre en charge le chiffrement complet du disque pendant l'installation.
 - Ne doivent pas geler les mises à jour régulières pendant plus d'un an. Nous [ne recommandons pas](os/linux-overview.md#release-cycle) "Long Term Support" ou les versions "stables" de distro pour une utilisation domestique.
 - Doivent prendre en charge une grande variété de matériel.

@@ -167,7 +167,7 @@ Reddit מאפשר לך להירשם ל subreddits באמצעות RSS.
 
 !!! example "דוגמא"
 
-    To subscribe to a YouTube channel with an RSS client, first look for its [channel code](https://support.google.com/youtube/answer/6180214). The channel code can be found on the about page of the YouTube channel you wish to subscribe to, under: **About** > **Share** > **Copy channel ID**. Replace `[CHANNEL ID]` below:
+    כדי להירשם לערוץ יוטיוב עם לקוח RSS, חפש תחילה את [קוד הערוץ] שלו (https://support.google.com/youtube/answer/6180214). ניתן למצוא את קוד הערוץ בדף אודות של ערוץ יוטיוב שאליו ברצונך להירשם, תחת: **אודות** > **שתף** > **העתקת מזהה ערוץ**. החלף את `[מזהה ערוץ]` למטה:
 
     ```text
     https://www.youtube.com/feeds/videos.xml?channel_id=[CHANNEL ID]

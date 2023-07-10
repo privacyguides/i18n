@@ -10,9 +10,9 @@ cover: vpn.png
 
 <div class="grid cards" markdown>
 
-- ![Proton VPN logo](assets/img/vpn/protonvpn.svg){ .twemoji } [Proton VPN](#proton-vpn)
-- ![IVPN logo](assets/img/vpn/mini/ivpn.svg){ .twemoji } [IVPN](#ivpn)
-- ![Mullvad logo](assets/img/vpn/mullvad.svg){ .twemoji } [Mullvad](#mullvad)
+- ![Proton VPN לוגו](assets/img/vpn/protonvpn.svg){ .twemoji } [Proton VPN](#proton-vpn)
+- ![IVPN לוגו](assets/img/vpn/mini/ivpn.svg){ .twemoji } [IVPN](#ivpn)
+- ![Mullvad לוגו](assets/img/vpn/mullvad.svg){ .twemoji } [Mullvad](#mullvad)
 
 </div>
 
@@ -147,7 +147,7 @@ IVPN [ממליצה](https://www.ivpn.net/wireguard/) להשתמש ב-WireGuard �
 
 #### :material-alert-outline:{ .pg-orange } העברת פורטים מרחוק
 
-IVPN previously supported port forwarding, but removed the option in [June 2023](https://www.ivpn.net/blog/gradual-removal-of-port-forwarding). חיסרון של תכונה זו עלולה להשפיע לרעה על יישומים מסוימים, במיוחד יישומי עמית לעמית כמו לקוחות טורנט.
+IVPN תמך בעבר בהעברת יציאות, אך הסיר את האפשרות ב[יוני 2023](https://www.ivpn.net/blog/gradual-removal-of-port-forwarding). חיסרון של תכונה זו עלולה להשפיע לרעה על יישומים מסוימים, במיוחד יישומי עמית לעמית כמו לקוחות טורנט.
 
 #### :material-check:{ .pg-green } לקוחות ניידים
 
@@ -279,13 +279,13 @@ VPN הוא חסר טעם אם הוא אפילו לא יכול לספק אבטח�
 **מינימום כדי לעמוד בדרישות:**
 
 - ערכות הצפנה חזקות: OpenVPN עם אימות SHA -256; RSA -2048 או לחיצת יד טובה יותר; AES -256 - GCM או הצפנת נתונים AES -256 - CBC.
-- Forward Secrecy.
+- סודיות קדימה.
 - פירסם ביקורות אבטחה מחברת צד שלישי מכובדת.
 
 **המקרה הטוב ביותר:**
 
 - הצפנה חזקה ביותר: RSA -4096.
-- Forward Secrecy.
+- סודיות קדימה.
 - ביקורות אבטחה מקיפות שפורסמו מחברת צד שלישי בעלת מוניטין.
 - תוכניות לחיפוש באגים ו/או תהליך גילוי - פגיעות מתואם.
 

@@ -3,7 +3,7 @@ title: 비공개 결제 수단
 icon: material/hand-coin
 ---
 
-There's a reason data about your buying habits is considered the holy grail of ad targeting: your purchases can leak a veritable treasure trove of data about you. Unfortunately, the current financial system is anti-privacy by design, enabling banks, other companies, and governments to easily trace transactions. Nevertheless, you have plenty of options when it comes to making payments privately.
+구매 습관은 해당 사용자에 대해 많은 것을 알려주기 때문에 사용자 맞춤 광고를 띄우는 용도로 많이 쓰입니다. 안타깝게도 현재 금융 시스템은 설계상 프라이버시를 보호하기 어렵기 때문에 은행, 정부 또는 타 회사가 거래를 쉽게 추적할 수 있습니다. 다행이도 프라이버시를 유지하면서 결제하는 방식이 다수 존재합니다.
 
 ## 현금
 
@@ -27,11 +27,11 @@ There's a reason data about your buying habits is considered the holy grail of a
 
 ### 오픈 마켓
 
-[암호화폐](../cryptocurrency.md)를 소지하고 있을 경우 오픈 마켓에서 기프트 카드를 구매할 수 있습니다. Some of these services offer ID verification options for higher limits, but they also allow accounts with just an email address. Basic limits start at $5,000-10,000 a day for basic accounts, and significantly higher limits for ID verified accounts (if offered).
+[암호화폐](../cryptocurrency.md)를 소지하고 있을 경우 오픈 마켓에서 기프트 카드를 구매할 수 있습니다. 몇 서비스들은 신분증을 제출하면 한도를 늘려주기도 하지만, 이메일만 사용하여 가입한 계정도 구매할 수 있도록 허용해주기도 합니다. 기본적인 한도는 주로 매일 5,000~10,000 달러 수준이고, 신분증을 제출해서 그 이상을 구매할 수도 있습니다.
 
-When buying gift cards online, there is usually a slight discount. Prepaid cards are usually sold online at face value or with a fee. If you buy prepaid cards and gift cards with cryptocurrencies, you should strongly prefer to pay with Monero which provides strong privacy, more on this below. Paying for a gift card with a traceable payment method negates the benefits a gift card can provide when purchased with cash or Monero.
+온라인으로 기프트 카드를 구매할 경우 약간의 할인이 적용되기도 합니다. 반면에 선불 카드들은 충전된 값만큼을 받거나 수수료를 포함하여 그 이상의 값으로 팔리기도 합니다. 선불 카드 또는 기프트 카드를 암호화폐로 구매할 경우, 강력한 프라이버시를 제공하는 모네로를 사용하는 것을 권장합니다. 해당 사항에 대한 내용은 아래에서 더 자세히 알아볼 수 있습니다. 기프트 카드를 추적하기 쉬운 결제 방식으로 구매한다면 현금 또는 모네로로 샀을 때와 달리 프라이버시를 유지하기 어렵습니다.
 
-- [Online Gift Card Marketplaces :material-arrow-right-drop-circle:](../financial-services.md#gift-card-marketplaces)
+- [온라인 기프트 카드 오픈 마켓 :material-arrow-right-drop-circle:](../financial-services.md#gift-card-marketplaces)
 
 ## Virtual Cards
 
@@ -77,8 +77,8 @@ Acquiring [cryptocurrencies](../cryptocurrency.md) like Monero privately can be 
 
 If you go this route, make sure to purchase Monero at different times and in different amounts than where you will spend it. If you purchase $5000 of Monero at an exchange and make a $5000 purchase in Monero an hour later, those actions could potentially be correlated by an outside observer regardless of which path the Monero took. Staggering purchases and purchasing larger amounts of Monero in advance to later spend on multiple smaller transactions can avoid this pitfall.
 
-## Additional Considerations
+## 추가 고려 사항
 
 When you're making a payment in-person with cash, make sure to keep your in-person privacy in mind. Security cameras are ubiquitous. Consider wearing non-distinct clothing and a face mask (such as a surgical mask or N95). Don’t sign up for rewards programs or provide any other information about yourself.
 
-When purchasing online, ideally you should do so over [Tor](tor-overview.md). However, many merchants don’t allow purchases with Tor. You can consider using a [recommended VPN](../vpn.md) (paid for with cash, gift card, or Monero), or making the purchase from a coffee shop or library with free Wi-Fi. If you are ordering a physical item that needs to be delivered, you will need to provide a delivery address. You should consider using a PO box, private mailbox, or work address.
+온라인에서 결제할 때 [Tor](tor-overview.md)를 사용하는 것이 제일 이상적입니다. 하지만 대부분 판매자들은 Tor를 통해서 구매하는 것을 허용하지 않습니다. 현금, 기프트 카드 또는 모네로로 [권장하는 VPN](../vpn.md)을 구매 후 사용하거나 카페 또는 도서관의 무료 Wi-Fi를 통해서 결제할 수 있습니다. 만약 실물 상품을 주문해야 한다면, 배송 주소를 입력해야 합니다. 이럴 경우에는 우체국 또는 개인 사서함, 아니면 회사 주소를 이용할 수 있습니다.

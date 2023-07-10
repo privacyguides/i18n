@@ -178,7 +178,7 @@ Nuestros sistemas operativos recomendados:
 
 - Deben ser de código abierto.
 - Deben recibir actualizaciones periódicas de software y del núcleo de Linux.
-- Las distribuciones Linux deben ser compatibles con [Wayland](os/linux-overview.md#Wayland).
+- Linux distributions must support [Wayland](os/linux-overview.md#wayland).
 - Debe soportar el cifrado de disco completo durante la instalación.
 - No debe congelar las publicaciones periódicas durante más de 1 año. Nosotros [no recomendamos](os/linux-overview.md#release-cycle) versiones de distribución "Long Term Support (Soporte a Largo Plazo)" o "stable (estable)" para uso de escritorio.
 - Debe ser compatible con una amplia variedad de hardware.
