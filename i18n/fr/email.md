@@ -88,7 +88,6 @@ Proton Mail a [du chiffrement OpenPGP intégré](https://proton.me/support/how-t
 
 Proton Mail prend également en charge la découverte de clés publiques via HTTP à partir de leur [Web Key Directory (WKD)](https://wiki.gnupg.org/WKD). Cela permet aux personnes qui n'utilisent pas Proton Mail de trouver facilement les clés OpenPGP des comptes Proton Mail, pour un E2EE inter-fournisseurs.
 
-
 #### :material-information-outline:{ .pg-blue } Résiliation du compte
 
 Si vous avez un compte payant et que votre [facture est impayée](https://proton.me/support/delinquency) après 14 jours, vous ne pourrez pas accéder à vos données. Après 30 jours, votre compte sera en impayé et ne recevra plus d'email entrant. Vous continuerez à être facturé pendant cette période.
@@ -153,13 +152,65 @@ Mailbox.org dispose d'une fonction d'héritage numérique pour toutes les offres
 
 ## D'autres fournisseurs
 
-Ces fournisseurs stockent vos emails avec un chiffrement à connaissance zéro, ce qui en fait d'excellentes options pour assurer la sécurité de vos emails stockés. Cependant, ils ne prennent pas en charge les normes de chiffrement interopérables pour des communications E2EE entre fournisseurs.
+Ces fournisseurs stockent vos emails avec un chiffrement à connaissance zéro, ce qui en fait d'excellentes options pour assurer la sécurité de vos emails stockés. However, they don't support interoperable encryption standards for E2EE communications between different providers.
 
 <div class="grid cards" markdown>
 
-- ![Logo Tutanota](assets/img/email/tutanota.svg){ .twemoji } [Tutanota](email.md#tutanota)
+- ![Skiff Mail logo](assets/img/email/skiff-mail.svg){ .twemoji } [Skiff Mail](email.md#skiff-mail)
+- ![Tutanota logo](assets/img/email/tutanota.svg){ .twemoji } [Tutanota](email.md#tutanota)
 
 </div>
+
+### Skiff Mail
+
+!!! recommendation
+
+    ![Skiff Mail logo](assets/img/email/skiff-mail.svg){ align=right }
+    
+    **Skiff Mail** is a web based email service with E2EE that began in 2020 that is based in San Francisco with developers worldwide. Accounts start with 10GB of free storage.
+    
+    [:octicons-home-16: Homepage](https://skiff.com/mail){ .md-button .md-button--primary }
+    [:octicons-eye-16:](https://app.skiff.com/docs/db93c237-84c2-4b2b-9588-19a7cd2cd45a#tyGksN9rkqbo2uGYASxsA6HVLjUoly/wTYK8tncTto8=){ .card-link title="Privacy Policy" }
+    [:octicons-info-16:](https://skiff.com/help){ .card-link title=Documentation}
+    [:octicons-code-16:](https://github.com/skiff-org/skiff-apps){ .card-link title="Source Code" }
+    
+    ??? downloads
+    
+        - [:simple-android: Android](https://play.google.com/store/apps/details?id=com.skemailmobileapp&pli=1)
+        - [:simple-appstore: iOS](https://apps.apple.com/us/app/skiff-mail/id1619168801)
+        - [:octicons-browser-16: Web](https://app.skiff.com/mail)
+
+Skiff has undergone a few [audits](https://skiff.com/transparency) during its development.
+
+#### :material-check:{ .pg-green } Domaines personnalisés et alias
+
+You can create up to 3 additional @skiff.com email aliases in addition to your primary account address on their free plan. [Custom domains](https://skiff.com/blog/custom-domain-setup) are available on their Pro or Business plan, and allow you to create unlimited aliases.
+
+#### :material-alert-outline:{ .pg-orange } Private Payment Methods
+
+Skiff Mail accepts cryptocurrency payments via Coinbase Commerce, including Bitcoin and Ethereum, but they do not accept our recommended [cryptocurrency](cryptocurrency.md), Monero. They also accept credit card payments via Stripe.
+
+#### :material-check:{ .pg-green } Sécurité du compte
+
+Skiff Mail supports TOTP two-factor authentication and hardware security keys using FIDO2 or U2F standards. The use of a hardware security key requires setting up TOTP two-factor authentication first.
+
+#### :material-check:{ .pg-green } Sécurité des données
+
+Skiff Mail has zero access encryption at rest for all of your data. Cela signifie que les messages et autres données stockés dans votre compte ne sont lisibles que par vous.
+
+#### :material-information-outline:{ .pg-blue } Chiffrement des emails
+
+Skiff Mail does not use OpenPGP. Emails are only encrypted with E2EE to other Skiff Mail users. Skiff does not have a "temporary inbox" or "passworded email" feature like some other providers have, so that external users cannot receive or reply to messages with E2EE.
+
+#### :material-information-outline:{ .pg-blue } Résiliation du compte
+
+Skiff Mail accounts do not expire, but unpaid accounts will be prompted to remove any enabled paid features (such as additional aliases) or renew their plan before the account can be used.
+
+#### :material-information-outline:{ .pg-blue } Fonctionnalités supplémentaires
+
+Skiff additionally offers [workspace productivity features](https://discuss.privacyguides.net/t/skiff-pages-drive-productivity-tools/11758/13), but we still prefer [alternative](productivity.md) options for collaborating and file sharing at this time.
+
+Skiff Mail does not offer a digital legacy feature.
 
 ### Tutanota
 

@@ -117,9 +117,10 @@ Com base em vários critérios, [recomendamos](dns.md#recommended-providers) uma
 
 <div class="grid cards" markdown>
 
-- ![Logótipo Proton Mail](assets/img/email/protonmail.svg){ .twemoji } [Proton Mail](email.md#proton-mail)
-- ![Logótipo Mailbox.org](assets/img/email/mailboxorg.svg){ .twemoji } [Mailbox.org](email.md#mailboxorg)
-- ![Logótipo Tutanota](assets/img/email/tutanota.svg){ .twemoji } [Tutanota](email.md#tutanota)
+- ![Proton Mail logo](assets/img/email/protonmail.svg){ .twemoji } [Proton Mail](email.md#proton-mail)
+- ![Mailbox.org logo](assets/img/email/mailboxorg.svg){ .twemoji } [Mailbox.org](email.md#mailboxorg)
+- ![Skiff Mail logo](assets/img/email/skiff-mail.svg){ .twemoji } [Skiff Mail](email.md#skiff-mail)
+- ![Tutanota logo](assets/img/email/tutanota.svg){ .twemoji } [Tutanota](email.md#tutanota)
 
 </div>
 

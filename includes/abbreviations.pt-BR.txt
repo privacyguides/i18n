@@ -8,7 +8,7 @@
 *[CLI]: Interface de Linha de Comando
 *[CSV]: Valores Separados por Vírgulas
 *[CVE]: Vulnerabilidades e Exposições Comuns
-*[digital legacy feature]: Legado Digital refere-se a recursos que permitem que você dê a outras pessoas acesso aos seus dados quando você morre
+Caraterística digital herdada: Legado Digital refere-se a recursos que permitem que você dê a outras pessoas acesso aos seus dados quando você morre
 *[DNSSEC]: Extensões de Segurança do Sistema de Nomes de Domínio
 *[DNS]: Sistema de Nomes de Domínio
 *[DoH]: DNS sobre HTTPS
@@ -24,7 +24,7 @@
 *[FCM]: Firebase Cloud Messaging
 *[FDE]: Criptografia total de disco
 *[FIDO]: Fast IDentity Online
-*[FS]: Forward Secrecy
+*[FS]: Sigilo de encaminhamento
 *[fork]: Um novo projeto de software criado copiando um projeto existente e desenvolvendo ele independentemente
 *[GDPR]: Regulamento Geral de Proteção de Dados
 *[GPG]: GNU Privacy Guard (implementação do PGP)
@@ -53,8 +53,8 @@
 *[MEID]: Mobile Equipment Identifier
 *[MFA]: Autenticação de Múltiplos Fatores
 *[NVMe]: Nonvolatile Memory Express
-*[NAT]: Network address translation
-*[NAT-PMP]: NAT Port Mapping Protocol
+*[NAT]: Tradução de endereços de rede
+*[NAT-PMP]: Protocolo de mapeamento de portas NAT
 *[NTP]: Network Time Protocol
 *[OCI]: Open Container Initiative
 *[OCSP]: Protocolo de Status de Certificado Online

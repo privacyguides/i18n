@@ -1,6 +1,6 @@
 ---
 meta_title: "Como As VPNs Protegem Sua Privacidade? Nossa Visão Geral Sobre VPN — Privacy Guides"
-title: VPN Overview
+title: Visão geral da VPN
 icon: material/vpn
 description: As Redes Privadas Virtuais transferem o risco do seu ISP para um terceiro em quem você confia. Você deve ter isso em mente.
 ---
@@ -17,11 +17,11 @@ Uma VPN pode ajudar, visto que transfere a confiança para um servidor em outro 
 
 VPNs não podem criptografar dados fora da conexão entre o seu dispositivo e o servidor VPN. Provedores de VPN podem ver e modificar seu tráfego da mesma forma que seu provedor de internet pode. E não há nenhuma maneira de verificar as políticas de "não registro" dos provedores de VPN.
 
-No entanto, eles ocultam seu IP real de um serviço de terceiros, desde que não haja vazamentos de IP. They help you blend in with others and mitigate IP based tracking.
+No entanto, eles ocultam seu IP real de um serviço de terceiros, desde que não haja vazamentos de IP. Ajudam a misturar-se com os outros e a diminuir o rastreio baseado no IP.
 
 ## Quando não deveria usar uma VPN?
 
-Using a VPN in cases where you're using your [known identity](common-threats.md#common-misconceptions) is unlikely be useful.
+É pouco provável que a utilização de uma VPN seja útil nos casos em que utiliza a sua [identidade](common-threats.md#common-misconceptions).
 
 Doing so may trigger spam and fraud detection systems, such as if you were to log into your bank's website.
 

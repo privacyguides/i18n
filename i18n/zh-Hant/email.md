@@ -88,7 +88,6 @@ Proton Mail 網頁郵件整合了 [OpenPGP 加密](https://proton.me/support/how
 
 Proton Mail 還支持通過 HTTP 的 [Web 密鑰目錄（ WKD ）](https://wiki.gnupg.org/WKD)發現公鑰。 這可讓非 Proton Mail 用戶可以輕鬆找到 Proton Mail 帳戶的 OpenPGP 金鑰，以利跨供應商進行 E2EE 。
 
-
 #### :material-information-outline:{ .pg-blue } 帳戶終止
 
 若您的付費帳戶逾期 14天[未付款](https://proton.me/support/delinquency) ， 您將無法讀取自己的資料。 30天後，您的帳戶將標記為拖欠狀態，無法再收取郵件。 在此期間，我們會繼續向你收費。
@@ -153,13 +152,65 @@ Mailbox.org 所有方案都提供了數位遺產功能。 你可以選擇是否�
 
 ## 更多供應商
 
-這些提供商以零知識加密方式儲存您的電子郵件，使其成為保護儲存電子郵件安全的絕佳選擇。 但是，它們不支持供應商之間可相互操作 E2EE 通信的加密標準。
+這些提供商以零知識加密方式儲存您的電子郵件，使其成為保護儲存電子郵件安全的絕佳選擇。 However, they don't support interoperable encryption standards for E2EE communications between different providers.
 
 <div class="grid cards" markdown>
 
+- ![Skiff Mail logo](assets/img/email/skiff-mail.svg){ .twemoji } [Skiff Mail](email.md#skiff-mail)
 - ![Tutanota logo](assets/img/email/tutanota.svg){ .twemoji } [Tutanota](email.md#tutanota)
 
 </div>
+
+### Skiff Mail
+
+!!! recommendation
+
+    ![Skiff Mail logo](assets/img/email/skiff-mail.svg){ align=right }
+    
+    **Skiff Mail** is a web based email service with E2EE that began in 2020 that is based in San Francisco with developers worldwide. Accounts start with 10GB of free storage.
+    
+    [:octicons-home-16: Homepage](https://skiff.com/mail){ .md-button .md-button--primary }
+    [:octicons-eye-16:](https://app.skiff.com/docs/db93c237-84c2-4b2b-9588-19a7cd2cd45a#tyGksN9rkqbo2uGYASxsA6HVLjUoly/wTYK8tncTto8=){ .card-link title="Privacy Policy" }
+    [:octicons-info-16:](https://skiff.com/help){ .card-link title=Documentation}
+    [:octicons-code-16:](https://github.com/skiff-org/skiff-apps){ .card-link title="Source Code" }
+    
+    ??? downloads
+    
+        - [:simple-android: Android](https://play.google.com/store/apps/details?id=com.skemailmobileapp&pli=1)
+        - [:simple-appstore: iOS](https://apps.apple.com/us/app/skiff-mail/id1619168801)
+        - [:octicons-browser-16: Web](https://app.skiff.com/mail)
+
+Skiff has undergone a few [audits](https://skiff.com/transparency) during its development.
+
+#### :material-check:{ .pg-green } Custom Domains and Aliases
+
+You can create up to 3 additional @skiff.com email aliases in addition to your primary account address on their free plan. [Custom domains](https://skiff.com/blog/custom-domain-setup) are available on their Pro or Business plan, and allow you to create unlimited aliases.
+
+#### :material-alert-outline:{ .pg-orange } Private Payment Methods
+
+Skiff Mail accepts cryptocurrency payments via Coinbase Commerce, including Bitcoin and Ethereum, but they do not accept our recommended [cryptocurrency](cryptocurrency.md), Monero. They also accept credit card payments via Stripe.
+
+#### :material-check:{ .pg-green } 帳戶安全
+
+Skiff Mail supports TOTP two-factor authentication and hardware security keys using FIDO2 or U2F standards. The use of a hardware security key requires setting up TOTP two-factor authentication first.
+
+#### :material-check:{ .pg-green } 資料安全
+
+Skiff Mail has zero access encryption at rest for all of your data. 這意味著儲存在您帳戶中的訊息和其他資料只有您能讀取。
+
+#### :material-information-outline:{ .pg-blue } 電子郵件加密
+
+Skiff Mail does not use OpenPGP. Emails are only encrypted with E2EE to other Skiff Mail users. Skiff does not have a "temporary inbox" or "passworded email" feature like some other providers have, so that external users cannot receive or reply to messages with E2EE.
+
+#### :material-information-outline:{ .pg-blue } 帳戶終止
+
+Skiff Mail accounts do not expire, but unpaid accounts will be prompted to remove any enabled paid features (such as additional aliases) or renew their plan before the account can be used.
+
+#### :material-information-outline:{ .pg-blue } 額外功能
+
+Skiff additionally offers [workspace productivity features](https://discuss.privacyguides.net/t/skiff-pages-drive-productivity-tools/11758/13), but we still prefer [alternative](productivity.md) options for collaborating and file sharing at this time.
+
+Skiff Mail does not offer a digital legacy feature.
 
 ### Tutanota
 

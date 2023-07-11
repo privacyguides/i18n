@@ -88,7 +88,6 @@ Proton Mail ha [integrado la encriptación OpenPGP](https://proton.me/support/ho
 
 Proton Mail también soporta el descubrimiento de claves públicas a través de HTTP desde su [Web Key Directory (WKD)](https://wiki.gnupg.org/WKD). Esto permite las personas quienes no utilizan Proton Mail a encontrar fácilmente las claves OpenPGP de las cuentas de Proton Mail, para E2EE entre proveedores.
 
-
 #### :material-information-outline:{ .pg-blue } Cancelación de Cuenta
 
 Si tienes una cuenta de pago y tu factura [no esta paga](https://proton.me/support/delinquency) después de 14 días, no podrá acceder a tus datos. Transcurridos 30 días, tu cuenta se convertirá en morosa y no recibirás correo entrante. Seguirás siendo facturando durante este periodo.
@@ -153,13 +152,65 @@ Mailbox.org tiene una función de legado digital para todos los planes. Puedes e
 
 ## Más Proveedores
 
-Estos proveedores almacenan tus correos electrónicos con cifrado de cero-conocimiento, lo que los convierte en excelentes opciones para mantener seguros tus correos electrónicos almacenados. Sin embargo, no admiten normas de cifrado inter operables para las comunicaciones E2EE entre proveedores.
+Estos proveedores almacenan tus correos electrónicos con cifrado de cero-conocimiento, lo que los convierte en excelentes opciones para mantener seguros tus correos electrónicos almacenados. However, they don't support interoperable encryption standards for E2EE communications between different providers.
 
 <div class="grid cards" markdown>
 
+- ![Skiff Mail logo](assets/img/email/skiff-mail.svg){ .twemoji } [Skiff Mail](email.md#skiff-mail)
 - ![Tutanota logo](assets/img/email/tutanota.svg){ .twemoji } [Tutanota](email.md#tutanota)
 
 </div>
+
+### Skiff Mail
+
+!!! recommendation
+
+    ![Skiff Mail logo](assets/img/email/skiff-mail.svg){ align=right }
+    
+    **Skiff Mail** is a web based email service with E2EE that began in 2020 that is based in San Francisco with developers worldwide. Accounts start with 10GB of free storage.
+    
+    [:octicons-home-16: Homepage](https://skiff.com/mail){ .md-button .md-button--primary }
+    [:octicons-eye-16:](https://app.skiff.com/docs/db93c237-84c2-4b2b-9588-19a7cd2cd45a#tyGksN9rkqbo2uGYASxsA6HVLjUoly/wTYK8tncTto8=){ .card-link title="Privacy Policy" }
+    [:octicons-info-16:](https://skiff.com/help){ .card-link title=Documentation}
+    [:octicons-code-16:](https://github.com/skiff-org/skiff-apps){ .card-link title="Source Code" }
+    
+    ??? downloads
+    
+        - [:simple-android: Android](https://play.google.com/store/apps/details?id=com.skemailmobileapp&pli=1)
+        - [:simple-appstore: iOS](https://apps.apple.com/us/app/skiff-mail/id1619168801)
+        - [:octicons-browser-16: Web](https://app.skiff.com/mail)
+
+Skiff has undergone a few [audits](https://skiff.com/transparency) during its development.
+
+#### :material-check:{ .pg-green } Dominios Personalizados y Alias
+
+You can create up to 3 additional @skiff.com email aliases in addition to your primary account address on their free plan. [Custom domains](https://skiff.com/blog/custom-domain-setup) are available on their Pro or Business plan, and allow you to create unlimited aliases.
+
+#### :material-alert-outline:{ .pg-orange } Private Payment Methods
+
+Skiff Mail accepts cryptocurrency payments via Coinbase Commerce, including Bitcoin and Ethereum, but they do not accept our recommended [cryptocurrency](cryptocurrency.md), Monero. They also accept credit card payments via Stripe.
+
+#### :material-check:{ .pg-green } Seguridad de Cuenta
+
+Skiff Mail supports TOTP two-factor authentication and hardware security keys using FIDO2 or U2F standards. The use of a hardware security key requires setting up TOTP two-factor authentication first.
+
+#### :material-check:{ .pg-green } Seguridad de los datos
+
+Skiff Mail has zero access encryption at rest for all of your data. Esto significa que sólo tú puedes leer los mensajes y otros datos almacenados en tu cuenta.
+
+#### :material-information-outline:{ .pg-blue } Cifrado de correo electrónico
+
+Skiff Mail does not use OpenPGP. Emails are only encrypted with E2EE to other Skiff Mail users. Skiff does not have a "temporary inbox" or "passworded email" feature like some other providers have, so that external users cannot receive or reply to messages with E2EE.
+
+#### :material-information-outline:{ .pg-blue } Cancelación de la cuenta
+
+Skiff Mail accounts do not expire, but unpaid accounts will be prompted to remove any enabled paid features (such as additional aliases) or renew their plan before the account can be used.
+
+#### :material-information-outline:{ .pg-blue } Funciones adicionales
+
+Skiff additionally offers [workspace productivity features](https://discuss.privacyguides.net/t/skiff-pages-drive-productivity-tools/11758/13), but we still prefer [alternative](productivity.md) options for collaborating and file sharing at this time.
+
+Skiff Mail does not offer a digital legacy feature.
 
 ### Tutanota
 
@@ -199,7 +250,7 @@ Tutanota solo acepta directamente tarjetas de crédito y PayPal, sin embargo, la
 
 Tutanota soporta [autenticación de dosble factor](https://tutanota.com/faq#2fa) con TOTP o U2F.
 
-#### :material-check:{ .pg-green } Seguridad de los datos
+#### :material-check:{ .pg-green } Seguridad de Datos
 
 Tutanota dispone de [cifrado de acceso cero en reposo](https://tutanota.com/faq#what-encrypted) para sus correos electrónicos, [contactos de la libreta de direcciones](https://tutanota.com/faq#encrypted-address-book), y [calendarios](https://tutanota.com/faq#calendar). Esto significa que sólo tú puedes leer los mensajes y otros datos almacenados en tu cuenta.
 
@@ -207,11 +258,11 @@ Tutanota dispone de [cifrado de acceso cero en reposo](https://tutanota.com/faq#
 
 Tutanota [no utiliza OpenPGP](https://www.tutanota.com/faq/#pgp). Las cuentas de Tutanota sólo pueden recibir correos electrónicos cifrados de cuentas de correo electrónico que no son de tutanota cuando se envían a través de un [buzón temporal de Tutanota](https://www.tutanota.com/howto/#encrypted-email-external).
 
-#### :material-information-outline:{ .pg-blue } Cancelación de la cuenta
+#### :material-information-outline:{ .pg-blue } Cancelación de Cuenta
 
 Tutanota eliminará [las cuentas gratuitas inactivas](https://tutanota.com/faq#inactive-accounts) después de seis meses. Puedes reutilizar una cuenta gratuita desactivada si pagas.
 
-#### :material-information-outline:{ .pg-blue } Funciones adicionales
+#### :material-information-outline:{ .pg-blue } Funcionalidad Adicional
 
 Tutanota ofrece la versión empresarial [a las organizaciones sin ánimo de lucro](https://tutanota.com/blog/posts/secure-email-for-non-profit) de forma gratuita o con un importante descuento.
 
