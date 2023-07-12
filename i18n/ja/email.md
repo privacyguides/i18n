@@ -152,7 +152,7 @@ Mailbox.orgの全てのプランにはデジタル遺産機能があります。
 
 ## その他のプロバイダ
 
-These providers store your emails with zero-knowledge encryption, making them great options for keeping your stored emails secure. However, they don't support interoperable encryption standards for E2EE communications between different providers.
+これらのプロバイダは、あなたの電子メールをゼロ知識暗号化で保存するため、保存されている電子メールを安全に保つのに最適なオプションです。 ただし、異なるプロバイダ間のE2EE通信では、相互運用可能な暗号化規格をサポートしていません。
 
 <div class="grid cards" markdown>
 
@@ -210,7 +210,7 @@ Skiff Mail accounts do not expire, but unpaid accounts will be prompted to remov
 
 Skiff additionally offers [workspace productivity features](https://discuss.privacyguides.net/t/skiff-pages-drive-productivity-tools/11758/13), but we still prefer [alternative](productivity.md) options for collaborating and file sharing at this time.
 
-Skiff Mail does not offer a digital legacy feature.
+Skiff Mailにはデジタル遺産の機能はありません。
 
 ### Tutanota
 
@@ -322,13 +322,13 @@ Using an aliasing service requires trusting both your email provider and your al
 
 The number of shared aliases (which end in a shared domain like @anonaddy.me) that you can create is limited to 20 on AnonAddy's free plan and 50 on their $12/year plan. You can create unlimited standard aliases (which end in a domain like @[username].anonaddy.com or a custom domain on paid plans), however, as previously mentioned, this can be detrimental to privacy because people can trivially tie your standard aliases together based on the domain name alone. Unlimited shared aliases are available for $36/year.
 
-Notable free features:
+注目すべき無料の機能：
 
-- [x] 20 Shared Aliases
-- [x] Unlimited Standard Aliases
-- [ ] No Outgoing Replies
-- [x] 2 Recipient Mailboxes
-- [x] Automatic PGP Encryption
+- [x] 20個の共有エイリアス
+- [x] 無制限の標準エイリアス
+- [ ] 返信はできません
+- [x] 2個の受信用メールボックス
+- [x] 自動PGP暗号化
 
 ### SimpleLogin
 
@@ -338,12 +338,12 @@ Notable free features:
     
     **SimpleLogin** is a free service which provides email aliases on a variety of shared domain names, and optionally provides paid features like unlimited aliases and custom domains.
     
-    [:octicons-home-16: Homepage](https://simplelogin.io){ .md-button .md-button--primary }
-    [:octicons-eye-16:](https://simplelogin.io/privacy/){ .card-link title="Privacy Policy" }
-    [:octicons-info-16:](https://simplelogin.io/docs/){ .card-link title=Documentation}
-    [:octicons-code-16:](https://github.com/simple-login){ .card-link title="Source Code" }
+    [:octicons-home-16: ホームページ](https://simplelogin.io){ .md-button .md-button--primary }
+    [:octicons-eye-16:](https://simplelogin.io/privacy/){ .card-link title="プライバシーポリシー" }
+    [:octicons-info-16:](https://simplelogin.io/docs/){ .card-link title=ドキュメント}
+    [:octicons-code-16:](https://github.com/simple-login){ .card-link title="ソースコード" }
     
-    ??? downloads
+    ??? ダウンロード
     
         - [:simple-googleplay: Google Play](https://play.google.com/store/apps/details?id=io.simplelogin.android)
         - [:simple-appstore: App Store](https://apps.apple.com/app/id1494359858)
@@ -353,15 +353,15 @@ Notable free features:
         - [:simple-microsoftedge: Edge](https://microsoftedge.microsoft.com/addons/detail/simpleloginreceive-sen/diacfpipniklenphgljfkmhinphjlfff)
         - [:simple-safari: Safari](https://apps.apple.com/app/id1494051017)
 
-SimpleLogin was [acquired by Proton AG](https://proton.me/news/proton-and-simplelogin-join-forces) as of April 8, 2022. If you use Proton Mail for your primary mailbox, SimpleLogin is a great choice. As both products are now owned by the same company you now only have to trust a single entity. We also expect that SimpleLogin will be more tightly integrated with Proton's offerings in the future. SimpleLogin continues to support forwarding to any email provider of your choosing. Securitum [audited](https://simplelogin.io/blog/security-audit/) SimpleLogin in early 2022 and all issues [were addressed](https://simplelogin.io/audit2022/web.pdf).
+SimpleLoginは、2022年4月8日付で[Proton AGに買収](https://proton.me/news/proton-and-simplelogin-join-forces)されました。 Proton Mailをプライマリメールボックスに使っている場合、SimpleLoginは素晴らしい選択です。 両方の製品が同じ会社によって所有されているので、単一のエンティティのみを信頼するだけです。 また、将来的にはSimpleLoginがProtonの製品とより緊密に統合されることも期待されています。 引き続きSimpleLoginは、希望のメールプロバイダへの転送をサポートします。 Securitum は2022年初めにSimpleLoginを[監査](https://simplelogin.io/blog/security-audit/)し、すべての問題に[対処](https://simplelogin.io/audit2022/web.pdf)しました。
 
-You can link your SimpleLogin account in the settings with your Proton account. If you have the Proton Unlimited, Business, or Visionary Plan, you will have SimpleLogin Premium for free.
+設定でSimpleLoginアカウントをProtonアカウントとリンクさせることが可能です。 Proton Unlimited、Business、またはVisionaryプランをお持ちの場合は、SimpleLogin Premium を無料で利用できます。
 
-Notable free features:
+注目すべき無料の機能：
 
-- [x] 10 Shared Aliases
-- [x] Unlimited Replies
-- [x] 1 Recipient Mailbox
+- [x] 10個の共有エイリアス
+- [x] 無制限の返信
+- [x] 1個の受信用メールボックス
 
 ## Self-Hosting Email
 
@@ -403,7 +403,7 @@ For a more manual approach we've picked out these two articles:
 
 We regard these features as important in order to provide a safe and optimal service. You should consider whether the provider which has the features you require.
 
-**Minimum to Qualify:**
+**最低条件：**
 
 - Encrypts email account data at rest with zero-access encryption.
 - Export capability as [Mbox](https://en.wikipedia.org/wiki/Mbox) or individual .eml with [RFC5322](https://datatracker.ietf.org/doc/rfc5322/) standard.
@@ -425,7 +425,7 @@ We regard these features as important in order to provide a safe and optimal ser
 
 私たちは、推奨するプロバイダーができるだけデータを収集しないことを望んでいます。
 
-**Minimum to Qualify:**
+**最低条件：**
 
 - Protect sender's IP address. Filter it from showing in the `Received` header field.
 - Don't require personally identifiable information (PII) besides a username and a password.
@@ -463,14 +463,14 @@ We regard these features as important in order to provide a safe and optimal ser
 - Support for hardware authentication, i.e. U2F and [WebAuthn](https://en.wikipedia.org/wiki/WebAuthn). U2F and WebAuthn are more secure as they use a private key stored on a client-side hardware device to authenticate people, as opposed to a shared secret that is stored on the web server and on the client side when using TOTP. Furthermore, U2F and WebAuthn are more resistant to phishing as their authentication response is based on the authenticated [domain name](https://en.wikipedia.org/wiki/Domain_name).
 - [DNS Certification Authority Authorization (CAA) Resource Record](https://tools.ietf.org/html/rfc6844) in addition to DANE support.
 - Implementation of [Authenticated Received Chain (ARC)](https://en.wikipedia.org/wiki/Authenticated_Received_Chain), this is useful for people who post to mailing lists [RFC8617](https://tools.ietf.org/html/rfc8617).
-- Bug-bounty programs and/or a coordinated vulnerability-disclosure process.
+- バグ報奨金プログラムおよび/または協調的な脆弱性開示プロセス。
 - Website security standards such as:
     - [Content Security Policy (CSP)](https://en.wikipedia.org/wiki/Content_Security_Policy)
     - [RFC9163 Expect-CT](https://datatracker.ietf.org/doc/rfc9163/)
 
 ### 信頼
 
-You wouldn't trust your finances to someone with a fake identity, so why trust them with your email? We require our recommended providers to be public about their ownership or leadership. We also would like to see frequent transparency reports, especially in regard to how government requests are handled.
+You wouldn't trust your finances to someone with a fake identity, so why trust them with your email? 推奨されるプロバイダーには、自社の所有権やリーダーシップについて公表することが求められます。 また、特に政府からの要請がどのように処理されるかについて、透明性の高い報告が頻繁に行われることを望んでいます。
 
 **最低条件：**
 
@@ -483,11 +483,11 @@ You wouldn't trust your finances to someone with a fake identity, so why trust t
 
 ### マーケティング
 
-With the email providers we recommend we like to see responsible marketing.
+私たちが推奨する電子メールプロバイダーには、責任あるマーケティングを求めます。
 
 **最低条件：**
 
-- Must self-host analytics (no Google Analytics, Adobe Analytics, etc.). The provider's site must also comply with [DNT (Do Not Track)](https://en.wikipedia.org/wiki/Do_Not_Track) for those who wish to opt-out.
+- アナリティクスを自己ホストする必要があります。（つまり、GoogleアナリティクスやAdobe Analyticsなどは不可） プロバイダーのサイトは、オプトアウトを希望するユーザーのために [DNT (Do Not Track)](https://en.wikipedia.org/wiki/Do_Not_Track) に準拠しなければならない。
 
 無責任なマーケティングをしてはいけない：
 

@@ -59,18 +59,6 @@ Privacy.com facilita por defecto a su banco información sobre los comercios en 
 
 Estos servicios le permiten comprar tarjetas de regalo para una gran variedad de comercios en línea con [criptomonedas](cryptocurrency.md). Algunos de estos servicios ofrecen opciones de verificación de identidad para límites más altos, pero también permiten cuentas con sólo una dirección de correo electrónico. Los límites básicos suelen comenzar en 5.000-10.000 dólares al día para las cuentas básicas, y límites significativamente más altos para las cuentas verificadas mediante un documento identificativo (si se ofrecen).
 
-### Cake Pay
-
-!!! recommendation
-
-    ![CakePay logo](assets/img/financial-services/cakepay.svg){ align=right }
-    
-    **Cake Pay** le permite comprar tarjetas regalo y productos relacionados con Monero. Las compras en comercios de EE. UU. están disponibles en la aplicación móvil de Cake Wallet, mientras que la aplicación web de Cake Pay incluye una amplia selección de comercios de todo el mundo.
-    
-    [:octicons-home-16: Página Principal](https://cakepay.com/){ .md-button .md-button--primary }
-    [:octicons-eye-16:](https://ionia.docsend.com/view/jhjvdn7qq7k3ukwt){ .card-link title="Política de Privacidad" }
-    [:octicons-info-16:](https://guides.cakewallet.com/){ .card-link title=Documentación}
-
 ### CoinCards
 
 !!! recommendation

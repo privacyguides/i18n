@@ -81,7 +81,7 @@ SearXNG 是您和它所聚合的搜尋引擎之間的代理。 您的搜尋查�
     [:octicons-eye-16:](https://www.startpage.com/en/privacy-policy){ .card-link title="Privacy Policy" }
     [:octicons-info-16:](https://support.startpage.com/hc/en-us/categories/4481917470356-Startpage-Search-Engine){ .card-link title=Documentation}
 
-!!! warning "警告"
+!!! warning
 
     Startpage 定期限制服務對某些 IP位址的存取，例如為 VPN 或Tor 保留的IP。 [DuckDuckGo](#duckduckgo) 和 [Brave Search](#brave-search) 是更友好的選項，如果您的威脅模型需要向搜索提供商隱藏您的IP位址。
 

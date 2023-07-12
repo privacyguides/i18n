@@ -59,18 +59,6 @@ Privacy.com מספק מידע על הסוחרים מהם אתה רוכש לבנ�
 
 שירותים אלו מאפשרים לך לרכוש כרטיסי מתנה עבור מגוון סוחרים באינטרנט באמצעות [מטבע קריפטוגרפי](cryptocurrency.md). חלק מהשירותים הללו מציעים אפשרויות אימות מזהה עבור מגבלות גבוהות יותר, אך הם גם מאפשרים חשבונות עם כתובת אימייל בלבד. מגבלות בסיסיות מתחילות בדרך כלל מ-$5,000-10,000 ליום עבור חשבונות בסיסיים, ומגבלות גבוהות משמעותית עבור חשבונות מאומתים מזהים (אם מוצעים).
 
-### Cake Pay
-
-!!! recommendation
-
-    ![CakePay לוגו](assets/img/financial-services/cakepay.svg){ align=right }
-    
-    **Cake Pay** מאפשרת לכם לרכוש כרטיסי מתנה ומוצרים נלווים עם מונרו. רכישות עבור סוחרים בארה"ב זמינות באפליקציית Cake Wallet לנייד, בעוד שאפליקציית האינטרנט Cake Pay כוללת מבחר רחב של סוחרים גלובליים.
-    
-    [:octicons-home-16: דף הבית](https://cakepay.com/){ .md-button .md-button--primary }
-    [:octicons-eye-16:](https://ionia.docsend.com/view/jhjvdn7qq7k3ukwt){ .card-link title="מדיניות פרטיות" }
-    [:octicons-info-16:](https://guides.cakewallet.com/){ .card-link title=תיעוד}
-
 ### CoinCards
 
 !!! recommendation

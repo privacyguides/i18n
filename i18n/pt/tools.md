@@ -164,8 +164,7 @@ Com base em vários critérios, [recomendamos](dns.md#recommended-providers) uma
 
 <div class="grid cards" markdown>
 
-- ![Logótipo Cake Pay](assets/img/financial-services/cakepay.svg){ .twemoji } [Cake Pay](financial-services.md#cake-pay)
-- ![Logótipo CoinCards](assets/img/financial-services/coincards.svg){ .twemoji } [CoinCards](financial-services.md#coincards)
+- ![CoinCards logo](assets/img/financial-services/coincards.svg){ .twemoji } [CoinCards](financial-services.md#coincards)
 
 </div>
 

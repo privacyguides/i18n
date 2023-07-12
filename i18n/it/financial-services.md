@@ -59,18 +59,6 @@ Privacy.com fornisce di default alla vostra banca informazioni sui commercianti 
 
 Questi servizi ti consentono di acquistare carte regalo per una varietà di commercianti online con [criptovalute](cryptocurrency.md). Alcuni di questi servizi offrono limiti più elevati dopo aver verificato la propria identità, ma consentono la creazione di account utilizzando soltanto l'email. I limiti di base partono in genere dai 5.000-10.000 dollari al giorno per i conti base, mentre ci sono limiti significativamente più alti per i conti con l'identità verificata (se offerti).
 
-### Cake Pay
-
-!!! recommendation
-
-    ![Logo CakePay](assets/img/financial-services/cakepay.svg){ align=right }
-    
-    **Cake Pay** permette di acquistare carte regalo e prodotti simili con Monero. Gli acquisti per gli esercenti statunitensi sono disponibili nell'app mobile Cake Wallet, mentre l'app web Cake Pay include un'ampia selezione di esercenti globali.
-    
-    [:octicons-home-16: Pagina Principale](https://cakepay.com/){ .md-button .md-button--primary }
-    [:octicons-eye-16:](https://ionia.docsend.com/view/jhjvdn7qq7k3ukwt){ .card-link title="Politica sulla Privacy" }
-    [:octicons-info-16:](https://guides.cakewallet.com/){ .card-link title=Documentazione}
-
 ### CoinCards
 
 !!! recommendation

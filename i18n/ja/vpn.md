@@ -284,14 +284,14 @@ A VPN is pointless if it can't even provide adequate security. We require all ou
 
 **最良の場合：**
 
-- Strongest Encryption: RSA-4096.
-- Forward Secrecy.
-- Comprehensive published security audits from a reputable third-party firm.
-- Bug-bounty programs and/or a coordinated vulnerability-disclosure process.
+- 強力な暗号化：RSA-4096
+- 前方秘匿性
+- 評判の良い第三者機関による包括的な公開セキュリティ監査。
+- バグ報奨金プログラムおよび/または協調的な脆弱性開示プロセス。
 
 ### 信頼
 
-You wouldn't trust your finances to someone with a fake identity, so why trust them with your internet data? We require our recommended providers to be public about their ownership or leadership. We also would like to see frequent transparency reports, especially in regard to how government requests are handled.
+あなたは偽の身分証を持つ人物に自分の財政を託すことはないでしょう、それではなぜインターネットデータではそれらを信頼するのですか？ 推奨されるプロバイダーには、自社の所有権やリーダーシップについて公表することが求められます。 また、特に政府からの要請がどのように処理されるかについて、透明性の高い報告が頻繁に行われることを望んでいます。
 
 **最低条件：**
 
@@ -304,7 +304,7 @@ You wouldn't trust your finances to someone with a fake identity, so why trust t
 
 ### マーケティング
 
-私たちが推薦するVPNプロバイダーには、責任あるマーケティングを求めます。
+私たちが推奨するVPNプロバイダーには、責任あるマーケティングを求めます。
 
 **最低条件：**
 
@@ -327,4 +327,4 @@ You wouldn't trust your finances to someone with a fake identity, so why trust t
 
 ### 追加機能
 
-While not strictly requirements, there are some factors we looked into when determining which providers to recommend. These include adblocking/tracker-blocking functionality, warrant canaries, multihop connections, excellent customer support, the number of allowed simultaneous connections, etc.
+厳密な要件ではありませんが、推奨するプロバイダーを決定する際に考慮した要素がいくつかあります。 これらには、広告ブロック/トラッカーブロッキング機能、令状のカナリア、マルチホップ接続、優れたカスタマーサポート、許可される同時接続数などが含まれます。

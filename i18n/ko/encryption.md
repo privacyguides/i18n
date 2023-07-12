@@ -6,19 +6,18 @@ description: 데이터 암호화는 데이터에 접근 가능한 사람을 통�
 cover: encryption.png
 ---
 
-데이터 암호화는 데이터에 접근 가능한 사람을 통제하는 유일한 방법입니다. If you are currently not using encryption software for your hard disk, emails or files, you should pick an option here.
+데이터 암호화는 데이터에 접근 가능한 사람을 통제하는 유일한 방법입니다. 만약 아직 하드 디스크, 이메일, 파일들을 암호화하지 않았다면 여기에 있는 프로그램을 사용하는것을 추천합니다.
 
 ## Multi-platform
 
-The options listed here are multi-platform and great for creating encrypted backups of your data.
+여기에 나열된 프로그램들은 다양한 플랫폼에서 사용이 가능하며 암호화된 데이터 백업등을 생성하는데에 사용할 수 닜습니다.
 
 ### Cryptomator (클라우드)
 
 !!! recommendation
 
-    ![Cryptomator logo](assets/img/encryption-software/cryptomator.svg){ align=right }
-    
-    **Cryptomator** is an encryption solution designed for privately saving files to any cloud provider. It allows you to create vaults that are stored on a virtual drive, the contents of which are encrypted and synced with your cloud storage provider.
+    ![Cryptomator 로고](assets/img/encryption-software/cryptomator.svg){ align=right }
+    **Cryptomator**는 다양한 클라우드와 호환되도록 설계된 파일 암호화 솔루션입니다. 가상 드라이브에 Vault라고 불리는 파일 저장소를 생성할 수 있고, 여기에 저장된 파일들은 암호화되며 자동으로 클라우드와 동기화됩니다.
     
     [:octicons-home-16: 홈페이지](https://cryptomator.org){ .md-button .md-button--primary }
     [:octicons-eye-16:](https://cryptomator.org/privacy){ .card-link title="프라이버시 정책" }

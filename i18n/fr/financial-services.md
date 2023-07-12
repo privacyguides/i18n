@@ -59,18 +59,6 @@ Privacy.com transmet par défaut à votre banque des informations sur les commer
 
 Ces services vous permettent d'acheter des cartes-cadeaux pour une variété de marchands en ligne avec de la [crypto-monnaie](cryptocurrency.md). Certains de ces services proposent des options de vérification d'identité pour des limites plus élevées, mais ils permettent également d'ouvrir des comptes avec une simple adresse email. Les limites de base commencent généralement à 5 000 - 10 000 $ par jour pour les comptes de base, et des limites nettement plus élevées sont proposées pour les comptes à identité vérifiée (le cas échéant).
 
-### Cake Pay
-
-!!! recommendation
-
-    ![Logo CakePay](assets/img/financial-services/cakepay.svg){ align=right }
-    
-    **Cake Pay** vous permet d'acheter des cartes-cadeaux et des produits connexes avec du Monero. Les achats auprès de commerçants américains sont disponibles dans l'application mobile Cake Wallet, tandis que l'application web Cake Pay comprend une large sélection de commerçants internationaux.
-    
-    [:octicons-home-16: Page d'accueil](https://cakepay.com/){ .md-button .md-button--primary }
-    [:octicons-eye-16:](https://ionia.docsend.com/view/jhjvdn7qq7k3ukwt){ .card-link title="Politique de confidentialité" }
-    [:octicons-info-16:](https://guides.cakewallet.com/){ .card-link title=Documentation}
-
 ### CoinCards
 
 !!! recommendation

@@ -59,18 +59,6 @@ Privacy.com 預設情況下將您購買的商家資訊提供給您的銀行。 �
 
 這些服務可接受 [加密貨幣](cryptocurrency.md)來購買各種商家禮品卡。 其中一些服務提供更高限額的身份驗證選項，它們也只淮許有電子郵件地址的帳戶。 基本帳戶的限額為每天 5,000-10,000 美元，身份驗證帳戶的限額則更高（如果提供）。
 
-### Cake Pay
-
-!!! recommendation
-
-    ![CakePay 標誌](assets/img/financial-services/cakepay.svg){align=right }
-    
-    **Cake Pay** 可用 Monero 購買禮品卡和相關產品。 Cake Wallet 行動應用程式僅購限美國商家可用 ，而 Cake Pay 網頁應用則包括廣泛的全球商家可選。
-    
-    [:octicons-home-16: Homepage](https://cakepay.com/){ .md-button .md-button--primary }
-    [:octicons-eye-16:](https://ionia.docsend.com/view/jhjvdn7qq7k3ukwt){ .card-link title="Privacy Policy" }
-    [:octicons-info-16:](https://guides.cakewallet.com/){ .card-link title=Documentation}
-
 ### CoinCards
 
 !!! recommendation

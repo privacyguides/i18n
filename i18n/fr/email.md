@@ -152,12 +152,12 @@ Mailbox.org dispose d'une fonction d'héritage numérique pour toutes les offres
 
 ## D'autres fournisseurs
 
-Ces fournisseurs stockent vos emails avec un chiffrement à connaissance zéro, ce qui en fait d'excellentes options pour assurer la sécurité de vos emails stockés. However, they don't support interoperable encryption standards for E2EE communications between different providers.
+Ces fournisseurs stockent vos emails avec un chiffrement à connaissance zéro, ce qui en fait d'excellentes options pour assurer la sécurité de vos emails stockés. Cependant, ils ne prennent pas en charge les normes de chiffrement interopérables pour des communications E2EE entre fournisseurs.
 
 <div class="grid cards" markdown>
 
-- ![Skiff Mail logo](assets/img/email/skiff-mail.svg){ .twemoji } [Skiff Mail](email.md#skiff-mail)
-- ![Tutanota logo](assets/img/email/tutanota.svg){ .twemoji } [Tutanota](email.md#tutanota)
+- ![logo Skiff Mail](assets/img/email/skiff-mail.svg){ .twemoji } [Skiff Mail](email.md#skiff-mail)
+- ![logoTutanota](assets/img/email/tutanota.svg){ .twemoji } [Tutanota](email.md#tutanota)
 
 </div>
 
@@ -165,52 +165,52 @@ Ces fournisseurs stockent vos emails avec un chiffrement à connaissance zéro, 
 
 !!! recommendation
 
-    ![Skiff Mail logo](assets/img/email/skiff-mail.svg){ align=right }
+    ![logoSkiff Mail](assets/img/email/skiff-mail.svg){ align=right }
     
-    **Skiff Mail** is a web based email service with E2EE that began in 2020 that is based in San Francisco with developers worldwide. Accounts start with 10GB of free storage.
+    **Skiff Mail** est un service d'email web en ligne avec E2EE qui a vu le jour en 2020. Il est basé à San Francisco avec des développeurs dans le monde entier. Les comptes commencent avec 10 Go de stockage gratuit.
     
-    [:octicons-home-16: Homepage](https://skiff.com/mail){ .md-button .md-button--primary }
-    [:octicons-eye-16:](https://app.skiff.com/docs/db93c237-84c2-4b2b-9588-19a7cd2cd45a#tyGksN9rkqbo2uGYASxsA6HVLjUoly/wTYK8tncTto8=){ .card-link title="Privacy Policy" }
+    [:octicons-home-16: Page d'accueil](https://skiff.com/mail){ .md-button .md-button--primary }
+    [:octicons-eye-16:](https://app.skiff.com/docs/db93c237-84c2-4b2b-9588-19a7cd2cd45a#tyGksN9rkqbo2uGYASxsA6HVLjUoly/wTYK8tncTto8=){ .card-link title="Politique de confidentialité" }
     [:octicons-info-16:](https://skiff.com/help){ .card-link title=Documentation}
-    [:octicons-code-16:](https://github.com/skiff-org/skiff-apps){ .card-link title="Source Code" }
+    [:octicons-code-16:](https://github.com/skiff-org/skiff-apps){ .card-link title="Code source" }
     
-    ??? downloads
+    ??? downloads "Téléchargements"
     
         - [:simple-android: Android](https://play.google.com/store/apps/details?id=com.skemailmobileapp&pli=1)
         - [:simple-appstore: iOS](https://apps.apple.com/us/app/skiff-mail/id1619168801)
         - [:octicons-browser-16: Web](https://app.skiff.com/mail)
 
-Skiff has undergone a few [audits](https://skiff.com/transparency) during its development.
+Skiff a fait l'objet de quelques [audits](https://skiff.com/transparency) au cours de son développement.
 
 #### :material-check:{ .pg-green } Domaines personnalisés et alias
 
-You can create up to 3 additional @skiff.com email aliases in addition to your primary account address on their free plan. [Custom domains](https://skiff.com/blog/custom-domain-setup) are available on their Pro or Business plan, and allow you to create unlimited aliases.
+Vous pouvez créer jusqu'à 3 alias d'email @skiff.com en plus de l'adresse principale de votre compte sur leur plan gratuit. Les [domaines personnalisés](https://skiff.com/blog/custom-domain-setup) sont disponibles sur leur plan Pro ou Business, et vous permettent de créer un nombre illimité d'alias.
 
-#### :material-alert-outline:{ .pg-orange } Private Payment Methods
+#### :material-alert-outline:{ .pg-orange } Modes de paiement privés
 
-Skiff Mail accepts cryptocurrency payments via Coinbase Commerce, including Bitcoin and Ethereum, but they do not accept our recommended [cryptocurrency](cryptocurrency.md), Monero. They also accept credit card payments via Stripe.
+Skiff Mail accepte les paiements en crypto-monnaie via Coinbase Commerce, y compris Bitcoin et Ethereum, mais ils n'acceptent pas notre [crypto-monnaie](cryptocurrency.md) recommandée, Monero. Ils acceptent également les paiements par carte de crédit via Stripe.
 
 #### :material-check:{ .pg-green } Sécurité du compte
 
-Skiff Mail supports TOTP two-factor authentication and hardware security keys using FIDO2 or U2F standards. The use of a hardware security key requires setting up TOTP two-factor authentication first.
+Skiff Mail prend en charge l'authentification à deux facteurs TOTP et les clés de sécurité matérielles utilisant les normes FIDO2 ou U2F. L'utilisation d'une clé de sécurité matérielle nécessite la mise en place préalable d'une authentification à deux facteurs TOTP.
 
 #### :material-check:{ .pg-green } Sécurité des données
 
-Skiff Mail has zero access encryption at rest for all of your data. Cela signifie que les messages et autres données stockés dans votre compte ne sont lisibles que par vous.
+Skiff Mail dispose d'un chiffrement à accès zéro au repos pour toutes vos données. Cela signifie que les messages et autres données stockés dans votre compte ne sont lisibles que par vous.
 
 #### :material-information-outline:{ .pg-blue } Chiffrement des emails
 
-Skiff Mail does not use OpenPGP. Emails are only encrypted with E2EE to other Skiff Mail users. Skiff does not have a "temporary inbox" or "passworded email" feature like some other providers have, so that external users cannot receive or reply to messages with E2EE.
+Skiff Mail n'utilise pas OpenPGP. Les emails ne sont chiffrés avec E2EE qu'avec les autres utilisateurs de Skiff Mail. Skiff ne dispose pas d'une "boîte de réception temporaire" ou d'une fonction "email avec mot de passe" comme certains autres fournisseurs, de sorte que les utilisateurs externes ne peuvent pas recevoir de messages ou y répondre avec l'E2EE.
 
 #### :material-information-outline:{ .pg-blue } Résiliation du compte
 
-Skiff Mail accounts do not expire, but unpaid accounts will be prompted to remove any enabled paid features (such as additional aliases) or renew their plan before the account can be used.
+Les comptes Skiff Mail n'expirent pas, mais les comptes non payés seront invités à supprimer les fonctions payantes activées (telles que les alias supplémentaires) ou à renouveler leur plan avant que le compte ne puisse être utilisé.
 
 #### :material-information-outline:{ .pg-blue } Fonctionnalités supplémentaires
 
-Skiff additionally offers [workspace productivity features](https://discuss.privacyguides.net/t/skiff-pages-drive-productivity-tools/11758/13), but we still prefer [alternative](productivity.md) options for collaborating and file sharing at this time.
+Skiff offre en outre des [fonctions de productivité de l'espace de travail](https://discuss.privacyguides.net/t/skiff-pages-drive-productivity-tools/11758/13), mais nous préférons pour l'instant [d'autres](productivity.md) options pour la collaboration et le partage de fichiers.
 
-Skiff Mail does not offer a digital legacy feature.
+Skiff Mail ne propose pas de fonction d'héritage numérique.
 
 ### Tutanota
 

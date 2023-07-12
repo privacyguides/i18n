@@ -59,18 +59,6 @@ Privacy.com geeft standaard informatie over de handelaren bij wie je koopt door 
 
 Met deze diensten kunt je online cadeaubonnen kopen voor verschillende handelaren met [cryptocurrency](cryptocurrency.md). Sommige van deze services bieden opties voor ID-verificatie voor hogere limieten, maar ze staan ook accounts toe met alleen een e-mailadres. Basislimieten beginnen bij $ 5.000-10.000 per dag voor basisaccounts en aanzienlijk hogere limieten voor ID geverifieerde accounts (indien aangeboden).
 
-### Cake Pay
-
-!!! recommendation
-
-    CakePay logo](assets/img/financiële-diensten/cakepay.svg){ align=right }
-    
-    Met **Cake Pay** kunt je cadeaubonnen en aanverwante producten kopen met Monero. Aankopen voor Amerikaanse handelaren zijn beschikbaar in de Cake Wallet mobiele app, terwijl de Cake Pay web app een brede selectie van wereldwijde handelaren bevat.
-    
-    [:octicons-home-16: Homepage](https://cakepay.com/){ .md-button .md-button--primary }
-    [:octicons-eye-16:](https://ionia.docsend.com/view/jhjvdn7qq7k3ukwt){ .card-link title="Privacybeleid" }
-    [:octicons-info-16:](https://guides.cakewallet.com/){ .card-link title=Documentatie}
-
 ### CoinCards
 
 !!! recommendation

@@ -164,8 +164,7 @@ description: Privacy Guides - это самый прозрачный и наде
 
 <div class="grid cards" markdown>
 
-- ![Логотип Cake Pay](assets/img/financial-services/cakepay.svg){ .twemoji } [Cake Pay](financial-services.md#cake-pay)
-- ![Логотип CoinCards](assets/img/financial-services/coincards.svg){ .twemoji } [CoinCards](financial-services.md#coincards)
+- ![CoinCards logo](assets/img/financial-services/coincards.svg){ .twemoji } [CoinCards](financial-services.md#coincards)
 
 </div>
 
