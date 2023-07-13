@@ -51,7 +51,7 @@ cover: vpn.png
         - [:simple-appstore: App Store](https://apps.apple.com/app/apple-store/id1437005085)
         - [:simple-github: GitHub](https://github.com/ProtonVPN/android-app/releases)
         - [:simple-windows11: Windows](https://protonvpn.com/download-windows)
-        - [:simple-linux: Linux](https://protonvpn.com/support/linux-vpn-setup/)downloads "Скачать"
+        - [:simple-linux: Linux](https://protonvpn.com/support/linux-vpn-setup/)
 
 #### :material-check:{ .pg-green } 67 стран
 
