@@ -4,25 +4,25 @@ icon: simple/linux
 description: Linux is an open-source, privacy-focused desktop operating system alternative, but not all distribitions are created equal.
 ---
 
-It is often believed that [open-source](https://en.wikipedia.org/wiki/Open-source_software) software is inherently secure because the source code is available. There is an expectation that community verification occurs regularly; however, this isn’t always [the case](https://seirdy.one/posts/2022/02/02/floss-security/). It does depend on a number of factors, such as project activity, developer experience, level of rigor applied to [code reviews](https://en.wikipedia.org/wiki/Code_review), and how often attention is given to specific parts of the [codebase](https://en.wikipedia.org/wiki/Codebase) that may go untouched for years.
+대부분의 사람들은 [오픈소스 소프트웨어](https://en.wikipedia.org/wiki/Open-source_software)는 소스가 공개되어 있어 근본적으로 안전하다고 생각합니다. 커뮤니티가 코드를 주기적으로 검증할 것이라고 생각하지만, [꼭 그렇지 않습니다](https://seirdy.one/posts/2022/02/02/floss-security/). 실제 보안은 프로젝트 활동량, 개발자들의 경험, [코드 리뷰](https://en.wikipedia.org/wiki/Code_review)를 얼마나 엄격하게 하는지, [코드베이스](https://en.wikipedia.org/wiki/Codebase)의 다양한 부분에 얼마나 주의를 기울이는지 등과 같은 다양한 요인에 따라 달라집니다.
 
 At the moment, desktop Linux does have some areas that could be better improved when compared to their proprietary counterparts, e.g.:
 
-- A verified boot chain, like Apple’s [Secure Boot](https://support.apple.com/guide/security/startup-security-utility-secc7b34e5b5/web) (with [Secure Enclave](https://support.apple.com/guide/security/secure-enclave-sec59b0b31ff/1/web/1)), Android’s [Verified Boot](https://source.android.com/security/verifiedboot), ChromeOS' [Verified boot](https://www.chromium.org/chromium-os/chromiumos-design-docs/security-overview/#verified-boot), or Microsoft Windows’s [boot process](https://docs.microsoft.com/en-us/windows/security/information-protection/secure-the-windows-10-boot-process) with [TPM](https://docs.microsoft.com/en-us/windows/security/information-protection/tpm/how-windows-uses-the-tpm). These features and hardware technologies can all help prevent persistent tampering by malware or [evil maid attacks](https://en.wikipedia.org/wiki/Evil_Maid_attack)
-- A strong sandboxing solution such as that found in [macOS](https://developer.apple.com/library/archive/documentation/Security/Conceptual/AppSandboxDesignGuide/AboutAppSandbox/AboutAppSandbox.html), [ChromeOS](https://chromium.googlesource.com/chromiumos/docs/+/HEAD/sandboxing.md), and [Android](https://source.android.com/security/app-sandbox). Commonly used Linux sandboxing solutions such as [Flatpak](https://docs.flatpak.org/en/latest/sandbox-permissions.html) and [Firejail](https://firejail.wordpress.com/) still have a long way to go
+- A verified boot chain, like Apple’s [Secure Boot](https://support.apple.com/guide/security/startup-security-utility-secc7b34e5b5/web) (with [Secure Enclave](https://support.apple.com/guide/security/secure-enclave-sec59b0b31ff/1/web/1)), Android’s [Verified Boot](https://source.android.com/security/verifiedboot), ChromeOS' [Verified boot](https://www.chromium.org/chromium-os/chromiumos-design-docs/security-overview/#verified-boot), or Microsoft Windows’s [boot process](https://docs.microsoft.com/en-us/windows/security/information-protection/secure-the-windows-10-boot-process) with [TPM](https://docs.microsoft.com/en-us/windows/security/information-protection/tpm/how-windows-uses-the-tpm). 이러한 기능과 기술들은 [evil maid 공격](https://en.wikipedia.org/wiki/Evil_Maid_attack)이나 멀웨어로 인한 변조를 막는데 도움을 줍니다.
+- [macOS](https://developer.apple.com/library/archive/documentation/Security/Conceptual/AppSandboxDesignGuide/AboutAppSandbox/AboutAppSandbox.html), [ChromeOS](https://chromium.googlesource.com/chromiumos/docs/+/HEAD/sandboxing.md), [안드로이드](https://source.android.com/security/app-sandbox)와 같은 운영체제에 탑재된 샌드박스 기술 Linux에서 자주 사용되는 [Flatpak](https://docs.flatpak.org/en/latest/sandbox-permissions.html)과 [Firejail](https://firejail.wordpress.com/) 샌드박스 기술은 아직 발전중입니다.
 - Strong [exploit mitigations](https://madaidans-insecurities.github.io/linux.html#exploit-mitigations)
 
-Despite these drawbacks, desktop Linux distributions are great if you want to:
+이런 단점에도 불구하고 다음과 같은 경우에는 Linux를 사용하는 것을 권장합니다:
 
-- Avoid telemetry that often comes with proprietary operating systems
-- Maintain [software freedom](https://www.gnu.org/philosophy/free-sw.en.html#four-freedoms)
-- Have privacy focused systems such as [Whonix](https://www.whonix.org) or [Tails](https://tails.boum.org/)
+- 독점 소프트웨어에 자주 따라오는 데이터 수집을 피하고 싶을 때
+- [자유 소프트웨어](https://www.gnu.org/philosophy/free-sw.en.html#four-freedoms)를 사용하고 싶은 경우
+- [Whonix](https://www.whonix.org)나 [Tails](https://tails.boum.org/)와 같은 프라이버시를 중요시하는 운영체제를 사용하고 싶은 경우
 
-Our website generally uses the term “Linux” to describe desktop Linux distributions. Other operating systems which also use the Linux kernel such as ChromeOS, Android, and Qubes OS are not discussed here.
+이 웹사이트에서 사용하는 "Linux"는 주로 데스크탑 Linux 배포판을 가리킵니다. Linux 커널을 사용하지만 ChromeOS, Android, Qubes OS와 같은 타 운영체제는 해당 페이지에서 소개하지 않습니다.
 
-[Our Linux Recommendations :material-arrow-right-drop-circle:](../desktop.md ""){.md-button}
+[권장하는 Linux 배포판 :material-arrow-right-drop-circle:](../desktop.md ""){.md-button}
 
-## Choosing your distribution
+## 배포판 선택하기
 
 Not all Linux distributions are created equal. While our Linux recommendation page is not meant to be an authoritative source on which distribution you should use, there are a few things you should keep in mind when choosing which distribution to use.
 

@@ -47,11 +47,11 @@ cover: vpn.png
     
     ??? downloads "下載"
     
-        - [:simple-googleplay: Google Play] (https://play.google.com/store/apps/details?id=ch.protonvpn.android)
-        - [:simple-appstore: App Store] (https://apps.apple.com/app/apple-store/id1437005085)
-        - [:simple-github: GitHub] (https://github.com/ProtonVPN/android-app/releases)
-        - [:simple-windows11: Windows] (https://protonvpn.com/download-windows)
-        - [:simple-linux: Linux] (https://protonvpn.com/support/linux-vpn-setup/)
+        - [:simple-googleplay: Google Play](https://play.google.com/store/apps/details?id=ch.protonvpn.android)
+        - [:simple-appstore: App Store](https://apps.apple.com/app/apple-store/id1437005085)
+        - [:simple-github: GitHub](https://github.com/ProtonVPN/android-app/releases)
+        - [:simple-windows11: Windows](https://protonvpn.com/download-windows)
+        - [:simple-linux: Linux](https://protonvpn.com/support/linux-vpn-setup/)
 
 #### :material-check:{ .pg-green } 67個國家
 
@@ -194,7 +194,7 @@ IVPN 客戶端支援雙因素驗證（Mullvad 客戶端不支援）。 IVPN 有"
         - [:simple-github: GitHub](https://github.com/mullvad/mullvadvpn-app/releases)
         - [:simple-windows11: Windows](https://mullvad.net/en/download/windows/)
         - [:simple-apple: macOS](https://mullvad.net/en/download/macos/)
-        - [:simple-linux:](https://mullvad.net/en/download/linux/)
+        - [:simple-linux: Linux](https://mullvad.net/en/download/linux/)
     
 
 

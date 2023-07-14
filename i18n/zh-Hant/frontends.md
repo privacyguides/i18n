@@ -115,7 +115,7 @@ cover: frontends.png
 !!! recommendation
 
     ![LibreTube logo](assets/img/frontends/libretube.svg#only-light){ align=right }
-    ![LibreTube logo](assets/img/frontends/libretube-dark.svg#only-dark){ align = right }
+    ![LibreTube logo](assets/img/frontends/libretube-dark.svg#only-dark){ align=right }
     
     **LibreTube** 是一款免費的 [YouTube](https://youtube.com)開源Android應用程序，使用 [Piped](# piped) API。
     

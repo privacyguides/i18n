@@ -9,7 +9,7 @@ cover: email-clients.png
 
 ??? warning "電子郵件不提供前向保密"
 
-    當使用端到端加密（ E2EE ）技術（如OpenPGP ）時，電子郵件仍然會有一些未在電子郵件標頭中加密的[一些中繼數據] （ email.md#email-metadata-overview ）。
+    當使用端到端加密（ E2EE ）技術（如OpenPGP ）時，電子郵件仍然會有一些未在電子郵件標頭中加密的[一些中繼數據](email.md#email-metadata-overview)。
     
     OpenPGP 也不支援 [前向保密](https://en.wikipedia.org/wiki/Forward_secrecy) ，這意味著如果你或收件人的私鑰被盜，所有以前用它加密的訊息都會被曝光： [如何保護我的私鑰？](basics/email-security.md)考慮使用提供前向保密的媒介：
     
@@ -45,12 +45,12 @@ cover: email-clients.png
 
 ##### 網頁內容
 
-- [ ]取消勾選  **記住我訪問過的網站和連結**
-- [ ]取消勾選  **接受來自網站的cookie**
+- [ ] 取消勾選  **記住我訪問過的網站和連結**
+- [ ] 取消勾選  **接受來自網站的cookie**
 
 ##### 遙測
 
-- [ ]取消勾選  **允許Thunderbird  向Mozilla**發送技術和互動資訊。
+- [ ] 取消勾選  **允許Thunderbird  向Mozilla**發送技術和互動資訊。
 
 #### Thunderbird-user.js （進階）
 

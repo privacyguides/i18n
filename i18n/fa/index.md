@@ -36,21 +36,21 @@ schema:
 ---
 
 <!-- markdownlint-disable-next-line -->
-## Why should I care?
+## چرا باید برای من مهم باشد؟
 
-##### “I have nothing to hide. Why should I care about my privacy?”
+##### "من چیزی برای مخفی کردن ندارم. چرا باید به حریم خصوصی اهمیت بدهم؟"
 
-Much like the right to interracial marriage, woman's suffrage, freedom of speech, and many others, our right to privacy hasn't always been upheld. In several dictatorships, it still isn't. Generations before ours fought for our right to privacy. ==Privacy is a human right, inherent to all of us,== that we are entitled to (without discrimination).
+تمام حقوقی که اکنون برای ما طبیعی به نظر می‌رسند، به عنوان انسان‌ها برای ما در طول تاریخ تضمین نشده بوده‌اند. حق ازدواج مختلط، حق رأی زنان، آزادی بیان و بسیاری از حقوق دیگر در برابر سرکوب و نقض قرار گرفته‌اند. در چندین دیکتاتوری، هنوز هم این امر صادق نیست. نسل‌های قبل از ما برای حق حریم خصوصی ما مبارزه کردند. حریم خصوصی یک حق انسانی است که درونی برای همهٔ ما وجود دارد و ما به آن (بدون تبعیض) حق داریم.
 
-You shouldn't confuse privacy with secrecy. We know what happens in the bathroom, but you still close the door. That's because you want privacy, not secrecy. **Everyone** has something to protect. Privacy is something that makes us human.
+شما نباید حریم خصوصی را با امنیت اشتباه بگیرید. ما می‌دانیم که در حمام چه اتفاقاتی می‌افتد، اما همچنان در را می‌بندید. That's because you want privacy, not secrecy. **Everyone** has something to protect. Privacy is something that makes us human.
 
 [:material-book-outline: Why Privacy Matters](basics/why-privacy-matters.md){ class="md-button md-button--primary" }
 
-## What should I do?
+## چه کاری باید انجام بدهم؟
 
 ##### First, you need to make a plan
 
-Trying to protect all your data from everyone all the time is impractical, expensive, and exhausting. But don't worry! Security is a process, and, by thinking ahead, you can put together a plan that's right for you. Security isn't just about the tools you use or the software you download. Rather, it begins by understanding the unique threats you face, and how you can mitigate them.
+Trying to protect all your data from everyone all the time is impractical, expensive, and exhausting. ولی نگران نباشید! Security is a process, and, by thinking ahead, you can put together a plan that's right for you. Security isn't just about the tools you use or the software you download. Rather, it begins by understanding the unique threats you face, and how you can mitigate them.
 
 ==This process of identifying threats and defining countermeasures is called **threat modeling**==, and it forms the basis of every good security and privacy plan.
 
@@ -58,7 +58,7 @@ Trying to protect all your data from everyone all the time is impractical, expen
 
 ---
 
-## We need you! Here's how to get involved:
+## ما به کمک شما نیاز داریم! Here's how to get involved:
 
 [:simple-discourse:](https://discuss.privacyguides.net/){ title="Join our Forum" }
 [:simple-mastodon:](https://mastodon.neat.computer/@privacyguides){ rel=me title="Follow us on Mastodon" }

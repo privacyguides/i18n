@@ -5,47 +5,47 @@ config:
   copyright:
     - 
       1: |
-         Privacy Guides is a non-profit, socially motivated website that provides information for protecting your data security and privacy.
+         Privacy Guides یک وبسایت غیرانتفاعی و با هدف اجتماعی است که اطلاعاتی را درباره حفاظت از امنیت و حریم خصوصی داده‌های شما ارائه می‌دهد.
     - 
       2: |
-         We do not make money from recommending certain products, and we do not use affiliate links.
+         ما از توصیه محصولات خاصی به منظور کسب درآمد استفاده نمی‌کنیم و از پیوندهای همکاری (Affiliate) نیز استفاده نمی‌کنیم.
     - 
       3: |
-         Privacy Guides and contributors.
+         راهنماهای حریم خصوصی و همکاران.
     - 
       4: |
-         Content licensed under CC BY-ND 4.0.
+         محتوا تحت مجوز CC BY-ND 4.0 منتشر شده است.
   feedback:
-    question: Was this page helpful?
-    yes: This page was helpful
-    yes-note: Thanks for your feedback!
-    no: This page could be improved
+    question: آیا محتوای این صفحه مفید بود؟
+    yes: محتوای این صفحه مفید بود
+    yes-note: از بازخوردتان سپاس گزاریم!
+    no: محتوای این صفحه می‌تواند بهتر شود
     no-note: |
-      Thanks for your feedback! Help us improve this page by opening a discussion on our forum.
+      از بازخورد شما سپاسگزاریم! با باز کردن یک بحث جدید در انجمن به بهبودن محتوای این صفحه کمک کنید.
   theme:
-    dark: Switch to dark mode
-    light: Switch to light mode
-    system: Switch to system theme
+    dark: تغییر به حالت تاریک
+    light: تغییر به حالت روشن
+    system: تغییر به تم سیستم
 nav:
   Home: خانه
   Knowledge Base: پایگاه دانش
-  Technology Essentials: Technology Essentials
+  Technology Essentials: ضرورت‌های فناوری
   Operating Systems: سیستم عامل
-  Advanced Topics: Advanced Topics
-  Recommendations: Recommendations
-  Internet Browsing: Internet Browsing
-  Providers: Providers
-  Software: Software
-  About: About
-  Community: Community
-  Online Services: Online Services
-  Code of Conduct: Code of Conduct
-  Contributing: Contributing
-  Writing Guide: Writing Guide
-  Technical Guides: Technical Guides
-  Changelog: Changelog
-  Forum: Forum
-  Blog: Blog
+  Advanced Topics: مباحث پیشرفته
+  Recommendations: پیشنهادات
+  Internet Browsing: گشت و گزار در اینترنت
+  Providers: تامین‌کننده‌گان
+  Software: نرم افزار
+  About: درباره ما
+  Community: انجمن
+  Online Services: خدمات آنلاین
+  Code of Conduct: منشور اخلاقی
+  Contributing: مشارکت
+  Writing Guide: راهنمای نوشتن
+  Technical Guides: راهنمای فنی
+  Changelog: لیست تغییرات
+  Forum: تالار گفتگو
+  Blog: بلاگ
 site:
   translation: |
-    You're viewing the English copy of Privacy Guides, translated by our fantastic language team on Crowdin. If you notice an error, or see any untranslated sections on this page, please consider helping out! For more information and tips see our translation guide.
+    شما در حال مشاهده نسخهٔ فارسی از راهنمای حریم خصوصی هستید که توسط تیم زبان فوق‌العاده ما در پلتفرم Crowdin ترجمه شده است. اگر هر گونه خطا را مشاهده کردید یا بخش‌هایی از این صفحه را به صورت ترجمه نشده مشاهده کردید، لطفاً به ما کمک کنید! برای اطلاعات بیشتر و راهنمایی‌ها، راهنمای ترجمه ما را مشاهده کنید.

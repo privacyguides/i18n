@@ -12,9 +12,9 @@ Wenn du eine Website besuchst, wird eine numerische Adresse zurückgegeben. Wenn
 
 DNS gibt es schon seit den [Anfängen des Internets](https://de.wikipedia.org/wiki/Domain_Name_System#%C3%9Cberblick). DNS-Anfragen an und von DNS-Servern werden im Allgemeinen **nicht** verschlüsselt. In einer privaten Umgebung erhält der Kunde die Server vom Internetanbieter über [DHCP](https://de.wikipedia.org/wiki/Dynamic_Host_Configuration_Protocol).
 
-Unverschlüsselte DNS-Anfragen können während der Übertragung leicht **überwacht** und **verändert** werden. In some parts of the world, ISPs are ordered to do primitive [DNS filtering](https://en.wikipedia.org/wiki/DNS_blocking). Wenn du die IP-Adresse einer gesperrten Domain anforderst, kann es sein, dass der Server nicht oder mit einer anderen IP-Adresse antwortet. Da das DNS-Protokoll nicht verschlüsselt ist, kann der Internetanbieter (oder jeder andere Netzbetreiber) [DPI](https://de.wikipedia.org/wiki/Deep_Packet_Inspection) einsetzen, um Anfragen zu überwachen. Internetanbieter können Anfragen auch auf der Grundlage gemeinsamer Merkmale blockieren, unabhängig davon, welcher DNS-Server verwendet wird. Beim unverschlüsselten DNS wird immer [Port](https://de.wikipedia.org/wiki/Port_(Protokoll)) 53 und UDP verwendet.
+Unverschlüsselte DNS-Anfragen können während der Übertragung leicht **überwacht** und **verändert** werden. In einigen Teilen der Welt werden Internetanbieter angewiesen, primitive [DNS-Filterung](https://en.wikipedia.org/wiki/DNS_blocking)durchzuführen. Wenn du die IP-Adresse einer gesperrten Domain anforderst, kann es sein, dass der Server nicht oder mit einer anderen IP-Adresse antwortet. Da das DNS-Protokoll nicht verschlüsselt ist, kann der Internetanbieter (oder jeder andere Netzbetreiber) [DPI](https://de.wikipedia.org/wiki/Deep_Packet_Inspection) einsetzen, um Anfragen zu überwachen. Internetanbieter können Anfragen auch auf der Grundlage gemeinsamer Merkmale blockieren, unabhängig davon, welcher DNS-Server verwendet wird. Beim unverschlüsselten DNS wird immer [Port](https://de.wikipedia.org/wiki/Port_(Protokoll)) 53 und UDP verwendet.
 
-Below, we discuss and provide a tutorial to prove what an outside observer may see using regular unencrypted DNS and [encrypted DNS](#what-is-encrypted-dns).
+Im Folgenden erörtern wir, was ein außenstehender Beobachter mit Hilfe von normalem unverschlüsseltem DNS und [verschlüsseltem DNS](#what-is-encrypted-dns)sehen kann, und stellen eine Anleitung dazu zur Verfügung.
 
 ### Unverschlüsselter DNS
 
@@ -24,7 +24,7 @@ Below, we discuss and provide a tutorial to prove what an outside observer may s
     tshark -w /tmp/dns.pcap udp port 53 and host 1.1.1.1 or host 8.8.8.8
     ```
 
-2. We can then use [`dig`](https://en.wikipedia.org/wiki/Dig_(command)) (Linux, MacOS, etc.) or [`nslookup`](https://en.wikipedia.org/wiki/Nslookup) (Windows) to send the DNS lookup to both servers. Software such as web browsers do these lookups automatically, unless they are configured to use encrypted DNS.
+2. Wir können dann [`dig`](https://en.wikipedia.org/wiki/Dig_(command)) (Linux, MacOS, etc.) oder [`nslookup`](https://en.wikipedia.org/wiki/Nslookup) (Windows) verwenden, um den DNS-Lookup an beide Server zu senden. Software wie Webbrowser führen diese Nachschläge automatisch durch, sofern sie nicht für die Verwendung von verschlüsseltem DNS konfiguriert sind.
 
     === "Linux, macOS"
 
@@ -39,7 +39,7 @@ Below, we discuss and provide a tutorial to prove what an outside observer may s
         nslookup privacyguides.org 8.8.8.8
         ```
 
-3. Next, we want to [analyse](https://www.wireshark.org/docs/wsug_html_chunked/ChapterIntroduction.html#ChIntroWhatIs) the results:
+3. Als Nächstes wollen wir die Ergebnisse [analysieren](https://www.wireshark.org/docs/wsug_html_chunked/ChapterIntroduction.html#ChIntroWhatIs):
 
     === "Wireshark"
 
@@ -53,24 +53,24 @@ Below, we discuss and provide a tutorial to prove what an outside observer may s
         tshark -r /tmp/dns.pcap
         ```
 
-If you run the Wireshark command above, the top pane shows the "[frames](https://en.wikipedia.org/wiki/Ethernet_frame)", and the bottom pane shows all the data about the selected frame. Enterprise filtering and monitoring solutions (such as those purchased by governments) can do the process automatically, without human interaction, and can aggregate those frames to produce statistical data useful to the network observer.
+Wenn Sie den obigen Wireshark-Befehl ausführen, zeigt das obere Fenster die "[frames](https://en.wikipedia.org/wiki/Ethernet_frame)", und das untere Fenster zeigt alle Daten über den ausgewählten Frame. Filter- und Überwachungslösungen für Unternehmen (z. B. solche, die von Regierungen gekauft werden) können den Prozess automatisch und ohne menschliche Interaktion durchführen und diese Frames zusammenfassen, um statistische Daten zu erzeugen, die für den Netzwerkbeobachter nützlich sind.
 
-| No. | Time     | Source    | Destination | Protocol | Length | Info                                                                   |
-| --- | -------- | --------- | ----------- | -------- | ------ | ---------------------------------------------------------------------- |
-| 1   | 0.000000 | 192.0.2.1 | 1.1.1.1     | DNS      | 104    | Standard query 0x58ba A privacyguides.org OPT                          |
-| 2   | 0.293395 | 1.1.1.1   | 192.0.2.1   | DNS      | 108    | Standard query response 0x58ba A privacyguides.org A 198.98.54.105 OPT |
-| 3   | 1.682109 | 192.0.2.1 | 8.8.8.8     | DNS      | 104    | Standard query 0xf1a9 A privacyguides.org OPT                          |
-| 4   | 2.154698 | 8.8.8.8   | 192.0.2.1   | DNS      | 108    | Standard query response 0xf1a9 A privacyguides.org A 198.98.54.105 OPT |
+| Nr. | Zeit     | Quelle    | Ziel      | Protokoll | Größe | Info                                                                   |
+| --- | -------- | --------- | --------- | --------- | ----- | ---------------------------------------------------------------------- |
+| 1   | 0.000000 | 192.0.2.1 | 1.1.1.1   | DNS       | 104   | Standardabfrage 0x58ba A privacyguides.org OPT                         |
+| 2   | 0.293395 | 1.1.1.1   | 192.0.2.1 | DNS       | 108   | Standard-Abfrageantwort 0x58ba A privacyguides.org A 198.98.54.105 OPT |
+| 3   | 1.682109 | 192.0.2.1 | 8.8.8.8   | DNS       | 104   | Standardabfrage 0xf1a9 A privacyguides.org OPT                         |
+| 4   | 2.154698 | 8.8.8.8   | 192.0.2.1 | DNS       | 108   | Standard-Abfrageantwort 0xf1a9 A privacyguides.org A 198.98.54.105 OPT |
 
-An observer could modify any of these packets.
+Ein Beobachter könnte jedes dieser Pakete verändern.
 
-## What is "encrypted DNS"?
+## Was ist ein "verschlüsseltes DNS"?
 
-Encrypted DNS can refer to one of a number of protocols, the most common ones being:
+Verschlüsseltes DNS kann sich auf eine Reihe von Protokollen beziehen, von denen die gängigsten sind:
 
 ### DNSCrypt
 
-[**DNSCrypt**](https://en.wikipedia.org/wiki/DNSCrypt) was one of the first methods of encrypting DNS queries. DNSCrypt operates on port 443 and works with both the TCP or UDP transport protocols. DNSCrypt has never been submitted to the [Internet Engineering Task Force (IETF)](https://en.wikipedia.org/wiki/Internet_Engineering_Task_Force) nor has it gone through the [Request for Comments (RFC)](https://en.wikipedia.org/wiki/Request_for_Comments) process, so it has not been used widely outside of a few [implementations](https://dnscrypt.info/implementations). As a result, it has been largely replaced by the more popular [DNS over HTTPS](#dns-over-https-doh).
+[**DNSCrypt**](https://en.wikipedia.org/wiki/DNSCrypt) war eine der ersten Methoden zur Verschlüsselung von DNS-Anfragen. DNSCrypt arbeitet auf Port 443 und funktioniert mit den Transportprotokollen TCP und UDP. DNSCrypt has never been submitted to the [Internet Engineering Task Force (IETF)](https://en.wikipedia.org/wiki/Internet_Engineering_Task_Force) nor has it gone through the [Request for Comments (RFC)](https://en.wikipedia.org/wiki/Request_for_Comments) process, so it has not been used widely outside of a few [implementations](https://dnscrypt.info/implementations). As a result, it has been largely replaced by the more popular [DNS over HTTPS](#dns-over-https-doh).
 
 ### DNS over TLS (DoT)
 

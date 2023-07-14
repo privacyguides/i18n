@@ -20,7 +20,7 @@ PrivacyTools 由 BurungHantu 於 2015年創建，在斯諾登洩密事件後，�
 
 2020年， BurungHantu的缺席更加明顯。 有一次，我們要求將網域的名稱伺服器更改為由系統管理員控制的名稱伺服器，以避免未來中斷，但在提出請求後一個多月後都未能完成此更改。 他在 Matrix 公開聊天室和私人團隊聊天室中消失幾個月，偶爾會突然進來提供一些小反饋或承諾，然後再次消失。
 
-2020 年10月， PrivacyTools 系統管理員 (Jonah) 因為這些困難，[離開](https://web.archive.org/web/20210729190742/https://blog.privacytools.io/blacklight447-taking-over/) 本專案，將控制權移交給其它長期投入者。 Jonah 經營幾乎所有的 PrivacyTools 服務，並在 BurungHantu 缺席時擔任網站開發的 *實質* 項目負責人，因此他的離開對該組織來說是一個重大變化。 由於這些重大的組織變化， BurungHantu 當時向留下的團隊承諾他將回來接管接下來的專案。 == 在接下來的幾個月裡， PrivacyTools 團隊通過幾種溝通方式聯繫，但沒有收到任何回應。
+2020 年10月， PrivacyTools 系統管理員 (Jonah) 因為這些困難，[離開](https://web.archive.org/web/20210729190742/https://blog.privacytools.io/blacklight447-taking-over/) 本專案，將控制權移交給其它長期投入者。 Jonah 經營幾乎所有的 PrivacyTools 服務，並在 BurungHantu 缺席時擔任網站開發的 *實質* 項目負責人，因此他的離開對該組織來說是一個重大變化。 由於這些重大的組織變化， BurungHantu 當時向留下的團隊承諾他將回來接管接下來的專案。 ==在接下來的幾個月裡， PrivacyTools 團隊通過幾種溝通方式聯繫，但沒有收到任何回應。==
 
 ## 域名可靠性
 
@@ -34,7 +34,7 @@ PrivacyTools 由 BurungHantu 於 2015年創建，在斯諾登洩密事件後，�
 
 ## 社區行動呼籲
 
-2021年7月底，我們 <a href="https://web.archive.org/web/20210729184422/https://blog.privacytools.io/the-future-of-privacytools/>通知</a> PrivacyTools 社區打算搬移到新域名繼續專案，並於[2022 年8月2日選出新域名](https://web.archive.org/web/20210729190935/https://aragon.cloud/apps/forms/cMPxG9KyopapBbcw)。 最後選中 Privacy Guides ， Jonah 從2020年開始擁有`privacyguides.org` 網域原打算作為未開發的副項目。
+2021年7月底，我們 [通知](https://web.archive.org/web/20210729184422/https://blog.privacytools.io/the-future-of-privacytools/) PrivacyTools 社區打算搬移到新域名繼續專案，並於[2022 年8月2日選出新域名](https://web.archive.org/web/20210729190935/https://aragon.cloud/apps/forms/cMPxG9KyopapBbcw)。 最後選中 Privacy Guides ， Jonah 從2020年開始擁有`privacyguides.org` 網域原打算作為未開發的副項目。
 
 ## 控制r/privacytoolsIO
 
@@ -77,7 +77,7 @@ BurungHantu 還發布一篇 [推特帖子](https://twitter.com/privacytoolsIO/st
 
 截至 2022年9月25日，我們看到 BurungHantu 全部的打算都出現在privacytools.io ，因此我們決定創建這個解釋頁面。 他經營的網站似乎是重度 SEO 優化版本，以推薦工具來換取經濟補償。 最近 IVPN 和 Mullvad，這兩家受到隱私社群近乎一致[推薦](../vpn.md)的 VPN 供應商，因長期反對推薦人優惠回扣而受瞩目，卻遭到 PrivacyTools 的刪除。 在他们的位置上？ NordVPN、Surfshark、ExpressVPN 和 hide.me ；不值得信任的平臺和商業實踐的巨型 VPN 公司，以積極的營銷和推廣折扣而臭名昭著。
 
-==**PrivacyTools 已成為我們 [過去在2019年 PrivacyTools 部落格所警告](https://web.archive.org/web/20210729205249/https://blog.privacytools.io/the-trouble-with-vpn-and-privacy-reviews/) 的網站類型。**= = 自過渡以來一直試圖與 PrivacyTools 保持距離，但他們對我們項目持續騷擾，現在他們荒謬地濫用原品牌在6年來獲得的可信度開源貢獻，這實在非常令人不安。 我們這些為隱私而戰的人並不是在互相爭鬥，也沒有從出價最高者那裡取得建議。
+==**PrivacyTools 已成為我們 [過去在2019年 PrivacyTools 部落格所警告](https://web.archive.org/web/20210729205249/https://blog.privacytools.io/the-trouble-with-vpn-and-privacy-reviews/) 的網站類型。**== 自過渡以來一直試圖與 PrivacyTools 保持距離，但他們對我們項目持續騷擾，現在他們荒謬地濫用原品牌在6年來獲得的可信度開源貢獻，這實在非常令人不安。 我們這些為隱私而戰的人並不是在互相爭鬥，也沒有從出價最高者那裡取得建議。
 
 ## r/privacytoolsIO Now
 

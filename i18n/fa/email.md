@@ -1,25 +1,25 @@
 ---
-meta_title: "Encrypted Private Email Recommendations - Privacy Guides"
-title: "Email Services"
+meta_title: "توصیه های ایمیل خصوصی رمزگذاری شده - Privacy Guides"
+title: "سرویس‌های ایمیل"
 icon: material/email
-description: These email providers offer a great place to store your emails securely, and many offer interoperable OpenPGP encryption with other providers.
+description: این ارائه دهندگان ایمیل فضایی عالی برای ذخیره ایمن ایمیل‌های شما ارائه می دهند، و بسیاری از آنها رمزگذاری OpenPGP با سایر ارائه دهندگان ایمیل را ارائه می دهند.
 cover: email.png
 ---
 
-Email is practically a necessity for using any online service, however we do not recommend it for person-to-person conversations. Rather than using email to contact other people, consider using an instant messaging medium that supports forward secrecy.
+ایمیل عملاً برای استفاده از هر سرویس آنلاین ضروری است، اما ما آن را برای مکالمات فرد به فرد توصیه نمی کنیم. به جای استفاده از ایمیل برای تماس با افراد دیگر، از یک پیام‌رسان استفاده کنید که از محرمانگی رو به جلو (forward secrecy) پشتیبانی می‌کند.
 
-[Recommended Instant Messengers](real-time-communication.md ""){.md-button}
+[پیام‌رسان‌های توصیه شده](real-time-communication.md ""){.md-button}
 
-For everything else, we recommend a variety of email providers based on sustainable business models and built-in security and privacy features.
+برای هر چیز دیگری، ما انواع ارائه دهندگان ایمیل را بر اساس مدل‌های تجاری پایدار و ویژگی‌های امنیتی و حریم خصوصی توصیه می‌کنیم.
 
-- [OpenPGP-Compatible Email Providers :material-arrow-right-drop-circle:](#openpgp-compatible-services)
-- [Other Encrypted Providers :material-arrow-right-drop-circle:](#more-providers)
-- [Email Aliasing Services :material-arrow-right-drop-circle:](#email-aliasing-services)
-- [Self-Hosted Options :material-arrow-right-drop-circle:](#self-hosting-email)
+- [ارائه دهندگان ایمیل سازگار با OpenPGP :material-arrow-right-drop-circle:](#openpgp-compatible-services)
+- [سایر ارائه دهندگان ایمیل رمزگذاری شده :material-arrow-right-drop-circle:](#more-providers)
+- [سرویس های نام مستعار ایمیل (Email Aliasing) :material-arrow-right-drop-circle:](#email-aliasing-services)
+- [گزینه های خود میزبانی (Self-Hosted) :material-arrow-right-drop-circle:](#self-hosting-email)
 
-## OpenPGP Compatible Services
+## سرویس‌های سازگار با OpenPGP
 
-These providers natively support OpenPGP encryption/decryption and the Web Key Directory (WKD) standard, allowing for provider-agnostic E2EE emails. For example, a Proton Mail user could send an E2EE message to a Mailbox.org user, or you could receive OpenPGP-encrypted notifications from internet services which support it.
+این ارائه دهندگان به طور بومی از رمزگذاری/رمزگشایی OpenPGP و استاندارد Web Key Directory (WKD) پشتیبانی می‌کنند، که امکان ارسال ایمیل‌های E2EE بین سرویسی را فراهم می‌کند. به عنوان مثال، یک کاربر Proton Mail می تواند یک پیام E2EE را به یک کاربر Mailbox.org ارسال کند، یا می توانید اعلان های رمزگذاری شده با OpenPGP را از سرویس های اینترنتی که از آن پشتیبانی می کنند دریافت کنید.
 
 <div class="grid cards" markdown>
 
@@ -28,11 +28,11 @@ These providers natively support OpenPGP encryption/decryption and the Web Key D
 
 </div>
 
-!!! warning
+!!! هشدار
 
-    When using E2EE technology like OpenPGP, email will still have some metadata that is not encrypted in the header of the email. Read more about [email metadata](basics/email-security.md#email-metadata-overview).
+    هنگام استفاده از فناوری E2EE مانند OpenPGP، ایمیل همچنان دارای برخی فراداده است که در header ایمیل رمزگذاری نشده است. بیشتر بخوانید در مورد [فراداده ایمیل](basics/email-security.md#email-metadata-overview).
     
-    OpenPGP also does not support Forward secrecy, which means if either your or the recipient's private key is ever stolen, all previous messages encrypted with it will be exposed. [How do I protect my private keys?](basics/email-security.md#how-do-i-protect-my-private-keys)
+    OpenPGP همچنین از Forward secrecy پشتیبانی نمی کند، به این معنی که اگر کلید خصوصی شما یا گیرنده به سرقت رفته باشد، همه پیام های قبلی رمزگذاری شده با آن قابل بازگشایی خواهد بود. [چگونه از کلید خصوصی خود محافظت کنم؟](basics/email-security.md#how-do-i-protect-my-private-keys)
 
 ### Proton Mail
 

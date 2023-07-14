@@ -72,6 +72,10 @@ Nous avons parfois constaté que la syntaxe pour l'insertion d'une image comme c
 
 Pour des exemples tels que les admonitions ci-dessus, les guillemets, par exemple : `" "` doivent être utilisés pour spécifier un texte sous forme de chaîne. MkDocs n'interprète pas correctement les autres symboles, par exemple `「 」` ou `« »`. Les autres signes de ponctuation conviennent pour marquer les citations régulières dans le texte.
 
-## Crochets et parenthèses
+## Alternatives en pleine largeur et syntaxe Markdown
 
-Les liens Markdown doivent être placés entre crochets et parenthèses, par exemple : `[Exemple de lien](https://example.com)`. Les parenthèses de style CJK telles que `（ ）` ne fonctionneront pas pour les liens. Crowdin gère souvent les liens automatiquement, mais vous pouvez rencontrer ces liens dans les admonitions et autres blocs de texte personnalisés.
+Les systèmes d'écriture CJK ont tendance à utiliser des variantes "pleine largeur" des symboles courants. Il s'agit de caractères différents qui ne peuvent pas être utilisés pour la syntaxe Markdown.
+
+- Les liens doivent utiliser des parenthèses normales, c'est-à-dire `(` (parenthèse gauche U+0028) et `)` (parenthèse droite U+0029) et non `（` (parenthèse gauche pleine largeur U+FF08) ou `）` (parenthèse droite pleine largeur U+FF09)
+- Le texte cité et en retrait doit utiliser `:` (deux-points U+003A) et non `：` (deux-points pleine largeur U+FF1A)
+- Les images doivent utiliser `!` (point d'exclamation U+0021) et non `！` (point d'exclamation pleine largeur U+FF01) 

@@ -72,6 +72,10 @@ Talvolta, ci siamo resi conto che la sintassi per inserire un'immagine come la p
 
 Per gli esempi come gli ammonimenti precedenti, le virgolette, es.: `" "` devono essere utilizzate per specificare il testo della stringa. MkDocs non interpreterà correttamente altri simboli, cioè, `「 」` o `« »`. Altri segni di punteggiatura vanno bene per contrassegnare regolari citazioni all'interno del testo.
 
-## Parentesi
+## Alternative a larghezza intera e sintassi di Markdown
 
-I link in Markdown devono utilizzare le parentesi, come ad esempio, `[Link di esempio](https://esempio.it)`. Le parentesi in stile CJK, come `（ ）` non funzioneranno con i collegamenti. Crowdin, spesso, gestirà automaticamente i collegamenti, ma li incontrerai negli ammonimenti e in altri blocchi personalizzati di testo.
+Sistemi di scrittura CJK tendono a utilizzare varianti alternative "a larghezza intera" di simboli comuni. Si tratta di caratteri differenti e non utilizzabili per la sintassi di Markdown.
+
+- I link devono utilizzare le parentesi regolari, cioè `(` (Parentesi Sinistra U+0028) e `)` (Parentesi Destra U+0029) ee non `（` (Parentesi Sinistra a Larghezza Intera U+FF08) o `）` (Parentesi Destra a Larghezza Intera U+FF09)
+- Il testo tra virgolette rientrato deve utilizzare `:` (Due punti U+003A) e non `：` (Due Punti a Larghezza Intera U+FF1A)
+- Le immagini devono utilizzare `!` (Punto Esclamativo U+0021) e non `！` (Punto Esclamativo a Larghezza Intera U+FF01) 

@@ -52,13 +52,13 @@ schema:
 
 冀望您所有的資料完全免受任何人的侵害是不實際、昂貴且耗神的。 但別擔心 安全是一種過程，向前思考以製定出一個適合您的正確計劃。 安全性不是只限於您使用的工具或下載的軟件。 相反，它始於了解您面臨的獨特威脅，以及如何減輕它們。
 
-==這個識別威脅和定義對策的過程稱為 **威脅模型**= = ，它構成了完整安全和隱私計劃的基礎。
+==這個識別威脅和定義對策的過程稱為 **威脅模型**== ，它構成了完整安全和隱私計劃的基礎。
 
 [:material-book-outline: 了解更多關於威脅建模](basics/threat-modeling.md){class = "md-button md-button--primary"}
 
 ---
 
-## ## 我们需要你！ 參與方式如下：
+## 我们需要你！ 參與方式如下：
 
 [:simple-discourse:](https://discuss.privacyguides.net/){title = "加入我們的論壇"}
 [:simple-mastodon:](https://mastodon.neat.computer/@privacyguides){rel = me title = "關注我們的Mastodon"}
