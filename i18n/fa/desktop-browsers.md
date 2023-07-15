@@ -57,9 +57,9 @@ schema:
       url: "./"
 ---
 
-These are our currently recommended desktop web browsers and configurations for standard/non-anonymous browsing. We recommend [Mullvad Browser](#mullvad-browser) if you are focused on strong privacy protections and anti-fingerprinting out of the box, [Firefox](#firefox) for casual internet browsers looking for a good alternative to Google Chrome, and [Brave](#brave) if you need Chromium browser compatibility.
+اینها برنامه‌های مرورگر و تنظیماتی هستند که در حال حاضر برای مرورگرهای وب دسکتاپ به منظور مرور استاندارد/غیرناشناس توصیه می‌شوند. اگر شما دنبال حفاظت قوی از حریم خصوصی و anti-fingerprinting هستید ما به شما مرورگر، [Mullvad Browser](#mullvad-browser) را توصیه می‌کنیم، [Firefox](#firefox) را برای کاربران عادی اینترنتی که به دنبال جایگزین مناسبی برای Google Chrome هستند پیشنهاد می‌کنیم و [Brave](#brave) در صورتی نیاز به سازگاری با مرورگر Chromium دارید.
 
-If you need to browse the internet anonymously, you should use [Tor](tor.md) instead. We make some configuration recommendations on this page, but all browsers other than Tor Browser will be traceable by *somebody* in some manner or another.
+اگر نیاز به مرور اینترنت به صورت ناشناس دارید، بهتر است از مرورگر [Tor](tor.md) استفاده کنید. ما در این صفحه برخی از تنظیمات را توصیه می‌کنیم، اما تمامی مرورگرها به جز Tor Browser به طریقی یا ناگزیر توسط *کسی* قابل ردیابی هستند.
 
 ## مرورگر Mullvad
 
@@ -102,7 +102,7 @@ This is required to prevent advanced forms of tracking, but does come at the cos
 
 Mullvad Browser comes with DuckDuckGo set as the default [search engine](search-engines.md), but it also comes preinstalled with **Mullvad Leta**, a search engine which requires an active Mullvad VPN subscription to access. Mullvad Leta queries Google's paid search API directly (which is why it is limited to paying subscribers), however because of this limitation it is possible for Mullvad to correlate search queries and Mullvad VPN accounts. For this reason we discourage the use of Mullvad Leta, even though Mullvad collects very little information about their VPN subscribers.
 
-## Firefox
+## فایرفاکس
 
 !!! recommendation
 
@@ -130,7 +130,7 @@ Mullvad Browser comes with DuckDuckGo set as the default [search engine](search-
 
 These options can be found in :material-menu: → **Settings**
 
-#### Search
+#### جستجو
 
 - [ ] Uncheck **Provide search suggestions**
 
@@ -138,7 +138,7 @@ Search suggestion features may not be available in your region.
 
 Search suggestions send everything you type in the address bar to the default search engine, regardless of whether you submit an actual search. Disabling search suggestions allows you to more precisely control what data you send to your search engine provider.
 
-#### Privacy & Security
+#### حریم‌خصوصی & امنیت
 
 ##### Enhanced Tracking Protection
 
@@ -194,7 +194,7 @@ The [Arkenfox project](https://github.com/arkenfox/user.js) provides a set of ca
 
 Arkenfox only aims to thwart basic or naive tracking scripts through canvas randomization and Firefox's built-in fingerprint resistance configuration settings. It does not aim to make your browser blend in with a large crowd of other Arkenfox users in the same way Mullvad Browser or Tor Browser do, which is the only way to thwart advanced fingerprint tracking scripts. Remember you can always use multiple browsers, for example, you could consider using Firefox+Arkenfox for a few sites that you want to stay logged in on or otherwise trust, and Mullvad Browser for general browsing.
 
-## Brave
+## بریو (Brave)
 
 !!! recommendation
 
@@ -219,7 +219,7 @@ Arkenfox only aims to thwart basic or naive tracking scripts through canvas rand
 
     1. We advise against using the Flatpak version of Brave, as it replaces Chromium's sandbox with Flatpak's, which is less effective. Additionally, the package is not maintained by Brave Software, Inc.
 
-### فایرفاکس Firefox
+### تنظیمات پیشنهادی
 
 These options can be found in :material-menu: → **Settings**.
 

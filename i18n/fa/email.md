@@ -40,7 +40,7 @@ cover: email.png
 
     ![Proton Mail logo](assets/img/email/protonmail.svg){ align=right }
     
-    **Proton Mail** is an email service with a focus on privacy, encryption, security, and ease of use. They have been in operation since **2013**. Proton AG is based in Genève, Switzerland. Accounts start with 500 MB storage with their free plan.
+    **Proton Mail** یک سرویس ایمیل با تمرکز بر حریم خصوصی، رمزگذاری، امنیت و سهولت استفاده است. آن‌ها از **2013** شروع به کار کرده‌اند. شرکت Proton AG در ژنو سوئیس قرار دارد. طرح رایگان شامل ۵۰۰ مگابایت فضای ذخیره‌سازی است.
     
     [:octicons-home-16: Homepage](https://proton.me/mail){ .md-button .md-button--primary }
     [:simple-torbrowser:](https://protonmailrmez3lotccipshtkleegetolb73fuirgj7r4o4vfu7ozyd.onion){ .card-link title="Onion Service" }
@@ -48,7 +48,8 @@ cover: email.png
     [:octicons-info-16:](https://proton.me/support/mail){ .card-link title=Documentation}
     [:octicons-code-16:](https://github.com/ProtonMail){ .card-link title="Source Code" }
     
-    ??? downloads
+    ؟؟؟ دانلودها
+    
     
         - [:simple-googleplay: Google Play](https://play.google.com/store/apps/details?id=ch.protonmail.android)
         - [:simple-appstore: App Store](https://apps.apple.com/app/apple-store/id979659905)
@@ -58,27 +59,27 @@ cover: email.png
         - [:simple-linux: Linux](https://proton.me/mail/bridge#download)
         - [:octicons-browser-16: Web](https://mail.proton.me)
 
-Free accounts have some limitations, such as not being able to search body text and not having access to [Proton Mail Bridge](https://proton.me/mail/bridge), which is required to use a [recommended desktop email client](email-clients.md) (e.g. Thunderbird). Paid accounts include features like Proton Mail Bridge, additional storage, and custom domain support. A [letter of attestation](https://proton.me/blog/security-audit-all-proton-apps) was provided for Proton Mail's apps on 9th November 2021 by [Securitum](https://research.securitum.com).
+حساب‌های رایگان دارای محدودیت‌هایی هستند، مانند عدم امکان جستجوی متن اصلی و عدم دسترسی به [Proton Mail Bridge](https://proton.me/mail/bridge)، که برای استفاده از [نرم افزار ایمیل دسک‌تاپ (ویندوزی) توصیه‌شده](email-clients.md) لازم است (به عنوان مثال. Thunderbird). حساب‌های پولی شامل ویژگی‌هایی مانند Proton Mail Bridge، فضای ذخیره‌سازی اضافی و پشتیبانی از دامنه سفارشی است. A [letter of attestation](https://proton.me/blog/security-audit-all-proton-apps) was provided for Proton Mail's apps on 9th November 2021 by [Securitum](https://research.securitum.com).
 
-If you have the Proton Unlimited, Business, or Visionary Plan, you also get [SimpleLogin](#simplelogin) Premium for free.
+اگر حسابUnlimited یا Business یا Visionary دارید، [SimpleLogin](#simplelogin) پولی را نیز به صورت رایگان دریافت می کنید.
 
-Proton Mail has internal crash reports that they **do not** share with third parties. This can be disabled in: **Settings** > **Go to Settings** > **Account** > **Security and privacy** > **Send crash reports**.
+Proton Mail گزارش‌های خرابی داخلی دارد که اطلاعات آن را با اشخاص ثالث به اشتراک **نمی‌گذارد**. This can be disabled in: **Settings** > **Go to Settings** > **Account** > **Security and privacy** > **Send crash reports**.
 
 #### :material-check:{ .pg-green } Custom Domains and Aliases
 
-Paid Proton Mail subscribers can use their own domain with the service or a [catch-all](https://proton.me/support/catch-all) address. Proton Mail also supports [subaddressing](https://proton.me/support/creating-aliases), which is useful for people who don't want to purchase a domain.
+مشترکین Proton Mail پولی می توانند از دامنه خود با این سرویس یا آدرس [catch-all](https://proton.me/support/catch-all) استفاده کنند. Proton Mail همچنین از [subaddressing](https://proton.me/support/creating-aliases) پشتیبانی می‌کند که برای افرادی که نمی‌خواهند دامنه بخرند مفید است.
 
-#### :material-check:{ .pg-green } Private Payment Methods
+#### :material-check:{ .pg-green } روش های پرداخت خصوصی
 
-Proton Mail [accepts](https://proton.me/support/payment-options) cash by mail in addition to standard credit/debit card, [Bitcoin](advanced/payments.md#other-coins-bitcoin-ethereum-etc), and PayPal payments.
+Proton Mail پول نقد از طریق پست، کارت اعتباری/دبیت استاندارد، [Bitcoin](advanced/payments.md# other-coins-bitcoin-ethereum-etc) و پرداخت های PayPal را [می‌پذیرد](https://proton.me/support/payment-options).
 
-#### :material-check:{ .pg-green } Account Security
+#### :material-check:{ .pg-green } امنیت حساب
 
-Proton Mail supports TOTP [two factor authentication](https://proton.me/support/two-factor-authentication-2fa) and [hardware security keys](https://proton.me/support/2fa-security-key) using FIDO2 or U2F standards. The use of a hardware security key requires setting up TOTP two factor authentication first.
+Proton Mail از TOTP [احراز هویت دو عاملی](https://proton.me/support/two-factor-authentication-2fa) و [کلیدهای امنیتی سخت افزاری](https://proton.me/support TOTP/2fa-security-key) با استفاده از استانداردهای FIDO2 یا U2F پشتیبانی می‌کند. استفاده از کلید امنیتی سخت افزاری نیازمند راه‌اندازی احراز هویت دو عاملی TOTP است.
 
-#### :material-check:{ .pg-green } Data Security
+#### :material-check:{ .pg-green } امنیت داده
 
-Proton Mail has [zero-access encryption](https://proton.me/blog/zero-access-encryption) at rest for your emails and [calendars](https://proton.me/news/protoncalendar-security-model). Data secured with zero-access encryption is only accessible by you.
+Proton Mail دارای [رمزگذاری بدون دسترسی](https://proton.me/blog/zero-access-encryption) برای سرویس ایمیل‌ و [تقویم](https://proton.me/news/protoncalendar-security-model) است. داده های ایمن شده با رمزگذاری دسترسی صفر فقط توسط شما قابل دسترسی است.
 
 Certain information stored in [Proton Contacts](https://proton.me/support/proton-contacts), such as display names and email addresses, are not secured with zero-access encryption. Contact fields that support zero-access encryption, such as phone numbers, are indicated with a padlock icon.
 
@@ -118,11 +119,11 @@ Proton Mail doesn't offer a digital legacy feature.
 
 Mailbox.org lets you use your own domain, and they support [catch-all](https://kb.mailbox.org/display/MBOKBEN/Using+catch-all+alias+with+own+domain) addresses. Mailbox.org also supports [subaddressing](https://kb.mailbox.org/display/BMBOKBEN/What+is+an+alias+and+how+do+I+use+it), which is useful if you don't want to purchase a domain.
 
-#### :material-check:{ .pg-green } Private Payment Methods
+#### :material-check:{ .pg-green } روش های پرداخت خصوصی
 
 Mailbox.org doesn't accept any cryptocurrencies as a result of their payment processor BitPay suspending operations in Germany. However, they do accept Cash by mail, cash payment to bank account, bank transfer, credit card, PayPal and couple of German-specific processors: paydirekt and Sofortüberweisung.
 
-#### :material-check:{ .pg-green } Account Security
+#### :material-check:{ .pg-green } امنیت حساب
 
 Mailbox.org supports [two factor authentication](https://kb.mailbox.org/display/MBOKBEN/How+to+use+two-factor+authentication+-+2FA) for their webmail only. You can use either TOTP or a [YubiKey](https://en.wikipedia.org/wiki/YubiKey) via the [YubiCloud](https://www.yubico.com/products/services-software/yubicloud). Web standards such as [WebAuthn](https://en.wikipedia.org/wiki/WebAuthn) are not yet supported.
 
@@ -190,11 +191,11 @@ You can create up to 3 additional @skiff.com email aliases in addition to your p
 
 Skiff Mail accepts cryptocurrency payments via Coinbase Commerce, including Bitcoin and Ethereum, but they do not accept our recommended [cryptocurrency](cryptocurrency.md), Monero. They also accept credit card payments via Stripe.
 
-#### :material-check:{ .pg-green } Account Security
+#### :material-check:{ .pg-green } امنیت حساب
 
 Skiff Mail supports TOTP two-factor authentication and hardware security keys using FIDO2 or U2F standards. The use of a hardware security key requires setting up TOTP two-factor authentication first.
 
-#### :material-check:{ .pg-green } Data Security
+#### :material-check:{ .pg-green } امنیت داده
 
 Skiff Mail has zero access encryption at rest for all of your data. This means the messages and other data stored in your account are only readable by you.
 
@@ -246,11 +247,11 @@ Paid Tutanota accounts can use up to 5 [aliases](https://tutanota.com/faq#alias)
 
 Tutanota only directly accepts credit cards and PayPal, however [cryptocurrency](cryptocurrency.md) can be used to purchase gift cards via their [partnership](https://tutanota.com/faq/#cryptocurrency) with Proxystore.
 
-#### :material-check:{ .pg-green } Account Security
+#### :material-check:{ .pg-green } امنیت حساب
 
 Tutanota supports [two factor authentication](https://tutanota.com/faq#2fa) with either TOTP or U2F.
 
-#### :material-check:{ .pg-green } Data Security
+#### :material-check:{ .pg-green } امنیت داده
 
 Tutanota has [zero access encryption at rest](https://tutanota.com/faq#what-encrypted) for your emails, [address book contacts](https://tutanota.com/faq#encrypted-address-book), and [calendars](https://tutanota.com/faq#calendar). This means the messages and other data stored in your account are only readable by you.
 
@@ -395,22 +396,22 @@ For a more manual approach we've picked out these two articles:
 - [Setting up a mail server with OpenSMTPD, Dovecot and Rspamd](https://poolp.org/posts/2019-09-14/setting-up-a-mail-server-with-opensmtpd-dovecot-and-rspamd/) (2019)
 - [How To Run Your Own Mail Server](https://www.c0ffee.net/blog/mail-server-guide/) (August 2017)
 
-## Criteria
+## معیار
 
 **Please note we are not affiliated with any of the providers we recommend.** In addition to [our standard criteria](about/criteria.md), we have developed a clear set of requirements for any Email provider wishing to be recommended, including implementing industry best practices, modern technology and more. We suggest you familiarize yourself with this list before choosing an Email provider, and conduct your own research to ensure the Email provider you choose is the right choice for you.
 
-### Technology
+### فناوری
 
 We regard these features as important in order to provide a safe and optimal service. You should consider whether the provider which has the features you require.
 
-**Minimum to Qualify:**
+**حداقل شرایط صلاحیت:**
 
 - Encrypts email account data at rest with zero-access encryption.
 - Export capability as [Mbox](https://en.wikipedia.org/wiki/Mbox) or individual .eml with [RFC5322](https://datatracker.ietf.org/doc/rfc5322/) standard.
 - Allow users to use their own [domain name](https://en.wikipedia.org/wiki/Domain_name). Custom domain names are important to users because it allows them to maintain their agency from the service, should it turn bad or be acquired by another company which doesn't prioritize privacy.
 - Operates on owned infrastructure, i.e. not built upon third-party email service providers.
 
-**Best Case:**
+**بهترین شرایط:**
 
 - Encrypts all account data (Contacts, Calendars, etc.) at rest with zero-access encryption.
 - Integrated webmail E2EE/PGP encryption provided as a convenience.
@@ -421,17 +422,17 @@ We regard these features as important in order to provide a safe and optimal ser
 - Catch-all or alias functionality for those who own their own domains.
 - Use of standard email access protocols such as IMAP, SMTP or [JMAP](https://en.wikipedia.org/wiki/JSON_Meta_Application_Protocol). Standard access protocols ensure customers can easily download all of their email, should they want to switch to another provider.
 
-### Privacy
+### حریم خصوصی
 
 We prefer our recommended providers to collect as little data as possible.
 
-**Minimum to Qualify:**
+**حداقل شرایط صلاحیت:**
 
 - Protect sender's IP address. Filter it from showing in the `Received` header field.
 - Don't require personally identifiable information (PII) besides a username and a password.
 - Privacy policy that meets the requirements defined by the GDPR.
 
-**Best Case:**
+**بهترین شرایط:**
 
 - Accepts [anonymous payment options](advanced/payments.md) ([cryptocurrency](cryptocurrency.md), cash, gift cards, etc.)
 - Hosted in a jurisdiction with strong email privacy protection laws.
@@ -468,28 +469,28 @@ Email servers deal with a lot of very sensitive data. We expect that providers w
     - [Content Security Policy (CSP)](https://en.wikipedia.org/wiki/Content_Security_Policy)
     - [RFC9163 Expect-CT](https://datatracker.ietf.org/doc/rfc9163/)
 
-### Trust
+### اعتماد
 
-You wouldn't trust your finances to someone with a fake identity, so why trust them with your email? We require our recommended providers to be public about their ownership or leadership. We also would like to see frequent transparency reports, especially in regard to how government requests are handled.
+شما به شخصی با هویت تقلبی برای امور مالی اعتماد نمی‌کنید، پس چرا با ایمیل‌تان به آنها اعتماد کنید؟ ما از ارائه‌دهندگانی که توصیه می‌کنیم می‌خواهیم که درباره مالکیت یا رهبری خود به صورت عمومی اطلاع رسانی کنند. همچنین، ما علاقه‌مندیم که گزارش‌های شفافیت متناوب ببینیم، به ویژه در ارتباط با روش برخورد با درخواست‌های دولتی.
 
-**Minimum to Qualify:**
+**حداقل شرایط صلاحیت:**
 
-- Public-facing leadership or ownership.
+- رهبری یا مالکیت قابل رویت توسط عموم.
 
-**Best Case:**
+**بهترین شرایط:**
 
-- Public-facing leadership.
-- Frequent transparency reports.
+- رهبری قابل رویت عمومی.
+- گزارش‌های شفافیت متناوب.
 
-### Marketing
+### تبلیغات و بازاریابی
 
-With the email providers we recommend we like to see responsible marketing.
+با ارائه‌دهندگان ایمیلی که ما توصیه می‌کنیم، ما علاقه‌مند به بازاریابی مسئولانه هستیم.
 
-**Minimum to Qualify:**
+**حداقل شرایط صلاحیت:**
 
 - Must self-host analytics (no Google Analytics, Adobe Analytics, etc.). The provider's site must also comply with [DNT (Do Not Track)](https://en.wikipedia.org/wiki/Do_Not_Track) for those who wish to opt-out.
 
-Must not have any marketing which is irresponsible:
+نباید هیچ گونه بازاریابی نامسئولانه انجام شود:
 
 - Claims of "unbreakable encryption." Encryption should be used with the intention that it may not be secret in the future when the technology exists to crack it.
 - Making guarantees of protecting anonymity 100%. When someone makes a claim that something is 100% it means there is no certainty for failure. We know people can quite easily deanonymize themselves in a number of ways, e.g.:
@@ -497,10 +498,10 @@ Must not have any marketing which is irresponsible:
 - Reusing personal information e.g. (email accounts, unique pseudonyms, etc.) that they accessed without anonymity software (Tor, VPN, etc.)
 - [Browser fingerprinting](https://en.wikipedia.org/wiki/Device_fingerprint#Browser_fingerprint)
 
-**Best Case:**
+**بهترین شرایط:**
 
 - Clear and easy to read documentation. This includes things like, setting up 2FA, email clients, OpenPGP, etc.
 
-### Additional Functionality
+### قابلیت‌های اضافی
 
-While not strictly requirements, there are some other convenience or privacy factors we looked into when determining which providers to recommend.
+با اینکه این موارد الزامی نیستند، اما در انتخاب ارائه‌دهندگانی که توصیه ‌می‌کنیم، به عواملی مانند راحتی و حفظ حریم خصوصی نیز توجه می‌کنیم.

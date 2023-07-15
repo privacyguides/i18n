@@ -23,19 +23,19 @@ No entanto, eles ocultam seu IP real de um serviço de terceiros, desde que não
 
 É pouco provável que a utilização de uma VPN seja útil nos casos em que utiliza a sua [identidade](common-threats.md#common-misconceptions).
 
-Doing so may trigger spam and fraud detection systems, such as if you were to log into your bank's website.
+Fazê-lo pode acionar sistemas de detecção de fraude e “spam”, como se você logasse no site do seu banco.
 
 ## E Quanto à Criptografia?
 
-Encryption offered by VPN providers are between your devices and their servers. It guarantees that this specific link is secure. This is a step up from using unencrypted proxies where an adversary on the network can intercept the communications between your devices and said proxies and modify them. However, encryption between your apps or browsers with the service providers are not handled by this encryption.
+A criptografia oferecida por provedores de VPN está presente entre seus dispositivos e os servidores deles. Isso garante que esse link específico entre cliente-servidor é seguro. Isso já é um avanço em relação a utilizar “proxies” descriptografados onde um adversário na rede pode interceptar as comunicações entre seus dispositivos e os respectivos “proxies”, modificando-as. No entanto, a criptografia entre seus aplicativos e navegadores com os provedores de serviço não é tratada por essa criptografia.
 
-In order to keep what you actually do on the websites you visit private and secure, you must use HTTPS. This will keep your passwords, session tokens, and queries safe from the VPN provider. Consider enabling "HTTPS everywhere" in your browser to mitigate downgrade attacks like [SSL Strip](https://www.blackhat.com/presentations/bh-dc-09/Marlinspike/BlackHat-DC-09-Marlinspike-Defeating-SSL.pdf).
+Para manter realmente privado e seguro o que você faz nos sites que visita, você precisa utilizar HTTPS. Isso irá manter suas senhas, “tokens” de seção, e consultas seguras do seu provedor de VPN. Considere habilitar a opção “HTTPS automático” no seu navegador para mitigar ataques de “downgrade” como o [SSL Strip](https://www.blackhat.com/presentations/bh-dc-09/Marlinspike/BlackHat-DC-09-Marlinspike-Defeating-SSL.pdf).
 
 ## Devo usar DNS criptografado com uma VPN?
 
-Unless your VPN provider hosts the encrypted DNS servers, **no**. Using DOH/DOT (or any other form of encrypted DNS) with third-party servers will simply add more entities to trust and does **absolutely nothing** to improve your privacy/security. Your VPN provider can still see which websites you visit based on the IP addresses and other methods. Instead of just trusting your VPN provider, you are now trusting both the VPN provider and the DNS provider.
+A menos que seu próprio provedor de VPN hospede os servidores de DNS criptografados, **não**. Usar “DOH/DOT” (ou qualquer outra forma de DNS criptografado) com um servidor terceiro irá simplesmente adicionar mais entidades para confiar e não faz **absolutamente nada** para melhorar sua privacidade/segurança. Seu provedor VPN ainda pode ver quais sites você visita baseado nos seus endereços IP e outros métodos. Ao invés de confiar apenas no seu provedor VPN, você agora estará confiando nele e no provedor DNS escolhido.
 
-A common reason to recommend encrypted DNS is that it helps against DNS spoofing. However, your browser should already be checking for [TLS certificates](https://en.wikipedia.org/wiki/Transport_Layer_Security#Digital_certificates) with **HTTPS** and warn you about it. If you are not using **HTTPS**, then an adversary can still just modify anything other than your DNS queries and the end result will be little different.
+Uma razão comum para recomendar DNS criptografado é que ajuda contra a falsificação de DNS (ou “DNS spoofing”). No entanto, seu navegador já deve estar checando por [certificados TLS](https://en.wikipedia.org/wiki/Transport_Layer_Security#Digital_certificates) com **HTTPS** e te informar sobre. Se você não está usando **HTTPS**, então um adversário pode simplesmente modificar qualquer coisa diferente das suas consultas DNS e o resultado será pouco diferente.
 
 Needless to say, **you shouldn't use encrypted DNS with Tor**. This would direct all of your DNS requests through a single circuit and would allow the encrypted DNS provider to deanonymize you.
 

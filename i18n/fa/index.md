@@ -1,5 +1,5 @@
 ---
-meta_title: "Privacy Guides: Your Independent Privacy and Security Resource"
+meta_title: "Privacy Guides: منبع مستقل حریم خصوصی و امنیت شما"
 template: overrides/home.fa.html
 hide:
   - navigation
@@ -42,30 +42,30 @@ schema:
 
 تمام حقوقی که اکنون برای ما طبیعی به نظر می‌رسند، به عنوان انسان‌ها برای ما در طول تاریخ تضمین نشده بوده‌اند. حق ازدواج مختلط، حق رأی زنان، آزادی بیان و بسیاری از حقوق دیگر در برابر سرکوب و نقض قرار گرفته‌اند. در چندین دیکتاتوری، هنوز هم این امر صادق نیست. نسل‌های قبل از ما برای حق حریم خصوصی ما مبارزه کردند. حریم خصوصی یک حق انسانی است که درونی برای همهٔ ما وجود دارد و ما به آن (بدون تبعیض) حق داریم.
 
-شما نباید حریم خصوصی را با امنیت اشتباه بگیرید. ما می‌دانیم که در حمام چه اتفاقاتی می‌افتد، اما همچنان در را می‌بندید. That's because you want privacy, not secrecy. **Everyone** has something to protect. Privacy is something that makes us human.
+شما نباید حریم خصوصی را با امنیت اشتباه بگیرید. ما می‌دانیم که در حمام چه اتفاقاتی می‌افتد، اما همچنان در را می‌بندید. این به این خاطر است که شما حریم خصوصی می‌خواهید، نه محرمانگی. **همه‌ی افراد** چیزی برای حفاظت دارند. حریم خصوصی، چیزی است که ما را انسان می‌سازد.
 
-[:material-book-outline: Why Privacy Matters](basics/why-privacy-matters.md){ class="md-button md-button--primary" }
+[:material-book-outline: چرا حریم خصوصی اهمیت دارد](basics/why-privacy-matters.md){ class="md-button md-button--primary"}
 
 ## چه کاری باید انجام بدهم؟
 
-##### First, you need to make a plan
+##### اول، شما باید یک برنامه تهیه کنید
 
-Trying to protect all your data from everyone all the time is impractical, expensive, and exhausting. ولی نگران نباشید! Security is a process, and, by thinking ahead, you can put together a plan that's right for you. Security isn't just about the tools you use or the software you download. Rather, it begins by understanding the unique threats you face, and how you can mitigate them.
+تلاش برای حفاظت از تمام داده‌هایتان از همه و در هر زمان، غیرعملی، هزینه‌بر و خسته‌کننده است. ولی نگران نباشید! امنیت یک فرآیند است و با فکر به آینده، شما می‌توانید یک برنامه‌ی مناسب برای خودتان تهیه کنید. امنیت فقط درباره ابزارهایی که استفاده می‌کنید یا نرم‌افزارهایی که دانلود می‌کنید نیست. بلکه آغاز آن با درک تهدیدات منحصر به فردی است که در برابر آنها قرار دارید و چگونگی کاهش این تهدیدات.
 
-==This process of identifying threats and defining countermeasures is called **threat modeling**==, and it forms the basis of every good security and privacy plan.
+==این فرآیند شناسایی تهدیدات و تعریف اقدامات متقابل، به نام **مدلسازی تهدید** شناخته می‌شود و اساس هر برنامه امنیت و حریم خصوصی خوب را تشکیل می‌دهد.==.
 
-[:material-book-outline: Learn More About Threat Modeling](basics/threat-modeling.md){ class="md-button md-button--primary" }
+[:material-book-outline: یادگیری بیشتر درباره مدلسازی تهدید](basics/threat-modeling.md){ class="md-button md-button--primary" }
 
 ---
 
-## ما به کمک شما نیاز داریم! Here's how to get involved:
+## ما به کمک شما نیاز داریم! اینطوری می‌توانید مشارکت کنید:
 
-[:simple-discourse:](https://discuss.privacyguides.net/){ title="Join our Forum" }
-[:simple-mastodon:](https://mastodon.neat.computer/@privacyguides){ rel=me title="Follow us on Mastodon" }
-[:material-book-edit:](https://github.com/privacyguides/privacyguides.org){ title="Contribute to this website" }
-[:material-translate:](https://matrix.to/#/#pg-i18n:aragon.sh){ title="Help translate this website" }
-[:simple-matrix:](https://matrix.to/#/#privacyguides:matrix.org){ title="Chat with us on Matrix" }
-[:material-information-outline:](about/index.md){ title="Learn more about us" }
-[:material-hand-coin-outline:](about/donate.md){ title="Support the project" }
+[:simple-discourse:](https://discuss.privacyguides.net/){ title="به انجمن ما بپیوندید" }
+[:simple-mastodon:](https://mastodon.neat.computer/@privacyguides){ rel=me title="ما را در Mastodon دنبال کنید" }
+[:material-book-edit:](https://github.com/privacyguides/privacyguides.org){ title="مشارکت در این وبسایت" }
+[:material-translate:](https://matrix.to/#/#pg-i18n:aragon.sh){ title="به ترجمه این وبسایت کمک کنید" }
+[:simple-matrix:](https://matrix.to/#/#privacyguides:matrix.org){ title="با ما در Matrix چت کنید" }
+[:material-information-outline:](about/index.md){ title="درباره ما بیشتر بدانید" }
+[:material-hand-coin-outline:](about/donate.md){ title="حمایت از پروژه" }
 
-It's important for a website like Privacy Guides to always stay up-to-date. We need our audience to keep an eye on software updates for the applications listed on our site and follow recent news about providers that we recommend. It's hard to keep up with the fast pace of the internet, but we try our best. If you spot an error, think a provider should not be listed, notice a qualified provider is missing, believe a browser plugin is no longer the best choice, or uncover any other issue, please let us know.
+برای یک وبسایت مانند Privacy Guides، مهم است که همواره به‌روز باشد. ما نیاز داریم که مخاطبانمان به بروزرسانی‌های نرم‌افزاری برای برنامه‌های لیست شده در وبسایت‌‌، دقت کنند و اخبار جدید مربوط به ارائه‌دهندگانی که ما توصیه می‌کنیم را دنبال کنند. سخت است با سرعت بالای اینترنت هماهنگ شد، اما ما تلاش خود را بهترین شکل ممکن انجام می‌دهیم. اگر خطایی را مشاهده کردید، فکر می‌کنید که یک ارائه‌دهنده باید در لیست وجود نداشته باشد، یا متوجه شدید که یک ارائه‌دهنده متخصص حذف شده است، باور دارید که یک افزونه مرورگر دیگر بهترین انتخاب نیست یا هر مشکل دیگری را کشف کردید، لطفاً به ما اطلاع دهید.
