@@ -1,20 +1,20 @@
 ---
-title: macOS Overview
+title: Introduction à macOS
 icon: material/apple-finder
-description: macOS is Apple's desktop operating system that works with their hardware to provide strong security.
+description: macOS est le système d'exploitation d'Apple pour ordinateurs de bureau fonctionnant avec leur propre matériel pour assurer une sécurité forte.
 ---
 
-**macOS** is a Unix operating system developed by Apple for their Mac computers. To enhance privacy on macOS, you can disable telemetry features and harden existing privacy and security settings.
+**macOS** est un système d'exploitation Unix développé par Apple pour leurs ordinateurs Mac. Pour améliorer la confidentialité de macOS, il est possible de désactiver la télémétrie et renforcer les paramètres existants de confidentialité et de sécurité.
 
-Older Intel-based Macs and Hackintoshes do not support all the security features that macOS offers. To enhance data security, we recommend using a newer Mac with [Apple silicon](https://support.apple.com/en-us/HT211814).
+Les Macs plus anciens qui embarquent du matériel Intel ainsi que les Hackintoshes ne supportent pas toutes les fonctionnalités de sécurité offertes par macOS. Pour améliorer la sécurité des données, nous recommandons d'utiliser un Mac récent avec un processeur [Apple Silicon](https://support.apple.com/en-us/HT211814).
 
-## Privacy Notes
+## Remarques
 
-There are a few notable privacy concerns with macOS that you should consider. These pertain to the operating system itself, and not Apple's other apps and services.
+macOS soulève plusieurs problèmes dont vous devriez tenir compte. Ils relèvent du système d'exploitation lui-même et non des autres applications et services Apple.
 
-### Activation Lock
+### Verrouillage d'activation
 
-Brand new Apple silicon devices can be set up without an internet connection. However, recovering or resetting your Mac will **require** an internet connection to Apple's servers to check against the Activation Lock database of lost or stolen devices.
+Les appareils neufs Apple peuvent être configurés sans connexion à internet. Cependant, récupérer ou réinitialiser votre Mac **nécessitera** une connexion internet aux serveurs d'Apple pour vérifier s'il est dans la base de données des appareils perdus ou volés.
 
 ### App Revocation Checks
 

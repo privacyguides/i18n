@@ -1,4 +1,4 @@
-*[2FA]: Autenticazione a 2 fattori
+*[2FA] (A2F): Autenticazione a 2 Fattori
 *[ADB]: Android Debug Bridge
 *[AOSP]: Android Open Source Project
 *[ATA]: Allegato tecnologico avanzato

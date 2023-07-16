@@ -50,7 +50,7 @@ YubiKeys можно запрограммировать с помощью [YubiKe
 
 !!! warning "Осторожно"
 
-    Хотя Nitrokeys не передают секреты HOTP/TOTP на устройство, к которому они подключены, хранилище HOTP и TOTP **не** зашифровано и уязвимо для физических атак. Если вы хотите хранить секреты HOTP или TOTP, мы настоятельно рекомендуем вам использовать YubiKey.
+    Хотя Nitrokeys не передают секреты HOTP/TOTP на устройство, к которому они подключены, хранилище HOTP и TOTP **не** зашифровано и уязвимо для физических атак. If you are looking to store HOTP or TOTP secrets, we highly recommend that you use a YubiKey instead.
 
 !!! warning "Осторожно"
 

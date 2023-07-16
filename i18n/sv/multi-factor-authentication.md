@@ -50,7 +50,7 @@ För de modeller som stöder HOTP och TOTP finns det 3 platser för HOTP och 15 
 
 !!! varning
 
-    Även om Nitrokeys inte lämnar ut HOTP/TOTP-hemligheterna till den enhet de är anslutna till, är HOTP- och TOTP-lagringen **inte** krypterad och sårbar för fysiska attacker. If you are looking to store HOTP or TOTP these secrets, we highly recommend that you use a YubiKey instead.
+    Även om Nitrokeys inte lämnar ut HOTP/TOTP-hemligheterna till den enhet de är anslutna till, är HOTP- och TOTP-lagringen **inte** krypterad och sårbar för fysiska attacker. If you are looking to store HOTP or TOTP secrets, we highly recommend that you use a YubiKey instead.
 
 !!! varning
 

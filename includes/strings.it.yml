@@ -19,7 +19,7 @@ config:
     question: Questa pagina è stata utile?
     yes: Questa pagina è stata utile
     yes-note: Grazie per il tuo feedback!
-    no: Questa pagina può essere migliorata
+    no: Questa pagina potrebbe essere migliorata
     no-note: |
       Grazie per il tuo feedback! Aiutaci a migliorare questa pagina aprendo una discussione sul nostro forum.
   theme:
@@ -27,19 +27,19 @@ config:
     light: Passa al tema chiaro
     system: Passa al tema di sistema
 nav:
-  Home: Pagina iniziale
-  Knowledge Base: Conoscenze di base
-  Technology Essentials: Elementi essenziali della tecnologia
-  Operating Systems: Sistemi operativi
+  Home: Home
+  Knowledge Base: Base di Conoscenza
+  Technology Essentials: Fondamenti di Tecnologia
+  Operating Systems: Sistemi Operativi
   Advanced Topics: Argomenti avanzati
-  Recommendations: Raccomandazioni
+  Recommendations: Consigli
   Internet Browsing: Navigazione su Internet
   Providers: Fornitori
   Software: Software
   About: Informazioni
-  Community: Comunità
+  Community: Community
   Online Services: Servizi online
-  Code of Conduct: Codice di condotta
+  Code of Conduct: Codice di Condotta
   Contributing: Contribuisci
   Writing Guide: Guida alla scrittura
   Technical Guides: Guide tecniche

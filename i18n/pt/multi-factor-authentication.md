@@ -52,7 +52,7 @@ Para os modelos que suportam HOTP e TOTP, existem 3 slots para HOTP e 15 para TO
 
 !!! aviso
 
-    Embora as Nitrokeys não libertem os segredos HOTP/TOTP para o dispositivo a que estão ligados, o armazenamento HOTP e TOTP **não** é encriptado e é vulnerável a ataques físicos. Se pretender armazenar estes segredos HOTP ou TOTP, recomendamos vivamente que utilize uma YubiKey.
+    Embora as Nitrokeys não libertem os segredos HOTP/TOTP para o dispositivo a que estão ligados, o armazenamento HOTP e TOTP **não** é encriptado e é vulnerável a ataques físicos. If you are looking to store HOTP or TOTP secrets, we highly recommend that you use a YubiKey instead.
 
 !!! aviso
 

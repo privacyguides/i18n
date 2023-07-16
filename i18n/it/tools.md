@@ -191,7 +191,7 @@ Per maggiori dettagli su ogni progetto, sul motivo per cui è stato scelto e su 
     
     Se stai cercando **anonimato**, dovresti usare il Tor Browser **invece** di una VPN.
     
-    Se stai cercando maggiore **sicurezza**, dovresti sempre assicurarti di connetterti a siti Web usando HTTPS. Una VPN non è un sostituto per buone pratiche di sicurezza.
+    Se stai cercando maggiore **sicurezza**, dovresti sempre assicurarti di connetterti a siti Web usando HTTPS. Una VPN non sostituisce le buone pratiche di sicurezza.
     
     [Maggiori informazioni :material-arrow-right-drop-circle:](vpn.md)
 
