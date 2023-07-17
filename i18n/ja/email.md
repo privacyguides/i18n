@@ -270,7 +270,7 @@ Tutanota also has a business feature called [Secure Connect](https://tutanota.co
 
 Tutanota doesn't offer a digital legacy feature.
 
-## Email Aliasing Services
+## メールエイリアスサービス
 
 An email aliasing service allows you to easily generate a new email address for every website you register for. The email aliases you generate are then forwarded to an email address of your choosing, hiding both your "main" email address and the identity of your email provider. True email aliasing is better than plus addressing commonly used and supported by many providers, which allows you to create aliases like yourname+[anythinghere]@example.com, because websites, advertisers, and tracking networks can trivially remove anything after the + sign to know your true email address.
 
@@ -363,7 +363,7 @@ SimpleLoginは、2022年4月8日付で[Proton AGに買収](https://proton.me/new
 - [x] 無制限の返信
 - [x] 1個の受信用メールボックス
 
-## Self-Hosting Email
+## セルフホストメール
 
 Advanced system administrators may consider setting up their own email server. Mail servers require attention and continuous maintenance in order to keep things secure and mail delivery reliable.
 

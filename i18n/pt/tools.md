@@ -411,16 +411,6 @@ Recomendamos armazenar uma chave de recuperação local em um local seguro, em v
 
 [Saiba mais :material-arrow-right-drop-circle:](real-time-communication.md)
 
-### Clientes de streaming de vídeo
-
-<div class="grid cards" markdown>
-
-- ![Logótipo LBRY](assets/img/video-streaming/lbry.svg){ .twemoji } [LBRY](video-streaming.md#lbry)
-
-</div>
-
-[Saiba mais :material-arrow-right-drop-circle:](video-streaming.md)
-
 ## Sistemas Operativos
 
 ### Móvel

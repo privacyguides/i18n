@@ -411,16 +411,6 @@ description: Privacy Guides הוא האתר השקוף והאמין ביותר �
 
 [למד עוד :material-arrow-right-drop-circle:](real-time-communication.md)
 
-### לקוחות הזרמת וידאו
-
-<div class="grid cards" markdown>
-
-- ![LBRY לוגו](assets/img/video-streaming/lbry.svg){ .twemoji } [LBRY](video-streaming.md#lbry)
-
-</div>
-
-[למד עוד :material-arrow-right-drop-circle:](video-streaming.md)
-
 ## מערכות הפעלה
 
 ### נייד

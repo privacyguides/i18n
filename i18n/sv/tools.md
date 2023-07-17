@@ -411,16 +411,6 @@ Vi [rekommenderar](dns.md#recommended-providers) ett antal krypterade DNS-servra
 
 [Läs mer :material-arrow-right-drop-circle:](real-time-communication.md)
 
-### Klienter för videoströmning
-
-<div class="grid cards" markdown>
-
-- ![LBRY logo](assets/img/video-streaming/lbry.svg){ .twemoji } [LBRY](video-streaming.md#lbry)
-
-</div>
-
-[Läs mer :material-arrow-right-drop-circle:](video-streaming.md)
-
 ## Operativsystem
 
 ### Mobil

@@ -411,16 +411,6 @@ description: Privacy Guides - это самый прозрачный и наде
 
 [Узнать больше :material-arrow-right-drop-circle:](real-time-communication.md)
 
-### Приложения стриминга видео
-
-<div class="grid cards" markdown>
-
-- ![Логотип LBRY](assets/img/video-streaming/lbry.svg){ .twemoji } [LBRY](video-streaming.md#lbry)
-
-</div>
-
-[Узнать больше :material-arrow-right-drop-circle:](video-streaming.md)
-
 ## Операционные системы
 
 ### Для телефонов

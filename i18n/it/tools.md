@@ -411,16 +411,6 @@ Per maggiori dettagli su ogni progetto, sul motivo per cui è stato scelto e su 
 
 [Maggiori informazioni :material-arrow-right-drop-circle:](real-time-communication.md)
 
-### Client di streaming video
-
-<div class="grid cards" markdown>
-
-- ![LBRY logo](assets/img/video-streaming/lbry.svg){ .twemoji } [LBRY](video-streaming.md#lbry)
-
-</div>
-
-[Maggiori informazioni :material-arrow-right-drop-circle:](video-streaming.md)
-
 ## Sistemi operativi
 
 ### Mobile

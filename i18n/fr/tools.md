@@ -411,16 +411,6 @@ Nous [recommandons](dns.md#recommended-providers) un certain nombre de serveurs 
 
 [En savoir plus :material-arrow-right-drop-circle:](real-time-communication.md)
 
-### Clients de streaming vidéo
-
-<div class="grid cards" markdown>
-
-- ![Logo LBRY](assets/img/video-streaming/lbry.svg){ .twemoji } [LBRY](video-streaming.md#lbry)
-
-</div>
-
-[En savoir plus :material-arrow-right-drop-circle:](video-streaming.md)
-
 ## Systèmes d'exploitation
 
 ### Mobile

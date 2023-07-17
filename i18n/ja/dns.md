@@ -7,7 +7,7 @@ cover: dns.png
 
 Encrypted DNS with third-party servers should only be used to get around basic [DNS blocking](https://en.wikipedia.org/wiki/DNS_blocking) when you can be sure there won't be any consequences. Encrypted DNS will not help you hide any of your browsing activity.
 
-[Learn more about DNS :material-arrow-right-drop-circle:](advanced/dns-overview.md ""){.md-button}
+[DNSの詳細 :material-arrow-right-drop-circle:](advanced/dns-overview.md ""){.md-button}
 
 ## Recommended Providers
 
@@ -53,7 +53,7 @@ Apple does not provide a native interface for creating encrypted DNS profiles. [
 
     `systemd-resolved`, which many Linux distributions use to do their DNS lookups, doesn't yet [support DoH](https://github.com/systemd/systemd/issues/8639). If you want to use DoH, you'll need to install a proxy like [dnscrypt-proxy](https://github.com/DNSCrypt/dnscrypt-proxy) and [configure it](https://wiki.archlinux.org/title/Dnscrypt-proxy) to take all the DNS queries from your system resolver and forward them over HTTPS.
 
-## Encrypted DNS Proxies
+## 暗号化DNSプロキシ
 
 Encrypted DNS proxy software provides a local proxy for the [unencrypted DNS](advanced/dns-overview.md#unencrypted-dns) resolver to forward to. Typically it is used on platforms that don't natively support [encrypted DNS](advanced/dns-overview.md#what-is-encrypted-dns).
 
@@ -97,7 +97,7 @@ Encrypted DNS proxy software provides a local proxy for the [unencrypted DNS](ad
         - [:simple-apple: macOS](https://github.com/DNSCrypt/dnscrypt-proxy/wiki/Installation-macOS)
         - [:simple-linux: Linux](https://github.com/DNSCrypt/dnscrypt-proxy/wiki/Installation-linux)
 
-## Self-hosted Solutions
+## セルフホストソリューション
 
 A self-hosted DNS solution is useful for providing filtering on controlled platforms, such as Smart TVs and other IoT devices, as no client-side software is needed.
 

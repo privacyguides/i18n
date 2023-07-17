@@ -1,25 +1,25 @@
 ---
-meta_title: "Recomendações de e-mail privado encriptado - Privacy Guides"
-title: "Serviços de e-mail"
+meta_title: "Recomendações de Correio Eletrónico Privado Encriptado - Privacy Guides"
+title: "Serviços de Correio Eletrónico"
 icon: material/email
-description: Estes fornecedores de e-mail são um excelente local para armazenar os seus e-mails em segurança e muitos oferecem encriptação OpenPGP interoperável com outros fornecedores.
+description: Estes fornecedores de correio eletrónico são um excelente local para armazenar as suas mensagens eletrónicas em segurança e muitos oferecem encriptação OpenPGP interoperável com outros fornecedores.
 cover: email.png
 ---
 
-O e-mail é praticamente uma necessidade para subscrever qualquer serviço online, mas não o recomendamos para conversas pessoais. Em vez de utilizar o e-mail para contactar outras pessoas, considere a possibilidade de utilizar uma aplicação de mensagens instantâneas que suporte encaminhamento sigiloso.
+O correio eletrónico é praticamente uma necessidade para subscrever qualquer serviço online, mas não o recomendamos para conversas pessoais. Em vez de utilizar o correio eletrónico para contactar outras pessoas, considere a possibilidade de utilizar uma aplicação de mensagens instantâneas que suporte encaminhamento sigiloso.
 
-[Aplicações de mensagens instantâneas recomendadas](real-time-communication.md ""){.md-button}
+[Aplicações de Mensagens Instantâneas Recomendadas](real-time-communication.md ""){.md-button}
 
 Para tudo o resto, recomendamos uma variedade de fornecedores de e-mail baseados em modelos de negócio sustentáveis e que incorporem funcionalidades de segurança e de privacidade.
 
-- [Fornecedores de e-mail compatíveis com OpenPGP :material-arrow-right-drop-circle:](#openpgp-compatible-services)
-- [Outros fornecedores com encriptação :material-arrow-right-drop-circle:](#more-providers)
-- [Serviços de aliasing de e-mail :material-arrow-right-drop-circle:](#email-aliasing-services)
-- [Opções auto-hospedadas :material-arrow-right-drop-circle:](#self-hosting-email)
+- [Fornecedores de Correio Eletrónico Compatíveis com OpenPGP :material-arrow-right-drop-circle:](#openpgp-compatible-services)
+- [Outros Fornecedores com Encriptação :material-arrow-right-drop-circle:](#more-providers)
+- [Serviços de Aliasing de Correio Eletrónico :material-arrow-right-drop-circle:](#email-aliasing-services)
+- [Opções Auto-Hospedadas :material-arrow-right-drop-circle:](#self-hosting-email)
 
-## Serviços compatíveis com OpenPGP
+## Serviços Compatíveis com OpenPGP
 
-Estes fornecedores suportam nativamente a encriptação/desencriptação OpenPGP e a norma Web Key Directory (WKD), permitindo e-mails E2EE independentes do fornecedor. Por exemplo, um utilizador do Proton Mail pode enviar uma mensagem E2EE a um utilizador do Mailbox.org, ou pode receber notificações encriptadas em OpenPGP de serviços Internet que o suportem.
+Estes fornecedores suportam nativamente a encriptação/desencriptação OpenPGP e a norma Web Key Directory (WKD), permitindo correios eletrónicos E2EE independentes do fornecedor. Por exemplo, um utilizador do Proton Mail pode enviar uma mensagem E2EE a um utilizador do Mailbox.org, ou pode receber notificações encriptadas em OpenPGP de serviços Internet que o suportem.
 
 <div class="grid cards" markdown>
 
@@ -152,14 +152,14 @@ Todas as contas incluem um armazenamento em nuvem limitado que [pode ser encript
 
 O Mailbox.org tem uma funcionalidade de legado digital para todos os planos. Pode escolher se quer que os seus dados sejam transmitidos aos seus herdeiros, desde que estes o solicitem e apresentem o seu testamento. Em alternativa, pode nomear uma pessoa, fornecendo o seu nome e endereço.
 
-## Mais fornecedores
+## Mais Fornecedores
 
-Estes fornecedores armazenam os seus e-mails com encriptação de acesso zero, o que os torna excelentes opções para manter a segurança do seu armazenamento. However, they don't support interoperable encryption standards for E2EE communications between different providers.
+Estes fornecedores armazenam as suas mensagens eletrónicas com encriptação de acesso zero, o que os torna excelentes opções para manter a segurança do seu armazenamento. No entanto, não suportam normas de encriptação interoperáveis para comunicações E2EE entre fornecedores.
 
 <div class="grid cards" markdown>
 
-- ![Skiff Mail logo](assets/img/email/skiff-mail.svg){ .twemoji } [Skiff Mail](email.md#skiff-mail)
-- ![Tutanota logo](assets/img/email/tutanota.svg){ .twemoji } [Tutanota](email.md#tutanota)
+- ![Logótipo do Skiff Mail](assets/img/email/skiff-mail.svg){ .twemoji } [Skiff Mail](email.md#skiff-mail)
+- ![Logótipo da Tutanota](assets/img/email/tutanota.svg){ .twemoji } [Tutanota](email.md#tutanota)
 
 </div>
 
@@ -168,14 +168,14 @@ Estes fornecedores armazenam os seus e-mails com encriptação de acesso zero, o
 !!! nota
     Consulte o [Tabela de Hardware](https://openwrt.org/toh/start) para verificar se o seu dispositivo é suportado.
 
-    ![Skiff Mail logo](assets/img/email/skiff-mail.svg){ align=right }
+    ![Logótipo do Skiff Mail](assets/img/email/skiff-mail.svg){ align=right }
     
-    **Skiff Mail** is a web based email service with E2EE that began in 2020 that is based in San Francisco with developers worldwide. Accounts start with 10GB of free storage.
+    O **Skiff Mail** é um serviço de correio eletrónico baseado na web com E2EE que começou em 2020 e está sediado em São Francisco com programadores em todo o mundo. As contas começam com 10 GB de armazenamento gratuito.
     
-    [:octicons-home-16: Homepage](https://skiff.com/mail){ .md-button .md-button--primary }
-    [:octicons-eye-16:](https://app.skiff.com/docs/db93c237-84c2-4b2b-9588-19a7cd2cd45a#tyGksN9rkqbo2uGYASxsA6HVLjUoly/wTYK8tncTto8=){ .card-link title="Privacy Policy" }
-    [:octicons-info-16:](https://skiff.com/help){ .card-link title=Documentation}
-    [:octicons-code-16:](https://github.com/skiff-org/skiff-apps){ .card-link title="Source Code" }
+    [:octicons-home-16: Página Inicial](https://skiff.com/mail){ .md-button .md-button--primary }
+    [:octicons-eye-16:](https://app.skiff.com/docs/db93c237-84c2-4b2b-9588-19a7cd2cd45a#tyGksN9rkqbo2uGYASxsA6HVLjUoly/wTYK8tncTto8=){ .card-link title="Política de Privacidade" }
+    [:octicons-info-16:](https://skiff.com/help){ .card-link title=Documentação}
+    [:octicons-code-16:](https://github.com/skiff-org/skiff-apps){ .card-link title="Código fonte" }
     
     ??? downloads
     
@@ -183,37 +183,37 @@ Estes fornecedores armazenam os seus e-mails com encriptação de acesso zero, o
         - [:simple-appstore: iOS](https://apps.apple.com/us/app/skiff-mail/id1619168801)
         - [:octicons-browser-16: Web](https://app.skiff.com/mail)
 
-Skiff has undergone a few [audits](https://skiff.com/transparency) during its development.
+O Skiff foi objeto de algumas [auditorias](https://skiff.com/transparency) durante o seu desenvolvimento.
 
-#### :material-check:{ .pg-green } Domínios e aliases personalizados
+#### :material-check:{ .pg-green } Domínios e Aliases Personalizados
 
-You can create up to 3 additional @skiff.com email aliases in addition to your primary account address on their free plan. [Custom domains](https://skiff.com/blog/custom-domain-setup) are available on their Pro or Business plan, and allow you to create unlimited aliases.
+Pode criar até 3 aliases de endereço eletrónico @skiff.com adicionais para além do endereço de conta principal no plano gratuito. [Domínios personalizados](https://skiff.com/blog/custom-domain-setup) estão disponíveis no plano Pro ou Business e permitem-lhe criar aliases ilimitados.
 
-#### :material-alert-outline:{ .pg-orange } Private Payment Methods
+#### :material-alert-outline:{ .pg-orange } Métodos de Pagamento Privados
 
-Skiff Mail accepts cryptocurrency payments via Coinbase Commerce, including Bitcoin and Ethereum, but they do not accept our recommended [cryptocurrency](cryptocurrency.md), Monero. They also accept credit card payments via Stripe.
+O Skiff Mail aceita pagamentos em criptomoeda via Coinbase Commerce, incluindo Bitcoin e Ethereum, mas eles não aceitam nossa [criptomoeda](cryptocurrency.md) recomendada, Monero. Também aceitam pagamentos com cartão de crédito através do Stripe.
 
-#### :material-check:{ .pg-green } Segurança da conta
+#### :material-check:{ .pg-green } Segurança da Conta
 
-Skiff Mail supports TOTP two-factor authentication and hardware security keys using FIDO2 or U2F standards. The use of a hardware security key requires setting up TOTP two-factor authentication first.
+O Skiff Mail suporta autenticação de dois fatores TOTP e chaves de segurança de hardware utilizando as normas FIDO2 ou U2F. A utilização de uma chave de segurança de hardware requer a configuração prévia da autenticação de dois fatores TOTP.
 
-#### :material-check:{ .pg-green } Segurança dos dados
+#### :material-check:{ .pg-green } Segurança dos Dados
 
-Skiff Mail has zero access encryption at rest for all of your data. Isto significa que as mensagens e outros dados armazenados na sua conta só podem ser lidos por si.
+O Skiff Mail tem encriptação de acesso zero em repouso para todos os seus dados. Isto significa que as mensagens e outros dados armazenados na sua conta só podem ser lidos por si.
 
-#### :material-information-outline:{ .pg-blue } Encriptação de e-mail
+#### :material-information-outline:{ .pg-blue } Encriptação de Correio Eletrónico
 
-Skiff Mail does not use OpenPGP. Emails are only encrypted with E2EE to other Skiff Mail users. Skiff does not have a "temporary inbox" or "passworded email" feature like some other providers have, so that external users cannot receive or reply to messages with E2EE.
+O Skiff Mail não utiliza o OpenPGP. As mensagens de correio eletrónico só são encriptadas com o E2EE para outros utilizadores do Skiff Mail. O Skiff não dispõe de uma funcionalidade de "caixa de entrada temporária" ou de "correio eletrónico com palavra-passe" como alguns outros fornecedores, pelo que os utilizadores externos não podem receber ou responder a mensagens com o E2EE.
 
-#### :material-information-outline:{ .pg-blue } Remoção da conta
+#### :material-information-outline:{ .pg-blue } Remoção da Conta
 
-Skiff Mail accounts do not expire, but unpaid accounts will be prompted to remove any enabled paid features (such as additional aliases) or renew their plan before the account can be used.
+As contas do Skiff Mail não expiram, mas as contas não pagas serão solicitadas a remover quaisquer funcionalidades pagas ativadas (como pseudónimos adicionais) ou a renovar o seu plano antes de a conta poder ser utilizada.
 
-#### :material-information-outline:{ .pg-blue } Funcionalidade adicional
+#### :material-information-outline:{ .pg-blue } Funcionalidade Adicional
 
-Skiff additionally offers [workspace productivity features](https://discuss.privacyguides.net/t/skiff-pages-drive-productivity-tools/11758/13), but we still prefer [alternative](productivity.md) options for collaborating and file sharing at this time.
+Além disso, o Skiff oferece [funcionalidades de produtividade do espaço de trabalho](https://discuss.privacyguides.net/t/skiff-pages-drive-productivity-tools/11758/13), mas, neste momento, continuamos a preferir [opções alternativas](productivity.md) para colaborar e partilhar ficheiros.
 
-Skiff Mail does not offer a digital legacy feature.
+O Skiff Mail não oferece funcionalidade de legado digital.
 
 ### Tutanota
 
@@ -258,7 +258,7 @@ O Tutanota suporta [autenticação de dois fatores](https://tutanota.com/faq#2fa
 
 O Tutanota tem [encriptação de acesso zero em estado de repouso](https://tutanota.com/faq#what-encrypted) para os seus e-mails, [livro de endereços](https://tutanota.com/faq#encrypted-address-book), e [calendários](https://tutanota.com/faq#calendar). Isto significa que as mensagens e outros dados armazenados na sua conta só podem ser lidos por si.
 
-#### :material-information-outline:{ .pg-blue } Encriptação de e-mail
+#### :material-information-outline:{ .pg-blue } Encriptação de Correio Eletrónico
 
 O Tutanota [não utiliza o OpenPGP](https://www.tutanota.com/faq/#pgp). As contas Tutanota só podem receber mensagens de e-mail encriptadas de contas de e-mail não-Tutanota, quando enviadas através de uma caixa de e-mail Tutanota temporária [](https://www.tutanota.com/howto/#encrypted-email-external).
 

@@ -1,5 +1,5 @@
 ---
-title: "Desktop/PC"
+title: "デスクトップ/PC"
 icon: simple/linux
 description: Linux distributions are commonly recommended for privacy protection and software freedom.
 cover: desktop.png

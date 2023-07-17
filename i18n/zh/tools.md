@@ -413,16 +413,6 @@ We [recommend](dns.md#recommended-providers) a number of encrypted DNS servers b
 
 [了解更多 :hero-arrow-circle-right-fill:](real-time-communication.md)
 
-### 自足网络
-
-<div class="grid cards" markdown>
-
-- ![LBRY logo](assets/img/video-streaming/lbry.svg){ .twemoji } [LBRY](video-streaming.md#lbry)
-
-</div>
-
-[了解更多 :hero-arrow-circle-right-fill:](video-streaming.md)
-
 ## 服务供应商
 
 ### Android

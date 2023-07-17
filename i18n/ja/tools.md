@@ -1,5 +1,5 @@
 ---
-meta_title: "最高のプライバシーツール、サービス、広告なしの推奨事項 - Privacy Guides"
+meta_title: "最高のプライバシーツール、サービス、広告なしのおすすめ - Privacy Guides"
 title: "プライバシーツール"
 icon: material/tools
 hide:
@@ -7,7 +7,7 @@ hide:
 description: Privacy Guidesは、大規模監視プログラムやその他のインターネットの脅威から個人データを保護するソフトウェア、アプリ、サービスを見つけるための最も透明性が高く信頼できる Web サイトです。
 ---
 
-何か特定のソリューションをお探しなら、様々なカテゴリーでお勧めのハードウェアとソフトウェアのツールをご紹介します。 私たちが推奨するプライバシーツールは、主にセキュリティ機能に基づいて選択されており、さらに分散型やオープンソースのツールに重点を置いています。 これらは、世界的な大規模監視プログラムからの保護や大手ハイテク企業の回避から攻撃の緩和まで、さまざまな脅威モデルに適用できます。しかし、あなただけがあなたのニーズに最適であるかを判断できます。
+何か特定のソリューションをお探しなら、様々なカテゴリーでおすすめのハードウェアとソフトウェアのツールをご紹介します。 私たちがおすすめするプライバシーツールは、主にセキュリティ機能に基づいて選択されており、さらに分散型やオープンソースのツールに重点を置いています。 これらは、世界的な大規模監視プログラムからの保護や大手ハイテク企業の回避から攻撃の緩和まで、さまざまな脅威モデルに適用できます。しかし、あなただけがあなたのニーズに最適であるかを判断できます。
 
 If you want assistance figuring out the best privacy tools and alternative programs for your needs, start a discussion on our [forum](https://discuss.privacyguides.net/) or our [Matrix](https://matrix.to/#/#privacyguides:matrix.org) community!
 
@@ -25,7 +25,7 @@ For more details about each project, why they were chosen, and additional tips o
 
 1. Snowflake does not increase privacy, however it allows you to easily contribute to the Tor network and help people in censored networks achieve better privacy.
 
-[Learn more :material-arrow-right-drop-circle:](tor.md)
+[詳細 :material-arrow-right-drop-circle:](tor.md)
 
 ## デスクトップウェブブラウザ
 
@@ -37,7 +37,7 @@ For more details about each project, why they were chosen, and additional tips o
 
 </div>
 
-[Learn more :material-arrow-right-drop-circle:](desktop-browsers.md)
+[詳細 :material-arrow-right-drop-circle:](desktop-browsers.md)
 
 ### 追加のリソース
 
@@ -47,7 +47,7 @@ For more details about each project, why they were chosen, and additional tips o
 
 </div>
 
-[Learn more :material-arrow-right-drop-circle:](desktop-browsers.md#additional-resources)
+[詳細 :material-arrow-right-drop-circle:](desktop-browsers.md#additional-resources)
 
 ## モバイルウェブブラウザ
 
@@ -58,7 +58,7 @@ For more details about each project, why they were chosen, and additional tips o
 
 </div>
 
-[Learn more :material-arrow-right-drop-circle:](mobile-browsers.md)
+[詳細 :material-arrow-right-drop-circle:](mobile-browsers.md)
 
 ### 追加のリソース
 
@@ -68,7 +68,7 @@ For more details about each project, why they were chosen, and additional tips o
 
 </div>
 
-[Learn more :material-arrow-right-drop-circle:](mobile-browsers.md#adguard)
+[詳細 :material-arrow-right-drop-circle:](mobile-browsers.md#adguard)
 
 ## サービスプロバイダ
 
@@ -81,7 +81,7 @@ For more details about each project, why they were chosen, and additional tips o
 
 </div>
 
-[Learn more :material-arrow-right-drop-circle:](cloud.md)
+[詳細 :material-arrow-right-drop-circle:](cloud.md)
 
 ### DNS
 
@@ -89,9 +89,9 @@ For more details about each project, why they were chosen, and additional tips o
 
 We [recommend](dns.md#recommended-providers) a number of encrypted DNS servers based on a variety of criteria, such as [Mullvad](https://mullvad.net/en/help/dns-over-https-and-dns-over-tls) and [Quad9](https://quad9.net/) amongst others. We recommend for you to read our pages on DNS before choosing a provider. In many cases, using an alternative DNS provider is not recommended.
 
-[Learn more :material-arrow-right-drop-circle:](dns.md)
+[詳細 :material-arrow-right-drop-circle:](dns.md)
 
-#### Encrypted DNS Proxies
+#### 暗号化DNSプロキシ
 
 <div class="grid cards" markdown>
 
@@ -100,9 +100,9 @@ We [recommend](dns.md#recommended-providers) a number of encrypted DNS servers b
 
 </div>
 
-[Learn more :material-arrow-right-drop-circle:](dns.md#encrypted-dns-proxies)
+[詳細 :material-arrow-right-drop-circle:](dns.md#encrypted-dns-proxies)
 
-#### Self-hosted Solutions
+#### セルフホストソリューション
 
 <div class="grid cards" markdown>
 
@@ -111,7 +111,7 @@ We [recommend](dns.md#recommended-providers) a number of encrypted DNS servers b
 
 </div>
 
-[Learn more :material-arrow-right-drop-circle:](dns.md#self-hosted-solutions)
+[詳細 :material-arrow-right-drop-circle:](dns.md#self-hosted-solutions)
 
 ### メール
 
@@ -124,9 +124,9 @@ We [recommend](dns.md#recommended-providers) a number of encrypted DNS servers b
 
 </div>
 
-[Learn more :material-arrow-right-drop-circle:](email.md)
+[詳細 :material-arrow-right-drop-circle:](email.md)
 
-#### Email Aliasing Services
+#### メールエイリアスサービス
 
 <div class="grid cards" markdown>
 
@@ -135,9 +135,9 @@ We [recommend](dns.md#recommended-providers) a number of encrypted DNS servers b
 
 </div>
 
-[Learn more :material-arrow-right-drop-circle:](email.md#email-aliasing-services)
+[詳細 :material-arrow-right-drop-circle:](email.md#email-aliasing-services)
 
-#### Self-Hosting Email
+#### セルフホストメール
 
 <div class="grid cards" markdown>
 
@@ -146,11 +146,11 @@ We [recommend](dns.md#recommended-providers) a number of encrypted DNS servers b
 
 </div>
 
-[Learn more :material-arrow-right-drop-circle:](email.md#self-hosting-email)
+[詳細 :material-arrow-right-drop-circle:](email.md#self-hosting-email)
 
 ### 金融サービス
 
-#### Payment Masking Services
+#### 支払いマスキングサービス
 
 <div class="grid cards" markdown>
 
@@ -158,7 +158,7 @@ We [recommend](dns.md#recommended-providers) a number of encrypted DNS servers b
 - ![MySudo logo](assets/img/financial-services/mysudo.svg#only-light){ .twemoji }![MySudo logo](assets/img/financial-services/mysudo-dark.svg#only-dark){ .twemoji } [MySudo](financial-services.md#mysudo-us-paid)
 </div>
 
-[Learn more :material-arrow-right-drop-circle:](financial-services.md#payment-masking-services)
+[詳細 :material-arrow-right-drop-circle:](financial-services.md#payment-masking-services)
 
 #### Online Gift Card Marketplaces
 
@@ -168,7 +168,7 @@ We [recommend](dns.md#recommended-providers) a number of encrypted DNS servers b
 
 </div>
 
-[Learn more :material-arrow-right-drop-circle:](financial-services.md#gift-card-marketplaces)
+[詳細 :material-arrow-right-drop-circle:](financial-services.md#gift-card-marketplaces)
 
 ### 検索エンジン
 
@@ -181,17 +181,17 @@ We [recommend](dns.md#recommended-providers) a number of encrypted DNS servers b
 
 </div>
 
-[Learn more :material-arrow-right-drop-circle:](search-engines.md)
+[詳細 :material-arrow-right-drop-circle:](search-engines.md)
 
 ### VPNプロバイダ
 
-??? danger "VPNs do not provide anonymity"
+??? danger "VPNは匿名性を提供しません"
 
-    Using a VPN will **not** keep your browsing habits anonymous, nor will it add additional security to non-secure (HTTP) traffic.
+    VPNを使用しても、ブラウジング習慣の匿名化や、安全でない通信（HTTP）へのセキュリティの追加は**されません**。
     
-    If you are looking for **anonymity**, you should use the Tor Browser **instead** of a VPN.
+    **匿名性**を確保するには、VPNの**代わりに**Tor Browserを使用してください。
     
-    If you're looking for added **security**, you should always ensure you're connecting to websites using HTTPS. A VPN is not a replacement for good security practices.
+    **セキュリティ**を追加するには、ウェブサイトへの接続に常にHTTPSを使用します。 VPNは、優れたセキュリティの代わりにはなりません。
     
     [Learn more :material-arrow-right-drop-circle:](vpn.md)
 
@@ -203,7 +203,7 @@ We [recommend](dns.md#recommended-providers) a number of encrypted DNS servers b
 
 </div>
 
-[Learn more :material-arrow-right-drop-circle:](vpn.md)
+[詳細 :material-arrow-right-drop-circle:](vpn.md)
 
 ## ソフトウェア
 
@@ -216,7 +216,7 @@ We [recommend](dns.md#recommended-providers) a number of encrypted DNS servers b
 
 </div>
 
-[Learn more :material-arrow-right-drop-circle:](calendar.md)
+[詳細 :material-arrow-right-drop-circle:](calendar.md)
 
 ### 暗号通貨
 
@@ -226,7 +226,7 @@ We [recommend](dns.md#recommended-providers) a number of encrypted DNS servers b
 
 </div>
 
-[Learn more :material-arrow-right-drop-circle:](cryptocurrency.md)
+[詳細 :material-arrow-right-drop-circle:](cryptocurrency.md)
 
 ### データとメタデータの編集
 
@@ -240,7 +240,7 @@ We [recommend](dns.md#recommended-providers) a number of encrypted DNS servers b
 
 </div>
 
-[Learn more :material-arrow-right-drop-circle:](data-redaction.md)
+[詳細 :material-arrow-right-drop-circle:](data-redaction.md)
 
 ### メールクライアント
 
@@ -258,7 +258,7 @@ We [recommend](dns.md#recommended-providers) a number of encrypted DNS servers b
 
 </div>
 
-[Learn more :material-arrow-right-drop-circle:](email-clients.md)
+[詳細 :material-arrow-right-drop-circle:](email-clients.md)
 
 ### 暗号化ソフトウェア
 
@@ -279,7 +279,7 @@ We [recommend](dns.md#recommended-providers) a number of encrypted DNS servers b
 
 </div>
 
-[Learn more :material-arrow-right-drop-circle:](encryption.md)
+[詳細 :material-arrow-right-drop-circle:](encryption.md)
 
 #### OpenPGPクライアント
 
@@ -292,7 +292,7 @@ We [recommend](dns.md#recommended-providers) a number of encrypted DNS servers b
 
 </div>
 
-[Learn more :material-arrow-right-drop-circle:](encryption.md#openpgp)
+[詳細 :material-arrow-right-drop-circle:](encryption.md#openpgp)
 
 ### ファイル共有と同期
 
@@ -306,7 +306,7 @@ We [recommend](dns.md#recommended-providers) a number of encrypted DNS servers b
 
 </div>
 
-[Learn more :material-arrow-right-drop-circle:](file-sharing.md)
+[詳細 :material-arrow-right-drop-circle:](file-sharing.md)
 
 ### フロントエンド
 
@@ -322,7 +322,7 @@ We [recommend](dns.md#recommended-providers) a number of encrypted DNS servers b
 
 </div>
 
-[Learn more :material-arrow-right-drop-circle:](frontends.md)
+[詳細 :material-arrow-right-drop-circle:](frontends.md)
 
 ### 多要素認証ツール
 
@@ -335,7 +335,7 @@ We [recommend](dns.md#recommended-providers) a number of encrypted DNS servers b
 
 </div>
 
-[Learn more :material-arrow-right-drop-circle:](multi-factor-authentication.md)
+[詳細 :material-arrow-right-drop-circle:](multi-factor-authentication.md)
 
 ### News Aggregators
 
@@ -351,9 +351,9 @@ We [recommend](dns.md#recommended-providers) a number of encrypted DNS servers b
 
 </div>
 
-[Learn more :material-arrow-right-drop-circle:](news-aggregators.md)
+[詳細 :material-arrow-right-drop-circle:](news-aggregators.md)
 
-### Notebooks
+### ノート
 
 <div class="grid cards" markdown>
 
@@ -365,7 +365,7 @@ We [recommend](dns.md#recommended-providers) a number of encrypted DNS servers b
 
 </div>
 
-[Learn more :material-arrow-right-drop-circle:](notebooks.md)
+[詳細 :material-arrow-right-drop-circle:](notebooks.md)
 
 ### パスワードマネージャ
 
@@ -381,7 +381,7 @@ We [recommend](dns.md#recommended-providers) a number of encrypted DNS servers b
 
 </div>
 
-[Learn more :material-arrow-right-drop-circle:](passwords.md)
+[詳細 :material-arrow-right-drop-circle:](passwords.md)
 
 ### 生産性向上ツール
 
@@ -395,7 +395,7 @@ We [recommend](dns.md#recommended-providers) a number of encrypted DNS servers b
 
 </div>
 
-[Learn more :material-arrow-right-drop-circle:](productivity.md)
+[詳細 :material-arrow-right-drop-circle:](productivity.md)
 
 ### リアルタイムコミュニケーション
 
@@ -409,21 +409,11 @@ We [recommend](dns.md#recommended-providers) a number of encrypted DNS servers b
 
 </div>
 
-[Learn more :material-arrow-right-drop-circle:](real-time-communication.md)
-
-### Video Streaming Clients
-
-<div class="grid cards" markdown>
-
-- ![LBRY logo](assets/img/video-streaming/lbry.svg){ .twemoji } [LBRY](video-streaming.md#lbry)
-
-</div>
-
-[Learn more :material-arrow-right-drop-circle:](video-streaming.md)
+[詳細 :material-arrow-right-drop-circle:](real-time-communication.md)
 
 ## Operating Systems
 
-### Mobile
+### モバイル
 
 <div class="grid cards" markdown>
 
@@ -432,7 +422,7 @@ We [recommend](dns.md#recommended-providers) a number of encrypted DNS servers b
 
 </div>
 
-[Learn more :material-arrow-right-drop-circle:](android.md)
+[詳細 :material-arrow-right-drop-circle:](android.md)
 
 #### Androidアプリ
 
@@ -446,9 +436,9 @@ We [recommend](dns.md#recommended-providers) a number of encrypted DNS servers b
 
 </div>
 
-[Learn more :material-arrow-right-drop-circle:](android.md#general-apps)
+[詳細 :material-arrow-right-drop-circle:](android.md#general-apps)
 
-### Desktop/PC
+### デスクトップ/PC
 
 <div class="grid cards" markdown>
 
@@ -463,7 +453,7 @@ We [recommend](dns.md#recommended-providers) a number of encrypted DNS servers b
 
 </div>
 
-[Learn more :material-arrow-right-drop-circle:](desktop.md)
+[詳細 :material-arrow-right-drop-circle:](desktop.md)
 
 ### Router Firmware
 
@@ -474,4 +464,4 @@ We [recommend](dns.md#recommended-providers) a number of encrypted DNS servers b
 
 </div>
 
-[Learn more :material-arrow-right-drop-circle:](router.md)
+[詳細 :material-arrow-right-drop-circle:](router.md)

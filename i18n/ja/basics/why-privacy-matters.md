@@ -3,23 +3,23 @@ title: "プライバシーはなぜ重要なのか"
 icon: 'material/shield-account'
 ---
 
-デジタルデータが搾取される現代において、あなたのプライバシーはかつてないほど重要になっています。しかし、多くの人はプライバシーが既に失われていると感じています。 それは違います。 ==プライバシーは手に入ります==が、あなたはそれを気にかける必要があります。 プライバシーは力であり、この力が正しい人の手にあることは非常に重要です。
+デジタルデータが搾取される現代において、あなたのプライバシーはかつてないほど重要になっています。プライバシーが既に失われたと感じている人もいますが、 それは間違っています。 しっかりと注意を払えば、==プライバシーは手に入ります==。 プライバシーは力であり、この力が正しい人の手にあることは非常に重要です。
 
-プライバシーは究極的には人間の情報に関するものであり、人間の情報は人間に力を与えるので、これは重要です。 真に満たされた自由な人間になる能力が欲しいなら、私たちの情報に適用されるルールをよく確認する必要があります。 現代社会の多くは**情報**を中心に構成されています。 オンラインで買い物をするとき、ニュースを読むとき、何かを調べるとき、投票するとき、道順を調べたるとき、その他あらゆることをするときにあなたは情報に頼っています。 情報社会において、私たちの情報は重要であり、したがってプライバシーは重要です。
+プライバシーは究極的には人間の情報に関することであり、これは重要です。なぜなら、情報は人間を支配する力をになるからです。 真に満たされた自由な人間になりたいならば、私たちの情報に適用されるルールをよく確認する必要があります。 現代社会の多くは**情報**を中心に構成されています。 オンラインで買い物をするとき、ニュースを読むとき、何かを調べるとき、投票するとき、道順を調べたるとき、その他あらゆることをするときにあなたは情報に頼っています。 情報社会において、私たちの情報は重要であり、したがってプライバシーは重要です。
 
 ## プライバシーとは何か？
 
-多くの人は、**プライバシー**、**セキュリティ**、**匿名性**の概念を混同しています。 You'll see people criticize various products as "not private" when really they mean it doesn't provide anonymity, for example. On this website, we cover all three of these topics, but it is important you understand the difference between them, and when each one comes into play.
+多くの人は、**プライバシー**、**セキュリティ**、**匿名性**の概念を混同しています。 例えば、ある製品が匿名性を提供していないという意味で「プライベートではない」と批判する人々がいます。 このウェブサイトでは、これら3つのトピックすべてを取り上げます。まず、それぞれの違いを理解しましょう。
 
 **プライバシー**
 :
 
-==Privacy is the assurance that your data is only seen by the parties you intend to view it.== In the context of an instant messenger, for example, end-to-end encryption provides privacy by keeping your message visible only to yourself and the recipient.
+==プライバシーとは、あなたが許可した人だけがあなたのデータを閲覧できる保証のことです。==例えば、インスタントメッセンジャの場合、あなたと宛先のみがメッセージを閲覧できるようにするエンドツーエンド暗号化がプライバシーを提供します。
 
 **セキュリティ**
 :
 
-Security is the ability to trust the applications you use—that the parties involved are who they say they are—and keep those applications safe. In the context of browsing the web, for example, security can be provided by HTTPS certificates.
+Security is the ability to trust the applications you use—that the parties involved are who they say they are—and keep those applications safe. 例えば、ウェブを閲覧する場合、HTTPS証明書がセキュリティが提供します。
 :
 
 Certificates prove you are talking directly to the website you're visiting, and keep attackers on your network from reading or modifying the data sent to or from the website.
@@ -27,16 +27,16 @@ Certificates prove you are talking directly to the website you're visiting, and 
 **匿名性**
 :
 
-Anonymity is the ability to act without a persistent identifier. You might achieve this online with [Tor](../tor.md), which allows you to browse the internet with a random IP address and network connection instead of your own.
+匿名性とは、永続的な識別子なしに行動できる能力のことです。 You might achieve this online with [Tor](../tor.md), which allows you to browse the internet with a random IP address and network connection instead of your own.
 :
 
 **Pseudonymity** is a similar concept, but it allows you to have a persistent identifier without it being tied to your real identity. If everybody knows you as `@GamerGuy12` online, but nobody knows your real name, that is your pseudonym.
 
 All of these concepts overlap, but it is possible to have any combination of these. The sweet spot for most people is when all three of these concepts overlap. However, it's trickier to achieve than many initially believe. Sometimes, you have to compromise on some of these, and that's okay too. This is where **threat modeling** comes into play, allowing you to make informed decisions about the [software and services](../tools.md) you use.
 
-[:material-book-outline: Learn More About Threat Modeling](threat-modeling.md ""){.md-button}
+[:material-book-outline: 脅威モデリングの詳細](threat-modeling.md ""){.md-button}
 
-## Privacy vs. Secrecy
+## プライバシーと秘密
 
 A common counter-argument to pro-privacy movements is the notion that one doesn't need privacy if they have **"nothing to hide."** This is a dangerous misconception, because it creates a sense that people who demand privacy must be deviant, criminal, or wrong.
 
@@ -54,6 +54,6 @@ Privacy is something we need to have baked into the [software and services](../t
 
 ## ソース
 
-- [Why Privacy Matters](https://www.amazon.com/Why-Privacy-Matters-Neil-Richards/dp/0190939044) (2021) by Neil Richards
+- [Why Privacy Matters](https://www.amazon.com/Why-Privacy-Matters-Neil-Richards/dp/0190939044) (2021年) Neil Richards 著
 - [The New Oil: Why Privacy & Security Matter](https://thenewoil.org/en/guides/prologue/why/)
 - [@Thorin-Oakenpants on GitHub](https://github.com/privacytools/privacytools.io/issues/1760#issuecomment-597497298)

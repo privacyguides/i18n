@@ -47,5 +47,7 @@ nav:
   Forum: تالار گفتگو
   Blog: بلاگ
 site:
+  homepage_card: |
+    A socially motivated website which provides information about protecting your online data privacy and security.
   translation: |
     شما در حال مشاهده نسخهٔ فارسی از راهنمای حریم خصوصی هستید که توسط تیم زبان فوق‌العاده ما در پلتفرم Crowdin ترجمه شده است. اگر هر گونه خطا را مشاهده کردید یا بخش‌هایی از این صفحه را به صورت ترجمه نشده مشاهده کردید، لطفاً به ما کمک کنید! برای اطلاعات بیشتر و راهنمایی‌ها، راهنمای ترجمه ما را مشاهده کنید.

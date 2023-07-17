@@ -411,16 +411,6 @@ We [recommend](dns.md#recommended-providers) a number of encrypted DNS servers b
 
 [자세히 알아보기 :material-arrow-right-drop-circle:](real-time-communication.md)
 
-### 동영상 스트리밍 클라이언트
-
-<div class="grid cards" markdown>
-
-- ![LBRY 로고](assets/img/video-streaming/lbry.svg){ .twemoji } [LBRY](video-streaming.md#lbry)
-
-</div>
-
-[자세히 알아보기 :material-arrow-right-drop-circle:](video-streaming.md)
-
 ## 운영 체제
 
 ### 모바일

@@ -1,18 +1,18 @@
 ---
-title: macOS Overview
+title: macOSの概要
 icon: material/apple-finder
-description: macOS is Apple's desktop operating system that works with their hardware to provide strong security.
+description: macOSはAppleのデスクトップオペレーティングシステムで、ハードウェアと連携して強力なセキュリティを提供します。
 ---
 
-**macOS** is a Unix operating system developed by Apple for their Mac computers. To enhance privacy on macOS, you can disable telemetry features and harden existing privacy and security settings.
+**macOS**は、AppleがMacコンピュータ用に開発したUnixオペレーティングシステムです。 To enhance privacy on macOS, you can disable telemetry features and harden existing privacy and security settings.
 
-Older Intel-based Macs and Hackintoshes do not support all the security features that macOS offers. To enhance data security, we recommend using a newer Mac with [Apple silicon](https://support.apple.com/en-us/HT211814).
+Older Intel-based Macs and Hackintoshes do not support all the security features that macOS offers. データセキュリティを強化するため、[Appleシリコン](https://support.apple.com/en-us/HT211814)を搭載した新しいMacを使用することをおすすめします。
 
-## Privacy Notes
+## プライバシーに関する注意事項
 
-There are a few notable privacy concerns with macOS that you should consider. These pertain to the operating system itself, and not Apple's other apps and services.
+macOSには、考慮すべきプライバシー上の懸念がいくつかあります。 これらは、Appleの他のアプリやサービスではなく、オペレーティングシステム自体に関するものです。
 
-### Activation Lock
+### アクティベーションロック
 
 Brand new Apple silicon devices can be set up without an internet connection. However, recovering or resetting your Mac will **require** an internet connection to Apple's servers to check against the Activation Lock database of lost or stolen devices.
 
@@ -24,7 +24,7 @@ Previously, these checks were performed via an unencrypted OCSP protocol which c
 
 While you [can](https://eclecticlight.co/2021/02/23/how-to-run-apps-in-private/) manually opt out of this check relatively easily, we recommend against doing so unless you would be badly compromised by the revocation checks performed by macOS, because they serve an important role in ensuring compromised apps are blocked from running.
 
-## Recommended Configuration
+## おすすめの設定
 
 Your account when you first set up your Mac will be an Administrator account, which has higher privileges than a Standard user account. macOS has a number of protections which prevent malware and other programs from abusing your Administrator privileges, so it is generally safe to use this account.
 
@@ -132,7 +132,7 @@ On older Intel-based Mac computers, FileVault is the only form of disk encryptio
 
 - [x] Click **Turn On**
 
-##### Lockdown Mode
+##### ロックダウンモード
 
 [Lockdown Mode](https://blog.privacyguides.org/2022/10/27/macos-ventura-privacy-security-updates/#lockdown-mode) disables some features in order to improve security. Some apps or features won't work the same way they do when it's off, for example, [JIT](https://hacks.mozilla.org/2017/02/a-crash-course-in-just-in-time-jit-compilers/) and [WASM](https://developer.mozilla.org/en-US/docs/WebAssembly) are disabled in Safari with Lockdown Mode enabled. We recommend enabling Lockdown Mode and seeing whether it significantly impacts your usage, many of the changes it makes are easy to live with.
 
@@ -168,7 +168,7 @@ macOS's system components are protected in a read-only signed system volume, mea
 
 The system volume is verified while it's running and any data that's not signed with a valid cryptographic signature from Apple will be rejected.
 
-#### System Integrity Protection
+#### システム整合性保護
 
 macOS sets certain security restrictions that can't be overridden. These are called Mandatory Access Controls, and they form the basis of the sandbox, parental controls, and System Integrity Protection on macOS.
 
@@ -193,11 +193,11 @@ macOS comes with two forms of malware defense:
 
 We recommend against installing third-party antivirus software as they typically do not have the system-level access required to properly function anyways, because of Apple's limitations on third-party apps, and because granting the high levels of access they do ask for often poses an even greater security and privacy risk to your computer.
 
-##### Backups
+##### バックアップ
 
 macOS comes with automatic backup software called [Time Machine](https://support.apple.com/HT201250), so you can create encrypted backups to an external or network drive in the event of corrupted/deleted files.
 
-### Hardware Security
+### ハードウェアセキュリティ
 
 Many modern security features in macOS—such as modern Secure Boot, hardware-level exploit mitigation, OS integrity checks, and file-based encryption—rely on Apple silicon, and Apple's newer hardware always has the [best security](https://support.apple.com/guide/security/apple-soc-security-sec87716a080/1/web/1). We only encourage the use of Apple silicon, and not older Intel-based Mac computers or Hackintoshes.
 
@@ -227,13 +227,13 @@ Apple's Touch ID feature allows you to securely unlock your devices using biomet
 
 Your biometric data never leaves your device; it's stored only in the Secure Enclave.
 
-#### Hardware Microphone Disconnect
+#### ハードウェアマイクの切断
 
 All laptops with Apple silicon or the T2 chip feature a hardware disconnect for the built-in microphone whenever the lid is closed. This means that there is no way for an attacker to listen to your Mac's microphone even if the operating system is compromised.
 
 Note that the camera does not have a hardware disconnect, since its view is obscured when the lid is closed anyway.
 
-#### Peripheral Processor Security
+#### ペリフェラルプロセッサのセキュリティ
 
 Computers have built-in processors other than the main CPU that handle things like networking, graphics, power management, etc. These processors can have insufficient security and become compromised, therefore Apple tries to minimize the need for these processors in their hardware.
 
@@ -246,7 +246,7 @@ When it is necessary to use one of these processors, Apple works with the vendor
 - has its debug interfaces disabled
 - is signed with Apple's cryptographic keys
 
-#### Direct Memory Access Protections
+#### ダイレクトメモリアクセス保護
 
 Apple silicon separates each component that requires direct memory access. For example, a Thunderbolt port can't access memory designated for the kernel.
 

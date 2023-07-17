@@ -411,16 +411,6 @@ description: Privacy Guides 是最透明和可靠的網站，用於尋找保護�
 
 [了解更多 :material-arrow-right-drop-circle:](real-time-communication.md)
 
-### 影片串流客戶端
-
-<div class="grid cards" markdown>
-
-- ![LBRY logo](assets/img/video-streaming/lbry.svg){ .twemoji } [LBRY](video-streaming.md#lbry)
-
-</div>
-
-[了解更多 :material-arrow-right-drop-circle:](video-streaming.md)
-
 ## 作業系統
 
 ### 行動

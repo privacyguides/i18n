@@ -16,13 +16,13 @@ ISPや公共Wi-Fiネットワーク、またはファイルのTorrent中の、�
 
 </div>
 
-!!! danger "VPNを利用しても匿名性は確保できません"
+!!! danger "VPNは匿名性を提供しません"
 
-    VPNを使用しても、ブラウジング習慣は匿名化**されません**。安全でない通信（HTTP）に保護が追加されることも**ありません**。
+    VPNを使用しても、ブラウジング習慣の匿名化や、安全でない通信（HTTP）へのセキュリティの追加は**されません**。
     
-    **匿名性**を確保したい場合は、VPN**ではなく**Tor Browserをご利用ください。
+    **匿名性**を確保するには、VPNの**代わりに**Tor Browserを使用してください。
     
-    追加の**セキュリティ**を確保したい場合は、ウェブサイトへの接続に常にHTTPSを使用するのが有効です。 VPNは、優れたセキュリティ対策の代わりにはなりません。
+    **セキュリティ**を追加するには、ウェブサイトへの接続に常にHTTPSを使用します。 VPNは、優れたセキュリティの代わりにはなりません。
     
     [Torをダウンロード](https://www.torproject.org/){ .md-button .md-button--primary } [Torの神話とよくある質問](advanced/tor-overview.md){ .md-button }
 
@@ -278,9 +278,9 @@ A VPN is pointless if it can't even provide adequate security. We require all ou
 
 **最低条件：**
 
-- Strong Encryption Schemes: OpenVPN with SHA-256 authentication; RSA-2048 or better handshake; AES-256-GCM or AES-256-CBC data encryption.
-- Forward Secrecy.
-- Published security audits from a reputable third-party firm.
+- 強力な暗号化スキーム: SHA-256認証、RSA-2048以上のハンドシェイク、AES-256-GCMまたはAES-256-CBCによるデータ暗号化を使用したOpenVPN
+- 前方秘匿性
+- 信頼できる第三者機関によるセキュリティ監査を公表
 
 **最良の場合：**
 

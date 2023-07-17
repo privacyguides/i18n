@@ -411,16 +411,6 @@ Para obtener más información sobre cada proyecto, por qué han sido elegidos y
 
 [Más información :material-arrow-right-drop-circle:](real-time-communication.md)
 
-### Clientes de Transmisión de Vídeo
-
-<div class="grid cards" markdown>
-
-- ![LBRY logo](assets/img/video-streaming/lbry.svg){ .twemoji } [LBRY](video-streaming.md#lbry)
-
-</div>
-
-[Más información :material-arrow-right-drop-circle:](video-streaming.md)
-
 ## Sistemas Operativos
 
 ### Móvil

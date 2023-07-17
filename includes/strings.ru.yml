@@ -47,5 +47,7 @@ nav:
   Forum: Форум
   Blog: Блог
 site:
+  homepage_card: |
+    A socially motivated website which provides information about protecting your online data privacy and security.
   translation: |
     Вы просматриваете русскую версию Privacy Guides, переведенную нашей фантастической командой переводчиков на Crowdin. Если вы заметили ошибку или непереведенные разделы на этой странице, пожалуйста, помогите нам! Для получения дополнительной информации и советов почитайте наше руководство по переводу.

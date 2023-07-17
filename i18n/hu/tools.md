@@ -411,16 +411,6 @@ Számos követelmény alapján [ajánlunk](dns.md#recommended-providers) több t
 
 [További információ :material-arrow-right-drop-circle:](real-time-communication.md)
 
-### Videó Streamelő Kliensek
-
-<div class="grid cards" markdown>
-
-- ![LBRY logo](assets/img/video-streaming/lbry.svg){ .twemoji } [LBRY](video-streaming.md#lbry)
-
-</div>
-
-[További információ :material-arrow-right-drop-circle:](video-streaming.md)
-
 ## Operációs Rendszerek
 
 ### Mobil

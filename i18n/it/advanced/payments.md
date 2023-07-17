@@ -3,43 +3,43 @@ title: Pagamenti privati
 icon: material/hand-coin
 ---
 
-C'è un motivo per cui i dati sulle vostre abitudini d'acquisto sono considerati il Santo Graal del targeting pubblicitario: i vostri acquisti possono portare ad un vero e proprio tesoro di dati su di voi. Purtroppo, l'attuale sistema finanziario è contrario alla privacy per sua stessa concezione, in quanto consente alle banche, alle altre società e ai governi di tracciare facilmente le transazioni. Tuttavia, avete molte opzioni per quando riguarda i pagamenti privati.
+C'è un motivo per cui i dati sulle tue abitudini d'acquisto siano considerti il Sacro Graal del targeting pubblicitario: i tuoi acquisti possono far trapelare un vero e proprio tesoro di dati su di te. Sfortunatamente, il sistema finanziario del momento è anti-privacy di design, consentendo a banche, altre aziende e governi di tracciare facilmente le transazioni. Tuttavia, disponi di molte opzioni, per quanto riguarda effettuare pagamenti in modo privato.
 
 ## Contanti
 
-Per secoli, **il contante** ha rappresentato la forma principale di pagamento privato. Il contante ha eccellenti proprietà di privacy nella maggior parte dei casi, è ampiamente accettato nella maggior parte dei paesi ed è **fungibile**, il che significa che non è unico ed è completamente intercambiabile.
+Per secoli, **il contante** ha rappresentato la forma principale di pagamento privato. Il contante presenta eccellenti proprietà di privacy in gran parte dei casi, è ampiamente accettato in gran parte dei paesi ed è **fungibile**, a significare che non è unico ed è interamente intercambiabile.
 
-Le leggi sul pagamento in contanti variano a seconda del paese. Negli Stati Uniti, per i pagamenti in contanti superiori a 10.000 dollari è richiesta una comunicazione speciale all'IRS sul sito [Form 8300](https://www.irs.gov/businesses/small-businesses-self-employed/form-8300-and-reporting-cash-payments-of-over-10000). L'azienda ricevente è tenuta a verificare il nome, l'indirizzo, l'occupazione, la data di nascita e il numero di previdenza sociale o altro codice fiscale del beneficiario (con alcune eccezioni). Per gli scambi e trasferimenti di denaro esistono limiti inferiori senza documenti, come 3.000 dollari o meno. Il contante contiene anche numeri di serie. Questi non vengono quasi mai tracciati dai commercianti, ma possono essere utilizzati dalle forze dell'ordine in indagini mirate.
+Le leggi sul pagamento in contanti variano a seconda del paese. Negli Stati Uniti, per i pagamenti in contanti superiori ai $10.000, è richiesta una comunicazione speciale all'IRS sul [Form 8300](https://www.irs.gov/businesses/small-businesses-self-employed/form-8300-and-reporting-cash-payments-of-over-10000). L'azienda ricevente deve verificare l'ID del nome, l'indirizzo, l'occupazione, la data di nascita e il Numero di Sicurezza Sociale o altro TIN (con alcune eccezioni), del pagatore. Esistono dei limiti inferiori senza ID, per $3.000 o inferiori, per i cambi e i trasferimenti di denaro. Inoltre, i contanti contengono dei numeri di serie. Questi non sono quasi mai tracciati dai venditori, ma sono utilizzabili dalle autorità nelle indagini mirate.
 
-Nonostante ciò, in genere è l'opzione migliore.
+Nonostante ciò, è tipicamente l'opzione migliore.
 
-## Carte prepagate e carte regalo
+## Carte Prepagate e Carte Regalo
 
-È relativamente semplice acquistare carte regalo e carte prepagate presso la maggior parte dei negozi di alimentari e dei minimarket con denaro contante. Le carte regalo di solito non prevedono commissioni, ma spesso le hanno le carte prepagate, quindi prestate molta attenzione a queste commissioni e alle date di scadenza. Alcuni negozi potrebbero chiedere di vedere il tuo documento d'identità per ridurre le frodi.
+Acquistare carte regalo e carte prepagate presso è relativamente semplice, presso gran parte dei negozi di alimentari e minimarket, con i contanti. Solitamente, le carte regalo, non prevedono commissioni, a differenza delle carte prepagate; quindi, presta particolare attenzione a tali commissioni e alle date di scadenza. Alcuni negozi potrebbero richiedere di fornire il tuo ID al pagamento, per ridurre le frodi.
 
-Le carte regalo di solito hanno un limite massimo di 200 dollari per carta, ma alcune offrono limiti fino a 2.000 dollari per carta. Le carte prepagate (ad esempio, quelle di Visa o Mastercard) di solito hanno un limite massimo di 1.000 dollari per carta.
+Solitamente, le carte regalo, hanno limiti di fino a $200 per carta, mentre alcune offrono limiti superiori ai $2.000 per carta. Le carte prepagate (es.: da Visa o Mastercard), hanno solitamente dei limiti massimi di $1.000 per carta.
 
-Le carte regalo hanno l'inconveniente di essere soggette alle politiche dei commercianti, che possono avere termini e restrizioni terribili. Ad esempio, alcuni esercenti non accettano pagamenti effettuati esclusivamente con carte regalo, oppure possono annullare il valore della carta se considerano il cliente un utente ad alto rischio. Una volta ottenuto il credito del commerciante, l'esercente ha un forte grado di controllo su tale credito.
+Le carte regalo hanno lo svantaggio di essere soggette alle politiche dei venditori, che potrebbero avere termini e limitazioni terribili. Ad esempio, alcuni venditori non accettano pagamenti esclusivi con carte regalo, o potrebbero annullare il valore della carta se ti considerano un utente ad alto rischio. Una volta ottenuto il credito del venditore, il venditore ha un forte controllo su di esso.
 
-Le carte prepagate non consentono di prelevare contanti dagli sportelli automatici o di effettuare pagamenti "peer-to-peer" con Venmo e applicazioni simili.
+Le carte prepagate non consentono i prelievi di contanti dagli sportelli automatici o i pagamenti "tra pari" su Venmo e app simili.
 
-Il denaro rimane l'opzione migliore per gli acquisti di persona per la maggior parte delle persone. Le carte regalo possono essere utili per il risparmio che offrono. Le carte prepagate possono essere utili per i luoghi nei quali non accettano contanti. Le carte regalo e le carte prepagate sono più facili da usare online rispetto ai contanti e sono più facili da acquistare con le criptovalute rispetto ai contanti.
+Il contante resta l'opzione migliore per gli acquisti di persona, per gran parte delle persone. Le carte regalo possono essere utili per i risparmi che comportano. Le carte prepagate possono essere utili per i luoghi che non accettano contanti. Le carte regalo e le carte prepagate sono più facili da utilizzare online, rispetto ai contanti, e sono più facili da acquisire con le criptovalute che con i contanti.
 
-### Mercati online
+### Mercati Online
 
-Se hai [criptovalute](../cryptocurrency.md), puoi acquistare carte regalo da un negozio di carte regalo online. Alcuni di questi servizi offrono limiti più elevati dopo aver verificato la propria identità, ma consentono la creazione di account utilizzando soltanto l'email. I limiti di base partono dai 5.000-10.000 dollari al giorno per i conti di base, e limiti significativamente più alti per i conti con ID verificato (se offerti).
+Se possiedi delle [criptovalute](../cryptocurrency.md), puoi acquistare delle carte regalo con un mercato online dedicato. Alcuni di questi servizi offrono opzioni di verifica dell'ID per limiti superiori, oltre a consentire conti che utilizzano soltanto un indirizzo email. I limiti di base partono da $5.000-10.000 al giorno per i conti di base e limiti significativamente superiori per i conti verificati con ID (se offerti).
 
-Quando si acquistano carte regalo online, di solito ti offrono un piccolo sconto. Le carte prepagate sono solitamente vendute online al valore nominale o con una commissione. Se acquisti carte prepagate e carte regalo con criptovalute, dovresti pagare con Monero, in quanto offre una forte privacy, maggiori informazioni su questo di seguito. Pagare una carta regalo con un metodo di pagamento tracciabile annulla i vantaggi che la carta regalo può offrire se acquistata con contanti o Monero.
+Acquistando le carte regalo online, solitamente è offerto un lieve sconto. Le carte prepagate sono solitamente vendute online al valore nominale o con una commissione. Se acquisti carte prepagate e carte regalo con le criptovalute, dovresti preferire vivamente il pagamento con Monero, che fornisce una forte privacy, di più a riguardo in seguito. Pagare una carta regalo con un metodo di pagamento rintracciabile annulla i vantaggi forniti dalle stesse, quando acquistate in contanti o con Monero.
 
-- [Negozi di carte regalo online :material-arrow-right-drop-circle:](../financial-services.md#gift-card-marketplaces)
+- [Mercati Online di Carte Regalo :material-arrow-right-drop-circle:](../financial-services.md#gift-card-marketplaces)
 
-## Carte virtuali
+## Carte Virtuali
 
-Un altro modo per proteggere le vostre informazioni dai commercianti online è quello di utilizzare carte virtuali, monouso, che nascondono le vostre informazioni bancarie o di fatturazione reali. Questo è utile soprattutto per proteggervi dalle violazioni dei dati dei commercianti, dal tracciamento meno sofisticato o dalla correlazione degli acquisti da parte delle agenzie di marketing e dal furto di dati online. **Non** ti aiutano a effettuare pagamenti totalmente anonimi, né a nascondere informazioni all'istituto bancario stesso. I normali istituti finanziari che offrono carte virtuali sono soggetti alle leggi "Know Your Customer" (KYC), il che significa che potrebbero richiedere un documento d'identità o altre informazioni d'identificazione.
+Un altro modo per proteggere le tue informazioni dai commercianti online è utilizzare carte virtuali e a uso singolo, che mascherano le tue informazioni bancarie o di fatturazione. Ciò è soprattutto utile per proteggerti dalle violazioni di dati dei venditori, ridurre il tracciamento sofisticato o la correlazione degli acquisti da parte delle agenzie di marketing, nonché il furto di dati online. **Non** ti assistono nell'effettuare un pagamento completamente autonomo, né nascondono alcuna informazione allo stesso istituto bancario. Le istituzioni finanziarie regolari che offrono le carte virtuali sono soggette a leggi di "Conoscenza del Cliente" (KYC), a significare che potrebbero richiedere il tuo ID o altre informazioni identificative.
 
-- [Servizi di mascheramento dei pagamenti consigliati :material-arrow-right-drop-circle:](../financial-services.md#payment-masking-services)
+- [Servizi di Mascheramento dei Pagamenti Consigliti :material-arrow-right-drop-circle:](../financial-services.md#payment-masking-services)
 
-Queste tendono ad essere buone opzioni per i pagamenti ricorrenti o abbonamenti online, mentre le carte regalo prepagate sono preferibili per le transazioni una tantum.
+Queste, tendono a essere buone opzioni per i pagamenti ricorrenti/abbonamenti online, mentre le carte regalo prepagate sono preferite per le transazioni una tantum.
 
 ## Criptovalute
 

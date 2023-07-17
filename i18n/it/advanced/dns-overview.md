@@ -1,30 +1,30 @@
 ---
 title: "Panoramica DNS"
 icon: material/dns
-description: Il sistema dei nomi di dominio è la "rubrica telefonica di Internet", che aiuta il browser a trovare il sito web che sta cercando.
+description: Il Sistema dei Nomi di Dominio è la "rubrica dell'Internet", aiutando il tuo browser a trovare il sito web che sta cercando.
 ---
 
-Il [Domain Name System](https://it.wikipedia.org/wiki/Domain_Name_System) è 'l'elenco telefonico di Internet'. Il DNS traduce i nomi di dominio in indirizzi IP, in modo che i browser e altri servizi possano caricare le risorse internet mediante un network decentralizzato di server.
+Il [Sistema dei Nomi di Dominio](https://en.wikipedia.org/wiki/Domain_Name_System) (DNS) è la 'rubrica dell'Internet'. Il DNS traduce i nomi di dominio in indirizzi IP, così che i browser e altri servizi possano caricare le risorse di Internet, tramite una rete decentralizzata di server.
 
-## Che cos'è il DNS?
+## Cos'è il DNS?
 
-Quando visiti un sito, viene restituito un indirizzo numerico. Per esempio, quando visiti `privacyguides.org`,viene restituito l'indirizzo `192.98.54.105`.
+Quando visiti un sito web, è restituito un indirizzo numerico. Ad esempio, quando visiti `privacyguides.com`, è restituito l'indirizzo `192.98.54.105`.
 
-Il DNS esiste dai [primi giorni](https://en.wikipedia.org/wiki/Domain_Name_System#History) di Internet. Le richieste DNS fatte da e verso i server DNS **non sono** crittografate generalmente. In un ambiente residenziale, un cliente riceve i server dall'ISP mediante [DHCP](https://en.wikipedia.org/wiki/Dynamic_Host_Configuration_Protocol).
+Il DNS esiste dagli [albori](https://en.wikipedia.org/wiki/Domain_Name_System#History) di Internet. Le richieste DNS da e verso i server DNS **non** sono generalmente crittografate. In un ambiente residenziale, un cliente riceve dei server dall'ISP tramite [DHCP](https://en.wikipedia.org/wiki/Dynamic_Host_Configuration_Protocol).
 
-Le richieste DNS non crittografate possono essere facilmente **sorvegliate** e **modificate** in transito. In alcune parti del mondo, agli ISP viene ordinato di eseguire un [filtraggio primitivo del DNS](https://en.wikipedia.org/wiki/DNS_blocking). Quando viene effettuata una richiesta dell'indirizzo IP di un dominio bloccato, il server potrebbe non rispondere o fornire un indirizzo IP differente. Dato che il protocollo DNS non è crittografato, l'ISP (o qualsiasi operatore di rete) può utilizzare la [DPI](https://it.wikipedia.org/wiki/Deep_packet_inspection) per monitorare le richieste. Gli ISP possono inoltre bloccare richieste aventi caratteristiche comuni, indipendentemente dal server DNS utilizzato. DNS non crittografato utilizza sempre la [porta](https://it.wikipedia.org/wiki/Porta_(reti)) 53 e l'UDP.
+Le richieste DNS non crittografate sono facilmente **sorvegliabili** e **modificabili** durante il transito. In alcune parti del mondo, gli ISP devono eseguire un primitivo [filtraggio DNS](https://en.wikipedia.org/wiki/DNS_blocking). Quando richiedi il blocco dell'indirizzo IP di un dominio, il server potrebbe non rispondere o fornire un indirizzo IP differente. Poiché il protocollo DNS non è crittografato, l'ISP (o qualsiasi operatore della rete), può utilizzare la [DPI](https://en.wikipedia.org/wiki/Deep_packet_inspection) per monitorare le richieste. Gli ISP possono inoltre bloccare le richieste secondo caratteristiche comuni, indipendentemente da quale server DNS è utilizzato. Il DNS non crittografato utilizza sempre la [porta](https://en.wikipedia.org/wiki/Port_(computer_networking)) 53, e utilizza sempre UDP.
 
-Di seguito, discutiamo e foniamo un tutorial per dimostrare cosa un osservatore esterno potrebbe vedere in entrambi i casi di [DNS crittografato](#what-is-encrypted-dns) e non.
+Di seguito, discutiamo e forniamo un tutorial per provare ciò che un osservatore esterno possa vedere, utilizzando il DNS non crittografato e il [DNS crittografato](#what-is-encrypted-dns).
 
 ### DNS non crittografato
 
-1. Utilizzando [`tshark`](https://www.wireshark.org/docs/man-pages/tshark.html) (parte del progetto [Wireshark](https://it.wikipedia.org/wiki/Wireshark)) possiamo monitorare e registrare il flusso di pacchetti Internet. Il comando registra pacchetti che soddisfano le regole specificate:
+1. Utilizzando [`tshark`](https://www.wireshark.org/docs/man-pages/tshark.html) (parte del progetto di [Wireshark](https://en.wikipedia.org/wiki/Wireshark)), possiamo monitorare e registrare il flusso di pacchetti di Internet. Il comando registra i pacchetti che soddisfano le regole specificate:
 
     ```bash
     tshark -w /tmp/dns.pcap udp port 53 and host 1.1.1.1 or host 8.8.8.8
     ```
 
-2. Possiamo usare il comando [`dig`](https://en.wikipedia.org/wiki/Dig_(command)) (Linux, MacOS, ecc.) o [`nslookup`](https://en.wikipedia.org/wiki/Nslookup) (Windows) per inviare la ricerca DNS a entrambi i server. Software come i browser web effettuano queste ricerche automaticamente, a meno che non venga specificato di utilizzare DNS crittografato.
+2. Quindi, possiamo utilizzare [`dig`](https://en.wikipedia.org/wiki/Dig_(command)) (Linux, MacOS, etc.) o [`nslookup`](https://en.wikipedia.org/wiki/Nslookup) (Windows) per inviare la ricerca DNS a entrambi i server. I software come i browser web, svolgono automaticamente tali ricerche, a meno che non siano configurati per utilizzare il DNS crittografato.
 
     === "Linux, macOS"
 
@@ -39,7 +39,7 @@ Di seguito, discutiamo e foniamo un tutorial per dimostrare cosa un osservatore 
         nslookup privacyguides.org 8.8.8.8
         ```
 
-3. Successivamente vogliamo [analizzare](https://www.wireshark.org/docs/wsug_html_chunked/ChapterIntroduction.html#ChIntroWhatIs) i risultati:
+3. Successivamente, vogliamo [analizzare](https://www.wireshark.org/docs/wsug_html_chunked/ChapterIntroduction.html#ChIntroWhatIs) i risultati:
 
     === "Wireshark"
 
@@ -53,96 +53,96 @@ Di seguito, discutiamo e foniamo un tutorial per dimostrare cosa un osservatore 
         tshark -r /tmp/dns.pcap
         ```
 
-Se esegui il comando Wireshark sopra citato, il pannello superiora mostra i "[frame](https://en.wikipedia.org/wiki/Ethernet_frame)", mentre quello inferiore mostra tutti i dati riguardanti il "frame" selezionato. Soluzioni di filtraggio e monitoraggio aziendali (come quelle acquistate dalle amministrazioni pubbliche) possono eseguire il processo automaticamente, senza interazione umana, e aggregare i "frame" per produrre dati statistici utili all'osservatore della rete.
+Se esegui il comando di Wireshark precedente, il pannello superiore mostra i "[quadri](https://en.wikipedia.org/wiki/Ethernet_frame)", mentre quello inferiore mostra tutti i dati sul quadro selezionato. Le soluzioni di filtraggio e monitoraggio aziendali (come quelle acquistate dai governi), possono svolgere il processo automaticamente, senza l'interazione umana, e possono aggregare tali quadri per produrre dati statistici, utili all'osservatore della rete.
 
-| No. | Tempo    | Fonte     | Destinazione | Protocollo | Lunghezza | Info                                                                        |
-| --- | -------- | --------- | ------------ | ---------- | --------- | --------------------------------------------------------------------------- |
-| 1   | 0.000000 | 192.0.2.1 | 1.1.1.1      | DNS        | 104       | Query standard 0x58ba A privacyguides.org OPT                               |
-| 2   | 0.293395 | 1.1.1.1   | 192.0.2.1    | DNS        | 108       | Risposta standard alla query 0x58ba A privacyguides.org A 198.98.54.105 OPT |
-| 3   | 1.682109 | 192.0.2.1 | 8.8.8.8      | DNS        | 104       | Query standard 0xf1a9 A privacyguides.org OPT                               |
-| 4   | 2.154698 | 8.8.8.8   | 192.0.2.1    | DNS        | 108       | Risposta standard alla query 0xf1a9 A privacyguides.org A 198.98.54.105 OPT |
+| N. | Tempo    | Fonte     | Destinazione | Protocollo | Lunghezza | Info                                                                            |
+| -- | -------- | --------- | ------------ | ---------- | --------- | ------------------------------------------------------------------------------- |
+| 1  | 0.000000 | 192.0.2.1 | 1.1.1.1      | DNS        | 104       | Richiesta standard 0x58ba A privacyguides.org OPT                               |
+| 2  | 0.293395 | 1.1.1.1   | 192.0.2.1    | DNS        | 108       | Risposta standard alla richiesta 0x58ba A privacyguides.org A 198.98.54.105 OPT |
+| 3  | 1.682109 | 192.0.2.1 | 8.8.8.8      | DNS        | 104       | Richiesta standard 0xf1a9 A privacyguides.org OPT                               |
+| 4  | 2.154698 | 8.8.8.8   | 192.0.2.1    | DNS        | 108       | Risposta standard alla richiesta 0xf1a9 A privacyguides.org A 198.98.54.105 OPT |
 
 Un osservatore potrebbe modificare uno qualsiasi di questi pacchetti.
 
-## Che cos'è il "DNS crittografato"?
+## Cos'è il "DNS crittografato"?
 
-Il DNS crittografato può riferirsi a uno dei diversi protocolli, i più comuni dei quali sono:
+Il DNS crittografato può riferirsi a uno dei numerosi protocolli, i più comuni dei quali sono:
 
 ### DNSCrypt
 
-[**DNSCrypt**](https://en.wikipedia.org/wiki/DNSCrypt) fu uno dei primi metodi per la crittografia delle query DNS. DNSCrypt opera sulla porta 443 e funziona con entrambi i protocolli di trasporto TCP e UDP. DNSCrypt non è mai stato sottoposto alla [Internet Engineering Task Force (IETF)](https://it.wikipedia.org/wiki/Internet_Engineering_Task_Force), né è passato attraverso il processo di [Request for Comments (RFC, "richiesta di commenti")](https://it.wikipedia.org/wiki/Request_for_Comments); non è mai stato quindi ampiamente utilizzato al di fuori di alcune [implementazioni](https://dnscrypt.info/implementations). DI conseguenza, è stato largamente rimpiazzato dal più popolare [DNS over HTTPS](#dns-over-https-doh).
+[**DNSCrypt**](https://en.wikipedia.org/wiki/DNSCrypt) fu uno dei primi metodi per la crittografia delle richieste DNS. DNSCrypt opera sulla porta 443 e funziona con entrambi i protocolli di trasporto TCP e UDP. DNSCrypt non è stato mai inviato alla [Task Force Ingegneristica di Internet (IETF)](https://en.wikipedia.org/wiki/Internet_Engineering_Task_Force), né ha superato il processo di [Richiesta dei Commenti (RFC)](https://en.wikipedia.org/wiki/Request_for_Comments), quindi non è stato utilizzato ampiamente, al di fuori di poche [implementazioni](https://dnscrypt.info/implementations). Di conseguenza, è stato ampiamente sostituito dal più popolare [DNS-over-HTTPS](#dns-over-https-doh).
 
-### DNS over TLS (DoT)
+### DNS-over-TLS (DoT)
 
-[**DNS over TLS**](https://en.wikipedia.org/wiki/DNS_over_TLS) è un altro metodo per criptare le comunicazioni DNS, definito in [RFC 7858](https://datatracker.ietf.org/doc/html/rfc7858). Il supporto è stato implementato per la prima volta in Android 9, iOS 14 e su Linux in [systemd-resolved](https://www.freedesktop.org/software/systemd/man/resolved.conf.html#DNSOverTLS=) nella versione 237. Negli ultimi anni la preferenza del settore si è spostata da DoT a DoH, in quanto DoT è [protocollo complesso](https://dnscrypt.info/faq/) e presenta una conformità variabile all'RFC tra le implementazioni esistenti. DoT opera anche su una porta dedicata 853 che può essere facilmente bloccata da firewall restrittivi.
+[**DNS-over-TLS**](https://en.wikipedia.org/wiki/DNS_over_TLS) è un altro metodo per crittografare le comunicazioni DNS, definito in [RFC 7858](https://datatracker.ietf.org/doc/html/rfc7858). Il supporto è stato implementato per la prima volta in Android 9, iOS 14 e su Linux in [systemd-resolved](https://www.freedesktop.org/software/systemd/man/resolved.conf.html#DNSOverTLS=), nella versione 237. La preferenza nel settore è stata allontanarsi dal DoT al DoH negli ultimi anni, poiché DoT è un [protocollo complesso](https://dnscrypt.info/faq/), avente una conformità variabile al RFC tra le implementazioni che esistono. Inoltre, DoT opera su una porta 853 dedicata, facilmente bloccabile dai firewall restrittivi.
 
-### DNS over HTTPS (DoH)
+### DNS-over-HTTPS (DoH)
 
-[**DNS over HTTPS**](https://it.wikipedia.org/wiki/DNS_over_HTTPS) come definito in [RFC 8484](https://datatracker.ietf.org/doc/html/rfc8484) pacchettizza le query nel protocollo [HTTP/2](https://it.wikipedia.org/wiki/HTTP/2) e fornisce sicurezza con HTTPS. Il supporto è stato aggiunto per la prima volta in browser web come Firefox 60 e Chrome 83.
+[**DNS-over-HTTPS**](https://en.wikipedia.org/wiki/DNS_over_HTTPS), come definito in [RFC 8484](https://datatracker.ietf.org/doc/html/rfc8484), impacchetta le richieste nel protocollo [HTTP/2](https://en.wikipedia.org/wiki/HTTP/2) e fornisce sicurezza con HTTPS. Il supporto è stato aggiunto per la prima volta nei browser web come Firefox 60 e Chrome 83.
 
-L'implementazione nativa di DoH è presente in iOS 14, macOS 11, Microsoft Windows e Android 13 (tuttavia, non sarà abilitata [per impostazione predefinita](https://android-review.googlesource.com/c/platform/packages/modules/DnsResolver/+/1833144)). Il supporto generale per i desktop Linux è in attesa dell'implementazione di systemd [](https://github.com/systemd/systemd/issues/8639) quindi [l'installazione di software di terze parti è ancora necessaria](../dns.md#linux).
+L'implementazione nativa di DoH è arrivata su iOS 14, macOS 11, Microsoft Windows e Android 13 (tuttavia, non sarà abilitata [di default](https://android-review.googlesource.com/c/platform/packages/modules/DnsResolver/+/1833144)). Il supporto generale per i desktop Linux è in attesa dell'[implementazione](https://github.com/systemd/systemd/issues/8639) di systemd, quindi [è necessario installare un software di terze parti](../dns.md#encrypted-dns-proxies).
 
-## Cosa può vedere un esterno?
+## Cosa può vedere una parte esterna?
 
-In questo esempio registreremo ciò che accade quando facciamo una richiesta al DoH:
+In questo esempio registreremo cosa si verifica quando effettuiamo una richiesta DoH:
 
-1. Per prima cosa, avviare `tshark`:
+1. Prima di tutto, avvia `tshark`:
 
     ```bash
     tshark -w /tmp/dns_doh.pcap -f "tcp port https and host 1.1.1.1"
     ```
 
-2. In secondo luogo, fare una richiesta con `curl`:
+2. Poii, effettua una richiesta con `curl`:
 
     ```bash
     curl -vI --doh-url https://1.1.1.1/dns-query https://privacyguides.org
     ```
 
-3. Dopo aver effettuato la richiesta, possiamo interrompere la cattura dei pacchetti con <kbd>CTRL</kbd> + <kbd>C</kbd>.
+3. Dopo aver effettuato la richiesta, possiamo interrompere la cattura del pacchetto con <kbd>CTRL</kbd> + <kbd>C</kbd>.
 
-4. Analizzare i risultati con Wireshark:
+4. Analizza i risultati su Wireshark:
 
     ```bash
     wireshark -r /tmp/dns_doh.pcap
     ```
 
-Possiamo vedere l'[instaurazione della connessione](https://en.wikipedia.org/wiki/Transmission_Control_Protocol#Connection_establishment) e l'[handshake TLS](https://www.cloudflare.com/learning/ssl/what-happens-in-a-tls-handshake/) che si verifica con qualsiasi connessione crittografata. Osservando i pacchetti "application data" che seguono, nessuno di essi contiene il dominio richiesto o l'indirizzo IP restituito.
+Possiamo vedere l'[instaurazione della connessione](https://en.wikipedia.org/wiki/Transmission_Control_Protocol#Connection_establishment) e l'[handshake TLS](https://www.cloudflare.com/learning/ssl/what-happens-in-a-tls-handshake/), che si verificano con qualsiasi connessione crittografata. Osservando i successivi pacchetti di "dati dell'applicazione", nessuno di essi contiene il dominio richiesto o l'indirizzo IP restituito.
 
-## Perché **non dovrei** utilizzare un DNS criptato?
+## Perché **non dovrei** utilizzare il DNS crittografato?
 
-Nei luoghi in cui vige il filtraggio (o la censura) di Internet, la visita a risorse proibite può avere conseguenze che vanno considerate nel [modello di minaccia](../basics/threat-modeling.md). Noi **non** suggeriamo l'uso di DNS criptati per questo scopo. Utilizza [Tor](https://torproject.org) o una [VPN](../vpn.md). Se utilizzi una VPN, usufruisci dei server DNS della VPN. Quando si utilizza una VPN, ci si affida già a loro per tutte le attività di rete.
+Nei luoghi in cui esiste il filtraggio (o censura) di Internet, visitare le risorse proibite potrebbe avere delle conseguenze, che dovresti considerare nel tuo [modello di minaccia](../basics/threat-modeling.md). Noi **non** suggeriamo di utilizzare il DNS crittografato per tale scopo. Utilizza [Tor](https://torproject.org) o una [VPN](../vpn.md). Se stai utilizzando una VPN, dovresti utilizzare i server DNS della tua VPN. Utilizzando una VPN, stai già affidando loro tutta la tua attività di rete.
 
-Quando si effettua una ricerca DNS, in genere è perché si vuole accedere a una risorsa. Di seguito verranno illustrati alcuni dei metodi che possono rivelare le attività di navigazione dell'utente anche quando si utilizza un DNS crittografato:
+Quando effettuiamo una ricerca DNS, generalmente è perché desideriamo accedere a una risorsa. Di seguito, discuteremo di alcuni dei metodi che potrebbero divulgare le tue attività di navigazione, anche utilizzando il DNS crittografato:
 
 ### Indirizzo IP
 
-Il modo più semplice per determinare l'attività di navigazione potrebbe essere quello di esaminare gli indirizzi IP a cui accedono i dispositivi. Ad esempio, se l'osservatore sa che `privacyguides.org` si trova all'indirizzo `198.98.54.105`, e il tuodispositivo sta richiedendo dati da `198.98.54.105`, è molto probabile che tu stia visitando Privacy Guides.
+Il metodo più semplice per determinare l'attività di navigazione, potrebbe essere quello di esaminare gli indirizzi IP accessibili ai tuoi dispositivi. Ad esempio, se l'osservatore sa che `privacyguides.org` si trova a `198.98.54.105` e il tuo dispositivo sta richiedendo dei dati da `198.98.54.105`, è molto probabile che tu stia visitando Privacy Guides.
 
-Questo metodo è utile solo quando l'indirizzo IP appartiene a un server che ospita solo pochi siti web. Non è molto utile se il sito è hostato su una piattaforma condivisa (per esempio Github Pages, Cloudflare Pages, Netlify, WordPress, Blogger, ecc.). Inoltre, non è molto utile se il server è ospitato dietro un reverse proxy [](https://it.wikipedia.org/wiki/Reverse_proxy), molto comune nella moderna Internet.
+Questo metodo è utile soltanto quando l'indirizzo IP appartiene a un server che ospita soltanto alcuni siti web. Non è molto utile se il sito è ospitato su una piattaforma condivisa (es., GitHub Pages, Cloudflare Pages, Netlify, WordPress, Blogger, etc.). Inoltre, non è molto utile se il server è ospitato dietro un [proxy inverso](https://en.wikipedia.org/wiki/Reverse_proxy), molto comune sull'Internet moderno.
 
-### Indicazione del nome del server (Server Name Indication, SNI)
+### Indicazione del Nome del Server (SNI)
 
-L'indicazione del nome del server è tipicamente utilizzata quando un indirizzo IP ospita molti siti web. Potrebbe trattarsi di un servizio come Cloudflare o di un'altra protezione [attacco denial-of-service](https://it.wikipedia.org/wiki/Denial_of_service).
+L'Indicazione del Nome del Server è tipicamente utilizzata quando un indirizzo IP ospita molti siti web. Potrebbe trattarsi di un servizio come Cloudflare, o di qualche altra protezione dagli [attacchi di Denial-of-service](https://en.wikipedia.org/wiki/Denial-of-service_attack).
 
-1. Avviare nuovamente la cattura con `tshark`. Abbiamo aggiunto un filtro con il nostro indirizzo IP in modo da non catturare molti pacchetti:
+1. Riavvia la cattura con `tshark`. Abbiamo aggiunto un filtro con il nostro indirizzo IP, così che tu non catturi molti pacchetti:
 
     ```bash
     tshark -w /tmp/pg.pcap port 443 and host 198.98.54.105
     ```
 
-2. Poi visitiamo [https://privacyguides.org](https://privacyguides.org).
+2. Quindi, visitiamo [https://privacyguides.org](https://privacyguides.org).
 
-3. Dopo aver visitato il sito web, vogliamo interrompere la cattura dei pacchetti con <kbd>CTRL</kbd> + <kbd>C</kbd>.
+3. Dopo aver visitato il sito web, vogliamo interrrompere la cattura dei pacchetti, con <kbd>CTRL</kbd> + <kbd>C</kbd>.
 
-4. Poi vogliamo analizzare i risultati:
+4. Poi, vogliamo analizzare i risultati:
 
     ```bash
     wireshark -r /tmp/pg.pcap
     ```
 
-    Vedremo la creazione della connessione, seguita dall'handshake TLS per il sito web di Privacy Guides. Intorno al frame 5. vedrai "Client Hello".
+    Vedremo l'instaurazione della connessione, seguita dall'handshake TLS per il sito web di Privacy Guides. Intorno al quadro 5, visualizzerai un "Saluto del Client".
 
-5. Espandi il triangolo &#9656; accanto a ciascun campo:
+5. Espandi il triangolo &#9656; affianco a ogni campo:
 
     ```text
     ▸ Transport Layer Security
@@ -152,64 +152,64 @@ L'indicazione del nome del server è tipicamente utilizzata quando un indirizzo 
             ▸ Server Name Indication extension
     ```
 
-6. Possiamo vedere il valore SNI che rivela il sito web che stiamo visitando. Il comando `tshark` può fornire direttamente il valore per tutti i pacchetti contenenti un valore SNI:
+6. Possiamo vedere il valore SNI che rivela il sito web che stiamo visitando. Il comando `tshark` può darti direttamente il valore per tutti i pacchetti contenenti un valore SNI:
 
     ```bash
     tshark -r /tmp/pg.pcap -Tfields -Y tls.handshake.extensions_server_name -e tls.handshake.extensions_server_name
     ```
 
-Ciò significa che anche se si utilizzano server "DNS criptati", il dominio sarà probabilmente divulgato tramite SNI. Il protocollo [TLS v1.3](https://en.wikipedia.org/wiki/Transport_Layer_Security#TLS_1.3) porta con sé [Encrypted Client Hello](https://blog.cloudflare.com/encrypted-client-hello/), che impedisce questo tipo di fuga d'informazioni.
+Ciò significa che, anche se stiamo utilizzando dei server "DNS Crittografati", il dominio sarà probabilmente divulgato tramite SNI. Il protocollo [TLS v1.3](https://en.wikipedia.org/wiki/Transport_Layer_Security#TLS_1.3) porta iil [Saluto Crittografato del Client](https://blog.cloudflare.com/encrypted-client-hello/), che impedisce questo genere di fughe di dati.
 
-I governi, in particolare [Cina](https://www.zdnet.com/article/china-is-now-blocking-all-encrypted-https-traffic-using-tls-1-3-and-esni/) e [Russia](https://www.zdnet.com/article/russia-wants-to-ban-the-use-of-secure-protocols-such-as-tls-1-3-doh-dot-esni/), hanno[già iniziato a bloccarlo](https://en.wikipedia.org/wiki/Server_Name_Indication#Encrypted_Client_Hello) o hanno espresso il desiderio di farlo. Recentemente, la Russia ha [iniziato a bloccare i siti web](https://github.com/net4people/bbs/issues/108) stranieri che utilizzano lo standard [HTTP/3](https://it.wikipedia.org/wiki/HTTP/3). Questo perché il protocollo [QUIC](https://it.wikipedia.org/wiki/QUIC) che fa parte di HTTP/3 richiede che anche `ClientHello` sia criptato.
+I governi, in particolare la [Cina](https://www.zdnet.com/article/china-is-now-blocking-all-encrypted-https-traffic-using-tls-1-3-and-esni/) e la [Russia](https://www.zdnet.com/article/russia-wants-to-ban-the-use-of-secure-protocols-such-as-tls-1-3-doh-dot-esni/), hanno già [iniziato a bloccarlo](https://en.wikipedia.org/wiki/Server_Name_Indication#Encrypted_Client_Hello) o espresso il desiderio di volerlo fare. Di recente, la Russia ha [iniziato a bloccare i siti web stranieri](https://github.com/net4people/bbs/issues/108), che utilizzano lo standard [HTTP/3](https://en.wikipedia.org/wiki/HTTP/3). Questo perché il protocollo [QUIC](https://en.wikipedia.org/wiki/QUIC), parte di HTTP/3, richiede che anche `ClientHello` sia crittografato.
 
-### Online Certificate Status Protocol (OCSP)
+### Protocollo di Stato del Certificato Online (OCSP)
 
-Un altro modo in cui il browser può rivelare le attività di navigazione è il protocollo [Online Certificate Status Protocol](https://it.wikipedia.org/wiki/Online_Certificate_Status_Protocol). Quando si visita un sito web HTTPS, il browser potrebbe verificare se il [certificato](https://it.wikipedia.org/wiki/Certificato_digitale) del sito web è stato revocato. Questo avviene generalmente tramite il protocollo HTTP, il che significa che è **non** crittografato.
+Un altro modo in cui il tuo browser può divulgare le tue attività di navigazione è con il [Protocollo di Stato del Certificato Online](https://en.wikipedia.org/wiki/Online_Certificate_Status_Protocol). Visitando un sito web HTTPS, il browser potrebbe verificare se il [certificato](https://en.wikipedia.org/wiki/Public_key_certificate) del sito web è stato revocato. Ciò avviene generalmente tramite il protocollo HTTP, a significare che **non** è crittografato.
 
-La richiesta OCSP contiene il certificato "[numero seriale](https://it.wikipedia.org/wiki/Certificato_digitale#Struttura_dei_Certificati)", che è unico. Viene inviato al "responder OCSP" per verificarne lo stato.
+La richiesta OCSP contiene il "[numero di serie](https://en.wikipedia.org/wiki/Public_key_certificate#Common_fields)" del certificato, che è univoco. Viene inviato al "risponditore OCSP", per poterne verificare lo stato.
 
-Possiamo simulare quello che farebbe un browser usando il comando [`openssl`](https://it.wikipedia.org/wiki/OpenSSL).
+Possiamo simulare ciò che un browser farebbe, utilizzando il comando [`openssl`](https://en.wikipedia.org/wiki/OpenSSL).
 
-1. Ottenere il certificato del server e utilizzare [`sed`](https://it.wikipedia.org/wiki/Sed_(Unix)) per conservare solo la parte importante e scriverla in un file:
+1. Ottieni il certificato del server e utilizza [`sed`](https://en.wikipedia.org/wiki/Sed) per mantenere soltanto la parte importante e scriverla in un file:
 
     ```bash
     openssl s_client -connect privacyguides.org:443 < /dev/null 2>&1 |
         sed -n '/^-*BEGIN/,/^-*END/p' > /tmp/pg_server.cert
     ```
 
-2. Ottenere il certificato intermedio. [Autorità di certificazione (CA)](https://it.wikipedia.org/wiki/Certificate_authority) di solito non firmano direttamente un certificato, ma utilizzano un cosiddetto certificato "intermedio".
+2. Ottieni il certificato intermedio. Normalmente, le [Autorità di Certificazione (CA)](https://en.wikipedia.org/wiki/Certificate_authority) non firmano direttamente un certificato; utilizzano ciò che è noto come certificato "intermedio".
 
     ```bash
     openssl s_client -showcerts -connect privacyguides.org:443 < /dev/null 2>&1 |
         sed -n '/^-*BEGIN/,/^-*END/p' > /tmp/pg_and_intermediate.cert
     ```
 
-3. Il primo certificato in `pg_and_intermediate.cert` è in realtà il certificato del server dal passo 1. Possiamo usare di nuovo `sed` per cancellare fino alla prima istanza di END:
+3. Il primo certificato in `pg_and_intermediate-.cert` è in realtà il certificato del server dal passaggio 1. Possiamo riutilizzare `sed` per eliminare fino alla prima istanza di END:
 
     ```bash
     sed -n '/^-*END CERTIFICATE-*$/!d;:a n;p;ba' \
         /tmp/pg_and_intermediate.cert > /tmp/intermediate_chain.cert
     ```
 
-4. Ottenere il responder OCSP per il certificato del server:
+4. Ottieni il risponditore OCSP per il certificato del server:
 
     ```bash
     openssl x509 -noout -ocsp_uri -in /tmp/pg_server.cert
     ```
 
-    Il nostro certificato mostra il risponditore del certificato Lets Encrypt. Se si desidera visualizzare tutti i dettagli del certificato, è possibile utilizzare:
+    Il nostro certificato mostra il risponditore del certificato Lets Encrypt. Se desideri visualizzare tutti i dettagli del certificato, puoi utilizzare:
 
     ```bash
     openssl x509 -text -noout -in /tmp/pg_server.cert
     ```
 
-5. Avviare l'acquisizione dei pacchetti:
+5. Avvia la cattura dei pacchetti:
 
     ```bash
     tshark -w /tmp/pg_ocsp.pcap -f "tcp port http"
     ```
 
-6. Effettuare la richiesta OCSP:
+6. Effettua la richiesta OCSP:
 
     ```bash
     openssl ocsp -issuer /tmp/intermediate_chain.cert \
@@ -218,13 +218,13 @@ Possiamo simulare quello che farebbe un browser usando il comando [`openssl`](ht
                  -url http://r3.o.lencr.org
     ```
 
-7. Aprire l'acquisizione:
+7. Apri la cattura:
 
     ```bash
     wireshark -r /tmp/pg_ocsp.pcap
     ```
 
-    Il protocollo "OCSP" prevede due pacchetti: una "Richiesta" e una "Risposta". Per la "Richiesta" possiamo vedere il "numero seriale" espandendo il triangolo &#9656; accanto a ciascun campo:
+    Ci sarranno due pacchetti con il protocollo "OCSP": una "Richiesta" e una "Risposta". Per la "Richiesta", possiamo visualizzare il "numero di serie" espandendo il triangolo &#9656; affianco a ogni campo:
 
     ```bash
     ▸ Online Certificate Status Protocol
@@ -235,7 +235,7 @@ Possiamo simulare quello che farebbe un browser usando il comando [`openssl`](ht
               serialNumber
     ```
 
-    Per la "Risposta" possiamo vedere anche il "numero seriale":
+    Anche per la "Risposta" possiamo visualizzare il "numero di serie":
 
     ```bash
     ▸ Online Certificate Status Protocol
@@ -248,25 +248,25 @@ Possiamo simulare quello che farebbe un browser usando il comando [`openssl`](ht
                   serialNumber
     ```
 
-8. Oppure utilizzare `tshark` per filtrare i pacchetti per il numero seriale:
+8. Altrimenti, utilizza `tshark` per filtrare i pacchetti per il Numero di Serie:
 
     ```bash
     tshark -r /tmp/pg_ocsp.pcap -Tfields -Y ocsp.serialNumber -e ocsp.serialNumber
     ```
 
-Se l'osservatore della rete dispone del certificato pubblico, che è pubblicamente disponibile, può abbinare il numero seriale a quel certificato e quindi determinare il sito che stai visitando. Il processo può essere automatizzato e può associare gli indirizzi IP ai numeri seriali. È anche possibile controllare i log di [Certificate Transparency](https://en.wikipedia.org/wiki/Certificate_Transparency) per il numero seriale.
+Se l'osservatore della rete ha il certificato pubblico, disponibile pubblicamente, può abbinare il numero di serie a tale certificato e, dunque, determinare da ciò il sito che stai visitando. Il processo è automatizzabile e può associare gli indirizzi IP ai numeri di serie. Inoltre, puoi verificare i registri di [Trasparenza del Certificato](https://en.wikipedia.org/wiki/Certificate_Transparency) per il numero di serie.
 
-## Dovrei utilizzare un DNS criptato?
+## Dovrei utilizzare il DNS crittografato?
 
-Abbiamo creato questo diagramma di flusso per descrivere quando *dovresti* utilizzare il DNS criptato:
+Abbiamo creato questo diagramma di flusso per descrivere quando *dovresti* utilizzare il DNS crittografato:
 
 ``` mermaid
 graph TB
     Inizio[Inizio] --> anonymous{"Cerchi di<br> essere anonimo?"}
     anonymous --> | Sì | tor(Usa Tor)
-    anonymous --> | No | censorship{"Vuoi evitare<br> la censura?"}
-    censorship --> | Sì | vpnOrTor(Usa<br> VPN o Tor)
-    censorship --> | No | privacy{"Vuoi privacy<br> dall'ISP?"}
+    anonymous --> | No | censura{"Vuoi evitare<br> la censura?"}
+    censura--> | Sì | vpnOrTor(Usa<br> VPN o Tor)
+    censura --> | No | privacy{"Vuoi privacy<br> dall'ISP?"}
     privacy --> | Sì | vpnOrTor
     privacy --> | No | obnoxious{"L'ISP fa<br> reindirizzamenti<br> odiosi?"}
     obnoxious --> | Sì | encryptedDNS(Usa<br> DNS criptato<br> di terze parti)
@@ -275,32 +275,32 @@ graph TB
     ispDNS --> | No | nothing(Non fare nulla)
 ```
 
-Il DNS criptato con una terza parte dovrebbe essere usato solo per aggirare i reindirizzamenti e il [blocco DNS](https://en.wikipedia.org/wiki/DNS_blocking) basilare quando puoi essere sicuro che non ci saranno conseguenze o sei interessato a un provider che faccia qualche filtro rudimentale.
+Il DNS Criittografato con unaa terza parte dovrebbe sempre essere utilizzato per aggirare i reindirizzamenti e il [blocco DNS](https://en.wikipedia.org/wiki/DNS_blocking) di base, quando puoi assicurarti che non sussisteranno conseguenze, o se sei interessato a un fornitore che svolge del filtraggio rudimentale.
 
 [Elenco dei server DNS consigliati](../dns.md ""){.md-button}
 
-## Che cosa sono le DNSSEC?
+## Cosa sono le DNSSEC?
 
-Le [Domain Name System Security Extensions](https://it.wikipedia.org/wiki/DNSSEC) (DNSSEC) sono una funzione del DNS che autentica le risposte alle ricerche di nomi di dominio. Non forniscono una protezione della privacy per tali ricerche, ma piuttosto impedisce agli aggressori di manipolare o avvelenare le risposte alle richieste DNS.
+Le [Estensioni di Sicurezza del Sistema di Nome del Dominio](https://en.wikipedia.org/wiki/Domain_Name_System_Security_Extensions) (DNSSEC), sono una funzionalità del DNS che autentica le risposte per le ricerche del nome di dominio. Non forniscono protezione della privacy per tali ricerche, ma impediscono ai malintenzionati di manipolare o avvelenare le risposte alle richieste DNS.
 
-In altre parole, le DNSSEC firmano digitalmente i dati per garantirne la validità. Per garantire una ricerca sicura, la firma avviene a ogni livello del processo di ricerca DNS. Di conseguenza, tutte le risposte del DNS sono affidabili.
+In altre parole, le DNSSEC firmano digitalmente i dati, per aiutare ad assicurarne la validità. Per poter garantire una ricerca sicura, la firma si verifica a ogni livello nel processo di ricerca del DNS. Di conseguenza, tutte le risposte dal DNS sono affidabili.
 
-Il processo di firma delle DNSSEC è simile a quello di una persona che firma un documento legale con una penna; quella persona firma con una firma unica che nessun altro può creare e un esperto del tribunale può esaminare quella firma e verificare che il documento è stato firmato da quella persona. Queste firme digitali garantiscono che i dati non siano stati manomessi.
+Il processo di firma delle DNSSEC è simile a quello di firma di un documento legale, con una penna; il firmatario utilizza una firma univoca, che nessun altro può creare e un esperto del tribunale può osservare tale firma e verificare che il documento sia stato firmato da una data persona. Queste firme digitali garantiscono che i dati non siano stati manomessi.
 
-Le DNSSEC implementano una politica di firma digitale gerarchica su tutti i livelli del DNS. Ad esempio, nel caso di una ricerca su `privacyguides.org`, un server DNS root firmerà una chiave per il server dei nomi `.org` e il server dei nomi `.org` firmerà una chiave per il server dei nomi autoritativo `privacyguides.org`.
+Le DNSSEC implementano una politica di firma digitale gerarchica, tra tutti i livelli del DNS. Ad esempio, nel caso di una ricerca di `privacyguides.com`, un server DNS di radice firmerebbe una chiave per il nome del server `.org`, e il nome del server `.org`, dunque, firmerebbe un chiave per quello autoritativo di `privacyguides.org`.
 
-<small>Adattato da [DNS Security Extensions (DNSSEC) overview (Panoramica delle DNS Security Extensions (DNSSEC))](https://cloud.google.com/dns/docs/dnssec) di Google e [DNSSEC: An Introduction (DNSSEC: una introduzione)](https://blog.cloudflare.com/dnssec-an-introduction/) di Cloudflare, entrambi con licenza [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/).</small>
+<small>Adattato dalla [panoramica sulle Estensioni di Sicurezza DNS (DNSSEC)](https://cloud.google.com/dns/docs/dnssec) by Google and [DNSSEC: Un'introduzione](https://blog.cloudflare.com/dnssec-an-introduction/), di Cloudflare, entrambi sotto licenza [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/).</small>
 
-## Che cos'è la minimizzazione del QNAME?
+## Cos'è la minimizzazione dei QNAME?
 
-Un QNAME è un "nome qualificato", ad esempio `privacyguides.org`. La minimizzazione del QNAME riduce la quantità di informazioni inviate dal server DNS al [server dei nomi autoritativi](https://en.wikipedia.org/wiki/Name_server#Authoritative_name_server).
+Un QNAME è un "nome qualificato", ad esempio, `privacyguides.com`. La minimizzazione del QNAME riduce la quantità di informazioni inviate dal server DNS all'[assistente autoritativo del nome](https://en.wikipedia.org/wiki/Name_server#Authoritative_name_server).
 
-Invece di inviare l'intero dominio `privacyguides.org`, la minimizzazione del QNAME significa che il server DNS chiederà tutti i record che terminano in `.org`. Ulteriori descrizioni tecniche sono definite in [RFC 7816](https://datatracker.ietf.org/doc/html/rfc7816).
+Invece di inviare l'intero dominio `privacyguides.org`, la minimizzazione del QNAME preclude che il server DNS chiederà tutti i registri che terminano per `.org`. Un'ulteriore descrizione tecnica è definita nel [RFC 7816](https://datatracker.ietf.org/doc/html/rfc7816).
 
-## Che cos'è la sottorete client EDNS (EDNS Client Subnet, ECS)?
+## Cos'è la Sottorete del Client EDNS (ECS)?
 
-La [sottorete client EDNS](https://en.wikipedia.org/wiki/EDNS_Client_Subnet) è un metodo che consente a un resolver DNS ricorsivo di specificare una [sottorete](https://it.wikipedia.org/wiki/Sottorete) per l'host o il [client](https://it.wikipedia.org/wiki/Client) che sta effettuando la query DNS.
+La [Sottorete del Client EDNS](https://en.wikipedia.org/wiki/EDNS_Client_Subnet) è un metodo per un risolutore DNS ricorsivo, per specificare una [sotto-rete](https://en.wikipedia.org/wiki/Subnetwork) per l'[host o il client](https://en.wikipedia.org/wiki/Client_(computing)) che sta effettuando la richiesta DNS.
 
-Ha lo scopo di "velocizzare" la consegna dei dati fornendo al client una risposta che appartiene a un server vicino, come ad esempio una rete di distribuzione di contenuti [](https://it.wikipedia.org/wiki/Content_Delivery_Network), spesso utilizzata per lo streaming video e per servire applicazioni web in JavaScript.
+Esiste per "velocizzare" la consegna dei dati, dando al client una risposta appartenente a un server nei suoi pressi, come una [rete di consegna dei contenuti](https://en.wikipedia.org/wiki/Content_delivery_network), spesso utilizzate nello streaming di video e per servire app web in JavaScript.
 
-Questa funzione ha un costo in termini di privacy, in quanto comunica al server DNS alcune informazioni sulla posizione del client.
+Questa funzionalità non ha un costo in termini di privacy, poiché comunica al server DNS alcune informazioni sulla posizione del client.
