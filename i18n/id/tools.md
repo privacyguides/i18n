@@ -353,7 +353,7 @@ Kami [merekomendasikan](dns.md#recommended-providers) sejumlah server DNS terenk
 
 [Pelajari lebih lanjut :material-arrow-right-drop-circle:](news-aggregators.md)
 
-### Notebooks
+### Buku Catatan
 
 <div class="grid cards" markdown>
 

@@ -79,7 +79,7 @@ Quando utilizzi un'istanza gestita da altri, assicurati di leggere la politica s
         - [:simple-linux: Linux](https://freetubeapp.io/#download)
         - [:simple-flathub: Flathub](https://flathub.org/apps/details/io.freetubeapp.FreeTube)
 
-!!! warning "Attenzione"
+!!! warning
 
     Quando utilizzi FreeTube, l'indirizzo IP potrebbe essere ancora noto a YouTube, [Invidious](https://instances.invidious.io) o [SponsorBlock](https://sponsor.ajay.app/) a seconda della configurazione. Considera l'uso di [VPN](vpn.md) o [Tor](https://www.torproject.org) se il [modello di minaccia](basics/threat-modeling.md) richiede di nascondere l'indirizzo IP.
 
@@ -104,7 +104,7 @@ Quando utilizzi un'istanza gestita da altri, assicurati di leggere la politica s
         - [:simple-apple: App Store](https://apps.apple.com/it/app/yattee/id1595136629)
         - [:simple-github: GitHub](https://github.com/yattee/yattee/releases)
 
-!!! warning "Attenzione"
+!!! warning
 
     Quando usi Yattee, l'indirizzo IP potrebbe essere ancora visibile a YouTube, [Invidious](https://instances.invidious.io), [Piped](https://github.com/TeamPiped/Piped/wiki/Instances) o [SponsorBlock](https://sponsor.ajay.app/) a seconda della tua configurazione. Considera l'uso di [VPN](vpn.md) o [Tor](https://www.torproject.org) se il [modello di minaccia](basics/threat-modeling.md) richiede di nascondere l'indirizzo IP.
 
@@ -130,7 +130,7 @@ Per impostazione predefinita, Yattee blocca tutti gli annunci pubblicitari di Yo
     
         - [:simple-github: GitHub](https://github.com/libre-tube/LibreTube/releases)
 
-!!! warning "Attenzione"
+!!! warning
 
     Quando usi LibreTube, il tuo indirizzo IP sarà visibile all'istanza [Piped](https://github.com/TeamPiped/Piped/wiki/Instances) scelta e/o [SponsorBlock](https://sponsor.ajay.app/) a seconda della configurazione. Considera l'uso di [VPN](vpn.md) o [Tor](https://www.torproject.org) se il [modello di minaccia](basics/threat-modeling.md) richiede di nascondere l'indirizzo IP.
 
@@ -158,7 +158,7 @@ Per impostazione predefinita, LibreTube blocca tutti gli annunci pubblicitari di
 
 1. L'istanza predefinita è [FramaTube](https://framatube.org/), ma se ne possono aggiungere altre tramite **Impostazioni** → **Contenuti** → **Istanze di PeerTube**
 
-!!! warning "Attenzione"
+!!! warning
 
     Quando utilizzi NewPipe, il tuo indirizzo IP sarà visibile ai fornitori di video utilizzati. Considera l'uso di [VPN](vpn.md) o [Tor](https://www.torproject.org) se il [modello di minaccia](basics/threat-modeling.md) richiede di nascondere l'indirizzo IP.
 
@@ -179,7 +179,7 @@ Per impostazione predefinita, LibreTube blocca tutti gli annunci pubblicitari di
     [:octicons-code-16:](https://github.com/iv-org/invidious){ .card-link title="Codice sorgente" }
     [:octicons-heart-16:](https://invidious.io/donate/){ .card-link title=Contribuisci }
 
-!!! warning "Attenzione"
+!!! warning
 
     Invidious non esegue il proxy dei video in modo predefinito. I video guardati attraverso Invidious continueranno a collegarsi direttamente ai server di Google (ad esempio, `googlevideo.com`); tuttavia, alcune istanze supportano il proxy video: è sufficiente attivare *Proxy video* nelle impostazioni dell'istanza o aggiungere `&local=true` all'URL.
 
@@ -209,11 +209,11 @@ Per impostazione predefinita, LibreTube blocca tutti gli annunci pubblicitari di
 
 ## Criteri
 
-**Si noti che non siamo affiliati a nessuno dei progetti che raccomandiamo.** Oltre ai [ nostri criteri standard](about/criteria.md), abbiamo sviluppato una serie di requisiti chiari che ci consentono di fornire raccomandazioni obiettive. Ti consigliamo di familiarizzare con questo elenco prima di scegliere di utilizzare un progetto e di condurre le vostre ricerche per assicurarvi che sia la scelta giusta per voi.
+**Ti preghiamo di notare che non siamo affiliati con alcun progetto consigliato.** Oltre ai [nostri criteri standard](about/criteria.md), abbiamo sviluppato una serie chiara di requisiti per consentirci di fornire consigli oggettivi. Ti suggeriamo di familiarizzare con questo elenco prima di scegliere di utilizzare un progetto e di condurre le tue ricerche per assicurarti che si tratti della scelta adatta a te.
 
-!!! example "Questa sezione è nuova"
+!!! esempio "Questa sezione è nuova"
 
-    Stiamo lavorando per stabilire criteri ben definiti per ogni sezione del nostro sito, e questo potrebbe essere soggetto a modifiche. Se avete domande sui nostri criteri, vi preghiamo di [chiedere sul nostro forum](https://discuss.privacyguides.net/latest) e non date per scontato che non abbiamo preso in considerazione qualcosa nel formulare le nostre raccomandazioni se non è elencato qui. Sono molti i fattori presi in considerazione e discussi quando consigliamo un progetto, e stiamo lavorando per documentare ogni singolo fattore.
+    Stiamo lavorando per stabilire i criteri definiti per ogni sezione del nostro sito e, questa, potrebbe essere soggetta a modifiche. Se hai qualsiasi domanda sui nostri criteri, ti preghiamo di [chiedere sul nostro forum](https://discuss.privacyguides.net/latest) e di non supporre che non abbiamo considerato qualcosa, formulando i nostri consigli, se non elencato qui. Molti fattori sono presi in considerazione e discussi quando consigliamo un progetto e la documentazione di ognuno è in lavorazione.
 
 Frontend consigliati...
 

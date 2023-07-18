@@ -1,5 +1,5 @@
 ---
-title: "Notebooks"
+title: "Buku Catatan"
 icon: material/notebook-edit-outline
 description: These encrypted note-taking apps let you keep track of your notes without giving them to a third-party.
 cover: notebooks.png
@@ -9,7 +9,7 @@ Keep track of your notes and journalings without giving them to a third-party.
 
 If you are currently using an application like Evernote, Google Keep, or Microsoft OneNote, we suggest you pick an alternative here that supports E2EE.
 
-## Cloud-based
+## Aplikasi berbasis cloud
 
 ### Standard Notes
 

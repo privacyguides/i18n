@@ -1,44 +1,44 @@
 ---
 title: Introduction à macOS
 icon: material/apple-finder
-description: macOS est le système d'exploitation d'Apple pour ordinateurs de bureau fonctionnant avec leur propre matériel pour assurer une sécurité forte.
+description: macOS est le système d'exploitation d'Apple pour ordinateurs de bureau fonctionnant avec leur propre matériel pour assurer une sécurité renforcée.
 ---
 
 **macOS** est un système d'exploitation Unix développé par Apple pour leurs ordinateurs Mac. Pour améliorer la confidentialité de macOS, il est possible de désactiver la télémétrie et renforcer les paramètres existants de confidentialité et de sécurité.
 
-Les Macs plus anciens qui embarquent du matériel Intel ainsi que les Hackintoshes ne supportent pas toutes les fonctionnalités de sécurité offertes par macOS. Pour améliorer la sécurité des données, nous recommandons d'utiliser un Mac récent avec un processeur [Apple Silicon](https://support.apple.com/en-us/HT211814).
+Les anciens Mac à base de processeur Intel et les Hackintosh ne prennent pas en charge toutes les fonctions de sécurité offertes par macOS. Pour améliorer la sécurité des données, nous recommandons d'utiliser un Mac plus récent avec un processeur [Apple Silicon](https://support.apple.com/fr-fr/HT211814).
 
-## Remarques
+## Remarques concernant la vie privée
 
-macOS soulève plusieurs problèmes dont vous devriez tenir compte. Ils relèvent du système d'exploitation lui-même et non des autres applications et services Apple.
+macOS pose quelques problèmes importants en matière de protection de la vie privée, qu'il convient de prendre en compte. Ils concernent le système d'exploitation lui-même, et non les autres applications et services d'Apple.
 
 ### Verrouillage d'activation
 
-Les appareils neufs Apple peuvent être configurés sans connexion à internet. Cependant, récupérer ou réinitialiser votre Mac **nécessitera** une connexion internet aux serveurs d'Apple pour vérifier s'il est dans la base de données des appareils perdus ou volés.
+Les nouveaux appareils Apple Silicon peuvent être configurés sans connexion internet. Cependant, la récupération ou la réinitialisation de votre Mac **nécessitera** une connexion internet aux serveurs d'Apple pour vérifier la base de données Verrouillage d'activation des appareils perdus ou volés.
 
-### App Revocation Checks
+### Contrôles de révocation des applications
 
-macOS performs online checks when you open an app to verify whether an app contains known malware, and whether the developer’s signing certificate is revoked.
+macOS effectue des contrôles en ligne lorsque vous ouvrez une application afin de vérifier si elle contient des logiciels malveillants connus et si le certificat de signature du développeur a été révoqué.
 
-Previously, these checks were performed via an unencrypted OCSP protocol which could leak information about the apps you ran to your network. Apple upgraded their OCSP service to use HTTPS encryption in 2021, and [posted information](https://support.apple.com/HT202491) about their logging policy for this service. They additionally promised to add a mechanism for people to opt-out of this online check, but this has not been added to macOS as of July 2023.
+Auparavant, ces vérifications étaient effectuées via un protocole OCSP non chiffré, ce qui pouvait entraîner une fuite d'informations sur les applications que vous exécutez sur votre réseau. Apple a mis à jour son service OCSP pour utiliser le chiffrement HTTPS en 2021, et [a publié des informations](https://support.apple.com/HT202491) sur sa politique de journalisation pour ce service. Ils ont également promis d'ajouter un mécanisme permettant aux personnes de se retirer de cette vérification en ligne, mais cela n'a pas été ajouté à macOS en date de juillet 2023.
 
-While you [can](https://eclecticlight.co/2021/02/23/how-to-run-apps-in-private/) manually opt out of this check relatively easily, we recommend against doing so unless you would be badly compromised by the revocation checks performed by macOS, because they serve an important role in ensuring compromised apps are blocked from running.
+Bien que vous [puissiez](https://eclecticlight.co/2021/02/23/how-to-run-apps-in-private/) désactiver manuellement cette vérification assez facilement, nous vous déconseillons de le faire à moins que les vérifications de révocation effectuées par macOS ne vous compromettent gravement, car elles jouent un rôle important en empêchant l'exécution d'applications compromises.
 
 ## Configuration recommandée
 
-Your account when you first set up your Mac will be an Administrator account, which has higher privileges than a Standard user account. macOS has a number of protections which prevent malware and other programs from abusing your Administrator privileges, so it is generally safe to use this account.
+Lorsque vous configurez votre Mac pour la première fois, vous disposez d'un compte d'administrateur, dont les privilèges sont plus élevés que ceux d'un compte d'utilisateur standard. macOS dispose d'un certain nombre de protections qui empêchent les logiciels malveillants et d'autres programmes d'abuser de vos privilèges d'administrateur, de sorte que l'utilisation de ce compte est généralement sûre.
 
-However, exploits in protective utilities like `sudo` have been [discovered in the past](https://bogner.sh/2014/03/another-mac-os-x-sudo-password-bypass/). If you want to avoid the possibility that programs you run abuse your Administrator privileges, you could consider creating a second, Standard user account which you use for day-to-day operations. This has the added benefit of making it more obvious when an app needs admin access, because it will prompt you for credentials every time.
+Cependant, des exploits dans des utilitaires de protection tels que `sudo` ont été [découverts dans le passé](https://bogner.sh/2014/03/another-mac-os-x-sudo-password-bypass/). Si vous souhaitez éviter que les programmes que vous exécutez n'abusent de vos privilèges d'administrateur, vous pouvez envisager de créer un deuxième compte d'utilisateur standard, que vous utiliserez pour les opérations quotidiennes. Cela présente l'avantage supplémentaire de rendre plus évident le fait qu'une application a besoin d'un accès administrateur, parce qu'elle vous demandera à chaque fois de fournir des informations d'identification.
 
-If you do use a second account, it is not strictly required to ever log in to your original Administrator account from the macOS login screen. When you are doing something as a Standard user which requires Administrator permissions, the system should prompt you for authentication, where you can enter your Administrator credentials as your Standard user on a one-time basis. Apple provides [guidance](https://support.apple.com/HT203998) on hiding your Administrator account if you prefer to only see a single account on your login screen.
+Si vous utilisez un deuxième compte, il n'est pas strictement nécessaire de vous connecter à votre compte administrateur d'origine à partir de l'écran de connexion de macOS. Lorsque vous effectuez, en tant qu'utilisateur standard, une opération nécessitant des autorisations d'administrateur, le système vous invite à vous authentifier, ce qui vous permet d'entrer une seule fois vos informations d'identification d'administrateur en tant qu'utilisateur standard. Apple fournit des [conseils](https://support.apple.com/HT203998) sur la façon de masquer votre compte administrateur si vous préférez ne voir qu'un seul compte sur votre écran de connexion.
 
-Alternatively, you can use a utility like [macOS Enterprise Privileges](https://github.com/SAP/macOS-enterprise-privileges) to escalate to Administrator rights on-demand, but this may be vulnerable to some undiscovered exploit, like all software-based protections.
+Vous pouvez également utiliser un utilitaire tel que [macOS Enterprise Privileges](https://github.com/SAP/macOS-enterprise-privileges) pour obtenir les droits d'administrateur à la demande, mais cette solution peut être vulnérable à un exploit non découvert, comme toutes les protections basées sur des logiciels.
 
 ### iCloud
 
-The majority of privacy and security concerns with Apple products are related to their *cloud services*, not their hardware or software. When you use Apple services like iCloud, most of your information is stored on their servers and secured with keys *which Apple has access to* by default. This level of access has occasionally been abused by law enforcement to get around the fact that your data is otherwise securely encrypted on your device, and of course Apple is vulnerable to data breaches like any other company.
+La majorité des préoccupations relatives à la protection de la vie privée et à la sécurité des produits Apple sont liées à leurs *services cloud*, et non à leurs matériels ou à leurs logiciels. Lorsque vous utilisez des services Apple comme iCloud, la plupart de vos informations sont stockées sur leurs serveurs et sécurisées par des clés *auxquelles Apple a accès* par défaut. Ce niveau d'accès a parfois été utilisé de manière abusive par les forces de l'ordre pour contourner le fait que vos données sont par ailleurs chiffrées de manière sécurisée sur votre appareil, et bien sûr Apple est vulnérable aux fuites de données comme toute autre entreprise.
 
-Therefore, if you use iCloud you should [enable **Advanced Data Protection**](https://support.apple.com/HT212520). This encrypts nearly all of your iCloud data with keys stored on your devices (end-to-end encryption), rather than Apple's servers, so that your iCloud data is secured in the event of a data breach, and otherwise hidden from Apple.
+Par conséquent, si vous utilisez iCloud, vous devriez [activer la**Protection avancée des données**](https://support.apple.com/HT212520). Cela permet de chiffrer la quasi-totalité de vos données iCloud à l'aide de clés stockées sur vos appareils (chiffrement de bout en bout), plutôt que sur les serveurs d'Apple, de sorte que vos données iCloud sont sécurisées en cas de fuite de données, et qu'elles sont par ailleurs cachées à Apple.
 
 ### System Settings
 

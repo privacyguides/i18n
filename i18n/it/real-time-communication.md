@@ -103,7 +103,7 @@ Briar supporta la Forward Secrecy usando l'[Handshake](https://code.briarproject
 
 ## Altre alternative
 
-!!! warning "Attenzione"
+!!! warning
 
     Questi messenger non utilizzano la [Forward Secrecy](https://it.wikipedia.org/wiki/Forward_secrecy) e anche se soddisfano alcune esigenze che le nostre precedenti raccomandazioni non soddisfano, non le raccomandiamo per le comunicazioni a lungo termine o sensibili. Qualsiasi compromissione di chiavi tra i destinatari del messaggio inciderebbe sulla riservatezza di **tutte** le comunicazioni passate.
 

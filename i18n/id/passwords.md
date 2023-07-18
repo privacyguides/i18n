@@ -1,14 +1,14 @@
 ---
-meta_title: "The Best Password Managers to Protect Your Privacy and Security - Privacy Guides"
+meta_title: "Pengelola Kata Sandi Terbaik untuk Melindungi Privasi dan Keamanan Anda - Privacy Guides"
 title: "Pengelola Kata Sandi"
 icon: material/form-textbox-password
-description: Password managers allow you to securely store and manage passwords and other credentials.
+description: Pengelola kata sandi memungkinkan Anda menyimpan dan mengelola kata sandi dan kredensial lainnya dengan aman.
 cover: passwords.png
 schema:
   - 
     "@context": http://schema.org
     "@type": WebPage
-    name: Password Manager Recommendations
+    name: Rekomendasi Pengelola Kata Sandi
     url: "./"
   - 
     "@context": http://schema.org
@@ -118,19 +118,19 @@ schema:
       url: "./"
 ---
 
-Password managers allow you to securely store and manage passwords and other credentials with the use of a master password.
+Pengelola kata sandi memungkinkan Anda menyimpan dan mengelola kata sandi dan kredensial lainnya dengan aman dengan menggunakan kata sandi utama.
 
-[Introduction to Passwords :material-arrow-right-drop-circle:](./basics/passwords-overview.md)
+[Pengantar Kata Sandi :material-arrow-right-drop-circle:](./basics/passwords-overview.md)
 
 !!! info
 
-    Built-in password managers in software like browsers and operating systems are sometimes not as good as dedicated password manager software. The advantage of a built-in password manager is good integration with the software, but it can often be very simple and lack privacy and security features standalone offerings have.
+    Pengelola kata sandi bawaan pada perangkat lunak seperti peramban dan sistem operasi terkadang tidak sebaik perangkat lunak pengelola kata sandi khusus. Keuntungan dari pengelola kata sandi bawaan adalah integrasi yang baik dengan perangkat lunak, tetapi sering kali sangat sederhana dan tidak memiliki fitur privasi dan keamanan seperti yang dimiliki oleh penawaran mandiri.
     
-    For example, the password manager in Microsoft Edge doesn't offer E2EE at all. Google's password manager has [optional](https://support.google.com/accounts/answer/11350823) E2EE, and [Apple's](https://support.apple.com/en-us/HT202303) offers E2EE by default.
+    Sebagai contoh, pengelola kata sandi di Microsoft Edge sama sekali tidak menawarkan E2EE. Pengelola kata sandi Google memiliki [optional](https://support.google.com/accounts/answer/11350823) E2EE, dan [Apple] (https://support.apple.com/en-us/HT202303) menawarkan E2EE secara default.
 
-## Cloud-based
+## Aplikasi berbasis cloud
 
-These password managers sync your passwords to a cloud server for easy accessibility from all your devices and safety against device loss.
+Pengelola kata sandi ini menyinkronkan kata sandi Anda ke server cloud untuk kemudahan akses dari semua perangkat Anda dan keamanan terhadap kehilangan perangkat.
 
 ### Bitwarden
 

@@ -1,50 +1,50 @@
 ---
 title: macOS 簡介
 icon: material/apple-finder
-description: macOS is Apple's desktop operating system that works with their hardware to provide strong security.
+description: macOS 是蘋果電腦的桌面作業系統，搭配其自家硬體提供了堅固的安全。
 ---
 
-**macOS** is a Unix operating system developed by Apple for their Mac computers. To enhance privacy on macOS, you can disable telemetry features and harden existing privacy and security settings.
+蘋果公司使用 Unix 作業系統來開發**macOS** 支援自家的 Mac 電腦。 為提高 macOS 隱私，用戶可關閉遙測功能以強化現有的隱私與安全設置。
 
-Older Intel-based Macs and Hackintoshes do not support all the security features that macOS offers. To enhance data security, we recommend using a newer Mac with [Apple silicon](https://support.apple.com/en-us/HT211814).
+舊款的 Intel-based Macs 與 Hackintoshe 則無法完全支援 macOS 所提供的安全功能。 為提昇資料安全，建議使用帶[Apple silicon](https://support.apple.com/en-us/HT211814)晶片的.較新款 Mac 。
 
-## Privacy Notes
+## 隱私筆記
 
-There are a few notable privacy concerns with macOS that you should consider. These pertain to the operating system itself, and not Apple's other apps and services.
+用戶應考量 一些 macOS 值得關注的隱私問題。 這些涉及作業系統本身，而不是蘋果其他應用程式和服務的問題。
 
-### Activation Lock
+### 激活鎖
 
-Brand new Apple silicon devices can be set up without an internet connection. However, recovering or resetting your Mac will **require** an internet connection to Apple's servers to check against the Activation Lock database of lost or stolen devices.
+新款 Apple silicon 設備無需網際網路連接即可設置。 但是，恢復或重置 Mac 將**需要**連接到 Apple 伺服器，以檢查丟失或被盜設備資料庫的激活鎖。
 
-### App Revocation Checks
+### 應用程式撤銷檢查
 
-macOS performs online checks when you open an app to verify whether an app contains known malware, and whether the developer’s signing certificate is revoked.
+當開啟應用程式時，macOS 會執行連線檢查，驗證應用程式是否包含已知惡意軟體，以及開發人員的簽名證書是否被撤銷。
 
-Previously, these checks were performed via an unencrypted OCSP protocol which could leak information about the apps you ran to your network. Apple upgraded their OCSP service to use HTTPS encryption in 2021, and [posted information](https://support.apple.com/HT202491) about their logging policy for this service. They additionally promised to add a mechanism for people to opt-out of this online check, but this has not been added to macOS as of July 2023.
+過去這些檢查是通過未加密的 OCSP 協議執行，因此可能會將您運行的應用程式資料洩露到網路上。 Apple 在 2021 年將其 OCSP 服務升級為 HTTPS 加密，並[發布了該服務的日誌記錄政策資訊](https://support.apple.com/HT202491)。 他們還承諾添加一種機制，讓用戶可選擇退出此連線檢查，但截至 2023 年 7 月，該機制尚未添加到 macOS 。
 
-While you [can](https://eclecticlight.co/2021/02/23/how-to-run-apps-in-private/) manually opt out of this check relatively easily, we recommend against doing so unless you would be badly compromised by the revocation checks performed by macOS, because they serve an important role in ensuring compromised apps are blocked from running.
+雖然您[可以](https://electiclight.co/2021/02/23/how-to-run-apps-in-private/)相對輕鬆地手動選擇退出此檢查，但除非您會受到 macOS 執行撤銷檢查的嚴重損害，我們不建議這樣做，因為它們在確保阻止受感染的應用程式運行上發揮著重要作用。
 
 ## 建議配置
 
-Your account when you first set up your Mac will be an Administrator account, which has higher privileges than a Standard user account. macOS has a number of protections which prevent malware and other programs from abusing your Administrator privileges, so it is generally safe to use this account.
+首次設置 Mac 時，您的帳戶將是管理員帳戶，其具有比標準用戶帳戶更高的權限。 macOS 有許多保護措施可以防止惡意軟體和其他程式濫用您的管理員權限，因此使用此帳戶通常是安全的。
 
-However, exploits in protective utilities like `sudo` have been [discovered in the past](https://bogner.sh/2014/03/another-mac-os-x-sudo-password-bypass/). If you want to avoid the possibility that programs you run abuse your Administrator privileges, you could consider creating a second, Standard user account which you use for day-to-day operations. This has the added benefit of making it more obvious when an app needs admin access, because it will prompt you for credentials every time.
+然而，破壞利用 `sudo` 這類的保護效用程式中的漏洞問題，已曾[ 發現過](https://bogner.sh/2014/03/another-mac-os-x-sudo-password-bypass/)。 如果想避免運行的程式濫用管理員權限，可以考慮創建第二個標準用戶帳戶用於日常操作。 這樣的另一個好處是，當應用程式需要管理員訪問權限時，它會更加明顯，因為它每次都會提示您輸入憑據。
 
-If you do use a second account, it is not strictly required to ever log in to your original Administrator account from the macOS login screen. When you are doing something as a Standard user which requires Administrator permissions, the system should prompt you for authentication, where you can enter your Administrator credentials as your Standard user on a one-time basis. Apple provides [guidance](https://support.apple.com/HT203998) on hiding your Administrator account if you prefer to only see a single account on your login screen.
+如果您使用第二個帳戶，則不會嚴格要求在 macOS 登入畫面需登錄到原始管理員帳戶。 當以標準用戶身份執行需要管理員權限的操作時，系統會提示進行身份驗證，這時可以作為標準用戶單次性輸入管理員憑據。 如果希望在登錄畫面中只有一個帳戶，Apple 提供了[隱藏管理員帳戶的指南](https://support.apple.com/HT203998)。
 
-Alternatively, you can use a utility like [macOS Enterprise Privileges](https://github.com/SAP/macOS-enterprise-privileges) to escalate to Administrator rights on-demand, but this may be vulnerable to some undiscovered exploit, like all software-based protections.
+或者，您可以使用 [macOS Enterprise Privileges](https://github.com/SAP/macOS-enterprise-privileges) 之類的實用程式按需升級到管理員權限，但這可能容易受到一些未被發現弪點的利用，一如所有基於軟體的保護。
 
 ### iCloud
 
-The majority of privacy and security concerns with Apple products are related to their *cloud services*, not their hardware or software. When you use Apple services like iCloud, most of your information is stored on their servers and secured with keys *which Apple has access to* by default. This level of access has occasionally been abused by law enforcement to get around the fact that your data is otherwise securely encrypted on your device, and of course Apple is vulnerable to data breaches like any other company.
+Apple 產品的大多數隱私和安全問題與其*雲服務*有關，而不是其硬體或軟體。 當使用 iCloud 等 Apple 服務時，大部分資訊都存儲在他們的伺服器上以密鑰保護，且預設情況下 Apple 可以取用該密鑰。 這種訪問級別偶爾會被執法部門濫用，儘管您的資料在設備上還是安全加密的狀態。當然，Apple 與任何其他公司一樣容易遭受資料洩露。
 
-Therefore, if you use iCloud you should [enable **Advanced Data Protection**](https://support.apple.com/HT212520). This encrypts nearly all of your iCloud data with keys stored on your devices (end-to-end encryption), rather than Apple's servers, so that your iCloud data is secured in the event of a data breach, and otherwise hidden from Apple.
+因此，如果使用 iCloud，則應[啟用**進階資料保護**](https://support.apple.com/HT212520)。 This encrypts nearly all of your iCloud data with keys stored on your devices (end-to-end encryption), rather than Apple's servers, so that your iCloud data is secured in the event of a data breach, and otherwise hidden from Apple.
 
-### System Settings
+### 系統設定
 
-There are a number of built-in settings you should confirm or change to harden your system. Open the **Settings** app:
+您應該確認或更改許多內建設置以強化系統。 Open the **Settings** app:
 
-#### Bluetooth
+#### 藍牙
 
 - [ ] Uncheck **Bluetooth** (unless you are currently using it)
 
@@ -58,7 +58,7 @@ Click on the "Details" button by your network name:
 
 ##### 防火牆
 
-Your firewall blocks unwanted network connections. The stricter your firewall settings are, the more secure your Mac is. However, certain services will be blocked. You should configure your firewall to be as strict as you can without blocking services you use.
+防火牆會阻止不必要的網路連接。 The stricter your firewall settings are, the more secure your Mac is. However, certain services will be blocked. You should configure your firewall to be as strict as you can without blocking services you use.
 
 - [x] Check **Firewall**
 
@@ -92,11 +92,11 @@ Click the small :material-information-outline: icon next to **Automatic Updates*
 
 #### 隱私 & 安全
 
-Whenever an application requests a permission, it will show up here. You can decide which applications you want to allow or deny specific permissions.
+Whenever an application requests a permission, it will show up here. 您可決定是否允許或拒絕哪些應用程式的特定權限。
 
 ##### 定位服務。
 
-You can individually allow location services per-app. If you don't need apps to use your location, turning off location services entirely is the most private option.
+您可以個別同意每個應用程式的定位服務權限。 如果不要應用程式使用您的位置，那麼完全關閉定位服務是最私密的選擇。
 
 - [ ] Uncheck **Location Services**
 
@@ -150,7 +150,7 @@ openssl rand -hex 6 | sed 's/\(..\)/\1:/g; s/.$//' | xargs sudo ifconfig en1 eth
 
 en1 is the name of the interface you're changing the MAC address for. This might not be the right one on every Mac, so to check you can hold the option key and click the Wi-Fi symbol at the top right of your screen.
 
-This will be reset on reboot.
+這將在重新開機時重置。
 
 ## 安全保護
 
@@ -168,7 +168,7 @@ macOS's system components are protected in a read-only signed system volume, mea
 
 The system volume is verified while it's running and any data that's not signed with a valid cryptographic signature from Apple will be rejected.
 
-#### System Integrity Protection
+#### 系統完整性保護
 
 macOS sets certain security restrictions that can't be overridden. These are called Mandatory Access Controls, and they form the basis of the sandbox, parental controls, and System Integrity Protection on macOS.
 
@@ -227,28 +227,28 @@ Apple's Touch ID feature allows you to securely unlock your devices using biomet
 
 Your biometric data never leaves your device; it's stored only in the Secure Enclave.
 
-#### Hardware Microphone Disconnect
+#### 硬體麥克風斷線
 
-All laptops with Apple silicon or the T2 chip feature a hardware disconnect for the built-in microphone whenever the lid is closed. This means that there is no way for an attacker to listen to your Mac's microphone even if the operating system is compromised.
+所有配備 Apple silicon 或 T2 晶片的筆記型電腦都具備在閉合時內置麥克風硬體即斷線的功能。 這意味著即使作業系統受到破壞，攻擊者無法監聽 Mac 的麥克風。
 
-Note that the camera does not have a hardware disconnect, since its view is obscured when the lid is closed anyway.
+請注意，攝影機沒有硬體斷接，因為只要上蓋關閉時，其視線即會被遮擋。
 
-#### Peripheral Processor Security
+#### 外圍處理器安全
 
-Computers have built-in processors other than the main CPU that handle things like networking, graphics, power management, etc. These processors can have insufficient security and become compromised, therefore Apple tries to minimize the need for these processors in their hardware.
+電腦除了主 CPU 之外還有內建處理器，用於處理網路、圖形、電源管理等事務。 這些處理器可能沒有足夠的安全性且受到損害，因此蘋果試圖減少其硬體中對這類處理器的需求。
 
-When it is necessary to use one of these processors, Apple works with the vendor to ensure that the processor
+當需要使用其中某一種處理器時，Apple 會與供應商合作，以確保該處理器
 
-- runs verified firmware from the primary CPU on startup
-- has its own Secure Boot chain
-- follows minimum cryptographic standards
-- ensures known bad firmware is properly revoked
-- has its debug interfaces disabled
-- is signed with Apple's cryptographic keys
+- 啟動時從主 CPU 運行經過驗證的韌體
+- 有自己的安全啟動鏈
+- 遵循最低加密標準
+- 確保正確撤銷已知的不良韌體
+- 已禁用其調試介面
+- 使用 Apple 的加密密鑰簽名
 
-#### Direct Memory Access Protections
+#### 直接記憶體存取保護
 
-Apple silicon separates each component that requires direct memory access. For example, a Thunderbolt port can't access memory designated for the kernel.
+Apple silicon 將需要直接訪問記憶體的各組件分開。 例如，Thunderbolt 端口無法訪問為內核指定的記憶體。
 
 ## 來源
 

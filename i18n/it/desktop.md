@@ -1,11 +1,11 @@
 ---
 title: "Desktop/PC"
 icon: simple/linux
-description: Le distribuzioni Linux sono comunemente consigliate per la protezione della privacy e la libertà del software.
+description: Le distribuzioni di Linux sono consigliate per la protezione della privcy e la libertà dei software.
 cover: desktop.png
 ---
 
-Le distribuzioni Linux sono comunemente consigliate per la protezione della privacy e la libertà del software. Se non utilizzi già Linux, di seguito ti suggeriamo alcune distribuzioni da provare, oltre ad alcuni consigli generali per migliorare la privacy e la sicurezza applicabili a molte distribuzioni Linux.
+Le distribuzioni di Linux sono comunemente consigliate per la protezione della privacy e la libertà dei software. Se non utilizzi già Linux, seguono alcune distribuzioni che suggeriamo di provare, nonché consigli generali sul miglioramento della privacy e della sicurezza, applicabili a molte distribuzioni di Linux.
 
 - [Panoramica generale di Linux :material-arrow-right-drop-circle:](os/linux-overview.md)
 
@@ -15,47 +15,47 @@ Le distribuzioni Linux sono comunemente consigliate per la protezione della priv
 
 !!! recommendation
 
-    ![Fedora logo](/assets/img/linux-desktop/fedora-workstation.svg){ align=right }
+    ![Logo di Fedora](/assets/img/linux-desktop/fedora-workstation.svg){ align=right }
     
-    **Fedora Workstation** è la distribuzione che raccomandiamo per utenti nuovi a Linux. Fedora generalmente adotta tecnologie più recenti prima di altre distribuzioni, ad esempio [Wayland](https://wayland.freedesktop.org/), [PipeWire](https://pipewire.org), e presto, [FS-Verity](https://fedoraproject.org/wiki/Changes/FsVerityRPM). Queste nuove tecnologie spesso comportano miglioramenti alla sicurezza, privacy e usabilità in generale.
+    **Fedora Workstation** è la distribuzione che consiigliamo per le persone nuove a Linux. Generalmente, Fedora, adotta le tecnologie più recenti prima delle altre distribuzioni, ad esempio, [Wayland](https://wayland.freedesktop.org/) e [PipeWire](https://pipewire.org). Queste, spesso, comportano miglioramenti alla sicurezza, privacy e utilizzabilità, in generale.
     
-    [:octicons-home-16: Pagina Principale](https://getfedora.org/){ .md-button .md-button--primary }
+    [:octicons-home-16: Home](https://getfedora.org/){ .md-button .md-button--primary }
     [:octicons-info-16:](https://docs.fedoraproject.org/en-US/docs/){ .card-link title=Documentazione}
     [:octicons-heart-16:](https://whatcanidoforfedora.org/){ .card-link title=Contribuisci }
 
-Fedora ha un ciclo di rilascio semi-rolling. Mentre alcuni pacchetti come [GNOME](https://www.gnome.org) sono congelati fino alla prossima versione di Fedora, la maggior parte dei pacchetti (incluso il kernel) sono aggiornati frequentemente durante il ciclo di vita della versione.  Ogni versione di Fedora è supportata per un anno, con una nuova versione rilasciata ogni 6 mesi.
+Fedora ha un ciclo di rilascio semi continuo. Mentre alcuni pacchetti come [GNOME](https://www.gnome.org) sono congelati fino alla prossima versione di Fedora, la maggior parte dei pacchetti (incluso il kernel) sono aggiornati frequentemente durante il ciclo di vita della versione.  Ogni versione di Fedora è supportata per un anno, con una nuova versione rilasciata ogni 6 mesi.
 
 ### openSUSE Tumbleweed
 
 !!! recommendation
 
-    ![openSUSE Tumbleweed logo](/assets/img/linux-desktop/opensuse-tumbleweed.svg){ align=right }
+    ![Logo di openSUSE Tumbleweed](/assets/img/linux-desktop/opensuse-tumbleweed.svg){ align=right }
     
-    **openSUSE Tumbleweed** è una distribuzione [a rilascio continuo](https://it.wikipedia.org/wiki/Rolling_release) stabile.
+    **openSUSE Tumbleweed** è una distribuzione stabile a rilascio continuo.
     
-    openSUSE Tumbleweed ha un sistema di [aggiornamenti "transazionali"](https://kubic.opensuse.org/blog/2018-04-04-transactionalupdates/) che usa [Btrfs](https://it.wikipedia.org/wiki/Btrfs) e [Snapper](https://en.opensuse.org/openSUSE:Snapper_Tutorial) per assicurare che le istantanee possano essere ripristinate in caso di problemi.
+    openSUSE Tumbleweed dispone di un sistema di [aggiornamenti "transazionali"](https://kubic.opensuse.org/blog/2018-04-04-transactionalupdates/) che utilizza [Btrfs](https://it.wikipedia.org/wiki/Btrfs) e [Snapper](https://en.opensuse.org/openSUSE:Snapper_Tutorial) per garantire che le istantanee possano essere ripristinate in caso di problemi.
     
-    [:octicons-home-16: Pagina Principale](https://get.opensuse.org/tumbleweed/){ .md-button .md-button--primary }
+    [:octicons-home-16: Home](https://get.opensuse.org/tumbleweed/){ .md-button .md-button--primary }
     [:octicons-info-16:](https://doc.opensuse.org/){ .card-link title=Documentazione}
     [:octicons-heart-16:](https://shop.opensuse.org/){ .card-link title=Contribuisci }
 
-Tumbleweed segue un modello di rilascio continuo in cui ogni aggiornamento viene rilasciato come un'istantanea della distribuzione. Quando l'utente aggiorna il suo sistema, viene scaricata una nuova istantanea. Ogni istantanea viene sottoposta a una serie di test automatizzati da [openQA](https://openqa.opensuse.org) per garantirne la qualità.
+Tumbleweed segue un modello di rilascio continuo in cui ogni aggiornamento è rilasciato come un'istantanea della distribuzione. Quando l'utente aggiorna il proprio sistema, viene scaricata una nuova istantanea. Ogni istantanea viene sottoposta a una serie di test automatizzati da [openQA](https://openqa.opensuse.org) per garantirne la qualità.
 
 ### Arch Linux
 
 !!! recommendation
 
-    ![Arch logo](/assets/img/linux-desktop/archlinux.svg){ align=right }
+    ![Logo di Arch](/assets/img/linux-desktop/archlinux.svg){ align=right }
     
-    **Arch Linux** è una distribuzione leggera, fai-da-te (DIY) che significa che ottieni solo ciò che installi. Per maggiori informazioni visita le loro [FAQ](https://wiki.archlinux.org/title/Frequently_asked_questions).
+    **Arch Linux** è una distribuzione leggera e fai-da-te, il che significa che ottieni soltanto ciò che installi. Per ulteriori informazioni visita le loro [Domande Frequenti](https://wiki.archlinux.org/title/Frequently_asked_questions).
     
-    [:octicons-home-16: Pagina Principale](https://archlinux.org/){ .md-button .md-button--primary }
+    [:octicons-home-16: Home](https://archlinux.org/){ .md-button .md-button--primary }
     [:octicons-info-16:](https://wiki.archlinux.org/){ .card-link title=Documentazione}
     [:octicons-heart-16:](https://archlinux.org/donate/){ .card-link title=Contribuisci }
 
-Arch Linux ha un ciclo di rilascio continuo. Non c'è un programma di rilascio fisso e i pacchetti vengono aggiornati molto frequentemente.
+Arch Linux ha un ciclo di rilascio continuo. Non esiste un piano di rilascio fisso e i pacchetti sono aggiornati molto frequentemente.
 
-Essendo una distribuzione DIY, ci si aspetta che l'utente [imposti e mantenga](#arch-based-distributions) il proprio sistema. Arch ha un [installatore ufficiale](https://wiki.archlinux.org/title/Archinstall) per rendere il processo di installazione un po' più facile.
+Essendo una distribuzione fai da te, [dovresti configurare e mantenere](#arch-based-distributions) il tuo sistema per conto tuo. Arch dispone di un [installatore ufficiale](https://wiki.archlinux.org/title/Archinstall) per semplificare il processo di installazione.
 
 Gran parte dei [pacchetti di Arch Linux](https://reproducible.archlinux.org) sono [riproducibili](https://reproducible-builds.org).
 
@@ -65,17 +65,17 @@ Gran parte dei [pacchetti di Arch Linux](https://reproducible.archlinux.org) son
 
 !!! recommendation
 
-    ![Fedora Silverblue logo](/assets/img/linux-desktop/fedora-silverblue.svg){ align=right }
+    ![Logo di Fedora Silverblue](/assets/img/linux-desktop/fedora-silverblue.svg){ align=right }
     
-    **Fedora Silverblue** e **Fedora Kinoite** sono varianti immutabili di Fedora con una forte attenzione al flussi di lavoro basato su contenitori. Silverblue viene fornito con l'ambiente desktop [GNOME](https://www.gnome.org/) mentre Kinoite viene fornito con [KDE](https://kde.org/). Silverblue e Kinoite seguono lo stesso programma di rilascio di Fedora Workstation, beneficiando degli stessi aggiornamenti veloci e rimanendo molto vicini all'upstream.
+    **Fedora Silverblue** e **Fedora Kinoite** sono varianti immutabili di Fedora con una forte attenzione al flussi di lavoro dei contenitori. Silverblue è fornito con l'ambiente desktop [GNOME](https://www.gnome.org/), mentre Kinoite è fornito con [KDE](https://kde.org/). Silverblue e Kinoite seguono lo stesso piano di rilascio di Fedora Workstation, beneficiando dagli stessi aggiornamenti veloci e rimanendo molto vicini alla versione a monte.
     
-    [:octicons-home-16: Pagina Principale](https://silverblue.fedoraproject.org/){ .md-button .md-button--primary }
+    [:octicons-home-16: Home](https://silverblue.fedoraproject.org/){ .md-button .md-button--primary }
     [:octicons-info-16:](https://docs.fedoraproject.org/it/fedora-silverblue//){ .card-link title=Documentazione}
     [:octicons-heart-16:](https://whatcanidoforfedora.org/){ .card-link title=Contribuisci }
 
-Silverblue (e Kinoite) differiscono da Fedora Workstation perché sostituiscono il gestore di pacchetti [DNF](https://fedoraproject.org/wiki/DNF) con un'alternativa molto più avanzata chiamata [`rpm-ostree`](https://docs.fedoraproject.org/en-US/fedora/rawhide/system-administrators-guide/package-management/rpm-ostree/).  Il gestore di pacchetti `rpm-ostree` funziona scaricando un'immagine di base per il sistema, quindi sovrapponendo i pacchetti in un albero di commit simile a [git](https://en.wikipedia.org/wiki/Git). Quando il sistema viene aggiornato, viene scaricata una nuova immagine di base e le sovrapposizioni vengono applicate a questa nuova immagine.
+Silverblue (e Kinoite) differiscono da Fedora Workstation poiché sostituiscono il gestore di pacchetti [DNF](https://fedoraproject.org/wiki/DNF) con un'alternativa molto più avanzata, detta [`rpm-ostree`](https://docs.fedoraproject.org/en-US/fedora/rawhide/system-administrators-guide/package-management/rpm-ostree/). Il gestore di pacchetti `rpm-ostree` opera scaricando un'immagine di base per il sistema, quindi sovrapponendo i pacchetti in un albero di commit simile a [git](https://en.wikipedia.org/wiki/Git). Quando il sistema viene aggiornato, viene scaricata una nuova immagine di base e le sovrapposizioni sono applicate a questa nuova immagine.
 
-Al termine dell'aggiornamento, il sistema verrà riavviato nella nuova distribuzione. `rpm-ostree` mantiene due distribuzioni del sistema in modo da poter effettuare facilmente il rollback se qualcosa si rompe nella nuova distribuzione. È inoltre possibile aggiungere altre distribuzioni in base alle necessità.
+Al termine dell'aggiornamento, il sistema sarà riavviato nella nuova distribuzione. `rpm-ostree` mantiene due distribuzioni del sistema, così da poter facilmente essere ripristinato, se qualcosa si rompe nella nuova distribuzione. Inoltre, esiste l'opzione di aggiungere altre distribuzioni, se necessario.
 
 [Flatpak](https://www.flatpak.org) è il metodo principale di installazione dei pacchetti su queste distribuzioni, in quanto `rpm-ostree` è pensato solo per sovrapporre all'immagine di base i pacchetti che non possono stare all'interno di un contenitore.
 
@@ -168,11 +168,11 @@ Il sistema operativo Qubes OS protegge il computer isolando i sottosistemi (ad e
 
 ## Criteri
 
-**Si noti che non siamo affiliati a nessuno dei progetti che raccomandiamo.** Oltre ai [ nostri criteri standard](about/criteria.md), abbiamo sviluppato una serie di requisiti chiari che ci consentono di fornire raccomandazioni obiettive. Ti consigliamo di familiarizzare con questo elenco prima di scegliere di utilizzare un progetto e di condurre le vostre ricerche per assicurarvi che sia la scelta giusta per voi.
+**Ti preghiamo di notare che non siamo affiliati con alcun progetto consigliato.** Oltre ai [nostri criteri standard](about/criteria.md), abbiamo sviluppato una serie chiara di requisiti per consentirci di fornire consigli oggettivi. Ti suggeriamo di familiarizzare con questo elenco prima di scegliere di utilizzare un progetto e di condurre le tue ricerche per assicurarti che si tratti della scelta adatta a te.
 
-!!! example "Questa sezione è nuova"
+!!! esempio "Questa sezione è nuova"
 
-    Stiamo lavorando per stabilire criteri ben definiti per ogni sezione del nostro sito, e questo potrebbe essere soggetto a modifiche. Se avete domande sui nostri criteri, vi preghiamo di [chiedere sul nostro forum](https://discuss.privacyguides.net/latest) e non date per scontato che non abbiamo preso in considerazione qualcosa nel formulare le nostre raccomandazioni se non è elencato qui. Sono molti i fattori presi in considerazione e discussi quando consigliamo un progetto, e stiamo lavorando per documentare ogni singolo fattore.
+    Stiamo lavorando per stabilire i criteri definiti per ogni sezione del nostro sito e, questa, potrebbe essere soggetta a modifiche. Se hai qualsiasi domanda sui nostri criteri, ti preghiamo di [chiedere sul nostro forum](https://discuss.privacyguides.net/latest) e di non supporre che non abbiamo considerato qualcosa, formulando i nostri consigli, se non elencato qui. Molti fattori sono presi in considerazione e discussi quando consigliamo un progetto e la documentazione di ognuno è in lavorazione.
 
 I nostri sistemi operativi consigliati:
 

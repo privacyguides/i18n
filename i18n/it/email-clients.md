@@ -90,7 +90,7 @@ Apple Mail ha la possibilità di caricare contenuti in remoto in background o di
         - [:simple-appstore: App Store](https://apps.apple.com/app/id1236045954)
         - [:simple-windows11: Windows](https://canarymail.io/downloads.html)
 
-!!! warning "Attenzione"
+!!! warning
 
     Canary Mail ha rilasciato solo di recente un client per Windows e Android, anche se non crediamo che siano stabili come le loro controparti per iOS e Mac.
 
@@ -154,7 +154,7 @@ Canary Mail è closed-source. Lo consigliamo a causa della scarsa scelta di clie
         - [:simple-googleplay: Google Play](https://play.google.com/store/apps/details?id=com.fsck.k9)
         - [:simple-github: GitHub](https://github.com/k9mail/k-9/releases)
 
-!!! warning "Attenzione"
+!!! warning
 
     Quando si risponde a qualcuno di una mailing list, l'opzione "rispondi" può includere anche la mailing list. Per maggiori informazioni visita le loro (https://github.com/thundernest/k-9/issues/3738).
 
@@ -222,7 +222,7 @@ Canary Mail è closed-source. Lo consigliamo a causa della scarsa scelta di clie
 
 !!! example "Questa sezione è nuova"
 
-    Stiamo lavorando per stabilire criteri definiti per ogni sezione del nostro sito, e questo potrebbe essere soggetto a modifiche. Se avete domande sui nostri criteri, vi preghiamo di [chiedere sul nostro forum](https://discuss.privacyguides.net/latest) e non date per scontato che non abbiamo preso in considerazione qualcosa nel formulare le nostre raccomandazioni se non è elencato qui. Sono molti i fattori presi in considerazione e discussi quando consigliamo un progetto, e stiamo lavorando per documentare ogni singolo fattore.
+    Stiamo lavorando per stabilire criteri definiti per ogni sezione del nostro sito, e questo potrebbe essere soggetto a modifiche. Se hai qualsiasi domanda sui nostri criteri, ti preghiamo di [chiedere sul nostro forum](https://discuss.privacyguides.net/latest) e di non supporre che non abbiamo considerato qualcosa, formulando i nostri consigli, se non elencato qui. Molti fattori sono presi in considerazione e discussi quando consigliamo un progetto e la documentazione di ognuno è in lavorazione.
 
 ### Requisiti minimi
 

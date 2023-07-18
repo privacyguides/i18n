@@ -15,13 +15,13 @@ cover: news-aggregators.png
 
     ![Akregator logo](assets/img/news-aggregator/akregator.svg){ align=right }
     
-    **Akregator** adalah pembaca umpan berita yang merupakan bagian dari proyek [KDE](https://kde.org). It comes with a fast search, advanced archiving functionality and an internal browser for easy news reading.
+    **Akregator** adalah pembaca umpan berita yang merupakan bagian dari proyek [KDE](https://kde.org). Dilengkapi dengan pencarian cepat, fungsionalitas pengarsipan tingkat lanjut, dan browser internal untuk membaca berita dengan mudah.
     
     [:octicons-home-16: Homepage](https://apps.kde.org/akregator){ .md-button .md-button--primary }
-    [:octicons-eye-16:](https://kde.org/privacypolicy-apps){ .card-link title="Privacy Policy" }
-    [:octicons-info-16:](https://docs.kde.org/?application=akregator){ .card-link title=Documentation}
-    [:octicons-code-16:](https://invent.kde.org/pim/akregator){ .card-link title="Source Code" }
-    [:octicons-heart-16:](https://kde.org/community/donations/){ .card-link title=Contribute }
+    [:octicons-eye-16:](https://kde.org/privacypolicy-apps){ .card-link title="Kebijakan Privasi" }
+    [:octicons-info-16:](https://docs.kde.org/?application=akregator){ .card-link title=Dokumentasi}
+    [:octicons-code-16:](https://invent.kde.org/pim/akregator){ .card-link title="Kode Sumber" }
+    [:octicons-heart-16:](https://kde.org/community/donations/){ .card-link title=Kontribusi }
     
     ??? downloads
     

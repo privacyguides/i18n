@@ -1,33 +1,33 @@
 ---
-title: "Common Threats"
+title: "Oftaj Minacoj"
 icon: 'material/eye-outline'
-description: Your threat model is personal to you, but these are some of the things many visitors to this site care about.
+description: Via modelo de minaco estas propra, sed ĉi tiuj estas iuj el la aferoj pri kiuj la vizitantoj al ĉi tiu retejo zorgas.
 ---
 
-Broadly speaking, we categorize our recommendations into the [threats](threat-modeling.md) or goals that apply to most people. ==You may be concerned with none, one, a few, or all of these possibilities==, and the tools and services you use depend on what your goals are. You may have specific threats outside of these categories as well, which is perfectly fine! The important part is developing an understanding of the benefits and shortcomings of the tools you choose to use, because virtually none of them will protect you from every threat.
+Ĝenerale, ni kategoriigas niajn rekomendojn en [minacoj](threat-modeling.md) aŭ celoj pri kiuj la plej multaj homoj zorgas. ==Eble vi zorgus pri neniu, unu, kelkaj, aŭ ĉiuj el tiuj ebloj==, kaj la ilojn kaj servojn vi uzus, dependas de kiaj viaj celoj estas. Eble vi ankaŭ havas specifajn minacojn ekster ĉi tiuj kategorioj, kiu tute bonas! La plej grava parto estas evoluigi komprenon de la avantaĝoj kaj mankoj de la iloj kiujn vi elektas uzi, ĉar preskaŭ neniuj el ili protektos vin kontraŭ ĉiuj minacoj.
 
-- <span class="pg-purple">:material-incognito: Anonymity</span> - Shielding your online activity from your real identity, protecting you from people who are trying to uncover *your* identity specifically.
-- <span class="pg-red">:material-target-account: Targeted Attacks</span> - Being protected from hackers or other malicious actors who are trying to gain access to *your* data or devices specifically.
-- <span class="pg-orange">:material-bug-outline: Passive Attacks</span> - Being protected from things like malware, data breaches, and other attacks that are made against many people at once.
-- <span class="pg-teal">:material-server-network: Service Providers</span> - Protecting your data from service providers (e.g. with E2EE, which renders your data unreadable to the server).
-- <span class="pg-blue">:material-eye-outline: Mass Surveillance</span> - Protection from government agencies, organizations, websites, and services which work together to track your activities.
-- <span class="pg-brown">:material-account-cash: Surveillance Capitalism</span> - Protecting yourself from big advertising networks, like Google and Facebook, as well as a myriad of other third-party data collectors.
-- <span class="pg-green">:material-account-search: Public Exposure</span> - Limiting the information about you that is accessible online—to search engines or the general public.
-- <span class="pg-blue-gray">:material-close-outline: Censorship</span> - Avoiding censored access to information or being censored yourself when speaking online.
+- <span class="pg-purple">:material-incognito: Anonimeco</span> - Protekti vian enretan agadon kontraŭ via reala idento, protektante vin kontraŭ homoj kiuj celas trovi *vian* identon, specife.
+- <span class="pg-red">:material-target-account: Laŭcelaj Atakoj</span> - Esti protektita kontraŭ retentruduloj aŭ aliaj malbonintencaj agantoj kiuj celas eniri al *viaj* datumoj aŭ aparatoj, specife.
+- <span class="pg-orange">:material-bug-outline: Malaktivaj Atakoj</span> - Esti protektita kontraŭ aferoj kiel malicaj programoj, datumaj breĉoj, kaj aliaj atakoj kiuj okazas kontraŭ multaj homoj samtempe.
+- <span class="pg-teal">:material-server-network: Provizantoj de Servoj</span> - Protekti vian datumon kontraŭ provizantoj de servoj (ekz. per E2EE, kiu faras vian datumon nelegebla por la servilo).
+- <span class="pg-blue">:material-eye-outline: Amasgvatado</span> - Protekto kontraŭ registaraj agentejoj, organizoj, retejoj, kaj servicoj kiuj kunlaboras por supri vian agadon.
+- <span class="pg-brown">:material-account-cash: Gvatkapitalismo</span> - Protekti vin kontraŭ grandaj reklam-servoj, kiaj Google kaj Facebook, kaj kontraŭ tuta gamo da triaj datum-kolektantoj.
+- <span class="pg-green">:material-account-search: Publika Ekspozicio</span> - Limigi la informon pri vi, kiuj estas alireblaj interrete per serĉiloj aŭ de la popolo.
+- <span class="pg-blue-gray">:material-close-outline: Cenzuro</span> - Eviti cenzuritan aliron al informo aŭ esti cenzurita kiam vi esprimas vin interrete.
 
-Some of these threats may be more important to you than others, depending on your specific concerns. For example, a software developer with access to valuable or critical data may be primarily concerned with <span class="pg-red">:material-target-account: Targeted Attacks</span>, but they probably still want to protect their personal data from being swept up in <span class="pg-blue">:material-eye-outline: Mass Surveillance</span> programs. Similarly, many people may be primarily concerned with <span class="pg-green">:material-account-search: Public Exposure</span> of their personal data, but they should still be wary of security-focused issues, such as <span class="pg-orange">:material-bug-outline: Passive Attacks</span>—like malware affecting their devices.
+Kelkaj el tiuj minacoj eble estas plej gravaj por vi ol aliaj, depende de viaj specifaj zorgoj. Ekzemple, programisto kun aliro al valora aŭ kritika datumo eble ĉefe zorgas pri <span class="pg-red">:material-target-account: Laŭcelaj Atakoj</span>, sed ĝi verŝajne ankaŭ volas protekti siajn personajn datumojn kontraŭ la kolektado de <span class="pg-blue">:material-eye-outline: Amasgvatado</span>. Simile, multaj homoj eble ĉefe zorgas pri la <span class="pg-green">:material-account-search: Publika Ekspozicio</span> de siaj personaj datumoj, sed oni ankaŭ zorgus pri aferoj de sekureco, kiel <span class="pg-orange">:material-bug-outline: Malaktivaj Atakoj</span>—kiel malicaj programoj infektantaj de siaj aparatoj.
 
-## Anonymity vs. Privacy
+## Anonimeco kontraŭ Privateco
 
-<span class="pg-purple">:material-incognito: Anonymity</span>
+<span class="pg-purple">:material-incognito: Anonimeco</span>
 
-Anonymity is often confused with privacy, but they're distinct concepts. While privacy is a set of choices you make about how your data is used and shared, anonymity is the complete disassociation of your online activities from your real identity.
+Anonimeco ofte estas miksita kun privateco, sed ili estas malsamaj konceptoj. Dum privateco estas aro de elektoj ke vi elektas pri kiel via datumo estas uzita kaj kunigita, anonimeco estas la plena disigo de via enreta agado el via reala idento.
 
-Whistleblowers and journalists, for example, can have a much more extreme threat model which requires total anonymity. That's not only hiding what they do, what data they have, and not getting hacked by malicious actors or governments, but also hiding who they are entirely. They will often sacrifice any kind of convenience if it means protecting their anonymity, privacy, or security, because their lives could depend on it. Most people don't need to go so far.
+Denuncistoj kaj ĵurnalistoj, ekzemple, eble havas modelon de minaco multe pli ekstrema ol aliaj, kiu bezonas plenan anonimecon. Tio signifas, ne nur kaŝi tion kion oni faras, kiun datumon oni havas, kaj ne iĝi hakita, sed ankaŭ tute kaŝi tiun kiun oni estas. Ili ofte forlasas iajn komfortojn se tiu signifas protekti ilian anonimecon, privatecon, aŭ sekurecon, ĉar iliaj vivoj povus dependi de ĝi. Plej multaj homoj ne bezonas iri tien.
 
-## Security and Privacy
+## Sekureco kontraŭ Privateco
 
-<span class="pg-orange">:material-bug-outline: Passive Attacks</span>
+<span class="pg-orange">:material-bug-outline: Malaktivaj Atakoj</span>
 
 Security and privacy are also often confused, because you need security to obtain any semblance of privacy: Using tools—even if they're private by design—is futile if they could be easily exploited by attackers who later release your data. However, the inverse isn't necessarily true: The most secure service in the world *isn't necessarily* private. The best example of this is trusting data to Google who, given their scale, have had few security incidents by employing industry-leading security experts to secure their infrastructure. Even though Google provides very secure services, very few people would consider their data private in Google's free consumer products (Gmail, YouTube, etc.)
 
@@ -51,9 +51,9 @@ Targeted attacks against a specific person are more problematic to deal with. Co
 
 If you are concerned about **physical attacks** you should use an operating system with a secure verified boot implementation, such as Android, iOS, macOS, or [Windows (with TPM)](https://docs.microsoft.com/en-us/windows/security/information-protection/secure-the-windows-10-boot-process). You should also make sure that your drive is encrypted, and that the operating system uses a TPM or Secure [Enclave](https://support.apple.com/guide/security/secure-enclave-sec59b0b31ff/1/web/1) or [Element](https://developers.google.com/android/security/android-ready-se) to rate limit attempts to enter the encryption passphrase. You should avoid sharing your computer with people you don't trust, because most desktop operating systems don't encrypt data separately per-user.
 
-## Privacy From Service Providers
+## Privateco Kontraŭ Servaj Provizantoj
 
-<span class="pg-teal">:material-server-network: Service Providers</span>
+<span class="pg-teal">:material-server-network: Provizantoj de Servoj</span>
 
 We live in a world where almost everything is connected to the internet. Our "private" messages, emails, and social interactions are typically stored on a server, somewhere. Generally, when you send someone a message it's stored on a server, and when your friend wants to read the message the server will show it to them.
 
@@ -71,9 +71,9 @@ Thankfully, E2EE can alleviate this issue by encrypting communications between y
 
 Even with E2EE, service providers can still profile you based on **metadata**, which typically isn't protected. While the service provider can't read your messages, they can still observe important things, such as who you're talking to, how often you message them, and when you're typically active. Protection of metadata is fairly uncommon, and—if it's within your [threat model](threat-modeling.md)—you should pay close attention to the technical documentation of the software you're using to see if there's any metadata minimization or protection at all.
 
-## Mass Surveillance Programs
+## Amasgvatado
 
-<span class="pg-blue">:material-eye-outline: Mass Surveillance</span>
+<span class="pg-blue">:material-eye-outline: Amasgvatado</span>
 
 Mass surveillance is the intricate effort to monitor the "behavior, many activities, or information" of an entire (or substantial fraction of a) population.[^1] It often refers to government programs, such as the ones [disclosed by Edward Snowden in 2013](https://en.wikipedia.org/wiki/Global_surveillance_disclosures_(2013%E2%80%93present)). However, it can also be carried out by corporations, either on behalf of government agencies or by their own initiative.
 
@@ -111,9 +111,9 @@ For many people, tracking and surveillance by private corporations is a growing 
 
 Additionally, even companies outside of the *AdTech* or tracking industry can share your information with [data brokers](https://en.wikipedia.org/wiki/Information_broker) (such as Cambridge Analytica, Experian, or Datalogix) or other parties. You can't automatically assume your data is safe just because the service you're using doesn't fall within the typical AdTech or tracking business model. The strongest protection against corporate data collection is to encrypt or obfuscate your data whenever possible, making it difficult for different providers to correlate data with each other and build a profile on you.
 
-## Limiting Public Information
+## Limigado de Publika Informo
 
-<span class="pg-green">:material-account-search: Public Exposure</span>
+<span class="pg-green">:material-account-search: Publika Ekspozicio</span>
 
 The best way to keep your data private is simply not making it public in the first place. Deleting unwanted information you find about yourself online is one of the best first steps you can take to regain your privacy.
 
@@ -123,9 +123,9 @@ On sites where you do share information, checking the privacy settings of your a
 
 If you've already submitted your real information to sites which shouldn't have it, consider using disinformation tactics, like submitting fictitious information related to that online identity. This makes your real information indistinguishable from the false information.
 
-## Avoiding Censorship
+## Evitado de Cenzuro
 
-<span class="pg-blue-gray">:material-close-outline: Censorship</span>
+<span class="pg-blue-gray">:material-close-outline: Cenzuro</span>
 
 Censorship online can be carried out (to varying degrees) by actors including totalitarian governments, network administrators, and service providers. These efforts to control communication and restrict access to information will always be incompatible with the human right to Freedom of Expression.[^5]
 

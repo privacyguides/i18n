@@ -23,7 +23,7 @@ Quando sono utilizzati, gli ammonimenti avranno, di default, una stringa in ingl
 === "Testo di origine in inglese"
 
     ```text
-    !!! warning "Attenzione"
+    !!! warning
     ```
 
 I download sono [ammonimenti personalizzati](https://squidfunk.github.io/mkdocs-material/reference/admonitions/#custom-admonitions), scritti come segue:

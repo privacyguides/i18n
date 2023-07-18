@@ -50,7 +50,7 @@ Pour les modèles qui supportent HOTP et TOTP, il y a 3 emplacements pour HOTP e
 
 !!! warning "Avertissement"
 
-    Bien que les Nitrokeys ne divulguent pas les secrets HOTP/TOTP à l'appareil auquel ils sont connectés, le stockage HOTP et TOTP n'est **pas** chiffré et est vulnérable aux attaques physiques. If you are looking to store HOTP or TOTP secrets, we highly recommend that you use a YubiKey instead.
+    Bien que les Nitrokeys ne divulguent pas les secrets HOTP/TOTP à l'appareil auquel ils sont connectés, le stockage HOTP et TOTP n'est **pas** chiffré et est vulnérable aux attaques physiques. Si vous cherchez à stocker des secrets HOTP ou TOTP, nous vous recommandons vivement d'utiliser plutôt un YubiKey.
 
 !!! warning "Avertissement"
 

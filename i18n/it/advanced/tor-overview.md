@@ -83,7 +83,7 @@ Se desideri utilizzare Tor per navigare sul web, consigliamo soltanto il Tor Bro
 
 - [Tor Browser :material-arrow-right-drop-circle:](../tor.md#tor-browser)
 
-## Risorse aggiuntive
+## Ulteriori Risorse
 
 - [Manuale Utente del Tor Browser](https://tb-manual.torproject.org)
 - [Come funziona Tor - Computerphile](https://invidious.privacyguides.net/embed/QRYzre4bf7I?local=true) <small>(YouTube)</small>

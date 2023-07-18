@@ -39,7 +39,7 @@ Per maggiori dettagli su ogni progetto, sul motivo per cui è stato scelto e su 
 
 [Maggiori informazioni :material-arrow-right-drop-circle:](desktop-browsers.md)
 
-### Risorse aggiuntive
+### Ulteriori Risorse
 
 <div class="grid cards" markdown>
 
@@ -60,7 +60,7 @@ Per maggiori dettagli su ogni progetto, sul motivo per cui è stato scelto e su 
 
 [Maggiori informazioni :material-arrow-right-drop-circle:](mobile-browsers.md)
 
-### Risorse aggiuntive
+### Ulteriori Risorse
 
 <div class="grid cards annotate" markdown>
 
