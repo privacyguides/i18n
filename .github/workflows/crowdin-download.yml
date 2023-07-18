@@ -35,8 +35,14 @@ jobs:
 
     - name: Checkout
       uses: actions/checkout@v3
+      
+    - name: Delete Old Files
+      run: |
+        rm -rf i18n/*
+        rm -rf includes/*
+        rm -rf theme/*
 
-    - name: crowdin action
+    - name: Crowdin Download
       uses: crowdin/github-action@v1.7.1
       with:
         upload_sources: false
