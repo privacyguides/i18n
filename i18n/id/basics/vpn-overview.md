@@ -1,5 +1,5 @@
 ---
-meta_title: "How Do VPNs Protect Your Privacy? Our VPN Overview - Privacy Guides"
+meta_title: "Bagaimana VPN Melindungi Privasi Anda? Ringkasan VPN dari Kami - Privacy Guides"
 title: Ikhtisar VPN
 icon: material/vpn
 description: Virtual Private Networks mengalihkan risiko dari ISP Anda ke pihak ketiga yang Anda percayai. Anda harus mengingat hal-hal ini.
@@ -49,7 +49,7 @@ VPN tidak dapat memberikan anonimitas. Penyedia VPN Anda masih akan melihat alam
 
 ## Bagaimana dengan penyedia VPN yang menyediakan node Tor?
 
-Jangan gunakan fitur tersebut. Inti dari penggunaan Tor adalah Anda tidak mempercayai penyedia VPN Anda. Saat ini Tor hanya mendukung protokol [TCP](https://en.wikipedia.org/wiki/Transmission_Control_Protocol). [UDP](https://en.wikipedia.org/wiki/User_Datagram_Protocol) (used in [WebRTC](https://en.wikipedia.org/wiki/WebRTC) for voice and video sharing, the new [HTTP3/QUIC](https://en.wikipedia.org/wiki/HTTP/3) protocol, etc.), [ICMP](https://en.wikipedia.org/wiki/Internet_Control_Message_Protocol) and other packets will be dropped. Untuk mengimbangi hal ini, penyedia VPN biasanya akan merutekan semua paket non-TCP melalui server VPN mereka (loncatan pertama Anda). Ini adalah kasus pada [ProtonVPN](https://protonvpn.com/support/tor-vpn/). Selain itu, ketika menggunakan pengaturan Tor melalui VPN ini, Anda tidak memiliki kendali atas fitur Tor penting lainnya seperti [Alamat Tujuan Terisolasi](https://www.whonix.org/wiki/Stream_Isolation) (menggunakan sirkuit Tor yang berbeda untuk setiap domain yang Anda kunjungi).
+Jangan gunakan fitur tersebut. Inti dari penggunaan Tor adalah Anda tidak mempercayai penyedia VPN Anda. Saat ini Tor hanya mendukung protokol [TCP](https://en.wikipedia.org/wiki/Transmission_Control_Protocol). [UDP](https://en.wikipedia.org/wiki/User_Datagram_Protocol) (digunakan di [WebRTC](https://en.wikipedia.org/wiki/WebRTC) untuk berbagi suara dan video, protokol [HTTP3/QUIC](https://en.wikipedia.org/wiki/HTTP/3), dll.), [ICMP](https://en.wikipedia.org/wiki/Internet_Control_Message_Protocol) dan paket-paket lainnya akan dibatalkan. Untuk mengimbangi hal ini, penyedia VPN biasanya akan merutekan semua paket non-TCP melalui server VPN mereka (loncatan pertama Anda). Ini adalah kasus pada [ProtonVPN](https://protonvpn.com/support/tor-vpn/). Selain itu, ketika menggunakan pengaturan Tor melalui VPN ini, Anda tidak memiliki kendali atas fitur Tor penting lainnya seperti [Alamat Tujuan Terisolasi](https://www.whonix.org/wiki/Stream_Isolation) (menggunakan sirkuit Tor yang berbeda untuk setiap domain yang Anda kunjungi).
 
 Fitur ini harus dilihat sebagai cara yang nyaman untuk mengakses Jaringan Tor, bukan untuk tetap anonim. Untuk anonimitas yang tepat, gunakan Tor Browser, TorSocks, atau gateway Tor.
 
@@ -66,13 +66,13 @@ Untuk situasi seperti ini, atau jika Anda memiliki alasan kuat lainnya, penyedia
 ## Sumber dan Bacaan Lebih Lanjut
 
 1. [VPN - Narasi yang Sangat Genting](https://schub.io/blog/2019/04/08/very-precarious-narrative.html) oleh Dennis Schubert
-1. [Tor Network Overview](../advanced/tor-overview.md)
-1. [IVPN Privacy Guides](https://www.ivpn.net/privacy-guides)
+1. [Gambaran Umum Jaringan Tor](../advanced/tor-overview.md)
+1. [Panduan Privasi IVPN](https://www.ivpn.net/privacy-guides)
 1. ["Apakah saya memerlukan VPN?"](https://www.doineedavpn.com)sebuah alat yang dikembangkan oleh IVPN untuk menantang pemasaran VPN yang agresif dengan membantu individu memutuskan apakah VPN tepat untuk mereka.
 
 ## Informasi VPN Terkait
 
 - [Masalah dengan VPN dan Situs Ulasan Privasi](https://blog.privacyguides.org/2019/11/20/the-trouble-with-vpn-and-privacy-review-sites/)
 - [Investigasi Aplikasi VPN Gratis](https://www.top10vpn.com/free-vpn-app-investigation/)
-- [Hidden VPN owners unveiled: 101 VPN products run by just 23 companies](https://vpnpro.com/blog/hidden-vpn-owners-unveiled-97-vpns-23-companies/)
+- [Terungkap pemilik tersembunyi VPN: 101 produk VPN hanya dimiliki oleh 23 perusahaan saja](https://vpnpro.com/blog/hidden-vpn-owners-unveiled-97-vpns-23-companies/)
 - [Perusahaan Tiongkok ini diam-diam berada di balik 24 aplikasi populer yang meminta izin berbahaya](https://vpnpro.com/blog/chinese-company-secretly-behind-popular-apps-seeking-dangerous-permissions/)

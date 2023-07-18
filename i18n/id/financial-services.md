@@ -1,5 +1,5 @@
 ---
-title: Financial Services
+title: Jasa Keuangan
 icon: material/bank
 cover: financial-services.png
 ---
@@ -8,7 +8,7 @@ Making payments online is one of the biggest challenges to privacy. These servic
 
 [Making Private Payments :material-arrow-right-drop-circle:](advanced/payments.md ""){.md-button}
 
-## Payment Masking Services
+## Layanan Penyamaran Pembayaran
 
 There are a number of services which provide "virtual debit cards" which you can use with online merchants without revealing your actual banking or billing information in most cases. It's important to note that these financial services are **not** anonymous and are subject to "Know Your Customer" (KYC) laws and may require your ID or other identifying information. These services are primarily useful for protecting you from merchant data breaches, less sophisticated tracking or purchase correlation by marketing agencies, and online data theft; and **not** for making a purchase completely anonymously.
 
@@ -44,13 +44,13 @@ Privacy.com gives information about the merchants you purchase from to your bank
     [:octicons-eye-16:](https://anonyome.com/privacy-policy/){ .card-link title="Privacy Policy" }
     [:octicons-info-16:](https://support.mysudo.com/hc/en-us){ .card-link title=Documentation}
 
-### Criteria
+### Kriteria
 
-**Please note we are not affiliated with any of the projects we recommend.** In addition to [our standard criteria](about/criteria.md), we have developed a clear set of requirements to allow us to provide objective recommendations. We suggest you familiarize yourself with this list before choosing to use a project, and conduct your own research to ensure it's the right choice for you.
+**Harap diperhatikan bahwa kami tidak berafiliasi dengan proyek-proyek yang kami rekomendasikan.** Selain [kriteria standar kami](about/criteria.md), kami telah mengembangkan serangkaian persyaratan yang jelas untuk memungkinkan kami memberikan rekomendasi yang objektif. Kami sarankan Anda membiasakan diri dengan daftar ini sebelum memilih untuk menggunakan sebuah proyek, dan melakukan penelitian sendiri untuk memastikan bahwa itu adalah pilihan yang tepat untuk Anda.
 
-!!! example "This section is new"
+!!! contoh "Bagian ini baru"
 
-    We are working on establishing defined criteria for every section of our site, and this may be subject to change. If you have any questions about our criteria, please [ask on our forum](https://discuss.privacyguides.net/latest) and don't assume we didn't consider something when making our recommendations if it is not listed here. There are many factors considered and discussed when we recommend a project, and documenting every single one is a work-in-progress.
+    Kami sedang berupaya menetapkan kriteria yang jelas untuk setiap bagian dari situs kami, dan hal ini dapat berubah sewaktu-waktu. Jika Anda memiliki pertanyaan mengenai kriteria kami, silakan [tanyakan di forum](https://discuss.privacyguides.net/latest) dan jangan berasumsi bahwa kami tidak mempertimbangkan sesuatu saat membuat rekomendasi jika tidak tercantum di sini. Ada banyak faktor yang dipertimbangkan dan didiskusikan saat kami merekomendasikan sebuah proyek, dan mendokumentasikan setiap faktor tersebut merupakan sebuah pekerjaan yang sedang berjalan.
 
 - Allows the creation of multiple cards which function as a shield between the merchant and your personal finances.
 - Cards must not require you to provide accurate billing address information to the merchant.
@@ -71,13 +71,13 @@ These services allow you to purchase gift cards for a variety of merchants onlin
     [:octicons-eye-16:](https://coincards.com/privacy-policy/){ .card-link title="Privacy Policy" }
     [:octicons-info-16:](https://coincards.com/frequently-asked-questions/){ .card-link title=Documentation}
 
-### Criteria
+### Kriteria
 
-**Please note we are not affiliated with any of the projects we recommend.** In addition to [our standard criteria](about/criteria.md), we have developed a clear set of requirements to allow us to provide objective recommendations. We suggest you familiarize yourself with this list before choosing to use a project, and conduct your own research to ensure it's the right choice for you.
+**Harap diperhatikan bahwa kami tidak berafiliasi dengan proyek-proyek yang kami rekomendasikan.** Selain [kriteria standar kami](about/criteria.md), kami telah mengembangkan serangkaian persyaratan yang jelas untuk memungkinkan kami memberikan rekomendasi yang objektif. Kami sarankan Anda membiasakan diri dengan daftar ini sebelum memilih untuk menggunakan sebuah proyek, dan melakukan penelitian sendiri untuk memastikan bahwa itu adalah pilihan yang tepat untuk Anda.
 
-!!! example "This section is new"
+!!! contoh "Bagian ini baru"
 
-    We are working on establishing defined criteria for every section of our site, and this may be subject to change. If you have any questions about our criteria, please [ask on our forum](https://discuss.privacyguides.net/latest) and don't assume we didn't consider something when making our recommendations if it is not listed here. There are many factors considered and discussed when we recommend a project, and documenting every single one is a work-in-progress.
+    Kami sedang berupaya menetapkan kriteria yang jelas untuk setiap bagian dari situs kami, dan hal ini dapat berubah sewaktu-waktu. Jika Anda memiliki pertanyaan mengenai kriteria kami, silakan [tanyakan di forum](https://discuss.privacyguides.net/latest) dan jangan berasumsi bahwa kami tidak mempertimbangkan sesuatu saat membuat rekomendasi jika tidak tercantum di sini. Ada banyak faktor yang dipertimbangkan dan didiskusikan saat kami merekomendasikan sebuah proyek, dan mendokumentasikan setiap faktor tersebut merupakan sebuah pekerjaan yang sedang berjalan.
 
 - Accepts payment in [a recommended cryptocurrency](cryptocurrency.md).
 - No ID requirement.

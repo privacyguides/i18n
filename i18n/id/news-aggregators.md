@@ -1,21 +1,21 @@
 ---
-title: "News Aggregators"
+title: "Agregator Berita"
 icon: material/rss
-description: These news aggregator clients let you keep up with your favorite blogs and news sites using internet standards like RSS.
+description: Klien agregator berita ini memungkinkan Anda mengikuti blog dan situs berita favorit Anda menggunakan standar internet seperti RSS.
 cover: news-aggregators.png
 ---
 
-A [news aggregator](https://en.wikipedia.org/wiki/News_aggregator) is a way to keep up with your favorite blogs and news sites.
+[Agregator berita](https://en.wikipedia.org/wiki/News_aggregator) adalah cara untuk mengikuti blog dan situs berita favorit Anda.
 
-## Aggregator clients
+## Klien agregator
 
 ### Akregator
 
 !!! recommendation
 
-    ![Akregator logo](assets/img/news-aggregators/akregator.svg){ align=right }
+    ![Akregator logo](assets/img/news-aggregator/akregator.svg){ align=right }
     
-    **Akregator** is a news feed reader that is a part of the [KDE](https://kde.org) project. It comes with a fast search, advanced archiving functionality and an internal browser for easy news reading.
+    **Akregator** adalah pembaca umpan berita yang merupakan bagian dari proyek [KDE](https://kde.org). It comes with a fast search, advanced archiving functionality and an internal browser for easy news reading.
     
     [:octicons-home-16: Homepage](https://apps.kde.org/akregator){ .md-button .md-button--primary }
     [:octicons-eye-16:](https://kde.org/privacypolicy-apps){ .card-link title="Privacy Policy" }
@@ -31,15 +31,15 @@ A [news aggregator](https://en.wikipedia.org/wiki/News_aggregator) is a way to k
 
 !!! recommendation
 
-    ![Feeder logo](assets/img/news-aggregators/feeder.png){ align=right }
+    ![Logo Feeder](assets/img/news-aggregators/feeder.png){ align=right }
     
-    **Feeder** is a modern RSS client for Android that has many [features](https://gitlab.com/spacecowboy/Feeder#features) and works well with folders of RSS feeds. It supports [RSS](https://en.wikipedia.org/wiki/RSS), [Atom](https://en.wikipedia.org/wiki/Atom_(Web_standard)), [RDF](https://en.wikipedia.org/wiki/RDF%2FXML) and [JSON Feed](https://en.wikipedia.org/wiki/JSON_Feed).
+    **Feeder** adalah klien RSS modern untuk Android yang memiliki banyak [features](https://gitlab.com/spacecowboy/Feeder#features) dan bekerja dengan baik dengan folder umpan RSS. Ini mendukung [RSS](https://en.wikipedia.org/wiki/RSS), [Atom](https://en.wikipedia.org/wiki/Atom_ (Web_standard)), [RDF](https://en.wikipedia.org/wiki/RDF%2FXML) dan [JSON Feed] (https://en.wikipedia.org/wiki/JSON_Feed).
     
-    [:octicons-repo-16: Repository](https://gitlab.com/spacecowboy/Feeder){ .md-button .md-button--primary }
-    [:octicons-code-16:](https://gitlab.com/spacecowboy/Feeder){ .card-link title="Source Code" }
-    [:octicons-heart-16:](https://ko-fi.com/spacecowboy){ .card-link title=Contribute }
+    [:octicons-repo-16: Repositori](https://gitlab.com/spacecowboy/Feeder){ .md-button .md-button--primary }
+    [:octicons-code-16:](https://gitlab.com/spacecowboy/Feeder){ .card-link title="Kode Sumber" }
+    [:octicons-heart-16:](https://ko-fi.com/spacecowboy){ .card-link title=Kontribusi }
     
-    ??? downloads
+    ??? unduhan
     
         - [:simple-googleplay: Google Play](https://play.google.com/store/apps/details?id=com.nononsenseapps.feeder.play)
 
@@ -47,32 +47,32 @@ A [news aggregator](https://en.wikipedia.org/wiki/News_aggregator) is a way to k
 
 !!! recommendation
 
-    ![Fluent Reader logo](assets/img/news-aggregators/fluent-reader.svg){ align=right }
+    ![Logo Fluent Reader](assets/img/news-aggregators/fluent-reader.svg){ align=right }
     
-    **Fluent Reader** is a secure cross-platform news aggregator that has useful privacy features such as deletion of cookies on exit, strict [content security policies (CSP)](https://en.wikipedia.org/wiki/Content_Security_Policy) and proxy support, meaning you can use it over [Tor](tor.md).
+    **Fluent Reader** adalah agregator berita lintas platform yang aman dan memiliki fitur privasi yang berguna seperti penghapusan cookie saat keluar, [kebijakan keamanan konten yang ketat (CSP)] (https://en.wikipedia.org/wiki/Content_Security_Policy) dan dukungan proksi, yang berarti Anda bisa menggunakannya melalui [Tor](tor.md).
     
     [:octicons-home-16: Homepage](https://hyliu.me/fluent-reader){ .md-button .md-button--primary }
-    [:octicons-eye-16:](https://github.com/yang991178/fluent-reader/wiki/Privacy){ .card-link title="Privacy Policy" }
-    [:octicons-info-16:](https://github.com/yang991178/fluent-reader/wiki/){ .card-link title=Documentation}
-    [:octicons-code-16:](https://github.com/yang991178/fluent-reader){ .card-link title="Source Code" }
-    [:octicons-heart-16:](https://github.com/sponsors/yang991178){ .card-link title=Contribute }
+    [:octicons-eye-16:](https://github.com/yang991178/fluent-reader/wiki/Privacy){ .card-link title="Kebijakan Privasi" }
+    [:octicons-info-16:](https://github.com/yang991178/fluent-reader/wiki/){ .card-link title=Dokumentasi}
+    [:octicons-code-16:](https://github.com/yang991178/fluent-reader){ .card-link title="Kode Sumber" }
+    [:octicons-heart-16:](https://github.com/sponsors/yang991178){ .card-link title=Kontribusi }
     
     ??? downloads
     
         - [:simple-windows11: Windows](https://hyliu.me/fluent-reader)
         - [:simple-appstore: App Store](https://apps.apple.com/app/id1520907427)
 
-### GNOME Feeds
+### Umpan GNOME
 
 !!! recommendation
 
-    ![GNOME Feeds logo](assets/img/news-aggregators/gfeeds.svg){ align=right }
+    ![Logo GNOME Feeds](assets/img/news-aggregators/gfeeds.svg){ align=right }
     
-    **GNOME Feeds** is an [RSS](https://en.wikipedia.org/wiki/RSS) and [Atom](https://en.wikipedia.org/wiki/Atom_(Web_standard)) news reader for [GNOME](https://www.gnome.org). It has a simple interface and is quite fast.
+    **GNOME Feeds** adalah pembaca berita [RSS](https://en.wikipedia.org/wiki/RSS) dan [Atom](https://en.wikipedia.org/wiki/Atom_(Web_standard)) untuk [GNOME](https://www.gnome.org). Memiliki antarmuka yang sederhana dan cukup cepat.
     
     [:octicons-home-16: Homepage](https://gfeeds.gabmus.org){ .md-button .md-button--primary }
-    [:octicons-code-16:](https://gitlab.gnome.org/World/gfeeds){ .card-link title="Source Code" }
-    [:octicons-heart-16:](https://liberapay.com/gabmus/){ .card-link title=Contribute }
+    [:octicons-code-16:](https://gitlab.gnome.org/World/gfeeds){ .card-link title="Kode Sumber" }
+    [:octicons-heart-16:](https://liberapay.com/gabmus/){ .card-link title=Kontribusi }
     
     ??? downloads
     
@@ -83,28 +83,28 @@ A [news aggregator](https://en.wikipedia.org/wiki/News_aggregator) is a way to k
 
 !!! recommendation
 
-    ![Miniflux logo](assets/img/news-aggregators/miniflux.svg#only-light){ align=right }
+    ![Logo Miniflux](assets/img/news-aggregators/miniflux.svg#only-light){ align=right }
     ![Miniflux logo](assets/img/news-aggregators/miniflux-dark.svg#only-dark){ align=right }
     
-    **Miniflux** is a web-based news aggregator that you can self-host. It supports [RSS](https://en.wikipedia.org/wiki/RSS), [Atom](https://en.wikipedia.org/wiki/Atom_(Web_standard)), [RDF](https://en.wikipedia.org/wiki/RDF%2FXML) and [JSON Feed](https://en.wikipedia.org/wiki/JSON_Feed).
+    **Miniflux** adalah agregator berita berbasis web yang dapat Anda hosting sendiri. Ini mendukung [RSS](https://en.wikipedia.org/wiki/RSS), [Atom](https://en.wikipedia.org/wiki/Atom_ (Web_standard)), [RDF](https://en.wikipedia.org/wiki/RDF%2FXML) dan [JSON Feed] (https://en.wikipedia.org/wiki/JSON_Feed).
     
     [:octicons-home-16: Homepage](https://miniflux.app){ .md-button .md-button--primary }
-    [:octicons-info-16:](https://miniflux.app/docs/index.html){ .card-link title=Documentation}
-    [:octicons-code-16:](https://github.com/miniflux/v2){ .card-link title="Source Code" }
-    [:octicons-heart-16:](https://miniflux.app/#donations){ .card-link title=Contribute }
+    [:octicons-info-16:](https://miniflux.app/docs/index.html){ .card-link title=Dokumentasi}
+    [:octicons-code-16:](https://github.com/miniflux/v2){ .card-link title="Kode Sumber" }
+    [:octicons-heart-16:](https://miniflux.app/#donations){ .card-link title=Kontribusi }
 
 ### NetNewsWire
 
 !!! recommendation
 
-    ![NetNewsWire logo](assets/img/news-aggregators/netnewswire.png){ align=right }
+    ![Logo NetNewsWire](assets/img/news-aggregators/netnewswire.png){ align=right }
     
-    **NetNewsWire** a free and open-source feed reader for macOS and iOS with a focus on a native design and feature set. It supports the typical feed formats alongside built-in support for Reddit feeds.
+    **NetNewsWire** adalah pembaca berita gratis dan bersumber terbuka untuk macOS dan iOS dengan fokus pada desain dan fitur asli. Ini mendukung format feed yang umum di samping dukungan bawaan untuk feed Reddit.
     
     [:octicons-home-16: Homepage](https://netnewswire.com/){ .md-button .md-button--primary }
-    [:octicons-eye-16:](https://netnewswire.com/privacypolicy.html){ .card-link title="Privacy Policy" }
-    [:octicons-info-16:](https://netnewswire.com/help/){ .card-link title=Documentation}
-    [:octicons-code-16:](https://github.com/Ranchero-Software/NetNewsWire){ .card-link title="Source Code" }
+    [:octicons-eye-16:](https://netnewswire.com/privacypolicy.html){ .card-link title="Kebijakan Privasi" }
+    [:octicons-info-16:](https://netnewswire.com/help/){ .card-link title=Dokumentasi}
+    [:octicons-code-16:](https://github.com/Ranchero-Software/NetNewsWire){ .card-link title="Kode Sumber" }
     
     ??? downloads
     
@@ -115,35 +115,35 @@ A [news aggregator](https://en.wikipedia.org/wiki/News_aggregator) is a way to k
 
 !!! recommendation
 
-    ![Newsboat logo](assets/img/news-aggregators/newsboat.svg){ align=right }
+    ![Logo Newsboat](assets/img/news-aggregators/newsboat.svg){ align=right }
     
-    **Newsboat** is an RSS/Atom feed reader for the text console. It's an actively maintained fork of [Newsbeuter](https://en.wikipedia.org/wiki/Newsbeuter). It is very lightweight, and ideal for use over [Secure Shell](https://en.wikipedia.org/wiki/Secure_Shell).
+    **Newsboat** adalah pembaca umpan RSS/Atom untuk konsol teks. Ini adalah fork yang dipelihara secara aktif dari [Newsbeuter](https://en.wikipedia.org/wiki/Newsbeuter). Sangat ringan, dan ideal untuk digunakan dengan [Secure Shell] (https://en.wikipedia.org/wiki/Secure_Shell).
     
     [:octicons-home-16: Homepage](https://newsboat.org){ .md-button .md-button--primary }
-    [:octicons-info-16:](https://newsboat.org/releases/2.27/docs/newsboat.html){ .card-link title=Documentation}
-    [:octicons-code-16:](https://github.com/newsboat/newsboat){ .card-link title="Source Code" }
+    [:octicons-info-16:](https://newsboat.org/releases/2.27/docs/newsboat.html){ .card-link title=Dokumentasi}
+    [:octicons-code-16:](https://github.com/newsboat/newsboat){ .card-link title="Kode Sumber" }
 
-## Criteria
+## Kriteria
 
-**Please note we are not affiliated with any of the projects we recommend.** In addition to [our standard criteria](about/criteria.md), we have developed a clear set of requirements to allow us to provide objective recommendations. We suggest you familiarize yourself with this list before choosing to use a project, and conduct your own research to ensure it's the right choice for you.
+**Harap diperhatikan bahwa kami tidak berafiliasi dengan proyek-proyek yang kami rekomendasikan.** Selain [kriteria standar kami](about/criteria.md), kami telah mengembangkan serangkaian persyaratan yang jelas untuk memungkinkan kami memberikan rekomendasi yang objektif. Kami sarankan Anda membiasakan diri dengan daftar ini sebelum memilih untuk menggunakan sebuah proyek, dan melakukan penelitian sendiri untuk memastikan bahwa itu adalah pilihan yang tepat untuk Anda.
 
-!!! example "This section is new"
+!!! contoh "Bagian ini baru"
 
-    We are working on establishing defined criteria for every section of our site, and this may be subject to change. If you have any questions about our criteria, please [ask on our forum](https://discuss.privacyguides.net/latest) and don't assume we didn't consider something when making our recommendations if it is not listed here. There are many factors considered and discussed when we recommend a project, and documenting every single one is a work-in-progress.
+    Kami sedang berupaya menetapkan kriteria yang jelas untuk setiap bagian dari situs kami, dan hal ini dapat berubah sewaktu-waktu. Jika Anda memiliki pertanyaan mengenai kriteria kami, silakan [tanyakan di forum](https://discuss.privacyguides.net/latest) dan jangan berasumsi bahwa kami tidak mempertimbangkan sesuatu saat membuat rekomendasi jika tidak tercantum di sini. Ada banyak faktor yang dipertimbangkan dan didiskusikan saat kami merekomendasikan sebuah proyek, dan mendokumentasikan setiap faktor tersebut merupakan sebuah pekerjaan yang sedang berjalan.
 
-- Must be open-source software.
-- Must operate locally, i.e. must not be a cloud service.
+- Harus berupa perangkat lunak sumber terbuka.
+- Harus beroperasi secara lokal, yaitu tidak boleh berupa layanan cloud.
 
-## Social Media RSS Support
+## Dukungan RSS Media Sosial
 
-Some social media services also support RSS although it's not often advertised.
+Beberapa layanan media sosial juga mendukung RSS meskipun tidak sering diiklankan.
 
 ### Reddit
 
-Reddit allows you to subscribe to subreddits via RSS.
+Reddit memungkinkan Anda untuk berlangganan subreddit melalui RSS.
 
-!!! example
-    Replace `subreddit_name` with the subreddit you wish to subscribe to.
+!!! contoh
+    Ganti `subreddit_name` dengan subreddit yang ingin Anda berlangganan.
 
     ```text
     https://www.reddit.com/r/{{ subreddit_name }}/new/.rss
@@ -151,11 +151,11 @@ Reddit allows you to subscribe to subreddits via RSS.
 
 ### Twitter
 
-Using any of the Nitter [instances](https://github.com/zedeus/nitter/wiki/Instances) you can easily subscribe using RSS.
+Dengan menggunakan salah satu Nitter [server](https://github.com/zedeus/nitter/wiki/Instances) Anda dapat dengan mudah berlangganan menggunakan RSS.
 
-!!! example
-    1. Pick an instance and set `nitter_instance`.
-    2. Replace `twitter_account` with the account name.
+!!! contoh
+    1. Pilih instance dan atur `nitter_instance`.
+    2. Ganti `twitter_account` dengan nama akun.
 
        ```text
        https://{{ nitter_instance }}/{{ twitter_account }}/rss
@@ -163,11 +163,11 @@ Using any of the Nitter [instances](https://github.com/zedeus/nitter/wiki/Instan
 
 ### YouTube
 
-You can subscribe YouTube channels without logging in and associating usage information with your Google Account.
+Anda dapat berlangganan saluran YouTube tanpa masuk dan mengaitkan informasi penggunaan dengan Akun Google Anda.
 
-!!! example
+!!! contoh
 
-    To subscribe to a YouTube channel with an RSS client, first look for its [channel code](https://support.google.com/youtube/answer/6180214). The channel code can be found on the about page of the YouTube channel you wish to subscribe to, under: **About** > **Share** > **Copy channel ID**. Replace `[CHANNEL ID]` below:
+    Untuk berlangganan saluran YouTube dengan klien RSS, pertama-tama cari [kode saluran](https://support.google.com/youtube/answer/6180214). Kode saluran dapat ditemukan di halaman tentang saluran YouTube yang ingin Anda langgani, di bawah: **Tentang** > **Bagikan** > **Salin ID saluran**. Ganti `[CHANNEL ID]` di bawah ini:
 
     ```text
     https://www.youtube.com/feeds/videos.xml?channel_id=[CHANNEL ID]

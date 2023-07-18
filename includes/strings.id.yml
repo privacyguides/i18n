@@ -1,7 +1,7 @@
 #The strings in these files need to be copied MANUALLY to /config/mkdocs.LANG.yml
 #This file exists just so these strings can be originally translated on Crowdin.
 config:
-  description: Privacy Guides adalah sumber daya privasi dan keamanan Anda untuk melindungi Anda secara daring.
+  description: Privacy Guides adalah sentral dari sumber informasi mengenai privasi dan keamanan untuk melindungi Anda secara online.
   copyright:
     - 
       1: |
@@ -30,12 +30,12 @@ nav:
   Home: Home
   Knowledge Base: Knowledge Base
   Technology Essentials: Technology Essentials
-  Operating Systems: Operating Systems
+  Operating Systems: Sistem Operasi
   Advanced Topics: Advanced Topics
   Recommendations: Recommendations
   Internet Browsing: Internet Browsing
   Providers: Providers
-  Software: Software
+  Software: Perangkat lunak
   About: About
   Community: Community
   Online Services: Layanan Daring

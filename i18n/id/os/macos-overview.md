@@ -158,7 +158,7 @@ macOS employs defense in depth by relying on multiple layers of software and har
 
 ### Software Security
 
-!!! warning
+!!! peringatan
 
     macOS allows you to install beta updates. These are unstable and may come with extra telemetry since they're for testing purposes. Because of this, we recommend you avoid beta software in general.
 
@@ -180,7 +180,7 @@ System Integrity Protection makes critical file locations read-only to protect a
 
 macOS apps downloaded from the App Store are required to be sandboxed usng the [App Sandbox](https://developer.apple.com/documentation/security/app_sandbox).
 
-!!! warning
+!!! peringatan
 
     Software downloaded from outside the official App Store is not required to be sandboxed. You should avoid non-App Store software as much as possible.
 

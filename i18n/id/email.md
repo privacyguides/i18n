@@ -270,14 +270,14 @@ Tutanota also has a business feature called [Secure Connect](https://tutanota.co
 
 Tutanota doesn't offer a digital legacy feature.
 
-## Email Aliasing Services
+## Layanan Email Alias
 
 An email aliasing service allows you to easily generate a new email address for every website you register for. The email aliases you generate are then forwarded to an email address of your choosing, hiding both your "main" email address and the identity of your email provider. True email aliasing is better than plus addressing commonly used and supported by many providers, which allows you to create aliases like yourname+[anythinghere]@example.com, because websites, advertisers, and tracking networks can trivially remove anything after the + sign to know your true email address.
 
 <div class="grid cards" markdown>
 
-- ![AnonAddy logo](assets/img/email/anonaddy.svg#only-light){ .twemoji }![AnonAddy logo](assets/img/email/anonaddy-dark.svg#only-dark){ .twemoji } [AnonAddy](email.md#anonaddy)
-- ![SimpleLogin logo](assets/img/email/simplelogin.svg){ .twemoji } [SimpleLogin](email.md#simplelogin)
+- ![Logo AnonAddy](assets/img/email/anonaddy.svg#only-light){ .twemoji }![Logo AnonAddy](assets/img/email/anonaddy-dark.svg#only-dark){ .twemoji } [AnonAddy](email.md#anonaddy)
+- ![Logo SimpleLogin](assets/img/email/simplelogin.svg){ .twemoji } [SimpleLogin](email.md#simplelogin)
 
 </div>
 
@@ -363,7 +363,7 @@ Notable free features:
 - [x] Unlimited Replies
 - [x] 1 Recipient Mailbox
 
-## Self-Hosting Email
+## Email Hosting Mandiri
 
 Advanced system administrators may consider setting up their own email server. Mail servers require attention and continuous maintenance in order to keep things secure and mail delivery reliable.
 
@@ -395,7 +395,7 @@ For a more manual approach we've picked out these two articles:
 - [Setting up a mail server with OpenSMTPD, Dovecot and Rspamd](https://poolp.org/posts/2019-09-14/setting-up-a-mail-server-with-opensmtpd-dovecot-and-rspamd/) (2019)
 - [How To Run Your Own Mail Server](https://www.c0ffee.net/blog/mail-server-guide/) (August 2017)
 
-## Criteria
+## Kriteria
 
 **Please note we are not affiliated with any of the providers we recommend.** In addition to [our standard criteria](about/criteria.md), we have developed a clear set of requirements for any Email provider wishing to be recommended, including implementing industry best practices, modern technology and more. We suggest you familiarize yourself with this list before choosing an Email provider, and conduct your own research to ensure the Email provider you choose is the right choice for you.
 

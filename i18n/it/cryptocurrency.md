@@ -11,7 +11,7 @@ Effettuare pagamenti online è una delle maggiori sfide per la privacy. Queste c
 
 !!! danger "Attenzione"
 
-    Molte, se non la maggior parte delle criptovalute sono delle truffe. Effettuate transazioni con attenzione solo con progetti di cui vi fidate.
+    Molte, se non la maggior parte delle criptovalute sono delle truffe. Effettua attentamente le transazioni, soltanto con i progetti di cui ti fidi.
 
 ## Monero
 

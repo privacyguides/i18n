@@ -90,7 +90,7 @@ cover: email-clients.png
         - [:simple-appstore: App Store](https://apps.apple.com/app/id1236045954)
         - [:simple-windows11: Windows](https://canarymail.io/downloads.html)
 
-!!! warning
+!!! warning "警告"
 
     Canary Mail 最近才發布了 Windows 和 Android 用戶端，我們不認為它們已如 iOS和 Mac 用戶端一樣穩定。
 
@@ -154,7 +154,7 @@ Canary Mail 源碼為封閉式。 我們推薦它，因為 iOS 電子郵件客�
         - [:simple-googleplay: Google Play](https://play.google.com/store/apps/details?id=com.fsck.k9)
         - [:simple-github: GitHub](https://github.com/k9mail/k-9/releases)
 
-!!! warning
+!!! warning "警告"
 
     當回覆郵件群組中的某人時，「回覆」選項也可能包括郵件群組。 如需更多資訊，請參閱 [thundernest/k-9 #3738](https://github.com/thundernest/k-9/issues/3738)。
 

@@ -83,7 +83,7 @@ If you wish to use Tor for browsing the web, we only recommend the **official** 
 
 - [Tor Browser :material-arrow-right-drop-circle:](../tor.md#tor-browser)
 
-## Additional Resources
+## Sumber Daya Tambahan
 
 - [Tor Browser User Manual](https://tb-manual.torproject.org)
 - [How Tor Works - Computerphile](https://invidious.privacyguides.net/embed/QRYzre4bf7I?local=true) <small>(YouTube)</small>

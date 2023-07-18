@@ -1,19 +1,19 @@
 ---
-meta_title: "The Best Privacy Tools, Services, and Ad-Free Recommendations - Privacy Guides"
-title: "Privacy Tools"
+meta_title: "Alat, Layanan, dan Rekomendasi Privasi Terbaik - Privacy Guides"
+title: "Alat Privasi"
 icon: material/tools
 hide:
   - toc
-description: Privacy Guides is the most transparent and reliable website for finding software, apps, and services that protect your personal data from mass surveillance programs and other internet threats.
+description: Privacy Guides adalah situs web yang paling transparan dan dapat diandalkan untuk menemukan perangkat lunak, aplikasi, dan layanan yang melindungi data pribadi Anda dari program pengawasan massal dan ancaman internet lainnya.
 ---
 
-If you're looking for a specific solution to something, these are the hardware and software tools we recommend in a variety of categories. Our recommended privacy tools are primarily chosen based on security features, with additional emphasis on decentralized and open-source tools. They are applicable to a variety of threat models ranging from protection against global mass surveillance programs and avoiding big tech companies to mitigating attacks, but only you can determine what will work best for your needs.
+Jika Anda mencari solusi spesifik untuk sesuatu, berikut ini adalah perangkat keras dan perangkat lunak yang kami rekomendasikan dalam berbagai kategori. Perangkat privasi yang kami rekomendasikan terutama dipilih berdasarkan fitur keamanan, dengan penekanan tambahan pada perangkat yang terdesentralisasi dan bersumber terbuka. Mereka dapat diterapkan pada berbagai model ancaman mulai dari perlindungan terhadap program pengawasan massal global dan menghindari perusahaan teknologi besar hingga memitigasi serangan, tetapi hanya Anda yang dapat menentukan mana yang paling sesuai dengan kebutuhan Anda.
 
-If you want assistance figuring out the best privacy tools and alternative programs for your needs, start a discussion on our [forum](https://discuss.privacyguides.net/) or our [Matrix](https://matrix.to/#/#privacyguides:matrix.org) community!
+Jika Anda ingin mendapatkan bantuan untuk mengetahui alat privasi terbaik dan program alternatif untuk kebutuhan Anda, mulailah berdiskusi di [forum](https://discuss.privacyguides.net/) atau komunitas [Matrix](https://matrix.to/#/#privacyguides:matrix.org) kami!
 
-For more details about each project, why they were chosen, and additional tips or tricks we recommend, click the "Learn more" link in each section, or click on the recommendation itself to be taken to that specific section of the page.
+Untuk detail lebih lanjut tentang setiap proyek, mengapa proyek tersebut dipilih, dan tips atau trik tambahan yang kami rekomendasikan, klik tautan "Pelajari lebih lanjut" di setiap bagian, atau klik rekomendasi itu sendiri untuk dibawa ke bagian halaman tertentu.
 
-## Tor Network
+## Jaringan Tor
 
 <div class="grid cards annotate" markdown>
 
@@ -23,11 +23,11 @@ For more details about each project, why they were chosen, and additional tips o
 
 </div>
 
-1. Snowflake does not increase privacy, however it allows you to easily contribute to the Tor network and help people in censored networks achieve better privacy.
+1. Snowflake tidak meningkatkan privasi, namun memungkinkan Anda untuk dengan mudah berkontribusi pada jaringan Tor dan membantu orang-orang di jaringan yang disensor untuk mendapatkan privasi yang lebih baik.
 
-[Learn more :material-arrow-right-drop-circle:](tor.md)
+[Pelajari lebih lanjut :material-arrow-right-drop-circle:](tor.md)
 
-## Desktop Web Browsers
+## Peramban Web Desktop
 
 <div class="grid cards" markdown>
 
@@ -37,9 +37,9 @@ For more details about each project, why they were chosen, and additional tips o
 
 </div>
 
-[Learn more :material-arrow-right-drop-circle:](desktop-browsers.md)
+[Pelajari lebih lanjut :material-arrow-right-drop-circle:](desktop-browsers.md)
 
-### Additional Resources
+### Sumber Daya Tambahan
 
 <div class="grid cards" markdown>
 
@@ -47,9 +47,9 @@ For more details about each project, why they were chosen, and additional tips o
 
 </div>
 
-[Learn more :material-arrow-right-drop-circle:](desktop-browsers.md#additional-resources)
+[Pelajari lebih lanjut :material-arrow-right-drop-circle:](desktop-browsers.md#additional-resources)
 
-## Mobile Web Browsers
+## Peramban Web Seluler
 
 <div class="grid cards" markdown>
 
@@ -58,9 +58,9 @@ For more details about each project, why they were chosen, and additional tips o
 
 </div>
 
-[Learn more :material-arrow-right-drop-circle:](mobile-browsers.md)
+[Pelajari lebih lanjut :material-arrow-right-drop-circle:](mobile-browsers.md)
 
-### Additional Resources
+### Sumber Daya Tambahan
 
 <div class="grid cards annotate" markdown>
 
@@ -68,11 +68,11 @@ For more details about each project, why they were chosen, and additional tips o
 
 </div>
 
-[Learn more :material-arrow-right-drop-circle:](mobile-browsers.md#adguard)
+[Pelajari lebih lanjut :material-arrow-right-drop-circle:](mobile-browsers.md#adguard)
 
-## Service Providers
+## Penyedia Layanan
 
-### Cloud Storage
+### Penyimpanan Cloud
 
 <div class="grid cards" markdown>
 
@@ -81,17 +81,17 @@ For more details about each project, why they were chosen, and additional tips o
 
 </div>
 
-[Learn more :material-arrow-right-drop-circle:](cloud.md)
+[Pelajari lebih lanjut :material-arrow-right-drop-circle:](cloud.md)
 
 ### DNS
 
-#### DNS Providers
+#### Penyedia DNS
 
-We [recommend](dns.md#recommended-providers) a number of encrypted DNS servers based on a variety of criteria, such as [Mullvad](https://mullvad.net/en/help/dns-over-https-and-dns-over-tls) and [Quad9](https://quad9.net/) amongst others. We recommend for you to read our pages on DNS before choosing a provider. In many cases, using an alternative DNS provider is not recommended.
+Kami [merekomendasikan](dns.md#recommended-providers) sejumlah server DNS terenkripsi berdasarkan berbagai kriteria, seperti [Mullvad](https://mullvad.net/en/help/dns-over-https-and-dns-over-tls) dan [Quad9](https://quad9.net/). Kami menyarankan Anda untuk membaca halaman kami tentang DNS sebelum memilih penyedia. Dalam banyak kasus, menggunakan penyedia DNS alternatif tidak disarankan.
 
-[Learn more :material-arrow-right-drop-circle:](dns.md)
+[Pelajari lebih lanjut :material-arrow-right-drop-circle:](dns.md)
 
-#### Encrypted DNS Proxies
+#### DNS Proxy yang Terenkripsi
 
 <div class="grid cards" markdown>
 
@@ -100,149 +100,149 @@ We [recommend](dns.md#recommended-providers) a number of encrypted DNS servers b
 
 </div>
 
-[Learn more :material-arrow-right-drop-circle:](dns.md#encrypted-dns-proxies)
+[Pelajari lebih lanjut :material-arrow-right-drop-circle:](dns.md#encrypted-dns-proxies)
 
-#### Self-hosted Solutions
+#### Solusi Self-hosting
 
 <div class="grid cards" markdown>
 
-- ![AdGuard Home logo](assets/img/dns/adguard-home.svg){ .twemoji } [AdGuard Home](dns.md#adguard-home)
-- ![Pi-hole logo](assets/img/dns/pi-hole.svg){ .twemoji } [Pi-hole](dns.md#pi-hole)
+- ![Logo AdGuard Home](assets/img/dns/adguard-home.svg){ .twemoji } [AdGuard Home](dns.md#adguard-home)
+- ![Logo Pi-hole](assets/img/dns/pi-hole.svg){ .twemoji } [Pi-hole](dns.md#pi-hole)
 
 </div>
 
-[Learn more :material-arrow-right-drop-circle:](dns.md#self-hosted-solutions)
+[Pelajari lebih lanjut :material-arrow-right-drop-circle:](dns.md#self-hosted-solutions)
 
 ### Email
 
 <div class="grid cards" markdown>
 
-- ![Proton Mail logo](assets/img/email/protonmail.svg){ .twemoji } [Proton Mail](email.md#proton-mail)
-- ![Mailbox.org logo](assets/img/email/mailboxorg.svg){ .twemoji } [Mailbox.org](email.md#mailboxorg)
-- ![Skiff Mail logo](assets/img/email/skiff-mail.svg){ .twemoji } [Skiff Mail](email.md#skiff-mail)
-- ![Tutanota logo](assets/img/email/tutanota.svg){ .twemoji } [Tutanota](email.md#tutanota)
+- ![Logo Proton Mail](assets/img/email/protonmail.svg){ .twemoji } [Proton Mail](email.md#proton-mail)
+- ![Logo Mailbox.org](assets/img/email/mailboxorg.svg){ .twemoji } [Mailbox.org](email.md#mailboxorg)
+- ![Logo Skiff Mail](assets/img/email/skiff-mail.svg){ .twemoji } [Skiff Mail](email.md#skiff-mail)
+- ![Logo Tutanota](assets/img/email/tutanota.svg){ .twemoji } [Tutanota](email.md#tutanota)
 
 </div>
 
-[Learn more :material-arrow-right-drop-circle:](email.md)
+[Pelajari lebih lanjut :material-arrow-right-drop-circle:](email.md)
 
-#### Email Aliasing Services
+#### Layanan Email Alias
 
 <div class="grid cards" markdown>
 
-- ![AnonAddy logo](assets/img/email/anonaddy.svg#only-light){ .twemoji }![AnonAddy logo](assets/img/email/anonaddy-dark.svg#only-dark){ .twemoji } [AnonAddy](email.md#anonaddy)
-- ![SimpleLogin logo](assets/img/email/simplelogin.svg){ .twemoji } [SimpleLogin](email.md#simplelogin)
+- ![Logo AnonAddy](assets/img/email/anonaddy.svg#only-light){ .twemoji }![Logo AnonAddy](assets/img/email/anonaddy-dark.svg#only-dark){ .twemoji } [AnonAddy](email.md#anonaddy)
+- ![Logo SimpleLogin](assets/img/email/simplelogin.svg){ .twemoji } [SimpleLogin](email.md#simplelogin)
 
 </div>
 
-[Learn more :material-arrow-right-drop-circle:](email.md#email-aliasing-services)
+[Pelajari lebih lanjut :material-arrow-right-drop-circle:](email.md#email-aliasing-services)
 
-#### Self-Hosting Email
+#### Email Hosting Mandiri
 
 <div class="grid cards" markdown>
 
-- ![mailcow logo](assets/img/email/mailcow.svg){ .twemoji } [mailcow](email.md#self-hosting-email)
-- ![Mail-in-a-Box logo](assets/img/email/mail-in-a-box.svg){ .twemoji } [Mail-in-a-Box](email.md#self-hosting-email)
+- ![logo mailcow](assets/img/email/mailcow.svg){ .twemoji } [mailcow](email.md#self-hosting-email)
+- ![logo Mail-in-a-Box](assets/img/email/mail-in-a-box.svg){ .twemoji } [Mail-in-a-Box](email.md#self-hosting-email)
 
 </div>
 
-[Learn more :material-arrow-right-drop-circle:](email.md#self-hosting-email)
+[Pelajari lebih lanjut :material-arrow-right-drop-circle:](email.md#self-hosting-email)
 
-### Financial Services
+### Jasa Keuangan
 
-#### Payment Masking Services
+#### Layanan Penyamaran Pembayaran
 
 <div class="grid cards" markdown>
 
-- ![Privacy.com logo](assets/img/financial-services/privacy_com.svg#only-light){ .twemoji }![Privacy.com logo](assets/img/financial-services/privacy_com-dark.svg#only-dark){ .twemoji } [Privacy.com](financial-services.md#privacycom-us-free)
-- ![MySudo logo](assets/img/financial-services/mysudo.svg#only-light){ .twemoji }![MySudo logo](assets/img/financial-services/mysudo-dark.svg#only-dark){ .twemoji } [MySudo](financial-services.md#mysudo-us-paid)
+- ![Logo Privacy.com](assets/img/layanan-keuangan/privacy_com.svg#hanya-cahaya){ .twemoji }![Logo Privacy.com](assets/img/layanan-keuangan/privacy_com-gelap.svg#hanya-gelap){ .twemoji } [Privacy.com](layanan-keuangan.md#privacycom-us-free)
+- ![MySudo logo](assets/img/financial-services/mysudo.svg#only-light){ .twemoji }![MySudo logo](assets/img/financial-services/mysudo-dark.svg#only-dark){ .twemoji } [MySudo](layanan-keuangan.md#mysudo-us-paid)
 </div>
 
-[Learn more :material-arrow-right-drop-circle:](financial-services.md#payment-masking-services)
+[Pelajari lebih lanjut :material-arrow-right-drop-circle:](financial-services.md#payment-masking-services)
 
-#### Online Gift Card Marketplaces
+#### Pasar Kartu Gift Online
 
 <div class="grid cards" markdown>
 
-- ![CoinCards logo](assets/img/financial-services/coincards.svg){ .twemoji } [CoinCards](financial-services.md#coincards)
+- ![Logo CoinCards](assets/img/financial-services/coincards.svg){ .twemoji } [CoinCards](financial-services.md#coincards)
 
 </div>
 
-[Learn more :material-arrow-right-drop-circle:](financial-services.md#gift-card-marketplaces)
+[Pelajari lebih lanjut :material-arrow-right-drop-circle:](financial-services.md#gift-card-marketplaces)
 
-### Search Engines
+### Mesin Pencari
 
 <div class="grid cards" markdown>
 
-- ![Brave Search logo](assets/img/search-engines/brave-search.svg){ .twemoji } [Brave Search](search-engines.md#brave-search)
-- ![DuckDuckGo logo](assets/img/search-engines/duckduckgo.svg){ .twemoji } [DuckDuckGo](search-engines.md#duckduckgo)
-- ![SearXNG logo](assets/img/search-engines/searxng.svg){ .twemoji } [SearXNG](search-engines.md#searxng)
-- ![Startpage logo](assets/img/search-engines/startpage.svg#only-light){ .twemoji }![Startpage logo](assets/img/search-engines/startpage-dark.svg#only-dark){ .twemoji } [Startpage](search-engines.md#startpage)
+- ![Logo Brave Search](assets/img/search-engines/brave-search.svg){ .twemoji } [Brave Search](search-engines.md#brave-search)
+- ![Logo DuckDuckGo](assets/img/search-engines/duckduckgo.svg){ .twemoji } [DuckDuckGo](search-engines.md#duckduckgo)
+- ![Logo SearXNG](assets/img/search-engines/searxng.svg){ .twemoji } [SearXNG](search-engines.md#searxng)
+- ![Logo Halaman Awal](assets/img/search-engines/startpage.svg#hanya-cahaya){ .twemoji }![Logo Halaman Awal](assets/img/search-engines/startpage-gelap.svg#hanya-gelap){ .twemoji } [Startpage](search-engines.md#halaman awal)
 
 </div>
 
-[Learn more :material-arrow-right-drop-circle:](search-engines.md)
+[Pelajari lebih lanjut :material-arrow-right-drop-circle:](search-engines.md)
 
-### VPN Providers
+### Penyedia VPN
 
-??? danger "VPNs do not provide anonymity"
+??? danger "VPN tidak menyediakan anonimitas"
 
-    Using a VPN will **not** keep your browsing habits anonymous, nor will it add additional security to non-secure (HTTP) traffic.
+    Menggunakan VPN **tidak** akan menjaga perilaku jelajah Anda tetap anonim, dan juga tidak akan menambah keamanan tambahan pada lalu lintas yang tidak aman (HTTP).
     
-    If you are looking for **anonymity**, you should use the Tor Browser **instead** of a VPN.
+    Jika Anda membutuhkan **anonimitas**, Anda sebaiknya menggunakan Tor Browser **daripada** menggunakan VPN.
     
-    If you're looking for added **security**, you should always ensure you're connecting to websites using HTTPS. A VPN is not a replacement for good security practices.
+    Jika Anda membutuhkan **keamanan** tambahan, Anda harus memastikan bahwa Anda terhubung ke situs web menggunakan HTTPS. VPN bukanlah pengganti praktik keamanan yang baik.
     
-    [Learn more :material-arrow-right-drop-circle:](vpn.md)
+    [Pelajari lebih lanjut :material-arrow-right-drop-circle:] (vpn.md)
 
 <div class="grid cards" markdown>
 
-- ![Proton VPN logo](assets/img/vpn/protonvpn.svg){ .twemoji } [Proton VPN](vpn.md#proton-vpn)
+- ![Logo Proton VPN](assets/img/vpn/protonvpn.svg){ .twemoji } [Proton VPN](vpn.md#proton-vpn)
 - ![IVPN logo](assets/img/vpn/mini/ivpn.svg){ .twemoji } [IVPN](vpn.md#ivpn)
 - ![Mullvad logo](assets/img/vpn/mullvad.svg){ .twemoji } [Mullvad](vpn.md#mullvad)
 
 </div>
 
-[Learn more :material-arrow-right-drop-circle:](vpn.md)
+[Pelajari lebih lanjut :material-arrow-right-drop-circle:](vpn.md)
 
-## Software
+## Perangkat lunak
 
-### Calendar Sync
-
-<div class="grid cards" markdown>
-
-- ![Tutanota logo](assets/img/calendar/tutanota.svg){ .twemoji } [Tutanota](calendar.md#tutanota)
-- ![Proton Calendar logo](assets/img/calendar/proton-calendar.svg){ .twemoji } [Proton Calendar](calendar.md#proton-calendar)
-
-</div>
-
-[Learn more :material-arrow-right-drop-circle:](calendar.md)
-
-### Cryptocurrency
+### Sinkronisasi Kalender
 
 <div class="grid cards" markdown>
 
-- ![Monero logo](assets/img/cryptocurrency/monero.svg){ .twemoji } [Monero](cryptocurrency.md#monero)
+- ![Logo Tutanota](assets/img/kalender/tutanota.svg){ .twemoji } [Tutanota](calendar.md#tutanota)
+- ![Logo Kalender Proton](assets/img/kalender/proton-calendar.svg){ .twemoji } [Kalender Proton](calendar.md#proton-calendar)
 
 </div>
 
-[Learn more :material-arrow-right-drop-circle:](cryptocurrency.md)
+[Pelajari lebih lanjut :material-arrow-right-drop-circle:](calendar.md)
 
-### Data and Metadata Redaction
+### Mata Uang Kripto
 
 <div class="grid cards" markdown>
 
-- ![MAT2 logo](assets/img/data-redaction/mat2.svg){ .twemoji } [MAT2](data-redaction.md#mat2)
-- ![ExifEraser logo](assets/img/data-redaction/exiferaser.svg){ .twemoji } [ExifEraser (Android)](data-redaction.md#exiferaser-android)
-- ![Metapho logo](assets/img/data-redaction/metapho.jpg){ .twemoji } [Metapho (iOS)](data-redaction.md#metapho-ios)
-- ![PrivacyBlur logo](assets/img/data-redaction/privacyblur.svg){ .twemoji } [PrivacyBlur](data-redaction.md#privacyblur)
-- ![ExifTool logo](assets/img/data-redaction/exiftool.png){ .twemoji } [ExifTool (CLI)](data-redaction.md#exiftool)
+- ![Logo Monero](assets/img/cryptocurrency/monero.svg){ .twemoji } [Monero](cryptocurrency.md#monero)
 
 </div>
 
-[Learn more :material-arrow-right-drop-circle:](data-redaction.md)
+[Pelajari lebih lanjut :material-arrow-right-drop-circle:](cryptocurrency.md)
 
-### Email Clients
+### Penyuntingan Data dan Metadata
+
+<div class="grid cards" markdown>
+
+- ![Logo MAT2](assets/img/data-redaksi/mat2.svg){ .twemoji } [MAT2](data-redaksi.md#mat2)
+- ![Logo ExifEraser](assets/img/data-redaksi/exiferaser.svg){ .twemoji } [ExifEraser (Android)](data-redaksi.md#exiferaser-android)
+- ![Logo Metapho](assets/img/data-redaksi/metapho.jpg){ .twemoji } [Metapho (iOS)](data-redaksi.md#metapho-ios)
+- ![Logo PrivacyBlur](assets/img/data-redaksi/privacyblur.svg){ .twemoji } [PrivacyBlur](data-redaksi.md#privacyblur)
+- ![ExifTool logo](assets/img/data-redaksi/exiftool.png){ .twemoji } [ExifTool (CLI)](data-redaksi.md#exiftool)
+
+</div>
+
+[Pelajari lebih lanjut :material-arrow-right-drop-circle:](data-redaction.md)
+
+### Klien Email
 
 <div class="grid cards" markdown>
 
@@ -251,62 +251,62 @@ We [recommend](dns.md#recommended-providers) a number of encrypted DNS servers b
 - ![Canary Mail logo](assets/img/email-clients/canarymail.svg){ .twemoji } [Canary Mail (iOS)](email-clients.md#canary-mail-ios)
 - ![FairEmail logo](assets/img/email-clients/fairemail.svg){ .twemoji } [FairEmail (Android)](email-clients.md#fairemail-android)
 - ![GNOME Evolution logo](assets/img/email-clients/evolution.svg){ .twemoji } [GNOME Evolution (Linux)](email-clients.md#gnome-evolution-gnome)
-- ![K-9 Mail logo](assets/img/email-clients/k9mail.svg){ .twemoji } [K-9 Mail (Android)](email-clients.md#k-9-mail-android)
-- ![Kontact logo](assets/img/email-clients/kontact.svg){ .twemoji } [Kontact (Linux)](email-clients.md#kontact-kde)
-- ![Mailvelope logo](assets/img/email-clients/mailvelope.svg){ .twemoji } [Mailvelope (PGP in standard webmail)](email-clients.md#mailvelope-browser)
+- ![Logo K-9 Mail](assets/img/email-clients/k9mail.svg){ .twemoji } [K-9 Mail (Android)](email-clients.md#k-9-mail-android)
+- ![Logo Kontak](assets/img/email-clients/kontact.svg){ .twemoji } [Kontak (Linux)](email-clients.md#kontact-kde)
+- ![Mailvelope logo](assets/img/email-clients/mailvelope.svg){ .twemoji } [Mailvelope (PGP di webmail standar)](email-clients.md#mailvelope-browser)
 - ![NeoMutt logo](assets/img/email-clients/mutt.svg){ .twemoji } [NeoMutt (CLI)](email-clients.md#neomutt-cli)
 
 </div>
 
-[Learn more :material-arrow-right-drop-circle:](email-clients.md)
+[Pelajari lebih lanjut :material-arrow-right-drop-circle:](email-clients.md)
 
-### Encryption Software
+### Perangkat Lunak Enkripsi
 
-??? info "Operating System Disk Encryption"
+??? info "Enkripsi Disk Sistem Operasi"
 
-    For encrypting your operating system drive, we typically recommend using whichever encryption tool your operating system provides, whether that is **BitLocker** on Windows, **FileVault** on macOS, or **LUKS** on Linux. These tools are included with the operating system and typically use hardware encryption elements such as a TPM that other full-disk encryption software like VeraCrypt do not. VeraCrypt is still suitable for non-operating system disks such as external drives, especially drives that may be accessed from multiple operating systems.
+    Untuk mengenkripsi drive sistem operasi Anda, kami biasanya menyarankan untuk menggunakan alat enkripsi apa pun yang disediakan oleh sistem operasi Anda, baik itu **BitLocker** pada Windows, **FileVault** pada macOS, atau **LUKS** pada Linux. Alat-alat ini disertakan dengan sistem operasi dan biasanya menggunakan elemen enkripsi perangkat keras seperti TPM yang tidak dimiliki oleh perangkat lunak enkripsi disk penuh lainnya seperti VeraCrypt. VeraCrypt masih cocok untuk disk sistem non-operasi seperti drive eksternal, terutama drive yang dapat diakses dari beberapa sistem operasi.
     
-    [Learn more :material-arrow-right-drop-circle:](encryption.md##operating-system-included-full-disk-encryption-fde)
+    [Pelajari lebih lanjut :material-arrow-right-drop-circle:](encryption.md##operating-system-include-full-disk-encryption-fde)
 
 <div class="grid cards" markdown>
 
-- ![Cryptomator logo](assets/img/encryption-software/cryptomator.svg){ .twemoji } [Cryptomator](encryption.md#cryptomator-cloud)
-- ![Picocrypt logo](assets/img/encryption-software/picocrypt.svg){ .twemoji } [Picocrypt](encryption.md#picocrypt-file)
-- ![VeraCrypt logo](assets/img/encryption-software/veracrypt.svg#only-light){ .twemoji }![VeraCrypt logo](assets/img/encryption-software/veracrypt-dark.svg#only-dark){ .twemoji } [VeraCrypt (FDE)](encryption.md#veracrypt-disk)
-- ![Hat.sh logo](assets/img/encryption-software/hat-sh.png#only-light){ .twemoji }![Hat.sh logo](assets/img/encryption-software/hat-sh-dark.png#only-dark){ .twemoji } [Hat.sh (Browser-based)](encryption.md#hatsh)
-- ![Kryptor logo](assets/img/encryption-software/kryptor.png){ .twemoji } [Kryptor](encryption.md#kryptor)
-- ![Tomb logo](assets/img/encryption-software/tomb.png){ .twemoji } [Tomb](encryption.md#tomb)
+- ![Cryptomator logo](assets/img/enkripsi-perangkat-lunak/cryptomator.svg){ .twemoji } [Cryptomator](enkripsi.md#cryptomator-cloud)
+- ![Picocrypt logo](assets/img/enkripsi-perangkat-lunak/picocrypt.svg){ .twemoji } [Picocrypt](enkripsi.md#picocrypt-file)
+- ![VeraCrypt logo](assets/img/enkripsi-perangkat lunak/veracrypt.svg#only-light){ .twemoji }![VeraCrypt logo](assets/img/enkripsi-perangkat lunak/veracrypt-dark.svg#only-dark){ .twemoji } [VeraCrypt (FDE)](enkripsi.md#veracrypt-disk)
+- ![Hat.sh logo](assets/img/enkripsi-perangkat-lunak/hat-sh.png#only-light){ .twemoji }![Hat.sh logo](assets/img/enkripsi-perangkat-lunak/hat-sh-dark.png#only-dark){ .twemoji } [Hat.sh (Berbasis peramban)](enkripsi.md#hatsh)
+- ![Kryptor logo](assets/img/enkripsi-perangkat lunak/kryptor.png){ .twemoji } [Kryptor](enkripsi.md#kryptor)
+- ![Tomb logo](assets/img/enkripsi-perangkat lunak/tomb.png){ .twemoji } [Tomb](enkripsi.md#tomb)
 
 </div>
 
-[Learn more :material-arrow-right-drop-circle:](encryption.md)
+[Pelajari lebih lanjut :material-arrow-right-drop-circle:](encryption.md)
 
-#### OpenPGP Clients
+#### Klien OpenPGP
 
 <div class="grid cards" markdown>
 
 - ![GnuPG logo](assets/img/encryption-software/gnupg.svg){ .twemoji } [GnuPG](encryption.md#gnu-privacy-guard)
 - ![GPG4Win logo](assets/img/encryption-software/gpg4win.svg){ .twemoji } [GPG4Win (Windows)](encryption.md#gpg4win)
-- ![GPG Suite logo](assets/img/encryption-software/gpgsuite.png){ .twemoji } [GPG Suite (macOS)](encryption.md#gpg-suite)
-- ![OpenKeychain logo](assets/img/encryption-software/openkeychain.svg){ .twemoji } [OpenKeychain](encryption.md#openkeychain)
+- ![GPG Suite logo](assets/img/encryption-software/gpgsuite.png){ .twemoji } [GPG Suite (macOS)](enkripsi.md#gpg-suite)
+- ![OpenKeychain logo](assets/img/encryption-software/openkeychain.svg){ .twemoji } [OpenKeychain](enkripsi.md#openkeychain)
 
 </div>
 
-[Learn more :material-arrow-right-drop-circle:](encryption.md#openpgp)
+[Pelajari lebih lanjut :material-arrow-right-drop-circle:](encryption.md#openpgp)
 
-### File Sharing and Sync
+### Berbagi dan Sinkronisasi File
 
 <div class="grid cards" markdown>
 
 - ![Send logo](assets/img/file-sharing-sync/send.svg){ .twemoji } [Send](file-sharing.md#send)
 - ![OnionShare logo](assets/img/file-sharing-sync/onionshare.svg){ .twemoji } [OnionShare](file-sharing.md#onionshare)
 - ![FreedomBox logo](assets/img/file-sharing-sync/freedombox.svg){ .twemoji } [FreedomBox](file-sharing.md#freedombox)
-- ![Nextcloud logo](assets/img/productivity/nextcloud.svg){ .twemoji } [Nextcloud (Self-Hostable)](file-sharing.md#nextcloud-client-server)
-- ![Syncthing logo](assets/img/file-sharing-sync/syncthing.svg){ .twemoji } [Syncthing](file-sharing.md#syncthing-p2p)
+- ![Logo Nextcloud](assets/img/productivity/nextcloud.svg){ .twemoji } [Nextcloud (Self-Hostable)](file-sharing.md#nextcloud-client-server)
+- ![Logo Syncthing](assets/img/file-sharing-sync/syncthing.svg){ .twemoji } [Syncthing](file-sharing.md#syncthing-p2p)
 
 </div>
 
-[Learn more :material-arrow-right-drop-circle:](file-sharing.md)
+[Pelajari lebih lanjut :material-arrow-right-drop-circle:](file-sharing.md)
 
 ### Frontends
 
@@ -322,9 +322,9 @@ We [recommend](dns.md#recommended-providers) a number of encrypted DNS servers b
 
 </div>
 
-[Learn more :material-arrow-right-drop-circle:](frontends.md)
+[Pelajari lebih lanjut :material-arrow-right-drop-circle:](frontends.md)
 
-### Multi-Factor Authentication Tools
+### Alat Autentikasi Multi-Faktor
 
 <div class="grid cards" markdown>
 
@@ -335,23 +335,23 @@ We [recommend](dns.md#recommended-providers) a number of encrypted DNS servers b
 
 </div>
 
-[Learn more :material-arrow-right-drop-circle:](multi-factor-authentication.md)
+[Pelajari lebih lanjut :material-arrow-right-drop-circle:](multi-factor-authentication.md)
 
-### News Aggregators
+### Agregator Berita
 
 <div class="grid cards" markdown>
 
-- ![Akregator logo](assets/img/news-aggregators/akregator.svg){ .twemoji } [Akregator](news-aggregators.md#akregator)
-- ![Feeder logo](assets/img/news-aggregators/feeder.png){ .twemoji} [Feeder](news-aggregators.md#feeder)
+- ![Logo Akregator](assets/img/news-aggregator/akregator.svg){ .twemoji } [Akregator](news-aggregators.md#akregator)
+- ![Logo Pengumpan](assets/img/news-aggregators/feeder.png){ .twemoji} [Feeder](news-aggregators.md#feeder)
 - ![Fluent Reader logo](assets/img/news-aggregators/fluent-reader.svg){ .twemoji } [Fluent Reader](news-aggregators.md#fluent-reader)
 - ![GNOME Feeds logo](assets/img/news-aggregators/gfeeds.svg){ .twemoji } [GNOME Feeds](news-aggregators.md#gnome-feeds)
-- ![Miniflux logo](assets/img/news-aggregators/miniflux.svg#only-light){ .twemoji }![Miniflux logo](assets/img/news-aggregators/miniflux-dark.svg#only-dark){ .twemoji } [Miniflux](news-aggregators.md#miniflux)
+- ![Logo Miniflux](assets/img/news-aggregators/miniflux.svg#only-light){ .twemoji }![Logo Miniflux](assets/img/news-aggregators/miniflux-dark.svg#only-dark){ .twemoji } [Miniflux](news-aggregators.md#miniflux)
 - ![NetNewsWire logo](assets/img/news-aggregators/netnewswire.png){ .twemoji } [NetNewsWire](news-aggregators.md#netnewswire)
 - ![Newsboat logo](assets/img/news-aggregators/newsboat.svg){ .twemoji } [Newsboat](news-aggregators.md#newsboat)
 
 </div>
 
-[Learn more :material-arrow-right-drop-circle:](news-aggregators.md)
+[Pelajari lebih lanjut :material-arrow-right-drop-circle:](news-aggregators.md)
 
 ### Notebooks
 
@@ -365,9 +365,9 @@ We [recommend](dns.md#recommended-providers) a number of encrypted DNS servers b
 
 </div>
 
-[Learn more :material-arrow-right-drop-circle:](notebooks.md)
+[Pelajari lebih lanjut :material-arrow-right-drop-circle:](notebooks.md)
 
-### Password Managers
+### Pengelola Kata Sandi
 
 <div class="grid cards" markdown>
 
@@ -381,9 +381,9 @@ We [recommend](dns.md#recommended-providers) a number of encrypted DNS servers b
 
 </div>
 
-[Learn more :material-arrow-right-drop-circle:](passwords.md)
+[Pelajari lebih lanjut :material-arrow-right-drop-circle:](passwords.md)
 
-### Productivity Tools
+### Alat Produktivitas
 
 <div class="grid cards" markdown>
 
@@ -395,9 +395,9 @@ We [recommend](dns.md#recommended-providers) a number of encrypted DNS servers b
 
 </div>
 
-[Learn more :material-arrow-right-drop-circle:](productivity.md)
+[Pelajari lebih lanjut :material-arrow-right-drop-circle:](productivity.md)
 
-### Real-Time Communication
+### Komunikasi Real-Time
 
 <div class="grid cards" markdown>
 
@@ -409,11 +409,11 @@ We [recommend](dns.md#recommended-providers) a number of encrypted DNS servers b
 
 </div>
 
-[Learn more :material-arrow-right-drop-circle:](real-time-communication.md)
+[Pelajari lebih lanjut :material-arrow-right-drop-circle:](real-time-communication.md)
 
-## Operating Systems
+## Sistem Operasi
 
-### Mobile
+### Seluler
 
 <div class="grid cards" markdown>
 
@@ -422,9 +422,9 @@ We [recommend](dns.md#recommended-providers) a number of encrypted DNS servers b
 
 </div>
 
-[Learn more :material-arrow-right-drop-circle:](android.md)
+[Pelajari lebih lanjut :material-arrow-right-drop-circle:](android.md)
 
-#### Android Apps
+#### Aplikasi Android
 
 <div class="grid cards" markdown>
 
@@ -436,7 +436,7 @@ We [recommend](dns.md#recommended-providers) a number of encrypted DNS servers b
 
 </div>
 
-[Learn more :material-arrow-right-drop-circle:](android.md#general-apps)
+[Pelajari lebih lanjut :material-arrow-right-drop-circle:](android.md#general-apps)
 
 ### Desktop/PC
 
@@ -453,9 +453,9 @@ We [recommend](dns.md#recommended-providers) a number of encrypted DNS servers b
 
 </div>
 
-[Learn more :material-arrow-right-drop-circle:](desktop.md)
+[Pelajari lebih lanjut :material-arrow-right-drop-circle:](desktop.md)
 
-### Router Firmware
+### Firmware Router
 
 <div class="grid cards" markdown>
 
@@ -464,4 +464,4 @@ We [recommend](dns.md#recommended-providers) a number of encrypted DNS servers b
 
 </div>
 
-[Learn more :material-arrow-right-drop-circle:](router.md)
+[Pelajari lebih lanjut :material-arrow-right-drop-circle:](router.md)

@@ -1,6 +1,6 @@
 ---
 meta_title: "The Best Password Managers to Protect Your Privacy and Security - Privacy Guides"
-title: "Password Managers"
+title: "Pengelola Kata Sandi"
 icon: material/form-textbox-password
 description: Password managers allow you to securely store and manage passwords and other credentials.
 cover: passwords.png
@@ -208,7 +208,7 @@ One advantage 1Password has over Bitwarden is its first-class support for native
     [:octicons-info-16:](https://doc.psono.com){ .card-link title=Documentation}
     [:octicons-code-16:](https://gitlab.com/psono){ .card-link title="Source Code" }
     
-    ??? downloads
+    ??? unduhan
     
         - [:simple-googleplay: Google Play](https://play.google.com/store/apps/details?id=com.psono.psono)
         - [:simple-appstore: App Store](https://apps.apple.com/us/app/psono-password-manager/id1545581224)
@@ -216,27 +216,27 @@ One advantage 1Password has over Bitwarden is its first-class support for native
         - [:simple-googlechrome: Chrome](https://chrome.google.com/webstore/detail/psonopw-password-manager/eljmjmgjkbmpmfljlmklcfineebidmlo)
         - [:simple-docker: Docker Hub](https://hub.docker.com/r/psono/psono-client)
 
-Psono provides extensive documentation for their product. The web-client for Psono can be self-hosted; alternatively, you can choose the full Community Edition or the Enterprise Edition with additional features.
+Psono menyediakan dokumentasi ekstensif untuk produk mereka. Klien web untuk Psono bisa di-host sendiri; sebagai alternatif, Anda bisa memilih Edisi Komunitas lengkap atau Edisi Enterprise dengan fitur tambahan.
 
-### Criteria
+### Kriteria
 
-**Please note we are not affiliated with any of the projects we recommend.** In addition to [our standard criteria](about/criteria.md), we have developed a clear set of requirements to allow us to provide objective recommendations. We suggest you familiarize yourself with this list before choosing to use a project, and conduct your own research to ensure it's the right choice for you.
+**Harap diperhatikan bahwa kami tidak berafiliasi dengan proyek-proyek yang kami rekomendasikan.** Selain [kriteria standar kami](about/criteria.md), kami telah mengembangkan serangkaian persyaratan yang jelas untuk memungkinkan kami memberikan rekomendasi yang objektif. Kami sarankan Anda membiasakan diri dengan daftar ini sebelum memilih untuk menggunakan sebuah proyek, dan melakukan penelitian sendiri untuk memastikan bahwa itu adalah pilihan yang tepat untuk Anda.
 
-!!! example "This section is new"
+!!! contoh "Bagian ini baru"
 
-    We are working on establishing defined criteria for every section of our site, and this may be subject to change. If you have any questions about our criteria, please [ask on our forum](https://discuss.privacyguides.net/latest) and don't assume we didn't consider something when making our recommendations if it is not listed here. There are many factors considered and discussed when we recommend a project, and documenting every single one is a work-in-progress.
+    Kami sedang berupaya menetapkan kriteria yang jelas untuk setiap bagian dari situs kami, dan hal ini dapat berubah sewaktu-waktu. Jika Anda memiliki pertanyaan mengenai kriteria kami, silakan [tanyakan di forum](https://discuss.privacyguides.net/latest) dan jangan berasumsi bahwa kami tidak mempertimbangkan sesuatu saat membuat rekomendasi jika tidak tercantum di sini. Ada banyak faktor yang dipertimbangkan dan didiskusikan saat kami merekomendasikan sebuah proyek, dan mendokumentasikan setiap faktor tersebut merupakan sebuah pekerjaan yang sedang berjalan.
 
-#### Minimum Requirements
+#### Persyaratan Minimum
 
-- Must utilize strong, standards-based/modern E2EE.
-- Must have thoroughly documented encryption and security practices.
-- Must have a published audit from a reputable, independent third-party.
-- All non-essential telemetry must be optional.
-- Must not collect more PII than is necessary for billing purposes.
+- Harus menggunakan E2EE yang kuat, berbasis standar/modern.
+- Harus memiliki praktik enkripsi dan keamanan yang terdokumentasi secara menyeluruh.
+- Harus memiliki audit yang dipublikasikan dari pihak ketiga yang memiliki reputasi baik dan independen.
+- Semua telemetri yang tidak penting harus bersifat opsional.
+- Tidak boleh mengumpulkan PII lebih banyak daripada yang diperlukan untuk tujuan penagihan.
 
-#### Best-Case
+#### Kasus Terbaik
 
-Our best-case criteria represents what we would like to see from the perfect project in this category. Our recommendations may not include any or all of this functionality, but those which do may rank higher than others on this page.
+Kriteria kasus terbaik kami mewakili apa yang ingin kami lihat dari proyek yang sempurna dalam kategori ini. Our recommendations may not include any or all of this functionality, but those which do may rank higher than others on this page.
 
 - Telemetry should be opt-in (disabled by default) or not collected at all.
 - Should be open-source and reasonably self-hostable.
@@ -308,7 +308,7 @@ KeePassXC stores its export data as [CSV](https://en.wikipedia.org/wiki/Comma-se
 
 Additionally, there is an offline-only version offered: [Strongbox Zero](https://apps.apple.com/app/strongbox-keepass-pwsafe/id1581589638). This version is stripped down in an attempt to reduce attack surface.
 
-### Command-line
+### Baris perintah
 
 These products are minimal password managers that can be used within scripting applications.
 
@@ -332,12 +332,12 @@ These products are minimal password managers that can be used within scripting a
         - [:simple-linux: Linux](https://www.gopass.pw/#install-linux)
         - [:simple-freebsd: FreeBSD](https://www.gopass.pw/#install-bsd)
 
-### Criteria
+### Kriteria
 
-**Please note we are not affiliated with any of the projects we recommend.** In addition to [our standard criteria](about/criteria.md), we have developed a clear set of requirements to allow us to provide objective recommendations. We suggest you familiarize yourself with this list before choosing to use a project, and conduct your own research to ensure it's the right choice for you.
+**Harap diperhatikan bahwa kami tidak berafiliasi dengan proyek-proyek yang kami rekomendasikan.** Selain [kriteria standar kami](about/criteria.md), kami telah mengembangkan serangkaian persyaratan yang jelas untuk memungkinkan kami memberikan rekomendasi yang objektif. Kami sarankan Anda membiasakan diri dengan daftar ini sebelum memilih untuk menggunakan sebuah proyek, dan melakukan penelitian sendiri untuk memastikan bahwa itu adalah pilihan yang tepat untuk Anda.
 
-!!! example "This section is new"
+!!! contoh "Bagian ini baru"
 
-    We are working on establishing defined criteria for every section of our site, and this may be subject to change. If you have any questions about our criteria, please [ask on our forum](https://discuss.privacyguides.net/latest) and don't assume we didn't consider something when making our recommendations if it is not listed here. There are many factors considered and discussed when we recommend a project, and documenting every single one is a work-in-progress.
+    Kami sedang berupaya menetapkan kriteria yang jelas untuk setiap bagian dari situs kami, dan hal ini dapat berubah sewaktu-waktu. Jika Anda memiliki pertanyaan mengenai kriteria kami, silakan [tanyakan di forum](https://discuss.privacyguides.net/latest) dan jangan berasumsi bahwa kami tidak mempertimbangkan sesuatu saat membuat rekomendasi jika tidak tercantum di sini. Ada banyak faktor yang dipertimbangkan dan didiskusikan saat kami merekomendasikan sebuah proyek, dan mendokumentasikan setiap faktor tersebut merupakan sebuah pekerjaan yang sedang berjalan.
 
 - Must be cross-platform.

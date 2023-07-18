@@ -1,111 +1,111 @@
 ---
 title: "Introduzione alle password"
 icon: 'material/form-textbox-password'
-description: Ecco alcuni suggerimenti e trucchi su come creare le password più forti e mantenere i vostri account al sicuro.
+description: Ecco alcuni consigli e trucchi su come creare le password più forti e mantenere sicuri i tuoi profili.
 ---
 
-Le password sono una parte essenziale della nostra vita digitale quotidiana. Le utilizziamo per proteggere i nostri account, dispositivi e segreti. Nonostante siano spesso l'unica cosa che ci separa da un nemico a caccia di informazioni private, non ci si pensa molto, il che spesso porta le persone ad utilizzare password che possono essere facilmente indovinate o forzate.
+Le password sono una parte essenziale delle nostre vite digitali quotidiane. Le utilizziamo per proteggere i nostri profili, dispositivi e segreti. Nonostante spesso siano la sola cosa tra di noi e un malintenzionato a caccia di informazioni private, non ci si pensa molto, portando spesso le persone a utilizzare password facili da indovinare o forzare.
 
-## Pratiche migliori
+## Migliori Pratiche
 
 ### Utilizza password uniche per ogni servizio
 
-Immagina questo: registrate un account con la stessa email e la stessa password su più servizi online. Se uno di questi servizi è malevolo o il loro servizio subisce una violazione dei dati che espone la password in formato non criptato, tutto ciò che un malintenzionato dovrebbe fare è provare quella combinazione di e-mail e password su più servizi popolari finché non ottiene un risultato. Non importa quanto forte sia quella password, perchè ormai ce l'hanno già.
+Immagina questo: registri un profilo con la stessa email e password di numerosi servizi online. Se uno dei fornitori di tali servizi è malintenzionto, o se il servizio subisce una violazione di dati che espone la tua password in un formato non crittografato, tutto ciò che un malintenzionato dovrà fare è provare tale combinazione di email e password su numerosi servizi popolari, fino all'ottenimento di un risultato. Non importa quanto sia forte una password, perché, ormai, è già in suo possesso.
 
-Questo fenomeno è chiamato [credential stuffing](https://en.wikipedia.org/wiki/Credential_stuffing) ed è uno dei modi più comuni tramite cui i vostri account potrebbero venir compromessi da malintenzionati. Per evitare che ciò accada, assicurati di non riutilizzare mai le password.
+Questo fenomeno è detto [riempimento delle credenziali](https://en.wikipedia.org/wiki/Credential_stuffing) ed è uno dei metodi più comuni di compromissione dei tuoi profili, da utenti malintenzionati. Per evitarlo, assicurati di non riutilizzare mai le tue password.
 
 ### Usa password generate casualmente
 
-==Non dovresti **mai** affidarti a te stesso per creare un'ottima password.== Consigliamo di utilizzare [password generate randomicamente](#passwords) o [passphrase di tipo diceware](#diceware-passphrases) con un'entropia sufficiente a proteggere i tuoi account e dispositivi.
+==Non dovresti **mai** basarti su te stesso per generaare una buona password.== Consigliamo di utilizzare le [password generate casualmente](#passwords) o le [frasi segrete Diceware](#diceware-passphrases), con un'entropia sufficiente per proteggere i tuoi profili e dispositivi.
 
-Tutti i nostri [gestori di password consigliati](../passwords.md) includono un generatore di password integrato che puoi utilizzare.
+Tutti i [gestori di password consigliati](../passwords.md) da noi, includono un generatore di password integrato che puoi utilizzare.
 
 ### Rotazione delle password
 
-Dovresti evitare di cambiare troppo spesso le password che necessitano di essere ricordate (come la master password del vostro gestore di password), a meno che non abbiate motivo di credere che sia stata compromessa, perché cambiarla troppo spesso vi espone al rischio di dimenticarla.
+Dovresti evitare di modificare troppo spesso le password che devi ricordare (come la password generale del tuo gestore di password), a meno che tu non abbia motivo di credere che siano state compromesse, poiché modificarle troppo spesso ti espone al rischio di dimenticarle.
 
-Per quanto riguarda le password che non devi ricordare (come quelle memorizzate all'interno del vostro gestore di password), se la vostra [ modellazione delle minacce](threat-modeling.md) lo richiede, vi consigliamo di controllare gli account importanti (soprattutto quelli che non utilizzano l'autenticazione a più fattori) e di cambiare la loro password almeno ogni due mesi, nel caso in cui siano stati compromessi in una violazione dei dati non ancora resa pubblica. La maggior parte dei gestori di password ti consente d'impostare una data di scadenza per le tue password cosi da gestirle più facilmente.
+Per quanto riguard le password che non devi ricordare (come quelle memorizzate nel tuo gestore di password), se il tuo [modello di minaccia](threat-modeling.md) lo richiede, consigliamo di modificare le password dei profili importaanti (specialmente profili privi di autenticazione a più fattori), ogni paio di mesi, nel caso in cui siano state compromesse in una violazione di dati non ancora resa pubblica. Gran parte dei gestori di password ti consentono di impostare una data di scadenza per la tua password, rendendola più facile da gestire.
 
-!!! tip "Controlla le violazioni dei dati"
+!!! tip "Controllare le violazioni di dati"
 
-    Se il tuo gestore di password permette di verificare la presenza di password compromesse, assicurati di controllare le vostre password e di cambiare immediatamente qualsiasi password che potrebbe essere stata esposta in una violazione dei dati. In alternativa, puoi seguire il feed di [Have I Been Pwned's Latest Breaches](https://feeds.feedburner.com/HaveIBeenPwnedLatestBreaches) con l'aiuto di un [aggregatore di notizie](../news-aggregators.md).
+    Se il tuo gestore di password ti consente di verificare quelle compromesse, assicurati di farlo e di modificare prontamente qualsiasi password possa esser stata esposta in una violazione di dati. Altrimenti, potresti seguire il [feed di Violazioni di Dati Recenti di Have I Been Pwned](https://feeds.feedburner.com/HaveIBeenPwnedLatestBreaches), con l'aiuto di un [aggregatore di notizie](../news-aggregators.md).
 
 ## Creare password forti
 
 ### Password
 
-Molti servizi impongono determinati criteri per quanto riguarda le password, tra cui una lunghezza minima o massima e l'eventuale utilizzo di caratteri speciali. Dovreste utilizzare il generatore di password integrato nel vostro gestore di password per creare password complesse e lunghe quanto la dimensione massima che il sito permette, includendo lettere maiuscole e minuscole, numeri e caratteri speciali.
+Molti servizi impongono certi criteri per quanto riguarda le password, inclusa una lunghezza minima o massima, nonché quali caratteri specili, se presenti, sono utilizzabili. Dovreste utilizzare il generatore di password integrato del tuo gestore di password per creare le password più complesse e lunghe consentite, consentendo l'inclusione di lettere maiuscole e minuscole, numeri e caratteri speciali.
 
-Se hai bisogno di una password da memorizzare, ti consigliamo una [passphrase diceware](#diceware-passphrases).
+Se necessiti di una password memorizzabile, consigliamo una [frase segreta Diceware](#diceware-passphrases).
 
-### Passphrase Diceware
+### Frasi Segrete Diceware
 
-Il metodo Diceware serve per creare passphrase facili da ricordare, ma difficili da indovinare.
+Il metodo Diceware serve a creare frasi segrete facili da ricordare, ma difficili da indovinare.
 
-Le passphrase diceware sono un'ottima opzione quando è necessario memorizzare o inserire manualmente le proprie credenziali, come ad esempio la password principale del proprio gestore di password o la password di crittografia del proprio dispositivo.
+Le frasi segrete Diceware sono un'ottima opzione quando devi memorizzare o inserire manualmente le tue credenziali, come per la password principale del tuo gestore di password o per la password crittografica del tuo dispositivo.
 
-Un esempio di passphrase diceware è `viewable fastness reluctant squishy seventeen shown pencil`.
+Un esempio di frase segreta Dicewaare è `visualizzabile velocità riluttante morbido diciassette mostrato matita`.
 
-Per generare una passphrase diceware utilizzando un vero dado, segui questi passaggi:
+Per generare una frase segreta Dicewaare utilizzando dadi reali, segui questi passaggi:
 
-!!! note "Nota"
+!!! note
 
-    Queste istruzioni presuppongono l'utilizzo del [grande elenco di parole di EFF](https://www.eff.org/files/2016/07/18/eff_large_wordlist.txt) per generare la passphrase, che richiede cinque lanci di dadi per parola. Altri elenchi di parole potrebbero richiedere più o meno tiri per parola, e possono richiedere una quantità diversa di parole per ottenere la stessa entropia.
+    Queste istruzioni suppongono che tu stia utilizzando il [grande elenco di parole di EFF](https://www.eff.org/files/2016/07/18/eff_large_wordlist.txt) per generare la frase segreta, che richiede cinque lanci di dadi per parola. Altri elenchi di parole potrebbero richiedere maggiori o minori lanci per parola e potrebbero richiedere una quantità di parole differenti, per ottenere la stessa entropia.
 
-1. Lancia un dado a sei facce 5 volte, annota il numero ottenuto dopo ogni tiro.
+1. Lancia un dado a sei facce per cinque volte, annotando il numero dopo ogni lancio.
 
-2. Per esempio, supponiamo che tu abbia ottenuto `2-5-2-6-6`. Guarda nel [grande elenco di parole di EFF](https://www.eff.org/files/2016/07/18/eff_large_wordlist.txt) la parola che corrisponde a `25266`.
+2. Ad esempio, supponiamo tu abbia ottenuto `2-5-2-6-6`. Consulta il [grande elenco di parole di EFF](https://www.eff.org/files/2016/07/18/eff_large_wordlist.txt) per trovare la parola corrispondente a `25266`.
 
-3. Troverai la parola `encrypt`. Annota questa parola.
+3. Troverai la parola `encrypt`. Annotala.
 
-4. Ripeti questa procedura finché la vostra passphrase non avrà il numero di parole necessario, che dovrete separare con uno spazio.
+4. Ripeti questa procedura finché la tua frase segreta contiene quante parole necessarie, che dovresti separare con degli spazi.
 
 !!! warning "Importante"
 
-    **Non** dovresti rigenerare le parole affinché non ottieni una combinazione di parole che ti attragga. Il processo dovrebbe essere totalmente casuale.
+    **Non** dovresti rigenerare le parole finché non ottieni una combinazione di parole che ti attragga. Il procedimnto dovrebbe essere interamente casuale.
 
-Se non hai un dado, o semplicemente non lo vuoi usare, puoi utilizzare il generatore di password del tuo gestore di password, molti di questi hanno l'opzione di poter generare passphrase diceware oltre alle classiche password.
+Se non hai accesso a dadi reali o preferiresti non utilizzarli, puoi utilizzare il generatore di password integrato del gestore di password, poiché molti di essi offrono l'opzione di generare frasi segrete Diceware, oltre alle password regolari.
 
-Consigliamo di utilizzare il [grande elenco di parole di EFF](https://www.eff.org/files/2016/07/18/eff_large_wordlist.txt) per generare le tue passphrase diceware, in quanto offre la stessa sicurezza dell'elenco originale, pur contenendo parole più facili da memorizzare. Esistono anche [altri elenchi di parole in lingue diverse](https://theworld.com/~reinhold/diceware.html#Diceware%20in%20Other%20Languages|outline), se non vuoi che la tua passphrase sia in Inglese.
+Consigliamo di utilizzare il [grande elenco di parole di EFF](https://www.eff.org/files/2016/07/18/eff_large_wordlist.txt) per generare le tue frasi segrete Diceware, poiché offre la stessa sicurezza dell'elenco originale, contenendo parole più facili da memorizzare. Esistono anche [altri elenchi di parole in lingue differenti](https://theworld.com/~reinhold/diceware.html#Diceware%20in%20Other%20Languages|outline), se non desideri che la tua frase segreta sia in inglese.
 
-??? nota "Spiegazione dell'entropia e della forza delle passphrase diceware"
+??? note "Spiegazione dell'entropia e forza delle frasi segrete Diceware"
 
-    Per dimostrare quanto siano forti le passphrase diceware, useremo la già citata passphrase di sette parole (`viewable fastness reluctant squishy seventeen shown pencil`) e il [grande elenco di parole di EFF](https://www.eff.org/files/2016/07/18/eff_large_wordlist.txt) come esempio.
+    Per dimostrare la forza delle frasi segrete Diceware, utilizzeremo la suddetta frase segreta da sette parole ('visualizzabile velocità riluttante morbido diciassette mostrato matita') e il [grande elenco di parole di EFF](https://www.eff.org/files/2016/07/18/eff_large_wordlist.txt) come esempio.
     
-    Un parametro per determinare la forza di una passphrase diceware è la sua entropia. L'entropia per parola in una passphrase diceware è calcolata come $\text{log}_2(\text{WordsInList})$ e l'entropia complessiva della passphrase è calcolata come $\text{log}_2(\text{WordsInList}^\text{WordsInPhrase})$.
+    Un parametro per determinare la forza di una frase segreta Diceware è la sua entropia. L'entropia per parola in una frase segreta Diceware è calcolata come $\text{log}_2(\text{WordsInList})$ e l'entropia complessiva della frase segreta è calcolata come $\text{log}_2(\text{WordsInList}^\text{WordsInPhrase})$.
     
-    Pertanto, ogni parola del suddetto elenco produce ~12,9 bit di entropia ($\text{log}_2(7776)$), e una passphrase di sette parole derivata da esso ha ~90,47 bit di entropia ($\text{log}_2(7776^7)$).
+    Dunque, ogni parola nell'elenco suddetto risulta in circa 12,9 bit di entropia ($\text{log}_2(7776)$), e una frase segreta di sette parole da esso derivaata contiene circa 90,47 bit di entropia ($\text{log}_2(7776^7)$).
     
-    Il [grande elenco di parole di EFF](https://www.eff.org/files/2016/07/18/eff_large_wordlist.txt) contiene 7776 parole uniche. Per calcolare la quantità di passphrase possibili, tutto ciò che dobbiamo fare è $\text{WordsInList}^\text{WordsInPhrase}$, o nel nostro caso, $ 7776^7 $.
+    Il [grande elenco di parole di EFF](https://www.eff.org/files/2016/07/18/eff_large_wordlist.txt) contiene 7776 parole uniche. Per calcolare la quantità di frasi segrete possibili, tutto ciò che dobbiamo fare è $\text{WordsInList}^\text{WordsInPhrase}$ o, nel nostro caso, $ 7776^7 $.
     
-    Mettiamo tutto questo in prospettiva: Una passphrase di sette parole utilizzando il [Grande elenco di parole di EFF](https://www.eff.org/files/2016/07/18/eff_large_wordlist.txt) è una delle ~1.719.070.799.748.422.500.000.000.000.000 possibili passphrase.
+    Mettiamo tutto questo in prospettiva: Una frase segreta di sette parole che utilizza il [grande elenco di parole di EFF](https://www.eff.org/files/2016/07/18/eff_large_wordlist.txt) è una delle approssimative 1.719.070.799.748.422.500.000.000.000.000 possibili frasi segrete.
     
-    In media, è necessario tentare il 50% di tutte le combinazioni possibili per indovinare la tua passfrase. E con questo, anche se l'avversario è in grado di fare ~1.000.000.000.000 tentativi al secondo, gli ci vorrebbero comunque ~27.255.689 anni per indovinare la tua passphrase. Questo vale solo se le seguenti cose sono vere:
+    In media, è necessario tentare il 50% di tutte le combinazioni possibili per indovinare la tua frase segreta. Tenendo ciò a mente, anche se il malintenzionato è capace di circa 1.000.000.000.000 tentativi al secondo, gli ci vorrebbero comunque circa 27.255.689 aanni per indovinare la tua frase segreta. Questo vale solo se le seguenti cose sono vere:
 
-    - Il tuo avversario sa che hai usato il metodo diceware.
-    - Il tuo avversario conosce l'elenco specifico che hai utilizzato.
-    - Il tuo avversario sa quante parole contiene la tua passphrase.
+    - Il tuo avversario sa che hai utilizzato il metodo Diceware.
+    - Il tuo avversario conosce l'elenco di parole specifico utilizzato.
+    - Il tuo avversario sa quante parole contiene la tua frase segreta.
 
-Ricapitolando, le passphrase diceware sono la scelta migliore se hai bisogno di qualcosa che sia facile da ricordare *ed* estremamente forte.
+Ricapitolando, le frasi segrete Diceware sono la tua migliore opzione quando necessiti di qualcosa che sia facile da ricordare *ed* eccezionalmente forte.
 
 ## Memorizzare le password
 
 ### Gestori di password
 
-Il miglior modo per memorizzare le proprie password è quello di utilizzare un gestore di password. Ti consentono di memorizzare le password in un singolo file o nel cloud e di proteggerle con un'unica password principale. In questo modo, dovrete ricordare solo un'unica password forte, che vi permetterà di accedere alle altre.
+Il miglior modo per memorizzare le tue password è utilizzare un gestore di password. Ti consente di memorizzare le tue password in un file o nel cloud e di proteggerle con un password principale singola. Così, dovrai ricordare soltanto una password forte, che ti consente di accedere al resto di esse.
 
-Ci sono molte opzioni valide tra cui scegliere, sia basata su cloud, sia locali. Scegli uno dei nostri gestori di password consigliati e usalo per impostare password forti per tutti i tuoi account. Consigliamo di proteggere il vostro gestore di password con una [password diceware](#diceware-passphrases) composta da almeno 7 parole.
+Esistono molte buone opzioni da cui scegliere, sia basate su cloud che locali. Scegli uno dei nostri gestori di password consigliati e utilizzalo per stabilire le password forti tra tutti i tuoi profili. Consigliamo di proteggere il tuo gestore di password con una [frase segreta Diceware](#diceware-passphrases), che comprenda almeno sette parole.
 
 [Elenco dei gestori di password consigliati](../passwords.md ""){.md-button}
 
 !!! warning "Non memorizzare le tue password e i token TOTP nello stesso gestore di password"
 
-    Quando utilizzi i codici TOTP come [autenticazione a più fattori](../multi-factor-authentication.md), la migliore prassi per la sicurezza è quella di conservare i codici TOTP in una [app separata](../multi-factor-authentication.md#authenticator-apps).
+    Utilizzando i codici TOTP come [autenticazione a più fattori](../multi-factor-authentication.md), la migliore pratica di sicurezza è mantenerli in un'[app separata](../multi-factor-authentication.md#authenticator-apps).
     
-    Conservare i token TOTP nello stesso luogo delle password, pur essendo comodo, riduce gli account ad un singolo fattore nel caso in cui un avversario riesca ad accedere al tuo gestore di password.
+    Memorizzare i token TOTP nello stesso luogo delle tue password, sebbene comodo, riduce i profili a un singolo fattore, nel caso in cui un malintenzionato ottenga l'accesso al tuo gestore di password.
     
-    Inoltre, sconsigliamo di memorizzare i codici di recupero monouso nel tuo gestore di password. Questi andrebbero archiviati in un contenitore criptato o su un dispositivo d'archiviazione offline.
+    Inoltre, sconsigliamo di memorizzare i codici di recupero a uso singolo nel tuo gestore di password. Questi, dovrebbero essere memorizzati separatamente in un contenitore crittografato, su un dispositivo di archiviazione offline.
 
 ### Backup
 
-Dovresti archiviare un backup [criptato](../encryption.md) di tutte le tue password su più dispositivi o su un provider d'archiviazione in cloud. Questo potrà aiutarti ad accedere alle password se dovesse succedere qualcosa al vostro dispositivo principale o al servizio che state utilizzando.
+Dovresti archiviare un backup [crittografato](../encryption.md) di tutte le tue password su più dispositivi o su un fornitore d'archiviazione in cloud. Ciò può aiutarti ad accedere alle tue password se succede qualcosa al tuo dispositivo principale o al servizio che stai utilizzando.

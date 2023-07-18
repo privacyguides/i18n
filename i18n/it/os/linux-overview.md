@@ -1,38 +1,38 @@
 ---
-title: Panoramica di Linux
+title: Panoramica su Linux
 icon: simple/linux
-description: Linux è un sistema operativo desktop open-source, incentrato sulla privacy, ma non tutte le distribuzioni sono uguali.
+description: Linux è un sistema operativo desktop, open source, incentrato sulla privacy e alternativo, ma non tutte le distribuzioni sono uguali.
 ---
 
-Si crede spesso che il software [open-source](https://it.wikipedia.org/wiki/Open_source) sia intrinsecamente sicuro perché il codice sorgente è disponibile. Ci si aspetta che la verifica da parte della comunità avvenga regolarmente; tuttavia, questo non è sempre [il caso](https://seirdy.one/posts/2022/02/02/floss-security/). Dipende da un certo numero di fattori, come l'attività del progetto, l'esperienza degli sviluppatori, il livello di rigore applicato alle [revisioni del codice](https://en.wikipedia.org/wiki/Code_review), e quanto spesso si presta attenzione a parti specifiche del [codebase](https://it.wikipedia.org/wiki/Codebase) che possono rimanere inalterate per anni.
+Spesso si ritiene che un software [open source](https://en.wikipedia.org/wiki/Open-source_software) sia intrinsecamente sicuro, poiché il codice sorgente è disponibile. Ci si aspeetta che la verifica dalla community si verifichi regolarmente; tuttavia, questo non è sempre [il caso](https://seirdy.one/posts/2022/02/02/floss-security/). Dipende da numerosi fattori, come l'attività del progetto, l'esperienza degli sviluppatori, il livello di rigore applicato alle [revisioni del codice](https://en.wikipedia.org/wiki/Code_review) e a quanto spesso l'attenzione è prestata a parti specifiche della [base di codice](https://en.wikipedia.org/wiki/Codebase), che potrebbe rimanere inalterata per anni.
 
-Al momento, GNU/Linux desktop ha alcune aree che potrebbero essere migliorate rispetto alle loro controparti proprietarie, ad esempio:
+Al momento, Linux presenta delle aree che potrebbero essere migliorate, rispetto aalle sue controparti proprietarie, es.:
 
-- Una catena di avvio verificata, a differenza del [Secure Boot](https://support.apple.com/it-it/guide/security/secc7b34e5b5/web) di Apple (con [Secure Enclave](https://support.apple.com/it-it/guide/security/sec59b0b31ff/1/web/1)), Android [Verified Boot](https://source.android.com/security/verifiedboot) o il [processo di avvio](https://docs.microsoft.com/it-it/windows/security/information-protection/secure-the-windows-10-boot-process) di Microsoft Windows con [TPM](https://docs.microsoft.com/it-it/windows/security/information-protection/tpm/how-windows-uses-the-tpm). Queste caratteristiche e tecnologie hardware possono tutte aiutare a prevenire la manomissione persistente da parte di malware o [attacchi di malintenzionati](https://en.wikipedia.org/wiki/Evil_Maid_attack)
-- Un forte utilizzo del sandboxing come quello trovato in [MacOS](https://developer.apple.com/library/archive/documentation/Security/Conceptual/AppSandboxDesignGuide/AboutAppSandbox/AboutAppSandbox.html), [ChromeOS](https://chromium.googlesource.com/chromiumos/docs/+/HEAD/sandboxing.md), e [Android](https://source.android.com/security/app-sandbox). Le soluzioni di sandboxing su Linux comunemente usate come [Flatpak](https://docs.flatpak.org/en/latest/sandbox-permissions.html) e [Firejail](https://firejail.wordpress.com/) hanno ancora molta strada da fare
+- Una catena d'avvio verificata, come l'[Avvio Sicuro](https://support.apple.com/guide/security/startup-security-utility-secc7b34e5b5/web) di Apple (con [Secure Enclave](https://support.apple.com/guide/security/secure-enclave-sec59b0b31ff/1/web/1)), l'[Avvio Verificato](https://source.android.com/security/verifiedboot) di Android, l'[Avvio verificato](https://www.chromium.org/chromium-os/chromiumos-design-docs/security-overview/#verified-boot) di ChromeOS, o il [processo d'avvio](https://docs.microsoft.com/en-us/windows/security/information-protection/secure-the-windows-10-boot-process) di Microsoft Windows, con [TPM](https://docs.microsoft.com/en-us/windows/security/information-protection/tpm/how-windows-uses-the-tpm). Queste funzionalità e tecnologie hardware possono aiutare a prevenire la manomissione persistente da parte di malware o [attacchi di evil maid](https://en.wikipedia.org/wiki/Evil_Maid_attack)
+- Una forte soluzione di sandboxing, come quella di [macOS](https://developer.apple.com/library/archive/documentation/Security/Conceptual/AppSandboxDesignGuide/AboutAppSandbox/AboutAppSandbox.html), [ChromeOS](https://chromium.googlesource.com/chromiumos/docs/+/HEAD/sandboxing.md) e [Android](https://source.android.com/security/app-sandbox). Le soluzioni di sandboxing di Linux utilizzate comunemente, come [Flatpak](https://docs.flatpak.org/en/latest/sandbox-permissions.html) e [Firejail](https://firejail.wordpress.com/), hanno ancora molta strada da fare
 - Forte [mitigazione degli exploit](https://madaidans-insecurities.github.io/linux.html#exploit-mitigations)
 
-Nonostante questi inconvenienti, le distribuzioni desktop GNU/Linux sono ottime se si vuole:
+Nonostante questi svantaggi, le distribuzioni di Linux per desktop sono ottime se desideri:
 
-- Evitare la telemetria che spesso viene fornita con sistemi operativi proprietari
-- Mantenere [la libertà del software](https://www.gnu.org/philosophy/free-sw.it.html#four-freedoms)
-- Avere sistemi operativi orientati alla privacy come [Whonix](https://www.whonix.org) o [Tails](https://tails.boum.org/)
+- Evitare la telemetria fornita dai sistemi operativi proprietari
+- Mantenere la [libertà del software](https://www.gnu.org/philosophy/free-sw.en.html#four-freedoms)
+- Avere sistemi orientati alla password, come [Whonix](https://www.whonix.org) o [Tails](https://tails.boum.org/)
 
-Questa pagina usa il termine "Linux" per descrivere le distribuzioni desktop GNU/Linux. Altri sistemi operativi che usano a loro volta il kernel Linux come ChromeOS, Android e Qubes OS non sono discussi qui.
+Questa pagina utilizza il termine "Linux" per descrivere le distribuzioni di Linux per desktop. Altri sistemi operativi che utilizzano anch'essi il kernel di Linux, come ChromeOS, Android e Qubes OS non sono discussi qui.
 
-[Raccomandazioni su Linux :material-arrow-right-drop-circle:](../desktop.md ""){.md-button}
+[Consigli su Linux :material-arrow-right-drop-circle:](../desktop.md ""){.md-button}
 
-## Scelta della distribuzione
+## Scegliere la tua distribuzione
 
-Non tutte le distribuzioni Linux sono uguali. Anche se la nostra pagina di raccomandazioni su Linux non vuole essere una fonte autorevole sulla distribuzione da utilizzare, ci sono alcune cose da tenere a mente quando si sceglie la distribuzione da utilizzare.
+Non tutte le distribuzioni Linux sono uguali. Sebbene la nostra pagina di consigli su Linux non sia intesa come una fonte autorevole sulla distribuzione che dovresti utilizzare, esistono delle cose che dovresti tenere a mente scegliendo quale distribuzione utilizzare.
 
 ### Ciclo di rilascio
 
-Si consiglia vivamente di scegliere distribuzioni che si mantengono vicine alle release stabili del software upstream, spesso indicate come distribuzioni rolling release. Questo perché le distribuzioni con ciclo di rilascio congelato spesso non aggiornano le versioni dei pacchetti e rimangono indietro sugli aggiornamenti di sicurezza.
+Ti consigliamo vivamente di scegliere le distribuzioni che restano vicine alle release stabili a monte del software, spesso note come distribuzioni a rilascio continuo. Questo perché le distribuzioni a rilascio congelato, spesso, non aggiornano le versioni dei pacchetti e restano indietro con gli aggiornamenti di sicurezza.
 
-Per le distribuzioni congelate, come [Debian](https://www.debian.org/security/faq#handling), ci si aspetta che i manutentori dei pacchetti facciano il backport delle patch per correggere le vulnerabilità, piuttosto che portare il software alla "versione successiva" rilasciata dallo sviluppatore upstream. Alcune correzioni di sicurezza [non](https://arxiv.org/abs/2105.14565) ricevono affatto un [CVE](https://en.wikipedia.org/wiki/Common_Vulnerabilities_and_Exposures) (in particolare i software meno diffusi) e quindi non vengono inserite nella distribuzione con questo modello di patch. Di conseguenza, le correzioni di sicurezza minori vengono talvolta rimandate alla successiva versione principale.
+Per le distribuzioni congelate come [Debian](https://www.debian.org/security/faq#handling), i manutentori dei pacchetti dovrebbero effettuare il backport delle patch per correggere le vulnerabilità, piuttosto che portare il software alla "versione successiva", rilasciata dallo sviluppatore a monte. Alcune correzioni di sicurezza [non](https://arxiv.org/abs/2105.14565) ricevono affatto un [CVE](https://en.wikipedia.org/wiki/Common_Vulnerabilities_and_Exposures) (software particolarmente meno diffuso) e, dunque, non arrivano alla distribuzione con questo modello di patch. Di conseguenza, talvolta, le correzioni di sicurezza minori sono rimandate alla versione principale successiva.
 
-Non crediamo che trattenere i pacchetti e applicare patch provvisorie sia una buona idea, in quanto si discosta dal modo in cui lo sviluppatore avrebbe voluto far funzionare il software. [Richard Brown](https://rootco.de/aboutme/) ha una presentazione al riguardo:
+Non crediamo che trattenere i pacchetti e applicare patch provvisorie sia una buona idea, poiché si discosta dal modo in cui lo sviluppatore avrebbe voluto che il software funzionasse. [Richard Brown](https://rootco.de/aboutme/) ha una presentazione a riguardo:
 
 <div class="yt-embed">
   <iframe width="560" height="315" src="https://invidious.privacyguides.net/embed/i8c0mg_mS7U?local=true" title="I rilasci regolari sono sbagliati, quelli continui sono superiori" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
@@ -40,13 +40,13 @@ Non crediamo che trattenere i pacchetti e applicare patch provvisorie sia una bu
 
 ### Aggiornamenti tradizionali vs Atomici
 
-Tradizionalmente, le distribuzioni Linux si aggiornano con l'aggiornamento in sequenza dei pacchetti desiderati. Gli aggiornamenti tradizionali, come quelli utilizzati nelle distribuzioni basate su Fedora, Arch Linux e Debian possono essere meno affidabili se si dovesse verificare un errore durante l'aggiornamento.
+Tradizionalmente, le distribuzioni di Linux si aggiornano tramite l'aggiornamento sequenziale dei pacchetti desiderati. Gli aggiornamenti tradizionali, come quelli utilizzati sulle distribuzioni basate su Fedora, Arch Linux e Debian, possono essere meno affidabili se si verifica un errore durante l'aggiornamento.
 
-Le distribuzioni che utilizzano aggiornamenti atomici applicano gli aggiornamenti per intero o non li applicano affatto. Di solito, i sistemi ad aggiornamento transazionali sono anche atomici.
+Le distribuzioni ad aggiornamento atomico applicano gli aggiornamenti completi, o non li applicano affatto. Tipicamente, i sistemi di aggiornamento transazionali sono anch'essi atomici.
 
-Un sistema ad aggiornamento transazionale crea un'istantanea prima e dopo l'applicazione di un aggiornamento. Se un aggiornamento dovesse fallire per un qualsiasi motivo (magari per un'interruzione di corrente), è possibile ripristinare facilmente l'aggiornamento "all'ultimo stato valido."
+Un sistema di aggiornamento transazionale crea un'istantanea prim e dopo l'applicazione di un aggiornamento. Se un aggiornamento fallisce in qualsiasi momento (forse a causa di un guasto elettrico), l'aggiornamento è facilmente ripristinabile a un "ultimo buono stato noto."
 
-Il metodo di aggiornamento Atomico viene utilizzato su distribuzioni immutabili come Silverblue, Tumbleweed, e NixOS e possono raggiungere l'affidabilità con questo modello. [Adam Šamalík](https://twitter.com/adsamalik) ha fornito una presentazione su come funziona `rpm-ostree` con Silverblue:
+Il modello d'aggiornamento Atomico è utilizzato per le distribuzioni immutabili come Silverblue, Tumbleweed e NixOS e può ottenere affidabilità con tale modello. [Adam Šamalík](https://twitter.com/adsamalik) ha fornito una presentazione sul funzionamento di `rpm-ostree` con Silverblue:
 
 <div class="yt-embed">
   <iframe width="560" height="315" src="https://invidious.privacyguides.net/embed/-hpV5l-gJnQ?local=true" title="Proviamo Fedora Silverblue — Un sistema operativo desktop immutabile! - Adam Šamalik" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
@@ -54,13 +54,13 @@ Il metodo di aggiornamento Atomico viene utilizzato su distribuzioni immutabili 
 
 ### Distribuzioni "Incentrate sulla sicurezza"
 
-Spesso si fa confusione tra distribuzioni "incentrate sulla sicurezza" e distribuzioni "pentesting". Una rapida ricerca per "la distribuzione Linux più sicura" darà spesso risultati come Kali Linux, Black Arch e Parrot OS. Queste distribuzioni sono distribuzioni per effettuare test di penetrazione offensivi che offrono strumenti per testare altri sistemi. Non includono nessuna "sicurezza aggiuntiva" o misure di sicurezza destinate ad un utilizzo regolare.
+Spesso si fa confusione tra distribuzioni "incentrate sulla sicurezza" e distribuzioni di "pentesting". Una rapida ricerca per la "distribuzione Linux più sicura", restituirà spesso risultati come Kali Linux, Black Arch e Parrot OS. Queste distribuzioni sono distribuzioni testate contro la penetrazione offensiva che impacchettano strumenti per testare altri sistemi. Non includono nessuna "ulteriore sicurezza" o mitigazione difensiva intesa per l'utilizzo regolare.
 
 ### Distribuzioni basate su Arch
 
-Le distribuzioni basate su Arch sono sconsigliate per chi è alle prime armi con Linux, (indipendentemente dalla distribuzione) poiché richiedono una regolare [manuntenzione del sistema](https://wiki.archlinux.org/title/System_maintenance). Arch non dispone di un meccanismo di aggiornamento della distribuzione per le scelte software sottostanti. Di conseguenza, devi tenerti aggiornato circa le tendenze attuali e adottare nuove tecnologie man mano che sostituiscono le vecchie pratiche.
+Le distribuzioni basate su Arch sono sconsigliate per coloro che sono alle prime armi con Linux, (indipendentemente dalla distribuzione), poiché richiedono una regolare [manuntenzione del sistema](https://wiki.archlinux.org/title/System_maintenance). Arch non dispone di un meccanismo d'aggiornamento della distribuzione per le scelte software sottostanti. Di conseguenza, devi tenerti aggiornato con le tendenze attuali e adottare tecnologie, a mano a mano che sostituiscono le vecchie pratiche.
 
-Per avere un sistema sicuro, ci si aspetta che tu abbia una sufficiente conoscenza di Linux per configurare correttamente la sicurezza del proprio sistema, come ad esempio l'adozione di un [sistema di controllo degli accessi obbligatorio](https://en.wikipedia.org/wiki/Mandatory_access_control), l'impostazione di [blacklist dei moduli del kernel](https://en.wikipedia.org/wiki/Loadable_kernel_module#Security), rendere più efficaci i parametri di avvio, la manipolazione dei parametri [sysctl](https://en.wikipedia.org/wiki/Sysctl) e la conoscenza dei componenti necessari, come [Polkit](https://en.wikipedia.org/wiki/Polkit).
+Per avere un sistema sicuro, si suppone che tu abbia una conoscenza sufficiente di Linux per configurarne adeguatamente la sicurezza, come adottando un sistema di [controllo obbligatorio dell'accesso](https://en.wikipedia.org/wiki/Mandatory_access_control), configurando liste nere del [modulo del kernel](https://en.wikipedia.org/wiki/Loadable_kernel_module#Security), rafforzando la sicurezza dei parametri d'avvio, manipolando i parametri [sysctl](https://en.wikipedia.org/wiki/Sysctl) e conoscendo quali componenti necessitano, come [Polkit](https://en.wikipedia.org/wiki/Polkit).
 
 Chiunque utilizzi la [Arch User Repository (AUR)](https://wiki.archlinux.org/title/Arch_User_Repository), **deve** essere a proprio agio nel verificare i PKGBUILDs che installano da quel servizio. I pacchetti AUR sono contenuti sviluppati dalla community e non sono controllati in alcun modo, e quindi sono vulnerabili ad attacchi alla catena del valore del software, cosa che in effetti è accaduta [in passato](https://www.bleepingcomputer.com/news/security/malware-found-in-arch-linux-aur-package-repository/). AUR dovrebbe essere sempre usato con parsimonia e spesso ci sono molti consigli pessimi su varie pagine che indirizzano le persone ad usare ciecamente gli [ helper AUR ](https://wiki.archlinux.org/title/AUR_helpers) senza sufficienti avvertimenti. Avvertenze simili si applicano all'utilizzo di archivi di pacchetti personali (PPA) di terze parti su distribuzioni basate su Debian o di progetti comunitari (COPR) su Fedora.
 

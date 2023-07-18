@@ -152,7 +152,7 @@ Mailbox.org имеет функцию цифрового наследия для
 
 ## Дополнительные провайдеры
 
-Эти провайдеры хранят твою электронную почту с помощью шифрования с нулевым знанием, что делает их отличными вариантами для безопасного хранения твоей электронной почты. However, they don't support interoperable encryption standards for E2EE communications between different providers.
+Эти провайдеры хранят твою электронную почту с помощью шифрования с нулевым знанием, что делает их отличными вариантами для безопасного хранения твоей электронной почты. Однако они не поддерживают совместимые между различными провайдерами стандарты шифрования для E2EE коммуникаций.
 
 <div class="grid cards" markdown>
 
@@ -186,31 +186,31 @@ Skiff прошел несколько [аудитов](https://skiff.com/transpa
 
 С бесплатным тарифным планом вам доступно до 3 дополнительных псевдонимов электронной почты (с доменом @skiff.com) в дополнении к вашему главному почтовому адресу. [Пользовательские домены](https://skiff.com/blog/custom-domain-setup) позволяют создавать неограниченное количество псевдонимов, но они доступны только на тарифном плане Pro или Business.
 
-#### :material-alert-outline:{ .pg-orange } Private Payment Methods
+#### :material-alert-outline:{ .pg-orange } Конфиденциальные способы оплаты
 
-Skiff Mail accepts cryptocurrency payments via Coinbase Commerce, including Bitcoin and Ethereum, but they do not accept our recommended [cryptocurrency](cryptocurrency.md), Monero. Они также принимают платежи по кредитным картам с помощью Stripe.
+Skiff Mail принимает криптовалютные платежи с помощью Coinbase Commerce, включая Bitcoin и Ethereum, но они не принимают рекомендуемую нами [криптовалюту](cryptocurrency.md) Monero. Они также принимают платежи по кредитным картам с помощью Stripe.
 
 #### :material-check:{ .pg-green } Безопасность аккаунта
 
-Skiff Mail поддерживает двухфакторную аутентификацию TOTP и аппаратные ключи безопасности с использованием стандартов FIDO2 или U2F. The use of a hardware security key requires setting up TOTP two-factor authentication first.
+Skiff Mail поддерживает двухфакторную аутентификацию TOTP и аппаратные ключи безопасности с использованием стандартов FIDO2 или U2F. Использование аппаратного ключа безопасности сначала требует настройки двухфакторной аутентификации TOTP.
 
 #### :material-check:{ .pg-green } Безопасность данных
 
-Skiff Mail has zero access encryption at rest for all of your data. Это означает, что сообщения и другие данные, хранящиеся на твоём аккаунте, доступны для чтения только тебе.
+Skiff Mail предоставляет шифрование с нулевым доступом в состоянии покоя для всех ваших данных. Это означает, что сообщения и другие данные, хранящиеся на твоём аккаунте, доступны для чтения только тебе.
 
 #### :material-information-outline:{ .pg-blue } Шифрование электронной почты
 
-Skiff Mail does not use OpenPGP. Emails are only encrypted with E2EE to other Skiff Mail users. Skiff does not have a "temporary inbox" or "passworded email" feature like some other providers have, so that external users cannot receive or reply to messages with E2EE.
+Skiff Mail не использует OpenPGP. С помощью E2EE шифруются только сообщения, отправленные другим пользователям Skiff Mail. В Skiff нет функций "временный ящик" или "письмо с паролем", как у некоторых других провайдеров, поэтому внешние пользователи не могут получать и отвечать на сообщения с помощью E2EE.
 
 #### :material-information-outline:{ .pg-blue } Блокировка аккаунта
 
-Skiff Mail accounts do not expire, but unpaid accounts will be prompted to remove any enabled paid features (such as additional aliases) or renew their plan before the account can be used.
+Срок действия аккаунтов Skiff Mail не истекает, однако неоплаченным учетным записям будет предложено удалить все включенные платные функции (например, дополнительные псевдонимы) или продлить тарифный план, прежде чем учетной записью снова можно будет пользоваться.
 
 #### :material-information-outline:{ .pg-blue } Дополнительная функциональность
 
-Skiff additionally offers [workspace productivity features](https://discuss.privacyguides.net/t/skiff-pages-drive-productivity-tools/11758/13), but we still prefer [alternative](productivity.md) options for collaborating and file sharing at this time.
+Skiff дополнительно предлагает [функции повышения производительности рабочего пространства](https://discuss.privacyguides.net/t/skiff-pages-drive-productivity-tools/11758/13), но на данный момент мы предпочитаем [альтернативные](productivity.md) варианты совместной работы и обмена файлами.
 
-Skiff Mail does not offer a digital legacy feature.
+Skiff Mail не предлагает функцию цифрового наследия.
 
 ### Tutanota
 

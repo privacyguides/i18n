@@ -1,5 +1,5 @@
 ---
-title: macOS Overview
+title: macOS 簡介
 icon: material/apple-finder
 description: macOS is Apple's desktop operating system that works with their hardware to provide strong security.
 ---
@@ -48,7 +48,7 @@ There are a number of built-in settings you should confirm or change to harden y
 
 - [ ] Uncheck **Bluetooth** (unless you are currently using it)
 
-#### Network
+#### 網路
 
 Depending on if you are using **Wi-Fi** or **Ethernet** (denoted by a green dot and the word "connected"), click on the corresponding icon.
 
@@ -56,25 +56,25 @@ Click on the "Details" button by your network name:
 
 - [x] Check **Limit IP address tracking**
 
-##### Firewall
+##### 防火牆
 
 Your firewall blocks unwanted network connections. The stricter your firewall settings are, the more secure your Mac is. However, certain services will be blocked. You should configure your firewall to be as strict as you can without blocking services you use.
 
 - [x] Check **Firewall**
 
-Click the **Options** button:
+點擊 **生成（Generate）** 按鈕。
 
 - [x] Check **Block all incoming connections**
 
 If this configuration is too strict, you can come back and uncheck this. However, macOS will typically prompt you to allow incoming connections for an app if the app requests it.
 
-#### General
+#### 一般設定
 
 By default, your device name will be something like "[your name]'s iMac". Because this name is publicly broadcast on your network, you'll want to change your device name to something generic like "Mac".
 
 Click on **About** and type your desired device name into the **Name** field.
 
-##### Software Updates
+##### 軟體更新
 
 You should automatically install all available updates to make sure your Mac has the latest security fixes.
 
@@ -94,7 +94,7 @@ Click the small :material-information-outline: icon next to **Automatic Updates*
 
 Whenever an application requests a permission, it will show up here. You can decide which applications you want to allow or deny specific permissions.
 
-##### Location Services
+##### 定位服務。
 
 You can individually allow location services per-app. If you don't need apps to use your location, turning off location services entirely is the most private option.
 
@@ -112,7 +112,7 @@ Decide whether you want to share analytics data with Apple and developers.
 
 - [ ] Uncheck **Share iCloud Analytics** (visible if you are signed in to iCloud)
 
-##### Apple Advertising
+##### Apple 廣告
 
 Decide whether you want personalized ads based on your usage.
 
@@ -152,13 +152,13 @@ en1 is the name of the interface you're changing the MAC address for. This might
 
 This will be reset on reboot.
 
-## Security Protections
+## 安全保護
 
 macOS employs defense in depth by relying on multiple layers of software and hardware-based protections, with different properties. This ensures that a failure in one layer does not compromise the system's overall security.
 
-### Software Security
+### 軟體安全
 
-!!! warning
+!!! warning "警告"
 
     macOS allows you to install beta updates. These are unstable and may come with extra telemetry since they're for testing purposes. Because of this, we recommend you avoid beta software in general.
 
@@ -174,17 +174,17 @@ macOS sets certain security restrictions that can't be overridden. These are cal
 
 System Integrity Protection makes critical file locations read-only to protect against modification from malicious code. This is on top of the hardware-based Kernel Integrity Protection that keeps the kernel from being modified in-memory.
 
-#### Application Security
+#### 應用程式安全性
 
-##### App Sandbox
+##### App 沙盒
 
 macOS apps downloaded from the App Store are required to be sandboxed usng the [App Sandbox](https://developer.apple.com/documentation/security/app_sandbox).
 
-!!! warning
+!!! warning "警告"
 
     Software downloaded from outside the official App Store is not required to be sandboxed. You should avoid non-App Store software as much as possible.
 
-##### Antivirus
+##### 防毒軟體
 
 macOS comes with two forms of malware defense:
 
@@ -197,7 +197,7 @@ We recommend against installing third-party antivirus software as they typically
 
 macOS comes with automatic backup software called [Time Machine](https://support.apple.com/HT201250), so you can create encrypted backups to an external or network drive in the event of corrupted/deleted files.
 
-### Hardware Security
+### 硬體安全
 
 Many modern security features in macOS—such as modern Secure Boot, hardware-level exploit mitigation, OS integrity checks, and file-based encryption—rely on Apple silicon, and Apple's newer hardware always has the [best security](https://support.apple.com/guide/security/apple-soc-security-sec87716a080/1/web/1). We only encourage the use of Apple silicon, and not older Intel-based Mac computers or Hackintoshes.
 
@@ -252,4 +252,4 @@ Apple silicon separates each component that requires direct memory access. For e
 
 ## 來源
 
-- [Apple Platform Security](https://support.apple.com/guide/security/welcome/web)
+- [Apple 平台安全](https://support.apple.com/guide/security/welcome/web)

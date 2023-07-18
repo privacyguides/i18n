@@ -152,7 +152,7 @@ Mailbox.org 所有方案都提供了數位遺產功能。 你可以選擇是否�
 
 ## 更多供應商
 
-這些提供商以零知識加密方式儲存您的電子郵件，使其成為保護儲存電子郵件安全的絕佳選擇。 However, they don't support interoperable encryption standards for E2EE communications between different providers.
+這些提供商以零知識加密方式儲存您的電子郵件，使其成為保護儲存電子郵件安全的絕佳選擇。 但是，它們不支持供應商之間可相互操作 E2EE 通信的加密標準。
 
 <div class="grid cards" markdown>
 
@@ -167,50 +167,50 @@ Mailbox.org 所有方案都提供了數位遺產功能。 你可以選擇是否�
 
     ![Skiff Mail logo](assets/img/email/skiff-mail.svg){ align=right }
     
-    **Skiff Mail** is a web based email service with E2EE that began in 2020 that is based in San Francisco with developers worldwide. Accounts start with 10GB of free storage.
+    **Skiff Mail**為 E2EE 網頁版電子郵件服務，它們從 2020 年以美國舊金山為基地推廣給全世界的開發者。 免費帳戶提供 10GB 容量。
     
     [:octicons-home-16: Homepage](https://skiff.com/mail){ .md-button .md-button--primary }
     [:octicons-eye-16:](https://app.skiff.com/docs/db93c237-84c2-4b2b-9588-19a7cd2cd45a#tyGksN9rkqbo2uGYASxsA6HVLjUoly/wTYK8tncTto8=){ .card-link title="Privacy Policy" }
     [:octicons-info-16:](https://skiff.com/help){ .card-link title=Documentation}
     [:octicons-code-16:](https://github.com/skiff-org/skiff-apps){ .card-link title="Source Code" }
     
-    ??? downloads
+    ??? downloads "下載"
     
         - [:simple-android: Android](https://play.google.com/store/apps/details?id=com.skemailmobileapp&pli=1)
         - [:simple-appstore: iOS](https://apps.apple.com/us/app/skiff-mail/id1619168801)
         - [:octicons-browser-16: Web](https://app.skiff.com/mail)
 
-Skiff has undergone a few [audits](https://skiff.com/transparency) during its development.
+Skiff 在其開發期間曾進行多次[審計](https://skiff.com/transparency) 。
 
 #### :material-check:{ .pg-green } Custom Domains and Aliases
 
-You can create up to 3 additional @skiff.com email aliases in addition to your primary account address on their free plan. [Custom domains](https://skiff.com/blog/custom-domain-setup) are available on their Pro or Business plan, and allow you to create unlimited aliases.
+免費方案中，用戶可在主帳戶外，建立另外 3 個 @skiff.com 別名。 [自定域名](https://skiff.com/blog/custom-domain-setup)功能須使用付費的 Pro 或商用方案，其也提供無上限的別名服務。
 
-#### :material-alert-outline:{ .pg-orange } Private Payment Methods
+#### :material-alert-outline:{ .pg-orange } 私密付款方式
 
-Skiff Mail accepts cryptocurrency payments via Coinbase Commerce, including Bitcoin and Ethereum, but they do not accept our recommended [cryptocurrency](cryptocurrency.md), Monero. They also accept credit card payments via Stripe.
+Skiff Mail 可利用 Coinbase Commerce 收取加密貨幣付款，包括比特幣和乙太幣， 他們並未接受我們所推薦的 [加密貨幣](cryptocurrency.md): Monero。 他們也接受 Stripe 的信用卡付款。
 
 #### :material-check:{ .pg-green } 帳戶安全
 
-Skiff Mail supports TOTP two-factor authentication and hardware security keys using FIDO2 or U2F standards. The use of a hardware security key requires setting up TOTP two-factor authentication first.
+Skiff Mail 支援 TOTP 雙因子驗證與使用 FIDO2 或 U2F 標準的硬體安全金鑰。 使用硬體安全金鑰需要先設定 TOTP 雙因素驗證。
 
 #### :material-check:{ .pg-green } 資料安全
 
-Skiff Mail has zero access encryption at rest for all of your data. 這意味著儲存在您帳戶中的訊息和其他資料只有您能讀取。
+Skiff Mail 對用戶資料提供全程零存取加密。 這意味著儲存在您帳戶中的訊息和其他資料只有您能讀取。
 
 #### :material-information-outline:{ .pg-blue } 電子郵件加密
 
-Skiff Mail does not use OpenPGP. Emails are only encrypted with E2EE to other Skiff Mail users. Skiff does not have a "temporary inbox" or "passworded email" feature like some other providers have, so that external users cannot receive or reply to messages with E2EE.
+Skiff Mail 不用 OpenPGP。 電子郵件僅 利用E2EE 加密給其它的 Skiff Mail 用戶。 Skiff 沒有 "臨時信箱" 或 "郵件密碼保護" 功能，因此外部非 Skiff 用戶無法收取或回覆 E2EE 的訊息。
 
 #### :material-information-outline:{ .pg-blue } 帳戶終止
 
-Skiff Mail accounts do not expire, but unpaid accounts will be prompted to remove any enabled paid features (such as additional aliases) or renew their plan before the account can be used.
+Skiff Mail 帳戶不會過期，但免費版將會提醒將移除某些啟用的付費功能(例如額外的別) 或更新帳戶升級。
 
 #### :material-information-outline:{ .pg-blue } 額外功能
 
-Skiff additionally offers [workspace productivity features](https://discuss.privacyguides.net/t/skiff-pages-drive-productivity-tools/11758/13), but we still prefer [alternative](productivity.md) options for collaborating and file sharing at this time.
+Skiff 額外提供 [工作空間生產效率功能s](https://discuss.privacyguides.net/t/skiff-pages-drive-productivity-tools/11758/13)，不過我們還是更偏好 [a替代](productivity.md)選項來進行協作與分享。
 
-Skiff Mail does not offer a digital legacy feature.
+Skiff Mail 不提供數位遺產功能。
 
 ### Tutanota
 
@@ -380,7 +380,7 @@ SimpleLogin 在  2022年4 月 8 日被 [ Proton AG](https://proton.me/news/proto
     [:octicons-code-16:](https://github.com/mailcow/mailcow-dockerized){ .card-link title="Source Code" }
     [:octicons-heart-16:](https://www.servercow.de/mailcow?lang=en#sal){ .card-link title=Contribute }
 
-!!! recommendation
+!!! 推薦
 
     ![Mail-in-a-Box logo](assets/img/email/mail-in-a-box.svg){ align = right }
     

@@ -1,51 +1,51 @@
 #The strings in these files need to be copied MANUALLY to /config/mkdocs.LANG.yml
 #This file exists just so these strings can be originally translated on Crowdin.
 config:
-  description: Privacy Guides is your central privacy and security resource to protect yourself online.
+  description: Privacy Guides estas via ĉefa privateca kaj sekureca resurso por protekti vin enrete.
   copyright:
     - 
       1: |
-         Privacy Guides is a non-profit, socially motivated website that provides information for protecting your data security and privacy.
+         Privacy Guides estas senprofita, socie motivita retejo kiu donas informon por protekti la sekurecon kaj privatecon de viaj datumoj.
     - 
       2: |
-         We do not make money from recommending certain products, and we do not use affiliate links.
+         Ni ne gajnas monon pro la rekomendado de specifaj produktoj, kaj ni ne uzas filiajn ligilojn.
     - 
       3: |
-         Privacy Guides and contributors.
+         Privacy Guides kaj kontribuantoj.
     - 
       4: |
-         Content licensed under CC BY-ND 4.0.
+         Enhavo licencita sub CC BY-ND 4.0.
   feedback:
-    question: Was this page helpful?
-    yes: This page was helpful
-    yes-note: Thanks for your feedback!
-    no: This page could be improved
+    question: Ĉu ĉi tiu paĝo estas helpa?
+    yes: Ĉi tiu paĝo estas helpa
+    yes-note: Dankon pro via retroago!
+    no: Ĉi tiu paĝo povas pliboniĝi
     no-note: |
-      Thanks for your feedback! Help us improve this page by opening a discussion on our forum.
+      Dankon pro via retroago! Helpu nin plibonigi ĉi tiu paĝo per komenci diskuton en nia forumo.
   theme:
-    dark: Switch to dark mode
-    light: Switch to light mode
-    system: Switch to system theme
+    dark: Ŝanĝi al la malluma reĝimo
+    light: Ŝanĝi al la luma reĝimo
+    system: Ŝanĝi al la sistema reĝimo
 nav:
-  Home: Home
-  Knowledge Base: Knowledge Base
-  Technology Essentials: Technology Essentials
-  Operating Systems: Operating Systems
-  Advanced Topics: Advanced Topics
-  Recommendations: Recommendations
-  Internet Browsing: Internet Browsing
-  Providers: Providers
-  Software: Software
-  About: About
-  Community: Community
-  Online Services: Online Services
-  Code of Conduct: Code of Conduct
-  Contributing: Contributing
-  Writing Guide: Writing Guide
-  Technical Guides: Technical Guides
-  Changelog: Changelog
-  Forum: Forum
-  Blog: Blog
+  Home: Ĉefpaĝo
+  Knowledge Base: Sciujo
+  Technology Essentials: Teknologiaj Bezonaĵoj
+  Operating Systems: Operaciumoj
+  Advanced Topics: Altgradaj Temoj
+  Recommendations: Rekomendaĵoj
+  Internet Browsing: Retumado
+  Providers: Provizantoj
+  Software: Programaro
+  About: Pri
+  Community: Komunumo
+  Online Services: Enretaj Servicoj
+  Code of Conduct: Konduktkodo
+  Contributing: Kontribuado
+  Writing Guide: Skriba Gvidilo
+  Technical Guides: Teknikaj Gvidiloj
+  Changelog: Ŝanĝprotokolo
+  Forum: Forumo
+  Blog: Blogo
 site:
   homepage_card: |
     A socially motivated website which provides information about protecting your online data privacy and security.

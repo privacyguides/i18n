@@ -1,12 +1,12 @@
 ---
-meta_title: "Remove PII with Metadata Scrubbers and Data Redaction Tools - Privacy Guides"
-title: "Data and Metadata Redaction"
+meta_title: "Hapus PII dengan Penghapus Metadata dan Alat Peyunting Data - Privacy Guides"
+title: "Penyuntingan Data dan Metadata"
 icon: material/tag-remove
-description: Use these tools to remove metadata like GPS location and other identifying information from photos and files you share.
+description: Gunakan alat bantu ini untuk menghapus metadata seperti lokasi GPS dan informasi identifikasi lainnya dari foto dan file yang Anda bagikan.
 cover: data-redaction.png
 ---
 
-When sharing files, be sure to remove associated metadata. Image files commonly include [Exif](https://en.wikipedia.org/wiki/Exif) data. Photos sometimes even include GPS coordinates in the file metadata.
+Saat berbagi file, pastikan untuk menghapus metadata terkait. File gambar biasanya menyertakan data [Exif](https://en.wikipedia.org/wiki/Exif). Foto terkadang bahkan menyertakan koordinat GPS dalam metadata file.
 
 ## Desktop
 
@@ -14,11 +14,11 @@ When sharing files, be sure to remove associated metadata. Image files commonly 
 
 !!! recommendation
 
-    ![MAT2 logo](assets/img/data-redaction/mat2.svg){ align=right }
+    ![Logo MAT2](assets/img/data-redaksi/mat2.svg){ align=right }
     
-    **MAT2** is free software, which allows the metadata to be removed from image, audio, torrent, and document file types. It provides both a command line tool and a graphical user interface via an [extension for Nautilus](https://0xacab.org/jvoisin/mat2/-/tree/master/nautilus), the default file manager of [GNOME](https://www.gnome.org), and [Dolphin](https://0xacab.org/jvoisin/mat2/-/tree/master/dolphin), the default file manager of [KDE](https://kde.org).
+    **MAT2** adalah perangkat lunak gratis, yang memungkinkan metadata dihapus dari jenis file gambar, audio, torrent, dan dokumen. Nautilus menyediakan alat bantu baris perintah dan antarmuka pengguna grafis melalui [ekstensi untuk Nautilus] (https://0xacab.org/jvoisin/mat2/-/tree/master/nautilus), pengelola berkas default dari [GNOME](https://www.gnome.org), dan [Dolphin](https://0xacab.org/jvoisin/mat2/-/tree/master/dolphin), pengelola berkas default dari [KDE](https://kde.org).
     
-    On Linux, a third-party graphical tool [Metadata Cleaner](https://gitlab.com/rmnvgr/metadata-cleaner) powered by MAT2 exists and is [available on Flathub](https://flathub.org/apps/details/fr.romainvigier.MetadataCleaner).
+    Di Linux, alat grafis pihak ketiga [Metadata Cleaner] (https://gitlab.com/rmnvgr/metadata-cleaner) yang didukung oleh MAT2 ada dan [tersedia di Flathub] (https://flathub.org/apps/details/fr.romainvigier.MetadataCleaner).
     
     [:octicons-repo-16: Repository](https://0xacab.org/jvoisin/mat2){ .md-button .md-button--primary }
     [:octicons-info-16:](https://0xacab.org/jvoisin/mat2/-/blob/master/README.md){ .card-link title=Documentation}
@@ -31,17 +31,17 @@ When sharing files, be sure to remove associated metadata. Image files commonly 
         - [:simple-linux: Linux](https://pypi.org/project/mat2)
         - [:octicons-globe-16: Web](https://0xacab.org/jvoisin/mat2#web-interface)
 
-## Mobile
+## Handphone
 
 ### ExifEraser (Android)
 
 !!! recommendation
 
-    ![ExifEraser logo](assets/img/data-redaction/exiferaser.svg){ align=right }
+    ![Logo ExifEraser](assets/img/data-redaksi/exiferaser.svg){ align=right }
     
-    **ExifEraser** is a modern, permissionless image metadata erasing application for Android.
+    **ExifEraser** adalah aplikasi penghapus metadata gambar modern tanpa izin untuk Android.
     
-    It currently supports JPEG, PNG and WebP files.
+    Saat ini mendukung file JPEG, PNG dan WebP.
     
     [:octicons-repo-16: Repository](https://github.com/Tommy-Geenexus/exif-eraser){ .md-button .md-button--primary }
     [:octicons-info-16:](https://github.com/Tommy-Geenexus/exif-eraser#readme){ .card-link title=Documentation}
@@ -53,34 +53,34 @@ When sharing files, be sure to remove associated metadata. Image files commonly 
         - [:octicons-moon-16: Accrescent](https://accrescent.app/app/com.none.tom.exiferaser)
         - [:simple-github: GitHub](https://github.com/Tommy-Geenexus/exif-eraser/releases)
 
-The metadata that is erased depends on the image's file type:
+Metadata yang dihapus, bergantung pada jenis file gambar:
 
-* **JPEG**: ICC Profile, Exif, Photoshop Image Resources and XMP/ExtendedXMP metadata will be erased if it exists.
-* **PNG**: ICC Profile, Exif and XMP metadata will be erased if it exists.
-* **WebP**: ICC Profile, Exif and XMP metadata will be erased if it exists.
+* **JPEG**: Profil ICC, Exif, Sumber Daya Gambar Photoshop, dan metadata XMP/ExtendedXMP akan dihapus jika ada.
+* **PNG**: Profil ICC, metadata Exif dan XMP akan dihapus jika ada.
+* **WebP**: Profil ICC, Exif dan metadata XMP akan dihapus jika ada.
 
-After processing the images, ExifEraser provides you with a full report about what exactly was removed from each image.
+Setelah memproses gambar, ExifEraser memberi Anda laporan lengkap mengenai apa yang sesungguhnya dihapus dari tiap gambar.
 
-The app offers multiple ways to erase metadata from images. Namely:
+Aplikasi ini menawarkan beberapa cara untuk menghapus metadata dari gambar. Yaitu:
 
-* You can share an image from another application with ExifEraser.
-* Through the app itself, you can select a single image, multiple images at once, or even an entire directory.
-* It features a "Camera" option, which uses your operating system's camera app to take a photo, and then it removes the metadata from it.
-* It allows you to drag photos from another app into ExifEraser when they are both open in split-screen mode.
-* Lastly, it allows you to paste an image from your clipboard.
+* Anda dapat berbagi gambar dari aplikasi lain dengan ExifEraser.
+* Melalui aplikasi itu sendiri, Anda dapat memilih satu gambar, beberapa gambar sekaligus, atau bahkan seluruh direktori.
+* Aplikasi ini memiliki opsi "Kamera", yang menggunakan aplikasi kamera sistem operasi Anda untuk mengambil foto, dan kemudian menghapus metadata dari foto tersebut.
+* Anda dapat menyeret foto dari aplikasi lain ke ExifEraser apabila keduanya terbuka dalam mode layar terbagi.
+* Terakhir, Anda dapat menempelkan gambar dari clipboard Anda.
 
 ### Metapho (iOS)
 
 !!! recommendation
 
-    ![Metapho logo](assets/img/data-redaction/metapho.jpg){ align=right }
+    ![Metapho logo](assets/img/data-redaksi/metapho.jpg){ align=right }
     
-    **Metapho** is a simple and clean viewer for photo metadata such as date, file name, size, camera model, shutter speed, and location.
+    **Metapho** adalah penampil yang sederhana dan bersih untuk metadata foto seperti tanggal, nama file, ukuran, model kamera, kecepatan rana, dan lokasi.
     
     [:octicons-home-16: Homepage](https://zininworks.com/metapho){ .md-button .md-button--primary }
     [:octicons-eye-16:](https://zininworks.com/privacy/){ .card-link title="Privacy Policy" }
     
-    ??? downloads
+    ??? unduhan
     
         - [:simple-appstore: App Store](https://apps.apple.com/us/app/metapho/id914457352)
 
@@ -88,35 +88,35 @@ The app offers multiple ways to erase metadata from images. Namely:
 
 !!! recommendation
 
-    ![PrivacyBlur logo](assets/img/data-redaction/privacyblur.svg){ align=right }
+    ![Logo PrivacyBlur](assets/img/data-redaksi/privacyblur.svg){ align=right }
     
-    **PrivacyBlur** is a free app which can blur sensitive portions of pictures before sharing them online.
+    **PrivacyBlur** adalah aplikasi gratis yang dapat memburamkan bagian gambar yang sensitif sebelum membagikannya secara online.
     
     [:octicons-home-16: Homepage](https://privacyblur.app/){ .md-button .md-button--primary }
-    [:octicons-eye-16:](https://privacyblur.app/privacy.html){ .card-link title="Privacy Policy" }
-    [:octicons-info-16:](https://github.com/MATHEMA-GmbH/privacyblur#readme){ .card-link title=Documentation}
-    [:octicons-code-16:](https://github.com/MATHEMA-GmbH/privacyblur){ .card-link title="Source Code" }
+    [:octicons-eye-16:](https://privacyblur.app/privacy.html){ .card-link title="Kebijakan Privasi" }
+    [:octicons-info-16:](https://github.com/MATHEMA-GmbH/privacyblur#readme){ .card-link title=Dokumentasi}
+    [:octicons-code-16:](https://github.com/MATHEMA-GmbH/privacyblur){ .card-link title="Kode Sumber" }
     
     ??? downloads
     
         - [:simple-googleplay: Google Play](https://play.google.com/store/apps/details?id=de.mathema.privacyblur)
         - [:simple-appstore: App Store](https://apps.apple.com/us/app/privacyblur/id1536274106)
 
-!!! warning
+!!! peringatan
 
-    You should **never** use blur to redact [text in images](https://bishopfox.com/blog/unredacter-tool-never-pixelation). If you want to redact text in an image, draw a box over the text. For this, we suggest apps like [Pocket Paint](https://github.com/Catrobat/Paintroid).
+    Anda *"tidak boleh** menggunakan teknik blur untuk menyamarkan [teks dalam gambar](https://bishopfox.com/blog/unredacter-tool-never-pixelation). Jika Anda ingin menyamarkan teks dalam gambar, gambarlah sebuah kotak di atas teks. Untuk ini, kami menyarankan aplikasi seperti [Pocket Paint](https://github.com/Catrobat/Paintroid).
 
-## Command-line
+## Baris perintah
 
 ### ExifTool
 
 !!! recommendation
 
-    ![ExifTool logo](assets/img/data-redaction/exiftool.png){ align=right }
+    ![Logo ExifTool](assets/img/data-redaksi/exiftool.png){ align=right }
     
-    **ExifTool** is the original perl library and command-line application for reading, writing, and editing meta information (Exif, IPTC, XMP, and more) in a wide variety of file formats (JPEG, TIFF, PNG, PDF, RAW, and more).
+    **ExifTool** adalah library dari perl dan sebuah aplikasi baris perintah untuk membaca, menulis, dan mengedit informasi meta (Exif, IPTC, XMP, dan banyak lagi) dalam berbagai macam format file (JPEG, TIFF, PNG, PDF, RAW, dan banyak lagi).
     
-    It's often a component of other Exif removal applications and is in most Linux distribution repositories.
+    Aplikasi ini sering kali merupakan komponen dari aplikasi penghapus Exif lainnya dan ada di sebagian besar repositori distribusi Linux.
     
     [:octicons-home-16: Homepage](https://exiftool.org){ .md-button .md-button--primary }
     [:octicons-info-16:](https://exiftool.org/faq.html){ .card-link title=Documentation}
@@ -129,19 +129,19 @@ The app offers multiple ways to erase metadata from images. Namely:
         - [:simple-apple: macOS](https://exiftool.org)
         - [:simple-linux: Linux](https://exiftool.org)
 
-!!! example "Deleting data from a directory of files"
+!!! contoh "Menghapus data dari direktori file"
 
     ```bash
     exiftool -all= *.file_extension
     ```
 
-## Criteria
+## Kriteria
 
-**Please note we are not affiliated with any of the projects we recommend.** In addition to [our standard criteria](about/criteria.md), we have developed a clear set of requirements to allow us to provide objective recommendations. We suggest you familiarize yourself with this list before choosing to use a project, and conduct your own research to ensure it's the right choice for you.
+**Harap diperhatikan bahwa kami tidak berafiliasi dengan proyek-proyek yang kami rekomendasikan.** Selain [kriteria standar kami](about/criteria.md), kami telah mengembangkan serangkaian persyaratan yang jelas untuk memungkinkan kami memberikan rekomendasi yang objektif. Kami sarankan Anda membiasakan diri dengan daftar ini sebelum memilih untuk menggunakan sebuah proyek, dan melakukan penelitian sendiri untuk memastikan bahwa itu adalah pilihan yang tepat untuk Anda.
 
-!!! example "This section is new"
+!!! contoh "Bagian ini baru"
 
-    We are working on establishing defined criteria for every section of our site, and this may be subject to change. If you have any questions about our criteria, please [ask on our forum](https://discuss.privacyguides.net/latest) and don't assume we didn't consider something when making our recommendations if it is not listed here. There are many factors considered and discussed when we recommend a project, and documenting every single one is a work-in-progress.
+    Kami sedang berupaya menetapkan kriteria yang jelas untuk setiap bagian dari situs kami, dan hal ini dapat berubah sewaktu-waktu. Jika Anda memiliki pertanyaan mengenai kriteria kami, silakan [tanyakan di forum](https://discuss.privacyguides.net/latest) dan jangan berasumsi bahwa kami tidak mempertimbangkan sesuatu saat membuat rekomendasi jika tidak tercantum di sini. Ada banyak faktor yang dipertimbangkan dan didiskusikan saat kami merekomendasikan sebuah proyek, dan mendokumentasikan setiap faktor tersebut merupakan sebuah pekerjaan yang sedang berjalan.
 
-- Apps developed for open-source operating systems must be open-source.
-- Apps must be free and should not include ads or other limitations.
+- Aplikasi yang dikembangkan untuk sistem operasi sumber terbuka haruslah sumber terbuka.
+- Aplikasi harus gratis dan tidak boleh menyertakan iklan atau batasan lainnya.

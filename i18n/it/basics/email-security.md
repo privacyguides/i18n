@@ -1,42 +1,42 @@
 ---
-meta_title: "Perché l'email non è la scelta migliore per la privacy e la sicurezza - Privacy Guides"
-title: Sicurezza email
+meta_title: "Perché l'Email Non È la Scelta Migliore per Privacy e Sicurezza - Privacy Guides"
+title: Sicurezza dell'Email
 icon: material/email
-description: La posta elettronica è intrinsecamente insicura sotto molti punti di vista e questi sono alcuni dei motivi per cui non è la nostra scelta principale per le comunicazioni sicure.
+description: L'email è intrinsecamente non sicura in molti modi; ecco alcune delle motivazioni per cui non è la nostra scelta principale per le comunicazioni sicure.
 ---
 
-L'e-mail è una forma di comunicazione insicura per impostazione predefinita. È possibile migliorare la sicurezza delle e-mail con strumenti come OpenPGP, che aggiungono la crittografia end-to-end ai messaggi, ma OpenPGP presenta ancora una serie di svantaggi rispetto alla crittografia di altre applicazioni di messaggistica e alcuni dati delle e-mail non possono mai essere crittografati intrinsecamente a causa del modo in cui le e-mail sono progettate.
+L'email è una forma non sicura di comunicazione di default. Puoi migliorare la sicurezza della tua email con strumenti come OpenPGP, che aggiunge la Crittografia End-to-End ai tuoi messaggi; tuttavia, OpenPGP, presenta ancora numerosi svantaggi rispetto alla crittografia su altre applicazioni di messaggistica e, alcuni dati email, non possono mai essere intrinsecamente crittografati, a causa della progettazione dell'email.
 
-Di conseguenza, l'e-mail è utilizzata al meglio per ricevere e-mail transazionali (come notifiche, e-mail di verifica, reimpostazione della password e così via) dai servizi a cui ci si iscrive online, non per comunicare con gli altri.
+Di conseguenza, l'email è utilizzata meglio per ricevere email di transazione (quali notifiche, email di verifica, ripristini di password, etc.) dai servizi cui ti iscrivi online, non per comunicare con gli altri.
 
-## Panoramica sulla crittografia delle email
+## Panoramica sulla crittografia delle Email
 
-Il modo standard per aggiungere l'E2EE alle e-mail tra diversi provider di posta elettronica è l'utilizzo di OpenPGP. Esistono diverse implementazioni dello standard OpenPGP, le più comuni sono [GnuPG](https://en.wikipedia.org/wiki/GNU_Privacy_Guard) e [OpenPGP.js](https://openpgpjs.org).
+Il metodo standard per aggiungere l'E2EE alle email tra diversi fornitori email è utilizzando OpenPGP. Esistono svariate implementazioni dello standard OpenPGP; le più comuni sono [GnuPG](https://en.wikipedia.org/wiki/GNU_Privacy_Guard) e [OpenPGP.js](https://openpgpjs.org).
 
-Esiste un altro standard, molto diffuso nelle aziende, chiamato [S/MIME](https://en.wikipedia.org/wiki/S/MIME), che però richiede un certificato emesso da un'autorità di certificazione [](https://en.wikipedia.org/wiki/Certificate_authority) (non tutte emettono certificati S/MIME). È supportato da [Google Workplace](https://support.google.com/a/topic/9061730?hl=en&ref_topic=9061731) e [Outlook for Web o Exchange Server 2016, 2019](https://support.office.com/en-us/article/encrypt-messages-by-using-s-mime-in-outlook-on-the-web-878c79fc-7088-4b39-966f-14512658f480).
+Esiste un altro standard popolare tra le aziende, detto [S/MIME](https://en.wikipedia.org/wiki/S/MIME), tuttavia, richiede un certificato emesso da un'[Autorità di Certificazione](https://en.wikipedia.org/wiki/Certificate_authority) (non tutte emettono certificati S/MIME). Inoltre, è supportato su [Google Workplace](https://support.google.com/a/topic/9061730?hl=en&ref_topic=9061731) e su [Outlook per Web o Exchaaange Seerver 2016, 2019](https://support.office.com/en-us/article/encrypt-messages-by-using-s-mime-in-outlook-on-the-web-878c79fc-7088-4b39-966f-14512658f480).
 
-Anche se si utilizza OpenPGP, non supporta [forward secrecy](https://en.wikipedia.org/wiki/Forward_secrecy), il che significa che se la chiave privata dell'utente o del destinatario viene rubata, tutti i messaggi precedenti crittografati con essa saranno esposti. Per questo motivo si consiglia di utilizzare la [messaggistica istantanea](../real-time-communication.md) che implementano la segretezza in avanti rispetto alla posta elettronica per le comunicazioni da persona a persona, quando possibile.
+Anche se utilizzi OpenPGP, non supporta la [segretezza in avanti](https://en.wikipedia.org/wiki/Forward_secrecy), il che significa che se la chiave privata tua o del destinatario viene rubata, tutti i messaggi precedentemente crittografati saranno esposti. Ecco perché consigliamo la [messaggistica istantanea](../real-time-communication.md), che implementa la segretezza in avanti via email, per le comunicazioni personali, quando possibile.
 
-### Quali client di posta elettronica supportano E2EE?
+### Quali client email supportano E2EE?
 
-I provider di posta elettronica che consentono di utilizzare protocolli di accesso standard come IMAP e SMTP possono essere utilizzati con uno qualsiasi dei client di posta elettronica [che consigliamo](../email-clients.md). A seconda del metodo di autenticazione, ciò può comportare una riduzione della sicurezza se il provider o il client di posta elettronica non supportano OATH o un'applicazione ponte, poiché [l'autenticazione a più fattori](multi-factor-authentication.md) non è possibile con l'autenticazione con password semplice.
+I fornitori email che ti conseentono di utilizzare i protocolli d'accesso standard come IMAP e SMTP, sono utilizzabili con qualsiasi [client email che consigliamo](../email-clients.md). In base al metodo d'autenticazione, ciò potrebbe comportare una riduzione della sicurezza se il fornitore o il client email non supportano OATH o un'applicazione di collegamento (bridge), poiché l'[autenticazione a più fattori](multi-factor-authentication.md) non è possibile con l'autenticazione con password semplice.
 
-### Come proteggo la mia chiave privata?
+### Come proteggo le mie chiavi private?
 
-Una smartcard (come una [ YubiKey](https://support.yubico.com/hc/en-us/articles/360013790259-Using-Your-YubiKey-with-OpenPGP) o [Nitrokey](https://www.nitrokey.com)) funziona ricevendo un messaggio email criptato da un dispositivo (telefono, tablet, computer, ecc.) con un client email/webmail. Il messaggio viene quindi decifrato dalla smartcard e il contenuto decifrato viene inviato al dispositivo.
+Una smartcard (come [YubiKey](https://support.yubico.com/hc/en-us/articles/360013790259-Using-Your-YubiKey-with-OpenPGP) o [Nitrokey](https://www.nitrokey.com)) opera ricevendo un messaggio email crittografato da un dispositivo (telefono, tablet, computer, etc.), che esegue un client email/webmail. Il messaggio, quindi, viene decrittografato dalla smartcart e il contenuto decrittografato è reinviato al dispositivo.
 
-È preferibile che la decodifica avvenga sulla smartcard, per evitare di esporre la chiave privata a un dispositivo compromesso.
+Il fatto che la decrittografia si verifichi sulla smartcard è vantaggioso per evitare la possibile esposizione della tua chiave privata, a un dispositivo compromesso.
 
 ## Panoramica sui metadati email
 
-I metadati delle e-mail sono memorizzati [nell'header del messaggio](https://en.wikipedia.org/wiki/Email#Message_header) e comprendono alcune intestazioni visibili, come ad esempio: `A`, `Da`, `Cc`, `Data`, `Oggetto`. Ci sono anche una serie di intestazioni nascoste incluse da molti client e provider di posta elettronica che possono rivelare informazioni sul tuo account.
+I metadati dell'email sono memorizzati nell'[intestazione del messaggio](https://en.wikipedia.org/wiki/Email#Message_header) email e includono alcune intestazioni visibili che potresti aver visto, come: `A`, `Da`, `Cc`, `Data`, `Oggetto`. Esistono anche numerose intestazioni nascoste, incluse da molti client e fornitori email, che possono rivelare informazioni sul tuo profilo.
 
-Il software client può utilizzare i metadati delle e-mail per indicare il mittente di un messaggio e l'ora in cui è stato ricevuto. I server possono utilizzarlo per determinare dove deve essere inviato un messaggio e-mail, tra [altri scopi](https://en.wikipedia.org/wiki/Email#Message_header) non sempre trasparenti.
+Il software client potrebbe utilizzare i metadati email per mostrare da chi proviene un messaggo e a che ora è stato ricevuto. I server potrebbero utilizzarlo per determinare dove dev'essere inviato un messaggio email, tra [gli altri scopi](https://en.wikipedia.org/wiki/Email#Message_header) non sempre trasparenti.
 
 ### Chi può visualizzare i metadati delle email?
 
-I metadati delle e-mail sono protetti da osservatori esterni con [Opportunistic TLS](https://en.wikipedia.org/wiki/Opportunistic_TLS), ma sono comunque visibili dal software del client di posta elettronica (o webmail) e da qualsiasi server che inoltra il messaggio dall'utente a qualsiasi destinatario, compreso il provider di posta elettronica. A volte i server di posta elettronica utilizzano anche servizi di terze parti per proteggersi dallo spam, che in genere hanno accesso ai messaggi.
+I metadati dell'email sono protetti dagli osservatori esterni con il [TLS opportunistico](https://en.wikipedia.org/wiki/Opportunistic_TLS), ma sono comunque visualizzabili dal software del tuo client email (o webmail) e da qualsiasi server che trasmetta il messaggio da te a qualsiasi destinatario, incluso il tuo fornitore email. Talvolta i server email utilizzeranno i anche dei servizi di terze parti, per proteggere dallo spam che, generalmente, hanno accesso anche ai tuoi messaggi.
 
-### Perché i metadati non possono essere cifrati E2EE?
+### Perché i metadati non possono essere E2EE?
 
-I metadati delle e-mail sono fondamentali per la funzionalità di base delle e-mail (da dove provengono e dove devono andare). Originariamente l'E2EE non era integrato nei protocolli di posta elettronica, ma richiedeva un software aggiuntivo come OpenPGP. Poiché i messaggi OpenPGP devono ancora funzionare con i provider di posta elettronica tradizionali, non può crittografare i metadati delle e-mail, ma solo il corpo del messaggio stesso. Ciò significa che anche quando si utilizza OpenPGP, gli osservatori esterni possono vedere molte informazioni sui vostri messaggi, come ad esempio chi state inviando, l'oggetto, quando state inviando, ecc.
+I metadati dell'email sono fondamentali per le funzionalità di base dell'email (da dove proviene e dove deve andare). Originariamente, l'E2EE non è stata integrata nei protocolli email, richiedendo piuttosto dei software aggiuntivi, come OpenPGP. Poiché i messaggi di OpenPGP devono continuare a funzionare con i fornitori email tradizionali, esso non può crittografare i metadati email, ma soltanto il corpo del messaggio. Ciò significa che, anche utilizzando OpenPGP, gli osservatori esterni possono visualizzare molte informazioni sui tuoi messaggi, come a chi stai scrivendo, l'oggetto, quando stai inviando l'email, etc.

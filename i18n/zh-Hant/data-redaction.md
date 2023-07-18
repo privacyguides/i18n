@@ -102,7 +102,7 @@ cover: data-redaction.png
         - [:simple-googleplay: Google Play](https://play.google.com/store/apps/details?id=de.mathema.privacyblur)
         - [:simple-appstore: App Store](https://apps.apple.com/us/app/privacyblur/id1536274106)
 
-!!! warning
+!!! warning "警告"
 
     您 **永遠不要** 使用模糊來編輯 [圖片中的文字](https://bishopfox.com/blog/unredacter-tool-never-pixelation)。 如果要編輯影像中的文字，請在文字上畫一個框。 為此，我們建議使用 [Pocket Paint](https://github.com/Catrobat/Paintroid) 等應用程式。
 

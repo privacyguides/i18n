@@ -193,7 +193,7 @@ macOS presenta due forme di difesa dai malware:
 
 Sconsigliamo di installare software antivirus di terze parti, poiché, tipicamente, non hanno accesso a livello di sistema, necessario per funzionare propriamente, a causa di limitazioni di Apple sulle app di terze parti, e poiché garantire gli alti livelli d'accesso da essi richiesti, causa spesso un rischio sulla sicurezza e privacy maggiore al tuo computer.
 
-##### Backups
+##### Backup
 
 macOS presenta un software di backup automatico chiamato [Time Machine](https://support.apple.com/HT201250), così, puoi creare dei backup crittografati su un'unità esterna o di rete, nel caso di file corrotti/eliminati.
 

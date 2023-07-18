@@ -1,17 +1,17 @@
-*[2FA]: Autentikasi 2 Faktor
-*[ADB]: Jembatan Debug Android
-*[AOSP]: Proyek Sumber Terbuka Android
-*[ATA]: Lampiran Teknologi Canggih
-*[permukaan serangan]: Jumlah total titik masuk yang mungkin untuk akses tidak sah ke sistem
-*[AVB]: Boot Terverifikasi Android
+*[2FA]: Autentikasi dua langkah
+*[ADB]: Android Debug Bridge
+*[AOSP]: Android Open Source Project
+*[ATA]: Advanced Technology Attachment
+*[attack surface]: Jumlah total titik masuk yang memungkinkan akses tanpa izin ke dalam sistem
+*[AVB]: Android Verified Boot
 *[cgroups]: Kelompok Kontrol
 *[CLI]: Antarmuka Baris Perintah
 *[CSV]: Nilai yang Dipisahkan dengan Koma
-*[CVE]: Kerentanan dan Paparan Umum
-*[digital legacy feature]: Warisan Digital mengacu pada fitur yang memungkinkan Anda untuk memberikan akses ke data Anda kepada orang lain ketika Anda meninggal dunia
-*[DNSSEC]: Ekstensi Keamanan Sistem Nama Domain
-*[DNS]: Sistem Nama Domain
-*[DoH]: DNS melalui HTTPS
+*[CVE]: Common Vulnerabilities and Exposures
+*[digital legacy feature]: Digital Legacy mengacu pada fitur yang memungkinkan Anda untuk memberikan akses data kepada orang lain ketika Anda meninggal dunia
+*[DNSSEC]: Domain Name System Security Extensions
+*[DNS]: Domain Name System
+*[DoH]: DNS over HTTPS
 *[DoQ]: DNS melalui QUIC
 *[DoH3]: DNS melalui HTTP/3
 *[DoT]: DNS melalui TLS
@@ -20,24 +20,24 @@
 *[EEA]: Wilayah Ekonomi Eropa
 *[entropi]: Sebuah pengukuran tentang bagaimana sesuatu yang tidak dapat diprediksi
 *[EOL]: Akhir Masa Pakai
-*[Exif]: Format berkas gambar yang dapat ditukar
+*[Exif]: Exchangeable image file format
 *[FCM]: Firebase Cloud Messaging
-*[FDE]: Enkripsi Diska Penuh
+*[FDE]: Full Disk Encryption
 *[FIDO]: Fast IDentity Online (Identitas Daring Cepat)
 *[FS]: Forward Secrecy
 *[fork]: Proyek perangkat lunak baru yang dibuat dengan menyalin proyek yang sudah ada dan menambahkannya secara mandiri
-*[GDPR]: Peraturan Perlindungan Data Umum
+*[GDPR]: Peraturan Perlindungan Data Umum (Uni Eropa)
 *[GPG]: GNU Privacy Guard (implementasi PGP)
-*[GPS]: Sistem Pemosisian Global
-*[GUI]: Antarmuka Pengguna Grafis
+*[GPS]: Global Positioning System
+*[GUI]: Graphical User Interface
 *[GnuPG]: GNU Privacy Guard (implementasi PGP)
 *[HDD]: Penyimpanan Hard Disk
-*[HOTP]: Kata sandi sekali pakai berbasis HMAC (kode autentikasi pesan berbasis hash)
-*[HTTPS]: Protokol Transfer Hiperteks Aman
+*[HOTP]: Hash-based Message Authentication Code (kode autentikasi pesan berbasis hash)
+*[HTTPS]: Hypertext Transfer Protocol Secure
 *[HTTP]: Protokol Transfer Hiperteks
-*[hypervisor]: Perangkat lunak, perangkat tegar, atau perangkat keras komputer yang membagi sumber daya CPU di antara beberapa sistem operasi
-*[ICCID]: Pengidentifikasi Kartu Sirkuit Terpadu
-*[IMAP]: Protokol Akses Pesan Internet
+*[hypervisor]: Perangkat lunak, firmware, atau perangkat keras komputer yang membagi sumber daya CPU di antara beberapa sistem operasi
+*[ICCID]: Integrated Circuit Card Identifier
+*[IMAP]: Internet Message Access Protocol
 *[IMEI]: Identitas Peralatan Seluler Internasional
 *[IMSI]: Identitas Pelanggan Seluler Internasional
 *[IP]: Protokol Internet
@@ -53,8 +53,8 @@
 *[MEID]: Pengidentifikasi Peralatan Seluler
 *[MFA]: Autentikasi Multifaktor
 *[NVMe]: Memori Ekspres yang Tidak Mudah Menguap
-*[NAT]: Network address translation
-*[NAT-PMP]: NAT Port Mapping Protocol
+*[NAT]: Penerjemahan alamat jaringan
+*[NAT-PMP]: Protokol Pemetaan Port NAT
 *[NTP]: Protokol Waktu Jaringan
 *[OCI]: Inisiatif Kontainer Terbuka
 *[OCSP]: Protokol Status Sertifikat Daring

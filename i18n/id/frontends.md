@@ -79,7 +79,7 @@ When you are using an instance run by someone else, make sure to read the privac
         - [:simple-linux: Linux](https://freetubeapp.io/#download)
         - [:simple-flathub: Flathub](https://flathub.org/apps/details/io.freetubeapp.FreeTube)
 
-!!! warning
+!!! peringatan
 
     When using FreeTube, your IP address may still be known to YouTube, [Invidious](https://instances.invidious.io) or [SponsorBlock](https://sponsor.ajay.app/) depending on your configuration. Consider using a [VPN](vpn.md) or [Tor](https://www.torproject.org) if your [threat model](basics/threat-modeling.md) requires hiding your IP address.
 
@@ -104,7 +104,7 @@ When you are using an instance run by someone else, make sure to read the privac
         - [:simple-apple: App Store](https://apps.apple.com/us/app/yattee/id1595136629)
         - [:simple-github: GitHub](https://github.com/yattee/yattee/releases)
 
-!!! warning
+!!! peringatan
 
     When using Yattee, your IP address may still be known to YouTube, [Invidious](https://instances.invidious.io), [Piped](https://github.com/TeamPiped/Piped/wiki/Instances) or [SponsorBlock](https://sponsor.ajay.app/) depending on your configuration. Consider using a [VPN](vpn.md) or [Tor](https://www.torproject.org) if your [threat model](basics/threat-modeling.md) requires hiding your IP address.
 
@@ -130,7 +130,7 @@ By default, Yattee blocks all YouTube advertisements. In addition, Yattee option
     
         - [:simple-github: GitHub](https://github.com/libre-tube/LibreTube/releases)
 
-!!! warning
+!!! peringatan
 
     When using LibreTube, your IP address will be visible to the [Piped](https://github.com/TeamPiped/Piped/wiki/Instances) instance you choose and/or [SponsorBlock](https://sponsor.ajay.app/) depending on your configuration. Consider using a [VPN](vpn.md) or [Tor](https://www.torproject.org) if your [threat model](basics/threat-modeling.md) requires hiding your IP address.
 
@@ -158,7 +158,7 @@ By default, LibreTube blocks all YouTube advertisements. Additionally, Libretube
 
 1. The default instance is [FramaTube](https://framatube.org/), however more can be added via **Settings** → **Content** → **PeerTube instances**
 
-!!! warning
+!!! peringatan
 
     When using NewPipe, your IP address will be visible to the video providers used. Consider using a [VPN](vpn.md) or [Tor](https://www.torproject.org) if your [threat model](basics/threat-modeling.md) requires hiding your IP address.
 
@@ -179,7 +179,7 @@ By default, LibreTube blocks all YouTube advertisements. Additionally, Libretube
     [:octicons-code-16:](https://github.com/iv-org/invidious){ .card-link title="Source Code" }
     [:octicons-heart-16:](https://invidious.io/donate/){ .card-link title=Contribute }
 
-!!! warning
+!!! peringatan
 
     Invidious does not proxy video streams by default. Videos watched through Invidious will still make direct connections to Google's servers (e.g. `googlevideo.com`); however, some instances support video proxying—simply enable *Proxy videos* within the instances' settings or add `&local=true` to the URL.
 
@@ -207,17 +207,17 @@ By default, LibreTube blocks all YouTube advertisements. Additionally, Libretube
 
     Piped is useful if you want to use [SponsorBlock](https://sponsor.ajay.app) without installing an extension or to access age-restricted content without an account. It does not provide privacy by itself, and we don’t recommend logging into any accounts.
 
-## Criteria
+## Kriteria
 
-**Please note we are not affiliated with any of the projects we recommend.** In addition to [our standard criteria](about/criteria.md), we have developed a clear set of requirements to allow us to provide objective recommendations. We suggest you familiarize yourself with this list before choosing to use a project, and conduct your own research to ensure it's the right choice for you.
+**Harap diperhatikan bahwa kami tidak berafiliasi dengan proyek-proyek yang kami rekomendasikan.** Selain [kriteria standar kami](about/criteria.md), kami telah mengembangkan serangkaian persyaratan yang jelas untuk memungkinkan kami memberikan rekomendasi yang objektif. Kami sarankan Anda membiasakan diri dengan daftar ini sebelum memilih untuk menggunakan sebuah proyek, dan melakukan penelitian sendiri untuk memastikan bahwa itu adalah pilihan yang tepat untuk Anda.
 
-!!! example "This section is new"
+!!! contoh "Bagian ini baru"
 
-    We are working on establishing defined criteria for every section of our site, and this may be subject to change. If you have any questions about our criteria, please [ask on our forum](https://discuss.privacyguides.net/latest) and don't assume we didn't consider something when making our recommendations if it is not listed here. There are many factors considered and discussed when we recommend a project, and documenting every single one is a work-in-progress.
+    Kami sedang berupaya menetapkan kriteria yang jelas untuk setiap bagian dari situs kami, dan hal ini dapat berubah sewaktu-waktu. Jika Anda memiliki pertanyaan mengenai kriteria kami, silakan [tanyakan di forum](https://discuss.privacyguides.net/latest) dan jangan berasumsi bahwa kami tidak mempertimbangkan sesuatu saat membuat rekomendasi jika tidak tercantum di sini. Ada banyak faktor yang dipertimbangkan dan didiskusikan saat kami merekomendasikan sebuah proyek, dan mendokumentasikan setiap faktor tersebut merupakan sebuah pekerjaan yang sedang berjalan.
 
 Recommended frontends...
 
-- Must be open-source software.
+- Harus berupa perangkat lunak sumber terbuka.
 - Must be self-hostable.
 - Must provide all basic website functionality available to anonymous users.
 

@@ -1,111 +1,111 @@
 ---
-meta_title: "Modelli di minaccia: Il primo passo nel viaggio verso la privacy - Privacy Guides"
+meta_title: "Modelli di Minaccia: Il primo passo del tuo viaggio verso la privacy - Privacy Guides"
 title: "Modelli di minaccia"
 icon: 'material/target-account'
-description: Bilanciare sicurezza, privacy e usabilità è uno dei primi e più difficili obiettivi che dovrete affrontare nel vostro viaggio verso la privacy.
+description: Bilanciare sicurezza, privacy e utilizzabilità è uno dei primi incarichi più difficili che affronterai, nel percorso verso la tua privacy.
 ---
 
-Bilanciare sicurezza, privacy e usabilità è uno dei primi e più difficili obiettivi che dovrete affrontare nel vostro viaggio verso la privacy. Tutto è un compromesso: più qualcosa è sicuro, più è restrittivo o scomodo in generale, ecc. Spesso, le persone scoprono che il problema con gli strumenti che vedono raccomandati è che sono troppo difficili da iniziare a usare!
+Bilanciare sicurezza, privacy e utilizzabilità è uno dei primi incarichi più difficili che affronterai, nel percorso verso la tua privacy. Tutto è un compromesso: più qualcosa è sicuro, più limitante o scomodo è, in generale, etc. Spesso, le persone scoprono che il problema con gli strumenti che vedono consigliati, è che sono semplicemente troppo difficili da utilizzare!
 
-Se si vogliono utilizzare gli strumenti **più** sicuri a disposizione, è necessario sacrificare *molto* in termini di usabilità. E, anche allora, ==nulla è mai completamente sicuro.== C'è un alta **sicurezza**, ma mai una completa **sicurezza**. È per questo che i modelli di minaccia sono importanti.
+Se tu volessi utilizzare gli strumenti **più** sicuri disponibili, dovresti sacrificare *molta* utilizzabilità. E, anche allora, ==nulla è mai completamente sicuro.== L'**alta sicurezza** esiste, ma mai una sicurezza **completa**. Ecco perché i modelli di minaccia sono importanti.
 
 **Ma quindi, quali sono questi modelli di minaccia?**
 
-==Un modello di minaccia è un elenco delle minacce più probabili ai tuoi sforzi per la sicurezza e privacy.== Dal momento che è impossibile proteggersi da **ogni** attacco/attaccante, dovresti concentrarti sulle **minacce più probabili**. Nella sicurezza informatica, una minaccia è un evento che potrebbe minare i tuoi sforzi per mantenere la riservatezza e la sicurezza.
+==Un modello di minaccia è un elenco delle minacce più probabili secondo i tuoi sforzi di sicurezza e privacy.== Poiché è impossibile proteggerti da **ogni** attacco o utente malintenzionato, dovresti incentrarti sulle minacce **più probabili**. Nella sicurezza informatica, una minaccia è un evento che potrebbe minare i tuoi sforzi di rimanere privato e sicuro.
 
-Concentrarsi sulle minacce che contano per te restringe il tuo pensiero sulla protezione di cui hai bisogno, in modo da poter scegliere gli strumenti giusti per il lavoro.
+Concentrarsi sulle minacce che contano per te, restringe il tuo pensiero alla protezione necessaria, così che tu possa scegliere gli strumenti adatti per il lavoro.
 
 ## Creare il tuo modello di minaccia
 
 Per identificare cosa potrebbe accadere alle cose che valorizzi e determinare da chi devi proteggerle, dovresti rispondere a queste cinque domande:
 
-1. Quali sono le cose che voglio proteggere?
-2. Da chi le voglio proteggere?
-3. Quanto è probabile che io abbia bisogno di proteggerle?
-4. Quanto sono catastrofiche le conseguenze se fallisco?
-5. Quanti problemi sono disposto ad affrontare per tentare di prevenire le potenziali conseguenze?
+1. Cosa voglio proteggere?
+2. Da chi voglio proteggerle?
+3. Quanto è probabile che io debba proteggerle?
+4. Quanto sono negative le conseguenze se fallisco?
+5. Quanti problemi sono disposto ad affrontare per provare a prevenire le potenziali conseguenze?
 
-### Quali sono le cose che voglio proteggere?
+### Cosa voglio proteggere?
 
-Un "asset" (risorsa) è qualcosa a cui si dà valore e che si vuole proteggere. Nel contesto della sicurezza digitale, ==un asset è di solito una sorta di informazione.== Ad esempio, le email, gli elenchi di contatti, i messaggi istantanei, la posizione e i file sono tutti asset possibili. Anche gli stessi dispositivi posso essere degli asset.
+Una risorsa è qualcosa che valorizzi e desideri proteggere. Nel contesto della sicurezz digitale, ==una risorsa è solitamente qualche tipo di informazione.== Ad esempio, le tue email, rubriche, messaggi istantanei, posizioni e file, sono tutti possibili risorse. Anche gli stessi dispositivi potrebbero essere considerati tali.
 
-*Stila una lista dei tuoi asset: i dati che conservi, dove li tieni, chi ne ha accesso, e che cosa impedisce agli altri di accedervi.*
+*Stila un elenco delle tue risorse: dati che conservi, dove li mantieni, chi vi ha accesso e cosa impedisce ad altri di accedervi.*
 
-### Da chi le voglio proteggere?
+### Da chi voglio proteggerle?
 
-Per rispondere a questa domanda, è importante identificare chi potrebbe voler prendere di mira te o le tue informazioni. ==Una persona o entità che rappresenta una minaccia per i tuoi beni è un "avversario".== Esempi di potenziali avversari sono il tuo capo, il tuo ex partner, la tua concorrenza commerciale, il tuo governo o un hacker su una rete pubblica.
+Per rispondere a questa domanda, è importante identificare chi potrebbe voler prendere di mira te o le tue informazioni. ==Una persona o entità rappresentante una minaccia per le tue risorse è un "avversario".== Esempi di potenziali avversari sono il tuo capo, il tuo ex collega, la tua competizione aziendale, il tuo governo o un hacker su una rete pubblica.
 
-*Fai un elenco dei tuoi avversari o di coloro che potrebbero voler entrare in possesso dei tuoi asset. Il tuo elenco può comprendere individui, agenzie governative o società.*
+*Crea un elenco dei tuoi avversari o di coloro che potrebbero voler entrare in possesso delle tue risorse. Il tuo elenco può includere individui, agenzie governative o aziende.*
 
-A seconda di chi sono i tuoi avversari, in alcune circostanze, questo elenco potrebbe essere qualcosa che vuoi distruggere dopo aver completato la pianificazione della sicurezza.
+A seconda di chi siano i tuoi avversari, sotto certe circostanze, questo elenco potrebbe essere qualcosa da distruggere, in seguito al completamento della pianificazione sulla sicurezza.
 
-### Quanto è probabile che io abbia bisogno di proteggerle?
+### Quanto è probabile che io debba proteggerle?
 
-== Il rischio è la probabilità che una particolare minaccia contro un determinato asset si verifichi effettivamente.== Va di pari passo con la capacità. Nonostante il tuo provider telefonico sia in grado di accedere a tutti i tuoi dati, il rischio che li pubblichi online per danneggiare la tua reputazione è basso.
+==Il rischio è la probabilità che una minaccia particolare contro una particolare risorsa si verificherà realmente.== Va di pari passo con la capacità. Sebbene il tuo fornitore telefonico sia capace di accedere a tutti i tuoi dati, il rischio che pubblichi i tuoi dati privati online per danneggiare la tua reputazione è basso.
 
-È importante distinguere ciò che potrebbe accadere e la probabilità che accada. Per esempio, c'è il rischio che il tuo edificio crolli, ma è molto più probabile che ciò accada a San Francisco (dove i terremoti sono frequenti) rispetto che a Stoccolma (dove non lo sono).
+È importante distinguere tra ciò che potrebbe verificarsi e la probabilità che si verifichi. Ad esempio, esiste il rischio che il tuo edificio crolli, ma il rischio che si verifichi è molto maggiore a San Francisco (dove i terremoti sono comuni), piuttosto che a Stoccolma (dove non lo sono).
 
-La valutazione dei rischi è un processo personale e soggettivo. Molte persone trovano alcune minacce inaccettabili, non importa la probabilità che si verifichino, perché la semplice presenza della minaccia non vale il costo. In altri casi, le persone ignorano rischi elevati perché non considerano la minaccia un problema.
+La valutazione dei rischi è un procedimento personale e soggettivo. Molte persone trovano inaccettabili alcune minacce, indipendentemente dalla probabilità che si possano verificare, poiché la mera presenza della minaccia non vale il costo. In altri casi, le persone ignorano rischi elevati perché non considerano la minaccia come un problema.
 
-*Scrivi quali minacce prenderai sul serio, e quali sono troppo rare o innocue (o troppo difficili da contrastare) per preoccuparsene.*
+*Annota quali minacce prenderai sul serio e quali potrebbero essere troppo rare o innocue (o troppo difficili da combattere) per preoccuparsene.*
 
-### Quanto sono catastrofiche le conseguenze se fallisco?
+### Quanto sono negative le conseguenze se fallisco?
 
-Ci sono molti modi in cui un avversario può accedere ai tuoi dati. Per esempio, un avversario può leggere le tue comunicazioni private mentre attraversano la rete, o può eliminare o corrompere i tuoi dati.
+Esistono molti modi in cui un avversario potrebbe ottenere l'accesso ai tuoi dati. Ad esempio, un avversario può leggere le tue comunicazioni private mentre passano per la rete, o può eliminare o corrompere i tuoi dati.
 
-==Le motivazioni degli avversari sono molto diverse, così come le loro tattiche.== Un governo che cerca di impedire la diffusione di un video che mostra la violenza della polizia può accontentarsi di cancellare o ridurre la disponibilità di quel video. Al contrario, un avversario politico può desiderare di accedere a contenuti segreti e pubblicarli all'insaputa dell'interessato.
+==Le motivazioni degli avversari differiscono ampiamente, come le loro tattiche.== Un governo che prova a impedire la diffusione di un video che mostra la violenza della polizia, potrebbe essere contenuto, oppure potrebbe semplicemente essere eliminato o ridotto in disponibilità. Al contrario, un rivale politico potrebbe desiderare di ottenere accesso al contenuto segreto e pubblicarlo senza che tu lo sappia.
 
-La pianificazione della sicurezza comporta la comprensione di quanto catastrofiche possono essere le conseguenze se un avversario riesce a impossessarsi di uno dei tuoi asset. Per determinare ciò, dovresti prendere in considerazione la capacità del tuo avversario. Ad esempio, il tuo operatore di telefonia mobile ha accesso a tutti i tuoi record telefonici. Un hacker su una rete Wi-Fi aperta può accedere alle tue comunicazioni non criptate. Il tuo governo potrebbe avere capacità maggiori.
+La pianificazione della sicurezza comporta la comprensione di quanto negative potrebbero essere le conseguenze, se un avversario ottenesse l'accesso a una delle tue risorse. Per determinarle, dovresti considerare le capacità del tuo avversario. Ad esempio, il tuo fornitore di telefonia mobile ha accesso a tutti i tuoi registri telefonici. Un hacker su una rete Wi-Fi può accedere alle tue comunicazioni non crittografate. Il tuo governo potrebbe avere capacità maggiori.
 
-*Scrivi cosa il tuo avversario potrebbe voler fare con i tuoi dati privati.*
+*Annota ciò che il tuo avversario potrebbe voler fare con i tuoi dati privati.*
 
-### Quanti problemi sono disposto ad affrontare per tentare di prevenire le potenziali conseguenze?
+### Quanti problemi sono disposto ad affrontare per provare a prevenire le potenziali conseguenze?
 
-==Non esiste un'opzione perfetta per la sicurezza.== Non tutti hanno le stesse priorità, preoccupazioni o accesso alle risorse. La valutazione dei rischi consentirà di pianificare la giusta strategia per te, bilanciando convenienza, costi e privacy.
+==Non esiste un'opzione perfetta per la sicurezza.== Non tutti hanno le stesse priorità, preoccupazioni o accesso alle risorse. La valutazione dei tuoi rischi ti consentirà di pianificare la strategia corretta per te, bilanciando convenienza, costi e privacy.
 
-Per esempio, un avvocato che rappresenta un cliente in un caso di sicurezza nazionale potrebbe essere disposto a prendere più provvedimenti per proteggere le comunicazioni relative al caso, come ad esempio usando mail criptate, rispetto ad una madre che manda regolarmente email alla figlia con video divertenti di gattini.
+Ad esempio, un procuratore rappresentante un cliente in un caso di sicurezza nazionale, potrebbe essere disposto a prendere più provvedimenti per proteggere le comunicazioni su quel caso, come utilizzando email crittografate, rispetto a una madre che invia regolarmente email contenenti video divertenti di gatti a sua figlia.
 
-*Scrivi quali opzioni ti sono disponibili per mitigare le tue minacce specifiche. Annota se hai qualche vincolo finanziario, tecnico o sociale.*
+*Annota quali opzioni ti sono disponibili, per aiutarti a mitigare le tue specifiche minacce. Annota se hai qualche vincolo finanziario, tecnico o sociale.*
 
 ### Prova tu stesso: Proteggere i propri beni
 
-Queste domande possono essere applicate ad un'ampia varietà di situazioni, online e offline. Come dimostrazione generica di come funzionano queste domande, costruiamo un piano per mantenere la tua casa e i tuoi beni al sicuro.
+Queste domande possono applicarsi a un'ampia varietà di situazioni, online e offline. Come dimostrazione generica del funzionamento di queste domande, creiamo un piano per mantenere al sicuro la tua casa e i tuoi averi.
 
-**Quali sono le cose che voglio proteggere? (Oppure, *che cosa possiedo che vale la pena di proteggere?*)**
+**Cosa voglio proteggere? (Oppure, *cosa possiedi che valga la pena di proteggere?*)**
 :
 
-I tuoi beni personali possono includere gioielli, dispositivi elettronici, documenti importanti, o fotografie.
+I tuoi beni potrebbero includere gioielli, elettronica, documenti o foto importanti.
 
-**Da chi le voglio proteggere?**
+**Da chi voglio proteggerli?**
 :
 
-I tuoi potenziali avversari possono essere ladri, coinquilini oppure ospiti.
+I tuoi avversari potrebbero includere ladri, coinquilini od ospiti.
 
-**Quanto è probabile che io abbia bisogno di proteggerle?**
+**Quanto è probabile che necessiti di proteggerli?**
 :
 
-Nel tuo vicinato ci sono precedenti di furto? Quanto sono affidabili i tuoi coinquilini o ospiti? Quali sono le capacità dei tuoi avversari? Quali sono i rischi che dovresti considerare?
+Nel tuo vicinato si sono verificati furti precedenti? Quanto sono affidabili i tuoi coinquilini od ospiti? Quali sono le capacità dei tuoi avversari? Quali rischi dovresti considerare?
 
-**Quanto sono catastrofiche le conseguenze se fallisci?**
+**Quanto sono negative le conseguenze se fallisci?**
 :
 
-C'è qualcosa nella tua casa che non puoi sostituire? Hai il tempo o i soldi per rimpiazzare queste cose? Hai un'assicurazione che copre i beni rubati dalla tua casa?
+In casa, hai qualcosa che non puoi sostituire? Hai il tempo o il denaro per sostituire quelle cose? Hai un'assicurazione che copre i beni rubati dalla tua abitazione?
 
-**Quanti problemi sei disposto ad affrontare per prevenire le conseguenze?**
+**Quanti problemi sei disposto ad affrontare per impedire tali conseguenze?**
 :
 
-Sei disposto ad acquistare una cassaforte per i tuoi documenti sensibili? Puoi permetterti di comprare una buona serratura? Hai il tempo di aprire una cassetta di sicurezza presso la tua banca e tenere lì i tuoi oggetti di valore?
+Sei disposto ad acquistare una cassaforte per i documenti sensibili? Puoi permetterti di acquistare una serratura di alta qualità? Hai il tempo di aprire una cassetta di sicurezza presso la tua banca locale e mantenervi i tuoi oggetti preziosi?
 
-Solo una volta che ti sarai fatto queste domande sarai nella posizione di valutare quali misure adottare. Se i tuoi possedimenti sono di valore, ma la probabilità di un'irruzione è bassa, potresti non voler investire troppo denaro in una serratura. Ma se la probabilità di effrazione è alta, è meglio dotarsi della migliore serratura sul mercato e considerare l'aggiunta di un sistema di sicurezza.
+Solo una volta esserti posto queste domande, potrai valutare quali misure adottare. Se i tuoi possedimenti sono preziosi, ma la probabilità di un furto è bassa, potresti non voler investire troppi soldi in una serratura. Ma, se la probabilità di un furto è elevata, vorrai dotarti della migliore serratura sul mercato e considerare di aggiungere un sistema di sicurezza.
 
-La stesura di un piano di sicurezza ti aiuterà a comprendere le minacce per te più rilevanti e a valutare le tue risorse, i tuoi avversari e le loro capacità, oltre alla probabilità dei rischi a cui vai incontro.
+Creare un piano di sicurezza ti aiuterà a comprendere le minacce uniche per te e a valutare le tue risorse, i tuoi avversari e le loro capacità, insieme alla probabilità dei rischi che affronti.
 
-## Approfondimenti consigliati
+## Ulteriori Letture
 
-Per le persone che cercano di aumentare la loro privacy e sicurezza online, abbiamo compilato un elenco di minacce comuni che i nostri visitatori affrontano o obiettivi che i nostri visitatori hanno, per darti qualche ispirazione e dimostrare la base dei nostri consigli.
+Per coloro che cercano di incrementare la propria privacy e sicurezza online, abbiamo compilato un elenco delle minacce più comuni affrontate dai nostri visitatori o degli obiettivi dei nostri visitatori, per ispirarti e dimostrare le basi dei nostri consigli.
 
 - [Obiettivi e minacce comuni :material-arrow-right-drop-circle:](common-threats.md)
 
 ## Fonti
 
-- [EFF Surveillance Self Defense: Your Security Plan (EFF Autodifesa da sorveglianza: il tuo piano di sicurezza)](https://ssd.eff.org/en/module/your-security-plan)
+- [Difesa Personale di Sorveglianza EFF: Il tuo piano di sicurezza](https://ssd.eff.org/en/module/your-security-plan)

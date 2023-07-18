@@ -103,7 +103,7 @@ Briar 使用 Bramble [Handshake](https://code.briarproject.org/briar/briar-spec/
 
 ## 額外選項
 
-!!! warning
+!!! warning "警告"
 
     這些通訊軟體無 [向前保密](https://en.wikipedia.org/wiki/Forward_secrecy) 雖然它們達成我們之前建議的某些需求，但不推薦將其用於長期或敏感通信。 訊息收件人之間的任何密鑰洩露都會影響* *所有* *過去通信的機密性。
 
