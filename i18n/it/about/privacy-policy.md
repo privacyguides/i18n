@@ -1,5 +1,5 @@
 ---
-title: "Informativa sulla privacy"
+title: "Politica sulla Privacy"
 ---
 
 Privacy Guides è un progetto comunitario gestito da un certo numero di collaboratori volontari attivi. La lista pubblica dei membri del team [può essere trovata su GitHub](https://github.com/orgs/privacyguides/people).

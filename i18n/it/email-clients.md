@@ -46,7 +46,7 @@ Queste opzioni si trovano in :material-menu: → **Impostazioni** → **Privacy 
 ##### Contenuto Web
 
 - [ ] Deseleziona **Ricorda siti web e link visitati**
-- [ ] Deseleziona  **Accetta i cookie dai siti**
+- [ ] Deseleziona **Accetta i cookie dai siti**
 
 ##### Telemetria
 

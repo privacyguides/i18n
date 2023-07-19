@@ -77,31 +77,31 @@ Silverblue (e Kinoite) differiscono da Fedora Workstation poiché sostituiscono 
 
 Al termine dell'aggiornamento, il sistema sarà riavviato nella nuova distribuzione. `rpm-ostree` mantiene due distribuzioni del sistema, così da poter facilmente essere ripristinato, se qualcosa si rompe nella nuova distribuzione. Inoltre, esiste l'opzione di aggiungere altre distribuzioni, se necessario.
 
-[Flatpak](https://www.flatpak.org) è il metodo principale di installazione dei pacchetti su queste distribuzioni, in quanto `rpm-ostree` è pensato solo per sovrapporre all'immagine di base i pacchetti che non possono stare all'interno di un contenitore.
+[Flatpak](https://www.flatpak.org) è il metodo d'installazione principale dei pacchetti su queste distribuzioni, in quanto `rpm-ostree` è pensato soltanto per sovrapporre all'immagine di base i pacchetti che non possono rimanere all'interno di un contenitore.
 
-Come alternativa a Flatpaks, c'è l'opzione di [Toolbox](https://docs.fedoraproject.org/en-US/fedora-silverblue/toolbox/) per creare contenitori [Podman](https://podman.io) con una cartella home condivisa con il sistema operativo host e imitare un ambiente Fedora tradizionale, che è una [caratteristica utile](https://containertoolbx.org) per lo sviluppatore esigente.
+Come alternativa a Flatpaks, esiste l'opzione di [Toolbox](https://docs.fedoraproject.org/en-US/fedora-silverblue/toolbox/) per creare contenitori [Podman](https://podman.io) con una cartella home condivisa con il sistema operativo del host che imita un ambiente tradizionale di Fedora, un [caratteristica utile](https://containertoolbx.org) per gli sviluppatori esigenti.
 
 ### NixOS
 
 !!! recommendation
 
-    ![NixOS logo](assets/img/linux-desktop/nixos.svg){ align=right }
+    ![Logo di NixOS](assets/img/linux-desktop/nixos.svg){ align=right }
     
-    NixOS è una distribuzione indipendente basata sul gestore di pacchetti Nix con una particolare attenzione alla riproducibilità e all'affidabilità.
+    NixOS è una distribuzione indipendente basata sul gestore di pacchetti Nix, incentrata sulla riproducibilità e l'affidabilità.
     
-    [:octicons-home-16: Pagina Principale](https://nixos.org/){ .md-button .md-button--primary }
+    [:octicons-home-16: Home](https://nixos.org/){ .md-button .md-button--primary }
     [:octicons-info-16:](https://nixos.org/learn.html){ .card-link title=Documentazione}
     [:octicons-heart-16:](https://nixos.org/donate.html){ .card-link title=Contribuisci }
 
-Il gestore di pacchetti di NixOS conserva ogni versione di ogni pacchetto in una cartella diversa del **negozio Nix**. Per questo motivo è possibile avere diverse versioni dello stesso pacchetto installate sul sistema. Dopo che il contenuto del pacchetto è stato scritto nella cartella, questa viene resa di sola lettura.
+Il gestore di pacchetti di NixOS conserva ogni versione di ogni pacchetto in una cartella diversa del **negozio di Nix**. A causa di ciò puoi avere versioni differenti dello stesso pacchetto installate sul tuo sistema. Dopo la scrittura dei contenuti del pacchetto alla cartella, questa è resa di sola lettura.
 
-NixOS fornisce anche aggiornamenti atomici; prima scarica (o costruisce) i pacchetti e i file per la nuova generazione di sistema e poi passa ad essi. Ci sono diversi modi per passare a una nuova generazione: si può dire a NixOS di attivarla dopo il riavvio o si può passare ad essa in fase di esecuzione. È anche possibile *testare* la nuova generazione passando ad essa in fase di esecuzione, ma senza impostarla come generazione corrente del sistema. Se qualcosa nel processo di aggiornamento si interrompe, è possibile riavviare automaticamente e tornare a una versione funzionante del sistema.
+NixOS fornisce anche aggiornamenti atomici; prima scarica (o crea) i pacchetti e i file per la nuova generazione di sistema, poi passa ad essi. Esistono svariati modi per passare a una nuova generazione; puoi chiedere a NixOS di attivarla dopo il riavvio, o passarci mentre è in esecuzione. Puoi anche *testare* la nuova generazione passandovi durante l'esecuzione, ma non impostarla come quella corrente di sistema. Se qualcosa nel processo d'aggiornamento si corrompe, basta riavviare e tornare automaticamente a una versione funzionante del sistema.
 
-Nix, il gestore di pacchetti, utilizza un linguaggio puramente funzionale, chiamato anch'esso Nix, per definire i pacchetti.
+Nix, il gestore di pacchetti, utilizza un linguaggio puramente funzionale, anch'ess detto Nix, per definire i pacchetti.
 
-[Nixpkgs](https://github.com/nixos/nixpkgs) (la fonte principale dei pacchetti) è contenuto in un unico repository GitHub. È anche possibile definire i propri pacchetti nella stesso linguaggio e quindi includerli facilmente nella configurazione.
+[Nixpkgs](https://github.com/nixos/nixpkgs) (la fonte principale dei pacchetti) è contenuto in un'unica repository di GitHub. Inoltre, puoi definire i tuoi pacchetti nello stesso linguaggio, quindi, includerli facilmente nella tua configurazione.
 
-Nix è un gestore di pacchetti basato sul codice sorgente; se non c'è nessun pacchetto precostruito disponibile nella cache binaria, Nix genererà il pacchetto da zero usando la sua definizione. Costruisce ogni pacchetto in un ambiente sandbox *puro* , che è il più indipendente possibile dal sistema ospite, rendendo così i binari riproducibili.
+Nix è un gestore di pacchetti basato sul codice sorgente; se non ne esiste alcuno di predefinito nella cache binaria, Nix creerà semplicemente il pacchetto dalla sorgente, utilizzandone la definizione. Crea ogni pacchetto in un ambiente sandbox *puro*, il più indipendente possibile dal sistema di host, rendendo riproducibili i binari.
 
 ## Distribuzioni incentrate sull'anonimato
 
@@ -109,40 +109,40 @@ Nix è un gestore di pacchetti basato sul codice sorgente; se non c'è nessun pa
 
 !!! recommendation
 
-    ![Logo Whonix](assets/img/linux-desktop/whonix.svg){ align=right }
+    ![Logo di Whonix](assets/img/linux-desktop/whonix.svg){ align=right }
     
-    **Whonix** è basato su [Kicksecure](https://www.whonix.org/wiki/Kicksecure), un fork di Debian focalizzato sulla sicurezza. Mira a fornire privacy, sicurezza e anonimato su internet. Whonix è meglio utilizzato insieme a [Qubes OS](#qubes-os).
+    **Whonix** è basato su [Kicksecure](https://www.whonix.org/wiki/Kicksecure), una biforcazione di Debian, focalizzata sulla sicurezza. Mira a fornire privacy, sicurezza e anonimato su Internet. Whonix è meglio utilizzato insieme a [Qubes OS](#qubes-os).
     
-    [:octicons-home-16: Pagina Principale](https://www.whonix.org/){ .md-button .md-button--primary }
-    [:simple-torbrowser:](http://www.dds6qkxpwdeubwucdiaord2xgbbeyds25rbsgr73tbfpqpt4a6vjwsyd.onion){ .card-link title="Servizio onion" }
+    [:octicons-home-16: Home](https://www.whonix.org/){ .md-button .md-button--primary }
+    [:simple-torbrowser:](http://www.dds6qkxpwdeubwucdiaord2xgbbeyds25rbsgr73tbfpqpt4a6vjwsyd.onion){ .card-link title="Servizio Onion" }
     [:octicons-info-16:](https://www.whonix.org/wiki/Documentation){ .card-link title=Documentazione}
     [:octicons-heart-16:](https://www.whonix.org/wiki/Donate){ .card-link title=Contribuisci }
 
-Whonix è pensato per essere eseguito come due macchine virtuali: una "Workstation" e un "Gateway" Tor. Tutte le comunicazioni dalla Workstation devono passare attraverso il gateway Tor, e saranno instradate attraverso la rete Tor. Ciò significa che anche se la Workstation venisse compromessa da un malware di qualche tipo, il vero indirizzo IP rimarrebbe nascosto.
+Whonix è pensato per operare come due macchine virtuali: una "Workstation" e un "Gateway" di Tor. Tutte le comunicazioni dalla Workstation devono passare per il gateway di Tor. Ciò significa che, anche se la Workstation fosse compromessa da un malware di qualche tipo, il vero indirizzo IP rimarrebbe nascosto.
 
-Alcune delle sue caratteristiche includono Tor Stream Isolation, [keystroke anonymization](https://www.whonix.org/wiki/Keystroke_Deanonymization#Kloak), [swap crittografato](https://github.com/Whonix/swap-file-creator), e un allocatore di memoria rinforzato.
+Alcune delle sue funzionalità includono l'Isolamento del Flusso di Tor, l'[anonimato di battitura](https://www.whonix.org/wiki/Keystroke_Deanonymization#Kloak), lo [swap crittografato](https://github.com/Whonix/swap-file-creator) e un allocatore di memoria rafforzato.
 
-Le versioni future di Whonix probabilmente includeranno [criteri AppArmor di sistema completi](https://github.com/Whonix/apparmor-profile-everything) e un [lanciatore di app sandbox](https://www.whonix.org/wiki/Sandbox-app-launcher) per confinare completamente tutti i processi sul sistema.
+Le versioni future di Whonix potrebbero includere [politiche di sistema complete di AppArmor](https://github.com/Whonix/apparmor-profile-everything) e un [launcher di app sandbox](https://www.whonix.org/wiki/Sandbox-app-launcher), per confinare completamente tutti i processi sul sistema.
 
-Whonix è utilizzato al meglio [in combinazione con Qubes](https://www.whonix.org/wiki/Qubes/Why_use_Qubes_over_other_Virtualizers).
+Whonix è meglio utilizzato [insieme a Qubes](https://www.whonix.org/wiki/Qubes/Why_use_Qubes_over_other_Virtualizers), Qubes-Whonix presenta svariati [svantaggi](https://forums.whonix.org/t/qubes-whonix-security-disadvantages-help-wanted/8581) rispetto ad altri hypervisor.
 
 ### Tails
 
 !!! recommendation
 
-    ![Tails logo](assets/img/linux-desktop/tails.svg){ align=right }
+    ![Logo di Tails](assets/img/linux-desktop/tails.svg){ align=right }
     
-    **Tails** è un sistema operativo live basato su Debian che instrada tutte le comunicazioni attraverso Tor, che può essere avviato su quasi tutti i computer da un'installazione su DVD, chiavetta USB o scheda SD. Utilizza [Tor](tor.md) per preservare la privacy e l'anonimato aggirando la censura e non lascia traccia di sé sul computer su cui viene utilizzato una volta spento.
+    **Tails** è un sistema operativo live basato su Debian che instrada tutte le comunicazioni attraverso Tor, che può essere avviato su quasi tutti i computer da un'installazione su DVD, chiavetta USB o scheda SD. Utilizza [Tor](tor.md) per preservare la privacy e l'anonimato, aggirando la censura e non lasciando traccia di sé sul computer utilizzato, una volta spento.
     
-    [:octicons-home-16: Pagina Principale](https://tails.boum.org/){ .md-button .md-button--primary }
+    [:octicons-home-16: Home](https://tails.boum.org/){ .md-button .md-button--primary }
     [:octicons-info-16:](https://tails.boum.org/doc/index.en.html){ .card-link title=Documentazione}
     [:octicons-heart-16:](https://tails.boum.org/donate/){ .card-link title=Contribuisci }
 
-Tails è ottimo per la contro-analisi forense grazie all'amnesia (il che significa che non viene scritto nulla sul disco); tuttavia, non è una distribuzione rafforzata come Whonix. Manca di molte funzioni di anonimato e sicurezza che Whonix possiede e viene aggiornato molto meno spesso (solo una volta ogni sei settimane). Un sistema Tails compromesso da malware può potenzialmente aggirare il proxy trasparente, consentendo all'utente di essere deanonimizzato.
+Tail è ottimo per le controperizie grazie all'amnesia (a significare che nulla viene scritto sul disco); tuttavia, non è una distribuzione rafforzata come Whonix. Manca di molte funzionalità per l'anonimato e la sicurezza possedute da Whonix e viene aggiornato molto meno spesso (soltanto una volta ogni sei settimane). Un sistema Tails compromesso da un malware potrebbe aggirare il proxy trasparente, consentendo all'utente di essere deanonimizzato.
 
-Tails include [uBlock Origin](desktop-browsers.md#ublock-origin) nel Tor Browser per impostazione predefinita, il che può potenzialmente rendere più facile per gli avversari effettuare il fingerprinting degli utenti di Tails. [Le macchine virtuali Whonix](desktop.md#whonix) possono essere più a prova di perdite, ma non sono amnesiche, il che significa che i dati possono essere recuperati dal dispositivo di archiviazione.
+Tails include di default [uBlock Origin](desktop-browsers.md#ublock-origin) nel Tor Browser, il che potrebbe semplificare, per gli avversari, il fingerprinting dei suoi utenti. Le macchine virtuali di [Whonix](desktop.md#whonix) potrebbero essere maggiormente a prova di fuga, tuttavia, non sono amnesiche, a significare che i dati potrebbero essere recuperati dal tuo dispositivo d'archiviazione.
 
-Da progettazione, Tails è previsto che si ripristini completamente dopo ogni riavvio. L'archiviazione [cifrata persistente](https://tails.boum.org/doc/first_steps/persistence/index.en.html) può essere configurata per memorizzare alcuni dati tra un ravvio e l'altro.
+Di design, Tails dovrebbe ripristinarsi completamente dopo ogni riavvio. L'[archiviazione persistente](https://tails.boum.org/doc/persistent_storage/index.en.html) è configurabile per memorizzare alcuni dati tra i riavvii.
 
 ## Distribuzioni incentrate sulla sicurezza
 
@@ -150,21 +150,21 @@ Da progettazione, Tails è previsto che si ripristini completamente dopo ogni ri
 
 !!! recommendation
 
-    ![Qubes OS logo](assets/img/qubes/qubes_os.svg){ align=right }
+    ![Logo di Qubes OS](assets/img/qubes/qubes_os.svg){ align=right }
     
-    **Qubes OS** è un sistema operativo open-source progettato per fornire una forte sicurezza per i computer desktop. È basato su Xen, sul sistema X Window e su Linux, e può eseguire/utilizzare la maggior parte delle applicazioni/driver di Linux.
+    **Qubes OS** è un sistema operativo open source progettato per fornire una forte sicurezza per l'informatica desktop. Si basa su Xen, il Sistema X Window, e su Linux, e può eseguire gran parte delle applicazioni di Linux, e utilizzare molti dei suoi driver.
     
-    [:octicons-home-16: Pagina Principale](https://www.qubes-os.org/){ .md-button .md-button--primary }
+    [:octicons-home-16: Home](https://www.qubes-os.org/){ .md-button .md-button--primary }
     [:material-arrow-right-drop-circle: Panoramica](os/qubes-overview.md){ .md-button .md-button--primary }
     [:simple-torbrowser:](http://qubesosfasa4zl44o4tws22di6kepyzfeqv3tg4e3ztknltfxqrymdad.onion){ .card-link title="Servizio Onion" }
-    [:octicons-eye-16:](https://www.qubes-os.org/privacy/){ .card-link title="Politica sulla privacy" }
+    [:octicons-eye-16:](https://www.qubes-os.org/privacy/){ .card-link title="Politica sulla Privacy" }
     [:octicons-info-16:](https://www.qubes-os.org/doc/){ .card-link title=Documentazione }
-    [:octicons-code-16:](https://github.com/QubesOS/){ .card-link title="Codice sorgente" }
+    [:octicons-code-16:](https://github.com/QubesOS/){ .card-link title="Codice Sorgente" }
     [:octicons-heart-16:](https://www.qubes-os.org/donate/){ .card-link title=Contribuisci }
 
-Qubes OS è un sistema operativo basato su Xen che mira a fornire una forte sicurezza per il desktop computing attraverso macchine virtuali (VM) sicure, note anche come *Qubes*.
+Qubes OS è un sistema operativo basato su Xen, pensato per fornire una forte sicurezza per l'informatica desktop, tramite le macchine virtuali sicure (VM), anche note come *Qubes*.
 
-Il sistema operativo Qubes OS protegge il computer isolando i sottosistemi (ad esempio, rete, USB, ecc.) e le applicazioni in macchine virtuali separate. Se una parte del sistema viene compromessa, è probabile che l'isolamento supplementare protegga il resto del sistema. Per ulteriori dettagli, consulta le [FAQ](https://www.qubes-os.org/faq/) di Qubes.
+Il sistema operativo Qubes OS protegge il computer isolando i sottosistemi (ad esempio, rete, USB, ecc.) e le applicazioni, in VM separate. Se una parte del sistema dovesse essere compromessa, l'isolamento aggiuntivo potrebbe proteggere il resto del sistema. Per ulteriori dettagli, consulta le [Domande Frequenti](https://www.qubes-os.org/faq/) di Qubes.
 
 ## Criteri
 
@@ -176,9 +176,9 @@ Il sistema operativo Qubes OS protegge il computer isolando i sottosistemi (ad e
 
 I nostri sistemi operativi consigliati:
 
-- Devono essere open-source.
-- Devono ricevere regolarmente aggiornamenti del software e del kernel Linux.
+- Devono essere open source.
+- Devono ricevere regolarmente aggiornamenti del software e del kernel di Linux.
 - Le distribuzioni Linux devono supportare [Wayland](os/linux-overview.md#wayland).
 - Devono supportare la crittografia dell'intero disco durante l'installazione.
-- Non devono fermare i rilasci regolari per più di 1 anno. Noi [non consigliamo](os/linux-overview.md#release-cycle) le distribuzioni "Long Term Support" o "stable" per utilizzo desktop.
+- Non devono interrompere i rilasci regolari per più di 1 anno. [Sconsigliamo](os/linux-overview.md#release-cycle) le versioni di distribuzioni con "Supporto a Lungo Termine" o "stabili", per l'utilizzo da desktop.
 - Devono supportare un'ampia varietà di hardware.

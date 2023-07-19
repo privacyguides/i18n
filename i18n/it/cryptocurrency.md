@@ -9,7 +9,7 @@ Effettuare pagamenti online è una delle maggiori sfide per la privacy. Queste c
 
 [Effettuare pagamenti privati :material-arrow-right-drop-circle:](advanced/payments.md ""){.md-button}
 
-!!! danger
+!!! danger "Attenzione"
 
     Molte, se non la gran parte delle criptovalute sono delle truffe. Effettua attentamente le transazioni, soltanto con i progetti di cui ti fidi.
 

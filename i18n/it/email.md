@@ -28,7 +28,7 @@ Questi fornitori supportano nativamente la crittografia/decrittografia di OpenPG
 
 </div>
 
-!!! attenzione
+!!! warning "Avviso"
 
     Quando si utilizza tecnologia E2EE, come OpenPGP, alcuni metadata nell'intestazione dei messaggi non vengono crittografati. Per saperne di più sui metadata della [posta elettronica](basics/email-security.md#email-metadata-overview).
     
@@ -72,7 +72,7 @@ Gli abbonati a Proton Mail a pagamento possono utilizzare il proprio dominio con
 
 Proton Mail [accetta](https://proton.me/support/payment-options) contanti per posta, oltre ai normali pagamenti con carta di credito/debito, [Bitcoin](advanced/payments.md#other-coins-bitcoin-ethereum-etc) e PayPal.
 
-#### :material-check:{ .pg-green } Sicurezza del Profilo
+#### :material-check:{ .pg-green } Sicurezza dell'account
 
 Proton Mail supporta l'[autenticazione a due fattori](https://proton.me/support/two-factor-authentication-2fa) TOTP e le [chiavi di sicurezza hardware](https://proton.me/support/2fa-security-key), utilizzando gli standard FIDO2 o U2F. L'utilizzo di una chiave di sicurezza hardware richiede la configurazione precedente dell'autenticazione a due fattori TOTP.
 
@@ -88,7 +88,7 @@ Proton Mail ha una [crittografia OpenPGP integrata](https://proton.me/support/ho
 
 Inoltre, Proton Mail supporta la scoperta delle chiavi pubbliche tramite HTTP, dalla loro [Web Key Directory (WKD)](https://wiki.gnupg.org/WKD). Ciò permette a coloro che non utiilizzano Proton Mail, di trovare facilmente le chiavi OpenPGP dei profili di Proton Mail, per un'E2EE tra fornitori.
 
-#### :material-information-outline:{ .pg-blue } Terminazione del Profilo
+#### :material-information-outline:{ .pg-blue } Chiusura dell'account
 
 Se hai un profilo a pagamento e la tua [fatturazione non viene pagata](https://proton.me/support/delinquency) dopo 14 giorni, non potrai accedere ai tuoi dati. Dopo 30 giorni, il tuo profilo sarà considerato moroso e non riceverà la posta in arrivo. Durante questo periodo, continuerà a essere addebitato.
 
@@ -122,7 +122,7 @@ Mailbox.org ti consente di utilizzare il tuo dominio e supporta gli indirizzi [c
 
 Mailbox.org non accetta criptovalute a causa della sospensione delle attività del suo elaboratore di pagamenti BitPay, in Germania. Tuttavia, accettano contanti per posta, pagamento in contanti su conto corrente, bonifico bancario, carta di credito, PayPal e un paio di processori specifici per la Germania: paydirekt e Sofortüberweisung.
 
-#### :material-check:{ .pg-green } Sicurezza del Profilo
+#### :material-check:{ .pg-green } Sicurezza dell'account
 
 Mailbox.org supporta l'[autenticazione a due fattori](https://kb.mailbox.org/display/MBOKBEN/How+to+use+two-factor+authentication+-+2FA) solo per la propria webmail. Puoi utilizzare TOTP o una [YubiKey](https://en.wikipedia.org/wiki/YubiKey), tramite [YubiCloud](https://www.yubico.com/products/services-software/yubicloud). Gli standard Web come [WebAuthn](https://en.wikipedia.org/wiki/WebAuthn) non sono ancora supportati.
 
@@ -138,7 +138,7 @@ Mailbox.org presenta una [crittografia integrata](https://kb.mailbox.org/display
 
 Inoltre, Mailbox.org supporta la scoperta di chiavi pubbliche tramite HTTP dalla loro [Web Key Directory (WKD)](https://wiki.gnupg.org/WKD). Questo permette a persone esterne a Mailbox.org di trovare facilmente le chiavi OpenPGP degli account di Mailbox.org, per un E2EE fra provider diversi.
 
-#### :material-information-outline:{ .pg-blue } Terminazione del Profilo
+#### :material-information-outline:{ .pg-blue } Chiusura dell'account
 
 Il tuo profilo sarà impostato come limitato al termine del tuo contratto; dopo [30 giorni sarà irrevocabilmente eliminato](https://kb.mailbox.org/en/private/payment-article/what-happens-at-the-end-of-my-contract).
 
@@ -190,7 +190,7 @@ Puoi creare fino a 3 alias email @skiff.com aggiuntivi, oltre all'indirizzo del 
 
 Skiff Mail accetta i pagamenti in criptovalute tramite Coinbase Commerce, tra cui Bitcoin ed Ethereum, ma non accetta la nostra [criptovaluta](cryptocurrency.md) consigliata, Monero. Inoltre, accetta i pagamenti con carta di credito, tramite Stripe.
 
-#### :material-check:{ .pg-green } Sicurezza del Profilo
+#### :material-check:{ .pg-green } Sicurezza dell'account
 
 Skiff Mail supporta l'autenticazione a due fattori TOTP e le chiavi di sicurezza hardware, utilizzando gli standard FIDO2 o U2F. L'utiilizzo di una chiave di sicurezza hardware richiede la configurazione precedente dell'autenticazione a due fattori TOTP.
 
@@ -202,9 +202,9 @@ Skiff Mail ha una crittografia ad accesso zero a riposo per tutti i tuoi dati. C
 
 Skiff Mail non utilizza OpenPGP. Le email sono crittografate con E2EE, soltanto verso altri utenti di Skiff Mail. Skiff non dispone dii una funzionalità di "casella temporanea" o "email con password", a differenza degli altri fornitori, quindi, gli utenti esterni non possono ricevere o rispondere a messaggi, con l'E2EE.
 
-#### :material-information-outline:{ .pg-blue } Terminazione del Profilo
+#### :material-information-outline:{ .pg-blue } Chiusura dell'account
 
-I profili di Skiff Mail non scadono, ma a quelli non pagati sarà richiesto di rimuovere qualsiasi funzionalità a pagamento abilitata (come ulteriori alias) o di rinnovare il piano, per poter utilizzare il profilo.
+Gli account Skiff Mail non scadono, ma agli account non paganti verrà richiesto di rimuovere eventuali funzioni a pagamento abilitate (come gli alias aggiuntivi) o di rinnovare il piano prima che l'account possa essere utilizzato.
 
 #### :material-information-outline:{ .pg-blue } Funzionalità aggiuntive
 
@@ -220,11 +220,11 @@ Skiff Mail non offre una funzionalità di eredità digitale.
     
     **Tutanota** è un servizio email incentrato sulla sicurezza e la privacy, tramite l'utilizzo della crittografia. Tutanota è operativo dal **2011** e ha sede ad Hannover, in Germania. I profili partono da 1GB di archiviazione, con il loro piano gratuito.
     
-    [:octicons-home-16: Homepage](https://tutanota.com){ .md-button .md-button--primary }
-    [:octicons-eye-16:](https://tutanota.com/privacy){ .card-link title="Privacy Policy" }
-    [:octicons-info-16:](https://tutanota.com/faq){ .card-link title=Documentation}
-    [:octicons-code-16:](https://github.com/tutao/tutanota){ .card-link title="Source Code" }
-    [:octicons-heart-16:](https://tutanota.com/community/){ .card-link title=Contribute }
+    [:octicons-home-16: Pagina Principale](https://tutanota.com){ .md-button .md-button--primary }
+    [:octicons-eye-16:](https://tutanota.com/privacy){ .card-link title="Politica sulla privacy" }
+    [:octicons-info-16:](https://tutanota.com/faq){ .card-link title=Documentazione}
+    [:octicons-code-16:](https://github.com/tutao/tutanota){ .card-link title="Codice sorgente" }
+    [:octicons-heart-16:](https://tutanota.com/community/){ .card-link title=Contribuisci }
     
     ??? downloads
     
@@ -246,7 +246,7 @@ I profili di Tutanota a pagamento possono utilizzare fino a 5 [alias](https://tu
 
 Tutanota accetta soltanto pagamenti diretti da carte di credito e PayPal, tuttavia, le [criptovalute](cryptocurrency.md) sono utilizzabili per acquistare carte regalo, tramite la loro [collaborazione](https://tutanota.com/faq/#cryptocurrency) con Proxystore.
 
-#### :material-check:{ .pg-green } Sicurezza del Profilo
+#### :material-check:{ .pg-green } Sicurezza dell'account
 
 Tutanota supporta l'[autenticazione a due fattori](https://tutanota.com/faq#2fa) con TOTP o U2F.
 
@@ -258,7 +258,7 @@ Tutanota utilizza una [crittografia ad accesso zero a riposo](https://tutanota.c
 
 Tutanota [non utilizza OpenPGP](https://www.tutanota.com/faq/#pgp). I profili di Tutanota possono ricevere email crittografate soltanto da profili email non di Tutanota, quando inviati tramite una [casella temporanea di Tutanota](https://www.tutanota.com/howto/#encrypted-email-external).
 
-#### :material-information-outline:{ .pg-blue } Terminazione del Profilo
+#### :material-information-outline:{ .pg-blue } Chiusura dell'account
 
 Tutanota eliminerà i [profili gratuiti inattivi](https://tutanota.com/faq#inactive-accounts) dopo sei mesi. Puoi riutilizzare un profilo gratuito disattivato, previo pagamento.
 
@@ -353,7 +353,7 @@ Funzionalità gratuite degne di nota:
         - [:simple-microsoftedge: Edge](https://microsoftedge.microsoft.com/addons/detail/simpleloginreceive-sen/diacfpipniklenphgljfkmhinphjlfff)
         - [:simple-safari: Safari](https://apps.apple.com/app/id1494051017)
 
-SimpleLogin è stata [acquistata da Proton AG](https://proton.me/news/proton-and-simplelogin-join-forces) l'8 aprile del 2022. Se utiliizzi Proton Mail per la tua casella principale, SimpleLogin è un'ottima scelta. Poiché entrambi i prodotti sono ora posseduti dalla stessa azienda, devi ora affidarti a una singola entità. Inoltre, prevediamo che SimpleLogin sarà maggiormente integrato con le offerte future di Proton. SimpleLogin continua a supportare l'inoltro a qualsiasi fornitore di email di tua scelta. Securitum ha [controllato](https://simplelogin.io/blog/security-audit/) SimpleLogin a inizio 2022 e tuttii i problemi [sono stati affrontati](https://simplelogin.io/audit2022/web.pdf).
+SimpleLogin è stata [acquisita da Proton AG](https://proton.me/news/proton-and-simplelogin-join-forces) l'8 aprile del 2022. Se utiliizzi Proton Mail per la tua casella principale, SimpleLogin è un'ottima scelta. Poiché entrambi i prodotti sono ora posseduti dalla stessa azienda, devi ora affidarti a una singola entità. Inoltre, prevediamo che SimpleLogin sarà maggiormente integrato con le offerte future di Proton. SimpleLogin continua a supportare l'inoltro a qualsiasi fornitore di email di tua scelta. Securitum ha [controllato](https://simplelogin.io/blog/security-audit/) SimpleLogin a inizio 2022 e tuttii i problemi [sono stati affrontati](https://simplelogin.io/audit2022/web.pdf).
 
 Puoi collegare il tuo profilo di SimpleLogin con quello di Proton nelle impostazioni. Se hai il Piano Unlimited, Business o Visionary di Proton, avrai SimpleLogin Premium gratuitamente.
 

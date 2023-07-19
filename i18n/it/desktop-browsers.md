@@ -69,10 +69,10 @@ Invece, se necessiti di navigare anonimamente su Internet, dovresti utilizzare [
     
     **Mullvad Browser** è una versione di [Tor Browser](tor.md#tor-browser) con le integrazioni della rete Tor rimosse, con l'obiettivo di fornire le tecnologie anti-fingerprinting di Tor Browser agli utenti che usano una VPN. Sviluppato dal Tor Project e distribuito da [Mullvad](vpn.md#mullvad), **non** richiede l'utilizzo della VPN di Mullvad.
     
-    [:octicons-home-16: Homepage](https://mullvad.net/en/browser){ .md-button .md-button--primary }
-    [:octicons-eye-16:](https://mullvad.net/en/help/privacy-policy/){ .card-link title="Privacy Policy" }
-    [:octicons-info-16:](https://mullvad.net/en/help/tag/mullvad-browser/){ .card-link title=Documentation}
-    [:octicons-code-16:](https://gitlab.torproject.org/tpo/applications/mullvad-browser){ .card-link title="Source Code" }
+    [:octicons-home-16: Pagina Principale](https://mullvad.net/en/browser){ .md-button .md-button--primary }
+    [:octicons-eye-16:](https://mullvad.net/en/help/privacy-policy/){ .card-link title="Politica sulla privacy" }
+    [:octicons-info-16:](https://mullvad.net/en/help/tag/mullvad-browser/){ .card-link title=Documentazione}
+    [:octicons-code-16:](https://gitlab.torproject.org/tpo/applications/mullvad-browser){ .card-link title="Codice sorgente" }
     
     ??? downloads
     
@@ -157,7 +157,7 @@ Questo ti protegge bloccando i tracciatori dei social, gli script di fingerprint
 
 Se desideri mantenere la connessione a siti in particolare, puoi consentire le eccezioni in **Cookie e Dati dei Siti** → **Gestisci Eccezioni...**
 
-- [x] Spunta **Elimina cookie e dati dei siti web alla chiusura di Firefox**
+- [x] Seleziona **Elimina cookie e dati dei siti web alla chiusura di Firefox**
 
 Ciò ti protegge dai cookie persistenti, ma non dai cookie acquisiti durante qualsiasi singola sessione di navigazione. Quando tale opzione è abilitata, diventa possibile pulire facilmente i cookie del tuo browser, semplicemente riavviando Firefox. Puoi impostare delle eccezioni a seconda del sito, se desideri rimanere connesso a un sito in particolare, che visiti spesso.
 
@@ -172,11 +172,11 @@ Ciò ti protegge dai cookie persistenti, ma non dai cookie acquisiti durante qua
 Inoltre, il servizio Profili di Firefox raccoglie [dei dati tecnici](https://www.mozilla.org/en-US/privacy/firefox/#firefox-accounts). Se utilizzi un Profilo di Firefox, puoi disattivarlo:
 
 1. Apri le [impostazioni del tuo profilo su accounts.firefox.com](https://accounts.firefox.com/settings#data-collection)
-2. Rimuovi la spunta da **Raccolta e utilizzo dati ** > **Aiutaci a migliorare i Profili di Firefox⁩**
+2. Deseleziona ** Raccolta e utilizzo dati ** > **Aiutaci a migliorare gli ⁨account Firefox⁩**
 
 ##### Modalità solo HTTPS
 
-- [x] Seleziona **Abilita la modalità solo HTTPS in tutte le finestre**
+- [x] Seleziona **Attiva in tutte le finestre**
 
 Ciò previene che ti connetta involontariamente a un sito web in HTTP semplice. I siti senza HTTPS sono poco comuni oggigiorno, quindi, ciò dovrebbe avere un impatto minimo o zero sulla tua navigazione quotidiana.
 
@@ -262,11 +262,11 @@ Le opzioni di Shields sono riducibili a seconda del sito, come necessario ma, di
 - [x] Seleziona **Utilizza sempre connessioni sicure** nel menu **Sicurezza** 
 - [ ] Disabilita **Finestra in Incognito con Tor** (1)
 
-    !!! consiglio "Sanitizing on Close"
+    !!! tip "Pulizia alla chiusura"
 
-        - [x] Seleziona **Elimina cookie e dati dei siti alla chiusura di tutte le finestre** nel menu **Cookie e altri dati dei siti
+        - [x] Selezionare **Cancella i cookie e i dati del sito alla chiusura di tutte le finestre** nel menu *Cookies e altri dati del sito*
 
-        Se desideri rimanere connesso a un certo sito che visiti spesso, puoi impostare delle eccezioni a seconda del sito, nella sezione *Comportamenti personalizzati*.
+        Se si desidera rimanere connessi a un particolare sito che si visita spesso, è possibile impostare eccezioni su base individuale nella sezione *Comportamenti personalizzati*.
 
 </div>
 
@@ -283,13 +283,13 @@ Disabilita le estensioni integrate che non utilizzi in **Estensioni**
 
 Le funzionalità Web3 di Brave possono potenzialmente aumentare il fingerprint del browser e la superficie di attacco. Disattiva le funzioni, a meno che tu non le utilizzi.
 
-Imposta **Portafoglio Ethereum predefinito** a **Estensioni (nessun fallback)** Imposta **Portafoglio Solana predefinito** a **Estensioni (nessun fallback)** Imposta **Metodo per risolvere le risorse IPFS** a **Disabilitato**
+Imposta **Wallet Ethereum predefinito** su **Estensioni (nessun backup)** Imposta **Wallet Solana predefinito** su **Estensioni (nessun backup)** Imposta **Metodo per risolvere le risorse IPFS** su **Disabilitato**
 
 ##### Sistema
 
 <div class="annotate" markdown>
 
-- [ ] Rimuovi la spunta da **Esegui le app in background quando Brave è chiuso** per disabilitare le app in background (1)
+- [ ] Disabilita **Continua a eseguire applicazioni in background dopo la chiusura di Brave** per disabilitare le applicazioni in background (1)
 
 </div>
 
@@ -318,9 +318,9 @@ In generale, consigliamo di mantenere al minimo le estensioni del tuo browser pe
     **uBlock Origin** è un popolare blocco di contenuti che potrebbe aiutarti a bloccare annunci, tracciatori e script di fingerprinting.
     
     [:octicons-repo-16: Repository](https://github.com/gorhill/uBlock#readme){ .md-button .md-button--primary }
-    [:octicons-eye-16:](https://github.com/gorhill/uBlock/wiki/Privacy-policy){ .card-link title="Privacy Policy" }
-    [:octicons-info-16:](https://github.com/gorhill/uBlock/wiki){ .card-link title=Documentation}
-    [:octicons-code-16:](https://github.com/gorhill/uBlock){ .card-link title="Source Code" }
+    [:octicons-eye-16:](https://github.com/gorhill/uBlock/wiki/Privacy-policy){ .card-link title="Politica sulla privacy" }
+    [:octicons-info-16:](https://github.com/gorhill/uBlock/wiki){ .card-link title=Documentazione}
+    [:octicons-code-16:](https://github.com/gorhill/uBlock){ .card-link title="Codice sorgente" }
     
     ??? downloads
     

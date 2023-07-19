@@ -162,7 +162,7 @@ In generale, definiamo suite per ufficio le applicazioni che possono facilmente 
 
 #### Requisiti minimi
 
-- Devono essere open-source.
+- Devono essere open source.
 - Deve implementare la crittografia end-to-end "zero-trust".
 - Deve supportare i file protetti da password.
 

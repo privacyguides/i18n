@@ -31,7 +31,7 @@ Esistono diversi servizi che forniscono "carte di debito virtuali" che si posson
 
 Privacy.com fornisce di default alla vostra banca informazioni sui commercianti presso i quali effettuate gli acquisti. La funzione a pagamento "commercianti discreti" nasconde le informazioni sui commercianti alla vostra banca, in modo che la vostra banca veda solo un acquisto fatto con Privacy.com, ma non dove è stato speso il denaro, ma questo non è infallibile, e naturalmente Privacy.com è ancora a conoscenza dei commercianti presso i quali state effettuando acquisti.
 
-### MySudo (US, Paid)
+### MySudo (US, a pagamento)
 
 !!! recommendation
 
