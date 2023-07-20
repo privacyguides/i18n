@@ -42,11 +42,11 @@ Apple 產品的大多數隱私和安全問題與其*雲服務*有關，而不是
 
 ### 系統設定
 
-您應該確認或更改許多內建設置以強化系統。 Open the **Settings** app:
+您應該確認或更改許多內建設置以強化系統。 開啟**設定** 應用程式：
 
 #### 藍牙
 
-- [ ] Uncheck **Bluetooth** (unless you are currently using it)
+- [ ] 取消勾選 **藍牙** (除非目前正使用中)
 
 #### 網路
 
@@ -58,7 +58,7 @@ Click on the "Details" button by your network name:
 
 ##### 防火牆
 
-防火牆會阻止不必要的網路連接。 The stricter your firewall settings are, the more secure your Mac is. However, certain services will be blocked. You should configure your firewall to be as strict as you can without blocking services you use.
+防火牆會阻止不必要的網路連接。 防火牆設置越嚴格，您的 Mac 就越安全。 然而某些服務可能會被封鎖。 您應該將防火牆配置得盡可能嚴格，但不會影響使用的服務。
 
 - [x] Check **Firewall**
 
@@ -66,19 +66,19 @@ Click on the "Details" button by your network name:
 
 - [x] Check **Block all incoming connections**
 
-If this configuration is too strict, you can come back and uncheck this. However, macOS will typically prompt you to allow incoming connections for an app if the app requests it.
+如果配置過於嚴格，可以再回來取消勾選此選項。 但如果應用程式請求，macOS 通常會提示用戶允許該應用的傳入連接。
 
 #### 一般設定
 
-By default, your device name will be something like "[your name]'s iMac". Because this name is publicly broadcast on your network, you'll want to change your device name to something generic like "Mac".
+您的設備名稱預設為“[您的名字] 的 iMac”。 Because this name is publicly broadcast on your network, you'll want to change your device name to something generic like "Mac".
 
 Click on **About** and type your desired device name into the **Name** field.
 
 ##### 軟體更新
 
-You should automatically install all available updates to make sure your Mac has the latest security fixes.
+您應自動安裝所有可用更新，以確保 Mac 具有最新的安全修復。
 
-Click the small :material-information-outline: icon next to **Automatic Updates**:
+點擊 :material-information-outline: **自動更新** 旁邊的小圖標:
 
 - [x] Check **Check for updates**
 
@@ -92,7 +92,7 @@ Click the small :material-information-outline: icon next to **Automatic Updates*
 
 #### 隱私 & 安全
 
-Whenever an application requests a permission, it will show up here. 您可決定是否允許或拒絕哪些應用程式的特定權限。
+每當應用程式請求權限時，它就會顯示在這裡。 您可決定是否允許或拒絕哪些應用程式的特定權限。
 
 ##### 定位服務。
 
@@ -102,7 +102,7 @@ Whenever an application requests a permission, it will show up here. 您可決�
 
 ##### Analytics & Improvements
 
-Decide whether you want to share analytics data with Apple and developers.
+決定是否要與 Apple 和開發者共享分析資料。
 
 - [ ] Uncheck **Share Mac Analytics**
 
@@ -201,7 +201,7 @@ macOS comes with automatic backup software called [Time Machine](https://support
 
 Many modern security features in macOS—such as modern Secure Boot, hardware-level exploit mitigation, OS integrity checks, and file-based encryption—rely on Apple silicon, and Apple's newer hardware always has the [best security](https://support.apple.com/guide/security/apple-soc-security-sec87716a080/1/web/1). We only encourage the use of Apple silicon, and not older Intel-based Mac computers or Hackintoshes.
 
-Some of these modern security features are available on older Intel-based Mac computers with the Apple T2 Security Chip, but that chip is susceptible to the *checkm8* exploit which could compromise its security,
+Some of these modern security features are available on older Intel-based Mac computers with the Apple T2 Security Chip, but that chip is susceptible to the *checkm8* exploit which could compromise its security.
 
 If you use Bluetooth accessories such as a keyboard, we recommend that you use official Apple ones as their firmware will automatically be updated for you by macOS. Using third party accessories is fine, but you should remember to install firmware updates for them regularly.
 

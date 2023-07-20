@@ -6,7 +6,7 @@ description: macOS est le système d'exploitation d'Apple pour ordinateurs de bu
 
 **macOS** est un système d'exploitation Unix développé par Apple pour leurs ordinateurs Mac. Pour améliorer la confidentialité de macOS, il est possible de désactiver la télémétrie et renforcer les paramètres existants de confidentialité et de sécurité.
 
-Les anciens Mac à base de processeur Intel et les Hackintosh ne prennent pas en charge toutes les fonctions de sécurité offertes par macOS. Pour améliorer la sécurité des données, nous recommandons d'utiliser un Mac plus récent avec un processeur [Apple Silicon](https://support.apple.com/fr-fr/HT211814).
+Les anciens Mac à base de processeur Intel et les Hackintosh ne prennent pas en charge toutes les fonctions de sécurité offertes par macOS. Pour améliorer la sécurité des données, nous recommandons d'utiliser un Mac plus récent avec un processeur [Apple silicium](https://support.apple.com/fr-fr/HT211814).
 
 ## Remarques concernant la vie privée
 
@@ -14,7 +14,7 @@ macOS pose quelques problèmes importants en matière de protection de la vie pr
 
 ### Verrouillage d'activation
 
-Les nouveaux appareils Apple Silicon peuvent être configurés sans connexion internet. Cependant, la récupération ou la réinitialisation de votre Mac **nécessitera** une connexion internet aux serveurs d'Apple pour vérifier la base de données Verrouillage d'activation des appareils perdus ou volés.
+Les nouveaux appareils Apple silicium peuvent être configurés sans connexion internet. Cependant, la récupération ou la réinitialisation de votre Mac **nécessitera** une connexion internet aux serveurs d'Apple pour vérifier la base de données Verrouillage d'activation des appareils perdus ou volés.
 
 ### Contrôles de révocation des applications
 
@@ -40,216 +40,216 @@ La majorité des préoccupations relatives à la protection de la vie privée et
 
 Par conséquent, si vous utilisez iCloud, vous devriez [activer la**Protection avancée des données**](https://support.apple.com/HT212520). Cela permet de chiffrer la quasi-totalité de vos données iCloud à l'aide de clés stockées sur vos appareils (chiffrement de bout en bout), plutôt que sur les serveurs d'Apple, de sorte que vos données iCloud sont sécurisées en cas de fuite de données, et qu'elles sont par ailleurs cachées à Apple.
 
-### System Settings
+### Paramètres systèmes
 
-There are a number of built-in settings you should confirm or change to harden your system. Open the **Settings** app:
+Il y a un certain nombre de paramètres intégrés que vous devriez confirmer ou modifier pour renforcer votre système. Ouvrez l'application **Paramètres** :
 
 #### Bluetooth
 
-- [ ] Uncheck **Bluetooth** (unless you are currently using it)
+- [ ] Décochez **Bluetooth** (sauf si vous l'utilisez)
 
-#### Network
+#### Réseau
 
-Depending on if you are using **Wi-Fi** or **Ethernet** (denoted by a green dot and the word "connected"), click on the corresponding icon.
+Selon que vous utilisez **Wi-Fi** ou **Ethernet** (indiqué par un point vert et le mot "connecté"), cliquez sur l'icône correspondante.
 
-Click on the "Details" button by your network name:
+Cliquez sur le bouton "Détails" à côté du nom de votre réseau :
 
-- [x] Check **Limit IP address tracking**
+- [x] Cochez **Limiter le pistage des adresses IP**
 
-##### Firewall
+##### Pare-feu
 
-Your firewall blocks unwanted network connections. The stricter your firewall settings are, the more secure your Mac is. However, certain services will be blocked. You should configure your firewall to be as strict as you can without blocking services you use.
+Votre pare-feu bloque les connexions réseau indésirables. Plus les réglages de votre pare-feu sont stricts, plus votre Mac est sécurisé. Toutefois, certains services seront bloqués. Vous devriez configurer votre pare-feu de manière à ce qu'il soit aussi strict que possible sans bloquer les services que vous utilisez.
 
-- [x] Check **Firewall**
+- [x] Cochez **Pare-feu**
 
-Click the **Options** button:
+Cliquez sur le bouton **Options** :
 
-- [x] Check **Block all incoming connections**
+- [x] Cochez **Bloquer toutes les connexions entrantes**
 
-If this configuration is too strict, you can come back and uncheck this. However, macOS will typically prompt you to allow incoming connections for an app if the app requests it.
+Si cette configuration est trop stricte, vous pouvez revenir et la décocher. Toutefois, macOS vous invitera généralement à autoriser les connexions entrantes pour une application si celle-ci le demande.
 
-#### General
+#### Général
 
-By default, your device name will be something like "[your name]'s iMac". Because this name is publicly broadcast on your network, you'll want to change your device name to something generic like "Mac".
+Par défaut, le nom de votre appareil sera quelque chose comme "iMac de [votre nom]". Comme ce nom est diffusé publiquement sur votre réseau, vous pouvez souhaiter changer le nom de votre appareil en quelque chose de générique comme "Mac".
 
-Click on **About** and type your desired device name into the **Name** field.
+Cliquez sur **A propos** et tapez le nom de votre appareil dans le champ **Nom**.
 
-##### Software Updates
+##### Mises à jour du logiciel
 
-You should automatically install all available updates to make sure your Mac has the latest security fixes.
+Vous devriez installer automatiquement toutes les mises à jour disponibles pour vous assurer que votre Mac dispose des derniers correctifs de sécurité.
 
-Click the small :material-information-outline: icon next to **Automatic Updates**:
+Cliquez sur la petite icône :material-information-outline: à côté de **Mises à jour automatiques** :
 
-- [x] Check **Check for updates**
+- [x] Cochez **Vérifier les mises à jour**
 
-- [x] Check **Download new updates when available**
+- [x] Cochez **Télécharger les nouvelles mises à jour lorsqu'elles sont disponibles**
 
-- [x] Check **Install macOS updates**
+- [x] Cochez **Installer les mises à jour de macOS**
 
-- [x] Check **Install application updates from the App Store**
+- [x] Cochez **Installer les mises à jour d'applications à partir de l'App Store**
 
-- [x] Check **Install Security Responses and system files**
+- [x] Cochez **Installer les réponses de sécurité et les fichiers système**
 
 #### Confidentialité & sécurité
 
-Whenever an application requests a permission, it will show up here. You can decide which applications you want to allow or deny specific permissions.
+Chaque fois qu'une application demande une autorisation, celle-ci apparaît ici. Vous pouvez décider des applications pour lesquelles vous souhaitez autoriser ou refuser des autorisations spécifiques.
 
-##### Location Services
+##### Services de localisation
 
-You can individually allow location services per-app. If you don't need apps to use your location, turning off location services entirely is the most private option.
+Vous pouvez autoriser les services de localisation individuellement pour chaque application. Si vous n'avez pas besoin que des applications utilisent votre position, la désactivation complète des services de localisation est l'option la plus privée.
 
-- [ ] Uncheck **Location Services**
+- [ ] Décochez **Services de localisation**
 
-##### Analytics & Improvements
+##### Statistiques & améliorations
 
-Decide whether you want to share analytics data with Apple and developers.
+Décidez si vous souhaitez partager les données analytiques avec Apple et les développeurs.
 
-- [ ] Uncheck **Share Mac Analytics**
+- [ ] Décochez **Partager les données analytiques du Mac**
 
-- [ ] Uncheck **Improve Siri & Dictation**
+- [ ] Décochez **Améliorer Siri & Dictée**
 
-- [ ] Uncheck **Share with app developers**
+- [ ] Décochez **Partager avec les développeurs d'applications**
 
-- [ ] Uncheck **Share iCloud Analytics** (visible if you are signed in to iCloud)
+- [ ] Décochez **Partager les données analytiques iCloud** (visible si vous êtes connecté à iCloud)
 
-##### Apple Advertising
+##### Publicité Apple
 
-Decide whether you want personalized ads based on your usage.
+Décidez si vous souhaitez des publicités personnalisées en fonction de votre utilisation.
 
-- [ ] Uncheck **Personalized Ads**
+- [ ] Décochez **Annonces personnalisées**
 
 ##### Sécurité
 
-Apps from the App Store are subject to stricter security guidelines, such as stricter sandboxing. If the only apps you need are available from the App Store, change the **Allow applications downloaded from** setting to **App Store** to prevent accidentally running other apps. This is a good option particularly if you are configuring a machine for other, less technical users such as children.
+Les applications de l'App Store sont soumises à des règles de sécurité plus strictes, telles que le sandboxing. Si les seules applications dont vous avez besoin sont disponibles dans l'App Store, modifiez le paramètre **Autoriser les applications téléchargées à partir de** en **App Store** pour éviter d'exécuter accidentellement d'autres applications. C'est une bonne option, en particulier si vous configurez une machine pour d'autres utilisateurs, moins techniques, tels que des enfants.
 
-If you choose to also allow applications from identified developers, be careful about the apps you run and where you obtain them.
+Si vous choisissez d'autoriser également les applications de développeurs identifiés, faites attention aux applications que vous exécutez et à l'endroit où vous les obtenez.
 
 ##### FileVault
 
-On modern devices with a Secure Enclave (Apple T2 Security Chip, Apple silicon), your data is always encrypted, but is decrypted automatically by a hardware key if your device doesn't detect it's been tampered with. Enabling FileVault additionally requires your password to decrypt your data, greatly improving security, especially when powered off or before the first login after powering on.
+Sur les appareils modernes dotés d'une Secure Enclave (puce de sécurité T2 d'Apple, Apple silicium), vos données sont toujours chiffrées, mais elles sont déchiffrées automatiquement par une clé matérielle si votre appareil ne détecte pas qu'il a été altéré. L'activation de FileVault requiert en outre votre mot de passe pour déchiffrer vos données, ce qui améliore considérablement la sécurité, en particulier lorsque l'ordinateur est éteint ou avant la première connexion après la mise sous tension.
 
-On older Intel-based Mac computers, FileVault is the only form of disk encryption available by default, and should always be enabled.
+Sur les anciens ordinateurs Mac à processeur Intel, FileVault est la seule forme de chiffrement de disque disponible par défaut et doit toujours être activé.
 
-- [x] Click **Turn On**
+- [x] Cliquez sur **Activer**
 
-##### Lockdown Mode
+##### Mode Isolement
 
-[Lockdown Mode](https://blog.privacyguides.org/2022/10/27/macos-ventura-privacy-security-updates/#lockdown-mode) disables some features in order to improve security. Some apps or features won't work the same way they do when it's off, for example, [JIT](https://hacks.mozilla.org/2017/02/a-crash-course-in-just-in-time-jit-compilers/) and [WASM](https://developer.mozilla.org/en-US/docs/WebAssembly) are disabled in Safari with Lockdown Mode enabled. We recommend enabling Lockdown Mode and seeing whether it significantly impacts your usage, many of the changes it makes are easy to live with.
+Le [mode Isolement](https://blog.privacyguides.org/2022/10/27/macos-ventura-privacy-security-updates/#lockdown-mode) désactive certaines fonctionnalités afin d'améliorer la sécurité. Certaines applications ou fonctionnalités ne fonctionneront pas de la même manière que lorsqu'il est désactivé. Par exemple, [JIT](https://hacks.mozilla.org/2017/02/a-crash-course-in-just-in-time-jit-compilers/) et [WASM](https://developer.mozilla.org/fr/docs/WebAssembly) sont désactivés dans Safari lorsque le mode Isolement est activé. Nous vous recommandons d'activer le mode Isolement et de voir s'il a un impact significatif sur votre utilisation, car la plupart des changements qu'il apporte sont faciles à vivre.
 
-- [x] Click **Turn On**
+- [x] Cliquez sur **Activer**
 
 ### Adresse MAC aléatoire
 
-Unlike iOS, macOS doesn't give you an option to randomize your MAC address in the settings, so you'll need to do it with a command or a script.
+Contrairement à iOS, macOS ne propose pas d'option pour randomiser votre adresse MAC dans les paramètres, vous devrez donc le faire à l'aide d'une commande ou d'un script.
 
-You open up your Terminal and enter this command to randomize your MAC address:
+Vous ouvrez votre Terminal et entrez cette commande pour randomiser votre adresse MAC :
 
 ``` zsh
 openssl rand -hex 6 | sed 's/\(..\)/\1:/g; s/.$//' | xargs sudo ifconfig en1 ether 
 ```
 
-en1 is the name of the interface you're changing the MAC address for. This might not be the right one on every Mac, so to check you can hold the option key and click the Wi-Fi symbol at the top right of your screen.
+en1 est le nom de l'interface dont vous modifiez l'adresse MAC. Il se peut que ce ne soit pas la bonne sur tous les Mac, donc pour vérifier, vous pouvez maintenir la touche option et cliquer sur le symbole Wi-Fi en haut à droite de votre écran.
 
-This will be reset on reboot.
+Cela sera réinitialisé lors du redémarrage.
 
-## Security Protections
+## Protections de sécurité
 
-macOS employs defense in depth by relying on multiple layers of software and hardware-based protections, with different properties. This ensures that a failure in one layer does not compromise the system's overall security.
+macOS utilise la défense en profondeur en s'appuyant sur plusieurs couches de protections logicielles et matérielles, avec des propriétés différentes. Cela garantit qu'une défaillance dans une couche ne compromet pas la sécurité globale du système.
 
-### Software Security
-
-!!! warning "Avertissement"
-
-    macOS allows you to install beta updates. These are unstable and may come with extra telemetry since they're for testing purposes. Because of this, we recommend you avoid beta software in general.
-
-#### Signed System Volume
-
-macOS's system components are protected in a read-only signed system volume, meaning that neither you nor malware can alter important system files.
-
-The system volume is verified while it's running and any data that's not signed with a valid cryptographic signature from Apple will be rejected.
-
-#### System Integrity Protection
-
-macOS sets certain security restrictions that can't be overridden. These are called Mandatory Access Controls, and they form the basis of the sandbox, parental controls, and System Integrity Protection on macOS.
-
-System Integrity Protection makes critical file locations read-only to protect against modification from malicious code. This is on top of the hardware-based Kernel Integrity Protection that keeps the kernel from being modified in-memory.
-
-#### Application Security
-
-##### App Sandbox
-
-macOS apps downloaded from the App Store are required to be sandboxed usng the [App Sandbox](https://developer.apple.com/documentation/security/app_sandbox).
+### Sécurité du logiciel
 
 !!! warning "Avertissement"
 
-    Software downloaded from outside the official App Store is not required to be sandboxed. You should avoid non-App Store software as much as possible.
+    macOS vous permet d'installer des mises à jour bêta. Elles sont instables et peuvent être accompagnées de données télémétriques supplémentaires puisqu'elles sont utilisées à des fins de test. Pour cette raison, nous vous recommandons d'éviter les logiciels bêta en général.
+
+#### Volume du système signé
+
+Les composants système de macOS sont protégés dans un volume système signé en lecture seule, ce qui signifie que ni vous ni les logiciels malveillants ne peuvent modifier les fichiers système importants.
+
+Le volume du système est vérifié en cours d'exécution et toute donnée qui n'est pas signée par une signature cryptographique valide d'Apple sera rejetée.
+
+#### Protection de l'intégrité du système
+
+macOS définit certaines restrictions de sécurité qui ne peuvent pas être contournées. Il s'agit des contrôles d'accès obligatoires, qui constituent la base du sandbox, du contrôle parental et de la protection de l'intégrité du système dans macOS.
+
+La protection de l'intégrité du système met en lecture seule les emplacements de fichiers critiques afin de les protéger contre toute modification par des codes malveillants. Cela s'ajoute à la protection de l'intégrité du noyau basée sur le matériel, qui empêche le noyau d'être modifié en mémoire.
+
+#### Sécurité des applications
+
+##### Sandbox des applications
+
+Les applications macOS téléchargées à partir de l'App Store doivent être mises en sandbox à l'aide de [App Sandbox](https://developer.apple.com/documentation/security/app_sandbox).
+
+!!! warning "Avertissement"
+
+    Les logiciels téléchargés en dehors de l'App Store officiel n'ont pas besoin d'être placés en sandbox. Vous devriez éviter autant que possible les logiciels qui ne font pas partie de l'App Store.
 
 ##### Antivirus
 
-macOS comes with two forms of malware defense:
+macOS est doté de deux formes de défense contre les logiciels malveillants :
 
-1. Protection against launching malware in the first place is provided by the App Store's review process for App Store applications, or *Notarization* (part of *Gatekeeper*), a process where third-party apps are scanned for known malware by Apple before they are allowed to run.
-2. Protection against other malware and remediation from existing malware on your system is provided by *XProtect*, a more traditional antivirus software built-in to macOS.
+1. La protection contre le lancement de logiciels malveillants est assurée par le processus d'examen des applications de l'App Store, ou *Notarization* (fait partie de *Gatekeeper*), un processus au cours duquel les applications tierces sont analysées par Apple à la recherche de logiciels malveillants connus avant d'être autorisées à s'exécuter.
+2. La protection contre les autres logiciels malveillants et la remédiation des logiciels malveillants existants sur votre système sont assurées par *XProtect*, un logiciel antivirus plus traditionnel intégré à macOS.
 
-We recommend against installing third-party antivirus software as they typically do not have the system-level access required to properly function anyways, because of Apple's limitations on third-party apps, and because granting the high levels of access they do ask for often poses an even greater security and privacy risk to your computer.
+Nous vous déconseillons d'installer des logiciels antivirus tiers, car ils n'ont généralement pas l'accès au niveau du système nécessaire pour fonctionner correctement, en raison des limitations imposées par Apple aux applications tierces, et parce que l'octroi des niveaux d'accès élevés qu'ils demandent pose souvent un risque encore plus grand pour la sécurité et la vie privée de votre ordinateur.
 
 ##### Sauvegardes
 
-macOS comes with automatic backup software called [Time Machine](https://support.apple.com/HT201250), so you can create encrypted backups to an external or network drive in the event of corrupted/deleted files.
+macOS est livré avec un logiciel de sauvegarde automatique appelé [Time Machine](https://support.apple.com/HT201250), qui vous permet de créer des sauvegardes chiffrées sur un disque externe ou réseau en cas de fichiers corrompus/supprimés.
 
-### Hardware Security
+### Sécurité matérielle
 
-Many modern security features in macOS—such as modern Secure Boot, hardware-level exploit mitigation, OS integrity checks, and file-based encryption—rely on Apple silicon, and Apple's newer hardware always has the [best security](https://support.apple.com/guide/security/apple-soc-security-sec87716a080/1/web/1). We only encourage the use of Apple silicon, and not older Intel-based Mac computers or Hackintoshes.
+De nombreuses fonctions de sécurité modernes de macOS - telles que le démarrage sécurisé moderne, l'atténuation des exploits au niveau matériel, les vérifications de l'intégrité du système d'exploitation et le chiffrement des fichiers - reposent sur le silicium d'Apple, et le matériel le plus récent d'Apple est toujours doté de la [meilleure sécurité](https://support.apple.com/guide/security/apple-soc-security-sec87716a080/1/web/1). Nous n'encourageons que l'utilisation du silicium d'Apple, et non des anciens ordinateurs Mac à base d'Intel ou des Hackintosh.
 
-Some of these modern security features are available on older Intel-based Mac computers with the Apple T2 Security Chip, but that chip is susceptible to the *checkm8* exploit which could compromise its security,
+Some of these modern security features are available on older Intel-based Mac computers with the Apple T2 Security Chip, but that chip is susceptible to the *checkm8* exploit which could compromise its security.
 
-If you use Bluetooth accessories such as a keyboard, we recommend that you use official Apple ones as their firmware will automatically be updated for you by macOS. Using third party accessories is fine, but you should remember to install firmware updates for them regularly.
+Si vous utilisez des accessoires Bluetooth tels qu'un clavier, nous vous recommandons d'utiliser les accessoires officiels d'Apple car leur micrologiciel sera automatiquement mis à jour pour vous par macOS. L'utilisation d'accessoires tiers est possible, mais il faut penser à installer régulièrement les mises à jour du micrologiciel de ces accessoires.
 
-Apple's SoCs focus on minimizing attack surface by relegating security functions to dedicated hardware with limited functionality.
+Les SoC d'Apple s'attachent à minimiser la surface d'attaque en reléguant les fonctions de sécurité à un matériel dédié aux fonctionnalités limitées.
 
-#### Boot ROM
+#### ROM d'amorçage
 
-macOS prevents malware persistence by only allowing official Apple software to run at boot time; this is known as secure boot. Mac computers verify this with a bit of read-only memory on the SoC called the boot ROM, which is laid down during the manufacturing of the chip.
+macOS empêche la persistance des logiciels malveillants en n'autorisant que les logiciels officiels d'Apple à s'exécuter au moment du démarrage ; c'est ce qu'on appelle le démarrage sécurisé. Les ordinateurs Mac le vérifient grâce à une partie de la mémoire en lecture seule du circuit intégré, appelée ROM d'amorçage, qui est mise en place lors de la fabrication de la puce.
 
-The boot ROM forms the hardware root of trust. This ensures that malware cannot tamper with the boot process. When your Mac boots up, the boot ROM is the first thing that runs, forming the first link in the chain of trust.
+La ROM d'amorçage constitue la racine de confiance du matériel. Cela garantit que les logiciels malveillants ne peuvent pas altérer le processus de démarrage. Lorsque votre Mac démarre, la ROM d'amorçage est la première chose qui s'exécute, formant le premier maillon de la chaîne de confiance.
 
-Mac computers can be configured to boot in three security modes: *Full Security*, *Reduced Security*, and *Permissive Security*, with the default setting being Full Security. You should ideally be using Full Security mode and avoid things like **kernel extensions** that force you to lower your security mode. Make sure to [check](https://support.apple.com/guide/mac-help/change-security-settings-startup-disk-a-mac-mchl768f7291/mac) that you're using Full Security mode.
+Les ordinateurs Mac peuvent être configurés pour démarrer selon trois modes de sécurité : *Sécurité complète*, *Sécurité réduite*, et *Sécurité permissive*, le paramètre par défaut étant Sécurité complète. L'idéal est d'utiliser le mode de sécurité complète et d'éviter des choses comme les **extensions de noyau** qui vous obligent à réduire votre mode de sécurité. Veillez à [vérifier](https://support.apple.com/guide/mac-help/change-security-settings-startup-disk-a-mac-mchl768f7291/mac) que vous utilisez le mode Sécurité complète.
 
-#### Secure Enclave
+#### Enclave sécurisée
 
-The Secure Enclave is a security chip built into devices with Apple silicon which is responsible for storing and generating encryption keys for data at rest as well as Face ID and Touch ID data. It contains its own separate boot ROM.
+L'Enclave sécurisée est une puce de sécurité intégrée dans les appareils dotés du silicium d'Apple, qui est chargée de stocker et de générer des clés de chiffrement pour les données au repos ainsi que pour les données Face ID et Touch ID. Il contient sa propre ROM d'amorçage.
 
-You can think of the Secure Enclave as your device's security hub: it has an AES encryption engine and a mechanism to securely store your encryption keys, and it's separated from the rest of the system, so even if the main processor is compromised, it should still be safe.
+Vous pouvez considérer l'Enclave sécurisée comme le centre de sécurité de votre appareil : elle dispose d'un moteur de chiffrement AES et d'un mécanisme pour stocker en toute sécurité vos clés de chiffrement, et elle est séparée du reste du système, de sorte que même si le processeur principal est compromis, elle devrait rester sûre.
 
 #### Touch ID
 
-Apple's Touch ID feature allows you to securely unlock your devices using biometrics.
+La fonction Touch ID d'Apple vous permet de déverrouiller vos appareils en toute sécurité à l'aide de la biométrie.
 
-Your biometric data never leaves your device; it's stored only in the Secure Enclave.
+Vos données biométriques ne quittent jamais votre appareil ; elles sont stockées uniquement dans l'Enclave sécurisée.
 
-#### Hardware Microphone Disconnect
+#### Déconnexion matérielle du microphone
 
-All laptops with Apple silicon or the T2 chip feature a hardware disconnect for the built-in microphone whenever the lid is closed. This means that there is no way for an attacker to listen to your Mac's microphone even if the operating system is compromised.
+Tous les ordinateurs portables équipés de silicium Apple ou de la puce T2 disposent d'une déconnexion matérielle du microphone intégrée lorsque le couvercle est fermé. Cela signifie qu'il n'y a aucun moyen pour un attaquant d'écouter le microphone de votre Mac, même si le système d'exploitation est compromis.
 
-Note that the camera does not have a hardware disconnect, since its view is obscured when the lid is closed anyway.
+Notez que la caméra n'a pas de déconnexion matérielle, puisque sa vue est de toute façon obscurcie lorsque le couvercle est fermé.
 
-#### Peripheral Processor Security
+#### Sécurité des processeurs périphériques
 
-Computers have built-in processors other than the main CPU that handle things like networking, graphics, power management, etc. These processors can have insufficient security and become compromised, therefore Apple tries to minimize the need for these processors in their hardware.
+Les ordinateurs sont dotés de processeurs intégrés autres que le processeur principal, qui gèrent des fonctions telles que la mise en réseau, les graphiques, la gestion de l'alimentation, etc. Ces processeurs peuvent avoir une sécurité insuffisante et être compromis, c'est pourquoi Apple essaie de minimiser la nécessité de ces processeurs dans son matériel.
 
-When it is necessary to use one of these processors, Apple works with the vendor to ensure that the processor
+Lorsqu'il est nécessaire d'utiliser l'un de ces processeurs, Apple travaille avec le fournisseur pour s'assurer que le processeur
 
-- runs verified firmware from the primary CPU on startup
-- has its own Secure Boot chain
-- follows minimum cryptographic standards
-- ensures known bad firmware is properly revoked
-- has its debug interfaces disabled
-- is signed with Apple's cryptographic keys
+- exécute le micrologiciel vérifié du processeur principal au démarrage
+- possède sa propre chaîne de démarrage sécurisé
+- respecte des normes cryptographiques minimales
+- garantit que les microprogrammes connus comme étant défectueux sont révoqués de manière appropriée
+- a ses interfaces de débogage désactivées
+- est signé avec les clés cryptographiques d'Apple
 
-#### Direct Memory Access Protections
+#### Protections contre l'accès direct à la mémoire
 
-Apple silicon separates each component that requires direct memory access. For example, a Thunderbolt port can't access memory designated for the kernel.
+Le silicium d'Apple sépare chaque composant qui nécessite un accès direct à la mémoire. Par exemple, un port Thunderbolt ne peut pas accéder à la mémoire réservée au noyau.
 
 ## Sources
 
-- [Apple Platform Security](https://support.apple.com/guide/security/welcome/web)
+- [Sécurité de la plate-forme Apple](https://support.apple.com/guide/security/welcome/web)

@@ -1,24 +1,24 @@
 ---
-title: Android Overview
+title: Androidの概要
 icon: simple/android
-description: Android is an open-source operating system with strong security protections, which makes it our top choice for phones.
+description: アンドロイドはオープンソースのオペレーティングシステムで、強力なセキュリティ保護が施されている。
 ---
 
-Android is a secure operating system that has strong [app sandboxing](https://source.android.com/security/app-sandbox), [Verified Boot](https://source.android.com/security/verifiedboot) (AVB), and a robust [permission](https://developer.android.com/guide/topics/permissions/overview) control system.
+Androidは強力な[アプリのサンドボックス](https://source.android.com/security/app-sandbox)、[確認付きブート](https://source.android.com/security/verifiedboot) (AVB)、および堅牢な[パーミッション](https://developer.android.com/guide/topics/permissions/overview)制御システムを備えた安全なオペレーティングシステムです。
 
-## Choosing an Android Distribution
+## Androidディストリビューションの選択
 
-When you buy an Android phone, the device's default operating system often comes with invasive integration with apps and services that are not part of the [Android Open-Source Project](https://source.android.com/). An example of such is Google Play Services, which has irrevocable privileges to access your files, contacts storage, call logs, SMS messages, location, camera, microphone, hardware identifiers, and so on. These apps and services increase the attack surface of your device and are the source of various privacy concerns with Android.
+Androidの携帯を購入すると、その端末に標準で搭載されているOSには、 [アンドロイド・オープンソース・プロジェクト](https://source.android.com/)に含まれていないアプリやサービスが侵襲的に統合されていることが多いです。 例えば、Google Playサービスは、あなたのファイル、連絡先ストレージ、通話ログ、SMSメッセージ、位置情報、カメラ、マイク、ハードウェア識別子などにアクセスする取り消し不能な権限を持っています。 これらのアプリやサービスは、あなたのデバイスの攻撃対象を増やし、Androidのプライバシーに関する様々な懸念の原因となっています。
 
-This problem could be solved by using a custom Android distribution that does not come with such invasive integration. Unfortunately, many custom Android distributions often violate the Android security model by not supporting critical security features such as AVB, rollback protection, firmware updates, and so on. Some distributions also ship [`userdebug`](https://source.android.com/setup/build/building#choose-a-target) builds which expose root via [ADB](https://developer.android.com/studio/command-line/adb) and require [more permissive](https://github.com/LineageOS/android_system_sepolicy/search?q=userdebug&type=code) SELinux policies to accommodate debugging features, resulting in a further increased attack surface and weakened security model.
+この問題は、そのような侵襲的な統合を伴わないカスタムされたAndroidディストリビューションを使用することで解決できるかもしれません。 残念ながら、多くのカスタムされたAndroidディストリビューションは、AVB、ロールバック保護、ファームウェア・アップデートなどの重要なセキュリティ機能をサポートしておらず、Androidセキュリティ・モデルに違反していることが多いです。 ディストリビューションによっては、[`userdebug`](https://source.android.com/setup/build/building#choose-a-target)ビルドも出荷しています。このビルドは、 [ADB](https://developer.android.com/studio/command-line/adb) 経由で root を公開し、[より寛容な](https://github.com/LineageOS/android_system_sepolicy/search?q=userdebug&type=code) SELinux ポリシーをデバッグ機能に対応させるために必要とします。その結果、攻撃対象がさらに増加し、セキュリティモデルが弱体化します。
 
-Ideally, when choosing a custom Android distribution, you should make sure that it upholds the Android security model. At the very least, the distribution should have production builds, support for AVB, rollback protection, timely firmware and operating system updates, and SELinux in [enforcing mode](https://source.android.com/security/selinux/concepts#enforcement_levels). All of our recommended Android distributions satisfy these criteria.
+Android のカスタムされたディストリビューションを選択する場合、Android のセキュリティモデルが維持されていることを確認してください。 少なくとも、製品用ビルド、AVBのサポート、ロールバック保護、適時のファームウェアとオペレーティングシステムのアップデート、および[強制モード](https://source.android.com/security/selinux/concepts#enforcement_levels)のSELinuxを持つべきです。 私たちが推奨するAndroidディストリビューションはすべて、これらの基準を満たしています。
 
-[Our Android System Recommendations :material-arrow-right-drop-circle:](../android.md ""){.md-button}
+[私たちがお勧めしているAndroidシステム :material-arrow-right-drop-circle:](../android.md ""){.md-button}
 
 ## Avoid Rooting
 
-[Rooting](https://en.wikipedia.org/wiki/Rooting_(Android)) Android phones can decrease security significantly as it weakens the complete [Android security model](https://en.wikipedia.org/wiki/Android_(operating_system)#Security_and_privacy). This can decrease privacy should there be an exploit that is assisted by the decreased security. Common rooting methods involve directly tampering with the boot partition, making it impossible to perform successful Verified Boot. Apps that require root will also modify the system partition meaning that Verified Boot would have to remain disabled. Having root exposed directly in the user interface also increases the [attack surface](https://en.wikipedia.org/wiki/Attack_surface) of your device and may assist in [privilege escalation](https://en.wikipedia.org/wiki/Privilege_escalation) vulnerabilities and SELinux policy bypasses.
+[](https://en.wikipedia.org/wiki/Rooting_(Android)) Android携帯のルート化は、完全な[Androidセキュリティモデル](https://en.wikipedia.org/wiki/Android_(operating_system)#Security_and_privacy)を弱めるため、セキュリティを著しく低下させる可能性があります。 これにより、セキュリティが低下し悪用された場合、プライバシーを低下させる可能性があります。 一般的なルーティング方法では、ブートパーティションを直接変更してしまうため、Verified Bootを成功させることは不可能になります。 ルートを必要とするアプリはシステムパーティションを変更するため、確認付きブートは無効のままでなければなりません。 また、ユーザーインターフェースで直接ルートを露出させると、[デバイスの攻撃面](https://en.wikipedia.org/wiki/Attack_surface)が増加し 、 [権限昇格](https://en.wikipedia.org/wiki/Privilege_escalation)の脆弱性やSELinuxポリシーのバイパス を助長する可能性があります。
 
 Adblockers, which modify the [hosts file](https://en.wikipedia.org/wiki/Hosts_(file)) (AdAway) and firewalls (AFWall+) which require root access persistently are dangerous and should not be used. They are also not the correct way to solve their intended purposes. For Adblocking we suggest encrypted [DNS](../dns.md) or [VPN](../vpn.md) server blocking solutions instead. RethinkDNS, TrackerControl and AdAway in non-root mode will take up the VPN slot (by using a local loopback VPN) preventing you from using privacy enhancing services such as Orbot or a real VPN server.
 
@@ -26,9 +26,9 @@ AFWall+ works based on the [packet filtering](https://en.wikipedia.org/wiki/Fire
 
 We do not believe that the security sacrifices made by rooting a phone are worth the questionable privacy benefits of those apps.
 
-## Verified Boot
+## 確認付きブート
 
-[Verified Boot](https://source.android.com/security/verifiedboot) is an important part of the Android security model. It provides protection against [evil maid](https://en.wikipedia.org/wiki/Evil_maid_attack) attacks, malware persistence, and ensures security updates cannot be downgraded with [rollback protection](https://source.android.com/security/verifiedboot/verified-boot#rollback-protection).
+[確認付きブート](https://source.android.com/security/verifiedboot) は、アンドロイドのセキュリティ・モデルの重要な部分である。 It provides protection against [evil maid](https://en.wikipedia.org/wiki/Evil_maid_attack) attacks, malware persistence, and ensures security updates cannot be downgraded with [rollback protection](https://source.android.com/security/verifiedboot/verified-boot#rollback-protection).
 
 Android 10 and above has moved away from full-disk encryption to more flexible [file-based encryption](https://source.android.com/security/encryption/file-based). Your data is encrypted using unique encryption keys, and the operating system files are left unencrypted.
 

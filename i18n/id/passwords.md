@@ -136,14 +136,14 @@ Pengelola kata sandi ini menyinkronkan kata sandi Anda ke server cloud untuk kem
 
 !!! recommendation
 
-    ![Bitwarden logo](assets/img/password-management/bitwarden.svg){ align=right }
+    ![Logo Bitwarden](assets/img/password-management/bitwarden.svg){ align=right }
     
-    **Bitwarden** is a free and open-source password manager. It aims to solve password management problems for individuals, teams, and business organizations. Bitwarden is among the best and safest solutions to store all of your logins and passwords while conveniently keeping them synced between all of your devices.
+    **Bitwarden** adalah sebuah pengelola kata sandi yang gratis dan bersumber terbuka. Ini bertujuan untuk memecahkan masalah manajemen kata sandi untuk individu, tim, dan organisasi bisnis. Bitwarden merupakan salah satu solusi terbaik dan teraman untuk menyimpan semua login dan kata sandi Anda sekaligus menjaganya agar tetap tersinkronisasi dengan mudah di antara semua perangkat Anda.
     
     [:octicons-home-16: Homepage](https://bitwarden.com){ .md-button .md-button--primary }
-    [:octicons-eye-16:](https://bitwarden.com/privacy){ .card-link title="Privacy Policy" }
-    [:octicons-info-16:](https://bitwarden.com/help/){ .card-link title=Documentation}
-    [:octicons-code-16:](https://github.com/bitwarden){ .card-link title="Source Code" }
+    [:octicons-eye-16:](https://bitwarden.com/privacy){ .card-link title="Kebijakan Privasi" }
+    [:octicons-info-16:](https://bitwarden.com/help/){ .card-link title=Dokumentasi}
+    [:octicons-code-16:](https://github.com/bitwarden){ .card-link title="Kode Sumber" }
     
     ??? downloads
     
@@ -157,9 +157,9 @@ Pengelola kata sandi ini menyinkronkan kata sandi Anda ke server cloud untuk kem
         - [:simple-googlechrome: Chrome](https://chrome.google.com/webstore/detail/bitwarden-free-password-m/nngceckbapebfimnlniiiahkandclblb)
         - [:simple-microsoftedge: Edge](https://microsoftedge.microsoft.com/addons/detail/jbkfoedolllekgbhcbcoahefnbanhhlh)
 
-Bitwarden also features [Bitwarden Send](https://bitwarden.com/products/send/), which allows you to share text and files securely with [end-to-end encryption](https://bitwarden.com/help/send-encryption). A [password](https://bitwarden.com/help/send-privacy/#send-passwords) can be required along with the send link. Bitwarden Send also features [automatic deletion](https://bitwarden.com/help/send-lifespan).
+Bitwarden juga memiliki fitur [Bitwarden Send](https://bitwarden.com/products/send/), yang memungkinkan Anda untuk berbagi teks dan file dengan aman dengan [ enkripsi end-to-end](https://bitwarden.com/help/send-encryption). [Kata sandi](https://bitwarden.com/help/send-privacy/#send-passwords) dapat diminta bersama dengan tautan kirim. Bitwarden Send juga memiliki fitur [penghapusan otomatis](https://bitwarden.com/help/send-lifespan).
 
-You need the [Premium Plan](https://bitwarden.com/help/about-bitwarden-plans/#compare-personal-plans) to be able to share files. The free plan only allows text sharing.
+Anda memerlukan [Paket Premium](https://bitwarden.com/help/about-bitwarden-plans/#compare-personal-plans) untuk dapat berbagi file. Paket yang gratis hanya bisa berbagi teks saja.
 
 Bitwarden's server-side code is [open-source](https://github.com/bitwarden/server), so if you don't want to use the Bitwarden cloud, you can easily host your own Bitwarden sync server.
 

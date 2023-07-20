@@ -48,6 +48,6 @@ nav:
   Blog: ブログ
 site:
   homepage_card: |
-    A socially motivated website which provides information about protecting your online data privacy and security.
+    オンライン・データのプライバシーとセキュリティの保護に関する情報を提供する、社会的目的を持つウェブサイト。
   translation: |
-    You're viewing the English copy of Privacy Guides, translated by our fantastic language team on Crowdin. If you notice an error, or see any untranslated sections on this page, please consider helping out! For more information and tips see our translation guide.
+    あなたはCrowdinの言語チームによって英語から翻訳されたPrivacy Guidesを表示しています。翻訳の問題に気がついた場合や、このページに未翻訳の項目がある場合は、翻訳への協力をご検討ください。

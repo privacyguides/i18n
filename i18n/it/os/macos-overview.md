@@ -201,7 +201,7 @@ macOS presenta un software di backup automatico chiamato [Time Machine](https://
 
 Molte funzionalità di sicurezza moderne su macOS, come Avvio Sicuro, la mitigazione degli exploit a livello hardware, i controlli d'integrità dell'OS e la crittografia basata sui file, si affidano ad Apple silicon e i più nuovi hardware di Apple hanno sempre la [migliore sicurezza](https://support.apple.com/guide/security/apple-soc-security-sec87716a080/1/web/1). Incoraggiamo esclusivamente l'utilizzo di Apple silicon, e non dei precedenti computer Mac o Hackintosh basati su Intel.
 
-Alcune di queste funzionalità di sicurezza moderne sono disponibili sui vecchi computer Mac basati su Intel con il Chip di Sicurezza Apple T2 ma, tale chip, è suscettivile all'exploit *checkm8*, che potrebbe comprometterne la sicurezza.
+Alcune di queste funzionalità di sicurezza moderne sono disponibili sui vecchi computer Mac con processore Intel con l'Apple T2 Security Chip, ma questo chip è suscettibile all'exploit *checkm8* che potrebbe comprometterne la sicurezza.
 
 Se utilizzi accessori Bluetooth come una tastiera, consigliamo di utilizzarne di ufficiali di Apple, poiché il loro firmware sarà automaticamente aggiornato per te da macOS. Utilizzare accessori di terze parti va bene, ma dovresti ricordarti di installarne regolarmente gli aggiornamenti del firmware.
 

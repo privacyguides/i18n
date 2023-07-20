@@ -184,7 +184,7 @@ Skiff прошел несколько [аудитов](https://skiff.com/transpa
 
 #### :material-check:{ .pg-green } Пользовательские домены и псевдонимы
 
-С бесплатным тарифным планом вам доступно до 3 дополнительных псевдонимов электронной почты (с доменом @skiff.com) в дополнении к вашему главному почтовому адресу. [Пользовательские домены](https://skiff.com/blog/custom-domain-setup) позволяют создавать неограниченное количество псевдонимов, но они доступны только на тарифном плане Pro или Business.
+С бесплатным тарифным планом вам доступно до 3 дополнительных псевдонимов электронной почты (с доменом @skiff.com) в дополнении к вашему главному почтовому адресу. Free accounts can add 1 [custom domain](https://skiff.com/blog/custom-domain-setup), and up to 15 custom domains on a paid plan. You can create unlimited aliases or a [catch-all](https://skiff.com/blog/catch-all-email-alias) alias on your custom domain.
 
 #### :material-alert-outline:{ .pg-orange } Конфиденциальные способы оплаты
 
