@@ -81,21 +81,21 @@ Proton Mail از TOTP [احراز هویت دو عاملی](https://proton.me/su
 
 Proton Mail دارای [رمزگذاری بدون دسترسی](https://proton.me/blog/zero-access-encryption) برای سرویس ایمیل‌ و [تقویم](https://proton.me/news/protoncalendar-security-model) است. داده های ایمن شده با رمزگذاری دسترسی صفر فقط توسط شما قابل دسترسی است.
 
-Certain information stored in [Proton Contacts](https://proton.me/support/proton-contacts), such as display names and email addresses, are not secured with zero-access encryption. Contact fields that support zero-access encryption, such as phone numbers, are indicated with a padlock icon.
+برخی از اطلاعات ذخیره شده در [Proton Contacts](https://proton.me/support/proton-contacts)، مانند نام‌های نمایشی و آدرس‌های ایمیل، با رمزگذاری دسترسی صفر ایمن نمی‌شوند. فیلدهای مخاطبین که از رمزگذاری دسترسی صفر پشتیبانی می کنند، مانند شماره تلفن، با نماد قفل نشان مشخص می شوند.
 
-#### :material-check:{ .pg-green } Email Encryption
+#### :material-check:{ .pg-green } رمزگذاری ایمیل
 
-Proton Mail has [integrated OpenPGP encryption](https://proton.me/support/how-to-use-pgp) in their webmail. Emails to other Proton Mail accounts are encrypted automatically, and encryption to non-Proton Mail addresses with an OpenPGP key can be enabled easily in your account settings. They also allow you to [encrypt messages to non-Proton Mail addresses](https://proton.me/support/password-protected-emails) without the need for them to sign up for a Proton Mail account or use software like OpenPGP.
+Proton Mail دارای [رمزگذاری OpenPGP یکپارچه](https://proton.me/support/how-to-use-pgp) در ایمیل خود است. ایمیل‌های سایر حساب‌های Proton Mail به‌طور خودکار رمزگذاری می‌شوند و رمزگذاری آدرس‌های ایمیل غیر پروتون با کلید OpenPGP به راحتی در تنظیمات حساب شما فعال می‌شود. آنها همچنین به شما این امکان را می‌دهند که [پیام‌های ارسال شده به آدرس‌های ایمیل غیر پروتون را رمزگذاری کنید](https://proton.me/support/password-protected-emails) بدون اینکه نیازی به ثبت نام حساب Proton Mail یا استفاده از نرم‌افزاری مانند OpenPGP باشد.
 
-Proton Mail also supports the discovery of public keys via HTTP from their [Web Key Directory (WKD)](https://wiki.gnupg.org/WKD). This allows people who don't use Proton Mail to find the OpenPGP keys of Proton Mail accounts easily, for cross-provider E2EE.
+Proton Mail همچنین از کشف کلیدهای عمومی از طریق HTTP از [دایرکتوری کلیدهای وب (WKD)](https://wiki.gnupg.org/WKD) پشتیبانی می کند. این قابلیت به افرادی که از سرویس Proton Mail استفاده نمی‌کنند اجازه می‌دهد تا کلیدهای OpenPGP حساب‌های Proton Mail را برای رمزگذاری E2EE سرویس‌های دیگر به راحتی پیدا کنند.
 
-#### :material-information-outline:{ .pg-blue } Account Termination
+#### :material-information-outline:{ .pg-blue } بستن حساب
 
-If you have a paid account and your [bill is unpaid](https://proton.me/support/delinquency) after 14 days, you won't be able to access your data. After 30 days, your account will become delinquent and won't receive incoming mail. You will continue to be billed during this period.
+اگر یک حساب پولی دارید و [صورتحساب شما پس از 14 روز پرداخت نشده است](https://proton.me/support/delinquency)، نمی‌توانید به داده‌های خود دسترسی داشته باشید. پس از 30 روز، حساب شما معلق می‌شود و نامه های دریافتی را دریافت نمی‌کند. در این مدت صورتحساب شما ادامه خواهد داشت.
 
-#### :material-information-outline:{ .pg-blue } Additional Functionality
+#### :material-information-outline:{ .pg-blue } عملکردهای دیگر
 
-Proton Mail offers an "Unlimited" account for €9.99/Month, which also enables access to Proton VPN in addition to providing multiple accounts, domains, aliases, and 500GB of storage.
+Proton Mail یک حساب "نامحدود" یا Unlimited به مبلغ 9.99 یورو در ماه ارائه می‌دهد که علاوه بر ارائه چندین حساب، دامنه، نام مستعار و 500 گیگابایت فضای ذخیره سازی، دسترسی به Proton VPN را نیز امکان پذیر می‌کند.
 
 Proton Mail doesn't offer a digital legacy feature.
 
@@ -105,43 +105,49 @@ Proton Mail doesn't offer a digital legacy feature.
 
     ![Mailbox.org logo](assets/img/email/mailboxorg.svg){ align=right }
     
-    **Mailbox.org** is an email service with a focus on being secure, ad-free, and privately powered by 100% eco-friendly energy. They have been in operation since 2014. Mailbox.org is based in Berlin, Germany. Accounts start with 2 GB of storage, which can be upgraded as needed.
+    **Mailbox.org** یک سرویس ایمیل با تمرکز بر ایمن بودن، بدون آگهی و خصوصی بودن با مصرف انرژی 100% سازگار با محیط زیست است. آنها از سال 2014 شروع به کار کرده‌اند. Mailbox.org در برلین آلمان مستقر است. حساب‌ها با ۲ گیگابایت فضای ذخیره‌سازی شروع می‌شوند که در صورت نیاز می‌توان آن را ارتقا داد.
     
     [:octicons-home-16: Homepage](https://mailbox.org){ .md-button .md-button--primary }
     [:octicons-eye-16:](https://mailbox.org/en/data-protection-privacy-policy){ .card-link title="Privacy Policy" }
     [:octicons-info-16:](https://kb.mailbox.org/en/private){ .card-link title=Documentation}
     
-    ??? downloads
-    
-        - [:octicons-browser-16: Web](https://login.mailbox.org)
+    ???     - [:octicons-browser-16: Web](https://login.mailbox.org)
 
-#### :material-check:{ .pg-green } Custom Domains and Aliases
+#### :material-check:{ .pg-green } دامنه ها و نام های مستعار (Aliases) سفارشی
 
-Mailbox.org lets you use your own domain, and they support [catch-all](https://kb.mailbox.org/display/MBOKBEN/Using+catch-all+alias+with+own+domain) addresses. Mailbox.org also supports [subaddressing](https://kb.mailbox.org/display/BMBOKBEN/What+is+an+alias+and+how+do+I+use+it), which is useful if you don't want to purchase a domain.
+Mailbox.org به شما امکان می‌دهد از دامنه خود استفاده کنید و آدرس های [catch-all](https://kb.mailbox.org/display/MBOKBEN/Using+catch-all+alias+with+own+domain) را پشتیبانی می‌کند. Mailbox.org همچنین از [subaddressing](https://kb.mailbox.org/display/BMBOKBEN/What+is+an+alias+and+how+do+do+I+use+it) پشتیبانی می کند. اگر نمی‌خواهید دامنه بخرید این قابلیت مفید است.
 
 #### :material-check:{ .pg-green } روش های پرداخت خصوصی
 
-Mailbox.org doesn't accept any cryptocurrencies as a result of their payment processor BitPay suspending operations in Germany. However, they do accept Cash by mail, cash payment to bank account, bank transfer, credit card, PayPal and couple of German-specific processors: paydirekt and Sofortüberweisung.
+به دلیل تعلیق پرداخت‌یار BitPay در آلمان، Mailbox.org هیچ ارز دیجیتالی را نمی‌پذیرد. با این حال، آنها پول نقد از طریق پست، پرداخت نقدی به حساب بانکی، انتقال بانکی، کارت اعتباری، پی پال و چند پرداخت‌یار خاص آلمانی paydirekt و Sofortüberweisung را می پذیرند.
 
 #### :material-check:{ .pg-green } امنیت حساب
 
-Mailbox.org supports [two factor authentication](https://kb.mailbox.org/display/MBOKBEN/How+to+use+two-factor+authentication+-+2FA) for their webmail only. You can use either TOTP or a [YubiKey](https://en.wikipedia.org/wiki/YubiKey) via the [YubiCloud](https://www.yubico.com/products/services-software/yubicloud). Web standards such as [WebAuthn](https://en.wikipedia.org/wiki/WebAuthn) are not yet supported.
+Mailbox.org [تأیید هویت دو عاملی (2FA)](https://kb.mailbox.org/display/MBOKBEN/How+to+use+two-factor+authentication+-+2FA) را فقط برای ایمیل وب خود پشتیبانی می کند. می توانید از TOTP یا [YubiKey](https://en.wikipedia.org/wiki/YubiKey) از طریق [YubiCloud](https://www.yubico.com/products/services-software/yubicloud) استفاده کنید. استانداردهای وب مانند [WebAuthn](https://en.wikipedia.org/wiki/WebAuthn) هنوز پشتیبانی نمی‌شوند.
 
-#### :material-information-outline:{ .pg-blue } Data Security
+#### :material-information-outline:{ .pg-blue } امنیت داده
 
-Mailbox.org allows for encryption of incoming mail using their [encrypted mailbox](https://kb.mailbox.org/display/MBOKBEN/The+Encrypted+Mailbox). New messages that you receive will then be immediately encrypted with your public key.
+Mailbox.org امکان رمزگذاری نامه های دریافتی را با استفاده از [صندوق پستی رمزگذاری شده](https://kb.mailbox.org/display/MBOKBEN/The+Encrypted+Mailbox) خود می دهد. پیام های جدیدی که دریافت می‌کنید بلافاصله با کلید عمومی شما رمزگذاری می‌شوند.
 
-However, [Open-Exchange](https://en.wikipedia.org/wiki/Open-Xchange), the software platform used by Mailbox.org, [does not support](https://kb.mailbox.org/display/BMBOKBEN/Encryption+of+calendar+and+address+book) the encryption of your address book and calendar. A [standalone option](calendar.md) may be more appropriate for that information.
+با این حال، [Open-Exchange](https://en.wikipedia.org/wiki/Open-Xchange)، پلتفرم نرم‌افزاری که Mailbox.org از آن استفاده می‌کند،
 
-#### :material-check:{ .pg-green } Email Encryption
+مخاطبین (Contacts) و تقویم را رمزگذاری نمی‌کند. A [standalone option](calendar.md) may be more appropriate for that information.</p> 
+
+
+
+#### :material-check:{ .pg-green } رمزگذاری ایمیل
 
 Mailbox.org has [integrated encryption](https://kb.mailbox.org/display/MBOKBEN/Send+encrypted+e-mails+with+Guard) in their webmail, which simplifies sending messages to people with public OpenPGP keys. They also allow [remote recipients to decrypt an email](https://kb.mailbox.org/display/MBOKBEN/My+recipient+does+not+use+PGP) on Mailbox.org's servers. This feature is useful when the remote recipient does not have OpenPGP and cannot decrypt a copy of the email in their own mailbox.
 
 Mailbox.org also supports the discovery of public keys via HTTP from their [Web Key Directory (WKD)](https://wiki.gnupg.org/WKD). This allows people outside of Mailbox.org to find the OpenPGP keys of Mailbox.org accounts easily, for cross-provider E2EE.
 
-#### :material-information-outline:{ .pg-blue } Account Termination
+
+
+#### :material-information-outline:{ .pg-blue } بستن حساب
 
 Your account will be set to a restricted user account when your contract ends, after [30 days it will be irrevocably deleted](https://kb.mailbox.org/en/private/payment-article/what-happens-at-the-end-of-my-contract).
+
+
 
 #### :material-information-outline:{ .pg-blue } Additional Functionality
 
@@ -150,6 +156,8 @@ You can access your Mailbox.org account via IMAP/SMTP using their [.onion servic
 All accounts come with limited cloud storage that [can be encrypted](https://kb.mailbox.org/display/MBOKBEN/Encrypt+files+on+your+Drive). Mailbox.org also offers the alias [@secure.mailbox.org](https://kb.mailbox.org/display/MBOKBEN/Ensuring+E-Mails+are+Sent+Securely), which enforces the TLS encryption on the connection between mail servers, otherwise the message will not be sent at all. Mailbox.org also supports [Exchange ActiveSync](https://en.wikipedia.org/wiki/Exchange_ActiveSync) in addition to standard access protocols like IMAP and POP3.
 
 Mailbox.org has a digital legacy feature for all plans. You can choose whether you want any of your data to be passed to heirs providing that they apply and provide your testament. Alternatively, you can nominate a person by name and address.
+
+
 
 ## More Providers
 
@@ -180,38 +188,55 @@ These providers store your emails with zero-knowledge encryption, making them gr
         - [:simple-android: Android](https://play.google.com/store/apps/details?id=com.skemailmobileapp&pli=1)
         - [:simple-appstore: iOS](https://apps.apple.com/us/app/skiff-mail/id1619168801)
         - [:octicons-browser-16: Web](https://app.skiff.com/mail)
+    
 
 Skiff has undergone a few [audits](https://skiff.com/transparency) during its development.
+
+
 
 #### :material-check:{ .pg-green } Custom Domains and Aliases
 
 You can create up to 3 additional @skiff.com email aliases in addition to your primary account address on their free plan. Free accounts can add 1 [custom domain](https://skiff.com/blog/custom-domain-setup), and up to 15 custom domains on a paid plan. You can create unlimited aliases or a [catch-all](https://skiff.com/blog/catch-all-email-alias) alias on your custom domain.
 
+
+
 #### :material-alert-outline:{ .pg-orange } Private Payment Methods
 
 Skiff Mail accepts cryptocurrency payments via Coinbase Commerce, including Bitcoin and Ethereum, but they do not accept our recommended [cryptocurrency](cryptocurrency.md), Monero. They also accept credit card payments via Stripe.
+
+
 
 #### :material-check:{ .pg-green } امنیت حساب
 
 Skiff Mail supports TOTP two-factor authentication and hardware security keys using FIDO2 or U2F standards. The use of a hardware security key requires setting up TOTP two-factor authentication first.
 
+
+
 #### :material-check:{ .pg-green } امنیت داده
 
 Skiff Mail has zero access encryption at rest for all of your data. This means the messages and other data stored in your account are only readable by you.
+
+
 
 #### :material-information-outline:{ .pg-blue } Email Encryption
 
 Skiff Mail does not use OpenPGP. Emails are only encrypted with E2EE to other Skiff Mail users. Skiff does not have a "temporary inbox" or "passworded email" feature like some other providers have, so that external users cannot receive or reply to messages with E2EE.
 
-#### :material-information-outline:{ .pg-blue } Account Termination
+
+
+#### :material-information-outline:{ .pg-blue } بستن حساب
 
 Skiff Mail accounts do not expire, but unpaid accounts will be prompted to remove any enabled paid features (such as additional aliases) or renew their plan before the account can be used.
+
+
 
 #### :material-information-outline:{ .pg-blue } Additional Functionality
 
 Skiff additionally offers [workspace productivity features](https://discuss.privacyguides.net/t/skiff-pages-drive-productivity-tools/11758/13), but we still prefer [alternative](productivity.md) options for collaborating and file sharing at this time.
 
 Skiff Mail does not offer a digital legacy feature.
+
+
 
 ### Tutanota
 
@@ -236,32 +261,47 @@ Skiff Mail does not offer a digital legacy feature.
         - [:simple-apple: macOS](https://tutanota.com/#download)
         - [:simple-linux: Linux](https://tutanota.com/#download)
         - [:octicons-browser-16: Web](https://mail.tutanota.com/)
+    
 
 Tutanota doesn't support the [IMAP protocol](https://tutanota.com/faq/#imap) or the use of third-party [email clients](email-clients.md), and you also won't be able to add [external email accounts](https://github.com/tutao/tutanota/issues/544#issuecomment-670473647) to the Tutanota app. Neither [Email import](https://github.com/tutao/tutanota/issues/630) or [subfolders](https://github.com/tutao/tutanota/issues/927) are currently supported, though this is [due to be changed](https://tutanota.com/blog/posts/kickoff-import). Emails can be exported [individually or by bulk selection](https://tutanota.com/howto#generalMail) per folder, which may be inconvenient if you have many folders.
+
+
 
 #### :material-check:{ .pg-green } Custom Domains and Aliases
 
 Paid Tutanota accounts can use up to 5 [aliases](https://tutanota.com/faq#alias) and [custom domains](https://tutanota.com/faq#custom-domain). Tutanota doesn't allow for [subaddressing (plus addresses)](https://tutanota.com/faq#plus), but you can use a [catch-all](https://tutanota.com/howto#settings-global) with a custom domain.
 
+
+
 #### :material-information-outline:{ .pg-blue } Private Payment Methods
 
 Tutanota only directly accepts credit cards and PayPal, however [cryptocurrency](cryptocurrency.md) can be used to purchase gift cards via their [partnership](https://tutanota.com/faq/#cryptocurrency) with Proxystore.
+
+
 
 #### :material-check:{ .pg-green } امنیت حساب
 
 Tutanota supports [two factor authentication](https://tutanota.com/faq#2fa) with either TOTP or U2F.
 
+
+
 #### :material-check:{ .pg-green } امنیت داده
 
 Tutanota has [zero access encryption at rest](https://tutanota.com/faq#what-encrypted) for your emails, [address book contacts](https://tutanota.com/faq#encrypted-address-book), and [calendars](https://tutanota.com/faq#calendar). This means the messages and other data stored in your account are only readable by you.
+
+
 
 #### :material-information-outline:{ .pg-blue } Email Encryption
 
 Tutanota [does not use OpenPGP](https://www.tutanota.com/faq/#pgp). Tutanota accounts can only receive encrypted emails from non-Tutanota email accounts when sent via a [temporary Tutanota mailbox](https://www.tutanota.com/howto/#encrypted-email-external).
 
-#### :material-information-outline:{ .pg-blue } Account Termination
+
+
+#### :material-information-outline:{ .pg-blue } بستن حساب
 
 Tutanota will [delete inactive free accounts](https://tutanota.com/faq#inactive-accounts) after six months. You can reuse a deactivated free account if you pay.
+
+
 
 #### :material-information-outline:{ .pg-blue } Additional Functionality
 
@@ -270,6 +310,8 @@ Tutanota offers the business version of [Tutanota to non-profit organizations](h
 Tutanota also has a business feature called [Secure Connect](https://tutanota.com/secure-connect/). This ensures customer contact to the business uses E2EE. The feature costs €240/y.
 
 Tutanota doesn't offer a digital legacy feature.
+
+
 
 ## Email Aliasing Services
 
@@ -299,6 +341,8 @@ Our email aliasing recommendations are providers that allow you to create aliase
 
 Using an aliasing service requires trusting both your email provider and your aliasing provider with your unencrypted messages. Some providers mitigate this slightly with automatic PGP encryption, which reduces the number of parties you need to trust from two to one by encrypting incoming emails before they are delivered to your final mailbox provider.
 
+
+
 ### AnonAddy
 
 !!! recommendation
@@ -320,6 +364,7 @@ Using an aliasing service requires trusting both your email provider and your al
         - [:material-apple-ios: iOS](https://anonaddy.com/faq/#is-there-an-ios-app)
         - [:simple-firefoxbrowser: Firefox](https://addons.mozilla.org/en-GB/firefox/addon/anonaddy/)
         - [:simple-googlechrome: Chrome](https://chrome.google.com/webstore/detail/anonaddy-anonymous-email/iadbdpnoknmbdeolbapdackdcogdmjpe)
+    
 
 The number of shared aliases (which end in a shared domain like @anonaddy.me) that you can create is limited to 20 on AnonAddy's free plan and 50 on their $12/year plan. You can create unlimited standard aliases (which end in a domain like @[username].anonaddy.com or a custom domain on paid plans), however, as previously mentioned, this can be detrimental to privacy because people can trivially tie your standard aliases together based on the domain name alone. Unlimited shared aliases are available for $36/year.
 
@@ -330,6 +375,8 @@ Notable free features:
 - [ ] No Outgoing Replies
 - [x] 2 Recipient Mailboxes
 - [x] Automatic PGP Encryption
+
+
 
 ### SimpleLogin
 
@@ -353,6 +400,7 @@ Notable free features:
         - [:simple-googlechrome: Chrome](https://chrome.google.com/webstore/detail/dphilobhebphkdjbpfohgikllaljmgbn)
         - [:simple-microsoftedge: Edge](https://microsoftedge.microsoft.com/addons/detail/simpleloginreceive-sen/diacfpipniklenphgljfkmhinphjlfff)
         - [:simple-safari: Safari](https://apps.apple.com/app/id1494051017)
+    
 
 SimpleLogin was [acquired by Proton AG](https://proton.me/news/proton-and-simplelogin-join-forces) as of April 8, 2022. If you use Proton Mail for your primary mailbox, SimpleLogin is a great choice. As both products are now owned by the same company you now only have to trust a single entity. We also expect that SimpleLogin will be more tightly integrated with Proton's offerings in the future. SimpleLogin continues to support forwarding to any email provider of your choosing. Securitum [audited](https://simplelogin.io/blog/security-audit/) SimpleLogin in early 2022 and all issues [were addressed](https://simplelogin.io/audit2022/web.pdf).
 
@@ -364,9 +412,13 @@ Notable free features:
 - [x] Unlimited Replies
 - [x] 1 Recipient Mailbox
 
+
+
 ## Self-Hosting Email
 
 Advanced system administrators may consider setting up their own email server. Mail servers require attention and continuous maintenance in order to keep things secure and mail delivery reliable.
+
+
 
 ### Combined software solutions
 
@@ -380,6 +432,7 @@ Advanced system administrators may consider setting up their own email server. M
     [:octicons-info-16:](https://mailcow.github.io/mailcow-dockerized-docs/){ .card-link title=Documentation}
     [:octicons-code-16:](https://github.com/mailcow/mailcow-dockerized){ .card-link title="Source Code" }
     [:octicons-heart-16:](https://www.servercow.de/mailcow?lang=en#sal){ .card-link title=Contribute }
+    
 
 !!! recommendation
 
@@ -390,15 +443,20 @@ Advanced system administrators may consider setting up their own email server. M
     [:octicons-home-16: Homepage](https://mailinabox.email){ .md-button .md-button--primary }
     [:octicons-info-16:](https://mailinabox.email/guide.html){ .card-link title=Documentation}
     [:octicons-code-16:](https://github.com/mail-in-a-box/mailinabox){ .card-link title="Source Code" }
+    
 
 For a more manual approach we've picked out these two articles:
 
 - [Setting up a mail server with OpenSMTPD, Dovecot and Rspamd](https://poolp.org/posts/2019-09-14/setting-up-a-mail-server-with-opensmtpd-dovecot-and-rspamd/) (2019)
 - [How To Run Your Own Mail Server](https://www.c0ffee.net/blog/mail-server-guide/) (August 2017)
 
+
+
 ## معیار
 
 **Please note we are not affiliated with any of the providers we recommend.** In addition to [our standard criteria](about/criteria.md), we have developed a clear set of requirements for any Email provider wishing to be recommended, including implementing industry best practices, modern technology and more. We suggest you familiarize yourself with this list before choosing an Email provider, and conduct your own research to ensure the Email provider you choose is the right choice for you.
+
+
 
 ### فناوری
 
@@ -422,6 +480,8 @@ We regard these features as important in order to provide a safe and optimal ser
 - Catch-all or alias functionality for those who own their own domains.
 - Use of standard email access protocols such as IMAP, SMTP or [JMAP](https://en.wikipedia.org/wiki/JSON_Meta_Application_Protocol). Standard access protocols ensure customers can easily download all of their email, should they want to switch to another provider.
 
+
+
 ### حریم خصوصی
 
 We prefer our recommended providers to collect as little data as possible.
@@ -436,6 +496,8 @@ We prefer our recommended providers to collect as little data as possible.
 
 - Accepts [anonymous payment options](advanced/payments.md) ([cryptocurrency](cryptocurrency.md), cash, gift cards, etc.)
 - Hosted in a jurisdiction with strong email privacy protection laws.
+
+
 
 ### Security
 
@@ -454,8 +516,8 @@ Email servers deal with a lot of very sensitive data. We expect that providers w
 - Have a proper [DMARC](https://en.wikipedia.org/wiki/DMARC) record and policy or use [ARC](https://en.wikipedia.org/wiki/Authenticated_Received_Chain) for authentication. If DMARC authentication is being used, the policy must be set to `reject` or `quarantine`.
 - A server suite preference of TLS 1.2 or later and a plan for [RFC8996](https://datatracker.ietf.org/doc/rfc8996/).
 - [SMTPS](https://en.wikipedia.org/wiki/SMTPS) submission, assuming SMTP is used.
-- Website security standards such as:
-    - [HTTP Strict Transport Security](https://en.wikipedia.org/wiki/HTTP_Strict_Transport_Security)
+- Website security standards such as: 
+      - [HTTP Strict Transport Security](https://en.wikipedia.org/wiki/HTTP_Strict_Transport_Security)
     - [Subresource Integrity](https://en.wikipedia.org/wiki/Subresource_Integrity) if loading things from external domains.
 - Must support viewing of [Message headers](https://en.wikipedia.org/wiki/Email#Message_header), as it is a crucial forensic feature to determine if an email is a phishing attempt.
 
@@ -465,9 +527,11 @@ Email servers deal with a lot of very sensitive data. We expect that providers w
 - [DNS Certification Authority Authorization (CAA) Resource Record](https://tools.ietf.org/html/rfc6844) in addition to DANE support.
 - Implementation of [Authenticated Received Chain (ARC)](https://en.wikipedia.org/wiki/Authenticated_Received_Chain), this is useful for people who post to mailing lists [RFC8617](https://tools.ietf.org/html/rfc8617).
 - Bug-bounty programs and/or a coordinated vulnerability-disclosure process.
-- Website security standards such as:
-    - [Content Security Policy (CSP)](https://en.wikipedia.org/wiki/Content_Security_Policy)
+- Website security standards such as: 
+      - [Content Security Policy (CSP)](https://en.wikipedia.org/wiki/Content_Security_Policy)
     - [RFC9163 Expect-CT](https://datatracker.ietf.org/doc/rfc9163/)
+
+
 
 ### اعتماد
 
@@ -481,6 +545,8 @@ Email servers deal with a lot of very sensitive data. We expect that providers w
 
 - رهبری قابل رویت عمومی.
 - گزارش‌های شفافیت متناوب.
+
+
 
 ### تبلیغات و بازاریابی
 
@@ -496,11 +562,14 @@ Email servers deal with a lot of very sensitive data. We expect that providers w
 - Making guarantees of protecting anonymity 100%. When someone makes a claim that something is 100% it means there is no certainty for failure. We know people can quite easily deanonymize themselves in a number of ways, e.g.:
 
 - Reusing personal information e.g. (email accounts, unique pseudonyms, etc.) that they accessed without anonymity software (Tor, VPN, etc.)
+
 - [Browser fingerprinting](https://en.wikipedia.org/wiki/Device_fingerprint#Browser_fingerprint)
 
 **بهترین شرایط:**
 
 - Clear and easy to read documentation. This includes things like, setting up 2FA, email clients, OpenPGP, etc.
+
+
 
 ### قابلیت‌های اضافی
 

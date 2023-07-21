@@ -1,6 +1,8 @@
 ---
 meta_title: "Privacy Guides: 여러분의 개인 프라이버시, 보안 리소스"
 template: overrides/home.ko.html
+social:
+  cards_layout: home
 hide:
   - navigation
   - toc

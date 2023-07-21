@@ -1,23 +1,23 @@
 ---
-title: Uploading Images
+title: بارگذاری تصویر
 ---
 
-Here are a couple of general rules for contributing to Privacy Guides:
+در اینجا چند قانون کلی برای مشارکت در Privacy Guides را بررسی می‌کنیم:
 
-## Images
+## تصاویر
 
-- We **prefer** SVG images, but if those do not exist we can use PNG images
+- ما **تصاویر SVG را ترجیح می‌دهیم**، اما اگر این تصاویر وجود نداشتند، می‌توانیم از تصاویر PNG استفاده کنیم.
 
-Company logos have canvas size of:
+اندازه لوگوهای شرکت:
 
 - 128x128px
 - 384x128px
 
-## Optimization
+## بهینه‌سازی
 
 ### PNG
 
-Use the [OptiPNG](https://sourceforge.net/projects/optipng/) to optimize the PNG image:
+برای بهینه‌سازی تصویر PNG از [OptiPNG](https://sourceforge.net/projects/optipng/) استفاده کنید:
 
 ```bash
 optipng -o7 file.png
@@ -27,9 +27,9 @@ optipng -o7 file.png
 
 #### Inkscape
 
-[Scour](https://github.com/scour-project/scour) all SVG images.
+همه تصاویر SVG را [Scour](https://github.com/scour-project/scour) کنید.
 
-In Inkscape:
+در Inkscape:
 
 1. File Save As..
 2. Set type to Optimized SVG (*.svg)

@@ -1,13 +1,13 @@
 ---
 title: "ファイル共有と同期"
 icon: material/share-variant
-description: Discover how to privately share your files between your devices, with your friends and family, or anonymously online.
+description: デバイス間や、友人や家族、または匿名でオンライン上でファイルをプライベートに共有する方法をご紹介します。
 cover: file-sharing.png
 ---
 
-Discover how to privately share your files between your devices, with your friends and family, or anonymously online.
+デバイス間、友人や家族、または匿名でオンライン上でファイルをプライベートに共有する方法をご紹介します。
 
-## File Sharing
+## ファイル共有ソフト
 
 ### Send
 
@@ -15,7 +15,7 @@ Discover how to privately share your files between your devices, with your frien
 
     ![Send logo](assets/img/file-sharing-sync/send.svg){ align=right }
     
-    **Send** is a fork of Mozilla’s discontinued Firefox Send service which allows you to send files to others with a link. Files are encrypted on your device so that they cannot be read by the server, and they can be optionally password-protected as well. The maintainer of Send hosts a [public instance](https://send.vis.ee/). You can use other public instances, or you can host Send yourself.
+    **Send**は、Mozillaの廃止されたFirefox Sendサービスのフォークで、リンクを使って他の人にファイルを送ることができます。 ファイルはサーバーから読み取れないようにデバイス上で暗号化され、オプションでパスワードで保護することもできます。 Sendの保守管理者はは[public instance](https://send.vis.ee/)をホストしています。 他の公開インスタンスを使うこともできるし、Sendを自分でホストすることもできます。
     
     [:octicons-home-16: Homepage](https://send.vis.ee){ .md-button .md-button--primary }
     [:octicons-server-16:](https://github.com/timvisee/send-instances){ .card-link title="Public Instances"}
@@ -23,7 +23,7 @@ Discover how to privately share your files between your devices, with your frien
     [:octicons-code-16:](https://github.com/timvisee/send){ .card-link title="Source Code" }
     [:octicons-heart-16:](https://github.com/sponsors/timvisee){ .card-link title=Contribute }
 
-Send can be used via its web interface or via the [ffsend](https://github.com/timvisee/ffsend) CLI. If you are familiar with the command-line and send files frequently, we recommend using the CLI client to avoid JavaScript-based encryption. You can specify the `--host` flag to use a specific server:
+SendはWeb上、または[ffsendコマンド](https://github.com/timvisee/ffsend)CLI から使用できる。 コマンドラインに慣れていて頻繁にファイルを送信する場合は、JavaScriptベースの暗号化を避けるためにCLIクライアントを使用することをお勧めします。 `--host` フラグを指定すると、特定のサーバーを使用することができます:
 
 ```bash
 ffsend upload --host https://send.vis.ee/ FILE
@@ -35,30 +35,30 @@ ffsend upload --host https://send.vis.ee/ FILE
 
     ![OnionShare logo](assets/img/file-sharing-sync/onionshare.svg){ align=right }
     
-    **OnionShare** is an open-source tool that lets you securely and anonymously share a file of any size. It works by starting a web server accessible as a Tor onion service, with an unguessable URL that you can share with the recipients to download or send files.
+    **OnionShare**は、あらゆるサイズのファイルを安全かつ匿名で共有できるオープンソースツールです。 Torオニオン・サービスとしてアクセス可能なウェブサーバーを起動し、受信者と共有可能な推測不可能なURLでファイルをダウンロードまたは送信することで機能します。
     
     [:octicons-home-16: Homepage](https://onionshare.org){ .md-button .md-button--primary }
     [:simple-torbrowser:](http://lldan5gahapx5k7iafb3s4ikijc4ni7gx5iywdflkba5y2ezyg6sjgyd.onion){ .card-link title="Onion Service" }
     [:octicons-info-16:](https://docs.onionshare.org){ .card-link title=Documentation}
     [:octicons-code-16:](https://github.com/onionshare/onionshare){ .card-link title="Source Code" }
     
-    ??? downloads
+    ??? ダウンロード
     
         - [:simple-windows11: Windows](https://onionshare.org/#download)
         - [:simple-apple: macOS](https://onionshare.org/#download)
         - [:simple-linux: Linux](https://onionshare.org/#download)
 
-### Criteria
+### 基準
 
-**Please note we are not affiliated with any of the projects we recommend.** In addition to [our standard criteria](about/criteria.md), we have developed a clear set of requirements to allow us to provide objective recommendations. We suggest you familiarize yourself with this list before choosing to use a project, and conduct your own research to ensure it's the right choice for you.
+**私たちが推薦するどのプロジェクトとも提携していないことにご留意ください。** [](about/criteria.md)に加え、客観的な推薦を提供できるよう、明確な要件を定めています。 プロジェクトを利用する前に、このリストをよく理解し、あなたにとって正しい選択であることを確認するために、ご自身で調査を行うことをお勧めします。
 
-!!! example "This section is new"
+!!! example "この項目は最近作成されました"
 
-    We are working on establishing defined criteria for every section of our site, and this may be subject to change. If you have any questions about our criteria, please [ask on our forum](https://discuss.privacyguides.net/latest) and don't assume we didn't consider something when making our recommendations if it is not listed here. There are many factors considered and discussed when we recommend a project, and documenting every single one is a work-in-progress.
+    私たちは、サイトの各項目に定義された基準を確立することに取り組んでおり、これは変更される可能性があります。 私たちの基準についてご質問がある場合は、[フォーラムでお尋ねください](https://discuss.privacyguides.net/latest)。また、ここに記載されていないものを、私たちが推薦する際に考慮しなかったと決めつけないでください。 プロジェクトをおすすめする際に考慮され、議論される要素は多くあり、すべてを文書化するには時間がかかります。
 
-- Must not store decrypted data on a remote server.
-- Must be open-source software.
-- Must either have clients for Linux, macOS, and Windows; or have a web interface.
+- 復号化したデータをリモートサーバーに保存してはならない。
+- オープンソースのソフトウェアであること。
+- Linux、macOS、Windows用のクライアントを持つか、ウェブインターフェースを持つ必要がある。
 
 ## FreedomBox
 
@@ -66,30 +66,27 @@ ffsend upload --host https://send.vis.ee/ FILE
 
     ![FreedomBox logo](assets/img/file-sharing-sync/freedombox.svg){ align=right }
     
-    **FreedomBox** is an operating system designed to be run on a [single-board computer (SBC)](https://en.wikipedia.org/wiki/Single-board_computer). The purpose is to make it easy to set up server applications that you might want to self-host.
+    **FreedomBox**は、[シングルボードコンピュータ(SBC)](https://ja.wikipedia.org/wiki/%E3%82%B7%E3%83%B3%E3%82%B0%E3%83%AB%E3%83%9C%E3%83%BC%E3%83%89%E3%82%B3%E3%83%B3%E3%83%94%E3%83%A5%E3%83%BC%E3%82%BF)上で動作するように設計されたオペレーティングシステムです。 目的は、自己ホストしたいと思うかもしれないサーバーアプリケーションを簡単に設定できるようにすることです。
     
     [:octicons-home-16: Homepage](https://freedombox.org){ .md-button .md-button--primary }
     [:octicons-info-16:](https://wiki.debian.org/FreedomBox/Manual){ .card-link title=Documentation}
     [:octicons-code-16:](https://salsa.debian.org/freedombox-team/freedombox){ .card-link title="Source Code" }
     [:octicons-heart-16:](https://freedomboxfoundation.org/donate/){ .card-link title=Contribute }
 
-## File Sync
+## ファイル同期ソフト
 
-### Nextcloud (Client-Server)
+### Nextcloud(Client-Server)
 
 !!! recommendation
 
     ![Nextcloud logo](assets/img/productivity/nextcloud.svg){ align=right }
-    
-    **Nextcloud** is a suite of free and open-source client-server software for creating your own file hosting services on a private server you control.
+    **Nextcloud**は、フリーでオープンソースのクライアント・サーバーソフトウェアのスイートです。
     
     [:octicons-home-16: Homepage](https://nextcloud.com){ .md-button .md-button--primary }
     [:octicons-eye-16:](https://nextcloud.com/privacy){ .card-link title="Privacy Policy" }
     [:octicons-info-16:](https://nextcloud.com/support/){ .card-link title=Documentation}
     [:octicons-code-16:](https://github.com/nextcloud){ .card-link title="Source Code" }
-    [:octicons-heart-16:](https://nextcloud.com/contribute/){ .card-link title=Contribute }
-    
-    ??? downloads
+    [:octicons-heart-16:](https://nextcloud.com/contribute/){ .card-link title=Contribute } ダウンロード
     
         - [:simple-googleplay: Google Play](https://play.google.com/store/apps/details?id=com.nextcloud.client)
         - [:simple-appstore: App Store](https://apps.apple.com/app/id1125420102)
@@ -98,9 +95,9 @@ ffsend upload --host https://send.vis.ee/ FILE
         - [:simple-apple: macOS](https://nextcloud.com/install/#install-clients)
         - [:simple-linux: Linux](https://nextcloud.com/install/#install-clients)
 
-!!! danger
+!!! 警告
 
-    We don't recommend using the [E2EE App](https://apps.nextcloud.com/apps/end_to_end_encryption) for Nextcloud as it may lead to data loss; it is highly experimental and not production quality.
+    [E2EEアプリ](https://apps.nextcloud.com/apps/end_to_end_encryption) for Nextcloudの使用は、データ損失の可能性があるため、お勧めしません。
 
 ### Syncthing (P2P)
 
@@ -108,14 +105,14 @@ ffsend upload --host https://send.vis.ee/ FILE
 
     ![Syncthing logo](assets/img/file-sharing-sync/syncthing.svg){ align=right }
     
-    **Syncthing** is an open-source peer-to-peer continuous file synchronization utility. It is used to synchronize files between two or more devices over the local network or the internet. Syncthing does not use a centralized server; it uses the [Block Exchange Protocol](https://docs.syncthing.net/specs/bep-v1.html#bep-v1) to transfer data between devices. All data is encrypted using TLS.
+    **Syncthing**はオープンソースのピアツーピア連続ファイル同期ユーティリティです。 これは、ローカルネットワークまたはインターネットを介し、2つ以上のデバイス間でファイルを同期するために使用されます。 Syncthingは中央集中型のサーバーを使用せず、[Block Exchange Protocol](https://docs.syncthing.net/specs/bep-v1.html#bep-v1)を使用してデバイス間のデータ転送を行います。 すべてのデータはTLSにより暗号化されます。
     
     [:octicons-home-16: Homepage](https://syncthing.net){ .md-button .md-button--primary }
     [:octicons-info-16:](https://docs.syncthing.net){ .card-link title=Documentation}
     [:octicons-code-16:](https://github.com/syncthing){ .card-link title="Source Code" }
     [:octicons-heart-16:](https://syncthing.net/donations/){ .card-link title=Contribute }
     
-    ??? downloads
+    ??? ダウンロード
     
         - [:simple-googleplay: Google Play](https://play.google.com/store/apps/details?id=com.nutomic.syncthingandroid)
         - [:simple-windows11: Windows](https://syncthing.net/downloads/)
@@ -123,23 +120,23 @@ ffsend upload --host https://send.vis.ee/ FILE
         - [:simple-linux: Linux](https://syncthing.net/downloads/)
         - [:simple-freebsd: FreeBSD](https://syncthing.net/downloads/)
 
-### Criteria
+### 基準
 
-**Please note we are not affiliated with any of the projects we recommend.** In addition to [our standard criteria](about/criteria.md), we have developed a clear set of requirements to allow us to provide objective recommendations. We suggest you familiarize yourself with this list before choosing to use a project, and conduct your own research to ensure it's the right choice for you.
+**私たちが推薦するどのプロジェクトとも提携していないことにご留意ください。** [](about/criteria.md)に加え、客観的な推薦を提供できるよう、明確な要件を定めています。 プロジェクトを利用する前に、このリストをよく理解し、あなたにとって正しい選択であることを確認するために、ご自身で調査を行うことをお勧めします。
 
-!!! example "This section is new"
+!!! example "この項目は最近作成されました"
 
-    We are working on establishing defined criteria for every section of our site, and this may be subject to change. If you have any questions about our criteria, please [ask on our forum](https://discuss.privacyguides.net/latest) and don't assume we didn't consider something when making our recommendations if it is not listed here. There are many factors considered and discussed when we recommend a project, and documenting every single one is a work-in-progress.
+    私たちは、サイトの各項目に定義された基準を確立することに取り組んでおり、これは変更される可能性があります。 私たちの基準についてご質問がある場合は、[フォーラムでお尋ねください](https://discuss.privacyguides.net/latest)。また、ここに記載されていないものを、私たちが推薦する際に考慮しなかったと決めつけないでください。 プロジェクトをおすすめする際に考慮され、議論される要素は多くあり、すべてを文書化するには時間がかかります。
 
-#### Minimum Requirements
+#### 最低要件
 
-- Must not require a third-party remote/cloud server.
-- Must be open-source software.
-- Must either have clients for Linux, macOS, and Windows; or have a web interface.
+- サードパーティのリモート/クラウドサーバーを必要としないこと。
+- オープンソースのソフトウェアであること。
+- Linux、macOS、Windows用のクライアントを持つか、ウェブインターフェースを持つ必要がある。
 
-#### Best-Case
+#### 満たされることが望ましい基準
 
-Our best-case criteria represents what we would like to see from the perfect project in this category. Our recommendations may not include any or all of this functionality, but those which do may rank higher than others on this page.
+私たちのベストケース基準は、このカテゴリーの完璧なプロジェクトに私たちが望むものを表している。 私たちのおすすめは、この機能の一部または全部を含んでいないかもしれませんが、もし含んでいるものがあれば、このページで他のものよりも上位にランクされるかもしれません。
 
-- Has mobile clients for iOS and Android, which at least support document previews.
-- Supports photo backup from iOS and Android, and optionally supports file/folder sync on Android.
+- iOSとAndroid用のモバイルクライアントがあり、少なくともドキュメントのプレビューをサポートしている。
+- iOSとAndroidからの写真のバックアップをサポートし、オプションでAndroid上のファイル/フォルダの同期をサポートします。

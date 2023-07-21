@@ -1,6 +1,8 @@
 ---
 meta_title: "Privacy Guides: Sua Fonte Independente de Privacidade e Segurança"
 template: overrides/home.pt-BR.html
+social:
+  cards_layout: home
 hide:
   - navigation
   - toc

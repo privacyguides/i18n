@@ -1,6 +1,8 @@
 ---
 meta_title: "Privacy Guides: Jouw onafhankelijke bron voor privacy en veiligheid"
 template: overrides/home.nl.html
+social:
+  cards_layout: home
 hide:
   - navigation
   - toc

@@ -1,8 +1,8 @@
 ---
-title: Branding Guidelines
+title: دستورالعمل های برندسازی
 ---
 
-The name of the website is **Privacy Guides** and should **not** be changed to:
+نام این وبسایت **Privacy Guides** است و **نباید**به این موارد تغییر کند:
 
 <div class="pg-red" markdown>
 - PrivacyGuides
@@ -11,12 +11,12 @@ The name of the website is **Privacy Guides** and should **not** be changed to:
 - PG.org
 </div>
 
-The name of the subreddit is **r/PrivacyGuides** or **the Privacy Guides Subreddit**.
+نام انجمن در ردیت این هست **r/PrivacyGuides** or **the Privacy Guides Subreddit**.
 
-Additional branding guidelines can be found at [github.com/privacyguides/brand](https://github.com/privacyguides/brand)
+دستورالعمل‌های برندسازی اضافی را می‌توانید در اینجا پیدا کنید [github.com/privacyguides/brand](https://github.com/privacyguides/brand)
 
-## Trademark
+## علامت تجاری
 
-"Privacy Guides" and the shield logo are trademarks owned by Jonah Aragon, unlimited usage is granted to the Privacy Guides project.
+"راهنماهای حریم خصوصی" و لوگوی سپر علائم تجاری متعلق به Jonah Aragon هستند، استفاده نامحدود به پروژه Privacy Guides اعطا شده است.
 
-Without waiving any of its rights, Privacy Guides does not advise others on the scope of its intellectual property rights. Privacy Guides does not permit or consent to any use of its trademarks in any manner that is likely to cause confusion by implying association with or sponsorship by Privacy Guides. If you are aware of any such use, please contact Jonah Aragon at jonah@privacyguides.org. Consult your legal counsel if you have questions.
+بدون چشم پوشی از هیچ یک از حقوق خود، Privacy Guides به دیگران در مورد دامنه حقوق مالکیت معنوی خود توصیه نمی کند. راهنماهای حفظ حریم خصوصی هیچ گونه استفاده از علائم تجاری خود را به هر طریقی که احتمالاً از طریق ارتباط با یا حمایت از راهنماهای حفظ حریم خصوصی باعث سردرگمی شود، مجاز نمی داند. اگر از چنین استفاده ای اطلاع دارید، لطفاً با Jonah Aragon به آدرس jonah@privacyguides.org تماس بگیرید. اگر سوالی دارید با مشاور حقوقی خود مشورت کنید.

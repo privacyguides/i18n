@@ -152,7 +152,7 @@ Qubes OS has support for Challenge-Response authentication with YubiKeys. If you
 
 ### SSH
 
-#### Hardware Security Keys
+#### ハードウェアセキュリティ
 
 SSH MFA could be set up using multiple different authentication methods that are popular with hardware security keys. We recommend that you check out Yubico's [documentation](https://developers.yubico.com/SSH/) on how to set this up.
 

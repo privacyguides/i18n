@@ -1,87 +1,87 @@
 ---
-title: Writing Style
+title: سبک نوشتن
 ---
 
-Privacy Guides is written in American English, and you should refer to [APA Style guidelines](https://apastyle.apa.org/style-grammar-guidelines/grammar) when in doubt.
+وبسایت Privacy Guides به زبان انگلیسی با لهجه امریکایی نوشته شده است و وقتی شک دارید باید به [دستورالعمل‌های سبک نوشتن APA](https://apastyle.apa.org/style-grammar-guidelines/grammar) مراجعه کنید.
 
-In general the [United States federal plain language guidelines](https://www.plainlanguage.gov/guidelines/) provide a good overview of how to write clearly and concisely. We highlight a few important notes from these guidelines below.
+به طور کلی [دستورالعمل‌های زبان ساده فدرال ایالات متحده (United States federal plain language guidelines)](https://www.plainlanguage.gov/guidelines/)، نمای کلی خوبی از نحوه نوشتن واضح و مختصر ارائه می‌دهند. در زیر به چند نکته مهم از این دستورالعمل ها اشاره می کنیم.
 
-## Writing for our audience
+## برای مخاطبانمان می نویسیم
 
-Privacy Guides' intended [audience](https://www.plainlanguage.gov/guidelines/audience/) is primarily average, technology using adults. Don't dumb down content as if you are addressing a middle-school class, but don't overuse complicated terminology about concepts average computer users wouldn't be familiar with.
+[مخاطب](https://www.plainlanguage.gov/guidelines/audience/) مورد نظر Privacy Guides، در درجه اول و فناوری‌های مورد استفاده روزمره بزرگسالان است. به گونه‌ای که گویی در حال خطاب به یک کلاس راهنمایی هستید، محتوا را بی‌حس نکنید، اما از اصطلاحات پیچیده درباره مفاهیمی که کاربران معمولی کامپیوتر با آن‌ها آشنا نیستند، بیش از حد استفاده نکنید.
 
-### Address only what people want to know
+### فقط درباره آنچه مخاطب میخواهند بدانند توضیح دهید
 
-People don't need overly complex articles with little relevance to them. Figure out what you want people to accomplish when writing an article, and only include those details.
+مخاطبان به مقالات بیش از حد پیچیده و بی‌ربط نیاز ندارند. بدانید که می خواهید افراد هنگام خواندن یک مقاله چه کاری انجام دهند و فقط آن‌ها را بنویسید.
 
-> Tell your audience why the material is important to them. Say, “If you want a research grant, here’s what you have to do.” Or, “If you want to mine federal coal, here’s what you should know.” Or, “If you’re planning a trip to Rwanda, read this first.”
+> به مخاطبان خود بگویید چرا مطالب برای آنها مهم است. بگویید: "اگر می خواهید یک کمک هزینه تحقیقاتی داشته باشید، این چیزی است که باید انجام دهید." یا، "اگر می خواهید زغال سنگ استخراج کنید، این چیزی است که باید بدانید." یا، "اگر قصد سفر به رواندا را دارید، ابتدا این را بخوانید."
 
-### Address people directly
+### مستقیماً به مخاطب اشاره کنید
 
-We're writing *for* a wide variety of people, but we are writing *to* the person who is actually reading it. Use "you" to address the reader directly.
+ما *برای* طیف وسیعی از افراد می نویسیم، اما فقط *برای* فردی که واقعاً در حال مطالعه است می نویسیم. از "شما" برای مخاطب قرار دادن مستقیم خواننده استفاده کنید.
 
-> More than any other single technique, using “you” pulls users into the information and makes it relevant to them.
+> بیش از هر تکنیک دیگری، استفاده از "شما" کاربران را به بحث نزدیک می‌کند و آنها ارتباطشان به موضوع را درک می‌کنند.
 > 
-> When you use “you” to address users, they are more likely to understand what their responsibility is.
+> هنگامی که از "شما" برای خطاب به کاربران استفاده می کنید، آنها بیشتر متوجه می شوند که مسئولیت آنها چیست.
 
-Source: [plainlanguage.gov](https://www.plainlanguage.gov/guidelines/audience/address-the-user/)
+منبع: [plainlanguage.gov](https://www.plainlanguage.gov/guidelines/audience/address-the-user/)
 
-### Avoid "users"
+### اجتناب از "کاربران"
 
-Avoid calling people "users", in favor of "people", or a more specific description of the group of people you are writing for.
+از نامیدن افراد با «کاربر»، یا نامگزاری خاص از گروه افرادی که برایشان می نویسید اجتناب کنید.
 
-## Organizing content
+## سازماندهی محتوا
 
-Organization is key. Content should flow from most to least important information, and use headers as much as needed to logically separate different ideas.
+سازماندهی خیلی مهم هست. محتوا باید از مهمترین به کم اهمیت ترین اطلاعات نوشته شود و از عنوان‌ها تا حد نیاز برای تفکیک منطقی ایده‌های مختلف استفاده شود.
 
-- Limit the document to around five or six sections. Long documents should probably be broken up into separate pages.
-- Mark important ideas with **bold** or *italics*.
+- هر متن بیشتر از پنج یا شش بخش نشود. اسناد طولانی بهتر است به صفحات جداگانه تقسیم شوند.
+- مطالب مهم را **بولد** کنید یا *با حروف کج بنویسید*.
 
-Source: [plainlanguage.gov](https://www.plainlanguage.gov/guidelines/design/)
+منبع: [plainlanguage.gov](https://www.plainlanguage.gov/guidelines/design/)
 
-### Begin with a topic sentence
+### با یک جمله موضوعی شروع کنید
 
-> If you tell your reader what they’re going to read about, they’re less likely to have to read your paragraph again. Headings help, but they’re not enough. Establish a context for your audience before you provide them with the details.
+> اگر به خواننده خود بگویید قرار است در مورد چه چیزی بخواند، احتمال اینکه مجبور شوند دوباره پاراگراف شما را بخوانند کمتر است. سرفصل‌ها کمک می کنند، اما کافی نیستند. قبل از ارائه جزئیات برای مخاطبان خود پیش‌زمینه سازی کنید.
 > 
-> We often write the way we think, putting our premises first and then our conclusion. It may be the natural way to develop thoughts, but we wind up with the topic sentence at the end of the paragraph. Move it up front and let users know where you’re going. Don’t make readers hold a lot of information in their heads before getting to the point.
+> ما اغلب به روشی که فکر می کنیم می‌نویسیم، ابتدا مقدمات و سپس نتیجه گیری خود را می‌نویسیم. ممکن است این روش طبیعی برای پرورش افکار باشد، اما ما با جمله موضوعی در پایان پاراگراف پایان می دهیم. جمله‌ها را به جلو ببرید و به کاربران اطلاع دهید که هدفتان چیست. خواننده را مجبور نکنید قبل از رسیدن به اصل مطلب، اطلاعات زیادی را در ذهن خود نگه دارند.
 
-Source: [plainlanguage.gov](https://www.plainlanguage.gov/guidelines/organize/have-a-topic-sentence/)
+منبع: [plainlanguage.gov](https://www.plainlanguage.gov/guidelines/organize/have-a-topic-sentence/)
 
-## Choose your words carefully
+## کلمات خود را با دقت انتخاب کنید
 
-> Words matter. They are the most basic building blocks of written and spoken communication. Don’t complicate things by using jargon, technical terms, or abbreviations that people won’t understand.
+> کلمات مهم هستند. کلمات اساسی ترین اجزای سازنده ارتباطات نوشتاری و گفتاری هستند. با استفاده از اصطلاحات تخصصی، اصطلاحات فنی یا اختصاراتی که مردم متوجه نمی شوند، مسائل را پیچیده نکنید.
 
-We should try to avoid abbreviations where possible, but technology is full of abbreviations. In general, spell out the abbreviation/acronym the first time it is used on a page, and add the abbreviation to the abbreviation glossary file when it is used repeatedly.
+ما باید سعی کنیم تا جایی که ممکن است از اختصارات خودداری کنیم، اما تکنولوژی پر از اختصارات است. به طور کلی، اولین باری که در یک صفحه استفاده می‌شود، مخفف را هجی کنید و در صورت استفاده مکرر، آن را به فایل واژه‌نامه اختصاری اضافه کنید.
 
-> Kathy McGinty offers tongue-in-cheek instructions for bulking up your simple, direct sentences:
+> کتی مک‌گینتی (Kathy McGinty) دستورالعمل‌هایی را برای بزرگ کردن جملات ساده و مستقیم ارائه می‌دهد:
 > 
-> > There is no escaping the fact that it is considered very important to note that a number of various available applicable studies ipso facto have generally identified the fact that additional appropriate nocturnal employment could usually keep juvenile adolescents off thoroughfares during the night hours, including but not limited to the time prior to midnight on weeknights and/or 2 a.m. on weekends.
+> > در واقع نمی‌توان از چنین واقعیتی فرار کرد که لازم است اشاره کنیم کنیم که تعدادی از مطالعات مختلف و مفید قابل اجرا به خوبی شناسایی کرده‌اند که اشتغال شبانه‌روزی مناسب می‌تواند معمولاً باعث می شود نوجوانان جوان کمتر به خیابان‌ها در ساعات شب بیایند، ولی محدود به زمان قبل از نیمه‌شب در شب‌های هفته و/یا ساعت ۲ صبح شود. در آخر هفته.
 > 
-> And the original, using stronger, simpler words:
+> و اصل با استفاده از کلمات قوی تر و ساده تر:
 > 
-> > More night jobs would keep youths off the streets.
+> > مشاغل شبانه بیشتر جوانان را از خیابان دور می کند.
 
-## Be concise
+## مختصر باشد
 
-> Unnecessary words waste your audience’s time. Great writing is like a conversation. Omit information that the audience doesn’t need to know. This can be difficult as a subject matter expert so it’s important to have someone look at the information from the audience’s perspective.
+> کلمات غیر ضروری وقت مخاطب شما را تلف می کند. یک نوشته خوب مثل یک مکالمه است. اطلاعاتی را که مخاطب نیازی به دانستن آنها ندارد حذف کنید. این می تواند به عنوان یک متخصص در موضوع دشوار باشد، بنابراین مهم است که به اطلاعات از دیدگاه مخاطب نگاه کنید.
 
-Source: [plainlanguage.gov](https://www.plainlanguage.gov/guidelines/concise/)
+منبع: [plainlanguage.gov](https://www.plainlanguage.gov/guidelines/concise/)
 
-## Keep text conversational
+## متن به صورت مکالمه نگه دارید
 
-> Verbs are the fuel of writing. They give your sentences power and direction. They enliven your writing and make it more interesting.
+> افعال سوخت نوشتن هستند. آنها به جملات شما قدرت و جهت می دهند. آنها به نوشته شما جان می بخشند و آن را جذاب تر می کنند.
 > 
-> Verbs tell your audience what to do. Make sure it’s clear who does what.
+> افعال به مخاطب شما می گوید که چه کاری انجام دهد. مطمئن شوید که مشخص است چه کسی چه کاری انجام می دهد.
 
-### Use active voice
+### از صدای فعال استفاده کنید
 
-> Active voice makes it clear who is supposed to do what. It eliminates ambiguity about responsibilities. Not “It must be done,” but “You must do it.”
+> صدای فعال مشخص می کند که چه کسی قرار است چه کاری انجام دهد. ابهام در مورد مسئولیت ها را از بین می برد. نه «باید انجام شود»، بلکه «تو باید انجامش دهی».
 
-Source: [plainlanguage.gov](https://www.plainlanguage.gov/guidelines/conversational/use-active-voice/)
+منبع: [plainlanguage.gov](https://www.plainlanguage.gov/guidelines/conversational/use-active-voice/)
 
-### Use "must" for requirements
+### برای الزامات از "باید" استفاده کنید
 
-> - “must” for an obligation
-> - “must not” for a prohibition
-> - “may” for a discretionary action
-> - “should” for a recommendation
+> - "باید" برای یک تعهد
+> - "نباید" برای یک ممنوعیت
+> - "ممکن است" برای یک اقدام اختیاری
+> - "بهتر است" برای یک توصیه

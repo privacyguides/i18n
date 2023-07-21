@@ -3,12 +3,12 @@
 *[AOSP]: Android オープンソース プロジェクト（Android Open Source Project）
 *[ATA]: Advanced Technology Attachment
 *[攻撃対象領域]: システムへ不正にアクセスできる可能性のある侵入口の総数。
-*[AVB]: Android Verified Boot
+*[AVB]: 確認付きブート(Android Verified Boot)
 *[cgroups]: Control Groups
-*[CLI]: Command Line Interface
+*[CLI]: コマンドライン インターフェース
 *[CSV]: Comma-Separated Values
 *[CVE]: Common Vulnerabilities and Exposures
-*[digital legacy feature]: Digital Legacy refers to features that allow you to give other people access to your data when you die
+*[digital legacy feature]: デジタルレガシーとは、あなたが亡くなったときに、他の人にあなたのデータへのアクセスを許可する機能のことです。
 *[DNSSEC]: Domain Name System Security Extensions
 *[DNS]: Domain Name System
 *[DoH]: DNS over HTTPS
@@ -61,13 +61,13 @@
 *[OEM]: Original Equipment Manufacturer
 *[OEMs]: Original Equipment Manufacturers
 *[OS]: オペレーティングシステム（Operating System）
-*[OTP]: One-Time Password
-*[OTPs]: One-Time Passwords
-*[OpenPGP]: Open-source implementation of Pretty Good Privacy (PGP)
-*[P2P]: Peer-to-Peer
-*[PAM]: Linux Pluggable Authentication Modules
+*[OTP]: ワンタイムパスワード
+*[OTPs]: ワンタイムパスワード
+*[OpenPGP]: Pretty Good Privacy (PGP) のオープンソースの実装
+*[P2P]: ピアツーピア
+*[PAM]: Linuxプラグイン式認証モジュール
 *[POP3]: Post Office Protocol 3
-*[PGP]: Pretty Good Privacy (see OpenPGP)
+*[PGP]: プリティグッドプライバシー(OpenPGPを参照)
 *[PII]: 個人を特定できる情報（Personally Identifiable Information）
 *[QNAME]: Qualified Name
 *[rolling release]: Updates which are released frequently rather than set intervals

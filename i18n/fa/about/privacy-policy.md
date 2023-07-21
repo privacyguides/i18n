@@ -1,48 +1,58 @@
 ---
-title: "Privacy Policy"
+title: "حریم خصوصی"
 ---
 
-Privacy Guides is a community project operated by a number of active volunteer contributors. The public list of team members [can be found on GitHub](https://github.com/orgs/privacyguides/people).
+Privacy Guides یک پروژه اجتماعی است که توسط تعدادی از مشارکت کنندگان داوطلب فعال اداره می شود. لیست عمومی اعضای تیم
 
-## Data We Collect From Visitors
+[در GitHub قابل مشاهده](https://github.com/orgs/privacyguides/people) است.</p> 
 
-The privacy of our website visitors is important to us, so we do not track any individual people. As a visitor to our website:
 
-- No personal information is collected
-- No information such as cookies are stored in the browser
-- No information is shared with, sent to or sold to third-parties
-- No information is shared with advertising companies
-- No information is mined and harvested for personal and behavioral trends
-- No information is monetized
 
-You can view the data we collect on our [statistics](statistics.md) page.
+## داده هایی که از بازدیدکنندگان جمع‌آوری می کنیم
 
-We run a self-hosted installation of [Plausible Analytics](https://plausible.io) to collect some anonymous usage data for statistical purposes. The goal is to track overall trends in our website traffic, it is not to track individual visitors. All the data is in aggregate only. No personal data is collected.
+حریم خصوصی بازدیدکنندگان وب سایت ما برای ما مهم است، بنابراین ما هیچ فردی را ردیابی نمی کنیم. به عنوان یک بازدید کننده از وب سایت ما:
 
-Data collected includes referral sources, top pages, visit duration, information from the devices (device type, operating system, country and browser) used during the visit and more. You can learn more about how Plausible works and collects information in a privacy-respecting manner [here](https://plausible.io/data-policy).
+- هیچ اطلاعات شخصی جمع آوری نمی شود
+- هیچ اطلاعاتی مانند کوکی ها در مرورگر ذخیره نمی شود
+- هیچ اطلاعاتی با اشخاص ثالث به اشتراک گذاشته نمی شود، به آنها ارسال نمی شود یا به آنها فروخته می شود
+- هیچ اطلاعاتی با شرکت های تبلیغاتی به اشتراک گذاشته نمی شود
+- هیچ اطلاعاتی برای گرایش های شخصی و رفتاری استخراج و جمع آوری نمی شود
+- هیچ اطلاعاتی پولی نیست
 
-## Data We Collect From Account Holders
+می توانید داده هایی را که جمع‌آوری می کنیم در صفحه [آمار](statistics.md) ما مشاهده کنید.
 
-On some websites and services we provide, many features may require an account. For example, an account may be required to post and reply to topics on a forum platform.
+ما یک نصب خود میزبان (self-hosted installation) [Plausible Analytics](https://plausible.io) را اجرا می کنیم تا برخی از داده های‌ ناشناس شده را برای اهداف آماری جمع‌آوری کنیم. هدف ردیابی روند کلی در ترافیک وب سایت ما است، نه ردیابی بازدیدکنندگان فردی. تمام داده ها فقط جمع شده و به‌هم پیوسته (aggregate) هستند. هیچ اطلاعات شخصی جمع آوری نمی شود.
 
-To sign up for most accounts, we will collect a name, username, email, and password. In the event a website requires more information than just that data, that will be clearly marked and noted in a separate privacy statement per-site.
+داده‌های جمع‌آوری‌شده شامل منابع ارجاع، صفحات برتر، مدت زمان بازدید، اطلاعات دستگاه‌ها (نوع دستگاه، سیستم عامل، کشور و مرورگر) مورد استفاده در طول بازدید و موارد دیگر است. در [اینجا](https://plausible.io/data-policy) می‌توانید درباره نحوه عملکرد و جمع‌آوری اطلاعات با رعایت حریم خصوصی اطلاعات بیشتری کسب کنید.
 
-We use your account data to identify you on the website and to create pages specific to you, such as your profile page. We will also use your account data to publish a public profile for you on our services.
 
-We use your email to:
 
-- Notify you about posts and other activity on the websites or services.
-- Reset your password and help keep your account secure.
-- Contact you in special circumstances related to your account.
-- Contact you about legal requests, such as DMCA takedown requests.
+## داده هایی که از صاحبان حساب درخواست می‌کنیم
 
-On some websites and services you may provide additional information for your account, such as a short biography, avatar, your location, or your birthday. We make that information available to everyone who can access the website or service in question. This information is not required to use any of our services and can be erased at any time.
+در برخی از وب‌سایت‌ها و خدماتی که ارائه می‌کنیم، بسیاری از ویژگی‌ها ممکن است به حساب کاربری نیاز داشته باشند. به عنوان مثال، ممکن است یک حساب کاربری برای ارسال و پاسخ به موضوعات در یک پلت فرم انجمن مورد نیاز باشد.
 
-We will store your account data as long as your account remains open. After closing an account, we may retain some or all of your account data in the form of backups or archives for up to 90 days.
+برای ثبت نام در اکثر حساب ها، نام، نام کاربری، ایمیل و رمز عبور را درخواست می کنیم. در صورتی که یک وب‌سایت به اطلاعات بیشتری از آن داده‌ها نیاز داشته باشد، این اطلاعات به وضوح در بیانیه حریم خصوصی جداگانه هر سایت علامت‌گذاری و یادداشت می‌شوند.
+
+ما از داده‌های حساب شما برای شناسایی شما در وب‌سایت و ایجاد صفحات خاص مانند صفحه پروفایل شما استفاده می‌کنیم. ما همچنین از اطلاعات حساب شما برای انتشار پروفایل عمومی برای شما استفاده خواهیم کرد.
+
+ما از ایمیل شما برای موارد زیر استفاده می کنیم:
+
+- اطلاع رسانی درباره پست ها و سایر فعالیت ها در وب سایت ها یا خدمات.
+- به منظور بازنشانی رمز عبور خود و کمک به امن کردن حساب کاربری.
+- تماس با شما در شرایط خاص مربوط به حساب کاربری.
+- و درباره درخواست‌های قانونی، مانند درخواست‌های حذف DMCA.
+
+در برخی از وب‌سایت‌ها و سرویس‌ها ممکن است اطلاعات بیشتری برای حساب کاربری خود ارائه دهید، مانند بیوگرافی کوتاه، آواتار، مکان یا تاریخ تولدتان. ما این اطلاعات را برای همه کسانی که می توانند به وب سایت یا خدمات مورد نظر دسترسی داشته باشند در دسترس قرار می دهیم. این اطلاعات برای استفاده از هیچ یک از خدمات ما مورد نیاز نیست و می تواند در هر زمان پاک شود.
+
+ما اطلاعات حساب شما را تا زمانی که حساب شما باز باشد ذخیره می کنیم. پس از بستن یک حساب، ممکن است برخی یا همه اطلاعات حساب شما را به صورت پشتیبان یا آرشیو تا ۹۰ روز حفظ کنیم.
+
+
 
 ## تماس با ما
 
 تیم Privacy Guides خارح از برخی از پنل‌های نظارتی، در کل به داده‌های شخصی دسترسی ندارد. برای پرسش‌ها درباره اطلاعات شخصی خود، باید آن را مستقیماً به آدرس زیر ارسال کنید:
+
+
 
 ```text
 Jonah Aragon
@@ -50,12 +60,15 @@ Jonah Aragon
 jonah@privacyguides.org
 ```
 
+
 برای سایر پرسش‌ها، می‌توانید با هر عضوی از تیم ما تماس بگیرید.
 
 بطور کلی، شما می‌توانید شکایات خود را در خصوص قوانین حفاظت از داده‌ها GDPR به مراجع نظارتی محلی حفاظت از داده‌ها ارسال کنید. در فرانسه، مرجعی که مسئولیت رسیدگی به شکایات را برعهده دارد، کمیسیون ملی اطلاعاتی و آزادی‌های شخصیCommission Nationale de l'Informatique et des Libertés است. آن‌ها یک [قالب نامه شکایت](https://www.cnil.fr/en/plaintes) را برای استفاده در اختیار شما قرار می‌دهند.
 
+
+
 ## درباره این سیاست
 
-We will post any new versions of this statement [here](privacy-policy.md). We may change how we announce changes in future versions of this document. In the meantime we may update our contact information at any time without announcing a change. Please refer to the [Privacy Policy](privacy-policy.md) for the latest contact information at any time.
+ما هر نسخه جدید این بیانیه را [اینجا](privacy-policy.md) پست خواهیم کرد. ممکن است نحوه اعلام تغییرات در نسخه‌های بعدی این سند را تغییر دهیم. در عین حال، ممکن است اطلاعات تماس خود را در هر زمانی بدون اعلام تغییر به‌روزرسانی کنیم. لطفاً برای آخرین اطلاعات تماس در هر زمان به [حریم خصوصی](privacy-policy.md) مراجعه کنید.
 
-A full revision [history](https://github.com/privacyguides/privacyguides.org/commits/main/docs/about/privacy-policy.md) of this page can be found on GitHub.
+بازنگری کامل [تاریخچه](https://github.com/privacyguides/privacyguides.org/commits/main/docs/about/privacy-policy.md) این صفحه را می‌توانید در GitHub بیابید.

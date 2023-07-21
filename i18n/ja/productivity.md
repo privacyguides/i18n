@@ -14,16 +14,13 @@ Most online office suites do not support E2EE, meaning the cloud provider has ac
 !!! recommendation
 
     ![Nextcloud logo](assets/img/productivity/nextcloud.svg){ align=right }
-    
-    **Nextcloud** is a suite of free and open-source client-server software for creating your own file hosting services on a private server you control.
+    **Nextcloud**は、フリーでオープンソースのクライアント・サーバーソフトウェアのスイートです。
     
     [:octicons-home-16: Homepage](https://nextcloud.com){ .md-button .md-button--primary }
     [:octicons-eye-16:](https://nextcloud.com/privacy){ .card-link title="Privacy Policy" }
     [:octicons-info-16:](https://nextcloud.com/support/){ .card-link title=Documentation}
     [:octicons-code-16:](https://github.com/nextcloud){ .card-link title="Source Code" }
-    [:octicons-heart-16:](https://nextcloud.com/contribute/){ .card-link title=Contribute }
-    
-    ??? downloads
+    [:octicons-heart-16:](https://nextcloud.com/contribute/){ .card-link title=Contribute } ダウンロード
     
         - [:simple-googleplay: Google Play](https://play.google.com/store/apps/details?id=com.nextcloud.client)
         - [:simple-appstore: App Store](https://apps.apple.com/app/id1125420102)
@@ -32,9 +29,9 @@ Most online office suites do not support E2EE, meaning the cloud provider has ac
         - [:simple-apple: macOS](https://nextcloud.com/install/#install-clients)
         - [:simple-linux: Linux](https://nextcloud.com/install/#install-clients)
 
-!!! danger
+!!! 警告
 
-    We don't recommend using the [E2EE App](https://apps.nextcloud.com/apps/end_to_end_encryption) for Nextcloud as it may lead to data loss; it is highly experimental and not production quality. For this reason, we don't recommend third-party Nextcloud providers.
+    [E2EEアプリ](https://apps.nextcloud.com/apps/end_to_end_encryption) for Nextcloudの使用は、データ損失の可能性があるため、お勧めしません。 For this reason, we don't recommend third-party Nextcloud providers.
 
 ### CryptPad
 

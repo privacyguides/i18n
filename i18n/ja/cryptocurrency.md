@@ -9,7 +9,7 @@ Making payments online is one of the biggest challenges to privacy. These crypto
 
 [Making Private Payments :material-arrow-right-drop-circle:](advanced/payments.md ""){.md-button}
 
-!!! danger
+!!! 警告
 
     Many if not most cryptocurrency projects are scams. Make transactions carefully with only projects you trust.
 

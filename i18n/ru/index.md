@@ -1,6 +1,8 @@
 ---
 meta_title: "Privacy Guides: Ваш независимый ресурс по конфиденциальности и безопасности"
 template: overrides/home.ru.html
+social:
+  cards_layout: home
 hide:
   - navigation
   - toc

@@ -1,6 +1,8 @@
 ---
 meta_title: "Privacy Guides: منبع مستقل حریم خصوصی و امنیت شما"
 template: overrides/home.fa.html
+social:
+  cards_layout: home
 hide:
   - navigation
   - toc

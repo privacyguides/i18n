@@ -1,6 +1,8 @@
 ---
 meta_title: "Privacy Guides: משאב הפרטיות והאבטחה העצמאיים שלך"
 template: overrides/home.he.html
+social:
+  cards_layout: home
 hide:
   - navigation
   - toc

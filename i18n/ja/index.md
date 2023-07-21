@@ -1,6 +1,8 @@
 ---
 meta_title: "Privacy Guides: プライバシーとセキュリティに関する独立したリソース"
 template: overrides/home.ja.html
+social:
+  cards_layout: home
 hide:
   - navigation
   - toc

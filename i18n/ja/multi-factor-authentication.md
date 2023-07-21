@@ -1,11 +1,11 @@
 ---
-title: "Multi-Factor Authenticators"
+title: "多要素認証"
 icon: 'material/two-factor-authentication'
-description: These tools assist you with securing your internet accounts with Multi-Factor Authentication without sending your secrets to a third-party.
+description: これらのツールは、あなたの秘密をサードパーティに送信することなく、多要素認証であなたのインターネットアカウントを保護することを支援します。
 cover: multi-factor-authentication.png
 ---
 
-## Hardware Security Keys
+## ハードウェアセキュリティ
 
 ### YubiKey
 
@@ -13,9 +13,9 @@ cover: multi-factor-authentication.png
 
     ![YubiKeys](assets/img/multi-factor-authentication/yubikey.png)
     
-    The **YubiKeys** are among the most popular security keys. Some YubiKey models have a wide range of features such as: [Universal 2nd Factor (U2F)](https://en.wikipedia.org/wiki/Universal_2nd_Factor), [FIDO2 and WebAuthn](basics/multi-factor-authentication.md#fido-fast-identity-online), [Yubico OTP](basics/multi-factor-authentication.md#yubico-otp), [Personal Identity Verification (PIV)](https://developers.yubico.com/PIV), [OpenPGP](https://developers.yubico.com/PGP/), [TOTP and HOTP](https://developers.yubico.com/OATH) authentication.
+    **YubiKeys**は最も人気のあるセキュリティ・キーのひとつです。 いくつかのYubiKeyモデルには以下のような幅広い機能があります: [Universal 2nd Factor (U2F)](https://en.wikipedia.org/wiki/Universal_2nd_Factor), [FIDO2 and WebAuthn](basics/multi-factor-authentication.md#fido-fast-identity-online), [Yubico OTP](basics/multi-factor-authentication.md#yubico-otp), [Personal Identity Verification (PIV)](https://developers.yubico.com/PIV), [OpenPGP](https://developers.yubico.com/PGP/), [TOTP and HOTP](https://developers.yubico.com/OATH) authentication.
     
-    One of the benefits of the YubiKey is that one key can do almost everything (YubiKey 5), you could expect from a hardware security key. We do encourage you to take the [quiz](https://www.yubico.com/quiz/) before purchasing in order to make sure you make the right choice.
+    YubiKeyの利点の1つは、1つのキーでハードウェア・セキュリティ・キーに期待されるほとんどのこと(YubiKey 5)ができることです。 正しい選択をするために、購入前に [quiz](https://www.yubico.com/quiz/)をご覧になることをお勧めします。
     
     [:octicons-home-16: Homepage](https://www.yubico.com){ .md-button .md-button--primary }
     [:octicons-eye-16:](https://www.yubico.com/support/terms-conditions/privacy-notice){ .card-link title="Privacy Policy" }

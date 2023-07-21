@@ -1,44 +1,44 @@
 ---
-title: Git Recommendations
+title: توصیه‌های Git
 ---
 
-If you make changes to this website on GitHub.com's web editor directly, you shouldn't have to worry about this. If you are developing locally and/or are a long-term website editor (who should probably be developing locally!), consider these recommendations.
+اگر مستقیماً در ویرایشگر وب GitHub.com تغییراتی را در این وب سایت ایجاد می‌کنید، نباید نگران این موضوع باشید. اگر به صورت محلی در حال توسعه هستید و/یا یک ویرایشگر طولانی مدت وب سایت هستید (که احتمالاً باید به صورت محلی در حال توسعه باشد!)، این توصیه ها را در نظر بگیرید.
 
-## Enable SSH Key Commit Signing
+## SSH Key Commit Signing را فعال کنید
 
-You can use an existing SSH key for signing, or [create a new one](https://docs.github.com/en/authentication/connecting-to-github-with-ssh/generating-a-new-ssh-key-and-adding-it-to-the-ssh-agent).
+می توانید از یک کلید SSH موجود برای امضا استفاده کنید، یا[جدیدش را بسازید](https://docs.github.com/en/authentication/connecting-to-github-with-ssh/generating-a-new-ssh-key-and-adding-it-to-the-ssh-agent).
 
-1. Configure your Git client to sign commits and tags by default (remove `--global` to only sign by default for this repo):
+1. کلاینت Git خود را تنظیم کنید تا به طور پیش‌فرض commitها و برچسب‌ها را امضا کند (`--global` را حذف کنید تا فقط به‌طور پیش‌فرض برای این مخزن امضا شود):
    ```
    git config --global commit.gpgsign true
    git config --global gpg.format ssh
    git config --global tag.gpgSign true
    ```
-2. Copy your SSH public key to your clipboard, for example:
+2. کلید عمومی SSH خود را در کلیپ بورد خود کپی کنید، به عنوان مثال:
    ```
    pbcopy < ~/.ssh/id_ed25519.pub
     # Copies the contents of the id_ed25519.pub file to your clipboard
    ```
-3. Set your SSH key for signing in Git with the following command, replacing the last string in quotes with the public key in your clipboard:
+3. کلید SSH خود را برای ورود به Git با دستور زیر تنظیم کنید و آخرین رشته در نقل قول را با کلید عمومی در کلیپ بورد خود جایگزین کنید:
    ```
    git config --global user.signingkey 'ssh-ed25519 AAAAC3(...) user@example.com'
    ```
 
-Ensure you [add your SSH key to your GitHub account](https://docs.github.com/en/authentication/connecting-to-github-with-ssh/adding-a-new-ssh-key-to-your-github-account#adding-a-new-ssh-key-to-your-account) **as a Signing Key** (as opposed to or in addition to as an Authentication Key).
+مطمئن شوید که [ کلید خصوصی خود را به اکانت GitHub اضافه کنید](https://docs.github.com/en/authentication/connecting-to-github-with-ssh/adding-a-new-ssh-key-to-your-github-account#adding-a-new-ssh-key-to-your-account) **به عنوان کلید امضا شده** (برخلاف یا علاوه بر آن به عنوان یک کلید احراز هویت).
 
-## Rebase on Git pull
+## دوباره بر روی Git pull قرار دهید
 
-Use `git pull --rebase` instead of `git pull` when pulling in changes from GitHub to your local machine. This way your local changes will always be "on top of" the latest changes on GitHub, and you avoid merge commits (which are disallowed in this repo).
+به جای `git pull` از `git pull --rebase` هنگام اعمال تغییرات از GitHub به دستگاه محلی خود استفاده کنید. به این ترتیب تغییرات محلی شما همیشه "در بالای" آخرین تغییرات در GitHub خواهد بود و از ادغام commit (که در این مخزن غیرمجاز هستند) اجتناب می کنید.
 
-You can set this to be the default behavior:
+می توانید این را به عنوان رفتار پیش فرض تنظیم کنید:
 
 ```
 git config --global pull.rebase true
 ```
 
-## Rebase from `main` before submitting a PR
+## قبل از ارسال یک PR، از `main` بازنویسی کنید
 
-If you are working on your own branch, run these commands before submitting a PR:
+اگر روی branch خود کار می کنید، این دستورها را قبل از ارسال یک PR اجرا کنید:
 
 ```
 git fetch origin

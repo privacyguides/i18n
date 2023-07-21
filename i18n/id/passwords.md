@@ -161,21 +161,21 @@ Bitwarden juga memiliki fitur [Bitwarden Send](https://bitwarden.com/products/se
 
 Anda memerlukan [Paket Premium](https://bitwarden.com/help/about-bitwarden-plans/#compare-personal-plans) untuk dapat berbagi file. Paket yang gratis hanya bisa berbagi teks saja.
 
-Bitwarden's server-side code is [open-source](https://github.com/bitwarden/server), so if you don't want to use the Bitwarden cloud, you can easily host your own Bitwarden sync server.
+Kode sisi server Bitwarden adalah [open-source](https://github.com/bitwarden/server), jadi jika Anda tidak ingin menggunakan cloud Bitwarden, Anda dapat dengan mudah meng-host server sinkronisasi Bitwarden Anda sendiri.
 
-**Vaultwarden** is an alternative implementation of Bitwarden's sync server written in Rust and compatible with official Bitwarden clients, perfect for self-hosted deployment where running the official resource-heavy service might not be ideal. If you are looking to self-host Bitwarden on your own server, you almost certainly want to use Vaultwarden over Bitwarden's official server code.
+**Vaultwarden** adalah implementasi alternatif dari server sinkronisasi Bitwarden yang ditulis dalam Rust dan kompatibel dengan klien Bitwarden resmi, sempurna untuk penerapan yang dihosting sendiri di mana menjalankan layanan resmi yang penuh sumber daya mungkin tidak ideal. Jika Anda ingin meng-host Bitwarden di server Anda sendiri, Gunakanlah Vaultwarden dan bukan kode server resmi Bitwarden.
 
-[:octicons-repo-16: Vaultwarden Repository](https://github.com/dani-garcia/vaultwarden ""){.md-button} [:octicons-info-16:](https://github.com/dani-garcia/vaultwarden/wiki){ .card-link title=Documentation}
-[:octicons-code-16:](https://github.com/dani-garcia/vaultwarden){ .card-link title="Source Code" }
-[:octicons-heart-16:](https://github.com/sponsors/dani-garcia){ .card-link title=Contribute }
+[:octicons-repo-16: Repositori Vaultwarden](https://github.com/dani-garcia/vaultwarden ""){.md-button} [:octicons-info-16:](https://github.com/dani-garcia/vaultwarden/wiki){ .card-link title=Dokumentasi}
+[:octicons-code-16:](https://github.com/dani-garcia/vaultwarden){ .card-link title="Kode Sumber" }
+[:octicons-heart-16:](https://github.com/sponsors/dani-garcia){ .card-link title=Kontribusi }
 
 ### 1Password
 
 !!! recommendation
 
-    ![1Password logo](assets/img/password-management/1password.svg){ align=right }
+    ![Logo 1Password](assets/img/password-management/1password.svg){ align=right }
     
-    **1Password** is a password manager with a strong focus on security and ease-of-use, which allows you to store passwords, credit cards, software licenses, and any other sensitive information in a secure digital vault. Your vault is hosted on 1Password's servers for a [monthly fee](https://1password.com/sign-up/). 1Password is [audited](https://support.1password.com/security-assessments/) on a regular basis and provides exceptional customer support. 1Password is closed source; however, the security of the product is thoroughly documented in their [security white paper](https://1passwordstatic.com/files/security/1password-white-paper.pdf).
+    **1Password** adalah pengelola kata sandi dengan fokus yang kuat pada keamanan dan kemudahan penggunaan, yang memungkinkan Anda menyimpan kata sandi, kartu kredit, lisensi perangkat lunak, dan informasi sensitif lainnya dalam brankas digital yang aman. Brankas Anda di-host di server 1Password dengan biaya [biaya bulanan] (https://1password.com/sign-up/). 1Password sudah [teraudit](https://support.1password.com/security-assessments/) secara teratur dan menyediakan dukungan pelanggan yang bagus. 1Password is closed source; however, the security of the product is thoroughly documented in their [security white paper](https://1passwordstatic.com/files/security/1password-white-paper.pdf).
     
     [:octicons-home-16: Homepage](https://1password.com/){ .md-button .md-button--primary }
     [:octicons-eye-16:](https://1password.com/legal/privacy/){ .card-link title="Privacy Policy" }

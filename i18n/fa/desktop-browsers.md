@@ -94,15 +94,15 @@ Mullvad Browser comes with the *uBlock Origin* and *NoScript* browser extensions
 
 ### Private Browsing Mode
 
-Mullvad Browser operates in permanent private browsing mode, meaning your history, cookies, and other site data will always be cleared every time the browser is closed. Your bookmarks, browser settings, and extension settings will still be preserved.
+مرورگر مولواد در حالت دائمی مرور ناشناس فعالیت می‌کند، به این معنی که تاریخچه، کوکی‌ها و داده‌های دیگر سایت هر بار که مرورگر بسته شود، پاک خواهند شد. بوک‌مارک‌های شما، تنظیمات مرورگر و تنظیمات افزونه‌ها ذخیره خواهند شد.
 
-This is required to prevent advanced forms of tracking, but does come at the cost of convenience and some Firefox features, such as Multi-Account Containers. Remember you can always use multiple browsers, for example, you could consider using Firefox+Arkenfox for a few sites that you want to stay logged in on or otherwise don't work properly in Mullvad Browser, and Mullvad Browser for general browsing.
+این اقدام به منظور جلوگیری از روش‌های پیشرفته‌ی پیگیری (tracking) مورد نیاز است. اما این کار کمی راحتی کار را کم می‌کند. some Firefox features, such as Multi-Account Containers. به خاطر داشته باشید همیشه می‌توانید از چندین مرورگر استفاده کنید، به عنوان مثال می‌توانید برای برخی از وب‌سایت‌ها که می‌خواهید با حساب کاربری خود وارد شوید یا به طور دیگر در مرورگر مولواد به درستی کار نمی‌کنند، از Firefox+Arkenfox استفاده کنید و از مرورگر مولواد برای استفاده عمومی استفاده کنید.
 
-### Mullvad Leta
+### مولواد (Mullvad)
 
 Mullvad Browser comes with DuckDuckGo set as the default [search engine](search-engines.md), but it also comes preinstalled with **Mullvad Leta**, a search engine which requires an active Mullvad VPN subscription to access. Mullvad Leta queries Google's paid search API directly (which is why it is limited to paying subscribers), however because of this limitation it is possible for Mullvad to correlate search queries and Mullvad VPN accounts. For this reason we discourage the use of Mullvad Leta, even though Mullvad collects very little information about their VPN subscribers.
 
-## فایرفاکس
+## فایرفاکس (Firefox)
 
 !!! recommendation
 
@@ -134,13 +134,13 @@ These options can be found in :material-menu: → **Settings**
 
 - [ ] Uncheck **Provide search suggestions**
 
-Search suggestion features may not be available in your region.
+ویژگی‌های پیشنهاد در جستجو ممکن است در منطقه شما در دسترس نباشند.
 
-Search suggestions send everything you type in the address bar to the default search engine, regardless of whether you submit an actual search. Disabling search suggestions allows you to more precisely control what data you send to your search engine provider.
+پیشنهادهای در جستجو همه‌ی مواردی را که در نوار آدرس تایپ می‌کنید به موتور جستجوی پیش‌فرض ارسال می‌کند، بدون درنظر گرفتن اینکه آیا شما یک جستجوی واقعی را ارسال کرده‌اید یا خیر. غیرفعال کردن پیشنهادهای جستجو به شما اجازه می‌دهد که با دقت بیشتری کنترل کنید که چه داده‌هایی را به ارائه‌دهنده موتور جستجو ارسال می‌کنید.
 
-#### حریم‌خصوصی & امنیت
+#### حریم‌خصوصی و امنیت
 
-##### Enhanced Tracking Protection
+##### حفاظت از ردیابی پیشرفته
 
 - [x] Select **Strict** Enhanced Tracking Protection
 
@@ -305,7 +305,7 @@ Set **Default Ethereum wallet** to **Extensions (no fallback)** Set **Default So
 
 **Brave Wallet** operates locally on your computer, but does not support any private cryptocurrencies, so we would discourage using this feature as well.
 
-## Additional Resources
+## منابع بیشتر
 
 In general, we recommend keeping your browser extensions to a minimum to decrease your attack surface; they have privileged access within your browser, require you to trust the developer, can make you [stand out](https://en.wikipedia.org/wiki/Device_fingerprint#Browser_fingerprint), and [weaken](https://groups.google.com/a/chromium.org/g/chromium-extensions/c/0ei-UCHNm34/m/lDaXwQhzBAAJ) site isolation. However, uBlock Origin may prove useful if you value content blocking functionality.
 
@@ -337,7 +337,7 @@ These are some other [filter lists](https://github.com/gorhill/uBlock/wiki/Dashb
 - [x] Check **Privacy** > **AdGuard URL Tracking Protection**
 - Add [Actually Legitimate URL Shortener Tool](https://raw.githubusercontent.com/DandelionSprout/adfilt/master/LegitimateURLShortener.txt)
 
-## Criteria
+## معیار
 
 **Please note we are not affiliated with any of the projects we recommend.** In addition to [our standard criteria](about/criteria.md), we have developed a clear set of requirements to allow us to provide objective recommendations. We suggest you familiarize yourself with this list before choosing to use a project, and conduct your own research to ensure it's the right choice for you.
 
@@ -345,7 +345,7 @@ These are some other [filter lists](https://github.com/gorhill/uBlock/wiki/Dashb
 
     We are working on establishing defined criteria for every section of our site, and this may be subject to change. If you have any questions about our criteria, please [ask on our forum](https://discuss.privacyguides.net/latest) and don't assume we didn't consider something when making our recommendations if it is not listed here. There are many factors considered and discussed when we recommend a project, and documenting every single one is a work-in-progress.
 
-### Minimum Requirements
+### حداقل الزامات
 
 - Must be open-source software.
 - Supports automatic updates.
@@ -355,22 +355,22 @@ These are some other [filter lists](https://github.com/gorhill/uBlock/wiki/Dashb
 - Blocks third-party cookies by default.
 - Supports [state partitioning](https://developer.mozilla.org/en-US/docs/Web/Privacy/State_Partitioning) to mitigate cross-site tracking.[^1]
 
-### Best-Case
+### بهترین شرایط
 
 Our best-case criteria represents what we would like to see from the perfect project in this category. Our recommendations may not include any or all of this functionality, but those which do may rank higher than others on this page.
 
-- Includes built-in content blocking functionality.
+- شامل قابلیت مسدود کردن محتوای داخلی است.
 - Supports cookie compartmentalization (à la [Multi-Account Containers](https://support.mozilla.org/en-US/kb/containers)).
 - Supports Progressive Web Apps.  
-  PWAs enable you to install certain websites as if they were native apps on your computer. This can have advantages over installing Electron-based apps, because you benefit from your browser's regular security updates.
-- Does not include add-on functionality (bloatware) that does not impact user privacy.
-- Does not collect telemetry by default.
-- Provides open-source sync server implementation.
+  PWAs enable you to install certain websites as if they were native apps on your computer. این می تواند نسبت به نصب برنامه های مبتنی بر الکترون مزایایی داشته باشد، زیرا شما از به روز رسانی های امنیتی منظم مرورگر خود بهره مند می شوید.
+- شامل عملکرد افزودنی (bloatware) که بر حریم خصوصی کاربر تأثیر نمی گذارد، نمی شود.
+- به طور پیش فرض داده تله متری (Telemetry) را جمع آوری نمی کند.
+- اجرای سرور همگام (Sync Server) منبع باز (Open-source) را ارائه می دهد.
 - Defaults to a [private search engine](search-engines.md).
 
-### Extension Criteria
+### معیار‌های بیشتر
 
-- Must not replicate built-in browser or OS functionality.
-- Must directly impact user privacy, i.e. must not simply provide information.
+- نباید عملکرد داخلی مرورگر یا سیستم عامل را تکرار کند.
+- باید مستقیماً بر حریم خصوصی کاربر تأثیر بگذارد، یعنی صرفاً نباید اطلاعات ارائه دهد.
 
 [^1]: Brave's implementation is detailed at [Brave Privacy Updates: Partitioning network-state for privacy](https://brave.com/privacy-updates/14-partitioning-network-state/).

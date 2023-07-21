@@ -1,23 +1,21 @@
 ---
-title: "Notebooks"
+title: "یادداشت"
 icon: material/notebook-edit-outline
-description: These encrypted note-taking apps let you keep track of your notes without giving them to a third-party.
+description: این برنامه های یادداشت برداری رمزگذاری شده به شما امکان می دهد یادداشت های خود را بدون دادن آنها به شخص ثالث پیگیری کنید.
 cover: notebooks.png
 ---
 
-Keep track of your notes and journalings without giving them to a third-party.
+یادداشت ها و ژورنال های خود را بدون دادن به شخص ثالث پیگیری کنید.
 
-If you are currently using an application like Evernote, Google Keep, or Microsoft OneNote, we suggest you pick an alternative here that supports E2EE.
+اگر در حال حاضر از برنامه‌ای مانند Evernote، Google Keep یا Microsoft OneNote استفاده می‌کنید، پیشنهاد می‌کنیم یک جایگزین را در اینجا انتخاب کنید که از E2EE پشتیبانی می‌کند.
 
-## Cloud-based
+## بر پایه ابری
 
-### Standard Notes
+### یادداشت‌های استاندارد
 
 !!! recommendation
 
-    ![Standard Notes logo](assets/img/notebooks/standard-notes.svg){ align=right }
-    
-    **Standard Notes** is a simple and private notes app that makes your notes easy and available everywhere you are. It features E2EE on every platform, and a powerful desktop experience with themes and custom editors. It has also been [independently audited](https://standardnotes.com/help/2/has-standard-notes-completed-a-third-party-security-audit).
+    **Standard Notes** یک برنامه یادداشت ساده و خصوصی است که یادداشت های شما را در هر جایی که هستید آسان و در دسترس می کند. دارای E2EE در هر پلتفرم و تجربه قدرتمند دسکتاپ با تم ها و ویرایشگرهای سفارشی است. It has also been [independently audited](https://standardnotes.com/help/2/has-standard-notes-completed-a-third-party-security-audit).
     
     [:octicons-home-16: Homepage](https://standardnotes.com){ .md-button .md-button--primary }
     [:octicons-eye-16:](https://standardnotes.com/privacy){ .card-link title="Privacy Policy" }

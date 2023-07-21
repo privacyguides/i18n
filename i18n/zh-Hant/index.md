@@ -1,6 +1,8 @@
 ---
 meta_title: "Privacy Guides: 您的獨立隱私和安全資源"
 template: overrides/home.zh-Hant.html
+social:
+  cards_layout: home
 hide:
   - navigation
   - toc
