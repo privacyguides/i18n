@@ -4,9 +4,13 @@ icon: simple/android
 description: אנדרואיד היא מערכת הפעלה בקוד פתוח עם הגנות אבטחה חזקות, מה שהופך אותה לבחירה המובילה שלנו עבור טלפונים.
 ---
 
-אנדרואיד היא מערכת הפעלה מאובטחת הכוללת [ארגז חול חזק של אפליקציות](https://source.android.com/security/app-sandbox), [אתחול מאומת](https://source.android.com/security/verifiedboot) (AVB) ומערכת בקרת [הרשאות](https://developer.android.com/guide/topics/permissions/overview) חזקה.
+![לוגו אנדרואיד](../assets/img/android/android.svg){ align=right }
 
-## בחירת הפצת אנדרואיד
+The **Android Open Source Project** is a secure mobile operating system featuring strong [app sandboxing](https://source.android.com/security/app-sandbox), [Verified Boot](https://source.android.com/security/verifiedboot) (AVB), and a robust [permission](https://developer.android.com/guide/topics/permissions/overview) control system.
+
+## Our Advice
+
+### בחירת הפצת אנדרואיד
 
 כאשר אתה קונה טלפון אנדרואיד, מערכת ההפעלה המוגדרת כברירת מחדל של המכשיר מגיעה לרוב עם אינטגרציה פולשנית עם אפליקציות ושירותים שאינם חלק מ[פרויקט הקוד הפתוח של אנדרואיד](https://source.android.com/). דוגמה כזו היא שירותי Google Play, שיש לו הרשאות בלתי חוזרות לגשת לקבצים שלך, אחסון אנשי הקשר, יומני שיחות, הודעות SMS, מיקום, מצלמה, מיקרופון, מזהי חומרה וכו'. אפליקציות ושירותים אלו מגדילים את משטח ההתקפה של המכשיר שלך ומהווים מקור לחששות פרטיות שונים עם אנדרואיד.
 
@@ -16,7 +20,7 @@ description: אנדרואיד היא מערכת הפעלה בקוד פתוח ע�
 
 [המלצות מערכת אנדרואיד שלנו :material-arrow-right-drop-circle:](../android.md ""){.md-button}
 
-## הימנע מהשתרשות
+### הימנע מהשתרשות
 
 [השרשת](https://en.wikipedia.org/wiki/Rooting_(Android)) טלפונים אנדרואיד יכולים להפחית את האבטחה באופן משמעותי מכיוון שהוא מחליש את [מודל האבטחה של אנדרואיד](https://en.wikipedia.org/wiki/Android_(operating_system)#Security_and_privacy). זה יכול להפחית את הפרטיות אם יש ניצול הנעזר בירידה באבטחה. שיטות השתרשות נפוצות כוללות התעסקות ישירה במחיצת האתחול, מה שהופך את זה לבלתי אפשרי לבצע אתחול מאומת בהצלחה. אפליקציות הדורשות שורש ישנו גם את מחיצת המערכת, כלומר אתחול מאומת יצטרך להישאר מושבת. חשיפת השורש ישירות בממשק המשתמש גם מגדילה את [משטח ההתקפה](https://en.wikipedia.org/wiki/Attack_surface) של המכשיר שלך ועשויה לסייע ב[הסלמה של הרשאות](https://en.wikipedia.org/wiki/Privilege_escalation) פגיעויות ועקיפות מדיניות SELinux.
 
@@ -26,7 +30,21 @@ AFWall+ פועל על בסיס גישת [סינון חבילות](https://en.wik
 
 אנחנו לא מאמינים שקורבנות האבטחה שנעשו על ידי השתרשות טלפון שווים את יתרונות הפרטיות המפוקפקים של אפליקציות אלה.
 
-## אתחול מאומת
+### Install Updates
+
+חשוב לא להשתמש בגרסת [סוף החיים](https://endoflife.date/android) של אנדרואיד. גרסאות חדשות יותר של אנדרואיד לא רק מקבלות עדכוני אבטחה עבור מערכת ההפעלה אלא גם עדכונים חשובים לשיפור הפרטיות.
+
+For example, [prior to Android 10](https://developer.android.com/about/versions/10/privacy/changes) any apps with the [`READ_PHONE_STATE`](https://developer.android.com/reference/android/Manifest.permission#READ_PHONE_STATE) permission could access sensitive and unique serial numbers of your phone such as [IMEI](https://en.wikipedia.org/wiki/International_Mobile_Equipment_Identity), [MEID](https://en.wikipedia.org/wiki/Mobile_equipment_identifier), or your SIM card's [IMSI](https://en.wikipedia.org/wiki/International_mobile_subscriber_identity); whereas now they must be system apps to do so. אפליקציות מערכת מסופקות רק על ידי הפצת OEM או אנדרואיד.
+
+### Sharing Media
+
+You can avoid giving many apps permission to access your media with Android's built-in sharing features. Many applications allow you to "share" a file with them for media upload.
+
+For example, if you want to post a picture to Discord you can open your file manager or gallery and share that picture with the Discord app, instead of granting Discord full access to your media and photos.
+
+## Security Protections
+
+### אתחול מאומת
 
 [אתחול מאומת](https://source.android.com/security/verifiedboot) הוא חלק חשוב ממודל האבטחה של אנדרואיד. הוא מספק הגנה מפני התקפות [משרתת רעה](https://en.wikipedia.org/wiki/Evil_maid_attack), התמדה של תוכנות זדוניות, ומבטיח שלא ניתן לשדרג לאחור עדכוני אבטחה עם [הגנה לאחור](https://source.android.com/security/verifiedboot/verified-boot#rollback-protection).
 
@@ -38,7 +56,7 @@ AFWall+ פועל על בסיס גישת [סינון חבילות](https://en.wik
 
 יצרני OEM רבים גם עשו יישום שבור של אתחול מאומת שעליך להיות מודע אליו מעבר לשיווק שלהם. לדוגמה, ה-Fairphone 3 ו-4 אינם מאובטחים כברירת מחדל, מכיוון ש[מטען האתחול של הברירת מחדל סומך על מפתח החתימה הציבורי של ](https://forum.fairphone.com/t/bootloader-avb-keys-used-in-roms-for-fairphone-3-4/83448/11)AVB. זה שובר אתחול מאומת במכשיר Fairphone ברירת מחדל, מכיוון שהמערכת תאתחל מערכות הפעלה חלופיות של אנדרואיד כגון (כגון /e/) [ללא כל אזהרה](https://source.android.com/security/verifiedboot/boot-flow#locked-devices-with-custom-root-of-trust) לגבי שימוש מותאם אישית במערכת ההפעלה.
 
-## עדכוני קושחה
+### עדכוני קושחה
 
 עדכוני קושחה הם קריטיים לשמירה על האבטחה ובלעדיהם המכשיר שלך לא יכול להיות מאובטח. ליצרני ציוד מקורי יש הסכמי תמיכה עם השותפים שלהם כדי לספק את רכיבי הקוד הסגור לתקופת תמיכה מוגבלת. אלה מפורטים ב[עלוני האבטחה של אנדרואיד](https://source.android.com/security/bulletin) החודשיים.
 
@@ -48,11 +66,7 @@ AFWall+ פועל על בסיס גישת [סינון חבילות](https://en.wik
 
 Fairphone, למשל, משווקת את המכשירים שלהם כמקבלים 6 שנות תמיכה. עם זאת, ל-SoC (Qualcomm Snapdragon 750G ב-Fairphone 4) יש תאריך EOL קצר בהרבה. המשמעות היא שעדכוני אבטחת קושחה מ-Qualcomm עבור Fairphone 4 יסתיימו בספטמבר 2023, ללא קשר לשאלה אם Fairphone תמשיך לשחרר עדכוני אבטחה תוכנה.
 
-## גרסאות אנדרואיד
-
-חשוב לא להשתמש בגרסת [סוף החיים](https://endoflife.date/android) של אנדרואיד. גרסאות חדשות יותר של אנדרואיד לא רק מקבלות עדכוני אבטחה עבור מערכת ההפעלה אלא גם עדכונים חשובים לשיפור הפרטיות. לדוגמה, [לפני אנדרואיד 10](https://developer.android.com/about/versions/10/privacy/changes), כל אפליקציה עם הרשאת [`READ_PHONE_STATE`](https://developer.android.com/reference/android/Manifest.permission#READ_PHONE_STATE) יכלו לגשת למספרים סידוריים רגישים וייחודיים של הטלפון שלך כגון [IMEI](https://en.wikipedia.org/wiki/International_Mobile_Equipment_Identity), [MEID](https://en.wikipedia.org/wiki/Mobile_equipment_identifier), כרטיס ה-SIM שלך [IMSI](https://en.wikipedia.org/wiki/International_mobile_subscriber_identity), בעוד שכעת הם חייבים להיות אפליקציות מערכת כדי לעשות זאת. אפליקציות מערכת מסופקות רק על ידי הפצת OEM או אנדרואיד.
-
-## הרשאות אנדרואיד
+### הרשאות אנדרואיד
 
 [הרשאות ב-אנדרואיד](https://developer.android.com/guide/topics/permissions/overview) מעניקות לך שליטה על האפליקציות המורשות לגשת. גוגל מבצעת בקביעות [שיפורים](https://developer.android.com/about/versions/11/privacy/permissions) במערכת ההרשאות בכל גרסה עוקבת. כל האפליקציות שאתה מתקין הן אך ורק [ארגז חול](https://source.android.com/security/app-sandbox), לכן, אין צורך להתקין אפליקציות אנטי וירוס.
 
@@ -93,17 +107,15 @@ Fairphone, למשל, משווקת את המכשירים שלהם כמקבלים 
 
     אפליקציות ידידותיות לפרטיות כגון [Bitwarden](https://reports.exodus-privacy.eu.org/en/reports/com.x8bit.bitwarden/latest/) עשויות להציג עוקבים מסוימים כגון [Google Firebase Analytics](https://reports.exodus-privacy.eu.org/en/trackers/49/). ספרייה זו כוללת את [Firebase Cloud Messaging](https://en.wikipedia.org/wiki/Firebase_Cloud_Messaging) שיכולה לספק [הודעות דחיפה](https://en.wikipedia.org/wiki/Push_technology) באפליקציות. זה [המקרה](https://fosstodon.org/@bitwarden/109636825700482007) עם Bitwarden. זה לא אומר ש-Bitwarden משתמש בכל תכונות הניתוח שמסופקות על ידי Google Firebase Analytics.
 
-## גישה למדיה
+## Privacy Features
 
-לא מעט אפליקציות מאפשרות "לחלוק" איתם קובץ להעלאת מדיה. אם אתה רוצה, למשל, לצייץ תמונה לטוויטר, אל תעניק לטוויטר גישה ל"מדיה ותמונות" שלך, כי אז תהיה לה גישה לכל התמונות שלך. במקום זאת, עבור אל מנהל הקבצים שלך (documentsUI), שמור את התמונה ולאחר מכן שתף אותה עם טוויטר.
-
-## פרופילי משתמשים
+### פרופילי משתמשים
 
 ניתן למצוא פרופילי משתמש מרובים ב**הגדרות** ← **מערכת** ← **משתמש מרובים** והם הדרך הפשוטה ביותר לבודד באנדרואיד.
 
 עם פרופילי משתמש, אתה יכול להטיל הגבלות על פרופיל ספציפי, כגון: ביצוע שיחות, שימוש ב-SMS או התקנת אפליקציות במכשיר. כל פרופיל מוצפן באמצעות מפתח הצפנה משלו ואינו יכול לגשת לנתונים של אף פרופיל אחר. אפילו בעל המכשיר לא יכול לראות את הנתונים של פרופילים אחרים מבלי לדעת את הסיסמה שלהם. פרופילי משתמשים מרובים הם שיטה בטוחה יותר לבידוד.
 
-## פרופיל עבודה
+### פרופיל עבודה
 
 [פרופילי עבודה](https://support.google.com/work/android/answer/6191949) הם דרך נוספת לבודד אפליקציות בודדות ועשויה להיות נוחה יותר מפרופילי משתמשים נפרדים.
 
@@ -113,15 +125,15 @@ Fairphone, למשל, משווקת את המכשירים שלהם כמקבלים 
 
 שיטה זו בדרך כלל פחות מאובטחת מפרופיל משתמש משני; עם זאת, זה כן מאפשר לך את הנוחות של הפעלת אפליקציות בפרופיל העבודה וגם בפרופיל האישי בו-זמנית.
 
-## מתג הרג VPN
+### מתג הרג VPN
 
 אנדרואיד 7 ומעלה תומך ב-VPN Killswitch והוא זמין ללא צורך בהתקנת אפליקציות של צד שלישי. תכונה זו יכולה למנוע דליפות אם ה-VPN מנותק. ניתן למצוא אותו ב:gear: **הגדרות** ← **רשת & אינטרנט** ← **VPN** ← :gear: ← **חסום חיבורים ללא VPN**.
 
-## בוררים גלובליים
+### בוררים גלובליים
 
 למכשירי אנדרואיד מודרניים יש בוררים גלובליים לביטול Bluetooth ושירותי מיקום. אנדרואיד 12 הציגה מתגים למצלמה ולמיקרופון. כאשר אינו בשימוש, אנו ממליצים להשבית את התכונות הללו. אפליקציות לא יכולות להשתמש בתכונות מושבתות (גם אם ניתנה הרשאה אישית) עד להפעלה מחדש.
 
-## גוגל
+## Google Services
 
 אם אתה משתמש במכשיר עם שירותי Google, בין אם מערכת ההפעלה ברירת מחדל שלך או מערכת הפעלה המארחת בבטחה את שירותי Google Play כמו GrapheneOS, ישנם מספר שינויים נוספים שתוכל לבצע כדי לשפר את הפרטיות שלך. אנו עדיין ממליצים להימנע לחלוטין משירותי Google, או להגביל את שירותי Google Play לפרופיל משתמש/עבודה ספציפי על ידי שילוב של בקר מכשיר כמו *Shelter* עם Google Play Sandboxed של GrapheneOS.
 

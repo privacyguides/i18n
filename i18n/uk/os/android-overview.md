@@ -4,9 +4,13 @@ icon: simple/android
 description: Android is an open-source operating system with strong security protections, which makes it our top choice for phones.
 ---
 
-Android - це безпечна операційна система, яка має надійну [пісочницю для додатків](https://source.android.com/security/app-sandbox), [Verified Boot](https://source.android.com/security/verifiedboot) (AVB), та систему управління [дозволами](https://developer.android.com/guide/topics/permissions/overview).
+![Android logo](../assets/img/android/android.svg){ align=right }
 
-## Вибір прошивки Android
+The **Android Open Source Project** is a secure mobile operating system featuring strong [app sandboxing](https://source.android.com/security/app-sandbox), [Verified Boot](https://source.android.com/security/verifiedboot) (AVB), and a robust [permission](https://developer.android.com/guide/topics/permissions/overview) control system.
+
+## Our Advice
+
+### Вибір прошивки Android
 
 Коли ви купуєте телефон Android, операційна система пристрою за замовчуванням часто постачається з інвазивною інтеграцією з додатками та службами, які не є частиною [Android Open Source Project](https://source.android.com/). Прикладом цього є служби Google Play, які мають безповоротні привілеї для доступу до ваших файлів, зберігання контактів, журналів дзвінків, SMS-повідомлень, місцезнаходження, камери, мікрофона, ідентифікаторів обладнання тощо. Ці програми та сервіси збільшують вразливість вашого пристрою до атак і є джерелом різних проблем з конфіденційністю в Android.
 
@@ -16,7 +20,7 @@ Android - це безпечна операційна система, яка ма
 
 [Наші рекомендації для системи Android :material-arrow-right:](../android.md ""){.md-button}
 
-## Уникайте рутування
+### Уникайте рутування
 
 [Рутування](https://en.wikipedia.org/wiki/Rooting_(Android)) Android пристроїв може значно знизити безпеку, оскільки це послаблює повну [модель безпеки Android](https://en.wikipedia.org/wiki/Android_(operating_system)#Security_and_privacy). Це може знизити конфіденційність у разі використання експлойта, якому сприяє зниження безпеки. Поширені методи отримання root-прав передбачають втручання в розділ boot, що унеможливлює успішне виконання Verified Boot. Додатки, які потребують root-права, також змінюють системний розділ, що означає, що Verified Boot повинен залишатись вимкненим. Наявність root-доступу безпосередньо в інтерфейсі користувача також збільшує [поверхню атаки](https://en.wikipedia.org/wiki/Attack_surface) вашого пристрою і може сприяти [підвищенню привілеїв](https://en.wikipedia.org/wiki/Privilege_escalation), вразливостей та обходу політики SELinux.
 
@@ -26,7 +30,21 @@ AFWall+ використовує підхід на основі [пакетно�
 
 Ми не вважаємо, що жертви безпеки, які приносить рутування телефону, варті сумнівних переваг конфіденційності цих програм.
 
-## Verified Boot
+### Install Updates
+
+It's important to not use an [end-of-life](https://endoflife.date/android) version of Android. Newer versions of Android not only receive security updates for the operating system but also important privacy enhancing updates too.
+
+For example, [prior to Android 10](https://developer.android.com/about/versions/10/privacy/changes) any apps with the [`READ_PHONE_STATE`](https://developer.android.com/reference/android/Manifest.permission#READ_PHONE_STATE) permission could access sensitive and unique serial numbers of your phone such as [IMEI](https://en.wikipedia.org/wiki/International_Mobile_Equipment_Identity), [MEID](https://en.wikipedia.org/wiki/Mobile_equipment_identifier), or your SIM card's [IMSI](https://en.wikipedia.org/wiki/International_mobile_subscriber_identity); whereas now they must be system apps to do so. System apps are only provided by the OEM or Android distribution.
+
+### Sharing Media
+
+You can avoid giving many apps permission to access your media with Android's built-in sharing features. Many applications allow you to "share" a file with them for media upload.
+
+For example, if you want to post a picture to Discord you can open your file manager or gallery and share that picture with the Discord app, instead of granting Discord full access to your media and photos.
+
+## Security Protections
+
+### Verified Boot
 
 [Verified Boot](https://source.android.com/security/verifiedboot)> є важливою частиною моделі безпеки Android. Він забезпечує захист від атак [evil maid](https://en.wikipedia.org/wiki/Evil_maid_attack), стійкість до шкідливого програмного забезпечення, та гарантує що оновлення безпеки не можуть бути знижені за допомогою [захисту від відкату](https://source.android.com/security/verifiedboot/verified-boot#rollback-protection).
 
@@ -38,7 +56,7 @@ Verified Boot забезпечує цілісність файлів опера�
 
 Оновлення мікропрограми є критично важливими для підтримки безпеки, і без них ваш пристрій не може бути захищеним. OEM-виробники мають угоди про підтримку зі своїми партнерами щодо надання компонентів із закритим вихідним кодом протягом обмеженого періоду. Вони детально описані в щомісячному [бюлетені безпеки Android](https://source.android.com/security/bulletin).
 
-## Оновлення мікропрограми
+### Оновлення мікропрограми
 
 Оскільки такі компоненти телефону, як процесор та радіотехнології, покладаються на компоненти із закритим вихідним кодом, оновлення повинні надаватися відповідними виробниками. Тому важливо, щоб ви придбали пристрій в рамках активного циклу підтримки. [Qualcomm](https://www.qualcomm.com/news/releases/2020/12/16/qualcomm-and-google-announce-collaboration-extend-android-os-support-and) та [Samsung](https://news.samsung.com/us/samsung-galaxy-security-extending-updates-knox/) підтримують свої пристрої протягом 4 років, тоді як дешевші продукти часто мають коротші цикли підтримки.
 
@@ -48,11 +66,7 @@ Verified Boot забезпечує цілісність файлів опера�
 
 [Дозволи на Android](https://developer.android.com/guide/topics/permissions/overview) надають вам контроль над доступом програм. Google регулярно вносить [покращення](https://developer.android.com/about/versions/11/privacy/permissions) у систему дозволів в кожній наступній версії. Всі встановлені вами програми суворо [ізольовані](https://source.android.com/security/app-sandbox), тому немає потреби встановлювати будь-які антивірусні додатки.
 
-## Версії Android
-
-It's important to not use an [end-of-life](https://endoflife.date/android) version of Android. Newer versions of Android not only receive security updates for the operating system but also important privacy enhancing updates too. For example, [prior to Android 10](https://developer.android.com/about/versions/10/privacy/changes), any apps with the [`READ_PHONE_STATE`](https://developer.android.com/reference/android/Manifest.permission#READ_PHONE_STATE) permission could access sensitive and unique serial numbers of your phone such as [IMEI](https://en.wikipedia.org/wiki/International_Mobile_Equipment_Identity), [MEID](https://en.wikipedia.org/wiki/Mobile_equipment_identifier), your SIM card's [IMSI](https://en.wikipedia.org/wiki/International_mobile_subscriber_identity), whereas now they must be system apps to do so. System apps are only provided by the OEM or Android distribution.
-
-## Дозволи Android
+### Дозволи Android
 
 [Permissions on Android](https://developer.android.com/guide/topics/permissions/overview) grant you control over what apps are allowed to access. Google regularly makes [improvements](https://developer.android.com/about/versions/11/privacy/permissions) on the permission system in each successive version. All apps you install are strictly [sandboxed](https://source.android.com/security/app-sandbox), therefore, there is no need to install any antivirus apps.
 
@@ -93,17 +107,15 @@ An app may request a permission for a specific feature it has. For example, any 
 
     Privacy-friendly apps such as [Bitwarden](https://reports.exodus-privacy.eu.org/en/reports/com.x8bit.bitwarden/latest/) may show some trackers such as [Google Firebase Analytics](https://reports.exodus-privacy.eu.org/en/trackers/49/). This library includes [Firebase Cloud Messaging](https://en.wikipedia.org/wiki/Firebase_Cloud_Messaging) which can provide [push notifications](https://en.wikipedia.org/wiki/Push_technology) in apps. This [is the case](https://fosstodon.org/@bitwarden/109636825700482007) with Bitwarden. That doesn't mean that Bitwarden is using all of the analytics features that are provided by Google Firebase Analytics.
 
-## Профілі користувачів
+## Privacy Features
 
-Quite a few applications allows you to "share" a file with them for media upload. If you want to, for example, tweet a picture to Twitter, do not grant Twitter access to your "media and photos", because it will have access to all of your pictures then. Instead, go to your file manager (documentsUI), hold onto the picture, then share it with Twitter.
-
-## Профілі користувачів
+### Профілі користувачів
 
 Для цього потрібен **контролер пристрою** такий як [Shelter](#recommended-apps), якщо ви не використовуєте CalyxOS, яка вже містить в собі контролер.
 
 Робочий профіль залежить від функціонування контролера пристрою. Кожен профіль зашифрований за допомогою власного ключа шифрування і не може отримати доступ до даних будь-яких інших профілів. Навіть власник пристрою не може переглядати дані профілів, не знаючи їхніх паролів. Multiple user profiles are a more secure method of isolation.
 
-## Робочий профіль
+### Робочий профіль
 
 [Робочі профілі](https://support.google.com/work/android/answer/6191949) - це ще один спосіб ізоляції програм, який може бути зручнішим, ніж окремі профілі користувачів.
 
@@ -113,15 +125,15 @@ A **device controller** app such as [Shelter](../android.md#shelter) is required
 
 Цей метод, як правило, є менш безпечним, ніж додатковий профіль користувача; однак, він дозволяє вам зручно запускати додатки як в робочому, так і в особистому профілях одночасно.
 
-## VPN Killswitch
+### VPN Killswitch
 
 Якщо у вас є обліковий запис Google, радимо зареєструватися в [Програмі Додаткового Захисту](https://landing.google.com/advancedprotection/). Ця функція може запобігти витоку, якщо VPN відключений. It can be found in :gear: **Settings** → **Network & internet** → **VPN** → :gear: → **Block connections without VPN**.
 
-## Глобальні перемикачі
+### Глобальні перемикачі
 
 Сучасні пристрої Android мають глобальні перемикачі для вимкнення служб Bluetooth і визначення місцезнаходження. В Android 12 з'явилися перемикачі для камери та мікрофона. Коли вони не використовуються, ми рекомендуємо вимкнути їх. Програми не можуть використовувати вимкнені функції (навіть якщо їм надано індивідуальний дозвіл), поки їх не буде ввімкнено знову.
 
-## Google
+## Google Services
 
 Якщо ви користуєтесь пристроєм зі службами Google, заводською операційною системою або операційною системою, яка безпечно використовує служби Google Play, такі як GrapheneOS, ви можете внести ряд додаткових змін, щоб покращити конфіденційність. Ми як і раніше рекомендуємо повністю уникати сервісів Google або обмежити сервіси Google Play профілем користувача/робочим профілем, об'єднавши контролер пристрою, такий як *Shelter* з ізольованим Google Play від GrapheneOS.
 

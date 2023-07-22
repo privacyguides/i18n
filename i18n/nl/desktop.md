@@ -111,7 +111,7 @@ Nix is een source-based package manager; als er geen pre-built beschikbaar is in
 
     ![Whonix logo](assets/img/linux-desktop/whonix.svg){ align=right }
     
-    **Whonix** is gebaseerd op [Kicksecure](https://www.whonix.org/wiki/Kicksecure), een op beveiliging gerichte vork van Debian. Het is gefocust op privacy, veiligheid en anonimiteit op het internet te bieden. Whonix wordt het best gebruikt in combinatie met [Qubes OS](#qubes-os).
+    **Whonix** is based on [Kicksecure](#kicksecure), a security-focused fork of Debian. Het is gefocust op privacy, veiligheid en anonimiteit op het internet te bieden. Whonix wordt het best gebruikt in combinatie met [Qubes OS](#qubes-os).
     
     [:octicons-home-16: Homepage](https://www.whonix.org/){ .md-button .md-button--primary }
     [:simple-torbrowser:](http://www.dds6qkxpwdeubwucdiaord2xgbbeyds25rbsgr73tbfpqpt4a6vjwsyd.onion){ .card-link title="Onion Service" }
@@ -150,33 +150,48 @@ Het is de bedoeling dat Tails zichzelf volledig reset na elke herstart. Een vers
 
     ![Qubes OS logo](assets/img/qubes/qubes_os.svg){ align=right }
     
-    **Qubes OS** is een open-source besturingssysteem ontworpen om sterke beveiliging te bieden voor desktop computergebruik. Qubes is gebaseerd op Xen, het X Window System, en Linux, en kan de meeste Linux-toepassingen draaien en de meeste Linux-stuurprogramma's gebruiken.
+    **Qubes OS** is an open-source operating system designed to provide strong security for desktop computing through secure virtual machines (a.k.a. "Qubes"). Qubes is gebaseerd op Xen, het X Window System, en Linux, en kan de meeste Linux-toepassingen draaien en de meeste Linux-stuurprogramma's gebruiken.
     
     [:octicons-home-16: Homepage](https://www.qubes-os.org/){ .md-button .md-button--primary }
-    [:material-arrow-right-drop-circle: Overview](os/qubes-overview.md){ .md-button .md-button--primary }
-    [:simple-torbrowser:](http://qubesosfasa4zl44o4tws22di6kepyzfeqv3tg4e3ztknltfxqrymdad.onion){ .card-link title="Onion Service" } }
-    [:octicons-eye-16:](https://www.qubes-os.org/privacy/){ .card-link title="Privacy Policy" }.
-    [:octicons-info-16:](https://www.qubes-os.org/doc/){ .card-link title=Documentatie }.
-    [:octicons-code-16:](https://github.com/QubesOS/){ .card-link title="Broncode" }.
-    [:octicons-heart-16:](https://www.qubes-os.org/donate/){ .card-link title=Bijdragen }
+    [:simple-torbrowser:](http://qubesosfasa4zl44o4tws22di6kepyzfeqv3tg4e3ztknltfxqrymdad.onion){ .card-link title="Onion Service" }
+    [:octicons-eye-16:](https://www.qubes-os.org/privacy/){ .card-link title="Privacy Policy" }
+    [:octicons-info-16:](https://www.qubes-os.org/doc/){ .card-link title=Documentation }
+    [:octicons-code-16:](https://github.com/QubesOS/){ .card-link title="Source Code" }
+    [:octicons-heart-16:](https://www.qubes-os.org/donate/){ .card-link title=Contribute }
 
-Qubes OS is een op Xen gebaseerd besturingssysteem dat bedoeld is om sterke beveiliging te bieden voor desktopcomputers via beveiligde virtuele machines (VM's), ook bekend als *Qubes*.
+Qubes OS secures the computer by isolating subsystems (e.g., networking, USB, etc.) and applications in separate VMs. Should one part of the system be compromised, the extra isolation is likely to protect the rest of the system.
 
-Het besturingssysteem Qubes beveiligt de computer door subsystemen (bijv. netwerken, USB, enz.) en applicaties in afzonderlijke VM 's te isoleren. Als een deel van het systeem wordt gecompromitteerd, zal de extra isolatie waarschijnlijk de rest van het systeem beschermen. Zie voor meer details de Qubes [FAQ](https://www.qubes-os.org/faq/).
+For further information about how Qubes works, read our full [Qubes OS overview](os/qubes-overview.md) page.
+
+### Kicksecure
+
+While we [recommend against](os/linux-overview.md#release-cycle) "perpetually outdated" distributions like Debian for Desktop use in most cases, Kicksecure is a Debian-based operating system which has been hardened to be much more than a typical Linux install.
+
+!!! recommendation
+
+    ![Kicksecure logo](assets/img/linux-desktop/kicksecure.svg){ align=right }
+    
+    **Kicksecure**—in oversimplified terms—is a set of scripts, configurations, and packages that substantially reduce the attack surface of Debian. Het dekt standaard een heleboel aanbevelingen voor privacy en hardening. It also serves as the base OS for [Whonix](#whonix).
+    
+    [:octicons-home-16: Homepage](https://www.kicksecure.com/){ .md-button .md-button--primary }
+    [:octicons-eye-16:](https://www.kicksecure.com/wiki/Privacy_Policy){ .card-link title="Privacy Policy" }
+    [:octicons-info-16:](https://www.kicksecure.com/wiki/Documentation){ .card-link title=Documentation }
+    [:octicons-code-16:](https://github.com/Kicksecure){ .card-link title="Source Code" }
+    [:octicons-heart-16:](https://www.kicksecure.com/wiki/Donate){ .card-link title=Contribute }
 
 ## Criteria
 
-**Wij zijn niet verbonden aan de projecten die wij aanbevelen.** Naast [onze standaardcriteria](about/criteria.md)hebben wij een duidelijke reeks eisen ontwikkeld om objectieve aanbevelingen te kunnen doen. Wij stellen voor dat je jezelf vertrouwd maakt met deze lijst voordat je een project kiest, en jouw eigen onderzoek uitvoert om er zeker van te zijn dat je de juiste keuze maakt.
+Choosing a Linux distro that is right for you will come down to a huge variety of personal preferences, and this page is **not** meant to be an exhaustive list of every viable distribution. Our Linux overview page has some advice on [choosing a distro](os/linux-overview.md#choosing-your-distribution) in more detail. The distros on *this* page do all generally follow the guidelines we covered there, and all meet these standards:
 
-!!! example "Deze sectie is nieuw"
+- Free and open-source.
+- Receives regular software and kernel updates.
+- [Avoids X11](os/linux-overview.md#wayland).
+    - The notable exception here is Qubes, but the isolation issues which X11 typically has are avoided by virtualization. This isolation only applies to apps *running in different qubes* (virtual machines), apps running in the *same* qube are not protected from each other.
+- Supports full-disk encryption during installation.
+- Doesn't freeze regular releases for more than 1 year.
+    - We [recommend against](os/linux-overview.md#release-cycle) "Long Term Support" or "stable" distro releases for desktop usage.
+- Supports a wide variety of hardware.
+- Preference towards larger projects.
+    - Maintaining an operating system is a major challenge, and smaller projects have a tendency to make more avoidable mistakes, or delay critical updates (or worse, disappear entirely). We lean towards projects which will likely be around 10 years from now (whether that's due to corporate backing or very significant community support), and away from projects which are hand-built or have a small number of maintainers.
 
-    We werken aan het vaststellen van gedefinieerde criteria voor elk deel van onze site, en dit kan onderhevig zijn aan verandering. Als je vragen hebt over onze criteria, stel ze dan [op ons forum](https://discuss.privacyguides.net/latest) en neem niet aan dat we iets niet in overweging hebben genomen bij het opstellen van onze aanbevelingen als het hier niet vermeld staat. Er zijn veel factoren die worden overwogen en besproken wanneer wij een project aanbevelen, en het documenteren van elke factor is een werk in uitvoering.
-
-Onze aanbevolen besturingssystemen:
-
-- Moet open-source zijn.
-- Moet regelmatig software en Linux kernel updates ontvangen.
-- Linux distributions must support [Wayland](os/linux-overview.md#wayland).
-- Moet tijdens de installatie volledige schijfversleuteling ondersteunen.
-- Mag regelmatige releases niet langer dan 1 jaar bevriezen. Wij [raden](os/linux-overview.md#release-cycle) "Long Term Support" of "stabiele" distro-uitgaven niet aan voor desktopgebruik.
-- Moet een grote verscheidenheid aan hardware ondersteunen.
+In addition, [our standard criteria](about/criteria.md) for recommended projects still applies. **Please note we are not affiliated with any of the projects we recommend.**

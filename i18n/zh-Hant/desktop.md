@@ -111,7 +111,7 @@ Nix是一個基於源的套件管理器；如果二進位快取中沒有預先�
 
     ![Whonix logo](assets/img/linux-desktop/whonix.svg){ align=right }
     
-    **Whonix** 來自 [Kicksecure](https://www.whonix.org/wiki/Kicksecure)，為 Debian 安全分支。 它旨在提供網際網路的隱私、安全和匿名性。 Whonix 最好與 [Qubes OS](# qubes-os) 配合使用。
+    **Whonix** is based on [Kicksecure](#kicksecure), a security-focused fork of Debian. 它旨在提供網際網路的隱私、安全和匿名性。 Whonix 最好與 [Qubes OS](# qubes-os) 配合使用。
     
     [:octicons-home-16: Homepage](https://www.whonix.org/){ .md-button .md-button--primary }
     [:simple-torbrowser:](http://www.dds6qkxpwdeubwucdiaord2xgbbeyds25rbsgr73tbfpqpt4a6vjwsyd.onion){ .card-link title="Onion Service" }
@@ -125,6 +125,7 @@ Whonix 運行兩個虛擬機器：一個“工作站”和一個 Tor “閘道�
 Whonix 未來版本可能包括 [完整系統 AppArmor](https://github.com/Whonix/apparmor-profile-everything) 和 [個沙盒應用程式啟動器](https://www.whonix.org/wiki/Sandbox-app-launcher) ，以完全限制系統上的所有進程。
 
 Whonix 最好與 Qubes</a>一起使用
+
 ，與其他 hypervisor相比， Qubes-Whonix 有不同 [缺點](https://forums.whonix.org/t/qubes-whonix-security-disadvantages-help-wanted/8581) 。</p> 
 
 
@@ -160,10 +161,9 @@ Tails Tor 瀏覽器預設包含 [uBlock Origin](desktop-browsers.md#ublock-origi
 
     ![Qubes OS logo](assets/img/qubes/qubes_os.svg){ align=right }
     
-    **Qubes OS** 是一個開源作業系統，旨在為桌機運算提供強大的安全性。 Qubes 基於 Xen、X Window System 和 Linux ，可以運行大多數 Linux 應用程式與使用大多數 Linux 驅動程式。
+    **Qubes OS** is an open-source operating system designed to provide strong security for desktop computing through secure virtual machines (a.k.a. "Qubes"). Qubes 基於 Xen、X Window System 和 Linux ，可以運行大多數 Linux 應用程式與使用大多數 Linux 驅動程式。
     
     [:octicons-home-16: Homepage](https://www.qubes-os.org/){ .md-button .md-button--primary }
-    [:material-arrow-right-drop-circle: Overview](os/qubes-overview.md){ .md-button .md-button--primary }
     [:simple-torbrowser:](http://qubesosfasa4zl44o4tws22di6kepyzfeqv3tg4e3ztknltfxqrymdad.onion){ .card-link title="Onion Service" }
     [:octicons-eye-16:](https://www.qubes-os.org/privacy/){ .card-link title="Privacy Policy" }
     [:octicons-info-16:](https://www.qubes-os.org/doc/){ .card-link title=Documentation }
@@ -171,26 +171,44 @@ Tails Tor 瀏覽器預設包含 [uBlock Origin](desktop-browsers.md#ublock-origi
     [:octicons-heart-16:](https://www.qubes-os.org/donate/){ .card-link title=Contribute }
     
 
-Qubes OS 是基於Xen 的作業系統，通過安全虛擬機器為桌機提供強大的安全性，（也稱為 *Qubes*）。
+Qubes OS secures the computer by isolating subsystems (e.g., networking, USB, etc.) and applications in separate VMs. Should one part of the system be compromised, the extra isolation is likely to protect the rest of the system.
 
-Qubes OS 作業系統將子系統（例如網絡、USB等）和應用程式隔離在個別的虛擬機器中以保護電腦。 如果系統的一部分被破壞，那麼額外的隔離可以保護系統其餘部分。 詳情請參閱Qubes [FAQ](https://www.qubes-os.org/faq/)。
+For further information about how Qubes works, read our full [Qubes OS overview](os/qubes-overview.md) page.
+
+
+
+### Kicksecure
+
+While we [recommend against](os/linux-overview.md#release-cycle) "perpetually outdated" distributions like Debian for Desktop use in most cases, Kicksecure is a Debian-based operating system which has been hardened to be much more than a typical Linux install.
+
+!!! recommendation
+
+    ![Kicksecure logo](assets/img/linux-desktop/kicksecure.svg){ align=right }
+    
+    **Kicksecure**—in oversimplified terms—is a set of scripts, configurations, and packages that substantially reduce the attack surface of Debian. 它預設覆蓋了大量的隱私和加固建議。 It also serves as the base OS for [Whonix](#whonix).
+    
+    [:octicons-home-16: Homepage](https://www.kicksecure.com/){ .md-button .md-button--primary }
+    [:octicons-eye-16:](https://www.kicksecure.com/wiki/Privacy_Policy){ .card-link title="Privacy Policy" }
+    [:octicons-info-16:](https://www.kicksecure.com/wiki/Documentation){ .card-link title=Documentation }
+    [:octicons-code-16:](https://github.com/Kicksecure){ .card-link title="Source Code" }
+    [:octicons-heart-16:](https://www.kicksecure.com/wiki/Donate){ .card-link title=Contribute }
+    
 
 
 
 ## 標準
 
-**請注意，我們所推薦專案沒有任何瓜葛。 ** 除了 [標準準則](about/criteria.md)外，我們還發展出一套明確要求以提出客觀建議。 我們建議您在選擇使用項目之前先熟悉此列表，並進行自己的研究，以確保它是您的正確選擇。
+Choosing a Linux distro that is right for you will come down to a huge variety of personal preferences, and this page is **not** meant to be an exhaustive list of every viable distribution. Our Linux overview page has some advice on [choosing a distro](os/linux-overview.md#choosing-your-distribution) in more detail. The distros on *this* page do all generally follow the guidelines we covered there, and all meet these standards:
 
-!!! example "此部分是新的"
+- Free and open-source.
+- Receives regular software and kernel updates.
+- [Avoids X11](os/linux-overview.md#wayland). 
+      - The notable exception here is Qubes, but the isolation issues which X11 typically has are avoided by virtualization. This isolation only applies to apps *running in different qubes* (virtual machines), apps running in the *same* qube are not protected from each other.
+- Supports full-disk encryption during installation.
+- Doesn't freeze regular releases for more than 1 year. 
+      - We [recommend against](os/linux-overview.md#release-cycle) "Long Term Support" or "stable" distro releases for desktop usage.
+- Supports a wide variety of hardware.
+- Preference towards larger projects. 
+      - Maintaining an operating system is a major challenge, and smaller projects have a tendency to make more avoidable mistakes, or delay critical updates (or worse, disappear entirely). We lean towards projects which will likely be around 10 years from now (whether that's due to corporate backing or very significant community support), and away from projects which are hand-built or have a small number of maintainers.
 
-    我們正在努力為我們網站的每個部分建立定義的標準，這可能會有所變化。 如果您對我們的標準有任何疑問，請在 [論壇上提問](https://discuss.privacyguides.net/latest) ，如果沒有列出，請不要認為我們在提出建議時沒有考慮到某些事情。 當我們推薦一個項目時，有許多因素被考慮和討論，記錄每一個項目都是正在進行式。
-    
-
-我們推薦的作業系統：
-
-- 必須是開源的。
-- 必須定期接收軟體和Linux內核更新。
-- Linux 發行版本必須支援[Wayland](os/linux-overview.md#wayland)。
-- 安裝時必須支援全磁碟加密。
-- 不可將定期更新發佈凍結超過1年。 我們 [不建議](os/linux-overview.md#release-cycle) 桌機使用“長期支援”或“穩定”發行版。
-- 需要支持各種各樣的硬體。
+In addition, [our standard criteria](about/criteria.md) for recommended projects still applies. **Please note we are not affiliated with any of the projects we recommend.**

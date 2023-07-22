@@ -4,9 +4,13 @@ icon: simple/android
 description: Android is een open-source besturingssysteem met sterke beveiliging, waardoor het onze topkeuze is voor telefoons.
 ---
 
-Android is een veilig besturingssysteem met sterke [app sandboxing](https://source.android.com/security/app-sandbox), [Verified Boot](https://source.android.com/security/verifiedboot) (AVB), en een robuust [permission](https://developer.android.com/guide/topics/permissions/overview) control system.
+![Android logo](../assets/img/android/android.svg){ align=right }
 
-## Het kiezen van een Android distributie
+The **Android Open Source Project** is a secure mobile operating system featuring strong [app sandboxing](https://source.android.com/security/app-sandbox), [Verified Boot](https://source.android.com/security/verifiedboot) (AVB), and a robust [permission](https://developer.android.com/guide/topics/permissions/overview) control system.
+
+## Our Advice
+
+### Het kiezen van een Android distributie
 
 Wanneer je een Androidtelefoon koopt, wordt het standaardbesturingssysteem van het toestel vaak geleverd met een indringende integratie met apps en diensten die geen deel uitmaken van het [Android Open-Source Project](https://source.android.com/). Een voorbeeld hiervan zijn Google Play Services, die onherroepelijke rechten heeft om toegang te krijgen tot jouw bestanden, contactenopslag, oproeplogs, sms-berichten, locatie, camera, microfoon, hardware-identificaties, enzovoort. Deze apps en diensten vergroten het aanvalsoppervlak van jouw toestel en zijn de bron van diverse privacyproblemen met Android.
 
@@ -16,7 +20,7 @@ Idealiter, wanneer je een aangepaste Android distributie kiest, moet je ervoor z
 
 [Onze Android Systeemaanbevelingen :material-arrow-right-drop-circle:](../android.md ""){.md-button}
 
-## Rooting vermijden
+### Rooting vermijden
 
 [Rooten van](https://en.wikipedia.org/wiki/Rooting_(Android)) Android-telefoons kan de veiligheid aanzienlijk verminderen omdat het het volledige [Android beveiligingsmodel verzwakt](https://en.wikipedia.org/wiki/Android_(operating_system)#Security_and_privacy). Dit kan de privacy verminderen mocht er een exploit zijn die door de verminderde beveiliging wordt geholpen. Bij veelgebruikte rootingmethoden wordt rechtstreeks met de opstartpartitie geknoeid, waardoor het onmogelijk is om een succesvolle Verified Boot uit te voeren. Apps die root vereisen zullen ook de systeempartitie wijzigen, wat betekent dat Verified Boot uitgeschakeld zou moeten blijven. Als root direct in de gebruikersinterface wordt blootgesteld, wordt ook het [aanvalsoppervlak](https://en.wikipedia.org/wiki/Attack_surface) van jouw apparaat vergroot en kan het helpen bij [privilege-escalatie](https://en.wikipedia.org/wiki/Privilege_escalation) kwetsbaarheden en omzeilen van SELinux-beleidslijnen.
 
@@ -26,7 +30,21 @@ AFWall+ werkt op basis van de [packet filtering](https://en.wikipedia.org/wiki/F
 
 Wij geloven niet dat de veiligheidsoffers die gemaakt worden door het rooten van een telefoon, de twijfelachtige privacyvoordelen van die apps waard zijn.
 
-## Geverifieerde boot
+### Install Updates
+
+Het is belangrijk om geen [end-of-life](https://endoflife.date/android) versie van Android te gebruiken. Nieuwere versies van Android krijgen niet alleen beveiligingsupdates voor het besturingssysteem, maar ook belangrijke updates die privacy verbeteren.
+
+For example, [prior to Android 10](https://developer.android.com/about/versions/10/privacy/changes) any apps with the [`READ_PHONE_STATE`](https://developer.android.com/reference/android/Manifest.permission#READ_PHONE_STATE) permission could access sensitive and unique serial numbers of your phone such as [IMEI](https://en.wikipedia.org/wiki/International_Mobile_Equipment_Identity), [MEID](https://en.wikipedia.org/wiki/Mobile_equipment_identifier), or your SIM card's [IMSI](https://en.wikipedia.org/wiki/International_mobile_subscriber_identity); whereas now they must be system apps to do so. Systeem-apps worden alleen geleverd door de OEM of de Android-distributie.
+
+### Sharing Media
+
+You can avoid giving many apps permission to access your media with Android's built-in sharing features. Many applications allow you to "share" a file with them for media upload.
+
+For example, if you want to post a picture to Discord you can open your file manager or gallery and share that picture with the Discord app, instead of granting Discord full access to your media and photos.
+
+## Security Protections
+
+### Geverifieerde boot
 
 [Geverifieerde Boot](https://source.android.com/security/verifiedboot) is een belangrijk onderdeel van het Android-beveiligingsmodel. Het biedt bescherming tegen [evil maid](https://en.wikipedia.org/wiki/Evil_maid_attack) aanvallen, malware persistentie, en zorgt ervoor dat beveiligingsupdates niet kunnen worden gedowngraded met [rollback protection](https://source.android.com/security/verifiedboot/verified-boot#rollback-protection).
 
@@ -38,7 +56,7 @@ OEM's zijn helaas alleen verplicht om de verspreiding van geverifieerde Boot op 
 
 Veel OEM's hebben ook een gebroken uitvoering van Verified Boot waar je je bewust van moet zijn buiten hun marketing. De Fairphone 3 en 4 zijn bijvoorbeeld standaard niet veilig, aangezien de [standaard bootloader vertrouwt op de publieke AVB signing key](https://forum.fairphone.com/t/bootloader-avb-keys-used-in-roms-for-fairphone-3-4/83448/11). Dit breekt geverifieerd opstarten op een standaard Fairphone toestel, omdat het systeem alternatieve Android besturingssystemen zoals (zoals /e/) [zal opstarten zonder enige waarschuwing](https://source.android.com/security/verifiedboot/boot-flow#locked-devices-with-custom-root-of-trust) over aangepast besturingssysteem gebruik.
 
-## Firmware-updates
+### Firmware-updates
 
 Firmware-updates zijn van cruciaal belang voor het behoud van de veiligheid en zonder deze updates kan uw toestel niet veilig zijn. OEM's hebben ondersteuningsovereenkomsten met hun partners om de closed-source componenten voor een beperkte ondersteuningsperiode te leveren. Deze worden gedetailleerd beschreven in de maandelijkse [Android Security Bulletins](https://source.android.com/security/bulletin).
 
@@ -48,11 +66,7 @@ EOL-apparaten die niet langer door de SoC-fabrikant worden ondersteund, kunnen g
 
 Fairphone, bijvoorbeeld, brengt hun toestellen op de markt met een ondersteuning van 6 jaar. De SoC (Qualcomm Snapdragon 750G op de Fairphone 4) heeft echter een aanzienlijk kortere EOL-datum. Dit betekent dat de firmware-beveiligingsupdates van Qualcomm voor de Fairphone 4 in september 2023 aflopen, ongeacht of Fairphone doorgaat met het uitbrengen van software-beveiligingsupdates.
 
-## Android-versies
-
-Het is belangrijk om geen [end-of-life](https://endoflife.date/android) versie van Android te gebruiken. Nieuwere versies van Android krijgen niet alleen beveiligingsupdates voor het besturingssysteem, maar ook belangrijke updates die privacy verbeteren. Bijvoorbeeld, [vóór Android 10](https://developer.android.com/about/versions/10/privacy/changes) konden alle apps met de toestemming [`READ_PHONE_STATE`](https://developer.android.com/reference/android/Manifest.permission#READ_PHONE_STATE) toegang krijgen tot gevoelige en unieke serienummers van uw telefoon, zoals [IMEI](https://en.wikipedia.org/wiki/International_Mobile_Equipment_Identity), [MEID](https://en.wikipedia.org/wiki/Mobile_equipment_identifier), en uw SIM-kaart [IMSI](https://en.wikipedia.org/wiki/International_mobile_subscriber_identity). Nu moeten dat systeem-apps zijn om dit te kunnen doen. Systeem-apps worden alleen geleverd door de OEM of de Android-distributie.
-
-## Android-machtigingen
+### Android-machtigingen
 
 [Machtigingen op Android](https://developer.android.com/guide/topics/permissions/overview) geven je controle over waar apps toegang tot toe krijgen. Google brengt regelmatig [verbeteringen aan](https://developer.android.com/about/versions/11/privacy/permissions) in het machtigingssysteem in elke opeenvolgende versie. Alle apps die je installeert zijn strikt [sandboxed](https://source.android.com/security/app-sandbox), daarom is het niet nodig om antivirus apps te installeren.
 
@@ -93,17 +107,15 @@ Een app kan een toestemming vragen voor een specifieke functie die hij heeft. Bi
 
     Privacy-vriendelijke apps zoals [Bitwarden](https://reports.exodus-privacy.eu.org/en/reports/com.x8bit.bitwarden/latest/) kunnen sommige trackers tonen zoals [Google Firebase Analytics](https://reports.exodus-privacy.eu.org/en/trackers/49/). Deze bibliotheek bevat [Firebase Cloud Messaging](https://en.wikipedia.org/wiki/Firebase_Cloud_Messaging) die [pushmeldingen](https://en.wikipedia.org/wiki/Push_technology) in apps kan bieden. Dit [is het geval](https://fosstodon.org/@bitwarden/109636825700482007) met Bitwarden. Dat betekent niet dat Bitwarden alle analysefuncties gebruikt die Google Firebase Analytics biedt.
 
-## Mediatoegang
+## Privacy Features
 
-Heel wat toepassingen laten je toe een bestand te "delen" met hen voor het uploaden van media. Als je bijvoorbeeld een foto naar Twitter wilt tweeten, geef Twitter dan geen toegang tot jouw "media en foto's", want dan heeft het toegang tot al jouw foto's. Ga in plaats daarvan naar je bestandsbeheerder (documentsUI), houd de foto vast en deel hem dan met Twitter.
-
-## Gebruikers Profielen
+### Gebruikers Profielen
 
 Meervoudige gebruikersprofielen zijn te vinden in **Instellingen** → **Systeem** → **Meervoudige gebruikers** en zijn de eenvoudigste manier om te isoleren in Android.
 
 Met gebruikersprofielen kun je beperkingen opleggen aan een specifiek profiel, zoals: bellen, sms'en of apps installeren op het toestel. Elk profiel wordt versleuteld met zijn eigen versleutelingscode en heeft geen toegang tot de gegevens van andere profielen. Zelfs de eigenaar van het apparaat kan de gegevens van andere profielen niet bekijken zonder hun wachtwoord te kennen. Meervoudige gebruikersprofielen zijn een veiligere methode van isolatie.
 
-## Werkprofiel
+### Werkprofiel
 
 [Werkprofielen](https://support.google.com/work/android/answer/6191949) zijn een andere manier om afzonderlijke apps te isoleren en kunnen handiger zijn dan afzonderlijke gebruikersprofielen.
 
@@ -113,15 +125,15 @@ Het werkprofiel is afhankelijk van een apparaatcontroller om te kunnen functione
 
 Deze methode is over het algemeen minder veilig dan een secundair gebruikersprofiel; het biedt je echter wel het gemak dat je tegelijkertijd apps kunt uitvoeren in zowel het werk- als het persoonlijke profiel.
 
-## VPN Killswitch
+### VPN Killswitch
 
 Android 7 en hoger ondersteunt een VPN killswitch en het is beschikbaar zonder de noodzaak om apps van derden te installeren. Deze functie kan lekken voorkomen als de VPN wordt verbroken. Het kan gevonden worden in :gear: **Instellingen** → **Netwerk & internet** → **VPN** → :gear: → **Blokkeer verbindingen zonder VPN**.
 
-## Globale schakelaars
+### Globale schakelaars
 
 Moderne Android-toestellen hebben globale toggles voor het uitschakelen van Bluetooth en locatiediensten. Android 12 introduceerde toggles voor de camera en microfoon. Wanneer u deze functies niet gebruikt, raden wij je aan ze uit te schakelen. Apps kunnen geen gebruik maken van uitgeschakelde functies (zelfs niet als daarvoor individuele toestemming is verleend) totdat ze weer zijn ingeschakeld.
 
-## Google
+## Google Services
 
 Als je een apparaat gebruikt met Google-diensten, hetzij ujouw standaard besturingssysteem of een besturingssysteem dat Google Play Services veilig sandboxed zoals GrapheneOS, zijn er een aantal extra wijzigingen die je kunt aanbrengen om jouw privacy te verbeteren. We raden nog steeds aan om Google diensten volledig te vermijden, of om Google Play diensten te beperken tot een specifiek gebruiker/werkprofiel door een apparaatcontroller zoals *Shelter* te combineren met GrapheneOS's Sandboxed Google Play.
 

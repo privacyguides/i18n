@@ -97,7 +97,7 @@ Proton Mail همچنین از کشف کلیدهای عمومی از طریق HTT
 
 Proton Mail یک حساب "نامحدود" یا Unlimited به مبلغ 9.99 یورو در ماه ارائه می‌دهد که علاوه بر ارائه چندین حساب، دامنه، نام مستعار و 500 گیگابایت فضای ذخیره سازی، دسترسی به Proton VPN را نیز امکان پذیر می‌کند.
 
-Proton Mail doesn't offer a digital legacy feature.
+Proton Mail امکان به ارث بردن اطلاعات برای وراث را ندارد.
 
 ### Mailbox.org
 
@@ -137,31 +137,31 @@ Mailbox.org امکان رمزگذاری نامه های دریافتی را با
 
 #### :material-check:{ .pg-green } رمزگذاری ایمیل
 
-Mailbox.org has [integrated encryption](https://kb.mailbox.org/display/MBOKBEN/Send+encrypted+e-mails+with+Guard) in their webmail, which simplifies sending messages to people with public OpenPGP keys. They also allow [remote recipients to decrypt an email](https://kb.mailbox.org/display/MBOKBEN/My+recipient+does+not+use+PGP) on Mailbox.org's servers. This feature is useful when the remote recipient does not have OpenPGP and cannot decrypt a copy of the email in their own mailbox.
+Mailbox.org دارای [رمزگذاری یکپارچه](https://kb.mailbox.org/display/MBOKBEN/Send+encrypted+e-mails+with+Guard) در ایمیل وب خود است که ارسال پیام به افراد دارای کلیدهای عمومی OpenPGP را ساده می کند. آنها همچنین به [گیرندگان راه دور اجازه رمزگشایی ایمیل](https://kb.mailbox.org/display/MBOKBEN/My+recipient+does+not+use+PGP) در سرورهای Mailbox.org را می‌دهند. این ویژگی زمانی مفید است که گیرنده امکان استفاده از OpenPGP را ندارد و نمی تواند یک کپی از ایمیل را در صندوق پستی خود رمزگشایی کند.
 
-Mailbox.org also supports the discovery of public keys via HTTP from their [Web Key Directory (WKD)](https://wiki.gnupg.org/WKD). This allows people outside of Mailbox.org to find the OpenPGP keys of Mailbox.org accounts easily, for cross-provider E2EE.
+Mailbox.org همچنین از کشف کلیدهای عمومی از طریق HTTP از [دایرکتوری کلیدهای وب (WKD)](https://wiki.gnupg.org/WKD) پشتیبانی می کند. این قابلیت به افرادی که از سرویس Mailbox.org استفاده نمی‌کنند اجازه می‌دهد تا کلیدهای OpenPGP حساب‌های Mailbox.org را برای رمزگذاری E2EE سرویس‌های دیگر به راحتی پیدا کنند.
 
 
 
 #### :material-information-outline:{ .pg-blue } بستن حساب
 
-Your account will be set to a restricted user account when your contract ends, after [30 days it will be irrevocably deleted](https://kb.mailbox.org/en/private/payment-article/what-happens-at-the-end-of-my-contract).
+پس از پایان اشتراک، حساب شما محدود می شود. پس از [30 روز به صورت غیر قابل برگشت](https://kb.mailbox.org/en/private/payment-article/what-happens-at-the-end-of-my-contract) حذف می شود.
 
 
 
-#### :material-information-outline:{ .pg-blue } Additional Functionality
+#### :material-information-outline:{ .pg-blue } عملکردهای دیگر
 
-You can access your Mailbox.org account via IMAP/SMTP using their [.onion service](https://kb.mailbox.org/display/MBOKBEN/The+Tor+exit+node+of+mailbox.org). However, their webmail interface cannot be accessed via their .onion service and you may experience TLS certificate errors.
+با استفاده از [سرویس onion](https://kb.mailbox.org/display/MBOKBEN/The+Tor+exit+node+of+mailbox.org) می‌توانید به حساب Mailbox.org خود از طریق IMAP/SMTP دسترسی پیدا کنید. با این حال، رابط وب ایمیل از طریق سرویس .onion آنها قابل دسترسی نیست و ممکن است با خطاهای گواهی TLS مواجه شوید.
 
-All accounts come with limited cloud storage that [can be encrypted](https://kb.mailbox.org/display/MBOKBEN/Encrypt+files+on+your+Drive). Mailbox.org also offers the alias [@secure.mailbox.org](https://kb.mailbox.org/display/MBOKBEN/Ensuring+E-Mails+are+Sent+Securely), which enforces the TLS encryption on the connection between mail servers, otherwise the message will not be sent at all. Mailbox.org also supports [Exchange ActiveSync](https://en.wikipedia.org/wiki/Exchange_ActiveSync) in addition to standard access protocols like IMAP and POP3.
+همه حساب‌ها دارای فضای ذخیره‌سازی ابری محدودی هستند که [قابل رمزگذاری](https://kb.mailbox.org/display/MBOKBEN/Encrypt+files+on+your+Drive) است. Mailbox.org همچنین نام مستعار (Alias) [@secure.mailbox.org](https://kb.mailbox.org/display/MBOKBEN/Ensuring+E-Mails+are+Sent+Securely) را ارائه می دهد که رمزگذاری TLS را در اتصال بین سرورهای ایمیل اعمال می کند، در غیر این صورت پیام به هیچ وجه ارسال نخواهد شد. Mailbox.org همچنین از [Exchange ActiveSync](https://en.wikipedia.org/wiki/Exchange_ActiveSync) علاوه بر پروتکل‌های دسترسی استاندارد مانند IMAP و POP3 پشتیبانی می‌کند.
 
-Mailbox.org has a digital legacy feature for all plans. You can choose whether you want any of your data to be passed to heirs providing that they apply and provide your testament. Alternatively, you can nominate a person by name and address.
+Mailbox.org امکان به ارث بردن اطلاعات برای همه طرح‌هایش را دارد. می‌توانید انتخاب کنید که آیا می‌خواهید کدام یک از داده‌هایتان به وراث داده شود، مشروط بر اینکه آنها درخواست دهند و وصیت شما را ارائه دهند. همچنین می‌توانید فردی را با نام و آدرس معرفی کنید.
 
 
 
-## More Providers
+## سرویس دهندگان بیشتر
 
-These providers store your emails with zero-knowledge encryption, making them great options for keeping your stored emails secure. However, they don't support interoperable encryption standards for E2EE communications between different providers.
+این ارائه دهندگان ایمیل های شما را با رمزگذاری دانش صفر (zero-knowledge encryption) ذخیره می کنند که آنها را گزینه‌های خوبی برای ایمن نگه داشتن ایمیل های شما می‌کند. با این حال، آنها از استانداردهای رمزگذاری E2EE بین ارائه دهندگان مختلف ایمیل پشتیبانی نمی‌کنند.
 
 <div class="grid cards" markdown>
 
@@ -176,33 +176,31 @@ These providers store your emails with zero-knowledge encryption, making them gr
 
     ![Skiff Mail logo](assets/img/email/skiff-mail.svg){ align=right }
     
-    **Skiff Mail** is a web based email service with E2EE that began in 2020 that is based in San Francisco with developers worldwide. Accounts start with 10GB of free storage.
+    **Skiff Mail** یک سرویس ایمیل مبتنی بر وب با E2EE است که در سال 2020 آغاز شد و در سانفرانسیسکو مستقر است و توسعه دهندگان آن در سرتاسر جهان هستند. حساب‌ها با 10 گیگابایت فضای ذخیره‌سازی رایگان شروع می‌شوند.
     
     [:octicons-home-16: Homepage](https://skiff.com/mail){ .md-button .md-button--primary }
     [:octicons-eye-16:](https://app.skiff.com/docs/db93c237-84c2-4b2b-9588-19a7cd2cd45a#tyGksN9rkqbo2uGYASxsA6HVLjUoly/wTYK8tncTto8=){ .card-link title="Privacy Policy" }
     [:octicons-info-16:](https://skiff.com/help){ .card-link title=Documentation}
     [:octicons-code-16:](https://github.com/skiff-org/skiff-apps){ .card-link title="Source Code" }
     
-    ??? downloads
-    
-        - [:simple-android: Android](https://play.google.com/store/apps/details?id=com.skemailmobileapp&pli=1)
+    ???     - [:simple-android: Android](https://play.google.com/store/apps/details?id=com.skemailmobileapp&pli=1)
         - [:simple-appstore: iOS](https://apps.apple.com/us/app/skiff-mail/id1619168801)
         - [:octicons-browser-16: Web](https://app.skiff.com/mail)
     
 
-Skiff has undergone a few [audits](https://skiff.com/transparency) during its development.
+Skiff در طول توسعه خود تحت چند [ممیزی (Audit)](https://skiff.com/transparency) قرار گرفته است.
 
 
 
-#### :material-check:{ .pg-green } Custom Domains and Aliases
+#### :material-check:{ .pg-green } دامنه ها و نام های مستعار (Aliases) سفارشی
 
-You can create up to 3 additional @skiff.com email aliases in addition to your primary account address on their free plan. Free accounts can add 1 [custom domain](https://skiff.com/blog/custom-domain-setup), and up to 15 custom domains on a paid plan. You can create unlimited aliases or a [catch-all](https://skiff.com/blog/catch-all-email-alias) alias on your custom domain.
+در طرح رایگان، می توانید تا 3 نام مستعار ایمیل @skiff.com علاوه بر آدرس حساب اصلی خود ایجاد کنید. حساب‌های رایگان می‌توانند 1 [دامنه سفارشی (custom domain)](https://skiff.com/blog/custom-domain-setup) و حساب‌های پولی می‌توانند حداکثر 15 دامنه سفارشی را اضافه کنند. می توانید نام های مستعار (Alias) نامحدود یا قابلیت [catch-all](https://skiff.com/blog/catch-all-email-alias) را در دامنه سفارشی خود ایجاد کنید.
 
 
 
-#### :material-alert-outline:{ .pg-orange } Private Payment Methods
+#### :material-alert-outline:{ .pg-orange } روش های پرداخت خصوصی
 
-Skiff Mail accepts cryptocurrency payments via Coinbase Commerce, including Bitcoin and Ethereum, but they do not accept our recommended [cryptocurrency](cryptocurrency.md), Monero. They also accept credit card payments via Stripe.
+Skiff Mail پرداخت‌های رمزارز از جمله بیت‌کوین و اتریوم را از طریق Coinbase Commerce می‌پذیرد، اما آنها [رمزارز](cryptocurrency.md) پیشنهادی ما، Monero را نمی‌پذیرند. They also accept credit card payments via Stripe.
 
 
 

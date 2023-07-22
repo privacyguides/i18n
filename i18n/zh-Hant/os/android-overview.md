@@ -4,9 +4,13 @@ icon: simple/android
 description: Android是一個開源作業系統，具有強大的安全保護，使其成為手機的首選。
 ---
 
-Android是一個安全的操作系統，具有強大的 [應用程式沙盒](https://source.android.com/security/app-sandbox)， [Verified Boot](https://source.android.com/security/verifiedboot) （AVB）和強大的 [許可](https://developer.android.com/guide/topics/permissions/overview) 控制系統。
+![Android 圖標](../assets/img/android/android.svg){ align=right }
 
-## 選擇Android 發佈版本
+The **Android Open Source Project** is a secure mobile operating system featuring strong [app sandboxing](https://source.android.com/security/app-sandbox), [Verified Boot](https://source.android.com/security/verifiedboot) (AVB), and a robust [permission](https://developer.android.com/guide/topics/permissions/overview) control system.
+
+## Our Advice
+
+### 選擇Android 發佈版本
 
 當購買 Android 手機時，該設備的預設作業系統通常放入非 [Android 開源專案](https://source.android.com/)的應用程式與服務，成為侵入性整合。 例如， Google Play 服務擁有不可撤銷的權限，可存取您的檔案、聯絡人儲存空間、通話記錄、SMS訊息、位置、攝影機、麥克風、硬體識別碼等。 這些應用程式和服務增加了設備的攻擊面，成為 Android 各種隱私問題的來源。
 
@@ -16,7 +20,7 @@ Android是一個安全的操作系統，具有強大的 [應用程式沙盒](htt
 
 [Android 系統建議 :material-arrow-right-drop-circle:](../android.md ""){.md-button}
 
-## 避免 Root
+### 避免 Root
 
 [Rooting](https://en.wikipedia.org/wiki/Rooting_(Android)) 安卓手机会大大降低安全性，因为它削弱了完整的 [安卓安全模型](https://en.wikipedia.org/wiki/Android_(operating_system)#Security_and_privacy)。 這可能會降低隱私，如果有一個漏洞被降低的安全性所輔助。 常見的 root 方法涉及直接篡改開機分割區，以至於造成無法成功執行Verified Boot。 需要 root 的應用程式也會修改系統分割區，這意味著 Verified Boot 必須維持停用。 直接在使用者介面中暴露 root 也會增加裝置的 [攻擊面](https://en.wikipedia.org/wiki/Attack_surface) ，助長 [特權升級](https://en.wikipedia.org/wiki/Privilege_escalation) 漏洞和 SELinux 政策繞過。
 
@@ -26,7 +30,21 @@ AFWall+ 基於 [封包過濾](https://en.wikipedia.org/wiki/Firewall_(computing)
 
 我們認為，不值得這些應用程序的可疑隱私利益而犧牲手機 root 的安全。
 
-## 已驗證的啟動
+### Install Updates
+
+重要的是不要使用 [結束生命周期](https://endoflife.date/android) 版本的Android。 較新版本的 Android 不僅會收到作業系統的安全性更新，而且還會收到重要的隱私增強更新。
+
+For example, [prior to Android 10](https://developer.android.com/about/versions/10/privacy/changes) any apps with the [`READ_PHONE_STATE`](https://developer.android.com/reference/android/Manifest.permission#READ_PHONE_STATE) permission could access sensitive and unique serial numbers of your phone such as [IMEI](https://en.wikipedia.org/wiki/International_Mobile_Equipment_Identity), [MEID](https://en.wikipedia.org/wiki/Mobile_equipment_identifier), or your SIM card's [IMSI](https://en.wikipedia.org/wiki/International_mobile_subscriber_identity); whereas now they must be system apps to do so. 系統應用程式僅由 OEM 或 Android 發行版提供。
+
+### Sharing Media
+
+You can avoid giving many apps permission to access your media with Android's built-in sharing features. Many applications allow you to "share" a file with them for media upload.
+
+For example, if you want to post a picture to Discord you can open your file manager or gallery and share that picture with the Discord app, instead of granting Discord full access to your media and photos.
+
+## 安全保護
+
+### 已驗證的啟動
 
 [ Verified Boot](https://source.android.com/security/verifiedboot) ，是 Android 安全模式的重要組成。 它可保護 [邪惡女僕](https://en.wikipedia.org/wiki/Evil_maid_attack) 、惡意軟件的持久性攻擊，確保安全性更新不會造成 [回滾保護降級](https://source.android.com/security/verifiedboot/verified-boot#rollback-protection)。
 
@@ -38,7 +56,7 @@ Verified Boot確保作業系統檔案的完整性，從而防止具有物理訪�
 
 許多 OEM 也破壞了 Verified Boot，您必須在廠商行銷之餘認知到這點。 例如， Fairphone 3和4在預設情況下並不安全，因為 [股票引導裝載程式信任公開的AVB簽名密鑰](https://forum.fairphone.com/t/bootloader-avb-keys-used-in-roms-for-fairphone-3-4/83448/11)。 這會在庫存 Fairphone 設備中斷 verified boot，因為系統將啟動替代 Android 作業系統（如/e/） [，而不對自定作業系統發出警告](https://source.android.com/security/verifiedboot/boot-flow#locked-devices-with-custom-root-of-trust) 。
 
-## 韌體更新
+### 韌體更新
 
 韌體更新對於維護安全性至關重要，沒有它們，您的設備就無法安全。 OEM 與其合作夥伴簽訂了支援協議，在有限的支持期內提供封閉式元件。 詳情請參閱每月 [Android 安全公告](https://source.android.com/security/bulletin)。
 
@@ -48,11 +66,7 @@ Verified Boot確保作業系統檔案的完整性，從而防止具有物理訪�
 
 例如， Fairphone 推銷其設備有 6年的支持。 然而， SoC （ Fairphone 4上的Qualcomm Snapdragon 750G ）的EOL日期要短得多。 這意味著，無論 Fairphone 是否繼續發布軟體安全更新， Qualcomm Fairphone 4 固件安全更新將於 2023年9月結束。
 
-## Android 版本
-
-重要的是不要使用 [結束生命周期](https://endoflife.date/android) 版本的Android。 較新版本的 Android 不僅會收到作業系統的安全性更新，而且還會收到重要的隱私增強更新。 例如， [，Android 10 之前](https://developer.android.com/about/versions/10/privacy/changes)，任何具有 [`READ_PHONE_STATE`](https://developer.android.com/reference/android/Manifest.permission#READ_PHONE_STATE) 權限的應用程式都可存取手機敏感獨特的序列號，如 [IMEI](https://en.wikipedia.org/wiki/International_Mobile_Equipment_Identity)， [MEID](https://en.wikipedia.org/wiki/Mobile_equipment_identifier)，SIM卡的 [IMSI](https://en.wikipedia.org/wiki/International_mobile_subscriber_identity)，而現在則必須是系統應用程式才可以。 系統應用程式僅由 OEM 或 Android 發行版提供。
-
-## Android權限
+### Android權限
 
 Android</a> 上的
 
@@ -100,13 +114,11 @@ Android 13:
 
 
 
-## 媒體存取
-
-相當多的應用程式讓您須以他們"“共享”"以便上傳媒體檔案。 例如，如果想在Twitter 發佈圖片，請不要授予Twitter 訪問您的“媒體和照片”的權限，因為它將可以訪問您所有圖片。 相反，請前往您的檔案管理器（ documentsUI ） ，按住圖片，然後與Twitter分享。
+## Privacy Features
 
 
 
-## 用戶設定檔
+### 用戶設定檔
 
 多重用戶設定可以在 **設置** → **系統** → **多個用戶** 中找到，是 Android 最簡單的隔離方式。
 
@@ -114,7 +126,7 @@ Android 13:
 
 
 
-## 工作用設定檔
+### 工作用設定檔
 
 [工作用設定檔](https://support.google.com/work/android/answer/6191949) 是另一個隔離個別應用的方法，也比單獨的用戶設定檔更為方便。
 
@@ -126,19 +138,19 @@ Android 13:
 
 
 
-## VPN Killswitch
+### VPN Killswitch
 
 Android 7以上版本支援VPN killswitch ，無需安裝第三方應用程式即可使用。 此功能可以防止VPN中斷連線時的洩漏。 它可以在 :gear: **設置** → **網路 & 網際網路** → **VPN** → :gear: → **區塊連接沒有 VPN**中找到。
 
 
 
-## 全局切換
+### 全局切換
 
 現代 Android 裝置具有全局切換功能，可停用藍牙和定位服務。 Android 12為相機和麥克風引入了切換功能。 不使用時，建議停用這些功能。 在重新啟用之前，應用程式無法使用已停用的功能（即使授予個別權限）。
 
 
 
-## Google
+## Google Services
 
 如果您使用的裝置搭載Google服務，無論是您庫存作業系統，還是能夠安全地使用 Google Play服務（如GrapheneOS ）的作業系統，可進行許多其他變更以改善隱私。 我們仍然建議避免使用 Google 服務，或者將 *Shelter* 等設備控制器與 GrapheneOS 的Sandboxed Google Play相結合，將 Google Play 服務限制為特定用戶/工作檔案。
 

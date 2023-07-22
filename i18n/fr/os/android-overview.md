@@ -4,9 +4,13 @@ icon: simple/android
 description: Android est un système d'exploitation open source doté de solides protections de sécurité, ce qui en fait notre premier choix pour les téléphones.
 ---
 
-Android est un système d'exploitation sécurisé qui dispose d'un [sandboxing](https://source.android.com/security/app-sandbox) solide, du [Démarrage Vérifié](https://source.android.com/security/verifiedboot) (AVB), et d'un système de contrôle des [autorisations](https://developer.android.com/guide/topics/permissions/overview) robuste.
+![Logo d'Android](../assets/img/android/android.svg){ align=right }
 
-## Choisir une distribution Android
+**Android Open Source Project** est un système d'exploitation mobile sécurisé doté d'un solide [sandboxing d'application](https://source.android.com/security/app-sandbox), d'un [démarrage vérifié](https://source.android.com/security/verifiedboot) (AVB), et d'un solide système de contrôle des [autorisations](https://developer.android.com/guide/topics/permissions/overview).
+
+## Nos conseils
+
+### Choisir une distribution Android
 
 Lorsque vous achetez un téléphone Android, le système d'exploitation par défaut de l'appareil s'accompagne souvent d'une intégration envahissante des applications et des services qui ne font pas partie de l'[Android Open-Source Project](https://source.android.com/). C'est le cas par exemple de l'application Services Google Play, qui dispose de privilèges irrévocables pour accéder à vos fichiers, au stockage de vos contacts, aux journaux d'appels, aux SMS, à votre localisation, à votre appareil photo, à votre microphone, aux identifiants matériels, etc. Ces applications et ces services augmentent la surface d'attaque de votre appareil et sont à l'origine de divers problèmes d'invasion de la vie privée sur Android.
 
@@ -16,7 +20,7 @@ Idéalement, lorsque vous choisissez une distribution Android, vous devez vous a
 
 [Nos recommandations de distributions Android :material-arrow-right-drop-circle:](../android.md ""){.md-button}
 
-## Éviter le rootage
+### Éviter le rootage
 
 [Le rootage](https://en.wikipedia.org/wiki/Rooting_(Android)) des téléphones Android peut diminuer la sécurité de manière significative car il affaiblit complétement le modèle de sécurité d'[Android](https://en.wikipedia.org/wiki/Android_(operating_system)#Security_and_privacy). Cela peut nuire à la protection de la vie privée en cas d'exploitation facilitée par la diminution de la sécurité. Les méthodes courantes de rootage impliquent une modification directe de la partition de démarrage, ce qui rend impossible l'exécution du Démarrage Vérifié. Les applications qui requièrent un Android rooté modifieront également la partition du système, ce qui signifie que le Démarrage Vérifié devra rester désactivé. Le fait que le root soit exposé directement dans l'interface utilisateur augmente également la [surface d'attaque](https://en.wikipedia.org/wiki/Attack_surface) de votre appareil et peut contribuer aux vulnérabilités [d'élévation de privilèges](https://en.wikipedia.org/wiki/Privilege_escalation) et aux contournements de la politique SELinux.
 
@@ -26,9 +30,23 @@ AFWall+ fonctionne sur le [filtrage des paquets](https://en.wikipedia.org/wiki/F
 
 Nous ne pensons pas que les sacrifices de sécurité en rootant un smartphone valent les avantages discutables de ces applications en matière de vie privée.
 
-## Démarrage Vérifié
+### Installer les mises à jour
 
-Le [Démarrage Vérifié](https://source.android.com/security/verifiedboot) est un élément important du modèle de sécurité d'Android. Il fournit une protection contre les attaques de type [evil maid](https://en.wikipedia.org/wiki/Evil_maid_attack), la persistance de logiciels malveillants et garantit que les mises à jour de sécurité ne peuvent pas être rétrogradées grâce au [rollback protection](https://source.android.com/security/verifiedboot/verified-boot#rollback-protection).
+Il est important de ne pas utiliser une version d'Android [en fin de vie](https://endoflife.date/android). Les nouvelles versions d'Android reçoivent non seulement des mises à jour de sécurité pour le système d'exploitation, mais aussi d'importantes mises à jour destinées à améliorer votre vie privée.
+
+Par exemple, [avant Android 10](https://developer.android.com/about/versions/10/privacy/changes) toute application disposant de l'autorisation [`READ_PHONE_STATE`](https://developer.android.com/reference/android/Manifest.permission#READ_PHONE_STATE) pouvait accéder aux numéros de série sensibles et uniques de votre téléphone, tels que l'[IMEI](https://en.wikipedia.org/wiki/International_Mobile_Equipment_Identity), le [MEID](https://en.wikipedia.org/wiki/Mobile_equipment_identifier), ou l'[IMSI](https://en.wikipedia.org/wiki/International_mobile_subscriber_identity) de votre carte SIM ; alors qu'aujourd'hui, il doit s'agir d'applications système pour le faire. Les applications système sont uniquement fournies par le fabricant ou la distribution Android.
+
+### Partager des médias
+
+Vous pouvez éviter de donner à de nombreuses applications l'autorisation d'accéder à vos médias grâce aux fonctions de partage intégrées d'Android. De nombreuses applications vous permettent de "partager" un fichier avec elles pour l'envoi de médias.
+
+Par exemple, si vous souhaitez publier une photo sur Discord, vous pouvez ouvrir votre gestionnaire de fichiers ou votre galerie et partager cette photo avec l'application Discord, au lieu d'accorder à Discord un accès complet à vos médias et photos.
+
+## Protections de sécurité
+
+### Démarrage vérifié
+
+Le [Démarrage vérifié](https://source.android.com/security/verifiedboot) est un élément important du modèle de sécurité d'Android. Il fournit une protection contre les attaques de type [evil maid](https://en.wikipedia.org/wiki/Evil_maid_attack), la persistance de logiciels malveillants et garantit que les mises à jour de sécurité ne peuvent pas être rétrogradées grâce au [rollback protection](https://source.android.com/security/verifiedboot/verified-boot#rollback-protection).
 
 Les versions supérieures à Android 10 ont abandonné le chiffrement complet du disque au profit d'un chiffrement plus souple [basé sur les fichiers](https://source.android.com/security/encryption/file-based). Vos données sont chiffrées à l'aide de clés de chiffrement propres à chaque utilisateur, tandis que les fichiers du système d'exploitation ne sont pas chiffrés.
 
@@ -38,7 +56,7 @@ Malheureusement, les fabricants sont tenus de prendre uniquement en charge le D�
 
 De nombreux contructeurs ont également une implémentation défectueuse du Démarrage Vérifié dont vous devez être conscient au-delà de leur marketing. Par exemple, les Fairphone 3 et 4 ne sont pas sécurisés par défaut, car le [chargeur d'amorçage de base fait confiance à la clé de signature AVB publique](https://forum.fairphone.com/t/bootloader-avb-keys-used-in-roms-for-fairphone-3-4/83448/11). Cela contourne le Démarrage Vérifié sur un appareil Fairphone d'origine, car le système démarrera des systèmes d'exploitation Android alternatifs tels que (comme /e/) [sans aucun avertissement](https://source.android.com/security/verifiedboot/boot-flow#locked-devices-with-custom-root-of-trust) sur l'utilisation d'un système d'exploitation personnalisé.
 
-## Mises à jour du micrologiciel
+### Mises à jour du micrologiciel
 
 Les mises à jour du micrologiciel sont essentielles au maintien de la sécurité. Sans elles, votre appareil ne peut être sécurisé. Les fabriquants ont conclu des accords de prise de en charge avec leurs partenaires pour fournir les mises à jour des composants closed-source pendant une période limitée. Celles-ci sont détaillées dans les [Bulletins de Sécurité Android](https://source.android.com/security/bulletin) mensuels.
 
@@ -48,11 +66,7 @@ Les appareils qui ne sont plus pris en charge par le fabricant du SoC ne peuvent
 
 Fairphone, par exemple, commercialise ses appareils comme bénéficiant de 6 ans de mises à jour. Cependant, le SoC (Qualcomm Snapdragon 750G sur le Fairphone 4) a une date de fin de vie (EOL) beaucoup plus courte. Cela signifie que les mises à jour de sécurité du micrologiciel de Qualcomm pour le Fairphone 4 prendront fin en septembre 2023, que Fairphone continue ou non à publier des mises à jour de sécurité logicielle.
 
-## Versions d'Android
-
-Il est important de ne pas utiliser une version d'Android [en fin de vie](https://endoflife.date/android). Les nouvelles versions d'Android reçoivent non seulement des mises à jour de sécurité pour le système d'exploitation, mais aussi d'importantes mises à jour destinées à améliorer votre vie privée. Par exemple, [avant Android 10](https://developer.android.com/about/versions/10/privacy/changes), toute application disposant de l'autorisation [`READ_PHONE_STATE`](https://developer.android.com/reference/android/Manifest.permission#READ_PHONE_STATE) pouvait accéder aux numéros de série uniques et sensibles de votre téléphone, tels que l'[IMEI](https://en.wikipedia.org/wiki/International_Mobile_Equipment_Identity), le [MEID](https://en.wikipedia.org/wiki/Mobile_equipment_identifier), et l'[IMSI](https://en.wikipedia.org/wiki/International_mobile_subscriber_identity) de votre carte SIM, alors qu'aujourd'hui les applications soivent désormais être des des applications système pour lire ces données sensibles. Les applications système sont uniquement fournies par le fabricant ou la distribution Android.
-
-## Autorisations d'Android
+### Autorisations d'Android
 
 Les [autorisations sur Android](https://developer.android.com/guide/topics/permissions/overview) vous permettent de contrôler ce que les applications ont le droit d'accéder. Google apporte régulièrement des [améliorations](https://developer.android.com/about/versions/11/privacy/permissions) sur le système d'autorisations à chaque nouvelle version d'Android. Toutes les applications que vous installez sont strictement [isolées](https://source.android.com/security/app-sandbox), il n'est donc pas nécessaire d'installer des applications antivirus.
 
@@ -60,50 +74,48 @@ Un smartphone équipé de la dernière version d'Android sera toujours plus sûr
 
 Android 10 :
 
-- [Scoped Storage](https://developer.android.com/about/versions/10/privacy/changes#scoped-storage) vous donne plus de contrôle sur vos fichiers et peut limiter ce qui peut [accéder au stockage externe](https://developer.android.com/training/data-storage?hl=fr#permissions). Les applications peuvent avoir un répertoire spécifique dans le stockage externe ainsi que la possibilité d'y stocker des types de médias spécifiques.
-- Un acès plus strict à l'emplacement du dispositif [](https://developer.android.com/about/versions/10/privacy/changes#app-access-device-location) en introduisant la permission `ACCESS_BACKGROUND_LOCATION` . Cela empêche les applications d'accéder à l'emplacement lorsqu'elles fonctionnent en arrière-plan sans l'autorisation expresse de l'utilisateur.
+- [Scoped Storage](https://developer.android.com/about/versions/10/privacy/changes#scoped-storage) vous donne plus de contrôle sur vos fichiers et peut limiter les applications qui peuvent [accéder au stockage externe](https://developer.android.com/training/data-storage#permissions). Les applications peuvent avoir un répertoire spécifique dans le stockage externe ainsi que la possibilité d'y stocker des types de médias spécifiques.
+- Un acès plus strict à la [localisation de l'appareil](https://developer.android.com/about/versions/10/privacy/changes#app-access-device-location) en introduisant l'autorisation `ACCESS_BACKGROUND_LOCATION` . Cela empêche les applications d'accéder à la localisation lorsqu'elles fonctionnent en arrière-plan sans l'autorisation expresse de l'utilisateur.
 
 Android 11 :
 
-- [Permissions uniques](https://developer.android.com/about/versions/11/privacy/permissions#one-time) qui vous permet d'accorder une permission à une application une seule fois.
+- [Autorisations uniques](https://developer.android.com/about/versions/11/privacy/permissions#one-time) qui vous permettent d'accorder une autorisation à une application une seule fois.
 - [Réinitialisation automatique des autorisations](https://developer.android.com/about/versions/11/privacy/permissions#auto-reset), qui réinitialise [les autorisations d'exécution](https://developer.android.com/guide/topics/permissions/overview#runtime) accordées lors de l'ouverture de l'application.
-- Autorisations granulaires pour accéder aux fonctions liées au numéro de téléphone [](https://developer.android.com/about/versions/11/privacy/permissions#phone-numbers).
+- Autorisations granulaires pour accéder aux fonctions liées au [numéro de téléphone](https://developer.android.com/about/versions/11/privacy/permissions#phone-numbers).
 
 Android 12 :
 
-- Une permission d'accorder uniquement l'emplacement approximatif [](https://developer.android.com/about/versions/12/behavior-changes-12#approximate-location).
+- Une autorisation pour accorder uniquement la [localisation approximative](https://developer.android.com/about/versions/12/behavior-changes-12#approximate-location).
 - Réinitialisation automatique des [applications en hibernation](https://developer.android.com/about/versions/12/behavior-changes-12#app-hibernation).
 - [Audit de l'accès aux données](https://developer.android.com/about/versions/12/behavior-changes-12#data-access-auditing) qui permet de déterminer plus facilement quelle partie d'une application effectue un type spécifique d'accès aux données.
 
 Android 13 :
 
-- Une autorisation pour [un accès wifi à proximité](https://developer.android.com/about/versions/13/behavior-changes-13#nearby-wifi-devices-permission). Les adresses MAC des points d'accès WiFi à proximité étaient un moyen populaire pour les applications de suivre la localisation d'un utilisateur.
-- Plus d'[autorisations granulaires pour les médias](https://developer.android.com/about/versions/13/behavior-changes-13#granular-media-permissions), ce qui signifie que vous pouvez accorder l'accès uniquement aux images, aux vidéos ou aux fichiers audio.
-- L'utilisation de capteurs en arrière-plan nécessite désormais l'autorisation [`BODY_SENSORS`](https://developer.android.com/about/versions/13/behavior-changes-13#body-sensors-background-permission) .
+- Une autorisation pour [un accès aux wifi à proximité](https://developer.android.com/about/versions/13/behavior-changes-13#nearby-wifi-devices-permission). Utiliser les adresses MAC des points d'accès WiFi à proximité était une technique populaire des applications pour suivre la position d'un utilisateur.
+- Des [autorisations plus granulaires pour les médias](https://developer.android.com/about/versions/13/behavior-changes-13#granular-media-permissions), ce qui signifie que vous pouvez accorder l'accès uniquement aux images, aux vidéos ou aux fichiers audio.
+- L'utilisation de capteurs en arrière-plan nécessite désormais l'autorisation [`BODY_SENSORS`](https://developer.android.com/about/versions/13/behavior-changes-13#body-sensors-background-permission).
 
-Une application peut demander une autorisation pour une fonction spécifique qu'elle possède. Par exemple, toute application permettant de scanner des codes QR nécessitera l'autorisation de l'appareil photo. Certaines applications peuvent demander plus de permissions qu'elles n'en ont besoin.
+Une application peut demander une autorisation pour une fonction spécifique qu'elle possède. Par exemple, toute application permettant de scanner des codes QR nécessitera l'autorisation de l'appareil photo. Certaines applications peuvent demander plus d'autorisations qu'elles n'en ont besoin.
 
-[Exodus](https://exodus-privacy.eu.org/fr//) peut être utile pour comparer des applications ayant des objectifs similaires. Si une application nécessite de nombreuses autorisations et comporte beaucoup de publicité et d'analyses, c'est probablement un mauvais signe. **Nous vous recommandons de regarder les trackers individuels et de lire leurs descriptions plutôt que de vous contenter de compter le total** et de supposer que tous les éléments énumérés sont égaux.
+[Exodus](https://exodus-privacy.eu.org/fr/) peut être utile pour comparer des applications ayant des objectifs similaires. Si une application nécessite de nombreuses autorisations et comporte beaucoup de traqueurs publicitaires et d'analytiques, c'est probablement un mauvais signe. Nous vous recommandons d'examiner les différents traqueurs et de lire leur description plutôt que de vous contenter de **compter leur nombre** et de supposer que tous les éléments énumérés sont égaux.
 
 !!! warning "Avertissement"
 
-    Si une application est principalement un service web, le suivi peut se faire du côté du serveur. [Facebook](https://reports.exodus-privacy.eu.org/fr/reports/com.facebook.katana/latest/) n'affiche "aucun traceur" mais suit certainement les intérêts et le comportement des utilisateurs sur le site. Les applications peuvent échapper à la détection en n'utilisant pas les bibliothèques de code standard produites par le secteur de la publicité, bien que cela soit peu probable.
+    Si une application est principalement un service web, le suivi peut se faire du côté du serveur. [Facebook](https://reports.exodus-privacy.eu.org/fr/reports/com.facebook.katana/latest/) n'affiche "aucun traqueur" mais suit certainement les intérêts et le comportement des utilisateurs sur le site. Les applications peuvent échapper à la détection en n'utilisant pas les bibliothèques de code standard produites par l'industrie de la publicité, bien que cela soit peu probable.
 
 !!! note "À noter"
 
-    Les applications respectueuses de la vie privée telles que [Bitwarden](https://reports.exodus-privacy.eu.org/fr/reports/com.x8bit.bitwarden/latest/) peuvent afficher certains traceurs tels que [Google Firebase Analytics] (https://reports.exodus-privacy.eu.org/fr/trackers/49/). Cette bibliothèque comprend [Firebase Cloud Messaging] (https://en.wikipedia.org/wiki/Firebase_Cloud_Messaging) qui peut fournir des [notifications push] (https://fr.wikipedia.org/wiki/Server_push) dans les applications. C'est le cas (https://fosstodon.org/@bitwarden/109636825700482007) avec Bitwarden. Cela ne signifie pas que Bitwarden utilise toutes les fonctionnalités d'analyse fournies par Google Firebase Analytics.
+    Les applications respectueuses de la vie privée telles que [Bitwarden](https://reports.exodus-privacy.eu.org/fr/reports/com.x8bit.bitwarden/latest/) peuvent afficher certains traqueurs tels que [Google Firebase Analytics] (https://reports.exodus-privacy.eu.org/fr/trackers/49/). Cette bibliothèque comprend [Firebase Cloud Messaging](https://en.wikipedia.org/wiki/Firebase_Cloud_Messaging) qui peut fournir des [notifications push](https://fr.wikipedia.org/wiki/Server_push) dans les applications. C'est [le cas](https://fosstodon.org/@bitwarden/109636825700482007) avec Bitwarden. Cela ne signifie pas que Bitwarden utilise toutes les fonctionnalités d'analyse fournies par Google Firebase Analytics.
 
-## Accès aux médias
+## Fonctionnalités de protection de la vie privée
 
-De nombreuses applications vous permettent de "partager" un fichier avec elles pour le téléchargement de médias. Si vous voulez, par exemple, envoyer une photo sur Twitter, n'accordez pas à Twitter l'accès à vos "médias et photos", car il aura alors accès à toutes vos photos. Au lieu de cela, allez dans votre gestionnaire de fichiers (documentsUI), appuyez longuement sur l'image, puis partagez-la avec Twitter.
-
-## Profils Utilisateurs
+### Profils utilisateurs
 
 Les profils d'utilisateurs multiples se trouvent dans **Paramètres** → **Système** → **Utilisateurs multiples** et constituent le moyen le plus simple d'isoler dans Android.
 
 Avec les profils d'utilisateur, vous pouvez imposer des restrictions à un profil spécifique, par exemple : passer des appels, utiliser des SMS ou installer des applications sur l'appareil. Chaque profil est chiffré à l'aide de sa propre clé de chiffrement et ne peut accéder aux données d'aucun autre profil. Même le propriétaire de l'appareil ne peut pas voir les données des autres profils sans connaître leur mot de passe. Les profils d'utilisateurs multiples est une méthode d'isolement plus sécurisée.
 
-## Profil Professionnel
+### Profil professionnel
 
 Les [Profils Professionnels](https://support.google.com/work/android/answer/6191949?hl=fr) sont une autre façon d'isoler des applications de manière individuelles et peuvent s'avérer plus pratiques que des profils d'utilisateur séparés.
 
@@ -113,15 +125,15 @@ Le profil professionnel dépend d'un gestionnaire d'appareil pour fonctionner. L
 
 Cette méthode est généralement moins sûre qu'un profil utilisateur secondaire, mais elle vous permet d'exécuter simultanément des applications dans les profils professionnel et personnel.
 
-## Arrêt d'Urgence VPN
+### Arrêt d'urgence VPN
 
 Android 7 et plus prennent en charge un arrêt d'urgence de VPN et il est disponible sans qu'il soit nécessaire d'installer des applications tierces. Cette fonction permet d'éviter les fuites si le VPN est déconnecté. Il se trouve dans :gear: **Paramètres** → **Réseau & internet** → **VPN** → :gear: → **Bloquer les connexions sans VPN**.
 
-## Boutons à Bascule Globaux
+### Boutons à bascule globaux
 
 Les appareils Android modernes disposent de boutons à bascule permettant de désactiver les services Bluetooth et de localisation. Android 12 a introduit des boutons à bascule pour l'appareil photo et le microphone. Lorsque vous n'utilisez pas ces fonctions, nous vous recommandons de les désactiver. Les applications ne peuvent pas utiliser les fonctions désactivées (même si elles ont reçu une autorisation individuelle) jusqu'à ce qu'elles soient réactivées.
 
-## Google
+## Services Google
 
 Si vous utilisez un appareil doté des services Google, qu'il s'agisse de votre système d'exploitation d'origine ou d'un système d'exploitation qui intègre les services Google Play sandboxed en toute sécurité, comme GrapheneOS, vous pouvez apporter un certain nombre de modifications supplémentaires pour améliorer votre confidentialité. Nous recommandons toujours d'éviter complètement les services Google ou de limiter les services Google Play à un profil utilisateur/professionnel spécifique en combinant un contrôleur d'appareil comme *Shelter* avec le Sandboxed Google Play de GrapheneOS.
 

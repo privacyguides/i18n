@@ -4,9 +4,13 @@ icon: simple/android
 description: Android es un sistema operativo de código abierto con fuertes medidas de seguridad, lo que lo convierte en nuestra primera opción para teléfonos.
 ---
 
-Android es un sistema operativo seguro el cuál tiene [aislamiento de las aplicaciones](https://source.android.com/security/app-sandbox), [arranque verificado](https://source.android.com/security/verifiedboot) (AVB), y un robusto sistema de control de [permisos](https://developer.android.com/guide/topics/permissions/overview).
+![Logotipo de Android](../assets/img/android/android.svg){ align=right }
 
-## Elegir una distribución de Android
+The **Android Open Source Project** is a secure mobile operating system featuring strong [app sandboxing](https://source.android.com/security/app-sandbox), [Verified Boot](https://source.android.com/security/verifiedboot) (AVB), and a robust [permission](https://developer.android.com/guide/topics/permissions/overview) control system.
+
+## Our Advice
+
+### Elegir una distribución de Android
 
 Cuando compras un celular Android, el sistema operativo por defecto suele venir con una integración invasiva con aplicaciones y servicios que no son parte del [Android Open Source Project](https://source.android.com/). Un ejemplo de ello son los servicios de Google Play, el cual tiene permisos irrevocables a tus archivos, almacenamiento de contactos, registros de llamadas, mensajes SMS, ubicación, cámara, micrófono, identificadores de hardware, etc. Estas aplicaciones y servicios aumentan la superficie de ataque de tu dispositivo y son la fuente de varios problemas de privacidad en Android.
 
@@ -16,7 +20,7 @@ Idealmente, cuando escojas una distribución de Android, deberías asegurarte de
 
 [Nuestras recomendaciones del sistema Android :material-arrow-right:](../android.md ""){.md-button}
 
-## Evita el Rooting
+### Evita el Rooting
 
 Hacer [Rooting](https://en.wikipedia.org/wiki/Rooting_(Android)) en celulares Android puede debilitar la seguridad significativamente debido que debilita el [modelo completo de seguridad de Android](https://es.wikipedia.org/wiki/Android#Seguridad,_privacidad_y_vigilancia). Esto puede debilitar la privacidad en caso de que haya un exploit que sea asistido por la seguridad debilitada. Los métodos de rooteo más comunes involucran la manipulación directa de la partición de arranque, haciendo que sea imposible realizar con éxito el arranque verificado. Las aplicaciones que requieren root también modificarán la partición del sistema, lo que significa que el arranque verificado tendría que permanecer deshabilitado. Tener el root expuesto directamente en la interfaz del usuario también incrementa la [superficie de ataque](https://en.wikipedia.org/wiki/Attack_surface) de tu dispositivo y puede asistir en la [escalada de privilegios](https://es.wikipedia.org/wiki/Escalada_de_privilegios) de vulnerabilidades y omisiones de la política de SELinux.
 
@@ -26,7 +30,21 @@ AFWall+ funciona basado en el enfoque del [filtrado de paquetes](https://es.wiki
 
 No creemos que los sacrificios de seguridad realizados al rootear un teléfono merezcan la pena por los cuestionables beneficios de privacidad de esas aplicaciones.
 
-## Arranque verificado
+### Install Updates
+
+Es importante no usar una versión de Android al [final de su vida útil](https://endoflife.date/android). Las versiones más recientes de Android no solo reciben actualizaciones de seguridad para el sistema operativo, sino también actualizaciones importantes para mejorar la privacidad.
+
+For example, [prior to Android 10](https://developer.android.com/about/versions/10/privacy/changes) any apps with the [`READ_PHONE_STATE`](https://developer.android.com/reference/android/Manifest.permission#READ_PHONE_STATE) permission could access sensitive and unique serial numbers of your phone such as [IMEI](https://en.wikipedia.org/wiki/International_Mobile_Equipment_Identity), [MEID](https://en.wikipedia.org/wiki/Mobile_equipment_identifier), or your SIM card's [IMSI](https://en.wikipedia.org/wiki/International_mobile_subscriber_identity); whereas now they must be system apps to do so. Las aplicaciones del sistema sólo las proporciona el OEM o la distribución de Android.
+
+### Sharing Media
+
+You can avoid giving many apps permission to access your media with Android's built-in sharing features. Many applications allow you to "share" a file with them for media upload.
+
+For example, if you want to post a picture to Discord you can open your file manager or gallery and share that picture with the Discord app, instead of granting Discord full access to your media and photos.
+
+## Security Protections
+
+### Arranque verificado
 
 El [arranque verificado](https://source.android.com/security/verifiedboot) es una parte importante del modelo de seguridad de Android. Proviene de protección contra ataques [evil maid](https://en.wikipedia.org/wiki/Evil_maid_attack), persistencia del malware, y se asegura que las actualizaciones de seguridad no puedan ser desactualizadas gracias a la [protección de reversión](https://source.android.com/security/verifiedboot/verified-boot#rollback-protection).
 
@@ -38,7 +56,7 @@ Desgraciadamente, los fabricantes de equipos originales (OEM) solo están obliga
 
 Muchos OEMs también han roto la implementación del Arranque Verificado que tienes que conocer más allá de su marketing. Por ejemplo, los Fairphone 3 y 4 no son seguros por defecto, ya que el [bootloader de serie confía en la clave de firma pública AVB](https://forum.fairphone.com/t/bootloader-avb-keys-used-in-roms-for-fairphone-3-4/83448/11). Esto rompe el arranque verificado en un dispositivo Fairphone de fábrica, ya que el sistema arrancará sistemas operativos Android alternativos como (como /e/) [sin ninguna advertencia](https://source.android.com/security/verifiedboot/boot-flow#locked-devices-with-custom-root-of-trust) sobre el uso del sistema operativo personalizado.
 
-## Actualizaciones de firmware
+### Actualizaciones de firmware
 
 Las actualizaciones de firmware son fundamentales para mantener la seguridad y, sin ellas, tu dispositivo no puede ser seguro. Los fabricantes de equipos originales tienen acuerdos de asistencia con sus socios para proporcionar los componentes de código cerrado durante un periodo de asistencia limitado. Estos se detallan en los [boletines de seguridad mensuales de Android](https://source.android.com/security/bulletin).
 
@@ -48,11 +66,7 @@ Los dispositivos EOL que ya no son compatibles con el fabricante del SoC no pued
 
 Fairphone, por ejemplo, comercializa sus dispositivos con 6 años de soporte. Sin embargo, el SoC (Qualcomm Snapdragon 750G en el Fairphone 4) tiene una fecha de caducidad considerablemente más corta. Esto significa que las actualizaciones de seguridad de firmware de Qualcomm para el Fairphone 4 terminarán en septiembre de 2023, independientemente de que Fairphone siga publicando actualizaciones de seguridad de software.
 
-## Versiones de Android
-
-Es importante no usar una versión de Android al [final de su vida útil](https://endoflife.date/android). Las versiones más recientes de Android no solo reciben actualizaciones de seguridad para el sistema operativo, sino también actualizaciones importantes para mejorar la privacidad. Por ejemplo, [antes de Android 10](https://developer.android.com/about/versions/10/privacy/changes), cualquier aplicación con el permiso [`READ_PHONE_STATE`](https://developer.android.com/reference/android/Manifest.permission#READ_PHONE_STATE) podía acceder a números de serie únicos y sensibles como el [IMEI](https://es.wikipedia.org/wiki/IMEI), [MEID](https://en.wikipedia.org/wiki/Mobile_equipment_identifier), el [IMSI](https://es.wikipedia.org/wiki/IMSI) de tu tarjeta SIM, mientras que ahora deben ser aplicaciones del sistema para poder hacerlo. Las aplicaciones del sistema sólo las proporciona el OEM o la distribución de Android.
-
-## Permisos de Android
+### Permisos de Android
 
 Los [permisos en Android](https://developer.android.com/guide/topics/permissions/overview) te dan control sobre que pueden acceder las aplicaciones. Google regularmente hace [mejoras](https://developer.android.com/about/versions/11/privacy/permissions) en el sistema de permisos en cada versión sucesiva. Todas las aplicaciones que instales están estrictamente [aisladas](https://source.android.com/security/app-sandbox), por lo que no es necesario instalar ninguna aplicación de antivirus.
 
@@ -93,17 +107,15 @@ Una aplicación puede solicitar un permiso para una función específica que ten
 
     Las aplicaciones que respetan la privacidad, como [Bitwarden](https://reports.exodus-privacy.eu.org/en/reports/com.x8bit.bitwarden/latest/), pueden mostrar algunos rastreadores como [Google Firebase Analytics](https://reports.exodus-privacy.eu.org/en/trackers/49/). Esta biblioteca incluye [Firebase Cloud Messaging](https://en.wikipedia.org/wiki/Firebase_Cloud_Messaging) que puede proporcionar [notificaciones push](https://es.wikipedia.org/wiki/Tecnología_push) en las aplicaciones. Este [es el caso](https://fosstodon.org/@bitwarden/109636825700482007) con Bitwarden. Esto no significa que Bitwarden utilice todas las funciones analíticas que ofrece Google Firebase Analytics.
 
-## Acceso a medios
+## Privacy Features
 
-Unas cuantas aplicaciones te permiten "compartir" un archivo con ellos para la carga de medios. Si quieres, por ejemplo, tuitear una foto a Twitter, no le des acceso a tus "medios y fotos", porque entonces tendrá acceso a todas tus fotos. En su lugar, ve a tu gestor de archivos (documentsUI), mantén la imagen y compártela en Twitter.
-
-## Perfiles de usuario
+### Perfiles de usuario
 
 Los perfiles de usuario múltiples pueden ser encontrados en **Ajustes** → **Sistema** → **Usuarios múltiples** y son la manera más simple de aislar en Android.
 
 Con los perfiles de usuario, puedes imponer restricciones a un perfil específico, como: realizar llamadas, usar SMS o instalar aplicaciones en el dispositivo. Cada perfil se cifra con su propia clave de cifrado y no puede acceder a los datos de ningún otro perfil. Incluso el propietario del dispositivo no puede ver los datos de otros perfiles sin conocer su contraseña. Los perfiles de usuario múltiples son un método más seguro de aislamiento.
 
-## Perfil de trabajo
+### Perfil de trabajo
 
 Los [perfiles de trabajo](https://support.google.com/work/android/answer/6191949) son otra manera de aislar aplicaciones individuales y pueden ser más convenientes que usar perfiles de usuario separados.
 
@@ -113,15 +125,15 @@ El perfil de trabajo depende de un controlador de dispositivo para funcionar. Ca
 
 Este método es generalmente menos seguro que un perfil de usuario secundario; sin embargo, le permite la comodidad de ejecutar aplicaciones tanto en el trabajo y perfiles personales simultáneamente.
 
-## "Killswitch" de un VPN
+### "Killswitch" de un VPN
 
 Android 7 y superiores soportan un VPN killswitch y está disponible sin necesidad de instalar aplicaciones de terceros. Esta función puede evitar fugas si la VPN está desconectada. Se puede encontrar en :gear: **Ajustes** → **Red e internet** → **VPN** → :gear: → **Bloquear conexiones sin VPN**.
 
-## Cambios globales
+### Cambios globales
 
 Los dispositivos Android modernos tienen interruptores globales para desactivar los servicios de Bluetooth y de localización. Android 12 introdujo interruptores para la cámara y el micrófono. Cuando no estén en uso, recomendamos desactivar estas funciones. Las aplicaciones no pueden usar las funciones desactivadas (incluso si se les concede un permiso individual) hasta que se reactiven.
 
-## Google
+## Google Services
 
 Si está utilizando un dispositivo con servicios de Google, ya sea su sistema operativo de stock o un sistema operativo que utiliza Google Play Services de forma segura como GrapheneOS, hay una serie de cambios adicionales que puede realizar para mejorar su privacidad. Seguimos recomendando evitar los servicios de Google por completo, o limitar los servicios de Google Play a un perfil específico de usuario/trabajo combinando un controlador de dispositivo como *Shelter* con Google Play aislado de GrapheneOS.
 

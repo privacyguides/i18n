@@ -4,9 +4,13 @@ icon: simple/android
 description: Az Android egy nyílt forráskódú operációs rendszer, amely erős biztonsági védelemmel rendelkezik, ezért ez az elsődleges választásunk telefonok esetében.
 ---
 
-Az Android egy biztonságos operációs rendszer, amely erős [app sandboxoló](https://source.android.com/security/app-sandbox), [Verified Boot](https://source.android.com/security/verifiedboot) (AVB) és egy robusztus [engedély](https://developer.android.com/guide/topics/permissions/overview) ellenőrző rendszerrel rendelkezik.
+![Android logo](../assets/img/android/android.svg){ align=right }
 
-## Egy Android Disztribúció Kiválasztása
+The **Android Open Source Project** is a secure mobile operating system featuring strong [app sandboxing](https://source.android.com/security/app-sandbox), [Verified Boot](https://source.android.com/security/verifiedboot) (AVB), and a robust [permission](https://developer.android.com/guide/topics/permissions/overview) control system.
+
+## Our Advice
+
+### Egy Android Disztribúció Kiválasztása
 
 Egy Android telefon vásárlásakor a készülék alapértelmezett operációs rendszere gyakran olyan alkalmazások és szolgáltatások invazív integrációját tartalmazza, amelyek nem részei az [Android Open-Source Project](https://source.android.com/)-nek. Ilyen például a Google Play Szolgáltatások, amely visszavonhatatlan jogosultságokkal rendelkezik a fájljaidhoz, névjegy tárolódhoz, hívásnaplóidhoz, SMS-üzeneteidhez, tartózkodási helyedhez, kamerádhoz, mikrofonodhoz, hardverazonosítóidhoz, stb. való hozzáférésre. Ezek az alkalmazások és szolgáltatások növelik a készüléked támadási felületét, és számos adatvédelmi aggály forrását jelentik az Androiddal kapcsolatban.
 
@@ -16,7 +20,7 @@ Ideális esetben, amikor egyedi Android disztribúciót választasz, győződj m
 
 [Android Rendszer Ajánlásaink :hero-arrow-circle-right-fill:](../android.md ""){.md-button}
 
-## Kerüld a Rootolást
+### Kerüld a Rootolást
 
 [Az](https://en.wikipedia.org/wiki/Rooting_(Android)) Android telefonok rootolása jelentősen csökkentheti a biztonságot, mivel gyengíti a teljes [Android biztonsági modellt](https://en.wikipedia.org/wiki/Android_(operating_system)#Security_and_privacy). Ez csökkentheti az adatvédelmet, ha van olyan biztonsági rés, amelynek kihasználását a csökkent biztonság elősegíti. A gyakori rootolási módszerek a boot partíció közvetlen megváltoztatásával járnak, ami lehetetlenné teszi egy sikeres Verified Boot elvégzését. A root-ot igénylő alkalmazások szintén módosítják a rendszerpartíciót, ami azt jelenti, hogy a Verified Boot-nak kikapcsolva kell maradnia. A root közvetlen kitétele a felhasználói felületnek szintén növeli az eszközöd [támadási felületetét](https://en.wikipedia.org/wiki/Attack_surface) és elősegítheti [ jogosultságnöveléses](https://en.wikipedia.org/wiki/Privilege_escalation) sebezhetőségek véghezvitelét és az SELinux házirendek megkerülését.
 
@@ -26,7 +30,21 @@ Az AFWall+ a [csomagszűrő](https://en.wikipedia.org/wiki/Firewall_(computing)#
 
 Nem hisszük, hogy egy telefon rootolásával járó biztonsági áldozatok megérik az alkalmazások megkérdőjelezhető adatvédelmi előnyeit.
 
-## Verified Boot
+### Install Updates
+
+Fontos, hogy ne használj egy [lejárt élettartamú](https://endoflife.date/android) Android verziót. Az Android újabb verziói nemcsak biztonsági frissítéseket kapnak az operációs rendszerhez, hanem fontos adatvédelmi fejlesztéseket is.
+
+For example, [prior to Android 10](https://developer.android.com/about/versions/10/privacy/changes) any apps with the [`READ_PHONE_STATE`](https://developer.android.com/reference/android/Manifest.permission#READ_PHONE_STATE) permission could access sensitive and unique serial numbers of your phone such as [IMEI](https://en.wikipedia.org/wiki/International_Mobile_Equipment_Identity), [MEID](https://en.wikipedia.org/wiki/Mobile_equipment_identifier), or your SIM card's [IMSI](https://en.wikipedia.org/wiki/International_mobile_subscriber_identity); whereas now they must be system apps to do so. A rendszeralkalmazásokat csak az OEM vagy az Android disztribúció biztosítja.
+
+### Sharing Media
+
+You can avoid giving many apps permission to access your media with Android's built-in sharing features. Many applications allow you to "share" a file with them for media upload.
+
+For example, if you want to post a picture to Discord you can open your file manager or gallery and share that picture with the Discord app, instead of granting Discord full access to your media and photos.
+
+## Security Protections
+
+### Verified Boot
 
 A [Verified Boot](https://source.android.com/security/verifiedboot) az Android biztonsági modelljének egy fontos része. Védelmet nyújt az [evil maid](https://en.wikipedia.org/wiki/Evil_maid_attack) támadások, valamint rosszindulatú programok állandósulása ellen, és biztosítja a [rollback védelem](https://source.android.com/security/verifiedboot/verified-boot#rollback-protection) segítségével, hogy a biztonsági frissítéseket ne lehessen downgradelni.
 
@@ -38,7 +56,7 @@ Sajnos OEM-gyártók csak az Android alapkiadásánál kötelesek támogatni a V
 
 Több OEM-gyártó is elrontotta a Verified Boot megvalósítását, amivel a marketingjükön túlmenően is tisztában kell lenned. A Fairphone 3 és 4 például alapértelmezetten nem biztonságosak, mivel az [alap bootloader a nyilvános AVB aláíró kulcsban bízik](https://forum.fairphone.com/t/bootloader-avb-keys-used-in-roms-for-fairphone-3-4/83448/11). This breaks verified boot on a stock Fairphone device, as the system will boot alternative Android operating systems such (such as /e/) [without any warning](https://source.android.com/security/verifiedboot/boot-flow#locked-devices-with-custom-root-of-trust) about custom operating system usage.
 
-## Firmware-frissítések
+### Firmware-frissítések
 
 A firmware-frissítések kritikus fontosságúak a biztonság fenntartása szempontjából, és nélkülük az eszközöd nem lehet biztonságos. Az OEM-gyártók támogatási megállapodásokat kötnek partnereikkel a zárt forráskódú komponensek korlátozott ideig történő biztosítására. Ezek a havonta megjelenő [Android Security Bulletin](https://source.android.com/security/bulletin)-ben vannak részletezve.
 
@@ -48,11 +66,7 @@ Az SoC gyártó által már nem támogatott, lejárt élettartalmú eszközök n
 
 A Fairphone például úgy forgalmazza készülékeit, hogy azok 6 évig kapnak támogatást. Az SoC (Qualcomm Snapdragon 750G a Fairphone 4-ben) azonban jóval rövidebb lejárati dátummal rendelkezik. Ez azt jelenti, hogy a Qualcomm által a Fairphone 4 számára biztosított firmware biztonsági frissítések 2023 szeptemberében véget érnek, függetlenül attól, hogy a Fairphone továbbra is kiad-e szoftveres biztonsági frissítéseket.
 
-## Android Verziók
-
-Fontos, hogy ne használj egy [lejárt élettartamú](https://endoflife.date/android) Android verziót. Az Android újabb verziói nemcsak biztonsági frissítéseket kapnak az operációs rendszerhez, hanem fontos adatvédelmi fejlesztéseket is. Például az Android 10 előtt[](https://developer.android.com/about/versions/10/privacy/changes), a [`READ_PHONE_STATE`](https://developer.android.com/reference/android/Manifest.permission#READ_PHONE_STATE) engedéllyel rendelkező alkalmazások hozzáférhettek a telefon érzékeny és egyedi sorozatszámaihoz, mint például az [IMEI](https://en.wikipedia.org/wiki/International_Mobile_Equipment_Identity), [MEID](https://en.wikipedia.org/wiki/Mobile_equipment_identifier), a SIM-kártyád [IMSI-je](https://en.wikipedia.org/wiki/International_mobile_subscriber_identity), míg most már csak rendszer alkalmazások tehetik ezt meg. A rendszeralkalmazásokat csak az OEM vagy az Android disztribúció biztosítja.
-
-## Android Engedélyek
+### Android Engedélyek
 
 [Engedélyek az Androidon](https://developer.android.com/guide/topics/permissions/overview) lehetővé teszik, hogy te szabályozd, az alkalmazások mihez férhetnek hozzá. A Google minden egyes verzióban rendszeresen ad ki javít [javításokat](https://developer.android.com/about/versions/11/privacy/permissions) az engedély rendszerhez. Minden telepített alkalmazás szigorúan [sandboxolva](https://source.android.com/security/app-sandbox) van, ezért nincs szükség vírusirtó alkalmazások telepítésére.
 
@@ -93,17 +107,15 @@ Az [Exodus](https://exodus-privacy.eu.org/) hasznos lehet hasonló célú alkalm
 
     Az olyan magánélet-barát alkalmazások, mint a [Bitwarden](https://reports.exodus-privacy.eu.org/en/reports/com.x8bit.bitwarden/latest/), megjeleníthetnek néhány nyomkövetőt, mint például a [Google Firebase Analytics](https://reports.exodus-privacy.eu.org/en/trackers/49/). Ez a könyvtár tartalmazza a [Firebase Cloud Messaging](https://en.wikipedia.org/wiki/Firebase_Cloud_Messaging)-et, amely [push értesítéseket](https://en.wikipedia.org/wiki/Push_technology) tud nyújtani az alkalmazásoknak. Ez [a helyzet](https://fosstodon.org/@bitwarden/109636825700482007) a Bitwardennel is. Ez nem jelenti azt, hogy a Bitwarden a Google Firebase Analytics által biztosított összes elemzési funkciót használja.
 
-## Média Hozzáférés
+## Privacy Features
 
-Elég sok alkalmazás lehetővé teszi, hogy "megossz" egy fájlt velük média feltöltéshez. Ha például egy képet szeretnél tweetelni a Twitterre, akkor ne adj hozzáférést a Twitternek a "média és fotók"-hoz, mert akkor az összes képedhez hozzáférhet. Ehelyett menjen a fájlkezelőbe (documentsUI), tartsd nyomva képet, majd osszd meg a Twitterrel.
-
-## Felhasználói Profilok
+### Felhasználói Profilok
 
 Multiple user profiles can be found in **Settings** → **System** → **Multiple users** and are the simplest way to isolate in Android.
 
 A felhasználói profilok segítségével korlátozásokat szabhatsz meg egy adott profilra vonatkozóan, például: hívások kezdeményezése, SMS használata vagy alkalmazások telepítése a készülékre. Minden profil a saját titkosítási kulcsával van titkosítva, és nem tud hozzáférni más profilok adataihoz. Még a készülék tulajdonosa sem tekintheti meg más profilok adatait a jelszó ismerete nélkül. A több felhasználói profil az izoláció biztonságosabb módja.
 
-## Munkaprofil
+### Munkaprofil
 
 [Work Profiles](https://support.google.com/work/android/answer/6191949) are another way to isolate individual apps and may be more convenient than separate user profiles.
 
@@ -113,15 +125,15 @@ The work profile is dependent on a device controller to function. Features such 
 
 This method is generally less secure than a secondary user profile; however, it does allow you the convenience of running apps in both the work and personal profiles simultaneously.
 
-## VPN Killswitch
+### VPN Killswitch
 
 Android 7 and above supports a VPN killswitch and it is available without the need to install third-party apps. This feature can prevent leaks if the VPN is disconnected. It can be found in :gear: **Settings** → **Network & internet** → **VPN** → :gear: → **Block connections without VPN**.
 
-## Global Toggles
+### Global Toggles
 
 Modern Android devices have global toggles for disabling Bluetooth and location services. Android 12 introduced toggles for the camera and microphone. When not in use, we recommend disabling these features. Apps cannot use disabled features (even if granted individual permission) until re-enabled.
 
-## Google
+## Google Services
 
 If you are using a device with Google services, either your stock operating system or an operating system that safely sandboxes Google Play Services like GrapheneOS, there are a number of additional changes you can make to improve your privacy. We still recommend avoiding Google services entirely, or limiting Google Play services to a specific user/work profile by combining a device controller like *Shelter* with GrapheneOS's Sandboxed Google Play.
 

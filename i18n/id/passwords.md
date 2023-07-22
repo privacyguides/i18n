@@ -175,13 +175,13 @@ Kode sisi server Bitwarden adalah [open-source](https://github.com/bitwarden/ser
 
     ![Logo 1Password](assets/img/password-management/1password.svg){ align=right }
     
-    **1Password** adalah pengelola kata sandi dengan fokus yang kuat pada keamanan dan kemudahan penggunaan, yang memungkinkan Anda menyimpan kata sandi, kartu kredit, lisensi perangkat lunak, dan informasi sensitif lainnya dalam brankas digital yang aman. Brankas Anda di-host di server 1Password dengan biaya [biaya bulanan] (https://1password.com/sign-up/). 1Password sudah [teraudit](https://support.1password.com/security-assessments/) secara teratur dan menyediakan dukungan pelanggan yang bagus. 1Password is closed source; however, the security of the product is thoroughly documented in their [security white paper](https://1passwordstatic.com/files/security/1password-white-paper.pdf).
+    **1Password** adalah pengelola kata sandi dengan fokus yang kuat pada keamanan dan kemudahan penggunaan, yang memungkinkan Anda menyimpan kata sandi, kartu kredit, lisensi perangkat lunak, dan informasi sensitif lainnya dalam brankas digital yang aman. Brankas Anda di-host di server 1Password dengan biaya [biaya bulanan] (https://1password.com/sign-up/). 1Password sudah [teraudit](https://support.1password.com/security-assessments/) secara teratur dan menyediakan dukungan pelanggan yang bagus. 1Password memiliki sumber yang tertutup; namun, keamanan produk didokumentasikan secara menyeluruh dalam [laporan resmi keamanan] (https://1passwordstatic.com/files/security/1password-white-paper.pdf) mereka.
     
     [:octicons-home-16: Homepage](https://1password.com/){ .md-button .md-button--primary }
-    [:octicons-eye-16:](https://1password.com/legal/privacy/){ .card-link title="Privacy Policy" }
-    [:octicons-info-16:](https://support.1password.com/){ .card-link title=Documentation}
+    [:octicons-eye-16:](https://1password.com/legal/privacy/){ .card-link title="Kebijakan Privasi" }
+    [:octicons-info-16:](https://support.1password.com/){ .card-link title=Dokumentasi}
     
-    ??? downloads
+    ??? unduhan
     
         - [:simple-googleplay: Google Play](https://play.google.com/store/apps/details?id=com.onepassword.android)
         - [:simple-appstore: App Store](https://apps.apple.com/app/id1511601750?mt=8)
@@ -189,24 +189,24 @@ Kode sisi server Bitwarden adalah [open-source](https://github.com/bitwarden/ser
         - [:simple-apple: macOS](https://1password.com/downloads/mac/)
         - [:simple-linux: Linux](https://1password.com/downloads/linux/)
 
-Traditionally, **1Password** has offered the best password manager user experience for people using macOS and iOS; however, it has now achieved feature-parity across all platforms. It boasts many features geared towards families and less technical people, as well as advanced functionality.
+Secara tradisional, **1Password** telah menawarkan pengalaman pengguna pengelola kata sandi terbaik untuk orang-orang yang menggunakan macOS dan iOS; namun, kini telah mencapai kesamaan fitur di semua platform. Aplikasi ini memiliki banyak fitur yang ditujukan untuk keluarga dan orang yang kurang teknis, serta fungsionalitas yang canggih.
 
-Your 1Password vault is secured with both your master password and a randomized 34-character security key to encrypt your data on their servers. This security key adds a layer of protection to your data because your data is secured with high entropy regardless of your master password. Many other password manager solutions are entirely reliant on the strength of your master password to secure your data.
+Brankas 1Password Anda diamankan dengan kata sandi utama dan kunci keamanan 34 karakter yang diacak untuk mengenkripsi data Anda di server mereka. Kunci keamanan ini menambahkan lapisan perlindungan pada data Anda karena data Anda diamankan dengan entropi yang tinggi terlepas dari kata sandi utama Anda. Banyak solusi pengelola kata sandi lainnya yang sepenuhnya bergantung pada kekuatan kata sandi utama Anda untuk mengamankan data Anda.
 
-One advantage 1Password has over Bitwarden is its first-class support for native clients. While Bitwarden relegates many duties, especially account management features, to their web vault interface, 1Password makes nearly every feature available within its native mobile or desktop clients. 1Password's clients also have a more intuitive UI, which makes them easier to use and navigate.
+Satu keunggulan yang dimiliki 1Password dibandingkan Bitwarden adalah dukungan kelas satu untuk klien asli. Sementara Bitwarden mendelegasikan banyak tugas, terutama fitur manajemen akun, pada antarmuka brankas web mereka, 1Password membuat hampir semua fitur tersedia dalam klien seluler atau desktop aslinya. Klien-klien 1Password juga memiliki UI yang lebih intuitif, yang membuatnya lebih mudah digunakan dan dinavigasi.
 
 ### Psono
 
 !!! recommendation
 
-    ![Psono logo](assets/img/password-management/psono.svg){ align=right }
+    ![Logo Psono](assets/img/password-management/psono.svg){ align=right }
     
-    **Psono** is a free and open-source password manager from Germany, with a focus on password management for teams. Psono supports secure sharing of passwords, files, bookmarks, and emails. All secrets are protected by a master password.
+    **Psono** adalah pengelola kata sandi gratis dan bersumber terbuka dari Jerman, dengan fokus pada pengelolaan kata sandi untuk tim. Psono mendukung berbagi kata sandi, file, penanda, dan email dengan aman. Semua rahasia dilindungi oleh kata sandi utama.
     
     [:octicons-home-16: Homepage](https://psono.com){ .md-button .md-button--primary }
-    [:octicons-eye-16:](https://psono.com/privacy-policy){ .card-link title="Privacy Policy" }
-    [:octicons-info-16:](https://doc.psono.com){ .card-link title=Documentation}
-    [:octicons-code-16:](https://gitlab.com/psono){ .card-link title="Source Code" }
+    [:octicons-eye-16:](https://psono.com/privacy-policy){ .card-link title="Kebijakan Privasi" }
+    [:octicons-info-16:](https://doc.psono.com){ .card-link title=Dokumentasi}
+    [:octicons-code-16:](https://gitlab.com/psono){ .card-link title="Kode Sumber" }
     
     ??? unduhan
     
@@ -236,30 +236,30 @@ Psono menyediakan dokumentasi ekstensif untuk produk mereka. Klien web untuk Pso
 
 #### Kasus Terbaik
 
-Kriteria kasus terbaik kami mewakili apa yang ingin kami lihat dari proyek yang sempurna dalam kategori ini. Our recommendations may not include any or all of this functionality, but those which do may rank higher than others on this page.
+Kriteria kasus terbaik kami mewakili apa yang ingin kami lihat dari proyek yang sempurna dalam kategori ini. Rekomendasi kami mungkin tidak menyertakan salah satu atau semua fungsi ini, tetapi rekomendasi yang menyertakan fungsi ini mungkin memiliki peringkat yang lebih tinggi daripada yang lain di halaman ini.
 
-- Telemetry should be opt-in (disabled by default) or not collected at all.
-- Should be open-source and reasonably self-hostable.
+- Telemetri harus bersifat opsional (dinonaktifkan secara default) atau tidak dikumpulkan sama sekali.
+- Harus bersumber terbuka dan dapat dihosting sendiri.
 
-## Local Storage
+## Penyimpanan Lokal
 
-These options allow you to manage an encrypted password database locally.
+Opsi ini memungkinkan Anda untuk mengelola basis data kata sandi terenkripsi secara lokal.
 
 ### KeePassXC
 
 !!! recommendation
 
-    ![KeePassXC logo](assets/img/password-management/keepassxc.svg){ align=right }
+    ![Logo KeePassXC](assets/img/pengelolaan kata sandi/keepassxc.svg){ align=right }
     
-    **KeePassXC** is a community fork of KeePassX, a native cross-platform port of KeePass Password Safe, with the goal to extend and improve it with new features and bugfixes to provide a feature-rich, cross-platform and modern open-source password manager.
+    **KeePassXC** adalah sebuah fork komunitas dari KeePassX, sebuah port lintas platform asli dari KeePass Password Safe, dengan tujuan untuk memperluas dan memperbaikinya dengan fitur-fitur baru dan perbaikan bug untuk menyediakan sebuah pengelola kata sandi yang kaya akan fitur, lintas platform, dan modern bersumber terbuka.
     
     [:octicons-home-16: Homepage](https://keepassxc.org){ .md-button .md-button--primary }
-    [:octicons-eye-16:](https://keepassxc.org/privacy){ .card-link title="Privacy Policy" }
-    [:octicons-info-16:](https://keepassxc.org/docs/){ .card-link title=Documentation}
-    [:octicons-code-16:](https://github.com/keepassxreboot/keepassxc){ .card-link title="Source Code" }
-    [:octicons-heart-16:](https://keepassxc.org/donate/){ .card-link title=Contribute }
+    [:octicons-eye-16:](https://keepassxc.org/privacy){ .card-link title="Kebijakan Privasi" }
+    [:octicons-info-16:](https://keepassxc.org/docs/){ .card-link title=Dokumentasi}
+    [:octicons-code-16:](https://github.com/keepassxreboot/keepassxc){ .card-link title="Kode Sumber" }
+    [:octicons-heart-16:](https://keepassxc.org/donate/){ .card-link title=Kontribusi }
     
-    ??? downloads
+    ??? unduhan
     
         - [:simple-windows11: Windows](https://keepassxc.org/download/#windows)
         - [:simple-apple: macOS](https://keepassxc.org/download/#mac)
@@ -268,22 +268,22 @@ These options allow you to manage an encrypted password database locally.
         - [:simple-firefoxbrowser: Firefox](https://addons.mozilla.org/firefox/addon/keepassxc-browser)
         - [:simple-googlechrome: Chrome](https://chrome.google.com/webstore/detail/keepassxc-browser/oboonakemofpalcgghocfoadofidjkkk)
 
-KeePassXC stores its export data as [CSV](https://en.wikipedia.org/wiki/Comma-separated_values) files. This may mean data loss if you import this file into another password manager. We advise you check each record manually.
+KeePassXC menyimpan data ekspornya sebagai file [CSV](https://en.wikipedia.org/wiki/Comma-separated_values). Hal ini dapat menyebabkan hilangnya data jika Anda mengimpor file ini ke pengelola kata sandi lain. Kami menyarankan Anda memeriksa setiap catatan secara manual.
 
 ### KeePassDX (Android)
 
 !!! recommendation
 
-    ![KeePassDX logo](assets/img/password-management/keepassdx.svg){ align=right }
+    ![Logo KeePassDX](assets/img/pengelolaan kata sandi/keepassdx.svg){ align=right }
     
-    **KeePassDX** is a lightweight password manager for Android, allows editing encrypted data in a single file in KeePass format and can fill in the forms in a secure way. [Contributor Pro](https://play.google.com/store/apps/details?id=com.kunzisoft.keepass.pro) allows unlocking cosmetic content and non-standard protocol features, but more importantly, it helps and encourages development.
+    **KeePassDX** adalah pengelola kata sandi yang ringan untuk Android, memungkinkan pengeditan data terenkripsi dalam satu file dalam format KeePass dan dapat mengisi formulir dengan cara yang aman. [Contributor Pro] (https://play.google.com/store/apps/details?id=com.kunzisoft.keepass.pro) memungkinkan untuk membuka konten kosmetik dan fitur protokol non-standar, tetapi yang lebih penting lagi, ini membantu dan mendorong pengembangan.
     
     [:octicons-home-16: Homepage](https://www.keepassdx.com){ .md-button .md-button--primary }
-    [:octicons-info-16:](https://github.com/Kunzisoft/KeePassDX/wiki){ .card-link title=Documentation}
-    [:octicons-code-16:](https://github.com/Kunzisoft/KeePassDX){ .card-link title="Source Code" }
-    [:octicons-heart-16:](https://www.keepassdx.com/#donation){ .card-link title=Contribute }
+    [:octicons-info-16:](https://github.com/Kunzisoft/KeePassDX/wiki){ .card-link title=Dokumentasi}
+    [:octicons-code-16:](https://github.com/Kunzisoft/KeePassDX){ .card-link title="Kode Sumber" }
+    [:octicons-heart-16:](https://www.keepassdx.com/#donation){ .card-link title=Kontribusi }
     
-    ??? downloads
+    ??? unduhan
     
         - [:simple-googleplay: Google Play](https://play.google.com/store/apps/details?id=com.kunzisoft.keepass.free)
         - [:simple-github: GitHub](https://github.com/Kunzisoft/KeePassDX/releases)
@@ -292,17 +292,17 @@ KeePassXC stores its export data as [CSV](https://en.wikipedia.org/wiki/Comma-se
 
 !!! recommendation
 
-    ![Strongbox logo](assets/img/password-management/strongbox.svg){ align=right }
+    ![Logo Strongbox](assets/img/password-management/strongbox.svg){ align=right }
     
-    **Strongbox** is a native, open-source password manager for iOS and macOS. Supporting both KeePass and Password Safe formats, Strongbox can be used in tandem with other password managers, like KeePassXC, on non-Apple platforms. By employing a [freemium model](https://strongboxsafe.com/pricing/), Strongbox offers most features under its free tier with more convenience-oriented [features](https://strongboxsafe.com/comparison/)—such as biometric authentication—locked behind a subscription or perpetual license.
+    **Strongbox** adalah pengelola kata sandi sumber terbuka untuk iOS dan macOS. Mendukung format KeePass dan Password Safe, Strongbox bisa digunakan bersamaan dengan pengelola kata sandi lainnya, seperti KeePassXC, pada platform non-Apple. Dengan menggunakan [model freemium] (https://strongboxsafe.com/pricing/), Strongbox menawarkan sebagian besar fitur di bawah tingkat gratisnya dengan lebih berorientasi pada kenyamanan [features](https://strongboxsafe.com/comparison/) - seperti otentikasi biometrik - yang terkunci di balik langganan atau lisensi abadi.
     
     [:octicons-home-16: Homepage](https://strongboxsafe.com){ .md-button .md-button--primary }
-    [:octicons-eye-16:](https://strongboxsafe.com/privacy/){ .card-link title="Privacy Policy" }
-    [:octicons-info-16:](https://strongboxsafe.com/getting-started/){ .card-link title=Documentation}
-    [:octicons-code-16:](https://github.com/strongbox-password-safe/Strongbox){ .card-link title="Source Code" }
-    [:octicons-heart-16:](https://github.com/strongbox-password-safe/Strongbox#supporting-development){ .card-link title=Contribute }
+    [:octicons-eye-16:](https://strongboxsafe.com/privacy/){ .card-link title="Kebijakan Privasi" }
+    [:octicons-info-16:](https://strongboxsafe.com/getting-started/){ .card-link title=Dokumentasi}
+    [:octicons-code-16:](https://github.com/strongbox-password-safe/Strongbox){ .card-link title="Kode Sumber" }
+    [:octicons-heart-16:](https://github.com/strongbox-password-safe/Strongbox#supporting-development){ .card-link title=Kontribusi }
     
-    ??? downloads
+    ??? unduhan
     
         - [:simple-appstore: App Store](https://apps.apple.com/app/strongbox-keepass-pwsafe/id897283731)
 

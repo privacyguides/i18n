@@ -450,6 +450,7 @@ Kami [merekomendasikan](dns.md#recommended-providers) sejumlah server DNS terenk
 - ![nixOS logo](assets/img/linux-desktop/nixos.svg){ .twemoji } [NixOS](desktop.md#nixos)
 - ![Whonix logo](assets/img/linux-desktop/whonix.svg){ .twemoji } [Whonix (Tor)](desktop.md#whonix)
 - ![Tails logo](assets/img/linux-desktop/tails.svg){ .twemoji } [Tails (Live Boot)](desktop.md#tails)
+- ![Kicksecure logo](assets/img/linux-desktop/kicksecure.svg){ .twemoji } [Kicksecure](desktop.md#kicksecure)
 
 </div>
 

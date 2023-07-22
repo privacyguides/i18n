@@ -352,7 +352,7 @@ When encrypting with PGP, you have the option to configure different options in 
 
 ### Kasus Terbaik
 
-Kriteria kasus terbaik kami mewakili apa yang ingin kami lihat dari proyek yang sempurna dalam kategori ini. Our recommendations may not include any or all of this functionality, but those which do may rank higher than others on this page.
+Kriteria kasus terbaik kami mewakili apa yang ingin kami lihat dari proyek yang sempurna dalam kategori ini. Rekomendasi kami mungkin tidak menyertakan salah satu atau semua fungsi ini, tetapi rekomendasi yang menyertakan fungsi ini mungkin memiliki peringkat yang lebih tinggi daripada yang lain di halaman ini.
 
 - Operating System (FDE) encryption apps should utilize hardware security such as a TPM or Secure Enclave.
 - File encryption apps should have first- or third-party support for mobile platforms.

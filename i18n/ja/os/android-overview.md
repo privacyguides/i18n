@@ -4,9 +4,13 @@ icon: simple/android
 description: アンドロイドはオープンソースのオペレーティングシステムで、強力なセキュリティ保護が施されている。
 ---
 
-Androidは強力な[アプリのサンドボックス](https://source.android.com/security/app-sandbox)、[確認付きブート](https://source.android.com/security/verifiedboot) (AVB)、および堅牢な[パーミッション](https://developer.android.com/guide/topics/permissions/overview)制御システムを備えた安全なオペレーティングシステムです。
+![Android logo](../assets/img/android/android.svg){ align=right }
 
-## Androidディストリビューションの選択
+The **Android Open Source Project** is a secure mobile operating system featuring strong [app sandboxing](https://source.android.com/security/app-sandbox), [Verified Boot](https://source.android.com/security/verifiedboot) (AVB), and a robust [permission](https://developer.android.com/guide/topics/permissions/overview) control system.
+
+## Our Advice
+
+### Androidディストリビューションの選択
 
 Androidの携帯を購入すると、その端末に標準で搭載されているOSには、 [アンドロイド・オープンソース・プロジェクト](https://source.android.com/)に含まれていないアプリやサービスが侵襲的に統合されていることが多いです。 例えば、Google Playサービスは、あなたのファイル、連絡先ストレージ、通話ログ、SMSメッセージ、位置情報、カメラ、マイク、ハードウェア識別子などにアクセスする取り消し不能な権限を持っています。 これらのアプリやサービスは、あなたのデバイスの攻撃対象を増やし、Androidのプライバシーに関する様々な懸念の原因となっています。
 
@@ -16,7 +20,7 @@ Android のカスタムされたディストリビューションを選択する
 
 [私たちがお勧めしているAndroidシステム :material-arrow-right-drop-circle:](../android.md ""){.md-button}
 
-## Avoid Rooting
+### Avoid Rooting
 
 [](https://en.wikipedia.org/wiki/Rooting_(Android)) Android携帯のルート化は、完全な[Androidセキュリティモデル](https://en.wikipedia.org/wiki/Android_(operating_system)#Security_and_privacy)を弱めるため、セキュリティを著しく低下させる可能性があります。 これにより、セキュリティが低下し悪用された場合、プライバシーを低下させる可能性があります。 一般的なルーティング方法では、ブートパーティションを直接変更してしまうため、Verified Bootを成功させることは不可能になります。 ルートを必要とするアプリはシステムパーティションを変更するため、確認付きブートは無効のままでなければなりません。 また、ユーザーインターフェースで直接ルートを露出させると、[デバイスの攻撃面](https://en.wikipedia.org/wiki/Attack_surface)が増加し 、 [権限昇格](https://en.wikipedia.org/wiki/Privilege_escalation)の脆弱性やSELinuxポリシーのバイパス を助長する可能性があります。
 
@@ -26,7 +30,21 @@ AFWall+ works based on the [packet filtering](https://en.wikipedia.org/wiki/Fire
 
 We do not believe that the security sacrifices made by rooting a phone are worth the questionable privacy benefits of those apps.
 
-## 確認付きブート
+### Install Updates
+
+It's important to not use an [end-of-life](https://endoflife.date/android) version of Android. Newer versions of Android not only receive security updates for the operating system but also important privacy enhancing updates too.
+
+For example, [prior to Android 10](https://developer.android.com/about/versions/10/privacy/changes) any apps with the [`READ_PHONE_STATE`](https://developer.android.com/reference/android/Manifest.permission#READ_PHONE_STATE) permission could access sensitive and unique serial numbers of your phone such as [IMEI](https://en.wikipedia.org/wiki/International_Mobile_Equipment_Identity), [MEID](https://en.wikipedia.org/wiki/Mobile_equipment_identifier), or your SIM card's [IMSI](https://en.wikipedia.org/wiki/International_mobile_subscriber_identity); whereas now they must be system apps to do so. System apps are only provided by the OEM or Android distribution.
+
+### Sharing Media
+
+You can avoid giving many apps permission to access your media with Android's built-in sharing features. Many applications allow you to "share" a file with them for media upload.
+
+For example, if you want to post a picture to Discord you can open your file manager or gallery and share that picture with the Discord app, instead of granting Discord full access to your media and photos.
+
+## Security Protections
+
+### 確認付きブート
 
 [確認付きブート](https://source.android.com/security/verifiedboot) は、アンドロイドのセキュリティ・モデルの重要な部分である。 It provides protection against [evil maid](https://en.wikipedia.org/wiki/Evil_maid_attack) attacks, malware persistence, and ensures security updates cannot be downgraded with [rollback protection](https://source.android.com/security/verifiedboot/verified-boot#rollback-protection).
 
@@ -38,7 +56,7 @@ Unfortunately, OEMs are only obliged to support Verified Boot on their stock And
 
 Many OEMs also have broken implementation of Verified Boot that you have to be aware of beyond their marketing. For example, the Fairphone 3 and 4 are not secure by default, as the [stock bootloader trusts the public AVB signing key](https://forum.fairphone.com/t/bootloader-avb-keys-used-in-roms-for-fairphone-3-4/83448/11). This breaks verified boot on a stock Fairphone device, as the system will boot alternative Android operating systems such (such as /e/) [without any warning](https://source.android.com/security/verifiedboot/boot-flow#locked-devices-with-custom-root-of-trust) about custom operating system usage.
 
-## Firmware Updates
+### Firmware Updates
 
 Firmware updates are critical for maintaining security and without them your device cannot be secure. OEMs have support agreements with their partners to provide the closed-source components for a limited support period. These are detailed in the monthly [Android Security Bulletins](https://source.android.com/security/bulletin).
 
@@ -48,11 +66,7 @@ EOL devices which are no longer supported by the SoC manufacturer cannot receive
 
 Fairphone, for example, markets their devices as receiving 6 years of support. However, the SoC (Qualcomm Snapdragon 750G on the Fairphone 4) has a considerably shorter EOL date. This means that firmware security updates from Qualcomm for the Fairphone 4 will end in September 2023, regardless of whether Fairphone continues to release software security updates.
 
-## Android Versions
-
-It's important to not use an [end-of-life](https://endoflife.date/android) version of Android. Newer versions of Android not only receive security updates for the operating system but also important privacy enhancing updates too. For example, [prior to Android 10](https://developer.android.com/about/versions/10/privacy/changes), any apps with the [`READ_PHONE_STATE`](https://developer.android.com/reference/android/Manifest.permission#READ_PHONE_STATE) permission could access sensitive and unique serial numbers of your phone such as [IMEI](https://en.wikipedia.org/wiki/International_Mobile_Equipment_Identity), [MEID](https://en.wikipedia.org/wiki/Mobile_equipment_identifier), your SIM card's [IMSI](https://en.wikipedia.org/wiki/International_mobile_subscriber_identity), whereas now they must be system apps to do so. System apps are only provided by the OEM or Android distribution.
-
-## Android Permissions
+### Android Permissions
 
 [Permissions on Android](https://developer.android.com/guide/topics/permissions/overview) grant you control over what apps are allowed to access. Google regularly makes [improvements](https://developer.android.com/about/versions/11/privacy/permissions) on the permission system in each successive version. All apps you install are strictly [sandboxed](https://source.android.com/security/app-sandbox), therefore, there is no need to install any antivirus apps.
 
@@ -93,17 +107,15 @@ An app may request a permission for a specific feature it has. For example, any 
 
     Privacy-friendly apps such as [Bitwarden](https://reports.exodus-privacy.eu.org/en/reports/com.x8bit.bitwarden/latest/) may show some trackers such as [Google Firebase Analytics](https://reports.exodus-privacy.eu.org/en/trackers/49/). This library includes [Firebase Cloud Messaging](https://en.wikipedia.org/wiki/Firebase_Cloud_Messaging) which can provide [push notifications](https://en.wikipedia.org/wiki/Push_technology) in apps. This [is the case](https://fosstodon.org/@bitwarden/109636825700482007) with Bitwarden. That doesn't mean that Bitwarden is using all of the analytics features that are provided by Google Firebase Analytics.
 
-## Media Access
+## Privacy Features
 
-Quite a few applications allows you to "share" a file with them for media upload. If you want to, for example, tweet a picture to Twitter, do not grant Twitter access to your "media and photos", because it will have access to all of your pictures then. Instead, go to your file manager (documentsUI), hold onto the picture, then share it with Twitter.
-
-## User Profiles
+### User Profiles
 
 Multiple user profiles can be found in **Settings** → **System** → **Multiple users** and are the simplest way to isolate in Android.
 
 With user profiles, you can impose restrictions on a specific profile, such as: making calls, using SMS, or installing apps on the device. Each profile is encrypted using its own encryption key and cannot access the data of any other profiles. Even the device owner cannot view the data of other profiles without knowing their password. Multiple user profiles are a more secure method of isolation.
 
-## Work Profile
+### Work Profile
 
 [Work Profiles](https://support.google.com/work/android/answer/6191949) are another way to isolate individual apps and may be more convenient than separate user profiles.
 
@@ -113,15 +125,15 @@ The work profile is dependent on a device controller to function. Features such 
 
 This method is generally less secure than a secondary user profile; however, it does allow you the convenience of running apps in both the work and personal profiles simultaneously.
 
-## VPN Killswitch
+### VPN Killswitch
 
 Android 7 and above supports a VPN killswitch and it is available without the need to install third-party apps. This feature can prevent leaks if the VPN is disconnected. It can be found in :gear: **Settings** → **Network & internet** → **VPN** → :gear: → **Block connections without VPN**.
 
-## Global Toggles
+### Global Toggles
 
 Modern Android devices have global toggles for disabling Bluetooth and location services. Android 12 introduced toggles for the camera and microphone. When not in use, we recommend disabling these features. Apps cannot use disabled features (even if granted individual permission) until re-enabled.
 
-## Google
+## Google Services
 
 If you are using a device with Google services, either your stock operating system or an operating system that safely sandboxes Google Play Services like GrapheneOS, there are a number of additional changes you can make to improve your privacy. We still recommend avoiding Google services entirely, or limiting Google Play services to a specific user/work profile by combining a device controller like *Shelter* with GrapheneOS's Sandboxed Google Play.
 

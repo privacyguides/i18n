@@ -4,9 +4,13 @@ icon: fontawesome/brands/android
 description: Android is an open-source operating system with strong security protections, which makes it our top choice for phones.
 ---
 
-Android to bezpieczny system operacyjny, który posiada silną [izolację aplikacji](https://source.android.com/security/app-sandbox), [Weryfikację rozruchu](https://source.android.com/security/verifiedboot) (AVB), oraz solidny system kontroli [uprawnień](https://developer.android.com/guide/topics/permissions/overview).
+![Android logo](../assets/img/android/android.svg){ align=right }
 
-## Wybór dystrybucji Androida
+The **Android Open Source Project** is a secure mobile operating system featuring strong [app sandboxing](https://source.android.com/security/app-sandbox), [Verified Boot](https://source.android.com/security/verifiedboot) (AVB), and a robust [permission](https://developer.android.com/guide/topics/permissions/overview) control system.
+
+## Our Advice
+
+### Wybór dystrybucji Androida
 
 System Android na zakupionym telefonie często zawiera zintegrowane inwazyjne aplikacje oraz usługi, które nie są częścią [Android Open Source Project](https://source.android.com/). Jedną z nich są Usługi Google Play, która ma niezbywalne uprawnienia dostępu do Twoich plików, magazynu kontaktów, rejestru połączeń, wiadomości SMS, lokalizacji, aparatu, mikrofonu, identyfikatorów sprzętowych oraz wiele więcej. Te aplikacje i usługi zwiększają możliwości ataku na Twoje urządzenie oraz są źródłem wielu obaw związanych z prywatnością systemu Android.
 
@@ -16,7 +20,7 @@ Wybierając niestandardową dystrybucję Androida, należy upewnić się, że je
 
 [Polecane przez nas dystrybucje Androida :hero-arrow-circle-right-fill:](../android.md ""){.md-button}
 
-## Unikaj rootowania
+### Unikaj rootowania
 
 [Rooting](https://en.wikipedia.org/wiki/Rooting_(Android)) Android phones can decrease security significantly as it weakens the complete [Android security model](https://en.wikipedia.org/wiki/Android_(operating_system)#Security_and_privacy). This can decrease privacy should there be an exploit that is assisted by the decreased security. Common rooting methods involve directly tampering with the boot partition, making it impossible to perform successful Verified Boot. Apps that require root will also modify the system partition meaning that Verified Boot would have to remain disabled. Having root exposed directly in the user interface also increases the [attack surface](https://en.wikipedia.org/wiki/Attack_surface) of your device and may assist in [privilege escalation](https://en.wikipedia.org/wiki/Privilege_escalation) vulnerabilities and SELinux policy bypasses.
 
@@ -26,7 +30,21 @@ AFWall+ działa w oparciu o [filtrowanie pakietów](https://en.wikipedia.org/wik
 
 Naszym zdaniem, wady zdecydowanie przewyższają zalety rootowania telefonu w celu korzystania z tych aplikacji.
 
-## Verified Boot
+### Install Updates
+
+It's important to not use an [end-of-life](https://endoflife.date/android) version of Android. Newer versions of Android not only receive security updates for the operating system but also important privacy enhancing updates too.
+
+For example, [prior to Android 10](https://developer.android.com/about/versions/10/privacy/changes) any apps with the [`READ_PHONE_STATE`](https://developer.android.com/reference/android/Manifest.permission#READ_PHONE_STATE) permission could access sensitive and unique serial numbers of your phone such as [IMEI](https://en.wikipedia.org/wiki/International_Mobile_Equipment_Identity), [MEID](https://en.wikipedia.org/wiki/Mobile_equipment_identifier), or your SIM card's [IMSI](https://en.wikipedia.org/wiki/International_mobile_subscriber_identity); whereas now they must be system apps to do so. System apps are only provided by the OEM or Android distribution.
+
+### Sharing Media
+
+You can avoid giving many apps permission to access your media with Android's built-in sharing features. Many applications allow you to "share" a file with them for media upload.
+
+For example, if you want to post a picture to Discord you can open your file manager or gallery and share that picture with the Discord app, instead of granting Discord full access to your media and photos.
+
+## Security Protections
+
+### Verified Boot
 
 [Verified Boot](https://source.android.com/security/verifiedboot) is an important part of the Android security model. It provides protection against [evil maid](https://en.wikipedia.org/wiki/Evil_maid_attack) attacks, malware persistence, and ensures security updates cannot be downgraded with [rollback protection](https://source.android.com/security/verifiedboot/verified-boot#rollback-protection).
 
@@ -38,7 +56,7 @@ Unfortunately, OEMs are only obliged to support Verified Boot on their stock And
 
 Aktualizacje oprogramowania mają kluczowe znaczenie dla zachowania bezpieczeństwa. Producenci urządzeń zawierają umowy ze swoimi partnerami na dostarczanie komponentów o zamkniętym kodzie źródłowym przez ograniczony czas. This breaks verified boot on a stock Fairphone device, as the system will boot alternative Android operating systems such (such as /e/) [without any warning](https://source.android.com/security/verifiedboot/boot-flow#locked-devices-with-custom-root-of-trust) about custom operating system usage.
 
-## Aktualizacje oprogramowania
+### Aktualizacje oprogramowania
 
 Firmware updates are critical for maintaining security and without them your device cannot be secure. Dlatego ważne jest, aby zakupić urządzenie, które jest nadal wspierane. [Qualcomm](https://www.qualcomm.com/news/releases/2020/12/16/qualcomm-and-google-announce-collaboration-extend-android-os-support-and) oraz [Samsung](https://news.samsung.com/us/samsung-galaxy-security-extending-updates-knox/) oferując wsparcie dla swoich urządzeń przez 4 lata, podczas gdy tańsze produkty często mają krótszy okres wsparcia.
 
@@ -48,11 +66,7 @@ Ważne jest, aby nie korzystać z [niewspieranej](https://endoflife.date/android
 
 [Uprawnienia systemu Android](https://developer.android.com/guide/topics/permissions/overview) umożliwiają Ci kontrolę nad tym, do czego mają dostęp Twoje aplikacje. Firma Google regularnie wprowadza [poprawki](https://developer.android.com/about/versions/11/privacy/permissions) do systemu zabezpieczeń z każdą kolejną wersją. Wszystkie instalowane przez Ciebie aplikacje są ściśle [izolowane](https://source.android.com/security/app-sandbox), więc nie ma potrzeby instalowania żadnych aplikacji antywirusowych.
 
-## Wersje Androida
-
-It's important to not use an [end-of-life](https://endoflife.date/android) version of Android. Newer versions of Android not only receive security updates for the operating system but also important privacy enhancing updates too. For example, [prior to Android 10](https://developer.android.com/about/versions/10/privacy/changes), any apps with the [`READ_PHONE_STATE`](https://developer.android.com/reference/android/Manifest.permission#READ_PHONE_STATE) permission could access sensitive and unique serial numbers of your phone such as [IMEI](https://en.wikipedia.org/wiki/International_Mobile_Equipment_Identity), [MEID](https://en.wikipedia.org/wiki/Mobile_equipment_identifier), your SIM card's [IMSI](https://en.wikipedia.org/wiki/International_mobile_subscriber_identity), whereas now they must be system apps to do so. System apps are only provided by the OEM or Android distribution.
-
-## Uprawnienia systemu Android
+### Uprawnienia systemu Android
 
 [Permissions on Android](https://developer.android.com/guide/topics/permissions/overview) grant you control over what apps are allowed to access. Google regularly makes [improvements](https://developer.android.com/about/versions/11/privacy/permissions) on the permission system in each successive version. All apps you install are strictly [sandboxed](https://source.android.com/security/app-sandbox), therefore, there is no need to install any antivirus apps.
 
@@ -93,17 +107,15 @@ An app may request a permission for a specific feature it has. For example, any 
 
     Privacy-friendly apps such as [Bitwarden](https://reports.exodus-privacy.eu.org/en/reports/com.x8bit.bitwarden/latest/) may show some trackers such as [Google Firebase Analytics](https://reports.exodus-privacy.eu.org/en/trackers/49/). This library includes [Firebase Cloud Messaging](https://en.wikipedia.org/wiki/Firebase_Cloud_Messaging) which can provide [push notifications](https://en.wikipedia.org/wiki/Push_technology) in apps. This [is the case](https://fosstodon.org/@bitwarden/109636825700482007) with Bitwarden. That doesn't mean that Bitwarden is using all of the analytics features that are provided by Google Firebase Analytics.
 
-## Profile użytkowników
+## Privacy Features
 
-Quite a few applications allows you to "share" a file with them for media upload. If you want to, for example, tweet a picture to Twitter, do not grant Twitter access to your "media and photos", because it will have access to all of your pictures then. Instead, go to your file manager (documentsUI), hold onto the picture, then share it with Twitter.
-
-## User Profiles
+### User Profiles
 
 Multiple user profiles can be found in **Settings** → **System** → **Multiple users** and are the simplest way to isolate in Android.
 
 With user profiles, you can impose restrictions on a specific profile, such as: making calls, using SMS, or installing apps on the device. Each profile is encrypted using its own encryption key and cannot access the data of any other profiles. Even the device owner cannot view the data of other profiles without knowing their password. Multiple user profiles are a more secure method of isolation.
 
-## Work Profile
+### Work Profile
 
 [Work Profiles](https://support.google.com/work/android/answer/6191949) are another way to isolate individual apps and may be more convenient than separate user profiles.
 
@@ -113,15 +125,15 @@ The work profile is dependent on a device controller to function. Features such 
 
 This method is generally less secure than a secondary user profile; however, it does allow you the convenience of running apps in both the work and personal profiles simultaneously.
 
-## VPN Killswitch
+### VPN Killswitch
 
 Android 7 and above supports a VPN killswitch and it is available without the need to install third-party apps. This feature can prevent leaks if the VPN is disconnected. It can be found in :gear: **Settings** → **Network & internet** → **VPN** → :gear: → **Block connections without VPN**.
 
-## Global Toggles
+### Global Toggles
 
 Modern Android devices have global toggles for disabling Bluetooth and location services. Android 12 introduced toggles for the camera and microphone. When not in use, we recommend disabling these features. Apps cannot use disabled features (even if granted individual permission) until re-enabled.
 
-## Google
+## Google Services
 
 If you are using a device with Google services, either your stock operating system or an operating system that safely sandboxes Google Play Services like GrapheneOS, there are a number of additional changes you can make to improve your privacy. We still recommend avoiding Google services entirely, or limiting Google Play services to a specific user/work profile by combining a device controller like *Shelter* with GrapheneOS's Sandboxed Google Play.
 

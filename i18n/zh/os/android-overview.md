@@ -4,9 +4,13 @@ icon: simple/android
 description: Android is an open-source operating system with strong security protections, which makes it our top choice for phones.
 ---
 
-安卓是一个安全的操作系统，它有强大的[应用程序沙箱](https://source.android.com/security/app-sandbox)，[启动时验证](https://source.android.com/security/verifiedboot)（AVB），以及一个强大的[权限](https://developer.android.com/guide/topics/permissions/overview)控制系统。
+![安卓徽标](../assets/img/android/android.svg){ align=right }
 
-## 挑选安卓 ROM
+The **Android Open Source Project** is a secure mobile operating system featuring strong [app sandboxing](https://source.android.com/security/app-sandbox), [Verified Boot](https://source.android.com/security/verifiedboot) (AVB), and a robust [permission](https://developer.android.com/guide/topics/permissions/overview) control system.
+
+## Our Advice
+
+### 挑选安卓 ROM
 
 你买到的安卓手机多半已经预装了能侵犯隐私的应用与服务，而这些服务并不属于 [AOSP](https://source.android.com/)。 例如 Google Play 服务：它有权访问你的文件、联系人、通话记录、短信、定位、相机、麦克风、硬件身份码等。且这些权限无法收回。 这类应用与服务扩大了你的设备的攻击面，也是安卓系统的各种隐私问题的源头。
 
@@ -16,7 +20,7 @@ description: Android is an open-source operating system with strong security pro
 
 [我们推荐的安卓 ROM :material-arrow-right-drop-circle:](../android.md ""){.md-button}
 
-## 避免 Root
+### 避免 Root
 
 [Rooting](https://en.wikipedia.org/wiki/Rooting_(Android)) 安卓手机会大大降低安全性，因为它削弱了完整的 [安卓安全模型](https://en.wikipedia.org/wiki/Android_(operating_system)#Security_and_privacy)。 如果有一个被降低的安全性所帮助的漏洞，这可能会减少隐私。 常见的root方法涉及直接篡改启动分区，使得它不可能成功地进行验证性启动。 需要root的应用程序也会修改系统分区，这意味着验证启动将不得不保持禁用。 在用户界面上直接暴露root也增加了你的设备的 [攻击面](https://en.wikipedia.org/wiki/Attack_surface) ，并可能有助于 [特权升级](https://en.wikipedia.org/wiki/Privilege_escalation) 漏洞和SELinux政策的绕过。
 
@@ -26,7 +30,21 @@ AFWall+基于 [包过滤](https://en.wikipedia.org/wiki/Firewall_(computing)#Pac
 
 我们认为，通过root手机所做的安全牺牲不值得那些应用程序的可疑隐私利益。
 
-## 已验证的启动
+### Install Updates
+
+重要的是，不要使用 [报废的](https://endoflife.date/android) 版本的Android。 较新版本的安卓系统不仅会收到操作系统的安全更新，也会收到重要的隐私增强更新。
+
+For example, [prior to Android 10](https://developer.android.com/about/versions/10/privacy/changes) any apps with the [`READ_PHONE_STATE`](https://developer.android.com/reference/android/Manifest.permission#READ_PHONE_STATE) permission could access sensitive and unique serial numbers of your phone such as [IMEI](https://en.wikipedia.org/wiki/International_Mobile_Equipment_Identity), [MEID](https://en.wikipedia.org/wiki/Mobile_equipment_identifier), or your SIM card's [IMSI](https://en.wikipedia.org/wiki/International_mobile_subscriber_identity); whereas now they must be system apps to do so. 系统应用只由OEM或安卓发行提供。
+
+### Sharing Media
+
+You can avoid giving many apps permission to access your media with Android's built-in sharing features. Many applications allow you to "share" a file with them for media upload.
+
+For example, if you want to post a picture to Discord you can open your file manager or gallery and share that picture with the Discord app, instead of granting Discord full access to your media and photos.
+
+## Security Protections
+
+### 已验证的启动
 
 [经过验证的启动](https://source.android.com/security/verifiedboot) ，是安卓安全模式的一个重要组成部分。 它能够保护您免受 [罪恶的](https://en.wikipedia.org/wiki/Evil_maid_attack) 攻击、恶意软件的持久性，并确保安全更新不能用 [回滚保护降级](https://source.android.com/security/verifiedboot/verified-boot#rollback-protection)
 
@@ -38,7 +56,7 @@ AFWall+基于 [包过滤](https://en.wikipedia.org/wiki/Firewall_(computing)#Pac
 
 许多原始设备制造商也有破碎的实施验证启动，你必须注意他们的营销之外。 例如，Fairphone 3和4在默认情况下是不安全的，因为 [股票引导程序信任公共AVB签名密钥](https://forum.fairphone.com/t/bootloader-avb-keys-used-in-roms-for-fairphone-3-4/83448/11)。 这破坏了Fairphone设备上的验证引导，因为系统将引导替代Android操作系统（如/e/） [，而没有任何关于自定义操作系统使用的警告](https://source.android.com/security/verifiedboot/boot-flow#locked-devices-with-custom-root-of-trust) 。
 
-## 固件更新
+### 固件更新
 
 固件更新是维护安全的关键，没有它们，你的设备就不可能是安全的。 原始设备制造商与他们的合作伙伴有支持协议，在有限的支持期内提供闭源组件。 这些内容详见每月的 [Android安全公告](https://source.android.com/security/bulletin)。
 
@@ -48,11 +66,7 @@ AFWall+基于 [包过滤](https://en.wikipedia.org/wiki/Firewall_(computing)#Pac
 
 例如，Fairphone在市场上宣传他们的设备可以获得6年的支持。 然而，SoC（Fairphone 4上的高通骁龙750G）的EOL日期要短得多。 这意味着高通公司为Fairphone 4提供的固件安全更新将在2023年9月结束，无论Fairphone是否继续发布软件安全更新。
 
-## Android 版本
-
-重要的是，不要使用 [报废的](https://endoflife.date/android) 版本的Android。 较新版本的安卓系统不仅会收到操作系统的安全更新，也会收到重要的隐私增强更新。 例如， [，在Android 10之前](https://developer.android.com/about/versions/10/privacy/changes)，任何具有 [`READ_PHONE_STATE`](https://developer.android.com/reference/android/Manifest.permission#READ_PHONE_STATE) 权限的应用程序都可以访问你的手机的敏感和独特的序列号，如 [IMEI](https://en.wikipedia.org/wiki/International_Mobile_Equipment_Identity)， [MEID](https://en.wikipedia.org/wiki/Mobile_equipment_identifier)，你的SIM卡的 [IMSI](https://en.wikipedia.org/wiki/International_mobile_subscriber_identity)，而现在他们必须是系统应用程序才能这样做。 系统应用只由OEM或安卓发行提供。
-
-## Android 权限
+### Android 权限
 
 [Android上的权限](https://developer.android.com/guide/topics/permissions/overview) ，让你控制哪些应用程序被允许访问。 谷歌定期在每个连续的版本中对权限系统进行 [改善](https://developer.android.com/about/versions/11/privacy/permissions)。 你安装的所有应用程序都是严格的 [沙箱](https://source.android.com/security/app-sandbox)，因此，没有必要安装任何杀毒软件。
 
@@ -93,17 +107,15 @@ An app may request a permission for a specific feature it has. For example, any 
 
     Privacy-friendly apps such as [Bitwarden](https://reports.exodus-privacy.eu.org/en/reports/com.x8bit.bitwarden/latest/) may show some trackers such as [Google Firebase Analytics](https://reports.exodus-privacy.eu.org/en/trackers/49/). This library includes [Firebase Cloud Messaging](https://en.wikipedia.org/wiki/Firebase_Cloud_Messaging) which can provide [push notifications](https://en.wikipedia.org/wiki/Push_technology) in apps. This [is the case](https://fosstodon.org/@bitwarden/109636825700482007) with Bitwarden. That doesn't mean that Bitwarden is using all of the analytics features that are provided by Google Firebase Analytics.
 
-## 媒体访问
+## Privacy Features
 
-相当多的应用程序允许你与他们 "共享 "一个文件进行媒体上传。 例如，如果你想在推特上发布一张图片，不要授予推特对你的 "媒体和照片 "的访问权，因为那时它就可以访问你所有的图片。 相反，去你的文件管理器（documentsUI），按住图片，然后与Twitter分享。
-
-## 用户资料
+### 用户资料
 
 多个用户配置文件可以在 **设置** → **系统** → **多个用户** ，是Android中最简单的隔离方式。
 
 通过用户个人资料，你可以对一个特定的个人资料施加限制，如：打电话、使用短信或在设备上安装应用程序。 每个用户资料使用自己的加密密钥进行加密，不能访问任何其他人的个人资料。 即使是设备所有者，如果不知道他们的密码，也不能查看其他人的个人资料。 多个个人资料是一种更安全的隔离方法。
 
-## 工作身份
+### 工作身份
 
 [工作配置文件](https://support.google.com/work/android/answer/6191949) 是隔离单个应用程序的另一种方式，可能比单独的用户配置文件更方便。
 
@@ -113,15 +125,15 @@ A **device controller** app such as [Shelter](../android.md#shelter) is required
 
 这种方法通常不如二级用户配置文件安全；但是，它确实允许你在工作和个人配置文件中同时运行应用程序的便利。
 
-## VPN Killswitch
+### VPN Killswitch
 
 Android 7及更高版本支持VPN killswitch ，无需安装第三方应用程序即可使用。 如果VPN断开连接，此功能可以防止泄漏。 可以在 :gear: **设置** → **网络 & 互联网** → **VPN** → :gear: → **阻止没有VPN的连接**。
 
-## 全局切换
+### 全局切换
 
 现代安卓设备有全局切换键，用于禁用蓝牙和定位服务。 安卓12引入了相机和麦克风的切换功能。 在不使用时，我们建议禁用这些功能。 在重新启用之前，应用程序不能使用被禁用的功能（即使被授予个别许可）。
 
-## 谷歌
+## Google Services
 
 如果你使用的是带有谷歌服务的设备，无论是你的原生操作系统还是像GrapheneOS这样的安全沙盒式的操作系统，你可以做一些额外的改变来改善你的隐私。 我们仍然建议完全避免使用谷歌服务，或者通过将 *Shelter* 等设备控制器与GrapheneOS的沙盒化谷歌游戏结合起来，将谷歌游戏服务限制在特定的用户/工作档案中。
 

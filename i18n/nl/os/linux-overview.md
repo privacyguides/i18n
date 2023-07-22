@@ -4,33 +4,45 @@ icon: simple/linux
 description: Linux is een open-source, privacy-gericht desktop besturingssysteem alternatief, maar niet alle distributies zijn gelijk.
 ---
 
-Vaak wordt aangenomen dat [open-source](https://en.wikipedia.org/wiki/Open-source_software) software inherent veilig is omdat de broncode beschikbaar is. Er wordt verwacht dat er regelmatig communautaire verificatie plaatsvindt; dit is echter niet altijd [het geval](https://seirdy.one/posts/2022/02/02/floss-security/). Het hangt af van een aantal factoren, zoals de activiteit van het project, de ervaring van de ontwikkelaar, de striktheid waarmee [code wordt gereviewd](https://en.wikipedia.org/wiki/Code_review), en hoe vaak aandacht wordt besteed aan specifieke delen van de [codebase](https://en.wikipedia.org/wiki/Codebase) die misschien jarenlang onaangeroerd zijn gebleven.
+**Linux** is an open-source, privacy-focused desktop operating system alternative. In the face of pervasive telemetry and other privacy-encroaching technologies in mainstream operating systems, Linux desktop has remained the clear choice for people looking for total control over their computers from the ground up.
 
-Op dit moment heeft desktop GNU/Linux enkele gebieden die beter zouden kunnen dan hun propriëtaire tegenhangers, bijv.:
-
-- Een geverifieerde opstartketen, in tegenstelling tot Apple's [Secure Boot](https://support.apple.com/guide/security/startup-security-utility-secc7b34e5b5/web) (met [Secure Enclave](https://support.apple.com/guide/security/secure-enclave-sec59b0b31ff/1/web/1)), Android's [Verified Boot](https://source.android.com/security/verifiedboot) of Microsoft Windows's [opstartproces](https://docs.microsoft.com/en-us/windows/security/information-protection/secure-the-windows-10-boot-process) met [TPM](https://docs.microsoft.com/en-us/windows/security/information-protection/tpm/how-windows-uses-the-tpm). Deze voorzieningen en hardwaretechnologieën kunnen allemaal helpen om aanhoudende sabotage door malware of [evil maid attacks te voorkomen](https://en.wikipedia.org/wiki/Evil_Maid_attack)
-- Sterke sandboxing-oplossing zoals die welke te vinden is in [macOS](https://developer.apple.com/library/archive/documentation/Security/Conceptual/AppSandboxDesignGuide/AboutAppSandbox/AboutAppSandbox.html), [ChromeOS](https://chromium.googlesource.com/chromiumos/docs/+/HEAD/sandboxing.md), en [Android](https://source.android.com/security/app-sandbox). Veelgebruikte Linux sandboxing oplossingen zoals [Flatpak](https://docs.flatpak.org/en/latest/sandbox-permissions.html) en [Firejail](https://firejail.wordpress.com/) hebben nog een lange weg te gaan
-- Sterke [exploit mitigations](https://madaidans-insecurities.github.io/linux.html#exploit-mitigations)
-
-Ondanks deze nadelen zijn desktop GNU/Linux distributies geweldig als je dat wilt:
-
-- Vermijd telemetrie die vaak gepaard gaat met propriëtaire besturingssystemen
-- Handhaving van [softwarevrijheid](https://www.gnu.org/philosophy/free-sw.en.html#four-freedoms)
-- Hebben speciaal gebouwde systemen zoals [Whonix](https://www.whonix.org) of [Tails](https://tails.boum.org/)
-
-Op onze website wordt de term "Linux" doorgaans gebruikt om desktop GNU/Linux-distributies te beschrijven. Andere besturingssystemen die ook de Linux-kernel gebruiken, zoals ChromeOS, Android en Qubes OS, worden hier niet besproken.
+Our website generally uses the term “Linux” to describe **desktop** Linux distributions. Other operating systems which also use the Linux kernel such as ChromeOS, Android, and Qubes OS are not discussed on this page.
 
 [Onze Linux-aanbevelingen :material-arrow-right-drop-circle:](../desktop.md ""){.md-button}
 
+## Privacy Notes
+
+There are some notable privacy concerns with Linux which you should be aware of. Despite these drawbacks, desktop Linux distributions are still great for most people who want to:
+
+- Vermijd telemetrie die vaak gepaard gaat met propriëtaire besturingssystemen
+- Handhaving van [softwarevrijheid](https://www.gnu.org/philosophy/free-sw.en.html#four-freedoms)
+- Use privacy focused systems such as [Whonix](https://www.whonix.org) or [Tails](https://tails.boum.org/)
+
+### Open Source Security
+
+It is a [common misconception](../basics/common-misconceptions.md#open-source-software-is-always-secure-or-proprietary-software-is-more-secure) that Linux and other open-source software is inherently secure simply because the source code is available. There is an expectation that community verification occurs regularly, but this isn’t always [the case](https://seirdy.one/posts/2022/02/02/floss-security/).
+
+In reality, distro security depends on a number of factors, such as project activity, developer experience, the level of rigor applied to code reviews, and how often attention is given to specific parts of the codebase that may go untouched for years.
+
+### Missing Security Features
+
+At the moment, desktop Linux [falls behind alternatives](https://discussion.fedoraproject.org/t/fedora-strategy-2028-proposal-fedora-linux-is-as-secure-as-macos/46899/9) like macOS or Android when it comes to certain security features. We hope to see improvements in these areas in the future.
+
+- **Verified boot** on Linux is not as robust as alternatives such as Apple’s [Secure Boot](https://support.apple.com/guide/security/secac71d5623/web) or Android’s [Verified Boot](https://source.android.com/security/verifiedboot). Verified boot prevents persistent tampering by malware and [evil maid attacks](https://en.wikipedia.org/wiki/Evil_Maid_attack), but is still largely [unavailable on even the most advanced distributions](https://discussion.fedoraproject.org/t/has-silverblue-achieved-verified-boot/27251/3).
+
+- **Strong sandboxing** for apps on Linux is severely lacking, even with containerized apps like Flatpaks or sandboxing solutions like Firejail. Flatpak is the most promising sandboxing utility for Linux thus far, but is still deficient in many areas and allows for [unsafe defaults](https://flatkill.org/2020/) which allow most apps to trivially bypass their sandbox.
+
+Additionally, Linux falls behind in implementing [exploit mitigations](https://madaidans-insecurities.github.io/linux.html#exploit-mitigations) which are now standard on other operating systems, such as Arbitrary Code Guard on Windows or Hardened Runtime on macOS. Also, most Linux programs and Linux itself are coded in memory-unsafe languages. Memory corruption bugs are responsible for the [majority of vulnerabilities](https://msrc.microsoft.com/blog/2019/07/a-proactive-approach-to-more-secure-code/) fixed and assigned a CVE. While this is also true for Windows and macOS, they are quickly making progress on adopting memory-safe languages—such as Rust and Swift, respectively—while there is no similar effort to rewrite Linux in a memory-safe language like Rust.
+
 ## Uw distributie kiezen
 
-Niet alle Linux-distributies zijn gelijk geschapen. Hoewel onze Linux-aanbevelingspagina niet bedoeld is als een gezaghebbende bron over welke distributie je zou moeten gebruiken, zijn er een paar dingen die je in gedachten moet houden bij het kiezen van de distributie die je wilt gebruiken.
+Niet alle Linux-distributies zijn gelijk geschapen. Our [Linux recommendation page](../desktop.md) is not meant to be an authoritative source on which distribution you should use, but our recommendations *are* aligned with the following guidelines. These are a few things you should keep in mind when choosing a distribution:
 
 ### Vrijgave cyclus
 
 Wij raden je ten zeerste aan distributies te kiezen die dicht bij de stabiele upstream software releases blijven, vaak aangeduid als rolling release distributies. Dit komt omdat distributies met een bevroren releasecyclus vaak de pakketversies niet bijwerken en achterlopen op beveiligingsupdates.
 
-Voor bevroren distributies wordt van pakketbeheerders verwacht dat ze patches backporteren om kwetsbaarheden te verhelpen (Debian is zo'n [voorbeeld](https://www.debian.org/security/faq#handling)) in plaats van de software aan te passen aan de "volgende versie" die door de upstream-ontwikkelaar wordt uitgebracht. Sommige beveiligingsfixes [krijgen](https://arxiv.org/abs/2105.14565) helemaal geen [CVE](https://en.wikipedia.org/wiki/Common_Vulnerabilities_and_Exposures) (vooral minder populaire software) en komen daarom niet in de distributie met dit patchingmodel. Als gevolg daarvan worden kleine beveiligingsupdates soms uitgesteld tot de volgende grote release.
+Voor bevroren distributies wordt van pakketbeheerders verwacht dat ze patches backporteren om kwetsbaarheden te verhelpen (Debian is zo'n [voorbeeld](https://www.debian.org/security/faq#handling)) in plaats van de software aan te passen aan de "volgende versie" die door de upstream-ontwikkelaar wordt uitgebracht. Some security fixes [do not](https://arxiv.org/abs/2105.14565) receive a [CVE ID](https://en.wikipedia.org/wiki/Common_Vulnerabilities_and_Exposures) (particularly less popular software) at all and therefore do not make it into the distribution with this patching model. Als gevolg daarvan worden kleine beveiligingsupdates soms uitgesteld tot de volgende grote release.
 
 Wij geloven niet dat het een goed idee is om pakketten tegen te houden en tussentijdse patches toe te passen, aangezien dit afwijkt van de manier waarop de ontwikkelaar de software bedoeld zou kunnen hebben. [Richard Brown](https://rootco.de/aboutme/) heeft hier een presentatie over:
 
@@ -54,28 +66,28 @@ De Atomic update methode wordt gebruikt voor immutable distributies zoals Silver
 
 ### "Beveiligingsgerichte" distributies
 
-Er bestaat vaak enige verwarring over "op veiligheid gerichte" distributies en "pentesting"-distributies. Een snelle zoekactie naar "de veiligste Linux-distributie" levert vaak resultaten op als Kali Linux, Black Arch en Parrot OS. Deze distributies zijn offensieve penetratietestdistributies die hulpmiddelen bundelen voor het testen van andere systemen. Ze bevatten geen "extra beveiliging" of defensieve maatregelen voor normaal gebruik.
+Er bestaat vaak enige verwarring over "op veiligheid gerichte" distributies en "pentesting"-distributies. A quick search for “the most secure Linux distribution” will often give results like Kali Linux, Black Arch, or Parrot OS. Deze distributies zijn offensieve penetratietestdistributies die hulpmiddelen bundelen voor het testen van andere systemen. Ze bevatten geen "extra beveiliging" of defensieve maatregelen voor normaal gebruik.
 
 ### Arch-gebaseerde distributies
 
-Arch-gebaseerde distributies worden niet aanbevolen voor mensen die nieuw zijn met Linux, ongeacht de distributie. Arch heeft geen distributie update mechanisme voor de onderliggende software keuzes. Als gevolg daarvan moet je op de hoogte blijven van de huidige trends en technologieën overnemen naarmate deze oudere praktijken verdringen.
+Arch and Arch-based distributions are not recommended for those new to Linux (regardless of distribution) as they require regular [system maintenance](https://wiki.archlinux.org/title/System_maintenance). Arch does not have a distribution update mechanism for the underlying software choices. Als gevolg daarvan moet je op de hoogte blijven van de huidige trends en technologieën overnemen naarmate deze oudere praktijken verdringen.
 
 Voor een veilig systeem wordt ook verwacht dat je voldoende Linux kennis hebt om de beveiliging van hun systeem goed in te stellen, zoals het aannemen van een [mandatory access control](https://en.wikipedia.org/wiki/Mandatory_access_control) systeem, het opzetten van [kernel module](https://en.wikipedia.org/wiki/Loadable_kernel_module#Security) blacklists, het harden van boot parameters, het manipuleren van [sysctl](https://en.wikipedia.org/wiki/Sysctl) parameters, en weten welke componenten ze nodig hebben zoals [Polkit](https://en.wikipedia.org/wiki/Polkit).
 
-Iedereen die gebruik maakt van de [Arch User Repository (AUR)](https://wiki.archlinux.org/title/Arch_User_Repository), **moet zich** comfortabel voelen bij het auditen van PKGBUILDs die ze vanuit die service installeren. AUR-pakketten zijn door de gemeenschap geproduceerde inhoud en worden op geen enkele manier doorgelicht, en zijn daarom kwetsbaar voor aanvallen op de softwareketen, wat in het verleden inderdaad is gebeurd [](https://www.bleepingcomputer.com/news/security/malware-found-in-arch-linux-aur-package-repository/). AUR moet altijd met mate worden gebruikt en vaak is er veel slecht advies op verschillende pagina's die mensen zonder voldoende waarschuwing opdragen om blindelings [AUR helpers](https://wiki.archlinux.org/title/AUR_helpers) te gebruiken. Vergelijkbare waarschuwingen gelden voor het gebruik van Personal Package Archives (PPA's) van derden op Debian gebaseerde distributies of Community Projects (COPR) op Fedora.
+Anyone using the [Arch User Repository (AUR)](https://wiki.archlinux.org/title/Arch_User_Repository) **must** be comfortable auditing PKGBUILDs that they download from that service. AUR-pakketten zijn door de gemeenschap geproduceerde inhoud en worden op geen enkele manier doorgelicht, en zijn daarom kwetsbaar voor aanvallen op de softwareketen, wat in het verleden inderdaad is gebeurd [](https://www.bleepingcomputer.com/news/security/malware-found-in-arch-linux-aur-package-repository/).
 
-Als je ervaring hebt met Linux en een Arch-gebaseerde distributie wilt gebruiken, raden wij alleen Arch Linux zelf aan, niet een van zijn afgeleiden. Wij raden deze twee Arch-derivaten specifiek af:
+The AUR should always be used sparingly, and often there is a lot of bad advice on various pages which direct people to blindly use [AUR helpers](https://wiki.archlinux.org/title/AUR_helpers) without sufficient warning. Vergelijkbare waarschuwingen gelden voor het gebruik van Personal Package Archives (PPA's) van derden op Debian gebaseerde distributies of Community Projects (COPR) op Fedora.
+
+If you are experienced with Linux and wish to use an Arch-based distribution, we generally recommend mainline Arch Linux over any of its derivatives.
+
+Additionally, we recommend **against** these two Arch derivatives specifically:
 
 - **Manjaro**: Deze distributie houdt pakketten 2 weken achter om er zeker van te zijn dat hun eigen veranderingen niet kapot gaan, niet om er zeker van te zijn dat upstream stabiel is. Wanneer AUR pakketten worden gebruikt, worden ze vaak gebouwd tegen de laatste [bibliotheken](https://en.wikipedia.org/wiki/Library_(computing)) uit Arch's repositories.
 - **Garuda**: Zij gebruiken [Chaotic-AUR](https://aur.chaotic.cx/) die automatisch en blindelings pakketten compileert uit de AUR. Er is geen verificatieproces om ervoor te zorgen dat de AUR-pakketten niet te lijden hebben van aanvallen op de toeleveringsketen.
 
-### Kicksecure
-
-Hoewel we sterk afraden om verouderde distributies zoals Debian te gebruiken, als je besluit om het te gebruiken, stellen we voor dat je [](https://www. kicksecure. com/wiki/Debian) omzet in [Kicksecure](https://www.kicksecure.com/). Kicksecure is, in oversimplistische termen, een verzameling scripts, configuraties en pakketten die het aanvalsoppervlak van Debian aanzienlijk verkleinen. Het dekt standaard een heleboel aanbevelingen voor privacy en hardening.
-
 ### Linux-libre kernel en "Libre" distributies
 
-We strongly recommend **against** using the Linux-libre kernel, since it [removes security mitigations](https://www.phoronix.com/news/GNU-Linux-Libre-5.7-Released) and [suppresses kernel warnings](https://news.ycombinator.com/item?id=29674846) about vulnerable microcode for ideological reasons.
+We recommend **against** using the Linux-libre kernel, since it [removes security mitigations](https://www.phoronix.com/news/GNU-Linux-Libre-5.7-Released) and [suppresses kernel warnings](https://news.ycombinator.com/item?id=29674846) about vulnerable microcode.
 
 ## Algemene aanbevelingen
 
@@ -87,11 +99,13 @@ De meeste Linux-distributies hebben een optie in het installatieprogramma om [LU
 
 ### Wissel
 
-Consider using [ZRAM](https://wiki.archlinux.org/title/Zram#Using_zram-generator) or [encrypted swap](https://wiki.archlinux.org/title/Dm-crypt/Swap_encryption) instead of unencrypted swap to avoid potential security issues with sensitive data being pushed to [swap space](https://en.wikipedia.org/wiki/Memory_paging). Op Fedora gebaseerde distributies [gebruiken standaard ZRAM](https://fedoraproject.org/wiki/Changes/SwapOnZRAM).
+Consider using [ZRAM](https://wiki.archlinux.org/title/Zram#Using_zram-generator) instead of a traditional swap file or partition to avoid writing potentially sensitive memory data to persistent storage (and improve performance). Fedora-based distributions [use ZRAM by default](https://fedoraproject.org/wiki/Changes/SwapOnZRAM).
+
+If you require suspend-to-disk (hibernation) functionality, you will still need to use a traditional swap file or partition. Make sure that any swap space you do have on a persistent storage device is [encrypted](https://wiki.archlinux.org/title/Dm-crypt/Swap_encryption) at a minimum to mitigate some of these threats.
 
 ### Wayland
 
-We raden aan een desktopomgeving te gebruiken die het [Wayland](https://en.wikipedia.org/wiki/Wayland_(display_server_protocol)) weergaveprotocol ondersteunt, aangezien het ontwikkeld is met beveiliging [in gedachten](https://lwn.net/Articles/589147/). Zijn voorganger, [X11](https://en.wikipedia.org/wiki/X_Window_System), ondersteunt geen GUI isolatie, waardoor alle vensters [scherm kunnen opnemen, loggen en invoer injecteren in andere vensters](https://blog.invisiblethings.org/2011/04/23/linux-security-circus-on-gui-isolation.html), waardoor elke poging tot sandboxing zinloos wordt. Hoewel er opties zijn om geneste X11 te doen, zoals [Xpra](https://en.wikipedia.org/wiki/Xpra) of [Xephyr](https://en.wikipedia.org/wiki/Xephyr), komen ze vaak met negatieve prestatiegevolgen en zijn ze niet handig op te zetten en hebben ze geen voorkeur boven Wayland.
+We recommend using a desktop environment that supports the [Wayland](https://en.wikipedia.org/wiki/Wayland_(display_server_protocol)) display protocol, as it was developed with security [in mind](https://lwn.net/Articles/589147/). Its predecessor ([X11](https://en.wikipedia.org/wiki/X_Window_System)) does not support GUI isolation, which allows any window to [record, log, and inject inputs in other windows](https://blog.invisiblethings.org/2011/04/23/linux-security-circus-on-gui-isolation.html), making any attempt at sandboxing futile. While there are options to do nested X11 such as [Xpra](https://en.wikipedia.org/wiki/Xpra) or [Xephyr](https://en.wikipedia.org/wiki/Xephyr), they often come with negative performance consequences, and are neither convenient to set up nor preferable over Wayland.
 
 Gelukkig hebben veelgebruikte omgevingen zoals [GNOME](https://www.gnome.org), [KDE](https://kde.org), en de window manager [Sway](https://swaywm.org) ondersteuning voor Wayland. Some distributions like Fedora and Tumbleweed use it by default, and some others may do so in the future as X11 is in [hard maintenance mode](https://www.phoronix.com/news/X.Org-Maintenance-Mode-Quickly). Als je een van deze omgevingen gebruikt is het zo eenvoudig als het selecteren van de "Wayland" sessie bij de desktop display manager ([GDM](https://en.wikipedia.org/wiki/GNOME_Display_Manager), [SDDM](https://en.wikipedia.org/wiki/Simple_Desktop_Display_Manager)).
 
@@ -99,15 +113,15 @@ Wij raden **aan tegen** door desktop omgevingen of window managers te gebruiken 
 
 ### Eigen firmware (Microcode Updates)
 
-Linux-distributies zoals die van [Linux-libre](https://en.wikipedia.org/wiki/Linux-libre) of DIY (Arch Linux) worden niet geleverd met de propriëtaire [microcode](https://en.wikipedia.org/wiki/Microcode) updates die vaak kwetsbaarheden patchen. Enkele opmerkelijke voorbeelden van deze kwetsbaarheden zijn [Spectre](https://en.wikipedia.org/wiki/Spectre_(security_vulnerability)), [Meltdown](https://en.wikipedia.org/wiki/Meltdown_(security_vulnerability)), [SSB](https://en.wikipedia.org/wiki/Speculative_Store_Bypass), [Foreshadow](https://en.wikipedia.org/wiki/Foreshadow), [MDS](https://en.wikipedia.org/wiki/Microarchitectural_Data_Sampling), [SWAPGS](https://en.wikipedia.org/wiki/SWAPGS_(security_vulnerability)), en andere [hardwarekwetsbaarheden](https://www.kernel.org/doc/html/latest/admin-guide/hw-vuln/index.html).
+Some Linux distributions (such as [Linux-libre](https://en.wikipedia.org/wiki/Linux-libre)-based or DIY distros) don’t come with the proprietary [microcode](https://en.wikipedia.org/wiki/Microcode) updates which patch critical security vulnerabilities. Enkele opmerkelijke voorbeelden van deze kwetsbaarheden zijn [Spectre](https://en.wikipedia.org/wiki/Spectre_(security_vulnerability)), [Meltdown](https://en.wikipedia.org/wiki/Meltdown_(security_vulnerability)), [SSB](https://en.wikipedia.org/wiki/Speculative_Store_Bypass), [Foreshadow](https://en.wikipedia.org/wiki/Foreshadow), [MDS](https://en.wikipedia.org/wiki/Microarchitectural_Data_Sampling), [SWAPGS](https://en.wikipedia.org/wiki/SWAPGS_(security_vulnerability)), en andere [hardwarekwetsbaarheden](https://www.kernel.org/doc/html/latest/admin-guide/hw-vuln/index.html).
 
-Wij **bevelen** ten zeerste aan dat je de microcode-updates installeert, aangezien jouw CPU al vanaf de fabriek op de eigen microcode draait. Fedora en openSUSE hebben beide standaard de microcode updates toegepast.
+We **highly recommend** that you install microcode updates, as they contain important security patches for the CPU which can not be fully mitigated in software alone. Fedora en openSUSE hebben beide standaard de microcode updates toegepast.
 
 ### Updates
 
 De meeste Linux-distributies zullen automatisch updates installeren of u eraan herinneren om dat te doen. Het is belangrijk om jouw besturingssysteem up-to-date te houden, zodat jouw software wordt gepatcht wanneer een kwetsbaarheid wordt gevonden.
 
-Sommige distributies (vooral die gericht zijn op gevorderde gebruikers) zijn aan de kale kant en verwachten dat je dingen zelf doet (bijvoorbeeld Arch of Debian). Hiervoor moet de "pakketbeheerder" (`apt`, `pacman`, `dnf`, enz.) handmatig worden uitgevoerd om belangrijke beveiligingsupdates te ontvangen.
+Some distributions (particularly those aimed at advanced users) are more bare bones and expect you to do things yourself (e.g. Arch or Debian). Hiervoor moet de "pakketbeheerder" (`apt`, `pacman`, `dnf`, enz.) handmatig worden uitgevoerd om belangrijke beveiligingsupdates te ontvangen.
 
 Bovendien downloaden sommige distributies firmware-updates niet automatisch. Daarvoor moet je [`fwupd`](https://wiki.archlinux.org/title/Fwupd)installeren.
 
@@ -115,7 +129,7 @@ Bovendien downloaden sommige distributies firmware-updates niet automatisch. Daa
 
 ### MAC-adres randomisatie
 
-Veel desktop Linux distributies (Fedora, openSUSE, enz.) worden geleverd met [NetworkManager](https://en.wikipedia.org/wiki/NetworkManager), om Ethernet en Wi-Fi instellingen te configureren.
+Many desktop Linux distributions (Fedora, openSUSE, etc.) come with [NetworkManager](https://en.wikipedia.org/wiki/NetworkManager) to configure Ethernet and Wi-Fi settings.
 
 Het is mogelijk om [te randomiseren](https://fedoramagazine.org/randomize-mac-address-nm/) het [MAC adres](https://en.wikipedia.org/wiki/MAC_address) bij gebruik van NetworkManager. Dit zorgt voor wat meer privacy op Wi-Fi-netwerken, omdat het moeilijker wordt specifieke apparaten op het netwerk waarmee u verbonden bent, te traceren. Het doet [**niet**](https://papers.mathyvanhoef.com/wisec2016.pdf) maakt je anoniem.
 
@@ -123,7 +137,7 @@ Wij raden aan de instelling te wijzigen in **random** in plaats van **stable**, 
 
 Als je [systemd-networkd](https://en.wikipedia.org/wiki/Systemd#Ancillary_components)gebruikt, moet je [`MACAddressPolicy=random`](https://www.freedesktop.org/software/systemd/man/systemd.link.html#MACAddressPolicy=) instellen, waardoor [RFC 7844 (Anonymity Profiles for DHCP Clients)](https://www.freedesktop.org/software/systemd/man/systemd.network.html#Anonymize=)wordt ingeschakeld.
 
-Het heeft niet veel zin om het MAC-adres voor Ethernetverbindingen te randomiseren, aangezien een systeembeheerder je kan vinden door te kijken naar de poort die je gebruikt op de [netwerkswitch](https://en.wikipedia.org/wiki/Network_switch). Het willekeurig maken van Wi-Fi MAC-adressen hangt af van de ondersteuning door de firmware van de Wi-Fi.
+MAC address randomization is primarily beneficial for Wi-Fi connections. For Ethernet connections, randomizing your MAC address provides little (if any) benefit, because a network administrator can trivially identify your device by other means (such as inspecting the port you are connected to on the network switch). Het willekeurig maken van Wi-Fi MAC-adressen hangt af van de ondersteuning door de firmware van de Wi-Fi.
 
 ### Andere identificatiemiddelen
 

@@ -5,15 +5,16 @@ description: Questi client email rispettano la privacy e supportano la crittogra
 cover: email-clients.png
 ---
 
-Il nostro elenco di raccomandazioni contiene client di posta elettronica che supportano sia [OpenPGP](encryption.md#openpgp) che l'autenticazione forte come [Open Authorization (OAuth)](https://it.wikipedia.org/wiki/OAuth). OAuth consente di utilizzare l'[autenticazione a più fattori](basics/multi-factor-authentication.md) e di prevenire il furto di account.
+Il nostro elenco di consigli contiene i client email che supportano sia [OpenPGP](encryption.md#openpgp) che l'autenticazione forte, come [Open Authorization (OAuth)](https://en.wikipedia.org/wiki/OAuth). OAuth consente di utilizzare l'[autenticazione a più fattori](basics/multi-factor-authentication.md) e di prevenire il furto del profilo.
 
-??? warning "L'email non fornisce la segretezza dell'inoltro"
+??? warning "L'email non fornisce la segretezza in avanti"
 
-    Quando si utilizza una tecnologia di crittografia end-to-end (E2EE) come OpenPGP, le e-mail avranno ancora [alcuni metadati](email.md#email-metadata-overview) non crittografati nell'intestazione dell'e-mail.
+    Utilzzando la tecnologia di crittografia end-to-end (E2EE), come OpenPGP, l'email conterrà comunque [dei metadati](email.md#email-metadata-overview) non crittografati nell'intestazione dell'email.
     
-    OpenPGP non supporta inoltre la [forward secrecy](https://it.wikipedia.org/wiki/Forward_secrecy), il che significa che se la chiave privata del destinatario o dell'utente viene rubata, tutti i messaggi precedenti crittografati con essa saranno esposti: [come proteggo le mie chiavi private?](basics/email-security.md) Considera l'utilizzo di un mezzo che garantisca la segretezza in avanti (forward secrecy):
+    Inoltre, OpenPGP non supporta la [segretezza in avanti](https://it.wikipedia.org/wiki/Forward_secrecy), il che significa che se la chiave privata tua o del destinatario dovesse mai essere perduta, tutti i messaggi precedenti crittografati con essa saranno esposti: [Come proteggo le mie chiavi private?](basics/email-security.md)
+    Considera di utilizzare un mezzo che fornisca la segretezza in avanti:
     
-    [Comunicazione in tempo reale](real-time-communication.md){ .md-button }
+    [Comunicazione in tempo reaale](real-time-communication.md){ .md-button }
 
 ## Multipiattaforma
 
@@ -21,16 +22,16 @@ Il nostro elenco di raccomandazioni contiene client di posta elettronica che sup
 
 !!! recommendation
 
-    ![Thunderbird logo](assets/img/email-clients/thunderbird.svg){ align=right }
+    ![Logo di Thunderbird](assets/img/email-clients/thunderbird.svg){ align=right }
     
-    **Thunderbird** è un client di posta elettronica, newsgroup, news feed e chat (XMPP, IRC, Twitter) gratuito, open-source e multipiattaforma, sviluppato dalla comunità Thunderbird e precedentemente dalla Mozilla Foundation.
+    **Thunderbird** è un client email, newsgroup, feed di notizie e chat (XMPP, IRC, Twitter) gratuito, open source e multipiattaforma, sviluppato dalla community di Thunderbird e precedentemente dalla Mozilla Foundation.
     
-    [:octicons-home-16: Pagina principale](https://www.thunderbird.net){ .md-button .md-button--primary }
-    [:octicons-eye-16:](https://www.mozilla.org/privacy/thunderbird){ .card-link title="Politica sulla privacy" }
+    [:octicons-home-16: Home](https://www.thunderbird.net){ .md-button .md-button--primary }
+    [:octicons-eye-16:](https://www.mozilla.org/privacy/thunderbird){ .card-link title="Politica sulla Privacy" }
     [:octicons-info-16:](https://support.mozilla.org/products/thunderbird){ .card-link title=Documentazione}
-    [:octicons-code-16:](https://hg.mozilla.org/comm-central){ .card-link title="Codice sorgente" }
+    [:octicons-code-16:](https://hg.mozilla.org/comm-central){ .card-link title="Codice Sorgente" }
     
-    ??? downloads "Scarica"
+    ??? downloads
     
         - [:simple-windows11: Windows](https://www.thunderbird.net)
         - [:simple-apple: macOS](https://www.thunderbird.net)
@@ -39,52 +40,52 @@ Il nostro elenco di raccomandazioni contiene client di posta elettronica che sup
 
 #### Configurazione consigliata
 
-Si consiglia di modificare alcune di queste impostazioni per rendere Thunderbird un po' più privato.
+Consigliamo di modificare alcune di queste impostazioni per rendere Thunderbird un po' più privato.
 
-Queste opzioni si trovano in :material-menu: → **Impostazioni** → **Privacy e sicurezza**.
+Queste opzioni si trovano in :material-menu: → **Impostazioni** → **Privacy e Sicurezza**.
 
-##### Contenuto Web
+##### Contenuti Web
 
-- [ ] Deseleziona **Ricorda siti web e link visitati**
-- [ ] Deseleziona **Accetta i cookie dai siti**
+- [ ] Rimuovi la spunta da **Ricorda siti web e link visitati**
+- [ ] Rimuovi la spunta da **Accetta i cookie dai siti**
 
 ##### Telemetria
 
-- [ ] Deseleziona  **Consenti a Thunderbird di inviare a Mozilla dati tecnici e di interazione**
+- [ ] Rimuovi la spunta da **Consenti a Thunderbird di inviare a Mozilla dati tecnici e d'interazione**
 
 #### Thunderbird-user.js (avanzato)
 
-[`thunderbird-user.js`](https://github.com/HorlogeSkynet/thunderbird-user.js), è un insieme di opzioni di configurazione che mira a disabilitare il maggior numero possibile di funzioni di navigazione web all'interno di Thunderbird, al fine di ridurre la superficie e mantenere la privacy. Alcune modifiche sono state prese dal [progetto Arkenfox](https://github.com/arkenfox/user.js).
+[`thunderbird-user.js`](https://github.com/HorlogeSkynet/thunderbird-user.js), è una serie di opzioni di configurazione che mira a disabilitare quante più funzionalità di navigazione web possibili su Thunderbird, per poter ridurre la superficie e mantenere la privacy. Alcune delle modifiche provengono dal [progetto Arkenfox](https://github.com/arkenfox/user.js).
 
-## Specifiche alla piattaforma
+## Specifiche della Piattaforma
 
 ### Apple Mail (macOS)
 
 !!! recommendation
 
-    ![Apple Mail logo](assets/img/email-clients/applemail.png){ align=right }
+    ![Logo di Apple Mail](assets/img/email-clients/applemail.png){ align=right }
     
-    **Apple Mail** è incluso in macOS e può essere esteso per avere il supporto OpenPGP con [GPG Suite](encryption.md#gpg-suite), che aggiunge la possibilità di inviare e-mail crittografate.
+    **Apple Mail** è incluso in macOS ed è estendibile per supportare OpenPGP con [GPG Suite](encryption.md#gpg-suite), che aggiunge la possibilità di inviare email crittografate in PGP.
     
-    [:octicons-home-16: Pagina Principale](https://support.apple.com/guide/mail/welcome/mac){ .md-button .md-button--primary }
+    [:octicons-home-16: Home](https://support.apple.com/guide/mail/welcome/mac){ .md-button .md-button--primary }
     [:octicons-eye-16:](https://www.apple.com/legal/privacy/en-ww/){ .card-link title="Politica sulla Privacy" }
     [:octicons-info-16:](https://support.apple.com/mail){ .card-link title=Documentazione}
 
-Apple Mail ha la possibilità di caricare contenuti in remoto in background o di bloccarli completamente nascondendo il tuo indirizzo IP dai mittenti su [macOS](https://support.apple.com/guide/mail/mlhl03be2866/mac) e [iOS](https://support.apple.com/guide/iphone/iphf084865c7/ios).
+Apple Mail può caricare i contenuti da remoto in background o bloccarli interamente e nascondere l'indirizzo IP di mittenti su [macOS](https://support.apple.com/guide/mail/mlhl03be2866/mac) e [iOS](https://support.apple.com/guide/iphone/iphf084865c7/ios).
 
 ### Canary Mail (iOS)
 
 !!! recommendation
 
-    ![Canary Mail logo](assets/img/email-clients/canarymail.svg){ align=right }
+    ![Logo di Canary Mail](assets/img/email-clients/canarymail.svg){ align=right }
     
-    **Canary Mail** è un client di posta elettronica a pagamento progettato per rendere perfetta la crittografia end-to-end con funzioni di sicurezza come il blocco biometrico dell'app.
+    **Canary Mail** è un client email a pagamento progettato per semplificare la crittografia end-to-end con funzionaalità di sicurezza come il blocco biometrico dell'app.
     
-    [:octicons-home-16: Pagina principale](https://canarymail.io){ .md-button .md-button--primary }
-    [:octicons-eye-16:](https://canarymail.io/privacy.html){ .card-link title="Politica sulla privacy" }
+    [:octicons-home-16: Home](https://canarymail.io){ .md-button .md-button--primary }
+    [:octicons-eye-16:](https://canarymail.io/privacy.html){ .card-link title="Politica sulla Privacy" }
     [:octicons-info-16:](https://canarymail.zendesk.com/){ .card-link title=Documentazione}
     
-    ??? downloads "Scarica"
+    ??? downloads
     
         - [:simple-googleplay: Google Play](https://play.google.com/store/apps/details?id=io.canarymail.android)
         - [:simple-appstore: App Store](https://apps.apple.com/app/id1236045954)
@@ -92,25 +93,25 @@ Apple Mail ha la possibilità di caricare contenuti in remoto in background o di
 
 !!! warning
 
-    Canary Mail ha rilasciato solo di recente un client per Windows e Android, anche se non crediamo che siano stabili come le loro controparti per iOS e Mac.
+    Canary Mail ha rilasciato soltanto di recente un client per Windows e Android, sebbene non crediamo sia altrettanto stabile, quanto le controparti per iOS e Mac.
 
-Canary Mail è closed-source. Lo consigliamo a causa della scarsa scelta di client email su iOS che supportano la E2EE PGP.
+Canary Mail è closed-source. Lo consigliamo a causa di alcune scelte per i client email su iOS, che supportano l'E2EE PGP.
 
 ### FairEmail (Android)
 
 !!! recommendation
 
-    ![logo FairEmail ](assets/img/email-clients/fairemail.svg){ align=right }
+    ![Logo di FairEmail ](assets/img/email-clients/fairemail.svg){ align=right }
     
-    **FairEmail** è un'applicazione di posta elettronica minimale e open-source, che utilizza standard aperti (IMAP, SMTP, OpenPGP) con un basso consumo di dati e batteria.
+    **FairEmail** è un'app di email minimale e open source che utilizza gli standard apeerti (IMAP, SMTP, OpenPGP), con un basso consumo di dati e batteria.
     
-    [:octicons-home-16: Pagina principale](https://email.faircode.eu){ .md-button .md-button--primary }
-    [:octicons-eye-16:](https://github.com/M66B/FairEmail/blob/master/PRIVACY.md){ .card-link title="Politica sulla privacy" }
+    [:octicons-home-16: Home](https://email.faircode.eu){ .md-button .md-button--primary }
+    [:octicons-eye-16:](https://github.com/M66B/FairEmail/blob/master/PRIVACY.md){ .card-link title="Politica sulla Privacy" }
     [:octicons-info-16:](https://github.com/M66B/FairEmail/blob/master/FAQ.md){ .card-link title=Documentazione}
-    [:octicons-code-16:](https://github.com/M66B/FairEmail){ .card-link title="Codice sorgente" }
+    [:octicons-code-16:](https://github.com/M66B/FairEmail){ .card-link title="Codice Sorgente" }
     [:octicons-heart-16:](https://email.faircode.eu/donate/){ .card-link title=Contribuisci }
     
-    ??? downloads "Scarica"
+    ??? downloads
     
         - [:simple-googleplay: Google Play](https://play.google.com/store/apps/details?id=eu.faircode.email)
         - [:simple-github: GitHub](https://github.com/M66B/FairEmail/releases)
@@ -119,17 +120,17 @@ Canary Mail è closed-source. Lo consigliamo a causa della scarsa scelta di clie
 
 !!! recommendation
 
-    ![Evolution logo](assets/img/email-clients/evolution.svg){ align=right }
+    ![Logo di Evolution](assets/img/email-clients/evolution.svg){ align=right }
     
-    **Evolution** è un'applicazione per la gestione delle informazioni personali che fornisce funzionalità integrate di posta, calendario e rubrica. Evolution dispone di un'ampia [documentazione](https://help.gnome.org/users/evolution/stable/) per aiutarti a iniziare.
+    **Evolution** è un'applicazione per la gestione delle informazioni personali che fornisce funzionalità integrate di email, calendario e rubrica. Evolution dispone di un'ampia [documentazione](https://help.gnome.org/users/evolution/stable/) per aiutarti a iniziare.
     
-    [:octicons-home-16: Pagina principale](https://wiki.gnome.org/Apps/Evolution){ .md-button .md-button--primary }
-    [:octicons-eye-16:](https://wiki.gnome.org/Apps/Evolution/PrivacyPolicy){ .card-link title="Politica sulla privacy" }
+    [:octicons-home-16: Home](https://wiki.gnome.org/Apps/Evolution){ .md-button .md-button--primary }
+    [:octicons-eye-16:](https://wiki.gnome.org/Apps/Evolution/PrivacyPolicy){ .card-link title="Politica sulla Privacy" }
     [:octicons-info-16:](https://help.gnome.org/users/evolution/stable/){ .card-link title=Documentazione}
-    [:octicons-code-16:](https://gitlab.gnome.org/GNOME/evolution/){ .card-link title="Codice sorgente" }
+    [:octicons-code-16:](https://gitlab.gnome.org/GNOME/evolution/){ .card-link title="Codice Sorgente" }
     [:octicons-heart-16:](https://www.gnome.org/donate/){ .card-link title=Contribuisci }
     
-    ??? downloads "Scarica"
+    ??? downloads
     
         - [:simple-flathub: Flathub](https://flathub.org/apps/details/org.gnome.Evolution)
 
@@ -137,42 +138,42 @@ Canary Mail è closed-source. Lo consigliamo a causa della scarsa scelta di clie
 
 !!! recommendation
 
-    ![K-9 Mail logo](assets/img/email-clients/k9mail.svg){ align=right }
+    ![Logo di K-9 Mail](assets/img/email-clients/k9mail.svg){ align=right }
     
-    **K-9 Mail** è un'applicazione di posta elettronica indipendente che supporta sia le caselle POP3 che IMAP, ma supporta solo la posta push per IMAP.
+    **K-9 Mail** è un'applicazione indipendente di email che supporta le caselle POP3 e IMAP, ma supporta soltanto le email push per IMAP.
     
     In futuro, K-9 Mail sarà il client [ufficiale](https://k9mail.app/2022/06/13/K-9-Mail-and-Thunderbird.html) di Thunderbird per Android.
     
-    [:octicons-home-16: Pagina principale](https://k9mail.app){ .md-button .md-button--primary }
-    [:octicons-eye-16:](https://k9mail.app/privacy){ .card-link title="Politica sulla privacy" }
+    [:octicons-home-16: Home](https://k9mail.app){ .md-button .md-button--primary }
+    [:octicons-eye-16:](https://k9mail.app/privacy){ .card-link title="Politica sulla Privacy" }
     [:octicons-info-16:](https://docs.k9mail.app/){ .card-link title=Documentazione}
-    [:octicons-code-16:](https://github.com/k9mail/k-9){ .card-link title="Codice sorgente" }
+    [:octicons-code-16:](https://github.com/k9mail/k-9){ .card-link title="Codice Sorgente" }
     [:octicons-heart-16:](https://k9mail.app/contribute){ .card-link title=Contribuisci }
     
-    ??? downloads "Scarica"
+    ??? downloads
     
         - [:simple-googleplay: Google Play](https://play.google.com/store/apps/details?id=com.fsck.k9)
         - [:simple-github: GitHub](https://github.com/k9mail/k-9/releases)
 
 !!! warning
 
-    Quando si risponde a qualcuno di una mailing list, l'opzione "rispondi" può includere anche la mailing list. Per maggiori informazioni visita le loro (https://github.com/thundernest/k-9/issues/3738).
+    Rispondendo a qualcuno in una mailing list, l'opzione "rispondi" potrebbe includere anche la mailing list stessa. Per maggiori informazioni visita il ticket [#3738 di thundernest/k-9](https://github.com/thundernest/k-9/issues/3738).
 
 ### Kontact (KDE)
 
 !!! recommendation
 
-    ![Logo Kontact](assets/img/email-clients/kontact.svg){ align=right }
+    ![Logo di Kontact](assets/img/email-clients/kontact.svg){ align=right }
     
-    **Kontact** è un'applicazione di gestione delle informazioni personali (PIM) del progetto [KDE](https://kde.org). Offre un client email, una rubrica, un'agenda e un client RSS.
+    **Kontact** è un'applicazione di gestione delle informazioni personali (PIM), dal progetto [KDE](https://dke.org). Fornisce un client email, rubrica, un'agenda e un client RSS.
     
-    [:octicons-home-16: Pagina Principale](https://kontact.kde.org){ .md-button .md-button--primary }
+    [:octicons-home-16: Home](https://kontact.kde.org){ .md-button .md-button--primary }
     [:octicons-eye-16:](https://kde.org/privacypolicy-apps){ .card-link title="Politica sulla Privacy" }
     [:octicons-info-16:](https://kontact.kde.org/users/){ .card-link title=Documentazione}
     [:octicons-code-16:](https://invent.kde.org/pim/kmail){ .card-link title="Codice Sorgente" }
     [:octicons-heart-16:](https://kde.org/community/donations/){ .card-link title=Contribuisci }
     
-    ??? downloads "Scarica"
+    ??? downloads
     
         - [:simple-linux: Linux](https://kontact.kde.org/download)
         - [:simple-flathub: Flathub](https://flathub.org/apps/details/org.kde.kontact)
@@ -181,16 +182,16 @@ Canary Mail è closed-source. Lo consigliamo a causa della scarsa scelta di clie
 
 !!! recommendation
 
-    ![Logo Mailvelope](assets/img/email-clients/mailvelope.svg){ align=right }
+    ![Logo di Mailvelope](assets/img/email-clients/mailvelope.svg){ align=right }
     
-    **Mailvelope** è un'estensione del browser che consente lo scambio di e-mail crittografate secondo lo standard di crittografia OpenPGP.
+    **Mailvelope** è un'estensione del browser che consente lo scambio di email crittografate secondo lo standard di crittografia OpenPGP.
     
-    [:octicons-home-16: Pagina Principale](https://www.mailvelope.com){ .md-button .md-button--primary }
+    [:octicons-home-16: Home](https://www.mailvelope.com){ .md-button .md-button--primary }
     [:octicons-eye-16:](https://www.mailvelope.com/en/privacy-policy){ .card-link title="Politica sulla Privacy" }
     [:octicons-info-16:](https://mailvelope.com/faq){ .card-link title=Documentazione}
     [:octicons-code-16:](https://github.com/mailvelope/mailvelope){ .card-link title="Codice Sorgente" }
     
-    ??? downloads "Scarica"
+    ??? downloads
     
         - [:simple-firefoxbrowser: Firefox](https://addons.mozilla.org/firefox/addon/mailvelope)
         - [:simple-googlechrome: Chrome](https://chrome.google.com/webstore/detail/mailvelope/kajibbejlbohfaggdiogboambcijhkke)
@@ -200,42 +201,42 @@ Canary Mail è closed-source. Lo consigliamo a causa della scarsa scelta di clie
 
 !!! recommendation
 
-    ![NeoMutt logo](assets/img/email-clients/mutt.svg){ align=right }
+    ![Logo di NeoMutt](assets/img/email-clients/mutt.svg){ align=right }
     
-    **NeoMutt** è un lettore di posta elettronica a riga di comando open-source (or MUA) per Linux e BSD. È un fork di [Mutt](https://it.wikipedia.org/wiki/Mutt) con funzionalità aggiuntive.
+    **NeoMutt** è un lettore di email a riga di comando (MUA) open source per Linux e BSD. È una biforcazione di [Mutt](https://it.wikipedia.org/wiki/Mutt) con funzionalità aggiuntive.
     
-    NeoMutt è un client basato sul testo che ha una curva di apprendimento molto ripida. Tuttavia, è molto personalizzabile.
+    NeoMutt è un client basato su testo con una curva d'apprendimento molto rapida. Tuttavia, è molto personalizzabile.
     
-    [:octicons-home-16: Pagina Principale](https://neomutt.org){ .md-button .md-button--primary }
+    [:octicons-home-16: Home](https://neomutt.org){ .md-button .md-button--primary }
     [:octicons-info-16:](https://neomutt.org/guide/){ .card-link title=Documentazione}
     [:octicons-code-16:](https://github.com/neomutt/neomutt){ .card-link title="Codice Sorgente" }
     [:octicons-heart-16:](https://www.paypal.com/paypalme/russon/){ .card-link title=Contribuisci }
     
-    ??? downloads "Scarica"
+    ??? downloads
     
         - [:simple-apple: macOS](https://neomutt.org/distro)
         - [:simple-linux: Linux](https://neomutt.org/distro)
 
 ## Criteri
 
-**Si noti che non siamo affiliati a nessuno dei progetti che raccomandiamo.** Oltre ai [ nostri criteri standard ](about/criteria.md), abbiamo sviluppato una serie di requisiti chiari che ci consentono di fornire raccomandazioni oggettive. Ti consigliamo di familiarizzare con questo elenco prima di scegliere di utilizzare un progetto e di condurre le tue ricerche per assicurarti che sia la scelta giusta per te.
+**Ti preghiamo di notare che non siamo affiliati con alcun progetto consigliato.** Oltre ai [nostri criteri standard](about/criteria.md), abbiamo sviluppato una serie chiara di requisiti per consentirci di fornire consigli oggettivi. Ti suggeriamo di familiarizzare con questo elenco prima di scegliere di utilizzare un progetto e di condurre le tue ricerche per assicurarti che si tratti della scelta adatta a te.
 
-!!! example "Questa sezione è nuova"
+!!! esempio "Questa sezione è nuova"
 
-    Stiamo lavorando per stabilire criteri definiti per ogni sezione del nostro sito, e questo potrebbe essere soggetto a modifiche. Se hai qualsiasi domanda sui nostri criteri, ti preghiamo di [chiedere sul nostro forum](https://discuss.privacyguides.net/latest) e di non supporre che non abbiamo considerato qualcosa, formulando i nostri consigli, se non elencato qui. Molti fattori sono presi in considerazione e discussi quando consigliamo un progetto e la documentazione di ognuno è in lavorazione.
+    Stiamo lavorando per stabilire i criteri definiti per ogni sezione del nostro sito e, questa, potrebbe essere soggetta a modifiche. Se hai qualsiasi domanda sui nostri criteri, ti preghiamo di [chiedere sul nostro forum](https://discuss.privacyguides.net/latest) e di non supporre che non abbiamo considerato qualcosa, formulando i nostri consigli, se non elencato qui. Molti fattori sono presi in considerazione e discussi quando consigliamo un progetto e la documentazione di ognuno è in lavorazione.
 
 ### Requisiti minimi
 
-- Le applicazioni sviluppate per sistemi operativi open-source devono essere open-source.
-- Non deve raccogliere la telemetria o deve avere un modo semplice per disabilitare tutta la telemetria.
+- Le app sviluppate per i sistemi operativi open source, devono essere open source.
+- Non devono raccogliere telemetria, o deve disporre di un metodo facile per disabilitare tutta la telemetria.
 - Deve supportare la crittografia dei messaggi OpenPGP.
 
-### Criteri ottimali
+### Miglior Caso
 
-I nostri criteri ottimali rappresentano ciò che vorremmo vedere dal progetto perfetto in questa categoria. Le nostre raccomandazioni potrebbero non includere tutte o alcune di queste funzionalità, ma quelle che le includono potrebbero avere una posizione più alta rispetto ad altre in questa pagina.
+I nostri criteri del caso migliore rappresentano cosa vorremmo vedere dal progetto perfetto in questa categoria. I nostri consigli potrebbero non includere tutte o alcune di queste funzionalità, ma quelli che le includono potrebbero essere preferiti ad altri su questa pagina.
 
-- Dovrebbe essere open-source.
+- Dovrebbe essere open source.
 - Dovrebbe essere multipiattaforma.
-- Non dovrebbe raccogliere alcuna telemetria per impostazione predefinita.
-- Deve supportare OpenPGP in modo nativo, cioè senza estensioni.
-- Dovrebbe supportare l'archiviazione locale delle e-mail crittografate OpenPGP.
+- Non dovrebbe raccogliere alcuna telemetria di default.
+- Deve supportare OpenPGP nativamente, cioè senza estensioni.
+- Dovrebbe supportare l'archiviazione locale delle email crittografate, OpenPGP.

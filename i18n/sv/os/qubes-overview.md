@@ -4,7 +4,7 @@ icon: simple/qubesos
 description: Qubes is an operating system built around isolating apps within virtual machines for heightened security.
 ---
 
-[**Qubes OS**](../desktop.md#qubes-os) är ett operativsystem som använder hypervisorn [Xen](https://en.wikipedia.org/wiki/Xen) för att ge stark säkerhet för skrivbordsdatorer genom isolerade virtuella maskiner. Varje virtuell dator kallas *Qube* och du kan tilldela varje Qube en förtroendenivå baserat på dess syfte. Eftersom Qubes OS ger säkerhet genom att använda isolering och endast tillåta åtgärder från fall till fall är det motsatsen till [badness enumeration](https://www.ranum.com/security/computer_security/editorials/dumb/).
+[**Qubes OS**](../desktop.md#qubes-os) is an open-source operating system which uses the [Xen](https://en.wikipedia.org/wiki/Xen) hypervisor to provide strong security for desktop computing through isolated virtual machines. Varje virtuell dator kallas *Qube* och du kan tilldela varje Qube en förtroendenivå baserat på dess syfte. As Qubes OS provides security by using isolation, and only permitting actions on a per-case basis, it is the opposite of [badness enumeration](https://www.ranum.com/security/computer_security/editorials/dumb/).
 
 ## Hur fungerar Qubes OS?
 

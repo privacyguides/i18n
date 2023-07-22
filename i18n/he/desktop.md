@@ -111,7 +111,7 @@ Nix הוא מנהל חבילות מבוסס מקור; אם אין מוכן מר�
 
     ![Whonix logo](assets/img/linux-desktop/whonix.svg){ align=right }
     
-    **Whonix** מבוסס על [Kicksecure](https://www.whonix.org/wiki/Kicksecure), מזלג ממוקד אבטחה של דביאן. מטרתו לספק פרטיות, אבטחה ואנונימיות באינטרנט. כדאי להשתמש ב - Whonix בשילוב עם [Qubes OS](# qubes- os).
+    **Whonix** is based on [Kicksecure](#kicksecure), a security-focused fork of Debian. מטרתו לספק פרטיות, אבטחה ואנונימיות באינטרנט. כדאי להשתמש ב - Whonix בשילוב עם [Qubes OS](# qubes- os).
     
     [:octicons-home-16: Homepage](https://www.whonix.org/){ .md-button .md-button--primary }
     [:simple-torbrowser:](http://www.dds6qkxpwdeubwucdiaord2xgbbeyds25rbsgr73tbfpqpt4a6vjwsyd.onion){ .card-link title="Onion Service" }
@@ -150,35 +150,50 @@ Tailsכולל[uBlock Origin](desktop-browsers.md#ublock-origin) בדפדפן Tor
 
 !!! recommendation
 
-    ![לוגו של מערכת ההפעלה Qubes ]( assets/img/qubes/qubes_os.svg){ align=right }
+    ![Qubes OS logo](assets/img/qubes/qubes_os.svg){ align=right }
     
-    **מערכת ההפעלה Qubes** היא מערכת הפעלה בקוד פתוח שנועדה לספק אבטחה חזקה למחשוב שולחני. Qubes מבוססת על Xen, מערכת החלונות X ולינוקס, ויכולה להריץ את רוב יישומי לינוקס ולהשתמש ברוב מנהלי ההתקן של לינוקס.
+    **Qubes OS** is an open-source operating system designed to provide strong security for desktop computing through secure virtual machines (a.k.a. "Qubes"). Qubes מבוססת על Xen, מערכת החלונות X ולינוקס, ויכולה להריץ את רוב יישומי לינוקס ולהשתמש ברוב מנהלי ההתקן של לינוקס.
     
     [:octicons-home-16: Homepage](https://www.qubes-os.org/){ .md-button .md-button--primary }
-    [:material-arrow-right-drop-circle: Overview](os/qubes-overview.md){ .md-button .md-button--primary }
     [:simple-torbrowser:](http://qubesosfasa4zl44o4tws22di6kepyzfeqv3tg4e3ztknltfxqrymdad.onion){ .card-link title="Onion Service" }
-    [:octicons-eye-16:](https://www.qubes-os.org/privacy/){ .card-link title="מדיניות פרטיות" }
-    [:octicons-info-16:](https://www.qubes-os.org/doc/){ .card-link title=תיעוד }
-    [:octicons-code-16:](https://github.com/QubesOS/){ .card-link title="קוד מקור" }
-    [:octicons-heart-16:](https://www.qubes-os.org/donate/){ .card-link title=לתרומה }
+    [:octicons-eye-16:](https://www.qubes-os.org/privacy/){ .card-link title="Privacy Policy" }
+    [:octicons-info-16:](https://www.qubes-os.org/doc/){ .card-link title=Documentation }
+    [:octicons-code-16:](https://github.com/QubesOS/){ .card-link title="Source Code" }
+    [:octicons-heart-16:](https://www.qubes-os.org/donate/){ .card-link title=Contribute }
 
-Qubes OS היא מערכת הפעלה מבוססת Xen שנועדה לספק אבטחה חזקה למחשוב שולחני באמצעות מכונות וירטואליות מאובטחות (VMs), הידוע גם בשם *Qubes*.
+Qubes OS secures the computer by isolating subsystems (e.g., networking, USB, etc.) and applications in separate VMs. Should one part of the system be compromised, the extra isolation is likely to protect the rest of the system.
 
-מערכת ההפעלה Qubes מאבטחת את המחשב על ידי בידוד תת - מערכות (למשל, רשת, USB וכו ') ויישומים ב - VMs נפרדים. אם חלק אחד של המערכת נפגע, הבידוד הנוסף עשוי להגן על שאר המערכת. לפרטים נוספים ראו Qubes [FAQ](https://www.qubes-os.org/faq/).
+For further information about how Qubes works, read our full [Qubes OS overview](os/qubes-overview.md) page.
+
+### Kicksecure
+
+While we [recommend against](os/linux-overview.md#release-cycle) "perpetually outdated" distributions like Debian for Desktop use in most cases, Kicksecure is a Debian-based operating system which has been hardened to be much more than a typical Linux install.
+
+!!! recommendation
+
+    ![Kicksecure logo](assets/img/linux-desktop/kicksecure.svg){ align=right }
+    
+    **Kicksecure**—in oversimplified terms—is a set of scripts, configurations, and packages that substantially reduce the attack surface of Debian. זה מכסה הרבה המלצות לפרטיות והקשחה כברירת מחדל. It also serves as the base OS for [Whonix](#whonix).
+    
+    [:octicons-home-16: Homepage](https://www.kicksecure.com/){ .md-button .md-button--primary }
+    [:octicons-eye-16:](https://www.kicksecure.com/wiki/Privacy_Policy){ .card-link title="Privacy Policy" }
+    [:octicons-info-16:](https://www.kicksecure.com/wiki/Documentation){ .card-link title=Documentation }
+    [:octicons-code-16:](https://github.com/Kicksecure){ .card-link title="Source Code" }
+    [:octicons-heart-16:](https://www.kicksecure.com/wiki/Donate){ .card-link title=Contribute }
 
 ## קריטריונים
 
-**שים לב שאיננו קשורים לאף אחד מהפרויקטים שאנו ממליצים עליהם.** בנוסף ל [הקריטריונים הסטנדרטיים שלנו](about/criteria.md), פיתחנו סט ברור של דרישות כדי לאפשר לנו לספק המלצות אובייקטיביות. אנו מציעים לך להכיר את הרשימה הזו לפני שתבחר להשתמש בפרויקט, ולערוך מחקר משלך כדי להבטיח שזו הבחירה הנכונה עבורך.
+Choosing a Linux distro that is right for you will come down to a huge variety of personal preferences, and this page is **not** meant to be an exhaustive list of every viable distribution. Our Linux overview page has some advice on [choosing a distro](os/linux-overview.md#choosing-your-distribution) in more detail. The distros on *this* page do all generally follow the guidelines we covered there, and all meet these standards:
 
-!!! example "חלק זה הוא חדש"
+- Free and open-source.
+- Receives regular software and kernel updates.
+- [Avoids X11](os/linux-overview.md#wayland).
+    - The notable exception here is Qubes, but the isolation issues which X11 typically has are avoided by virtualization. This isolation only applies to apps *running in different qubes* (virtual machines), apps running in the *same* qube are not protected from each other.
+- Supports full-disk encryption during installation.
+- Doesn't freeze regular releases for more than 1 year.
+    - We [recommend against](os/linux-overview.md#release-cycle) "Long Term Support" or "stable" distro releases for desktop usage.
+- Supports a wide variety of hardware.
+- Preference towards larger projects.
+    - Maintaining an operating system is a major challenge, and smaller projects have a tendency to make more avoidable mistakes, or delay critical updates (or worse, disappear entirely). We lean towards projects which will likely be around 10 years from now (whether that's due to corporate backing or very significant community support), and away from projects which are hand-built or have a small number of maintainers.
 
-    אנו עובדים על קביעת קריטריונים מוגדרים לכל קטע באתר שלנו, והדבר עשוי להשתנות. אם יש לך שאלות כלשהן לגבי הקריטריונים שלנו, אנא [שאל בפורום שלנו](https://discuss.privacyguides.net/latest) ואל תניח שלא שקלנו משהו כשהצענו את ההמלצות שלנו אם הוא לא רשום כאן. ישנם גורמים רבים שנחשבים ונדונים כאשר אנו ממליצים על פרויקט, ותיעוד כל אחד מהם הוא עבודה בתהליך.
-
-מערכות ההפעלה המומלצות שלנו:
-
-- זה חייב להיות קוד פתוח.
-- חייבים לקבל עדכוני תוכנה וליבת לינוקס באופן קבוע.
-- הפצות לינוקס חייבות לתמוך ב[Wayland](os/linux-overview.md#wayland).
-- חייב לתמוך בהצפנה בדיסק מלא במהלך ההתקנה.
-- אין להקפיא מהדורות רגילות במשך יותר משנה. [איננו ממליצים](os/linux-overview.md#release-cycle) על מהדורות distro "תמיכה לטווח ארוך" או "יציבה" לשימוש בשולחן העבודה.
-- חייב לתמוך במגוון רחב של חומרה.
+In addition, [our standard criteria](about/criteria.md) for recommended projects still applies. **Please note we are not affiliated with any of the projects we recommend.**

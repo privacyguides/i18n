@@ -29,7 +29,7 @@ Quando utilizzi un'istanza gestita da altri, assicurati di leggere la politica s
     [:octicons-code-16:](https://github.com/zedeus/nitter){ .card-link title="Codice sorgente" }
     [:octicons-heart-16:](https://github.com/zedeus/nitter#nitter){ .card-link title=Contribuisci}
 
-!!! tip "Suggerimento"
+!!! tip
 
     Nitter è utile se si desidera navigare tra i contenuti di Twitter senza dover effettuare il login e se si desidera disabilitare JavaScript nel browser, come nel caso di [Tor Browser](https://www.torproject.org/) al livello di sicurezza Molto Sicuro. Permette anche di [creare feed RSS per Twitter] (news-aggregators.md#twitter).
 
@@ -50,7 +50,7 @@ Quando utilizzi un'istanza gestita da altri, assicurati di leggere la politica s
     [:octicons-info-16:](https://github.com/pablouser1/ProxiTok/wiki){ .card-link title=Documentazione}
     [:octicons-code-16:](https://github.com/pablouser1/ProxiTok){ .card-link title="Codice sorgente" }
 
-!!! tip "Suggerimento"
+!!! tip
 
     ProxiTok è utile se desideri disabilitare JavaScript nel browser, come ad esempio con [Tor Browser](https://www.torproject.org/) sul livello di sicurezza Molto Sicuro.
 
@@ -183,7 +183,7 @@ Per impostazione predefinita, LibreTube blocca tutti gli annunci pubblicitari di
 
     Invidious non esegue il proxy dei video in modo predefinito. I video guardati attraverso Invidious continueranno a collegarsi direttamente ai server di Google (ad esempio, `googlevideo.com`); tuttavia, alcune istanze supportano il proxy video: è sufficiente attivare *Proxy video* nelle impostazioni dell'istanza o aggiungere `&local=true` all'URL.
 
-!!! tip "Suggerimento"
+!!! tip
 
     Invidious è utile se si desidera disabilitare JavaScript nel browser, ad esempio [Tor Browser](https://www.torproject.org/) al livello di sicurezza Molto Sicuro. Non garantisce di per sé la privacy e non consigliamo di accedere ad alcun account.
 
@@ -203,7 +203,7 @@ Per impostazione predefinita, LibreTube blocca tutti gli annunci pubblicitari di
     [:octicons-code-16:](https://github.com/TeamPiped/Piped){ .card-link title="Codice sorgente" }
     [:octicons-heart-16:](https://github.com/TeamPiped/Piped#donations){ .card-link title=Contribuisci }
 
-!!! tip "Suggerimento"
+!!! tip
 
     Piped è utile se si vuole utilizzare [SponsorBlock](https://sponsor.ajay.app) senza installare un'estensione o se si vuole accedere a contenuti con limiti d'età senza un account. Non garantisce di per sé la privacy e non consigliamo di accedere ad alcun account.
 

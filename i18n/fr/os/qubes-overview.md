@@ -4,7 +4,7 @@ icon: simple/qubesos
 description: Qubes est un système d'exploitation conçu pour isoler les applications au sein de machines virtuelles afin de renforcer la sécurité.
 ---
 
-[**Qubes OS**](../desktop.md#qubes-os) est un système d'exploitation qui utilise l'hyperviseur [Xen](https://en.wikipedia.org/wiki/Xen) pour fournir une sécurité forte pour l'informatique de bureau par le biais de machines virtuelles isolées. Chaque VM est appelée un *Qube* et vous pouvez attribuer à chaque Qube un niveau de confiance en fonction de son objectif. Étant donné que le système d'exploitation Qubes assure la sécurité en utilisant l'isolation et en n'autorisant des actions qu'au cas par cas, il est à l'opposé de [l'énumération de méchanceté](https://www.ranum.com/security/computer_security/editorials/dumb/).
+[**Qubes OS**](../desktop.md#qubes-os) est un système d'exploitation open-source qui utilise l'hyperviseur [Xen](https://en.wikipedia.org/wiki/Xen) pour fournir une sécurité forte pour l'informatique de bureau par le biais de machines virtuelles isolées. Chaque VM est appelée un *Qube* et vous pouvez attribuer à chaque Qube un niveau de confiance en fonction de son objectif. Étant donné que Qubes OS assure la sécurité en utilisant l'isolation et en n'autorisant des actions qu'au cas par cas, il est à l'opposé de [l'énumération de méchanceté](https://www.ranum.com/security/computer_security/editorials/dumb/).
 
 ## Comment fonctionne Qubes OS ?
 

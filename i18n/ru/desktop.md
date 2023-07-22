@@ -109,9 +109,9 @@ Nix - это менеджер пакетов на основе исходных 
 
 !!! recommendation
 
-    ![Логотип Whonix](assets/img/linux-desktop/whonix.svg){ align=right }
+    ![Whonix logo](assets/img/linux-desktop/whonix.svg){ align=right }
     
-    **Whonix** основан на [Kicksecure](https://www.whonix.org/wiki/Kicksecure), форке Debian, ориентированном на безопасность. Его цель - обеспечить конфиденциальность, безопасность и анонимность в интернете. Whonix лучше всего использовать в сочетании с [Qubes OS](#qubes-os).
+    **Whonix** is based on [Kicksecure](#kicksecure), a security-focused fork of Debian. Его цель - обеспечить конфиденциальность, безопасность и анонимность в интернете. Whonix лучше всего использовать в сочетании с [Qubes OS](#qubes-os).
     
     [:octicons-home-16: Домашняя страница](https://www.whonix.org/){ .md-button .md-button--primary }
     [:simple-torbrowser:](http://www.dds6qkxpwdeubwucdiaord2xgbbeyds25rbsgr73tbfpqpt4a6vjwsyd.onion){ .card-link title="Сервис Onion" }
@@ -150,35 +150,50 @@ Tails содержит [uBlock Origin](desktop-browsers.md#ublock-origin) в Tor
 
 !!! recommendation
 
-    ![Логотип Qubes OS](assets/img/qubes/qubes_os.svg){ align=right }
+    ![Qubes OS logo](assets/img/qubes/qubes_os.svg){ align=right }
     
-    **Qubes OS** - это операционная система с открытым исходным кодом, разработанная для обеспечения сильной безопасности персональных компьютеров. Qubes основан на Xen, X Window System и Linux, и может запускать большинство Linux-приложений и использовать большинство драйверов для Linux.
+    **Qubes OS** is an open-source operating system designed to provide strong security for desktop computing through secure virtual machines (a.k.a. "Qubes"). Qubes основан на Xen, X Window System и Linux, и может запускать большинство Linux-приложений и использовать большинство драйверов для Linux.
     
-    [:octicons-home-16: Домашняя страница](https://www.qubes-os.org/){ .md-button .md-button--primary }
-    [:material-arrow-right-drop-circle: Обзор](os/qubes-overview.md){ .md-button .md-button--primary }
-    [:simple-torbrowser:](http://qubesosfasa4zl44o4tws22di6kepyzfeqv3tg4e3ztknltfxqrymdad.onion){ .card-link title="Сервис Onion" }
-    [:octicons-eye-16:](https://www.qubes-os.org/privacy/){ .card-link title="Политика конфиденциальности" }
-    [:octicons-info-16:](https://www.qubes-os.org/doc/){ .card-link title=Документация }
-    [:octicons-code-16:](https://github.com/QubesOS/){ .card-link title="Исходный код" }
-    [:octicons-heart-16:](https://www.qubes-os.org/donate/){ .card-link title=Поддержать }
+    [:octicons-home-16: Homepage](https://www.qubes-os.org/){ .md-button .md-button--primary }
+    [:simple-torbrowser:](http://qubesosfasa4zl44o4tws22di6kepyzfeqv3tg4e3ztknltfxqrymdad.onion){ .card-link title="Onion Service" }
+    [:octicons-eye-16:](https://www.qubes-os.org/privacy/){ .card-link title="Privacy Policy" }
+    [:octicons-info-16:](https://www.qubes-os.org/doc/){ .card-link title=Documentation }
+    [:octicons-code-16:](https://github.com/QubesOS/){ .card-link title="Source Code" }
+    [:octicons-heart-16:](https://www.qubes-os.org/donate/){ .card-link title=Contribute }
 
-Qubes OS - это операционная система на базе Xen, предназначенная для обеспечения надежной защиты настольных компьютеров с помощью защищенных виртуальных машин (ВМ), также известных как *Qubes*.
+Qubes OS secures the computer by isolating subsystems (e.g., networking, USB, etc.) and applications in separate VMs. Should one part of the system be compromised, the extra isolation is likely to protect the rest of the system.
 
-Операционная система Qubes OS обеспечивает безопасность компьютера путем изоляции подсистем (например, сетевых, USB и т.д.) и приложений в отдельных виртуальных машинах. Если одна часть системы будет скомпрометирована, дополнительная изоляция, скорее всего, защитит остальную часть системы. Более подробную информацию можно найти на сайте [Qubes](https://www.qubes-os.org/faq/).
+For further information about how Qubes works, read our full [Qubes OS overview](os/qubes-overview.md) page.
+
+### Kicksecure
+
+While we [recommend against](os/linux-overview.md#release-cycle) "perpetually outdated" distributions like Debian for Desktop use in most cases, Kicksecure is a Debian-based operating system which has been hardened to be much more than a typical Linux install.
+
+!!! recommendation
+
+    ![Kicksecure logo](assets/img/linux-desktop/kicksecure.svg){ align=right }
+    
+    **Kicksecure**—in oversimplified terms—is a set of scripts, configurations, and packages that substantially reduce the attack surface of Debian. Он охватывает множество рекомендаций по обеспечению конфиденциальности и усилению защиты, без необходимости дополнительной настройки. It also serves as the base OS for [Whonix](#whonix).
+    
+    [:octicons-home-16: Homepage](https://www.kicksecure.com/){ .md-button .md-button--primary }
+    [:octicons-eye-16:](https://www.kicksecure.com/wiki/Privacy_Policy){ .card-link title="Privacy Policy" }
+    [:octicons-info-16:](https://www.kicksecure.com/wiki/Documentation){ .card-link title=Documentation }
+    [:octicons-code-16:](https://github.com/Kicksecure){ .card-link title="Source Code" }
+    [:octicons-heart-16:](https://www.kicksecure.com/wiki/Donate){ .card-link title=Contribute }
 
 ## Критерии
 
-**Обрати внимание, что у нас нет связей ни с одним проектом, который мы рекомендуем.** В дополнение к [нашим стандартным критериям](about/criteria.md) мы разработали четкий набор требований, позволяющий давать объективные рекомендации. Перед тем, как вы решите выбрать какой-либо проект, мы рекомендуем вам ознакомиться со списком критериев и провести собственное исследование, чтобы убедиться в правильности своего выбора.
+Choosing a Linux distro that is right for you will come down to a huge variety of personal preferences, and this page is **not** meant to be an exhaustive list of every viable distribution. Our Linux overview page has some advice on [choosing a distro](os/linux-overview.md#choosing-your-distribution) in more detail. The distros on *this* page do all generally follow the guidelines we covered there, and all meet these standards:
 
-!!! example "Это новый раздел"
+- Free and open-source.
+- Receives regular software and kernel updates.
+- [Avoids X11](os/linux-overview.md#wayland).
+    - The notable exception here is Qubes, but the isolation issues which X11 typically has are avoided by virtualization. This isolation only applies to apps *running in different qubes* (virtual machines), apps running in the *same* qube are not protected from each other.
+- Supports full-disk encryption during installation.
+- Doesn't freeze regular releases for more than 1 year.
+    - We [recommend against](os/linux-overview.md#release-cycle) "Long Term Support" or "stable" distro releases for desktop usage.
+- Supports a wide variety of hardware.
+- Preference towards larger projects.
+    - Maintaining an operating system is a major challenge, and smaller projects have a tendency to make more avoidable mistakes, or delay critical updates (or worse, disappear entirely). We lean towards projects which will likely be around 10 years from now (whether that's due to corporate backing or very significant community support), and away from projects which are hand-built or have a small number of maintainers.
 
-    Мы всё еще работаем над установлением критериев для каждого раздела нашего сайта, поэтому они могут поменяться в будущем. Если у вас есть вопросы по поводу наших критериев, пожалуйста, [задавайте их на нашем форуме](https://discuss.privacyguides.net/latest). Если какой-то критерий здесь не указан, это не значит, что мы его не учли. Перед тем, как рекомендовать какой-либо проект мы учитываем и обсуждаем множество факторов. Документирование этих факторов ещё не завершено.
-
-Наши рекомендованные операционные системы:
-
-- Должны иметь открытый исходный код.
-- Должны получать регулярные обновления программного обеспечения и ядра Linux.
-- Дистрибутивы Linux должны поддерживать [Wayland](os/linux-overview.md#wayland).
-- Должны предлагать шифрование всего диска во время установки.
-- Не должны замораживать релизы более чем на 1 год. Мы [не рекомендуем](os/linux-overview.md#release-cycle) дистрибутивы с "Long Term Support" или "stable" релизами для персональных компьютеров.
-- Должны поддерживать широкий спектр устройств.
+In addition, [our standard criteria](about/criteria.md) for recommended projects still applies. **Please note we are not affiliated with any of the projects we recommend.**

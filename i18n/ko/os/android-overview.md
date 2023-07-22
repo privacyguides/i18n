@@ -4,9 +4,13 @@ icon: simple/android
 description: Android는 강력한 보안 및 보호 기능을 갖춘 오픈 소스 운영 체제로, 휴대폰에 있어서 최고의 선택입니다.
 ---
 
-Android는 강력한 [애플리케이션 샌드박스](https://source.android.com/docs/security/app-sandbox?hl=ko), [자체 검사 부팅](https://source.android.com/docs/security/features/verifiedboot?hl=ko)(AVB) 기능과 엄밀한 [권한](https://developer.android.com/guide/topics/permissions/overview?hl=ko) 제어 시스템을 갖춘 안전한 운영 체제입니다.
+![Android 로고](../assets/img/android/android.svg){ align=right }
 
-## Android 배포판 선택
+The **Android Open Source Project** is a secure mobile operating system featuring strong [app sandboxing](https://source.android.com/security/app-sandbox), [Verified Boot](https://source.android.com/security/verifiedboot) (AVB), and a robust [permission](https://developer.android.com/guide/topics/permissions/overview) control system.
+
+## Our Advice
+
+### Android 배포판 선택
 
 여러분이 Android 휴대폰을 새로 구입하면, 기기의 기본 운영체제 내에 [Android 오픈 소스 프로젝트(AOSP)](https://source.android.com/)에 포함되지 않은 앱, 서비스가 강력히 통합되어 있는 경우가 많습니다. 대표적인 예시로는 Google Play 서비스가 있습니다. Google Play 서비스는 파일, 통화 기록, 연락처, 통화 기록, SMS 메시지, 위치, 카메라, 마이크, 하드웨어 식별자 등에 접근할 수 있으며, 이 권한을 빼앗을 수도 없습니다. 이러한 앱, 서비스는 기기의 공격 표면을 증가시키고 Android의 다양한 프라이버시 문제로 이어집니다.
 
@@ -16,7 +20,7 @@ Android는 강력한 [애플리케이션 샌드박스](https://source.android.co
 
 [Android 시스템 권장 사항 :material-arrow-right-drop-circle:](../android.md ""){.md-button}
 
-## 루팅 방지
+### 루팅 방지
 
 Android 휴대폰을 [루팅](https://ko.wikipedia.org/wiki/%EB%A3%A8%ED%8C%85_(%EC%95%88%EB%93%9C%EB%A1%9C%EC%9D%B4%EB%93%9C))할 경우, [전체 Android 보안 모델](https://en.wikipedia.org/wiki/Android_(operating_system)#Security_and_privacy)이 약화되므로 보안 수준이 크게 저하됩니다. 보안 수준이 낮아져 취약점의 발생으로 이어질 경우 프라이버시 또한 저해됩니다. 루팅은 일반적으로 부팅 파티션을 직접 조작하는 방식으로 이루어지므로, 자체 검사 부팅을 제대로 수행할 수 없습니다. 루트 권한을 요구하는 앱 또한 시스템 파티션을 수정하므로 자체 검사 부팅을 활성화할 수 없습니다. 사용자 인터페이스에서 루트 권한이 직접 노출될 경우 기기의 [공격 표면](https://en.wikipedia.org/wiki/Attack_surface)이 증가하고 [권한 에스컬레이션](https://en.wikipedia.org/wiki/Privilege_escalation) 취약성과 SELinux 정책 우회 문제가 발생할 수 있습니다.
 
@@ -26,7 +30,21 @@ AFWall+는 [패킷 필터링](https://en.wikipedia.org/wiki/Firewall_(computing)
 
 Privacy Guides는 이러한 앱들의 불확실한 프라이버시 보호 효과가 휴대폰을 루팅함으로써 발생하는 보안상의 희생을 감수할 만큼 중요하다고는 생각하지 않습니다.
 
-## 자체 검사 부팅
+### Install Updates
+
+[지원 기간이 종료된](https://endoflife.date/android) Android 버전은 사용하지 않아야 합니다. 최신 버전 Android에는 운영 체제 보안 업데이트뿐만 아니라, 중요한 프라이버시 강화 업데이트도 포함되어 있습니다.
+
+For example, [prior to Android 10](https://developer.android.com/about/versions/10/privacy/changes) any apps with the [`READ_PHONE_STATE`](https://developer.android.com/reference/android/Manifest.permission#READ_PHONE_STATE) permission could access sensitive and unique serial numbers of your phone such as [IMEI](https://en.wikipedia.org/wiki/International_Mobile_Equipment_Identity), [MEID](https://en.wikipedia.org/wiki/Mobile_equipment_identifier), or your SIM card's [IMSI](https://en.wikipedia.org/wiki/International_mobile_subscriber_identity); whereas now they must be system apps to do so. 시스템 앱은 OEM이나 Android 배포판에서만 제공됩니다.
+
+### Sharing Media
+
+You can avoid giving many apps permission to access your media with Android's built-in sharing features. Many applications allow you to "share" a file with them for media upload.
+
+For example, if you want to post a picture to Discord you can open your file manager or gallery and share that picture with the Discord app, instead of granting Discord full access to your media and photos.
+
+## Security Protections
+
+### 자체 검사 부팅
 
 [자체 검사 부팅(Verified Boot)](https://source.android.com/security/verifiedboot)은 Android 보안 모델에서 중요한 부분을 차지하고 있습니다. [Evil maid](https://en.wikipedia.org/wiki/Evil_maid_attack) 공격, 멀웨어 지속성으로부터 보호하고, [롤백 보호](https://source.android.com/security/verifiedboot/verified-boot#rollback-protection)를 통해 보안 업데이트가 다운그레이드되는 일이 없도록 보장합니다.
 
@@ -38,7 +56,7 @@ Android 10 이상부터는 기존의 전체 디스크 암호화보다 유연한 
 
 또한, OEM 중에는 마케팅과 달리 자체 검사 부팅을 제대로 구현하지 않는 경우도 많으므로 주의해야 합니다. 예시로 Fairphone 3, 4는 [기본 부트로더가 공개 AVB 서명 키를 신뢰하기 때문에](https://forum.fairphone.com/t/bootloader-avb-keys-used-in-roms-for-fairphone-3-4/83448/11), 기본적으로는 안전하지 않습니다. 이 경우 시스템이 커스텀 운영 체제 사용에 대한 [경고 없이](https://source.android.com/security/verifiedboot/boot-flow#locked-devices-with-custom-root-of-trust) 다른 Android 운영 체제(/e/ 등)를 부팅할 수 있으므로, Fairphone은 기본적으로 자체 검사 부팅이 활성화되지 않습니다.
 
-## 펌웨어 업데이트
+### 펌웨어 업데이트
 
 펌웨어 업데이트는 보안에 있어 매우 중요합니다. 펌웨어 업데이트가 없으면 기기 보안을 유지할 수 없습니다. OEM은 자신들의 협력체와 지원 계약을 맺고 제한된 기간 동안 비공개 소스로 된 구성 요소를 제공합니다. 관련 내용은 [Android 보안 게시판](https://source.android.com/security/bulletin)에 자세히 설명되어 있습니다.
 
@@ -48,11 +66,7 @@ SoC 제조업체에서 더 이상 지원하지 않는 EOL 기기는 OEM 업체�
 
 예시로, Fairphone은 6년의 지원 기간을 제공하는 것으로 홍보합니다. 하지만 SoC(Fairphone 4의 Qualcomm Snapdragon 750G)는 훨씬 짧은 EOL 날짜를 가지고 있습니다. 즉, Fairphone이 계속 소프트웨어 보안 업데이트를 릴리스하더라도, Fairphone 4에 대한 Qualcomm의 펌웨어 보안 업데이트는 2023년 9월에 종료됩니다.
 
-## Android 버전
-
-[지원 기간이 종료된](https://endoflife.date/android) Android 버전은 사용하지 않아야 합니다. 최신 버전 Android에는 운영 체제 보안 업데이트뿐만 아니라, 중요한 프라이버시 강화 업데이트도 포함되어 있습니다. 예를 들어, [Android 10 이전](https://developer.android.com/about/versions/10/privacy/changes?hl=ko)에는 어떤 앱이든 [`READ_PHONE_STATE`](https://developer.android.com/reference/android/Manifest.permission#READ_PHONE_STATE) 권한을 가졌다면 [IMEI](https://en.wikipedia.org/wiki/International_Mobile_Equipment_Identity), [MEID](https://en.wikipedia.org/wiki/Mobile_equipment_identifier), SIM 카드 [IMSI](https://ko.wikipedia.org/wiki/%EA%B5%AD%EC%A0%9C_%EB%AA%A8%EB%B0%94%EC%9D%BC_%EA%B0%80%EC%9E%85%EC%9E%90_%EA%B5%AC%EB%B3%84%EC%9E%90) 등 여러분 휴대폰의 민감한 고유 일련 번호에 접근 가능했지만, 현재는 시스템 앱만 가능합니다. 시스템 앱은 OEM이나 Android 배포판에서만 제공됩니다.
-
-## Android 권한
+### Android 권한
 
 [Andoird에서의 권한](https://developer.android.com/guide/topics/permissions/overview)은 앱이 접근 가능한 항목을 여러분이 제어할 수 있는 권한을 부여합니다. Google은 매 버전마다 권한 시스템을 [개선합니다](https://developer.android.com/about/versions/11/privacy/permissions?hl=ko). 여러분이 설치한 모든 앱은 엄격하게 [샌드박스로 격리](https://source.android.com/docs/security/app-sandbox?hl=ko)되어 있으므로, 바이러스 백신 앱은 설치하실 필요가 없습니다.
 
@@ -93,17 +107,15 @@ Android 13:
 
     [Bitwarden](https://reports.exodus-privacy.eu.org/en/reports/com.x8bit.bitwarden/latest/) 처럼 프라이버시 친화적인 앱에서도 [Google Firebase Analytics](https://reports.exodus-privacy.eu.org/en/trackers/49/) 등의 일부 추적기가 표시될 수 있습니다. 해당 라이브러리는 앱에서 [푸시 알림](https://ko.wikipedia.org/wiki/%ED%91%B8%EC%8B%9C_%EA%B8%B0%EB%B2%95)을 제공할 수 있는 [Firebase 클라우드 메시징(FCM)](https://en.wikipedia.org/wiki/Firebase_Cloud_Messaging)이 포함되어 있습니다. Bitwarden이 바로 [이러한 경우](https://fosstodon.org/@bitwarden/109636825700482007)에 해당합니다. Bitwarden에서 Google Firebase Analytics 트래커가 발견됐다는 사실이 Bitwarden에서 Google Firebase Analytics의 모든 분석 기능을 사용한다는 것을 의미하지는 않습니다.
 
-## 미디어 액세스
+## Privacy Features
 
-많은 애플리케이션은 '공유' 기능을 이용해 미디어를 업로드하는 기능을 지원합니다. Twitter에 사진을 트윗하려는 경우로 예를 들면, Twitter가 여러분의 모든 사진에 접근할 수 있도록 하고 싶은 것이 아닌 이상 '미디어 및 사진' 접근 권한을 허용해선 안 됩니다. 대신 파일 관리자(documentsUI)로 이동해, 파일 관리자에서 사진을 길게 터치한 다음 Twitter에 공유하세요.
-
-## 사용자 프로필
+### 사용자 프로필
 
 여러 사용자 프로필은 Android에서 격리 환경을 가장 간단하게 구축할 수 있는 방법으로, **설정** → **시스템** → **여러 사용자**에서 확인할 수 있습니다.
 
 사용자 프로필 기능을 이용하면 전화 걸기, SMS 사용, 앱 설치 등의 행위를 특정 프로필에서만 제한적으로 수행할 수 있습니다. 각 프로필은 고유한 암호화 키를 사용하여 암호화되며 다른 프로필의 데이터에 접근할 수 없습니다. 기기 소유자라 할지라도 비밀번호를 모르면 다른 프로필의 데이터를 볼 수 없습니다. '여러 사용자 프로필'은 여타 방법보다 더 안전한 격리 방법입니다.
 
-## 직장 프로필
+### 직장 프로필
 
 [직장 프로필](https://support.google.com/work/android/answer/6191949)은 개별 앱을 격리하는 방식 중 하나로, 경우에 따라서 별도 사용자 프로필을 사용하는 것보다 편리합니다.
 
@@ -113,15 +125,15 @@ A **device controller** app such as [Shelter](../android.md#shelter) is required
 
 직장 프로필은 보조 사용자 프로필에 비해 보안성은 떨어집니다. 하지만 개인 프로필과 직장 프로필에서 동시에 앱을 실행할 수 있다는 편리함이 존재합니다.
 
-## VPN 킬 스위치
+### VPN 킬 스위치
 
 Android 7 이상은 외부 앱을 설치할 필요 없이 VPN 킬 스위치를 자체적으로 지원합니다. 해당 기능은 VPN 연결이 끊어졌을 때 유출이 발생하지 않도록 방지할 수 있습니다. :gear: **설정** → **네트워크 및 인터넷** → **VPN** → :gear: → **연결 차단(VPN 제외)**에서 확인할 수 있습니다.
 
-## 전역 제어
+### 전역 제어
 
 최신 Android 기기에는 Bluetooth 및 위치 서비스를 비활성화할 수 있는 전역 제어 기능이 존재합니다. Android 12에는 카메라, 마이크 접근 제어 기능이 도입되었습니다. 해당 기능들을 사용하지 않을 때에는 전역적으로 비활성화해 두는 것을 권장드립니다. 개별 권한이 허가된 앱일지라도 해당 기능 접근이 활성화되기 전까진 접근할 수 없습니다.
 
-## Google
+## Google Services
 
 기본 운영 체제를 사용하든 GrapheneOS에서 샌드박스 Google Play 서비스를 사용하든, 기기에서 Google 서비스를 사용하고 있다면 여러 추가 변경 사항을 적용해 프라이버시를 강화할 수 있습니다. 물론, Privacy Guides에서는 '가능하다면' Google 서비스를 아예 사용하지 않거나, Shelter 등의 기기 컨트롤러와 GrapheneOS의 Sandboxed Google Play 기능을 결합해 특정 사용자/업무 프로필로 Google Play 서비스를 제한해서 사용하실 것을 권장드립니다.
 

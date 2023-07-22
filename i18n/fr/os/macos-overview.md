@@ -201,7 +201,7 @@ macOS est livré avec un logiciel de sauvegarde automatique appelé [Time Machin
 
 De nombreuses fonctions de sécurité modernes de macOS - telles que le démarrage sécurisé moderne, l'atténuation des exploits au niveau matériel, les vérifications de l'intégrité du système d'exploitation et le chiffrement des fichiers - reposent sur le silicium d'Apple, et le matériel le plus récent d'Apple est toujours doté de la [meilleure sécurité](https://support.apple.com/guide/security/apple-soc-security-sec87716a080/1/web/1). Nous n'encourageons que l'utilisation du silicium d'Apple, et non des anciens ordinateurs Mac à base d'Intel ou des Hackintosh.
 
-Some of these modern security features are available on older Intel-based Mac computers with the Apple T2 Security Chip, but that chip is susceptible to the *checkm8* exploit which could compromise its security.
+Certaines de ces fonctions de sécurité modernes sont disponibles sur les anciens ordinateurs Mac à base d'Intel équipés de la puce de sécurité T2 d'Apple, mais cette puce est susceptible d'être exploitée par *checkm8*, ce qui pourrait compromettre sa sécurité.
 
 Si vous utilisez des accessoires Bluetooth tels qu'un clavier, nous vous recommandons d'utiliser les accessoires officiels d'Apple car leur micrologiciel sera automatiquement mis à jour pour vous par macOS. L'utilisation d'accessoires tiers est possible, mais il faut penser à installer régulièrement les mises à jour du micrologiciel de ces accessoires.
 
