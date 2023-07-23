@@ -104,7 +104,7 @@ L'azionista di maggioranza di Startpage è System1, un'azienda di tecnologie pub
 
 ### Caso migliore
 
-KeePassXC memorizza i suoi dati di esportazione come file [CSV](https://en.wikipedia.org/wiki/Comma-separated_values). Ciò può comportare la perdita di dati se si importa questo file in un altro gestore di password.
+I nostri criteri del caso migliore rappresentano cosa vorremmo vedere dal progetto perfetto in questa categoria. I nostri consigli potrebbero non includere tutte o alcune di queste funzionalità, ma quelli che le includono potrebbero essere preferiti ad altri su questa pagina.
 
 - Dovrebbe essere basato su software open-source.
 - Non dovrebbe bloccare gli indirizzi IP dei nodi di uscita di Tor.

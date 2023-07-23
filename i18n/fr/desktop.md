@@ -182,7 +182,7 @@ Bien que nous [déconseillions](os/linux-overview.md#release-cycle) d'utiliser d
 
 ## Critères
 
-Le choix d'une distribution Linux qui vous convient dépend d'une grande variété de préférences personnelles, et cette page n'est **pas** une liste exhaustive de toutes les distributions viables. Notre page de présentation de Linux contient des conseils sur [le choix d'une distribution](os/linux-overview.md#choosing-your-distribution). Les distros sur *cette page* suivent généralement les lignes directrices que nous avons abordées dans cette page, et respectent toutes ces normes :
+Le choix d'une distribution Linux qui vous convient dépend d'une grande variété de préférences personnelles, et cette page n'est **pas** une liste exhaustive de toutes les distributions viables. Notre page de présentation de Linux contient des conseils sur [le choix d'une distribution](os/linux-overview.md#choosing-your-distribution). Les distributions sur *cette page* suivent généralement les lignes directrices que nous avons abordées dans cette page, et respectent toutes ces normes :
 
 - Gratuit et open source.
 - Reçoivent régulièrement des mises à jour des logiciels et du noyau.
@@ -190,7 +190,7 @@ Le choix d'une distribution Linux qui vous convient dépend d'une grande variét
     - L'exception notable est Qubes, mais la virtualisation permet d'éviter les problèmes d'isolation que rencontre généralement X11. Cette isolation ne s'applique qu'aux applications *fonctionnant dans différents qubes* (machines virtuelles), les applications fonctionnant dans le *même* qube ne sont pas protégées les unes des autres.
 - Prennent en charge le chiffrement complet du disque pendant l'installation.
 - Ne gêlent pas les mises à jour régulières pendant plus d'un an.
-    - Nous [ne recommandons pas](os/linux-overview.md#release-cycle) "Long Term Support" ou les versions "stables" de distro pour une utilisation de bureau.
+    - Nous [ne recommandons pas](os/linux-overview.md#release-cycle) les versions "Long Term Support" ou "stables" de distributions pour une utilisation de bureau.
 - Prennent en charge une grande variété de matériel.
 - Préférence pour les projets de plus grande envergure.
     - La maintenance d'un système d'exploitation est un défi majeur, et les petits projets ont tendance à faire plus d'erreurs évitables ou à retarder les mises à jour critiques (ou pire, à disparaître complètement). Nous privilégions les projets qui seront probablement toujours présents dans 10 ans (que ce soit grâce au soutien d'une entreprise ou à un soutien communautaire très important), et nous évitons les projets qui sont construits de zéro ou qui ont un petit nombre de mainteneurs.

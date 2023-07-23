@@ -1,37 +1,37 @@
 ---
 title: "Firmware per router"
 icon: material/router-wireless
-description: Questi sistemi operativi alternativi possono essere utilizzati per proteggere il router o l'access point del Wi-Fi.
+description: Questi sistemi operativi alternativi sono utilizzabili per proteggere il tuo router o il punto d'accesso del Wi-Fi.
 cover: router.png
 ---
 
-Di seguito sono elencati alcuni sistemi operativi alternativi che possono essere usati su router, access point Wi-Fi, ecc.
+Di seguito sono elencati alcuni sistemi operativi alternativi, utilizzabili sui router, punti d'accesso della Wi-Fi, etc.
 
 ## OpenWrt
 
 !!! recommendation
 
-    ![OpenWrt logo](assets/img/router/openwrt.svg#only-light){ align=right }
-    ![OpenWrt logo](assets/img/router/openwrt-dark.svg#only-dark){ align=right }
+    ![Logo di OpenWrt](assets/img/router/openwrt.svg#only-light){ align=right }
+    ![Logo di OpenWrt](assets/img/router/openwrt-dark.svg#only-dark){ align=right }
     
-    **OpenWrt** è un sistema operativo basato su Linux, usato principalmente su dispositivi embedded per instradare il traffico di rete. Include util-linux, uClibc e BusyBox. Tutti i componenti sono stati ottimizzati per i router domestici.
+    **OpenWrt** è un sistema operativo basato su Linux, utilizzato principalmente su dispositivi incorporati per instradare il traffico di rete. Include util-linux, uClibc e BusyBox. Tutti i componenti sono stati ottimizzati per i router domestici.
     
-    [:octicons-home-16: Pagina Principale](https://openwrt.org){ .md-button .md-button--primary }
+    [:octicons-home-16: Home](https://openwrt.org){ .md-button .md-button--primary }
     [:octicons-info-16:](https://openwrt.org/docs/start){ .card-link title=Documentazione}
     [:octicons-code-16:](https://github.com/openwrt/openwrt){ .card-link title="Codice Sorgente" }
     [:octicons-heart-16:](https://openwrt.org/donate){ .card-link title=Contribuisci }
 
-È possibile consultare la [tabella degli hardware](https://openwrt.org/toh/start) di OpenWrt per verificare se il tuo dispositivo è supportato.
+È possibile consultare la [tabella hardware](https://openwrt.org/toh/start) di OpenWrt per verificare se il tuo dispositivo è supportato.
 
 ## OPNsense
 
 !!! recommendation
 
-    ![pfSense logo](assets/img/router/opnsense.svg){ align=right }
+    ![Logo di OPNSense](assets/img/router/opnsense.svg){ align=right }
     
-    **OPNsense** è una piattaforma open source di firewall e routing basata su FreeBSD che incorpora molte funzionalità avanzate come il traffic shaping, il bilanciamento del carico e le funzionalità VPN, con molte altre funzionalità disponibili sotto forma di plugin. OPNsense viene comunemente utilizzato come firewall perimetrale, router, access point wireless, server DHCP, server DNS ed endpoint VPN.
+    **OPNsense** è una piattaforma open source di firewall e instradamento basata su FreeBSD, che incorpora molte funzionalità avanzate come il modellamento del traffico, il bilanciamento del carico e le funzionalità VPN, con molte altre funzionalità disponibili sotto forma di plugin. OPNsense è comunemente distribuito come firewall perimetrale, router, punto d'accesso wireless, server DHCP, server DNS ed endpoint VPN.
     
-    [:octicons-home-16: Pagina Principale](https://opnsense.org/){ .md-button .md-button--primary }
+    [:octicons-home-16: Home](https://opnsense.org/){ .md-button .md-button--primary }
     [:octicons-info-16:](https://docs.opnsense.org/index.html){ .card-link title=Documentazione}
     [:octicons-code-16:](https://github.com/opnsense){ .card-link title="Codice Sorgente" }
     [:octicons-heart-16:](https://opnsense.org/donate/){ .card-link title=Contribuisci}

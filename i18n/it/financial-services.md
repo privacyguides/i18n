@@ -4,43 +4,43 @@ icon: material/bank
 cover: financial-services.png
 ---
 
-Effettuare pagamenti online è una delle maggiori sfide per la privacy. Questi servizi possono aiutarvi a proteggere la vostra privacy dai commercianti e da altri tracker, a condizione che abbiate una buona conoscenza di come effettuare pagamenti privati in modo efficace. Ti consigliamo vivamente di leggere prima il nostro articolo riguardo i pagamenti prima di effettuare qualsiasi acquisto:
+Effettuare pagamenti online è una delle maggiori sfide per la privacy. Questi servizi possono assisterti nel proteggere la tua privacy da commercianti e altri tracciatori, ammesso che tu abbia una buona comprensione di come effettuare efficientemente i pagamenti privati. Ti incoraggiamo vivamente a leggere prima il nostro articolo di panoramica sui pagamenti, prima di effettuare qualsiasi acquisto:
 
 [Effettuare pagamenti privati :material-arrow-right-drop-circle:](advanced/payments.md ""){.md-button}
 
-## Servizi di mascheramento dei pagamenti
+## Servizi di Mascheramento dei Pagamenti
 
-Esistono diversi servizi che forniscono "carte di debito virtuali" che si possono utilizzare con i negozi online senza rivelare i propri dati bancari o di fatturazione nella maggior parte dei casi. È importante sapere che questi servizi finanziari **non** sono anonimi e sono soggetti alle leggi "Know Your Customer" (KYC) e possono richiedere un documento d'identità o altre informazioni identificative. Questi servizi sono utili soprattutto per proteggere l'utente dalle violazioni dei dati dei negozi, dal tracciamento meno sofisticato o dalla correlazione degli acquisti da parte delle agenzie di marketing e dal furto di dati online; e **non** per effettuare un acquisto in modo completamente anonimo.
+Esistono numerosi servizi che forniscono "carte di debito virtuali", che puoi utilizzare con i commercianti online, senza rivelare le tue informazioni bancarie o di fatturazione reali, in gran parte dei casi. È importante notare che questi servizi finanziari **non** sono anonimi e sono soggetti alle leggi di "Conoscenza del Cliente" (KYC) e potrebbero richiedere il tuo ID o altre informazioni identificative. Questi servizi sono principalmente utili per proteggerti dalle violazioni di dati dei commercianti, dal tracciamento meno sofisticato o dalla correlazione degli acquisti dalle agenzie di marketing, nonché dal furto di dati online; e **non** per effettuare un acquisto in completo anonimato.
 
-!!! tip "Controlla la tua banca"
+!!! tip "Consulta la tua banca attuale"
 
-    Molte banche e fornitori di carte di credito offrono una funzionalità nativa di carte virtuali. Se sei cliente di una banca che offre già questa opzione, è preferibile usarla rispetto a questi altri servizi consigliati. In questo modo non affidate i vostri dati personali a più soggetti.
+    Molte banche e fornitori di carte di credito offrono una funzionalità nativa di carte virtuali. Se ne utilizzi una che fornisce già quest'opzione, è preferibile utilizzarla, rispetto ai seguenti consigli, in gran parte dei casi. Così, non affidi a svariate parti le tue informazioni personali.
 
 ### Privacy.com (US)
 
 !!! recommendation
 
-    ![Logo Privacy.com](assets/img/financial-services/privacy_com.svg#only-light){ align=right }
-    ![Logo Privacy.com](assets/img/financial-services/privacy_com-dark.svg#only-dark){ align=right }
+    ![Logo di Privacy.com](assets/img/financial-services/privacy_com.svg#only-light){ align=right }
+    ![Logo di Privacy.com](assets/img/financial-services/privacy_com-dark.svg#only-dark){ align=right }
     
-    Il piano gratuito di **Privacy.com** consente di creare fino a 12 carte virtuali al mese, di impostare limiti di spesa su tali carte e di chiuderle all'istante. Il piano a pagamento consente di creare fino a 36 carte al mese, di ottenere l'1% di cashback sugli acquisti e di nascondere le informazioni sulle transazioni alla propria banca.
+    Il piano gratuito di **Privacy.com** ti consente di creare fino a 12 carte virtuali al mese, di impostare i limiti di spesa su tali carte e di chiuderle istantaneamente. Il piano a pagamento ti consente di creare fino a 36 carte al mese, ottenere l'1% di cashback sugli acquisti e di nascondere le informazioni sulle transazioni dalla tua banca.
     
-    [:octicons-home-16: Pagina Principale](https://privacy.com){ .md-button .md-button--primary }
+    [:octicons-home-16: Home](https://privacy.com){ .md-button .md-button--primary }
     [:octicons-eye-16:](https://privacy.com/privacy-policy){ .card-link title="Politica sulla Privacy" }
     [:octicons-info-16:](https://support.privacy.com/hc/en-us){ .card-link title=Documentazione}
 
-Privacy.com fornisce di default alla vostra banca informazioni sui commercianti presso i quali effettuate gli acquisti. La funzione a pagamento "commercianti discreti" nasconde le informazioni sui commercianti alla vostra banca, in modo che la vostra banca veda solo un acquisto fatto con Privacy.com, ma non dove è stato speso il denaro, ma questo non è infallibile, e naturalmente Privacy.com è ancora a conoscenza dei commercianti presso i quali state effettuando acquisti.
+Privacy.com fornisce le informazioni sui commercianti da cui acquisti alla tua banca, di default. La funzione a pagamento "commercianti discreti", nasconde le informazioni del commerciante dalla tua banca, così che, questa, visualizzi soltanto che un acquisto è stato effettuato con Privacy.com, ma non dove è stato speso il denaro; tuttavia, questo non è infallibile e, ovviamente, Privacy.com continua a essere a conoscenza dei commercianti con cui stai spendendo denaro.
 
 ### MySudo (US, a pagamento)
 
 !!! recommendation
 
-    ![Logo MySudo](assets/img/financial-services/mysudo.svg#only-light){ align=right }
-    ![Logo MySudo](assets/img/financial-services/mysudo-dark.svg#only-dark){ align=right }
+    ![Logo di MySudo](assets/img/financial-services/mysudo.svg#only-light){ align=right }
+    ![Logo di MySudo](assets/img/financial-services/mysudo-dark.svg#only-dark){ align=right }
     
-    **MySudo** fornisce fino a 9 carte virtuali a seconda del piano acquistato. I loro piani a pagamento includono inoltre funzionalità che possono essere utili per effettuare acquisti in privato, come numeri di telefono e indirizzi e-mail virtuali, anche se in genere raccomandiamo altri [provider di aliasing e-mail] (email.md) per un uso prolungato dell'aliasing e-mail.
+    **MySudo** fornisce fino a 9 carte virtuali a seconda del piano acquistato. I piani a pagamento, inoltre, includono funzionalità che potrebbero tornare utili per effettuare acquisti privatamente, come numeri di telefono e indirizzi email virtuali, sebbene, tipicamente, consigliamo altri [fornitori di alias email](email.md), per l'utilizzo prolungato di alias email.
     
-    [:octicons-home-16: Pagina Principale](https://mysudo.com/){ .md-button .md-button--primary }
+    [:octicons-home-16: Home](https://mysudo.com/){ .md-button .md-button--primary }
     [:octicons-eye-16:](https://anonyome.com/privacy-policy/){ .card-link title="Politica sulla Privacy" }
     [:octicons-info-16:](https://support.mysudo.com/hc/en-us){ .card-link title=Documentazione}
 
@@ -52,23 +52,23 @@ Privacy.com fornisce di default alla vostra banca informazioni sui commercianti 
 
     Stiamo lavorando per stabilire i criteri definiti per ogni sezione del nostro sito e, questa, potrebbe essere soggetta a modifiche. Se hai qualsiasi domanda sui nostri criteri, ti preghiamo di [chiedere sul nostro forum](https://discuss.privacyguides.net/latest) e di non supporre che non abbiamo considerato qualcosa, formulando i nostri consigli, se non elencato qui. Molti fattori sono presi in considerazione e discussi quando consigliamo un progetto e la documentazione di ognuno è in lavorazione.
 
-- Consente la creazione di più carte che fungono da scudo tra il commerciante e le vostre finanze personali.
-- Le carte non devono richiedere di fornire informazioni precise sull'indirizzo di fatturazione al commerciante.
+- Consente la creazione di più carte che fungano da scudo tra il commerciante e le tue finanze personali.
+- Le carte non devono richiederti di fornire informazioni sull'indirizzo di fatturazione accurate, al commerciante.
 
-## Negozi di carte regalo
+## Mercati di Carte Regalo
 
-Questi servizi ti consentono di acquistare carte regalo per una varietà di commercianti online con [criptovalute](cryptocurrency.md). Alcuni di questi servizi offrono limiti più elevati dopo aver verificato la propria identità, ma consentono la creazione di account utilizzando soltanto l'email. I limiti di base partono in genere dai 5.000-10.000 dollari al giorno per i conti base, mentre ci sono limiti significativamente più alti per i conti con l'identità verificata (se offerti).
+Questi servizi ti consentono di acquistare carte regalo per numerosi commercianti online, con le [criptovalute](cryptocurrency.md). Alcuni offrono opzioni di verifica dell'ID per i limiti superiori, ma consentono anche la creazione di profili utilizzando soltanto un indirizzo email. I limiti di base, tipicamente, partono da $5000-10000 al giorno per i profili di base, con limiti significativamente maggiori per i profili con ID verificato (se offerti).
 
 ### CoinCards
 
 !!! recommendation
 
-    ![logo CoinCards](assets/img/financial-services/coincards.svg){ align=right }
+    ![Logo di CoinCards](assets/img/financial-services/coincards.svg){ align=right }
     
-    **CoinCards** (Disponibile negli USA e in Canada) ti permette di acquistare carte regalo per un'ampia gamma di commercianti.
+    **CoinCards** (Disponibile negli USA e in Canada) ti consente di acquistare carte regalo per una vasta gamma di commercianti.
     
-    [:octicons-home-16: Pagina Principale](https://coincards.com/){ .md-button .md-button--primary }
-    [:octicons-eye-16:](https://coincards.com/privacy-policy/){ .card-link title="Politica sulla privacy" }
+    [:octicons-home-16: Home](https://coincards.com/){ .md-button .md-button--primary }
+    [:octicons-eye-16:](https://coincards.com/privacy-policy/){ .card-link title="Politica sulla Privacy" }
     [:octicons-info-16:](https://coincards.com/frequently-asked-questions/){ .card-link title=Documentazione}
 
 ### Criteri
@@ -80,4 +80,4 @@ Questi servizi ti consentono di acquistare carte regalo per una varietà di comm
     Stiamo lavorando per stabilire i criteri definiti per ogni sezione del nostro sito e, questa, potrebbe essere soggetta a modifiche. Se hai qualsiasi domanda sui nostri criteri, ti preghiamo di [chiedere sul nostro forum](https://discuss.privacyguides.net/latest) e di non supporre che non abbiamo considerato qualcosa, formulando i nostri consigli, se non elencato qui. Molti fattori sono presi in considerazione e discussi quando consigliamo un progetto e la documentazione di ognuno è in lavorazione.
 
 - Accetta pagamenti in [una criptovaluta consigliata](cryptocurrency.md).
-- Non è richiesto alcun documento d'identità.
+- Nessun requisito identificativo.
