@@ -138,7 +138,7 @@ La [Modalità Lockdown](https://blog.privacyguides.org/2022/10/27/macos-ventura-
 
 - [x] Clicca su **Attiva**
 
-### Casualizzazione dell'Indirizzo MAC
+### Randomizzazione dell'indirizzo MAC
 
 A differenza di iOS, macOS non ti dà un'opzione per rendere casuale il tuo indirizzo MAC nelle impostazioni, quindi, dovrai farlo con un comando o uno script.
 

@@ -1,6 +1,6 @@
 ---
 title: "Informazioni su Privacy Guides"
-description: Privacy Guides è un sito web a motivazione sociale che fornisce informazioni per proteggere la sicurezza e la privacy dei dati.
+description: Privacy Guides è un sito web a motivazione sociale che fornisce informazioni per proteggere la sicurezza e la privacy dei tuoi dati.
 schema:
   "@context": https://schema.org
   "@type": Organization
@@ -17,19 +17,19 @@ schema:
     - https://mastodon.neat.computer/@privacyguides
 ---
 
-![Privacy Guides logo](../assets/brand/PNG/Square/pg-yellow.png){ align=right }
+![Logo di Privacy Guides](../assets/brand/PNG/Square/pg-yellow.png){ align=right }
 
-**Privacy Guides** è un sito web a sfondo sociale che fornisce [informazioni](/kb) per proteggere la sicurezza e la privacy dei dati. La nostra missione è informare il pubblico sul valore della privacy digitale e sulle iniziative governative globali che mirano a monitorare la vostra attività online. Siamo un collettivo senza scopo di lucro gestito interamente da [membri del team](https://discuss.privacyguides.net/g/team) e collaboratori volontari. Il nostro sito è privo di pubblicità e non è affiliato a nessuno dei fornitori elencati.
+**Privacy Guides** è un sito web a motivazione sociale che fornisce [informazioni](/kb) per proteggere la sicurezza e la privacy dei tuoi dati. La nostra missione è informare il pubblico sul valore della privacy digitale e sulle iniziative governative globali che mirano a monitorare la tua attività online. Siamo un collettivo senza scopo di lucro, operato interamente da [membri del team](https://discuss.privacyguides.net/g/team) di volontari e collaboratori. Il nostro sito web è libero di inserzionisti e non affiliato con alcuno dei fornitori elencati.
 
-[:octicons-home-16:](https://www.privacyguides.org/){ .card-link title=Pagina Principale }
-[:octicons-code-16:](https://github.com/privacyguides/privacyguides.org){ .card-link title="Codice sorgente" }
+[:octicons-home-16:](https://www.privacyguides.org/){ .card-link title=Home }
+[:octicons-code-16:](https://github.com/privacyguides/privacyguides.org){ .card-link title="Codice Sorgente" }
 [:octicons-heart-16:](donate.md){ .card-link title=Contribuisci }
 
-> Per trovare applicazioni alternative [incentrate sulla privacy], consultate siti come Good Reports e **Privacy Guides**, che elencano applicazioni incentrate sulla privacy in una serie di categorie, tra cui in particolare i provider email (di solito con piani a pagamento) che non sono gestiti dalle grandi aziende tecnologiche.
+> Per trovare app [alternative incentrate sulla privacy], consulta siti come Good Reports e **Privacy Guides**, che elencano app incentrate sulla privacy in svariate categorie, tra cui, notevolmente, i fornitori email (solitamente su piani a pagamento), non gestiti da grandi aziende tecnologiche.
 
 — [New York Times](https://www.nytimes.com/wirecutter/guides/online-security-social-media-privacy/)
 
-> Se state cercando una nuova VPN, potete usare il codice sconto di qualsiasi podcast. Se state cercando una **buona** VPN, avrete bisogno di aiuto da parte di professionisti. Lo stesso vale per i client email, i browser, i sistemi operativi e i gestori di password. Come si fa a sapere qual è l'opzione migliore e più rispettosa della privacy? Per questo c'è **Privacy Guides**, una piattaforma su cui un gruppo di volontari cerca giorno per giorno i migliori strumenti per la privacy da usare su Internet.
+> Se stai cercando una nuova VPN, puoi utilizzare il codice sconto di praticamente qualsiasi podcast. Se stai cercando una **buona** VPN, necessiti di aiuto da parte dei professionisti. Lo stesso vale per i client email, browser, sistemi operativi e gestori di password. Come fate a sapere qual è l'opzione migliore e più rispettosa della privacy? Per questo c'è **Privacy Guides**, una piattaforma su cui tantissimi volontri ricercano i migliori strumenti rispettosi della privacy, da utilizzare su Internet.
 
 — [Tweakers.net](https://tweakers.net/reviews/10568/op-zoek-naar-privacyvriendelijke-tools-niek-de-wilde-van-privacy-guides.html) [Tradotto dall'olandese]
 
@@ -37,13 +37,13 @@ In evidenza anche su: [Ars Technica](https://arstechnica.com/gadgets/2022/02/is-
 
 ## Storia
 
-Privacy Guides è stato lanciato nel settembre del 2021 come continuazione del progetto educativo open-source [defunto](privacytools.md) "PrivacyTools". Riconosciamo l'importanza di consigliare prodotti basati su criteri indipendenti e conoscenze generali nel settore della privacy; per questo motivo avevamo bisogno di preservare il lavoro creato da tanti collaboratori dal 2015 e di assicurarci che le informazioni avessero una sede stabile sul web a tempo indeterminato.
+Privacy Guides è stato lanciato a settembre 2021, come continuazione del progetto educativo open source [defunto](privacytools.md) "PrivacyTools". Riconosciamo l'importanza di consigli indipendenti sui prodotti e incentrati sui criteri, e della conoscenza generale nell'ambito della privacy, motivo per cui abbiamo necessitato di conservare il lavoro creato da così tanti collaboratori dal 2015, e di assicurarci che le informazioni avessero una sede stabile sul web, indefinitamente.
 
-Nel 2022 abbiamo completato la transizione completa del nostro sito web principale da Jekyll a MkDocs, utilizzando il software di documentazione `mkdocs-material`. Questo cambiamento ha reso i contributi open-source al nostro sito molto più facili da gestire per gli esterni, poichè invece di dover conoscere una sintassi complicata per poter scrivere post in maniera efficace, ora contribuire è facile come scrivere un documento Markdown standard.
+Nel 2022, abbiamo completato la transizione del quadro del nostro sito web principale da Jekyll a MkDocs, utilizzando il software di documentazione `mkdocs-material`. Questo cambiamento ha reso significativamente più facili i contributi open source al nostro sito per gli esterni, poiché, invece di necessitare di conoscere una complessa sintassi per scrivere efficientemente i post, contribuire è ora facile quanto scrivere un documento standard in Markdown.
 
-Abbiamo inoltre lanciato il nostro nuovo forum di discussione all'indirizzo [discuss.privacyguides.net](https://discuss.privacyguides.net/) come piattaforma comunitaria per condividere idee e porre domande sulla nostra missione. Questo aumenta la nostra comunità esistente su Matrix e sostituisce la nostra precedente piattaforma su GitHub Discussions, riducendo la nostra dipendenza da piattaforme di discussione proprietarie.
+Inoltre, abbiamo lanciato il nostro nuovo forum di discussione a [discuss.privacyguides.net](https://discuss.privacyguides.net/), come una piattaforma della community per condividere idee e porre domande sulla nostra missione. Ciò estende la nostra community esistente su Matrix e ha sostituito la nostra precedente piattaforma di GitHub Discussions, riducendo la nostra dipendenza dalle piattaforme di discussione proprietarie.
 
-Fino ad ora nel 2023 abbiamo lanciato traduzioni internazionali del nostro sito web in [francese](/fr/), [ebraico](/he/), e [olandese](/nl/), con altre lingue in arrivo, rese possibili dal nostro eccellente team di traduttori su [Crowdin](https://crowdin.com/project/privacyguides). Intendiamo continuare a portare avanti la nostra missione di sensibilizzazione ed educazione, trovando il modo di evidenziare più chiaramente i pericoli di una mancanza di consapevolezza della privacy nell'era digitale moderna e la prevalenza e i danni delle violazioni della sicurezza nel settore tecnologico.
+Finora, nel 2023, abbiamo lanciato le traduzioni internazionali del nostro sito web in [francese](/fr/), [ebraico](/he/) e [olandese](/nl/), con altre lingue in arrivo, rese possibili dal nostro eccellente team di traduzione, su [Crowdin](https://crowdin.com/project/privacyguides). Pianifichiamo di continuare a portare avanti la nostra missione di sensibilizzazione ed educazione, e di trovare modi per evidenziare più chiaramente i pericoli della mancanza di consapevolezza sulla privacy nell'era digitale moderna, nonché la prevalenza e i danni delle violazioni di sicurezza nel settore tecnologico.
 
 ## Il nostro team
 
@@ -52,35 +52,35 @@ Fino ad ora nel 2023 abbiamo lanciato traduzioni internazionali del nostro sito 
     - [:simple-discourse: Discourse](https://discuss.privacyguides.net/u/jonah)
     - [:simple-github: GitHub](https://github.com/jonaharagon "@jonaharagon")
     - [:simple-mastodon: Mastodon](https://mastodon.neat.computer/@jonah "@jonah@neat.computer"){rel=me}
-    - [:fontawesome-solid-house: Pagina iniziale](https://www.jonaharagon.com)
+    - [:fontawesome-solid-house: Home](https://www.jonaharagon.com)
 
 ??? person "@niek-de-wilde"
 
     - [:simple-discourse: Discourse](https://discuss.privacyguides.net/u/Niek-de-Wilde)
     - [:simple-github: GitHub](https://github.com/blacklight447 "@blacklight447")
     - [:simple-mastodon: Mastodon](https://mastodon.social/@blacklight447 "@blacklight447@mastodon.social"){rel=me}
-    - [:fontawesome-solid-envelope: E-Mail](mailto:niekdewilde@privacyguides.org)
+    - [:fontawesome-solid-envelope: Email](mailto:niekdewilde@privacyguides.org)
 
 ??? person "@dngray"
 
     - [:simple-discourse: Discourse](https://discuss.privacyguides.net/u/dngray)
     - [:simple-github: GitHub](https://github.com/dngray "@dngray")
     - [:simple-mastodon: Mastodon](https://mastodon.social/@dngray "@dngray@mastodon.social"){rel=me}
-    - [:fontawesome-solid-envelope: E-Mail](mailto:dngray@privacyguides.org)
+    - [:fontawesome-solid-envelope: Email](mailto:dngray@privacyguides.org)
 
 ??? person "@freddy"
 
     - [:simple-discourse: Discourse](https://discuss.privacyguides.net/u/freddy)
     - [:simple-github: GitHub](https://github.com/freddy-m "@freddy-m")
     - [:simple-mastodon: Mastodon](https://social.lol/@freddy "@freddy@social.lol"){rel=me}
-    - [:fontawesome-solid-envelope: E-Mail](mailto:freddy@privacyguides.org)
-    - [:fontawesome-solid-house: Pagina iniziale](https://freddy.omg.lol)
+    - [:fontawesome-solid-envelope: Email](mailto:freddy@privacyguides.org)
+    - [:fontawesome-solid-house: Home](https://freddy.omg.lol)
 
 ??? person "@mfwmyfacewhen"
 
     - [:simple-discourse: Discourse](https://discuss.privacyguides.net/u/mfwmyfacewhen)
     - [:simple-github: GitHub](https://github.com/mfwmyfacewhen "@mfwmyfacewhen")
-    - [:fontawesome-solid-house: Pagina iniziale](https://mfw.omg.lol)
+    - [:fontawesome-solid-house: Home](https://mfw.omg.lol)
 
 ??? person "@olivia"
 
@@ -88,16 +88,16 @@ Fino ad ora nel 2023 abbiamo lanciato traduzioni internazionali del nostro sito 
     - [:simple-github: GitHub](https://github.com/hook9 "@hook9")
     - [:simple-mastodon: Mastodon](https://mastodon.neat.computer/@oliviablob "@oliviablob@neat.computer"){rel=me}
 
-Inoltre, [molte persone](https://github.com/privacyguides/privacyguides.org/graphs/contributors) hanno contribuito al progetto. Puoi farlo anche tu, siamo open source su GitHub e accettiamo suggerimenti per la traduzione su [Crowdin](https://crowdin.com/project/privacyguides).
+Inoltre, [molte persone](https://github.com/privacyguides/privacyguides.org/graphs/contributors) hanno contribuito al progetto. Anche tu puoi, siamo open source su GitHub e accettiamo suggerimenti di traduzione su [Crowdin](https://crowdin.com/project/privacyguides).
 
-I membri del nostro team controllano tutte le modifiche apportate al sito e si occupano di mansioni amministrative come l'hosting web e le finanze, ma non traggono alcun profitto personale dai contributi apportati al sito. I nostri dati finanziari sono hostati in maniera trasparente dalla Open Collective Foundation 501(c)(3) all'indirizzo [opencollective.com/privacyguides](https://opencollective.com/privacyguides). Le donazioni a Privacy Guides sono generalmente deducibili dalle tasse negli Stati Uniti.
+I membri del nostro team revisionano tutte le modifiche effettuate al sito web e gestiscono i doveri amministrativi, come l'hosting web e le finanze; tuttavia, non traggono alcun profitto personale da alcun contributo effettuato a questo sito. I nostri dati finanziari sono ospitati trasparentemente dalla Open Collective Foundation 501(c)(3), su [opencollective.com/privacyguides](https://opencollective.com/privacyguides). Le donazioni a Privacy Guides sono generalmente fiscalmente detraibili negli Stati Uniti.
 
 ## Licenza del sito
 
-!!! danger "Attenzione"
+!!! danger ""
 
-    Quanto segue è un riassunto scritto in formato leggibile di (e non un sostituto di) [licenza](/licenza).
+    Quanto segue è un riepilogo leggibile dall'uomo (e non sostituto della) della [licenza](/license).
 
-:fontawesome-brands-creative-commons: :fontawesome-brands-creative-commons-by: :fontawesome-brands-creative-commons-nd: Se non diversamente indicato, il contenuto originale di questo sito è reso disponibile secondo la licenza [Creative Commons Attribuzione-opere non derivate 4.0 International Public License](https://github.com/privacyguides/privacyguides.org/blob/main/LICENSE). Questo significa che sei libero di copiare e ridistribuire il materiale in qualsiasi mezzo o formato per qualsiasi scopo, anche commerciale, a condizione di dare il giusto credito a `Privacy Guides (www.privacyguides.org)` e di fornire un link alla licenza. **Non è possibile** utilizzare il marchio Privacy Guides nel proprio progetto senza l'esplicita approvazione da questo progetto. Se si remixa, si trasforma o si basa sul contenuto di questo sito web, non si può distribuire il materiale modificato.
+:fontawesome-brands-creative-commons: :fontawesome-brands-creative-commons-by: :fontawesome-brands-creative-commons-nd: Se non diversamente indicato, il contenuto originale su questo sito web è reso disponibile secondo la licenza [Creative Commons Attribuzione-opere non derivate 4.0 International Public License](https://github.com/privacyguides/privacyguides.org/blob/main/LICENSE). Ciò significa che sei libero di copiare e ridistribuire il materiale in qualsiasi mezzo o formato per qualsiasi scopo, anche commerciale, a condizione di dare il giusto credito aa `Privacy Guides (www.privacyguides.org)` e di fornire un collegamento alla licenza. Puoi farlo in qualsiasi modo ragionevole, ma non in alcun modo che suggerisca che Privacy Guides promuova te o il tuo utilizzo. Se remixi, trasformi o costruisci sul contenuto di questo sito web, non puoi distribuire il materiale modificato.
 
-Questa licenza è stata istituita per evitare che le persone condividano il nostro lavoro senza dare il giusto credito e per evitare che le persone modifichino il nostro lavoro in un modo che potrebbe essere usato per ingannare le persone. Se ritieni che i termini di questa licenza siano troppo restrittivi per il progetto a cui stai lavorando, contattaci all'indirizzo `jonah@privacyguides.org`. Siamo lieti di fornire opzioni di licenza alternative per progetti ben intenzionati nel settore della privacy!
+Questa licenza è stata istituita per evitare che le persone condividano il nostro lavoro senza dare il giusto credito, e impedire alle persone di modificare il nostro lavoro, così che possa essere utilizzato per ingannare le persone. Se ritieni che i termini di questa licenza siano troppo restrittivi per il progetto a cui stai lavorando, ti preghiamo di contattarci a `jonah@privacyguides.org`. Siamo felici di fornire opzioni di licenza alternative per i progetti ben intenzionati nel settore della privacy!

@@ -1,14 +1,14 @@
 ---
-title: Caricamento delle immagini
+title: Caricare Immagini
 ---
 
 Ecco un paio di regole generali per contribuire a Privacy Guides:
 
 ## Immagini
 
-- Noi **preferiamo** immagini in formato SVG, ma se non esistono possiamo usare anche immagini in formato PNG
+- **Preferiamo** le immagini SVG, ma se non esistono, possiamo utilizzare le immagini PNG
 
-I loghi aziendali hanno dimensioni canvas di:
+I loghi aziendali hanno dimensioni di:
 
 - 128x128px
 - 384x128px
@@ -17,7 +17,7 @@ I loghi aziendali hanno dimensioni canvas di:
 
 ### PNG
 
-Usa [OptiPNG](https://sourceforge.net/projects/optipng/) per ottimizzare i file immagine PNG:
+Utilizza [OptiPNG](https://sourceforge.net/projects/optipng/) per ottimizzare i file immagine PNG:
 
 ```bash
 optipng -o7 file.png
@@ -27,37 +27,37 @@ optipng -o7 file.png
 
 #### Inkscape
 
-Utilizza [Scour](https://github.com/scour-project/scour) su tutte le immagini in formato SVG.
+Utilizza [Scour](https://github.com/scour-project/scour) per ripulire tutte le immagini SVG.
 
-In Inkscape:
+Su Inkscape:
 
-1. File Salva come...
-2. Seleziona formato SVG ottimizzato (*.svg)
+1. File Salva con nome..
+2. Seleziona il tipo a Optimized SVG (*.svg)
 
 Nella scheda **Opzioni**:
 
 - **Numero di cifre significative per le coordinate:** > **5**
 - [x] Attiva **Abbrevia i valori dei colori**
-- [x] Attiva **Converte gli attributi CSS in attributi XML**
-- [x] Attiva **Unisci i gruppi**
+- [x] Attiva **Converti gli attributi CSS in attributi XML**
+- [x] Attiva **Comprimi i gruppi**
 - [x] Attiva **Crea gruppi per attributi simili**
 - [ ] Disattiva **Mantieni i dati dell'editor**
 - [ ] Disattiva **Mantieni le definizioni senza riferimenti**
 - [x] Attiva **Correggi gli errori di rendering**
 
-Nella scheda **Output SVG** sotto **Opzioni documento**:
+Nella scheda **Output SVG**, in **Opzioni documento**:
 
-- [ ] Disattiva **Rimuovi dichiarazione XML**
-- [x] Attiva **Rimuovi metadati**
-- [x] Attiva **Rimuovi commenti**
-- [x] Attiva **Incorpora immagini raster**
-- [x] Attiva **Attiva anteprima**
+- [ ] Disattiva **Rimuovi la dichiarazione XML**
+- [x] Attiva **Rimuovi i metadati**
+- [x] Attiva **Rimuovi i commenti**
+- [x] Attiva **Immagini raster incorporate**
+- [x] Attiva **Abilita l'anteprima**
 
-Nella scheda **Output SVG** sotto **Formattazione**:
+Nella scheda **Output SVG**, in **Formattazione**:
 
 - [ ] Disattiva **Output con a capo e indentazioni**
 - **Caratteri di indentazione** > Seleziona**Spazio**
-- **Ampiezza indentazione** > **1**
+- **Profondità d'indentazione** > **1**
 - [ ] Disattiva **Elimina l'attributo "xml:space" dall'elemento SVG di base**
 
 Nella scheda **ID**:
@@ -65,7 +65,7 @@ Nella scheda **ID**:
 - [x] Attiva **Rimuovi ID non utilizzati**
 - [ ] Disattiva **Abbrevia ID**
 - **Prefissa gli ID abbreviati** > `lascia vuoto`
-- [x] Attiva **Mantieni ID manuali che non finiscono per cifra**
+- [x] Attiva **Mantieni ID manuali che non finiscono con cifre**
 - **Mantieni gli ID seguenti** > `lascia vuoto`
 - **Mantieni gli ID che iniziano con** > `lascia vuoto`
 

@@ -1,50 +1,50 @@
 ---
-title: "Avvisi e dichiarazioni di non responsabilità"
+title: "Avvisi e Dichiarazioni di Non Responsabilità"
 ---
 
-## Avviso legale
+## Dichiarazione di non responsabilità legale
 
-Privacy Guides non è uno studio legale. Pertanto, il sito web Privacy Guides e i collaboratori non forniscono consulenza legale. Il materiale e le raccomandazioni nel nostro sito web e nelle guide non costituiscono una consulenza legale, né contribuire al sito web o comunicare con Privacy Guides o altri collaboratori riguardo il nostro sito web crea un rapporto avvocato-cliente.
+Privacy Guides non è uno studio legale. Pertanto, il sito web e i collaboratori di Privacy Guides non forniscono alcuna consulenza legale. Il materiale e i consigli nel nostro sito web e nelle nostre guide, non costituiscono consulenza legale, né contribuire al sito web o comunicare con Privacy Guides o altri collaboratori sul nostro sito web, creano un rapporto tra avvocato-cliente.
 
-La gestione di questo sito, come ogni impresa umana, comporta incertezze e compromessi. Speriamo che questo sito sia d'aiuto, ma può contenere errori e non può affrontare tutte le situazioni. Se avete domande sulla vostra situazione, vi incoraggiamo a fare le vostre ricerche, cercare altri esperti e impegnarvi in discussioni con la comunità di Privacy Guides. Se avete delle domande legali, dovreste consultare il vostro consulente legale prima di procedere.
+La gestione di questo sito web, come ogni impresa umana, comporta incertezze e compromessi. Speriamo che questo sito web sia d'aiuto, ma potrebbe includere errori e non può affrontare ogni situazione. Se hai qualsiasi domanda sulla tua situazione, ti incoraggiamo a svolgere le tue ricerche, cercare altri esperti e discutere con la community di Privacy Guides. Se hai qualsiasi domanda legale, dovresti consultare il tuo consulente legale, prima di procedere.
 
-Privacy Guides è un progetto open source a cui si contribuisce sotto licenze che includono termini che, per la protezione del sito web e dei suoi collaboratori, chiariscono che il progetto Privacy Guides e il sito web sono offerti "così come sono", senza garanzia, e declinando la responsabilità per danni derivanti dall'uso del sito web o di qualsiasi raccomandazione contenuta al suo interno. Privacy Guides non garantisce né rilascia alcuna dichiarazione riguardante l'accuratezza, i risultati probabili o l'affidabilità dell'uso dei materiali sul sito web o comunque relativi a tali materiali sul sito web o su qualsiasi sito di terzi collegato a questo sito.
+Privacy Guides è un progetto open source a cui si contribuisce sotto licenze che includono termini che, per la protezione del sito web e dei suoi collaboratori, chiariscono che il progetto e il sito web di Privacy Guides è offerto "così com'è", senza garanzie, e declinando la responsabilità per i danni risultati dall'utilizzo del sito web o di qualsiasi consiglio contenuto in esso. Privacy Guides non garantisce, né rilascia alcuna dichiarazione riguardante l'accuratezza, i risultati probabili, o l'affidabilità dell'utilizzo dei materiali sul sito web, o altrimenti relativi a tali materiali sul sito web, o su qualsiasi sito di terze parti collegato al sito web.
 
-Privacy Guides inoltre non garantisce che questo sito sarà costantemente disponibile, o disponibile affatto.
+Inoltre, Privacy Guides non garantisce che questo sito web sarà disponibile costantemente, o disponibile affatto.
 
 ## Panoramica sulle licenze
 
-!!! danger "Attenzione"
+!!! danger ""
 
-    Quanto segue è un riassunto scritto in formato leggibile di (e non un sostituto di) [licenza](/licenza).
+    Quanto segue è un riepilogo leggibile dall'uomo (e non sostituto della) della [licenza](/license).
 
-Se non diversamente indicato, tutti i **contenuti** di questo sito web sono resi disponibili secondo i termini della [Licenza Creative Commons Attribuzione-Non opere derivate 4.0 Internazionale](https://github.com/privacyguides/privacyguides.org/blob/main/LICENSE). Il seguente **codice sorgente** utilizzato per generare questo sito web e per mostrare che i contenuti sono stati rilasciati sotto la [Licenza MIT](https://github.com/privacyguides/privacyguides.org/tree/main/LICENSE-CODE).
+Se non indicato diversamente, tutti i **contenuti** su questo sito web sono resi disponibili sotto i termini della [Licenza Pubblica Internazionale Creative Commons Attribution-NoDerivatives 4.0](https://github.com/privacyguides/privacyguides.org/blob/main/LICENSE). Il **codice sorgente** sottostante, utilizzato per generare questo sito web e mostrare tali contenuti, è rilasciato sotto la [Licenza MIT](https://github.com/privacyguides/privacyguides.org/tree/main/LICENSE-CODE).
 
-Questo non include codice di terze parti incorporato in questo repository, o codice dove una licenza sostitutiva è altrimenti indicata. I seguenti sono esempi degni di nota, ma questa lista potrebbe non essere onnicomprensiva:
+Ciò non include il codice di terze parti incorporato in questa repository, o il codice in cui è altrimenti indicata una licenza sostitutiva. I seguenti sono degli esempi notevoli, ma questo elenco potrebbe non essere omnicomprensivo:
 
-* [MathJax](https://github.com/privacyguides/privacyguides.org/blob/main/theme/assets/javascripts/mathjax.js)è stato concesso sotto la [ Licenza Apache 2.0](https://github.com/privacyguides/privacyguides.org/blob/main/docs/assets/javascripts/LICENSE.mathjax.txt).
-* Il font [Bagnard](https://github.com/privacyguides/brand/tree/main/WOFF/bagnard) utilizzato per le intestazioni è stato concesso sotto la[SIL Open Font License 1.1](https://github.com/privacyguides/brand/blob/main/WOFF/bagnard/LICENSE.txt).
-* Il font [Public Sans](https://github.com/privacyguides/brand/tree/main/WOFF/public_sans) utilizzato per la maggior parte del testo del sito è concesso in licenza secondo [questi termini](https://github.com/privacyguides/brand/blob/main/WOFF/public_sans/LICENSE.txt).
-* Il font [DM Mono](https://github.com/privacyguides/brand/tree/main/WOFF/dm_mono) utilizzato per il testo monospaziato è stato concesso sotto la:[SIL Open Font License 1.1](https://github.com/privacyguides/brand/blob/main/WOFF/dm_mono/LICENSE.txt).
+* [MathJax](https://github.com/privacyguides/privacyguides.org/blob/main/theme/assets/javascripts/mathjax.js) è concesso sotto la [ Licenza Apache 2.0](https://github.com/privacyguides/privacyguides.org/blob/main/docs/assets/javascripts/LICENSE.mathjax.txt).
+* Il font delle intestazioni [Bagnard](https://github.com/privacyguides/brand/tree/main/WOFF/bagnard), è concesso sotto la [Licenza SIL Open Font 1.1](https://github.com/privacyguides/brand/blob/main/WOFF/bagnard/LICENSE.txt).
+* Il font [Public Sans](https://github.com/privacyguides/brand/tree/main/WOFF/public_sans), utilizzato per gran parte dei testi sul sito, è concesso sotto i termini [qui](https://github.com/privacyguides/brand/blob/main/WOFF/public_sans/LICENSE.txt) dettagliati.
+* Il font [DM Mono](https://github.com/privacyguides/brand/tree/main/WOFF/dm_mono) utilizzato per il testo monospaziato sul sito, è concesso sotto la [Licenza SIL Open Font 1.1](https://github.com/privacyguides/brand/blob/main/WOFF/dm_mono/LICENSE.txt).
 
-Questo significa che puoi usare il contenuto leggibile dall'uomo in questo repository per il tuo progetto, secondo i termini delineati nel testo CC0 1.0 Universal. **Non è possibile** utilizzare il marchio Privacy Guides nel proprio progetto senza l'esplicita approvazione da questo progetto. I marchi di fabbrica di Privacy Guides includono il marchio denominativo "Privacy Guides" e il logo dello scudo. I marchi registrati di Privacy Guides includono il marchio "Privacy Guides" e il logo dello scudo.
+Ciò significa che puoi utilizzare i contenuti leggibili dall'uomo in questa repository per il tuo progetto, secondo i termini delineati nel testo della Licenza Pubblica Internazionale Creative Commons Attribution-NoDerivatives 4.0. Puoi farlo in qualsiasi modo ragionevole, ma non in alcun modo che suggerisca che Privacy Guides promuova te o il tuo utilizzo. **Non puoi** utilizzare i marchi di Privacy Guides nel tuo progetto, senza l'espressa approvazione da parte di questo progetto. I marchi registati di Privacy Guides includono il marchio "Privacy Guides" e il logo dello scudo.
 
-Riteniamo che i loghi e le altre immagini in `assets` ottenuti da fornitori terzi siano di dominio pubblico o **fair use**. In poche parole, la dottrina legale del [fair use](https://it.wikipedia.org/wiki/Fair_use) permette l'uso di immagini protette da copyright al fine di identificare l'argomento per scopi di commento pubblico. Tuttavia, questi loghi e altre immagini possono ancora essere soggetti alle leggi sui marchi in una o più giurisdizioni. Prima di usare questo contenuto, assicurati che sia usato per identificare l'entità o l'organizzazione che possiede il marchio e che tu abbia il diritto di usarlo secondo le leggi che si applicano nelle circostanze del tuo uso previsto. *Durante la copia di contenuti da questo sito Web, l'utente è l'unico responsabile di assicurarsi di non violare il marchio o il copyright di qualcun altro.*
+Crediamo che i loghi e altre immagini in `assets`, ottenute da fornitori di terze parti, siano nel dominio pubblico o dell'**utilizzo equo e solidale**. In breve, la [dottrina dell'utilizzo equo e solidale](https://www.copyright.gov/fair-use/more-info.html) legale, consente l'utilizzo di immagini protette da copyright, per poter identificare la materia del soggetto, per gli scopi di commento pubblico. Tuttavia, questi loghi e altre immagini potrebbero ancora essere soggetti a leggi sui marchi, in una o più giurisdizioni. Prima di utilizzare tali contenuti, ti preghiamo di assicurarti che sia utilizzato per identificare l'entità o l'organizzazione che possiede il marchio registrato, e che tu abbia il diritto a utilizzarlo, sotto le leggi che si applicano nelle circostanze del tuo utilizzo previsto. *Copiando i contenuti da questo sito web, sei l'unico responsabile della garanzia di non violare il marchio o copyright altrui.*
 
-Quando contribuite al nostro sito web, lo fate in base alle licenze sopra riportate e concedete a Privacy Guides una licenza perpetua, mondiale, non esclusiva, trasferibile, esente da royalty e irrevocabile, con il diritto di sublicenziare tali diritti attraverso più livelli di sublicenziatari, per riprodurre, modificare, visualizzare, eseguire e distribuire il vostro contributo come parte del nostro progetto.
+Contribuendo al nostro sito web, lo fai secondo le licenze suddette, concedendo a Privacy Guides una licenza perpetua, globale, non esclusiva, trasferibile, esente da royalty e irrevocabile, con il diritto di sublicenziare tali diritti, tramite più livelli di sublicenze, per riprodurre, modificare, mostrare, eseguire e distribuire il tuo contributo, come parte del nostro progetto.
 
-## Uso accettabile
+## Utilizzo Accettabile
 
-L'utente non può utilizzare questo sito web in qualsiasi modo che causi o possa causare danni al sito web o compromettere la disponibilità o l'accessibilità di Privacy Guides, o in qualsiasi modo che sia illegale, illegale, fraudolento, dannoso, o in connessione con qualsiasi scopo o attività illegale, illegale, fraudolento o dannoso.
+Non puoi utilizzare questo sito web in alcun modo che causi o potrebbe causare danni al sito web o alla disponibilità o accessibilità di Privacy Guides, o in alcun modo che sia illegale, fraudolento, dannoso, o in connessione con alcuno scopo o attività illegali, fraudolenti o dannosi.
 
-L'utente non deve condurre alcuna attività di raccolta dati sistematica o automatizzata su o in relazione a questo sito web senza l'espresso consenso scritto di Aragon Ventures LLC, incluso:
+Non devi condurre alcuna attività di raccolta dei dati sistematica o automatizzata su, o in relazione con, questo sito web, senza il consenso scritto espresso, inclusi:
 
 * Scansioni automatiche eccessive
-* Attacchi Denial of Service
+* Attacchi di Denial of Service
 * Scraping
-* Data Mining
+* Mining di Dati
 * 'Framing' (IFrames)
 
 ---
 
-*Porzioni di questo avviso sono state adottate da [opensource.guide](https://github.com/github/opensource.guide/blob/master/notices.md) su GitHub. Tale risorsa e questa stessa pagina sono rilasciate sotto: [CC-BY-4.0](https://creativecommons.org/licenses/by-sa/4.0/).*
+*Porzioni di questo stesso avviso sono stati adottati da [opensource.guide](https://github.com/github/opensource.guide/blob/master/notices.md), su GitHub. Tale risorsa e questa stessa pagina, sono rilasciate sotto [CC-BY-4.0](https://creativecommons.org/licenses/by-sa/4.0/).*

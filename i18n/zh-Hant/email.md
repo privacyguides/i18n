@@ -184,7 +184,7 @@ Skiff 在其開發期間曾進行多次[審計](https://skiff.com/transparency) 
 
 #### :material-check:{ .pg-green } Custom Domains and Aliases
 
-免費方案中，用戶可在主帳戶外，建立另外 3 個 @skiff.com 別名。 Free accounts can add 1 [custom domain](https://skiff.com/blog/custom-domain-setup), and up to 15 custom domains on a paid plan. You can create unlimited aliases or a [catch-all](https://skiff.com/blog/catch-all-email-alias) alias on your custom domain.
+免費方案中，用戶可在主帳戶外，建立另外 3 個 @skiff.com 別名。 免費帳戶可使用 1個 [自定域名](https://skiff.com/blog/custom-domain-setup)，而付費帳戶則最多可以設定至 15個域名。 使用自定域名者，可建立無限制的別名數量或 [catch-all](https://skiff.com/blog/catch-all-email-alias) 別名。
 
 #### :material-alert-outline:{ .pg-orange } 私密付款方式
 

@@ -22,7 +22,7 @@ Se desideri ulteriore **privacy** dal tuo ISP, su una rete Wi-Fi pubblica, o dur
     
     Se stai cercando l'**anonimato**, dovresti utilizzare Tor Browser **invece** di una VPN.
     
-    Se stai cercando maggiore **sicurezza**, dovresti sempre assicurarti di connetterti a siti web che utilizzano HTTPS. Una VPN non sostituisce le buone pratiche di sicurezza.
+    Se stai cercando maggiore **sicurezza**, dovresti sempre assicurarti di connetterti a siti web che utilizzano HTTPS. Una VPN non è un sostituto per buone pratiche di sicurezza.
     
     [Scarica Tor](https://www.torproject.org/){ .md-button .md-button--primary } [Tor Myths & FAQ](advanced/tor-overview.md){ .md-button }
 

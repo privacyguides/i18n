@@ -111,7 +111,7 @@ Nix是一個基於源的套件管理器；如果二進位快取中沒有預先�
 
     ![Whonix logo](assets/img/linux-desktop/whonix.svg){ align=right }
     
-    **Whonix** is based on [Kicksecure](#kicksecure), a security-focused fork of Debian. 它旨在提供網際網路的隱私、安全和匿名性。 Whonix 最好與 [Qubes OS](# qubes-os) 配合使用。
+    **Whonix** 為基於 [Kicksecure](#kicksecure) 專注在安全的 Debian 分支系統。 它旨在提供網際網路的隱私、安全和匿名性。 Whonix 最好與 [Qubes OS](# qubes-os) 配合使用。
     
     [:octicons-home-16: Homepage](https://www.whonix.org/){ .md-button .md-button--primary }
     [:simple-torbrowser:](http://www.dds6qkxpwdeubwucdiaord2xgbbeyds25rbsgr73tbfpqpt4a6vjwsyd.onion){ .card-link title="Onion Service" }
@@ -161,7 +161,7 @@ Tails Tor 瀏覽器預設包含 [uBlock Origin](desktop-browsers.md#ublock-origi
 
     ![Qubes OS logo](assets/img/qubes/qubes_os.svg){ align=right }
     
-    **Qubes OS** is an open-source operating system designed to provide strong security for desktop computing through secure virtual machines (a.k.a. "Qubes"). Qubes 基於 Xen、X Window System 和 Linux ，可以運行大多數 Linux 應用程式與使用大多數 Linux 驅動程式。
+    **Qubes OS** 是開源作業系統，利用安全的虛擬器為桌面運算提供更強的安全性 (a.k.a. "Qubes"). Qubes 基於 Xen、X Window System 和 Linux ，可以運行大多數 Linux 應用程式與使用大多數 Linux 驅動程式。
     
     [:octicons-home-16: Homepage](https://www.qubes-os.org/){ .md-button .md-button--primary }
     [:simple-torbrowser:](http://qubesosfasa4zl44o4tws22di6kepyzfeqv3tg4e3ztknltfxqrymdad.onion){ .card-link title="Onion Service" }
@@ -171,21 +171,21 @@ Tails Tor 瀏覽器預設包含 [uBlock Origin](desktop-browsers.md#ublock-origi
     [:octicons-heart-16:](https://www.qubes-os.org/donate/){ .card-link title=Contribute }
     
 
-Qubes OS secures the computer by isolating subsystems (e.g., networking, USB, etc.) and applications in separate VMs. Should one part of the system be compromised, the extra isolation is likely to protect the rest of the system.
+Qubes OS 作業系統將子系統（例如網絡、USB等）和應用程式隔離在個別的虛擬機器中以保護電腦。 如果系統的一部分被破壞，額外的隔離可以保護系統其餘部分。
 
-For further information about how Qubes works, read our full [Qubes OS overview](os/qubes-overview.md) page.
+有關 Oubes 運作的進一步資訊，請參考我們完整的 [Qubes OS 介紹](os/qubes-overview.md) 頁面。
 
 
 
 ### Kicksecure
 
-While we [recommend against](os/linux-overview.md#release-cycle) "perpetually outdated" distributions like Debian for Desktop use in most cases, Kicksecure is a Debian-based operating system which has been hardened to be much more than a typical Linux install.
+雖然我們在大多數情況下[建議不要](os/linux-overview.md#release-cycle)使用“永遠過時”的發行版，例如用於桌面的 Debian，但 Kicksecure 是一個基於 Debian 的操作系統，其功能已強化，遠遠超出了典型的 Linux 安裝。
 
-!!! recommendation
+!!! 推薦
 
     ![Kicksecure logo](assets/img/linux-desktop/kicksecure.svg){ align=right }
     
-    **Kicksecure**—in oversimplified terms—is a set of scripts, configurations, and packages that substantially reduce the attack surface of Debian. 它預設覆蓋了大量的隱私和加固建議。 It also serves as the base OS for [Whonix](#whonix).
+    **Kicksecure**—其簡化的介紹—可以說是一組腳本、置配與套件的組合，可大幅減少 Debian 的攻擊面。 它預設覆蓋了大量的隱私和加固建議。 它也是 [Whonix](#whonix) 的基礎作業系統。
     
     [:octicons-home-16: Homepage](https://www.kicksecure.com/){ .md-button .md-button--primary }
     [:octicons-eye-16:](https://www.kicksecure.com/wiki/Privacy_Policy){ .card-link title="Privacy Policy" }
@@ -198,17 +198,17 @@ While we [recommend against](os/linux-overview.md#release-cycle) "perpetually ou
 
 ## 標準
 
-Choosing a Linux distro that is right for you will come down to a huge variety of personal preferences, and this page is **not** meant to be an exhaustive list of every viable distribution. Our Linux overview page has some advice on [choosing a distro](os/linux-overview.md#choosing-your-distribution) in more detail. The distros on *this* page do all generally follow the guidelines we covered there, and all meet these standards:
+選擇適合您的 Linux 發行版取決於個人喜好差異，本頁**並非**是每一款發行版的詳盡列表。 我們在 Linux 介紹頁有更詳細的 [如何選擇發行版本](os/linux-overview.md#choosing-your-distribution) 的說明。 *這個*頁面上的發行版通常都遵循我們介紹的指南，且都滿足以下標準：
 
-- Free and open-source.
-- Receives regular software and kernel updates.
+- 免費且開放原始碼。
+- 必須定期接收軟體和內核更新。
 - [Avoids X11](os/linux-overview.md#wayland). 
-      - The notable exception here is Qubes, but the isolation issues which X11 typically has are avoided by virtualization. This isolation only applies to apps *running in different qubes* (virtual machines), apps running in the *same* qube are not protected from each other.
-- Supports full-disk encryption during installation.
-- Doesn't freeze regular releases for more than 1 year. 
-      - We [recommend against](os/linux-overview.md#release-cycle) "Long Term Support" or "stable" distro releases for desktop usage.
-- Supports a wide variety of hardware.
-- Preference towards larger projects. 
-      - Maintaining an operating system is a major challenge, and smaller projects have a tendency to make more avoidable mistakes, or delay critical updates (or worse, disappear entirely). We lean towards projects which will likely be around 10 years from now (whether that's due to corporate backing or very significant community support), and away from projects which are hand-built or have a small number of maintainers.
+      - 這裡值得注意的例外是 Qubes，但虛擬化可以避免 X11 常發生的隔離問題。 其隔離僅適用於*在不同 qube*（虛擬機）中運行的應用程式，在*同一個* qube 運行的應用程式則無法保護。
+- 安裝時必須支援全磁碟加密。
+- 不可將定期更新發佈凍結超過1年。 
+      - 我們 [不建議](os/linux-overview.md#release-cycle) 桌機使用“長期支援”或“穩定”發行版。
+- 需要支持各種各樣的硬體。
+- 偏好較大型的專案。 
+      - 維護作業系統是一項大挑戰，小型專案往往會犯更多可避免的錯誤，或延遲重大更新（或更糟糕的是，很快就完全消失）。 我們傾向於至少可維持10 年的專案（無論是由於公司支持還是非常重要的社區支持），而不是手工構建或只有少數維護人員的專案。
 
-In addition, [our standard criteria](about/criteria.md) for recommended projects still applies. **Please note we are not affiliated with any of the projects we recommend.**
+此外，[我們推薦專案的一般準則](about/criteria.md) 仍然適用。 **請注意我們和所推薦的服務商沒有任何利害關係。**

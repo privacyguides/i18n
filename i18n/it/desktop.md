@@ -109,9 +109,9 @@ Nix è un gestore di pacchetti basato sul codice sorgente; se non ne esiste alcu
 
 !!! recommendation
 
-    ![Whonix logo](assets/img/linux-desktop/whonix.svg){ align=right }
+    ![Logo di Whonix](assets/img/linux-desktop/whonix.svg){ align=right }
     
-    **Whonix** is based on [Kicksecure](#kicksecure), a security-focused fork of Debian. Mira a fornire privacy, sicurezza e anonimato su Internet. Whonix è meglio utilizzato insieme a [Qubes OS](#qubes-os).
+    **Whonix** si basa su [Kicksecure](#kicksecure), una biforcazione incentrata sulla sicurezza di Debian. Mira a fornire privacy, sicurezza e anonimato su Internet. Whonix è meglio utilizzato insieme a [Qubes OS](#qubes-os).
     
     [:octicons-home-16: Home](https://www.whonix.org/){ .md-button .md-button--primary }
     [:simple-torbrowser:](http://www.dds6qkxpwdeubwucdiaord2xgbbeyds25rbsgr73tbfpqpt4a6vjwsyd.onion){ .card-link title="Servizio Onion" }
@@ -150,50 +150,50 @@ Di design, Tails dovrebbe ripristinarsi completamente dopo ogni riavvio. L'[arch
 
 !!! recommendation
 
-    ![Qubes OS logo](assets/img/qubes/qubes_os.svg){ align=right }
+    ![Logo di Qubes OS](assets/img/qubes/qubes_os.svg){ align=right }
     
-    **Qubes OS** is an open-source operating system designed to provide strong security for desktop computing through secure virtual machines (a.k.a. "Qubes"). Si basa su Xen, il Sistema X Window, e su Linux, e può eseguire gran parte delle applicazioni di Linux, e utilizzare molti dei suoi driver.
+    **Qubes OS** è un sistema operativo open source progettato per fornire un forte sicurezza per l'informatica desktop, tramite macchine virtuali sicure (anche note come "Qube"). Si basa su Xen, il Sistema X Window, e su Linux, e può eseguire gran parte delle applicazioni di Linux, e utilizzare molti dei suoi driver.
     
-    [:octicons-home-16: Homepage](https://www.qubes-os.org/){ .md-button .md-button--primary }
-    [:simple-torbrowser:](http://qubesosfasa4zl44o4tws22di6kepyzfeqv3tg4e3ztknltfxqrymdad.onion){ .card-link title="Onion Service" }
-    [:octicons-eye-16:](https://www.qubes-os.org/privacy/){ .card-link title="Privacy Policy" }
-    [:octicons-info-16:](https://www.qubes-os.org/doc/){ .card-link title=Documentation }
-    [:octicons-code-16:](https://github.com/QubesOS/){ .card-link title="Source Code" }
-    [:octicons-heart-16:](https://www.qubes-os.org/donate/){ .card-link title=Contribute }
+    [:octicons-home-16: Home](https://www.qubes-os.org/){ .md-button .md-button--primary }
+    [:simple-torbrowser:](http://qubesosfasa4zl44o4tws22di6kepyzfeqv3tg4e3ztknltfxqrymdad.onion){ .card-link title="Servizio Onion" }
+    [:octicons-eye-16:](https://www.qubes-os.org/privacy/){ .card-link title="Codice Sorgente" }
+    [:octicons-info-16:](https://www.qubes-os.org/doc/){ .card-link title=Documentazione }
+    [:octicons-code-16:](https://github.com/QubesOS/){ .card-link title="Codice Sorgente" }
+    [:octicons-heart-16:](https://www.qubes-os.org/donate/){ .card-link title=Contribuisci }
 
-Qubes OS secures the computer by isolating subsystems (e.g., networking, USB, etc.) and applications in separate VMs. Should one part of the system be compromised, the extra isolation is likely to protect the rest of the system.
+Qubes OS protegge il computer isolando i sistemi secondri (es., rete, USB, etc.) e le applicazioni, in VM separate. Dovesse esser compromessa una parte del sistema, l'isolamento aggiuntivo potrebbe proteggere il resto del sistema.
 
-For further information about how Qubes works, read our full [Qubes OS overview](os/qubes-overview.md) page.
+Per ulteriori informazioni sul funzionamento di Qubes, leggi la nostra pagina [Panoramica su Qubes OS](os/qubes-overview.md).
 
 ### Kicksecure
 
-While we [recommend against](os/linux-overview.md#release-cycle) "perpetually outdated" distributions like Debian for Desktop use in most cases, Kicksecure is a Debian-based operating system which has been hardened to be much more than a typical Linux install.
+Sebbene [sconsiglimo](os/linux-overview.md#release-cycle) le distribuzioni "perennemente obsolete" come Debian per l'utilizzo da desktop in gran parte dei casi, Kicksecure è un sistema operativo basato su Debian, rafforzato al punto da essere di molto migliore, di una tipica installazione di Linux.
 
 !!! recommendation
 
-    ![Kicksecure logo](assets/img/linux-desktop/kicksecure.svg){ align=right }
+    ![Logo di Kicksecure](assets/img/linux-desktop/kicksecure.svg){ align=right }
     
-    **Kicksecure**—in oversimplified terms—is a set of scripts, configurations, and packages that substantially reduce the attack surface of Debian. Copre di default molti dei consigli sulla privacy e la sicurezza. It also serves as the base OS for [Whonix](#whonix).
+    **Kicksecure**, in breve, consiste in una serie di script, configurazioni e pacchetti che riducono sostanzialmente la superficie di attacco di Debian. Copre di default molti dei consigli sulla privacy e la sicurezza. Inoltre, serve da OS di base per [Whonix](#whonix).
     
-    [:octicons-home-16: Homepage](https://www.kicksecure.com/){ .md-button .md-button--primary }
-    [:octicons-eye-16:](https://www.kicksecure.com/wiki/Privacy_Policy){ .card-link title="Privacy Policy" }
-    [:octicons-info-16:](https://www.kicksecure.com/wiki/Documentation){ .card-link title=Documentation }
-    [:octicons-code-16:](https://github.com/Kicksecure){ .card-link title="Source Code" }
-    [:octicons-heart-16:](https://www.kicksecure.com/wiki/Donate){ .card-link title=Contribute }
+    [:octicons-home-16: Home](https://www.kicksecure.com/){ .md-button .md-button--primary }
+    [:octicons-eye-16:](https://www.kicksecure.com/wiki/Privacy_Policy){ .card-link title="Politica sulla Privacy" }
+    [:octicons-info-16:](https://www.kicksecure.com/wiki/Documentation){ .card-link title=Documentazione }
+    [:octicons-code-16:](https://github.com/Kicksecure){ .card-link title="Codice Sorgente" }
+    [:octicons-heart-16:](https://www.kicksecure.com/wiki/Donate){ .card-link title=Contribuisci }
 
 ## Criteri
 
-Choosing a Linux distro that is right for you will come down to a huge variety of personal preferences, and this page is **not** meant to be an exhaustive list of every viable distribution. Our Linux overview page has some advice on [choosing a distro](os/linux-overview.md#choosing-your-distribution) in more detail. The distros on *this* page do all generally follow the guidelines we covered there, and all meet these standards:
+Scegliere una distribuzione di Linux adatta a te, diperrà da una vasta gamma di preferenze personali e, questa pagina, **non** è intesa come un elenco esaustiivo di ogni distribuzione fattibile. La nostra pagina panoramica su Linux contiene dei consigli sulla [scelta di una distro](os/linux-overview.md#choosing-your-distribution), in maggiore dettaglio. Le distribuzioni su *questa* pagina, in generale, seguono tutte le linee guida coperte lì e, tutte, soddisfano questi standard:
 
-- Free and open-source.
-- Receives regular software and kernel updates.
-- [Avoids X11](os/linux-overview.md#wayland).
-    - The notable exception here is Qubes, but the isolation issues which X11 typically has are avoided by virtualization. This isolation only applies to apps *running in different qubes* (virtual machines), apps running in the *same* qube are not protected from each other.
-- Supports full-disk encryption during installation.
-- Doesn't freeze regular releases for more than 1 year.
-    - We [recommend against](os/linux-overview.md#release-cycle) "Long Term Support" or "stable" distro releases for desktop usage.
-- Supports a wide variety of hardware.
-- Preference towards larger projects.
-    - Maintaining an operating system is a major challenge, and smaller projects have a tendency to make more avoidable mistakes, or delay critical updates (or worse, disappear entirely). We lean towards projects which will likely be around 10 years from now (whether that's due to corporate backing or very significant community support), and away from projects which are hand-built or have a small number of maintainers.
+- Liberi e open source.
+- Ricevono aggiornamenti regolari del software e del kernel.
+- [Evitano X11](os/linux-overview.md#wayland).
+    - L'eccezione notevole, qui, è Qubes, ma i problemi di isolamento tipici di X11, sono evitati dalla virtualizzazione. Questo isolamento si applica esclusivamente alle app *eseguite in qube differenti* (macchine virtuali), le app eseguite nella *stessa* qube non sono protette tra loro.
+- Supportano la crittografia del disco completo durante l'installazione.
+- Non interrompono le versioni regolari per più di 1 anno.
+    - [Sconsigliamo](os/linux-overview.md#release-cycle) le versioni di distribuzioni con "Supporto a Lungo Termine" o "stabile", per l'utilizzo da desktop.
+- Supportano una vasta gamma di hardware.
+- Preferiscono i progetti più grandi.
+    - Mantenere un sistema operativo è un sfida importante e, i progetti più piccoli, tendono a compiere errori evitabili o a ritardare gli aggiornamenti critici (o peggio, scomparire interamente). Ci orientiamo verso progetti che, tra 10 anni, potrebbero essere ancora presenti (che sia grazie a supporto aziendale o supporto della community molto significativo), e ci allontaniamo da progetti costruiti a mano o aventi un numero ridotto di manutentori.
 
-In addition, [our standard criteria](about/criteria.md) for recommended projects still applies. **Please note we are not affiliated with any of the projects we recommend.**
+Inoltre, si applicano i [nostri criteri standard](about/criteria.md) per i progetti consigliati. **Ti preghiamo di notare che non siamo affiliati a nessuno dei progetti che consigliamo.**

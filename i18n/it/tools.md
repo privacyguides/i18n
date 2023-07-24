@@ -1,74 +1,74 @@
 ---
-meta_title: "I migliori strumenti, consigli e servizi senza pubblicità per la privacy - Privacy Guides"
+meta_title: "I migliori strumenti per la privacy, servizi e consigli privi di pubblicità - Privacy Guides"
 title: "Strumenti per la privacy"
 icon: material/tools
 hide:
   - toc
-description: Privacy Guides è il sito web più trasparente e affidabile per trovare software, applicazioni e servizi che proteggono i vostri dati personali dai programmi di sorveglianza di massa e da altre minacce d'internet.
+description: Privacy Guides è il sito web più trasparente e affidabile per trovare software, app e servizi che proteggano i tuoi dati personali dai programmi di sorveglianza di massa e da altre minacce di Internet.
 ---
 
-Se stai cercando una soluzione specifica per qualcosa, questi sono gli strumenti hardware e software che ti consigliamo in una varietà di categorie. I nostri strumenti di privacy consigliati sono scelti principalmente in base alle funzionalità di sicurezza, con maggiore enfasi sugli strumenti decentralizzati e open-source. Sono applicabili a una varietà di modelli di minaccia che vanno dalla protezione contro i programmi di sorveglianza di massa globali e evitare le grandi aziende tecnologiche alla mitigazione degli attacchi, ma solo tu puoi determinare cosa funzionerà meglio per le tue esigenze.
+Se stai cercando una soluzione specifica per qualcosa, ecco gli strumenti hardware e software che consigliamo, in svariate categorie. I nostri strumenti per la privacy consigliati, sono scelti principalmente secondo le funzionalità di sicurezza, con maggiore enfasi sugli strumenti decentralizzati e open source. Sono applicabili a svariati modelli di minaccia, dalla protezione dai programmi di sorveglianza di massa e l'evitare le grandi società inserzionistiche, alla mitigazione degli attacchi; tuttavia, soltanto tu puoi determinare cosa funzionerà meglio per le tue esigenze.
 
-Se vuoi assistenza per capire i migliori strumenti per la privacy e programmi alternativi più adatti alle tue esigenze, inizia una discussione sul nostro forum [](https://discuss.privacyguides.net/) o sulla nostra community [Matrix](https://matrix.to/#/#privacyguides:matrix.org)!
+Se desideri assistenza per capire quali siano gli strumenti e programmi alternativi migliori per la privacy, secondo le tue esigenze, crea una discussione sul nostro [forum](https://discuss.privacyguides.net/) o sulla nostra community di [Matrix](https://matrix.to/#/#privacyguides:matrix.org)!
 
-Per maggiori dettagli su ogni progetto, sul motivo per cui è stato scelto e su ulteriori suggerimenti o trucchi che consigliamo, clicca il link "Maggiori informazioni" in ogni sezione, oppure clicca il suggerimento stesso per essere indirizzato a quella specifica sezione della pagina.
+Per ulteriori dettagli su ogni progetto, perché è stato scelto e ulteriori consigli o trucchi consigliati, clicca il link "Scopri di Più" in ogni sezione, o clicca sullo stesso consiglio, per essere reindirizzato alla sezione specifica della pagina.
 
 ## Rete Tor
 
 <div class="grid cards annotate" markdown>
 
-- ![Tor Browser logo](assets/img/browsers/tor.svg){ .twemoji } [Tor Browser](tor.md#tor-browser)
-- ![Orbot logo](assets/img/self-contained-networks/orbot.svg){ .twemoji } [Orbot (Smartphone Tor Proxy)](tor.md#orbot)
-- ![Snowflake logo](assets/img/browsers/snowflake.svg#only-light){ .twemoji }![Snowflake logo](assets/img/browsers/snowflake-dark.svg#only-dark){ .twemoji } [Snowflake](tor.md#snowflake) (1)
+- ![Logo di Tor Browser](assets/img/browsers/tor.svg){ .twemoji } [Tor Browser](tor.md#tor-browser)
+- ![Logo di Orbot](assets/img/self-contained-networks/orbot.svg){ .twemoji } [Orbot (Smartphone Tor Proxy)](tor.md#orbot)
+- ![Logo di Snowflake](assets/img/browsers/snowflake.svg#only-light){ .twemoji }![Logo di Snowflake](assets/img/browsers/snowflake-dark.svg#only-dark){ .twemoji } [Snowflake](tor.md#snowflake) (1)
 
 </div>
 
-1. Snowflake non aumenta la privacy, ma permette di contribuire facilmente alla rete Tor e di aiutare le persone in reti soggette a censura a ottenere una privacy migliore.
+1. Snowflake non incrementa la privacy, tuttavia, ti consente di contribuire facilmente alla rete di Tor e di aiutaare persone su reti censurate, a ottenere una migliore privacy.
 
-[Maggiori informazioni :material-arrow-right-drop-circle:](tor.md)
+[Scopri di più :material-arrow-right-drop-circle:](tor.md)
 
-## Browser web desktop
+## Browser web per desktop
 
 <div class="grid cards" markdown>
 
-- ![Mullvad Browser logo](assets/img/browsers/mullvad_browser.svg){ .twemoji } [Mullvad Browser](desktop-browsers.md#mullvad-browser)
-- ![Firefox logo](assets/img/browsers/firefox.svg){ .twemoji } [Firefox](desktop-browsers.md#firefox)
-- ![Brave logo](assets/img/browsers/brave.svg){ .twemoji } [Brave](desktop-browsers.md#brave)
+- ![Logo di Mullvad Browser](assets/img/browsers/mullvad_browser.svg){ .twemoji } [Mullvad Browser](desktop-browsers.md#mullvad-browser)
+- ![Logo di Firefox](assets/img/browsers/firefox.svg){ .twemoji } [Firefox](desktop-browsers.md#firefox)
+- ![Logo di Brave](assets/img/browsers/brave.svg){ .twemoji } [Brave](desktop-browsers.md#brave)
 
 </div>
 
-[Maggiori informazioni :material-arrow-right-drop-circle:](desktop-browsers.md)
+[Scopri di più :material-arrow-right-drop-circle:](desktop-browsers.md)
 
 ### Ulteriori Risorse
 
 <div class="grid cards" markdown>
 
-- ![uBlock Origin logo](assets/img/browsers/ublock_origin.svg){ .twemoji } [uBlock Origin](desktop-browsers.md#ublock-origin)
+- ![Logo di uBlock Origin](assets/img/browsers/ublock_origin.svg){ .twemoji } [uBlock Origin](desktop-browsers.md#ublock-origin)
 
 </div>
 
-[Maggiori informazioni :material-arrow-right-drop-circle:](desktop-browsers.md#additional-resources)
+[Scopri di più :material-arrow-right-drop-circle:](desktop-browsers.md#additional-resources)
 
 ## Browser web mobile
 
 <div class="grid cards" markdown>
 
-- ![Brave logo](assets/img/browsers/brave.svg){ .twemoji } [Brave (Android)](mobile-browsers.md#brave)
-- ![Safari logo](assets/img/browsers/safari.svg){ .twemoji } [Safari (iOS)](mobile-browsers.md#safari)
+- ![Logo di Brave](assets/img/browsers/brave.svg){ .twemoji } [Brave (Android)](mobile-browsers.md#brave)
+- ![Logo di Safari](assets/img/browsers/safari.svg){ .twemoji } [Safari (iOS)](mobile-browsers.md#safari)
 
 </div>
 
-[Maggiori informazioni :material-arrow-right-drop-circle:](mobile-browsers.md)
+[Scopri di più :material-arrow-right-drop-circle:](mobile-browsers.md)
 
 ### Ulteriori Risorse
 
 <div class="grid cards annotate" markdown>
 
-- ![AdGuard logo](assets/img/browsers/adguard.svg){ .twemoji } [AdGuard for iOS](mobile-browsers.md#adguard)
+- ![Logo di AdGuard](assets/img/browsers/adguard.svg){ .twemoji } [AdGuard for iOS](mobile-browsers.md#adguard)
 
 </div>
 
-[Maggiori informazioni :material-arrow-right-drop-circle:](mobile-browsers.md#adguard)
+[Scopri di più :material-arrow-right-drop-circle:](mobile-browsers.md#adguard)
 
 ## Fornitori di servizi
 
@@ -76,12 +76,12 @@ Per maggiori dettagli su ogni progetto, sul motivo per cui è stato scelto e su 
 
 <div class="grid cards" markdown>
 
-- ![Proton Drive logo](assets/img/cloud/protondrive.svg){ .twemoji } [Proton Drive](cloud.md#proton-drive)
-- ![Tresorit logo](assets/img/cloud/tresorit.svg){ .twemoji } [Tresorit](cloud.md#tresorit)
+- ![Logo di Proton Drive](assets/img/cloud/protondrive.svg){ .twemoji } [Proton Drive](cloud.md#proton-drive)
+- ![Logo di Tresorit](assets/img/cloud/tresorit.svg){ .twemoji } [Tresorit](cloud.md#tresorit)
 
 </div>
 
-[Maggiori informazioni :material-arrow-right-drop-circle:](cloud.md)
+[Scopri di più :material-arrow-right-drop-circle:](cloud.md)
 
 ### DNS
 
@@ -89,64 +89,64 @@ Per maggiori dettagli su ogni progetto, sul motivo per cui è stato scelto e su 
 
 [Raccomandiamo](dns.md#recommended-providers) una serie di server DNS criptati basati su una serie di criteri, come [Mullvad](https://mullvad.net/en/help/dns-over-https-and-dns-over-tls) e [Quad9](https://quad9.net/) tra gli altri. Ti consigliamo di leggere le nostre pagine sui DNS prima di scegliere un fornitore. In molti casi, l'utilizzo di un fornitore DNS alternativo non è consigliato.
 
-[Maggiori informazioni :material-arrow-right-drop-circle:](dns.md)
+[Scopri di più :material-arrow-right-drop-circle:](dns.md)
 
-#### Proxy DNS criptati
-
-<div class="grid cards" markdown>
-
-- ![RethinkDNS logo](assets/img/android/rethinkdns.svg#only-light){ .twemoji }![RethinkDNS logo](assets/img/android/rethinkdns-dark.svg#only-dark){ .twemoji } [RethinkDNS](dns.md#rethinkdns)
-- ![dnscrypt-proxy logo](assets/img/dns/dnscrypt-proxy.svg){ .twemoji } [dnscrypt-proxy](dns.md#dnscrypt-proxy)
-
-</div>
-
-[Maggiori informazioni :material-arrow-right-drop-circle:](dns.md#encrypted-dns-proxies)
-
-#### Soluzioni self-hosted
+#### Proxy DNS Crittografati
 
 <div class="grid cards" markdown>
 
-- ![AdGuard Home logo](assets/img/dns/adguard-home.svg){ .twemoji } [AdGuard Home](dns.md#adguard-home)
-- ![Pi-hole logo](assets/img/dns/pi-hole.svg){ .twemoji } [Pi-hole](dns.md#pi-hole)
+- ![Logo di RethinkDNS](assets/img/android/rethinkdns.svg#only-light){ .twemoji }![Logo di RethinkDNS](assets/img/android/rethinkdns-dark.svg#only-dark){ .twemoji } [RethinkDNS](dns.md#rethinkdns)
+- ![Logo di dnscrypt-proxy](assets/img/dns/dnscrypt-proxy.svg){ .twemoji } [dnscrypt-proxy](dns.md#dnscrypt-proxy)
 
 </div>
 
-[Maggiori informazioni :material-arrow-right-drop-circle:](dns.md#self-hosted-solutions)
+[Scopri di più :material-arrow-right-drop-circle:](dns.md#encrypted-dns-proxies)
+
+#### Soluzioni ospitate autonomamente
+
+<div class="grid cards" markdown>
+
+- ![Logo di AdGuard Home](assets/img/dns/adguard-home.svg){ .twemoji } [AdGuard Home](dns.md#adguard-home)
+- ![Logo di Pi-hole](assets/img/dns/pi-hole.svg){ .twemoji } [Pi-hole](dns.md#pi-hole)
+
+</div>
+
+[Scopri di più :material-arrow-right-drop-circle:](dns.md#self-hosted-solutions)
 
 ### Email
 
 <div class="grid cards" markdown>
 
-- ![logo Proton Mail](assets/img/email/protonmail.svg){ .twemoji } [Proton Mail](email.md#proton-mail)
-- ![logo Mailbox.org](assets/img/email/mailboxorg.svg){ .twemoji } [Mailbox.org](email.md#mailboxorg)
-- ![logo Skiff Mail](assets/img/email/skiff-mail.svg){ .twemoji } [Skiff Mail](email.md#skiff-mail)
-- ![logo Tutanota](assets/img/email/tutanota.svg){ .twemoji } [Tutanota](email.md#tutanota)
+- ![Logo di Proton Mail](assets/img/email/protonmail.svg){ .twemoji } [Proton Mail](email.md#proton-mail)
+- ![Logo di Mailbox.org](assets/img/email/mailboxorg.svg){ .twemoji } [Mailbox.org](email.md#mailboxorg)
+- ![Logo dii Skiff Mail](assets/img/email/skiff-mail.svg){ .twemoji } [Skiff Mail](email.md#skiff-mail)
+- ![Logo di Tutanota](assets/img/email/tutanota.svg){ .twemoji } [Tutanota](email.md#tutanota)
 
 </div>
 
-[Maggiori informazioni :material-arrow-right-drop-circle:](email.md)
+[Scopri di più :material-arrow-right-drop-circle:](email.md)
 
 #### Servizi di aliasing email
 
 <div class="grid cards" markdown>
 
-- ![AnonAddy logo](assets/img/email/anonaddy.svg#only-light){ .twemoji }![AnonAddy logo](assets/img/email/anonaddy-dark.svg#only-dark){ .twemoji } [AnonAddy](email.md#anonaddy)
-- ![SimpleLogin logo](assets/img/email/simplelogin.svg){ .twemoji } [SimpleLogin](email.md#simplelogin)
+- ![Logo di AnonAddy](assets/img/email/anonaddy.svg#only-light){ .twemoji }![Logo di AnonAddy](assets/img/email/anonaddy-dark.svg#only-dark){ .twemoji } [AnonAddy](email.md#anonaddy)
+- ![Logo di SimpleLogin](assets/img/email/simplelogin.svg){ .twemoji } [SimpleLogin](email.md#simplelogin)
 
 </div>
 
-[Maggiori informazioni :material-arrow-right-drop-circle:](email.md#email-aliasing-services)
+[Scopri di più :material-arrow-right-drop-circle:](email.md#email-aliasing-services)
 
-#### Email in self-hosting
+#### Email ospitate autonomamente
 
 <div class="grid cards" markdown>
 
-- ![mailcow logo](assets/img/email/mailcow.svg){ .twemoji } [mailcow](email.md#self-hosting-email)
-- ![Mail-in-a-Box logo](assets/img/email/mail-in-a-box.svg){ .twemoji } [Mail-in-a-Box](email.md#self-hosting-email)
+- ![Logo di mailcow](assets/img/email/mailcow.svg){ .twemoji } [mailcow](email.md#self-hosting-email)
+- ![Logo di Mail-in-a-Box](assets/img/email/mail-in-a-box.svg){ .twemoji } [Mail-in-a-Box](email.md#self-hosting-email)
 
 </div>
 
-[Maggiori informazioni :material-arrow-right-drop-circle:](email.md#self-hosting-email)
+[Scopri di più :material-arrow-right-drop-circle:](email.md#self-hosting-email)
 
 ### Servizi finanziari
 
@@ -158,9 +158,9 @@ Per maggiori dettagli su ogni progetto, sul motivo per cui è stato scelto e su 
 - ![Logo di MySudo](assets/img/financial-services/mysudo.svg#only-light){ .twemoji }![Logo di MySudo](assets/img/financial-services/mysudo-dark.svg#only-dark){ .twemoji } [MySudo](financial-services.md#mysudo-us-paid)
 </div>
 
-[Maggiori informazioni :material-arrow-right-drop-circle:](financial-services.md#payment-masking-services)
+[Scopri di più :material-arrow-right-drop-circle:](financial-services.md#payment-masking-services)
 
-#### Marketplace di Gift Card Online
+#### Mercato Online di Carte Regalo
 
 <div class="grid cards" markdown>
 
@@ -168,20 +168,20 @@ Per maggiori dettagli su ogni progetto, sul motivo per cui è stato scelto e su 
 
 </div>
 
-[Maggiori informazioni :material-arrow-right-drop-circle:](financial-services.md#gift-card-marketplaces)
+[Scopri di più :material-arrow-right-drop-circle:](financial-services.md#gift-card-marketplaces)
 
 ### Motori di ricerca
 
 <div class="grid cards" markdown>
 
-- ![Brave Search logo](assets/img/search-engines/brave-search.svg){ .twemoji } [Brave Search](search-engines.md#brave-search)
-- ![DuckDuckGo logo](assets/img/search-engines/duckduckgo.svg){ .twemoji } [DuckDuckGo](search-engines.md#duckduckgo)
-- ![SearXNG logo](assets/img/search-engines/searxng.svg){ .twemoji } [SearXNG](search-engines.md#searxng)
-- ![Startpage logo](assets/img/search-engines/startpage.svg#only-light){ .twemoji }![Startpage logo](assets/img/search-engines/startpage-dark.svg#only-dark){ .twemoji } [Startpage](search-engines.md#startpage)
+- ![Logo di Brave Search](assets/img/search-engines/brave-search.svg){ .twemoji } [Brave Search](search-engines.md#brave-search)
+- ![Logo di DuckDuckGo](assets/img/search-engines/duckduckgo.svg){ .twemoji } [DuckDuckGo](search-engines.md#duckduckgo)
+- ![Logo di SearXNG](assets/img/search-engines/searxng.svg){ .twemoji } [SearXNG](search-engines.md#searxng)
+- ![Logo di Startpage](assets/img/search-engines/startpage.svg#only-light){ .twemoji }![Logo di Startpage](assets/img/search-engines/startpage-dark.svg#only-dark){ .twemoji } [Startpage](search-engines.md#startpage)
 
 </div>
 
-[Maggiori informazioni :material-arrow-right-drop-circle:](search-engines.md)
+[Scopri di più :material-arrow-right-drop-circle:](search-engines.md)
 
 ### Fornitori di VPN
 
@@ -189,25 +189,25 @@ Per maggiori dettagli su ogni progetto, sul motivo per cui è stato scelto e su 
 
     L'utilizzo di una VPN **non** manterrà anonime le tue abitudini di navigazione, né aggiungerà ulteriore sicurezza al traffico non sicuro (HTTP).
     
-    Se stai cercando **anonimato**, dovresti usare il Tor Browser **invece** di una VPN.
+    Se stai cercando l'**anonimato**, dovresti utilizzare Tor Browser, **invece** che una VPN.
     
-    Se stai cercando maggiore **sicurezza**, dovresti sempre assicurarti di connetterti a siti Web usando HTTPS. Una VPN non sostituisce le buone pratiche di sicurezza.
+    Se stai cercando maggiore **sicurezza**, dovresti sempre assicurarti di connetterti a siti Web usando HTTPS. Una VPN non è un sostituto per buone pratiche di sicurezza.
     
     [Maggiori informazioni :material-arrow-right-drop-circle:](vpn.md)
 
 <div class="grid cards" markdown>
 
-- ![logo Proton VPN](assets/img/vpn/protonvpn.svg){ .twemoji } [Proton VPN](vpn.md#proton-vpn)
-- ![logo IVPN](assets/img/vpn/mini/ivpn.svg){ .twemoji } [IVPN](vpn.md#ivpn)
-- ![logo Mullvad](assets/img/vpn/mullvad.svg){ .twemoji } [Mullvad](vpn.md#mullvad)
+- ![Logo di Proton VPN](assets/img/vpn/protonvpn.svg){ .twemoji } [Proton VPN](vpn.md#proton-vpn)
+- ![Logo di IVPN](assets/img/vpn/mini/ivpn.svg){ .twemoji } [IVPN](vpn.md#ivpn)
+- ![Logo di Mullvad](assets/img/vpn/mullvad.svg){ .twemoji } [Mullvad](vpn.md#mullvad)
 
 </div>
 
-[Maggiori informazioni :material-arrow-right-drop-circle:](vpn.md)
+[Scopri di più :material-arrow-right-drop-circle:](vpn.md)
 
 ## Software
 
-### Sincronizzazione di calendario e contatti
+### Sincronizzazione del Calendario
 
 <div class="grid cards" markdown>
 
@@ -216,113 +216,113 @@ Per maggiori dettagli su ogni progetto, sul motivo per cui è stato scelto e su 
 
 </div>
 
-[Maggiori informazioni :material-arrow-right-drop-circle:](calendar.md)
+[Scopri di più :material-arrow-right-drop-circle:](calendar.md)
 
 ### Criptovalute
 
 <div class="grid cards" markdown>
 
-- ![Monero logo](assets/img/cryptocurrency/monero.svg){ .twemoji } [Monero](cryptocurrency.md#monero)
+- ![Logo di Monero](assets/img/cryptocurrency/monero.svg){ .twemoji } [Monero](cryptocurrency.md#monero)
 
 </div>
 
-[Maggiori informazioni :material-arrow-right-drop-circle:](cryptocurrency.md)
+[Scopri di più :material-arrow-right-drop-circle:](cryptocurrency.md)
 
 ### Rimozione di dati e metadati
 
 <div class="grid cards" markdown>
 
-- ![MAT2 logo](assets/img/data-redaction/mat2.svg){ .twemoji } [MAT2](data-redaction.md#mat2)
-- ![ExifEraser logo](assets/img/data-redaction/exiferaser.svg){ .twemoji } [ExifEraser (Android)](data-redaction.md#exiferaser-android)
-- ![Metapho logo](assets/img/data-redaction/metapho.jpg){ .twemoji } [Metapho (iOS)](data-redaction.md#metapho-ios)
-- ![PrivacyBlur logo](assets/img/data-redaction/privacyblur.svg){ .twemoji } [PrivacyBlur](data-redaction.md#privacyblur)
-- ![ExifTool logo](assets/img/data-redaction/exiftool.png){ .twemoji } [ExifTool (CLI)](data-redaction.md#exiftool)
+- ![Logo di MAT2](assets/img/data-redaction/mat2.svg){ .twemoji } [MAT2](data-redaction.md#mat2)
+- ![Logo di ExifEraser](assets/img/data-redaction/exiferaser.svg){ .twemoji } [ExifEraser (Android)](data-redaction.md#exiferaser-android)
+- ![Logo di Metapho](assets/img/data-redaction/metapho.jpg){ .twemoji } [Metapho (iOS)](data-redaction.md#metapho-ios)
+- ![Logo di PrivacyBlur](assets/img/data-redaction/privacyblur.svg){ .twemoji } [PrivacyBlur](data-redaction.md#privacyblur)
+- ![Logo di ExifTool](assets/img/data-redaction/exiftool.png){ .twemoji } [ExifTool (CLI)](data-redaction.md#exiftool)
 
 </div>
 
-[Maggiori informazioni :material-arrow-right-drop-circle:](data-redaction.md)
+[Scopri di più :material-arrow-right-drop-circle:](data-redaction.md)
 
 ### Client Email
 
 <div class="grid cards" markdown>
 
-- ![Thunderbird logo](assets/img/email-clients/thunderbird.svg){ .twemoji } [Thunderbird](email-clients.md#thunderbird)
-- ![Apple Mail logo](assets/img/email-clients/applemail.png){ .twemoji } [Apple Mail (macOS)](email-clients.md#apple-mail-macos)
-- ![Canary Mail logo](assets/img/email-clients/canarymail.svg){ .twemoji } [Canary Mail (iOS)](email-clients.md#canary-mail-ios)
-- ![FairEmail logo](assets/img/email-clients/fairemail.svg){ .twemoji } [FairEmail (Android)](email-clients.md#fairemail-android)
-- ![GNOME Evolution logo](assets/img/email-clients/evolution.svg){ .twemoji } [GNOME Evolution (Linux)](email-clients.md#gnome-evolution-gnome)
-- ![K-9 Mail logo](assets/img/email-clients/k9mail.svg){ .twemoji } [K-9 Mail (Android)](email-clients.md#k-9-mail-android)
-- ![Kontact logo](assets/img/email-clients/kontact.svg){ .twemoji } [Kontact (Linux)](email-clients.md#kontact-kde)
-- ![Mailvelope logo](assets/img/email-clients/mailvelope.svg){ .twemoji } [Mailvelope (PGP in standard webmail)](email-clients.md#mailvelope-browser)
-- ![NeoMutt logo](assets/img/email-clients/mutt.svg){ .twemoji } [NeoMutt (CLI)](email-clients.md#neomutt-cli)
+- ![Logo di Thunderbird](assets/img/email-clients/thunderbird.svg){ .twemoji } [Thunderbird](email-clients.md#thunderbird)
+- ![Logo di Apple Mail](assets/img/email-clients/applemail.png){ .twemoji } [Apple Mail (macOS)](email-clients.md#apple-mail-macos)
+- ![Logo di Canary Mail](assets/img/email-clients/canarymail.svg){ .twemoji } [Canary Mail (iOS)](email-clients.md#canary-mail-ios)
+- ![Logo di FairEmail](assets/img/email-clients/fairemail.svg){ .twemoji } [FairEmail (Android)](email-clients.md#fairemail-android)
+- ![Logo di GNOME Evolution](assets/img/email-clients/evolution.svg){ .twemoji } [GNOME Evolution (Linux)](email-clients.md#gnome-evolution-gnome)
+- ![Logo di K-9 Mail](assets/img/email-clients/k9mail.svg){ .twemoji } [K-9 Mail (Android)](email-clients.md#k-9-mail-android)
+- ![Logo di Kontact](assets/img/email-clients/kontact.svg){ .twemoji } [Kontact (Linux)](email-clients.md#kontact-kde)
+- ![Logo di Mailvelope](assets/img/email-clients/mailvelope.svg){ .twemoji } [Mailvelope (PGP in standard webmail)](email-clients.md#mailvelope-browser)
+- ![Logo di NeoMutt](assets/img/email-clients/mutt.svg){ .twemoji } [NeoMutt (CLI)](email-clients.md#neomutt-cli)
 
 </div>
 
-[Maggiori informazioni :material-arrow-right-drop-circle:](email-clients.md)
+[Scopri di più :material-arrow-right-drop-circle:](email-clients.md)
 
 ### Software di crittografia
 
 ??? info "Crittografia del disco del sistema operativo"
 
-    Per crittografare il disco del tuo sistema operativo, di solito consigliamo l'utilizzo del strumento di crittografia fornito dal sistema operativo, che sia **BitLocker** su Windows, **FileVault** su macOS o **LUKS** su Linux. Questi strumenti sono inclusi nel sistema operativo e in genere utilizzano elementi di crittografia hardware, come un TPM, che altri software di crittografia a disco intero, come VeraCrypt, non utilizzano. VeraCrypt è comunque adatto a dischi senza sistema operativo come le unità esterne, in particolare quelle a cui si può accedere da più sistemi operativi.
+    Per crittografare l'unità del tuo sistema operativo, tipicamente, consigliamo di utilizzare qualsiasi strumento crittografico sia fornito dal tuo sistema operativo, che sia **BitLocker** su Windows, **FileVault** su macOS, o **LUKS** su Linux. Questi strumenti sono inclusi con il sistema operativo e, tipicamente, utilizzano elementi crittografici hardware come TPM, a differenza di altri software crittografici a disco intero, come VeraCrypt. VeraCrypt è comunque adatto a dischi senza sistema operativo come le unità esterne, in particolare quelle a cui si può accedere da più sistemi operativi.
     
     [Maggiori informazioni :material-arrow-right-drop-circle:](encryption.md##operating-system-included-full-disk-encryption-fde)
 
 <div class="grid cards" markdown>
 
-- ![Cryptomator logo](assets/img/encryption-software/cryptomator.svg){ .twemoji } [Cryptomator](encryption.md#cryptomator-cloud)
-- ![Picocrypt logo](assets/img/encryption-software/picocrypt.svg){ .twemoji } [Picocrypt](encryption.md#picocrypt-file)
-- ![VeraCrypt logo](assets/img/encryption-software/veracrypt.svg#only-light){ .twemoji }![VeraCrypt logo](assets/img/encryption-software/veracrypt-dark.svg#only-dark){ .twemoji } [VeraCrypt (FDE)](encryption.md#veracrypt-disk)
-- ![Hat.sh logo](assets/img/encryption-software/hat-sh.png#only-light){ .twemoji }![Hat.sh logo](assets/img/encryption-software/hat-sh-dark.png#only-dark){ .twemoji } [Hat.sh (Browser-based)](encryption.md#hatsh)
-- ![Kryptor logo](assets/img/encryption-software/kryptor.png){ .twemoji } [Kryptor](encryption.md#kryptor)
-- ![Tomb logo](assets/img/encryption-software/tomb.png){ .twemoji } [Tomb](encryption.md#tomb)
+- ![Logo di Cryptomator](assets/img/encryption-software/cryptomator.svg){ .twemoji } [Cryptomator](encryption.md#cryptomator-cloud)
+- ![Logo di Picocrypt](assets/img/encryption-software/picocrypt.svg){ .twemoji } [Picocrypt](encryption.md#picocrypt-file)
+- ![Logo di VeraCrypt](assets/img/encryption-software/veracrypt.svg#only-light){ .twemoji }![Logo di VeraCrypt](assets/img/encryption-software/veracrypt-dark.svg#only-dark){ .twemoji } [VeraCrypt (FDE)](encryption.md#veracrypt-disk)
+- ![Logo di Hat.sh](assets/img/encryption-software/hat-sh.png#only-light){ .twemoji }![Logo di Hat.sh](assets/img/encryption-software/hat-sh-dark.png#only-dark){ .twemoji } [Hat.sh (Browser-based)](encryption.md#hatsh)
+- ![Logo di Kryptor](assets/img/encryption-software/kryptor.png){ .twemoji } [Kryptor](encryption.md#kryptor)
+- ![Logo di Tomb](assets/img/encryption-software/tomb.png){ .twemoji } [Tomb](encryption.md#tomb)
 
 </div>
 
-[Maggiori informazioni :material-arrow-right-drop-circle:](encryption.md)
+[Scopri di più :material-arrow-right-drop-circle:](encryption.md)
 
 #### Client OpenPGP
 
 <div class="grid cards" markdown>
 
-- ![GnuPG logo](assets/img/encryption-software/gnupg.svg){ .twemoji } [GnuPG](encryption.md#gnu-privacy-guard)
-- ![GPG4Win logo](assets/img/encryption-software/gpg4win.svg){ .twemoji } [GPG4Win (Windows)](encryption.md#gpg4win)
-- ![GPG Suite logo](assets/img/encryption-software/gpgsuite.png){ .twemoji } [GPG Suite (macOS)](encryption.md#gpg-suite)
-- ![OpenKeychain logo](assets/img/encryption-software/openkeychain.svg){ .twemoji } [OpenKeychain](encryption.md#openkeychain)
+- ![Logo di GnuPG](assets/img/encryption-software/gnupg.svg){ .twemoji } [GnuPG](encryption.md#gnu-privacy-guard)
+- ![Logo di GPG4Win](assets/img/encryption-software/gpg4win.svg){ .twemoji } [GPG4Win (Windows)](encryption.md#gpg4win)
+- ![Logo di GPG Suite](assets/img/encryption-software/gpgsuite.png){ .twemoji } [GPG Suite (macOS)](encryption.md#gpg-suite)
+- ![Logo di OpenKeychain](assets/img/encryption-software/openkeychain.svg){ .twemoji } [OpenKeychain](encryption.md#openkeychain)
 
 </div>
 
-[Maggiori informazioni :material-arrow-right-drop-circle:](encryption.md#openpgp)
+[Scopri di più :material-arrow-right-drop-circle:](encryption.md#openpgp)
 
 ### Condivisione e sincronizzazione dei file
 
 <div class="grid cards" markdown>
 
-- ![logo Send](assets/img/file-sharing-sync/send.svg){ .twemoji } [Send](file-sharing.md#send)
-- ![logo OnionShare](assets/img/file-sharing-sync/onionshare.svg){ .twemoji } [OnionShare](file-sharing.md#onionshare)
-- ![logo FreedomBox](assets/img/file-sharing-sync/freedombox.svg){ .twemoji } [FreedomBox](file-sharing.md#freedombox)
-- ![logo Nextcloud](assets/img/productivity/nextcloud.svg){ .twemoji } [Nextcloud (Self-Hostable)](file-sharing.md#nextcloud-client-server)
-- ![logo Syncthing](assets/img/file-sharing-sync/syncthing.svg){ .twemoji } [Syncthing](file-sharing.md#syncthing-p2p)
+- ![Logo di Send](assets/img/file-sharing-sync/send.svg){ .twemoji } [Send](file-sharing.md#send)
+- ![Logo di OnionShare](assets/img/file-sharing-sync/onionshare.svg){ .twemoji } [OnionShare](file-sharing.md#onionshare)
+- ![Logo di FreedomBox](assets/img/file-sharing-sync/freedombox.svg){ .twemoji } [FreedomBox](file-sharing.md#freedombox)
+- ![Logo di Nextcloud](assets/img/productivity/nextcloud.svg){ .twemoji } [Nextcloud (Self-Hostable)](file-sharing.md#nextcloud-client-server)
+- ![Logo di Syncthing](assets/img/file-sharing-sync/syncthing.svg){ .twemoji } [Syncthing](file-sharing.md#syncthing-p2p)
 
 </div>
 
-[Maggiori informazioni :material-arrow-right-drop-circle:](file-sharing.md)
+[Scopri di più :material-arrow-right-drop-circle:](file-sharing.md)
 
 ### Frontend
 
 <div class="grid cards" markdown>
 
-- ![logo Nitter](assets/img/frontends/nitter.svg){ .twemoji } [Nitter (Twitter, Web)](frontends.md#nitter)
-- ![logo FreeTube](assets/img/frontends/freetube.svg){ .twemoji } [FreeTube (YouTube, Desktop)](frontends.md#freetube)
-- ![logo Yattee](assets/img/frontends/yattee.svg){ .twemoji } [Yattee (YouTube; iOS, tvOS, macOS)](frontends.md#yattee)
-- ![logo LibreTube](assets/img/frontends/libretube.svg#only-light){ .twemoji }![LibreTube logo](assets/img/frontends/libretube-dark.svg#only-dark){ .twemoji } [LibreTube (YouTube, Android)](frontends.md#libretube-android)  
-- ![logo NewPipe](assets/img/frontends/newpipe.svg){ .twemoji } [NewPipe (YouTube, Android)](frontends.md#newpipe-android)
-- ![logo Invidious](assets/img/frontends/invidious.svg#only-light){ .twemoji }![Invidious logo](assets/img/frontends/invidious-dark.svg#only-dark){ .twemoji } [Invidious (YouTube, Web)](frontends.md#invidious)
-- ![logo Piped](assets/img/frontends/piped.svg){ .twemoji } [Piped (YouTube, Web)](frontends.md#piped)
+- ![Logo di Nitter](assets/img/frontends/nitter.svg){ .twemoji } [Nitter (Twitter, Web)](frontends.md#nitter)
+- ![Logo di FreeTube](assets/img/frontends/freetube.svg){ .twemoji } [FreeTube (YouTube, Desktop)](frontends.md#freetube)
+- ![Logo di Yattee](assets/img/frontends/yattee.svg){ .twemoji } [Yattee (YouTube; iOS, tvOS, macOS)](frontends.md#yattee)
+- ![Logo di LibreTube](assets/img/frontends/libretube.svg#only-light){ .twemoji }![Logo di LibreTube](assets/img/frontends/libretube-dark.svg#only-dark){ .twemoji } [LibreTube (YouTube, Android)](frontends.md#libretube-android)  
+- ![Logo di NewPipe](assets/img/frontends/newpipe.svg){ .twemoji } [NewPipe (YouTube, Android)](frontends.md#newpipe-android)
+- ![Logo di Invidious](assets/img/frontends/invidious.svg#only-light){ .twemoji }![Logo di Invidious](assets/img/frontends/invidious-dark.svg#only-dark){ .twemoji } [Invidious (YouTube, Web)](frontends.md#invidious)
+- ![Logo di Piped](assets/img/frontends/piped.svg){ .twemoji } [Piped (YouTube, Web)](frontends.md#piped)
 
 </div>
 
-[Maggiori informazioni :material-arrow-right-drop-circle:](frontends.md)
+[Scopri di più :material-arrow-right-drop-circle:](frontends.md)
 
 ### Strumenti di autenticazione a più fattori
 
@@ -335,7 +335,7 @@ Per maggiori dettagli su ogni progetto, sul motivo per cui è stato scelto e su 
 
 </div>
 
-[Maggiori informazioni :material-arrow-right-drop-circle:](multi-factor-authentication.md)
+[Scopri di più :material-arrow-right-drop-circle:](multi-factor-authentication.md)
 
 ### Aggregatori di notizie
 
@@ -351,65 +351,65 @@ Per maggiori dettagli su ogni progetto, sul motivo per cui è stato scelto e su 
 
 </div>
 
-[Maggiori informazioni :material-arrow-right-drop-circle:](news-aggregators.md)
+[Scopri di più :material-arrow-right-drop-circle:](news-aggregators.md)
 
 ### Appunti
 
 <div class="grid cards" markdown>
 
-- ![logo Standard Notes](assets/img/notebooks/standard-notes.svg){ .twemoji } [Standard Notes](notebooks.md#standard-notes)
-- ![logo Notesnook](assets/img/notebooks/notesnook.svg){ .twemoji } [Notesnook](notebooks.md#notesnook)
-- ![logo Joplin](assets/img/notebooks/joplin.svg){ .twemoji } [Joplin](notebooks.md#joplin)
-- ![logo Cryptee](assets/img/notebooks/cryptee.svg#only-light){ .twemoji }![Cryptee logo](assets/img/notebooks/cryptee-dark.svg#only-dark){ .twemoji } [Cryptee](notebooks.md#cryptee)
-- ![logo Org-mode](assets/img/notebooks/org-mode.svg){ .twemoji } [Org-mode](notebooks.md#org-mode)
+- ![Logo di Standard Notes](assets/img/notebooks/standard-notes.svg){ .twemoji } [Standard Notes](notebooks.md#standard-notes)
+- ![Logo di Notesnook](assets/img/notebooks/notesnook.svg){ .twemoji } [Notesnook](notebooks.md#notesnook)
+- ![Logo di Joplin](assets/img/notebooks/joplin.svg){ .twemoji } [Joplin](notebooks.md#joplin)
+- ![Logo di Cryptee](assets/img/notebooks/cryptee.svg#only-light){ .twemoji }![Logo di Cryptee](assets/img/notebooks/cryptee-dark.svg#only-dark){ .twemoji } [Cryptee](notebooks.md#cryptee)
+- ![Logo di Org-mode](assets/img/notebooks/org-mode.svg){ .twemoji } [Org-mode](notebooks.md#org-mode)
 
 </div>
 
-[Maggiori informazioni :material-arrow-right-drop-circle:](notebooks.md)
+[Scopri di più :material-arrow-right-drop-circle:](notebooks.md)
 
 ### Gestori di password
 
 <div class="grid cards" markdown>
 
-- ![Bitwarden logo](assets/img/password-management/bitwarden.svg){ .twemoji } [Bitwarden](passwords.md#bitwarden)
-- ![1Password logo](assets/img/password-management/1password.svg){ .twemoji } [1Password](passwords.md#1password)
-- ![Psono logo](assets/img/password-management/psono.svg){ .twemoji } [Psono](passwords.md#psono)
-- ![KeePassXC logo](assets/img/password-management/keepassxc.svg){ .twemoji } [KeePassXC](passwords.md#keepassxc)
-- ![KeePassDX logo](assets/img/password-management/keepassdx.svg){ .twemoji } [KeePassDX (Android)](passwords.md#keepassdx-android)
-- ![Strongbox logo](assets/img/password-management/strongbox.svg){ .twemoji } [Strongbox (iOS & macOS)](passwords.md#strongbox-ios-macos)
-- ![gopass logo](assets/img/password-management/gopass.svg){ .twemoji } [gopass](passwords.md#gopass)
+- ![Logo di Bitwarden](assets/img/password-management/bitwarden.svg){ .twemoji } [Bitwarden](passwords.md#bitwarden)
+- ![Logo di 1Password](assets/img/password-management/1password.svg){ .twemoji } [1Password](passwords.md#1password)
+- ![Logo di Psono](assets/img/password-management/psono.svg){ .twemoji } [Psono](passwords.md#psono)
+- ![Logo di KeePassXC](assets/img/password-management/keepassxc.svg){ .twemoji } [KeePassXC](passwords.md#keepassxc)
+- ![Logo di KeePassDX](assets/img/password-management/keepassdx.svg){ .twemoji } [KeePassDX (Android)](passwords.md#keepassdx-android)
+- ![Logo di Strongbox](assets/img/password-management/strongbox.svg){ .twemoji } [Strongbox (iOS & macOS)](passwords.md#strongbox-ios-macos)
+- ![Logo di gopass](assets/img/password-management/gopass.svg){ .twemoji } [gopass](passwords.md#gopass)
 
 </div>
 
-[Maggiori informazioni :material-arrow-right-drop-circle:](passwords.md)
+[Scopri di più :material-arrow-right-drop-circle:](passwords.md)
 
 ### Strumenti di produttività
 
 <div class="grid cards" markdown>
 
-- ![Nextcloud logo](assets/img/productivity/nextcloud.svg){ .twemoji } [Nextcloud (Self-Hostable)](productivity.md#nextcloud)
-- ![LibreOffice logo](assets/img/productivity/libreoffice.svg){ .twemoji } [LibreOffice](productivity.md#libreoffice)
-- ![OnlyOffice logo](assets/img/productivity/onlyoffice.svg){ .twemoji } [OnlyOffice](productivity.md#onlyoffice)
-- ![CryptPad logo](assets/img/productivity/cryptpad.svg){ .twemoji } [CryptPad](productivity.md#cryptpad)
-- ![PrivateBin logo](assets/img/productivity/privatebin.svg){ .twemoji } [PrivateBin (Pastebin)](productivity.md#privatebin)
+- ![Logo di Nextcloud](assets/img/productivity/nextcloud.svg){ .twemoji } [Nextcloud (Self-Hostable)](productivity.md#nextcloud)
+- ![Logo di LibreOffice](assets/img/productivity/libreoffice.svg){ .twemoji } [LibreOffice](productivity.md#libreoffice)
+- ![Logo di OnlyOffice](assets/img/productivity/onlyoffice.svg){ .twemoji } [OnlyOffice](productivity.md#onlyoffice)
+- ![Logo di CryptPad](assets/img/productivity/cryptpad.svg){ .twemoji } [CryptPad](productivity.md#cryptpad)
+- ![Logo di PrivateBin](assets/img/productivity/privatebin.svg){ .twemoji } [PrivateBin (Pastebin)](productivity.md#privatebin)
 
 </div>
 
-[Maggiori informazioni :material-arrow-right-drop-circle:](productivity.md)
+[Scopri di più :material-arrow-right-drop-circle:](productivity.md)
 
 ### Comunicazione in tempo reale
 
 <div class="grid cards" markdown>
 
-- ![Signal logo](assets/img/messengers/signal.svg){ .twemoji } [Signal](real-time-communication.md#signal)
-- ![Briar logo](assets/img/messengers/briar.svg){ .twemoji } [Briar](real-time-communication.md#briar)
-- ![SimpleX Chat logo](assets/img/messengers/simplex.svg){ .twemoji } [SimpleX Chat](real-time-communication.md#simplex-chat)
-- ![Element logo](assets/img/messengers/element.svg){ .twemoji } [Element](real-time-communication.md#element)
-- ![Session logo](assets/img/messengers/session.svg){ .twemoji } [Session](real-time-communication.md#session)
+- ![Logo di Signal](assets/img/messengers/signal.svg){ .twemoji } [Signal](real-time-communication.md#signal)
+- ![Logo di Briar](assets/img/messengers/briar.svg){ .twemoji } [Briar](real-time-communication.md#briar)
+- ![Logo di SimpleX Chat](assets/img/messengers/simplex.svg){ .twemoji } [SimpleX Chat](real-time-communication.md#simplex-chat)
+- ![Logo di Element](assets/img/messengers/element.svg){ .twemoji } [Element](real-time-communication.md#element)
+- ![Logo di Session](assets/img/messengers/session.svg){ .twemoji } [Session](real-time-communication.md#session)
 
 </div>
 
-[Maggiori informazioni :material-arrow-right-drop-circle:](real-time-communication.md)
+[Scopri di più :material-arrow-right-drop-circle:](real-time-communication.md)
 
 ## Sistemi operativi
 
@@ -417,52 +417,52 @@ Per maggiori dettagli su ogni progetto, sul motivo per cui è stato scelto e su 
 
 <div class="grid cards" markdown>
 
-- ![GrapheneOS logo](assets/img/android/grapheneos.svg#only-light){ .twemoji }![GrapheneOS logo](assets/img/android/grapheneos-dark.svg#only-dark){ .twemoji } [GrapheneOS](android.md#grapheneos)
-- ![DivestOS logo](assets/img/android/divestos.svg){ .twemoji } [DivestOS](android.md#divestos)
+- ![Logo di GrapheneOS](assets/img/android/grapheneos.svg#only-light){ .twemoji }![Logo di GrapheneOS](assets/img/android/grapheneos-dark.svg#only-dark){ .twemoji } [GrapheneOS](android.md#grapheneos)
+- ![Logo di DivestOS](assets/img/android/divestos.svg){ .twemoji } [DivestOS](android.md#divestos)
 
 </div>
 
-[Maggiori informazioni :material-arrow-right-drop-circle:](android.md)
+[Scopri di più :material-arrow-right-drop-circle:](android.md)
 
 #### Applicazioni Android
 
 <div class="grid cards" markdown>
 
-- ![Aurora Store logo](assets/img/android/aurora-store.webp){ .twemoji } [Aurora Store (Google Play Client)](android.md#aurora-store)
-- ![Shelter logo](assets/img/android/mini/shelter.svg){ .twemoji } [Shelter (Work Profiles)](android.md#shelter)
-- ![Auditor logo](assets/img/android/auditor.svg#only-light){ .twemoji }![GrapheneOS logo](assets/img/android/auditor-dark.svg#only-dark){ .twemoji } [Auditor (Supported Devices)](android.md#auditor)
-- ![Secure Camera logo](assets/img/android/secure_camera.svg#only-light){ .twemoji }![Secure Camera logo](assets/img/android/secure_camera-dark.svg#only-dark){ .twemoji } [Secure Camera](android.md#secure-camera)
-- ![Secure PDF Viewer logo](assets/img/android/secure_pdf_viewer.svg#only-light){ .twemoji }![GrapheneOS logo](assets/img/android/secure_pdf_viewer-dark.svg#only-dark){ .twemoji } [Secure PDF Viewer](android.md#secure-pdf-viewer)
+- ![Logo di Aurora Store](assets/img/android/aurora-store.webp){ .twemoji } [Aurora Store (Google Play Client)](android.md#aurora-store)
+- ![Logo di Shelter](assets/img/android/mini/shelter.svg){ .twemoji } [Shelter (Work Profiles)](android.md#shelter)
+- ![Logo di Auditor](assets/img/android/auditor.svg#only-light){ .twemoji }![Logo di GrapheneOS](assets/img/android/auditor-dark.svg#only-dark){ .twemoji } [Auditor (Supported Devices)](android.md#auditor)
+- ![Logo di Secure Camera](assets/img/android/secure_camera.svg#only-light){ .twemoji }![Logo di Secure Camera](assets/img/android/secure_camera-dark.svg#only-dark){ .twemoji } [Secure Camera](android.md#secure-camera)
+- ![Logo di Secure PDF Viewer](assets/img/android/secure_pdf_viewer.svg#only-light){ .twemoji }![Logo di GrapheneOS](assets/img/android/secure_pdf_viewer-dark.svg#only-dark){ .twemoji } [Secure PDF Viewer](android.md#secure-pdf-viewer)
 
 </div>
 
-[Maggiori informazioni :material-arrow-right-drop-circle:](android.md#general-apps)
+[Scopri di più :material-arrow-right-drop-circle:](android.md#general-apps)
 
 ### Desktop/PC
 
 <div class="grid cards" markdown>
 
-- ![Qubes OS logo](assets/img/qubes/qubes_os.svg){ .twemoji } [Qubes OS (Xen VM Distribution)](desktop.md#qubes-os)
-- ![Fedora logo](assets/img/linux-desktop/fedora-workstation.svg){ .twemoji } [Fedora Workstation](desktop.md#fedora-workstation)
-- ![openSUSE Tumbleweed logo](assets/img/linux-desktop/opensuse-tumbleweed.svg){ .twemoji } [OpenSUSE Tumbleweed](desktop.md#opensuse-tumbleweed)
-- ![Arch logo](assets/img/linux-desktop/archlinux.svg){ .twemoji } [Arch Linux](desktop.md#arch-linux)
-- ![Fedora Silverblue logo](assets/img/linux-desktop/fedora-silverblue.svg){ .twemoji } [Fedora Silverblue & Kinoite](desktop.md#fedora-silverblue)
-- ![nixOS logo](assets/img/linux-desktop/nixos.svg){ .twemoji } [NixOS](desktop.md#nixos)
-- ![Whonix logo](assets/img/linux-desktop/whonix.svg){ .twemoji } [Whonix (Tor)](desktop.md#whonix)
-- ![Tails logo](assets/img/linux-desktop/tails.svg){ .twemoji } [Tails (Live Boot)](desktop.md#tails)
-- ![Kicksecure logo](assets/img/linux-desktop/kicksecure.svg){ .twemoji } [Kicksecure](desktop.md#kicksecure)
+- ![Logo di Qubes OS](assets/img/qubes/qubes_os.svg){ .twemoji } [Qubes OS (Xen VM Distribution)](desktop.md#qubes-os)
+- ![Logo di Fedora](assets/img/linux-desktop/fedora-workstation.svg){ .twemoji } [Fedora Workstation](desktop.md#fedora-workstation)
+- ![Logo di openSUSE Tumbleweed](assets/img/linux-desktop/opensuse-tumbleweed.svg){ .twemoji } [OpenSUSE Tumbleweed](desktop.md#opensuse-tumbleweed)
+- ![Logo di Arch](assets/img/linux-desktop/archlinux.svg){ .twemoji } [Arch Linux](desktop.md#arch-linux)
+- ![Logo di Fedora Silverblue](assets/img/linux-desktop/fedora-silverblue.svg){ .twemoji } [Fedora Silverblue & Kinoite](desktop.md#fedora-silverblue)
+- ![Logo di nixOS](assets/img/linux-desktop/nixos.svg){ .twemoji } [NixOS](desktop.md#nixos)
+- ![Logo di Whonix](assets/img/linux-desktop/whonix.svg){ .twemoji } [Whonix (Tor)](desktop.md#whonix)
+- ![Logo di Tails](assets/img/linux-desktop/tails.svg){ .twemoji } [Tails (Live Boot)](desktop.md#tails)
+- ![Logo di Kicksecure](assets/img/linux-desktop/kicksecure.svg){ .twemoji } [Kicksecure](desktop.md#kicksecure)
 
 </div>
 
-[Maggiori informazioni :material-arrow-right-drop-circle:](desktop.md)
+[Scopri di più :material-arrow-right-drop-circle:](desktop.md)
 
-### Firmware Router
+### Firmware del Router
 
 <div class="grid cards" markdown>
 
-- ![OpenWrt logo](assets/img/router/openwrt.svg#only-light){ .twemoji }![OpenWrt logo](assets/img/router/openwrt-dark.svg#only-dark){ .twemoji } [OpenWrt](router.md#openwrt)
-- ![OPNsense logo](assets/img/router/opnsense.svg){ .twemoji } [OPNsense](router.md#opnsense)
+- ![Logo di OpenWrt](assets/img/router/openwrt.svg#only-light){ .twemoji }![Logo di OpenWrt](assets/img/router/openwrt-dark.svg#only-dark){ .twemoji } [OpenWrt](router.md#openwrt)
+- ![Logo di OPNsense](assets/img/router/opnsense.svg){ .twemoji } [OPNsense](router.md#opnsense)
 
 </div>
 
-[Maggiori informazioni :material-arrow-right-drop-circle:](router.md)
+[Scopri di più :material-arrow-right-drop-circle:](router.md)

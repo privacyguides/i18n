@@ -6,9 +6,9 @@ description: Android是一個開源作業系統，具有強大的安全保護，
 
 ![Android 圖標](../assets/img/android/android.svg){ align=right }
 
-The **Android Open Source Project** is a secure mobile operating system featuring strong [app sandboxing](https://source.android.com/security/app-sandbox), [Verified Boot](https://source.android.com/security/verifiedboot) (AVB), and a robust [permission](https://developer.android.com/guide/topics/permissions/overview) control system.
+**Android 開源專案** 為安全移動作業系統，提供[應用沙盒](https://source.android.com/security/app-sandbox), [驗證開機](https://source.android.com/security/verifiedboot) (AVB) 以及強靭的 [授權](https://developer.android.com/guide/topics/permissions/overview)控制系統。
 
-## Our Advice
+## 我們的建議
 
 ### 選擇Android 發佈版本
 
@@ -30,17 +30,17 @@ AFWall+ 基於 [封包過濾](https://en.wikipedia.org/wiki/Firewall_(computing)
 
 我們認為，不值得這些應用程序的可疑隱私利益而犧牲手機 root 的安全。
 
-### Install Updates
+### 安裝更新
 
 重要的是不要使用 [結束生命周期](https://endoflife.date/android) 版本的Android。 較新版本的 Android 不僅會收到作業系統的安全性更新，而且還會收到重要的隱私增強更新。
 
-For example, [prior to Android 10](https://developer.android.com/about/versions/10/privacy/changes) any apps with the [`READ_PHONE_STATE`](https://developer.android.com/reference/android/Manifest.permission#READ_PHONE_STATE) permission could access sensitive and unique serial numbers of your phone such as [IMEI](https://en.wikipedia.org/wiki/International_Mobile_Equipment_Identity), [MEID](https://en.wikipedia.org/wiki/Mobile_equipment_identifier), or your SIM card's [IMSI](https://en.wikipedia.org/wiki/International_mobile_subscriber_identity); whereas now they must be system apps to do so. 系統應用程式僅由 OEM 或 Android 發行版提供。
+例如 [Android 10 之前](https://developer.android.com/about/versions/10/privacy/changes) 許多應用帶有 [`READ_PHONE_STATE`](https://developer.android.com/reference/android/Manifest.permission#READ_PHONE_STATE) 授權可以存取手機獨特敏感的序號，像是[IMEI](https://en.wikipedia.org/wiki/International_Mobile_Equipment_Identity), [MEID](https://en.wikipedia.org/wiki/Mobile_equipment_identifier) 或手機門號 SIM 卡的 [IMSI](https://en.wikipedia.org/wiki/International_mobile_subscriber_identity)；不過現在只有系統應用程式才能存取。 系統應用程式僅由 OEM 或 Android 發行版提供。
 
-### Sharing Media
+### 共享的媒體
 
-You can avoid giving many apps permission to access your media with Android's built-in sharing features. Many applications allow you to "share" a file with them for media upload.
+利用 Android 內建的分享功能，可避免授權過多的應用程式可以存取手機上的檔案。 許多應用程式可讓您上傳媒體來“共享”檔案。
 
-For example, if you want to post a picture to Discord you can open your file manager or gallery and share that picture with the Discord app, instead of granting Discord full access to your media and photos.
+例如想要在 Discord 張貼一張照片，可以開啟檔案管理員並將該照片分享給 Discord 應用，取代過去授權 Discord 有權限可以完全訪問全部的媒體或照片。
 
 ## 安全保護
 
@@ -114,7 +114,7 @@ Android 13:
 
 
 
-## Privacy Features
+## 隱私功能
 
 
 
@@ -150,7 +150,7 @@ Android 7以上版本支援VPN killswitch ，無需安裝第三方應用程式�
 
 
 
-## Google Services
+## Google 服務
 
 如果您使用的裝置搭載Google服務，無論是您庫存作業系統，還是能夠安全地使用 Google Play服務（如GrapheneOS ）的作業系統，可進行許多其他變更以改善隱私。 我們仍然建議避免使用 Google 服務，或者將 *Shelter* 等設備控制器與 GrapheneOS 的Sandboxed Google Play相結合，將 Google Play 服務限制為特定用戶/工作檔案。
 

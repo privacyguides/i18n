@@ -4,7 +4,7 @@ icon: simple/qubesos
 description: Qubes 作業系統利用虛擬機器來隔離應用程式以提高安全性。
 ---
 
-[**Qubes OS**](../desktop.md#qubes-os) is an open-source operating system which uses the [Xen](https://en.wikipedia.org/wiki/Xen) hypervisor to provide strong security for desktop computing through isolated virtual machines. 每個虛擬機器被稱為 *Qube* ，可以根據其目的為各個Qube 分配信任等級。 As Qubes OS provides security by using isolation, and only permitting actions on a per-case basis, it is the opposite of [badness enumeration](https://www.ranum.com/security/computer_security/editorials/dumb/).
+[**Qubes OS**](../desktop.md#qubes-os) 為開源作業系統，其使用 [Xen](https://en.wikipedia.org/wiki/Xen) 管理程序利用隔離虛擬機器來為桌面運算提供強固的安全。 每個虛擬機器被稱為 *Qube* ，可以根據其目的為各個Qube 分配信任等級。 因為 Qubes OS 使用隔離方式的安全措施，授權行為皆以個別案例為準，此正與[badness enumeration](https://www.ranum.com/security/computer_security/editorials/dumb/)壞處枚舉相反。
 
 ## Qubes OS如何工作？
 

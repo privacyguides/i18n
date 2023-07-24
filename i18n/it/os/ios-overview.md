@@ -1,213 +1,213 @@
 ---
-title: iOS Overview
-icon: simple/apple
-description: iOS is a mobile operating system developed by Apple for the iPhone.
+title: Panoramica su iOS
+icon: semplice/apple
+description: iOS è un sistema operativo mobile sviluppato da Apple per l'iPhone.
 ---
 
-**iOS** and **iPadOS** are proprietary mobile operating systems developed by Apple for their iPhone and iPad products, respectively. If you have an Apple mobile device, you can increase your privacy by disabling some built-in telemetry features, and hardening some privacy and security settings which are built in to the system.
+**iOS** e **iPadOS** sono sistemi operativi mobili proprietari sviluppati da Apple per i propri prodotti, iPhone e iPad, rispettivamente. Se possiedi un dispositivo mobile Apple, puoi incrementare la tua privacy disabilitando alcune funzionalità di telemetria integrate e rafforzando alcune impostazioni per la privacy e la sicurezza, integrate sul sistema.
 
 ## Note sulla Privacy
 
-iOS devices are frequently praised by security experts for their robust data protection and adherence to modern best-practices. However, the restrictiveness of Apple's ecosystem—particularly with their mobile devices—does still hamper privacy in a number of ways.
+i dispositivi iOS sono frequentemente elogiati dagli esperti della sicurezza, per la loro robusta protezione dei dati e aderenza alle migliori pratiche moderne. Tuttavia, le restrizioni dell'ecosistema di Apple, in particolare per quanto riguarda i dispositivi mobili, ostacolano ancora la privacy in diversi modi.
 
-We generally consider iOS to provide better than average privacy and security protections for most people, compared to stock Android devices from any manufacturer. However, you can achieve even higher standards of privacy with a [custom Android operating system](../android.md) like GrapheneOS, if you want or need to be completely independent of Apple or Google's cloud services.
+Generalmente, consideriamo che iOS fornisca protezioni della privacy e della sicurezza migliori della media per gran parte delle persone, rispetto ai dispositivi Android di fabbrica da qualsiasi produttore. Tuttavia, puoi ottenere standard di privacy persino maggiori con un [sistema operativo Android personalizzato](../android.md), come GrapheneOS, se desideri o necessiti di essere completamente indipendente dai servizi su cloud di Apple o Google.
 
 ### Blocco di Attivazione
 
-All iOS devices must be checked against Apple's Activation Lock servers when they are initially set up or reset, meaning an internet connection is **required** to use an iOS device.
+Tutti i dispositivi iOS devono essere confrontati con i server di Activation Lock di Apple, quando configurati inizialmente o ripristinati, a significare che è **necessaria** una connessione a Internet per utilizzare un dispositivo iOS.
 
-### Mandatory App Store
+### App Store Obbligatorio
 
-The only source for apps on iOS is Apple's App Store, which requires an Apple ID to access. This means that Apple has a record of every app you install on your device, and can likely tie that information to your actual identity if you provide the App Store with a payment method.
+La sola fonte di app su iOS è l'App Store di Apple, che richiede un Apple ID per accedervi. Ciò significa che Apple detiene un registro di qualsiasi app tu installi sul tuo dispositivo e, probabilmente, potrebbe collegare tali informazoni alla tua identità reale, se fornisci un metodo di pagamento all'App Store.
 
-### Invasive Telemetry
+### Telemetria Invadente
 
-Apple has historically had problems with properly anonymizing their telemetry on iOS. [In 2019](https://www.theguardian.com/technology/2019/jul/26/apple-contractors-regularly-hear-confidential-details-on-siri-recordings), Apple was found to transmit Siri recordings—some containing highly confidential information—to their servers for manual review by third-party contractors. While they temporarily stopped that program after that practice was [widely reported on](https://www.theverge.com/2019/8/23/20830120/apple-contractors-siri-recordings-listening-1000-a-day-globetech-microsoft-cortana), the problem wasn't completely resolved [until 2021](https://www.theguardian.com/technology/2021/jun/07/apple-overhauls-siri-to-address-privacy-concerns-and-improve-performance).
+Apple ha storicamente avuto problemi con l'adeguata anonimizzazione della propria telemetria, su iOS. [Nel 2019](https://www.theguardian.com/technology/2019/jul/26/apple-contractors-regularly-hear-confidential-details-on-siri-recordings), si è scoperto che Apple trasmette le registrazioni di Siri, alcune contenenti informazioni altamente confidenziali, ai propri server, per la revisione manuale da contraenti di terze parti. Sebbene tale programma sia stato temporaneamente interrotto dopo l'[ampia segnalazione](https://www.theverge.com/2019/8/23/20830120/apple-contractors-siri-recordings-listening-1000-a-day-globetech-microsoft-cortana) di tale pratica, il problema non è stato completamente risolto [fino al 2021](https://www.theguardian.com/technology/2021/jun/07/apple-overhauls-siri-to-address-privacy-concerns-and-improve-performance).
 
-More recently, Apple has been found to [transmit analytics even when analytics sharing is disabled](https://gizmodo.com/apple-iphone-analytics-tracking-even-when-off-app-store-1849757558) on iOS, and this data [appears](https://twitter.com/mysk_co/status/1594515229915979776) to be easily linked to unique iCloud account identifiers despite supposedly being anonymous. Apple has not fixed [these problems](https://gizmodo.com/clarence-thomas-aide-venmo-laywers-supreme-court-1850631585) as of July 2023.
+Più di recente, si è riscontrato che Apple [trasmette le analisi anche quando la condivisione delle stesse è disabilitata](https://gizmodo.com/apple-iphone-analytics-tracking-even-when-off-app-store-1849757558) su iOS e che, questi dati, [sembrano](https://twitter.com/mysk_co/status/1594515229915979776) essere facilmente collegabili agli identificativi univoci del profilo di iCloud, nonostante siano anonimi. A luglio 2023, Apple non ha ancora risolto [questi problemi](https://gizmodo.com/clarence-thomas-aide-venmo-laywers-supreme-court-1850631585).
 
 ## Configurazione consigliata
 
 ### iCloud
 
-The majority of privacy and security concerns with Apple products are related to their cloud services, not their hardware or software. When you use Apple services like iCloud, most of your information is stored on their servers and secured with keys which Apple has access to by default. You can check [Apple's documentation](https://support.apple.com/HT202303) for information on which services are end-to-end encrypted. Anything listed as "in transit" or "on server" means it's possible for Apple to access that data without your permission. Questo livello d'accesso è stato occasionalmente abusato dalle autorità per aggirare il fatto che i tuoi dati sono altrimenti crittografati in sicurezza sul tuo dispositivo e, ovviamente, Apple è vulnerabile alle violazioni di dati, come ogni altra azienda.
+Gran parte delle preoccupazioni su privacy e sicurezza con i prodotti di Apple sono correlate ai loro servizi su cloud, non al loro hardware o software. Quando utilizzi i servizi di Apple come iCloud, gran parte delle tue informazioni sono archiviate sui loro server e protette con chiavi, cui Apple ha accesso di default. Puoi consultare la [documentazione di Apple](https://support.apple.com/HT202303) per le informazioni su quali servizi sono crittografati end-to-end. Qualsiasi cosa sia elencata come "in transito" o "sul server", indica che è possibile, per Apple, accedere a tali dati senza la tua autorizzazione. Questo livello d'accesso è stato occasionalmente abusato dalle autorità per aggirare il fatto che i tuoi dati sono altrimenti crittografati in sicurezza sul tuo dispositivo e, ovviamente, Apple è vulnerabile alle violazioni di dati, come ogni altra azienda.
 
-Therefore, if you do use iCloud you should [enable **Advanced Data Protection**](https://support.apple.com/HT212520). Questa, crittografa praticamente tutti i tuoi dati di iCloud con chiavi memorizzate sui tuoi dispositivi (crittografia end-to-end), piuttosto che sui server di Apple, così che i tuoi dati di iCloud siano protetti nel caso di una violazione di dati, e altrimenti nascosti da Apple.
+Dunque, se utilizzi iCloud, dovresti [abilitare la **Protezione Avanzata dei Dati**](https://support.apple.com/HT212520). Questa, crittografa praticamente tutti i tuoi dati di iCloud con chiavi memorizzate sui tuoi dispositivi (crittografia end-to-end), piuttosto che sui server di Apple, così che i tuoi dati di iCloud siano protetti nel caso di una violazione di dati, e altrimenti nascosti da Apple.
 
-The encryption used by Advanced Data Protection, while strong, [is not *quite* as robust](https://discuss.privacyguides.net/t/apple-advances-user-security-with-powerful-new-data-protections/10778/4) as the encryption offered by other [cloud services](../cloud.md), particularly when it comes to iCloud Drive. While we strongly encourage using Advanced Data Protection if you use iCloud, we would also suggest considering finding an alternative to iCloud from a more [privacy-focused service provider](../tools.md), although it is unlikely most people would be impacted by these encryption quirks.
+La crittografa utilizzata dalla Protezione Avanzata dei Dati, sebbene forte, [non è *altrettanto* robusta](https://discuss.privacyguides.net/t/apple-advances-user-security-with-powerful-new-data-protections/10778/4), quanto quella offerta da altri [servizi su cloud](../cloud.md), in particolare per quanto riguarda iCloud Drive. Sebbene incoraggiamo vivamente all'utilizzo della Protezione Avanzata dei Dati se utilizzi iCloud, suggeriremmo anche di considerare di trovare un'alternativa a iCloud, da un [fornitore del servizio più orientato alla privacy](../tools.md), sebbene sia improbabile che, gran parte delle persone, sarebbero influenzate da queste stranezze crittografiche.
 
-You can also protect your data by limiting what you sync to iCloud in the first place. At the top of the **Settings** app, you'll see your name and profile picture if you are signed in to iCloud. Select that, then **iCloud**, and turn off the switches for any services you don't want to sync to iCloud. You may see third-party apps listed under **Show All** if they sync to iCloud, which you can disable here.
+Inoltre, in primo luogo, puoi proteggere i tuoi dati limitando ciò che sincronizzi su iCloud. In cima all'app delle **Impostazioni**, visualizzerai il tuo nome e la tua foto di profilo, se sei iscritto su iCloud. Selezonali, **iCloud**, quindi disattiva gli interruttori per qualsiasi servizio tu desideri non sia sincronizzato con iCloud. Potresti visualizzare delle app di terze parti, elencate in **Mostra tutto**, se si sincronizzano con iCloud, che potrai disabilitare da qui.
 
 #### iCloud+
 
-A paid **iCloud+** subscription (with any iCloud storage plan) comes with some privacy-protecting functionality. While these may provide adequate service for current iCloud customers, we wouldn't recommend purchasing an iCloud+ plan over a [VPN](../vpn.md) and [standalone email aliasing service](../email.md#email-aliasing-services) just for these features alone.
+Un abbonamento a pagamento a **iCloud+** (con qualsiasi piano di archiviazione su iCloud), fornisce alcune funzionalità di protezione della privacy. Sebbene queste potrebbero fornire un servizio adeguato per i clienti attuali di iCloud, sconsiglieremmo di acquistare un piano di iCloud+, rispetto a una [VPN](../vpn.md) e un [servizio di alias email indipendente](../email.md#email-aliasing-services), esclusivamente per queste funzionalità.
 
-**Private Relay** is a proxy service which relays your Safari traffic through two servers: one owned by Apple and one owned by a third-party provider (including Akamai, Cloudflare, and Fastly). In theory this should prevent any single provider in the chain—including Apple—from having full visibility into which websites you visit while connected. Unlike a full VPN, Private Relay does not protect traffic from your apps outside of Safari.
+**Private Relay** è un servizio di proxy che inoltra il tuo traffico di Safari attraverso due server: uno posseduto da Apple e uno da un fornitore di terze parti (tra cui Akamai, Cloudflare e Fastly). In teoria, ciò dovrebbe impedire a qualsiasi singolo fornitore nella catena, Apple inclusa, dall'avere una piena visibilità di quali siti web visiti mentre sei connesso. A differenza di una VPN completa, Private Relay non protegge il traffico dalle tue app, all'esterno di Safari.
 
-**Hide My Email** is Apple's email aliasing service. You can create an email aliases for free when you *Sign In With Apple* on a website or app, or generate unlimited aliases on demand with a paid iCloud+ plan. Hide My Email has the advantage of using the `@icloud.com` domain for its aliases, which may be less likely to be blocked compared to other email aliasing services, but does not offer functionality offered by standalone services such as automatic PGP encryption or multiple mailbox support.
+**Hide My Email** è il servizio di alias email di Apple. Puoi creare un alias email gratuitamente quando *Accedi Con Apple* su un sito web o un'app, o generarne di illimitati su richiesta, con un piano iCloud+ a pagamento. Hide My Email ha il vantaggio di utilizzare il dominio `@icloud.com` per i propri alias, riducendo la probabilità di essere bloccato rispetto ad altri servizi di alias email, ma non offrendo le funzionalità offerte dai servizi indipendenti, come la crittografia PGP automatica o il supporto a più caselle.
 
-#### Media & Purchases
+#### Media e Acquisti
 
-At the top of the **Settings** app, you'll see your name and profile picture if you are signed in to an Apple ID. Select that, then select **Media & Purchases** > **View Account**.
+In cima all'app delle **Impostazioni**, visualizzerai il tuo nome e la tua foto di profilo, se hai un Apple ID. Selezionalo, quindi seleziona **Media e Acquisti** > **Visualizza Profilo**.
 
-- [ ] Turn off **Personalized Recommendations**
+- [ ] Disattiva i **Consigli Personalizzati**
 
 #### Find My
 
-**Find My** is a service that lets you track your Apple devices and share your location with your friends and family. It also allows you to wipe your device remotely in case it is stolen, preventing a thief from accessing your data. Your Find My [location data is E2EE](https://www.apple.com/legal/privacy/data/en/find-my/) when:
+**Find My** è un servizio che ti consente di tracciare i tuoi dispositivi Apple e di condividere la tua posizione con i tuoi amici e la tua famiglia. Inoltre, ti consente di svuotare da remoto il tuo dispositivo, in caso di furto, impedendo ai ladri di accedere ai tuoi dati. I [dati sulla posizione](https://www.apple.com/legal/privacy/data/en/find-my/) di Find My sono E2EE, quando:
 
-- Your location is shared with a family member or friend, and you both use iOS 15 or greater.
-- Your device is offline and is located by the Find My Network.
+- La tua posizione è condivisa con un membro della famiglia o amico, ed entrambi utilizzate iOS 15 o superiore.
+- Il tuo dispositivo è offline ed è individuato dalla Rete di Find My.
 
-Your location data is not E2EE when your device is online and you use Find My iPhone remotely to locate your device. You will have to make the decision whether these trade-offs are worth the anti-theft benefits of Activation Lock.
+I tuoi dati sulla posizione non sono E2EE quando il tuo dispositivo è online e utilizzi Find My iPhone da remoto, per individuare il tuo dispositivo. Dovrai decidere se mantenere questi compromessi valga i vantaggi antifurto del Blocco di Attivazione.
 
-At the top of the **Settings** app, you'll see your name and profile picture if you are signed in to an Apple ID. Select that, then select **Find My**. Here you can choose whether to enable or disable Find My location features.
+In cima all'app delle **Impostazioni**, visualizzerai il tuo nome e la tua foto di profilo, se hai un Apple ID. Selezionalo, quindi seleziona **Find My**. Qui puoi scegliere se abilitare o disabiltare le funzionalità di posizione di Find My.
 
 ### Impostazioni
 
-Many other privacy-related settings can be found in the **Settings** app.
+Molte altre impostazioni correlate alla privacy si possono trovare nell'app delle **Impostazioni**.
 
-#### Airplane Mode
+#### Modalità Aereo
 
-Enabling **Airplane Mode** stops your phone from contacting cell towers. You will still be able to connect to Wi-Fi and Bluetooth, so whenever you are connected to Wi-Fi you can turn this setting on.
+Abilitare la **Modalità Aereo** impedisce al tuo telefono di contattare le torri cellulari. Potrai comunque connetterti alla Wi-Fi e al Bluetooth, quindi, ogni volta che sei connesso alla Wi-Fi, potrai attivare quest'impostazione.
 
 #### Wi-Fi
 
-You can enable hardware address randomization to protect you from tracking across Wi-Fi networks. On the network you are currently connected to, press the :material-information: button:
+Puoi abilitare la casualizzazione dell'indirizzo hardware per proteggerti dl tracciamento sulle reti Wi-Fi. Sulla rete a cui sei attualmente connesso, premi il pulsante :material-information::
 
-- [x] Turn on **Private Wi-Fi Address**
+- [x] Attiva l'**Indirizzo Wi-Fi Privato**
 
-You also have the option to **Limit IP Address Tracking**. This is similar to iCloud Private Relay but only affects connections to "known trackers." Because it only affects connections to potentially malicious servers, this setting is probably fine to leave enabled, but if you don't want *any* traffic to be routed through Apple's servers, you should turn it off.
+Inoltre, puoi **Limitare il Tracciamento dell'Indirizzo IP**. Ciò somiglia alla Trasmissione Privata di iCloud, ma riguarda soltanto le connessioni ai "tracciatori noti." Poiché riguarda soltanto le connessioni a server potenzialmente dannosi, quest'impostazione può tranquillamente esser lasciata abilitata, ma se desideri che *qualsiasi* traffico non sia indirizzato attraverso i server di Apple, dovresti disattivarla.
 
 #### Bluetooth
 
-**Bluetooth** should be disabled when you aren't using it as it increases your attack surface. Disabling Bluetooth (or Wi-Fi) via the Control Center only disables it temporarily: you must switch it off in Settings for disabling it to remain effective.
+Il **Bluetooth** dovrebbe essere disabilitato quando non lo stai utilizzando, poiché incrementa la superficie d'attacco. Disabilitare il Bluetooth (o la Wi-Fi) tramite il Centro di Controllo, lo disabilita soltanto temporaneamente: devi disattivarlo nelle Impostazioni, affinché ciò resti effettivo.
 
-- [ ] Turn off **Bluetooth**
+- [ ] Disattiva il **Bluetooth**
 
 #### Generali
 
-Your iPhone's device name will by default contain your first name, and this will be visible to anyone on networks you connect to. You should change this to something more generic, like "iPhone." Select **About** > **Name** and enter the device name you prefer.
+Il nome del tuo dispositivo iPhone conterrà di default il tuo nome e, questo, sarà visibile a chiunque, sulle reti cui ti connetti. Dovresti modificarlo in qualcosa di più generico, come "iPhone." Seleziona **Informazioni su** > **Nome** e inserisci il nome del dispositivo che preferisci.
 
-It is important to install **Software Updates** frequently to get the latest security fixes. You can enable **Automatic Updates** to keep your phone up-to-date without needing to constantly check for updates. Select **Software Update** > **Automatic Updates**:
+È importante installare frequentemente gli **Aggiornamenti Software**, per ottenere le più recenti correzioni di sicurezza. Puoi abilitare gli **Aggiornamenti Automatici** per mantenere aggiornato il tuo telefono, senza dover controllare costantemente la presenza di aggiornamenti. Seleziona **Aggiornamenti Software** > **Aggiornamenti Automatici**:
 
-- [x] Turn on **Download iOS Updates**
-- [x] Turn on **Install iOS Updates**
-- [x] Turn on **Security Responses & System Files**
+- [x] Attiva **Scarica Aggiornamenti iOS**
+- [x] Attiva **Installa Aggiornamenti iOS**
+- [x] Attiva **Risposte di Sicurezza e File di Sistema**
 
-**AirDrop** allows you to easily transfer files, but it can allow strangers to send you files you do not want.
+**AirDrop** ti consente di trasferire facilmente file, ma può consentire a sconosciuti di inviarti file indesiderati.
 
-- [x] Select **AirDrop** > **Receiving Off**
+- [x] Seleziona **AirDrop** > **Ricezione disattivata**
 
-**AirPlay** lets you seamlessly stream content from your iPhone to a TV; however, you might not always want this. Select **AirPlay & Handoff** > **Automatically AirPlay to TVs**:
+**AirPlay** ti consente di trasmettere facilmente i contenuti dal tuo iPhone a una TV; tuttavia, potresti non desiderarlo fare sempre. Seleziona **AirPlay e Scambio** > **AirPlay a TV automatico**:
 
-- [x] Select **Never** or **Ask**
+- [x] Seleziona **Mai** o **Chiedi**
 
-**Background App Refresh** allows your apps to refresh their content while you're not using them. This may cause them to make unwanted connections. Turning this off can also save battery life, but it may affect an app's ability to receive updated information, particularly weather and messaging apps.
+**Background App Refresh** consente alle tue app di aggiornare i propri contenuti, mentre non le stai utilizzando. Ciò potrebbe causare che si creino connessioni indesiderate. Disattivare quest'opzione può anche far risparmiare batteria, ma potrebbe influire sulle capacità dell'app di ricevere informazioni aggiornate, in particolare alle app meteorologiche e di messaggistica.
 
-Select **Background App Refresh** and switch off any apps you don't want to continue refreshing in the background. If you don't want any apps to refresh in the background, you can select **Background App Refresh** again and turn it **Off**.
+Seleziona **Background App Refresh** e disattiva qualsiasi app non desideri continui ad aggiornarsi in background. Se desideri che nessuna app si aggiorni in background, puoi selezionare **Background App Refresh** e **disattivarla**.
 
-#### Siri & Search
+#### Siri e Ricerca
 
-If you don't want anyone to be able to control your phone with Siri when it is locked, you can turn that off here.
+Se non desideri che qualcuno possa controllare il tuo telefono con Siri, quando è bloccato, puoi disattivarlo qui.
 
-- [ ] Turn off **Allow Siri When Locked**
+- [ ] Disattiva **Consenti Siri Quando Bloccato**
 
-#### Face ID/Touch ID & Passcode
+#### Face ID/Touch ID e Passcode
 
-Setting a strong password on your phone is the most important step you can take for physical device security. You'll have to make tradeoffs here between security and convenience: A longer password will be annoying to type in every time, but a shorter password or PIN will be easier to guess. Setting up Face ID or Touch ID along with a strong password can be a good compromise between usability and security.
+Impostare una password forte sul tuo telefono è il passo più importante che puoi intraprendere per la sicurezza fisica del dispositivo. In questo caso dovrai trovare un compromesso tra la sicurezza e la comodità: una password più lunga sarà noiosa da digitare ogni volta, ma una password o un PIN più breve sarà più facile da indovinare. Configurare Face ID o TouchID insieme a una password forte, può costituire un buon compromesso tra utilizzabilità e sicurezza.
 
-Select **Turn Passcode On** or **Change Passcode** > **Passcode Options** > **Custom Alphanumeric Code**. Make sure that you create a [secure password](https://www.privacyguides.org/basics/passwords-overview/).
+Seleziona **Attiva Passcode** o **Modifica Passcode** > **Opzioni Passcode** > **Codice Alfanumerico Personalizzto**. Assicurati di creare una [password sicura](https://www.privacyguides.org/basics/passwords-overview/).
 
-If you wish to use Face ID or Touch ID, you can go ahead and set it up now. Your phone will use the password you set up earlier as a fallback in case your biometric verification fails. Biometric unlock methods are primarily a convenience, although they do stop surveillance cameras or people over your shoulder from watching you input your passcode.
+Se desideri utilizzare Face ID o Touch ID, puoi ora procedere alla configurazione. Il tuo telefono utilizzerà la password configurata in precedenza come ripiego, nel caso in cui la tua verifica biometrica dovesse fallire. I metodi biometrici di sblocco sono principalmente una comodità, sebbene impediscano alle telecamere di sicurezza o alle persone alle tue spalle di guardarti inserire il tuo codice d'accesso.
 
-If you use biometrics, you should know how to turn them off quickly in an emergency. Holding down the side or power button and *either* volume button until you see the Slide to Power Off slider will disable biometrics, requiring your passcode to unlock. Your passcode will also be required after device restarts.
+Se utilizzi la biometria, dovrestii sapere come disattivarla rapidamente in caso d'emergenza. Tenere premuto il tasto laterale o di accensione e *uno dei* tasti del volume, finché non visualizzi il cursore Scorri per Spegnere, disabiliterà la biometria, richiedendo il codice d'accesso per sbloccare. Inoltre, il tuo codice di sicurezza sarà richiesto al riavvio del dispositivo.
 
-On some older devices, you may have to press the power button five times to disable biometrics instead, or for devices with Touch ID you may just have to hold down the power button and nothing else. Make sure you try this in advance so you know which method works for your device.
+Su alcuni dispositivi precedenti, potresti dover premere cinque volte il tasto di accensione per disabiltare la biometria o, per i dispositivi con Touch ID, potresti dover soltanto tenere premuto il tasto d'accensione e nient'altro. Assicurati di provare in anticipo, così da sapere quale metodo funziona per il tuo dispositivo.
 
-**Allow Access When Locked** gives you options for what you can allow when your phone is locked. The more of these options you disable, the less someone without your password can do, but the less convenient it will be for you. Pick and choose which of these you don't want someone to have access to if they get their hands on your phone.
+**Consenti Accesso Da Bloccato** ti offre delle opzioni per consentire l'accesso quando il telefono è bloccato. Più di queste opzioni disabiliti, minori saranno le azioni disponibli a qualcuno senza la tua password, ma meno comodo sarà per te. Seleziona e scegli quali di queste non desideri siano accessibili a qualcuno, qualora dovesse impossessarsi del tuo telefono.
 
-- [ ] Turn off **Today View and Search**
-- [ ] Turn off **Notification Center**
-- [ ] Turn off **Control Center**
-- [ ] Turn off **Lock Screen Widgets**
-- [ ] Turn off **Siri**
-- [ ] Turn off **Reply with Message**
-- [ ] Turn off **Home Control**
-- [ ] Turn off **Wallet**
-- [ ] Turn off **Return Missed Calls**
-- [ ] Turn off **USB Accessories**
+- [ ] Disattiva **Oggi e Ricerca**
+- [ ] Disattiva **Centro Notifiche**
+- [ ] Disattiva **Centro di Controllo**
+- [ ] Disattiva **Widget del Blocco Schermo**
+- [ ] Disattiva **Siri**
+- [ ] Disattiva **Rispondi con Messaggio**
+- [ ] Disattiva **Controllo Home**
+- [ ] Disattiva il **Portafoglio**
+- [ ] Disattiva **Richiama Chiamate Perse**
+- [ ] Disattiva gli **Accessori USB**
 
-iPhones are already resistant to brute-force attacks by making you wait long periods of time after multiple failed attempts; however, there have historically been exploits to get around this. To be extra safe, you can set your phone to wipe itself after 10 failed passcode attempts.
+Gli iPhone sono già resistenti agli attacchi di forza bruta, facendoti attendere abbastanza a lungo dopo più tentativi falliti; tuttavia, storicamente, sono esistiti degli exploit per aggirare tale problema. Per una maggiore sicurezza, puoi impostare il tuo telefono perché si ripristini da solo, dopo 10 tentativi falliti di inserimento del codice d'accesso.
 
 !!! warning
 
-    With this setting enabled, someone could intentionally wipe your phone by entering the wrong password many times. Make sure you have proper backups and only enable this setting if you feel comfortable with it.
+    Con quest'impostazione abilitata, qualcuno potrebbe ripristinare intenzionalmente il tuo telefono, inserendo molte volte la password errata. Assicurati di avere dei backup adeguati e di abilitare quest'impostazione soltanto se ti senti a tuo agio nel farlo.
 
-- [x] Turn on **Erase Data**
+- [x] Attiva **Cancella Dati**
 
 #### Privacy
 
-**Location Services** allows you to use features like Find My and Maps. If you don't need these features, you can disable Location Services. Alternatively, you can review and pick which apps can use your location here. Select **Location Services**:
+I **Servizi di Posizione** ti consentono di utilizzare funzionalità come Find My e Maps. Se non necessiti di queste funzionalità, puoi disabilitare i Servizi di Posizione. Altrimenti, puoi revisionare e selezionare quali app possono utilizzare la tua posizione. Seleziona i **Servizi di Posizione**:
 
-- [ ] Turn off **Location Services**
+- [ ] Disattiva i **Servizi di Posizione**
 
-You can decide to allow apps to request to **track** you here. Disabling this disallows all apps from tracking you with your phone's advertising ID. Select **Tracking**:
+Puoi decidere di consentire alle app di richiedere di **tracciarti**, qui. Disabilitarlo impedisce a tutte le app di traccarti, con l'ID pubblicitario del tuo telefono. Seleziona **Tracciamento**:
 
-- [ ] Turn off **Allow Apps to Request to Track**
+- [ ] Disattiva **Consenti alle App di Richiedere di Tracciare**
 
-You should turn off **Research Sensor & Usage Data** if you don't wish to participate in studies. Select **Research Sensor & Usage Data**:
+Dovresti disattivare **Sensore di Ricerca e Dati di Utilizzo** se non desideri partecipare agli studi. Seleziona **Sensore di Ricerca e Dati di Utilizzo**:
 
-- [ ] Turn off **Sensor & Usage Data Collection**
+- [ ] Disattiva **Raccolta dei Dati del Sensore e di Utilizzo**
 
-**Safety Check** allows you to quickly view and revoke certain people and apps that might have permission to access your data. Here you can perform an **Emergency Reset**, immediately resetting permissions for all people and apps which might have access to device resources, and you can **Manage Sharing & Access** which allows you to go through and customize who and what has access to your device and account resources.
+**Safety Check** ti consente di visualizzare rapidamente e di revocare certe persone e certe app, che potrebbero avere l'autorizzazione ad accedere ai tuoi dati. Qui, puoi eseguire un **Ripristino di Emergenza**, ripristinando immediatamente le autorizzazioni per tutte le persone e le app che potrebbero avere accesso alle risorse del dispositivo, e puoi **Gestire la Condivisione e l'Accesso**, che ti consentono di esaminare e personalizzare chi e cosa ha accesso al tuo dispositivo e alle risorse del tuo profilo.
 
-You should disable analytics if you don't wish to send Apple usage data. Select **Analytics & Improvements**:
+Dovresti disabilitare le analisi se non desideri inviare i dati di utilizzo ad Apple. Seleziona **Analisi e Miglioramenti**:
 
-- [ ] Turn off **Share iPhone Analytics** or **Share iPhone & Watch Analytics**
-- [ ] Turn off **Share iCloud Analytics**
-- [ ] Turn off **Improve Fitness+**
-- [ ] Turn off **Improve Safety**
-- [ ] Turn off **Improve Siri & Dictation**
+- [ ] Disattiva **Condividi Analisi iPhone** o **Condividi Analisi iPhone e Watch**
+- [ ] Disattiva **Condividi Analisi di iCloud**
+- [ ] Disattiva **Migliora Fitness+**
+- [ ] Disattiva **Migliora Sicurezza**
+- [ ] Disattiva **Migliora Siri e Dettatura**
 
-Disable **Personalized Ads** if you don't want targeted ads. Select **Apple Advertising**
+Disabilita gli **Annunci Personalizzati**, se non desideri ricevere annunci mirati. Seleziona **Inserzioni di Apple**
 
-- [ ] Turn off **Personalized Ads**
+- [ ] Disattiva gli **Annunci Personalizzati**
 
-**App Privacy Report** is a built-in tool that allows you to see which permissions your apps are using. Select **App Privacy Report**:
+**App Privacy Report** è uno strumento integrato che ti consente di visualizzare quale autorizzazioni sono in uso dalle tue app. Seleziona **Rapporto sulla Privacy dell'App**:
 
-- [x] Select **Turn On App Privacy Report**
+- [x] Seleziona **Attiva Rapporto sulla Privacy delle App**
 
-[Lockdown Mode](https://blog.privacyguides.org/2022/10/27/macos-ventura-privacy-security-updates/#lockdown-mode) is a security setting you can enable to make your phone more resistant to attacks. Be aware that certain apps and features [won't work](https://support.apple.com/en-us/HT212650) as they do normally.
+La [Modalità Lockdown](https://blog.privacyguides.org/2022/10/27/macos-ventura-privacy-security-updates/#lockdown-mode) è un'impostazione di sicurezza che puoi abiltare per rendere il tuo telefono più resistente agli attacchi. Sappi che certe app e funzionalità [non funzioneranno](https://support.apple.com/en-us/HT212650) come di norma.
 
-- [x] Select **Turn On Lockdown Mode**
+- [x] Selezion **Attiva Modalità Lockdown**
 
-## Additional Advice
+## Ulteriori Consigli
 
-### E2EE Calls
+### Chiamate E2EE
 
-Normal phone calls made with the Phone app through your carrier are not E2EE. Both FaceTime Video and FaceTime Audio calls are E2EE, or you can use [another app](../real-time-communication.md) like Signal.
+Le normali telefonate effettuate con l'app Telefono tramite il proprio operatore, non sono E2EE. Le chiamate di FaceTime Video e FaceTime Audio sono E2EE, o puoi utilizzare un'[altra app](../real-time-communication.md) come Signal.
 
-### Avoid Jailbreaking
+### Evita il Jailbreaking
 
-Jailbreaking an iPhone undermines its security and makes you vulnerable. Running untrusted, third-party software could cause your device to be infected with malware.
+Il Jailbreak di un'iPhone ne mina la sicurezza e ti rende vulnerabile. Eseguire software non affidabili e di terze parti, potrebbe causare l'infezione del tuo dispositivo da malware.
 
-### Encrypted iMessage
+### iMessage Crittografata
 
-The color of the message bubble in the Messages app indicates whether your messages are E2EE or not. A blue bubble indicates that you're using iMessage with E2EE, while a green bubble indicates they're using the outdated SMS and MMS protocols. Currently, the only way to get E2EE in Messages is for both parties to be using iMessage on Apple devices.
+Il colore della bolla del messaggo nell'app dei Messaggi indica se i tuoi messaggi sono E2EE o no. Una bolla blu indica che stai utilizzando iMessage con E2EE, mentre una bolla verde indica che stai utilizzando i protocolli obsoleti di SMS e MMS. Al momento, il solo modo per ottenere l'E2EE sui Messaggi è che entrambe le parti utilizzino iMessage sui dispositivi Apple.
 
-If either you or your messaging partner have iCloud Backup enabled without Advanced Data Protection, the encryption key will be stored on Apple's servers, meaning they can access your messages. Additionally, iMessage's key exchange is not as secure as alternative implementations, like Signal (which allows you to view the recipients key and verify by QR code), so it shouldn't be relied on for particularly sensitive communications.
+Se tu o il tuo partner di messaggistica avete abilitato iCloud Backup senza la Protezione Avanzata dei Dati, la chiave crittografica sarà memorizzata sui server di Apple, a significare che potrà accedere ai tuoi messaggi. Inoltre, lo scambio di chiavi di iMessage non è sicuro quanto le implementazioni alternative, come Signal (che ti consente di visualizzare la chiave del destinatario e di verificare tramite Codice QR), quindi non ci si dovrebbe affidare per le comunicazioni particolarmente sensibili.
 
-### Blacking Out Faces/Information
+### Oscuramento di Volti/Informazioni
 
-If you need to hide information in a photo, you can use Apple's built-in tools to do so. Open the photo you want to edit, press edit in the top right corner of the screen, then press the markup symbol at the top right. Press the plus at the bottom right of the screen, then press the rectangle icon. Now, you can place a rectangle anywhere on the image. Make sure to press the shape icon at the bottom left and select the filled-in rectangle. **Don't** use the highlighter to obfuscate information, because its opacity is not quite 100%.
+Se devi nascondere informazioni in un foto, puoi utilizzare gli strumenti integrati di Apple per farlo. Apri la foto che desideri modificare, premi su modifica nell'angolo superiore destro dello schermo, quindi premi il simbolo del pennarello in alto a destra. Premi il più in basso a destra alla schermata, quindi, premi l'icona del rettangolo. Ora, puoi posizionare un rettangolo in qualsiasi punto dell'immagine. Assicurati di premere l'icona della forma in basso a sinistra e di selezionare il rettangolo riempito. **Non** utilizzare l'evidenziatore per offuscare le informazioni, poiché la sua opacità non è al 100%.
 
-### iOS Betas
+### Beta di iOS
 
-Apple always makes beta versions of iOS available early for those that wish to help find and report bugs. We don't recommend installing beta software on your phone. Beta releases are potentially unstable and could have undiscovered security vulnerabilities.
+Apple rende sempre disponibili per versioni beta di iOS in anticipo, per coloro che desiderano aiutare a trovare e segnalare i bug. Sconsigliamo di installare il software in beta sul tuo telefono. Le versioni beta sono potenzialmente instabili e potrebbero presentare vulnerabilità di sicurezza non ancora scoperte.
 
-## Security Highlights
+## Punti Salienti della Sicurezza
 
-### Before First Unlock
+### Prima del Primo Sblocco
 
-If your threat model includes forensic tools and you want to minimize the chance of exploits being used to access your phone, you should restart your device frequently. The state *after* a reboot but *before* unlocking your device is referred to as "Before First Unlock" (BFU), and when your device is in that state it makes it [significantly more difficult](https://belkasoft.com/checkm8_glossary) for forensic tools to exploit vulnerabilities to access your data. This BFU state allows you to receive notifications for calls, texts, and alarms, but most of the data on your device is still encrypted and inaccessible. This can be impractical, so consider whether these trade-offs make sense for your situation.
+Se il tuo modello di minaccia include strumenti forensi e desideri minimizzare le probabilità di exploit utilizzati per accedere al tuo telefono, dovresti riavviare frequentemente il tuo dispositivo. Lo stato *successivo* a un riavvio, ma *antecedente* allo sblocco del tuo dispositivo è noto come "Prima del Primo Sblocco" (BFU) e, quando il tuo dispositivo è in tale stato, rende [significativamente più difficile](https://belkasoft.com/checkm8_glossary), per gli strumenti forensi, di sfruttare vulnerabilità per accedere ai tuoi dati. Questo stato BFU ti consente di ricevere notifiche per le chiamate, i messaggi e le sveglie, ma gran parte dei dati sul tuo dispositivo sono ancora crittografati e inaccessibili. Ciò può essere poco pratico, quindi, considera se tali compromessi hanno senso per la tua situazione.

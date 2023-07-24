@@ -2,80 +2,80 @@
 title: Stile di scrittura
 ---
 
-Privacy Guides è scritto in Inglese Americano, e dovresti far riferimento alle [linee guida dello stile APA](https://apastyle.apa.org/style-grammar-guidelines/grammar) in caso di dubbi.
+Privacy Guides è scritto in inglese americano, e dovresti far riferimento alle [linee guida di Stile APA](https://apastyle.apa.org/style-grammar-guidelines/grammar), in caso di dubbi.
 
-In genere le [Linee guida federali degli Stati Uniti per il linguaggio semplice](https://www.plainlanguage.gov/guidelines/) forniscono un'ottima panoramica su come scrivere in modo chiaro e conciso. Di seguito abbiamo riportato alcune note importanti di queste linee guida.
+In generale, le [linee guida federali degli Stati Uniti per il linguaggio semplice](https://www.plainlanguage.gov/guidelines/), forniscono una buona panoramica su come scrivere in modo chiaro e conciso. Evidenziamo alcune note importanti da tali linee guida, di seguito.
 
 ## Scrivere per il nostro pubblico
 
-[Il pubblico](https://www.plainlanguage.gov/guidelines/audience/) a cui si rivolge Privacy Guides è costituito principalmente da adulti medi che utilizzano la tecnologia. Non sminuire i contenuti come se vi rivolgeste ad una classe di scuola media, ma allo stesso tempo, non usate una terminologia complicata su concetti che gli utenti medi di computer non comprenderebbero.
+Il [pubblico](https://www.plainlanguage.gov/guidelines/audience/) cui Privacy Guides si riferisce è per lo più composto da adulti medi che utilizzano la tecnologia. Non sminuire i contenuti come se ti stessi rivolgendo a una classe delle medie ma, al contempo, non esagerare con le terminologie complicate su conctti che, gli utilizzatori medi di computer, non sarebbero familiari.
 
 ### Spiega solo ciò che le persone vogliono sapere
 
-Le persone non hanno bisogno di articoli troppo complessi e poco rilevanti alla loro ricerca. Scoprite cosa volete che le persone ottengano quando scrivete un articolo e includete solo questi dettagli.
+Le persone non necessitano di articoli eccessivamente complessi e poco rilevanti alla loro ricerca. Scopri cosa desideri che le persone ottengano quando scrivi un articolo, e includi soltanto tali dettagli.
 
-> Spiegate al vostro pubblico perché il materiale è importante per loro. Dite: "Se vuoi una borsa di studio per la ricerca, ecco cosa devi fare." Oppure: "Se vuoi estrarre il carbone federale, ecco cosa devi sapere." O, "Se stai pianificando un viaggio in Ruanda, leggi prima questo."
+> Spiega al tuo pubblico perché il materiale è importante per loro. Dì "Se vorresti una borsa di studio, ecco ciò che devi fare." Oppure, "Se vorresti estrarre il carbone federale, ecco cosa dovresti sapere." O, ancora, "Se stai pianificando un viaggio in Ruanda, prima leggi questo."
 
 ### Rivolgersi direttamente alle persone
 
-Scriviamo *per* un'ampia varietà di persone, ma stiamo scrivendo *alla* persona che sta effettivamente leggendo. Utilizza il "tu" per rivolgerti direttamente al lettore.
+Scriviamo *per* un'ampia varietà di persone ma, al contempo, *alla* persona che sta effettivamente leggendo. Per rivolgerti direttamente al lettore, utilizza il "tu".
 
-> Più di ogni altra tecnica, l'utilizzo del "tu" attira gli utenti nelle informazioni e le rende rilevanti per loro.
+> Più di ogni altra singola tecnica, l'utilizzo del "tu" attira gli utenti verso le informazioni, rendendole per loro rilevanti.
 > 
-> Quando ci si rivolge agli utenti con il "tu", è più probabile che essi comprendano quali sono le loro responsabilità.
+> Utilizzando il "tu" per rivolgerti agli utenti, potrebbero comprendere più probabilmente quali siano le loro responsabilità.
 
 Fonte: [plainlanguage.gov](https://www.plainlanguage.gov/guidelines/audience/address-the-user/)
 
 ### Evita "utenti"
 
-Evita di chiamare le persone "utenti", utilizza invece "persone", o una descrizione più specifica per il gruppo di persone a cui stai scrivendo.
+Evita di chiamare le persone "utenti", piuttosto che "persone", o una descrizione più specifica del gruppo di persone cui ti stai rivolgendo.
 
-## Organizzazione dei contenuti
+## Organizzare i contenuti
 
-L'organizzazione è fondamentale. Il contenuto dovrebbe iniziare a spiegare prima le informazioni più importanti, fino ad arrivare a quelle meno importanti, inoltre si devono usare le intestazioni per quanto necessario per separare logicamente le diverse idee.
+L'organizzazione è fondamentale. I contenuti dovrebbero confluire dalle informazioni più importanti a quelle meno importanti, e utilizzare più intestazioni necessarie possibili, per separare logicameente idee differenti.
 
-- Limita il documento ad un massimo di cinque o sei sezioni. Documenti lunghi dovrebbero essere suddivisi in più pagine separate.
-- Evidenzia idee importanti con il **grassetto** o con il *corsivo*.
+- Limita il documento ad un massimo di cinque o sei sezioni. I documenti lunghi dovrebbero essere suddivisi in più pagine separate.
+- Evidenzia le idee importanti con il **grassetto** o con il *corsivo*.
 
 Fonte: [plainlanguage.gov](https://www.plainlanguage.gov/guidelines/design/)
 
 ### Inizia con una frase chiave
 
-> Se spieghi al lettore cosa sta per leggere, è meno probabile che dovrà rileggere il tuo paragrafo. I titoli aiutano, ma non sono sufficienti. Stabilisci un contesto per il tuo pubblico prima di fornirgli i dettagli.
+> Se spieghi al lettore cosa sta per leggere, è meno probabile che dovrà rileggere il tuo paragrafo. I titoli aiutano, ma non sono sufficienti. Stabilisci un contesto per il tuo pubblico, prima di fornire loro i dettagli.
 > 
-> Spesso scriviamo il modo in cui pensiamo, ponendo prima le nostre premesse e poi le nostre conclusioni. Può essere il modo naturale di sviluppare i pensieri, ma ci ritroviamo con la frase chiave dell'argomento alla fine del paragrafo. Mettila in risalto e fai capire agli utenti dove stai andando a parare. Non costringere i lettori a trattenere molte informazioni nella loro testa prima di arrivare al punto.
+> Spesso, scriviamo così come pensiamo, ponendo prima le nostre premesse, poi le nostr conclusioni. Potrebbe essere il metodo naturale per sviluppare i pensieri, ma noi preferiamo inserire una frase chiave alla fine del paragrafo. Mettila in risalto e fai capire alle persone dove stai andando a parare. Non costringere i lettori a trattenere molte informazioni in testa, prima di arrivare al punto.
 
 Fonte: [plainlanguage.gov](https://www.plainlanguage.gov/guidelines/organize/have-a-topic-sentence/)
 
 ## Scegli con cura le tue parole
 
-> Le parole sono importanti. Sono gli elementi fondamentali della comunicazione scritta e parlata. Non complicare le cose usando gergo, termini tecnici o abbreviazioni che le persone non capiranno.
+> Le parole contano. Sono le fondamenta più importanti della comunicazione scritta e parlata. Non complicare le cose utilizzando il gergo, termini tecnici o abbreviazioni che le persone potrebbero non comprendere.
 
-Dovremmo cercare di evitare le abbreviazioni quando possibile, ma la tecnologia è piena di abbreviazioni. In generale, è opportuno scrivere l'abbreviazione/acronimo per intero la prima volta che viene usata in una pagina e aggiungere l'abbreviazione al file del glossario delle abbreviazioni quando viene usata ripetutamente.
+Dovremmo provare a evitare le abbreviazioni quadno possibile, ma la tecnologia è piena di abbreviazioni. In generale, scrivi l'abbreviazione/acronimo la prima volta che la utilizzi su una pagina, e aggiungila al file del glossario quando è utilizzata ripetutamente.
 
 > Kathy McGinty offre istruzioni ironiche per arricchire le vostre frasi semplici e dirette:
 > 
-> > Non si può sfuggire al fatto che è considerato molto importante notare che un certo numero di studi disponibili applicabili ipso facto hanno generalmente identificato il fatto che un'appropriata occupazione notturna aggiuntiva potrebbe di solito tenere i giovani adolescenti lontani dalle strade durante le ore notturne, incluso ma non limitato al periodo precedente la mezzanotte nelle notti feriali e/o alle 2 del mattino. nei fine settimana.
+> > Non si può sfuggire al fatto che sia considerato molto importante notare che numerosi studi disponibili e applicabili ipso facto, hanno generalmente identificato il fatto che l'occupazione notturna appropriata aggiuntiva, potrebbe solitamente tenere i giovani adolescenti lontani, durante le ore notture, inclusi ma non limitati agli orari precedenti la mezzanotte dei fine settimana e/o le 2 del mattino nei fine settimana.
 > 
-> E l'originale, con parole più semplici e forti:
+> E l'originale, utilizzando parole più forti e semplici:
 > 
 > > Più lavori notturni terrebbero i giovani lontani dalle strade.
 
 ## Sii conciso
 
-> Parole inutili fanno perder tempo al tuo pubblico. Una buona scrittura è come una conversazione. Ometti le informazioni che il pubblico non ha bisogno di sapere. Questo può essere difficile per un esperto in materia, quindi è importante che qualcuno guardi le informazioni dal punto di vista del pubblico.
+> Le parole inutili fanno perdere tempo al tuo pubblico. Una buona scrittura è come una conversazione. Ometti le informazioni che il pubblico non necessita di sapere. Ciò può risultare difficile per un esperto in materia, quindi, è importante far leggere a qualcuno le informazioni, dalla prospettiva del pubblico.
 
 Fonte: [plainlanguage.gov](https://www.plainlanguage.gov/guidelines/concise/)
 
-## Reggi il testo in maniera colloquiale
+## Mantieni colloquiale il testo
 
-> I verbi sono il carburante della scrittura. Danno alle vostre frasi potere e direzione. Ravvivano la tua scrittura e la rendono più interessante.
+> I verbi sono il carburante della scrittura. Danno alle tue frasi potere e direzione. Ravvivano la tua scrittura e la rendono più interessante.
 > 
 > I verbi indicano al tuo pubblico cosa fare. Assicurati che sia chiaro chi fa cosa.
 
-### Utilizzare una voce attiva
+### Utilizza una voce attiva
 
-> Una voce attiva rende chiaro chi deve fare cosa. Elimina l'ambiguità sulle responsabilità. Non usare "Deve essere fatto," ma "Devi farlo."
+> Una voce attiva rende chiaro chi dovrebbe fare cosa. Elimina l'ambiguità sulle responsabilità. Non utlizzare "Dev'esser fatto," piuttosto, preferisci "Devi farlo."
 
 Fonte: [plainlanguage.gov](https://www.plainlanguage.gov/guidelines/conversational/use-active-voice/)
 
@@ -84,4 +84,4 @@ Fonte: [plainlanguage.gov](https://www.plainlanguage.gov/guidelines/conversation
 > - "deve" per un obbligo
 > - “non deve” per un divieto
 > - “potrebbe” per un'azione discrezionale
-> - “dovrebbe” per una raccomandazione
+> - “dovrebbe” per un consiglio

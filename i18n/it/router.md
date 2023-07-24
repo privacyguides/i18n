@@ -36,7 +36,7 @@ Di seguito sono elencati alcuni sistemi operativi alternativi, utilizzabili sui 
     [:octicons-code-16:](https://github.com/opnsense){ .card-link title="Codice Sorgente" }
     [:octicons-heart-16:](https://opnsense.org/donate/){ .card-link title=Contribuisci}
 
-OPNsense è stato originariamente sviluppato come fork di [pfSense](https://en.wikipedia.org/wiki/PfSense), ed entrambi i progetti sono noti per essere distribuzioni di firewall gratuite e affidabili che offrono funzionalità spesso presenti solo in costosi firewall commerciali. Lanciato nel 2015, gli sviluppatori di OPNsense [hanno citato](https://docs.opnsense.org/history/thefork.html) una serie di problemi di sicurezza e di qualità del codice di pfSense che, a loro avviso, rendevano necessario un fork del progetto, oltre a preoccupazioni sull'acquisizione della maggioranza di pfSense da parte di Netgate e sulla futura direzione del progetto pfSense.
+OPNsense è stato originariamente sviluppato come una biforcazione di [pfSense](https://en.wikipedia.org/wiki/PfSense), ed entrambi i progetti sono noti per essere distribuzioni di firewall gratuite e affidabili, che offrono funzionalità spesso trovate soltanto in costosi firewall commerciali. Lanciato nel 2015, gli sviluppatori di OPNsense hanno [citato](https://docs.opnsense.org/history/thefork.html) numerosi problemi di sicurezza e qualità del codice di pfSense che, a loro avviso, rendevano necessaria una biforcazione del progetto, nonché le numerose preoccupazioni sull'acquisizione di maggioranza di pfSense da parte di Netgate, e della futura direzione del progetto di pfSense.
 
 ## Criteri
 
