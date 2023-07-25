@@ -23,7 +23,7 @@ cover: productivity.png
     [:octicons-code-16:](https://github.com/nextcloud){ .card-link title="소스 코드" }
     [:octicons-heart-16:](https://nextcloud.com/contribute/){ .card-link title=기여 }
     
-    ??? downloads
+    ??? downloads "다운로드"
     
         - [:simple-googleplay: Google Play](https://play.google.com/store/apps/details?id=com.nextcloud.client)
         - [:simple-appstore: App Store](https://apps.apple.com/app/id1125420102)
@@ -90,7 +90,7 @@ cover: productivity.png
     [:octicons-code-16:](https://www.libreoffice.org/about-us/source-code){ .card-link title="소스 코드" }
     [:octicons-heart-16:](https://www.libreoffice.org/donate/){ .card-link title=기부 }
     
-    ??? downloads
+    ??? downloads "다운로드"
     
         - [:simple-googleplay: Google Play](https://www.libreoffice.org/download/android-and-ios/)
         - [:simple-appstore: App Store](https://www.libreoffice.org/download/android-and-ios/)
@@ -112,7 +112,7 @@ cover: productivity.png
     [:octicons-info-16:](https://helpcenter.onlyoffice.com/userguides.aspx){ .card-link title=문서}
     [:octicons-code-16:](https://github.com/ONLYOFFICE){ .card-link title="소스 코드" }
     
-    ??? downloads
+    ??? downloads "다운로드"
     
         - [:simple-googleplay: Google Play](https://play.google.com/store/apps/details?id=com.onlyoffice.documents)
         - [:simple-appstore: App Store](https://apps.apple.com/app/id944896972)

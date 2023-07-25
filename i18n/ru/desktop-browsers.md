@@ -239,8 +239,9 @@ Brave содержит несколько инструментов защиты 
     ??? предупреждение «Дополнительные фильтры»
         Brave позволяет тебе выбрать дополнительные фильтры на внутренней странице `brave://adblock`. Мы не рекомендуем использовать эту функцию; вместо этого оставь списки фильтров по умолчанию. Использование дополнительных фильтров выделит тебя среди других пользователей Brave, а также может увеличить площадь атаки в том случае, если в Brave есть эксплойт и вредоносное правило будет добавлено в один из используемых тобой списков.
 
-- [x] (Опционально) Выбери **Блокировать скрипты** (1)
-- [x] Выбери **Строгий, может нарушать работу вебсайтов** в разделе: Блокировка цифровых отпечатков
+- [x] Select **Strict** under **Upgrade connections to HTTPS**
+- [x] (Optional) Select **Block Scripts** (1)
+- [x] Select **Strict, may break sites** under Block fingerprinting
 
 </div>
 
@@ -254,13 +255,12 @@ Brave содержит несколько инструментов защиты 
 
 <div class="annotate" markdown>
 
-- [x] Выбери **Отключить непроксируемый протокол UDP** в секции: [Политика обработки IP WebRTC](https://support.brave.com/hc/en-us/articles/360017989132-How-do-I-change-my-Privacy-Settings-#webrtc)
-- [ ] Отключи **Использовать сервисы Google для обмена push-сообщениями**
-- [ ] Отключи **Разрешить выполнение аналитики продукта, не нарушающей конфиденциальности**
-- [ ] Отключи **Автоматически отправлять ежедневные данные PING в Brave**
-- [ ] Отключи **Автоматически отправлять данные диагностики**
-- [x] Выбери **Всегда использовать безопасные соединения** в подразделе **Безопасность**
-- [ ] Отключи **Приватное окно с Tor** (1)
+- [x] Select **Disable non-proxied UDP** under [WebRTC IP Handling Policy](https://support.brave.com/hc/en-us/articles/360017989132-How-do-I-change-my-Privacy-Settings-#webrtc)
+- [ ] Uncheck **Use Google services for push messaging**
+- [ ] Uncheck **Allow privacy-preserving product analytics (P3A)**
+- [ ] Uncheck **Automatically send daily usage ping to Brave**
+- [ ] Uncheck **Automatically send diagnostic reports**
+- [ ] Uncheck **Private window with Tor** (1)
 
     !!! tip "Отчистка при закрытии"
 

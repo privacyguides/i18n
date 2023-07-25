@@ -1,99 +1,99 @@
-*[2FA]: 2-Factor Authentication
+*[2FA]: Uwierzytelnienie dwuskładnikowe
 *[ADB]: Android Debug Bridge
 *[AOSP]: Android Open Source Project
 *[ATA]: Advanced Technology Attachment
-*[attack surface]: The total number of possible entry points for unauthorized access to a system
+*[Możliwości ataku]: Całkowita liczba możliwych punktów wejścia dla nieautoryzowanego dostępu do systemu
 *[AVB]: Android Verified Boot
-*[cgroups]: Control Groups
-*[CLI]: Command Line Interface
-*[CSV]: Comma-Separated Values
-*[CVE]: Common Vulnerabilities and Exposures
-*[digital legacy feature]: Digital Legacy refers to features that allow you to give other people access to your data when you die
-*[DNSSEC]: Domain Name System Security Extensions
-*[DNS]: Domain Name System
-*[DoH]: DNS over HTTPS
-*[DoQ]: DNS over QUIC
-*[DoH3]: DNS over HTTP/3
-*[DoT]: DNS over TLS
-*[E2EE]: End-to-End Encryption/Encrypted
-*[ECS]: EDNS Client Subnet
-*[EEA]: European Economic Area
-*[entropy]: A measurement of how unpredictable something is
-*[EOL]: End-of-Life
-*[Exif]: Exchangeable image file format
-*[FCM]: Firebase Cloud Messaging
-*[FDE]: Full Disk Encryption
-*[FIDO]: Fast IDentity Online
-*[FS]: Forward Secrecy
-*[fork]: A new software project created by copying an existing project and adding to it independently
-*[GDPR]: General Data Protection Regulation
-*[GPG]: GNU Privacy Guard (PGP implementation)
-*[GPS]: Global Positioning System
-*[GUI]: Graphical User Interface
-*[GnuPG]: GNU Privacy Guard (PGP implementation)
-*[HDD]: Hard Disk Drive
-*[HOTP]: HMAC (Hash-based Message Authentication Code) based One-Time Password
-*[HTTPS]: Hypertext Transfer Protocol Secure
-*[HTTP]: Hypertext Transfer Protocol
-*[hypervisor]: Computer software, firmware, or hardware that splits the resources of a CPU among multiple operating systems
-*[ICCID]: Integrated Circuit Card Identifier
-*[IMAP]: Internet Message Access Protocol
-*[IMEI]: International Mobile Equipment Identity
-*[IMSI]: International Mobile Subscriber Identity
-*[IP]: Internet Protocol
-*[IPv4]: Internet Protocol version 4
-*[IPv6]: Internet Protocol version 6
-*[ISP]: Internet Service Provider
-*[ISPs]: Internet Service Providers
-*[JNI]: Java Native Interface
-*[KYC]: Know Your Customer
-*[LUKS]: Linux Unified Key Setup (Full-Disk Encryption)
-*[MAC]: Media Access Control
+*[cgroups]: Grupa kontrolna
+*[CLI]: Interfejs wiersza poleceń
+*[CSV]: Wartości rozdzielone przecinkiem
+*[CVE]: Typowe podatności i zagrożenia
+*[Cyfrowe dziedziczenie]: Cyfrowe dziedzictwo odnosi się do funkcji, które pozwalają dać innym osobom dostęp do danych po śmierci użytkownika
+*[DNSSEC]: Rozszerzenie zabezpieczeń dla systemu DNS
+*[DNS]: System nazw domen
+*[DoH]: DNS przez HTTPS
+*[DoQ]: DNS przez QUIC
+*[DoH3]: DNS przez HTTP/3
+*[DoT]: DNS przez TLS
+*[E2EE]: Kompleksowe szyfrowanie/szyfrowanie
+*[ECS]: Podsieć klienta EDNS
+*[EEA]: Europejski Obszar Gospodarczy
+*[entropia]: Miara tego, jak bardzo coś jest nieprzewidywalne
+*[EOL]: Koniec życia
+*[Exif]: Wymienny format pliku obrazu
+*[FCM]: Wiadomości w chmurze Firebase
+*[FDE]: Pełne szyfrowanie dysku
+*[FIDO]: Szybka tożsamość online
+*[FS]: Utajnianie z wyprzedzeniem
+*[fork]: Nowy projekt oprogramowania utworzony poprzez skopiowanie istniejącego projektu i dodanie do niego niezależnych elementów
+*[RODO]: Ogólne rozporządzenie o ochronie danych
+*[GPG]: Oprogramowanie kryptograficzne PGP
+*[GPS]: Globalny system pozycjonowania
+*[GUI]: Graficzny Interfejs Użytkownika
+*[GnuPG]: Oprogramowanie kryptograficzne PGP
+*[HDD]: Dysk twardy
+*[HOTP]: Hasło jednorazowe oparte na HMAC (Hash-based Message Authentication Code)
+*[HTTPS]: Bezpieczny protokół przesyłania
+*[HTTP]: Podstawowy protokół przesyłania
+*[hypervisor]: Oprogramowanie komputerowe, oprogramowanie układowe lub sprzęt, który dzieli zasoby procesora między wiele systemów operacyjnych
+*[ICCID]: Identyfikator karty układu scalonego
+*[IMAP]: Protokół dostępu do wiadomości internetowych
+*[IMEI]: Indywidualny numer identyfikacyjny telefonu komórkowego
+*[IMSI]: Unikatowy numer przypisany do każdej karty SIM
+*[IP]: Protokół internetowy
+*[IPv4]: Protokół internetowy w wersji 4
+*[IPv6]: Protokół internetowy w wersji 6
+*[ISP]: Dostawca usług internetowych
+*[ISPs]: Dostawcy usług internetowych
+*[JNI]: Natywny interfejs Java
+*[KYC]: Poznaj swojego klienta
+*[LUKS]: Linux Unified Key Setup (szyfrowanie całego dysku)
+*[MAC]: Kontrola dostępu
 *[MDAG]: Microsoft Defender Application Guard
-*[MEID]: Mobile Equipment Identifier
+*[MEID]: Identyfikator sprzętu mobilnego
 *[MFA]: Uwierzytelnianie wieloskładnikowe
 *[NVMe]: Nonvolatile Memory Express
-*[NAT]: Network address translation
-*[NAT-PMP]: NAT Port Mapping Protocol
-*[NTP]: Network Time Protocol
+*[NAT]: Translacja adresu sieciowego
+*[NAT-PMP]: Protokół mapowania portów NAT
+*[NTP]: Protokół czasu sieciowego
 *[OCI]: Open Container Initiative
-*[OCSP]: Online Certificate Status Protocol
-*[OEM]: Original Equipment Manufacturer
-*[OEMs]: Original Equipment Manufacturers
-*[OS]: Operating System
-*[OTP]: One-Time Password
-*[OTPs]: One-Time Passwords
-*[OpenPGP]: Open-source implementation of Pretty Good Privacy (PGP)
-*[P2P]: Peer-to-Peer
-*[PAM]: Linux Pluggable Authentication Modules
-*[POP3]: Post Office Protocol 3
-*[PGP]: Pretty Good Privacy (see OpenPGP)
-*[PII]: Personally Identifiable Information
-*[QNAME]: Qualified Name
-*[rolling release]: Updates which are released frequently rather than set intervals
+*[OCSP]: Stan certyfikatu online
+*[OEM]: Producent oryginalnego sprzętu
+*[OEMs]: Producenci oryginalnego sprzętu
+*[OS]: System operacyjny
+*[OTP]: Jednorazowe hasło
+*[OTPs]: Jednorazowe hasła
+*[OpenPGP]: Open-source'owa implementacja Pretty Good Privacy (PGP)
+[P2P]: Peer-to-Peer
+*[PAM]: Moduły uwierzytelniania w systemie Linux
+*[POP3]: Protokół pocztowy 3
+*[PGP]: Pretty Good Privacy (patrz OpenPGP)
+*[PII]: Informacje umożliwiające identyfikację osoby
+*[QNAME]: Nazwa kwalifikowana
+*[rolling release]: Aktualizacje, które są wydawane często, a nie w ustalonych odstępach czasu
 *[RSS]: Really Simple Syndication
-*[SELinux]: Security-Enhanced Linux
-*[SIM]: Subscriber Identity Module
-*[SMS]: Short Message Service (standard text messaging)
-*[SMTP]: Simple Mail Transfer Protocol
-*[SNI]: Server Name Indication
-*[SSD]: Solid-State Drive
-*[SSH]: Secure Shell
-*[SUID]: Set Owner User ID
-*[SaaS]: Software as a Service (cloud software)
-*[SoC]: System on Chip
-*[SSO]: Single sign-on
-*[TCP]: Transmission Control Protocol
-*[TEE]: Trusted Execution Environment
-*[TLS]: Transport Layer Security
-*[ToS]: Terms of Service
-*[TOTP]: Time-based One-Time Password
-*[TPM]: Trusted Platform Module
-*[U2F]: Universal 2nd Factor
-*[UEFI]: Unified Extensible Firmware Interface
-*[UDP]: User Datagram Protocol
-*[VPN]: Virtual Private Network
-*[VoIP]: Voice over IP (Internet Protocol)
-*[W3C]: World Wide Web Consortium
-*[XMPP]: Extensible Messaging and Presence Protocol
-*[PWA]: Progressive Web App
+*[SELinux]: Linux o zwiększonym bezpieczeństwie
+*[SIM]: Moduł identyfikacji abonenta
+*[SMS]: Usługa krótkich wiadomości tekstowych (standardowe wiadomości tekstowe)
+*[SMTP]: Prosty protokół przesyłania poczty
+*[SNI]: Wskazanie nazwy serwera
+*[SSD]: Dysk SSD
+*[SSH]: Bezpieczna powłoka
+*[SUID]: Identyfikator właściciela pliku
+*[SaaS]: Oprogramowanie jako usługa (oprogramowanie w chmurze)
+*[SoC]: System na chipie
+*[SSO]: Logowanie jednokrotne
+*[TCP]: Protokół sterowania transmisją
+*[TEE]: Środowisko zaufanego wykonania
+*[TLS]: Bezpieczeństwo warstwy transportowej
+*[ToS]: Warunkami użytkowania
+*[TOTP]: Jednorazowe hasło ważne przez określony czas
+*[TPM]: Moduł zaufanej platformy
+*[U2F]: Uwierzytelnienie za pomocą specjalnego klucza
+*[UEFI]: Zunifikowany rozszerzalny interfejs oprogramowania układowego
+*[UDP]: Protokół pakietów użytkownika
+*[VPN]: Wirtualna sieć prywatna
+*[VoIP]: Przesyłanie dźwięku za pomocą łącza internetowego
+*[W3C]: Konsorcjum World Wide Web
+*[XMPP]: Rozszerzalny protokół przesyłania wiadomości i statusu
+*[PWA]: Progresywna aplikacja internetowa

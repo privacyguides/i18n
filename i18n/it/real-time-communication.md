@@ -22,7 +22,7 @@ Queste app di messaggistica sono ottime per proteggere le tue comunicazioni sens
     
     **Signal** è un'app per dispositivi mobili sviluppata da Signal Messenger LLC. L'app offre messaggistica istantanea, oltre che chiamate e videochiamate.
     
-    Tutte le comunicazioni sono in E2EE. Gli elenchi di contatti sono crittografati utilizzando il tuo PIN di Signal e il server non vi ha accesso. Inoltre, i profili personali sono crittografati e condivisi esclusivmente con i contatti con cui parli.
+    Tutte le comunicazioni sono E2EE. Gli elenchi di contatti sono crittografati utilizzando il tuo PIN di Signal e il server non vi ha accesso. Inoltre, i profili personali sono crittografati e condivisi esclusivmente con i contatti con cui parli.
     
     [:octicons-home-16: Home](https://signal.org/){ .md-button .md-button--primary }
     [:octicons-eye-16:](https://signal.org/legal/#privacy-policy){ .card-link title="Politica sulla Privacy" }

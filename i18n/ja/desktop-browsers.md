@@ -8,7 +8,7 @@ schema:
   - 
     "@context": http://schema.org
     "@type": WebPage
-    name: プライベートデスクトップブラウザのおすすめ
+    name: プライベートデスクトップブラウザの推奨
     url: "./"
     relatedLink: "../mobile-browsers/"
   - 
@@ -80,11 +80,11 @@ schema:
         - [:simple-apple: macOS](https://mullvad.net/en/download/browser/macos)
         - [:simple-linux: Linux](https://mullvad.net/en/download/browser/linux)
 
-Like [Tor Browser](tor.md), Mullvad Browser is designed to prevent fingerprinting by making your browser fingerprint identical to all other Mullvad Browser users, and it includes default settings and extensions that are automatically configured by the default security levels: *Standard*, *Safer* and *Safest*. Therefore, it is imperative that you do not modify the browser at all outside adjusting the default [security levels](https://tb-manual.torproject.org/security-settings/). Other modifications would make your fingerprint unique, defeating the purpose of using this browser. If you want to configure your browser more heavily and fingerprinting is not a concern for you, we recommend [Firefox](#firefox) instead.
+[Torブラウザ](tor.md)と同様に、Mullvadブラウザは、あなたのブラウザのフィンガープリントを他のすべてのMullvadユーザーと同一にすることでフィンガープリントを防ぐように設計されています。また、デフォルトのセキュリティレベル：*Standard（標準）*、*Safer（より安全）*、*Safest（最も安全）*によって自動的に設定されるデフォルトの設定と拡張機能が含まれています。 したがって、[デフォルトのセキュリティレベル](https://tb-manual.torproject.org/security-settings/)を調整する以外の変更をしないことが大事です。 その他の変更は、あなたのフィンガープリントを特有なものにし、このブラウザを使用する目的を失うことになるでしょう。 ブラウザをより詳細に設定し、フィンガープリントも気にならない場合は、代わりに[Firefox](#firefox)を推奨します。
 
 ### フィンガープリント対策
 
-**Without** using a [VPN](vpn.md), Mullvad Browser provides the same protections against [naive fingerprinting scripts](https://github.com/arkenfox/user.js/wiki/3.3-Overrides-%5BTo-RFP-or-Not%5D#-fingerprinting) as other private browsers like Firefox+[Arkenfox](#arkenfox-advanced) or [Brave](#brave). Mullvad Browser provides these protections out of the box, at the expense of some flexibility and convenience that other private browsers can provide.
+**[VPN](vpn.md)**を使用せずとも、MullvadブラウザはFirefox+[Arkenfox](#arkenfox-advanced)や[Brave](#brave)などの他のプライベートブラウザと同様に、[初歩的なフィンガープリントスクリプト](https://github.com/arkenfox/user.js/wiki/3.3-Overrides-%5BTo-RFP-or-Not%5D#-fingerprinting)に対する保護を提供します。 Mullvad Browser provides these protections out of the box, at the expense of some flexibility and convenience that other private browsers can provide.
 
 ==For the strongest anti-fingerprinting protection, we recommend using Mullvad Browser in conjunction **with** a VPN==, whether that is Mullvad or another recommended VPN provider. When using a VPN with Mullvad Browser, you will share a fingerprint and a pool of IP addresses with many other users, giving you a "crowd" to blend in with. This strategy is the only way to thwart advanced tracking scripts, and is the same anti-fingerprinting technique used by Tor Browser.
 
@@ -239,6 +239,7 @@ Shields' options can be downgraded on a per-site basis as needed, but by default
     ??? warning "Use default filter lists"
         Brave allows you to select additional content filters within the internal `brave://adblock` page. We advise against using this feature; instead, keep the default filter lists. Using extra lists will make you stand out from other Brave users and may also increase attack surface if there is an exploit in Brave and a malicious rule is added to one of the lists you use.
 
+- [x] Select **Strict** under **Upgrade connections to HTTPS**
 - [x] (Optional) Select **Block Scripts** (1)
 - [x] Select **Strict, may break sites** under Block fingerprinting
 
@@ -259,7 +260,6 @@ Shields' options can be downgraded on a per-site basis as needed, but by default
 - [ ] Uncheck **Allow privacy-preserving product analytics (P3A)**
 - [ ] Uncheck **Automatically send daily usage ping to Brave**
 - [ ] Uncheck **Automatically send diagnostic reports**
-- [x] Select **Always use secure connections** in the **Security** menu
 - [ ] Uncheck **Private window with Tor** (1)
 
     !!! tip "Sanitizing on Close"

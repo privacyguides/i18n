@@ -239,8 +239,9 @@ Brave 브라우저의 [보호](https://support.brave.com/hc/en-us/articles/36002
     ??? warning "기본 필터 목록을 사용하세요"
         Brave 브라우저는 `brave://adblock` 내부 페이지에서 추가적인 콘텐츠 필터를 선택할 수 있습니다. 이 기능을 사용하지 말고 기본 필터 목록을 유지할 것을 권장드립니다. 추가적인 목록을 사용하면 다른 Brave 사용자에 비해 더 눈에 띄게 되며, 만약 Brave에 취약점이 존재하고 여러분이 사용하는 규칙 목록에 악성 규칙이 포함될 경우 공격 표면을 증가시킬 수도 있습니다.
 
-- [x] (선택 사항) **스크립트 차단** 활성화 (1)
-- [x] 지문 차단을 **엄격, 사이트가 손상될 수 있음**으로 설정
+- [x] Select **Strict** under **Upgrade connections to HTTPS**
+- [x] (Optional) Select **Block Scripts** (1)
+- [x] Select **Strict, may break sites** under Block fingerprinting
 
 </div>
 
@@ -254,13 +255,12 @@ Brave 브라우저의 [보호](https://support.brave.com/hc/en-us/articles/36002
 
 <div class="annotate" markdown>
 
-- [x] [WebRTC IP 처리 방침](https://support.brave.com/hc/en-us/articles/360017989132-How-do-I-change-my-Privacy-Settings-#webrtc)에서 **프록시가 아닌 UDP 비활성화하기** 선택
-- [ ] **푸시 메시지에 Google 서비스 사용** 비활성화
-- [ ] **프라이버시 보호 제품 분석(P3A) 허용** 비활성화
-- [ ] **일일 사용 Ping을 Brave에 자동으로 보내기** 비활성화
-- [ ] **진단 보고서 자동 전송** 비활성화
-- [x] **보안** 메뉴에서 **항상 보안 연결 사용** 활성화
-- [ ] **Tor와 함께하는 개인정보 보호 창** 비활성화 (1)
+- [x] Select **Disable non-proxied UDP** under [WebRTC IP Handling Policy](https://support.brave.com/hc/en-us/articles/360017989132-How-do-I-change-my-Privacy-Settings-#webrtc)
+- [ ] Uncheck **Use Google services for push messaging**
+- [ ] Uncheck **Allow privacy-preserving product analytics (P3A)**
+- [ ] Uncheck **Automatically send daily usage ping to Brave**
+- [ ] Uncheck **Automatically send diagnostic reports**
+- [ ] Uncheck **Private window with Tor** (1)
 
     !!! tip "종료 시 데이터 정리"
 

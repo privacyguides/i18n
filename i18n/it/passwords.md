@@ -268,7 +268,7 @@ Queste opzioni ti consentono di gestire localmente un database di password critt
         - [:simple-firefoxbrowser: Firefox](https://addons.mozilla.org/firefox/addon/keepassxc-browser)
         - [:simple-googlechrome: Chrome](https://chrome.google.com/webstore/detail/keepassxc-browser/oboonakemofpalcgghocfoadofidjkkk)
 
-KeePassXC memorizza i suoi dati di esportazione come file [CSV](https://en.wikipedia.org/wiki/Comma-separated_values). Ciò potrebbe comportare la perdita di dati, se importi questo file in un altro gestore di password. Ti suggeriamo di consultare manualmente ogni registro.
+KeePassXC memorizza i suoi dati di esportazione come file [CSV](https://en.wikipedia.org/wiki/Comma-separated_values). Ciò potrebbe comportare la perdita di dati, se importi questo file in un altro gestore di password. Consigliamo di controllare manualmente ogni record.
 
 ### KeePassDX (Android)
 

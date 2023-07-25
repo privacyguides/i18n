@@ -239,8 +239,9 @@ Las opciones de los escudos pueden reducirse según las necesidades de cada siti
     ??? advertencia "Usa listas de filtros predeterminadas"
         Brave te permite seleccionar filtros de contenido adicionales dentro de la página interna `brave://adblock`. Te aconsejamos que no utilices esta función; en su lugar, mantén las listas de filtros predeterminadas. El uso de listas adicionales te hará destacar entre los demás usuarios de Brave y también puede aumentar la superficie de ataque si hay un exploit en Brave y se añade una regla maliciosa a una de las listas que utilizas.
 
-- [x] (Opcional) Selecciona **Bloquear Scripts** (1)
-- [x] Selecciona **Estricto, puede dañar los sitios** en Bloquear huellas digitales
+- [x] Select **Strict** under **Upgrade connections to HTTPS**
+- [x] (Optional) Select **Block Scripts** (1)
+- [x] Select **Strict, may break sites** under Block fingerprinting
 
 </div>
 
@@ -254,13 +255,12 @@ Las opciones de los escudos pueden reducirse según las necesidades de cada siti
 
 <div class="annotate" markdown>
 
-- [x] Selecciona **Desactivar el UDP sin proxy** en [Política de gestión de IP de WebRTC](https://support.brave.com/hc/en-us/articles/360017989132-How-do-I-change-my-Privacy-Settings-#webrtc)
-- [ ] Desmarca **Utiliza los servicios de Google para la mensajería push**
-- [ ] Desmarca **Permitir estadísticas del producto con preservación de la privacidad (P3A)**
-- [ ] Desmarca **Enviar automáticamente el ping de uso diario a Brave**
-- [ ] Desmarca **Enviar informes de diagnóstico automáticamente**
-- [x] Selecciona **Usar siempre conexiones seguras** en el menú **Seguridad**
-- [ ] Desmarca **Ventana privada con Tor** (1)
+- [x] Select **Disable non-proxied UDP** under [WebRTC IP Handling Policy](https://support.brave.com/hc/en-us/articles/360017989132-How-do-I-change-my-Privacy-Settings-#webrtc)
+- [ ] Uncheck **Use Google services for push messaging**
+- [ ] Uncheck **Allow privacy-preserving product analytics (P3A)**
+- [ ] Uncheck **Automatically send daily usage ping to Brave**
+- [ ] Uncheck **Automatically send diagnostic reports**
+- [ ] Uncheck **Private window with Tor** (1)
 
     !!! tip "Desinfectar al cerrar"
 

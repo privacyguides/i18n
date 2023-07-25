@@ -49,16 +49,16 @@ Se stai utilizzando un'applicazione come Evernote, Google Keep o Microsoft OneNo
     [:octicons-code-16:](https://github.com/streetwriters/notesnook){ .card-link title="Codice Sorgente" }
     [:octicons-heart-16:](https://github.com/streetwriters/notesnook/blob/master/CONTRIBUTING.md){ .card-link title=Contribuisci }
     
-    ??? downloads
+    ??? downloads "Scarica"
     
-        - [:simple-googleplay: Google Play](https://play.google.com/store/apps/details?id=com.streetwriters.notesnook)
-        - [:simple-appstore: App Store](https://apps.apple.com/us/app/notesnook-take-private-notes/id1544027013)
-        - [:simple-github: GitHub](https://github.com/streetwriters/notesnook/releases)
-        - [:simple-windows11: Windows](https://notesnook.com/downloads)
-        - [:simple-apple: macOS](https://notesnook.com/downloads)
-        - [:simple-linux: Linux](https://notesnook.com/downloads)
-        - [:simple-firefoxbrowser: Firefox](https://notesnook.com/notesnook-web-clipper/)
-        - [:simple-googlechrome: Chrome](https://chrome.google.com/webstore/detail/notesnook-web-clipper/kljhpemdlcnjohmfmkogahelkcidieaj)
+        - [:simple-googleplay: Google Play](https://play.google.com/store/apps/details?id=net.cozic.joplin)
+        - [:simple-appstore: App Store](https://apps.apple.com/it/app/joplin/id1315599797)
+        - [:simple-github: GitHub](https://github.com/laurent22/joplin-android/releases)
+        - [:simple-windows11: Windows](https://joplinapp.org/#desktop-applications)
+        - [:simple-apple: macOS](https://joplinapp.org/#desktop-applications)
+        - [:simple-linux: Linux](https://joplinapp.org/#desktop-applications)
+        - [:simple-firefoxbrowser: Firefox](https://addons.mozilla.org/firefox/addon/joplin-web-clipper/)
+        - [:simple-googlechrome: Chrome](https://chrome.google.com/webstore/detail/joplin-web-clipper/alofnhikmmkdbbbgpnglcpdollgjjfek)
 
 Notesnook non supporta la protezione con password/PIN sulle app web e desktop. Tuttavia, puoi comunque bloccare le singole note, e i tuoi dati sono sempre crittografati in transito e sul tuo dispositivo, utilizzando la tua chiave principale.
 
@@ -76,10 +76,10 @@ Notesnook non supporta la protezione con password/PIN sulle app web e desktop. T
     [:octicons-code-16:](https://github.com/laurent22/joplin){ .card-link title="Codice Sorgente" }
     [:octicons-heart-16:](https://joplinapp.org/donate/){ .card-link title=Contribuisci }
     
-    ??? downloads
+    ??? downloads "Scarica"
     
         - [:simple-googleplay: Google Play](https://play.google.com/store/apps/details?id=net.cozic.joplin)
-        - [:simple-appstore: App Store](https://apps.apple.com/us/app/joplin/id1315599797)
+        - [:simple-appstore: App Store](https://apps.apple.com/it/app/joplin/id1315599797)
         - [:simple-github: GitHub](https://github.com/laurent22/joplin-android/releases)
         - [:simple-windows11: Windows](https://joplinapp.org/#desktop-applications)
         - [:simple-apple: macOS](https://joplinapp.org/#desktop-applications)
@@ -87,7 +87,7 @@ Notesnook non supporta la protezione con password/PIN sulle app web e desktop. T
         - [:simple-firefoxbrowser: Firefox](https://addons.mozilla.org/firefox/addon/joplin-web-clipper/)
         - [:simple-googlechrome: Chrome](https://chrome.google.com/webstore/detail/joplin-web-clipper/alofnhikmmkdbbbgpnglcpdollgjjfek)
 
-Joplin non supporta la protezione con password/PIN per [l'applicazione stessa o per i singoli appunti e blocchi note](https://github.com/laurent22/joplin/issues/289). Tuttavia, i dati sono comunque crittografati in transito e alla posizione di sincronizzazione, utilizzando la tua chiave principale. Da gennaio 2023, Joplin supporta il blocco biometrico dell'app per [Android](https://joplinapp.org/changelog_android/#android-v2-10-3-https-github-com-laurent22-joplin-releases-tag-android-v2-10-3-pre-release-2023-01-05t11-29-06z) e [iOS](https://joplinapp.org/changelog_ios/#ios-v12-10-2-https-github-com-laurent22-joplin-releases-tag-ios-v12-10-2-2023-01-20t17-41-13z).
+Joplin non supporta la protezione con password/PIN per [l'applicazione stessa o per i singoli appunti e blocchi note](https://github.com/laurent22/joplin/issues/289). Tuttavia, i tuoi dati sono comunque crittografati in transito e alla posizione di sincronizzazione, utilizzando la tua chiave principale. Da gennaio 2023, Joplin supporta il blocco biometrico dell'app per [Android](https://joplinapp.org/changelog_android/#android-v2-10-3-https-github-com-laurent22-joplin-releases-tag-android-v2-10-3-pre-release-2023-01-05t11-29-06z) e [iOS](https://joplinapp.org/changelog_ios/#ios-v12-10-2-https-github-com-laurent22-joplin-releases-tag-ios-v12-10-2-2023-01-20t17-41-13z).
 
 ### Cryptee
 

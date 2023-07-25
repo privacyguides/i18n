@@ -39,7 +39,7 @@ Per ulteriori dettagli su ogni progetto, perché è stato scelto e ulteriori con
 
 [Scopri di più :material-arrow-right-drop-circle:](desktop-browsers.md)
 
-### Ulteriori Risorse
+### Risorse aggiuntive
 
 <div class="grid cards" markdown>
 
@@ -60,7 +60,7 @@ Per ulteriori dettagli su ogni progetto, perché è stato scelto e ulteriori con
 
 [Scopri di più :material-arrow-right-drop-circle:](mobile-browsers.md)
 
-### Ulteriori Risorse
+### Risorse aggiuntive
 
 <div class="grid cards annotate" markdown>
 
@@ -211,8 +211,8 @@ Per ulteriori dettagli su ogni progetto, perché è stato scelto e ulteriori con
 
 <div class="grid cards" markdown>
 
-- ![Tutanota logo](assets/img/calendar/tutanota.svg){ .twemoji } [Tutanota](calendar-contacts.md#tutanota)
-- ![Proton Calendar logo](assets/img/calendar/proton-calendar.svg){ .twemoji } [Proton Calendar](calendar-contacts.md#proton-calendar)
+- ![Logo di Tutanota](assets/img/calendar/tutanota.svg){ .twemoji } [Tutanota](calendar-contacts.md#tutanota)
+- ![Logo di Proton Calendar](assets/img/calendar/proton-calendar.svg){ .twemoji } [Proton Calendar](calendar-contacts.md#proton-calendar)
 
 </div>
 

@@ -167,7 +167,7 @@ YouTube에 로그인하거나 여러분의 Google 계정에 사용 정보를 남
 
 !!! example "예시"
 
-    To subscribe to a YouTube channel with an RSS client, first look for its [channel code](https://support.google.com/youtube/answer/6180214). 채널 코드는 구독하고 싶은 Youtube 채널의 정보 페이지에서 다음과 같이 찾을 수 있습니다: **정보 탭 선택** > **공유 버튼 클릭** > **채널 ID 복사** 다음에서 `[CHANNEL ID]` 부분을 코드로 대체합니다.
+    RSS 클라이언트로 Youtube 채널을 구독하려면 [채널 코드](https://support.google.com/youtube/answer/6180214)를 확인해야 합니다. 채널 코드는 구독하고자 하는 YouTube 채널의 정보 페이지에서 확인할 수 있습니다: **정보 탭 선택** > **공유 버튼 클릭** > **채널 ID 복사** 다음에서 `[CHANNEL ID]` 부분을 코드로 대체합니다.
 
     ```text
     https://www.youtube.com/feeds/videos.xml?channel_id=[CHANNEL ID]

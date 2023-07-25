@@ -99,7 +99,7 @@ Abbiamo precedentemente consiglito di abilitare la preferenza *Isola Indirizzo d
     
     Tutte le versioni sono firmate utilizzando la medesima firma, quindi, dovrebbero essere compatibili tra loro.
 
-## Trasmissione e Ponti
+## Relay e Bridge
 
 ### Snowflake
 

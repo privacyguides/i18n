@@ -238,6 +238,7 @@ Shields alternativ kan nedgraderas vid behov för varje enskild plats, men som s
     ??? varning "Use default filter lists"
         Brave låter dig välja ytterligare innehållsfilter på den interna sidan `brave://adblock`. Vi avråder från att använda den här funktionen; behåll istället standardfilterlistorna. Om du använder extra listor sticker du ut från andra Brave-användare och kan också öka angreppsytan om det finns en exploit i Brave och en skadlig regel läggs till i en av de listor du använder.
 
+- [x] Select **Strict** under **Upgrade connections to HTTPS**
 - [x] (Optional) Select **Block Scripts** (1)
 - [x] Select **Strict, may break sites** under Block fingerprinting
 
@@ -258,7 +259,6 @@ Shields alternativ kan nedgraderas vid behov för varje enskild plats, men som s
 - [ ] Uncheck **Allow privacy-preserving product analytics (P3A)**
 - [ ] Uncheck **Automatically send daily usage ping to Brave**
 - [ ] Uncheck **Automatically send diagnostic reports**
-- [x] Select **Always use secure connections** in the **Security** menu
 - [ ] Uncheck **Private window with Tor** (1)
 
     !!! tip "Sanitizing on Close"

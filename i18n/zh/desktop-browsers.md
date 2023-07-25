@@ -258,8 +258,9 @@ Shields的选项可以根据需要在每个站点的基础上进行降级，但�
 ？? warning "Use default filter lists"
         Brave允许你在内部`brave://adblock`页面中选择额外的内容过滤器。 我们建议不要使用这个功能；相反，保留默认的过滤列表。 使用额外的列表会使你从其他Brave用户中脱颖而出，如果Brave中存在漏洞，恶意规则被添加到你使用的列表中，也可能增加攻击面。
 
-- [x] （可选）选择**屏蔽脚本**（1）
-- [x] 在屏蔽指纹下选择**严格的，可能会破坏网站**。
+- [x] Select **Strict** under **Upgrade connections to HTTPS**
+- [x] (Optional) Select **Block Scripts** (1)
+- [x] Select **Strict, may break sites** under Block fingerprinting
 
 </div>
 
@@ -277,13 +278,12 @@ Shields的选项可以根据需要在每个站点的基础上进行降级，但�
 
 <div class="annotate" markdown>
 
-- [x] 在[WebRTC IP处理策略]下选择**禁用非代理的UDP**(https://support.brave.com/hc/en-us/articles/360017989132-How-do-I-change-my-Privacy-Settings-#webrtc）
-- [ ] 取消勾选 **使用谷歌服务推送消息**
-- [ ] 取消勾选 **允许保留隐私的产品分析（P3A）**
-- [ ] 取消勾选 **自动向Brave发送每日使用情况的Ping***。[] 取消勾选 **自动向Brave发送每日使用情况的ping**
-- [] 取消勾选 **自动发送诊断报告**
-- [x] 在**安全**菜单中选择 **始终使用安全连接**
-- [] 取消勾选 **使用Tor的私人窗口** (1)
+- [x] Select **Disable non-proxied UDP** under [WebRTC IP Handling Policy](https://support.brave.com/hc/en-us/articles/360017989132-How-do-I-change-my-Privacy-Settings-#webrtc)
+- [ ] Uncheck **Use Google services for push messaging**
+- [ ] Uncheck **Allow privacy-preserving product analytics (P3A)**
+- [ ] Uncheck **Automatically send daily usage ping to Brave**
+- [ ] Uncheck **Automatically send diagnostic reports**
+- [ ] Uncheck **Private window with Tor** (1)
 
     !!! tip "Sanitizing on Close"
 

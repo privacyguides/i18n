@@ -68,7 +68,7 @@ Per Android, Firefox è meno sicuro delle alternative basate su Chromium: il mot
 
 Il Tor Browser è l'unico che veramente permette di navigare Internet anonimamente. Qundo utilizzi Brave, consigliamo di modificare le seguenti informazioni per proteggere la tua privacy da certe parti, m tutti i browser tranne [Tor Browser](tor.md#tor-browser) saranno tracciabili da *qualcuno*, in un modo o nell'altro.
 
-Queste opzioni si possono trovare in :material-menu: → **Impostazioni** → **Brave Shields e Privacy**
+Queste opzioni si possono trovare in :material-menu: → **Impostazioni** → **Protezioni Brave e Privacy**
 
 ##### Shields
 
@@ -80,7 +80,7 @@ Le opzioni di Shields sono riducibili a seconda del sito come necessrio ma, di d
 
 <div class="annotate" markdown>
 
-- [x] Seleziona **Aggressivo** sotto Blocca tracciatori e annunci
+- [x] Seleziona **Aggressivo** sotto Blocca tracker e annunci
 
 ??? warning "Usa gli elenchi di filtri predefiniti"
         Brave ti consente di selezionare ulteriori filtri di contenuti mediante la pagina interna `brave://adblock`. Si consiglia di non utilizzare questa funzione e di mantenere gli elenchi di filtri predefiniti. Utilzzare ulteriori elenchi ti distinguerà dagli altri utenti di Brave e potrebbe inoltre incrementare la superficie di attacco, se è presente un exploit su Brave e una regola dannosa viene aggiunta a uno degli elenchi che utilizzi.
@@ -100,23 +100,23 @@ Le opzioni di Shields sono riducibili a seconda del sito come necessrio ma, di d
 
 ##### Blocco social
 
-- [ ] Deseleziona tutte le opzioni legate ai social
+- [ ] Rimuovi la spunta da tutti i componenti social
 
 ##### Altre impostazioni sulla privacy
 
 <div class="annotate" markdown>
 
-- [x] Seleziona **Disabilita UDP privo di proxy** nella [Politica di Gestione IP WebRTC](https://support.brave.com/hc/en-us/articles/360017989132-How-do-I-chaange-my-Privacy-Settings-#webrtc)
-- [ ] Rimuovi la spunta da "Consenti ai siti di verificare i metodi di pagamento salvati**
+- [x] Seleziona **Disabilita UDP senza proxy** nella [Gestione Politca IP WebRTC](https://support.brave.com/hc/en-us/articles/360017989132-How-do-I-chaange-my-Privacy-Settings-#webrtc)
+- [ ] Rimuovi la spunta da "Consenti ai siti di controllare se hai metodi di pagamento salvati**
 - [ ] Rimuovi la spunta da **Gateway IPFS** (1)
-- [x] Seleziona **Chiudi schede all'uscita**
-- [ ] Rimuovi la spunta da **Consenti analisi dei prodotti nel rispetto della privacy (P3A)**
-- [ ] Rimuovi la spunta da **Invia automticamente i rapporti diagnostici**
-- [ ] Rimuovi la spunta da **Invia automaticamente il ping di utilizzo giornaliero a Brave**
+- [x] Seleziona **Chiudi le schede quando esci**
+- [ ] Rimuovi la spunta da **Acconsenti all'analisi dei prodotti di tutela della privacy (P3A)**
+- [ ] Rimuovi la spunta da **Invia automaticamente i rapporti di diagnostica**
+- [ ] Rimuovi la spunta da **Invia automaticamente un ping di utilizzo giornaliero a Brave**
 
 </div>
 
-1. Il File di Sistema Interplanetario (IPFS) è una rete decentralizzata e tra pari per memorizzare e condividere i dati in un file di sistema distribuito. A meno che tu non utilizzi questa funziona, disabilitala.
+1. L'InterPlanetary File System (IPFS) è una rete peer-to-peer e decentralizzata, utilizzata per archiviare e condividere dati in un filesystem distribuito. A meno che tu non utilizzi questa funziona, disabilitala.
 
 #### Brave Sync
 

@@ -26,7 +26,7 @@ Il nodo d'accesso, spesso detto nodo di guardia, è il primo nodo cui si connett
 
 A differenza degli altri nodi, il client di Tor selezionerà casualmente un nodo d'accesso, utilizzandolo per due o tre mesi, per proteggerti da certi attacchi.[^1]
 
-### Il Nodo Intermedio
+### Il nodo centrale
 
 Il nodo intermedio è il secondo nodo cui si connette il tuo client di Tor. Può visualizzare da quale nodo proviene il traffico (il nodo d'accesso) e a quale nodo andrà in seguito. Il nodo intermedio non può visualizzare l'indirizzo IP o il dominio cui ti stai connettendo.
 
@@ -83,7 +83,7 @@ Se desideri utilizzare Tor per navigare sul web, consigliamo soltanto il Tor Bro
 
 - [Tor Browser :material-arrow-right-drop-circle:](../tor.md#tor-browser)
 
-## Ulteriori Risorse
+## Risorse aggiuntive
 
 - [Manuale Utente del Tor Browser](https://tb-manual.torproject.org)
 - [Come funziona Tor - Computerphile](https://invidious.privacyguides.net/embed/QRYzre4bf7I?local=true) <small>(YouTube)</small>

@@ -239,8 +239,9 @@ De opties van Shields kunnen naar behoefte per site worden gedowngrade, maar sta
     ??? warning "Gebruik standaard filter lijsten"
         Brave staat je toe om extra inhoud filters te selecteren binnen de interne `brave://adblock` pagina. Wij raden het gebruik van deze functie af; houd in plaats daarvan de standaardfilterlijsten aan. Het gebruik van extra lijsten zorgt ervoor dat u zich onderscheidt van andere Brave gebruikers en kan ook het aanvalsoppervlak vergroten als er een exploit in Brave is en een kwaadaardige regel wordt toegevoegd aan één van de lijsten die je gebruikt.
 
-- [x] (Optioneel) Selecteer **Blokkeer scripts** (1)
-- [x] Selecteer **Strikt, kan websites doen stukgaan** onder Fingerprinting blokkeren
+- [x] Select **Strict** under **Upgrade connections to HTTPS**
+- [x] (Optional) Select **Block Scripts** (1)
+- [x] Select **Strict, may break sites** under Block fingerprinting
 
 </div>
 
@@ -254,13 +255,12 @@ De opties van Shields kunnen naar behoefte per site worden gedowngrade, maar sta
 
 <div class="annotate" markdown>
 
-- [x] Selecteer **Deactiveer non-proxied UDP** onder [WebRTC IP-verwerkingsbeleid](https://support.brave.com/hc/nl-us/articles/360017989132-How-do-I-change-my-Privacy-Settings-#webrtc)
-- [ ] Zet **Google-diensten gebruiken voor pushberichten** uit
-- [ ] Zet **Productanalyse met privacybescherming (P3A) toestaan** uit
-- [ ] Zet **Dagelijks automatisch gebruiksping verzenden naar Brave** uit
-- [ ] Zet **Diagnostische rapporten automatisch verzenden** uit
-- [x] Selecteer **Altijd beveiligde verbindingen gebruiken** onder het menu **Beveiliging**
-- [ ] Zet **Privéscherm met Tor** uit (1)
+- [x] Select **Disable non-proxied UDP** under [WebRTC IP Handling Policy](https://support.brave.com/hc/en-us/articles/360017989132-How-do-I-change-my-Privacy-Settings-#webrtc)
+- [ ] Uncheck **Use Google services for push messaging**
+- [ ] Uncheck **Allow privacy-preserving product analytics (P3A)**
+- [ ] Uncheck **Automatically send daily usage ping to Brave**
+- [ ] Uncheck **Automatically send diagnostic reports**
+- [ ] Uncheck **Private window with Tor** (1)
 
     !!! tip "Saneren bij sluiten"
 

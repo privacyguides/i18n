@@ -43,13 +43,13 @@ cover: notebooks.png
     
     **Notesnook** is a free (as in speech) & open-source note-taking app focused on user privacy & ease of use. It features end-to-end encryption on all platforms with a powerful sync to take your notes on the go. You can easily import your notes from Evernote, OneNote & a lot of other apps using their [official importer](https://importer.notesnook.com/).
     
-    [:octicons-home-16: Homepage](https://notesnook.com/){ .md-button .md-button--primary }
-    [:octicons-eye-16:](https://notesnook.com/privacy){ .card-link title="Privacy Policy" }
-    [:octicons-info-16:](https://help.notesnook.com/){ .card-link title=Documentation}
-    [:octicons-code-16:](https://github.com/streetwriters/notesnook){ .card-link title="Source Code" }
-    [:octicons-heart-16:](https://github.com/streetwriters/notesnook/blob/master/CONTRIBUTING.md){ .card-link title=Contribute }
+    [:octicons-home-16: 홈페이지](https://notesnook.com/){ .md-button .md-button--primary }
+    [:octicons-eye-16:](https://notesnook.com/privacy){ .card-link title="프라이버시 책" }
+    [:octicons-info-16:](https://help.notesnook.com/){ .card-link title=문서}
+    [:octicons-code-16:](https://github.com/streetwriters/notesnook){ .card-link title="소스 코드" }
+    [:octicons-heart-16:](https://github.com/streetwriters/notesnook/blob/master/CONTRIBUTING.md){ .card-link title=기여 }
     
-    ??? downloads
+    ??? downloads "다운로드"
     
         - [:simple-googleplay: Google Play](https://play.google.com/store/apps/details?id=com.streetwriters.notesnook)
         - [:simple-appstore: App Store](https://apps.apple.com/us/app/notesnook-take-private-notes/id1544027013)
@@ -87,7 +87,7 @@ Notesnook does not support password/PIN protection on the web & desktop apps. Ho
         - [:simple-firefoxbrowser: Firefox](https://addons.mozilla.org/firefox/addon/joplin-web-clipper/)
         - [:simple-googlechrome: Chrome](https://chrome.google.com/webstore/detail/joplin-web-clipper/alofnhikmmkdbbbgpnglcpdollgjjfek)
 
-Joplin은 [개별 노트 및 노트북이나 애플리케이션 자체에](https://github.com/laurent22/joplin/issues/289)에 비밀번호/PIN 보호를 설정할 수 있는 기능을 지원하지 않습니다. 전송 과정 및 동기화 서버에서는 마스터 키로 여러분의 데이터가 암호화됩니다. Joplin은 2023년 1월부터 [Android](https://joplinapp.org/changelog_android/#android-v2-10-3-https-github-com-laurent22-joplin-releases-tag-android-v2-10-3-pre-release-2023-01-05t11-29-06z), [iOS](https://joplinapp.org/changelog_ios/#ios-v12-10-2-https-github-com-laurent22-joplin-releases-tag-ios-v12-10-2-2023-01-20t17-41-13z)에서 생체 인식 앱 잠금을 지원합니다.
+Joplin은 [개별 노트 및 노트북이나 애플리케이션 자체](https://github.com/laurent22/joplin/issues/289)에 비밀번호/PIN 보호를 설정할 수 있는 기능을 지원하지 않습니다. 전송 과정 및 동기화 서버에서는 마스터 키로 여러분의 데이터가 암호화됩니다. Joplin은 2023년 1월부터 [Android](https://joplinapp.org/changelog_android/#android-v2-10-3-https-github-com-laurent22-joplin-releases-tag-android-v2-10-3-pre-release-2023-01-05t11-29-06z), [iOS](https://joplinapp.org/changelog_ios/#ios-v12-10-2-https-github-com-laurent22-joplin-releases-tag-ios-v12-10-2-2023-01-20t17-41-13z)에서 생체 인식 앱 잠금을 지원합니다.
 
 ### Cryptee
 

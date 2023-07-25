@@ -239,8 +239,9 @@ Les options Shields peuvent être réduites par site selon les besoins, mais par
     ??? warning "Utiliser les listes de filtres par défaut"
         Brave vous permet de sélectionner des filtres de contenu supplémentaires dans la page interne `brave://adblock`. Nous vous déconseillons d'utiliser cette fonctionnalité ; conservez plutôt les listes de filtres par défaut. L'utilisation de listes supplémentaires vous distinguera des autres utilisateurs de Brave et peut également augmenter la surface d'attaque s'il y a une faille dans Brave et qu'une règle malveillante est ajoutée à l'une des listes que vous utilisez.
 
+- [x] Sélectionnez **Strict** sous **Mise à niveau des connexions vers HTTPS**
 - [x] (Facultatif) Sélectionnez **Bloquer les scripts** (1)
-- [x] Sélectionnez **Strict, peut casser les sites** sous Bloquer la capture d'empreinte numérique
+- [x] Sélectionnez **Strict, peut endommager les sites** sous Bloquer les empreintes digitales
 
 </div>
 
@@ -254,11 +255,11 @@ Les options Shields peuvent être réduites par site selon les besoins, mais par
 
 <div class="annotate" markdown>
 
-- [x] Sélectionnez **Désactiver l'UDP pas en proxy** sous [Politique de gestion  des adresses IP WebRTC](https://support.brave.com/hc/en-us/articles/360017989132-How-do-I-change-my-Privacy-Settings-#webrtc)
+- [x] Sélectionnez **Désactiver les UDP sans proxy** sous [WebRTC IP Handling Policy](https://support.brave.com/hc/en-us/articles/360017989132-How-do-I-change-my-Privacy-Settings-#webrtc)
 - [ ] Décochez **Utiliser les services Google pour la messagerie push**
-- [ ] Décochez **Autoriser l'analyse de produits respectueuse de la vie privée (P3A)**
-- [ ] Décochez **Envoyer automatiquement un signal d'utilisation quotidienne à Brave**
-- [x] Sélectionnez **Toujours utiliser une connexion sécurisée** dans le menu **Sécurité**
+- [ ] Décochez **Autoriser les analyses de produits préservant la vie privée (P3A)**
+- [ ] Décochez **Envoyer automatiquement un ping quotidien d'utilisation à Brave**
+- [ ] Décochez **Envoyer automatiquement des rapports de diagnostic**
 - [ ] Décochez **Fenêtre privée avec Tor** (1)
 
     !!! tip "Nettoyer à la fermeture"

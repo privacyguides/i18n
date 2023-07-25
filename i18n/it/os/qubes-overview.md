@@ -45,7 +45,7 @@ Per copiare e incollare file e directory (cartelle) da una macchina virtuale all
 
 Il [quadro qrexec](https://www.qubes-os.org/doc/qrexec/) è una parte fondamentale di Qubes, che consente la comunicazione tra i domini delle macchine virtuali. Si basa sulla libreria di Xen *vchan*, che facilita l'[isolamento tramite politiche](https://www.qubes-os.org/news/2020/06/22/new-qrexec-policy-system/).
 
-## Ulteriori Risorse
+## Risorse aggiuntive
 
 Per ulteriori informazioni si consiglia di consultare le ampie pagine di documentazione di Qubes OS presenti sul [sito web di Qubes OS](https://www.qubes-os.org/doc/). Le copie offline sono scaricabili dalla [repository della documentazione](https://github.com/QubesOS/qubes-doc) di Qubes OS.
 

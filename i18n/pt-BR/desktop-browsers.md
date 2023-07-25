@@ -239,8 +239,9 @@ As opções do Shields podem ser reduzidas para cada site caso necessário, mas 
 ???? alerta "Use as listas de filtro padrão"
         O Brave permite que você acrescente listas adicionais de filtro através da página interna `brave://adblock`. Nós não aconselhamos a utilizar essa ferramenta; ao invés disso, mantenha as listas de filtro padrão. A utilização de listas extra fará com que se destaque dos outros usuários do Brave e pode também aumentar a superfície de ataque se houver uma vulnerabilidade no Brave e uma regra maliciosa for adicionada a uma das listas que utiliza.
 
-- [x] (Opcional) Selecione **Bloquear scripts** (1)
-- [x] Selecione **Restrito, pode quebrar sites** em Bloquear impressões digitais
+- [x] Select **Strict** under **Upgrade connections to HTTPS**
+- [x] (Optional) Select **Block Scripts** (1)
+- [x] Select **Strict, may break sites** under Block fingerprinting
 
 </div>
 
@@ -254,13 +255,12 @@ As opções do Shields podem ser reduzidas para cada site caso necessário, mas 
 
 <div class="annotate" markdown>
 
-- [x] Selecione **Desativar UDP não-proxy** em [Política de manuseio de IP do WebRTC] (https://support.brave.com/hc/en-us/articles/360017989132-How-do-I-change-my-Privacy-Settings-#webrtc)
-- [ ] Desmarque **Use os serviços do Google para receber mensagens push**
-- [ ] Desmarque **Permitir a análise de produtos com preservação da privacidade (P3A)**
-- [ ]Desmarque **Enviar automaticamente um ping diário de uso ao Brave**
-- [ ] Desmarque **Enviar relatórios de diagnóstico automaticamente**
-- [x] Selecione **Sempre usar conexões seguras** no menu **Segurança**
-- [ ] Desmarque **Janela privada com Tor** (1)
+- [x] Select **Disable non-proxied UDP** under [WebRTC IP Handling Policy](https://support.brave.com/hc/en-us/articles/360017989132-How-do-I-change-my-Privacy-Settings-#webrtc)
+- [ ] Uncheck **Use Google services for push messaging**
+- [ ] Uncheck **Allow privacy-preserving product analytics (P3A)**
+- [ ] Uncheck **Automatically send daily usage ping to Brave**
+- [ ] Uncheck **Automatically send diagnostic reports**
+- [ ] Uncheck **Private window with Tor** (1)
 
     !!! dica "Sanitizar ao fechar"
 

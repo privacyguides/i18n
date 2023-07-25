@@ -138,13 +138,13 @@ Le funzionalità di suggerimento di ricerca potrebbero non essere disponibili ne
 
 I suggerimenti di ricerca inviano qualsiasi cosa tu digiti nella barra degli indirizzi al motore di ricerca predefinito, indipendentemente dal fatto che tu invii una ricerca effettiva. Disabilitare i suggerimenti di ricerca ti consente di controllare più precisamente quali dati invii al fornitore del tuo motore di ricerca.
 
-#### Privacy & Sicurezza
+#### Privacy e sicurezza
 
-##### Protezione Avanzata da Tracciamento
+##### Protezione antitracciamento avanzata
 
 - [x] Seleziona Protezione antitracciamento avanzata **Restrittiva**
 
-Questo ti protegge bloccando i tracciatori dei social, gli script di fingerprinting (nota che non ti protegge da *tutto* il fingerprinting), cryptominer, cookie di tracciamento dei tra siti e alcuni altri contenuti di tracciamento. ETP protegge da molte minacce comuni, ma non blocca tutte le vie di tracciamento, poiché è progettata per avere un impatto minimo o zero sull'utilizzabilità del sito.
+Questo ti protegge bloccando i tracciatori dei social, gli script di fingerprinting (nota che non ti protegge da *tutto* il fingerprinting), cryptominer, cookie di tracciamento dei tra siti e alcuni altri contenuti di tracciamento. La Protezione antitracciamento avanzata protegge da molte minacce comuni, ma non blocca tutte le vie di tracciamento, poiché è progettata per avere un impatto minimo o zero sull'utilizzabilità del sito.
 
 ##### Firefox Suggest (solo USA)
 
@@ -157,7 +157,7 @@ Questo ti protegge bloccando i tracciatori dei social, gli script di fingerprint
 
 Se desideri mantenere la connessione a siti in particolare, puoi consentire le eccezioni in **Cookie e Dati dei Siti** → **Gestisci Eccezioni...**
 
-- [x] Seleziona **Elimina cookie e dati dei siti web alla chiusura di Firefox**
+- [x] Spunta **Elimina cookie e dati dei siti web alla chiusura di Firefox**
 
 Ciò ti protegge dai cookie persistenti, ma non dai cookie acquisiti durante qualsiasi singola sessione di navigazione. Quando tale opzione è abilitata, diventa possibile pulire facilmente i cookie del tuo browser, semplicemente riavviando Firefox. Puoi impostare delle eccezioni a seconda del sito, se desideri rimanere connesso a un sito in particolare, che visiti spesso.
 
@@ -169,7 +169,7 @@ Ciò ti protegge dai cookie persistenti, ma non dai cookie acquisiti durante qua
 
 > Firefox ci invia i dati sulla tua versione e lingua di Firefox; sistema operativo del dispositivo e configurazione hardware; memoria, informazioni essenziali su arresti anomali ed errori; risultati di processi automatizzati quali aggiornamenti, navigazione sicura e attivazione. Quando Firefox ci invia i dati, il tuo indirizzo IP è raccolto temporaneamente come parte dei registri del nostro server.
 
-Inoltre, il servizio Profili di Firefox raccoglie [dei dati tecnici](https://www.mozilla.org/en-US/privacy/firefox/#firefox-accounts). Se utilizzi un Profilo di Firefox, puoi disattivarlo:
+Inoltre, il servizio Firefox Accounts raccoglie [alcuni dati tecnici](https://www.mozilla.org/en-US/privacy/firefox/#firefox-accounts). Se utilizzi un Profilo di Firefox, puoi disattivarlo:
 
 1. Apri le [impostazioni del tuo profilo su accounts.firefox.com](https://accounts.firefox.com/settings#data-collection)
 2. Deseleziona ** Raccolta e utilizzo dati ** > **Aiutaci a migliorare gli ⁨account Firefox⁩**
@@ -239,8 +239,9 @@ Le opzioni di Shields sono riducibili a seconda del sito, come necessario ma, di
     ??? attenzione "Utilizza elenchi di filtraggio predefiniti"
         Brave ti consente di selezionare ulteriori filtri dei contenuti sulla pagina interna `brave://adblock`. Sconsigliamo questa funzionalità; piuttosto, mantieni gli elenchi di filtri predefiniti. Utilzzare ulteriori elenchi ti distinguerà dagli altri utenti di Brave e potrebbe inoltre incrementare la superficie di attacco, se è presente un exploit su Brave e una regola dannosa viene aggiunta a uno degli elenchi che utilizzi.
 
-- [x] (Facoltativo) Seleziona **Blocca Script** (1)
-- [x] Seleziona **Ristrettiva, potrebbe corrompere alcuni siti** in Blocca fingerprinting
+- [x] Seleziona **Restrittivo** in **Aggiorna le connessioni a HTTPS**
+- [x] (Opzionale) Seleziona **Blocco degli script** (1)
+- [x] Seleziona **Rigido, potrebbe non far funzionare alcuni siti** in Blocca il fingerprinting
 
 </div>
 
@@ -254,13 +255,12 @@ Le opzioni di Shields sono riducibili a seconda del sito, come necessario ma, di
 
 <div class="annotate" markdown>
 
-- [x] Seleziona **Disabilita UDP senza proxy** in [Gestione politica IP WebRTC IP](https://support.brave.com/hc/en-us/articles/360017989132-How-do-I-change-my-Privacy-Settings-#webrtc)
-- [ ] Disabilita **Utilizza i servizzi Google per  la messaggistica push**
-- [ ] Disabilita **Acconsenti all'analisi dei prodotti di tutel della privacy (P3A)**
-- [ ] Disabilita **Invia automaticamente un ping di utilizzo giornaliero a Brave**
-- [ ] Disabilita **Invia automaticamente i rapporti di diagnostica**
-- [x] Seleziona **Utilizza sempre connessioni sicure** nel menu **Sicurezza** 
-- [ ] Disabilita **Finestra in Incognito con Tor** (1)
+- [x] Seleziona **Disabilita UDP senza proxy** in [Gestione politica IP WebRTC](https://support.brave.com/hc/en-us/articles/360017989132-How-do-I-change-my-Privacy-Settings-#webrtc)
+- [ ] Rimuovi la spunta da **Utilizza i servizi Google per la messaggistica push**
+- [ ] Rimuovi la spunta da **Acconsenti all'analisi dei prodotti di tutela della privacy (P3A).**
+- [ ] Rimuovi la spunta da **Invia automaticamente un ping di utilizzo giornaliero a Brave**
+- [ ] Rimuovi la spunta da **Invia automaticamente i rapporti di diagnostica**
+- [ ] Rimuovi la spunta da **Finestra in Incognito con Tor** (1)
 
     !!! tip "Pulizia alla chiusura"
 
@@ -305,7 +305,7 @@ Imposta **Wallet Ethereum predefinito** su **Estensioni (nessun backup)** Impost
 
 **Brave Wallet** opera localmente sul tuo computer, ma non supporta alcuna criptovaluta privata, quindi, scoraggiamo l'utilizzo di questa funzione.
 
-## Ulteriori Risorse
+## Risorse Aggiuntive
 
 In generale, consigliamo di mantenere al minimo le estensioni del tuo browser per ridurre la tua superficie di attacco; hanno un accesso privilegiato sul tuo browser, ti richiedono di fidarti dello svilupptore, possono [distinguerti](https://en.wikipedia.org/wiki/Device_fingerprint#Browser_fingerprint) e [indebolire](https://groups.google.com/a/chromium.org/g/chromium-extensions/c/0ei-UCHNm34/m/lDaXwQhzBAAJ) l'isolamento del sito. Tuttavia, uBlock Origin potrebbe rivelarsi utile se apprezzi la funzionalità di blocco dei contenuti.
 

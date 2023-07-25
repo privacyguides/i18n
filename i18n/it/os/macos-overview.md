@@ -90,7 +90,7 @@ Clicca sulla piccola icona :material-information-outline:, affianco ad **Aggiorn
 
 - [x] Spunta **Installa Risposte di Sicurezza e file di sistema**
 
-#### Privacy & Sicurezza
+#### Privacy e sicurezza
 
 Ogni volta che un'applicazione richiede un'autorizzazione, apparirà qui. Puoi decidere a quali applicazioni desideri consentire o negare dei permessi specifici.
 
