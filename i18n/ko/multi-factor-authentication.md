@@ -5,7 +5,7 @@ description: These tools assist you with securing your internet accounts with Mu
 cover: multi-factor-authentication.png
 ---
 
-## Hardware Security Keys
+## 하드웨어 보안 키
 
 ### YubiKey
 
@@ -13,7 +13,7 @@ cover: multi-factor-authentication.png
 
     ![YubiKeys](assets/img/multi-factor-authentication/yubikey.png)
     
-    The **YubiKeys** are among the most popular security keys. Some YubiKey models have a wide range of features such as: [Universal 2nd Factor (U2F)](https://en.wikipedia.org/wiki/Universal_2nd_Factor), [FIDO2 and WebAuthn](basics/multi-factor-authentication.md#fido-fast-identity-online), [Yubico OTP](basics/multi-factor-authentication.md#yubico-otp), [Personal Identity Verification (PIV)](https://developers.yubico.com/PIV), [OpenPGP](https://developers.yubico.com/PGP/), [TOTP and HOTP](https://developers.yubico.com/OATH) authentication.
+    The **YubiKeys** are among the most popular security keys. YubiKey는 모델에 따라 [U2F(Universal 2nd Factor)](https://en.wikipedia.org/wiki/Universal_2nd_Factor), [FIDO2 및 WebAuthn](basics/multi-factor-authentication.md#fido-fast-identity-online), [Yubico OTP](basics/multi-factor-authentication.md#yubico-otp), [PIV(Personal Identity Verification)](https://developers.yubico.com/PIV), [OpenPGP](https://developers.yubico.com/PGP/), [TOTP 및 HOTP](https://developers.yubico.com/OATH) 인증 등의 기능을 제공합니다.
     
     One of the benefits of the YubiKey is that one key can do almost everything (YubiKey 5), you could expect from a hardware security key. We do encourage you to take the [quiz](https://www.yubico.com/quiz/) before purchasing in order to make sure you make the right choice.
     
@@ -21,9 +21,9 @@ cover: multi-factor-authentication.png
     [:octicons-eye-16:](https://www.yubico.com/support/terms-conditions/privacy-notice){ .card-link title="프라이버시 정책" }
     [:octicons-info-16:](https://docs.yubico.com/){ .card-link title=문서}
 
-The [comparison table](https://www.yubico.com/store/compare/) shows the features and how the YubiKeys compare. We highly recommend that you select keys from the YubiKey 5 Series.
+여러 YubiKey 모델 간 기능 비교는 [YubiKey 비교 표](https://www.yubico.com/store/compare/)에서 확인하실 수 있습니다. Privacy Guides에서는 YubiKey 5 시리즈를 사용하실 것을 권장드립니다.
 
-YubiKeys can be programmed using the [YubiKey Manager](https://www.yubico.com/support/download/yubikey-manager/) or [YubiKey Personalization Tools](https://www.yubico.com/support/download/yubikey-personalization-tools/). For managing TOTP codes, you can use the [Yubico Authenticator](https://www.yubico.com/products/yubico-authenticator/). All of Yubico's clients are open-source.
+YubiKeys can be programmed using the [YubiKey Manager](https://www.yubico.com/support/download/yubikey-manager/) or [YubiKey Personalization Tools](https://www.yubico.com/support/download/yubikey-personalization-tools/). For managing TOTP codes, you can use the [Yubico Authenticator](https://www.yubico.com/products/yubico-authenticator/). Yubico에서 제공하는 클라이언트는 모두 오픈 소스입니다.
 
 For models which support HOTP and TOTP, there are 2 slots in the OTP interface which could be used for HOTP and 32 slots to store TOTP secrets. These secrets are stored encrypted on the key and never expose them to the devices they are plugged into. Once a seed (shared secret) is given to the Yubico Authenticator, it will only give out the six-digit codes, but never the seed. This security model helps limit what an attacker can do if they compromise one of the devices running the Yubico Authenticator and make the YubiKey resistant to a physical attacker.
 

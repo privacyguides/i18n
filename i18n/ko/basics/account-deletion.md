@@ -23,7 +23,7 @@ description: 온라인 계정은 어느새 잔뜩 쌓여 있기 마련입니다.
 - Windows [자격 증명 관리자](https://support.microsoft.com/en-us/windows/accessing-credential-manager-1b5c916a-6a16-889f-8581-fc16e8165ac0)
 - macOS [암호](https://support.apple.com/en-us/HT211145)
 - iOS [암호](https://support.apple.com/en-us/HT211146)
-- Linux, Gnome Keyring, which can be accessed through [Seahorse](https://wiki.gnome.org/Apps/Seahorse) or [KDE Wallet Manager](https://userbase.kde.org/KDE_Wallet_Manager)
+- Linux Gnome Keyring ([Seahorse](https://wiki.gnome.org/Apps/Seahorse), [KDE Wallet Manager](https://userbase.kde.org/KDE_Wallet_Manager)로 사용 가능)
 
 ### 이메일
 

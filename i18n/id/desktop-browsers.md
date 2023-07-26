@@ -1,14 +1,14 @@
 ---
-meta_title: "Privacy Respecting Web Browsers for PC and Mac - Privacy Guides"
-title: "Desktop Browsers"
+meta_title: "Browser Web yang Menghargai Privasi untuk PC dan Mac - Privacy Guides"
+title: "Browser Dekstop"
 icon: material/laptop
-description: These web browsers provide stronger privacy protections than Google Chrome.
+description: Browser web ini memberikan perlindungan privasi yang lebih kuat daripada Google Chrome.
 cover: desktop-browsers.png
 schema:
   - 
     "@context": http://schema.org
     "@type": WebPage
-    name: Private Desktop Browser Recommendations
+    name: Rekomendasi Browser Desktop Pribadi
     url: "./"
     relatedLink: "../mobile-browsers/"
   - 
@@ -57,9 +57,9 @@ schema:
       url: "./"
 ---
 
-These are our currently recommended desktop web browsers and configurations for standard/non-anonymous browsing. We recommend [Mullvad Browser](#mullvad-browser) if you are focused on strong privacy protections and anti-fingerprinting out of the box, [Firefox](#firefox) for casual internet browsers looking for a good alternative to Google Chrome, and [Brave](#brave) if you need Chromium browser compatibility.
+Berikut ini adalah browser web desktop yang kami rekomendasikan saat ini beserta dengan konfigurasi untuk penjelajahan standar/non-anonim. Kami merekomendasikan [Mullvad Browser](#mullvad-browser) jika Anda berfokus pada perlindungan privasi yang kuat dan anti-fingerprinting otomatis, [Firefox](#firefox) bagi para penjelajah internet biasa yang mencari alternatif baik untuk Google Chrome, dan [Brave](#brave) jika Anda membutuhkan kompabilitas browser Chromium.
 
-If you need to browse the internet anonymously, you should use [Tor](tor.md) instead. We make some configuration recommendations on this page, but all browsers other than Tor Browser will be traceable by *somebody* in some manner or another.
+Jika Anda perlu menjelajah internet secara anonim, Anda sebaiknya menggunakan [Tor](tor.md) sebagai gantinya. Kami memberikan beberapa rekomendasi konfigurasi pada halaman ini, tetapi semua browser selain Peramban Tor akan dapat dilacak oleh * seseorang* dengan satu cara atau cara lain.
 
 ## Mullvad Browser
 
@@ -67,12 +67,12 @@ If you need to browse the internet anonymously, you should use [Tor](tor.md) ins
 
     ![Mullvad Browser logo](assets/img/browsers/mullvad_browser.svg){ align=right }
     
-    **Mullvad Browser** is a version of [Tor Browser](tor.md#tor-browser) with Tor network integrations removed, aimed at providing Tor Browser's anti-fingerprinting browser technologies to VPN users. It is developed by the Tor Project and distributed by [Mullvad](vpn.md#mullvad), and does **not** require the use of Mullvad's VPN.
+    **Mullvad Browser** adalah versi dari [Tor Browser](tor.md#tor-browser) dengan integrasi jaringan Tor yang telah dihilangkan. Mullvad Browser bertujuan untuk menyediakan teknologi peramban anti-fingerprinting yang ada di Peramban Tor kepada pengguna VPN. It is developed by the Tor Project and distributed by [Mullvad](vpn.md#mullvad), and does **not** require the use of Mullvad's VPN.
     
     [:octicons-home-16: Homepage](https://mullvad.net/en/browser){ .md-button .md-button--primary }
     [:octicons-eye-16:](https://mullvad.net/en/help/privacy-policy/){ .card-link title="Privacy Policy" }
     [:octicons-info-16:](https://mullvad.net/en/help/tag/mullvad-browser/){ .card-link title=Documentation}
-    [:octicons-code-16:](https://gitlab.torproject.org/tpo/applications/mullvad-browser){ .card-link title="Source Code" }
+    [:octicons-code-16:](https://gitlab.torproject.org/tpo/applications/mullvad-browser){ .card-link title="Kode Sumber" }
     
     ??? downloads
     
@@ -80,27 +80,27 @@ If you need to browse the internet anonymously, you should use [Tor](tor.md) ins
         - [:simple-apple: macOS](https://mullvad.net/en/download/browser/macos)
         - [:simple-linux: Linux](https://mullvad.net/en/download/browser/linux)
 
-Like [Tor Browser](tor.md), Mullvad Browser is designed to prevent fingerprinting by making your browser fingerprint identical to all other Mullvad Browser users, and it includes default settings and extensions that are automatically configured by the default security levels: *Standard*, *Safer* and *Safest*. Therefore, it is imperative that you do not modify the browser at all outside adjusting the default [security levels](https://tb-manual.torproject.org/security-settings/). Other modifications would make your fingerprint unique, defeating the purpose of using this browser. If you want to configure your browser more heavily and fingerprinting is not a concern for you, we recommend [Firefox](#firefox) instead.
+Seperti [Tor Browser](tor.md), Mullvad Browser dirancang untuk mencegah fingerprinting dengan membuat fingerprint di browser Anda identik dengan semua pengguna Mullvad Browser lainnya, serta mencakup pengaturan default dan ekstensi yang secara otomatis dikonfigurasi oleh tingkat keamanan default seperti: *Standar*, *Lebih Aman* dan *Paling Aman*. Oleh karena itu, sangat penting bagi Anda untuk tidak memodifikasi pengaturan browser sama sekali kecuali penyesuaian [tingkat keamanan](https://tb-manual.torproject.org/security-settings/). Melakukan modifikasi akan membuat fingerprint pada browser ini menjadi unik, sehingga mengubah tujuan penggunaan dari browser ini. Jika Anda ingin merubah pengaturan browser Anda dengan sesuai dengan keinginan Anda dan fingerprint bukan menjadi masalah bagi Anda, kami sarankan untuk menggunakan [Firefox](#firefox) sebagai gantinya.
 
 ### Anti-Fingerprinting
 
-**Without** using a [VPN](vpn.md), Mullvad Browser provides the same protections against [naive fingerprinting scripts](https://github.com/arkenfox/user.js/wiki/3.3-Overrides-%5BTo-RFP-or-Not%5D#-fingerprinting) as other private browsers like Firefox+[Arkenfox](#arkenfox-advanced) or [Brave](#brave). Mullvad Browser provides these protections out of the box, at the expense of some flexibility and convenience that other private browsers can provide.
+**Tanpa** menggunakan [VPN](vpn.md), Mullvad Browser memberikan perlindungan yang sama terhadap [skrip pencocokan fingerprint](https://github.com/arkenfox/user.js/wiki/3.3-Overrides-%5BTo-RFP-or-Not%5D#-fingerprinting) seperti browser pribadi lainnya seperti Firefox+[Arkenfox](#arkenfox-advanced) atau [Brave](#brave). Mullvad Browser menyediakan perlindungan tersebut secara bawaan, dengan mengorbankan sedikit fleksibilitas dan kenyamanan yang dapat diberikan oleh browser pribadi lainnya.
 
-==For the strongest anti-fingerprinting protection, we recommend using Mullvad Browser in conjunction **with** a VPN==, whether that is Mullvad or another recommended VPN provider. When using a VPN with Mullvad Browser, you will share a fingerprint and a pool of IP addresses with many other users, giving you a "crowd" to blend in with. This strategy is the only way to thwart advanced tracking scripts, and is the same anti-fingerprinting technique used by Tor Browser.
+==Untuk perlindungan anti-fingerprinting yang paling kuat, kami sarankan untuk menggunakan Mullvad Browser bersama **dengan** VPN==, baik itu Mullvad atau penyedia VPN lain yang direkomendasikan. Saat menggunakan VPN dengan Mullvad Browser, Anda akan berbagi fingerprint dan alamat IP dengan pengguna lain, memberikan Anda "kerumunan" untuk berbaur. Strategi ini merupakan satu-satunya cara untuk menggagalkan skrip pelacakan tingkat lanjut, dan merupakan teknik anti-fingerprinting yang sama dengan yang digunakan oleh Tor Browser.
 
-Note that while you can use Mullvad Browser with any VPN provider, other people on that VPN must also be using Mullvad Browser for this "crowd" to exist, something which is more likely on Mullvad VPN compared to other providers, particularly this close to the launch of Mullvad Browser. Mullvad Browser does not have built-in VPN connectivity, nor does it check whether you are using a VPN before browsing; your VPN connection has to be configured and managed separately.
+Perlu dicatat bahwa meskipun Anda dapat menggunakan Mullvad Browser dengan penyedia VPN mana pun, orang lain dalam VPN tersebut juga harus menggunakan Mullvad Browser agar "kerumunan" ini terbentuk, hal ini lebih mungkin terjadi pada Mullvad VPN dibandingkan dengan penyedia lainnya, terutama menjelang peluncuran Mullvad Browser. Mullvad Browser tidak memiliki konektivitas VPN bawaan, dan juga tidak memeriksa apakah Anda menggunakan VPN sebelum menjelajah; koneksi VPN Anda harus dikonfigurasikan dan dikelola secara terpisah.
 
-Mullvad Browser comes with the *uBlock Origin* and *NoScript* browser extensions pre-installed. While we typically [don't recommend](#extensions) adding *additional* browser extensions, these extensions that come pre-installed with the browser should **not** be removed or configured outside their default values, because doing so would noticeably make your browser fingerprint distinct from other Mullvad Browser users. It also comes pre-installed with the Mullvad Browser Extension, which *can* be safely removed without impacting your browser fingerprint if you would like, but is also safe to keep even if you don't use Mullvad VPN.
+Mullvad Browser hadir dengan *uBlock Origin* dan *NoScript* ekstensi browser yang sudah terpasang. Meskipun biasanya kami [tidak merekomendasikan](#extensions) menambahkan ekstensi browser *tambahan*, ekstensi-ekstensi yang telah terpasang dengan browser ini sebaiknya **tidak** dihapus atau dikonfigurasi di luar nilai-nilai defaultnya. Karena jika dilakukan, hal tersebut akan membuat fingerprint browser Anda berbeda secara mencolok dari pengguna Mullvad Browser lainnya. Browser ini juga telah terpasang dengan Ekstensi Mullvad Browser, yang *dapat* dihapus dengan aman tanpa mempengaruhi sidik jari peramban Anda jika Anda menginginkannya, tetapi juga aman untuk tetap dipertahankan bahkan jika Anda tidak menggunakan Mullvad VPN.
 
-### Private Browsing Mode
+### Mode Penjelajahan Pribadi
 
-Mullvad Browser operates in permanent private browsing mode, meaning your history, cookies, and other site data will always be cleared every time the browser is closed. Your bookmarks, browser settings, and extension settings will still be preserved.
+Mullvad Browser beroperasi dalam mode penjelajahan pribadi permanen, yang mana riwayat, cookies, dan data situs lainnya akan selalu dihapus setiap kali browser ditutup. Bookmark, pengaturan browser, dan pengaturan ekstensi Anda akan tetap dipertahankan.
 
-This is required to prevent advanced forms of tracking, but does come at the cost of convenience and some Firefox features, such as Multi-Account Containers. Remember you can always use multiple browsers, for example, you could consider using Firefox+Arkenfox for a few sites that you want to stay logged in on or otherwise don't work properly in Mullvad Browser, and Mullvad Browser for general browsing.
+Hal ini diperlukan untuk mencegah bentuk pelacakan tingkat lanjut, tetapi harus mengorbankan kenyamanan dan beberapa fitur Firefox seperti Multi-Account Containers. Ingatlah bahwa Anda selalu dapat menggunakan beberapa browser lain. Misalnya Anda dapat mempertimbangkan untuk menggunakan Firefox+Arkenfox untuk beberapa situs yang ingin Anda tetap masuk atau yang tidak berfungsi dengan baik di Mullvad Browser. Lalu menggunakan Mullvad Browser untuk penjelajahan umum.
 
 ### Mullvad Leta
 
-Mullvad Browser comes with DuckDuckGo set as the default [search engine](search-engines.md), but it also comes preinstalled with **Mullvad Leta**, a search engine which requires an active Mullvad VPN subscription to access. Mullvad Leta queries Google's paid search API directly (which is why it is limited to paying subscribers), however because of this limitation it is possible for Mullvad to correlate search queries and Mullvad VPN accounts. For this reason we discourage the use of Mullvad Leta, even though Mullvad collects very little information about their VPN subscribers.
+Mullvad Browser hadir dengan DuckDuckGo yang ditetapkan sebagai mesin pencari default [](search-engines.md), tetapi juga sudah terinstal dengan **Mullvad Leta**, mesin pencari yang membutuhkan langganan Mullvad VPN yang aktif untuk mengaksesnya. Mullvad Leta menggunakan API pencarian berbayar Google secara langsung (itulah sebabnya mengapa terbatas pada pelanggan berbayar), namun karena keterbatasan ini, Mullvad dapat menghubungkan pencarian dan akun VPN Mullvad. Karena alasan ini kami tidak menyarankan penggunaan Mullvad Leta, meskipun Mullvad mengumpulkan sangat sedikit informasi tentang pelanggan VPN mereka.
 
 ## Firefox
 

@@ -39,9 +39,9 @@ cover: notebooks.png
 
 !!! recommendation
 
-    ![Notesnook logo](assets/img/notebooks/notesnook.svg){ align=right }
+    ![Notesnook 로고](assets/img/notebooks/notesnook.svg){ align=right }
     
-    **Notesnook** is a free (as in speech) & open-source note-taking app focused on user privacy & ease of use. It features end-to-end encryption on all platforms with a powerful sync to take your notes on the go. You can easily import your notes from Evernote, OneNote & a lot of other apps using their [official importer](https://importer.notesnook.com/).
+    **Notesnook**은 노트 작성 앱이며, 자유 오픈 소스 소프트웨어입니다. 사용자의 프라이버시 보호와 사용 편의성에 중점을 두고 있습니다. 모든 플랫폼에서 종단 간 암호화를 지원하고, 강력한 동기화 기능을 제공하여 언제 어디서든 노트를 작성할 수 있습니다. Evernote, OneNote 등 다른 앱으로부터 노트를 가져오는 기능을 [공식적으로 제공합니다](https://importer.notesnook.com/).
     
     [:octicons-home-16: 홈페이지](https://notesnook.com/){ .md-button .md-button--primary }
     [:octicons-eye-16:](https://notesnook.com/privacy){ .card-link title="프라이버시 책" }
@@ -60,7 +60,7 @@ cover: notebooks.png
         - [:simple-firefoxbrowser: Firefox](https://notesnook.com/notesnook-web-clipper/)
         - [:simple-googlechrome: Chrome](https://chrome.google.com/webstore/detail/notesnook-web-clipper/kljhpemdlcnjohmfmkogahelkcidieaj)
 
-Notesnook does not support password/PIN protection on the web & desktop apps. However, you can still lock individual notes, and your data is always encrypted in transit and on your device using your master key.
+Notesnook은 웹 및 데스크톱 앱에서 비밀번호/PIN 보호를 설정할 수 있는 기능을 지원하지 않습니다. 단, 개별 노트 잠금은 지원됩니다. 또한, 기기 및 전송 과정에서 데이터는 항상 암호화되어 있습니다.
 
 ### Joplin
 

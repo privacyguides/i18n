@@ -255,12 +255,12 @@ Brave 브라우저의 [보호](https://support.brave.com/hc/en-us/articles/36002
 
 <div class="annotate" markdown>
 
-- [x] Select **Disable non-proxied UDP** under [WebRTC IP Handling Policy](https://support.brave.com/hc/en-us/articles/360017989132-How-do-I-change-my-Privacy-Settings-#webrtc)
-- [ ] Uncheck **Use Google services for push messaging**
-- [ ] Uncheck **Allow privacy-preserving product analytics (P3A)**
-- [ ] Uncheck **Automatically send daily usage ping to Brave**
-- [ ] Uncheck **Automatically send diagnostic reports**
-- [ ] Uncheck **Private window with Tor** (1)
+- [x] [WebRTC IP 처리 방침](https://support.brave.com/hc/en-us/articles/360017989132-How-do-I-change-my-Privacy-Settings-#webrtc)에서 **프록시가 아닌 UDP 비활성화하기** 선택
+- [ ] **푸시 메시지에 Google 서비스 사용** 비활성화
+- [ ] **프라이버시 보호 제품 분석(P3A) 허용** 비활성화
+- [ ] **일일 사용 Ping을 Brave에 자동으로 보내기** 비활성화
+- [ ] **진단 보고서 자동 전송** 비활성화
+- [ ] **Tor와 함께하는 개인정보 보호 창** 비활성화 (1)
 
     !!! tip "종료 시 데이터 정리"
 

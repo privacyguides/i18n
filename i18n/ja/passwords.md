@@ -1,14 +1,14 @@
 ---
-meta_title: "The Best Password Managers to Protect Your Privacy and Security - Privacy Guides"
+meta_title: "プライバシーとセキュリティーを守る最高のパスワード・マネージャー - プライバシー・ガイド"
 title: "パスワードマネージャ"
 icon: material/form-textbox-password
-description: Password managers allow you to securely store and manage passwords and other credentials.
+description: パスワードマネージャーは、パスワードやその他の情報を安全に保存および管理できます。
 cover: passwords.png
 schema:
   - 
     "@context": http://schema.org
     "@type": WebPage
-    name: Password Manager Recommendations
+    name: 推奨するパスワードマネージャ
     url: "./"
   - 
     "@context": http://schema.org
@@ -16,7 +16,7 @@ schema:
     name: Bitwarden
     image: /assets/img/password-management/bitwarden.svg
     url: https://bitwarden.com
-    sameAs: https://en.wikipedia.org/wiki/Bitwarden
+    sameAs: https://ja.wikipedia.org/wiki/Bitwarden
     applicationCategory: Password Manager
     operatingSystem:
       - Windows

@@ -84,23 +84,23 @@ schema:
 
 ### フィンガープリント対策
 
-**[VPN](vpn.md)**を使用せずとも、MullvadブラウザはFirefox+[Arkenfox](#arkenfox-advanced)や[Brave](#brave)などの他のプライベートブラウザと同様に、[初歩的なフィンガープリントスクリプト](https://github.com/arkenfox/user.js/wiki/3.3-Overrides-%5BTo-RFP-or-Not%5D#-fingerprinting)に対する保護を提供します。 Mullvad Browser provides these protections out of the box, at the expense of some flexibility and convenience that other private browsers can provide.
+**[VPN](vpn.md)**を使用せずとも、MullvadブラウザはFirefox+[Arkenfox](#arkenfox-advanced)や[Brave](#brave)などの他のプライベートブラウザと同様に、[初歩的なフィンガープリントスクリプト](https://github.com/arkenfox/user.js/wiki/3.3-Overrides-%5BTo-RFP-or-Not%5D#-fingerprinting)に対する保護を提供します。 Mullvad Browserは、そのままでこれらの保護機能を提供しますが、その一方で、他のプライベートブラウザが提供できる柔軟性と利便性を犠牲にしています。
 
-==For the strongest anti-fingerprinting protection, we recommend using Mullvad Browser in conjunction **with** a VPN==, whether that is Mullvad or another recommended VPN provider. When using a VPN with Mullvad Browser, you will share a fingerprint and a pool of IP addresses with many other users, giving you a "crowd" to blend in with. This strategy is the only way to thwart advanced tracking scripts, and is the same anti-fingerprinting technique used by Tor Browser.
+==最強のフィンガープリンティング保護を求めるのであれば、Mullvadであろうと他の推奨されるVPNプロバイダであろうと、VPNと**併用**してMullvad Browserを使用することを推奨します==。 VPNをMullvad Browserと併用すると、多数の他のユーザーと同じフィンガープリントとIPアドレスを共有することになり、あなたは"群衆"の中に溶け込むことができます。 この戦略は高度なトラッキングスクリプトを阻止する唯一の方法であり、Torブラウザが使用しているのと同じ対フィンガープリンティング技術です。
 
-Note that while you can use Mullvad Browser with any VPN provider, other people on that VPN must also be using Mullvad Browser for this "crowd" to exist, something which is more likely on Mullvad VPN compared to other providers, particularly this close to the launch of Mullvad Browser. Mullvad Browser does not have built-in VPN connectivity, nor does it check whether you are using a VPN before browsing; your VPN connection has to be configured and managed separately.
+注意してください。Mullvad BrowserはどのVPNプロバイダとも使用することができますが、そのVPNを使用している他のユーザーもMullvad Browserを使用している必要があります。この"群衆"が存在するためには、Mullvad VPNにおいて他のプロバイダよりも特にMullvad Browserのリリース直前において、それがより可能性が高いです。 Mullvad Browserは、組み込みのVPN接続機能がなく、ブラウジングする前にVPNを使用しているかどうかを確認する機能もありません。VPN接続は別途設定し、管理する必要があります。
 
-Mullvad Browser comes with the *uBlock Origin* and *NoScript* browser extensions pre-installed. While we typically [don't recommend](#extensions) adding *additional* browser extensions, these extensions that come pre-installed with the browser should **not** be removed or configured outside their default values, because doing so would noticeably make your browser fingerprint distinct from other Mullvad Browser users. It also comes pre-installed with the Mullvad Browser Extension, which *can* be safely removed without impacting your browser fingerprint if you would like, but is also safe to keep even if you don't use Mullvad VPN.
+Mullvad Browserには、*uBlock Origin*と*NoScript*のブラウザ拡張機能が事前にインストールされています。 通常、*余分な*ブラウザ拡張機能の追加は[推奨していません](#extensions)が、ブラウザに事前にインストールされているこれらの拡張機能は、デフォルトの設定を変更したり削除したりしないでください。それを行うと、あなたのフィンガープリントが他のMullvad Browserユーザーと比べ特有なものになるからです。 また、Mullvad Browser Extensionも事前にインストールされており、必要に応じて安全に削除してもブラウザのフィンガープリントに影響を及ぼしません。Mullvad Vpnを使用しない場合でも保持しておいても安全です。
 
 ### プライベートブラウジングモード
 
-Mullvad Browser operates in permanent private browsing mode, meaning your history, cookies, and other site data will always be cleared every time the browser is closed. Your bookmarks, browser settings, and extension settings will still be preserved.
+Mullvad Browserは常にプライベートブラウジングモードで動作します。つまり、履歴、クッキー、その他のサイトデータはブラウザを閉じるたびに常にクリアされます。 しかし、ブックマーク、ブラウザ設定、拡張機能の設定は保存され続けます。
 
-This is required to prevent advanced forms of tracking, but does come at the cost of convenience and some Firefox features, such as Multi-Account Containers. Remember you can always use multiple browsers, for example, you could consider using Firefox+Arkenfox for a few sites that you want to stay logged in on or otherwise don't work properly in Mullvad Browser, and Mullvad Browser for general browsing.
+これは、高度な形式のトラッキングを防ぐために必要ですが、便利さやFirefoxの一部の機能（例えば、Multi-Account Containersなど）を犠牲にしています。 常に複数のブラウザを使用することができます。例えば、ログインしたままにしたいサイトや、Mullvad Browserでは正しく動作しないサイトについてはFirefox+Arkenfoxを使用し、一般的なブラウジングにはMullvad Browserを使用するといった方法を考えることができます。
 
 ### Mullvad Leta
 
-Mullvad Browser comes with DuckDuckGo set as the default [search engine](search-engines.md), but it also comes preinstalled with **Mullvad Leta**, a search engine which requires an active Mullvad VPN subscription to access. Mullvad Leta queries Google's paid search API directly (which is why it is limited to paying subscribers), however because of this limitation it is possible for Mullvad to correlate search queries and Mullvad VPN accounts. For this reason we discourage the use of Mullvad Leta, even though Mullvad collects very little information about their VPN subscribers.
+Mullvad Browserはデフォルトの[検索エンジン](search-engines.md)としてDuckDuckGoが設定されていますが、Mullvad VPNの有効なサブスクリプションが必要な検索エンジン、**Mullvad Leta**も事前にインストールされています。 Mullvad LetaはGoogleの有料検索APIを直接問い合わせます（そのため、有料加入者に限定されます）。しかし、この制限のため、Mullvadは検索クエリとMullvad VPNのアカウントを相関させることが可能です。 このため、MullvadがVPN加入者について非常に少ない情報しか収集していないにもかかわらず、Mullvad Letaの使用はおすすめしません。
 
 ## Firefox
 
@@ -123,20 +123,20 @@ Mullvad Browser comes with DuckDuckGo set as the default [search engine](search-
         - [:simple-linux: Linux](https://www.mozilla.org/firefox/linux)
         - [:simple-flathub: Flathub](https://flathub.org/apps/details/org.mozilla.firefox)
 
-!!! warning
-    Firefox includes a unique [download token](https://bugzilla.mozilla.org/show_bug.cgi?id=1677497#c0) in downloads from Mozilla's website and uses telemetry in Firefox to send the token. The token is **not** included in releases from the [Mozilla FTP](https://ftp.mozilla.org/pub/firefox/releases/).
+!!! 警告
+FirefoxはMozillaのウェブサイトからのダウンロードにユニークな[ダウンロードトークン](https://bugzilla.mozilla.org/show_bug.cgi?id=1677497#c0)を含み、このトークンを送信するためにFirefox内のテレメトリーを使用します。 このトークンは、[Mozilla FTP](https://ftp.mozilla.org/pub/firefox/releases/)からのリリースには**含まれません**。
 
 ### おすすめの設定
 
-These options can be found in :material-menu: → **Settings**
+これらのオプションは、:material-menu: → **設定**で見つけることができます。
 
 #### 検索
 
 - [ ] **検索候補を使用する**のチェックを外す
 
-Search suggestion features may not be available in your region.
+あなたの地域では検索提案機能の利用はできないかもしれません。
 
-Search suggestions send everything you type in the address bar to the default search engine, regardless of whether you submit an actual search. Disabling search suggestions allows you to more precisely control what data you send to your search engine provider.
+検索提案は、実際に検索を送信するかどうかに関わらず、アドレスバーに入力したすべてのものをデフォルトの検索エンジンに送信します。 検索提案を無効にすることで、あなたが検索エンジンプロバイダに送信するデータをより正確に制御することができます。
 
 #### プライバシーとセキュリティ
 
@@ -144,55 +144,55 @@ Search suggestions send everything you type in the address bar to the default se
 
 - [x] 強化型トラッキング防止機能で**厳格**を選択する
 
-This protects you by blocking social media trackers, fingerprinting scripts (note that this does not protect you from *all* fingerprinting), cryptominers, cross-site tracking cookies, and some other tracking content. ETP protects against many common threats, but it does not block all tracking avenues because it is designed to have minimal to no impact on site usability.
+これにより、ソーシャルメディアのトラッカー、フィンガープリンティングスクリプト（これが*すべての*フィンガープリンティングから保護するわけではないことに注意）、暗号マイナー、クロスサイトのトラッキングクッキー、その他の一部の追跡コンテンツをブロックすることであなたを保護します。 ETPは多くの一般的な脅威に対抗しますが、サイトの利便性にほとんど影響を与えないように設計されているため、すべての追跡経路をブロックするわけではありません。
 
 ##### Firefox Suggest (アメリカのみ)
 
-[Firefox Suggest](https://support.mozilla.org/en-US/kb/firefox-suggest) is a feature similar to search suggestions which is only available in the US. We recommend disabling it for the same reason we recommend disabling search suggestions. If you don't see these options under the **Address Bar** header, you do not have the new experience and can ignore these changes.
+[Firefox Suggest](https://support.mozilla.org/en-US/kb/firefox-suggest)は、米国のみで利用可能な、検索提案と似た機能です。 私たちは、検索提案を無効にすることを推奨するのと同じ理由で、これを無効にすることを推奨します。 **アドレスバー**のヘッダーの下にこれらのオプションが表示されない場合、新しいエクスペリエンスは持っていないので、これらの変更を無視しても問題ありません。
 
-- [ ] Uncheck **Suggestions from the web**
-- [ ] Uncheck **Suggestions from sponsors**
+- [ ] **ウェブからの提案**のチェックを外します
+- [ ] **スポンサーからの提案**のチェックを外します
 
 ##### Sanitize on Close
 
-If you want to stay logged in to particular sites, you can allow exceptions in **Cookies and Site Data** → **Manage Exceptions...**
+特定のサイトにログインしたままにしたい場合は、**Cookies and Site Data** → **例外の管理...**で例外を許可することができます。
 
 - [x] **Firefox を閉じたときに Cookie とサイトデータを削除する**にチェックをつける
 
-This protects you from persistent cookies, but does not protect you against cookies acquired during any one browsing session. When this is enabled, it becomes possible to easily cleanse your browser cookies by simply restarting Firefox. You can set exceptions on a per-site basis, if you wish to stay logged in to a particular site you visit often.
+これにより、永続的なクッキーからあなたを保護しますが、一度のブラウジングセッション中に取得されたクッキーからあなたを保護することはありません。 これを有効にすると、Firefoxを再起動するだけで、ブラウザのクッキーを簡単に削除できるようになります。 よく訪れる特定のサイトにログインしたままにしたい場合、サイトごとに例外を設定することができます。
 
-##### Telemetry
+##### テレメトリー
 
 - [ ] **Firefox が技術的な対話データを Mozilla へ送信することを許可する**のチェックを外す
 - [ ] **Firefox に調査のインストールと実行を許可する**のチェックを外す
-- [ ] Uncheck **Allow Firefox to send backlogged crash reports on your behalf**
+- [ ] **Firefoxによるあなたの代わりのバックログクラッシュレポートの送信を許可する**のチェックを外します
 
-> Firefox sends data about your Firefox version and language; device operating system and hardware configuration; memory, basic information about crashes and errors; outcome of automated processes like updates, safebrowsing, and activation to us. When Firefox sends data to us, your IP address is temporarily collected as part of our server logs.
+> Firefoxは、あなたのFirefoxのバージョンや言語、デバイスのオペレーティングシステムとハードウェア構成、メモリ、クラッシュやエラーに関する基本情報、アップデートやセーフブラウジング、アクティベーションなどの自動化されたプロセスの結果などのデータを私たちに送信します。 Firefoxが私たちにデータを送信するとき、あなたのIPアドレスは一時的に私たちのサーバーログの一部として収集されます。
 
-Additionally, the Firefox Accounts service collects [some technical data](https://www.mozilla.org/en-US/privacy/firefox/#firefox-accounts). If you use a Firefox Account you can opt-out:
+さらに、Firefoxアカウントサービスは[一部の技術データ](https://www.mozilla.org/ja/privacy/firefox/#firefox-accounts)を収集します。 Firefoxアカウントを使用している場合は、オプトアウトすることができます：
 
-1. Open your [profile settings on accounts.firefox.com](https://accounts.firefox.com/settings#data-collection)
-2. Uncheck **Data Collection and Use** > **Help improve Firefox Accounts**
+1. [accounts.firefox.comのプロフィール設定](https://accounts.firefox.com/settings#data-collection)を開きます
+2. **データの収集と使用** > **Firefoxアカウントの改善を支援する**のチェックを外します
 
 ##### HTTPS-Only モード
 
 - [x] **すべてのウィンドウで HTTPS-Only モードを有効にする**を選択する
 
-This prevents you from unintentionally connecting to a website in plain-text HTTP. Sites without HTTPS are uncommon nowadays, so this should have little to no impact on your day to day browsing.
+これにより、意図せずにプレーンテキストのHTTPでウェブサイトに接続することを防ぎます。 現在ではHTTPSを使用していないサイトは珍しいため、日常的なブラウジングにほとんど影響を及ぼさないはずです。
 
 #### 同期
 
-[Firefox Sync](https://hacks.mozilla.org/2018/11/firefox-sync-privacy/) allows your browsing data (history, bookmarks, etc.) to be accessible on all your devices and protects it with E2EE.
+[Firefox Sync](https://hacks.mozilla.org/2018/11/firefox-sync-privacy/)は、あなたのブラウジングデータ（履歴、ブックマークなど）をすべてのデバイスで利用可能にし、それをE2EE（End-to-End Encryption, 端末間暗号化）で保護します。
 
-### Arkenfox (advanced)
+### Arkenfox（高度）
 
-!!! tip "Use Mullvad Browser for advanced anti-fingerprinting"
+!!! ヒント "高度なフィンガープリンティング対策にはMullvad Browserを使用してください"
 
-    [Mullvad Browser](#mullvad-browser) provides the same anti-fingerprinting protections as Arkenfox out of the box, and does not require the use of Mullvad's VPN to benefit from these protections. Coupled with a VPN, Mullvad Browser can thwart more advanced tracking scripts which Arkenfox cannot. Arkenfox still has the advantage of being much more flexible, and allowing per-site exceptions for websites which you need to stay logged in to.
+    [Mullvad Browser](#mullvad-browser)は、初期設定からArkenfoxと同じフィンガープリンティング対策を提供し、これらの保護を利用するためにMullvadのVPNを使用する必要はありません。 VPNと組み合わせることで、Mullvad BrowserはArkenfoxにはできない、より高度な追跡スクリプトを阻止することができる。 Arkenfoxははるかに柔軟性があり、ログインしたままである必要があるウェブサイトに対してサイトごとの例外を許可するという利点があります。
 
-The [Arkenfox project](https://github.com/arkenfox/user.js) provides a set of carefully considered options for Firefox. If you [decide](https://github.com/arkenfox/user.js/wiki/1.1-To-Arkenfox-or-Not) to use Arkenfox, a [few options](https://github.com/arkenfox/user.js/wiki/3.2-Overrides-[Common]) are subjectively strict and/or may cause some websites to not work properly - [which you can easily change](https://github.com/arkenfox/user.js/wiki/3.1-Overrides) to suit your needs. We **strongly recommend** reading through their full [wiki](https://github.com/arkenfox/user.js/wiki). Arkenfox also enables [container](https://support.mozilla.org/en-US/kb/containers#w_for-advanced-users) support.
+[Arkenfoxプロジェクト](https://github.com/arkenfox/user.js)は、Firefoxのための慎重に考えられたオプションのセットを提供しています。 もし[Arkenfoxを使用することを決定した場合](https://github.com/arkenfox/user.js/wiki/1.1-To-Arkenfox-or-Not)、[いくつかのオプション](https://github.com/arkenfox/user.js/wiki/3.2-Overrides-[Common])は主観的に厳格であり、または一部のウェブサイトが正しく動作しない可能性があります - これらは[あなたのニーズに合わせて簡単に変更することができます](https://github.com/arkenfox/user.js/wiki/3.1-Overrides)。 私たちは、彼らの[wiki](https://github.com/arkenfox/user.js/wiki)をすべて読むことを**強くお勧めします**。 Arkenfoxは[コンテナ](https://support.mozilla.org/ja/kb/containers#w_for-advanced-users)のサポートも有効にしています。
 
-Arkenfox only aims to thwart basic or naive tracking scripts through canvas randomization and Firefox's built-in fingerprint resistance configuration settings. It does not aim to make your browser blend in with a large crowd of other Arkenfox users in the same way Mullvad Browser or Tor Browser do, which is the only way to thwart advanced fingerprint tracking scripts. Remember you can always use multiple browsers, for example, you could consider using Firefox+Arkenfox for a few sites that you want to stay logged in on or otherwise trust, and Mullvad Browser for general browsing.
+Arkenfoxは、キャンバスのランダム化やFirefoxの組み込みのフィンガープリント抵抗の設定を通じて、基本的または素朴なトラッキングスクリプトを阻止することを目指しています。 Arkenfoxは、Mullvad BrowserやTor Browserのように、高度なフィンガープリンティングトラッキングスクリプトを防止する唯一の方法である他の多くのArkenfoxユーザーとブラウザを溶け込ませることを目指していません。 Remember you can always use multiple browsers, for example, you could consider using Firefox+Arkenfox for a few sites that you want to stay logged in on or otherwise trust, and Mullvad Browser for general browsing.
 
 ## Brave
 
@@ -371,6 +371,6 @@ Our best-case criteria represents what we would like to see from the perfect pro
 ### Extension Criteria
 
 - Must not replicate built-in browser or OS functionality.
-- Must directly impact user privacy, i.e. must not simply provide information.
+- ユーザーのプライバシーに直接影響を与える必要があります。つまり、単に情報を提供するだけではない必要があります。
 
-[^1]: Brave's implementation is detailed at [Brave Privacy Updates: Partitioning network-state for privacy](https://brave.com/privacy-updates/14-partitioning-network-state/).
+[^1]: Braveの実装は、[Brave Privacy Updates: Partitioning network-state for privacy](https://brave.com/privacy-updates/14-partitioning-network-state/)で詳細に説明されています。
