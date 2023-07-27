@@ -23,7 +23,7 @@ name: 💬 Crowdin Download
 on:
   workflow_dispatch:
   schedule:
-    - cron: '0 4 * * *'
+    - cron: '30 * * * *'
 
 permissions: write-all
 
