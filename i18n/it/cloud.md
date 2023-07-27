@@ -27,7 +27,7 @@ Se queste alternative non soddisfano le tue esigenze, ti suggeriamo di utilizzar
     [:octicons-info-16:](https://proton.me/support/drive){ .card-link title=Documentazione}
     [:octicons-code-16:](https://github.com/ProtonMail/WebClients){ .card-link title="Codice Sorgente" }
     
-    ??? downloads
+    ??? downloads "Scarica"
     
         - [:simple-googleplay: Google Play](https://play.google.com/store/apps/details?id=me.proton.android.drive)
         - [:simple-appstore: App Store](https://apps.apple.com/app/id1509667851)
@@ -50,7 +50,7 @@ I nuovi client mobile di Proton Drive non sono ancora stati controllati pubblica
     [:octicons-eye-16:](https://tresorit.com/legal/privacy-policy){ .card-link title="Politica sulla Privacy" }
     [:octicons-info-16:](https://support.tresorit.com/hc/en-us){ .card-link title=Documentazione}
     
-    ??? downloads
+    ??? downloads "Scarica"
     
         - [:simple-googleplay: Google Play](https://play.google.com/store/apps/details?id=com.tresorit.mobile)
         - [:simple-appstore: App Store](https://apps.apple.com/app/apple-store/id722163232)

@@ -1,12 +1,12 @@
 ---
 meta_title: "Software di crittografia consigliati: VeraCrypt, Cryptomator, PicoCrypt e OpenPGP - Privacy Guides"
-title: "Software di crittografia"
+title: "Software di Crittografia"
 icon: material/file-lock
 description: La crittografia dei dati è il solo modo per controllare chi possa accedervi. Questi strumenti ti consentono di crittografare le tue email e qualsiasi altro file.
 cover: encryption.png
 ---
 
-La crittografia dei dati è l'unico modo per controllare chi può accedervi. Se, al momento, non stai utilizzando del software crittografico per il tuo disco rigido, le tue email o file, dovresti selezionare un'opzione qui.
+La crittografia dei dati è l'unico modo per controllare chi può accedervi. Se, al momento, non stai utilizzando alcun software di crittografia per il tuo disco rigido, le tue email o file, dovresti selezionare un'opzione qui.
 
 ## Multipiattaforma
 
@@ -26,10 +26,10 @@ Le opzioni qui elencate sono multipiattaforma e ottime per creare backup crittog
     [:octicons-code-16:](https://github.com/cryptomator){ .card-link title="Codice Sorgente" }
     [:octicons-heart-16:](https://cryptomator.org/donate/){ .card-link title=Contribuisci }
     
-    ??? downloads
+    ??? downloads "Scarica"
     
         - [:simple-googleplay: Google Play](https://play.google.com/store/apps/details?id=org.cryptomator)
-        - [:simple-appstore: App Store](https://apps.apple.com/us/app/cryptomator-2/id1560822163)
+        - [:simple-appstore: App Store](https://apps.apple.com/it/app/cryptomator-2/id1560822163)
         - [:simple-android: Android](https://cryptomator.org/android)
         - [:simple-windows11: Windows](https://cryptomator.org/downloads)
         - [:simple-apple: macOS](https://cryptomator.org/downloads)
@@ -54,7 +54,7 @@ La documentazione di Cryptomator ne descrive l'[obiettivo di sicurezza](https://
     [:octicons-code-16:](https://github.com/HACKERALERT/Picocrypt){ .card-link title="Codice Sorgente" }
     [:octicons-heart-16:](https://opencollective.com/picocrypt){ .card-link title=Contribuisci }
     
-    ??? downloads
+    ??? downloads "Scarica"
     
         - [:simple-windows11: Windows](https://github.com/HACKERALERT/Picocrypt/releases)
         - [:simple-apple: macOS](https://github.com/HACKERALERT/Picocrypt/releases)
@@ -74,7 +74,7 @@ La documentazione di Cryptomator ne descrive l'[obiettivo di sicurezza](https://
     [:octicons-code-16:](https://veracrypt.fr/code/){ .card-link title="Codice Sorgente" }
     [:octicons-heart-16:](https://veracrypt.fr/en/Donation.html){ .card-link title=Contribuisci }
     
-    ??? downloads
+    ??? downloads "Scarica"
     
         - [:simple-windows11: Windows](https://www.veracrypt.fr/en/Downloads.html)
         - [:simple-apple: macOS](https://www.veracrypt.fr/en/Downloads.html)
@@ -118,7 +118,7 @@ BitLocker è [supportato soltanto](https://support.microsoft.com/en-us/windows/t
         powershell Get-WmiObject -Namespace "root/cimv2/security/microsofttpm" -Class WIN32_tpm
         ```
 
-    3. Accedi alle [Opzioni d'Avvio Avanzato](https://support.microsoft.com/en-us/windows/advanced-startup-options-including-safe-mode-b90e7808-80b5-a291-d4b8-1a1af602b617). Devi riavviare premendo il tasto F8, prima dell'avvio di Windows e andare nel *prompt dei comandi* in **Risoluzione dei Problemi** → **Opzioni Avanzate** → **Prompt dei Comandi**.
+    3. Accedi alle [Opzioni di Avvio Avanzate](https://support.microsoft.com/it-it/windows/opzioni-di-avvio-avanzate-inclusa-la-modalit%C3%A0-provvisoria-b90e7808-80b5-a291-d4b8-1a1af602b617). Devi riavviare premendo il tasto F8, prima dell'avvio di Windows e andare nel *prompt dei comandi* in **Risoluzione dei Problemi** → **Opzioni Avanzate** → **Prompt dei Comandi**.
 
     4. Accedi con il tuo profilo da amministratore e digita nel prompt dei comandi questo comando, per avviare la crittografia:
 
@@ -136,7 +136,7 @@ BitLocker è [supportato soltanto](https://support.microsoft.com/en-us/windows/t
         manage-bde -protectors -get c: > %UserProfile%\Desktop\BitLocker-Recovery-Key.txt
         ```
 
-        !!! tip
+        !!! tip "Suggerimento"
    
         Esegui il backup di 'BitLocker-Recovery-Key.txt' sul tuo desktop, in un dispositivo d'archiviazione separato. La perdita del codice di recupero potrebbe risultare nella perdita dei dati.
 
@@ -224,7 +224,7 @@ Gli strumenti con interfacce di riga di comando sono utili per integrare gli [sc
     [:octicons-code-16:](https://github.com/samuel-lucas6/Kryptor){ .card-link title="Codice Sorgente" }
     [:octicons-heart-16:](https://www.kryptor.co.uk/#donate){ .card-link title=Contribuisci }
     
-    ??? downloads
+    ??? downloads "Scarica"
     
         - [:simple-windows11: Windows](https://www.kryptor.co.uk)
         - [:simple-apple: macOS](https://www.kryptor.co.uk)
@@ -270,7 +270,7 @@ Crittografando con PGP, puoi configurare diverse opzioni nel tuo file `gpg.confi
     [:octicons-info-16:](https://gnupg.org/documentation/index.html){ .card-link title=Documentazione}
     [:octicons-code-16:](https://git.gnupg.org/cgi-bin/gitweb.cgi?p=gnupg.git){ .card-link title="Codice Sorgente" }
     
-    ??? downloads
+    ??? downloads "Scarica"
     
         - [:simple-googleplay: Google Play](https://play.google.com/store/apps/details?id=org.sufficientlysecure.keychain)
         - [:simple-windows11: Windows](https://gpg4win.org/download.html)
@@ -291,7 +291,7 @@ Crittografando con PGP, puoi configurare diverse opzioni nel tuo file `gpg.confi
     [:octicons-code-16:](https://git.gnupg.org/cgi-bin/gitweb.cgi?p=gpg4win.git;a=summary){ .card-link title="Codice Sorgente" }
     [:octicons-heart-16:](https://gpg4win.org/donate.html){ .card-link title=Contribuisci }
     
-    ??? downloads
+    ??? downloads "Scarica"
     
         - [:simple-windows11: Windows](https://gpg4win.org/download.html)
 
@@ -314,7 +314,7 @@ Crittografando con PGP, puoi configurare diverse opzioni nel tuo file `gpg.confi
     [:octicons-info-16:](https://gpgtools.tenderapp.com/kb){ .card-link title=Documentazione}
     [:octicons-code-16:](https://github.com/GPGTools){ .card-link title="Codice Sorgente" }
     
-    ??? downloads
+    ??? downloads "Scarica"
     
         - [:simple-apple: macOS](https://gpgtools.org)
 
@@ -331,7 +331,7 @@ Crittografando con PGP, puoi configurare diverse opzioni nel tuo file `gpg.confi
     [:octicons-info-16:](https://www.openkeychain.org/faq/){ .card-link title=Documentazione}
     [:octicons-code-16:](https://github.com/open-keychain/open-keychain){ .card-link title="Codice Sorgente" }
     
-    ??? downloads
+    ??? downloads "Scarica"
     
         - [:simple-googleplay: Google Play](https://play.google.com/store/apps/details?id=org.sufficientlysecure.keychain)
 

@@ -24,7 +24,7 @@ Condividendo dei file, assicurati di rimuovere i metadati associati. I file imma
     [:octicons-info-16:](https://0xacab.org/jvoisin/mat2/-/blob/master/README.md){ .card-link title=Documentazione}
     [:octicons-code-16:](https://0xacab.org/jvoisin/mat2){ .card-link title="Codice sorgente" }
     
-    ??? downloads
+    ??? downloads "Scarica"
     
         - [:simple-windows11: Windows](https://pypi.org/project/mat2)
         - [:simple-apple: macOS](https://0xacab.org/jvoisin/mat2#requirements-setup-on-macos-os-x-using-homebrew)
@@ -47,7 +47,7 @@ Condividendo dei file, assicurati di rimuovere i metadati associati. I file imma
     [:octicons-info-16:](https://github.com/Tommy-Geenexus/exif-eraser#readme){ .card-link title=Documentazione}
     [:octicons-code-16:](https://github.com/Tommy-Geenexus/exif-eraser){ .card-link title="Codice sorgente" }
     
-    ??? downloads
+    ??? downloads "Scarica"
     
         - [:simple-googleplay: Google Play](https://play.google.com/store/apps/details?id=com.none.tom.exiferaser)
         - [:octicons-moon-16: Accrescent](https://accrescent.app/app/com.none.tom.exiferaser)
@@ -80,7 +80,7 @@ L'applicazione offre diversi modi per cancellare i metadati dalle immagini. Nell
     [:octicons-home-16: Homee](https://zininworks.com/metapho){ .md-button .md-button--primary }
     [:octicons-eye-16:](https://zininworks.com/privacy/){ .card-link title="Politica sulla Privacy" }
     
-    ??? downloads
+    ??? downloads "Scarica"
     
         - [:simple-appstore: App Store](https://apps.apple.com/us/app/metapho/id914457352)
 
@@ -97,7 +97,7 @@ L'applicazione offre diversi modi per cancellare i metadati dalle immagini. Nell
     [:octicons-info-16:](https://github.com/MATHEMA-GmbH/privacyblur#readme){ .card-link title=Documentazione}
     [:octicons-code-16:](https://github.com/MATHEMA-GmbH/privacyblur){ .card-link title="Codice sorgente" }
     
-    ??? downloads
+    ??? downloads "Scarica"
     
         - [:simple-googleplay: Google Play](https://play.google.com/store/apps/details?id=de.mathema.privacyblur)
         - [:simple-appstore: App Store](https://apps.apple.com/us/app/privacyblur/id1536274106)
@@ -123,11 +123,11 @@ L'applicazione offre diversi modi per cancellare i metadati dalle immagini. Nell
     [:octicons-code-16:](https://github.com/exiftool/exiftool){ .card-link title="Codice sorgente" }
     [:octicons-heart-16:](https://exiftool.org/#donate){ .card-link title=Contribuisci }
     
-    ??? downloads
+    ??? downloads "Scarica"
     
         - [:simple-windows11: Windows](https://exiftool.org)
         - [:simple-apple: macOS](https://exiftool.org)
-        - [:simple-linux: Linux](https://exiftool.org)
+        - [:simple-linux: Linux](https://exiftool.org)downloads annotate "Scaricare"
 
 !!! example "Rimozione dei metadati da una cartella di file"
 

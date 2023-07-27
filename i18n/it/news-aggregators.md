@@ -23,7 +23,7 @@ Un [aggregatore di notizie](https://en.wikipedia.org/wiki/News_aggregator) conse
     [:octicons-code-16:](https://invent.kde.org/pim/akregator){ .card-link title="Codice Sorgente" }
     [:octicons-heart-16:](https://kde.org/community/donations/){ .card-link title=Contribuisci }
     
-    ??? downloads
+    ??? downloads "Scarica"
     
         - [:simple-flathub: Flathub](https://flathub.org/apps/details/org.kde.akregator)
 
@@ -39,7 +39,7 @@ Un [aggregatore di notizie](https://en.wikipedia.org/wiki/News_aggregator) conse
     [:octicons-code-16:](https://gitlab.com/spacecowboy/Feeder){ .card-link title="Codice Sorgente" }
     [:octicons-heart-16:](https://ko-fi.com/spacecowboy){ .card-link title=Contribuisci }
     
-    ??? downloads
+    ??? downloads "Scarica"
     
         - [:simple-googleplay: Google Play](https://play.google.com/store/apps/details?id=com.nononsenseapps.feeder.play)
 
@@ -57,7 +57,7 @@ Un [aggregatore di notizie](https://en.wikipedia.org/wiki/News_aggregator) conse
     [:octicons-code-16:](https://github.com/yang991178/fluent-reader){ .card-link title="Codice Sorgente" }
     [:octicons-heart-16:](https://github.com/sponsors/yang991178){ .card-link title=Contribuisci }
     
-    ??? downloads
+    ??? downloads "Scarica"
     
         - [:simple-windows11: Windows](https://hyliu.me/fluent-reader)
         - [:simple-appstore: App Store](https://apps.apple.com/app/id1520907427)
@@ -74,7 +74,7 @@ Un [aggregatore di notizie](https://en.wikipedia.org/wiki/News_aggregator) conse
     [:octicons-code-16:](https://gitlab.gnome.org/World/gfeeds){ .card-link title="Codice Sorgente" }
     [:octicons-heart-16:](https://liberapay.com/gabmus/){ .card-link title=Contribuisci }
     
-    ??? downloads
+    ??? downloads "Scarica"
     
         - [:simple-linux: Linux](https://gfeeds.gabmus.org/#install)
         - [:simple-flathub: Flathub](https://flathub.org/apps/details/org.gabmus.gfeeds)
@@ -106,7 +106,7 @@ Un [aggregatore di notizie](https://en.wikipedia.org/wiki/News_aggregator) conse
     [:octicons-info-16:](https://netnewswire.com/help/){ .card-link title=Documentazione}
     [:octicons-code-16:](https://github.com/Ranchero-Software/NetNewsWire){ .card-link title="Codice Sorgente" }
     
-    ??? downloads
+    ??? downloads "Scarica"
     
         - [:simple-appstore: App Store](https://apps.apple.com/us/app/netnewswire-rss-reader/id1480640210)
         - [:simple-apple: macOS](https://netnewswire.com)

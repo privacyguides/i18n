@@ -15,7 +15,7 @@ Nonostante ciò, è tipicamente l'opzione migliore.
 
 ## Carte Prepagate e Carte Regalo
 
-Acquistare carte regalo e carte prepagate presso è relativamente semplice, presso gran parte dei negozi di alimentari e minimarket, con i contanti. Solitamente, le carte regalo, non prevedono commissioni, a differenza delle carte prepagate; quindi, presta particolare attenzione a tali commissioni e alle date di scadenza. Alcuni negozi potrebbero richiedere di fornire il tuo ID al pagamento, per ridurre le frodi.
+Acquistare carte regalo e carte prepagate presso gran parte dei negozi di alimentari e minimarket è relativamente semplice, con i contanti. Solitamente, le carte regalo, non prevedono commissioni, a differenza delle carte prepagate; quindi, presta particolare attenzione a tali commissioni e alle date di scadenza. Alcuni negozi potrebbero richiedere di fornire il tuo ID al pagamento, per ridurre le frodi.
 
 Solitamente, le carte regalo, hanno limiti di fino a $200 per carta, mentre alcune offrono limiti superiori ai $2.000 per carta. Le carte prepagate (es.: da Visa o Mastercard), hanno solitamente dei limiti massimi di $1.000 per carta.
 
@@ -77,7 +77,7 @@ Acquisire [criptovalute](../cryptocurrency.md) come Monero in modo privato, può
 
 Se scegli di procedere così, assicurati di acquistare Monero in momenti differenti e in importi differenti, rispetto a dove li spenderai. Se acquisti $5000 Monero su una piattaforma di scambio ed effettui un acquisto di $5000 in Monero un'ora dopo, queste azioni potrebbero potenzialmente essere correlate a un osservatore esterno, indipendentemente dal percorso intrapreso dai Monero. Frammentare gli acquisti e acquistare importi maggiori di Monero in anticipo, per poi spenderli su più transazioni di piccole dimensioni, può evitare tale insidia.
 
-## Ulteriori considerazioni
+## Ulteriori Considerazioni
 
 Effettuando un pagamento di persona in contanti, assicurati di tenere a mente la tua privacy personale. Le telecamere di sicurezza sono onnipresenti. Considera di indossare abiti non distinti e una mascherinaa (come una mascherina chirurgica o N95). Non iscriverti a programmi a premi, e non fornire alcuna altra informazione su di te.
 

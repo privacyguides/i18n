@@ -4,9 +4,9 @@ icon: simple/linux
 description: לינוקס היא חלופה למערכת הפעלה שולחנית ממוקדת פרטיות בקוד פתוח, אך לא כל ההפצות נוצרות שווה.
 ---
 
-**Linux** is an open-source, privacy-focused desktop operating system alternative. In the face of pervasive telemetry and other privacy-encroaching technologies in mainstream operating systems, Linux desktop has remained the clear choice for people looking for total control over their computers from the ground up.
+**Linux** היא חלופה למערכת הפעלה שולחנית בקוד פתוח, ממוקדת פרטיות. מול טלמטריה נרחבת וטכנולוגיות אחרות שפוגעות בפרטיות במערכות הפעלה מיינסטרים, שולחן העבודה של לינוקס נשאר הבחירה הברורה עבור אנשים שמחפשים שליטה מוחלטת על המחשבים שלהם מהיסוד.
 
-Our website generally uses the term “Linux” to describe **desktop** Linux distributions. Other operating systems which also use the Linux kernel such as ChromeOS, Android, and Qubes OS are not discussed on this page.
+האתר שלנו משתמש בדרך כלל במונח "Linux" כדי לתאר הפצות לינוקס של **שולחן העבודה**. מערכות הפעלה אחרות המשתמשות גם בליבת לינוקס כגון ChromeOS, Android ו-Qubes OS אינן נדונות בדף זה.
 
 [המלצות לינוקס שלנו :material-arrow-right-drop-circle:](../desktop.md ""){.md-button}
 
@@ -42,7 +42,7 @@ Additionally, Linux falls behind in implementing [exploit mitigations](https://m
 
 אנו ממליצים בחום לבחור בהפצות שנשארות קרובות למהדורות התוכנה היציבות במעלה הזרם, המכונה לעתים קרובות הפצות מהדורות מתגלגלות. הסיבה לכך היא שהפצות מחזור שחרור קפוא לרוב אינן מעדכנות גרסאות חבילה ונגררות לפי עדכוני אבטחה.
 
-עבור הפצות קפואות כגון [Debian](https://www.debian.org/security/faq#handling), מתחזקים חבילות צפויים לבצע אחורה תיקונים כדי לתקן נקודות תורפה במקום להקפיץ את התוכנה ל- "הגרסה הבאה" שפורסמה על ידי המפתח במעלה הזרם. Some security fixes [do not](https://arxiv.org/abs/2105.14565) receive a [CVE ID](https://en.wikipedia.org/wiki/Common_Vulnerabilities_and_Exposures) (particularly less popular software) at all and therefore do not make it into the distribution with this patching model. כתוצאה מכך תיקוני אבטחה קלים מתעכבים לפעמים עד לגרסה הגדולה הבאה.
+עבור הפצות קפואות כגון [Debian](https://www.debian.org/security/faq#handling), מתחזקים חבילות צפויים לבצע אחורה תיקונים כדי לתקן נקודות תורפה במקום להקפיץ את התוכנה ל- "הגרסה הבאה" שפורסמה על ידי המפתח במעלה הזרם. חלק מתיקוני האבטחה [לא](https://arxiv.org/abs/2105.14565) מקבלים [מזהה CVE](https://en.wikipedia.org/wiki/Common_Vulnerabilities_and_Exposures) (במיוחד תוכנה פחות פופולרית) כלל ולכן אינם נכנסים להפצה עם מודל התיקון הזה. כתוצאה מכך תיקוני אבטחה קלים מתעכבים לפעמים עד לגרסה הגדולה הבאה.
 
 אנחנו לא מאמינים שהחזקת חבילות והחלת תיקוני ביניים הם רעיון טוב, מכיוון שהוא שונה מהדרך שבה המפתח התכוון שהתוכנה תעבוד. ל [Richard Brown](https://rootco.de/aboutme/) יש מצגת על נושא זה:
 

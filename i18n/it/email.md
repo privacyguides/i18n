@@ -110,7 +110,7 @@ Proton Mail non offre una funzionalità di eredità digitale.
     [:octicons-eye-16:](https://mailbox.org/en/data-protection-privacy-policy){ .card-link title="Privacy Policy" }
     [:octicons-info-16:](https://kb.mailbox.org/en/private){ .card-link title=Documentation}
     
-    ??? downloads
+    ??? downloads "Scarica"
     
         - [:octicons-browser-16: Web](https://login.mailbox.org)
 
@@ -152,7 +152,7 @@ Mailbox.org dispone di una funzione di eredità digitale per tutti i piani. Puoi
 
 ## Altri fornitori
 
-Questi fornitori memorizzano le tue emaiul con la crittografia a conoscenza zero, rendendoli ottime opzioni per mantenere protette le tue email memorizzate. Tuttavia, non supportano standard di crittografia interoperabili per le comunicazioni E2EE tra fornitori diversi.
+Questi fornitori memorizzano le tue email con la crittografia a conoscenza zero, rendendoli ottime opzioni per mantenere protette le tue email memorizzate. Tuttavia, non supportano standard di crittografia interoperabili per le comunicazioni E2EE tra fornitori diversi.
 
 <div class="grid cards" markdown>
 
@@ -174,10 +174,10 @@ Questi fornitori memorizzano le tue emaiul con la crittografia a conoscenza zero
     [:octicons-info-16:](https://skiff.com/help){ .card-link title=Documentation}
     [:octicons-code-16:](https://github.com/skiff-org/skiff-apps){ .card-link title="Source Code" }
     
-    ??? downloads
+    ??? downloads "Scarica"
     
         - [:simple-android: Android](https://play.google.com/store/apps/details?id=com.skemailmobileapp&pli=1)
-        - [:simple-appstore: iOS](https://apps.apple.com/us/app/skiff-mail/id1619168801)
+        - [:simple-appstore: iOS](https://apps.apple.com/it/app/skiff-mail/id1619168801)
         - [:octicons-browser-16: Web](https://app.skiff.com/mail)
 
 Durante lo sviluppo, Skiff è stato sottoposto ad alcuni [controlli](https://skiff.com/transparency).

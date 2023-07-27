@@ -156,10 +156,10 @@ Qubes OS supporta l'autenticazione Contestazione-Risposta con le YubiKey. Se pos
 
 L'AFM SSH potrebbe essere configurata utilizzando svariati metodi d'autenticazione differenti, popolari con le chiavi di sicurezza hardware. Ti consigliamo di consultare la [documentazione](https://developers.yubico.com/SSH/) su come configurarli.
 
-#### Password Una Tantum basata sul Tempo (TOTP)
+#### Password Monouso basata sul Tempo (TOTP)
 
 L'AFM SSH può anche essere configurata utilizzando TOTP. DigitalOcean ha fornito il tutorial "[Come Configurare l'Autenticazione a Più Fattori per SSH su Ubuntu 20.04](https://www.digitalocean.com/community/tutorials/how-to-set-up-multi-factor-authentication-for-ssh-on-ubuntu-20-04). Gran parte delle cose dovrebbe essere le stesse indipendentemente dalla distribuzione, tuttavia, i comandi del gestore di pacchetti, come `apt-get`, e i nomi dei pacchetti, potrebbero variare.
 
 ### KeePass (e KeePassXC)
 
-I database di KeePass e KeePassXC possono essere protetti utilizzando la Contestazione-Risposta o HOTP, come autenticazione a due fattori. Yubico ha fornito della documentazione per l'[Utilizzo della tua YubiKey con KeePass](https://support.yubico.com/hc/en-us/articles/360013779759-Using-Your-YubiKey-with-KeePass), nonché un documento sul sito web di [KeePassXC](https://keepassxc.org/docs/#faq-yubikey-2fa).
+I database di KeePass e KeePassXC possono essere protetti utilizzando la Challenge-Response o HOTP come autenticazione di secondo fattore. Yubico ha fornito della documentazione per l'[Utilizzo della tua YubiKey con KeePass](https://support.yubico.com/hc/en-us/articles/360013779759-Using-Your-YubiKey-with-KeePass), nonché un documento sul sito web di [KeePassXC](https://keepassxc.org/docs/#faq-yubikey-2fa).

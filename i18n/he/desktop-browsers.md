@@ -239,9 +239,9 @@ Brave כולל כמה אמצעים נגד טביעת אצבע בתכונת [Shie
     ??? warning "השתמש ברשימות סינון ברירת מחדל"
          Brave מאפשר לך לבחור מסנני תוכן נוספים בדף הפנימי `brave://adblock`. אנו ממליצים לא להשתמש בתכונה זו; במקום זאת, שמור על רשימות הסינון המוגדרות כברירת מחדל. שימוש ברשימות נוספות יגרום לך להתבלט ממשתמשי Brave אחרים ועלול גם להגדיל את שטח ההתקפה אם יש ניצול ב-Brave וכלל זדוני יתווסף לאחת הרשימות שבהן אתה משתמש.
 
-- [x] Select **Strict** under **Upgrade connections to HTTPS**
-- [x] (Optional) Select **Block Scripts** (1)
-- [x] Select **Strict, may break sites** under Block fingerprinting
+- [x] בחר **קפדנית** תחת **שדרג חיבורים ל-HTTPS**
+- [x] (אופציונלי) בחר **חסום סקריפטים** (1)
+- [x] בחר **קפדני, עלול לשבור אתרים** תחת חסום טביעת אצבע
 
 </div>
 
@@ -255,14 +255,14 @@ Brave כולל כמה אמצעים נגד טביעת אצבע בתכונת [Shie
 
 <div class="annotate" markdown>
 
-- [x] Select **Disable non-proxied UDP** under [WebRTC IP Handling Policy](https://support.brave.com/hc/en-us/articles/360017989132-How-do-I-change-my-Privacy-Settings-#webrtc)
-- [ ] Uncheck **Use Google services for push messaging**
-- [ ] Uncheck **Allow privacy-preserving product analytics (P3A)**
-- [ ] Uncheck **Automatically send daily usage ping to Brave**
-- [ ] Uncheck **Automatically send diagnostic reports**
-- [ ] Uncheck **Private window with Tor** (1)
+- [x] בחר **השבת UDP ללא פרוקסי** ב-[WebRTC IP Handling Policy](https://support.brave.com/hc/en-us/articles/360017989132-How-do-I-change-my-Privacy-Settings-#webrtc)
+- [ ] בטל את הסימון של **השתמש בשירותי Google להעברת הודעות דחיפה**
+- [ ] בטל את הסימון של **אפשר ניתוח מוצר לשמירה על הפרטיות (P3A)**
+- [ ] בטל את הסימון **שלח אוטומטית פינג שימוש יומי אל Brave**
+- [ ] בטל את הסימון **שלח דוחות אבחון אוטומטית**
+- [ ] בטל את הסימון של **חלון פרטי עם Tor** (1)
 
-    !!! חשוב"חיטוי בסגירה"
+     !!! חשוב"חיטוי בסגירה"
 
         - [x] בחר**נקה קבצי עוגיות ונתוני אתר בעת סגירת כל החלונות**בתפריט *עוגיות ונתוני אתר אחרים*
 

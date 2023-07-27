@@ -37,7 +37,7 @@ schema:
       url: "./"
 ---
 
-Questi sono i web browser consigliati al momento e le configurazioni per la navigazione standard/non anonima su Interrnet. Se hai bisogno di navigare in Internet in modo anonimo, dovresti invece usare [Tor](tor.md). In generale, consigliamo di mantenere al minimo le estensioni; hanno accesso privilegiato al tuo browser, ti richiedono di fidarti degli sviluppatori, possono [distinguerti](https://en.wikipedia.org/wiki/Device_fingerprint#Browser_fingerprint) e [indebolire](https://groups.google.com/a/chromium.org/g/chromium-extensions/c/0ei-UCHNm34/m/lDaXwQhzBAAJ) l'isolamento del sito.
+Questi sono i web browser consigliati al momento e le configurazioni per la navigazione standard/non anonima su Interrnet. Se hai bisogno di navigare in Internet in modo anonimo, dovresti invece usare [Tor](tor.md). In generale, consigliamo di mantenere al minimo il numero delle estensioni; hanno accesso privilegiato al tuo browser, ti richiedono di fidarti degli sviluppatori, possono [distinguerti](https://en.wikipedia.org/wiki/Device_fingerprint#Browser_fingerprint) e [indebolire](https://groups.google.com/a/chromium.org/g/chromium-extensions/c/0ei-UCHNm34/m/lDaXwQhzBAAJ) l'isolamento del sito.
 
 ## Android
 
@@ -59,7 +59,7 @@ Per Android, Firefox è meno sicuro delle alternative basate su Chromium: il mot
     [:octicons-info-16:](https://support.brave.com/){ .card-link title=Documentation}
     [:octicons-code-16:](https://github.com/brave/brave-browser){ .card-link title="Source Code" }
     
-    ??? downloads annotate
+    ??? downloads annotate "Scarica"
     
         - [:simple-googleplay: Google Play](https://play.google.com/store/apps/details?id=com.brave.browser)
         - [:simple-github: GitHub](https://github.com/brave/brave-browser/releases)
@@ -68,7 +68,7 @@ Per Android, Firefox è meno sicuro delle alternative basate su Chromium: il mot
 
 Il Tor Browser è l'unico che veramente permette di navigare Internet anonimamente. Qundo utilizzi Brave, consigliamo di modificare le seguenti informazioni per proteggere la tua privacy da certe parti, m tutti i browser tranne [Tor Browser](tor.md#tor-browser) saranno tracciabili da *qualcuno*, in un modo o nell'altro.
 
-Queste opzioni si possono trovare in :material-menu: → **Impostazioni** → **Protezioni Brave e Privacy**
+Queste opzioni si possono trovare in :material-menu: → **Impostazioni** → **Protezioni Brave e privacy**
 
 ##### Shields
 
@@ -96,9 +96,9 @@ Le opzioni di Shields sono riducibili a seconda del sito come necessrio ma, di d
 
 ##### Cancella dati di navigazione
 
-- [x] Seleziona **Cancellare i dati all'uscita**
+- [x] Seleziona **Cancella dati all'uscita**
 
-##### Blocco social
+##### Blocco dei social media
 
 - [ ] Rimuovi la spunta da tutti i componenti social
 
@@ -197,7 +197,7 @@ Se utilizzi iCloud con la Protezione Avanzata dei Dati disabilitata, consigliamo
     [:octicons-info-16:](https://kb.adguard.com/ios){ .card-link title=Documentation}
     [:octicons-code-16:](https://github.com/AdguardTeam/AdguardForiOS){ .card-link title="Source Code" }
     
-    ??? downloads
+    ??? downloads "Scarica"
     
         - [:simple-appstore: App Store](https://apps.apple.com/app/apple-store/id1047223162)
 

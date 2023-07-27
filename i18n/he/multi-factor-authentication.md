@@ -50,7 +50,7 @@ cover: multi-factor-authentication.png
 
 !!! warning "אזהרה"
 
-    בעוד ש-Nitrokeys אינם משחררים את סודות ה-HOTP/TOTP למכשיר שאליו הם מחוברים, אחסון ה-HOTP וה-TOTP **לא** מוצפן ופגיע להתקפות פיזיות. If you are looking to store HOTP or TOTP secrets, we highly recommend that you use a YubiKey instead.
+    בעוד ש-Nitrokeys אינם משחררים את סודות ה-HOTP/TOTP למכשיר שאליו הם מחוברים, אחסון ה-HOTP וה-TOTP **לא** מוצפן ופגיע להתקפות פיזיות. אם אתם מחפשים לאחסן סודות HOTP או TOTP, אנו ממליצים בחום להשתמש במפתח YubiKey.
 
 !!! warning "אזהרה"
 

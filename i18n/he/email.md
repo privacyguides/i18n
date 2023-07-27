@@ -152,12 +152,12 @@ Mailbox.org כולל תכונת מורשת דיגיטלית לכל התוכני�
 
 ## עוד ספקים
 
-ספקים אלה מאחסנים את המיילים שלך עם הצפנת אפס ידע, מה שהופך אותם לאפשרויות נהדרות לשמירה על אבטחת המיילים המאוחסנים שלך. However, they don't support interoperable encryption standards for E2EE communications between different providers.
+ספקים אלה מאחסנים את המיילים שלך עם הצפנת אפס ידע, מה שהופך אותם לאפשרויות נהדרות לשמירה על אבטחת המיילים המאוחסנים שלך. עם זאת, הם אינם תומכים בתקני הצפנה הדדיים עבור תקשורת E2EE בין ספקים שונים.
 
 <div class="grid cards" markdown>
 
-- ![Skiff Mail logo](assets/img/email/skiff-mail.svg){ .twemoji } [Skiff Mail](email.md#skiff-mail)
-- ![Tutanota logo](assets/img/email/tutanota.svg){ .twemoji } [Tutanota](email.md#tutanota)
+- ![Skiff Mail לוגו](assets/img/email/skiff-mail.svg){ .twemoji } [Skiff Mail](email.md#skiff-mail)
+- ![Tutanota לוגו](assets/img/email/tutanota.svg){ .twemoji } [Tutanota](email.md#tutanota)
 
 </div>
 
@@ -165,52 +165,52 @@ Mailbox.org כולל תכונת מורשת דיגיטלית לכל התוכני�
 
 !!! recommendation
 
-    ![Skiff Mail logo](assets/img/email/skiff-mail.svg){ align=right }
+    ![Skiff Mail לוגו](assets/img/email/skiff-mail.svg){ align=right }
     
-    **Skiff Mail** is a web based email service with E2EE that began in 2020 that is based in San Francisco with developers worldwide. Accounts start with 10GB of free storage.
+    **Skiff Mail** הוא שירות אימייל מבוסס אינטרנט עם E2EE שהחל ב-2020 שבסיסו בסן פרנסיסקו עם מפתחים ברחבי העולם. חשבונות מתחילים עם 10GB של אחסון בחינם.
     
-    [:octicons-home-16: Homepage](https://skiff.com/mail){ .md-button .md-button--primary }
-    [:octicons-eye-16:](https://app.skiff.com/docs/db93c237-84c2-4b2b-9588-19a7cd2cd45a#tyGksN9rkqbo2uGYASxsA6HVLjUoly/wTYK8tncTto8=){ .card-link title="Privacy Policy" }
-    [:octicons-info-16:](https://skiff.com/help){ .card-link title=Documentation}
-    [:octicons-code-16:](https://github.com/skiff-org/skiff-apps){ .card-link title="Source Code" }
+    [:octicons-home-16: דף הבית](https://skiff.com/mail){ .md-button .md-button--primary }
+    [:octicons-eye-16:](https://app.skiff.com/docs/db93c237-84c2-4b2b-9588-19a7cd2cd45a#tyGksN9rkqbo2uGYASxsA6HVLjUoly/wTYK8tncTto8=){ .card-link title="מדיניות פרטיות" }
+    [:octicons-info-16:](https://skiff.com/help){ .card-link title=תיעוד}
+    [:octicons-code-16:](https://github.com/skiff-org/skiff-apps){ .card-link title="קוד מקור" }
     
-    ??? downloads
+    ??? downloads "הורדות"
     
-        - [:simple-android: Android](https://play.google.com/store/apps/details?id=com.skemailmobileapp&pli=1)
+        - [:simple-android: אנדרואיד](https://play.google.com/store/apps/details?id=com.skemailmobileapp&pli=1)
         - [:simple-appstore: iOS](https://apps.apple.com/us/app/skiff-mail/id1619168801)
         - [:octicons-browser-16: Web](https://app.skiff.com/mail)
 
-Skiff has undergone a few [audits](https://skiff.com/transparency) during its development.
+Skiff עברה כמה [ביקורות](https://skiff.com/transparency) במהלך הפיתוח שלה.
 
 #### :material-check:{ .pg-green } דומיינים וכינויים מותאמים אישית
 
-You can create up to 3 additional @skiff.com email aliases in addition to your primary account address on their free plan. Free accounts can add 1 [custom domain](https://skiff.com/blog/custom-domain-setup), and up to 15 custom domains on a paid plan. You can create unlimited aliases or a [catch-all](https://skiff.com/blog/catch-all-email-alias) alias on your custom domain.
+אתה יכול ליצור עד 3 כינויי אימייל נוספים של @skiff.com בנוסף לכתובת החשבון הראשית שלך בתוכנית החינמית שלהם. חשבונות בחינם יכולים להוסיף [דומיין מותאם אישית](https://skiff.com/blog/custom-domain-setup) אחד, ועד 15 דומיינים מותאמים אישית בתוכנית בתשלום. אתה יכול ליצור כינויים בלתי מוגבלים או כינוי [catch-all](https://skiff.com/blog/catch-all-email-alias) בדומיין המותאם אישית שלך.
 
-#### :material-alert-outline:{ .pg-orange } Private Payment Methods
+#### :material-alert-outline:{ .pg-orange } שיטות תשלום פרטיות
 
-Skiff Mail accepts cryptocurrency payments via Coinbase Commerce, including Bitcoin and Ethereum, but they do not accept our recommended [cryptocurrency](cryptocurrency.md), Monero. They also accept credit card payments via Stripe.
+Skiff Mail מקבל תשלומים במטבעות קריפטוגרפיים באמצעות Coinbase Commerce, כולל ביטקוין ו-Ethereum, אך הם אינם מקבלים את ה[מטבעות קריפטוגרפיים](cryptocurrency.md) המומלצים שלנו, Monero. הם גם מקבלים תשלומים בכרטיס אשראי דרך Stripe.
 
 #### :material-check:{ .pg-green } אבטחת חשבון
 
-Skiff Mail supports TOTP two-factor authentication and hardware security keys using FIDO2 or U2F standards. The use of a hardware security key requires setting up TOTP two-factor authentication first.
+Skiff Mail תומך באימות דו-שלבי TOTP ובמפתחות אבטחת חומרה באמצעות תקני FIDO2 או U2F. השימוש במפתח אבטחת חומרה מחייב תחילה הגדרת אימות דו-שלבי TOTP.
 
 #### :material-check:{ .pg-green } אבטחת מידע
 
-Skiff Mail has zero access encryption at rest for all of your data. משמעות הדבר היא שההודעות ונתונים אחרים המאוחסנים בחשבונך ניתנים לקריאה רק על ידך.
+ל-Skiff Mail יש הצפנת גישה אפסית במצב מנוחה לכל הנתונים שלך. משמעות הדבר היא שההודעות ונתונים אחרים המאוחסנים בחשבונך ניתנים לקריאה רק על ידך.
 
 #### :material-information-outline:{ .pg-blue } הצפנת אימייל
 
-Skiff Mail does not use OpenPGP. Emails are only encrypted with E2EE to other Skiff Mail users. Skiff does not have a "temporary inbox" or "passworded email" feature like some other providers have, so that external users cannot receive or reply to messages with E2EE.
+Skiff Mail אינו משתמש ב-OpenPGP. אימיילים מוצפנים רק עם E2EE למשתמשי Skiff Mail אחרים. ל-Skiff אין תכונה של "תיבת דואר נכנס זמנית" או "אימייל עם סיסמה", כמו שיש לספקים אחרים, כך שמשתמשים חיצוניים לא יכולים לקבל או להשיב להודעות עם E2EE.
 
 #### :material-information-outline:{ .pg-blue } סגירת חשבון
 
-Skiff Mail accounts do not expire, but unpaid accounts will be prompted to remove any enabled paid features (such as additional aliases) or renew their plan before the account can be used.
+חשבונות Skiff Mail לא יפוג, אך חשבונות ללא תשלום יתבקשו להסיר כל תכונות בתשלום מופעלות (כגון כינויים נוספים) או לחדש את התוכנית שלהם לפני שניתן יהיה להשתמש בחשבון.
 
 #### :material-information-outline:{ .pg-blue } פונקציונליות נוספת
 
-Skiff additionally offers [workspace productivity features](https://discuss.privacyguides.net/t/skiff-pages-drive-productivity-tools/11758/13), but we still prefer [alternative](productivity.md) options for collaborating and file sharing at this time.
+Skiff מציעה בנוסף [תכונות פרודוקטיביות של סביבת עבודה](https://discuss.privacyguides.net/t/skiff-pages-drive-productivity-tools/11758/13), אבל אנחנו עדיין מעדיפים [אפשרויות חלופיות](productivity.md) לשיתוף פעולה ושיתוף קבצים בשלב זה.
 
-Skiff Mail does not offer a digital legacy feature.
+Skiff Mail אינו מציע תכונה דיגיטלית מדור קודם.
 
 ### Tutanota
 
@@ -380,7 +380,7 @@ SimpleLogin [נרכשה על ידי Proton AG](https://proton.me/news/proton-and
     [:octicons-code-16:](https://github.com/mailcow/mailcow-dockerized){ .card-link title="קוד מקור" }
     [:octicons-heart-16:](https://www.servercow.de/mailcow?lang=en#sal){ .card-link title=לתרומה }
 
-!!! recommendation
+!!! המלצה
 
     ![Mail-in-a-Box לוגו](assets/img/email/mail-in-a-box.svg){ align=right }
     

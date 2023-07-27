@@ -145,7 +145,7 @@ Questi gestori di password, le sincronizzano su un server su cloud per una facil
     [:octicons-info-16:](https://bitwarden.com/help/){ .card-link title=Documentazione}
     [:octicons-code-16:](https://github.com/bitwarden){ .card-link title="Codice Sorgente" }
     
-    ??? downloads
+    ??? downloads "Scarica"
     
         - [:simple-googleplay: Google Play](https://play.google.com/store/apps/details?id=com.x8bit.bitwarden)
         - [:simple-appstore: App Store](https://apps.apple.com/app/bitwarden-password-manager/id1137397744)
@@ -181,7 +181,7 @@ Il codice dal lato del server di Bitwarden è [open source](https://github.com/b
     [:octicons-eye-16:](https://1password.com/legal/privacy/){ .card-link title="Politica sulla Privacy" }
     [:octicons-info-16:](https://support.1password.com/){ .card-link title=Documentazione}
     
-    ??? downloads
+    ??? downloads "Scarica"
     
         - [:simple-googleplay: Google Play](https://play.google.com/store/apps/details?id=com.onepassword.android)
         - [:simple-appstore: App Store](https://apps.apple.com/app/id1511601750?mt=8)
@@ -201,14 +201,14 @@ Un vantaggio di 1Password rispetto a Bitwarden è il supporto di prima classe pe
 
     ![Logo Psono](assets/img/password-management/psono.svg){ align=right }
     
-    **Psono** è un gestore di password gratuito e open-source sviluppato in Germania, con particolare attenzione alla gestione delle password per i team. Psono supporta la condivisione sicura di password, file, segnalibri ed email. Tutti i segreti sono protetti da una password principale.
+    **Psono** è un gestore di password gratuito e open-source sviluppato in Germania, con particolare attenzione alla gestione delle password per i team. Psono supporta la condivisione sicura di password, file, segnalibri ed email. Tutti i codici segreti sono protetti da una password principale.
     
     [:octicons-home-16: Home](https://psono.com){ .md-button .md-button--primary }
     [:octicons-eye-16:](https://psono.com/privacy-policy){ .card-link title="Politica sulla Privacy" }
     [:octicons-info-16:](https://doc.psono.com){ .card-link title=Documentazione}
     [:octicons-code-16:](https://gitlab.com/psono){ .card-link title="Codice Sorgente" }
     
-    ??? downloads
+    ??? downloads "Scarica"
     
         - [:simple-googleplay: Google Play](https://play.google.com/store/apps/details?id=com.psono.psono)
         - [:simple-appstore: App Store](https://apps.apple.com/us/app/psono-password-manager/id1545581224)
@@ -259,7 +259,7 @@ Queste opzioni ti consentono di gestire localmente un database di password critt
     [:octicons-code-16:](https://github.com/keepassxreboot/keepassxc){ .card-link title="Codice Sorgente" }
     [:octicons-heart-16:](https://keepassxc.org/donate/){ .card-link title=Contribuisci }
     
-    ??? downloads
+    ??? downloads "Scarica"
     
         - [:simple-windows11: Windows](https://keepassxc.org/download/#windows)
         - [:simple-apple: macOS](https://keepassxc.org/download/#mac)
@@ -283,7 +283,7 @@ KeePassXC memorizza i suoi dati di esportazione come file [CSV](https://en.wikip
     [:octicons-code-16:](https://github.com/Kunzisoft/KeePassDX){ .card-link title="Codice Sorgente" }
     [:octicons-heart-16:](https://www.keepassdx.com/#donation){ .card-link title=Contribuisci }
     
-    ??? downloads
+    ??? downloads "Scarica"
     
         - [:simple-googleplay: Google Play](https://play.google.com/store/apps/details?id=com.kunzisoft.keepass.free)
         - [:simple-github: GitHub](https://github.com/Kunzisoft/KeePassDX/releases)
@@ -302,7 +302,7 @@ KeePassXC memorizza i suoi dati di esportazione come file [CSV](https://en.wikip
     [:octicons-code-16:](https://github.com/strongbox-password-safe/Strongbox){ .card-link title="Codice Sorgente" }
     [:octicons-heart-16:](https://github.com/strongbox-password-safe/Strongbox#supporting-development){ .card-link title=Contribuisci }
     
-    ??? downloads
+    ??? downloads "Scarica"
     
         - [:simple-appstore: App Store](https://apps.apple.com/app/strongbox-keepass-pwsafe/id897283731)
 
@@ -325,7 +325,7 @@ Questi prodotti sono gestori di password minimali, utilizzabili nelle applicazio
     [:octicons-code-16:](https://github.com/gopasspw/gopass){ .card-link title="Codice Sorgente" }
     [:octicons-heart-16:](https://github.com/sponsors/dominikschulz){ .card-link title=Contribuisci }
     
-    ??? downloads
+    ??? downloads "Scarica"
     
         - [:simple-windows11: Windows](https://www.gopass.pw/#install-windows)
         - [:simple-apple: macOS](https://www.gopass.pw/#install-macos)

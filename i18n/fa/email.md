@@ -200,25 +200,25 @@ Skiff در طول توسعه خود تحت چند [ممیزی (Audit)](https://s
 
 #### :material-alert-outline:{ .pg-orange } روش های پرداخت خصوصی
 
-Skiff Mail پرداخت‌های رمزارز از جمله بیت‌کوین و اتریوم را از طریق Coinbase Commerce می‌پذیرد، اما آنها [رمزارز](cryptocurrency.md) پیشنهادی ما، Monero را نمی‌پذیرند. They also accept credit card payments via Stripe.
+Skiff Mail پرداخت‌های رمزارز از جمله بیت‌کوین و اتریوم را از طریق Coinbase Commerce می‌پذیرد، اما آنها [رمزارز](cryptocurrency.md) پیشنهادی ما، Monero را نمی‌پذیرند. آنها همچنین پرداخت های کارت اعتباری را از طریق Stripe می پذیرند.
 
 
 
 #### :material-check:{ .pg-green } امنیت حساب
 
-Skiff Mail supports TOTP two-factor authentication and hardware security keys using FIDO2 or U2F standards. The use of a hardware security key requires setting up TOTP two-factor authentication first.
+Skiff Mail از احراز هویت دو مرحله ای TOTP و کلیدهای امنیتی سخت افزاری با استفاده از استانداردهای FIDO2 یا U2F پشتیبانی می کند. استفاده از کلید امنیتی سخت افزاری نیازمند راه‌اندازی احراز هویت دو مرحله ای TOTP است.
 
 
 
 #### :material-check:{ .pg-green } امنیت داده
 
-Skiff Mail has zero access encryption at rest for all of your data. This means the messages and other data stored in your account are only readable by you.
+Skiff Mail رمزگذاری دسترسی صفر (zero access) در حالت استراحت (at rest) را برای همه داده‌های شما دارد. این بدان معناست که پیام ها و سایر داده های ذخیره شده در حساب شما فقط توسط شما قابل خواندن است.
 
 
 
-#### :material-information-outline:{ .pg-blue } Email Encryption
+#### :material-information-outline:{ .pg-blue } رمزگذاری ایمیل
 
-Skiff Mail does not use OpenPGP. Emails are only encrypted with E2EE to other Skiff Mail users. Skiff does not have a "temporary inbox" or "passworded email" feature like some other providers have, so that external users cannot receive or reply to messages with E2EE.
+Skiff Mail از OpenPGP استفاده نمی کند. ایمیل‌ها فقط با رمزگذاری انتها به انتها E2EE برای سایر کاربران Skiff Mail رمزگذاری می‌شوند. Skiff does not have a "temporary inbox" or "passworded email" feature like some other providers have, so that external users cannot receive or reply to messages with E2EE.
 
 
 
@@ -271,7 +271,7 @@ Paid Tutanota accounts can use up to 5 [aliases](https://tutanota.com/faq#alias)
 
 
 
-#### :material-information-outline:{ .pg-blue } Private Payment Methods
+#### :material-information-outline:{ .pg-blue } روش های پرداخت خصوصی
 
 Tutanota only directly accepts credit cards and PayPal, however [cryptocurrency](cryptocurrency.md) can be used to purchase gift cards via their [partnership](https://tutanota.com/faq/#cryptocurrency) with Proxystore.
 
@@ -285,11 +285,11 @@ Tutanota supports [two factor authentication](https://tutanota.com/faq#2fa) with
 
 #### :material-check:{ .pg-green } امنیت داده
 
-Tutanota has [zero access encryption at rest](https://tutanota.com/faq#what-encrypted) for your emails, [address book contacts](https://tutanota.com/faq#encrypted-address-book), and [calendars](https://tutanota.com/faq#calendar). This means the messages and other data stored in your account are only readable by you.
+Tutanota has [zero access encryption at rest](https://tutanota.com/faq#what-encrypted) for your emails, [address book contacts](https://tutanota.com/faq#encrypted-address-book), and [calendars](https://tutanota.com/faq#calendar). این بدان معناست که پیام ها و سایر داده های ذخیره شده در حساب شما فقط توسط شما قابل خواندن است.
 
 
 
-#### :material-information-outline:{ .pg-blue } Email Encryption
+#### :material-information-outline:{ .pg-blue } رمزگذاری ایمیل
 
 Tutanota [does not use OpenPGP](https://www.tutanota.com/faq/#pgp). Tutanota accounts can only receive encrypted emails from non-Tutanota email accounts when sent via a [temporary Tutanota mailbox](https://www.tutanota.com/howto/#encrypted-email-external).
 

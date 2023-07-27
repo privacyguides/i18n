@@ -6,9 +6,9 @@ description: אנדרואיד היא מערכת הפעלה בקוד פתוח ע�
 
 ![לוגו אנדרואיד](../assets/img/android/android.svg){ align=right }
 
-The **Android Open Source Project** is a secure mobile operating system featuring strong [app sandboxing](https://source.android.com/security/app-sandbox), [Verified Boot](https://source.android.com/security/verifiedboot) (AVB), and a robust [permission](https://developer.android.com/guide/topics/permissions/overview) control system.
+ה**פרויקט הקוד הפתוח של אנדרואיד** הוא מערכת הפעלה מאובטחת לנייד הכוללת [אפליקצית ארגז חול](https://source.android.com/security/app-sandbox), [אתחול מאומת](https://source.android.com/security/verifiedboot) (AVB), ו- [הרשאות](https://developer.android.com/guide/topics/permissions/overview) מערכת בקרת חזקה.
 
-## Our Advice
+## העצה שלנו
 
 ### בחירת הפצת אנדרואיד
 
@@ -30,19 +30,19 @@ AFWall+ פועל על בסיס גישת [סינון חבילות](https://en.wik
 
 אנחנו לא מאמינים שקורבנות האבטחה שנעשו על ידי השתרשות טלפון שווים את יתרונות הפרטיות המפוקפקים של אפליקציות אלה.
 
-### Install Updates
+### התקן עדכונים
 
 חשוב לא להשתמש בגרסת [סוף החיים](https://endoflife.date/android) של אנדרואיד. גרסאות חדשות יותר של אנדרואיד לא רק מקבלות עדכוני אבטחה עבור מערכת ההפעלה אלא גם עדכונים חשובים לשיפור הפרטיות.
 
-For example, [prior to Android 10](https://developer.android.com/about/versions/10/privacy/changes) any apps with the [`READ_PHONE_STATE`](https://developer.android.com/reference/android/Manifest.permission#READ_PHONE_STATE) permission could access sensitive and unique serial numbers of your phone such as [IMEI](https://en.wikipedia.org/wiki/International_Mobile_Equipment_Identity), [MEID](https://en.wikipedia.org/wiki/Mobile_equipment_identifier), or your SIM card's [IMSI](https://en.wikipedia.org/wiki/International_mobile_subscriber_identity); whereas now they must be system apps to do so. אפליקציות מערכת מסופקות רק על ידי הפצת OEM או אנדרואיד.
+לדוגמה, [לפני אנדרואיד 10](https://developer.android.com/about/versions/10/privacy/changes) כל אפליקציה עם הרשאת [`READ_PHONE_STATE`](https://developer.android.com/reference/android/Manifest.permission#READ_PHONE_STATE) יכלו לגשת למספרים סידוריים רגישים וייחודיים של הטלפון שלך כגון [IMEI](https://en.wikipedia.org/wiki/International_Mobile_Equipment_Identity), [MEID](https://en.wikipedia.org/wiki/Mobile_equipment_identifier), כרטיס ה-SIM שלך;[IMSI](https://en.wikipedia.org/wiki/International_mobile_subscriber_identity), בעוד שכעת הם חייבים להיות אפליקציות מערכת כדי לעשות זאת. אפליקציות מערכת מסופקות רק על ידי הפצת OEM או אנדרואיד.
 
-### Sharing Media
+### שיתוף מדיה
 
-You can avoid giving many apps permission to access your media with Android's built-in sharing features. Many applications allow you to "share" a file with them for media upload.
+אתה יכול להימנע ממתן הרשאות לאפליקציות רבות לגשת למדיה שלך עם תכונות השיתוף המובנות של אנדרואיד. יישומים רבים מאפשרים לך "לשתף" איתם קובץ להעלאת מדיה.
 
-For example, if you want to post a picture to Discord you can open your file manager or gallery and share that picture with the Discord app, instead of granting Discord full access to your media and photos.
+לדוגמה, אם אתה רוצה לפרסם תמונה ל-Discord אתה יכול לפתוח את מנהל הקבצים או הגלריה שלך ולשתף את התמונה עם אפליקציית Discord, במקום להעניק ל-Discord גישה מלאה למדיה ולתמונות שלך.
 
-## Security Protections
+## הגנות אבטחה
 
 ### אתחול מאומת
 
@@ -107,7 +107,7 @@ Fairphone, למשל, משווקת את המכשירים שלהם כמקבלים 
 
     אפליקציות ידידותיות לפרטיות כגון [Bitwarden](https://reports.exodus-privacy.eu.org/en/reports/com.x8bit.bitwarden/latest/) עשויות להציג עוקבים מסוימים כגון [Google Firebase Analytics](https://reports.exodus-privacy.eu.org/en/trackers/49/). ספרייה זו כוללת את [Firebase Cloud Messaging](https://en.wikipedia.org/wiki/Firebase_Cloud_Messaging) שיכולה לספק [הודעות דחיפה](https://en.wikipedia.org/wiki/Push_technology) באפליקציות. זה [המקרה](https://fosstodon.org/@bitwarden/109636825700482007) עם Bitwarden. זה לא אומר ש-Bitwarden משתמש בכל תכונות הניתוח שמסופקות על ידי Google Firebase Analytics.
 
-## Privacy Features
+## תכונות פרטיות
 
 ### פרופילי משתמשים
 
@@ -133,7 +133,7 @@ Fairphone, למשל, משווקת את המכשירים שלהם כמקבלים 
 
 למכשירי אנדרואיד מודרניים יש בוררים גלובליים לביטול Bluetooth ושירותי מיקום. אנדרואיד 12 הציגה מתגים למצלמה ולמיקרופון. כאשר אינו בשימוש, אנו ממליצים להשבית את התכונות הללו. אפליקציות לא יכולות להשתמש בתכונות מושבתות (גם אם ניתנה הרשאה אישית) עד להפעלה מחדש.
 
-## Google Services
+## שירותי גוגל
 
 אם אתה משתמש במכשיר עם שירותי Google, בין אם מערכת ההפעלה ברירת מחדל שלך או מערכת הפעלה המארחת בבטחה את שירותי Google Play כמו GrapheneOS, ישנם מספר שינויים נוספים שתוכל לבצע כדי לשפר את הפרטיות שלך. אנו עדיין ממליצים להימנע לחלוטין משירותי Google, או להגביל את שירותי Google Play לפרופיל משתמש/עבודה ספציפי על ידי שילוב של בקר מכשיר כמו *Shelter* עם Google Play Sandboxed של GrapheneOS.
 

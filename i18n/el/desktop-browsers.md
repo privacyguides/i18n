@@ -1,14 +1,14 @@
 ---
-meta_title: "Privacy Respecting Web Browsers for PC and Mac - Privacy Guides"
-title: "Desktop Browsers"
+meta_title: "Περιηγητές ιστού, οι οποίοι σέβονται την ιδιωτικότητα, για PC και Mac- Οδηγοί Ιδιωτικότητας"
+title: "Περιηγητές Επιφάνειας Εργασίας"
 icon: material/laptop
-description: These web browsers provide stronger privacy protections than Google Chrome.
+description: Αυτοί οι περιηγητές ιστού προασπίζουν την ιδιωτικότητα σε σημαντικότερο βαθμό από το Google Chrome.
 cover: desktop-browsers.png
 schema:
   - 
     "@context": http://schema.org
     "@type": WebPage
-    name: Private Desktop Browser Recommendations
+    name: Προτάσεις για Περιηγητές Επιφάνειας Εργασίας, με έμφαση στην ιδιωτικότητα
     url: "./"
     relatedLink: "../mobile-browsers/"
   - 
@@ -57,9 +57,9 @@ schema:
       url: "./"
 ---
 
-These are our currently recommended desktop web browsers and configurations for standard/non-anonymous browsing. We recommend [Mullvad Browser](#mullvad-browser) if you are focused on strong privacy protections and anti-fingerprinting out of the box, [Firefox](#firefox) for casual internet browsers looking for a good alternative to Google Chrome, and [Brave](#brave) if you need Chromium browser compatibility.
+Αυτοί είναι οι περιηγητές ιστού επιφάνειας εργασίας, τους οποίους προτείνουμε επί του παρόντος, καθώς και οι ρυθμίσεις για τυπική/μη-ανώνυμη περιήγηση. Προτείνουμε τον [ περιηγητή Mullvad ](#mullvad-browser), εαν δίνεται έμφαση στην προστασία της ιδιωτικότητας και στη προστασία έναντι του fingerprinting, η οποία να είναι διαθέσιμη εξαρχής, [ το Firefox](#firefox) για καθημερινούς περιηγητές στο διαδίκτυο, που αναζητούν μια καλή εναλλακτική λύση στο Google Chrome και [ το Brave](#brave) αν χρειάζεστε συμβατότητα με προγράμματα περιήγησης, τα οποία βασίζονται στο Chromium.
 
-If you need to browse the internet anonymously, you should use [Tor](tor.md) instead. We make some configuration recommendations on this page, but all browsers other than Tor Browser will be traceable by *somebody* in some manner or another.
+Εάν χρειάζεται να περιηγηθείτε στο διαδίκτυο ανώνυμα, θα πρέπει σε αυτή την περίπτωση να χρησιμοποιήσετε το [Tor](tor.md). Κάνουμε κάποιες προτάσεις, όσον αφορά τις ρυθμίσεις, σε αυτή τη σελίδα, αλλά όλα τα προγράμματα περιήγησης εκτός από το Tor Browser θα είναι ανιχνεύσιμα από *κάποιον* με τον ένα ή τον άλλο τρόπο.
 
 ## Mullvad Browser
 
@@ -67,40 +67,40 @@ If you need to browse the internet anonymously, you should use [Tor](tor.md) ins
 
     ![Mullvad Browser logo](assets/img/browsers/mullvad_browser.svg){ align=right }
     
-    **Mullvad Browser** is a version of [Tor Browser](tor.md#tor-browser) with Tor network integrations removed, aimed at providing Tor Browser's anti-fingerprinting browser technologies to VPN users. It is developed by the Tor Project and distributed by [Mullvad](vpn.md#mullvad), and does **not** require the use of Mullvad's VPN.
+    **Ο περιηγητής Mullvad** είναι μία έκδοση του [περιηγητή Tor](tor.md#tor-browser), στον οποίο έχουν αφαιρεθεί οι ενσωματώσεις του δικτύου Tor και αποσκοπεί να προσφέρει τις τεχνολογίες anti-fingerprinting, του περιηγητή Tor, στους χρήστες VPN. Αναπτύσσεται από το Tor Project και διανέμεται από τη [Mullvad](vpn.md#mullvad), και **δεν** απαιτεί τη χρήση του VPN της Mullvad.
     
     [:octicons-home-16: Homepage](https://mullvad.net/en/browser){ .md-button .md-button--primary }
     [:octicons-eye-16:](https://mullvad.net/en/help/privacy-policy/){ .card-link title="Privacy Policy" }
     [:octicons-info-16:](https://mullvad.net/en/help/tag/mullvad-browser/){ .card-link title=Documentation}
     [:octicons-code-16:](https://gitlab.torproject.org/tpo/applications/mullvad-browser){ .card-link title="Source Code" }
     
-    ??? downloads
+    ;;; σημεία λήψης
     
         - [:simple-windows11: Windows](https://mullvad.net/en/download/browser/windows)
         - [:simple-apple: macOS](https://mullvad.net/en/download/browser/macos)
         - [:simple-linux: Linux](https://mullvad.net/en/download/browser/linux)
 
-Like [Tor Browser](tor.md), Mullvad Browser is designed to prevent fingerprinting by making your browser fingerprint identical to all other Mullvad Browser users, and it includes default settings and extensions that are automatically configured by the default security levels: *Standard*, *Safer* and *Safest*. Therefore, it is imperative that you do not modify the browser at all outside adjusting the default [security levels](https://tb-manual.torproject.org/security-settings/). Other modifications would make your fingerprint unique, defeating the purpose of using this browser. If you want to configure your browser more heavily and fingerprinting is not a concern for you, we recommend [Firefox](#firefox) instead.
+Όπως και ο [περιηγητής Tor ](tor.md), έτσι και ο περιηγητής Mullvad έχει σχεδιαστεί για να αποτρέπει το fingerprinting, καθιστώντας το ψηφιακό δακτυλικό αποτύπωμα του προγράμματος περιήγησης πανομοιότυπο με όλων των υπόλοιπων χρηστών του περιηγητή Mullvad, και περιλαμβάνει προεπιλεγμένες ρυθμίσεις και επεκτάσεις, οι οποίες διαμορφώνονται αυτόματα από τα προεπιλεγμένα επίπεδα ασφαλείας: *τυπικό*, *ασφαλέστερο* και *ασφαλέστατο*. Ως εκ τούτου, είναι επιτακτική ανάγκη να μην τροποποιήσετε καθόλου το πρόγραμμα περιήγησης εκτός από την προσαρμογή των προεπιλεγμένων επιπέδων ασφαλείας [](https://tb-manual.torproject.org/security-settings/). Άλλες τροποποιήσεις θα έκαναν το ψηφιακό δακτυλικό σας αποτύπωμα μοναδικό, αναιρώντας έτσι τον σκοπό χρήσης αυτού του προγράμματος περιήγησης. Εάν θέλετε να ρυθμίσετε το πρόγραμμα περιήγησης σας σε μεγαλύτερο βαθμό και το fingerprinting δεν αποτελεί μία από τις έγνοιες σας, τότε σας προτείνουμε το [Firefox](#firefox).
 
 ### Anti-Fingerprinting
 
-**Without** using a [VPN](vpn.md), Mullvad Browser provides the same protections against [naive fingerprinting scripts](https://github.com/arkenfox/user.js/wiki/3.3-Overrides-%5BTo-RFP-or-Not%5D#-fingerprinting) as other private browsers like Firefox+[Arkenfox](#arkenfox-advanced) or [Brave](#brave). Mullvad Browser provides these protections out of the box, at the expense of some flexibility and convenience that other private browsers can provide.
+**Χωρίς** τη χρήση ενός [VPN](vpn.md), ο περιγητής Mullvad παρέχει την ίδια προστασία έναντι [naive fingerprinting scripts](https://github.com/arkenfox/user.js/wiki/3.3-Overrides-%5BTo-RFP-or-Not%5D#-fingerprinting) με άλλα προγράμματα περιήγησης, που δίνουν έμφαση την ιδιωτικότητα, όπως το Firefox+[Arkenfox](#arkenfox-advanced) ή [ το Brave](#brave). Ο περιηγητής Mullvad παρέχει εξαρχής αυτές τις προστασίες εις βάρος ορισμένης ευελιξίας και ευκολίας, που δύναται να προσφέρουν άλλα προγράμματα περιήγησης, τα οποία δίνουν έμφαση στην ιδιωτικότητα.
 
-==For the strongest anti-fingerprinting protection, we recommend using Mullvad Browser in conjunction **with** a VPN==, whether that is Mullvad or another recommended VPN provider. When using a VPN with Mullvad Browser, you will share a fingerprint and a pool of IP addresses with many other users, giving you a "crowd" to blend in with. This strategy is the only way to thwart advanced tracking scripts, and is the same anti-fingerprinting technique used by Tor Browser.
+==Για την ισχυρότερη προστασία έναντι του fingerprinting, συνιστούμε τη χρήση του περιηγητή Mullvad σε συνδυασμό **με** ένα VPN==, είτε αυτό είναι της Mullvad είτε ενός άλλου συνιστώμενου παρόχου VPN. Όταν χρησιμοποιείτε ένα VPN με το περιηγητή Mullvad, θα μοιράζεστε ένα ψηφιακό δακτυλικό αποτύπωμα και μια ομάδα διευθύνσεων IP με πολλούς άλλους χρήστες, δίνοντάς σας έτσι ένα "πλήθος" για να κρυφτείται ανάμεσα. Αυτή η στρατηγική είναι ο μόνος τρόπος για να αποτρέψετε προηγμένα tracking scripts και είναι η ίδια τεχνική κατά του fingerprinting, που χρησιμοποιείται από το περιηγητή Tor.
 
-Note that while you can use Mullvad Browser with any VPN provider, other people on that VPN must also be using Mullvad Browser for this "crowd" to exist, something which is more likely on Mullvad VPN compared to other providers, particularly this close to the launch of Mullvad Browser. Mullvad Browser does not have built-in VPN connectivity, nor does it check whether you are using a VPN before browsing; your VPN connection has to be configured and managed separately.
+Σημειώστε, ότι ενώ μπορείτε να χρησιμοποιήσετε το περιηγητή Mullvad σε συνδυασμό με οποιονδήποτε πάροχο VPN, οι άλλοι άνθρωποι σε αυτό το VPN πρέπει επίσης να χρησιμοποιούν το περιηγητή Mullvad, ετσί ώστε να μπορέσει να υπάρξει αυτό το "πλήθος", κάτι που είναι πιο πιθανό στο Mullvad VPN σε σύγκριση με άλλους παρόχους, ιδιαίτερα τόσο κοντά στην κυκλοφορία του Mullvad Browser. Ο περιηγητής Mullvad δε διαθέτει ενσωματωμένη συνδεσιμότητα VPN, ούτε ελέγχει εάν χρησιμοποιείτε ένα VPN πριν από την περιήγηση- η σύνδεση VPN πρέπει να ρυθμιστεί και να υπόκειται σε διαχείρισή ξεχωριστά.
 
-Mullvad Browser comes with the *uBlock Origin* and *NoScript* browser extensions pre-installed. While we typically [don't recommend](#extensions) adding *additional* browser extensions, these extensions that come pre-installed with the browser should **not** be removed or configured outside their default values, because doing so would noticeably make your browser fingerprint distinct from other Mullvad Browser users. It also comes pre-installed with the Mullvad Browser Extension, which *can* be safely removed without impacting your browser fingerprint if you would like, but is also safe to keep even if you don't use Mullvad VPN.
+Ο περιηγητής Mullvad διαθέτει προεγκατεστημένες τις επεκτάσεις *uBlock Origin* και *NoScript*. Ενώ συνήθως [δεν συνιστούμε](#extensions) την συμπερίληψη*πρόσθετων επεκτάσεων*, αυτές οι επεκτάσεις, οι οποίες είναι προ-εγκατεστημένες στο πρόγραμμα περιήγησης θα πρέπει να **μην** αφαιρεθούν ή να ρυθμιστούν πέρα από τις προεπιλεγμένες τιμές τους, διότι κάτι τέτοιο θα κάνει αισθητά το ψηφιακό δακτυλικό αποτύπωμα του περιηγητή σας διακριτό από τους άλλους χρήστες του προγράμματος περιήγησης Mullvad. Έρχεται επίσης προεγκατεστημένο με την επέκταση περιήγησης Mullvad, η οποία *μπορεί* να αφαιρεθεί με ασφάλεια χωρίς να επηρεάσει το ψηφιακό δακτυλικό αποτύπωμα του προγράμματος περιήγησής σας, αν θέλετε, αλλά είναι επίσης ασφαλές να το διατηρήσετε ακόμα και αν δεν χρησιμοποιείτε το Mullvad VPN.
 
-### Private Browsing Mode
+### Λειτουργία Ιδιωτικής Περιήγησης
 
-Mullvad Browser operates in permanent private browsing mode, meaning your history, cookies, and other site data will always be cleared every time the browser is closed. Your bookmarks, browser settings, and extension settings will still be preserved.
+Ο περιηγητής Mullvad βρίσκεται μόνιμα σε λειτουργία ιδιωτικής περιήγησης, με αποτέλεσμά το ιστορικό, τα cookies και άλλα δεδομένα του ιστότοπου να διαγράφονται πάντα κάθε φορά που κλείνετε το πρόγραμμα περιήγησης. Οι σελιδοδείκτες, οι ρυθμίσεις του προγράμματος περιήγησης και οι ρυθμίσεις των επεκτάσεων θα διατηρηθούν.
 
-This is required to prevent advanced forms of tracking, but does come at the cost of convenience and some Firefox features, such as Multi-Account Containers. Remember you can always use multiple browsers, for example, you could consider using Firefox+Arkenfox for a few sites that you want to stay logged in on or otherwise don't work properly in Mullvad Browser, and Mullvad Browser for general browsing.
+Αυτό είναι απαραίτητο για την αποτροπή προηγμένων μορφών εντοπισμού, αλλά έχει ως κόστος την ευκολία και ορισμένες λειτουργίες του Firefox, όπως τα Multi-Account Containers. Θυμηθείτε ότι μπορείτε πάντα να χρησιμοποιείτε πολλαπλά προγράμματα περιήγησης, για παράδειγμα, μπορείτε να χρησιμοποιήσετε το Firefox+Arkenfox για μερικούς ιστότοπους, στους οποίους επιθυμείται να παραμείνετε συνδεδεμένοι ή οι οποίοι δεν λειτουργούν σωστά στο περιηγήτη Mullvad, και το περιηγητή Mullvad για γενική περιήγηση.
 
 ### Mullvad Leta
 
-Mullvad Browser comes with DuckDuckGo set as the default [search engine](search-engines.md), but it also comes preinstalled with **Mullvad Leta**, a search engine which requires an active Mullvad VPN subscription to access. Mullvad Leta queries Google's paid search API directly (which is why it is limited to paying subscribers), however because of this limitation it is possible for Mullvad to correlate search queries and Mullvad VPN accounts. For this reason we discourage the use of Mullvad Leta, even though Mullvad collects very little information about their VPN subscribers.
+Ο περιηγητής Mullvad διαθέτει το DuckDuckGo ως προεπιλεγμένη μηχανή αναζήτησης [](search-engines.md), αλλά έχει επίσης προεγκατεστημένο και το **Mullvad Leta**, μια μηχανή αναζήτησης που απαιτεί μια ενεργή συνδρομή Mullvad VPN για πρόσβαση. Το Mullvad Leta πραγματοποιεί ερωτήματα απευθείας στο επί πληρωμή API αναζήτησης της Google (γι' αυτό και περιορίζεται σε συνδρομητές που πληρώνουν), ωστόσο, λόγω αυτού του περιορισμού, η Mullvad δύναται να συσχετίσει ερωτήματα αναζήτησης και λογαριασμούς Mullvad VPN. Για το λόγο αυτό, αποθαρρύνουμε τη χρήση του Mullvad Leta, παρόλο που η Mullvad συλλέγει πολύ λίγες πληροφορίες για τους συνδρομητές VPN της.
 
 ## Firefox
 

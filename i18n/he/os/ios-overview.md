@@ -1,36 +1,36 @@
 ---
-title: iOS Overview
+title: סקירה כללית של iOS
 icon: simple/apple
-description: iOS is a mobile operating system developed by Apple for the iPhone.
+description: iOS היא מערכת הפעלה ניידת שפותחה על ידי אפל עבור האייפון.
 ---
 
-**iOS** and **iPadOS** are proprietary mobile operating systems developed by Apple for their iPhone and iPad products, respectively. If you have an Apple mobile device, you can increase your privacy by disabling some built-in telemetry features, and hardening some privacy and security settings which are built in to the system.
+**iOS** ו-**iPadOS** הן מערכות הפעלה קנייניות לנייד שפותחו על ידי אפל עבור מוצרי האייפון והאייפד שלהם, בהתאמה. אם יש לך מכשיר נייד של אפל, תוכל להגביר את הפרטיות שלך על ידי השבתת כמה תכונות טלמטריה מובנות, והקשחת הגדרות פרטיות ואבטחה המובנות במערכת.
 
-## Privacy Notes
+## הערות פרטיות
 
-iOS devices are frequently praised by security experts for their robust data protection and adherence to modern best-practices. However, the restrictiveness of Apple's ecosystem—particularly with their mobile devices—does still hamper privacy in a number of ways.
+מכשירי iOS זוכים לעתים קרובות לשבחים על ידי מומחי אבטחה על הגנת הנתונים האיתנה והעמידה בשיטות המומלצות המודרניות. עם זאת, ההגבלה של המערכת האקולוגית של אפל - במיוחד עם המכשירים הניידים שלה - עדיין פוגעת בפרטיות במספר דרכים.
 
-We generally consider iOS to provide better than average privacy and security protections for most people, compared to stock Android devices from any manufacturer. However, you can achieve even higher standards of privacy with a [custom Android operating system](../android.md) like GrapheneOS, if you want or need to be completely independent of Apple or Google's cloud services.
+בדרך כלל אנו מחשיבים את iOS כמספקת הגנות פרטיות ואבטחה טובות מהממוצע עבור רוב האנשים, בהשוואה למכשירי אנדרואיד במלאי מכל יצרן. עם זאת, אתה יכול להשיג סטנדרטים גבוהים עוד יותר של פרטיות עם [מערכת הפעלה אנדרואיד מותאמת אישית](../android.md) כמו GrapheneOS, אם אתה רוצה או צריך להיות בלתי תלוי לחלוטין באפל או בשירותי הענן של גוגל.
 
-### Activation Lock
+### נעילת הפעלה
 
-All iOS devices must be checked against Apple's Activation Lock servers when they are initially set up or reset, meaning an internet connection is **required** to use an iOS device.
+כל מכשירי iOS חייבים להיבדק מול שרתי Activation Lock של אפל כאשר הם מוגדרים או מאפסים לראשונה, כלומר חיבור לאינטרנט **נדרש** כדי להשתמש במכשיר iOS.
 
-### Mandatory App Store
+### חנות אפליקציות חובה
 
-The only source for apps on iOS is Apple's App Store, which requires an Apple ID to access. This means that Apple has a record of every app you install on your device, and can likely tie that information to your actual identity if you provide the App Store with a payment method.
+המקור היחיד לאפליקציות ב-iOS הוא חנות האפליקציות של אפל, שדורשת מזהה אפל כדי לגשת אליה. משמעות הדבר היא כי לאפל יש תיעוד של כל אפליקציה שאתה מתקין במכשיר שלך, וסביר להניח שהיא יכולה לקשור את המידע הזה לזהותך האמיתית אם תספק ל-App Store אמצעי תשלום.
 
-### Invasive Telemetry
+### טלמטריה פולשנית
 
-Apple has historically had problems with properly anonymizing their telemetry on iOS. [In 2019](https://www.theguardian.com/technology/2019/jul/26/apple-contractors-regularly-hear-confidential-details-on-siri-recordings), Apple was found to transmit Siri recordings—some containing highly confidential information—to their servers for manual review by third-party contractors. While they temporarily stopped that program after that practice was [widely reported on](https://www.theverge.com/2019/8/23/20830120/apple-contractors-siri-recordings-listening-1000-a-day-globetech-microsoft-cortana), the problem wasn't completely resolved [until 2021](https://www.theguardian.com/technology/2021/jun/07/apple-overhauls-siri-to-address-privacy-concerns-and-improve-performance).
+לאפל היו בעבר בעיות עם אנונימיזציה נכונה של הטלמטריה שלהם ב-iOS. [בשנת 2019](https://www.theguardian.com/technology/2019/jul/26/apple-contractors-regularly-hear-confidential-details-on-siri-recordings), אפל נמצאה משדרת הקלטות Siri - חלקן מכילות מידע סודי ביותר - לשרתים שלהן לבדיקה ידנית על ידי קבלני צד שלישי. בזמן שהם הפסיקו זמנית את התוכנית הזו אחרי האימון הזה היה [דיווח נרחב על](https://www.theverge.com/2019/8/23/20830120/apple-contractors-siri-recordings-listening-1000-a-day-globetech-microsoft-cortana), הבעיה לא נפתרה לחלוטין [עד 2021](https://www.theguardian.com/technology/2021/jun/07/apple-overhauls-siri-to-address-privacy-concerns-and-improve-performance).
 
-More recently, Apple has been found to [transmit analytics even when analytics sharing is disabled](https://gizmodo.com/apple-iphone-analytics-tracking-even-when-off-app-store-1849757558) on iOS, and this data [appears](https://twitter.com/mysk_co/status/1594515229915979776) to be easily linked to unique iCloud account identifiers despite supposedly being anonymous. Apple has not fixed [these problems](https://gizmodo.com/clarence-thomas-aide-venmo-laywers-supreme-court-1850631585) as of July 2023.
+לאחרונה, נמצאה שאפל [משדרת ניתוח נתונים גם כאשר שיתוף הניתוח מושבת ](https://gizmodo.com/apple-iphone-analytics-tracking-even-when-off-app-store-1849757558) ב-iOS, והנתונים האלה [נראים](https://twitter.com/mysk_co/status/1594515229915979776) מקושרים בקלות למזהים ייחודיים של חשבון iCloud למרות שהם כביכול אנונימיים. אפל לא תיקנה את [בעיות אלו](https://gizmodo.com/clarence-thomas-aide-venmo-laywers-supreme-court-1850631585) החל מיולי 2023.
 
 ## תצורה מומלצת
 
 ### iCloud
 
-The majority of privacy and security concerns with Apple products are related to their cloud services, not their hardware or software. When you use Apple services like iCloud, most of your information is stored on their servers and secured with keys which Apple has access to by default. You can check [Apple's documentation](https://support.apple.com/HT202303) for information on which services are end-to-end encrypted. Anything listed as "in transit" or "on server" means it's possible for Apple to access that data without your permission. This level of access has occasionally been abused by law enforcement to get around the fact that your data is otherwise securely encrypted on your device, and of course Apple is vulnerable to data breaches like any other company.
+רוב דאגות הפרטיות והאבטחה של מוצרי Apple קשורות לשירותי הענן שלהם, לא לחומרה או לתוכנה שלהם. כאשר אתה משתמש בשירותי אפל כמו iCloud, רוב המידע שלך מאוחסן בשרתים שלהם ומאובטח באמצעות מפתחות שאליהם יש לאפל גישה כברירת מחדל. You can check [Apple's documentation](https://support.apple.com/HT202303) for information on which services are end-to-end encrypted. Anything listed as "in transit" or "on server" means it's possible for Apple to access that data without your permission. This level of access has occasionally been abused by law enforcement to get around the fact that your data is otherwise securely encrypted on your device, and of course Apple is vulnerable to data breaches like any other company.
 
 Therefore, if you do use iCloud you should [enable **Advanced Data Protection**](https://support.apple.com/HT212520). This encrypts nearly all of your iCloud data with keys stored on your devices (end-to-end encryption), rather than Apple's servers, so that your iCloud data is secured in the event of a data breach, and otherwise hidden from Apple.
 

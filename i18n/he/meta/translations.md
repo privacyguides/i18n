@@ -1,14 +1,14 @@
 ---
-title: Translations
+title: תרגומים
 ---
 
-Crowdin has good documentation, and we suggest looking at their [Getting Started](https://support.crowdin.com/crowdin-intro/) guide. Our site is largely written in [Markdown](https://en.wikipedia.org/wiki/Markdown), so it should be easy to contribute. This page contains some helpful pointers for translating some specific syntax you may encounter on our site.
+ל-Crowdin יש תיעוד טוב, ואנו מציעים לעיין במדריך [תחילת העבודה](https://support.crowdin.com/crowdin-intro/) שלהם. האתר שלנו כתוב ברובו ב[Markdown](https://en.wikipedia.org/wiki/Markdown), כך שיהיה קל לתרום. דף זה מכיל כמה עצות מועילות לתרגום תחביר ספציפי שאתה עשוי להיתקל בו באתר שלנו.
 
-Please join our localization room on Matrix ([#pg-i18n:aragon.sh](https://matrix.to/#/%23pg-i18n:aragon.sh)) if you have any additional questions, and read our [announcement blog post](https://blog.privacyguides.org/2023/02/26/i18n-announcement/) for additional information about the project.
+אנא הצטרף לחדר הלוקליזציה שלנו ב-Matrix ([#pg-i18n:aragon.sh](https://matrix.to/#/%23pg-i18n:aragon.sh)) אם יש לך שאלות נוספות, וקרא את [פוסט בלוג ההכרזה](https://blog.privacyguides.org/2023/02/26/i18n-announcement/) שלנו לקבלת מידע נוסף על הפרויקט.
 
-Note that the English version of the site is the primary version, meaning changes occur there first. If you notice a language falling behind the English version, please help out. We cannot guarantee the accuracy of all our translations. If you have a suggestion about content specific to your region, please open an issue or pull request to our [main repository](https://github.com/privacyguides/privacyguides.org).
+שימו לב שהגרסה האנגלית של האתר היא הגרסה הראשית, כלומר שינויים מתרחשים שם תחילה. אם אתה מבחין בשפה שנמצאת מאחורי הגרסה האנגלית, אנא עזור. איננו יכולים להבטיח את הדיוק של כל התרגומים שלנו. אם יש לך הצעה לגבי תוכן ספציפי לאזור שלך, פתח בעיה או שלח בקשה ל[מאגר הראשי](https://github.com/privacyguides/privacyguides.org) שלנו.
 
-## Admonitions
+## אזהרות
 
 Throughout the site we use MkDocs's [admonitions](https://squidfunk.github.io/mkdocs-material/reference/admonitions/#usage), to show information to readers. They come in a few different flavors such as `example`, `warning`, `tip`, etc.
 
