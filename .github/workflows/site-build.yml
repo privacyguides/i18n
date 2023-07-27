@@ -20,10 +20,7 @@
 
 name: 🏗️ Build Websites
 
-on:
-  workflow_dispatch:
-  schedule:
-    - cron: '0 17 * * *'
+on: [push, workflow_dispatch]
 
 jobs:
   build:
