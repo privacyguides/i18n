@@ -1,6 +1,6 @@
 ---
 title: Panoramica su iOS
-icon: semplice/apple
+icon: simple/apple
 description: iOS è un sistema operativo mobile sviluppato da Apple per l'iPhone.
 ---
 
