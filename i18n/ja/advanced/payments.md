@@ -1,11 +1,11 @@
 ---
-title: Private Payments
+title: プライベートな支払い
 icon: material/hand-coin
 ---
 
 There's a reason data about your buying habits is considered the holy grail of ad targeting: your purchases can leak a veritable treasure trove of data about you. Unfortunately, the current financial system is anti-privacy by design, enabling banks, other companies, and governments to easily trace transactions. Nevertheless, you have plenty of options when it comes to making payments privately.
 
-## Cash
+## 現金
 
 For centuries, **cash** has functioned as the primary form of private payment. Cash has excellent privacy properties in most cases, is widely accepted in most countries, and is **fungible**, meaning it is non-unique and completely interchangable.
 
@@ -13,7 +13,7 @@ Cash payment laws vary by country. In the United States, special disclosure is r
 
 Despite this, it’s typically the best option.
 
-## Prepaid Cards & Gift Cards
+## プリペイドカード & ギフトカード
 
 It’s relatively simple to purchase gift cards and prepaid cards at most grocery stores and convenience stores with cash. Gift cards usually don’t have a fee, though prepaid cards often do, so pay close attention to these fees and expiry dates. Some stores may ask to see your ID at checkout to reduce fraud.
 
@@ -25,7 +25,7 @@ Prepaid cards don’t allow cash withdrawals from ATMs or “peer-to-peer” pay
 
 Cash remains the best option for in-person purchases for most people. Gift cards can be useful for the savings they bring. Prepaid cards can be useful for places that don’t accept cash. Gift cards and prepaid cards are easier to use online than cash, and they are easier to acquire with cryptocurrencies than cash.
 
-### Online Marketplaces
+### オンライン マーケットプレイス
 
 If you have [cryptocurrency](../cryptocurrency.md), you can purchase gift cards with an online gift card marketplace. Some of these services offer ID verification options for higher limits, but they also allow accounts with just an email address. Basic limits start at $5,000-10,000 a day for basic accounts, and significantly higher limits for ID verified accounts (if offered).
 
@@ -41,7 +41,7 @@ Another way to protect your information from merchants online is to use virtual,
 
 These tend to be good options for recurring/subscription payments online, while prepaid gift cards are preferred for one-time transactions.
 
-## 暗号通貨
+## 仮想通貨
 
 Cryptocurrencies are a digital form of currency designed to work without central authorities such as a government or bank. While *some* cryptocurrency projects can allow you to make private transactions online, many use a public blockchain which does not provide any transaction privacy. Cryptocurrencies also tend to be very volatile assets, meaning their value can change rapidly and significantly at any time. As such, we generally don't recommend using cryptocurrency as a long-term store of value. If you decide to use cryptocurrency online, make sure you have a full understanding of its privacy aspects beforehand, and only invest amounts which would not be disastrous to lose.
 
@@ -51,7 +51,7 @@ Cryptocurrencies are a digital form of currency designed to work without central
     
     Additionally, many if not most cryptocurrencies are scams. Make transactions carefully with only projects you trust.
 
-### Privacy Coins
+### プライバシーコイン
 
 There are a number of cryptocurrency projects which purport to provide privacy by making transactions anonymous. We recommend using one which provides transaction anonymity **by default** to avoid operational errors.
 

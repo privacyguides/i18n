@@ -109,23 +109,6 @@ We highly recommend that you use mobile TOTP apps instead of desktop alternative
         - [:simple-googleplay: Google Play](https://play.google.com/store/apps/details?id=com.beemdevelopment.aegis)
         - [:simple-github: GitHub](https://github.com/beemdevelopment/Aegis/releases)
 
-### Raivo OTP (iOS)
-
-!!! recommendation
-
-    ![Raivo OTP logo](assets/img/multi-factor-authentication/raivo-otp.png){ align=right }
-    
-    **Raivo OTP** is a native, lightweight and secure time-based (TOTP) & counter-based (HOTP) password client for iOS. Raivo OTP offers optional iCloud backup & sync. Raivo OTP is also available for macOS in the form of a status bar application, however the Mac app does not work independently of the iOS app.
-    
-    [:octicons-home-16: 홈페이지](https://raivo-otp.com){ .md-button .md-button--primary }
-    [:octicons-eye-16:](https://raivo-otp.com/privacy-policy){ .card-link title="프라이버시 정책" }
-    [:octicons-code-16:](https://github.com/raivo-otp/ios-application){ .card-link title="소스 코드" }
-    [:octicons-heart-16:](https://raivo-otp.com/donate){ .card-link title=기부 }
-    
-    ??? downloads "다운로드"
-    
-        - [:simple-appstore: App Store](https://apps.apple.com/us/app/raivo-otp/id1459042137)
-
 ### 평가 기준
 
 **Privacy Guides는 권장 목록의 어떠한 프로젝트와도 제휴를 맺지 않았습니다.** 객관적인 권장 목록을 제공하기 위해, [일반적인 평가 기준](about/criteria.md)에 더해 명확한 요구 사항을 정립하였습니다. 어떠한 프로젝트를 선택해 사용하기 전에, 이러한 요구 사항들을 숙지하고 여러분 스스로 조사하는 과정을 거쳐 적절한 선택을 하시기 바랍니다.

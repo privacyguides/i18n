@@ -109,23 +109,6 @@ Nitrokey Pro 2, Nitrokey Storage 2 и предстоящий Nitrokey 3 подд
         - [:simple-googleplay: Google Play](https://play.google.com/store/apps/details?id=com.beemdevelopment.aegis)
         - [:simple-github: GitHub](https://github.com/beemdevelopment/Aegis/releases)
 
-### Raivo OTP (iOS)
-
-!!! recommendation
-
-    ![Логотип Raivo OTP](assets/img/multi-factor-authentication/raivo-otp.png){ align=right }
-    
-    **Raivo OTP** - это легкий и безопасный клиент TOTP & HOTP для iOS. Raivo OTP также может делать резервные копии в iCloud и синхронизировать эти данные. Raivo OTP также доступен для macOS в виде приложения в строке состояния, однако приложение для Mac не работает отдельно от приложения для iOS.
-    
-    [:octicons-home-16: Домашняя страница](https://raivo-otp.com){ .md-button .md-button--primary }
-    [:octicons-eye-16:](https://raivo-otp.com/privacy-policy){ .card-link title="Политика конфиденциальности" }
-    [:octicons-code-16:](https://github.com/raivo-otp/ios-application){ .card-link title="Исходный код" }
-    [:octicons-heart-16:](https://raivo-otp.com/donate){ .card-link title=Поддержать }
-    
-    ??? downloads "Скачать"
-    
-        - [:simple-appstore: App Store](https://apps.apple.com/us/app/raivo-otp/id1459042137)
-
 ### Критерии
 
 **Обрати внимание, что у нас нет связей ни с одним проектом, который мы рекомендуем.** В дополнение к [нашим стандартным критериям](about/criteria.md) мы разработали четкий набор требований, позволяющий давать объективные рекомендации. Перед тем, как вы решите выбрать какой-либо проект, мы рекомендуем вам ознакомиться со списком критериев и провести собственное исследование, чтобы убедиться в правильности своего выбора.

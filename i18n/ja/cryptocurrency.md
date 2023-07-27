@@ -11,7 +11,7 @@ Making payments online is one of the biggest challenges to privacy. These crypto
 
 !!! 警告
 
-    Many if not most cryptocurrency projects are scams. Make transactions carefully with only projects you trust.
+    ほとんどではないにしても、多くの仮想通貨プロジェクトは詐欺です。 信頼できるプロジェクトとのみ慎重に取引してください。
 
 ## Monero
 
@@ -44,7 +44,7 @@ Monero transaction graph privacy is limited by its relatively small ring signatu
 
 Ultimately, Monero is the strongest contender for a privacy-friendly cryptocurrency, but its privacy claims have **not** been definitively proven one way or the other. More time and research is needed to assess whether Monero is resilient enough to attacks to always provide adequate privacy.
 
-## Criteria
+## 基準
 
 **Please note we are not affiliated with any of the projects we recommend.** In addition to [our standard criteria](about/criteria.md), we have developed a clear set of requirements to allow us to provide objective recommendations. We suggest you familiarize yourself with this list before choosing to use a project, and conduct your own research to ensure it's the right choice for you.
 

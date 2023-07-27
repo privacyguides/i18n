@@ -67,8 +67,8 @@ The privacy policies and business practices of providers you choose are very imp
 
 자신에게 최고인 솔루션은 수십가지의 조건하에서도 작동하는 것을 가리키는 것이 아닙니다. 이런 솔루션들은 대개 현실적으로 사용하기 어렵습니다. 앞서 설명한 것과 같이, 보안과 편의성은 서로 반대되는 관계를 가집니다. Below, we provide some tips:
 
-1. ==Actions need to serve a particular purpose:== think about how to do what you want with the fewest actions.
-2. ==Remove human failure points:== We fail, get tired, and forget things. To maintain security, avoid relying on manual conditions and processes that you have to remember.
+1. ==행동은 목적을 가지고 이루어져야 합니다.== 최소한의 노력으로 목적을 달성하는 방법을 생각해보세요.
+2. ==자신의 의지력에 의존하지 마세요.== 사람은 실패하고, 지치고, 깜박하기 마련입니다. To maintain security, avoid relying on manual conditions and processes that you have to remember.
 3. ==Use the right level of protection for what you intend.== We often see recommendations of so-called law-enforcement or subpoena-proof solutions. These often require specialist knowledge and generally aren't what people want. There's no point in building an intricate threat model for anonymity if you can be easily de-anonymized by a simple oversight.
 
 So, how might this look?

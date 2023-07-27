@@ -1,16 +1,16 @@
 ---
-meta_title: "The Best Private and Secure Cloud Storage Providers - Privacy Guides"
+meta_title: "最高のプライベートで安全なクラウドストレージ プロバイダー - Privacy Guides"
 title: "クラウドストレージ"
 icon: material/file-cloud
-description: Many cloud storage providers require your trust that they will not look at your files. These are private alternatives!
+description: Many cloud storage providers require your trust that they will not look at your files. これらはプライベートな選択肢です！
 cover: cloud.png
 ---
 
-Many cloud storage providers require your full trust that they will not look at your files. The alternatives listed below eliminate the need for trust by implementing secure E2EE.
+多くのクラウドストレージプロバイダーは、あなたのファイルを見ないことを完全に信頼する必要があります。 以下に示す選択肢は、安全なE2EEを実装することにより、信頼の必要性を排除します。
 
 If these alternatives do not fit your needs, we suggest you look into using encryption software like [Cryptomator](encryption.md#cryptomator-cloud) with another cloud provider. Using Cryptomator in conjunction with **any** cloud provider (including these) may be a good idea to reduce the risk of encryption flaws in a provider's native clients.
 
-??? question "Looking for Nextcloud?"
+??? question "Nextcloudをお探しですか？"
 
     Nextcloud is [still a recommended tool](productivity.md) for self-hosting a file management suite, however we do not recommend third-party Nextcloud storage providers at the moment, because we do [not recommend](https://discuss.privacyguides.net/t/dont-recommend-nextcloud-e2ee/10352/29) Nextcloud's built-in E2EE functionality for home users.
 
@@ -20,23 +20,23 @@ If these alternatives do not fit your needs, we suggest you look into using encr
 
     ![Proton Drive logo](assets/img/cloud/protondrive.svg){ align=right }
     
-    **Proton Drive** is a Swiss encrypted cloud storage provider from the popular encrypted email provider [Proton Mail](email.md#proton-mail).
+    **Proton Drive** は、人気の暗号化電子メール プロバイダーである [Proton Mail](email.md#proton-mail) が提供するスイスの暗号化クラウドストレージ プロバイダーです。
     
-    [:octicons-home-16: Homepage](https://proton.me/drive){ class="md-button md-button--primary" }
-    [:octicons-eye-16:](https://proton.me/legal/privacy){ .card-link title="Privacy Policy" }
-    [:octicons-info-16:](https://proton.me/support/drive){ .card-link title=Documentation}
-    [:octicons-code-16:](https://github.com/ProtonMail/WebClients){ .card-link title="Source Code" }
+    [:octicons-home-16: ホームページ](https://proton.me/drive){ class="md-button md-button--primary" }
+    [:octicons-eye-16:](https://proton.me/legal/privacy){ .card-link title="プライバシーポリシー" }
+    [:octicons-info-16:](https://proton.me/support/drive){ .card-link title=ドキュメント}
+    [:octicons-code-16:](https://github.com/ProtonMail/WebClients){ .card-link title="ソースコード" }
     
-    ??? downloads
+    ??? ダウンロード
     
         - [:simple-googleplay: Google Play](https://play.google.com/store/apps/details?id=me.proton.android.drive)
         - [:simple-appstore: App Store](https://apps.apple.com/app/id1509667851)
 
-The Proton Drive web application has been independently audited by Securitum in [2021](https://proton.me/blog/security-audit-all-proton-apps), full details were not made available, but Securitum's letter of attestation states:
+Proton Drive Webアプリケーションは、 [2021](https://proton.me/blog/security-audit-all-proton-apps)年にSecuritumによって独立して監査されています。 詳細は公開されませんでしたが、Securitumの認証状態は以下のとおりです。
 
-> Auditors identified two low-severity vulnerabilities. Additionally, five general recommendations were reported. At the same time, we confirm that no important security issues were identified during the pentest.
+> 監査人は、2つの深刻度の低い脆弱性を特定しました。 また、5つの一般的な提言が報告された。 同時に、侵入テスト中に重要なセキュリティ上の問題が確認されなかったことを報告しています。
 
-Proton Drive's brand new mobile clients have not yet been publicly audited by a third-party.
+Proton Driveの新しいモバイル クライアントはまだ第三者による公的な監査を受けていません。
 
 ## Tresorit
 
@@ -44,7 +44,7 @@ Proton Drive's brand new mobile clients have not yet been publicly audited by a 
 
     ![Tresorit logo](assets/img/cloud/tresorit.svg){ align=right }
     
-    **Tresorit** is a Swiss-Hungarian encrypted cloud storage provider founded in 2011. Tresorit is owned by the Swiss Post, the national postal service of Switzerland.
+    **Tresorit** は、2011年に設立されたスイスとハンガリーの暗号化クラウドストレージ プロバイダーです。 Tresoritはスイスの国営郵便局であるスイスポストが所有している。
     
     [:octicons-home-16: Homepage](https://tresorit.com/){ class="md-button md-button--primary" }
     [:octicons-eye-16:](https://tresorit.com/legal/privacy-policy){ .card-link title="Privacy Policy" }
@@ -70,7 +70,7 @@ Tresorit has received a number of independent security audits:
 
 They have also received the Digital Trust Label, a certification from the [Swiss Digital Initiative](https://www.swiss-digital-initiative.org/digital-trust-label/) which requires passing [35 criteria](https://digitaltrust-label.swiss/criteria/) related to security, privacy, and reliability.
 
-## Criteria
+## 基準
 
 **Please note we are not affiliated with any of the projects we recommend.** In addition to [our standard criteria](about/criteria.md), we have developed a clear set of requirements to allow us to provide objective recommendations. We suggest you familiarize yourself with this list before choosing to use a project, and conduct your own research to ensure it's the right choice for you.
 
@@ -78,7 +78,7 @@ They have also received the Digital Trust Label, a certification from the [Swiss
 
     We are working on establishing defined criteria for every section of our site, and this may be subject to change. If you have any questions about our criteria, please [ask on our forum](https://discuss.privacyguides.net/latest) and don't assume we didn't consider something when making our recommendations if it is not listed here. There are many factors considered and discussed when we recommend a project, and documenting every single one is a work-in-progress.
 
-### Minimum Requirements
+### 最低要件
 
 - Must enforce end-to-end encryption.
 - Must offer a free plan or trial period for testing.
@@ -87,7 +87,7 @@ They have also received the Digital Trust Label, a certification from the [Swiss
 - Must allow for easy exports of all files/documents.
 - Must use standard, audited encryption.
 
-### Best-Case
+### 最良の場合
 
 Our best-case criteria represents what we would like to see from the perfect project in this category. Our recommendations may not include any or all of this functionality, but those which do may rank higher than others on this page.
 

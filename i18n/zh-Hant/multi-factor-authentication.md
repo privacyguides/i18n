@@ -109,23 +109,6 @@ Nitrokey Pro 2、Nitrokey Storage 2 和即將推出的 Nitrokey 3 支持筆記�
         - [:simple-googleplay: Google Play](https://play.google.com/store/apps/details?id=com.beemdevelopment.aegis)
         - [:simple-github: GitHub](https://github.com/beemdevelopment/Aegis/releases)
 
-### Raivo OTP (iOS)
-
-!!! recommendation
-
-    ![Raivo OTP logo](assets/img/multi-factor-authentication/raivo-otp.png){ align=right }
-    
-    **Raivo OTP** 是原生、輕量和安全的時間基礎(TOTP) & 計數器(HOTP)密碼用戶端應用，適用於iOS。 Raivo OTP 提供可選的 iCloud 備份 & 同步。 Raivo OTP也以狀態列應用程式的形式提供給macOS ，但Mac應用程式並不獨立於iOS應用程式運作。
-    
-    [:octicons-home-16: Homepage](https://raivo-otp.com){ .md-button .md-button--primary }
-    [:octicons-eye-16:](https://raivo-otp.com/privacy-policy){ .card-link title="Privacy Policy" }
-    [:octicons-code-16:](https://github.com/raivo-otp/ios-application){ .card-link title="Source Code" }
-    [:octicons-heart-16:](https://raivo-otp.com/donate){ .card-link title=Contribute }
-    
-    ??? downloads "下載"
-    
-        - [:simple-appstore: App Store](https://apps.apple.com/us/app/raivo-otp/id1459042137)
-
 ### 標準
 
 **請注意，我們所推薦專案沒有任何瓜葛。 ** 除了 [標準準則](about/criteria.md)外，我們還發展出一套明確要求以提出客觀建議。 建議您在選擇使用項目之前先熟悉此列表，並進行自己的研究，以確保它是您的正確選擇。

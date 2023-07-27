@@ -8,7 +8,7 @@ schema:
   - 
     "@context": http://schema.org
     "@type": WebPage
-    name: 推奨するパスワードマネージャ
+    name: パスワードマネージャーの推奨事項
     url: "./"
   - 
     "@context": http://schema.org

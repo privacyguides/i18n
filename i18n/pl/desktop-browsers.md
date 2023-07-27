@@ -140,39 +140,39 @@ Sugestie wyszukiwania wysyłają wszystko, co wpisujesz w pasku adresu, do domy�
 
 #### Prywatność i bezpieczeństwo
 
-##### Enhanced Tracking Protection
+##### Udoskonalona ochrona przed śledzeniem
 
-- [x] Select **Strict** Enhanced Tracking Protection
+- [x] Wybierz **Ścisła** ochrona przed śledzeniem
 
-This protects you by blocking social media trackers, fingerprinting scripts (note that this does not protect you from *all* fingerprinting), cryptominers, cross-site tracking cookies, and some other tracking content. ETP protects against many common threats, but it does not block all tracking avenues because it is designed to have minimal to no impact on site usability.
+Chroni to użytkownika poprzez blokowanie modułów śledzących w mediach społecznościowych, skryptów fingerprinting (należy pamiętać, że nie chroni to przed *wszystkimi* odciskami palców), koparek kryptowalut, plików cookie śledzących różne witryny i niektórych innych treści śledzących. Ochrona przed śledzeniem chroni przed wieloma typowymi zagrożeniami, ale nie blokuje wszystkich ścieżek śledzenia, ponieważ została zaprojektowana tak, aby mieć minimalny lub zerowy wpływ na użyteczność witryny.
 
-##### Firefox Suggest (US only)
+##### Firefox Suggest (tylko USA)
 
-[Firefox Suggest](https://support.mozilla.org/en-US/kb/firefox-suggest) is a feature similar to search suggestions which is only available in the US. We recommend disabling it for the same reason we recommend disabling search suggestions. If you don't see these options under the **Address Bar** header, you do not have the new experience and can ignore these changes.
+[Firefox Suggest](https://support.mozilla.org/en-US/kb/firefox-suggest) to funkcja podobna do sugestii wyszukiwania, która jest dostępna tylko w Stanach Zjednoczonych. Zalecamy jej wyłączenie z tego samego powodu, dla którego zalecamy wyłączenie sugestii wyszukiwania. Jeśli nie widzisz tych opcji pod **paskiem adresu strony** , nie masz tej funkcjonalności i możesz zignorować te zmiany.
 
-- [ ] Uncheck **Suggestions from the web**
-- [ ] Uncheck **Suggestions from sponsors**
+- [ ] Usuń zaznaczenie **Sugestie z sieci**
+- [ ] Usuń zaznaczenie **Sugestie od sponsorów**
 
-##### Sanitize on Close
+##### Wyczyść po zamknięciu
 
-If you want to stay logged in to particular sites, you can allow exceptions in **Cookies and Site Data** → **Manage Exceptions...**
+Jeśli chcesz pozostać zalogowany w określonych witrynach, możesz zezwolić na wyjątki w **Pliki cookie i dane witryn** → **Zarządzaj wyjątkami....**
 
-- [x] Check **Delete cookies and site data when Firefox is closed**
+- [x] Zaznacz **Usuń pliki cookie i dane witryn po zamknięciu przeglądarki Firefox**
 
-This protects you from persistent cookies, but does not protect you against cookies acquired during any one browsing session. When this is enabled, it becomes possible to easily cleanse your browser cookies by simply restarting Firefox. You can set exceptions on a per-site basis, if you wish to stay logged in to a particular site you visit often.
+Chroni to użytkownika przed trwałymi plikami cookie, ale nie chroni przed plikami cookie pozyskanymi podczas jednej sesji przeglądania. Po włączeniu tej opcji możliwe jest łatwe wyczyszczenie plików cookie przeglądarki poprzez ponowne uruchomienie Firefoksa. Możesz ustawić wyjątki dla poszczególnych witryn, jeśli chcesz pozostać zalogowany w określonej witrynie, którą często odwiedzasz.
 
-##### Telemetry
+##### Telemetria
 
-- [ ] Uncheck **Allow Firefox to send technical and interaction data to Mozilla**
-- [ ] Uncheck **Allow Firefox to install and run studies**
-- [ ] Uncheck **Allow Firefox to send backlogged crash reports on your behalf**
+- [ ] Usuń zaznaczenie **Zezwalaj przeglądarce Firefox na wysyłanie danych technicznych i dotyczących interakcji do Mozilla**
+- [ ] Usuń zaznaczenie **Zezwalaj przeglądarce Firefox na instalowanie i uruchamianie badań**
+- [ ] Usuń zaznaczenie **Zezwalaj przeglądarce Firefox na wysyłanie raportów o awariach w Twoim imieniu**
 
-> Firefox sends data about your Firefox version and language; device operating system and hardware configuration; memory, basic information about crashes and errors; outcome of automated processes like updates, safebrowsing, and activation to us. When Firefox sends data to us, your IP address is temporarily collected as part of our server logs.
+> Firefox wysyła o nas dane o wersji i języku Firefoksa, systemie operacyjnym urządzeniach i konfiguracji sprzętowej, pamięci, podstawowe informacje o awariach i błędach oraz wynikach zautomatyzowanych procesów, takich jak aktualizacje, bezpieczne przeglądanie i aktywacja. Gdy przeglądarka Firefox wysyła nasze dane, adres IP użytkownika jest tymczasowo gromadzony w dziennikach serwera.
 
-Additionally, the Firefox Accounts service collects [some technical data](https://www.mozilla.org/en-US/privacy/firefox/#firefox-accounts). If you use a Firefox Account you can opt-out:
+Dodatkowo, usługa Konta Firefox gromadzi [niektóre dane techniczne](https://www.mozilla.org/en-US/privacy/firefox/#firefox-accounts). Jeśli korzystasz z konta Firefox, możesz z tego zrezygnować:
 
-1. Open your [profile settings on accounts.firefox.com](https://accounts.firefox.com/settings#data-collection)
-2. Uncheck **Data Collection and Use** > **Help improve Firefox Accounts**
+1. Otwórz ustawienia profilu [na accounts.firefox.com](https://accounts.firefox.com/settings#data-collection)
+2. Usuń zaznaczenie **Gromadzenie i wykorzystywanie danych** > **Pomóż ulepszyć konta Firefox**
 
 ##### HTTPS-Only Mode
 

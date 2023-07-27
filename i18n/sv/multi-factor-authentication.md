@@ -109,23 +109,6 @@ Vi rekommenderar starkt att du använder mobila TOTP-appar i stället för alter
         - [:simple-googleplay: Google Play](https://play.google.com/store/apps/details?id=com.beemdevelopment.aegis)
         - [:simple-github: App Store](https://github.com/beemdevelopment/Aegis/releases)
 
-### Raivo OTP (iOS)
-
-!!! recommendation
-
-    ![Raivo OTP-logotyp](assets/img/multi-factor-authentication/raivo-otp.png){ align=right }
-    
-    **Raivo OTP** är en inbyggd, lätt och säker tidsbaserad (TOTP) & kontrabaserad (HOTP) lösenordsklient för iOS. Raivo OTP erbjuder valfri iCloud backup & synkronisering. Raivo OTP finns också tillgängligt för macOS i form av en applikation i statusfältet, men Mac-appen fungerar inte oberoende av iOS-appen.
-    
-    [:octicons-home-16: Startsida](https://cryptomator.org){ .md-button .md-button--primary }
-    
-    [:octicons-eye-16:](https://cryptomator.org/privacy){ .card-link title="Privacy Policy" }
-    [:octicons-code-16:](https://github.com/raivo-otp/ios-application/){ .card-link title=Dokumentation}
-    [:octicons-heart-16:](https://raivo-otp.com/donate){ .card-link title="Källkod" }
-    [](/){ .card-link title=Contribute??? nedladdningar
-    
-        - [:simple-appstore: App Store](https://apps.apple.com/us/app/raivo-otp/id1459042137)
-
 ### Kriterier
 
 **Observera att vi inte är knutna till något av de projekt som vi rekommenderar.** Förutom [våra standardkriterier](about/criteria.md)har vi utvecklat en tydlig uppsättning krav som gör det möjligt för oss att ge objektiva rekommendationer. Vi föreslår att du bekantar dig med den här listan innan du väljer att använda ett projekt, och att du gör din egen forskning för att se till att det är rätt val för dig.

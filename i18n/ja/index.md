@@ -48,7 +48,7 @@ schema:
 
 [:material-book-outline: プライバシーはなぜ重要なのか](basics/why-privacy-matters.md){ class="md-button md-button--primary" }
 
-## どうしたらいいのか？
+## では、どうしたらいいのか？
 
 ##### まず、計画を立てる必要があります
 
@@ -60,7 +60,7 @@ schema:
 
 ---
 
-## あなたの力が必要です！ 参加はこちらです:
+## あなたの力が必要です！ 参加方法は以下の通りです:
 
 [:simple-discourse:](https://discuss.privacyguides.net/){ title="フォーラムに参加" }
 [:simple-mastodon:](https://mastodon.neat.computer/@privacyguides){ rel=me title="Mastodonでフォロー" }

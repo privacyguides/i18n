@@ -1,18 +1,18 @@
 ---
 title: Androidの概要
 icon: simple/android
-description: アンドロイドはオープンソースのオペレーティングシステムで、強力なセキュリティ保護が施されている。
+description: Androidは、強力なセキュリティ保護機能を備えたオープンソースのオペレーティングシステムであり、携帯電話用の私たちの最高の選択肢です。
 ---
 
 ![Android logo](../assets/img/android/android.svg){ align=right }
 
-The **Android Open Source Project** is a secure mobile operating system featuring strong [app sandboxing](https://source.android.com/security/app-sandbox), [Verified Boot](https://source.android.com/security/verifiedboot) (AVB), and a robust [permission](https://developer.android.com/guide/topics/permissions/overview) control system.
+**Android オープンソース プロジェクト** [アプリ サンドボックス](https://source.android.com/security/app-sandbox)、[確認付きブート](https://source.android.com/security/verifiedboot) (AVB)、[権限](https://developer.android.com/guide/topics/permissions/overview)管理システムを備えた安全なモバイル オペレーティング システムです。
 
-## Our Advice
+## 私たちのアドバイス
 
 ### Androidディストリビューションの選択
 
-Androidの携帯を購入すると、その端末に標準で搭載されているOSには、 [アンドロイド・オープンソース・プロジェクト](https://source.android.com/)に含まれていないアプリやサービスが侵襲的に統合されていることが多いです。 例えば、Google Playサービスは、あなたのファイル、連絡先ストレージ、通話ログ、SMSメッセージ、位置情報、カメラ、マイク、ハードウェア識別子などにアクセスする取り消し不能な権限を持っています。 これらのアプリやサービスは、あなたのデバイスの攻撃対象を増やし、Androidのプライバシーに関する様々な懸念の原因となっています。
+Androidの携帯を購入すると、その端末に標準で搭載されているOSには、 [Android オープンソース プロジェクト](https://source.android.com/)に含まれていないアプリやサービスが侵襲的に統合されていることが多いです。 例えば、Google Playサービスは、あなたのファイル、連絡先ストレージ、通話ログ、SMSメッセージ、位置情報、カメラ、マイク、ハードウェア識別子などにアクセスする取り消し不能な権限を持っています。 これらのアプリやサービスは、あなたのデバイスの攻撃対象を増やし、Androidのプライバシーに関する様々な懸念の原因となっています。
 
 この問題は、そのような侵襲的な統合を伴わないカスタムされたAndroidディストリビューションを使用することで解決できるかもしれません。 残念ながら、多くのカスタムされたAndroidディストリビューションは、AVB、ロールバック保護、ファームウェア・アップデートなどの重要なセキュリティ機能をサポートしておらず、Androidセキュリティ・モデルに違反していることが多いです。 ディストリビューションによっては、[`userdebug`](https://source.android.com/setup/build/building#choose-a-target)ビルドも出荷しています。このビルドは、 [ADB](https://developer.android.com/studio/command-line/adb) 経由で root を公開し、[より寛容な](https://github.com/LineageOS/android_system_sepolicy/search?q=userdebug&type=code) SELinux ポリシーをデバッグ機能に対応させるために必要とします。その結果、攻撃対象がさらに増加し、セキュリティモデルが弱体化します。
 
@@ -20,9 +20,9 @@ Android のカスタムされたディストリビューションを選択する
 
 [私たちがお勧めしているAndroidシステム :material-arrow-right-drop-circle:](../android.md ""){.md-button}
 
-### Avoid Rooting
+### root化を避ける
 
-[](https://en.wikipedia.org/wiki/Rooting_(Android)) Android携帯のルート化は、完全な[Androidセキュリティモデル](https://en.wikipedia.org/wiki/Android_(operating_system)#Security_and_privacy)を弱めるため、セキュリティを著しく低下させる可能性があります。 これにより、セキュリティが低下し悪用された場合、プライバシーを低下させる可能性があります。 一般的なルーティング方法では、ブートパーティションを直接変更してしまうため、Verified Bootを成功させることは不可能になります。 ルートを必要とするアプリはシステムパーティションを変更するため、確認付きブートは無効のままでなければなりません。 また、ユーザーインターフェースで直接ルートを露出させると、[デバイスの攻撃面](https://en.wikipedia.org/wiki/Attack_surface)が増加し 、 [権限昇格](https://en.wikipedia.org/wiki/Privilege_escalation)の脆弱性やSELinuxポリシーのバイパス を助長する可能性があります。
+[](https://en.wikipedia.org/wiki/Rooting_(Android)) Android携帯のroot化は、完全な[Androidセキュリティモデル](https://en.wikipedia.org/wiki/Android_(operating_system)#Security_and_privacy)を弱めるため、セキュリティを著しく低下させる可能性があります。 これにより、セキュリティが低下し悪用された場合、プライバシーを低下させる可能性があります。 一般的なroot化方法では、ブートパーティションを直接変更してしまうため、確認付きブートを成功させることは不可能になります。 ルートを必要とするアプリはシステムパーティションを変更するため、確認付きブートは無効のままでなければなりません。 また、ユーザーインターフェースで直接rootを露出させると、[デバイスの攻撃面](https://en.wikipedia.org/wiki/Attack_surface)が増加し 、 [権限昇格](https://en.wikipedia.org/wiki/Privilege_escalation)の脆弱性やSELinuxポリシーのバイパス を助長する可能性があります。
 
 Adblockers, which modify the [hosts file](https://en.wikipedia.org/wiki/Hosts_(file)) (AdAway) and firewalls (AFWall+) which require root access persistently are dangerous and should not be used. They are also not the correct way to solve their intended purposes. For Adblocking we suggest encrypted [DNS](../dns.md) or [VPN](../vpn.md) server blocking solutions instead. RethinkDNS, TrackerControl and AdAway in non-root mode will take up the VPN slot (by using a local loopback VPN) preventing you from using privacy enhancing services such as Orbot or a real VPN server.
 
@@ -42,11 +42,11 @@ You can avoid giving many apps permission to access your media with Android's bu
 
 For example, if you want to post a picture to Discord you can open your file manager or gallery and share that picture with the Discord app, instead of granting Discord full access to your media and photos.
 
-## Security Protections
+## セキュリティ保護
 
 ### 確認付きブート
 
-[確認付きブート](https://source.android.com/security/verifiedboot) は、アンドロイドのセキュリティ・モデルの重要な部分である。 It provides protection against [evil maid](https://en.wikipedia.org/wiki/Evil_maid_attack) attacks, malware persistence, and ensures security updates cannot be downgraded with [rollback protection](https://source.android.com/security/verifiedboot/verified-boot#rollback-protection).
+[確認付きブート](https://source.android.com/security/verifiedboot) は、Androidのセキュリティ モデルの重要な部分です。 It provides protection against [evil maid](https://en.wikipedia.org/wiki/Evil_maid_attack) attacks, malware persistence, and ensures security updates cannot be downgraded with [rollback protection](https://source.android.com/security/verifiedboot/verified-boot#rollback-protection).
 
 Android 10 and above has moved away from full-disk encryption to more flexible [file-based encryption](https://source.android.com/security/encryption/file-based). Your data is encrypted using unique encryption keys, and the operating system files are left unencrypted.
 
@@ -107,15 +107,15 @@ An app may request a permission for a specific feature it has. For example, any 
 
     Privacy-friendly apps such as [Bitwarden](https://reports.exodus-privacy.eu.org/en/reports/com.x8bit.bitwarden/latest/) may show some trackers such as [Google Firebase Analytics](https://reports.exodus-privacy.eu.org/en/trackers/49/). This library includes [Firebase Cloud Messaging](https://en.wikipedia.org/wiki/Firebase_Cloud_Messaging) which can provide [push notifications](https://en.wikipedia.org/wiki/Push_technology) in apps. This [is the case](https://fosstodon.org/@bitwarden/109636825700482007) with Bitwarden. That doesn't mean that Bitwarden is using all of the analytics features that are provided by Google Firebase Analytics.
 
-## Privacy Features
+## プライバシー機能
 
-### User Profiles
+### ユーザー プロファイル
 
 Multiple user profiles can be found in **Settings** → **System** → **Multiple users** and are the simplest way to isolate in Android.
 
 With user profiles, you can impose restrictions on a specific profile, such as: making calls, using SMS, or installing apps on the device. Each profile is encrypted using its own encryption key and cannot access the data of any other profiles. Even the device owner cannot view the data of other profiles without knowing their password. Multiple user profiles are a more secure method of isolation.
 
-### Work Profile
+### 仕事用プロファイル
 
 [Work Profiles](https://support.google.com/work/android/answer/6191949) are another way to isolate individual apps and may be more convenient than separate user profiles.
 
@@ -125,19 +125,19 @@ The work profile is dependent on a device controller to function. Features such 
 
 This method is generally less secure than a secondary user profile; however, it does allow you the convenience of running apps in both the work and personal profiles simultaneously.
 
-### VPN Killswitch
+### VPN キルスイッチ
 
-Android 7 and above supports a VPN killswitch and it is available without the need to install third-party apps. This feature can prevent leaks if the VPN is disconnected. It can be found in :gear: **Settings** → **Network & internet** → **VPN** → :gear: → **Block connections without VPN**.
+Android 7 以降はVPN キルスイッチをサポートしており、サードパーティのアプリをインストールする必要なく利用できます。 この機能は、VPNが切断された場合に漏洩を防ぐことができます。 It can be found in :gear: **Settings** → **Network & internet** → **VPN** → :gear: → **Block connections without VPN**.
 
 ### Global Toggles
 
 Modern Android devices have global toggles for disabling Bluetooth and location services. Android 12 introduced toggles for the camera and microphone. When not in use, we recommend disabling these features. Apps cannot use disabled features (even if granted individual permission) until re-enabled.
 
-## Google Services
+## Google サービス
 
 If you are using a device with Google services, either your stock operating system or an operating system that safely sandboxes Google Play Services like GrapheneOS, there are a number of additional changes you can make to improve your privacy. We still recommend avoiding Google services entirely, or limiting Google Play services to a specific user/work profile by combining a device controller like *Shelter* with GrapheneOS's Sandboxed Google Play.
 
-### Advanced Protection Program
+### 高度な保護機能プログラム
 
 If you have a Google account we suggest enrolling in the [Advanced Protection Program](https://landing.google.com/advancedprotection/). It is available at no cost to anyone with two or more hardware security keys with [FIDO](../basics/multi-factor-authentication.md#fido-fast-identity-online) support.
 
@@ -174,8 +174,8 @@ On Android distributions with privileged Google Play Services (such as stock OSe
 
 You will either be given the option to delete your advertising ID or to *Opt out of interest-based ads*, this varies between OEM distributions of Android. If presented with the option to delete the advertising ID that is preferred. If not, then make sure to opt out and reset your advertising ID.
 
-### SafetyNet and Play Integrity API
+### SafetyNet と Play Integrity API
 
-[SafetyNet](https://developer.android.com/training/safetynet/attestation) and the [Play Integrity APIs](https://developer.android.com/google/play/integrity) are generally used for [banking apps](https://grapheneos.org/usage#banking-apps). Many banking apps will work fine in GrapheneOS with sandboxed Play services, however some non-financial apps have their own crude anti-tampering mechanisms which might fail. GrapheneOS passes the `basicIntegrity` check, but not the certification check `ctsProfileMatch`. Devices with Android 8 or later have hardware attestation support which cannot be bypassed without leaked keys or serious vulnerabilities.
+[SafetyNet](https://developer.android.com/training/safetynet/attestation) と [Play Integrity API](https://developer.android.com/google/play/integrity) は、一般的に [銀行アプリ](https://grapheneos.org/usage#banking-apps)に使用されます。 サンドボックス化されたPlayサービスを備えたGrapheneOSでは、多くの銀行アプリがうまく動作しますが、一部の非金融アプリには、それ自体の改ざん防止メカニズムがあり、失敗する可能性があります。 GrapheneOSは、 `basicIntegrity` のチェックはパスしますが、 認証チェック `ctsProfileMatch`はパスしません。 Android 8 以降を搭載したデバイスには、ハードウェア認証のサポートがあり、キーの漏洩や深刻な脆弱性がない限りバイパスできません。
 
-As for Google Wallet, we don't recommend this due to their [privacy policy](https://payments.google.com/payments/apis-secure/get_legal_document?ldo=0&ldt=privacynotice&ldl=en), which states you must opt-out if you don't want your credit rating and personal information shared with affiliate marketing services.
+Google ウォレットについては、[プライバシーポリシー](https://payments.google.com/payments/apis-secure/get_legal_document?ldo=0&ldt=privacynotice&ldl=en)により、信用情報や個人情報をアフィリエイト マーケティング サービスと共有したくない場合は、オプトアウトする必要があると規定されているため、推奨されません。

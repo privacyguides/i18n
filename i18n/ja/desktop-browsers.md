@@ -100,7 +100,7 @@ Mullvad Browserは常にプライベートブラウジングモードで動作�
 
 ### Mullvad Leta
 
-Mullvad Browserはデフォルトの[検索エンジン](search-engines.md)としてDuckDuckGoが設定されていますが、Mullvad VPNの有効なサブスクリプションが必要な検索エンジン、**Mullvad Leta**も事前にインストールされています。 Mullvad LetaはGoogleの有料検索APIを直接問い合わせます（そのため、有料加入者に限定されます）。しかし、この制限のため、Mullvadは検索クエリとMullvad VPNのアカウントを相関させることが可能です。 このため、MullvadがVPN加入者について非常に少ない情報しか収集していないにもかかわらず、Mullvad Letaの使用はおすすめしません。
+Mullvad Browserはデフォルトの[検索エンジン](search-engines.md)としてDuckDuckGoが設定されていますが、Mullvad VPNの有効なサブスクリプションが必要な検索エンジン、**Mullvad Leta**も事前にインストールされています。 Mullvad LetaはGoogleの有料検索APIに直接問い合わせます（そのため、有料加入者に限定されます）。しかし、この制限のため、Mullvadは検索クエリとMullvad VPNのアカウントを相関させることが可能です。 このため、MullvadがVPN加入者について非常に少ない情報しか収集していないにもかかわらず、Mullvad Letaの使用はおすすめしません。
 
 ## Firefox
 
@@ -136,7 +136,7 @@ FirefoxはMozillaのウェブサイトからのダウンロードにユニーク
 
 あなたの地域では検索提案機能の利用はできないかもしれません。
 
-検索提案は、実際に検索を送信するかどうかに関わらず、アドレスバーに入力したすべてのものをデフォルトの検索エンジンに送信します。 検索提案を無効にすることで、あなたが検索エンジンプロバイダに送信するデータをより正確に制御することができます。
+検索候補は、実際に検索を行うかどうかに関わらず、アドレスバーに入力したすべてのものをデフォルトの検索エンジンに送信します。 検索候補を無効にすることで、あなたが検索エンジンプロバイダに送信するデータをより正確に制御することができます。
 
 #### プライバシーとセキュリティ
 
@@ -148,14 +148,14 @@ FirefoxはMozillaのウェブサイトからのダウンロードにユニーク
 
 ##### Firefox Suggest (アメリカのみ)
 
-[Firefox Suggest](https://support.mozilla.org/en-US/kb/firefox-suggest)は、米国のみで利用可能な、検索提案と似た機能です。 私たちは、検索提案を無効にすることを推奨するのと同じ理由で、これを無効にすることを推奨します。 **アドレスバー**のヘッダーの下にこれらのオプションが表示されない場合、新しいエクスペリエンスは持っていないので、これらの変更を無視しても問題ありません。
+[Firefox Suggest](https://support.mozilla.org/en-US/kb/firefox-suggest)は、米国のみで利用可能な、検索候補と似た機能です。 私たちは、検索候補を無効にすることを推奨するのと同じ理由で、これを無効にすることを推奨します。 **アドレスバー**のヘッダーの下にこれらのオプションが表示されない場合、新しいエクスペリエンスは持っていないので、これらの変更を無視しても問題ありません。
 
 - [ ] **ウェブからの提案**のチェックを外します
 - [ ] **スポンサーからの提案**のチェックを外します
 
 ##### Sanitize on Close
 
-特定のサイトにログインしたままにしたい場合は、**Cookies and Site Data** → **例外の管理...**で例外を許可することができます。
+特定のサイトにログインしたままにしたい場合は、**Cookie とサイトデータ** → **例外の管理...**で例外を許可することができます。
 
 - [x] **Firefox を閉じたときに Cookie とサイトデータを削除する**にチェックをつける
 
@@ -165,7 +165,7 @@ FirefoxはMozillaのウェブサイトからのダウンロードにユニーク
 
 - [ ] **Firefox が技術的な対話データを Mozilla へ送信することを許可する**のチェックを外す
 - [ ] **Firefox に調査のインストールと実行を許可する**のチェックを外す
-- [ ] **Firefoxによるあなたの代わりのバックログクラッシュレポートの送信を許可する**のチェックを外します
+- [ ] **Firefox があなたに代わって未送信のクラッシュレポートを送信することを許可する**のチェックを外します
 
 > Firefoxは、あなたのFirefoxのバージョンや言語、デバイスのオペレーティングシステムとハードウェア構成、メモリ、クラッシュやエラーに関する基本情報、アップデートやセーフブラウジング、アクティベーションなどの自動化されたプロセスの結果などのデータを私たちに送信します。 Firefoxが私たちにデータを送信するとき、あなたのIPアドレスは一時的に私たちのサーバーログの一部として収集されます。
 
@@ -188,11 +188,11 @@ FirefoxはMozillaのウェブサイトからのダウンロードにユニーク
 
 !!! ヒント "高度なフィンガープリンティング対策にはMullvad Browserを使用してください"
 
-    [Mullvad Browser](#mullvad-browser)は、初期設定からArkenfoxと同じフィンガープリンティング対策を提供し、これらの保護を利用するためにMullvadのVPNを使用する必要はありません。 VPNと組み合わせることで、Mullvad BrowserはArkenfoxにはできない、より高度な追跡スクリプトを阻止することができる。 Arkenfoxははるかに柔軟性があり、ログインしたままである必要があるウェブサイトに対してサイトごとの例外を許可するという利点があります。
+    [Mullvad Browser](#mullvad-browser)は、初期設定からArkenfoxと同じフィンガープリンティング対策を提供し、これらの保護を利用するためにMullvadのVPNを使用する必要はありません。 VPNと組み合わせることで、Mullvad BrowserはArkenfoxにはできない、より高度な追跡スクリプトを阻止することができます。 Arkenfoxははるかに柔軟性があり、ログインしたままである必要があるウェブサイトに対してサイトごとの例外を許可するという利点があります。
 
 [Arkenfoxプロジェクト](https://github.com/arkenfox/user.js)は、Firefoxのための慎重に考えられたオプションのセットを提供しています。 もし[Arkenfoxを使用することを決定した場合](https://github.com/arkenfox/user.js/wiki/1.1-To-Arkenfox-or-Not)、[いくつかのオプション](https://github.com/arkenfox/user.js/wiki/3.2-Overrides-[Common])は主観的に厳格であり、または一部のウェブサイトが正しく動作しない可能性があります - これらは[あなたのニーズに合わせて簡単に変更することができます](https://github.com/arkenfox/user.js/wiki/3.1-Overrides)。 私たちは、彼らの[wiki](https://github.com/arkenfox/user.js/wiki)をすべて読むことを**強くお勧めします**。 Arkenfoxは[コンテナ](https://support.mozilla.org/ja/kb/containers#w_for-advanced-users)のサポートも有効にしています。
 
-Arkenfoxは、キャンバスのランダム化やFirefoxの組み込みのフィンガープリント抵抗の設定を通じて、基本的または素朴なトラッキングスクリプトを阻止することを目指しています。 Arkenfoxは、Mullvad BrowserやTor Browserのように、高度なフィンガープリンティングトラッキングスクリプトを防止する唯一の方法である他の多くのArkenfoxユーザーとブラウザを溶け込ませることを目指していません。 Remember you can always use multiple browsers, for example, you could consider using Firefox+Arkenfox for a few sites that you want to stay logged in on or otherwise trust, and Mullvad Browser for general browsing.
+Arkenfoxは、キャンバスのランダム化やFirefoxの組み込みのフィンガープリント対策の設定を通じて、基本的または単純なトラッキングスクリプトを阻止することを目指しています。 Arkenfoxは、Mullvad BrowserやTor Browserのように、高度なフィンガープリンティングトラッキングスクリプトを防止する唯一の方法である他の多くのArkenfoxユーザーとブラウザを溶け込ませることを目指していません。 Remember you can always use multiple browsers, for example, you could consider using Firefox+Arkenfox for a few sites that you want to stay logged in on or otherwise trust, and Mullvad Browser for general browsing.
 
 ## Brave
 

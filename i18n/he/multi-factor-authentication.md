@@ -109,23 +109,6 @@ cover: multi-factor-authentication.png
         - [:simple-googleplay: Google Play](https://play.google.com/store/apps/details?id=com.beemdevelopment.aegis)
         - [:simple-github: GitHub](https://github.com/beemdevelopment/Aegis/releases)
 
-### Raivo OTP (iOS)
-
-!!! recommendation
-
-    ![Raivo OTP לוגו](assets/img/multi-factor-authentication/raivo-otp.png){ align=right }
-    
-    **Raivo OTP** הוא קליינט סיסמאות מקורי, קל משקל ומאובטח מבוסס זמן (TOTP) & ומבוסס נגד (HOTP) עבור iOS. Raivo OTP מציע אופציונלי גיבוי iCloud & סנכרון. Raivo OTP זמין גם עבור macOS בצורה של יישום שורת מצב, אולם יישום Mac אינו פועל ללא תלות ביישום iOS.
-    
-    [:octicons-home-16: דף הבית](https://raivo-otp.com){ .md-button .md-button--primary }
-    [:octicons-eye-16:](https://raivo-otp.com/privacy-policy){ .card-link title="מדיניות פרטיות" }
-    [:octicons-code-16:](https://github.com/raivo-otp/ios-application){ .card-link title="קוד מקור" }
-    [:octicons-heart-16:](https://raivo-otp.com/donate){ .card-link title=לתרומה }
-    
-    ??? downloads "הורדות"
-    
-        - [:simple-appstore: App Store](https://apps.apple.com/us/app/raivo-otp/id1459042137)
-
 ### קריטריונים
 
 **שים לב שאיננו קשורים לאף אחד מהפרויקטים שאנו ממליצים עליהם.** בנוסף ל [הקריטריונים הסטנדרטיים שלנו](about/criteria.md), פיתחנו סט ברור של דרישות כדי לאפשר לנו לספק המלצות אובייקטיביות. אנו מציעים לך להכיר את הרשימה הזו לפני שתבחר להשתמש בפרויקט, ולערוך מחקר משלך כדי להבטיח שזו הבחירה הנכונה עבורך.

@@ -235,7 +235,7 @@ Mullvadは、どのノードを[所有またはレンタル](https://mullvad.net
 
 !!! 危険
 
-    It is important to note that using a VPN provider will not make you anonymous, but it will give you better privacy in certain situations. A VPN is not a tool for illegal activities. Don't rely on a "no log" policy.
+    VPNプロバイダーを利用することで匿名になるわけではありませんが、特定の状況下ではより良いプライバシーが得られることに注意する必要があります。 VPNは違法行為のためのツールではありません。 「ログなし」ポリシーに依存しないでください。
 
 **Please note we are not affiliated with any of the providers we recommend. This allows us to provide completely objective recommendations.** In addition to [our standard criteria](about/criteria.md), we have developed a clear set of requirements for any VPN provider wishing to be recommended, including strong encryption, independent security audits, modern technology, and more. We suggest you familiarize yourself with this list before choosing a VPN provider, and conduct your own research to ensure the VPN provider you choose is as trustworthy as possible.
 
