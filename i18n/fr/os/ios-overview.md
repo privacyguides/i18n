@@ -125,54 +125,54 @@ Si vous utilisez les déverouillages biométriques, vous devez savoir comment le
 
 Sur certains appareils plus anciens, vous devrez peut-être appuyer cinq fois sur le bouton d'alimentation pour désactiver la biométrie ou, pour les appareils dotés de Touch ID, il vous suffira de maintenir le bouton d'alimentation enfoncé, sans rien d'autre. Veillez à faire un essai préalable afin de savoir quelle méthode fonctionne pour votre appareil.
 
-**Autoriser l'accès lorsque le téléphone est verrouillé** vous offre des options pour définir ce que vous pouvez autoriser lorsque votre téléphone est verrouillé. The more of these options you disable, the less someone without your password can do, but the less convenient it will be for you. Pick and choose which of these you don't want someone to have access to if they get their hands on your phone.
+**Autoriser l'accès lorsque le téléphone est verrouillé** vous offre des options pour définir ce que vous pouvez autoriser lorsque votre téléphone est verrouillé. Plus vous désactivez d'options, moins quelqu'un qui n'a pas votre mot de passe peut faire de choses, mais moins c'est pratique pour vous. Choisissez les éléments auxquels vous ne voulez pas que quelqu'un ait accès s'il met la main sur votre téléphone.
 
-- [ ] Turn off **Today View and Search**
-- [ ] Turn off **Notification Center**
-- [ ] Turn off **Control Center**
-- [ ] Turn off **Lock Screen Widgets**
-- [ ] Turn off **Siri**
-- [ ] Turn off **Reply with Message**
-- [ ] Turn off **Home Control**
-- [ ] Turn off **Wallet**
-- [ ] Turn off **Return Missed Calls**
-- [ ] Turn off **USB Accessories**
+- [ ] Désactivez **Aujourd'hui et recherche**
+- [ ] Désactivez **Centre de notifications**
+- [ ] Désactivez **Centre de contrôle**
+- [ ] Désactivez **Gadgets de l'écran de verrouillage**
+- [ ] Désactivez **Siri**
+- [ ] Désactivez **Répondre avec Message**
+- [ ] Désactivez **Contrôle de la maison**
+- [ ] Désactivez **Portefeuille**
+- [ ] Désactivez **Retourner les appels manqués**
+- [ ] Désactivez **Accessoires USB**
 
-iPhones are already resistant to brute-force attacks by making you wait long periods of time after multiple failed attempts; however, there have historically been exploits to get around this. To be extra safe, you can set your phone to wipe itself after 10 failed passcode attempts.
+Les iPhones sont déjà résistants aux attaques par force brute en vous faisant attendre de longues périodes de temps après plusieurs tentatives infructueuses ; cependant, il y a toujours eu des exploits pour contourner cette protection. Pour plus de sécurité, vous pouvez configurer votre téléphone pour qu'il s'efface de lui-même après 10 tentatives infructueuses de saisie du code d'accès.
 
 !!! warning "Avertissement"
 
-    With this setting enabled, someone could intentionally wipe your phone by entering the wrong password many times. Make sure you have proper backups and only enable this setting if you feel comfortable with it.
+    Si ce paramètre est activé, quelqu'un peut intentionnellement effacer votre téléphone en entrant plusieurs fois le mauvais mot de passe. Assurez-vous d'avoir des sauvegardes appropriées et n'activez ce paramètre que si vous vous sentez à l'aise avec ça.
 
-- [x] Turn on **Erase Data**
+- [x] Activez **Effacer les données**
 
 #### Confidentialité
 
-**Location Services** allows you to use features like Find My and Maps. If you don't need these features, you can disable Location Services. Alternatively, you can review and pick which apps can use your location here. Select **Location Services**:
+Les **services de localisation** vous permettent d'utiliser des fonctions telles que Localiser et Plan. Si vous n'avez pas besoin de ces fonctionnalités, vous pouvez désactiver les services de localisation. Vous pouvez également passer en revue et choisir les applications qui peuvent utiliser votre position ici. Sélectionnez **Services de localisation** :
 
-- [ ] Turn off **Location Services**
+- [ ] Désactivez **Services de localisation**
 
-You can decide to allow apps to request to **track** you here. Disabling this disallows all apps from tracking you with your phone's advertising ID. Select **Tracking**:
+Vous pouvez décider ici d'autoriser les applications à demander à vous **suivre**. La désactivation de cette fonction empêche toutes les applications de vous suivre à l'aide de l'identifiant publicitaire de votre téléphone. Sélectionnez **Suivi** :
 
-- [ ] Turn off **Allow Apps to Request to Track**
+- [ ] Désactivez **Autoriser les demandes de suivi des apps**
 
-You should turn off **Research Sensor & Usage Data** if you don't wish to participate in studies. Select **Research Sensor & Usage Data**:
+Vous devriez désactiver **Données de capteur et d’utilisation à des fins de recherche** si vous ne souhaitez pas participer à des études. Sélectionnez **Données de capteur et d’utilisation à des fins de recherche** :
 
-- [ ] Turn off **Sensor & Usage Data Collection**
+- [ ] Désactivez **Collecte de données de capteur et d'utilisation**
 
-**Safety Check** allows you to quickly view and revoke certain people and apps that might have permission to access your data. Here you can perform an **Emergency Reset**, immediately resetting permissions for all people and apps which might have access to device resources, and you can **Manage Sharing & Access** which allows you to go through and customize who and what has access to your device and account resources.
+**Contrôle de sécurité** vous permet de visualiser et de révoquer rapidement certaines personnes et applications qui pourraient avoir l'autorisation d'accéder à vos données. Ici, vous pouvez effectuer une **Réinitialisation d'urgence**, qui réinitialise immédiatement les autorisations de toutes les personnes et applications susceptibles d'avoir accès aux ressources de l'appareil, et vous pouvez utiliser **Gérer les partages et les accès**, qui vous permet de passer en revue et de personnaliser qui et quoi a accès aux ressources de votre appareil et de votre compte.
 
-You should disable analytics if you don't wish to send Apple usage data. Select **Analytics & Improvements**:
+Vous devriez désactiver l'analyse si vous ne souhaitez pas envoyer de données d'utilisation à Apple. Sélectionnez **Analyse et améliorations** :
 
-- [ ] Turn off **Share iPhone Analytics** or **Share iPhone & Watch Analytics**
-- [ ] Turn off **Share iCloud Analytics**
-- [ ] Turn off **Improve Fitness+**
-- [ ] Turn off **Improve Safety**
-- [ ] Turn off **Improve Siri & Dictation**
+- [ ] Désactivez **Partager l'analyse de l'iPhone** ou **Partager l’analyse (iPhone+Watch)**
+- [ ] Désactivez **Partager l’analyse d’iCloud**
+- [ ] Désactivez **Améliorer Fitness+**
+- [ ] Désactivez **Améliorer la sécurité**
+- [ ] Décochez **Améliorer Siri et Dictée**
 
-Disable **Personalized Ads** if you don't want targeted ads. Select **Apple Advertising**
+Désactivez **Publicités personnalisées** si vous ne voulez pas de publicités ciblées. Sélectionnez **Publicité Apple**
 
-- [ ] Turn off **Personalized Ads**
+- [ ] Décochez **Publicités personnalisées**
 
 **App Privacy Report** is a built-in tool that allows you to see which permissions your apps are using. Select **App Privacy Report**:
 
