@@ -80,7 +80,7 @@ Les options Shields peuvent être réduites par site selon les besoins, mais par
 
 <div class="annotate" markdown>
 
-- [x] Sélectionnez **Agressif** sous Bloquer les balises & pubs
+- [x] Select **Aggressive** under **Block trackers & ads**
 
     ??? warning "Utiliser les listes de filtres par défaut"
         Brave vous permet de sélectionner des filtres de contenu supplémentaires dans la page interne `brave://adblock`. Nous vous déconseillons d'utiliser cette fonctionnalité ; conservez plutôt les listes de filtres par défaut. L'utilisation de listes supplémentaires vous distinguera des autres utilisateurs de Brave et peut également augmenter la surface d'attaque s'il y a une faille dans Brave et qu'une règle malveillante est ajoutée à l'une des listes que vous utilisez.
@@ -106,13 +106,13 @@ Les options Shields peuvent être réduites par site selon les besoins, mais par
 
 <div class="annotate" markdown>
 
-- [x] Sélectionnez **Désactiver l'UDP pas en proxy** sous [Politique de gestion des adresses IP WebRTC](https://support.brave.com/hc/en-us/articles/360017989132-How-do-I-change-my-Privacy-Settings-#webrtc)
-- [ ] Décochez **Autoriser les sites à vérifier si vous avez enregistré des modes de paiement**
-- [ ] Décochez **Passerelle IPFS** (1)
-- [x] Sélectionnez **Fermer les onglets à la sortie**
-- [ ] Décochez **Autoriser les analyses de produits préservant la vie privée (P3A)**
-- [ ] Décochez **Envoyer automatiquement des rapports de diagnostic**
-- [ ] Décochez **Envoyer automatiquement un ping d'utilisation quotidienne à Brave**
+- [x] Select **Disable non-proxied UDP** under [WebRTC IP handling policy](https://support.brave.com/hc/en-us/articles/360017989132-How-do-I-change-my-Privacy-Settings-#webrtc)
+- [ ] Uncheck **Allow sites to check if you have payment methods saved**
+- [ ] Uncheck **IPFS Gateway** (1)
+- [x] Select **Close tabs on exit**
+- [ ] Uncheck **Allow privacy-preserving product analytics (P3A)**
+- [ ] Uncheck **Automatically send diagnostic reports**
+- [ ] Uncheck **Automatically send daily usage ping to Brave**
 
 </div>
 

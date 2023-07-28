@@ -80,7 +80,7 @@ Shields 可以選擇根據需要依各網站情況降級，但我們建議預設
 
 <div class="annotate" markdown>
 
-- [x] 阻止追蹤器和廣告 選擇**積極**
+- [x] Select **Aggressive** under **Block trackers & ads**
 
     ??? warning "使用預設過濾器列表"
         Brave 允許您在內部 `brave://adblock`頁面中選擇其他內容過濾器。 我們建議您不要使用此功能；請保留預設的篩選條件清單。 使用額外清單將使您在一般 Brave 用戶中被突顯出來，如果Brave有漏洞，並將惡意規則添加到您使用的清單中，也可能會增加攻擊面。
@@ -106,13 +106,13 @@ Shields 可以選擇根據需要依各網站情況降級，但我們建議預設
 
 <div class="annotate" markdown>
 
-- [x] 選擇 **在[WebRTC IP處理政策](https://support.brave.com/hc/en-us/articles/360017989132-How-do-I-change-my-Privacy-Settings-#webrtc)**
-- []取消勾選 **允許網站檢查您是否儲存了付款方式**
-- []取消勾選 **IPFS閘道** (1)
-- [x] 選擇 **關閉出口標籤**
-- [ ] 取消勾選**允許隱私保護產品分析(P3A)**
-- [ ] 取消勾選 **自動發送診斷報告**
-- [ ] 取消勾選 **自動發送每日使用情況給Brave**
+- [x] Select **Disable non-proxied UDP** under [WebRTC IP handling policy](https://support.brave.com/hc/en-us/articles/360017989132-How-do-I-change-my-Privacy-Settings-#webrtc)
+- [ ] Uncheck **Allow sites to check if you have payment methods saved**
+- [ ] Uncheck **IPFS Gateway** (1)
+- [x] Select **Close tabs on exit**
+- [ ] Uncheck **Allow privacy-preserving product analytics (P3A)**
+- [ ] Uncheck **Automatically send diagnostic reports**
+- [ ] Uncheck **Automatically send daily usage ping to Brave**
 
 </div>
 

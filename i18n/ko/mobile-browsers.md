@@ -80,7 +80,7 @@ Brave 브라우저는 [Shields](https://support.brave.com/hc/en-us/articles/3600
 
 <div class="annotate" markdown>
 
-- [x] 트래커 & 광고 차단을 **공격적** 으로 설정
+- [x] Select **Aggressive** under **Block trackers & ads**
 
     ??? warning "기본 필터 목록을 사용하세요"
         Brave 브라우저는 `brave://adblock` 내부 페이지에서 추가적인 콘텐츠 필터를 선택할 수 있습니다. 이 기능을 사용하지 말고 기본 필터 목록을 유지할 것을 권장드립니다. 추가적인 목록을 사용하면 다른 Brave 사용자에 비해 더 눈에 띄게 되며, 만약 Brave에 취약점이 존재하고 여러분이 사용하는 규칙 목록에 악성 규칙이 포함될 경우 공격 표면을 증가시킬 수도 있습니다.
@@ -106,13 +106,13 @@ Brave 브라우저는 [Shields](https://support.brave.com/hc/en-us/articles/3600
 
 <div class="annotate" markdown>
 
-- [x] [WebRTC IP 처리 방침](https://support.brave.com/hc/en-us/articles/360017989132-How-do-I-change-my-Privacy-Settings-#webrtc)을 **프록시가 아닌 UDP 비활성화하기**로 설정
-- [ ] **사이트에서 저장된 결제 수단이 있는지 확인하도록 허용** 비활성화
-- [ ] **IPFS 게이트웨이** 비활성화 (1)
-- [x] **나갈 때 탭 닫기** 활성화
-- [ ] **프라이버시 보호 제품 분석(P3A) 허용** 비활성화
-- [ ] **진단 보고서 자동 전송** 비활성화
-- [ ] **일일 사용 Ping을 Brave에 자동으로 보내기** 비활성화
+- [x] Select **Disable non-proxied UDP** under [WebRTC IP handling policy](https://support.brave.com/hc/en-us/articles/360017989132-How-do-I-change-my-Privacy-Settings-#webrtc)
+- [ ] Uncheck **Allow sites to check if you have payment methods saved**
+- [ ] Uncheck **IPFS Gateway** (1)
+- [x] Select **Close tabs on exit**
+- [ ] Uncheck **Allow privacy-preserving product analytics (P3A)**
+- [ ] Uncheck **Automatically send diagnostic reports**
+- [ ] Uncheck **Automatically send daily usage ping to Brave**
 
 </div>
 

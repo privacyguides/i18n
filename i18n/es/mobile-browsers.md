@@ -80,9 +80,9 @@ Las opciones de los escudos pueden reducirse según las necesidades de cada siti
 
 <div class="annotate" markdown>
 
-- [x] Seleccione **Agresivo** en Bloquear rastreadores y anuncios
+- [x] Select **Aggressive** under **Block trackers & ads**
 
-??? warning "Usar listas de filtros predeterminadas"
+    ??? warning "Usar listas de filtros predeterminadas"
         Brave le permite seleccionar filtros de contenido adicionales dentro de la página interna `brave://adblock`. Desaconsejamos el uso de esta función; en su lugar, mantenga las listas de filtros por defecto. El uso de listas adicionales le hará destacar entre los demás usuarios de Brave y también puede aumentar la superficie de ataque si hay un exploit en Brave y se añade una regla maliciosa a una de las listas que utiliza.
 
 - [x] Seleccione **Mejorar conexiones a HTTPS**
@@ -106,13 +106,13 @@ Las opciones de los escudos pueden reducirse según las necesidades de cada siti
 
 <div class="annotate" markdown>
 
-- [x] Seleccione **Desactivar UDP sin proxy** en [Política de gestión de IP de WebRTC](https://support.brave.com/hc/en-us/articles/360017989132-How-do-I-change-my-Privacy-Settings-#webrtc)
-- [ ] Desmarque **Permite a los sitios comprobar si tienes métodos de pago guardados**
-- [ ] Desmarque **Puerta de enlace IPFS** (1)
-- [x] Seleccione **Cerrar pestañas al salir**
-- [ ] Desmarque **Permitir estadísticas de productos que preservan la privacidad (P3A)**
-- [ ] Desmarque **Enviar informes de diagnóstico automáticamente**
-- [ ] Desmarque **Enviar automáticamente el ping diario de uso a Brave**
+- [x] Select **Disable non-proxied UDP** under [WebRTC IP handling policy](https://support.brave.com/hc/en-us/articles/360017989132-How-do-I-change-my-Privacy-Settings-#webrtc)
+- [ ] Uncheck **Allow sites to check if you have payment methods saved**
+- [ ] Uncheck **IPFS Gateway** (1)
+- [x] Select **Close tabs on exit**
+- [ ] Uncheck **Allow privacy-preserving product analytics (P3A)**
+- [ ] Uncheck **Automatically send diagnostic reports**
+- [ ] Uncheck **Automatically send daily usage ping to Brave**
 
 </div>
 

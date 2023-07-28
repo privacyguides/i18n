@@ -80,7 +80,7 @@ Brave включает несколько инструментов защиты 
 
 <div class="annotate" markdown>
 
-- [x] Выбери **Строгий режим** в разделе "Блокировать трекеры и рекламу"
+- [x] Select **Aggressive** under **Block trackers & ads**
 
     ??? warning "Используй стандартные фильтры"
         Brave позволяет тебе выбрать дополнительные фильтры на внутренней странице `brave://adblock`. Мы не рекомендуем использовать эту функцию; вместо этого оставь списки фильтров по умолчанию. Использование дополнительных фильтров выделит тебя среди других пользователей Brave, а также может увеличить площадь атаки, если в Brave есть эксплойт и вредоносное правило будет добавлено в один из используемых тобой списков.
@@ -106,13 +106,13 @@ Brave включает несколько инструментов защиты 
 
 <div class="annotate" markdown>
 
-- [x] Выбери **Отключить непроксируемый протокол UDP** в [Политика обработки IP WebRTC](https://support.brave.com/hc/en-us/articles/360017989132-How-do-I-change-my-Privacy-Settings-#webrtc)
-- [ ] Отключи **Разрешить сайтам проверять наличие сохраненных способов оплаты**
-- [ ] Отключи **Шлюз IPFS** (1)
-- [x] Включи **Закрывать вкладки при входе**
-- [ ] Отключи **Разрешить выполнение аналитики продукта, не нарушающей конфеденциальности**
-- [ ] Отключи **Автоматически отправлять данные диагностики**
-- [ ] Отключи **Автоматически отправлять ежедневные данные PING в Brave**
+- [x] Select **Disable non-proxied UDP** under [WebRTC IP handling policy](https://support.brave.com/hc/en-us/articles/360017989132-How-do-I-change-my-Privacy-Settings-#webrtc)
+- [ ] Uncheck **Allow sites to check if you have payment methods saved**
+- [ ] Uncheck **IPFS Gateway** (1)
+- [x] Select **Close tabs on exit**
+- [ ] Uncheck **Allow privacy-preserving product analytics (P3A)**
+- [ ] Uncheck **Automatically send diagnostic reports**
+- [ ] Uncheck **Automatically send daily usage ping to Brave**
 
 </div>
 

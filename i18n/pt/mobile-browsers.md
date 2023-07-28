@@ -81,7 +81,7 @@ As opções de proteção podem ser revogadas por cada site, de acordo com as ne
 
 <div class="annotate" markdown>
 
-- [x] Selecione **Agressivo** em Rastreadores e bloqueio de anúncios
+- [x] Select **Aggressive** under **Block trackers & ads**
 
     ??? aviso "Use listas de filtro por padrão"
         O Brave permite-lhe selecionar filtros de conteúdo adicional na página interna `brave://adblock`. Aconselhamos a não utilizar esta funcionalidade; em vez disso, mantenha as listas de filtros predefinidas. A utilização de listas extra fará com que se destaque dos outros utilizadores do Brave e pode também aumentar a superfície de ataque se houver uma vulnerabilidade no Brave e uma regra maliciosa for adicionada a uma das listas que utiliza.
@@ -107,13 +107,13 @@ As opções de proteção podem ser revogadas por cada site, de acordo com as ne
 
 <div class="annotate" markdown>
 
-- [x] Selecione **Desativar UDP não-proxy**, em [Política de utilização WebRTC IP](https://support.brave.com/hc/en-us/articles/360017989132-How-do-I-change-my-Privacy-Settings-#webrtc)
-- [ ] Desative **Permitir aos sites verificar as suas opções de pagamento**
-- [ ] Desative **IPFS Gateway** (1)
-- [x] Selecione **Fechar tabs ao sair**
-- [ ] Desative **Permitir análises de produtos que preservam a privacidade (P3A)**
-- [ ] Desative **Enviar relatórios de diagnóstico automaticamente**
-- [ ] Desative **Enviar automaticamente ping de utilização diária para a Brave**
+- [x] Select **Disable non-proxied UDP** under [WebRTC IP handling policy](https://support.brave.com/hc/en-us/articles/360017989132-How-do-I-change-my-Privacy-Settings-#webrtc)
+- [ ] Uncheck **Allow sites to check if you have payment methods saved**
+- [ ] Uncheck **IPFS Gateway** (1)
+- [x] Select **Close tabs on exit**
+- [ ] Uncheck **Allow privacy-preserving product analytics (P3A)**
+- [ ] Uncheck **Automatically send diagnostic reports**
+- [ ] Uncheck **Automatically send daily usage ping to Brave**
 
 </div>
 

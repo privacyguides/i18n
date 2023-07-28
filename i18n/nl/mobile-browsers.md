@@ -80,7 +80,7 @@ De opties van Shields kunnen naar behoefte per site worden gedowngrade, maar sta
 
 <div class="annotate" markdown>
 
-- [x] Selecteer **Aggressief** onder Trackers & advertenties blokkeren
+- [x] Select **Aggressive** under **Block trackers & ads**
 
     ??? warning "Gebruik standaard filter lijsten"
         Brave staat je toe om extra inhoud filters te selecteren binnen de interne `brave://adblock` pagina. Wij raden het gebruik van deze functie af; houd in plaats daarvan de standaardfilterlijsten aan. Het gebruik van extra lijsten zorgt ervoor dat u zich onderscheidt van andere Brave gebruikers en kan ook het aanvalsoppervlak vergroten als er een exploit in Brave is en een kwaadaardige regel wordt toegevoegd aan één van de lijsten die je gebruikt.
@@ -106,13 +106,13 @@ De opties van Shields kunnen naar behoefte per site worden gedowngrade, maar sta
 
 <div class="annotate" markdown>
 
-- [x] Selecteer **Disable non-proxied UDP** onder [WebRTC IP Handling Policy](https://support.brave.com/hc/nl-us/articles/360017989132-How-do-I-change-my-Privacy-Settings-#webrtc)
-- [ ] Selecteer **Sites toestaan te controleren of je betaalmethoden hebt opgeslagen**
-- [ ] Selecteer **IPFS Gateway** uit (1)
-- [x] Selecteer **Tabbladen sluiten bij afsluiten**
-- [ ] Uitvinken **Privacy-preserving product analytics (P3A) toestaan**
-- [ ] Uitvinken **Automatisch diagnoserapporten versturen**
-- [ ] Uitvinken **Dagelijkse gebruiksping automatisch naar Brave sturen**
+- [x] Select **Disable non-proxied UDP** under [WebRTC IP handling policy](https://support.brave.com/hc/en-us/articles/360017989132-How-do-I-change-my-Privacy-Settings-#webrtc)
+- [ ] Uncheck **Allow sites to check if you have payment methods saved**
+- [ ] Uncheck **IPFS Gateway** (1)
+- [x] Select **Close tabs on exit**
+- [ ] Uncheck **Allow privacy-preserving product analytics (P3A)**
+- [ ] Uncheck **Automatically send diagnostic reports**
+- [ ] Uncheck **Automatically send daily usage ping to Brave**
 
 </div>
 

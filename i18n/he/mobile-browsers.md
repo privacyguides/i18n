@@ -80,7 +80,7 @@ Brave כולל כמה אמצעים נגד טביעת אצבע בתכונת [Shie
 
 <div class="annotate" markdown>
 
-- [x] בחר **אגרסיבי** תחת חסימת עוקבים ומודעות
+- [x] Select **Aggressive** under **Block trackers & ads**
 
     ??? warning "השתמש ברשימות סינון ברירת מחדל"
          Brave מאפשר לך לבחור מסנני תוכן נוספים בדף הפנימי `brave://adblock`. אנו ממליצים לא להשתמש בתכונה זו; במקום זאת, שמור על רשימות הסינון המוגדרות כברירת מחדל. שימוש ברשימות נוספות יגרום לך להתבלט ממשתמשי Brave אחרים ועלול גם להגדיל את שטח ההתקפה אם יש ניצול ב-Brave וכלל זדוני יתווסף לאחת הרשימות שבהן אתה משתמש.
@@ -106,13 +106,13 @@ Brave כולל כמה אמצעים נגד טביעת אצבע בתכונת [Shie
 
 <div class="annotate" markdown>
 
-- [x] בחר **השבת UDP שאינו פרוקסי** תחת [WebRTC IP Handling Policy](https://support.brave.com/hc/en-us/articles/360017989132-How-do-I-change-my-Privacy-Settings-#webrtc)
-- [ ] בטל סימון **אפשר לאתרים לבדוק אם יש לך שיטות תשלום שנשמרו**
-- [ ] בטל סימון **IPFS Gateway** (1)
-- [x] בחר **סגור כרטיסיות ביציאה**
-- [ ] בטל סימון **אפשר ניתוח מוצרים ששומר על הפרטיות (P3A)**
-- [ ] בטל סימון **שלח דוחות אבחון אוטומטיים**
-- [ ] בטל סימון **שליחה אוטומטית של פינג שימוש יומי ל-Brave**
+- [x] Select **Disable non-proxied UDP** under [WebRTC IP handling policy](https://support.brave.com/hc/en-us/articles/360017989132-How-do-I-change-my-Privacy-Settings-#webrtc)
+- [ ] Uncheck **Allow sites to check if you have payment methods saved**
+- [ ] Uncheck **IPFS Gateway** (1)
+- [x] Select **Close tabs on exit**
+- [ ] Uncheck **Allow privacy-preserving product analytics (P3A)**
+- [ ] Uncheck **Automatically send diagnostic reports**
+- [ ] Uncheck **Automatically send daily usage ping to Brave**
 
 </div>
 

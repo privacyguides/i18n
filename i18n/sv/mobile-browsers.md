@@ -79,9 +79,9 @@ Shields alternativ kan nedgraderas vid behov för varje enskild plats, men som s
 
 <div class="annotate" markdown>
 
-- [x] Välj **Aggressiv** under Blockera spårare och annonser
+- [x] Select **Aggressive** under **Block trackers & ads**
 
-??? varning "Use default filter lists"
+    ??? varning "Use default filter lists"
         Brave låter dig välja ytterligare innehållsfilter på den interna sidan `brave://adblock`. Vi avråder från att använda den här funktionen; behåll istället standardfilterlistorna. Om du använder extra listor sticker du ut från andra Brave-användare och kan också öka angreppsytan om det finns en exploit i Brave och en skadlig regel läggs till i en av de listor du använder.
 
 - [x] Select **Upgrade connections to HTTPS**
@@ -105,7 +105,7 @@ Shields alternativ kan nedgraderas vid behov för varje enskild plats, men som s
 
 <div class="annotate" markdown>
 
-- [x] Select **Disable non-proxied UDP** under [WebRTC IP Handling Policy](https://support.brave.com/hc/en-us/articles/360017989132-How-do-I-change-my-Privacy-Settings-#webrtc)
+- [x] Select **Disable non-proxied UDP** under [WebRTC IP handling policy](https://support.brave.com/hc/en-us/articles/360017989132-How-do-I-change-my-Privacy-Settings-#webrtc)
 - [ ] Uncheck **Allow sites to check if you have payment methods saved**
 - [ ] Uncheck **IPFS Gateway** (1)
 - [x] Select **Close tabs on exit**
