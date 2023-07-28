@@ -282,7 +282,8 @@ Desative as extensões incluídas que não utilizar em **Extensões**
 
 As funcionalidades Web3 do Brave podem potencialmente aumentar a impressão digital do seu browser e a superfície de ataque. A menos que utilize alguma destas funcionalidades, desative-as.
 
-Defina **Carteira Ethereum predefinida** para **Extensões (sem cópia de segurança)** Defina **Carteira Solana predefinida** para **Extensões (sem cópia de segurança)** Defina **Método para solucionar métodos IPFS** para **Desativada**
+- Select **Extensions (no fallback)** under Default Ethereum wallet and Default Solana wallet
+- Set **Method to resolve IPFS resources** to **Disabled**
 
 ##### Sistema
 

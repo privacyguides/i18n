@@ -283,7 +283,8 @@ Désactivez les extensions intégrées que vous n'utilisez pas dans **Extensions
 
 Les fonctionnalités Web3 de Brave peuvent potentiellement ajouter à l'empreinte numérique de votre navigateur et à la surface d'attaque. À moins que vous n'utilisiez l'une ou l'autre de ces fonctions, elles devraient être désactivées.
 
-Définir **Portefeuille Ethereum par défaut** à **Extensions (pas de repli)** Définir **Portefeuille Solana par défaut** à **Extensions (pas de repli)** Définir **Méthode de résolution des ressources IPFS** à **Désactivé**
+- Select **Extensions (no fallback)** under Default Ethereum wallet and Default Solana wallet
+- Set **Method to resolve IPFS resources** to **Disabled**
 
 ##### Système
 

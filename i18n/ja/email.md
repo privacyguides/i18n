@@ -156,7 +156,7 @@ Mailbox.orgの全てのプランにはデジタル遺産機能があります。
 
 <div class="grid cards" markdown>
 
-- ![Skiff Mail logo](assets/img/email/skiff-mail.svg){ .twemoji } [Skiff Mail](email.md#skiff-mail)
+- ![Skiff Mail logo](assets/img/email/skiff-mail.svg){ .twemoji } [Skiff Mail](email.md#skif-mail)
 - ![Tutanota logo](assets/img/email/tutanota.svg){ .twemoji } [Tutanota](email.md#tutanota)
 
 </div>
@@ -186,9 +186,9 @@ Skiff has undergone a few [audits](https://skiff.com/transparency) during its de
 
 You can create up to 3 additional @skiff.com email aliases in addition to your primary account address on their free plan. Free accounts can add 1 [custom domain](https://skiff.com/blog/custom-domain-setup), and up to 15 custom domains on a paid plan. You can create unlimited aliases or a [catch-all](https://skiff.com/blog/catch-all-email-alias) alias on your custom domain.
 
-#### :material-alert-outline:{ .pg-orange } Private Payment Methods
+#### :material-alert-outline:{ .pg-orange } プライベートな支払い方法
 
-Skiff Mail accepts cryptocurrency payments via Coinbase Commerce, including Bitcoin and Ethereum, but they do not accept our recommended [cryptocurrency](cryptocurrency.md), Monero. They also accept credit card payments via Stripe.
+Skiff MailはBitcoinとEthereumを含むCoinbase Commerce経由で暗号通貨の支払いを受け付けていますが、推奨される[暗号通貨](cryptocurrency.md)であるMoneroは受け付けていません。 また、Stripeでのクレジットカード決済にも対応しています。
 
 #### :material-check:{ .pg-green } アカウントのセキュリティ
 
@@ -198,7 +198,7 @@ Skiff Mail supports TOTP two-factor authentication and hardware security keys us
 
 Skiff Mail has zero access encryption at rest for all of your data. This means the messages and other data stored in your account are only readable by you.
 
-#### :material-information-outline:{ .pg-blue } Email Encryption
+#### :material-information-outline:{ .pg-blue } メールの暗号化
 
 Skiff Mail does not use OpenPGP. Emails are only encrypted with E2EE to other Skiff Mail users. Skiff does not have a "temporary inbox" or "passworded email" feature like some other providers have, so that external users cannot receive or reply to messages with E2EE.
 
@@ -218,7 +218,7 @@ Skiff Mailにはデジタル遺産の機能はありません。
 
     ![Tutanota logo](assets/img/email/tutanota.svg){ align=right }
     
-    **Tutanota** is an email service with a focus on security and privacy through the use of encryption. Tutanota has been in operation since **2011** and is based in Hanover, Germany. Accounts start with 1GB storage with their free plan.
+    **Tutanota** は暗号化によるセキュリティーとプライバシーを重視したメールサービスです。 Tutanotaは**2011**年に設立され、ドイツのハノーバーに拠点を置いています。 Accounts start with 1GB storage with their free plan.
     
     [:octicons-home-16: Homepage](https://tutanota.com){ .md-button .md-button--primary }
     [:octicons-eye-16:](https://tutanota.com/privacy){ .card-link title="Privacy Policy" }
@@ -226,7 +226,7 @@ Skiff Mailにはデジタル遺産の機能はありません。
     [:octicons-code-16:](https://github.com/tutao/tutanota){ .card-link title="Source Code" }
     [:octicons-heart-16:](https://tutanota.com/community/){ .card-link title=Contribute }
     
-    ??? downloads
+    ??? ダウンロード
     
         - [:simple-googleplay: Google Play](https://play.google.com/store/apps/details?id=de.tutao.tutanota)
         - [:simple-appstore: App Store](https://apps.apple.com/app/tutanota/id922429609)
@@ -234,7 +234,7 @@ Skiff Mailにはデジタル遺産の機能はありません。
         - [:simple-windows11: Windows](https://tutanota.com/#download)
         - [:simple-apple: macOS](https://tutanota.com/#download)
         - [:simple-linux: Linux](https://tutanota.com/#download)
-        - [:octicons-browser-16: Web](https://mail.tutanota.com/)
+        - [:octicons-browser-16: ウェブ](https://mail.tutanota.com/)
 
 Tutanota doesn't support the [IMAP protocol](https://tutanota.com/faq/#imap) or the use of third-party [email clients](email-clients.md), and you also won't be able to add [external email accounts](https://github.com/tutao/tutanota/issues/544#issuecomment-670473647) to the Tutanota app. Neither [Email import](https://github.com/tutao/tutanota/issues/630) or [subfolders](https://github.com/tutao/tutanota/issues/927) are currently supported, though this is [due to be changed](https://tutanota.com/blog/posts/kickoff-import). Emails can be exported [individually or by bulk selection](https://tutanota.com/howto#generalMail) per folder, which may be inconvenient if you have many folders.
 
@@ -242,7 +242,7 @@ Tutanota doesn't support the [IMAP protocol](https://tutanota.com/faq/#imap) or 
 
 Paid Tutanota accounts can use up to 5 [aliases](https://tutanota.com/faq#alias) and [custom domains](https://tutanota.com/faq#custom-domain). Tutanota doesn't allow for [subaddressing (plus addresses)](https://tutanota.com/faq#plus), but you can use a [catch-all](https://tutanota.com/howto#settings-global) with a custom domain.
 
-#### :material-information-outline:{ .pg-blue } Private Payment Methods
+#### :material-information-outline:{ .pg-blue } プライベートな支払い方法
 
 Tutanota only directly accepts credit cards and PayPal, however [cryptocurrency](cryptocurrency.md) can be used to purchase gift cards via their [partnership](https://tutanota.com/faq/#cryptocurrency) with Proxystore.
 
@@ -254,7 +254,7 @@ Tutanota supports [two factor authentication](https://tutanota.com/faq#2fa) with
 
 Tutanota has [zero access encryption at rest](https://tutanota.com/faq#what-encrypted) for your emails, [address book contacts](https://tutanota.com/faq#encrypted-address-book), and [calendars](https://tutanota.com/faq#calendar). This means the messages and other data stored in your account are only readable by you.
 
-#### :material-information-outline:{ .pg-blue } Email Encryption
+#### :material-information-outline:{ .pg-blue } メールの暗号化
 
 Tutanota [does not use OpenPGP](https://www.tutanota.com/faq/#pgp). Tutanota accounts can only receive encrypted emails from non-Tutanota email accounts when sent via a [temporary Tutanota mailbox](https://www.tutanota.com/howto/#encrypted-email-external).
 
@@ -262,7 +262,7 @@ Tutanota [does not use OpenPGP](https://www.tutanota.com/faq/#pgp). Tutanota acc
 
 Tutanota will [delete inactive free accounts](https://tutanota.com/faq#inactive-accounts) after six months. You can reuse a deactivated free account if you pay.
 
-#### :material-information-outline:{ .pg-blue } Additional Functionality
+#### :material-information-outline:{ .pg-blue } 追加機能
 
 Tutanota offers the business version of [Tutanota to non-profit organizations](https://tutanota.com/blog/posts/secure-email-for-non-profit) for free or with a heavy discount.
 
@@ -302,10 +302,10 @@ Using an aliasing service requires trusting both your email provider and your al
 
 !!! recommendation
 
-    ![AnonAddy logo](assets/img/email/anonaddy.svg#only-light){ align=right }
-    ![AnonAddy logo](assets/img/email/anonaddy-dark.svg#only-dark){ align=right }
+    ![AnonAddy logo](assets/img/email/anonaddy.svg#only-light){ align=right }.
+    ![AnonAddy logo](assets/img/email/anonaddy-dark.svg#only-dark){ align=right }.
     
-    **AnonAddy** lets you create 20 domain aliases on a shared domain for free, or unlimited "standard" aliases which are less anonymous.
+    **AnonAddy**では、共有ドメイン上に20のドメインエイリアスを無料で作成したり、匿名性の低い「標準」エイリアスを無制限に作成したりすることができます。
     
     [:octicons-home-16: Homepage](https://anonaddy.com){ .md-button .md-button--primary }
     [:octicons-eye-16:](https://anonaddy.com/privacy/){ .card-link title="Privacy Policy" }
@@ -313,7 +313,7 @@ Using an aliasing service requires trusting both your email provider and your al
     [:octicons-code-16:](https://github.com/anonaddy){ .card-link title="Source Code" }
     [:octicons-heart-16:](https://anonaddy.com/donate/){ .card-link title=Contribute }
     
-    ??? downloads
+    ??? ダウンロード
     
         - [:simple-android: Android](https://anonaddy.com/faq/#is-there-an-android-app)
         - [:material-apple-ios: iOS](https://anonaddy.com/faq/#is-there-an-ios-app)
@@ -380,7 +380,7 @@ Advanced system administrators may consider setting up their own email server. M
     [:octicons-code-16:](https://github.com/mailcow/mailcow-dockerized){ .card-link title="Source Code" }
     [:octicons-heart-16:](https://www.servercow.de/mailcow?lang=en#sal){ .card-link title=Contribute }
 
-!!! recommendation
+!!! 推奨事項
 
     ![Mail-in-a-Box logo](assets/img/email/mail-in-a-box.svg){ align=right }
     
@@ -433,8 +433,8 @@ We regard these features as important in order to provide a safe and optimal ser
 
 **最良の場合：**
 
-- Accepts [anonymous payment options](advanced/payments.md) ([cryptocurrency](cryptocurrency.md), cash, gift cards, etc.)
-- Hosted in a jurisdiction with strong email privacy protection laws.
+- [匿名の支払い方法](advanced/payments.md)（[暗号通貨](cryptocurrency.md)、現金、ギフトカードなど）を受け入れること
+- 強固な電子メールのプライバシー保護法の管轄区域でホストされていること
 
 ### セキュリティ
 
@@ -442,12 +442,12 @@ We regard these features as important in order to provide a safe and optimal ser
 
 **最低条件：**
 
-- Protection of webmail with 2FA, such as TOTP.
+- TOTPなどの二要素認証によるウェブメールの保護。
 - Zero access encryption, builds on encryption at rest. The provider does not have the decryption keys to the data they hold. This prevents a rogue employee leaking data they have access to or remote adversary from releasing data they have stolen by gaining unauthorized access to the server.
-- [DNSSEC](https://en.wikipedia.org/wiki/Domain_Name_System_Security_Extensions) support.
+- [DNSSEC](https://en.wikipedia.org/wiki/Domain_Name_System_Security_Extensions)のサポート。
 - No TLS errors or vulnerabilities when being profiled by tools such as [Hardenize](https://www.hardenize.com/), [testssl.sh](https://testssl.sh/), or [Qualys SSL Labs](https://www.ssllabs.com/ssltest); this includes certificate related errors and weak DH parameters, such as those that led to [Logjam](https://en.wikipedia.org/wiki/Logjam_(computer_security)).
 - A server suite preference (optional on TLSv1.3) for strong cipher suites which support forward secrecy and authenticated encryption.
-- A valid [MTA-STS](https://tools.ietf.org/html/rfc8461) and [TLS-RPT](https://tools.ietf.org/html/rfc8460) policy.
+- 有効な [MTA-STS](https://tools.ietf.org/html/rfc8461) および [TLS-RPT](https://tools.ietf.org/html/rfc8460) ポリシー。
 - Valid [DANE](https://en.wikipedia.org/wiki/DNS-based_Authentication_of_Named_Entities) records.
 - Valid [SPF](https://en.wikipedia.org/wiki/Sender_Policy_Framework) and [DKIM](https://en.wikipedia.org/wiki/DomainKeys_Identified_Mail) records.
 - Have a proper [DMARC](https://en.wikipedia.org/wiki/DMARC) record and policy or use [ARC](https://en.wikipedia.org/wiki/Authenticated_Received_Chain) for authentication. If DMARC authentication is being used, the policy must be set to `reject` or `quarantine`.
