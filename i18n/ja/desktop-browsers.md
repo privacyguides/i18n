@@ -219,7 +219,7 @@ Arkenfoxは、キャンバスのランダム化やFirefoxの組み込みのフ�
 
     1. We advise against using the Flatpak version of Brave, as it replaces Chromium's sandbox with Flatpak's, which is less effective. Additionally, the package is not maintained by Brave Software, Inc.
 
-### Recommended Configuration
+### 推奨する設定
 
 These options can be found in :material-menu: → **Settings**.
 

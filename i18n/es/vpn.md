@@ -53,12 +53,12 @@ Nuestros proveedores recomendados usan encriptación, aceptan Monero, soportan W
         - [:simple-windows11: Windows](https://protonvpn.com/download-windows)
         - [:simple-linux: Linux](https://protonvpn.com/support/linux-vpn-setup/)
 
-#### :material-check:{ .pg-green } 67 Países
+#### :material-check:{ .pg-green } 68 Countries
 
-Proton VPN tiene [servidores en 67 países](https://protonvpn.com/vpn-servers).(1) Elegir un proveedor VPN con un servidor más cercano reducirá la latencia del tráfico de red que envía. Esto se debe a que es una ruta más corta (menos saltos) hasta el destino.
+Proton VPN has [servers in 68 countries](https://protonvpn.com/vpn-servers).(1) Picking a VPN provider with a server nearest to you will reduce latency of the network traffic you send. Esto se debe a que es una ruta más corta (menos saltos) hasta el destino.
 { .annotate }
 
-1. Última comprobación: 2022-09-16
+1. Last checked: 2023-07-28
 
 También pensamos que es mejor para la seguridad de las claves privadas del proveedor de VPN si utilizan [servidores dedicados](https://en.wikipedia.org/wiki/Dedicated_hosting_service), en lugar de soluciones compartidas más baratas (con otros clientes) como los [[servidores privados virtuales](https://en.wikipedia.org/wiki/Virtual_private_server).
 
@@ -125,7 +125,7 @@ Los fallos del sistema [pueden ocurrir](https://protonvpn.com/support/macos-t2-c
 IVPN tiene servidores [en 35 países](https://www.ivpn.net/server-locations).(1) Elegiendo un proveedor de VPN con un servidor más cercano de ti reducirá la latencia del tráfico de red que envíes. Esto se debe a que es una ruta más corta (menos saltos) hasta el destino.
 { .annotate }
 
-1. Última comprobación: 2022-09-16
+1. Last checked: 2023-07-28
 
 También pensamos que es mejor para la seguridad de las claves privadas del proveedor de VPN si utilizan [servidores dedicados](https://en.wikipedia.org/wiki/Dedicated_hosting_service), en lugar de soluciones compartidas más baratas (con otros clientes) como los [[servidores privados virtuales](https://en.wikipedia.org/wiki/Virtual_private_server).
 
@@ -182,12 +182,12 @@ Proton VPN tiene sus propios servidores y centros de datos en Suiza, Islandia y 
         - [:simple-apple: macOS](https://mullvad.net/en/download/macos/)
         - [:simple-linux: Linux](https://mullvad.net/en/download/linux/)
 
-#### :material-check:{ .pg-green } 41 Países
+#### :material-check:{ .pg-green } 43 Countries
 
-IVPN tiene servidores [en 41 países](https://mullvad.net/servers/).(1) Elegiendo un proveedor de VPN con un servidor más cercano de ti reducirá la latencia del tráfico de red que envíes. Esto se debe a que es una ruta más corta (menos saltos) hasta el destino.
+Mullvad has [servers in 43 countries](https://mullvad.net/servers/).(1) Picking a VPN provider with a server nearest to you will reduce latency of the network traffic you send. Esto se debe a que es una ruta más corta (menos saltos) hasta el destino.
 { .annotate }
 
-1. Última comprobación: 2023-01-19
+1. Last checked: 2023-07-28
 
 También pensamos que es mejor para la seguridad de las claves privadas del proveedor de VPN si utilizan [servidores dedicados](https://en.wikipedia.org/wiki/Dedicated_hosting_service), en lugar de soluciones compartidas más baratas (con otros clientes) como los [[servidores privados virtuales](https://en.wikipedia.org/wiki/Virtual_private_server).
 

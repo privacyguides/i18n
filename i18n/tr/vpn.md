@@ -52,12 +52,12 @@ If you're looking for additional **privacy** from your ISP, on a public Wi-Fi ne
         - [:simple-windows11: Windows](https://protonvpn.com/download-windows)
         - [:simple-linux: Linux](https://protonvpn.com/support/linux-vpn-setup/)
 
-#### :material-check:{ .pg-green } 67 Countries
+#### :material-check:{ .pg-green } 68 Countries
 
-Proton VPN has [servers in 67 countries](https://protonvpn.com/vpn-servers).(1) Picking a VPN provider with a server nearest to you will reduce latency of the network traffic you send. Bunun nedeni hedefe giden rotanın daha kısa olmasıdır (daha az atlama).
+Proton VPN has [servers in 68 countries](https://protonvpn.com/vpn-servers).(1) Picking a VPN provider with a server nearest to you will reduce latency of the network traffic you send. Bunun nedeni hedefe giden rotanın daha kısa olmasıdır (daha az atlama).
 { .annotate }
 
-1. 2 yıllık abonelikle (119,76 $) %10 daha indirimli.
+1. Last checked: 2023-07-28
 
 We also think it's better for the security of the VPN provider's private keys if they use [dedicated servers](https://en.wikipedia.org/wiki/Dedicated_hosting_service), instead of cheaper shared solutions (with other customers) such as [virtual private servers](https://en.wikipedia.org/wiki/Virtual_private_server).
 
@@ -117,7 +117,7 @@ System crashes [may occur](https://protonvpn.com/support/macos-t2-chip-kill-swit
 IVPN has [servers in 35 countries](https://www.ivpn.net/server-locations).(1) Picking a VPN provider with a server nearest to you will reduce latency of the network traffic you send. Bunun nedeni hedefe giden rotanın daha kısa olmasıdır (daha az atlama).
 { .annotate }
 
-1. 2 yıllık abonelikle (119,76 $) %10 daha indirimli.
+1. Last checked: 2023-07-28
 
 We also think it's better for the security of the VPN provider's private keys if they use [dedicated servers](https://en.wikipedia.org/wiki/Dedicated_hosting_service), instead of cheaper shared solutions (with other customers) such as [virtual private servers](https://en.wikipedia.org/wiki/Virtual_private_server).
 
@@ -168,12 +168,12 @@ IVPN clients support two factor authentication (Mullvad's clients do not). IVPN 
         - [:simple-apple: macOS](https://mullvad.net/en/download/macos/)
         - [:simple-linux: Linux](https://mullvad.net/en/download/linux/)
 
-#### :material-check:{ .pg-green } 41 Countries
+#### :material-check:{ .pg-green } 43 Countries
 
-Mullvad has [servers in 41 countries](https://mullvad.net/servers/).(1) Picking a VPN provider with a server nearest to you will reduce latency of the network traffic you send. Bunun nedeni hedefe giden rotanın daha kısa olmasıdır (daha az atlama).
+Mullvad has [servers in 43 countries](https://mullvad.net/servers/).(1) Picking a VPN provider with a server nearest to you will reduce latency of the network traffic you send. Bunun nedeni hedefe giden rotanın daha kısa olmasıdır (daha az atlama).
 { .annotate }
 
-1. 2 yıllık abonelikle (119,76 $) %10 daha indirimli.
+1. Last checked: 2023-07-28
 
 We also think it's better for the security of the VPN provider's private keys if they use [dedicated servers](https://en.wikipedia.org/wiki/Dedicated_hosting_service), instead of cheaper shared solutions (with other customers) such as [virtual private servers](https://en.wikipedia.org/wiki/Virtual_private_server).
 

@@ -8,12 +8,12 @@ cover: email.png
 
 実質的に、電子メールはどんなオンラインサービスを使うにも必要ですが、個人間での会話にはお勧めしません。 他人との連絡には電子メールを使うよりも、前方秘匿性のあるインスタントメッセンジャの使用を検討してください。
 
-[おすすめのインスタントメッセンジャ](real-time-communication.md ""){.md-button}
+[おすすめのインスタントメッセンジャー](real-time-communication.md ""){.md-button}
 
-それ以外のことについては、持続可能なビジネスモデル、組み込まれたセキュリティとプライバシー機能に基づいて様々な電子メールプロバイダをお勧めします。
+それ以外のことについては、持続可能なビジネスモデル、組み込まれたセキュリティーとプライバシー機能に基づいて様々な電子メールプロバイダをお勧めします。
 
-- [OpenPGP対応電子メールプロバイダ :material-arrow-right-drop-circle:](#openpgp-compatible-services)
-- [その他の暗号化プロバイダ :material-arrow-right-drop-circle:](#more-providers)
+- [OpenPGP対応の電子メールプロバイダー :material-arrow-right-drop-circle:](#openpgp-compatible-services)
+- [その他の暗号化プロバイダー :material-arrow-right-drop-circle:](#more-providers)
 - [メールエイリアスのサービス :material-arrow-right-drop-circle:](#email-aliasing-services)
 - [セルフホストのオプション :material-arrow-right-drop-circle:](#self-hosting-email)
 
@@ -248,7 +248,7 @@ Tutanota only directly accepts credit cards and PayPal, however [cryptocurrency]
 
 #### :material-check:{ .pg-green } アカウントのセキュリティ
 
-Tutanota supports [two factor authentication](https://tutanota.com/faq#2fa) with either TOTP or U2F.
+Tutanotaは[TOTPまたはU2Fによる二要素認証](https://tutanota.com/faq#2fa)をサポートしています。
 
 #### :material-check:{ .pg-green } データのセキュリティ
 

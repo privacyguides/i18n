@@ -1,6 +1,6 @@
 ---
 meta_title: "Privacy Respecting Mobile Web Browsers for Android and iOS - Privacy Guides"
-title: "Mobile Browsers"
+title: "モバイルブラウザー"
 icon: material/cellphone-information
 description: These browsers are what we currently recommend for standard/non-anonymous internet browsing on your phone.
 cover: mobile-browsers.png
@@ -64,9 +64,9 @@ On Android, Firefox is still less secure than Chromium-based alternatives: Mozil
         - [:simple-googleplay: Google Play](https://play.google.com/store/apps/details?id=com.brave.browser)
         - [:simple-github: GitHub](https://github.com/brave/brave-browser/releases)
 
-#### Recommended Configuration
+#### 推奨する設定
 
-Tor Browser is the only way to truly browse the internet anonymously. When you use Brave, we recommend changing the following settings to protect your privacy from certain parties, but all browsers other than the [Tor Browser](tor.md#tor-browser) will be traceable by *somebody* in some regard or another.
+本当に匿名でインターネットを閲覧する唯一の方法は、Tor Browserを使うことです。 Braveを使用する際は、特定の相手からプライバシーを保護するために以下の設定を変更することをお勧めしますが、 [Tor Browser](tor.md#tor-browser) 以外のブラウザーについては、*誰か*が何らかの形で追跡することができます。
 
 These options can be found in :material-menu: → **Settings** → **Brave Shields & privacy**
 
@@ -138,7 +138,7 @@ On iOS, any app that can browse the web is [restricted](https://developer.apple.
     [:octicons-eye-16:](https://www.apple.com/legal/privacy/data/en/safari/){ .card-link title="Privacy Policy" }
     [:octicons-info-16:](https://support.apple.com/guide/safari/welcome/mac){ .card-link title=Documentation}
 
-#### Recommended Configuration
+#### 推奨する設定
 
 These options can be found in :gear: **Settings** → **Safari** → **Privacy and Security**.
 
