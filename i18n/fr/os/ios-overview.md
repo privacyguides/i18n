@@ -146,7 +146,7 @@ Les iPhones sont déjà résistants aux attaques par force brute en vous faisant
 
 - [x] Activez **Effacer les données**
 
-#### Confidentialité
+#### Confidentialité et sécurité
 
 Les **services de localisation** vous permettent d'utiliser des fonctions telles que Localiser et Plan. Si vous n'avez pas besoin de ces fonctionnalités, vous pouvez désactiver les services de localisation. Vous pouvez également passer en revue et choisir les applications qui peuvent utiliser votre position ici. Sélectionnez **Services de localisation** :
 
@@ -174,40 +174,40 @@ Désactivez **Publicités personnalisées** si vous ne voulez pas de publicités
 
 - [ ] Décochez **Publicités personnalisées**
 
-**App Privacy Report** is a built-in tool that allows you to see which permissions your apps are using. Select **App Privacy Report**:
+**Rapport de confidentialité des apps** est un outil intégré qui vous permet de voir quelles sont les autorisations utilisées par vos applications. Sélectionnez **Rapport de confidentialité des apps** :
 
-- [x] Select **Turn On App Privacy Report**
+- [x] Sélectionnez **Activer le rapport de confidentialité des apps**
 
-[Lockdown Mode](https://blog.privacyguides.org/2022/10/27/macos-ventura-privacy-security-updates/#lockdown-mode) is a security setting you can enable to make your phone more resistant to attacks. Be aware that certain apps and features [won't work](https://support.apple.com/en-us/HT212650) as they do normally.
+Le [mode Isolement](https://blog.privacyguides.org/2022/10/27/macos-ventura-privacy-security-updates/#lockdown-mode) est un paramètre de sécurité que vous pouvez activer pour rendre votre téléphone plus résistant aux attaques. Sachez que certaines applications et fonctionnalités [ne fonctionneront pas](https://support.apple.com/fr-fr/HT212650) comme elles le font normalement.
 
-- [x] Select **Turn On Lockdown Mode**
+- [x] Sélectionnez **Activer le mode Isolement**
 
-## Additional Advice
+## Conseils supplémentaires
 
-### E2EE Calls
+### Appels E2EE
 
-Normal phone calls made with the Phone app through your carrier are not E2EE. Both FaceTime Video and FaceTime Audio calls are E2EE, or you can use [another app](../real-time-communication.md) like Signal.
+Les appels téléphoniques normaux effectués avec l'application Téléphone par l'intermédiaire de votre opérateur ne sont pas E2EE. Les appels FaceTime Vidéo et FaceTime Audio sont E2EE, ou vous pouvez utiliser [une autre application](../real-time-communication.md) comme Signal.
 
-### Avoid Jailbreaking
+### Éviter le jailbreaking
 
-Jailbreaking an iPhone undermines its security and makes you vulnerable. Running untrusted, third-party software could cause your device to be infected with malware.
+Le jailbreaking d'un iPhone compromet sa sécurité et vous rend vulnérable. L'exécution de logiciels tiers non fiables peut entraîner l'infection de votre appareil par des logiciels malveillants.
 
-### Encrypted iMessage
+### iMessage chiffré
 
-The color of the message bubble in the Messages app indicates whether your messages are E2EE or not. A blue bubble indicates that you're using iMessage with E2EE, while a green bubble indicates they're using the outdated SMS and MMS protocols. Currently, the only way to get E2EE in Messages is for both parties to be using iMessage on Apple devices.
+La couleur de la bulle de message dans l'application Messages indique si vos messages sont E2EE ou non. Une bulle bleue indique que vous utilisez iMessage avec E2EE, tandis qu'une bulle verte indique qu'ils utilisent les protocoles SMS et MMS obsolètes. Actuellement, le seul moyen d'obtenir l'E2EE dans Messages est que les deux correspondants utilisent iMessage sur des appareils Apple.
 
-If either you or your messaging partner have iCloud Backup enabled without Advanced Data Protection, the encryption key will be stored on Apple's servers, meaning they can access your messages. Additionally, iMessage's key exchange is not as secure as alternative implementations, like Signal (which allows you to view the recipients key and verify by QR code), so it shouldn't be relied on for particularly sensitive communications.
+Si vous ou votre partenaire de messagerie avez activé la sauvegarde iCloud sans la protection avancée des données, la clé de chiffrement sera stockée sur les serveurs d'Apple, ce qui signifie qu'ils peuvent accéder à vos messages. En outre, l'échange de clés d'iMessage n'est pas aussi sûr que d'autres implémentations, comme Signal (qui permet de voir la clé du destinataire et de vérifier par QR code), et ne doit donc pas être utilisé pour des communications particulièrement sensibles.
 
-### Blacking Out Faces/Information
+### Caviardage des visages/informations
 
-If you need to hide information in a photo, you can use Apple's built-in tools to do so. Open the photo you want to edit, press edit in the top right corner of the screen, then press the markup symbol at the top right. Press the plus at the bottom right of the screen, then press the rectangle icon. Now, you can place a rectangle anywhere on the image. Make sure to press the shape icon at the bottom left and select the filled-in rectangle. **Don't** use the highlighter to obfuscate information, because its opacity is not quite 100%.
+Si vous devez masquer des informations dans une photo, vous pouvez utiliser les outils intégrés d'Apple pour le faire. Ouvrez la photo que vous souhaitez modifier, appuyez sur Modifier dans le coin supérieur droit de l'écran, puis appuyez sur le symbole de marquage en haut à droite. Appuyez sur le plus en bas à droite de l'écran, puis sur l'icône de rectangle. Vous pouvez maintenant placer un rectangle n'importe où sur l'image. Veillez à appuyer sur l'icône de forme en bas à gauche et à sélectionner le rectangle rempli. **N'utilisez pas** le surligneur pour obscurcir des informations, car son opacité n'est pas tout à fait de 100 %.
 
-### iOS Betas
+### Bêtas iOS
 
-Apple always makes beta versions of iOS available early for those that wish to help find and report bugs. We don't recommend installing beta software on your phone. Beta releases are potentially unstable and could have undiscovered security vulnerabilities.
+Apple met toujours des versions bêta d'iOS à la disposition de ceux qui souhaitent aider à trouver et à signaler des bogues. Nous vous déconseillons d'installer des logiciels bêta sur votre téléphone. Les versions bêta sont potentiellement instables et peuvent présenter des failles de sécurité non découvertes.
 
-## Security Highlights
+## Points forts en matière de sécurité
 
-### Before First Unlock
+### Avant le premier déverrouillage
 
-If your threat model includes forensic tools and you want to minimize the chance of exploits being used to access your phone, you should restart your device frequently. The state *after* a reboot but *before* unlocking your device is referred to as "Before First Unlock" (BFU), and when your device is in that state it makes it [significantly more difficult](https://belkasoft.com/checkm8_glossary) for forensic tools to exploit vulnerabilities to access your data. This BFU state allows you to receive notifications for calls, texts, and alarms, but most of the data on your device is still encrypted and inaccessible. This can be impractical, so consider whether these trade-offs make sense for your situation.
+Si votre modèle de menace comprend des outils d'investigation et que vous souhaitez minimiser les risques d'utilisation d'exploits pour accéder à votre téléphone, vous devriez redémarrer votre appareil fréquemment. L'état *après* un redémarrage mais *avant* le déverrouillage de votre appareil est appelé "Before First Unlock" (BFU), et lorsque votre appareil est dans cet état, il est [nettement plus difficile](https://belkasoft.com/checkm8_glossary) pour les outils de criminalistique d'exploiter des vulnérabilités pour accéder à vos données. Cet état BFU vous permet de recevoir des notifications pour les appels, les textes et les alarmes, mais la plupart des données de votre appareil sont toujours chiffrées et inaccessibles. Cela peut s'avérer peu pratique, il convient donc de se demander si ces compromis sont judicieux dans votre situation.
