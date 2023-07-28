@@ -80,7 +80,7 @@ Le opzioni di Shields sono riducibili a seconda del sito come necessrio ma, di d
 
 <div class="annotate" markdown>
 
-- [x] Seleziona **Aggressivo** sotto Blocco di tracker e annunci
+- [x] Seleziona **Aggressivo** sotto **Blocca tracker e annunci**
 
 ??? warning "Usa gli elenchi di filtri predefiniti"
         Brave ti consente di selezionare ulteriori filtri di contenuti mediante la pagina interna `brave://adblock`. Si consiglia di non utilizzare questa funzione e di mantenere gli elenchi di filtri predefiniti. Utilzzare ulteriori elenchi ti distinguerà dagli altri utenti di Brave e potrebbe inoltre incrementare la superficie di attacco, se è presente un exploit su Brave e una regola dannosa viene aggiunta a uno degli elenchi che utilizzi.

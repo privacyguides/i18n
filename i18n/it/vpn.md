@@ -53,7 +53,7 @@ I nostri fornitori consigliati utilizzano la crittografia, accettano Monero, sup
         - [:simple-windows11: Windows](https://protonvpn.com/download-windows)
         - [:simple-linux: Linux](https://protonvpn.com/support/linux-vpn-setup/)
 
-#### :material-check:{ .pg-green } 68 paesi
+#### :material-check:{ .pg-green } 68 Paesi
 
 Proton VPN ha [server in 68 paesi](https://protonvpn.com/vpn-servers).(1) Selezionare un provider VPN con un server il più vicino possibile a te, ridurrà la latenza del traffico di rete che invii. Questo per un percorso più breve (meno 'salti'), verso la destinazione.
 { .annotate }
@@ -180,7 +180,7 @@ I client IVPN supportano l'autenticazione a due fattori (i client Mullvad no). I
         - [:simple-apple: macOS](https://mullvad.net/en/download/macos/)
         - [:simple-linux: Linux](https://mullvad.net/en/download/linux/)
 
-#### :material-check:{ .pg-green } 43 paesi
+#### :material-check:{ .pg-green } 43 Paesi
 
 Mullvad ha [server in 43 paesi](https://mullvad.net/servers/).(1) Selezionare un provider VPN con un server il più vicino possibile a te, ridurrà la latenza del traffico di rete che invii. Questo per un percorso più breve (meno 'salti'), verso la destinazione.
 { .annotate }
