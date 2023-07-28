@@ -53,12 +53,12 @@ I nostri fornitori consigliati utilizzano la crittografia, accettano Monero, sup
         - [:simple-windows11: Windows](https://protonvpn.com/download-windows)
         - [:simple-linux: Linux](https://protonvpn.com/support/linux-vpn-setup/)
 
-#### :material-check:{ .pg-green } 68 Countries
+#### :material-check:{ .pg-green } 68 paesi
 
-Proton VPN has [servers in 68 countries](https://protonvpn.com/vpn-servers).(1) Picking a VPN provider with a server nearest to you will reduce latency of the network traffic you send. Questo per un percorso più breve (meno 'salti'), verso la destinazione.
+Proton VPN ha [server in 68 paesi](https://protonvpn.com/vpn-servers).(1) Selezionare un provider VPN con un server il più vicino possibile a te, ridurrà la latenza del traffico di rete che invii. Questo per un percorso più breve (meno 'salti'), verso la destinazione.
 { .annotate }
 
-1. Last checked: 2023-07-28
+1. Ultimo controllo: 28-07-2023
 
 Riteniamo inoltre che sia meglio per la sicurezza delle chiavi private del provider VPN utilizzare [server dedicati](https://en.wikipedia.org/wiki/Dedicated_hosting_service), invece di soluzioni condivise più economiche (con altri clienti) come [server privati virtuali](https://en.wikipedia.org/wiki/Virtual_private_server).
 
@@ -123,7 +123,7 @@ I client di ProtonVPN supportano l'autenticazione a due fattori su tutte le piat
 IVPN ha [server in 35 paesi](https://www.ivpn.net/server-locations).(1) Selezionare un fornitore VPN con un server il più vicino possibile a te, ridurrà la latenza del traffico di rete che invii. Questo per un percorso più breve (meno 'salti'), verso la destinazione.
 { .annotate }
 
-1. Last checked: 2023-07-28
+1. Ultimo controllo: 28-07-2023
 
 Riteniamo inoltre che sia meglio per la sicurezza delle chiavi private del provider VPN utilizzare [server dedicati](https://en.wikipedia.org/wiki/Dedicated_hosting_service), invece di soluzioni condivise più economiche (con altri clienti) come [server privati virtuali](https://en.wikipedia.org/wiki/Virtual_private_server).
 
@@ -180,12 +180,12 @@ I client IVPN supportano l'autenticazione a due fattori (i client Mullvad no). I
         - [:simple-apple: macOS](https://mullvad.net/en/download/macos/)
         - [:simple-linux: Linux](https://mullvad.net/en/download/linux/)
 
-#### :material-check:{ .pg-green } 43 Countries
+#### :material-check:{ .pg-green } 43 paesi
 
-Mullvad has [servers in 43 countries](https://mullvad.net/servers/).(1) Picking a VPN provider with a server nearest to you will reduce latency of the network traffic you send. Questo per un percorso più breve (meno 'salti'), verso la destinazione.
+Mullvad ha [server in 43 paesi](https://mullvad.net/servers/).(1) Selezionare un provider VPN con un server il più vicino possibile a te, ridurrà la latenza del traffico di rete che invii. Questo per un percorso più breve (meno 'salti'), verso la destinazione.
 { .annotate }
 
-1. Last checked: 2023-07-28
+1. Ultimo controllo: 28-07-2023
 
 Riteniamo inoltre che sia meglio per la sicurezza delle chiavi private del provider VPN se utilizzano [server dedicati](https://en.wikipedia.org/wiki/Dedicated_hosting_service), invece di soluzioni condivise più economiche (con altri clienti) come [server privati virtuali](https://en.wikipedia.org/wiki/Virtual_private_server).
 

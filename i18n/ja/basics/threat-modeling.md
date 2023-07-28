@@ -100,7 +100,7 @@ Only once you have asked yourself these questions will you be in a position to a
 
 Making a security plan will help you to understand the threats that are unique to you and to evaluate your assets, your adversaries, and your adversaries' capabilities, along with the likelihood of risks you face.
 
-## Further Reading
+## 参考リンク
 
 For people looking to increase their privacy and security online, we've compiled a list of common threats our visitors face or goals our visitors have, to give you some inspiration and demonstrate the basis of our recommendations.
 

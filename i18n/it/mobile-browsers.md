@@ -80,9 +80,9 @@ Le opzioni di Shields sono riducibili a seconda del sito come necessrio ma, di d
 
 <div class="annotate" markdown>
 
-- [x] Select **Aggressive** under **Block trackers & ads**
+- [x] Seleziona **Aggressivo** sotto Blocco di tracker e annunci
 
-    ??? warning "Usa gli elenchi di filtri predefiniti"
+??? warning "Usa gli elenchi di filtri predefiniti"
         Brave ti consente di selezionare ulteriori filtri di contenuti mediante la pagina interna `brave://adblock`. Si consiglia di non utilizzare questa funzione e di mantenere gli elenchi di filtri predefiniti. Utilzzare ulteriori elenchi ti distinguerà dagli altri utenti di Brave e potrebbe inoltre incrementare la superficie di attacco, se è presente un exploit su Brave e una regola dannosa viene aggiunta a uno degli elenchi che utilizzi.
 
 - [x] Seleziona **Aggiorna le connessioni a HTTPS**
@@ -106,13 +106,13 @@ Le opzioni di Shields sono riducibili a seconda del sito come necessrio ma, di d
 
 <div class="annotate" markdown>
 
-- [x] Select **Disable non-proxied UDP** under [WebRTC IP handling policy](https://support.brave.com/hc/en-us/articles/360017989132-How-do-I-change-my-Privacy-Settings-#webrtc)
-- [ ] Uncheck **Allow sites to check if you have payment methods saved**
-- [ ] Uncheck **IPFS Gateway** (1)
-- [x] Select **Close tabs on exit**
-- [ ] Uncheck **Allow privacy-preserving product analytics (P3A)**
-- [ ] Uncheck **Automatically send diagnostic reports**
-- [ ] Uncheck **Automatically send daily usage ping to Brave**
+- [x] Seleziona **Disabilita UDP senza proxy** nella [Gestione Politca IP WebRTC](https://support.brave.com/hc/en-us/articles/360017989132-How-do-I-chaange-my-Privacy-Settings-#webrtc)
+- [ ] Rimuovi la spunta da "Consenti ai siti di controllare se hai metodi di pagamento salvati**
+- [ ] Rimuovi la spunta da **Gateway IPFS** (1)
+- [x] Seleziona **Chiudi le schede quando esci**
+- [ ] Rimuovi la spunta da **Acconsenti all'analisi dei prodotti di tutela della privacy (P3A)**
+- [ ] Rimuovi la spunta da **Invia automaticamente i rapporti di diagnostica**
+- [ ] Rimuovi la spunta da **Invia automaticamente un ping di utilizzo giornaliero a Brave**
 
 </div>
 
