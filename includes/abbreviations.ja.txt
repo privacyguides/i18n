@@ -8,7 +8,7 @@
 *[CLI]: コマンドライン インターフェース
 *[CSV]: Comma-Separated Values
 *[CVE]: Common Vulnerabilities and Exposures
-*[digital legacy feature]: デジタルレガシーとは、あなたが亡くなったときに、他の人にあなたのデータへのアクセスを許可する機能のことです。
+*[digital legacy feature]: デジタル遺産機能とは、あなたが亡くなったときに、他の人にあなたのデータへのアクセスを許可する機能のことです。
 *[DNSSEC]: Domain Name System Security Extensions
 *[DNS]: Domain Name System
 *[DoH]: DNS over HTTPS

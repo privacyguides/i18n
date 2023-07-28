@@ -41,7 +41,7 @@ These are our currently recommended mobile web browsers and configurations for s
 
 ## Android
 
-Androidでは、FirefoxはChromiumベースのブラウザーよりもまだ安全性が低いです。Mozillaのエンジンである[GeckoView](https://mozilla.github.io/geckoview/)は、まだ[Site Isolation](https://hacks.mozilla.org/2021/05/introducing-firefox-new-site-isolation-security-architecture)をサポートしておらず、また [isolatedProcess](https://bugzilla.mozilla.org/show_bug.cgi?id=1565196)を有効にしていません。
+Androidでは、FirefoxはChromiumベースのブラウザーよりもまだ安全性が低いです。Mozillaのエンジンである[GeckoView](https://mozilla.github.io/geckoview/)は、まだ[サイト分離](https://hacks.mozilla.org/2021/05/introducing-firefox-new-site-isolation-security-architecture)をサポートしておらず、また [分離プロセス](https://bugzilla.mozilla.org/show_bug.cgi?id=1565196)を有効にしていません。
 
 ### Brave
 
