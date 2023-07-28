@@ -369,7 +369,7 @@ Our best-case criteria represents what we would like to see from the perfect pro
 - Provides open-source sync server implementation.
 - Defaults to a [private search engine](search-engines.md).
 
-### Extension Criteria
+### 拡張機能の基準
 
 - Must not replicate built-in browser or OS functionality.
 - ユーザーのプライバシーに直接影響を与える必要があります。つまり、単に情報を提供するだけではない必要があります。

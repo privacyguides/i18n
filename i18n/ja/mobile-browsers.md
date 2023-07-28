@@ -37,11 +37,11 @@ schema:
       url: "./"
 ---
 
-These are our currently recommended mobile web browsers and configurations for standard/non-anonymous internet browsing. If you need to browse the internet anonymously, you should use [Tor](tor.md) instead. In general, we recommend keeping extensions to a minimum; they have privileged access within your browser, require you to trust the developer, can make you [stand out](https://en.wikipedia.org/wiki/Device_fingerprint#Browser_fingerprint), and [weaken](https://groups.google.com/a/chromium.org/g/chromium-extensions/c/0ei-UCHNm34/m/lDaXwQhzBAAJ) site isolation.
+These are our currently recommended mobile web browsers and configurations for standard/non-anonymous internet browsing. 匿名でインターネットを閲覧するには、[Tor](tor.md)を使用してください。 In general, we recommend keeping extensions to a minimum; they have privileged access within your browser, require you to trust the developer, can make you [stand out](https://en.wikipedia.org/wiki/Device_fingerprint#Browser_fingerprint), and [weaken](https://groups.google.com/a/chromium.org/g/chromium-extensions/c/0ei-UCHNm34/m/lDaXwQhzBAAJ) site isolation.
 
 ## Android
 
-On Android, Firefox is still less secure than Chromium-based alternatives: Mozilla's engine, [GeckoView](https://mozilla.github.io/geckoview/), has yet to support [site isolation](https://hacks.mozilla.org/2021/05/introducing-firefox-new-site-isolation-security-architecture) or enable [isolatedProcess](https://bugzilla.mozilla.org/show_bug.cgi?id=1565196).
+Androidでは、FirefoxはChromiumベースのブラウザーよりもまだ安全性が低いです。Mozillaのエンジンである[GeckoView](https://mozilla.github.io/geckoview/)は、まだ[Site Isolation](https://hacks.mozilla.org/2021/05/introducing-firefox-new-site-isolation-security-architecture)をサポートしておらず、また [isolatedProcess](https://bugzilla.mozilla.org/show_bug.cgi?id=1565196)を有効にしていません。
 
 ### Brave
 
@@ -148,7 +148,7 @@ These options can be found in :gear: **Settings** → **Safari** → **Privacy a
 
 This enables WebKit's [Intelligent Tracking Protection](https://webkit.org/tracking-prevention/#intelligent-tracking-prevention-itp). The feature helps protect against unwanted tracking by using on-device machine learning to stop trackers. ITP protects against many common threats, but it does not block all tracking avenues because it is designed to not interfere with website usability.
 
-##### Privacy Report
+##### プライバシーレポート
 
 Privacy Report provides a snapshot of cross-site trackers currently prevented from profiling you on the website you're visiting. It can also display a weekly report to show which trackers have been blocked over time.
 
@@ -211,7 +211,7 @@ Additional filter lists do slow things down and may increase your attack surface
 
     We are working on establishing defined criteria for every section of our site, and this may be subject to change. If you have any questions about our criteria, please [ask on our forum](https://discuss.privacyguides.net/latest) and don't assume we didn't consider something when making our recommendations if it is not listed here. There are many factors considered and discussed when we recommend a project, and documenting every single one is a work-in-progress.
 
-### Minimum Requirements
+### 最低要件
 
 - Must support automatic updates.
 - Must receive engine updates in 0-1 days from upstream release.
@@ -220,7 +220,7 @@ Additional filter lists do slow things down and may increase your attack surface
     - Unfortunately, Mozilla GeckoView is still less secure than Chromium on Android.
     - iOS browsers are limited to WebKit.
 
-### Extension Criteria
+### 拡張機能の基準
 
 - Must not replicate built-in browser or OS functionality.
 - Must directly impact user privacy, i.e. must not simply provide information.

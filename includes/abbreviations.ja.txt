@@ -21,7 +21,7 @@
 *[entropy]: A measurement of how unpredictable something is
 *[EOL]: End-of-Life
 *[Exif]: Exchangeable image file format
-*[FCM]: Firebase Cloud Messaging
+*[FCM]: Firebaseクラウドメッセージング
 *[FDE]: Full Disk Encryption
 *[FIDO]: Fast IDentity Online
 *[FS]: Forward Secrecy
@@ -29,9 +29,9 @@
 *[GDPR]: EU一般データ保護規則（General Data Protection Regulation）
 *[GPG]: GNU Privacy Guard (PGP implementation)
 *[GPS]: Global Positioning System
-*[GUI]: Graphical User Interface
+*[GUI]: グラフィカルユーザーインターフェース
 *[GnuPG]: GNU Privacy Guard (PGP implementation)
-*[HDD]: Hard Disk Drive
+*[HDD]: ハードディスクドライブ
 *[HOTP]: HMAC (Hash-based Message Authentication Code) based One-Time Password
 *[HTTPS]: Hypertext Transfer Protocol Secure
 *[HTTP]: Hypertext Transfer Protocol
@@ -45,7 +45,7 @@
 *[IPv6]: Internet Protocol version 6
 *[ISP]: インターネットサービスプロバイダ（Internet Service Provider）
 *[ISPs]: Internet Service Providers
-*[JNI]: Java Native Interface
+*[JNI]: Javaネイティブインターフェース
 *[KYC]: Know Your Customer
 *[LUKS]: Linux Unified Key Setup (Full-Disk Encryption)
 *[MAC]: Media Access Control
@@ -73,11 +73,11 @@
 *[rolling release]: Updates which are released frequently rather than set intervals
 *[RSS]: Really Simple Syndication
 *[SELinux]: Security-Enhanced Linux
-*[SIM]: Subscriber Identity Module
-*[SMS]: Short Message Service (standard text messaging)
+*[SIM]: 加入者識別モジュール
+*[SMS]: ショートメッセージサービス（標準テキストメッセージ）
 *[SMTP]: Simple Mail Transfer Protocol
 *[SNI]: Server Name Indication
-*[SSD]: Solid-State Drive
+*[SSD]: ソリッドステートドライブ
 *[SSH]: Secure Shell
 *[SUID]: Set Owner User ID
 *[SaaS]: Software as a Service (cloud software)
