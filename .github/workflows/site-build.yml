@@ -20,7 +20,10 @@
 
 name: 🏗️ Build Websites
 
-on: [push, workflow_dispatch]
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '0 17 * * *'
 
 jobs:
   build:
@@ -69,7 +72,7 @@ jobs:
           GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
           CARDS: true
         run: |
-          pipenv run mkdocs build --config-file config/mkdocs.${{ matrix.language }}.yml
+          pipenv run mkdocs build --strict --config-file config/mkdocs.${{ matrix.language }}.yml
           pipenv run mkdocs --version
 
       - name: Package website
