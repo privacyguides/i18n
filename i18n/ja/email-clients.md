@@ -25,10 +25,10 @@ Our recommendation list contains email clients that support both [OpenPGP](encry
     
     **Thunderbird** is a free, open-source, cross-platform email, newsgroup, news feed, and chat (XMPP, IRC, Twitter) client developed by the Thunderbird community, and previously by the Mozilla Foundation.
     
-    [:octicons-home-16: Homepage](https://www.thunderbird.net){ .md-button .md-button--primary }
-    [:octicons-eye-16:](https://www.mozilla.org/privacy/thunderbird){ .card-link title="Privacy Policy" }
-    [:octicons-info-16:](https://support.mozilla.org/products/thunderbird){ .card-link title=Documentation}
-    [:octicons-code-16:](https://hg.mozilla.org/comm-central){ .card-link title="Source Code" }
+    [:octicons-home-16: ホームページ](https://www.thunderbird.net){ .md-button .md-button--primary }
+    [:octicons-eye-16:](https://www.mozilla.org/privacy/thunderbird){ .card-link title="プライバシーポリシー" }
+    [:octicons-info-16:](https://support.mozilla.org/products/thunderbird){ .card-link title=ドキュメンテーション}
+    [:octicons-code-16:](https://hg.mozilla.org/comm-central){ .card-link title="ソースコード" }
     
     ??? ダウンロード
     
@@ -90,7 +90,7 @@ Apple Mail has the ability to load remote content in the background or block it 
         - [:simple-appstore: App Store](https://apps.apple.com/app/id1236045954)
         - [:simple-windows11: Windows](https://canarymail.io/downloads.html)
 
-!!! warning
+!!! 警告
 
     Canary Mail only recently released a Windows and Android client, though we don't believe they are as stable as their iOS and Mac counterparts.
 
@@ -143,11 +143,11 @@ Canary Mailのソースコードは公開されていません。 We recommend i
     
     In the future, K-9 Mail will be the [officially branded](https://k9mail.app/2022/06/13/K-9-Mail-and-Thunderbird.html) Thunderbird client for Android.
     
-    [:octicons-home-16: Homepage](https://k9mail.app){ .md-button .md-button--primary }
-    [:octicons-eye-16:](https://k9mail.app/privacy){ .card-link title="Privacy Policy" }
-    [:octicons-info-16:](https://docs.k9mail.app/){ .card-link title=Documentation}
-    [:octicons-code-16:](https://github.com/k9mail/k-9){ .card-link title="Source Code" }
-    [:octicons-heart-16:](https://k9mail.app/contribute){ .card-link title=Contribute }
+    [:octicons-home-16: ホームページ](https://k9mail.app){ .md-button .md-button--primary }
+    [:octicons-eye-16:](https://k9mail.app/privacy){ .card-link title="プライバシーポリシー" }
+    [:octicons-info-16:](https://docs.k9mail.app/){ .card-link title=ドキュメンテーション}
+    [:octicons-code-16:](https://github.com/k9mail/k-9){ .card-link title="ソースコード" }
+    [:octicons-heart-16:](https://k9mail.app/contribute){ .card-link title=貢献 }
     
     ??? ダウンロード
     
@@ -185,12 +185,12 @@ Canary Mailのソースコードは公開されていません。 We recommend i
     
     **Mailvelope** is a browser extension that enables the exchange of encrypted emails following the OpenPGP encryption standard.
     
-    [:octicons-home-16: Homepage](https://www.mailvelope.com){ .md-button .md-button--primary }
-    [:octicons-eye-16:](https://www.mailvelope.com/en/privacy-policy){ .card-link title="Privacy Policy" }
-    [:octicons-info-16:](https://mailvelope.com/faq){ .card-link title=Documentation}
-    [:octicons-code-16:](https://github.com/mailvelope/mailvelope){ .card-link title="Source Code" }
+    [:octicons-home-16: ホームページ](https://www.mailvelope.com){ .md-button .md-button--primary }
+    [:octicons-eye-16:](https://www.mailvelope.com/en/privacy-policy){ .card-link title="プライバシーポリシー" }
+    [:octicons-info-16:](https://mailvelope.com/faq){ .card-link title=ドキュメンテーション}
+    [:octicons-code-16:](https://github.com/mailvelope/mailvelope){ .card-link title="ソースコード" }
     
-    ??? downloads
+    ??? ダウンロード
     
         - [:simple-firefoxbrowser: Firefox](https://addons.mozilla.org/firefox/addon/mailvelope)
         - [:simple-googlechrome: Chrome](https://chrome.google.com/webstore/detail/mailvelope/kajibbejlbohfaggdiogboambcijhkke)
@@ -206,10 +206,10 @@ Canary Mailのソースコードは公開されていません。 We recommend i
     
     NeoMutt is a text-based client that has a steep learning curve. It is however, very customizable.
     
-    [:octicons-home-16: Homepage](https://neomutt.org){ .md-button .md-button--primary }
-    [:octicons-info-16:](https://neomutt.org/guide/){ .card-link title=Documentation}
-    [:octicons-code-16:](https://github.com/neomutt/neomutt){ .card-link title="Source Code" }
-    [:octicons-heart-16:](https://www.paypal.com/paypalme/russon/){ .card-link title=Contribute }
+    [:octicons-home-16: ホームページ](https://neomutt.org){ .md-button .md-button--primary }
+    [:octicons-info-16:](https://neomutt.org/guide/){ .card-link title=ドキュメンテーション}
+    [:octicons-code-16:](https://github.com/neomutt/neomutt){ .card-link title="ソースコード" }
+    [:octicons-heart-16:](https://www.paypal.com/paypalme/russon/){ .card-link title=貢献 }
     
     ??? ダウンロード
     
@@ -230,7 +230,7 @@ Canary Mailのソースコードは公開されていません。 We recommend i
 - Must not collect telemetry, or have an easy way to disable all telemetry.
 - Must support OpenPGP message encryption.
 
-### Best-Case
+### 満たされることが望ましい基準
 
 Our best-case criteria represents what we would like to see from the perfect project in this category. Our recommendations may not include any or all of this functionality, but those which do may rank higher than others on this page.
 

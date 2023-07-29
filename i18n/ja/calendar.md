@@ -64,7 +64,7 @@ Calendars contain some of your most sensitive data; use products that implement 
 
 - Must sync and store information with E2EE to ensure data is not visible to the service provider.
 
-### Best-Case
+### 満たされることが望ましい基準
 
 Our best-case criteria represents what we would like to see from the perfect project in this category. Our recommendations may not include any or all of this functionality, but those which do may rank higher than others on this page.
 

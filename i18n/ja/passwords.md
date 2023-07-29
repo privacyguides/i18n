@@ -1,6 +1,6 @@
 ---
 meta_title: "プライバシーとセキュリティーを守る最高のパスワード・マネージャー - プライバシー・ガイド"
-title: "パスワードマネージャ"
+title: "パスワードマネージャー"
 icon: material/form-textbox-password
 description: パスワードマネージャーは、パスワードやその他の情報を安全に保存および管理できます。
 cover: passwords.png
@@ -34,7 +34,7 @@ schema:
     name: 1Password
     image: /assets/img/password-management/1password.svg
     url: https://1password.com
-    sameAs: https://en.wikipedia.org/wiki/1Password
+    sameAs: https://ja.wikipedia.org/wiki/1Password
     applicationCategory: パスワードマネージャー
     operatingSystem:
       - Windows
@@ -66,7 +66,7 @@ schema:
     name: KeePassXC
     image: /assets/img/password-management/keepassxc.svg
     url: https://keepassxc.org/
-    sameAs: https://en.wikipedia.org/wiki/KeePassXC
+    sameAs: https://ja.wikipedia.org/wiki/KeePassXC
     applicationCategory: パスワードマネージャー
     operatingSystem:
       - Windows
@@ -128,7 +128,7 @@ Password managers allow you to securely store and manage passwords and other cre
     
     For example, the password manager in Microsoft Edge doesn't offer E2EE at all. Google's password manager has [optional](https://support.google.com/accounts/answer/11350823) E2EE, and [Apple's](https://support.apple.com/en-us/HT202303) offers E2EE by default.
 
-## Cloud-based
+## クラウドベース
 
 These password managers sync your passwords to a cloud server for easy accessibility from all your devices and safety against device loss.
 
@@ -140,12 +140,12 @@ These password managers sync your passwords to a cloud server for easy accessibi
     
     **Bitwarden** is a free and open-source password manager. It aims to solve password management problems for individuals, teams, and business organizations. Bitwarden is among the best and safest solutions to store all of your logins and passwords while conveniently keeping them synced between all of your devices.
     
-    [:octicons-home-16: Homepage](https://bitwarden.com){ .md-button .md-button--primary }
-    [:octicons-eye-16:](https://bitwarden.com/privacy){ .card-link title="Privacy Policy" }
-    [:octicons-info-16:](https://bitwarden.com/help/){ .card-link title=Documentation}
-    [:octicons-code-16:](https://github.com/bitwarden){ .card-link title="Source Code" }
+    [:octicons-home-16: ホームページ](https://bitwarden.com){ .md-button .md-button--primary }
+    [:octicons-eye-16:](https://bitwarden.com/privacy){ .card-link title="プライバシーポリシー" }
+    [:octicons-info-16:](https://bitwarden.com/help/){ .card-link title=ドキュメンテーション}
+    [:octicons-code-16:](https://github.com/bitwarden){ .card-link title="ソースコード" }
     
-    ??? downloads
+    ??? ダウンロード
     
         - [:simple-googleplay: Google Play](https://play.google.com/store/apps/details?id=com.x8bit.bitwarden)
         - [:simple-appstore: App Store](https://apps.apple.com/app/bitwarden-password-manager/id1137397744)
@@ -165,9 +165,9 @@ Bitwarden's server-side code is [open-source](https://github.com/bitwarden/serve
 
 **Vaultwarden** is an alternative implementation of Bitwarden's sync server written in Rust and compatible with official Bitwarden clients, perfect for self-hosted deployment where running the official resource-heavy service might not be ideal. If you are looking to self-host Bitwarden on your own server, you almost certainly want to use Vaultwarden over Bitwarden's official server code.
 
-[:octicons-repo-16: Vaultwarden Repository](https://github.com/dani-garcia/vaultwarden ""){.md-button} [:octicons-info-16:](https://github.com/dani-garcia/vaultwarden/wiki){ .card-link title=Documentation}
-[:octicons-code-16:](https://github.com/dani-garcia/vaultwarden){ .card-link title="Source Code" }
-[:octicons-heart-16:](https://github.com/sponsors/dani-garcia){ .card-link title=Contribute }
+[:octicons-repo-16: Vaultwarden レポジトリー](https://github.com/dani-garcia/vaultwarden ""){.md-button} [:octicons-info-16:](https://github.com/dani-garcia/vaultwarden/wiki){ .card-link title=ドキュメンテーション}
+[:octicons-code-16:](https://github.com/dani-garcia/vaultwarden){ .card-link title="ソースコード" }
+[:octicons-heart-16:](https://github.com/sponsors/dani-garcia){ .card-link title=貢献 }
 
 ### 1Password
 
@@ -177,11 +177,11 @@ Bitwarden's server-side code is [open-source](https://github.com/bitwarden/serve
     
     **1Password** is a password manager with a strong focus on security and ease-of-use, which allows you to store passwords, credit cards, software licenses, and any other sensitive information in a secure digital vault. Your vault is hosted on 1Password's servers for a [monthly fee](https://1password.com/sign-up/). 1Password is [audited](https://support.1password.com/security-assessments/) on a regular basis and provides exceptional customer support. 1Password is closed source; however, the security of the product is thoroughly documented in their [security white paper](https://1passwordstatic.com/files/security/1password-white-paper.pdf).
     
-    [:octicons-home-16: Homepage](https://1password.com/){ .md-button .md-button--primary }
-    [:octicons-eye-16:](https://1password.com/legal/privacy/){ .card-link title="Privacy Policy" }
-    [:octicons-info-16:](https://support.1password.com/){ .card-link title=Documentation}
+    [:octicons-home-16: ホームページ](https://1password.com/){ .md-button .md-button--primary }
+    [:octicons-eye-16:](https://1password.com/legal/privacy/){ .card-link title="プライバシーポリシー" }
+    [:octicons-info-16:](https://support.1password.com/){ .card-link title=ドキュメンテーション}
     
-    ??? downloads
+    ??? ダウンロード
     
         - [:simple-googleplay: Google Play](https://play.google.com/store/apps/details?id=com.onepassword.android)
         - [:simple-appstore: App Store](https://apps.apple.com/app/id1511601750?mt=8)
@@ -203,12 +203,12 @@ One advantage 1Password has over Bitwarden is its first-class support for native
     
     **Psono** is a free and open-source password manager from Germany, with a focus on password management for teams. Psono supports secure sharing of passwords, files, bookmarks, and emails. All secrets are protected by a master password.
     
-    [:octicons-home-16: Homepage](https://psono.com){ .md-button .md-button--primary }
-    [:octicons-eye-16:](https://psono.com/privacy-policy){ .card-link title="Privacy Policy" }
-    [:octicons-info-16:](https://doc.psono.com){ .card-link title=Documentation}
-    [:octicons-code-16:](https://gitlab.com/psono){ .card-link title="Source Code" }
+    [:octicons-home-16: ホームページ](https://psono.com){ .md-button .md-button--primary }
+    [:octicons-eye-16:](https://psono.com/privacy-policy){ .card-link title="プライバシーポリシー" }
+    [:octicons-info-16:](https://doc.psono.com){ .card-link title=ドキュメンテーション}
+    [:octicons-code-16:](https://gitlab.com/psono){ .card-link title="ソースコード" }
     
-    ??? downloads
+    ??? ダウンロード
     
         - [:simple-googleplay: Google Play](https://play.google.com/store/apps/details?id=com.psono.psono)
         - [:simple-appstore: App Store](https://apps.apple.com/us/app/psono-password-manager/id1545581224)
@@ -218,15 +218,15 @@ One advantage 1Password has over Bitwarden is its first-class support for native
 
 Psono provides extensive documentation for their product. The web-client for Psono can be self-hosted; alternatively, you can choose the full Community Edition or the Enterprise Edition with additional features.
 
-### Criteria
+### 基準
 
 **Please note we are not affiliated with any of the projects we recommend.** In addition to [our standard criteria](about/criteria.md), we have developed a clear set of requirements to allow us to provide objective recommendations. We suggest you familiarize yourself with this list before choosing to use a project, and conduct your own research to ensure it's the right choice for you.
 
-!!! example "This section is new"
+!!! example "この項目は最近作成されました"
 
     We are working on establishing defined criteria for every section of our site, and this may be subject to change. If you have any questions about our criteria, please [ask on our forum](https://discuss.privacyguides.net/latest) and don't assume we didn't consider something when making our recommendations if it is not listed here. There are many factors considered and discussed when we recommend a project, and documenting every single one is a work-in-progress.
 
-#### Minimum Requirements
+#### 最低要件
 
 - Must utilize strong, standards-based/modern E2EE.
 - Must have thoroughly documented encryption and security practices.
@@ -234,7 +234,7 @@ Psono provides extensive documentation for their product. The web-client for Pso
 - All non-essential telemetry must be optional.
 - Must not collect more PII than is necessary for billing purposes.
 
-#### Best-Case
+#### 満たされることが望ましい基準
 
 Our best-case criteria represents what we would like to see from the perfect project in this category. Our recommendations may not include any or all of this functionality, but those which do may rank higher than others on this page.
 
@@ -259,7 +259,7 @@ These options allow you to manage an encrypted password database locally.
     [:octicons-code-16:](https://github.com/keepassxreboot/keepassxc){ .card-link title="Source Code" }
     [:octicons-heart-16:](https://keepassxc.org/donate/){ .card-link title=Contribute }
     
-    ??? downloads
+    ??? ダウンロード
     
         - [:simple-windows11: Windows](https://keepassxc.org/download/#windows)
         - [:simple-apple: macOS](https://keepassxc.org/download/#mac)
@@ -278,12 +278,12 @@ KeePassXC stores its export data as [CSV](https://en.wikipedia.org/wiki/Comma-se
     
     **KeePassDX** is a lightweight password manager for Android, allows editing encrypted data in a single file in KeePass format and can fill in the forms in a secure way. [Contributor Pro](https://play.google.com/store/apps/details?id=com.kunzisoft.keepass.pro) allows unlocking cosmetic content and non-standard protocol features, but more importantly, it helps and encourages development.
     
-    [:octicons-home-16: Homepage](https://www.keepassdx.com){ .md-button .md-button--primary }
-    [:octicons-info-16:](https://github.com/Kunzisoft/KeePassDX/wiki){ .card-link title=Documentation}
-    [:octicons-code-16:](https://github.com/Kunzisoft/KeePassDX){ .card-link title="Source Code" }
-    [:octicons-heart-16:](https://www.keepassdx.com/#donation){ .card-link title=Contribute }
+    [:octicons-home-16: ホームページ](https://www.keepassdx.com){ .md-button .md-button--primary }
+    [:octicons-info-16:](https://github.com/Kunzisoft/KeePassDX/wiki){ .card-link title=ドキュメンテーション}
+    [:octicons-code-16:](https://github.com/Kunzisoft/KeePassDX){ .card-link title="ソースコード" }
+    [:octicons-heart-16:](https://www.keepassdx.com/#donation){ .card-link title=貢献 }
     
-    ??? downloads
+    ??? ダウンロード
     
         - [:simple-googleplay: Google Play](https://play.google.com/store/apps/details?id=com.kunzisoft.keepass.free)
         - [:simple-github: GitHub](https://github.com/Kunzisoft/KeePassDX/releases)
@@ -296,19 +296,19 @@ KeePassXC stores its export data as [CSV](https://en.wikipedia.org/wiki/Comma-se
     
     **Strongbox** is a native, open-source password manager for iOS and macOS. Supporting both KeePass and Password Safe formats, Strongbox can be used in tandem with other password managers, like KeePassXC, on non-Apple platforms. By employing a [freemium model](https://strongboxsafe.com/pricing/), Strongbox offers most features under its free tier with more convenience-oriented [features](https://strongboxsafe.com/comparison/)—such as biometric authentication—locked behind a subscription or perpetual license.
     
-    [:octicons-home-16: Homepage](https://strongboxsafe.com){ .md-button .md-button--primary }
-    [:octicons-eye-16:](https://strongboxsafe.com/privacy/){ .card-link title="Privacy Policy" }
-    [:octicons-info-16:](https://strongboxsafe.com/getting-started/){ .card-link title=Documentation}
-    [:octicons-code-16:](https://github.com/strongbox-password-safe/Strongbox){ .card-link title="Source Code" }
-    [:octicons-heart-16:](https://github.com/strongbox-password-safe/Strongbox#supporting-development){ .card-link title=Contribute }
+    [:octicons-home-16: ホームページ](https://strongboxsafe.com){ .md-button .md-button--primary }
+    [:octicons-eye-16:](https://strongboxsafe.com/privacy/){ .card-link title="プライバシーポリシー" }
+    [:octicons-info-16:](https://strongboxsafe.com/getting-started/){ .card-link title=ドキュメンテーション}
+    [:octicons-code-16:](https://github.com/strongbox-password-safe/Strongbox){ .card-link title="ソースコード" }
+    [:octicons-heart-16:](https://github.com/strongbox-password-safe/Strongbox#supporting-development){ .card-link title=貢献 }
     
-    ??? downloads
+    ??? ダウンロード
     
         - [:simple-appstore: App Store](https://apps.apple.com/app/strongbox-keepass-pwsafe/id897283731)
 
 Additionally, there is an offline-only version offered: [Strongbox Zero](https://apps.apple.com/app/strongbox-keepass-pwsafe/id1581589638). This version is stripped down in an attempt to reduce attack surface.
 
-### Command-line
+### コマンドライン
 
 These products are minimal password managers that can be used within scripting applications.
 
@@ -320,23 +320,23 @@ These products are minimal password managers that can be used within scripting a
     
     **gopass** is a password manager for the command line written in Go. It works on all major desktop and server operating systems (Linux, macOS, BSD, Windows).
     
-    [:octicons-home-16: Homepage](https://www.gopass.pw){ .md-button .md-button--primary }
-    [:octicons-info-16:](https://github.com/gopasspw/gopass/tree/master/docs){ .card-link title=Documentation}
-    [:octicons-code-16:](https://github.com/gopasspw/gopass){ .card-link title="Source Code" }
-    [:octicons-heart-16:](https://github.com/sponsors/dominikschulz){ .card-link title=Contribute }
+    [:octicons-home-16: ホームページ](https://www.gopass.pw){ .md-button .md-button--primary }
+    [:octicons-info-16:](https://github.com/gopasspw/gopass/tree/master/docs){ .card-link title=ドキュメンテーション}
+    [:octicons-code-16:](https://github.com/gopasspw/gopass){ .card-link title="ソースコード" }
+    [:octicons-heart-16:](https://github.com/sponsors/dominikschulz){ .card-link title=貢献 }
     
-    ??? downloads
+    ??? ダウンロード
     
         - [:simple-windows11: Windows](https://www.gopass.pw/#install-windows)
         - [:simple-apple: macOS](https://www.gopass.pw/#install-macos)
         - [:simple-linux: Linux](https://www.gopass.pw/#install-linux)
         - [:simple-freebsd: FreeBSD](https://www.gopass.pw/#install-bsd)
 
-### Criteria
+### 基準
 
 **Please note we are not affiliated with any of the projects we recommend.** In addition to [our standard criteria](about/criteria.md), we have developed a clear set of requirements to allow us to provide objective recommendations. We suggest you familiarize yourself with this list before choosing to use a project, and conduct your own research to ensure it's the right choice for you.
 
-!!! example "This section is new"
+!!! example "この項目は最近作成されました"
 
     We are working on establishing defined criteria for every section of our site, and this may be subject to change. If you have any questions about our criteria, please [ask on our forum](https://discuss.privacyguides.net/latest) and don't assume we didn't consider something when making our recommendations if it is not listed here. There are many factors considered and discussed when we recommend a project, and documenting every single one is a work-in-progress.
 

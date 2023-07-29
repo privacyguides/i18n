@@ -68,14 +68,14 @@ Nitrokey's firmware is open-source, unlike the YubiKey. The firmware on modern N
 
     We are working on establishing defined criteria for every section of our site, and this may be subject to change. If you have any questions about our criteria, please [ask on our forum](https://discuss.privacyguides.net/latest) and don't assume we didn't consider something when making our recommendations if it is not listed here. There are many factors considered and discussed when we recommend a project, and documenting every single one is a work-in-progress.
 
-#### Minimum Requirements
+#### 最低要件
 
 - Must use high quality, tamper resistant hardware security modules.
 - Must support the latest FIDO2 specification.
 - Must not allow private key extraction.
 - Devices which cost over $35 must support handling OpenPGP and S/MIME.
 
-#### Best-Case
+#### 満たされることが望ましい基準
 
 Our best-case criteria represents what we would like to see from the perfect project in this category. Our recommendations may not include any or all of this functionality, but those which do may rank higher than others on this page.
 

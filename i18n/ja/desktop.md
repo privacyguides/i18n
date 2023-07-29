@@ -19,9 +19,9 @@ Linux distributions are commonly recommended for privacy protection and software
     
     **Fedora Workstation** is our recommended distribution for people new to Linux. Fedora generally adopts newer technologies before other distributions e.g., [Wayland](https://wayland.freedesktop.org/), [PipeWire](https://pipewire.org). These new technologies often come with improvements in security, privacy, and usability in general.
     
-    [:octicons-home-16: Homepage](https://getfedora.org/){ .md-button .md-button--primary }
-    [:octicons-info-16:](https://docs.fedoraproject.org/en-US/docs/){ .card-link title=Documentation}
-    [:octicons-heart-16:](https://whatcanidoforfedora.org/){ .card-link title=Contribute }
+    [:octicons-home-16: ホームページ](https://getfedora.org/){ .md-button .md-button--primary }
+    [:octicons-info-16:](https://docs.fedoraproject.org/en-US/docs/){ .card-link title=ドキュメンテーション}
+    [:octicons-heart-16:](https://whatcanidoforfedora.org/){ .card-link title=貢献 }
 
 Fedora has a semi-rolling release cycle. While some packages like [GNOME](https://www.gnome.org) are frozen until the next Fedora release, most packages (including the kernel) are updated frequently throughout the lifespan of the release. Each Fedora release is supported for one year, with a new version released every 6 months.
 
@@ -49,9 +49,9 @@ Tumbleweed follows a rolling release model where each update is released as a sn
     
     **Arch Linux** is a lightweight, do-it-yourself (DIY) distribution meaning that you only get what you install. For more information see their [FAQ](https://wiki.archlinux.org/title/Frequently_asked_questions).
     
-    [:octicons-home-16: Homepage](https://archlinux.org/){ .md-button .md-button--primary }
-    [:octicons-info-16:](https://wiki.archlinux.org/){ .card-link title=Documentation}
-    [:octicons-heart-16:](https://archlinux.org/donate/){ .card-link title=Contribute }
+    [:octicons-home-16: ホームページ](https://archlinux.org/){ .md-button .md-button--primary }
+    [:octicons-info-16:](https://wiki.archlinux.org/){ .card-link title=ドキュメンテーション}
+    [:octicons-heart-16:](https://archlinux.org/donate/){ .card-link title=貢献 }
 
 Arch Linux has a rolling release cycle. There is no fixed release schedule and packages are updated very frequently.
 
@@ -69,9 +69,9 @@ A large portion of [Arch Linux’s packages](https://reproducible.archlinux.org)
     
     **Fedora Silverblue** and **Fedora Kinoite** are immutable variants of Fedora with a strong focus on container workflows. Silverblue comes with the [GNOME](https://www.gnome.org/) desktop environment while Kinoite comes with [KDE](https://kde.org/). Silverblue and Kinoite follow the same release schedule as Fedora Workstation, benefiting from the same fast updates and staying very close to upstream.
     
-    [:octicons-home-16: Homepage](https://silverblue.fedoraproject.org/){ .md-button .md-button--primary }
-    [:octicons-info-16:](https://docs.fedoraproject.org/en-US/fedora-silverblue/){ .card-link title=Documentation}
-    [:octicons-heart-16:](https://whatcanidoforfedora.org/){ .card-link title=Contribute }
+    [:octicons-home-16: ホームページ](https://silverblue.fedoraproject.org/){ .md-button .md-button--primary }
+    [:octicons-info-16:](https://docs.fedoraproject.org/en-US/fedora-silverblue/){ .card-link title=ドキュメンテーション}
+    [:octicons-heart-16:](https://whatcanidoforfedora.org/){ .card-link title=貢献 }
 
 Silverblue (and Kinoite) differ from Fedora Workstation as they replace the [DNF](https://fedoraproject.org/wiki/DNF) package manager with a much more advanced alternative called [`rpm-ostree`](https://docs.fedoraproject.org/en-US/fedora/rawhide/system-administrators-guide/package-management/rpm-ostree/). The `rpm-ostree` package manager works by downloading a base image for the system, then overlaying packages over it in a [git](https://en.wikipedia.org/wiki/Git)-like commit tree. When the system is updated, a new base image is downloaded and the overlays will be applied to that new image.
 
@@ -89,9 +89,9 @@ As an alternative to Flatpaks, there is the option of [Toolbox](https://docs.fed
     
     NixOS is an independent distribution based on the Nix package manager with a focus on reproducibility and reliability.
     
-    [:octicons-home-16: Homepage](https://nixos.org/){ .md-button .md-button--primary }
-    [:octicons-info-16:](https://nixos.org/learn.html){ .card-link title=Documentation}
-    [:octicons-heart-16:](https://nixos.org/donate.html){ .card-link title=Contribute }
+    [:octicons-home-16: ホームページ](https://nixos.org/){ .md-button .md-button--primary }
+    [:octicons-info-16:](https://nixos.org/learn.html){ .card-link title=ドキュメンテーション}
+    [:octicons-heart-16:](https://nixos.org/donate.html){ .card-link title=貢献 }
 
 NixOS’s package manager keeps every version of every package in a different folder in the **Nix store**. Due to this you can have different versions of the same package installed on your system. After the package contents have been written to the folder, the folder is made read-only.
 

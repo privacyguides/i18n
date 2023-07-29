@@ -350,7 +350,7 @@ When encrypting with PGP, you have the option to configure different options in 
 - External disk encryption apps must support decryption on Linux, macOS, and Windows.
 - Internal (OS) disk encryption apps must be cross-platform or built in to the operating system natively.
 
-### Best-Case
+### 満たされることが望ましい基準
 
 Our best-case criteria represents what we would like to see from the perfect project in this category. Our recommendations may not include any or all of this functionality, but those which do may rank higher than others on this page.
 

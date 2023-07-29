@@ -19,13 +19,13 @@ Some of these threats may be more important to you than others, depending on you
 
 ## Anonymity vs. Privacy
 
-<span class="pg-purple">:material-incognito: Anonymity</span>
+<span class="pg-purple">:material-incognito: 匿名性</span>
 
 Anonymity is often confused with privacy, but they're distinct concepts. While privacy is a set of choices you make about how your data is used and shared, anonymity is the complete disassociation of your online activities from your real identity.
 
 Whistleblowers and journalists, for example, can have a much more extreme threat model which requires total anonymity. That's not only hiding what they do, what data they have, and not getting hacked by malicious actors or governments, but also hiding who they are entirely. They will often sacrifice any kind of convenience if it means protecting their anonymity, privacy, or security, because their lives could depend on it. Most people don't need to go so far.
 
-## Security and Privacy
+## セキュリティーとプライバシー
 
 <span class="pg-orange">:material-bug-outline: Passive Attacks</span>
 
@@ -93,8 +93,8 @@ Despite growing mass surveillance in the United States, the government has found
 
 Online, you can be tracked via a variety of methods:
 
-- Your IP address
-- Browser cookies
+- あなたのIPアドレス
+- ブラウザーのクッキー
 - The data you submit to websites
 - Your browser or device fingerprint
 - Payment method correlation
