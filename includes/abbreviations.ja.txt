@@ -15,12 +15,12 @@
 *[DoQ]: DNS over QUIC
 *[DoH3]: DNS over HTTP/3
 *[DoT]: DNS over TLS
-*[エンドツーエンド暗号化]: エンドツーエンド暗号化（End-to-End Encryption/Encrypted）
+*[E2EE]: エンドツーエンド暗号化（End-to-End Encryption/Encrypted）
 *[ECS]: EDNS Client Subnet
 *[EEA]: European Economic Area
 *[entropy]: A measurement of how unpredictable something is
 *[EOL]: End-of-Life
-*[Exif]: Exchangeable image file format
+*[Exif]: 交換可能な画像ファイル形式（Exchangeable image file format）
 *[FCM]: Firebaseクラウドメッセージング
 *[FDE]: Full Disk Encryption
 *[FIDO]: Fast IDentity Online
@@ -28,7 +28,7 @@
 *[fork]: A new software project created by copying an existing project and adding to it independently
 *[GDPR]: EU一般データ保護規則（General Data Protection Regulation）
 *[GPG]: GNU Privacy Guard (PGP implementation)
-*[GPS]: Global Positioning System
+*[GPS]: 全地球測位システム（Global Positioning System）
 *[GUI]: グラフィカルユーザーインターフェース
 *[GnuPG]: GNU Privacy Guard (PGP implementation)
 *[HDD]: ハードディスクドライブ
@@ -43,8 +43,8 @@
 *[IP]: Internet Protocol
 *[IPv4]: Internet Protocol version 4
 *[IPv6]: Internet Protocol version 6
-*[ISP]: インターネットサービスプロバイダ（Internet Service Provider）
-*[ISPs]: Internet Service Providers
+*[ISP]: インターネットサービスプロバイダー（Internet Service Provider）
+*[ISPs]: インターネットサービスプロバイダー（Internet Service Providers）
 *[JNI]: Javaネイティブインターフェース
 *[KYC]: Know Your Customer
 *[LUKS]: Linux Unified Key Setup (Full-Disk Encryption)
@@ -52,12 +52,12 @@
 *[MDAG]: Microsoft Defender Application Guard
 *[MEID]: Mobile Equipment Identifier
 *[MFA]: 多要素認証（Multi-Factor Authentication）
-*[NVMe]: Nonvolatile Memory Express
+*[NVMe]: 不揮発性メモリーエクスプレス（Nonvolatile Memory Express）
 *[NAT]: ネットワークアドレス変換（Network address translation）
 *[NAT-PMP]: NATポートマッピングプロトコル
 *[NTP]: ネットワークタイムプロトコル
 *[OCI]: Open Container Initiative
-*[OCSP]: Online Certificate Status Protocol
+*[OCSP]: オンライン証明書ステータスプロトコル（Online Certificate Status Protocol）
 *[OEM]: Original Equipment Manufacturer
 *[OEMs]: Original Equipment Manufacturers
 *[OS]: オペレーティングシステム（Operating System）
@@ -75,25 +75,25 @@
 *[SELinux]: Security-Enhanced Linux
 *[SIM]: 加入者識別モジュール
 *[SMS]: ショートメッセージサービス（標準テキストメッセージ）
-*[SMTP]: Simple Mail Transfer Protocol
+*[SMTP]: シンプルメール転送プロトコル（Simple Mail Transfer Protocol）
 *[SNI]: Server Name Indication
 *[SSD]: ソリッドステートドライブ
 *[SSH]: セキュアシェル（Secure Shell）
 *[SUID]: Set Owner User ID
-*[SaaS]: Software as a Service (cloud software)
+*[SaaS]: サービスとしてのソフトウェア（クラウドソフトウェア、Software as a Service）
 *[SoC]: System on Chip
 *[SSO]: シングルサインオン（Single sign-on）
 *[TCP]: トランスミッション・コントロール・プロトコル（Transmission Control Protocol）
-*[TEE]: Trusted Execution Environment
+*[TEE]: 信頼された実行環境（Trusted Execution Environment）
 *[TLS]: トランスポートレイヤーセキュリティー（Transport Layer Security）
 *[ToS]: 利用規約（Terms of Service）
 *[TOTP]: タイムベースドワンタイムパスワード（Time-based One-Time Password）
 *[TPM]: Trusted Platform Module
 *[U2F]: Universal 2nd Factor
 *[UEFI]: Unified Extensible Firmware Interface
-*[UDP]: User Datagram Protocol
+*[UDP]: ユーザーデータグラムプロトコル（User Datagram Protocol）
 *[VPN]: 仮想プライベートネットワーク（Virtual Private Network）
 *[VoIP]: Voice over IP (Internet Protocol)
 *[W3C]: World Wide Web Consortium
 *[XMPP]: Extensible Messaging and Presence Protocol
-*[PWA]: Progressive Web App
+*[PWA]: プログレッシブウェブアプリ（Progressive Web App）

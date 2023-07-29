@@ -9,9 +9,9 @@ Encrypted DNS with third-party servers should only be used to get around basic [
 
 [DNSの詳細 :material-arrow-right-drop-circle:](advanced/dns-overview.md ""){.md-button}
 
-## Recommended Providers
+## 推奨プロバイダー
 
-| DNS Provider                                                                    | Privacy Policy                                                                                        | Protocols                                                     | Logging      | ECS      | Filtering                                                                                                                                           |
+| DNSプロバイダー                                                                       | プライバシーポリシー                                                                                            | プロトコル                                                         | ログ設定         | ECS      | フィルタリング                                                                                                                                             |
 | ------------------------------------------------------------------------------- | ----------------------------------------------------------------------------------------------------- | ------------------------------------------------------------- | ------------ | -------- | --------------------------------------------------------------------------------------------------------------------------------------------------- |
 | [**AdGuard**](https://adguard.com/en/adguard-dns/overview.html)                 | [:octicons-link-external-24:](https://adguard.com/en/privacy/dns.html)                                | Cleartext <br> DoH/3 <br> DoT <br> DNSCrypt | Some[^1]     | No       | Based on personal configuration. Filter list being used can be found here. [:octicons-link-external-24:](https://github.com/AdguardTeam/AdGuardDNS) |
 | [**Cloudflare**](https://developers.cloudflare.com/1.1.1.1/setting-up-1.1.1.1/) | [:octicons-link-external-24:](https://developers.cloudflare.com/1.1.1.1/privacy/public-dns-resolver/) | Cleartext <br> DoH/3 <br> DoT                     | Some[^2]     | No       | Based on personal configuration.                                                                                                                    |
@@ -20,26 +20,26 @@ Encrypted DNS with third-party servers should only be used to get around basic [
 | [**NextDNS**](https://www.nextdns.io)                                           | [:octicons-link-external-24:](https://www.nextdns.io/privacy)                                         | Cleartext <br> DoH/3 <br> DoT <br> DoQ      | Optional[^5] | Optional | Based on personal configuration.                                                                                                                    |
 | [**Quad9**](https://quad9.net)                                                  | [:octicons-link-external-24:](https://quad9.net/privacy/policy/)                                      | Cleartext <br> DoH <br> DoT <br> DNSCrypt   | Some[^6]     | Optional | Based on personal configuration, Malware blocking by default.                                                                                       |
 
-### Criteria
+### 基準
 
-**Please note we are not affiliated with any of the projects we recommend.** In addition to [our standard criteria](about/criteria.md), we have developed a clear set of requirements to allow us to provide objective recommendations. We suggest you familiarize yourself with this list before choosing to use a project, and conduct your own research to ensure it's the right choice for you.
+**私たちは、推薦するどのプロジェクトとも提携していません。**客観的に推薦できるよう、[私たちの一般的な基準](about/criteria.md)に加えて、明確な要件を定めています。 プロジェクトを利用する前に、このリストをよく理解し、ご自身で調査を行って、そのプロジェクトがあなたにとって適切な選択であることをご確認ください。
 
-!!! example "This section is new"
+!!! example "この項目は最近作成されました"
 
     We are working on establishing defined criteria for every section of our site, and this may be subject to change. If you have any questions about our criteria, please [ask on our forum](https://discuss.privacyguides.net/latest) and don't assume we didn't consider something when making our recommendations if it is not listed here. There are many factors considered and discussed when we recommend a project, and documenting every single one is a work-in-progress.
 
-- Must support [DNSSEC](advanced/dns-overview.md#what-is-dnssec).
-- [QNAME Minimization](advanced/dns-overview.md#what-is-qname-minimization).
+- [DNSSEC](advanced/dns-overview.md#what-is-dnssec)のサポートを必須とする。
+- [QNAMEの最小化](advanced/dns-overview.md#what-is-qname-minimization)。
 - Allow for [ECS](advanced/dns-overview.md#what-is-edns-client-subnet-ecs) to be disabled.
 - Prefer [anycast](https://en.wikipedia.org/wiki/Anycast#Addressing_methods) support or geo-steering support.
 
-## Native Operating System Support
+## OSでのネイティブサポート
 
 ### Android
 
-Android 9 and above support DNS over TLS. The settings can be found in: **Settings** &rarr; **Network & Internet** &rarr; **Private DNS**.
+Android 9以降ではTLS over DNSをサポートしています。 設定は以下にて確認できます： **設定** &rarr; **ネットワーク & インターネット** &rarr; **プライベートDNS**.
 
-### Apple Devices
+### Appleデバイス
 
 The latest versions of iOS, iPadOS, tvOS, and macOS, support both DoT and DoH. Both protocols are supported natively via [configuration profiles](https://support.apple.com/guide/security/configuration-profile-enforcement-secf6fb9f053/web) or through the [DNS Settings API](https://developer.apple.com/documentation/networkextension/dns_settings).
 
@@ -71,7 +71,7 @@ Encrypted DNS proxy software provides a local proxy for the [unencrypted DNS](ad
     [:octicons-info-16:](https://docs.rethinkdns.com/){ .card-link title=Documentation}
     [:octicons-code-16:](https://github.com/celzero/rethink-app){ .card-link title="Source Code" }
     
-    ??? downloads
+    ??? ダウンロード
     
         - [:simple-googleplay: Google Play](https://play.google.com/store/apps/details?id=com.celzero.bravedns)
         - [:simple-github: GitHub](https://github.com/celzero/rethink-app/releases)
