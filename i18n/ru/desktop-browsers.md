@@ -239,9 +239,9 @@ Brave содержит несколько инструментов защиты 
     ??? предупреждение «Дополнительные фильтры»
         Brave позволяет тебе выбрать дополнительные фильтры на внутренней странице `brave://adblock`. Мы не рекомендуем использовать эту функцию; вместо этого оставь списки фильтров по умолчанию. Использование дополнительных фильтров выделит тебя среди других пользователей Brave, а также может увеличить площадь атаки в том случае, если в Brave есть эксплойт и вредоносное правило будет добавлено в один из используемых тобой списков.
 
-- [x] Select **Strict** under **Upgrade connections to HTTPS**
-- [x] (Optional) Select **Block Scripts** (1)
-- [x] Select **Strict, may break sites** under Block fingerprinting
+- [x] Выберите **Обязательно** в **Переключаться на HTTPS**
+- [x] (Опционально) Выберите**Блокировать скрипты** (1)
+- [x] Выберите **Строгий, Может нарушить работу сайтов** в Блокировка цифровых отпечатков
 
 </div>
 
@@ -255,12 +255,12 @@ Brave содержит несколько инструментов защиты 
 
 <div class="annotate" markdown>
 
-- [x] Select **Disable non-proxied UDP** under [WebRTC IP Handling Policy](https://support.brave.com/hc/en-us/articles/360017989132-How-do-I-change-my-Privacy-Settings-#webrtc)
-- [ ] Uncheck **Use Google services for push messaging**
-- [ ] Uncheck **Allow privacy-preserving product analytics (P3A)**
-- [ ] Uncheck **Automatically send daily usage ping to Brave**
-- [ ] Uncheck **Automatically send diagnostic reports**
-- [ ] Uncheck **Private window with Tor** (1)
+- [x] Выберите **Отключить непроксируемый протокол UDP** в [Политика обработки IP WebRTC](https://support.brave.com/hc/en-us/articles/360017989132-How-do-I-change-my-Privacy-Settings-#webrtc)
+- [ ] Отключите **Использовать сервисы Google для обмена push-сообщениями**
+- [ ] Отключите **Разрешить выполнение аналитики продукта, не нарушающей коныиденциальности**
+- [ ] Отключите **Автоматически отправлять ежедневные данные PING в Brave**
+- [ ] Отключите **Автоматически отправлять данные диагностики**
+- [ ] Отключите **Приватное окно с Tor** (1)
 
     !!! tip "Отчистка при закрытии"
 
@@ -283,8 +283,8 @@ Brave содержит несколько инструментов защиты 
 
 Функции Web3 в Brave потенциально могут увеличить цифровой отпечаток твоего браузера и площадь атаки. Если ты не используешь эти функции, их следует отключить.
 
-- Select **Extensions (no fallback)** under Default Ethereum wallet and Default Solana wallet
-- Set **Method to resolve IPFS resources** to **Disabled**
+- Выберите **Расширения (без бэкапа)** в Кошелек Ethereum по умолчанию и Кошелек Solana по умолчанию
+- В **Метод преобразования IPFS-ресурсов** выберите **Отключено**
 
 ##### Система
 
