@@ -1,5 +1,5 @@
 ---
-meta_title: "プライベートVPNサービスのおすすめと比較、スポンサーや広告なし - Privacy Guides"
+meta_title: "プライベートVPNサービスの推奨事項と比較、スポンサーや広告なし - Privacy Guides"
 title: "VPNサービス"
 icon: material/vpn
 description: これらは、あなたのプライバシーとセキュリティをオンラインで保護するための最高のVPNサービスです。 ここで、あなたを監視しようとしないプロバイダーを見つけてください。
@@ -38,22 +38,22 @@ ISPや公共Wi-Fiネットワーク、またはファイルのTorrent中の、�
 
     ![Proton VPN logo](assets/img/vpn/protonvpn.svg){ align=right }
     
-    **Proton VPN**はVPN分野の強力な候補であり、2016 年から運営されています。 Proton AGはスイスに本社を置き、限定的な無料層と、より機能的なプレミアムオプションを提供している。
+    **Proton VPN**はVPN分野の強力な候補であり、2016 年から運営されています。 Proton AGはスイスに本社を置き、限定的な無料枠と、より機能的なプレミアムオプションを提供している。
     
-    [:octicons-home-16: Homepage](https://protonvpn.com/){ .md-button .md-button--primary }
-    [:octicons-eye-16:](https://protonvpn.com/privacy-policy){ .card-link title="Privacy Policy" }
-    [:octicons-info-16:](https://protonvpn.com/support/){ .card-link title=Documentation}
-    [:octicons-code-16:](https://github.com/ProtonVPN){ .card-link title="Source Code" }
+    [:octicons-home-16: ホームページ](https://protonvpn.com/){ .md-button .md-button--primary }
+    [:octicons-eye-16:](https://protonvpn.com/privacy-policy){ .card-link title="プライバシーポリシー" }
+    [:octicons-info-16:](https://protonvpn.com/support/){ .card-link title=ドキュメント}
+    [:octicons-code-16:](https://github.com/ProtonVPN){ .card-link title="ソースコード" }
     
-    ??? downloads
+    ??? ダウンロード
     
         - [:simple-googleplay: Google Play](https://play.google.com/store/apps/details?id=ch.protonvpn.android)
-        - [:simple-appstore: App Store](https://apps.apple.com/app/apple-store/id1437005085)
+        - [:simple-appstore: App Store](https://apps.apple.com/jp/app/apple-store/id1437005085)
         - [:simple-github: GitHub](https://github.com/ProtonVPN/android-app/releases)
         - [:simple-windows11: Windows](https://protonvpn.com/download-windows)
         - [:simple-linux: Linux](https://protonvpn.com/support/linux-vpn-setup/)
 
-#### :material-check:{ .pg-green } 68 Countries
+#### :material-check:{ .pg-green } 68か国
 
 Proton VPN has [servers in 68 countries](https://protonvpn.com/vpn-servers).(1) Picking a VPN provider with a server nearest to you will reduce latency of the network traffic you send. This is because of a shorter route (fewer hops) to the destination.
 { .annotate }
@@ -165,22 +165,22 @@ IVPN clients support two factor authentication (Mullvad's clients do not). IVPN 
     
     **Mullvad**は、透明性とセキュリティに重点を置いた、高速で安価なVPNです。 **2009年**から運営されています。 Mullvadの拠点はスウェーデンで、フリートライアルはありません。
     
-    [:octicons-home-16: Homepage](https://mullvad.net){ .md-button .md-button--primary }
+    [:octicons-home-16: ホームページ](https://mullvad.net/ja){ .md-button .md-button--primary }
     [:simple-torbrowser:](http://o54hon2e2vj6c7m3aqqu6uyece65by3vgoxxhlqlsvkmacw6a7m7kiad.onion){ .card-link title="Onion Service" }
-    [:octicons-eye-16:](https://mullvad.net/en/help/privacy-policy/){ .card-link title="Privacy Policy" }
-    [:octicons-info-16:](https://mullvad.net/en/help/){ .card-link title=Documentation}
-    [:octicons-code-16:](https://github.com/mullvad){ .card-link title="Source Code" }
+    [:octicons-eye-16:](https://mullvad.net/ja/help/privacy-policy/){ .card-link title="プライバシーポリシー" }
+    [:octicons-info-16:](https://mullvad.net/ja/help/){ .card-link title=ドキュメント}
+    [:octicons-code-16:](https://github.com/mullvad){ .card-link title="ソースコード" }
     
     ??? ダウンロード
     
         - [:simple-googleplay: Google Play](https://play.google.com/store/apps/details?id=net.mullvad.mullvadvpn)
-        - [:simple-appstore: App Store](https://apps.apple.com/app/mullvad-vpn/id1488466513)
+        - [:simple-appstore: App Store](https://apps.apple.com/jp/app/mullvad-vpn/id1488466513)
         - [:simple-github: GitHub](https://github.com/mullvad/mullvadvpn-app/releases)
-        - [:simple-windows11: Windows](https://mullvad.net/en/download/windows/)
-        - [:simple-apple: macOS](https://mullvad.net/en/download/macos/)
-        - [:simple-linux: Linux](https://mullvad.net/en/download/linux/)
+        - [:simple-windows11: Windows](https://mullvad.net/ja/download/vpn/windows)
+        - [:simple-apple: macOS](https://mullvad.net/ja/download/vpn/macos)
+        - [:simple-linux: Linux](https://mullvad.net/ja/download/vpn/linux)
 
-#### :material-check:{ .pg-green } 43 Countries
+#### :material-check:{ .pg-green } 43か国
 
 Mullvad has [servers in 43 countries](https://mullvad.net/servers/).(1) Picking a VPN provider with a server nearest to you will reduce latency of the network traffic you send. This is because of a shorter route (fewer hops) to the destination.
 { .annotate }

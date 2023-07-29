@@ -69,9 +69,9 @@ schema:
     
     **Mullvad Browser**はVPNユーザーにTor Browserのフィンガープリント対策のブラウザ技術を提供することを目的とした、Torネットワークへの接続機能のない[Tor Browser](tor.md#tor-browser)です。 Tor Projectが開発し、[Mullvad](vpn.md#mullvad)が配布しています。MullvadのVPNを使用する必要は**ありません**。
     
-    [:octicons-home-16: ホームページ](https://mullvad.net/en/browser){ .md-button .md-button--primary }
-    [:octicons-eye-16:](https://mullvad.net/en/help/privacy-policy/){ .card-link title="プライバシーポリシー" }
-    [:octicons-info-16:](https://mullvad.net/en/help/tag/mullvad-browser/){ .card-link title=文書}
+    [:octicons-home-16: ホームページ](https://mullvad.net/ja/browser){ .md-button .md-button--primary }
+    [:octicons-eye-16:](https://mullvad.net/ja/help/privacy-policy/){ .card-link title="プライバシーポリシー" }
+    [:octicons-info-16:](https://mullvad.net/ja/help/tag/mullvad-browser/){ .card-link title=ドキュメント}
     [:octicons-code-16:](https://gitlab.torproject.org/tpo/applications/mullvad-browser){ .card-link title="ソースコード" }
     
     ??? ダウンロード
@@ -200,15 +200,15 @@ Arkenfoxは、キャンバスのランダム化やFirefoxの組み込みのフ�
 
     ![Brave logo](assets/img/browsers/brave.svg){ align=right }
     
-    **Brave Browser** includes a built-in content blocker and [privacy features](https://brave.com/privacy-features/), many of which are enabled by default.
+    **Brave Browser** には、コンテンツブロッカーと [いくつかのプライバシー機能](https://brave.com/privacy-features/) が内蔵されていて、その多くがデフォルトで有効になっています。
     
     Brave is built upon the Chromium web browser project, so it should feel familiar and have minimal website compatibility issues.
     
-    [:octicons-home-16: Homepage](https://brave.com/){ .md-button .md-button--primary }
+    [:octicons-home-16: ホームページ](https://brave.com/ja/){ .md-button .md-button--primary }
     [:simple-torbrowser:](https://brave4u7jddbv7cyviptqjc7jusxh72uik7zt6adtckl5f4nwy2v72qd.onion){ .card-link title="Onion Service" }
-    [:octicons-eye-16:](https://brave.com/privacy/browser/){ .card-link title="Privacy Policy" }
-    [:octicons-info-16:](https://support.brave.com/){ .card-link title=Documentation}
-    [:octicons-code-16:](https://github.com/brave/brave-browser){ .card-link title="Source Code" }
+    [:octicons-eye-16:](https://brave.com/privacy/browser/){ .card-link title="プライバシーポリシー" }
+    [:octicons-info-16:](https://support.brave.com/hc/en-us/categories/360006507272){ .card-link title=ドキュメント}
+    [:octicons-code-16:](https://github.com/brave/brave-browser){ .card-link title="ソースコード" }
     
     ??? downloads annotate
     
@@ -221,7 +221,7 @@ Arkenfoxは、キャンバスのランダム化やFirefoxの組み込みのフ�
 
 ### 推奨する設定
 
-These options can be found in :material-menu: → **Settings**.
+これらのオプションは :material-menu: → **設定**にあります。
 
 #### 設定
 
