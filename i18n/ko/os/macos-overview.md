@@ -1,5 +1,5 @@
 ---
-title: macOS Overview
+title: macOS 개요
 icon: material/apple-finder
 description: macOS is Apple's desktop operating system that works with their hardware to provide strong security.
 ---
@@ -40,7 +40,7 @@ The majority of privacy and security concerns with Apple products are related to
 
 Therefore, if you use iCloud you should [enable **Advanced Data Protection**](https://support.apple.com/HT212520). This encrypts nearly all of your iCloud data with keys stored on your devices (end-to-end encryption), rather than Apple's servers, so that your iCloud data is secured in the event of a data breach, and otherwise hidden from Apple.
 
-### System Settings
+### 시스템 설정
 
 There are a number of built-in settings you should confirm or change to harden your system. Open the **Settings** app:
 
@@ -48,7 +48,7 @@ There are a number of built-in settings you should confirm or change to harden y
 
 - [ ] Uncheck **Bluetooth** (unless you are currently using it)
 
-#### Network
+#### 네트워크
 
 Depending on if you are using **Wi-Fi** or **Ethernet** (denoted by a green dot and the word "connected"), click on the corresponding icon.
 

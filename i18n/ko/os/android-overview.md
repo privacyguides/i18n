@@ -6,7 +6,7 @@ description: Android는 강력한 보안 및 보호 기능을 갖춘 오픈 소�
 
 ![Android 로고](../assets/img/android/android.svg){ align=right }
 
-The **Android Open Source Project** is a secure mobile operating system featuring strong [app sandboxing](https://source.android.com/security/app-sandbox), [Verified Boot](https://source.android.com/security/verifiedboot) (AVB), and a robust [permission](https://developer.android.com/guide/topics/permissions/overview) control system.
+**Android 오픈소스 프로젝트**는 강력한 [애플리케이션 샌드박스](https://source.android.com/docs/security/app-sandbox?hl=ko), [자체 검사 부팅](https://source.android.com/docs/security/features/verifiedboot?hl=ko)(AVB) 기능과 엄밀한 [권한](https://developer.android.com/guide/topics/permissions/overview?hl=ko) 제어 시스템을 갖춘 안전한 모바일 운영 체제입니다.
 
 ## Our Advice
 
@@ -30,19 +30,19 @@ AFWall+는 [패킷 필터링](https://en.wikipedia.org/wiki/Firewall_(computing)
 
 Privacy Guides는 이러한 앱들의 불확실한 프라이버시 보호 효과가 휴대폰을 루팅함으로써 발생하는 보안상의 희생을 감수할 만큼 중요하다고는 생각하지 않습니다.
 
-### Install Updates
+### 업데이트 설치
 
 [지원 기간이 종료된](https://endoflife.date/android) Android 버전은 사용하지 않아야 합니다. 최신 버전 Android에는 운영 체제 보안 업데이트뿐만 아니라, 중요한 프라이버시 강화 업데이트도 포함되어 있습니다.
 
-For example, [prior to Android 10](https://developer.android.com/about/versions/10/privacy/changes) any apps with the [`READ_PHONE_STATE`](https://developer.android.com/reference/android/Manifest.permission#READ_PHONE_STATE) permission could access sensitive and unique serial numbers of your phone such as [IMEI](https://en.wikipedia.org/wiki/International_Mobile_Equipment_Identity), [MEID](https://en.wikipedia.org/wiki/Mobile_equipment_identifier), or your SIM card's [IMSI](https://en.wikipedia.org/wiki/International_mobile_subscriber_identity); whereas now they must be system apps to do so. 시스템 앱은 OEM이나 Android 배포판에서만 제공됩니다.
+예를 들어, [Android 10 이전](https://developer.android.com/about/versions/10/privacy/changes?hl=ko)에는 어떤 앱이든 [`READ_PHONE_STATE`](https://developer.android.com/reference/android/Manifest.permission#READ_PHONE_STATE) 권한을 가졌다면 [IMEI](https://en.wikipedia.org/wiki/International_Mobile_Equipment_Identity), [MEID](https://en.wikipedia.org/wiki/Mobile_equipment_identifier), SIM 카드 [IMSI](https://ko.wikipedia.org/wiki/%EA%B5%AD%EC%A0%9C_%EB%AA%A8%EB%B0%94%EC%9D%BC_%EA%B0%80%EC%9E%85%EC%9E%90_%EA%B5%AC%EB%B3%84%EC%9E%90) 등 여러분 휴대폰의 민감한 고유 일련 번호에 접근 가능했지만, 현재는 시스템 앱만 가능합니다. 시스템 앱은 OEM이나 Android 배포판에서만 제공됩니다.
 
-### Sharing Media
+### 미디어 공유
 
-You can avoid giving many apps permission to access your media with Android's built-in sharing features. Many applications allow you to "share" a file with them for media upload.
+You can avoid giving many apps permission to access your media with Android's built-in sharing features. 많은 애플리케이션은 '공유' 기능을 이용해 미디어를 업로드하는 기능을 지원합니다.
 
 For example, if you want to post a picture to Discord you can open your file manager or gallery and share that picture with the Discord app, instead of granting Discord full access to your media and photos.
 
-## Security Protections
+## 보안 보호
 
 ### 자체 검사 부팅
 
