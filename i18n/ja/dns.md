@@ -37,7 +37,7 @@ Encrypted DNS with third-party servers should only be used to get around basic [
 
 ### Android
 
-Android 9以降ではTLS over DNSをサポートしています。 設定は以下にて確認できます： **設定** &rarr; **ネットワーク & インターネット** &rarr; **プライベートDNS**.
+Android 9以降ではDNS over TLSをサポートしています。 設定は以下にて確認できます： **設定** &rarr; **ネットワーク & インターネット** &rarr; **プライベートDNS**.
 
 ### Appleデバイス
 

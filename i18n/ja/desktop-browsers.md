@@ -153,7 +153,7 @@ FirefoxはMozillaのウェブサイトからのダウンロードにユニーク
 - [ ] **ウェブからの提案**のチェックを外します
 - [ ] **スポンサーからの提案**のチェックを外します
 
-##### Sanitize on Close
+##### 終了時にサニタイズ
 
 特定のサイトにログインしたままにしたい場合は、**Cookie とサイトデータ** → **例外の管理...**で例外を許可することができます。
 
@@ -192,7 +192,7 @@ FirefoxはMozillaのウェブサイトからのダウンロードにユニーク
 
 [Arkenfoxプロジェクト](https://github.com/arkenfox/user.js)は、Firefoxのための慎重に考えられたオプションのセットを提供しています。 もし[Arkenfoxを使用することを決定した場合](https://github.com/arkenfox/user.js/wiki/1.1-To-Arkenfox-or-Not)、[いくつかのオプション](https://github.com/arkenfox/user.js/wiki/3.2-Overrides-[Common])は主観的に厳格であり、または一部のウェブサイトが正しく動作しない可能性があります - これらは[あなたのニーズに合わせて簡単に変更することができます](https://github.com/arkenfox/user.js/wiki/3.1-Overrides)。 私たちは、彼らの[wiki](https://github.com/arkenfox/user.js/wiki)をすべて読むことを**強くお勧めします**。 Arkenfoxは[コンテナ](https://support.mozilla.org/ja/kb/containers#w_for-advanced-users)のサポートも有効にしています。
 
-Arkenfoxは、キャンバスのランダム化やFirefoxの組み込みのフィンガープリント対策の設定を通じて、基本的または単純なトラッキングスクリプトを阻止することを目指しています。 Arkenfoxは、Mullvad BrowserやTor Browserのように、高度なフィンガープリンティングトラッキングスクリプトを防止する唯一の方法である他の多くのArkenfoxユーザーとブラウザを溶け込ませることを目指していません。 Remember you can always use multiple browsers, for example, you could consider using Firefox+Arkenfox for a few sites that you want to stay logged in on or otherwise trust, and Mullvad Browser for general browsing.
+Arkenfoxは、キャンバスのランダム化やFirefoxの組み込みのフィンガープリント対策の設定を通じて、基本的または単純なトラッキングスクリプトを阻止することを目指しています。 Arkenfoxは、Mullvad BrowserやTor Browserのように、高度なフィンガープリンティングトラッキングスクリプトを防止する唯一の方法である他の多くのArkenfoxユーザーとブラウザを溶け込ませることを目指していません。 常に複数のブラウザを使用できることを覚えておいてください。たとえば、ログインしたままにするか信頼したいいくつかのサイトには Firefox + Arkenfox を使用し、一般的なブラウジングには Mullvad Browserを使用することを検討できます。
 
 ## Brave
 
@@ -223,7 +223,7 @@ Arkenfoxは、キャンバスのランダム化やFirefoxの組み込みのフ�
 
 These options can be found in :material-menu: → **Settings**.
 
-#### Settings
+#### 設定
 
 ##### Shields
 
@@ -247,11 +247,11 @@ Shields' options can be downgraded on a per-site basis as needed, but by default
 
 1. This option provides functionality similar to uBlock Origin's advanced [blocking modes](https://github.com/gorhill/uBlock/wiki/Blocking-mode) or the [NoScript](https://noscript.net/) extension.
 
-##### Social media blocking
+##### ソーシャルメディアのブロック
 
 - [ ] Uncheck all social media components
 
-##### Privacy and security
+##### プライバシーとセキュリティ
 
 <div class="annotate" markdown>
 
@@ -272,7 +272,7 @@ Shields' options can be downgraded on a per-site basis as needed, but by default
 
 1. Brave is **not** as resistant to fingerprinting as the Tor Browser and far fewer people use Brave with Tor, so you will stand out. Where [strong anonymity is required](https://support.brave.com/hc/en-us/articles/360018121491-What-is-a-Private-Window-with-Tor-Connectivity-) use the [Tor Browser](tor.md#tor-browser).
 
-##### Extensions
+##### 拡張機能
 
 Disable built-in extensions you do not use in **Extensions**
 
@@ -286,7 +286,7 @@ Brave's Web3 features can potentially add to your browser fingerprint and attack
 - Select **Extensions (no fallback)** under Default Ethereum wallet and Default Solana wallet
 - Set **Method to resolve IPFS resources** to **Disabled**
 
-##### System
+##### システム
 
 <div class="annotate" markdown>
 
@@ -300,9 +300,9 @@ Brave's Web3 features can potentially add to your browser fingerprint and attack
 
 [Brave Sync](https://support.brave.com/hc/en-us/articles/360059793111-Understanding-Brave-Sync) allows your browsing data (history, bookmarks, etc.) to be accessible on all your devices without requiring an account and protects it with E2EE.
 
-#### Brave Rewards and Wallet
+#### Brave Rewards と Wallet
 
-**Brave Rewards** lets you recieve Basic Attention Token (BAT) cryptocurrency for performing certain actions within Brave. It relies on a custodial account and KYC from a select number of providers. We do not recommend BAT as a [private cryptocurrency](cryptocurrency.md), nor do we recommend using a [custodial wallet](advanced/payments.md#other-coins-bitcoin-ethereum-etc), so we would discourage using this feature.
+**Brave Rewards**では、Brave内で特定のアクションを実行することで、Basic Attention Token (BAT)という仮想通貨を受け取ることができます。 It relies on a custodial account and KYC from a select number of providers. We do not recommend BAT as a [private cryptocurrency](cryptocurrency.md), nor do we recommend using a [custodial wallet](advanced/payments.md#other-coins-bitcoin-ethereum-etc), so we would discourage using this feature.
 
 **Brave Wallet** operates locally on your computer, but does not support any private cryptocurrencies, so we would discourage using this feature as well.
 
@@ -356,18 +356,18 @@ These are some other [filter lists](https://github.com/gorhill/uBlock/wiki/Dashb
 - Blocks third-party cookies by default.
 - Supports [state partitioning](https://developer.mozilla.org/en-US/docs/Web/Privacy/State_Partitioning) to mitigate cross-site tracking.[^1]
 
-### 満たされることが望ましい基準
+### 最良の場合
 
 Our best-case criteria represents what we would like to see from the perfect project in this category. Our recommendations may not include any or all of this functionality, but those which do may rank higher than others on this page.
 
-- Includes built-in content blocking functionality.
+- コンテンツブロック機能が内蔵されている。
 - Supports cookie compartmentalization (à la [Multi-Account Containers](https://support.mozilla.org/en-US/kb/containers)).
 - Supports Progressive Web Apps.  
   PWAs enable you to install certain websites as if they were native apps on your computer. This can have advantages over installing Electron-based apps, because you benefit from your browser's regular security updates.
-- Does not include add-on functionality (bloatware) that does not impact user privacy.
-- Does not collect telemetry by default.
-- Provides open-source sync server implementation.
-- Defaults to a [private search engine](search-engines.md).
+- ユーザーのプライバシーに影響を与えないアドオン機能（ブロートウェア）が含まれていない。
+- テレメトリーをデフォルトで収集しない。
+- オープンソースの同期サーバ実装を提供する。
+- デフォルトで、[プライベートな検索エンジン](search-engines.md)が設定されている。
 
 ### 拡張機能の基準
 

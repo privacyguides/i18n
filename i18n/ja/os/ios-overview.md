@@ -63,7 +63,7 @@ Your location data is not E2EE when your device is online and you use Find My iP
 
 At the top of the **Settings** app, you'll see your name and profile picture if you are signed in to an Apple ID. Select that, then select **Find My**. Here you can choose whether to enable or disable Find My location features.
 
-### Settings
+### 設定
 
 Many other privacy-related settings can be found in the **Settings** app.
 
