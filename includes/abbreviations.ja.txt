@@ -10,7 +10,7 @@
 *[CVE]: Common Vulnerabilities and Exposures
 *[digital legacy feature]: デジタル遺産機能とは、あなたが亡くなったときに、他の人にあなたのデータへのアクセスを許可する機能のことです。
 *[DNSSEC]: Domain Name System Security Extensions
-*[DNS]: Domain Name System
+*[DNS]: ドメインネームシステム
 *[DoH]: DNS over HTTPS
 *[DoQ]: DNS over QUIC
 *[DoH3]: DNS over HTTP/3
@@ -34,7 +34,7 @@
 *[HDD]: ハードディスクドライブ
 *[HOTP]: HMAC (Hash-based Message Authentication Code) based One-Time Password
 *[HTTPS]: Hypertext Transfer Protocol Secure
-*[HTTP]: Hypertext Transfer Protocol
+*[HTTP]: ハイパーテキスト転送プロトコル（Hypertext Transfer Protocol）
 *[hypervisor]: Computer software, firmware, or hardware that splits the resources of a CPU among multiple operating systems
 *[ICCID]: Integrated Circuit Card Identifier
 *[IMAP]: Internet Message Access Protocol
@@ -53,9 +53,9 @@
 *[MEID]: Mobile Equipment Identifier
 *[MFA]: 多要素認証（Multi-Factor Authentication）
 *[NVMe]: Nonvolatile Memory Express
-*[NAT]: Network address translation
-*[NAT-PMP]: NAT Port Mapping Protocol
-*[NTP]: Network Time Protocol
+*[NAT]: ネットワークアドレス変換（Network address translation）
+*[NAT-PMP]: NATポートマッピングプロトコル
+*[NTP]: ネットワークタイムプロトコル
 *[OCI]: Open Container Initiative
 *[OCSP]: Online Certificate Status Protocol
 *[OEM]: Original Equipment Manufacturer
@@ -78,21 +78,21 @@
 *[SMTP]: Simple Mail Transfer Protocol
 *[SNI]: Server Name Indication
 *[SSD]: ソリッドステートドライブ
-*[SSH]: Secure Shell
+*[SSH]: セキュアシェル（Secure Shell）
 *[SUID]: Set Owner User ID
 *[SaaS]: Software as a Service (cloud software)
 *[SoC]: System on Chip
 *[SSO]: シングルサインオン（Single sign-on）
-*[TCP]: Transmission Control Protocol
+*[TCP]: トランスミッション・コントロール・プロトコル（Transmission Control Protocol）
 *[TEE]: Trusted Execution Environment
-*[TLS]: Transport Layer Security
+*[TLS]: トランスポートレイヤーセキュリティー（Transport Layer Security）
 *[ToS]: 利用規約（Terms of Service）
 *[TOTP]: タイムベースドワンタイムパスワード（Time-based One-Time Password）
 *[TPM]: Trusted Platform Module
 *[U2F]: Universal 2nd Factor
 *[UEFI]: Unified Extensible Firmware Interface
 *[UDP]: User Datagram Protocol
-*[VPN]: Virtual Private Network
+*[VPN]: 仮想プライベートネットワーク（Virtual Private Network）
 *[VoIP]: Voice over IP (Internet Protocol)
 *[W3C]: World Wide Web Consortium
 *[XMPP]: Extensible Messaging and Presence Protocol
