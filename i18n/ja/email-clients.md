@@ -15,7 +15,7 @@ Our recommendation list contains email clients that support both [OpenPGP](encry
     
     [Real-time Communication](real-time-communication.md){ .md-button }
 
-## Cross-Platform
+## クロスプラットフォーム
 
 ### Thunderbird
 
@@ -30,7 +30,7 @@ Our recommendation list contains email clients that support both [OpenPGP](encry
     [:octicons-info-16:](https://support.mozilla.org/products/thunderbird){ .card-link title=Documentation}
     [:octicons-code-16:](https://hg.mozilla.org/comm-central){ .card-link title="Source Code" }
     
-    ??? downloads
+    ??? ダウンロード
     
         - [:simple-windows11: Windows](https://www.thunderbird.net)
         - [:simple-apple: macOS](https://www.thunderbird.net)
@@ -48,7 +48,7 @@ These options can be found in :material-menu: → **Settings** → **Privacy & S
 - [ ] Uncheck  **Remember websites and links I've visited**
 - [ ] Uncheck  **Accept cookies from sites**
 
-##### Telemetry
+##### テレメトリー
 
 - [ ] Uncheck  **Allow Thunderbird to send technical and interaction data to Mozilla**
 
@@ -58,7 +58,7 @@ These options can be found in :material-menu: → **Settings** → **Privacy & S
 
 ## Platform Specific
 
-### Apple Mail (macOS)
+### Apple Mail（macOS）
 
 !!! recommendation
 
@@ -66,9 +66,9 @@ These options can be found in :material-menu: → **Settings** → **Privacy & S
     
     **Apple Mail** is included in macOS and can be extended to have OpenPGP support with [GPG Suite](encryption.md#gpg-suite), which adds the ability to send PGP-encrypted email.
     
-    [:octicons-home-16: Homepage](https://support.apple.com/guide/mail/welcome/mac){ .md-button .md-button--primary }
-    [:octicons-eye-16:](https://www.apple.com/legal/privacy/en-ww/){ .card-link title="Privacy Policy" }
-    [:octicons-info-16:](https://support.apple.com/mail){ .card-link title=Documentation}
+    [:octicons-home-16: ホームページ](https://support.apple.com/guide/mail/welcome/mac){ .md-button .md-button--primary }
+    [:octicons-eye-16:](https://www.apple.com/legal/privacy/en-ww/){ .card-link title="プライバシーポリシー" }
+    [:octicons-info-16:](https://support.apple.com/mail){ .card-link title=ドキュメンテーション}
 
 Apple Mail has the ability to load remote content in the background or block it entirely and hide your IP address from senders on [macOS](https://support.apple.com/guide/mail/mlhl03be2866/mac) and [iOS](https://support.apple.com/guide/iphone/iphf084865c7/ios).
 
@@ -80,11 +80,11 @@ Apple Mail has the ability to load remote content in the background or block it 
     
     **Canary Mail** is a paid email client designed to make end-to-end encryption seamless with security features such as a biometric app lock.
     
-    [:octicons-home-16: Homepage](https://canarymail.io){ .md-button .md-button--primary }
-    [:octicons-eye-16:](https://canarymail.io/privacy.html){ .card-link title="Privacy Policy" }
-    [:octicons-info-16:](https://canarymail.zendesk.com/){ .card-link title=Documentation}
+    [:octicons-home-16: ホームページ](https://canarymail.io){ .md-button .md-button--primary }
+    [:octicons-eye-16:](https://canarymail.io/privacy.html){ .card-link title="プライバシーポリシー" }
+    [:octicons-info-16:](https://canarymail.zendesk.com/){ .card-link title=ドキュメンテーション}
     
-    ??? downloads
+    ??? ダウンロード
     
         - [:simple-googleplay: Google Play](https://play.google.com/store/apps/details?id=io.canarymail.android)
         - [:simple-appstore: App Store](https://apps.apple.com/app/id1236045954)
@@ -94,9 +94,9 @@ Apple Mail has the ability to load remote content in the background or block it 
 
     Canary Mail only recently released a Windows and Android client, though we don't believe they are as stable as their iOS and Mac counterparts.
 
-Canary Mail is closed-source. We recommend it due to the few choices there are for email clients on iOS that support PGP E2EE.
+Canary Mailのソースコードは公開されていません。 We recommend it due to the few choices there are for email clients on iOS that support PGP E2EE.
 
-### FairEmail (Android)
+### FairEmail（Android）
 
 !!! recommendation
 
@@ -105,17 +105,17 @@ Canary Mail is closed-source. We recommend it due to the few choices there are f
     **FairEmail** is a minimal, open-source email app, using open standards (IMAP, SMTP, OpenPGP) with a low data and battery usage.
     
     [:octicons-home-16: Homepage](https://email.faircode.eu){ .md-button .md-button--primary }
-    [:octicons-eye-16:](https://github.com/M66B/FairEmail/blob/master/PRIVACY.md){ .card-link title="Privacy Policy" }
-    [:octicons-info-16:](https://github.com/M66B/FairEmail/blob/master/FAQ.md){ .card-link title=Documentation}
-    [:octicons-code-16:](https://github.com/M66B/FairEmail){ .card-link title="Source Code" }
-    [:octicons-heart-16:](https://email.faircode.eu/donate/){ .card-link title=Contribute }
+    [:octicons-eye-16:](https://github.com/M66B/FairEmail/blob/master/PRIVACY.md){ .card-link title="プライバシーポリシー" }
+    [:octicons-info-16:](https://github.com/M66B/FairEmail/blob/master/FAQ.md){ .card-link title=ドキュメンテーション}
+    [:octicons-code-16:](https://github.com/M66B/FairEmail){ .card-link title="ソースコード" }
+    [:octicons-heart-16:](https://email.faircode.eu/donate/){ .card-link title=貢献 }
     
-    ??? downloads
+    ??? ダウンロード
     
         - [:simple-googleplay: Google Play](https://play.google.com/store/apps/details?id=eu.faircode.email)
         - [:simple-github: GitHub](https://github.com/M66B/FairEmail/releases)
 
-### GNOME Evolution (GNOME)
+### GNOME Evolution（GNOME）
 
 !!! recommendation
 
@@ -124,12 +124,12 @@ Canary Mail is closed-source. We recommend it due to the few choices there are f
     **Evolution** is a personal information management application that provides integrated mail, calendaring and address book functionality. Evolution has extensive [documentation](https://help.gnome.org/users/evolution/stable/) to help you get started.
     
     [:octicons-home-16: Homepage](https://wiki.gnome.org/Apps/Evolution){ .md-button .md-button--primary }
-    [:octicons-eye-16:](https://wiki.gnome.org/Apps/Evolution/PrivacyPolicy){ .card-link title="Privacy Policy" }
-    [:octicons-info-16:](https://help.gnome.org/users/evolution/stable/){ .card-link title=Documentation}
-    [:octicons-code-16:](https://gitlab.gnome.org/GNOME/evolution/){ .card-link title="Source Code" }
-    [:octicons-heart-16:](https://www.gnome.org/donate/){ .card-link title=Contribute }
+    [:octicons-eye-16:](https://wiki.gnome.org/Apps/Evolution/PrivacyPolicy){ .card-link title="プライバシーポリシー" }
+    [:octicons-info-16:](https://help.gnome.org/users/evolution/stable/){ .card-link title=ドキュメンテーション}
+    [:octicons-code-16:](https://gitlab.gnome.org/GNOME/evolution/){ .card-link title="ソースコード" }
+    [:octicons-heart-16:](https://www.gnome.org/donate/){ .card-link title=貢献 }
     
-    ??? downloads
+    ??? ダウンロード
     
         - [:simple-flathub: Flathub](https://flathub.org/apps/details/org.gnome.Evolution)
 
@@ -149,16 +149,16 @@ Canary Mail is closed-source. We recommend it due to the few choices there are f
     [:octicons-code-16:](https://github.com/k9mail/k-9){ .card-link title="Source Code" }
     [:octicons-heart-16:](https://k9mail.app/contribute){ .card-link title=Contribute }
     
-    ??? downloads
+    ??? ダウンロード
     
         - [:simple-googleplay: Google Play](https://play.google.com/store/apps/details?id=com.fsck.k9)
         - [:simple-github: GitHub](https://github.com/k9mail/k-9/releases)
 
-!!! warning
+!!! 警告
 
     When replying to someone on a mailing list the "reply" option may also include the mailing list. For more information see [thundernest/k-9 #3738](https://github.com/thundernest/k-9/issues/3738).
 
-### Kontact (KDE)
+### Kontact（KDE）
 
 !!! recommendation
 
@@ -166,13 +166,13 @@ Canary Mail is closed-source. We recommend it due to the few choices there are f
     
     **Kontact** is a personal information manager (PIM) application from the [KDE](https://kde.org) project. It provides a mail client, address book, organizer and RSS client.
     
-    [:octicons-home-16: Homepage](https://kontact.kde.org){ .md-button .md-button--primary }
-    [:octicons-eye-16:](https://kde.org/privacypolicy-apps){ .card-link title="Privacy Policy" }
-    [:octicons-info-16:](https://kontact.kde.org/users/){ .card-link title=Documentation}
-    [:octicons-code-16:](https://invent.kde.org/pim/kmail){ .card-link title="Source Code" }
-    [:octicons-heart-16:](https://kde.org/community/donations/){ .card-link title=Contribute }
+    [:octicons-home-16: ホームページ](https://kontact.kde.org){ .md-button .md-button--primary }
+    [:octicons-eye-16:](https://kde.org/privacypolicy-apps){ .card-link title="プライバシーポリシー" }
+    [:octicons-info-16:](https://kontact.kde.org/users/){ .card-link title=ドキュメンテーション}
+    [:octicons-code-16:](https://invent.kde.org/pim/kmail){ .card-link title="ソースコード" }
+    [:octicons-heart-16:](https://kde.org/community/donations/){ .card-link title=貢献 }
     
-    ??? downloads
+    ??? ダウンロード
     
         - [:simple-linux: Linux](https://kontact.kde.org/download)
         - [:simple-flathub: Flathub](https://flathub.org/apps/details/org.kde.kontact)
@@ -211,14 +211,14 @@ Canary Mail is closed-source. We recommend it due to the few choices there are f
     [:octicons-code-16:](https://github.com/neomutt/neomutt){ .card-link title="Source Code" }
     [:octicons-heart-16:](https://www.paypal.com/paypalme/russon/){ .card-link title=Contribute }
     
-    ??? downloads
+    ??? ダウンロード
     
         - [:simple-apple: macOS](https://neomutt.org/distro)
         - [:simple-linux: Linux](https://neomutt.org/distro)
 
-## Criteria
+## 基準
 
-**Please note we are not affiliated with any of the projects we recommend.** In addition to [our standard criteria](about/criteria.md), we have developed a clear set of requirements to allow us to provide objective recommendations. We suggest you familiarize yourself with this list before choosing to use a project, and conduct your own research to ensure it's the right choice for you.
+**私たちは、推薦するどのプロジェクトとも提携していません。**客観的に推薦できるよう、[私たちの一般的な基準](about/criteria.md)に加えて、明確な要件を定めています。 プロジェクトを利用する前に、このリストをよく理解し、ご自身で調査を行って、そのプロジェクトがあなたにとって適切な選択であることをご確認ください。
 
 !!! example "This section is new"
 
