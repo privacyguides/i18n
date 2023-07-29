@@ -218,21 +218,21 @@ Skiff Mail رمزگذاری دسترسی صفر (zero access) در حالت اس
 
 #### :material-information-outline:{ .pg-blue } رمزگذاری ایمیل
 
-Skiff Mail از OpenPGP استفاده نمی کند. ایمیل‌ها فقط با رمزگذاری انتها به انتها E2EE برای سایر کاربران Skiff Mail رمزگذاری می‌شوند. Skiff does not have a "temporary inbox" or "passworded email" feature like some other providers have, so that external users cannot receive or reply to messages with E2EE.
+Skiff Mail از OpenPGP استفاده نمی کند. ایمیل‌ها فقط با رمزگذاری انتها به انتها E2EE برای سایر کاربران Skiff Mail رمزگذاری می‌شوند. Skiff مانند برخی از ارائه دهندگان دیگر ویژگی «صندوق ورودی موقت» یا «رمز بر روی ایمیل» ندارد، به طوری که کاربران خارج از skiff نمی توانند پیام ها را با E2EE دریافت کنند یا به آن‌ها پاسخ دهند.
 
 
 
 #### :material-information-outline:{ .pg-blue } بستن حساب
 
-Skiff Mail accounts do not expire, but unpaid accounts will be prompted to remove any enabled paid features (such as additional aliases) or renew their plan before the account can be used.
+حساب‌های Skiff Mail منقضی نمی‌شوند، اما از حساب‌های پولی پرداخت‌نشده خواسته می‌شود تا همه ویژگی‌های پولی (مانند نام‌های مستعار اضافی) را حذف کنند یا طرح پولی خود را قبل از استفاده تمدید کنند.
 
 
 
-#### :material-information-outline:{ .pg-blue } Additional Functionality
+#### :material-information-outline:{ .pg-blue } عملکردهای دیگر
 
-Skiff additionally offers [workspace productivity features](https://discuss.privacyguides.net/t/skiff-pages-drive-productivity-tools/11758/13), but we still prefer [alternative](productivity.md) options for collaborating and file sharing at this time.
+Skiff همچنین [ویژگی‌های بهره‌وری فضای کاری](https://discuss.privacyguides.net/t/skiff-pages-drive-productivity-tools/11758/13) را ارائه می دهد، اما ما همچنان <a href را ترجیح می دهیم گزینه های ="productivity.md">جایگزین</a> برای همکاری و اشتراک‌گذاری فایل را ترجیح می‌دهیم.
 
-Skiff Mail does not offer a digital legacy feature.
+Skiff Mail امکان به ارث بردن اطلاعات برای وراث را ندارد.
 
 
 
@@ -242,7 +242,7 @@ Skiff Mail does not offer a digital legacy feature.
 
     ![Tutanota logo](assets/img/email/tutanota.svg){ align=right }
     
-    **Tutanota** is an email service with a focus on security and privacy through the use of encryption. Tutanota has been in operation since **2011** and is based in Hanover, Germany. Accounts start with 1GB storage with their free plan.
+    **Tutanota** یک سرویس ایمیل با تمرکز بر امنیت و حفظ حریم خصوصی از طریق استفاده از رمزگذاری است. Tutanota از **2011** فعال بوده و در هانوفر آلمان مستقر است. طرح رایگان شامل ۱ گیگابایت فضای ذخیره‌سازی است.
     
     [:octicons-home-16: Homepage](https://tutanota.com){ .md-button .md-button--primary }
     [:octicons-eye-16:](https://tutanota.com/privacy){ .card-link title="Privacy Policy" }
@@ -412,19 +412,19 @@ Notable free features:
 
 
 
-## Self-Hosting Email
+## خودمیزبانی ایمیل (Self-Hosting)
 
-Advanced system administrators may consider setting up their own email server. Mail servers require attention and continuous maintenance in order to keep things secure and mail delivery reliable.
+ادمین‌های سیستم پیشرفته ممکن است راه اندازی سرور ایمیل خود را در نظر بگیرند. سرورهای ایمیل برای ایمن نگه داشتن چیزها و قابل اعتماد بودن تحویل ایمیل نیاز به توجه و نگهداری مداوم دارند.
 
 
 
-### Combined software solutions
+### راه‌حل های نرم‌افزاری ترکیبی
 
 !!! recommendation
 
     ![Mailcow logo](assets/img/email/mailcow.svg){ align=right }
     
-    **Mailcow** is a more advanced mail server perfect for those with a bit more Linux experience. It has everything you need in a Docker container: A mail server with DKIM support, antivirus and spam monitoring, webmail and ActiveSync with SOGo, and web-based administration with 2FA support.
+     **Mailcow** سرور ایمیل پیشرفته‌تری است که برای کسانی که تجربه لینوکس به نسبت بالایی دارند عالی است. هر آنچه را که در یک Docker Container نیاز دارید را شامل می‌شود: سرور ایمیل با پشتیبانی از DKIM، آنتی ویروس و نظارت بر هرزنامه، webmail و ActiveSync با SOGo، و مدیریت مبتنی بر وب با پشتیبانی 2FA.
     
     [:octicons-home-16: Homepage](https://mailcow.email){ .md-button .md-button--primary }
     [:octicons-info-16:](https://mailcow.github.io/mailcow-dockerized-docs/){ .card-link title=Documentation}
@@ -432,21 +432,21 @@ Advanced system administrators may consider setting up their own email server. M
     [:octicons-heart-16:](https://www.servercow.de/mailcow?lang=en#sal){ .card-link title=Contribute }
     
 
-!!! recommendation
+!!! توصیه شده
 
     ![Mail-in-a-Box logo](assets/img/email/mail-in-a-box.svg){ align=right }
     
-    **Mail-in-a-Box** is an automated setup script for deploying a mail server on Ubuntu. Its goal is to make it easier for people to set up their own mail server.
+    **Mail-in-a-Box** یک اسکریپت تنظیم خودکار برای پیاده‌سازی یک سرور ایمیل در اوبونتو است. هدف آن این است که راه اندازی سرور ایمیل شخصی را برای افراد آسان‌تر کند.
     
     [:octicons-home-16: Homepage](https://mailinabox.email){ .md-button .md-button--primary }
     [:octicons-info-16:](https://mailinabox.email/guide.html){ .card-link title=Documentation}
     [:octicons-code-16:](https://github.com/mail-in-a-box/mailinabox){ .card-link title="Source Code" }
     
 
-For a more manual approach we've picked out these two articles:
+برای یک رویکرد دستی‌تر، این دو مقاله را انتخاب کرده‌ایم:
 
-- [Setting up a mail server with OpenSMTPD, Dovecot and Rspamd](https://poolp.org/posts/2019-09-14/setting-up-a-mail-server-with-opensmtpd-dovecot-and-rspamd/) (2019)
-- [How To Run Your Own Mail Server](https://www.c0ffee.net/blog/mail-server-guide/) (August 2017)
+- [راه اندازی سرور ایمیل با OpenSMTPD ،Dovecot و Rspamd](https://poolp.org/posts/2019-09-14/setting-up-a-mail-server-with-opensmtpd-dovecot-and-rspamd/) (سال ۲۰۱۹)
+- [چگونه سرور ایمیل خود را اجرا کنید](https://www.c0ffee.net/blog/mail-server-guide/) (اوت 2017)
 
 
 

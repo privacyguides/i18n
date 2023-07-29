@@ -1,12 +1,12 @@
 ---
-meta_title: "Private VPN Service Recommendations and Comparison, No Sponsors or Ads - Privacy Guides"
-title: "VPN Services"
+meta_title: "توصیه ها و مقایسه سرویس VPN خصوصی، بدون اسپانسر یا تبلیغات - Privacy Guides"
+title: "سرویس‌های VPN"
 icon: material/vpn
-description: These are the best VPN services for protecting your privacy and security online. Find a provider here that isn’t out to spy on you.
+description: اینها بهترین خدمات VPN برای محافظت از حریم خصوصی و امنیت آنلاین شما هستند. ارائه دهنده ای را در اینجا پیدا کنید که قصد جاسوسی از شما را نداشته باشد.
 cover: vpn.png
 ---
 
-If you're looking for additional **privacy** from your ISP, on a public Wi-Fi network, or while torrenting files, a VPN may be the solution for you as long as you understand the risks involved. We think these providers are a cut above the rest:
+اگر به دنبال **حریم خصوصی** از ISP خود، در یک شبکه Wi-Fi عمومی، یا هنگام استفاده از تورنت هستید، VPN ممکن است راه حلی برای شما باشد تا زمانی که شما خطرات موجود را درک می کنید. ما فکر می کنیم این ارائه دهندگان بهتر از بقیه هستند:
 
 <div class="grid cards" markdown>
 
@@ -45,7 +45,7 @@ Our recommended providers use encryption, accept Monero, support WireGuard & Ope
     [:octicons-info-16:](https://protonvpn.com/support/){ .card-link title=Documentation}
     [:octicons-code-16:](https://github.com/ProtonVPN){ .card-link title="Source Code" }
     
-    ??? downloads
+    ??? دانلودها
     
         - [:simple-googleplay: Google Play](https://play.google.com/store/apps/details?id=ch.protonvpn.android)
         - [:simple-appstore: App Store](https://apps.apple.com/app/apple-store/id1437005085)
@@ -109,7 +109,7 @@ System crashes [may occur](https://protonvpn.com/support/macos-t2-chip-kill-swit
     [:octicons-info-16:](https://www.ivpn.net/knowledgebase/general/){ .card-link title=Documentation}
     [:octicons-code-16:](https://github.com/ivpn){ .card-link title="Source Code" }
     
-    ??? downloads
+    ??? دانلودها
     
         - [:simple-googleplay: Google Play](https://play.google.com/store/apps/details?id=net.ivpn.client)
         - [:octicons-moon-16: Accrescent](https://accrescent.app/app/net.ivpn.client)
