@@ -19,9 +19,9 @@ Las distribuciones de Linux se recomiendan comúnmente para la protección de la
     
     **Fedora Workstation** es nuestra distribución recomendada para la gente nueva en Linux. Fedora suele adoptar tecnologías más recientes antes que otras distribuciones, por ejemplo, [Wayland](https://wayland.freedesktop.org/), [PipeWire](https://pipewire.org). Estas nuevas tecnologías suelen venir acompañadas de mejoras en la seguridad, la privacidad y la usabilidad en general.
     
-    [:octicons-home-16: Página Principal](https://getfedora.org/){ .md-button .md-button--primary }
-    [:octicons-info-16:](https://docs.fedoraproject.org/en-US/docs/){ .card-link title=Documentación}
-    [:octicons-heart-16:](https://whatcanidoforfedora.org/){ .card-link title=Contribuir}
+    [:octicons-home-16: Homepage](https://fedoraproject.org/workstation/){ .md-button .md-button--primary }
+    [:octicons-info-16:](https://docs.fedoraproject.org/en-US/docs/){ .card-link title=Documentation}
+    [:octicons-heart-16:](https://whatcanidoforfedora.org/){ .card-link title=Contribute }
 
 Fedora tiene un ciclo de lanzamientos semicontinuo. Mientras que algunos paquetes como [GNOME](https://www.gnome.org) quedan congelados hasta la siguiente versión de Fedora, la mayoría de los paquetes (incluido el kernel) se actualizan con frecuencia durante toda la vida útil de la versión. Cada versión de Fedora recibe soporte durante un año, con una nueva versión cada 6 meses.
 
@@ -69,11 +69,11 @@ Gran parte de los [paquetes de Arch Linux](https://reproducible.archlinux.org) s
     
     **Fedora Silverblue** y **Fedora Kinoite** son variantes inmutables de Fedora con un fuerte enfoque en los flujos de trabajo en contenedores. Silverblue viene con el entorno de escritorio [GNOME](https://www.gnome.org/) mientras que Kinoite viene con [KDE](https://kde.org/). Silverblue y Kinoite siguen el mismo calendario de lanzamientos que Fedora Workstation, beneficiándose de las mismas actualizaciones rápidas y manteniéndose muy cerca del upstream.
     
-    [:octicons-home-16: Página Principal](https://silverblue.fedoraproject.org/){ .md-button .md-button--primary }
-    [:octicons-info-16:](https://docs.fedoraproject.org/en-US/fedora-silverblue/){ .card-link title=Documentación}
-    [:octicons-heart-16:](https://whatcanidoforfedora.org/){ .card-link title=Contribuir }
+    [:octicons-home-16: Homepage](https://fedoraproject.org/silverblue/){ .md-button .md-button--primary }
+    [:octicons-info-16:](https://docs.fedoraproject.org/en-US/fedora-silverblue/){ .card-link title=Documentation}
+    [:octicons-heart-16:](https://whatcanidoforfedora.org/){ .card-link title=Contribute }
 
-Silverblue (y Kinoite) difieren de Fedora Workstation en que sustituyen el gestor de paquetes [DNF](https://fedoraproject.org/wiki/DNF) por una alternativa mucho más avanzada llamada [`rpm-ostree`](https://docs.fedoraproject.org/en-US/fedora/rawhide/system-administrators-guide/package-management/rpm-ostree/). El gestor de paquetes `rpm-ostree` funciona descargando una imagen base para el sistema, y luego superponiendo paquetes sobre ella en un árbol de commit como el de [git](https://es.wikipedia.org/wiki/Git). Cuando se actualice el sistema, se descargará una nueva imagen de base y las superposiciones se aplicarán a esa nueva imagen.
+Silverblue (and Kinoite) differ from Fedora Workstation as they replace the [DNF](https://docs.fedoraproject.org/en-US/quick-docs/dnf/) package manager with a much more advanced alternative called [`rpm-ostree`](https://docs.fedoraproject.org/en-US/fedora/latest/system-administrators-guide/package-management/rpm-ostree/). El gestor de paquetes `rpm-ostree` funciona descargando una imagen base para el sistema, y luego superponiendo paquetes sobre ella en un árbol de commit como el de [git](https://es.wikipedia.org/wiki/Git). Cuando se actualice el sistema, se descargará una nueva imagen de base y las superposiciones se aplicarán a esa nueva imagen.
 
 Una vez completada la actualización, se reiniciará el sistema con la nueva implementación. `rpm-ostree` mantiene dos implementaciones del sistema para que pueda revertir fácilmente si algo se rompe en la nueva implementación. También existe la opción de anclar más implementaciones según sea necesario.
 

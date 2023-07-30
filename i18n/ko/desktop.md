@@ -19,9 +19,9 @@ cover: desktop.png
     
     **Fedora Workstation**는 리눅스를 처음 사용하시는 분들에게 추천드리는 배포판입니다. Fedora는 보통 다른 배포판보다 먼저 최신 기술([Wayland](https://wayland.freedesktop.org/), [PipeWire](https://pipewire.org) 등)을 채택합니다. 최신 기술은 대개 보안, 프라이버시, 사용성을 개선하는 효과를 가져옵니다.
     
-    [:octicons-home-16: 홈페이지](https://getfedora.org/){ .md-button .md-button--primary }
-    [:octicons-info-16:](https://docs.fedoraproject.org/en-US/docs/){ .card-link title=문서}
-    [:octicons-heart-16:](https://whatcanidoforfedora.org/){ .card-link title=기여 }
+    [:octicons-home-16: Homepage](https://fedoraproject.org/workstation/){ .md-button .md-button--primary }
+    [:octicons-info-16:](https://docs.fedoraproject.org/en-US/docs/){ .card-link title=Documentation}
+    [:octicons-heart-16:](https://whatcanidoforfedora.org/){ .card-link title=Contribute }
 
 Fedora는 반-롤링 릴리스 방식입니다. [GNOME](https://www.gnome.org) 등 일부 패키지는 다음 Fedora 릴리스 전까지 고정되지만, 커널을 포함한 대부분의 패키지는 릴리스 수명 기간 동안 자주 업데이트됩니다. 각각의 Fedora 릴리스는 1년간 지원되며, 6개월마다 새 버전이 출시됩니다.
 
@@ -69,11 +69,11 @@ DIY 배포판이므로 여러분은 자신의 시스템을 여러분 자신이 [
     
     **Fedora Silverblue** and **Fedora Kinoite** are immutable variants of Fedora with a strong focus on container workflows. Silverblue comes with the [GNOME](https://www.gnome.org/) desktop environment while Kinoite comes with [KDE](https://kde.org/). Silverblue and Kinoite follow the same release schedule as Fedora Workstation, benefiting from the same fast updates and staying very close to upstream.
     
-    [:octicons-home-16: 홈페이지](https://silverblue.fedoraproject.org/){ .md-button .md-button--primary }
-    [:octicons-info-16:](https://docs.fedoraproject.org/en-US/fedora-silverblue/){ .card-link title=문서}
-    [:octicons-heart-16:](https://whatcanidoforfedora.org/){ .card-link title=기여 }
+    [:octicons-home-16: Homepage](https://fedoraproject.org/silverblue/){ .md-button .md-button--primary }
+    [:octicons-info-16:](https://docs.fedoraproject.org/en-US/fedora-silverblue/){ .card-link title=Documentation}
+    [:octicons-heart-16:](https://whatcanidoforfedora.org/){ .card-link title=Contribute }
 
-Fedora Workstation과 달리 Silverblue, Kinoite는 [DNF](https://fedoraproject.org/wiki/DNF) 패키지 관리자가 아닌 [`rpm-ostree`](https://docs.fedoraproject.org/en-US/fedora/rawhide/system-administrators-guide/package-management/rpm-ostree/)라는 발전된 대체제를 사용합니다. `rpm-ostree` 패키지 관리자는 시스템의 베이스 이미지를 다운로드한 이후 [git](https://en.wikipedia.org/wiki/Git)과 유사한 커밋 트리에서 패키지를 오버레이하는 방식으로 작동합니다. 시스템을 업데이트하는 경우, 새로운 베이스 이미지를 다운로드하고 해당 이미지에 오버레이합니다.
+Silverblue (and Kinoite) differ from Fedora Workstation as they replace the [DNF](https://docs.fedoraproject.org/en-US/quick-docs/dnf/) package manager with a much more advanced alternative called [`rpm-ostree`](https://docs.fedoraproject.org/en-US/fedora/latest/system-administrators-guide/package-management/rpm-ostree/). `rpm-ostree` 패키지 관리자는 시스템의 베이스 이미지를 다운로드한 이후 [git](https://en.wikipedia.org/wiki/Git)과 유사한 커밋 트리에서 패키지를 오버레이하는 방식으로 작동합니다. 시스템을 업데이트하는 경우, 새로운 베이스 이미지를 다운로드하고 해당 이미지에 오버레이합니다.
 
 업데이트가 완료되면 새로 만들어진 시스템으로 재부팅합니다. `rpm-ostree`는 두 개의 시스템을 모두 유지하므로, 새로 배포된 시스템에서 문제가 발생하는 경우 간단히 롤백할 수 있습니다. 필요에 따라 유지할 시스템 수를 더 늘리는 옵션도 존재합니다.
 

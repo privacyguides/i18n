@@ -19,9 +19,9 @@ Linux-distributies worden algemeen aanbevolen voor privacybescherming en softwar
     
     **Fedora Workstation** is onze aanbevolen distributie voor mensen die nieuw zijn met Linux. Fedora adopteert over het algemeen nieuwere technologieën dan andere distributies, b.v. [Wayland](https://wayland.freedesktop.org/), [PipeWire](https://pipewire.org), en binnenkort. Deze nieuwe technologieën gaan vaak gepaard met verbeteringen op het gebied van veiligheid, privacy en bruikbaarheid in het algemeen.
     
-    [:octicons-home-16: Homepage](https://getfedora.org/){ .md-button .md-button--primary }
-    [:octicons-info-16:](https://docs.fedoraproject.org/en-US/docs/){ .card-link title=Documentatie}
-    [:octicons-heart-16:](https://whatcanidoforfedora.org/){ .card-link title=Bijdragen}
+    [:octicons-home-16: Homepage](https://fedoraproject.org/workstation/){ .md-button .md-button--primary }
+    [:octicons-info-16:](https://docs.fedoraproject.org/en-US/docs/){ .card-link title=Documentation}
+    [:octicons-heart-16:](https://whatcanidoforfedora.org/){ .card-link title=Contribute }
 
 Fedora heeft een semi-rollende release cyclus. Terwijl sommige pakketten zoals [GNOME](https://www.gnome.org) bevroren worden tot de volgende Fedora uitgave, worden de meeste pakketten (inclusief de kernel) regelmatig bijgewerkt gedurende de levensduur van de uitgave. Elke Fedora release wordt een jaar lang ondersteund, met elke 6 maanden een nieuwe versie.
 
@@ -69,11 +69,11 @@ Een groot deel van [Arch Linux's pakketten](https://reproducible.archlinux.org) 
     
     **Fedora Silverblue** en **Fedora Kinoite** zijn immutable varianten van Fedora met een sterke focus op container workflows. Silverblue wordt geleverd met de [GNOME](https://www.gnome.org/) desktop omgeving terwijl Kinoite wordt geleverd met [KDE](https://kde.org/). Silverblue en Kinoite volgen hetzelfde release schema als Fedora Workstation, profiteren van dezelfde snelle updates en blijven zeer dicht bij de upstream.
     
-    [:octicons-home-16: Homepage](https://silverblue.fedoraproject.org/){ .md-button .md-button--primary }
-    [:octicons-info-16:](https://docs.fedoraproject.org/en-US/fedora-silverblue/){ .card-link title=Documentatie}
-    [:octicons-heart-16:](https://whatcanidoforfedora.org/){ .card-link title=Bijdragen}
+    [:octicons-home-16: Homepage](https://fedoraproject.org/silverblue/){ .md-button .md-button--primary }
+    [:octicons-info-16:](https://docs.fedoraproject.org/en-US/fedora-silverblue/){ .card-link title=Documentation}
+    [:octicons-heart-16:](https://whatcanidoforfedora.org/){ .card-link title=Contribute }
 
-Silverblue (en Kinoite) verschillen van Fedora Workstation doordat ze de [DNF](https://fedoraproject.org/wiki/DNF) pakketbeheerder vervangen door een veel geavanceerder alternatief genaamd [`rpm-ostree`](https://docs.fedoraproject.org/en-US/fedora/rawhide/system-administrators-guide/package-management/rpm-ostree/). De `rpm-ostree` pakketbeheerder werkt door een basis image voor het systeem te downloaden, en er dan pakketten overheen te leggen in een [git](https://en.wikipedia.org/wiki/Git)-achtige commit tree. Wanneer het systeem wordt bijgewerkt, wordt een nieuw basisbeeld gedownload en worden de overlays op dat nieuwe beeld toegepast.
+Silverblue (and Kinoite) differ from Fedora Workstation as they replace the [DNF](https://docs.fedoraproject.org/en-US/quick-docs/dnf/) package manager with a much more advanced alternative called [`rpm-ostree`](https://docs.fedoraproject.org/en-US/fedora/latest/system-administrators-guide/package-management/rpm-ostree/). De `rpm-ostree` pakketbeheerder werkt door een basis image voor het systeem te downloaden, en er dan pakketten overheen te leggen in een [git](https://en.wikipedia.org/wiki/Git)-achtige commit tree. Wanneer het systeem wordt bijgewerkt, wordt een nieuw basisbeeld gedownload en worden de overlays op dat nieuwe beeld toegepast.
 
 Nadat de update is voltooid, start je het systeem opnieuw op in de nieuwe versie. `rpm-ostree` houdt twee versies van het systeem bij, zodat je gemakkelijk kunt terugdraaien als er iets kapot gaat in de nieuwe versie. Er is ook de mogelijkheid om meer versies vast te pinnen als dat nodig is.
 

@@ -19,9 +19,9 @@ cover: desktop.png
     
     **Fedora Workstation** - наш рекомендуемый дистрибутив для начинающих пользователей Linux. Fedora обычно внедряет новые технологии раньше других дистрибутивов, например [Wayland](https://wayland.freedesktop.org/), [PipeWire](https://pipewire.org). Эти новые технологии часто улучшают безопасность, конфиденциальность и удобство использования в целом.
     
-    [:octicons-home-16: Домашняя страница](https://getfedora.org/){ .md-button .md-button--primary }
-    [:octicons-info-16:](https://docs.fedoraproject.org/en-US/docs/){ .card-link title=Документация}
-    [:octicons-heart-16:](https://whatcanidoforfedora.org/){ .card-link title=Поддержать }
+    [:octicons-home-16: Homepage](https://fedoraproject.org/workstation/){ .md-button .md-button--primary }
+    [:octicons-info-16:](https://docs.fedoraproject.org/en-US/docs/){ .card-link title=Documentation}
+    [:octicons-heart-16:](https://whatcanidoforfedora.org/){ .card-link title=Contribute }
 
 Fedora имеет \[полу-плавающий\](https://ru.wikipedia.org/wiki/Rolling_release) цикл релиза. В то время как некоторые пакеты, такие как [GNOME](https://www.gnome.org), замораживаются до следующего выпуска Fedora, большинство пакетов (включая ядро) часто обновляются в течение всего срока жизни релиза. Каждый выпуск Fedora поддерживается в течение одного года, а новая версия выходит каждые 6 месяцев.
 
@@ -69,11 +69,11 @@ Arch Linux имеет плавающий цикл релиза. Не сущес�
     
     **Fedora Silverblue** и **Fedora Kinoite** - это неизменяемые варианты Fedora с сильным фокусом на контейнерные рабочие процессы. Silverblue поставляется с окружением рабочего стола [GNOME](https://www.gnome.org/), а Kinoite - с [KDE](https://kde.org/). Silverblue и Kinoite следуют тому же графику релиза, что и Fedora Workstation, получая преимущества от таких же быстрых обновлений и оставаясь очень близкими к upstream.
     
-    [:octicons-home-16: Домашняя страница](https://silverblue.fedoraproject.org/){ .md-button .md-button--primary }
-    [:octicons-info-16:](https://docs.fedoraproject.org/en-US/fedora-silverblue/){ .card-link title=Документация}
-    [:octicons-heart-16:](https://whatcanidoforfedora.org/){ .card-link title=Поддержать }
+    [:octicons-home-16: Homepage](https://fedoraproject.org/silverblue/){ .md-button .md-button--primary }
+    [:octicons-info-16:](https://docs.fedoraproject.org/en-US/fedora-silverblue/){ .card-link title=Documentation}
+    [:octicons-heart-16:](https://whatcanidoforfedora.org/){ .card-link title=Contribute }
 
-Silverblue (и Kinoite) отличаются от Fedora Workstation тем, что заменяют пакетный менеджер [DNF](https://fedoraproject.org/wiki/DNF) гораздо более продвинутой альтернативой под названием [`rpm-ostree`](https://docs.fedoraproject.org/en-US/fedora/rawhide/system-administrators-guide/package-management/rpm-ostree/). Менеджер пакетов `rpm-ostree` работает путем скачивания базового образа для системы, а затем наложения пакетов на него в [git](https://en.wikipedia.org/wiki/Git)-подобном дереве коммитов. Когда система обновляется, загружается новое базовое изображение, и наложения будут применены к этому новому изображению.
+Silverblue (and Kinoite) differ from Fedora Workstation as they replace the [DNF](https://docs.fedoraproject.org/en-US/quick-docs/dnf/) package manager with a much more advanced alternative called [`rpm-ostree`](https://docs.fedoraproject.org/en-US/fedora/latest/system-administrators-guide/package-management/rpm-ostree/). Менеджер пакетов `rpm-ostree` работает путем скачивания базового образа для системы, а затем наложения пакетов на него в [git](https://en.wikipedia.org/wiki/Git)-подобном дереве коммитов. Когда система обновляется, загружается новое базовое изображение, и наложения будут применены к этому новому изображению.
 
 После завершения обновления вы перезагрузите систему в новую установку. `rpm-ostree` сохраняет две версии системы, чтобы вы могли легко откатиться назад, если что-то сломается в новой версии. Также есть возможность подключить большее количество версий по мере необходимости.
 

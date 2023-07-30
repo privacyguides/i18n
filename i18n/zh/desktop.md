@@ -19,9 +19,9 @@ cover: desktop.png
     
     **Fedora Workstation**是我们为刚接触Linux的人推荐的发行版。 Fedora通常在其他发行版之前采用较新的技术，例如： [Wayland](https://wayland.freedesktop.org/), [PipeWire](https://pipewire.org)。 这些新技术往往伴随着安全、隐私和总体可用性的改进。
     
-    [:octicons-home-16: 主页](https://getfedora.org/){ .md-button .md-button--primary }
-    [:octicons-info-16:](https://docs.fedoraproject.org/en-US/docs/){ .card-link title=文档}
-    [:octicons-heart-16:](https://whatcanidoforfedora.org/){ .card-link title=贡献 }
+    [:octicons-home-16: Homepage](https://fedoraproject.org/workstation/){ .md-button .md-button--primary }
+    [:octicons-info-16:](https://docs.fedoraproject.org/en-US/docs/){ .card-link title=Documentation}
+    [:octicons-heart-16:](https://whatcanidoforfedora.org/){ .card-link title=Contribute }
 
 Fedora有一个半滚动的发布周期。 虽然有些软件包如 [GNOME](https://www.gnome.org) 被冻结到下一个 Fedora 版本，但大多数软件包(包括内核)在整个发行期都会频繁更新。 每个Fedora版本都支持一年，每6个月发布一个新版本。
 
@@ -69,11 +69,11 @@ Arch Linux有一个滚动的发布周期。 没有固定的发布时间表，软
     
     **Fedora Silverblue**和**Fedora Kinoite**是Fedora的不可改变的变体，非常注重容器工作流程。 Silverblue配有 [GNOME]（https://www.gnome.org/）桌面环境，而Kinoite配有 [KDE]（https://kde.org/）。 Silverblue和Kinoite遵循与Fedora Workstation相同的发布时间表，受益于同样的快速更新，并与上游保持非常紧密的联系。
     
-    [:octicons-home-16: 主页](https://silverblue.fedoraproject.org/){ .md-button .md-button--primary }
-    [:octicons-info-16:](https://docs.fedoraproject.org/en-US/fedora-silverblue/){ .card-link title=文档}
-    [:octicons-heart-16:](https://whatcanidoforfedora.org/){ .card-link title=贡献 }
+    [:octicons-home-16: Homepage](https://fedoraproject.org/silverblue/){ .md-button .md-button--primary }
+    [:octicons-info-16:](https://docs.fedoraproject.org/en-US/fedora-silverblue/){ .card-link title=Documentation}
+    [:octicons-heart-16:](https://whatcanidoforfedora.org/){ .card-link title=Contribute }
 
-Silverblue(和Kinoite)与Fedora Workstation不同，它们用一个更先进的替代品 [`rpm-ostree`](https://docs.fedoraproject.org/en-US/fedora/rawhide/system-administrators-guide/package-management/rpm-ostree/)，取代了 [DNF](https://fedoraproject.org/wiki/DNF) 软件包管理。 `rpm-ostree` 软件包管理器的工作方式是为系统下载一个基本镜像，然后在一个 [git](https://en.wikipedia.org/wiki/Git)-like commit tree中叠加软件包。 当系统更新时，会下载一个新的基本图像，覆盖物将被应用于该新图像。
+Silverblue (and Kinoite) differ from Fedora Workstation as they replace the [DNF](https://docs.fedoraproject.org/en-US/quick-docs/dnf/) package manager with a much more advanced alternative called [`rpm-ostree`](https://docs.fedoraproject.org/en-US/fedora/latest/system-administrators-guide/package-management/rpm-ostree/). `rpm-ostree` 软件包管理器的工作方式是为系统下载一个基本镜像，然后在一个 [git](https://en.wikipedia.org/wiki/Git)-like commit tree中叠加软件包。 当系统更新时，会下载一个新的基本图像，覆盖物将被应用于该新图像。
 
 更新完成后，你将重新启动系统进入新的部署。 `rpm-ostree` 保持系统的两个部署，这样如果在新的部署中出现问题，你可以很容易地回滚。 还可以根据需要选择钉更多的部署。
 

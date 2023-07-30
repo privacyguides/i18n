@@ -19,7 +19,7 @@ cover: desktop.png
     
     **תחנת העבודה של פדורה** היא ההפצה המומלצת שלנו לאנשים חדשים ללינוקס. Fedora בדרך כלל מאמצת טכנולוגיות חדשות יותר לפני הפצות אחרות, למשל [Wayland](https://wayland.freedesktop.org/), [PipeWire](https://pipewire.org), ובקרוב [FS-Verity](https://fedoraproject.org/wiki/Changes/FsVerityRPM). טכנולוגיות חדשות אלה מגיעות לעתים קרובות עם שיפורים באבטחה, בפרטיות ובשימושיות באופן כללי.
     
-    [:octicons-home-16: Homepage](https://getfedora.org/){ .md-button .md-button--primary }
+    [:octicons-home-16: Homepage](https://fedoraproject.org/workstation/){ .md-button .md-button--primary }
     [:octicons-info-16:](https://docs.fedoraproject.org/en-US/docs/){ .card-link title=Documentation}
     [:octicons-heart-16:](https://whatcanidoforfedora.org/){ .card-link title=Contribute }
 
@@ -69,11 +69,11 @@ Tumbleweed עוקב אחר מודל מהדורה מתגלגל שבו כל עדכ
     
     **Fedora Silverblue *** ו -** Fedora Kinoite ** הם גרסאות בלתי ניתנות לשינוי של Fedora עם מיקוד חזק בזרימות עבודה של קונטיינרים. Silverblue מגיע עם [GNOME](https://www.gnome.org/) desktop environment while Kinoite [KDE](https://kde.org/). Silverblue ו - Kinoite מצייתות לאותו לוח זמנים של הפצה כמו Fedora Workstation, ומרוויחות מאותם עדכונים מהירים ונשארות קרובות מאוד לזרם.
     
-    [:octicons-home-16: Homepage](https://silverblue.fedoraproject.org/){ .md-button .md-button--primary }
+    [:octicons-home-16: Homepage](https://fedoraproject.org/silverblue/){ .md-button .md-button--primary }
     [:octicons-info-16:](https://docs.fedoraproject.org/en-US/fedora-silverblue/){ .card-link title=Documentation}
     [:octicons-heart-16:](https://whatcanidoforfedora.org/){ .card-link title=Contribute }
 
-Silverblue (ו Kinoite) שונים מ Fedora Workstation כפי שהם מחליפים את [מנהל חבילת DNF](https://fedoraproject.org/wiki/DNF) עם אלטרנטיבה מתקדמת הרבה יותר בשם [`rpm-ostree`](https://docs.fedoraproject.org/en-US/fedora/rawhide/system-administrators-guide/package-management/rpm-ostree/). מנהל החבילות `rpm - ostree` עובד על ידי הורדת תמונת בסיס עבור המערכת, ולאחר מכן שכבת חבילות מעליה ב [git](https://en.wikipedia.org/wiki/Git)- כמו להתחייב עץ. כאשר המערכת מתעדכנת, מורידים תמונת בסיס חדשה ושכבות העל יוחלו על תמונה חדשה זו.
+Silverblue (and Kinoite) differ from Fedora Workstation as they replace the [DNF](https://docs.fedoraproject.org/en-US/quick-docs/dnf/) package manager with a much more advanced alternative called [`rpm-ostree`](https://docs.fedoraproject.org/en-US/fedora/latest/system-administrators-guide/package-management/rpm-ostree/). מנהל החבילות `rpm - ostree` עובד על ידי הורדת תמונת בסיס עבור המערכת, ולאחר מכן שכבת חבילות מעליה ב [git](https://en.wikipedia.org/wiki/Git)- כמו להתחייב עץ. כאשר המערכת מתעדכנת, מורידים תמונת בסיס חדשה ושכבות העל יוחלו על תמונה חדשה זו.
 
 לאחר השלמת העדכון, תאתחל מחדש את המערכת לפריסה החדשה. `rpm - ostree` שומר שתי פריסות של המערכת, כך שתוכל בקלות לחזור לאחור אם משהו נשבר בפריסה החדשה. יש גם אפשרות להצמיד יותר פריסות לפי הצורך.
 

@@ -20,7 +20,9 @@ Linux distributions are commonly recommended for privacy protection and software
     
     **Fedora Workstation** é a nossa distribuição recomendada para usuários novos no Linux. A Fedora geralmente adota novas tecnologias antes de outras distribuições, por exemplo, [Wayland](https://wayland.freedesktop.org/), [PipeWire](https://pipewire.org), e em breve, [FS-Verity](https://fedoraproject.org/wiki/Changes/FsVerityRPM). Estas novas tecnologias muitas vezes vêm com melhorias na segurança, privacidade e usabilidade em geral.
     
-    [Visite getfedora.org](https://getfedora.org/){ .md-button .md-button--primary }
+    [:octicons-home-16: Homepage](https://fedoraproject.org/workstation/){ .md-button .md-button--primary }
+    [:octicons-info-16:](https://docs.fedoraproject.org/en-US/docs/){ .card-link title=Documentation}
+    [:octicons-heart-16:](https://whatcanidoforfedora.org/){ .card-link title=Contribute }
 
 Fedora has a semi-rolling release cycle. While some packages like [GNOME](https://www.gnome.org) are frozen until the next Fedora release, most packages (including the kernel) are updated frequently throughout the lifespan of the release. Each Fedora release is supported for one year, with a new version released every 6 months.
 
@@ -67,9 +69,11 @@ A large portion of [Arch Linux’s packages](https://reproducible.archlinux.org)
     
     **Fedora Silverblue** e **Fedora Kinoite*** são variantes imutáveis do Fedora com um forte foco nos fluxos de trabalho dos contentores. Silverblue vem com o ambiente de trabalho [GNOME](https://www.gnome.org/) enquanto que a Kinoite vem com [KDE](https://kde.org/). Silverblue e Kinoite seguem o mesmo calendário de lançamento da Estação de Trabalho Fedora, beneficiando das mesmas atualizações rápidas e ficando muito perto do upstream.
     
-    [Visite silverblue.fedoraproject.org](https://silverblue.fedoraproject.org/){ .md-button .md-button--primary }
+    [:octicons-home-16: Homepage](https://fedoraproject.org/silverblue/){ .md-button .md-button--primary }
+    [:octicons-info-16:](https://docs.fedoraproject.org/en-US/fedora-silverblue/){ .card-link title=Documentation}
+    [:octicons-heart-16:](https://whatcanidoforfedora.org/){ .card-link title=Contribute }
 
-Após a atualização estar completa, o usuário reiniciará o sistema para a nova implantação. `rpm-ostree` mantém duas implantações do sistema para que um usuário possa facilmente reverter se algo quebrar na nova implantação. Há também a opção de fixar mais implantações conforme necessário.
+Silverblue (and Kinoite) differ from Fedora Workstation as they replace the [DNF](https://docs.fedoraproject.org/en-US/quick-docs/dnf/) package manager with a much more advanced alternative called [`rpm-ostree`](https://docs.fedoraproject.org/en-US/fedora/latest/system-administrators-guide/package-management/rpm-ostree/). `rpm-ostree` mantém duas implantações do sistema para que um usuário possa facilmente reverter se algo quebrar na nova implantação. Há também a opção de fixar mais implantações conforme necessário.
 
 After the update is complete you will reboot the system into the new deployment. `rpm-ostree` keeps two deployments of the system so that you can easily rollback if something breaks in the new deployment. There is also the option to pin more deployments as needed.
 
