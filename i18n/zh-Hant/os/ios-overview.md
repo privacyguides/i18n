@@ -1,5 +1,5 @@
 ---
-title: iOS Overview
+title: iOS 介紹
 icon: simple/apple
 description: iOS is a mobile operating system developed by Apple for the iPhone.
 ---
@@ -67,7 +67,7 @@ At the top of the **Settings** app, you'll see your name and profile picture if 
 
 Many other privacy-related settings can be found in the **Settings** app.
 
-#### Airplane Mode
+#### 飛航模式
 
 Enabling **Airplane Mode** stops your phone from contacting cell towers. You will still be able to connect to Wi-Fi and Bluetooth, so whenever you are connected to Wi-Fi you can turn this setting on.
 
@@ -192,7 +192,7 @@ Normal phone calls made with the Phone app through your carrier are not E2EE. Bo
 
 Jailbreaking an iPhone undermines its security and makes you vulnerable. Running untrusted, third-party software could cause your device to be infected with malware.
 
-### Encrypted iMessage
+### 加密的 iMessage
 
 The color of the message bubble in the Messages app indicates whether your messages are E2EE or not. A blue bubble indicates that you're using iMessage with E2EE, while a green bubble indicates they're using the outdated SMS and MMS protocols. Currently, the only way to get E2EE in Messages is for both parties to be using iMessage on Apple devices.
 
@@ -206,7 +206,7 @@ If you need to hide information in a photo, you can use Apple's built-in tools t
 
 Apple always makes beta versions of iOS available early for those that wish to help find and report bugs. We don't recommend installing beta software on your phone. Beta releases are potentially unstable and could have undiscovered security vulnerabilities.
 
-## Security Highlights
+## 安全重點
 
 ### Before First Unlock
 

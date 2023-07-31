@@ -27,10 +27,10 @@ Certificates prove you are talking directly to the website you're visiting, and 
 **익명성**
 :
 
-Anonymity is the ability to act without a persistent identifier. You might achieve this online with [Tor](../tor.md), which allows you to browse the internet with a random IP address and network connection instead of your own.
+Anonymity is the ability to act without a persistent identifier. 온라인에서 익명성을 보장하는 대표적인 수단으로는 [Tor](../tor.md)가 있습니다. Tor를 이용하면 자신의 IP 주소나 네트워크 연결망을 사용하지 않고 임의의 IP 주소로 인터넷을 탐색할 수 있습니다.
 :
 
-**Pseudonymity** is a similar concept, but it allows you to have a persistent identifier without it being tied to your real identity. If everybody knows you as `@GamerGuy12` online, but nobody knows your real name, that is your pseudonym.
+**'가명'**도 익명과 유사한 개념이지만, 가명은 실제 신원과 연결점이 없는 영구 식별자를 사용한다는 것이 특징입니다. '온라인에서 누구나 나를 `@GamerGuy12`라는 이름으로 찾을 수 있지만, 내 본명을 아는 사람은 아무도 없는 것', 이것이 바로 가명입니다.
 
 All of these concepts overlap, but it is possible to have any combination of these. The sweet spot for most people is when all three of these concepts overlap. However, it's trickier to achieve than many initially believe. 때로는 일부를 타협해야 하겠지만, 괜찮습니다. This is where **threat modeling** comes into play, allowing you to make informed decisions about the [software and services](../tools.md) you use.
 
