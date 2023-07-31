@@ -115,15 +115,15 @@ If you don't want anyone to be able to control your phone with Siri when it is l
 
 #### Face ID/Touch ID & Passcode
 
-Setting a strong password on your phone is the most important step you can take for physical device security. You'll have to make tradeoffs here between security and convenience: A longer password will be annoying to type in every time, but a shorter password or PIN will be easier to guess. Setting up Face ID or Touch ID along with a strong password can be a good compromise between usability and security.
+在手機上設置強密碼是確保設備物理安全的最重要步驟。 您必須權衡安全性與便利性：每次輸入較長的密碼很麻煩，但較短的密碼或 PIN 碼很容易被猜到。 設置 Face ID 或 Touch ID 以及強密碼可以在可用性和安全性之間實現良好折衷。
 
-Select **Turn Passcode On** or **Change Passcode** > **Passcode Options** > **Custom Alphanumeric Code**. Make sure that you create a [secure password](https://www.privacyguides.org/basics/passwords-overview/).
+Select **Turn Passcode On** or **Change Passcode** > **Passcode Options** > **Custom Alphanumeric Code**. 確認有創建一組[安全密碼](https://www.privacyguides.org/basics/passwords-overview/)。
 
-If you wish to use Face ID or Touch ID, you can go ahead and set it up now. Your phone will use the password you set up earlier as a fallback in case your biometric verification fails. Biometric unlock methods are primarily a convenience, although they do stop surveillance cameras or people over your shoulder from watching you input your passcode.
+如果想使用 Face ID 或 Touch ID，可以立即進行設置。 您的手機將使用之前設置的密碼作為後備密碼，以防生物識別驗證失敗。 生物識別解鎖方法主要是便利，雖然它們確實可以阻止監控攝像頭或身旁的人看到您所輸入的密碼。
 
-If you use biometrics, you should know how to turn them off quickly in an emergency. Holding down the side or power button and *either* volume button until you see the Slide to Power Off slider will disable biometrics, requiring your passcode to unlock. Your passcode will also be required after device restarts.
+如果使用生物識別技術，應該知道如何在緊急情況下快速關閉它們。 Holding down the side or power button and *either* volume button until you see the Slide to Power Off slider will disable biometrics, requiring your passcode to unlock. 設備重新啟動後還需要您的密碼。
 
-On some older devices, you may have to press the power button five times to disable biometrics instead, or for devices with Touch ID you may just have to hold down the power button and nothing else. Make sure you try this in advance so you know which method works for your device.
+在某些較舊的設備上，可能需要按電源按鈕五次才能禁用生物識別功能，或者具有 Touch ID 的設備，可能只需按住電源按鈕即可。 請事先嘗試此操作，以便知道哪種方法適用您的設備。
 
 **Allow Access When Locked** gives you options for what you can allow when your phone is locked. The more of these options you disable, the less someone without your password can do, but the less convenient it will be for you. Pick and choose which of these you don't want someone to have access to if they get their hands on your phone.
 
