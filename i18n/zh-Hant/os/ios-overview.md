@@ -1,28 +1,28 @@
 ---
 title: iOS 介紹
 icon: simple/apple
-description: iOS is a mobile operating system developed by Apple for the iPhone.
+description: iOS 為 蘋果電腦公司為 iPhone 所開發的移動作業系統。
 ---
 
-**iOS** and **iPadOS** are proprietary mobile operating systems developed by Apple for their iPhone and iPad products, respectively. If you have an Apple mobile device, you can increase your privacy by disabling some built-in telemetry features, and hardening some privacy and security settings which are built in to the system.
+**iOS** 和 **iPadOS** 是 Apple 分別為其 iPhone 和 iPad 產品開發的專有移動作業系統。 如果您擁有 Apple 移動設備，可通過禁用某些內置遙測功能以及強化系統內置的隱私和安全設置來增強隱私。
 
 ## 隱私筆記
 
-iOS devices are frequently praised by security experts for their robust data protection and adherence to modern best-practices. However, the restrictiveness of Apple's ecosystem—particularly with their mobile devices—does still hamper privacy in a number of ways.
+iOS 設備因其強大的資料保護和對現代最佳作法的遵守而受到安全專家的讚揚。 然而，Apple 生態系統的限制性——尤其是移動設備——仍然在很多方面阻礙了隱私。
 
-We generally consider iOS to provide better than average privacy and security protections for most people, compared to stock Android devices from any manufacturer. However, you can achieve even higher standards of privacy with a [custom Android operating system](../android.md) like GrapheneOS, if you want or need to be completely independent of Apple or Google's cloud services.
+我們認為，與任何製造商的庫存 Android 設備相比，iOS 為大多數人提供了水平之上的隱私和安全保護。 However, you can achieve even higher standards of privacy with a [custom Android operating system](../android.md) like GrapheneOS, if you want or need to be completely independent of Apple or Google's cloud services.
 
 ### 激活鎖
 
-All iOS devices must be checked against Apple's Activation Lock servers when they are initially set up or reset, meaning an internet connection is **required** to use an iOS device.
+所有 iOS 設備在初始設置或重置時都必須根據 Apple 的激活鎖伺服器進行檢查，這意味著**需要**網際網路連接才能使用 iOS 設備。
 
-### Mandatory App Store
+### 強制的 App Store
 
-The only source for apps on iOS is Apple's App Store, which requires an Apple ID to access. This means that Apple has a record of every app you install on your device, and can likely tie that information to your actual identity if you provide the App Store with a payment method.
+IOS 上應用的唯一來源是 Apple App Store，需要 Apple ID 才能訪問。 這意味著 Apple 擁有您在設備上安裝的每個應用記錄，且如果向 App Store 提供付款方式，則可能會將該資訊與您的實際身份聯繫起來。
 
-### Invasive Telemetry
+### 侵入式遙測
 
-Apple has historically had problems with properly anonymizing their telemetry on iOS. [In 2019](https://www.theguardian.com/technology/2019/jul/26/apple-contractors-regularly-hear-confidential-details-on-siri-recordings), Apple was found to transmit Siri recordings—some containing highly confidential information—to their servers for manual review by third-party contractors. While they temporarily stopped that program after that practice was [widely reported on](https://www.theverge.com/2019/8/23/20830120/apple-contractors-siri-recordings-listening-1000-a-day-globetech-microsoft-cortana), the problem wasn't completely resolved [until 2021](https://www.theguardian.com/technology/2021/jun/07/apple-overhauls-siri-to-address-privacy-concerns-and-improve-performance).
+蘋果在 iOS 適當匿名遙測上常發生問題。 [2019 年](https://www.theguardian.com/technology/2019/jul/26/apple-contractors-regularly-hear-confidential-details-on-siri-recordings)，Apple 被發現將 Siri 錄音（其中一些包含高度機密信息）傳輸回其伺服器，以供第三方承包商進行手動審核。 While they temporarily stopped that program after that practice was [widely reported on](https://www.theverge.com/2019/8/23/20830120/apple-contractors-siri-recordings-listening-1000-a-day-globetech-microsoft-cortana), the problem wasn't completely resolved [until 2021](https://www.theguardian.com/technology/2021/jun/07/apple-overhauls-siri-to-address-privacy-concerns-and-improve-performance).
 
 More recently, Apple has been found to [transmit analytics even when analytics sharing is disabled](https://gizmodo.com/apple-iphone-analytics-tracking-even-when-off-app-store-1849757558) on iOS, and this data [appears](https://twitter.com/mysk_co/status/1594515229915979776) to be easily linked to unique iCloud account identifiers despite supposedly being anonymous. Apple has not fixed [these problems](https://gizmodo.com/clarence-thomas-aide-venmo-laywers-supreme-court-1850631585) as of July 2023.
 
@@ -30,13 +30,13 @@ More recently, Apple has been found to [transmit analytics even when analytics s
 
 ### iCloud
 
-The majority of privacy and security concerns with Apple products are related to their cloud services, not their hardware or software. When you use Apple services like iCloud, most of your information is stored on their servers and secured with keys which Apple has access to by default. You can check [Apple's documentation](https://support.apple.com/HT202303) for information on which services are end-to-end encrypted. Anything listed as "in transit" or "on server" means it's possible for Apple to access that data without your permission. 這種訪問級別偶爾會被執法部門濫用，儘管您的資料在設備上還是安全加密的狀態。當然，Apple 與任何其他公司一樣容易遭受資料洩露。
+Apple 產品的大多數隱私和安全問題與其雲服務有關，而不是其硬體或軟體。 當使用 iCloud 等 Apple 服務時，大部分資訊都存儲在他們的伺服器上以密鑰保護，且預設情況下 Apple 可以取用該密鑰。 You can check [Apple's documentation](https://support.apple.com/HT202303) for information on which services are end-to-end encrypted. Anything listed as "in transit" or "on server" means it's possible for Apple to access that data without your permission. 這種訪問級別偶爾會被執法部門濫用，儘管您的資料在設備上還是安全加密的狀態。當然，Apple 與任何其他公司一樣容易遭受資料洩露。
 
-Therefore, if you do use iCloud you should [enable **Advanced Data Protection**](https://support.apple.com/HT212520). This encrypts nearly all of your iCloud data with keys stored on your devices (end-to-end encryption), rather than Apple's servers, so that your iCloud data is secured in the event of a data breach, and otherwise hidden from Apple.
+因此，如果使用 iCloud，則應[啟用**進階資料保護**](https://support.apple.com/HT212520)。 This encrypts nearly all of your iCloud data with keys stored on your devices (end-to-end encryption), rather than Apple's servers, so that your iCloud data is secured in the event of a data breach, and otherwise hidden from Apple.
 
 The encryption used by Advanced Data Protection, while strong, [is not *quite* as robust](https://discuss.privacyguides.net/t/apple-advances-user-security-with-powerful-new-data-protections/10778/4) as the encryption offered by other [cloud services](../cloud.md), particularly when it comes to iCloud Drive. While we strongly encourage using Advanced Data Protection if you use iCloud, we would also suggest considering finding an alternative to iCloud from a more [privacy-focused service provider](../tools.md), although it is unlikely most people would be impacted by these encryption quirks.
 
-You can also protect your data by limiting what you sync to iCloud in the first place. At the top of the **Settings** app, you'll see your name and profile picture if you are signed in to iCloud. Select that, then **iCloud**, and turn off the switches for any services you don't want to sync to iCloud. You may see third-party apps listed under **Show All** if they sync to iCloud, which you can disable here.
+You can also protect your data by limiting what you sync to iCloud in the first place. At the top of the **Settings** app, you'll see your name and profile picture if you are signed in to iCloud. 選擇該選項，然後選擇 **iCloud**，然後關閉您不想同步到 iCloud 的任何服務的交換機。 如果第三方應用程式與 iCloud 同步，您可能會看到列在「 **顯示全部** 」下的第三方應用程式，您可以在此處停用這些應用程式。
 
 #### iCloud+
 
@@ -46,22 +46,22 @@ A paid **iCloud+** subscription (with any iCloud storage plan) comes with some p
 
 **Hide My Email** is Apple's email aliasing service. You can create an email aliases for free when you *Sign In With Apple* on a website or app, or generate unlimited aliases on demand with a paid iCloud+ plan. Hide My Email has the advantage of using the `@icloud.com` domain for its aliases, which may be less likely to be blocked compared to other email aliasing services, but does not offer functionality offered by standalone services such as automatic PGP encryption or multiple mailbox support.
 
-#### Media & Purchases
+#### 媒體 & 購買項目
 
-At the top of the **Settings** app, you'll see your name and profile picture if you are signed in to an Apple ID. Select that, then select **Media & Purchases** > **View Account**.
+在「 **設定** 」應用程式的頂部，如果您已登入 Apple ID，便會看到您的姓名和個人資料相片。 Select that, then select **Media & Purchases** > **View Account**.
 
 - [ ] Turn off **Personalized Recommendations**
 
 #### Find My
 
-**Find My** is a service that lets you track your Apple devices and share your location with your friends and family. It also allows you to wipe your device remotely in case it is stolen, preventing a thief from accessing your data. Your Find My [location data is E2EE](https://www.apple.com/legal/privacy/data/en/find-my/) when:
+**Find My** is a service that lets you track your Apple devices and share your location with your friends and family. 若設備遭竊，它可以讓您從遠端進行抺除，從而防止小偷訪問您的資料。 Your Find My [location data is E2EE](https://www.apple.com/legal/privacy/data/en/find-my/) when:
 
-- Your location is shared with a family member or friend, and you both use iOS 15 or greater.
+- 您的位置已與家人或朋友共享，並且都使用 iOS 15 或更高版本。
 - Your device is offline and is located by the Find My Network.
 
 Your location data is not E2EE when your device is online and you use Find My iPhone remotely to locate your device. You will have to make the decision whether these trade-offs are worth the anti-theft benefits of Activation Lock.
 
-At the top of the **Settings** app, you'll see your name and profile picture if you are signed in to an Apple ID. Select that, then select **Find My**. Here you can choose whether to enable or disable Find My location features.
+在「 **設定** 」應用程式的頂部，如果您已登入 Apple ID，便會看到您的姓名和個人資料相片。 Select that, then select **Find My**. Here you can choose whether to enable or disable Find My location features.
 
 ### 設定
 
@@ -107,7 +107,7 @@ It is important to install **Software Updates** frequently to get the latest sec
 
 Select **Background App Refresh** and switch off any apps you don't want to continue refreshing in the background. If you don't want any apps to refresh in the background, you can select **Background App Refresh** again and turn it **Off**.
 
-#### Siri & Search
+#### Siri & 尋找
 
 If you don't want anyone to be able to control your phone with Siri when it is locked, you can turn that off here.
 
@@ -182,11 +182,11 @@ Disable **Personalized Ads** if you don't want targeted ads. Select **Apple Adve
 
 - [x] Select **Turn On Lockdown Mode**
 
-## Additional Advice
+## 其它建議
 
-### E2EE Calls
+### E2EE 通話
 
-Normal phone calls made with the Phone app through your carrier are not E2EE. Both FaceTime Video and FaceTime Audio calls are E2EE, or you can use [another app](../real-time-communication.md) like Signal.
+通過電信運營商使用“電話”應用程式撥打的一般電話不是 E2EE。 Both FaceTime Video and FaceTime Audio calls are E2EE, or you can use [another app](../real-time-communication.md) like Signal.
 
 ### Avoid Jailbreaking
 
