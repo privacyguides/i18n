@@ -98,37 +98,37 @@ Click on **About** and type your desired device name into the **Name** field.
 
 您可以個別同意每個應用程式的定位服務權限。 如果不要應用程式使用您的位置，那麼完全關閉定位服務是最私密的選擇。
 
-- [ ] Uncheck **Location Services**
+- [ ] 取消勾選 **定位服務**
 
-##### Analytics & Improvements
+##### 資料分析 & 改進
 
 決定是否要與 Apple 和開發者共享分析資料。
 
-- [ ] Uncheck **Share Mac Analytics**
+- [ ] 取消勾選 **分享 Mac 數據分析**
 
-- [ ] Uncheck **Improve Siri & Dictation**
+- [ ] 取消勾選 **改善 Siri & 偵測**
 
-- [ ] Uncheck **Share with app developers**
+- [ ] 取消勾選 **分享給應用開發人員**
 
-- [ ] Uncheck **Share iCloud Analytics** (visible if you are signed in to iCloud)
+- [ ] 取消勾選 **分享 iCloud Analytics** (如登入 iCloud 方可看到)
 
 ##### Apple 廣告
 
-Decide whether you want personalized ads based on your usage.
+決定是否依使用狀況個人化廣告接收。
 
-- [ ] Uncheck **Personalized Ads**
+- [ ] 取消勾選 **個人化的廣告**
 
 ##### 安全
 
-Apps from the App Store are subject to stricter security guidelines, such as stricter sandboxing. If the only apps you need are available from the App Store, change the **Allow applications downloaded from** setting to **App Store** to prevent accidentally running other apps. This is a good option particularly if you are configuring a machine for other, less technical users such as children.
+App Store 中的應用程式須遵守更嚴格的安全準則，例如更嚴格的沙盒。 如果需要的應用程式只能從 App Store 獲取，請將**允許從以下位置下載應用程式**設置更改為**App Store** 防止不小心執行其他應用程式。 這是一個不錯的選擇，特別是當您為其他技術能力較低的用戶（例如兒童）設定電腦時。
 
-If you choose to also allow applications from identified developers, be careful about the apps you run and where you obtain them.
+如果選擇允許某些認定開發者的應用程序，請注意所運行的應用程式以及從何處取得這些應用。
 
 ##### FileVault
 
-On modern devices with a Secure Enclave (Apple T2 Security Chip, Apple silicon), your data is always encrypted, but is decrypted automatically by a hardware key if your device doesn't detect it's been tampered with. Enabling FileVault additionally requires your password to decrypt your data, greatly improving security, especially when powered off or before the first login after powering on.
+在具有 Secure Enclave（Apple T2 安全晶片、Apple 晶片）的現代設備上，您的數據會保持加密。如果設備未檢測到數據遭篡改，則會通過硬體密鑰自動解密。 啟用 FileVault 還需要輪入密碼來解密資料，大大提高了安全性，尤其是在關機時或開機後首次登錄時。
 
-On older Intel-based Mac computers, FileVault is the only form of disk encryption available by default, and should always be enabled.
+在較舊的 Intel 的 Mac 電腦，FileVault 是預設唯一可用的磁盤加密形式，應始終啟用。
 
 - [x] Click **Turn On**
 

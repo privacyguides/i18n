@@ -283,8 +283,8 @@ Shields 可以選擇根據需要依各網站情況降級，但我們建議預設
 
 Brave Web3 功能可能會增加瀏覽器指紋和攻擊面。 除非有用到任何功能，否則應停用這些功能。
 
-- Select **Extensions (no fallback)** under Default Ethereum wallet and Default Solana wallet
-- Set **Method to resolve IPFS resources** to **Disabled**
+- 在預設的 Ethereum 與 Solana 錢包底下選取 **Extensions (no fallback)**
+- 設定 **禁用****解析 IPFS 資源的方法**
 
 ##### 系統
 

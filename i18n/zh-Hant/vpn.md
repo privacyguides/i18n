@@ -53,12 +53,12 @@ cover: vpn.png
         - [:simple-windows11: Windows](https://protonvpn.com/download-windows)
         - [:simple-linux: Linux](https://protonvpn.com/support/linux-vpn-setup/)
 
-#### :material-check:{ .pg-green } 68 Countries
+#### :material-check:{ .pg-green } 68 個國家
 
-Proton VPN has [servers in 68 countries](https://protonvpn.com/vpn-servers).(1) Picking a VPN provider with a server nearest to you will reduce latency of the network traffic you send. 這是因為到目的地的路線較短（跳數較少）。
+Proton VPN 在68個國家/地區設有 [伺服器](https://protonvpn.com/vpn-servers). (1)選擇距離您最近的伺服器的VPN供應商，將減少您網路流量的延遲。 這是因為到目的地的路線較短（跳數較少）。
 { .annotate }
 
-1. Last checked: 2023-07-28
+1. 上次檢查日期： 2023-07-28
 
 我們認為，如果 VPN 提供商使用 [專用伺服器](https://en.wikipedia.org/wiki/Dedicated_hosting_service)，而不是更便宜（與其他客戶共享)的解決方案 ，例如 [虛擬專用服務器](https://en.wikipedia.org/wiki/Virtual_private_server)，則 VPN提供商的私鑰更安全。
 
@@ -123,7 +123,7 @@ Intel 處理器的 Mac 電腦 若用 VPN killswitch 會發生 [系統崩潰](htt
 IVPN 在 35 個國家/地區擁有 [伺服器](https://www.ivpn.net/server-locations)。 (1)選擇離您最近的伺服器 VPN 供應商，將減少發送網路流量的延遲。 這是因為到目的地的路線較短（跳數較少）。
 { .annotate }
 
-1. Last checked: 2023-07-28
+1. 上次檢查日期： 2023-07-28
 
 我們認為，如果 VPN 提供商使用 [專用伺服器](https://en.wikipedia.org/wiki/Dedicated_hosting_service)，而不是更便宜（與其他客戶共享)的解決方案 ，例如 [虛擬專用服務器](https://en.wikipedia.org/wiki/Virtual_private_server)，則 VPN提供商的私鑰更安全。
 
@@ -199,13 +199,13 @@ IVPN 客戶端支援雙因素驗證（Mullvad 客戶端不支援）。 IVPN 有"
 
 
 
-#### :material-check:{ .pg-green } 43 Countries
+#### :material-check:{ .pg-green } 43 個國家
 
-Mullvad has [servers in 43 countries](https://mullvad.net/servers/).(1) Picking a VPN provider with a server nearest to you will reduce latency of the network traffic you send. 這是因為到目的地的路線較短（跳數較少）。 
+Mullvad 在 43 個國家/地區設有 [伺服器](https://mullvad.net/servers/)。(1) 選擇離您最近伺服器，這將減少您網路流量的延遲。 這是因為到目的地的路線較短（跳數較少）。 
 
 { .annotate }
 
-1. Last checked: 2023-07-28
+1. 上次檢查日期： 2023-07-28
 
 我們認為，如果 VPN 提供商使用 [專用伺服器](https://en.wikipedia.org/wiki/Dedicated_hosting_service)，而不是更便宜（與其他客戶共享)的解決方案 ，例如 [虛擬專用服務器](https://en.wikipedia.org/wiki/Virtual_private_server)，則 VPN提供商的私鑰更安全。
 
