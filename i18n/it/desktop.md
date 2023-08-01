@@ -150,9 +150,9 @@ Di design, Tails dovrebbe ripristinarsi completamente dopo ogni riavvio. L'[arch
 
 !!! recommendation
 
-    ![Logo di Qubes OS](assets/img/qubes/qubes_os.svg){ align=right }
+    ![Qubes OS logo](assets/img/qubes/qubes_os.svg){ align=right }
     
-    **Qubes OS** è un sistema operativo open source progettato per fornire un forte sicurezza per l'informatica desktop, tramite macchine virtuali sicure (anche note come "Qube"). Si basa su Xen, il Sistema X Window, e su Linux, e può eseguire gran parte delle applicazioni di Linux, e utilizzare molti dei suoi driver.
+    **Qubes OS** is an open-source operating system designed to provide strong security for desktop computing through secure virtual machines (or "qubes"). Qubes is based on Xen, the X Window System, and Linux. It can run most Linux applications and use most of the Linux drivers.
     
     [:octicons-home-16: Home](https://www.qubes-os.org/){ .md-button .md-button--primary }
     [:simple-torbrowser:](http://qubesosfasa4zl44o4tws22di6kepyzfeqv3tg4e3ztknltfxqrymdad.onion){ .card-link title="Servizio Onion" }
@@ -161,7 +161,7 @@ Di design, Tails dovrebbe ripristinarsi completamente dopo ogni riavvio. L'[arch
     [:octicons-code-16:](https://github.com/QubesOS/){ .card-link title="Codice Sorgente" }
     [:octicons-heart-16:](https://www.qubes-os.org/donate/){ .card-link title=Contribuisci }
 
-Qubes OS protegge il computer isolando i sistemi secondri (es., rete, USB, etc.) e le applicazioni, in VM separate. Dovesse esser compromessa una parte del sistema, l'isolamento aggiuntivo potrebbe proteggere il resto del sistema.
+Qubes OS secures the computer by isolating subsystems (e.g., networking, USB, etc.) and applications in separate *qubes*. Should one part of the system be compromised, the extra isolation is likely to protect the rest of the *qubes* and the core system.
 
 Per ulteriori informazioni sul funzionamento di Qubes, leggi la nostra pagina [Panoramica su Qubes OS](os/qubes-overview.md).
 

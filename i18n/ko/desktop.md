@@ -152,7 +152,7 @@ Tails는 재부팅 시마다 완전히 초기화되도록 설계되었습니다.
 
     ![Qubes OS logo](assets/img/qubes/qubes_os.svg){ align=right }
     
-    **Qubes OS** is an open-source operating system designed to provide strong security for desktop computing through secure virtual machines (a.k.a. "Qubes"). Qubes is based on Xen, the X Window System, and Linux, and can run most Linux applications and use most of the Linux drivers.
+    **Qubes OS** is an open-source operating system designed to provide strong security for desktop computing through secure virtual machines (or "qubes"). Qubes is based on Xen, the X Window System, and Linux. It can run most Linux applications and use most of the Linux drivers.
     
     [:octicons-home-16: Homepage](https://www.qubes-os.org/){ .md-button .md-button--primary }
     [:simple-torbrowser:](http://qubesosfasa4zl44o4tws22di6kepyzfeqv3tg4e3ztknltfxqrymdad.onion){ .card-link title="Onion Service" }
@@ -161,7 +161,7 @@ Tails는 재부팅 시마다 완전히 초기화되도록 설계되었습니다.
     [:octicons-code-16:](https://github.com/QubesOS/){ .card-link title="Source Code" }
     [:octicons-heart-16:](https://www.qubes-os.org/donate/){ .card-link title=Contribute }
 
-Qubes OS secures the computer by isolating subsystems (e.g., networking, USB, etc.) and applications in separate VMs. Should one part of the system be compromised, the extra isolation is likely to protect the rest of the system.
+Qubes OS secures the computer by isolating subsystems (e.g., networking, USB, etc.) and applications in separate *qubes*. Should one part of the system be compromised, the extra isolation is likely to protect the rest of the *qubes* and the core system.
 
 For further information about how Qubes works, read our full [Qubes OS overview](os/qubes-overview.md) page.
 

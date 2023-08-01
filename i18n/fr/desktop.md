@@ -149,9 +149,9 @@ Par conception, Tails est censé se réinitialiser complètement après chaque r
 
 !!! recommendation
 
-    ![logo Qubes OS](assets/img/qubes/qubes_os.svg){ align=right }
+    ![Qubes OS logo](assets/img/qubes/qubes_os.svg){ align=right }
     
-    **Qubes OS** est un système d'exploitation open-source conçu pour fournir une sécurité forte pour l'informatique de bureau à travers des machines virtuelles sécurisées (aussi connus sous le nom de "Qubes"). Qubes est basé sur Xen, le système X Window et Linux, et peut exécuter la plupart des applications Linux et utiliser la plupart des pilotes Linux.
+    **Qubes OS** is an open-source operating system designed to provide strong security for desktop computing through secure virtual machines (or "qubes"). Qubes is based on Xen, the X Window System, and Linux. It can run most Linux applications and use most of the Linux drivers.
     
     [:octicons-home-16: Page d'accueil](https://www.qubes-os.org/){ .md-button .md-button--primary }
     [:simple-torbrowser:](http://qubesosfasa4zl44o4tws22di6kepyzfeqv3tg4e3ztknltfxqrymdad.onion){ .card-link title="Service onion" }
@@ -160,7 +160,7 @@ Par conception, Tails est censé se réinitialiser complètement après chaque r
     [:octicons-code-16:](https://github.com/QubesOS/){ .card-link title="Code source" }
     [:octicons-heart-16:](https://www.qubes-os.org/donate/){ .card-link title=Contribuer }
 
-Qubes OS sécurise l'ordinateur en isolant les sous-systèmes (par exemple, réseau, USB, etc.) et les applications dans des VMs distinctes. Si une partie du système est compromise, l'isolation supplémentaire est susceptible de protéger le reste du système.
+Qubes OS secures the computer by isolating subsystems (e.g., networking, USB, etc.) and applications in separate *qubes*. Should one part of the system be compromised, the extra isolation is likely to protect the rest of the *qubes* and the core system.
 
 Pour plus d'informations sur le fonctionnement de Qubes, lisez notre page [Introduction à Qubes](os/qubes-overview.md) .
 
