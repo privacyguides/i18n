@@ -160,7 +160,7 @@ Par conception, Tails est censé se réinitialiser complètement après chaque r
     [:octicons-code-16:](https://github.com/QubesOS/){ .card-link title="Code source" }
     [:octicons-heart-16:](https://www.qubes-os.org/donate/){ .card-link title=Contribuer }
 
-Qubes OS secures the computer by isolating subsystems (e.g., networking, USB, etc.) and applications in separate *qubes*. Should one part of the system be compromised, the extra isolation is likely to protect the rest of the *qubes* and the core system.
+Qubes OS sécurise l'ordinateur en isolant les sous-systèmes (par exemple, le réseau, l'USB, etc.) et les applications dans des *qubes* distincts. Si une partie du système est compromise, l'isolation supplémentaire est susceptible de protéger le reste des *qubes* et le système central.
 
 Pour plus d'informations sur le fonctionnement de Qubes, lisez notre page [Introduction à Qubes](os/qubes-overview.md) .
 
