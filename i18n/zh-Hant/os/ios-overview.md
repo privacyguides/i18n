@@ -61,29 +61,29 @@ A paid **iCloud+** subscription (with any iCloud storage plan) comes with some p
 
 Your location data is not E2EE when your device is online and you use Find My iPhone remotely to locate your device. You will have to make the decision whether these trade-offs are worth the anti-theft benefits of Activation Lock.
 
-在「 **設定** 」應用程式的頂部，如果您已登入 Apple ID，便會看到您的姓名和個人資料相片。 Select that, then select **Find My**. Here you can choose whether to enable or disable Find My location features.
+在「 **設定** 」應用程式的頂部，如果您已登入 Apple ID，便會看到您的姓名和個人資料相片。 Select that, then select **Find My**. 此處您可以選擇是否啟用或禁用“查找設備”功能。
 
 ### 設定
 
-Many other privacy-related settings can be found in the **Settings** app.
+許多其他與隱私相關的設置可以在**設置**應用中找到。
 
 #### 飛航模式
 
-Enabling **Airplane Mode** stops your phone from contacting cell towers. You will still be able to connect to Wi-Fi and Bluetooth, so whenever you are connected to Wi-Fi you can turn this setting on.
+啟用 **飛航模式** 會阻止您的手機與手機基地塔連線。 您仍然可以連接到 Wi-Fi 和藍牙，因此每當您連接到 Wi-Fi 時，您都可以開啟此設置。
 
 #### Wi-Fi
 
-You can enable hardware address randomization to protect you from tracking across Wi-Fi networks. On the network you are currently connected to, press the :material-information: button:
+您可以啟用硬體位址隨機化功能，以保護您免受跨 Wi-Fi 網路的追蹤。 在您目前連線的網路上，按下 :material-information: 按鈕：
 
-- [x] Turn on **Private Wi-Fi Address**
+- [x] 打開 **私人 Wi-Fi 地址**
 
-You also have the option to **Limit IP Address Tracking**. This is similar to iCloud Private Relay but only affects connections to "known trackers." Because it only affects connections to potentially malicious servers, this setting is probably fine to leave enabled, but if you don't want *any* traffic to be routed through Apple's servers, you should turn it off.
+您也可以選擇 **限制 IP 位址追蹤**。 這與 iCloud Private Relay 類似，但僅影響與“已知跟踪器”的連接。 因為它只影響與潛在惡意伺服器的連接，所以啟用此設置應該沒問題，但如果不希望*任何*流量通過 Apple 的伺服器路由，則可把它關掉。
 
 #### 藍牙
 
-**Bluetooth** should be disabled when you aren't using it as it increases your attack surface. Disabling Bluetooth (or Wi-Fi) via the Control Center only disables it temporarily: you must switch it off in Settings for disabling it to remain effective.
+**當您不使用藍牙時，應停用藍牙** ，因為它會增加您被攻擊的機會。 透過控制中心停用藍牙（或 Wi-Fi ）只會暫時停用：您必須在「設定」中關閉藍牙才能保持有效。
 
-- [ ] Turn off **Bluetooth**
+- [] 關閉 **藍牙**
 
 #### 一般設定
 
