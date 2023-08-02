@@ -4,7 +4,7 @@ icon: simple/qubesos
 description: Qubes è un sistema operativo basato sull'isolamento delle applicazioni all'interno delle *qubes* (precedentemente chiamate "VM"), per una maggiore sicurezza.
 ---
 
-[**Qubes OS**](../desktop.md#qubes-os) è un sistema operativo open-source che utilizza l'hypervisor [Xen](https://en.wikipedia.org/wiki/Xen) per fornire una forte sicurezza per il desktop computing attraverso le *qube* isolate (che sono macchine virtuali). Puoi assegnare ad ogni *qube* un livello di fiducia in base al suo scopo. Qubes OS fornisce sicurezza utilizzando l'isolamento. It only permits actions on a per-case basis and therefore is the opposite of [badness enumeration](https://www.ranum.com/security/computer_security/editorials/dumb/).
+[**Qubes OS**](../desktop.md#qubes-os) è un sistema operativo open-source che utilizza l'hypervisor [Xen](https://en.wikipedia.org/wiki/Xen) per fornire una forte sicurezza per il desktop computing attraverso le *qube* isolate (che sono macchine virtuali). Puoi assegnare ad ogni *qube* un livello di fiducia in base al suo scopo. Qubes OS fornisce sicurezza utilizzando l'isolamento. Permette solo azioni su base individuale e quindi è l'opposto della [enumerazione dei difetti](https://www.ranum.com/security/computer_security/editorials/dumb/).
 
 ## Come funziona Qubes OS?
 
@@ -12,7 +12,7 @@ Qubes utilizza la [compartimentazione](https://www.qubes-os.org/intro/) per mant
 
 ??? "Il termine *qubes* sta venendo pian piano aggiornato per evitare di confonderle con le "macchine virtuali"."
 
-    Some of the information here and on the Qubes OS documentation may contain conflicting language as the "appVM" term is gradually being changed to "qube". Qubes are not entire virtual machines, but maintain similar functionalities to VMs.
+    Alcune informazioni riportate qui e nella documentazione di Quebes OS possono contenere un linguaggio contraddittorio, poiché il termine "appVM" sta venendo pian piano modificato in "qube". Le Qube non sono delle vere e proprie macchine virtuali, ma mantengono funzionalità simili alle VM.
 
 ![Architettura Qubes](../assets/img/qubes/qubes-trust-level-architecture.png)
 <figcaption>Architettura di Qubes, Crediti: Introduzione a Qubes OS</figcaption>
@@ -24,9 +24,9 @@ Ogni qube ha un [bordo colorato](https://www.qubes-os.org/screenshots/) che può
 
 ## Perché dovrei usare Qubes?
 
-Qubes OS è utile se il tuo [modello di minaccia](../basics/threat-modeling.md) richiede una forte sicurezza e isolamento, ad esempio se pensi di aprire file non attendibili da fonti non attendibili. Un motivo tipico per utilizzare Qubes OS è quello di aprire documenti provenienti da fonti sconosciute, ma l'idea è che se un singolo qube viene compromesso non avrà ripercussioni sul resto del sistema.
+Qubes OS è utile se il tuo [modello di minaccia](../basics/threat-modeling.md) richiede una forte sicurezza e isolamento, ad esempio se hai intenzione di aprire file non attendibili da fonti non attendibili. Un motivo tipico per utilizzare Qubes OS è quello di aprire documenti provenienti da fonti sconosciute, ma l'idea è che se un singolo qube viene compromesso non avrà ripercussioni sul resto del sistema.
 
-Qubes OS utilizza [dom0](https://wiki.xenproject.org/wiki/Dom0) Xen VM per controllare le altre *qube* sul sistema operativo host, che visualizzano le finestre delle singole applicazioni all'interno dell'ambiente desktop di dom0. There are many uses for this type of architecture. Here are some tasks you can perform. You can see just how much more secure these processes are made by incorporating multiple steps.
+Qubes OS utilizza [dom0](https://wiki.xenproject.org/wiki/Dom0) Xen VM per controllare le altre *qube* sul sistema operativo host, che visualizzano le finestre delle singole applicazioni all'interno dell'ambiente desktop di dom0. Ci sono diversi modi per utilizzare questo tipo di architettura. Ecco alcune attività che puoi eseguire. Puoi notare quanto questi processi siano molto più sicuri incorporando più fasi.
 
 ### Copiare e incollare il testo
 
@@ -47,13 +47,13 @@ Per copiare e incollare file e cartelle da una *qube* a un'altra, puoi usare l'o
 
 ### Interazioni tra VM
 
-The [qrexec framework](https://www.qubes-os.org/doc/qrexec/) is a core part of Qubes which allows communication between domains. Si basa sulla libreria di Xen *vchan*, che facilita l'[isolamento tramite politiche](https://www.qubes-os.org/news/2020/06/22/new-qrexec-policy-system/).
+Il [framework qrexec](https://www.qubes-os.org/doc/qrexec/) è una parte fondamentale di Qubes che consente la comunicazione tra i domini. Si basa sulla libreria di Xen *vchan*, che facilita l'[isolamento tramite politiche](https://www.qubes-os.org/news/2020/06/22/new-qrexec-policy-system/).
 
 ## Risorse aggiuntive
 
 Per ulteriori informazioni si consiglia di consultare le ampie pagine di documentazione di Qubes OS presenti sul [sito web di Qubes OS](https://www.qubes-os.org/doc/). Le copie offline sono scaricabili dalla [repository della documentazione](https://github.com/QubesOS/qubes-doc) di Qubes OS.
 
-- [Arguably the world's most secure operating system](https://www.opentech.fund/news/qubes-os-arguably-the-worlds-most-secure-operating-system-motherboard/) (Open Technology Fund)
-- [Software compartmentalization vs. physical separation](https://invisiblethingslab.com/resources/2014/Software_compartmentalization_vs_physical_separation.pdf) (J. Rutkowska)
-- [Partitioning my digital life into security domains](https://blog.invisiblethings.org/2011/03/13/partitioning-my-digital-life-into.html) (J. Rutkowska)
-- [Related Articles](https://www.qubes-os.org/news/categories/#articles) (Qubes OS)
+- [Probabilmente il sistema operativo più sicuro al mondo](https://www.opentech.fund/news/qubes-os-arguably-the-worlds-most-secure-operating-system-motherboard/) (Open Technology Fund)
+- [Compartimentazione software vs. separazione fisica](https://invisiblethingslab.com/resources/2014/Software_compartmentalization_vs_physical_separation.pdf) (J. Rutkowska)
+- [Suddividere la mia vita digitale in domini di sicurezza](https://blog.invisiblethings.org/2011/03/13/partitioning-my-digital-life-into.html) (J. Rutkowska)
+- [Articoli Correlati](https://www.qubes-os.org/news/categories/#articles) (Qubes OS)
