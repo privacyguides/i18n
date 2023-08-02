@@ -39,7 +39,7 @@ Puoi [copiare e incollare il testo](https://www.qubes-os.org/doc/how-to-copy-and
 
 ### Scambio di file
 
-Per copiare e incollare file e cartelle da una *qube* a un'altra, puoi usare l'opzione **Copia in un'altra AppVM...** o **Sposta in un'altra AppVM...**. La differenza è che l'opzione **Move** eliminerà il file originale. Entrambe le opzioni proteggeranno i tuoi appunti dalla trasmissione verso altre *qube*. Questo è più sicuro del trasferimento di file via etere. An air-gapped computer will still be forced to parse partitions or file systems. Ciò non è necessario con il sistema di copia tra Qube.
+Per copiare e incollare file e cartelle da una *qube* a un'altra, puoi usare l'opzione **Copia in un'altra AppVM...** o **Sposta in un'altra AppVM...**. La differenza è che l'opzione **Move** eliminerà il file originale. Entrambe le opzioni proteggeranno i tuoi appunti dalla trasmissione verso altre *qube*. Questo è più sicuro del trasferimento di file via etere. Un computer isolato sarà comunque costretto ad analizzare partizioni o file di sistema. Ciò non è necessario con il sistema di copia tra Qube.
 
 ??? "Le Qube non hanno i propri file di sistema."
 
