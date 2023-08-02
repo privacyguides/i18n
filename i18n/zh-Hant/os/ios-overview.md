@@ -87,13 +87,13 @@ Your location data is not E2EE when your device is online and you use Find My iP
 
 #### 一般設定
 
-Your iPhone's device name will by default contain your first name, and this will be visible to anyone on networks you connect to. You should change this to something more generic, like "iPhone." Select **About** > **Name** and enter the device name you prefer.
+Your iPhone's device name will by default contain your first name, and this will be visible to anyone on networks you connect to. You should change this to something more generic, like "iPhone." 選擇 **關於** > **名稱** ，然後輸入您喜歡的裝置名稱。
 
-It is important to install **Software Updates** frequently to get the latest security fixes. You can enable **Automatic Updates** to keep your phone up-to-date without needing to constantly check for updates. Select **Software Update** > **Automatic Updates**:
+經常安裝 **軟體更新** 以獲得最新的安全修復非常重要。 您可以啟用 **自動更新** ，以保持手機最新，而無需不斷檢查更新。 選擇 **軟體更新** > **自動更新**：
 
-- [x] Turn on **Download iOS Updates**
-- [x] Turn on **Install iOS Updates**
-- [x] Turn on **Security Responses & System Files**
+- [x] 打開 **下載 iOS 更新**
+- [x] 打開 **安裝 iOS 更新**
+- [x] 打開 **安全應變 & 系統檔**
 
 **AirDrop** allows you to easily transfer files, but it can allow strangers to send you files you do not want.
 
@@ -103,13 +103,13 @@ It is important to install **Software Updates** frequently to get the latest sec
 
 - [x] Select **Never** or **Ask**
 
-**Background App Refresh** allows your apps to refresh their content while you're not using them. This may cause them to make unwanted connections. Turning this off can also save battery life, but it may affect an app's ability to receive updated information, particularly weather and messaging apps.
+**Background App Refresh** allows your apps to refresh their content while you're not using them. 這可能會導致它們建立不必要的連接。 Turning this off can also save battery life, but it may affect an app's ability to receive updated information, particularly weather and messaging apps.
 
 Select **Background App Refresh** and switch off any apps you don't want to continue refreshing in the background. If you don't want any apps to refresh in the background, you can select **Background App Refresh** again and turn it **Off**.
 
 #### Siri & 尋找
 
-If you don't want anyone to be able to control your phone with Siri when it is locked, you can turn that off here.
+如果不希望任何人在鎖定時使用 Siri 控制您的手機，可以在此處將其關閉。
 
 - [ ] Turn off **Allow Siri When Locked**
 
