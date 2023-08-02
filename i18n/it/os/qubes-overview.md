@@ -8,9 +8,9 @@ description: Qubes is an operating system built around isolating apps within *qu
 
 ## Come funziona Qubes OS?
 
-Qubes utilizza la [compartimentazione](https://www.qubes-os.org/intro/) per mantenere il sistema sicuro. I Qube sono creati da modelli, predefiniti per Fedora, Debian e [Whonix](../desktop.md#whonix). Qubes OS also allows you to create once-use [disposable](https://www.qubes-os.org/doc/how-to-use-disposables/) *qubes*.
+Qubes utilizza la [compartimentazione](https://www.qubes-os.org/intro/) per mantenere il sistema sicuro. I Qube sono creati da modelli, predefiniti per Fedora, Debian e [Whonix](../desktop.md#whonix). Qubes OS ti consente anche di creare *qubes* [monouso](https://www.qubes-os.org/doc/how-to-use-disposables/).
 
-??? "The term *qubes* is gradually being updated to avoid referring to them as "virtual machines"."
+??? "Il termine *qubes* sta venendo gradualmente aggiornato per evitare di chiamarle "macchine virtuali"."
 
     Some of the information here and on the Qubes OS documentation may contain conflicting language as the "appVM" term is gradually being changed to "qube". Qubes are not entire virtual machines, but maintain similar functionalities to VMs.
 
@@ -32,10 +32,10 @@ Qubes OS utilizes [dom0](https://wiki.xenproject.org/wiki/Dom0) Xen VM for contr
 
 Puoi [copiare e incollare il testo](https://www.qubes-os.org/doc/how-to-copy-and-paste-text/) utilizzando `qvm-copy-to-vm` o le istruzioni seguenti:
 
-1. Press **Ctrl+C** to tell the *qube* you're in that you want to copy something.
-2. Press **Ctrl+Shift+C** to tell the *qube* to make this buffer available to the global clipboard.
-3. Press **Ctrl+Shift+V** in the destination *qube* to make the global clipboard available.
-4. Press **Ctrl+V** in the destination *qube* to paste the contents in the buffer.
+1. Premi **Ctrl+C** per dire alla *qube* in cui ti trovi che vuoi copiare qualcosa.
+2. Premi **Ctrl+Maiusc+C** per dire alla *qube* di rendere disponibile questo buffer negli appunti globali.
+3. Premi **Ctrl+Maiusc+V** nella *qube* di destinazione per rendere disponibili gli appunti globali.
+4. Premi **Ctrl+V** nella *qube* di destinazione per incollare il contenuto nel buffer.
 
 ### Scambio di file
 
