@@ -46,26 +46,26 @@ Una suscripción de pago a **iCloud+** (con cualquier plan de almacenamiento de 
 
 **Ocultar Mi Correo Electrónico** es el servicio de alias de correo electrónico de Apple. Puede crear un alias de correo electrónico de forma gratuita al *Iniciar sesión con Apple* en un sitio web o una aplicación, o generar alias ilimitados bajo demanda con un plan iCloud+ de pago. Ocultar Mi Correo Electrónico tiene la ventaja de utilizar el dominio `@icloud.com` para sus alias, que puede ser menos susceptible de ser bloqueado en comparación con otros servicios de alias de correo electrónico, pero no ofrece la funcionalidad que ofrecen los servicios independientes, como el cifrado PGP automático o la compatibilidad con múltiples buzones de correo.
 
-#### Media & Purchases
+#### Contenido y Compras
 
-At the top of the **Settings** app, you'll see your name and profile picture if you are signed in to an Apple ID. Select that, then select **Media & Purchases** > **View Account**.
+En la parte superior de la aplicación **Ajustes**, verás tu nombre y tu foto de perfil si has iniciado sesión con un ID de Apple. Selecciónelo y, a continuación, seleccione **Contenido y compras** > **Ver cuenta**.
 
-- [ ] Turn off **Personalized Recommendations**
+- [ ] Desactiva **Recomendaciones Personalizadas**
 
-#### Find My
+#### Buscar
 
-**Find My** is a service that lets you track your Apple devices and share your location with your friends and family. It also allows you to wipe your device remotely in case it is stolen, preventing a thief from accessing your data. Your Find My [location data is E2EE](https://www.apple.com/legal/privacy/data/en/find-my/) when:
+**Buscar** es un servicio que te permite rastrear tus dispositivos Apple y compartir tu ubicación con tus amigos y familiares. También te permite borrar el dispositivo a distancia en caso de robo, evitando que un ladrón acceda a tus datos. En Buscar, tus [datos de localización son E2EE](https://www.apple.com/legal/privacy/data/en/find-my/) cuando:
 
-- Your location is shared with a family member or friend, and you both use iOS 15 or greater.
-- Your device is offline and is located by the Find My Network.
+- Tu localización se comparte con un familiar o amigo, y ambos utilizáis iOS 15 o superior.
+- Tu dispositivo está desconectado y es localizado por la red Buscar.
 
-Your location data is not E2EE when your device is online and you use Find My iPhone remotely to locate your device. You will have to make the decision whether these trade-offs are worth the anti-theft benefits of Activation Lock.
+Tus datos de localización no son E2EE cuando tu dispositivo está conectado y utilizas Buscar iPhone remotamente para localizar tu dispositivo. Tendrá que decidir si estas ventajas compensan los beneficios antirrobo del Bloqueo de Activación.
 
-At the top of the **Settings** app, you'll see your name and profile picture if you are signed in to an Apple ID. Select that, then select **Find My**. Here you can choose whether to enable or disable Find My location features.
+En la parte superior de la aplicación **Ajustes**, verás tu nombre y tu foto de perfil si has iniciado sesión con un ID de Apple. Selecciónelo y, a continuación, selecciona **Buscar**. Aquí puedes elegir si quieres activar o desactivar las funciones de localización de Buscar.
 
-### Configuración
+### Ajustes
 
-Many other privacy-related settings can be found in the **Settings** app.
+Muchos otros ajustes relacionados con la privacidad se pueden encontrar en la aplicación **Ajustes**.
 
 #### Airplane Mode
 

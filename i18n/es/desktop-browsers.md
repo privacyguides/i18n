@@ -223,7 +223,7 @@ Arkenfox sólo pretende frustrar los scripts de rastreo básicos o primitivos me
 
 Estas opciones se encuentran en :material-menu: → **Configuración**.
 
-#### Configuración
+#### Settings
 
 ##### Escudos
 
