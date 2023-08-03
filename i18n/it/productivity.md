@@ -1,5 +1,5 @@
 ---
-title: "Strumenti di Produttività"
+title: "Strumenti per la produttività"
 icon: material/file-sign
 description: Gran parte delle suite da ufficio non supportano l'E2EE, a significare che il fornitore del cloud ha accesso a tutto ciò che fai.
 cover: productivity.png

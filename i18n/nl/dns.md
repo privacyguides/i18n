@@ -62,7 +62,7 @@ Versleutelde DNS-proxy software biedt een lokale proxy voor de [onversleutelde D
 !!! recommendation
 
     ![RethinkDNS logo](assets/img/android/rethinkdns.svg#only-light){ align=right }
-    !RethinkDNS logo](assets/img/android/rethinkdns-dark.svg#only-dark){ align=right }
+    ![RethinkDNS logo](assets/img/android/rethinkdns-dark.svg#only-dark){ align=right }
     
     **RethinkDNS** is een open-source Android client met ondersteuning voor [DNS-over-HTTPS](advanced/dns-overview.md#dns-over-https-doh), [DNS-over-TLS](advanced/dns-overview.md#dns-over-tls-dot), [DNSCrypt](advanced/dns-overview.md#dnscrypt) en DNS-proxy samen met het cachen van DNS antwoorden, lokaal loggen van DNS-queries en kan ook gebruikt worden als firewall.
     
