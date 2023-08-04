@@ -1,14 +1,14 @@
 ---
 title: "Ikhtisar Qubes"
 icon: simple/qubesos
-description: Qubes is an operating system built around isolating apps within *qubes* (formerly "VMs") for heightened security.
+description: Qubes adalah sistem operasi yang dibangun dengan mengisolasi aplikasi di dalam *qubes* (sebelumnya disebut "VM") untuk meningkatkan keamanan.
 ---
 
-[**Qubes OS**](../desktop.md#qubes-os) is an open-source operating system which uses the [Xen](https://en.wikipedia.org/wiki/Xen) hypervisor to provide strong security for desktop computing through isolated *qubes*, (which are Virtual Machines). You can assign each *qube* a level of trust based on its purpose. Qubes OS provides security by using isolation. It only permits actions on a per-case basis and therefore is the opposite of [badness enumeration](https://www.ranum.com/security/computer_security/editorials/dumb/).
+[**Qubes OS**](../desktop.md#qubes-os) adalah sistem operasi sumber terbuka yang menggunakan hypervisor [Xen](https://en.wikipedia.org/wiki/Xen) untuk memberikan keamanan yang kuat untuk komputasi desktop melalui *qubes*yang terisolasi, (yang merupakan Mesin Virtual). Anda dapat menetapkan setiap *qube* tingkat kepercayaan berdasarkan tujuannya. Qubes OS menyediakan keamanan dengan menggunakan isolasi. Ini hanya mengizinkan tindakan berdasarkan basis per kasus dan oleh karena itu merupakan kebalikan dari [enumerasi keburukan](https://www.ranum.com/security/computer_security/editorials/dumb/).
 
 ## Bagaimana cara kerja Qubes OS?
 
-Qubes menggunakan kompartementalisasi [](https://www.qubes-os.org/intro/) untuk menjaga sistem tetap aman. Qubes dibuat dari beberapa template, umumnya untuk Fedora, Debian dan [Whonix](../desktop.md#whonix). Qubes OS also allows you to create once-use [disposable](https://www.qubes-os.org/doc/how-to-use-disposables/) *qubes*.
+Qubes menggunakan kompartementalisasi [](https://www.qubes-os.org/intro/) untuk menjaga sistem tetap aman. Qubes dibuat dari beberapa template, umumnya untuk Fedora, Debian dan [Whonix](../desktop.md#whonix). Qubes OS juga memungkinkan Anda untuk membuat [sekali pakai](https://www.qubes-os.org/doc/how-to-use-disposables/) *qubes sekali pakai*.
 
 ??? "The term *qubes* is gradually being updated to avoid referring to them as "virtual machines"."
 
