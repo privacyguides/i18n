@@ -330,7 +330,7 @@ description: Privacy Guides הוא האתר השקוף והאמין ביותר �
 
 - ![YubiKeys](assets/img/multi-factor-authentication/mini/yubico.svg){ .twemoji } [YubiKey](multi-factor-authentication.md#yubikey)
 - ![Nitrokey](assets/img/multi-factor-authentication/mini/nitrokey.svg){ .twemoji } [Nitrokey](multi-factor-authentication.md#nitrokey)
-- ![Aegis logo](assets/img/multi-factor-authentication/aegis.png){ .twemoji } [Aegis Authenticator (Android)](multi-factor-authentication.md#aegis-authenticator-android)
+- ![Aegis לוגו](assets/img/multi-factor-authentication/aegis.png){ .twemoji } [Aegis Authenticator (אנדרואיד)](multi-factor-authentication.md#aegis-authenticator-android)
 
 </div>
 

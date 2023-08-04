@@ -182,7 +182,7 @@ IVPN תמך בעבר בהעברת יציאות, אך הסיר את האפשרו�
 
 #### :material-check:{ .pg-green } 43 מדינות
 
-Mullvad has [servers in 43 countries](https://mullvad.net/servers/).(1) Picking a VPN provider with a server nearest to you will reduce latency of the network traffic you send. הסיבה לכך היא מסלול קצר יותר (פחות דילוגים) ליעד.
+ל- mullvad יש [ שרתים ב 43 מדינות ](https://mullvad.net/servers/). (1) בחירת ספק VPN עם שרת הקרוב לך, תפחית את זמן האחזור של תנועת הרשת שאתה שולח. הסיבה לכך היא מסלול קצר יותר (פחות דילוגים) ליעד.
 { .annotate }
 
 1. נבדק לאחרונה: 2023-07-28

@@ -19,9 +19,9 @@ cover: desktop.png
     
     **תחנת העבודה של פדורה** היא ההפצה המומלצת שלנו לאנשים חדשים ללינוקס. Fedora בדרך כלל מאמצת טכנולוגיות חדשות יותר לפני הפצות אחרות, למשל [Wayland](https://wayland.freedesktop.org/), [PipeWire](https://pipewire.org), ובקרוב [FS-Verity](https://fedoraproject.org/wiki/Changes/FsVerityRPM). טכנולוגיות חדשות אלה מגיעות לעתים קרובות עם שיפורים באבטחה, בפרטיות ובשימושיות באופן כללי.
     
-    [:octicons-home-16: Homepage](https://fedoraproject.org/workstation/){ .md-button .md-button--primary }
-    [:octicons-info-16:](https://docs.fedoraproject.org/en-US/docs/){ .card-link title=Documentation}
-    [:octicons-heart-16:](https://whatcanidoforfedora.org/){ .card-link title=Contribute }
+    [:octicons-home-16: דף הבית](https://fedoraproject.org/workstation/){ .md-button .md-button--primary }
+    [:octicons-info-16:](https://docs.fedoraproject.org/en-US/docs/){ .card-link title=תיעוד}
+    [:octicons-heart-16:](https://whatcanidoforfedora.org/){ .card-link title=לתרומה }
 
 לFedora יש מהדורת שחרור מתגלגל-למחצה. בעוד כמה חבילות כמו [GNOME](https://www.gnome.org) מוקפאות עד לשחרור הבא של פדורה, רוב החבילות (כולל הקרנל) מתעדכנות לעתים קרובות לאורך תוחלת החיים של השחרור. כל גרסה של פדורה נתמכת למשך שנה אחת, עם גרסה חדשה ששוחררה כל שישה חודשים.
 
@@ -69,9 +69,9 @@ Tumbleweed עוקב אחר מודל מהדורה מתגלגל שבו כל עדכ
     
     **Fedora Silverblue *** ו -** Fedora Kinoite ** הם גרסאות בלתי ניתנות לשינוי של Fedora עם מיקוד חזק בזרימות עבודה של קונטיינרים. Silverblue מגיע עם [GNOME](https://www.gnome.org/) desktop environment while Kinoite [KDE](https://kde.org/). Silverblue ו - Kinoite מצייתות לאותו לוח זמנים של הפצה כמו Fedora Workstation, ומרוויחות מאותם עדכונים מהירים ונשארות קרובות מאוד לזרם.
     
-    [:octicons-home-16: Homepage](https://fedoraproject.org/silverblue/){ .md-button .md-button--primary }
-    [:octicons-info-16:](https://docs.fedoraproject.org/en-US/fedora-silverblue/){ .card-link title=Documentation}
-    [:octicons-heart-16:](https://whatcanidoforfedora.org/){ .card-link title=Contribute }
+    [:octicons-home-16: דף הבית](https://fedoraproject.org/silverblue/){ .md-button .md-button--primary }
+    [:octicons-info-16:](https://docs.fedoraproject.org/en-US/fedora-silverblue/){ .card-link title=תיעוד}
+    [:octicons-heart-16:](https://whatcanidoforfedora.org/){ .card-link title=לתרומה }
 
 Silverblue (and Kinoite) differ from Fedora Workstation as they replace the [DNF](https://docs.fedoraproject.org/en-US/quick-docs/dnf/) package manager with a much more advanced alternative called [`rpm-ostree`](https://docs.fedoraproject.org/en-US/fedora/latest/system-administrators-guide/package-management/rpm-ostree/). מנהל החבילות `rpm - ostree` עובד על ידי הורדת תמונת בסיס עבור המערכת, ולאחר מכן שכבת חבילות מעליה ב [git](https://en.wikipedia.org/wiki/Git)- כמו להתחייב עץ. כאשר המערכת מתעדכנת, מורידים תמונת בסיס חדשה ושכבות העל יוחלו על תמונה חדשה זו.
 
@@ -152,14 +152,14 @@ Tailsכולל[uBlock Origin](desktop-browsers.md#ublock-origin) בדפדפן Tor
 
     ![Qubes OS logo](assets/img/qubes/qubes_os.svg){ align=right }
     
-    **Qubes OS** is an open-source operating system designed to provide strong security for desktop computing through secure virtual machines (or "qubes"). Qubes is based on Xen, the X Window System, and Linux. It can run most Linux applications and use most of the Linux drivers.
+    **Qubes OS** is an open-source operating system designed to provide strong security for desktop computing through secure virtual machines (or "qubes"). Qubes מבוסס על Xen, מערכת חלונות X ו- Linux. זה יכול להריץ את רוב יישומי לינוקס ולהשתמש ברוב מנהלי ההתקנים של לינוקס.
     
-    [:octicons-home-16: Homepage](https://www.qubes-os.org/){ .md-button .md-button--primary }
+    [:octicons-home-16: דף הבית](https://www.qubes-os.org/){ .md-button .md-button--primary }
     [:simple-torbrowser:](http://qubesosfasa4zl44o4tws22di6kepyzfeqv3tg4e3ztknltfxqrymdad.onion){ .card-link title="Onion Service" }
-    [:octicons-eye-16:](https://www.qubes-os.org/privacy/){ .card-link title="Privacy Policy" }
-    [:octicons-info-16:](https://www.qubes-os.org/doc/){ .card-link title=Documentation }
-    [:octicons-code-16:](https://github.com/QubesOS/){ .card-link title="Source Code" }
-    [:octicons-heart-16:](https://www.qubes-os.org/donate/){ .card-link title=Contribute }
+    [:octicons-eye-16:](https://www.qubes-os.org/privacy/){ .card-link title="מדיניות פרטיות" }
+    [:octicons-info-16:](https://www.qubes-os.org/doc/){ .card-link title=תיעוד }
+    [:octicons-code-16:](https://github.com/QubesOS/){ .card-link title="קוד מקור" }
+    [:octicons-heart-16:](https://www.qubes-os.org/donate/){ .card-link title=לתרומה }
 
 Qubes OS secures the computer by isolating subsystems (e.g., networking, USB, etc.) and applications in separate *qubes*. Should one part of the system be compromised, the extra isolation is likely to protect the rest of the *qubes* and the core system.
 
@@ -188,12 +188,12 @@ Choosing a Linux distro that is right for you will come down to a huge variety o
 - Free and open-source.
 - Receives regular software and kernel updates.
 - [Avoids X11](os/linux-overview.md#wayland).
-    - The notable exception here is Qubes, but the isolation issues which X11 typically has are avoided by virtualization. This isolation only applies to apps *running in different qubes* (virtual machines), apps running in the *same* qube are not protected from each other.
-- Supports full-disk encryption during installation.
-- Doesn't freeze regular releases for more than 1 year.
+    - The notable exception here is Qubes, but the isolation issues which X11 typically has are avoided by virtualization. בידוד זה חל רק על אפליקציות * פועל ב- qubes שונים * (מכונות וירטואליות), אפליקציות הפועלות ב- * אותם * qube הם לא מוגנים זה מזה.
+- תומך בהצפנת דיסק מלא במהלך ההתקנה.
+- לא מקפיא מהדורות רגילות במשך יותר משנה.
     - We [recommend against](os/linux-overview.md#release-cycle) "Long Term Support" or "stable" distro releases for desktop usage.
-- Supports a wide variety of hardware.
-- Preference towards larger projects.
-    - Maintaining an operating system is a major challenge, and smaller projects have a tendency to make more avoidable mistakes, or delay critical updates (or worse, disappear entirely). We lean towards projects which will likely be around 10 years from now (whether that's due to corporate backing or very significant community support), and away from projects which are hand-built or have a small number of maintainers.
+- תומך במגוון רחב של חומרה.
+- העדפה לפרויקטים גדולים יותר.
+    - שמירה על מערכת הפעלה היא אתגר מרכזי, ולפרויקטים קטנים יותר יש נטייה לטעויות נמנעות יותר, או לעכב עדכונים קריטיים (או גרוע מכך, להיעלם לחלוטין). אנו נשענים לעבר פרויקטים אשר ככל הנראה יהיו בערך 10 שנים מהיום (בין אם זה נובע מגיבוי תאגידי או תמיכה קהילתית משמעותית מאוד), והרחק מפרויקטים שנבנו בעבודת יד או שיש להם מספר מצומצם של מתחזקים.
 
-In addition, [our standard criteria](about/criteria.md) for recommended projects still applies. **Please note we are not affiliated with any of the projects we recommend.**
+בנוסף, [ הקריטריונים הסטנדרטיים שלנו ](about/criteria.md) לפרויקטים מומלצים עדיין חלים. ** אנא שימו לב שאיננו קשורים לאף אחד מהפרויקטים שאנו ממליצים עליהם. **
