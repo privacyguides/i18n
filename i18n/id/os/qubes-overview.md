@@ -10,7 +10,7 @@ description: Qubes adalah sistem operasi yang dibangun dengan mengisolasi aplika
 
 Qubes menggunakan kompartementalisasi [](https://www.qubes-os.org/intro/) untuk menjaga sistem tetap aman. Qubes dibuat dari beberapa template, umumnya untuk Fedora, Debian dan [Whonix](../desktop.md#whonix). Qubes OS juga memungkinkan Anda untuk membuat [sekali pakai](https://www.qubes-os.org/doc/how-to-use-disposables/) *qubes sekali pakai*.
 
-??? "The term *qubes* is gradually being updated to avoid referring to them as "virtual machines"."
+??? "Istilah *qubes* secara bertahap diperbarui untuk menghindari penyebutan sebagai "mesin virtual"."
 
     Some of the information here and on the Qubes OS documentation may contain conflicting language as the "appVM" term is gradually being changed to "qube". Qubes are not entire virtual machines, but maintain similar functionalities to VMs.
 
