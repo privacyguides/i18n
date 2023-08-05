@@ -12,29 +12,29 @@ Qubes menggunakan kompartementalisasi [](https://www.qubes-os.org/intro/) untuk 
 
 ??? "Istilah *qubes* secara bertahap diperbarui untuk menghindari penyebutan sebagai "mesin virtual"."
 
-    Some of the information here and on the Qubes OS documentation may contain conflicting language as the "appVM" term is gradually being changed to "qube". Qubes are not entire virtual machines, but maintain similar functionalities to VMs.
+    Beberapa informasi di sini dan di dokumentasi Qubes OS mungkin mengandung bahasa yang bertentangan karena istilah "appVM" secara bertahap diubah menjadi "qube". Qubes bukanlah mesin virtual secara keseluruhan, tetapi memiliki fungsi yang serupa dengan VM.
 
 ![Arsitektur Qubes](../assets/img/qubes/qubes-trust-level-architecture.png)
 <figcaption>Arsitektur Qubes, Kredit: Apa itu Qubes OS Intro</figcaption>
 
-Each qube has a [colored border](https://www.qubes-os.org/screenshots/) that can help you keep track of the domain in which it runs. Anda dapat menggunakan warna tertentu di peramban khusus untuk perbankan, sementara menggunakan warna yang berbeda untuk peramban umum yang tidak terpercaya.
+Setiap aplikasi Qubes memiliki [batas berwarna](https://www.qubes-os.org/screenshots/) yang dapat membantu Anda melacak mesin virtual yang sedang berjalan. Anda dapat menggunakan warna tertentu di peramban khusus untuk perbankan, sementara menggunakan warna yang berbeda untuk peramban umum yang tidak terpercaya.
 
 ![Pembatas berwarna](../assets/img/qubes/r4.0-xfce-three-domains-at-work.png)
 <figcaption>Batas jendela Qubes, Kredit: Tangkapan Layar Qubes</figcaption>
 
 ## Mengapa saya harus menggunakan Qubes?
 
-Qubes OS is useful if your [threat model](../basics/threat-modeling.md) requires strong security and isolation, such as if you think you'll be opening untrusted files from untrusted sources. A typical reason for using Qubes OS is to open documents from unknown sources, but the idea is that if a single qube is compromised it won't affect the rest of the system.
+Qubes OS berguna jika [ancaman model](../basics/threat-modeling.md) Anda membutuhkan kompartementalisasi dan keamanan yang kuat, misalnya jika Anda merasa akan membuka file yang tidak terpercaya dari sumber yang tidak terpercaya. Alasan umum untuk menggunakan Qubes OS adalah untuk membuka dokumen dari sumber yang tidak dikenal, tetapi idenya adalah bahwa jika satu qubes disusupi, hal itu tidak akan memengaruhi seluruh sistem.
 
-Qubes OS utilizes [dom0](https://wiki.xenproject.org/wiki/Dom0) Xen VM for controlling other *qubes* on the host OS, all of which display individual application windows within dom0's desktop environment. There are many uses for this type of architecture. Here are some tasks you can perform. You can see just how much more secure these processes are made by incorporating multiple steps.
+Qubes OS menggunakan [dom0](https://wiki.xenproject.org/wiki/Dom0) Xen VM untuk mengendalikan *qubes* lainnya pada OS host, yang semuanya menampilkan jendela aplikasi individual dalam lingkungan desktop dom0. Ada banyak kegunaan untuk jenis arsitektur ini. Berikut ini beberapa tugas yang dapat Anda lakukan. Anda dapat melihat betapa proses ini jauh lebih aman dengan menggabungkan beberapa langkah.
 
 ### Menyalin dan Menempel Teks
 
 Anda dapat [menyalin dan menempelkan teks](https://www.qubes-os.org/doc/how-to-copy-and-paste-text/) menggunakan `qvm-copy-to-vm` atau dengan petunjuk di bawah ini:
 
-1. Press **Ctrl+C** to tell the *qube* you're in that you want to copy something.
-2. Press **Ctrl+Shift+C** to tell the *qube* to make this buffer available to the global clipboard.
-3. Press **Ctrl+Shift+V** in the destination *qube* to make the global clipboard available.
+1. Tekan **Ctrl+C** untuk memberi tahu *qube* yang Anda masuki bahwa Anda ingin menyalin sesuatu.
+2. Tekan **Ctrl+Shift+C** untuk memberi tahu qube ** agar buffer ini tersedia di papan klip global.
+3. Tekan **Ctrl+Shift+V** di tujuan *qube* untuk membuat papan klip global tersedia.
 4. Press **Ctrl+V** in the destination *qube* to paste the contents in the buffer.
 
 ### Pertukaran File
