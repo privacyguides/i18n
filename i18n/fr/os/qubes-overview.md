@@ -43,11 +43,11 @@ Pour copier et coller des fichiers et des répertoires (dossiers) d'un *qube* à
 
 ??? "Les Qubes n'ont pas leur propre système de fichiers."
 
-    Vous pouvez [copier et déplacer des fichiers] (https://www.qubes-os.org/doc/how-to-copy-and-move-files/) entre *qubes*. Ce faisant, les changements ne sont pas immédiats et peuvent être facilement annulés en cas d'accident. When you run a *qube*, it does not have a persistent filesystem. You can create and delete files, but these changes are ephemeral.
+    Vous pouvez [copier et déplacer des fichiers] (https://www.qubes-os.org/doc/how-to-copy-and-move-files/) entre *qubes*. Ce faisant, les changements ne sont pas immédiats et peuvent être facilement annulés en cas d'accident. Lorsque vous exécutez un *qube*, il ne dispose pas d'un système de fichiers persistant. Vous pouvez créer et supprimer des fichiers, mais ces modifications sont éphémères.
 
 ### Interactions inter-VM
 
-The [qrexec framework](https://www.qubes-os.org/doc/qrexec/) is a core part of Qubes which allows communication between domains. Il est construit sur la bibliothèque Xen *vchan*, qui facilite [l'isolation de par le biais de politiques](https://www.qubes-os.org/news/2020/06/22/new-qrexec-policy-system/).
+L'[environnement qrexec](https://www.qubes-os.org/doc/qrexec/) est une partie essentielle de Qubes qui permet la communication entre les domaines. Il est construit sur la bibliothèque Xen *vchan*, qui facilite [l'isolation de par le biais de politiques](https://www.qubes-os.org/news/2020/06/22/new-qrexec-policy-system/).
 
 ## Ressources supplémentaires
 
@@ -56,4 +56,4 @@ Pour de plus amples informations, nous vous encourageons à consulter les pages 
 - [Sans doute le système d'exploitation le plus sûr au monde](https://www.opentech.fund/news/qubes-os-arguably-the-worlds-most-secure-operating-system-motherboard/) (Open Technology Fund)
 - [Comparaison entre le cloisonnement des logiciels et la séparation physique](https://invisiblethingslab.com/resources/2014/Software_compartmentalization_vs_physical_separation.pdf) (J. Rutkowska)
 - [Partitionner ma vie numérique en domaines de sécurité](https://blog.invisiblethings.org/2011/03/13/partitioning-my-digital-life-into.html) (J. Rutkowska)
-- [Related Articles](https://www.qubes-os.org/news/categories/#articles) (Qubes OS)
+- [Articles connexes](https://www.qubes-os.org/news/categories/#articles) (Qubes OS)
