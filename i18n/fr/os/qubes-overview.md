@@ -26,24 +26,24 @@ Chaque qube a une [bordure colorée](https://www.qubes-os.org/screenshots/) qui 
 
 Qubes OS est utile si votre [modèle de menace](../basics/threat-modeling.md) exige une sécurité et une isolation fortes, par exemple si vous pensez ouvrir des fichiers non fiables provenant de sources non fiables. Une raison typique d'utiliser Qubes OS est d'ouvrir des documents provenant de sources inconnues, mais l'idée est que si un seul qube est compromis, cela n'affectera pas le reste du système.
 
-Qubes OS utilizes [dom0](https://wiki.xenproject.org/wiki/Dom0) Xen VM for controlling other *qubes* on the host OS, all of which display individual application windows within dom0's desktop environment. There are many uses for this type of architecture. Here are some tasks you can perform. You can see just how much more secure these processes are made by incorporating multiple steps.
+Qubes OS utilise une VM Web [dom0](https://wiki.xenproject.org/wiki/Dom0) pour contrôler d'autres *qubes* sur l'OS hôte, qui affichent tous des fenêtres d'application individuelles dans l'environnement de bureau de dom0. Les utilisations de ce type d'architecture sont multiples. Voici quelques tâches que vous pouvez effectuer. Vous pouvez constater à quel point ces processus sont sécurisés par l'incorporation de plusieurs étapes.
 
 ### Copier et coller du texte
 
 Vous pouvez [copier et coller du texte](https://www.qubes-os.org/doc/how-to-copy-and-paste-text/) en utilisant `qvm-copy-to-vm` ou les instructions ci-dessous :
 
-1. Press **Ctrl+C** to tell the *qube* you're in that you want to copy something.
-2. Press **Ctrl+Shift+C** to tell the *qube* to make this buffer available to the global clipboard.
-3. Press **Ctrl+Shift+V** in the destination *qube* to make the global clipboard available.
-4. Press **Ctrl+V** in the destination *qube* to paste the contents in the buffer.
+1. Appuyez sur **Ctrl+C** pour indiquer au *qube* dans lequel vous vous trouvez que vous souhaitez copier quelque chose.
+2. Appuyez sur **Ctrl+Maj+C** pour demander au *qube* de mettre ce tampon à la disposition du presse-papiers global.
+3. Appuyez sur **Ctrl+Maj+V** dans le *qube* de destination pour rendre le presse-papiers global disponible.
+4. Appuyez sur **Ctrl+V** dans lr *qube* de destination pour coller le contenu dans le tampon.
 
 ### Échange de fichiers
 
-To copy and paste files and directories (folders) from one *qube* to another, you can use the option **Copy to Other AppVM...** or **Move to Other AppVM...**. La différence est que l'option **Déplacer** supprime le fichier d'origine. Either option will protect your clipboard from being leaked to any other *qubes*. This is more secure than air-gapped file transfer. An air-gapped computer will still be forced to parse partitions or file systems. Cela n'est pas nécessaire avec le système de copie inter-qube.
+Pour copier et coller des fichiers et des répertoires (dossiers) d'un *qube* à un autre, vous pouvez utiliser l'option **Copier vers une autre AppVM...** ou **Déplacer vers une autre AppVM...**. La différence est que l'option **Déplacer** supprime le fichier d'origine. L'une ou l'autre option protégera votre presse-papiers contre les fuites vers d'autres *qubes*. Cette méthode est plus sûre que le transfert de fichiers air-gap. Un ordinateur air-gap sera toujours obligé d'analyser les partitions ou les systèmes de fichiers. Cela n'est pas nécessaire avec le système de copie inter-qube.
 
-??? "Qubes do not have their own filesystems."
+??? "Les Qubes n'ont pas leur propre système de fichiers."
 
-    You can [copy and move files](https://www.qubes-os.org/doc/how-to-copy-and-move-files/) between *qubes*. Ce faisant, les changements ne sont pas immédiats et peuvent être facilement annulés en cas d'accident. When you run a *qube*, it does not have a persistent filesystem. You can create and delete files, but these changes are ephemeral.
+    Vous pouvez [copier et déplacer des fichiers] (https://www.qubes-os.org/doc/how-to-copy-and-move-files/) entre *qubes*. Ce faisant, les changements ne sont pas immédiats et peuvent être facilement annulés en cas d'accident. When you run a *qube*, it does not have a persistent filesystem. You can create and delete files, but these changes are ephemeral.
 
 ### Interactions inter-VM
 
@@ -53,7 +53,7 @@ The [qrexec framework](https://www.qubes-os.org/doc/qrexec/) is a core part of Q
 
 Pour de plus amples informations, nous vous encourageons à consulter les pages de documentation complètes de Qubes OS, situées sur le [site web de Qubes OS](https://www.qubes-os.org/doc/). Des copies hors ligne peuvent être téléchargées à partir du [dépôt de documentationde](https://github.com/QubesOS/qubes-doc) Qubes OS.
 
-- [Arguably the world's most secure operating system](https://www.opentech.fund/news/qubes-os-arguably-the-worlds-most-secure-operating-system-motherboard/) (Open Technology Fund)
-- [Software compartmentalization vs. physical separation](https://invisiblethingslab.com/resources/2014/Software_compartmentalization_vs_physical_separation.pdf) (J. Rutkowska)
-- [Partitioning my digital life into security domains](https://blog.invisiblethings.org/2011/03/13/partitioning-my-digital-life-into.html) (J. Rutkowska)
+- [Sans doute le système d'exploitation le plus sûr au monde](https://www.opentech.fund/news/qubes-os-arguably-the-worlds-most-secure-operating-system-motherboard/) (Open Technology Fund)
+- [Comparaison entre le cloisonnement des logiciels et la séparation physique](https://invisiblethingslab.com/resources/2014/Software_compartmentalization_vs_physical_separation.pdf) (J. Rutkowska)
+- [Partitionner ma vie numérique en domaines de sécurité](https://blog.invisiblethings.org/2011/03/13/partitioning-my-digital-life-into.html) (J. Rutkowska)
 - [Related Articles](https://www.qubes-os.org/news/categories/#articles) (Qubes OS)
