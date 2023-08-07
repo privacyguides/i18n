@@ -54,14 +54,14 @@ Apple 產品的大多數隱私和安全問題與其雲服務有關，而不是�
 
 #### Find My
 
-**Find My** is a service that lets you track your Apple devices and share your location with your friends and family. 若設備遭竊，它可以讓您從遠端進行抺除，從而防止小偷訪問您的資料。 Your Find My [location data is E2EE](https://www.apple.com/legal/privacy/data/en/find-my/) when:
+**Find My(尋找我的iPhone)** 是一項服務，可讓您跟踪您的 Apple 設備並與朋友和家人分享您的位置。 若設備遭竊，它可以讓您從遠端進行抺除，從而防止小偷訪問您的資料。 在下述情況，“尋找”功能的[位置資料是 E2EE](https://www.apple.com/legal/privacy/data/en/find-my/)：
 
 - 您的位置已與家人或朋友共享，並且都使用 iOS 15 或更高版本。
-- Your device is offline and is located by the Find My Network.
+- 設備處於離線狀態，且由Find My 網路找到。
 
-Your location data is not E2EE when your device is online and you use Find My iPhone remotely to locate your device. You will have to make the decision whether these trade-offs are worth the anti-theft benefits of Activation Lock.
+設備有連線且遠程使用“尋找 iPhone”來定位您的設備，則位置資料不是 E2EE。 您必須決定權衡是否值得激活防盜鎖。
 
-在「 **設定** 」應用程式的頂部，如果您已登入 Apple ID，便會看到您的姓名和個人資料相片。 Select that, then select **Find My**. 此處您可以選擇是否啟用或禁用“查找設備”功能。
+在「 **設定** 」應用程式的頂部，如果您已登入 Apple ID，便會看到您的姓名和個人資料相片。 選取這項然後再選 **尋找**。 此處您可以選擇是否啟用或禁用“查找設備”功能。
 
 ### 設定
 
@@ -87,7 +87,7 @@ Your location data is not E2EE when your device is online and you use Find My iP
 
 #### 一般設定
 
-Your iPhone's device name will by default contain your first name, and this will be visible to anyone on networks you connect to. You should change this to something more generic, like "iPhone." 選擇 **關於** > **名稱** ，然後輸入您喜歡的裝置名稱。
+預設情況中，您的 iPhone 設備名稱將包含您的名字，所連接的網絡中的其它人都可以看到該名稱。 所以應該將其更改為更一般的名稱，例如“iPhone”。 選擇 **關於** > **名稱** ，然後輸入您喜歡的裝置名稱。
 
 經常安裝 **軟體更新** 以獲得最新的安全修復非常重要。 您可以啟用 **自動更新** ，以保持手機最新，而無需不斷檢查更新。 選擇 **軟體更新** > **自動更新**：
 
@@ -95,48 +95,48 @@ Your iPhone's device name will by default contain your first name, and this will
 - [x] 打開 **安裝 iOS 更新**
 - [x] 打開 **安全應變 & 系統檔**
 
-**AirDrop** allows you to easily transfer files, but it can allow strangers to send you files you do not want.
+**AirDrop** 可以輕鬆傳輸檔案，但它可能允許陌生人對您發送不想要的檔案。
 
-- [x] Select **AirDrop** > **Receiving Off**
+- [x] 選擇 **AirDrop** > **關閉接收**
 
-**AirPlay** lets you seamlessly stream content from your iPhone to a TV; however, you might not always want this. Select **AirPlay & Handoff** > **Automatically AirPlay to TVs**:
+**AirPlay** 可讓您將內容從 iPhone 無縫串流到電視； 然而，您可能並不會想要一直維持這樣。 選擇 **AirPlay & 關閉** > **自動串流 AirPlay 到 TVs**:
 
-- [x] Select **Never** or **Ask**
+- [x] 選擇 **絕不** 或 **詢問**
 
-**Background App Refresh** allows your apps to refresh their content while you're not using them. 這可能會導致它們建立不必要的連接。 Turning this off can also save battery life, but it may affect an app's ability to receive updated information, particularly weather and messaging apps.
+**背景 App 重新整理**可將應用程式在不使用時刷新其內容。 這可能會導致它們建立不必要的連接。 關閉此功能還可節省電池壽命，但可能會影響應用程式接收更新資訊的能力，特別是天氣和消息傳遞的應用。
 
-Select **Background App Refresh** and switch off any apps you don't want to continue refreshing in the background. If you don't want any apps to refresh in the background, you can select **Background App Refresh** again and turn it **Off**.
+選擇 **背景 App 重新整理** 並切掉無需在背景下繼續刷新的應用。 If you don't want any apps to refresh in the background, you can select **Background App Refresh** again and turn it **Off**.
 
 #### Siri & 尋找
 
 如果不希望任何人在鎖定時使用 Siri 控制您的手機，可以在此處將其關閉。
 
-- [ ] Turn off **Allow Siri When Locked**
+- [ ] 關閉 **畫面鎖住時可使用 Siri **
 
-#### Face ID/Touch ID & Passcode
+#### Face ID/Touch ID & 密碼
 
 在手機上設置強密碼是確保設備物理安全的最重要步驟。 您必須權衡安全性與便利性：每次輸入較長的密碼很麻煩，但較短的密碼或 PIN 碼很容易被猜到。 設置 Face ID 或 Touch ID 以及強密碼可以在可用性和安全性之間實現良好折衷。
 
-Select **Turn Passcode On** or **Change Passcode** > **Passcode Options** > **Custom Alphanumeric Code**. 確認有創建一組[安全密碼](https://www.privacyguides.org/basics/passwords-overview/)。
+選擇 **打開 Passcode ** 或 **更改 Passcode** > **Passcode 選項** > **自定 字母數字密碼**. 確認有創建一組[安全密碼](https://www.privacyguides.org/basics/passwords-overview/)。
 
 如果想使用 Face ID 或 Touch ID，可以立即進行設置。 您的手機將使用之前設置的密碼作為後備密碼，以防生物識別驗證失敗。 生物識別解鎖方法主要是便利，雖然它們確實可以阻止監控攝像頭或身旁的人看到您所輸入的密碼。
 
-如果使用生物識別技術，應該知道如何在緊急情況下快速關閉它們。 Holding down the side or power button and *either* volume button until you see the Slide to Power Off slider will disable biometrics, requiring your passcode to unlock. 設備重新啟動後還需要您的密碼。
+如果使用生物識別技術，應該知道如何在緊急情況下快速關閉它們。 按住側面按鈕或電源按鈕以及*任一*音量按鈕，直到看到滑動關閉滑塊為止，這將禁用生物識別功能，需要密碼才能解鎖。 設備重新啟動後還需要您的密碼。
 
 在某些較舊的設備上，可能需要按電源按鈕五次才能禁用生物識別功能，或者具有 Touch ID 的設備，可能只需按住電源按鈕即可。 請事先嘗試此操作，以便知道哪種方法適用您的設備。
 
-**Allow Access When Locked** gives you options for what you can allow when your phone is locked. The more of these options you disable, the less someone without your password can do, but the less convenient it will be for you. Pick and choose which of these you don't want someone to have access to if they get their hands on your phone.
+**鎖定時允許存取** 提供您在手機鎖定時可以允許的選項。 禁用的這些選項越多，沒有密碼者可做的事情就越少，但對您來說也就更不方便。 選擇不希望其他人接觸您的手機後訪問其中哪些內容。
 
-- [ ] Turn off **Today View and Search**
-- [ ] Turn off **Notification Center**
-- [ ] Turn off **Control Center**
-- [ ] Turn off **Lock Screen Widgets**
-- [ ] Turn off **Siri**
-- [ ] Turn off **Reply with Message**
-- [ ] Turn off **Home Control**
-- [ ] Turn off **Wallet**
-- [ ] Turn off **Return Missed Calls**
-- [ ] Turn off **USB Accessories**
+- [ ] 關閉 **今日檢視與搜尋**
+- [ ] 關閉 **通知中心**
+- [ ] 關閉**控制中心**
+- [ ] 關閉 **鎖定畫面小工具**
+- [] 關閉 **Siri**
+- [ ] 關閉 **以 Message 回覆**
+- [] 關閉 **共享家庭控制權**
+- [] 關閉 **錢包**
+- [ ] 關閉**回覆漏接來電**
+- [ ] 關閉 **USB 配件**
 
 iPhones are already resistant to brute-force attacks by making you wait long periods of time after multiple failed attempts; however, there have historically been exploits to get around this. To be extra safe, you can set your phone to wipe itself after 10 failed passcode attempts.
 
@@ -150,7 +150,7 @@ iPhones are already resistant to brute-force attacks by making you wait long per
 
 **Location Services** allows you to use features like Find My and Maps. If you don't need these features, you can disable Location Services. Alternatively, you can review and pick which apps can use your location here. Select **Location Services**:
 
-- [ ] Turn off **Location Services**
+- [ ] 關閉 **定位服務**
 
 You can decide to allow apps to request to **track** you here. Disabling this disallows all apps from tracking you with your phone's advertising ID. Select **Tracking**:
 
