@@ -158,27 +158,27 @@ You can decide to allow apps to request to **track** you here. Disabling this di
 
 You should turn off **Research Sensor & Usage Data** if you don't wish to participate in studies. Select **Research Sensor & Usage Data**:
 
-- [ ] Turn off **Sensor & Usage Data Collection**
+- [ ] 關閉 **感應器 & 使用資料收集**
 
-**Safety Check** allows you to quickly view and revoke certain people and apps that might have permission to access your data. Here you can perform an **Emergency Reset**, immediately resetting permissions for all people and apps which might have access to device resources, and you can **Manage Sharing & Access** which allows you to go through and customize who and what has access to your device and account resources.
+**安全檢查**可讓您快速查看和撤銷可能有權訪問您資料的某些人員和應用。 您可以在此執行**緊急重置**，立即重置可能有權訪問設備資源的所有人員和應用之權限，且** 管理共享& 訪問權限**允許您查看並自行決定有權訪問設備和帳戶資源的人員和內容。
 
-You should disable analytics if you don't wish to send Apple usage data. Select **Analytics & Improvements**:
+如不想發送 Apple 使用資料，應該禁用該分析。 選擇**分析& 改進**：
 
-- [ ] Turn off **Share iPhone Analytics** or **Share iPhone & Watch Analytics**
-- [ ] Turn off **Share iCloud Analytics**
-- [ ] Turn off **Improve Fitness+**
-- [ ] Turn off **Improve Safety**
-- [ ] Turn off **Improve Siri & Dictation**
+- [ ] 關閉**共享 iPhone Analytics** 或**共享 iPhone & 觀看分析**
+- [ ] 關閉 **分享 iCloud 數據分析**
+- [ ] 關閉 **改善 Fitness+**
+- [ ] 關閉 **安全改進**
+- [ ] 關閉 **改善 Siri & 偵測**
 
-Disable **Personalized Ads** if you don't want targeted ads. Select **Apple Advertising**
+關閉 **個人化廣告** 如不願加入針對式行銷。 選擇 **Apple 廣告**
 
-- [ ] Turn off **Personalized Ads**
+- [ ] 關閉 **個人化的廣告**
 
-**App Privacy Report** is a built-in tool that allows you to see which permissions your apps are using. Select **App Privacy Report**:
+**應用程序隱私報告**為內置工具，可讓您查看應用程式使用哪些權限。 選取 **App 隱私報告t**:
 
-- [x] Select **Turn On App Privacy Report**
+- [x] 選擇 **開啟 App 隱私報告**
 
-[Lockdown Mode](https://blog.privacyguides.org/2022/10/27/macos-ventura-privacy-security-updates/#lockdown-mode) is a security setting you can enable to make your phone more resistant to attacks. Be aware that certain apps and features [won't work](https://support.apple.com/en-us/HT212650) as they do normally.
+[Lockdown Mode](https://blog.privacyguides.org/2022/10/27/macos-ventura-privacy-security-updates/#lockdown-mode) is a security setting you can enable to make your phone more resistant to attacks. 請注意，某些應用和功能[將無法正常運作](https://support.apple.com/en-us/HT212650)。
 
 - [x] Select **Turn On Lockdown Mode**
 
@@ -188,13 +188,13 @@ Disable **Personalized Ads** if you don't want targeted ads. Select **Apple Adve
 
 通過電信運營商使用“電話”應用程式撥打的一般電話不是 E2EE。 Both FaceTime Video and FaceTime Audio calls are E2EE, or you can use [another app](../real-time-communication.md) like Signal.
 
-### Avoid Jailbreaking
+### 避免 iOS越獄
 
-Jailbreaking an iPhone undermines its security and makes you vulnerable. Running untrusted, third-party software could cause your device to be infected with malware.
+Jailbreaking an iPhone undermines its security and makes you vulnerable. 運行不可信任的第三方軟體可能會導致設備感染惡意軟體。
 
 ### 加密的 iMessage
 
-The color of the message bubble in the Messages app indicates whether your messages are E2EE or not. A blue bubble indicates that you're using iMessage with E2EE, while a green bubble indicates they're using the outdated SMS and MMS protocols. Currently, the only way to get E2EE in Messages is for both parties to be using iMessage on Apple devices.
+Messages 應用程式中訊息氣泡的顏色指示該訊息是否為 E2EE。 藍色氣泡表示您正將 iMessage 與 E2EE 結合使用，而綠色氣泡表示他們正在使用過時的 SMS 和 MMS 協議。 要在 Messages 中實現 E2EE ，目前唯一方法只有雙方都在 Apple 設備上使用 iMessage。
 
 If either you or your messaging partner have iCloud Backup enabled without Advanced Data Protection, the encryption key will be stored on Apple's servers, meaning they can access your messages. Additionally, iMessage's key exchange is not as secure as alternative implementations, like Signal (which allows you to view the recipients key and verify by QR code), so it shouldn't be relied on for particularly sensitive communications.
 
