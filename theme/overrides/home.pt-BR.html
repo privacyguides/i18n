@@ -23,7 +23,7 @@
 {% extends "main.html" %}
 {% block extrahead %}
   <link rel="stylesheet" href="{{ 'assets/stylesheets/home.css?v=3.3.0' | url }}">
-  <link rel="alternate" type="application/rss+xml" title="Lista de atualizações da versão do Privacy Guides" href="https://discuss.privacyguides.net/c/site-development/changelog/9.rss">
+  <link rel="alternate" type="application/rss+xml" title="Lista de atualizações de versão do Privacy Guides" href="https://discuss.privacyguides.net/c/site-development/changelog/9.rss">
   <link rel="alternate" type="application/rss+xml" title="Postagens do blog do Privacy Gudies" href="https://blog.privacyguides.org/feed_rss_created.xml">
   <link rel="alternate" type="application/rss+xml" title="Feed de stories do Privacy Guides" href="https://share.privacyguides.org/web-stories/feed/">
   <link rel="alternate" type="application/rss+xml" title="Últimos tópicos do fórum do Privacy Guides" href="https://discuss.privacyguides.net/latest.rss" />
@@ -38,7 +38,7 @@
         <div class="mdx-hero__content">
           <h1>O guia para restaurar sua privacidade online.</h1>
           <p>Grandes organizações estão monitorando suas atividades online. Privacy Guides é sua central de recursos no que diz respeito a privacidade e segurança para se proteger online.</p>
-          <a href="{% if config.extra.offline %}basics/why-privacy-matters.html{% else %}kb/{% endif %}" title="O primeiro passo da sua jornada de privacidade" class="md-button md-button--primary">
+          <a href="{% if config.extra.offline %}basics/why-privacy-matters.html{% else %}kb/{% endif %}" title="O primeiro passo na sua jornada de privacidade" class="md-button md-button--primary">
             Comece Sua Jornada de Privacidade
           </a>
           <a href="{% if config.extra.offline %}tools.html{% else %}tools/{% endif %}" title="Ferramentas, serviços e conhecimentos recomendados em matéria de privacidade" class="md-button">
