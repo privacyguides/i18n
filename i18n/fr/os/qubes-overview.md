@@ -39,7 +39,7 @@ Vous pouvez [copier et coller du texte](https://www.qubes-os.org/doc/how-to-copy
 
 ### Échange de fichiers
 
-Pour copier et coller des fichiers et des répertoires (dossiers) d'un *qube* à un autre, vous pouvez utiliser l'option **Copier vers une autre AppVM...** ou **Déplacer vers une autre AppVM...**. La différence est que l'option **Déplacer** supprime le fichier d'origine. L'une ou l'autre option protégera votre presse-papiers contre les fuites vers d'autres *qubes*. Cette méthode est plus sûre que le transfert de fichiers air-gap. Un ordinateur air-gap sera toujours obligé d'analyser les partitions ou les systèmes de fichiers. Cela n'est pas nécessaire avec le système de copie inter-qube.
+Pour copier et coller des fichiers et des répertoires (dossiers) d'un *qube* à un autre, vous pouvez utiliser l'option **Copier vers une autre AppVM...** ou **Déplacer vers une autre AppVM...**. La différence est que l'option **Déplacer** supprime le fichier d'origine. L'une ou l'autre option protégera votre presse-papiers contre les fuites vers d'autres *qubes*. Cette méthode est plus sûre que le transfert de fichiers air-gapped. Un ordinateur air-gapped sera toujours obligé d'analyser les partitions ou les systèmes de fichiers. Cela n'est pas nécessaire avec le système de copie inter-qube.
 
 ??? "Les Qubes n'ont pas leur propre système de fichiers."
 
