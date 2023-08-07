@@ -178,36 +178,36 @@ You should turn off **Research Sensor & Usage Data** if you don't wish to partic
 
 - [x] 選擇 **開啟 App 隱私報告**
 
-[Lockdown Mode](https://blog.privacyguides.org/2022/10/27/macos-ventura-privacy-security-updates/#lockdown-mode) is a security setting you can enable to make your phone more resistant to attacks. 請注意，某些應用和功能[將無法正常運作](https://support.apple.com/en-us/HT212650)。
+[封閉模式](https://blog.privacyguides.org/2022/10/27/macos-ventura-privacy-security-updates/#lockdown-mode)是可以啟用的安全設置使手機更能抵抗攻擊。 請注意，某些應用和功能[將無法正常運作](https://support.apple.com/en-us/HT212650)。
 
-- [x] Select **Turn On Lockdown Mode**
+- [x] 選擇 **打開封閉模式**
 
 ## 其它建議
 
 ### E2EE 通話
 
-通過電信運營商使用“電話”應用程式撥打的一般電話不是 E2EE。 Both FaceTime Video and FaceTime Audio calls are E2EE, or you can use [another app](../real-time-communication.md) like Signal.
+通過電信運營商使用“電話”應用程式撥打的一般電話不是 E2EE。 FaceTime 的影像語音通話都是 E2EE，或是也可使用 [其他應用](../real-time-communication.md)，例如 Signal。
 
 ### 避免 iOS越獄
 
-Jailbreaking an iPhone undermines its security and makes you vulnerable. 運行不可信任的第三方軟體可能會導致設備感染惡意軟體。
+iPhone 越獄會破壞其安全性更容易受到攻擊。 運行不可信任的第三方軟體可能會導致設備感染惡意軟體。
 
 ### 加密的 iMessage
 
 Messages 應用程式中訊息氣泡的顏色指示該訊息是否為 E2EE。 藍色氣泡表示您正將 iMessage 與 E2EE 結合使用，而綠色氣泡表示他們正在使用過時的 SMS 和 MMS 協議。 要在 Messages 中實現 E2EE ，目前唯一方法只有雙方都在 Apple 設備上使用 iMessage。
 
-If either you or your messaging partner have iCloud Backup enabled without Advanced Data Protection, the encryption key will be stored on Apple's servers, meaning they can access your messages. Additionally, iMessage's key exchange is not as secure as alternative implementations, like Signal (which allows you to view the recipients key and verify by QR code), so it shouldn't be relied on for particularly sensitive communications.
+如果您或您的訊息傳遞夥伴在沒有進階資料保護下啟用 iCloud 備份，則加密密鑰會存儲在 Apple 伺服器，這意味著他們可以訪問您的訊息。 此外，iMessage 的密鑰交換不如 Signal（它允許您查看收件人密鑰並通過 QR 碼進行驗證）等替代方案安全，因此不應依賴它進行敏感內容通訊。
 
-### Blacking Out Faces/Information
+### 塗黑臉孔/資訊
 
-If you need to hide information in a photo, you can use Apple's built-in tools to do so. Open the photo you want to edit, press edit in the top right corner of the screen, then press the markup symbol at the top right. Press the plus at the bottom right of the screen, then press the rectangle icon. Now, you can place a rectangle anywhere on the image. Make sure to press the shape icon at the bottom left and select the filled-in rectangle. **Don't** use the highlighter to obfuscate information, because its opacity is not quite 100%.
+如果想要隱藏照片資訊，可以使用 Apple 內置工具來完成。 打開要編輯的照片，按螢幕右上角的編輯，然後按右上角的標記符號。 按螢幕右下角的加號，然後按矩形圖標。 現在，可以在圖像的任何位置放置一個矩形。 確保按左下角的形狀圖標並選擇填充矩形。 **不要**使用亮光筆來混淆資訊，因為它的不透明度並非 100%。
 
 ### iOS Betas
 
-Apple always makes beta versions of iOS available early for those that wish to help find and report bugs. We don't recommend installing beta software on your phone. Beta releases are potentially unstable and could have undiscovered security vulnerabilities.
+Apple 會為那些希望幫助查找和報告錯誤的人先提供 iOS 測試版。 不建議在手機上安裝測試版軟體。 Beta 版本不夠穩定，可能存在未被發現的安全漏洞。
 
 ## 安全重點
 
-### Before First Unlock
+### Before First Unlock(初次解鎖之前)
 
-If your threat model includes forensic tools and you want to minimize the chance of exploits being used to access your phone, you should restart your device frequently. The state *after* a reboot but *before* unlocking your device is referred to as "Before First Unlock" (BFU), and when your device is in that state it makes it [significantly more difficult](https://belkasoft.com/checkm8_glossary) for forensic tools to exploit vulnerabilities to access your data. This BFU state allows you to receive notifications for calls, texts, and alarms, but most of the data on your device is still encrypted and inaccessible. This can be impractical, so consider whether these trade-offs make sense for your situation.
+如果您的威脅模型包含鑑識工具，且希望最大程度地減少他人利用漏洞訪問手機的可能性，則應經常重新啟動設備。 重啟後**解鎖設備**之前的狀態稱為“首次解鎖之前”(BFU) ，當設備處於該狀態時，取證鑑識工具[明顯更加困難](https://belkasoft.com/checkm8_glossary)利用漏洞訪問您的資料。 此 BFU 狀態允許您接收電話、簡訊和鬧鐘通知，但設備上的大部分資料為加密且無法訪問。 這可能不切實際，因此請考慮權衡這個作法對於自身情況是否有意義。
