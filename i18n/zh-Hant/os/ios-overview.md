@@ -105,7 +105,7 @@ Apple 產品的大多數隱私和安全問題與其雲服務有關，而不是�
 
 **背景 App 重新整理**可將應用程式在不使用時刷新其內容。 這可能會導致它們建立不必要的連接。 關閉此功能還可節省電池壽命，但可能會影響應用程式接收更新資訊的能力，特別是天氣和消息傳遞的應用。
 
-選擇 **背景 App 重新整理** 並切掉無需在背景下繼續刷新的應用。 If you don't want any apps to refresh in the background, you can select **Background App Refresh** again and turn it **Off**.
+選擇 **背景 App 重新整理** 並切掉無需在背景下繼續刷新的應用。 若不想讓任何 apps 在背景刷新，可再次選擇 **背景 App 重新整理** 並將其 **關閉**。
 
 #### Siri & 尋找
 
@@ -138,25 +138,25 @@ Apple 產品的大多數隱私和安全問題與其雲服務有關，而不是�
 - [ ] 關閉**回覆漏接來電**
 - [ ] 關閉 **USB 配件**
 
-iPhones are already resistant to brute-force attacks by making you wait long periods of time after multiple failed attempts; however, there have historically been exploits to get around this. To be extra safe, you can set your phone to wipe itself after 10 failed passcode attempts.
+iPhone 可以抵禦暴力攻擊，在多次嘗試失敗後，需要等待很長時間； 然而，過去已經有一些漏洞可以繞開這個問題。 為了更加安全，可將手機設置為在 10 次密碼嘗試錯誤後自行擦除。
 
 !!! warning "警告"
 
-    With this setting enabled, someone could intentionally wipe your phone by entering the wrong password many times. Make sure you have proper backups and only enable this setting if you feel comfortable with it.
+    啟用此設置後，別人可以通過多次輸入錯誤密碼來故意擦除您的手機。 確保有適當備份，並且僅在有把握的情況下才啟用此設置。
 
-- [x] Turn on **Erase Data**
+- [x] 打開 **清除資料**
 
 #### 隱私
 
-**Location Services** allows you to use features like Find My and Maps. If you don't need these features, you can disable Location Services. Alternatively, you can review and pick which apps can use your location here. Select **Location Services**:
+**定位服務**可用在“尋找”和“地圖”等功能。 如果不需要這些功能，可以禁用定位服務。 或者，可以在此處查看並選擇哪些應用程式可以使用您的位置資訊。 選擇 **位置服務**:
 
 - [ ] 關閉 **定位服務**
 
-You can decide to allow apps to request to **track** you here. Disabling this disallows all apps from tracking you with your phone's advertising ID. Select **Tracking**:
+您在此處決定是否讓 apps  **追蹤**活動。 關閉此功能可禁止所有應用程序利用手機的廣告 ID 進行跟踪。 選擇 **追蹤**:
 
-- [ ] Turn off **Allow Apps to Request to Track**
+- [ ] 關閉 **App 追蹤活動請求k**
 
-You should turn off **Research Sensor & Usage Data** if you don't wish to participate in studies. Select **Research Sensor & Usage Data**:
+如果不想加入，請關閉 **感應 & 使用資料研究** 。 選擇 **感應 & 使用資料研究**:
 
 - [ ] 關閉 **感應器 & 使用資料收集**
 

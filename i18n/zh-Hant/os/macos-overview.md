@@ -148,19 +148,19 @@ You open up your Terminal and enter this command to randomize your MAC address:
 openssl rand -hex 6 | sed 's/\(..\)/\1:/g; s/.$//' | xargs sudo ifconfig en1 ether 
 ```
 
-en1 is the name of the interface you're changing the MAC address for. This might not be the right one on every Mac, so to check you can hold the option key and click the Wi-Fi symbol at the top right of your screen.
+en1 is the name of the interface you're changing the MAC address for. 這可能並不適合每台 Mac，因此要進行檢查，可以按住 option 鍵並單擊螢幕右上角的 Wi-Fi 符號。
 
 這將在重新開機時重置。
 
 ## 安全保護
 
-macOS employs defense in depth by relying on multiple layers of software and hardware-based protections, with different properties. This ensures that a failure in one layer does not compromise the system's overall security.
+macOS 通過不同屬性的多層軟體和硬體保護來進行深度防禦。 這確保了某一層故障不會損害系統的整體安全性。
 
 ### 軟體安全
 
 !!! warning "警告"
 
-    macOS allows you to install beta updates. These are unstable and may come with extra telemetry since they're for testing purposes. Because of this, we recommend you avoid beta software in general.
+    macOS 可以安裝測試版更新。 但它們是不穩定的，可能帶有額外遙測，因為其用於測試目的。 Because of this, we recommend you avoid beta software in general.
 
 #### Signed System Volume
 
@@ -209,21 +209,21 @@ Apple's SoCs focus on minimizing attack surface by relegating security functions
 
 #### Boot ROM
 
-macOS prevents malware persistence by only allowing official Apple software to run at boot time; this is known as secure boot. Mac computers verify this with a bit of read-only memory on the SoC called the boot ROM, which is laid down during the manufacturing of the chip.
+macOS 通過僅允許官方 Apple 軟件在啟動時運行以防止惡意軟體持久存在； 此稱為安全開機。 Mac computers verify this with a bit of read-only memory on the SoC called the boot ROM, which is laid down during the manufacturing of the chip.
 
-The boot ROM forms the hardware root of trust. This ensures that malware cannot tamper with the boot process. When your Mac boots up, the boot ROM is the first thing that runs, forming the first link in the chain of trust.
+The boot ROM forms the hardware root of trust. 這確保惡意軟體無法篡改開機過程。 Mac 啟動時，開機 ROM 第一個運行，為信任鏈中的第一個環節。
 
-Mac computers can be configured to boot in three security modes: *Full Security*, *Reduced Security*, and *Permissive Security*, with the default setting being Full Security. You should ideally be using Full Security mode and avoid things like **kernel extensions** that force you to lower your security mode. Make sure to [check](https://support.apple.com/guide/mac-help/change-security-settings-startup-disk-a-mac-mchl768f7291/mac) that you're using Full Security mode.
+Mac 電腦有三種安全模式啟動：*完全安全*、*降低安全性*和*許可安全*，預設的設置為完全安全。 理想情況下，您應該使用完全安全模式，並避免諸如**內核擴展**而迫使降低安全模式。 請務必[檢查](https://support.apple.com/guide/mac-help/change-security-settings-startup-disk-a-mac-mchl768f7291/mac)使用的是完全安全模式。
 
 #### Secure Enclave
 
-The Secure Enclave is a security chip built into devices with Apple silicon which is responsible for storing and generating encryption keys for data at rest as well as Face ID and Touch ID data. It contains its own separate boot ROM.
+安全隔離區是內置於 Apple silicon 設備的安全晶片，負責存儲和生成靜態資料以及 Face ID 和 Touch ID 資料的加密密鑰。 它包含自己獨立的開機 ROM。
 
-You can think of the Secure Enclave as your device's security hub: it has an AES encryption engine and a mechanism to securely store your encryption keys, and it's separated from the rest of the system, so even if the main processor is compromised, it should still be safe.
+您可以將安全隔離區想成設備的安全中心：它具有 AES 加密引擎和安全存儲加密密鑰機制，它與系統的其餘部分分開，因此即使主處理器受到損害，也仍然保持安全。
 
 #### Touch ID
 
-Apple's Touch ID feature allows you to securely unlock your devices using biometrics.
+Apple Touch ID 功能可使用生物識別技術安全地解鎖設備。
 
 Your biometric data never leaves your device; it's stored only in the Secure Enclave.
 
