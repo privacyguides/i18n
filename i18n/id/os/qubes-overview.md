@@ -35,7 +35,7 @@ Anda dapat [menyalin dan menempelkan teks](https://www.qubes-os.org/doc/how-to-c
 1. Tekan **Ctrl+C** untuk memberi tahu *qube* yang Anda masuki bahwa Anda ingin menyalin sesuatu.
 2. Tekan **Ctrl+Shift+C** untuk memberi tahu qube ** agar buffer ini tersedia di papan klip global.
 3. Tekan **Ctrl+Shift+V** di tujuan *qube* untuk membuat papan klip global tersedia.
-4. Press **Ctrl+V** in the destination *qube* to paste the contents in the buffer.
+4. Tekan **Ctrl+V** di *qube* yang dituju untuk menempelkan konten di buffer.
 
 ### Pertukaran File
 
