@@ -283,8 +283,8 @@ Brave כולל כמה אמצעים נגד טביעת אצבע בתכונת [Shie
 
 תכונות ה-Web3 של Brave עשויות להוסיף לטביעת האצבע של הדפדפן ולשטח ההתקפה שלך. אלא אם אתה משתמש באחת מהתכונות, יש להשבית אותן.
 
-- Select **Extensions (no fallback)** under Default Ethereum wallet and Default Solana wallet
-- Set **Method to resolve IPFS resources** to **Disabled**
+- בחר **הרחבות (ללא נפילה)** תחת ארנק Ethereum ברירת מחדל וארנק Solana ברירת מחדל
+- הגדר את **שיטה לפתרון משאבי IPFS** ל**מושבת**
 
 ##### מערכת
 

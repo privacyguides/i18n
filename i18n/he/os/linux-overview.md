@@ -10,33 +10,33 @@ description: לינוקס היא חלופה למערכת הפעלה שולחני
 
 [המלצות לינוקס שלנו :material-arrow-right-drop-circle:](../desktop.md ""){.md-button}
 
-## Privacy Notes
+## הערות פרטיות
 
-There are some notable privacy concerns with Linux which you should be aware of. Despite these drawbacks, desktop Linux distributions are still great for most people who want to:
+יש כמה חששות בולטים של פרטיות עם לינוקס שכדאי להיות מודעים אליהם. למרות החסרונות הללו, הפצות לינוקס לשולחן העבודה עדיין נהדרות עבור רוב האנשים שרוצים:
 
 - הימנע מטלמטריה שמגיעה לרוב עם מערכות הפעלה קנייניות
 - לשמור על [חופש תוכנה](https://www.gnu.org/philosophy/free-sw.en.html#four-freedoms)
-- Use privacy focused systems such as [Whonix](https://www.whonix.org) or [Tails](https://tails.boum.org/)
+- השתמש במערכות ממוקדות פרטיות כגון [Whonix](https://www.whonix.org) או [Tails](https://tails.boum.org/)
 
-### Open Source Security
+### אבטחת קוד פתוח
 
-It is a [common misconception](../basics/common-misconceptions.md#open-source-software-is-always-secure-or-proprietary-software-is-more-secure) that Linux and other open-source software is inherently secure simply because the source code is available. There is an expectation that community verification occurs regularly, but this isn’t always [the case](https://seirdy.one/posts/2022/02/02/floss-security/).
+זוהי [תפיסה שגויה נפוצה](../basics/common-misconceptions.md#open-source-software-is-always-secure-or-proprietary-software-is-more-secure) שלינוקס ותוכנות קוד פתוח אחרות מאובטחות מטבען פשוט בגלל שקוד המקור זמין. יש ציפייה שאימות קהילה מתרחש באופן קבוע, אבל זה לא תמיד [המקרה](https://seirdy.one/posts/2022/02/02/floss-security/).
 
-In reality, distro security depends on a number of factors, such as project activity, developer experience, the level of rigor applied to code reviews, and how often attention is given to specific parts of the codebase that may go untouched for years.
+במציאות, אבטחת הפצה תלויה במספר גורמים, כגון פעילות הפרויקט, חווית מפתח, רמת הקפדנות המופעלת על ביקורות קוד, וכמה פעמים ניתנת תשומת לב לחלקים ספציפיים של בסיס הקוד שעלולים להישאר ללא נגיעה במשך שנים.
 
-### Missing Security Features
+### תכונות אבטחה חסרות
 
-At the moment, desktop Linux [falls behind alternatives](https://discussion.fedoraproject.org/t/fedora-strategy-2028-proposal-fedora-linux-is-as-secure-as-macos/46899/9) like macOS or Android when it comes to certain security features. We hope to see improvements in these areas in the future.
+כרגע, Linux [ נופל מאחורי חלופות](https://discussion.fedoraproject.org/t/fedora-strategy-2028-proposal-fedora-linux-is-as-secure-as-macos/46899/9) כמו macOS או Android כשמדובר בתכונות אבטחה מסוימות. אנו מקווים לראות שיפורים בתחומים אלו בעתיד.
 
-- **Verified boot** on Linux is not as robust as alternatives such as Apple’s [Secure Boot](https://support.apple.com/guide/security/secac71d5623/web) or Android’s [Verified Boot](https://source.android.com/security/verifiedboot). Verified boot prevents persistent tampering by malware and [evil maid attacks](https://en.wikipedia.org/wiki/Evil_Maid_attack), but is still largely [unavailable on even the most advanced distributions](https://discussion.fedoraproject.org/t/has-silverblue-achieved-verified-boot/27251/3).
+- **אתחול מאומת** בלינוקס אינו חזק כמו חלופות כגון [אתחול מאובטח של אפל](https://support.apple.com/guide/security/secac71d5623/web) או [אתחול מאומת](https://source.android.com/security/verifiedboot) של אנדרואיד. אתחול מאומת מונע התעסקות מתמשכת על ידי תוכנות זדוניות ו[התקפות עוזרות מרושעות](https://en.wikipedia.org/wiki/Evil_Maid_attack), אך הוא עדיין ברובו [לא זמין אפילו בהפצות המתקדמות ביותר](https://discussion.fedoraproject.org/t/has-silverblue-achieved-verified-boot/27251/3).
 
-- **Strong sandboxing** for apps on Linux is severely lacking, even with containerized apps like Flatpaks or sandboxing solutions like Firejail. Flatpak is the most promising sandboxing utility for Linux thus far, but is still deficient in many areas and allows for [unsafe defaults](https://flatkill.org/2020/) which allow most apps to trivially bypass their sandbox.
+- **ארגז חול חזק** עבור אפליקציות בלינוקס חסר מאוד, אפילו עם אפליקציות מכולות כמו Flatpaks או פתרונות ארגז חול כמו Firejail. Flatpak היא כלי השירות המבטיח ביותר לארגזי חול עבור לינוקס עד כה, אך עדיין חסרה בתחומים רבים ומאפשרת [ברירות מחדל לא בטוחות](https://flatkill.org/2020/) המאפשרות לרוב האפליקציות לעקוף באופן טריוויאלי את ארגז החול שלהם.
 
-Additionally, Linux falls behind in implementing [exploit mitigations](https://madaidans-insecurities.github.io/linux.html#exploit-mitigations) which are now standard on other operating systems, such as Arbitrary Code Guard on Windows or Hardened Runtime on macOS. Also, most Linux programs and Linux itself are coded in memory-unsafe languages. Memory corruption bugs are responsible for the [majority of vulnerabilities](https://msrc.microsoft.com/blog/2019/07/a-proactive-approach-to-more-secure-code/) fixed and assigned a CVE. While this is also true for Windows and macOS, they are quickly making progress on adopting memory-safe languages—such as Rust and Swift, respectively—while there is no similar effort to rewrite Linux in a memory-safe language like Rust.
+בנוסף, לינוקס מפגרת בהטמעת [הפחתות ניצול](https://madaidans-insecurities.github.io/linux.html#exploit-mitigations) אשר כעת סטנדרטיות במערכות הפעלה אחרות, כגון Code Guard שרירותי ב-Windows או Hardened Runtime ב-macOS. כמו כן, רוב תוכניות הלינוקס ולינוקס עצמה מקודדות בשפות שאינן בטוחות בזיכרון. באגים של שחיתות זיכרון אחראים ל[רוב הפגיעויות](https://msrc.microsoft.com/blog/2019/07/a-proactive-approach-to-more-secure-code/) תיקנו והוקצו CVE. למרות שזה נכון גם עבור Windows ו-macOS, הם מתקדמים במהירות באימוץ שפות בטוחות לזיכרון - כמו Rust ו- Swift, בהתאמה - בעוד שאין מאמץ דומה לשכתב את לינוקס בשפה בטוחה לזיכרון כמו Rust.
 
 ## בחירת ההפצה שלך
 
-לא כל ההפצות של לינוקס נוצרו שוות. Our [Linux recommendation page](../desktop.md) is not meant to be an authoritative source on which distribution you should use, but our recommendations *are* aligned with the following guidelines. These are a few things you should keep in mind when choosing a distribution:
+לא כל ההפצות של לינוקס נוצרו שוות. [דף ההמלצות שלנו ללינוקס](../desktop.md) לא נועד להיות מקור סמכותי באיזו הפצה כדאי להשתמש, אבל ההמלצות שלנו *הן * בהתאם להנחיות הבאות. אלה כמה דברים שכדאי לזכור בעת בחירת הפצה:
 
 ### מחזור שחרור
 
@@ -66,28 +66,28 @@ Additionally, Linux falls behind in implementing [exploit mitigations](https://m
 
 ### הפצות "ממוקדות אבטחה"
 
-לעתים קרובות קיים בלבול מסוים בין הפצות "ממוקדות אבטחה" והפצות "לבדיקת חדירות". A quick search for “the most secure Linux distribution” will often give results like Kali Linux, Black Arch, or Parrot OS. הפצות אלו הן הפצות בדיקות חדירה פוגעניות המאגדות כלים לבדיקת מערכות אחרות. הם אינם כוללים "אבטחה נוספת" או הקלות הגנתיות המיועדות לשימוש קבוע.
+לעתים קרובות קיים בלבול מסוים בין הפצות "ממוקדות אבטחה" והפצות "לבדיקת חדירות". חיפוש מהיר של "הפצת לינוקס המאובטחת ביותר" ייתן לרוב תוצאות כמו Kali Linux, Black Arch או Parrot OS. הפצות אלו הן הפצות בדיקות חדירה פוגעניות המאגדות כלים לבדיקת מערכות אחרות. הם אינם כוללים "אבטחה נוספת" או הקלות הגנתיות המיועדות לשימוש קבוע.
 
 ### הפצות מבוססות Arch
 
-Arch and Arch-based distributions are not recommended for those new to Linux (regardless of distribution) as they require regular [system maintenance](https://wiki.archlinux.org/title/System_maintenance). Arch does not have a distribution update mechanism for the underlying software choices. כתוצאה מכך, עליך להישאר מודע למגמות הנוכחיות ולאמץ טכנולוגיות מכיוון שהן מחליפות שיטות ישנות בעצמך.
+הפצות מבוססות Arch ו-Arch אינן מומלצות למשתמשים חדשים ב-Linux (ללא קשר להפצה) מכיוון שהן דורשות [תחזוקת מערכת](https://wiki.archlinux.org/title/System_maintenance) רגילה. ל- Arch אין מנגנון עדכון הפצה עבור אפשרויות התוכנה הבסיסיות. כתוצאה מכך, עליך להישאר מודע למגמות הנוכחיות ולאמץ טכנולוגיות מכיוון שהן מחליפות שיטות ישנות בעצמך.
 
 עבור מערכת מאובטחת, מצפים ממך גם שיהיה לך מספיק ידע בלינוקס כדי להגדיר כראוי אבטחה עבור המערכת שלהם, כגון אימוץ מערכת [בקרת כניסה חובה](https://en.wikipedia.org/wiki/Mandatory_access_control), הגדרת רשימות שחורות של [מודול ליבה](https://en.wikipedia.org/wiki/Loadable_kernel_module#Security) רשימות שחורות, הקשחת פרמטרי אתחול, מניפולציה של [סיסקטל](https://en.wikipedia.org/wiki/Sysctl) פרמטרים, ולדעת אילו רכיבים הם צריכים כמו [Polkit](https://en.wikipedia.org/wiki/Polkit).
 
-Anyone using the [Arch User Repository (AUR)](https://wiki.archlinux.org/title/Arch_User_Repository) **must** be comfortable auditing PKGBUILDs that they download from that service. חבילות AUR הן תוכן המיוצר בקהילה ואינן נבדקות בשום צורה, ולכן הן פגיעות להתקפות שרשרת אספקת תוכנה, [מה שקרה למעשה](https://www.bleepingcomputer.com/news/security/malware-found-in-arch-linux-aur-package-repository/).
+כל מי שמשתמש ב[Arch User Repository (AUR)](https://wiki.archlinux.org/title/Arch_User_Repository) **חייב** להרגיש בנוח ביקורת PKGBUILD שהם מורידים מהשירות הזה. חבילות AUR הן תוכן המיוצר בקהילה ואינן נבדקות בשום צורה, ולכן הן פגיעות להתקפות שרשרת אספקת תוכנה, [מה שקרה למעשה](https://www.bleepingcomputer.com/news/security/malware-found-in-arch-linux-aur-package-repository/).
 
-The AUR should always be used sparingly, and often there is a lot of bad advice on various pages which direct people to blindly use [AUR helpers](https://wiki.archlinux.org/title/AUR_helpers) without sufficient warning. אזהרות דומות חלות על שימוש בארכיון חבילות אישיות של צד שלישי (PPA) בהפצות מבוססות דביאן או בפרויקטים קהילתיים (COPR) בפדורה.
+תמיד יש להשתמש ב-AUR במשורה, ולעתים קרובות יש הרבה עצות רעות בדפים שונים שמפנים אנשים להשתמש באופן עיוור ב[עוזרים של AUR](https://wiki.archlinux.org/title/AUR_helpers) ללא אזהרה מספקת. אזהרות דומות חלות על שימוש בארכיון חבילות אישיות של צד שלישי (PPA) בהפצות מבוססות דביאן או בפרויקטים קהילתיים (COPR) בפדורה.
 
-If you are experienced with Linux and wish to use an Arch-based distribution, we generally recommend mainline Arch Linux over any of its derivatives.
+אם אתה מנוסה עם לינוקס וברצונך להשתמש בהפצה מבוססת Arch, אנו ממליצים בדרך כלל על Arch Linux על פני כל אחת מהנגזרות שלו.
 
-Additionally, we recommend **against** these two Arch derivatives specifically:
+בנוסף, אנו ממליצים על **נגד** שתי נגזרות Arch אלו במיוחד:
 
 - **Manjaro**: הפצה זו מעכבת חבילות למשך שבועיים כדי לוודא שהשינויים שלהן לא יישברו, לא כדי לוודא שהמעלה הזרם יציב. כאשר נעשה שימוש בחבילות AUR, הן בנויות לרוב על פי [ספריות](https://en.wikipedia.org/wiki/Library_(computing)) העדכניות ביותר מהמאגרים של Arch.
 - **Garuda**: הם משתמשים ב[Chaotic-AUR](https://aur.chaotic.cx/) אשר מרכיב באופן אוטומטי ועיוור חבילות מה- AUR. אין תהליך אימות כדי לוודא שחבילות AUR אינן סובלות מהתקפות שרשרת האספקה.
 
 ### הפצות ליבה של לינוקס ו-"Libre"
 
-We recommend **against** using the Linux-libre kernel, since it [removes security mitigations](https://www.phoronix.com/news/GNU-Linux-Libre-5.7-Released) and [suppresses kernel warnings](https://news.ycombinator.com/item?id=29674846) about vulnerable microcode.
+אנו ממליצים **נגד** להשתמש בליבת Linux-libre, מכיוון שהיא [מסירה אמצעי אבטחה](https://www.phoronix.com/news/GNU-Linux-Libre-5.7-Released) ו[מדכא אזהרות ליבה](https://news.ycombinator.com/item?id=29674846) לגבי מיקרוקוד פגיע.
 
 ## המלצות כלליות
 
@@ -99,13 +99,13 @@ We recommend **against** using the Linux-libre kernel, since it [removes securit
 
 ### החלף
 
-Consider using [ZRAM](https://wiki.archlinux.org/title/Zram#Using_zram-generator) instead of a traditional swap file or partition to avoid writing potentially sensitive memory data to persistent storage (and improve performance). Fedora-based distributions [use ZRAM by default](https://fedoraproject.org/wiki/Changes/SwapOnZRAM).
+שקול להשתמש ב-[ZRAM](https://wiki.archlinux.org/title/Zram#Using_zram-generator) במקום קובץ החלפה או מחיצה מסורתיים כדי להימנע מכתיבת נתוני זיכרון שעלולים להיות רגישים לאחסון מתמשך ( ולשפר ביצועים). הפצות מבוססות פדורה [משתמשות ב-ZRAM כברירת מחדל](https://fedoraproject.org/wiki/Changes/SwapOnZRAM).
 
-If you require suspend-to-disk (hibernation) functionality, you will still need to use a traditional swap file or partition. Make sure that any swap space you do have on a persistent storage device is [encrypted](https://wiki.archlinux.org/title/Dm-crypt/Swap_encryption) at a minimum to mitigate some of these threats.
+אם אתה זקוק לפונקציונליות של השהייה לדיסק (תרדמה), עדיין תצטרך להשתמש בקובץ החלפה או מחיצה מסורתיים. ודא שכל שטח החלפה שיש לך בהתקן אחסון קבוע [מוצפן](https://wiki.archlinux.org/title/Dm-crypt/Swap_encryption) לכל הפחות כדי להפחית חלק מהאיומים הללו.
 
 ### Wayland
 
-We recommend using a desktop environment that supports the [Wayland](https://en.wikipedia.org/wiki/Wayland_(display_server_protocol)) display protocol, as it was developed with security [in mind](https://lwn.net/Articles/589147/). Its predecessor ([X11](https://en.wikipedia.org/wiki/X_Window_System)) does not support GUI isolation, which allows any window to [record, log, and inject inputs in other windows](https://blog.invisiblethings.org/2011/04/23/linux-security-circus-on-gui-isolation.html), making any attempt at sandboxing futile. While there are options to do nested X11 such as [Xpra](https://en.wikipedia.org/wiki/Xpra) or [Xephyr](https://en.wikipedia.org/wiki/Xephyr), they often come with negative performance consequences, and are neither convenient to set up nor preferable over Wayland.
+אנו ממליצים להשתמש בסביבת שולחן עבודה התומכת בפרוטוקול התצוגה [Wayland](https://en.wikipedia.org/wiki/Wayland_(display_server_protocol)), שכן הוא פותח עם האבטחה [לזכור](https://lwn.net/Articles/589147/). קודמו ([X11](https://en.wikipedia.org/wiki/X_Window_System)) אינו תומך בבידוד GUI, המאפשר לכל חלון [תיעדו, רשמו והזריקו קלט בחלונות אחרים](https://blog.invisiblethings.org/2011/04/23/linux-security-circus-on-gui-isolation.html), מה שהופך כל ניסיון לארגז חול חסר תועלת. אמנם יש אפשרויות לעשות X11 מקונן כגון [Xpra](https://en.wikipedia.org/wiki/Xpra) או [Xephyr](https://en.wikipedia.org/wiki/Xephyr), לעתים קרובות הם מגיעים עם השלכות ביצועים שליליות, ואינם נוחים להגדרה ואינם עדיפים על פני Wayland.
 
 למרבה המזל, סביבות נפוצות כגון [GNOME](https://www.gnome.org), [KDE](https://kde.org) וה- למנהל החלונות [Sway](https://swaywm.org) יש תמיכה ב-Wayland. חלק מההפצות כמו Fedora ו- Tumbleweed משתמשות בו כברירת מחדל, וחלק אחרות עשויות לעשות זאת בעתיד מכיוון ש-X11 נמצא ב[מצב תחזוקה קשה](https://www.phoronix.com/news/X.Org-Maintenance-Mode-Quickly). אם אתה משתמש באחת מהסביבות האלה זה קל כמו לבחור את הפגישה "Wayland" במנהל התצוגה של שולחן העבודה ([GDM](https://en.wikipedia.org/wiki/GNOME_Display_Manager), [SDDM](https://en.wikipedia.org/wiki/Simple_Desktop_Display_Manager)).
 

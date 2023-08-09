@@ -30,184 +30,184 @@ description: iOS היא מערכת הפעלה ניידת שפותחה על יד�
 
 ### iCloud
 
-רוב דאגות הפרטיות והאבטחה של מוצרי Apple קשורות לשירותי הענן שלהם, לא לחומרה או לתוכנה שלהם. כאשר אתה משתמש בשירותי אפל כמו iCloud, רוב המידע שלך מאוחסן בשרתים שלהם ומאובטח באמצעות מפתחות שאליהם יש לאפל גישה כברירת מחדל. You can check [Apple's documentation](https://support.apple.com/HT202303) for information on which services are end-to-end encrypted. כל דבר המופיע כ"מעבר "או" בשרת "פירושו שאפל ניתן לגשת לנתונים אלה ללא רשותך. מדי פעם נוצלה רמת גישה זו על ידי אכיפת החוק כדי לעקוף את העובדה שהנתונים שלך מוצפנים באופן מאובטח במכשיר שלך, וכמובן שאפל חשופה להפרות נתונים כמו כל חברה אחרת.
+רוב דאגות הפרטיות והאבטחה של מוצרי Apple קשורות לשירותי הענן שלהם, לא לחומרה או לתוכנה שלהם. כאשר אתה משתמש בשירותי אפל כמו iCloud, רוב המידע שלך מאוחסן בשרתים שלהם ומאובטח באמצעות מפתחות שאליהם יש לאפל גישה כברירת מחדל. תוכל לעיין ב[תיעוד של אפל](https://support.apple.com/HT202303) לקבלת מידע על השירותים המוצפנים מקצה לקצה. כל דבר המופיע כ"מעבר "או" בשרת "פירושו שאפל ניתן לגשת לנתונים אלה ללא רשותך. מדי פעם נוצלה רמת גישה זו על ידי אכיפת החוק כדי לעקוף את העובדה שהנתונים שלך מוצפנים באופן מאובטח במכשיר שלך, וכמובן שאפל חשופה להפרות נתונים כמו כל חברה אחרת.
 
 לכן, אם אתה משתמש ב- iCloud עליך ל [ אפשר ** הגנה על נתונים מתקדמת ** ](https://support.apple.com/ht212520). זה מצפן כמעט את כל נתוני ה- iCloud שלך עם מפתחות המאוחסנים במכשירים שלך (הצפנה מקצה לקצה), ולא בשרתים של אפל, כך שנתוני ה- iCloud שלך יאובטחו במקרה של הפרת נתונים, ובאופן אחר מוסתר מאפל.
 
-The encryption used by Advanced Data Protection, while strong, [is not *quite* as robust](https://discuss.privacyguides.net/t/apple-advances-user-security-with-powerful-new-data-protections/10778/4) as the encryption offered by other [cloud services](../cloud.md), particularly when it comes to iCloud Drive. While we strongly encourage using Advanced Data Protection if you use iCloud, we would also suggest considering finding an alternative to iCloud from a more [privacy-focused service provider](../tools.md), although it is unlikely most people would be impacted by these encryption quirks.
+ההצפנה המשמשת את הגנת הנתונים המתקדמת, למרות שהיא חזקה, [אינה *ממש* חזקה](https://discuss.privacyguides.net/t/apple-advances-user-security-with-powerful-new-data-protections/10778/4) כמו ההצפנה המוצעת על ידי [שירותי ענן](../cloud.md) אחרים, במיוחד כשמדובר ב-iCloud Drive. למרות שאנו ממליצים בחום להשתמש בהגנה על נתונים מתקדמת אם אתה משתמש ב-iCloud, אנו מציעים גם לשקול למצוא חלופה ל-iCloud מ[ספק שירות ממוקד יותר בפרטיות](../tools.md), אם כי לא סביר שרוב האנשים יושפעו ממוזרויות ההצפנה הללו.
 
-You can also protect your data by limiting what you sync to iCloud in the first place. At the top of the **Settings** app, you'll see your name and profile picture if you are signed in to iCloud. Select that, then **iCloud**, and turn off the switches for any services you don't want to sync to iCloud. You may see third-party apps listed under **Show All** if they sync to iCloud, which you can disable here.
+אתה יכול גם להגן על הנתונים שלך על ידי הגבלת מה שאתה מסנכרן עם iCloud מלכתחילה. בחלק העליון של האפליקציה **הגדרות**, תראה את שמך ותמונת הפרופיל שלך אם אתה מחובר ל-iCloud. בחר את זה, ולאחר מכן **iCloud**, וכבה את המתגים עבור כל השירותים שאתה לא רוצה לסנכרן עם iCloud. ייתכן שתראה יישומי צד שלישי ברשימה תחת **הצג הכל**אם הם מסתנכרנים עם iCloud, אותו תוכל להשבית כאן.
 
 #### iCloud+
 
-A paid **iCloud+** subscription (with any iCloud storage plan) comes with some privacy-protecting functionality. While these may provide adequate service for current iCloud customers, we wouldn't recommend purchasing an iCloud+ plan over a [VPN](../vpn.md) and [standalone email aliasing service](../email.md#email-aliasing-services) just for these features alone.
+מנוי **iCloud+** בתשלום (עם כל תוכנית אחסון של iCloud) מגיע עם פונקציונליות מסוימת להגנה על הפרטיות. למרות שאלו עשויים לספק שירות הולם ללקוחות iCloud הנוכחיים, לא היינו ממליצים לרכוש תוכנית iCloud+ באמצעות [VPN](../vpn.md) ו-[שירות כינוי אימייל עצמאי](../email.md#email-aliasing-services) רק עבור תכונות אלו בלבד.
 
-**Private Relay** is a proxy service which relays your Safari traffic through two servers: one owned by Apple and one owned by a third-party provider (including Akamai, Cloudflare, and Fastly). In theory this should prevent any single provider in the chain—including Apple—from having full visibility into which websites you visit while connected. Unlike a full VPN, Private Relay does not protect traffic from your apps outside of Safari.
+**ממסר פרטי** הוא שירות פרוקסי המעביר את תעבורת הספארי שלך דרך שני שרתים: אחד בבעלות אפל ואחד בבעלות ספק צד שלישי (כולל Akamai, Cloudflare ו-Fastly). בתיאוריה זה אמור למנוע מכל ספק בודד בשרשרת - כולל אפל - לקבל ראות מלאה באילו אתרים אתה מבקר בזמן שאתה מחובר. בניגוד ל-VPN מלא, Private Relay אינו מגן על תעבורה מהאפליקציות שלך מחוץ ל-Safari.
 
-**Hide My Email** is Apple's email aliasing service. You can create an email aliases for free when you *Sign In With Apple* on a website or app, or generate unlimited aliases on demand with a paid iCloud+ plan. Hide My Email has the advantage of using the `@icloud.com` domain for its aliases, which may be less likely to be blocked compared to other email aliasing services, but does not offer functionality offered by standalone services such as automatic PGP encryption or multiple mailbox support.
+**הסתר את האימייל שלי** הוא שירות כינוי האימייל של אפל. אתה יכול ליצור כינוי אימייל בחינם כשאתה *נכנס עם Apple* באתר או באפליקציה, או יוצר כינויים ללא הגבלה לפי דרישה עם תוכנית iCloud+ בתשלום. Hide My Email יש את היתרון בשימוש בדומיין `@icloud.com` עבור הכינויים שלו, אשר עשוי להיות פחות סביר שייחסם בהשוואה לשירותי כינוי דוא"ל אחרים, אך אינו מציע פונקציונליות המוצעת על ידי שירותים עצמאיים כגון כהצפנת PGP אוטומטית או תמיכה במספר תיבות דואר.
 
-#### Media & Purchases
+#### מדיה & רכישות
 
-At the top of the **Settings** app, you'll see your name and profile picture if you are signed in to an Apple ID. Select that, then select **Media & Purchases** > **View Account**.
+בחלק העליון של האפליקציה **הגדרות**, תראה את שמך ותמונת הפרופיל שלך אם אתה מחובר ל-Apple ID. בחר באפשרות זו, ולאחר מכן בחר **מדיה & רכישות** > **הצג חשבון**.
 
-- [ ] Turn off **Personalized Recommendations**
+- [ ] כבה **המלצות מותאמות אישית**
 
-#### Find My
+#### מצא את שלי - Find My
 
-**Find My** is a service that lets you track your Apple devices and share your location with your friends and family. It also allows you to wipe your device remotely in case it is stolen, preventing a thief from accessing your data. Your Find My [location data is E2EE](https://www.apple.com/legal/privacy/data/en/find-my/) when:
+**Find My** הוא שירות המאפשר לך לעקוב אחר מכשירי ה אפל שלך ולשתף את המיקום שלך עם חברים ובני משפחה. הוא גם מאפשר לך למחוק את המכשיר שלך מרחוק במקרה שהוא נגנב, ומונע מגנב לגשת לנתונים שלך. ה Find My שלך [נתוני המיקום הם E2EE](https://www.apple.com/legal/privacy/data/en/find-my/) כאשר:
 
-- Your location is shared with a family member or friend, and you both use iOS 15 or greater.
-- Your device is offline and is located by the Find My Network.
+- המיקום משותף עם בן משפחה או חבר, ושניכם משתמשים ב - iOS 15 או יותר.
+- המכשיר שלך לא מחובר וממוקם על ידי 'מצא את הרשת שלי '.
 
-Your location data is not E2EE when your device is online and you use Find My iPhone remotely to locate your device. You will have to make the decision whether these trade-offs are worth the anti-theft benefits of Activation Lock.
+נתוני המיקום שלך אינם E2EE כאשר המכשיר שלך מחובר ואתה משתמש ב - Find My iPhone מרחוק כדי לאתר את המכשיר שלך. תצטרך לקבל את ההחלטה אם תמורות אלה שוות את היתרונות נגד גניבה של נעילת הפעלה.
 
-At the top of the **Settings** app, you'll see your name and profile picture if you are signed in to an Apple ID. Select that, then select **Find My**. Here you can choose whether to enable or disable Find My location features.
+בחלק העליון של האפליקציה **הגדרות**, תראה את שמך ותמונת הפרופיל שלך אם אתה מחובר ל-Apple ID. בחר באפשרות זו, ולאחר מכן בחר **איתור**. כאן באפשרותך לבחור אם להפעיל או להשבית את תכונות המיקום שלי.
 
 ### הגדרות
 
-Many other privacy-related settings can be found in the **Settings** app.
+ניתן למצוא הגדרות רבות אחרות הקשורות לפרטיות באפליקציית **הגדרות**.
 
-#### Airplane Mode
+#### מצב טיסה
 
-Enabling **Airplane Mode** stops your phone from contacting cell towers. You will still be able to connect to Wi-Fi and Bluetooth, so whenever you are connected to Wi-Fi you can turn this setting on.
+הפעלת **מצב טיסה** מונעת מהטלפון ליצור קשר עם אנטנות סלולריות. עדיין תוכלו להתחבר ל - Wi - Fi ול - Bluetooth, כך שבכל פעם שאתם מחוברים ל - Wi - Fi תוכלו להפעיל הגדרה זו.
 
-#### Wi-Fi
+#### רשת אלחוטית
 
-You can enable hardware address randomization to protect you from tracking across Wi-Fi networks. On the network you are currently connected to, press the :material-information: button:
+באפשרותך לאפשר הקצאה אקראית של כתובות חומרה כדי להגן עליך ממעקב אחר רשתות Wi - Fi. ברשת שאליה אתה מחובר כעת, לחץ על לחצן :material-information: :
 
-- [x] Turn on **Private Wi-Fi Address**
+- [x] הפעל את **כתובת Wi-Fi פרטית**
 
-You also have the option to **Limit IP Address Tracking**. This is similar to iCloud Private Relay but only affects connections to "known trackers." Because it only affects connections to potentially malicious servers, this setting is probably fine to leave enabled, but if you don't want *any* traffic to be routed through Apple's servers, you should turn it off.
+יש לך גם אפשרות **להגביל מעקב אחר כתובות IP**. זה דומה ל - iCloud Private Relay אבל משפיע רק על חיבורים ל"מעקבים ידועים." מכיוון שהיא משפיעה רק על חיבורים לשרתים שעלולים להיות זדוניים, סביר להניח שהגדרה זו תשאיר אותה מופעלת, אך אם אינך מעוניין בכך * כל * תעבורה שתנותב דרך השרתים של אפל, מומלץ לכבות אותה.
 
 #### Bluetooth
 
-**Bluetooth** should be disabled when you aren't using it as it increases your attack surface. Disabling Bluetooth (or Wi-Fi) via the Control Center only disables it temporarily: you must switch it off in Settings for disabling it to remain effective.
+**Bluetooth** אמור להיות מושבת כאשר אינך משתמש בו מכיוון שהוא מגדיל את שטח ההתקפה שלך. השבתת Bluetooth (או Wi - Fi) באמצעות מרכז הבקרה מבטלת אותו באופן זמני בלבד: עליך לכבות אותו בהגדרות כדי להשבית אותו כדי להישאר יעיל.
 
-- [ ] Turn off **Bluetooth**
+- [ ] כבה את **Bluetooth**
 
-#### General
+#### כללי
 
-Your iPhone's device name will by default contain your first name, and this will be visible to anyone on networks you connect to. You should change this to something more generic, like "iPhone." Select **About** > **Name** and enter the device name you prefer.
+שם המכשיר של האייפון שלך יכיל כברירת מחדל את שמך הפרטי, וזה יהיה גלוי לכל מי ברשתות שאתה מתחבר אליהן. אתה צריך לשנות את זה למשהו יותר גנרי, כמו "אייפון" בחר **אודות** > **שם** והזן את שם המכשיר המועדף עליך.
 
-It is important to install **Software Updates** frequently to get the latest security fixes. You can enable **Automatic Updates** to keep your phone up-to-date without needing to constantly check for updates. Select **Software Update** > **Automatic Updates**:
+חשוב להתקין **עדכוני תוכנה** לעיתים קרובות כדי לקבל את תיקוני האבטחה האחרונים. אתה יכול להפעיל את **עדכונים אוטומטיים** כדי לשמור על הטלפון שלך מעודכן מבלי שתצטרך לחפש כל הזמן עדכונים. בחר **עדכון תוכנה** > **עדכונים אוטומטיים**:
 
-- [x] Turn on **Download iOS Updates**
-- [x] Turn on **Install iOS Updates**
-- [x] Turn on **Security Responses & System Files**
+- [x] הפעל את **הורד עדכוני iOS**
+- [x] הפעל את **התקן עדכוני iOS**
+- [x] הפעל את **תגובות אבטחה & קבצי מערכת**
 
-**AirDrop** allows you to easily transfer files, but it can allow strangers to send you files you do not want.
+**AirDrop** מאפשר לך להעביר קבצים בקלות, אך הוא יכול לאפשר לזרים לשלוח לך קבצים שאינך רוצה.
 
-- [x] Select **AirDrop** > **Receiving Off**
+- [x] בחר **AirDrop** > **קבלה כבויה**
 
-**AirPlay** lets you seamlessly stream content from your iPhone to a TV; however, you might not always want this. Select **AirPlay & Handoff** > **Automatically AirPlay to TVs**:
+**AirPlay** מאפשר לך להזרים בצורה חלקה תוכן מה-iPhone שלך לטלוויזיה; עם זאת, ייתכן שלא תמיד תרצה בכך. בחר **AirPlay & מסירה** > **AirPlay אוטומטית לטלוויזיות**:
 
-- [x] Select **Never** or **Ask**
+- [x] בחר **לעולם לא** או **שאל**
 
-**Background App Refresh** allows your apps to refresh their content while you're not using them. This may cause them to make unwanted connections. Turning this off can also save battery life, but it may affect an app's ability to receive updated information, particularly weather and messaging apps.
+**רענון אפליקציות ברקע** מאפשר ליישומים שלך לרענן את התוכן שלהם בזמן שאינך משתמש בהם. זה עלול לגרום להם ליצור קשרים לא רצויים. כיבוי זה יכול גם לחסוך בחיי סוללה, אבל זה עשוי להשפיע על היכולת של אפליקציה לקבל מידע מעודכן, במיוחד אפליקציות מזג אוויר והודעות.
 
-Select **Background App Refresh** and switch off any apps you don't want to continue refreshing in the background. If you don't want any apps to refresh in the background, you can select **Background App Refresh** again and turn it **Off**.
+בחר **רענון אפליקציות ברקע** וכבה את כל האפליקציות שאינך רוצה להמשיך לרענן ברקע. אם אינך רוצה שאפליקציות כלשהן ירעננו ברקע, תוכל לבחור שוב ב**רענון אפליקציה ברקע** ולכבות **אותה**.
 
-#### Siri & Search
+#### סירי & חיפוש
 
-If you don't want anyone to be able to control your phone with Siri when it is locked, you can turn that off here.
+אם אתה לא רוצה שאף אחד יוכל לשלוט בטלפון שלך עם Siri כשהוא נעול, אתה יכול לכבות את זה כאן.
 
-- [ ] Turn off **Allow Siri When Locked**
+- [ ] כבה את **אפשר את Siri כאשר נעולה**
 
-#### Face ID/Touch ID & Passcode
+#### מזהה פנים/זיהוי מגע & קוד סיסמה
 
-Setting a strong password on your phone is the most important step you can take for physical device security. You'll have to make tradeoffs here between security and convenience: A longer password will be annoying to type in every time, but a shorter password or PIN will be easier to guess. Setting up Face ID or Touch ID along with a strong password can be a good compromise between usability and security.
+הגדרת סיסמה חזקה בטלפון שלך היא הצעד החשוב ביותר שאתה יכול לנקוט לאבטחת המכשיר הפיזי. תצטרך לעשות כאן פשרה בין אבטחה לנוחות: סיסמה ארוכה יותר תהיה מעצבנת להזין בכל פעם, אבל סיסמה קצרה יותר או PIN יהיה קל יותר לנחש. הגדרת Face ID או Touch ID יחד עם סיסמה חזקה יכולה להיות פשרה טובה בין שימושיות ואבטחה.
 
-Select **Turn Passcode On** or **Change Passcode** > **Passcode Options** > **Custom Alphanumeric Code**. Make sure that you create a [secure password](https://www.privacyguides.org/basics/passwords-overview/).
+בחר **הפעל קוד גישה** או **שנה קוד גישה** > **אפשרויות קוד סיסמה** > **קוד אלפאנומרי מותאם אישית**. ודא שאתה יוצר [סיסמה מאובטחת](https://www.privacyguides.org/basics/passwords-overview/).
 
-If you wish to use Face ID or Touch ID, you can go ahead and set it up now. Your phone will use the password you set up earlier as a fallback in case your biometric verification fails. Biometric unlock methods are primarily a convenience, although they do stop surveillance cameras or people over your shoulder from watching you input your passcode.
+אם ברצונך להשתמש ב-Face ID או Touch ID, תוכל להמשיך ולהגדיר זאת כעת. הטלפון שלך ישתמש בסיסמה שהגדרת קודם לכן כחלופה למקרה שהאימות הביומטרי שלך ייכשל. שיטות פתיחה ביומטריות הן בעיקר נוחות, אם כי הן עוצרות מצלמות מעקב או אנשים מעבר לכתף שלך מלצפות בך מזין את קוד הסיסמה שלך.
 
-If you use biometrics, you should know how to turn them off quickly in an emergency. Holding down the side or power button and *either* volume button until you see the Slide to Power Off slider will disable biometrics, requiring your passcode to unlock. Your passcode will also be required after device restarts.
+אם אתה משתמש ביומטרי, אתה צריך לדעת איך לכבות אותם במהירות במקרה חירום. לחיצה ממושכת על לחצן הצד או ההפעלה ו*כל אחד* כפתור עוצמת הקול עד שתראה את המחוון Slide to Power Off תשבית את הביומטרי, ותחייב את קוד הגישה שלך כדי לפתוח. קוד הגישה שלך יידרש גם לאחר הפעלה מחדש של המכשיר.
 
-On some older devices, you may have to press the power button five times to disable biometrics instead, or for devices with Touch ID you may just have to hold down the power button and nothing else. Make sure you try this in advance so you know which method works for your device.
+בחלק מהמכשירים הישנים יותר, ייתכן שתצטרך ללחוץ על כפתור ההפעלה חמש פעמים כדי להשבית את הביומטרי במקום זאת, או עבור מכשירים עם Touch ID ייתכן שתצטרך ללחוץ על כפתור ההפעלה ותו לא. הקפד לנסות זאת מראש כדי שתדע איזו שיטה עובדת עבור המכשיר שלך.
 
-**Allow Access When Locked** gives you options for what you can allow when your phone is locked. The more of these options you disable, the less someone without your password can do, but the less convenient it will be for you. Pick and choose which of these you don't want someone to have access to if they get their hands on your phone.
+**אפשר גישה כאשר הוא נעול** נותן לך אפשרויות למה שאתה יכול לאפשר כשהטלפון שלך נעול. ככל שתבטל יותר מהאפשרויות האלה, כך מישהו ללא הסיסמה שלך יכול לעשות פחות, אבל זה יהיה פחות נוח עבורך. תברר ובחר לאילו מבין אלה אינך רוצה שלמישהו תהיה גישה אם הוא ישים את ידו על הטלפון שלך.
 
-- [ ] Turn off **Today View and Search**
-- [ ] Turn off **Notification Center**
-- [ ] Turn off **Control Center**
-- [ ] Turn off **Lock Screen Widgets**
-- [ ] Turn off **Siri**
-- [ ] Turn off **Reply with Message**
-- [ ] Turn off **Home Control**
-- [ ] Turn off **Wallet**
-- [ ] Turn off **Return Missed Calls**
-- [ ] Turn off **USB Accessories**
+- [ ] כבה את **היום הצג וחיפוש**
+- [ ] כבה את **מרכז ההודעות**
+- [ ] כבה את **מרכז הבקרה**
+- [ ] כבה את **יישומוני מסך נעילה**
+- [ ] כבה את **Siri**
+- [ ] כבה את **השב עם הודעה**
+- [ ] כבה את **בקרת הבית**
+- [ ] כבה את **ארנק**
+- [ ] כבה את **החזרת שיחות שלא נענו**
+- [ ] כבה את **אביזרי USB**
 
-iPhones are already resistant to brute-force attacks by making you wait long periods of time after multiple failed attempts; however, there have historically been exploits to get around this. To be extra safe, you can set your phone to wipe itself after 10 failed passcode attempts.
+מכשירי אייפון כבר עמידים בפני התקפות בכוח גס בכך שהם גורמים לך להמתין פרקי זמן ארוכים לאחר ניסיונות כושלים מרובים; עם זאת, היסטורית היו מעללים כדי לעקוף את זה. ליתר ביטחון, אתה יכול להגדיר את הטלפון שלך לנגב את עצמו לאחר 10 ניסיונות כושלים של קוד סיסמה.
 
 !!! warning "אזהרה"
 
-    With this setting enabled, someone could intentionally wipe your phone by entering the wrong password many times. Make sure you have proper backups and only enable this setting if you feel comfortable with it.
+    כאשר הגדרה זו מופעלת, מישהו יכול למחוק את הטלפון שלך בכוונה על ידי הזנת הסיסמה השגויה פעמים רבות. ודא שיש לך גיבויים מתאימים והפעל את ההגדרה הזו רק אם אתה מרגיש בנוח איתה.
 
-- [x] Turn on **Erase Data**
+- [x] הפעל את **מחק נתונים**
 
 #### פרטיות
 
-**Location Services** allows you to use features like Find My and Maps. If you don't need these features, you can disable Location Services. Alternatively, you can review and pick which apps can use your location here. Select **Location Services**:
+**שירותי מיקום** מאפשרים לך להשתמש בתכונות כמו מצא את שלי ומפות. אם אינך זקוק לתכונות אלו, תוכל להשבית את שירותי המיקום. לחלופין, תוכל לסקור ולבחור אילו אפליקציות יכולות להשתמש במיקום שלך כאן. בחר **שירותי מיקום**:
 
-- [ ] Turn off **Location Services**
+- [ ] כבה את **שירותי מיקום**
 
-You can decide to allow apps to request to **track** you here. Disabling this disallows all apps from tracking you with your phone's advertising ID. Select **Tracking**:
+אתה יכול להחליט לאפשר לאפליקציות לבקש **לעקוב ** אחריך כאן. השבתה זו לא מאפשרת לכל האפליקציות לעקוב אחריך עם מזהה הפרסום של הטלפון שלך. בחר **מעקב**:
 
-- [ ] Turn off **Allow Apps to Request to Track**
+- [ ] כבה את **אפשר לאפליקציות לבקש מעקב**
 
-You should turn off **Research Sensor & Usage Data** if you don't wish to participate in studies. Select **Research Sensor & Usage Data**:
+עליך לכבות את **חיישן מחקר & נתוני שימוש**אם אינך מעוניין להשתתף במחקרים. בחר **חיישן מחקר & נתוני שימוש**:
 
-- [ ] Turn off **Sensor & Usage Data Collection**
+- [ ] כבה את **חיישן & איסוף נתוני שימוש**
 
-**Safety Check** allows you to quickly view and revoke certain people and apps that might have permission to access your data. Here you can perform an **Emergency Reset**, immediately resetting permissions for all people and apps which might have access to device resources, and you can **Manage Sharing & Access** which allows you to go through and customize who and what has access to your device and account resources.
+**בדיקת בטיחות** מאפשרת לך להציג ולבטל במהירות אנשים ואפליקציות מסוימים שעשויים לקבל הרשאה לגשת לנתונים שלך. כאן אתה יכול לבצע **איפוס חירום**, לאפס מיד את ההרשאות עבור כל האנשים והאפליקציות שאולי יש להם גישה למשאבי המכשיר, ותוכל **נהל שיתוף & גישה**המאפשר לך לעבור ולהתאים אישית למי ולמה יש גישה למשאבי המכשיר ולחשבון שלך.
 
-You should disable analytics if you don't wish to send Apple usage data. Select **Analytics & Improvements**:
+עליך להשבית את הניתוח אם אינך רוצה לשלוח נתוני שימוש לאפל. בחר **אנליטיקס& שיפורים**:
 
-- [ ] Turn off **Share iPhone Analytics** or **Share iPhone & Watch Analytics**
-- [ ] Turn off **Share iCloud Analytics**
-- [ ] Turn off **Improve Fitness+**
-- [ ] Turn off **Improve Safety**
-- [ ] Turn off **Improve Siri & Dictation**
+- [ ] כבה את **שתף iPhone Analytics** או **שתף iPhone & צפה ב-Analytics**
+- [ ] כבה את **שתף iCloud Analytics**
+- [ ] כבה את **שיפור כושר+**
+- [ ] כבה את **שפר את הבטיחות**
+- [ ] כבה את **שפר את Siri & הכתבה**
 
-Disable **Personalized Ads** if you don't want targeted ads. Select **Apple Advertising**
+השבת את **מודעות מותאמות אישית** אם אינך מעוניין במודעות ממוקדות. בחר **פרסום של Apple**
 
-- [ ] Turn off **Personalized Ads**
+- [ ] כבה את **מודעות מותאמות אישית**
 
-**App Privacy Report** is a built-in tool that allows you to see which permissions your apps are using. Select **App Privacy Report**:
+**דוח פרטיות האפליקציה** הוא כלי מובנה המאפשר לך לראות באילו הרשאות האפליקציות שלך משתמשות. בחר **דוח פרטיות האפליקציה**:
 
-- [x] Select **Turn On App Privacy Report**
+- [x] בחר **הפעל דוח פרטיות של אפליקציה**
 
-[Lockdown Mode](https://blog.privacyguides.org/2022/10/27/macos-ventura-privacy-security-updates/#lockdown-mode) is a security setting you can enable to make your phone more resistant to attacks. Be aware that certain apps and features [won't work](https://support.apple.com/en-us/HT212650) as they do normally.
+[מצב נעילה](https://blog.privacyguides.org/2022/10/27/macos-ventura-privacy-security-updates/#lockdown-mode) הוא הגדרת אבטחה שתוכל להפעיל כדי להפוך את הטלפון שלך עמיד יותר בפני התקפות. שים לב שאפליקציות ותכונות מסוימות [לא יפעלו](https://support.apple.com/en-us/HT212650) כפי שהם פועלים בדרך כלל.
 
-- [x] Select **Turn On Lockdown Mode**
+- [x] בחר **הפעל מצב נעילה**
 
-## Additional Advice
+## עצה נוספת
 
-### E2EE Calls
+### שיחות E2EE
 
-Normal phone calls made with the Phone app through your carrier are not E2EE. Both FaceTime Video and FaceTime Audio calls are E2EE, or you can use [another app](../real-time-communication.md) like Signal.
+שיחות טלפון רגילות שנעשות באמצעות אפליקציית הטלפון דרך הספק שלך אינן E2EE. גם שיחות FaceTime Video ו-FaceTime Audio הן E2EE, או שאתה יכול להשתמש ב[אפליקציה אחרת](../real-time-communication.md) כמו Signal.
 
-### Avoid Jailbreaking
+### הימנע מפריצת Jailbreak
 
-Jailbreaking an iPhone undermines its security and makes you vulnerable. Running untrusted, third-party software could cause your device to be infected with malware.
+פריצת Jailbreaking של אייפון מערערת את האבטחה שלו והופכת אותך לפגיע. הפעלת תוכנת צד שלישי לא מהימנה עלולה לגרום למכשיר שלך להידבק בתוכנה זדונית.
 
-### Encrypted iMessage
+### Imessage מוצפן
 
-The color of the message bubble in the Messages app indicates whether your messages are E2EE or not. A blue bubble indicates that you're using iMessage with E2EE, while a green bubble indicates they're using the outdated SMS and MMS protocols. Currently, the only way to get E2EE in Messages is for both parties to be using iMessage on Apple devices.
+צבע בועת ההודעה באפליקציית ההודעות מציין אם ההודעות שלך הן E2EE או לא. בועה כחולה מציינת שאתה משתמש ב-iMessage עם E2EE, בעוד בועה ירוקה מציינת שהם משתמשים בפרוטוקולי ה-SMS וה-MMS המיושנים. נכון לעכשיו, הדרך היחידה להשיג E2EE בהודעות היא ששני הצדדים ישתמשו ב-iMessage במכשירי אפל.
 
-If either you or your messaging partner have iCloud Backup enabled without Advanced Data Protection, the encryption key will be stored on Apple's servers, meaning they can access your messages. Additionally, iMessage's key exchange is not as secure as alternative implementations, like Signal (which allows you to view the recipients key and verify by QR code), so it shouldn't be relied on for particularly sensitive communications.
+אם אתה או שותף ההודעות שלך הפעלת גיבוי iCloud ללא הגנת נתונים מתקדמת, מפתח ההצפנה יאוחסן בשרתים של אפל, כלומר הם יכולים לגשת להודעות שלך. בנוסף, החלפת המפתחות של iMessage אינה מאובטחת כמו יישומים אלטרנטיביים, כמו Signal (המאפשר לך להציג את מפתח הנמענים ולאמת באמצעות קוד QR), כך שאין להסתמך עליה עבור תקשורת רגישה במיוחד.
 
-### Blacking Out Faces/Information
+### השחרת פנים/מידע
 
-If you need to hide information in a photo, you can use Apple's built-in tools to do so. Open the photo you want to edit, press edit in the top right corner of the screen, then press the markup symbol at the top right. Press the plus at the bottom right of the screen, then press the rectangle icon. Now, you can place a rectangle anywhere on the image. Make sure to press the shape icon at the bottom left and select the filled-in rectangle. **Don't** use the highlighter to obfuscate information, because its opacity is not quite 100%.
+אם אתה צריך להסתיר מידע בתמונה, אתה יכול להשתמש בכלים המובנים של אפל כדי לעשות זאת. פתח את התמונה שברצונך לערוך, לחץ על ערוך בפינה השמאלית העליונה של המסך, ולאחר מכן לחץ על סמל הסימון בפינה השמאלית העליונה. לחץ על הפלוס בפינה השמאלית התחתונה של המסך, ולאחר מכן לחץ על סמל המלבן. כעת, אתה יכול למקם מלבן בכל מקום בתמונה. הקפד ללחוץ על סמל הצורה בפינה השמאלית התחתונה ובחר את המלבן המלא. **אל** תשתמש במדגיש כדי לטשטש מידע, מכיוון שהאטימות שלו לא ממש 100%.
 
-### iOS Betas
+### iOS בטא
 
-Apple always makes beta versions of iOS available early for those that wish to help find and report bugs. We don't recommend installing beta software on your phone. Beta releases are potentially unstable and could have undiscovered security vulnerabilities.
+אפל תמיד הופכת גרסאות בטא של iOS לזמינות מוקדם עבור אלה שרוצים לעזור למצוא ולדווח על באגים. אנו לא ממליצים להתקין תוכנת בטא בטלפון שלך. גרסאות בטא עלולות להיות לא יציבות ויכולות להכיל פרצות אבטחה שלא התגלו.
 
-## Security Highlights
+## דגשים באבטחה
 
-### Before First Unlock
+### לפני הפתיחה הראשונה
 
-If your threat model includes forensic tools and you want to minimize the chance of exploits being used to access your phone, you should restart your device frequently. The state *after* a reboot but *before* unlocking your device is referred to as "Before First Unlock" (BFU), and when your device is in that state it makes it [significantly more difficult](https://belkasoft.com/checkm8_glossary) for forensic tools to exploit vulnerabilities to access your data. This BFU state allows you to receive notifications for calls, texts, and alarms, but most of the data on your device is still encrypted and inaccessible. This can be impractical, so consider whether these trade-offs make sense for your situation.
+אם מודל האיום שלך כולל כלים פורנזיים ואתה רוצה למזער את הסיכוי של ניצול שימוש כדי לגשת לטלפון שלך, עליך להפעיל מחדש את המכשיר לעתים קרובות. המצב *אחרי* אתחול מחדש אך *לפני* ביטול נעילת המכשיר שלך מכונה "לפני ביטול נעילה ראשון" (BFU), וכאשר המכשיר שלך נמצא במצב זה, זה מקשה [באופן משמעותי](https://belkasoft.com/checkm8_glossary) עבור כלים משפטיים לנצל נקודות תורפה כדי לגשת לנתונים שלך. מצב BFU זה מאפשר לך לקבל התראות על שיחות, הודעות טקסט והתראות, אך רוב הנתונים במכשיר שלך עדיין מוצפנים ואינם נגישים. זה יכול להיות לא מעשי, אז שקול אם הפשרות האלה הגיוניות למצב שלך.
