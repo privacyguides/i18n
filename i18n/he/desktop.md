@@ -150,9 +150,9 @@ Tailsכולל[uBlock Origin](desktop-browsers.md#ublock-origin) בדפדפן Tor
 
 !!! recommendation
 
-    ![Qubes OS logo](assets/img/qubes/qubes_os.svg){ align=right }
+    ![Qubes OS לוגו](assets/img/qubes/qubes_os.svg){ align=right }
     
-    **Qubes OS** is an open-source operating system designed to provide strong security for desktop computing through secure virtual machines (or "qubes"). Qubes מבוסס על Xen, מערכת חלונות X ו- Linux. זה יכול להריץ את רוב יישומי לינוקס ולהשתמש ברוב מנהלי ההתקנים של לינוקס.
+    **Qubes OS** היא מערכת הפעלה בקוד פתוח שנועדה לספק אבטחה חזקה עבור מחשוב שולחני באמצעות מכונות וירטואליות מאובטחות (או "qubes"). Qubes מבוסס על Xen, מערכת חלונות X ו- Linux. זה יכול להריץ את רוב יישומי לינוקס ולהשתמש ברוב מנהלי ההתקנים של לינוקס.
     
     [:octicons-home-16: דף הבית](https://www.qubes-os.org/){ .md-button .md-button--primary }
     [:simple-torbrowser:](http://qubesosfasa4zl44o4tws22di6kepyzfeqv3tg4e3ztknltfxqrymdad.onion){ .card-link title="Onion Service" }
@@ -185,8 +185,8 @@ While we [recommend against](os/linux-overview.md#release-cycle) "perpetually ou
 
 Choosing a Linux distro that is right for you will come down to a huge variety of personal preferences, and this page is **not** meant to be an exhaustive list of every viable distribution. Our Linux overview page has some advice on [choosing a distro](os/linux-overview.md#choosing-your-distribution) in more detail. The distros on *this* page do all generally follow the guidelines we covered there, and all meet these standards:
 
-- Free and open-source.
-- Receives regular software and kernel updates.
+- חינם וקוד פתוח.
+- מקבל עדכוני תוכנה וליבה קבועים.
 - [Avoids X11](os/linux-overview.md#wayland).
     - The notable exception here is Qubes, but the isolation issues which X11 typically has are avoided by virtualization. בידוד זה חל רק על אפליקציות * פועל ב- qubes שונים * (מכונות וירטואליות), אפליקציות הפועלות ב- * אותם * qube הם לא מוגנים זה מזה.
 - תומך בהצפנת דיסק מלא במהלך ההתקנה.

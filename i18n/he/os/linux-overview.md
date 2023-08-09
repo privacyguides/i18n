@@ -113,15 +113,15 @@ description: לינוקס היא חלופה למערכת הפעלה שולחני
 
 ### קושחה קניינית (עדכוני מיקרוקוד)
 
-Some Linux distributions (such as [Linux-libre](https://en.wikipedia.org/wiki/Linux-libre)-based or DIY distros) don’t come with the proprietary [microcode](https://en.wikipedia.org/wiki/Microcode) updates which patch critical security vulnerabilities. כמה דוגמאות בולטות לפגיעויות אלה כוללות [Spectre](https://en.wikipedia.org/wiki/Spectre_(security_vulnerability)), [Meltdown](https://en.wikipedia.org/wiki/Meltdown_(security_vulnerability)), [SSB](https://en.wikipedia.org/wiki/Speculative_Store_Bypass), [Foreshadow](https://en.wikipedia.org/wiki/Foreshadow), [MDS](https://en.wikipedia.org/wiki/Microarchitectural_Data_Sampling), [SWAPGS](https://en.wikipedia.org/wiki/SWAPGS_(security_vulnerability)), ועוד [hardware vulnerabilities](https://www.kernel.org/doc/html/latest/admin-guide/hw-vuln/index.html).
+חלק מההפצות של לינוקס (כגון [Linux-libre](https://en.wikipedia.org/wiki/Linux-libre) מבוססות או הפצות עשה זאת בעצמך) אינן מגיעות עם קנייני [microcode](https://en.wikipedia.org/wiki/Microcode) עדכוני המתקן פרצות אבטחה קריטיות. כמה דוגמאות בולטות לפגיעויות אלה כוללות [Spectre](https://en.wikipedia.org/wiki/Spectre_(security_vulnerability)), [Meltdown](https://en.wikipedia.org/wiki/Meltdown_(security_vulnerability)), [SSB](https://en.wikipedia.org/wiki/Speculative_Store_Bypass), [Foreshadow](https://en.wikipedia.org/wiki/Foreshadow), [MDS](https://en.wikipedia.org/wiki/Microarchitectural_Data_Sampling), [SWAPGS](https://en.wikipedia.org/wiki/SWAPGS_(security_vulnerability)), ועוד [hardware vulnerabilities](https://www.kernel.org/doc/html/latest/admin-guide/hw-vuln/index.html).
 
-We **highly recommend** that you install microcode updates, as they contain important security patches for the CPU which can not be fully mitigated in software alone. לפדורה ול-openSUSE יש את עדכוני המיקרוקוד כברירת מחדל.
+אנו **ממליצים בחום** להתקין עדכוני מיקרוקוד, מכיוון שהם מכילים תיקוני אבטחה חשובים עבור ה-CPU אשר לא ניתן להפחית באופן מלא בתוכנה בלבד. לפדורה ול-openSUSE יש את עדכוני המיקרוקוד כברירת מחדל.
 
 ### עדכונים
 
 רוב ההפצות של לינוקס יתקינו עדכונים אוטומטית או יזכירו לך לעשות זאת. חשוב לשמור על מערכת ההפעלה שלך מעודכנת כדי שהתוכנה שלך תתוקן כאשר מתגלה פגיעות.
 
-Some distributions (particularly those aimed at advanced users) are more bare bones and expect you to do things yourself (e.g. Arch or Debian). אלה ידרשו להפעיל את "מנהל החבילות" (`apt`, `pacman`, `dnf` וכו') באופן ידני על מנת לקבל עדכוני אבטחה חשובים.
+חלק מההפצות (במיוחד אלו המיועדות למשתמשים מתקדמים) הן עצמות יותר ומצפות ממך לעשות דברים בעצמך (למשל Arch או Debian). אלה ידרשו להפעיל את "מנהל החבילות" (`apt`, `pacman`, `dnf` וכו') באופן ידני על מנת לקבל עדכוני אבטחה חשובים.
 
 בנוסף, הפצות מסוימות לא יוריד עדכוני קושחה באופן אוטומטי. לשם כך תצטרך להתקין את [`fwupd`](https://wiki.archlinux.org/title/Fwupd).
 
@@ -129,7 +129,7 @@ Some distributions (particularly those aimed at advanced users) are more bare bo
 
 ### כתובת MAC אקראית
 
-Many desktop Linux distributions (Fedora, openSUSE, etc.) come with [NetworkManager](https://en.wikipedia.org/wiki/NetworkManager) to configure Ethernet and Wi-Fi settings.
+הפצות רבות של לינוקס לשולחן העבודה (Fedora, openSUSE וכו') מגיעות עם [NetworkManager](https://en.wikipedia.org/wiki/NetworkManager) כדי להגדיר הגדרות Ethernet ו-Wi-Fi.
 
 אפשר [לבצע באקראי](https://fedoramagazine.org/randomize-mac-address-nm/) את [כתובת MAC](https://en.wikipedia.org/wiki/MAC_address) בעת שימוש ב-NetworkManager. זה מספק קצת יותר פרטיות ברשתות Wi-Fi מכיוון שהוא מקשה על מעקב אחר מכשירים ספציפיים ברשת שאליה אתה מחובר. זה [**לא**](https://papers.mathyvanhoef.com/wisec2016.pdf) הופך אותך לאנונימי.
 
@@ -137,7 +137,7 @@ Many desktop Linux distributions (Fedora, openSUSE, etc.) come with [NetworkMana
 
 אם אתה משתמש ב [systemd-networkd](https://en.wikipedia.org/wiki/Systemd#Ancillary_components), יהיה עליך להגדיר [`MACAddressPolicy=random`](https://www.freedesktop.org/software/systemd/man/systemd.link.html#MACAddressPolicy=) אשר יאפשר [RFC 7844 (פרופילי אנונימיות עבור לקוחות DHCP)](https://www.freedesktop.org/software/systemd/man/systemd.network.html#Anonymize=).
 
-MAC address randomization is primarily beneficial for Wi-Fi connections. For Ethernet connections, randomizing your MAC address provides little (if any) benefit, because a network administrator can trivially identify your device by other means (such as inspecting the port you are connected to on the network switch). הקצאה אקראית של כתובות Wi-Fi MAC תלויה בתמיכה מהקושחה של ה-Wi-Fi.
+כתובות MAC אקראית מועילה בעיקר עבור חיבורי Wi-Fi. עבור חיבורי אינטרנט, כתובת אקראית של ה-MAC שלך מספקת תועלת מועטה (אם בכלל), מכיוון שמנהל רשת יכול לזהות את המכשיר שלך באופן טריוויאלי באמצעים אחרים (כגון בדיקת היציאה אליה אתה מחובר במתג הרשת). הקצאה אקראית של כתובות Wi-Fi MAC תלויה בתמיכה מהקושחה של ה-Wi-Fi.
 
 ### מזהים אחרים
 
