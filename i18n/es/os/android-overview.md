@@ -6,9 +6,9 @@ description: Android es un sistema operativo de código abierto con fuertes medi
 
 ![Logotipo de Android](../assets/img/android/android.svg){ align=right }
 
-The **Android Open Source Project** is a secure mobile operating system featuring strong [app sandboxing](https://source.android.com/security/app-sandbox), [Verified Boot](https://source.android.com/security/verifiedboot) (AVB), and a robust [permission](https://developer.android.com/guide/topics/permissions/overview) control system.
+**Android Open Source Project** es un sistema operativo móvil seguro que cuenta con un fuerte [aislamiento de aplicaciones](https://source.android.com/security/app-sandbox), [arranque verificado](https://source.android.com/security/verifiedboot) (AVB) y un sólido sistema de control de [permisos ](https://developer.android.com/guide/topics/permissions/overview).
 
-## Our Advice
+## Nuestro Consejo
 
 ### Elegir una distribución de Android
 
@@ -30,19 +30,19 @@ AFWall+ funciona basado en el enfoque del [filtrado de paquetes](https://es.wiki
 
 No creemos que los sacrificios de seguridad realizados al rootear un teléfono merezcan la pena por los cuestionables beneficios de privacidad de esas aplicaciones.
 
-### Install Updates
+### Instalar actualizaciones
 
 Es importante no usar una versión de Android al [final de su vida útil](https://endoflife.date/android). Las versiones más recientes de Android no solo reciben actualizaciones de seguridad para el sistema operativo, sino también actualizaciones importantes para mejorar la privacidad.
 
-For example, [prior to Android 10](https://developer.android.com/about/versions/10/privacy/changes) any apps with the [`READ_PHONE_STATE`](https://developer.android.com/reference/android/Manifest.permission#READ_PHONE_STATE) permission could access sensitive and unique serial numbers of your phone such as [IMEI](https://en.wikipedia.org/wiki/International_Mobile_Equipment_Identity), [MEID](https://en.wikipedia.org/wiki/Mobile_equipment_identifier), or your SIM card's [IMSI](https://en.wikipedia.org/wiki/International_mobile_subscriber_identity); whereas now they must be system apps to do so. Las aplicaciones del sistema sólo las proporciona el OEM o la distribución de Android.
+Por ejemplo, [antes de Android 10](https://developer.android.com/about/versions/10/privacy/changes), cualquier aplicación con el permiso [`READ_PHONE_STATE`](https://developer.android.com/reference/android/Manifest.permission#READ_PHONE_STATE) podía acceder a números de serie únicos y sensibles como el [IMEI](https://es.wikipedia.org/wiki/IMEI), [MEID](https://en.wikipedia.org/wiki/Mobile_equipment_identifier) o el [IMSI](https://es.wikipedia.org/wiki/IMSI) de tu tarjeta SIM, mientras que ahora deben ser aplicaciones del sistema para poder hacerlo. Las aplicaciones del sistema sólo las proporciona el OEM o la distribución de Android.
 
-### Sharing Media
+### Compartir Archivos Multimedia
 
-You can avoid giving many apps permission to access your media with Android's built-in sharing features. Many applications allow you to "share" a file with them for media upload.
+Puedes evitar dar permiso a muchas aplicaciones para acceder a tus archivos multimedia con las funciones de uso compartido integradas en Android. Muchas aplicaciones te permiten "compartir" un archivo con ellas para cargarlo.
 
-For example, if you want to post a picture to Discord you can open your file manager or gallery and share that picture with the Discord app, instead of granting Discord full access to your media and photos.
+Por ejemplo, si quieres publicar una foto en Discord, puedes abrir tu gestor de archivos o galería y compartir esa foto con la aplicación Discord, en lugar de conceder a Discord acceso completo a tus archivos miltimedia y fotos.
 
-## Security Protections
+## Protecciones de Seguridad
 
 ### Arranque verificado
 
@@ -107,7 +107,7 @@ Una aplicación puede solicitar un permiso para una función específica que ten
 
     Las aplicaciones que respetan la privacidad, como [Bitwarden](https://reports.exodus-privacy.eu.org/en/reports/com.x8bit.bitwarden/latest/), pueden mostrar algunos rastreadores como [Google Firebase Analytics](https://reports.exodus-privacy.eu.org/en/trackers/49/). Esta biblioteca incluye [Firebase Cloud Messaging](https://en.wikipedia.org/wiki/Firebase_Cloud_Messaging) que puede proporcionar [notificaciones push](https://es.wikipedia.org/wiki/Tecnología_push) en las aplicaciones. Este [es el caso](https://fosstodon.org/@bitwarden/109636825700482007) con Bitwarden. Esto no significa que Bitwarden utilice todas las funciones analíticas que ofrece Google Firebase Analytics.
 
-## Privacy Features
+## Funciones de Privacidad
 
 ### Perfiles de usuario
 
@@ -133,7 +133,7 @@ Android 7 y superiores soportan un VPN killswitch y está disponible sin necesid
 
 Los dispositivos Android modernos tienen interruptores globales para desactivar los servicios de Bluetooth y de localización. Android 12 introdujo interruptores para la cámara y el micrófono. Cuando no estén en uso, recomendamos desactivar estas funciones. Las aplicaciones no pueden usar las funciones desactivadas (incluso si se les concede un permiso individual) hasta que se reactiven.
 
-## Google Services
+## Servicios de Google
 
 Si está utilizando un dispositivo con servicios de Google, ya sea su sistema operativo de stock o un sistema operativo que utiliza Google Play Services de forma segura como GrapheneOS, hay una serie de cambios adicionales que puede realizar para mejorar su privacidad. Seguimos recomendando evitar los servicios de Google por completo, o limitar los servicios de Google Play a un perfil específico de usuario/trabajo combinando un controlador de dispositivo como *Shelter* con Google Play aislado de GrapheneOS.
 

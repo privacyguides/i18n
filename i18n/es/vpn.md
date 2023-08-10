@@ -184,7 +184,7 @@ Proton VPN tiene sus propios servidores y centros de datos en Suiza, Islandia y 
 
 #### :material-check:{ .pg-green } 43 Países
 
-Mullvad has [servers in 43 countries](https://mullvad.net/servers/).(1) Picking a VPN provider with a server nearest to you will reduce latency of the network traffic you send. Esto se debe a que es una ruta más corta (menos saltos) hasta el destino.
+Mullvad tiene [servidores en 43 países](https://mullvad.net/servers/).(1) Elegir un proveedor de VPN con el servidor más cercano a ti reducirá la latencia del tráfico de red que envías. Esto se debe a que es una ruta más corta (menos saltos) hasta el destino.
 { .annotate }
 
 1. Última comprobación: 2023-07-28

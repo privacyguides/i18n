@@ -223,7 +223,7 @@ Arkenfox sólo pretende frustrar los scripts de rastreo básicos o primitivos me
 
 Estas opciones se encuentran en :material-menu: → **Configuración**.
 
-#### Settings
+#### Ajustes
 
 ##### Escudos
 
@@ -239,9 +239,9 @@ Las opciones de los escudos pueden reducirse según las necesidades de cada siti
     ??? advertencia "Usa listas de filtros predeterminadas"
         Brave te permite seleccionar filtros de contenido adicionales dentro de la página interna `brave://adblock`. Te aconsejamos que no utilices esta función; en su lugar, mantén las listas de filtros predeterminadas. El uso de listas adicionales te hará destacar entre los demás usuarios de Brave y también puede aumentar la superficie de ataque si hay un exploit en Brave y se añade una regla maliciosa a una de las listas que utilizas.
 
-- [x] Select **Strict** under **Upgrade connections to HTTPS**
-- [x] (Optional) Select **Block Scripts** (1)
-- [x] Select **Strict, may break sites** under Block fingerprinting
+- [x] Selecciona **Estricto** en **Mejorar conexiones a HTTPS**
+- [x] (Opcional) Selecciona **Bloquear ccripts** (1)
+- [x] Selecciona **Estricto, puede dañar los sitios** en Bloquear huellas digitales
 
 </div>
 
@@ -255,14 +255,14 @@ Las opciones de los escudos pueden reducirse según las necesidades de cada siti
 
 <div class="annotate" markdown>
 
-- [x] Select **Disable non-proxied UDP** under [WebRTC IP Handling Policy](https://support.brave.com/hc/en-us/articles/360017989132-How-do-I-change-my-Privacy-Settings-#webrtc)
-- [ ] Uncheck **Use Google services for push messaging**
-- [ ] Uncheck **Allow privacy-preserving product analytics (P3A)**
-- [ ] Uncheck **Automatically send daily usage ping to Brave**
-- [ ] Uncheck **Automatically send diagnostic reports**
-- [ ] Uncheck **Private window with Tor** (1)
+- [x] Selecciona **Desactivar el UDP sin proxy** en [Política de gestión de IP de WebRTC](https://support.brave.com/hc/en-us/articles/360017989132-How-do-I-change-my-Privacy-Settings-#webrtc)
+- [ ] Desmarca **Utiliza los servicios de Google para la mensajería push**
+- [ ] Desmarca **Permitir estadísticas del producto con preservación de la privacidad (P3A)**
+- [ ] Desmarca **Enviar automáticamente el ping de uso diario a Brave**
+- [ ] Desmarca **Enviar informes de diagnóstico automáticamente**
+- [ ] Desmarca **Ventana privada con Tor** (1)
 
-    !!! tip "Desinfectar al cerrar"
+!!! tip "Desinfectar al cerrar"
 
         - [x] Selecciona **Borrar cookies y datos de sitios al cerrar todas las ventanas** en el menú *Cookies y otros datos de sitios*
 
@@ -283,8 +283,8 @@ Desactiva las extensiones integradas que no utilice en **Extensiones**
 
 Las funciones Web3 de Brave pueden aumentar potencialmente la huella digital de tu navegador y la superficie de ataque. A menos que utilices alguna de las funciones, deberían estar desactivadas.
 
-- Select **Extensions (no fallback)** under Default Ethereum wallet and Default Solana wallet
-- Set **Method to resolve IPFS resources** to **Disabled**
+- Seleccione **Extensiones (sin copia de seguridad)** en Cartera predeterminada de Ethereum y Cartera predeterminada de Solana
+- Establece **Método para resolver los recursos IPFS** como **Deshabilitado**
 
 ##### Sistema
 
