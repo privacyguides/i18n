@@ -1,7 +1,7 @@
 ---
 title: "メールクライアント"
 icon: material/email-open
-description: These email clients are privacy-respecting and support OpenPGP email encryption.
+description: これらの電子メールクライアントはプライバシーを尊重し、OpenPGP電子メール暗号化をサポートしています。
 cover: email-clients.png
 ---
 

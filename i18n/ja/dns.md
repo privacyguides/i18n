@@ -1,7 +1,7 @@
 ---
-title: "DNS Resolvers"
+title: "DNSリゾルバ"
 icon: material/dns
-description: These are some encrypted DNS providers we recommend switching to, to replace your ISP's default configuration.
+description: これらは、ISPのデフォルト設定を置き換えるために乗り換えることをおすすめする暗号化DNSプロバイダです。
 cover: dns.png
 ---
 
