@@ -55,46 +55,46 @@ ISPや公共Wi-Fiネットワーク、またはファイルのTorrent中の、�
 
 #### :material-check:{ .pg-green } 68か国
 
-Proton VPN has [servers in 68 countries](https://protonvpn.com/vpn-servers).(1) Picking a VPN provider with a server nearest to you will reduce latency of the network traffic you send. This is because of a shorter route (fewer hops) to the destination.
+Proton VPNは[68カ国にサーバー](https://protonvpn.com/vpn-servers)を所有しており、(1) VPNプロバイダを最寄りのサーバに選択することで送信するネットワークトラフィックのレイテンシが軽減されます。 これは目的地までのルートが短い(ホップが少ない) ことによります。
 { .annotate }
 
-1. Last checked: 2023-07-28
+1. 最終確認: 2023-07-28
 
-We also think it's better for the security of the VPN provider's private keys if they use [dedicated servers](https://en.wikipedia.org/wiki/Dedicated_hosting_service), instead of cheaper shared solutions (with other customers) such as [virtual private servers](https://en.wikipedia.org/wiki/Virtual_private_server).
+また、VPNプロバイダの秘密鍵のセキュリティを考えると、できれば[バーチャルプライベートサーバー](https://en.wikipedia.org/wiki/Virtual_private_server)のような安価な(他の顧客との)共有ソリューションではなく[専用サーバー](https://en.wikipedia.org/wiki/Dedicated_hosting_service)を使用したほうがいいと考えています。
 
 #### :material-check:{ .pg-green } 独立監査済み
 
-As of January 2020, Proton VPN has undergone an independent audit by SEC Consult. SEC Consult found some medium and low risk vulnerabilities in Proton VPN's Windows, Android, and iOS applications, all of which were "properly fixed" by Proton VPN before the reports were published. None of the issues identified would have provided an attacker remote access to your device or traffic. You can view individual reports for each platform at [protonvpn.com](https://protonvpn.com/blog/open-source/). In April 2022 Proton VPN underwent [another audit](https://protonvpn.com/blog/no-logs-audit/) and the report was [produced by Securitum](https://protonvpn.com/blog/wp-content/uploads/2022/04/securitum-protonvpn-nologs-20220330.pdf). A [letter of attestation](https://proton.me/blog/security-audit-all-proton-apps) was provided for Proton VPN's apps on 9th November 2021 by [Securitum](https://research.securitum.com).
+2020年1月時点で、Proton VPNはSEC Consultによる独立監査を受けました。 SEC ConsultはProton VPNのWindows、Android、iOSアプリに中、低リスクの脆弱性を発見しましたが、これらすべてはProton VPNによって報告書が公表される前に「適切に修正」されました。 確認された問題はいずれも攻撃者がデバイスやトラフィックへリモートアクセスを可能にするものではありませんでした。 [protonvpn.com](https://protonvpn.com/blog/open-source/)で各プラットフォームの個別レポートを確認できます。 2022年4月、Proton VPNは[別の監査](https://protonvpn.com/blog/no-logs-audit/)を受け、報告書が[Securitumによって作成されました。](https://protonvpn.com/blog/wp-content/uploads/2022/04/securitum-protonvpn-nologs-20220330.pdf) [Securitum](https://research.securitum.com)により2021年11月9日 [監査証明書](https://proton.me/blog/security-audit-all-proton-apps) がProton VPNアプリにおくられました。
 
 #### :material-check:{ .pg-green } オープンソースクライアント
 
-Proton VPN provides the source code for their desktop and mobile clients in their [GitHub organization](https://github.com/ProtonVPN).
+Proton VPNはデスクトップおよびモバイルクライアントのソースコードを[GitHub organization](https://github.com/ProtonVPN)で提供しています。
 
-#### :material-check:{ .pg-green } Accepts Cash
+#### :material-check:{ .pg-green } 現金の受け入れ
 
-Proton VPN, in addition to accepting credit/debit cards, PayPal, and [Bitcoin](advanced/payments.md#other-coins-bitcoin-ethereum-etc), also accepts **cash/local currency** as an anonymous form of payment.
+Proton VPNはクレジットおよびデビットカード、PayPal、そして[Bitcoin](advanced/payments.md#other-coins-bitcoin-ethereum-etc)に加え、さらに**現金および現地通貨**を匿名での支払い方法として受け入れています。
 
 #### :material-check:{ .pg-green } WireGuard対応
 
-Proton VPN mostly supports the WireGuard® protocol. [WireGuard](https://www.wireguard.com) is a newer protocol that uses state-of-the-art [cryptography](https://www.wireguard.com/protocol/). Additionally, WireGuard aims to be simpler and more performant.
+Proton VPNは主にWireGuard®プロトコルをサポートしています。 [WireGuard](https://www.wireguard.com)は最先端の[暗号化](https://www.wireguard.com/protocol/)を使用する新しいプロトコルです。 加えて、WireGuardはよりシンプルかつより高性能であることを目指しています。
 
-Proton VPN [recommends](https://protonvpn.com/blog/wireguard/) the use of WireGuard with their service. On Proton VPN's Windows, macOS, iOS, Android, ChromeOS, and Android TV apps, WireGuard is the default protocol; however, [support](https://protonvpn.com/support/how-to-change-vpn-protocols/) for the protocol is not present in their Linux app.
+Proton VPNはそのサービスでWireGuardを使用することを[推奨](https://protonvpn.com/blog/wireguard/)しています。 Proton VPNのWindows、macOS、iOS、Android、ChromeOS、Android TVアプリではWireGuardがデフォルトのプロトコルになっています。しかし、Linuxアプリではこのプロトコルが[サポート](https://protonvpn.com/support/how-to-change-vpn-protocols/)されていません。
 
-#### :material-alert-outline:{ .pg-orange } Remote Port Forwarding
+#### :material-alert-outline:{ .pg-orange } リモートポートフォワーディング
 
-Proton VPN currently only supports ephemeral remote [port forwarding](https://protonvpn.com/support/port-forwarding/) via NAT-PMP, with 60 second lease times. The Windows app provides an easy to access option for it, while on other operating systems you'll need to run your own [NAT-PMP client](https://protonvpn.com/support/port-forwarding-manual-setup/). Torrent applications often support NAT-PMP natively.
+Proton VPNは現在NAT-PMP経由で、リース時間は60秒の一時的なリモート[ポートフォワーディング](https://protonvpn.com/support/port-forwarding/)のみをサポートしています。 Windowsアプリにはそれに簡単にアクセスできるオプションがありますが、他のオペレーティングシステムでは独自の[NAT-PMPクライアント](https://protonvpn.com/support/port-forwarding-manual-setup/)を実行する必要があります。 Torrentアプリは多くの場合NAT-PMPをネイティブサポートしています。
 
 #### :material-check:{ .pg-green } モバイルクライアント
 
-In addition to providing standard OpenVPN configuration files, Proton VPN has mobile clients for [App Store](https://apps.apple.com/us/app/protonvpn-fast-secure-vpn/id1437005085), [Google Play](https://play.google.com/store/apps/details?id=ch.protonvpn.android&hl=en_US), and [GitHub](https://github.com/ProtonVPN/android-app/releases) allowing for easy connections to their servers.
+標準的なOpenVPN設定ファイルに加えてProton VPNは[App Store](https://apps.apple.com/us/app/protonvpn-fast-secure-vpn/id1437005085)、[Google Play](https://play.google.com/store/apps/details?id=ch.protonvpn.android&hl=en_US)、そして[GitHub](https://github.com/ProtonVPN/android-app/releases)用にモバイルクライアントを用意しており、サーバーへの接続を簡単にしています。
 
-#### :material-information-outline:{ .pg-blue } Additional Functionality
+#### :material-information-outline:{ .pg-blue } 追加機能
 
-Proton VPN clients support two factor authentication on all platforms except Linux at the moment. Proton VPN has their own servers and datacenters in Switzerland, Iceland and Sweden. They offer adblocking and known malware domains blocking with their DNS service. Additionally, Proton VPN also offers "Tor" servers allowing you to easily connect to onion sites, but we still strongly recommend using [the official Tor Browser](https://www.torproject.org/) for this purpose.
+Proton VPNクライアントは現時点でLinuxを除くすべてのプラットフォームで2要素認証をサポートしています。 Proton VPNはスイス、アイスランド、スウェーデンに独自のサーバーとデータセンターを持っています。 Proton VPNはDNSサービスで広告ブロックと既知のマルウェアドメインブロックを提供しています。 さらに、Proton VPNは「Tor」サーバーも提供しており、簡単にonionサイトへ接続することができますが、それには[公式Tor Browser](https://www.torproject.org/)の使用を強くおすすめします。
 
-#### :material-alert-outline:{ .pg-orange } Killswitch feature is broken on Intel-based Macs
+#### :material-alert-outline:{ .pg-orange } IntelベースのMacではキルスイッチ機能が正常に動作しません。
 
-System crashes [may occur](https://protonvpn.com/support/macos-t2-chip-kill-switch/) on Intel-based Macs when using the VPN killswitch. If you require this feature, and you are using a Mac with Intel chipset, you should consider using another VPN service.
+VPNキルスイッチを使用しているとき、IntelベースのMacではシステムクラッシュが[発生する可能性があります。](https://protonvpn.com/support/macos-t2-chip-kill-switch/) この機能が必要で、Intelチップセットを搭載したMacを使用している場合は別のVPNサービスの利用を検討する必要があります。
 
 ### IVPN
 
@@ -104,12 +104,12 @@ System crashes [may occur](https://protonvpn.com/support/macos-t2-chip-kill-swit
     
     **IVPN**はプレミアムVPNプロバイダの一つで、2009年から運営されています。 IVPNの拠点はジブラルタルです。
     
-    [:octicons-home-16: Homepage](https://www.ivpn.net/){ .md-button .md-button--primary }
-    [:octicons-eye-16:](https://www.ivpn.net/privacy/){ .card-link title="Privacy Policy" }
-    [:octicons-info-16:](https://www.ivpn.net/knowledgebase/general/){ .card-link title=Documentation}
-    [:octicons-code-16:](https://github.com/ivpn){ .card-link title="Source Code" }
+    [:octicons-home-16: ホームページ](https://www.ivpn.net/){ .md-button .md-button--primary }
+    [:octicons-eye-16:](https://www.ivpn.net/privacy/){ .card-link title="プライバシーポリシー" }
+    [:octicons-info-16:](https://www.ivpn.net/knowledgebase/general/){ .card-link title=ドキュメント}
+    [:octicons-code-16:](https://github.com/ivpn){ .card-link title="ソースコード" }
     
-    ??? downloads
+    ??? ダウンロード
     
         - [:simple-googleplay: Google Play](https://play.google.com/store/apps/details?id=net.ivpn.client)
         - [:octicons-moon-16: Accrescent](https://accrescent.app/app/net.ivpn.client)
@@ -120,12 +120,12 @@ System crashes [may occur](https://protonvpn.com/support/macos-t2-chip-kill-swit
 
 #### :material-check:{ .pg-green } 35か国
 
-IVPN has [servers in 35 countries](https://www.ivpn.net/server-locations).(1) Picking a VPN provider with a server nearest to you will reduce latency of the network traffic you send. This is because of a shorter route (fewer hops) to the destination.
+IVPNは[35カ国にサーバー](https://www.ivpn.net/server-locations)を所有しており、(1) VPNプロバイダを最寄りのサーバに選択することで送信するネットワークトラフィックのレイテンシが軽減されます。 これは目的地までのルートが短い(ホップが少ない) ことによります。
 { .annotate }
 
-1. Last checked: 2023-07-28
+1. 最終確認: 2023-07-28
 
-We also think it's better for the security of the VPN provider's private keys if they use [dedicated servers](https://en.wikipedia.org/wiki/Dedicated_hosting_service), instead of cheaper shared solutions (with other customers) such as [virtual private servers](https://en.wikipedia.org/wiki/Virtual_private_server).
+また、VPNプロバイダの秘密鍵のセキュリティを考えると、できれば[バーチャルプライベートサーバー](https://en.wikipedia.org/wiki/Virtual_private_server)のような安価な(他の顧客との)共有ソリューションではなく[専用サーバー](https://en.wikipedia.org/wiki/Dedicated_hosting_service)を使用したほうがいいと考えています。
 
 #### :material-check:{ .pg-green } 独立監査済み
 
@@ -141,11 +141,11 @@ In addition to accepting credit/debit cards and PayPal, IVPN accepts Bitcoin, **
 
 #### :material-check:{ .pg-green } WireGuard対応
 
-IVPN supports the WireGuard® protocol. [WireGuard](https://www.wireguard.com) is a newer protocol that uses state-of-the-art [cryptography](https://www.wireguard.com/protocol/). Additionally, WireGuard aims to be simpler and more performant.
+IVPN supports the WireGuard® protocol. [WireGuard](https://www.wireguard.com)は最先端の[暗号化](https://www.wireguard.com/protocol/)を使用する新しいプロトコルです。 加えて、WireGuardはよりシンプルかつより高性能であることを目指しています。
 
 IVPN [recommends](https://www.ivpn.net/wireguard/) the use of WireGuard with their service and, as such, the protocol is the default on all of IVPN's apps. IVPN also offers a WireGuard configuration generator for use with the official WireGuard [apps](https://www.wireguard.com/install/).
 
-#### :material-alert-outline:{ .pg-orange } Remote Port Forwarding
+#### :material-alert-outline:{ .pg-orange } リモートポートフォワーディング
 
 IVPN previously supported port forwarding, but removed the option in [June 2023](https://www.ivpn.net/blog/gradual-removal-of-port-forwarding). Missing this feature could negatively impact certain applications, especially peer-to-peer applications like torrent clients.
 
@@ -182,18 +182,18 @@ IVPN clients support two factor authentication (Mullvad's clients do not). IVPN 
 
 #### :material-check:{ .pg-green } 43か国
 
-Mullvad has [servers in 43 countries](https://mullvad.net/servers/).(1) Picking a VPN provider with a server nearest to you will reduce latency of the network traffic you send. This is because of a shorter route (fewer hops) to the destination.
+Mullvadは[43カ国にサーバー](https://mullvad.net/servers/)を所有しており、(1) VPNプロバイダを最寄りのサーバに選択することで送信するネットワークトラフィックのレイテンシが軽減されます。 これは目的地までのルートが短い(ホップが少ない) ことによります。
 { .annotate }
 
-1. Last checked: 2023-07-28
+1. 最終確認: 2023-07-28
 
-We also think it's better for the security of the VPN provider's private keys if they use [dedicated servers](https://en.wikipedia.org/wiki/Dedicated_hosting_service), instead of cheaper shared solutions (with other customers) such as [virtual private servers](https://en.wikipedia.org/wiki/Virtual_private_server).
+また、VPNプロバイダの秘密鍵のセキュリティを考えると、できれば[バーチャルプライベートサーバー](https://en.wikipedia.org/wiki/Virtual_private_server)のような安価な(他の顧客との)共有ソリューションではなく[専用サーバー](https://en.wikipedia.org/wiki/Dedicated_hosting_service)を使用したほうがいいと考えています。
 
 #### :material-check:{ .pg-green } 独立監査済み
 
-Mullvad's VPN clients have been audited by Cure53 and Assured AB in a pentest report [published at cure53.de](https://cure53.de/pentest-report_mullvad_v2.pdf). The security researchers concluded:
+MullvadのVPNクライアントはCure53とAssured ABによる[cure53.deに公開された](https://cure53.de/pentest-report_mullvad_v2.pdf)ペンテストレポートで監査を受けました。 セキュリティ研究者たちは以下のように結論づけました:
 
-> Cure53 and Assured AB are happy with the results of the audit and the software leaves an overall positive impression. With security dedication of the in-house team at the Mullvad VPN compound, the testers have no doubts about the project being on the right track from a security standpoint.
+> Cure53とAssured ABは監査の結果に満足しており、このソフトウェアは全体的に好印象を残した。 With security dedication of the in-house team at the Mullvad VPN compound, the testers have no doubts about the project being on the right track from a security standpoint.
 
 In 2020 a second audit [was announced](https://mullvad.net/blog/2020/6/25/results-available-audit-mullvad-app/) and the [final audit report](https://cure53.de/pentest-report_mullvad_2020_v2.pdf) was made available on Cure53's website:
 
@@ -211,7 +211,7 @@ Mullvad, in addition to accepting credit/debit cards and PayPal, accepts Bitcoin
 
 #### :material-check:{ .pg-green } WireGuard対応
 
-Mullvad supports the WireGuard® protocol. [WireGuard](https://www.wireguard.com) is a newer protocol that uses state-of-the-art [cryptography](https://www.wireguard.com/protocol/). Additionally, WireGuard aims to be simpler and more performant.
+Mullvad supports the WireGuard® protocol. [WireGuard](https://www.wireguard.com)は最先端の[暗号化](https://www.wireguard.com/protocol/)を使用する新しいプロトコルです。 加えて、WireGuardはよりシンプルかつより高性能であることを目指しています。
 
 Mullvad [recommends](https://mullvad.net/en/help/why-wireguard/) the use of WireGuard with their service. It is the default or only protocol on Mullvad's Android, iOS, macOS, and Linux apps, but on Windows you have to [manually enable](https://mullvad.net/en/help/how-turn-wireguard-mullvad-app/) WireGuard. Mullvad also offers a WireGuard configuration generator for use with the official WireGuard [apps](https://www.wireguard.com/install/).
 
@@ -219,7 +219,7 @@ Mullvad [recommends](https://mullvad.net/en/help/why-wireguard/) the use of Wire
 
 Mullvad allows you to [access services hosted on IPv6](https://mullvad.net/en/blog/2014/9/15/ipv6-support/), as opposed to other providers which block IPv6 connections.
 
-#### :material-alert-outline:{ .pg-orange } Remote Port Forwarding
+#### :material-alert-outline:{ .pg-orange } リモートポートフォワーディング
 
 Mullvad previously supported port forwarding, but removed the option in [May 2023](https://mullvad.net/en/blog/2023/5/29/removing-the-support-for-forwarded-ports/). Missing this feature could negatively impact certain applications, especially peer-to-peer applications like torrent clients.
 

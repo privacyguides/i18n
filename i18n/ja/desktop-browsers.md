@@ -202,7 +202,7 @@ Arkenfoxは、キャンバスのランダム化やFirefoxの組み込みのフ�
     
     **Brave Browser** には、コンテンツブロッカーと [いくつかのプライバシー機能](https://brave.com/privacy-features/) が内蔵されていて、その多くがデフォルトで有効になっています。
     
-    Brave is built upon the Chromium web browser project, so it should feel familiar and have minimal website compatibility issues.
+    BraveはChromiumウェブブラウザプロジェクトに基づいて構築されているため、お馴染みの使用感、最小限のウェブサイトの互換性問題となっています。
     
     [:octicons-home-16: ホームページ](https://brave.com/ja/){ .md-button .md-button--primary }
     [:simple-torbrowser:](https://brave4u7jddbv7cyviptqjc7jusxh72uik7zt6adtckl5f4nwy2v72qd.onion){ .card-link title="Onion Service" }
@@ -210,14 +210,14 @@ Arkenfoxは、キャンバスのランダム化やFirefoxの組み込みのフ�
     [:octicons-info-16:](https://support.brave.com/hc/en-us/categories/360006507272){ .card-link title=ドキュメント}
     [:octicons-code-16:](https://github.com/brave/brave-browser){ .card-link title="ソースコード" }
     
-    ??? downloads annotate
+    ??? ダウンロード
     
         - [:simple-github: GitHub](https://github.com/brave/brave-browser/releases)
         - [:simple-windows11: Windows](https://brave.com/download/)
         - [:simple-apple: macOS](https://brave.com/download/)
         - [:simple-linux: Linux](https://brave.com/linux/) (1)
 
-    1. We advise against using the Flatpak version of Brave, as it replaces Chromium's sandbox with Flatpak's, which is less effective. Additionally, the package is not maintained by Brave Software, Inc.
+    1. FlatpakバージョンのBraveを使用した場合、ChromiumサンドボックスがFlatpakのものに置き換えられてしまうため、これはおすすめしません。 さらに、このパッケージはBrave Software, Inc. によるメンテナンスがされていません。
 
 ### 推奨する設定
 
@@ -227,9 +227,9 @@ Arkenfoxは、キャンバスのランダム化やFirefoxの組み込みのフ�
 
 ##### Shields
 
-Brave includes some anti-fingerprinting measures in its [Shields](https://support.brave.com/hc/en-us/articles/360022973471-What-is-Shields-) feature. We suggest configuring these options [globally](https://support.brave.com/hc/en-us/articles/360023646212-How-do-I-configure-global-and-site-specific-Shields-settings-) across all pages that you visit.
+Braveは[Shields](https://support.brave.com/hc/en-us/articles/360022973471-What-is-Shields-)の機能にいくつかのフィンガープリント対策を盛り込んでいます。 これらのオプションを訪問したすべてのページにおいて[グローバルに](https://support.brave.com/hc/en-us/articles/360023646212-How-do-I-configure-global-and-site-specific-Shields-settings-)設定することをおすすめします。
 
-Shields' options can be downgraded on a per-site basis as needed, but by default we recommend setting the following:
+Shieldsのオプションは必要に応じてサイトごとにダウングレードできますが、デフォルトでは以下の設定をおすすめします。
 
 <div class="annotate" markdown>
 
@@ -245,7 +245,7 @@ Shields' options can be downgraded on a per-site basis as needed, but by default
 
 </div>
 
-1. This option provides functionality similar to uBlock Origin's advanced [blocking modes](https://github.com/gorhill/uBlock/wiki/Blocking-mode) or the [NoScript](https://noscript.net/) extension.
+1. このオプションはuBlock Originの高度な[ブロックモード](https://github.com/gorhill/uBlock/wiki/Blocking-mode)や[NoScript](https://noscript.net/)拡張機能に似た機能を提供します。
 
 ##### ソーシャルメディアのブロック
 
@@ -270,18 +270,18 @@ Shields' options can be downgraded on a per-site basis as needed, but by default
 
 </div>
 
-1. Brave is **not** as resistant to fingerprinting as the Tor Browser and far fewer people use Brave with Tor, so you will stand out. Where [strong anonymity is required](https://support.brave.com/hc/en-us/articles/360018121491-What-is-a-Private-Window-with-Tor-Connectivity-) use the [Tor Browser](tor.md#tor-browser).
+1. BraveはTor Browserほどフィンガープリントに強く**なく**、BraveでTorを使う人はずっと少ないので目立つでしょう。 [強力な匿名性が必要](https://support.brave.com/hc/en-us/articles/360018121491-What-is-a-Private-Window-with-Tor-Connectivity-)な場合には[Tor Browser](tor.md#tor-browser)を使用してください。
 
 ##### 拡張機能
 
-Disable built-in extensions you do not use in **Extensions**
+使わない組み込み**拡張機能**は無効にしてください。
 
 - [ ] Uncheck **Hangouts**
 - [ ] Uncheck **WebTorrent**
 
 ##### Web3
 
-Brave's Web3 features can potentially add to your browser fingerprint and attack surface. Unless you use any of features, they should be disabled.
+BraveのWeb3機能はブラウザのフィンガープリントなど攻撃面を潜在的に増やす可能性があります。 どの機能も使用しないなら、無効にしておくべきです。
 
 - Select **Extensions (no fallback)** under Default Ethereum wallet and Default Solana wallet
 - Set **Method to resolve IPFS resources** to **Disabled**
@@ -294,11 +294,11 @@ Brave's Web3 features can potentially add to your browser fingerprint and attack
 
 </div>
 
-1. This option is not present on all platforms.
+1. このオプションはすべてのプラットフォームにあるわけではありません。
 
 #### 同期
 
-[Brave Sync](https://support.brave.com/hc/en-us/articles/360059793111-Understanding-Brave-Sync) allows your browsing data (history, bookmarks, etc.) to be accessible on all your devices without requiring an account and protects it with E2EE.
+[Brave Sync](https://support.brave.com/hc/en-us/articles/360059793111-Understanding-Brave-Sync)は、あなたのブラウジングデータ(履歴、ブックマークなど)をアカウント不要ですべてのデバイスで利用可能にし、それをE2EEで保護します。
 
 #### Brave Rewards と Wallet
 

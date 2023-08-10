@@ -206,7 +206,7 @@ Skiff Mail does not use OpenPGP. Emails are only encrypted with E2EE to other Sk
 
 Skiff Mail accounts do not expire, but unpaid accounts will be prompted to remove any enabled paid features (such as additional aliases) or renew their plan before the account can be used.
 
-#### :material-information-outline:{ .pg-blue } Additional Functionality
+#### :material-information-outline:{ .pg-blue } 追加機能
 
 Skiff additionally offers [workspace productivity features](https://discuss.privacyguides.net/t/skiff-pages-drive-productivity-tools/11758/13), but we still prefer [alternative](productivity.md) options for collaborating and file sharing at this time.
 
