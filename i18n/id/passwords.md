@@ -306,24 +306,24 @@ KeePassXC menyimpan data ekspornya sebagai file [CSV](https://en.wikipedia.org/w
     
         - [:simple-appstore: App Store](https://apps.apple.com/app/strongbox-keepass-pwsafe/id897283731)
 
-Selain itu, ada versi khusus offline yang ditawarkan: [Strongbox Zero](https://apps.apple.com/app/strongbox-keepass-pwsafe/id1581589638). This version is stripped down in an attempt to reduce attack surface.
+Selain itu, ada versi khusus offline yang ditawarkan: [Strongbox Zero](https://apps.apple.com/app/strongbox-keepass-pwsafe/id1581589638). Versi ini sudah diminimalkan dalam upaya untuk mengurangi permukaan serangan.
 
 ### Baris perintah
 
-These products are minimal password managers that can be used within scripting applications.
+Produk-produk ini adalah pengelola kata sandi minimal yang dapat digunakan dalam aplikasi skrip.
 
 #### gopass
 
 !!! recommendation
 
-    ![gopass logo](assets/img/password-management/gopass.svg){ align=right }
+    ![logo gopass](assets/img/password-management/gopass.svg){ align=right }
     
-    **gopass** is a password manager for the command line written in Go. It works on all major desktop and server operating systems (Linux, macOS, BSD, Windows).
+    **gopass** adalah pengelola kata sandi untuk baris perintah yang ditulis dalam Go. Aplikasi ini bekerja pada semua sistem operasi desktop dan server utama (Linux, macOS, BSD, Windows).
     
-    [:octicons-home-16: Homepage](https://www.gopass.pw){ .md-button .md-button--primary }
-    [:octicons-info-16:](https://github.com/gopasspw/gopass/tree/master/docs){ .card-link title=Documentation}
-    [:octicons-code-16:](https://github.com/gopasspw/gopass){ .card-link title="Source Code" }
-    [:octicons-heart-16:](https://github.com/sponsors/dominikschulz){ .card-link title=Contribute }
+    [:octicons-home-16: Homepage](https://www.keepassdx.com){ .md-button .md-button--primary }
+    [:octicons-info-16:](https://github.com/gopasspw/gopass/wiki){ .card-link title=Dokumentasi}
+    [:octicons-code-16:](https://github.com/Kunzisoft/KeePassDX){ .card-link title="Kode Sumber" }
+    [:octicons-heart-16:](https://github.com/sponsors/dominikschulz){ .card-link title=Kontribusi }
     
     ??? downloads
     
