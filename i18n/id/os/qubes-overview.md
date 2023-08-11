@@ -39,21 +39,21 @@ Anda dapat [menyalin dan menempelkan teks](https://www.qubes-os.org/doc/how-to-c
 
 ### Pertukaran File
 
-To copy and paste files and directories (folders) from one *qube* to another, you can use the option **Copy to Other AppVM...** or **Move to Other AppVM...**. Perbedaannya adalah bahwa opsi **Pindahkan** akan menghapus file asli. Either option will protect your clipboard from being leaked to any other *qubes*. This is more secure than air-gapped file transfer. An air-gapped computer will still be forced to parse partitions or file systems. Hal itu tidak diperlukan dengan sistem penyalinan antar-qube.
+Untuk menyalin dan menempelkan file dan direktori (folder) dari satu *qube* ke *qube* lainnya, Anda dapat menggunakan opsi **Copy to Other AppVM...** atau **Move to Other AppVM...**. Perbedaannya adalah bahwa opsi **Pindahkan** akan menghapus file asli. Opsi mana pun akan melindungi papan klip Anda agar tidak bocor ke *qubes* lainnya. Ini lebih aman daripada transfer file melalui udara. Komputer yang memiliki celah udara masih akan dipaksa untuk mengurai partisi atau sistem file. Hal itu tidak diperlukan dengan sistem penyalinan antar-qube.
 
-??? "Qubes do not have their own filesystems."
+??? "Qubes tidak memiliki sistem file sendiri."
 
-    You can [copy and move files](https://www.qubes-os.org/doc/how-to-copy-and-move-files/) between *qubes*. Ketika melakukan hal tersebut, perubahan tidak langsung dilakukan dan dapat dengan mudah dibatalkan jika terjadi kecelakaan. When you run a *qube*, it does not have a persistent filesystem. You can create and delete files, but these changes are ephemeral.
+    Anda dapat [menyalin dan memindahkan file](https://www.qubes-os.org/doc/how-to-copy-and-move-files/) di antara *qubes*. Ketika melakukan hal tersebut, perubahan tidak langsung dilakukan dan dapat dengan mudah dibatalkan jika terjadi kecelakaan. Ketika Anda menjalankan *qube*, ia tidak memiliki sistem berkas yang persisten. Anda dapat membuat dan menghapus file, tetapi perubahan ini bersifat sementara.
 
 ### Interaksi Antar-VM
 
-The [qrexec framework](https://www.qubes-os.org/doc/qrexec/) is a core part of Qubes which allows communication between domains. Ini dibangun di atas pustaka Xen *vchan*, yang memfasilitasi [isolasi melalui kebijakan](https://www.qubes-os.org/news/2020/06/22/new-qrexec-policy-system/).
+[Kerangka kerja qrexec](https://www.qubes-os.org/doc/qrexec/) adalah bagian inti dari Qubes yang memungkinkan komunikasi antar domain. Ini dibangun di atas pustaka Xen *vchan*, yang memfasilitasi [isolasi melalui kebijakan](https://www.qubes-os.org/news/2020/06/22/new-qrexec-policy-system/).
 
 ## Sumber Daya Tambahan
 
 Untuk informasi tambahan, kami menganjurkan Anda untuk membaca halaman dokumentasi Qubes OS yang luas yang terletak di [Situs Web Qubes OS](https://www.qubes-os.org/doc/). Salinan offline dapat diunduh dari [repositori dokumentasi](https://github.com/QubesOS/qubes-doc) Qubes OS.
 
-- [Arguably the world's most secure operating system](https://www.opentech.fund/news/qubes-os-arguably-the-worlds-most-secure-operating-system-motherboard/) (Open Technology Fund)
+- [Sistem operasi paling aman di dunia](https://www.opentech.fund/news/qubes-os-arguably-the-worlds-most-secure-operating-system-motherboard/) (Open Technology Fund)
 - [Software compartmentalization vs. physical separation](https://invisiblethingslab.com/resources/2014/Software_compartmentalization_vs_physical_separation.pdf) (J. Rutkowska)
 - [Partitioning my digital life into security domains](https://blog.invisiblethings.org/2011/03/13/partitioning-my-digital-life-into.html) (J. Rutkowska)
-- [Related Articles](https://www.qubes-os.org/news/categories/#articles) (Qubes OS)
+- [Artikel Terkait](https://www.qubes-os.org/news/categories/#articles) (Qubes OS)

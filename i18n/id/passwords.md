@@ -306,7 +306,7 @@ KeePassXC menyimpan data ekspornya sebagai file [CSV](https://en.wikipedia.org/w
     
         - [:simple-appstore: App Store](https://apps.apple.com/app/strongbox-keepass-pwsafe/id897283731)
 
-Additionally, there is an offline-only version offered: [Strongbox Zero](https://apps.apple.com/app/strongbox-keepass-pwsafe/id1581589638). This version is stripped down in an attempt to reduce attack surface.
+Selain itu, ada versi khusus offline yang ditawarkan: [Strongbox Zero](https://apps.apple.com/app/strongbox-keepass-pwsafe/id1581589638). This version is stripped down in an attempt to reduce attack surface.
 
 ### Baris perintah
 
