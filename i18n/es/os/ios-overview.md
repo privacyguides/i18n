@@ -67,32 +67,32 @@ En la parte superior de la aplicación **Ajustes**, verás tu nombre y tu foto d
 
 Muchos otros ajustes relacionados con la privacidad se pueden encontrar en la aplicación **Ajustes**.
 
-#### Airplane Mode
+#### Modo Avión
 
-Enabling **Airplane Mode** stops your phone from contacting cell towers. You will still be able to connect to Wi-Fi and Bluetooth, so whenever you are connected to Wi-Fi you can turn this setting on.
+Activar el **Modo Avión**, evita que tu teléfono entre en contacto con las torres de telefonía móvil. Seguirás pudiendo conectarte al Wi-Fi y Bluetooth, así que siempre que estés conectado al Wi-Fi puedes activar este ajuste.
 
 #### Wi-Fi
 
-You can enable hardware address randomization to protect you from tracking across Wi-Fi networks. On the network you are currently connected to, press the :material-information: button:
+Puedes activar la aleatorización de direcciones de hardware para protegerte del rastreo a través de redes Wi-Fi. En la red a la que está conectado actualmente, pulsa el :material-information: botón :
 
-- [x] Turn on **Private Wi-Fi Address**
+- [x] Activa **Dirección Wi-Fi privada**
 
-You also have the option to **Limit IP Address Tracking**. This is similar to iCloud Private Relay but only affects connections to "known trackers." Because it only affects connections to potentially malicious servers, this setting is probably fine to leave enabled, but if you don't want *any* traffic to be routed through Apple's servers, you should turn it off.
+También tienes la opción de **Limitar rastreo de dirección IP**. Esto es similar a iCloud Private Relay pero sólo afecta a las conexiones con "rastreadores conocidos". Dado que sólo afecta a las conexiones con servidores potencialmente maliciosos, probablemente esté bien dejar activada esta opción, pero si no quieres que enrute *ningún* tráfico a través de los servidores de Apple, deberías desactivarla.
 
 #### Bluetooth
 
-**Bluetooth** should be disabled when you aren't using it as it increases your attack surface. Disabling Bluetooth (or Wi-Fi) via the Control Center only disables it temporarily: you must switch it off in Settings for disabling it to remain effective.
+**Bluetooth** debe estar desactivado cuando no se esté utilizando, ya que aumenta la superficie de ataque. Desactivar el Bluetooth (o Wi-Fi) a través del Centro de Control sólo lo desactiva temporalmente: debes desactivarlo en Ajustes para que el efecto de la desactivación se mantenga.
 
-- [ ] Turn off **Bluetooth**
+- [ ] Desactiva **Bluetooth**
 
 #### General
 
-Your iPhone's device name will by default contain your first name, and this will be visible to anyone on networks you connect to. You should change this to something more generic, like "iPhone." Select **About** > **Name** and enter the device name you prefer.
+El nombre de dispositivo de tu iPhone contendrá por defecto tu nombre de pila, y éste será visible para cualquiera en las redes a las que te conectes. Deberías cambiarlo por algo más genérico, como "iPhone". Selecciona **Información** > **Nombre** e introduce el nombre de dispositivo que prefieras.
 
-It is important to install **Software Updates** frequently to get the latest security fixes. You can enable **Automatic Updates** to keep your phone up-to-date without needing to constantly check for updates. Select **Software Update** > **Automatic Updates**:
+Es importante instalar con frecuencia **Actualizaciones de Software** para obtener las últimas correcciones de seguridad. Puedes activar **Actualizaciones Automáticas** para mantener tu teléfono al día sin necesidad de buscar actualizaciones constantemente. Selecciona **Actualización de Software** > **Actualizaciones Automáticas**:
 
-- [x] Turn on **Download iOS Updates**
-- [x] Turn on **Install iOS Updates**
+- [x] Activa **Descargar Actualizaciones de iOS**
+- [x] Activa **Instalar Actualizaciones de iOS**
 - [x] Turn on **Security Responses & System Files**
 
 **AirDrop** allows you to easily transfer files, but it can allow strangers to send you files you do not want.
