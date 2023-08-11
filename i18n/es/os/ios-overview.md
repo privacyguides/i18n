@@ -93,58 +93,58 @@ Es importante instalar con frecuencia **Actualizaciones de Software** para obten
 
 - [x] Activa **Descargar Actualizaciones de iOS**
 - [x] Activa **Instalar Actualizaciones de iOS**
-- [x] Turn on **Security Responses & System Files**
+- [x] Activa **Respuestas de Seguridad y Archivos del Sistema**
 
-**AirDrop** allows you to easily transfer files, but it can allow strangers to send you files you do not want.
+**AirDrop** te permite transferir archivos fácilmente, pero puede permitir que extraños te envíen archivos que no deseas.
 
-- [x] Select **AirDrop** > **Receiving Off**
+- [x] Selecciona **AirDrop** > **Recepción Desactivada**
 
-**AirPlay** lets you seamlessly stream content from your iPhone to a TV; however, you might not always want this. Select **AirPlay & Handoff** > **Automatically AirPlay to TVs**:
+**AirPlay** te permite transmitir sin interrupciones contenidos desde tu iPhone a un televisor; sin embargo, es posible que no siempre quieras hacerlo. Selecciona **AirPlay y Handoff** > **Transmisión por AirPlay Automática**:
 
-- [x] Select **Never** or **Ask**
+- [x] Selecciona **Nunca** o **Preguntar**
 
-**Background App Refresh** allows your apps to refresh their content while you're not using them. This may cause them to make unwanted connections. Turning this off can also save battery life, but it may affect an app's ability to receive updated information, particularly weather and messaging apps.
+**Actualización en Segundo Plano** permite que tus aplicaciones actualicen su contenido mientras no las estás utilizando. Esto puede provocar que realicen conexiones no deseadas. Desactivar esta opción también puede ahorrar batería, pero puede afectar a la capacidad de una aplicación para recibir información actualizada, en particular las aplicaciones meteorológicas y de mensajería.
 
-Select **Background App Refresh** and switch off any apps you don't want to continue refreshing in the background. If you don't want any apps to refresh in the background, you can select **Background App Refresh** again and turn it **Off**.
+Selecciona **Actualización en Segundo Plano** y desactiva las aplicaciones que no quieras que sigan actualizándose en segundo plano. Si no quieres que ninguna aplicación se actualice en segundo plano, puedes volver a seleccionar **Actualización en Segundo Plano** y **desactivarla **.
 
-#### Siri & Search
+#### Siri y Buscar
 
-If you don't want anyone to be able to control your phone with Siri when it is locked, you can turn that off here.
+Si no quieres que nadie pueda controlar tu teléfono con Siri cuando está bloqueado, puedes desactivarlo aquí.
 
-- [ ] Turn off **Allow Siri When Locked**
+- [ ] Desactiva **Siri con Pantalla de Bloqueo**
 
-#### Face ID/Touch ID & Passcode
+#### Face ID/Touch ID y Código
 
-Setting a strong password on your phone is the most important step you can take for physical device security. You'll have to make tradeoffs here between security and convenience: A longer password will be annoying to type in every time, but a shorter password or PIN will be easier to guess. Setting up Face ID or Touch ID along with a strong password can be a good compromise between usability and security.
+Establecer una contraseña segura en tu teléfono es el paso más importante que puedes dar para la seguridad física del dispositivo. Tendrás que elegir entre seguridad y comodidad: Una contraseña más larga será molesta de escribir cada vez, pero una contraseña más corta o un PIN serán más fáciles de adivinar. Configurar Face ID o Touch ID junto con una contraseña segura puede ser un buen compromiso entre usabilidad y seguridad.
 
-Select **Turn Passcode On** or **Change Passcode** > **Passcode Options** > **Custom Alphanumeric Code**. Make sure that you create a [secure password](https://www.privacyguides.org/basics/passwords-overview/).
+Selecciona **Activar Código** o **Cambiar Código** > **Opciones de Código** > **Código Alfanumérico Personalizado**. Asegúrate de crear una [contraseña segura](https://www.privacyguides.org/basics/passwords-overview/).
 
-If you wish to use Face ID or Touch ID, you can go ahead and set it up now. Your phone will use the password you set up earlier as a fallback in case your biometric verification fails. Biometric unlock methods are primarily a convenience, although they do stop surveillance cameras or people over your shoulder from watching you input your passcode.
+Si deseas utilizar Face ID o Touch ID, puedes seguir adelante y configurarlo ahora. Tu teléfono utilizará la contraseña que configuraste anteriormente como alternativa en caso de que falle la verificación biométrica. Los métodos de desbloqueo biométrico son ante todo una ventaja, aunque impiden que las cámaras de vigilancia o las personas por encima de su hombro te vean introducir el código.
 
-If you use biometrics, you should know how to turn them off quickly in an emergency. Holding down the side or power button and *either* volume button until you see the Slide to Power Off slider will disable biometrics, requiring your passcode to unlock. Your passcode will also be required after device restarts.
+Si utilizas datos biométricos, debes saber cómo desactivarlos rápidamente en caso de emergencia. Si mantienes pulsado el botón lateral o de encendido y *o* el botón de volumen hasta que veas el control deslizante para Apagar, se desactivará la biometría y tendrás que introducir el código para desbloquear. El código también será necesario después de reiniciar el dispositivo.
 
-On some older devices, you may have to press the power button five times to disable biometrics instead, or for devices with Touch ID you may just have to hold down the power button and nothing else. Make sure you try this in advance so you know which method works for your device.
+En algunos dispositivos antiguos, puede que tengas que pulsar el botón de encendido cinco veces para desactivar la biometría en su lugar, o para los dispositivos con Touch ID puede que sólo tengas que mantener pulsado el botón de encendido y nada más. Asegúrate de probarlo con antelación para saber qué método funciona con tu dispositivo.
 
-**Allow Access When Locked** gives you options for what you can allow when your phone is locked. The more of these options you disable, the less someone without your password can do, but the less convenient it will be for you. Pick and choose which of these you don't want someone to have access to if they get their hands on your phone.
+**Permitir Acceso al Estar Bloqueado** te da opciones para lo que puedes permitir cuando tu teléfono está bloqueado. Cuantas más de estas opciones deshabilites, menos podrá hacer alguien sin tu contraseña, pero menos cómodo será para ti. Elige a cuáles de ellos no quieres que alguien tenga acceso si llega a poner sus manos en tu teléfono.
 
-- [ ] Turn off **Today View and Search**
-- [ ] Turn off **Notification Center**
-- [ ] Turn off **Control Center**
-- [ ] Turn off **Lock Screen Widgets**
-- [ ] Turn off **Siri**
-- [ ] Turn off **Reply with Message**
-- [ ] Turn off **Home Control**
-- [ ] Turn off **Wallet**
-- [ ] Turn off **Return Missed Calls**
-- [ ] Turn off **USB Accessories**
+- [ ] Desactiva **Visualización Hoy y Búsqueda**
+- [ ] Desactiva **Centro de Notificaciones**
+- [ ] Desactiva **Centro de Control**
+- [ ] Desactiva **Widgets (pantalla bloqueada)**
+- [ ] Desactiva **Siri**
+- [ ] Desactiva **Responder con Mensaje**
+- [ ] Desactiva **Control de Casa**
+- [ ] Desactiva **Cartera**
+- [ ] Desactiva **Devolver Llamadas Perdidas**
+- [ ] Desactiva **Accesorios USB**
 
-iPhones are already resistant to brute-force attacks by making you wait long periods of time after multiple failed attempts; however, there have historically been exploits to get around this. To be extra safe, you can set your phone to wipe itself after 10 failed passcode attempts.
+Los iPhones ya son resistentes a los ataques de fuerza bruta, ya que te hacen esperar largos periodos de tiempo después de varios intentos fallidos; sin embargo, históricamente ha habido exploits para sortear esto. Para mayor seguridad, puedes configurar tu teléfono para que se borre automáticamente después de 10 intentos fallidos.
 
 !!! warning "Advertencia"
 
-    With this setting enabled, someone could intentionally wipe your phone by entering the wrong password many times. Make sure you have proper backups and only enable this setting if you feel comfortable with it.
+    Con esta opción activada, alguien podría borrar intencionadamente tu teléfono introduciendo muchas veces una contraseña incorrecta. Asegúrate de tener copias de seguridad adecuadas y activa esta configuración sólo si te sientes cómodo con ella.
 
-- [x] Turn on **Erase Data**
+- [x] Activa **Borrar Datos**
 
 #### Privacidad
 
