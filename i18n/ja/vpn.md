@@ -64,7 +64,7 @@ Proton VPNは[68カ国にサーバー](https://protonvpn.com/vpn-servers)を所�
 
 #### :material-check:{ .pg-green } 独立監査済み
 
-2020年1月時点で、Proton VPNはSEC Consultによる独立監査を受けました。 SEC ConsultはProton VPNのWindows、Android、iOSアプリに中、低リスクの脆弱性を発見しましたが、これらすべてはProton VPNによって報告書が公表される前に「適切に修正」されました。 確認された問題はいずれも攻撃者がデバイスやトラフィックへリモートアクセスを可能にするものではありませんでした。 [protonvpn.com](https://protonvpn.com/blog/open-source/)で各プラットフォームの個別レポートを確認できます。 2022年4月、Proton VPNは[別の監査](https://protonvpn.com/blog/no-logs-audit/)を受け、報告書が[Securitumによって作成されました。](https://protonvpn.com/blog/wp-content/uploads/2022/04/securitum-protonvpn-nologs-20220330.pdf) [Securitum](https://research.securitum.com)により2021年11月9日 [監査証明書](https://proton.me/blog/security-audit-all-proton-apps) がProton VPNアプリにおくられました。
+2020年1月時点で、Proton VPNはSEC Consultによる独立監査を受けました。 SEC ConsultはProton VPNのWindows、Android、iOSアプリに中、低リスクの脆弱性を発見しましたが、これらすべてはProton VPNによって報告書が公表される前に「適切に修正」されました。 確認された問題はいずれも攻撃者がデバイスやトラフィックへリモートアクセスを可能にするものではありませんでした。 [protonvpn.com](https://protonvpn.com/blog/open-source/)で各プラットフォームの個別レポートを確認できます。 2022年4月、Proton VPNは[別の監査](https://protonvpn.com/blog/no-logs-audit/)を受け、報告書が[Securitumによって作成されました。](https://protonvpn.com/blog/wp-content/uploads/2022/04/securitum-protonvpn-nologs-20220330.pdf) 2021年11月9日に[Securitum](https://research.securitum.com)から [監査証明書](https://proton.me/blog/security-audit-all-proton-apps) がProton VPNアプリに対して提供されました。
 
 #### :material-check:{ .pg-green } オープンソースクライアント
 
@@ -86,7 +86,7 @@ Proton VPNは現在NAT-PMP経由で、リース時間は60秒の一時的なリ�
 
 #### :material-check:{ .pg-green } モバイルクライアント
 
-標準的なOpenVPN設定ファイルに加えてProton VPNは[App Store](https://apps.apple.com/us/app/protonvpn-fast-secure-vpn/id1437005085)、[Google Play](https://play.google.com/store/apps/details?id=ch.protonvpn.android&hl=en_US)、そして[GitHub](https://github.com/ProtonVPN/android-app/releases)用にモバイルクライアントを用意しており、サーバーへの接続を簡単にしています。
+標準的なOpenVPN構成ファイルに加えてProton VPNは[App Store](https://apps.apple.com/us/app/protonvpn-fast-secure-vpn/id1437005085)、[Google Play](https://play.google.com/store/apps/details?id=ch.protonvpn.android&hl=en_US)、そして[GitHub](https://github.com/ProtonVPN/android-app/releases)用にモバイルクライアントを用意しており、サーバーへの簡単な接続を可能にしています。
 
 #### :material-information-outline:{ .pg-blue } 追加機能
 

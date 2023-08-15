@@ -202,7 +202,7 @@ Arkenfoxは、キャンバスのランダム化やFirefoxの組み込みのフ�
     
     **Brave Browser** には、コンテンツブロッカーと [いくつかのプライバシー機能](https://brave.com/privacy-features/) が内蔵されていて、その多くがデフォルトで有効になっています。
     
-    BraveはChromiumウェブブラウザプロジェクトに基づいて構築されているため、お馴染みの使用感、最小限のウェブサイトの互換性問題となっています。
+    BraveはChromiumウェブブラウザプロジェクトに基づいて構築されているため、使い慣れた使用感、ウェブサイトの互換性問題が最小限に抑えられます。
     
     [:octicons-home-16: ホームページ](https://brave.com/ja/){ .md-button .md-button--primary }
     [:simple-torbrowser:](https://brave4u7jddbv7cyviptqjc7jusxh72uik7zt6adtckl5f4nwy2v72qd.onion){ .card-link title="Onion Service" }
@@ -217,7 +217,7 @@ Arkenfoxは、キャンバスのランダム化やFirefoxの組み込みのフ�
         - [:simple-apple: macOS](https://brave.com/download/)
         - [:simple-linux: Linux](https://brave.com/linux/) (1)
 
-    1. FlatpakバージョンのBraveを使用した場合、ChromiumサンドボックスがFlatpakのものに置き換えられてしまうため、これはおすすめしません。 さらに、このパッケージはBrave Software, Inc. によるメンテナンスがされていません。
+    1. FlatpakバージョンのBraveを使用した場合、ChromiumのサンドボックスがFlatpakのものに置き換えられてしまうため、推奨されません。 さらに、このパッケージはBrave Software, Inc. によるメンテナンスがされていません。
 
 ### 推奨する設定
 
@@ -270,7 +270,7 @@ Shieldsのオプションは必要に応じてサイトごとにダウングレ�
 
 </div>
 
-1. BraveはTor Browserほどフィンガープリントに強く**なく**、BraveでTorを使う人はずっと少ないので目立つでしょう。 [強力な匿名性が必要](https://support.brave.com/hc/en-us/articles/360018121491-What-is-a-Private-Window-with-Tor-Connectivity-)な場合には[Tor Browser](tor.md#tor-browser)を使用してください。
+1. BraveはTor Browserほどフィンガープリントに対して強く**なく**、BraveでTorを使う人はずっと少ないので目立つでしょう。 [強力な匿名性が必要](https://support.brave.com/hc/en-us/articles/360018121491-What-is-a-Private-Window-with-Tor-Connectivity-)な場合には[Tor Browser](tor.md#tor-browser)を使用してください。
 
 ##### 拡張機能
 
