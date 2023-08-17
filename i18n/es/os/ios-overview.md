@@ -148,37 +148,37 @@ Los iPhones ya son resistentes a los ataques de fuerza bruta, ya que te hacen es
 
 #### Privacidad
 
-**Location Services** allows you to use features like Find My and Maps. If you don't need these features, you can disable Location Services. Alternatively, you can review and pick which apps can use your location here. Select **Location Services**:
+**Localización** te permite utilizar funciones como Buscar y Mapas. Si no necesitas estas funciones, puedes desactivar Localización. Alternativamente, puede revisar y elegir qué aplicaciones pueden usar tu ubicación aquí. Selecciona **Localización**:
 
-- [ ] Turn off **Location Services**
+- [ ] Desactiva **Localización**
 
-You can decide to allow apps to request to **track** you here. Disabling this disallows all apps from tracking you with your phone's advertising ID. Select **Tracking**:
+Aquí puedes decidir si permites que las aplicaciones soliciten **rastrearte**. Desactivar esta opción impide que todas las aplicaciones te rastreen con el ID de publicidad de tu teléfono. Selecciona **Rastreo**:
 
-- [ ] Turn off **Allow Apps to Request to Track**
+- [ ] Desactiva **Permitir que las Apps Soliciten Rastrearte**
 
-You should turn off **Research Sensor & Usage Data** if you don't wish to participate in studies. Select **Research Sensor & Usage Data**:
+Deberías desactivar **Datos de Uso y de los Sensores** si no deseas participar en estudios. Selecciona **Datos de Uso y de los Sensores**:
 
-- [ ] Turn off **Sensor & Usage Data Collection**
+- [ ] Desactiva **Datos de Uso y de los Sensores**
 
-**Safety Check** allows you to quickly view and revoke certain people and apps that might have permission to access your data. Here you can perform an **Emergency Reset**, immediately resetting permissions for all people and apps which might have access to device resources, and you can **Manage Sharing & Access** which allows you to go through and customize who and what has access to your device and account resources.
+**Comprobación de Seguridad** te permite ver y revocar rápidamente a determinadas personas y aplicaciones que podrían tener permiso para acceder a tus datos. Aquí puedes realizar un **Restablecimiento de Emergencia**, restableciendo inmediatamente los permisos de todas las personas y aplicaciones que puedan tener acceso a los recursos del dispositivo, y puedes **Gestionar Accesos y Datos Compartidos;** que te permite revisar y personalizar quién y qué tiene acceso a los recursos de tu dispositivo y cuenta.
 
-You should disable analytics if you don't wish to send Apple usage data. Select **Analytics & Improvements**:
+Deberías desactivar los análisis si no deseas enviar datos de uso a Apple. Selecciona **Análisis y Mejoras**:
 
-- [ ] Turn off **Share iPhone Analytics** or **Share iPhone & Watch Analytics**
-- [ ] Turn off **Share iCloud Analytics**
-- [ ] Turn off **Improve Fitness+**
-- [ ] Turn off **Improve Safety**
-- [ ] Turn off **Improve Siri & Dictation**
+- [ ] Desactiva **Compartir Análisis (iPhone)** o **Compartir Análisis (iPhone y Apple Watch)**
+- [ ] Desactiva **Compartir Análisis (iCloud)**
+- [ ] Desactiva **Mejorar Fitness++**
+- [ ] Desactiva **Mejorar Seguridad**
+- [ ] Desactiva **Mejorar Siri y Dictado**
 
-Disable **Personalized Ads** if you don't want targeted ads. Select **Apple Advertising**
+Desactiva **Anuncios Personalizados** si no quieres anuncios personalizados. Selecciona **Publicidad de Apple**
 
-- [ ] Turn off **Personalized Ads**
+- [ ] Desactiva **Anuncios Personalizados**
 
-**App Privacy Report** is a built-in tool that allows you to see which permissions your apps are using. Select **App Privacy Report**:
+**Informe de Privacidad de las Apps** es una herramienta integrada que te permite ver qué permisos utilizan tus aplicaciones. Selecciona **Informe de Privacidad de las Apps**:
 
-- [x] Select **Turn On App Privacy Report**
+- [x] Selecciona **Activar el Informe de Privacidad de las Apps**
 
-[Lockdown Mode](https://blog.privacyguides.org/2022/10/27/macos-ventura-privacy-security-updates/#lockdown-mode) is a security setting you can enable to make your phone more resistant to attacks. Be aware that certain apps and features [won't work](https://support.apple.com/en-us/HT212650) as they do normally.
+[Modo de Aislamiento](https://blog.privacyguides.org/2022/10/27/macos-ventura-privacy-security-updates/#lockdown-mode) es un ajuste de seguridad que puedes activar para que tu teléfono sea más resistente a los ataques. Be aware that certain apps and features [won't work](https://support.apple.com/en-us/HT212650) as they do normally.
 
 - [x] Select **Turn On Lockdown Mode**
 
