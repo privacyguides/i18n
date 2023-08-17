@@ -178,36 +178,36 @@ Desactiva **Anuncios Personalizados** si no quieres anuncios personalizados. Sel
 
 - [x] Selecciona **Activar el Informe de Privacidad de las Apps**
 
-[Modo de Aislamiento](https://blog.privacyguides.org/2022/10/27/macos-ventura-privacy-security-updates/#lockdown-mode) es un ajuste de seguridad que puedes activar para que tu teléfono sea más resistente a los ataques. Be aware that certain apps and features [won't work](https://support.apple.com/en-us/HT212650) as they do normally.
+[Modo de Aislamiento](https://blog.privacyguides.org/2022/10/27/macos-ventura-privacy-security-updates/#lockdown-mode) es un ajuste de seguridad que puedes activar para que tu teléfono sea más resistente a los ataques. Ten en cuenta que algunas aplicaciones y funciones [no funcionarán](https://support.apple.com/en-us/HT212650) como lo hacen normalmente.
 
-- [x] Select **Turn On Lockdown Mode**
+- [x] Selecciona **Activar el Modo de Aislamiento**
 
-## Additional Advice
+## Consejo Adicional
 
-### E2EE Calls
+### Llamadas E2EE
 
-Normal phone calls made with the Phone app through your carrier are not E2EE. Both FaceTime Video and FaceTime Audio calls are E2EE, or you can use [another app](../real-time-communication.md) like Signal.
+Las llamadas telefónicas normales realizadas con la aplicación Teléfono a través de tu operador no son E2EE. Tanto las llamadas de FaceTime Vídeo como las de FaceTime Audio son E2EE, o puedes usar [otra app](../real-time-communication.md) como Signal.
 
-### Avoid Jailbreaking
+### Evita el Jailbreaking
 
-Jailbreaking an iPhone undermines its security and makes you vulnerable. Running untrusted, third-party software could cause your device to be infected with malware.
+El jailbreaking en un iPhone socava su seguridad y te hace vulnerable. Ejecutar software de terceros que no sea de confianza podría infectar tu dispositivo con malware.
 
-### Encrypted iMessage
+### iMessage Encriptado
 
-The color of the message bubble in the Messages app indicates whether your messages are E2EE or not. A blue bubble indicates that you're using iMessage with E2EE, while a green bubble indicates they're using the outdated SMS and MMS protocols. Currently, the only way to get E2EE in Messages is for both parties to be using iMessage on Apple devices.
+El color de la burbuja de mensajes en la aplicación Mensajes indica si tus mensajes son E2EE o no. Una burbuja azul indica que estás utilizando iMessage con E2EE, mientras que una burbuja verde indica que están utilizando los anticuados protocolos SMS y MMS. Actualmente, la única forma de obtener E2EE en Mensajes es que ambas partes utilicen iMessage en dispositivos Apple.
 
-If either you or your messaging partner have iCloud Backup enabled without Advanced Data Protection, the encryption key will be stored on Apple's servers, meaning they can access your messages. Additionally, iMessage's key exchange is not as secure as alternative implementations, like Signal (which allows you to view the recipients key and verify by QR code), so it shouldn't be relied on for particularly sensitive communications.
+Si tú o tu compañero de mensajería tenéis activada la Copia de Seguridad de iCloud sin Protección de Datos Avanzada, la clave de cifrado se almacenará en los servidores de Apple, lo que significa que podrán acceder a tus mensajes. Además, el intercambio de claves de iMessage no es tan seguro como otras implementaciones alternativas, como Signal (que permite ver la clave del destinatario y verificarla mediante un código QR), por lo que no se debería confiar en él para comunicaciones especialmente sensibles.
 
-### Blacking Out Faces/Information
+### Ocultar Caras/Información
 
-If you need to hide information in a photo, you can use Apple's built-in tools to do so. Open the photo you want to edit, press edit in the top right corner of the screen, then press the markup symbol at the top right. Press the plus at the bottom right of the screen, then press the rectangle icon. Now, you can place a rectangle anywhere on the image. Make sure to press the shape icon at the bottom left and select the filled-in rectangle. **Don't** use the highlighter to obfuscate information, because its opacity is not quite 100%.
+Si necesitas ocultar información en una foto, puedes utilizar las herramientas integradas de Apple para hacerlo. Abre la foto que quieras editar, pulsa Editar en la esquina superior derecha de la pantalla y, a continuación, pulsa el símbolo de marcado de la parte superior derecha. Pulsa el signo más en la parte inferior derecha de la pantalla y, a continuación, pulsa el icono del rectángulo. Ahora, puede colocar un rectángulo en cualquier lugar de la imagen. Asegúrate de pulsar el icono de forma de la parte inferior izquierda y selecciona el rectángulo relleno. **No** utilices el resaltador para ocultar información, ya que su opacidad no es del 100%.
 
-### iOS Betas
+### Betas de iOS
 
-Apple always makes beta versions of iOS available early for those that wish to help find and report bugs. We don't recommend installing beta software on your phone. Beta releases are potentially unstable and could have undiscovered security vulnerabilities.
+Apple siempre pone las versiones beta de iOS a disposición de quienes deseen ayudar a encontrar y notificar errores. No recomendamos instalar software beta en tu teléfono. Las versiones beta son potencialmente inestables y podrían tener vulnerabilidades de seguridad no descubiertas.
 
-## Security Highlights
+## Aspectos Destacados de Seguridad
 
-### Before First Unlock
+### Antes del Primer Desbloqueo
 
-If your threat model includes forensic tools and you want to minimize the chance of exploits being used to access your phone, you should restart your device frequently. The state *after* a reboot but *before* unlocking your device is referred to as "Before First Unlock" (BFU), and when your device is in that state it makes it [significantly more difficult](https://belkasoft.com/checkm8_glossary) for forensic tools to exploit vulnerabilities to access your data. This BFU state allows you to receive notifications for calls, texts, and alarms, but most of the data on your device is still encrypted and inaccessible. This can be impractical, so consider whether these trade-offs make sense for your situation.
+Si tu modelo de amenazas incluye herramientas forenses y quieres minimizar la posibilidad de que se utilicen exploits para acceder a tu teléfono, debes reiniciar el dispositivo con frecuencia. El estado *después de* un reinicio pero *antes de* desbloquear tu dispositivo se conoce como "Antes del Primer Desbloqueo" (BFU), y cuando tu dispositivo está en ese estado hace que sea [significativamente más difícil](https://belkasoft.com/checkm8_glossary) para las herramientas forenses explotar vulnerabilidades para acceder a tus datos. Este estado BFU te permite recibir notificaciones de llamadas, mensajes de texto y alarmas, pero la mayoría de los datos de tu dispositivo siguen estando encriptados y son inaccesibles. Esto puede ser poco práctico, así que considera si estas soluciones tienen sentido para tu situación.
