@@ -4,33 +4,33 @@ icon: simple/linux
 description: Linux es una alternativa de sistema operativo de escritorio de código abierto y centrado en la privacidad, pero no todas las distribuciones son iguales.
 ---
 
-**Linux** is an open-source, privacy-focused desktop operating system alternative. In the face of pervasive telemetry and other privacy-encroaching technologies in mainstream operating systems, Linux desktop has remained the clear choice for people looking for total control over their computers from the ground up.
+**Linux** es una alternativa de sistema operativo de escritorio de código abierto centrada en la privacidad. Frente a la telemetría omnipresente y otras tecnologías que atentan contra la privacidad en los principales sistemas operativos, Linux de escritorio ha seguido siendo la opción clara para quienes buscan un control total sobre sus ordenadores desde la base.
 
-Our website generally uses the term “Linux” to describe **desktop** Linux distributions. Other operating systems which also use the Linux kernel such as ChromeOS, Android, and Qubes OS are not discussed on this page.
+En general, nuestro sitio web utiliza el término "Linux" para describir las distribuciones Linux de **escritorio**. En esta página no se tratan otros sistemas operativos que también utilizan el núcleo Linux, como ChromeOS, Android y Qubes OS.
 
 [Nuestras recomendaciones de Linux: :material-arrow-right-drop-circle:](../desktop.md ""){.md-button}
 
-## Privacy Notes
+## Notas de Privacidad
 
-There are some notable privacy concerns with Linux which you should be aware of. Despite these drawbacks, desktop Linux distributions are still great for most people who want to:
+Linux plantea algunos problemas de privacidad importantes que debes tener en cuenta. A pesar de estos inconvenientes, las distribuciones Linux de escritorio siguen siendo estupendas para la mayoría de la gente que desea:
 
-- Evitar la telemetría que, regularmente, viene con los sistemas operativos propietarios.
-- Mantener la ['libertad del software'](https://www.gnu.org/philosophy/free-sw.en.html#four-freedoms).
-- Use privacy focused systems such as [Whonix](https://www.whonix.org) or [Tails](https://tails.boum.org/)
+- Evitar la telemetría que, regularmente, viene con los sistemas operativos propietarios
+- Mantener la ['libertad del software'](https://www.gnu.org/philosophy/free-sw.en.html#four-freedoms)
+- Utilizar sistemas centrados en la privacidad como [Whonix](https://www.whonix.org) o [Tails](https://tails.boum.org/)
 
-### Open Source Security
+### Seguridad de Código Abierto
 
-It is a [common misconception](../basics/common-misconceptions.md#open-source-software-is-always-secure-or-proprietary-software-is-more-secure) that Linux and other open-source software is inherently secure simply because the source code is available. There is an expectation that community verification occurs regularly, but this isn’t always [the case](https://seirdy.one/posts/2022/02/02/floss-security/).
+Es un [error común](../basics/common-misconceptions.md#open-source-software-is-always-secure-or-proprietary-software-is-more-secure) pensar que Linux y otros programas de código abierto son intrínsecamente seguros simplemente porque el código fuente está disponible. Se espera que la verificación comunitaria se realice con regularidad, pero este no siempre es [el caso](https://seirdy.one/posts/2022/02/02/floss-security/).
 
-In reality, distro security depends on a number of factors, such as project activity, developer experience, the level of rigor applied to code reviews, and how often attention is given to specific parts of the codebase that may go untouched for years.
+En realidad, la seguridad de las distribuciones depende de varios factores, como la actividad del proyecto, la experiencia de los desarrolladores, el nivel de rigor aplicado a las revisiones del código y la frecuencia con la que se presta atención a partes concretas del código base, que pueden permanecer intactas durante años.
 
-### Missing Security Features
+### Elementos de Seguridad Ausentes
 
-At the moment, desktop Linux [falls behind alternatives](https://discussion.fedoraproject.org/t/fedora-strategy-2028-proposal-fedora-linux-is-as-secure-as-macos/46899/9) like macOS or Android when it comes to certain security features. We hope to see improvements in these areas in the future.
+Por el momento, Linux de escritorio [está por detrás de alternativas](https://discussion.fedoraproject.org/t/fedora-strategy-2028-proposal-fedora-linux-is-as-secure-as-macos/46899/9) como macOS o Android cuando se trata de ciertas características de seguridad. Esperamos ver mejoras en estos ámbitos en el futuro.
 
-- **Verified boot** on Linux is not as robust as alternatives such as Apple’s [Secure Boot](https://support.apple.com/guide/security/secac71d5623/web) or Android’s [Verified Boot](https://source.android.com/security/verifiedboot). Verified boot prevents persistent tampering by malware and [evil maid attacks](https://en.wikipedia.org/wiki/Evil_Maid_attack), but is still largely [unavailable on even the most advanced distributions](https://discussion.fedoraproject.org/t/has-silverblue-achieved-verified-boot/27251/3).
+- El **arranque verificado ** en Linux no es tan robusto como alternativas como el [Arranque Seguro](https://support.apple.com/guide/security/secac71d5623/web) de Apple o el [Arranque Verificado](https://source.android.com/security/verifiedboot) de Android. El arranque verificado evita la manipulación persistente por parte de malware y [los ataques evil maid](https://en.wikipedia.org/wiki/Evil_Maid_attack), pero sigue [sin estar disponible en gran medida incluso en las distribuciones más avanzadas](https://discussion.fedoraproject.org/t/has-silverblue-achieved-verified-boot/27251/3).
 
-- **Strong sandboxing** for apps on Linux is severely lacking, even with containerized apps like Flatpaks or sandboxing solutions like Firejail. Flatpak is the most promising sandboxing utility for Linux thus far, but is still deficient in many areas and allows for [unsafe defaults](https://flatkill.org/2020/) which allow most apps to trivially bypass their sandbox.
+- **Un aislamiento fuerte** para aplicaciones en Linux que es muy deficiente, incluso con aplicaciones en contenedores como Flatpaks o soluciones de aislamiento como Firejail. Flatpak es la utilidad de aislamiento más prometedora para Linux hasta el momento, pero sigue siendo deficiente en muchas áreas y permite [valores predeterminados inseguros](https://flatkill.org/2020/) que permiten a la mayoría de las aplicaciones eludir trivialmente su aislamineto.
 
 Additionally, Linux falls behind in implementing [exploit mitigations](https://madaidans-insecurities.github.io/linux.html#exploit-mitigations) which are now standard on other operating systems, such as Arbitrary Code Guard on Windows or Hardened Runtime on macOS. Also, most Linux programs and Linux itself are coded in memory-unsafe languages. Memory corruption bugs are responsible for the [majority of vulnerabilities](https://msrc.microsoft.com/blog/2019/07/a-proactive-approach-to-more-secure-code/) fixed and assigned a CVE. While this is also true for Windows and macOS, they are quickly making progress on adopting memory-safe languages—such as Rust and Swift, respectively—while there is no similar effort to rewrite Linux in a memory-safe language like Rust.
 
