@@ -1,21 +1,21 @@
 ---
 title: "Berbagi dan Sinkronisasi File"
 icon: material/share-variant
-description: Discover how to privately share your files between your devices, with your friends and family, or anonymously online.
+description: Temukan cara berbagi file secara pribadi di antara perangkat Anda, dengan teman dan keluarga, atau secara anonim secara online.
 cover: file-sharing.png
 ---
 
-Discover how to privately share your files between your devices, with your friends and family, or anonymously online.
+Temukan cara berbagi file secara pribadi di antara perangkat Anda, dengan teman dan keluarga, atau secara anonim secara online.
 
-## File Sharing
+## Berbagi File
 
 ### Send
 
 !!! recommendation
 
-    ![Send logo](assets/img/file-sharing-sync/send.svg){ align=right }
+    ![Logo Send](assets/img/file-sharing-sync/send.svg){ align=right }
     
-    **Send** is a fork of Mozilla’s discontinued Firefox Send service which allows you to send files to others with a link. Files are encrypted on your device so that they cannot be read by the server, and they can be optionally password-protected as well. The maintainer of Send hosts a [public instance](https://send.vis.ee/). You can use other public instances, or you can host Send yourself.
+    **Send** adalah cabang dari layanan Firefox Send yang sudah tidak digunakan lagi oleh Mozilla yang memungkinkan Anda untuk mengirim berkas kepada orang lain dengan sebuah tautan. File dienkripsi di perangkat Anda sehingga tidak dapat dibaca oleh server, dan secara opsional juga dapat dilindungi dengan kata sandi. Pengelola Send menghosting sebuah [server publik](https://send.vis.ee/). Anda bisa menggunakan server publik lainnya, atau Anda bisa meng-host Send sendiri.
     
     [:octicons-home-16: Homepage](https://send.vis.ee){ .md-button .md-button--primary }
     [:octicons-server-16:](https://github.com/timvisee/send-instances){ .card-link title="Public Instances"}
@@ -23,7 +23,7 @@ Discover how to privately share your files between your devices, with your frien
     [:octicons-code-16:](https://github.com/timvisee/send){ .card-link title="Source Code" }
     [:octicons-heart-16:](https://github.com/sponsors/timvisee){ .card-link title=Contribute }
 
-Send can be used via its web interface or via the [ffsend](https://github.com/timvisee/ffsend) CLI. If you are familiar with the command-line and send files frequently, we recommend using the CLI client to avoid JavaScript-based encryption. You can specify the `--host` flag to use a specific server:
+Send dapat digunakan melalui antarmuka webnya atau melalui CLI [ffsend](https://github.com/timvisee/ffsend). Jika Anda terbiasa dengan baris perintah dan sering mengirim file, kami sarankan untuk menggunakan klien CLI untuk menghindari enkripsi berbasis JavaScript. Anda dapat menentukan flag `--host` untuk menggunakan server tertentu:
 
 ```bash
 ffsend upload --host https://send.vis.ee/ FILE
@@ -33,14 +33,14 @@ ffsend upload --host https://send.vis.ee/ FILE
 
 !!! recommendation
 
-    ![OnionShare logo](assets/img/file-sharing-sync/onionshare.svg){ align=right }
+    ![Logo OnionShare](assets/img/file-sharing-sync/onionshare.svg){ align=right }
     
-    **OnionShare** is an open-source tool that lets you securely and anonymously share a file of any size. It works by starting a web server accessible as a Tor onion service, with an unguessable URL that you can share with the recipients to download or send files.
+    **OnionShare** adalah alat sumber terbuka yang memungkinkan Anda berbagi file dengan aman dan anonim dalam berbagai ukuran. Ia bekerja dengan memulai server web yang dapat diakses sebagai layanan Tor onion, dengan URL yang tidak dapat dibaca yang dapat Anda bagikan dengan penerima untuk mengunduh atau mengirim berkas.
     
     [:octicons-home-16: Homepage](https://onionshare.org){ .md-button .md-button--primary }
-    [:simple-torbrowser:](http://lldan5gahapx5k7iafb3s4ikijc4ni7gx5iywdflkba5y2ezyg6sjgyd.onion){ .card-link title="Onion Service" }
-    [:octicons-info-16:](https://docs.onionshare.org){ .card-link title=Documentation}
-    [:octicons-code-16:](https://github.com/onionshare/onionshare){ .card-link title="Source Code" }
+    [:simple-torbrowser:](http://lldan5gahapx5k7iafb3s4ikijc4ni7gx5iywdflkba5y2ezyg6sjgyd.onion){ .card-link title="Layanan Onion" }
+    [:octicons-info-16:](https://docs.onionshare.org){ .card-link title=Dokumentasi}
+    [:octicons-code-16:](https://github.com/onionshare/onionshare){ .card-link title="Kode Sumber" }
     
     ??? downloads
     
@@ -56,22 +56,22 @@ ffsend upload --host https://send.vis.ee/ FILE
 
     Kami sedang berupaya menetapkan kriteria yang jelas untuk setiap bagian dari situs kami, dan hal ini dapat berubah sewaktu-waktu. Jika Anda memiliki pertanyaan mengenai kriteria kami, silakan [tanyakan di forum](https://discuss.privacyguides.net/latest) dan jangan berasumsi bahwa kami tidak mempertimbangkan sesuatu saat membuat rekomendasi jika tidak tercantum di sini. Ada banyak faktor yang dipertimbangkan dan didiskusikan saat kami merekomendasikan sebuah proyek, dan mendokumentasikan setiap faktor tersebut merupakan sebuah pekerjaan yang sedang berjalan.
 
-- Must not store decrypted data on a remote server.
+- Tidak boleh menyimpan data yang telah didekripsi pada server jarak jauh.
 - Harus berupa perangkat lunak sumber terbuka.
-- Must either have clients for Linux, macOS, and Windows; or have a web interface.
+- Harus memiliki klien untuk Linux, macOS, dan Windows; atau memiliki antarmuka web.
 
 ## FreedomBox
 
 !!! recommendation
 
-    ![FreedomBox logo](assets/img/file-sharing-sync/freedombox.svg){ align=right }
+    ![Logo FreedomBox](assets/img/file-sharing-sync/freedombox.svg){ align=right }
     
-    **FreedomBox** is an operating system designed to be run on a [single-board computer (SBC)](https://en.wikipedia.org/wiki/Single-board_computer). The purpose is to make it easy to set up server applications that you might want to self-host.
+    **FreedomBox** adalah sistem operasi yang dirancang untuk dijalankan pada [komputer papan tunggal (SBC)] (https://en.wikipedia.org/wiki/Single-board_computer). Tujuannya adalah untuk memudahkan pengaturan aplikasi server yang mungkin ingin Anda hosting sendiri.
     
     [:octicons-home-16: Homepage](https://freedombox.org){ .md-button .md-button--primary }
-    [:octicons-info-16:](https://wiki.debian.org/FreedomBox/Manual){ .card-link title=Documentation}
-    [:octicons-code-16:](https://salsa.debian.org/freedombox-team/freedombox){ .card-link title="Source Code" }
-    [:octicons-heart-16:](https://freedomboxfoundation.org/donate/){ .card-link title=Contribute }
+    [:octicons-info-16:](https://wiki.debian.org/FreedomBox/Manual){ .card-link title=Dokumentasi}
+    [:octicons-code-16:](https://salsa.debian.org/freedombox-team/freedombox){ .card-link title="Kode Sumber" }
+    [:octicons-heart-16:](https://freedomboxfoundation.org/donate/){ .card-link title=Kontribusi }
 
 ## File Sync
 
@@ -135,7 +135,7 @@ ffsend upload --host https://send.vis.ee/ FILE
 
 - Must not require a third-party remote/cloud server.
 - Harus berupa perangkat lunak sumber terbuka.
-- Must either have clients for Linux, macOS, and Windows; or have a web interface.
+- Harus memiliki klien untuk Linux, macOS, dan Windows; atau memiliki antarmuka web.
 
 #### Kasus Terbaik
 

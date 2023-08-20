@@ -131,7 +131,7 @@ Kriteria kasus terbaik kami mewakili apa yang ingin kami lihat dari proyek yang 
 
 In general, we define office suites as applications which could reasonably act as a replacement for Microsoft Word for most needs.
 
-- Must be cross-platform.
+- Harus lintas platform.
 - Harus berupa perangkat lunak sumber terbuka.
 - Must function offline.
 - Must support editing documents, spreadsheets, and slideshows.
