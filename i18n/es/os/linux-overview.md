@@ -36,15 +36,15 @@ Además, Linux se queda atrás en la implementación de [mitigaciones de exploit
 
 ## Elegir tu distribución
 
-No todas las distribuciones Linux son iguales. Our [Linux recommendation page](../desktop.md) is not meant to be an authoritative source on which distribution you should use, but our recommendations *are* aligned with the following guidelines. These are a few things you should keep in mind when choosing a distribution:
+No todas las distribuciones Linux son iguales. Nuestra [página de recomendaciones de Linux](../desktop.md) no pretende ser una fuente autoritaria sobre qué distribución debes utilizar, pero nuestras recomendaciones *están* alineadas con las siguientes directrices. Estas son algunas cosas que debes tener en cuenta a la hora de elegir una distribución:
 
 ### Ciclo de lanzamiento
 
-Recomendamos encarecidamente que elijas las distribuciones que permanecen cerca a los lanzamientos estables, comúnmente denominadas como distribuciones de lanzamiento continuo. Esto se debe a que las distribuciones de lanzamiento de ciclo congelado, normalmente no actualizan las versiones de sus paquetes y se encuentran detrás en actualizaciones de seguridad.
+Recomendamos encarecidamente que elijas distribuciones que permanezcan cerca de los lanzamientos estables del software de origen, comúnmente denominadas como distribuciones de lanzamiento continuo. Esto se debe a que las distribuciones de lanzamiento de ciclo congelado, normalmente no actualizan las versiones de sus paquetes y se encuentran detrás en actualizaciones de seguridad.
 
-Para las distribuciones congeladas como [Debian](https://www.debian.org/security/faq#handling), se espera que los encargados de mantener los paquetes adapten los parches para corregir vulnerabilidades, en lugar de actualizar el software a la "siguiente versión" lanzada por el desarrollador original. Some security fixes [do not](https://arxiv.org/abs/2105.14565) receive a [CVE ID](https://en.wikipedia.org/wiki/Common_Vulnerabilities_and_Exposures) (particularly less popular software) at all and therefore do not make it into the distribution with this patching model. Por ello, a veces las correcciones de seguridad son pospuestas hasta la siguiente versión importante.
+Para las distribuciones congeladas como [Debian](https://www.debian.org/security/faq#handling), se espera que los encargados de mantener los paquetes adapten los parches para corregir vulnerabilidades, en lugar de actualizar el software a la "siguiente versión" lanzada por el desarrollador original. Algunas correcciones de seguridad [no](https://arxiv.org/abs/2105.14565) reciben un [CVE ID](https://en.wikipedia.org/wiki/Common_Vulnerabilities_and_Exposures) (en particular el software menos popular) y por lo tanto no llegan a la distribución con este modelo de parches. Como resultado, las correcciones de seguridad menores a veces se retrasan hasta el siguiente lanzamiento importante.
 
-No creemos que retener paquetes y aplicar los parches provisionales sea una buena idea, porque se aleja de la forma en que el desarrollador se pudo asegurar que el software funcione. [Richard Brown](https://rootco.de/aboutme/) tiene una presentación sobre esto:
+No creemos que retener paquetes y aplicar parches provisionales sea una buena idea, ya que se aparta de la forma en que el desarrollador podría haber previsto que funcionara el software. [Richard Brown](https://rootco.de/aboutme/) tiene una presentación sobre esto:
 
 <div class="yt-embed">
   <iframe width="560" height="315" src="https://invidious.privacyguides.net/embed/i8c0mg_mS7U?local=true" title="Las liberaciones regulares son erróneas, rueda por tu vida" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
@@ -52,9 +52,9 @@ No creemos que retener paquetes y aplicar los parches provisionales sea una buen
 
 ### Actualizaciones tradicionales vs. Atómicas
 
-Tradicionalmente, las distribuciones de Linux se actualizan secuencialmente, actualizando los paquetes deseados. Las actualizaciones tradicionales, como las utilizadas en las distribuciones basadas en Fedora, Arch Linux y Debian, son menos confiables, si un error se produce al actualizar.
+Tradicionalmente, las distribuciones Linux se actualizan mediante la actualización secuencial de los paquetes deseados. Las actualizaciones tradicionales, como las utilizadas en las distribuciones basadas en Fedora, Arch Linux y Debian, son menos confiables, si un error se produce al actualizar.
 
-Las distribuciones de actualizaciones Atómicas, aplican las actualizaciones en su totalidad o no del todo. Normalmente, los sistemas de actualización transaccional también son atómicos.
+Las distribuciones de actualización atómica aplican las actualizaciones en su totalidad o no las aplican. Normalmente, los sistemas de actualización transaccional también son atómicos.
 
 Un sistema de actualización transaccional crea una instantánea que se realiza antes y después de haber aplicado una actualización. Si una actualización falla en cualquier momento (debido a situaciones como fallas de electricidad), la actualización puede revertirse fácilmente al "último estado bueno conocido".
 
@@ -66,42 +66,42 @@ El método de actualizaciones Atómicas es utilizado para distribuciones inmutab
 
 ### Distribuciones "enfocadas en la seguridad"
 
-A menudo existe cierta confusión entre las distribuciones "enfocadas en la privacidad" y las distribuciones "pentesting". A quick search for “the most secure Linux distribution” will often give results like Kali Linux, Black Arch, or Parrot OS. Estas distribuciones son distribuciones de pruebas de penetración ofensivas que incluyen herramientas para probar otros sistemas. Estas no incluyen ninguna "seguridad adicional" o mitigaciones defensivas destinadas a un uso regular.
+A menudo existe cierta confusión entre las distribuciones "enfocadas en la seguridad" y las distribuciones "pentesting". Una búsqueda rápida de "la distribución de Linux más segura" suele arrojar resultados como Kali Linux, Black Arch o Parrot OS. Estas distribuciones son distribuciones de pruebas de penetración ofensivas que incluyen herramientas para probar otros sistemas. Estas no incluyen ninguna "seguridad adicional" o mitigaciones defensivas destinadas a un uso regular.
 
 ### Distribuciones basadas en Arch Linux
 
-Arch and Arch-based distributions are not recommended for those new to Linux (regardless of distribution) as they require regular [system maintenance](https://wiki.archlinux.org/title/System_maintenance). Arch does not have a distribution update mechanism for the underlying software choices. Por ello, hay que estar al tanto de las tendencias actuales y adoptar las tecnologías a medida que van sustituyendo a las prácticas más antiguas.
+Arch y las distribuciones basadas en Arch no son recomendables para quienes se inician en Linux (independientemente de la distribución), ya que requieren un [mantenimiento del sistema](https://wiki.archlinux.org/title/System_maintenance) regular. Arch no dispone de un mecanismo de actualización de la distribución para las opciones de software subyacentes. Por ello, hay que estar al tanto de las tendencias actuales y adoptar las tecnologías a medida que van sustituyendo a las prácticas más antiguas.
 
-Para un sistema seguro, también se espera que tenga suficientes conocimientos de Linux para configurar correctamente la seguridad de su sistema, como la adopción de un sistema [de control de acceso obligatorio](https://en.wikipedia.org/wiki/Mandatory_access_control), la configuración de listas negras de [módulos del kernel](https://en.wikipedia.org/wiki/Loadable_kernel_module#Security), el endurecimiento de los parámetros de arranque, la manipulación de parámetros[ sysctl](https://en.wikipedia.org/wiki/Sysctl), y saber qué componentes necesitan como [Polkit](https://en.wikipedia.org/wiki/Polkit).
+Para un sistema seguro, también se espera que tengas suficientes conocimientos de Linux para configurar correctamente la seguridad del sistema, como la adopción de un sistema [de control de acceso obligatorio](https://en.wikipedia.org/wiki/Mandatory_access_control), la configuración de [módulos del kernel](https://en.wikipedia.org/wiki/Loadable_kernel_module#Security), listas negras, el endurecimiento de los parámetros de arranque, la manipulación de parámetros [sysctl](https://en.wikipedia.org/wiki/Sysctl), y saber qué componentes necesitan, como [Polkit](https://en.wikipedia.org/wiki/Polkit).
 
-Anyone using the [Arch User Repository (AUR)](https://wiki.archlinux.org/title/Arch_User_Repository) **must** be comfortable auditing PKGBUILDs that they download from that service. Los paquetes AUR son contenidos producidos por la comunidad y no se examinan de ninguna manera, por lo que son vulnerables a los ataques a la cadena de suministro de software, como de hecho ha sucedido en [en el pasado](https://www.bleepingcomputer.com/news/security/malware-found-in-arch-linux-aur-package-repository/).
+Cualquiera que utilice el [Repositorio de Usuario de Arch (AUR)](https://wiki.archlinux.org/title/Arch_User_Repository) **debe** sentirse cómodo auditando los PKGBUILDs que descargue de ese servicio. Los paquetes AUR son contenidos producidos por la comunidad y no se examinan de ninguna manera, por lo que son vulnerables a los ataques a la cadena de suministro de software, como de hecho ha sucedido en [en el pasado](https://www.bleepingcomputer.com/news/security/malware-found-in-arch-linux-aur-package-repository/).
 
-The AUR should always be used sparingly, and often there is a lot of bad advice on various pages which direct people to blindly use [AUR helpers](https://wiki.archlinux.org/title/AUR_helpers) without sufficient warning. Se aplican advertencias similares al uso de Archivos de Paquetes Personales (PPA) de terceros en distribuciones basadas en Debian o Proyectos Comunitarios (COPR) en Fedora.
+El AUR debe utilizarse siempre con moderación, y a menudo hay muchos malos consejos en diversas páginas que dirigen a la gente a utilizar ciegamente [AUR helpers](https://wiki.archlinux.org/title/AUR_helpers) sin suficiente advertencia. Se aplican advertencias similares al uso de Archivos de Paquetes Personales (PPA) de terceros en distribuciones basadas en Debian o Proyectos Comunitarios (COPR) en Fedora.
 
-If you are experienced with Linux and wish to use an Arch-based distribution, we generally recommend mainline Arch Linux over any of its derivatives.
+Si tienes experiencia con Linux y deseas utilizar una distribución basada en Arch, generalmente recomendamos Arch Linux de línea principal sobre cualquiera de sus derivados.
 
-Additionally, we recommend **against** these two Arch derivatives specifically:
+Además, estamos en **contra** de usar estos dos derivados de Arch específicamente:
 
 - **Manjaro**: Esta distribución retiene los paquetes durante 2 semanas para asegurarse de que sus propios cambios no se rompan, no para asegurarse de que el flujo ascendente sea estable. Cuando se utilizan paquetes AUR, suelen compilarse con las últimas [bibliotecas](https://en.wikipedia.org/wiki/Library_(computing)) de los repositorios de Arch.
 - **Garuda**: Utilizan [Chaotic-AUR](https://aur.chaotic.cx/) que compila automáticamente y a ciegas paquetes del AUR. No existe ningún proceso de verificación que garantice que los paquetes AUR no sufran ataques en la cadena de suministro.
 
-### Kernel Linux-libre y distribuciones "Libre"
+### Núcleo Linux-libre y distribuciones "Libre"
 
-We recommend **against** using the Linux-libre kernel, since it [removes security mitigations](https://www.phoronix.com/news/GNU-Linux-Libre-5.7-Released) and [suppresses kernel warnings](https://news.ycombinator.com/item?id=29674846) about vulnerable microcode.
+Recomendamos encarecidamente **no ** utilizar el núcleo Linux-libre, ya que [elimina las mitigaciones de seguridad](https://www.phoronix.com/news/GNU-Linux-Libre-5.7-Released) y [suprime las advertencias del núcleo](https://news.ycombinator.com/item?id=29674846) sobre microcódigo vulnerable.
 
 ## Recomendaciones Generales
 
-### Cifrado de unidad
+### Cifrado de Unidad
 
-La mayoría de las distribuciones de Linux tienen una opción dentro de su instalador para habilitar [LUKS](../encryption.md#linux-unified-key-setup) FDE. Si esta opción no se configura en el momento de la instalación, tendrá que hacer una copia de seguridad de sus datos y volver a instalar, ya que el cifrado se aplica después de [particionar el disco](https://en.wikipedia.org/wiki/Disk_partitioning), pero antes de formatear [el sistema de archivos](https://en.wikipedia.org/wiki/File_system). También te sugerimos que borres de forma segura tu dispositivo de almacenamiento:
+La mayoría de las distribuciones de Linux tienen una opción dentro de su instalador para habilitar [LUKS](../encryption.md#linux-unified-key-setup) FDE. Si esta opción no se configura en el momento de la instalación, tendrá que hacer una copia de seguridad de sus datos y volver a instalarla, ya que el cifrado se aplica después de [particionar el disco](https://en.wikipedia.org/wiki/Disk_partitioning), pero antes de formatear [el sistema de archivos](https://en.wikipedia.org/wiki/File_system). También te sugerimos que borres de forma segura tu dispositivo de almacenamiento:
 
-- [Borrado seguro de datos :material-arrow-right-drop-circle:](https://blog.privacyguides.org/2022/05/25/secure-data-erasure/)
+- [Borrado Seguro de Datos :material-arrow-right-drop-circle:](https://blog.privacyguides.org/2022/05/25/secure-data-erasure/)
 
 ### Swap
 
-Consider using [ZRAM](https://wiki.archlinux.org/title/Zram#Using_zram-generator) instead of a traditional swap file or partition to avoid writing potentially sensitive memory data to persistent storage (and improve performance). Fedora-based distributions [use ZRAM by default](https://fedoraproject.org/wiki/Changes/SwapOnZRAM).
+Considere utilizar [ZRAM](https://wiki.archlinux.org/title/Zram#Using_zram-generator) en lugar de un archivo o partición de swap tradicional para evitar la escritura de datos de memoria potencialmente sensibles en el almacenamiento persistente (y mejorar el rendimiento). Las distribuciones basadas en Fedora [utilizan ZRAM por defecto](https://fedoraproject.org/wiki/Changes/SwapOnZRAM).
 
-If you require suspend-to-disk (hibernation) functionality, you will still need to use a traditional swap file or partition. Make sure that any swap space you do have on a persistent storage device is [encrypted](https://wiki.archlinux.org/title/Dm-crypt/Swap_encryption) at a minimum to mitigate some of these threats.
+Si necesitas la función de suspensión en disco (hibernación), tendrás que utilizar un archivo o partición de swap tradicional. Asegúrate de que cualquier espacio de swap que tengas en un dispositivo de almacenamiento persistente esté [cifrado ](https://wiki.archlinux.org/title/Dm-crypt/Swap_encryption) como mínimo para mitigar algunas de estas amenazas.
 
 ### Wayland
 
