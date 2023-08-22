@@ -280,8 +280,8 @@ Um serviço de aliasing de e-mail permite-lhe gerar facilmente um novo endereço
 
 <div class="grid cards" markdown>
 
-- ![Logótipo AnonAddy](assets/img/email/anonaddy.svg#only-light){ .twemoji }![Logótipo AnonAddy](assets/img/email/anonaddy-dark.svg#only-dark){ .twemoji } [AnonAddy](email.md#anonaddy)
-- ![Logótipo SimpleLogin](assets/img/email/simplelogin.svg){ .twemoji } [SimpleLogin](email.md#simplelogin)
+- ![addy.io logo](assets/img/email/mini/addy.svg){ .twemoji } [addy.io](email.md#addyio)
+- ![SimpleLogin logo](assets/img/email/simplelogin.svg){ .twemoji } [SimpleLogin](email.md#simplelogin)
 
 </div>
 
@@ -302,37 +302,37 @@ As nossas recomendações de aliasing de e-mail são fornecedores que lhe permit
 
 A utilização de um serviço de aliasing requer a sua confiança no fornecedor de e-mail e no fornecedor de aliasing, no caso das suas mensagens não serem encriptadas. Alguns fornecedores atenuam ligeiramente esta situação com a encriptação PGP automática, o que encripta os e-mails recebidos antes de serem entregues ao fornecedor final de e-mail, reduzindo o número de entidades terceiras em que é necessário confiar, de duas para uma.
 
-### AnonAddy
+### addy.io
 
 !!! nota
     Consulte o [Tabela de Hardware](https://openwrt.org/toh/start) para verificar se o seu dispositivo é suportado.
 
-    ![Logótipo AnonAddy](assets/img/email/anonaddy.svg#only-light){ align=right }
-    ![Logótipo AnonAddy](assets/img/email/anonaddy-dark.svg#only-dark){ align=right }
+    ![addy.io logo](assets/img/email/addy.svg#only-light){ align=right }
+    ![addy.io logo](assets/img/email/addy-dark.svg#only-dark){ align=right }
     
-    **AnonAddy** permite-lhe criar 20 aliases de domínio num domínio partilhado, gratuitamente, ou aliases "standard" ilimitados que são menos anónimos.
+    **addy.io** lets you create 10 domain aliases on a shared domain for free, or unlimited "standard" aliases which are less anonymous.
     
-    [:octicons-home-16: Homepage](https://anonaddy.com){ .md-button .md-button--primary }
-    [:octicons-eye-16:](https://anonaddy.com/privacy/){ .card-link title="Política de Privacidade" }
-    [:octicons-info-16:](https://app.anonaddy.com/docs/){ .card-link title=Documentação}
-    [:octicons-code-16:](https://github.com/anonaddy){ .card-link title="Código-fonte" }
-    [:octicons-heart-16:](https://anonaddy.com/donate/){ .card-link title=Contribuir }
+    [:octicons-home-16: Homepage](https://addy.io){ .md-button .md-button--primary }
+    [:octicons-eye-16:](https://addy.io/privacy){ .card-link title="Privacy Policy" }
+    [:octicons-info-16:](https://app.addy.io/docs){ .card-link title=Documentation}
+    [:octicons-code-16:](https://github.com/anonaddy){ .card-link title="Source Code" }
+    [:octicons-heart-16:](https://addy.io/donate){ .card-link title=Contribute }
     
-    ??? transferências
+    ??? downloads
     
-        - [:simple-android: Android](https://anonaddy.com/faq/#is-there-an-android-app)
-        - [:material-apple-ios: iOS](https://anonaddy.com/faq/#is-there-an-ios-app)
-        - [:simple-firefoxbrowser: Firefox](https://addons.mozilla.org/en-GB/firefox/addon/anonaddy/)
-        - [:simple-googlechrome: Chrome](https://chrome.google.com/webstore/detail/anonaddy-anonymous-email/iadbdpnoknmbdeolbapdackdcogdmjpe)
+        - [:simple-android: Android](https://addy.io/faq/#is-there-an-android-app)
+        - [:material-apple-ios: iOS](https://addy.io/faq/#is-there-an-ios-app)
+        - [:simple-firefoxbrowser: Firefox](https://addons.mozilla.org/firefox/addon/addy_io/)
+        - [:simple-googlechrome: Chrome](https://chrome.google.com/webstore/detail/addyio-anonymous-email-fo/iadbdpnoknmbdeolbapdackdcogdmjpe)
 
-O número de aliases partilhados (que terminam num domínio partilhado como @anonaddy.me) que pode criar está limitado a 20, no plano gratuito do AnonAddy, e a 50, no plano que custa 12 dólares por ano. Pode criar pseudónimos padrão ilimitados (que terminam num domínio como @[username].anonaddy.com ou um domínio personalizado em planos pagos), no entanto, tal como mencionado anteriormente, isto pode ser prejudicial para a privacidade, uma vez que as pessoas podem associar trivialmente os seus pseudónimos padrão com base apenas no nome do domínio. Estão disponíveis aliases partilhados ilimitados por $36/ano.
+The number of shared aliases (which end in a shared domain like @addy.io) that you can create is limited to 10 on addy.io's free plan, 50 on their $1/month plan and unlimited on the $4/month plan (billed $3 for a year). You can create unlimited standard aliases (which end in a domain like @[username].addy.io or a custom domain on paid plans), however, as previously mentioned, this can be detrimental to privacy because people can trivially tie your standard aliases together based on the domain name alone. They are useful where a shared domain might be blocked by a service.
 
 Funcionalidades gratuitas dignas de nota:
 
-- [x] 20 Aliases partilhados
+- [x] 10 Aliases partilhados
 - [x] Aliases padrão ilimitados
 - [ ] Nenhuma resposta de saída
-- [x] 2 Caixas de correio de destinatários
+- [x] 1 Recipient Mailboxes
 - [x] Encriptação PGP automática
 
 ### SimpleLogin
@@ -349,12 +349,12 @@ Funcionalidades gratuitas dignas de nota:
     [:octicons-info-16:](https://simplelogin.io/docs/){ .card-link title=Documentação}
     [:octicons-code-16:](https://github.com/simple-login){ .card-link title="Código-fonte" }
     
-    ??? transferências
+    ??? downloads
     
         - [:simple-googleplay: Google Play](https://play.google.com/store/apps/details?id=io.simplelogin.android)
         - [:simple-appstore: App Store](https://apps.apple.com/app/id1494359858)
         - [:simple-github: GitHub](https://github.com/simple-login/Simple-Login-Android/releases)
-        - [:simple-firefoxbrowser: Firefox](https://addons.mozilla.org/en-US/firefox/addon/simplelogin/)
+        - [:simple-firefoxbrowser: Firefox](https://addons.mozilla.org/firefox/addon/simplelogin/)
         - [:simple-googlechrome: Chrome](https://chrome.google.com/webstore/detail/dphilobhebphkdjbpfohgikllaljmgbn)
         - [:simple-microsoftedge: Edge](https://microsoftedge.microsoft.com/addons/detail/simpleloginreceive-sen/diacfpipniklenphgljfkmhinphjlfff)
         - [:simple-safari: Safari](https://apps.apple.com/app/id1494051017)

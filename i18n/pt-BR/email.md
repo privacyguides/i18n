@@ -274,7 +274,7 @@ Um serviço de disfarce de e-mail permite que você gere facilmente um novo ende
 
 <div class="grid cards" markdown>
 
-- ![AnonAddy logo](assets/img/email/anonaddy.svg#only-light){ .twemoji }![AnonAddy logo](assets/img/email/anonaddy-dark.svg#only-dark){ .twemoji } [AnonAddy](email.md#anonaddy)
+- ![addy.io logo](assets/img/email/mini/addy.svg){ .twemoji } [addy.io](email.md#addyio)
 - ![SimpleLogin logo](assets/img/email/simplelogin.svg){ .twemoji } [SimpleLogin](email.md#simplelogin)
 
 </div>
@@ -296,36 +296,36 @@ Nossas recomendações de pseudônimos de e-mail são provedores que permitem qu
 
 O uso de um serviço de pseudônimo exige que as mensagens não criptografadas sejam confiadas ao seu provedor de e-mail e ao provedor de pseudônimo. Alguns provedores diminuem um pouco esse problema com a criptografia PGP automática, que reduz o número de partes em que você precisa confiar de duas para uma, criptografando os e-mails recebidos antes de serem entregues ao seu provedor de caixa de correio final.
 
-### AnonAddy
+### addy.io
 
 !!! recommendation
 
-    ![AnonAddy logo](assets/img/email/anonaddy.svg#only-light){ align=right }
-    ![AnonAddy logo](assets/img/email/anonaddy-dark.svg#only-dark){ align=right }
+    ![addy.io logo](assets/img/email/addy.svg#only-light){ align=right }
+    ![addy.io logo](assets/img/email/addy-dark.svg#only-dark){ align=right }
     
-    **AnonAddy** permite criar 20 pseudônimos de domínio gratuitamente em um domínio compartilhado, ou pseudônimos "padrão" ilimitados, que são menos anônimos.
+    **addy.io** lets you create 10 domain aliases on a shared domain for free, or unlimited "standard" aliases which are less anonymous.
     
-    [:octicons-home-16: Homepage](https://anonaddy.com){ .md-button .md-button--primary }
-    [:octicons-eye-16:](https://anonaddy.com/privacy/){ .card-link title="Privacy Policy" }
-    [:octicons-info-16:](https://app.anonaddy.com/docs/){ .card-link title=Documentation}
+    [:octicons-home-16: Homepage](https://addy.io){ .md-button .md-button--primary }
+    [:octicons-eye-16:](https://addy.io/privacy){ .card-link title="Privacy Policy" }
+    [:octicons-info-16:](https://app.addy.io/docs){ .card-link title=Documentation}
     [:octicons-code-16:](https://github.com/anonaddy){ .card-link title="Source Code" }
-    [:octicons-heart-16:](https://anonaddy.com/donate/){ .card-link title=Contribute }
+    [:octicons-heart-16:](https://addy.io/donate){ .card-link title=Contribute }
     
     ??? downloads
     
-        - [:simple-android: Android](https://anonaddy.com/faq/#is-there-an-android-app)
-        - [:material-apple-ios: iOS](https://anonaddy.com/faq/#is-there-an-ios-app)
-        - [:simple-firefoxbrowser: Firefox](https://addons.mozilla.org/en-GB/firefox/addon/anonaddy/)
-        - [:simple-googlechrome: Chrome](https://chrome.google.com/webstore/detail/anonaddy-anonymous-email/iadbdpnoknmbdeolbapdackdcogdmjpe)
+        - [:simple-android: Android](https://addy.io/faq/#is-there-an-android-app)
+        - [:material-apple-ios: iOS](https://addy.io/faq/#is-there-an-ios-app)
+        - [:simple-firefoxbrowser: Firefox](https://addons.mozilla.org/firefox/addon/addy_io/)
+        - [:simple-googlechrome: Chrome](https://chrome.google.com/webstore/detail/addyio-anonymous-email-fo/iadbdpnoknmbdeolbapdackdcogdmjpe)
 
-O número de pseudônimos compartilhados (que terminam em um domínio compartilhado como @anonaddy.me) que você pode criar é limitado a 20 no plano gratuito do AnonAddy e a 50 no plano de 12 dólares por ano. Você pode criar pseudônimos padrão ilimitados (que terminam em um domínio como @[username].anonaddy.com ou um domínio personalizado em planos pagos); no entanto, conforme mencionado anteriormente, isso pode ser prejudicial à privacidade porque as pessoas podem vincular seus pseudônimos padrão de forma fácil com base apenas no nome do domínio. Pseudônimos compartilhados ilimitados estão disponíveis por um preço de 36 dólares por ano.
+The number of shared aliases (which end in a shared domain like @addy.io) that you can create is limited to 10 on addy.io's free plan, 50 on their $1/month plan and unlimited on the $4/month plan (billed $3 for a year). You can create unlimited standard aliases (which end in a domain like @[username].addy.io or a custom domain on paid plans), however, as previously mentioned, this can be detrimental to privacy because people can trivially tie your standard aliases together based on the domain name alone. They are useful where a shared domain might be blocked by a service.
 
 Recursos gratuitos de destaque:
 
-- [x] 20 Pseudônimos Compartilhados
+- [x] 10 Pseudônimos Compartilhados
 - [x] Pseudônimos Padrão Ilimitados
 - [ ] No Outgoing Replies
-- [x] 2 Caixas de Correio Destinatárias
+- [x] 1 Recipient Mailboxes
 - [x] Criptografia PGP automática
 
 ### SimpleLogin
@@ -346,7 +346,7 @@ Recursos gratuitos de destaque:
         - [:simple-googleplay: Google Play](https://play.google.com/store/apps/details?id=io.simplelogin.android)
         - [:simple-appstore: App Store](https://apps.apple.com/app/id1494359858)
         - [:simple-github: GitHub](https://github.com/simple-login/Simple-Login-Android/releases)
-        - [:simple-firefoxbrowser: Firefox](https://addons.mozilla.org/en-US/firefox/addon/simplelogin/)
+        - [:simple-firefoxbrowser: Firefox](https://addons.mozilla.org/firefox/addon/simplelogin/)
         - [:simple-googlechrome: Chrome](https://chrome.google.com/webstore/detail/dphilobhebphkdjbpfohgikllaljmgbn)
         - [:simple-microsoftedge: Edge](https://microsoftedge.microsoft.com/addons/detail/simpleloginreceive-sen/diacfpipniklenphgljfkmhinphjlfff)
         - [:simple-safari: Safari](https://apps.apple.com/app/id1494051017)

@@ -276,8 +276,8 @@ Tutanota не предлагает функцию цифрового насле�
 
 <div class="grid cards" markdown>
 
-- ![Логотип AnonAddy](assets/img/email/anonaddy.svg#only-light){ .twemoji }![AnonAddy logo](assets/img/email/anonaddy-dark.svg#only-dark){ .twemoji } [AnonAddy](email.md#anonaddy)
-- ![Логотип SimpleLogin](assets/img/email/simplelogin.svg){ .twemoji } [SimpleLogin](email.md#simplelogin)
+- ![addy.io logo](assets/img/email/mini/addy.svg){ .twemoji } [addy.io](email.md#addyio)
+- ![SimpleLogin logo](assets/img/email/simplelogin.svg){ .twemoji } [SimpleLogin](email.md#simplelogin)
 
 </div>
 
@@ -298,36 +298,36 @@ Tutanota не предлагает функцию цифрового насле�
 
 Отправка/получение незашифрованных писем через службу псевдонимов требует доверия как к твоему почтовому провайдеру, так и к провайдеру псевдонимов. Некоторые провайдеры смягчают эту проблему с помощью автоматического шифрования PGP, которое уменьшает требующих доверия сторон с двух до одной, шифруя входящие электронные письма до их доставки к твоему конечному почтовому провайдеру.
 
-### AnonAddy
+### addy.io
 
 !!! recommendation
 
-    ![Логотип AnonAddy](assets/img/email/anonaddy.svg#only-light){ align=right }
-    ![Логотип AnonAddy](assets/img/email/anonaddy-dark.svg#only-dark){ align=right }
+    ![addy.io logo](assets/img/email/addy.svg#only-light){ align=right }
+    ![addy.io logo](assets/img/email/addy-dark.svg#only-dark){ align=right }
     
-    **AnonAddy** позволяет тебе бесплатно создать 20 доменных псевдонимов на общем домене или неограниченное количество "стандартных" псевдонимов, которые менее анонимны.
+    **addy.io** lets you create 10 domain aliases on a shared domain for free, or unlimited "standard" aliases which are less anonymous.
     
-    [:octicons-home-16: Домашняя страница](https://anonaddy.com){ .md-button .md-button--primary }
-    [:octicons-eye-16:](https://anonaddy.com/privacy/){ .card-link title="Политика конфиденциальности" }
-    [:octicons-info-16:](https://app.anonaddy.com/docs/){ .card-link title=Документация}
-    [:octicons-code-16:](https://github.com/anonaddy){ .card-link title="Исходный код" }
-    [:octicons-heart-16:](https://anonaddy.com/donate/){ .card-link title=Пожертвовать }
+    [:octicons-home-16: Homepage](https://addy.io){ .md-button .md-button--primary }
+    [:octicons-eye-16:](https://addy.io/privacy){ .card-link title="Privacy Policy" }
+    [:octicons-info-16:](https://app.addy.io/docs){ .card-link title=Documentation}
+    [:octicons-code-16:](https://github.com/anonaddy){ .card-link title="Source Code" }
+    [:octicons-heart-16:](https://addy.io/donate){ .card-link title=Contribute }
     
-    ??? downloads "Скачать"
+    ??? downloads
     
-        - [:simple-android: Android](https://anonaddy.com/faq/#is-there-an-android-app)
-        - [:material-apple-ios: iOS](https://anonaddy.com/faq/#is-there-an-ios-app)
-        - [:simple-firefoxbrowser: Firefox](https://addons.mozilla.org/en-GB/firefox/addon/anonaddy/)
-        - [:simple-googlechrome: Chrome](https://chrome.google.com/webstore/detail/anonaddy-anonymous-email/iadbdpnoknmbdeolbapdackdcogdmjpe)
+        - [:simple-android: Android](https://addy.io/faq/#is-there-an-android-app)
+        - [:material-apple-ios: iOS](https://addy.io/faq/#is-there-an-ios-app)
+        - [:simple-firefoxbrowser: Firefox](https://addons.mozilla.org/firefox/addon/addy_io/)
+        - [:simple-googlechrome: Chrome](https://chrome.google.com/webstore/detail/addyio-anonymous-email-fo/iadbdpnoknmbdeolbapdackdcogdmjpe)
 
-Доступное тебе количество общих псевдонимов (которые заканчиваются на общий домен, например @anonaddy.me), ограничено 20 на бесплатном плане AnonAddy и 50 на их плане за $12/год. Ты можешь создавать неограниченное количество стандартных псевдонимов (которые заканчиваются на домен типа @[username].anonaddy.com или пользовательский домен в платных тарифных планах), однако, как уже говорилось ранее, это может нанести ущерб конфиденциальности, поскольку люди могут банально связать твои стандартные псевдонимы вместе на основе одного только доменного имени. Неограниченное количество общих псевдонимов доступно за $36/год.
+The number of shared aliases (which end in a shared domain like @addy.io) that you can create is limited to 10 on addy.io's free plan, 50 on their $1/month plan and unlimited on the $4/month plan (billed $3 for a year). You can create unlimited standard aliases (which end in a domain like @[username].addy.io or a custom domain on paid plans), however, as previously mentioned, this can be detrimental to privacy because people can trivially tie your standard aliases together based on the domain name alone. They are useful where a shared domain might be blocked by a service.
 
 Примечательные бесплатные функции:
 
-- [x] 20 общих псевдонимов
+- [x] 10 общих псевдонимов
 - [x] Неограниченное количество стандартных псевдонимов
 - [ ] Нет исходящих ответов
-- [x] 2 почтовых ящика получателя
+- [x] 1 Recipient Mailboxes
 - [x] Автоматическое шифрование PGP
 
 ### SimpleLogin
@@ -343,12 +343,12 @@ Tutanota не предлагает функцию цифрового насле�
     [:octicons-info-16:](https://simplelogin.io/docs/){ .card-link title=Документация}
     [:octicons-code-16:](https://github.com/simple-login){ .card-link title="Исходный код" }
     
-    ??? downloads "Скачать"
+    ??? downloads
     
         - [:simple-googleplay: Google Play](https://play.google.com/store/apps/details?id=io.simplelogin.android)
         - [:simple-appstore: App Store](https://apps.apple.com/app/id1494359858)
         - [:simple-github: GitHub](https://github.com/simple-login/Simple-Login-Android/releases)
-        - [:simple-firefoxbrowser: Firefox](https://addons.mozilla.org/en-US/firefox/addon/simplelogin/)
+        - [:simple-firefoxbrowser: Firefox](https://addons.mozilla.org/firefox/addon/simplelogin/)
         - [:simple-googlechrome: Chrome](https://chrome.google.com/webstore/detail/dphilobhebphkdjbpfohgikllaljmgbn)
         - [:simple-microsoftedge: Edge](https://microsoftedge.microsoft.com/addons/detail/simpleloginreceive-sen/diacfpipniklenphgljfkmhinphjlfff)
         - [:simple-safari: Safari](https://apps.apple.com/app/id1494051017)

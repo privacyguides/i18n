@@ -276,8 +276,8 @@ Un servizio di alias dell'email ti consente di generare facilmente un nuovo indi
 
 <div class="grid cards" markdown>
 
-- ![Logo di AnonAddy](assets/img/email/anonaddy.svg#only-light){ .twemoji }![AnonAddy logo](assets/img/email/anonaddy-dark.svg#only-dark){ .twemoji } [AnonAddy](email.md#anonaddy)
-- ![Logo di SimpleLogin](assets/img/email/simplelogin.svg){ .twemoji } [SimpleLogin](email.md#simplelogin)
+- ![addy.io logo](assets/img/email/mini/addy.svg){ .twemoji } [addy.io](email.md#addyio)
+- ![SimpleLogin logo](assets/img/email/simplelogin.svg){ .twemoji } [SimpleLogin](email.md#simplelogin)
 
 </div>
 
@@ -298,36 +298,36 @@ Gli alias email che consigliamo, sono fornitori che ti consentono di creare alia
 
 Utilizzare un servizio di alias richiede di affidare i tuoi messaggi crittografati sia al fornitore della tua email che al fornitore del tuo alias. Alcuni fornitori mitigano lievemente questo problema con la crittografia PGP automatica, riiducendo il numero di parti di cui devi fidarti da due a una, crittografando le email in entrata prima che siano consegnate al fornitore finale della tua casella.
 
-### AnonAddy
+### addy.io
 
 !!! recommendation
 
-    ![Logo di AnonAddy](assets/img/email/anonaddy.svg#only-light){ align=right }
-    ![Logo di AnonAddy](assets/img/email/anonaddy-dark.svg#only-dark){ align=right }
+    ![addy.io logo](assets/img/email/addy.svg#only-light){ align=right }
+    ![addy.io logo](assets/img/email/addy-dark.svg#only-dark){ align=right }
     
-    **AnonAddy** consente di creare gratuitamente 20 alias del dominio su un dominio condiviso, oppure alias "standard" illimitati, meno anonimi.
+    **addy.io** lets you create 10 domain aliases on a shared domain for free, or unlimited "standard" aliases which are less anonymous.
     
-    [:octicons-home-16: Homepage](https://anonaddy.com){ .md-button .md-button--primary }
-    [:octicons-eye-16:](https://anonaddy.com/privacy/){ .card-link title="Privacy Policy" }
-    [:octicons-info-16:](https://app.anonaddy.com/docs/){ .card-link title=Documentation}
+    [:octicons-home-16: Homepage](https://addy.io){ .md-button .md-button--primary }
+    [:octicons-eye-16:](https://addy.io/privacy){ .card-link title="Privacy Policy" }
+    [:octicons-info-16:](https://app.addy.io/docs){ .card-link title=Documentation}
     [:octicons-code-16:](https://github.com/anonaddy){ .card-link title="Source Code" }
-    [:octicons-heart-16:](https://anonaddy.com/donate/){ .card-link title=Contribute }
+    [:octicons-heart-16:](https://addy.io/donate){ .card-link title=Contribute }
     
     ??? downloads
     
-        - [:simple-android: Android](https://anonaddy.com/faq/#is-there-an-android-app)
-        - [:material-apple-ios: iOS](https://anonaddy.com/faq/#is-there-an-ios-app)
-        - [:simple-firefoxbrowser: Firefox](https://addons.mozilla.org/en-GB/firefox/addon/anonaddy/)
-        - [:simple-googlechrome: Chrome](https://chrome.google.com/webstore/detail/anonaddy-anonymous-email/iadbdpnoknmbdeolbapdackdcogdmjpe)
+        - [:simple-android: Android](https://addy.io/faq/#is-there-an-android-app)
+        - [:material-apple-ios: iOS](https://addy.io/faq/#is-there-an-ios-app)
+        - [:simple-firefoxbrowser: Firefox](https://addons.mozilla.org/firefox/addon/addy_io/)
+        - [:simple-googlechrome: Chrome](https://chrome.google.com/webstore/detail/addyio-anonymous-email-fo/iadbdpnoknmbdeolbapdackdcogdmjpe)
 
-Il numero di alias condivisi (che termina in un dominio condiviso come @anonaddy.me) che puoi creare, è limitato a 20 sul piano gratuito di AnonAddy e a 50 sul loro piano da $12/anno. Puoi creare alias standard illimitati (che terminano in un dominio come @[nomeutente].anonaddy.com o in un dominio personalizzato sui piani a pagamento), tuttavia, come detto precedentemente, ciò può essere dannoso per la privacy, poiché le persone possono banalmente collegare i tuoi alias standard secondo il solo nome di dominio. Gli alias condivisi illimitati sono disponibili per $36/anno.
+The number of shared aliases (which end in a shared domain like @addy.io) that you can create is limited to 10 on addy.io's free plan, 50 on their $1/month plan and unlimited on the $4/month plan (billed $3 for a year). You can create unlimited standard aliases (which end in a domain like @[username].addy.io or a custom domain on paid plans), however, as previously mentioned, this can be detrimental to privacy because people can trivially tie your standard aliases together based on the domain name alone. They are useful where a shared domain might be blocked by a service.
 
 Funzionalità gratuite degne di nota:
 
-- [x] 20 alias condivisi
+- [x] 10 alias condivisi
 - [x] Alias standard illimitati
 - [ ] Non sono possibili le risposte in uscita
-- [x] 2 Caselle del Destinatario
+- [x] 1 Recipient Mailboxes
 - [x] Crittografia automatica PGP
 
 ### SimpleLogin
@@ -348,7 +348,7 @@ Funzionalità gratuite degne di nota:
         - [:simple-googleplay: Google Play](https://play.google.com/store/apps/details?id=io.simplelogin.android)
         - [:simple-appstore: App Store](https://apps.apple.com/app/id1494359858)
         - [:simple-github: GitHub](https://github.com/simple-login/Simple-Login-Android/releases)
-        - [:simple-firefoxbrowser: Firefox](https://addons.mozilla.org/en-US/firefox/addon/simplelogin/)
+        - [:simple-firefoxbrowser: Firefox](https://addons.mozilla.org/firefox/addon/simplelogin/)
         - [:simple-googlechrome: Chrome](https://chrome.google.com/webstore/detail/dphilobhebphkdjbpfohgikllaljmgbn)
         - [:simple-microsoftedge: Edge](https://microsoftedge.microsoft.com/addons/detail/simpleloginreceive-sen/diacfpipniklenphgljfkmhinphjlfff)
         - [:simple-safari: Safari](https://apps.apple.com/app/id1494051017)

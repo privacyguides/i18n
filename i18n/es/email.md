@@ -276,8 +276,8 @@ Un servicio de alias de correo electrónico le permite generar fácilmente una n
 
 <div class="grid cards" markdown>
 
-- ![Logo de AnonAddy](assets/img/email/anonaddy.svg#only-light){ .twemoji }![Logo deAnonAddy](assets/img/email/anonaddy-dark.svg#only-dark){ .twemoji } [AnonAddy](email.md#anonaddy)
-- ![Logo de SimpleLogin](assets/img/email/simplelogin.svg){ .twemoji } [SimpleLogin](email.md#simplelogin)
+- ![addy.io logo](assets/img/email/mini/addy.svg){ .twemoji } [addy.io](email.md#addyio)
+- ![SimpleLogin logo](assets/img/email/simplelogin.svg){ .twemoji } [SimpleLogin](email.md#simplelogin)
 
 </div>
 
@@ -298,36 +298,36 @@ Nuestras recomendaciones de alias de correo electrónico son proveedores que le 
 
 Utilizar un servicio de alias requiere confiar, tanto a tu proveedor de correo electrónico como a tu proveedor de alias, tus mensajes sin cifrar. Algunos proveedores mitigan esto ligeramente con el cifrado automático PGP, que reduce el número de partes en las que tienes que confiar de dos a una al cifrar los correos entrantes antes de que lleguen a tu proveedor de buzón final.
 
-### AnonAddy
+### addy.io
 
 !!! recommendation
 
-    ![Logo de AnonAddy](assets/img/email/anonaddy.svg#only-light){ align=right }
-    ![Logo de AnonAddy](assets/img/email/anonaddy-dark.svg#only-dark){ align=right }
+    ![addy.io logo](assets/img/email/addy.svg#only-light){ align=right }
+    ![addy.io logo](assets/img/email/addy-dark.svg#only-dark){ align=right }
     
-    **AnonAddy** te permite crear 20 alias de dominio en un dominio compartido de forma gratuita, o alias "estándar" ilimitados que son menos anónimos.
+    **addy.io** lets you create 10 domain aliases on a shared domain for free, or unlimited "standard" aliases which are less anonymous.
     
-    [:octicons-home-16: Página Principal](https://anonaddy.com){ .md-button .md-button--primary }
-    [:octicons-eye-16:](https://anonaddy.com/privacy/){ .card-link title="Politica de Privacidad" }
-    [:octicons-info-16:](https://app.anonaddy.com/docs/){ .card-link title=Documentación}
-    [:octicons-code-16:](https://github.com/anonaddy){ .card-link title="Código Fuente" }
-    [:octicons-heart-16:](https://anonaddy.com/donate/){ .card-link title=Contribuir }
+    [:octicons-home-16: Homepage](https://addy.io){ .md-button .md-button--primary }
+    [:octicons-eye-16:](https://addy.io/privacy){ .card-link title="Privacy Policy" }
+    [:octicons-info-16:](https://app.addy.io/docs){ .card-link title=Documentation}
+    [:octicons-code-16:](https://github.com/anonaddy){ .card-link title="Source Code" }
+    [:octicons-heart-16:](https://addy.io/donate){ .card-link title=Contribute }
     
-    ??? downloads "Descargas"
+    ??? downloads
     
-        - [:simple-android: Android](https://anonaddy.com/faq/#is-there-an-android-app)
-        - [:material-apple-ios: iOS](https://anonaddy.com/faq/#is-there-an-ios-app)
-        - [:simple-firefoxbrowser: Firefox](https://addons.mozilla.org/en-GB/firefox/addon/anonaddy/)
-        - [:simple-googlechrome: Chrome](https://chrome.google.com/webstore/detail/anonaddy-anonymous-email/iadbdpnoknmbdeolbapdackdcogdmjpe)
+        - [:simple-android: Android](https://addy.io/faq/#is-there-an-android-app)
+        - [:material-apple-ios: iOS](https://addy.io/faq/#is-there-an-ios-app)
+        - [:simple-firefoxbrowser: Firefox](https://addons.mozilla.org/firefox/addon/addy_io/)
+        - [:simple-googlechrome: Chrome](https://chrome.google.com/webstore/detail/addyio-anonymous-email-fo/iadbdpnoknmbdeolbapdackdcogdmjpe)
 
-El número de alias compartidos (que terminan en un dominio compartido como @anonaddy.me) que puedes crear está limitado a 20 en el plan gratuito de AnonAddy y a 50 en su plan de 12 $/año. Puedes crear un número ilimitado de alias estándar (que terminan en un dominio como @[username].anonaddy.com o un dominio personalizado en los planes de pago), sin embargo, como se ha mencionado anteriormente, esto puede ir en detrimento de la privacidad porque la gente puede relacionar trivialmente tus alias estándar basándose únicamente en el nombre de dominio. Hay disponibles alias compartidos ilimitados por 36 $/año.
+The number of shared aliases (which end in a shared domain like @addy.io) that you can create is limited to 10 on addy.io's free plan, 50 on their $1/month plan and unlimited on the $4/month plan (billed $3 for a year). You can create unlimited standard aliases (which end in a domain like @[username].addy.io or a custom domain on paid plans), however, as previously mentioned, this can be detrimental to privacy because people can trivially tie your standard aliases together based on the domain name alone. They are useful where a shared domain might be blocked by a service.
 
 Funciones gratuitas destacables:
 
-- [x] 20 Alias compartidos
+- [x] 10 Alias compartidos
 - [x] Alias estándar ilimitados
 - [ ] No hay respuestas salientes
-- [x] 2 Buzones de destinatarios
+- [x] 1 Recipient Mailboxes
 - [x] Cifrado PGP automático
 
 ### SimpleLogin
@@ -343,12 +343,12 @@ Funciones gratuitas destacables:
     [:octicons-info-16:](https://simplelogin.io/docs/){ .card-link title=Documentación}
     [:octicons-code-16:](https://github.com/simple-login){ .card-link title="Código Fuente" }
     
-    ??? downloads "Descargas"
+    ??? downloads
     
         - [:simple-googleplay: Google Play](https://play.google.com/store/apps/details?id=io.simplelogin.android)
         - [:simple-appstore: App Store](https://apps.apple.com/app/id1494359858)
         - [:simple-github: GitHub](https://github.com/simple-login/Simple-Login-Android/releases)
-        - [:simple-firefoxbrowser: Firefox](https://addons.mozilla.org/en-US/firefox/addon/simplelogin/)
+        - [:simple-firefoxbrowser: Firefox](https://addons.mozilla.org/firefox/addon/simplelogin/)
         - [:simple-googlechrome: Chrome](https://chrome.google.com/webstore/detail/dphilobhebphkdjbpfohgikllaljmgbn)
         - [:simple-microsoftedge: Edge](https://microsoftedge.microsoft.com/addons/detail/simpleloginreceive-sen/diacfpipniklenphgljfkmhinphjlfff)
         - [:simple-safari: Safari](https://apps.apple.com/app/id1494051017)

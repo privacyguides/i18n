@@ -276,8 +276,8 @@ Tutanota не пропонує функцію цифрової спадщини.
 
 <div class="grid cards" markdown>
 
-- ![логотип AnonAddy](assets/img/email/anonaddy.svg#only-light){ .twemoji }![логотип AnonAddy](assets/img/email/anonaddy-dark.svg#only-dark){ .twemoji } [AnonAddy](email.md#anonaddy)
-- ![логотип SimpleLogin](assets/img/email/simplelogin.svg){ .twemoji } [SimpleLogin](email.md#simplelogin)
+- ![addy.io logo](assets/img/email/mini/addy.svg){ .twemoji } [addy.io](email.md#addyio)
+- ![SimpleLogin logo](assets/img/email/simplelogin.svg){ .twemoji } [SimpleLogin](email.md#simplelogin)
 
 </div>
 
@@ -298,36 +298,36 @@ Tutanota не пропонує функцію цифрової спадщини.
 
 Використання сервісу псевдонімів вимагає довіри до ваших незашифрованих повідомлень як з боку вашого провайдера електронної пошти, так і з боку провайдера аліасів. Деякі провайдери дещо пом'якшують цю проблему за допомогою автоматичного PGP шифрування, яке зменшує кількість сторін, яким ви повинні довіряти, з двох до однієї, шифруючи вхідні електронні листи до того, як вони будуть доставлені до вашого кінцевого провайдера поштової скриньки.
 
-### AnonAddy
+### addy.io
 
 !!! рекомендації
 
-    ![Логотип AnonAddy](assets/img/email/anonaddy.svg#only-light){ align=right }
-    ![Логотип AnonAddy](assets/img/email/anonaddy-dark.svg#only-dark){ align=right }
+    ![addy.io logo](assets/img/email/addy.svg#only-light){ align=right }
+    ![addy.io logo](assets/img/email/addy-dark.svg#only-dark){ align=right }
     
-    * * AnonAddy * * дозволяє безкоштовно створити 20 аліасів на спільному домені або необмежену кількість "стандартних" аліасів, які є менш анонімними.
+    **addy.io** lets you create 10 domain aliases on a shared domain for free, or unlimited "standard" aliases which are less anonymous.
     
-    [:octicons-home-16: Домашня сторінка](https://anonaddy.com){ .md-button .md-button--primary }
-    [:octicons-eye-16:](https://anonaddy.com/privacy/){ .card-link title="Політика конфіденційності" }
-    [:octicons-info-16:](https://app.anonaddy.com/docs/){ .card-link title=Документація}
-    [:octicons-code-16:](https://github.com/anonaddy){ .card-link title="Вихідний код" }
-    [:octicons-heart-16:](https://anonaddy.com/donate/){ .card-link title=Зробити внесок}
+    [:octicons-home-16: Homepage](https://addy.io){ .md-button .md-button--primary }
+    [:octicons-eye-16:](https://addy.io/privacy){ .card-link title="Privacy Policy" }
+    [:octicons-info-16:](https://app.addy.io/docs){ .card-link title=Documentation}
+    [:octicons-code-16:](https://github.com/anonaddy){ .card-link title="Source Code" }
+    [:octicons-heart-16:](https://addy.io/donate){ .card-link title=Contribute }
     
     ??? downloads
     
-        - [:simple-android: Android](https://anonaddy.com/faq/#is-there-an-android-app)
-        - [:material-apple-ios: iOS](https://anonaddy.com/faq/#is-there-an-ios-app)
-        - [:simple-firefoxbrowser: Firefox](https://addons.mozilla.org/en-GB/firefox/addon/anonaddy/)
-        - [:simple-googlechrome: Chrome](https://chrome.google.com/webstore/detail/anonaddy-anonymous-email/iadbdpnoknmbdeolbapdackdcogdmjpe)
+        - [:simple-android: Android](https://addy.io/faq/#is-there-an-android-app)
+        - [:material-apple-ios: iOS](https://addy.io/faq/#is-there-an-ios-app)
+        - [:simple-firefoxbrowser: Firefox](https://addons.mozilla.org/firefox/addon/addy_io/)
+        - [:simple-googlechrome: Chrome](https://chrome.google.com/webstore/detail/addyio-anonymous-email-fo/iadbdpnoknmbdeolbapdackdcogdmjpe)
 
-Кількість спільних псевдонімів (які закінчуються на спільний домен, наприклад @anonaddy.me), які ви можете створити, обмежена 20 на безкоштовному плані AnonAddy і 50 на плані за $12/рік. Ви можете створювати необмежену кількість стандартних псевдонімів (які закінчуються на @[username].anonaddy.com або на власний домен у платних планах), однак, як уже згадувалося, це може зашкодити конфіденційності, оскільки люди можуть банально пов'язати ваші стандартні псевдоніми між собою на основі лише доменного імені. Необмежена кількість спільних псевдонімів доступна за $36 на рік.
+The number of shared aliases (which end in a shared domain like @addy.io) that you can create is limited to 10 on addy.io's free plan, 50 on their $1/month plan and unlimited on the $4/month plan (billed $3 for a year). You can create unlimited standard aliases (which end in a domain like @[username].addy.io or a custom domain on paid plans), however, as previously mentioned, this can be detrimental to privacy because people can trivially tie your standard aliases together based on the domain name alone. They are useful where a shared domain might be blocked by a service.
 
 Особливі безкоштовні можливості:
 
-- [x] 20 спільних псевдонімів
+- [x] 10 спільних псевдонімів
 - [x] Необмежена кількість стандартних псевдонімів
 - [ ] Немає вихідних відповідей
-- [x] 2 Поштові скриньки одержувачів
+- [x] 1 Recipient Mailboxes
 - [x] Автоматичне шифрування PGP
 
 ### SimpleLogin
@@ -348,7 +348,7 @@ Tutanota не пропонує функцію цифрової спадщини.
         - [:simple-googleplay: Google Play](https://play.google.com/store/apps/details?id=io.simplelogin.android)
         - [:simple-appstore: App Store](https://apps.apple.com/app/id1494359858)
         - [:simple-github: GitHub](https://github.com/simple-login/Simple-Login-Android/releases)
-        - [:simple-firefoxbrowser: Firefox](https://addons.mozilla.org/en-US/firefox/addon/simplelogin/)
+        - [:simple-firefoxbrowser: Firefox](https://addons.mozilla.org/firefox/addon/simplelogin/)
         - [:simple-googlechrome: Chrome](https://chrome.google.com/webstore/detail/dphilobhebphkdjbpfohgikllaljmgbn)
         - [:simple-microsoftedge: Edge](https://microsoftedge.microsoft.com/addons/detail/simpleloginreceive-sen/diacfpipniklenphgljfkmhinphjlfff)
         - [:simple-safari: Safari](https://apps.apple.com/app/id1494051017)

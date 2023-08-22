@@ -276,8 +276,8 @@ Tutanota는 디지털 유산 상속 기능을 제공하지 않습니다.
 
 <div class="grid cards" markdown>
 
-- ![AnonAddy 로고](assets/img/email/anonaddy.svg#only-light){ .twemoji }![AnonAddy logo](assets/img/email/anonaddy-dark.svg#only-dark){ .twemoji } [AnonAddy](email.md#anonaddy)
-- ![SimpleLogin 로고](assets/img/email/simplelogin.svg){ .twemoji } [SimpleLogin](email.md#simplelogin)
+- ![addy.io logo](assets/img/email/mini/addy.svg){ .twemoji } [addy.io](email.md#addyio)
+- ![SimpleLogin logo](assets/img/email/simplelogin.svg){ .twemoji } [SimpleLogin](email.md#simplelogin)
 
 </div>
 
@@ -298,36 +298,36 @@ Privacy Guides 권장 이메일 별칭 제공 업체는 해당 업체에서 관�
 
 '이메일 별칭 서비스를 사용한다'라는 것은, 암호화되지 않은 메시지를 다룰 땐 이메일 제공 업체와 이메일 별칭 서비스 제공 업체를 모두 신뢰해야 함을 의미합니다. 일부 제공 업체는 수신 이메일을 최종 메일함 제공 업체에 도달하기 전에 자동으로 PGP 암호화는 방식을 통해 신뢰해야 할 개체의 수를 둘에서 하나로 줄이는 식으로 해당 문제를 어느 정도 완화하기도 합니다.
 
-### AnonAddy
+### addy.io
 
 !!! recommendation
 
-    ![AnonAddy 로고](assets/img/email/anonaddy.svg#only-light){ align=right }
-    ![AnonAddy 로고](assets/img/email/anonaddy-dark.svg#only-dark){ align=right }
+    ![addy.io logo](assets/img/email/addy.svg#only-light){ align=right }
+    ![addy.io logo](assets/img/email/addy-dark.svg#only-dark){ align=right }
     
-    **AnonAddy**는 공통 도메인에 20개까지 도메인 별칭 생성을 무료로 제공하며, 익명성이 떨어지는 'Standard' 별칭은 무제한으로 생성 가능합니다.
+    **addy.io** lets you create 10 domain aliases on a shared domain for free, or unlimited "standard" aliases which are less anonymous.
     
-    [:octicons-home-16: 홈페이지](https://anonaddy.com){ .md-button .md-button--primary }
-    [:octicons-eye-16:](https://anonaddy.com/privacy/){ .card-link title="프라이버시 정책" }
-    [:octicons-info-16:](https://app.anonaddy.com/docs/){ .card-link title=문서}
-    [:octicons-code-16:](https://github.com/anonaddy){ .card-link title="소스 코드" }
-    [:octicons-heart-16:](https://anonaddy.com/donate/){ .card-link title=기부 }
+    [:octicons-home-16: Homepage](https://addy.io){ .md-button .md-button--primary }
+    [:octicons-eye-16:](https://addy.io/privacy){ .card-link title="Privacy Policy" }
+    [:octicons-info-16:](https://app.addy.io/docs){ .card-link title=Documentation}
+    [:octicons-code-16:](https://github.com/anonaddy){ .card-link title="Source Code" }
+    [:octicons-heart-16:](https://addy.io/donate){ .card-link title=Contribute }
     
-    ??? downloads "다운로드"
+    ??? downloads
     
-        - [:simple-android: Android](https://anonaddy.com/faq/#is-there-an-android-app)
-        - [:material-apple-ios: iOS](https://anonaddy.com/faq/#is-there-an-ios-app)
-        - [:simple-firefoxbrowser: Firefox](https://addons.mozilla.org/en-GB/firefox/addon/anonaddy/)
-        - [:simple-googlechrome: Chrome](https://chrome.google.com/webstore/detail/anonaddy-anonymous-email/iadbdpnoknmbdeolbapdackdcogdmjpe)
+        - [:simple-android: Android](https://addy.io/faq/#is-there-an-android-app)
+        - [:material-apple-ios: iOS](https://addy.io/faq/#is-there-an-ios-app)
+        - [:simple-firefoxbrowser: Firefox](https://addons.mozilla.org/firefox/addon/addy_io/)
+        - [:simple-googlechrome: Chrome](https://chrome.google.com/webstore/detail/addyio-anonymous-email-fo/iadbdpnoknmbdeolbapdackdcogdmjpe)
 
-AnonAddy에서 생성 가능한 공통 도메인 별칭(공통 도메인은 @anonaddy.me 으로 끝나는 형태입니다) 개수는 무료 플랜의 경우 20개, 연간 $12 플랜의 경우 50개입니다. Standard 별칭(@[사용자명].anonaddy.com으로 끝나는 형태이거나, 유료 플랜은 사용자 정의 도메인)은 무제한으로 만들 수 있습니다. 하지만 앞서 언급했듯, 도메인 이름만 보고도 해당 Standard 별칭 사용자를 연결 지을 수 있기 때문에 프라이버시 면에서는 해로울 수 있습니다. 무제한 공통 도메인 별칭은 연간 $36로 이용할 수 있습니다.
+The number of shared aliases (which end in a shared domain like @addy.io) that you can create is limited to 10 on addy.io's free plan, 50 on their $1/month plan and unlimited on the $4/month plan (billed $3 for a year). You can create unlimited standard aliases (which end in a domain like @[username].addy.io or a custom domain on paid plans), however, as previously mentioned, this can be detrimental to privacy because people can trivially tie your standard aliases together based on the domain name alone. They are useful where a shared domain might be blocked by a service.
 
 주요 무료 기능:
 
-- [x] 20개의 공통 도메인 별칭
+- [x] 10개의 공통 도메인 별칭
 - [x] 무제한 Standard 별칭
 - [ ] 발신 답장 불가능
-- [x] 2개의 수신자 메일함
+- [x] 1 Recipient Mailboxes
 - [x] 자동 PGP 암호화
 
 ### SimpleLogin
@@ -343,12 +343,12 @@ AnonAddy에서 생성 가능한 공통 도메인 별칭(공통 도메인은 @ano
     [:octicons-info-16:](https://simplelogin.io/docs/){ .card-link title=문서}
     [:octicons-code-16:](https://github.com/simple-login){ .card-link title="소스 코드" }
     
-    ??? downloads "다운로드"
+    ??? downloads
     
         - [:simple-googleplay: Google Play](https://play.google.com/store/apps/details?id=io.simplelogin.android)
         - [:simple-appstore: App Store](https://apps.apple.com/app/id1494359858)
         - [:simple-github: GitHub](https://github.com/simple-login/Simple-Login-Android/releases)
-        - [:simple-firefoxbrowser: Firefox](https://addons.mozilla.org/en-US/firefox/addon/simplelogin/)
+        - [:simple-firefoxbrowser: Firefox](https://addons.mozilla.org/firefox/addon/simplelogin/)
         - [:simple-googlechrome: Chrome](https://chrome.google.com/webstore/detail/dphilobhebphkdjbpfohgikllaljmgbn)
         - [:simple-microsoftedge: Edge](https://microsoftedge.microsoft.com/addons/detail/simpleloginreceive-sen/diacfpipniklenphgljfkmhinphjlfff)
         - [:simple-safari: Safari](https://apps.apple.com/app/id1494051017)

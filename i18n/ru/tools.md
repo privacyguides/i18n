@@ -130,8 +130,8 @@ description: Privacy Guides - это самый прозрачный и наде
 
 <div class="grid cards" markdown>
 
-- ![Логотип AnonAddy](assets/img/email/anonaddy.svg#only-light){ .twemoji }![Логотип AnonAddy](assets/img/email/anonaddy-dark.svg#only-dark){ .twemoji } [AnonAddy](email.md#anonaddy)
-- ![Логотип SimpleLogin](assets/img/email/simplelogin.svg){ .twemoji } [SimpleLogin](email.md#simplelogin)
+- ![addy.io logo](assets/img/email/mini/addy.svg){ .twemoji } [addy.io](email.md#addyio)
+- ![SimpleLogin logo](assets/img/email/simplelogin.svg){ .twemoji } [SimpleLogin](email.md#simplelogin)
 
 </div>
 

@@ -276,8 +276,8 @@ Tutanota לא מציעה פיצ'ר מורשת דיגיטלית.
 
 <div class="grid cards" markdown>
 
-- ![AnonAddy לוגו](assets/img/email/anonaddy.svg#only-light){ .twemoji }![AnonAddy לוגו](assets/img/email/anonaddy-dark.svg#only-dark){ .twemoji } [AnonAddy](email.md#anonaddy)
-- ![SimpleLogin לוגו](assets/img/email/simplelogin.svg){ .twemoji } [SimpleLogin](email.md#simplelogin)
+- ![addy.io logo](assets/img/email/mini/addy.svg){ .twemoji } [addy.io](email.md#addyio)
+- ![SimpleLogin logo](assets/img/email/simplelogin.svg){ .twemoji } [SimpleLogin](email.md#simplelogin)
 
 </div>
 
@@ -298,36 +298,36 @@ Tutanota לא מציעה פיצ'ר מורשת דיגיטלית.
 
 שימוש בשירות כינויים מחייב לתת אמון הן בספק הדואר האלקטרוני שלך והן בספק הכתובות שלך בהודעות הלא מוצפנות שלך. חלק מהספקים מפחיתים זאת מעט עם הצפנת PGP אוטומטית, שמפחיתה את מספר הצדדים שאתה צריך לסמוך עליהם משניים לאחד על ידי הצפנת הודעות דוא"ל נכנסות לפני שהן נמסרות לספק תיבת הדואר הסופי שלך.
 
-### AnonAddy
+### addy.io
 
 !!! recommendation
 
-    ![AnonAddy לוגו](assets/img/email/anonaddy.svg#only-light){ align=right }
-    ![AnonAddy לוגו](assets/img/email/anonaddy-dark.svg#only-dark){ align=right }
+    ![addy.io logo](assets/img/email/addy.svg#only-light){ align=right }
+    ![addy.io logo](assets/img/email/addy-dark.svg#only-dark){ align=right }
     
-    **AnonAddy** מאפשרת לך ליצור 20 כינויים של דומיין בדומיין משותף בחינם, או כינויים "סטנדרטיים" ללא הגבלה שהם פחות אנונימיים.
+    **addy.io** lets you create 10 domain aliases on a shared domain for free, or unlimited "standard" aliases which are less anonymous.
     
-    [:octicons-home-16: דף הבית](https://anonaddy.com){ .md-button .md-button--primary }
-    [:octicons-eye-16:](https://anonaddy.com/privacy/){ .card-link title="מדיניות פרטיות" }
-    [:octicons-info-16:](https://app.anonaddy.com/docs/){ .card-link title=תיעוד}
-    [:octicons-code-16:](https://github.com/anonaddy){ .card-link title="קוד מקור" }
-    [:octicons-heart-16:](https://anonaddy.com/donate/){ .card-link title=לתרומה }
+    [:octicons-home-16: Homepage](https://addy.io){ .md-button .md-button--primary }
+    [:octicons-eye-16:](https://addy.io/privacy){ .card-link title="Privacy Policy" }
+    [:octicons-info-16:](https://app.addy.io/docs){ .card-link title=Documentation}
+    [:octicons-code-16:](https://github.com/anonaddy){ .card-link title="Source Code" }
+    [:octicons-heart-16:](https://addy.io/donate){ .card-link title=Contribute }
     
-    ??? downloads "הורדות"
+    ??? downloads
     
-        - [:simple-android: Android](https://anonaddy.com/faq/#is-there-an-android-app)
-        - [:material-apple-ios: iOS](https://anonaddy.com/faq/#is-there-an-ios-app)
-        - [:simple-firefoxbrowser: Firefox](https://addons.mozilla.org/en-GB/firefox/addon/anonaddy/)
-        - [:simple-googlechrome: Chrome](https://chrome.google.com/webstore/detail/anonaddy-anonymous-email/iadbdpnoknmbdeolbapdackdcogdmjpe)
+        - [:simple-android: Android](https://addy.io/faq/#is-there-an-android-app)
+        - [:material-apple-ios: iOS](https://addy.io/faq/#is-there-an-ios-app)
+        - [:simple-firefoxbrowser: Firefox](https://addons.mozilla.org/firefox/addon/addy_io/)
+        - [:simple-googlechrome: Chrome](https://chrome.google.com/webstore/detail/addyio-anonymous-email-fo/iadbdpnoknmbdeolbapdackdcogdmjpe)
 
-מספר הכינויים המשותפים (שמסתיימים בדומיין משותף כמו @anonaddy.me) שתוכלו ליצור מוגבל ל-20 בתוכנית החינמית של AnonAddy ול-50 בחבילה החינמית שלהם ב-12 דולר לשנה. אתה יכול ליצור כינויים סטנדרטיים בלתי מוגבלים (שמסתיימים בדומיין כמו @[username].anonaddy.com או דומיין מותאם אישית בתוכניות בתשלום), עם זאת, כאמור, זה יכול להזיק לפרטיות מכיוון שאנשים יכולים לקשור באופן טריוויאלי את הכינויים הסטנדרטיים שלך יחד על סמך שם הדומיין בלבד. כינויים משותפים ללא הגבלה זמינים תמורת $36 לשנה.
+The number of shared aliases (which end in a shared domain like @addy.io) that you can create is limited to 10 on addy.io's free plan, 50 on their $1/month plan and unlimited on the $4/month plan (billed $3 for a year). You can create unlimited standard aliases (which end in a domain like @[username].addy.io or a custom domain on paid plans), however, as previously mentioned, this can be detrimental to privacy because people can trivially tie your standard aliases together based on the domain name alone. They are useful where a shared domain might be blocked by a service.
 
 תכונות חינמיות בולטות:
 
-- [x] 20 כינויים משותפים
+- [x] 10 כינויים משותפים
 - [x] כינויים סטנדרטיים ללא הגבלה
 - [ ] אין תגובות יוצאות
-- [x] 2 תיבות דואר של נמען
+- [x] 1 Recipient Mailboxes
 - [x] הצפנת PGP אוטומטית
 
 ### SimpleLogin
@@ -343,12 +343,12 @@ Tutanota לא מציעה פיצ'ר מורשת דיגיטלית.
     [:octicons-info-16:](https://simplelogin.io/docs/){ .card-link title=תיעוד}
     [:octicons-code-16:](https://github.com/simple-login){ .card-link title="קוד מקור" }
     
-    ??? downloads "הורדות"
+    ??? downloads
     
         - [:simple-googleplay: Google Play](https://play.google.com/store/apps/details?id=io.simplelogin.android)
         - [:simple-appstore: App Store](https://apps.apple.com/app/id1494359858)
         - [:simple-github: GitHub](https://github.com/simple-login/Simple-Login-Android/releases)
-        - [:simple-firefoxbrowser: Firefox](https://addons.mozilla.org/en-US/firefox/addon/simplelogin/)
+        - [:simple-firefoxbrowser: Firefox](https://addons.mozilla.org/firefox/addon/simplelogin/)
         - [:simple-googlechrome: Chrome](https://chrome.google.com/webstore/detail/dphilobhebphkdjbpfohgikllaljmgbn)
         - [:simple-microsoftedge: Edge](https://microsoftedge.microsoft.com/addons/detail/simpleloginreceive-sen/diacfpipniklenphgljfkmhinphjlfff)
         - [:simple-safari: Safari](https://apps.apple.com/app/id1494051017)

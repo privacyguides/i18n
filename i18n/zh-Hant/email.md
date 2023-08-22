@@ -276,7 +276,7 @@ Tutanota不提供數字遺產功能。
 
 <div class="grid cards" markdown>
 
-- ![AnonAddy logo](assets/img/email/anonaddy.svg#only-light){ .twemoji }![AnonAddy logo](assets/img/email/anonaddy-dark.svg#only-dark){ .twemoji } [AnonAddy](email.md#anonaddy)
+- ![addy.io logo](assets/img/email/mini/addy.svg){ .twemoji } [addy.io](email.md#addyio)
 - ![SimpleLogin logo](assets/img/email/simplelogin.svg){ .twemoji } [SimpleLogin](email.md#simplelogin)
 
 </div>
@@ -298,36 +298,36 @@ Tutanota不提供數字遺產功能。
 
 使用別名服務需要信任您的電子郵件提供商和您的別名提供商如何對待您未加密的消息。 有些供應商會透過自動 PGP 加密來稍微減輕這種情況，傳送到最終信箱供應商之前加密所傳送的電子郵件，將您需要信任的各方數量從兩個減少到一個。
 
-### AnonAddy
+### addy.io
 
 !!! recommendation
 
-    ![AnonAddy 標誌](assets/img/email/anonaddy.svg#only-light){ align=right }
-    ![AnonAddy標誌](assets/img/email/anonaddy-dark.svg#only-dark){ align=right }
+    ![addy.io logo](assets/img/email/addy.svg#only-light){ align=right }
+    ![addy.io logo](assets/img/email/addy-dark.svg#only-dark){ align=right }
     
-    **AnonAddy** 可讓您在共享網域上免費創建 20 個網域別名，或無限制的「標準」別名，但後者匿名度低。
+    **addy.io** lets you create 10 domain aliases on a shared domain for free, or unlimited "standard" aliases which are less anonymous.
     
-    [:octicons-home-16: Homepage](https://anonaddy.com){ .md-button .md-button--primary }
-    [:octicons-eye-16:](https://anonaddy.com/privacy/){ .card-link title="Privacy Policy" }
-    [:octicons-info-16:](https://app.anonaddy.com/docs/){ .card-link title=Documentation}
+    [:octicons-home-16: Homepage](https://addy.io){ .md-button .md-button--primary }
+    [:octicons-eye-16:](https://addy.io/privacy){ .card-link title="Privacy Policy" }
+    [:octicons-info-16:](https://app.addy.io/docs){ .card-link title=Documentation}
     [:octicons-code-16:](https://github.com/anonaddy){ .card-link title="Source Code" }
-    [:octicons-heart-16:](https://anonaddy.com/donate/){ .card-link title=Contribute }
+    [:octicons-heart-16:](https://addy.io/donate){ .card-link title=Contribute }
     
-    ??? downloads "下載"
+    ??? downloads
     
-        - [:simple-android: Android](https://anonaddy.com/faq/#is-there-an-android-app)
-        - [:material-apple-ios: iOS](https://anonaddy.com/faq/#is-there-an-ios-app)
-        - [:simple-firefoxbrowser: Firefox](https://addons.mozilla.org/en-GB/firefox/addon/anonaddy/)
-        - [:simple-googlechrome: Chrome](https://chrome.google.com/webstore/detail/anonaddy-anonymous-email/iadbdpnoknmbdeolbapdackdcogdmjpe)
+        - [:simple-android: Android](https://addy.io/faq/#is-there-an-android-app)
+        - [:material-apple-ios: iOS](https://addy.io/faq/#is-there-an-ios-app)
+        - [:simple-firefoxbrowser: Firefox](https://addons.mozilla.org/firefox/addon/addy_io/)
+        - [:simple-googlechrome: Chrome](https://chrome.google.com/webstore/detail/addyio-anonymous-email-fo/iadbdpnoknmbdeolbapdackdcogdmjpe)
 
-您可以創建的共享別名數量（以@ anonaddy.me等共享網域結束）在AnonAddy的免費計劃上限制為20個，在$ 12/年計劃上限制為50個。 您可以創建無限的標準別名（以 @[username].anonaddy.com 或付費方案上的自定域名） ，但是如前所述，這可能不利隱私，因為人們可以僅根據域名將您的標準別名綁定在一起。 無限共享別名的價格爲36美元/年。
+The number of shared aliases (which end in a shared domain like @addy.io) that you can create is limited to 10 on addy.io's free plan, 50 on their $1/month plan and unlimited on the $4/month plan (billed $3 for a year). You can create unlimited standard aliases (which end in a domain like @[username].addy.io or a custom domain on paid plans), however, as previously mentioned, this can be detrimental to privacy because people can trivially tie your standard aliases together based on the domain name alone. They are useful where a shared domain might be blocked by a service.
 
 值得注意的免費功能：
 
-- [x] 20共享別名
+- [x] 10共享別名
 - [x] 無限的別名
 - [ ] No Outgoing Replies
-- [x] 2  個收件人郵箱
+- [x] 1 Recipient Mailboxes
 - [x] 自動PGP加密
 
 ### SimpleLogin
@@ -343,12 +343,12 @@ Tutanota不提供數字遺產功能。
     [:octicons-info-16:](https://simplelogin.io/docs/){ .card-link title=Documentation}
     [:octicons-code-16:](https://github.com/simple-login){ .card-link title="Source Code" }
     
-    ??? downloads "下載"
+    ??? downloads
     
         - [:simple-googleplay: Google Play](https://play.google.com/store/apps/details?id=io.simplelogin.android)
         - [:simple-appstore: App Store](https://apps.apple.com/app/id1494359858)
         - [:simple-github: GitHub](https://github.com/simple-login/Simple-Login-Android/releases)
-        - [:simple-firefoxbrowser: Firefox](https://addons.mozilla.org/en-US/firefox/addon/simplelogin/)
+        - [:simple-firefoxbrowser: Firefox](https://addons.mozilla.org/firefox/addon/simplelogin/)
         - [:simple-googlechrome: Chrome](https://chrome.google.com/webstore/detail/dphilobhebphkdjbpfohgikllaljmgbn)
         - [:simple-microsoftedge: Edge](https://microsoftedge.microsoft.com/addons/detail/simpleloginreceive-sen/diacfpipniklenphgljfkmhinphjlfff)
         - [:simple-safari: Safari](https://apps.apple.com/app/id1494051017)
