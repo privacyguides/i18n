@@ -320,7 +320,7 @@ Utilizzare un servizio di alias richiede di affidare i tuoi messaggi crittografa
         - [:simple-firefoxbrowser: Firefox](https://addons.mozilla.org/it/firefox/addon/addy_io/)
         - [:simple-googlechrome: Chrome](https://chrome.google.com/webstore/detail/addyio-anonymous-email-fo/iadbdpnoknmbdeolbapdackdcogdmjpe)
 
-Il numero di alias condivisi (che terminano con un dominio condiviso come @addy.io) che puoi creare è limitato a 10 sul piano gratuito di addy.io, 50 sul piano da €1/mese e illimitato sul piano da €4/mese (fatturato €3 per un anno). You can create unlimited standard aliases (which end in a domain like @[username].addy.io or a custom domain on paid plans), however, as previously mentioned, this can be detrimental to privacy because people can trivially tie your standard aliases together based on the domain name alone. They are useful where a shared domain might be blocked by a service.
+Il numero di alias condivisi (che terminano con un dominio condiviso come @addy.io) che puoi creare è limitato a 10 sul piano gratuito di addy.io, 50 sul piano da €1/mese e illimitato sul piano da €4/mese (fatturato €3 per un anno). Puoi creare un numero illimitato di alias standard (che terminano con un dominio come @[username].addy.io o con un dominio personalizzato nei piani a pagamento), tuttavia, come detto in precedenza, questo può essere dannoso per la privacy poichè le persone possono banalmente collegare i tuoi alias standard basandosi unicamente sul nome del dominio. Sono utili quando un dominio condiviso potrebbe essere bloccato da un servizio.
 
 Funzionalità gratuite degne di nota:
 
