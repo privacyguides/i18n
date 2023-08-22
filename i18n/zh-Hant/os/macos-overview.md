@@ -38,7 +38,7 @@ description: macOS 是蘋果電腦的桌面作業系統，搭配其自家硬體�
 
 Apple 產品的大多數隱私和安全問題與其*雲服務*有關，而不是其硬體或軟體。 當使用 iCloud 等 Apple 服務時，大部分資訊都存儲在他們的伺服器上以密鑰保護，且預設情況下 Apple 可以取用該密鑰。 這種訪問級別偶爾會被執法部門濫用，儘管您的資料在設備上還是安全加密的狀態。當然，Apple 與任何其他公司一樣容易遭受資料洩露。
 
-因此，如果使用 iCloud，則應[啟用**進階資料保護**](https://support.apple.com/HT212520)。 This encrypts nearly all of your iCloud data with keys stored on your devices (end-to-end encryption), rather than Apple's servers, so that your iCloud data is secured in the event of a data breach, and otherwise hidden from Apple.
+因此，如果使用 iCloud，則應[啟用**進階資料保護**](https://support.apple.com/HT212520)。 它利用存在設備上的密鑰對您的iCloud 數據（端到端）加密，此密鑰並不在Apple 伺服器，因此發生數據洩露時您的 iCloud 數據可得到保護與隱匿。
 
 ### 系統設定
 
@@ -50,29 +50,29 @@ Apple 產品的大多數隱私和安全問題與其*雲服務*有關，而不是
 
 #### 網路
 
-Depending on if you are using **Wi-Fi** or **Ethernet** (denoted by a green dot and the word "connected"), click on the corresponding icon.
+取決於您使用的是**Wi-Fi** 還是**以太網**（由綠點和“已連接”顯示） ”），點擊相應的圖標。
 
-Click on the "Details" button by your network name:
+單擊網路名稱旁邊的“詳細資訊”按鈕：
 
-- [x] Check **Limit IP address tracking**
+- [x] 勾選**限制 IP 地址跟踪**
 
 ##### 防火牆
 
 防火牆會阻止不必要的網路連接。 防火牆設置越嚴格，您的 Mac 就越安全。 然而某些服務可能會被封鎖。 您應該將防火牆配置得盡可能嚴格，但不會影響使用的服務。
 
-- [x] Check **Firewall**
+- [x] 勾選 **防火牆l**
 
 點擊 **生成（Generate）** 按鈕。
 
-- [x] Check **Block all incoming connections**
+- [x] 勾選 **阻止所有傳入連接**
 
 如果配置過於嚴格，可以再回來取消勾選此選項。 但如果應用程式請求，macOS 通常會提示用戶允許該應用的傳入連接。
 
 #### 一般設定
 
-您的設備名稱預設為“[您的名字] 的 iMac”。 Because this name is publicly broadcast on your network, you'll want to change your device name to something generic like "Mac".
+您的設備名稱預設為“[您的名字] 的 iMac”。 此名稱會在您的網路上公開廣播，因此需將設備名稱更改為通用名稱，例如“Mac”。
 
-Click on **About** and type your desired device name into the **Name** field.
+單擊**關於**，然後在**名稱**欄位上輸入想取的設備名稱。
 
 ##### 軟體更新
 
@@ -80,15 +80,15 @@ Click on **About** and type your desired device name into the **Name** field.
 
 點擊 :material-information-outline: **自動更新** 旁邊的小圖標:
 
-- [x] Check **Check for updates**
+- [x] 勾選**檢查更新**
 
-- [x] Check **Download new updates when available**
+- [x] 勾選**下載可用的最近更新**
 
-- [x] Check **Install macOS updates**
+- [x] 勾選 **安裝 macOS 更新**
 
-- [x] Check **Install application updates from the App Store**
+- [x] 勾選 **從 App Store 安裝應用程式更新**
 
-- [x] Check **Install Security Responses and system files**
+- [x] 勾選 **安裝安全反應和系統檔案**
 
 #### 隱私 & 安全
 
@@ -130,25 +130,25 @@ App Store 中的應用程式須遵守更嚴格的安全準則，例如更嚴格�
 
 在較舊的 Intel 的 Mac 電腦，FileVault 是預設唯一可用的磁盤加密形式，應始終啟用。
 
-- [x] Click **Turn On**
+- [x] 點擊 **開啟**
 
-##### Lockdown Mode
+##### 封閉模式
 
-[Lockdown Mode](https://blog.privacyguides.org/2022/10/27/macos-ventura-privacy-security-updates/#lockdown-mode) disables some features in order to improve security. Some apps or features won't work the same way they do when it's off, for example, [JIT](https://hacks.mozilla.org/2017/02/a-crash-course-in-just-in-time-jit-compilers/) and [WASM](https://developer.mozilla.org/en-US/docs/WebAssembly) are disabled in Safari with Lockdown Mode enabled. We recommend enabling Lockdown Mode and seeing whether it significantly impacts your usage, many of the changes it makes are easy to live with.
+[封閉模式](https://blog.privacyguides.org/2022/10/27/macos-ventura-privacy-security-updates/#lockdown-mode) 禁用某些功能以提高安全性。 某些應用程式或功能在封閉時將無法正常工作，例如 [JIT](https://hacks.mozilla.org/2017/02/a-crash-course-in-just-in -time-jit- compilers/) 和[WASM](https://developer.mozilla.org/en-US/docs/WebAssembly) 在封閉模式下會被Safari 關閉。 建議啟用封閉模式看看它是否會顯著影響您的使用，它所做的許多更改都很容易接受。
 
-- [x] Click **Turn On**
+- [x] 點擊 **開啟**
 
 ### MAC 地址隨機化
 
-Unlike iOS, macOS doesn't give you an option to randomize your MAC address in the settings, so you'll need to do it with a command or a script.
+與 iOS 不同，macOS 不提供在設置中隨機化 MAC 地址的選項，因此您需要使用命令或腳本來執行此操作。
 
-You open up your Terminal and enter this command to randomize your MAC address:
+打開終端並輸入以下命令來隨機化 MAC 地址：
 
 ``` zsh
 openssl rand -hex 6 | sed 's/\(..\)/\1:/g; s/.$//' | xargs sudo ifconfig en1 ether 
 ```
 
-en1 is the name of the interface you're changing the MAC address for. 這可能並不適合每台 Mac，因此要進行檢查，可以按住 option 鍵並單擊螢幕右上角的 Wi-Fi 符號。
+en1 將要更改其 MAC 地址的接口名稱。 這可能並不適合每台 Mac，因此要進行檢查，可以按住 option 鍵並單擊螢幕右上角的 Wi-Fi 符號。
 
 這將在重新開機時重置。
 
@@ -160,33 +160,33 @@ macOS 通過不同屬性的多層軟體和硬體保護來進行深度防禦。 �
 
 !!! warning "警告"
 
-    macOS 可以安裝測試版更新。 但它們是不穩定的，可能帶有額外遙測，因為其用於測試目的。 Because of this, we recommend you avoid beta software in general.
+    macOS 可以安裝測試版更新。 但它們是不穩定的，可能帶有額外遙測，因為其用於測試目的。 因此，我們建議避免使用測試版軟件。
 
-#### Signed System Volume
+#### 簽署系統卷宗
 
-macOS's system components are protected in a read-only signed system volume, meaning that neither you nor malware can alter important system files.
+macOS 的系統組件受到唯讀簽署系統卷宗之保護，這意味著您和惡意軟件都無法更改重要的系統檔案。
 
-The system volume is verified while it's running and any data that's not signed with a valid cryptographic signature from Apple will be rejected.
+系統卷宗在運行時會予以驗證，任何未使用 Apple 的有效加密簽名進行簽署的數據都將遭拒絕。
 
 #### 系統完整性保護
 
-macOS sets certain security restrictions that can't be overridden. These are called Mandatory Access Controls, and they form the basis of the sandbox, parental controls, and System Integrity Protection on macOS.
+macOS 設置了某些無法覆蓋的安全限制。 這些稱為強制取用控制，它們構成 macOS 上的沙盒、家長控制和系統完整性保護的基礎。
 
-System Integrity Protection makes critical file locations read-only to protect against modification from malicious code. This is on top of the hardware-based Kernel Integrity Protection that keeps the kernel from being modified in-memory.
+系統完整保護使重要的檔案成為唯讀，以防止惡意代碼的修改。 這是基於硬體內核完整保護之上，可防止記憶體中的內核遭修改。
 
 #### 應用程式安全性
 
 ##### App 沙盒
 
-macOS apps downloaded from the App Store are required to be sandboxed usng the [App Sandbox](https://developer.apple.com/documentation/security/app_sandbox).
+從 App Store 下載的 macOS 應用需要使用[應用沙箱](https://developer.apple.com/documentation/security/app_sandbox)進行沙箱處理。
 
 !!! warning "警告"
 
-    Software downloaded from outside the official App Store is not required to be sandboxed. You should avoid non-App Store software as much as possible.
+    從官方 App Store 之外下載的軟體不需要沙盒。 應盡可能避免使用非 App Store 軟體。
 
 ##### 防毒軟體
 
-macOS comes with two forms of malware defense:
+macOS 提供兩種惡意軟體防禦形式：
 
 1. Protection against launching malware in the first place is provided by the App Store's review process for App Store applications, or *Notarization* (part of *Gatekeeper*), a process where third-party apps are scanned for known malware by Apple before they are allowed to run.
 2. Protection against other malware and remediation from existing malware on your system is provided by *XProtect*, a more traditional antivirus software built-in to macOS.
