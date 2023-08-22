@@ -126,7 +126,7 @@ App Store 中的應用程式須遵守更嚴格的安全準則，例如更嚴格�
 
 ##### FileVault
 
-在具有 Secure Enclave（Apple T2 安全晶片、Apple 晶片）的現代設備上，您的數據會保持加密。如果設備未檢測到數據遭篡改，則會通過硬體密鑰自動解密。 啟用 FileVault 還需要輪入密碼來解密資料，大大提高了安全性，尤其是在關機時或開機後首次登錄時。
+在具有安全隔離區（Apple T2 安全晶片、Apple 晶片）的現代設備上，您的數據會保持加密。如果設備未檢測到數據遭篡改，則會通過硬體密鑰自動解密。 啟用 FileVault 還需要輪入密碼來解密資料，大大提高了安全性，尤其是在關機時或開機後首次登錄時。
 
 在較舊的 Intel 的 Mac 電腦，FileVault 是預設唯一可用的磁盤加密形式，應始終啟用。
 
@@ -188,34 +188,34 @@ macOS 設置了某些無法覆蓋的安全限制。 這些稱為強制取用控�
 
 macOS 提供兩種惡意軟體防禦形式：
 
-1. Protection against launching malware in the first place is provided by the App Store's review process for App Store applications, or *Notarization* (part of *Gatekeeper*), a process where third-party apps are scanned for known malware by Apple before they are allowed to run.
-2. Protection against other malware and remediation from existing malware on your system is provided by *XProtect*, a more traditional antivirus software built-in to macOS.
+1. 首先，防止啟動惡意軟體是由 App Store 對 App Store 應用程式的審核流程或*公證*（*Gatekeeper* 的一部份），這是 Apple 允許運行之前掃描第三方應用程式是否存在已知惡意軟體的程序。
+2. *XProtect* 提供針對其他惡意軟體的防護以及修復系統上現有惡意軟體，XProtect 是 macOS 內建較傳統的防病毒軟體。
 
-We recommend against installing third-party antivirus software as they typically do not have the system-level access required to properly function anyways, because of Apple's limitations on third-party apps, and because granting the high levels of access they do ask for often poses an even greater security and privacy risk to your computer.
+建議不要安裝第三方防毒軟體，它們通常不具備正常運行所需的系統取用權限，因為Apple 對第三方應用程序的限制，授予它們要求的高級別取用權限常會帶來麻煩。對電腦造成更大的安全和隱私風險。
 
 ##### 備份
 
-macOS comes with automatic backup software called [Time Machine](https://support.apple.com/HT201250), so you can create encrypted backups to an external or network drive in the event of corrupted/deleted files.
+macOS 自帶[時光機](https://support.apple.com/HT201250) 的自動備份軟件，因此您可以在損壞/損壞的情況下將加密備份建立到外接或網路磁碟已刪除的檔案。
 
 ### 硬體安全
 
-Many modern security features in macOS—such as modern Secure Boot, hardware-level exploit mitigation, OS integrity checks, and file-based encryption—rely on Apple silicon, and Apple's newer hardware always has the [best security](https://support.apple.com/guide/security/apple-soc-security-sec87716a080/1/web/1). We only encourage the use of Apple silicon, and not older Intel-based Mac computers or Hackintoshes.
+macOS 中的許多現代安全功能（例如現代安全啟動、硬體級漏洞利用緩解、作業系統完整性檢查和檔案加密）都依賴於Apple 晶片，Apple 較新硬體一直具有[最佳安全性](https:// support.apple.com/guide/security/apple-soc-security-sec87716a080/1/web/1)。 我們只鼓勵使用 Apple 晶片，而不推薦較舊的 Intel  Mac 電腦或 Hackintoshes。
 
-Some of these modern security features are available on older Intel-based Mac computers with the Apple T2 Security Chip, but that chip is susceptible to the *checkm8* exploit which could compromise its security.
+其中一些現代安全功能可在配備Apple T2 安全晶片的 Intel 老式Mac 電腦上使用，但該晶片容易受到*checkm8* 漏洞的攻擊，這可能會損害其安全性。
 
-If you use Bluetooth accessories such as a keyboard, we recommend that you use official Apple ones as their firmware will automatically be updated for you by macOS. Using third party accessories is fine, but you should remember to install firmware updates for them regularly.
+若使用藍牙配件例如鍵盤等，建議最好是 Apple 官方配件，因為 macOS 會自動更新其軔體。 使用第三方配件沒問題，但應該記住定期為其更新安裝軔體。
 
-Apple's SoCs focus on minimizing attack surface by relegating security functions to dedicated hardware with limited functionality.
+Apple SoC 專注於通過將安全功能轉移到功能有限的專用硬體以求最大限度地減少攻擊面。
 
 #### Boot ROM
 
-macOS 通過僅允許官方 Apple 軟件在啟動時運行以防止惡意軟體持久存在； 此稱為安全開機。 Mac computers verify this with a bit of read-only memory on the SoC called the boot ROM, which is laid down during the manufacturing of the chip.
+macOS 通過僅允許官方 Apple 軟件在啟動時運行以防止惡意軟體持久存在； 此稱為安全開機。 Mac 電腦利用 SoaC 上稱為啟動 ROM 唯讀存儲器來驗證這一點，該存儲器是在晶片製造過程中放置​​的。
 
-The boot ROM forms the hardware root of trust. 這確保惡意軟體無法篡改開機過程。 Mac 啟動時，開機 ROM 第一個運行，為信任鏈中的第一個環節。
+開機 ROM 構成了硬體信任根。 這確保惡意軟體無法篡改開機過程。 Mac 啟動時，開機 ROM 第一個運行，為信任鏈中的第一個環節。
 
 Mac 電腦有三種安全模式啟動：*完全安全*、*降低安全性*和*許可安全*，預設的設置為完全安全。 理想情況下，您應該使用完全安全模式，並避免諸如**內核擴展**而迫使降低安全模式。 請務必[檢查](https://support.apple.com/guide/mac-help/change-security-settings-startup-disk-a-mac-mchl768f7291/mac)使用的是完全安全模式。
 
-#### Secure Enclave
+#### 安全隔離區
 
 安全隔離區是內置於 Apple silicon 設備的安全晶片，負責存儲和生成靜態資料以及 Face ID 和 Touch ID 資料的加密密鑰。 它包含自己獨立的開機 ROM。
 
@@ -225,7 +225,7 @@ Mac 電腦有三種安全模式啟動：*完全安全*、*降低安全性*和*�
 
 Apple Touch ID 功能可使用生物識別技術安全地解鎖設備。
 
-Your biometric data never leaves your device; it's stored only in the Secure Enclave.
+您的生物識別資料永遠不會離開您的設備； 它僅存儲在安全隔離區。
 
 #### 硬體麥克風斷線
 
