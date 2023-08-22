@@ -14,7 +14,7 @@ Privacy Guides(راهنمای حفظ حریم خصوصی) یک شرکت حقوق
 
 ## نمای کلی مجوزها
 
-!!! danger ""
+!!! اخطار
 
     The following is a human-readable summary of (and not a substitute for) the [license](/license).
 

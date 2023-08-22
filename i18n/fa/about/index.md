@@ -94,7 +94,7 @@ Our team members review all changes made to the website and handle administrativ
 
 ## Site License
 
-!!! danger ""
+!!! اخطار
 
     The following is a human-readable summary of (and not a substitute for) the [license](/license).
 
