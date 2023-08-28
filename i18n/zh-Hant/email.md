@@ -305,7 +305,7 @@ Tutanota不提供數字遺產功能。
     ![addy.io logo](assets/img/email/addy.svg#only-light){ align=right }
     ![addy.io logo](assets/img/email/addy-dark.svg#only-dark){ align=right }
     
-    **addy.io** lets you create 10 domain aliases on a shared domain for free, or unlimited "standard" aliases which are less anonymous.
+    **addy.io** 可在共享網域名上設置10個免費的別名電子郵件地址，或是匿名性較低但無上限的標準別名。
     
     [:octicons-home-16: Homepage](https://addy.io){ .md-button .md-button--primary }
     [:octicons-eye-16:](https://addy.io/privacy){ .card-link title="Privacy Policy" }
@@ -313,21 +313,21 @@ Tutanota不提供數字遺產功能。
     [:octicons-code-16:](https://github.com/anonaddy){ .card-link title="Source Code" }
     [:octicons-heart-16:](https://addy.io/donate){ .card-link title=Contribute }
     
-    ??? downloads
+    ??? downloads "下載"
     
         - [:simple-android: Android](https://addy.io/faq/#is-there-an-android-app)
         - [:material-apple-ios: iOS](https://addy.io/faq/#is-there-an-ios-app)
         - [:simple-firefoxbrowser: Firefox](https://addons.mozilla.org/firefox/addon/addy_io/)
         - [:simple-googlechrome: Chrome](https://chrome.google.com/webstore/detail/addyio-anonymous-email-fo/iadbdpnoknmbdeolbapdackdcogdmjpe)
 
-The number of shared aliases (which end in a shared domain like @addy.io) that you can create is limited to 10 on addy.io's free plan, 50 on their $1/month plan and unlimited on the $4/month plan (billed $3 for a year). You can create unlimited standard aliases (which end in a domain like @[username].addy.io or a custom domain on paid plans), however, as previously mentioned, this can be detrimental to privacy because people can trivially tie your standard aliases together based on the domain name alone. They are useful where a shared domain might be blocked by a service.
+免費帳戶建立共用網域名(像 @addy.io ) 的數量為最多10個，月付1美元則可增加到 50 個別外，月付 4美元(或年繳則以3美元計) 則無數量限制。 付費帳戶可建立無數的標準別名如尾綴為 @[username].addy.io 或是自定域名。不過如前面提過，標準別名電郵並不利於隱私，因為只依據域名就可以簡單地把別名綁定起來。 當共用網域名服務封鎖此功能時，它就派得上用場了。
 
 值得注意的免費功能：
 
 - [x] 10共享別名
 - [x] 無限的別名
 - [ ] No Outgoing Replies
-- [x] 1 Recipient Mailboxes
+- [x] 1收件人郵箱
 - [x] 自動PGP加密
 
 ### SimpleLogin
@@ -343,12 +343,12 @@ The number of shared aliases (which end in a shared domain like @addy.io) that y
     [:octicons-info-16:](https://simplelogin.io/docs/){ .card-link title=Documentation}
     [:octicons-code-16:](https://github.com/simple-login){ .card-link title="Source Code" }
     
-    ??? downloads
+    ??? downloads "下載"
     
         - [:simple-googleplay: Google Play](https://play.google.com/store/apps/details?id=io.simplelogin.android)
         - [:simple-appstore: App Store](https://apps.apple.com/app/id1494359858)
         - [:simple-github: GitHub](https://github.com/simple-login/Simple-Login-Android/releases)
-        - [:simple-firefoxbrowser: Firefox](https://addons.mozilla.org/firefox/addon/simplelogin/)
+        - [:simple-firefoxbrowser: Firefox](https://addons.mozilla.org/en-Us/firefox/addon/simplelogin/)
         - [:simple-googlechrome: Chrome](https://chrome.google.com/webstore/detail/dphilobhebphkdjbpfohgikllaljmgbn)
         - [:simple-microsoftedge: Edge](https://microsoftedge.microsoft.com/addons/detail/simpleloginreceive-sen/diacfpipniklenphgljfkmhinphjlfff)
         - [:simple-safari: Safari](https://apps.apple.com/app/id1494051017)
