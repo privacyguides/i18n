@@ -31,7 +31,7 @@ schema:
     name: Firefox
     image: /assets/img/browsers/firefox.svg
     url: https://firefox.com
-    sameAs: https://en.wikipedia.org/wiki/Firefox
+    sameAs: https://tr.wikipedia.org/wiki/Firefox
     applicationCategory: Web Browser
     operatingSystem:
       - Windows
@@ -67,7 +67,7 @@ Bunlar, standart/anonim olmayan gezinti için şu anda önerilen masaüstü web 
 
     ![Mullvad Browser logo](assets/img/browsers/mullvad_browser.svg){ align=right }
     
-    **Mullvad Browser** is a version of [Tor Browser](tor.md#tor-browser) with Tor network integrations removed, aimed at providing Tor Browser's anti-fingerprinting browser technologies to VPN users. It is developed by the Tor Project and distributed by [Mullvad](vpn.md#mullvad), and does **not** require the use of Mullvad's VPN.
+    **Mullvad Browser** is a version of [Tor Browser](tor.md#tor-browser) with Tor network integrations removed, aimed at providing Tor Browser's anti-fingerprinting browser technologies to VPN users. Tor Projesi tarafından geliştirilir ve [Mullvad] (vpn.md#mullvad) tarafından dağıtılır, ayrıca **Mullvad'ın VPN'inin kullanılmasını gerektirmez.
     
     [:octicons-home-16: Homepage](https://mullvad.net/en/browser){ .md-button .md-button--primary }
     [:octicons-eye-16:](https://mullvad.net/en/help/privacy-policy/){ .card-link title="Privacy Policy" }
@@ -80,21 +80,21 @@ Bunlar, standart/anonim olmayan gezinti için şu anda önerilen masaüstü web 
         - [:simple-apple: macOS](https://mullvad.net/en/download/browser/macos)
         - [:simple-linux: Linux](https://mullvad.net/en/download/browser/linux)
 
-Like [Tor Browser](tor.md), Mullvad Browser is designed to prevent fingerprinting by making your browser fingerprint identical to all other Mullvad Browser users, and it includes default settings and extensions that are automatically configured by the default security levels: *Standard*, *Safer* and *Safest*. Therefore, it is imperative that you do not modify the browser at all outside adjusting the default [security levels](https://tb-manual.torproject.org/security-settings/). Other modifications would make your fingerprint unique, defeating the purpose of using this browser. If you want to configure your browser more heavily and fingerprinting is not a concern for you, we recommend [Firefox](#firefox) instead.
+Like [Tor Browser](tor.md), Mullvad Browser is designed to prevent fingerprinting by making your browser fingerprint identical to all other Mullvad Browser users, and it includes default settings and extensions that are automatically configured by the default security levels: *Standard*, *Safer* and *Safest*. Therefore, it is imperative that you do not modify the browser at all outside adjusting the default [security levels](https://tb-manual.torproject.org/security-settings/). Diğer değişiklikler parmak izinizi benzersiz hale getirerek bu tarayıcıyı kullanma amacınızı ortadan kaldıracaktır. Tarayıcınızı daha fazla yapılandırmak istiyorsanız ve parmak izi sizin için bir endişe kaynağı değilse, bunun yerine [Firefox](#firefox) öneririz.
 
-### Anti-Fingerprinting
+### Parmak İzi Önleme
 
-**Without** using a [VPN](vpn.md), Mullvad Browser provides the same protections against [naive fingerprinting scripts](https://github.com/arkenfox/user.js/wiki/3.3-Overrides-%5BTo-RFP-or-Not%5D#-fingerprinting) as other private browsers like Firefox+[Arkenfox](#arkenfox-advanced) or [Brave](#brave). Mullvad Browser provides these protections out of the box, at the expense of some flexibility and convenience that other private browsers can provide.
+**Without** using a [VPN](vpn.md), Mullvad Browser provides the same protections against [naive fingerprinting scripts](https://github.com/arkenfox/user.js/wiki/3.3-Overrides-%5BTo-RFP-or-Not%5D#-fingerprinting) as other private browsers like Firefox+[Arkenfox](#arkenfox-advanced) or [Brave](#brave). Mulvad Browser bu korumaları varsayılan olarak sağlar, ancak bazı esneklik ve kullanışlıktan feragat edersiniz.
 
-==For the strongest anti-fingerprinting protection, we recommend using Mullvad Browser in conjunction **with** a VPN==, whether that is Mullvad or another recommended VPN provider. When using a VPN with Mullvad Browser, you will share a fingerprint and a pool of IP addresses with many other users, giving you a "crowd" to blend in with. This strategy is the only way to thwart advanced tracking scripts, and is the same anti-fingerprinting technique used by Tor Browser.
+==For the strongest anti-fingerprinting protection, we recommend using Mullvad Browser in conjunction **with** a VPN==, whether that is Mullvad or another recommended VPN provider. Mullvad Browser ile birlikte VPN kullanırken, diğer birçok kullanıcıyla beraber parmak izi ve IP adresi havuzu paylaşırsınız, böylece bir kalabalığın içine karışırsınız. Bu strateji, gelişmiş izleme komut dosyalarını engellemenin tek yoludur ve Tor Browser tarafından kullanılan parmak izi önleme tekniğinin aynısıdır.
 
-Note that while you can use Mullvad Browser with any VPN provider, other people on that VPN must also be using Mullvad Browser for this "crowd" to exist, something which is more likely on Mullvad VPN compared to other providers, particularly this close to the launch of Mullvad Browser. Mullvad Browser does not have built-in VPN connectivity, nor does it check whether you are using a VPN before browsing; your VPN connection has to be configured and managed separately.
+Note that while you can use Mullvad Browser with any VPN provider, other people on that VPN must also be using Mullvad Browser for this "crowd" to exist, something which is more likely on Mullvad VPN compared to other providers, particularly this close to the launch of Mullvad Browser. Mullvad Browser yerleşik VPN bağlantısına sahip değildir ve gezinmeden önce VPN kullanıp kullanmadığınızı kontrol etmez; VPN bağlantınızın ayrı olarak yapılandırılması ve yönetilmesi gerekir.
 
-Mullvad Browser comes with the *uBlock Origin* and *NoScript* browser extensions pre-installed. While we typically [don't recommend](#extensions) adding *additional* browser extensions, these extensions that come pre-installed with the browser should **not** be removed or configured outside their default values, because doing so would noticeably make your browser fingerprint distinct from other Mullvad Browser users. It also comes pre-installed with the Mullvad Browser Extension, which *can* be safely removed without impacting your browser fingerprint if you would like, but is also safe to keep even if you don't use Mullvad VPN.
+Mullvad Browser, önceden yüklenmiş *uBlock Origin* ve *NoScript* tarayıcı uzantılarıyla birlikte gelir. While we typically [don't recommend](#extensions) adding *additional* browser extensions, these extensions that come pre-installed with the browser should **not** be removed or configured outside their default values, because doing so would noticeably make your browser fingerprint distinct from other Mullvad Browser users. It also comes pre-installed with the Mullvad Browser Extension, which *can* be safely removed without impacting your browser fingerprint if you would like, but is also safe to keep even if you don't use Mullvad VPN.
 
-### Private Browsing Mode
+### Gzili Tarama Modu
 
-Mullvad Browser operates in permanent private browsing mode, meaning your history, cookies, and other site data will always be cleared every time the browser is closed. Your bookmarks, browser settings, and extension settings will still be preserved.
+Mullvad Browser kalıcı gizli tarama modunda çalışır, yani tarayıcı her kapatıldığında geçmişiniz, çerezleriniz ve diğer site verileriniz her zaman temizlenir. Yer imleriniz, tarayıcı ayarlarınız ve uzantı ayarlarınız korunmaya devam eder.
 
 This is required to prevent advanced forms of tracking, but does come at the cost of convenience and some Firefox features, such as Multi-Account Containers. Remember you can always use multiple browsers, for example, you could consider using Firefox+Arkenfox for a few sites that you want to stay logged in on or otherwise don't work properly in Mullvad Browser, and Mullvad Browser for general browsing.
 

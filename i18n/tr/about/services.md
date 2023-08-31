@@ -33,6 +33,6 @@
 ## Invidious
 
 - Domain: [invidious.privacyguides.net](https://invidious.privacyguides.net)
-- Availability: Semi-Public  
-  We host Invidious primarily to serve embedded YouTube videos on our website, this instance is not intended for general-purpose use and may be limited at any time.
-- Source: [github.com/iv-org/invidious](https://github.com/iv-org/invidious)
+- Kullanılabilirlik: Yarı Halka Açık  
+  Invidious'u öncelikle web sitemizde gömülü YouTube videoları göstermek için hostluyoruz, bu sunucu genel amaçlı kullanım için tasarlanmamıştır ve herhangi bir zamanda sınırlandırılabilir.
+- Kaynak: [github.com/iv-org/invidious](https://github.com/iv-org/invidious)

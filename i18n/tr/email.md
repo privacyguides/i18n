@@ -1,25 +1,25 @@
 ---
-meta_title: "Encrypted Private Email Recommendations - Privacy Guides"
-title: "Email Services"
+meta_title: "Şifrelenmiş Gizli E-posta Önerileri - Privacy Guides"
+title: "E-posta Hizmetleri"
 icon: material/email
 description: These email providers offer a great place to store your emails securely, and many offer interoperable OpenPGP encryption with other providers.
 cover: email.png
 ---
 
-Email is practically a necessity for using any online service, however we do not recommend it for person-to-person conversations. Rather than using email to contact other people, consider using an instant messaging medium that supports forward secrecy.
+E-posta, herhangi bir çevrimiçi hizmeti kullanmak için pratikte bir gerekliliktir, ancak bireysel görüşmeler için e-posta kullanılmasını önermiyoruz. Rather than using email to contact other people, consider using an instant messaging medium that supports forward secrecy.
 
-[Recommended Instant Messengers](real-time-communication.md ""){.md-button}
+[Önerilen Anlık Mesajlaşma Programları](real-time-communication.md ""){.md-button}
 
-For everything else, we recommend a variety of email providers based on sustainable business models and built-in security and privacy features.
+Diğer her şey için, sürdürülebilir iş modellerine ve yerleşik güvenlik ve gizlilik özelliklerine dayalı çeşitli e-posta sağlayıcıları öneriyoruz.
 
-- [OpenPGP-Compatible Email Providers :material-arrow-right-drop-circle:](#openpgp-compatible-services)
+- [OpenPGP Uyumlu E-posta Sağlayıcıları :material-arrow-right-drop-circle:](#openpgp-compatible-services)
 - [Other Encrypted Providers :material-arrow-right-drop-circle:](#more-providers)
 - [Email Aliasing Services :material-arrow-right-drop-circle:](#email-aliasing-services)
 - [Self-Hosted Options :material-arrow-right-drop-circle:](#self-hosting-email)
 
-## OpenPGP Compatible Services
+## OpenPGP Uyumlu Hizmetler
 
-These providers natively support OpenPGP encryption/decryption and the Web Key Directory (WKD) standard, allowing for provider-agnostic E2EE emails. For example, a Proton Mail user could send an E2EE message to a Mailbox.org user, or you could receive OpenPGP-encrypted notifications from internet services which support it.
+These providers natively support OpenPGP encryption/decryption and the Web Key Directory (WKD) standard, allowing for provider-agnostic E2EE emails. Örneğin, bir Proton Mail kullanıcısı bir Mailbox.org kullanıcısına bir uçtan uca şifreli mesaj gönderebilir, veya bunu destekleyen internet hizmetlerinden OpenPGP şifreli bildirimler alabilirsiniz.
 
 <div class="grid cards" markdown>
 
@@ -28,21 +28,21 @@ These providers natively support OpenPGP encryption/decryption and the Web Key D
 
 </div>
 
-!!! warning
+!!! uyarı
 
-    When using E2EE technology like OpenPGP, email will still have some metadata that is not encrypted in the header of the email. Read more about [email metadata](basics/email-security.md#email-metadata-overview).
+    OpenPGP gibi E2EE teknolojisi kullanılsa bile, e-postanın başlığında şifrelenmemiş bazı meta veriler bulunmaya devam edecektir. [email metadata](basics/email-security.md#email-metadata-overview) hakkında daha fazla bilgi edinin.
     
-    OpenPGP also does not support Forward secrecy, which means if either your or the recipient's private key is ever stolen, all previous messages encrypted with it will be exposed. [How do I protect my private keys?](basics/email-security.md#how-do-i-protect-my-private-keys)
+    OpenPGP also does not support Forward secrecy, which means if either your or the recipient's private key is ever stolen, all previous messages encrypted with it will be exposed. [Özel anahtarlarımı nasıl korurum?](basics/email-security.md#how-do-i-protect-my-private-keys)
 
 ### Proton Mail
 
 !!! öneri
 
-    ![Proton Mail logo](assets/img/email/protonmail.svg){ align=right }
+    ![Proton Mail logosu](assets/img/email/protonmail.svg){ align=right }
     
-    **Proton Mail** is an email service with a focus on privacy, encryption, security, and ease of use. They have been in operation since **2013**. Proton AG is based in Genève, Switzerland. Accounts start with 500 MB storage with their free plan.
+    **Proton Mail** gizlilik, şifreleme, güvenlik ve kullanım kolaylığına odaklanan bir e-posta hizmetidir. **2013** yılından beri faaliyet göstermektedirler. Proton AG'nin merkezi İsviçre'nin Cenevre kentindedir. Ücretsiz hesaplar 500 MB depolama alanına sahiptir.
     
-    [:octicons-home-16: Homepage](https://proton.me/mail){ .md-button .md-button--primary }
+    [:octicons-home-16: Ana Sayfa](https://proton.me/mail){ .md-button .md-button--primary }
     [:simple-torbrowser:](https://protonmailrmez3lotccipshtkleegetolb73fuirgj7r4o4vfu7ozyd.onion){ .card-link title="Onion Service" }
     [:octicons-eye-16:](https://proton.me/legal/privacy){ .card-link title="Privacy Policy" }
     [:octicons-info-16:](https://proton.me/support/mail){ .card-link title=Documentation}
@@ -58,9 +58,9 @@ These providers natively support OpenPGP encryption/decryption and the Web Key D
         - [:simple-linux: Linux](https://proton.me/mail/bridge#download)
         - [:octicons-browser-16: Web](https://mail.proton.me)
 
-Free accounts have some limitations, such as not being able to search body text and not having access to [Proton Mail Bridge](https://proton.me/mail/bridge), which is required to use a [recommended desktop email client](email-clients.md) (e.g. Thunderbird). Paid accounts include features like Proton Mail Bridge, additional storage, and custom domain support. A [letter of attestation](https://proton.me/blog/security-audit-all-proton-apps) was provided for Proton Mail's apps on 9th November 2021 by [Securitum](https://research.securitum.com).
+Free accounts have some limitations, such as not being able to search body text and not having access to [Proton Mail Bridge](https://proton.me/mail/bridge), which is required to use a [recommended desktop email client](email-clients.md) (e.g. Thunderbird). Ücretli hesaplar Proton Mail Bridge, ek depolama alanı ve özel alan adı desteği gibi özellikler içerir. A [letter of attestation](https://proton.me/blog/security-audit-all-proton-apps) was provided for Proton Mail's apps on 9th November 2021 by [Securitum](https://research.securitum.com).
 
-If you have the Proton Unlimited, Business, or Visionary Plan, you also get [SimpleLogin](#simplelogin) Premium for free.
+Proton Unlimited, Business veya Visionary Planına sahipseniz, [SimpleLogin](#simplelogin) Premium'u da ücretsiz olarak alırsınız.
 
 Proton Mail has internal crash reports that they **do not** share with third parties. This can be disabled in: **Settings** > **Go to Settings** > **Account** > **Security and privacy** > **Send crash reports**.
 
@@ -68,35 +68,35 @@ Proton Mail has internal crash reports that they **do not** share with third par
 
 Paid Proton Mail subscribers can use their own domain with the service or a [catch-all](https://proton.me/support/catch-all) address. Proton Mail also supports [subaddressing](https://proton.me/support/creating-aliases), which is useful for people who don't want to purchase a domain.
 
-#### :material-check:{ .pg-green } Private Payment Methods
+#### :material-check:{ .pg-green } Gizli Ödeme Yöntemleri
 
 Proton Mail [accepts](https://proton.me/support/payment-options) cash by mail in addition to standard credit/debit card, [Bitcoin](advanced/payments.md#other-coins-bitcoin-ethereum-etc), and PayPal payments.
 
-#### :material-check:{ .pg-green } Account Security
+#### :material-check:{ .pg-green } Hesap Güvenliği
 
 Proton Mail supports TOTP [two factor authentication](https://proton.me/support/two-factor-authentication-2fa) and [hardware security keys](https://proton.me/support/2fa-security-key) using FIDO2 or U2F standards. The use of a hardware security key requires setting up TOTP two factor authentication first.
 
-#### :material-check:{ .pg-green } Data Security
+#### :material-check:{ .pg-green } Veri Güvenliği
 
-Proton Mail has [zero-access encryption](https://proton.me/blog/zero-access-encryption) at rest for your emails and [calendars](https://proton.me/news/protoncalendar-security-model). Data secured with zero-access encryption is only accessible by you.
+Proton Mail has [zero-access encryption](https://proton.me/blog/zero-access-encryption) at rest for your emails and [calendars](https://proton.me/news/protoncalendar-security-model). Sıfır erişimli şifreleme ile güvence altına alınan verilere yalnızca siz erişebilirsiniz.
 
 Certain information stored in [Proton Contacts](https://proton.me/support/proton-contacts), such as display names and email addresses, are not secured with zero-access encryption. Contact fields that support zero-access encryption, such as phone numbers, are indicated with a padlock icon.
 
-#### :material-check:{ .pg-green } Email Encryption
+#### :material-check:{ .pg-green } E-posta Şifreleme
 
-Proton Mail has [integrated OpenPGP encryption](https://proton.me/support/how-to-use-pgp) in their webmail. Emails to other Proton Mail accounts are encrypted automatically, and encryption to non-Proton Mail addresses with an OpenPGP key can be enabled easily in your account settings. They also allow you to [encrypt messages to non-Proton Mail addresses](https://proton.me/support/password-protected-emails) without the need for them to sign up for a Proton Mail account or use software like OpenPGP.
+Proton Mail has [integrated OpenPGP encryption](https://proton.me/support/how-to-use-pgp) in their webmail. Diğer Proton Mail hesaplarına gönderilen e-postalar otomatik olarak şifrelenir ve Proton Mail dışındaki adresler için OpenPGP anahtarıyla şifreleme, hesap ayarlarından kolayca etkinleştirilebilir. They also allow you to [encrypt messages to non-Proton Mail addresses](https://proton.me/support/password-protected-emails) without the need for them to sign up for a Proton Mail account or use software like OpenPGP.
 
 Proton Mail also supports the discovery of public keys via HTTP from their [Web Key Directory (WKD)](https://wiki.gnupg.org/WKD). This allows people who don't use Proton Mail to find the OpenPGP keys of Proton Mail accounts easily, for cross-provider E2EE.
 
 #### :material-information-outline:{ .pg-blue } Account Termination
 
-If you have a paid account and your [bill is unpaid](https://proton.me/support/delinquency) after 14 days, you won't be able to access your data. After 30 days, your account will become delinquent and won't receive incoming mail. You will continue to be billed during this period.
+If you have a paid account and your [bill is unpaid](https://proton.me/support/delinquency) after 14 days, you won't be able to access your data. After 30 days, your account will become delinquent and won't receive incoming mail. Bu süre zarfında faturalandırılmaya devam edeceksiniz.
 
 #### :material-information-outline:{ .pg-blue } Additional Functionality
 
 Proton Mail offers an "Unlimited" account for €9.99/Month, which also enables access to Proton VPN in addition to providing multiple accounts, domains, aliases, and 500GB of storage.
 
-Proton Mail doesn't offer a digital legacy feature.
+Proton Mail dijital miras özelliği sunmuyor.
 
 ### Mailbox.org
 
@@ -118,11 +118,11 @@ Proton Mail doesn't offer a digital legacy feature.
 
 Mailbox.org lets you use your own domain, and they support [catch-all](https://kb.mailbox.org/display/MBOKBEN/Using+catch-all+alias+with+own+domain) addresses. Mailbox.org also supports [subaddressing](https://kb.mailbox.org/display/BMBOKBEN/What+is+an+alias+and+how+do+I+use+it), which is useful if you don't want to purchase a domain.
 
-#### :material-check:{ .pg-green } Private Payment Methods
+#### :material-check:{ .pg-green } Gizli Ödeme Yöntemleri
 
 Mailbox.org doesn't accept any cryptocurrencies as a result of their payment processor BitPay suspending operations in Germany. However, they do accept Cash by mail, cash payment to bank account, bank transfer, credit card, PayPal and couple of German-specific processors: paydirekt and Sofortüberweisung.
 
-#### :material-check:{ .pg-green } Account Security
+#### :material-check:{ .pg-green } Hesap Güvenliği
 
 Mailbox.org supports [two factor authentication](https://kb.mailbox.org/display/MBOKBEN/How+to+use+two-factor+authentication+-+2FA) for their webmail only. You can use either TOTP or a [YubiKey](https://en.wikipedia.org/wiki/YubiKey) via the [YubiCloud](https://www.yubico.com/products/services-software/yubicloud). Web standards such as [WebAuthn](https://en.wikipedia.org/wiki/WebAuthn) are not yet supported.
 
@@ -132,7 +132,7 @@ Mailbox.org allows for encryption of incoming mail using their [encrypted mailbo
 
 However, [Open-Exchange](https://en.wikipedia.org/wiki/Open-Xchange), the software platform used by Mailbox.org, [does not support](https://kb.mailbox.org/display/BMBOKBEN/Encryption+of+calendar+and+address+book) the encryption of your address book and calendar. A [standalone option](calendar.md) may be more appropriate for that information.
 
-#### :material-check:{ .pg-green } Email Encryption
+#### :material-check:{ .pg-green } E-posta Şifreleme
 
 Mailbox.org has [integrated encryption](https://kb.mailbox.org/display/MBOKBEN/Send+encrypted+e-mails+with+Guard) in their webmail, which simplifies sending messages to people with public OpenPGP keys. They also allow [remote recipients to decrypt an email](https://kb.mailbox.org/display/MBOKBEN/My+recipient+does+not+use+PGP) on Mailbox.org's servers. This feature is useful when the remote recipient does not have OpenPGP and cannot decrypt a copy of the email in their own mailbox.
 
@@ -190,11 +190,11 @@ You can create up to 3 additional @skiff.com email aliases in addition to your p
 
 Skiff Mail accepts cryptocurrency payments via Coinbase Commerce, including Bitcoin and Ethereum, but they do not accept our recommended [cryptocurrency](cryptocurrency.md), Monero. They also accept credit card payments via Stripe.
 
-#### :material-check:{ .pg-green } Account Security
+#### :material-check:{ .pg-green } Hesap Güvenliği
 
 Skiff Mail supports TOTP two-factor authentication and hardware security keys using FIDO2 or U2F standards. The use of a hardware security key requires setting up TOTP two-factor authentication first.
 
-#### :material-check:{ .pg-green } Data Security
+#### :material-check:{ .pg-green } Veri Güvenliği
 
 Skiff Mail has zero access encryption at rest for all of your data. This means the messages and other data stored in your account are only readable by you.
 
@@ -246,11 +246,11 @@ Paid Tutanota accounts can use up to 5 [aliases](https://tutanota.com/faq#alias)
 
 Tutanota only directly accepts credit cards and PayPal, however [cryptocurrency](cryptocurrency.md) can be used to purchase gift cards via their [partnership](https://tutanota.com/faq/#cryptocurrency) with Proxystore.
 
-#### :material-check:{ .pg-green } Account Security
+#### :material-check:{ .pg-green } Hesap Güvenliği
 
 Tutanota supports [two factor authentication](https://tutanota.com/faq#2fa) with either TOTP or U2F.
 
-#### :material-check:{ .pg-green } Data Security
+#### :material-check:{ .pg-green } Veri Güvenliği
 
 Tutanota has [zero access encryption at rest](https://tutanota.com/faq#what-encrypted) for your emails, [address book contacts](https://tutanota.com/faq#encrypted-address-book), and [calendars](https://tutanota.com/faq#calendar). This means the messages and other data stored in your account are only readable by you.
 
