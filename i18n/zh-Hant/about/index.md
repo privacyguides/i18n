@@ -73,14 +73,7 @@ Privacy Guides 於2021年9月推出，是 [已解散的](privacytools.md) "Priva
     - [:simple-discourse: Discourse](https://discuss.privacyguides.net/u/freddy)
     - [:simple-github: GitHub](https://github.com/freddy-m "@freddy-m")
     - [:simple-mastodon: Mastodon](https://social.lol/@freddy "@freddy@social.lol"){rel=me}
-    - [:fontawesome-solid-envelope: 電子郵箱](mailto:freddy@privacyguides.org)
-    - [:fontawesome-solid-house: 首頁](https://freddy.omg.lol)
-
-??? person "@mfwmyfacewhen"
-
-    - [:simple-discourse: Discourse](https://discuss.privacyguides.net/u/mfwmyfacewhen)
-    - [:simple-github: GitHub](https://github.com/mfwmyfacewhen "@mfwmyfacewhen")
-    - [:fontawesome-solid-house: 首頁](https://mfw.omg.lol)
+    - [:fontawesome-solid-house: 首頁](https://freddy.lol)
 
 ??? person "@olivia"
 

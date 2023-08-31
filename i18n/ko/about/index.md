@@ -73,14 +73,7 @@ Privacy Guides 프로젝트는 지금은 [사라진](privacytools.md) 'PrivacyTo
     - [:simple-discourse: Discourse](https://discuss.privacyguides.net/u/freddy)
     - [:simple-github: GitHub](https://github.com/freddy-m "@freddy-m")
     - [:simple-mastodon: Mastodon](https://social.lol/@freddy "@freddy@social.lol"){rel=me}
-    - [:fontawesome-solid-envelope: 이메일](mailto:freddy@privacyguides.org)
-    - [:fontawesome-solid-house: 홈페이지](https://freddy.omg.lol)
-
-??? person "@mfwmyfacewhen"
-
-    - [:simple-discourse: Discourse](https://discuss.privacyguides.net/u/mfwmyfacewhen)
-    - [:simple-github: GitHub](https://github.com/mfwmyfacewhen "@mfwmyfacewhen")
-    - [:fontawesome-solid-house: 홈페이지](https://mfw.omg.lol)
+    - [:fontawesome-solid-house: 홈페이지](https://freddy.lol)
 
 ??? person "@olivia"
 

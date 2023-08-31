@@ -73,14 +73,7 @@ En lo que va de 2023 hemos lanzado traducciones internacionales de nuestro sitio
     - [:simple-discourse: Discourse](https://discuss.privacyguides.net/u/freddy)
     - [:simple-github: GitHub](https://github.com/freddy-m "@freddy-m")
     - [:simple-mastodon: Mastodon](https://social.lol/@freddy "@freddy@social.lol"){rel=me}
-    - [:fontawesome-solid-envelope: Correo electrónico](mailto:freddy@privacyguides.org)
-    - [:fontawesome-solid-house: Inicio](https://freddy.omg.lol)
-
-??? person "@mfwmyfacewhen"
-
-    - [:simple-discourse: Discourse](https://discuss.privacyguides.net/u/mfwmyfacewhen)
-    - [:simple-github: GitHub](https://github.com/mfwmyfacewhen "@mfwmyfacewhen")
-    - [:fontawesome-solid-house: Inicio](https://mfw.omg.lol)
+    - [:fontawesome-solid-house: Inicio](https://freddy.lol)
 
 ??? person "@olivia"
 

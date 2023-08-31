@@ -73,14 +73,7 @@ Tot nu toe hebben we in 2023 internationale vertalingen van onze website gelance
     - [:simple-discourse: Discourse](https://discuss.privacyguides.net/u/freddy)
     - [:simple-github: GitHub](https://github.com/freddy-m "@freddy-m")
     - [:simple-mastodon: Mastodon](https://social.lol/@freddy "@freddy@social.lol"){rel=me}
-    - [:fontawesome-solid-envelope: E-mail](mailto:freddy@privacyguides.org)
-    - [:fontawesome-solid-house: Homepage](https://freddy.omg.lol)
-
-??? person "@mfwmyfacewhen"
-
-    - [:simple-discourse: Discourse](https://discuss.privacyguides.net/u/mfwmyfacewhen)
-    - [:simple-github: GitHub](https://github.com/mfwmyfacewhen "@mfwmyfacewhen")
-    - [:fontawesome-solid-house: Homepage](https://mfw.omg.lol)
+    - [:fontawesome-solid-house: Homepage](https://freddy.lol)
 
 ??? person "@olivia"
 

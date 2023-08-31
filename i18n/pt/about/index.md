@@ -73,14 +73,7 @@ Recomendamos armazenar uma chave de recuperação local em um local seguro, em v
     - [:simple-discourse: Discourse](https://discuss.privacyguides.net/u/freddy)
     - [:simple-github: GitHub](https://github.com/freddy-m "@freddy-m")
     - [:simple-mastodon: Mastodon](https://social.lol/@freddy "@freddy@social.lol"){rel=me}
-    - [:fontawesome-solid-envelope: E-mail](mailto:freddy@privacyguides.org)
-    - [:fontawesome-solid-house: Homepage](https://freddy.omg.lol)
-
-Recomendamos armazenar uma chave de recuperação local em um local seguro, em vez de utilizar a recuperação do iCloud FileVault. person "@mfwmyfacewhen"
-
-    - [:simple-discourse: Discourse](https://discuss.privacyguides.net/u/mfwmyfacewhen)
-    - [:simple-github: GitHub](https://github.com/mfwmyfacewhen "@mfwmyfacewhen")
-    - [:fontawesome-solid-house: Homepage](https://mfw.omg.lol)
+    - [:fontawesome-solid-house: Homepage](https://freddy.lol)
 
 Recomendamos armazenar uma chave de recuperação local em um local seguro, em vez de utilizar a recuperação do iCloud FileVault. person "@olivia"
 
