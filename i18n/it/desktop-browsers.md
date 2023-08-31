@@ -69,7 +69,7 @@ Invece, se necessiti di navigare anonimamente su Internet, dovresti utilizzare [
     
     **Mullvad Browser** è una versione di [Tor Browser](tor.md#tor-browser) con le integrazioni della rete Tor rimosse, con l'obiettivo di fornire le tecnologie anti-fingerprinting di Tor Browser agli utenti che usano una VPN. Sviluppato dal Tor Project e distribuito da [Mullvad](vpn.md#mullvad), **non** richiede l'utilizzo della VPN di Mullvad.
     
-    [:octicons-home-16: Pagina Principale](https://mullvad.net/it/browser){ .md-button .md-button--primary }
+    [:octicons-home-16: Home Page](https://mullvad.net/it/browser){ .md-button .md-button--primary }
     [:octicons-eye-16:](https://mullvad.net/it/help/privacy-policy/){ .card-link title="Informativa sulla privacy" }
     [:octicons-info-16:](https://mullvad.net/it/help/tag/mullvad-browser/){ .card-link title=Documentazione}
     [:octicons-code-16:](https://gitlab.torproject.org/tpo/applications/mullvad-browser){ .card-link title="Codice sorgente" }
@@ -110,11 +110,11 @@ Mullvad Browser integra DuckDuckGo come [motore di ricerca](search-engines.md) p
     
     **Firefox** offre robuste impostazioni di privacy, come la [protezione antitracciamento avanzata](https://support.mozilla.org/it/kb/protezione-antitracciamento-avanzata-firefox-desktop), che aiuta a bloccare varie [tipologie di tracciamento](https://support.mozilla.org/it/kb/protezione-antitracciamento-avanzata-firefox-desktop#w_che-cosa-viene-bloccato-con-la-protezione-antitracciamento-avanzata).
     
-    [:octicons-home-16: Homepage](https://firefox.com){ .md-button .md-button--primary }
-    [:octicons-eye-16:](https://www.mozilla.org/privacy/firefox/){ .card-link title="Privacy Policy" }
-    [:octicons-info-16:](https://firefox-source-docs.mozilla.org/){ .card-link title=Documentation}
-    [:octicons-code-16:](https://hg.mozilla.org/mozilla-central){ .card-link title="Source Code" }
-    [:octicons-heart-16:](https://donate.mozilla.org/){ .card-link title=Contribute }
+    [:octicons-home-16: Home page](https://www.mozilla.org/it/firefox/new){ .md-button .md-button--primary }
+    [:octicons-eye-16:](https://www.mozilla.org/it/privacy/firefox/){ .card-link title="Informativa sulla Privacy" }
+    [:octicons-info-16:](https://firefox-source-docs.mozilla.org/){ .card-link title=Documentatione}
+    [:octicons-code-16:](https://hg.mozilla.org/mozilla-central){ .card-link title="Codice Sorgente" }
+    [:octicons-heart-16:](https://donate.mozilla.org/it/){ .card-link title=Contribuisci }
     
     ??? downloads
     
@@ -202,19 +202,19 @@ Arkenfox mira soltanto a contrastare gli script di tracciamento di base o sempli
     
     **Brave Browser** include un blocco di contenuti integrato e delle [funzionalità per la privacy](https://brave.com/privacy-features/), molte delle quali sono abilitate di default.
     
-    Brave è basato sul progetto del browser web di Chromium, quindi, dovrebbe risultare familiare e avere problemi di compatibilità con i siti web minimi.
+    Brave è basato sul progetto del browser web di Chromium, quindi, dovrebbe risultare familiare e avere problemi minimi di compatibilità con i siti web.
     
-    [:octicons-home-16: Homepage](https://brave.com/){ .md-button .md-button--primary }
-    [:simple-torbrowser:](https://brave4u7jddbv7cyviptqjc7jusxh72uik7zt6adtckl5f4nwy2v72qd.onion){ .card-link title="Onion Service" }
-    [:octicons-eye-16:](https://brave.com/privacy/browser/){ .card-link title="Privacy Policy" }
+    [:octicons-home-16: Home page](https://brave.com/it/){ .md-button .md-button--primary }
+    [:simple-torbrowser:](https://brave4u7jddbv7cyviptqjc7jusxh72uik7zt6adtckl5f4nwy2v72qd.onion){ .card-link title="Servizio Onion" }
+    [:octicons-eye-16:](https://brave.com/privacy/browser/){ .card-link title="Informativa sulla Privacy" }
     [:octicons-info-16:](https://support.brave.com/){ .card-link title=Documentation}
-    [:octicons-code-16:](https://github.com/brave/brave-browser){ .card-link title="Source Code" }
+    [:octicons-code-16:](https://github.com/brave/brave-browser){ .card-link title="Codice Sorgente" }
     
     ??? downloads annotate
     
         - [:simple-github: GitHub](https://github.com/brave/brave-browser/releases)
-        - [:simple-windows11: Windows](https://brave.com/download/)
-        - [:simple-apple: macOS](https://brave.com/download/)
+        - [:simple-windows11: Windows](https://brave.com/it/download/)
+        - [:simple-apple: macOS](https://brave.com/it/download/)
         - [:simple-linux: Linux](https://brave.com/linux/) (1)
 
     1. Sconsigliamo di utilizzare la versione Flatpak di Brave, poiché sostituisce il sandbox di Chromium con Flatpak, che è meno efficace. Inoltre, il pacchetto non è mantenuto da Brave Software, Inc.
@@ -227,14 +227,14 @@ Queste opzioni si possono trovare in :material-menu: → **Impostazioni**.
 
 ##### Shields
 
-Brave include alcune misure contro il fingerprinting nella sua funzionalità [Shields](https://support.brave.com/hc/en-us/articles/360022973471-What-is-Shields-). Consigliamo di configurarle [globalmente](https://support.brave.com/hc/en-us/articles/360023646212-How-do-I-configure-global-and-site-specific-Shields-settings-) tra tutte le pagine che visiti.
+Brave include alcune misure contro il fingerprinting nella sua funzionalità [Protezioni](https://support.brave.com/hc/en-us/articles/360022973471-What-is-Shields-). Consigliamo di configurarle [globalmente](https://support.brave.com/hc/en-us/articles/360023646212-How-do-I-configure-global-and-site-specific-Shields-settings-) tra tutte le pagine che visiti.
 
-Le opzioni di Shields sono riducibili a seconda del sito, come necessario ma, di default, consigliamo di impostarle come segue:
+Le opzioni di Protezioni sono regolabili per ogni sito ma consigliamo di impostarle di default come segue:
 
 <div class="annotate" markdown>
 
-- [x] Seleziona **Impedisci il fingerprinting tramite le impostazioni della lingua**
-- [x] Seleziona il Blocco di tracker e annunci come **Aggressivo**
+- [x] Seleziona **Impedisci ai siti di tracciarmi in base alle mie preferenze linguistiche**
+- [x] Seleziona **Aggressivo** in Blocco di tracker e annunci
 
     ??? attenzione "Utilizza elenchi di filtraggio predefiniti"
         Brave ti consente di selezionare ulteriori filtri dei contenuti sulla pagina interna `brave://adblock`. Sconsigliamo questa funzionalità; piuttosto, mantieni gli elenchi di filtri predefiniti. Utilzzare ulteriori elenchi ti distinguerà dagli altri utenti di Brave e potrebbe inoltre incrementare la superficie di attacco, se è presente un exploit su Brave e una regola dannosa viene aggiunta a uno degli elenchi che utilizzi.
@@ -270,7 +270,7 @@ Le opzioni di Shields sono riducibili a seconda del sito, come necessario ma, di
 
 </div>
 
-1. Brave **non è** resistente al fingerprinting come il Tor Browser e molte meno persone utilizzano Brave con Tor, facendoti quindi distinguere. Quando [è necessario un forte anonimato](https://support.brave.com/hc/en-us/articles/360018121491-What-is-a-Private-Window-with-Tor-Connectivity-) utilizzare il [Tor Browser](tor.md#tor-browser).
+1. Brave **non è** resistente al fingerprinting come il Tor Browser e molte meno persone utilizzano Brave con Tor, facendoti quindi distinguere. Quando [è necessario un forte anonimato](https://support.brave.com/hc/en-us/articles/360018121491-What-is-a-Private-Window-with-Tor-Connectivity-) utilizza [Tor Browser](tor.md#tor-browser).
 
 ##### Estensioni
 
