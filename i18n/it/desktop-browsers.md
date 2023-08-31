@@ -57,7 +57,7 @@ schema:
       url: "./"
 ---
 
-Questi sono i browser web per desktop e configurazioni per la navigazione standard e non anonima consigliati al momento. Consigliamo [Mullvad Browser](#mullvad-browser) se sei interessato a una forte protezione della privacy e all'anti-fingerprinting pronti all'uso, [Firefox](#firefox) per i navigatori occasionali di Internet alla ricerca di una buona alternativa a Google Chrome e [Brave](#brave), se necessiti della compatibilità del browser con Chromium.
+Questi sono al momento i browser web consigliati per desktop e configurazioni per la navigazione standard e non anonima. Consigliamo [Mullvad Browser](#mullvad-browser) se sei interessato a una forte protezione della privacy e all'anti-fingerprinting pronti all'uso, [Firefox](#firefox) per i navigatori occasionali di Internet alla ricerca di una buona alternativa a Google Chrome e [Brave](#brave), se necessiti della compatibilità del browser con Chromium.
 
 Invece, se necessiti di navigare anonimamente su Internet, dovresti utilizzare [Tor](tor.md). In questa pagina forniamo alcune raccomandazioni sulla configurazione, ma tutti i browser diversi da Tor Browser saranno rintracciabili da *qualcuno* in un modo o nell'altro.
 
@@ -69,16 +69,16 @@ Invece, se necessiti di navigare anonimamente su Internet, dovresti utilizzare [
     
     **Mullvad Browser** è una versione di [Tor Browser](tor.md#tor-browser) con le integrazioni della rete Tor rimosse, con l'obiettivo di fornire le tecnologie anti-fingerprinting di Tor Browser agli utenti che usano una VPN. Sviluppato dal Tor Project e distribuito da [Mullvad](vpn.md#mullvad), **non** richiede l'utilizzo della VPN di Mullvad.
     
-    [:octicons-home-16: Pagina Principale](https://mullvad.net/en/browser){ .md-button .md-button--primary }
-    [:octicons-eye-16:](https://mullvad.net/en/help/privacy-policy/){ .card-link title="Politica sulla privacy" }
-    [:octicons-info-16:](https://mullvad.net/en/help/tag/mullvad-browser/){ .card-link title=Documentazione}
+    [:octicons-home-16: Pagina Principale](https://mullvad.net/it/browser){ .md-button .md-button--primary }
+    [:octicons-eye-16:](https://mullvad.net/it/help/privacy-policy/){ .card-link title="Informativa sulla privacy" }
+    [:octicons-info-16:](https://mullvad.net/it/help/tag/mullvad-browser/){ .card-link title=Documentazione}
     [:octicons-code-16:](https://gitlab.torproject.org/tpo/applications/mullvad-browser){ .card-link title="Codice sorgente" }
     
     ??? downloads
     
-        - [:simple-windows11: Windows](https://mullvad.net/en/download/browser/windows)
-        - [:simple-apple: macOS](https://mullvad.net/en/download/browser/macos)
-        - [:simple-linux: Linux](https://mullvad.net/en/download/browser/linux)
+        - [:simple-windows11: Windows](https://mullvad.net/it/download/browser/windows)
+        - [:simple-apple: macOS](https://mullvad.net/it/download/browser/macos)
+        - [:simple-linux: Linux](https://mullvad.net/it/download/browser/linux)
 
 Come [Tor Browser](tor.md), Mullvad Browser è progettato per impedire il fingerprinting, rendendo l'impronta digitale del tuo browser identica a quella di tutti gli altri suoi utenti, e include impostazioni ed estensioni predefinite, configurate automaticamente dai livelli di sicurezza predefiniti: *Standard*, *Safer* e *Safest*. Dunque, è essenziale che tu non modifichi affatto il browser, tranne che per regolare i [livelli di sicurezza](https://tb-manual.torproject.org/security-settings/) predefiniti. Altre modifiche renderebbero la tua impronta digitale univoca, vanificando lo scopo di utilizzare tale browser. Se desideri configurare il tuo browser in modo più completo e il fingerprinting non ti preoccupa, consigliamo invece [Firefox](#firefox).
 
@@ -86,21 +86,21 @@ Come [Tor Browser](tor.md), Mullvad Browser è progettato per impedire il finger
 
 **Senza** utilizzare una [VPN](vpn.md), Mullvad Browser fornisce le stesse protezioni dai [semplici script di fingerprinting](https://github.com/arkenfox/user.js/wiki/3.3-Overrides-%5BTo-RFP-or-Not%5D#-fingerprinting) di altri browser privati, come Firefox+[Arkenfox](#arkenfox-advanced) o [Brave](#brave). Mullvad Browser fornisce tali protezioni "pronte all'uso", a scapito di una certa flessibilità e comodità che altri browser privati possono fornire.
 
-==Per la massima protezione anti-fingerprinting, consigliamo di utilizzare Mullvad Browser **con** una VPN==, che sia di Mullvad o di un altro fornitore di VPN consigliato. Utilizzando una VPN con Mullvad Browser, condividi un'impronta digitale e un gruppo di indirizzi IP con molti altri utenti, offrendoti una "folla" con cui confonderti. Questa strategia è il solo modo per contrastare gli script di tracciamento avanzati, ed è la stessa tecnica anti-fingerprinting utilizzata da Tor Browser.
+==Per la massima protezione anti-fingerprinting, consigliamo di utilizzare Mullvad Browser **con** una VPN==, che sia di Mullvad o di un altro fornitore di VPN consigliato. Utilizzando una VPN con Mullvad Browser, condividi un'impronta digitale e un gruppo di indirizzi IP con molti altri utenti, offrendoti una "folla" con cui confonderti. Questa strategia è l'unico modo per contrastare gli script di tracciamento avanzati ed è la stessa tecnica anti-fingerprinting utilizzata da Tor Browser.
 
-Nota che, sebbene tu possa utilizzare Mullvad Browser con qualsiasi fornitore VPN, altre persone su tale VPN devono anch'esse utilizzare Mullvad Browser perché tale "folla" esista, il che è molto più probabile su Mullvad VPN, rispetto ad altri fornitori, in particolare così a breve distanza dal lancio di Mullvad Browser. Mullvad Browser non dispone di connettività VPN integrata, né verifica che tu stia utilizzando una VPN prima di navigare; la tua connessione VPN dev'essere configurata e gestita separatamente.
+Nota che, sebbene tu possa utilizzare Mullvad Browser con qualsiasi fornitore VPN, altre persone su tale VPN devono anch'esse utilizzare Mullvad Browser affinché tale "folla" esista, il che è molto più probabile su Mullvad VPN, rispetto ad altri fornitori, in particolare così a breve distanza dal lancio di Mullvad Browser. Mullvad Browser non dispone di connettività VPN integrata, né verifica che tu stia utilizzando una VPN prima di navigare; la tua connessione VPN dev'essere configurata e gestita separatamente.
 
-Mullvad Browser contiene le estensioni pre-installate di *uBlock Origin* e *NoScript*. Sebbene, tipicamente, [sconsigliamo](#extensions) l'aggiunta di *ulteriori* estensioni del browser, queste estensioni pre-installate **non** dovrebbero essere rimosse o configurate al di fuori dei valori predefiniti, poiché ciò renderebbe l'impronta digitale del tuo browser notevolmente distinta da quella di altri utenti di Mullvad Browser. Inoltre, presenta l'Estensione Mullvad Browser pre-installata, che *può* essere rimossa in sicurezza, senza influenzare l'impronta digitale del tuo browser, se lo desideri, ma è anche sicura da mantenere se non utilizzi la VPN di Mullvad.
+Mullvad Browser contiene le estensioni pre-installate di *uBlock Origin* e *NoScript*. Sebbene, di norma, [sconsigliamo](#extensions) l'aggiunta di *ulteriori* estensioni del browser, queste estensioni pre-installate **non** dovrebbero essere rimosse o configurate al di fuori dei valori predefiniti, poiché ciò renderebbe l'impronta digitale del tuo browser sensibilmente distinta da quella di altri utenti di Mullvad Browser. Inoltre, presenta l'Estensione Mullvad Browser pre-installata, che *può* essere rimossa in sicurezza, senza influenzare l'impronta digitale del tuo browser, se lo desideri, ma è anche sicura da mantenere se non utilizzi la VPN di Mullvad.
 
 ### Modalità di Navigazione Privata
 
-Mullvad Browser opera in modalità di navigazione privata permanente, a significare che la tua cronologia, cookie e altri dati dei siti saranno sempre eliminati a ogni chiusura del browser. I tuoi segnalibri, le impostazioni del browser e dell'estensione saranno comunque conservati.
+Mullvad Browser opera in modalità di navigazione privata permanente, ciò significa che la tua cronologia, cookie e altri dati dei siti saranno eliminati a ogni chiusura del browser. I tuoi segnalibri, le impostazioni del browser e dell'estensione saranno comunque conservati.
 
 Ciò è necessario per impedire forme avanzate di tracciamento, a costo della comodità e di alcune funzionalità di Firefox, come i Contenitori Multi Profilo. Ricordati che puoi sempre utilizzare più browser, ad esempio, potresti considerare di utilizzare Firefox+Arkenfox per alcuni siti cui desideri rimanere connesso o, altrimenti, che non operano adeguatamente su Mullvad Browser, e Mullvad Browser per la navigazione generale.
 
 ### Mullvad Leta
 
-Mullvad Browser integra DuckDuckGo come [motore di ricerca](search-engines.md) predefinito, ma include anche **Mullvad Leta**, un motore di ricerca che richiede un abbonamento attivo alla VPN di Mullvad, per potervi accedere. Mullvad Leta interroga direttamente l'API di ricerca a pagamento di Google (motivo per cui è limitato agli abbonati), tuttavia, a causa di tale limitazione, è possibile per Mullvad correlare le richieste di ricerca e i profili VPN di Mullvad. Per questo, sconsigliamo l'utilizzo di Mullvad Leta, anche se Mullvad raccoglie molte poche informazioni sui suoi abbonati alla VPN.
+Mullvad Browser integra DuckDuckGo come [motore di ricerca](search-engines.md) predefinito, ma include anche **Mullvad Leta**, un motore di ricerca che richiede un abbonamento attivo alla VPN di Mullvad, per potervi accedere. Mullvad Leta utilizza direttamente l'API di ricerca a pagamento di Google (motivo per cui è limitato agli abbonati), tuttavia, a causa di tale limitazione, è possibile per Mullvad correlare le ricerche e i profili VPN di Mullvad. Per questo motivo sconsigliamo l'uso di Mullvad Leta, anche se Mullvad raccoglie pochissime informazioni sui propri abbonati alla VPN.
 
 ## Firefox
 

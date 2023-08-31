@@ -42,21 +42,21 @@ schema:
 
 ##### “Non ho nulla da nascondere. Perché dovrei preoccuparmi della mia privacy?"
 
-Proprio come il diritto al matrimonio interrazile, il suffragio femminile, la libertà di parola e molti altri, il nostro diritto alla privacy non è sempre stato sostenuto. In diverse dittature non lo è ancora. Le generazioni precedenti hanno lottato per il nostro diritto alla privacy. ==La privacy è un diritto umano, inerente a tutti noi,==, che ci spetta (senza discriminazione).
+Proprio come il diritto al matrimonio interrazile, il suffragio femminile, la libertà di parola e molti altri, il nostro diritto alla privacy non è sempre stato sostenuto. In diverse dittature non lo è ancora. Le vecchie generazioni hanno lottato per il nostro diritto alla privacy. ==La privacy è un diritto umano, inerente a tutti noi,==, che ci spetta (senza discriminazione).
 
-Non dovresti confondere la privacy con la segretezza. Sappimo che succede in bagno, tuttavia, chiudi lo stesso la porta. Questo perché vuoi privacy, non segretezza. **Tutti** hanno qualcosa da proteggere. La privacy è qualcosa che ci rende umani.
+Non dovresti confondere la privacy con la segretezza. Sappiamo che succede in bagno, ma chiudi comunque la porta. Questo perché vuoi privacy, non segretezza. **Tutti** hanno qualcosa da proteggere. La privacy è qualcosa che ci rende umani.
 
-[:material-book-outline: Perché la Privacy conta](basics/why-privacy-matters.md){ class="md-button md-button--primary" }
+[:material-book-outline: Perchè la privacy è importante](basics/why-privacy-matters.md){ class="md-button md-button--primary" }
 
 ## Cosa dovrei fare?
 
 ##### Per prima cosa, devi avere un piano
 
-Provare a proteggere tutti i tuoi dati da tutti, in ogni momento, è poco pratico, costoso ed estenuante. Ma non preoccuparti! La sicurezza è un processo e, pensandoci in anticipo, puoi studiare un piano adatto a te. La sicurezza non riguard soltanto gli strumenti che utilizzi o i software che scarichi. Piuttosto, parte dalla comprensione delle minacce uniche che affronti e di come puoi mitigarle.
+Provare a proteggere tutti i tuoi dati da chiunque e in ogni momento, è poco pratico, costoso ed estenuante. Ma non preoccuparti! La sicurezza è un processo e, pensandoci in anticipo, puoi studiare un piano adatto a te. La sicurezza non riguarda soltanto gli strumenti che utilizzi o i software che scarichi. Piuttosto, parte dalla comprensione delle minacce uniche che affronti e di come puoi mitigarle.
 
-==Questo procedimento di identificazione e definizione delle contromisure è detto **Threat Modeling** (modello di minaccia)== e plasma le basi di ogni buon piano di sicurezza e privacy.
+==Questo procedimento d'identificazione e definizione delle contromisure è detto **Threat Modeling** (modello di minaccia)== e plasma le basi di ogni buon piano di sicurezza e privacy.
 
-[:material-book-outline: Scopri di Più sul Modello di Minaccia](basics/threat-modeling.md){ class="md-button md-button--primary" }
+[:material-book-outline: Scopri il Modello di Minaccia](basics/threat-modeling.md){ class="md-button md-button--primary" }
 
 ---
 
@@ -70,4 +70,4 @@ Provare a proteggere tutti i tuoi dati da tutti, in ogni momento, è poco pratic
 [:material-information-outline:](about/index.md){ title="Scopri di più su di noi" }
 [:material-hand-coin-outline:](about/donate.md){ title="Supporta il progetto" }
 
-È importante che un sito web come Privacy Guide sia sempre aggiornato. Necessitiamo che il nostro pubblico tenga d'occhio gli aggiornamenti dei software per le applicazioni elencate sul nostro sito e che segua le notizie sui fornitori che consigliamo. È difficile tenere il passo con il veloce ritmo di Internet, ma facciamo del nostro meglio. Se noti un errore, pensi che un fornitore non dovrebbe essere elencato, noti che un fornitore qualificato sia mancante, credi che un plugin per browser non sia più la scelta migliore, o scopri qualsiasi altro problema, ti preghiamo di farcelo sapere.
+È importante che un sito web come Privacy Guide sia sempre aggiornato. Necessitiamo che il nostro pubblico tenga d'occhio gli aggiornamenti delle applicazioni elencate sul nostro sito e che segua le notizie sui fornitori che consigliamo. È difficile tenere il passo con il veloce ritmo di Internet, ma facciamo del nostro meglio. Se noti un errore, pensi che un fornitore non dovrebbe essere elencato, noti che un fornitore qualificato sia mancante, credi che un plugin per browser non sia più la scelta migliore, o scopri qualsiasi altro problema, ti preghiamo di farcelo sapere.
