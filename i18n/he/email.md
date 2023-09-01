@@ -10,14 +10,14 @@ cover: email.png
 
 [מסנג'רים (הודעות מיידיות) מומלצות](real-time-communication.md ""){.md-button}
 
-לכל השאר, אנו ממליצים על מגוון ספקי דוא"ל המבוססים על מודלים עסקיים ברי קיימא ותכונות אבטחה ופרטיות מובנות.
+לכל השאר, אנו ממליצים על מגוון ספק אימייל המבוססים על מודלים עסקיים ברי קיימא ותכונות אבטחה ופרטיות מובנות.
 
 - [ספקי דוא"ל תואמי OpenPGP :material-arrow-right-drop-circle:](#openpgp-compatible-services)
 - [ספקים מוצפנים אחרים :material-arrow-right-drop-circle:](#more-providers)
 - [שירותי כינוי אימייל :material-arrow-right-drop-circle:](#email-aliasing-services)
 - [אפשרויות אירוח עצמי :material-arrow-right-drop-circle:](#self-hosting-email)
 
-## ספקי דוא"ל מומלצים
+## ספקי אימייל מומלצים
 
 ספקים אלה תומכים באופן מקורי בהצפנה/פענוח של OpenPGP ובתקן Web Key Directory (WKD), המאפשרים הודעות אימייל E2EE אגנוסטיות לספקים. לדוגמה, משתמש Proton Mail יכול לשלוח הודעת E2EE למשתמש Mailbox.org, או שאתה יכול לקבל התראות מוצפנות OpenPGP משירותי אינטרנט התומכים בכך.
 
@@ -276,8 +276,8 @@ Tutanota לא מציעה פיצ'ר מורשת דיגיטלית.
 
 <div class="grid cards" markdown>
 
-- ![addy.io logo](assets/img/email/mini/addy.svg){ .twemoji } [addy.io](email.md#addyio)
-- ![SimpleLogin logo](assets/img/email/simplelogin.svg){ .twemoji } [SimpleLogin](email.md#simplelogin)
+- ![addy.io לוגו](assets/img/email/mini/addy.svg){ .twemoji } [addy.io](email.md#addyio)
+- ![SimpleLogin לוגו](assets/img/email/simplelogin.svg){ .twemoji } [SimpleLogin](email.md#simplelogin)
 
 </div>
 
@@ -302,32 +302,32 @@ Tutanota לא מציעה פיצ'ר מורשת דיגיטלית.
 
 !!! recommendation
 
-    ![addy.io logo](assets/img/email/addy.svg#only-light){ align=right }
-    ![addy.io logo](assets/img/email/addy-dark.svg#only-dark){ align=right }
+    ![addy.io לוגו](assets/img/email/addy.svg#only-light){ align=right }
+    ![addy.io לוגו](assets/img/email/addy-dark.svg#only-dark){ align=right }
     
-    **addy.io** lets you create 10 domain aliases on a shared domain for free, or unlimited "standard" aliases which are less anonymous.
+    **addy.io** מאפשר לך ליצור 10 כינויים של דומיין בדומיין משותף בחינם, או כינויים "סטנדרטיים" ללא הגבלה שהם פחות אנונימיים.
     
-    [:octicons-home-16: Homepage](https://addy.io){ .md-button .md-button--primary }
-    [:octicons-eye-16:](https://addy.io/privacy){ .card-link title="Privacy Policy" }
-    [:octicons-info-16:](https://app.addy.io/docs){ .card-link title=Documentation}
-    [:octicons-code-16:](https://github.com/anonaddy){ .card-link title="Source Code" }
-    [:octicons-heart-16:](https://addy.io/donate){ .card-link title=Contribute }
+    [:octicons-home-16: דף הבית](https://addy.io){ .md-button .md-button--primary }
+    [:octicons-eye-16:](https://addy.io/privacy){ .card-link title="מדיניות פרטיות" }
+    [:octicons-info-16:](https://app.addy.io/docs){ .card-link title=תיעוד}
+    [:octicons-code-16:](https://github.com/anonaddy){ .card-link title="קוד מקור" }
+    [:octicons-heart-16:](https://addy.io/donate){ .card-link title=לתרומה }
     
-    ??? downloads
+    ??? downloads "הורדות"
     
-        - [:simple-android: Android](https://addy.io/faq/#is-there-an-android-app)
+        - [:simple-android: אנדרואיד](https://addy.io/faq/#is-there-an-android-app)
         - [:material-apple-ios: iOS](https://addy.io/faq/#is-there-an-ios-app)
         - [:simple-firefoxbrowser: Firefox](https://addons.mozilla.org/firefox/addon/addy_io/)
-        - [:simple-googlechrome: Chrome](https://chrome.google.com/webstore/detail/addyio-anonymous-email-fo/iadbdpnoknmbdeolbapdackdcogdmjpe)
+        - [:simple-googlechrome: כרום](https://chrome.google.com/webstore/detail/addyio-anonymous-email-fo/iadbdpnoknmbdeolbapdackdcogdmjpe)
 
-The number of shared aliases (which end in a shared domain like @addy.io) that you can create is limited to 10 on addy.io's free plan, 50 on their $1/month plan and unlimited on the $4/month plan (billed $3 for a year). You can create unlimited standard aliases (which end in a domain like @[username].addy.io or a custom domain on paid plans), however, as previously mentioned, this can be detrimental to privacy because people can trivially tie your standard aliases together based on the domain name alone. They are useful where a shared domain might be blocked by a service.
+מספר הכינויים המשותפים (שמסתיימים בדומיין משותף כמו @addy.io) שאתה יכול ליצור מוגבל ל-10 בתוכנית החינמית של addy.io, 50 בתוכנית של $1 לחודש וללא הגבלה בתוכנית של $4 לחודש (החיוב 3 דולר לשנה). אתה יכול ליצור כינויים סטנדרטיים ללא הגבלה (שמסתיימים בדומיין כמו @[username].addy.io או דומיין מותאם אישית בתוכניות בתשלום), עם זאת, כפי שצוין קודם לכן, זה יכול להזיק לפרטיות מכיוון שאנשים יכולים לקשור באופן טריוויאלי את הכינויים הסטנדרטיים שלך יחד על סמך שם הדומיין בלבד. הם שימושיים כאשר דומיין משותף עשוי להיות חסום על ידי שירות.
 
 תכונות חינמיות בולטות:
 
 - [x] 10 כינויים משותפים
 - [x] כינויים סטנדרטיים ללא הגבלה
 - [ ] אין תגובות יוצאות
-- [x] 1 Recipient Mailboxes
+- [x] 1 תיבות דואר של נמען
 - [x] הצפנת PGP אוטומטית
 
 ### SimpleLogin
@@ -343,15 +343,15 @@ The number of shared aliases (which end in a shared domain like @addy.io) that y
     [:octicons-info-16:](https://simplelogin.io/docs/){ .card-link title=תיעוד}
     [:octicons-code-16:](https://github.com/simple-login){ .card-link title="קוד מקור" }
     
-    ??? downloads
+    ??? downloads "הורדות"
     
         - [:simple-googleplay: Google Play](https://play.google.com/store/apps/details?id=io.simplelogin.android)
         - [:simple-appstore: App Store](https://apps.apple.com/app/id1494359858)
-        - [:simple-github: GitHub](https://github.com/simple-login/Simple-Login-Android/releases)
+        - [:simple-github: גיטהאב](https://github.com/simple-login/Simple-Login-Android/releases)
         - [:simple-firefoxbrowser: Firefox](https://addons.mozilla.org/firefox/addon/simplelogin/)
-        - [:simple-googlechrome: Chrome](https://chrome.google.com/webstore/detail/dphilobhebphkdjbpfohgikllaljmgbn)
-        - [:simple-microsoftedge: Edge](https://microsoftedge.microsoft.com/addons/detail/simpleloginreceive-sen/diacfpipniklenphgljfkmhinphjlfff)
-        - [:simple-safari: Safari](https://apps.apple.com/app/id1494051017)
+        - [:simple-googlechrome: כרום](https://chrome.google.com/webstore/detail/dphilobhebphkdjbpfohgikllaljmgbn)
+        - [:simple-microsoftedge: אדג'](https://microsoftedge.microsoft.com/addons/detail/simpleloginreceive-sen/diacfpipniklenphgljfkmhinphjlfff)
+        - [:simple-safari: סאפרי](https://apps.apple.com/app/id1494051017)
 
 SimpleLogin [נרכשה על ידי Proton AG](https://proton.me/news/proton-and-simplelogin-join-forces) נכון ל-8 באפריל 2022. אם אתה משתמש ב-Proton Mail עבור תיבת הדואר הראשית שלך, SimpleLogin היא בחירה מצוינת. מכיוון ששני המוצרים נמצאים כעת בבעלות אותה חברה, כעת עליך לסמוך רק על ישות אחת. אנו גם מצפים ש-SimpleLogin תשתלב בצורה הדוקה יותר עם ההיצע של Proton בעתיד. SimpleLogin ממשיכה לתמוך בהעברה לכל ספק דוא"ל שתבחרו. Securitum [ביקרה את SimpleLogin](https://simplelogin.io/blog/security-audit/) בתחילת 2022 וכל הבעיות [טופלו](https://simplelogin.io/audit2022/web.pdf).
 

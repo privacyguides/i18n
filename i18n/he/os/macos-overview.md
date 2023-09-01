@@ -1,14 +1,14 @@
 ---
-title: macOS Overview
+title: סקירה כללית של macOS
 icon: material/apple-finder
-description: macOS is Apple's desktop operating system that works with their hardware to provide strong security.
+description: macOS היא מערכת ההפעלה שולחנית של אפל שעובדת עם החומרה שלהם כדי לספק אבטחה חזקה.
 ---
 
-**macOS** is a Unix operating system developed by Apple for their Mac computers. To enhance privacy on macOS, you can disable telemetry features and harden existing privacy and security settings.
+**macOS** היא מערכת הפעלה Unix שפותחה על ידי אפל עבור מחשבי ה-Mac שלהם. כדי לשפר את הפרטיות ב-macOS, אתה יכול להשבית את תכונות הטלמטריה ולהקשיח את הגדרות הפרטיות והאבטחה הקיימות.
 
-Older Intel-based Macs and Hackintoshes do not support all the security features that macOS offers. To enhance data security, we recommend using a newer Mac with [Apple silicon](https://support.apple.com/en-us/HT211814).
+מחשבי Mac ו-Hackintosh ישנים יותר מבוססי אינטל אינם תומכים בכל תכונות האבטחה ש-macOS מציעה. כדי לשפר את אבטחת הנתונים, אנו ממליצים להשתמש ב-Mac חדש יותר עם [סיליקון של אפל](https://support.apple.com/en-us/HT211814).
 
-## Privacy Notes
+## הערות פרטיות
 
 There are a few notable privacy concerns with macOS that you should consider. These pertain to the operating system itself, and not Apple's other apps and services.
 
@@ -48,7 +48,7 @@ There are a number of built-in settings you should confirm or change to harden y
 
 - [ ] Uncheck **Bluetooth** (unless you are currently using it)
 
-#### Network
+#### רשת
 
 Depending on if you are using **Wi-Fi** or **Ethernet** (denoted by a green dot and the word "connected"), click on the corresponding icon.
 
@@ -56,7 +56,7 @@ Click on the "Details" button by your network name:
 
 - [x] Check **Limit IP address tracking**
 
-##### Firewall
+##### חומת-אש
 
 Your firewall blocks unwanted network connections. The stricter your firewall settings are, the more secure your Mac is. However, certain services will be blocked. You should configure your firewall to be as strict as you can without blocking services you use.
 
@@ -68,7 +68,7 @@ Click the **Options** button:
 
 If this configuration is too strict, you can come back and uncheck this. However, macOS will typically prompt you to allow incoming connections for an app if the app requests it.
 
-#### General
+#### כללי
 
 By default, your device name will be something like "[your name]'s iMac". Because this name is publicly broadcast on your network, you'll want to change your device name to something generic like "Mac".
 
