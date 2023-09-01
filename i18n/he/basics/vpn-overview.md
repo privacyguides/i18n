@@ -49,23 +49,23 @@ VPNs אינם יכולים להצפין נתונים מחוץ לחיבור בי�
 
 ## מה לגבי ספקי VPN המספקים צמתי Tor?
 
-אל תשתמש בתכונה זו. הנקודה בשימוש ב-Tor היא שאינך סומך על ספק ה-VPN שלך. נכון לעכשיו Tor תומך רק בפרוטוקול [TCP](https://en.wikipedia.org/wiki/Transmission_Control_Protocol). [UDP](https://en.wikipedia.org/wiki/User_Datagram_Protocol) (בשימוש [WebRTC](https://en.wikipedia.org/wiki/WebRTC) לשיתוף קול ווידאו, פרוטוקול [HTTP3/QUIC](https://en.wikipedia.org/wiki/HTTP/3) החדש וכו'), [ICMP](https://en.wikipedia.org/wiki/Internet_Control_Message_Protocol) ומנות אחרות יוסרו. כדי לפצות על כך, ספקי VPN בדרך כלל ינתבו את כל החבילות שאינן TCP דרך שרת ה-VPN שלהם (הקפיצה הראשונה שלך). זה המקרה עם [ProtonVPN](https://protonvpn.com/support/tor-vpn/). בנוסף, בעת שימוש בהגדרת Tor over VPN זו, אין לך שליטה על תכונות Tor חשובות אחרות כגון [כתובת יעד מבודדת](https://www.whonix.org/wiki/Stream_Isolation) (באמצעות מעגל Tor שונה עבור כל דומיין שאתה מבקר בו).
+אל תשתמש בתכונה זו. הנקודה בשימוש ב-Tor היא שאינך סומך על ספק ה-VPN שלך. נכון לעכשיו Tor תומך רק בפרוטוקול [TCP](https://en.wikipedia.org/wiki/Transmission_Control_Protocol). [UDP](https://en.wikipedia.org/wiki/User_Datagram_Protocol) (בשימוש [WebRTC](https://en.wikipedia.org/wiki/WebRTC) לשיתוף קול ווידאו, פרוטוקול [HTTP3/QUIC](https://en.wikipedia.org/wiki/HTTP/3) החדש וכו'), [ICMP](https://en.wikipedia.org/wiki/Internet_Control_Message_Protocol) וחבילות אחרות יוסרו. כדי לפצות על כך, ספקי VPN בדרך כלל ינתבו את כל החבילות שאינן TCP דרך שרת ה-VPN שלהם (הקפיצה הראשונה שלך). זה המקרה עם [ProtonVPN](https://protonvpn.com/support/tor-vpn/). בנוסף, בעת שימוש בהגדרת Tor over VPN זו, אין לך שליטה על תכונות Tor חשובות אחרות כגון [כתובת יעד מבודדת](https://www.whonix.org/wiki/Stream_Isolation) (באמצעות מעגל Tor שונה עבור כל דומיין שאתה מבקר בו).
 
-יש לראות את התכונה כדרך נוחה לגשת לרשת Tor, לא להישאר אנונימית. לאנונימיות נאותה, השתמש בדפדפן Tor, TorSocks או שער Tor.
+יש לראות את התכונה כדרך נוחה לגשת לרשת Tor, לא להישאר אנונימית. לאנונימיות נאותה, השתמש בדפדפן TorSocks, Tor או שער Tor.
 
 ## מתי רשתות VPN שימושיות?
 
 VPN עדיין עשוי להיות שימושי עבורך במגוון תרחישים, כגון:
 
-1. הסתרת התנועה שלך מ**רק** מספק האינטרנט שלך.
-1. הסתרת ההורדות שלך (כגון טורנטים) מ-ISP וארגונים נגד פיראטיות.
+1. הסתרת התנועה שלך **רק** מספק האינטרנט שלך.
+1. הסתרת ההורדות שלך (כגון טורנטים) מספק האינטרנט שלך וארגונים נגד פיראטיות.
 1. הסתרת ה-IP שלך מאתרי אינטרנט ושירותים של צד שלישי, מניעת מעקב מבוסס IP.
 
-במצבים כאלה, או אם יש לך סיבה משכנעת אחרת, ספקי רשתות ה-VPN שציינו לעיל הם אלו שאנו חושבים שהם הכי אמינים. עם זאת, שימוש בספק VPN עדיין אומר שאתה *סומך* על הספק. כמעט בכל תרחיש אחר אתה אמור להשתמש בכלי מאובטח**שמעוצב** כגון Tor.
+במצבים כאלה, או אם יש לך סיבה משכנעת אחרת, ספקי רשתות ה-VPN שציינו לעיל הם אלו שאנו חושבים שהם הכי אמינים. עם זאת, שימוש בספק VPN עדיין אומר שאתה *סומך* על הספק. כמעט בכל תרחיש אחר אתה אמור להשתמש בכלי מאובטח **לפי-העיצוב** כגון Tor.
 
 ## מקורות וקריאה נוספת
 
-1. [VPN - נרטיב מאוד מעורער](https://schub.io/blog/2019/04/08/very-precarious-narrative.html) מאת דניס שוברט
+1. [VPN - נרטיב מאוד מעורער](https://schub.io/blog/2019/04/08/very-precarious-narrative.html) מאת Dennis Schubert
 1. [סקירה כללית של רשת Tor](../advanced/tor-overview.md)
 1. [IVPN Privacy Guides](https://www.ivpn.net/privacy-guides)
 1. ["האם אני צריך VPN?"](https://www.doineedavpn.com), כלי שפותח על ידי IVPN כדי לאתגר שיווק VPN אגרסיבי על ידי סיוע לאנשים להחליט אם VPN מתאים להם.

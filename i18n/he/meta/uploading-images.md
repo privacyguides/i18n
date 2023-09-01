@@ -37,37 +37,37 @@ optipng -o7 file.png
 בלשונית **האפשרויות**:
 
 - **מספר הספרות המשמעותיות עבור קואורדינטות** > **5**
-- [x] Turn on **Shorten color values**
-- [x] Turn on **Convert CSS attributes to XML attributes**
-- [x] Turn on **Collapse groups**
-- [x] Turn on **Create groups for similar attributes**
-- [ ] Turn off **Keep editor data**
-- [ ] Turn off **Keep unreferenced definitions**
-- [x] Turn on **Work around renderer bugs**
+- [x] הפעל את **קיצור ערכי צבע**
+- [x] הפעל את **המר תכונות CSS לתכונות XML**
+- [x] הפעל את **כווץ קבוצות**
+- [x] הפעל את **צור קבוצות עבור תכונות דומות**
+- [ ] כבה את **שמור נתוני עורך**
+- [ ] כבה את **שמור הגדרות ללא הפניות**
+- [x] הפעל את **עקוף באגים במעבד**
 
-In the **SVG Output** tab under **Document options**:
+בכרטיסייה **פלט SVG** תחת **אפשרויות מסמך**:
 
 - [ ] תכבה **הסר את הצהרת ה-XML**
 - [x] הפעל **הסר מטא נתונים**
 - [x] הפעל **הסר תגובות**
-- [x] Turn on **Embeded raster images**
-- [x] Turn on **Enable viewboxing**
+- [x] הפעל את **תמונות רסטר מוטמעות**
+- [x] הפעל את **הפעל צפייה ב-viewboxing**
 
-In the **SVG Output** under **Pretty-printing**:
+ב**פלט SVG** תחת **הדפסה יפה**:
 
-- [ ] Turn off **Format output with line-breaks and indentation**
-- **Indentation characters** > Select **Space**
-- **Depth of indentation** > **1**
-- [ ] Turn off **Strip the "xml:space" attribute from the root SVG element**
+- [ ] כבה את **עיצוב פלט עם מעברי שורה והזחה**
+- **תווי הזחה** > בחר **חלל**
+- **עומק הזחה** > **1**
+- [ ] כבה את **הסר את התכונה "xml:space" מאלמנט הבסיס SVG**
 
-In the **IDs** tab:
+בכרטיסייה **מזהים**:
 
-- [x] Turn on **Remove unused IDs**
-- [ ] Turn off **Shorten IDs**
-- **Prefix shortened IDs with** > `leave blank`
-- [x] Turn on **Preserve manually created IDs not ending with digits**
-- **Preserve the following IDs** > `leave blank`
-- **Preserve IDs starting with** > `leave blank`
+- [x] הפעל את **הסר מזהים שאינם בשימוש**
+- [ ] כבה את **קיצור מזהים**
+- **קידומת מזהים מקוצרים עם** > `להשאיר ריק`
+- [x] הפעל את **שמור מזהים שנוצרו באופן ידני שאינם מסתיימים בספרות**
+- **שמור את המזהים הבאים** > `להשאיר ריק`
+- **שמור מזהים המתחילים ב** > `להשאיר ריק`
 
 #### CLI
 

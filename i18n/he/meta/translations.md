@@ -10,72 +10,72 @@ title: תרגומים
 
 ## אזהרות
 
-Throughout the site we use MkDocs's [admonitions](https://squidfunk.github.io/mkdocs-material/reference/admonitions/#usage), to show information to readers. They come in a few different flavors such as `example`, `warning`, `tip`, etc.
+בכל האתר אנו משתמשים ב[התראות](https://squidfunk.github.io/mkdocs-material/reference/admonitions/#usage) של MkDocs, כדי להציג מידע לקוראים. הם מגיעים בכמה טעמים שונים כגון `דוגמה`, `אזהרה`, `טיפ` וכו'.
 
-When admonitions are used they will have an English string on the site by default. This can be [customized](https://squidfunk.github.io/mkdocs-material/reference/admonitions/#changing-the-title), without too much effort. For example, if you were translating an admonition of type [`warning`](https://squidfunk.github.io/mkdocs-material/reference/admonitions/#type:warning) to Dutch, this is how you would write it:
+כאשר נעשה שימוש באזהרות תהיה להם מחרוזת אנגלית באתר כברירת מחדל. זה יכול להיות [להתאמה אישית](https://squidfunk.github.io/mkdocs-material/reference/admonitions/#changing-the-title), בלי יותר מדי מאמץ. לדוגמה, אם היית מתרגם אזהרה מסוג [`אזהרה`](https://squidfunk.github.io/mkdocs-material/reference/admonitions/#type:warning) להולנדית, כך היית כותב את זה:
 
-=== "Dutch translation"
+=== "תרגום להולנדית"
 
     ```text
     !!! warning "Waarschuwing"
     ```
 
-=== "English source text"
+=== "טקסט מקור אנגלי"
 
     ```text
     !!! warning "אזהרה"
     ```
 
-Downloads are a [custom admonition](https://squidfunk.github.io/mkdocs-material/reference/admonitions/#custom-admonitions) which is written as follows:
+ההורדות הן [אזהרה מותאמת אישית](https://squidfunk.github.io/mkdocs-material/reference/admonitions/#custom-admonitions) הכתובה כך:
 
-=== "Dutch translation"
+=== "תרגום להולנדית"
 
     ```text
     ??? downloads "Downloaden"
     ```
 
-=== "English source text"
+=== "טקסט מקור אנגלי"
 
     ```text
     ??? downloads
     ```
 
-The same goes for other types, such as `tip`, `example`, `warning`, `danger` etc.
+כך גם לגבי סוגים אחרים, כגון `tip`, `example`, `warning`, `danger` etc. וכו'.
 
-Recommendations are a special type of admonition which do **not** need overriding as they have no visible text, so they are never changed:
+Recommendations הן סוג מיוחד של אזהרה ש**אין** לעקוף מאחר שאין להן טקסט גלוי, כך שהן לעולם לא משתנות:
 
-=== "Dutch translation"
-
-    ```text
-    !!! recommendation
-    ```
-
-=== "English source text"
+=== "תרגום להולנדית"
 
     ```text
     !!! recommendation
     ```
 
-## Translation output
+=== "טקסט מקור אנגלי"
 
-Translation software gets the translation quite accurate; however, you need to make sure the translated string is correct.
+    ```text
+    !!! recommendation
+    ```
 
-For example:
+## פלט תרגום
+
+תוכנת תרגום משיגה את התרגום מדויק למדי; עם זאת, עליך לוודא שהמחרוזת המתורגמת נכונה.
+
+לדוגמה:
 
 ```text
-![Software logo](assets/img/path/to/image.svg){ align=right }
+![לוגו של התוכנה](assets/img/path/to/image.svg){ align=right }
 ```
 
-We have sometimes found that the syntax for inserting an image like above was missing the `![` or an extra space was placed between the text and the path, e.g. `](`. If a translation string is clearly not correct, we encourage you to **delete** it by pressing the trash icon [or vote](https://support.crowdin.com/enterprise/getting-started-for-volunteers/#voting-view) on which one you think sounds best. When invalid strings are deleted, they are removed from the organization's [translation memory](https://support.crowdin.com/enterprise/translation-memory), meaning that when the source string is seen again, it won't suggest the incorrect translation.
+מצאנו לפעמים שבתחביר להכנסת תמונה כמו לעיל חסר ה-`![` או שהוצב רווח נוסף בין הטקסט לנתיב, למשל. `](`. אם מחרוזת תרגום אינה נכונה בבירור, אנו ממליצים לך **למחוק** אותה על ידי לחיצה על סמל האשפה [או הצביעו](https://support.crowdin.com/enterprise /getting-started-for-volunteers/#voting-view) על מי לדעתכם נשמע הכי טוב. כאשר מחרוזות לא חוקיות נמחקות, הן מוסרות מ[זיכרון התרגום](https://support.crowdin.com/enterprise/translation-memory) של הארגון, כלומר כאשר מחרוזת המקור נראית שוב, זה לא יציע את התרגום השגוי.
 
-## Punctuation
+## סימני פיסוק
 
-For examples like the above admonitions, quotation marks, e.g.: `" "` must be used to specify string text. MkDocs will not correctly interpret other symbols i.e., `「 」` or `« »`. Other punctuation marks are fine for marking regular quotations within the text otherwise.
+עבור דוגמאות כמו האזהרות לעיל, מרכאות, למשל: יש להשתמש ב-`" "` כדי לציין טקסט מחרוזת. MkDocs לא יפרש נכון סמלים אחרים, כלומר `「 」` או `« »`. סימני פיסוק אחרים מתאימים לסימון ציטוטים רגילים בתוך הטקסט אחרת.
 
-## Fullwidth alternatives and Markdown syntax
+## חלופות ברוחב מלא ותחביר Markdown
 
-CJK writing systems tend to use alternative "fullwidth" variants of common symbols. These are different characters and cannot be used for markdown syntax.
+מערכות כתיבה של CJK נוטות להשתמש בגרסאות חלופיות "ברוחב מלא" של סמלים נפוצים. אלו תווים שונים ולא ניתן להשתמש בהם עבור markdown.
 
-- Links must use regular parenthesis ie `(` (Left Parenthesis U+0028) and `)` (Right Parenthesis U+0029) and not `（` (Fullwidth Left Parenthesis U+FF08) or `）` (Fullwidth Right Parenthesis U+FF09)
-- Indented quoted text must use `:` (Colon U+003A) and not `：` (Fullwidth Colon U+FF1A)
-- Pictures must use `!` (Exclamation Mark U+0021) and not `！` (Fullwidth Exclamation Mark U+FF01) 
+- קישורים חייבים להשתמש בסוגריים רגילים, כלומר `(` (Left Parenthesis U+0028) ו-`)` (Right Parenthesis U+0029) ולא `（` (סוגריים שמאליים ברוחב מלא U+FF08) או `）` (סוגריים ימניים ברוחב מלא U+FF09)
+- טקסט מצוטט עם הזחה חייב להשתמש ב-`:` (נקודתיים U+003A) ולא ב-`：` (נקודתיים U+FF1A ברוחב מלא)
+- תמונות חייבות להשתמש ב-`!` (סימן קריאה U+0021) ולא ב-`！` (סימן קריאה ברוחב מלא U+FF01) 

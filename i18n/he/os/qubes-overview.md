@@ -4,20 +4,20 @@ icon: simple/qubesos
 description: Qubes היא מערכת הפעלה הבנויה סביב בידוד אפליקציות בתוך *qubes* (לשעבר "VMs") לאבטחה מוגברת.
 ---
 
-[**Qubes OS**](../desktop.md#qubes-os) היא מערכת הפעלה בקוד פתוח המשתמשת ב[Xen](https://en.wikipedia.org/wiki/Xen) היפרוויזר לספק אבטחה חזקה עבור מחשוב שולחני באמצעות *qubes* מבודדים, (אשר הם מכונות וירטואליות). You can assign each *qube* a level of trust based on its purpose. Qubes OS provides security by using isolation. It only permits actions on a per-case basis and therefore is the opposite of [badness enumeration](https://www.ranum.com/security/computer_security/editorials/dumb/).
+[**Qubes OS**](../desktop.md#qubes-os) היא מערכת הפעלה בקוד פתוח המשתמשת ב[Xen](https://en.wikipedia.org/wiki/Xen) היפרוויזר לספק אבטחה חזקה עבור מחשוב שולחני באמצעות *qubes* מבודדים, (אשר הם מכונות וירטואליות). אתה יכול להקצות לכל *qube* רמת אמון על סמך מטרתו. מערכת ההפעלה Qubes מספקת אבטחה באמצעות בידוד. הוא מתיר פעולות רק על בסיס כל מקרה ומקרה ולכן הוא ההפך מ[badness enumeration](https://www.ranum.com/security/computer_security/editorials/dumb/).
 
 ## איך עובדת מערכת ההפעלה של Qubes?
 
 Qubes משתמשת ב[מידור](https://www.qubes-os.org/intro/) כדי לשמור על אבטחת המערכת. Qubes נוצרים מתבניות, ברירת המחדל היא עבור Fedora, Debian ו-[Whonix](../desktop.md#whonix). מערכת ההפעלה Qubes מאפשרת לך גם ליצור [חד פעמי](https://www.qubes-os.org/doc/how-to-use-disposables/) *qubes* לשימוש חד פעמי.
 
-??? "The term *qubes* is gradually being updated to avoid referring to them as "virtual machines"."
+??? "המונח *qubes* מתעדכן בהדרגה כדי להימנע מהתייחסות אליהם כ"מכונות וירטואליות"."
 
-    Some of the information here and on the Qubes OS documentation may contain conflicting language as the "appVM" term is gradually being changed to "qube". Qubes are not entire virtual machines, but maintain similar functionalities to VMs.
+    חלק מהמידע כאן ובתיעוד של מערכת ההפעלה של Qubes עשוי להכיל שפה סותרת מכיוון שהמונח "appVM" משתנה בהדרגה ל-"qube". Qubes הם לא מכונות וירטואליות שלמות, אבל שומרים על פונקציונליות דומות ל-VMs.
 
 ![ארכיטקטורת Qubes](../assets/img/qubes/qubes-trust-level-architecture.png)
 <figcaption>ארכיטקטורת Qubes, קרדיט: מהי הקדמה למערכת ההפעלה של Qubes</figcaption>
 
-Each qube has a [colored border](https://www.qubes-os.org/screenshots/) that can help you keep track of the domain in which it runs. אתה יכול, למשל, להשתמש בצבע ספציפי עבור הדפדפן הבנקאי שלך, תוך שימוש בצבע אחר עבור דפדפן כללי שאינו מהימן.
+לכל qube יש [גבול צבעוני](https://www.qubes-os.org/screenshots/) שיכול לעזור לך לעקוב אחר התחום שבו היא פועלת. אתה יכול, למשל, להשתמש בצבע ספציפי עבור הדפדפן הבנקאי שלך, תוך שימוש בצבע אחר עבור דפדפן כללי שאינו מהימן.
 
 ![גבול צבוע](../assets/img/qubes/r4.0-xfce-three-domains-at-work.png)
 <figcaption>גבולות החלונות של Qubes, קרדיט: צילומי מסך של Qubes</figcaption>
@@ -26,7 +26,7 @@ Each qube has a [colored border](https://www.qubes-os.org/screenshots/) that can
 
 מערכת ההפעלה Qubes שימושית אם [מודל האיום](../basics/threat-modeling.md) שלך דורש אבטחה ובידוד חזקות, כגון אם אתה חושב שתפתח קבצים לא מהימנים ממקורות לא מהימנים. סיבה טיפוסית לשימוש ב-Qubes OS היא לפתוח מסמכים ממקורות לא ידועים, אבל הרעיון הוא שאם qube בודד ייפגע זה לא ישפיע על שאר המערכת.
 
-Qubes OS utilizes [dom0](https://wiki.xenproject.org/wiki/Dom0) Xen VM for controlling other *qubes* on the host OS, all of which display individual application windows within dom0's desktop environment. There are many uses for this type of architecture. Here are some tasks you can perform. You can see just how much more secure these processes are made by incorporating multiple steps.
+Qubes OS משתמשת ב-[דום0](https://wiki.xenproject.org/wiki/Dom0)Xen VM לשליטה ב-*קיובס* אחרים במערכת ההפעלה המארח, שכולם מציגים חלונות יישומים בודדים בסביבת שולחן העבודה של dom0. ישנם שימושים רבים לסוג זה של ארכיטקטורה. הנה כמה משימות שתוכל לבצע. אתה יכול לראות עד כמה בטוחים יותר תהליכים אלה נעשים על ידי שילוב שלבים מרובים.
 
 ### העתקה והדבקה של טקסט
 
@@ -39,15 +39,15 @@ Qubes OS utilizes [dom0](https://wiki.xenproject.org/wiki/Dom0) Xen VM for contr
 
 ### החלפת קבצים
 
-כדי להעתיק ולהדביק קבצים וספריות (תיקיות) מ*qube* אחד לאחר, אתה יכול להשתמש באפשרות **העתק ל-AppVM אחר...** או **העבר ל-AppVM אחר...**. ההבדל הוא שהאפשרות ה**העבר** תמחק את הקובץ המקורי. Either option will protect your clipboard from being leaked to any other *qubes*. This is more secure than air-gapped file transfer. An air-gapped computer will still be forced to parse partitions or file systems. זה לא נדרש עם מערכת ההעתקה inter-qube.
+כדי להעתיק ולהדביק קבצים וספריות (תיקיות) מ*qube* אחד לאחר, אתה יכול להשתמש באפשרות **העתק ל-AppVM אחר...** או **העבר ל-AppVM אחר...**. ההבדל הוא שהאפשרות ה**העבר** תמחק את הקובץ המקורי. כל אחת מהאפשרויות תגן על הלוח שלך מפני דליפה לכל *qubes* אחרים. זה מאובטח יותר מהעברת קבצים ברווח-אוויר. מחשב עם מרווח אוויר עדיין ייאלץ לנתח מחיצות או מערכות קבצים. זה לא נדרש עם מערכת ההעתקה inter-qube.
 
-??? "Qubes do not have their own filesystems."
+??? "ל-Qubes אין מערכות קבצים משלהם."
 
-    You can [copy and move files](https://www.qubes-os.org/doc/how-to-copy-and-move-files/) between *qubes*. כאשר עושים זאת השינויים לא מתבצעים באופן מיידי וניתן לבטל אותם בקלות במקרה של תאונה. When you run a *qube*, it does not have a persistent filesystem. You can create and delete files, but these changes are ephemeral.
+    אתה יכול [להעתיק ולהעביר קבצים](https://www.qubes-os.org/doc/how-to-copy-and-move-files/) בין *qubes*. כאשר עושים זאת השינויים לא מתבצעים באופן מיידי וניתן לבטל אותם בקלות במקרה של תאונה. כאשר אתה מפעיל *qube*, אין לו מערכת קבצים מתמשכת. אתה יכול ליצור ולמחוק קבצים, אבל השינויים האלה הם ארעיים.
 
 ### אינטראקציות בין-VM
 
-The [qrexec framework](https://www.qubes-os.org/doc/qrexec/) is a core part of Qubes which allows communication between domains. הוא בנוי על גבי ספריית Xen *vchan*, המאפשרת [בידוד באמצעות מדיניות](https://www.qubes-os.org/news/2020/06/22/new-qrexec-policy-system/).
+[מסגרת qrexec](https://www.qubes-os.org/doc/qrexec/) היא חלק מרכזי ב-Qubes המאפשר תקשורת בין דומיינים. הוא בנוי על גבי ספריית Xen *vchan*, המאפשרת [בידוד באמצעות מדיניות](https://www.qubes-os.org/news/2020/06/22/new-qrexec-policy-system/).
 
 ## מקורות נוספים
 

@@ -3,13 +3,13 @@
 *[AOSP]: פרויקט קוד פתוח של אנדרואיד
 *[ATA]: Advanced Technology Attachment
 *[משטח התקפה]: The total number of possible entry points for unauthorized access to a system
-*[AVB]: Android Verified Boot
-*[cgroups]: Control Groups
-*[CLI]: Command Line Interface
+*[AVB]: אתחול מאומת של אנדרואיד
+*[cgroups]: קבוצות בקרה
+*[CLI]: ממשק שורת הפקודה
 *[CSV]: Comma-Separated Values
-*[CVE]: Common Vulnerabilities and Exposures
-*[digital legacy feature]: Digital Legacy refers to features that allow you to give other people access to your data when you die
-*[DNSSEC]: Domain Name System Security Extensions
+*[CVE]: פגיעויות וחשיפות נפוצות
+*[תכונה דיגיטלית מדור קודם]: Digital Legacy refers to features that allow you to give other people access to your data when you die
+*[DNSSEC]: תוספי אבטחה של מערכת שמות דומיין
 *[DNS]: מערכת שמות מתחם
 *[DoH]: DNS דרך HTTPS
 *[DoQ]: DNS over QUIC
@@ -29,7 +29,7 @@
 *[GDPR]: תקנת הגנת מידע כללית
 *[GPG]: GNU Privacy Guard (יישום PGP)
 *[GPS]: מערכת מיקום גלובלית
-*[GUI]: Graphical User Interface
+*[GUI]: ממשק משתמש גרפי
 *[GnuPG]: GNU Privacy Guard (יישום PGP)
 *[HDD]: כונן קשיח
 *[HOTP]: HMAC (Hash-based Message Authentication Code) based One-Time Password
@@ -46,15 +46,15 @@
 *[ISP]: ספק שירותי אינטרנט
 *[ISPs]: ספקי שירותי אינטרנט
 *[JNI]: ממשק מקורי של Java
-*[KYC]: Know Your Customer
+*[KYC]: הכר את הלקוח שלך
 *[LUKS]: Linux Unified Key Setup (Full-Disk Encryption)
 *[MAC]: Media Access Control
 *[MDAG]: Microsoft Defender Application Guard
-*[MEID]: Mobile Equipment Identifier
+*[MEID]: מזהה ציוד נייד
 *[MFA]: אימות מרובה גורמים
 *[NVMe]: Nonvolatile Memory Express
-*[NAT]: Network address translation
-*[NAT-PMP]: NAT Port Mapping Protocol
+*[NAT]: תרגום כתובת רשת
+*[NAT-PMP]: פרוטוקול מיפוי יציאות NAT
 *[NTP]: פרוטוקול זמן רשת
 *[OCI]: Open Container Initiative
 *[OCSP]: Online Certificate Status Protocol
@@ -65,18 +65,18 @@
 *[OTPs]: סיסמאות חד פעמיות
 *[OpenPGP]: הטמעת קוד פתוח של פרטיות טובה למדי (PGP)
 *[P2P]: עמית-לעמית
-*[PAM]: Linux Pluggable Authentication Modules
+*[PAM]: מודולי אימות ניתנים לחיבור של לינוקס
 *[POP3]: Post Office Protocol 3
 *[PGP]: Pretty Good Privacy (see OpenPGP)
 *[PII]: Personally Identifiable Information
 *[QNAME]: Qualified Name
 *[rolling release]: Updates which are released frequently rather than set intervals
-*[RSS]: Really Simple Syndication
-*[SELinux]: Security-Enhanced Linux
-*[SIM]: Subscriber Identity Module
-*[SMS]: Short Message Service (standard text messaging)
-*[SMTP]: Simple Mail Transfer Protocol
-*[SNI]: Server Name Indication
+*[RSS]: סינדיקציה ממש פשוטה
+*[SELinux]: לינוקס משופרת באבטחה
+*[SIM]: מודול זהות מנוי
+*[SMS]: שירות הודעות קצרות (הודעות טקסט רגילות)
+*[SMTP]: פרוטוקול העברת דואר פשוט
+*[SNI]: ציון שם השרת
 *[SSD]: Solid-State Drive
 *[SSH]: מעטפת מאובטחת
 *[SUID]: הגדר את מזהה המשתמש של הבעלים
@@ -91,9 +91,9 @@
 *[TPM]: מודול פלטפורמה מהימנה
 *[U2F]: גורם שני אוניברסלי
 *[UEFI]: Unified Extensible Firmware Interface
-*[UDP]: User Datagram Protocol
+*[UDP]: פרוטוקול יחידת נתונים של משתמש
 *[VPN]: רשת וירטואלית פרטית
-*[VoIP]: Voice over IP (Internet Protocol)
-*[W3C]: World Wide Web Consortium
+*[VoIP]: קול על IP (פרוטוקול אינטרנט)
+*[W3C]: קונסורציום האינטרנט העולמי
 *[XMPP]: Extensible Messaging and Presence Protocol
 *[PWA]: Progressive Web App
