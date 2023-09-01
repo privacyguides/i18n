@@ -73,7 +73,7 @@ Tumbleweed עוקב אחר מודל מהדורה מתגלגל שבו כל עדכ
     [:octicons-info-16:](https://docs.fedoraproject.org/en-US/fedora-silverblue/){ .card-link title=תיעוד}
     [:octicons-heart-16:](https://whatcanidoforfedora.org/){ .card-link title=לתרומה }
 
-Silverblue (and Kinoite) differ from Fedora Workstation as they replace the [DNF](https://docs.fedoraproject.org/en-US/quick-docs/dnf/) package manager with a much more advanced alternative called [`rpm-ostree`](https://docs.fedoraproject.org/en-US/fedora/latest/system-administrators-guide/package-management/rpm-ostree/). מנהל החבילות `rpm - ostree` עובד על ידי הורדת תמונת בסיס עבור המערכת, ולאחר מכן שכבת חבילות מעליה ב [git](https://en.wikipedia.org/wiki/Git)- כמו להתחייב עץ. כאשר המערכת מתעדכנת, מורידים תמונת בסיס חדשה ושכבות העל יוחלו על תמונה חדשה זו.
+Silverblue (ו-Kinoite) שונים מ-Fedora Workstation מכיוון שהם מחליפים את מנהל החבילות [DNF](https://docs.fedoraproject.org/en-US/quick-docs/dnf/) בחלופה הרבה יותר מתקדמת בשם [`rpm-ostree`](https://docs.fedoraproject.org/en-US/fedora/latest/system-administrators-guide/package-management/rpm-ostree/). מנהל החבילות `rpm - ostree` עובד על ידי הורדת תמונת בסיס עבור המערכת, ולאחר מכן שכבת חבילות מעליה ב [git](https://en.wikipedia.org/wiki/Git)- כמו להתחייב עץ. כאשר המערכת מתעדכנת, מורידים תמונת בסיס חדשה ושכבות העל יוחלו על תמונה חדשה זו.
 
 לאחר השלמת העדכון, תאתחל מחדש את המערכת לפריסה החדשה. `rpm - ostree` שומר שתי פריסות של המערכת, כך שתוכל בקלות לחזור לאחור אם משהו נשבר בפריסה החדשה. יש גם אפשרות להצמיד יותר פריסות לפי הצורך.
 
@@ -161,37 +161,37 @@ Tailsכולל[uBlock Origin](desktop-browsers.md#ublock-origin) בדפדפן Tor
     [:octicons-code-16:](https://github.com/QubesOS/){ .card-link title="קוד מקור" }
     [:octicons-heart-16:](https://www.qubes-os.org/donate/){ .card-link title=לתרומה }
 
-Qubes OS secures the computer by isolating subsystems (e.g., networking, USB, etc.) and applications in separate *qubes*. Should one part of the system be compromised, the extra isolation is likely to protect the rest of the *qubes* and the core system.
+Qubes OS מאבטחת את המחשב על ידי בידוד תת-מערכות (למשל, רשת, USB וכו') ויישומים ב*qubes* נפרדים. אם חלק אחד של המערכת ייפגע, סביר שהבידוד הנוסף יגן על שאר ה*qubes* ועל מערכת הליבה.
 
-For further information about how Qubes works, read our full [Qubes OS overview](os/qubes-overview.md) page.
+למידע נוסף על אופן הפעולה של Qubes, קרא את הדף המלא שלנו [סקירת מערכת ההפעלה Qubes](os/qubes-overview.md).
 
 ### Kicksecure
 
-While we [recommend against](os/linux-overview.md#release-cycle) "perpetually outdated" distributions like Debian for Desktop use in most cases, Kicksecure is a Debian-based operating system which has been hardened to be much more than a typical Linux install.
+בעוד שאנו [ממליצים נגד](os/linux-overview.md#release-cycle) הפצות "מיושנות מתמיד" כמו שימוש בדביאן לשולחן העבודה ברוב המקרים, Kicksecure היא מערכת הפעלה מבוססת דביאן שיש לה הוקשחה להיות הרבה יותר מהתקנת לינוקס טיפוסית.
 
 !!! recommendation
 
-    ![Kicksecure logo](assets/img/linux-desktop/kicksecure.svg){ align=right }
+    ![Kicksecure לוגו](assets/img/linux-desktop/kicksecure.svg){ align=right }
     
-    **Kicksecure**—in oversimplified terms—is a set of scripts, configurations, and packages that substantially reduce the attack surface of Debian. זה מכסה הרבה המלצות לפרטיות והקשחה כברירת מחדל. It also serves as the base OS for [Whonix](#whonix).
+    **Kicksecure** - במונחים פשוטים מדי - היא קבוצה של סקריפטים, תצורות וחבילות שמצמצמות באופן משמעותי את משטח ההתקפה של דביאן. זה מכסה הרבה המלצות לפרטיות והקשחה כברירת מחדל. הוא משמש גם כמערכת ההפעלה הבסיסית עבור [Whonix](#whonix).
     
-    [:octicons-home-16: Homepage](https://www.kicksecure.com/){ .md-button .md-button--primary }
-    [:octicons-eye-16:](https://www.kicksecure.com/wiki/Privacy_Policy){ .card-link title="Privacy Policy" }
-    [:octicons-info-16:](https://www.kicksecure.com/wiki/Documentation){ .card-link title=Documentation }
-    [:octicons-code-16:](https://github.com/Kicksecure){ .card-link title="Source Code" }
-    [:octicons-heart-16:](https://www.kicksecure.com/wiki/Donate){ .card-link title=Contribute }
+    [:octicons-home-16: דף הבית](https://www.kicksecure.com/){ .md-button .md-button--primary }
+    [:octicons-eye-16:](https://www.kicksecure.com/wiki/Privacy_Policy){ .card-link title="מדיניות פרטיות" }
+    [:octicons-info-16:](https://www.kicksecure.com/wiki/Documentation){ .card-link title=תיעוד }
+    [:octicons-code-16:](https://github.com/Kicksecure){ .card-link title="קוד מקור" }
+    [:octicons-heart-16:](https://www.kicksecure.com/wiki/Donate){ .card-link title=לתרומה }
 
 ## קריטריונים
 
-Choosing a Linux distro that is right for you will come down to a huge variety of personal preferences, and this page is **not** meant to be an exhaustive list of every viable distribution. Our Linux overview page has some advice on [choosing a distro](os/linux-overview.md#choosing-your-distribution) in more detail. The distros on *this* page do all generally follow the guidelines we covered there, and all meet these standards:
+בחירת הפצת לינוקס המתאימה לך תסתכם במגוון עצום של העדפות אישיות, ודף זה **לא** נועד להיות רשימה ממצה של כל הפצה בת קיימא. בדף הסקירה הכללית של לינוקס שלנו יש כמה עצות לגבי [בחירת הפצה](os/linux-overview.md#choosing-your-distribution) ביתר פירוט. ההפצות ב*דף זה* עוקבות בדרך כלל אחר ההנחיות שסיקרנו שם, וכולן עומדות בסטנדרטים הבאים:
 
 - חינם וקוד פתוח.
 - מקבל עדכוני תוכנה וליבה קבועים.
-- [Avoids X11](os/linux-overview.md#wayland).
-    - The notable exception here is Qubes, but the isolation issues which X11 typically has are avoided by virtualization. בידוד זה חל רק על אפליקציות * פועל ב- qubes שונים * (מכונות וירטואליות), אפליקציות הפועלות ב- * אותם * qube הם לא מוגנים זה מזה.
+- [נמנע מ-X11](os/linux-overview.md#wayland).
+    - החריג הבולט כאן הוא Qubes, אבל בעיות הבידוד שיש ל-X11 בדרך כלל נמנעות על ידי וירטואליזציה. בידוד זה חל רק על אפליקציות * פועל ב- qubes שונים * (מכונות וירטואליות), אפליקציות הפועלות ב- * אותם * qube הם לא מוגנים זה מזה.
 - תומך בהצפנת דיסק מלא במהלך ההתקנה.
 - לא מקפיא מהדורות רגילות במשך יותר משנה.
-    - We [recommend against](os/linux-overview.md#release-cycle) "Long Term Support" or "stable" distro releases for desktop usage.
+    - אנו [ממליצים נגד](os/linux-overview.md#release-cycle) הפצות "תמיכה לטווח ארוך" או "יציבות" לשימוש בשולחן העבודה.
 - תומך במגוון רחב של חומרה.
 - העדפה לפרויקטים גדולים יותר.
     - שמירה על מערכת הפעלה היא אתגר מרכזי, ולפרויקטים קטנים יותר יש נטייה לטעויות נמנעות יותר, או לעכב עדכונים קריטיים (או גרוע מכך, להיעלם לחלוטין). אנו נשענים לעבר פרויקטים אשר ככל הנראה יהיו בערך 10 שנים מהיום (בין אם זה נובע מגיבוי תאגידי או תמיכה קהילתית משמעותית מאוד), והרחק מפרויקטים שנבנו בעבודת יד או שיש להם מספר מצומצם של מתחזקים.

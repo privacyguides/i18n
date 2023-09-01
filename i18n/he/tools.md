@@ -130,8 +130,8 @@ description: Privacy Guides הוא האתר השקוף והאמין ביותר �
 
 <div class="grid cards" markdown>
 
-- ![addy.io logo](assets/img/email/mini/addy.svg){ .twemoji } [addy.io](email.md#addyio)
-- ![SimpleLogin logo](assets/img/email/simplelogin.svg){ .twemoji } [SimpleLogin](email.md#simplelogin)
+- ![addy.io לוגו](assets/img/email/mini/addy.svg){ .twemoji } [addy.io](email.md#addyio)
+- ![SimpleLogin לוגו](assets/img/email/simplelogin.svg){ .twemoji } [SimpleLogin](email.md#simplelogin)
 
 </div>
 

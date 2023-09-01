@@ -1,14 +1,14 @@
 ---
 title: "סקירה כללית של Qubes"
 icon: simple/qubesos
-description: Qubes is an operating system built around isolating apps within *qubes* (formerly "VMs") for heightened security.
+description: Qubes היא מערכת הפעלה הבנויה סביב בידוד אפליקציות בתוך *qubes* (לשעבר "VMs") לאבטחה מוגברת.
 ---
 
-[**Qubes OS**](../desktop.md#qubes-os) is an open-source operating system which uses the [Xen](https://en.wikipedia.org/wiki/Xen) hypervisor to provide strong security for desktop computing through isolated *qubes*, (which are Virtual Machines). You can assign each *qube* a level of trust based on its purpose. Qubes OS provides security by using isolation. It only permits actions on a per-case basis and therefore is the opposite of [badness enumeration](https://www.ranum.com/security/computer_security/editorials/dumb/).
+[**Qubes OS**](../desktop.md#qubes-os) היא מערכת הפעלה בקוד פתוח המשתמשת ב[Xen](https://en.wikipedia.org/wiki/Xen) היפרוויזר לספק אבטחה חזקה עבור מחשוב שולחני באמצעות *qubes* מבודדים, (אשר הם מכונות וירטואליות). You can assign each *qube* a level of trust based on its purpose. Qubes OS provides security by using isolation. It only permits actions on a per-case basis and therefore is the opposite of [badness enumeration](https://www.ranum.com/security/computer_security/editorials/dumb/).
 
 ## איך עובדת מערכת ההפעלה של Qubes?
 
-Qubes משתמשת ב[מידור](https://www.qubes-os.org/intro/) כדי לשמור על אבטחת המערכת. Qubes נוצרים מתבניות, ברירת המחדל היא עבור Fedora, Debian ו-[Whonix](../desktop.md#whonix). Qubes OS also allows you to create once-use [disposable](https://www.qubes-os.org/doc/how-to-use-disposables/) *qubes*.
+Qubes משתמשת ב[מידור](https://www.qubes-os.org/intro/) כדי לשמור על אבטחת המערכת. Qubes נוצרים מתבניות, ברירת המחדל היא עבור Fedora, Debian ו-[Whonix](../desktop.md#whonix). מערכת ההפעלה Qubes מאפשרת לך גם ליצור [חד פעמי](https://www.qubes-os.org/doc/how-to-use-disposables/) *qubes* לשימוש חד פעמי.
 
 ??? "The term *qubes* is gradually being updated to avoid referring to them as "virtual machines"."
 
@@ -24,7 +24,7 @@ Each qube has a [colored border](https://www.qubes-os.org/screenshots/) that can
 
 ## מדוע עלי להשתמש ב-Qubes?
 
-Qubes OS is useful if your [threat model](../basics/threat-modeling.md) requires strong security and isolation, such as if you think you'll be opening untrusted files from untrusted sources. A typical reason for using Qubes OS is to open documents from unknown sources, but the idea is that if a single qube is compromised it won't affect the rest of the system.
+מערכת ההפעלה Qubes שימושית אם [מודל האיום](../basics/threat-modeling.md) שלך דורש אבטחה ובידוד חזקות, כגון אם אתה חושב שתפתח קבצים לא מהימנים ממקורות לא מהימנים. סיבה טיפוסית לשימוש ב-Qubes OS היא לפתוח מסמכים ממקורות לא ידועים, אבל הרעיון הוא שאם qube בודד ייפגע זה לא ישפיע על שאר המערכת.
 
 Qubes OS utilizes [dom0](https://wiki.xenproject.org/wiki/Dom0) Xen VM for controlling other *qubes* on the host OS, all of which display individual application windows within dom0's desktop environment. There are many uses for this type of architecture. Here are some tasks you can perform. You can see just how much more secure these processes are made by incorporating multiple steps.
 
@@ -32,14 +32,14 @@ Qubes OS utilizes [dom0](https://wiki.xenproject.org/wiki/Dom0) Xen VM for contr
 
 אתה יכול [להעתיק ולהדביק טקסט](https://www.qubes-os.org/doc/how-to-copy-and-paste-text/) באמצעות `qvm-copy -to-vm` או ההוראות שלהלן:
 
-1. Press **Ctrl+C** to tell the *qube* you're in that you want to copy something.
-2. Press **Ctrl+Shift+C** to tell the *qube* to make this buffer available to the global clipboard.
-3. Press **Ctrl+Shift+V** in the destination *qube* to make the global clipboard available.
-4. Press **Ctrl+V** in the destination *qube* to paste the contents in the buffer.
+1. הקש על **Ctrl+C** כדי לומר ל-*qube* שאתה נמצא בו שאתה רוצה להעתיק משהו.
+2. הקש על **Ctrl+Shift+C** כדי לומר ל*qube* להפוך את המאגר הזה לזמין ללוח הגלובלי.
+3. הקש על **Ctrl+Shift+V** ביעד *qube* כדי להפוך את הלוח הגלובלי לזמין.
+4. לחץ על **Ctrl+V** ביעד *qube* כדי להדביק את התוכן במאגר.
 
 ### החלפת קבצים
 
-To copy and paste files and directories (folders) from one *qube* to another, you can use the option **Copy to Other AppVM...** or **Move to Other AppVM...**. ההבדל הוא שהאפשרות ה**העבר** תמחק את הקובץ המקורי. Either option will protect your clipboard from being leaked to any other *qubes*. This is more secure than air-gapped file transfer. An air-gapped computer will still be forced to parse partitions or file systems. זה לא נדרש עם מערכת ההעתקה inter-qube.
+כדי להעתיק ולהדביק קבצים וספריות (תיקיות) מ*qube* אחד לאחר, אתה יכול להשתמש באפשרות **העתק ל-AppVM אחר...** או **העבר ל-AppVM אחר...**. ההבדל הוא שהאפשרות ה**העבר** תמחק את הקובץ המקורי. Either option will protect your clipboard from being leaked to any other *qubes*. This is more secure than air-gapped file transfer. An air-gapped computer will still be forced to parse partitions or file systems. זה לא נדרש עם מערכת ההעתקה inter-qube.
 
 ??? "Qubes do not have their own filesystems."
 
@@ -53,7 +53,7 @@ The [qrexec framework](https://www.qubes-os.org/doc/qrexec/) is a core part of Q
 
 למידע נוסף, אנו ממליצים לך לעיין בדפי התיעוד הנרחבים של Qubes OS הממוקמים ב[אתר האינטרנט של Qubes OS](https://www.qubes-os.org/doc/). ניתן להוריד עותקים לא מקוונים מ[מאגר התיעוד](https://github.com/QubesOS/qubes-doc) של Qubes OS.
 
-- [Arguably the world's most secure operating system](https://www.opentech.fund/news/qubes-os-arguably-the-worlds-most-secure-operating-system-motherboard/) (Open Technology Fund)
-- [Software compartmentalization vs. physical separation](https://invisiblethingslab.com/resources/2014/Software_compartmentalization_vs_physical_separation.pdf) (J. Rutkowska)
-- [Partitioning my digital life into security domains](https://blog.invisiblethings.org/2011/03/13/partitioning-my-digital-life-into.html) (J. Rutkowska)
-- [Related Articles](https://www.qubes-os.org/news/categories/#articles) (Qubes OS)
+- [ללא ספק מערכת ההפעלה המאובטחת ביותר בעולם](https://www.opentech.fund/news/qubes-os-arguably-the-worlds-most-secure-operating-system-motherboard/) (Open Technology Fund)
+- [מידור תוכנה לעומת הפרדה פיזית](https://invisiblethingslab.com/resources/2014/Software_compartmentalization_vs_physical_separation.pdf) (J. Rutkowska)
+- [חלוקת החיים הדיגיטליים שלי לתחומי אבטחה](https://blog.invisiblethings.org/2011/03/13/partitioning-my-digital-life-into.html) (J. Rutkowska)
+- [מאמרים קשורים](https://www.qubes-os.org/news/categories/#articles) (Qubes OS)
