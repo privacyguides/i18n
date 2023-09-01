@@ -5,37 +5,37 @@ icon: 'material/account-plus'
 description: Creating accounts online is practically an internet necessity, take these steps to make sure you stay private.
 ---
 
-Often people sign up for services without thinking. Maybe it's a streaming service so you can watch that new show everyone's talking about, or an account that gives you a discount for your favorite fast food place. Whatever the case may be, you should consider the implications for your data now and later on down the line.
+Çoğu zaman insanlar düşünmeden hizmetlere kaydolurlar. Bu, herkesin konuştuğu yeni diziyi izleyebileceğiniz bir yayın hizmeti ya da en sevdiğiniz fast food restoranında indirim sağlayan bir hesap olabilir. Her ne için olursa olsun, şimdi ve daha sonrası için verileriniz üzerindeki etkilerini göz önünde bulundurmalısınız.
 
-There are risks associated with every new service that you use. Data breaches; disclosure of customer information to third parties; rogue employees accessing data; all are possibilities that must be considered when giving your information out. You need to be confident that you can trust the service, which is why we don't recommend storing valuable data on anything but the most mature and battle-tested products. That usually means services which provide E2EE and have undergone a cryptographic audit. An audit increases assurance that the product was designed without glaring security issues caused by an inexperienced developer.
+Kullandığınız her yeni hizmetle ilgili riskler vardır. Veri ihlalleri; müşteri bilgilerinin üçüncü taraflara ifşa edilmesi; kötü niyetli çalışanların verilere erişmesi; tüm bunlar bilgilerinizi dışarıya verirken göz önünde bulundurulması gereken olasılıklardır. Hizmete güvenebileceğinizden emin olmanız gerekir. Bu nedenle değerli verilerinizi olgun ve test edilmiş olanlar dışında herhangi bir yerde saklamanızı önermiyoruz. Bu genellikle uçtan uca şifreleme (E2EE) sağlayan ve kriptografik denetimden geçmiş hizmetler anlamına gelir. Denetim, ürünün deneyimsiz bir geliştiricinin neden olduğu göze çarpan güvenlik sorunları olmadan tasarlandığına dair güvenceyi artırır.
 
-It can also be difficult to delete the accounts on some services. Sometimes [overwriting data](account-deletion.md#overwriting-account-information) associated with an account can be possible, but in other cases the service will keep an entire history of changes to the account.
+Bazı hizmetlerde hesapları silmek de zor olabilir. Bazen bir hesapla ilişkili [verilerin üzerine yazmak](account-deletion.md#overwriting-account-information) mümkün olabilir. Ancak diğer durumlarda hizmet, hesapta yapılan değişikliklerin tüm geçmişini saklar.
 
-## Terms of Service & Privacy Policy
+## Hizmet Koşulları & Gizlilik Politikası
 
-The ToS are the rules that you agree to follow when using the service. With larger services these rules are often enforced by automated systems. Sometimes these automated systems can make mistakes. For example, you may be banned or locked out of your account on some services for using a VPN or VOIP number. Appealing such bans is often difficult, and involves an automated process too, which isn't always successful. This would be one of the reasons why we wouldn't suggest using Gmail for email as an example. Email is crucial for access to other services you might have signed up for.
+ToS, hizmeti kullanırken uymayı kabul ettiğiniz kurallardır. Daha büyük hizmetlerde bu kurallar genellikle otomatik sistemler tarafından uygulanır. Bazen bu otomatik sistemler hata yapabilir. Örneğin, bir VPN veya VOIP numarası kullandığınız için bazı hizmetlerde hesabınız yasaklanabilir veya kilitlenebilir. Bu tür yasaklara itiraz etmek genellikle zordur ve her zaman başarılı olmayan otomatik bir süreci de içerir. Örnek olarak e-posta için Gmail'i kullanmanızı önermememizin nedenlerinden biri de budur. E-posta, kaydolduğunuz diğer hizmetlere erişim için çok önemlidir.
 
-The Privacy Policy is how the service says they will use your data and it is worth reading so that you understand how your data will be used. A company or organization might not be legally obligated to follow everything contained in the policy (it depends on the jurisdiction). We would recommend having some idea what your local laws are and what they permit a provider to collect.
+Gizlilik Politikası, hizmetin verilerinizi nasıl kullanacağını söyler, ve verilerinizin nasıl kullanılacağını anlamanız için okumaya değerdir. Bir şirket veya kuruluş yasal olarak politikada yer alan her şeye uymak zorunda olmayabilir (yargı yetkisine bağlı). Yerel yasalarınızın ne olduğu ve bir sağlayıcının neleri toplamasına izin verdiği konusunda fikir sahibi olmanızı tavsiye ederiz.
 
-We recommend looking for particular terms such as "data collection", "data analysis", "cookies", "ads" or "3rd-party" services. Sometimes you will be able to opt-out from data collection or from sharing your data, but it is best to choose a service that respects your privacy from the start.
+"Veri toplama", "veri analizi", "çerezler", "reklamlar" veya "3. taraf" hizmetler gibi belirli terimleri aramanızı öneririz. Bazen veri toplamayı veya verilerinizi paylaşmayı devre dışı bırakabilirsiniz, ancak en iyisi en başından gizliliğinize saygı duyan bir hizmet seçmektir.
 
-Keep in mind you're also placing your trust in the company or organization and that they will comply with their own privacy policy.
+Aynı zamanda şirkete veya kuruluşa kendi gizlilik politikalarına uyacaklarına dair güvendiğinizi unutmayın.
 
-## Authentication methods
+## Kimlik Doğrulama yöntemleri
 
-There are usually multiple ways to sign up for an account, each with their own benefits and drawbacks.
+Bir hesap oluşturmak için genellikle birden fazla yol olur, ve her birinin kendi avatajları ve dezavantajları vardır.
 
-### Email and password
+### E-posta ve şifre
 
-The most common way to create a new account is by an email address and password. When using this method, you should use a password manager and follow [best practices](passwords-overview.md) regarding passwords.
+Yeni bir hesap oluşturmanın en yaygın yolu e-posta adresi ve paroladır. Bu yöntemi kullanırken bir parola yöneticisi kullanmalı ve parolalarla ilgili [en iyi uygulamaları](passwords-overview.md)takip etmelisiniz.
 
-!!! tip
+!!! ipucu
 
-    You can use your password manager to organize other authentication methods too! Just add the new entry and fill the appropriate fields, you can add notes for things like security questions or a backup key.
+    Parola yöneticinizi diğer kimlik doğrulama yöntemlerini düzenlemek için de kullanabilirsiniz! Yeni bir giriş ekleyin ve uygun alanları doldurun, güvenlik soruları veya yedek anahtar gibi şeyler için notlar ekleyebilirsiniz.
 
-You will be responsible for managing your login credentials. For added security, you can set up [MFA](multi-factor-authentication.md) on your accounts.
+Oturum açma kimlik bilgilerinizi yönetmekten siz sorumlu olacaksınız. Daha fazla güvenlik için hesaplarınızda [MFA](multi-factor-authentication.md) ayarlayabilirsiniz.
 
-[Recommended password managers](../passwords.md ""){.md-button}
+[Önerilen parola yöneticileri](../passwords.md ""){.md-button}
 
 #### Email aliases
 
