@@ -1,5 +1,5 @@
 ---
-title: Visión general de Android
+title: Vista general de Android
 icon: simple/android
 description: Android es un sistema operativo de código abierto con fuertes medidas de seguridad, lo que lo convierte en nuestra primera opción para teléfonos.
 ---
