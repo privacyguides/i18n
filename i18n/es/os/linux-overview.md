@@ -93,35 +93,35 @@ Recomendamos encarecidamente **no ** utilizar el núcleo Linux-libre, ya que [el
 
 ### Cifrado de Unidad
 
-La mayoría de las distribuciones de Linux tienen una opción dentro de su instalador para habilitar [LUKS](../encryption.md#linux-unified-key-setup) FDE. Si esta opción no se configura en el momento de la instalación, tendrá que hacer una copia de seguridad de sus datos y volver a instalarla, ya que el cifrado se aplica después de [particionar el disco](https://en.wikipedia.org/wiki/Disk_partitioning), pero antes de formatear [el sistema de archivos](https://en.wikipedia.org/wiki/File_system). También te sugerimos que borres de forma segura tu dispositivo de almacenamiento:
+La mayoría de las distribuciones de Linux tienen una opción dentro de su instalador para habilitar [LUKS](../encryption.md#linux-unified-key-setup) FDE. Si esta opción no se configura en el momento de la instalación, tendrás que hacer una copia de seguridad de tus datos y volver a instalarla, ya que el cifrado se aplica después de [particionar el disco](https://en.wikipedia.org/wiki/Disk_partitioning), pero antes de formatear [el sistema de archivos](https://en.wikipedia.org/wiki/File_system). También te sugerimos que borres de forma segura tu dispositivo de almacenamiento:
 
 - [Borrado Seguro de Datos :material-arrow-right-drop-circle:](https://blog.privacyguides.org/2022/05/25/secure-data-erasure/)
 
 ### Swap
 
-Considere utilizar [ZRAM](https://wiki.archlinux.org/title/Zram#Using_zram-generator) en lugar de un archivo o partición de swap tradicional para evitar la escritura de datos de memoria potencialmente sensibles en el almacenamiento persistente (y mejorar el rendimiento). Las distribuciones basadas en Fedora [utilizan ZRAM por defecto](https://fedoraproject.org/wiki/Changes/SwapOnZRAM).
+Considera utilizar [ZRAM](https://wiki.archlinux.org/title/Zram#Using_zram-generator) en lugar de un archivo o partición de swap tradicional para evitar la escritura de datos de memoria potencialmente sensibles en el almacenamiento persistente (y mejorar el rendimiento). Las distribuciones basadas en Fedora [utilizan ZRAM por defecto](https://fedoraproject.org/wiki/Changes/SwapOnZRAM).
 
 Si necesitas la función de suspensión en disco (hibernación), tendrás que utilizar un archivo o partición de swap tradicional. Asegúrate de que cualquier espacio de swap que tengas en un dispositivo de almacenamiento persistente esté [cifrado ](https://wiki.archlinux.org/title/Dm-crypt/Swap_encryption) como mínimo para mitigar algunas de estas amenazas.
 
 ### Wayland
 
-We recommend using a desktop environment that supports the [Wayland](https://en.wikipedia.org/wiki/Wayland_(display_server_protocol)) display protocol, as it was developed with security [in mind](https://lwn.net/Articles/589147/). Its predecessor ([X11](https://en.wikipedia.org/wiki/X_Window_System)) does not support GUI isolation, which allows any window to [record, log, and inject inputs in other windows](https://blog.invisiblethings.org/2011/04/23/linux-security-circus-on-gui-isolation.html), making any attempt at sandboxing futile. While there are options to do nested X11 such as [Xpra](https://en.wikipedia.org/wiki/Xpra) or [Xephyr](https://en.wikipedia.org/wiki/Xephyr), they often come with negative performance consequences, and are neither convenient to set up nor preferable over Wayland.
+Recomendamos utilizar un entorno de escritorio compatible con el protocolo de visualización [Wayland](https://en.wikipedia.org/wiki/Wayland_(display_server_protocol)), ya que se ha desarrollado teniendo [en cuenta](https://lwn.net/Articles/589147/) la seguridad. Su predecesor ([X11](https://en.wikipedia.org/wiki/X_Window_System)) no soporta el aislamiento GUI, lo que permite a cualquier ventana [grabar, registrar e inyectar entradas en otras ventanas](https://blog.invisiblethings.org/2011/04/23/linux-security-circus-on-gui-isolation.html), haciendo inútil cualquier intento de aislamiento. Aunque hay opciones para hacer X11 anidado como [Xpra](https://en.wikipedia.org/wiki/Xpra) o [Xephyr](https://en.wikipedia.org/wiki/Xephyr), a menudo vienen con consecuencias negativas en el rendimiento, y no son ni convenientes de configurar ni preferibles sobre Wayland.
 
 Afortunadamente, entornos comunes como [GNOME](https://www.gnome.org), [KDE](https://kde.org), y el gestor de ventanas [Sway](https://swaywm.org) tienen soporte para Wayland. Algunas distribuciones como Fedora y Tumbleweed lo utilizan por defecto, y es posible que otras lo hagan en el futuro, ya que X11 está en [modo de mantenimiento duro](https://www.phoronix.com/news/X.Org-Maintenance-Mode-Quickly). Si estás utilizando uno de esos entornos es tan fácil como seleccionar la sesión "Wayland" en el gestor de pantalla del escritorio ([GDM](https://en.wikipedia.org/wiki/GNOME_Display_Manager), [SDDM](https://en.wikipedia.org/wiki/Simple_Desktop_Display_Manager)).
 
 Estamos **en contra** de usar entornos de escritorio o gestores de ventanas que no tengan soporte para Wayland, como Cinnamon (por defecto en Linux Mint), Pantheon (por defecto en Elementary OS), MATE, Xfce e i3.
 
-### Firmware propietario (actualizaciones de microcódigo)
+### Firmware de Propietario (Actualizaciones de Microcódigo)
 
-Some Linux distributions (such as [Linux-libre](https://en.wikipedia.org/wiki/Linux-libre)-based or DIY distros) don’t come with the proprietary [microcode](https://en.wikipedia.org/wiki/Microcode) updates which patch critical security vulnerabilities. Algunos ejemplos notables de estas vulnerabilidades incluyen [Spectre](https://en.wikipedia.org/wiki/Spectre_(security_vulnerability)), [Meltdown](https://en.wikipedia.org/wiki/Meltdown_(security_vulnerability)), [SSB](https://en.wikipedia.org/wiki/Speculative_Store_Bypass), [Foreshadow](https://en.wikipedia.org/wiki/Foreshadow), [MDS](https://en.wikipedia.org/wiki/Microarchitectural_Data_Sampling), [SWAPGS](https://en.wikipedia.org/wiki/SWAPGS_(security_vulnerability)), y otras [vulnerabilidades de hardware](https://www.kernel.org/doc/html/latest/admin-guide/hw-vuln/index.html).
+Algunas distribuciones de Linux (como las basadas en [Linux-libre](https://en.wikipedia.org/wiki/Linux-libre)o las DIY) no incluyen las actualizaciones de [microcódigo](https://en.wikipedia.org/wiki/Microcode) de propietario que parchean vulnerabilidades de seguridad críticas. Algunos ejemplos notables de estas vulnerabilidades incluyen [Spectre](https://en.wikipedia.org/wiki/Spectre_(security_vulnerability)), [Meltdown](https://en.wikipedia.org/wiki/Meltdown_(security_vulnerability)), [SSB](https://en.wikipedia.org/wiki/Speculative_Store_Bypass), [Foreshadow](https://en.wikipedia.org/wiki/Foreshadow), [MDS](https://en.wikipedia.org/wiki/Microarchitectural_Data_Sampling), [SWAPGS](https://en.wikipedia.org/wiki/SWAPGS_(security_vulnerability)), y otras [vulnerabilidades de hardware](https://www.kernel.org/doc/html/latest/admin-guide/hw-vuln/index.html).
 
-We **highly recommend** that you install microcode updates, as they contain important security patches for the CPU which can not be fully mitigated in software alone. Tanto Fedora como openSUSE tienen las actualizaciones de microcódigo aplicadas por defecto.
+Nosotros **recomendamos encarecidamente** que instales las actualizaciones de microcódigo, ya que contienen importantes parches de seguridad para la CPU que no pueden mitigarse totalmente sólo con software. Tanto Fedora como openSUSE tienen las actualizaciones de microcódigo aplicadas por defecto.
 
 ### Actualizaciones
 
-La mayoría de las distribuciones de Linux instalan automáticamente las actualizaciones o le recuerdan que debe hacerlo. Es importante mantener el sistema operativo actualizado para que el software esté parcheado cuando se detecte una vulnerabilidad.
+La mayoría de las distribuciones de Linux instalan automáticamente las actualizaciones o te recuerdan que debes hacerlo. Es importante mantener el sistema operativo actualizado para que el software esté parcheado cuando se detecte una vulnerabilidad.
 
-Some distributions (particularly those aimed at advanced users) are more bare bones and expect you to do things yourself (e.g. Arch or Debian). Será necesario ejecutar manualmente el "gestor de paquetes" (`apt`, `pacman`, `dnf`, etc.) para recibir actualizaciones de seguridad importantes.
+Algunas distribuciones (especialmente las dirigidas a usuarios avanzados) son más básicas y esperan que hagas las cosas tú mismo (por ejemplo, Arch o Debian). Con estas distribuciones será necesario ejecutar manualmente el "gestor de paquetes" (`apt`, `pacman`, `dnf`, etc.) para recibir actualizaciones de seguridad importantes.
 
 Además, algunas distribuciones no descargan automáticamente las actualizaciones de firmware. Para eso necesitarás instalar [`fwupd`](https://wiki.archlinux.org/title/Fwupd).
 
@@ -129,7 +129,7 @@ Además, algunas distribuciones no descargan automáticamente las actualizacione
 
 ### Aleatorización de direcciones Mac
 
-Many desktop Linux distributions (Fedora, openSUSE, etc.) come with [NetworkManager](https://en.wikipedia.org/wiki/NetworkManager) to configure Ethernet and Wi-Fi settings.
+Muchas distribuciones Linux de escritorio (Fedora, openSUSE, etc.) vienen con [NetworkManager](https://en.wikipedia.org/wiki/NetworkManager) para configurar los ajustes de Ethernet y Wi-Fi.
 
 Es posible [aleatorizar](https://fedoramagazine.org/randomize-mac-address-nm/) la [dirección MAC](https://en.wikipedia.org/wiki/MAC_address) cuando se utiliza NetworkManager. Esto proporciona un poco más de privacidad en las redes Wi-Fi, ya que hace más difícil rastrear dispositivos específicos en la red a la que estás conectado. [**No**](https://papers.mathyvanhoef.com/wisec2016.pdf) te hace anónimo.
 
@@ -137,7 +137,7 @@ Recomendamos cambiar la configuración a **aleatoria** en lugar de **estable**, 
 
 Si estás utilizando [systemd-networkd](https://en.wikipedia.org/wiki/Systemd#Ancillary_components), necesitarás configurar [`MACAddressPolicy=random`](https://www.freedesktop.org/software/systemd/man/systemd.link.html#MACAddressPolicy=) que habilitará [RFC 7844 (Perfiles de anonimato para clientes DHCP)](https://www.freedesktop.org/software/systemd/man/systemd.network.html#Anonymize=).
 
-MAC address randomization is primarily beneficial for Wi-Fi connections. For Ethernet connections, randomizing your MAC address provides little (if any) benefit, because a network administrator can trivially identify your device by other means (such as inspecting the port you are connected to on the network switch). La aleatorización de las direcciones MAC Wi-Fi depende del soporte del firmware de la Wi-Fi.
+La aleatorización de direcciones MAC es beneficiosa sobre todo para las conexiones Wi-Fi. En el caso de las conexiones Ethernet, aleatorizar la dirección MAC aporta pocas ventajas (si es que aporta alguna), ya que un administrador de red puede identificar trivialmente tu dispositivo por otros medios (como inspeccionar el puerto al que está conectado en el conmutador de red). La aleatorización de las direcciones MAC Wi-Fi depende del soporte del firmware de la Wi-Fi.
 
 ### Otros identificadores
 
