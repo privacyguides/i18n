@@ -313,14 +313,14 @@ L'utilisation d'un service d'alias nécessite de faire confiance à la fois à v
     [:octicons-code-16:](https://github.com/anonaddy){ .card-link title="Code source" }
     [:octicons-heart-16:](https://addy.io/donate){ .card-link title=Contribuer }
     
-    ??? downloads
+    ??? downloads "Téléchargements"
     
         - [:simple-android: Android](https://addy.io/faq/#is-there-an-android-app)
         - [:material-apple-ios: iOS](https://addy.io/faq/#is-there-an-ios-app)
         - [:simple-firefoxbrowser: Firefox](https://addons.mozilla.org/firefox/addon/addy_io/)
         - [:simple-googlechrome: Chrome](https://chrome.google.com/webstore/detail/addyio-anonymous-email-fo/iadbdpnoknmbdeolbapdackdcogdmjpe)
 
-The number of shared aliases (which end in a shared domain like @addy.io) that you can create is limited to 10 on addy.io's free plan, 50 on their $1/month plan and unlimited on the $4/month plan (billed $3 for a year). You can create unlimited standard aliases (which end in a domain like @[username].addy.io or a custom domain on paid plans), however, as previously mentioned, this can be detrimental to privacy because people can trivially tie your standard aliases together based on the domain name alone. They are useful where a shared domain might be blocked by a service.
+Le nombre d'alias partagés (qui se terminent par un domaine partagé comme @addy.io) que vous pouvez créer est limité à 10 sur l'offre gratuite d'addy.io, à 50 sur leur offre à $1/mois et illimité sur leur offre à $4/mois (facturé $3 pour un an). You can create unlimited standard aliases (which end in a domain like @[username].addy.io or a custom domain on paid plans), however, as previously mentioned, this can be detrimental to privacy because people can trivially tie your standard aliases together based on the domain name alone. They are useful where a shared domain might be blocked by a service.
 
 Fonctions gratuites notables :
 
