@@ -320,14 +320,14 @@ L'utilisation d'un service d'alias nécessite de faire confiance à la fois à v
         - [:simple-firefoxbrowser: Firefox](https://addons.mozilla.org/firefox/addon/addy_io/)
         - [:simple-googlechrome: Chrome](https://chrome.google.com/webstore/detail/addyio-anonymous-email-fo/iadbdpnoknmbdeolbapdackdcogdmjpe)
 
-Le nombre d'alias partagés (qui se terminent par un domaine partagé comme @addy.io) que vous pouvez créer est limité à 10 sur l'offre gratuite d'addy.io, à 50 sur leur offre à $1/mois et illimité sur leur offre à $4/mois (facturé $3 pour un an). You can create unlimited standard aliases (which end in a domain like @[username].addy.io or a custom domain on paid plans), however, as previously mentioned, this can be detrimental to privacy because people can trivially tie your standard aliases together based on the domain name alone. They are useful where a shared domain might be blocked by a service.
+Le nombre d'alias partagés (qui se terminent par un domaine partagé comme @addy.io) que vous pouvez créer est limité à 10 sur l'offre gratuite d'addy.io, à 50 sur leur offre à $1/mois et illimité sur leur offre à $4/mois (facturé $3 pour un an). Vous pouvez créer un nombre illimité d'alias standard (qui se terminent par un domaine tel que @[nomdutilisateur].addy.io ou un domaine personnalisé sur les offres payantes), mais, comme nous l'avons déjà mentionné, cela peut nuire à la confidentialité car les gens peuvent trivialement relier vos alias standard en se basant sur le seul nom de domaine. Ils sont utiles lorsqu'un domaine partagé peut être bloqué par un service.
 
 Fonctions gratuites notables :
 
 - [x] 10 Alias partagés
 - [x] Alias standard illimités
 - [ ] Pas de réponses sortantes
-- [x] 1 Recipient Mailboxes
+- [x] 1 Boîte mail de réception
 - [x] Chiffrement automatique PGP
 
 ### SimpleLogin
@@ -343,7 +343,7 @@ Fonctions gratuites notables :
     [:octicons-info-16:](https://simplelogin.io/docs/){ .card-link title=Documentation}
     [:octicons-code-16:](https://github.com/simple-login){ .card-link title="Code source" }
     
-    ??? downloads
+    ??? downloads "Téléchargements"
     
         - [:simple-googleplay: Google Play](https://play.google.com/store/apps/details?id=io.simplelogin.android)
         - [:simple-appstore: App Store](https://apps.apple.com/app/id1494359858)
