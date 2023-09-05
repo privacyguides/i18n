@@ -276,8 +276,8 @@ Un service d'alias d'emails vous permet de générer facilement une nouvelle adr
 
 <div class="grid cards" markdown>
 
-- ![addy.io logo](assets/img/email/mini/addy.svg){ .twemoji } [addy.io](email.md#addyio)
-- ![SimpleLogin logo](assets/img/email/simplelogin.svg){ .twemoji } [SimpleLogin](email.md#simplelogin)
+- ![logo addy.io](assets/img/email/mini/addy.svg){ .twemoji } [addy.io](email.md#addyio)
+- ![logo SimpleLogin](assets/img/email/simplelogin.svg){ .twemoji } [SimpleLogin](email.md#simplelogin)
 
 </div>
 
@@ -302,16 +302,16 @@ L'utilisation d'un service d'alias nécessite de faire confiance à la fois à v
 
 !!! recommendation
 
-    ![addy.io logo](assets/img/email/addy.svg#only-light){ align=right }
-    ![addy.io logo](assets/img/email/addy-dark.svg#only-dark){ align=right }
+    ![logo addy.io](assets/img/email/addy.svg#only-light){ align=right }
+    ![logo addy.io](assets/img/email/addy-dark.svg#only-dark){ align=right }
     
-    **addy.io** lets you create 10 domain aliases on a shared domain for free, or unlimited "standard" aliases which are less anonymous.
+    **addy.io** vous permet de créer gratuitement 10 alias de domaine sur un domaine partagé, ou un nombre illimité d'alias "standard" qui sont moins anonymes.
     
-    [:octicons-home-16: Homepage](https://addy.io){ .md-button .md-button--primary }
-    [:octicons-eye-16:](https://addy.io/privacy){ .card-link title="Privacy Policy" }
+    [:octicons-home-16: Page d'accueil](https://addy.io){ .md-button .md-button--primary }
+    [:octicons-eye-16:](https://addy.io/privacy){ .card-link title="Politique de confidentialité" }
     [:octicons-info-16:](https://app.addy.io/docs){ .card-link title=Documentation}
-    [:octicons-code-16:](https://github.com/anonaddy){ .card-link title="Source Code" }
-    [:octicons-heart-16:](https://addy.io/donate){ .card-link title=Contribute }
+    [:octicons-code-16:](https://github.com/anonaddy){ .card-link title="Code source" }
+    [:octicons-heart-16:](https://addy.io/donate){ .card-link title=Contribuer }
     
     ??? downloads
     
