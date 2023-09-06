@@ -36,107 +36,107 @@ Alternativamente, puedes utilizar una utilidad como [macOS Enterprise Privileges
 
 ### iCloud
 
-The majority of privacy and security concerns with Apple products are related to their *cloud services*, not their hardware or software. When you use Apple services like iCloud, most of your information is stored on their servers and secured with keys *which Apple has access to* by default. This level of access has occasionally been abused by law enforcement to get around the fact that your data is otherwise securely encrypted on your device, and of course Apple is vulnerable to data breaches like any other company.
+La mayoría de los problemas de privacidad y seguridad de los productos Apple están relacionados con sus *servicios en la nube*, no con su hardware o software. Cuando utilizas servicios de Apple como iCloud, la mayor parte de tu información se almacena en sus servidores y se protege con claves *a las que Apple tiene acceso* por defecto. En ocasiones, las fuerzas de seguridad han abusado de este nivel de acceso para eludir el hecho de que tus datos están cifrados de forma segura en tu dispositivo y, por supuesto, Apple es vulnerable a las filtraciones de datos como cualquier otra empresa.
 
-Therefore, if you use iCloud you should [enable **Advanced Data Protection**](https://support.apple.com/HT212520). This encrypts nearly all of your iCloud data with keys stored on your devices (end-to-end encryption), rather than Apple's servers, so that your iCloud data is secured in the event of a data breach, and otherwise hidden from Apple.
+Por lo tanto, si utilizas iCloud, deberías activar la [ **Protección de Datos Avanzada**](https://support.apple.com/HT212520). Esto encripta casi todos tus datos de iCloud con claves almacenadas en tus dispositivos (encriptación de extremo a extremo), en lugar de en los servidores de Apple, de modo que tus datos de iCloud están protegidos en caso de violación de datos y, por lo demás, ocultos a Apple.
 
-### System Settings
+### Ajustes del Sistema
 
-There are a number of built-in settings you should confirm or change to harden your system. Open the **Settings** app:
+Hay una serie de configuraciones integradas que deberías confirmar o cambiar para reforzar tu sistema. Abre la aplicación **Ajustes**:
 
 #### Bluetooth
 
-- [ ] Uncheck **Bluetooth** (unless you are currently using it)
+- [ ] Desmarca **Bluetooth** (a menos que lo estés utilizando actualmente)
 
-#### Network
+#### Red
 
-Depending on if you are using **Wi-Fi** or **Ethernet** (denoted by a green dot and the word "connected"), click on the corresponding icon.
+Dependiendo de si estás utilizando **Wi-Fi** o **Ethernet** (indicado con un punto verde y la palabra "conectado"), haz clic en el icono correspondiente.
 
-Click on the "Details" button by your network name:
+Haz clic en el botón "Detalles" junto al nombre de tu red:
 
-- [x] Check **Limit IP address tracking**
+- [x] Selecciona **Limitar rastreo de dirección IP**
 
 ##### Firewall
 
-Your firewall blocks unwanted network connections. The stricter your firewall settings are, the more secure your Mac is. However, certain services will be blocked. You should configure your firewall to be as strict as you can without blocking services you use.
+Tu cortafuegos bloquea conexiones de red no deseadas. Cuanto más estricta sea la configuración de tu cortafuegos, más seguro estará su Mac. Sin embargo, algunos servicios estarán bloqueados. Debes configurar tu cortafuegos para que sea lo más estricto posible sin bloquear los servicios que utilizas.
 
-- [x] Check **Firewall**
+- [x] Selecciona **Firewall**
 
-Click the **Options** button:
+Haz clic en el botón **Opciones**:
 
-- [x] Check **Block all incoming connections**
+- [x] Selecciona **Bloquear todas las conexiones entrantes**
 
-If this configuration is too strict, you can come back and uncheck this. However, macOS will typically prompt you to allow incoming connections for an app if the app requests it.
+Si esta configuración es demasiado estricta, puedes volver y desmarcarla. Sin embargo, macOS normalmente te pedirá que permitas conexiones entrantes para una aplicación si la aplicación lo solicita.
 
 #### General
 
-By default, your device name will be something like "[your name]'s iMac". Because this name is publicly broadcast on your network, you'll want to change your device name to something generic like "Mac".
+Por defecto, el nombre de tu dispositivo será algo así como "iMac de [tu nombre]". Dado que este nombre se difunde públicamente en tu red, querrás cambiar el nombre de tu dispositivo por algo genérico como "Mac".
 
-Click on **About** and type your desired device name into the **Name** field.
+Haz clic en **Acerca de** y escribe el nombre del dispositivo que desees en el campo **Nombre**.
 
-##### Software Updates
+##### Actualizaciones de Software
 
-You should automatically install all available updates to make sure your Mac has the latest security fixes.
+Deberías instalar automáticamente todas las actualizaciones disponibles para asegurarte de que tu Mac cuenta con las últimas correcciones de seguridad.
 
-Click the small :material-information-outline: icon next to **Automatic Updates**:
+Haz clic en el pequeño :material-information-outline: icono situado junto a **Actualizaciones Automáticas**:
 
-- [x] Check **Check for updates**
+- [x] Selecciona **Buscar actualizaciones**
 
-- [x] Check **Download new updates when available**
+- [x] Selecciona **Descargar las actualizaciones nuevas cuando estén disponibles**
 
-- [x] Check **Install macOS updates**
+- [x] Selecciona **Instalar actualizaciones de macOS**
 
-- [x] Check **Install application updates from the App Store**
+- [x] Selecciona **Instalar actualizaciones de aplicaciones de App Store**
 
-- [x] Check **Install Security Responses and system files**
+- [x] Selecciona **Instalar respuestas de seguridad y archivos del sistema**
 
-#### Privacidad & Seguridad
+#### Privacidad y Seguridad
 
-Whenever an application requests a permission, it will show up here. You can decide which applications you want to allow or deny specific permissions.
+Siempre que una aplicación solicite un permiso, aparecerá aquí. Puedes decidir a qué aplicaciones deseas permitir o denegar permisos específicos.
 
-##### Location Services
+##### Servicios de Localización
 
-You can individually allow location services per-app. If you don't need apps to use your location, turning off location services entirely is the most private option.
+Puedes permitir individualmente los servicios de localización por aplicación. Si no necesitas que las aplicaciones utilicen tu ubicación, desactivar por completo los servicios de localización es la opción más privada.
 
-- [ ] Uncheck **Location Services**
+- [ ] Desactiva **Localización**
 
-##### Analytics & Improvements
+##### Análisis y Mejoras
 
-Decide whether you want to share analytics data with Apple and developers.
+Decide si quieres compartir datos analíticos con Apple y los desarrolladores.
 
-- [ ] Uncheck **Share Mac Analytics**
+- [ ] Desactiva **Compartir análisis del Mac**
 
-- [ ] Uncheck **Improve Siri & Dictation**
+- [ ] Desactiva **Mejorar Siri y Dictado**
 
-- [ ] Uncheck **Share with app developers**
+- [ ] Desactiva **Compartir con los desarrolladores de las apps**
 
-- [ ] Uncheck **Share iCloud Analytics** (visible if you are signed in to iCloud)
+- [ ] Desactiva **Compartir Análisis (iCloud)** (visible si has iniciado sesión en iCloud)
 
-##### Apple Advertising
+##### Publicidad de Apple
 
-Decide whether you want personalized ads based on your usage.
+Decide si quieres anuncios personalizados en función de tu uso.
 
-- [ ] Uncheck **Personalized Ads**
+- [ ] Desactiva **Anuncios Personalizados**
 
 ##### Seguridad
 
-Apps from the App Store are subject to stricter security guidelines, such as stricter sandboxing. If the only apps you need are available from the App Store, change the **Allow applications downloaded from** setting to **App Store** to prevent accidentally running other apps. This is a good option particularly if you are configuring a machine for other, less technical users such as children.
+Las aplicaciones de la App Store están sujetas a directrices de seguridad más estrictas, como un aislamiento más estricto. Si las únicas aplicaciones que necesitas están disponibles en el App Store, cambia el ajuste **Permitir apps descargadas de** a **App Store** para evitar ejecutar accidentalmente otras aplicaciones. Esta es una buena opción, sobre todo si estás configurando una máquina para otros usuarios menos técnicos, como los niños.
 
-If you choose to also allow applications from identified developers, be careful about the apps you run and where you obtain them.
+Si decides permitir también aplicaciones de desarrolladores identificados, ten cuidado con las aplicaciones que ejecutas y dónde las obtienes.
 
 ##### FileVault
 
-On modern devices with a Secure Enclave (Apple T2 Security Chip, Apple silicon), your data is always encrypted, but is decrypted automatically by a hardware key if your device doesn't detect it's been tampered with. Enabling FileVault additionally requires your password to decrypt your data, greatly improving security, especially when powered off or before the first login after powering on.
+En dispositivos modernos con un Secure Enclave (Chip de Seguridad T2 de Apple, Apple Silicon), tus datos siempre están cifrados, pero son descifrados automáticamente por una clave de hardware si tu dispositivo no detecta que ha sido manipulado. Activar FileVault requiere además tu contraseña para descifrar tus datos, lo que mejora enormemente la seguridad, especialmente cuando está apagado o antes del primer inicio de sesión después de encenderlo.
 
-On older Intel-based Mac computers, FileVault is the only form of disk encryption available by default, and should always be enabled.
+En los ordenadores Mac basados en Intel más antiguos, FileVault es la única forma de cifrado de disco disponible por defecto, y debería estar siempre activada.
 
-- [x] Click **Turn On**
+- [x] Haz clic en **Activar**
 
 ##### Lockdown Mode
 
 [Lockdown Mode](https://blog.privacyguides.org/2022/10/27/macos-ventura-privacy-security-updates/#lockdown-mode) disables some features in order to improve security. Some apps or features won't work the same way they do when it's off, for example, [JIT](https://hacks.mozilla.org/2017/02/a-crash-course-in-just-in-time-jit-compilers/) and [WASM](https://developer.mozilla.org/en-US/docs/WebAssembly) are disabled in Safari with Lockdown Mode enabled. We recommend enabling Lockdown Mode and seeing whether it significantly impacts your usage, many of the changes it makes are easy to live with.
 
-- [x] Click **Turn On**
+- [x] Haz clic en **Activar**
 
 ### Aleatorización de direcciones Mac
 
