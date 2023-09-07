@@ -6,18 +6,18 @@ description: Questi fornitori di email offrono un luogo ideale per memorizzare i
 cover: email.png
 ---
 
-L'email è praticamente una necessità per utilizzare qualsiasi servizio online, tuttavia, la sconsigliamo per le conversazioni personali. Piuttosto che utilizzare l'email per contattare altre persone, considera di utilizzare un mezzo di messaggistica istantanea che supporti la Forward Secrecy, letteralmente, Segretezza in avanti.
+L'email è praticamente una necessità per utilizzare qualsiasi servizio online, tuttavia, la sconsigliamo per le conversazioni personali. Piuttosto di utilizzare una e-mail per contattare altre persona, considera un mezzo di messaggistica istantanea che supporti la \['forward secrecy'\](https://it. wikipedia. org/wiki/Forward_secrecy).
 
 [Messaggistica istantanea consigliata](real-time-communication.md ""){.md-button}
 
-Per tutto il resto, consigliiamo numerosi fornitori emaiil baasati su modelli aziendali sostenibili e con funzionalità di sicurezza e privacy integrate.
+Per tutto il resto, consigliamo una varietà di provider di posta elettronica basati su modelli di business sostenibile e funzioni di sicurezza integrate.
 
-- [Fonitorii Email Compatibili con OpenPGP :material-arrow-right-drop-circle:](#openpgp-compatible-services)
-- [Altri fornitori cifrati :material-arrow-right-drop-circle:](#more-providers)
+- [Fornitori Email Compatibili con OpenPGP :material-arrow-right-drop-circle:](#openpgp-compatible-services)
+- [Altri Fornitori Cifrati :material-arrow-right-drop-circle:](#more-providers)
 - [Servizi di Aliasing Email :material-arrow-right-drop-circle:](#email-aliasing-services)
-- [Opzioni auto ospitate :material-arrow-right-drop-circle:](#self-hosting-email)
+- [Opzioni Self-Hosted :material-arrow-right-drop-circle:](#self-hosting-email)
 
-## Servizi compatibili con OpenPGP
+## Servizi Compatibili con OpenPGP
 
 Questi fornitori supportano nativamente la crittografia/decrittografia di OpenPGP e lo standard Web Key Directory (WKD), consentendo email E2EE indipendenti dal fornitore. Ad esempio, un utente di Proton Mail potrebbe inviare un messaggio E2EE a un utente Mailbox.org, o potresti ricevere notifiche crittografate in OpenPGP dai servizi Internet che le supportano.
 
@@ -30,9 +30,9 @@ Questi fornitori supportano nativamente la crittografia/decrittografia di OpenPG
 
 !!! warning "Avviso"
 
-    Quando si utilizza tecnologia E2EE, come OpenPGP, alcuni metadata nell'intestazione dei messaggi non vengono crittografati. Per saperne di più sui metadata della [posta elettronica](basics/email-security.md#email-metadata-overview).
+    Utilizzando la tecnologia E2EE come OpenPGP, le email conterranno dei metadati non crittografati, nell'intestazione dell'email. Per saperne di più sui metadata della [posta elettronica](basics/email-security.md#email-metadata-overview).
     
-    Inoltre, OpenPGP non supporta la Forward Secrecy, a significare che se la chiave privata tua o del destinatario viene rubata, tutti i messaggi precedenti crittografati con essa, saranno esposti. [Come proteggo le mie chiavi private?](basics/email-security.md#how-do-i-protect-my-private-keys)
+    Inoltre, OpenPGP non supporta la ['Forward secrecy'](https://it.wikipedia.org/wiki/Forward_secrecy), il che significa che se la tua chiave privata o quella del destinatario viene rubata, tutti i messaggi precedenti crittografati con essa saranno esposti. [Come proteggo le mie chiavi private?](basics/email-security.md#how-do-i-protect-my-private-keys)
 
 ### Proton Mail
 

@@ -22,7 +22,7 @@
 *[EOL]: Fine del Supporto
 *[Exif]: Exchangeable image file format
 *[FCM]: Firebase Cloud Messaging
-*[FDE]: Crittografia completa del disco
+*[FDE]: Crittografia Completa del Disco
 *[FIDO]: Fast Identity Online
 *[FS]: Forward Secrecy
 *[fork]: Un nuovo progetto basato su un altro progetto già esistente con l'aggiunta di elementi indipendenti
