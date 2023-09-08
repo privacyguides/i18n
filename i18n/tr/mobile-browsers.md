@@ -1,14 +1,14 @@
 ---
 meta_title: "Privacy Respecting Mobile Web Browsers for Android and iOS - Privacy Guides"
-title: "Mobile Browsers"
+title: "Mobil Tarayıcılar"
 icon: material/cellphone-information
-description: These browsers are what we currently recommend for standard/non-anonymous internet browsing on your phone.
+description: Bu tarayıcılar telefonunuzda yaptığınız standart internet taraması için önerdiğimiz tarayıcılardır.
 cover: mobile-browsers.png
 schema:
   - 
     "@context": http://schema.org
     "@type": WebPage
-    name: Private Mobile Browser Recommendations
+    name: Gizli Monil Tarayıcı Önerileri
     url: "./"
     relatedLink: "../desktop-browsers/"
   - 
@@ -37,7 +37,7 @@ schema:
       url: "./"
 ---
 
-These are our currently recommended mobile web browsers and configurations for standard/non-anonymous internet browsing. İnternette anonim olarak gezinmeniz gerekiyorsa, bunun yerine [Tor](tor.md) kullanmalısınız. In general, we recommend keeping extensions to a minimum; they have privileged access within your browser, require you to trust the developer, can make you [stand out](https://en.wikipedia.org/wiki/Device_fingerprint#Browser_fingerprint), and [weaken](https://groups.google.com/a/chromium.org/g/chromium-extensions/c/0ei-UCHNm34/m/lDaXwQhzBAAJ) site isolation.
+Bunlar, standart/anonim olmayan internet taraması için şu anda önerilen mobil internet tarayıcıları ve yapılandırmalarıdır. İnternette anonim olarak gezinmeniz gerekiyorsa, bunun yerine [Tor](tor.md) kullanmalısınız. Genel olarak, tarayıcı uzantılarınızı en az miktarda tutmanızı öneririz; tarayıcınızda ayrıcalıklı erişime sahiptirler, geliştiriciye güvenmenizi gerektirirler, sizi [öne çıkarabilir](https://en.wikipedia.org/wiki/Device_fingerprint#Browser_fingerprint) ve site izolasyonunu [zayıflatabilirler](https://groups.google.com/a/chromium.org/g/chromium-extensions/c/0ei-UCHNm34/m/lDaXwQhzBAAJ).
 
 ## Android
 
@@ -49,11 +49,11 @@ On Android, Firefox is still less secure than Chromium-based alternatives: Mozil
 
     ![Brave logo](assets/img/browsers/brave.svg){ align=right }
     
-    **Brave Browser** includes a built-in content blocker and [privacy features](https://brave.com/privacy-features/), many of which are enabled by default.
+    **Brave Browser** yerleşik bir içerik engelleyici ve [gizlilik özellikleri] (https://brave.com/privacy-features/) içerir ve bunların çoğu varsayılan olarak etkindir.
     
-    Brave is built upon the Chromium web browser project, so it should feel familiar and have minimal website compatibility issues.
+    Brave, Chromium web tarayıcısı projesi üzerine inşa edilmiştir, bu nedenle kullanımı daha tanıdıktır ve olabildiğince az web sitesi uyumluluğu yaşarsınız.
     
-    [:octicons-home-16: Homepage](https://brave.com/){ .md-button .md-button--primary }
+    [:octicons-home-16: Ana Sayfa](https://brave.com/){ .md-button .md-button--primary }
     [:simple-torbrowser:](https://brave4u7jddbv7cyviptqjc7jusxh72uik7zt6adtckl5f4nwy2v72qd.onion){ .card-link title="Onion Service" }
     [:octicons-eye-16:](https://brave.com/privacy/browser/){ .card-link title="Privacy Policy" }
     [:octicons-info-16:](https://support.brave.com/){ .card-link title=Documentation}
@@ -64,7 +64,7 @@ On Android, Firefox is still less secure than Chromium-based alternatives: Mozil
         - [:simple-googleplay: Google Play](https://play.google.com/store/apps/details?id=com.brave.browser)
         - [:simple-github: GitHub](https://github.com/brave/brave-browser/releases)
 
-#### Recommended Configuration
+#### Önerilen Yapılandırma
 
 Tor Browser is the only way to truly browse the internet anonymously. When you use Brave, we recommend changing the following settings to protect your privacy from certain parties, but all browsers other than the [Tor Browser](tor.md#tor-browser) will be traceable by *somebody* in some regard or another.
 
@@ -138,7 +138,7 @@ On iOS, any app that can browse the web is [restricted](https://developer.apple.
     [:octicons-eye-16:](https://www.apple.com/legal/privacy/data/en/safari/){ .card-link title="Privacy Policy" }
     [:octicons-info-16:](https://support.apple.com/guide/safari/welcome/mac){ .card-link title=Documentation}
 
-#### Recommended Configuration
+#### Önerilen Yapılandırma
 
 These options can be found in :gear: **Settings** → **Safari** → **Privacy and Security**.
 

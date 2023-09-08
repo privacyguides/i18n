@@ -1,20 +1,20 @@
 ---
-title: Android Overview
+title: Android'e Genel Bakış
 icon: simple/android
-description: Android is an open-source operating system with strong security protections, which makes it our top choice for phones.
+description: Android, güçlü güvenlik korumalarına sahip açık kaynaklı bir işletim sistemidir ve bu da yüzden telefonlar için en iyi seçimimizdir.
 ---
 
 ![Android logo](../assets/img/android/android.svg){ align=right }
 
 The **Android Open Source Project** is a secure mobile operating system featuring strong [app sandboxing](https://source.android.com/security/app-sandbox), [Verified Boot](https://source.android.com/security/verifiedboot) (AVB), and a robust [permission](https://developer.android.com/guide/topics/permissions/overview) control system.
 
-## Our Advice
+## Tavsiyelerimiz
 
-### Choosing an Android Distribution
+### Android Dağıtımı Seçme
 
-When you buy an Android phone, the device's default operating system often comes with invasive integration with apps and services that are not part of the [Android Open-Source Project](https://source.android.com/). An example of such is Google Play Services, which has irrevocable privileges to access your files, contacts storage, call logs, SMS messages, location, camera, microphone, hardware identifiers, and so on. These apps and services increase the attack surface of your device and are the source of various privacy concerns with Android.
+Bir Android telefon satın aldığınızda, cihazın varsayılan işletim sistemi genellikle [Android Açık Kaynak Projesi'nin](https://source.android.com/)parçası olmayan ve gizliliği ihlal eden uygulamalar ve hizmetlerle entegrasyonla birlikte gelir. Dosyalarınıza, rehber depolamanıza, arama kayıtlarınıza, SMS mesajlarınıza, konumunuza, kameranıza, mikrofonunuza, donanım tanımlayıcılarınıza ve benzerlerine erişmek için geri alınamaz ayrıcalıklara sahip olan Google Play Hizmetleri buna bir örnektir. Bu uygulamalar ve hizmetler cihazınızın saldırı yüzeyini artırır ve Android ile ilgili çeşitli gizlilik endişelerinin kaynağıdır.
 
-This problem could be solved by using a custom Android distribution that does not come with such invasive integration. Unfortunately, many custom Android distributions often violate the Android security model by not supporting critical security features such as AVB, rollback protection, firmware updates, and so on. Some distributions also ship [`userdebug`](https://source.android.com/setup/build/building#choose-a-target) builds which expose root via [ADB](https://developer.android.com/studio/command-line/adb) and require [more permissive](https://github.com/LineageOS/android_system_sepolicy/search?q=userdebug&type=code) SELinux policies to accommodate debugging features, resulting in a further increased attack surface and weakened security model.
+Bu sorun, bu tür istilacı entegrasyonla gelmeyen özel bir Android dağıtımı kullanılarak çözülebilir. Unfortunately, many custom Android distributions often violate the Android security model by not supporting critical security features such as AVB, rollback protection, firmware updates, and so on. Some distributions also ship [`userdebug`](https://source.android.com/setup/build/building#choose-a-target) builds which expose root via [ADB](https://developer.android.com/studio/command-line/adb) and require [more permissive](https://github.com/LineageOS/android_system_sepolicy/search?q=userdebug&type=code) SELinux policies to accommodate debugging features, resulting in a further increased attack surface and weakened security model.
 
 Ideally, when choosing a custom Android distribution, you should make sure that it upholds the Android security model. At the very least, the distribution should have production builds, support for AVB, rollback protection, timely firmware and operating system updates, and SELinux in [enforcing mode](https://source.android.com/security/selinux/concepts#enforcement_levels). All of our recommended Android distributions satisfy these criteria.
 
