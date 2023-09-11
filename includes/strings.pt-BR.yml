@@ -36,7 +36,7 @@ nav:
   Internet Browsing: Navegação na Internet
   Providers: Provedores
   Software: Software (Programa)
-  About: Sobre Nós
+  About: Sobre
   Community: Comunidade
   Online Services: Serviços Online
   Code of Conduct: Código de Conduta
@@ -48,6 +48,6 @@ nav:
   Blog: Blog
 site:
   homepage_card: |
-    A socially motivated website which provides information about protecting your online data privacy and security.
+    Um site com uma motivação social que fornece informações sobre como proteger a privacidade e segurança de seus dados online.
   translation: |
-    Você está visualizando uma cópia em português do Brasil da Privacy Guides, traduzidos pela nossa fantástica equipe de idiomas na Crowdin. Se você notar um erro ou ver quaisquer seções não traduzidas nesta página, por favor considere ajudar! Para mais informações e dicas veja nosso guia de tradução.
+    Você está visualizando uma cópia em português do Brasil do Privacy Guides, traduzido pela nossa fantástica equipe de idiomas na Crowdin. Se você notar um erro ou ver quaisquer seções não traduzidas nesta página, por favor considere ajudar! Para mais informações e dicas veja nosso guia de tradução.
