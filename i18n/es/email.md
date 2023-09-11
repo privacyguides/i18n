@@ -305,22 +305,20 @@ Utilizar un servicio de alias requiere confiar, tanto a tu proveedor de correo e
     ![addy.io logo](assets/img/email/addy.svg#only-light){ align=right }
     ![addy.io logo](assets/img/email/addy-dark.svg#only-dark){ align=right }
     
-    **addy.io** lets you create 10 domain aliases on a shared domain for free, or unlimited "standard" aliases which are less anonymous.
+    **addy.io** te permite crear 10 alias gratuitos en un dominio compartido, o o alias "estándar" ilimitados que son menos anónimos.
     
-    [:octicons-home-16: Homepage](https://addy.io){ .md-button .md-button--primary }
-    [:octicons-eye-16:](https://addy.io/privacy){ .card-link title="Privacy Policy" }
-    [:octicons-info-16:](https://app.addy.io/docs){ .card-link title=Documentation}
-    [:octicons-code-16:](https://github.com/anonaddy){ .card-link title="Source Code" }
-    [:octicons-heart-16:](https://addy.io/donate){ .card-link title=Contribute }
+    [:octicons-home-16: Página principal](https://addy.io){ .md-button .md-button--primary }
+    [:octicons-eye-16:](https://addy.io/privacy){ .card-link title="Política de privacidad" }
+    [:octicons-info-16:](https://app.addy.io/docs){ .card-link title=Documentación}
+    [:octicons-code-16:](https://github.com/anonaddy){ .card-link title="Código fuente" }
+    [:octicons-heart-16:](https://addy.io/donate){ .card-link title=Contribuir}
     
-    ??? downloads
-    
-        - [:simple-android: Android](https://addy.io/faq/#is-there-an-android-app)
+    ???     - [:simple-android: Android](https://addy.io/faq/#is-there-an-android-app)
         - [:material-apple-ios: iOS](https://addy.io/faq/#is-there-an-ios-app)
         - [:simple-firefoxbrowser: Firefox](https://addons.mozilla.org/firefox/addon/addy_io/)
         - [:simple-googlechrome: Chrome](https://chrome.google.com/webstore/detail/addyio-anonymous-email-fo/iadbdpnoknmbdeolbapdackdcogdmjpe)
 
-The number of shared aliases (which end in a shared domain like @addy.io) that you can create is limited to 10 on addy.io's free plan, 50 on their $1/month plan and unlimited on the $4/month plan (billed $3 for a year). You can create unlimited standard aliases (which end in a domain like @[username].addy.io or a custom domain on paid plans), however, as previously mentioned, this can be detrimental to privacy because people can trivially tie your standard aliases together based on the domain name alone. They are useful where a shared domain might be blocked by a service.
+El número de alias compartidos (finalizan en un dominio compartido como @addy.io) que puedes crear está limitado a 10 en el plan gratuito de addy.io, 50 en el plan de $1/mes e ilimitado en el plan de $4/mes (facturado en $3 por un año). You can create unlimited standard aliases (which end in a domain like @[username].addy.io or a custom domain on paid plans), however, as previously mentioned, this can be detrimental to privacy because people can trivially tie your standard aliases together based on the domain name alone. They are useful where a shared domain might be blocked by a service.
 
 Funciones gratuitas destacables:
 
