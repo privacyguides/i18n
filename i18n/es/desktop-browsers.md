@@ -138,7 +138,7 @@ Es posible que las funciones de sugerencia de búsqueda no estén disponibles en
 
 Las sugerencias de búsqueda envían todo lo que escribes en la barra de direcciones al motor de búsqueda predeterminado, independientemente de si realizas una búsqueda real. Desactivar las sugerencias de búsqueda te permite controlar con mayor precisión los datos que envías al proveedor de tu motor de búsqueda.
 
-#### Privacy & Security
+#### Privacidad y seguridad
 
 ##### Protección contra el rastreo mejorada
 

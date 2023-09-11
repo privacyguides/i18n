@@ -1,81 +1,81 @@
 ---
-title: Translations
+title: Traducciones
 ---
 
-Crowdin has good documentation, and we suggest looking at their [Getting Started](https://support.crowdin.com/crowdin-intro/) guide. Our site is largely written in [Markdown](https://en.wikipedia.org/wiki/Markdown), so it should be easy to contribute. This page contains some helpful pointers for translating some specific syntax you may encounter on our site.
+Crowdin poseé una buena documentación, y sugerimos consultar la guía de [Inicio rápido](https://support.crowdin.com/crowdin-intro/). Nuestro sitio se encuentra escrito en gran parte en [Markdown](https://en.wikipedia.org/wiki/Markdown), por lo que debe ser fácil contribuir. Esta página contiene algunos consejos útiles para la traducción de algunas sintaxis específicas que puedes encontrar en nuestro sitio.
 
-Please join our localization room on Matrix ([#pg-i18n:aragon.sh](https://matrix.to/#/%23pg-i18n:aragon.sh)) if you have any additional questions, and read our [announcement blog post](https://blog.privacyguides.org/2023/02/26/i18n-announcement/) for additional information about the project.
+Por favor, únase a nuestra sala de localización en Matrix ([#pg-i18n:aragon.sh](https://matrix.to/#/%23pg-i18n:aragon.sh)) si tienes algunas preguntas adicionales, y lee nuestra [publicación de anuncio en el blog](https://blog.privacyguides.org/2023/02/26/i18n-announcement/) para obtener información adicional sobre el proyecto.
 
-Note that the English version of the site is the primary version, meaning changes occur there first. If you notice a language falling behind the English version, please help out. We cannot guarantee the accuracy of all our translations. If you have a suggestion about content specific to your region, please open an issue or pull request to our [main repository](https://github.com/privacyguides/privacyguides.org).
+Tome en cuenta que la versión en Inglés del sitio es la versión primaria, lo que significa que los cambios se producen primero en esta. Si nota que un lenguaje está rezagado detrás de la versión en Inglés, por favor colabore. No podemos garantizar la exactitud de todas nuestras traducciones. Si tiene una sugerencia sobre contenido específico de su región, por favor abra un issue o pull request en nuestro [repositorio principal](https://github.com/privacyguides/privacyguides.org).
 
-## Admonitions
+## Avisos
 
-Throughout the site we use MkDocs's [admonitions](https://squidfunk.github.io/mkdocs-material/reference/admonitions/#usage), to show information to readers. They come in a few different flavors such as `example`, `warning`, `tip`, etc.
+En todo el sitio utilizamos los [avisos](https://squidfunk.github.io/mkdocs-material/reference/admonitions/#usage) de MkDocs, para mostrar información a los lectores. Estas vienen en diferentes formatos como `ejemplo`, `peligro`, `consejo`, etc.
 
-When admonitions are used they will have an English string on the site by default. This can be [customized](https://squidfunk.github.io/mkdocs-material/reference/admonitions/#changing-the-title), without too much effort. For example, if you were translating an admonition of type [`warning`](https://squidfunk.github.io/mkdocs-material/reference/admonitions/#type:warning) to Dutch, this is how you would write it:
+Cuando los avisos son utilizadas, estos tienen una cadena de texto en inglés por defecto. Esto puede ser [personalizado](https://squidfunk.github.io/mkdocs-material/reference/admonitions/#changing-the-title), sin demasiado esfuerzo. Por ejemplo, si se encuentra traduciendo un aviso de tipo [`peligro`](https://squidfunk.github.io/mkdocs-material/reference/admonitions/#type:warning) a Holandés, así es como debe escribirse:
 
-=== "Dutch translation"
+=== "Traducción al Holandés"
 
     ```text
     !!! warning "Waarschuwing"
     ```
 
-=== "English source text"
+== "Texto fuente en Inglés"
 
     ```text
     !!! warning "Advertencia"
     ```
 
-Downloads are a [custom admonition](https://squidfunk.github.io/mkdocs-material/reference/admonitions/#custom-admonitions) which is written as follows:
+Las descargas son un [aviso personalizado](https://squidfunk.github.io/mkdocs-material/reference/admonitions/#custom-admonitions) que se encuentra escrito de la siguiente manera:
 
-=== "Dutch translation"
+=== "Traducción al Holandés"
 
     ```text
     ??? downloads "Downloaden"
     ```
 
-=== "English source text"
+== "Texto fuente en Inglés"
 
     ```text
     ??? downloads
     ```
 
-The same goes for other types, such as `tip`, `example`, `warning`, `danger` etc.
+Lo mismo aplica para otros tipos, como `consejo`, `ejemplo`, `advertencia`, `peligro` etc.
 
-Recommendations are a special type of admonition which do **not** need overriding as they have no visible text, so they are never changed:
+Las recomendaciones son un tipo especial de aviso que **no** necesita sobreescribirse, porque no tiene un texto visible, por lo que nunca son modificados:
 
-=== "Dutch translation"
-
-    ```text
-    !!! recommendation
-    ```
-
-=== "English source text"
+=== "Traducción al Holandés"
 
     ```text
     !!! recommendation
     ```
 
-## Translation output
+== "Texto fuente en Inglés"
 
-Translation software gets the translation quite accurate; however, you need to make sure the translated string is correct.
+    ```text
+    !!! recommendation
+    ```
 
-For example:
+## Resultado de la traducción
+
+El programa de traducción obtiene la traducción con mucha precisión; sin embargo, debes asegurarte que la cadena traducida es correcta.
+
+Por ejemplo:
 
 ```text
 ![Software logo](assets/img/path/to/image.svg){ align=right }
 ```
 
-We have sometimes found that the syntax for inserting an image like above was missing the `![` or an extra space was placed between the text and the path, e.g. `](`. If a translation string is clearly not correct, we encourage you to **delete** it by pressing the trash icon [or vote](https://support.crowdin.com/enterprise/getting-started-for-volunteers/#voting-view) on which one you think sounds best. When invalid strings are deleted, they are removed from the organization's [translation memory](https://support.crowdin.com/enterprise/translation-memory), meaning that when the source string is seen again, it won't suggest the incorrect translation.
+Algunas veces encontramos que en la sintaxis para insertar una imagen, como se mostró previamente, falta el `![` o un espacio extra es ubicado entre el texto y la ruta, ej: `](`. Si una cadena de traducción no es correcta, te solicitamos **eliminarla** presionando el ícono del basurero [o votando](https://support.crowdin.com/enterprise/getting-started-for-volunteers/#voting-view) por la que consideres correcta. Cuando una cadena de texto no válida es eliminada, esta es removida de la [memoria de traducción](https://support.crowdin.com/enterprise/translation-memory) de la organización, lo que significa que cuando una cadena de código es vista nuevamente, esta no sugiere la traducción incorrecta.
 
-## Punctuation
+## Puntuación
 
-For examples like the above admonitions, quotation marks, e.g.: `" "` must be used to specify string text. MkDocs will not correctly interpret other symbols i.e., `「 」` or `« »`. Other punctuation marks are fine for marking regular quotations within the text otherwise.
+Para ejemplos como el anterior de los avisos, las comillas (por ejemplo, `" "`) deben ser utilizadas para especificar una cadena de texto. McDocs no interpreta correctamente otros símbolos como `「 」` o `« »`. Otros signos de puntuación sirven para marcar citas regulaes dentro del texto.
 
-## Fullwidth alternatives and Markdown syntax
+## Alternativas de ancho completo y sintaxis de Markdown
 
-CJK writing systems tend to use alternative "fullwidth" variants of common symbols. These are different characters and cannot be used for markdown syntax.
+Los sistemas de escritura CJK tienden a utilizar variantes alternativas de "ancho completo" de símbolos comunes. Estos son caracteres diferentes y no pueden ser utilizados para la sintaxis de Markdown.
 
-- Links must use regular parenthesis ie `(` (Left Parenthesis U+0028) and `)` (Right Parenthesis U+0029) and not `（` (Fullwidth Left Parenthesis U+FF08) or `）` (Fullwidth Right Parenthesis U+FF09)
-- Indented quoted text must use `:` (Colon U+003A) and not `：` (Fullwidth Colon U+FF1A)
-- Pictures must use `!` (Exclamation Mark U+0021) and not `！` (Fullwidth Exclamation Mark U+FF01) 
+- Los enlaces deben usar paréntesis regulares como `(` (paréntesis izquierdo U+0028) y `)` (paréntesis derecho U+0029) y no ` (` (paréntesis izquierdo de ancho completo U+FF08) o `) ` (paréntesis derecho de ancho completo U+FF09)
+- El texto indentado debe utilizar `:` (dos puntos U+003A) y no `：` (dos puntos de ancho completo U+FF1A)
+- Las imágenes deben utilizar `!` (signo de exclamación U+0021) y no `! ` (signo de exclamación de ancho completoU+FF01) 
