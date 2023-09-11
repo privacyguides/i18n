@@ -27,10 +27,11 @@ cover: cloud.png
     [:octicons-info-16:](https://proton.me/support/drive){ .card-link title=תיעוד}
     [:octicons-code-16:](https://github.com/ProtonMail/WebClients){ .card-link title="קוד מקור" }
     
-    ??? downloads "הורדות"
+    ??? downloads
     
         - [:simple-googleplay: Google Play](https://play.google.com/store/apps/details?id=me.proton.android.drive)
         - [:simple-appstore: App Store](https://apps.apple.com/app/id1509667851)
+        - [:simple-windows11: Windows](https://proton.me/fr/drive/download)
 
 אפליקציית האינטרנט של Proton Drive נבדקה באופן עצמאי על ידי Securitum ב[2021](https://proton.me/blog/security-audit-all-proton-apps), הפרטים המלאים לא זמינים, אך במכתב האישור של Securitum נאמר:
 

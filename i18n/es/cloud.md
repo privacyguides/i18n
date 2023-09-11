@@ -27,10 +27,11 @@ Si estas alternativas no se ajustan a tus necesidades, te sugerimos que busques 
     [:octicons-info-16:](https://proton.me/support/drive){ .card-link title=Documentación}
     [:octicons-code-16:](https://github.com/ProtonMail/WebClients){ .card-link title="Código Fuente" }
     
-    ??? downloads "Descargas"
+    ??? downloads
     
         - [:simple-googleplay: Google Play](https://play.google.com/store/apps/details?id=me.proton.android.drive)
         - [:simple-appstore: App Store](https://apps.apple.com/app/id1509667851)
+        - [:simple-windows11: Windows](https://proton.me/fr/drive/download)
 
 La aplicación web Proton Drive ha sido auditada de forma independiente por Securitum en [2021](https://proton.me/blog/security-audit-all-proton-apps), no se han facilitado todos los detalles, pero la carta de certificación de Securitum afirma lo siguiente:
 

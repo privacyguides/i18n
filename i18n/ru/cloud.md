@@ -28,10 +28,11 @@ cover: cloud.png
     [:octicons-info-16:](https://proton.me/support/drive){ .card-link title=Документация}
     [:octicons-code-16:](https://github.com/ProtonMail/WebClients){ .card-link title="Исходный код" }
     
-    ??? downloads "Скачать"
+    ??? downloads
     
         - [:simple-googleplay: Google Play](https://play.google.com/store/apps/details?id=me.proton.android.drive)
         - [:simple-appstore: App Store](https://apps.apple.com/app/id1509667851)
+        - [:simple-windows11: Windows](https://proton.me/fr/drive/download)
 
 Веб-приложение Proton Drive прошло независимый аудит компании Securitum в [2021 году](https://proton.me/blog/security-audit-all-proton-apps), полные подробности не были предоставлены, но в аттестационном письме Securitum говорится:
 

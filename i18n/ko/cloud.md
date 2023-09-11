@@ -27,10 +27,11 @@ cover: cloud.png
     [:octicons-info-16:](https://proton.me/support/drive){ .card-link title=문서}
     [:octicons-code-16:](https://github.com/ProtonMail/WebClients){ .card-link title="소스 코드" }
     
-    ??? downloads "다운로드"
+    ??? downloads
     
         - [:simple-googleplay: Google Play](https://play.google.com/store/apps/details?id=me.proton.android.drive)
         - [:simple-appstore: App Store](https://apps.apple.com/app/id1509667851)
+        - [:simple-windows11: Windows](https://proton.me/fr/drive/download)
 
 Proton Drive 웹 어플리케이션은 [2021년에](https://proton.me/blog/security-audit-all-proton-apps) Securitum으로부터 독립적으로 감사를 받았습니다. 세부 내용은 제공되지 않았지만, Securitum 인증서에 따르면 다음과 같습니다:
 
