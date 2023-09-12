@@ -36,9 +36,9 @@ I nostri fornitori consigliati utilizzano la crittografia, accettano Monero, sup
 
 !!! recommendation annotate
 
-    ![Proton VPN logo](assets/img/vpn/protonvpn.svg){ align=right }
+    ![Logo di Proton VPN](assets/img/vpn/protonvpn.svg){ align=right }
     
-    **Proton VPN** è un forte concorrente nello spazio VPN ed è attivo dal 2016. Proton AG ha sede in Svizzera e offre un livello gratuito limitato, così come un'opzione premium più ricca di funzioni.
+    **Proton VPN** è un forte concorrente nel settore delle VPN, ed è operativo dal 2016. Proton AG ha sede in Svizzera e offre un livello gratuito limitato, così come un'opzione premium più ricca di funzioni.
     
     [:octicons-home-16: Homepage](https://protonvpn.com/){ .md-button .md-button--primary }
     [:octicons-eye-16:](https://protonvpn.com/privacy-policy){ .card-link title="Privacy Policy" }
@@ -304,7 +304,7 @@ Non affideresti le tue finanze a qualcuno con un'identità falsa, quindi perché
 
 ### Marketing
 
-Con i fornitori di VPN che raccomandiamo ci piace vedere un marketing responsabile.
+Con i fornitori VPN che consigliamo, vorremmo vedere del marketing responsabile.
 
 **Requisiti minimi:**
 

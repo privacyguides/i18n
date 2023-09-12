@@ -6,7 +6,7 @@ description: Questi fornitori di email offrono un luogo ideale per memorizzare i
 cover: email.png
 ---
 
-L'email è praticamente una necessità per utilizzare qualsiasi servizio online, tuttavia, la sconsigliamo per le conversazioni personali. Piuttosto di utilizzare una e-mail per contattare altre persona, considera un mezzo di messaggistica istantanea che supporti la \['forward secrecy'\](https://it. wikipedia. org/wiki/Forward_secrecy).
+L'email è praticamente una necessità per utilizzare qualsiasi servizio online, tuttavia, la sconsigliamo per le conversazioni personali. Piuttosto di utilizzare una e-mail per contattare altre persona, considera un mezzo di messaggistica istantanea che supporti la \['forward secrecy'\](https://it.wikipedia.org/wiki/Forward_secrecy).
 
 [Messaggistica istantanea consigliata](real-time-communication.md ""){.md-button}
 
