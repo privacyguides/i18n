@@ -31,7 +31,7 @@ If these alternatives do not fit your needs, we suggest you look into using encr
     
         - [:simple-googleplay: Google Play](https://play.google.com/store/apps/details?id=me.proton.android.drive)
         - [:simple-appstore: App Store](https://apps.apple.com/app/id1509667851)
-        - [:simple-windows11: Windows](https://proton.me/fr/drive/download)
+        - [:simple-windows11: Windows](https://proton.me/drive/download)
 
 Proton Drive Webアプリケーションは、 [2021](https://proton.me/blog/security-audit-all-proton-apps)年にSecuritumによって独立して監査されています。 詳細は公開されませんでしたが、Securitumの認証状態は以下のとおりです。
 
