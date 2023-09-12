@@ -3,9 +3,9 @@ title: "Perchè la privacy è importante"
 icon: 'material/shield-account'
 ---
 
-Nell'era moderna dello sfuttamento dei dati digitali, la tua privacy non è mai stata più importante, eppure, molti credono che sia già una causa persa. Non è così. ==La tua privacy è in palio== e devi prendertene cura. La privacy è questione di potere, ed è davvero importante che tale potere finisca nelle mani giuste.
+Nell'era moderna dello sfruttamento dei dati digitali, la tua privacy non è mai stata così importante, eppure molti credono che sia già una causa persa. Non è così. ==La tua privacy è in palio== e devi prendertene cura. La privacy è questione di potere, ed è davvero importante che tale potere finisca nelle mani giuste.
 
-La privacy riguarda dopotutto le informazioni umane ed è importante perché sappiamo che, queste, confriscono potere sugli esseri umani. Se ci interessa della nostra capacità di essere autentici, realizzati e liberi, dobbiamo preoccuparci dellee regole applicate alle informazioni che ci riguardano. Gran parte della nostra società moderna si struttura intorno alle **informazioni**. Quando fai acquisti online, leggi le notizie, cerchi qualcosa, voti, cerchi indicazioni o qualsiasi altra cosa, ti stai basando su delle informazioni. Se viviamo in una società basata sulle informazioni, le nostre informazioni contano e, dunque, la privacy è importante.
+In fin dei conti la privacy riguarda le informazioni umane, ed è importante perché sappiamo che conferiscono potere sugli esseri umani. Se ci interessa della nostra capacità di essere autentici, realizzati e liberi, dobbiamo preoccuparci dellee regole applicate alle informazioni che ci riguardano. Gran parte della nostra società moderna si struttura intorno alle **informazioni**. Quando fai acquisti online, leggi le notizie, cerchi qualcosa, voti, cerchi indicazioni o qualsiasi altra cosa, ti stai basando su delle informazioni. Se viviamo in una società basata sulle informazioni, le nostre informazioni contano e, dunque, la privacy è importante.
 
 ## Cos'è la privacy?
 

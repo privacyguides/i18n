@@ -42,11 +42,11 @@ schema:
 
 ##### “Non ho nulla da nascondere. Perché dovrei preoccuparmi della mia privacy?"
 
-Proprio come il diritto al matrimonio interrazile, il suffragio femminile, la libertà di parola e molti altri, il nostro diritto alla privacy non è sempre stato sostenuto. In diverse dittature non lo è ancora. Le vecchie generazioni hanno lottato per il nostro diritto alla privacy. ==La privacy è un diritto umano, inerente a tutti noi,==, che ci spetta (senza discriminazione).
+Proprio come il diritto al matrimonio interrazile, il suffragio femminile, la libertà di parola e molti altri, il nostro diritto alla privacy non è sempre stato sostenuto. In diverse dittature non lo è ancora. Le vecchie generazioni hanno lottato per il nostro diritto alla privacy. ==La privacy è un diritto umano, inerente a tutti noi,== che ci spetta (senza discriminazione).
 
 Non dovresti confondere la privacy con la segretezza. Sappiamo che succede in bagno, ma chiudi comunque la porta. Questo perché vuoi privacy, non segretezza. **Tutti** hanno qualcosa da proteggere. La privacy è qualcosa che ci rende umani.
 
-[:material-book-outline: Perchè la privacy è importante](basics/why-privacy-matters.md){ class="md-button md-button--primary" }
+[:material-book-outline: Perché la Privacy è importante](basics/why-privacy-matters.md){ class="md-button md-button--primary" }
 
 ## Cosa dovrei fare?
 
