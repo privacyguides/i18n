@@ -167,8 +167,8 @@ Puede suscribirse a los canales de YouTube sin iniciar sesión ni asociar la inf
 
 !!! example "Ejemplo"
 
-    To subscribe to a YouTube channel with an RSS client, first look for its [channel code](https://support.google.com/youtube/answer/6180214). The channel code can be found on the about page of the YouTube channel you wish to subscribe to, under: **About** > **Share** > **Copy channel ID**. Replace `[CHANNEL ID]` below:
+    Para suscribirse a un canal de YouTube con un cliente RSS, busque primero su [código de canal](https://support.google.com/youtube/answer/6180214). El código del canal se encuentra en la página "Acerca de" del canal de YouTube al que desea suscribirse: **Información** > **Compartir** > **Copiar ID de canal**. Sustituya el `[ID DE CANAL]` a continuación:
 
     ```text
-    https://www.youtube.com/feeds/videos.xml?channel_id=[ID DEL CANAL]
+    https://www.youtube.com/feeds/videos.xml?channel_id=[ID DE CANAL]
     ```

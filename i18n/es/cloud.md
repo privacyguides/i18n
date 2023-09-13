@@ -27,7 +27,8 @@ Si estas alternativas no se ajustan a tus necesidades, te sugerimos que busques 
     [:octicons-info-16:](https://proton.me/support/drive){ .card-link title=Documentación}
     [:octicons-code-16:](https://github.com/ProtonMail/WebClients){ .card-link title="Código Fuente" }
     
-    ??? downloads
+    ??? downloads "Descargas"
+    
     
         - [:simple-googleplay: Google Play](https://play.google.com/store/apps/details?id=me.proton.android.drive)
         - [:simple-appstore: App Store](https://apps.apple.com/app/id1509667851)
