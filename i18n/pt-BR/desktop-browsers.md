@@ -8,7 +8,7 @@ schema:
   - 
     "@context": http://schema.org
     "@type": WebPage
-    name: Recomendações de Navegadores Desktop Privativos
+    name: Recomendações de Navegadores Desktop Privados
     url: "./"
     relatedLink: "../mobile-browsers/"
   - 
