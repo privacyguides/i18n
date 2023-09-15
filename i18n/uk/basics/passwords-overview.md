@@ -4,19 +4,19 @@ icon: 'material/form-textbox-password'
 description: Це кілька порад та підказок про те, як створювати найнадійніші паролі та зберігати свої акаунти в безпеці.
 ---
 
-Паролі є важливою частиною нашого повсякденного цифрового життя. We use them to protect our accounts, our devices and our secrets. Despite often being the only thing between us and an adversary who's after our private information, not a lot of thought is put into them, which often leads to people using passwords that can be easily guessed or brute-forced.
+Паролі є важливою частиною нашого повсякденного цифрового життя. Ми використовуємо їх для захисту наших облікових записів, пристроїв і секретів. Попри те, що часто вони є єдиною перешкодою між нами та зловмисником, який хоче отримати нашу особисту інформацію, ми не замислюємося над ними, що часто призводить до того, що люди використовують паролі, які можна легко вгадати або підібрати грубим перебором.
 
-## Найкращі практики
+## Передовий досвід
 
 ### Використовуйте унікальні паролі для кожного сервісу
 
-Imagine this; you sign up for an account with the same e-mail and password on multiple online services. If one of those service providers is malicious, or their service has a data breach that exposes your password in an unencrypted format, all a bad actor would have to do is try that e-mail and password combination across multiple popular services until they get a hit. It doesn't matter how strong that one password is, because they already have it.
+Уявіть собі: ви реєструєте обліковий запис з однаковими електронною поштою та паролем на кількох онлайн-сервісах. Якщо один з цих постачальників послуг є зловмисником, або в його сервісі стався витік даних, який розкрив ваш пароль у незашифрованому вигляді, все, що потрібно зробити зловмиснику, - це спробувати цю комбінацію електронної пошти та пароля на інших популярних сервісах, поки він не отримає доступ. Не має значення, наскільки надійним є цей пароль, адже він вже у них є.
 
-This is called [credential stuffing](https://en.wikipedia.org/wiki/Credential_stuffing), and it is one of the most common ways that your accounts can be compromised by bad actors. To avoid this, make sure that you never re-use your passwords.
+Це називається [підміна облікових даних](https://en.wikipedia.org/wiki/Credential_stuffing), і це один з найпоширеніших способів, за допомогою якого зловмисники можуть скомпрометувати ваші облікові записи. Щоб уникнути цього, переконайтеся, що ви ніколи не використовуєте свої паролі повторно.
 
 ### Використовуйте випадково згенеровані паролі
 
-**Ніколи** не варто покладатися на себе у виборі надійного пароля.== Ми рекомендуємо використовувати [випадково згенеровані паролі](#passwords) або [двозначні паролі](#diceware-passphrases) з достатньою ентропією для захисту ваших облікових записів і пристроїв.
+**Ніколи** не варто покладатися на себе у виборі надійного пароля.== Ми рекомендуємо використовувати [випадково згенеровані паролі](#passwords) або [парольні фрази](#diceware-passphrases) з достатньою ентропією для захисту ваших облікових записів і пристроїв.
 
 Усі наші [рекомендовані менеджери паролів](../passwords.md) містять вбудований генератор паролів, яким ви можете скористатися.
 
@@ -24,17 +24,17 @@ This is called [credential stuffing](https://en.wikipedia.org/wiki/Credential_st
 
 Вам слід уникати занадто частої зміни паролів, які ви повинні пам'ятати (наприклад, головний пароль вашого менеджера паролів), якщо тільки у вас немає підстав вважати, що він був скомпрометований, оскільки занадто часта зміна пароля наражає вас на ризик його забути.
 
-When it comes to passwords that you don't have to remember (such as passwords stored inside your password manager), if your [threat model](threat-modeling.md) calls for it, we recommend going through important accounts (especially accounts that don't use multi-factor authentication) and changing their password every couple of months, in case they have been compromised in a data breach that hasn't become public yet. Most password managers allow you to set an expiry date for your password to make this easier to manage.
+Що стосується паролів, які вам не потрібно запам'ятовувати (наприклад, паролі, що зберігаються у вашому менеджері паролів), якщо цього вимагає ваша [модель загроз](threat-modeling.md), ми рекомендуємо переглядати важливі акаунти (особливо ті, що не використовують багатофакторну автентифікацію) і змінювати їхні паролі кожні два місяці, на випадок, якщо вони були скомпрометовані в результаті витоку даних, який ще не став публічним. Більшість менеджерів паролів дозволяють встановити дату закінчення терміну дії пароля, щоб полегшити керування ним.
 
-!!! tip "Checking for data breaches"
+!!! tip "Перевірка на витік даних"
 
-    If your password manager lets you check for compromised passwords, make sure to do so and promptly change any password that may have been exposed in a data breach. Alternatively, you could follow [Have I Been Pwned's Latest Breaches feed](https://feeds.feedburner.com/HaveIBeenPwnedLatestBreaches) with the help of a [news aggregator](../news-aggregators.md).
+    Якщо ваш менеджер паролів дозволяє перевіряти скомпрометовані паролі, переконайтеся, що ви це робите, і негайно змінюйте будь-який пароль, який, можливо, був розкритий під час витоку даних. Крім того, ви можете стежити за [стрічкою останніх порушень Have I Been Pwned](https://feeds.feedburner.com/HaveIBeenPwnedLatestBreaches) за допомогою [новинного агрегатора](../news-aggregators.md).
 
 ## Створення надійних паролів
 
-### Парольні фрази
+### Паролі
 
-A lot of services impose certain criteria when it comes to passwords, including a minimum or maximum length, as well as which special characters, if any, can be used. You should use your password manager's built-in password generator to create passwords that are as long and complex as the service will allow by including capitalized and lowercase letters, numbers and special characters.
+Багато сервісів встановлюють певні критерії до паролів, включаючи мінімальну або максимальну довжину, а також те, які спеціальні символи можна використовувати, якщо такі є. Використовуйте вбудований у ваш менеджер паролів генератор паролів, щоб створювати паролі настільки довгі та складні, наскільки це дозволяє сервіс, включаючи великі та малі літери, цифри та спеціальні символи.
 
 Якщо вам потрібен пароль, який ви зможете запам'ятати, ми рекомендуємо використовувати [парольні фрази](#diceware-passphrases).
 
@@ -48,35 +48,35 @@ A lot of services impose certain criteria when it comes to passwords, including 
 
 Щоб згенерувати кодову фразу з використанням справжніх гральних кубиків, виконайте такі дії:
 
-!!! note
+!!! примітка
 
-    These instructions assume that you are using [EFF's large wordlist](https://www.eff.org/files/2016/07/18/eff_large_wordlist.txt) to generate the passphrase, which requires five dice rolls per word. Other wordlists may require more or less rolls per word, and may require a different amount of words to achieve the same entropy.
+    Ці інструкції припускають, що ви використовуєте [великий список слів EFF](https://www.eff.org/files/2016/07/18/eff_large_wordlist.txt) для генерації парольної фрази, яка вимагає п'ять кидків кубика на слово. Інші словники можуть вимагати більшої або меншої кількості кидків на слово, а також іншої кількості слів для досягнення тієї ж самої ентропії.
 
 1. Киньте шестигранний кубик п'ять разів, записуючи число після кожного кидка.
 
-2. As an example, let's say you rolled `2-5-2-6-6`. Look through the [EFF's large wordlist](https://www.eff.org/files/2016/07/18/eff_large_wordlist.txt) for the word that corresponds to `25266`.
+2. Для прикладу, припустимо, що ви викинули `2-5-2-6-6`. Подивіться у [великий список слів EFF](https://www.eff.org/files/2016/07/18/eff_large_wordlist.txt) слово, яке відповідає `25266`.
 
-3. You will find the word `encrypt`. Write that word down.
+3. Ви знайдете слово `encrypt`. Запишіть це слово.
 
-4. Повторюйте цей процес до тих пір, поки у вашій парольній фразі не буде стільки слів, скільки вам потрібно, які слід відокремлювати пробілами.
+4. Повторюйте цей процес до тих пір, поки у вашій парольній фразі не буде стільки слів, скільки вам потрібно, слова слід відокремлювати пробілами.
 
-!!! warning "Important"
+!!! попередження "Важливо"
 
-    You should **not** re-roll words until you get a combination of words that appeal to you. The process should be completely random.
+    Ви **не** повинні повторювати слова до тих пір, поки не отримаєте комбінацію слів, яка вам подобається. Процес має бути абсолютно випадковим.
 
-Якщо у вас немає доступу до справжніх гральних кубиків або ви не хочете використовувати їх, ви можете скористатися вбудованим генератором паролів вашого менеджера паролів, оскільки більшість з них мають можливість генерувати парольні фрази на додаток до звичайних паролів.
+Якщо у вас немає доступу до справжніх гральних кубиків або ви не хочете використовувати їх, ви можете скористатися вбудованим генератором паролів вашого менеджера паролів, оскільки більшість з них мають можливість генерувати парольні фрази на додачу до звичайних паролів.
 
-We recommend using [EFF's large wordlist](https://www.eff.org/files/2016/07/18/eff_large_wordlist.txt) to generate your diceware passphrases, as it offers the exact same security as the original list, while containing words that are easier to memorize. There are also [other wordlists in different languages](https://theworld.com/~reinhold/diceware.html#Diceware%20in%20Other%20Languages|outline), if you do not want your passphrase to be in English.
+Ми рекомендуємо використовувати [великий список слів EFF](https://www.eff.org/files/2016/07/18/eff_large_wordlist.txt) для генерації паролів для diceware, оскільки він забезпечує таку ж безпеку, як і оригінальний список, але містить слова, які легше запам'ятовувати. Існують також [інші списки слів різними мовами](https://theworld.com/~reinhold/diceware.html#Diceware%20in%20Other%20Languages|outline), якщо ви не хочете, щоб ваша парольна фраза була англійською.
 
-??? note "Explanation of entropy and strength of diceware passphrases"
+??? примітка "Пояснення ентропії та стійкості ключових фраз"
 
-    To demonstrate how strong diceware passphrases are, we'll use the aforementioned seven word passphrase (`viewable fastness reluctant squishy seventeen shown pencil`) and [EFF's large wordlist](https://www.eff.org/files/2016/07/18/eff_large_wordlist.txt) as an example.
+    Щоб продемонструвати, наскільки сильними є ключові фрази, ми використаємо вищезгадану фразу з семи слів (`viewable fastness reluctant squishy seventeen shown pencil`) та [великий список слів EFF] (https://www.eff.org/files/2016/07/18/eff_large_wordlist.txt) як приклад.
     
-    One metric to determine the strength of a diceware passphrase is how much entropy it has. The entropy per word in a diceware passphrase is calculated as $\text{log}_2(\text{WordsInList})$ and the overall entropy of the passphrase is calculated as $\text{log}_2(\text{WordsInList}^\text{WordsInPhrase})$.
+    Одним із показників для визначення сили парольної фрази є її ентропія. Ентропія кожного слова у фразі обчислюється як $\text{log}_2(\text{WordsInList})$, а загальна ентропія фрази обчислюється як $\text{log}_2(\text{WordsInList}^\text{WordsInPhrase})$.
     
-    Therefore, each word in the aforementioned list results in ~12.9 bits of entropy ($\text{log}_2(7776)$), and a seven word passphrase derived from it has ~90.47 bits of entropy ($\text{log}_2(7776^7)$).
+    Отже, кожне слово у вищезгаданому списку дає ~12.9 біт ентропії ($\text{log}_2(7776)$), а похідна від нього фраза з семи слів має ~90.47 біт ентропії ($\text{log}_2(7776^7)$).
     
-    The [EFF's large wordlist](https://www.eff.org/files/2016/07/18/eff_large_wordlist.txt) contains 7776 unique words. To calculate the amount of possible passphrases, all we have to do is $\text{WordsInList}^\text{WordsInPhrase}$, or in our case, $7776^7$.
+    [Великий список слів EFF](https://www.eff.org/files/2016/07/18/eff_large_wordlist.txt) містить 7776 унікальних слів. To calculate the amount of possible passphrases, all we have to do is $\text{WordsInList}^\text{WordsInPhrase}$, or in our case, $7776^7$.
     
     Let's put all of this in perspective: A seven word passphrase using [EFF's large wordlist](https://www.eff.org/files/2016/07/18/eff_large_wordlist.txt) is one of ~1,719,070,799,748,422,500,000,000,000 possible passphrases.
     
