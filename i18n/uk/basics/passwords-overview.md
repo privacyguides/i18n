@@ -1,28 +1,28 @@
 ---
-title: "Introduction to Passwords"
+title: "Вступ до паролів"
 icon: 'material/form-textbox-password'
-description: These are some tips and tricks on how to create the strongest passwords and keep your accounts secure.
+description: Це кілька порад та підказок про те, як створювати найнадійніші паролі та зберігати свої акаунти в безпеці.
 ---
 
-Passwords are an essential part of our everyday digital lives. We use them to protect our accounts, our devices and our secrets. Despite often being the only thing between us and an adversary who's after our private information, not a lot of thought is put into them, which often leads to people using passwords that can be easily guessed or brute-forced.
+Паролі є важливою частиною нашого повсякденного цифрового життя. We use them to protect our accounts, our devices and our secrets. Despite often being the only thing between us and an adversary who's after our private information, not a lot of thought is put into them, which often leads to people using passwords that can be easily guessed or brute-forced.
 
-## Best Practices
+## Найкращі практики
 
-### Use unique passwords for every service
+### Використовуйте унікальні паролі для кожного сервісу
 
 Imagine this; you sign up for an account with the same e-mail and password on multiple online services. If one of those service providers is malicious, or their service has a data breach that exposes your password in an unencrypted format, all a bad actor would have to do is try that e-mail and password combination across multiple popular services until they get a hit. It doesn't matter how strong that one password is, because they already have it.
 
 This is called [credential stuffing](https://en.wikipedia.org/wiki/Credential_stuffing), and it is one of the most common ways that your accounts can be compromised by bad actors. To avoid this, make sure that you never re-use your passwords.
 
-### Use randomly generated passwords
+### Використовуйте випадково згенеровані паролі
 
-==You should **never** rely on yourself to come up with a good password.== We recommend using [randomly generated passwords](#passwords) or [diceware passphrases](#diceware-passphrases) with sufficient entropy to protect your accounts and devices.
+**Ніколи** не варто покладатися на себе у виборі надійного пароля.== Ми рекомендуємо використовувати [випадково згенеровані паролі](#passwords) або [двозначні паролі](#diceware-passphrases) з достатньою ентропією для захисту ваших облікових записів і пристроїв.
 
-All of our [recommended password managers](../passwords.md) include a built-in password generator that you can use.
+Усі наші [рекомендовані менеджери паролів](../passwords.md) містять вбудований генератор паролів, яким ви можете скористатися.
 
-### Rotating Passwords
+### Зміна паролів
 
-You should avoid changing passwords that you have to remember (such as your password manager's master password) too often unless you have reason to believe it has been compromised, as changing it too often exposes you to the risk of forgetting it.
+Вам слід уникати занадто частої зміни паролів, які ви повинні пам'ятати (наприклад, головний пароль вашого менеджера паролів), якщо тільки у вас немає підстав вважати, що він був скомпрометований, оскільки занадто часта зміна пароля наражає вас на ризик його забути.
 
 When it comes to passwords that you don't have to remember (such as passwords stored inside your password manager), if your [threat model](threat-modeling.md) calls for it, we recommend going through important accounts (especially accounts that don't use multi-factor authentication) and changing their password every couple of months, in case they have been compromised in a data breach that hasn't become public yet. Most password managers allow you to set an expiry date for your password to make this easier to manage.
 
@@ -30,41 +30,41 @@ When it comes to passwords that you don't have to remember (such as passwords st
 
     If your password manager lets you check for compromised passwords, make sure to do so and promptly change any password that may have been exposed in a data breach. Alternatively, you could follow [Have I Been Pwned's Latest Breaches feed](https://feeds.feedburner.com/HaveIBeenPwnedLatestBreaches) with the help of a [news aggregator](../news-aggregators.md).
 
-## Creating strong passwords
+## Створення надійних паролів
 
-### Passwords
+### Парольні фрази
 
 A lot of services impose certain criteria when it comes to passwords, including a minimum or maximum length, as well as which special characters, if any, can be used. You should use your password manager's built-in password generator to create passwords that are as long and complex as the service will allow by including capitalized and lowercase letters, numbers and special characters.
 
-If you need a password you can memorize, we recommend a [diceware passphrase](#diceware-passphrases).
+Якщо вам потрібен пароль, який ви зможете запам'ятати, ми рекомендуємо використовувати [парольні фрази](#diceware-passphrases).
 
-### Diceware Passphrases
+### Менеджери паролів
 
-Diceware is a method for creating passphrases which are easy to remember, but hard to guess.
+Парольна фраза - це метод створення ключових фраз, які легко запам'ятати, але важко вгадати.
 
-Diceware passphrases are a great option when you need to memorize or manually input your credentials, such as for your password manager's master password or your device's encryption password.
+Фрази-паролі - чудовий варіант, коли вам потрібно запам'ятати або ввести вручну свої облікові дані, наприклад, головний пароль вашого менеджера паролів або пароль шифрування вашого пристрою.
 
-An example of a diceware passphrase is `viewable fastness reluctant squishy seventeen shown pencil`.
+Прикладом парольної фрази є `viewable fastness reluctant squishy seventeen shown pencil`.
 
-To generate a diceware passphrase using real dice, follow these steps:
+Щоб згенерувати кодову фразу з використанням справжніх гральних кубиків, виконайте такі дії:
 
 !!! note
 
     These instructions assume that you are using [EFF's large wordlist](https://www.eff.org/files/2016/07/18/eff_large_wordlist.txt) to generate the passphrase, which requires five dice rolls per word. Other wordlists may require more or less rolls per word, and may require a different amount of words to achieve the same entropy.
 
-1. Roll a six-sided die five times, noting down the number after each roll.
+1. Киньте шестигранний кубик п'ять разів, записуючи число після кожного кидка.
 
 2. As an example, let's say you rolled `2-5-2-6-6`. Look through the [EFF's large wordlist](https://www.eff.org/files/2016/07/18/eff_large_wordlist.txt) for the word that corresponds to `25266`.
 
 3. You will find the word `encrypt`. Write that word down.
 
-4. Repeat this process until your passphrase has as many words as you need, which you should separate with a space.
+4. Повторюйте цей процес до тих пір, поки у вашій парольній фразі не буде стільки слів, скільки вам потрібно, які слід відокремлювати пробілами.
 
 !!! warning "Important"
 
     You should **not** re-roll words until you get a combination of words that appeal to you. The process should be completely random.
 
-If you don't have access to or would prefer to not use real dice, you can use your password manager's built-in password generator, as most of them have the option to generate diceware passphrases in addition to regular passwords.
+Якщо у вас немає доступу до справжніх гральних кубиків або ви не хочете використовувати їх, ви можете скористатися вбудованим генератором паролів вашого менеджера паролів, оскільки більшість з них мають можливість генерувати парольні фрази на додаток до звичайних паролів.
 
 We recommend using [EFF's large wordlist](https://www.eff.org/files/2016/07/18/eff_large_wordlist.txt) to generate your diceware passphrases, as it offers the exact same security as the original list, while containing words that are easier to memorize. There are also [other wordlists in different languages](https://theworld.com/~reinhold/diceware.html#Diceware%20in%20Other%20Languages|outline), if you do not want your passphrase to be in English.
 
@@ -82,21 +82,21 @@ We recommend using [EFF's large wordlist](https://www.eff.org/files/2016/07/18/e
     
     On average, it takes trying 50% of all the possible combinations to guess your phrase. With that in mind, even if your adversary is capable of ~1,000,000,000,000 guesses per second, it would still take them ~27,255,689 years to guess your passphrase. That is the case even if the following things are true:
 
-    - Your adversary knows that you used the diceware method.
-    - Your adversary knows the specific wordlist that you used.
-    - Your adversary knows how many words your passphrase contains.
+    - Ваш супротивник знає, що ви використовували парольну фразу.
+    - Ваш супротивник знає конкретний список слів, який ви використовували.
+    - Ваш супротивник знає, скільки слів містить ваша парольна фраза.
 
-To sum it up, diceware passphrases are your best option when you need something that is both easy to remember *and* exceptionally strong.
+Підводячи підсумок, парольні фрази - це найкращий варіант, коли вам потрібно щось, що легко запам'ятовується *та* є надзвичайно надійним.
 
-## Storing Passwords
+## Паролі
 
-### Password Managers
+### Резервні копії
 
 The best way to store your passwords is by using a password manager. They allow you to store your passwords in a file or in the cloud and protect them with a single master password. That way, you will only have to remember one strong password, which lets you access the rest of them.
 
 There are many good options to choose from, both cloud-based and local. Choose one of our recommended password managers and use it to establish strong passwords across all of your accounts. We recommend securing your password manager with a [diceware passphrase](#diceware-passphrases) comprised of at least seven words.
 
-[List of recommended password managers](../passwords.md ""){.md-button}
+[Список рекомендованих менеджерів паролів](../passwords.md ""){.md-button}
 
 !!! warning "Don't place your passwords and TOTP tokens inside the same password manager"
 
