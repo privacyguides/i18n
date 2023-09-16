@@ -46,7 +46,7 @@ Assim como o direito ao casamento inter-racial, o direito feminino de votar, a l
 
 Você não deve confundir privacidade com segredo. Sabemos o que acontece no banheiro, mas você ainda fecha a porta. Isso é porque você quer privacidade, não segredo. **Todo mundo** tem algo para proteger. Privacidade é algo que nos torna humanos.
 
-[:material-book-outline: Why Privacy Matters](basics/why-privacy-matters.md){ class="md-button md-button--primary" }
+[:material-book-outline: Por que a privacidade é importante](basics/why-privacy-matters.md){ class="md-button md-button--primary" }
 
 ## O que eu devo fazer?
 
