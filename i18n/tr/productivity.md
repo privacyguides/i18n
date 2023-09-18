@@ -161,9 +161,9 @@ Genel olarak, ofis programlarını çoğu ihtiyaç için Microsoft Word'ün yeri
 
 #### Minimum Gereksinimler
 
-- Must be open-source.
-- Must implement "zero-trust" end-to-end encryption.
-- Must support password-protected files.
+- Açık kaynak olmalıdır.
+- "Sıfır güven" uçtan uca şifreleme uygulamalıdır.
+- Parola korumalı dosyaları desteklemelidir.
 
 
 #### Best-Case

@@ -1,5 +1,5 @@
 ---
-title: "Why Privacy Matters"
+title: "Gizlilik Neden Önemlidir"
 icon: 'material/shield-account'
 ---
 

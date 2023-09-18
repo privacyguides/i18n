@@ -1,14 +1,14 @@
 ---
-meta_title: "The Best Password Managers to Protect Your Privacy and Security - Privacy Guides"
-title: "Password Managers"
+meta_title: "Gizliliğinizi ve Güvenliğinizi Korumanız için En İyi Parola Yöneticileri - Privacy Guides"
+title: "Parola yöneticileri"
 icon: material/form-textbox-password
-description: Password managers allow you to securely store and manage passwords and other credentials.
+description: Parola yöneticileri, parolaları ve diğer kimlik bilgilerini güvenli bir şekilde saklayabilir ve yönetebilirsiniz.
 cover: passwords.png
 schema:
   - 
     "@context": http://schema.org
     "@type": WebPage
-    name: Password Manager Recommendations
+    name: Parola Yöneticisi Önerileri
     url: "./"
   - 
     "@context": http://schema.org
@@ -16,8 +16,8 @@ schema:
     name: Bitwarden
     image: /assets/img/password-management/bitwarden.svg
     url: https://bitwarden.com
-    sameAs: https://en.wikipedia.org/wiki/Bitwarden
-    applicationCategory: Password Manager
+    sameAs: https://tr.wikipedia.org/wiki/Bitwarden
+    applicationCategory: Parola Yöneticisi
     operatingSystem:
       - Windows
       - macOS
@@ -35,7 +35,7 @@ schema:
     image: /assets/img/password-management/1password.svg
     url: https://1password.com
     sameAs: https://en.wikipedia.org/wiki/1Password
-    applicationCategory: Password Manager
+    applicationCategory: Parola Yöneticisi
     operatingSystem:
       - Windows
       - macOS
@@ -66,7 +66,7 @@ schema:
     name: KeePassXC
     image: /assets/img/password-management/keepassxc.svg
     url: https://keepassxc.org/
-    sameAs: https://en.wikipedia.org/wiki/KeePassXC
+    sameAs: https://tr.wikipedia.org/wiki/KeePassXC
     applicationCategory: Password Manager
     operatingSystem:
       - Windows
@@ -118,19 +118,19 @@ schema:
       url: "./"
 ---
 
-Password managers allow you to securely store and manage passwords and other credentials with the use of a master password.
+Parola yöneticileri, bir ana parola kullanarak parolaları ve diğer kimlik bilgilerini güvenli bir şekilde saklamanıza ve yönetmenize olanak tanır.
 
 [Introduction to Passwords :material-arrow-right-drop-circle:](./basics/passwords-overview.md)
 
-!!! info
+!!! bilgi
 
-    Built-in password managers in software like browsers and operating systems are sometimes not as good as dedicated password manager software. The advantage of a built-in password manager is good integration with the software, but it can often be very simple and lack privacy and security features standalone offerings have.
+    Tarayıcılar ve işletim sistemleri gibi yazılımlardaki yerleşik parola yöneticileri bazen özel parola yöneticisi yazılımları kadar iyi olmayabilir. Yerleşik parola yöneticisinin avantajı uygulamayla iyi entagrasyona sahip olmasıdır, ancak bazen çok basit kaçıp bağımsız uygulamaların sahip olduğu gizlilik ve güvenlik özelliklerinden yoksun olabilir.
     
-    For example, the password manager in Microsoft Edge doesn't offer E2EE at all. Google's password manager has [optional](https://support.google.com/accounts/answer/11350823) E2EE, and [Apple's](https://support.apple.com/en-us/HT202303) offers E2EE by default.
+    Örneğin Microsoft Edge'in parola yöneticisi uçtan uca şifrelemeyi desteklemez. Google'ın parola yöneticisi [isteğe bağlı](https://support.google.com/accounts/answer/11350823) uçtan uca şifrelemeye sahiptir ve [Apple'ın](https://support.apple.com/en-us/HT202303) yöneticisi varsayılan olarak uçtan uca şifreleme sunar.
 
-## Cloud-based
+## Bulut tabanlı
 
-These password managers sync your passwords to a cloud server for easy accessibility from all your devices and safety against device loss.
+Bu parola yöneticileri, tüm cihazlarınızdan kolay erişim ve cihaz kaybına karşı güvenlik için parolalarınızı bir bulut sunucusuyla senkronize eder.
 
 ### Bitwarden
 
@@ -138,7 +138,7 @@ These password managers sync your passwords to a cloud server for easy accessibi
 
     ![Bitwarden logo](assets/img/password-management/bitwarden.svg){ align=right }
     
-    **Bitwarden** is a free and open-source password manager. It aims to solve password management problems for individuals, teams, and business organizations. Bitwarden is among the best and safest solutions to store all of your logins and passwords while conveniently keeping them synced between all of your devices.
+    **Bitwarden** açık kaynaklı ve ücretsiz bir parola yöneticisidir. It aims to solve password management problems for individuals, teams, and business organizations. Bitwarden is among the best and safest solutions to store all of your logins and passwords while conveniently keeping them synced between all of your devices.
     
     [:octicons-home-16: Homepage](https://bitwarden.com){ .md-button .md-button--primary }
     [:octicons-eye-16:](https://bitwarden.com/privacy){ .card-link title="Privacy Policy" }
