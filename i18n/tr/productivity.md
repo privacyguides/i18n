@@ -1,13 +1,13 @@
 ---
-title: "Productivity Tools"
+title: "Üretkenlik Araçları"
 icon: material/file-sign
-description: Most online office suites do not support E2EE, meaning the cloud provider has access to everything you do.
+description: Çoğu çevrimiçi ofis uygulmaları uçtan uca şifrelemeyi desteklemez, bu da bulut sağlayıcısının yaptığınız her şeye erişebileceği anlamına gelir.
 cover: productivity.png
 ---
 
-Most online office suites do not support E2EE, meaning the cloud provider has access to everything you do. The privacy policy may legally protect your rights, but it does not provide technical access constraints.
+Çoğu çevrimiçi ofis uygulmaları uçtan uca şifrelemeyi desteklemez, bu da bulut sağlayıcısının yaptığınız her şeye erişebileceği anlamına gelir. Gizlilik politikası haklarınızı yasal olarak koruyabilir, ancak teknik erişim kısıtlamaları sağlamaz.
 
-## Collaboration Platforms
+## Ortak Çalışma Platformları
 
 ### Nextcloud
 
@@ -15,16 +15,15 @@ Most online office suites do not support E2EE, meaning the cloud provider has ac
 
     ![Nextcloud logo](assets/img/productivity/nextcloud.svg){ align=right }
     
-    **Nextcloud** is a suite of free and open-source client-server software for creating your own file hosting services on a private server you control.
+    **Nextcloud**, kontrol ettiğiniz özel bir sunucuda kendi dosya barındırma hizmetlerinizi oluşturmak için ücretsiz ve açık kaynaklı bir istemci-sunucu yazılımı paketidir.
     
-    [:octicons-home-16: Homepage](https://nextcloud.com){ .md-button .md-button--primary }
+    [:octicons-home-16: Ana Sayfa](https://nextcloud.com){ .md-button .md-button--primary }
     [:octicons-eye-16:](https://nextcloud.com/privacy){ .card-link title="Privacy Policy" }
     [:octicons-info-16:](https://nextcloud.com/support/){ .card-link title=Documentation}
     [:octicons-code-16:](https://github.com/nextcloud){ .card-link title="Source Code" }
     [:octicons-heart-16:](https://nextcloud.com/contribute/){ .card-link title=Contribute }
     
-    ??? downloads
-    
+    ??? indirmeler
         - [:simple-googleplay: Google Play](https://play.google.com/store/apps/details?id=com.nextcloud.client)
         - [:simple-appstore: App Store](https://apps.apple.com/app/id1125420102)
         - [:simple-github: GitHub](https://github.com/nextcloud/android/releases)
@@ -32,7 +31,7 @@ Most online office suites do not support E2EE, meaning the cloud provider has ac
         - [:simple-apple: macOS](https://nextcloud.com/install/#install-clients)
         - [:simple-linux: Linux](https://nextcloud.com/install/#install-clients)
 
-!!! danger
+!!! uyarı
 
     We don't recommend using the [E2EE App](https://apps.nextcloud.com/apps/end_to_end_encryption) for Nextcloud as it may lead to data loss; it is highly experimental and not production quality. For this reason, we don't recommend third-party Nextcloud providers.
 
@@ -50,22 +49,22 @@ Most online office suites do not support E2EE, meaning the cloud provider has ac
     [:octicons-code-16:](https://github.com/xwiki-labs/cryptpad){ .card-link title="Source Code" }
     [:octicons-heart-16:](https://opencollective.com/cryptpad){ .card-link title=Contribute }
 
-### Criteria
+### Kriterler
 
-**Please note we are not affiliated with any of the projects we recommend.** In addition to [our standard criteria](about/criteria.md), we have developed a clear set of requirements to allow us to provide objective recommendations. We suggest you familiarize yourself with this list before choosing to use a project, and conduct your own research to ensure it's the right choice for you.
+**Please note we are not affiliated with any of the projects we recommend.** In addition to [our standard criteria](about/criteria.md), we have developed a clear set of requirements to allow us to provide objective recommendations. Bir projeyi kullanmayı seçmeden önce bu listeye aşina olmanızı ve sizin için doğru seçim olduğundan emin olmak için kendi araştırmanızı yapmanızı öneririz.
 
 !!! example "This section is new"
 
-    We are working on establishing defined criteria for every section of our site, and this may be subject to change. If you have any questions about our criteria, please [ask on our forum](https://discuss.privacyguides.net/latest) and don't assume we didn't consider something when making our recommendations if it is not listed here. There are many factors considered and discussed when we recommend a project, and documenting every single one is a work-in-progress.
+    Sitemizin her bölümü için tanımlanmış kriterler oluşturmaya çalışıyoruz ve bu değişebilir. Kriterlerimizle ilgili herhangi bir sorunuz varsa, lütfen [forumumuzda sorun](https://discuss.privacyguides.net/latest) ve burada listelenmemişse, önerilerimizi yaparken dikkate almadığımızı düşünmeyin. Bir projeyi önerdiğimizde dikkate alınan ve tartışılan birçok faktör vardır ve her birini belgelemek için çalışmaya devam ediyoruz.
 
 In general, we define collaboration platforms as full-fledged suites which could reasonably act as a replacement to collaboration platforms like Google Drive.
 
-- Open-source.
-- Makes files accessible via WebDAV unless it is impossible due to E2EE.
-- Has sync clients for Linux, macOS, and Windows.
-- Supports document and spreadsheet editing.
-- Supports real-time document collaboration.
-- Supports exporting documents to standard document formats (e.g. ODF).
+- Açık Kaynak.
+- Uçtan uca şifreleme nedeniyle imkansız olmadığı sürece dosyaları WebDAV aracılığıyla erişilebilir hale getirir.
+- Linux, macOS ve Windows için senkronizasyon uygulamları sağlar.
+- Belge ve elektronik tablo düzenlemeyi destekler.
+- Gerçek zamanlı belge işbirliğini destekler.
+- Belgelerin standart belge formatlarına (örn. ODF) aktarılmasını destekler.
 
 #### Best-Case
 
@@ -74,7 +73,7 @@ Our best-case criteria represents what we would like to see from the perfect pro
 - Should store files in a conventional filesystem.
 - Should support TOTP or FIDO2 multi-factor authentication support, or Passkey logins.
 
-## Office Suites
+## Ofis Programları
 
 ### LibreOffice
 
@@ -82,9 +81,9 @@ Our best-case criteria represents what we would like to see from the perfect pro
 
     ![LibreOffice logo](assets/img/productivity/libreoffice.svg){ align=right }
     
-    **LibreOffice** is a free and open-source office suite with extensive functionality.
+    **LibreOffice** gelişmiş özelliklere sahip ücretsiz ve açık kaynaklı bir ofis programıdır.
     
-    [:octicons-home-16: Homepage](https://www.libreoffice.org){ .md-button .md-button--primary }
+    [:octicons-home-16: Ana Sayfa](https://www.libreoffice.org){ .md-button .md-button--primary }
     [:octicons-eye-16:](https://www.libreoffice.org/about-us/privacy/privacy-policy-en/){ .card-link title="Privacy Policy" }
     [:octicons-info-16:](https://documentation.libreoffice.org/en/english-documentation/){ .card-link title=Documentation}
     [:octicons-code-16:](https://www.libreoffice.org/about-us/source-code){ .card-link title="Source Code" }
@@ -105,14 +104,14 @@ Our best-case criteria represents what we would like to see from the perfect pro
 
     ![OnlyOffice logo](assets/img/productivity/onlyoffice.svg){ align=right }
     
-    **OnlyOffice** is a cloud-based free and open-source office suite with extensive functionality, including integration with Nextcloud.
+    **OnlyOffice**, Nextcloud ile entegrasyon da dahil olmak üzere gelişmiş özelliklere sahip bulut tabanlı ücretsiz ve açık kaynaklı bir ofis programıdır.
     
-    [:octicons-home-16: Homepage](https://www.onlyoffice.com){ .md-button .md-button--primary }
+    [:octicons-home-16: Ana Sayfa](https://www.onlyoffice.com){ .md-button .md-button--primary }
     [:octicons-eye-16:](https://help.onlyoffice.com/products/files/doceditor.aspx?fileid=5048502&doc=SXhWMEVzSEYxNlVVaXJJeUVtS0kyYk14YWdXTEFUQmRWL250NllHNUFGbz0_IjUwNDg1MDIi0){ .card-link title="Privacy Policy" }
     [:octicons-info-16:](https://helpcenter.onlyoffice.com/userguides.aspx){ .card-link title=Documentation}
     [:octicons-code-16:](https://github.com/ONLYOFFICE){ .card-link title="Source Code" }
     
-    ??? downloads
+    ??? indirmeler
     
         - [:simple-googleplay: Google Play](https://play.google.com/store/apps/details?id=com.onlyoffice.documents)
         - [:simple-appstore: App Store](https://apps.apple.com/app/id944896972)
@@ -121,21 +120,21 @@ Our best-case criteria represents what we would like to see from the perfect pro
         - [:simple-linux: Linux](https://www.onlyoffice.com/download-desktop.aspx)
         - [:simple-flathub: Flathub](https://flathub.org/apps/details/org.onlyoffice.desktopeditors)
 
-### Criteria
+### Kriterler
 
-**Please note we are not affiliated with any of the projects we recommend.** In addition to [our standard criteria](about/criteria.md), we have developed a clear set of requirements to allow us to provide objective recommendations. We suggest you familiarize yourself with this list before choosing to use a project, and conduct your own research to ensure it's the right choice for you.
+**Lütfen önerdiğimiz projelerin hiçbirine bağlı olmadığımızı unutmayın.** [standart kriterlerimize](about/criteria.md)ek olarak, objektif tavsiyelerde bulunabilmemiz için bir takım gereklilikler geliştirdik. Bir projeyi kullanmayı seçmeden önce bu listeye aşina olmanızı ve sizin için doğru seçim olduğundan emin olmak için kendi araştırmanızı yapmanızı öneririz.
 
-!!! example "This section is new"
+!!! örnek "Bu bölüm yenidir"
 
-    We are working on establishing defined criteria for every section of our site, and this may be subject to change. If you have any questions about our criteria, please [ask on our forum](https://discuss.privacyguides.net/latest) and don't assume we didn't consider something when making our recommendations if it is not listed here. There are many factors considered and discussed when we recommend a project, and documenting every single one is a work-in-progress.
+    Sitemizin her bölümü için tanımlanmış kriterler oluşturmaya çalışıyoruz ve bu değişebilir. Kriterlerimizle ilgili herhangi bir sorunuz varsa, lütfen [forumumuzda sorun](https://discuss.privacyguides.net/latest) ve burada listelenmemişse, önerilerimizi yaparken dikkate almadığımızı düşünmeyin. Bir projeyi önerdiğimizde dikkate alınan ve tartışılan birçok faktör vardır ve her birini belgelemek için çalışmaya devam ediyoruz.
 
-In general, we define office suites as applications which could reasonably act as a replacement for Microsoft Word for most needs.
+Genel olarak, ofis programlarını çoğu ihtiyaç için Microsoft Word'ün yerine kullanılabilecek uygulamalar olarak tanımlıyoruz.
 
-- Must be cross-platform.
-- Must be open-source software.
-- Must function offline.
-- Must support editing documents, spreadsheets, and slideshows.
-- Must export files to standard document formats.
+- Çapraz platform olmalıdır.
+- Açık kaynaklı yazılım olmalıdır.
+- Çevrimdışı çalışmalıdır.
+- Belgeleri, elektronik tabloları ve slayt gösterilerini düzenlemeyi desteklemelidir.
+- Dosyaları standart belge formatlarına aktarabilmelidir.
 
 ## Paste services
 
@@ -154,13 +153,13 @@ In general, we define office suites as applications which could reasonably act a
 
 ### Criteria
 
-**Please note we are not affiliated with any of the projects we recommend.** In addition to [our standard criteria](about/criteria.md), we have developed a clear set of requirements to allow us to provide objective recommendations. We suggest you familiarize yourself with this list before choosing to use a project, and conduct your own research to ensure it's the right choice for you.
+**Lütfen önerdiğimiz projelerin hiçbirine bağlı olmadığımızı unutmayın.** [standart kriterlerimize](about/criteria.md)ek olarak, objektif tavsiyelerde bulunabilmemiz için bir takım gereklilikler geliştirdik. Bir projeyi kullanmayı seçmeden önce bu listeye aşina olmanızı ve sizin için doğru seçim olduğundan emin olmak için kendi araştırmanızı yapmanızı öneririz.
 
-!!! example "This section is new"
+!!! örnek "Bu bölüm yenidir"
 
-    We are working on establishing defined criteria for every section of our site, and this may be subject to change. If you have any questions about our criteria, please [ask on our forum](https://discuss.privacyguides.net/latest) and don't assume we didn't consider something when making our recommendations if it is not listed here. There are many factors considered and discussed when we recommend a project, and documenting every single one is a work-in-progress.
+    Sitemizin her bölümü için tanımlanmış kriterler oluşturmaya çalışıyoruz ve bu değişebilir. Kriterlerimizle ilgili herhangi bir sorunuz varsa, lütfen [forumumuzda sorun](https://discuss.privacyguides.net/latest) ve burada listelenmemişse, önerilerimizi yaparken dikkate almadığımızı düşünmeyin. Bir projeyi önerdiğimizde dikkate alınan ve tartışılan birçok faktör vardır ve her birini belgelemek için çalışmaya devam ediyoruz.
 
-#### Minimum Requirements
+#### Minimum Gereksinimler
 
 - Must be open-source.
 - Must implement "zero-trust" end-to-end encryption.
