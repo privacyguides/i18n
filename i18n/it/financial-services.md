@@ -44,7 +44,7 @@ Privacy.com fornisce le informazioni sui commercianti da cui acquisti alla tua b
     [:octicons-eye-16:](https://anonyome.com/privacy-policy/){ .card-link title="Politica sulla Privacy" }
     [:octicons-info-16:](https://support.mysudo.com/hc/en-us){ .card-link title=Documentazione}
 
-MySudo's virtual cards are currently only available via their iOS app.
+Le carte virtuali di MySudo sono attualmente disponibili solo tramite la loro app iOS.
 
 ### Criteri
 
