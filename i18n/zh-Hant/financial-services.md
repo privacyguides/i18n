@@ -44,6 +44,8 @@ Privacy.com 預設情況下將您購買的商家資訊提供給您的銀行。 �
     [:octicons-eye-16:](https://anonyome.com/privacy-policy/){ .card-link title="Privacy Policy" }
     [:octicons-info-16:](https://support.mysudo.com/hc/en-us){ .card-link title=Documentation}
 
+MySudo's virtual cards are currently only available via their iOS app.
+
 ### 標準
 
 **請注意，我們與所推薦專案沒有任何牽扯。 ** 除了 [我們的標準準則](about/criteria.md)外，還有一套明確要求以提出客觀建議。 我們建議您在選擇使用項目之前先熟悉此列表，並進行自己的研究，以確保它是您的正確選擇。

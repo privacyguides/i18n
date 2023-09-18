@@ -44,6 +44,8 @@ Privacy.com מספק מידע על הסוחרים מהם אתה רוכש לבנ�
     [:octicons-eye-16:](https://anonyome.com/privacy-policy/){ .card-link title="מדיניות פרטיות" }
     [:octicons-info-16:](https://support.mysudo.com/hc/en-us){ .card-link title=תיעוד}
 
+MySudo's virtual cards are currently only available via their iOS app.
+
 ### קריטריונים
 
 **שים לב שאיננו קשורים לאף אחד מהפרויקטים שאנו ממליצים עליהם.** בנוסף ל [הקריטריונים הסטנדרטיים שלנו](about/criteria.md), פיתחנו סט ברור של דרישות כדי לאפשר לנו לספק המלצות אובייקטיביות. אנו מציעים לך להכיר את הרשימה הזו לפני שתבחר להשתמש בפרויקט, ולערוך מחקר משלך כדי להבטיח שזו הבחירה הנכונה עבורך.

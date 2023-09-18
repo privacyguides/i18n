@@ -44,6 +44,8 @@ Privacy.com facilita por defecto a su banco información sobre los comercios en 
     [:octicons-eye-16:](https://anonyome.com/privacy-policy/){ .card-link title="Política de Privacidad" }
     [:octicons-info-16:](https://support.mysudo.com/hc/en-us){ .card-link title=Documentación}
 
+MySudo's virtual cards are currently only available via their iOS app.
+
 ### Criterios
 
 **Por favor, tenga en cuenta que no estamos afiliados con ninguno de los proyectos que recomendamos.** Además de [nuestros criterios estándar](about/criteria.md), hemos desarrollado un conjunto claro de requisitos que nos permiten ofrecer recomendaciones objetivas. Sugerimos que usted se familiarice con esta lista, antes de elegir utilizar un proyecto y realizar su propia investigación para asegurarse que es la elección ideal para usted.

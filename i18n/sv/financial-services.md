@@ -44,6 +44,8 @@ Privacy.com gives information about the merchants you purchase from to your bank
     [:octicons-eye-16:](https://anonyome.com/privacy-policy/){ .card-link title="Privacy Policy" }
     [:octicons-info-16:](https://support.mysudo.com/hc/en-us){ .card-link title=Documentation}
 
+MySudo's virtual cards are currently only available via their iOS app.
+
 ### Kriterier
 
 **Observera att vi inte är knutna till något av de projekt som vi rekommenderar.** Förutom [våra standardkriterier](about/criteria.md)har vi utvecklat en tydlig uppsättning krav som gör det möjligt för oss att ge objektiva rekommendationer. Vi föreslår att du bekantar dig med den här listan innan du väljer att använda ett projekt, och att du gör din egen forskning för att se till att det är rätt val för dig.
