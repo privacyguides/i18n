@@ -44,7 +44,7 @@ Privacy.com 預設情況下將您購買的商家資訊提供給您的銀行。 �
     [:octicons-eye-16:](https://anonyome.com/privacy-policy/){ .card-link title="Privacy Policy" }
     [:octicons-info-16:](https://support.mysudo.com/hc/en-us){ .card-link title=Documentation}
 
-MySudo's virtual cards are currently only available via their iOS app.
+MySudo 虛擬卡目前只能在其 iOS應用上使用。
 
 ### 標準
 
