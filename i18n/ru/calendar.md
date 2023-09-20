@@ -40,7 +40,7 @@ cover: calendar.png
 
     ![Proton](assets/img/calendar/proton-calendar.svg){ align=right }
     
-    **Proton Calendar** - это зашифрованный календарь, доступный пользователям Proton через мобильные и веб-клиенты. Среди его функций: автоматическое шифрование всех данных, совместный доступ, импорт/экспорт данных и [другие функции](https://proton.me/support/proton-calendar-guide). Бесплатно доступен один календарь, а платные подписчики могут создавать до 20 календарей. Расширенные функции совместного доступа также доступны только по подписке.
+    **Proton Calendar** - это зашифрованный календарь, доступный пользователям Proton через мобильные и веб-клиенты. Среди его функций: автоматическое шифрование всех данных, совместный доступ, импорт/экспорт данных и [другие функции](https://proton.me/support/proton-calendar-guide). Those on the free tier get access to 3 calendars, whereas paid subscribers can create up to 25 calendars. Расширенные функции совместного доступа также доступны только по подписке.
     
     [:octicons-home-16: Домашняя страница](https://proton.me/ru/calendar){ .md-button .md-button--primary }
     [:octicons-eye-16:](https://proton.me/ru/legal/privacy){ .card-link title="Политика конфиденциальности" }

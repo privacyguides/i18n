@@ -38,7 +38,7 @@ cover: calendar.png
 
     ！[Proton](aassets/img/calendar/proton-calendar.svg)}=right }
     
-    **Proton Calendar** 是一个通过网络或移动客户提供给Proton成员的加密日历服务。 功能包括：所有数据的自动E2EE，共享功能，导入/导出功能，多因素认证，以及 [more]（https://proton.me/support/proton-calendar-guide/）。 免费级别上的人可以使用单个日历，而付费用户可以创建多达20个日历。 扩展的分享功能也仅限于付费用户。
+    **Proton Calendar** 是一个通过网络或移动客户提供给Proton成员的加密日历服务。 功能包括：所有数据的自动E2EE，共享功能，导入/导出功能，多因素认证，以及 [more]（https://proton.me/support/proton-calendar-guide/）。 Those on the free tier get access to 3 calendars, whereas paid subscribers can create up to 25 calendars. 扩展的分享功能也仅限于付费用户。
     
     [:octicons-home-16: 主页](https://grapheneos.org/){ .md-button .md-button--primary }
     

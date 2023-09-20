@@ -40,7 +40,7 @@ cover: calendar.png
 
     ![Proton](assets/img/calendar/proton-calendar.svg){ align=right }
     
-    **Proton Calendar** 是 Proton 會員可透過網路或行動客戶端使用的加密行事曆服務。 功能包括：所有資料自動 E2EE 、共享、匯入/匯出等等[眾多功能](https://proton.me/support/proton-calendar-guide). 免費會員可以使用單一行事曆，而付費訂閱者最多可以創建20個行事曆。 擴展共享功能也僅限於付費訂閱者。
+    **Proton Calendar** 是 Proton 會員可透過網路或行動客戶端使用的加密行事曆服務。 功能包括：所有資料自動 E2EE 、共享、匯入/匯出等等[眾多功能](https://proton.me/support/proton-calendar-guide). Those on the free tier get access to 3 calendars, whereas paid subscribers can create up to 25 calendars. 擴展共享功能也僅限於付費訂閱者。
     
     [:octicons-home-16: Homepage](https://proton.me/calendar){ .md-button .md-button--primary }
     [:octicons-eye-16:](https://proton.me/legal/privacy){ .card-link title="Privacy Policy" }

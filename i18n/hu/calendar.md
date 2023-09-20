@@ -40,7 +40,7 @@ A naptárak a legérzékenyebb adataidat tartalmazzák; használj at rest End-to
 
     ![Proton](assets/img/calendar/proton-calendar.svg){ align=right }
     
-    A **Proton Calendar** egy titkosított naptárszolgáltatás, amely a Proton-tagok számára webes vagy mobilklienseken keresztül érhető el. A funkciók közé tartoznak: az összes adat automatikus End-to-End titkosítása, megosztási funkciók, import/export funkciók és még [sok más](https://proton.me/support/proton-calendar-guide). Az ingyenes előfizetéssel rendelkezők egyetlen naptárhoz kapnak hozzáférést, míg a fizetett előfizetők akár 20 naptárat is létrehozhatnak. Kiterjesztett megosztási funkciók szintén csak a fizetett előfizetőknek elérhető.
+    A **Proton Calendar** egy titkosított naptárszolgáltatás, amely a Proton-tagok számára webes vagy mobilklienseken keresztül érhető el. A funkciók közé tartoznak: az összes adat automatikus End-to-End titkosítása, megosztási funkciók, import/export funkciók és még [sok más](https://proton.me/support/proton-calendar-guide). Those on the free tier get access to 3 calendars, whereas paid subscribers can create up to 25 calendars. Kiterjesztett megosztási funkciók szintén csak a fizetett előfizetőknek elérhető.
     
     [:octicons-home-16: Honlap](https://proton.me/calendar){ .md-button .md-button--primary }
     [:octicons-eye-16:](https://proton.me/legal/privacy){ .card-link title="Adatvédelmi Tájékoztató" }

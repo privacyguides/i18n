@@ -51,9 +51,7 @@ Calendars contain some of your most sensitive data; use products that implement 
 
     ![Proton](assets/img/calendar/proton-calendar.svg){ align=right }
     
-    **Proton Calendar** is an encrypted calendar service available to Proton members via web or mobile clients. Tất cả dữ liệu được lưu trữ bên trong nó đều được mã hóa đầu cuối khi được lưu trữ trên các máy chủ của ProtonMail. [Website](https://calendar.protonmail.com){ .md-button .md-button--primary } [Chính Sách Bảo Mật](https://protonmail.com/privacy-policy){ .md-button }
-    
-    ??? tải xuống
+    **Proton Calendar** is an encrypted calendar service available to Proton members via web or mobile clients. Tất cả dữ liệu được lưu trữ bên trong nó đều được mã hóa đầu cuối khi được lưu trữ trên các máy chủ của ProtonMail. Those on the free tier get access to 3 calendars, whereas paid subscribers can create up to 25 calendars. tải xuống
     
         - [:fontawesome-brands-google-play: Google Play](https://play.google.com/store/apps/details?id=me.proton.android.calendar)
         - [:fontawesome-brands-github: Mã nguồn](https://github.com/ProtonMail/WebClients)

@@ -40,7 +40,7 @@ cover: calendar.png
 
     ![Proton](assets/img/calendar/proton-calendar.svg){ align=right }
     
-    **Proton Calendar** הוא שירות לוח שנה מוצפן הזמין לחברי Proton דרך לקוחות אינטרנט או ניידים. התכונות כוללות: E2EE אוטומטי של כל הנתונים, תכונות שיתוף, פונקציונליות ייבוא/ייצוא [ועוד](https://proton.me/support/proton-calendar-guide). אלה בשכבה החינמית מקבלים גישה ללוח שנה בודד, בעוד שמנויים בתשלום יכולים ליצור עד 20 לוחות שנה. פונקציונליות השיתוף המורחבת מוגבלת גם למנויים בתשלום.
+    **Proton Calendar** הוא שירות לוח שנה מוצפן הזמין לחברי Proton דרך לקוחות אינטרנט או ניידים. התכונות כוללות: E2EE אוטומטי של כל הנתונים, תכונות שיתוף, פונקציונליות ייבוא/ייצוא [ועוד](https://proton.me/support/proton-calendar-guide). Those on the free tier get access to 3 calendars, whereas paid subscribers can create up to 25 calendars. פונקציונליות השיתוף המורחבת מוגבלת גם למנויים בתשלום.
     
     [:octicons-home-16: דף הבית](https://proton.me/calendar){ .md-button .md-button--primary }
     [:octicons-eye-16:](https://proton.me/legal/privacy){ .card-link title="מדיניות פרטיות" }

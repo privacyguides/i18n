@@ -52,11 +52,7 @@ Calendars contain some of your most sensitive data; use products that implement 
 
     ![Proton](assets/img/calendar/proton-calendar.svg){ align=right }
     
-    **Proton Calendar** is an encrypted calendar service available to Proton members via web or mobile clients. Todos os dados armazenados dentro dele são encriptados de ponta a ponta quando armazenados nos servidores do ProtonMail. [Visite calendar.protonmail.com](https://calendar.protonmail.com){ .md-button .md-button--primary } [Política de Privacidade](https://protonmail.com/privacy-policy){ .md-button }
-    
-    **Downloads***
-    - [:fontawesome-brands-google-play: Google Play](https://play.google.com/store/apps/details?id=me.proton.android.calendar)
-    - [:fontawesome-brands-github: Fonte](https://github.com/ProtonMail/WebClients) Extended sharing functionality is also limited to paid subscribers.
+    **Proton Calendar** is an encrypted calendar service available to Proton members via web or mobile clients. Todos os dados armazenados dentro dele são encriptados de ponta a ponta quando armazenados nos servidores do ProtonMail. Those on the free tier get access to 3 calendars, whereas paid subscribers can create up to 25 calendars. Extended sharing functionality is also limited to paid subscribers.
     
     [:octicons-home-16: Homepage](https://proton.me/calendar){ .md-button .md-button--primary }
     [:octicons-eye-16:](https://proton.me/legal/privacy){ .card-link title="Privacy Policy" }

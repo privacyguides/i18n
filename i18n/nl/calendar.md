@@ -40,7 +40,7 @@ Kalenders en contactpersonen bevatten enkele van jouw gevoeligste gegevens; gebr
 
     ![Proton](assets/img/calendar/proton-calendar.svg){ align=right }
     
-    **Proton Calendar** is een versleutelde kalenderdienst die beschikbaar is voor Proton-leden via web- of mobiele clients. Functies zijn onder meer: automatische E2EE van alle gegevens, functies voor delen, import/export-functionaliteit, en [more](https://proton.me/support/proton-calendar-guide). Gratis abonnees krijgen toegang tot één agenda, terwijl betalende abonnees tot 20 agenda's kunnen aanmaken. De uitgebreide functionaliteit voor delen is ook beperkt tot betaalde abonnees.
+    **Proton Calendar** is een versleutelde kalenderdienst die beschikbaar is voor Proton-leden via web- of mobiele clients. Functies zijn onder meer: automatische E2EE van alle gegevens, functies voor delen, import/export-functionaliteit, en [more](https://proton.me/support/proton-calendar-guide). Those on the free tier get access to 3 calendars, whereas paid subscribers can create up to 25 calendars. De uitgebreide functionaliteit voor delen is ook beperkt tot betaalde abonnees.
     
     [:octicons-home-16: Homepage](https://proton.me/calendar){ .md-button .md-button--primary }
     [:octicons-eye-16:](https://proton.me/legal/privacy){ .card-link title="Privacy Policy" }

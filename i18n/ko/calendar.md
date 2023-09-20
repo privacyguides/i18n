@@ -40,7 +40,7 @@ cover: calendar.png
 
     ![Proton](assets/img/calendar/proton-calendar.svg){ align=right }
     
-    **Proton Calendar**는 Proton 회원이라면 웹/모바일 클라이언트에서 사용 가능한 암호화 캘린더 서비스입니다. 모든 데이터 자동 E2EE, 공유 기능, 가져오기/내보내기 기능을 포함한 [다양한 기능](https://proton.me/support/proton-calendar-guide)이 있습니다. 무료 플랜 사용자는 하나의 캘린더를 사용할 수 있고, 유료 플랜 사용자는 최대 20개의 캘린더를 생성할 수 있습니다. 확장된 공유 기능은 유료 플랜 사용자 전용입니다.
+    **Proton Calendar**는 Proton 회원이라면 웹/모바일 클라이언트에서 사용 가능한 암호화 캘린더 서비스입니다. 모든 데이터 자동 E2EE, 공유 기능, 가져오기/내보내기 기능을 포함한 [다양한 기능](https://proton.me/support/proton-calendar-guide)이 있습니다. Those on the free tier get access to 3 calendars, whereas paid subscribers can create up to 25 calendars. 확장된 공유 기능은 유료 플랜 사용자 전용입니다.
     
     [:octicons-home-16: 홈페이지](https://proton.me/calendar){ .md-button .md-button--primary }
     [:octicons-eye-16:](https://proton.me/legal/privacy){ .card-link title="프라이버시 정책" }
