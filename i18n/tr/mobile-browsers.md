@@ -66,7 +66,7 @@ On Android, Firefox is still less secure than Chromium-based alternatives: Mozil
 
 #### Önerilen Yapılandırma
 
-Tor Browser is the only way to truly browse the internet anonymously. When you use Brave, we recommend changing the following settings to protect your privacy from certain parties, but all browsers other than the [Tor Browser](tor.md#tor-browser) will be traceable by *somebody* in some regard or another.
+Tor Browser, internette gerçekten anonim olarak gezinmenin tek yoludur. When you use Brave, we recommend changing the following settings to protect your privacy from certain parties, but all browsers other than the [Tor Browser](tor.md#tor-browser) will be traceable by *somebody* in some regard or another.
 
 These options can be found in :material-menu: → **Settings** → **Brave Shields & privacy**
 

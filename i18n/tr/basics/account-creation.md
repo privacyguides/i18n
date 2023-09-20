@@ -1,8 +1,8 @@
 ---
-meta_title: "How to Create Internet Accounts Privately - Privacy Guides"
-title: "Account Creation"
+meta_title: "Nasıl Gizli bir Şekilde İnternet Hesapları Oluşturulur - Privacy Guides"
+title: "Hesap Oluşturma"
 icon: 'material/account-plus'
-description: Creating accounts online is practically an internet necessity, take these steps to make sure you stay private.
+description: Çevrimiçi hesaplar oluşturmak neredeyse bir internet gerekliliğidir, gizli kaldığınızdan emin olmak için bu adımları takip edin.
 ---
 
 Çoğu zaman insanlar düşünmeden hizmetlere kaydolurlar. Bu, herkesin konuştuğu yeni diziyi izleyebileceğiniz bir yayın hizmeti ya da en sevdiğiniz fast food restoranında indirim sağlayan bir hesap olabilir. Her ne için olursa olsun, şimdi ve daha sonrası için verileriniz üzerindeki etkilerini göz önünde bulundurmalısınız.
@@ -65,14 +65,14 @@ OAuth authentication can be especially useful in those situations where you coul
 
 All the services that use OAuth will be as secure as your underlying provider's account. For example, if you want to secure an account with a hardware key, but that service doesn't support hardware keys, you can secure the account you use with OAuth with a hardware key instead, and now you essentially have hardware MFA on all your accounts. It is worth noting though that weak authentication on your OAuth provider account means that any account tied to that login will also be weak.
 
-### Phone number
+### Telefon numarası
 
-We recommend avoiding services that require a phone number for sign up. A phone number can identity you across multiple services and depending on data sharing agreements this will make your usage easier to track, particularly if one of those services is breached as the phone number is often **not** encrypted.
+Kayıt için telefon numarası gerektiren hizmetlerden kaçınmanızı öneririz. Bir telefon numarası sizi birden fazla hizmette tanımlayabilir ve veri paylaşım anlaşmalarına bağlı olarak bu, özellikle telefon numarası genellikle **şifrelenmediği** için bu hizmetlerden birinin ihlal edilmesi durumunda kullanımınızın izlenmesini kolaylaştıracaktır.
 
-You should avoid giving out your real phone number if you can. Some services will allow the use of VOIP numbers, however these often trigger fraud detection systems, causing an account to be locked down, so we don't recommend that for important accounts.
+Mümkünse gerçek telefon numaranızı vermekten kaçınmalısınız. Some services will allow the use of VOIP numbers, however these often trigger fraud detection systems, causing an account to be locked down, so we don't recommend that for important accounts.
 
 In many cases you will need to provide a number that you can receive SMS or calls from, particularly when shopping internationally, in case there is a problem with your order at border screening. It's common for services to use your number as a verification method; don't let yourself get locked out of an important account because you wanted to be clever and give a fake number!
 
-### Username and password
+### Kullanıcı adı ve şifre
 
-Some services allow you to register without using an email address and only require you to set a username and password. These services may provide increased anonymity when combined with a VPN or Tor. Keep in mind that for these accounts there will most likely be **no way to recover your account** in the event you forget your username or password.
+Bazı hizmetler e-posta kullanmanızı gerektirmeden, sadece kullanıcı adı ve şifre ile kayıt olmanıza izin verirler. Bu hizmetler VPN ve Tor ile birlikte kullanıldığında ekstra gizlilik sağlayabilirler. Bu hesaplar için kullanıcı adınızı veya şifrenizi unutmanız durumunda büyük olasılıkla **hesabınızı kurtarmanın hiçbir yolu olmayacağını** unutmayın.
