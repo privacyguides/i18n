@@ -40,7 +40,7 @@ Les calendriers contiennent certaines de vos données les plus sensibles ; utili
 
     ![Proton](assets/img/calendar/proton-calendar.svg){ align=right }
     
-    **Proton Calendar** est un service de calendrier chiffré disponible pour les membres de Proton via des clients web ou mobiles. Les fonctionnalités incluent: E2EE automatique de toutes les données, des fonctions de partage, la fonctionnalité d'import/export, et [plus](https://proton.me/fr/support/proton-calendar-guide). Those on the free tier get access to 3 calendars, whereas paid subscribers can create up to 25 calendars. Les fonctionnalités de partage avancées sont également limitées aux abonnés payants.
+    **Proton Calendar** est un service de calendrier chiffré disponible pour les membres de Proton via des clients web ou mobiles. Les fonctionnalités incluent: E2EE automatique de toutes les données, des fonctions de partage, la fonctionnalité d'import/export, et [plus](https://proton.me/fr/support/proton-calendar-guide). Les abonnés au service gratuit n'ont accès qu'à 3 calendriers, tandis que les abonnés payants peuvent créer jusqu'à 25 calendriers. Les fonctionnalités de partage avancées sont également limitées aux abonnés payants.
     
     [:octicons-home-16: Page d'accueil](https://proton.me/calendar){ .md-button .md-button--primary }
     [:octicons-eye-16:](https://proton.me/legal/privacy){ .card-link title="Politique de confidentialité" }
