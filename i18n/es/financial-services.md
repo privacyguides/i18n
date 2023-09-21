@@ -44,7 +44,7 @@ Privacy.com facilita por defecto a su banco información sobre los comercios en 
     [:octicons-eye-16:](https://anonyome.com/privacy-policy/){ .card-link title="Política de Privacidad" }
     [:octicons-info-16:](https://support.mysudo.com/hc/en-us){ .card-link title=Documentación}
 
-MySudo's virtual cards are currently only available via their iOS app.
+Por el momento, las tarjetas virtuales de MySudo solo están disponibles a través de la aplicación para iOS.
 
 ### Criterios
 
