@@ -19,18 +19,18 @@
 *[ECS]: EDNS Client Subnet
 *[EEA]: European Economic Area
 *[entropy]: A measurement of how unpredictable something is
-*[EOL]: End-of-Life
+*[EOL]: サポート終了（End-of-Life）
 *[Exif]: 交換可能な画像ファイル形式（Exchangeable image file format）
 *[FCM]: Firebaseクラウドメッセージング
-*[FDE]: Full Disk Encryption
+*[FDE]: フルディスク暗号化（Full Disk Encryption）
 *[FIDO]: Fast IDentity Online
-*[FS]: Forward Secrecy
+*[FS]: 前方秘匿性（Forward Secrecy）
 *[fork]: A new software project created by copying an existing project and adding to it independently
 *[GDPR]: EU一般データ保護規則（General Data Protection Regulation）
-*[GPG]: GNU Privacy Guard (PGP implementation)
+*[GPG]: GNU Privacy Guard（PGPの実装）
 *[GPS]: 全地球測位システム（Global Positioning System）
 *[GUI]: グラフィカルユーザーインターフェース
-*[GnuPG]: GNU Privacy Guard (PGP implementation)
+*[GnuPG]: GNU Privacy Guard（PGPの実装）
 *[HDD]: ハードディスクドライブ
 *[HOTP]: HMAC (Hash-based Message Authentication Code) based One-Time Password
 *[HTTPS]: Hypertext Transfer Protocol Secure
@@ -66,7 +66,7 @@
 *[OpenPGP]: Pretty Good Privacy (PGP) のオープンソースの実装
 *[P2P]: ピアツーピア
 *[PAM]: Linuxプラグイン式認証モジュール
-*[POP3]: Post Office Protocol 3
+*[POP3]: Post Office Protocol 3（電子メール受信用プロトコル）
 *[PGP]: プリティグッドプライバシー(OpenPGPを参照)
 *[PII]: 個人を特定できる情報（Personally Identifiable Information）
 *[QNAME]: Qualified Name
@@ -93,7 +93,7 @@
 *[UEFI]: Unified Extensible Firmware Interface
 *[UDP]: ユーザーデータグラムプロトコル（User Datagram Protocol）
 *[VPN]: 仮想プライベートネットワーク（Virtual Private Network）
-*[VoIP]: Voice over IP (Internet Protocol)
+*[VoIP]: Voice over IP
 *[W3C]: World Wide Web Consortium
 *[XMPP]: Extensible Messaging and Presence Protocol
 *[PWA]: プログレッシブウェブアプリ（Progressive Web App）

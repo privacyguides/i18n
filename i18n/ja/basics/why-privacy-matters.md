@@ -5,7 +5,7 @@ icon: 'material/shield-account'
 
 デジタルデータが搾取される現代において、あなたのプライバシーはかつてないほど重要になっています。プライバシーが既に失われたと感じている人もいますが、 それは間違っています。 しっかりと注意を払えば、==プライバシーは手に入ります==。 プライバシーは力であり、この力が正しい人の手にあることは非常に重要です。
 
-プライバシーは究極的には人間の情報に関することであり、これは重要です。なぜなら、情報は人間を支配する力をになるからです。 真に満たされた自由な人間になりたいならば、私たちの情報に適用されるルールをよく確認する必要があります。 現代社会の多くは**情報**を中心に構成されています。 オンラインで買い物をするとき、ニュースを読むとき、何かを調べるとき、投票するとき、道順を調べたるとき、その他あらゆることをするときにあなたは情報に頼っています。 情報社会において、私たちの情報は重要であり、したがってプライバシーは重要です。
+プライバシーは究極的には人間の情報に関するものであり、ご存知のように情報は人間を支配する力になるため、プライバシーは重要です。 真に満たされた自由な人間になりたいならば、私たちの情報に適用されるルールをよく確認する必要があります。 現代社会の多くは**情報**を中心に構成されています。 オンラインで買い物をするとき、ニュースを読むとき、何かを調べるとき、投票するとき、道順を調べたるとき、その他あらゆることをするときにあなたは情報に頼っています。 情報社会において、私たちの情報は重要であり、したがってプライバシーは重要です。
 
 ## プライバシーとは何か？
 
@@ -40,7 +40,7 @@ All of these concepts overlap, but it is possible to have any combination of the
 
 A common counter-argument to pro-privacy movements is the notion that one doesn't need privacy if they have **"nothing to hide."** This is a dangerous misconception, because it creates a sense that people who demand privacy must be deviant, criminal, or wrong.
 
-==You shouldn't confuse privacy with secrecy.== We know what happens in the bathroom, but you still close the door. 用を足しているという事実を秘密にするためではなく、プライバシーを守るためにドアを閉めるのです。 There are always certain facts about us—say, personal health information, or sexual behavior—that we wouldn't want the whole world to know, and that's okay. The need for privacy is legitimate, and that's what makes us human. Privacy is about empowering your rights over your own information, not about hiding secrets.
+==プライバシーと秘密を混同しないでください。==私たちは浴室で何をするかを知っていますが、浴室を使うときにはドアを閉めます。 これは裸になり体を洗っているという事実を秘密にするためではなく、プライバシーを守るためにドアを閉めているのです。 There are always certain facts about us—say, personal health information, or sexual behavior—that we wouldn't want the whole world to know, and that's okay. The need for privacy is legitimate, and that's what makes us human. Privacy is about empowering your rights over your own information, not about hiding secrets.
 
 ## Is Privacy About Control?
 

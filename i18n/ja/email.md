@@ -167,18 +167,18 @@ Mailbox.orgの全てのプランにはデジタル遺産機能があります。
 
     ![Skiff Mail logo](assets/img/email/skiff-mail.svg){ align=right }
     
-    **Skiff Mail** is a web based email service with E2EE that began in 2020 that is based in San Francisco with developers worldwide. Accounts start with 10GB of free storage.
+    **Skiff Mail**は、2020年にサンフランシスコを拠点に世界中の開発者と共に開始されたウェブベースのE2EEメールサービスです。 アカウントは、10GBのストレージを無料で利用できます。
     
     [:octicons-home-16: Homepage](https://skiff.com/mail){ .md-button .md-button--primary }
     [:octicons-eye-16:](https://app.skiff.com/docs/db93c237-84c2-4b2b-9588-19a7cd2cd45a#tyGksN9rkqbo2uGYASxsA6HVLjUoly/wTYK8tncTto8=){ .card-link title="Privacy Policy" }
     [:octicons-info-16:](https://skiff.com/help){ .card-link title=Documentation}
     [:octicons-code-16:](https://github.com/skiff-org/skiff-apps){ .card-link title="Source Code" }
     
-    ??? downloads
+    ??? ダウンロード
     
         - [:simple-android: Android](https://play.google.com/store/apps/details?id=com.skemailmobileapp&pli=1)
         - [:simple-appstore: iOS](https://apps.apple.com/us/app/skiff-mail/id1619168801)
-        - [:octicons-browser-16: Web](https://app.skiff.com/mail)
+        - [:octicons-browser-16: ウェブ](https://app.skiff.com/mail)
 
 Skiff has undergone a few [audits](https://skiff.com/transparency) during its development.
 
@@ -343,7 +343,7 @@ The number of shared aliases (which end in a shared domain like @addy.io) that y
     [:octicons-info-16:](https://simplelogin.io/docs/){ .card-link title=ドキュメント}
     [:octicons-code-16:](https://github.com/simple-login){ .card-link title="ソースコード" }
     
-    ??? downloads
+    ??? ダウンロード
     
         - [:simple-googleplay: Google Play](https://play.google.com/store/apps/details?id=io.simplelogin.android)
         - [:simple-appstore: App Store](https://apps.apple.com/app/id1494359858)
@@ -427,9 +427,9 @@ We regard these features as important in order to provide a safe and optimal ser
 
 **最低条件：**
 
-- Protect sender's IP address. Filter it from showing in the `Received` header field.
-- Don't require personally identifiable information (PII) besides a username and a password.
-- Privacy policy that meets the requirements defined by the GDPR.
+- 送信者IPアドレスを保護している。 `Received`ヘッダーフィールドに表示されないようフィルターしている。
+- ユーザー名とパスワード以外に、個人情報(PII)を必要としない。
+- プライバシーポリシーがGDPRの要件を満たしている。
 
 **最良の場合：**
 
@@ -448,8 +448,8 @@ We regard these features as important in order to provide a safe and optimal ser
 - No TLS errors or vulnerabilities when being profiled by tools such as [Hardenize](https://www.hardenize.com/), [testssl.sh](https://testssl.sh/), or [Qualys SSL Labs](https://www.ssllabs.com/ssltest); this includes certificate related errors and weak DH parameters, such as those that led to [Logjam](https://en.wikipedia.org/wiki/Logjam_(computer_security)).
 - A server suite preference (optional on TLSv1.3) for strong cipher suites which support forward secrecy and authenticated encryption.
 - 有効な [MTA-STS](https://tools.ietf.org/html/rfc8461) および [TLS-RPT](https://tools.ietf.org/html/rfc8460) ポリシー。
-- Valid [DANE](https://en.wikipedia.org/wiki/DNS-based_Authentication_of_Named_Entities) records.
-- Valid [SPF](https://en.wikipedia.org/wiki/Sender_Policy_Framework) and [DKIM](https://en.wikipedia.org/wiki/DomainKeys_Identified_Mail) records.
+- 有効な[DANE](https://en.wikipedia.org/wiki/DNS-based_Authentication_of_Named_Entities)レコード。
+- 有効な[SPF](https://ja.wikipedia.org/wiki/Sender_Policy_Framework)および[DKIM](https://ja.wikipedia.org/wiki/DKIM)レコード。
 - Have a proper [DMARC](https://en.wikipedia.org/wiki/DMARC) record and policy or use [ARC](https://en.wikipedia.org/wiki/Authenticated_Received_Chain) for authentication. If DMARC authentication is being used, the policy must be set to `reject` or `quarantine`.
 - A server suite preference of TLS 1.2 or later and a plan for [RFC8996](https://datatracker.ietf.org/doc/rfc8996/).
 - [SMTPS](https://en.wikipedia.org/wiki/SMTPS) submission, assuming SMTP is used.
