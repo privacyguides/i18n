@@ -71,25 +71,25 @@ For example, an attorney representing a client in a national security case may b
 
 These questions can apply to a wide variety of situations, online and offline. As a generic demonstration of how these questions work, let's build a plan to keep your house and possessions safe.
 
-**What do you want to protect? (Or, *what do you have that is worth protecting?*)**
+**何を守りたいか？ (Or, *what do you have that is worth protecting?*)**
 :
 
-Your assets might include jewelry, electronics, important documents, or photos.
+あなたの資産には、ジュエリー、電子機器、重要な文書、写真が含まれるかもしれません。
 
-**Who do you want to protect it from?**
+**誰から守りたいか？**
 :
 
-Your adversaries might include burglars, roommates, or guests.
+あなたの敵には、強盗、ルームメイト、来客者が含まれるかもしれません。
 
-**How likely is it that you will need to protect it?**
+**守る必要がどの程度あるか？**
 :
 
-Does your neighborhood have a history of burglaries? How trustworthy are your roommates or guests? What are the capabilities of your adversaries? What are the risks you should consider?
+近所で強盗が発生したことはありますか？ ルームメイトや来客者はどのくらい信頼できますか？ What are the capabilities of your adversaries? What are the risks you should consider?
 
-**How bad are the consequences if you fail?**
+**守れなかった場合、どんな悪影響があるか？**
 :
 
-Do you have anything in your house that you cannot replace? Do you have the time or money to replace those things? Do you have insurance that covers goods stolen from your home?
+家に、代わりを用意できないものはありますか？ ものを交換する時間やお金はありますか？ 家から盗まれたものをカバーできる保険に入っていますか？
 
 **守るためにどの程度なら苦労してもいいですか？**
 :
