@@ -36,7 +36,7 @@ cover: news-aggregators.png
     **Feeder** 是 Android 版本的 RSS 客戶端，具有許多 [特色](https://gitlab.com/spacecowboy/Feeder#features) ，且可與RSS 訊息來源的資料夾配合使用。 它支持 [RSS](https://en.wikipedia.org/wiki/RSS), [Atom](https://en.wikipedia.org/wiki/Atom_(Web_standard)), [RDF](https://en.wikipedia.org/wiki/RDF%2FXML) 和 [JSON Feed](https://en.wikipedia.org/wiki/JSON_Feed)。
     
     [:octicons-repo-16: Repository](https://gitlab.com/spacecowboy/Feeder){ .md-button .md-button--primary }
-    [:octicons-code-16:](https://gitlab.com/spacecowboy/Feeder){ .card-link title="Source Code" }
+    [:octicons-code-16:](https://github.com/spacecowboy/Feeder){ .card-link title="Source Code" }
     [:octicons-heart-16:](https://ko-fi.com/spacecowboy){ .card-link title=Contribute }
     
     ??? downloads "下載"
