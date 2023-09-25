@@ -24,7 +24,7 @@ IOS 上應用的唯一來源是 Apple App Store，需要 Apple ID 才能訪問�
 
 蘋果在 iOS 適當匿名遙測上常發生問題。 [2019 年](https://www.theguardian.com/technology/2019/jul/26/apple-contractors-regularly-hear-confidential-details-on-siri-recordings)，Apple 被發現將 Siri 錄音（其中一些包含高度機密信息）傳輸回其伺服器，以供第三方承包商進行手動審核。 雖然這種做法被[廣泛報導](https://www.theverge.com/2019/8/23/20830120/apple-contractors-siri-recordings-listening-1000-a-day-globetech -microsoft-cortana)後他們暫時停止該計劃，但截至[ 2021 年](https://www.theguardian.com/technology/2021/jun/07/apple-overhauls-siri-to-address-privacy-concerns-and-improve-performance)，此問題仍未完全解決。
 
-最近，人們發現 Apple [即使在禁用分析共享的情況下， iOS 上也會傳輸分析數據 ](https://gizmodo.com/apple-iphone-analytics-tracking-even-when-off-app-store-1849757558) ，儘管據稱匿名的，這些數據[似乎](https://twitter.com/mysk_co/status/1594515229915979776)很容易連結到唯一的 iCloud 帳戶標識符。 截至 2023 年 7 月，Apple 尚未修復[這些問題](https://gizmodo.com/clarence-thomas-aide-venmo-laywers-supreme-court-1850631585)。
+More recently, Apple has been found to [transmit analytics even when analytics sharing is disabled](https://gizmodo.com/apple-iphone-analytics-tracking-even-when-off-app-store-1849757558) on iOS, and this data [appears](https://twitter.com/mysk_co/status/1594515229915979776) to be easily linked to unique iCloud account identifiers despite supposedly being anonymous.
 
 ## 建議配置
 
