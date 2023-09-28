@@ -72,10 +72,10 @@ Utilizzando un'istanza di SearXNG, assicurati di leggere la loro politica sulla 
 
 !!! recommendation
 
-    ![Startpage logo](assets/img/search-engines/startpage.svg#only-light){ align=right }
-    ![Startpage logo](assets/img/search-engines/startpage-dark.svg#only-dark){ align=right }
+    ![Logo di Startpage](assets/img/search-engines/startpage.svg#only-light){ align=right }
+    ![Logo di Startpage](assets/img/search-engines/startpage-dark.svg#only-dark){ align=right }
     
-    **Startpage** is a private search engine known for serving [Google and Bing](https://support.startpage.com/hc/en-us/articles/4522435533844-What-is-the-relationship-between-Startpage-and-your-search-partners-like-Google-and-Microsoft-Bing-) search results.  Una delle funzionalità uniche di Staartpage è la [Visualizzazione Anonima](https://www.startpage.com/en/anonymous-view/), che si sforza per standardizzare l'attività degli utenti, per complicare l'identificazione univoca. Tale funzionalità può essere utile per nascondere [alcune](https://support.startpage.com/hc/en-us/articles/4455540212116-The-Anonymous-View-Proxy-technical-details) reti e proprietà del browser. A differenza di quanto suggerito dal nome, non ci si dovrebbe affidare a tale funzionalità per l'anonimato. Se cerchi l'anonimato, piuttosto, utilizza il [Tor Browser](tor.md#tor-browser).
+    **Startpage** è un motore di ricerca privato conosciuto per fornire risultati di ricerca da [Google e Bing](https://support.startpage.com/hc/en-us/articles/4522435353844-What-is-the-relationship-between-Startpage-and-your-search-partners-like-Google-and-Microsoft-Bing-).  Una delle funzionalità uniche di Staartpage è la [Visualizzazione Anonima](https://www.startpage.com/en/anonymous-view/), che si sforza per standardizzare l'attività degli utenti, per complicare l'identificazione univoca. Tale funzionalità può essere utile per nascondere [alcune](https://support.startpage.com/hc/en-us/articles/4455540212116-The-Anonymous-View-Proxy-technical-details) reti e proprietà del browser. A differenza di quanto suggerito dal nome, non ci si dovrebbe affidare a tale funzionalità per l'anonimato. Se cerchi l'anonimato, piuttosto, utilizza il [Tor Browser](tor.md#tor-browser).
     
     [:octicons-home-16: Home](https://www.startpage.com){ .md-button .md-button--primary }
     [:octicons-eye-16:](https://www.startpage.com/en/privacy-policy){ .card-link title="Politica sulla Privacy" }
