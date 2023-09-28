@@ -401,7 +401,7 @@ That said, the [F-Droid](https://f-droid.org/en/packages/) and [IzzyOnDroid](htt
 
 ### Operating Systems
 
-- Must be open-source software.
+- オープンソース ソフトウェアである必要があります。
 - Must support bootloader locking with custom AVB key support.
 - Must receive major Android updates within 0-1 months of release.
 - Must receive Android feature updates (minor version) within 0-14 days of release.

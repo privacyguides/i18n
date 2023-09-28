@@ -217,7 +217,7 @@ By default, LibreTube blocks all YouTube advertisements. Additionally, Libretube
 
 Recommended frontends...
 
-- Must be open-source software.
+- オープンソース ソフトウェアである必要があります。
 - Must be self-hostable.
 - Must provide all basic website functionality available to anonymous users.
 

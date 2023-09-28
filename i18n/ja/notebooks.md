@@ -17,7 +17,7 @@ cover: notebooks.png
 
     ![Standard Notesのロゴ](assets/img/notebooks/standard-notes.svg){ align=right }
     
-    **Standard Notes**はどこからでも簡単にメモを取れる、シンプルかつプライベートなノートアプリです。 すべてのプラットフォームでエンドツーエンド暗号化を使用し、テーマやカスタムエディタによる強力なデスクトップ環境を提供します。 It has also been [independently audited](https://standardnotes.com/help/2/has-standard-notes-completed-a-third-party-security-audit).
+    **Standard Notes**はどこからでも簡単にメモを取れる、シンプルかつプライベートなノートアプリです。 すべてのプラットフォームでエンドツーエンド暗号化を使用し、テーマやカスタムエディタによる強力なデスクトップ環境を提供します。 また、[独立した監査](https://standardnotes.com/help/2/has-standard-notes-completed-a-third-party-security-audit) も受けています。
     
     [:octicons-home-16: ホームページ](https://standardnotes.com){ .md-button .md-button--primary }
     [:octicons-eye-16:](https://standardnotes.com/privacy){ .card-link title="プライバシーポリシー" }
@@ -126,11 +126,11 @@ Cryptee は 100MB のストレージを無料で提供していますが、さ�
 
 ## 基準
 
-**Please note we are not affiliated with any of the projects we recommend.** In addition to [our standard criteria](about/criteria.md), we have developed a clear set of requirements to allow us to provide objective recommendations. We suggest you familiarize yourself with this list before choosing to use a project, and conduct your own research to ensure it's the right choice for you.
+**私たちは、推奨するどのプロジェクトとも提携していないことに注意してください。** [標準的な基準](about/criteria.md) に加えて、客観的な推奨事項を提供できるようにするために明確な要件を定めています。 プロジェクトを利用する前にこのリストをよく理解し、それが自分にとって正しい選択であることを確認するために自身で調査を行うことをお勧めします。
 
 !!! example "この項目は最近作られました"
 
-    私たちは、サイトの各項目に定義された基準を確立することに取り組んでおり、これは変更される可能性があります。 私たちの基準について疑問がある場合は、[フォーラムで質問](https://discuss.privacyguides.net/latest)してください。また、ここに記載されていない場合でも、私たちがおすすめを作成する際に考慮しなかったと仮定しないでください。 プロジェクトをおすすめする際に考慮され、議論される要素は多くあり、すべてを文書化するには時間がかかります。
+    私たちは、サイトの各項目に定義された基準を確立することに取り組んでおり、これは変更される可能性があります。 私たちの基準について疑問がある場合は、[フォーラムで質問](https://discuss.privacyguides.net/latest)してください。また、ここに記載されていない場合でも、私たちが推奨事項を作成する際に考慮しなかったと仮定しないでください。 プロジェクトを推奨する際には多くの要素が考慮され、議論されており、そのすべてを文書化する作業は現在進行中です。
 
 - クライアントはオープンソースでなければならない。
 - クラウド同期機能はエンドツーエンド暗号化でなければならない。

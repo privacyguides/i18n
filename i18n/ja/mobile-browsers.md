@@ -8,7 +8,7 @@ schema:
   - 
     "@context": http://schema.org
     "@type": WebPage
-    name: Private Mobile Browser Recommendations
+    name: プライベートモバイルブラウザの推奨事項
     url: "./"
     relatedLink: "../desktop-browsers/"
   - 
@@ -205,11 +205,11 @@ Additional filter lists do slow things down and may increase your attack surface
 
 ## 基準
 
-**Please note we are not affiliated with any of the projects we recommend.** In addition to [our standard criteria](about/criteria.md), we have developed a clear set of requirements to allow us to provide objective recommendations. We suggest you familiarize yourself with this list before choosing to use a project, and conduct your own research to ensure it's the right choice for you.
+**私たちは、推奨するどのプロジェクトとも提携していないことに注意してください。** [標準的な基準](about/criteria.md) に加えて、客観的な推奨事項を提供できるようにするために明確な要件を定めています。 プロジェクトを利用する前にこのリストをよく理解し、それが自分にとって正しい選択であることを確認するために自身で調査を行うことをお勧めします。
 
-!!! example "This section is new"
+!!! example "この項目は最近作られました"
 
-    We are working on establishing defined criteria for every section of our site, and this may be subject to change. If you have any questions about our criteria, please [ask on our forum](https://discuss.privacyguides.net/latest) and don't assume we didn't consider something when making our recommendations if it is not listed here. There are many factors considered and discussed when we recommend a project, and documenting every single one is a work-in-progress.
+    私たちは、サイトの各項目に定義された基準を確立することに取り組んでおり、これは変更される可能性があります。 私たちの基準について疑問がある場合は、[フォーラムで質問](https://discuss.privacyguides.net/latest)してください。また、ここに記載されていない場合でも、私たちが推奨事項を作成する際に考慮しなかったと仮定しないでください。 プロジェクトを推奨する際には多くの要素が考慮され、議論されており、そのすべてを文書化する作業は現在進行中です。
 
 ### 最低要件
 
