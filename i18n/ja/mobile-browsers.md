@@ -203,7 +203,7 @@ If you use iCloud with Advanced Data Protection disabled, we also recommend chec
 
 Additional filter lists do slow things down and may increase your attack surface, so only apply what you need.
 
-## Criteria
+## 基準
 
 **Please note we are not affiliated with any of the projects we recommend.** In addition to [our standard criteria](about/criteria.md), we have developed a clear set of requirements to allow us to provide objective recommendations. We suggest you familiarize yourself with this list before choosing to use a project, and conduct your own research to ensure it's the right choice for you.
 
@@ -222,5 +222,5 @@ Additional filter lists do slow things down and may increase your attack surface
 
 ### 拡張機能の基準
 
-- Must not replicate built-in browser or OS functionality.
-- Must directly impact user privacy, i.e. must not simply provide information.
+- ブラウザやOSに含まれる機能と重複しないこと。
+- ユーザーのプライバシーに直接影響を与える必要があります。つまり、単に情報を提供するだけではない必要があります。

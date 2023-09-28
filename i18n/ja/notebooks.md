@@ -41,15 +41,15 @@ cover: notebooks.png
 
     ![Notesnook logo](assets/img/notebooks/notesnook.svg){ align=right }
     
-    **Notesnook** is a free (as in speech) & open-source note-taking app focused on user privacy & ease of use. It features end-to-end encryption on all platforms with a powerful sync to take your notes on the go. You can easily import your notes from Evernote, OneNote & a lot of other apps using their [official importer](https://importer.notesnook.com/).
+    **Notesnook** は、ユーザーのプライバシーと使いやすさに重点を置いた、フリー (スピーチと同等) のオープンソース ノートアプリです。 外出先でメモを取るための強力な同期機能を備え、すべてのプラットフォームでエンドツーエンドの暗号化を行います。 [公式インポーター](https://importer.notesnook.com/) を使用して、Evernote、OneNote、その他多くのアプリからノートを簡単にインポートできます。
     
-    [:octicons-home-16: Homepage](https://notesnook.com/){ .md-button .md-button--primary }
-    [:octicons-eye-16:](https://notesnook.com/privacy){ .card-link title="Privacy Policy" }
-    [:octicons-info-16:](https://help.notesnook.com/){ .card-link title=Documentation}
-    [:octicons-code-16:](https://github.com/streetwriters/notesnook){ .card-link title="Source Code" }
-    [:octicons-heart-16:](https://github.com/streetwriters/notesnook/blob/master/CONTRIBUTING.md){ .card-link title=Contribute }
+    [:octicons-home-16: ホームページ](https://notesnook.com/){ .md-button .md-button--primary }
+    [:octicons-eye-16:](https://notesnook.com/privacy){ .card-link title="プライバシーポリシー" }
+    [:octicons-info-16:](https://help.notesnook.com/){ .card-link title=ドキュメント}
+    [:octicons-code-16:](https://github.com/streetwriters/notesnook){ .card-link title="ソースコード" }
+    [:octicons-heart-16:](https://github.com/streetwriters/notesnook/blob/master/CONTRIBUTING.md){ .card-link title=貢献 }
     
-    ??? downloads
+    ??? ダウンロード
     
         - [:simple-googleplay: Google Play](https://play.google.com/store/apps/details?id=com.streetwriters.notesnook)
         - [:simple-appstore: App Store](https://apps.apple.com/us/app/notesnook-take-private-notes/id1544027013)
@@ -96,18 +96,18 @@ Joplinは、[アプリケーション自体や個々のノート](https://github
     ![Cryptee logo](./assets/img/notebooks/cryptee.svg#only-light){ align=right }
     ![Cryptee logo](./assets/img/notebooks/cryptee-dark.svg#only-dark){ align=right }
     
-    **Cryptee** is an open-source, web-based E2EE document editor and photo storage application. Cryptee is a PWA, which means that it works seamlessly across all modern devices without requiring native apps for each respective platform.
+    **Cryptee** は、オープンソースの Web ベース E2EE ドキュメント エディターおよび写真ストレージ アプリケーションです。 CrypteeはPWAであり、それぞれのプラットフォームごとにネイティブアプリを必要とせずに、最新のすべてのデバイスでシームレスに動作します。
     
-    [:octicons-home-16: Homepage](https://crypt.ee){ .md-button .md-button--primary }
-    [:octicons-eye-16:](https://crypt.ee/privacy){ .card-link title="Privacy Policy" }
-    [:octicons-info-16:](https://crypt.ee/help){ .card-link title=Documentation}
-    [:octicons-code-16:](https://github.com/cryptee){ .card-link title="Source Code" }
+    [:octicons-home-16: ホームページ](https://crypt.ee){ .md-button .md-button--primary }
+    [:octicons-eye-16:](https://crypt.ee/privacy){ .card-link title="プライバシーポリシー" }
+    [:octicons-info-16:](https://crypt.ee/help){ .card-link title=ドキュメント}
+    [:octicons-code-16:](https://github.com/cryptee){ .card-link title="ソースコード" }
     
-    ??? downloads
+    ??? ダウンロード
     
         - [:octicons-globe-16: PWA](https://crypt.ee/download)
 
-Cryptee offers 100MB of storage for free, with paid options if you need more. Sign-up doesn't require an e-mail or other personally identifiable information.
+Cryptee は 100MB のストレージを無料で提供していますが、さらに必要な場合は有料オプションを利用できます。 サインアップには電子メールやその他の個人情報は必要ありません。
 
 ## ローカルノート
 
@@ -117,7 +117,7 @@ Cryptee offers 100MB of storage for free, with paid options if you need more. Si
 
     ![Org-mode logo](assets/img/notebooks/org-mode.svg){ align=right }
     
-    **Org-mode** is a [major mode](https://www.gnu.org/software/emacs/manual/html_node/elisp/Major-Modes.html) for GNU Emacs. Org-mode is for keeping notes, maintaining to-do lists, planning projects, and authoring documents with a fast and effective plain-text system. Synchronization is possible with [file synchronization](file-sharing.md#file-sync) tools.
+    **Org-mode** はGNU Emacsの [主要なモード](https://www.gnu.org/software/emacs/manual/html_node/elisp/Major-Modes.html) です。 Org-mode は、高速かつ効果的なプレーンテキスト システムを使用して、メモの保存、ToDo リストの管理、プロジェクトの計画、およびドキュメントのオーサリングを行うためのものです。 [ファイル同期](file-sharing.md#file-sync) ツールを使えば同期が可能です。
     
     [:octicons-home-16: ホームページ](https://orgmode.org){ .md-button .md-button--primary }
     [:octicons-info-16:](https://orgmode.org/manuals.html){ .card-link title=文書 }

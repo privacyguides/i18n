@@ -233,15 +233,15 @@ Shieldsのオプションは必要に応じてサイトごとにダウングレ�
 
 <div class="annotate" markdown>
 
-- [x] Select **Prevent sites from fingerprinting me based on my language preferences**
-- [x] Select **Aggressive** under Trackers & ads blocking
+- [x] **言語設定に基づく、サイトのフィンガープリントを禁止** を選択
+- [x] トラッカーと広告をブロックで **積極的** を選択
 
-    ??? warning "Use default filter lists"
-        Brave allows you to select additional content filters within the internal `brave://adblock` page. We advise against using this feature; instead, keep the default filter lists. Using extra lists will make you stand out from other Brave users and may also increase attack surface if there is an exploit in Brave and a malicious rule is added to one of the lists you use.
+    ??? warning "デフォルトのフィルターリストを使用する"
+        Braveでは、 `brave://adblock` ページ内で追加のコンテンツフィルターを選択することができます。 この機能を使用しないで、デフォルトのフィルターリストを維持することをお勧めします。 追加のリストを使用すると、他の Brave ユーザーより目立つようになり、Brave にエクスプロイトがあり、使用するリストの1つに悪意のあるルールが追加された場合に攻撃対象領域が増加する可能性があります。
 
-- [x] Select **Strict** under **Upgrade connections to HTTPS**
-- [x] (Optional) Select **Block Scripts** (1)
-- [x] Select **Strict, may break sites** under Block fingerprinting
+- [x] **接続をHTTPSにアップグレードする** で **厳格** を選択
+- [x] (オプション) **スクリプトをブロックする** を選択 (1)
+- [x] フィンガープリンティングをブロックで **厳格、サイトの表示が崩れる可能性** を選択
 
 </div>
 
@@ -249,24 +249,24 @@ Shieldsのオプションは必要に応じてサイトごとにダウングレ�
 
 ##### ソーシャルメディアのブロック
 
-- [ ] Uncheck all social media components
+- [ ] すべてのソーシャルメディアコンポーネントのチェックを外す
 
 ##### プライバシーとセキュリティ
 
 <div class="annotate" markdown>
 
-- [x] Select **Disable non-proxied UDP** under [WebRTC IP Handling Policy](https://support.brave.com/hc/en-us/articles/360017989132-How-do-I-change-my-Privacy-Settings-#webrtc)
-- [ ] Uncheck **Use Google services for push messaging**
-- [ ] Uncheck **Allow privacy-preserving product analytics (P3A)**
-- [ ] Uncheck **Automatically send daily usage ping to Brave**
-- [ ] Uncheck **Automatically send diagnostic reports**
-- [ ] Uncheck **Private window with Tor** (1)
+- [x] [WebRTC IP処理ポリシー](https://support.brave.com/hc/en-us/articles/360017989132-How-do-I-change-my-Privacy-Settings-#webrtc) で **非プロキシUDPを無効にする** を選択
+- [ ] **プッシュメッセージングにGoogleサービスを使用** のチェックを外す
+- [ ] **プライバシーを保護したプロダクト分析 (P3A) を許可する** のチェックを外す
+- [ ] **毎日の使用状況のpingをBraveに自動送信する** のチェックを外す
+- [ ] **診断レポートを自動送信する** のチェックを外す
+- [ ] **Tor搭載のプライベートウィンドウ** (1)  のチェックを外す
 
-    !!! tip "Sanitizing on Close"
+    !!! tip "終了時のクリーンアップ"
 
-        - [x] Select **Clear cookies and site data when you close all windows** in the *Cookies and other site data* menu
+        - [x] *Cookie と他のサイトデータ* メニューから **すべてのウィンドウを閉じるときに Cookie とサイトデータを削除する** を選択
 
-        If you wish to stay logged in to a particular site you visit often, you can set exceptions on a per-site basis under the *Customized behaviors* section.
+        頻繁にアクセスする特定のサイトにログインしたままにしたい場合は、 *動作のカスタマイズ* セクションでサイトごとに例外を設定できます。
 
 </div>
 
@@ -276,8 +276,8 @@ Shieldsのオプションは必要に応じてサイトごとにダウングレ�
 
 使わない組み込み**拡張機能**は無効にしてください。
 
-- [ ] Uncheck **Hangouts**
-- [ ] Uncheck **WebTorrent**
+- [ ] **Hangouts** のチェックを外す
+- [ ] **WebTorrent** のチェックを外す
 
 ##### Web3
 
@@ -371,7 +371,7 @@ Our best-case criteria represents what we would like to see from the perfect pro
 
 ### 拡張機能の基準
 
-- Must not replicate built-in browser or OS functionality.
+- ブラウザやOSに含まれる機能と重複しないこと。
 - ユーザーのプライバシーに直接影響を与える必要があります。つまり、単に情報を提供するだけではない必要があります。
 
 [^1]: Braveの実装は、[Brave Privacy Updates: Partitioning network-state for privacy](https://brave.com/privacy-updates/14-partitioning-network-state/)で詳細に説明されています。
