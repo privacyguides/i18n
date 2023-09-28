@@ -76,10 +76,10 @@ Quando estiver a utilizar uma instância do SearXNG, certifique-se de que lê a 
 !!! nota
     Consulte o [Tabela de Hardware](https://openwrt.org/toh/start) para verificar se o seu dispositivo é suportado.
 
-    ![Logótipo Startpage](assets/img/search-engines/startpage.svg#only-light){ align=right }
-    ![Logótipo Startpage](assets/img/search-engines/startpage-dark.svg#only-dark){ align=right }
+    ![Startpage logo](assets/img/search-engines/startpage.svg#only-light){ align=right }
+    ![Startpage logo](assets/img/search-engines/startpage-dark.svg#only-dark){ align=right }
     
-    O **Startpage** é um motor de pesquisa com a privacidade em mente, conhecido por apresentar resultados de pesquisa do Google.  Uma das características únicas do Startpage é a [Visualização anónima] (https://www.startpage.com/en/anonymous-view/), tentando normalizar a atividade do utilizador para que a sua identificação exclusiva seja dificultada. A funcionalidade pode ser útil para ocultar [some](https://support.startpage.com/hc/en-us/articles/4455540212116-The-Anonymous-View-Proxy-technical-details) propriedades da rede e do browser. Ao contrário do que o nome sugere, esta funcionalidade não deve ser utilizada para garantir o anonimato. Se procura anonimato, utilize o [Browser Tor] (tor.md#tor-browser).
+    **Startpage** is a private search engine known for serving [Google and Bing](https://support.startpage.com/hc/en-us/articles/4522435533844-What-is-the-relationship-between-Startpage-and-your-search-partners-like-Google-and-Microsoft-Bing-) search results.  Uma das características únicas do Startpage é a [Visualização anónima] (https://www.startpage.com/en/anonymous-view/), tentando normalizar a atividade do utilizador para que a sua identificação exclusiva seja dificultada. A funcionalidade pode ser útil para ocultar [some](https://support.startpage.com/hc/en-us/articles/4455540212116-The-Anonymous-View-Proxy-technical-details) propriedades da rede e do browser. Ao contrário do que o nome sugere, esta funcionalidade não deve ser utilizada para garantir o anonimato. Se procura anonimato, utilize o [Browser Tor] (tor.md#tor-browser).
     
     [:octicons-home-16: Homepage](https://www.startpage.com){ .md-button .md-button--primary }
     [:octicons-eye-16:](https://www.startpage.com/en/privacy-policy){ .card-link title="Política de Privacidade" }

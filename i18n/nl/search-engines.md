@@ -72,10 +72,10 @@ Wanneer je een SearXNG-instantie gebruikt, moet je zeker hun privacybeleid lezen
 
 !!! recommendation
 
-    ![Startpage-logo](assets/img/search-engines/startpage.svg#only-light){ align=right }
-    ![Startpage-logo](assets/img/search-engines/startpage-dark.svg#only-dark){ align=right }
+    ![Startpage logo](assets/img/search-engines/startpage.svg#only-light){ align=right }
+    ![Startpage logo](assets/img/search-engines/startpage-dark.svg#only-dark){ align=right }
     
-    **Startpage** is een private zoekmachine die bekend staat om haar Google zoekresultaten.  Eén van Startpage's unieke eigenschappen is de [Anonymous View](https://www.startpage.com/en/anonymous-view/), die inspanningen levert om gebruikersactiviteit te standaardiseren zodat het moeilijker is om uniek geïdentificeerd te worden. De functie kan nuttig zijn voor het verbergen van [some](https://support.startpage.com/hc/en-us/articles/4455540212116-The-Anonymous-View-Proxy-technical-details) netwerk- en browsereigenschappen. In tegenstelling tot wat de naam suggereert, mag deze functie niet worden gebruikt voor anonimiteit. Als u op zoek bent naar anonimiteit, gebruik dan de [Tor Browser](tor.md#tor-browser).
+    **Startpage** is a private search engine known for serving [Google and Bing](https://support.startpage.com/hc/en-us/articles/4522435533844-What-is-the-relationship-between-Startpage-and-your-search-partners-like-Google-and-Microsoft-Bing-) search results.  Eén van Startpage's unieke eigenschappen is de [Anonymous View](https://www.startpage.com/en/anonymous-view/), die inspanningen levert om gebruikersactiviteit te standaardiseren zodat het moeilijker is om uniek geïdentificeerd te worden. De functie kan nuttig zijn voor het verbergen van [some](https://support.startpage.com/hc/en-us/articles/4455540212116-The-Anonymous-View-Proxy-technical-details) netwerk- en browsereigenschappen. In tegenstelling tot wat de naam suggereert, mag deze functie niet worden gebruikt voor anonimiteit. Als u op zoek bent naar anonimiteit, gebruik dan de [Tor Browser](tor.md#tor-browser).
     
     [:octicons-home-16: Homepage](https://www.startpage.com){ .md-button .md-button--primary }
     [:octicons-eye-16:](https://www.startpage.com/en/privacy-policy){ .card-link title="Privacybeleid" }

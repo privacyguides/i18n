@@ -72,10 +72,10 @@ SearXNG 인스턴스를 사용하는 경우에는 해당 인스턴스의 프라�
 
 !!! recommendation
 
-    ![Startpage 로고](assets/img/search-engines/startpage.svg#only-light){ align=right }
-    ![Startpage 로고](assets/img/search-engines/startpage-dark.svg#only-dark){ align=right }
+    ![Startpage logo](assets/img/search-engines/startpage.svg#only-light){ align=right }
+    ![Startpage logo](assets/img/search-engines/startpage-dark.svg#only-dark){ align=right }
     
-    **Startpage**는 Google 검색 결과를 제공하는 것으로 유명한 비공개 검색 엔진입니다.  독특한 기능 중 하나로 '[익명 보기(Anonymous View)](https://www.startpage.com/en/anonymous-view/)'라는, 사용자 활동을 표준화해 고유 식별을 어렵게 만드는 기능이 있습니다. 이 기능은 네트워크, 브라우저 관련 [일부 속성](https://support.startpage.com/hc/en-us/articles/4455540212116-The-Anonymous-View-Proxy-technical-details)을 감추는 데에 유용할 수 있습니다. 단, 명칭과는 다르게 해당 기능은 익명성 면에서 의존해서는 안 됩니다. 익명성이 필요한 경우에는 [Tor 브라우저](tor.md#tor-browser)를 사용하세요.
+    **Startpage** is a private search engine known for serving [Google and Bing](https://support.startpage.com/hc/en-us/articles/4522435533844-What-is-the-relationship-between-Startpage-and-your-search-partners-like-Google-and-Microsoft-Bing-) search results.  독특한 기능 중 하나로 '[익명 보기(Anonymous View)](https://www.startpage.com/en/anonymous-view/)'라는, 사용자 활동을 표준화해 고유 식별을 어렵게 만드는 기능이 있습니다. 이 기능은 네트워크, 브라우저 관련 [일부 속성](https://support.startpage.com/hc/en-us/articles/4455540212116-The-Anonymous-View-Proxy-technical-details)을 감추는 데에 유용할 수 있습니다. 단, 명칭과는 다르게 해당 기능은 익명성 면에서 의존해서는 안 됩니다. 익명성이 필요한 경우에는 [Tor 브라우저](tor.md#tor-browser)를 사용하세요.
     
     [:octicons-home-16: 홈페이지](https://www.startpage.com){ .md-button .md-button--primary }
     [:octicons-eye-16:](https://www.startpage.com/en/privacy-policy){ .card-link title="프라이버시 정책" }

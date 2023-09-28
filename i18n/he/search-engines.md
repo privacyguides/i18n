@@ -72,10 +72,10 @@ SearXNG הוא פרוקסי בינך לבין מנועי החיפוש שמהם �
 
 !!! recommendation
 
-    ![Startpage לוגו](assets/img/search-engines/startpage.svg#only-light){ align=right }
-    ![Startpage לוגו](assets/img/search-engines/startpage-dark.svg#only-dark){ align=right }
+    ![Startpage logo](assets/img/search-engines/startpage.svg#only-light){ align=right }
+    ![Startpage logo](assets/img/search-engines/startpage-dark.svg#only-dark){ align=right }
     
-    **Startpage** הוא מנוע חיפוש פרטי הידוע בכך שהוא משרת את תוצאות החיפוש של גוגל.  אחת התכונות הייחודיות של Startpage היא [תצוגה אנונימית](https://www.startpage.com/en/anonymous-view/), שמשקיעה מאמצים בסטנדרטיזציה של פעילות המשתמשים כדי להקשות על זיהוי ייחודי. התכונה יכולה להיות שימושית להסתרת [some](https://support.startpage.com/hc/en-us/articles/4455540212116-The-Anonymous-View-Proxy-technical-details) מאפייני הרשת והדפדפן. שלא כמו שהשם מרמז, אין להסתמך על התכונה לאנונימיות. אם אתה מחפש אנונימיות, השתמש במקום זאת ב [Tor Browser]( tor.md#tor - browser).
+    **Startpage** is a private search engine known for serving [Google and Bing](https://support.startpage.com/hc/en-us/articles/4522435533844-What-is-the-relationship-between-Startpage-and-your-search-partners-like-Google-and-Microsoft-Bing-) search results.  אחת התכונות הייחודיות של Startpage היא [תצוגה אנונימית](https://www.startpage.com/en/anonymous-view/), שמשקיעה מאמצים בסטנדרטיזציה של פעילות המשתמשים כדי להקשות על זיהוי ייחודי. התכונה יכולה להיות שימושית להסתרת [some](https://support.startpage.com/hc/en-us/articles/4455540212116-The-Anonymous-View-Proxy-technical-details) מאפייני הרשת והדפדפן. שלא כמו שהשם מרמז, אין להסתמך על התכונה לאנונימיות. אם אתה מחפש אנונימיות, השתמש במקום זאת ב [Tor Browser]( tor.md#tor - browser).
     
     [:octicons-home-16: דף הבית](https://www.startpage.com){ .md-button .md-button--primary }
     [:octicons-eye-16:](https://www.startpage.com/en/privacy-policy){ .card-link title="מדיניות פרטיות" }
