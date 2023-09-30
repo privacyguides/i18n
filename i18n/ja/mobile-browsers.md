@@ -1,8 +1,8 @@
 ---
-meta_title: "Privacy Respecting Mobile Web Browsers for Android and iOS - Privacy Guides"
+meta_title: "プライバシーを尊重するAndroidとiOSのモバイルウェブブラウザー Privacy Guides"
 title: "モバイルブラウザー"
 icon: material/cellphone-information
-description: These browsers are what we currently recommend for standard/non-anonymous internet browsing on your phone.
+description: これらのブラウザは、現在お使いの携帯電話の標準/非匿名のインターネットブラウジングに推奨されています。
 cover: mobile-browsers.png
 schema:
   - 
@@ -37,7 +37,7 @@ schema:
       url: "./"
 ---
 
-These are our currently recommended mobile web browsers and configurations for standard/non-anonymous internet browsing. 匿名でインターネットを閲覧するには、[Tor](tor.md)を使用してください。 In general, we recommend keeping extensions to a minimum; they have privileged access within your browser, require you to trust the developer, can make you [stand out](https://en.wikipedia.org/wiki/Device_fingerprint#Browser_fingerprint), and [weaken](https://groups.google.com/a/chromium.org/g/chromium-extensions/c/0ei-UCHNm34/m/lDaXwQhzBAAJ) site isolation.
+以下は、一般的な非匿名のブラウジング用に、現在おすすめされているモバイルウェブブラウザとその設定です。 匿名でインターネットを閲覧するには、[Tor](tor.md)を使用してください。 一般的に、拡張機能は最小限に抑えることをお勧めします。ブラウザ内で特権的なアクセスを持ち、開発者を信頼する必要があり、[あなたを目立たせ](https://en.wikipedia.org/wiki/Device_fingerprint#Browser_fingerprint)、[サイトの分離を弱めます](https://groups.google.com/a/chromium.org/g/chromium-extensions/c/0ei-UCHNm34/m/lDaXwQhzBAAJ)。
 
 ## Android
 
