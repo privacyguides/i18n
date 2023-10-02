@@ -1,6 +1,6 @@
 ---
-meta_title: "プライバシーを尊重するAndroidとiOSのモバイルウェブブラウザー Privacy Guides"
-title: "モバイルブラウザー"
+meta_title: "プライバシーを尊重するAndroidとiOS向けモバイルウェブブラウザ - Privacy Guides"
+title: "モバイルブラウザ"
 icon: material/cellphone-information
 description: これらのブラウザは、現在お使いの携帯電話の標準/非匿名のインターネットブラウジングに推奨されています。
 cover: mobile-browsers.png
@@ -37,11 +37,11 @@ schema:
       url: "./"
 ---
 
-以下は、一般的な非匿名のブラウジング用に、現在おすすめされているモバイルウェブブラウザとその設定です。 匿名でインターネットを閲覧するには、[Tor](tor.md)を使用してください。 一般的に、拡張機能は最小限に抑えることをお勧めします。ブラウザ内で特権的なアクセスを持ち、開発者を信頼する必要があり、[あなたを目立たせ](https://en.wikipedia.org/wiki/Device_fingerprint#Browser_fingerprint)、[サイトの分離を弱めます](https://groups.google.com/a/chromium.org/g/chromium-extensions/c/0ei-UCHNm34/m/lDaXwQhzBAAJ)。
+以下は、一般的な非匿名のブラウジング用に、現在おすすめされているモバイルウェブブラウザとその設定です。 匿名でインターネットを閲覧するには、[Tor](tor.md)を使用してください。 一般的に、拡張機能は最小限に抑えることをお勧めします。ブラウザ内で特権的なアクセスを持ち、開発者を信頼する必要があり、[あなたを目立たせ](https://en.wikipedia.org/wiki/Device_fingerprint#Browser_fingerprint)、[サイト分離を弱めます](https://groups.google.com/a/chromium.org/g/chromium-extensions/c/0ei-UCHNm34/m/lDaXwQhzBAAJ)。
 
 ## Android
 
-Androidでは、FirefoxはChromiumベースのブラウザーよりもまだ安全性が低いです。Mozillaのエンジンである[GeckoView](https://mozilla.github.io/geckoview/)は、まだ[サイト分離](https://hacks.mozilla.org/2021/05/introducing-firefox-new-site-isolation-security-architecture)をサポートしておらず、また [分離プロセス](https://bugzilla.mozilla.org/show_bug.cgi?id=1565196)を有効にしていません。
+Androidでは、FirefoxはChromiumベースのブラウザよりもまだ安全性が低いです。Mozillaのエンジンである[GeckoView](https://mozilla.github.io/geckoview/)は、まだ[サイト分離](https://hacks.mozilla.org/2021/05/introducing-firefox-new-site-isolation-security-architecture)をサポートしておらず、また [分離プロセス](https://bugzilla.mozilla.org/show_bug.cgi?id=1565196)を有効にしていません。
 
 ### Brave
 
@@ -53,11 +53,11 @@ Androidでは、FirefoxはChromiumベースのブラウザーよりもまだ安�
     
     Brave is built upon the Chromium web browser project, so it should feel familiar and have minimal website compatibility issues.
     
-    [:octicons-home-16: Homepage](https://brave.com/){ .md-button .md-button--primary }
+    [:octicons-home-16: ホームページ](https://brave.com/ja/){ .md-button .md-button--primary }
     [:simple-torbrowser:](https://brave4u7jddbv7cyviptqjc7jusxh72uik7zt6adtckl5f4nwy2v72qd.onion){ .card-link title="Onion Service" }
-    [:octicons-eye-16:](https://brave.com/privacy/browser/){ .card-link title="Privacy Policy" }
-    [:octicons-info-16:](https://support.brave.com/){ .card-link title=Documentation}
-    [:octicons-code-16:](https://github.com/brave/brave-browser){ .card-link title="Source Code" }
+    [:octicons-eye-16:](https://brave.com/privacy/browser/){ .card-link title="プライバシーポリシー" }
+    [:octicons-info-16:](https://support.brave.com/hc/en-us/categories/360006507272){ .card-link title=ドキュメント}
+    [:octicons-code-16:](https://github.com/brave/brave-browser){ .card-link title="ソースコード" }
     
     ??? downloads annotate
     
@@ -66,7 +66,7 @@ Androidでは、FirefoxはChromiumベースのブラウザーよりもまだ安�
 
 #### 推奨する設定
 
-本当に匿名でインターネットを閲覧する唯一の方法は、Tor Browserを使うことです。 Braveを使用する際は、特定の相手からプライバシーを保護するために以下の設定を変更することをお勧めしますが、 [Tor Browser](tor.md#tor-browser) 以外のブラウザーについては、*誰か*が何らかの形で追跡することができます。
+本当に匿名でインターネットを閲覧する唯一の方法は、Tor Browserを使うことです。 Braveを使用する際は、特定の相手からプライバシーを保護するために以下の設定を変更することをお勧めしますが、 [Tor Browser](tor.md#tor-browser) 以外のブラウザについては、*誰か*が何らかの形で追跡することができます。
 
 These options can be found in :material-menu: → **Settings** → **Brave Shields & privacy**
 

@@ -16,7 +16,7 @@ schema:
     name: Android
     image: /assets/img/android/android.svg
     url: https://source.android.com/
-    sameAs: https://en.wikipedia.org/wiki/Android_(operating_system)
+    sameAs: https://ja.wikipedia.org/wiki/Android_(%E3%82%AA%E3%83%9A%E3%83%AC%E3%83%BC%E3%83%86%E3%82%A3%E3%83%B3%E3%82%B0%E3%82%B7%E3%82%B9%E3%83%86%E3%83%A0)
   - 
     "@context": http://schema.org
     "@type": CreativeWork
@@ -47,7 +47,7 @@ schema:
       "@type": Brand
       name: Google
     image: /assets/img/android/google-pixel.png
-    sameAs: https://en.wikipedia.org/wiki/Google_Pixel
+    sameAs: https://ja.wikipedia.org/wiki/Google_Pixel
     review:
       "@type": Review
       author:
@@ -150,7 +150,7 @@ DivestOS uses F-Droid as its default app store. Normally, we would recommend avo
     
     Not all of the supported devices have verified boot, and some perform it better than others.
 
-## Android Devices
+## Android デバイス
 
 When purchasing a device, we recommend getting one as new as possible. The software and firmware of mobile devices are only supported for a limited time, so buying new extends that lifespan as much as possible.
 
@@ -191,7 +191,7 @@ A few more tips for purchasing a Google Pixel:
 - Look at online community bargain sites in your country. These can alert you to good sales.
 - Google provides a list showing the [support cycle](https://support.google.com/nexus/answer/4457705) for each one of their devices. The price per day for a device can be calculated as: $\text{Cost} \over \text {EOL Date}-\text{Current Date}$, meaning that the longer use of the device the lower cost per day.
 
-## General Apps
+## 一般的なアプリ
 
 We recommend a wide variety of Android apps throughout this site. The apps listed here are Android-exclusive and specifically enhance or replace key system functionality.
 
@@ -344,7 +344,7 @@ On GitLab, using [Aurora Store](#aurora-store) as an example, you would navigate
 
 `https://gitlab.com/AuroraOSS/AuroraStore/-/tags?format=atom`
 
-#### Verifying APK Fingerprints
+#### APKフィンガープリントの検証
 
 If you download APK files to install manually, you can verify their signature with the [`apksigner`](https://developer.android.com/studio/command-line/apksigner) tool, which is a part of Android [build-tools](https://developer.android.com/studio/releases/build-tools).
 
@@ -399,7 +399,7 @@ That said, the [F-Droid](https://f-droid.org/en/packages/) and [IzzyOnDroid](htt
 
     We are working on establishing defined criteria for every section of our site, and this may be subject to change. If you have any questions about our criteria, please [ask on our forum](https://discuss.privacyguides.net/latest) and don't assume we didn't consider something when making our recommendations if it is not listed here. There are many factors considered and discussed when we recommend a project, and documenting every single one is a work-in-progress.
 
-### Operating Systems
+### オペレーティングシステム
 
 - オープンソース ソフトウェアである必要があります。
 - Must support bootloader locking with custom AVB key support.
@@ -410,14 +410,14 @@ That said, the [F-Droid](https://f-droid.org/en/packages/) and [IzzyOnDroid](htt
 - Must **not** enable Google Play Services by default.
 - Must **not** require system modification to support Google Play Services.
 
-### Devices
+### デバイス
 
 - Must support at least one of our recommended custom operating systems.
 - Must be currently sold new in stores.
 - Must receive a minimum of 5 years of security updates.
 - Must have dedicated secure element hardware.
 
-### Applications
+### アプリケーション
 
 - Applications on this page must not be applicable to any other software category on the site.
 - General applications should extend or replace core system functionality.
