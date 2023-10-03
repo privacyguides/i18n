@@ -57,9 +57,9 @@ schema:
       url: "./"
 ---
 
-Bunlar, standart/anonim olmayan gezinti için şu anda önerilen masaüstü web tarayıcılarımız ve yapılandırmalarımızdır. We recommend [Mullvad Browser](#mullvad-browser) if you are focused on strong privacy protections and anti-fingerprinting out of the box, [Firefox](#firefox) for casual internet browsers looking for a good alternative to Google Chrome, and [Brave](#brave) if you need Chromium browser compatibility.
+Bunlar, standart/anonim olmayan gezinti için şu anda önerilen masaüstü web tarayıcılarımız ve yapılandırmalarımızdır. Eğer varsayılan olarak güçlü mahremiyet koruması ve parmak izi önleme istiyorsanız [Mullvad Browser'ı](#mullvad-browser), Google Chrome için iyi bir alternatif arayan normal kullanıcılar için [Firefox'u](#firefox) ve eğer Chromium uyumlu bir tarayıcıya ihtiyacınız varsa [Brave'i](#brave) öneririz.
 
-İnternette anonim olarak gezinmeniz gerekiyorsa, bunun yerine [Tor](tor.md) kullanmalısınız. We make some configuration recommendations on this page, but all browsers other than Tor Browser will be traceable by *somebody* in some manner or another.
+İnternette anonim olarak gezinmeniz gerekiyorsa, bunlar yerine [Tor](tor.md) kullanmalısınız. We make some configuration recommendations on this page, but all browsers other than Tor Browser will be traceable by *somebody* in some manner or another.
 
 ## Mullvad Browser
 
