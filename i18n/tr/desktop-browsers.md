@@ -1,8 +1,8 @@
 ---
-meta_title: "PC ve Mac için Gizliliğe Saygı Gösteren Web Tarayıcıları - Privacy Guides"
+meta_title: "PC ve Mac için Mahremiyete Saygı Gösteren Web Tarayıcıları - Privacy Guides"
 title: "Masaüstü Tarayıcıları"
 icon: material/laptop
-description: Bu web tarayıcıları Google Chrome'dan daha iyi gizlilik sağlar.
+description: Bu web tarayıcıları Google Chrome'dan daha iyi mahremiyet sağlar.
 cover: desktop-browsers.png
 schema:
   - 

@@ -5,49 +5,49 @@ config:
   copyright:
     - 
       1: |
-         Privacy Guides is a non-profit, socially motivated website that provides information for protecting your data security and privacy.
+         Privacy Guides; veri güvenliğinizi sağlama ve mahremiyet hakkında bilgi sağlayan, kâr amacı gütmeyen, topluluk motivasyonlu bir internet sitesidir.
     - 
       2: |
-         We do not make money from recommending certain products, and we do not use affiliate links.
+         Belirli ürünleri önererek bir gelir elde etmiyoruz ve sponsorlu bağlantılar kullanmıyoruz.
     - 
       3: |
-         Privacy Guides and contributors.
+         Privacy Guides ve katkıda bulunanlar.
     - 
       4: |
-         Content licensed under CC BY-ND 4.0.
+         İçerik CC BY-ND altında lisanslanmıştır.
   feedback:
-    question: Was this page helpful?
-    yes: This page was helpful
-    yes-note: Thanks for your feedback!
-    no: This page could be improved
+    question: Bu sayfa yararlı oldu mu?
+    yes: Bu sayfa yararlıydı
+    yes-note: Geri bildiriminiz için teşekkürler!
+    no: Bu sayfa geliştirilebilir
     no-note: |
-      Thanks for your feedback! Help us improve this page by opening a discussion on our forum.
+      Geri bildiriminiz için teşekkürler! Forumumuzda konu açarak bu sayfayı geliştirmemizde yardımcı olabilirsiniz.
   theme:
-    dark: Switch to dark mode
-    light: Switch to light mode
-    system: Switch to system theme
+    dark: Karanlık moda geç
+    light: Aydınlık moda geç
+    system: Sistem temasına geç
 nav:
-  Home: Home
-  Knowledge Base: Knowledge Base
-  Technology Essentials: Technology Essentials
-  Operating Systems: Operating Systems
-  Advanced Topics: Advanced Topics
-  Recommendations: Recommendations
-  Internet Browsing: Internet Browsing
-  Providers: Providers
-  Software: Software
-  About: About
-  Community: Community
-  Online Services: Online Services
-  Code of Conduct: Code of Conduct
-  Contributing: Contributing
-  Writing Guide: Writing Guide
-  Technical Guides: Technical Guides
-  Changelog: Changelog
+  Home: Ana Sayfa
+  Knowledge Base: Bilgi Arşivi
+  Technology Essentials: Teknoloji Esasları
+  Operating Systems: İşletim Sistemleri
+  Advanced Topics: İleri Düzey Konular
+  Recommendations: Öneriler
+  Internet Browsing: İnternette Gezinme
+  Providers: Sağlayıcılar
+  Software: Yazılım
+  About: Hakkında
+  Community: Topluluk
+  Online Services: Çevrimiçi Hizmetler
+  Code of Conduct: Davranış Kuralları
+  Contributing: Katkıda Bulunma
+  Writing Guide: Rehber Yazma
+  Technical Guides: Teknik Rehberler
+  Changelog: Değişiklik Günlüğü
   Forum: Forum
   Blog: Blog
 site:
   homepage_card: |
-    A socially motivated website which provides information about protecting your online data privacy and security.
+    Veri mahremiyetinizi koruma ve güvenlik hakkında bilgi sağlayan, topluluk motivasyonlu bir internet sitesi.
   translation: |
-    You're viewing the English copy of Privacy Guides, translated by our fantastic language team on Crowdin. If you notice an error, or see any untranslated sections on this page, please consider helping out! For more information and tips see our translation guide.
+    Privacy Guides'in Crowdin'deki fantastik dil ekibimiz tarafından çevirilmiş Türkçe kopyasını görüntülüyorsunuz. Eğer bu sayfada herhangi bir hata veya çevrilmemiş bir bölüm fark ederseniz lütfen yardımcı olmayı düşünün! Daha fazla bilgi ve ipucu için çeviri rehberimize göz atın.
