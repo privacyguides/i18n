@@ -153,7 +153,7 @@ Mailbox.org bietet für alle Tarife eine digitale Hinterlassenschaft an. Du kann
 
 ## Weitere Anbieter
 
-Diese Anbieter speichern deine E-Mails mit Zero-Knowledge-Verschlüsselung und sind damit eine gute Option für die Sicherheit deiner gespeicherten E-Mails. However, they don't support interoperable encryption standards for E2EE communications between different providers.
+Diese Anbieter speichern deine E-Mails mit Zero-Knowledge-Verschlüsselung und sind damit eine gute Option für die Sicherheit deiner gespeicherten E-Mails. Allerdings unterstützen sie keine Interoperablen Verschlüsselungsstandards für Ende zu Ende Verschlüsselung zwischen verschiedenen Anbietern.
 
 <div class="grid cards" markdown>
 
@@ -168,12 +168,12 @@ Diese Anbieter speichern deine E-Mails mit Zero-Knowledge-Verschlüsselung und s
 
     ![Skiff Mail logo](assets/img/email/skiff-mail.svg){ align=right }
     
-    **Skiff Mail** is a web based email service with E2EE that began in 2020 that is based in San Francisco with developers worldwide. Accounts start with 10GB of free storage.
+    **Skiff Mail** ist ein Ende zu Ende verschlüsselter E-Mail Anbieter, welcher seit 2020 mit Sitz in San Francisco und Entwicklern weltweit aktiv ist. Konten sind mit 10GB Speicher gratis verfügbar.
     
     [:octicons-home-16: Homepage](https://skiff.com/mail){ .md-button .md-button--primary }
-    [:octicons-eye-16:](https://app.skiff.com/docs/db93c237-84c2-4b2b-9588-19a7cd2cd45a#tyGksN9rkqbo2uGYASxsA6HVLjUoly/wTYK8tncTto8=){ .card-link title="Privacy Policy" }
-    [:octicons-info-16:](https://skiff.com/help){ .card-link title=Documentation}
-    [:octicons-code-16:](https://github.com/skiff-org/skiff-apps){ .card-link title="Source Code" }
+    [:octicons-eye-16:](https://app.skiff.com/docs/db93c237-84c2-4b2b-9588-19a7cd2cd45a#tyGksN9rkqbo2uGYASxsA6HVLjUoly/wTYK8tncTto8=){ .card-link title="Datenschutzhinweise" }
+    [:octicons-info-16:](https://skiff.com/help){ .card-link title=Dokumentation}
+    [:octicons-code-16:](https://github.com/skiff-org/skiff-apps){ .card-link title="Quellcode" }
     
     ??? downloads
     
@@ -181,27 +181,27 @@ Diese Anbieter speichern deine E-Mails mit Zero-Knowledge-Verschlüsselung und s
         - [:simple-appstore: iOS](https://apps.apple.com/us/app/skiff-mail/id1619168801)
         - [:octicons-browser-16: Web](https://app.skiff.com/mail)
 
-Skiff has undergone a few [audits](https://skiff.com/transparency) during its development.
+Skiff wurde während seiner Entwicklung einigen [Audits](https://skiff.com/transparency) unterzogen.
 
 #### :material-check:{ .pg-green } Eigene Domains und Aliase
 
-You can create up to 3 additional @skiff.com email aliases in addition to your primary account address on their free plan. Free accounts can add 1 [custom domain](https://skiff.com/blog/custom-domain-setup), and up to 15 custom domains on a paid plan. You can create unlimited aliases or a [catch-all](https://skiff.com/blog/catch-all-email-alias) alias on your custom domain.
+Zusätzlich zu der primären E-Mail Adresse stellt Skiff in der Gratis-Version drei zusätzliche @skiff.com E-Mail Aliase zur Verfügung. Gratis Konten können eine [benutzerdefinierte Domäne](https://skiff.com/blog/custom-domain-setup) hinzufügen. Mit einem Abonnement stehen 15 Domänen zur Verfügung. Für die benutzerdefinierte Domäne können entweder unendlich viele oder ein ["catch-all"](https://skiff.com/blog/catch-all-email-alias)-Alias erstellt werden.
 
-#### :material-alert-outline:{ .pg-orange } Private Payment Methods
+#### :material-alert-outline:{ .pg-orange } Private Zahlungsmethoden
 
-Skiff Mail accepts cryptocurrency payments via Coinbase Commerce, including Bitcoin and Ethereum, but they do not accept our recommended [cryptocurrency](cryptocurrency.md), Monero. They also accept credit card payments via Stripe.
+Skiff Mail akzeptiert Zahlungen über Coinbase Commerce, z.B. mit Bitcoin oder Etherium, allerdings wird die von uns empfohlene [Kryptowährung](cryptocurrency.md), Monero, nicht unterstützt. Über Stripe werden außerdem Kreditkartenzahlungen akzeptiert.
 
 #### :material-check:{ .pg-green } Kontosicherheit
 
-Skiff Mail supports TOTP two-factor authentication and hardware security keys using FIDO2 or U2F standards. The use of a hardware security key requires setting up TOTP two-factor authentication first.
+Skiff Mail unterstützt TOTP Zwei-Faktor Authentifizierung und physische Sicherheitsschlüssel über die FIDO2 oder U2F Standards. Um einen physischen Sicherheitsschlüssel zu nutzen muss zuerst ein TOTP Code eingerichtet sein.
 
 #### :material-check:{ .pg-green } Datensicherheit
 
-Skiff Mail has zero access encryption at rest for all of your data. Das bedeutet, dass die in Ihrem Konto gespeicherten Nachrichten und anderen Daten nur von dir gelesen werden können.
+Skiff Mail nutzt eine Nullzugriffsverschlüsselung für alle Ihre Daten. Das bedeutet, dass die in Ihrem Konto gespeicherten Nachrichten und anderen Daten nur von dir gelesen werden können.
 
 #### :material-information-outline:{ .pg-blue } E-Mail-Verschlüsselung
 
-Skiff Mail does not use OpenPGP. Emails are only encrypted with E2EE to other Skiff Mail users. Skiff does not have a "temporary inbox" or "passworded email" feature like some other providers have, so that external users cannot receive or reply to messages with E2EE.
+Skiff Mail unterstützt kein OpenPGP. Emails are only encrypted with E2EE to other Skiff Mail users. Skiff does not have a "temporary inbox" or "passworded email" feature like some other providers have, so that external users cannot receive or reply to messages with E2EE.
 
 #### :material-information-outline:{ .pg-blue } Kontokündigung
 
