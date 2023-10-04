@@ -59,15 +59,15 @@ schema:
 
 Bunlar, standart/anonim olmayan gezinti için şu anda önerilen masaüstü web tarayıcılarımız ve yapılandırmalarımızdır. Eğer varsayılan olarak güçlü mahremiyet koruması ve parmak izi önleme istiyorsanız [Mullvad Browser'ı](#mullvad-browser), Google Chrome için iyi bir alternatif arayan normal kullanıcılar için [Firefox'u](#firefox) ve eğer Chromium uyumlu bir tarayıcıya ihtiyacınız varsa [Brave'i](#brave) öneririz.
 
-İnternette anonim olarak gezinmeniz gerekiyorsa, bunlar yerine [Tor](tor.md) kullanmalısınız. We make some configuration recommendations on this page, but all browsers other than Tor Browser will be traceable by *somebody* in some manner or another.
+İnternette anonim olarak gezinmeniz gerekiyorsa, bunlar yerine [Tor](tor.md) kullanmalısınız. Bu sayfada bazı yapılandırma önerilerinde bulunmaktayız fakat Tor Browser hariç tüm tarayıcılar *birisi* tarafından herhangi bir şekilde takip edilebilirdir.
 
 ## Mullvad Browser
 
 !!! öneri
 
-    ![Mullvad Browser logo](assets/img/browsers/mullvad_browser.svg){ align=right }
+    ![Mullvad Browser logosu](assets/img/browsers/mullvad_browser.svg){ align=right }
     
-    **Mullvad Browser** is a version of [Tor Browser](tor.md#tor-browser) with Tor network integrations removed, aimed at providing Tor Browser's anti-fingerprinting browser technologies to VPN users. Tor Projesi tarafından geliştirilir ve [Mullvad] (vpn.md#mullvad) tarafından dağıtılır, ayrıca **Mullvad'ın VPN'inin kullanılmasını gerektirmez.
+    **Mullvad Browser**, [Tor Browser]'ın (tor.md#tor-browser) Tor ağ entegrasyonları kaldırılmış bir sürümüdür ve Tor Browser'ın parmak izi önleme tarayıcı teknolojilerini VPN kullanıcılarına sunmayı amaçlamaktadır. Tor Projesi tarafından geliştirilir ve [Mullvad] (vpn.md#mullvad) tarafından dağıtılır, ayrıca **Mullvad'ın VPN'inin kullanılmasını gerektirmez.
     
     [:octicons-home-16: Homepage](https://mullvad.net/en/browser){ .md-button .md-button--primary }
     [:octicons-eye-16:](https://mullvad.net/en/help/privacy-policy/){ .card-link title="Privacy Policy" }
@@ -80,7 +80,7 @@ Bunlar, standart/anonim olmayan gezinti için şu anda önerilen masaüstü web 
         - [:simple-apple: macOS](https://mullvad.net/en/download/browser/macos)
         - [:simple-linux: Linux](https://mullvad.net/en/download/browser/linux)
 
-Like [Tor Browser](tor.md), Mullvad Browser is designed to prevent fingerprinting by making your browser fingerprint identical to all other Mullvad Browser users, and it includes default settings and extensions that are automatically configured by the default security levels: *Standard*, *Safer* and *Safest*. Therefore, it is imperative that you do not modify the browser at all outside adjusting the default [security levels](https://tb-manual.torproject.org/security-settings/). Diğer değişiklikler parmak izinizi benzersiz hale getirerek bu tarayıcıyı kullanma amacınızı ortadan kaldıracaktır. Tarayıcınızı daha fazla yapılandırmak istiyorsanız ve parmak izi sizin için bir endişe kaynağı değilse, bunun yerine [Firefox](#firefox) öneririz.
+[Tor Browser](tor.md)gibi, Mullvad Browser da tarayıcı parmak izinizi diğer tüm Mullvad Browser kullanıcılarıyla aynı hale getirerek parmak izini önlemek için tasarlanmıştır ve varsayılan güvenlik düzeyleri tarafından otomatik olarak yapılandırılan varsayılan ayarları ve eklentileri içerir: *Standart*, *Daha güvenli* ve *En güvenli*. Bu nedenle, varsayılan [güvenlik düzeylerini](https://tb-manual.torproject.org/security-settings/)ayarlamak dışında tarayıcıda hiçbir değişiklik yapmamanız gerekir. Diğer değişiklikler parmak izinizi benzersiz hale getirerek bu tarayıcıyı kullanma amacınızı ortadan kaldıracaktır. Tarayıcınızı daha fazla yapılandırmak istiyorsanız ve parmak izi sizin için bir endişe kaynağı değilse, bunun yerine [Firefox](#firefox) öneririz.
 
 ### Parmak İzi Önleme
 
