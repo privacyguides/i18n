@@ -10,7 +10,7 @@ Our website generally uses the term “Linux” to describe **desktop** Linux di
 
 [Onze Linux-aanbevelingen :material-arrow-right-drop-circle:](../desktop.md ""){.md-button}
 
-## Privacy Notes
+## Privacy Opmerkingen
 
 There are some notable privacy concerns with Linux which you should be aware of. Despite these drawbacks, desktop Linux distributions are still great for most people who want to:
 

@@ -152,7 +152,7 @@ Mailbox.org heeft een digitale nalatenschap functie voor alle abonnementen. Je k
 
 ## Meer providers
 
-Deze providers slaan je e-mails op met zero-knowledge encryptie, waardoor ze geweldige opties zijn om je opgeslagen e-mails veilig te houden. However, they don't support interoperable encryption standards for E2EE communications between different providers.
+Deze providers slaan je e-mails op met zero-knowledge encryptie, waardoor ze geweldige opties zijn om je opgeslagen e-mails veilig te houden. Zij ondersteunen echter geen interoperabele versleutelingsnormen voor E2EE-communicatie tussen aanbieders.
 
 <div class="grid cards" markdown>
 
@@ -165,9 +165,9 @@ Deze providers slaan je e-mails op met zero-knowledge encryptie, waardoor ze gew
 
 !!! recommendation
 
-    ![Skiff Mail logo](assets/img/email/skiff-mail.svg){ align=right }
+    ![Skiff Mail logo](assets/img/email/skiff-mail. vg){ align=right }
     
-    **Skiff Mail** is a web based email service with E2EE that began in 2020 that is based in San Francisco with developers worldwide. Accounts start with 10GB of free storage.
+    **Skiff Mail** is een website gebaseerde e-mailservice met E2EE die begon in 2020 en gevestigd is in San Francisco met ontwikkelaars wereldwijd. Accounts beginnen met 10GB gratis opslag.
     
     [:octicons-home-16: Homepage](https://skiff.com/mail){ .md-button .md-button--primary }
     [:octicons-eye-16:](https://app.skiff.com/docs/db93c237-84c2-4b2b-9588-19a7cd2cd45a#tyGksN9rkqbo2uGYASxsA6HVLjUoly/wTYK8tncTto8=){ .card-link title="Privacy Policy" }
@@ -180,11 +180,11 @@ Deze providers slaan je e-mails op met zero-knowledge encryptie, waardoor ze gew
         - [:simple-appstore: iOS](https://apps.apple.com/us/app/skiff-mail/id1619168801)
         - [:octicons-browser-16: Web](https://app.skiff.com/mail)
 
-Skiff has undergone a few [audits](https://skiff.com/transparency) during its development.
+Skiff heeft een paar [audits](https://skiff.com/transparency) ondergaan tijdens zijn ontwikkeling.
 
 #### :material-check:{ .pg-green } Aangepaste domeinen en aliassen
 
-You can create up to 3 additional @skiff.com email aliases in addition to your primary account address on their free plan. Free accounts can add 1 [custom domain](https://skiff.com/blog/custom-domain-setup), and up to 15 custom domains on a paid plan. You can create unlimited aliases or a [catch-all](https://skiff.com/blog/catch-all-email-alias) alias on your custom domain.
+U kunt maximaal 3 extra @skiff.com e-mailaliassen aanmaken naast uw primaire account adres op hun gratis abonnement. Free accounts can add 1 [custom domain](https://skiff.com/blog/custom-domain-setup), and up to 15 custom domains on a paid plan. You can create unlimited aliases or a [catch-all](https://skiff.com/blog/catch-all-email-alias) alias on your custom domain.
 
 #### :material-alert-outline:{ .pg-orange } Private Payment Methods
 

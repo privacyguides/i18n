@@ -239,9 +239,9 @@ De opties van Shields kunnen naar behoefte per site worden gedowngrade, maar sta
     ??? warning "Gebruik standaard filter lijsten"
         Brave staat je toe om extra inhoud filters te selecteren binnen de interne `brave://adblock` pagina. Wij raden het gebruik van deze functie af; houd in plaats daarvan de standaardfilterlijsten aan. Het gebruik van extra lijsten zorgt ervoor dat u zich onderscheidt van andere Brave gebruikers en kan ook het aanvalsoppervlak vergroten als er een exploit in Brave is en een kwaadaardige regel wordt toegevoegd aan één van de lijsten die je gebruikt.
 
-- [x] Select **Strict** under **Upgrade connections to HTTPS**
-- [x] (Optional) Select **Block Scripts** (1)
-- [x] Select **Strict, may break sites** under Block fingerprinting
+- [x] Selecteer **Upgrade verbindingen naar HTTPS**
+- [x] (Optioneel) Selecteer **Block Scripts** (1)
+- [x] Selecteer **Streng, kan sites breken** onder **Block fingerprinting
 
 </div>
 
@@ -255,12 +255,13 @@ De opties van Shields kunnen naar behoefte per site worden gedowngrade, maar sta
 
 <div class="annotate" markdown>
 
-- [x] Select **Disable non-proxied UDP** under [WebRTC IP Handling Policy](https://support.brave.com/hc/en-us/articles/360017989132-How-do-I-change-my-Privacy-Settings-#webrtc)
-- [ ] Uncheck **Use Google services for push messaging**
-- [ ] Uncheck **Allow privacy-preserving product analytics (P3A)**
-- [ ] Uncheck **Automatically send daily usage ping to Brave**
-- [ ] Uncheck **Automatically send diagnostic reports**
-- [ ] Uncheck **Private window with Tor** (1)
+- [x] Selecteer **Deactiveer non-proxied UDP** onder [WebRTC IP-verwerkingsbeleid](https://support.brave.com/hc/nl-us/articles/360017989132-How-do-I-change-my-Privacy-Settings-#webrtc)
+- [ ] Zet **Google-diensten gebruiken voor pushberichten** uit
+- [ ] Zet **Productanalyse met privacybescherming (P3A) toestaan** uit
+- [ ] Zet **Dagelijks automatisch gebruiksping verzenden naar Brave** uit
+- [ ] Zet **Diagnostische rapporten automatisch verzenden** uit
+- [x] Selecteer **Altijd beveiligde verbindingen gebruiken** onder het menu **Beveiliging**
+- [ ] Zet **Privéscherm met Tor** uit (1)
 
     !!! tip "Saneren bij sluiten"
 
@@ -283,8 +284,8 @@ Ingebouwde extensies die je niet gebruikt uitschakelen in **Extensies**
 
 De Web3-functies van Brave kunnen de vingerafdruk van jouw browser en het aanvalsoppervlak vergroten. Tenzij je een van de functies gebruikt, moeten ze worden uitgeschakeld.
 
-- Select **Extensions (no fallback)** under Default Ethereum wallet and Default Solana wallet
-- Set **Method to resolve IPFS resources** to **Disabled**
+- Selecteer **Extensies (geen fallback)** onder Standaard Ethereum portemonnee en standaard Solana portemonnee
+- Schakel **methode in om IPFS-bronnen op te lossen** uit
 
 ##### Systeem
 

@@ -1,28 +1,28 @@
 ---
 title: macOS Overview
 icon: material/apple-finder
-description: macOS is Apple's desktop operating system that works with their hardware to provide strong security.
+description: macOS is Apple's desktop besturingssysteem dat met zijn hardware werkt om een sterke beveiliging te bieden.
 ---
 
-**macOS** is a Unix operating system developed by Apple for their Mac computers. To enhance privacy on macOS, you can disable telemetry features and harden existing privacy and security settings.
+**macOS** is een Unix besturingssysteem ontwikkeld door Apple voor hun Mac computers. Om de privacy op macOS te verbeteren, kun je telemetry functies uitschakelen en bestaande privacy-en beveiligingsinstellingen aanscherpen.
 
-Older Intel-based Macs and Hackintoshes do not support all the security features that macOS offers. To enhance data security, we recommend using a newer Mac with [Apple silicon](https://support.apple.com/en-us/HT211814).
+Oudere op Intel-gebaseerde Macs en Hackintoshes ondersteunen niet alle beveiligingsfuncties die macOS biedt. Om de gegevensbeveiliging te verbeteren, raden we een nieuwere Mac met [Apple silicon](https://support.apple.com/en-us/HT211814) aan.
 
-## Privacy Notes
+## Privacy Opmerkingen
 
-There are a few notable privacy concerns with macOS that you should consider. These pertain to the operating system itself, and not Apple's other apps and services.
+Er zijn enkele opmerkelijke privacypunten met macOS die je zou moeten overwegen. Deze hebben betrekking op het besturingssysteem zelf, en niet op Apple's andere apps en diensten.
 
-### Activation Lock
+### Activatie vergrendeling
 
-Brand new Apple silicon devices can be set up without an internet connection. However, recovering or resetting your Mac will **require** an internet connection to Apple's servers to check against the Activation Lock database of lost or stolen devices.
+Gloednieuwe Apple-siliconen kunnen zonder internetverbinding worden ingesteld. Maar het herstellen of opnieuw instellen van uw Mac vereist **een internetverbinding van** met de servers van Apple om te controleren tegen de Activeringsvergrendelingsdatabase van verloren of gestolen apparaten.
 
-### App Revocation Checks
+### App herroepingscontrole
 
-macOS performs online checks when you open an app to verify whether an app contains known malware, and whether the developer’s signing certificate is revoked.
+macOS voert online controles uit wanneer u een app opent om te controleren of een app bekende malware bevat en of het ondertekeningscertificaat van de ontwikkelaar is ingetrokken.
 
-Previously, these checks were performed via an unencrypted OCSP protocol which could leak information about the apps you ran to your network. Apple upgraded their OCSP service to use HTTPS encryption in 2021, and [posted information](https://support.apple.com/HT202491) about their logging policy for this service. They additionally promised to add a mechanism for people to opt-out of this online check, but this has not been added to macOS as of July 2023.
+Vroeger werden deze controles uitgevoerd via een niet-versleuteld OCSP-protocol, dat informatie kon lekken over de apps die je gebruikt naar het netwerk waarmee je verbonden was. Apple heeft hun OCSP-service geüpgraded om HTTPS encryptie te gebruiken in 2021, en [plaatste informatie](https://support.apple.com/HT202491) over hun logboekbeleid voor deze service. Ze beloofden bovendien een mechanisme toe te voegen voor de opt-out van deze onlinecontrole, maar dit is niet toegevoegd aan macOS op het moment van schrijven (juli 2023).
 
-While you [can](https://eclecticlight.co/2021/02/23/how-to-run-apps-in-private/) manually opt out of this check relatively easily, we recommend against doing so unless you would be badly compromised by the revocation checks performed by macOS, because they serve an important role in ensuring compromised apps are blocked from running.
+Terwijl jij [](https://eclecticlight.co/2021/02/23/how-to-run-apps-in-private/) deze controle relatief gemakkelijk kan uitschakelen, raden wij aan om dit niet te doen tenzij je ernstig gecompromitteerd wordt door de intrekkingscontroles uitgevoerd door macOS, omdat ze een belangrijke rol spelen door ervoor te zorgen dat gecompromitteerde apps niet kunnen werken.
 
 ## Aanbevolen configuratie
 
