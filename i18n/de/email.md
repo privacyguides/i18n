@@ -201,17 +201,17 @@ Skiff Mail nutzt eine Nullzugriffsverschlüsselung für alle Ihre Daten. Das bed
 
 #### :material-information-outline:{ .pg-blue } E-Mail-Verschlüsselung
 
-Skiff Mail unterstützt kein OpenPGP. Emails are only encrypted with E2EE to other Skiff Mail users. Skiff does not have a "temporary inbox" or "passworded email" feature like some other providers have, so that external users cannot receive or reply to messages with E2EE.
+Skiff Mail unterstützt kein OpenPGP. E-Mails sind nur im Schriftverkehr mit anderen Skiff Mail Nutzern Ende zu Ende verschlüsselt. Im Gegensatz zu anderen Anbietern verfügt Skiff Mail über keine "Temporäre Inbox" oder "Passwortgeschützte E-Mail". Diese würden den Versand von verschlüsselten Schriftverkehr mit externen Adressen ermöglichen.
 
 #### :material-information-outline:{ .pg-blue } Kontokündigung
 
-Skiff Mail accounts do not expire, but unpaid accounts will be prompted to remove any enabled paid features (such as additional aliases) or renew their plan before the account can be used.
+Skiff Mail Accounts können nach Ende des Abos nicht gelöscht werden, allerdings müssen nicht zahlende Nutzer alle kostenpflichtigen Features (z.B. zusätzliche Aliase) deaktivieren, bevor der Account wieder genutzt werden kann.
 
 #### :material-information-outline:{ .pg-blue } Zusätzliche Funktionen
 
-Skiff additionally offers [workspace productivity features](https://discuss.privacyguides.net/t/skiff-pages-drive-productivity-tools/11758/13), but we still prefer [alternative](productivity.md) options for collaborating and file sharing at this time.
+Skiff wirbt zudem noch mit [Produktivitäts-Features](https://discuss.privacyguides.net/t/skiff-pages-drive-productivity-tools/11758/13) im Arbeitsbereich, allerdings empfehlen wir [alternative](productivity.md) Lösungen für Kollaboration und File Sharing.
 
-Skiff Mail does not offer a digital legacy feature.
+Skiff Mail bietet keine "Digitaler Nachlass"-Funktion an.
 
 ### Tutanota
 
@@ -306,12 +306,12 @@ Die Verwendung eines Alias-Dienstes setzt voraus, dass du sowohl deinem E-Mail-A
     ![addy.io logo](assets/img/email/addy.svg#only-light){ align=right }
     ![addy.io logo](assets/img/email/addy-dark.svg#only-dark){ align=right }
     
-    **addy.io** lets you create 10 domain aliases on a shared domain for free, or unlimited "standard" aliases which are less anonymous.
+    Mit **addy.io** können sie gratis 10 verschiedene Aliase auf einem geteilten Domainnamen erstellen, oder unendlich viele "standard" Aliase, welche weniger anonym sind.
     
     [:octicons-home-16: Homepage](https://addy.io){ .md-button .md-button--primary }
-    [:octicons-eye-16:](https://addy.io/privacy){ .card-link title="Privacy Policy" }
-    [:octicons-info-16:](https://app.addy.io/docs){ .card-link title=Documentation}
-    [:octicons-code-16:](https://github.com/anonaddy){ .card-link title="Source Code" }
+    [:octicons-eye-16:](https://addy.io/privacy){ .card-link title="Datenschutzrichtlinie" }
+    [:octicons-info-16:](https://app.addy.io/docs){ .card-link title=Dokumentation}
+    [:octicons-code-16:](https://github.com/anonaddy){ .card-link title="Quellcode" }
     [:octicons-heart-16:](https://addy.io/donate){ .card-link title=Contribute }
     
     ??? downloads
@@ -321,14 +321,14 @@ Die Verwendung eines Alias-Dienstes setzt voraus, dass du sowohl deinem E-Mail-A
         - [:simple-firefoxbrowser: Firefox](https://addons.mozilla.org/firefox/addon/addy_io/)
         - [:simple-googlechrome: Chrome](https://chrome.google.com/webstore/detail/addyio-anonymous-email-fo/iadbdpnoknmbdeolbapdackdcogdmjpe)
 
-The number of shared aliases (which end in a shared domain like @addy.io) that you can create is limited to 10 on addy.io's free plan, 50 on their $1/month plan and unlimited on the $4/month plan (billed $3 for a year). You can create unlimited standard aliases (which end in a domain like @[username].addy.io or a custom domain on paid plans), however, as previously mentioned, this can be detrimental to privacy because people can trivially tie your standard aliases together based on the domain name alone. They are useful where a shared domain might be blocked by a service.
+Mit dem gratis-Plan ist die Anzahl der geteilten Aliase (welche in einer geteilten Domäne, wie z.B. @addy.io, enden) auf 10 beschränkt. Für 1$ im Monat erhalten sie 50, und für 4$ im Monat unendlich viele (3$ pro Monat wenn sie jährlich zahlen). Sie können unendlich viele standard Aliase (welche in einer Domäne wie @[Nutzername].addy.io oder einer benutzerdefinierten Domäne mit Abo enden) erstellen, allerdings sind diese, wie schon gesagt, weniger anonym, da schon allein über den Domainnamen alle Aliase miteinander auf eine Person zurückgeführt werden können. Standard Aliase sind sinnvoll, wenn geteilte Domänen von einer Website geblockt werden.
 
 Bemerkenswerte kostenlose Funktionen:
 
 - [x] 10 Gemeinsame Aliasnamen
 - [x] Unbegrenzte Standard-Aliasnamen
 - [ ] Keine ausgehenden Antworten
-- [x] 1 Recipient Mailboxes
+- [x] Eine Mailbox zum Empfang
 - [x] Automatische PGP-Verschlüsselung
 
 ### SimpleLogin

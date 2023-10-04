@@ -8,7 +8,7 @@
 *[CLI]: Kommandozeilen-Schnittstelle
 *[CSV]: Kommagetrennte Werte
 *[CVE]: Häufige Schwachstellen und Gefährdungen
-*[digital legacy feature]: Funktionen, die es ermöglichen nach dem eigenen Tod anderen Menschen Zugang zu Daten zu gewähren
+*[digitaler Nachlass]: Funktionen, die es ermöglichen nach dem eigenen Tod anderen Menschen Zugang zu Daten zu gewähren
 *[DNSSEC]: Domänennamensystem-Sicherheitserweiterungen
 *[DNS]: Domänennamensystem
 *[DoH]: DNS über HTTPS

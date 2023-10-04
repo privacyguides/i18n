@@ -4,7 +4,7 @@ title: Allgemeine Kriterien
 
 !!! example "Work in Progress"
 
-    Die folgende Seite ist in Arbeit und spiegelt zum aktuell noch nicht die vollständigen Kriterien für unsere Empfehlungen wider. Frühere Diskussion zu diesem Thema: [#24](https://github.com/privacyguides/privacyguides.org/discussions/24)
+    An dieser Seite wird im Moment noch gearbeitet; sie spiegelt derzeit nicht die vollständigen Kriterien für unsere Empfehlungen wieder. Frühere Diskussion zu diesem Thema: [#24](https://github.com/privacyguides/privacyguides.org/discussions/24)
 
 Nachfolgend sind einige Punkte aufgeführt, die für alle Einsendungen an Privacy Guides zutreffen müssen. Für jede Kategorie gelten zusätzliche Anforderungen für die Aufnahme.
 
