@@ -60,10 +60,10 @@ Abbiamo alcuni consigli aggiuntivi sulla configurazione e rafforzamento della tu
     [:octicons-info-16:](https://github.com/simplex-chat/simplex-chat/tree/stable/docs){.card-link title=Documentazione}
     [:octicons-code-16:](https://github.com/simplex-chat){.card-link title="Codice Sorgente" }
     
-    ??? downloads
+    ??? downloads "Scarica"
     
-        - [:simple-googleplay: Google Play](https://play.google.com/store/apps/details?id=chat.simplex.app)
-        - [:simple-appstore: App Store](https://apps.apple.com/us/app/simplex-chat/id1605771084)
+        - [:simple-googleplay: Google Play](https://play.google.com/store/apps/details?id=chat.simplex.app&hl=it)
+        - [:simple-appstore: App Store](https://apps.apple.com/it/app/simplex-chat-secure-messenger/id1605771084)
         - [:simple-github: GitHub](https://github.com/simplex-chat/simplex-chat/releases)
         - [:simple-windows11: Windows](https://simplex.chat/downloads/#desktop-app)
         - [:simple-apple: macOS](https://simplex.chat/downloads/#desktop-app)

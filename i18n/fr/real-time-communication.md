@@ -60,7 +60,7 @@ Nous avons quelques conseils supplémentaires pour configurer et renforcer votre
     [:octicons-info-16:](https://github.com/simplex-chat/simplex-chat/tree/stable/docs){ .card-link title=Documentation}
     [:octicons-code-16:](https://github.com/simplex-chat){ .card-link title="Code source" }
     
-    ??? downloads
+    ??? downloads "Téléchargements"
     
         - [:simple-googleplay: Google Play](https://play.google.com/store/apps/details?id=chat.simplex.app)
         - [:simple-appstore: App Store](https://apps.apple.com/us/app/simplex-chat/id1605771084)
@@ -71,7 +71,7 @@ Nous avons quelques conseils supplémentaires pour configurer et renforcer votre
 
 SimpleX Chat [a été audité](https://simplex.chat/blog/20221108-simplex-chat-v4.2-security-audit-new-website.html) par Trail of Bits en Octobre 2022.
 
-SimpleX Chat supports basic group chatting functionality, direct messaging, and editing of messages and markdown. Les appels audio et vidéo E2EE sont également pris en charge. Vos données peuvent être exportées et importées sur un autre appareil, car il n'y a pas de serveur central où elles sont sauvegardées.
+SimpleX Chat prend en charge les fonctionnalités de base des conversations de groupe, des messages directs et de l'édition de messages et du markdown. Les appels audio et vidéo E2EE sont également pris en charge. Vos données peuvent être exportées et importées sur un autre appareil, car il n'y a pas de serveur central où elles sont sauvegardées.
 
 ### Briar
 
