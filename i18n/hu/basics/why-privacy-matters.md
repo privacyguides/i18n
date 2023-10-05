@@ -1,15 +1,15 @@
 ---
-title: "Why Privacy Matters"
+title: "Miért fontos az adatvédelem"
 icon: 'material/shield-account'
 ---
 
-In the modern age of digital data exploitation, your privacy has never been more critical, and yet many believe it is already a lost cause. It is not. ==Your privacy is up for grabs==, and you need to care about it. Privacy is about power, and it is so important that this power ends up in the right hands.
+A digitális adatokkal való visszaélések modern korában az adatvédelmed még soha nem volt ennyire kritikus, mégis sokan úgy gondolják, hogy ez már egy veszett ügy. Nem az. ==A magánéleted veszélyben van==, és törődnöd kell vele. A adatvédelem a hatalomról szól, és nagyon fontos, hogy ez a hatalom a megfelelő kezekbe kerüljön.
 
-Privacy is ultimately about human information, and this is important because we know that human information confers power over human beings. If we care about our ability to be authentic, fulfilled, and free humans, we have to care about the rules that apply to information about us. So much of our modern society is structured around **information**. When you shop online, read the news, look something up, vote, seek directions, or really anything else, you are relying on information. If we live in an information society, our information matters, and therefore privacy matters.
+A magánélet végső soron az emberi információkról szól, és ez azért fontos, mert tudjuk, hogy az emberi információk hatalmat biztosítanak emberi lények felett. Ha fontos számunkra, hogy képesek legyünk hiteles, kiteljesedett és szabad emberek lenni, akkor törődnünk kell a rólunk szóló információkra vonatkozó szabályokkal. Modern társadalmunk nagy része **információ** köré épül. Amikor vásárolsz online, híreket olvasol, utánanézel valaminek, szavazol, útbaigazítást kérsz, vagy bármi mást csinálsz, akkor információra támaszkodsz. Ha egy információs társadalomban élünk, akkor az információink számít, és ebből kifolyólag az adatvédelem is számít.
 
-## What is Privacy?
+## Mi az adatvédelem?
 
-Many people get the concepts of **privacy**, **security**, and **anonymity** confused. You'll see people criticize various products as "not private" when really they mean it doesn't provide anonymity, for example. On this website, we cover all three of these topics, but it is important you understand the difference between them, and when each one comes into play.
+Sokan összekeverik a **adatvédelem**, a **biztonság** és az **anonimitás** fogalmát. Láthatod, hogy emberek kritizálnak különböző termékeket, mint "nem privát", amikor valójában úgy értik, hogy nem biztosít anonimitást például. Ezen a weboldalon mindhárom témakörrel foglalkozunk, de fontos, hogy megértsd a köztük lévő különbséget, és hogy mikor melyik kerül a képbe.
 
 **Adatvédelem**
 :

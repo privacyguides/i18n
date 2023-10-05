@@ -1,5 +1,5 @@
 ---
-meta_title: "Privacy Guides: Your Independent Privacy and Security Resource"
+meta_title: "Privacy Guides: A Független Adatvédelmi és Adatbiztonsági Erőforrásod"
 template: overrides/home.hu.html
 social:
   cards_layout: home
@@ -46,7 +46,7 @@ A kultúrák közötti házassághoz, a női választójoghoz, a szólásszabads
 
 Nem szabad összekeverni a magánéletet a titoktartással. Tudjuk, hogy mi történik a mosdóban, de az ajtó mégis becsukjuk. Ez azért van, mert magánéletet akarsz, nem titoktartást. **Mindenkinek** van valami, amit meg akar védeni. A magánélet olyasmi, ami emberré tesz minket.
 
-[:material-book-outline: Why Privacy Matters](basics/why-privacy-matters.md){ class="md-button md-button--primary" }
+[:material-book-outline: Miért Fontos az Adatvédelem](basics/why-privacy-matters.md){ class="md-button md-button--primary" }
 
 ## Mihez kezdjek?
 
@@ -56,11 +56,11 @@ Megpróbálni az összes adatodat mindenkitől és mindig megvédeni nem praktik
 
 ==A fenyegetések azonosításának és az ellenintézkedések meghatározásának ezt a folyamatát **védelmi modellezésnek**== nevezzük, és ez képezi minden jó biztonsági és adatvédelmi terv alapját.
 
-[:material-book-outline: Learn More About Threat Modeling](basics/threat-modeling.md){ class="md-button md-button--primary" }
+[:material-book-outline: További Információk a Védelmi Modellekről](basics/threat-modeling.md){ class="md-button md-button--primary" }
 
 ---
 
-## Szükségünk van rád! Így kapcsolódhatsz be:
+## Szükségünk van rád! Itt van, hogyan tudsz részt venni:
 
 [:simple-discourse:](https://discuss.privacyguides.net/){ title="Csatlakozz a Fórumunkhoz" }
 [:simple-mastodon:](https://mastodon.neat.computer/@privacyguides){ rel=me title="Kövess minket a Mastodonon" }
