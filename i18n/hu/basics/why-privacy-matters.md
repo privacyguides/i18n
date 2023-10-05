@@ -9,12 +9,12 @@ A magánélet végső soron az emberi információkról szól, és ez azért fon
 
 ## Mi az adatvédelem?
 
-Sokan összekeverik a **adatvédelem**, a **biztonság** és az **anonimitás** fogalmát. Láthatod, hogy emberek kritizálnak különböző termékeket, mint "nem privát", amikor valójában úgy értik, hogy nem biztosít anonimitást például. Ezen a weboldalon mindhárom témakörrel foglalkozunk, de fontos, hogy megértsd a köztük lévő különbséget, és hogy mikor melyik kerül a képbe.
+Sokan összekeverik az **adatvédelem**, az **adatbiztonság** és az **anonimitás** fogalmát. Láthatod, hogy emberek kritizálnak különböző termékeket, mint "nem privát", amikor valójában úgy értik, hogy nem biztosít anonimitást például. Ezen a weboldalon mindhárom témakörrel foglalkozunk, de fontos, hogy megértsd a köztük lévő különbséget, és hogy mikor melyik kerül a képbe.
 
 **Adatvédelem**
 :
 
-==Privacy is the assurance that your data is only seen by the parties you intend to view it.== In the context of an instant messenger, for example, end-to-end encryption provides privacy by keeping your message visible only to yourself and the recipient.
+==Az adatvédelem az a biztosíték, hogy az adataidat csak azok a felek láthatják, akiknek látni szándékozod azokat.== Az azonnali üzenetküldő szolgáltatásokkal összefüggésben például az end-to-end titkosítás biztosítja az adatvédelmet, mivel az üzenetet csak te és a címzett láthatja.
 
 **Adatbiztonság**
 :
