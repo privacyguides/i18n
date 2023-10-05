@@ -240,7 +240,7 @@ Tutanota не підтримує [протокол IMAP](https://tutanota.com/fa
 
 #### :material-check:{ .pg-green } Користувацькі домени та аліаси
 
-Платні акаунти Tutanota можуть використовувати до 5 [аліасів](https://tutanota.com/faq#alias) та [користувацьких доменів](https://tutanota.com/faq#custom-domain). Tutanota не дозволяє [субадресацію (плюс адреси)](https://tutanota.com/faq#plus), але ви можете використовувати [всеохоплюючі адреси](https://tutanota.com/howto#settings-global) з власним доменом.
+Paid Tutanota accounts can use either 15 or 30 aliases depending on their plan and unlimited aliases on [custom domains](https://tutanota.com/faq#custom-domain). Tutanota не дозволяє [субадресацію (плюс адреси)](https://tutanota.com/faq#plus), але ви можете використовувати [всеохоплюючі адреси](https://tutanota.com/howto#settings-global) з власним доменом.
 
 #### :material-information-outline:{ .pg-blue } Конфіденційні способи оплати
 

@@ -241,7 +241,7 @@ Tutanota unterstützt nicht das [IMAP-Protokoll](https://tutanota.com/de/faq/#im
 
 #### :material-check:{ .pg-green } Eigene Domains und Aliase
 
-Bezahlte Tutanota-Konten können bis zu 5 [Aliase](https://tutanota.com/faq#alias) und [benutzerdefinierte Domains](https://tutanota.com/de/faq#custom-domain) verwenden. Tutanota erlaubt keine [Subadressierung (plus Adressen)](https://tutanota.com/faq#plus), du kannst aber eine [Catch-All Adresse](https://tutanota.com/howto#settings-global) mit einer benutzerdefinierten Domain verwenden.
+Paid Tutanota accounts can use either 15 or 30 aliases depending on their plan and unlimited aliases on [custom domains](https://tutanota.com/faq#custom-domain). Tutanota erlaubt keine [Subadressierung (plus Adressen)](https://tutanota.com/faq#plus), du kannst aber eine [Catch-All Adresse](https://tutanota.com/howto#settings-global) mit einer benutzerdefinierten Domain verwenden.
 
 #### :material-information-outline:{ .pg-blue } Private Zahlungsmöglichkeiten
 

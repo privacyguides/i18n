@@ -240,7 +240,7 @@ Tutanota는 [IMAP 프로토콜](https://tutanota.com/faq/#imap)이나 외부 [�
 
 #### :material-check:{ .pg-green } 사용자 지정 도메인 및 별칭
 
-Tutanota 유료 계정은 최대 5개의 [별칭](https://tutanota.com/faq#alias) 및 사용자 지정 [도메인](https://tutanota.com/faq#custom-domain)을 사용할 수 있습니다. Tutanota는 [보조 주소(Plus 주소)](https://tutanota.com/faq#plus)를 허용하지 않지만, 사용자 지정 도메인 [Catch-all](https://tutanota.com/howto#settings-global) 기능은 지원합니다.
+Paid Tutanota accounts can use either 15 or 30 aliases depending on their plan and unlimited aliases on [custom domains](https://tutanota.com/faq#custom-domain). Tutanota는 [보조 주소(Plus 주소)](https://tutanota.com/faq#plus)를 허용하지 않지만, 사용자 지정 도메인 [Catch-all](https://tutanota.com/howto#settings-global) 기능은 지원합니다.
 
 #### :material-information-outline:{ .pg-blue } 비공개 결제 수단
 

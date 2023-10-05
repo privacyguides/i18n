@@ -240,7 +240,7 @@ Tutanota не поддерживает [протокол IMAP](https://tutanota.
 
 #### :material-check:{ .pg-green } Пользовательские домены и псевдонимы
 
-Люди с платными аккаунтами Tutanota могут использовать до 5 [псевдонимов](https://tutanota.com/faq#alias) и [пользовательских доменов](https://tutanota.com/faq#custom-domain). Tutanota не позволяет использовать [субадресацию (адреса с плюсом)](https://tutanota.com/faq#plus), но с пользовательским доменом ты можешь использовать [универсальный адрес](https://tutanota.com/howto#settings-global).
+Paid Tutanota accounts can use either 15 or 30 aliases depending on their plan and unlimited aliases on [custom domains](https://tutanota.com/faq#custom-domain). Tutanota не позволяет использовать [субадресацию (адреса с плюсом)](https://tutanota.com/faq#plus), но с пользовательским доменом ты можешь использовать [универсальный адрес](https://tutanota.com/howto#settings-global).
 
 #### :material-information-outline:{ .pg-blue } Конфиденциальные способы оплаты
 

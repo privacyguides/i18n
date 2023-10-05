@@ -240,7 +240,7 @@ Skiff Mail does not offer a digital legacy feature.
 
 #### :material-check:{ .pg-green } النطاقات المخصَّصة والكنى
 
-تتاح للحسابات المدفوعة ما أقصاه ٥ [كنًى](https://tutanota.com/faq#alias) [وأسماء نطاق مخصَّصة](https://tutanota.com/faq#custom-domain). لا تسمح توتنوتا [بالعنونة الفرعية (العنونة الإضافية)](https://tutanota.com/faq#plus)، لكن بوسعك استخدام [مصياد شامل](https://tutanota.com/howto#settings-global)، وذلك باسم نطاق مخصَّص.
+Paid Tutanota accounts can use either 15 or 30 aliases depending on their plan and unlimited aliases on [custom domains](https://tutanota.com/faq#custom-domain). لا تسمح توتنوتا [بالعنونة الفرعية (العنونة الإضافية)](https://tutanota.com/faq#plus)، لكن بوسعك استخدام [مصياد شامل](https://tutanota.com/howto#settings-global)، وذلك باسم نطاق مخصَّص.
 
 #### :material-information-outline:{ .pg-blue } سُبُل الدفع الخاصَّة
 

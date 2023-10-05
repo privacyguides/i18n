@@ -240,7 +240,7 @@ Tutanota no es compatible con el[protocolo IMAP](https://tutanota.com/faq/#imap)
 
 #### :material-check:{ .pg-green } Dominios Personalizados y Alias
 
-Las cuentas de pago de Tutanota pueden usar hasta 5 [alias](https://tutanota.com/faq#alias) y [dominios personalizados](https://tutanota.com/faq#custom-domain). Tutanota no permite la [subdirección (más direcciones)](https://tutanota.com/faq#plus), pero puede utilizar un [catch-all](https://tutanota.com/howto#settings-global) con un dominio personalizado.
+Paid Tutanota accounts can use either 15 or 30 aliases depending on their plan and unlimited aliases on [custom domains](https://tutanota.com/faq#custom-domain). Tutanota no permite la [subdirección (más direcciones)](https://tutanota.com/faq#plus), pero puede utilizar un [catch-all](https://tutanota.com/howto#settings-global) con un dominio personalizado.
 
 #### :material-information-outline:{ .pg-blue } Métodos de pago privados
 

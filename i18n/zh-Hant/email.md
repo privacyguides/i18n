@@ -240,7 +240,7 @@ Tutanota 不支援 [ IMAP 協議](https://tutanota.com/faq/#imap) 或使用第�
 
 #### :material-check:{ .pg-green } Custom Domains and Aliases
 
-付費Tutanota 帳戶可以有5 [別名](https://tutanota.com/faq#alias) 和 [自定網域](https://tutanota.com/faq#custom-domain)。 Tutanota 不能 [子地址（加號 +定址）](https://tutanota.com/faq#plus)，但您可以使用自定義域名的 [通用電于郵件](https://tutanota.com/howto#settings-global)功能 。
+Paid Tutanota accounts can use either 15 or 30 aliases depending on their plan and unlimited aliases on [custom domains](https://tutanota.com/faq#custom-domain). Tutanota 不能 [子地址（加號 +定址）](https://tutanota.com/faq#plus)，但您可以使用自定義域名的 [通用電于郵件](https://tutanota.com/howto#settings-global)功能 。
 
 #### :material-information-outline:{ .pg-blue } 私人付款方式
 

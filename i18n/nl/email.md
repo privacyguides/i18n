@@ -240,7 +240,7 @@ Tutanota ondersteunt het [IMAP protocol](https://tutanota.com/faq/#imap) em het 
 
 #### :material-check:{ .pg-green } Aangepaste domeinen en aliassen
 
-Betaalde Tutanota accounts kunnen tot 5 [aliassen gebruiken](https://tutanota.com/faq#alias) en [aangepaste domeinen](https://tutanota.com/faq#custom-domain). Tutanota staat geen [subadressering (plus adressen)](https://tutanota.com/faq#plus)toe, maar je kunt een [catch-all](https://tutanota.com/howto#settings-global) gebruiken met een aangepast domein.
+Paid Tutanota accounts can use either 15 or 30 aliases depending on their plan and unlimited aliases on [custom domains](https://tutanota.com/faq#custom-domain). Tutanota staat geen [subadressering (plus adressen)](https://tutanota.com/faq#plus)toe, maar je kunt een [catch-all](https://tutanota.com/howto#settings-global) gebruiken met een aangepast domein.
 
 #### :material-information-outline:{ .pg-blue } Privé betaalmethodes
 

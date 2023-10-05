@@ -240,7 +240,7 @@ Tutanota אינה משתמשת בפרוטוקול [IMAP](https://tutanota.com/fa
 
 #### :material-check:{ .pg-green } דומיינים וכינויים מותאמים אישית
 
-חשבונות Tutanota בתשלום יכולים להשתמש בעד 5 [כינויים](https://tutanota.com/faq#alias) ו[דומיינים מותאמים אישית](https://tutanota.com/faq#custom-domain). Tutanota אינה מאפשרת [כתובת משנה (בתוספת כתובות)](https://tutanota.com/faq#plus), אבל אתה יכול להשתמש ב[תפוס הכל](https://tutanota.com/howto#settings-global) עם דומיין מותאם אישית.
+Paid Tutanota accounts can use either 15 or 30 aliases depending on their plan and unlimited aliases on [custom domains](https://tutanota.com/faq#custom-domain). Tutanota אינה מאפשרת [כתובת משנה (בתוספת כתובות)](https://tutanota.com/faq#plus), אבל אתה יכול להשתמש ב[תפוס הכל](https://tutanota.com/howto#settings-global) עם דומיין מותאם אישית.
 
 #### :material-information-outline:{ .pg-blue } שיטות תשלום פרטיות
 
