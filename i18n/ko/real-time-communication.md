@@ -60,17 +60,18 @@ Signal 설치 구성 및 보안 강화 관련 도움말이 필요하신 분은 �
     [:octicons-info-16:](https://github.com/simplex-chat/simplex-chat/tree/stable/docs){ .card-link title=문서}
     [:octicons-code-16:](https://github.com/simplex-chat){ .card-link title="소스 코드" }
     
-    ??? downloads "다운로드"
+    ??? downloads
     
         - [:simple-googleplay: Google Play](https://play.google.com/store/apps/details?id=chat.simplex.app)
         - [:simple-appstore: App Store](https://apps.apple.com/us/app/simplex-chat/id1605771084)
         - [:simple-github: GitHub](https://github.com/simplex-chat/simplex-chat/releases)
+        - [:simple-windows11: Windows](https://simplex.chat/downloads/#desktop-app)
+        - [:simple-apple: macOS](https://simplex.chat/downloads/#desktop-app)
+        - [:simple-linux: Linux](https://simplex.chat/downloads/#desktop-app)
 
 SimpleX Chat 보안 감사는 Trail of Bits이 2022년 10월에 [진행하였습니다](https://simplex.chat/blog/20221108-simplex-chat-v4.2-security-audit-new-website.html).
 
-현재 SimpleX Chat은 Android, iOS 클라이언트만 제공하고 있습니다. 기본적인 그룹 채팅, 개인 메시지, 메시지 편집 및 마크다운 기능이 지원됩니다. E2EE 음성 및 영상 통화 또한 지원됩니다.
-
-여러분은 데이터를 내보내고 다른 기기에서 해당 데이터를 가져올 수 있습니다. Simplex Chat은 데이터가 백업되는 중앙 서버가 존재하지 않습니다.
+SimpleX Chat supports basic group chatting functionality, direct messaging, and editing of messages and markdown. E2EE 음성 및 영상 통화 또한 지원됩니다. 여러분은 데이터를 내보내고 다른 기기에서 해당 데이터를 가져올 수 있습니다. Simplex Chat은 데이터가 백업되는 중앙 서버가 존재하지 않습니다.
 
 ### Briar
 

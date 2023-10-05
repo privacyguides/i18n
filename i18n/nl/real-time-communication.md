@@ -60,17 +60,18 @@ We hebben nog enkele extra tips over het configureren en verharden van jouw sign
     [:octicons-info-16:](https://github.com/simplex-chat/simplex-chat/tree/stable/docs){ .card-link title=Documentatie}
     [:octicons-code-16:](https://github.com/simplex-chat){ .card-link title="Broncode" }
     
-    ??? downloads "Downloaden"
+    ??? downloads
     
         - [:simple-googleplay: Google Play](https://play.google.com/store/apps/details?id=chat.simplex.app)
         - [:simple-appstore: App Store](https://apps.apple.com/us/app/simplex-chat/id1605771084)
         - [:simple-github: GitHub](https://github.com/simplex-chat/simplex-chat/releases)
+        - [:simple-windows11: Windows](https://simplex.chat/downloads/#desktop-app)
+        - [:simple-apple: macOS](https://simplex.chat/downloads/#desktop-app)
+        - [:simple-linux: Linux](https://simplex.chat/downloads/#desktop-app)
 
 SimpleX Chat [werd gecontroleerd](https://simplex.chat/blog/20221108-simplex-chat-v4.2-security-audit-new-website.html) door Trail Bits in oktober 2022.
 
-Momenteel biedt SimpleX Chat alleen een client voor Android en iOS. Basisfuncties voor groepschatten, direct messaging, bewerken van berichten en markdown worden ondersteund. E2EE audio- en video-oproepen worden ook ondersteund.
-
-Jouw gegevens kunnen worden geëxporteerd en geïmporteerd naar een ander apparaat, omdat er geen centrale servers zijn waar een back-up van wordt gemaakt.
+SimpleX Chat supports basic group chatting functionality, direct messaging, and editing of messages and markdown. E2EE audio- en video-oproepen worden ook ondersteund. Jouw gegevens kunnen worden geëxporteerd en geïmporteerd naar een ander apparaat, omdat er geen centrale servers zijn waar een back-up van wordt gemaakt.
 
 ### Briar
 

@@ -57,22 +57,18 @@ We have some additional tips on configuring and hardening your Signal installati
     
     [Website](https://element.io/){ .md-button .md-button--primary } [Chính Sách Bảo Mật](https://element.io/privacy){ .md-button }
     
-    ??? tải xuống
+    ??? downloads
     
-        - [:fontawesome-brands-windows: Windows](https://element.io/get-started)
-        - [:fontawesome-brands-apple: macOS](https://element.io/get-started)
-        - [:fontawesome-brands-linux: Linux](https://element.io/get-started)
-        - [:octicons-browser-16: Browser](https://app.element.io)
-        - [:fontawesome-brands-google-play: Google Play](https://play.google.com/store/apps/details?id=im.vector.app)
-        - [:pg-f-droid: F-Droid](https://f-droid.org/packages/im.vector.app/)
-        - [:fontawesome-brands-app-store-ios: App Store](https://apps.apple.com/app/vector/id1083446067)
-        - [:fontawesome-brands-github: Mã nguồn](https://github.com/vector-im/element-web)
+        - [:simple-googleplay: Google Play](https://play.google.com/store/apps/details?id=chat.simplex.app)
+        - [:simple-appstore: App Store](https://apps.apple.com/us/app/simplex-chat/id1605771084)
+        - [:simple-github: GitHub](https://github.com/simplex-chat/simplex-chat/releases)
+        - [:simple-windows11: Windows](https://simplex.chat/downloads/#desktop-app)
+        - [:simple-apple: macOS](https://simplex.chat/downloads/#desktop-app)
+        - [:simple-linux: Linux](https://simplex.chat/downloads/#desktop-app)
 
 SimpleX Chat [was audited](https://simplex.chat/blog/20221108-simplex-chat-v4.2-security-audit-new-website.html) by Trail of Bits in October 2022.
 
-Currently SimpleX Chat only provides a client for Android and iOS. Basic group chatting functionality, direct messaging, editing of messages and markdown are supported. E2EE Audio and Video calls are also supported.
-
-Your data can be exported, and imported onto another device, as there are no central servers where this is backed up.
+SimpleX Chat supports basic group chatting functionality, direct messaging, and editing of messages and markdown. E2EE Audio and Video calls are also supported. Your data can be exported, and imported onto another device, as there are no central servers where this is backed up.
 
 ### Briar
 

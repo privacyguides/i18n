@@ -65,12 +65,13 @@ Abbiamo alcuni consigli aggiuntivi sulla configurazione e rafforzamento della tu
         - [:simple-googleplay: Google Play](https://play.google.com/store/apps/details?id=chat.simplex.app)
         - [:simple-appstore: App Store](https://apps.apple.com/us/app/simplex-chat/id1605771084)
         - [:simple-github: GitHub](https://github.com/simplex-chat/simplex-chat/releases)
+        - [:simple-windows11: Windows](https://simplex.chat/downloads/#desktop-app)
+        - [:simple-apple: macOS](https://simplex.chat/downloads/#desktop-app)
+        - [:simple-linux: Linux](https://simplex.chat/downloads/#desktop-app)
 
 SimpleX Chat [è stato controllato](https://simplex.chat/blog/20221108-simplex-chat-v4.2-security-audit-new-website.html) da Trail of Bits a ottobre 2022.
 
-Al momento, SimpleX Chat fornisce solo un client per Android e iOS. Sono supportate le funzionalità di base di chat di gruppo, messaggistica diretta, modifica dei messaggi e Markdown. Sono supportate anche le chiamate e le videochiamate in E2EE.
-
-I dati possono essere esportati e importati su un altro dispositivo, poiché non esistono server centrali in cui ne è eseguito il backup.
+SimpleX Chat supports basic group chatting functionality, direct messaging, and editing of messages and markdown. Sono supportate anche le chiamate e le videochiamate in E2EE. I dati possono essere esportati e importati su un altro dispositivo, poiché non esistono server centrali in cui ne è eseguito il backup.
 
 ### Briar
 

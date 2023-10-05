@@ -60,17 +60,18 @@ Nous avons quelques conseils supplémentaires pour configurer et renforcer votre
     [:octicons-info-16:](https://github.com/simplex-chat/simplex-chat/tree/stable/docs){ .card-link title=Documentation}
     [:octicons-code-16:](https://github.com/simplex-chat){ .card-link title="Code source" }
     
-    ??? downloads "Téléchargements"
+    ??? downloads
     
         - [:simple-googleplay: Google Play](https://play.google.com/store/apps/details?id=chat.simplex.app)
         - [:simple-appstore: App Store](https://apps.apple.com/us/app/simplex-chat/id1605771084)
         - [:simple-github: GitHub](https://github.com/simplex-chat/simplex-chat/releases)
+        - [:simple-windows11: Windows](https://simplex.chat/downloads/#desktop-app)
+        - [:simple-apple: macOS](https://simplex.chat/downloads/#desktop-app)
+        - [:simple-linux: Linux](https://simplex.chat/downloads/#desktop-app)
 
 SimpleX Chat [a été audité](https://simplex.chat/blog/20221108-simplex-chat-v4.2-security-audit-new-website.html) par Trail of Bits en Octobre 2022.
 
-Actuellement, SimpleX Chat ne fournit qu'un client pour Android et iOS. Les fonctionnalités de base de conversation de groupe, la conversation directe, l'édition des messages et le markdown sont pris en charge. Les appels audio et vidéo E2EE sont également pris en charge.
-
-Vos données peuvent être exportées et importées sur un autre appareil, car il n'y a pas de serveur central où elles sont sauvegardées.
+SimpleX Chat supports basic group chatting functionality, direct messaging, and editing of messages and markdown. Les appels audio et vidéo E2EE sont également pris en charge. Vos données peuvent être exportées et importées sur un autre appareil, car il n'y a pas de serveur central où elles sont sauvegardées.
 
 ### Briar
 

@@ -60,17 +60,18 @@ Signal תומך ב[קבוצות פרטיות](https://signal.org/blog/signal-pri
     [:octicons-info-16:](https://github.com/simplex-chat/simplex-chat/tree/stable/docs){ .card-link title=תיעוד}
     [:octicons-code-16:](https://github.com/simplex-chat){ .card-link title="קוד מקור" }
     
-    ??? downloads "הורדות"
+    ??? downloads
     
         - [:simple-googleplay: Google Play](https://play.google.com/store/apps/details?id=chat.simplex.app)
         - [:simple-appstore: App Store](https://apps.apple.com/us/app/simplex-chat/id1605771084)
         - [:simple-github: GitHub](https://github.com/simplex-chat/simplex-chat/releases)
+        - [:simple-windows11: Windows](https://simplex.chat/downloads/#desktop-app)
+        - [:simple-apple: macOS](https://simplex.chat/downloads/#desktop-app)
+        - [:simple-linux: Linux](https://simplex.chat/downloads/#desktop-app)
 
 SimpleX Chat [נבדק](https://simplex.chat/blog/20221108-simplex-chat-v4.2-security-audit-new-website.html) על ידי Trail of Bits באוקטובר 2022.
 
-נכון לעכשיו SimpleX Chat מספק לקוח רק עבור אנדרואיד ו-iOS. פונקציונליות בסיסית של צ'אט קבוצתי, הודעות ישירות, עריכת הודעות וסימון נתמכים. שיחות שמע ווידאו E2EE נתמכות גם כן.
-
-ניתן לייצא את הנתונים שלך ולייבא אותם למכשיר אחר, מכיוון שאין שרתים מרכזיים שבהם הם מגובים.
+SimpleX Chat supports basic group chatting functionality, direct messaging, and editing of messages and markdown. שיחות שמע ווידאו E2EE נתמכות גם כן. ניתן לייצא את הנתונים שלך ולייבא אותם למכשיר אחר, מכיוון שאין שרתים מרכזיים שבהם הם מגובים.
 
 ### Briar
 

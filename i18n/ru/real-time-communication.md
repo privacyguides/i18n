@@ -60,17 +60,18 @@ cover: real-time-communication.png
     [:octicons-info-16:](https://github.com/simplex-chat/simplex-chat/tree/stable/docs){ .card-link title=Документация}
     [:octicons-code-16:](https://github.com/simplex-chat){ .card-link title="Исходный код" }
     
-    ??? downloads "Скачать"
+    ??? downloads
     
         - [:simple-googleplay: Google Play](https://play.google.com/store/apps/details?id=chat.simplex.app)
         - [:simple-appstore: App Store](https://apps.apple.com/us/app/simplex-chat/id1605771084)
         - [:simple-github: GitHub](https://github.com/simplex-chat/simplex-chat/releases)
+        - [:simple-windows11: Windows](https://simplex.chat/downloads/#desktop-app)
+        - [:simple-apple: macOS](https://simplex.chat/downloads/#desktop-app)
+        - [:simple-linux: Linux](https://simplex.chat/downloads/#desktop-app)
 
 SimpleX Chat [прошел аудит](https://simplex.chat/blog/20221108-simplex-chat-v4.2-security-audit-new-website.html) от компании Trail of Bits в октябре 2022 года.
 
-В настоящее время SimpleX Chat предоставляет приложения только для Android и iOS. Поддерживаются базовые функции группового чата, прямой обмен сообщениями, редактирование сообщений и markdown. Также поддерживаются аудио- и видеозвонки, зашифрованные E2EE.
-
-Ваши данные можно экспортировать и импортировать на другое устройство, так как центральных серверов, где хранятся резервные копии, нет.
+SimpleX Chat supports basic group chatting functionality, direct messaging, and editing of messages and markdown. Также поддерживаются аудио- и видеозвонки, зашифрованные E2EE. Ваши данные можно экспортировать и импортировать на другое устройство, так как центральных серверов, где хранятся резервные копии, нет.
 
 ### Briar
 
