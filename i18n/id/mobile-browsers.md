@@ -37,7 +37,7 @@ schema:
       url: "./"
 ---
 
-These are our currently recommended mobile web browsers and configurations for standard/non-anonymous internet browsing. If you need to browse the internet anonymously, you should use [Tor](tor.md) instead. In general, we recommend keeping extensions to a minimum; they have privileged access within your browser, require you to trust the developer, can make you [stand out](https://en.wikipedia.org/wiki/Device_fingerprint#Browser_fingerprint), and [weaken](https://groups.google.com/a/chromium.org/g/chromium-extensions/c/0ei-UCHNm34/m/lDaXwQhzBAAJ) site isolation.
+Berikut ini adalah peramban web seluler yang kami rekomendasikan saat ini beserta dengan konfigurasi untuk penjelajahan standar/nonanonim. Jika Anda perlu menjelajah internet secara anonim, Anda sebaiknya menggunakan [Tor](tor.md) saja. Secara umum, kami menyarankan untuk menjaga ekstensi seminimal mungkin; ekstensi memiliki akses istimewa di dalam peramban Anda, mengharuskan Anda untuk mempercayai pengembangnya, dapat membuat Anda [lebih menonjol](https://en.wikipedia.org/wiki/Device_fingerprint#Browser_fingerprint), dan [melemahkan](https://groups.google.com/a/chromium.org/g/chromium-extensions/c/0ei-UCHNm34/m/lDaXwQhzBAAJ) isolasi situs.
 
 ## Android
 
@@ -51,26 +51,26 @@ On Android, Firefox is still less secure than Chromium-based alternatives: Mozil
     
     **Brave Browser** includes a built-in content blocker and [privacy features](https://brave.com/privacy-features/), many of which are enabled by default.
     
-    Brave is built upon the Chromium web browser project, so it should feel familiar and have minimal website compatibility issues.
+    Brave dibuat berdasarkan proyek peramban web Chromium, sehingga seharusnya terasa familier dan memiliki masalah kompatibilitas situs web yang minimal.
     
-    [:octicons-home-16: Homepage](https://brave.com/){ .md-button .md-button--primary }
-    [:simple-torbrowser:](https://brave4u7jddbv7cyviptqjc7jusxh72uik7zt6adtckl5f4nwy2v72qd.onion){ .card-link title="Onion Service" }
-    [:octicons-eye-16:](https://brave.com/privacy/browser/){ .card-link title="Privacy Policy" }
-    [:octicons-info-16:](https://support.brave.com/){ .card-link title=Documentation}
-    [:octicons-code-16:](https://github.com/brave/brave-browser){ .card-link title="Source Code" }
+    [:octicons-home-16: Laman Beranda](https://mullvad.net){ .md-button .md-button--primary }
+    [:simple-torbrowser:](http://o54hon2e2vj6c7m3aqqu6uyece65by3vgoxxhlqlsvkmacw6a7m7kiad.onion){ .card-link title="Layanan Onion" }
+    [:octicons-eye-16:](https://brave.com/privacy/browser/){ .card-link title="Kebijakan Privasi" }
+    [:octicons-info-16:](https://support.brave.com/){ .card-link title=Dokumentasi}
+    [:octicons-code-16:](https://github.com/brave/brave-browser){ .card-link title="Kode Sumber" }
     
     ??? downloads annotate
     
         - [:simple-googleplay: Google Play](https://play.google.com/store/apps/details?id=com.brave.browser)
         - [:simple-github: GitHub](https://github.com/brave/brave-browser/releases)
 
-#### Recommended Configuration
+#### Konfigurasi yang Disarankan
 
 Tor Browser is the only way to truly browse the internet anonymously. When you use Brave, we recommend changing the following settings to protect your privacy from certain parties, but all browsers other than the [Tor Browser](tor.md#tor-browser) will be traceable by *somebody* in some regard or another.
 
-These options can be found in :material-menu: → **Settings** → **Brave Shields & privacy**
+Opsi-opsi ini dapat ditemukan di :material-menu: → **Pengaturan** → **Perisai Brave& privasi**
 
-##### Shields
+##### Perisai
 
 Brave includes some anti-fingerprinting measures in its [Shields](https://support.brave.com/hc/en-us/articles/360022973471-What-is-Shields-) feature. We suggest configuring these options [globally](https://support.brave.com/hc/en-us/articles/360023646212-How-do-I-configure-global-and-site-specific-Shields-settings-) across all pages that you visit.
 
@@ -138,7 +138,7 @@ On iOS, any app that can browse the web is [restricted](https://developer.apple.
     [:octicons-eye-16:](https://www.apple.com/legal/privacy/data/en/safari/){ .card-link title="Privacy Policy" }
     [:octicons-info-16:](https://support.apple.com/guide/safari/welcome/mac){ .card-link title=Documentation}
 
-#### Recommended Configuration
+#### Konfigurasi yang Disarankan
 
 These options can be found in :gear: **Settings** → **Safari** → **Privacy and Security**.
 

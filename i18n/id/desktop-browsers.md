@@ -126,7 +126,7 @@ Mullvad Browser hadir dengan DuckDuckGo yang ditetapkan sebagai mesin pencari de
 !!! warning
     Firefox includes a unique [download token](https://bugzilla.mozilla.org/show_bug.cgi?id=1677497#c0) in downloads from Mozilla's website and uses telemetry in Firefox to send the token. The token is **not** included in releases from the [Mozilla FTP](https://ftp.mozilla.org/pub/firefox/releases/).
 
-### Recommended Configuration
+### Konfigurasi yang Disarankan
 
 These options can be found in :material-menu: → **Settings**
 
@@ -202,13 +202,13 @@ Arkenfox only aims to thwart basic or naive tracking scripts through canvas rand
     
     **Brave Browser** includes a built-in content blocker and [privacy features](https://brave.com/privacy-features/), many of which are enabled by default.
     
-    Brave is built upon the Chromium web browser project, so it should feel familiar and have minimal website compatibility issues.
+    Brave dibuat berdasarkan proyek peramban web Chromium, sehingga seharusnya terasa familier dan memiliki masalah kompatibilitas situs web yang minimal.
     
-    [:octicons-home-16: Homepage](https://brave.com/){ .md-button .md-button--primary }
-    [:simple-torbrowser:](https://brave4u7jddbv7cyviptqjc7jusxh72uik7zt6adtckl5f4nwy2v72qd.onion){ .card-link title="Onion Service" }
-    [:octicons-eye-16:](https://brave.com/privacy/browser/){ .card-link title="Privacy Policy" }
-    [:octicons-info-16:](https://support.brave.com/){ .card-link title=Documentation}
-    [:octicons-code-16:](https://github.com/brave/brave-browser){ .card-link title="Source Code" }
+    [:octicons-home-16: Laman Beranda](https://mullvad.net){ .md-button .md-button--primary }
+    [:simple-torbrowser:](http://o54hon2e2vj6c7m3aqqu6uyece65by3vgoxxhlqlsvkmacw6a7m7kiad.onion){ .card-link title="Layanan Onion" }
+    [:octicons-eye-16:](https://brave.com/privacy/browser/){ .card-link title="Kebijakan Privasi" }
+    [:octicons-info-16:](https://support.brave.com/){ .card-link title=Dokumentasi}
+    [:octicons-code-16:](https://github.com/brave/brave-browser){ .card-link title="Kode Sumber" }
     
     ??? downloads annotate
     
@@ -219,13 +219,13 @@ Arkenfox only aims to thwart basic or naive tracking scripts through canvas rand
 
     1. We advise against using the Flatpak version of Brave, as it replaces Chromium's sandbox with Flatpak's, which is less effective. Additionally, the package is not maintained by Brave Software, Inc.
 
-### Recommended Configuration
+### Konfigurasi yang Disarankan
 
 These options can be found in :material-menu: → **Settings**.
 
 #### Settings
 
-##### Shields
+##### Perisai
 
 Brave includes some anti-fingerprinting measures in its [Shields](https://support.brave.com/hc/en-us/articles/360022973471-What-is-Shields-) feature. We suggest configuring these options [globally](https://support.brave.com/hc/en-us/articles/360023646212-How-do-I-configure-global-and-site-specific-Shields-settings-) across all pages that you visit.
 
