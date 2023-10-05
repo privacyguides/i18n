@@ -1,6 +1,6 @@
 ---
 meta_title: "Privacy Respecting Mobile Web Browsers for Android and iOS - Privacy Guides"
-title: "Mobile Browsers"
+title: "Peramban Seluler"
 icon: material/cellphone-information
 description: These browsers are what we currently recommend for standard/non-anonymous internet browsing on your phone.
 cover: mobile-browsers.png
