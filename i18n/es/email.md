@@ -19,7 +19,7 @@ Para todo lo demás, recomendamos una variedad de proveedores de correo electró
 
 ## Servicios Compatibles con OpenPGP
 
-These providers natively support OpenPGP encryption/decryption and the [Web Key Directory standard](basics/email-security.md#what-is-the-web-key-directory-standard), allowing for provider-agnostic E2EE emails. Por ejemplo, un usuario de Proton Mail podría enviar un mensaje E2EE a un usuario de Mailbox.org, o podrías recibir notificaciones encriptadas con OpenPGP desde servicios de Internet que lo soporten.
+Estos proveedores soportan de manera nativa el cifrado/descifrado de OpenPGP y el [estándar de Directorio de Clave Web](basics/email-security.md#what-is-the-web-key-directory-standard), permitiendo que los correos electrónicos cifrados de extremo a extremo sean independientes del proveedor. Por ejemplo, un usuario de Proton Mail podría enviar un mensaje E2EE a un usuario de Mailbox.org, o podrías recibir notificaciones encriptadas con OpenPGP desde servicios de Internet que lo soporten.
 
 <div class="grid cards" markdown>
 
@@ -86,7 +86,7 @@ Cierta información almacenada en [Proton Contacts](https://proton.me/support/pr
 
 Proton Mail ha [integrado la encriptación OpenPGP](https://proton.me/support/how-to-use-pgp) en su webmail. Los correos electrónicos a otras cuentas de Proton Mail se encriptan automáticamente, y la encriptación a direcciones que no sean de Proton Mail con una clave OpenPGP pueden ser habilitados fácilmente en la configuración de tu cuenta. También le permiten encriptar [mensajes a direcciones que no sean de Proton Mail](https://proton.me/support/password-protected-emails) sin necesidad de que se suscriban a una cuenta de Proton Mail o utilicen software como OpenPGP.
 
-Proton Mail también soporta el descubrimiento de claves públicas a través de HTTP desde su [Web Key Directory (WKD)](https://wiki.gnupg.org/WKD). Esto permite las personas quienes no utilizan Proton Mail a encontrar fácilmente las claves OpenPGP de las cuentas de Proton Mail, para E2EE entre proveedores. This only applies to email addresses ending in one of Proton's own domains, like @proton.me. If you use a custom domain, you must [configure WKD](./basics/email-security.md#what-is-the-web-key-directory-standard) separately.
+Proton Mail también soporta el descubrimiento de claves públicas a través de HTTP desde su [Web Key Directory (WKD)](https://wiki.gnupg.org/WKD). Esto permite las personas quienes no utilizan Proton Mail a encontrar fácilmente las claves OpenPGP de las cuentas de Proton Mail, para E2EE entre proveedores. Esto solo aplica para las direcciones de correo electrónico que terminen en uno de los dominios de Proton, como @proton.me. Si utilizas un dominio personalizado, debes [configurar WKD](./basics/email-security.md#what-is-the-web-key-directory-standard) por separado.
 
 #### :material-information-outline:{ .pg-blue } Cancelación de Cuenta
 
@@ -136,7 +136,7 @@ Sin embargo, [Open-Exchange](https://en.wikipedia.org/wiki/Open-Xchange), la pla
 
 Mailbox.org tiene [encriptación integrada](https://kb.mailbox.org/display/MBOKBEN/Send+encrypted+e-mails+with+Guard) en su correo web, lo que simplifica el envío de mensajes a personas con claves públicas OpenPGP. También permiten que [destinatarios remotos desencripten un correo electrónico](https://kb.mailbox.org/display/MBOKBEN/My+recipient+does+not+use+PGP) en los servidores de Mailbox.org. Esta característica es útil cuando el destinatario remoto no tiene OpenPGP y no puede descifrar una copia del correo electrónico en su propio buzón de correo.
 
-Mailbox.org también admite el descubrimiento de claves públicas a través de HTTP desde su [Web Key Directory (WKD)](https://wiki.gnupg.org/WKD). Esto permite que personas afuera de Mailbox.org encuentren fácilmente las claves OpenPGP de las cuentas de Mailbox.org, para E2EE entre proveedores. This only applies to email addresses ending in one of Mailbox.org's own domains, like @mailbox.org. If you use a custom domain, you must [configure WKD](./basics/email-security.md#what-is-the-web-key-directory-standard) separately.
+Mailbox.org también admite el descubrimiento de claves públicas a través de HTTP desde su [Web Key Directory (WKD)](https://wiki.gnupg.org/WKD). Esto permite que personas afuera de Mailbox.org encuentren fácilmente las claves OpenPGP de las cuentas de Mailbox.org, para E2EE entre proveedores. Esto solo aplica para las direcciones de correo electrónico que terminan en un dominio de Mailbox.org, como @mailbox.org. Si utilizas un dominio personalizado, debes [configurar WKD](./basics/email-security.md#what-is-the-web-key-directory-standard) por separado.
 
 #### :material-information-outline:{ .pg-blue } Cancelación de Cuenta
 
@@ -240,7 +240,7 @@ Tutanota no es compatible con el[protocolo IMAP](https://tutanota.com/faq/#imap)
 
 #### :material-check:{ .pg-green } Dominios Personalizados y Alias
 
-Paid Tutanota accounts can use either 15 or 30 aliases depending on their plan and unlimited aliases on [custom domains](https://tutanota.com/faq#custom-domain). Tutanota no permite la [subdirección (más direcciones)](https://tutanota.com/faq#plus), pero puede utilizar un [catch-all](https://tutanota.com/howto#settings-global) con un dominio personalizado.
+Las cuentas de pago de Tutanota permiten crear 15 o 30 alias dependiendo del plan, y alias ilimitados en [dominios personalizados](https://tutanota.com/faq#custom-domain). Tutanota no permite la [subdirección (más direcciones)](https://tutanota.com/faq#plus), pero puede utilizar un [catch-all](https://tutanota.com/howto#settings-global) con un dominio personalizado.
 
 #### :material-information-outline:{ .pg-blue } Métodos de pago privados
 

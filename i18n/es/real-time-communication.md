@@ -71,7 +71,7 @@ Tenemos algunos consejos adicionales para configurar y endurecer su instalación
 
 SimpleX Chat [fue auditado](https://simplex.chat/blog/20221108-simplex-chat-v4.2-security-audit-new-website.html) por Trail of Bits en octubre de 2022.
 
-SimpleX Chat supports basic group chatting functionality, direct messaging, and editing of messages and markdown. También se admiten llamadas de audio y vídeo E2EE. Sus datos se pueden exportar e importar a otro dispositivo, ya que no hay servidores centrales en los que se realice una copia de seguridad.
+SimpleX Chat soporta funcionalidades básicas de chat en grupo, mensajería directa, edición de mensajes y markdown. También se admiten llamadas de audio y vídeo E2EE. Sus datos se pueden exportar e importar a otro dispositivo, ya que no hay servidores centrales en los que se realice una copia de seguridad.
 
 ### Briar
 
