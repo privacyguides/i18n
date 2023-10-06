@@ -55,12 +55,12 @@ DNS自互联网的 [早期](https://en.wikipedia.org/wiki/Domain_Name_System#His
 
 如果运行上面的Wireshark命令，顶部窗格显示“[帧](https://en.wikipedia.org/wiki/Ethernet_frame)” ，底部窗格显示有关所选帧的所有数据。 企业过滤和监控解决方案（如政府购买的解决方案）可以自动完成这一过程，无需人工干预，并可以汇总多帧数据以产生对网络观察者有用的统计数据。
 
-| No. | 时间       | 来源        | 目的地       | 协议  | 长度  | 信息                                                                     |
-| --- | -------- | --------- | --------- | --- | --- | ---------------------------------------------------------------------- |
-| 1   | 0.000000 | 192.0.2.1 | 1.1.1.1   | 云存储 | 104 | Standard query 0x58ba A privacyguides.org OPT                          |
-| 2   | 0.293395 | 1.1.1.1   | 192.0.2.1 | 云存储 | 108 | Standard query response 0x58ba A privacyguides.org A 198.98.54.105 OPT |
-| 3   | 1.682109 | 192.0.2.1 | 8.8.8.8   | 云存储 | 104 | Standard query 0xf1a9 A privacyguides.org OPT                          |
-| 4   | 2.154698 | 8.8.8.8   | 192.0.2.1 | 云存储 | 108 | Standard query response 0xf1a9 A privacyguides.org A 198.98.54.105 OPT |
+| No. | Time     | Source    | Destination | Protocol | Length | Info                                                                   |
+| --- | -------- | --------- | ----------- | -------- | ------ | ---------------------------------------------------------------------- |
+| 1   | 0.000000 | 192.0.2.1 | 1.1.1.1     | 云存储      | 104    | Standard query 0x58ba A privacyguides.org OPT                          |
+| 2   | 0.293395 | 1.1.1.1   | 192.0.2.1   | 云存储      | 108    | Standard query response 0x58ba A privacyguides.org A 198.98.54.105 OPT |
+| 3   | 1.682109 | 192.0.2.1 | 8.8.8.8     | 云存储      | 104    | Standard query 0xf1a9 A privacyguides.org OPT                          |
+| 4   | 2.154698 | 8.8.8.8   | 192.0.2.1   | 云存储      | 108    | Standard query response 0xf1a9 A privacyguides.org A 198.98.54.105 OPT |
 
 观察者可以修改这些数据包中的任何一个。
 
@@ -339,9 +339,26 @@ DNSSEC在DNS的所有层面上实现了分层的数字签名政策。 例如，�
 
 ## 什么是QNAME最小化？
 
-QNAME是一个 "限定名称"，例如 `privacyguides.org`。 QNAME最小化减少了从DNS服务器发送至 [权威名称服务器的信息量](https://en.wikipedia.org/wiki/Name_server#Authoritative_name_server)。
+A QNAME is a "qualified name", for example `discuss.privacyguides.net`. In the past, when resolving a domain name your DNS resolver would ask every server in the chain to provide any information it has about your full query. In this example below, your request to find the IP address for `discuss.privacyguides.net` gets asked of every DNS server provider:
 
-而不是发送整个域名 `privacyguides.org`，QNAME最小化意味着DNS服务器将要求所有以 `.org`结尾的记录。 进一步的技术描述在 [RFC 7816](https://datatracker.ietf.org/doc/html/rfc7816)中定义。
+| Server                 | Question Asked                              | Response                                    |
+| ---------------------- | ------------------------------------------- | ------------------------------------------- |
+| Root server            | What's the IP of discuss.privacyguides.net? | I don't know, ask .net's server...          |
+| .net's server          | What's the IP of discuss.privacyguides.net? | I don't know, ask Privacy Guides' server... |
+| Privacy Guides' server | What's the IP of discuss.privacyguides.net? | 5.161.195.190!                              |
+
+
+With "QNAME minimization," your DNS resolver now only asks for just enough information to find the next server in the chain. In this example, the root server is only asked for enough information to find the appropriate nameserver for the .net TLD, and so on, without ever knowing the full domain you're trying to visit:
+
+| Server                 | Question Asked                                       | Response                          |
+| ---------------------- | ---------------------------------------------------- | --------------------------------- |
+| Root server            | What's the nameserver for .net?                      | *Provides .net's server*          |
+| .net's server          | What's the nameserver for privacyguides.net?         | *Provides Privacy Guides' server* |
+| Privacy Guides' server | What's the nameserver for discuss.privacyguides.net? | This server!                      |
+| Privacy Guides' server | What's the IP of discuss.privacyguides.net?          | 5.161.195.190                     |
+
+
+While this process can be slightly more inefficient, in this example neither the central root nameservers nor the TLD's nameservers ever receive information about your *full* query, thus reducing the amount of information being transmitted about your browsing habits. 进一步的技术描述在 [RFC 7816](https://datatracker.ietf.org/doc/html/rfc7816)中定义。
 
 
 

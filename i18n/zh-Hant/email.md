@@ -19,7 +19,7 @@ cover: email.png
 
 ## OpenPGP 兼容服務
 
-這些供應商原生支持OpenPGP加密/解密和Web密鑰目錄（ WKD ）標準，允許供應商無關的E2EE電子郵件。 例如， Proton Mail 用戶可以向 Mailbox.org 用戶發送 E2EE 消息，或者您可以從它支援的網際網路服務接收 OpenPGP 加密通知。
+These providers natively support OpenPGP encryption/decryption and the [Web Key Directory standard](basics/email-security.md#what-is-the-web-key-directory-standard), allowing for provider-agnostic E2EE emails. 例如， Proton Mail 用戶可以向 Mailbox.org 用戶發送 E2EE 消息，或者您可以從它支援的網際網路服務接收 OpenPGP 加密通知。
 
 <div class="grid cards" markdown>
 
@@ -86,7 +86,7 @@ Proton Mail 支援使用 FIDO2 或 U2F標準 的 TOTP [雙因素驗證](https://
 
 Proton Mail 網頁郵件整合了 [OpenPGP 加密](https://proton.me/support/how-to-use-pgp) 。 發送到其他 Proton Mai l帳戶的電子郵件會自動加密，並且可以在您的帳戶設置中輕鬆啟用使用 OpenPGP 金鑰對非 Proton Mail 地址進行加密。 它可以 [加密非 Proton Mail 郵件地址的訊息](https://proton.me/support/password-protected-emails)，不必非得使用 Proton Mail 帳戶或  OpenPGP 之類的軟體。
 
-Proton Mail 還支持通過 HTTP 的 [Web 密鑰目錄（ WKD ）](https://wiki.gnupg.org/WKD)發現公鑰。 這可讓非 Proton Mail 用戶可以輕鬆找到 Proton Mail 帳戶的 OpenPGP 金鑰，以利跨供應商進行 E2EE 。
+Proton Mail 還支持通過 HTTP 的 [Web 密鑰目錄（ WKD ）](https://wiki.gnupg.org/WKD)發現公鑰。 這可讓非 Proton Mail 用戶可以輕鬆找到 Proton Mail 帳戶的 OpenPGP 金鑰，以利跨供應商進行 E2EE 。 This only applies to email addresses ending in one of Proton's own domains, like @proton.me. If you use a custom domain, you must [configure WKD](./basics/email-security.md#what-is-the-web-key-directory-standard) separately.
 
 #### :material-information-outline:{ .pg-blue } 帳戶終止
 
@@ -136,7 +136,7 @@ Mailbox.org 允許使用 [加密郵箱](https://kb.mailbox.org/display/MBOKBEN/T
 
 Mailbox.org在他們的網絡郵件中有 [個集成的加密](https://kb.mailbox.org/display/MBOKBEN/Send+encrypted+e-mails+with+Guard) ，這簡化了向具有公開OpenPGP密鑰的人發送消息。 它們還允許 [遠端收件人解密 Mailbox.org伺服器上的電子郵件](https://kb.mailbox.org/display/MBOKBEN/My+recipient+does+not+use+PGP) 。 當遠端收件人沒有 OpenPGP 無法解密自己郵箱中的電子郵件時，此功能非常有用。
 
-Mailbox.org 還支持通過 HTTP 的 [Web密鑰目錄（ WKD ）](https://wiki.gnupg.org/WKD)發現公鑰。 因此其它人可以輕鬆找到 Mailbox.org 帳戶的 OpenPGP 金鑰，便於跨提供者使用 E2EE。
+Mailbox.org 還支持通過 HTTP 的 [Web密鑰目錄（ WKD ）](https://wiki.gnupg.org/WKD)發現公鑰。 因此其它人可以輕鬆找到 Mailbox.org 帳戶的 OpenPGP 金鑰，便於跨提供者使用 E2EE。 This only applies to email addresses ending in one of Mailbox.org's own domains, like @mailbox.org. If you use a custom domain, you must [configure WKD](./basics/email-security.md#what-is-the-web-key-directory-standard) separately.
 
 #### :material-information-outline:{ .pg-blue } 帳戶終止
 

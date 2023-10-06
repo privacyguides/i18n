@@ -19,7 +19,7 @@ cover: email.png
 
 ## الخدمات الداعمة لأوبن‌بي‌جي‌بي
 
-يدعهم هؤلاء تعمية وفكَّ تعمية أوبن‌بي‌جي‌بي أصلًا، ويمتثلون معيار دليل مفتاح الوِب (WKD)، مما يتيح لهم إرسال رسائل إلكترونيةً معمَّاةً بين الأطراف بغضِّ النظر عن مصدرها. فمثلًا: باستطاعة مستخدم بريد بروتون إرسال رسالة معمَّاة بين الأطراف، وكون المستقبل مستخدم Mailbox.org، أو لك استقبال إشعارات معمَّاةً بأوبن‌بي‌جي‌بي من خدمات الإنترنت الداعمة له.
+These providers natively support OpenPGP encryption/decryption and the [Web Key Directory standard](basics/email-security.md#what-is-the-web-key-directory-standard), allowing for provider-agnostic E2EE emails. فمثلًا: باستطاعة مستخدم بريد بروتون إرسال رسالة معمَّاة بين الأطراف، وكون المستقبل مستخدم Mailbox.org، أو لك استقبال إشعارات معمَّاةً بأوبن‌بي‌جي‌بي من خدمات الإنترنت الداعمة له.
 
 <div class="grid cards" markdown>
 
@@ -86,7 +86,7 @@ cover: email.png
 
 عند بريد بروتون [دعم مدمج لتعمية أوبن‌بي‌جي‌بي](https://proton.me/support/how-to-use-pgp) في صفحة البريد. تعمَّى الرسائل المرسلة لحسابات بريد بروتون الأخرى تلقائيًّا، ولك تمكين تعمية أوبن‌بي‌جي‌بي لعناوين البريد خارج بروتون في إعدادات حسابك. ويتيح لك أيضًا [تعمية الرسائل المرسلة لغير عناوين بروتون](https://proton.me/support/password-protected-emails) دون حاجتهم لتسجيل حساب بريد بروتون او استخدام برمجية مثل أوبن‌بي‌جي‌بي.
 
-يدعم بريد بروتون اكتشاف المفاتيح العامَّة باستخدام HTTP من [دليل مفاتيح الوِب (WKD) التابع لهم](https://wiki.gnupg.org/WKD). ويتيح هذا لمن ليس عنده بريد بروتون العثور على مفاتيح أوبن‌بي‌جي‌بي لحسابات بريد بروتون بسهولة، وذلك لتمكين التعمية بين الأطراف بين موفِّري خدمة البريد الإلكترونيِّ.
+يدعم بريد بروتون اكتشاف المفاتيح العامَّة باستخدام HTTP من [دليل مفاتيح الوِب (WKD) التابع لهم](https://wiki.gnupg.org/WKD). ويتيح هذا لمن ليس عنده بريد بروتون العثور على مفاتيح أوبن‌بي‌جي‌بي لحسابات بريد بروتون بسهولة، وذلك لتمكين التعمية بين الأطراف بين موفِّري خدمة البريد الإلكترونيِّ. This only applies to email addresses ending in one of Proton's own domains, like @proton.me. If you use a custom domain, you must [configure WKD](./basics/email-security.md#what-is-the-web-key-directory-standard) separately.
 
 #### :material-information-outline:{ .pg-blue } إنهاء الحسابات
 
@@ -136,7 +136,7 @@ cover: email.png
 
 لدى Mailbox.org [تعمية مدمجة](https://kb.mailbox.org/display/MBOKBEN/Send+encrypted+e-mails+with+Guard) في موقعهم، وهذا ييسِّر إرسال الرسائل باستخدام مفاتيح أوبن‌بي‌جي‌بي العامَّة. وكذلك يتيحون [لمستقبلي الرسائل من خارج خوادمهم كشف تعمية رسالة](https://kb.mailbox.org/display/MBOKBEN/My+recipient+does+not+use+PGP) في خوادم Mailbox.org. فائدة هذا تظهر في حال كان المستقبل ليس لديه أوبن‌بي‌جي‌بي ولا يستطيع كشف تعمية نسخة من الرسالة في صندوق بريده.
 
-تدعم Mailbox.org اكتشاف المفتايح العامَّة باستخدام HTTP من [دليل مفاتيح الوِب (WKD)](https://wiki.gnupg.org/WKD) التابع لهم. ويتيح هذا لمن ليس عنده Mailbox.org العثور على مفاتيح أوبن‌بي‌جي‌بي لحسابات Mailbox.org بسهولة، وذلك لتمكين التعمية بين الأطراف بين موفِّري خدمة البريد الإلكترونيِّ.
+تدعم Mailbox.org اكتشاف المفتايح العامَّة باستخدام HTTP من [دليل مفاتيح الوِب (WKD)](https://wiki.gnupg.org/WKD) التابع لهم. ويتيح هذا لمن ليس عنده Mailbox.org العثور على مفاتيح أوبن‌بي‌جي‌بي لحسابات Mailbox.org بسهولة، وذلك لتمكين التعمية بين الأطراف بين موفِّري خدمة البريد الإلكترونيِّ. This only applies to email addresses ending in one of Mailbox.org's own domains, like @mailbox.org. If you use a custom domain, you must [configure WKD](./basics/email-security.md#what-is-the-web-key-directory-standard) separately.
 
 #### :material-information-outline:{ .pg-blue } إنهاء الحسابات
 

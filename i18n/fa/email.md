@@ -19,7 +19,7 @@ cover: email.png
 
 ## سرویس‌های سازگار با OpenPGP
 
-این ارائه دهندگان به طور بومی از رمزگذاری/رمزگشایی OpenPGP و استاندارد Web Key Directory (WKD) پشتیبانی می‌کنند، که امکان ارسال ایمیل‌های E2EE بین سرویسی را فراهم می‌کند. به عنوان مثال، یک کاربر Proton Mail می تواند یک پیام E2EE را به یک کاربر Mailbox.org ارسال کند، یا می توانید اعلان های رمزگذاری شده با OpenPGP را از سرویس های اینترنتی که از آن پشتیبانی می کنند دریافت کنید.
+These providers natively support OpenPGP encryption/decryption and the [Web Key Directory standard](basics/email-security.md#what-is-the-web-key-directory-standard), allowing for provider-agnostic E2EE emails. به عنوان مثال، یک کاربر Proton Mail می تواند یک پیام E2EE را به یک کاربر Mailbox.org ارسال کند، یا می توانید اعلان های رمزگذاری شده با OpenPGP را از سرویس های اینترنتی که از آن پشتیبانی می کنند دریافت کنید.
 
 <div class="grid cards" markdown>
 
@@ -87,7 +87,7 @@ Proton Mail دارای [رمزگذاری بدون دسترسی](https://proton.m
 
 Proton Mail دارای [رمزگذاری OpenPGP یکپارچه](https://proton.me/support/how-to-use-pgp) در ایمیل خود است. ایمیل‌های سایر حساب‌های Proton Mail به‌طور خودکار رمزگذاری می‌شوند و رمزگذاری آدرس‌های ایمیل غیر پروتون با کلید OpenPGP به راحتی در تنظیمات حساب شما فعال می‌شود. آنها همچنین به شما این امکان را می‌دهند که [پیام‌های ارسال شده به آدرس‌های ایمیل غیر پروتون را رمزگذاری کنید](https://proton.me/support/password-protected-emails) بدون اینکه نیازی به ثبت نام حساب Proton Mail یا استفاده از نرم‌افزاری مانند OpenPGP باشد.
 
-Proton Mail همچنین از کشف کلیدهای عمومی از طریق HTTP از [دایرکتوری کلیدهای وب (WKD)](https://wiki.gnupg.org/WKD) پشتیبانی می کند. این قابلیت به افرادی که از سرویس Proton Mail استفاده نمی‌کنند اجازه می‌دهد تا کلیدهای OpenPGP حساب‌های Proton Mail را برای رمزگذاری E2EE سرویس‌های دیگر به راحتی پیدا کنند.
+Proton Mail همچنین از کشف کلیدهای عمومی از طریق HTTP از [دایرکتوری کلیدهای وب (WKD)](https://wiki.gnupg.org/WKD) پشتیبانی می کند. این قابلیت به افرادی که از سرویس Proton Mail استفاده نمی‌کنند اجازه می‌دهد تا کلیدهای OpenPGP حساب‌های Proton Mail را برای رمزگذاری E2EE سرویس‌های دیگر به راحتی پیدا کنند. This only applies to email addresses ending in one of Proton's own domains, like @proton.me. If you use a custom domain, you must [configure WKD](./basics/email-security.md#what-is-the-web-key-directory-standard) separately.
 
 #### :material-information-outline:{ .pg-blue } بستن حساب
 
@@ -139,7 +139,7 @@ Mailbox.org امکان رمزگذاری نامه های دریافتی را با
 
 Mailbox.org دارای [رمزگذاری یکپارچه](https://kb.mailbox.org/display/MBOKBEN/Send+encrypted+e-mails+with+Guard) در ایمیل وب خود است که ارسال پیام به افراد دارای کلیدهای عمومی OpenPGP را ساده می کند. آنها همچنین به [گیرندگان راه دور اجازه رمزگشایی ایمیل](https://kb.mailbox.org/display/MBOKBEN/My+recipient+does+not+use+PGP) در سرورهای Mailbox.org را می‌دهند. این ویژگی زمانی مفید است که گیرنده امکان استفاده از OpenPGP را ندارد و نمی تواند یک کپی از ایمیل را در صندوق پستی خود رمزگشایی کند.
 
-Mailbox.org همچنین از کشف کلیدهای عمومی از طریق HTTP از [دایرکتوری کلیدهای وب (WKD)](https://wiki.gnupg.org/WKD) پشتیبانی می کند. این قابلیت به افرادی که از سرویس Mailbox.org استفاده نمی‌کنند اجازه می‌دهد تا کلیدهای OpenPGP حساب‌های Mailbox.org را برای رمزگذاری E2EE سرویس‌های دیگر به راحتی پیدا کنند.
+Mailbox.org همچنین از کشف کلیدهای عمومی از طریق HTTP از [دایرکتوری کلیدهای وب (WKD)](https://wiki.gnupg.org/WKD) پشتیبانی می کند. این قابلیت به افرادی که از سرویس Mailbox.org استفاده نمی‌کنند اجازه می‌دهد تا کلیدهای OpenPGP حساب‌های Mailbox.org را برای رمزگذاری E2EE سرویس‌های دیگر به راحتی پیدا کنند. This only applies to email addresses ending in one of Mailbox.org's own domains, like @mailbox.org. If you use a custom domain, you must [configure WKD](./basics/email-security.md#what-is-the-web-key-directory-standard) separately.
 
 
 

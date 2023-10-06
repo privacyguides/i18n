@@ -19,7 +19,7 @@ cover: email.png
 
 ## OpenPGP 호환 서비스
 
-다음 제공 업체는 Open PGP 암호화/복호화 및 Web Key Directory(WKD) 표준을 기본적으로 지원하므로, 제공 업체를 가리지 않고 E2EE 이메일 이용이 가능합니다. 예를 들어, Proton Mail 사용자는 Mailbox.org 사용자에게 E2EE 메시지를 보내거나, OpenPGP 지원 인터넷 서비스에서 OpenPGP로 암호화된 알림을 받을 수 있습니다.
+These providers natively support OpenPGP encryption/decryption and the [Web Key Directory standard](basics/email-security.md#what-is-the-web-key-directory-standard), allowing for provider-agnostic E2EE emails. 예를 들어, Proton Mail 사용자는 Mailbox.org 사용자에게 E2EE 메시지를 보내거나, OpenPGP 지원 인터넷 서비스에서 OpenPGP로 암호화된 알림을 받을 수 있습니다.
 
 <div class="grid cards" markdown>
 
@@ -86,7 +86,7 @@ Proton Mail은 이메일 및 [캘린더](https://proton.me/news/protoncalendar-s
 
 Proton Mail은 웹메일에 [OpenPGP 암호화 기능을 내장](https://proton.me/support/how-to-use-pgp)하고 있습니다. 다른 Proton Mail 계정으로 보내는 이메일은 자동으로 암호화되며, Proton Mail 외 주소로 보내는 이메일에 대한 OpenPGP 암호화는 계정 설정에서 간편하게 활성화할 수 있습니다. Proton Mail 계정도 없고 OpenPGP 등의 소프트웨어도 사용하지 않는 사람에게도 [암호화된 메시지를 보낼 수 있는 기능](https://proton.me/support/password-protected-emails) 또한 제공합니다.
 
-Proton Mail은 자체 [Web Key Directory (WKD)](https://wiki.gnupg.org/WKD)에서 HTTP로 공개 키를 검색할 수 있는 기능을 지원합니다. 이로써 Proton Mail을 사용하지 않는 사람도 Proton Mail OpenPGP 키를 쉽게 찾아 서로 다른 제공 업체 간 E2EE 적용이 가능합니다.
+Proton Mail은 자체 [Web Key Directory (WKD)](https://wiki.gnupg.org/WKD)에서 HTTP로 공개 키를 검색할 수 있는 기능을 지원합니다. 이로써 Proton Mail을 사용하지 않는 사람도 Proton Mail OpenPGP 키를 쉽게 찾아 서로 다른 제공 업체 간 E2EE 적용이 가능합니다. This only applies to email addresses ending in one of Proton's own domains, like @proton.me. If you use a custom domain, you must [configure WKD](./basics/email-security.md#what-is-the-web-key-directory-standard) separately.
 
 #### :material-information-outline:{ .pg-blue } 계정 해지
 
@@ -136,7 +136,7 @@ Mailbox.org는 [암호화된 메일함](https://kb.mailbox.org/display/MBOKBEN/T
 
 Mailbox.org의 웹메일에는 [암호화 기능이 내장](https://kb.mailbox.org/display/MBOKBEN/Send+encrypted+e-mails+with+Guard)되어 있어 공개 OpenPGP키를 가진 사람들에게 메일을 간편하게 보낼 수 있습니다. 또한, [수신자가 직접 Mailbox.org에 있는 메일을 복호화](https://kb.mailbox.org/display/MBOKBEN/My+recipient+does+not+use+PGP)하게 하는 기능도 있습니다. OpenPGP가 없어 수신자가 자신의 메일함에서 직접 복호화할 수 없을 경우에 이 기능을 사용할 수 있습니다.
 
-또한, Mailbox.org는 [웹 키 디렉터리(WKD)](https://wiki.gnupg.org/WKD)에서 HTTP를 통한 공개 키 검색을 지원합니다. Mailbox.org를 사용하지 않는 사람들은 Mailbox.org 계정의 OpenPGP 공개키를 쉽게 찾을 수 있고, 플랫폼과 무관하게 종단간 암호화를 할 수 있습니다.
+또한, Mailbox.org는 [웹 키 디렉터리(WKD)](https://wiki.gnupg.org/WKD)에서 HTTP를 통한 공개 키 검색을 지원합니다. Mailbox.org를 사용하지 않는 사람들은 Mailbox.org 계정의 OpenPGP 공개키를 쉽게 찾을 수 있고, 플랫폼과 무관하게 종단간 암호화를 할 수 있습니다. This only applies to email addresses ending in one of Mailbox.org's own domains, like @mailbox.org. If you use a custom domain, you must [configure WKD](./basics/email-security.md#what-is-the-web-key-directory-standard) separately.
 
 #### :material-information-outline:{ .pg-blue } 계정 해지
 

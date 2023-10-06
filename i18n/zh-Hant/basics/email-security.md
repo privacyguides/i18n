@@ -17,6 +17,16 @@ description: 從許多方面來看電子郵件本質上是不安全的，這也�
 
 即使您使用OpenPGP ，它也不支持 [向前保密](https://en.wikipedia.org/wiki/Forward_secrecy)，這意味著如果您或收件人的私鑰被盜，所有先前加密的消息都將被曝光。 這就是為什麼我們建議 [即時通訊](../real-time-communication.md) ，只要有可能，就實現電子郵件的前向保密性，以進行個人對個人的通信。
 
+## What is the Web Key Directory standard?
+
+The Web Key Directory (WKD) standard allows email clients to discover the OpenPGP key for other mailboxes, even those hosted on a different provider. Email clients which support WKD will ask the recipient's server for a key based on the email address' domain name. For example, if you emailed `jonah@privacyguides.org`, your email client would ask `privacyguides.org` for Jonah's OpenPGP key, and if `privacyguides.org` has a key for that account, your message would be automatically encrypted.
+
+In addition to the [email clients we recommend](../email-clients.md) which support WKD, some webmail providers also support WKD. Whether *your own* key is published to WKD for others to use depends on your domain configuration. If you use an [email provider](../email.md#openpgp-compatible-services) which supports WKD, such as Proton Mail or Mailbox.org, they can publish your OpenPGP key on their domain for you.
+
+If you use your own custom domain, you will need to configure WKD separately. If you control your domain name, you can set up WKD regardless of your email provider. One easy way to do this is to use the "[WKD as a Service](https://keys.openpgp.org/about/usage#wkd-as-a-service)" feature from keys.openpgp.org, by setting a CNAME record on the `openpgpkey` subdomain of your domain pointed to `wkd.keys.openpgp.org`, then uploading your key to [keys.openpgp.org](https://keys.openpgp.org/). Alternatively, you can [self-host WKD on your own web server](https://wiki.gnupg.org/WKDHosting).
+
+If you use a shared domain from a provider which doesn't support WKD, like @gmail.com, you won't be able to share your OpenPGP key with others via this method.
+
 ### 哪些郵件客戶端支持 E2EE？
 
 電子郵件服務供應商讓您能使用標準訪問協議如 IMAP 與SMTP，以便應用[我們推薦的電子郵件客戶端軟體](../email-clients.md)。 根據驗證方法的不同，如果提供者或電子郵件用戶端不支持OAT或橋接應用程序，這可能會導致安全性降低，因為 [多因素驗證](multi-factor-authentication.md) 在純密碼驗證中是不可能的。
@@ -25,7 +35,7 @@ description: 從許多方面來看電子郵件本質上是不安全的，這也�
 
 智慧鑰卡（例如 [Yubikey](https://support.yubico.com/hc/en-us/articles/360013790259-Using-Your-YubiKey-with-OpenPGP) 或 [Nitrokey](https://www.nitrokey.com)）的工作原理是從用戶端的設備（手機，平板電腦，電腦等）接收加密的電子郵件消息。 安全鑰卡會解密該訊息再把解開的內容傳到設備。
 
-在智能卡上進行解密是有利的，以避免可能將您的私鑰暴露在受損的設備上。
+It is advantageous for the decryption to occur on the smartcard to avoid possibly exposing your private key to a compromised device.
 
 ## 電子郵件元資料概覽
 

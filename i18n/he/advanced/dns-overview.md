@@ -55,12 +55,12 @@ DNS קיים מאז [הימים הראשונים](https://en.wikipedia.org/wiki/
 
 אם אתה מפעיל את פקודת Wireshark למעלה, החלונית העליונה מציגה את "[מסגרות](https://en.wikipedia.org/wiki/Ethernet_frame)", והחלונית התחתונה מציגה את כל הנתונים אודות המסגרת שנבחרה. פתרונות סינון וניטור ארגוניים (כגון אלה שנרכשו על ידי ממשלות) יכולים לבצע את התהליך באופן אוטומטי, ללא אינטראקציה אנושית, ויכולים לצבור מסגרות אלה כדי לייצר נתונים סטטיסטיים שימושיים לצופה ברשת.
 
-| מספר. | זמן      | מקור      | יעד       | פרוטוקול | אורך | מידע                                                                   |
-| ----- | -------- | --------- | --------- | -------- | ---- | ---------------------------------------------------------------------- |
-| 1     | 0.000000 | 192.0.2.1 | 1.1.1.1   | DNS      | 104  | Standard query 0x58ba A privacyguides.org OPT                          |
-| 2     | 0.293395 | 1.1.1.1   | 192.0.2.1 | DNS      | 108  | Standard query response 0x58ba A privacyguides.org A 198.98.54.105 OPT |
-| 3     | 1.682109 | 192.0.2.1 | 8.8.8.8   | DNS      | 104  | Standard query 0x58ba A privacyguides.org OPT                          |
-| 4     | 2.154698 | 8.8.8.8   | 192.0.2.1 | DNS      | 108  | Standard query response 0xf1a9 A privacyguides.org A 198.98.54.105 OPT |
+| No. | Time     | Source    | Destination | Protocol | Length | Info                                                                   |
+| --- | -------- | --------- | ----------- | -------- | ------ | ---------------------------------------------------------------------- |
+| 1   | 0.000000 | 192.0.2.1 | 1.1.1.1     | DNS      | 104    | Standard query 0x58ba A privacyguides.org OPT                          |
+| 2   | 0.293395 | 1.1.1.1   | 192.0.2.1   | DNS      | 108    | Standard query response 0x58ba A privacyguides.org A 198.98.54.105 OPT |
+| 3   | 1.682109 | 192.0.2.1 | 8.8.8.8     | DNS      | 104    | Standard query 0xf1a9 A privacyguides.org OPT                          |
+| 4   | 2.154698 | 8.8.8.8   | 192.0.2.1   | DNS      | 108    | Standard query response 0xf1a9 A privacyguides.org A 198.98.54.105 OPT |
 
 צופה יכול לשנות כל אחת מהחבילות הללו.
 
@@ -293,9 +293,24 @@ DNSSEC מיישמת מדיניות חתימה דיגיטלית היררכית ב
 
 ## מהו מזעור QName?
 
-QNAME הוא "שם מוסמך", לדוגמה`privacyguides.org`. מזעור QName מצמצם את כמות המידע הנשלחת משרת ה - DNS לשרת [שם סמכותי](https://en.wikipedia.org/wiki/Name_server#Authoritative_name_server).
+A QNAME is a "qualified name", for example `discuss.privacyguides.net`. In the past, when resolving a domain name your DNS resolver would ask every server in the chain to provide any information it has about your full query. In this example below, your request to find the IP address for `discuss.privacyguides.net` gets asked of every DNS server provider:
 
-במקום לשלוח את הדומיין `privacyguides.org`, מזעור QNAME פירושו ששרת ה- DNS ישאל בשביל כל הרשומות המסתיימות ב-`.org`. תיאור טכני נוסף מוגדר ב [RFC 7816](https://datatracker.ietf.org/doc/html/rfc7816).
+| Server                 | Question Asked                              | Response                                    |
+| ---------------------- | ------------------------------------------- | ------------------------------------------- |
+| Root server            | What's the IP of discuss.privacyguides.net? | I don't know, ask .net's server...          |
+| .net's server          | What's the IP of discuss.privacyguides.net? | I don't know, ask Privacy Guides' server... |
+| Privacy Guides' server | What's the IP of discuss.privacyguides.net? | 5.161.195.190!                              |
+
+With "QNAME minimization," your DNS resolver now only asks for just enough information to find the next server in the chain. In this example, the root server is only asked for enough information to find the appropriate nameserver for the .net TLD, and so on, without ever knowing the full domain you're trying to visit:
+
+| Server                 | Question Asked                                       | Response                          |
+| ---------------------- | ---------------------------------------------------- | --------------------------------- |
+| Root server            | What's the nameserver for .net?                      | *Provides .net's server*          |
+| .net's server          | What's the nameserver for privacyguides.net?         | *Provides Privacy Guides' server* |
+| Privacy Guides' server | What's the nameserver for discuss.privacyguides.net? | This server!                      |
+| Privacy Guides' server | What's the IP of discuss.privacyguides.net?          | 5.161.195.190                     |
+
+While this process can be slightly more inefficient, in this example neither the central root nameservers nor the TLD's nameservers ever receive information about your *full* query, thus reducing the amount of information being transmitted about your browsing habits. תיאור טכני נוסף מוגדר ב [RFC 7816](https://datatracker.ietf.org/doc/html/rfc7816).
 
 ## מהי רשת משנה של לקוח EDNS (ECS)?
 

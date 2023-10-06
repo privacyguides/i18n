@@ -17,6 +17,16 @@ description: אימייל הוא מטבעו לא מאובטח במובנים ר�
 
 גם אם אתה משתמש ב - OpenPGP, הוא אינו תומך בסודיות [קדימה](https://en.wikipedia.org/wiki/Forward_secrecy), כלומר אם המפתח הפרטי שלך או של הנמען ייגנב אי פעם, כל ההודעות הקודמות שהוצפנו איתו ייחשפו. זו הסיבה שאנו ממליצים על [מסנג'רים מיידיים](../real-time-communication.md) אשר מיישמים סודיות קדימה על פני דואר אלקטרוני עבור הודעות פנים אל פנים במידת האפשר.
 
+## What is the Web Key Directory standard?
+
+The Web Key Directory (WKD) standard allows email clients to discover the OpenPGP key for other mailboxes, even those hosted on a different provider. Email clients which support WKD will ask the recipient's server for a key based on the email address' domain name. For example, if you emailed `jonah@privacyguides.org`, your email client would ask `privacyguides.org` for Jonah's OpenPGP key, and if `privacyguides.org` has a key for that account, your message would be automatically encrypted.
+
+In addition to the [email clients we recommend](../email-clients.md) which support WKD, some webmail providers also support WKD. Whether *your own* key is published to WKD for others to use depends on your domain configuration. If you use an [email provider](../email.md#openpgp-compatible-services) which supports WKD, such as Proton Mail or Mailbox.org, they can publish your OpenPGP key on their domain for you.
+
+If you use your own custom domain, you will need to configure WKD separately. If you control your domain name, you can set up WKD regardless of your email provider. One easy way to do this is to use the "[WKD as a Service](https://keys.openpgp.org/about/usage#wkd-as-a-service)" feature from keys.openpgp.org, by setting a CNAME record on the `openpgpkey` subdomain of your domain pointed to `wkd.keys.openpgp.org`, then uploading your key to [keys.openpgp.org](https://keys.openpgp.org/). Alternatively, you can [self-host WKD on your own web server](https://wiki.gnupg.org/WKDHosting).
+
+If you use a shared domain from a provider which doesn't support WKD, like @gmail.com, you won't be able to share your OpenPGP key with others via this method.
+
 ### אילו לקוחות אימייל תומכים ב - E2EE?
 
 ספקי אימייל המאפשרים לך להשתמש בפרוטוקולי גישה סטנדרטיים כגון IMAP ו- SMTP יכולים לשמש עם כל אחד מ[קליינטי הדואר האלקטרוני שאנו ממליצים עליהם](../email-clients.md). בהתאם לשיטת האימות, הדבר עלול להוביל לירידה באבטחה אם הספק או לקוח האימייל אינם תומכים בשבועה או ביישום גשר מאחר שלא ניתן לבצע [אימות רב - גורמי](multi-factor-authentication.md) באמצעות אימות סיסמה רגיל.
@@ -25,7 +35,7 @@ description: אימייל הוא מטבעו לא מאובטח במובנים ר�
 
 כרטיס חכם (כגון [Yubikey](https://support.yubico.com/hc/en-us/articles/360013790259-Using-Your-YubiKey-with-OpenPGP) or [Nitrokey](https://www.nitrokey.com)) עובד על ידי קבלת הודעת אימייל מוצפנת ממכשיר (טלפון, טאבלט, מחשב וכו') המריץ לקוח אימייל/מייל אינטרנט. לאחר מכן, ההודעה מפוענחת על ידי הכרטיס החכם והתוכן המפוענח נשלח חזרה למכשיר.
 
-כדאי שהפענוח יתרחש בכרטיס החכם כדי להימנע מחשיפת המפתח הפרטי שלך למכשיר פגום.
+It is advantageous for the decryption to occur on the smartcard to avoid possibly exposing your private key to a compromised device.
 
 ## סקירה כללית של מטא נתונים בדוא"ל
 

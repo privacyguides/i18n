@@ -55,12 +55,12 @@ Hieronder bespreken we en geven we een tutorial om te bewijzen wat een externe w
 
 Als je het bovenstaande Wireshark-commando uitvoert, toont het bovenste deelvenster de "[frames](https://en.wikipedia.org/wiki/Ethernet_frame)", en het onderste deelvenster toont alle gegevens over het geselecteerde frame. Oplossingen voor bedrijfsfiltering en -monitoring (zoals die welke door overheden worden aangeschaft) kunnen dit proces automatisch uitvoeren, zonder menselijke tussenkomst, en kunnen deze frames samenvoegen tot statistische gegevens die nuttig zijn voor de netwerkwaarnemer.
 
-| Nee. | Tijd     | Bron      | Bestemming | Protocol | Lengte | Info                                                                    |
-| ---- | -------- | --------- | ---------- | -------- | ------ | ----------------------------------------------------------------------- |
-| 1    | 0.000000 | 192.0.2.1 | 1.1.1.1    | DNS      | 104    | Standaard zoekopdracht 0x58ba A privacyguides.org OPT                   |
-| 2    | 0.293395 | 1.1.1.1   | 192.0.2.1  | DNS      | 108    | Standaard vraag antwoord 0x58ba A privacyguides.org A 198.98.54.105 OPT |
-| 3    | 1.682109 | 192.0.2.1 | 8.8.8.8    | DNS      | 104    | Standaard zoekopdracht 0xf1a9 A privacyguides.org OPT                   |
-| 4    | 2.154698 | 8.8.8.8   | 192.0.2.1  | DNS      | 108    | Standaard query-antwoord 0xf1a9 A privacyguides.org A 198.98.54.105 OPT |
+| No. | Time     | Source    | Destination | Protocol | Length | Info                                                                   |
+| --- | -------- | --------- | ----------- | -------- | ------ | ---------------------------------------------------------------------- |
+| 1   | 0.000000 | 192.0.2.1 | 1.1.1.1     | DNS      | 104    | Standard query 0x58ba A privacyguides.org OPT                          |
+| 2   | 0.293395 | 1.1.1.1   | 192.0.2.1   | DNS      | 108    | Standard query response 0x58ba A privacyguides.org A 198.98.54.105 OPT |
+| 3   | 1.682109 | 192.0.2.1 | 8.8.8.8     | DNS      | 104    | Standard query 0xf1a9 A privacyguides.org OPT                          |
+| 4   | 2.154698 | 8.8.8.8   | 192.0.2.1   | DNS      | 108    | Standard query response 0xf1a9 A privacyguides.org A 198.98.54.105 OPT |
 
 Een waarnemer kan elk van deze pakketten wijzigen.
 
@@ -293,9 +293,24 @@ DNSSEC implementeert een hiërarchisch digitaal ondertekeningsbeleid over alle l
 
 ## Wat is QNAME-minimalisatie?
 
-Een QNAME is een "gekwalificeerde naam", bijvoorbeeld `privacyguides.org`. QNAME-minimalisatie vermindert de hoeveelheid informatie die van de DNS-server naar de [authoratieve naamserver](https://en.wikipedia.org/wiki/Name_server#Authoritative_name_server) wordt gestuurd.
+A QNAME is a "qualified name", for example `discuss.privacyguides.net`. In the past, when resolving a domain name your DNS resolver would ask every server in the chain to provide any information it has about your full query. In this example below, your request to find the IP address for `discuss.privacyguides.net` gets asked of every DNS server provider:
 
-In plaats van het hele domein `privacyguides.org` te sturen, betekent QNAME-minimalisatie dat de DNS-server alle records opvraagt die eindigen op `.org`. Een verdere technische beschrijving is te vinden in [RFC 7816](https://datatracker.ietf.org/doc/html/rfc7816).
+| Server                 | Question Asked                              | Response                                    |
+| ---------------------- | ------------------------------------------- | ------------------------------------------- |
+| Root server            | What's the IP of discuss.privacyguides.net? | I don't know, ask .net's server...          |
+| .net's server          | What's the IP of discuss.privacyguides.net? | I don't know, ask Privacy Guides' server... |
+| Privacy Guides' server | What's the IP of discuss.privacyguides.net? | 5.161.195.190!                              |
+
+With "QNAME minimization," your DNS resolver now only asks for just enough information to find the next server in the chain. In this example, the root server is only asked for enough information to find the appropriate nameserver for the .net TLD, and so on, without ever knowing the full domain you're trying to visit:
+
+| Server                 | Question Asked                                       | Response                          |
+| ---------------------- | ---------------------------------------------------- | --------------------------------- |
+| Root server            | What's the nameserver for .net?                      | *Provides .net's server*          |
+| .net's server          | What's the nameserver for privacyguides.net?         | *Provides Privacy Guides' server* |
+| Privacy Guides' server | What's the nameserver for discuss.privacyguides.net? | This server!                      |
+| Privacy Guides' server | What's the IP of discuss.privacyguides.net?          | 5.161.195.190                     |
+
+While this process can be slightly more inefficient, in this example neither the central root nameservers nor the TLD's nameservers ever receive information about your *full* query, thus reducing the amount of information being transmitted about your browsing habits. Een verdere technische beschrijving is te vinden in [RFC 7816](https://datatracker.ietf.org/doc/html/rfc7816).
 
 ## Wat is EDNS Client Subnet (ECS)?
 

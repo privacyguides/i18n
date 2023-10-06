@@ -19,7 +19,7 @@ cover: email.png
 
 ## خزمەتگوزاریەکانی گونجاون لەگەڵ OpenPGP
 
-ئەم دابینکەرانە لە بنچینەوە پشتگیری دەکەن لە OpenPGP شفرەکردن/شفرەلابردن و Web Key Directory (WKD) باو، کە ڕێگە بە دابینەکارنی تری پۆستەی ئەلکتڕۆنی ناباوەڕ بە E2EE دەدات. بۆ نموونە: بەکارهێنەرێکی Proton Mail دەتوانێت پەیامێکی E2EE بنێرێت بۆ بەکارهێنەرێکی Mailbox.org، یان دەتوانیت ئاگادارکردنەوەی OpenPGP-شفرکراوت پێ بگات لەڕێی ئەو خزمەتگوزاریانەی پشتگیری دەکەن.
+These providers natively support OpenPGP encryption/decryption and the [Web Key Directory standard](basics/email-security.md#what-is-the-web-key-directory-standard), allowing for provider-agnostic E2EE emails. بۆ نموونە: بەکارهێنەرێکی Proton Mail دەتوانێت پەیامێکی E2EE بنێرێت بۆ بەکارهێنەرێکی Mailbox.org، یان دەتوانیت ئاگادارکردنەوەی OpenPGP-شفرکراوت پێ بگات لەڕێی ئەو خزمەتگوزاریانەی پشتگیری دەکەن.
 
 <div class="grid cards" markdown>
 
@@ -86,7 +86,7 @@ Proton Mail تەکنەلۆژیای [شفرکردن و تێپەڕبوونی-ئە�
 
 Proton Mail [شفرکردنی OpenPGP زیادکردووە](https://proton.me/support/how-to-use-pgp) بۆ ماڵپەری پۆستەی ئەلکتڕۆنییەکەیان. پۆستەی ئەلکتڕۆنی نێوان هەژمارەکانی Proton Mail خۆکارانە شفرکراوە، بەڵام شفرکردن لە نێوان Proton Mail و پۆستەی ئەلکتڕۆنی تر شفردەکرێن بە ئاسانی لەڕێگەی کلیلی OpenPGP، کە لە ڕێکخستنەکانی هەژمارەکەت هەیە. هەروەها ئەوان ڕێگەت پێدەدەن بە[شفرکردنی نامەکان کە دەینێریت بۆ پۆستە ئەلکتڕۆنیە نـا Proton Mailـەکان](https://proton.me/support/password-protected-emails) بەبێ ئەوەی پێویست بکات ئەوان ناونووسین بۆ هەژمارێکی Proton Mail بکەن یان نەرمەواڵەیەکی وەک OpenPGP بەکاربێنن.
 
-هەروەها Proton Mail پشتگیری دۆزینەوەی کلیلە گشتیەکان دەکات لە HTTPــەوە لە ڕێگای [Web Key Directory (WKD)](https://wiki.gnupg.org/WKD). ئەمەڕێگە ئەو کەسانە دەدات کە Proton Mail بەکار ناهێنن بۆئەوەی کلیکە گشتیەکانی هەژماری Proton Mail بە ئاسانی بدۆزنەوە. تا ببێتە هۆی گونجاندن لەگەڵ دابینکەرانی تری E2EE.
+هەروەها Proton Mail پشتگیری دۆزینەوەی کلیلە گشتیەکان دەکات لە HTTPــەوە لە ڕێگای [Web Key Directory (WKD)](https://wiki.gnupg.org/WKD). ئەمەڕێگە ئەو کەسانە دەدات کە Proton Mail بەکار ناهێنن بۆئەوەی کلیکە گشتیەکانی هەژماری Proton Mail بە ئاسانی بدۆزنەوە. تا ببێتە هۆی گونجاندن لەگەڵ دابینکەرانی تری E2EE. This only applies to email addresses ending in one of Proton's own domains, like @proton.me. If you use a custom domain, you must [configure WKD](./basics/email-security.md#what-is-the-web-key-directory-standard) separately.
 
 #### :material-information-outline:{ .pg-blue } لەناوبردنی هەژمار
 
@@ -136,7 +136,7 @@ Mailbox.org ڕیگ دەدات بە شفرکردنی پۆستە هاتتووەک�
 
 Mailbox.org [شفرکردنی OpenPGP زیادکردووە](https://kb.mailbox.org/display/MBOKBEN/Send+encrypted+e-mails+with+Guard) لە ماڵپەری پۆستەی ئەلکتڕۆنییەکەیان، کە ناردنی نامەکان ئاسان دەکات بۆ ئەو کەسانەی کلیلی گشتی OpenPGPـیـان هەیە. هەروەها [وەرگرەکان دەتوانن لە دوورەوە شفری پۆستە ئەلکتڕۆنێیەک لەببەن](https://kb.mailbox.org/display/MBOKBEN/My+recipient+does+not+use+PGP)، کە لەسەر ڕاژەکارەکانی Mailbox.org. ئەم تایبەتمەندیە بەسوودە کاتێک وەرگر لە دوورەوە OpenPGPـی نییە و ناتوانێت شفرەکە لەسەر لەبەرگیراوەیەکی پۆستەکە لاببات لە سندووقی پۆستەکانی خۆیدا.
 
-هەروەها Mailbox.org پشتگیری دۆزینەوەی کلیلە گشتیەکان دەکات لە HTTPــەوە لە ڕێگای [Web Key Directory (WKD)](https://wiki.gnupg.org/WKD). ئەمە ڕێگە بە کەسانی دەرەوەی Mailbox.org دەدات کە کلیلەکانی OpenPGP بۆ هەژمارەکانی Mailbox.org بە ئاسانی بدۆزنەوە، تا ببێتە هۆی گونجاندن لەگەڵ دابینکەرانی تری E2EE.
+هەروەها Mailbox.org پشتگیری دۆزینەوەی کلیلە گشتیەکان دەکات لە HTTPــەوە لە ڕێگای [Web Key Directory (WKD)](https://wiki.gnupg.org/WKD). ئەمە ڕێگە بە کەسانی دەرەوەی Mailbox.org دەدات کە کلیلەکانی OpenPGP بۆ هەژمارەکانی Mailbox.org بە ئاسانی بدۆزنەوە، تا ببێتە هۆی گونجاندن لەگەڵ دابینکەرانی تری E2EE. This only applies to email addresses ending in one of Mailbox.org's own domains, like @mailbox.org. If you use a custom domain, you must [configure WKD](./basics/email-security.md#what-is-the-web-key-directory-standard) separately.
 
 #### :material-information-outline:{ .pg-blue } لەناوبردنی هەژمار
 

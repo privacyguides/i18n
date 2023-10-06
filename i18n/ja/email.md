@@ -19,7 +19,7 @@ cover: email.png
 
 ## OpenPGP対応サービス
 
-これらのプロバイダはOpenPGPによる暗号化、復号とWeb Key Directory (WKD) 標準をネイティブサポートしており、プロバイダに依存しないE2EEメールが可能です。 例えば、Proton MailのユーザはMailbox.orgのユーザにE2EEメッセージを送れますし、OpenPGPで暗号化された通知を、それをサポートするインターネットサービスから受け取ることができます。
+These providers natively support OpenPGP encryption/decryption and the [Web Key Directory standard](basics/email-security.md#what-is-the-web-key-directory-standard), allowing for provider-agnostic E2EE emails. 例えば、Proton MailのユーザはMailbox.orgのユーザにE2EEメッセージを送れますし、OpenPGPで暗号化された通知を、それをサポートするインターネットサービスから受け取ることができます。
 
 <div class="grid cards" markdown>
 
@@ -86,7 +86,7 @@ Proton Mailはメールと [カレンダー](https://proton.me/news/protoncalend
 
 Proton Mailはwebメールに [OpenPGP暗号化を組み込んでいます。](https://proton.me/support/how-to-use-pgp) 他のProton Mailアカウントへのメールは自動的に暗号化され、OpenPGPキーによる非Proton Mailアドレスへの暗号化はアカウント設定から簡単に有効化できます。 Proton Mailアカウントへのサインアップや、OpenPGPのようなソフトウェアを必要としない [非Proton Mailアドレスへの暗号化メッセージ](https://proton.me/support/password-protected-emails) も可能です。
 
-Proton Mailは [Web Key Directory (WKD)](https://wiki.gnupg.org/WKD) からHTTP経由で公開鍵を発見することもサポートしています。 これにより、Proton Mailを使っていない人でも、Proton MailアカウントのOpenPGPキーを簡単に見つけることができ、プロバイダをまたいだE2EEが可能になります。
+Proton Mailは [Web Key Directory (WKD)](https://wiki.gnupg.org/WKD) からHTTP経由で公開鍵を発見することもサポートしています。 これにより、Proton Mailを使っていない人でも、Proton MailアカウントのOpenPGPキーを簡単に見つけることができ、プロバイダをまたいだE2EEが可能になります。 This only applies to email addresses ending in one of Proton's own domains, like @proton.me. If you use a custom domain, you must [configure WKD](./basics/email-security.md#what-is-the-web-key-directory-standard) separately.
 
 #### :material-information-outline:{ .pg-blue } アカウントの停止
 
@@ -136,7 +136,7 @@ Mailbox.orgでは [encrypted mailbox](https://kb.mailbox.org/display/MBOKBEN/The
 
 Mailbox.orgはwebメールに [暗号化を組み込んで](https://kb.mailbox.org/display/MBOKBEN/Send+encrypted+e-mails+with+Guard) おり、OpenPGP公開鍵を持つ人へのメッセージ送信を簡素化します。 また、Mailbox.orgのサーバ上にある [メールをリモートの受信者が復号](https://kb.mailbox.org/display/MBOKBEN/My+recipient+does+not+use+PGP) することもできます。 この機能はリモートの受信者がOpenPGPを持っておらず、自分のメールボックスにあるメールのコピーを複合できない場合に便利です。
 
-Mailbox.orgは [Web Key Directory (WKD)](https://wiki.gnupg.org/WKD) からHTTP経由で公開鍵を発見することもサポートしています。 これにより、Mailbox.orgを使っていない人でも、Mailbox.orgアカウントのOpenPGPキーを簡単に見つけることができ、プロバイダをまたいだE2EEが可能になります。
+Mailbox.orgは [Web Key Directory (WKD)](https://wiki.gnupg.org/WKD) からHTTP経由で公開鍵を発見することもサポートしています。 これにより、Mailbox.orgを使っていない人でも、Mailbox.orgアカウントのOpenPGPキーを簡単に見つけることができ、プロバイダをまたいだE2EEが可能になります。 This only applies to email addresses ending in one of Mailbox.org's own domains, like @mailbox.org. If you use a custom domain, you must [configure WKD](./basics/email-security.md#what-is-the-web-key-directory-standard) separately.
 
 #### :material-information-outline:{ .pg-blue } アカウントの停止
 

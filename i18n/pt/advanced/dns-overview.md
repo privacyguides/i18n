@@ -55,12 +55,12 @@ Abaixo, discutimos e fornecemos um tutorial que prova o que um observador extern
 
 Se executar o comando Wireshark indicado acima, o painel superior mostra os "[frames](https://en.wikipedia.org/wiki/Ethernet_frame)", e o painel inferior mostra todos os dados sobre o frame selecionado. As soluções empresariais de filtragem e monitorização (como as adquiridas pelos governos) podem fazer o processo automaticamente, sem interação humana, e podem agregar essas imagens para produzir dados estatísticos úteis para o observador da rede.
 
-| Não. | Hora     | Origem    | Destino   | Protocolo | Comprimento | Informações                                                                |
-| ---- | -------- | --------- | --------- | --------- | ----------- | -------------------------------------------------------------------------- |
-| 1    | 0.000000 | 192.0.2.1 | 1.1.1.1   | DNS       | 104         | Consulta padrão 0x58ba A privacyguides.org OPT                             |
-| 2    | 0.293395 | 1.1.1.1   | 192.0.2.1 | DNS       | 108         | Resposta de consulta padrão 0x58ba A privacyguides.org A 198.98.54.105 OPT |
-| 3    | 1.682109 | 192.0.2.1 | 8.8.8.8   | DNS       | 104         | Consulta padrão 0xf1a9 A privacyguides.org OPT                             |
-| 4    | 2.154698 | 8.8.8.8   | 192.0.2.1 | DNS       | 108         | Resposta de consulta padrão 0xf1a9 A privacyguides.org A 198.98.54.105 OPT |
+| No. | Time     | Source    | Destination | Protocol | Length | Info                                                                   |
+| --- | -------- | --------- | ----------- | -------- | ------ | ---------------------------------------------------------------------- |
+| 1   | 0.000000 | 192.0.2.1 | 1.1.1.1     | DNS      | 104    | Standard query 0x58ba A privacyguides.org OPT                          |
+| 2   | 0.293395 | 1.1.1.1   | 192.0.2.1   | DNS      | 108    | Standard query response 0x58ba A privacyguides.org A 198.98.54.105 OPT |
+| 3   | 1.682109 | 192.0.2.1 | 8.8.8.8     | DNS      | 104    | Standard query 0xf1a9 A privacyguides.org OPT                          |
+| 4   | 2.154698 | 8.8.8.8   | 192.0.2.1   | DNS      | 108    | Standard query response 0xf1a9 A privacyguides.org A 198.98.54.105 OPT |
 
 Um observador pode modificar qualquer um destes pacotes.
 
@@ -293,9 +293,24 @@ O DNSSEC implementa uma política de assinatura digital hierárquica em todos os
 
 ## O que é a minimização de QNAME?
 
-Um QNAME é um "nome qualificado", por exemplo `privacyguides.org`. A minimização do QNAME reduz a quantidade de informações enviadas do servidor DNS para o servidor de nomes autoritário [](https://en.wikipedia.org/wiki/Name_server#Authoritative_name_server).
+A QNAME is a "qualified name", for example `discuss.privacyguides.net`. In the past, when resolving a domain name your DNS resolver would ask every server in the chain to provide any information it has about your full query. In this example below, your request to find the IP address for `discuss.privacyguides.net` gets asked of every DNS server provider:
 
-Em vez de enviar todo o domínio `privacyguides.org`, a minimização do QNAME significa que o servidor DNS irá pedir todos os registos que terminam em `.org`. Uma descrição técnica mais pormenorizada é definida em [RFC 7816](https://datatracker.ietf.org/doc/html/rfc7816).
+| Server                 | Question Asked                              | Response                                    |
+| ---------------------- | ------------------------------------------- | ------------------------------------------- |
+| Root server            | What's the IP of discuss.privacyguides.net? | I don't know, ask .net's server...          |
+| .net's server          | What's the IP of discuss.privacyguides.net? | I don't know, ask Privacy Guides' server... |
+| Privacy Guides' server | What's the IP of discuss.privacyguides.net? | 5.161.195.190!                              |
+
+With "QNAME minimization," your DNS resolver now only asks for just enough information to find the next server in the chain. In this example, the root server is only asked for enough information to find the appropriate nameserver for the .net TLD, and so on, without ever knowing the full domain you're trying to visit:
+
+| Server                 | Question Asked                                       | Response                          |
+| ---------------------- | ---------------------------------------------------- | --------------------------------- |
+| Root server            | What's the nameserver for .net?                      | *Provides .net's server*          |
+| .net's server          | What's the nameserver for privacyguides.net?         | *Provides Privacy Guides' server* |
+| Privacy Guides' server | What's the nameserver for discuss.privacyguides.net? | This server!                      |
+| Privacy Guides' server | What's the IP of discuss.privacyguides.net?          | 5.161.195.190                     |
+
+While this process can be slightly more inefficient, in this example neither the central root nameservers nor the TLD's nameservers ever receive information about your *full* query, thus reducing the amount of information being transmitted about your browsing habits. Uma descrição técnica mais pormenorizada é definida em [RFC 7816](https://datatracker.ietf.org/doc/html/rfc7816).
 
 ## O que é a Sub-rede de Cliente EDNS (ECS)?
 

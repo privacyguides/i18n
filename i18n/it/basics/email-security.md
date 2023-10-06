@@ -17,6 +17,16 @@ Esiste un altro standard popolare tra le aziende, detto [S/MIME](https://en.wiki
 
 Anche se utilizzi OpenPGP, non supporta la [segretezza in avanti](https://en.wikipedia.org/wiki/Forward_secrecy), il che significa che se la chiave privata tua o del destinatario viene rubata, tutti i messaggi precedentemente crittografati saranno esposti. Ecco perché consigliamo la [messaggistica istantanea](../real-time-communication.md), che implementa la segretezza in avanti via email, per le comunicazioni personali, quando possibile.
 
+## What is the Web Key Directory standard?
+
+The Web Key Directory (WKD) standard allows email clients to discover the OpenPGP key for other mailboxes, even those hosted on a different provider. Email clients which support WKD will ask the recipient's server for a key based on the email address' domain name. For example, if you emailed `jonah@privacyguides.org`, your email client would ask `privacyguides.org` for Jonah's OpenPGP key, and if `privacyguides.org` has a key for that account, your message would be automatically encrypted.
+
+In addition to the [email clients we recommend](../email-clients.md) which support WKD, some webmail providers also support WKD. Whether *your own* key is published to WKD for others to use depends on your domain configuration. If you use an [email provider](../email.md#openpgp-compatible-services) which supports WKD, such as Proton Mail or Mailbox.org, they can publish your OpenPGP key on their domain for you.
+
+If you use your own custom domain, you will need to configure WKD separately. If you control your domain name, you can set up WKD regardless of your email provider. One easy way to do this is to use the "[WKD as a Service](https://keys.openpgp.org/about/usage#wkd-as-a-service)" feature from keys.openpgp.org, by setting a CNAME record on the `openpgpkey` subdomain of your domain pointed to `wkd.keys.openpgp.org`, then uploading your key to [keys.openpgp.org](https://keys.openpgp.org/). Alternatively, you can [self-host WKD on your own web server](https://wiki.gnupg.org/WKDHosting).
+
+If you use a shared domain from a provider which doesn't support WKD, like @gmail.com, you won't be able to share your OpenPGP key with others via this method.
+
 ### Quali client email supportano E2EE?
 
 I fornitori email che ti conseentono di utilizzare i protocolli d'accesso standard come IMAP e SMTP, sono utilizzabili con qualsiasi [client email che consigliamo](../email-clients.md). In base al metodo d'autenticazione, ciò potrebbe comportare una riduzione della sicurezza se il fornitore o il client email non supportano OATH o un'applicazione di collegamento (bridge), poiché l'[autenticazione a più fattori](multi-factor-authentication.md) non è possibile con l'autenticazione con password semplice.
@@ -25,7 +35,7 @@ I fornitori email che ti conseentono di utilizzare i protocolli d'accesso standa
 
 Una smartcard (come [YubiKey](https://support.yubico.com/hc/en-us/articles/360013790259-Using-Your-YubiKey-with-OpenPGP) o [Nitrokey](https://www.nitrokey.com)) opera ricevendo un messaggio email crittografato da un dispositivo (telefono, tablet, computer, etc.), che esegue un client email/webmail. Il messaggio, quindi, viene decrittografato dalla smartcart e il contenuto decrittografato è reinviato al dispositivo.
 
-Il fatto che la decrittografia si verifichi sulla smartcard è vantaggioso per evitare la possibile esposizione della tua chiave privata, a un dispositivo compromesso.
+It is advantageous for the decryption to occur on the smartcard to avoid possibly exposing your private key to a compromised device.
 
 ## Panoramica sui metadati email
 

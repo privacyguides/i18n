@@ -55,12 +55,12 @@ DNS는 [인터넷의 초창기](https://ko.wikipedia.org/wiki/%EB%8F%84%EB%A9%94
 
 앞선 과정을 거쳐 Wireshark 명령어를 실행하면 상단 창에 여러 [Frame](https://en.wikipedia.org/wiki/Ethernet_frame)이 표시되고, 하단 창에는 선택한 프레임에 대한 모든 데이터가 표시됩니다. 엔터프라이즈 필터링 및 모니터링 솔루션(정부에서 사용하는 솔루션 등을 말합니다)은 사람이 개입할 필요 없이 자동으로 이런 프로세스를 처리하고 집계하여 네트워크 관찰자에게 필요한 통계 데이터를 생성할 수 있습니다.
 
-| 번호 | 소요 시간    | 출발지       | 목적지       | 프로토콜 | 길이  | 정보                                                                     |
-| -- | -------- | --------- | --------- | ---- | --- | ---------------------------------------------------------------------- |
-| 1  | 0.000000 | 192.0.2.1 | 1.1.1.1   | DNS  | 104 | Standard query 0x58ba A privacyguides.org OPT                          |
-| 2  | 0.293395 | 1.1.1.1   | 192.0.2.1 | DNS  | 108 | Standard query response 0x58ba A privacyguides.org A 198.98.54.105 OPT |
-| 3  | 1.682109 | 192.0.2.1 | 8.8.8.8   | DNS  | 104 | Standard query 0xf1a9 A privacyguides.org OPT                          |
-| 4  | 2.154698 | 8.8.8.8   | 192.0.2.1 | DNS  | 108 | Standard query response 0xf1a9 A privacyguides.org A 198.98.54.105 OPT |
+| No. | Time     | Source    | Destination | Protocol | Length | Info                                                                   |
+| --- | -------- | --------- | ----------- | -------- | ------ | ---------------------------------------------------------------------- |
+| 1   | 0.000000 | 192.0.2.1 | 1.1.1.1     | DNS      | 104    | Standard query 0x58ba A privacyguides.org OPT                          |
+| 2   | 0.293395 | 1.1.1.1   | 192.0.2.1   | DNS      | 108    | Standard query response 0x58ba A privacyguides.org A 198.98.54.105 OPT |
+| 3   | 1.682109 | 192.0.2.1 | 8.8.8.8     | DNS      | 104    | Standard query 0xf1a9 A privacyguides.org OPT                          |
+| 4   | 2.154698 | 8.8.8.8   | 192.0.2.1   | DNS      | 108    | Standard query response 0xf1a9 A privacyguides.org A 198.98.54.105 OPT |
 
 네트워크 관찰자는 이러한 패킷을 변조할 수 있습니다.
 
@@ -372,9 +372,26 @@ DNSSEC은 DNS의 모든 계층에 걸쳐 계층적(Hierarchical) 디지털 서�
 
 ## QNAME 최소화란 무엇인가요?
 
-QNAME은 '정규화된 이름(Qualified Name)'입니다(예시: `privacyguides.org`). QNAME 최소화(QNAME Minimization)는 DNS 서버로부터 [Authoritative Name Server(권한 있는 이름 서버)](https://en.wikipedia.org/wiki/Name_server#Authoritative_name_server)로 전송되는 정보의 양을 줄입니다.
+A QNAME is a "qualified name", for example `discuss.privacyguides.net`. In the past, when resolving a domain name your DNS resolver would ask every server in the chain to provide any information it has about your full query. In this example below, your request to find the IP address for `discuss.privacyguides.net` gets asked of every DNS server provider:
 
-QNAME 최소화를 이용하면 DNS 서버가 `privacyguides.org`이라는 전체 도메인을 전송하는 것이 아닌, `.org`로 끝나는 모든 레코드를 요청하게 됩니다. 세부 기술 설명은 [RFC 7816](https://datatracker.ietf.org/doc/html/rfc7816)에 정의되어 있습니다.
+| Server                 | Question Asked                              | Response                                    |
+| ---------------------- | ------------------------------------------- | ------------------------------------------- |
+| Root server            | What's the IP of discuss.privacyguides.net? | I don't know, ask .net's server...          |
+| .net's server          | What's the IP of discuss.privacyguides.net? | I don't know, ask Privacy Guides' server... |
+| Privacy Guides' server | What's the IP of discuss.privacyguides.net? | 5.161.195.190!                              |
+
+
+With "QNAME minimization," your DNS resolver now only asks for just enough information to find the next server in the chain. In this example, the root server is only asked for enough information to find the appropriate nameserver for the .net TLD, and so on, without ever knowing the full domain you're trying to visit:
+
+| Server                 | Question Asked                                       | Response                          |
+| ---------------------- | ---------------------------------------------------- | --------------------------------- |
+| Root server            | What's the nameserver for .net?                      | *Provides .net's server*          |
+| .net's server          | What's the nameserver for privacyguides.net?         | *Provides Privacy Guides' server* |
+| Privacy Guides' server | What's the nameserver for discuss.privacyguides.net? | This server!                      |
+| Privacy Guides' server | What's the IP of discuss.privacyguides.net?          | 5.161.195.190                     |
+
+
+While this process can be slightly more inefficient, in this example neither the central root nameservers nor the TLD's nameservers ever receive information about your *full* query, thus reducing the amount of information being transmitted about your browsing habits. 세부 기술 설명은 [RFC 7816](https://datatracker.ietf.org/doc/html/rfc7816)에 정의되어 있습니다.
 
 
 
