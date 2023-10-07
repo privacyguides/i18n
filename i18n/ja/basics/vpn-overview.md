@@ -66,7 +66,7 @@ For situations like these, or if you have another compelling reason, the VPN pro
 ## Sources and Further Reading
 
 1. [VPN - a Very Precarious Narrative](https://schub.io/blog/2019/04/08/very-precarious-narrative.html) by Dennis Schubert
-1. [Tor Network Overview](../advanced/tor-overview.md)
+1. [Torネットワークの概要](../advanced/tor-overview.md)
 1. [IVPN Privacy Guides](https://www.ivpn.net/privacy-guides)
 1. ["Do I need a VPN?"](https://www.doineedavpn.com), a tool developed by IVPN to challenge aggressive VPN marketing by helping individuals decide if a VPN is right for them.
 

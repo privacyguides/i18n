@@ -71,7 +71,7 @@ Thankfully, E2EE can alleviate this issue by encrypting communications between y
 
 Even with E2EE, service providers can still profile you based on **metadata**, which typically isn't protected. While the service provider can't read your messages, they can still observe important things, such as who you're talking to, how often you message them, and when you're typically active. Protection of metadata is fairly uncommon, and—if it's within your [threat model](threat-modeling.md)—you should pay close attention to the technical documentation of the software you're using to see if there's any metadata minimization or protection at all.
 
-## Mass Surveillance Programs
+## 大量監視プログラム
 
 <span class="pg-blue">:material-eye-outline: Mass Surveillance</span>
 
