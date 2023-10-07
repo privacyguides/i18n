@@ -19,7 +19,7 @@ cover: email.png
 
 ## Сервисы, поддерживающие OpenPGP
 
-These providers natively support OpenPGP encryption/decryption and the [Web Key Directory standard](basics/email-security.md#what-is-the-web-key-directory-standard), allowing for provider-agnostic E2EE emails. Например, пользователь Proton Mail может отправлять E2EE-зашифрованное сообщение пользователю Mailbox.org, или ты можешь получить OpenPGP-зашифрованное уведомление от интернет-сервисов, поддерживающих такую функцию.
+Эти провайдеры нативно поддерживают шифрование/дешифрование с помощью OpenPGP и стандарт [Web Key Directory](basics/email-security.md#what-is-the-web-key-directory-standard), что позволяет использовать E2EE, не зависимо от провайдера. Например, пользователь Proton Mail может отправлять E2EE-зашифрованное сообщение пользователю Mailbox.org, или ты можешь получить OpenPGP-зашифрованное уведомление от интернет-сервисов, поддерживающих такую функцию.
 
 <div class="grid cards" markdown>
 
@@ -86,7 +86,7 @@ Proton Mail использует [шифрование с нулевым дос�
 
 Proton Mail [интегрировал шифрование OpenPGP](https://proton.me/support/how-to-use-pgp) в свою веб-почту. Письма, отправленные на другие аккаунты Proton Mail шифруются автоматически. Шифрование писем с помощью ключа OpenPGP на адреса, не принадлежащие Proton Mail, можно легко включить в настройках аккаунта. Они также позволяют тебе [шифровать сообщения на адреса, не относящиеся к Proton Mail](https://proton.me/support/password-protected-emails), без необходимости регистрировать учетную запись Proton Mail или использовать программное обеспечение типа OpenPGP.
 
-Proton Mail также поддерживает обнаружение открытых ключей через HTTP с их [Web Key Directory (WKD)](https://wiki.gnupg.org/WKD). Это позволяет людям, не использующим Proton Mail, легко находить OpenPGP-ключи учетных записей Proton Mail для кросс-провайдерского E2EE. This only applies to email addresses ending in one of Proton's own domains, like @proton.me. If you use a custom domain, you must [configure WKD](./basics/email-security.md#what-is-the-web-key-directory-standard) separately.
+Proton Mail также поддерживает обнаружение открытых ключей через HTTP с их [Web Key Directory (WKD)](https://wiki.gnupg.org/WKD). Это позволяет людям, не использующим Proton Mail, легко находить OpenPGP-ключи учетных записей Proton Mail для кросс-провайдерского E2EE. Это относится только к адресам электронной почты, заканчивающимся на один из собственных доменов "Протона", например @proton.me. При использовании кастомного домена необходимо [настроить WKD](./basics/email-security.md#what-is-the-web-key-directory-standard) отдельно.
 
 #### :material-information-outline:{ .pg-blue } Блокировка аккаунта
 
@@ -136,7 +136,7 @@ Mailbox.org позволяет шифровать входящую почту с
 
 Mailbox.org использует [встроенное шифрование](https://kb.mailbox.org/display/MBOKBEN/Send+encrypted+e-mails+with+Guard) в свою веб-почту, что упрощает отправку сообщений людям с открытыми ключами OpenPGP. Они также позволяют [пользователям без Mailbox.org расшифровывать электронные письма](https://kb.mailbox.org/display/MBOKBEN/My+recipient+does+not+use+PGP) на серверах Mailbox.org. Эта функция полезна, когда получатель не имеет OpenPGP и не может расшифровать копию письма в собственном почтовом ящике.
 
-Mailbox.org также поддерживает обнаружение открытых ключей через HTTP с их [Web Key Directory (WKD)](https://wiki.gnupg.org/WKD). Это позволяет людям, не использующим Mailbox.org, легко находить OpenPGP-ключи учетных записей Mailbox.org для кросс-провайдерского E2EE. This only applies to email addresses ending in one of Mailbox.org's own domains, like @mailbox.org. If you use a custom domain, you must [configure WKD](./basics/email-security.md#what-is-the-web-key-directory-standard) separately.
+Mailbox.org также поддерживает обнаружение открытых ключей через HTTP с их [Web Key Directory (WKD)](https://wiki.gnupg.org/WKD). Это позволяет людям, не использующим Mailbox.org, легко находить OpenPGP-ключи учетных записей Mailbox.org для кросс-провайдерского E2EE. Это относится только к адресам электронной почты, заканчивающимся на один из собственных доменов "Mailbox.org", например @mailbox.org. При использовании кастомного домена необходимо [настроить WKD](./basics/email-security.md#what-is-the-web-key-directory-standard) отдельно.
 
 #### :material-information-outline:{ .pg-blue } Блокировка аккаунта
 
@@ -184,7 +184,7 @@ Skiff прошел несколько [аудитов](https://skiff.com/transpa
 
 #### :material-check:{ .pg-green } Пользовательские домены и псевдонимы
 
-С бесплатным тарифным планом вам доступно до 3 дополнительных псевдонимов электронной почты (с доменом @skiff.com) в дополнении к вашему главному почтовому адресу. Free accounts can add 1 [custom domain](https://skiff.com/blog/custom-domain-setup), and up to 15 custom domains on a paid plan. You can create unlimited aliases or a [catch-all](https://skiff.com/blog/catch-all-email-alias) alias on your custom domain.
+С бесплатным тарифным планом вам доступно до 3 дополнительных псевдонимов электронной почты (с доменом @skiff.com) в дополнении к вашему главному почтовому адресу. В бесплатных учетных записях можно добавить 1 [пользовательский домен](https://skiff.com/blog/custom-domain-setup), а в платных - до 15 пользовательских доменов. С пользовательским доменом вы можете создать неограниченное количество псевдонимов или [универсальный псевдоним](https://skiff.com/blog/catch-all-email-alias).
 
 #### :material-alert-outline:{ .pg-orange } Конфиденциальные способы оплаты
 
@@ -240,7 +240,7 @@ Tutanota не поддерживает [протокол IMAP](https://tutanota.
 
 #### :material-check:{ .pg-green } Пользовательские домены и псевдонимы
 
-Paid Tutanota accounts can use either 15 or 30 aliases depending on their plan and unlimited aliases on [custom domains](https://tutanota.com/faq#custom-domain). Tutanota не позволяет использовать [субадресацию (адреса с плюсом)](https://tutanota.com/faq#plus), но с пользовательским доменом ты можешь использовать [универсальный адрес](https://tutanota.com/howto#settings-global).
+Платные аккаунты Tutanota могут использовать 15 или 30 псевдонимов в зависимости от тарифного плана и неограниченное количество псевдонимов на [пользовательских доменах](https://tutanota.com/faq#custom-domain). Tutanota не позволяет использовать [субадресацию (адреса с плюсом)](https://tutanota.com/faq#plus), но с пользовательским доменом ты можешь использовать [универсальный адрес](https://tutanota.com/howto#settings-global).
 
 #### :material-information-outline:{ .pg-blue } Конфиденциальные способы оплаты
 
@@ -276,8 +276,8 @@ Tutanota не предлагает функцию цифрового насле�
 
 <div class="grid cards" markdown>
 
-- ![addy.io logo](assets/img/email/mini/addy.svg){ .twemoji } [addy.io](email.md#addyio)
-- ![SimpleLogin logo](assets/img/email/simplelogin.svg){ .twemoji } [SimpleLogin](email.md#simplelogin)
+- ![Логотип addy.io](assets/img/email/mini/addy.svg){ .twemoji } [addy.io](email.md#addyio)
+- ![Логотип SimpleLogin](assets/img/email/simplelogin.svg){ .twemoji } [SimpleLogin](email.md#simplelogin)
 
 </div>
 
@@ -302,32 +302,32 @@ Tutanota не предлагает функцию цифрового насле�
 
 !!! recommendation
 
-    ![addy.io logo](assets/img/email/addy.svg#only-light){ align=right }
-    ![addy.io logo](assets/img/email/addy-dark.svg#only-dark){ align=right }
+    ![Логотип addy.io](assets/img/email/addy.svg#only-light){ align=right }
+    ![Логотип addy.io](assets/img/email/addy-dark.svg#only-dark){ align=right }
     
-    **addy.io** lets you create 10 domain aliases on a shared domain for free, or unlimited "standard" aliases which are less anonymous.
+    **addy.io** позволяет вам создать 10 псевдонимов на общем домене или неограниченное количество "стандартных" псевдонимов, которые менее анонимны.
     
-    [:octicons-home-16: Homepage](https://addy.io){ .md-button .md-button--primary }
-    [:octicons-eye-16:](https://addy.io/privacy){ .card-link title="Privacy Policy" }
-    [:octicons-info-16:](https://app.addy.io/docs){ .card-link title=Documentation}
-    [:octicons-code-16:](https://github.com/anonaddy){ .card-link title="Source Code" }
-    [:octicons-heart-16:](https://addy.io/donate){ .card-link title=Contribute }
+    [:octicons-home-16: Домашняя страница](https://addy.io){ .md-button .md-button--primary }
+    [:octicons-eye-16:](https://addy.io/privacy){ .card-link title="Политика конфиденциальности" }
+    [:octicons-info-16:](https://app.addy.io/docs){ .card-link title=Документация}
+    [:octicons-code-16:](https://github.com/anonaddy){ .card-link title="Исходный код" }
+    [:octicons-heart-16:](https://addy.io/donate){ .card-link title=Поддержать }
     
-    ??? downloads
+    ??? downloads "Скачать"
     
         - [:simple-android: Android](https://addy.io/faq/#is-there-an-android-app)
         - [:material-apple-ios: iOS](https://addy.io/faq/#is-there-an-ios-app)
         - [:simple-firefoxbrowser: Firefox](https://addons.mozilla.org/firefox/addon/addy_io/)
         - [:simple-googlechrome: Chrome](https://chrome.google.com/webstore/detail/addyio-anonymous-email-fo/iadbdpnoknmbdeolbapdackdcogdmjpe)
 
-The number of shared aliases (which end in a shared domain like @addy.io) that you can create is limited to 10 on addy.io's free plan, 50 on their $1/month plan and unlimited on the $4/month plan (billed $3 for a year). You can create unlimited standard aliases (which end in a domain like @[username].addy.io or a custom domain on paid plans), however, as previously mentioned, this can be detrimental to privacy because people can trivially tie your standard aliases together based on the domain name alone. They are useful where a shared domain might be blocked by a service.
+Количество общих псевдонимов (заканчивающихся на общий домен, например @addy.io), которые вы можете создать, ограничено 10 на бесплатном плане addy.io, 50 на плане стоимостью 1 доллар в месяц и неограниченно на плане стоимостью 4 доллара в месяц (счет выставляется на 3 доллара в течение года). Ты можешь создавать неограниченное количество стандартных псевдонимов (которые заканчиваются на домен типа @[username].addy.io или пользовательский домен в платных тарифных планах), однако, как уже говорилось ранее, это может нанести ущерб конфиденциальности, поскольку люди могут банально связать ваши стандартные псевдонимы вместе на основе общего доменного имени. Они полезны в тех случаях, когда общий домен может быть заблокирован какой-либо службой.
 
 Примечательные бесплатные функции:
 
 - [x] 10 общих псевдонимов
 - [x] Неограниченное количество стандартных псевдонимов
 - [ ] Нет исходящих ответов
-- [x] 1 Recipient Mailboxes
+- [x] 1 Почтовый ящик получателя
 - [x] Автоматическое шифрование PGP
 
 ### SimpleLogin
@@ -343,7 +343,7 @@ The number of shared aliases (which end in a shared domain like @addy.io) that y
     [:octicons-info-16:](https://simplelogin.io/docs/){ .card-link title=Документация}
     [:octicons-code-16:](https://github.com/simple-login){ .card-link title="Исходный код" }
     
-    ??? downloads
+    ??? downloads "Скачать"
     
         - [:simple-googleplay: Google Play](https://play.google.com/store/apps/details?id=io.simplelogin.android)
         - [:simple-appstore: App Store](https://apps.apple.com/app/id1494359858)

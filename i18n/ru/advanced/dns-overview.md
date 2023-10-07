@@ -55,12 +55,12 @@ DNS существует с [первых дней](https://en.wikipedia.org/wik
 
 Если вы pfgecnbnt приведенную выше команду Wireshark, на верхней панели отобразится "[frames](https://en.wikipedia.org/wiki/Ethernet_frame)", а на нижней - все данные о выбранном кадре(frame). Корпоративные решения для фильтрации и мониторинга (например, те, которые приобретаются правительствами) могут выполнять этот процесс автоматически, без участия человека, и могут собирать эти frames для получения статистических данных, полезных для сетевого наблюдателя.
 
-| No. | Time     | Source    | Destination | Protocol | Length | Info                                                                   |
-| --- | -------- | --------- | ----------- | -------- | ------ | ---------------------------------------------------------------------- |
-| 1   | 0.000000 | 192.0.2.1 | 1.1.1.1     | DNS      | 104    | Standard query 0x58ba A privacyguides.org OPT                          |
-| 2   | 0.293395 | 1.1.1.1   | 192.0.2.1   | DNS      | 108    | Standard query response 0x58ba A privacyguides.org A 198.98.54.105 OPT |
-| 3   | 1.682109 | 192.0.2.1 | 8.8.8.8     | DNS      | 104    | Standard query 0xf1a9 A privacyguides.org OPT                          |
-| 4   | 2.154698 | 8.8.8.8   | 192.0.2.1   | DNS      | 108    | Standard query response 0xf1a9 A privacyguides.org A 198.98.54.105 OPT |
+| № | Время    | Источник  | Назначение | Протокол | Длина | Инфо.                                                                  |
+| - | -------- | --------- | ---------- | -------- | ----- | ---------------------------------------------------------------------- |
+| 1 | 0.000000 | 192.0.2.1 | 1.1.1.1    | DNS      | 104   | Standard query 0x58ba A privacyguides.org OPT                          |
+| 2 | 0.293395 | 1.1.1.1   | 192.0.2.1  | DNS      | 108   | Standard query response 0x58ba A privacyguides.org A 198.98.54.105 OPT |
+| 3 | 1.682109 | 192.0.2.1 | 8.8.8.8    | DNS      | 104   | Standard query 0xf1a9 A privacyguides.org OPT                          |
+| 4 | 2.154698 | 8.8.8.8   | 192.0.2.1  | DNS      | 108   | Standard query response 0xf1a9 A privacyguides.org A 198.98.54.105 OPT |
 
 Наблюдатель может изменить любой из этих пакетов.
 
