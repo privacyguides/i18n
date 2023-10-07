@@ -243,7 +243,7 @@ Mullvad is very transparent about which nodes they [own or rent](https://mullvad
 
 Minden általunk ajánlott VPN-szolgáltatótól elvárjuk, hogy biztosítson OpenVPN konfigurációs fájlokat, amelyeket bármilyen kliensben használni lehet. **Ha** egy VPN saját egyedi klienst biztosít, akkor hálózati kapcsolat megszakadásakor az adatszivárgások megakadályozása miatt egy killswitch beépítését várjuk el.
 
-**Alap Elvárások Minősítéshez:**
+**Alap elvárások minősítéshez:**
 
 - Olyan erős protokollok támogatása, mint a WireGuard és az OpenVPN.
 - Kliensekbe beépített killswitch.
@@ -262,7 +262,7 @@ Minden általunk ajánlott VPN-szolgáltatótól elvárjuk, hogy biztosítson Op
 
 Jobban szeretjük, ha az általunk ajánlott szolgáltatók a lehető legkevesebb adatot gyűjtik. Személyes adatok nem gyűjtése a regisztráció során, és anonim fizetési formák elfogadása elvárás.
 
-**Alap Elvárások Minősítéshez:**
+**Alap elvárások minősítéshez:**
 
 - [Anoním kriptovaluta](cryptocurrency.md) **, vagy** készpénzes fizetési lehetőség.
 - A regisztrációhoz nincs szükség személyes adatokra: Csak felhasználónév, jelszó és legfeljebb email cím.
@@ -276,13 +276,13 @@ Jobban szeretjük, ha az általunk ajánlott szolgáltatók a lehető legkeveseb
 
 Egy VPN értelmetlen, ha még megfelelő biztonságot sem tud nyújtani. Minden általunk ajánlott szolgáltatótól elvárjuk, hogy betartsa az OpenVPN kapcsolataikra vonatkozó jelenlegi biztonsági szabványokat. Ideális esetben alapértelmezés szerint jövőbelátóbb titkosítási sémákat használnának. Azt is elvárjuk, hogy egy független harmadik fél vizsgálja felül a szolgáltató biztonságát, ideális esetben nagyon átfogó módon és ismételten (évente).
 
-**Alap Elvárások Minősítéshez:**
+**Alap elvárások minősítéshez:**
 
 - Erős Titkosítási Rendszerek: OpenVPN SHA-256 hitelesítssel; RSA-2048 vagy jobb handshake; AES-256-GCM vagy AES-256-CBC adattitkosítás.
 - Forward Secrecy.
 - Közzétett biztonsági felülvizsgálatok egy megbízható harmadik feles cégtől.
 
-**Legjobb Esetben:**
+**Legjobb esetben:**
 
 - Legerősebb Titkosítás: RSA-4096.
 - Forward Secrecy.
@@ -293,7 +293,7 @@ Egy VPN értelmetlen, ha még megfelelő biztonságot sem tud nyújtani. Minden 
 
 A pénzügyeidet sem bíznád egy hamis személyazonosságú valakire, miért bíznád rá az internetes adataidat? Az általunk ajánlott szolgáltatóktól elvárjuk, hogy nyilvánosak legyenek a tulajdonlásukról vagy vezetésükről. Szeretnénk továbbá gyakori átláthatósági jelentéseket látni, különösen a kormányzati kérelmek kezelésének módját illetően.
 
-**Alap Elvárások Minősítéshez:**
+**Alap elvárások minősítéshez:**
 
 - Nyilvános vezetés vagy tulajdonlás.
 
@@ -306,7 +306,7 @@ A pénzügyeidet sem bíznád egy hamis személyazonosságú valakire, miért b�
 
 Az általunk ajánlott VPN-szolgáltatóknál felelős marketinget szeretünk látni.
 
-**Alap Elvárások Minősítéshez:**
+**Alap elvárások minősítéshez:**
 
 - Saját üzemeltetésű analitikai rendszerrel kell rendelkeznie (azaz nem Google Analytics). A szolgáltató webhelyének szintén be kell tartania a [DNT (Do Not Track)](https://en.wikipedia.org/wiki/Do_Not_Track) kéréseket is, a követést elutasítani kívánó személyek számára.
 

@@ -1,5 +1,5 @@
 ---
-title: Android Áttekintés
+title: Android áttekintés
 icon: simple/android
 description: Az Android egy nyílt forráskódú operációs rendszer, amely erős biztonsági védelemmel rendelkezik, ezért ez az elsődleges választásunk telefonok esetében.
 ---

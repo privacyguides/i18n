@@ -226,7 +226,7 @@ Psono provides extensive documentation for their product. The web-client for Pso
 
     Azon dolgozunk, hogy meghatározott követelményeket állapítsunk meg az oldalunk minden egyes szakaszára vonatkozóan, és ez még változhat. Ha bármilyen kérdésed van a követelményinkkel kapcsolatban, kérjük, [kérdezz a fórumon](https://discuss.privacyguides.net/latest), és ne feltételezd, hogy valamit nem vettünk figyelembe az ajánlásaink elkészítésekor, ha az nem szerepel itt. Számos tényezőt veszünk figyelembe és vitatunk meg, amikor egy projektet ajánlunk, és minden egyes tényező dokumentálása folyamatban lévő munka.
 
-#### Alap Elvárások
+#### Alap elvárások
 
 - Must utilize strong, standards-based/modern E2EE.
 - Must have thoroughly documented encryption and security practices.
@@ -234,7 +234,7 @@ Psono provides extensive documentation for their product. The web-client for Pso
 - All non-essential telemetry must be optional.
 - Must not collect more PII than is necessary for billing purposes.
 
-#### Legjobb Esetben
+#### Legjobb esetben
 
 A legjobb esetben alkalmazott követelményeink azt fejezik ki, hogy mit szeretnénk látni egy kifogástalan projekttől ebben a kategóriában. Előfordulhat, hogy ajánlásaink nem tartalmazzák az összes ilyen funkciót, de azok, amelyek igen, magasabb helyen szerepelhetnek, mint mások ezen az oldalon.
 

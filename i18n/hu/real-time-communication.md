@@ -186,7 +186,7 @@ Session has a [whitepaper](https://arxiv.org/pdf/2002.04609.pdf) describing the 
 - Must support E2EE for all messages.
 - Must have been independently audited.
 
-### Legjobb Esetben
+### Legjobb esetben
 
 A legjobb esetben alkalmazott követelményeink azt fejezik ki, hogy mit szeretnénk látni egy kifogástalan projekttől ebben a kategóriában. Előfordulhat, hogy ajánlásaink nem tartalmazzák az összes ilyen funkciót, de azok, amelyek igen, magasabb helyen szerepelhetnek, mint mások ezen az oldalon.
 

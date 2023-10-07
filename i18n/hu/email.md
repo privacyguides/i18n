@@ -410,7 +410,7 @@ We regard these features as important in order to provide a safe and optimal ser
 - Allow users to use their own [domain name](https://en.wikipedia.org/wiki/Domain_name). Custom domain names are important to users because it allows them to maintain their agency from the service, should it turn bad or be acquired by another company which doesn't prioritize privacy.
 - Operates on owned infrastructure, i.e. not built upon third-party email service providers.
 
-**Legjobb Esetben:**
+**Legjobb esetben:**
 
 - Encrypts all account data (Contacts, Calendars, etc.) at rest with zero-access encryption.
 - Integrated webmail E2EE/PGP encryption provided as a convenience.
@@ -425,13 +425,13 @@ We regard these features as important in order to provide a safe and optimal ser
 
 Jobban szeretjük, ha az általunk ajánlott szolgáltatók a lehető legkevesebb adatot gyűjtik.
 
-**Alap Elvárások Minősítéshez:**
+**Alap elvárások minősítéshez:**
 
 - Protect sender's IP address. Filter it from showing in the `Received` header field.
 - Don't require personally identifiable information (PII) besides a username and a password.
 - Privacy policy that meets the requirements defined by the GDPR.
 
-**Legjobb Esetben:**
+**Legjobb esetben:**
 
 - Accepts [anonymous payment options](advanced/payments.md) ([cryptocurrency](cryptocurrency.md), cash, gift cards, etc.)
 - Hosted in a jurisdiction with strong email privacy protection laws.
@@ -440,7 +440,7 @@ Jobban szeretjük, ha az általunk ajánlott szolgáltatók a lehető legkeveseb
 
 Email servers deal with a lot of very sensitive data. We expect that providers will adopt best industry practices in order to protect their members.
 
-**Alap Elvárások Minősítéshez:**
+**Alap elvárások minősítéshez:**
 
 - Protection of webmail with 2FA, such as TOTP.
 - Zero access encryption, builds on encryption at rest. The provider does not have the decryption keys to the data they hold. This prevents a rogue employee leaking data they have access to or remote adversary from releasing data they have stolen by gaining unauthorized access to the server.
@@ -458,7 +458,7 @@ Email servers deal with a lot of very sensitive data. We expect that providers w
     - [Subresource Integrity](https://en.wikipedia.org/wiki/Subresource_Integrity) if loading things from external domains.
 - Must support viewing of [Message headers](https://en.wikipedia.org/wiki/Email#Message_header), as it is a crucial forensic feature to determine if an email is a phishing attempt.
 
-**Legjobb Esetben:**
+**Legjobb esetben:**
 
 - Support for hardware authentication, i.e. U2F and [WebAuthn](https://en.wikipedia.org/wiki/WebAuthn). U2F and WebAuthn are more secure as they use a private key stored on a client-side hardware device to authenticate people, as opposed to a shared secret that is stored on the web server and on the client side when using TOTP. Furthermore, U2F and WebAuthn are more resistant to phishing as their authentication response is based on the authenticated [domain name](https://en.wikipedia.org/wiki/Domain_name).
 - [DNS Certification Authority Authorization (CAA) Resource Record](https://tools.ietf.org/html/rfc6844) in addition to DANE support.
@@ -472,11 +472,11 @@ Email servers deal with a lot of very sensitive data. We expect that providers w
 
 You wouldn't trust your finances to someone with a fake identity, so why trust them with your email? Az általunk ajánlott szolgáltatóktól elvárjuk, hogy nyilvánosak legyenek a tulajdonlásukról vagy vezetésükről. Szeretnénk továbbá gyakori átláthatósági jelentéseket látni, különösen a kormányzati kérelmek kezelésének módját illetően.
 
-**Alap Elvárások Minősítéshez:**
+**Alap elvárások minősítéshez:**
 
 - Nyilvános vezetés vagy tulajdonlás.
 
-**Legjobb Esetben:**
+**Legjobb esetben:**
 
 - Nyilvános vezetés.
 - Gyakori átláthatósági jelentések.
@@ -485,7 +485,7 @@ You wouldn't trust your finances to someone with a fake identity, so why trust t
 
 With the email providers we recommend we like to see responsible marketing.
 
-**Alap Elvárások Minősítéshez:**
+**Alap elvárások minősítéshez:**
 
 - Must self-host analytics (no Google Analytics, Adobe Analytics, etc.). The provider's site must also comply with [DNT (Do Not Track)](https://en.wikipedia.org/wiki/Do_Not_Track) for those who wish to opt-out.
 
@@ -497,7 +497,7 @@ Nem használhat felelőtlen marketinget:
 - Reusing personal information e.g. (email accounts, unique pseudonyms, etc.) that they accessed without anonymity software (Tor, VPN, etc.)
 - [Böngésző fingerprintelés](https://en.wikipedia.org/wiki/Device_fingerprint#Browser_fingerprint)
 
-**Legjobb Esetben:**
+**Legjobb esetben:**
 
 - Clear and easy to read documentation. This includes things like, setting up 2FA, email clients, OpenPGP, etc.
 

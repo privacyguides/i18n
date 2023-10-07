@@ -68,14 +68,14 @@ Nitrokey's firmware is open-source, unlike the YubiKey. The firmware on modern N
 
     Azon dolgozunk, hogy meghatározott követelményeket állapítsunk meg az oldalunk minden egyes szakaszára vonatkozóan, és ez még változhat. Ha bármilyen kérdésed van a követelményinkkel kapcsolatban, kérjük, [kérdezz a fórumon](https://discuss.privacyguides.net/latest), és ne feltételezd, hogy valamit nem vettünk figyelembe az ajánlásaink elkészítésekor, ha az nem szerepel itt. Számos tényezőt veszünk figyelembe és vitatunk meg, amikor egy projektet ajánlunk, és minden egyes tényező dokumentálása folyamatban lévő munka.
 
-#### Alap Elvárások
+#### Alap elvárások
 
 - Must use high quality, tamper resistant hardware security modules.
 - Must support the latest FIDO2 specification.
 - Must not allow private key extraction.
 - Devices which cost over $35 must support handling OpenPGP and S/MIME.
 
-#### Legjobb Esetben
+#### Legjobb esetben
 
 A legjobb esetben alkalmazott követelményeink azt fejezik ki, hogy mit szeretnénk látni egy kifogástalan projekttől ebben a kategóriában. Előfordulhat, hogy ajánlásaink nem tartalmazzák az összes ilyen funkciót, de azok, amelyek igen, magasabb helyen szerepelhetnek, mint mások ezen az oldalon.
 
