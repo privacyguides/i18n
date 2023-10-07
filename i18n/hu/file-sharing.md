@@ -113,7 +113,7 @@ ffsend upload --host https://send.vis.ee/ FÁJL
     [:octicons-home-16: Honlap](https://syncthing.net){ .md-button .md-button--primary }
     [:octicons-info-16:](https://docs.syncthing.net){ .card-link title=Dokumentáció}
     [:octicons-code-16:](https://github.com/syncthing){ .card-link title="Forráskód" }
-    [:octicons-heart-16:](https://syncthing.net/donations/){ .card-link title=Kontribúció }
+    [:octicons-heart-16:](https://syncthing.net/donations/){ .card-link title=Közreműködés }
     
     ??? downloads
     

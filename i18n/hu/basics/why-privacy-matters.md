@@ -14,25 +14,25 @@ Sokan összekeverik az **adatvédelem**, az **adatbiztonság** és az **anonimit
 **Adatvédelem**
 :
 
-==Az adatvédelem az a biztosíték, hogy az adataidat csak azok a felek láthatják, akiknek látni szándékozod azokat.== Az azonnali üzenetküldő szolgáltatásokkal összefüggésben például az end-to-end titkosítás biztosítja az adatvédelmet, mivel az üzenetet csak te és a címzett láthatja.
+==Az adatvédelem az a biztosíték, hogy az adataidat csak azok a felek láthatják, akiknek látni szándékozod azokat.== Az azonnali üzenetküldő szolgáltatások esetében például az end-to-end titkosítás biztosítja az adatvédelmet, mivel az üzenetet csak te és a címzett láthatja.
 
 **Adatbiztonság**
 :
 
-Security is the ability to trust the applications you use—that the parties involved are who they say they are—and keep those applications safe. In the context of browsing the web, for example, security can be provided by HTTPS certificates.
+A biztonság az a képesség, hogy megbízhatsz az általad használt alkalmazásokban - hogy az érintett felek azok, akiknek mondják magukat -, és hogy ezeket az alkalmazásokat biztonságosként tudod tartani. A webes böngészés konteksztusában például a biztonságot a HTTPS tanúsítványok nyújthatják.
 :
 
-Certificates prove you are talking directly to the website you're visiting, and keep attackers on your network from reading or modifying the data sent to or from the website.
+A tanúsítványok bizonyítják, hogy közvetlenül a meglátogatott webhelyhez beszélsz, és megakadályozzák, hogy a hálózaton lévő támadók elolvassák vagy módosítsák a webhelyre küldött vagy onnan származó adatokat.
 
-**Anonymity**
+**Anonimitás**
 :
 
-Anonymity is the ability to act without a persistent identifier. You might achieve this online with [Tor](../tor.md), which allows you to browse the internet with a random IP address and network connection instead of your own.
+Az anonimitás az a képesség, hogy állandó azonosító nélkül tevékenykedjünk. Ezt online a [Tor](../tor.md) segítségével érheted el, amely lehetővé teszi, hogy egy saját IP-cím és hálózati kapcsolat helyett egy véletlenszerű IP-címmel és hálózati kapcsolattal böngészhesd az internetet.
 :
 
-**Pseudonymity** is a similar concept, but it allows you to have a persistent identifier without it being tied to your real identity. If everybody knows you as `@GamerGuy12` online, but nobody knows your real name, that is your pseudonym.
+A **Pszeudonimitás** hasonló elképzelés, de lehetővé teszi, hogy állandó azonosítóval rendelkezz anélkül, hogy az a valódi személyazonosságodhoz kötődne. Ha mindenki `@GamerGuy12` néven ismer téged online, de senki sem tudja az igazi nevedet, akkor ez az álneved.
 
-All of these concepts overlap, but it is possible to have any combination of these. The sweet spot for most people is when all three of these concepts overlap. However, it's trickier to achieve than many initially believe. Sometimes, you have to compromise on some of these, and that's okay too. This is where **threat modeling** comes into play, allowing you to make informed decisions about the [software and services](../tools.md) you use.
+Mindezek a fogalmak átfedik egymást, de ezek bármilyen kombinációja lehetséges. A legtöbb ember számára az a legtökéletesebb, amikor mindhárom fogalom átfedésben van. Ezt azonban nehezebb elérni, mint azt sokan kezdetben gondolnák. Néha áldozatot kell hoznod ezek közül néhányon, és teljesen rendben van. This is where **threat modeling** comes into play, allowing you to make informed decisions about the [software and services](../tools.md) you use.
 
 [:material-book-outline: Learn More About Threat Modeling](threat-modeling.md ""){.md-button}
 
