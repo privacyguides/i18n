@@ -1,13 +1,13 @@
 ---
-meta_title: "Pourquoi le courrier électronique n'est pas le meilleur choix en matière de protection de la vie privée et de sécurité - Privacy Guides"
+meta_title: "Pourquoi l'email n'est pas le meilleur choix en matière de protection de la vie privée et de sécurité - Privacy Guides"
 title: Sécurité des emails
 icon: material/email
 description: L'email est intrinsèquement peu sûr à bien des égards, et voici quelques-unes des raisons pour lesquelles il n'est pas notre premier choix en matière de communications sécurisées.
 ---
 
-Le courrier électronique est une forme de communication non sécurisée par défaut. Vous pouvez améliorer la sécurité de votre courrier électronique avec des outils tels que OpenPGP, qui ajoute un chiffrement de bout en bout à vos messages, mais OpenPGP présente toujours un certain nombre d'inconvénients par rapport au chiffrement dans d'autres applications de messagerie, et certaines données de courrier électronique ne peuvent jamais être chiffrées de manière inhérente en raison de la manière dont le courrier électronique est conçu.
+L'email est une forme de communication non sécurisée par défaut. Vous pouvez améliorer la sécurité de vos emails avec des outils tels que OpenPGP, qui ajoute un chiffrement de bout en bout à vos messages, mais OpenPGP présente toujours un certain nombre d'inconvénients par rapport au chiffrement dans d'autres applications de messagerie, et certaines données d'email ne peuvent jamais être chiffrées de manière inhérente en raison de la manière dont l'email est conçu.
 
-Par conséquent, il est préférable d'utiliser le courrier électronique pour recevoir des courriels transactionnels (notifications, courriels de vérification, réinitialisation de mot de passe, etc.) provenant des services auxquels vous vous inscrivez en ligne, et non pour communiquer avec d'autres personnes.
+Par conséquent, il est préférable d'utiliser l'email pour recevoir des emails transactionnels (notifications, emails de vérification, réinitialisation de mot de passe, etc.) provenant des services auxquels vous vous inscrivez en ligne, et non pour communiquer avec d'autres personnes.
 
 ## Aperçu du chiffrement des e-mails
 
@@ -17,7 +17,7 @@ Il existe une autre norme populaire auprès des entreprises, appelée [S/MIME](h
 
 Même si vous utilisez OpenPGP, il ne prend pas en charge la [confidentialité persistante](https://en.wikipedia.org/wiki/Forward_secrecy), ce qui signifie que si votre clé privée ou celle du destinataire est volée, tous les messages précédents chiffrés avec cette clé seront exposés. C'est pourquoi nous recommandons, dans la mesure du possible, les [messageries instantanées](../real-time-communication.md) qui mettent en œuvre la confidentialité persistante par rapport aux emails pour les communications de personne à personne.
 
-## What is the Web Key Directory standard?
+## Qu'est-ce que la norme Web Key Directory ?
 
 The Web Key Directory (WKD) standard allows email clients to discover the OpenPGP key for other mailboxes, even those hosted on a different provider. Email clients which support WKD will ask the recipient's server for a key based on the email address' domain name. For example, if you emailed `jonah@privacyguides.org`, your email client would ask `privacyguides.org` for Jonah's OpenPGP key, and if `privacyguides.org` has a key for that account, your message would be automatically encrypted.
 
