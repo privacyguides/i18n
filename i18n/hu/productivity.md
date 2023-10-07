@@ -34,7 +34,7 @@ A legtöbb online irodai programcsomag nem támogatja az End-to-End titkosítás
 
 !!! danger
 
-    Nem javasoljuk az [E2EE App](https://apps.nextcloud.com/apps/end_to_end_encryption) használatát a Nextcloudhoz, mivel adatvesztéshez vezethet; ez erősen kísérleti jellegű és nem gyártási minőségű. Emiatt nem ajánljuk a Nextcloud harmadik féltől származó szolgáltatóit.
+    Nem javasoljuk az [End-to-End titkosított applikáció](https://apps.nextcloud.com/apps/end_to_end_encryption) használatát a Nextcloudhoz, mivel adatvesztéshez vezethet; erősen kísérleti jellegű és nem gyártásra kész minőségű. Emiatt nem ajánljuk a Nextcloud harmadik féltől származó szolgáltatóit.
 
 ### CryptPad
 
@@ -67,9 +67,9 @@ A legtöbb online irodai programcsomag nem támogatja az End-to-End titkosítás
 - Támogat valós idejű dokumentum-kollaborációt.
 - Támogatja a dokumentumok szabványos dokumentumformátumba (pl. ODF) történő exportálását.
 
-#### Best-Case
+#### Legjobb Esetben
 
-A legjobb esetben alkalmazott követelményeink azt fejezik ki, hogy mit szeretnénk látni egy tökéletes projekttől ebben a kategóriában. Előfordulhat, hogy ajánlásaink nem tartalmazzák az összes ilyen funkciót, de azok, amelyek igen, magasabb helyen szerepelhetnek, mint mások ezen az oldalon.
+A legjobb esetben alkalmazott követelményeink azt fejezik ki, hogy mit szeretnénk látni egy kifogástalan projekttől ebben a kategóriában. Előfordulhat, hogy ajánlásaink nem tartalmazzák az összes ilyen funkciót, de azok, amelyek igen, magasabb helyen szerepelhetnek, mint mások ezen az oldalon.
 
 - Fájlokat egy hagyományos fájlrendszerben kell tárolnia.
 - Támogatnia kell TOTP vagy FIDO2 többlépcsős hitelesítés használatát, vagy Passkey bejelentkezéseket.
@@ -160,15 +160,15 @@ A legjobb esetben alkalmazott követelményeink azt fejezik ki, hogy mit szeretn
 
     Azon dolgozunk, hogy meghatározott követelményeket állapítsunk meg az oldalunk minden egyes szakaszára vonatkozóan, és ez még változhat. Ha bármilyen kérdésed van a követelményinkkel kapcsolatban, kérjük, [kérdezz a fórumon](https://discuss.privacyguides.net/latest), és ne feltételezd, hogy valamit nem vettünk figyelembe az ajánlásaink elkészítésekor, ha az nem szerepel itt. Számos tényezőt veszünk figyelembe és vitatunk meg, amikor egy projektet ajánlunk, és minden egyes tényező dokumentálása folyamatban lévő munka.
 
-#### Minimum Requirements
+#### Alap Elvárások
 
 - Must be open-source.
 - Must implement "zero-trust" end-to-end encryption.
 - Must support password-protected files.
 
 
-#### Best-Case
+#### Legjobb Esetben
 
-Our best-case criteria represents what we would like to see from the perfect project in this category. Our recommendations may not include any or all of this functionality, but those which do may rank higher than others on this page.
+A legjobb esetben alkalmazott követelményeink azt fejezik ki, hogy mit szeretnénk látni egy kifogástalan projekttől ebben a kategóriában. Előfordulhat, hogy ajánlásaink nem tartalmazzák az összes ilyen funkciót, de azok, amelyek igen, magasabb helyen szerepelhetnek, mint mások ezen az oldalon.
 
 - Should have a published audit from a reputable, independent third-party.

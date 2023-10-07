@@ -186,9 +186,9 @@ Session has a [whitepaper](https://arxiv.org/pdf/2002.04609.pdf) describing the 
 - Must support E2EE for all messages.
 - Must have been independently audited.
 
-### Best-Case
+### Legjobb Esetben
 
-Our best-case criteria represents what we would like to see from the perfect project in this category. Our recommendations may not include any or all of this functionality, but those which do may rank higher than others on this page.
+A legjobb esetben alkalmazott követelményeink azt fejezik ki, hogy mit szeretnénk látni egy kifogástalan projekttől ebben a kategóriában. Előfordulhat, hogy ajánlásaink nem tartalmazzák az összes ilyen funkciót, de azok, amelyek igen, magasabb helyen szerepelhetnek, mint mások ezen az oldalon.
 
 - Should have Forward Secrecy.
 - Should have open-source servers.

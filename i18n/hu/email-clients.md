@@ -230,9 +230,9 @@ Canary Mail is closed-source. We recommend it due to the few choices there are f
 - Must not collect telemetry, or have an easy way to disable all telemetry.
 - Must support OpenPGP message encryption.
 
-### Best-Case
+### Legjobb Esetben
 
-Our best-case criteria represents what we would like to see from the perfect project in this category. Our recommendations may not include any or all of this functionality, but those which do may rank higher than others on this page.
+A legjobb esetben alkalmazott követelményeink azt fejezik ki, hogy mit szeretnénk látni egy kifogástalan projekttől ebben a kategóriában. Előfordulhat, hogy ajánlásaink nem tartalmazzák az összes ilyen funkciót, de azok, amelyek igen, magasabb helyen szerepelhetnek, mint mások ezen az oldalon.
 
 - Should be open-source.
 - Should be cross-platform.

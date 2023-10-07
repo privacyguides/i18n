@@ -403,7 +403,7 @@ For a more manual approach we've picked out these two articles:
 
 We regard these features as important in order to provide a safe and optimal service. You should consider whether the provider which has the features you require.
 
-**Minimális Elvárások:**
+**Alap Elvárások Minősítéshez:**
 
 - Encrypts email account data at rest with zero-access encryption.
 - Export capability as [Mbox](https://en.wikipedia.org/wiki/Mbox) or individual .eml with [RFC5322](https://datatracker.ietf.org/doc/rfc5322/) standard.
@@ -425,7 +425,7 @@ We regard these features as important in order to provide a safe and optimal ser
 
 Jobban szeretjük, ha az általunk ajánlott szolgáltatók a lehető legkevesebb adatot gyűjtik.
 
-**Minimális Elvárások:**
+**Alap Elvárások Minősítéshez:**
 
 - Protect sender's IP address. Filter it from showing in the `Received` header field.
 - Don't require personally identifiable information (PII) besides a username and a password.
@@ -440,7 +440,7 @@ Jobban szeretjük, ha az általunk ajánlott szolgáltatók a lehető legkeveseb
 
 Email servers deal with a lot of very sensitive data. We expect that providers will adopt best industry practices in order to protect their members.
 
-**Minimális Elvárások:**
+**Alap Elvárások Minősítéshez:**
 
 - Protection of webmail with 2FA, such as TOTP.
 - Zero access encryption, builds on encryption at rest. The provider does not have the decryption keys to the data they hold. This prevents a rogue employee leaking data they have access to or remote adversary from releasing data they have stolen by gaining unauthorized access to the server.
@@ -472,7 +472,7 @@ Email servers deal with a lot of very sensitive data. We expect that providers w
 
 You wouldn't trust your finances to someone with a fake identity, so why trust them with your email? Az általunk ajánlott szolgáltatóktól elvárjuk, hogy nyilvánosak legyenek a tulajdonlásukról vagy vezetésükről. Szeretnénk továbbá gyakori átláthatósági jelentéseket látni, különösen a kormányzati kérelmek kezelésének módját illetően.
 
-**Minimális Elvárások:**
+**Alap Elvárások Minősítéshez:**
 
 - Nyilvános vezetés vagy tulajdonlás.
 
@@ -485,7 +485,7 @@ You wouldn't trust your finances to someone with a fake identity, so why trust t
 
 With the email providers we recommend we like to see responsible marketing.
 
-**Minimális Elvárások:**
+**Alap Elvárások Minősítéshez:**
 
 - Must self-host analytics (no Google Analytics, Adobe Analytics, etc.). The provider's site must also comply with [DNT (Do Not Track)](https://en.wikipedia.org/wiki/Do_Not_Track) for those who wish to opt-out.
 

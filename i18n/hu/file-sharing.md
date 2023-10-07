@@ -100,7 +100,7 @@ ffsend upload --host https://send.vis.ee/ FÁJL
 
 !!! danger
 
-    Nem javasoljuk az [E2EE App](https://apps.nextcloud.com/apps/end_to_end_encryption) használatát a Nextcloudhoz, mivel adatvesztéshez vezethet; ez erősen kísérleti jellegű és nem gyártási minőségű.
+    Nem javasoljuk az [End-to-End titkosított applikáció](https://apps.nextcloud.com/apps/end_to_end_encryption) használatát a Nextcloudhoz, mivel adatvesztéshez vezethet; erősen kísérleti jellegű és nem gyártásra kész minőségű.
 
 ### Syncthing (P2P)
 
