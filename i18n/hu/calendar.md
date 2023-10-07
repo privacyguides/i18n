@@ -60,7 +60,7 @@ A naptárak a legérzékenyebb adataidat tartalmazzák; használj at rest End-to
 
     Azon dolgozunk, hogy meghatározott követelményeket állapítsunk meg az oldalunk minden egyes szakaszára vonatkozóan, és ez még változhat. Ha bármilyen kérdésed van a követelményinkkel kapcsolatban, kérjük, [kérdezz a fórumon](https://discuss.privacyguides.net/latest), és ne feltételezd, hogy valamit nem vettünk figyelembe az ajánlásaink elkészítésekor, ha az nem szerepel itt. Számos tényezőt veszünk figyelembe és vitatunk meg, amikor egy projektet ajánlunk, és minden egyes tényező dokumentálása folyamatban lévő munka.
 
-### Minimális Fenttartások
+### Alap minősítések
 
 - Szinkronizálnia és tárolnia kell információkat End-to-End titkosítással, hogy biztosítva legyen az, hogy az adatok nem láthatóak a szolgáltató számára.
 
