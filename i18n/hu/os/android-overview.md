@@ -8,9 +8,9 @@ description: Az Android egy nyílt forráskódú operációs rendszer, amely er�
 
 The **Android Open Source Project** is a secure mobile operating system featuring strong [app sandboxing](https://source.android.com/security/app-sandbox), [Verified Boot](https://source.android.com/security/verifiedboot) (AVB), and a robust [permission](https://developer.android.com/guide/topics/permissions/overview) control system.
 
-## Our Advice
+## A mi tanácsunk
 
-### Egy Android Disztribúció Kiválasztása
+### Egy Android disztribúció kiválasztása
 
 Egy Android telefon vásárlásakor a készülék alapértelmezett operációs rendszere gyakran olyan alkalmazások és szolgáltatások invazív integrációját tartalmazza, amelyek nem részei az [Android Open-Source Project](https://source.android.com/)-nek. Ilyen például a Google Play Szolgáltatások, amely visszavonhatatlan jogosultságokkal rendelkezik a fájljaidhoz, névjegy tárolódhoz, hívásnaplóidhoz, SMS-üzeneteidhez, tartózkodási helyedhez, kamerádhoz, mikrofonodhoz, hardverazonosítóidhoz, stb. való hozzáférésre. Ezek az alkalmazások és szolgáltatások növelik a készüléked támadási felületét, és számos adatvédelmi aggály forrását jelentik az Androiddal kapcsolatban.
 
@@ -18,9 +18,9 @@ Ez a probléma megoldható lehet egy olyan egyedi Android-disztribúció haszná
 
 Ideális esetben, amikor egyedi Android disztribúciót választasz, győződj meg arról, hogy az, az Android biztonsági modellt követi. A disztribúciónak minimum rendelkeznie kell gyártási buildekkel, AVB támogatással, rollback védelemmel, időszerű firmware és operációs rendszer frissítésekkel, valamint SELinux-xal [enforcing módban](https://source.android.com/security/selinux/concepts#enforcement_levels). Az általunk ajánlott összes Android disztribúció megfelel ezeknek a követelményeknek.
 
-[Android Rendszer Ajánlásaink :hero-arrow-circle-right-fill:](../android.md ""){.md-button}
+[Android rendszer ajánlásaink :material-arrow-right-drop-circle:](../android.md ""){.md-button}
 
-### Kerüld a Rootolást
+### Kerüld a rootolást
 
 [Az](https://en.wikipedia.org/wiki/Rooting_(Android)) Android telefonok rootolása jelentősen csökkentheti a biztonságot, mivel gyengíti a teljes [Android biztonsági modellt](https://en.wikipedia.org/wiki/Android_(operating_system)#Security_and_privacy). Ez csökkentheti az adatvédelmet, ha van olyan biztonsági rés, amelynek kihasználását a csökkent biztonság elősegíti. A gyakori rootolási módszerek a boot partíció közvetlen megváltoztatásával járnak, ami lehetetlenné teszi egy sikeres Verified Boot elvégzését. A root-ot igénylő alkalmazások szintén módosítják a rendszerpartíciót, ami azt jelenti, hogy a Verified Boot-nak kikapcsolva kell maradnia. A root közvetlen kitétele a felhasználói felületnek szintén növeli az eszközöd [támadási felületetét](https://en.wikipedia.org/wiki/Attack_surface) és elősegítheti [ jogosultságnöveléses](https://en.wikipedia.org/wiki/Privilege_escalation) sebezhetőségek véghezvitelét és az SELinux házirendek megkerülését.
 
@@ -30,19 +30,19 @@ Az AFWall+ a [csomagszűrő](https://en.wikipedia.org/wiki/Firewall_(computing)#
 
 Nem hisszük, hogy egy telefon rootolásával járó biztonsági áldozatok megérik az alkalmazások megkérdőjelezhető adatvédelmi előnyeit.
 
-### Install Updates
+### Telepíts frissítéseket
 
-Fontos, hogy ne használj egy [lejárt élettartamú](https://endoflife.date/android) Android verziót. Az Android újabb verziói nemcsak biztonsági frissítéseket kapnak az operációs rendszerhez, hanem fontos adatvédelmi fejlesztéseket is.
+Fontos, hogy ne használj egy [lejárt életciklusú](https://endoflife.date/android) Android verziót. Az Android újabb verziói nemcsak biztonsági frissítéseket kapnak az operációs rendszerhez, hanem fontos adatvédelmi fejlesztéseket is.
 
 For example, [prior to Android 10](https://developer.android.com/about/versions/10/privacy/changes) any apps with the [`READ_PHONE_STATE`](https://developer.android.com/reference/android/Manifest.permission#READ_PHONE_STATE) permission could access sensitive and unique serial numbers of your phone such as [IMEI](https://en.wikipedia.org/wiki/International_Mobile_Equipment_Identity), [MEID](https://en.wikipedia.org/wiki/Mobile_equipment_identifier), or your SIM card's [IMSI](https://en.wikipedia.org/wiki/International_mobile_subscriber_identity); whereas now they must be system apps to do so. A rendszeralkalmazásokat csak az OEM vagy az Android disztribúció biztosítja.
 
-### Sharing Media
+### Média megosztás
 
 You can avoid giving many apps permission to access your media with Android's built-in sharing features. Many applications allow you to "share" a file with them for media upload.
 
 For example, if you want to post a picture to Discord you can open your file manager or gallery and share that picture with the Discord app, instead of granting Discord full access to your media and photos.
 
-## Security Protections
+## Biztonsági védelem
 
 ### Verified Boot
 
@@ -62,11 +62,11 @@ A firmware-frissítések kritikus fontosságúak a biztonság fenntartása szemp
 
 Mivel a telefon összetevői, például a processzor és a rádiótechnológiák zárt forráskódú komponensekre épülnek, a frissítéseket az adott gyártóknak kell biztosítaniuk. Ezért fontos, hogy olyan készüléket vásárolj ami rendelkezik aktív támogatási ciklussal. A [Qualcomm](https://www.qualcomm.com/news/releases/2020/12/16/qualcomm-and-google-announce-collaboration-extend-android-os-support-and) és a [Samsung](https://news.samsung.com/us/samsung-galaxy-security-extending-updates-knox/) 4 évig támogatja készülékeit, míg az olcsóbb termékek gyakran rövidebb támogatási ciklusokkal rendelkeznek. A [Pixel 6](https://support.google.com/pixelphone/answer/4457705) bemutatásával a Google mostantól saját SoC-t készít, és legalább 5 év támogatást biztosít.
 
-Az SoC gyártó által már nem támogatott, lejárt élettartalmú eszközök nem kaphatnak firmware-frissítéseket OEM-gyártóktól vagy utángyártó Android-forgalmazóktól. Ez azt jelenti, hogy ezekkel az eszközökkel kapcsolatos biztonsági problémák javítatlanok maradnak.
+Az SoC gyártó által már nem támogatott, lejárt életciklusú eszközök nem kaphatnak firmware-frissítéseket OEM-gyártóktól vagy utángyártó Android-forgalmazóktól. Ez azt jelenti, hogy ezekkel az eszközökkel kapcsolatos biztonsági problémák javítatlanok maradnak.
 
 A Fairphone például úgy forgalmazza készülékeit, hogy azok 6 évig kapnak támogatást. Az SoC (Qualcomm Snapdragon 750G a Fairphone 4-ben) azonban jóval rövidebb lejárati dátummal rendelkezik. Ez azt jelenti, hogy a Qualcomm által a Fairphone 4 számára biztosított firmware biztonsági frissítések 2023 szeptemberében véget érnek, függetlenül attól, hogy a Fairphone továbbra is kiad-e szoftveres biztonsági frissítéseket.
 
-### Android Engedélyek
+### Android engedélyek
 
 [Engedélyek az Androidon](https://developer.android.com/guide/topics/permissions/overview) lehetővé teszik, hogy te szabályozd, az alkalmazások mihez férhetnek hozzá. A Google minden egyes verzióban rendszeresen ad ki javít [javításokat](https://developer.android.com/about/versions/11/privacy/permissions) az engedély rendszerhez. Minden telepített alkalmazás szigorúan [sandboxolva](https://source.android.com/security/app-sandbox) van, ezért nincs szükség vírusirtó alkalmazások telepítésére.
 
@@ -107,7 +107,7 @@ Az [Exodus](https://exodus-privacy.eu.org/) hasznos lehet hasonló célú alkalm
 
     Az olyan magánélet-barát alkalmazások, mint a [Bitwarden](https://reports.exodus-privacy.eu.org/en/reports/com.x8bit.bitwarden/latest/), megjeleníthetnek néhány nyomkövetőt, mint például a [Google Firebase Analytics](https://reports.exodus-privacy.eu.org/en/trackers/49/). Ez a könyvtár tartalmazza a [Firebase Cloud Messaging](https://en.wikipedia.org/wiki/Firebase_Cloud_Messaging)-et, amely [push értesítéseket](https://en.wikipedia.org/wiki/Push_technology) tud nyújtani az alkalmazásoknak. Ez [a helyzet](https://fosstodon.org/@bitwarden/109636825700482007) a Bitwardennel is. Ez nem jelenti azt, hogy a Bitwarden a Google Firebase Analytics által biztosított összes elemzési funkciót használja.
 
-## Privacy Features
+## Adatvédelmi funkciók
 
 ### Felhasználói Profilok
 
