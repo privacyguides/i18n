@@ -7,7 +7,7 @@ cover: dns.png
 
 Titkosított DNS-t harmadik féltől származó szerverekkel csak alapvető [DNS-blokkolás](https://en.wikipedia.org/wiki/DNS_blocking) megkerülésére kellene használni, ha biztos vagy benne, hogy annak nem lesz semmilyen következménye. A titkosított DNS nem fog segíteni elrejteni a böngészési tevékenységedet.
 
-[További információ a DNS-ről :material-arrow-right-drop-circle:](advanced/dns-overview.md ""){.md-button}
+[További Információk a DNS-ről :material-arrow-right-drop-circle:](advanced/dns-overview.md ""){.md-button}
 
 ## Ajánlott Szolgáltatók
 

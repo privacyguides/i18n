@@ -32,11 +32,11 @@ Az anonimitás az a képesség, hogy állandó azonosító nélkül tevékenyked
 
 A **Pszeudonimitás** hasonló elképzelés, de lehetővé teszi, hogy állandó azonosítóval rendelkezz anélkül, hogy az a valódi személyazonosságodhoz kötődne. Ha mindenki `@GamerGuy12` néven ismer téged online, de senki sem tudja az igazi nevedet, akkor ez az álneved.
 
-Mindezek a fogalmak átfedik egymást, de ezek bármilyen kombinációja lehetséges. A legtöbb ember számára az a legtökéletesebb, amikor mindhárom fogalom átfedésben van. Ezt azonban nehezebb elérni, mint azt sokan kezdetben gondolnák. Néha áldozatot kell hoznod ezek közül néhányon, és teljesen rendben van. This is where **threat modeling** comes into play, allowing you to make informed decisions about the [software and services](../tools.md) you use.
+Mindezek a fogalmak átfedik egymást, de ezek bármilyen kombinációja lehetséges. A legtöbb ember számára az a legtökéletesebb, amikor mindhárom fogalom átfedésben van. Ezt azonban nehezebb elérni, mint azt sokan kezdetben gondolnák. Néha áldozatot kell hoznod ezek közül néhányon, és teljesen rendben van. Ez az a pont, ahol a **védelmi modellezés** képbe kerül, lehetővé téve, hogy tájékozott döntéseket hozz az általad használt [szoftverekről és szolgáltatásokról](../tools.md).
 
-[:material-book-outline: Learn More About Threat Modeling](threat-modeling.md ""){.md-button}
+[:material-book-outline: További Információk a Védelmi Modellekről](threat-modeling.md ""){.md-button}
 
-## Privacy vs. Secrecy
+## Adatvédelem vs. Titoktartás
 
 A common counter-argument to pro-privacy movements is the notion that one doesn't need privacy if they have **"nothing to hide."** This is a dangerous misconception, because it creates a sense that people who demand privacy must be deviant, criminal, or wrong.
 
