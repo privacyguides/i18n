@@ -342,18 +342,18 @@ These are some other [filter lists](https://github.com/gorhill/uBlock/wiki/Dashb
 
 **Please note we are not affiliated with any of the projects we recommend.** In addition to [our standard criteria](about/criteria.md), we have developed a clear set of requirements to allow us to provide objective recommendations. We suggest you familiarize yourself with this list before choosing to use a project, and conduct your own research to ensure it's the right choice for you.
 
-!!! example "This section is new"
+!!! example "この項目は最近作成されました"
 
     We are working on establishing defined criteria for every section of our site, and this may be subject to change. If you have any questions about our criteria, please [ask on our forum](https://discuss.privacyguides.net/latest) and don't assume we didn't consider something when making our recommendations if it is not listed here. There are many factors considered and discussed when we recommend a project, and documenting every single one is a work-in-progress.
 
 ### 最低要件
 
 - オープンソース ソフトウェアである必要があります。
-- Supports automatic updates.
+- 自動更新に対応している。
 - Receives engine updates in 0-1 days from upstream release.
-- Available on Linux, macOS, and Windows.
+- Linux、macOS、Windowsで利用できる。
 - Any changes required to make the browser more privacy-respecting should not negatively impact user experience.
-- Blocks third-party cookies by default.
+- デフォルトでサードパーティCookieをブロックしている。
 - Supports [state partitioning](https://developer.mozilla.org/en-US/docs/Web/Privacy/State_Partitioning) to mitigate cross-site tracking.[^1]
 
 ### 最良の場合

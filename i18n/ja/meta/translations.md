@@ -23,7 +23,7 @@ When admonitions are used they will have an English string on the site by defaul
 === "English source text"
 
     ```text
-    !!! warning
+    !!! 警告
     ```
 
 Downloads are a [custom admonition](https://squidfunk.github.io/mkdocs-material/reference/admonitions/#custom-admonitions) which is written as follows:

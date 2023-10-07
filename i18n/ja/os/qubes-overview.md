@@ -28,7 +28,7 @@ Qubes OS is useful if your [threat model](../basics/threat-modeling.md) requires
 
 Qubes OS utilizes [dom0](https://wiki.xenproject.org/wiki/Dom0) Xen VM for controlling other *qubes* on the host OS, all of which display individual application windows within dom0's desktop environment. There are many uses for this type of architecture. Here are some tasks you can perform. You can see just how much more secure these processes are made by incorporating multiple steps.
 
-### Copying and Pasting Text
+### テキストのコピー＆ペースト
 
 You can [copy and paste text](https://www.qubes-os.org/doc/how-to-copy-and-paste-text/) using `qvm-copy-to-vm` or the below instructions:
 

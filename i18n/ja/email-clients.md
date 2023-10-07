@@ -220,7 +220,7 @@ Canary Mailのソースコードは公開されていません。 We recommend i
 
 **私たちは、推薦するどのプロジェクトとも提携していません。**客観的に推薦できるよう、[私たちの一般的な基準](about/criteria.md)に加えて、明確な要件を定めています。 プロジェクトを利用する前に、このリストをよく理解し、ご自身で調査を行って、そのプロジェクトがあなたにとって適切な選択であることをご確認ください。
 
-!!! example "This section is new"
+!!! example "この項目は最近作成されました"
 
     We are working on establishing defined criteria for every section of our site, and this may be subject to change. If you have any questions about our criteria, please [ask on our forum](https://discuss.privacyguides.net/latest) and don't assume we didn't consider something when making our recommendations if it is not listed here. There are many factors considered and discussed when we recommend a project, and documenting every single one is a work-in-progress.
 
