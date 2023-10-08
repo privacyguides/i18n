@@ -1,25 +1,25 @@
 ---
-meta_title: "Pourquoi l'email n'est pas le meilleur choix en matière de protection de la vie privée et de sécurité - Privacy Guides"
-title: Sécurité des emails
+meta_title: "Pourquoi l'e-mail n'est pas le meilleur choix en matière de protection de la vie privée et de sécurité - Privacy Guides"
+title: Sécurité des e-mails
 icon: material/email
-description: L'email est intrinsèquement peu sûr à bien des égards, et voici quelques-unes des raisons pour lesquelles il n'est pas notre premier choix en matière de communications sécurisées.
+description: L'e-mail est intrinsèquement peu sûr à bien des égards, et voici quelques-unes des raisons pour lesquelles il n'est pas notre premier choix en matière de communications sécurisées.
 ---
 
-L'email est une forme de communication non sécurisée par défaut. Vous pouvez améliorer la sécurité de vos emails avec des outils tels que OpenPGP, qui ajoute un chiffrement de bout en bout à vos messages, mais OpenPGP présente toujours un certain nombre d'inconvénients par rapport au chiffrement dans d'autres applications de messagerie, et certaines données d'email ne peuvent jamais être chiffrées de manière inhérente en raison de la manière dont l'email est conçu.
+L'e-mail est une forme de communication non sécurisée par défaut. Vous pouvez améliorer la sécurité de vos e-mails avec des outils tels que OpenPGP, qui ajoute un chiffrement de bout en bout à vos messages, mais OpenPGP présente toujours un certain nombre d'inconvénients par rapport au chiffrement dans d'autres applications de messagerie, et certaines données d'e-mail ne peuvent jamais être chiffrées de manière inhérente en raison de la manière dont l'e-mail est conçu.
 
-Par conséquent, il est préférable d'utiliser l'email pour recevoir des emails transactionnels (notifications, emails de vérification, réinitialisation de mot de passe, etc.) provenant des services auxquels vous vous inscrivez en ligne, et non pour communiquer avec d'autres personnes.
+Par conséquent, il est préférable d'utiliser l'e-mail pour recevoir des e-mails transactionnels (notifications, e-mails de vérification, réinitialisation de mot de passe, etc.) provenant des services auxquels vous vous inscrivez en ligne, et non pour communiquer avec d'autres personnes.
 
 ## Aperçu du chiffrement des e-mails
 
-La méthode standard pour ajouter du E2EE aux emails entre différents fournisseurs mails est d'utiliser OpenPGP. Il existe différentes implémentations de la norme OpenPGP, les plus courantes étant [GnuPG](https://en.wikipedia.org/wiki/GNU_Privacy_Guard) et [OpenPGP.js](https://openpgpjs.org).
+La méthode standard pour ajouter du E2EE aux e-mails entre différents fournisseurs d'e-mails est d'utiliser OpenPGP. Il existe différentes implémentations de la norme OpenPGP, les plus courantes étant [GnuPG](https://en.wikipedia.org/wiki/GNU_Privacy_Guard) et [OpenPGP.js](https://openpgpjs.org).
 
 Il existe une autre norme populaire auprès des entreprises, appelée [S/MIME](https://en.wikipedia.org/wiki/S/MIME), mais elle nécessite un certificat émis par une [Autorité de Certification](https://en.wikipedia.org/wiki/Certificate_authority) (toutes ne délivrent pas de certificats S/MIME). Elle est prise en charge par [Google Workplace](https://support.google.com/a/topic/9061730?hl=en&ref_topic=9061731) et [Outlook sur le Web ou Exchange Server 2016, 2019](https://support.office.com/en-us/article/encrypt-messages-by-using-s-mime-in-outlook-on-the-web-878c79fc-7088-4b39-966f-14512658f480).
 
-Même si vous utilisez OpenPGP, il ne prend pas en charge la [confidentialité persistante](https://en.wikipedia.org/wiki/Forward_secrecy), ce qui signifie que si votre clé privée ou celle du destinataire est volée, tous les messages précédents chiffrés avec cette clé seront exposés. C'est pourquoi nous recommandons, dans la mesure du possible, les [messageries instantanées](../real-time-communication.md) qui mettent en œuvre la confidentialité persistante par rapport aux emails pour les communications de personne à personne.
+Même si vous utilisez OpenPGP, il ne prend pas en charge la [confidentialité persistante](https://en.wikipedia.org/wiki/Forward_secrecy), ce qui signifie que si votre clé privée ou celle du destinataire est volée, tous les messages précédents chiffrés avec cette clé seront exposés. C'est pourquoi nous recommandons, dans la mesure du possible, les [messageries instantanées](../real-time-communication.md) qui mettent en œuvre la confidentialité persistante par rapport aux e-mails pour les communications de personne à personne.
 
 ## Qu'est-ce que la norme Web Key Directory ?
 
-La norme Web Key Directory (WKD) permet aux clients de messagerie mail de découvrir la clé OpenPGP d'autres boîtes mails, même celles qui sont hébergées chez un autre fournisseur. Email clients which support WKD will ask the recipient's server for a key based on the email address' domain name. For example, if you emailed `jonah@privacyguides.org`, your email client would ask `privacyguides.org` for Jonah's OpenPGP key, and if `privacyguides.org` has a key for that account, your message would be automatically encrypted.
+La norme Web Key Directory (WKD) permet aux clients d'e-mail de découvrir la clé OpenPGP d'autres boîtes mails, même celles qui sont hébergées chez un autre fournisseur. Les clients d'e-mail qui prennent en charge le WKD demandent au serveur du destinataire une clé basée sur le nom de domaine de l'adresse e-mail. Par exemple, si vous envoyez un e-mail à `jonah@privacyguides.org`, votre client d'e-mail demandera à `privacyguides.org` la clé OpenPGP de Jonah, et si `privacyguides.org` dispose d'une clé pour ce compte, votre message sera automatiquement chiffré.
 
 In addition to the [email clients we recommend](../email-clients.md) which support WKD, some webmail providers also support WKD. Whether *your own* key is published to WKD for others to use depends on your domain configuration. If you use an [email provider](../email.md#openpgp-compatible-services) which supports WKD, such as Proton Mail or Mailbox.org, they can publish your OpenPGP key on their domain for you.
 
