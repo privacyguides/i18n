@@ -427,11 +427,12 @@ Recomendamos armazenar uma chave de recuperação local em um local seguro, em v
 
 <div class="grid cards" markdown>
 
-- ![Logótipo Aurora Store](assets/img/android/aurora-store.webp){ .twemoji } [Aurora Store (Google Play Client)](android.md#aurora-store)
-- ![Logótipo Shelter](assets/img/android/mini/shelter.svg){ .twemoji } [Shelter (Work Profiles)](android.md#shelter)
-- ![Logótipo Auditor](assets/img/android/auditor.svg#only-light){ .twemoji }![Logotipo do GrapheneOS](assets/img/android/auditor-dark.svg#only-dark){ .twemoji } [Auditor (Dispositivos Suportados)](android.md#auditor)
-- !Logótipo [Câmara segura](assets/img/android/secure_camera.svg#only-light){ .twemoji }![Logótipo da Câmara segura](assets/img/android/secure_camera-dark.svg#only-dark){ .twemoji } [Câmara segura](android.md#secure-camera)
-- !Logótipo [Visualizador de PDF seguro](assets/img/android/secure_pdf_viewer.svg#only-light){ .twemoji }![Logótipo GrapheneOS](assets/img/android/secure_pdf_viewer-dark.svg#only-dark){ .twemoji } [Visualizador de PDF seguro](android.md#secure-pdf-viewer)
+- ![Obtainium logo](assets/img/android/obtainium.svg){ .twemoji } [Obtainium (App Manager)](android.md#obtainium)
+- ![Aurora Store logo](assets/img/android/aurora-store.webp){ .twemoji } [Aurora Store (Google Play Client)](android.md#aurora-store)
+- ![Shelter logo](assets/img/android/mini/shelter.svg){ .twemoji } [Shelter (Work Profiles)](android.md#shelter)
+- ![Auditor logo](assets/img/android/auditor.svg#only-light){ .twemoji }![GrapheneOS logo](assets/img/android/auditor-dark.svg#only-dark){ .twemoji } [Auditor (Supported Devices)](android.md#auditor)
+- ![Secure Camera logo](assets/img/android/secure_camera.svg#only-light){ .twemoji }![Secure Camera logo](assets/img/android/secure_camera-dark.svg#only-dark){ .twemoji } [Secure Camera](android.md#secure-camera)
+- ![Secure PDF Viewer logo](assets/img/android/secure_pdf_viewer.svg#only-light){ .twemoji }![GrapheneOS logo](assets/img/android/secure_pdf_viewer-dark.svg#only-dark){ .twemoji } [Secure PDF Viewer](android.md#secure-pdf-viewer)
 
 </div>
 

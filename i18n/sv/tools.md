@@ -427,6 +427,7 @@ Vi [rekommenderar](dns.md#recommended-providers) ett antal krypterade DNS-servra
 
 <div class="grid cards" markdown>
 
+- ![Obtainium logo](assets/img/android/obtainium.svg){ .twemoji } [Obtainium (App Manager)](android.md#obtainium)
 - ![Aurora Store logo](assets/img/android/aurora-store.webp){ .twemoji } [Aurora Store (Google Play Client)](android.md#aurora-store)
 - ![Shelter logo](assets/img/android/mini/shelter.svg){ .twemoji } [Shelter (Work Profiles)](android.md#shelter)
 - ![Auditor logo](assets/img/android/auditor.svg#only-light){ .twemoji }![GrapheneOS logo](assets/img/android/auditor-dark.svg#only-dark){ .twemoji } [Auditor (Supported Devices)](android.md#auditor)

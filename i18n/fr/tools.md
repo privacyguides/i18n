@@ -427,11 +427,12 @@ Nous [recommandons](dns.md#recommended-providers) un certain nombre de serveurs 
 
 <div class="grid cards" markdown>
 
-- ![Logo Aurora Store](/assets/img/android/aurora-store.webp){ .twemoji } [Aurora Store (client Google Play)](android.md#aurora-store)
-- ![Logo Shelter](assets/img/android/mini/shelter.svg){ .twemoji } [Shelter (Profils de travail)](android.md#shelter)
-- ![Logo Auditor](assets/img/android/auditor.svg#only-light){ .twemoji }![Logo GrapheneOS](assets/img/android/auditor-dark.svg#only-dark){ .twemoji } [Auditor (Appareils pris en charge)](android.md#auditor)
-- ![Logo Secure Camera](assets/img/android/secure_camera.svg#only-light){ .twemoji }![Logo Secure Camera](assets/img/android/secure_camera-dark.svg#only-dark){ .twemoji } [Secure Camera](android.md#secure-camera)
-- ![Logo Secure PDF Viewer](assets/img/android/secure_pdf_viewer.svg#only-light){ .twemoji }![Logo Secure PDF Viewer](assets/img/android/secure_pdf_viewer-dark.svg#only-dark){ .twemoji } [Secure PDF Viewer](android.md#secure-pdf-viewer)
+- ![Obtainium logo](assets/img/android/obtainium.svg){ .twemoji } [Obtainium (App Manager)](android.md#obtainium)
+- ![Aurora Store logo](assets/img/android/aurora-store.webp){ .twemoji } [Aurora Store (Google Play Client)](android.md#aurora-store)
+- ![Shelter logo](assets/img/android/mini/shelter.svg){ .twemoji } [Shelter (Work Profiles)](android.md#shelter)
+- ![Auditor logo](assets/img/android/auditor.svg#only-light){ .twemoji }![GrapheneOS logo](assets/img/android/auditor-dark.svg#only-dark){ .twemoji } [Auditor (Supported Devices)](android.md#auditor)
+- ![Secure Camera logo](assets/img/android/secure_camera.svg#only-light){ .twemoji }![Secure Camera logo](assets/img/android/secure_camera-dark.svg#only-dark){ .twemoji } [Secure Camera](android.md#secure-camera)
+- ![Secure PDF Viewer logo](assets/img/android/secure_pdf_viewer.svg#only-light){ .twemoji }![GrapheneOS logo](assets/img/android/secure_pdf_viewer-dark.svg#only-dark){ .twemoji } [Secure PDF Viewer](android.md#secure-pdf-viewer)
 
 </div>
 

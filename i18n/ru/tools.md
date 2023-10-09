@@ -427,11 +427,12 @@ description: Privacy Guides - это самый прозрачный и наде
 
 <div class="grid cards" markdown>
 
-- ![Логотип Aurora Store](assets/img/android/aurora-store.webp){ .twemoji } [Aurora Store (Клиент Google Play)](android.md#aurora-store)
-- ![Логотип Shelter](assets/img/android/mini/shelter.svg){ .twemoji } [Shelter (Рабочие профили)](android.md#shelter)
-- ![Логотип Auditor](assets/img/android/auditor.svg#only-light){ .twemoji }![Логотип GrapheneOS](assets/img/android/auditor-dark.svg#only-dark){ .twemoji } [Auditor (Только поддерживаемые девайсы)](android.md#auditor)
-- ![Логотип Secure Camera](assets/img/android/secure_camera.svg#only-light){ .twemoji }![Логотип Secure Camera](assets/img/android/secure_camera-dark.svg#only-dark){ .twemoji } [Secure Camera](android.md#secure-camera)
-- ![Логотип Secure PDF Viewer](assets/img/android/secure_pdf_viewer.svg#only-light){ .twemoji }![Логотип GrapheneOS](assets/img/android/secure_pdf_viewer-dark.svg#only-dark){ .twemoji } [Secure PDF Viewer](android.md#secure-pdf-viewer)
+- ![Obtainium logo](assets/img/android/obtainium.svg){ .twemoji } [Obtainium (App Manager)](android.md#obtainium)
+- ![Aurora Store logo](assets/img/android/aurora-store.webp){ .twemoji } [Aurora Store (Google Play Client)](android.md#aurora-store)
+- ![Shelter logo](assets/img/android/mini/shelter.svg){ .twemoji } [Shelter (Work Profiles)](android.md#shelter)
+- ![Auditor logo](assets/img/android/auditor.svg#only-light){ .twemoji }![GrapheneOS logo](assets/img/android/auditor-dark.svg#only-dark){ .twemoji } [Auditor (Supported Devices)](android.md#auditor)
+- ![Secure Camera logo](assets/img/android/secure_camera.svg#only-light){ .twemoji }![Secure Camera logo](assets/img/android/secure_camera-dark.svg#only-dark){ .twemoji } [Secure Camera](android.md#secure-camera)
+- ![Secure PDF Viewer logo](assets/img/android/secure_pdf_viewer.svg#only-light){ .twemoji }![GrapheneOS logo](assets/img/android/secure_pdf_viewer-dark.svg#only-dark){ .twemoji } [Secure PDF Viewer](android.md#secure-pdf-viewer)
 
 </div>
 

@@ -310,6 +310,27 @@ As principais características de privacidade incluem:
 
 ## Obter Aplicações
 
+### Obtainium
+
+!!! nota
+    Consulte o [Tabela de Hardware](https://openwrt.org/toh/start) para verificar se o seu dispositivo é suportado.
+
+    ![Obtainium logo](assets/img/android/obtainium.svg){ align=right }
+    
+    **Obtainium** is an app manager which allows you to install and update apps directly from the developer's own releases page (i.e. GitHub, GitLab, the developer's website, etc.), rather than a centralized app store/repository. It supports automatic background updates on Android 12 and higher.
+    
+    [:octicons-repo-16: Repository](https://github.com/ImranR98/Obtainium#readme){ .md-button .md-button--primary }
+    [:octicons-code-16:](https://github.com/ImranR98/Obtainium){ .card-link title="Source Code" }
+    [:octicons-heart-16:](https://github.com/sponsors/ImranR98){ .card-link title=Contribute }
+    
+    ??? downloads
+    
+        - [:simple-github: GitHub](https://github.com/ImranR98/Obtainium/releases)
+
+Obtainium allows you to download APK installer files from a wide variety of sources, and it is up to you to ensure those sources and apps are legitimate. For example, using Obtainium to install Signal from [Signal's APK landing page](https://signal.org/android/apk/) should be fine, but installing from third-party APK repositories like Aptoide or APKPure may pose additional risks.
+
+Obtainium can also be used to download apps from F-Droid repositories, and may serve as a useful alternative to the official F-Droid clients. However, we generally recommend against apps built by F-Droid or from unofficial F-Droid repositories: Read [our notes on F-Droid](#f-droid) below for more information.
+
 ### Loja de Aplicações GrapheneOS
 
 A loja de aplicações GrapheneOS está disponível no [GitHub](https://github.com/GrapheneOS/Apps/releases). Suporta o Android 12 e superior, e é capaz de se atualizar. A loja de aplicações tem aplicações autónomas criadas pelo projeto GrapheneOS, tais como [Auditor](https://attestation.app/), [Camera](https://github.com/GrapheneOS/Camera), e [PDF Viewer](https://github.com/GrapheneOS/PdfViewer). Se estiver à procura destas aplicações, recomendamos vivamente que as obtenha na loja de aplicações GrapheneOS em vez de na Play Store, uma vez que as aplicações na sua loja são assinadas pela própria assinatura do projeto GrapheneOS, à qual a Google não tem acesso.

@@ -427,9 +427,10 @@ Számos követelmény alapján [ajánlunk](dns.md#recommended-providers) több t
 
 <div class="grid cards" markdown>
 
-- ![Aurora Store logo](assets/img/android/aurora-store.webp){ .twemoji } [Aurora Store (Google Play Kliens)](android.md#aurora-store)
-- ![Shelter logo](assets/img/android/mini/shelter.svg){ .twemoji } [Shelter (Munka Profilok)](android.md#shelter)
-- ![Auditor logo](assets/img/android/auditor.svg#only-light){ .twemoji }![GrapheneOS logo](assets/img/android/auditor-dark.svg#only-dark){ .twemoji } [Auditor (Támogatott Eszközök)](android.md#auditor)
+- ![Obtainium logo](assets/img/android/obtainium.svg){ .twemoji } [Obtainium (App Manager)](android.md#obtainium)
+- ![Aurora Store logo](assets/img/android/aurora-store.webp){ .twemoji } [Aurora Store (Google Play Client)](android.md#aurora-store)
+- ![Shelter logo](assets/img/android/mini/shelter.svg){ .twemoji } [Shelter (Work Profiles)](android.md#shelter)
+- ![Auditor logo](assets/img/android/auditor.svg#only-light){ .twemoji }![GrapheneOS logo](assets/img/android/auditor-dark.svg#only-dark){ .twemoji } [Auditor (Supported Devices)](android.md#auditor)
 - ![Secure Camera logo](assets/img/android/secure_camera.svg#only-light){ .twemoji }![Secure Camera logo](assets/img/android/secure_camera-dark.svg#only-dark){ .twemoji } [Secure Camera](android.md#secure-camera)
 - ![Secure PDF Viewer logo](assets/img/android/secure_pdf_viewer.svg#only-light){ .twemoji }![GrapheneOS logo](assets/img/android/secure_pdf_viewer-dark.svg#only-dark){ .twemoji } [Secure PDF Viewer](android.md#secure-pdf-viewer)
 

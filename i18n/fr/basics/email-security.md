@@ -21,29 +21,29 @@ Même si vous utilisez OpenPGP, il ne prend pas en charge la [confidentialité p
 
 La norme Web Key Directory (WKD) permet aux clients d'e-mail de découvrir la clé OpenPGP d'autres boîtes mails, même celles qui sont hébergées chez un autre fournisseur. Les clients d'e-mail qui prennent en charge le WKD demandent au serveur du destinataire une clé basée sur le nom de domaine de l'adresse e-mail. Par exemple, si vous envoyez un e-mail à `jonah@privacyguides.org`, votre client d'e-mail demandera à `privacyguides.org` la clé OpenPGP de Jonah, et si `privacyguides.org` dispose d'une clé pour ce compte, votre message sera automatiquement chiffré.
 
-Outre les [clients d'e-mail que nous recommandons](../email-clients.md) et qui prennent en charge le WKD, certains fournisseurs d'e-mails avec interface web prennent également en charge le WKD. Whether *your own* key is published to WKD for others to use depends on your domain configuration. If you use an [email provider](../email.md#openpgp-compatible-services) which supports WKD, such as Proton Mail or Mailbox.org, they can publish your OpenPGP key on their domain for you.
+Outre les [clients d'e-mail que nous recommandons](../email-clients.md) et qui prennent en charge le WKD, certains fournisseurs d'e-mail avec interface web prennent également en charge le WKD. Le fait que *votre propre clé* soit publiée sur le WKD pour que d'autres puissent l'utiliser dépend de la configuration de votre domaine. Si vous utilisez un [fournisseur d'e-mail](../email.md#openpgp-compatible-services) qui prend en charge le WKD, tel que Proton Mail ou Mailbox.org, il peut publier votre clé OpenPGP sur son domaine pour vous.
 
-If you use your own custom domain, you will need to configure WKD separately. If you control your domain name, you can set up WKD regardless of your email provider. One easy way to do this is to use the "[WKD as a Service](https://keys.openpgp.org/about/usage#wkd-as-a-service)" feature from keys.openpgp.org, by setting a CNAME record on the `openpgpkey` subdomain of your domain pointed to `wkd.keys.openpgp.org`, then uploading your key to [keys.openpgp.org](https://keys.openpgp.org/). Alternatively, you can [self-host WKD on your own web server](https://wiki.gnupg.org/WKDHosting).
+Si vous utilisez votre propre domaine personnalisé, vous devrez configurer le WKD séparément. Si vous contrôlez votre nom de domaine, vous pouvez configurer le WKD quel que soit votre fournisseur d'e-mail. Une façon simple de le faire est d'utiliser la fonction "[WKD en tant que Service](https://keys.openpgp.org/about/usage#wkd-as-a-service)" de keys.openpgp.org, en définissant un enregistrement CNAME sur le sous-domaine `openpgpkey` de votre domaine pointé vers `wkd.keys.openpgp.org`, puis en envoyant votre clé sur [keys.openpgp.org](https://keys.openpgp.org/). Vous pouvez également [héberger vous-même le WKD sur votre propre serveur web](https://wiki.gnupg.org/WKDHosting).
 
-If you use a shared domain from a provider which doesn't support WKD, like @gmail.com, you won't be able to share your OpenPGP key with others via this method.
+Si vous utilisez un domaine partagé d'un fournisseur qui ne prend pas en charge le WKD, comme @gmail.com, vous ne pourrez pas partager votre clé OpenPGP avec d'autres personnes via cette méthode.
 
-### Quels clients mails supportent le E2EE ?
+### Quels clients d'e-mail supportent le E2EE ?
 
-Les fournisseurs d'emails qui vous permettent d'utiliser les protocoles d'accès standard comme IMAP et SMTP peuvent être utilisés avec n'importe lequel des [clients mail que nous recommandons](../email-clients.md). En fonction de la méthode d'authentification, cela peut entraîner une diminution de la sécurité si le fournisseur ou le client mail ne prend pas en charge OATH ou une application passerelle, car [l'authentification multi-facteurs](/basics/multi-factor-authentication/) n'est pas possible avec l'authentification par mot de passe simple.
+Les fournisseurs d'e-mail qui vous permettent d'utiliser les protocoles d'accès standard comme IMAP et SMTP peuvent être utilisés avec n'importe lequel des [clients d'e-mail que nous recommandons](../email-clients.md). En fonction de la méthode d'authentification, cela peut entraîner une diminution de la sécurité si le fournisseur ou le client d'e-mail ne prend pas en charge OATH ou une application passerelle, car [l'authentification multi-facteurs](/basics/multi-factor-authentication/) n'est pas possible avec l'authentification par mot de passe simple.
 
-### Comment Puis-Je Protéger Mes Clés Privées?
+### Comment puis-je protéger mes clés privées ?
 
 Une carte à puce (telle qu'une [YubiKey](https://support.yubico.com/hc/en-us/articles/360013790259-Using-Your-YubiKey-with-OpenPGP) ou [Nitrokey](https://www.nitrokey.com)) fonctionne en recevant un email chiffré d'un appareil (téléphone, tablette, ordinateur, etc.) exécutant un client mail/webmail. Le message est ensuite déchiffré par la carte à puce et le contenu déchiffré est renvoyé à l'appareil.
 
-It is advantageous for the decryption to occur on the smartcard to avoid possibly exposing your private key to a compromised device.
+Il est préférable que le déchiffrement ait lieu sur la carte à puce afin d'éviter d'exposer votre clé privée à un dispositif compromis.
 
-## Aperçu des Métadonnées des Emails
+## Aperçu des métadonnées des e-mails
 
-Les métadonnées des emails sont stockées dans [l'en-tête de message](https://en.wikipedia.org/wiki/Email#Message_header) de l'email et comprennent certains en-têtes visibles que vous avez peut-être vus, tels que : `À`, `De`, `Cc`, `Date`, `Sujet`. Il existe également un certain nombre d'en-têtes cachés inclus par de nombreux clients et fournisseurs de messagerie qui peuvent révéler des informations sur votre compte.
+Les métadonnées des e-mails sont stockées dans [l'en-tête de message](https://en.wikipedia.org/wiki/Email#Message_header) de l'e-mail et comprennent certains en-têtes visibles que vous avez peut-être vus, tels que : `À`, `De`, `Cc`, `Date`, `Sujet`. Il existe également un certain nombre d'en-têtes cachés inclus par de nombreux clients et fournisseurs d'e-mail qui peuvent révéler des informations sur votre compte.
 
-Le logiciel client peut utiliser les métadonnées de l'email pour montrer de qui provient un message et à quelle heure il a été reçu. Les serveurs peuvent l'utiliser pour déterminer où un email doit être envoyé, parmi [d'autres objectifs](https://en.wikipedia.org/wiki/Email#Message_header) qui ne sont pas toujours transparents.
+Le logiciel client peut utiliser les métadonnées de l'e-mail pour montrer de qui provient un message et à quelle heure il a été reçu. Les serveurs peuvent l'utiliser pour déterminer où un e-mail doit être envoyé, parmi [d'autres objectifs](https://en.wikipedia.org/wiki/Email#Message_header) qui ne sont pas toujours transparents.
 
-### Qui Peut Voir Les Métadonnées Des Emails?
+### Qui peut voir les métadonnées des e-mails ?
 
 Les métadonnées des emails sont protégées des observateurs extérieurs par le protocole [TLS Opportuniste](https://en.wikipedia.org/wiki/Opportunistic_TLS). Elles peuvent néanmoins être vues par votre logiciel client mail (ou webmail) et par tout serveur relayant le message de votre part à ses destinataires, y compris votre fournisseur mails. Parfois, les serveurs mails font également appel à des services tiers pour se protéger des spams, qui ont généralement aussi accès à vos messages.
 

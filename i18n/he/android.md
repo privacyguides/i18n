@@ -303,6 +303,26 @@ Auditor מבצע אישור וזיהוי חדירה על ידי:
 
 ## קבלת בקשות
 
+### Obtainium
+
+!!! recommendation
+
+    ![Obtainium logo](assets/img/android/obtainium.svg){ align=right }
+    
+    **Obtainium** is an app manager which allows you to install and update apps directly from the developer's own releases page (i.e. GitHub, GitLab, the developer's website, etc.), rather than a centralized app store/repository. It supports automatic background updates on Android 12 and higher.
+    
+    [:octicons-repo-16: Repository](https://github.com/ImranR98/Obtainium#readme){ .md-button .md-button--primary }
+    [:octicons-code-16:](https://github.com/ImranR98/Obtainium){ .card-link title="Source Code" }
+    [:octicons-heart-16:](https://github.com/sponsors/ImranR98){ .card-link title=Contribute }
+    
+    ??? downloads
+    
+        - [:simple-github: GitHub](https://github.com/ImranR98/Obtainium/releases)
+
+Obtainium allows you to download APK installer files from a wide variety of sources, and it is up to you to ensure those sources and apps are legitimate. For example, using Obtainium to install Signal from [Signal's APK landing page](https://signal.org/android/apk/) should be fine, but installing from third-party APK repositories like Aptoide or APKPure may pose additional risks.
+
+Obtainium can also be used to download apps from F-Droid repositories, and may serve as a useful alternative to the official F-Droid clients. However, we generally recommend against apps built by F-Droid or from unofficial F-Droid repositories: Read [our notes on F-Droid](#f-droid) below for more information.
+
 ### GrapheneOS App Store
 
 חנות האפליקציות של GrapheneOS זמינה ב-[GitHub](https://github.com/GrapheneOS/Apps/releases). הוא תומך באנדרואיד 12 ומעלה ומסוגל לעדכן את עצמו. לחנות האפליקציות יש יישומים עצמאיים שנבנו על ידי פרויקט GrapheneOS כגון [Auditor](https://attestation.app/), [Camera](https://github.com/GrapheneOS/Camera), ו- [PDF Viewer](https://github.com/GrapheneOS/PdfViewer). אם אתם מחפשים אפליקציות אלו, אנו ממליצים בחום להשיג אותן מחנות האפליקציות של GrapheneOS במקום מחנות Play, שכן האפליקציות בחנות שלהן חתומות על ידי חתימת הפרויקט של ה-GrapheneOS שלגוגל אין גישה אליה.
