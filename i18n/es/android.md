@@ -309,19 +309,18 @@ Las principales características de privacidad incluyen:
 
     ![Obtainium logo](assets/img/android/obtainium.svg){ align=right }
     
-    **Obtainium** is an app manager which allows you to install and update apps directly from the developer's own releases page (i.e. GitHub, GitLab, the developer's website, etc.), rather than a centralized app store/repository. It supports automatic background updates on Android 12 and higher.
+    **Obtainium** es un gestor de aplicaciones que te permite instalar y actualizar aplicaciones directamente desde la página de lanzamientos propia del creador (por ejemplo, GitHub, GitLab, la página del desarrollador, etc.), en vez de una tienda de aplicaciones o repositorio centralizados. Este permite las actualizaciones en segundo plano en Android 12 y versiones más recientes.
     
-    [:octicons-repo-16: Repository](https://github.com/ImranR98/Obtainium#readme){ .md-button .md-button--primary }
-    [:octicons-code-16:](https://github.com/ImranR98/Obtainium){ .card-link title="Source Code" }
-    [:octicons-heart-16:](https://github.com/sponsors/ImranR98){ .card-link title=Contribute }
+    [:octicons-repo-16: Repositorio](https://github.com/ImranR98/Obtainium#readme){ .md-button .md-button--primary }
+    [:octicons-code-16:](https://github.com/ImranR98/Obtainium){ .card-link title="Código fuente" }
+    [:octicons-heart-16:](https://github.com/sponsors/ImranR98){ .card-link title=Contribuir }
     
-    ??? downloads
-    
-        - [:simple-github: GitHub](https://github.com/ImranR98/Obtainium/releases)
+    ??? downloads "Descargas"
+        -[:simple-github: GitHub](https://github.com/ImranR98/Obtainium/releases)
 
-Obtainium allows you to download APK installer files from a wide variety of sources, and it is up to you to ensure those sources and apps are legitimate. For example, using Obtainium to install Signal from [Signal's APK landing page](https://signal.org/android/apk/) should be fine, but installing from third-party APK repositories like Aptoide or APKPure may pose additional risks.
+Obtenium te permite descargar archivos instaladores APK desde una gran variedad de fuentes, y depende de ti asegurarte que esas fuentes y aplicaciones son legítimas. Por ejemplo, utilizar Obtainium para instalar Signal desde [la página oficial de Signal](https://signal.org/android/apk/) puede estar bien, pero realizar la instalación desde repositorios de terceros como Aptoide o APKPure puede generar riesgos adicionales.
 
-Obtainium can also be used to download apps from F-Droid repositories, and may serve as a useful alternative to the official F-Droid clients. However, we generally recommend against apps built by F-Droid or from unofficial F-Droid repositories: Read [our notes on F-Droid](#f-droid) below for more information.
+Obtainium también puede ser utilizado para descargar aplicaciones desde repositorios de F-Droid, y puede ser considerado como una alternativa importante a los clientes oficiales de F-Droid. Sin embargo, por lo general recomendamos no utilizar las aplicaciones compiladas por F-Droid o desde repositorios no oficiales de F-Droid: Lee [nuestras notas sobre F-Droid](#f-droid) para obtener más información.
 
 ### Tienda de aplicaciones GrapheneOS
 
@@ -331,7 +330,7 @@ La tienda de aplicaciones de GrapheneOS está disponible en [GitHub](https://git
 
 La tienda de Google Play requiere una cuenta de Google para iniciar sesión, lo que no es ideal para la privacidad. Eso se puede evitar utilizando un cliente alternativo, como Aurora Store.
 
-!!! recommendation
+!!! recommendation "recomendación"
 
     ![Logo Aurora Store](assets/img/android/aurora-store.webp){ align=right }
     

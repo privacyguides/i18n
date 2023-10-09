@@ -21,7 +21,7 @@ Sin embargo, sí ocultan tu IP real de un servicio de terceros, siempre que no h
 
 ## ¿Cuándo no debería usar una VPN?
 
-Using a VPN in cases where you're using your [known identity](common-misconceptions.md#complicated-is-better) is unlikely be useful.
+Utilizar una VPN en casos donde estés usando tu [identidad conocida](common-misconceptions.md#complicated-is-better) es poco probable que sea útil.
 
 Si lo haces, puede activar sistemas de detección de spam y fraude, por ejemplo si te conectas al sitio web de tu banco.
 
