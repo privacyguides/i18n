@@ -201,7 +201,7 @@ Nous recommandons une grande variété d'applications Android sur ce site. Les a
 
     ![Logo Shelter](assets/img/android/shelter.svg){ align=right }
     
-    **Shelter** est une application qui vous aide à tirer parti de la fonctionnalité Profil de Travail d'Android pour isoler ou dupliquer des applications sur votre appareil.
+    **Shelter** est une application qui vous aide à tirer parti de la fonctionnalité Profil professionnel d'Android pour isoler ou dupliquer des applications sur votre appareil.
     
     Shelter prend en charge le blocage de la recherche de contacts entre profils et le partage de fichiers entre profils via le gestionnaire de fichiers par défaut ([DocumentsUI](https://source.android.com/devices/architecture/modular-system/documentsui)).
     
@@ -213,7 +213,7 @@ Nous recommandons une grande variété d'applications Android sur ce site. Les a
 
     Shelter est recommandé par rapport à [Insular](https://secure-system.gitlab.io/Insular/) et [Island](https://github.com/oasisfeng/island) car il prend en charge le [blocage de la recherche de contact](https://secure-system.gitlab.io/Insular/faq.html).
     
-    En utilisant Shelter, vous accordez une confiance totale à son développeur, car Shelter agit en tant qu'[administrateur de l'appareil](https://developer.android.com/guide/topics/admin/device-admin) pour créer le Profil de Travail, et il a un accès étendu aux données stockées dans ce dernier.
+    En utilisant Shelter, vous accordez une confiance totale à son développeur, car Shelter agit en tant qu'[administrateur de l'appareil](https://developer.android.com/guide/topics/admin/device-admin) pour créer le Profil professionnel, et il a un accès étendu aux données stockées dans ce dernier.
 
 ### Auditor
 
@@ -307,21 +307,21 @@ Les principales caractéristiques de confidentialité comprennent :
 
 !!! recommendation
 
-    ![Obtainium logo](assets/img/android/obtainium.svg){ align=right }
+    ![logo Obtainium](assets/img/android/obtainium.svg){ align=right }
     
-    **Obtainium** is an app manager which allows you to install and update apps directly from the developer's own releases page (i.e. GitHub, GitLab, the developer's website, etc.), rather than a centralized app store/repository. It supports automatic background updates on Android 12 and higher.
+    **Obtainium** est un gestionnaire d'applications qui vous permet d'installer et de mettre à jour des applications directement à partir de la page de publication du développeur (i.e. GitHub, GitLab, le site web du développeur, etc.), plutôt qu'un magasin d'applications/dépôt centralisé. Il prend en charge les mises à jour automatiques en arrière-plan sur Android 12 et les versions ultérieures.
     
-    [:octicons-repo-16: Repository](https://github.com/ImranR98/Obtainium#readme){ .md-button .md-button--primary }
-    [:octicons-code-16:](https://github.com/ImranR98/Obtainium){ .card-link title="Source Code" }
-    [:octicons-heart-16:](https://github.com/sponsors/ImranR98){ .card-link title=Contribute }
+    [:octicons-repo-16: Dépôt](https://github.com/ImranR98/Obtainium#readme){ .md-button .md-button--primary }
+    [:octicons-code-16:](https://github.com/ImranR98/Obtainium){ .card-link title="Code source" }
+    [:octicons-heart-16:](https://github.com/sponsors/ImranR98){ .card-link title=Contribuer }
     
-    ??? downloads
+    ??? downloads "Téléchargements"
     
         - [:simple-github: GitHub](https://github.com/ImranR98/Obtainium/releases)
 
-Obtainium allows you to download APK installer files from a wide variety of sources, and it is up to you to ensure those sources and apps are legitimate. For example, using Obtainium to install Signal from [Signal's APK landing page](https://signal.org/android/apk/) should be fine, but installing from third-party APK repositories like Aptoide or APKPure may pose additional risks.
+Obtainium vous permet de télécharger des fichiers d'installation APK à partir d'une grande variété de sources, et c'est à vous de vous assurer que ces sources et ces applications sont légitimes. Par exemple, l'utilisation d'Obtainium pour installer Signal à partir de [la page de téléchargement APK de Signal](https://signal.org/android/apk/) devrait être correcte, mais l'installation à partir de dépôts APK tiers comme Aptoide ou APKPure peut présenter des risques supplémentaires.
 
-Obtainium can also be used to download apps from F-Droid repositories, and may serve as a useful alternative to the official F-Droid clients. However, we generally recommend against apps built by F-Droid or from unofficial F-Droid repositories: Read [our notes on F-Droid](#f-droid) below for more information.
+Obtainium peut également être utilisé pour télécharger des applications à partir des dépôts de F-Droid, et peut constituer une alternative utile aux clients officiels de F-Droid. Cependant, nous déconseillons généralement les applications générées par F-Droid ou provenant de dépôts F-Droid non officiels : Lisez [nos notes sur F-Droid](#f-droid) ci-dessous pour plus d'informations.
 
 ### Magasin d'applications de GrapheneOS
 

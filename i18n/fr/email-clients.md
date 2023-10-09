@@ -1,15 +1,15 @@
 ---
-title: "Logiciels de messagerie électronique"
+title: "Clients d'e-mail"
 icon: material/email-open
-description: Ces clients d'email respectent la vie privée et prennent en charge le chiffrement OpenPGP.
+description: Ces clients d'e-mail respectent la vie privée et prennent en charge le chiffrement OpenPGP.
 cover: email-clients.png
 ---
 
-Notre liste de recommandations contient des clients de messagerie qui prennent en charge à la fois [OpenPGP](encryption.md#openpgp) et l'authentification forte telle que [Open Authorization (OAuth)](https://en.wikipedia.org/wiki/OAuth). OAuth vous permet d'utiliser l'[Authentification à Multi-Facteurs](multi-factor-authentication) et d'empêcher le vol de compte.
+Notre liste de recommandations contient des clients d'e-mail qui prennent en charge à la fois [OpenPGP](encryption.md#openpgp) et l'authentification forte telle que [Open Authorization (OAuth)](https://en.wikipedia.org/wiki/OAuth). OAuth vous permet d'utiliser l'[Authentification à Multi-Facteurs](multi-factor-authentication) et d'empêcher le vol de compte.
 
-??? warning "L'email ne fournit pas de secret de transmission"
+??? warning "L'e-mail ne fournit pas de secret de transmission"
 
-    Lors de l'utilisation d'une technologie de chiffrement de bout en bout (E2EE) comme OpenPGP, le courrier électronique contiendra toujours [certaines métadonnées](email.md#email-metadata-overview) qui ne sont pas chiffrées dans l'en-tête du courrier électronique.
+    Lors de l'utilisation d'une technologie de chiffrement de bout en bout (E2EE) comme OpenPGP, l'e-mail contiendra toujours [certaines métadonnées](email.md#email-metadata-overview) qui ne sont pas chiffrées dans l'en-tête de l'e-mail.
     
     OpenPGP ne prend pas non plus en charge la [confidentialité persistante](https://fr.wikipedia.org/wiki/Confidentialit%C3%A9_persistante), ce qui signifie que si votre clé privée ou celle du destinataire est volée, tous les messages précédents chiffrés avec cette clé seront exposés: [Comment protéger mes clés privées ?](basics/email-security.md) Envisagez l'utilisation d'un support qui assure la confidentialité persistante:
     
@@ -23,7 +23,7 @@ Notre liste de recommandations contient des clients de messagerie qui prennent e
 
     ![Logo Thunderbird](assets/img/email-clients/thunderbird.svg){ align=right }
     
-    **Thunderbird** est un client de messagerie, de groupes de discussion, de flux d'informations et de chat (XMPP, IRC, Twitter) gratuit, open-source et multiplateforme, développé par la communauté Thunderbird, et précédemment par la Fondation Mozilla.
+    **Thunderbird** est un client d'e-mail, de groupes de discussion, de flux d'informations et de chat (XMPP, IRC, Twitter) gratuit, open-source et multiplateforme, développé par la communauté Thunderbird, et précédemment par la Fondation Mozilla.
     
     [:octicons-home-16: Page d'accueil](https://www.thunderbird.net/fr/){ .md-button .md-button--primary }
     [:octicons-eye-16:](https://www.mozilla.org/privacy/thunderbird){ .card-link title="Politique de confidentialité" }
@@ -78,7 +78,7 @@ Apple Mail a la possibilité de charger le contenu distant en arrière-plan ou d
 
     ![Logo de Canary Mail](assets/img/email-clients/canarymail.svg){ align=right }
     
-    **Canary Mail** est un client de messagerie payant conçu pour rendre le chiffrement de bout en bout transparent grâce à des fonctions de sécurité telles que le verrouillage biométrique des applications.
+    **Canary Mail** est un client d'e-mail payant conçu pour rendre le chiffrement de bout en bout transparent grâce à des fonctions de sécurité telles que le verrouillage biométrique des applications.
     
     [:octicons-home-16: Page d'accueil](https://canarymail.io){ .md-button .md-button--primary }
     [:octicons-eye-16:](https://canarymail.io/privacy.html){ .card-link title="Politique de confidentialité" }
@@ -94,7 +94,7 @@ Apple Mail a la possibilité de charger le contenu distant en arrière-plan ou d
 
     Canary Mail n'a publié que récemment un client Windows et Android, mais nous ne pensons pas qu'ils soient aussi stables que leurs homologues iOS et Mac.
 
-Canary Mail est à source fermée. Nous le recommandons en raison du peu de choix disponibles pour les clients de messagerie sur iOS prenant en charge PGP E2EE.
+Canary Mail est à source fermée. Nous le recommandons en raison du peu de choix disponibles pour les clients d'e-mail sur iOS prenant en charge PGP E2EE.
 
 ### FairEmail (Android)
 
@@ -102,7 +102,7 @@ Canary Mail est à source fermée. Nous le recommandons en raison du peu de choi
 
     ![Logo FairEmail](assets/img/email-clients/fairemail.svg){ align=right }
     
-    **FairEmail** est une application de messagerie électronique minimale et open-source, utilisant des standards ouverts (IMAP, SMTP, OpenPGP) avec une faible consommation de données et de batterie.
+    **FairEmail** est une application d'e-mail minimale et open-source, utilisant des standards ouverts (IMAP, SMTP, OpenPGP) avec une faible consommation de données et de batterie.
     
     [:octicons-home-16: Page d'accueil](https://email.faircode.eu){ .md-button .md-button--primary }
     [:octicons-eye-16:](https://github.com/M66B/FairEmail/blob/master/PRIVACY.md){ .card-link title="Politique de confidentialité" }
@@ -121,7 +121,7 @@ Canary Mail est à source fermée. Nous le recommandons en raison du peu de choi
 
     ![Logo Evolution](assets/img/email-clients/evolution.svg){ align=right }
     
-    **Evolution** est une application de gestion des informations personnelles qui fournit des fonctionnalités intégrées de courrier, de calendrier et de carnet d'adresses. Evolution dispose d'une vaste [documentation](https://help.gnome.org/users/evolution/stable/) pour vous aider à démarrer.
+    **Evolution** est une application de gestion des informations personnelles qui fournit des fonctionnalités intégrées d'e-mail, de calendrier et de carnet d'adresses. Evolution dispose d'une vaste [documentation](https://help.gnome.org/users/evolution/stable/) pour vous aider à démarrer.
     
     [:octicons-home-16: Page d'accueil](https://wiki.gnome.org/Apps/Evolution){ .md-button .md-button--primary }
     [:octicons-eye-16:](https://wiki.gnome.org/Apps/Evolution/PrivacyPolicy){ .card-link title="Politique de confidentialité" }
@@ -139,7 +139,7 @@ Canary Mail est à source fermée. Nous le recommandons en raison du peu de choi
 
     ![Logo de K-9 Mail](assets/img/email-clients/k9mail.svg){ align=right }
     
-    **K-9 Mail** est une application de messagerie indépendante qui prend en charge les boîtes aux lettres POP3 et IMAP, mais ne prend en charge le push mail que pour IMAP.
+    **K-9 Mail** est une application d'e-mail indépendante qui prend en charge les boîtes mail POP3 et IMAP, mais ne prend en charge le push mail que pour IMAP.
     
     À l'avenir, K-9 Mail sera le client Thunderbird [officiel](https://k9mail.app/2022/06/13/K-9-Mail-and-Thunderbird.html) pour Android .
     
@@ -164,7 +164,7 @@ Canary Mail est à source fermée. Nous le recommandons en raison du peu de choi
 
     ![Logo Kontact](assets/img/email-clients/kontact.svg){ align=right }
     
-    **Kontact** est une application de gestion des informations personnelles (PIM) issue du projet [KDE](https://kde.org). Il offre un client de messagerie, un carnet d'adresses, un organiseur et un client RSS.
+    **Kontact** est une application de gestion des informations personnelles (PIM) issue du projet [KDE](https://kde.org). Il offre un client d'e-mail, un carnet d'adresses, un organiseur et un client RSS.
     
     [:octicons-home-16: Page d'accueil](https://kontact.kde.org){ .md-button .md-button--primary }
     [:octicons-eye-16:](https://kde.org/privacypolicy-apps){ .card-link title="Politique de confidentialité" }
@@ -183,7 +183,7 @@ Canary Mail est à source fermée. Nous le recommandons en raison du peu de choi
 
     ![Logo Mailvelope](assets/img/email-clients/mailvelope.svg){ align=right }
     
-    **Mailvelope** est une extension de navigateur qui permet l'échange de courriers électroniques chiffrés selon la norme de chiffrement OpenPGP.
+    **Mailvelope** est une extension de navigateur qui permet l'échange d'e-mails chiffrés selon la norme de chiffrement OpenPGP.
     
     [:octicons-home-16: Page d'accueil](https://www.mailvelope.com){ .md-button .md-button--primary }
     [:octicons-eye-16:](https://www.mailvelope.com/en/privacy-policy){ .card-link title="Politique de confidentialité" }
@@ -202,7 +202,7 @@ Canary Mail est à source fermée. Nous le recommandons en raison du peu de choi
 
     ![Logo NeoMutt](assets/img/email-clients/mutt.svg){ align=right }
     
-    **NeoMutt** est un lecteur de courrier en ligne de commande (ou MUA) open-source pour Linux et BSD. C'est un fork de [Mutt](https://fr.wikipedia.org/wiki/Mutt) avec des fonctionnalités supplémentaires.
+    **NeoMutt** est un lecteur d'e-mails en ligne de commande (ou MUA) open-source pour Linux et BSD. C'est un fork de [Mutt](https://fr.wikipedia.org/wiki/Mutt) avec des fonctionnalités supplémentaires.
     
     NeoMutt est un client textuel qui a une courbe d'apprentissage abrupte. Il est cependant très personnalisable.
     
@@ -238,4 +238,4 @@ Nos critères de cas idéal représentent ce que nous aimerions voir d'un projet
 - Doit être multiplateforme.
 - Ne doit pas collecter de télémétrie par défaut.
 - Doit prendre en charge OpenPGP nativement, c'est-à-dire sans extensions.
-- Doit prendre en charge le stockage local de courriels chiffrés par OpenPGP.
+- Doit prendre en charge le stockage local d'e-mails chiffrés par OpenPGP.

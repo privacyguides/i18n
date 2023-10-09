@@ -373,7 +373,7 @@ Les administrateurs système peuvent envisager de mettre en place leur propre se
 
     ![Logo Mailcow](assets/img/email/mailcow.svg){ align=right }
     
-    **Mailcow** est un serveur d'e-mail plus avancé, parfait pour ceux qui ont un peu plus d'expérience de Linux. Il possède tout ce dont vous avez besoin dans un conteneur Docker : un serveur d'é-mail avec prise en charge de DKIM, une surveillance antivirus et spam, une interface d'e-mail web et ActiveSync avec SOGo, et une administration basée sur le web avec prise en charge de 2FA.
+    **Mailcow** est un serveur d'e-mail plus avancé, parfait pour ceux qui ont un peu plus d'expérience de Linux. Il possède tout ce dont vous avez besoin dans un conteneur Docker : un serveur d'e-mail avec prise en charge de DKIM, une surveillance antivirus et spam, une interface d'e-mail web et ActiveSync avec SOGo, et une administration basée sur le web avec prise en charge de l'A2F.
     
     [:octicons-home-16: Page d'accueil](https://mailcow.email){ .md-button .md-button--primary }
     [:octicons-info-16:](https://mailcow.github.io/mailcow-dockerized-docs/){ .card-link title=Documentation}
@@ -499,7 +499,7 @@ Ne doit pas avoir de marketing irresponsable :
 
 **Dans le meilleur des cas :**
 
-- Une documentation claire et facile à lire. Notamment pour la mise en place du 2FA, des clients d'email tiers, d'OpenPGP, etc.
+- Une documentation claire et facile à lire. Notamment pour la mise en place de l'A2F, des clients d'e-mail tiers, d'OpenPGP, etc.
 
 ### Fonctionnalités supplémentaires
 
