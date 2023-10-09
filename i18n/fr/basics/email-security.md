@@ -33,7 +33,7 @@ Les fournisseurs d'e-mail qui vous permettent d'utiliser les protocoles d'accès
 
 ### Comment puis-je protéger mes clés privées ?
 
-Une carte à puce (telle qu'une [YubiKey](https://support.yubico.com/hc/en-us/articles/360013790259-Using-Your-YubiKey-with-OpenPGP) ou [Nitrokey](https://www.nitrokey.com)) fonctionne en recevant un email chiffré d'un appareil (téléphone, tablette, ordinateur, etc.) exécutant un client mail/webmail. Le message est ensuite déchiffré par la carte à puce et le contenu déchiffré est renvoyé à l'appareil.
+Une carte à puce (telle qu'une [YubiKey](https://support.yubico.com/hc/en-us/articles/360013790259-Using-Your-YubiKey-with-OpenPGP) ou [Nitrokey](https://www.nitrokey.com)) fonctionne en recevant un e-mail chiffré d'un appareil (téléphone, tablette, ordinateur, etc.) exécutant un client d'e-mail/une interface d'e-mail web. Le message est ensuite déchiffré par la carte à puce et le contenu déchiffré est renvoyé à l'appareil.
 
 Il est préférable que le déchiffrement ait lieu sur la carte à puce afin d'éviter d'exposer votre clé privée à un dispositif compromis.
 
@@ -45,8 +45,8 @@ Le logiciel client peut utiliser les métadonnées de l'e-mail pour montrer de q
 
 ### Qui peut voir les métadonnées des e-mails ?
 
-Les métadonnées des emails sont protégées des observateurs extérieurs par le protocole [TLS Opportuniste](https://en.wikipedia.org/wiki/Opportunistic_TLS). Elles peuvent néanmoins être vues par votre logiciel client mail (ou webmail) et par tout serveur relayant le message de votre part à ses destinataires, y compris votre fournisseur mails. Parfois, les serveurs mails font également appel à des services tiers pour se protéger des spams, qui ont généralement aussi accès à vos messages.
+Les métadonnées des emails sont protégées des observateurs extérieurs par le protocole [TLS Opportuniste](https://en.wikipedia.org/wiki/Opportunistic_TLS). Elles peuvent néanmoins être vues par votre logiciel client e-mail (ou interface d'e-mail web) et par tout serveur relayant le message de votre part à ses destinataires, y compris votre fournisseur d'e-mail. Parfois, les serveurs d'e-mail font également appel à des services tiers pour se protéger des spams, qui ont généralement aussi accès à vos messages.
 
 ### Pourquoi les métadonnées ne peuvent-elles pas être E2EE?
 
-Les métadonnées des emails sont essentielles à la fonctionnalité la plus élémentaire d'un email (d'où il vient et où il doit aller). À l'origine, l'E2EE n'était pas intégré dans les protocoles d'emails, mais nécessitait un logiciel complémentaire comme OpenPGP. Comme les messages OpenPGP doivent toujours fonctionner avec les fournisseurs d'emails traditionnels, il ne peut pas chiffrer les métadonnées du mail, mais seulement le corps du message lui-même. Cela signifie que, même en utilisant OpenPGP, des observateurs extérieurs peuvent voir de nombreuses informations sur vos messages, comme l'identité de l'expéditeur, l'objet du message, le moment de l'envoi, etc.
+Les métadonnées des e-mails sont essentielles à la fonctionnalité la plus élémentaire d'un e-mail (d'où il vient et où il doit aller). À l'origine, l'E2EE n'était pas intégré dans les protocoles d'e-mails, mais nécessitait un logiciel complémentaire comme OpenPGP. Comme les messages OpenPGP doivent toujours fonctionner avec les fournisseurs d'e-mail traditionnels, il ne peut pas chiffrer les métadonnées de l'e-mail, mais seulement le corps du message lui-même. Cela signifie que, même en utilisant OpenPGP, des observateurs extérieurs peuvent voir de nombreuses informations sur vos messages, comme l'identité de l'expéditeur, l'objet du message, le moment de l'envoi, etc.
