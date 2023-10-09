@@ -54,7 +54,7 @@ A Verified Boot biztosítja az operációs rendszerfájlok integritását, ezál
 
 Sajnos OEM-gyártók csak az Android alapkiadásánál kötelesek támogatni a Verified Bootot. Csak néhány OEM-gyártó, például a Google, támogatja az egyéni AVB-kulcsok felvételét az eszközein. Emellett néhány AOSP-változat, például a LineageOS vagy az /e/ OS nem támogatja a Verified Bootot még olyan hardvereken sem, amelyek támogatnák azt harmadik féltől származó operációs rendszereken. Javasoljuk, hogy tájékozódj ennek támogatottságáról ** még mielőtt** új készüléket vásárolnál. A Verified Bootot nem támogató AOSP-változatok **nem** ajánlottak.
 
-Több OEM-gyártó is elrontotta a Verified Boot megvalósítását, amivel a marketingjükön túlmenően is tisztában kell lenned. A Fairphone 3 és 4 például alapértelmezetten nem biztonságosak, mivel az [alap bootloader a nyilvános AVB aláíró kulcsban bízik](https://forum.fairphone.com/t/bootloader-avb-keys-used-in-roms-for-fairphone-3-4/83448/11). This breaks verified boot on a stock Fairphone device, as the system will boot alternative Android operating systems such (such as /e/) [without any warning](https://source.android.com/security/verifiedboot/boot-flow#locked-devices-with-custom-root-of-trust) about custom operating system usage.
+Több OEM-gyártó is elrontotta a Verified Boot megvalósítását, amivel a marketingjükön túlmenően is tisztában kell lenned. A Fairphone 3 és 4 például alapértelmezetten nem biztonságosak, mivel az [alap bootloader a nyilvános AVB aláíró kulcsban bízik](https://forum.fairphone.com/t/bootloader-avb-keys-used-in-roms-for-fairphone-3-4/83448/11). Ez megtöri a verified bootot egy alapkiadású Fairphone készüléken, mivel a rendszer alternatív Android operációs rendszereket (például /e/) az egyéni operációs rendszerek használatáról szóló [figyelmeztetés nélkül](https://source.android.com/security/verifiedboot/boot-flow#locked-devices-with-custom-root-of-trust) indítja el.
 
 ### Firmware-frissítések
 
@@ -91,7 +91,7 @@ Android 12:
 
 Android 13:
 
-- Engedély a [közeli wifi hozzáféréshez](https://developer.android.com/about/versions/13/behavior-changes-13#nearby-wifi-devices-permission). The MAC addresses of nearby WiFi access points was a popular way for apps to track a user's location.
+- Engedély a [közeli wifi hozzáféréshez](https://developer.android.com/about/versions/13/behavior-changes-13#nearby-wifi-devices-permission). A közeli WiFi hozzáférési pontok MAC-címei népszerű módja a felhasználó tartózkodási helyének nyomon követésére alkalmazások álltal.
 - További [részletes médiaengedélyek](https://developer.android.com/about/versions/13/behavior-changes-13#granular-media-permissions), ami azt jelenti, hogy csak képekhez, videókhoz vagy hangfájlokhoz adhatsz hozzáférést.
 - Érzékelők háttérben történő használatához mostantól a [`BODY_SENSORS`](https://developer.android.com/about/versions/13/behavior-changes-13#body-sensors-background-permission) engedély szükséges.
 
@@ -117,7 +117,7 @@ A felhasználói profilok segítségével korlátozásokat szabhatsz meg egy ado
 
 ### Munkaprofil
 
-[Work Profiles](https://support.google.com/work/android/answer/6191949) are another way to isolate individual apps and may be more convenient than separate user profiles.
+A [Munkaprofilok](https://support.google.com/work/android/answer/6191949) egy másik módja egyes alkalmazások elkülönítésének, és kényelmesebb lehet, mint a különálló felhasználói profilok használata.
 
 A **device controller** app such as [Shelter](../android.md#shelter) is required to create a Work Profile without an enterprise MDM, unless you're using a custom Android OS which includes one.
 

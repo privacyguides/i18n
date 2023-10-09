@@ -21,7 +21,7 @@ De döljer dock din faktiska IP-adress för en tredjepartstjänst, förutsatt at
 
 ## När ska jag inte använda en VPN?
 
-Att använda en VPN i fall där du använder din [kända identitet](common-threats.md#common-misconceptions) är sannolikt inte användbart.
+Using a VPN in cases where you're using your [known identity](common-misconceptions.md#complicated-is-better) is unlikely be useful.
 
 Om du gör det kan det utlösa system för att upptäcka skräppost och bedrägerier, till exempel om du skulle logga in på din banks webbplats.
 

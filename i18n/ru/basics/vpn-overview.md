@@ -21,7 +21,7 @@ VPN не могут шифровать данные за пределами со
 
 ## Когда мне не следует использовать VPN?
 
-Использование VPN в случаях, когда вы используете свою [известную личность](common-threats.md#common-misconceptions), вряд ли будет полезным.
+Using a VPN in cases where you're using your [known identity](common-misconceptions.md#complicated-is-better) is unlikely be useful.
 
 Это может привести к срабатыванию систем обнаружения спама и мошенничества, например, если вы зашли на сайт своего банка.
 

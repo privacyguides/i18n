@@ -21,7 +21,7 @@ VPNs אינם יכולים להצפין נתונים מחוץ לחיבור בי�
 
 ## מתי לא כדאי להשתמש ב - VPN?
 
-השימוש ב-VPN במקרים שבהם אתה משתמש ב[זהות הידועה](common-threats.md#common-misconceptions) שלך לא סביר להיות שימושי.
+Using a VPN in cases where you're using your [known identity](common-misconceptions.md#complicated-is-better) is unlikely be useful.
 
 פעולה זו עלולה להפעיל מערכות זיהוי דואר זבל והונאות, כגון אם היית נכנס לאתר האינטרנט של הבנק שלך.
 

@@ -320,7 +320,7 @@ Tutanota不提供數字遺產功能。
         - [:simple-firefoxbrowser: Firefox](https://addons.mozilla.org/firefox/addon/addy_io/)
         - [:simple-googlechrome: Chrome](https://chrome.google.com/webstore/detail/addyio-anonymous-email-fo/iadbdpnoknmbdeolbapdackdcogdmjpe)
 
-免費帳戶建立共用網域名(像 @addy.io ) 的數量為最多10個，月付1美元則可增加到 50 個別外，月付 4美元(或年繳則以3美元計) 則無數量限制。 付費帳戶可建立無數的標準別名如尾綴為 @[username].addy.io 或是自定域名。不過如前面提過，標準別名電郵並不利於隱私，因為只依據域名就可以簡單地把別名綁定起來。 當共用網域名服務封鎖此功能時，它就派得上用場了。
+免費帳戶建立共用網域名(像 @addy.io ) 的數量為最多10個，月付1美元則可增加到 50 個別外，月付 4美元(或年繳則以3美元計) 則無數量限制。 付費帳戶可建立無數的標準別名如尾綴為 @[username].addy.io 或是自定域名。不過如前面提過，標準別名電郵並不利於隱私，因為只依據域名就可以簡單地把別名綁定起來。 當共用網域名服務封鎖此功能時，它就派得上用場了。 Securitum [audited](https://addy.io/blog/addy-io-passes-independent-security-audit/) addy.io in September 2023 and no significant vulnerabilities [were identified](https://addy.io/addy-io-security-audit.pdf).
 
 值得注意的免費功能：
 

@@ -21,7 +21,7 @@ Zij verbergen echter wel jouw werkelijke IP-adres voor een dienst van derden, op
 
 ## Wanneer zou ik geen VPN moeten gebruiken?
 
-Het gebruik van een VPN in gevallen waarin je jouw [bekende identiteit](common-threats.md#common-misconceptions) gebruikt, is waarschijnlijk niet nuttig.
+Using a VPN in cases where you're using your [known identity](common-misconceptions.md#complicated-is-better) is unlikely be useful.
 
 Dit kan spam- en fraudedetectiesystemen alarmeren, zoals wanneer je zou inloggen op de website van uw bank.
 

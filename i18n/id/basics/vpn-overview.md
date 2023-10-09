@@ -21,7 +21,7 @@ Namun, mereka menyembunyikan IP Anda yang sebenarnya dari layanan pihak ketiga, 
 
 ## Kapan sebaiknya saya tidak menggunakan VPN?
 
-Menggunakan VPN jika Anda menggunakan [identitas yang diketahui](common-threats.md#common-misconceptions) kemungkinan tidak akan berguna.
+Using a VPN in cases where you're using your [known identity](common-misconceptions.md#complicated-is-better) is unlikely be useful.
 
 Melakukan hal itu dapat memicu sistem deteksi spam dan penipuan, seperti jika Anda masuk ke situs web bank Anda.
 

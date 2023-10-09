@@ -21,7 +21,7 @@ However, they do hide your actual IP from a third-party service, provided that t
 
 ## VPN을 사용하지 말아야 할 때는 언제인가요?
 
-Using a VPN in cases where you're using your [known identity](common-threats.md#common-misconceptions) is unlikely be useful.
+Using a VPN in cases where you're using your [known identity](common-misconceptions.md#complicated-is-better) is unlikely be useful.
 
 Doing so may trigger spam and fraud detection systems, such as if you were to log into your bank's website.
 

@@ -21,7 +21,7 @@ VPN不能对你的设备和VPN服务器之间连接之外的数据进行加密�
 
 ## 什么时候我不应该使用VPN？
 
-在你使用你的 [已知身份的情况下使用VPN，](common-threats.md#common-misconceptions) ，不太可能是有用的。
+Using a VPN in cases where you're using your [known identity](common-misconceptions.md#complicated-is-better) is unlikely be useful.
 
 这样做可能会触发垃圾邮件和欺诈检测系统，例如，如果你要登录银行的网站。
 
