@@ -283,20 +283,20 @@ Un service d'alias d'e-mails vous permet de générer facilement une nouvelle ad
 
 L'alias d'e-mail peut servir de protection au cas où votre fournisseur d'e-mail cesserait de fonctionner. Dans ce cas, vous pouvez facilement rediriger vos alias vers une nouvelle adresse e-mail. En revanche, vous faites confiance au service d'alias pour qu'il continue de fonctionner.
 
-L'utilisation d'un service d'alias d'email dédié présente également un certain nombre d'avantages par rapport à un alias fourre-tout sur un domaine personnalisé :
+L'utilisation d'un service d'alias d'e-mail dédié présente également un certain nombre d'avantages par rapport à un alias fourre-tout sur un domaine personnalisé :
 
-- Les alias peuvent être activés et désactivés individuellement lorsque vous en avez besoin, ce qui empêche les sites web de vous envoyer des emails de façon aléatoire.
-- Les réponses sont envoyées à partir de l'adresse alias, qui masque votre véritable adresse email.
+- Les alias peuvent être activés et désactivés individuellement lorsque vous en avez besoin, ce qui empêche les sites web de vous envoyer des e-mails de façon aléatoire.
+- Les réponses sont envoyées à partir de l'adresse alias, qui masque votre véritable adresse e-mail.
 
-Ils présentent également un certain nombre d'avantages par rapport aux services qui fournissent des "emails temporaires" :
+Ils présentent également un certain nombre d'avantages par rapport aux services qui fournissent des "e-mails temporaires" :
 
 - Les alias sont permanents et peuvent être réactivés si vous devez recevoir quelque chose comme une réinitialisation de mot de passe.
-- Les emails sont envoyés à votre boîte mail de confiance plutôt que d'être stockés par le fournisseur d'alias.
-- Les services d'emails temporaires proposent généralement des boîtes mail publiques auxquelles peuvent accéder tous ceux qui connaissent l'adresse, tandis que les alias sont privés.
+- Les e-mails sont envoyés à votre boîte mail de confiance plutôt que d'être stockés par le fournisseur d'alias.
+- Les services d'e-mails temporaires proposent généralement des boîtes mail publiques auxquelles peuvent accéder tous ceux qui connaissent l'adresse, tandis que les alias sont privés.
 
-Nos recommandations en matière d'alias d'email sont des fournisseurs qui vous permettent de créer des alias sur des domaines qu'ils contrôlent, ainsi que sur votre ou vos propres domaine(s) personnalisé(s), pour un coût annuel modeste. Ils peuvent également être auto-hébergés si vous souhaitez un contrôle maximal. Toutefois, l'utilisation d'un domaine personnalisé peut présenter des inconvénients en matière de confidentialité : Si vous êtes la seule personne à utiliser votre domaine personnalisé, vos actions peuvent être facilement suivies sur les sites web en regardant simplement le nom de domaine dans l'adresse email et en ignorant tout ce qui se trouve avant le signe arobase (@).
+Nos recommandations en matière d'alias d'e-mail sont des fournisseurs qui vous permettent de créer des alias sur des domaines qu'ils contrôlent, ainsi que sur votre ou vos propres domaine(s) personnalisé(s), pour un coût annuel modeste. Ils peuvent également être auto-hébergés si vous souhaitez un contrôle maximal. Toutefois, l'utilisation d'un domaine personnalisé peut présenter des inconvénients en matière de confidentialité : Si vous êtes la seule personne à utiliser votre domaine personnalisé, vos actions peuvent être facilement suivies sur les sites web en regardant simplement le nom de domaine dans l'adresse e-mail et en ignorant tout ce qui se trouve avant le signe arobase (@).
 
-L'utilisation d'un service d'alias nécessite de faire confiance à la fois à votre fournisseur d'email et à votre fournisseur d'alias pour vos messages non chiffrés. Certains fournisseurs atténuent légèrement ce problème grâce au chiffrement automatique PGP, qui réduit le nombre de services auxquels vous devez faire confiance de deux à un en chiffrant les emails entrants avant qu'ils ne soient remis à votre fournisseur de boîte mail final.
+L'utilisation d'un service d'alias nécessite de faire confiance à la fois à votre fournisseur d'e-mail et à votre fournisseur d'alias pour vos messages non chiffrés. Certains fournisseurs atténuent légèrement ce problème grâce au chiffrement automatique PGP, qui réduit le nombre de services auxquels vous devez faire confiance de deux à un en chiffrant les e-mails entrants avant qu'ils ne soient remis à votre fournisseur de boîte mail final.
 
 ### addy.io
 
@@ -320,7 +320,7 @@ L'utilisation d'un service d'alias nécessite de faire confiance à la fois à v
         - [:simple-firefoxbrowser: Firefox](https://addons.mozilla.org/firefox/addon/addy_io/)
         - [:simple-googlechrome: Chrome](https://chrome.google.com/webstore/detail/addyio-anonymous-email-fo/iadbdpnoknmbdeolbapdackdcogdmjpe)
 
-Le nombre d'alias partagés (qui se terminent par un domaine partagé comme @addy.io) que vous pouvez créer est limité à 10 sur l'offre gratuite d'addy.io, à 50 sur leur offre à $1/mois et illimité sur leur offre à $4/mois (facturé $3 pour un an). Vous pouvez créer un nombre illimité d'alias standard (qui se terminent par un domaine tel que @[nomdutilisateur].addy.io ou un domaine personnalisé sur les offres payantes), mais, comme nous l'avons déjà mentionné, cela peut nuire à la confidentialité car les gens peuvent trivialement relier vos alias standard en se basant sur le seul nom de domaine. Ils sont utiles lorsqu'un domaine partagé peut être bloqué par un service. Securitum [audited](https://addy.io/blog/addy-io-passes-independent-security-audit/) addy.io in September 2023 and no significant vulnerabilities [were identified](https://addy.io/addy-io-security-audit.pdf).
+Le nombre d'alias partagés (qui se terminent par un domaine partagé comme @addy.io) que vous pouvez créer est limité à 10 sur l'offre gratuite d'addy.io, à 50 sur leur offre à $1/mois et illimité sur leur offre à $4/mois (facturé $3 pour un an). Vous pouvez créer un nombre illimité d'alias standard (qui se terminent par un domaine tel que @[nomdutilisateur].addy.io ou un domaine personnalisé sur les offres payantes), mais, comme nous l'avons déjà mentionné, cela peut nuire à la confidentialité car les gens peuvent trivialement relier vos alias standard en se basant sur le seul nom de domaine. Ils sont utiles lorsqu'un domaine partagé peut être bloqué par un service. Securitum [a audité](https://addy.io/blog/addy-io-passes-independent-security-audit/) addy.io en septembre 2023 et aucune vulnérabilité significative [n'a été identifiée](https://addy.io/addy-io-security-audit.pdf).
 
 Fonctions gratuites notables :
 
@@ -336,7 +336,7 @@ Fonctions gratuites notables :
 
     ![Logo Simplelogin](assets/img/email/simplelogin.svg){ align=right }
     
-    **SimpleLogin** est un service gratuit qui fournit des alias d'email sur une variété de noms de domaine partagés, et offre en option des fonctionnalités payantes comme des alias illimités et des domaines personnalisés.
+    **SimpleLogin** est un service gratuit qui fournit des alias d'e-mail sur une variété de noms de domaine partagés, et offre en option des fonctionnalités payantes comme des alias illimités et des domaines personnalisés.
     
     [:octicons-home-16: Page d'accueil](https://simplelogin.io/fr/){ .md-button .md-button--primary }
     [:octicons-eye-16:](https://simplelogin.io/privacy/){ .card-link title="Politique de confidentialité" }
@@ -353,7 +353,7 @@ Fonctions gratuites notables :
         - [:simple-microsoftedge: Edge](https://microsoftedge.microsoft.com/addons/detail/simpleloginreceive-sen/diacfpipniklenphgljfkmhinphjlfff)
         - [:simple-safari: Safari](https://apps.apple.com/app/id1494051017)
 
-SimpleLogin a été [acquis par Proton AG](https://proton.me/news/proton-and-simplelogin-join-forces) à compter du 8 avril 2022. Si vous utilisez Proton Mail pour votre boîte mail principale, SimpleLogin est un excellent choix. Les deux produits étant désormais détenus par la même société, vous ne devez plus faire confiance qu'à une seule entité. Nous supposons également que SimpleLogin sera plus étroitement intégré aux offres de Proton à l'avenir. SimpleLogin continue de prendre en charge la redirection vers le fournisseur d'email de votre choix. Securitum [a audité](https://simplelogin.io/blog/security-audit/) SimpleLogin début 2022 et tous les problèmes [ont été résolus](https://simplelogin.io/audit2022/web.pdf).
+SimpleLogin a été [acquis par Proton AG](https://proton.me/news/proton-and-simplelogin-join-forces) à compter du 8 avril 2022. Si vous utilisez Proton Mail pour votre boîte mail principale, SimpleLogin est un excellent choix. Les deux produits étant désormais détenus par la même société, vous ne devez plus faire confiance qu'à une seule entité. Nous supposons également que SimpleLogin sera plus étroitement intégré aux offres de Proton à l'avenir. SimpleLogin continue de prendre en charge la redirection vers le fournisseur d'e-mail de votre choix. Securitum [a audité](https://simplelogin.io/blog/security-audit/) SimpleLogin début 2022 et tous les problèmes [ont été résolus](https://simplelogin.io/audit2022/web.pdf).
 
 Vous pouvez lier votre compte SimpleLogin avec votre compte Proton dans les paramètres de SimpleLogin. Si vous avez l'offre Proton Illimité, Entreprise, ou Visionnaire, vous aurez SimpleLogin Premium gratuitement.
 
@@ -363,9 +363,9 @@ Fonctions gratuites notables :
 - [x] Réponses illimitées
 - [x] 1 Boîte mail de réception
 
-## Email auto-hébergé
+## E-mail auto-hébergé
 
-Les administrateurs système peuvent envisager de mettre en place leur propre serveur mail. Les serveurs mail requièrent une attention et une maintenance permanente afin de garantir la sécurité et la fiabilité de la distribution des emails.
+Les administrateurs système peuvent envisager de mettre en place leur propre serveur d'e-mail. Les serveurs d'e-mail requièrent une attention et une maintenance permanente afin de garantir la sécurité et la fiabilité de la distribution des e-mails.
 
 ### Solutions logicielles combinées
 
@@ -373,7 +373,7 @@ Les administrateurs système peuvent envisager de mettre en place leur propre se
 
     ![Logo Mailcow](assets/img/email/mailcow.svg){ align=right }
     
-    **Mailcow** est un serveur mail plus avancé, parfait pour ceux qui ont un peu plus d'expérience de Linux. Il possède tout ce dont vous avez besoin dans un conteneur Docker : un serveur mail avec prise en charge de DKIM, une surveillance antivirus et spam, un webmail et ActiveSync avec SOGo, et une administration basée sur le web avec prise en charge de 2FA.
+    **Mailcow** est un serveur d'e-mail plus avancé, parfait pour ceux qui ont un peu plus d'expérience de Linux. Il possède tout ce dont vous avez besoin dans un conteneur Docker : un serveur d'é-mail avec prise en charge de DKIM, une surveillance antivirus et spam, une interface d'e-mail web et ActiveSync avec SOGo, et une administration basée sur le web avec prise en charge de 2FA.
     
     [:octicons-home-16: Page d'accueil](https://mailcow.email){ .md-button .md-button--primary }
     [:octicons-info-16:](https://mailcow.github.io/mailcow-dockerized-docs/){ .card-link title=Documentation}
@@ -384,7 +384,7 @@ Les administrateurs système peuvent envisager de mettre en place leur propre se
 
     ![Logo Mail-in-a-Box](assets/img/email/mail-in-a-box.svg){ align=right }
     
-    **Mail-in-a-Box** est un script de configuration automatisé pour le déploiement d'un serveur mail sur Ubuntu. Son objectif est de faciliter la mise en place de son propre serveur mail.
+    **Mail-in-a-Box** est un script de configuration automatisé pour le déploiement d'un serveur d'e-mail sur Ubuntu. Son objectif est de faciliter la mise en place de son propre serveur d'e-mail.
     
     [:octicons-home-16: Page d'accueil](https://mailinabox.email){ .md-button .md-button--primary }
     [:octicons-info-16:](https://mailinabox.email/guide.html){ .card-link title=Documentation}
@@ -393,11 +393,11 @@ Les administrateurs système peuvent envisager de mettre en place leur propre se
 Pour une approche plus manuelle, nous avons choisi ces deux articles :
 
 - [Configuration d'un serveur mail avec OpenSMTPD, Dovecot et Rspamd](https://poolp.org/posts/2019-09-14/setting-up-a-mail-server-with-opensmtpd-dovecot-and-rspamd/) (2019)
-- [Comment gérer votre propre serveur mail](https://www.c0ffee.net/blog/mail-server-guide/) (août 2017)
+- [Comment gérer votre propre serveur d'e-mail](https://www.c0ffee.net/blog/mail-server-guide/) (août 2017)
 
 ## Critères
 
-**Veuillez noter que nous ne sommes affiliés à aucun des fournisseurs que nous recommandons.** En plus de [nos critères de base](about/criteria.md), nous avons développé un ensemble d'exigences claires pour tout fournisseur d'email souhaitant être recommandé, y compris la mise en place des bonnes pratiques du secteur, une technologie moderne et bien plus. Nous vous suggérons de vous familiariser avec cette liste avant de choisir un fournisseur d'email, et de mener vos propres recherches pour vous assurer que le fournisseur d'email que vous choisissez est le bon choix pour vous.
+**Veuillez noter que nous ne sommes affiliés à aucun des fournisseurs que nous recommandons.** En plus de [nos critères de base](about/criteria.md), nous avons développé un ensemble d'exigences claires pour tout fournisseur d'e-mail souhaitant être recommandé, y compris la mise en place des bonnes pratiques du secteur, une technologie moderne et bien plus. Nous vous suggérons de vous familiariser avec cette liste avant de choisir un fournisseur d'e-mail, et de mener vos propres recherches pour vous assurer que le fournisseur d'e-mail que vous choisissez est le bon choix pour vous.
 
 ### Technologie
 
@@ -405,21 +405,21 @@ Nous considérons ces caractéristiques comme importantes afin de fournir un ser
 
 **Minimum pour se qualifier :**
 
-- Chiffre les données du compte email au repos avec un chiffrement à accès zéro.
+- Chiffre les données du compte e-mail au repos avec un chiffrement à accès zéro.
 - Capacité d'export en tant que [Mbox](https://en.wikipedia.org/wiki/Mbox) ou .eml individuel avec standard [RFC5322](https://datatracker.ietf.org/doc/rfc5322/).
 - Permet aux utilisateurs d'utiliser leur propre [nom de domaine](https://en.wikipedia.org/wiki/Domain_name). Les noms de domaine personnalisés sont importants pour les utilisateurs car ils leur permettent de conserver leur indépendance du service, au cas où celui-ci tournerait mal ou serait racheté par une autre société qui ne donne pas priorité à la vie privée.
-- Fonctionne sur sa propre infrastructure, c'est-à-dire qu'elle ne repose pas sur des fournisseurs de services d'email tiers.
+- Fonctionne sur sa propre infrastructure, c'est-à-dire qu'elle ne repose pas sur des fournisseurs de services d'e-mail tiers.
 
 **Dans le meilleur des cas :**
 
 - Chiffre toutes les données du compte (contacts, calendriers, etc.) au repos avec un chiffrement à accès zéro.
-- Un webmail intégré avec chiffrement E2EE/PGP est fourni à titre de commodité.
+- Une interface d'e-mail web intégrée avec chiffrement E2EE/PGP est fournie à titre de commodité.
 - Prise en charge de [WKD](https://wiki.gnupg.org/WKD) pour permettre une meilleure découverte des clés publiques OpenPGP via HTTP. Les utilisateurs de GnuPG peuvent obtenir une clé en tapant : `gpg --locate-key utilisateur_exemple@exemple.fr`
-- Prise en charge d'une boîte mail temporaire pour les utilisateurs externes. Cette fonction est utile lorsque vous souhaitez envoyer un email chiffré, sans envoyer une copie réelle à votre destinataire. Ces emails ont généralement une durée de vie limitée et sont ensuite automatiquement supprimés. Ils n'obligent pas non plus le destinataire à configurer un système de chiffrement comme OpenPGP.
-- Disponibilité des services du fournisseur d'email via un [service onion](https://en.wikipedia.org/wiki/.onion).
+- Prise en charge d'une boîte mail temporaire pour les utilisateurs externes. Cette fonction est utile lorsque vous souhaitez envoyer un e-mail chiffré, sans envoyer une copie réelle à votre destinataire. Ces e-mails ont généralement une durée de vie limitée et sont ensuite automatiquement supprimés. Ils n'obligent pas non plus le destinataire à configurer un système de chiffrement comme OpenPGP.
+- Disponibilité des services du fournisseur d'e-mail via un [service onion](https://en.wikipedia.org/wiki/.onion).
 - Prise en charge du [sous-adressage](https://en.wikipedia.org/wiki/Email_address#Subaddressing).
 - Fonctionnalité fourre-tout ou alias pour ceux qui possèdent leurs propres domaines.
-- Utilisation de protocoles standard d'accès au emails tels que IMAP, SMTP ou [JMAP](https://en.wikipedia.org/wiki/JSON_Meta_Application_Protocol). Les protocoles d'accès standard garantissent que les clients peuvent facilement télécharger l'ensemble de leurs emails, s'ils souhaitent changer de fournisseur.
+- Utilisation de protocoles standard d'accès aux e-mails tels que IMAP, SMTP ou [JMAP](https://en.wikipedia.org/wiki/JSON_Meta_Application_Protocol). Les protocoles d'accès standard garantissent que les clients peuvent facilement télécharger l'ensemble de leurs e-mails, s'ils souhaitent changer de fournisseur.
 
 ### Confidentialité
 
@@ -434,19 +434,19 @@ Nous préférons que nos prestataires recommandés collectent le moins de donné
 **Dans le meilleur des cas :**
 
 - Accepte des [options de paiement anonymes](advanced/payments.md) ([crypto-monnaie](cryptocurrency.md), argent liquide, cartes cadeaux, etc.)
-- Hébergé dans une juridiction disposant de lois strictes en matière de protection de la confidentialité des courriels.
+- Hébergé dans une juridiction disposant de lois strictes en matière de protection de la confidentialité des e-mails.
 
 ### Sécurité
 
-Les serveurs mail traitent un grand nombre de données très sensibles. Nous nous attendons à ce que les prestataires adoptent les meilleures pratiques du secteur afin de protéger leurs membres.
+Les serveurs d'e-mail traitent un grand nombre de données très sensibles. Nous nous attendons à ce que les prestataires adoptent les meilleures pratiques du secteur afin de protéger leurs membres.
 
 **Minimum pour se qualifier :**
 
-- Protection du webmail avec 2FA, tel que TOTP.
+- Protection de l'interface d'e-mail web avec une A2F, tel que TOTP.
 - Le chiffrement à accès zéro, qui complète le chiffrement au repos. Le fournisseur ne dispose pas des clés de déchiffrement des données qu'il détient. Cela permet d'éviter qu'un employé malhonnête ne divulgue les données auxquelles il a accès ou qu'un adversaire distant ne divulgue les données qu'il a volées en obtenant un accès non autorisé au serveur.
 - Prise en charge de [DNSSEC](https://en.wikipedia.org/wiki/Domain_Name_System_Security_Extensions).
 - Aucune erreurs ou vulnérabilités TLS lors du profilage par des outils tels que [Hardenize](https://www.hardenize.com/), [testssl.sh](https://testssl.sh/), ou [Qualys SSL Labs](https://www.ssllabs.com/ssltest); cela inclut les erreurs liées aux certificats et les paramètres DH faibles, tels que ceux qui ont conduit à [Logjam](https://en.wikipedia.org/wiki/Logjam_(computer_security)).
-- Une préférence, pour les serveurs (facultatif sur TLSv1.3), pour les suites de chiffrement fortes qui prennent en charge la confidentialité persistante et le chiffrement authentifié.
+- Une préférence pour les serveurs (facultatif sur TLSv1.3) pour des suites de chiffrement fortes qui prennent en charge la confidentialité persistante et le chiffrement authentifié.
 - Une politique valide [MTA-STS](https://tools.ietf.org/html/rfc8461) et [TLS-RPT](https://tools.ietf.org/html/rfc8460).
 - Des enregistrements [DANE](https://en.wikipedia.org/wiki/DNS-based_Authentication_of_Named_Entities) valides.
 - Des enregistrements [SPF](https://fr.wikipedia.org/wiki/Sender_Policy_Framework) et [DKIM](https://fr.wikipedia.org/wiki/DomainKeys_Identified_Mail) valides.
@@ -456,7 +456,7 @@ Les serveurs mail traitent un grand nombre de données très sensibles. Nous nou
 - Des normes de sécurité des sites web telles que :
     - [HTTP Strict Transport Security](https://fr.wikipedia.org/wiki/HTTP_Strict_Transport_Security)
     - Une [Intégrité des sous-ressources](https://en.wikipedia.org/wiki/Subresource_Integrity) si des éléments sont chargés depuis des domaines externes.
-- Doit prendre en charge l'affichage des [en-têtes de message](https://en.wikipedia.org/wiki/Email#Message_header), car il s'agit d'une fonction d'analyse scientifique essentielle pour déterminer si un email est une tentative de hammeçonnage.
+- Doit prendre en charge l'affichage des [en-têtes de message](https://en.wikipedia.org/wiki/Email#Message_header), car il s'agit d'une fonction d'analyse scientifique essentielle pour déterminer si un e-mail est une tentative de hammeçonnage.
 
 **Dans le meilleur des cas :**
 
@@ -470,7 +470,7 @@ Les serveurs mail traitent un grand nombre de données très sensibles. Nous nou
 
 ### Confiance
 
-Vous ne confieriez pas vos finances à une personne ayant une fausse identité, alors pourquoi lui confier vos emails ? Nous exigeons de nos fournisseurs recommandés qu'ils rendent public leur propriété ou leur direction. Nous aimerions également voir des rapports de transparence fréquents, notamment en ce qui concerne la manière dont les demandes de gouvernement sont traitées.
+Vous ne confieriez pas vos finances à une personne ayant une fausse identité, alors pourquoi lui confier vos e-mails ? Nous exigeons de nos fournisseurs recommandés qu'ils rendent public leur propriété ou leur direction. Nous aimerions également voir des rapports de transparence fréquents, notamment en ce qui concerne la manière dont les demandes de gouvernement sont traitées.
 
 **Minimum pour se qualifier :**
 
@@ -483,7 +483,7 @@ Vous ne confieriez pas vos finances à une personne ayant une fausse identité, 
 
 ### Marketing
 
-Avec les fournisseurs d'email que nous recommandons, nous aimons voir un marketing responsable.
+Avec les fournisseurs d'e-mail que nous recommandons, nous aimons voir un marketing responsable.
 
 **Minimum pour se qualifier :**
 
@@ -494,7 +494,7 @@ Ne doit pas avoir de marketing irresponsable :
 - Prétendre à un "chiffrement incassable". Le chiffrement doit être utilisé en supposant qu'il ne soit plus secret dans le futur, lorsque la technologie existera pour le décrypter.
 - Garantir la protection de l'anonymat à 100%. Lorsque quelqu'un prétend que quelque chose est à 100%, cela signifie qu'il n'y a aucune certitude d'échec. Nous savons que les gens peuvent assez facilement se désanonymiser de plusieurs façons, par exemple :
 
-- Réutiliser des informations personnelles (par exemple comptes d'email, pseudonymes uniques, etc.) auxquelles ils ont eu accès sans logiciel d'anonymat (Tor, VPN, etc.)
+- Réutiliser des informations personnelles (par exemple comptes d'e-mail, pseudonymes uniques, etc.) auxquelles ils ont eu accès sans logiciel d'anonymat (Tor, VPN, etc.)
 - [Empreinte numérique des navigateurs](https://fr.wikipedia.org/wiki/Empreinte_digitale_d%27appareil)
 
 **Dans le meilleur des cas :**
