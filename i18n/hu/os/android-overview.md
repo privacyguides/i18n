@@ -6,9 +6,9 @@ description: Az Android egy nyílt forráskódú operációs rendszer, amely er�
 
 ![Android logo](../assets/img/android/android.svg){ align=right }
 
-The **Android Open Source Project** is a secure mobile operating system featuring strong [app sandboxing](https://source.android.com/security/app-sandbox), [Verified Boot](https://source.android.com/security/verifiedboot) (AVB), and a robust [permission](https://developer.android.com/guide/topics/permissions/overview) control system.
+Az **Android Nyílt Forráskódú Projekt** egy biztonságos mobil operációs rendszer, amely erős [app sandbox-kszal](https://source.android.com/security/app-sandbox), [Verified Boot-tal](https://source.android.com/security/verifiedboot) (AVB) és egy erőteljes [engedély](https://developer.android.com/guide/topics/permissions/overview) ellenőrző rendszerrel rendelkezik.
 
-## A mi tanácsunk
+## A mi tanácsaink
 
 ### Egy Android disztribúció kiválasztása
 
@@ -34,15 +34,15 @@ Nem hisszük, hogy egy telefon rootolásával járó biztonsági áldozatok meg�
 
 Fontos, hogy ne használj egy [lejárt életciklusú](https://endoflife.date/android) Android verziót. Az Android újabb verziói nemcsak biztonsági frissítéseket kapnak az operációs rendszerhez, hanem fontos adatvédelmi fejlesztéseket is.
 
-For example, [prior to Android 10](https://developer.android.com/about/versions/10/privacy/changes) any apps with the [`READ_PHONE_STATE`](https://developer.android.com/reference/android/Manifest.permission#READ_PHONE_STATE) permission could access sensitive and unique serial numbers of your phone such as [IMEI](https://en.wikipedia.org/wiki/International_Mobile_Equipment_Identity), [MEID](https://en.wikipedia.org/wiki/Mobile_equipment_identifier), or your SIM card's [IMSI](https://en.wikipedia.org/wiki/International_mobile_subscriber_identity); whereas now they must be system apps to do so. A rendszeralkalmazásokat csak az OEM vagy az Android disztribúció biztosítja.
+Például [Android 10 előtt](https://developer.android.com/about/versions/10/privacy/changes) a [`READ_PHONE_STATE`](https://developer.android.com/reference/android/Manifest.permission#READ_PHONE_STATE) engedéllyel rendelkező alkalmazások hozzáférhettek a telefon érzékeny és egyedi sorozatszámaihoz, mint például az [IMEI](https://en.wikipedia.org/wiki/International_Mobile_Equipment_Identity), [MEID](https://en.wikipedia.org/wiki/Mobile_equipment_identifier) vagy a SIM-kárty [IMSI](https://en.wikipedia.org/wiki/International_mobile_subscriber_identity)-jéhez; míg most már csak rendszeralkalmazások tehetik ezt meg. A rendszeralkalmazásokat csak az OEM vagy az Android disztribúció nyújtja.
 
-### Média megosztás
+### Média megosztása
 
-You can avoid giving many apps permission to access your media with Android's built-in sharing features. Many applications allow you to "share" a file with them for media upload.
+Az Android beépített megosztási funkcióival elkerülheted, hogy több alkalmazásnak engedélyezd a médiához való hozzáférést. Több alkalmazás lehetővé teszi, hogy "megossz" egy fájlt velük médiafeltöltéshez.
 
-For example, if you want to post a picture to Discord you can open your file manager or gallery and share that picture with the Discord app, instead of granting Discord full access to your media and photos.
+Ha például egy képet szeretnél közzétenni Discordon, megnyithatod a fájlkezelőt vagy a galériát, és megoszthatod a képet a Discord alkalmazással, ahelyett, hogy teljes hozzáférést adnál a Discordnak a médiádhoz és a fényképeidhez.
 
-## Biztonsági védelem
+## Biztonsági védelmek
 
 ### Verified Boot
 
