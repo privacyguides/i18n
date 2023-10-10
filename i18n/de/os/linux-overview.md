@@ -1,34 +1,34 @@
 ---
-title: Linux Overview
+title: Linux Übersicht
 icon: simple/linux
-description: Linux is an open-source, privacy-focused desktop operating system alternative, but not all distribitions are created equal.
+description: Linux ist eine Open-Source-Alternative für Desktop-Betriebssysteme, bei der der Datenschutz im Vordergrund steht, aber nicht alle Distributionen sind gleich.
 ---
 
-**Linux** is an open-source, privacy-focused desktop operating system alternative. In the face of pervasive telemetry and other privacy-encroaching technologies in mainstream operating systems, Linux desktop has remained the clear choice for people looking for total control over their computers from the ground up.
+**Linux** ist eine Open-Source-Alternative für Desktop-Betriebssysteme, bei der die Privatsphäre im Vordergrund steht. Angesichts der allgegenwärtigen Telemetrie und anderer die Privatsphäre verletzender Technologien in Mainstream-Betriebssystemen ist Linux nach wie vor die erste Wahl für Menschen, die von Grund auf die volle Kontrolle über ihren Computer haben wollen.
 
-Our website generally uses the term “Linux” to describe **desktop** Linux distributions. Other operating systems which also use the Linux kernel such as ChromeOS, Android, and Qubes OS are not discussed on this page.
+Auf unserer Website wird der Begriff "Linux" im Allgemeinen zur Beschreibung von **Desktop** Linux-Distributionen verwendet. Andere Betriebssysteme, die ebenfalls den Linux-Kernel verwenden, wie ChromeOS, Android und Qubes OS, werden auf dieser Seite nicht behandelt.
 
-[Our Linux Recommendations :material-arrow-right-drop-circle:](../desktop.md ""){.md-button}
+[Unsere Linux-Empfehlungen :material-arrow-right-drop-circle:](../desktop.md ""){.md-button}
 
-## Privacy Notes
+## Hinweise zum Datenschutz
 
-There are some notable privacy concerns with Linux which you should be aware of. Despite these drawbacks, desktop Linux distributions are still great for most people who want to:
+Es gibt einige Datenschutzprobleme bei Linux, die Sie beachten sollten. Trotz dieser Nachteile sind Desktop-Linux-Distributionen immer noch großartig für die meisten Menschen, die:
 
-- Avoid telemetry that often comes with proprietary operating systems
-- Maintain [software freedom](https://www.gnu.org/philosophy/free-sw.en.html#four-freedoms)
-- Use privacy focused systems such as [Whonix](https://www.whonix.org) or [Tails](https://tails.boum.org/)
+- Telemetrie vermeiden wollen, die oft mit proprietären Betriebssystemen einhergeht
+- [Freie Software](https://www.gnu.org/philosophy/free-sw.en.html#four-freedoms) bevorzugen
+- Datenschutzfreundliche Systeme wie [Whonix](https://www.whonix.org) oder [Tails](https://tails.boum.org/) verwenden
 
-### Open Source Security
+### Open-Source Sicherheit
 
-It is a [common misconception](../basics/common-misconceptions.md#open-source-software-is-always-secure-or-proprietary-software-is-more-secure) that Linux and other open-source software is inherently secure simply because the source code is available. There is an expectation that community verification occurs regularly, but this isn’t always [the case](https://seirdy.one/posts/2022/02/02/floss-security/).
+Es ist ein [verbreiteter Irrglaube](../basics/common-misconceptions.md#open-source-software-is-always-secure-or-proprietary-software-is-more-secure), dass Linux und andere Open-Source-Software von Natur aus sicher ist, nur weil der Quellcode verfügbar ist. Es wird erwartet, dass eine regelmäßige Überprüfung durch die Community erfolgt, aber das ist nicht immer der Fall.
 
-In reality, distro security depends on a number of factors, such as project activity, developer experience, the level of rigor applied to code reviews, and how often attention is given to specific parts of the codebase that may go untouched for years.
+Tatsächlich hängt die Sicherheit einer Distribution von einer Reihe von Faktoren ab, wie z. B. der Projektaktivität, der Erfahrung der Entwickler, der Sorgfalt, mit der Code-Reviews durchgeführt werden, und der Häufigkeit, mit der bestimmte Teile der Codebase überprüft werden, die möglicherweise jahrelang unangetastet bleiben.
 
-### Missing Security Features
+### Fehlende Sicherheits-Features
 
-At the moment, desktop Linux [falls behind alternatives](https://discussion.fedoraproject.org/t/fedora-strategy-2028-proposal-fedora-linux-is-as-secure-as-macos/46899/9) like macOS or Android when it comes to certain security features. We hope to see improvements in these areas in the future.
+Zurzeit bleibt Desktop-Linux bei [bestimmten Sicherheitsfunktionen hinter Alternativen](https://discussion.fedoraproject.org/t/fedora-strategy-2028-proposal-fedora-linux-is-as-secure-as-macos/46899/9) wie macOS oder Android zurück. Wir hoffen, dass es in diesen Bereichen in Zukunft zu Verbesserungen kommen wird.
 
-- **Verified boot** on Linux is not as robust as alternatives such as Apple’s [Secure Boot](https://support.apple.com/guide/security/secac71d5623/web) or Android’s [Verified Boot](https://source.android.com/security/verifiedboot). Verified boot prevents persistent tampering by malware and [evil maid attacks](https://en.wikipedia.org/wiki/Evil_Maid_attack), but is still largely [unavailable on even the most advanced distributions](https://discussion.fedoraproject.org/t/has-silverblue-achieved-verified-boot/27251/3).
+- **Verified Boot** unter Linux ist nicht so robust wie Alternativen wie Apples [Secure Boot](https://support.apple.com/guide/security/secac71d5623/web) oder Androids [Verified Boot](https://source.android.com/security/verifiedboot). Verified boot prevents persistent tampering by malware and [evil maid attacks](https://en.wikipedia.org/wiki/Evil_Maid_attack), but is still largely [unavailable on even the most advanced distributions](https://discussion.fedoraproject.org/t/has-silverblue-achieved-verified-boot/27251/3).
 
 - **Strong sandboxing** for apps on Linux is severely lacking, even with containerized apps like Flatpaks or sandboxing solutions like Firejail. Flatpak is the most promising sandboxing utility for Linux thus far, but is still deficient in many areas and allows for [unsafe defaults](https://flatkill.org/2020/) which allow most apps to trivially bypass their sandbox.
 
