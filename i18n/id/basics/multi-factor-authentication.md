@@ -4,23 +4,23 @@ icon: 'material/two-factor-authentication'
 description: MFA adalah mekanisme keamanan penting untuk mengamankan akun online Anda, tetapi beberapa metode lebih kuat daripada yang lain.
 ---
 
-**Multi-Factor Authentication** (**MFA**) is a security mechanism that requires additional steps beyond entering your username (or email) and password. Metode yang paling umum adalah kode terbatas waktu yang mungkin Anda terima dari SMS atau aplikasi.
+**Autentikasi Multifaktor** (**Multi-Factor Authentication; MFA**) adalah mekanisme keamanan yang memerlukan langkah tambahan selain memasukkan nama pengguna (atau surel) dan kata sandi Anda. Metode yang paling umum adalah kode terbatas waktu yang mungkin Anda terima dari SMS atau aplikasi.
 
-Biasanya, jika seorang peretas (atau musuh) dapat mengetahui kata sandi Anda, maka mereka akan mendapatkan akses ke akun milik kata sandi tersebut. An account with MFA forces the hacker to have both the password (something you *know*) and a device that you own (something you *have*), like your phone.
+Biasanya, jika seorang peretas (atau musuh) berhasil mengetahui kata sandi Anda, mereka akan mendapatkan akses ke akun pemilik kata sandi tersebut. Akun dengan MFA memaksa peretas untuk mendapatkan kata sandi (sesuatu yang Anda *tahu*) dan perangkat yang Anda miliki (sesuatu yang Anda *miliki*), seperti ponsel Anda.
 
-MFA methods vary in security, but are based on the premise that the more difficult it is for an attacker to gain access to your MFA method, the better. Examples of MFA methods (from weakest to strongest) include SMS, Email codes, app push notifications, TOTP, Yubico OTP and FIDO.
+Metode MFA memiliki keamanan yang berbeda-beda, tetapi didasarkan pada premis bahwa semakin sulit bagi penyerang untuk mendapatkan akses ke metode MFA Anda, maka semakin baik. Contoh metode MFA (dari yang paling lemah hingga yang paling kuat) adalah SMS, kode surel, notifikasi push aplikasi, TOTP, OTP Yubico, dan FIDO.
 
-## MFA Method Comparison
+## Perbandingan Metode MFA
 
-### SMS or Email MFA
+### MFA melalui SMS atau Surel
 
-Receiving OTP codes via SMS or email are one of the weaker ways to secure your accounts with MFA. Obtaining a code by email or SMS takes away from the "something you *have*" idea, because there are a variety of ways a hacker could [take over your phone number](https://en.wikipedia.org/wiki/SIM_swap_scam) or gain access to your email without having physical access to any of your devices at all. Jika orang yang tidak berwenang mendapatkan akses ke email Anda, mereka akan dapat menggunakan akses tersebut untuk mengatur ulang kata sandi dan menerima kode autentikasi, sehingga memberikan akses penuh ke akun Anda.
+Menerima kode OTP melalui SMS atau surel adalah salah satu cara yang lemah untuk mengamankan akun Anda dengan MFA. Mendapatkan kode melalui surel atau SMS menghilangkan gagasan "sesuatu yang Anda *miliki*", karena ada berbagai cara seorang peretas dapat [mengambil alih nomor telepon Anda](https://en.wikipedia.org/wiki/SIM_swap_scam) atau mendapatkan akses ke surel Anda tanpa memiliki akses fisik ke perangkat Anda sama sekali. Jika orang yang tidak berwenang mendapatkan akses ke surel Anda, orang tersebut akan dapat menggunakan akses tersebut untuk mengatur ulang kata sandi dan menerima kode autentikasi, sehingga memberikan akses penuh ke akun Anda.
 
-### Push Notifications
+### Notifikasi Push
 
-Push notification MFA takes the form of a message being sent to an app on your phone asking you to confirm new account logins. This method is a lot better than SMS or email, since an attacker typically wouldn't be able to get these push notifications without having an already logged-in device, which means they would need to compromise one of your other devices first.
+MFA Notifikasi Push berbentuk pesan yang dikirim ke aplikasi di ponsel Anda yang meminta Anda untuk mengonfirmasi log masuk akun baru. Metode ini jauh lebih baik daripada SMS atau surel, karena penyerang biasanya tidak akan bisa mendapatkan notifikasi Push ini tanpa memiliki perangkat yang sudah masuk log, yang berarti mereka harus membobol salah satu perangkat Anda yang lain terlebih dahulu.
 
-We all make mistakes, and there is the risk that you might accept the login attempt by accident. Push notification login authorizations are typically sent to *all* your devices at once, widening the availability of the MFA code if you have many devices.
+Kita semua pernah melakukan kesalahan, dan ada risiko bahwa Anda mungkin menerima upaya log masuk secara tidak sengaja. Push notification login authorizations are typically sent to *all* your devices at once, widening the availability of the MFA code if you have many devices.
 
 The security of push notification MFA is dependent on both the quality of the app, the server component and the trust of the developer who produces it. Menginstal aplikasi mungkin juga mengharuskan Anda untuk menerima hak istimewa invasif yang memberikan akses ke data lain pada perangkat Anda. An individual app also requires that you have a specific app for each service which may not require a password to open, unlike a good TOTP generator app.
 

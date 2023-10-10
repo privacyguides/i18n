@@ -1,19 +1,19 @@
 ---
-meta_title: "Why Email Isn't the Best Choice for Privacy and Security - Privacy Guides"
-title: Email Security
+meta_title: "Чому електронна пошта - не найкращий вибір для забезпечення конфіденційності та безпеки - Privacy Guides"
+title: Безпека електронної пошти
 icon: material/email
-description: Email is inherently insecure in many ways, and these are some of the reasons it isn't our top choice for secure communications.
+description: Електронна пошта за своєю природою є небезпечною, і це одна з причин, чому вона не найкращий вибір для безпечного спілкування.
 ---
 
-Email is an insecure form of communication by default. You can improve your email security with tools such as OpenPGP, which add End-to-End Encryption to your messages, but OpenPGP still has a number of drawbacks compared to encryption in other messaging applications, and some email data can never be encrypted inherently due to how email is designed.
+Електронна пошта за замовчуванням є незахищеною формою комунікації. Ви можете підвищити безпеку своєї електронної пошти за допомогою таких інструментів, як OpenPGP, які додають наскрізне шифрування до ваших повідомлень, але OpenPGP все ще має ряд недоліків порівняно з шифруванням в інших програмах обміну повідомленнями, а деякі дані електронної пошти ніколи не можуть бути зашифровані за своєю суттю через те, як влаштована електронна пошта.
 
-As a result, email is best used for receiving transactional emails (like notifications, verification emails, password resets, etc.) from the services you sign up for online, not for communicating with others.
+Як наслідок, електронну пошту найкраще використовувати для отримання транзакційних повідомлень (наприклад, сповіщень, підтверджень, скидання паролів тощо) від сервісів, на які ви зареєструвалися в Інтернеті, а не для спілкування з іншими людьми.
 
-## Email Encryption Overview
+## Огляд шифрування електронної пошти
 
-The standard way to add E2EE to emails between different email providers is by using OpenPGP. There are different implementations of the OpenPGP standard, the most common being [GnuPG](https://en.wikipedia.org/wiki/GNU_Privacy_Guard) and [OpenPGP.js](https://openpgpjs.org).
+Стандартним способом додавання E2EE до листів між різними поштовими провайдерами є використання OpenPGP. Існують різні реалізації стандарту OpenPGP, найпоширенішими з яких є [GnuPG](https://uk.wikipedia.org/wiki/GNU_Privacy_Guard) та [OpenPGP.js](https://openpgpjs.org).
 
-There is another standard which is popular with business called [S/MIME](https://en.wikipedia.org/wiki/S/MIME), however, it requires a certificate issued from a [Certificate Authority](https://en.wikipedia.org/wiki/Certificate_authority) (not all of them issue S/MIME certificates). It has support in [Google Workplace](https://support.google.com/a/topic/9061730?hl=en&ref_topic=9061731) and [Outlook for Web or Exchange Server 2016, 2019](https://support.office.com/en-us/article/encrypt-messages-by-using-s-mime-in-outlook-on-the-web-878c79fc-7088-4b39-966f-14512658f480).
+Існує ще один стандарт, популярний серед бізнесу, який називається [S/MIME](https://uk.wikipedia.org/wiki/S/MIME), однак для нього потрібен сертифікат, виданий [Центром сертифікації](https://uk.wikipedia.org/wiki/%D0%90%D0%BA%D1%80%D0%B5%D0%B4%D0%B8%D1%82%D0%BE%D0%B2%D0%B0%D0%BD%D0%B8%D0%B9_%D1%86%D0%B5%D0%BD%D1%82%D1%80_%D1%81%D0%B5%D1%80%D1%82%D0%B8%D1%84%D1%96%D0%BA%D0%B0%D1%86%D1%96%D1%97_%D0%BA%D0%BB%D1%8E%D1%87%D1%96%D0%B2) (не всі вони видають сертифікати S/MIME). It has support in [Google Workplace](https://support.google.com/a/topic/9061730?hl=en&ref_topic=9061731) and [Outlook for Web or Exchange Server 2016, 2019](https://support.office.com/en-us/article/encrypt-messages-by-using-s-mime-in-outlook-on-the-web-878c79fc-7088-4b39-966f-14512658f480).
 
 Even if you use OpenPGP, it does not support [forward secrecy](https://en.wikipedia.org/wiki/Forward_secrecy), which means if either your or the recipient's private key is ever stolen, all previous messages encrypted with it will be exposed. This is why we recommend [instant messengers](../real-time-communication.md) which implement forward secrecy over email for person-to-person communications whenever possible.
 
