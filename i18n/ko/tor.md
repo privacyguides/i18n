@@ -99,6 +99,24 @@ Tor 브라우저는 핑거프린팅 및 브라우저 설정 기반 사용자 식
     
     모든 버전은 동일한 서명을 사용하여 서명되므로 서로 호환됩니다.
 
+### Onion Browser
+
+!!! recommendation
+
+    ![Onion Browser logo](assets/img/self-contained-networks/onion_browser.svg){ align=right }
+    
+    **Onion Browser** is an open-source browser that lets you browse the web anonymously over the Tor network on iOS devices and is endorsed by the [Tor Project](https://support.torproject.org/glossary/onion-browser/).
+    
+    [:octicons-home-16: Homepage](https://onionbrowser.com){ .md-button .md-button--primary }
+    [:octicons-eye-16:](https://onionbrowser.com/privacy-policy){ .card-link title="Privacy Policy" }
+    [:octicons-info-16:](https://onionbrowser.com/faqs){ .card-link title=Documentation}
+    [:octicons-code-16:](https://github.com/OnionBrowser/OnionBrowser){ .card-link title="Source Code" }
+    [:octicons-heart-16:](https://onionbrowser.com/donate){ .card-link title=Contribute }
+    
+    ??? downloads
+    
+        - [:simple-appstore: App Store](https://apps.apple.com/app/id519296448)
+
 ## 릴레이 및 브리지
 
 ### Snowflake
