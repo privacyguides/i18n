@@ -99,21 +99,21 @@ Nous avons précédemment recommandé d'activer la préférence *Isolate Destina
     
     Toutes les versions sont signées en utilisant la même signature, elles devraient donc être compatibles entre elles.
 
-### Onion Browser
+### Navigateur Onion
 
 !!! recommendation
 
-    ![Onion Browser logo](assets/img/self-contained-networks/onion_browser.svg){ align=right }
+    ![logo Navigateur Onion](assets/img/self-contained-networks/onion_browser.svg){ align=right }
     
-    **Onion Browser** is an open-source browser that lets you browse the web anonymously over the Tor network on iOS devices and is endorsed by the [Tor Project](https://support.torproject.org/glossary/onion-browser/).
+    Le **Navigateur Onion** est un navigateur open-source qui vous permet de naviguer anonymement sur le web via le réseau Tor sur les appareils iOS et qui est soutenu par le [Projet Tor](https://support.torproject.org/glossary/onion-browser/).
     
-    [:octicons-home-16: Homepage](https://onionbrowser.com){ .md-button .md-button--primary }
-    [:octicons-eye-16:](https://onionbrowser.com/privacy-policy){ .card-link title="Privacy Policy" }
+    [:octicons-home-16: Page d'accueil](https://onionbrowser.com){ .md-button .md-button--primary }
+    [:octicons-eye-16:](https://onionbrowser.com/privacy-policy){ .card-link title="Politique de confidentialité" }
     [:octicons-info-16:](https://onionbrowser.com/faqs){ .card-link title=Documentation}
-    [:octicons-code-16:](https://github.com/OnionBrowser/OnionBrowser){ .card-link title="Source Code" }
-    [:octicons-heart-16:](https://onionbrowser.com/donate){ .card-link title=Contribute }
+    [:octicons-code-16:](https://github.com/OnionBrowser/OnionBrowser){ .card-link title="Code source" }
+    [:octicons-heart-16:](https://onionbrowser.com/donate){ .card-link title=Contribuer }
     
-    ??? downloads
+    ??? downloads "Téléchargements"
     
         - [:simple-appstore: App Store](https://apps.apple.com/app/id519296448)
 

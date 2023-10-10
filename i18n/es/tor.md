@@ -105,15 +105,15 @@ Anteriormente recomendamos activar la preferencia *Aislar direcciones de destino
 
     ![Onion Browser logo](assets/img/self-contained-networks/onion_browser.svg){ align=right }
     
-    **Onion Browser** is an open-source browser that lets you browse the web anonymously over the Tor network on iOS devices and is endorsed by the [Tor Project](https://support.torproject.org/glossary/onion-browser/).
+    **Onion Browser** es un navegador de código abierto que te permite navegar de manera anónima, a través de la red Tor en dispositivos iOS y se encuentra respaldado por el [Proyecto Tor](https://support.torproject.org/glossary/onion-browser/).
     
     [:octicons-home-16: Homepage](https://onionbrowser.com){ .md-button .md-button--primary }
-    [:octicons-eye-16:](https://onionbrowser.com/privacy-policy){ .card-link title="Privacy Policy" }
-    [:octicons-info-16:](https://onionbrowser.com/faqs){ .card-link title=Documentation}
-    [:octicons-code-16:](https://github.com/OnionBrowser/OnionBrowser){ .card-link title="Source Code" }
-    [:octicons-heart-16:](https://onionbrowser.com/donate){ .card-link title=Contribute }
+    [:octicons-eye-16:](https://onionbrowser.com/privacy-policy){ .card-link title="Política de privacidad" }
+    [:octicons-info-16:](https://onionbrowser.com/faqs){ .card-link title="Documentación" }
+    [:octicons-code-16:](https://github.com/OnionBrowser/OnionBrowser){ .card-link title="Código fuente" }
+    [:octicons-heart-16:](https://onionbrowser.com/donate){ .card-link title="Contribuir" }
     
-    ??? downloads
+    ??? downloads "Descargas"
     
         - [:simple-appstore: App Store](https://apps.apple.com/app/id519296448)
 
@@ -121,7 +121,7 @@ Anteriormente recomendamos activar la preferencia *Aislar direcciones de destino
 
 ### Snowflake
 
-!!! recommendation
+!!! recommendation "Recomendación"
 
     ![Snowflake logo](assets/img/browsers/snowflake.svg#only-light){ align=right }
     ![Snowflake logo](assets/img/browsers/snowflake-dark.svg#only-dark){ align=right }
