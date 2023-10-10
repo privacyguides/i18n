@@ -494,8 +494,8 @@ SimpleLogin 在  2022年4 月 8 日被 [ Proton AG](https://proton.me/news/proto
 - 宣稱破解不了的加密 使用加密時應意識到，當有一天技術足以破解它時，它就不再是祕密的。
 - 保證 100% 匿名性保護。 當有人聲稱某件事是100 ％時，這意味著失敗沒有確定性。 我們知道人們可以很容易地以多種方式去匿名化自己，例如：
 
-- 用戶在無使用匿名軟件( Tor ， VPN等）時訪問留下個人資料（電子郵件帳戶、獨特的假名等）被一再使用，
-- [瀏覽器指紋](https://en.wikipedia.org/wiki/Device_fingerprint#Browser_fingerprint)
+    - Reusing personal information e.g. (email accounts, unique pseudonyms, etc.) that they accessed without anonymity software (Tor, VPN, etc.)
+    - [瀏覽器指紋](https://en.wikipedia.org/wiki/Device_fingerprint#Browser_fingerprint)
 
 **最佳案例：**
 

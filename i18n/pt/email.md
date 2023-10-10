@@ -502,8 +502,8 @@ Não deverão ter políticas de marketing irresponsáveis:
 - Reivindicações de "encriptação inquebrável" A encriptação deve ser utilizada com a consciência de poder vir a não ser secreta no futuro, quando existir tecnologia para a decifrar.
 - Garantir a proteção do anonimato a 100%. Quando alguém afirma que algo é 100%, significa que não há possibilidade de falha. Sabemos que as pessoas podem desanonimizar-se muito facilmente de várias formas, por exemplo:
 
-- Reutilizar informações pessoais, por exemplo (contas de e-mail, pseudónimos únicos, etc.) a que acederam sem software de anonimato (Tor, VPN, etc.)
-- [Impressão digital do browser](https://en.wikipedia.org/wiki/Device_fingerprint#Browser_fingerprint)
+    - Reusing personal information e.g. (email accounts, unique pseudonyms, etc.) that they accessed without anonymity software (Tor, VPN, etc.)
+    - [Impressão digital do browser](https://en.wikipedia.org/wiki/Device_fingerprint#Browser_fingerprint)
 
 **Melhor caso:**
 

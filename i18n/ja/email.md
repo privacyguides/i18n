@@ -494,8 +494,8 @@ We regard these features as important in order to provide a safe and optimal ser
 - 「破れない暗号化」という主張。 暗号化は、それを解読する技術が存在する将来に、秘密ではなくなるかもしれないという意図のもとに使用される必要があります。
 - 匿名性を100％保証すること。 誰かが何かを100％だと主張するとき、それは失敗の確実性がないことを意味します。 私たちは、人々が多くの方法で簡単に匿名化を解除できることを知っています：
 
-- 匿名化ソフトウェア（Tor、VPNなど）を使わずにアクセスした個人情報（メールアカウント、固有のペンネームなど）を再利用する。
-- [ブラウザフィンガープリント](https://en.wikipedia.org/wiki/Device_fingerprint#Browser_fingerprint)
+    - Reusing personal information e.g. (email accounts, unique pseudonyms, etc.) that they accessed without anonymity software (Tor, VPN, etc.)
+    - [ブラウザフィンガープリント](https://en.wikipedia.org/wiki/Device_fingerprint#Browser_fingerprint)
 
 **最良の場合：**
 

@@ -80,7 +80,7 @@ Die Optionen von Shields können je nach Bedarf für jede Website heruntergestuf
 
 <div class="annotate" markdown>
 
-- [x] Select **Aggressive** under **Block trackers & ads**
+- [x] Wähle **Tracker und Werbung blockieren (aggressiv)** unter **Tracker & Werbung blockieren**
 
     ??? warning "Standard-Filterlisten verwenden"
         Brave ermöglicht die Auswahl zusätzlicher Inhaltsfilter auf der internen Seite `brave://adblock`. Wir raten davon ab diese Funktion zu verwenden. Verwende stattdessen die voreingestellten Filterlisten. Die Verwendung zusätzlicher Listen hebt dich von anderen Brave-Benutzern ab, kann die Angriffsfläche vergrößern, wenn es eine Sicherheitslücke in Brave gibt und eine bösartige Regel zu einer von dir verwendeten Listen hinzugefügt wird.
@@ -131,7 +131,7 @@ Unter iOS [muss](https://developer.apple.com/app-store/review/guidelines) jede A
 
     ![Safari logo](assets/img/browsers/safari.svg){ align=right }
     
-    **Safari** ist der Standard-Browser in iOS. It includes [privacy features](https://support.apple.com/guide/iphone/browse-the-web-privately-iphb01fc3c85/15.0/ios/15.0) such as [Intelligent Tracking Prevention](https://webkit.org/blog/7675/intelligent-tracking-prevention/), Privacy Report, isolated and ephemeral Private Browsing tabs, iCloud Private Relay, and fingerprinting reduction by presenting a simplified version of the system configuration to websites so more devices look identical.
+    **Safari** ist der Standard-Browser in iOS. Es umfasst [Datenschutzfunktionen](https://support.apple.com/guide/iphone/browse-the-web-privately-iphb01fc3c85/15.0/ios/15.0) wie [Intelligent Tracking Prevention](https://webkit.org/blog/7675/intelligent-tracking-prevention/), Privacy Report, isolierte und ephemere private Browser-Tabs, iCloud Private Relay und Maßnahmen gegen Fingerprinting, die Websites eine vereinfachte Version der Systemkonfiguration angezeigen wird, sodass mehr Geräte identisch aussehen.
     
     [:octicons-home-16: Webseite](https://www.apple.com/safari/){ .md-button .md-button--primary }
     [:octicons-eye-16:](https://www.apple.com/legal/privacy/data/en/safari/){ .card-link title="Safari & Datenschutz" }
@@ -143,7 +143,7 @@ Diese Optionen finden Sie unter :gear: **Einstellungen** → **Safari** → **Da
 
 ##### Verhindern von seitenübergreifendem Tracking
 
-- [x] Enable **Prevent Cross-Site Tracking**
+- [x] Aktivieren Sie **Cross-Sitetracking verhindern**
 
 Dies ermöglicht WebKit's [Intelligent Tracking Protection](https://webkit.org/tracking-prevention/#intelligent-tracking-prevention-itp). Die Funktion schützt vor unerwünschtem Tracking, indem sie maschinelles Lernen auf dem Gerät nutzt, um Tracker zu stoppen. Der verbesserte Schutz vor Aktivitätenverfolgung schützt vor vielen gängigen Bedrohungen, aber er blockiert nicht alle Tracking-Möglichkeiten, da er so konzipiert ist, dass die Benutzung der Webseite nicht oder nur minimal beeinträchtigt wird.
 
@@ -151,7 +151,7 @@ Dies ermöglicht WebKit's [Intelligent Tracking Protection](https://webkit.org/t
 
 Der Datenschutzbericht bietet eine Momentaufnahme der Cross-Site-Tracker, die derzeit daran gehindert werden, auf der von Ihnen besuchten Website ein Profil zu erstellen. Es kann auch einen wöchentlichen Bericht anzeigen, aus dem hervorgeht, welche Tracker im Laufe der Zeit blockiert wurden.
 
-Privacy Report is accessible via the Page Settings menu.
+Der Datenschutzbericht ist über das Menü "Website-Einstellungen" zugänglich.
 
 ##### Datenschutzkonforme Werbemessung
 

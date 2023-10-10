@@ -494,8 +494,8 @@ Mag geen marketing hebben die onverantwoord is:
 - Claims van "onbreekbare encryptie." Encryptie moet worden gebruikt met de bedoeling dat zij in de toekomst niet meer geheim is wanneer de technologie bestaat om haar te kraken.
 - Garanties van 100% bescherming van de anonimiteit. Wanneer iemand beweert dat iets 100% is, betekent dit dat er geen zekerheid is voor mislukking. We weten dat mensen zichzelf vrij gemakkelijk kunnen deanonimiseren op een aantal manieren, bv.:
 
-- Hergebruik van persoonlijke informatie, bijv. (e-mailaccounts, unieke pseudoniemen, enz.) waartoe zij toegang hadden zonder anonimiteitssoftware (Tor, VPN, enz.)
-- [Browser vingerafdrukken](https://en.wikipedia.org/wiki/Device_fingerprint#Browser_fingerprint)
+    - Reusing personal information e.g. (email accounts, unique pseudonyms, etc.) that they accessed without anonymity software (Tor, VPN, etc.)
+    - [Browser vingerafdrukken](https://en.wikipedia.org/wiki/Device_fingerprint#Browser_fingerprint)
 
 **Beste geval:**
 

@@ -494,8 +494,8 @@ SimpleLogin [נרכשה על ידי Proton AG](https://proton.me/news/proton-and
 - טענות של "הצפנה בלתי שבירה " יש להשתמש בהצפנה מתוך כוונה שהיא לא תהיה סודית בעתיד כאשר הטכנולוגיה קיימת כדי לפצח אותה.
 - ביצוע ערבויות של הגנה על 100% אנונימיות. כשמישהו טוען שמשהו הוא 100% זה אומר שאין ודאות לכישלון. אנחנו יודעים שאנשים יכולים בקלות להפוך את עצמם לאיאנונימיים במספר דרכים, למשל.:
 
-- שימוש חוזר במידע אישי, למשל. (חשבונות דואר אלקטרוני, שמות בדויים ייחודיים וכו') שאליהם הם ניגשו ללא תוכנת אנונימיות (Tor, VPN וכו')
-- [טביעת אצבע של דפדפן](https://en.wikipedia.org/wiki/Device_fingerprint#Browser_fingerprint)
+    - Reusing personal information e.g. (email accounts, unique pseudonyms, etc.) that they accessed without anonymity software (Tor, VPN, etc.)
+    - [טביעת אצבע של דפדפן](https://en.wikipedia.org/wiki/Device_fingerprint#Browser_fingerprint)
 
 **המקרה הטוב ביותר:**
 
