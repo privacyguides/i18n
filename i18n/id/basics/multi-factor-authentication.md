@@ -1,7 +1,7 @@
 ---
 title: "Autentikasi Multifaktor"
 icon: 'material/two-factor-authentication'
-description: MFA adalah mekanisme keamanan penting untuk mengamankan akun online Anda, tetapi beberapa metode lebih kuat daripada yang lain.
+description: MFA adalah mekanisme keamanan penting untuk mengamankan akun daring Anda, tetapi beberapa metode lebih kuat daripada yang lain.
 ---
 
 **Autentikasi Multifaktor** (**Multi-Factor Authentication; MFA**) adalah mekanisme keamanan yang memerlukan langkah tambahan selain memasukkan nama pengguna (atau surel) dan kata sandi Anda. Metode yang paling umum adalah kode terbatas waktu yang mungkin Anda terima dari SMS atau aplikasi.
@@ -20,31 +20,31 @@ Menerima kode OTP melalui SMS atau surel adalah salah satu cara yang lemah untuk
 
 MFA Notifikasi Push berbentuk pesan yang dikirim ke aplikasi di ponsel Anda yang meminta Anda untuk mengonfirmasi log masuk akun baru. Metode ini jauh lebih baik daripada SMS atau surel, karena penyerang biasanya tidak akan bisa mendapatkan notifikasi Push ini tanpa memiliki perangkat yang sudah masuk log, yang berarti mereka harus membobol salah satu perangkat Anda yang lain terlebih dahulu.
 
-Kita semua pernah melakukan kesalahan, dan ada risiko bahwa Anda mungkin menerima upaya log masuk secara tidak sengaja. Push notification login authorizations are typically sent to *all* your devices at once, widening the availability of the MFA code if you have many devices.
+Kita semua pernah melakukan kesalahan, dan ada risiko bahwa Anda mungkin menerima upaya log masuk secara tidak sengaja. Otorisasi masuk melalui notifikasi Push biasanya dikirim ke *semua* perangkat Anda sekaligus, sehingga memperluas ketersediaan kode MFA jika Anda memiliki banyak perangkat.
 
-The security of push notification MFA is dependent on both the quality of the app, the server component and the trust of the developer who produces it. Menginstal aplikasi mungkin juga mengharuskan Anda untuk menerima hak istimewa invasif yang memberikan akses ke data lain pada perangkat Anda. An individual app also requires that you have a specific app for each service which may not require a password to open, unlike a good TOTP generator app.
+Keamanan MFA notifikasi Push bergantung pada kualitas aplikasi, komponen server, dan kepercayaan pengembang yang memproduksinya. Menginstal aplikasi mungkin juga mengharuskan Anda untuk menyetujui hak istimewa invasif yang memberikan akses ke data lain di perangkat Anda. Aplikasi individual juga mengharuskan Anda memiliki aplikasi khusus untuk setiap layanan yang mungkin tidak memerlukan kata sandi untuk membukanya, tidak seperti aplikasi generator TOTP yang bagus.
 
 ### Time-based One-time Password (TOTP)
 
-TOTP is one of the most common forms of MFA available. When you set up TOTP, you are generally required to scan a [QR Code](https://en.wikipedia.org/wiki/QR_code) which establishes a "[shared secret](https://en.wikipedia.org/wiki/Shared_secret)" with the service that you intend to use. The shared secret is secured inside of the authenticator app's data, and is sometimes protected by a password.
+TOTP adalah salah satu bentuk MFA yang paling umum yang tersedia. Ketika Anda menyiapkan TOTP, Anda biasanya diminta untuk memindai [Kode QR](https://en.wikipedia.org/wiki/QR_code) yang membentuk "[rahasia bersama](https://en.wikipedia.org/wiki/Shared_secret)" dengan layanan yang ingin Anda gunakan. Rahasia bersama tersebut diamankan dalam data aplikasi autentikator, dan terkadang dilindungi oleh kata sandi.
 
-The time-limited code is then derived from the shared secret and the current time. As the code is only valid for a short time, without access to the shared secret, an adversary cannot generate new codes.
+Kode terbatas waktunya kemudian diperoleh dari rahasia bersama dan waktu saat ini. Karena kode hanya berlaku untuk waktu yang singkat, tanpa akses ke rahasia bersama, musuh tidak dapat membuat kode baru.
 
-If you have a hardware security key with TOTP support (such as a YubiKey with [Yubico Authenticator](https://www.yubico.com/products/yubico-authenticator/)), we recommend that you store your "shared secrets" on the hardware. Hardware such as the YubiKey was developed with the intention of making the "shared secret" difficult to extract and copy. A YubiKey is also not connected to the Internet, unlike a phone with a TOTP app.
+Jika Anda memiliki kunci keamanan perangkat keras dengan dukungan TOTP (seperti YubiKey dengan [Yubico Authenticator](https://www.yubico.com/products/yubico-authenticator/)), kami sarankan agar Anda menyimpan "rahasia bersama" di perangkat keras. Perangkat keras seperti YubiKey dikembangkan dengan tujuan untuk membuat "rahasia bersama" menjadi sulit untuk diekstrak dan disalin. YubiKey juga tidak terhubung ke Internet, tidak seperti ponsel dengan aplikasi TOTP.
 
-Unlike [WebAuthn](#fido-fast-identity-online), TOTP offers no protection against [phishing](https://en.wikipedia.org/wiki/Phishing) or reuse attacks. If an adversary obtains a valid code from you, they may use it as many times as they like until it expires (generally 60 seconds).
+Tidak seperti [WebAuthn](#fido-fast-identity-online), TOTP tidak menawarkan perlindungan terhadap [pengelabuan](https://en.wikipedia.org/wiki/Phishing) atau serangan penggunaan ulang. Jika musuh mendapatkan kode yang valid dari Anda, mereka bisa menggunakannya sebanyak yang mereka suka sampai kode tersebut kedaluwarsa (umumnya 60 detik).
 
-An adversary could set up a website to imitate an official service in an attempt to trick you into giving out your username, password and current TOTP code. If the adversary then uses those recorded credentials they may be able to log into the real service and hijack the account.
+Musuh dapat membuat situs web untuk meniru layanan resmi dalam upaya mengelabui Anda untuk memberikan nama pengguna, kata sandi, dan kode TOTP Anda saat ini. Jika musuh kemudian menggunakan kredensial yang berhasil dicatat tersebut, mereka mungkin dapat masuk ke layanan yang sebenarnya dan membajak akun tersebut.
 
-Although not perfect, TOTP is secure enough for most people, and when [hardware security keys](../multi-factor-authentication.md#hardware-security-keys) are not supported [authenticator apps](../multi-factor-authentication.md#authenticator-apps) are still a good option.
+Meskipun tidak sempurna, TOTP cukup aman untuk kebanyakan orang, dan ketika [kunci keamanan perangkat keras](../multi-factor-authentication.md#hardware-security-keys) tidak didukung, [aplikasi autentikator](../multi-factor-authentication.md#authenticator-apps) masih menjadi pilihan yang baik.
 
-### Hardware security keys
+### Kunci keamanan perangkat keras
 
-The YubiKey stores data on a tamper-resistant solid-state chip which is [impossible to access](https://security.stackexchange.com/a/245772) non-destructively without an expensive process and a forensics laboratory.
+YubiKey menyimpan data dalam cip solid yang tahan terhadap kerusakan, yang [tidak mungkin diakses](https://security.stackexchange.com/a/245772) secara nondestruktif tanpa proses yang memakan biaya dan laboratorium forensik.
 
-These keys are generally multi-function and provide a number of methods to authenticate. Below are the most common ones.
+Kunci ini umumnya multifungsi dan menyediakan sejumlah metode untuk melakukan autentikasi. Di bawah ini adalah metode-metode yang paling umum.
 
-#### Yubico OTP
+#### OTP Yubico
 
 Yubico OTP is an authentication protocol typically implemented in hardware security keys. When you decide to use Yubico OTP, the key will generate a public ID, private ID, and a Secret Key which is then uploaded to the Yubico OTP server.
 
