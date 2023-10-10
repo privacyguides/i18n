@@ -29,17 +29,17 @@ description: Електронна пошта за своєю природою є
 
 ### Які поштові клієнти підтримують E2EE?
 
-Email providers which allow you to use standard access protocols like IMAP and SMTP can be used with any of the [email clients we recommend](../email-clients.md). Depending on the authentication method, this may lead to the decrease security if either the provider or the email client does not support OATH or a bridge application as [multi-factor authentication](multi-factor-authentication.md) is not possible with plain password authentication.
+Провайдери електронної пошти, які дозволяють використовувати стандартні протоколи, такі як IMAP та SMTP, можна використовувати з будь-яким з [рекомендованими поштовими клієнтами](../email-clients.md). Залежно від методу автентифікації, це може призвести до зниження безпеки, якщо провайдер або поштовий клієнт не підтримує OATH або додаток-міст, оскільки багатофакторна автентифікація [](multi-factor-authentication.md) неможлива з автентифікацією за допомогою простого пароля.
 
-### How Do I Protect My Private Keys?
+### Як захистити свої приватні ключі?
 
-A smartcard (such as a [YubiKey](https://support.yubico.com/hc/en-us/articles/360013790259-Using-Your-YubiKey-with-OpenPGP) or [Nitrokey](https://www.nitrokey.com)) works by receiving an encrypted email message from a device (phone, tablet, computer, etc.) running an email/webmail client. The message is then decrypted by the smartcard and the decrypted content is sent back to the device.
+Смарт-карта (наприклад, [YubiKey](https://support.yubico.com/hc/en-us/articles/360013790259-Using-Your-YubiKey-with-OpenPGP) або [Nitrokey](https://www.nitrokey.com)) працює, отримуючи зашифроване електронне повідомлення з пристрою (телефона, планшета, комп'ютера тощо), на якому запущено клієнт електронної пошти/веб-пошти. Потім повідомлення розшифровується смарткартою, і розшифрований вміст надсилається назад на пристрій.
 
-It is advantageous for the decryption to occur on the smartcard to avoid possibly exposing your private key to a compromised device.
+Для уникнення можливого потрапляння вашого приватного ключа на скомпрометований пристрій бажано, щоб розшифрування відбувалося на смарткарті.
 
-## Email Metadata Overview
+## Огляд метаданих електронної пошти
 
-Email metadata is stored in the [message header](https://en.wikipedia.org/wiki/Email#Message_header) of the email message and includes some visible headers that you may have seen such as: `To`, `From`, `Cc`, `Date`, `Subject`. There are also a number of hidden headers included by many email clients and providers that can reveal information about your account.
+Метадані електронного листа зберігаються в [заголовку](https://uk.wikipedia.org/wiki/%D0%95%D0%BB%D0%B5%D0%BA%D1%82%D1%80%D0%BE%D0%BD%D0%BD%D0%B0_%D0%BF%D0%BE%D1%88%D1%82%D0%B0#%D0%97%D0%B0%D0%B3%D0%BE%D0%BB%D0%BE%D0%B2%D0%BA%D0%B8_%D0%BB%D0%B8%D1%81%D1%82%D0%B0) повідомлення електронної пошти і включають деякі видимі поля, такі як `Кому`, `Від`, `Копія`, `Дата`, `Тема`. Існує також низка прихованих заголовків, які включаються багатьма поштовими клієнтами та провайдерами і можуть розкрити інформацію про ваш обліковий запис.
 
 Client software may use email metadata to show who a message is from and what time it was received. Servers may use it to determine where an email message must be sent, among [other purposes](https://en.wikipedia.org/wiki/Email#Message_header) which are not always transparent.
 
