@@ -3,7 +3,7 @@ meta_title: "Navigateurs web respectueux de la vie privée pour PC et Mac - Priv
 title: "Navigateurs de bureau"
 icon: material/laptop
 description: Ces navigateurs web offrent des protections de la vie privée plus solides que Google Chrome.
-cover: desktop-browsers.png
+cover: desktop-browsers.webp
 schema:
   - 
     "@context": http://schema.org

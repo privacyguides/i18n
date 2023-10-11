@@ -3,7 +3,7 @@ meta_title: "推薦的加密軟件： VeraCrypt, Cryptomat, PicoCrypt 和 OpenPG
 title: "加密軟體"
 icon: material/file-lock
 description: 數據加密是控制誰可以訪問它的唯一方法。 這些工具允許您加密電子郵件和任何其他檔案。
-cover: encryption.png
+cover: encryption.webp
 ---
 
 數據加密是控制誰可以訪問它的唯一方法。 如果您目前沒有為您的硬盤，電子郵件或文件使用加密軟件，您應該在這裡選擇一個選項。

@@ -3,7 +3,7 @@ meta_title: "The Best Private Instant Messengers - Privacy Guides"
 title: "Gerçek Zamanlı İletişim"
 icon: material/chat-processing
 description: Diğer anlık mesajlaşma uygulamaları, tüm özel konuşmalarınızı kendilerini işleten şirketin kullanımına sunuyor.
-cover: real-time-communication.png
+cover: real-time-communication.webp
 ---
 
 Bunlar, şifrelenmiş gerçek zamanlı iletişim için önerilerimizdir.

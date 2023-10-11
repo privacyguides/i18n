@@ -3,7 +3,7 @@ meta_title: "메타데이터 정리 및 데이터 편집 툴을 통한 개인 �
 title: "데이터 및 메타데이터 제거"
 icon: material/tag-remove
 description: 공유할 이미지 및 파일에서 GPS 위치 및 기타 식별 정보 등의 메타데이터를 제거할 수 있습니다.
-cover: data-redaction.png
+cover: data-redaction.webp
 ---
 
 파일을 공유할 때에는 관련 메타데이터를 제거해야 합니다. 이미지 파일에는 보통 [Exif](https://en.wikipedia.org/wiki/Exif) 데이터가 포함되어 있습니다. 사진 파일 메타데이터에는 GPS 좌표가 포함될 때도 있습니다.

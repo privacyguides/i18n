@@ -3,7 +3,7 @@ meta_title: "פרטיות כיבוד דפדפני אינטרנט ניידים ע
 title: "דפדפני אינטרנט לנייד"
 icon: material/cellphone-information
 description: דפדפנים אלו הם מה שאנו ממליצים כיום עבור גלישה רגילה/לא אנונימית באינטרנט בטלפון שלך.
-cover: mobile-browsers.png
+cover: mobile-browsers.webp
 schema:
   - 
     "@context": http://schema.org

@@ -3,7 +3,7 @@ meta_title: "Recomendaciones de Correo Electrónico Privado Cifrado - Privacy Gu
 title: "Servicios de Correo Electrónico"
 icon: material/email
 description: Estos proveedores de correo electrónico ofrecen un lugar estupendo para almacenar tus correos de forma segura, y muchos ofrecen encriptación OpenPGP inter operable con otros proveedores.
-cover: email.png
+cover: email.webp
 ---
 
 Correo electrónico es prácticamente una necesidad para utilizar cualquier servicio en línea, sin embargo, no lo recomendamos para las conversaciones de persona a persona. En vez de utilizar el correo electrónico para comunicarte con otras personas, considera utilizar un servicio de mensajería instantánea que soporte el secreto hacia adelante.

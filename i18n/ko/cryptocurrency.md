@@ -2,7 +2,7 @@
 meta_title: "프라이버시 암호화폐 블록체인 - Privacy Guides"
 title: 암호화폐
 icon: material/bank-circle
-cover: cryptocurrency.png
+cover: cryptocurrency.webp
 ---
 
 온라인 결제는 프라이버시에 있어서 매우 큰 문제입니다. 다음과 같은 암호화폐는 여러분이 프라이버시를 보호하면서 결제를 하는 방법에 대해 충분한 이해를 갖춘 경우, 거래 프라이버시를 기본적으로 제공합니다.(대부분의 암호화폐는 거래 프라이버시를 보장하지 **않습니다**.) 무엇인가를 구매하기에 앞서, Privacy Guides에서 결제 개요 문서를 읽어보실 것을 강력히 권장드립니다:

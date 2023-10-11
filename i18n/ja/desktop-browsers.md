@@ -3,7 +3,7 @@ meta_title: "プライバシーを尊重したPCとMac向けウェブブラウ�
 title: "デスクトップブラウザ"
 icon: material/laptop
 description: これらのウェブブラウザは、Google Chromeよりも強力なプライバシー保護を提供します。
-cover: desktop-browsers.png
+cover: desktop-browsers.webp
 schema:
   - 
     "@context": http://schema.org

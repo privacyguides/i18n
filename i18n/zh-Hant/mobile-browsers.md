@@ -3,7 +3,7 @@ meta_title: "Android 和 iOS 行動版尊隱私的網頁瀏覽器的-Privacy Gui
 title: "行動瀏覽器"
 icon: material/cellphone-information
 description: 這些瀏覽器是我們目前推薦在手機使用的標準/非匿名互聯網瀏覽器。
-cover: mobile-browsers.png
+cover: mobile-browsers.webp
 schema:
   - 
     "@context": http://schema.org

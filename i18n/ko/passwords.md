@@ -3,7 +3,7 @@ meta_title: "프라이버시 및 보안을 지키기에 가장 적합한 비밀�
 title: "비밀번호 관리자"
 icon: material/form-textbox-password
 description: 비밀번호 관리자를 사용하여 비밀번호를 비롯한 기타 자격 증명을 안전하게 저장 및 관리할 수 있습니다.
-cover: passwords.png
+cover: passwords.webp
 schema:
   - 
     "@context": http://schema.org

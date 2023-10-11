@@ -2,7 +2,7 @@
 title: "Magazyny chmurowe"
 icon: fontawesome/brands/linux
 description: Dystrybucje systemu Linux są powszechnie polecane, jeśli chodzi o ochronę prywatności oraz wolne oprogramowanie.
-cover: desktop.png
+cover: desktop.webp
 ---
 
 Dystrybucje systemu Linux są powszechnie polecane, jeśli chodzi o ochronę prywatności oraz wolne oprogramowanie. Jeśli nie korzystasz jeszcze z systemu Linux, poniżej znajdziesz kilka dystrybucji, które polecamy wypróbować oraz kilka ogólnych porad dotyczących lepszej prywatności i bezpieczeństwa, które mają zastosowanie dla wielu dystrybucji systemu Linux.

@@ -2,7 +2,7 @@
 title: "Multi-Factor Authenticators"
 icon: 'material/two-factor-authentication'
 description: Deze tools helpen je jouw internetaccounts te beveiligen met Multi-Factor Authentication zonder jouw geheimen naar een derde partij te sturen.
-cover: multi-factor-authentication.png
+cover: multi-factor-authentication.webp
 ---
 
 ## Hardware Veiligheidssleutels

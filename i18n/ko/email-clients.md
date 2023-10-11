@@ -2,7 +2,7 @@
 title: "이메일 클라이언트"
 icon: material/email-open
 description: 프라이버시 중점적이며 OpenPGP 이메일 암호화를 지원하는 이메일 클라이언트 목록입니다.
-cover: email-clients.png
+cover: email-clients.webp
 ---
 
 본 권장 목록의 이메일 클라이언트는 [OpenPGP](encryption.md#openpgp) 및 [OAuth(Open Authorization)](https://en.wikipedia.org/wiki/OAuth) 같은 강력한 인증을 모두 지원합니다. OAuth를 이용하면 [다중 인증](basics/multi-factor-authentication.md)으로 계정을 보호할 수 있습니다.

@@ -3,7 +3,7 @@ meta_title: "最高のプライベートで安全なクラウドストレージ 
 title: "クラウドストレージ"
 icon: material/file-cloud
 description: Many cloud storage providers require your trust that they will not look at your files. これらはプライベートな選択肢です！
-cover: cloud.png
+cover: cloud.webp
 ---
 
 多くのクラウドストレージプロバイダーは、あなたのファイルを見ないことを完全に信頼する必要があります。 以下に示す選択肢は、安全なE2EEを実装することにより、信頼の必要性を排除します。

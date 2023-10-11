@@ -3,7 +3,7 @@ meta_title: "Mobile Browser für Android und iOS, welche die Privatsphäre respe
 title: "Mobile Browser"
 icon: material/cellphone-information
 description: Wir empfehlen aktuell diese mobilen Browser für normales bzw. nicht anonymes Surfen im Internet.
-cover: mobile-browsers.png
+cover: mobile-browsers.webp
 schema:
   - 
     "@context": http://schema.org

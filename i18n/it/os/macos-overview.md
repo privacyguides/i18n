@@ -118,39 +118,37 @@ Decidi se desideri annunci personalizzati secondo il tuo utilizzo.
 
 - [ ] Rimuovi la spunta da **Annunci Personalizzati**
 
-##### Sicurezza
-
-Le app dall'Apple Store sono soggette a linee guida di sicurezza più rigide, come un sandboxing più rigido. Se le sole app che necessiti sono disponibili dall'App Store, cambia l'impostazione **Consenti applicazioni scaricate da** ad **App Store**, per impedire l'esecuzione accidentale di altre app. Questa è una buona opzione, in particolare se stai configurando una macchina per altri utenti meno tecnici, come bambini.
-
-Inoltre, se scegli di consentire le applicazioni da sviluppatori identificati, sii cauto sulle app che esegui e da dove le ottieni.
-
 ##### FileVault
 
 Sui dispositivi moderni con una Zona Franca Sicura (Chip di Sicurezza Apple T2, Apple silicon), i tuoi dati sono sempre crittografati, ma sono automaticamente decrittografati da una chiave hardware, se il tuo dispositivo non rileva di esser stato manomesso. Abilitare FileVault richiede inoltre la tua password per decrittografare i tuoi dati, migliorando ampiamente la sicurezza, specialmente quando spento o prima del primo accesso all'accensione.
 
 Sui vecchi computer Mac basati su Intel, FileVault è la sola forma di crittografia del disco disponibile di default, e dovrebbe sempre essere abilitata.
 
-- [x] Clicca su **Attiva**
+- [x] Click **Turn On**
 
 ##### Modalità Lockdown
 
 La [Modalità Lockdown](https://blog.privacyguides.org/2022/10/27/macos-ventura-privacy-security-updates/#lockdown-mode) disabilita alcune funzionalità per poter migliorare la sicurezza. Alcune app o funzionalità non funzioneranno allo stesso modo di quanto sono disattivate, ad esempio, [JIT](https://hacks.mozilla.org/2017/02/a-crash-course-in-just-in-time-jit-compilers/) e [WASM](https://developer.mozilla.org/en-US/docs/WebAssembly) sono disabilitate su Safari, con la Modalità di Lockdown abilitata. Consigliamo di abilitare la Modalità di Lockdown e di scoprire se impatta significativamente sul tuo utilizzo: è facile convivere con molte delle modifiche che effettua.
 
-- [x] Clicca su **Attiva**
+- [x] Click **Turn On**
 
 ### Randomizzazione dell'indirizzo MAC
 
-A differenza di iOS, macOS non ti dà un'opzione per rendere casuale il tuo indirizzo MAC nelle impostazioni, quindi, dovrai farlo con un comando o uno script.
+macOS uses a randomized MAC address when performing Wi-Fi scans while disconnected from a network. However, when you connect to a preferred Wi-Fi network, the MAC address used is never randomized. Full MAC address randomization is an advanced topic, and most people don't need to worry about performing the following steps.
 
-Apri il tuo Terminale e inserisci questo comando per casualizzare il tuo indirizzo MAC:
+Unlike iOS, macOS doesn't give you an option to randomize your MAC address in the settings, so if you wish to change this identifier, you'll need to do it with a command or a script. To set a random MAC address, first disconnect from the network if you're already connected, then open **Terminal** and enter this command to randomize your MAC address:
 
 ``` zsh
-openssl rand -hex 6 | sed 's/\(..\)/\1:/g; s/.$//' | xargs sudo ifconfig en1 ether 
+openssl rand -hex 6 | sed 's/^\(.\{1\}\)./\12/; s/\(..\)/\1:/g; s/.$//' | xargs sudo ifconfig en0 ether
 ```
 
-en1 è il nome dell'interfaccia per cui stai modificando l'indirizzo MAC. Questo potrebbe non essere quello corretto su ogni Mac, quindi, per verificare, puoi tenere premuto il tasto opzioni e cliccare sul simbolo della Wi-Fi nella parte superiore destra della tua schermata.
+`en0` is the name of the interface you're changing the MAC address for. Questo potrebbe non essere quello corretto su ogni Mac, quindi, per verificare, puoi tenere premuto il tasto opzioni e cliccare sul simbolo della Wi-Fi nella parte superiore destra della tua schermata. "Interface name" should be displayed at the top of the dropdown menu.
 
-Questo sarà ripristinato al riavvio.
+This command sets your MAC address to a randomized, "locally administered" address, matching the behavior of iOS, Windows, and Android's MAC address randomization features. This means that every character in the MAC address is fully randomized except the second character, which denotes the MAC address as *locally administered* and not in conflict with any actual hardware. This method is most compatible with modern networks. An alternative method is to set the first six characters of the MAC address to one of Apple's existing *Organizational Unique Identifiers*, which we'll leave as an exercise to the reader. That method is more likely to conflict with some networks, but may be less noticeable. Given the prevalence of randomized, locally administered MAC addresses in other modern operating systems, we don't think either method has significant privacy advantages over the other.
+
+When you connect to the network again, you'll connect with a random MAC address. Questo sarà ripristinato al riavvio.
+
+Your MAC address is not the only unique information about your device which is broadcast on the network, your hostname is another piece of information which could uniquely identify you. You may wish to set your hostname to something generic like "MacBook Air", "Laptop", "John's MacBook Pro", or "iPhone" in **System Settings** > **General** > **Sharing**. Some [privacy scripts](https://github.com/sunknudsen/privacy-guides/tree/master/how-to-spoof-mac-address-and-hostname-automatically-at-boot-on-macos#guide) allow you to easily generate hostnames with random names.
 
 ## Protezioni di Sicurezza
 

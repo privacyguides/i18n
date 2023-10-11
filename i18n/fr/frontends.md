@@ -2,7 +2,7 @@
 title: "Clients applicatifs"
 icon: material/flip-to-front
 description: Ces clients applicatifs open source pour divers services internet vous permettent d'accéder au contenu sans JavaScript ou d'autres inconvénients.
-cover: frontends.png
+cover: frontends.webp
 ---
 
 Parfois, des services tentent de vous obliger à créer un compte en bloquant l'accès au contenu par des fenêtres pop-up gênantes. Ils peuvent également ne pas fonctionner sans JavaScript activé. Ces interfaces client peuvent vous permettre de contourner ces restrictions.

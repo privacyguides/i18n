@@ -1,7 +1,7 @@
 ---
 title: Servicios Financieros
 icon: material/bank
-cover: financial-services.png
+cover: financial-services.webp
 ---
 
 Realizar pagos en línea es uno de los principales desafíos para la privacidad. Estos servicios pueden ayudarle a proteger su privacidad frente a los comercios y otros rastreadores, siempre que conozca bien cómo realizar pagos privados de forma eficaz. Le recomendamos encarecidamente que primero lea nuestro apartado de pagos antes de realizar cualquier compra:

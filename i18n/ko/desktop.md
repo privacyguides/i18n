@@ -2,7 +2,7 @@
 title: "데스크톱/PC"
 icon: simple/linux
 description: 프라이버시 보호와 자유 소프트웨어를 이유로, 일반적으로 Linux 배포판이 권장됩니다.
-cover: desktop.png
+cover: desktop.webp
 ---
 
 프라이버시 보호와 자유 소프트웨어를 이유로, 일반적으로 Linux 배포판이 권장됩니다. 아직 Linux를 사용하지 않는 분을 위해, 사용해볼 만한 몇 가지 배포판을 추천드립니다. 대부분의 Linux 배포판에 적용 가능한 기본 프라이버시 및 보안 개선 안내도 찾아보실 수 있습니다.

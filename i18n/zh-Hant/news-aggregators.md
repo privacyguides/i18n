@@ -2,7 +2,7 @@
 title: "新聞聚合器"
 icon: material/rss
 description: 這些新聞聚合器客戶端可利使用 RSS 等網際網路標準來訂閱追蹤您最喜愛的部落格和新聞網站。
-cover: news-aggregators.png
+cover: news-aggregators.webp
 ---
 
 [新聞聚合器](https://en.wikipedia.org/wiki/News_aggregator) 是一種訂閱最喜愛的部落格和新聞網站的追蹤方式。

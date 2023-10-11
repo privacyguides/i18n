@@ -2,7 +2,7 @@
 title: "캘린더 동기화"
 icon: material/calendar
 description: 캘린더에는 여러분의 가장 민감한 데이터가 담겨 있습니다. 암호화가 적용된 서비스를 사용하세요.
-cover: calendar.png
+cover: calendar.webp
 ---
 
 캘린더에는 여러분의 가장 민감한 데이터가 담겨 있습니다. 제공 업체가 여러분의 데이터를 읽지 못하도록 E2EE 암호화가 적용된 서비스를 사용하세요.

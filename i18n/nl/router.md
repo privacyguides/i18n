@@ -2,7 +2,7 @@
 title: "Router Firmware"
 icon: material/router-wireless
 description: Deze alternatieve besturingssystemen kunnen worden gebruikt om jouw router of Wi-Fi-toegangspunt te beveiligen.
-cover: router.png
+cover: router.webp
 ---
 
 Hieronder staan een paar alternatieve besturingssystemen, die gebruikt kunnen worden op routers, Wi-Fi access points, enz.

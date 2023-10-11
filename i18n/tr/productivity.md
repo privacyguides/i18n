@@ -2,7 +2,7 @@
 title: "Üretkenlik Araçları"
 icon: material/file-sign
 description: Çoğu çevrimiçi ofis uygulmaları uçtan uca şifrelemeyi desteklemez, bu da bulut sağlayıcısının yaptığınız her şeye erişebileceği anlamına gelir.
-cover: productivity.png
+cover: productivity.webp
 ---
 
 Çoğu çevrimiçi ofis uygulmaları uçtan uca şifrelemeyi desteklemez, bu da bulut sağlayıcısının yaptığınız her şeye erişebileceği anlamına gelir. Gizlilik politikası haklarınızı yasal olarak koruyabilir, ancak teknik erişim kısıtlamaları sağlamaz.

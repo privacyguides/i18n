@@ -3,7 +3,7 @@ meta_title: "Recommended Encryption Software: VeraCrypt, Cryptomator, PicoCrypt,
 title: "Oprogramowanie szyfrujące"
 icon: material/file-lock
 description: Szyfrowanie danych to jedyny sposób na kontrolowanie tego, kto ma do nich dostęp. These tools allow you to encrypt your emails and any other files.
-cover: encryption.png
+cover: encryption.webp
 ---
 
 Szyfrowanie danych to jedyny sposób na kontrolowanie tego, kto ma do nich dostęp. Jeśli obecnie nie używasz oprogramowania szyfrującego dla swojego dysku, e-maili lub plików, możesz wybrać jedną z tych opcji.

@@ -3,7 +3,7 @@ meta_title: "Лучшие менеджеры паролей для защиты 
 title: "Менеджеры паролей"
 icon: material/form-textbox-password
 description: Менеджеры паролей позволяют безопасно хранить и управлять не только паролями, но и другими данными аккаунтов.
-cover: passwords.png
+cover: passwords.webp
 schema:
   - 
     "@context": http://schema.org

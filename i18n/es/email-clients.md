@@ -2,7 +2,7 @@
 title: "Clientes de Correo Electrónico"
 icon: material/email-open
 description: Estos clientes de correo electrónico respetan la privacidad y admiten el cifrado de correo electrónico OpenPGP.
-cover: email-clients.png
+cover: email-clients.webp
 ---
 
 Nuestra lista de recomendaciones contiene clientes de correo electrónico que soportan [OpenPGP](encryption.md#openpgp) y una autenticación fuerte como [Open Authorization (OAuth)](https://en.wikipedia.org/wiki/OAuth). OAuth le permite utilizar la [Autenticación Multifactor](basics/multi-factor-authentication.md) y previene el robo de cuentas.

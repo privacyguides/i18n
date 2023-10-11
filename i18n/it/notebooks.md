@@ -2,7 +2,7 @@
 title: "Appunti"
 icon: material/notebook-edit-outline
 description: Queste app crittografate per prendere appunti ti consentono di monitorare le tue note, senza darle a terze parti.
-cover: notebooks.png
+cover: notebooks.webp
 ---
 
 Monitora le tue note e i tuoi diari senza doverli dare a una terza parte.

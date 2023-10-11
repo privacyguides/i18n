@@ -2,7 +2,7 @@
 title: "Agregator Berita"
 icon: material/rss
 description: Klien agregator berita ini memungkinkan Anda mengikuti blog dan situs berita favorit Anda menggunakan standar internet seperti RSS.
-cover: news-aggregators.png
+cover: news-aggregators.webp
 ---
 
 [Agregator berita](https://en.wikipedia.org/wiki/News_aggregator) adalah cara untuk mengikuti blog dan situs berita favorit Anda.

@@ -3,7 +3,7 @@ meta_title: "Browser web che rispettano la privacy per Android e iOS - Privacy G
 title: "Browser mobile"
 icon: material/cellphone-information
 description: Questi sono i browser consigliati al momento per la navigazione standard/non anonima sul tuo telefono.
-cover: mobile-browsers.png
+cover: mobile-browsers.webp
 schema:
   - 
     "@context": http://schema.org

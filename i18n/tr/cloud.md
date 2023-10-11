@@ -3,7 +3,7 @@ meta_title: "En İyi Gizli ve Güvenli Bulut Depolama Sağlayıcıları - Privac
 title: "Bulut depolama"
 icon: material/file-cloud
 description: Many cloud storage providers require your trust that they will not look at your files. These are private alternatives!
-cover: cloud.png
+cover: cloud.webp
 ---
 
 Many cloud storage providers require your full trust that they will not look at your files. Aşağıda listelenen alternatifler güvenli uçtan uca şifreleme uygulayarak güven ihtiyacını ortadan kaldırır.

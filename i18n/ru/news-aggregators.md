@@ -2,7 +2,7 @@
 title: "Агрегаторы новостей"
 icon: material/rss
 description: Эти агрегаторы новостей позволяют вам следить за любимыми блогами и новостными сайтами, используя такие интернет-стандарты, как RSS.
-cover: news-aggregators.png
+cover: news-aggregators.webp
 ---
 
 [Новостные агрегаторы](https://en.wikipedia.org/wiki/News_aggregator) - это простой способ следить за любимыми блогами и новостными сайтами.

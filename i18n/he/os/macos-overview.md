@@ -118,39 +118,37 @@ macOS מבצעת בדיקות מקוונות כאשר אתה פותח אפליק
 
 - [ ] בטל את הסימון של **מודעות מותאמות אישית**
 
-##### אבטחה
-
-אפליקציות מ-App Store כפופות להנחיות אבטחה מחמירות יותר, כגון ארגז חול מחמיר. אם האפליקציות היחידות שאתה צריך זמינות מ-App Store, שנה את ההגדרה **אפשר הורדה של יישומים מ** ל**App Store** כדי למנוע הפעלת אפליקציות אחרות בטעות. זוהי אפשרות טובה במיוחד אם אתה מגדיר מכונה עבור משתמשים אחרים, פחות טכניים כגון ילדים.
-
-אם תבחר לאפשר גם אפליקציות ממפתחים מזוהים, היזהר לגבי האפליקציות שאתה מפעיל והיכן אתה משיג אותן.
-
 ##### FileVault
 
 במכשירים מודרניים עם מובלעת מאובטחת (Apple T2 Security Chip, Apple Silicon), הנתונים שלך תמיד מוצפנים, אך מפוענחים אוטומטית על ידי מפתח חומרה אם המכשיר שלך לא מזהה שטופלו בהם. הפעלת FileVault מחייבת בנוסף את הסיסמה שלך כדי לפענח את הנתונים שלך, מה שמשפר מאוד את האבטחה, במיוחד כאשר הוא כיבוי או לפני הכניסה הראשונה לאחר ההפעלה.
 
 במחשבי Mac ישנים יותר מבוססי אינטל, FileVault היא הצורה היחידה של הצפנת דיסקים הזמינה כברירת מחדל, וצריכה להיות מופעלת תמיד.
 
-- [x] לחץ על **הפעל**
+- [x] Click **Turn On**
 
 ##### מצב נעילה
 
 [מצב נעילה](https://blog.privacyguides.org/2022/10/27/macos-ventura-privacy-security-updates/#lockdown-mode) משבית תכונות מסוימות כדי לשפר בִּטָחוֹן. אפליקציות או תכונות מסוימות לא יפעלו כמו שהם פועלים כשהם כבויים, לדוגמה, [JIT](https://hacks.mozilla.org/2017/02/a-crash-course-in-just-in -time-jit-compilers/) ו-[WASM](https://developer.mozilla.org/en-US/docs/WebAssembly) מושבתים ב-Safari עם נעילה מצב מופעל. אנו ממליצים להפעיל את מצב הנעילה ולראות אם זה משפיע באופן משמעותי על השימוש שלך, הרבה מהשינויים שהוא עושה קלים לחיות איתם.
 
-- [x] לחץ על **הפעל**
+- [x] Click **Turn On**
 
 ### כתובת MAC אקראית
 
-בניגוד ל-macOS, iOS לא נותן לך אפשרות לעשות אקראי את כתובת ה-MAC שלך בהגדרות, אז תצטרך לעשות זאת עם פקודה או סקריפט.
+macOS uses a randomized MAC address when performing Wi-Fi scans while disconnected from a network. However, when you connect to a preferred Wi-Fi network, the MAC address used is never randomized. Full MAC address randomization is an advanced topic, and most people don't need to worry about performing the following steps.
 
-אתה פותח את המסוף שלך ומזין את הפקודה הזו כדי להפוך את כתובת ה-MAC שלך באקראי:
+Unlike iOS, macOS doesn't give you an option to randomize your MAC address in the settings, so if you wish to change this identifier, you'll need to do it with a command or a script. To set a random MAC address, first disconnect from the network if you're already connected, then open **Terminal** and enter this command to randomize your MAC address:
 
 ``` zsh
-openssl rand -hex 6 | sed 's/\(..\)/\1:/g; s/.$//' | xargs sudo ifconfig en1 ether 
+openssl rand -hex 6 | sed 's/^\(.\{1\}\)./\12/; s/\(..\)/\1:/g; s/.$//' | xargs sudo ifconfig en0 ether
 ```
 
-en1 הוא שם הממשק שעבורו אתה משנה את כתובת ה-MAC. ייתכן שזה לא המתאים בכל Mac, אז כדי לבדוק אתה יכול להחזיק את מקש האפשרות וללחוץ על סמל ה- Wi-Fi בפינה השמאלית העליונה של המסך.
+`en0` is the name of the interface you're changing the MAC address for. ייתכן שזה לא המתאים בכל Mac, אז כדי לבדוק אתה יכול להחזיק את מקש האפשרות וללחוץ על סמל ה- Wi-Fi בפינה השמאלית העליונה של המסך. "Interface name" should be displayed at the top of the dropdown menu.
 
-זה יאופס עם אתחול מחדש.
+This command sets your MAC address to a randomized, "locally administered" address, matching the behavior of iOS, Windows, and Android's MAC address randomization features. This means that every character in the MAC address is fully randomized except the second character, which denotes the MAC address as *locally administered* and not in conflict with any actual hardware. This method is most compatible with modern networks. An alternative method is to set the first six characters of the MAC address to one of Apple's existing *Organizational Unique Identifiers*, which we'll leave as an exercise to the reader. That method is more likely to conflict with some networks, but may be less noticeable. Given the prevalence of randomized, locally administered MAC addresses in other modern operating systems, we don't think either method has significant privacy advantages over the other.
+
+When you connect to the network again, you'll connect with a random MAC address. זה יאופס עם אתחול מחדש.
+
+Your MAC address is not the only unique information about your device which is broadcast on the network, your hostname is another piece of information which could uniquely identify you. You may wish to set your hostname to something generic like "MacBook Air", "Laptop", "John's MacBook Pro", or "iPhone" in **System Settings** > **General** > **Sharing**. Some [privacy scripts](https://github.com/sunknudsen/privacy-guides/tree/master/how-to-spoof-mac-address-and-hostname-automatically-at-boot-on-macos#guide) allow you to easily generate hostnames with random names.
 
 ## הגנות אבטחה
 

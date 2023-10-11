@@ -2,7 +2,7 @@
 meta_title: "Blockchain di criptovalute private - Privacy Guides"
 title: Criptovalute
 icon: material/bank-circle
-cover: cryptocurrency.png
+cover: cryptocurrency.webp
 ---
 
 Effettuare pagamenti online è una delle maggiori sfide per la privacy. Queste criptovalute offrono la privacy delle transazioni di default (cosa che **non** è garantita dalla maggior parte delle criptovalute), a condizione che si abbia una buona conoscenza di come effettuare pagamenti privati in modo efficace. Ti consigliamo vivamente di leggere prima il nostro articolo panoramico sui pagamenti prima di effettuare qualsiasi acquisto:

@@ -3,7 +3,7 @@ meta_title: "Motores de Búsqueda Recomendados: Alternativas Anónimas a Google 
 title: "Motores de Búsqueda"
 icon: material/search-web
 description: Estos motores de búsqueda respetuosos con la privacidad no construyen un perfil publicitario basado en sus búsquedas.
-cover: search-engines.png
+cover: search-engines.webp
 ---
 
 Utilice un motor de búsqueda que no construya un perfil publicitario basado en sus búsquedas.

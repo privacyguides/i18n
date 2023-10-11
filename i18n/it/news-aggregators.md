@@ -2,7 +2,7 @@
 title: "Aggregatori di Notizie"
 icon: material/rss
 description: Questi client d'aggregazione delle notizie, consentono di mantenerti aggiornato con i tuoi blog e siti di notizie preferiti, utilizzando gli standard di Internet, come RSS.
-cover: news-aggregators.png
+cover: news-aggregators.webp
 ---
 
 Un [aggregatore di notizie](https://en.wikipedia.org/wiki/News_aggregator) consente di mantenerti aggiornato con i tuoi blog e siti di notizie preferiti.

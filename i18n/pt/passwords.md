@@ -3,7 +3,7 @@ meta_title: "Os melhores gestores de palavras-passe para proteger a sua privacid
 title: "Gestores de palavras-passe"
 icon: material/form-textbox-password
 description: Os gestores de palavras-passe permitem-lhe armazenar e gerir de forma segura as suas palavras-passe e outras credenciais.
-cover: passwords.png
+cover: passwords.webp
 schema:
   - 
     "@context": http://schema.org

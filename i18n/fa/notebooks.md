@@ -2,7 +2,7 @@
 title: "یادداشت"
 icon: material/notebook-edit-outline
 description: این برنامه های یادداشت برداری رمزگذاری شده به شما امکان می دهد یادداشت های خود را بدون دادن آنها به شخص ثالث پیگیری کنید.
-cover: notebooks.png
+cover: notebooks.webp
 ---
 
 یادداشت ها و ژورنال های خود را بدون دادن به شخص ثالث پیگیری کنید.

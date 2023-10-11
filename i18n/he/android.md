@@ -3,7 +3,7 @@ meta_title: "המלצות אנדרואיד: GrapheneOS ו-DivestOS - מדריכ�
 title: "אנדרואיד"
 icon: 'simple/android'
 description: אתה יכול להחליף את מערכת ההפעלה בטלפון האנדרואיד שלך בחלופות מאובטחות ומכבדות פרטיות אלה.
-cover: android.png
+cover: android.webp
 schema:
   - 
     "@context": http://schema.org

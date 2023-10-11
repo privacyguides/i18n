@@ -2,7 +2,7 @@
 title: "Sincronización de Calendario"
 icon: material/calendar
 description: Calendarios contienen algunos de tus datos más sensibles; usa productos que apliquen el cifrado en reposo.
-cover: calendar.png
+cover: calendar.webp
 ---
 
 Los calendarios contienen algunos de sus datos más sensibles; utilice productos que implementen E2EE en reposo para evitar que un proveedor pueda leerlos.

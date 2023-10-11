@@ -2,7 +2,7 @@
 title: "Fildelning och synkronisering"
 icon: material/share-variant
 description: Upptäck hur du kan dela dina filer privat mellan dina enheter, med vänner och familj eller anonymt på nätet.
-cover: file-sharing.png
+cover: file-sharing.webp
 ---
 
 Upptäck hur du kan dela dina filer privat mellan dina enheter, med vänner och familj eller anonymt på nätet.

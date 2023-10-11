@@ -3,7 +3,7 @@ meta_title: "Android-Empfehlungen: GrapheneOS und DivestOS - Privacy Guides"
 title: "Android"
 icon: 'simple/android'
 description: Du kannst das Betriebssystem deines Android-Handys mit diesen sicheren und Privatsphäre-freundlichen Alternativen ersetzen.
-cover: android.png
+cover: android.webp
 schema:
   - 
     "@context": http://schema.org

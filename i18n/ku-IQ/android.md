@@ -3,7 +3,7 @@ meta_title: "Android Recommendations: GrapheneOS and DivestOS - Privacy Guides"
 title: "ئەندرۆید"
 icon: 'simple/android'
 description: '﻿دەتوانیت سیستەمی کارپێکردن سەر تەلەفۆنی ئەندرۆیدەکەت بگۆڕیت بۆ ئەم جێگرەوانەی، کە پارێزراو و ڕێزگرن لە تایبەتمەندێتی.'
-cover: android.png
+cover: android.webp
 schema:
   - 
     "@context": http://schema.org

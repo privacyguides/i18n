@@ -3,7 +3,7 @@ meta_title: "Browser Web yang Menghargai Privasi untuk PC dan Mac - Privacy Guid
 title: "Browser Dekstop"
 icon: material/laptop
 description: Browser web ini memberikan perlindungan privasi yang lebih kuat daripada Google Chrome.
-cover: desktop-browsers.png
+cover: desktop-browsers.webp
 schema:
   - 
     "@context": http://schema.org

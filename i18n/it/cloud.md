@@ -3,7 +3,7 @@ meta_title: "I migliori fornitori di archiviazione su cloud privati e sicuri - P
 title: "Archiviazione su Cloud"
 icon: material/file-cloud
 description: Molti fornitori di spazio d'archiviazione su cloud richiedono ti richiedono di affidarti al fatto che non guarderanno i tuoi file. Queste sono alternative private!
-cover: cloud.png
+cover: cloud.webp
 ---
 
 Molti fornitori di spazio di archiviazione su cloud richiedono la tua totale fiducia sul fatto che non guarderanno i tuoi file. Le alternative elencate di seguito eliminano la necessità di fiducia implementando l'E2EE.

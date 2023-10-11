@@ -2,7 +2,7 @@
 title: "노트 작성"
 icon: material/notebook-edit-outline
 description: 여러분의 노트 내용을 제3자에게 보여주지 않고 관리하기 위해서는 암호화 노트 작성 앱을 사용해야 합니다.
-cover: notebooks.png
+cover: notebooks.webp
 ---
 
 여러분의 노트 내용이나 일기를 제3자가 볼 수 없도록 관리하세요.

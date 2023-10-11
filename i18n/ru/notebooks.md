@@ -2,7 +2,7 @@
 title: "Заметки"
 icon: material/notebook-edit-outline
 description: Эти приложения позволяют вести заметки в зашифрованном виде без передачи данных третьим лицам.
-cover: notebooks.png
+cover: notebooks.webp
 ---
 
 Сохраняйте свои заметки и дневники, не передавая их третьим лицам.

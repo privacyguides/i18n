@@ -2,7 +2,7 @@
 title: "Resolvedores de DNS"
 icon: material/dns
 description: Estos son algunos proveedores de DNS cifrado a los que recomendamos cambiar para reemplazar la configuración por defecto de tu proveedor de servicios de internet.
-cover: dns.png
+cover: dns.webp
 ---
 
 Un DNS encriptado con servidores de terceros solo debe utilizarse para evitar el [bloqueo de DNS básico](https://en.wikipedia.org/wiki/DNS_blocking) cuándo puedas estar seguro de que no habrá ningunas consecuencias. Un DNS encriptado no te ayudará a esconder ninguna de tu actividad en línea.

@@ -3,7 +3,7 @@ meta_title: "プライバシーを尊重するAndroidとiOS向けモバイルウ
 title: "モバイルブラウザ"
 icon: material/cellphone-information
 description: これらのブラウザは、現在お使いの携帯電話の標準/非匿名のインターネットブラウジングに推奨されています。
-cover: mobile-browsers.png
+cover: mobile-browsers.webp
 schema:
   - 
     "@context": http://schema.org

@@ -3,7 +3,7 @@ meta_title: "검색 엔진 권장 목록: Google 검색 대체제 익명 서비�
 title: "검색 엔진"
 icon: material/search-web
 description: 프라이버시 중점 검색 엔진은 여러분의 검색 내용을 기반으로 광고 프로필을 구축하지 않습니다.
-cover: search-engines.png
+cover: search-engines.webp
 ---
 
 여러분의 검색 내용을 기반으로 광고 프로필을 구축하지 않는 검색 엔진을 사용하세요.

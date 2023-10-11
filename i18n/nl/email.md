@@ -3,7 +3,7 @@ meta_title: "Aanbevelingen voor versleutelde privé e-mail - Privacy Guides"
 title: "Email Diensten"
 icon: material/email
 description: Deze e-mailproviders bieden een uitstekende plaats om jouw e-mails veilig op te slaan, en vele bieden interoperabele OpenPGP versleuteling met andere providers.
-cover: email.png
+cover: email.webp
 ---
 
 E-mail is bijna een noodzaak voor het gebruik van elke online dienst, maar wij raden het niet aan voor gesprekken van persoon tot persoon. In plaats van e-mail te gebruiken om andere mensen te contacteren, kunt u overwegen een instant messenger te gebruiken die forward secrecy ondersteunt.

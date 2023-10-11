@@ -1,7 +1,7 @@
 ---
 title: 金融服務
 icon: material/bank
-cover: financial-services.png
+cover: financial-services.webp
 ---
 
 在線支付是隱私面臨的最大挑戰之一。 這些服務可以幫助您保護隱私，免受商家和其他追蹤者的影響，前提是您對如何有效地進行私人付款有深入的了解。 我們強烈建議您在網路購買前先閱讀本站私密付款之介紹：

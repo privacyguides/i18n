@@ -2,7 +2,7 @@
 title: "多重因素驗證"
 icon: 'material/two-factor-authentication'
 description: 這些工具可協助您透過多重身份驗證保護網路帳戶，而無需將您的祕密傳送給第三方。
-cover: multi-factor-authentication.png
+cover: multi-factor-authentication.webp
 ---
 
 ## 安全金鑰硬體

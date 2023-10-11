@@ -2,7 +2,7 @@
 title: "Autenticatori a più fattori"
 icon: 'material/two-factor-authentication'
 description: Questi strumenti ti assistano nella protezione dei tuoi profili Internet con l'Autenticazione a Più Fattori, senza inviare i tuoi codici segreti a terze parti.
-cover: multi-factor-authentication.png
+cover: multi-factor-authentication.webp
 ---
 
 ## Chiavi di Sicurezza Hardware

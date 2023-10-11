@@ -3,7 +3,7 @@ meta_title: "Privacy Respecting Mobile Web Browsers for Android and iOS - Privac
 title: "Mobil Tarayıcılar"
 icon: material/cellphone-information
 description: Bu tarayıcılar telefonunuzda yaptığınız standart internet taraması için önerdiğimiz tarayıcılardır.
-cover: mobile-browsers.png
+cover: mobile-browsers.webp
 schema:
   - 
     "@context": http://schema.org

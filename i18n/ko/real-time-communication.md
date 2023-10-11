@@ -3,7 +3,7 @@ meta_title: "프라이버시 중점 메신저 - Privacy Guides"
 title: "실시간 커뮤니케이션"
 icon: material/chat-processing
 description: 일반적인 메신저는 사용자의 개인적인 대화를 해당 메신저 운영 회사에서 모두 살펴볼 수 있습니다.
-cover: real-time-communication.png
+cover: real-time-communication.webp
 ---
 
 본 내용은 실시간 커뮤니케이션 용도로 권장드리는 암호화 메신저 목록입니다.

@@ -3,7 +3,7 @@ meta_title: "Verwijder PII met Metadata Scrubbers en Data Redaction Tools - Priv
 title: "Redactie van gegevens en metagegevens"
 icon: material/tag-remove
 description: Gebruik deze hulpmiddelen om metadata zoals GPS-locatie en andere identificerende informatie te verwijderen uit foto's en bestanden die je deelt.
-cover: data-redaction.png
+cover: data-redaction.webp
 ---
 
 Wanneer je bestanden deelt, is het belangrijk om de bijbehorende metadata te verwijderen. Afbeeldingsbestanden bevatten vaak [Exif](https://en.wikipedia.org/wiki/Exif) data. Foto's bevatten soms zelfs GPS-coördinaten in de metadata van het bestand.

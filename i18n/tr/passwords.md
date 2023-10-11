@@ -3,7 +3,7 @@ meta_title: "Gizliliğinizi ve Güvenliğinizi Korumanız için En İyi Parola Y
 title: "Parola yöneticileri"
 icon: material/form-textbox-password
 description: Parola yöneticileri, parolaları ve diğer kimlik bilgilerini güvenli bir şekilde saklayabilir ve yönetebilirsiniz.
-cover: passwords.png
+cover: passwords.webp
 schema:
   - 
     "@context": http://schema.org

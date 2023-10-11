@@ -2,7 +2,7 @@
 title: "Bestanden delen en synchroniseren"
 icon: material/share-variant
 description: Ontdek hoe je jouw bestanden privé kunt delen tussen jouw apparaten, met jouw vrienden en familie, of anoniem online.
-cover: file-sharing.png
+cover: file-sharing.webp
 ---
 
 Ontdek hoe je jouw bestanden privé kunt delen tussen jouw apparaten, met jouw vrienden en familie, of anoniem online.

@@ -2,7 +2,7 @@
 title: "Autenticadores Multifator"
 icon: 'O uso de AMF forte pode parar mais de 99% dos acessos não autorizados à conta, e é fácil de configurar nos serviços que você já usa.'
 description: Estas ferramentas ajudam-no a proteger as suas contas na Internet com a Autenticação Multifator, sem que sejam enviados os seus segredos a terceiros.
-cover: multi-factor-authentication.png
+cover: multi-factor-authentication.webp
 ---
 
 ## Chaves de Segurança de Hardware

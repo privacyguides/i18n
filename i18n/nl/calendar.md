@@ -2,7 +2,7 @@
 title: "Kalendersynchronisatie"
 icon: material/calendar
 description: Calendars contain some of your most sensitive data; use products that implement encryption at rest.
-cover: calendar.png
+cover: calendar.webp
 ---
 
 Kalenders en contactpersonen bevatten enkele van jouw gevoeligste gegevens; gebruik producten die E2EE in rust implementeren om te voorkomen dat een provider ze kan lezen.

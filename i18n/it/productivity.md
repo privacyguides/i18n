@@ -2,7 +2,7 @@
 title: "Strumenti per la produttività"
 icon: material/file-sign
 description: Gran parte delle suite da ufficio non supportano l'E2EE, a significare che il fornitore del cloud ha accesso a tutto ciò che fai.
-cover: productivity.png
+cover: productivity.webp
 ---
 
 Gran parte delle suite da ufficio non supportano l'E2EE, a significare che il fornitore del cloud ha accesso a tutto ciò che fai. La politica sulla privacy potrebbe proteggere legalmente i tuoi diritti, ma non fornisce vincoli tecnici di accesso.

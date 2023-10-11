@@ -2,7 +2,7 @@
 title: "Router-Firmware"
 icon: material/router-wireless
 description: These alternative operating systems can be used to secure your router or Wi-Fi access point.
-cover: router.png
+cover: router.webp
 ---
 
 Nachstehend sind ein paar alternative Betriebssysteme gelistet, die auf Routern, WLAN-Zugangspunkten usw. eingesetzt werden können.

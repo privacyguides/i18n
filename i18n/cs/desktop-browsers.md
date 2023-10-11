@@ -3,7 +3,7 @@ meta_title: "Webové prohlížeče respektující soukromí pro PC a Mac - Priva
 title: "Prohlížeče pro počítače"
 icon: material/laptop
 description: Tyto webové prohlížeče nabízejí lepší ochranu soukromí než Google Chrome.
-cover: desktop-browsers.png
+cover: desktop-browsers.webp
 schema:
   - 
     "@context": http://schema.org

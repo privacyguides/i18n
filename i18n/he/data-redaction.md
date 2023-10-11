@@ -3,7 +3,7 @@ meta_title: "הסר PII עם מגרדי מטא נתונים וכלי פירוק 
 title: "הפחתת נתונים ומטא נתונים"
 icon: material/tag-remove
 description: השתמש בכלים אלה כדי להסיר מטא נתונים כמו מיקום GPS ומידע מזהה אחר מתמונות וקבצים שאתה משתף.
-cover: data-redaction.png
+cover: data-redaction.webp
 ---
 
 בעת שיתוף קבצים, הקפד להסיר מטא נתונים משויכים. קבצי תמונה כוללים בדרך כלל [נתוני Exif](https://en.wikipedia.org/wiki/Exif). תמונות לפעמים אפילו כוללות קואורדינטות GPS במטא-נתונים של הקובץ.

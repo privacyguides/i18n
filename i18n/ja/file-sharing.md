@@ -2,7 +2,7 @@
 title: "ファイル共有と同期"
 icon: material/share-variant
 description: デバイス間や、友人や家族、または匿名でオンライン上でファイルをプライベートに共有する方法をご紹介します。
-cover: file-sharing.png
+cover: file-sharing.webp
 ---
 
 デバイス間、友人や家族、または匿名でオンライン上でファイルをプライベートに共有する方法をご紹介します。

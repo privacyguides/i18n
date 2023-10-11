@@ -3,7 +3,7 @@ meta_title: "Мобильные браузеры для Android и iOS, собл
 title: "Мобильные браузеры"
 icon: material/cellphone-information
 description: Мы рекомендуем эти браузеры для обычного/неанонимного браузинга в интернете на вашем телефоне.
-cover: mobile-browsers.png
+cover: mobile-browsers.webp
 schema:
   - 
     "@context": http://schema.org

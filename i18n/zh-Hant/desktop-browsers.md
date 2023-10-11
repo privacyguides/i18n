@@ -3,7 +3,7 @@ meta_title: "PC 和 Mac上隱私權尊重網頁瀏覽器的 - Privacy Guides"
 title: "桌面瀏覽器"
 icon: material/laptop
 description: 這些網頁瀏覽器提供比 Google Chrome 更強大的隱私保護。
-cover: desktop-browsers.png
+cover: desktop-browsers.webp
 schema:
   - 
     "@context": http://schema.org

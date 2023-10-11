@@ -2,7 +2,7 @@
 title: "Partilha e Sincronização de Ficheiros"
 icon: material/share-variant
 description: Descubra como partilhar os seus ficheiros em privado entre os seus dispositivos, com os seus amigos e família, ou anonimamente online.
-cover: file-sharing.png
+cover: file-sharing.webp
 ---
 
 Descubra como partilhar os seus ficheiros em privado entre os seus dispositivos, com os seus amigos e família, ou anonimamente online.

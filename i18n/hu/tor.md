@@ -3,7 +3,7 @@ meta_title: "Tor Böngésző és Hálózat: Névtelen Webes Böngészés - Priva
 title: "Tor Hálózat"
 icon: simple/torproject
 description: Védd meg internetes böngészésed a kíváncsi szemek elől a Tor hálózat, egy biztonságos hálózat használatával, amely megkerüli a cenzúrát.
-cover: tor.png
+cover: tor.webp
 schema:
   - 
     "@context": http://schema.org

@@ -2,7 +2,7 @@
 title: "多要素認証"
 icon: 'material/two-factor-authentication'
 description: これらのツールは、あなたの秘密をサードパーティに送信することなく、多要素認証であなたのインターネットアカウントを保護することを支援します。
-cover: multi-factor-authentication.png
+cover: multi-factor-authentication.webp
 ---
 
 ## ハードウェアセキュリティ

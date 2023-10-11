@@ -2,7 +2,7 @@
 title: "Frontends"
 icon: material/flip-to-front
 description: Estes frontends de código aberto para vários serviços da Internet permitem-lhe aceder a conteúdos sem JavaScript ou outro tipo de inconvenientes.
-cover: frontends.png
+cover: frontends.webp
 ---
 
 Por vezes, os serviços tentam forçá-lo a criar uma conta, bloqueando o acesso a conteúdos com popups irritantes. Também podem não funcionar como pretendido se o JavaScript não for ativado. Estes frontends existem para permitir contornar estas restrições.

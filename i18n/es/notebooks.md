@@ -2,7 +2,7 @@
 title: "Blocs de Notas"
 icon: material/notebook-edit-outline
 description: Estas aplicaciones encriptadas para tomar notas te permiten hacer un seguimiento de tus apuntes sin cedérselos a terceros.
-cover: notebooks.png
+cover: notebooks.webp
 ---
 
 Mantén el control de tus notas y diarios sin darlos a un tercero.

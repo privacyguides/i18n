@@ -2,7 +2,7 @@
 title: "뉴스 애그리게이터"
 icon: material/rss
 description: 뉴스 애그리게이터 클라이언트를 이용해 즐겨 찾는 블로그와 뉴스 사이트의 최신 글을 RSS 등의 표준 기술을 통해 받아볼 수 있습니다.
-cover: news-aggregators.png
+cover: news-aggregators.webp
 ---
 
 [뉴스 애그리게이터(News Aggregator)](https://ko.wikipedia.org/wiki/%EB%89%B4%EC%8A%A4_%EC%95%A0%EA%B7%B8%EB%A6%AC%EA%B2%8C%EC%9D%B4%ED%84%B0)를 이용하면 즐겨 찾는 블로그와 뉴스 사이트의 최신 글을 받아볼 수 있습니다.

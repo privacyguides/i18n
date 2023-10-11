@@ -3,7 +3,7 @@ meta_title: "Περιηγητές ιστού, οι οποίοι σέβονται
 title: "Περιηγητές Επιφάνειας Εργασίας"
 icon: material/laptop
 description: Αυτοί οι περιηγητές ιστού προασπίζουν την ιδιωτικότητα σε σημαντικότερο βαθμό από το Google Chrome.
-cover: desktop-browsers.png
+cover: desktop-browsers.webp
 schema:
   - 
     "@context": http://schema.org

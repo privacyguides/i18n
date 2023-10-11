@@ -2,7 +2,7 @@
 title: "Agregadores de notícias"
 icon: material/rss
 description: Estes clientes agregadores de notícias funcionam com base em normas da Internet como o RSS, e permitem-lhe manter-se a par dos seus blogues e sites de notícias favoritos.
-cover: news-aggregators.png
+cover: news-aggregators.webp
 ---
 
 Um [agregador de notícias](https://en.wikipedia.org/wiki/News_aggregator) é uma forma de se manter a par dos seus blogues e sites de notícias favoritos.

@@ -3,7 +3,7 @@ meta_title: "מנועי חיפוש מומלצים: חלופות גוגל אנו�
 title: "מנועי חיפוש"
 icon: material/search-web
 description: מנועי החיפוש המכבדים את הפרטיות אינם בונים פרופיל פרסום על סמך החיפושים שלך.
-cover: search-engines.png
+cover: search-engines.webp
 ---
 
 השתמש במנוע חיפוש שאינו בונה פרופיל פרסום על סמך החיפושים שלך.

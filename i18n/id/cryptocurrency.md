@@ -2,7 +2,7 @@
 meta_title: "Private Cryptocurrency Blockchains - Privacy Guides"
 title: Mata Uang Kripto
 icon: material/bank-circle
-cover: cryptocurrency.png
+cover: cryptocurrency.webp
 ---
 
 Melakukan pembayaran secara daring adalah salah satu tantangan terbesar bagi privasi. Mata uang kripto di bawah ini menyediakan privasi transaksi secara bawaan (sesuatu yang **tidak** dijamin oleh sebagian besar mata uang kripto), asalkan Anda memiliki pemahaman yang kuat tentang cara melakukan pembayaran pribadi secara efektif. Kami sangat menyarankan Anda untuk membaca artikel ikhtisar pembayaran kami terlebih dahulu sebelum melakukan pembelian:

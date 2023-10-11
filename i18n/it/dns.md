@@ -2,7 +2,7 @@
 title: "Risolutori DNS"
 icon: material/dns
 description: Questi sono alcuni dei fornitori DNS crittografati cui consigliamo di passare, per sostituire la configurazione predefinita del tuo ISP.
-cover: dns.png
+cover: dns.webp
 ---
 
 I DNS crittografati con server di terze parti dovrebbero essere utilizzati soltanto per aggirare il [blocco DNS](https://en.wikipedia.org/wiki/DNS_blocking) di base, quando si può esser certi che non vi sarà alcuna conseguenza. Il DNS crittografato non ti aiuterà a nascondere alcuna tua attività di navigazione.

@@ -3,7 +3,7 @@ meta_title: "Tor 브라우저 및 네트워크: 익명 웹 탐색 - Privacy Guid
 title: "Tor 네트워크"
 icon: simple/torproject
 description: 검열 우회 보안 네트워크인 Tor 네트워크를 사용해 여러분의 인터넷 탐색이 감시당하지 않도록 보호하세요.
-cover: tor.png
+cover: tor.webp
 schema:
   - 
     "@context": http://schema.org

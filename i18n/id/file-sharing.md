@@ -2,7 +2,7 @@
 title: "Berbagi dan Sinkronisasi File"
 icon: material/share-variant
 description: Temukan cara berbagi file secara pribadi di antara perangkat Anda, dengan teman dan keluarga, atau secara anonim secara online.
-cover: file-sharing.png
+cover: file-sharing.webp
 ---
 
 Temukan cara berbagi file secara pribadi di antara perangkat Anda, dengan teman dan keluarga, atau secara anonim secara online.

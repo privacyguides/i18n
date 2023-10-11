@@ -3,7 +3,7 @@ meta_title: "Hapus PII dengan Penghapus Metadata dan Alat Peyunting Data - Priva
 title: "Penyuntingan Data dan Metadata"
 icon: material/tag-remove
 description: Gunakan alat bantu ini untuk menghapus metadata seperti lokasi GPS dan informasi identifikasi lainnya dari foto dan file yang Anda bagikan.
-cover: data-redaction.png
+cover: data-redaction.webp
 ---
 
 Saat berbagi file, pastikan untuk menghapus metadata terkait. File gambar biasanya menyertakan data [Exif](https://en.wikipedia.org/wiki/Exif). Foto terkadang bahkan menyertakan koordinat GPS dalam metadata file.

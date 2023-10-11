@@ -2,7 +2,7 @@
 title: "מאמתים מרובי גורמים"
 icon: 'material/two-factor-authentication'
 description: כלים אלה מסייעים לך באבטחת חשבונות האינטרנט שלך באמצעות אימות רב-גורמי מבלי לשלוח את הסודות שלך לצד שלישי.
-cover: multi-factor-authentication.png
+cover: multi-factor-authentication.webp
 ---
 
 ## מפתחות אבטחה של חומרה

@@ -3,7 +3,7 @@ meta_title: "Tor Browser und Netzwerk: Anonymes Surfen im Internet - Privacy Gui
 title: "Tor-Netzwerk"
 icon: simple/torproject
 description: Schütze dein Surfen im Internet vor neugierigen Blicken, indem du das Tor-Netzwerk nutzt, ein sicheres Netzwerk, das die Zensur umgeht.
-cover: tor.png
+cover: tor.webp
 schema:
   - 
     "@context": http://schema.org

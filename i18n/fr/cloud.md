@@ -3,7 +3,7 @@ meta_title: "Les meilleurs services de stockage cloud privés et sécurisés - P
 title: "Stockage cloud"
 icon: material/file-cloud
 description: De nombreux fournisseurs de stockage cloud nécessitent que vous leur fassiez confiance pour ne pas consulter vos fichiers. Voici des alternatives privées !
-cover: cloud.png
+cover: cloud.webp
 ---
 
 De nombreux fournisseurs de stockage cloud nécessitent que vous leur fassiez entièrement confiance pour ne pas consulter vos fichiers. Les alternatives énumérées ci-dessous éliminent le besoin de confiance en mettant en œuvre un E2EE sécurisé.

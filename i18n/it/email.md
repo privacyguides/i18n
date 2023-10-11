@@ -3,7 +3,7 @@ meta_title: "Email Private Crittografate Consigliate - Privacy Guides"
 title: "Servizi Email"
 icon: material/email
 description: Questi fornitori di email offrono un luogo ideale per memorizzare in sicurezza le tue email e, molti, offrono crittografia OpenPGP interoperabile con altri fornitori.
-cover: email.png
+cover: email.webp
 ---
 
 L'email è praticamente una necessità per utilizzare qualsiasi servizio online, tuttavia, la sconsigliamo per le conversazioni personali. Piuttosto di utilizzare una e-mail per contattare altre persona, considera un mezzo di messaggistica istantanea che supporti la \['forward secrecy'\](https://it.wikipedia.org/wiki/Forward_secrecy).

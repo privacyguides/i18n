@@ -3,7 +3,7 @@ meta_title: "비공개 VPN 서비스 권장 목록 및 각 서비스 비교 (스
 title: "VPN 서비스"
 icon: material/vpn
 description: These are the best VPN services for protecting your privacy and security online. Find a provider here that isn’t out to spy on you.
-cover: vpn.png
+cover: vpn.webp
 ---
 
 ISP로부터의 **프라이버시**가 필요하거나, 공용 Wi-Fi에 연결되어 있거나, 토렌트를 사용하는 중이라면 VPN이 알맞는 해결책이 될 수 있습니다. 다만, VPN의 단점들을 인지하고 있어야 합니다. We think these providers are a cut above the rest:

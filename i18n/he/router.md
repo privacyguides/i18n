@@ -2,7 +2,7 @@
 title: "קושחת הנתב"
 icon: material/router-wireless
 description: ניתן להשתמש במערכות הפעלה חלופיות אלה כדי לאבטח את הנתב או נקודת הגישה ל-Wi-Fi.
-cover: router.png
+cover: router.webp
 ---
 
 להלן מספר מערכות הפעלה חלופיות, שניתן להשתמש בהן בנתבים, נקודות גישה ל-Wi-Fi וכו'.

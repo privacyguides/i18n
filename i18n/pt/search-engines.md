@@ -3,7 +3,7 @@ meta_title: "Motores de pesquisa recomendados: alternativas anónimas ao Google 
 title: "Motores de Busca"
 icon: material/search-web
 description: Estes motores de busca, que respeitam a privacidade, não criam um perfil de marketing com base nas suas pesquisas.
-cover: search-engines.png
+cover: search-engines.webp
 ---
 
 Utilize um motor de busca que não crie um perfil de marketing com base nas suas pesquisas.

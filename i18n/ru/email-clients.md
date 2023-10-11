@@ -2,7 +2,7 @@
 title: "Почтовые клиенты"
 icon: material/email-open
 description: Эти почтовые клиенты соблюдают конфиденциальность и поддерживают шифрование электронной почты OpenPGP.
-cover: email-clients.png
+cover: email-clients.webp
 ---
 
 Наш список рекомендаций содержит только почтовые клиенты, которые поддерживают [OpenPGP](/encryption/#openpgp) и безопасную аутентификацию (например, [OAuth](https://ru.wikipedia.org/wiki/OAuth)). OAuth позволяет использовать [многофакторную аутентификацию](basics/multi-factor-authentication.md) и предотвратить кражу учетных записей.

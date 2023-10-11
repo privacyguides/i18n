@@ -3,7 +3,7 @@ meta_title: "Browser web che rispettano la privacy per PC e Mac - Privacy Guides
 title: "Browser desktop"
 icon: material/laptop
 description: Questi browser web offrono una maggiore protezione della privacy rispetto a Google Chrome.
-cover: desktop-browsers.png
+cover: desktop-browsers.webp
 schema:
   - 
     "@context": http://schema.org

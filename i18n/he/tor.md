@@ -3,7 +3,7 @@ meta_title: "דפדפן ורשת Tor: גלישה אנונימית באינטרנ
 title: "רשת טור (Tor Network)"
 icon: simple/torproject
 description: הגן על הגלישה שלך באינטרנט מעיניים סקרניות על ידי שימוש ברשת Tor, רשת מאובטחת שעוקפת צנזורה.
-cover: tor.png
+cover: tor.webp
 schema:
   - 
     "@context": http://schema.org

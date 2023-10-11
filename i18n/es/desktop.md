@@ -2,7 +2,7 @@
 title: "Escritorio/PC"
 icon: simple/linux
 description: Las distribuciones de Linux se recomiendan comúnmente para la protección de la privacidad y la libertad del software.
-cover: desktop.png
+cover: desktop.webp
 ---
 
 Las distribuciones de Linux se recomiendan comúnmente para la protección de la privacidad y la libertad del software. Si aún no utiliza Linux, a continuación le sugerimos que pruebe algunas distribuciones, así como algunos consejos generales para mejorar la privacidad y la seguridad que son aplicables a muchas distribuciones de Linux.

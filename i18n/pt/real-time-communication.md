@@ -3,7 +3,7 @@ meta_title: "As melhores aplicações de mensagens instantâneas com foco na pri
 title: "Comunicação em tempo real"
 icon: material/chat-processing
 description: Outras aplicações de mensagens instantâneas disponibilizam todas as suas conversas privadas à empresa que as gere.
-cover: real-time-communication.png
+cover: real-time-communication.webp
 ---
 
 Estas são as nossas recomendações para comunicação encriptada em tempo real.

@@ -2,7 +2,7 @@
 title: "工作效率工具"
 icon: material/file-sign
 description: 大多數線上辦公套件不支持 E2EE ，這意味著雲提供商可以存取您所做的一切。
-cover: productivity.png
+cover: productivity.webp
 ---
 
 大多數線上辦公套件不支持 E2EE ，這意味著雲提供商可以存取您所做的一切。 隱私權政策可在法律上保護您的權利，但不提供技術存取限制。

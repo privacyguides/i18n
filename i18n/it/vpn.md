@@ -3,7 +3,7 @@ meta_title: "Consigli e confronto sui servizi VPN privati, senza sponsor o pubbl
 title: "Servizi VPN"
 icon: material/vpn
 description: Questi sono i migliori servizi VPN per proteggere la tua privacy e sicurezza online. Trovate un fornitore che non ti spii.
-cover: vpn.png
+cover: vpn.webp
 ---
 
 Se desideri ulteriore **privacy** dal tuo ISP, su una rete Wi-Fi pubblica, o durante torrenting di file, una VPN potrebbe essere la soluzione per te, purché tu comprenda i rischi associati. Riteniamo che questi provider siano una spanna sopra gli altri:

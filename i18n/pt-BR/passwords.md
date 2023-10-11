@@ -3,7 +3,7 @@ meta_title: "Os Melhores Gerenciadores de Senhas para Proteger sua Privacidade e
 title: "Gerenciadores de Senhas"
 icon: material/form-textbox-password
 description: Gerenciadores de senhas permitem que você armazene e gerencie com segurança senhas e outras credenciais.
-cover: passwords.png
+cover: passwords.webp
 schema:
   - 
     "@context": http://schema.org

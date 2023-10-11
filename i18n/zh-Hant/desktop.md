@@ -2,7 +2,7 @@
 title: "桌上型電腦"
 icon: simple/linux
 description: 因為隱私保護和軟體自由，通常建議用 Linux發行版。
-cover: desktop.png
+cover: desktop.webp
 ---
 
 基於隱私保護和軟體自由，通常建議用 Linux 發行版。 如果您還不曾用過 Linux ，以下是我們建議可試試的發行版，以及一些 Linux發行版的隱私和安全提升技巧。

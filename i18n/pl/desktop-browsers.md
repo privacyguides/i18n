@@ -3,7 +3,7 @@ meta_title: "Przeglądarki internetowe na PC i Mac respektujące prywatność - 
 title: "Przeglądarki desktopowe"
 icon: material/laptop
 description: Przeglądarki te zapewniają silniejszą ochronę prywatności niż Google Chrome.
-cover: desktop-browsers.png
+cover: desktop-browsers.webp
 schema:
   - 
     "@context": http://schema.org

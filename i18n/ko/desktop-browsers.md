@@ -3,7 +3,7 @@ meta_title: "프라이버시 중점 PC, Mac용 웹 브라우저 - Privacy Guides
 title: "데스크톱 브라우저"
 icon: material/laptop
 description: Google Chrome보다 강력한 프라이버시 보호 기능을 제공하는 브라우저 목록입니다.
-cover: desktop-browsers.png
+cover: desktop-browsers.webp
 schema:
   - 
     "@context": http://schema.org

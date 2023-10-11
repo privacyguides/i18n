@@ -3,7 +3,7 @@ meta_title: "متصفحات ويب تحترم الخصوصية للحاسوب ا
 title: "متصفحات الحاسوب المكتبي"
 icon: material/laptop
 description: متصفحات الويب هذه تقدم حماية أكبر للخصوصية من Google Chrome.
-cover: desktop-browsers.png
+cover: desktop-browsers.webp
 schema:
   - 
     "@context": http://schema.org

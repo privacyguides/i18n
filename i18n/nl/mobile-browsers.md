@@ -3,7 +3,7 @@ meta_title: "Privacy respecterende mobiele webbrowsers voor Android en iOS - Pri
 title: "Mobiele browsers"
 icon: material/cellphone-information
 description: Deze browsers zijn wat we momenteel aanbevelen voor standaard/niet-anoniem internetten op jouw telefoon.
-cover: mobile-browsers.png
+cover: mobile-browsers.webp
 schema:
   - 
     "@context": http://schema.org

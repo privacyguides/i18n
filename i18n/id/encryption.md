@@ -3,7 +3,7 @@ meta_title: "Recommended Encryption Software: VeraCrypt, Cryptomator, PicoCrypt,
 title: "Perangkat Lunak Enkripsi"
 icon: material/file-lock
 description: Enkripsi data adalah satu-satunya cara untuk mengendalikan siapa saja yang dapat mengaksesnya. These tools allow you to encrypt your emails and any other files.
-cover: encryption.png
+cover: encryption.webp
 ---
 
 Enkripsi data adalah satu-satunya cara untuk mengendalikan siapa saja yang dapat mengaksesnya. Jika saat ini Anda tidak menggunakan perangkat lunak enkripsi untuk perangkat penyimpanan, surel, atau berkas Anda, Anda seharusnya memilih opsi di sini.

@@ -3,7 +3,7 @@ meta_title: "Remove PII with Metadata Scrubbers and Data Redaction Tools - Priva
 title: "Ferramentas de encriptação"
 icon: material/tag-remove
 description: Use these tools to remove metadata like GPS location and other identifying information from photos and files you share.
-cover: data-redaction.png
+cover: data-redaction.webp
 ---
 
 Ao partilhar ficheiros, certifique-se de que remove os metadados associados. Os arquivos de imagem geralmente incluem [EXIF](https://en.wikipedia.org/wiki/Exif) dados. As fotos às vezes até incluem [GPS](https://en.wikipedia.org/wiki/Global_Positioning_System) coordenadas nos metadados do arquivo.

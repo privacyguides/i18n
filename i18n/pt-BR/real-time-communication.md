@@ -3,7 +3,7 @@ meta_title: "Melhores Mensageiros Instantâneos Privados — Privacy Guides"
 title: "Comunicação em Tempo Real"
 icon: material/chat-processing
 description: Other instant messengers make all of your private conversations available to the company that runs them.
-cover: real-time-communication.png
+cover: real-time-communication.webp
 ---
 
 These are our recommendations for encrypted real-time communication.

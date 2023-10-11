@@ -2,7 +2,7 @@
 title: "Email kliensek"
 icon: material/email-open
 description: Ezek az e-mail kliensek tiszteletben tartják a magánéletet és támogatják az OpenPGP email titkosítást.
-cover: email-clients.png
+cover: email-clients.webp
 ---
 
 Ajánlási listánk olyan e-mail klienseket tartalmaz, amelyek támogatják mind az [OpenPGP](encryption.md#openpgp)-t és az erős hitelesítést, például az [Open Authorization-t (OAuth-ot)](https://en.wikipedia.org/wiki/OAuth). Az OAuth lehetővé teszi a [többlépcsős hitelesítés használatát](basics/multi-factor-authentication.md) és a fiók ellopásának megelőzését.

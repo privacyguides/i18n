@@ -3,7 +3,7 @@ meta_title: "דפדפני אינטרנט המכבדים פרטיות עבור מ
 title: "דפדפנים שולחניים"
 icon: material/laptop
 description: דפדפני אינטרנט אלה מספקים הגנת פרטיות חזקה יותר מאשר Google Chrome.
-cover: desktop-browsers.png
+cover: desktop-browsers.webp
 schema:
   - 
     "@context": http://schema.org

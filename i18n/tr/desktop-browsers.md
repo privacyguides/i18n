@@ -3,7 +3,7 @@ meta_title: "PC ve Mac için Mahremiyete Saygı Gösteren Web Tarayıcıları - 
 title: "Masaüstü Tarayıcıları"
 icon: material/laptop
 description: Bu web tarayıcıları Google Chrome'dan daha iyi mahremiyet sağlar.
-cover: desktop-browsers.png
+cover: desktop-browsers.webp
 schema:
   - 
     "@context": http://schema.org

@@ -2,7 +2,7 @@
 title: "Многофакторная аутентификация"
 icon: 'material/two-factor-authentication'
 description: Эти инструменты помогут вам защитить ваши учетные записи в интернете с помощью многофакторной аутентификации без передачи ваших секретов третьим лицам.
-cover: multi-factor-authentication.png
+cover: multi-factor-authentication.webp
 ---
 
 ## Аппаратные ключи безопасности

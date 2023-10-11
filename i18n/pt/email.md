@@ -3,7 +3,7 @@ meta_title: "Recomendações de Correio Eletrónico Privado Encriptado - Privacy
 title: "Serviços de Correio Eletrónico"
 icon: material/email
 description: Estes fornecedores de correio eletrónico são um excelente local para armazenar as suas mensagens eletrónicas em segurança e muitos oferecem encriptação OpenPGP interoperável com outros fornecedores.
-cover: email.png
+cover: email.webp
 ---
 
 O correio eletrónico é praticamente uma necessidade para subscrever qualquer serviço online, mas não o recomendamos para conversas pessoais. Em vez de utilizar o correio eletrónico para contactar outras pessoas, considere a possibilidade de utilizar uma aplicação de mensagens instantâneas que suporte encaminhamento sigiloso.

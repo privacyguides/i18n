@@ -3,7 +3,7 @@ meta_title: "암호화 소프트웨어 권장 목록: VeraCrypt, Cryptomator, Pi
 title: "암호화 소프트웨어"
 icon: material/file-lock
 description: 데이터 암호화는 데이터에 접근 가능한 사람을 통제하는 유일한 방법입니다. 암호화 툴로 이메일이나 각종 파일을 암호화하세요.
-cover: encryption.png
+cover: encryption.webp
 ---
 
 데이터 암호화는 데이터에 접근 가능한 사람을 통제하는 유일한 방법입니다. 만약 아직 하드 디스크, 이메일, 파일들을 암호화하지 않았다면 여기에 있는 프로그램을 사용하는것을 추천합니다.

@@ -3,7 +3,7 @@ meta_title: "Logiciels de chiffrement recommandés : VeraCrypt, Cryptomator, Pic
 title: "Logiciels de chiffrement"
 icon: material/file-lock
 description: Le chiffrement des données est le seul moyen de contrôler qui peut y accéder. Ces outils vous permettent de chiffrer vos emails et tout autre fichier.
-cover: encryption.png
+cover: encryption.webp
 ---
 
 Le chiffrement des données est le seul moyen de contrôler qui peut y accéder. Si vous n'utilisez pas actuellement de logiciel de chiffrement pour votre disque dur, vos e-mails ou vos fichiers, vous devriez choisir une option ici.

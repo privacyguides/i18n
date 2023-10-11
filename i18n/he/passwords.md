@@ -3,7 +3,7 @@ meta_title: "מנהלי הסיסמאות הטובים ביותר להגנה על
 title: "מנהלי סיסמאות"
 icon: material/form-textbox-password
 description: מנהלי סיסמאות מאפשרים לך לאחסן ולנהל בצורה מאובטחת סיסמאות ואישורים אחרים.
-cover: passwords.png
+cover: passwords.webp
 schema:
   - 
     "@context": http://schema.org

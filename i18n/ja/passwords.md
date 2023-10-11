@@ -3,7 +3,7 @@ meta_title: "プライバシーとセキュリティーを守る最高のパス�
 title: "パスワードマネージャー"
 icon: material/form-textbox-password
 description: パスワードマネージャーは、パスワードやその他の情報を安全に保存および管理できます。
-cover: passwords.png
+cover: passwords.webp
 schema:
   - 
     "@context": http://schema.org

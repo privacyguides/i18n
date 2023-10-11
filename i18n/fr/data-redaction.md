@@ -3,7 +3,7 @@ meta_title: "Supprimer les DCP à l'aide de nettoyeurs de métadonnées et d'out
 title: "Rédaction de données et de métadonnées"
 icon: material/tag-remove
 description: Utilisez ces outils pour supprimer les métadonnées telles que la position GPS et d'autres informations d'identification des photos et des fichiers que vous partagez.
-cover: data-redaction.png
+cover: data-redaction.webp
 ---
 
 Lorsque vous partagez des fichiers, veillez à supprimer les métadonnées associées. Les fichiers d'image comprennent généralement des données [Exif](https://en.wikipedia.org/wiki/Exif) . Les photos comportent parfois même des coordonnées GPS dans les métadonnées du fichier.

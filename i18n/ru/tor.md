@@ -3,7 +3,7 @@ meta_title: "Браузер и сеть Tor: Анонимный браузинг
 title: "Сеть Tor"
 icon: simple/torproject
 description: Защити свой интернет-сёрфинг от посторонних глаз, используя сеть Tor - безопасную сеть, обходящую цензуру.
-cover: tor.png
+cover: tor.webp
 schema:
   - 
     "@context": http://schema.org

@@ -2,7 +2,7 @@
 title: "공유기 펌웨어"
 icon: material/router-wireless
 description: 이러한 대체 운영 체제로 여러분의 공유기(라우터) 및 Wi-Fi 액세스 포인트를 보호할 수 있습니다.
-cover: router.png
+cover: router.webp
 ---
 
 본 내용은 공유기(라우터), Wi-Fi 액세스 포인트 장치 등에서 대체하여 사용할 수 있는 운영 체제 목록입니다.

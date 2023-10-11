@@ -3,7 +3,7 @@ meta_title: "Recommended Encryption Software: VeraCrypt, Cryptomator, PicoCrypt,
 title: "Softwares de Criptografia"
 icon: material/file-lock
 description: A criptografia de dados é a única maneira de controlar quem pode acessá-los. These tools allow you to encrypt your emails and any other files.
-cover: encryption.png
+cover: encryption.webp
 ---
 
 A criptografia de dados é a única maneira de controlar quem pode acessá-los. Se você atualmente não está usando “software” de criptografia para seu disco rígido, e-mails ou arquivos, você deve escolher uma opção aqui.

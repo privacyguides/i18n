@@ -3,7 +3,7 @@ meta_title: "I migliori gestori di password per proteggere la tua privacy e sicu
 title: "Gestori di password"
 icon: material/form-textbox-password
 description: I gestori di password ti consentono di memorizzare e gestire in sicurezza le password e altre credenziali.
-cover: passwords.png
+cover: passwords.webp
 schema:
   - 
     "@context": http://schema.org

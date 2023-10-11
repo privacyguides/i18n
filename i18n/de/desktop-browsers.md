@@ -3,7 +3,7 @@ meta_title: "Datenschutzfreundliche Webbrowser für PC und Mac - Privacy Guides"
 title: "Desktop Browser"
 icon: material/laptop
 description: Diese Webbrowser bieten einen stärkeren Schutz der Privatsphäre als Google Chrome.
-cover: desktop-browsers.png
+cover: desktop-browsers.webp
 schema:
   - 
     "@context": http://schema.org

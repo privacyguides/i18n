@@ -3,7 +3,7 @@ meta_title: "Android 推薦: GrapheneOS 與 DivestOS - Privacy Guides"
 title: "Android"
 icon: 'simple/android'
 description: Android 手機可考慮使用這些更為安全與尊重隱私的作業系統。
-cover: android.png
+cover: android.webp
 schema:
   - 
     "@context": http://schema.org

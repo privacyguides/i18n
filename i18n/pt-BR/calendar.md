@@ -2,7 +2,7 @@
 title: "Agenda/Calendário Sincronizado"
 icon: material/calendar
 description: Calendars contain some of your most sensitive data; use products that implement encryption at rest.
-cover: calendar.png
+cover: calendar.webp
 ---
 
 Os calendários contêm alguns de seus dados mais confidenciais; use produtos que implementem E2EE em repouso para impedir que um provedor os leia.

@@ -3,7 +3,7 @@ meta_title: "Pengelola Kata Sandi Terbaik untuk Melindungi Privasi dan Keamanan 
 title: "Pengelola Kata Sandi"
 icon: material/form-textbox-password
 description: Pengelola kata sandi memungkinkan Anda menyimpan dan mengelola kata sandi dan kredensial lainnya dengan aman.
-cover: passwords.png
+cover: passwords.webp
 schema:
   - 
     "@context": http://schema.org

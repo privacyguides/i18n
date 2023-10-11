@@ -1,7 +1,7 @@
 ---
 title: Services financiers
 icon: material/bank
-cover: financial-services.png
+cover: financial-services.webp
 ---
 
 Effectuer des paiements en ligne est l'un des plus grands défis en matière de protection de la vie privée. Ces services peuvent vous aider à protéger votre vie privée contre les marchands et autres traqueurs, à condition que vous ayez une bonne compréhension de la façon d'effectuer des paiements privés de manière efficace. Nous vous encourageons vivement à lire notre article sur les paiements avant d'effectuer tout achat :

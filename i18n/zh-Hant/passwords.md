@@ -3,7 +3,7 @@ meta_title: "保護您的隱私和安全的最佳密碼管理器 - Privacy Guide
 title: "密碼管理器。"
 icon: material/form-textbox-password
 description: 密碼管理員允許您安全地存儲和管理密碼和其他憑證。
-cover: passwords.png
+cover: passwords.webp
 schema:
   - 
     "@context": http://schema.org

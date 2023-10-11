@@ -3,7 +3,7 @@ meta_title: "Aanbevolen zoekmachines: Anonieme Google Alternatieven - Privacy Gu
 title: "Zoekmachines"
 icon: material/search-web
 description: Deze privacy respecterende zoekmachines bouwen geen advertentieprofiel op basis van jouw zoekopdrachten.
-cover: search-engines.png
+cover: search-engines.webp
 ---
 
 Gebruik een zoekmachine die geen advertentieprofiel opbouwt op basis van jouw zoekopdrachten.

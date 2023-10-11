@@ -2,7 +2,7 @@
 title: "Aplicações de Notas"
 icon: material/notebook-edit-outline
 description: Estas aplicações de notas encriptadas permitem-lhe manter um registo das suas notas sem as ceder a terceiros.
-cover: notebooks.png
+cover: notebooks.webp
 ---
 
 Mantenha um registo das suas notas e diários sem os entregar a terceiros.

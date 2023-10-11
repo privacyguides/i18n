@@ -3,7 +3,7 @@ meta_title: "De beste wachtwoordbeheerders om jouw privacy en veiligheid te besc
 title: "Wachtwoord managers"
 icon: material/form-textbox-password
 description: Met wachtwoord Managers kunt je wachtwoorden en andere geheimen veilig opslaan en beheren met behulp van een hoofdwachtwoord.
-cover: passwords.png
+cover: passwords.webp
 schema:
   - 
     "@context": http://schema.org

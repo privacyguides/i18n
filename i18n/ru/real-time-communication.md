@@ -3,7 +3,7 @@ meta_title: "Лучшие приватные мессенджеры - Privacy Gu
 title: "Мессенджеры"
 icon: material/chat-processing
 description: Другие мессенджеры делают все ваши личные переписки доступными для компании, которые этими мессенджерами управляют.
-cover: real-time-communication.png
+cover: real-time-communication.webp
 ---
 
 Это наши рекомендации по зашифрованному общению в режиме реального времени.

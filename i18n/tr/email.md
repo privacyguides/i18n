@@ -3,7 +3,7 @@ meta_title: "Şifrelenmiş Gizli E-posta Önerileri - Privacy Guides"
 title: "E-posta Hizmetleri"
 icon: material/email
 description: These email providers offer a great place to store your emails securely, and many offer interoperable OpenPGP encryption with other providers.
-cover: email.png
+cover: email.webp
 ---
 
 E-posta, herhangi bir çevrimiçi hizmeti kullanmak için pratikte bir gerekliliktir, ancak bireysel görüşmeler için e-posta kullanılmasını önermiyoruz. Rather than using email to contact other people, consider using an instant messaging medium that supports forward secrecy.

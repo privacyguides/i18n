@@ -2,7 +2,7 @@
 meta_title: "Chaînes de blocs de crypto-monnaies privées - Privacy Guides"
 title: Crypto-monnaie
 icon: material/bank-circle
-cover: cryptocurrency.png
+cover: cryptocurrency.webp
 ---
 
 Effectuer des paiements en ligne est l'un des plus grands défis en matière de protection de la vie privée. Ces crypto-monnaies garantissent par défaut la confidentialité des transactions (ce qui n'est **pas** garanti par la majorité des crypto-monnaies), à condition que vous ayez une bonne compréhension de la façon d'effectuer des paiements privés de manière efficace. Nous vous encourageons vivement à lire notre article sur les paiements avant d'effectuer tout achat :

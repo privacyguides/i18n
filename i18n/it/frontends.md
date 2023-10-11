@@ -2,7 +2,7 @@
 title: "Frontend"
 icon: material/flip-to-front
 description: Questi frontend open source per vari servizi in Internet ti consentono di accedere ai contenuti senza JavaScript o altri fastidi.
-cover: frontends.png
+cover: frontends.webp
 ---
 
 Talvolta, i servizi, proveranno a forzarti a iscriverti per un profilo, bloccando l'accesso ai contenuti con dei fastidiosi popup. Potrebbero anche corrompersi, se JavaScript è disabilitato. Questi frontend possono consentirti di aggirare queste restrizioni.

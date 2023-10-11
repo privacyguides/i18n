@@ -2,7 +2,7 @@
 title: "פנקס רשימות"
 icon: material/notebook-edit-outline
 description: אפליקציות רישום רשימות-מוצפנות אלו מאפשרות לך לעקוב אחר הרשימות שלך מבלי לתת אותן לצד שלישי.
-cover: notebooks.png
+cover: notebooks.webp
 ---
 
 עקוב אחר ההערות והיומנים שלך מבלי למסור אותם לצד שלישי.

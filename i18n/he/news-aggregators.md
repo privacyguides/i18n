@@ -2,7 +2,7 @@
 title: "צוברי חדשות"
 icon: material/rss
 description: לקוחות צוברי חדשות אלה מאפשרים לך להתעדכן בבלוגים ובאתרי החדשות האהובים עליך באמצעות תקני אינטרנט כמו RSS.
-cover: news-aggregators.png
+cover: news-aggregators.webp
 ---
 
 [צובר חדשות](https://en.wikipedia.org/wiki/News_aggregator) הוא דרך להתעדכן בבלוגים ובאתרי החדשות המועדפים עליך.

@@ -118,39 +118,37 @@ Apple 產品的大多數隱私和安全問題與其*雲服務*有關，而不是
 
 - [ ] 取消勾選 **個人化的廣告**
 
-##### 安全
-
-App Store 中的應用程式須遵守更嚴格的安全準則，例如更嚴格的沙盒。 如果需要的應用程式只能從 App Store 獲取，請將**允許從以下位置下載應用程式**設置更改為**App Store** 防止不小心執行其他應用程式。 這是一個不錯的選擇，特別是當您為其他技術能力較低的用戶（例如兒童）設定電腦時。
-
-如果選擇允許某些認定開發者的應用程序，請注意所運行的應用程式以及從何處取得這些應用。
-
 ##### FileVault
 
 在具有安全隔離區（Apple T2 安全晶片、Apple 晶片）的現代設備上，您的數據會保持加密。如果設備未檢測到數據遭篡改，則會通過硬體密鑰自動解密。 啟用 FileVault 還需要輪入密碼來解密資料，大大提高了安全性，尤其是在關機時或開機後首次登錄時。
 
 在較舊的 Intel 的 Mac 電腦，FileVault 是預設唯一可用的磁盤加密形式，應始終啟用。
 
-- [x] 點擊 **開啟**
+- [x] Click **Turn On**
 
 ##### 封閉模式
 
 [封閉模式](https://blog.privacyguides.org/2022/10/27/macos-ventura-privacy-security-updates/#lockdown-mode) 禁用某些功能以提高安全性。 某些應用程式或功能在封閉時將無法正常工作，例如 [JIT](https://hacks.mozilla.org/2017/02/a-crash-course-in-just-in -time-jit- compilers/) 和[WASM](https://developer.mozilla.org/en-US/docs/WebAssembly) 在封閉模式下會被Safari 關閉。 建議啟用封閉模式看看它是否會顯著影響您的使用，它所做的許多更改都很容易接受。
 
-- [x] 點擊 **開啟**
+- [x] Click **Turn On**
 
 ### MAC 地址隨機化
 
-與 iOS 不同，macOS 不提供在設置中隨機化 MAC 地址的選項，因此您需要使用命令或腳本來執行此操作。
+macOS uses a randomized MAC address when performing Wi-Fi scans while disconnected from a network. However, when you connect to a preferred Wi-Fi network, the MAC address used is never randomized. Full MAC address randomization is an advanced topic, and most people don't need to worry about performing the following steps.
 
-打開終端並輸入以下命令來隨機化 MAC 地址：
+Unlike iOS, macOS doesn't give you an option to randomize your MAC address in the settings, so if you wish to change this identifier, you'll need to do it with a command or a script. To set a random MAC address, first disconnect from the network if you're already connected, then open **Terminal** and enter this command to randomize your MAC address:
 
 ``` zsh
-openssl rand -hex 6 | sed 's/\(..\)/\1:/g; s/.$//' | xargs sudo ifconfig en1 ether 
+openssl rand -hex 6 | sed 's/^\(.\{1\}\)./\12/; s/\(..\)/\1:/g; s/.$//' | xargs sudo ifconfig en0 ether
 ```
 
-en1 將要更改其 MAC 地址的接口名稱。 這可能並不適合每台 Mac，因此要進行檢查，可以按住 option 鍵並單擊螢幕右上角的 Wi-Fi 符號。
+`en0` is the name of the interface you're changing the MAC address for. 這可能並不適合每台 Mac，因此要進行檢查，可以按住 option 鍵並單擊螢幕右上角的 Wi-Fi 符號。 "Interface name" should be displayed at the top of the dropdown menu.
 
-這將在重新開機時重置。
+This command sets your MAC address to a randomized, "locally administered" address, matching the behavior of iOS, Windows, and Android's MAC address randomization features. This means that every character in the MAC address is fully randomized except the second character, which denotes the MAC address as *locally administered* and not in conflict with any actual hardware. This method is most compatible with modern networks. An alternative method is to set the first six characters of the MAC address to one of Apple's existing *Organizational Unique Identifiers*, which we'll leave as an exercise to the reader. That method is more likely to conflict with some networks, but may be less noticeable. Given the prevalence of randomized, locally administered MAC addresses in other modern operating systems, we don't think either method has significant privacy advantages over the other.
+
+When you connect to the network again, you'll connect with a random MAC address. 這將在重新開機時重置。
+
+Your MAC address is not the only unique information about your device which is broadcast on the network, your hostname is another piece of information which could uniquely identify you. You may wish to set your hostname to something generic like "MacBook Air", "Laptop", "John's MacBook Pro", or "iPhone" in **System Settings** > **General** > **Sharing**. Some [privacy scripts](https://github.com/sunknudsen/privacy-guides/tree/master/how-to-spoof-mac-address-and-hostname-automatically-at-boot-on-macos#guide) allow you to easily generate hostnames with random names.
 
 ## 安全保護
 

@@ -3,7 +3,7 @@ meta_title: "Интернет браузеры соблюдающие конфи
 title: "Браузеры для настольных компьютеров"
 icon: material/laptop
 description: Эти браузеры обеспечивают более надежную защиту конфиденциальности, чем Google Chrome.
-cover: desktop-browsers.png
+cover: desktop-browsers.webp
 schema:
   - 
     "@context": http://schema.org

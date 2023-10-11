@@ -2,7 +2,7 @@
 title: "Productiviteitshulpmiddelen"
 icon: material/file-sign
 description: De meeste online office suites ondersteunen geen E2EE, wat betekent dat de cloud provider toegang heeft tot alles wat je doet.
-cover: productivity.png
+cover: productivity.webp
 ---
 
 De meeste online office suites ondersteunen geen E2EE, wat betekent dat de cloud provider toegang heeft tot alles wat je doet. Het privacybeleid kan jouw rechten wettelijk beschermen, maar het voorziet niet in technische toegangsbeperkingen.

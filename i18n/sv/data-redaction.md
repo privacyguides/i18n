@@ -3,7 +3,7 @@ meta_title: "Remove PII with Metadata Scrubbers and Data Redaction Tools - Priva
 title: "Redigering av data och metadata"
 icon: material/tag-remove
 description: Use these tools to remove metadata like GPS location and other identifying information from photos and files you share.
-cover: data-redaction.png
+cover: data-redaction.webp
 ---
 
 När du delar filer ska du se till att ta bort tillhörande metadata. Bildfiler innehåller vanligtvis [Exif](https://en.wikipedia.org/wiki/Exif) data. Foton innehåller ibland även GPS-koordinater i filmetadata.

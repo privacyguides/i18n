@@ -2,7 +2,7 @@
 title: "Outils d'authentification multi-facteurs"
 icon: 'material/two-factor-authentication'
 description: Ces outils vous aident à sécuriser vos comptes internet grâce à l'authentification multifactorielle sans transmettre vos secrets à un tiers.
-cover: multi-factor-authentication.png
+cover: multi-factor-authentication.webp
 ---
 
 ## Clés de sécurité matérielles

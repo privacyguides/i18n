@@ -3,7 +3,7 @@ meta_title: "最好的私人即時通訊軟體 - Privacy Guides"
 title: "即時通訊軟體"
 icon: material/chat-processing
 description: 其他即時通訊則會讓您所有的私人對話被該軟體公司取得。
-cover: real-time-communication.png
+cover: real-time-communication.webp
 ---
 
 這些是我們所推薦的加密實時通訊軟體。

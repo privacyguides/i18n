@@ -3,7 +3,7 @@ meta_title: "Android 권장 사항: GrapheneOS, DivestOS - Privacy Guides"
 title: "Android"
 icon: 'simple/android'
 description: Android 휴대폰의 운영 체제를 보다 안전하고 프라이버시를 중시하는 대체제로 변경할 수 있습니다.
-cover: android.png
+cover: android.webp
 schema:
   - 
     "@context": http://schema.org

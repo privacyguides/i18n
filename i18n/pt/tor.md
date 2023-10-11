@@ -3,7 +3,7 @@ meta_title: "Navegador e rede Tor: navegação anónima na Web - Privacy Guides"
 title: "Rede Tor"
 icon: simple/torproject
 description: Proteja a sua navegação na Internet de olhares curiosos utilizando a rede Tor, uma rede segura que contorna a censura.
-cover: tor.png
+cover: tor.webp
 schema:
   - 
     "@context": http://schema.org

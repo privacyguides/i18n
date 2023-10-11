@@ -3,7 +3,7 @@ meta_title: "加密私人電子郵件建議 - Privacy Guides"
 title: "電子郵件服務"
 icon: material/email
 description: 這些電子郵件提供商提供了一個好地方來安全地存儲您的電子郵件，也有不少能與其他供應商相互操作的 OpenPGP 加密。
-cover: email.png
+cover: email.webp
 ---
 
 電子郵件實際上是使用任何線上服務的必需品，但我們不建議把它應用於人與人之間的對話。 與其使用電子郵件聯繫他人，不如考慮使用支援前向保密的即時通訊媒介。

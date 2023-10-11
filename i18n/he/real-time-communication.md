@@ -3,7 +3,7 @@ meta_title: "ההודעות המיידיות הפרטיות הטובות ביו�
 title: "תקשורת בזמן אמת"
 icon: material/chat-processing
 description: מסנג'רים אחרים הופכים את כל השיחות הפרטיות שלך לזמינות לחברה שמנהלת אותן.
-cover: real-time-communication.png
+cover: real-time-communication.webp
 ---
 
 אלו ההמלצות שלנו לתקשורת מוצפנת בזמן אמת.

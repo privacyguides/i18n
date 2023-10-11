@@ -2,7 +2,7 @@
 title: "Herramientas de Productividad"
 icon: material/file-sign
 description: La mayoría de las paquetes de ofimática en línea no admiten E2EE, lo que significa que el proveedor de la nube tiene acceso a todo lo que usted hace.
-cover: productivity.png
+cover: productivity.webp
 ---
 
 La mayoría de las paquetes de ofimática en línea no admiten E2EE, lo que significa que el proveedor de la nube tiene acceso a todo lo que usted hace. La política de privacidad puede proteger legalmente sus derechos, pero no establece limitaciones técnicas de acceso.
