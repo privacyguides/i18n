@@ -341,21 +341,21 @@ DNSSEC 在所有 DNS 層中實施分級數位簽名政策。 例如，查詢 `pr
 
 QNAME 指 "合格域名"，例如 `discuss.privacyguides.net`. In the past, when resolving a domain name your DNS resolver would ask every server in the chain to provide any information it has about your full query. In this example below, your request to find the IP address for `discuss.privacyguides.net` gets asked of every DNS server provider:
 
-| 伺服器                | 問題請求                                        | 回應                           |
-| ------------------ | ------------------------------------------- | ---------------------------- |
-| 根伺服器               | What's the IP of discuss.privacyguides.net? | 不知道，請求 .net 伺服器              |
-| .net 伺服器           | What's the IP of discuss.privacyguides.net? | 不知道，請求 Privacy Guides 伺服器... |
-| Privacy Guides 伺服器 | What's the IP of discuss.privacyguides.net? | 5.161.195.190!               |
+| 伺服器                | 問題請求                                | 回應                           |
+| ------------------ | ----------------------------------- | ---------------------------- |
+| 根伺服器               | Discuss.privacyguides.net 的 IP 是多少? | 不知道，請求 .net 伺服器              |
+| .net 伺服器           | Discuss.privacyguides.net 的 IP 是多少? | 不知道，請求 Privacy Guides 伺服器... |
+| Privacy Guides 伺服器 | Discuss.privacyguides.net 的 IP 是多少? | 5.161.195.190!               |
 
 
 With "QNAME minimization," your DNS resolver now only asks for just enough information to find the next server in the chain. In this example, the root server is only asked for enough information to find the appropriate nameserver for the .net TLD, and so on, without ever knowing the full domain you're trying to visit:
 
-| 伺服器                | 問題請求                                                 | 回應                      |
-| ------------------ | ---------------------------------------------------- | ----------------------- |
-| 根伺服器               | 什麼是 .net 域名伺服器?                                      | *提供 .net 伺服器*           |
-| .net 伺服器           | What's the nameserver for privacyguides.net?         | *提供 Privacy Guides 伺服器* |
-| Privacy Guides 伺服器 | What's the nameserver for discuss.privacyguides.net? | 此伺服器                    |
-| Privacy Guides 伺服器 | What's the IP of discuss.privacyguides.net?          | 5.161.195.190           |
+| 伺服器                | 問題請求                                 | 回應                      |
+| ------------------ | ------------------------------------ | ----------------------- |
+| 根伺服器               | 什麼是 .net 域名伺服器?                      | *提供 .net 伺服器*           |
+| .net 伺服器           | Privacyguides.net 的域名伺服器是什麼?         | *提供 Privacy Guides 伺服器* |
+| Privacy Guides 伺服器 | discuss.privacyguides.net 的域名伺服器是什麼? | 此伺服器                    |
+| Privacy Guides 伺服器 | discuss.privacyguides.net 的 IP 是多少?  | 5.161.195.190           |
 
 
 While this process can be slightly more inefficient, in this example neither the central root nameservers nor the TLD's nameservers ever receive information about your *full* query, thus reducing the amount of information being transmitted about your browsing habits. 進一步的技術描述在 [RFC 7816](https://datatracker.ietf.org/doc/html/rfc7816)。
