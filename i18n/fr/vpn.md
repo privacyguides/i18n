@@ -256,7 +256,7 @@ Nous exigeons de tous nos fournisseurs VPN recommandés qu'ils fournissent des f
 - Un arrêt d'urgence avec des options hautement configurables (activer/désactiver sur certains réseaux, au démarrage, etc.)
 - Clients VPN faciles à utiliser
 - Prend en charge [IPv6](https://en.wikipedia.org/wiki/IPv6). Nous nous attendons à ce que les serveurs autorisent les connexions entrantes via IPv6 et vous permettent d'accéder aux services hébergés sur des adresses IPv6.
-- La capacité de [redirection de port](https://fr.wikipedia.org/wiki/Redirection_de_port) aide à créer des connexions lors de l'utilisation de logiciels de partage de fichiers P2P (<a href="https://fr.wikipedia.org/wiki/Pair-%C3%A0-pair>pair à pair</a>) ou de l'hébergement d'un serveur (par exemple, Mumble).
+- La capacité de [transfert de port à distance](https://en.wikipedia.org/wiki/Port_forwarding#Remote_port_forwarding) aide à créer des connexions lors de l'utilisation de logiciels de partage de fichiers P2P ([Peer-to-Peer](https://en.wikipedia.org/wiki/Peer-to-peer)) ou de l'hébergement d'un serveur (par exemple, Mumble).
 
 ### Confidentialité
 

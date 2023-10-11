@@ -55,12 +55,12 @@ DNS 從網際網路的 [早期](https://en.wikipedia.org/wiki/Domain_Name_System
 
 如果執行上面的 Wireshark 命令，頂部窗格會顯示「[frame](https://en.wikipedia.org/wiki/Ethernet_frame)」，底部窗格會顯示所選框架的所有資料。 企業過濾和監控解決方案（例如政府購買的解決方案）可以自動執行此過程，而無需人工交互，並且可以聚合這些框架以產生對網路觀察者有用的統計數據。
 
-| No. | Time     | Source    | Destination | Protocol | Length | Info                                                                   |
-| --- | -------- | --------- | ----------- | -------- | ------ | ---------------------------------------------------------------------- |
-| 1   | 0.000000 | 192.0.2.1 | 1.1.1.1     | DNS      | 104    | Standard query 0x58ba A privacyguides.org OPT                          |
-| 2   | 0.293395 | 1.1.1.1   | 192.0.2.1   | DNS      | 108    | Standard query response 0x58ba A privacyguides.org A 198.98.54.105 OPT |
-| 3   | 1.682109 | 192.0.2.1 | 8.8.8.8     | DNS      | 104    | Standard query 0xf1a9 A privacyguides.org OPT                          |
-| 4   | 2.154698 | 8.8.8.8   | 192.0.2.1   | DNS      | 108    | Standard query response 0xf1a9 A privacyguides.org A 198.98.54.105 OPT |
+| 不。 | 時間       | 來源        | 目的地       | 協議  | 長度  | 資訊                                                                     |
+| -- | -------- | --------- | --------- | --- | --- | ---------------------------------------------------------------------- |
+| 1  | 0.000000 | 192.0.2.1 | 1.1.1.1   | DNS | 104 | Standard query 0x58ba A privacyguides.org OPT                          |
+| 2  | 0.293395 | 1.1.1.1   | 192.0.2.1 | DNS | 108 | Standard query response 0x58ba A privacyguides.org A 198.98.54.105 OPT |
+| 3  | 1.682109 | 192.0.2.1 | 8.8.8.8   | DNS | 104 | Standard query 0xf1a9 A privacyguides.org OPT                          |
+| 4  | 2.154698 | 8.8.8.8   | 192.0.2.1 | DNS | 108 | Standard query response 0xf1a9 A privacyguides.org A 198.98.54.105 OPT |
 
 觀察者可以修改這些封包。
 
@@ -339,23 +339,23 @@ DNSSEC 在所有 DNS 層中實施分級數位簽名政策。 例如，查詢 `pr
 
 ## 什麼是QNAME最小化？
 
-A QNAME is a "qualified name", for example `discuss.privacyguides.net`. In the past, when resolving a domain name your DNS resolver would ask every server in the chain to provide any information it has about your full query. In this example below, your request to find the IP address for `discuss.privacyguides.net` gets asked of every DNS server provider:
+QNAME 指 "合格域名"，例如 `discuss.privacyguides.net`. In the past, when resolving a domain name your DNS resolver would ask every server in the chain to provide any information it has about your full query. In this example below, your request to find the IP address for `discuss.privacyguides.net` gets asked of every DNS server provider:
 
-| Server                 | Question Asked                              | Response                                    |
-| ---------------------- | ------------------------------------------- | ------------------------------------------- |
-| Root server            | What's the IP of discuss.privacyguides.net? | I don't know, ask .net's server...          |
-| .net's server          | What's the IP of discuss.privacyguides.net? | I don't know, ask Privacy Guides' server... |
-| Privacy Guides' server | What's the IP of discuss.privacyguides.net? | 5.161.195.190!                              |
+| 伺服器                | 問題請求                                        | 回應                           |
+| ------------------ | ------------------------------------------- | ---------------------------- |
+| 根伺服器               | What's the IP of discuss.privacyguides.net? | 不知道，請求 .net 伺服器              |
+| .net 伺服器           | What's the IP of discuss.privacyguides.net? | 不知道，請求 Privacy Guides 伺服器... |
+| Privacy Guides 伺服器 | What's the IP of discuss.privacyguides.net? | 5.161.195.190!               |
 
 
 With "QNAME minimization," your DNS resolver now only asks for just enough information to find the next server in the chain. In this example, the root server is only asked for enough information to find the appropriate nameserver for the .net TLD, and so on, without ever knowing the full domain you're trying to visit:
 
-| Server                 | Question Asked                                       | Response                          |
-| ---------------------- | ---------------------------------------------------- | --------------------------------- |
-| Root server            | What's the nameserver for .net?                      | *Provides .net's server*          |
-| .net's server          | What's the nameserver for privacyguides.net?         | *Provides Privacy Guides' server* |
-| Privacy Guides' server | What's the nameserver for discuss.privacyguides.net? | This server!                      |
-| Privacy Guides' server | What's the IP of discuss.privacyguides.net?          | 5.161.195.190                     |
+| 伺服器                | 問題請求                                                 | 回應                      |
+| ------------------ | ---------------------------------------------------- | ----------------------- |
+| 根伺服器               | 什麼是 .net 域名伺服器?                                      | *提供 .net 伺服器*           |
+| .net 伺服器           | What's the nameserver for privacyguides.net?         | *提供 Privacy Guides 伺服器* |
+| Privacy Guides 伺服器 | What's the nameserver for discuss.privacyguides.net? | 此伺服器                    |
+| Privacy Guides 伺服器 | What's the IP of discuss.privacyguides.net?          | 5.161.195.190           |
 
 
 While this process can be slightly more inefficient, in this example neither the central root nameservers nor the TLD's nameservers ever receive information about your *full* query, thus reducing the amount of information being transmitted about your browsing habits. 進一步的技術描述在 [RFC 7816](https://datatracker.ietf.org/doc/html/rfc7816)。
