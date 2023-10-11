@@ -309,19 +309,19 @@ Auditor 通過下列方式鑑證和入侵檢測。
 
     ![Obtainium logo](assets/img/android/obtainium.svg){ align=right }
     
-    **Obtainium** is an app manager which allows you to install and update apps directly from the developer's own releases page (i.e. GitHub, GitLab, the developer's website, etc.), rather than a centralized app store/repository. It supports automatic background updates on Android 12 and higher.
+    **Obtainium** 應用管理器可以直接透過開發者自己的發佈頁來安裝與更新應用。(例如 GitHub, GitLab 等等.), 取代集中式的應用商店或代碼儲存庫。  在 Android 12 以上版本，可支援自動背景更新。
     
     [:octicons-repo-16: Repository](https://github.com/ImranR98/Obtainium#readme){ .md-button .md-button--primary }
     [:octicons-code-16:](https://github.com/ImranR98/Obtainium){ .card-link title="Source Code" }
     [:octicons-heart-16:](https://github.com/sponsors/ImranR98){ .card-link title=Contribute }
     
-    ??? downloads
+    ??? downloads "下載"
     
         - [:simple-github: GitHub](https://github.com/ImranR98/Obtainium/releases)
 
-Obtainium allows you to download APK installer files from a wide variety of sources, and it is up to you to ensure those sources and apps are legitimate. For example, using Obtainium to install Signal from [Signal's APK landing page](https://signal.org/android/apk/) should be fine, but installing from third-party APK repositories like Aptoide or APKPure may pose additional risks.
+Obtainium 可以從不同來源下載 APK  安裝檔，由使用者自行判斷其來源與應用是否可靠合法。 例如使用 Obtainium 從 [Signal APK 登錄頁 ](https://signal.org/android/apk/) 來下載安裝 Signal 應該沒問題，但如果透過第三方 APK 儲放庫如 Aptoide o 或 APKPure 則可能有其它風險。
 
-Obtainium can also be used to download apps from F-Droid repositories, and may serve as a useful alternative to the official F-Droid clients. However, we generally recommend against apps built by F-Droid or from unofficial F-Droid repositories: Read [our notes on F-Droid](#f-droid) below for more information.
+Obtainium 可用來下載 F-Droid 儲放庫的應用，作為替代官方  F-Droid 客戶端的有用工具。 然而我們通常不建議使用 F-Droid 或非官方 F-Droid  存放庫的應用， 請參考下方 [關於 F-Droid](#f-droid) 了解進一步說明。
 
 ### GrapheneOS App Store
 
@@ -331,7 +331,7 @@ GrapheneOS 應用商店可在 [GitHub](https://github.com/GrapheneOS/Apps/releas
 
 Google Play商店需要登錄 Google 帳戶，這對隱私來說不是很好。 可以使用替代客戶端，如 Aurora Store 來解決這個問題。
 
-!!! recommendation
+!!! 推薦
 
     ![Aurora Store logo](assets/img/android/aurora-store.webp){ align=right }
     

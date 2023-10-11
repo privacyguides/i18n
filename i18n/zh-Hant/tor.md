@@ -99,13 +99,13 @@ Tor 瀏覽器旨在防止指紋識別----根據您的瀏覽器配置識別您。
     
     所有版本都使用同一個簽名，因此它們應該相互兼容。
 
-### Onion Browser
+### Onion 瀏覽器
 
 !!! recommendation
 
     ![Onion Browser logo](assets/img/self-contained-networks/onion_browser.svg){ align=right }
     
-    **Onion Browser** is an open-source browser that lets you browse the web anonymously over the Tor network on iOS devices and is endorsed by the [Tor Project](https://support.torproject.org/glossary/onion-browser/).
+    **Onion 瀏覽器r** 為開源瀏覽器可在  iOS  設備上匿名瀏覽 Tor 網絡，其有 [Tor Project](https://support.torproject.org/glossary/onion-browser/)之保證。
     
     [:octicons-home-16: Homepage](https://onionbrowser.com){ .md-button .md-button--primary }
     [:octicons-eye-16:](https://onionbrowser.com/privacy-policy){ .card-link title="Privacy Policy" }
@@ -113,7 +113,7 @@ Tor 瀏覽器旨在防止指紋識別----根據您的瀏覽器配置識別您。
     [:octicons-code-16:](https://github.com/OnionBrowser/OnionBrowser){ .card-link title="Source Code" }
     [:octicons-heart-16:](https://onionbrowser.com/donate){ .card-link title=Contribute }
     
-    ??? downloads
+    ??? downloads "下載"
     
         - [:simple-appstore: App Store](https://apps.apple.com/app/id519296448)
 
@@ -121,7 +121,7 @@ Tor 瀏覽器旨在防止指紋識別----根據您的瀏覽器配置識別您。
 
 ### Snowflake
 
-!!! recommendation
+!!! 推薦
 
     ![Snowflake logo](assets/img/browsers/snowflake.svg#only-light){ align=right }
     ![Snowflake logo](assets/img/browsers/snowflake-dark.svg#only-dark){ align=right }

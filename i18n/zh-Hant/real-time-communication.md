@@ -60,7 +60,7 @@ Signal支持 [私人羣組](https://signal.org/blog/signal-private-group-system/
     [:octicons-info-16:](https://github.com/simplex-chat/simplex-chat/tree/stable/docs){ .card-link title=Documentation}
     [:octicons-code-16:](https://github.com/simplex-chat){ .card-link title="Source Code" }
     
-    ??? downloads
+    ??? downloads "下載"
     
         - [:simple-googleplay: Google Play](https://play.google.com/store/apps/details?id=chat.simplex.app)
         - [:simple-appstore: App Store](https://apps.apple.com/us/app/simplex-chat/id1605771084)
@@ -71,7 +71,7 @@ Signal支持 [私人羣組](https://signal.org/blog/signal-private-group-system/
 
 SimpleX Chat 於2022年10月接受 Trail of Bits [審計](https://simplex.chat/blog/20221108-simplex-chat-v4.2-security-audit-new-website.html) 。
 
-SimpleX Chat supports basic group chatting functionality, direct messaging, and editing of messages and markdown. 也支持 E2EE 音頻和視頻通話。 您可以匯出資料，並匯入到另一個設備，因為沒有中央伺服器備份。
+SimpleX Chat 提供基本的小組聊天功能、直接傳訊與 markdown 格式編輯。 也支持 E2EE 音頻和視頻通話。 您可以匯出資料，並匯入到另一個設備，因為沒有中央伺服器備份。
 
 ### Briar
 
