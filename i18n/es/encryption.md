@@ -88,7 +88,7 @@ Truecrypt ha sido [auditado un buen número de veces](https://en.wikipedia.org/w
 
 ## Cifrado de Disco Completo del Sistema Operativo
 
-For encrypting the drive your operating system boots from, we generally recommend enabling the encryption software that comes with your operating system rather than using a third-party tool. This is because your operating system's native encryption tools often make use of OS and hardware-specific features like the [secure cryptoprocessor](https://en.wikipedia.org/wiki/Secure_cryptoprocessor) in your device to protect your computer against more advanced physical attacks. For secondary drives and external drives which you *don't* boot from, we still recommend using open-source tools like [VeraCrypt](#veracrypt-disk) over the tools below, because they offer additional flexibility and let you avoid vendor lock-in.
+Para cifrar la unidad desde la que inicia el sistema operativo, por lo general recomendamos habilitar el software de cifrado que viene incluido en el propio sistema operativo, en vez de utilizar una herramienta creada por terceros. Esto se debe a que las herramientas de cifrado propias del sistema operativo suelen utilizar características específicas del sistema operativo y el hardware, como el [criptoprocesador seguro](https://en.wikipedia.org/wiki/Secure_cryptoprocessor) del dispositivo para proteger la computadora contra ataques físicos más avanzados. Para unidades secundarias y externas que *no* se utilizan para iniciar, recomendamos utilizar herramientas de código abierto como [VeraCrypt](#veracrypt-disk) en vez de las siguientes herramientas, porque estas ofrecen más flexibilidad y permiten evitar la dependencia de un proveedor.
 
 ### BitLocker
 
