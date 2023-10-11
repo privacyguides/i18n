@@ -88,7 +88,7 @@ Truecrypt a été [audité un certain nombre de fois](https://fr.wikipedia.org/w
 
 ## Chiffrement complet du disque du système d'exploitation
 
-For encrypting the drive your operating system boots from, we generally recommend enabling the encryption software that comes with your operating system rather than using a third-party tool. This is because your operating system's native encryption tools often make use of OS and hardware-specific features like the [secure cryptoprocessor](https://en.wikipedia.org/wiki/Secure_cryptoprocessor) in your device to protect your computer against more advanced physical attacks. For secondary drives and external drives which you *don't* boot from, we still recommend using open-source tools like [VeraCrypt](#veracrypt-disk) over the tools below, because they offer additional flexibility and let you avoid vendor lock-in.
+Pour chiffrer le disque à partir duquel votre système d'exploitation démarre, nous recommandons généralement d'activer le logiciel de chiffrement fourni avec votre système d'exploitation plutôt que d'utiliser un outil tiers. En effet, les outils de chiffrement natifs de votre système d'exploitation utilisent souvent des fonctions spécifiques au système d'exploitation et au matériel, telles que le [cryptoprocesseur sécurisé](https://fr.wikipedia.org/wiki/Cryptoprocesseur_s%C3%A9curis%C3%A9) de votre appareil, pour protéger votre ordinateur contre des attaques physiques plus avancées. Pour les disques secondaires et les disques externes sur lesquels vous *ne démarrez pas*, nous recommandons toujours l'utilisation d'outils open-source tels que [VeraCrypt](#veracrypt-disk) plutôt que les outils ci-dessous, car ils offrent une flexibilité supplémentaire et vous permettent d'éviter l'enfermement dans un fournisseur.
 
 ### BitLocker
 
@@ -96,7 +96,7 @@ For encrypting the drive your operating system boots from, we generally recommen
 
     ![Logo BitLocker](assets/img/encryption-software/bitlocker.png){ align=right }
     
-    **BitLocker** est la solution de chiffrement intégral de volume fournie avec Microsoft Windows. The main reason we recommend it for encrypting your boot drive is because of its [use of TPM](https://docs.microsoft.com/en-us/windows/security/information-protection/tpm/how-windows-uses-the-tpm). ElcomSoft, a forensics company, has written about this feature in [Understanding BitLocker TPM Protection](https://blog.elcomsoft.com/2021/01/understanding-BitLocker-tpm-protection/).
+    **BitLocker** est la solution de chiffrement intégral de volume fournie avec Microsoft Windows. La principale raison pour laquelle nous le recommandons pour le chiffrement de votre disque de démarrage est son [utilisation du TPM](https://docs.microsoft.com/en-us/windows/security/information-protection/tpm/how-windows-uses-the-tpm). ElcomSoft, une société d'expertise judiciaire, a écrit sur cette fonctionnalité dans [Comprendre la protection TPM de BitLocker](https://blog.elcomsoft.com/2021/01/understanding-BitLocker-tpm-protection/).
     
     [:octicons-info-16:](https://docs.microsoft.com/fr-fr/windows/security/information-protection/BitLocker/BitLocker-overview){ .card-link title=Documentation}
 
@@ -104,7 +104,7 @@ BitLocker est [uniquement pris en charge](https://support.microsoft.com/en-us/wi
 
 ??? example "Activer BitLocker sur Windows Famille"
 
-    Pour activer BitLocker sur les éditions "Famille" de Windows, vous devez formater vos partitions avec une [Table de Partitionnement GUID](https://fr.wikipedia.org/wiki/GUID_Partition_Table) et disposer d'un module TPM dédié (v1.2, 2.0+). You may need to [disable the non-Bitlocker "Device encryption" functionality](https://discuss.privacyguides.net/t/enabling-bitlocker-on-the-windows-11-home-edition/13303/5) (which is inferior because it sends your recovery key to Microsoft's servers) if it is enabled on your device already before following this guide.
+    Pour activer BitLocker sur les éditions "Famille" de Windows, vous devez formater vos partitions avec une [Table de Partitionnement GUID](https://fr.wikipedia.org/wiki/GUID_Partition_Table) et disposer d'un module TPM dédié (v1.2, 2.0+). Il se peut que vous deviez [désactiver la fonctionnalité "Chiffrement de l'appareil" non-Bitlocker](https://discuss.privacyguides.net/t/enabling-bitlocker-on-the-windows-11-home-edition/13303/5) (qui est inférieure car elle envoie votre clé de récupération aux serveurs de Microsoft) si elle est déjà activée sur votre appareil avant de suivre ce guide.
 
     1. Ouvrez une invite de commande et vérifiez le format de la table de partition de votre disque à l'aide de la commande suivante. Vous devriez voir "**GPT**" listé sous "Style de partition" :
 
