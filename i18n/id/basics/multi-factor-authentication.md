@@ -46,7 +46,7 @@ Kunci ini umumnya multifungsi dan menyediakan sejumlah metode untuk melakukan au
 
 #### OTP Yubico
 
-Yubico OTP is an authentication protocol typically implemented in hardware security keys. When you decide to use Yubico OTP, the key will generate a public ID, private ID, and a Secret Key which is then uploaded to the Yubico OTP server.
+Yubico OTP adalah protokol autentikasi yang biasanya diimplementasikan dalam kunci keamanan perangkat keras. When you decide to use Yubico OTP, the key will generate a public ID, private ID, and a Secret Key which is then uploaded to the Yubico OTP server.
 
 When logging into a website, all you need to do is to physically touch the security key. The security key will emulate a keyboard and print out a one-time password into the password field.
 
