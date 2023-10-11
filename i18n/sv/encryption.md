@@ -86,7 +86,7 @@ Truecrypt har granskats [ett antal gånger](https://en.wikipedia.org/wiki/TrueCr
 
 ## Fullständig diskkryptering
 
-Moderna operativsystem inkluderar [FDE](https://en.wikipedia.org/wiki/Disk_encryption) och har en [säker kryptoprocessor](https://en.wikipedia.org/wiki/Secure_cryptoprocessor).
+For encrypting the drive your operating system boots from, we generally recommend enabling the encryption software that comes with your operating system rather than using a third-party tool. This is because your operating system's native encryption tools often make use of OS and hardware-specific features like the [secure cryptoprocessor](https://en.wikipedia.org/wiki/Secure_cryptoprocessor) in your device to protect your computer against more advanced physical attacks. For secondary drives and external drives which you *don't* boot from, we still recommend using open-source tools like [VeraCrypt](#veracrypt-disk) over the tools below, because they offer additional flexibility and let you avoid vendor lock-in.
 
 ### BitLocker
 
@@ -94,7 +94,7 @@ Moderna operativsystem inkluderar [FDE](https://en.wikipedia.org/wiki/Disk_encry
 
     ![BitLocker-logotyp](assets/img/encryption-software/bitlocker.png){ align=right }
     
-    **BitLocker** är den lösning för fullständig volymkryptering som ingår i Microsoft Windows. Den främsta anledningen till att vi rekommenderar den är att den [använder TPM] (https://docs.microsoft.com/en-us/windows/security/information-protection/tpm/how-windows-uses-the-tpm). [ElcomSoft](https://en.wikipedia.org/wiki/ElcomSoft), ett företag som arbetar med kriminalteknik, har skrivit om det i [Understanding BitLocker TPM Protection] (https://blog.elcomsoft.com/2021/01/understanding-BitLocker-tpm-protection/).
+    **BitLocker** är den lösning för fullständig volymkryptering som ingår i Microsoft Windows. The main reason we recommend it for encrypting your boot drive is because of its [use of TPM](https://docs.microsoft.com/en-us/windows/security/information-protection/tpm/how-windows-uses-the-tpm). ElcomSoft, a forensics company, has written about this feature in [Understanding BitLocker TPM Protection](https://blog.elcomsoft.com/2021/01/understanding-BitLocker-tpm-protection/).
     
     [:octicons-info-16:](https://docs.microsoft.com/en-us/windows/security/information-protection/BitLocker/BitLocker-overview){ .card-link title=Documentation}
 
@@ -102,7 +102,7 @@ BitLocker stöds endast av [](https://support.microsoft.com/en-us/windows/turn-o
 
 ??? exempel "Aktivering av BitLocker på Windows Home"
 
-    För att aktivera BitLocker i Windows Home-utgåvor måste du ha partitioner som är formaterade med en [GUID Partition Table] (https://en.wikipedia.org/wiki/GUID_Partition_Table) och ha en dedikerad TPM-modul (v1.2, 2.0+).
+    För att aktivera BitLocker i Windows Home-utgåvor måste du ha partitioner som är formaterade med en [GUID Partition Table] (https://en.wikipedia.org/wiki/GUID_Partition_Table) och ha en dedikerad TPM-modul (v1.2, 2.0+). You may need to [disable the non-Bitlocker "Device encryption" functionality](https://discuss.privacyguides.net/t/enabling-bitlocker-on-the-windows-11-home-edition/13303/5) (which is inferior because it sends your recovery key to Microsoft's servers) if it is enabled on your device already before following this guide.
 
     1. Öppna en kommandotolk och kontrollera enhetens partitionstabellformat med följande kommando. Du bör se "**GPT**" listad under "Partition Style":
 

@@ -88,7 +88,7 @@ Truecrypt 已完成[多次審計](https://en.wikipedia.org/wiki/TrueCrypt#Securi
 
 ## 作業系統完整磁碟加密
 
-現代作業系統包括 [FDE](https://en.wikipedia.org/wiki/Disk_encryption) ，並將有一個 [安全的加密處理器](https://en.wikipedia.org/wiki/Secure_cryptoprocessor)。
+For encrypting the drive your operating system boots from, we generally recommend enabling the encryption software that comes with your operating system rather than using a third-party tool. This is because your operating system's native encryption tools often make use of OS and hardware-specific features like the [secure cryptoprocessor](https://en.wikipedia.org/wiki/Secure_cryptoprocessor) in your device to protect your computer against more advanced physical attacks. For secondary drives and external drives which you *don't* boot from, we still recommend using open-source tools like [VeraCrypt](#veracrypt-disk) over the tools below, because they offer additional flexibility and let you avoid vendor lock-in.
 
 ### BitLocker
 
@@ -96,7 +96,7 @@ Truecrypt 已完成[多次審計](https://en.wikipedia.org/wiki/TrueCrypt#Securi
 
     ![BitLocker logo](assets/img/encryption-software/bitlocker.png){ align=right }
     
-    **BitLocker** 是 Microsoft Windows 捆綁的全磁區加密解決方案。 我們推薦它的主要原因是 [使用 TPM](https://docs.microsoft.com/en-us/windows/security/information-protection/tpm/how-windows-uses-the-tpm)。 取證公司 [ElcomSoft](https://en.wikipedia.org/wiki/ElcomSoft)在 [Understanding BitLocker TPM Protection](https://blog.elcomsoft.com/2021/01/understanding-BitLocker-tpm-protection/) 中撰寫了有關此問題的文章。
+    **BitLocker** 是 Microsoft Windows 捆綁的全磁區加密解決方案。 The main reason we recommend it for encrypting your boot drive is because of its [use of TPM](https://docs.microsoft.com/en-us/windows/security/information-protection/tpm/how-windows-uses-the-tpm). ElcomSoft, a forensics company, has written about this feature in [Understanding BitLocker TPM Protection](https://blog.elcomsoft.com/2021/01/understanding-BitLocker-tpm-protection/).
     
     [:octicons-info-16:](https://docs.microsoft.com/en-us/windows/security/information-protection/BitLocker/BitLocker-overview){ .card-link title=Documentation}
 
@@ -104,7 +104,7 @@ BitLocker [僅支援](https://support.microsoft.com/en-us/windows/turn-on-device
 
 ??? example "在Windows Home上啓用BitLocker"
 
-    若要在 Windows 家用版啟用 BitLocker ，必須使用 [GUID 分割表](https://zh.wikipedia.org/wiki/GUID_Partition_Table) 格式化的分割區，並且具有專用的TPM (v1.2, 2.0+)模組。
+    若要在 Windows 家用版啟用 BitLocker ，必須使用 [GUID 分割表](https://zh.wikipedia.org/wiki/GUID_Partition_Table) 格式化的分割區，並且具有專用的TPM (v1.2, 2.0+)模組。 You may need to [disable the non-Bitlocker "Device encryption" functionality](https://discuss.privacyguides.net/t/enabling-bitlocker-on-the-windows-11-home-edition/13303/5) (which is inferior because it sends your recovery key to Microsoft's servers) if it is enabled on your device already before following this guide.
 
     1. 開啟命令提示符，並使用以下命令檢查磁碟機的分區表格格式。 您應該會在“分區樣式”下方看到“**GPT**” ：
 

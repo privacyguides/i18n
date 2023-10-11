@@ -88,7 +88,7 @@ Truecrypt is [een aantal keer gecontroleerd](https://en.wikipedia.org/wiki/TrueC
 
 ## OS Volledige Schijfversleuteling
 
-Moderne besturingssystemen omvatten [FDE](https://en.wikipedia.org/wiki/Disk_encryption) en zullen gebruik maken van een [beveiligde cryptoprocessor](https://en.wikipedia.org/wiki/Secure_cryptoprocessor).
+For encrypting the drive your operating system boots from, we generally recommend enabling the encryption software that comes with your operating system rather than using a third-party tool. This is because your operating system's native encryption tools often make use of OS and hardware-specific features like the [secure cryptoprocessor](https://en.wikipedia.org/wiki/Secure_cryptoprocessor) in your device to protect your computer against more advanced physical attacks. For secondary drives and external drives which you *don't* boot from, we still recommend using open-source tools like [VeraCrypt](#veracrypt-disk) over the tools below, because they offer additional flexibility and let you avoid vendor lock-in.
 
 ### BitLocker
 
@@ -96,7 +96,7 @@ Moderne besturingssystemen omvatten [FDE](https://en.wikipedia.org/wiki/Disk_enc
 
     ![BitLocker-logo](assets/img/encryption-software/bitlocker.png){ align=right }
     
-    **BitLocker** is de oplossing voor volledige volume-encryptie die met Microsoft Windows wordt meegeleverd. De belangrijkste reden waarom wij het aanbevelen is vanwege zijn [gebruik van TPM](https://docs.microsoft.com/en-us/windows/security/information-protection/tpm/how-windows-uses-the-tpm). [ElcomSoft](https://en.wikipedia.org/wiki/ElcomSoft), een forensisch bedrijf, heeft er over geschreven in [Understanding BitLocker TPM Protection](https://blog.elcomsoft.com/2021/01/understanding-BitLocker-tpm-protection/).
+    **BitLocker** is de oplossing voor volledige volume-encryptie die met Microsoft Windows wordt meegeleverd. The main reason we recommend it for encrypting your boot drive is because of its [use of TPM](https://docs.microsoft.com/en-us/windows/security/information-protection/tpm/how-windows-uses-the-tpm). ElcomSoft, a forensics company, has written about this feature in [Understanding BitLocker TPM Protection](https://blog.elcomsoft.com/2021/01/understanding-BitLocker-tpm-protection/).
     
     [:octicons-info-16:](https://docs.microsoft.com/en-us/windows/security/information-protection/BitLocker/BitLocker-overview){ .card-link title=Documentatie}
 
@@ -104,7 +104,7 @@ BitLocker is [alleen ondersteund](https://support.microsoft.com/en-us/windows/tu
 
 ??? example "BitLocker inschakelen op Windows Home"
 
-    Om BitLocker in te schakelen op "Home"-edities van Windows, moet je partities hebben die zijn geformatteerd met een [GUID Partition Table](https://en.wikipedia.org/wiki/GUID_Partition_Table) en beschikken over een speciale TPM-module (v1.2, 2.0+).
+    Om BitLocker in te schakelen op "Home"-edities van Windows, moet je partities hebben die zijn geformatteerd met een [GUID Partition Table](https://en.wikipedia.org/wiki/GUID_Partition_Table) en beschikken over een speciale TPM-module (v1.2, 2.0+). You may need to [disable the non-Bitlocker "Device encryption" functionality](https://discuss.privacyguides.net/t/enabling-bitlocker-on-the-windows-11-home-edition/13303/5) (which is inferior because it sends your recovery key to Microsoft's servers) if it is enabled on your device already before following this guide.
 
     1. Open een opdrachtprompt en controleer de indeling van de partitietabel van jouw schijf met het volgende commando. Je zou "**GPT**" moeten zien staan onder "Partition Style":
 

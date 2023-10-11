@@ -88,7 +88,7 @@ VeraCrypt - это форк, прекратившего свое существ�
 
 ## Шифрование всего диска
 
-Современные ОС включают в себя [шифрование диска](https://en.wikipedia.org/wiki/Disk_encryption) и используют [безопасный криптопроцессор](https://en.wikipedia.org/wiki/Secure_cryptoprocessor).
+For encrypting the drive your operating system boots from, we generally recommend enabling the encryption software that comes with your operating system rather than using a third-party tool. This is because your operating system's native encryption tools often make use of OS and hardware-specific features like the [secure cryptoprocessor](https://en.wikipedia.org/wiki/Secure_cryptoprocessor) in your device to protect your computer against more advanced physical attacks. For secondary drives and external drives which you *don't* boot from, we still recommend using open-source tools like [VeraCrypt](#veracrypt-disk) over the tools below, because they offer additional flexibility and let you avoid vendor lock-in.
 
 ### BitLocker
 
@@ -96,7 +96,7 @@ VeraCrypt - это форк, прекратившего свое существ�
 
     ![Логотип BitLocker](assets/img/encryption-software/bitlocker.png){ align=right }
     
-    **BitLocker** - решение для полного шифрования диска в Microsoft Windows. Основная причина, по которой мы рекомендуем его, заключается в [использовании доверенного платформенного модуля (TPM)](https://docs.microsoft.com/en-us/windows/security/information-protection/tpm/how-windows-uses-the-tpm). [ElcomSoft](https://ru.wikipedia.org/wiki/ElcomSoft), криминалистическая компания, написала об этом в [Understanding BitLocker TPM Protection](https://blog.elcomsoft.com/2021/01/understanding-BitLocker-tpm-protection/).
+    **BitLocker** - решение для полного шифрования диска в Microsoft Windows. The main reason we recommend it for encrypting your boot drive is because of its [use of TPM](https://docs.microsoft.com/en-us/windows/security/information-protection/tpm/how-windows-uses-the-tpm). ElcomSoft, a forensics company, has written about this feature in [Understanding BitLocker TPM Protection](https://blog.elcomsoft.com/2021/01/understanding-BitLocker-tpm-protection/).
     
     [:octicons-info-16:](https://docs.microsoft.com/en-us/windows/security/information-protection/BitLocker/BitLocker-overview){ .card-link title=Документация}
 
@@ -104,7 +104,7 @@ BitLocker [поддерживается только](https://support.microsoft.
 
 ??? example "Включение BitLocker на Windows Home"
 
-    Чтобы включить BitLocker в "Домашних" редакциях Windows, необходимо, чтобы разделы были отформатированы с помощью [GUID Partition Table](https://en.wikipedia.org/wiki/GUID_Partition_Table) и имели выделенный модуль TPM (v1.2, 2.0+).
+    Чтобы включить BitLocker в "Домашних" редакциях Windows, необходимо, чтобы разделы были отформатированы с помощью [GUID Partition Table](https://en.wikipedia.org/wiki/GUID_Partition_Table) и имели выделенный модуль TPM (v1.2, 2.0+). You may need to [disable the non-Bitlocker "Device encryption" functionality](https://discuss.privacyguides.net/t/enabling-bitlocker-on-the-windows-11-home-edition/13303/5) (which is inferior because it sends your recovery key to Microsoft's servers) if it is enabled on your device already before following this guide.
 
     1. Откройте командную строку и проверьте формат таблицы разделов диска с помощью следующей команды. Вы должны увидеть "**GPT**" в разделе "Стиль раздела":
 
