@@ -212,8 +212,8 @@ Per ulteriori dettagli su ogni progetto, perché è stato scelto e ulteriori con
 
 <div class="grid cards" markdown>
 
-- ![Logo di Tutanota](assets/img/calendar/tutanota.svg){ .twemoji } [Tutanota](calendar-contacts.md#tutanota)
-- ![Logo di Proton Calendar](assets/img/calendar/proton-calendar.svg){ .twemoji } [Proton Calendar](calendar-contacts.md#proton-calendar)
+- ![Logo di Tutanota](assets/img/calendar/tutanota.svg){ .twemoji } [Tutanota](calendar.md#tutanota)
+- ![Logo di Proton Calendar](assets/img/calendar/proton-calendar.svg){ .twemoji } [Proton Calendar](calendar.md#proton-calendar)
 
 </div>
 

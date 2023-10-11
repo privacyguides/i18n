@@ -165,7 +165,7 @@ Deze providers slaan je e-mails op met zero-knowledge encryptie, waardoor ze gew
 
 !!! recommendation
 
-    ![Skiff Mail logo](assets/img/email/skiff-mail. vg){ align=right }
+    ![Skiff Mail logo](assets/img/email/skiff-mail.svg){ align=right }
     
     **Skiff Mail** is een website gebaseerde e-mailservice met E2EE die begon in 2020 en gevestigd is in San Francisco met ontwikkelaars wereldwijd. Accounts beginnen met 10GB gratis opslag.
     
