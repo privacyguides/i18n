@@ -494,7 +494,7 @@ Tidak boleh melakukan pemasaran yang tidak bertanggung jawab:
 - Claims of "unbreakable encryption." Encryption should be used with the intention that it may not be secret in the future when the technology exists to crack it.
 - Menjamin perlindungan anonimitas 100%. Ketika seseorang membuat klaim bahwa sesuatu itu 100%, itu berarti tidak ada kepastian untuk gagal. Kami tahu bahwa orang dapat dengan mudah menyamarkan nama mereka dengan beberapa cara, misalnya:
 
-    - Reusing personal information e.g. (email accounts, unique pseudonyms, etc.) that they accessed without anonymity software (Tor, VPN, etc.)
+    - Menggunakan kembali informasi pribadi (akun surel, nama samaran unik, dll.) yang mereka akses tanpa perangkat lunak anonimitas (Tor, VPN, dll.)
     - [Sidik jari peramban](https://en.wikipedia.org/wiki/Device_fingerprint#Browser_fingerprint)
 
 **Kasus Terbaik:**

@@ -134,9 +134,9 @@ On older Intel-based Mac computers, FileVault is the only form of disk encryptio
 
 ### MAC Address Randomization
 
-macOS menggunakan alamat MAC secara acak saat melakukan pemindaian Wi-Fi ketika terputus dari jaringan. However, when you connect to a preferred Wi-Fi network, the MAC address used is never randomized. Full MAC address randomization is an advanced topic, and most people don't need to worry about performing the following steps.
+macOS menggunakan alamat MAC secara acak saat melakukan pemindaian Wi-Fi ketika terputus dari jaringan. Namun, apabila Anda tersambung ke jaringan Wi-Fi pilihan, alamat MAC yang digunakan tidak pernah diacak. Pengacakan alamat MAC penuh adalah topik tingkat lanjut, dan kebanyakan orang tidak perlu khawatir untuk melakukan langkah-langkah berikut ini.
 
-Unlike iOS, macOS doesn't give you an option to randomize your MAC address in the settings, so if you wish to change this identifier, you'll need to do it with a command or a script. To set a random MAC address, first disconnect from the network if you're already connected, then open **Terminal** and enter this command to randomize your MAC address:
+Tidak seperti iOS, macOS tidak memberi Anda opsi untuk mengacak alamat MAC Anda dalam pengaturan, jadi jika Anda ingin mengubah pengenal ini, Anda harus melakukannya dengan perintah atau skrip. Untuk mengatur alamat MAC acak, pertama-tama putuskan sambungan dari jaringan jika Anda sedang tersambung, lalu buka **Terminal** dan masukkan perintah ini untuk mengacak alamat MAC Anda:
 
 ``` zsh
 openssl rand -hex 6 | sed 's/^\(.\{1\}\)./\12/; s/\(..\)/\1:/g; s/.$//' | xargs sudo ifconfig en0 ether
@@ -144,7 +144,7 @@ openssl rand -hex 6 | sed 's/^\(.\{1\}\)./\12/; s/\(..\)/\1:/g; s/.$//' | xargs 
 
 `en0` is the name of the interface you're changing the MAC address for. This might not be the right one on every Mac, so to check you can hold the option key and click the Wi-Fi symbol at the top right of your screen. "Interface name" should be displayed at the top of the dropdown menu.
 
-This command sets your MAC address to a randomized, "locally administered" address, matching the behavior of iOS, Windows, and Android's MAC address randomization features. This means that every character in the MAC address is fully randomized except the second character, which denotes the MAC address as *locally administered* and not in conflict with any actual hardware. This method is most compatible with modern networks. An alternative method is to set the first six characters of the MAC address to one of Apple's existing *Organizational Unique Identifiers*, which we'll leave as an exercise to the reader. That method is more likely to conflict with some networks, but may be less noticeable. Given the prevalence of randomized, locally administered MAC addresses in other modern operating systems, we don't think either method has significant privacy advantages over the other.
+This command sets your MAC address to a randomized, "locally administered" address, matching the behavior of iOS, Windows, and Android's MAC address randomization features. This means that every character in the MAC address is fully randomized except the second character, which denotes the MAC address as *locally administered* and not in conflict with any actual hardware. Metode ini paling kompatibel dengan jaringan modern. An alternative method is to set the first six characters of the MAC address to one of Apple's existing *Organizational Unique Identifiers*, which we'll leave as an exercise to the reader. That method is more likely to conflict with some networks, but may be less noticeable. Given the prevalence of randomized, locally administered MAC addresses in other modern operating systems, we don't think either method has significant privacy advantages over the other.
 
 When you connect to the network again, you'll connect with a random MAC address. This will be reset on reboot.
 

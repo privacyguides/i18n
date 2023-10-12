@@ -105,15 +105,15 @@ We previously recommended enabling the *Isolate Destination Address* preference 
 
     ![Onion Browser logo](assets/img/self-contained-networks/onion_browser.svg){ align=right }
     
-    **Onion Browser** is an open-source browser that lets you browse the web anonymously over the Tor network on iOS devices and is endorsed by the [Tor Project](https://support.torproject.org/glossary/onion-browser/).
+    **Onion Browser** adalah peramban bersumber terbuka yang memungkinkan Anda menjelajah web secara anonim melalui jaringan Tor di perangkat-perangkat iOS, dan didukung oleh [Tor Project](https://support.torproject.org/glossary/onion-browser/).
     
-    [:octicons-home-16: Homepage](https://onionbrowser.com){ .md-button .md-button--primary }
-    [:octicons-eye-16:](https://onionbrowser.com/privacy-policy){ .card-link title="Privacy Policy" }
-    [:octicons-info-16:](https://onionbrowser.com/faqs){ .card-link title=Documentation}
-    [:octicons-code-16:](https://github.com/OnionBrowser/OnionBrowser){ .card-link title="Source Code" }
-    [:octicons-heart-16:](https://onionbrowser.com/donate){ .card-link title=Contribute }
+    [:octicons-home-16: Beranda](https://strongboxsafe.com){ .md-button .md-button--primary }
+    [:octicons-eye-16:](https://strongboxsafe.com/privacy/){ .card-link title="Kebijakan Privasi" }
+    [:octicons-info-16:](https://onionbrowser.com/faqs/){ .card-link title=Dokumentasi}
+    [:octicons-code-16:](https://github.com/OnionBrowser/OnionBrowser){ .card-link title="Kode Sumber" }
+    [:octicons-heart-16:](https://onionbrowser.com/donate){ .card-link title=Kontribusi }
     
-    ??? downloads
+    ??? unduhan
     
         - [:simple-appstore: App Store](https://apps.apple.com/app/id519296448)
 
@@ -121,7 +121,7 @@ We previously recommended enabling the *Isolate Destination Address* preference 
 
 ### Snowflake
 
-!!! recommendation
+!!! rekomendasi
 
     ![Logo Snowflake](assets/img/browsers/snowflake.svg#only-light){ align=right }
     ![Logo Snowflake](assets/img/browsers/snowflake-gelap.svg#only-dark){ align=right }

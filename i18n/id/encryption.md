@@ -88,7 +88,7 @@ Truecrypt has been [audited a number of times](https://en.wikipedia.org/wiki/Tru
 
 ## OS Full Disk Encryption
 
-For encrypting the drive your operating system boots from, we generally recommend enabling the encryption software that comes with your operating system rather than using a third-party tool. This is because your operating system's native encryption tools often make use of OS and hardware-specific features like the [secure cryptoprocessor](https://en.wikipedia.org/wiki/Secure_cryptoprocessor) in your device to protect your computer against more advanced physical attacks. For secondary drives and external drives which you *don't* boot from, we still recommend using open-source tools like [VeraCrypt](#veracrypt-disk) over the tools below, because they offer additional flexibility and let you avoid vendor lock-in.
+Untuk mengenkripsi kandar tempat sistem operasi Anda melakukan but, kami umumnya menyarankan untuk mengaktifkan perangkat lunak enkripsi yang disertakan dengan sistem operasi, alih-alih menggunakan alat pihak ketiga. Hal ini karena alat enkripsi asli sistem operasi Anda sering kali menggunakan OS dan fitur khusus perangkat keras seperti [secure cryptoprocessor](https://en.wikipedia.org/wiki/Secure_cryptoprocessor) di perangkat Anda untuk melindungi komputer Anda dari serangan fisik yang lebih canggih. Untuk kandar sekunder dan kandar eksternal yang *tidak* Anda gunakan untuk melakukan but, kami tetap menyarankan untuk menggunakan alat bantu sumber terbuka seperti [VeraCrypt](#veracrypt-disk) alih-alih alat bantu di bawah ini, karena alat bantu ini menawarkan fleksibilitas tambahan dan memungkinkan Anda menghindari penguncian dari vendor.
 
 ### BitLocker
 
@@ -96,7 +96,7 @@ For encrypting the drive your operating system boots from, we generally recommen
 
     ![BitLocker logo](assets/img/encryption-software/bitlocker.png){ align=right }
     
-    **BitLocker** is the full volume encryption solution bundled with Microsoft Windows. The main reason we recommend it for encrypting your boot drive is because of its [use of TPM](https://docs.microsoft.com/en-us/windows/security/information-protection/tpm/how-windows-uses-the-tpm). ElcomSoft, a forensics company, has written about this feature in [Understanding BitLocker TPM Protection](https://blog.elcomsoft.com/2021/01/understanding-BitLocker-tpm-protection/).
+    **BitLocker** is the full volume encryption solution bundled with Microsoft Windows. Alasan utama kami merekomendasikannya untuk mengenkripsi kandar but Anda adalah karena [penggunaan TPM](https://docs.microsoft.com/en-us/windows/security/information-protection/tpm/how-windows-uses-the-tpm). ElcomSoft, sebuah perusahaan forensik, telah menulis tentang fitur ini di [Understanding BitLocker TPM Protection](https://blog.elcomsoft.com/2021/01/understanding-BitLocker-tpm-protection/).
     
     [:octicons-info-16:](https://docs.microsoft.com/en-us/windows/security/information-protection/BitLocker/BitLocker-overview){ .card-link title=Documentation}
 
@@ -104,7 +104,7 @@ BitLocker is [only supported](https://support.microsoft.com/en-us/windows/turn-o
 
 ??? example "Enabling BitLocker on Windows Home"
 
-    To enable BitLocker on "Home" editions of Windows, you must have partitions formatted with a [GUID Partition Table](https://en.wikipedia.org/wiki/GUID_Partition_Table) and have a dedicated TPM (v1.2, 2.0+) module. You may need to [disable the non-Bitlocker "Device encryption" functionality](https://discuss.privacyguides.net/t/enabling-bitlocker-on-the-windows-11-home-edition/13303/5) (which is inferior because it sends your recovery key to Microsoft's servers) if it is enabled on your device already before following this guide.
+    To enable BitLocker on "Home" editions of Windows, you must have partitions formatted with a [GUID Partition Table](https://en.wikipedia.org/wiki/GUID_Partition_Table) and have a dedicated TPM (v1.2, 2.0+) module. Anda mungkin perlu [menonaktifkan fungsionalitas "Enkripsi perangkat" non-Bitlocker](https://discuss.privacyguides.net/t/enabling-bitlocker-on-the-windows-11-home-edition/13303/5) (yang inferior karena mengirimkan kunci pemulihan Anda ke server Microsoft) jika sudah diaktifkan di perangkat Anda sebelum mengikuti panduan ini.
 
     1. Open a command prompt and check your drive's partition table format with the following command. You should see "**GPT**" listed under "Partition Style":
 
