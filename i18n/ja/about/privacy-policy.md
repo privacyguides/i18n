@@ -8,41 +8,24 @@ Privacy Guidesは、多数の積極的なボランティア貢献者によって
 
 私たちは、ウェブサイト閲覧者のプライバシーを重視しているため、各個人を追跡することはありません。 私たちのウェブサイトの訪問者として：
 
-- 個人情報を収集しません
-- Cookieなどの情報をブラウザに保存しません
-- 第三者に情報を共有・送信・販売しません
-- 広告会社に情報を共有しません
-- 個人情報および行動傾向のために情報が収集されることはありません。
-- 情報を収益化しません
-
-収集したデータは[統計](statistics.md)ページで確認できます。
-
-私たちは[Plausible Analytics](https://plausible.io)の自己ホスト型インストールを実行し、統計目的で匿名の使用状況データを収集します。 目的は、ウェブサイトのトラフィックの全体的な傾向を追跡することであり、個々の訪問者を追跡することではありません。 データはすべて集計値です。 個人情報は収集されません。
-
-Data collected includes referral sources, top pages, visit duration, information from the devices (device type, operating system, country and browser) used during the visit and more. You can learn more about how Plausible works and collects information in a privacy-respecting manner [here](https://plausible.io/data-policy).
+- No personal information is collected
+- No information such as cookies are stored in the browser
+- No information is shared with, sent to or sold to third-parties
+- No information is shared with advertising companies
+- No information is mined and harvested for personal and behavioral trends
+- No information is monetized
 
 ## アカウント所有者から収集するデータ
 
-On some websites and services we provide, many features may require an account. For example, an account may be required to post and reply to topics on a forum platform.
+If you register for an account on one of our services, we may collect any information you provide us (such as your email, password, profile information, etc.) and use that information to provide you with the service. We never share or sell this data.
 
-To sign up for most accounts, we will collect a name, username, email, and password. In the event a website requires more information than just that data, that will be clearly marked and noted in a separate privacy statement per-site.
-
-We use your account data to identify you on the website and to create pages specific to you, such as your profile page. We will also use your account data to publish a public profile for you on our services.
-
-We use your email to:
-
-- Notify you about posts and other activity on the websites or services.
-- Reset your password and help keep your account secure.
-- Contact you in special circumstances related to your account.
-- Contact you about legal requests, such as DMCA takedown requests.
-
-On some websites and services you may provide additional information for your account, such as a short biography, avatar, your location, or your birthday. We make that information available to everyone who can access the website or service in question. This information is not required to use any of our services and can be erased at any time.
-
-We will store your account data as long as your account remains open. After closing an account, we may retain some or all of your account data in the form of backups or archives for up to 90 days.
+Some services we host have separate privacy policies which supersede this document. For example, the privacy policy of our forum can be found at [discuss.privacyguides.net/privacy](https://discuss.privacyguides.net/privacy).
 
 ## 連絡先
 
-Privacy Guidesチームは通常、一部のモデレーションパネルを介して許可された限定的なアクセス以外で、個人データにアクセスすることはできません。 個人情報に関するお問い合わせは、以下に直接お送りください：
+Even in the limited cases where your data is collected, our volunteers and most members of the Privacy Guides team have no access to that information. Some information (such as your email address) may be accessible to moderators via limited control panels for the purposes of moderating our communities.
+
+Thus, inquiries regarding your personal information should be sent directly to:
 
 ```text
 Jonah Aragon
@@ -52,7 +35,7 @@ jonah@privacyguides.org
 
 その他すべてのお問い合わせについては、チームのメンバーに連絡することができます。
 
-より一般的なGDPRに基づく申し立てについては、各地域のデータ保護監督当局に申し立てることができます。 フランスでは、 Commission Nationale de l'Informatique et des Libertés が申し立てを処理します。 使用できる[申し立てのテンプレート](https://www.cnil.fr/en/plaintes)が提供されています。
+For complaints under GDPR more generally, you always have the option to lodge complaints with your local data protection supervisory authorities.
 
 ## このポリシーについて
 

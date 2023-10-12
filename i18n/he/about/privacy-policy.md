@@ -8,41 +8,24 @@ Privacy Guides הוא פרויקט קהילתי המופעל על ידי מספ�
 
 הפרטיות של המבקרים באתר שלנו חשובה לנו, לכן איננו עוקבים אחר אנשים בודדים. כמבקר באתר שלנו:
 
-- לא נאסף מידע אישי
-- לא מאוחסן בדפדפן מידע כגון עוגיות
-- אין מידע משותף עם, שנשלח או נמכר לצדדים שלישיים
-- אין שיתוף מידע עם חברות פרסום
-- שום מידע לא נכרה ונקצר עבור מגמות אישיות והתנהגותיות
-- שום מידע אינו מפיק רווחים
-
-תוכל לצפות בנתונים שאנו אוספים בדף ה[סטטיסטיקה](statistics.md) שלנו.
-
-אנו מפעילים התקנה באחסון עצמי של [Plausible Analytics](https://plausible.io) כדי לאסוף נתוני שימוש אנונימיים למטרות סטטיסטיות. המטרה היא לעקוב אחר מגמות כוללות בתנועה באתר שלנו, זה לא לעקוב אחר מבקרים בודדים. כל הנתונים הם במצטבר בלבד. לא נאספים נתונים אישיים.
-
-הנתונים שנאספו כוללים את מקורות ההפניה, הדפים העליונים, משך הביקור, מידע מהמכשירים (סוג המכשיר, מערכת ההפעלה, המדינה והדפדפן) שבהם נעשה שימוש במהלך הביקור ועוד. ניתן לקבל מידע נוסף על האופן שבו מתקבל על הדעת ואוסף מידע באופן שמכבד פרטיות [כאן](https://plausible.io/data-policy).
+- No personal information is collected
+- No information such as cookies are stored in the browser
+- No information is shared with, sent to or sold to third-parties
+- No information is shared with advertising companies
+- No information is mined and harvested for personal and behavioral trends
+- No information is monetized
 
 ## נתונים שאנו אוספים מבעלי חשבונות
 
-באתרים ובשירותים מסוימים שאנו מספקים, תכונות רבות עשויות לדרוש חשבון. לדוגמה, ייתכן שחשבון יידרש לפרסם ולהשיב לנושאים בפלטפורמת פורום.
+If you register for an account on one of our services, we may collect any information you provide us (such as your email, password, profile information, etc.) and use that information to provide you with the service. We never share or sell this data.
 
-כדי להירשם לרוב החשבונות, נאסוף שם, שם משתמש, אימייל וסיסמה. במקרה שאתר דורש יותר מידע מאשר רק נתונים אלה, זה יסומן באופן ברור ויצוין בהצהרת פרטיות נפרדת לכל אתר.
-
-אנו משתמשים בנתוני החשבון שלך כדי לזהות אותך באתר וליצור דפים ספציפיים לך, כגון דף הפרופיל שלך. אנחנו גם נשתמש בנתוני החשבון שלך כדי לפרסם פרופיל ציבורי עבורך בשירותים שלנו.
-
-אנו משתמשים בדוא"ל שלך כדי:
-
-- להודיע לך על פוסטים ופעילות אחרת באתרים או בשירותים.
-- אפס את הסיסמא שלך ועזור לשמור על אבטחת החשבון שלך.
-- ליצור עמך קשר בנסיבות מיוחדות הקשורות לחשבון שלך.
-- פנה אליך בנוגע לבקשות משפטיות, כגון בקשות הסרה של DMCA.
-
-באתרים ובשירותים מסוימים תוכל לספק מידע נוסף עבור חשבונך, כגון ביוגרפיה קצרה, אווטאר, המיקום שלך או תאריך הלידה שלך. אנו הופכים מידע זה לזמין לכל מי שיכול לגשת לאתר או לשירות המדובר. מידע זה אינו נדרש כדי להשתמש באף אחד מהשירותים שלנו וניתן למחוק אותו בכל עת.
-
-אנו נאחסן את נתוני החשבון שלך כל עוד חשבונך יישאר פתוח. לאחר סגירת חשבון, אנו עשויים לשמור חלק מנתוני החשבון שלך או את כולם בצורה של גיבויים או ארכיונים למשך עד 90 יום.
+Some services we host have separate privacy policies which supersede this document. For example, the privacy policy of our forum can be found at [discuss.privacyguides.net/privacy](https://discuss.privacyguides.net/privacy).
 
 ## יצירת קשר
 
-לצוות Privacy Guides אין בדרך כלל גישה לנתונים אישיים מחוץ לגישה מוגבלת הניתנת דרך חלק מלוחות הניהול. פניות בנוגע למידע האישי שלך יש לשלוח ישירות אל:
+Even in the limited cases where your data is collected, our volunteers and most members of the Privacy Guides team have no access to that information. Some information (such as your email address) may be accessible to moderators via limited control panels for the purposes of moderating our communities.
+
+Thus, inquiries regarding your personal information should be sent directly to:
 
 ```text
 Jonah Aragon
@@ -52,7 +35,7 @@ jonah@privacyguides.org
 
 לכל השאלות האחרות, ניתן ליצור קשר עם כל חבר בצוות שלנו.
 
-עבור תלונות במסגרת GDPR באופן כללי יותר, אתה יכול להגיש תלונות לרשויות הפיקוח המקומיות על הגנת הנתונים שלך. בצרפת זו הנציבות הלאומית למידע אינפורמטיקה וחופשיות שמטפלת ומטפלת בתלונות. הם מספקים [תבנית מכתב תלונה](https://www.cnil.fr/en/plaintes) לשימוש.
+For complaints under GDPR more generally, you always have the option to lodge complaints with your local data protection supervisory authorities.
 
 ## אודות מדיניות זו
 

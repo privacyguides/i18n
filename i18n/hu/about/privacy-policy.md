@@ -8,41 +8,24 @@ A Privacy Guides egy közösségi projekt, amelyet számos aktív önkéntes kö
 
 Fontos számunkra weboldalunk látogatóinak magánélete, ezért nem követünk egyetlen önálló személyt sem. Weboldalunk látogatójaként:
 
-- Semmilyen személyes információt nem gyűjtünk
-- Semmilyen sütihez hasonló információ nincs tárolva a böngészőben
-- Semmilyen információt nem osztunk meg, küldünk el, vagy adunk el harmadik feleknek
-- Semmilyen információt nem osztunk meg hirdetőcégekkel
-- Semmilyen információt nem bányászunk és gyűjtünk be személyes és viselkedési trendek megállapításához
-- Semmilyen információt nem értékesítünk
-
-Az általunk gyűjtött adatokat a [statisztikák](statistics.md) oldalon tekintheted meg.
-
-A [Plausible Analytics](https://plausible.io) egy saját üzemeltetésű telepítését futtatjuk, hogy statisztikai célokra egyes anonim használati adatokat gyűjtsünk. A cél a weboldalunk forgalmának általános trendjeinek nyomon követése, nem pedig egyéni látogatók nyomon követése. Minden adat kizárólag csak összesített. Semmilyen személyes adatot nem gyűjtünk.
-
-Az összegyűjtött adatok közé tartoznak a hivatkozási források, a legnépszerűbb oldalak, a látogatás időtartama, a látogatás során használt eszközökről származó információk (eszköztípus, operációs rendszer, ország és böngésző) és még sok más. Itt tudhatsz meg többet arról, hogyan működik a Plausible, és hogyan gyűjt információkat az magánélet tiszteletben tartásával [](https://plausible.io/data-policy).
+- No personal information is collected
+- No information such as cookies are stored in the browser
+- No information is shared with, sent to or sold to third-parties
+- No information is shared with advertising companies
+- No information is mined and harvested for personal and behavioral trends
+- No information is monetized
 
 ## Fióktulajdonosokról Gyűjtött Adatok
 
-Egyes általunk kínált weboldalon és szolgáltatáson számos funkcióhoz fiókra lehet szükség. Egy fórumplatformon például a témákhoz való posztoláshoz és hozzászóláshoz fiókra lehet szükség.
+If you register for an account on one of our services, we may collect any information you provide us (such as your email, password, profile information, etc.) and use that information to provide you with the service. We never share or sell this data.
 
-A legtöbb fiókhoz való regisztrációhoz egy nevet, felhasználónevet, email címet és jelszót kell megadnod. Amennyiben egy weboldal az említett adatoknál több információt igényel, az egyértelműen jelezve lesz, és külön adatvédelmi tájékoztatóban lesz feltüntetve.
-
-A fiókadataidat arra használjuk, hogy azonosítsunk a weboldalon, és hogy jellemző oldalakat, például a profiloldaladat létrehozzuk. A fiókadataidat arra is felhasználjuk, hogy nyilvános profilt tegyünk közzé számodra a szolgáltatásainkban.
-
-Az email címedet a következőkre használjuk:
-
-- Értesítünk a weboldalakon vagy szolgáltatásokban megjelenő bejegyzésekről és egyéb tevékenységekről.
-- Visszaállítjuk a jelszavadat, és segítünk megőrizni fiókod biztonságát.
-- Felvesszük veled a kapcsolatot a fiókoddal összefüggő különleges körülményekkel kapcsolatban.
-- Felvesszük veled a kapcsolatot jogi kérésekkel, például DMCA tiltási kérelmekkel kapcsolatban.
-
-Egyes weboldalakon és szolgáltatásokon további információt adhatsz meg fiókodhoz, például egy rövid életrajzot, avatart, a tartózkodási helyedet vagy a születésnapodat. Ezeket az információkat mindenki számára elérhetővé tesszük, aki hozzáférhet az adott weboldalhoz vagy szolgáltatáshoz. Ezek az információk nem szükségesek egyik szolgáltatásaink igénybevételéhez sem, és bármikor törölhetők.
-
-Fiókadataidat mindaddig tárolni fogjuk, amíg fiókod nyitva van. A fiók bezárása után a fiókadatok egy részét vagy egészét biztonsági mentések vagy archívumok formájában legfeljebb 90 napig megőrizhetjük.
+Some services we host have separate privacy policies which supersede this document. For example, the privacy policy of our forum can be found at [discuss.privacyguides.net/privacy](https://discuss.privacyguides.net/privacy).
 
 ## Kapcsolatfelvétel
 
-A Privacy Guides csapata általában nem fér hozzá személyes adatokhoz, kivéve a moderációs panelek által biztosított korlátozott hozzáférést. A személyes adataiddal kapcsolatos kérdéseket a következő címre kell küldeni:
+Even in the limited cases where your data is collected, our volunteers and most members of the Privacy Guides team have no access to that information. Some information (such as your email address) may be accessible to moderators via limited control panels for the purposes of moderating our communities.
+
+Thus, inquiries regarding your personal information should be sent directly to:
 
 ```text
 Jonah Aragon
@@ -52,7 +35,7 @@ jonah@privacyguides.org
 
 Minden más megkereséssel kapcsolatban csapatunk bármelyik tagjával kapcsolatba léphetsz.
 
-GDPR alá eső általános panaszok esetében a helyi adatvédelmi felügyeleti szervhez nyújthatsz be panaszt. Franciaországban ez a Commission Nationale de l'Informatique et des Libertés (Nemzeti Informatikai és Szabadságügyi Bizottság) ami foglalkozik és kezeli a panaszokat. Ők egy [panaszlevél sablont](https://www.cnil.fr/en/plaintes) is biztosítanak felhasználásra.
+For complaints under GDPR more generally, you always have the option to lodge complaints with your local data protection supervisory authorities.
 
 ## A Jelen Szabályzatról
 

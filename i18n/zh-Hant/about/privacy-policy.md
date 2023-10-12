@@ -8,41 +8,24 @@ title: "隐私政策"
 
 網站訪客的隱私對我們很重要，因此我們不會追蹤任何個人。 作為我們網站的訪客：
 
-- 不收集任何個人資訊
-- 瀏覽器中不會儲存 Cookie 等資訊
-- 不會對第三方分享、傳送或出售任何資訊
-- 不會與廣告公司共享任何資訊
-- 不挖掘和收集個人和行為趨勢
-- 未通過任何訪客資訊盈利
-
-您可以從 [統計](statistics.md) 頁上查看我們收集的數據。
-
-我們運行自託管安裝的 [Plausible Analytics](https://plausible.io) ，以收集一些匿名使用數據以供統計之用。 其目的是追蹤網站流量的整體趨勢，而不是追蹤個別訪問者。 所有數據僅爲總合資料。 不收集任何個人資訊.
-
-收集的資料包括推薦來源、最受歡迎頁面、訪問持續時間、訪問期間使用的裝置（裝置類型、作業系統、國家/地區和瀏覽器）等資料。 您可以在[此處](https://plausible.io/data-policy)了解 Plausible 如何以尊重隐私的方式工作與收集資訊</a>。
+- No personal information is collected
+- No information such as cookies are stored in the browser
+- No information is shared with, sent to or sold to third-parties
+- No information is shared with advertising companies
+- No information is mined and harvested for personal and behavioral trends
+- No information is monetized
 
 ## 我們從帳戶持有人收集的資料
 
-在我們提供的某些網站和服務中，許多功能可能需要申請帳戶。 例如，需要帳戶在論壇平臺上發佈和回覆主題。
+If you register for an account on one of our services, we may collect any information you provide us (such as your email, password, profile information, etc.) and use that information to provide you with the service. We never share or sell this data.
 
-大多數帳戶註冊，會收集姓名、用戶名、電子郵件和密碼。 如果網站需要的不僅僅是這些資料，將在每個網站的單獨隱私聲明中清楚地標記和記錄。
-
-我們會使用您的帳戶資料在網站上識別您的身份，並建立針對您的特定頁面，例如您的個人資料頁面。 我們也會使用您的帳戶資料，在我們的服務上為您發佈公開個人資料。
-
-我們使用您的電子郵件來：
-
-- 通知您有關網站或服務上的帖子和其他活動。
-- 重設密碼並協助確保帳戶安全。
-- 在與您的帳戶相關的特殊情況下與您聯繫。
-- 法律要求情況，例如數位千年版權法案(DMCA)刪除要求，須聯絡您。
-
-在某些網站和服務上，您可能會為您的帳戶提供額外資訊，例如簡短的傳記、頭像、位置或生日。 我們將這些資訊提供給所有可以訪問有關網站或服務的人。 使用我們服務不需要這些資訊，且可以隨時刪除。
-
-只要您的帳戶保持開放狀態，我們就會儲存您的帳戶資料。 關閉帳戶後，我們可能會以備份或存檔的形式保留部分或全部帳戶資料長達90天。
+Some services we host have separate privacy policies which supersede this document. For example, the privacy policy of our forum can be found at [discuss.privacyguides.net/privacy](https://discuss.privacyguides.net/privacy).
 
 ## 聯絡我們
 
-Privacy Guides 團隊通常無法存取個人資料，但某些審核小組會被授予部份存取權限。 有關您的個人資訊的查詢應直接發送至：
+Even in the limited cases where your data is collected, our volunteers and most members of the Privacy Guides team have no access to that information. Some information (such as your email address) may be accessible to moderators via limited control panels for the purposes of moderating our communities.
+
+Thus, inquiries regarding your personal information should be sent directly to:
 
 ```text
 Jonah Aragon
@@ -52,11 +35,7 @@ jonah@privacyguides.org
 
 對於所有其他查詢，您可以聯繫我們團隊的任何成員。
 
-對於一般 GDPR 投訴，您可以向當個資保護監管機構提出投訴。 在法國，  Commission Nationale de l'Informatique et des Libertés 負責照顧和處理投訴。 他們提供了投訴信</a> 的
-
-模板。</p> 
-
-
+For complaints under GDPR more generally, you always have the option to lodge complaints with your local data protection supervisory authorities.
 
 ## 關於本政策
 

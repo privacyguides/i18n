@@ -8,41 +8,24 @@ Privacy Guides is een gemeenschapsproject dat door een aantal actieve vrijwillig
 
 De privacy van onze websitebezoekers is belangrijk voor ons, dus we volgen geen individuele personen. Als bezoeker van onze website:
 
-- Er wordt geen persoonlijke informatie verzameld
-- Er wordt geen informatie, zoals cookies, opgeslagen in de browser
-- Er wordt geen informatie gedeeld met, verstuurd naar of verkocht aan derden
-- Er wordt geen informatie gedeeld met reclamebedrijven
-- Er wordt geen informatie gemijnd en geoogst voor persoonlijke en gedragstrends
-- Geen informatie wordt te gelde gemaakt
-
-Je kunt de gegevens die wij verzamelen bekijken op onze pagina [statistieken](statistics.md).
-
-Wij draaien een zelf gehoste installatie van [Plausible Analytics](https://plausible.io) om enkele anonieme gebruiksgegevens voor statistische doeleinden te verzamelen. Het doel is om algemene trends in ons websiteverkeer te volgen, niet om individuele bezoekers te volgen. Alle gegevens zijn alleen in geaggregeerde vorm. Er worden geen persoonsgegevens verzameld.
-
-De verzamelde gegevens omvatten verwijzingsbronnen, toppagina's, duur van het bezoek, informatie over de apparaten (apparaattype, besturingssysteem, land en browser) die tijdens het bezoek werden gebruikt en meer. Je kunt meer te weten komen over hoe Plausible werkt en informatie verzamelt op een privacy- respecterende manier [hier](https://plausible.io/data-policy).
+- No personal information is collected
+- No information such as cookies are stored in the browser
+- No information is shared with, sent to or sold to third-parties
+- No information is shared with advertising companies
+- No information is mined and harvested for personal and behavioral trends
+- No information is monetized
 
 ## Gegevens die wij van account houders verzamelen
 
-Op sommige websites en diensten die wij aanbieden, kan voor veel functies een account vereist zijn. Een account kan bijvoorbeeld vereist zijn om onderwerpen te posten en te beantwoorden op een forumplatform.
+If you register for an account on one of our services, we may collect any information you provide us (such as your email, password, profile information, etc.) and use that information to provide you with the service. We never share or sell this data.
 
-Om je voor de meeste accounts aan te melden, verzamelen wij een naam, gebruikersnaam, e-mail en wachtwoord. Indien een website meer informatie vereist dan alleen die gegevens, zal dat duidelijk worden aangegeven en vermeld in een afzonderlijke privacyverklaring per site.
-
-Wij gebruiken uw accountgegevens om je te identificeren op de website en om pagina's te creëren die specifiek voor je zijn, zoals jouw profielpagina. Wij zullen jouw accountgegevens ook gebruiken om een openbaar profiel voor je op onze diensten te publiceren.
-
-Wij gebruiken jouw e-mail om:
-
-- Je op de hoogte te brengen van berichten en andere activiteiten op de websites of diensten.
-- Reset jouw wachtwoord en help jouw account veilig te houden.
-- Contact met je op te nemen in bijzondere omstandigheden die verband houden met jouw rekening.
-- Contact met je op te nemen over wettelijke verzoeken, zoals DMCA takedown verzoeken.
-
-Op sommige websites en diensten kunt je aanvullende informatie verstrekken voor jouw account, zoals een korte biografie, avatar, jouw locatie of jouw verjaardag. Wij maken die informatie beschikbaar voor iedereen die toegang heeft tot de website of de dienst in kwestie. Deze informatie is niet vereist om van onze diensten gebruik te maken en kan op elk moment worden gewist.
-
-Wij bewaren jouw account gegevens zolang jouw account open blijft. Na het sluiten van een account kunnen wij sommige of al uw accountgegevens bewaren in de vorm van back-ups of archieven gedurende maximaal 90 dagen.
+Some services we host have separate privacy policies which supersede this document. For example, the privacy policy of our forum can be found at [discuss.privacyguides.net/privacy](https://discuss.privacyguides.net/privacy).
 
 ## Contact met ons opnemen
 
-Het Privacy Guides-team heeft in het algemeen geen toegang tot persoonsgegevens, afgezien van beperkte toegang die via sommige moderatiepanelen wordt verleend. Vragen over uw persoonlijke gegevens moeten rechtstreeks worden gericht aan:
+Even in the limited cases where your data is collected, our volunteers and most members of the Privacy Guides team have no access to that information. Some information (such as your email address) may be accessible to moderators via limited control panels for the purposes of moderating our communities.
+
+Thus, inquiries regarding your personal information should be sent directly to:
 
 ```text
 Jonah Aragon
@@ -52,7 +35,7 @@ jonah@privacyguides.org
 
 Voor alle andere vragen kunt je contact opnemen met elk lid van ons team.
 
-Voor meer algemene klachten in het kader van de GDPR kun je terecht bij jouw lokale toezichthoudende autoriteiten voor gegevensbescherming. In Frankrijk is het de Commission Nationale de l'Informatique et des Libertés die de klachten behandelt. Ze bieden een [sjabloon van de klachtenbrief](https://www.cnil.fr/en/plaintes) aan om te kunnen gebruiken.
+For complaints under GDPR more generally, you always have the option to lodge complaints with your local data protection supervisory authorities.
 
 ## Over dit beleid
 

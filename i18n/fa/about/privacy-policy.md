@@ -12,45 +12,28 @@ Privacy Guides یک پروژه اجتماعی است که توسط تعدادی 
 
 حریم خصوصی بازدیدکنندگان وب سایت ما برای ما مهم است، بنابراین ما هیچ فردی را ردیابی نمی کنیم. به عنوان یک بازدید کننده از وب سایت ما:
 
-- هیچ اطلاعات شخصی جمع آوری نمی شود
-- هیچ اطلاعاتی مانند کوکی ها در مرورگر ذخیره نمی شود
-- هیچ اطلاعاتی با اشخاص ثالث به اشتراک گذاشته نمی شود، به آنها ارسال نمی شود یا به آنها فروخته می شود
-- هیچ اطلاعاتی با شرکت های تبلیغاتی به اشتراک گذاشته نمی شود
-- هیچ اطلاعاتی برای گرایش های شخصی و رفتاری استخراج و جمع آوری نمی شود
-- هیچ اطلاعاتی پولی نیست
-
-می توانید داده هایی را که جمع‌آوری می کنیم در صفحه [آمار](statistics.md) ما مشاهده کنید.
-
-ما یک نصب خود میزبان (self-hosted installation) [Plausible Analytics](https://plausible.io) را اجرا می کنیم تا برخی از داده های‌ ناشناس شده را برای اهداف آماری جمع‌آوری کنیم. هدف ردیابی روند کلی در ترافیک وب سایت ما است، نه ردیابی بازدیدکنندگان فردی. تمام داده ها فقط جمع شده و به‌هم پیوسته (aggregate) هستند. هیچ اطلاعات شخصی جمع آوری نمی شود.
-
-داده‌های جمع‌آوری‌شده شامل منابع ارجاع، صفحات برتر، مدت زمان بازدید، اطلاعات دستگاه‌ها (نوع دستگاه، سیستم عامل، کشور و مرورگر) مورد استفاده در طول بازدید و موارد دیگر است. در [اینجا](https://plausible.io/data-policy) می‌توانید درباره نحوه عملکرد و جمع‌آوری اطلاعات با رعایت حریم خصوصی اطلاعات بیشتری کسب کنید.
+- No personal information is collected
+- No information such as cookies are stored in the browser
+- No information is shared with, sent to or sold to third-parties
+- No information is shared with advertising companies
+- No information is mined and harvested for personal and behavioral trends
+- No information is monetized
 
 
 
 ## داده هایی که از صاحبان حساب درخواست می‌کنیم
 
-در برخی از وب‌سایت‌ها و خدماتی که ارائه می‌کنیم، بسیاری از ویژگی‌ها ممکن است به حساب کاربری نیاز داشته باشند. به عنوان مثال، ممکن است یک حساب کاربری برای ارسال و پاسخ به موضوعات در یک پلت فرم انجمن مورد نیاز باشد.
+If you register for an account on one of our services, we may collect any information you provide us (such as your email, password, profile information, etc.) and use that information to provide you with the service. We never share or sell this data.
 
-برای ثبت نام در اکثر حساب ها، نام، نام کاربری، ایمیل و رمز عبور را درخواست می کنیم. در صورتی که یک وب‌سایت به اطلاعات بیشتری از آن داده‌ها نیاز داشته باشد، این اطلاعات به وضوح در بیانیه حریم خصوصی جداگانه هر سایت علامت‌گذاری و یادداشت می‌شوند.
-
-ما از داده‌های حساب شما برای شناسایی شما در وب‌سایت و ایجاد صفحات خاص مانند صفحه پروفایل شما استفاده می‌کنیم. ما همچنین از اطلاعات حساب شما برای انتشار پروفایل عمومی برای شما استفاده خواهیم کرد.
-
-ما از ایمیل شما برای موارد زیر استفاده می کنیم:
-
-- اطلاع رسانی درباره پست ها و سایر فعالیت ها در وب سایت ها یا خدمات.
-- به منظور بازنشانی رمز عبور خود و کمک به امن کردن حساب کاربری.
-- تماس با شما در شرایط خاص مربوط به حساب کاربری.
-- و درباره درخواست‌های قانونی، مانند درخواست‌های حذف DMCA.
-
-در برخی از وب‌سایت‌ها و سرویس‌ها ممکن است اطلاعات بیشتری برای حساب کاربری خود ارائه دهید، مانند بیوگرافی کوتاه، آواتار، مکان یا تاریخ تولدتان. ما این اطلاعات را برای همه کسانی که می توانند به وب سایت یا خدمات مورد نظر دسترسی داشته باشند در دسترس قرار می دهیم. این اطلاعات برای استفاده از هیچ یک از خدمات ما مورد نیاز نیست و می تواند در هر زمان پاک شود.
-
-ما اطلاعات حساب شما را تا زمانی که حساب شما باز باشد ذخیره می کنیم. پس از بستن یک حساب، ممکن است برخی یا همه اطلاعات حساب شما را به صورت پشتیبان یا آرشیو تا ۹۰ روز حفظ کنیم.
+Some services we host have separate privacy policies which supersede this document. For example, the privacy policy of our forum can be found at [discuss.privacyguides.net/privacy](https://discuss.privacyguides.net/privacy).
 
 
 
 ## تماس با ما
 
-تیم Privacy Guides خارح از برخی از پنل‌های نظارتی، در کل به داده‌های شخصی دسترسی ندارد. برای پرسش‌ها درباره اطلاعات شخصی خود، باید آن را مستقیماً به آدرس زیر ارسال کنید:
+Even in the limited cases where your data is collected, our volunteers and most members of the Privacy Guides team have no access to that information. Some information (such as your email address) may be accessible to moderators via limited control panels for the purposes of moderating our communities.
+
+Thus, inquiries regarding your personal information should be sent directly to:
 
 
 
@@ -63,7 +46,7 @@ jonah@privacyguides.org
 
 برای سایر پرسش‌ها، می‌توانید با هر عضوی از تیم ما تماس بگیرید.
 
-بطور کلی، شما می‌توانید شکایات خود را در خصوص قوانین حفاظت از داده‌ها GDPR به مراجع نظارتی محلی حفاظت از داده‌ها ارسال کنید. در فرانسه، مرجعی که مسئولیت رسیدگی به شکایات را برعهده دارد، کمیسیون ملی اطلاعاتی و آزادی‌های شخصیCommission Nationale de l'Informatique et des Libertés است. آن‌ها یک [قالب نامه شکایت](https://www.cnil.fr/en/plaintes) را برای استفاده در اختیار شما قرار می‌دهند.
+For complaints under GDPR more generally, you always have the option to lodge complaints with your local data protection supervisory authorities.
 
 
 

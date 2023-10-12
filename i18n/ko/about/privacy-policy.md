@@ -8,41 +8,24 @@ Privacy Guides는 여러 자원봉사자들이 운영하는 커뮤니티 프로�
 
 Privacy Guides에게 있어 중요한 것은 바로 여러분의 프라이버시입니다. 따라서 저희는 각각의 개인을 추적하지 않습니다. 사이트 방문자의 경우 다음 사항이 적용됩니다.
 
-- 어떠한 개인 정보도 수집되지 않습니다
-- 쿠키 등의 정보는 브라우저에 저장되지 않습니다
-- 어떠한 정보도 제3자에게 공유, 전송 판매되지 않습니다
-- 어떠한 정보도 광고 회사와 공유되지 않습니다
-- 어떠한 정보도 개인 및 행동 경향을 알아내기 위해 분석, 수집되지 않습니다
-- 어떠한 정보도 수익 창출을 위해 이용되지 않습니다
-
-Privacy Guides가 수집하는 데이터는 [통계](statistics.md) 페이지에서 확인하실 수 있습니다.
-
-Privacy Guides는 통계 분석 목적으로 일부 사용 데이터를 수집하며, 여기에는 [Plausible Analytics](https://plausible.io)를 자체 호스팅하여 사용하고 있습니다. 데이터 수집 목표는 개별 방문자 추적이 아닌, 트래픽의 전반적인 경향을 알아내기 위함입니다. 모든 데이터는 총합으로만 집계됩니다. 개인 정보는 일절 수집하지 않습니다.
-
-수집하는 데이터는 유입 경로, 인기 페이지, 방문 기간, 방문 시 사용한 기기 정보(기기 유형, 운영 체제, 국가 및 브라우저) 등이 있습니다. Plausible이 어떻게 프라이버시를 해치지 않으면서 데이터를 수집하는지는 [여기](https://plausible.io/data-policy)서 확인하실 수 있습니다.
+- No personal information is collected
+- No information such as cookies are stored in the browser
+- No information is shared with, sent to or sold to third-parties
+- No information is shared with advertising companies
+- No information is mined and harvested for personal and behavioral trends
+- No information is monetized
 
 ## 계정 소유자로부터 수집하는 데이터
 
-Privacy Guides에서 운영하는 웹사이트, 서비스에는 계정이 필요한 기능이 여럿 있습니다. 대표적으로, 계정이 없으면 Privacy Guides 포럼에서 글을 게시하거나 댓글을 작성할 수 없습니다.
+If you register for an account on one of our services, we may collect any information you provide us (such as your email, password, profile information, etc.) and use that information to provide you with the service. We never share or sell this data.
 
-대부분의 계정은 가입 시 이름, 사용자 이름, 이메일, 비밀번호가 수집됩니다. 추가 정보를 필요로 하는 경우, 사이트마다 존재하는 별도 프라이버시 정책에 해당 정보를 명확하게 명시해드립니다.
-
-여러분의 계정 정보는 웹사이트에서 여러분을 식별하고, 프로필 페이지 등의 특정 페이지를 생성하는 용도로 사용됩니다. 또한 서비스 상의 공개 프로필을 생성하는 데에도 사용됩니다.
-
-여러분의 이메일 주소는 다음 목적으로 사용됩니다.
-
-- 웹사이트 및 서비스에서 게시글을 비롯한 각종 활동에 대해 알려드립니다.
-- 비밀번호 재설정 및 계정 보호 관련 정보를 안내해 드립니다.
-- 계정과 관련된 특별한 상황이 발생할 경우 알려드립니다.
-- DMCA 게시 중단 등 법적 요청에 관련해 연락드립니다.
-
-일부 웹사이트 및 서비스에서는 간단한 소개, 아바타, 지역, 생일 등 추가 정보를 제공하실 수도 있습니다. 이러한 정보는 해당 웹사이트 및 서비스에 접근 가능한 모든 사람이 볼 수 있습니다. 이러한 정보는 Privacy Guides 서비스 이용에 필수적이지 않으며 언제든지 삭제하실 수 있습니다.
-
-여러분의 계정 데이터는 계정이 활성화되어 있는 동안 보관됩니다. 계정을 해지할 경우, Privacy Guides는 백업 및 보존 목적으로 최대 90일간 여러분의 계정 데이터를 보관할 수 있습니다.
+Some services we host have separate privacy policies which supersede this document. For example, the privacy policy of our forum can be found at [discuss.privacyguides.net/privacy](https://discuss.privacyguides.net/privacy).
 
 ## 문의하기
 
-일반적으로 Privacy Guides 팀은 관리 패널에서 접근 가능한 일부 데이터 외에는 여러분의 개인 데이터에 접근할 수 없습니다. 개인 정보 관련 문의는 다음 연락처로 직접 보내셔야 합니다.
+Even in the limited cases where your data is collected, our volunteers and most members of the Privacy Guides team have no access to that information. Some information (such as your email address) may be accessible to moderators via limited control panels for the purposes of moderating our communities.
+
+Thus, inquiries regarding your personal information should be sent directly to:
 
 ```text
 Jonah Aragon
@@ -52,7 +35,7 @@ jonah@privacyguides.org
 
 기타 모든 문의 사항은 Privacy Guides 팀원에게 문의하시면 됩니다.
 
-GDPR 관련 불만 사항은 해당 지역의 데이터 보호 감독 기관에 문의하실 수 있습니다. 프랑스의 경우 'Commission Nationale de l'Informatique et des Libertés'가 해당합니다. 해당 기관에서는 [컴플레인 템플릿](https://www.cnil.fr/en/plaintes)이 제공됩니다.
+For complaints under GDPR more generally, you always have the option to lodge complaints with your local data protection supervisory authorities.
 
 ## 정책 정보
 
