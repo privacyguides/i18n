@@ -46,11 +46,11 @@ Kunci ini umumnya multifungsi dan menyediakan sejumlah metode untuk melakukan au
 
 #### OTP Yubico
 
-Yubico OTP adalah protokol autentikasi yang biasanya diimplementasikan dalam kunci keamanan perangkat keras. When you decide to use Yubico OTP, the key will generate a public ID, private ID, and a Secret Key which is then uploaded to the Yubico OTP server.
+Yubico OTP adalah protokol autentikasi yang biasanya diimplementasikan dalam kunci keamanan perangkat keras. Ketika Anda memutuskan untuk menggunakan OTP Yubico, kunci tersebut akan menghasilkan pengenal publik, pengenal pribadi, dan Kunci Rahasia yang kemudian diunggah ke server OTP Yubico.
 
-When logging into a website, all you need to do is to physically touch the security key. The security key will emulate a keyboard and print out a one-time password into the password field.
+Saat masuk ke situs web, yang perlu Anda lakukan hanyalah menyentuh kunci keamanan secara fisik. Kunci keamanan tersebut akan mengemulasi papan tombol dan mencetak kata sandi sekali pakai ke dalam bidang kata sandi.
 
-The service will then forward the one-time password to the Yubico OTP server for validation. A counter is incremented both on the key and Yubico's validation server. The OTP can only be used once, and when a successful authentication occurs, the counter is increased which prevents reuse of the OTP. Yubico provides a [detailed document](https://developers.yubico.com/OTP/OTPs_Explained.html) about the process.
+Layanan ini kemudian akan meneruskan kata sandi sekali pakai ke server OTP Yubico untuk divalidasi. A counter is incremented both on the key and Yubico's validation server. The OTP can only be used once, and when a successful authentication occurs, the counter is increased which prevents reuse of the OTP. Yubico provides a [detailed document](https://developers.yubico.com/OTP/OTPs_Explained.html) about the process.
 
 <figure markdown>
   ![Yubico OTP](../assets/img/multi-factor-authentication/yubico-otp.png)

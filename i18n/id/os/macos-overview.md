@@ -124,17 +124,17 @@ On modern devices with a Secure Enclave (Apple T2 Security Chip, Apple silicon),
 
 On older Intel-based Mac computers, FileVault is the only form of disk encryption available by default, and should always be enabled.
 
-- [x] Click **Turn On**
+- [x] Klik **Nyalakan**
 
 ##### Lockdown Mode
 
 [Lockdown Mode](https://blog.privacyguides.org/2022/10/27/macos-ventura-privacy-security-updates/#lockdown-mode) disables some features in order to improve security. Some apps or features won't work the same way they do when it's off, for example, [JIT](https://hacks.mozilla.org/2017/02/a-crash-course-in-just-in-time-jit-compilers/) and [WASM](https://developer.mozilla.org/en-US/docs/WebAssembly) are disabled in Safari with Lockdown Mode enabled. We recommend enabling Lockdown Mode and seeing whether it significantly impacts your usage, many of the changes it makes are easy to live with.
 
-- [x] Click **Turn On**
+- [x] Klik **Nyalakan**
 
 ### MAC Address Randomization
 
-macOS uses a randomized MAC address when performing Wi-Fi scans while disconnected from a network. However, when you connect to a preferred Wi-Fi network, the MAC address used is never randomized. Full MAC address randomization is an advanced topic, and most people don't need to worry about performing the following steps.
+macOS menggunakan alamat MAC secara acak saat melakukan pemindaian Wi-Fi ketika terputus dari jaringan. However, when you connect to a preferred Wi-Fi network, the MAC address used is never randomized. Full MAC address randomization is an advanced topic, and most people don't need to worry about performing the following steps.
 
 Unlike iOS, macOS doesn't give you an option to randomize your MAC address in the settings, so if you wish to change this identifier, you'll need to do it with a command or a script. To set a random MAC address, first disconnect from the network if you're already connected, then open **Terminal** and enter this command to randomize your MAC address:
 

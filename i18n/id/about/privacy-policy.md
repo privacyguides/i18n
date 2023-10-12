@@ -8,24 +8,24 @@ Privacy Guides adalah proyek komunitas yang dioperasikan oleh sejumlah kontribut
 
 Privasi pengunjung situs web kami sangat penting bagi kami, jadi kami tidak melacak setiap orang. Sebagai pengunjung situs web kami:
 
-- No personal information is collected
-- No information such as cookies are stored in the browser
-- No information is shared with, sent to or sold to third-parties
-- No information is shared with advertising companies
-- No information is mined and harvested for personal and behavioral trends
-- No information is monetized
+- Tidak ada informasi pribadi yang dikumpulkan
+- Tidak ada informasi, seperti kuki, yang disimpan di peramban
+- Tidak ada informasi yang dibagikan, dikirim, atau dijual kepada pihak ketiga
+- Tidak ada informasi yang dibagikan dengan perusahaan periklanan
+- Tidak ada informasi yang dikumpulkan demi tren pribadi dan perilaku
+- Tidak ada informasi yang dimonetisasi
 
 ## Data yang Kami Kumpulkan Dari Pemegang Akun
 
-If you register for an account on one of our services, we may collect any information you provide us (such as your email, password, profile information, etc.) and use that information to provide you with the service. We never share or sell this data.
+Jika Anda membuat akun di salah satu layanan kami, kami dapat mengumpulkan informasi apa pun yang Anda berikan kepada kami (surel, kata sandi, informasi profil, dan lain-lain) dan menggunakan informasi tersebut untuk menyediakan layanan kepada Anda. Kami tidak pernah membagikan atau menjual data ini.
 
-Some services we host have separate privacy policies which supersede this document. For example, the privacy policy of our forum can be found at [discuss.privacyguides.net/privacy](https://discuss.privacyguides.net/privacy).
+Beberapa layanan yang kami sediakan memiliki kebijakan privasi terpisah yang menggantikan dokumen ini. Sebagai contoh, kebijakan privasi forum kami dapat ditemukan di [discuss.privacyguides.net/privacy](https://discuss.privacyguides.net/privacy).
 
 ## Menghubungi Kami
 
-Even in the limited cases where your data is collected, our volunteers and most members of the Privacy Guides team have no access to that information. Some information (such as your email address) may be accessible to moderators via limited control panels for the purposes of moderating our communities.
+Bahkan dalam kasus-kasus terbatas yang melibatkan pengumpulan data Anda, sukarelawan kami dan sebagian besar anggota tim Privacy Guides tidak memiliki akses ke informasi tersebut. Beberapa informasi (seperti alamat surel Anda) mungkin dapat diakses oleh moderator melalui panel kontrol terbatas untuk keperluan moderasi komunitas kami.
 
-Thus, inquiries regarding your personal information should be sent directly to:
+Oleh karena itu, pertanyaan mengenai informasi pribadi Anda sebaiknya dikirim langsung ke:
 
 ```text
 Jonah Aragon
@@ -35,7 +35,7 @@ jonah@privacyguides.org
 
 Untuk semua pertanyaan lainnya, Anda dapat menghubungi anggota tim kami.
 
-For complaints under GDPR more generally, you always have the option to lodge complaints with your local data protection supervisory authorities.
+Untuk keluhan berdasarkan GDPR secara umum, Anda dapat mengajukan keluhan kepada otoritas pengawas perlindungan data setempat.
 
 ## Tentang Kebijakan Ini
 
