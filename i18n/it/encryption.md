@@ -88,7 +88,7 @@ Truecrypt è stato [controllato numerose volte](https://en.wikipedia.org/wiki/Tr
 
 ## Crittografia dell'intero disco del sistema operativo
 
-Per crittografare l'unità da cui si avvia il sistema operativo, in genere si consiglia di attivare il software di crittografia fornito con il sistema operativo piuttosto che utilizzare uno strumento di terze parti. This is because your operating system's native encryption tools often make use of OS and hardware-specific features like the [secure cryptoprocessor](https://en.wikipedia.org/wiki/Secure_cryptoprocessor) in your device to protect your computer against more advanced physical attacks. For secondary drives and external drives which you *don't* boot from, we still recommend using open-source tools like [VeraCrypt](#veracrypt-disk) over the tools below, because they offer additional flexibility and let you avoid vendor lock-in.
+Per crittografare l'unità da cui si avvia il sistema operativo, in genere si consiglia di attivare il software di crittografia fornito con il sistema operativo piuttosto che utilizzare uno strumento di terze parti. Questo perché gli strumenti di crittografia nativi del sistema operativo spesso utilizzano caratteristiche specifiche del sistema operativo e dell'hardware, come il [cryptoprocessor](https://it.wikipedia.org/wiki/Cryptoprocessor) nel dispositivo, per proteggere il computer da attacchi fisici più avanzati. Per le unità secondarie e le unità esterne da cui *non* si effettua l'avvio, si consiglia comunque di utilizzare strumenti open-source come [VeraCrypt](#veracrypt-disk) rispetto a quelli indicati di seguito, perché offrono una maggiore flessibilità e consentono di evitare il vendor lock-in.
 
 ### BitLocker
 
@@ -96,7 +96,7 @@ Per crittografare l'unità da cui si avvia il sistema operativo, in genere si co
 
     ![Logo di BitLocker](assets/img/encryption-software/bitlocker.png){ align=right }
     
-    **BitLocker** è il programma di crittografia completa del volume, integrato con Microsoft Windows. The main reason we recommend it for encrypting your boot drive is because of its [use of TPM](https://docs.microsoft.com/en-us/windows/security/information-protection/tpm/how-windows-uses-the-tpm). ElcomSoft, a forensics company, has written about this feature in [Understanding BitLocker TPM Protection](https://blog.elcomsoft.com/2021/01/understanding-BitLocker-tpm-protection/).
+    **BitLocker** è il programma di crittografia completa del volume, integrato con Microsoft Windows. Il motivo principale per cui lo consigliamo per la crittografia dell'unità di avvio è il suo [utilizzo di TPM](https://docs.microsoft.com/en-us/windows/security/information-protection/tpm/how-windows-uses-the-tpm). ElcomSoft, una società di analisi forense, ha scritto su questa funzione in [Understanding BitLocker TPM Protection](https://blog.elcomsoft.com/2021/01/understanding-BitLocker-tpm-protection/).
     
     [:octicons-info-16:](https://docs.microsoft.com/en-us/windows/security/information-protection/BitLocker/BitLocker-overview){ .card-link title=Documentazione}
 
@@ -104,7 +104,7 @@ BitLocker è [supportato soltanto](https://support.microsoft.com/en-us/windows/t
 
 ??? example "Attivare BitLocker su Windows Home"
 
-    Per abilitare BitLocker sulle edizioni "Home" di Windows, devi avere le partizioni formattate con una [Tabella di Partizione GUID](https://it.wikipedia.org/wiki/GUID_Partition_Table) e disporre di un modulo TPM (v1.2, 2.0+) dedicato. You may need to [disable the non-Bitlocker "Device encryption" functionality](https://discuss.privacyguides.net/t/enabling-bitlocker-on-the-windows-11-home-edition/13303/5) (which is inferior because it sends your recovery key to Microsoft's servers) if it is enabled on your device already before following this guide.
+    Per abilitare BitLocker sulle edizioni "Home" di Windows, devi avere le partizioni formattate con una [Tabella di Partizione GUID](https://it.wikipedia.org/wiki/GUID_Partition_Table) e disporre di un modulo TPM (v1.2, 2.0+) dedicato. Potrebbe essere necessario [disabilitare la funzionalità "Crittografia dispositivo" non-Bitlocker](https://discuss.privacyguides.net/t/enabling-bitlocker-on-the-windows-11-home-edition/13303/5) (che è inferiore perché invia la chiave di recupero ai server di Microsoft) se è già attiva sul dispositivo prima di seguire questa guida.
 
     1. Apri il prompt dei comandi e verifica il formato della tabella di partizione dell'unità, con il seguente comando. Dovresti vedere "**GPT**" elencato sotto "Stile di Partizione":
 
