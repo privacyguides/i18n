@@ -124,13 +124,13 @@ Sur les appareils modernes dotés d'une Secure Enclave (puce de sécurité T2 d'
 
 Sur les anciens ordinateurs Mac à processeur Intel, FileVault est la seule forme de chiffrement de disque disponible par défaut et doit toujours être activé.
 
-- [x] Click **Turn On**
+- [x] Cliquez sur **Activer**
 
 ##### Mode Isolement
 
 Le [mode Isolement](https://blog.privacyguides.org/2022/10/27/macos-ventura-privacy-security-updates/#lockdown-mode) désactive certaines fonctionnalités afin d'améliorer la sécurité. Certaines applications ou fonctionnalités ne fonctionneront pas de la même manière que lorsqu'il est désactivé. Par exemple, [JIT](https://hacks.mozilla.org/2017/02/a-crash-course-in-just-in-time-jit-compilers/) et [WASM](https://developer.mozilla.org/fr/docs/WebAssembly) sont désactivés dans Safari lorsque le mode Isolement est activé. Nous vous recommandons d'activer le mode Isolement et de voir s'il a un impact significatif sur votre utilisation, car la plupart des changements qu'il apporte sont faciles à vivre.
 
-- [x] Click **Turn On**
+- [x] Cliquez sur **Activer**
 
 ### Adresse MAC aléatoire
 
