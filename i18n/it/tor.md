@@ -103,9 +103,9 @@ Abbiamo precedentemente consiglito di abilitare la preferenza *Isola Indirizzo d
 
 !!! recommendation
 
-    ![Onion Browser logo](assets/img/self-contained-networks/onion_browser.svg){ align=right }
+    ![Logo di Onion Browser](assets/img/self-contained-networks/onion_browser.svg){ align=right }
     
-    **Onion Browser** is an open-source browser that lets you browse the web anonymously over the Tor network on iOS devices and is endorsed by the [Tor Project](https://support.torproject.org/glossary/onion-browser/).
+    **Onion Browser** è un browser open-source che consente di navigare sul web in modo anonimo attraverso la rete Tor su dispositivi iOS ed è approvato dal [Tor Project](https://support.torproject.org/glossary/onion-browser/).
     
     [:octicons-home-16: Homepage](https://onionbrowser.com){ .md-button .md-button--primary }
     [:octicons-eye-16:](https://onionbrowser.com/privacy-policy){ .card-link title="Privacy Policy" }
@@ -121,7 +121,7 @@ Abbiamo precedentemente consiglito di abilitare la preferenza *Isola Indirizzo d
 
 ### Snowflake
 
-!!! recommendation
+!!! raccomandazione
 
     ![Logo di Snowflake](assets/img/browsers/snowflake.svg#only-light){ align=right }
     ![Logo di Snowflake](assets/img/browsers/snowflake-dark.svg#only-dark){ align=right }

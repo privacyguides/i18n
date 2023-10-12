@@ -19,7 +19,7 @@ Per tutto il resto, consigliamo una varietà di provider di posta elettronica ba
 
 ## Servizi Compatibili con OpenPGP
 
-These providers natively support OpenPGP encryption/decryption and the [Web Key Directory standard](basics/email-security.md#what-is-the-web-key-directory-standard), allowing for provider-agnostic E2EE emails. Ad esempio, un utente di Proton Mail potrebbe inviare un messaggio E2EE a un utente Mailbox.org, o potresti ricevere notifiche crittografate in OpenPGP dai servizi Internet che le supportano.
+Questi provider supportano in modo nativo la crittografia/decrittografia OpenPGP e lo [standard Web Key Directory](basics/email-security.md#what-is-the-web-key-directory-standard), consentendo la creazione di e-mail E2EE indipendenti dal provider. Ad esempio, un utente di Proton Mail potrebbe inviare un messaggio E2EE a un utente Mailbox.org, o potresti ricevere notifiche crittografate in OpenPGP dai servizi Internet che le supportano.
 
 <div class="grid cards" markdown>
 
@@ -86,7 +86,7 @@ Certe informazioni memorizzate su [Proton Contact](https://proton.me/support/pro
 
 Proton Mail ha una [crittografia OpenPGP integrata](https://proton.me/support/how-to-use-pgp) nella propria webmail. Le e-mail inviate ad altri account Proton Mail vengono crittografate automaticamente, e la crittografia verso indirizzi non Proton Mail con una chiave OpenPGP può essere abilitata nelle impostazioni dell'account. Inoltre, ti consentono di [crittografare i messaggi agli indirizzi non di Proton Mail](https://proton.me/support/password-protected-emails), senza che debbano iscriversi a un profilo di Proton Mail o utilizzare software, come OpenPGP.
 
-Inoltre, Proton Mail supporta la scoperta delle chiavi pubbliche tramite HTTP, dalla loro [Web Key Directory (WKD)](https://wiki.gnupg.org/WKD). Ciò permette a coloro che non utiilizzano Proton Mail, di trovare facilmente le chiavi OpenPGP dei profili di Proton Mail, per un'E2EE tra fornitori. This only applies to email addresses ending in one of Proton's own domains, like @proton.me. If you use a custom domain, you must [configure WKD](./basics/email-security.md#what-is-the-web-key-directory-standard) separately.
+Inoltre, Proton Mail supporta la scoperta delle chiavi pubbliche tramite HTTP, dalla loro [Web Key Directory (WKD)](https://wiki.gnupg.org/WKD). Ciò permette a coloro che non utiilizzano Proton Mail, di trovare facilmente le chiavi OpenPGP dei profili di Proton Mail, per un'E2EE tra fornitori. Questo vale solo per gli indirizzi e-mail che terminano con uno dei domini di proprietà di Proton, come @proton.me. Se si utilizza un dominio personalizzato, è necessario [configurare il WKD](./basics/email-security.md#what-is-the-web-key-directory-standard) separatamente.
 
 #### :material-information-outline:{ .pg-blue } Chiusura dell'account
 
@@ -136,7 +136,7 @@ Tuttavia, [Open-Exchange](https://en.wikipedia.org/wiki/Open-Xchange), la piatta
 
 Mailbox.org presenta una [crittografia integrata](https://kb.mailbox.org/display/MBOKBEN/Send+encrypted+e-mails+with+Guard) nella propria webmail, che semplifica l'invio di messaggi a persone con le chiavi OpenPGP pubbliche. Inoltre, consente ai [destinatari da remoto di decrittografare un'email](https://kb.mailbox.org/display/MBOKBEN/My+recipient+does+not+use+PGP) sui server di Mailbox.org. Questa funzionalità è utile quando il destinatario da remoto non ha OpenPGP e non può decrittografare una copia dell'email nella propria casella.
 
-Inoltre, Mailbox.org supporta la scoperta di chiavi pubbliche tramite HTTP dalla loro [Web Key Directory (WKD)](https://wiki.gnupg.org/WKD). Questo permette a persone esterne a Mailbox.org di trovare facilmente le chiavi OpenPGP degli account di Mailbox.org, per un E2EE fra provider diversi. This only applies to email addresses ending in one of Mailbox.org's own domains, like @mailbox.org. If you use a custom domain, you must [configure WKD](./basics/email-security.md#what-is-the-web-key-directory-standard) separately.
+Inoltre, Mailbox.org supporta la scoperta di chiavi pubbliche tramite HTTP dalla loro [Web Key Directory (WKD)](https://wiki.gnupg.org/WKD). Questo permette a persone esterne a Mailbox.org di trovare facilmente le chiavi OpenPGP degli account di Mailbox.org, per un E2EE fra provider diversi. Questo vale solo per gli indirizzi e-mail che terminano con uno dei domini di Mailbox.org, come @mailbox.org. Se si utilizza un dominio personalizzato, è necessario [configurare il WKD](./basics/email-security.md#what-is-the-web-key-directory-standard) separatamente.
 
 #### :material-information-outline:{ .pg-blue } Chiusura dell'account
 
@@ -320,7 +320,7 @@ Utilizzare un servizio di alias richiede di affidare i tuoi messaggi crittografa
         - [:simple-firefoxbrowser: Firefox](https://addons.mozilla.org/it/firefox/addon/addy_io/)
         - [:simple-googlechrome: Chrome](https://chrome.google.com/webstore/detail/addyio-anonymous-email-fo/iadbdpnoknmbdeolbapdackdcogdmjpe)
 
-Il numero di alias condivisi (che terminano con un dominio condiviso come @addy.io) che puoi creare è limitato a 10 sul piano gratuito di addy.io, 50 sul piano da €1/mese e illimitato sul piano da €4/mese (fatturato €3 per un anno). Puoi creare un numero illimitato di alias standard (che terminano con un dominio come @[username].addy.io o con un dominio personalizzato nei piani a pagamento), tuttavia, come detto in precedenza, questo può essere dannoso per la privacy poichè le persone possono banalmente collegare i tuoi alias standard basandosi unicamente sul nome del dominio. Sono utili quando un dominio condiviso potrebbe essere bloccato da un servizio. Securitum [audited](https://addy.io/blog/addy-io-passes-independent-security-audit/) addy.io in September 2023 and no significant vulnerabilities [were identified](https://addy.io/addy-io-security-audit.pdf).
+Il numero di alias condivisi (che terminano con un dominio condiviso come @addy.io) che puoi creare è limitato a 10 sul piano gratuito di addy.io, 50 sul piano da €1/mese e illimitato sul piano da €4/mese (fatturato €3 per un anno). Puoi creare un numero illimitato di alias standard (che terminano con un dominio come @[username].addy.io o con un dominio personalizzato nei piani a pagamento), tuttavia, come detto in precedenza, questo può essere dannoso per la privacy poichè le persone possono banalmente collegare i tuoi alias standard basandosi unicamente sul nome del dominio. Sono utili quando un dominio condiviso potrebbe essere bloccato da un servizio. Securitum [ha effettuato un audit](https://addy.io/blog/addy-io-passes-independent-security-audit/) su addy.io nel settembre 2023 e non sono state identificate [vulnerabilità significative](https://addy.io/addy-io-security-audit.pdf).
 
 Funzionalità gratuite degne di nota:
 
@@ -494,7 +494,7 @@ Non deve avere alcun marketing irresponsabile:
 - Dichiarazioni di "crittografia impenetrabile." La crittografia dovrebbe essere utilizzata con l'intenzione che possa non essere segreta in futuro, quando esisterà la tecnologia per decifrarla.
 - Garantire la protezione dell'anonimato al 100%. Quando qualcuno afferma che qualcosa è al 100%, significa che non vi è certezza di fallimento. Sappiamo che le persone possono facilmente deanonimizzarsi in numerosi modi, es.:
 
-    - Reusing personal information e.g. (email accounts, unique pseudonyms, etc.) that they accessed without anonymity software (Tor, VPN, etc.)
+    - Riutilizzo di informazioni personali, es. (profili email, pseudonimi univoci, etc.), accessibili senza software di anonimato (Tor, VPN, etc.)
     - [Browser fingerprinting](https://en.wikipedia.org/wiki/Device_fingerprint#Browser_fingerprint)
 
 **Miglior Caso:**
