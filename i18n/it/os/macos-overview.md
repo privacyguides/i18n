@@ -134,7 +134,7 @@ La [Modalità Lockdown](https://blog.privacyguides.org/2022/10/27/macos-ventura-
 
 ### Randomizzazione dell'indirizzo MAC
 
-macOS uses a randomized MAC address when performing Wi-Fi scans while disconnected from a network. However, when you connect to a preferred Wi-Fi network, the MAC address used is never randomized. Full MAC address randomization is an advanced topic, and most people don't need to worry about performing the following steps.
+macOS utilizza un indirizzo MAC randomizzato durante la scansione di reti Wi-Fi mentre è disconnesso da una rete. Tuttavia, quando ti connetti a una rete Wi-Fi preferita, l'indirizzo MAC utilizzato non viene mai randomizzato. Full MAC address randomization is an advanced topic, and most people don't need to worry about performing the following steps.
 
 Unlike iOS, macOS doesn't give you an option to randomize your MAC address in the settings, so if you wish to change this identifier, you'll need to do it with a command or a script. To set a random MAC address, first disconnect from the network if you're already connected, then open **Terminal** and enter this command to randomize your MAC address:
 
