@@ -307,15 +307,15 @@ Le principali funzionalità di privacy includono:
 
 !!! recommendation
 
-    ![Obtainium logo](assets/img/android/obtainium.svg){ align=right }
+    ![Logo di Obtainium](assets/img/android/obtainium.svg){ align=right }
     
-    **Obtainium** is an app manager which allows you to install and update apps directly from the developer's own releases page (i.e. GitHub, GitLab, the developer's website, etc.), rather than a centralized app store/repository. It supports automatic background updates on Android 12 and higher.
+    **Obtainium** è un gestore di app che ti consente di installare e aggiornare le app direttamente dalla pagina di rilascio dello sviluppatore (es. GitHub, GitLab, il sito web dello sviluppatore, ecc.), piuttosto che un app store/repository di app centralizzato. Supporta gli aggiornamenti automatici in background su Android 12 e versioni successive.
     
     [:octicons-repo-16: Repository](https://github.com/ImranR98/Obtainium#readme){ .md-button .md-button--primary }
-    [:octicons-code-16:](https://github.com/ImranR98/Obtainium){ .card-link title="Source Code" }
-    [:octicons-heart-16:](https://github.com/sponsors/ImranR98){ .card-link title=Contribute }
+    [:octicons-code-16:](https://github.com/ImranR98/Obtainium){ .card-link title="Codice Sorgente" }
+    [:octicons-heart-16:](https://github.com/sponsors/ImranR98){ .card-link title=Contribuisci}
     
-    ??? downloads
+    ??? downloads "Scarica"
     
         - [:simple-github: GitHub](https://github.com/ImranR98/Obtainium/releases)
 
@@ -331,7 +331,7 @@ L'app store di GrapheneOS è disponibile su [GitHub](https://github.com/Graphene
 
 Il Google Play Store richiede un profilo Google per l'accesso, il che non è un bene per la privacy. Puoi aggirare tale problema utilizzando un client alternativo, come Aurora Store.
 
-!!! recommendation
+!!! consigli
 
     ![Logo di Aurora Store](assets/img/android/aurora-store.webp){ align=right }
     

@@ -124,13 +124,13 @@ Sui dispositivi moderni con una Zona Franca Sicura (Chip di Sicurezza Apple T2, 
 
 Sui vecchi computer Mac basati su Intel, FileVault è la sola forma di crittografia del disco disponibile di default, e dovrebbe sempre essere abilitata.
 
-- [x] Click **Turn On**
+- [x] Clicca **Attiva**
 
 ##### Modalità Lockdown
 
 La [Modalità Lockdown](https://blog.privacyguides.org/2022/10/27/macos-ventura-privacy-security-updates/#lockdown-mode) disabilita alcune funzionalità per poter migliorare la sicurezza. Alcune app o funzionalità non funzioneranno allo stesso modo di quanto sono disattivate, ad esempio, [JIT](https://hacks.mozilla.org/2017/02/a-crash-course-in-just-in-time-jit-compilers/) e [WASM](https://developer.mozilla.org/en-US/docs/WebAssembly) sono disabilitate su Safari, con la Modalità di Lockdown abilitata. Consigliamo di abilitare la Modalità di Lockdown e di scoprire se impatta significativamente sul tuo utilizzo: è facile convivere con molte delle modifiche che effettua.
 
-- [x] Click **Turn On**
+- [x] Clicca **Attiva**
 
 ### Randomizzazione dell'indirizzo MAC
 
