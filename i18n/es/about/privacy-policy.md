@@ -8,24 +8,24 @@ Privacy Guides es un proyecto comunitario gestionado por una serie de colaborado
 
 La privacidad de los visitantes de nuestro sitio web es importante para nosotros, por lo que no rastreamos a ninguna persona en particular. Como visitante de nuestro sitio web:
 
-- No personal information is collected
-- No information such as cookies are stored in the browser
-- No information is shared with, sent to or sold to third-parties
-- No information is shared with advertising companies
-- No information is mined and harvested for personal and behavioral trends
-- No information is monetized
+- No se recopila información personal
+- No se almacenan cookies en el navegador
+- No se comparte, envía o vente su información a terceros
+- No se comparte su información con compañías de publicidad
+- No se extrae ni se recolecta información para obtener tendencias personales y de comportamiento
+- No se monetiza la información
 
 ## Datos que recopilamos de los titulares de cuentas
 
-If you register for an account on one of our services, we may collect any information you provide us (such as your email, password, profile information, etc.) and use that information to provide you with the service. We never share or sell this data.
+Si se registra para una cuenta en alguno de nuestros servicios, podemos recolectar cualquier información que nos proporcione (como su correo electrónico, contraseña, información del perfil, etc.) y utilizamos esa información para proporcionarle el servicio. Nunca compartimos o vendemos esta información.
 
-Some services we host have separate privacy policies which supersede this document. For example, the privacy policy of our forum can be found at [discuss.privacyguides.net/privacy](https://discuss.privacyguides.net/privacy).
+Algunos servicios que alojamos tienen políticas de privacidad por separado que sustituyen este documento. Por ejemplo, la política de privacidad de nuestro foro puede encontrarse en [discuss.privacyguides.net/privacy](https://discuss.privacyguides.net/privacy).
 
 ## Contacto
 
-Even in the limited cases where your data is collected, our volunteers and most members of the Privacy Guides team have no access to that information. Some information (such as your email address) may be accessible to moderators via limited control panels for the purposes of moderating our communities.
+Incluso en casos limitados donde su información es recolectada, nuestros voluntarios y la mayoría de los miembros del equipo de Privacy Guides no tienen acceso a esa información. Ciertos datos (como su correo electrónico) pueden ser accedidos por nuestros moderadores a través de paneles de control limitado, con el objetivo de moderar nuestras comunidades.
 
-Thus, inquiries regarding your personal information should be sent directly to:
+Por lo tanto, las consultas relacionadas con su información personal pueden ser enviadas directamente a:
 
 ```text
 Jonah Aragon
@@ -35,7 +35,7 @@ jonah@privacyguides.org
 
 Para cualquier otra consulta, puede contactar a cualquier miembro de nuestro equipo.
 
-For complaints under GDPR more generally, you always have the option to lodge complaints with your local data protection supervisory authorities.
+Para presentar reclamos acerca del RGPD, puede realizarlo con las autoridades locales de supervisión de protección de datos.
 
 ## Acerca de esta política
 

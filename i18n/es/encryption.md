@@ -96,7 +96,7 @@ Para cifrar la unidad desde la que inicia el sistema operativo, por lo general r
 
     ![BitLocker logo](assets/img/encryption-software/bitlocker.png){ align=right }
     
-    **BitLocker** es la solución de cifrado de volumen completo incluida con Microsoft Windows. The main reason we recommend it for encrypting your boot drive is because of its [use of TPM](https://docs.microsoft.com/en-us/windows/security/information-protection/tpm/how-windows-uses-the-tpm). ElcomSoft, a forensics company, has written about this feature in [Understanding BitLocker TPM Protection](https://blog.elcomsoft.com/2021/01/understanding-BitLocker-tpm-protection/).
+    **BitLocker** es la solución de cifrado de volumen completo incluida con Microsoft Windows. La principal razón por la que recomendamos utilizarlo para encriptar la unidad de arranque, es por su [uso de TPM](https://docs.microsoft.com/en-us/windows/security/information-protection/tpm/how-windows-uses-the-tpm). ElcomSoft, una compañía forense, ha publicado sobre esta característica en [Understanding BitLocker TPM Protection](https://blog.elcomsoft.com/2021/01/understanding-BitLocker-tpm-protection/).
     
     [:octicons-info-16:](https://docs.microsoft.com/en-us/windows/security/information-protection/BitLocker/BitLocker-overview){ .card-link title=Documentación}
 
