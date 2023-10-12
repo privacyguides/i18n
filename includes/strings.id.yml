@@ -1,7 +1,7 @@
 #The strings in these files need to be copied MANUALLY to /config/mkdocs.LANG.yml
 #This file exists just so these strings can be originally translated on Crowdin.
 config:
-  description: Privacy Guides adalah sentral dari sumber informasi mengenai privasi dan keamanan untuk melindungi Anda secara online.
+  description: Privacy Guides adalah sumber daya privasi dan keamanan Anda untuk melindungi Anda secara daring.
   copyright:
     - 
       1: |
@@ -27,27 +27,27 @@ config:
     light: Ubah ke mode terang
     system: Ubah ke tema sistem
 nav:
-  Home: Home
-  Knowledge Base: Knowledge Base
-  Technology Essentials: Technology Essentials
+  Home: Beranda
+  Knowledge Base: Dasar Pengetahuan
+  Technology Essentials: Hal-hal Penting tentang Teknologi
   Operating Systems: Sistem Operasi
-  Advanced Topics: Advanced Topics
-  Recommendations: Recommendations
-  Internet Browsing: Internet Browsing
+  Advanced Topics: Topik Lanjutan
+  Recommendations: Rekomendasi
+  Internet Browsing: Penjelajahan Internet
   Providers: Providers
   Software: Perangkat lunak
-  About: About
-  Community: Community
+  About: Tentang
+  Community: Komunitas
   Online Services: Layanan Daring
-  Code of Conduct: Code of Conduct
-  Contributing: Contributing
-  Writing Guide: Writing Guide
-  Technical Guides: Technical Guides
-  Changelog: Changelog
+  Code of Conduct: Kode Etik
+  Contributing: Berkontribusi
+  Writing Guide: Panduan Penulisan
+  Technical Guides: Panduan Teknis
+  Changelog: Catatan Perubahan
   Forum: Forum
   Blog: Blog
 site:
   homepage_card: |
-    A socially motivated website which provides information about protecting your online data privacy and security.
+    Situs web bermotif sosial yang menyediakan informasi tentang perlindungan privasi dan keamanan data daring Anda.
   translation: |
-    You're viewing the English copy of Privacy Guides, translated by our fantastic language team on Crowdin. If you notice an error, or see any untranslated sections on this page, please consider helping out! For more information and tips see our translation guide.
+    Anda sedang melihat versi bahasa Inggris dari Privacy Guides, yang diterjemahkan oleh tim bahasa kami yang luar biasa di Crowdin. Jika Anda menemukan kesalahan, atau melihat bagian yang belum diterjemahkan di halaman ini, mohon pertimbangkan untuk membantu! Untuk informasi dan tips lebih lanjut, lihat panduan penerjemahan kami.

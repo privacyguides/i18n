@@ -1,14 +1,14 @@
 ---
 meta_title: "Browser Web yang Menghargai Privasi untuk PC dan Mac - Privacy Guides"
-title: "Browser Dekstop"
+title: "Peramban Komputer"
 icon: material/laptop
-description: Browser web ini memberikan perlindungan privasi yang lebih kuat daripada Google Chrome.
+description: Peramban web ini memberikan perlindungan privasi yang lebih kuat daripada Google Chrome.
 cover: desktop-browsers.webp
 schema:
   - 
     "@context": http://schema.org
     "@type": WebPage
-    name: Rekomendasi Browser Desktop Pribadi
+    name: Rekomendasi Peramban Komputer Pribadi
     url: "./"
     relatedLink: "../mobile-browsers/"
   - 
@@ -31,7 +31,7 @@ schema:
     name: Firefox
     image: /assets/img/browsers/firefox.svg
     url: https://firefox.com
-    sameAs: https://en.wikipedia.org/wiki/Firefox
+    sameAs: https://id.wikipedia.org/wiki/Firefox
     applicationCategory: Web Browser
     operatingSystem:
       - Windows
@@ -46,7 +46,7 @@ schema:
     name: Brave
     image: /assets/img/browsers/brave.svg
     url: https://brave.com
-    sameAs: https://en.wikipedia.org/wiki/Brave_(web_browser)
+    sameAs: https://id.wikipedia.org/wiki/Brave_(peramban_web)
     applicationCategory: Web Browser
     operatingSystem:
       - Windows
@@ -57,9 +57,9 @@ schema:
       url: "./"
 ---
 
-Berikut ini adalah browser web desktop yang kami rekomendasikan saat ini beserta dengan konfigurasi untuk penjelajahan standar/non-anonim. Kami merekomendasikan [Mullvad Browser](#mullvad-browser) jika Anda berfokus pada perlindungan privasi yang kuat dan anti-fingerprinting otomatis, [Firefox](#firefox) bagi para penjelajah internet biasa yang mencari alternatif baik untuk Google Chrome, dan [Brave](#brave) jika Anda membutuhkan kompabilitas browser Chromium.
+Berikut ini adalah peramban web komputer yang kami rekomendasikan saat ini beserta dengan konfigurasi untuk penjelajahan standar/nonanonim. Kami merekomendasikan [Mullvad Browser](#mullvad-browser) jika Anda berfokus pada perlindungan privasi yang kuat dan anti-fingerprinting otomatis, [Firefox](#firefox) bagi para penjelajah internet biasa yang mencari alternatif baik untuk Google Chrome, dan [Brave](#brave) jika Anda membutuhkan kompabilitas browser Chromium.
 
-Jika Anda perlu menjelajah internet secara anonim, Anda sebaiknya menggunakan [Tor](tor.md) sebagai gantinya. Kami memberikan beberapa rekomendasi konfigurasi pada halaman ini, tetapi semua browser selain Peramban Tor akan dapat dilacak oleh * seseorang* dengan satu cara atau cara lain.
+Jika Anda perlu menjelajah internet secara anonim, Anda sebaiknya menggunakan [Tor](tor.md) saja. Kami memberikan beberapa rekomendasi konfigurasi di halaman ini, tetapi semua browser selain Tor Browser akan dapat dilacak oleh * seseorang* dengan suatu cara.
 
 ## Mullvad Browser
 
@@ -74,7 +74,7 @@ Jika Anda perlu menjelajah internet secara anonim, Anda sebaiknya menggunakan [T
     [:octicons-info-16:](https://mullvad.net/en/help/tag/mullvad-browser/){ .card-link title=Documentation}
     [:octicons-code-16:](https://gitlab.torproject.org/tpo/applications/mullvad-browser){ .card-link title="Kode Sumber" }
     
-    ??? downloads
+    ??? unduhan
     
         - [:simple-windows11: Windows](https://mullvad.net/en/download/browser/windows)
         - [:simple-apple: macOS](https://mullvad.net/en/download/browser/macos)
@@ -100,23 +100,23 @@ Hal ini diperlukan untuk mencegah bentuk pelacakan tingkat lanjut, tetapi harus 
 
 ### Mullvad Leta
 
-Mullvad Browser hadir dengan DuckDuckGo yang ditetapkan sebagai mesin pencari default [](search-engines.md), tetapi juga sudah terinstal dengan **Mullvad Leta**, mesin pencari yang membutuhkan langganan Mullvad VPN yang aktif untuk mengaksesnya. Mullvad Leta menggunakan API pencarian berbayar Google secara langsung (itulah sebabnya mengapa terbatas pada pelanggan berbayar), namun karena keterbatasan ini, Mullvad dapat menghubungkan pencarian dan akun VPN Mullvad. Karena alasan ini kami tidak menyarankan penggunaan Mullvad Leta, meskipun Mullvad mengumpulkan sangat sedikit informasi tentang pelanggan VPN mereka.
+Mullvad Browser hadir dengan DuckDuckGo yang ditetapkan sebagai [mesin pencari](search-engines.md) bawaan, tetapi juga sudah terinstal dengan **Mullvad Leta**, mesin pencari yang membutuhkan langganan Mullvad VPN yang aktif untuk dapat mengaksesnya. Mullvad Leta menggunakan API pencarian berbayar Google secara langsung (itulah sebabnya mengapa terbatas pada pelanggan berbayar), namun karena keterbatasan ini, Mullvad dapat menghubungkan pencarian dan akun VPN Mullvad. Karena alasan ini kami tidak menyarankan penggunaan Mullvad Leta, meskipun Mullvad mengumpulkan sangat sedikit informasi tentang pelanggan VPN mereka.
 
 ## Firefox
 
 !!! recommendation
 
-    ![Firefox logo](assets/img/browsers/firefox.svg){ align=right }
+    ![Logo Firefox](assets/img/browsers/firefox.svg){ align=right }
     
-    **Firefox** provides strong privacy settings such as [Enhanced Tracking Protection](https://support.mozilla.org/kb/enhanced-tracking-protection-firefox-desktop), which can help block various [types of tracking](https://support.mozilla.org/kb/enhanced-tracking-protection-firefox-desktop#w_what-enhanced-tracking-protection-blocks).
+    **Firefox** menyediakan pengaturan privasi yang kuat seperti [Perlindungan Pelacakan yang Ditingkatkan](https://support.mozilla.org/kb/enhanced-tracking-protection-firefox-desktop), yang dapat membantu memblokir berbagai [jenis pelacakan](https://support.mozilla.org/kb/enhanced-tracking-protection-firefox-desktop#w_what-enhanced-tracking-protection-blocks).
     
-    [:octicons-home-16: Homepage](https://firefox.com){ .md-button .md-button--primary }
-    [:octicons-eye-16:](https://www.mozilla.org/privacy/firefox/){ .card-link title="Privacy Policy" }
-    [:octicons-info-16:](https://firefox-source-docs.mozilla.org/){ .card-link title=Documentation}
-    [:octicons-code-16:](https://hg.mozilla.org/mozilla-central){ .card-link title="Source Code" }
-    [:octicons-heart-16:](https://donate.mozilla.org/){ .card-link title=Contribute }
+    [:octicons-home-16: Beranda](https://firefox.com){ .md-button .md-button--primary }
+    [:octicons-eye-16:](https://www.mozilla.org/privacy/firefox/){ .card-link title="Kebijakan Privasi" }
+    [:octicons-info-16:](https://firefox-source-docs.mozilla.org/){ .card-link title=Dokumentasi}
+    [:octicons-code-16:](https://hg.mozilla.org/mozilla-central){ .card-link title="Kode Sumber" }
+    [:octicons-heart-16:](https://donate.mozilla.org/){ .card-link title=Kontribusi }
     
-    ??? downloads
+    ??? unduhan
     
         - [:simple-windows11: Windows](https://www.mozilla.org/firefox/windows)
         - [:simple-apple: macOS](https://www.mozilla.org/firefox/mac)
@@ -124,7 +124,7 @@ Mullvad Browser hadir dengan DuckDuckGo yang ditetapkan sebagai mesin pencari de
         - [:simple-flathub: Flathub](https://flathub.org/apps/details/org.mozilla.firefox)
 
 !!! warning
-    Firefox includes a unique [download token](https://bugzilla.mozilla.org/show_bug.cgi?id=1677497#c0) in downloads from Mozilla's website and uses telemetry in Firefox to send the token. The token is **not** included in releases from the [Mozilla FTP](https://ftp.mozilla.org/pub/firefox/releases/).
+    Firefox includes a unique [download token](https://bugzilla.mozilla.org/show_bug.cgi?id=1677497#c0) in downloads from Mozilla's website and uses telemetry in Firefox to send the token. Tokennya **tidak** disertakan dalam rilis dari [Mozilla FTP](https://ftp.mozilla.org/pub/firefox/releases/).
 
 ### Konfigurasi yang Disarankan
 
