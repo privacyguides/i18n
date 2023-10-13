@@ -1,7 +1,7 @@
 ---
 meta_title: "Android Recommendations: GrapheneOS and DivestOS - Privacy Guides"
-title: "অ্যান্ড্রয়েড"
-icon: 'ফন্টঅ্যাওসাম/ ব্র্যান্ড / অ্যান্ড্রয়েড'
+title: "Android"
+icon: 'simple/android'
 description: You can replace the operating system on your Android phone with these secure and privacy-respecting alternatives.
 cover: android.webp
 schema:
@@ -13,7 +13,7 @@ schema:
   - 
     "@context": http://schema.org
     "@type": CreativeWork
-    name: অ্যান্ড্রয়েড
+    name: Android
     image: /assets/img/android/android.svg
     url: https://source.android.com/
     sameAs: https://en.wikipedia.org/wiki/Android_(operating_system)
@@ -58,25 +58,25 @@ schema:
     "@type": MobileApplication
     name: Shelter
     applicationCategory: Utilities
-    operatingSystem: অ্যান্ড্রয়েড
+    operatingSystem: Android
   - 
     "@context": http://schema.org
     "@type": MobileApplication
     name: Auditor
     applicationCategory: Utilities
-    operatingSystem: অ্যান্ড্রয়েড
+    operatingSystem: Android
   - 
     "@context": http://schema.org
     "@type": MobileApplication
     name: Secure Camera
     applicationCategory: Utilities
-    operatingSystem: অ্যান্ড্রয়েড
+    operatingSystem: Android
   - 
     "@context": http://schema.org
     "@type": MobileApplication
     name: Secure PDF Viewer
     applicationCategory: Utilities
-    operatingSystem: অ্যান্ড্রয়েড
+    operatingSystem: Android
 ---
 
 ![Android logo](assets/img/android/android.svg){ align=right }
@@ -87,17 +87,17 @@ The **Android Open Source Project** is an open-source mobile operating system le
 [:octicons-info-16:](https://source.android.com/docs){ .card-link title=Documentation}
 [:octicons-code-16:](https://cs.android.com/android/platform/superproject/){ .card-link title="Source Code" }
 
-These are the Android operating systems, devices, and apps we recommend to maximize your mobile device's security and privacy. রেকমেন্ডেশন
+These are the Android operating systems, devices, and apps we recommend to maximize your mobile device's security and privacy. To learn more about Android:
 
 [General Android Overview :material-arrow-right-drop-circle:](os/android-overview.md ""){.md-button}
 
-## AOSP এর ডেরিভেটিভস্
+## AOSP Derivatives
 
 We recommend installing one of these custom Android operating systems on your device, listed in order of preference, depending on your device's compatibility with these operating systems.
 
 !!! note
 
-    পুরোনো ডিভাইসগুলিতে (যেমন GrapheneOS CalyxOS এর "extended support" ডিভাইসগুলো) সম্পুর্ন সিকিউরিটি থাকে না, OEM সাপোর্ট দেওয়া বন্ধ করে দেওয়ার জন্য। যেকোনো সফটওয়্যার ইনস্টলড থাকুক না কেনো এইসমস্ত ডিভাইসগুলো কে কখনোই সম্পূর্ণ ভাবে নিরাপদ বিবেচনা করা যাবে না
+    End-of-life devices (such as GrapheneOS or CalyxOS's "extended support" devices) do not have full security patches (firmware updates) due to the OEM discontinuing support. These devices cannot be considered completely secure regardless of installed software.
 
 ### GrapheneOS
 
@@ -106,9 +106,9 @@ We recommend installing one of these custom Android operating systems on your de
     ![GrapheneOS logo](assets/img/android/grapheneos.svg#only-light){ align=right }
     ![GrapheneOS logo](assets/img/android/grapheneos-dark.svg#only-dark){ align=right }
     
-    প্রাইভেসি এবং সিকিউরিটি এর জন্য **GrapheneOS**  সবথেকে ভালো।
+    **GrapheneOS** is the best choice when it comes to privacy and security.
     
-    GrapheneOS তে কিছু বাড়তি [সিকিউরিটি](https://en.wikipedia.org/wiki/Hardening_(computing)) এবং প্রাইভেসি রয়েছে। It has a [hardened memory allocator](https://github.com/GrapheneOS/hardened_malloc), network and sensor permissions, and various other [security features](https://grapheneos.org/features). GrapheneOS also comes with full firmware updates and signed builds, so verified boot is fully supported.
+    GrapheneOS provides additional [security hardening](https://en.wikipedia.org/wiki/Hardening_(computing)) and privacy improvements. It has a [hardened memory allocator](https://github.com/GrapheneOS/hardened_malloc), network and sensor permissions, and various other [security features](https://grapheneos.org/features). GrapheneOS also comes with full firmware updates and signed builds, so verified boot is fully supported.
     
     [:octicons-home-16: Homepage](https://grapheneos.org/){ .md-button .md-button--primary }
     [:octicons-eye-16:](https://grapheneos.org/faq#privacy-policy){ .card-link title="Privacy Policy" }

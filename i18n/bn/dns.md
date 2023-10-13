@@ -35,7 +35,7 @@ Encrypted DNS with third-party servers should only be used to get around basic [
 
 ## Native Operating System Support
 
-### অ্যান্ড্রয়েড
+### Android
 
 Android 9 and above support DNS over TLS. The settings can be found in: **Settings** &rarr; **Network & Internet** &rarr; **Private DNS**.
 

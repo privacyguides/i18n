@@ -1,8 +1,8 @@
-*[2FA]: 2-Factor Authentication
-*[ADB]: Android Debug Bridge
-*[AOSP]: Android Open Source Project
-*[ATA]: Advanced Technology Attachment
-*[attack surface]: The total number of possible entry points for unauthorized access to a system
+*[২এফএ]: ২-ধাপ প্রমাণীকরণ
+*[এডিবি]: অ্যান্ড্রয়েড ডিবাগ ব্রিজ
+*[এওএসপি]: অ্যান্ড্রয়েড মুক্ত উৎস প্রকল্প
+*[এটিএ]: অ্যাডভান্সড টেকনোলজি অ্যাটাচমেন্ট
+*[অ্যাটাক সার্ফেস]: The total number of possible entry points for unauthorized access to a system
 *[AVB]: Android Verified Boot
 *[cgroups]: Control Groups
 *[CLI]: Command Line Interface

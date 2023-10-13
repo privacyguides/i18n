@@ -104,7 +104,7 @@ BitLocker es [únicamente compatible](https://support.microsoft.com/en-us/window
 
 ??? example "Habilitación de BitLocker en Windows Home"
 
-    Para habilitar BitLocker en las ediciones "Home" de Windows, debe tener particiones formateadas con una [tabla de partición GUID](https://es.wikipedia.org/wiki/Tabla_de_particiones_GUID) y tener un módulo TPM (v1.2, 2.0+) dedicado. You may need to [disable the non-Bitlocker "Device encryption" functionality](https://discuss.privacyguides.net/t/enabling-bitlocker-on-the-windows-11-home-edition/13303/5) (which is inferior because it sends your recovery key to Microsoft's servers) if it is enabled on your device already before following this guide.
+    Para habilitar BitLocker en las ediciones "Home" de Windows, debe tener particiones formateadas con una [tabla de partición GUID](https://es.wikipedia.org/wiki/Tabla_de_particiones_GUID) y tener un módulo TPM (v1.2, 2.0+) dedicado. Puede que necesite [desactivar la característica del "Cifrado de dispositivo" que no es de Bitlocker](https://discuss.privacyguides.net/t/enabling-bitlocker-on-the-windows-11-home-edition/13303/5) (que es inferior porque envía tu clave de recuperación a los servidores de Microsoft) si ya está activado en su dispositivo antes de seguir esta guía.
 
     1. Abra un símbolo del sistema y verifique el formato de la tabla de particiones de su unidad con el siguiente comando. Debería ver "**GPT**" listado bajo "Partition Style":
 

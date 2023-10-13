@@ -6,39 +6,39 @@ description: MFA is a critical security mechanism for securing your online accou
 
 **Multi-Factor Authentication** (**MFA**) is a security mechanism that requires additional steps beyond entering your username (or email) and password. The most common method is time limited codes you might receive from SMS or an app.
 
-সাধারণত, যদি কোনো হ্যাকার (বা শত্রু) আপনার পাসওয়ার্ড ডিক্রিপ্ট করতে সক্ষম হয় তাহলে তারা যে অ্যাকাউন্টে ওই পাসওয়ার্ড আছে সেটিতে প্রবেশ করতে সক্ষম হবে। MFA আছে এমন একটি অ্যাকাউন্ট-এর  ক্ষেত্রে হ্যাকারকে পাসওয়ার্ড ( যা আপনি *জানেন*) এবং আপনার মালিকানাধীন একটি ডিভাইস (যা আপনার *কাছে আছে*), যেমন আপনার ফোন,উভয়ই থাকলে তবে হ্যাকার হ্যাক করতে সক্ষম হবে।
+Normally, if a hacker (or adversary) is able to figure out your password then they’d gain access to the account that password belongs to. An account with MFA forces the hacker to have both the password (something you *know*) and a device that you own (something you *have*), like your phone.
 
-MFA পদ্ধতিগুলির নিরাপত্তা বিভিন্নরকম হতে পারে ,আক্রমণকারীর পক্ষে আপনার MFA পদ্ধতিতে অ্যাক্সেস লাভ করা যত কঠিন, ততই ভালো। Examples of MFA methods (from weakest to strongest) include SMS, Email codes, app push notifications, TOTP, Yubico OTP and FIDO.
+MFA methods vary in security, but are based on the premise that the more difficult it is for an attacker to gain access to your MFA method, the better. Examples of MFA methods (from weakest to strongest) include SMS, Email codes, app push notifications, TOTP, Yubico OTP and FIDO.
 
-## MFA পদ্ধতিগুলির তুলনা
+## MFA Method Comparison
 
-### এসএমএস বা ইমেইল MFA
+### SMS or Email MFA
 
-এসএমএস বা ইমেলের ওটিপি কোডগুলির মাধ্যমে MFA-এর ব্যবহার অ্যাকাউন্টগুলিকে সুরক্ষিত করার একটি দুর্বল উপায়৷ ইমেল বা এসএমএস-এর মাধ্যমে কোড পাওয়া "যা আপনার *আছে*" ধারণা থেকে দূরে সরে যায়, কারণ হ্যাকার বিভিন্ন রকম ভাবে আপনার [ফোন নম্বর দখল করতে পারে](https://en.wikipedia.org/wiki/SIM_swap_scam) বা আপনার কোনো ডিভাইস স্পর্শ না করেই আপনার ইমেলে অ্যাক্সেস পেতে পারে। যদি কোনো অননুমোদিত ব্যক্তি আপনার ইমেলের অ্যাক্সেস লাভ করে, তাহলে তারা আপনার সেই ইমেইল ব্যবহার করে পাসওয়ার্ড রিসেট করতে পারে এবং অথেনটিকেশন কোড পেতে পারে, যা শেষ পর্যন্ত তাকে আপনার একাউন্ট-এর সম্পূর্ণ এক্সেস দেবে।
+Receiving OTP codes via SMS or email are one of the weaker ways to secure your accounts with MFA. Obtaining a code by email or SMS takes away from the "something you *have*" idea, because there are a variety of ways a hacker could [take over your phone number](https://en.wikipedia.org/wiki/SIM_swap_scam) or gain access to your email without having physical access to any of your devices at all. If an unauthorized person gained access to your email, they would be able to use that access to both reset your password and receive the authentication code, giving them full access to your account.
 
-### মোবাইলের নোটিফিকেশন
+### Push Notifications
 
-পুশ নোটিফিকেশন MFA এমন একটা পদ্ধতি যেখানে আপনার ফোনের একটি অ্যাপে নোটিফিকেশন পাঠানো হয়, যাতে আপনাকে নতুন অ্যাকাউন্ট লগইন নিশ্চিত করতে বলে। এই পদ্ধতিটি এসএমএস বা ইমেলের চেয়ে তুলনামূলকভাবে অনেক ভালো, যেহেতু একজন আক্রমণকারী সাধারণত  লগগড -ইন করা ডিভাইস ছাড়া এই নোটিফিকেশনগুলি পেতে সক্ষম হবে না, যার মানে তাদের প্রথমে আপনার অন্য ডিভাইসগুলির মধ্যে একটিকে হ্যাক করতে হবে ৷
+Push notification MFA takes the form of a message being sent to an app on your phone asking you to confirm new account logins. This method is a lot better than SMS or email, since an attacker typically wouldn't be able to get these push notifications without having an already logged-in device, which means they would need to compromise one of your other devices first.
 
-আমরা প্রত্যেকেই ভুল করি, এবং আপনি অন্যমনস্কতাবশত লগইন এপ্রুভ করে দিতে পারেন তার সম্ভাবনা রয়েছে। লগইন এর জন্য নোটিফিকেশনগুলি সাধারণত আপনার *সমস্ত ডিভাইসে* একসঙ্গে পাঠানো হয়, যদি আপনার অনেকগুলি ডিভাইস থাকে তবে তা MFA কোড পাওয়ার সম্ভাবনা বৃদ্ধি করে৷
+We all make mistakes, and there is the risk that you might accept the login attempt by accident. Push notification login authorizations are typically sent to *all* your devices at once, widening the availability of the MFA code if you have many devices.
 
-পুশ নোটিফিকেশন MFA -এর নিরাপত্তা অ্যাপের গুণমান, সার্ভারের, এবং এটি তৈরিকারী ব্যাক্তির ওপর নির্ভর করে। একটি অ্যাপ্লিকেশন ইনস্টল করার অর্থ হল যে আপনাকে প্রায়ই ক্ষতিকারক পারমিশনগুলি একসেপ্ট করতে হবে, যা ওই অ্যাপ্লিকেশনকে ডিভাইসের অন্যান্য ডেটা অ্যাক্সেস করার অনুমতি দেয়৷ অনেক সময় বিভিন্ন পরিষেবার জন্য আপনাকে বিভিন্ন এপ্লিকেশন ইনস্টল করতে হতে পারে, সেই এপ্লিকেশন টি আবার কোনো পাসওয়ার্ড ছাড়াই ওপেন হতে পারে, যা মোটেও ভালো TOTP জেনারেটার এপ্লিকেশন এর লক্ষণ নয়।
+The security of push notification MFA is dependent on both the quality of the app, the server component and the trust of the developer who produces it. Installing an app may also require you to accept invasive privileges that grant access to other data on your device. An individual app also requires that you have a specific app for each service which may not require a password to open, unlike a good TOTP generator app.
 
-### সময়-সাপেক্ষ ওয়ান-টাইম পাসওয়ার্ড (TOTP)
+### Time-based One-time Password (TOTP)
 
-TOTP is one of the most common forms of MFA available. When you set up TOTP, you are generally required to scan a [QR Code](https://en.wikipedia.org/wiki/QR_code) which establishes a "[shared secret](https://en.wikipedia.org/wiki/Shared_secret)" with the service that you intend to use. শেয়ার্ড সিক্রেট অথেনটিকেশন অ্যাপের ভিতরে সুরক্ষিত থাকে এবং কখনও কখনও পাসওয়ার্ড দ্বারা সুরক্ষিত থাকে।
+TOTP is one of the most common forms of MFA available. When you set up TOTP, you are generally required to scan a [QR Code](https://en.wikipedia.org/wiki/QR_code) which establishes a "[shared secret](https://en.wikipedia.org/wiki/Shared_secret)" with the service that you intend to use. The shared secret is secured inside of the authenticator app's data, and is sometimes protected by a password.
 
-সময়-সাপেক্ষ কোড তারপর শেয়ার্ড সিক্রেট এবং সময় থেকে জেনারেট হয়। As the code is only valid for a short time, without access to the shared secret, an adversary cannot generate new codes.
+The time-limited code is then derived from the shared secret and the current time. As the code is only valid for a short time, without access to the shared secret, an adversary cannot generate new codes.
 
-যদি আপনার কাছে TOTP সহ একটি হার্ডওয়্যার সিকিউরিটি কী থাকে (যেমন Yubico অথেন্টিকেটর সাথে একটি YubiKey), আমরা সুপারিশ করি যে আপনি হার্ডওয়্যারে আপনার "শেয়ার্ড সিক্রেট " রাখুন৷ YubiKey-এর মতো হার্ডওয়্যার এমনভাবে তৈরী করা হয়েছিল যাতে "শেয়ারড সিক্রেট" বের করা এবং কপি করা কঠিন হয় একটি YubiKey ইন্টারনেটের সাথে যুক্ত থাকে না, কিন্তু TOTP যুক্ত একটি ফোন ইন্টারনেট এর সাথে যুক্ত থাকে।
+If you have a hardware security key with TOTP support (such as a YubiKey with [Yubico Authenticator](https://www.yubico.com/products/yubico-authenticator/)), we recommend that you store your "shared secrets" on the hardware. Hardware such as the YubiKey was developed with the intention of making the "shared secret" difficult to extract and copy. A YubiKey is also not connected to the Internet, unlike a phone with a TOTP app.
 
-[WebAuthn](#fido-fast-identity-online) এর অপরপক্ষে TOTP [ফিশিং](https://en.wikipedia.org/wiki/Phishing) বা রি-উজ এটাক এর বিরুদ্ধে কোন সুরক্ষা প্রদান করে না। If an adversary obtains a valid code from you, they may use it as many times as they like until it expires (generally 60 seconds).
+Unlike [WebAuthn](#fido-fast-identity-online), TOTP offers no protection against [phishing](https://en.wikipedia.org/wiki/Phishing) or reuse attacks. If an adversary obtains a valid code from you, they may use it as many times as they like until it expires (generally 60 seconds).
 
-আপনার উজার-নেম, পাসওয়ার্ড এবং বর্তমান TOTP কোড হাতানোর জন্য, আপনাকে প্রতারণা করার চেষ্টায় একজন আক্ক্রমণকারী একটি অফিসিয়াল পরিষেবার অনুকরণ করে একটি ওয়েবসাইট সেট আপ করতে পারে। আক্রমণকারী সেই রেকর্ড করা তথ্যগুলি ব্যবহার করে প্রকৃত পরিষেবাতে লগ ইন করতে এবং অ্যাকাউন্ট হাইজ্যাক করতে সক্ষম হতে পারে।
+An adversary could set up a website to imitate an official service in an attempt to trick you into giving out your username, password and current TOTP code. If the adversary then uses those recorded credentials they may be able to log into the real service and hijack the account.
 
 Although not perfect, TOTP is secure enough for most people, and when [hardware security keys](../multi-factor-authentication.md#hardware-security-keys) are not supported [authenticator apps](../multi-factor-authentication.md#authenticator-apps) are still a good option.
 
-### হার্ডওয়্যার সিকিউরিটি কী
+### Hardware security keys
 
 The YubiKey stores data on a tamper-resistant solid-state chip which is [impossible to access](https://security.stackexchange.com/a/245772) non-destructively without an expensive process and a forensics laboratory.
 
@@ -156,7 +156,7 @@ Qubes OS has support for Challenge-Response authentication with YubiKeys. If you
 
 SSH MFA could be set up using multiple different authentication methods that are popular with hardware security keys. We recommend that you check out Yubico's [documentation](https://developers.yubico.com/SSH/) on how to set this up.
 
-#### সময়-সাপেক্ষ ওয়ান-টাইম পাসওয়ার্ড (TOTP)
+#### Time-based One-time Password (TOTP)
 
 SSH MFA can also be set up using TOTP. DigitalOcean has provided a tutorial [How To Set Up Multi-Factor Authentication for SSH on Ubuntu 20.04](https://www.digitalocean.com/community/tutorials/how-to-set-up-multi-factor-authentication-for-ssh-on-ubuntu-20-04). Most things should be the same regardless of distribution, however the package manager commands—such as `apt-get`—and package names may differ.
 

@@ -7,7 +7,7 @@ description: Balancing security, privacy, and usability is one of the first and 
 
 Balancing security, privacy, and usability is one of the first and most difficult tasks you'll face on your privacy journey. Everything is a trade-off: The more secure something is, the more restricting or inconvenient it generally is, etc. Often, people find that the problem with the tools they see recommended is that they're just too hard to start using!
 
-যদি আপনি **সবথেকে** সিকিউর সফটও়্যারগুলো ব্যাবহার করতে চান আপনাকে *কিছু* ব্যবহারযোগ্যতা বিসর্জন দিতে হবে। And, even then, ==nothing is ever fully secure.== There's **high** security, but never **full** security. একারণে থ্রেট মডেল তৈরি করা জরুরি।
+If you wanted to use the **most** secure tools available, you'd have to sacrifice *a lot* of usability. And, even then, ==nothing is ever fully secure.== There's **high** security, but never **full** security. That's why threat models are important.
 
 **So, what are these threat models, anyway?**
 
@@ -19,19 +19,19 @@ Focusing on the threats that matter to you narrows down your thinking about the 
 
 To identify what could happen to the things you value and determine from whom you need to protect them, you should answer these five questions:
 
-1. আমি কি রক্ষা করতে চাই?
-2. কার থেকে আমি রক্ষা করতে চাই?
-3. এটি আমার কতটা রক্ষা করা প্রয়োজন?
-4. আমি ব্যর্থ হলে পরিণতি কতটা খারাপ?
-5. সম্ভাব্য ফল রোধ করার জন্য আমি কতটা সমস্যার মধ্য দিয়ে যেতে ইচ্ছুক?
+1. What do I want to protect?
+2. Who do I want to protect it from?
+3. How likely is it that I will need to protect it?
+4. How bad are the consequences if I fail?
+5. How much trouble am I willing to go through to try to prevent potential consequences?
 
-### আমি কি রক্ষা করতে চাই?
+### What do I want to protect?
 
 An “asset” is something you value and want to protect. In the context of digital security, ==an asset is usually some kind of information.== For example, your emails, contact lists, instant messages, location, and files are all possible assets. Your devices themselves may also be assets.
 
 *Make a list of your assets: data that you keep, where it's kept, who has access to it, and what stops others from accessing it.*
 
-### কার থেকে আমি রক্ষা করতে চাই?
+### Who do I want to protect it from?
 
 To answer this question, it's important to identify who might want to target you or your information. ==A person or entity that poses a threat to your assets is an “adversary”.== Examples of potential adversaries are your boss, your former partner, your business competition, your government, or a hacker on a public network.
 
@@ -39,7 +39,7 @@ To answer this question, it's important to identify who might want to target you
 
 Depending on who your adversaries are, under some circumstances, this list might be something you want to destroy after you're done security planning.
 
-### এটি আমার কতটা রক্ষা করা প্রয়োজন?
+### How likely is it that I will need to protect it?
 
 ==Risk is the likelihood that a particular threat against a particular asset will actually occur.== It goes hand-in-hand with capability. While your mobile phone provider has the capability to access all of your data, the risk of them posting your private data online to harm your reputation is low.
 
@@ -49,7 +49,7 @@ Assessing risks is both a personal and subjective process. Many people find cert
 
 *Write down which threats you are going to take seriously, and which may be too rare or too harmless (or too difficult to combat) to worry about.*
 
-### আমি ব্যর্থ হলে পরিণতি কতটা খারাপ?
+### How bad are the consequences if I fail?
 
 There are many ways that an adversary could gain access to your data. For example, an adversary can read your private communications as they pass through the network, or they can delete or corrupt your data.
 
@@ -59,7 +59,7 @@ Security planning involves understanding how bad the consequences could be if an
 
 *Write down what your adversary might want to do with your private data.*
 
-### সম্ভাব্য ফল রোধ করার জন্য আমি কতটা সমস্যার মধ্য দিয়ে যেতে ইচ্ছুক?
+### How much trouble am I willing to go through to try to prevent potential consequences?
 
 ==There is no perfect option for security.== Not everyone has the same priorities, concerns, or access to resources. Your risk assessment will allow you to plan the right strategy for you, balancing convenience, cost, and privacy.
 
@@ -71,32 +71,32 @@ For example, an attorney representing a client in a national security case may b
 
 These questions can apply to a wide variety of situations, online and offline. As a generic demonstration of how these questions work, let's build a plan to keep your house and possessions safe.
 
-**আপনি কি রক্ষা করতে চান? (অথবা, *আপনার কাছে কি এমন জিনিস আছে যা রক্ষা করার দরকার?*)**
+**What do you want to protect? (Or, *what do you have that is worth protecting?*)**
 :
 
-আপনার জিনিসপত্র এর মধ্যে গয়না, ইলেকট্রনিকস, গুরুত্বপূর্ণ কাগজপত্র অথবা ফটো পড়তে পারে। 
+Your assets might include jewelry, electronics, important documents, or photos.
 
-**কার থেকে আপনি রক্ষা করতে চান?**
+**Who do you want to protect it from?**
 :
 
-আপনার সিকিউরিটি এর আক্রমণকারী ডাকাত, রুমমেট বা অতিথি হতে পারে।
+Your adversaries might include burglars, roommates, or guests.
 
-**আপনাকে রক্ষা করতে হবে তার সম্ভাবনা কত?**
+**How likely is it that you will need to protect it?**
 :
 
-আপনার আশেপাশে কি চুরির ইতিহাস আছে? How trustworthy are your roommates or guests? আপনার প্রতিপক্ষের ক্ষমতা কি? আপনার কী কী ঝুঁকি বিবেচনা করা উচিত?
+Does your neighborhood have a history of burglaries? How trustworthy are your roommates or guests? What are the capabilities of your adversaries? What are the risks you should consider?
 
-**আপনি ব্যর্থ হলে পরিণতি কতটা খারাপ?**
+**How bad are the consequences if you fail?**
 :
 
-আপনার বাড়িতে এমন কিছু আছে যা আপনি অন্য কিছু দিয়ে পরিবর্তন করতে পারবেন না? Do you have the time or money to replace those things? আপনার কি বীমা আছে যা আপনার বাড়ি থেকে চুরি হওয়া জিনিসগুলি কভার করে?
+Do you have anything in your house that you cannot replace? Do you have the time or money to replace those things? Do you have insurance that covers goods stolen from your home?
 
-**সম্ভাব্য ফল রোধ করার জন্য আপনি কতটা সমস্যার মধ্য দিয়ে যেতে ইচ্ছুক?**
+**How much trouble are you willing to go through to prevent these consequences?**
 :
 
-আপনি সংবেদনশীল নথি রাখার জন্য একটি সেফ কিনতে ইচ্ছুক? আপনি কি একটি উচ্চ মানের তালা কিনতে সামর্থ্য? আপনার কি স্থানীয় ব্যাঙ্কে কোনও সিকিউরিটি বাক্স খোলার এবং সেখানে আপনার মূল্যবান জিনিসপত্র রাখার সময় আছে?
+Are you willing to buy a safe for sensitive documents? Can you afford to buy a high-quality lock? Do you have time to open a security box at your local bank and keep your valuables there?
 
-আপনি একবার নিজেকে এই প্রশ্নগুলি জিজ্ঞাসা করলে আপনি কী পদক্ষেপ নেবেন তা বুঝতে পারবেন। যদি আপনার জিনিসপত্রগুলো দামী হয়, কিন্তু ডাকাতি হওয়ার সম্ভাবনা কম, তাহলে বেশি টাকা তলাতে খরচ করার দরকার হবে না। But, if the probability of a break-in is high, you'll want to get the best lock on the market and consider adding a security system.
+Only once you have asked yourself these questions will you be in a position to assess what measures to take. If your possessions are valuable, but the probability of a break-in is low, then you may not want to invest too much money in a lock. But, if the probability of a break-in is high, you'll want to get the best lock on the market and consider adding a security system.
 
 Making a security plan will help you to understand the threats that are unique to you and to evaluate your assets, your adversaries, and your adversaries' capabilities, along with the likelihood of risks you face.
 

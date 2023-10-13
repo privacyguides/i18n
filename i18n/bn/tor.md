@@ -1,6 +1,6 @@
 ---
-meta_title: "Tor Browser and Network: Anonymous Web Browsing - Privacy Guides"
-title: "Tor Network"
+meta_title: "টর ব্রাউজার ও নেটওয়ার্ক: বেনামী ওয়েব পরিব্রাজন - প্রাইভেসি গাইডস"
+title: "টর নেটওয়ার্ক"
 icon: simple/torproject
 description: Protect your internet browsing from prying eyes by using the Tor network, a secure network which circumvents censorship.
 cover: tor.webp
@@ -17,7 +17,7 @@ schema:
       - Windows
       - macOS
       - Linux
-      - অ্যান্ড্রয়েড
+      - Android
     subjectOf:
       "@type": WebPage
       url: "./"
@@ -117,9 +117,9 @@ We previously recommended enabling the *Isolate Destination Address* preference 
     
         - [:simple-appstore: App Store](https://apps.apple.com/app/id519296448)
 
-## Relays and Bridges
+## রিলে এবং ব্রিজ
 
-### Snowflake
+### স্নোফ্লেক
 
 !!! recommendation
 

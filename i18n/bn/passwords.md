@@ -22,7 +22,7 @@ schema:
       - Windows
       - macOS
       - Linux
-      - অ্যান্ড্রয়েড
+      - Android
       - iOS
     subjectOf:
       "@context": http://schema.org
@@ -40,7 +40,7 @@ schema:
       - Windows
       - macOS
       - Linux
-      - অ্যান্ড্রয়েড
+      - Android
       - iOS
     subjectOf:
       "@context": http://schema.org
@@ -54,7 +54,7 @@ schema:
     url: https://psono.com
     applicationCategory: Password Manager
     operatingSystem:
-      - অ্যান্ড্রয়েড
+      - Android
       - iOS
     subjectOf:
       "@context": http://schema.org
@@ -83,7 +83,7 @@ schema:
     image: /assets/img/password-management/keepassdx.svg
     url: https://www.keepassdx.com/
     applicationCategory: Password Manager
-    operatingSystem: অ্যান্ড্রয়েড
+    operatingSystem: Android
     subjectOf:
       "@context": http://schema.org
       "@type": WebPage

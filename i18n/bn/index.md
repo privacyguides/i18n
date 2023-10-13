@@ -1,5 +1,5 @@
 ---
-meta_title: "Privacy Guides: Your Independent Privacy and Security Resource"
+meta_title: "প্রাইভেসি গাইড: তোমার স্বাধীন গোপনীয়তা ও নিরাপত্তা বিষয়ক তথ্যভাণ্ডার"
 template: overrides/home.bn.html
 social:
   cards_layout: home
@@ -38,19 +38,19 @@ schema:
 ---
 
 <!-- markdownlint-disable-next-line -->
-## Why should I care?
+## আমার কি যায় আসে?
 
-##### “I have nothing to hide. Why should I care about my privacy?”
+##### “আমার কিছু লুকানোর নেই। ব্যক্তিগত গোপনীয়তা নিয়ে কেন আমি ভাববো?”
 
-Much like the right to interracial marriage, woman's suffrage, freedom of speech, and many others, our right to privacy hasn't always been upheld. In several dictatorships, it still isn't. Generations before ours fought for our right to privacy. ==Privacy is a human right, inherent to all of us,== that we are entitled to (without discrimination).
+আন্তঃজাতিগত বিবাহ, নারীর অধিকার, বাকস্বাধীনতা, এবং আরো অন্যান্য বিষয়ের মতো আমাদের ব্যক্তিগত গোপনীয়তা সবসময় সম্মান করা হয়নি। অনেক স্বৈরশাসনে, তা এখনো সম্মান করা হয় না। আমাদের আগের প্রজন্ম ব্যক্তিগত গোপনীয়তার অধিকারের জন্য লড়াই করেছে। ==ব্যক্তিগত গোপনীয়তা একটি সর্বজনীন মানবাধিকার,== যেটা কোনো বৈষম্য ছাড়া আমাদের প্রাপ্য।
 
-You shouldn't confuse privacy with secrecy. We know what happens in the bathroom, but you still close the door. That's because you want privacy, not secrecy. **Everyone** has something to protect. Privacy is something that makes us human.
+ব্যক্তিগত গোপনীয়তা, গুপ্তভাব থেকে আলাদা। আমরা সবাই জানি গোসলখানায় কি হয়, কিন্তু তাও আমরা দরজা বন্ধ করি। কারণ আমরা ব্যক্তিগত গোপনীয়তা চাই, গুপ্ত ব্যাপার রাখা নয়। **প্রত্যেকেরই** রক্ষা করার মতো কোনো কিছু আছে। ব্যক্তিগত গোপনীয়তা আমাদেরকে মানুষ করে তোলে।
 
-[:material-book-outline: Why Privacy Matters](basics/why-privacy-matters.md){ class="md-button md-button--primary" }
+[:material-book-outline: কেন ব্যক্তিগত গোপনীয়তা প্রয়োজন](basics/why-privacy-matters.md){ class="md-button md-button--primary" }
 
-## What should I do?
+## আমার কী করা উচিত?
 
-##### First, you need to make a plan
+##### প্রথমত, তোমার একটা পরিকল্পনা দরকার
 
 Trying to protect all your data from everyone all the time is impractical, expensive, and exhausting. But don't worry! Security is a process, and, by thinking ahead, you can put together a plan that's right for you. Security isn't just about the tools you use or the software you download. Rather, it begins by understanding the unique threats you face, and how you can mitigate them.
 
