@@ -1,16 +1,16 @@
 ---
-meta_title: "Recommended Search Engines: Anonymous Google Alternatives - Privacy Guides"
-title: "Search Engines"
+meta_title: "Empfohlene Suchmaschinen: Anonyme Google-Alternativen - Privacy Guides"
+title: "Suchmaschinen"
 icon: material/search-web
-description: These privacy-respecting search engines don't build an advertising profile based on your searches.
+description: Diese Privatsphäre respektierenden Suchmaschinen erstellen kein Werbeprofil auf der Grundlage deiner Suchanfragen.
 cover: search-engines.webp
 ---
 
-Use a search engine that doesn't build an advertising profile based on your searches.
+Verwende eine Suchmaschine, die kein Werbeprofil auf Grundlage deiner Suchanfragen erstellt.
 
-The recommendations here are based on the merits of each service's privacy policy. There is **no guarantee** that these privacy policies are honored.
+Die hier gegebenen Empfehlungen beruhen auf den Datenschutzbestimmungen der einzelnen Dienste. Es gibt **keine Garantie**, dass diese Datenschutzbestimmungen auch eingehalten werden.
 
-Consider using a [VPN](vpn.md) or [Tor](https://www.torproject.org/) if your threat model requires hiding your IP address from the search provider.
+Erwäge die Verwendung eines [VPN](vpn.md) oder [Tor](https://www.torproject.org/), wenn dein Bedrohungsmodell das Verbergen deiner IP-Adresse vor dem Suchanbieter erfordert.
 
 ## Brave Search
 
@@ -18,18 +18,18 @@ Consider using a [VPN](vpn.md) or [Tor](https://www.torproject.org/) if your thr
 
     ![Brave Search logo](assets/img/search-engines/brave-search.svg){ align=right }
     
-    **Brave Search** is developed by Brave and serves results primarily from its own, independent index. The index is optimized against Google Search and therefore may provide more contextually accurate results compared to other alternatives.
+    **Brave Search** wird von Brave entwickelt und liefert hauptsächlich Ergebnisse aus seinem eigenen, unabhängigen Index. Der Index ist für die Google-Suche optimiert und kann daher im Vergleich zu anderen Alternativen möglicherweise kontextgenauere Ergebnisse liefern.
     
-    Brave Search includes unique features such as Discussions, which highlights conversation-focused results—such as forum posts.
+    Brave Search verfügt über einzigartige Funktionen, wie etwa Diskussionen, die auf Konversationen ausgerichtete Ergebnisse wie Forenbeiträge hervorheben.
     
-    We recommend you disable [Anonymous usage metrics](https://search.brave.com/help/usage-metrics) as it is enabled by default and can be disabled within settings.
+    Wir emfehlen dir, [Anonyme Nutzungsstatistiken](https://search.brave.com/help/usage-metrics) zu deaktivieren, da sie standardmäßig aktiviert sind und in den Einstellungen deaktiviert werden können.
     
     [:octicons-home-16: Homepage](https://search.brave.com/){ .md-button .md-button--primary }
     [:simple-torbrowser:](https://search.brave4u7jddbv7cyviptqjc7jusxh72uik7zt6adtckl5f4nwy2v72qd.onion){ .card-link title="Onion Service" }
-    [:octicons-eye-16:](https://search.brave.com/help/privacy-policy){ .card-link title="Privacy Policy" }
-    [:octicons-info-16:](https://search.brave.com/help){ .card-link title=Documentation}
+    [:octicons-eye-16:](https://search.brave.com/help/privacy-policy){ .card-link title="Datenschutzbestimmungen" }
+    [:octicons-info-16:](https://search.brave.com/help){ .card-link title=Dokumentation}
 
-Brave Search is based in the United States. Their [privacy policy](https://search.brave.com/help/privacy-policy) states they collect aggregated usage metrics, which includes the operating system and browser in use, however no personally identifiable information is collected. IP addresses are temporarily processed, but are not retained.
+Brave Search hat seinen Sitz in den Vereinigten Staaten. Die [Datenschutzbestimmungen](https://search.brave.com/help/privacy-policy) besagen, dass aggregierte Nutzungsdaten gesammelt werden, zu denen auch das verwendete Betriebssystem und der verwendete Browser gehören; es werden jedoch keine personenbezogenen Daten erfasst. IP-Adressen werden temporär verarbeitet, aber nicht gespeichert.
 
 ## DuckDuckGo
 
@@ -37,18 +37,18 @@ Brave Search is based in the United States. Their [privacy policy](https://searc
 
     ![DuckDuckGo logo](assets/img/search-engines/duckduckgo.svg){ align=right }
     
-    **DuckDuckGo** is one of the more mainstream private search engine options. Notable DuckDuckGo search features include [bangs](https://duckduckgo.com/bang) and many [instant answers](https://help.duckduckgo.com/duckduckgo-help-pages/features/instant-answers-and-other-features/). The search engine relies on a commercial Bing API to serve most results, but it does use numerous [other sources](https://help.duckduckgo.com/results/sources/) for instant answers and other non-primary results.
+    **DuckDuckGo** ist eine der gängigeren Optionen für private Suchmaschinen. Zu den erwähnenswerten Suchfunktionen von DuckDuckGo gehören [bangs](https://duckduckgo.com/bang) und zahlreiche [Sofortantworten](https://help.duckduckgo.com/duckduckgo-help-pages/features/instant-answers-and-other-features/). Die Suchmaschine stützt sich auf die kommerzielle Bing-API, um die meisten Ergebnisse zu liefern, nutzt aber auch zahlreiche [andere Quellen](https://help.duckduckgo.com/results/sources/) für Sofortantworten und andere nicht primäre Ergebnisse.
     
-    DuckDuckGo is the default search engine for the Tor Browser and is one of the few available options on Apple’s Safari browser.
+    DuckDuckGo ist die Standardsuchmaschine für den Tor-Browser und eine der wenigen verfügbaren Optionen für den Safari-Browser von Apple.
     
     [:octicons-home-16: Homepage](https://duckduckgo.com){ .md-button .md-button--primary }
     [:simple-torbrowser:](https://duckduckgogg42xjoc72x3sjasowoarfbgcmvfimaftt6twagswzczad.onion){ .card-link title="Onion Service" }
-    [:octicons-eye-16:](https://duckduckgo.com/privacy){ .card-link title="Privacy Policy" }
-    [:octicons-info-16:](https://help.duckduckgo.com/){ .card-link title=Documentation}
+    [:octicons-eye-16:](https://duckduckgo.com/privacy){ .card-link title="Datenschutzbestimmungen" }
+    [:octicons-info-16:](https://help.duckduckgo.com/){ .card-link title=Dokumentation}
 
-DuckDuckGo is based in the United States. Their [privacy policy](https://duckduckgo.com/privacy) states they **do** log your searches for product improvement purposes, but not your IP address or any other personally identifying information.
+DuckDuckGo hat seinen Sitz in den Vereinigten Staaten. Ihre [Datenschutzbestimmungen](https://duckduckgo.com/privacy) besagen, dass sie deine Suchanfragen zum Zwecke der Produktverbesserung **protokollieren**, aber weder deine IP-Adresse noch andere personenbezogene Daten speichern.
 
-DuckDuckGo offers two [other versions](https://help.duckduckgo.com/features/non-javascript/) of their search engine, both of which do not require JavaScript. These versions do lack features, however. These versions can also be used in conjunction with their [Tor onion address](https://duckduckgogg42xjoc72x3sjasowoarfbgcmvfimaftt6twagswzczad.onion/) by appending [/lite](https://duckduckgogg42xjoc72x3sjasowoarfbgcmvfimaftt6twagswzczad.onion/lite) or [/html](https://duckduckgogg42xjoc72x3sjasowoarfbgcmvfimaftt6twagswzczad.onion/html) for the respective version.
+DuckDuckGo bietet zwei [andere Versionen](https://help.duckduckgo.com/features/non-javascript/) ihrer Suchmaschine an, für die beide kein JavaScript benötigt wird. Allerdings fehlen diesen Versionen einige Funktionen. Diese Versionen können auch in Verbindung mit ihrer [Tor-Onion-Adresse](https://duckduckgogg42xjoc72x3sjasowoarfbgcmvfimaftt6twagswzczad.onion/) verwendet werden, indem man [/lite](https://duckduckgogg42xjoc72x3sjasowoarfbgcmvfimaftt6twagswzczad.onion/lite) oder [/html](https://duckduckgogg42xjoc72x3sjasowoarfbgcmvfimaftt6twagswzczad.onion/html) für die jeweilige Version anfügt.
 
 ## SearXNG
 
@@ -56,10 +56,10 @@ DuckDuckGo offers two [other versions](https://help.duckduckgo.com/features/non-
 
     ![SearXNG logo](assets/img/search-engines/searxng.svg){ align=right }
     
-    **SearXNG** is an open-source, self-hostable, metasearch engine, aggregating the results of other search engines while not storing any information itself. It is an actively maintained fork of [SearX](https://github.com/searx/searx).
+    **SearXNG** ist eine quelloffene, selbstständig hostbare Metasuchmaschine, die die Ergebnisse anderer Suchmaschinen zusammenfasst, ohne selbst Informationen zu speichern. Es ist ein aktiv betreuter Fork von [SearX](https://github.com/searx/searx).
     
     [:octicons-home-16: Homepage](https://searxng.org){ .md-button .md-button--primary }
-    [:octicons-server-16:](https://searx.space/){ .card-link title="Public Instances"}
+    [:octicons-server-16:](https://searx.space/){ .card-link title="Öffentliche Instanzen"}
     [:octicons-code-16:](https://github.com/searxng/searxng){ .card-link title="Source Code" }
 
 SearXNG is a proxy between you and the search engines it aggregates from. Your search queries will still be sent to the search engines that SearXNG gets its results from.
