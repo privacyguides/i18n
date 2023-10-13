@@ -319,9 +319,9 @@ Le principali funzionalità di privacy includono:
     
         - [:simple-github: GitHub](https://github.com/ImranR98/Obtainium/releases)
 
-Obtainium ti consente di scaricare file di installazione APK da un'ampia varietà di fonti, ed è compito tuo assicurarti che tali fonti e applicazioni siano legittime. For example, using Obtainium to install Signal from [Signal's APK landing page](https://signal.org/android/apk/) should be fine, but installing from third-party APK repositories like Aptoide or APKPure may pose additional risks.
+Obtainium ti consente di scaricare file di installazione APK da un'ampia varietà di fonti, ed è compito tuo assicurarti che tali fonti e applicazioni siano legittime. Ad esempio, utilizzare Obtainium per installare Signal dalla [pagina APK di Signal](https://signal.org/android/apk/) dovrebbe andare bene, ma l'installazione da repository APK di terze parti come Aptoide o APKPure potrebbe comportare ulteriori rischi.
 
-Obtainium può anche essere utilizzato per scaricare applicazioni dalle repository di F-Droid e può essere un'utile alternativa ai client ufficiali di F-Droid. However, we generally recommend against apps built by F-Droid or from unofficial F-Droid repositories: Read [our notes on F-Droid](#f-droid) below for more information.
+Obtainium può anche essere utilizzato per scaricare applicazioni dalle repository di F-Droid e può essere un'utile alternativa ai client ufficiali di F-Droid. Tuttavia, in genere sconsigliamo le applicazioni realizzate da F-Droid o da repository non ufficiali di F-Droid: Per ulteriori informazioni, leggi [le nostre note su F-Droid](#f-droid) qui sotto per maggiori informazioni.
 
 ### App Store di GrapheneOS
 
