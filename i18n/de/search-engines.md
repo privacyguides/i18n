@@ -78,33 +78,33 @@ Wenn du eine SearXNG-Instanz verwendest, beachte unbedingt deren Datenschutzbest
     **Startpage** ist eine private Suchmaschine, die dafür bekannt ist, dass sie Suchergebnisse von [Google und Bing](https://support.startpage.com/hc/en-us/articles/4522435533844-What-is-the-relationship-between-Startpage-and-your-search-partners-like-Google-and-Microsoft-Bing-) liefert.  One of Startpage's unique features is the [Anonymous View](https://www.startpage.com/en/anonymous-view/), which puts forth efforts to standardize user activity to make it more difficult to be uniquely identified. The feature can be useful for hiding [some](https://support.startpage.com/hc/en-us/articles/4455540212116-The-Anonymous-View-Proxy-technical-details) network and browser properties. Unlike the name suggests, the feature should not be relied upon for anonymity. If you are looking for anonymity, use the [Tor Browser](tor.md#tor-browser) instead.
     
     [:octicons-home-16: Homepage](https://www.startpage.com){ .md-button .md-button--primary }
-    [:octicons-eye-16:](https://www.startpage.com/en/privacy-policy){ .card-link title="Privacy Policy" }
-    [:octicons-info-16:](https://support.startpage.com/hc/en-us/categories/4481917470356-Startpage-Search-Engine){ .card-link title=Documentation}
+    [:octicons-eye-16:](https://www.startpage.com/en/privacy-policy){ .card-link title="Datenschutzbestimmungen" }
+    [:octicons-info-16:](https://support.startpage.com/hc/en-us/categories/4481917470356-Startpage-Search-Engine){ .card-link title=Dokumentation}
 
 !!! warning
 
-    Startpage regularly limits service access to certain IP addresses, such as IPs reserved for VPNs or Tor. [DuckDuckGo](#duckduckgo) and [Brave Search](#brave-search) are friendlier options if your threat model requires hiding your IP address from the search provider.
+    Startpage beschränkt regelmäßig den Zugang zu seinem Dienst auf bestimmten IP-Adressen, wie IPs, die für VPNs oder Tor reserviert sind. [DuckDuckGo](#duckduckgo) und [Brave Search](#brave-search) sind freundlichere Optionen, wenn dein Bedrohungsmodell das Verbergen deiner IP-Adresse vor dem Suchanbieter erfordert.
 
-Startpage is based in the Netherlands. According to their [privacy policy](https://www.startpage.com/en/privacy-policy/), they log details such as: operating system, type of browser, and language. They do not log your IP address, search queries, or other personally identifying information.
+Startpage hat seinen Sitz in den Niederlanden. Laut ihren [Datenschutzbestimmungen](https://www.startpage.com/de/privacy-policy/) protokollieren sie Details wie das Betriebssystem, den Browsertyp und die Sprache. Sie protokollieren weder die IP-Adresse noch Suchanfragen oder andere personenbezogene Daten.
 
-Startpage's majority shareholder is System1 who is an adtech company. We don't believe that to be an issue as they have a distinctly separate [privacy policy](https://system1.com/terms/privacy-policy). The Privacy Guides team reached out to Startpage [back in 2020](https://web.archive.org/web/20210118031008/https://blog.privacytools.io/relisting-startpage/) to clear up any concerns with System1's sizeable investment into the service. We were satisfied with the answers we received.
+Der Mehrheitsaktionär von Startpage ist System1, ein Werbeunternehmen. Wir glauben nicht, dass dies ein Problem ist, da sie gesonderte <a href="https://system1.com/terms/privacy-policy"]>Datenschutzbestimmungen</a> haben. Das Privacy Guides Team hat sich bereits [im Jahr 2020](https://web.archive.org/web/20210118031008/https://blog.privacytools.io/relisting-startpage/) an Startpage gewandt, um etwaige Bedenken hinsichtlich der beträchtlichen Investition von System1 in den Dienst auszuräumen. Wir waren mit den Antworten, die wir erhielten, zufrieden.
 
-## Criteria
+## Kriterien
 
-**Please note we are not affiliated with any of the projects we recommend.** In addition to [our standard criteria](about/criteria.md), we have developed a clear set of requirements to allow us to provide objective recommendations. We suggest you familiarize yourself with this list before choosing to use a project, and conduct your own research to ensure it's the right choice for you.
+**Bitte beachte, dass wir mit keinem der Projekte, die wir empfehlen, in Verbindung stehen.** Zusätzlich zu unseren [Standardkriterien](about/criteria.md) haben wir eine Reihe klarer Anforderungen entwickelt, die es uns ermöglichen, objektive Empfehlungen zu geben. Wir empfehlen dir, dich mit der Liste vertraut zu machen, bevor du dich für ein Projekt entscheidest, und deine eigenen Recherchen anzustellen, um sicherzustellen, dass es die richtige Wahl für dich ist.
 
-!!! example "This section is new"
+!!! example "Dieser Abschnitt ist neu"
 
-    We are working on establishing defined criteria for every section of our site, and this may be subject to change. If you have any questions about our criteria, please [ask on our forum](https://discuss.privacyguides.net/latest) and don't assume we didn't consider something when making our recommendations if it is not listed here. There are many factors considered and discussed when we recommend a project, and documenting every single one is a work-in-progress.
+    Wir arbeiten daran, für jeden Bereich unserer Website genaue Kriterien festzulegen, die sich möglicherweise noch ändern werden. Wenn du irgendwelche Fragen zu unseren Kriterien hast, frage bitte [in unserem Forum](https://discuss.privacyguides.net/latest) und gehe nicht davon aus, dass wir etwas bei unseren Empfehlungen nicht berücksichtigt haben, nur weil es hier nicht aufgeführt ist. Es gibt viele Faktoren, die berücksichtigt und diskutiert werden, wenn wir ein Projekt empfehlen, und die Dokumentation jedes einzelnen Faktors ist ein laufender Prozess.
 
-### Minimum Requirements
+### Mindestanforderungen
 
-- Must not collect personally identifiable information per their privacy policy.
-- Must not allow users to create an account with them.
+- Darf keine persönlich identifizierbaren Informationen gemäß ihrer Datenschutzrichtlinie sammeln.
+- Sie dürfen den Nutzern nicht erlauben, ein Konto bei ihnen anzulegen.
 
-### Best-Case
+### Im besten Fall
 
-Our best-case criteria represents what we would like to see from the perfect project in this category. Our recommendations may not include any or all of this functionality, but those which do may rank higher than others on this page.
+Unsere Best-Case-Kriterien stellen dar, was wir uns von einem perfekten Projekt in dieser Kategorie wünschen würden. Unsere Empfehlungen enthalten möglicherweise keine oder nicht alle dieser Merkmale, aber diejenigen, die sie enthalten, werden möglicherweise höher eingestuft als andere auf dieser Seite.
 
-- Should be based on open-source software.
-- Should not block Tor exit node IP addresses.
+- Sollte auf Open-Source-Software basieren.
+- Sollte keine IP-Adressen von Tor-Ausgangsknoten blockieren.
