@@ -99,7 +99,7 @@ I software proxy per il DNS crittografato forniscono un proxy locale a cui inolt
 
 ## Soluzioni ospitate autonomamente
 
-Una soluzione DNS ospitata autonomamente è utile per fornire il filtraggio sulle piattaforme controllate, come Smart TV e altri dispositivi IoT, poiché non è necessario alcun software dal lato del client.
+Una soluzione DNS self-hosted è utile per fornire il filtraggio su piattaforme controllate, come Smart TV e altri dispositivi IoT, poiché non è necessario alcun software lato client.
 
 ### AdGuard Home
 

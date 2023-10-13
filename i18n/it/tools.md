@@ -103,7 +103,7 @@ Per ulteriori dettagli su ogni progetto, perché è stato scelto e ulteriori con
 
 [Scopri di più :material-arrow-right-drop-circle:](dns.md#encrypted-dns-proxies)
 
-#### Soluzioni ospitate autonomamente
+#### Soluzioni self-hosted
 
 <div class="grid cards" markdown>
 
