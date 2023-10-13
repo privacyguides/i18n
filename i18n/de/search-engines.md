@@ -62,11 +62,11 @@ DuckDuckGo bietet zwei [andere Versionen](https://help.duckduckgo.com/features/n
     [:octicons-server-16:](https://searx.space/){ .card-link title="Öffentliche Instanzen"}
     [:octicons-code-16:](https://github.com/searxng/searxng){ .card-link title="Source Code" }
 
-SearXNG is a proxy between you and the search engines it aggregates from. Your search queries will still be sent to the search engines that SearXNG gets its results from.
+SearXNG ist ein Proxy zwischen dir und den Suchmaschinen, die es zusammenfasst. Deine Suchanfragen werden weiterhin an die Suchmaschinen gesendet, von denen SearXNG seine Ergebnisse bezieht.
 
-When self-hosting, it is important that you have other people using your instance so that the queries would blend in. You should be careful with where and how you are hosting SearXNG, as people looking up illegal content on your instance could draw unwanted attention from authorities.
+Wenn du selbst hostest, ist es wichtig, dass deine Instanz auch von anderen Personen genutzt wird, damit sich die Suchanfragen vermischen können. Du solltest vorsichtig sein, wo und wie du SearXNG hostest, da Leute, die auf deiner Instanz nach illegalen Inhalten suchen, unerwünschte Aufmerksamkeit der Behörden auf sich ziehen könnten.
 
-When you are using a SearXNG instance, be sure to go read their privacy policy. Since SearXNG instances may be modified by their owners, they do not necessarily reflect their privacy policy. Some instances run as a Tor hidden service, which may grant some privacy as long as your search queries does not contain PII.
+Wenn du eine SearXNG-Instanz verwendest, beachte unbedingt deren Datenschutzbestimmungen. Da SearXNG-Instanzen von ihren Eigentümern geändert werden können, spiegeln sie nicht unbedingt deren Datenschutzpolitik wider. Einige Instanzen laufen als versteckter Tor-Dienst, der ein gewisses Maß an Privatsphäre gewährleistet, solange deine Suchanfragen keine personenbezogenen Daten enthalten.
 
 ## Startpage
 
@@ -75,7 +75,7 @@ When you are using a SearXNG instance, be sure to go read their privacy policy. 
     ![Startpage logo](assets/img/search-engines/startpage.svg#only-light){ align=right }
     ![Startpage logo](assets/img/search-engines/startpage-dark.svg#only-dark){ align=right }
     
-    **Startpage** is a private search engine known for serving [Google and Bing](https://support.startpage.com/hc/en-us/articles/4522435533844-What-is-the-relationship-between-Startpage-and-your-search-partners-like-Google-and-Microsoft-Bing-) search results.  One of Startpage's unique features is the [Anonymous View](https://www.startpage.com/en/anonymous-view/), which puts forth efforts to standardize user activity to make it more difficult to be uniquely identified. The feature can be useful for hiding [some](https://support.startpage.com/hc/en-us/articles/4455540212116-The-Anonymous-View-Proxy-technical-details) network and browser properties. Unlike the name suggests, the feature should not be relied upon for anonymity. If you are looking for anonymity, use the [Tor Browser](tor.md#tor-browser) instead.
+    **Startpage** ist eine private Suchmaschine, die dafür bekannt ist, dass sie Suchergebnisse von [Google und Bing](https://support.startpage.com/hc/en-us/articles/4522435533844-What-is-the-relationship-between-Startpage-and-your-search-partners-like-Google-and-Microsoft-Bing-) liefert.  One of Startpage's unique features is the [Anonymous View](https://www.startpage.com/en/anonymous-view/), which puts forth efforts to standardize user activity to make it more difficult to be uniquely identified. The feature can be useful for hiding [some](https://support.startpage.com/hc/en-us/articles/4455540212116-The-Anonymous-View-Proxy-technical-details) network and browser properties. Unlike the name suggests, the feature should not be relied upon for anonymity. If you are looking for anonymity, use the [Tor Browser](tor.md#tor-browser) instead.
     
     [:octicons-home-16: Homepage](https://www.startpage.com){ .md-button .md-button--primary }
     [:octicons-eye-16:](https://www.startpage.com/en/privacy-policy){ .card-link title="Privacy Policy" }
