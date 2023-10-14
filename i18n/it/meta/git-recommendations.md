@@ -14,7 +14,7 @@ Puoi utilizzare una chiave SSH esistente per firmare, o [crearne una nuova](http
    git config --global gpg.format ssh
    git config --global tag.gpgSign true
    ```
-2. Imposta la tua chiave SSH per accedere a Git con il seguente comando, sostituendo `/PATH/TO/.SSH/KEY. UB` con il percorso della chiave pubblica che si desidera utilizzare, ad esempio `/home/user/.ssh/id_ed25519.pub`:
+2. Imposta la tua chiave SSH per accedere a Git con il seguente comando, sostituendo `/PATH/TO/.SSH/KEY. UB` con il percorso della chiave pubblica che desideri utilizzare, ad esempio `/home/user/.ssh/id_ed25519.pub`:
    ```
    git config --global user.signingkey /PATH/TO/.SSH/KEY.PUB
    ```

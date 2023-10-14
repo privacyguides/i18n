@@ -25,7 +25,7 @@ Oltre ai [client di posta elettronica che consigliamo](../email-clients.md) e ch
 
 Se si utilizza un dominio personalizzato, è necessario configurare il WKD separatamente. Se si controlla il proprio nome di dominio, è possibile impostare il WKD indipendentemente dal provider di posta elettronica. Un modo semplice per farlo è utilizzare la funzione "[WKD as a Service](https://keys.openpgp.org/about/usage#wkd-as-a-service)" di keys.openpgp.org, impostando un record CNAME sul sottodominio `openpgpkey` del tuo dominio che punta a `wkd.keys.openpgp.org`, quindi caricando la tua chiave su [keys.openpgp.org](https://keys.openpgp.org/). In alternativa, è possibile effettuare il [self-host del WKD sul proprio server web](https://wiki.gnupg.org/WKDHosting).
 
-Se si utilizza un dominio condiviso da un provider che non supporta WKD, come @gmail.com, non sarà possibile condividere la propria chiave OpenPGP con altri tramite questo metodo.
+Se utilizzi un dominio condiviso da un fornitore che non supporta WKD, come @gmail.com, non sarai in grado di condividere la tua chiave OpenPGP con altri tramite questo metodo.
 
 ### Quali client email supportano E2EE?
 
