@@ -1,14 +1,14 @@
 ---
-meta_title: "Android Recommendations: GrapheneOS and DivestOS - Privacy Guides"
+meta_title: "Rekomendasi Android: GrapheneOS dan DivestOS - Privacy Guides"
 title: "Android"
 icon: 'simple/android'
-description: You can replace the operating system on your Android phone with these secure and privacy-respecting alternatives.
+description: Anda dapat mengganti sistem operasi pada ponsel Android Anda dengan alternatif berikut ini yang aman dan menghargai privasi.
 cover: android.webp
 schema:
   - 
     "@context": http://schema.org
     "@type": WebPage
-    name: Private Android Operating Systems
+    name: Sistem Operasi Android Pribadi
     url: "./"
   - 
     "@context": http://schema.org
@@ -16,7 +16,7 @@ schema:
     name: Android
     image: /assets/img/android/android.svg
     url: https://source.android.com/
-    sameAs: https://en.wikipedia.org/wiki/Android_(operating_system)
+    sameAs: https://id.wikipedia.org/wiki/Android_(sistem_operasi)
   - 
     "@context": http://schema.org
     "@type": CreativeWork
@@ -47,7 +47,7 @@ schema:
       "@type": Brand
       name: Google
     image: /assets/img/android/google-pixel.png
-    sameAs: https://en.wikipedia.org/wiki/Google_Pixel
+    sameAs: https://id.wikipedia.org/wiki/Google_Pixel
     review:
       "@type": Review
       author:
@@ -81,17 +81,17 @@ schema:
 
 ![Android logo](assets/img/android/android.svg){ align=right }
 
-The **Android Open Source Project** is an open-source mobile operating system led by Google which powers the majority of the world's mobile devices. Most phones sold with Android are modified to include invasive integrations and apps such as Google Play Services, so you can significantly improve your privacy on your mobile device by replacing your phone's default installation with a version of Android without these invasive features.
+**Android Open Source Project** adalah sistem operasi seluler sumber terbuka yang dipimpin oleh Google yang mendukung sebagian besar perangkat seluler di dunia. Sebagian besar ponsel yang dijual dengan Android telah dimodifikasi untuk menyertakan integrasi dan aplikasi invasif seperti Google Play Services, jadi Anda dapat meningkatkan privasi Anda secara signifikan pada perangkat seluler Anda dengan mengganti instalasi bawaan ponsel Anda dengan versi Android tanpa fitur-fitur invasif ini.
 
-[:octicons-home-16:](https://source.android.com/){ .card-link title=Homepage }
-[:octicons-info-16:](https://source.android.com/docs){ .card-link title=Documentation}
-[:octicons-code-16:](https://cs.android.com/android/platform/superproject/){ .card-link title="Source Code" }
+[:octicons-home-16:](https://source.android.com/){ .card-link title=Beranda }
+[:octicons-info-16:](https://source.android.com/docs){ .card-link title=Dokumentasi}
+[:octicons-code-16:](https://cs.android.com/android/platform/superproject/){ .card-link title="Kode Sumber" }
 
-These are the Android operating systems, devices, and apps we recommend to maximize your mobile device's security and privacy. To learn more about Android:
+Berikut ini adalah sistem operasi, perangkat, dan aplikasi Android yang kami rekomendasikan untuk memaksimalkan keamanan dan privasi perangkat seluler Anda. Untuk mengetahui lebih lanjut tentang Android:
 
-[General Android Overview :material-arrow-right-drop-circle:](os/android-overview.md ""){.md-button}
+[Gambaran Umum Android :material-arrow-right-drop-circle:](os/android-overview.md ""){.md-button}
 
-## AOSP Derivatives
+## Turunan AOSP
 
 We recommend installing one of these custom Android operating systems on your device, listed in order of preference, depending on your device's compatibility with these operating systems.
 
