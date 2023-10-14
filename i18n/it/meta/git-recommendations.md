@@ -14,14 +14,9 @@ Puoi utilizzare una chiave SSH esistente per firmare, o [crearne una nuova](http
    git config --global gpg.format ssh
    git config --global tag.gpgSign true
    ```
-2. Copia la tua chiave pubblica SSH nei tuoi appunti, ad esempio:
+2. Set your SSH key for signing in Git with the following command, substituting `/PATH/TO/.SSH/KEY.PUB` with the path to the public key you'd like to use, e.g. `/home/user/.ssh/id_ed25519.pub`:
    ```
-   pbcopy < ~/.ssh/id_ed25519.pub
-    # Copies the contents of the id_ed25519.pub file to your clipboard
-   ```
-3. Imposta la tua chiave SSH per firmare su Git con il seguente comando, sostituendo l'ultima stringa tra virgolette con la chiave pubblica nei tuoi appunti:
-   ```
-   git config --global user.signingkey 'ssh-ed25519 AAAAC3(...) user@example.com'
+   git config --global user.signingkey /PATH/TO/.SSH/KEY.PUB
    ```
 
 Assicurati di [aggiungere la tua chiave SSH al tuo profilo di GitHub](https://docs.github.com/en/authentication/connecting-to-github-with-ssh/adding-a-new-ssh-key-to-your-github-account#adding-a-new-ssh-key-to-your-account) **come una Chiave di Firma** (invece che, od oltre che, come una Chiave d'Autenticazione).

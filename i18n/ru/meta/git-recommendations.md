@@ -14,14 +14,9 @@ title: Рекомендации по Git
    git config --global gpg.format ssh
    git config --global tag.gpgSign true
    ```
-2. Скопируйте открытый SSH-ключ в буфер обмена, например:
+2. Set your SSH key for signing in Git with the following command, substituting `/PATH/TO/.SSH/KEY.PUB` with the path to the public key you'd like to use, e.g. `/home/user/.ssh/id_ed25519.pub`:
    ```
-   pbcopy < ~/.ssh/id_ed25519.pub
-    # Copies the contents of the id_ed25519.pub file to your clipboard
-   ```
-3. Установите SSH-ключ для подписи в Git с помощью следующей команды, заменив последнюю строку в кавычках на публичный ключ в вашем буфере обмена:
-   ```
-   git config --global user.signingkey 'ssh-ed25519 AAAAC3(...) user@example.com'
+   git config --global user.signingkey /PATH/TO/.SSH/KEY.PUB
    ```
 
 Убедитесь, что вы [добавили свой SSH-ключ в учетную запись GitHub](https://docs.github.com/en/authentication/connecting-to-github-with-ssh/adding-a-new-ssh-key-to-your-github-account#adding-a-new-ssh-key-to-your-account) **в качестве ключа подписи** (в отличие от ключа идентификации или в дополнение к нему).

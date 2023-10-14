@@ -14,14 +14,9 @@ GitHub.comのウェブエディターでこのウェブサイトに直接変更�
    git config --global gpg.format ssh
    git config --global tag.gpgSign true
    ```
-2. SSH公開鍵をクリップボードにコピーします。例：
+2. Set your SSH key for signing in Git with the following command, substituting `/PATH/TO/.SSH/KEY.PUB` with the path to the public key you'd like to use, e.g. `/home/user/.ssh/id_ed25519.pub`:
    ```
-   pbcopy < ~/.ssh/id_ed25519.pub
-    # Copies the contents of the id_ed25519.pub file to your clipboard
-   ```
-3. 次のコマンドを使用して、Git に署名するための SSH キーを設定します。引用符で囲まれた最後の文字列をクリップボード内の公開キーに置き換えます。
-   ```
-   git config --global user.signingkey 'ssh-ed25519 AAAAC3(...) user@example.com'
+   git config --global user.signingkey /PATH/TO/.SSH/KEY.PUB
    ```
 
 Ensure you [add your SSH key to your GitHub account](https://docs.github.com/en/authentication/connecting-to-github-with-ssh/adding-a-new-ssh-key-to-your-github-account#adding-a-new-ssh-key-to-your-account) **as a Signing Key** (as opposed to or in addition to as an Authentication Key).

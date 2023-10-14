@@ -14,14 +14,9 @@ title: Git 使用建議
    git config --global gpg.format ssh
    git config --global tag.gpgSign true
    ```
-2. 將 SSH 公鑰複製到剪貼板，例如:
+2. Set your SSH key for signing in Git with the following command, substituting `/PATH/TO/.SSH/KEY.PUB` with the path to the public key you'd like to use, e.g. `/home/user/.ssh/id_ed25519.pub`:
    ```
-   pbcopy < ~/.ssh/id_ed25519.pub
-    # Copies the contents of the id_ed25519.pub file to your clipboard
-   ```
-3. 利用下方指令在 Git 底下設定 SSH 密鑰簽署，將最後字串置換成剪貼板中的公鑰且前後帶引號:
-   ```
-   git config --global user.signingkey 'ssh-ed25519 AAAAC3(...) user@example.com'
+   git config --global user.signingkey /PATH/TO/.SSH/KEY.PUB
    ```
 
 確認 [加入您 GitHub 帳戶中的 SSH 密鑰](https://docs.github.com/en/authentication/connecting-to-github-with-ssh/adding-a-new-ssh-key-to-your-github-account#adding-a-new-ssh-key-to-your-account) **簽署密鑰** (其不同於驗證密鑰)。

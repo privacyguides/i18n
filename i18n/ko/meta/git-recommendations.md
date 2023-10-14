@@ -14,14 +14,9 @@ title: Git 사용 안내
    git config --global gpg.format ssh
    git config --global tag.gpgSign true
    ```
-2. SSH 공개 키를 클립보드에 복사합니다.
+2. Set your SSH key for signing in Git with the following command, substituting `/PATH/TO/.SSH/KEY.PUB` with the path to the public key you'd like to use, e.g. `/home/user/.ssh/id_ed25519.pub`:
    ```
-   pbcopy < ~/.ssh/id_ed25519.pub
-    # Copies the contents of the id_ed25519.pub file to your clipboard
-   ```
-3. 다음 명령어로 Git에 로그인할 때 사용할 SSH키를 설정합니다(마지막 따옴표 내 문자열을 클립보드에 있는 공개 키로 대체하세요)
-   ```
-   git config --global user.signingkey 'ssh-ed25519 AAAAC3(...) user@example.com'
+   git config --global user.signingkey /PATH/TO/.SSH/KEY.PUB
    ```
 
 [GitHub 계정에 새 SSH 키 추가](https://docs.github.com/ko/authentication/connecting-to-github-with-ssh/adding-a-new-ssh-key-to-your-github-account#adding-a-new-ssh-key-to-your-account) 문서를 참고해 **서명 키**로 추가합니다(주의: 인증 키와 서명 키는 별도입니다).
