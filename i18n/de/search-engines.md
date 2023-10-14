@@ -37,7 +37,7 @@ Brave Search hat seinen Sitz in den Vereinigten Staaten. Die [Datenschutzbestimm
 
     ![DuckDuckGo logo](assets/img/search-engines/duckduckgo.svg){ align=right }
     
-    **DuckDuckGo** ist eine der gängigeren Optionen für private Suchmaschinen. Zu den erwähnenswerten Suchfunktionen von DuckDuckGo gehören [bangs](https://duckduckgo.com/bang) und zahlreiche [Sofortantworten](https://help.duckduckgo.com/duckduckgo-help-pages/features/instant-answers-and-other-features/). Die Suchmaschine stützt sich auf die kommerzielle Bing-API, um die meisten Ergebnisse zu liefern, nutzt aber auch zahlreiche [andere Quellen](https://help.duckduckgo.com/results/sources/) für Sofortantworten und andere nicht primäre Ergebnisse.
+    **DuckDuckGo** ist eine der gängigeren Optionen für private Suchmaschinen. Zu den erwähnenswerten Suchfunktionen von DuckDuckGo gehören [Bangs](https://duckduckgo.com/bang) und zahlreiche [Sofortantworten](https://help.duckduckgo.com/duckduckgo-help-pages/features/instant-answers-and-other-features/). Die Suchmaschine stützt sich auf die kommerzielle Bing-API, um die meisten Ergebnisse zu liefern, nutzt aber auch zahlreiche [andere Quellen](https://help.duckduckgo.com/results/sources/) für Sofortantworten und andere nicht primäre Ergebnisse.
     
     DuckDuckGo ist die Standardsuchmaschine für den Tor-Browser und eine der wenigen verfügbaren Optionen für den Safari-Browser von Apple.
     
