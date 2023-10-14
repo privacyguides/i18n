@@ -2,38 +2,38 @@
 title: Git Empfehlungen
 ---
 
-If you make changes to this website on GitHub.com's web editor directly, you shouldn't have to worry about this. If you are developing locally and/or are a long-term website editor (who should probably be developing locally!), consider these recommendations.
+Wenn du Änderungen an dieser Website direkt im Webeditor von GitHub.com vornimmst, solltest du dir hierüber keine Gedanken machen müssen. Wenn du lokal entwickelst und/oder ein langjähriger Website-Editor bist (der wahrscheinlich auch lokal entwickeln sollte!), solltest du diese Empfehlungen berücksichtigen.
 
 ## SSH-Schlüssel Commit-Signierung aktivieren
 
-You can use an existing SSH key for signing, or [create a new one](https://docs.github.com/en/authentication/connecting-to-github-with-ssh/generating-a-new-ssh-key-and-adding-it-to-the-ssh-agent).
+Du kannst einen vorhandenen SSH-Schlüssel zum Signieren verwenden oder [einen neuen Schlüssel erstellen](https://docs.github.com/de/authentication/connecting-to-github-with-ssh/generating-a-new-ssh-key-and-adding-it-to-the-ssh-agent).
 
-1. Configure your Git client to sign commits and tags by default (remove `--global` to only sign by default for this repo):
+1. Konfiguriere deinen Git-Client so, dass er Commits und Tags standardmäßig signiert (entferne `--global`, um nur für dieses Repo standardmäßig zu signieren):
    ```
    git config --global commit.gpgsign true
    git config --global gpg.format ssh
    git config --global tag.gpgSign true
    ```
-2. Set your SSH key for signing in Git with the following command, substituting `/PATH/TO/.SSH/KEY.PUB` with the path to the public key you'd like to use, e.g. `/home/user/.ssh/id_ed25519.pub`:
+2. Lege deinen SSH-Schlüssel für die Signierung in Git mit folgendem Befehl fest, wobei du `/PFAD/ZUM/.SSH/SCHLÜSSEL.PUB` durch den Pfad zu dem öffentlichen Schlüssel, den du verwenden möchtest, ersetzt, z. B. `/home/user/.ssh/id_ed25519.pub`:
    ```
-   git config --global user.signingkey /PATH/TO/.SSH/KEY.PUB
+   git config --global user.signingkey /PFAD/ZUM/.SSH/SCHLÜSSEL.PUB
    ```
 
-Ensure you [add your SSH key to your GitHub account](https://docs.github.com/en/authentication/connecting-to-github-with-ssh/adding-a-new-ssh-key-to-your-github-account#adding-a-new-ssh-key-to-your-account) **as a Signing Key** (as opposed to or in addition to as an Authentication Key).
+Stelle sicher, dass du [deinen SSH-Schlüssel zu deinem GitHub-Konto](https://docs.github.com/en/authentication/connecting-to-github-with-ssh/adding-a-new-ssh-key-to-your-github-account#adding-a-new-ssh-key-to-your-account) **als Signierschlüssel** hinzufügst (im Gegensatz zu oder zusätzlich zu einem Authentifizierungsschlüssel).
 
-## Rebase on Git pull
+## Rebase auf Git Pull
 
-Use `git pull --rebase` instead of `git pull` when pulling in changes from GitHub to your local machine. This way your local changes will always be "on top of" the latest changes on GitHub, and you avoid merge commits (which are disallowed in this repo).
+Verwende `git pull --rebase` anstelle von `git pull`, wenn du Änderungen von GitHub auf deinen lokalen Rechner überträgst. Auf diese Weise sind deine lokalen Änderungen immer auf dem neuesten Stand der Änderungen auf GitHub, und du vermeidest Merge Commits (die in diesem Repo nicht erlaubt sind).
 
-You can set this to be the default behavior:
+Du kannst dies als Standard festlegen:
 
 ```
 git config --global pull.rebase true
 ```
 
-## Rebase from `main` before submitting a PR
+## Rebase von `main` bevor du einen PR einreichst
 
-If you are working on your own branch, run these commands before submitting a PR:
+Wenn du an deinem eigenen Branch arbeitest, führe diese Befehle aus, bevor du einen PR einreichst:
 
 ```
 git fetch origin

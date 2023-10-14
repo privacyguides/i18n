@@ -14,7 +14,7 @@ Anda dapat menggunakan kunci SSH yang sudah ada untuk masuk, atau [membuat kunci
    git config --global gpg.format ssh
    git config --global tag.gpgSign true
    ```
-2. Set your SSH key for signing in Git with the following command, substituting `/PATH/TO/.SSH/KEY.PUB` with the path to the public key you'd like to use, e.g. `/home/user/.ssh/id_ed25519.pub`:
+2. Atur kunci SSH Anda untuk masuk ke Git dengan perintah berikut, mengggantikan `/PATH/TO/.SSH/KEY.PUB` dengan jalur ke kunci publik yang ingin Anda gunakan, mis. `/home/user/.ssh/id_ed25519.pub`:
    ```
    git config --global user.signingkey /PATH/TO/.SSH/KEY.PUB
    ```

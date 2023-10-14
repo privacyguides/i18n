@@ -2,30 +2,30 @@
 title: "Datenschutzerklärung"
 ---
 
-Privacy Guides ist ein Gemeinschaftsprojekt, das von einer Reihe aktiver freiwilliger Mitarbeiter*innen betrieben wird. Die öffentliche Liste der Teammitglieder [kann auf GitHub](https://github.com/orgs/privacyguides/people)eingesehen werden.
+Privacy Guides ist ein Gemeinschaftsprojekt, das von einer Reihe freiwilliger Personen betrieben wird. Die öffentliche Liste der Teammitglieder [ist auf GitHub](https://github.com/orgs/privacyguides/people) zu finden.
 
-## Daten, die wir von Besuchenden sammeln
+## Daten, die wir von Besuchern sammeln
 
-Die Privatsphäre unserer Website-Besuchenden ist uns wichtig, daher tracken wir keine Einzel Personen. Als Besuchende unserer Website:
+Die Privatsphäre unserer Website-Besucher ist uns wichtig, daher verfolgen wir keine einzelnen Personen. Als Besucher unserer Website:
 
-- No personal information is collected
-- No information such as cookies are stored in the browser
-- No information is shared with, sent to or sold to third-parties
-- No information is shared with advertising companies
-- No information is mined and harvested for personal and behavioral trends
-- No information is monetized
+- Es werden keine personenbezogenen Daten erfasst
+- Es werden keine Informationen wie z. B. Cookies im Browser gespeichert
+- Es werden keine Informationen an Dritte weitergegeben, gesendet oder verkauft
+- Es werden keine Informationen an Werbefirmen weitergegeben
+- Es werden keine Informationen über persönliche und verhaltensbezogene Trends gesammelt und ausgewertet
+- Keine Informationen werden monetarisiert
 
-## Daten, die wir von Kontoinhabenden sammeln
+## Daten, die wir von Accountinhabern sammeln
 
-If you register for an account on one of our services, we may collect any information you provide us (such as your email, password, profile information, etc.) and use that information to provide you with the service. We never share or sell this data.
+Wenn du dich für ein Konto bei einem unserer Dienste registrierst, können wir die von dir bereitgestellten Informationen (wie deine E-Mail-Adresse, dein Passwort, Profilinformationen usw.) erfassen und diese Informationen verwenden, um dir den Dienst zur Verfügung zu stellen. Wir geben diese Daten niemals weiter oder verkaufen sie.
 
-Some services we host have separate privacy policies which supersede this document. For example, the privacy policy of our forum can be found at [discuss.privacyguides.net/privacy](https://discuss.privacyguides.net/privacy).
+Einige von uns gehostete Dienste haben separate Datenschutzbestimmungen, die dieses Dokument außer Kraft setzen. Die Datenschutzbestimmungen unseres Forums findest du zum Beispiel unter [discuss.privacyguides.net/privacy](https://discuss.privacyguides.net/privacy).
 
-## Contacting Us
+## Kontaktiere uns
 
-Even in the limited cases where your data is collected, our volunteers and most members of the Privacy Guides team have no access to that information. Some information (such as your email address) may be accessible to moderators via limited control panels for the purposes of moderating our communities.
+Selbst in den wenigen Fällen, in denen Daten erhoben werden, haben unsere Freiwilligen und die meisten Mitglieder des Privacy Guides-Teams keinen Zugriff auf diese Informationen. Einige Informationen (z. B. deine E-Mail-Adresse) können für Moderatoren über begrenzte Kontrollfelder zugänglich sein, um unsere Communities zu moderieren.
 
-Thus, inquiries regarding your personal information should be sent directly to:
+Daher sollten Anfragen zu deinen persönlichen Daten direkt an folgende Stelle gerichtet werden:
 
 ```text
 Jonah Aragon
@@ -33,12 +33,12 @@ Services Administrator
 jonah@privacyguides.org
 ```
 
-For all other inquiries, you can contact any member of our team.
+Für alle anderen Anfragen kannst du dich an jedes Mitglied unseres Teams wenden.
 
-For complaints under GDPR more generally, you always have the option to lodge complaints with your local data protection supervisory authorities.
+Bei Beschwerden im Rahmen der DSGVO im Allgemeinen besteht immer die Möglichkeit, eine Beschwerde bei den örtlichen Datenschutzaufsichtsbehörden einzureichen.
 
-## About This Policy
+## Über diese Richtlinien
 
-We will post any new versions of this statement [here](privacy-policy.md). We may change how we announce changes in future versions of this document. In the meantime we may update our contact information at any time without announcing a change. Please refer to the [Privacy Policy](privacy-policy.md) for the latest contact information at any time.
+Wir werden jede neue Version dieser Erklärung [hier](privacy-policy.md) veröffentlichen. Wir behalten uns vor, die Art und Weise, wie wir Änderungen bekannt geben, in künftigen Versionen dieses Dokuments zu ändern. In der Zwischenzeit können wir unsere Kontaktinformationen jederzeit aktualisieren, ohne eine Änderung anzukündigen. Die jeweils aktuellen Kontaktdaten können den [Datenschutzbestimmungen](privacy-policy.md) entnommen werden.
 
-A full revision [history](https://github.com/privacyguides/privacyguides.org/commits/main/docs/about/privacy-policy.md) of this page can be found on GitHub.
+Ein vollständiger [Änderungsverlauf](https://github.com/privacyguides/privacyguides.org/commits/main/docs/about/privacy-policy.md) dieser Seite lässt sich auf GitHub finden.

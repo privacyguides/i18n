@@ -1,36 +1,36 @@
 ---
-title: Writing Style
+title: Schreibstil
 ---
 
-Privacy Guides is written in American English, and you should refer to [APA Style guidelines](https://apastyle.apa.org/style-grammar-guidelines/grammar) when in doubt.
+Privacy Guides ist in amerikanischem Englisch verfasst, und du solltest im Zweifelsfall die [APA Style guidelines](https://apastyle.apa.org/style-grammar-guidelines/grammar) zu Rate ziehen.
 
-In general the [United States federal plain language guidelines](https://www.plainlanguage.gov/guidelines/) provide a good overview of how to write clearly and concisely. We highlight a few important notes from these guidelines below.
+Im Allgemeinen bieten die [United States federal plain language guidelines](https://www.plainlanguage.gov/guidelines/) einen guten Überblick darüber, wie man klar und prägnant schreibt. Im Folgenden werden einige wichtige Punkte aus diesen Richtlinien hervorgehoben.
 
-## Writing for our audience
+## Schreiben für unser Publikum
 
-Das [Zielpublikum](https://www.plainlanguage.gov/guidelines/audience/) von Privacy Guides besteht hauptsächlich aus durchschnittlichen, Techniknutzenden Erwachsenen. Don't dumb down content as if you are addressing a middle-school class, but don't overuse complicated terminology about concepts average computer users wouldn't be familiar with.
+Die Privacy Guides [Zielgruppe](https://www.plainlanguage.gov/guidelines/audience/) besteht hauptsächlich aus durchschnittlichen, technikaffinen Erwachsenen. Vereinfache den Inhalt nicht zu sehr, als würdest du dich an eine Schulklasse wenden, aber verwende auch nicht zu viele komplizierte Begriffe für Konzepte, mit denen der durchschnittliche Computerbenutzer nicht vertraut ist.
 
-### Address only what people want to know
+### Nur das ansprechen, was die Leute wissen wollen
 
-Menschen brauchen keine übermäßig komplexen Artikel mit geringer Relevanz für sie. Figure out what you want people to accomplish when writing an article, and only include those details.
+Die Menschen brauchen keine übermäßig komplexen Artikel mit geringer Relevanz für sie. Überlege dir, was du erreichen willst, wenn du einen Artikel schreibst, und berücksichtige nur diese Details.
 
-> Tell your audience why the material is important to them. Say, “If you want a research grant, here’s what you have to do.” Or, “If you want to mine federal coal, here’s what you should know.” Or, “If you’re planning a trip to Rwanda, read this first.”
+> Erkläre deinem Publikum, warum das Material für sie wichtig ist. Sag: "Wenn du ein Forschungsstipendium willst, musst du Folgendes tun" Oder: "Wenn du staatliche Kohle abbauen willst, solltest du das hier wissen" Oder: "Wenn du eine Reise nach Ruanda planst, solltest du das zuerst lesen."
 
 ### Personen direkt ansprechen
 
-Wir schreiben *für* für eine Vielzahl von Menschen, aber wir schreiben *an* die Person, die es tatsächlich liest. Use "you" to address the reader directly.
+Wir schreiben *für* für eine Vielzahl von Menschen, aber wir schreiben *an* die Person, die es tatsächlich liest. Verwende "Du", um den Leser direkt anzusprechen.
 
-> More than any other single technique, using “you” pulls users into the information and makes it relevant to them.
+> Mehr als jede andere Technik zieht die Verwendung des "Du" die Nutzer in die Informationen hinein und macht sie für sie relevant.
 > 
-> When you use “you” to address users, they are more likely to understand what their responsibility is.
+> Wenn du die Nutzer mit "Du" ansprichst, werden sie eher verstehen, was ihre Verantwortung ist.
 
 Quelle: [plainlanguage.gov](https://www.plainlanguage.gov/guidelines/audience/address-the-user/)
 
-### Avoid "users"
+### Vermeide "Benutzer"
 
-Avoid calling people "users", in favor of "people", or a more specific description of the group of people you are writing for.
+Vermeide es, Personen als "Nutzer" zu bezeichnen, und verwende stattdessen "Personen" oder eine genauere Beschreibung der Personengruppe, für die du schreibst.
 
-## Organisieren von Inhalten
+## Organisiere Inhalte
 
 Organisieren ist der Schlüssel. Inhalte sollten von den wichtigsten zu den am wenigsten wichtigen Informationen fließen und Kopfzeilen so oft wie nötig verwendet werden, um verschiedene Ideen logisch zu trennen.
 
