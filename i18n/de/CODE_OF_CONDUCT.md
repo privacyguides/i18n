@@ -20,34 +20,34 @@ Was wir von den Mitgliedern unserer Gemeinschaften erwarten:
 
 1. **Positiv und konstruktiv verhalten**
 
-      Examples of behavior that contributes to a positive environment for our community include:
+      Beispiele für ein Verhalten, das zu einem positiven Umfeld für unsere Gemeinschaft beiträgt, sind:
 
-      - Demonstrating empathy and kindness toward other people
-      - Being respectful of differing opinions, viewpoints, and experiences
-      - Giving and gracefully accepting constructive feedback
-      - Accepting responsibility and apologizing to those affected by our mistakes, and learning from the experience
-      - Focusing on what is best not just for us as individuals, but for the overall community
+      - Einfühlungsvermögen und Freundlichkeit gegenüber anderen Menschen zeigen
+      - Respekt vor unterschiedlichen Meinungen, Standpunkten und Erfahrungen haben
+      - Konstruktives Feedback geben und freundlich annehmen
+      - Die Verantwortung für Fehler übernehmen, sich bei den Betroffenen entschuldigen und aus der Erfahrung lernen
+      - Konzentration auf das, was nicht nur für uns als Einzelpersonen, sondern für die gesamte Gemeinschaft am besten ist
 
-### Unacceptable Behavior
+### Inakzeptables Verhalten
 
-The following behaviors are considered harassment and are unacceptable within our community:
+Die folgenden Verhaltensweisen werden als Belästigung angesehen und sind in unserer Gemeinschaft inakzeptabel:
 
-- The use of sexualized language or imagery, and sexual attention or advances of any kind
-- Trolling, insulting or derogatory comments, and personal or political attacks
-- Public or private harassment
-- Publishing others' private information, such as a physical or email address, without their explicit permission
-- Other conduct which could reasonably be considered inappropriate in a professional setting
+- Die Verwendung sexualisierter Sprache oder Bilder sowie sexuelle Zuwendung oder Annäherungsversuche jeglicher Art
+- Trolling, beleidigende oder abfällige Kommentare und persönliche oder politische Angriffe
+- Öffentliche oder private Belästigung
+- Veröffentlichung privater Informationen anderer Personen, wie z. B. einer Adresse oder E-Mail-Adresse, ohne deren ausdrückliche Zustimmung
+- Sonstiges Verhalten, das in einem beruflichen Umfeld als unangemessen angesehen werden könnte
 
 ## Geltungsbereich
 
 Unser Verhaltenskodex gilt für alle Projektbereiche und auch dann, wenn eine Person das Privacy Guides Projekt in anderen Gemeinschaften vertritt.
 
-We are responsible for clarifying the standards of our community, and have the right to remove or alter the comments of those participating within our community, as necessary and at our discretion.
+Wir sind für die Klarstellung der Standards unserer Community verantwortlich und haben das Recht, die Kommentare der Teilnehmer in unserer Community zu entfernen oder zu ändern, wenn dies erforderlich ist und in unserem Ermessen liegt.
 
 ### Kontakt
 
-If you observe a problem on a platform like Matrix or Reddit, please contact our moderators on that platform in chat, via DM, or through any designated "Modmail" system.
+Wenn du ein Problem auf einer Plattform wie Matrix oder Reddit beobachtest, wende dich bitte an unsere Moderatoren auf dieser Plattform im Chat, per DM oder über ein dafür vorgesehenes "Modmail"-System.
 
-If you have a problem elsewhere, or a problem our community moderators are unable to resolve, reach out to `jonah@privacyguides.org` and/or `dngray@privacyguides.org`.
+Wenn du ein Problem an anderer Stelle hast, oder ein Problem, das unsere Community-Moderatoren nicht lösen können, wende dich an `jonah@privacyguides.org` und/oder `dngray@privacyguides.org`.
 
 Alle Verantwortlichen der Community sind verpflichtet, die Privatsphäre und die Sicherheit der Person, die einen Vorfall meldet, zu respektieren.

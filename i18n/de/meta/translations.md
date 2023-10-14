@@ -2,7 +2,7 @@
 title: Translations
 ---
 
-Crowdin has good documentation, and we suggest looking at their [Getting Started](https://support.crowdin.com/crowdin-intro/) guide. Our site is largely written in [Markdown](https://en.wikipedia.org/wiki/Markdown), so it should be easy to contribute. This page contains some helpful pointers for translating some specific syntax you may encounter on our site.
+Crowdin verfügt über eine gute Dokumentation, und wir empfehlen einen Blick in den Leitfaden [Erste Schritte](https://support.crowdin.com/crowdin-intro/) . Unsere Website ist größtenteils in [Markdown](https://de.wikipedia.org/wiki/Markdown) geschrieben, so dass es einfach sein sollte, etwas beizutragen. Diese Seite enthält einige hilfreiche Hinweise zur Übersetzung bestimmter Syntax, die dir auf unserer Website begegnen können.
 
 Please join our localization room on Matrix ([#pg-i18n:aragon.sh](https://matrix.to/#/%23pg-i18n:aragon.sh)) if you have any additional questions, and read our [announcement blog post](https://blog.privacyguides.org/2023/02/26/i18n-announcement/) for additional information about the project.
 
