@@ -148,7 +148,7 @@ Cette commande définit votre adresse MAC comme une adresse aléatoire "administ
 
 Lorsque vous vous connecterez à nouveau au réseau, vous le ferez avec une adresse MAC aléatoire. Cela sera réinitialisé lors du redémarrage.
 
-Votre adresse MAC n'est pas la seule information unique concernant votre appareil qui est diffusée sur le réseau, votre nom d'hôte est un autre élément d'information qui pourrait vous identifier de manière unique. You may wish to set your hostname to something generic like "MacBook Air", "Laptop", "John's MacBook Pro", or "iPhone" in **System Settings** > **General** > **Sharing**. Some [privacy scripts](https://github.com/sunknudsen/privacy-guides/tree/master/how-to-spoof-mac-address-and-hostname-automatically-at-boot-on-macos#guide) allow you to easily generate hostnames with random names.
+Votre adresse MAC n'est pas la seule information unique concernant votre appareil qui est diffusée sur le réseau, votre nom d'hôte est un autre élément d'information qui pourrait vous identifier de manière unique. Vous pouvez définir votre nom d'hôte avec quelque chose de générique comme "MacBook Air", "Laptop", "MacBook Pro de John", ou "iPhone" dans **Réglages système** > **Général** > **Partage**. Certains [scripts de confidentialité](https://github.com/sunknudsen/privacy-guides/tree/master/how-to-spoof-mac-address-and-hostname-automatically-at-boot-on-macos#guide) vous permettent de générer facilement des noms d'hôtes avec des noms aléatoires.
 
 ## Protections de sécurité
 

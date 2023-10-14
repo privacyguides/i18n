@@ -14,9 +14,9 @@ Vous pouvez utiliser une clé SSH existante pour la signature, ou [en créer une
    git config --global gpg.format ssh
    git config --global tag.gpgSign true
    ```
-2. Set your SSH key for signing in Git with the following command, substituting `/PATH/TO/.SSH/KEY.PUB` with the path to the public key you'd like to use, e.g. `/home/user/.ssh/id_ed25519.pub`:
+2. Définissez votre clé SSH pour la signature dans Git avec la commande suivante, en remplaçant `/CHEMIN/VERS/.SSH/KEY.PUB` par le chemin vers la clé publique que vous souhaitez utiliser, par exemple `/home/user/.ssh/id_ed25519.pub`:
    ```
-   git config --global user.signingkey /PATH/TO/.SSH/KEY.PUB
+   git config --global user.signingkey /CHEMIN/VERS/.SSH/KEY.PUB
    ```
 
 Assurez-vous que vous [ajoutez votre clé SSH à votre compte GitHub](https://docs.github.com/en/authentication/connecting-to-github-with-ssh/adding-a-new-ssh-key-to-your-github-account#adding-a-new-ssh-key-to-your-account) **en tant que clé de signature** (par opposition ou en plus qu'en tant que clé d'authentification).
