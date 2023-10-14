@@ -68,16 +68,16 @@
         <g>
             <g transform="matrix(0.423185,0,0,0.453686,63.5184,110.551)">
                 <g transform="matrix(1,0,0,1,88.7196,550.073)">
-                    <text x="0px" y="0px" style="font-family:'Helvetica';font-size:53.309px;">Your</text>
+                    <text x="0px" y="0px" style="font-family:'Helvetica';font-size:53.309px;">Dein</text>
                 </g>
                 <g transform="matrix(1,0,0,1,88.7196,616.708)">
-                    <text x="0px" y="0px" style="font-family:'Helvetica';font-size:53.309px;">Device</text>
+                    <text x="0px" y="0px" style="font-family:'Helvetica';font-size:53.309px;">Gerät</text>
                 </g>
             </g>
             <g transform="matrix(0.423185,0,0,0.423185,215.188,217.539)">
                 <g transform="matrix(53.3092,0,0,53.3092,148.162,0)">
                 </g>
-                <text x="0px" y="0px" style="font-family:'Helvetica';font-size:53.309px;">Guard</text>
+                <text x="0px" y="0px" style="font-family:'Helvetica';font-size:53.309px;">Wächter</text>
             </g>
             <g transform="matrix(0.423185,0,0,0.453686,342.481,365.105)">
                 <text x="0px" y="0px" style="font-family:'Helvetica';font-size:53.309px;">Relay</text>
@@ -204,7 +204,7 @@
             <g transform="matrix(0.423185,0,0,0.453686,924.29,375.575)">
                 <g transform="matrix(53.3092,0,0,53.3092,124.423,0)">
                 </g>
-                <text x="0px" y="0px" style="font-family:'Helvetica';font-size:53.309px;">Entry</text>
+                <text x="0px" y="0px" style="font-family:'Helvetica';font-size:53.309px;">Eingang</text>
             </g>
             <g transform="matrix(0.438175,0,0,-0.438175,616.236,496.055)">
                 <path d="M330.234,166.032L193.058,348.322L196.941,351.246L334.117,168.955L330.234,166.032Z" style="fill-rule:nonzero;"/>
