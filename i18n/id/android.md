@@ -93,9 +93,9 @@ Berikut ini adalah sistem operasi, perangkat, dan aplikasi Android yang kami rek
 
 ## Turunan AOSP
 
-We recommend installing one of these custom Android operating systems on your device, listed in order of preference, depending on your device's compatibility with these operating systems.
+Kami menyarankan untuk menginstal salah satu sistem operasi Android khusus berikut ini pada perangkat Anda, yang terdaftar dalam urutan preferensi, tergantung kompatibilitas perangkat Anda dengan sistem operasi berikut ini.
 
-!!! note
+!!! catatan
 
     End-of-life devices (such as GrapheneOS or CalyxOS's "extended support" devices) do not have full security patches (firmware updates) due to the OEM discontinuing support. These devices cannot be considered completely secure regardless of installed software.
 
@@ -106,7 +106,7 @@ We recommend installing one of these custom Android operating systems on your de
     ![GrapheneOS logo](assets/img/android/grapheneos.svg#only-light){ align=right }
     ![GrapheneOS logo](assets/img/android/grapheneos-dark.svg#only-dark){ align=right }
     
-    **GrapheneOS** is the best choice when it comes to privacy and security.
+    **GrapheneOS** adalah pilihan terbaik dalam hal privasi dan keamanan.
     
     GrapheneOS provides additional [security hardening](https://en.wikipedia.org/wiki/Hardening_(computing)) and privacy improvements. It has a [hardened memory allocator](https://github.com/GrapheneOS/hardened_malloc), network and sensor permissions, and various other [security features](https://grapheneos.org/features). GrapheneOS also comes with full firmware updates and signed builds, so verified boot is fully supported.
     
