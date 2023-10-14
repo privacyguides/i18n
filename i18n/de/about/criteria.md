@@ -2,7 +2,7 @@
 title: Allgemeine Kriterien
 ---
 
-!!! example "Work in Progress"
+!!! example "In Bearbeitung"
 
     An dieser Seite wird im Moment noch gearbeitet; sie spiegelt derzeit nicht die vollständigen Kriterien für unsere Empfehlungen wieder. Frühere Diskussion zu diesem Thema: [#24](https://github.com/privacyguides/privacyguides.org/discussions/24)
 
@@ -29,12 +29,12 @@ Wir haben diese Anforderungen an Entwickler, die eigene Projekt oder Software zu
 
 - Muss die Zugehörigkeit offenlegen, d.h. deine Position innerhalb des eingereichten Projekts.
 
-- Must have a security whitepaper if it is a project that involves handling of sensitive information like a messenger, password manager, encrypted cloud storage, etc.
+- Es muss ein Sicherheits-Whitepaper vorliegen, wenn es sich um ein Projekt handelt, das den Umgang mit sensiblen Informationen beinhaltet, wie z. B. ein Messenger, ein Passwortmanager, ein verschlüsselter Cloud-Speicher usw.
     - Status der Prüfung durch Dritte. Wir möchten wissen, ob eine vorhanden oder geplant ist. Wenn möglich, gib bitte an, wer die Prüfung durchführen wird.
 
 - Muss erklären, was das Projekt im Hinblick auf den Schutz der Privatsphäre bietet.
     - Löst es ein neues Problem?
     - Warum sollte jemand es den Alternativen vorziehen?
 
-- Must state what the exact threat model is with their project.
+- Es muss angegeben werden, was das genaue Bedrohungsmodell für das Projekt ist.
     - Den potenziellen Nutzern sollte klar sein, was das Projekt bieten kann und was nicht.
