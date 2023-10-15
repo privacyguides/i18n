@@ -204,7 +204,7 @@ Arkenfox only aims to thwart basic or naive tracking scripts through canvas rand
     
     Brave dibuat berdasarkan proyek peramban web Chromium, sehingga seharusnya terasa familier dan memiliki masalah kompatibilitas situs web yang minimal.
     
-    [:octicons-home-16: Laman Beranda](https://mullvad.net){ .md-button .md-button--primary }
+    [:octicons-home-16: Beranda](https://mullvad.net){ .md-button .md-button--primary }
     [:simple-torbrowser:](http://o54hon2e2vj6c7m3aqqu6uyece65by3vgoxxhlqlsvkmacw6a7m7kiad.onion){ .card-link title="Layanan Onion" }
     [:octicons-eye-16:](https://brave.com/privacy/browser/){ .card-link title="Kebijakan Privasi" }
     [:octicons-info-16:](https://support.brave.com/){ .card-link title=Dokumentasi}
