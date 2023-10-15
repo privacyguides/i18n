@@ -116,11 +116,11 @@ Kami menyarankan untuk menginstal salah satu sistem operasi Android khusus berik
     [:octicons-code-16:](https://grapheneos.org/source){ .card-link title="Kode Sumber" }
     [:octicons-heart-16:](https://grapheneos.org/donate){ .card-link title=Kontribusi }
 
-GrapheneOS mendukung [Sandboxed Google Play](https://grapheneos.org/usage#sandboxed-google-play), yang menjalankan [Layanan Google Play](https://en.wikipedia.org/wiki/Google_Play_Services) sepenuhnya di-sandbox seperti aplikasi biasa lainnya. This means you can take advantage of most Google Play Services, such as [push notifications](https://firebase.google.com/docs/cloud-messaging/), while giving you full control over their permissions and access, and while containing them to a specific [work profile](os/android-overview.md#work-profile) or [user profile](os/android-overview.md#user-profiles) of your choice.
+GrapheneOS mendukung [Sandboxed Google Play](https://grapheneos.org/usage#sandboxed-google-play), yang menjalankan [Layanan Google Play](https://en.wikipedia.org/wiki/Google_Play_Services) sepenuhnya di-sandbox seperti aplikasi biasa lainnya. Ini berarti Anda dapat memanfaatkan sebagian besar Layanan Google Play, seperti [notifikasi push](https://firebase.google.com/docs/cloud-messaging/), sekaligus memberi Anda kontrol penuh atas izin dan aksesnya, dan sambil memasukkannya ke [profil kerja](os/android-overview.md#work-profile) tertentu atau [profil pengguna](os/android-overview.md#user-profiles) pilihan Anda.
 
-Google Pixel phones are the only devices that currently meet GrapheneOS's [hardware security requirements](https://grapheneos.org/faq#device-support).
+Ponsel Google Pixel adalah satu-satunya perangkat yang saat ini memenuhi persyaratan keamanan perangkat keras [GrapheneOS](https://grapheneos.org/faq#device-support).
 
-[Why we recommend GrapheneOS over CalyxOS :material-arrow-right-drop-circle:](https://blog.privacyguides.org/2022/04/21/grapheneos-or-calyxos/ ""){.md-button}
+[Mengapa kami lebih merekomendasikan GrapheneOS daripada CalyxOS :material-arrow-right-drop-circle:](https://blog.privacyguides.org/2022/04/21/grapheneos-or-calyxos/ ""){.md-button}
 
 ### DivestOS
 
@@ -128,15 +128,15 @@ Google Pixel phones are the only devices that currently meet GrapheneOS's [hardw
 
     ![DivestOS logo](assets/img/android/divestos.svg){ align=right }
     
-    **DivestOS** is a soft-fork of [LineageOS](https://lineageos.org/).
+    **DivestOS** adalah fork lunak dari [LineageOS](https://lineageos.org/).
     DivestOS inherits many [supported devices](https://divestos.org/index.php?page=devices&base=LineageOS) from LineageOS. It has signed builds, making it possible to have [verified boot](https://source.android.com/security/verifiedboot) on some non-Pixel devices.
     
-    [:octicons-home-16: Homepage](https://divestos.org){ .md-button .md-button--primary }
-    [:simple-torbrowser:](http://divestoseb5nncsydt7zzf5hrfg44md4bxqjs5ifcv4t7gt7u6ohjyyd.onion){ .card-link title="Onion Service" }
-    [:octicons-eye-16:](https://divestos.org/index.php?page=privacy_policy){ .card-link title="Privacy Policy" }
-    [:octicons-info-16:](https://divestos.org/index.php?page=faq){ .card-link title=Documentation}
-    [:octicons-code-16:](https://github.com/divested-mobile){ .card-link title="Source Code" }
-    [:octicons-heart-16:](https://divested.dev/pages/donate){ .card-link title=Contribute }
+    [:octicons-home-16: Beranda](https://divestos.org){ .md-button .md-button--primary }
+    [:simple-torbrowser:](http://divestoseb5nncsydt7zzf5hrfg44md4bxqjs5ifcv4t7gt7u6ohjyyd.onion){ .card-link title="Layanan Onion" }
+    [:octicons-eye-16:](https://divestos.org/index.php?page=privacy_policy){ .card-link title="Kebijakan Privasi" }
+    [:octicons-info-16:](https://divestos.org/index.php?page=faq){ .card-link title=Dokumentasi}
+    [:octicons-code-16:](https://github.com/divested-mobile){ .card-link title="Kode Sumber" }
+    [:octicons-heart-16:](https://divested.dev/pages/donate){ .card-link title=Kontribusi }
 
 DivestOS has automated kernel vulnerability ([CVE](https://en.wikipedia.org/wiki/Common_Vulnerabilities_and_Exposures)) [patching](https://gitlab.com/divested-mobile/cve_checker), fewer proprietary blobs, and a custom [hosts](https://divested.dev/index.php?page=dnsbl) file. Its hardened WebView, [Mulch](https://gitlab.com/divested-mobile/mulch), enables [CFI](https://en.wikipedia.org/wiki/Control-flow_integrity) for all architectures and [network state partitioning](https://developer.mozilla.org/en-US/docs/Web/Privacy/State_Partitioning), and receives out-of-band updates. DivestOS also includes kernel patches from GrapheneOS and enables all available kernel security features via [defconfig hardening](https://github.com/Divested-Mobile/DivestOS-Build/blob/master/Scripts/Common/Functions.sh#L758). All kernels newer than version 3.4 include full page [sanitization](https://lwn.net/Articles/334747/) and all ~22 Clang-compiled kernels have [`-ftrivial-auto-var-init=zero`](https://reviews.llvm.org/D54604?id=174471) enabled.
 
