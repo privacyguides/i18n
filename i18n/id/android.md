@@ -110,13 +110,13 @@ Kami menyarankan untuk menginstal salah satu sistem operasi Android khusus berik
     
     GrapheneOS provides additional [security hardening](https://en.wikipedia.org/wiki/Hardening_(computing)) and privacy improvements. It has a [hardened memory allocator](https://github.com/GrapheneOS/hardened_malloc), network and sensor permissions, and various other [security features](https://grapheneos.org/features). GrapheneOS also comes with full firmware updates and signed builds, so verified boot is fully supported.
     
-    [:octicons-home-16: Homepage](https://grapheneos.org/){ .md-button .md-button--primary }
-    [:octicons-eye-16:](https://grapheneos.org/faq#privacy-policy){ .card-link title="Privacy Policy" }
-    [:octicons-info-16:](https://grapheneos.org/faq){ .card-link title=Documentation}
-    [:octicons-code-16:](https://grapheneos.org/source){ .card-link title="Source Code" }
-    [:octicons-heart-16:](https://grapheneos.org/donate){ .card-link title=Contribute }
+    [:octicons-home-16: Beranda](https://grapheneos.org/){ .md-button .md-button--primary }
+    [:octicons-eye-16:](https://grapheneos.org/faq#privacy-policy){ .card-link title="Kebijakan Privasi" }
+    [:octicons-info-16:](https://grapheneos.org/faq){ .card-link title=Dokumentasi}
+    [:octicons-code-16:](https://grapheneos.org/source){ .card-link title="Kode Sumber" }
+    [:octicons-heart-16:](https://grapheneos.org/donate){ .card-link title=Kontribusi }
 
-GrapheneOS supports [Sandboxed Google Play](https://grapheneos.org/usage#sandboxed-google-play), which runs [Google Play Services](https://en.wikipedia.org/wiki/Google_Play_Services) fully sandboxed like any other regular app. This means you can take advantage of most Google Play Services, such as [push notifications](https://firebase.google.com/docs/cloud-messaging/), while giving you full control over their permissions and access, and while containing them to a specific [work profile](os/android-overview.md#work-profile) or [user profile](os/android-overview.md#user-profiles) of your choice.
+GrapheneOS mendukung [Sandboxed Google Play](https://grapheneos.org/usage#sandboxed-google-play), yang menjalankan [Layanan Google Play](https://en.wikipedia.org/wiki/Google_Play_Services) sepenuhnya di-sandbox seperti aplikasi biasa lainnya. This means you can take advantage of most Google Play Services, such as [push notifications](https://firebase.google.com/docs/cloud-messaging/), while giving you full control over their permissions and access, and while containing them to a specific [work profile](os/android-overview.md#work-profile) or [user profile](os/android-overview.md#user-profiles) of your choice.
 
 Google Pixel phones are the only devices that currently meet GrapheneOS's [hardware security requirements](https://grapheneos.org/faq#device-support).
 

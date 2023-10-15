@@ -1,21 +1,21 @@
 ---
-meta_title: "Why Email Isn't the Best Choice for Privacy and Security - Privacy Guides"
-title: Keamanan Email
+meta_title: "Mengapa Surel Bukan Pilihan Terbaik untuk Privasi dan Keamanan - Privacy Guides"
+title: Keamanan Surel
 icon: material/email
-description: Email pada dasarnya tidak aman dalam banyak hal, dan ini adalah beberapa alasan mengapa email bukanlah pilihan utama kami untuk komunikasi yang aman.
+description: Surel pada dasarnya tidak aman dalam banyak hal, dan ini adalah beberapa alasan mengapa surel bukanlah pilihan utama kami untuk komunikasi yang aman.
 ---
 
-Email adalah bentuk komunikasi yang tidak aman secara default. Anda bisa meningkatkan keamanan email Anda dengan alat seperti OpenPGP, yang menambahkan Enkripsi End-to-End pada pesan Anda, tetapi OpenPGP masih memiliki sejumlah kekurangan dibandingkan dengan enkripsi pada aplikasi perpesanan lainnya, dan beberapa data email tidak pernah bisa dienkripsi secara inheren karena bagaimana email dirancang.
+Surel adalah bentuk komunikasi yang tidak aman secara bawaan. Anda bisa meningkatkan keamanan surel Anda dengan alat seperti OpenPGP, yang menambahkan Enkripsi End-to-End pada pesan Anda, tetapi OpenPGP masih memiliki sejumlah kekurangan dibandingkan dengan enkripsi pada aplikasi perpesanan lainnya, dan beberapa data surel tidak pernah bisa dienkripsi secara inheren karena bagaimana surel dirancang.
 
-Akibatnya, email paling baik digunakan untuk menerima email transaksional (seperti pemberitahuan, email verifikasi, pengaturan ulang kata sandi, dll.) dari layanan yang Anda daftarkan secara online, bukan untuk berkomunikasi dengan orang lain.
+Akibatnya, surel paling baik digunakan untuk menerima surel transaksional (pemberitahuan, surel verifikasi, pengaturan ulang kata sandi, dll.) dari layanan yang Anda daftarkan secara daring, bukan untuk berkomunikasi dengan orang lain.
 
-## Email Encryption Overview
+## Ikhtisar Enkripsi Surel
 
-Cara standar untuk menambahkan E2EE ke email antara penyedia email yang berbeda adalah dengan menggunakan OpenPGP. Ada beberapa implementasi yang berbeda dari standar OpenPGP, yang paling umum adalah [GnuPG](https://en.wikipedia.org/wiki/GNU_Privacy_Guard) dan [OpenPGP.js](https://openpgpjs.org).
+Cara standar untuk menambahkan E2EE ke surel antara penyedia surel yang berbeda adalah dengan menggunakan OpenPGP. Ada beberapa implementasi yang berbeda dari standar OpenPGP, yang paling umum adalah [GnuPG](https://en.wikipedia.org/wiki/GNU_Privacy_Guard) dan [OpenPGP.js](https://openpgpjs.org).
 
 Ada standar lain yang populer di kalangan bisnis yang disebut [S/MIME](https://en.wikipedia.org/wiki/S/MIME), namun standar ini membutuhkan sertifikat yang dikeluarkan dari [Certificate Authority](https://en.wikipedia.org/wiki/Certificate_authority) (tidak semua dari mereka mengeluarkan sertifikat S/MIME). Ini memiliki dukungan di [Google Workplace](https://support.google.com/a/topic/9061730?hl=en&ref_topic=9061731) dan [Outlook untuk Web atau Exchange Server 2016, 2019](https://support.office.com/en-us/article/encrypt-messages-by-using-s-mime-in-outlook-on-the-web-878c79fc-7088-4b39-966f-14512658f480).
 
-Bahkan jika Anda menggunakan OpenPGP, ia tidak mendukung kerahasiaan [forward secrecy](https://en.wikipedia.org/wiki/Forward_secrecy), yang berarti jika kunci privat Anda atau penerima dicuri, semua pesan sebelumnya yang dienkripsi dengan kunci tersebut akan terekspos. Inilah sebabnya mengapa kami merekomendasikan [instant messenger](../real-time-communication.md) yang menerapkan kerahasiaan ke depan melalui email untuk komunikasi orang-ke-orang bila memungkinkan.
+Bahkan jika Anda menggunakan OpenPGP, ini tidak mendukung [forward secrecy](https://en.wikipedia.org/wiki/Forward_secrecy), yang berarti jika kunci privat Anda atau penerima dicuri, semua pesan sebelumnya yang dienkripsi dengan kunci tersebut akan terekspos. Inilah sebabnya mengapa kami merekomendasikan [instant messenger](../real-time-communication.md) yang menerapkan kerahasiaan ke depan melalui email untuk komunikasi orang-ke-orang bila memungkinkan.
 
 ## Apa itu standar Direktori Kunci Web?
 
