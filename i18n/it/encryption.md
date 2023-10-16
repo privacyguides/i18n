@@ -80,7 +80,7 @@ La documentazione di Cryptomator ne descrive l'[obiettivo di sicurezza](https://
         - [:simple-apple: macOS](https://www.veracrypt.fr/en/Downloads.html)
         - [:simple-linux: Linux](https://www.veracrypt.fr/en/Downloads.html)
 
-VeraCrypt è una biforcazione del progetto abbandonato TrueCrypt. Secondo i suoi sviluppatori, sono stati implementati dei miglioramenti alla sicurezza e, i problemi sollevati dall'iniziale controllo del codice di TrueCrypt sono stati risolti.
+VeraCrypt è un fork del progetto abbandonato TrueCrypt. Secondo i suoi sviluppatori, sono stati implementati dei miglioramenti alla sicurezza e, i problemi sollevati dall'iniziale controllo del codice di TrueCrypt sono stati risolti.
 
 Crittografando con VeraCrypt, puoi selezionare [funzioni di hash](https://en.wikipedia.org/wiki/VeraCrypt#Encryption_scheme) differenti. Ti suggeriamo di selezionare **soltanto** [SHA-512](https://en.wikipedia.org/wiki/SHA-512), e il cifrario a blocchi [AES](https://en.wikipedia.org/wiki/Advanced_Encryption_Standard).
 

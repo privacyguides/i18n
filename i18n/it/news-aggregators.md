@@ -153,7 +153,7 @@ Reddit consente d'iscriverti ai subreddit tramite RSS.
 
 Utilizzando qualsiasi [istanza](https://github.com/zedeus/nitter/wiki/Instances) di Nitter, puoi iscriverti facilmente utilizzando RSS.
 
-!!! example
+!!! example "Esempio"
     1. Seleziona un'istanza e imposta `nitter_instance`.
     2. Sostituisci `twitter_account` con il nome del profilo.
 

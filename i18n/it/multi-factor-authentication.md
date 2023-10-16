@@ -84,7 +84,7 @@ I nostri criteri del caso migliore rappresentano cosa vorremmo vedere dal proget
 - Dovrebbe supportare l'archiviazione dei codici segreti TOTP.
 - Dovrebbe supportare gli aggiornamenti del firmware sicuri.
 
-## App d'Autenticazione
+## App di Autenticazione
 
 Le App d'Autenticazione implementano uno standard di sicurezza aadottato dalla Task Force Ingegneristica di Internet (IETF), detto **Password Una Tantum basate sul Tempo** o **TOTP**. Tramite questo metodo i siti web condividono un codice segreto con te, utilizzato dalla tua app d'autenticazione per generare un codice (solitamente) a sei cifre, a seconda dell'ora corrente, che inserisci accedendo al sito web, per verificarti. Tipicamente, questi codici sono rigenerati ogni 30 secondi e, una volta generato un nuovo codice, quello precedente diventa inutile. Anche se un hacker ottiene il codice a sei cifre, non gli sarà possibile decrittografarlo per ottenere quello originale, o per altrimenti poter prevedere quali potrebbero essere i codici futuri.
 

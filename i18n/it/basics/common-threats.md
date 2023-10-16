@@ -21,13 +21,13 @@ Alcune di queste minacce potrebbero essere per te più importanti di altre, a se
 
 <span class="pg-purple">:material-incognito: Anonimato</span>
 
-L'anonimato è spesso confuso con la privacy, ma si tratta di concetti distinti. Mentre la privacy è una serie di scelte che effettui sull'utilizzo e la condivisione dei tuoi dati, l'anonimato è la dissociazione completa delle tue attività online dalla tua identità reale.
+L'anonimato viene spesso confuso con la privacy, ma si tratta di concetti distinti. Mentre la privacy è una serie di scelte che effettui sull'utilizzo e la condivisione dei tuoi dati, l'anonimato è la dissociazione completa delle tue attività online dalla tua identità reale.
 
 Informatori e giornalisti, ad esempio, possono avere un modello di minaccia molto più estremo, che richiede il totale anonimato. Questo non prevede soltanto il nascondere ciò che fanno, quali dati possiedono e non subire violazioni da malintenzionati o governi, ma anche nascondere interamente chi sono. Spesso, sacrificheranno qualsiasi tipo di comodità per proteggere il proprio anonimato, la propria privacy o sicurezza, poiché le loro vite potrebbero dipendere da ciò. Gran parte delle persone non necessitano di così tanto.
 
 ## Sicurezza e privacy
 
-<span class="pg-orange">:material-bug-outline: Attacchi passivi</span>
+<span class="pg-orange">:material-bug-outline: Attacchi Passivi</span>
 
 La sicurezza e la privacy sono spesso confuse, poiché necessiti di sicurezza per ottenere qualsiasi parvenza di privacy: utilizzare strumenti, anche se privati di design, è futile se, questi, potrebbero essere facilmente sfruttati dai malintenzionati che, in seguito, rilasceranno i tuoi dati. Tuttavia, l'opposto non è necessariamente vero: il servizio più sicuro al mondo *non è necessariamente* privato. Il migliore esempio è affidare i dati a Google che, date le sue dimensioni, ha subito pochi incidenti di sicurezza, assumendo esperti di sicurezza leader del settore, per proteggere la propria infrastruttura. Sebbene Google offra servizi molto sicuri, pochissime persone considererebbero privati i propri dati nei prodotti gratuiti di Google per i clienti (Gmail, YouTube, etc.)
 
@@ -35,7 +35,7 @@ Per quanto riguarda la sicurezza delle applicazioni, generalmente, non sappiaamo
 
 Per minimizzare i danni che un software malevolo *potrebbe* causare, dovresti utilizzare la sicurezza per la compartimentazione. Ad esempio, ciò potrebbe presentarsi nell'utilizzo di computer differenti per lavori differenti, utilizzando macchine virtuali per separare i gruppi differenti di applicazioni correlate, o utilizzando un sistema operativo sicuro con una forte attenzione al sandboxing delle applicazioni e il controllo obbligatorio degli accessi.
 
-!!! tip
+!!! tip "Suggerimento"
 
     I sistemi operativi per mobile, generalmente, presentano un migliore sandboxing delle applicazioni, rispetto ai sistemi operativi per desktop: le app possono ottenere l'accesso di root e richiedono l'autorizzazione per accedere alle risorse di sistema.
     
@@ -45,7 +45,7 @@ Per minimizzare i danni che un software malevolo *potrebbe* causare, dovresti ut
 
 Gli attacchi mirati contro una persona specifica sono più problematici da affrontare. Gli attacchi comuni includono l'invio di documenti dannosi via email, lo sfruttamento delle vulnerabilità (es., nei browser e nei sistemi operativi) e gli attacchi fisici. Se per voi queste sono preoccupazioni, dovresti impiegare strategie di mitigazione delle minacce più avanzate.
 
-!!! tip
+!!! tip "Suggerimento"
 
     Per loro natura, i **browser web**, i **client email** e le **applicazioni per ufficio**, eseguono tipicamente del codice non attendibile, inviato da terzi. L'esecuzione di più macchine virtuali, per separare applicazioni simili dal tuo sistema di hosting, nonché da ogni altra, è una tecnica utilizzabile per mitigare la probabilità che un exploit di queste applicazioni comprometta il resto del tuo sistema. Ad esempio, le tecnologie come QubesOS o Microsoft Defender Application Guard su Windows, forniscono comodi metodi per farlo.
 
@@ -133,7 +133,7 @@ La censura sulle piattaforme aziendali è sempre più comune, in quanto piattafo
 
 Le persone preoccupate dalla minaccia della censura possono utilizzare tecnologie come [Tor](../advanced/tor-overview.md) per aggirarla, e supportare le piattaforme di comunicazione resistenti alla censura come [Matrix](../real-time-communication.md#element), prive di autorità centralizzata che possa chiudere arbitrariamente i profili.
 
-!!! tip
+!!! tip "Suggerimento"
 
     Sebbene eludere la censura stessa possa essere facile, nascondere il fatto che lo si stia facendo può essere molto problematico.
     
