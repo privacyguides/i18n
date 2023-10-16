@@ -1,5 +1,5 @@
 ---
-meta_title: "Browser Web yang Menghargai Privasi untuk PC dan Mac - Privacy Guides"
+meta_title: "Peramban Web yang Menghargai Privasi untuk PC dan Mac - Privacy Guides"
 title: "Peramban Komputer"
 icon: material/laptop
 description: Peramban web ini memberikan perlindungan privasi yang lebih kuat daripada Google Chrome.
@@ -308,32 +308,32 @@ Brave's Web3 features can potentially add to your browser fingerprint and attack
 
 ## Sumber Daya Tambahan
 
-In general, we recommend keeping your browser extensions to a minimum to decrease your attack surface; they have privileged access within your browser, require you to trust the developer, can make you [stand out](https://en.wikipedia.org/wiki/Device_fingerprint#Browser_fingerprint), and [weaken](https://groups.google.com/a/chromium.org/g/chromium-extensions/c/0ei-UCHNm34/m/lDaXwQhzBAAJ) site isolation. However, uBlock Origin may prove useful if you value content blocking functionality.
+Secara umum, kami menyarankan untuk menjaga ekstensi seminimal mungkin; ekstensi memiliki akses istimewa di dalam peramban Anda, mengharuskan Anda untuk mempercayai pengembangnya, dapat membuat Anda [lebih menonjol](https://en.wikipedia.org/wiki/Device_fingerprint#Browser_fingerprint), dan [melemahkan](https://groups.google.com/a/chromium.org/g/chromium-extensions/c/0ei-UCHNm34/m/lDaXwQhzBAAJ) isolasi situs. Namun, uBlock Origin mungkin berguna jika Anda menghargai fungsionalitas pemblokiran konten.
 
 ### uBlock Origin
 
 !!! recommendation
 
-    ![uBlock Origin logo](assets/img/browsers/ublock_origin.svg){ align=right }
+    ![logo uBlock Origin](assets/img/browsers/ublock_origin.svg){ align=right }
     
-    **uBlock Origin** is a popular content blocker that could help you block ads, trackers, and fingerprinting scripts.
+    **uBlock Origin** adalah pemblokir konten populer yang dapat membantu Anda memblokir iklan, pelacak, dan skrip sidik jari.
     
-    [:octicons-repo-16: Repository](https://github.com/gorhill/uBlock#readme){ .md-button .md-button--primary }
-    [:octicons-eye-16:](https://github.com/gorhill/uBlock/wiki/Privacy-policy){ .card-link title="Privacy Policy" }
-    [:octicons-info-16:](https://github.com/gorhill/uBlock/wiki){ .card-link title=Documentation}
-    [:octicons-code-16:](https://github.com/gorhill/uBlock){ .card-link title="Source Code" }
+    [:octicons-repo-16: Repositori](https://github.com/gorhill/uBlock#readme){ .md-button .md-button--primary }
+    [:octicons-eye-16:](https://github.com/gorhill/uBlock/wiki/Privacy-policy){ .card-link title="Kebijakan Privasi" }
+    [:octicons-info-16:](https://github.com/gorhill/uBlock/wiki){ .card-link title=Dokumentasi}
+    [:octicons-code-16:](https://github.com/gorhill/uBlock){ .card-link title="Kode Sumber" }
     
-    ??? downloads
+    ??? unduh
     
         - [:simple-firefoxbrowser: Firefox](https://addons.mozilla.org/firefox/addon/ublock-origin/)
         - [:simple-googlechrome: Chrome](https://chrome.google.com/webstore/detail/ublock-origin/cjpalhdlnbpafiamejdnhcphjbkeiagm)
         - [:simple-microsoftedge: Edge](https://microsoftedge.microsoft.com/addons/detail/ublock-origin/odfafepnkmbhccpbejgmiehpchacaeak)
 
-We suggest following the [developer's documentation](https://github.com/gorhill/uBlock/wiki/Blocking-mode) and picking one of the "modes". Additional filter lists can impact performance and [may increase attack surface](https://portswigger.net/research/ublock-i-exfiltrate-exploiting-ad-blockers-with-css).
+Kami sarankan untuk mengikuti [dokumentasi pengembang](https://github.com/gorhill/uBlock/wiki/Blocking-mode) dan memilih salah satu "mode". Daftar filter tambahan dapat memengaruhi kinerja dan [dapat meningkatkan permukaan serangan](https://portswigger.net/research/ublock-i-exfiltrate-exploiting-ad-blockers-with-css).
 
-##### Other lists
+##### Daftar lainnya
 
-These are some other [filter lists](https://github.com/gorhill/uBlock/wiki/Dashboard:-Filter-lists) that you may want to consider adding:
+Berikut ini adalah beberapa [daftar filter](https://github.com/gorhill/uBlock/wiki/Dashboard:-Filter-lists) lainnya yang mungkin Anda ingin pertimbangkan untuk meambahkannya:
 
 - [x] Check **Privacy** > **AdGuard URL Tracking Protection**
 - Add [Actually Legitimate URL Shortener Tool](https://raw.githubusercontent.com/DandelionSprout/adfilt/master/LegitimateURLShortener.txt)
@@ -349,18 +349,18 @@ These are some other [filter lists](https://github.com/gorhill/uBlock/wiki/Dashb
 ### Persyaratan Minimum
 
 - Harus berupa perangkat lunak sumber terbuka.
-- Supports automatic updates.
-- Receives engine updates in 0-1 days from upstream release.
-- Available on Linux, macOS, and Windows.
-- Any changes required to make the browser more privacy-respecting should not negatively impact user experience.
-- Blocks third-party cookies by default.
+- Mendukung pembaruan otomatis.
+- Menerima pembaruan mesin dalam 0-1 hari sejak rilis hulu.
+- Tersedia di Linux, macOS, dan Windows.
+- Perubahan apa pun yang diperlukan untuk membuat peramban lebih menghargai privasi tidak boleh berdampak negatif pada pengalaman pengguna.
+- Memblokir kuki pihak ketiga secara bawaan.
 - Supports [state partitioning](https://developer.mozilla.org/en-US/docs/Web/Privacy/State_Partitioning) to mitigate cross-site tracking.[^1]
 
 ### Kasus Terbaik
 
 Kriteria kasus terbaik kami mewakili apa yang ingin kami lihat dari proyek yang sempurna dalam kategori ini. Rekomendasi kami mungkin tidak menyertakan salah satu atau semua fungsi ini, tetapi rekomendasi yang menyertakan fungsi ini mungkin memiliki peringkat yang lebih tinggi daripada yang lain di halaman ini.
 
-- Includes built-in content blocking functionality.
+- Memiliki fungsionalitas pemblokiran konten bawaan.
 - Supports cookie compartmentalization (à la [Multi-Account Containers](https://support.mozilla.org/en-US/kb/containers)).
 - Supports Progressive Web Apps.  
   PWAs enable you to install certain websites as if they were native apps on your computer. This can have advantages over installing Electron-based apps, because you benefit from your browser's regular security updates.
