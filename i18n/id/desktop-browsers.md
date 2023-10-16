@@ -360,18 +360,18 @@ Berikut ini adalah beberapa [daftar filter](https://github.com/gorhill/uBlock/wi
 
 Kriteria kasus terbaik kami mewakili apa yang ingin kami lihat dari proyek yang sempurna dalam kategori ini. Rekomendasi kami mungkin tidak menyertakan salah satu atau semua fungsi ini, tetapi rekomendasi yang menyertakan fungsi ini mungkin memiliki peringkat yang lebih tinggi daripada yang lain di halaman ini.
 
-- Memiliki fungsionalitas pemblokiran konten bawaan.
-- Supports cookie compartmentalization (à la [Multi-Account Containers](https://support.mozilla.org/en-US/kb/containers)).
-- Supports Progressive Web Apps.  
-  PWAs enable you to install certain websites as if they were native apps on your computer. This can have advantages over installing Electron-based apps, because you benefit from your browser's regular security updates.
-- Does not include add-on functionality (bloatware) that does not impact user privacy.
-- Does not collect telemetry by default.
-- Provides open-source sync server implementation.
-- Defaults to a [private search engine](search-engines.md).
+- Mencantumkan fungsionalitas pemblokiran konten bawaan.
+- Mendukung kompartementalisasi kuki (ala [Multi-Account Containers](https://support.mozilla.org/en-US/kb/containers)).
+- Mendukung Progressive Web App.  
+  PWA memungkinkan Anda menginstal situs web tertentu seolah-olah itu adalah aplikasi asli di komputer Anda. Hal ini dapat memberikan keuntungan dibandingkan memasang aplikasi berbasis Electron, karena Anda mendapatkan manfaat dari pembaruan keamanan reguler peramban Anda.
+- Tidak mencantumkan fungsionalitas tambahan (bloatware) yang tidak memengaruhi privasi pengguna.
+- Tidak mengumpulkan telemetri secara bawaan.
+- Menyediakan implementasi server sinkronisasi sumber terbuka.
+- Menggunakan [mesin pencari pribadi](search-engines.md) secara bawaan.
 
-### Extension Criteria
+### Kriteria Ekstensi
 
-- Must not replicate built-in browser or OS functionality.
-- Must directly impact user privacy, i.e. must not simply provide information.
+- Tidak boleh mereplikasi fungsionalitas browser atau OS bawaan.
+- Harus secara langsung berdampak pada privasi pengguna, yaitu tidak boleh hanya memberikan informasi.
 
 [^1]: Brave's implementation is detailed at [Brave Privacy Updates: Partitioning network-state for privacy](https://brave.com/privacy-updates/14-partitioning-network-state/).
