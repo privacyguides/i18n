@@ -15,25 +15,25 @@ Una VPN può essere d'aiuto in quanto può spostare la fiducia su un server in u
 
 **Sì**, a meno che tu non stia già utilizzando Tor. Una VPN svolge due funzioni: spostare i rischi dall'Internet Service Provider a se stesso e nascondere l'IP da un servizio di terze parti.
 
-Le VPN non possono criptare i dati al di fuori della connessione tra il dispositivo e il server VPN. I fornitori di VPN possono vedere e modificare il traffico proprio come l'ISP. E non c'è modo di verificare in alcun modo le politiche di "no logging" di un provider VPN.
+Le VPN non possono criptare i dati al di fuori della connessione tra il dispositivo e il server VPN. I fornitori di VPN possono vedere e modificare il tuo traffico proprio come il tuo ISP. E non c'è modo di verificare in alcun modo le politiche di "no logging" di un provider VPN.
 
 Tuttavia, nascondono il tuo IP reale da un servizio di terze parti, a condizione che non ci siano fughe dell'IP. Aiutano a confonderti con gli altri e ad attenuare il tracciamento basato sull'IP.
 
 ## Quando non dovrei usare una VPN?
 
-È inutile utilizzare una VPN nei casi in cui si utilizza la [propria identità](common-misconceptions.md#complicated-is-better).
+È inutile utilizzare una VPN nei casi in cui stai utilizzando la tua [identità conosciuta](common-misconceptions.md#complicated-is-better).
 
 In questo modo si possono attivare sistemi di spam e di rilevamento delle frodi, come nel caso in cui si acceda al sito web della propria banca.
 
 ## E la crittografia?
 
-La crittografia offerta dai fornitori di VPN avviene tra i propri dispositivi e i loro server. Garantisce che questo specifico collegamento è sicuro. Si tratta di un passo avanti rispetto all'uso di proxy non criptati, dove un avversario sulla rete può intercettare le comunicazioni tra i propri dispositivi e tali proxy e modificarle. Tuttavia, la crittografia tra le app o i browser e i fornitori di servizi non è gestita da questa crittografia.
+La crittografia offerta dai fornitori di VPN avviene tra i propri dispositivi e i loro server. Garantisce che questo specifico collegamento è sicuro. Si tratta di un passo avanti rispetto all'uso di proxy non criptati, dove un avversario sulla rete può intercettare le comunicazioni tra i tuoi dispositivi e tali proxy e modificarle. Tuttavia, la crittografia tra le tue app o browser con i fornitori di servizi non è gestita da questa crittografia.
 
-Per garantire la riservatezza e la sicurezza di ciò che si fa sui siti web visitati, è necessario utilizzare il protocollo HTTPS. In questo modo le password, i token di sessione e le query saranno al sicuro dal provider VPN. Considera di abilitare "HTTPS ovunque" nel browser per mitigare gli attacchi di downgrade come [SSL Strip](https://www.blackhat.com/presentations/bh-dc-09/Marlinspike/BlackHat-DC-09-Marlinspike-Defeating-SSL.pdf).
+Per garantire la riservatezza e la sicurezza di ciò che fai sui siti web che visiti, devi utilizzare il protocollo HTTPS. In questo modo le tue password, i token di sessione e le query saranno al sicuro dal fornitore VPN. Considera di abilitare "HTTPS ovunque" nel browser per mitigare gli attacchi di downgrade come [SSL Strip](https://www.blackhat.com/presentations/bh-dc-09/Marlinspike/BlackHat-DC-09-Marlinspike-Defeating-SSL.pdf).
 
 ## Dovrei utilizzare un DNS criptato con una VPN?
 
-A meno che il provider VPN non ospiti i server DNS criptati, **no**. L'utilizzo di DOH/DOT (o di qualsiasi altra forma di DNS crittografato) con server di terze parti aggiungerà semplicemente altre entità di cui fidarsi e non farà **assolutamente nulla** per migliorare la privacy o la sicurezza. Il provider VPN può comunque vedere quali siti web visiti in base agli indirizzi IP e ad altri metodi. Invece di fidarti solo del provider VPN, ora ti fidi sia del provider VPN che del provider DNS.
+A meno che il provider VPN non ospiti i server DNS criptati, **no**. L'utilizzo di DOH/DOT (o di qualsiasi altra forma di DNS crittografato) con server di terze parti aggiungerà semplicemente altre entità di cui fidarsi e non farà **assolutamente nulla** per migliorare la privacy o la sicurezza. Il tuo fornitore VPN può comunque vedere quali siti web visiti in base agli indirizzi IP e ad altri metodi. Invece di fidarti solo del provider VPN, ora ti fidi sia del provider VPN che del provider DNS.
 
 Un motivo comune per raccomandare il DNS crittografato è che aiuta a contrastare lo spoofing DNS. Tuttavia, il browser dovrebbe già verificare la presenza di [certificati TLS](https://en.wikipedia.org/wiki/Transport_Layer_Security#Digital_certificates) con **HTTPS** e avvisare l'utente. Se non stai utilizzando **HTTPS**, un avversario può comunque modificare qualsiasi cosa oltre alle query DNS e il risultato finale sarà poco diverso.
 
