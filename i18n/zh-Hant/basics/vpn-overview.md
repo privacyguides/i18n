@@ -21,7 +21,7 @@ VPN 確實可向第三方服務隱藏您的實際 IP ，但前提是IP 沒被洩
 
 ## 什麼時候不該使用 VPN ？
 
-Using a VPN in cases where you're using your [known identity](common-misconceptions.md#complicated-is-better) is unlikely be useful.
+若使用 [已被辨識出身份](common-misconceptions.md#complicated-is-better)的情況，VPN 通常就失去效用。
 
 這樣做可能會觸發垃圾郵件和欺詐偵測系統，例如您正試圖登入銀行網站。
 

@@ -88,7 +88,10 @@ Truecrypt 已完成[多次審計](https://en.wikipedia.org/wiki/TrueCrypt#Securi
 
 ## 作業系統完整磁碟加密
 
-For encrypting the drive your operating system boots from, we generally recommend enabling the encryption software that comes with your operating system rather than using a third-party tool. This is because your operating system's native encryption tools often make use of OS and hardware-specific features like the [secure cryptoprocessor](https://en.wikipedia.org/wiki/Secure_cryptoprocessor) in your device to protect your computer against more advanced physical attacks. For secondary drives and external drives which you *don't* boot from, we still recommend using open-source tools like [VeraCrypt](#veracrypt-disk) over the tools below, because they offer additional flexibility and let you avoid vendor lock-in.
+加密開機用的作業系統，我們通常建議使用其隨附的加密軟體，而不是第三方工具。 因為作業系統原生的加密工具通常會使用作業系統和硬體特定的功能，例如裝置中的[安全加密處理器](https://en.wikipedia.org/wiki/Secure_cryptoprocessor)保護電腦免於進階的實體攻擊。 至於*非開機用*的輔助磁碟和外接硬碟，我們則建議使用開源工具，例如
+VeraCrypt< /a> ，因為它們提供了額外的靈活性避免供應商鎖定。</p> 
+
+
 
 ### BitLocker
 
@@ -96,39 +99,52 @@ For encrypting the drive your operating system boots from, we generally recommen
 
     ![BitLocker logo](assets/img/encryption-software/bitlocker.png){ align=right }
     
-    **BitLocker** 是 Microsoft Windows 捆綁的全磁區加密解決方案。 The main reason we recommend it for encrypting your boot drive is because of its [use of TPM](https://docs.microsoft.com/en-us/windows/security/information-protection/tpm/how-windows-uses-the-tpm). ElcomSoft, a forensics company, has written about this feature in [Understanding BitLocker TPM Protection](https://blog.elcomsoft.com/2021/01/understanding-BitLocker-tpm-protection/).
+    **BitLocker** 是 Microsoft Windows 捆綁的全磁區加密解決方案。 我們推薦利用它加密開機設備，因為其[使用 TPM](https://docs.microsoft.com/en-us/windows/security/information-protection/tpm/how-windows-uses-the-tpm). 鑑證公司 ElcomSoft 曾撰寫過此功能的相關介紹 [Understanding BitLocker TPM Protection](https://blog.elcomsoft.com/2021/01/understanding-BitLocker-tpm-protection/).
     
     [:octicons-info-16:](https://docs.microsoft.com/en-us/windows/security/information-protection/BitLocker/BitLocker-overview){ .card-link title=Documentation}
+    
 
 BitLocker [僅支援](https://support.microsoft.com/en-us/windows/turn-on-device-encryption-0c453637-bc88-5f74-5105-741561aae838)  Windows 專業版、企業版和教育版。 它可以在家庭版上啓用，只要符合先決條件。
 
 ??? example "在Windows Home上啓用BitLocker"
 
-    若要在 Windows 家用版啟用 BitLocker ，必須使用 [GUID 分割表](https://zh.wikipedia.org/wiki/GUID_Partition_Table) 格式化的分割區，並且具有專用的TPM (v1.2, 2.0+)模組。 You may need to [disable the non-Bitlocker "Device encryption" functionality](https://discuss.privacyguides.net/t/enabling-bitlocker-on-the-windows-11-home-edition/13303/5) (which is inferior because it sends your recovery key to Microsoft's servers) if it is enabled on your device already before following this guide.
+    若要在 Windows 家用版啟用 BitLocker ，必須使用 [GUID 分割表](https://zh.wikipedia.org/wiki/GUID_Partition_Table) 格式化的分割區，並且具有專用的TPM (v1.2, 2.0+)模組。 如果在遵循本指南之前已在裝置上啟用，則要[停用非Bitlocker「裝置加密」功能](https://discuss.privacyguides.net/t/enabling-bitlocker-on-the-windows-11-home-edition/13303/5)(因為它會將您的復原金鑰傳送到Microsoft 的伺服器)。
+    
 
-    1. 開啟命令提示符，並使用以下命令檢查磁碟機的分區表格格式。 您應該會在“分區樣式”下方看到“**GPT**” ：
+    1. 開啟命令提示符，並使用以下命令檢查磁碟機的分區表格格式。 您應該會在“分區樣式”下方看到“**GPT**” ： 
+       
+       
 
         ```
         powershell Get-Disk
         ```
 
-    2. 在管理員命令提示符中執行此命令以檢查您的TPM版本。 您應該會在 `個SpecVersion`旁邊看到 `2.0` 或 `1.2` ：
+
+    2. 在管理員命令提示符中執行此命令以檢查您的TPM版本。 您應該會在 `個SpecVersion`旁邊看到 `2.0` 或 `1.2` ： 
+       
+       
 
         ```
         powershell Get-WmiObject -Namespace "root/cimv2/security/microsofttpm" -Class WIN32_tpm
         ```
 
+
     3. 訪問[進階啟動選項](https://support.microsoft.com/en-us/windows/advanced-startup-options-including-safe-mode-b90e7808-80b5-a291-d4b8-1a1af602b617). 重新啟動時需要在 Windows 啟動前按下F8 鍵，然後進入 *命令提示符* in **疑難排解** → **進階選項** → **命令提示符**。
 
-    4. 使用管理員帳戶登入並在命令提示符中輸入指令以開始加密：
+    4. 使用管理員帳戶登入並在命令提示符中輸入指令以開始加密： 
+       
+       
 
         ```
         manage-bde -on c: -used
         ```
 
+
     5. 關閉命令提示符並繼續啟動正常Windows。
 
-    6. 打開 admin 命令提示符並運行以下命令：
+    6. 打開 admin 命令提示符並運行以下命令： 
+       
+       
 
         ```
         manage-bde c: -protectors -add -rp -tpm
@@ -136,9 +152,13 @@ BitLocker [僅支援](https://support.microsoft.com/en-us/windows/turn-on-device
         manage-bde -protectors -get c: > %UserProfile%\Desktop\BitLocker-Recovery-Key.txt
         ```
 
-        !!! tip "訣竅"
+   
+   !!! tip "訣竅"
    
         將桌面上的「BitLocker-Recovery-Key.txt」備份到單獨的儲存裝置。 若遺失恢復代碼可能會導致資料無法回復。
+       
+
+
 
 ### FileVault
 
@@ -149,8 +169,11 @@ BitLocker [僅支援](https://support.microsoft.com/en-us/windows/turn-on-device
     **FileVault** 是 macOS 內建的即時磁區加密方案。 建議使用FileVault ，因為它打抵擋 Apple silicon SoC 或 T2 安全晶片 [硬體安全問題](https://support.apple.com/guide/security/volume-encryption-with-filevault-sec4c6dc1b6e/web)。
     
     [:octicons-info-16:](https://support.apple.com/guide/mac-help/encrypt-mac-data-with-filevault-mh11785/mac){ .card-link title=Documentation}
+    
 
 我們建議您將本地恢復金鑰存放在安全的地方，而不是使用您的iCloud 帳戶進行恢復。
+
+
 
 ### Linux Unified Key設定
 
@@ -163,8 +186,11 @@ BitLocker [僅支援](https://support.microsoft.com/en-us/windows/turn-on-device
     [:octicons-home-16: Homepage](https://gitlab.com/cryptsetup/cryptsetup/-/blob/main/README.md){ .md-button .md-button--primary }
     [:octicons-info-16:](https://gitlab.com/cryptsetup/cryptsetup/-/wikis/home){ .card-link title=Documentation}
     [:octicons-code-16:](https://gitlab.com/cryptsetup/cryptsetup/){ .card-link title="Source Code" }
+    
 
-??? example "建立和開啟加密容器"
+??? example "建立和開啟加密容器" 
+
+
 
     ```
     dd if=/dev/urandom of=/path-to-file bs=1M count=1024 status=progress
@@ -174,22 +200,34 @@ BitLocker [僅支援](https://support.microsoft.com/en-us/windows/turn-on-device
 
     #### 開啟加密容器
     建議使用'udisksctl`開啟容器和磁區，因為這使用 [Polkit](https://en.wikipedia.org/wiki/Polkit)。 大多數檔案管理器，例如流行的桌面環境中包含的檔案管理器，都可以解鎖加密的檔案。 [udiskie](https://github.com/coldfix/udiskie) 這類工具執行在系統常駐區並提供有用的使用介面。
+    
+
+
     ```
     udisksctl loop-setup -f /path-to-file
     udisksctl unlock -b /dev/loop0
     ```
 
+
 !!! note "記得備份磁區標頭"
 
     我們建議您務必 [備份您的LUKS標頭](https://wiki.archlinux.org/title/Dm-crypt/Device_encryption#Backup_and_restore) 以防部分驅動器故障。 可以通過以下方式完成：
+    
+
+
 
     ```
     cryptsetup luksHeaderBackup /dev/device --header-backup-file /mnt/backup/file.img
     ```
 
+
+
+
 ## 瀏覽器端
 
 當您需要加密檔案但無法在裝置上安裝軟體或應用程式時，透過瀏覽器來加密可能很有用。
+
+
 
 ### hat.sh
 
@@ -205,10 +243,15 @@ BitLocker [僅支援](https://support.microsoft.com/en-us/windows/turn-on-device
     [:octicons-info-16:](https://hat.sh/about/){ .card-link title=Documentation}
     [:octicons-code-16:](https://github.com/sh-dv/hat.sh){ .card-link title="Source Code" }
     [:octicons-heart-16:](https://github.com/sh-dv/hat.sh#donations){ .card-link title="Donations methods can be found at the bottom of the website" }
+    
+
+
 
 ## 命令列
 
 命令行界面的工具可用於集成 [shell 腳本](https://en.wikipedia.org/wiki/Shell_script)。
+
+
 
 ### Kryptor
 
@@ -229,6 +272,9 @@ BitLocker [僅支援](https://support.microsoft.com/en-us/windows/turn-on-device
         - [:simple-windows11: Windows](https://www.kryptor.co.uk)
         - [:simple-apple: macOS](https://www.kryptor.co.uk)
         - [:simple-linux: Linux](https://www.kryptor.co.uk)
+    
+
+
 
 ### Tomb
 
@@ -242,6 +288,9 @@ BitLocker [僅支援](https://support.microsoft.com/en-us/windows/turn-on-device
     [:octicons-info-16:](https://github.com/dyne/Tomb/wiki){ .card-link title=Documentation}
     [:octicons-code-16:](https://github.com/dyne/Tomb){ .card-link title="Source Code" }
     [:octicons-heart-16:](https://www.dyne.org/donate){ .card-link title=Contribute }
+    
+
+
 
 ## OpenPGP
 
@@ -252,10 +301,16 @@ OpenPGP 有時需要執行特定任務，例如數位簽署和加密電子郵件
 !!! tip "在生成金鑰時使用未來的預設值"
 
     [生成密鑰](https://www.gnupg.org/gph/en/manual/c14.html) 時，建議使用`future-default`命令，因為這將指示 GnuPG 使用現代密碼學，例如 [Curve25519](https://en.wikipedia.org/wiki/Curve25519#History) 和 [Ed25519](https://ed25519.cr.yp.to/) ：
+    
+
+
 
     ```bash
     gpg --quick-gen-key alice@example.com future-default
     ```
+
+
+
 
 ### GNU Privacy Guard
 
@@ -276,6 +331,9 @@ OpenPGP 有時需要執行特定任務，例如數位簽署和加密電子郵件
         - [:simple-windows11: Windows](https://gpg4win.org/download.html)
         - [:simple-apple: macOS](https://gpgtools.org)
         - [:simple-linux: Linux](https://gnupg.org/download/index.html#binary)
+    
+
+
 
 ### GPG4win
 
@@ -294,12 +352,16 @@ OpenPGP 有時需要執行特定任務，例如數位簽署和加密電子郵件
     ??? downloads "下載"
     
         - [:simple-windows11: Windows](https://gpg4win.org/download.html)
+    
+
+
 
 ### GPG Suite
 
 !!! note "備註"
 
     我們建議 [Canary Mail](email-clients.md#canary-mail) 在iOS裝置上使用PGP和電子郵件。
+    
 
 !!! recommendation
 
@@ -317,6 +379,9 @@ OpenPGP 有時需要執行特定任務，例如數位簽署和加密電子郵件
     ??? downloads "下載"
     
         - [:simple-apple: macOS](https://gpgtools.org)
+    
+
+
 
 ### OpenKeychain
 
@@ -334,6 +399,9 @@ OpenPGP 有時需要執行特定任務，例如數位簽署和加密電子郵件
     ??? downloads "下載"
     
         - [:simple-googleplay: Google Play](https://play.google.com/store/apps/details?id=org.sufficientlysecure.keychain)
+    
+
+
 
 ## 標準
 
@@ -342,6 +410,9 @@ OpenPGP 有時需要執行特定任務，例如數位簽署和加密電子郵件
 !!! example "此部分是新的"
 
     我們正在努力為這個網站的各個部分建立明確標準，它可能依情況變化。 如果您對我們的標準有任何疑問，請在 [論壇上提問](https://discuss.privacyguides.net/latest) ，如果沒有列出，請不要認為我們在提出建議時沒有考慮到某些事情。 當我們推薦一個項目時，有許多因素被考慮和討論，記錄每一個項目都是正在進行式。
+    
+
+
 
 ### 最低合格要求
 
@@ -349,6 +420,8 @@ OpenPGP 有時需要執行特定任務，例如數位簽署和加密電子郵件
 - 檔案加密應用程式必須支援 Linux、macOS 和 Windows 的解密。
 - 外部磁碟加密應用程式必須支援 Linux、macOS 和 Windows 的解密。
 - 作業系統內部磁碟加密應用程式必須是跨平臺或原生內建作業系統。
+
+
 
 ### 最好的情况
 

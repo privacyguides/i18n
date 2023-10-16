@@ -14,7 +14,7 @@ title: Git 使用建議
    git config --global gpg.format ssh
    git config --global tag.gpgSign true
    ```
-2. Set your SSH key for signing in Git with the following command, substituting `/PATH/TO/.SSH/KEY.PUB` with the path to the public key you'd like to use, e.g. `/home/user/.ssh/id_ed25519.pub`:
+2. 透過下方指令來設定簽署 Git 的 SSH 密鑰，把 `/PATH/TO/.SSH/KEY.PUB` 替換成存放公鑰的路徑，如 `/home/user/.ssh/id_ed25519.pub`:
    ```
    git config --global user.signingkey /PATH/TO/.SSH/KEY.PUB
    ```

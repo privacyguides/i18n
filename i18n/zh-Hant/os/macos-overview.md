@@ -124,31 +124,31 @@ Apple 產品的大多數隱私和安全問題與其*雲服務*有關，而不是
 
 在較舊的 Intel 的 Mac 電腦，FileVault 是預設唯一可用的磁盤加密形式，應始終啟用。
 
-- [x] Click **Turn On**
+- [x] 點擊 **開啟**
 
 ##### 封閉模式
 
 [封閉模式](https://blog.privacyguides.org/2022/10/27/macos-ventura-privacy-security-updates/#lockdown-mode) 禁用某些功能以提高安全性。 某些應用程式或功能在封閉時將無法正常工作，例如 [JIT](https://hacks.mozilla.org/2017/02/a-crash-course-in-just-in -time-jit- compilers/) 和[WASM](https://developer.mozilla.org/en-US/docs/WebAssembly) 在封閉模式下會被Safari 關閉。 建議啟用封閉模式看看它是否會顯著影響您的使用，它所做的許多更改都很容易接受。
 
-- [x] Click **Turn On**
+- [x] 點擊 **開啟**
 
 ### MAC 地址隨機化
 
-macOS uses a randomized MAC address when performing Wi-Fi scans while disconnected from a network. However, when you connect to a preferred Wi-Fi network, the MAC address used is never randomized. Full MAC address randomization is an advanced topic, and most people don't need to worry about performing the following steps.
+網路斷開時執行 Wi-Fi 掃描，macOS 使用隨機 MAC 位址。 但是，當連接到首選 Wi-Fi 網路時，所用的 MAC 位址不會隨機化。 完整 MAC 位址隨機化是一個進階課題，大多數人不需要擔心執行以下步驟。
 
-Unlike iOS, macOS doesn't give you an option to randomize your MAC address in the settings, so if you wish to change this identifier, you'll need to do it with a command or a script. To set a random MAC address, first disconnect from the network if you're already connected, then open **Terminal** and enter this command to randomize your MAC address:
+不同於iOS，macOS 設定中不提供隨機化 MAC 位址選項，因此如想變更此標識符，則需要使用命令或腳本來完成。 若要設定隨機 MAC 位址，如已連線請先中斷網路連線，然後開啟**終端機**並輸入下列指令以隨機化 MAC 位址：
 
 ``` zsh
 openssl rand -hex 6 | sed 's/^\(.\{1\}\)./\12/; s/\(..\)/\1:/g; s/.$//' | xargs sudo ifconfig en0 ether
 ```
 
-`en0` is the name of the interface you're changing the MAC address for. 這可能並不適合每台 Mac，因此要進行檢查，可以按住 option 鍵並單擊螢幕右上角的 Wi-Fi 符號。 "Interface name" should be displayed at the top of the dropdown menu.
+`en0` 為變更其 MAC 位址的介面名稱。 這可能並不適合每台 Mac，因此要進行檢查，可以按住 option 鍵並單擊螢幕右上角的 Wi-Fi 符號。 “介面名稱”應顯示在下拉式選單的頂部。
 
-This command sets your MAC address to a randomized, "locally administered" address, matching the behavior of iOS, Windows, and Android's MAC address randomization features. This means that every character in the MAC address is fully randomized except the second character, which denotes the MAC address as *locally administered* and not in conflict with any actual hardware. This method is most compatible with modern networks. An alternative method is to set the first six characters of the MAC address to one of Apple's existing *Organizational Unique Identifiers*, which we'll leave as an exercise to the reader. That method is more likely to conflict with some networks, but may be less noticeable. Given the prevalence of randomized, locally administered MAC addresses in other modern operating systems, we don't think either method has significant privacy advantages over the other.
+這個指令會將 MAC 位址設定為隨機的「本機管理」位址，與 iOS、Windows 和 Android 的 MAC 位址隨機化功能的行為相符。 這意味著MAC 位址中的每個字符都是完全隨機的，除了第二個字符，它表示MAC 位址是*本地管理的*並且不與任何實際硬體衝突。 此方法與現代網路最相容。 另一種方法是將 MAC 位址的前六個字元設定為 Apple 現有的*組織唯一識別碼*之一，我們將其留給讀者練習。 該方法可能更容易與某些網路發生衝突，但較不被注意。 鑑於其他現代作業系統中隨機、本地管理的 MAC 位址已普遍存在，我們認為這兩種方法都不具有顯著的隱私優勢。
 
-When you connect to the network again, you'll connect with a random MAC address. 這將在重新開機時重置。
+再次連接到網路時，將使用隨機 MAC 位址來連線。 這將在重新開機時重置。
 
-Your MAC address is not the only unique information about your device which is broadcast on the network, your hostname is another piece of information which could uniquely identify you. You may wish to set your hostname to something generic like "MacBook Air", "Laptop", "John's MacBook Pro", or "iPhone" in **System Settings** > **General** > **Sharing**. Some [privacy scripts](https://github.com/sunknudsen/privacy-guides/tree/master/how-to-spoof-mac-address-and-hostname-automatically-at-boot-on-macos#guide) allow you to easily generate hostnames with random names.
+網路上廣播的 MAC 位址並不是唯一透露裝置身份的訊息，主機名稱是另一個可識別身份的訊息。 您可能想要在**系統設定**中將主機名稱設定為通用名稱，例如「MacBook Air」、「Laptop」、「John's MacBook Pro」或「iPhone」&# 062 ; **常規** > **分享**。 某些[隱私權腳本](https://github.com/sunknudsen/privacy-guides/tree/master/how-to-spoof-mac-address-and-hostname-automatically-at-boot-on-macos#guide)可輕鬆產生隨機的主機名稱。
 
 ## 安全保護
 
