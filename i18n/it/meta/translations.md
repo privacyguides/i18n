@@ -6,7 +6,7 @@ Crowdin ha una buona documentazione, e suggeriamo di consultare la loro guida [P
 
 Ti preghiamo di unirti alla nostra stanza di localizzazione su Matrix ([#pg-i18n:aragon.sh](https://matrix.to/#/%23pg-i18n:aragon.sh)), se hai qualsiasi ulteriore domanda, e di leggere i [post del nostro blog di annunci](https://blog.privacyguides.org/2023/02/26/i18n-announcement/), per ulteriori informazioni sul progetto.
 
-Nota che la versione in inglese del sito è la versione principale, a significare che le modifiche si verificano lì per prime. Se noti che una lingua non è aggiornata, ti preghiamo di contribuire. Non possiamo garantire l'accuratezza di tutte le nostre traduzioni. Se hai un suggerimento sui contenuti specifici della tua regione, ti preghiamo di aprire un ticket o una richiesta di pull, nella nostra [repository principale](https://github.com/privacyguides/privacyguides.org).
+Nota che la versione in inglese del sito è la versione principale, a significare che le modifiche si verificano lì per prime. Se noti che una lingua non è aggiornata, ti preghiamo di contribuire. Non possiamo garantire l'accuratezza di tutte le nostre traduzioni. Se hai un suggerimento sui contenuti specifici della tua regione, ti preghiamo di aprire un ticket o una richiesta di pull, nel nostro [repository principale](https://github.com/privacyguides/privacyguides.org).
 
 ## Ammonimenti
 
