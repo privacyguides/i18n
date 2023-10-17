@@ -106,9 +106,9 @@ Proton Mail tidak menawarkan fitur warisan digital.
     
     **Mailbox.org** is an email service with a focus on being secure, ad-free, and privately powered by 100% eco-friendly energy. Mereka telah beroperasi sejak 2014. Mailbox.org berbasis di Berlin, Jerman. Akun dimulai dengan penyimpanan 2 GB, yang dapat ditingkatkan sesuai kebutuhan.
     
-    [:octicons-home-16: Homepage](https://mailbox.org){ .md-button .md-button--primary }
-    [:octicons-eye-16:](https://mailbox.org/en/data-protection-privacy-policy){ .card-link title="Privacy Policy" }
-    [:octicons-info-16:](https://kb.mailbox.org/en/private){ .card-link title=Documentation}
+    [:octicons-home-16: Beranda](https://mailbox.org){ .md-button .md-button--primary }
+    [:octicons-eye-16:](https://mailbox.org/en/data-protection-privacy-policy){ .card-link title="Kebijakan Privasi" }
+    [:octicons-info-16:](https://kb.mailbox.org/en/private){ .card-link title=Dokumentasi}
     
     ??? unduhan
     
@@ -120,17 +120,17 @@ Mailbox.org lets you use your own domain, and they support [catch-all](https://k
 
 #### :material-check:{ .pg-green } Metode Pembayaran Pribadi
 
-Mailbox.org doesn't accept any cryptocurrencies as a result of their payment processor BitPay suspending operations in Germany. Namun, mereka menerima uang tunai melalui pos, pembayaran tunai ke rekening bank, transfer bank, kartu kredit, PayPal, dan beberapa prosesor khusus Jerman: paydirekt dan Sofortüberweisung.
+Mailbox.org tidak menerima Bitcoin atau mata uang kripto lainnya sebagai karena prosesor pembayaran mereka BitPay menangguhkan operasi di Jerman. Namun, mereka menerima uang tunai melalui pos, pembayaran tunai ke rekening bank, transfer bank, kartu kredit, PayPal, dan beberapa prosesor khusus Jerman: paydirekt dan Sofortüberweisung.
 
 #### :material-check:{ .pg-green } Keamanan Akun
 
-Mailbox.org supports [two factor authentication](https://kb.mailbox.org/display/MBOKBEN/How+to+use+two-factor+authentication+-+2FA) for their webmail only. You can use either TOTP or a [YubiKey](https://en.wikipedia.org/wiki/YubiKey) via the [YubiCloud](https://www.yubico.com/products/services-software/yubicloud). Web standards such as [WebAuthn](https://en.wikipedia.org/wiki/WebAuthn) are not yet supported.
+Mailbox.org mendukung [autentikasi dua faktor](https://kb.mailbox.org/display/MBOKBEN/How+to+use+two-factor+authentication+-+2FA) hanya untuk surel web mereka. Anda dapat menggunakan TOTP atau [YubiKey](https://en.wikipedia.org/wiki/YubiKey) melalui [YubiCloud](https://www.yubico.com/products/services-software/yubicloud). Standar web seperti [WebAuthn](https://en.wikipedia.org/wiki/WebAuthn) belum didukung.
 
-#### :material-information-outline:{ .pg-blue } Data Security
+#### :material-information-outline:{ .pg-blue } Keamanan Data
 
-Mailbox.org allows for encryption of incoming mail using their [encrypted mailbox](https://kb.mailbox.org/display/MBOKBEN/The+Encrypted+Mailbox). Pesan baru yang Anda terima akan segera dienkripsi dengan kunci publik Anda.
+Mailbox.org memungkinkan enkripsi surat masuk menggunakan [kotak surat terenkripsi](https://kb.mailbox.org/display/MBOKBEN/The+Encrypted+Mailbox). Pesan baru yang Anda terima akan segera dienkripsi dengan kunci publik Anda.
 
-However, [Open-Exchange](https://en.wikipedia.org/wiki/Open-Xchange), the software platform used by Mailbox.org, [does not support](https://kb.mailbox.org/display/BMBOKBEN/Encryption+of+calendar+and+address+book) the encryption of your address book and calendar. A [standalone option](calendar.md) may be more appropriate for that information.
+Namun, [Open-Exchange](https://en.wikipedia.org/wiki/Open-Xchange), platform perangkat lunak yang digunakan oleh Mailbox.org, [tidak mendukung](https://kb.mailbox.org/display/BMBOKBEN/Encryption+of+calendar+and+address+book) enkripsi buku alamat dan kalender Anda. A [standalone option](calendar.md) may be more appropriate for that information.
 
 #### :material-check:{ .pg-green } Email Encryption
 
@@ -270,7 +270,7 @@ Tutanota also has a business feature called [Secure Connect](https://tutanota.co
 
 Tutanota doesn't offer a digital legacy feature.
 
-## Layanan Email Alias
+## Layanan Alias Surel
 
 An email aliasing service allows you to easily generate a new email address for every website you register for. The email aliases you generate are then forwarded to an email address of your choosing, hiding both your "main" email address and the identity of your email provider. True email aliasing is better than plus addressing commonly used and supported by many providers, which allows you to create aliases like yourname+[anythinghere]@example.com, because websites, advertisers, and tracking networks can trivially remove anything after the + sign to know your true email address.
 
