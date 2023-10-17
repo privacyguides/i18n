@@ -47,9 +47,10 @@ Kalenders en contactpersonen bevatten enkele van jouw gevoeligste gegevens; gebr
     [:octicons-info-16:](https://proton.me/support/proton-calendar-guide){ .card-link title=Documentatie}
     [:octicons-code-16:](https://github.com/ProtonMail/WebClients){ .card-link title="Broncode" }
     
-    ??? downloads "Downloaden"
+    ??? downloads
     
         - [:simple-googleplay: Google Play](https://play.google.com/store/apps/details?id=me.proton.android.calendar)
+        - [:simple-appstore: App Store](https://apps.apple.com/app/apple-store/id1514709943)
         - [:octicons-browser-16: Web](https://calendar.proton.me)
 
 ## Criteria

@@ -50,6 +50,7 @@ I calendari contengono alcuni dei tuoi dati più sensibili; utilizza prodotti ch
     ??? downloads
     
         - [:simple-googleplay: Google Play](https://play.google.com/store/apps/details?id=me.proton.android.calendar)
+        - [:simple-appstore: App Store](https://apps.apple.com/app/apple-store/id1514709943)
         - [:octicons-browser-16: Web](https://calendar.proton.me)
 
 ## Criteri

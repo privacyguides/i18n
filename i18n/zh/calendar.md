@@ -45,9 +45,10 @@ cover: calendar.webp
     [:octicons-eye-16:](https://proton.me/support/proton-calendar-guide#privacy-policy){ .card-link title="隐私政策" }
     [:octicons-info-16:](https://grapheneos.org/faq){ .card-link title=文档}
     [:octicons-code-16:](https://github.com/ProtonMail/WebClients){ .card-link title="源代码" }
-    [](){ .card-link title="贡献" } 下载
+    [](){ .card-link title="贡献" } downloads
     
         - [:simple-googleplay: Google Play](https://play.google.com/store/apps/details?id=me.proton.android.calendar)
+        - [:simple-appstore: App Store](https://apps.apple.com/app/apple-store/id1514709943)
         - [:octicons-browser-16: Web](https://calendar.proton.me)
 
 ## Criteria
