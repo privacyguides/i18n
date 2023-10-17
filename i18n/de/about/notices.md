@@ -1,12 +1,12 @@
 ---
-title: "Notices and Disclaimers"
+title: "Hinweise und Haftungsausschlüsse"
 ---
 
-## Legal Disclaimer
+## Rechtlicher Hinweis
 
-Privacy Guides is not a law firm. As such, the Privacy Guides website and contributors are not providing legal advice. The material and recommendations in our website and guides do not constitute legal advice nor does contributing to the website or communicating with Privacy Guides or other contributors about our website create an attorney-client relationship.
+Privacy Guides ist keine Anwaltskanzlei. Die Privacy Guides-Webseite und die Mitwirkenden bieten daher keine Rechtsberatung an. Das Material und die Empfehlungen auf unserer Website und in unseren Leitfäden stellen weder eine Rechtsberatung dar, noch entsteht durch die Mitarbeit auf der Website oder durch die Kommunikation mit Privacy Guides oder anderen Mitwirkenden unserer Webseite ein Anwalt-Klienten-Verhältnis.
 
-Running this website, like any human endeavor, involves uncertainty and trade-offs. We hope this website helps, but it may include mistakes and can’t address every situation. If you have any questions about your situation, we encourage you to do your own research, seek out other experts, and engage in discussions with the Privacy Guides community. If you have any legal questions, you should consult with your own legal counsel before moving forward.
+Der Betrieb dieser Webseite ist wie jedes menschliche Unterfangen mit Ungewissheit und Abwägungen verbunden. Wir hoffen, dass diese Webseite hilfreich ist, aber sie kann Fehler enthalten und nicht alle Situationen abdecken. Wenn du Fragen zu deiner Situation hast, ermutigen wir dich, deine eigenen Nachforschungen anzustellen, andere Experten zu befragen und dich an Diskussionen mit der Privacy Guides Community zu beteiligen. Wenn du rechtliche Fragen hast, solltest du einen Rechtsanwalt konsultieren, ehe du fortfährst.
 
 Privacy Guides is an open source project contributed to under licenses that include terms that, for the protection of the website and its contributors, make clear that the Privacy Guides project and website is offered "as-is", without warranty, and disclaiming liability for damages resulting from using the website or any recommendations contained within. Privacy Guides does not warrant or make any representations concerning the accuracy, likely results, or reliability of the use of the materials on the website or otherwise relating to such materials on the website or on any third-party sites linked on this site.
 
