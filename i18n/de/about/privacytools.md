@@ -42,34 +42,34 @@ Gleichzeitig mit den anhaltenden Problemen mit der Website privacytools.io stand
 
 Reddit verlangt, dass Subreddits aktive Moderatoren haben. Wenn der Hauptmoderator über einen längeren Zeitraum (z. B. ein Jahr) inaktiv ist, kann der Posten des Hauptmoderators an den nächsten Moderator in der Reihe vergeben werden. Damit diesem Antrag stattgegeben werden konnte, musste BurungHantu über einen längeren Zeitraum hinweg vollständig von allen Reddit-Aktivitäten abwesend sein, was seinem Verhalten auf anderen Plattformen entsprach.
 
-> If you were removed as moderator from a subreddit through Reddit request it is because your lack of response and lack of activity qualified the subreddit for an r/redditrequest transfer.
+> Wenn du als Moderator aus einem Subreddit über eine Reddit-Anfrage entfernt wurdest, liegt das daran, dass deine mangelnde Reaktion und fehlende Aktivität das Subreddit für eine r/redditrequest-Übertragung qualifiziert hat.
 > 
-> r/redditrequest is Reddit's way of making sure communities have active moderators and is part of the [Moderator Code of Conduct](https://www.redditinc.com/policies/moderator-code-of-conduct).
+> r/redditrequest ist Reddits Methode, um sicherzustellen, dass Communities aktive Moderatoren haben, und ist Teil des [Verhaltenskodex für Moderatoren](https://www.redditinc.com/de-de/policies/moderator-code-of-conduct).
 
-## Beginning the Transition
+## Beginn des Übergangs
 
-On September 14th, 2021, we [announced](https://www.privacyguides.org/blog/2021/09/14/welcome-to-privacy-guides/) the beginning of our migration to this new domain:
+Am 14. September 2021 [kündigten](https://www.privacyguides.org/blog/2021/09/14/welcome-to-privacy-guides/) wir den Beginn unserer Migration zu dieser neuen Domain an:
 
-> [...] we found it necessary to make this switch sooner rather than later to ensure people would find out about this transition as soon as possible. This gives us adequate time to transition the domain name, which is currently redirecting to www.privacyguides.org, and it hopefully gives everyone enough time to notice the change, update bookmarks and websites, etc.
+> [...] wir hielten es für notwendig, diese Umstellung lieber früher als später vorzunehmen, um sicherzustellen, dass die Menschen so früh wie möglich von der Umstellung erfuhren. Dies verschafft uns ausreichend Zeit für die Umstellung des Domainnamens, der derzeit auf www.privacyguides.org umgeleitet wird, und gibt hoffentlich allen genügend Zeit, die Änderung zu bemerken und Lesezeichen, Webseiten usw. zu aktualisieren.
 
-This change [entailed:](https://www.reddit.com/r/PrivacyGuides/comments/pnhn4a/rprivacyguides_privacyguidesorg_what_you_need_to/)
+Diese Änderung [erforderte:](https://www.reddit.com/r/PrivacyGuides/comments/pnhn4a/rprivacyguides_privacyguidesorg_what_you_need_to/)
 
-- Redirecting www.privacytools.io to [www.privacyguides.org](https://www.privacyguides.org).
-- Archiving the source code on GitHub to preserve our past work and issue tracker, which we continued to use for months of future development of this site.
-- Posting announcements to our subreddit and various other communities informing people of the official change.
-- Formally closing privacytools.io services, like Matrix and Mastodon, and encouraging existing users to migrate as soon as possible.
+- Die Umleitung von www.privacytools.io auf [www.privacyguides.org](https://www.privacyguides.org).
+- Die Archivierung des Source Codes auf GitHub, um unsere bisherige Arbeit und den Issue Tracker zu bewahren, den wir für die zukünftige Entwicklung dieser Seite monatelang weiter nutzten.
+- Die Veröffentlichung von Ankündigungen in unserem Subreddit und verschiedenen anderen Communities, um die Leute über die offizielle Änderung zu informieren.
+- Die offizielle Schließung von privacytools.io-Diensten wie Matrix und Mastodon und die Bitte an bestehende Nutzer, so bald wie möglich zu migrieren.
 
-Things appeared to be going smoothly, and most of our active community made the switch to our new project exactly as we hoped.
+Die Dinge schienen reibungslos zu verlaufen, und die meisten unserer aktiven Mitglieder wechselten genau wie erhofft zu unserem neuen Projekt.
 
-## Following Events
+## Die folgenden Ereignisse
 
-Roughly a week following the transition, BurungHantu returned online for the first time in nearly a year, however nobody on our team was willing to return to PrivacyTools because of his historic unreliability. Rather than apologize for his prolonged absence, he immediately went on the offensive and positioned the transition to Privacy Guides as an attack against him and his project. He subsequently [deleted](https://www.reddit.com/r/privacytoolsIO/comments/pp9yie/comment/hd49wbn) many of these posts when it was pointed out by the community that he had been absent and abandoned the project.
+Etwa eine Woche nach der Umstellung war BurungHantu zum ersten Mal seit fast einem Jahr wieder online, aber niemand in unserem Team war bereit, wegen seiner bisherigen Unzuverlässigkeit zu PrivacyTools zurückzukehren. Anstatt sich für seine lange Abwesenheit zu entschuldigen, ging er sofort in die Offensive und stellte den Übergang zu Privacy Guides als einen Angriff auf ihn und sein Projekt dar. Er [löschte](https://www.reddit.com/r/privacytoolsIO/comments/pp9yie/comment/hd49wbn) daraufhin viele Beiträge, in denen die Community darauf hinwies, dass er abwesend sei und das Projekt aufgegeben habe.
 
-At this point, BurungHantu claimed he wanted to continue working on privacytools.io on his own and requested that we remove the redirect from www.privacytools.io to [www.privacyguides.org](https://www.privacyguides.org). We obliged and requested that he keep the subdomains for Matrix, Mastodon, and PeerTube active for us to run as a public service to our community for at least a few months, in order to allow users on those platforms to easily migrate to other accounts. Due to the federated nature of the services we provided, they were tied to specific domain names making it very difficult to migrate (and in some cases impossible).
+Zu diesem Zeitpunkt behauptete BurungHantu, er wolle allein an privacytools.io weiterarbeiten und bat uns, die Weiterleitung von www.privacytools.io auf [www.privacyguides.org](https://www.privacyguides.org)zu entfernen. Wir haben uns dazu bereit erklärt und ihn gebeten, die Subdomains für Matrix, Mastodon und PeerTube zumindest für ein paar Monate als öffentlichen Service für unsere Community aktiv zu halten, damit die Nutzer dieser Plattformen problemlos auf andere Accounts umsteigen können. Aufgrund des föderalen Charakters der von uns angebotenen Dienste waren diese an bestimmte Domainnamen gebunden, was eine Migration sehr schwierig (und in einigen Fällen unmöglich) machte.
 
-Unfortunately, because control of the r/privacytoolsIO subreddit was not returned to BurungHantu at his demand (further information below), those subdomains were [cut off](https://www.reddit.com/r/PrivacyGuides/comments/pymthv/comment/hexwrps/) at the beginning of October, ending any migration possibilities to any users still using those services.
+Unglücklicherweise wurde die Kontrolle über das Subreddit r/privacytoolsIO nicht an BurungHantu zurückgegeben (weitere Informationen weiter unten), so dass die Subdomains Anfang Oktober [abgeschaltet](https://www.reddit.com/r/PrivacyGuides/comments/pymthv/comment/hexwrps/) wurden und alle Nutzer, die diese Dienste noch nutzen, nicht mehr migrieren konnten.
 
-Following this, BurungHantu made false accusations about Jonah stealing donations from the project. BurungHantu had over a year since the alleged incident occurred, and yet he never made anyone aware of it until after the Privacy Guides migration. BurungHantu has been repeatedly asked for proof and to comment on the reason for his silence by the team [and the community](https://twitter.com/TommyTran732/status/1526153536962281474), and has not done so.
+Daraufhin erhob BurungHantu falsche Anschuldigungen, wonach Jonah Spendengelder für das Projekt gestohlen haben soll. BurungHantu hatte mehr als ein Jahr Zeit, den angeblichen Vorfall zu melden, und dennoch hat er erst nach der Migration von Privacy Guides jemanden darauf aufmerksam gemacht. BurungHantu has been repeatedly asked for proof and to comment on the reason for his silence by the team [and the community](https://twitter.com/TommyTran732/status/1526153536962281474), and has not done so.
 
 BurungHantu also made a [twitter post](https://twitter.com/privacytoolsIO/status/1510560676967710728) alleging that an "attorney" had reached out to him on Twitter and was providing advice, in another attempt to bully us into giving him control of our subreddit, and as part of his smear campaign to muddy the waters surrounding the launch of Privacy Guides while pretending to be a victim.
 
