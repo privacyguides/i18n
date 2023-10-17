@@ -142,7 +142,7 @@ DivestOS offre [correzioni](https://gitlab.com/divested-mobile/cve_checker) auto
 
 DivestOS implementa alcune correzioni di rafforzamento del sistema, sviluppate in origine per GrapheneOS. DivestOS 16.0 e superiori implementano l'interruttore delle autorizzazioni [`INTERNET`](https://developer.android.com/training/basics/network-ops/connecting) e SENSORS, l'[allocatore di memoria rafforzato](https://github.com/GrapheneOS/hardened_malloc), [exec-spawning](https://blog.privacyguides.org/2022/04/21/grapheneos-or-calyxos/#additional-hardening), [JNI](https://en.wikipedia.org/wiki/Java_Native_Interface) [constificato](https://en.wikipedia.org/wiki/Const_(computer_programming)) e serie di correzioni di rafforzamento [bionico](https://en.wikipedia.org/wiki/Bionic_(software)). Le versioni 17.1 e superiori presentano l'opzione di [casualizzazione del MAC](https://en.wikipedia.org/wiki/MAC_address#Randomization) completa per rete di GrapheneOS, il controllo di [`ptrace_scope`](https://www.kernel.org/doc/html/latest/admin-guide/LSM/Yama.html) e le [opzioni di timeout](https://grapheneos.org/features) di riavvio/Wi-Fi/Bluetooth automatiche.
 
-DivestOS utilizza F-Droid come app store predefinito. Normalmente, consiglieremmo di evitare F-Droid a causa dei suoi numerosi [problemi di sicurezza](#f-droid). Tuttavia, farlo su DivestOS non è fattibile; gli sviluppatori aggiornano le proprie app tramite le proprie repository di F-Droid ([DivestOS Official](https://divestos.org/fdroid/official/?fingerprint=E4BE8D6ABFA4D9D4FEEF03CDDA7FF62A73FD64B75566F6DD4E5E577550BE8467) e [DivestOS WebView](https://divestos.org/fdroid/webview/?fingerprint=FB426DA1750A53D7724C8A582B4D34174E64A84B38940E5D5A802E1DFF9A40D2)). Consigliamo di disabilitare l'app ufficiale di F-Droid e di utilizzare [Neo Store](https://github.com/NeoApplications/Neo-Store/) con le repository di DivestOS abilitate, per mantenere aggiornati tali componenti. Per le altre app, sono ancora validi i nostri metodi consigliati per ottenerle.
+DivestOS utilizza F-Droid come app store predefinito. Normalmente, consiglieremmo di evitare F-Droid a causa dei suoi numerosi [problemi di sicurezza](#f-droid). Tuttavia, farlo su DivestOS non è fattibile; gli sviluppatori aggiornano le proprie app tramite i propri repository di F-Droid ([DivestOS Official](https://divestos.org/fdroid/official/?fingerprint=E4BE8D6ABFA4D9D4FEEF03CDDA7FF62A73FD64B75566F6DD4E5E577550BE8467) e [DivestOS WebView](https://divestos.org/fdroid/webview/?fingerprint=FB426DA1750A53D7724C8A582B4D34174E64A84B38940E5D5A802E1DFF9A40D2)). Consigliamo di disattivare l'app ufficiale di F-Droid e di usare [Neo Store](https://github.com/NeoApplications/Neo-Store/) con i repository DivestOS abilitati, per mantenere aggiornati tali componenti. Per le altre app, sono ancora validi i nostri metodi consigliati per ottenerle.
 
 !!! warning
 
@@ -321,7 +321,7 @@ Le principali funzionalità di privacy includono:
 
 Obtainium ti consente di scaricare file di installazione APK da un'ampia varietà di fonti, ed è compito tuo assicurarti che tali fonti e applicazioni siano legittime. Ad esempio, utilizzare Obtainium per installare Signal dalla [pagina APK di Signal](https://signal.org/android/apk/) dovrebbe andare bene, ma l'installazione da repository APK di terze parti come Aptoide o APKPure potrebbe comportare ulteriori rischi.
 
-Obtainium può anche essere utilizzato per scaricare applicazioni dalle repository di F-Droid e può essere un'utile alternativa ai client ufficiali di F-Droid. Tuttavia, in genere sconsigliamo le applicazioni realizzate da F-Droid o da repository non ufficiali di F-Droid: Per ulteriori informazioni, leggi [le nostre note su F-Droid](#f-droid) qui sotto per maggiori informazioni.
+Obtainium può anche essere usato per scaricare applicazioni dai repository di F-Droid e può essere un'utile alternativa ai client ufficiali di F-Droid. Tuttavia, in genere sconsigliamo le applicazioni realizzate da F-Droid o da repository non ufficiali di F-Droid: Per ulteriori informazioni, leggi [le nostre note su F-Droid](#f-droid) qui sotto per maggiori informazioni.
 
 ### App Store di GrapheneOS
 
@@ -360,7 +360,7 @@ Su GitHub, utilizzando come esempio la [Fotocamera Sicura](#secure-camera), dovr
 
 #### GitLab
 
-Su GitLab, utilizzando come esempio [Aurora Store](#aurora-store), dovresti navigare alla sua [repository del progetto](https://gitlab.com/AuroraOSS/AuroraStore) e aggiungere `/-/tags?format=tom` all'URL:
+Su GitLab, utilizzando come esempio [Aurora Store](#aurora-store), dovresti navigare al suo [repository del progetto](https://gitlab.com/AuroraOSS/AuroraStore) e aggiunge `/-/tags?format=atom` all'URL:
 
 `https://gitlab.com/AuroraOSS/AuroraStore/-/tags?format=atom`
 
@@ -401,7 +401,7 @@ Se scarichi i file APK da installare manualmente, puoi verificarne la firma con 
 
 ==Al momento, **sconsigliamo** F-Droid come un metodo per ottenere le app.== F-Droid è spesso consigliato come un'alternativa a Google Play, in prticolare nella community, per la privacy. La possibilità di aggiungere repository di terze parti e di non essere confinati a Google, ne ha determinato la popolarità. F-Droid dispone inoltre di [build riproducibili](https://f-droid.org/en/docs/Reproducible_Builds/) per alcune applicazioni ed è dedicato a software liberi e open source. Tuttavia, esistono dei [problemi notevoli](https://privsec.dev/posts/android/f-droid-security-issues/) con il client ufficiale di F-Droid, il loro controllo della qualità e il modo in cui creano, firmano e pubblicano i pacchetti.
 
-A causa del loro processo di creazione delle app, quelle presenti nella repository ufficiale di F-Droid sono spesso in ritardo con gli aggiornamenti. Inoltre, i manutentori di F-Droid riutilizzano gli ID dei pacchetti firmando le app con le proprie chiavi, il che non è ideale, poiché conferisce al team di F-Droid la massima fiducia.
+A causa del loro processo di creazione delle app, quelle presenti nel repository ufficiale di F-Droid sono spesso in ritardo con gli aggiornamenti. Inoltre, i manutentori di F-Droid riutilizzano gli ID dei pacchetti firmando le app con le proprie chiavi, il che non è ideale, poiché conferisce al team di F-Droid la massima fiducia.
 
 Altre repository popolari di terze parti, come [IzzyOnDroid](https://apt.izzysoft.de/fdroid/), alleviano alcune di queste preoccupazioni. La repository IzzyOnDroid estrae le build direttamente da GitHub ed è la seconda scelta migliore dopo le repository degli sviluppatori. Tuttavia, non è qualcosa che possiamo consigliare, poiché le app, tipicamente, sono [rimosse](https://github.com/vfsfitvnm/ViMusic/issues/240#issuecomment-1225564446) da tale repository quando arrivano a quella principale di F-Droid. Sebbene ciò abbia senso (poiché l'obiettivo di tale repository è di ospitare le app prima che siano accettate nella repository principale di F-Droid), può lasciarti con delle app installate che non ricevono più gli aggiornamenti.
 
