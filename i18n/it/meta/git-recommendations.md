@@ -8,7 +8,7 @@ Se apporti modifiche a questo sito web direttamente sull'editor web di GitHub.co
 
 Puoi utilizzare una chiave SSH esistente per firmare, o [crearne una nuova](https://docs.github.com/en/authentication/connecting-to-github-with-ssh/generating-a-new-ssh-key-and-adding-it-to-the-ssh-agent).
 
-1. Configura il tuo client di Git per firmare i commit e i tag di default (rimuovi `--global` per firmare di default soltanto per questa repository):
+1. Configura il tuo client di Git per firmare i commit e i tag di default (rimuovi `--global` per firmare di default soltanto per questo repository):
    ```
    git config --global commit.gpgsign true
    git config --global gpg.format ssh
@@ -23,7 +23,7 @@ Assicurati di [aggiungere la tua chiave SSH al tuo profilo di GitHub](https://do
 
 ## Rebase on Git pull
 
-Utilizza `git pull --rebase`, invece di `git pull`, estrando le modifiche da GitHub alla tua macchina locale. Così, le tue modifiche locali saranno sempre "in cima" alle modifiche più recenti su GitHub e potrai evitare i commit di unione (non consentiti in questa repository).
+Utilizza `git pull --rebase`, invece di `git pull`, estrando le modifiche da GitHub alla tua macchina locale. In questo modo, le tue modifiche locali saranno sempre "in cima" alle modifiche più recenti su GitHub e potrai evitare i commit di unione (non consentiti in questo repository).
 
 Puoi impostarlo come comportamento predefinito:
 

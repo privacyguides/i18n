@@ -47,7 +47,7 @@ Les calendriers contiennent certaines de vos données les plus sensibles ; utili
     [:octicons-info-16:](https://proton.me/support/proton-calendar-guide){ .card-link title=Documentation}
     [:octicons-code-16:](https://github.com/ProtonMail/WebClients){ .card-link title="Code source" }
     
-    ??? downloads
+    ??? downloads "Téléchargements"
     
         - [:simple-googleplay: Google Play](https://play.google.com/store/apps/details?id=me.proton.android.calendar)
         - [:simple-appstore: App Store](https://apps.apple.com/app/apple-store/id1514709943)

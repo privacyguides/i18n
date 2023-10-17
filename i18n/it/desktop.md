@@ -99,7 +99,7 @@ NixOS fornisce anche aggiornamenti atomici; prima scarica (o crea) i pacchetti e
 
 Nix, il gestore di pacchetti, utilizza un linguaggio puramente funzionale, anch'ess detto Nix, per definire i pacchetti.
 
-[Nixpkgs](https://github.com/nixos/nixpkgs) (la fonte principale dei pacchetti) è contenuto in un'unica repository di GitHub. Inoltre, puoi definire i tuoi pacchetti nello stesso linguaggio, quindi, includerli facilmente nella tua configurazione.
+[Nixpkgs](https://github.com/nixos/nixpkgs) (la fonte principale dei pacchetti) è contenuto in un unico repository di GitHub. Inoltre, puoi definire i tuoi pacchetti nello stesso linguaggio, quindi, includerli facilmente nella tua configurazione.
 
 Nix è un gestore di pacchetti basato sul codice sorgente; se non ne esiste alcuno di predefinito nella cache binaria, Nix creerà semplicemente il pacchetto dalla sorgente, utilizzandone la definizione. Crea ogni pacchetto in un ambiente sandbox *puro*, il più indipendente possibile dal sistema di host, rendendo riproducibili i binari.
 

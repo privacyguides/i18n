@@ -95,7 +95,7 @@ Abbiamo precedentemente consiglito di abilitare la preferenza *Isola Indirizzo d
 
     Orbot può delegare le singole app, se supportano il proxy SOCKS o HTTP. Inoltre, può delegare tutte le tue connessioni di rete utilizzando [VpnService](https://developer.android.com/reference/android/net/VpnService) ed è utilizzabile con l'interruttore di emergenza della VPN in :gear: **Impostazioni** → **Rete e Internet** → **VPN** → :gear: → **Blocca connessioni senza VPN**.
     
-    Orbot è spesso obsoleto sulla [repository di F-Droid](https://guardianproject.info/fdroid) di Guardian Project e su [Google Play](https://play.google.com/store/apps/details?id=org.torproject.android), quindi, piuttosto, considera di scaricarlo direttamente dalla [repository di GitHub](https://github.com/guardianproject/orbot/releases).
+    Orbot è spesso obsoleto sul [repository di F-Droid](https://guardianproject.info/fdroid) di Guardian Project e su [Google Play](https://play.google.com/store/apps/details?id=org.torproject.android), quindi, piuttosto, cerca di scaricarlo direttamente dal [repository di GitHub](https://github.com/guardianproject/orbot/releases).
     
     Tutte le versioni sono firmate utilizzando la medesima firma, quindi, dovrebbero essere compatibili tra loro.
 

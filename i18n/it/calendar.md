@@ -47,10 +47,10 @@ I calendari contengono alcuni dei tuoi dati più sensibili; utilizza prodotti ch
     [:octicons-info-16:](https://proton.me/support/proton-calendar-guide){ .card-link title=Documentazione}
     [:octicons-code-16:](https://github.com/ProtonMail/WebClients){ .card-link title="Codice Sorgente" }
     
-    ??? downloads
+    ??? downloads "Scarica"
     
         - [:simple-googleplay: Google Play](https://play.google.com/store/apps/details?id=me.proton.android.calendar)
-        - [:simple-appstore: App Store](https://apps.apple.com/app/apple-store/id1514709943)
+        - [:simple-appstore: App Store](https://apps.apple.com/it/app/proton-calendar-agenda-sicura/id1514709943)
         - [:octicons-browser-16: Web](https://calendar.proton.me)
 
 ## Criteri

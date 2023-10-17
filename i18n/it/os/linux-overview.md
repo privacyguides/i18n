@@ -74,7 +74,7 @@ Arch e le distribuzioni basate su Arch sono sconsigliate per coloro che sono all
 
 Per avere un sistema sicuro, si suppone che tu abbia una conoscenza sufficiente di Linux per configurarne adeguatamente la sicurezza, come adottando un sistema di [controllo obbligatorio dell'accesso](https://en.wikipedia.org/wiki/Mandatory_access_control), configurando liste nere del [modulo del kernel](https://en.wikipedia.org/wiki/Loadable_kernel_module#Security), rafforzando la sicurezza dei parametri d'avvio, manipolando i parametri [sysctl](https://en.wikipedia.org/wiki/Sysctl) e conoscendo quali componenti necessitano, come [Polkit](https://en.wikipedia.org/wiki/Polkit).
 
-Chiunque utilizzi la [Repository di Arch User (AUR)](https://wiki.archlinux.org/title/Arch_User_Repository), **deve** essere a proprio agio nel controllare i PKGBUILD che scarca da tale servizio. I pacchetti AUR sono contenuti prodotti dalla community e non sono controllati in alcun modo e, dunque, sono vulnerabili agli attacchi alla catena di distribuzione dei softwre, che, difatti, si sono verificati [in passato](https://www.bleepingcomputer.com/news/security/malware-found-in-arch-linux-aur-package-repository/).
+Chiunque utilizzi il [Repository di Arch User (AUR)](https://wiki.archlinux.org/title/Arch_User_Repository), **deve** essere a proprio agio nel controllare i PKGBUILD che scarica da tale servizio. I pacchetti AUR sono contenuti prodotti dalla community e non sono controllati in alcun modo e, dunque, sono vulnerabili agli attacchi alla catena di distribuzione dei softwre, che, difatti, si sono verificati [in passato](https://www.bleepingcomputer.com/news/security/malware-found-in-arch-linux-aur-package-repository/).
 
 L'AUR dovrebbe sempre essere utilizzata con parsimonia e, spesso, esistono molti cattivi consigli, su varie pagine, che indirizzano le persone a utilizzare ciecamente gli [aiutanti AUR](https://wiki.archlinux.org/title/AUR_helpers), senza avvertimenti sufficienti. Simili avvertenze si applicano all'utilizzo di Archivi di Pacchetti Personali (PPA) di terze parti sulle distribuzioni basate su Debian, o dei Progetti della Community (COPR) su Fedora.
 
@@ -82,7 +82,7 @@ Se sei esperto con Linux e vorresti utilizzare una distribuzione basata su Arch,
 
 Inoltre, **sconsigliamo**, nello specifico, questi due derivati di Arch:
 
-- **Manjaro**: Questa distribuzione trattiene i pacchetti per 2 settimane per assicurarsi che le proprie modifiche non si corrrompano, non per assicurarsi che, tutto sia stabile a monte. Utilizzando i pacchetti AUR, sono spesso compilati con le [librerie](https://en.wikipedia.org/wiki/Library_(computing)) più recenti dalle repository di Arch.
+- **Manjaro**: Questa distribuzione trattiene i pacchetti per 2 settimane per assicurarsi che le proprie modifiche non si corrrompano, non per assicurarsi che, tutto sia stabile a monte. Utilizzando i pacchetti AUR, sono spesso compilati con le [librerie](https://en.wikipedia.org/wiki/Library_(computing)) più recenti dai repository di Arch.
 - **Garuda**: Utilizza [Chaotic-AUR](https://aur.chaotic.cx/) che compila automaticamente e alla cieca i pacchetti da AUR. Non esiste alcun processo di verifica per assicurarsi che i pacchetti di AUR non subiscano attacchi alla catena di distribuzione del software.
 
 ### Distribuzioni del kernel libero di Linux e "Libre"

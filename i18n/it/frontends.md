@@ -24,7 +24,7 @@ Utilizzando un'istanza gestita da altri, assicurati di leggere la politica sulla
     Esistono numerose istanze pubbliche, alcune delle quali supportano i servizi onion di [Tor](https://www.torproject.org).
     
     [:octicons-repo-16: Repository](https://github.com/zedeus/nitter){ .md-button .md-button--primary }
-    [:octicons-server-16:](https://github.com/zedeus/nitter/wiki/Instances){ .card-link title="istanze Pubbliche"}
+    [:octicons-server-16:](https://github.com/zedeus/nitter/wiki/Instances){ .card-link title="Istanze Pubbliche"}
     [:octicons-info-16:](https://github.com/zedeus/nitter/wiki){ .card-link title=Documentazione}
     [:octicons-code-16:](https://github.com/zedeus/nitter){ .card-link title="Codice Sorgente" }
     [:octicons-heart-16:](https://github.com/zedeus/nitter#nitter){ .card-link title=Contribuisci}
