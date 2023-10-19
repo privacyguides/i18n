@@ -187,6 +187,16 @@ These options can be found in :material-menu: → **Settings**
 
 
 
+##### DNS over HTTPS
+
+If you use a [DNS over HTTPS provider](dns.md):
+
+- [x] Select **Max Protection** and choose a suitable provider
+
+Max Protection enforces the use of DNS over HTTPS, and a security warning will show if Firefox can’t connect to your secure DNS resolver, or if your secure DNS resolver says that records for the domain you are trying to access do not exist. This stops the network you're connected to from secretly downgrading your DNS security.
+
+
+
 #### Sync
 
 [火狐浏览器同步](https://hacks.mozilla.org/2018/11/firefox-sync-privacy/) ，使您的浏览数据（历史记录、书签等）可以在您的所有设备上访问，并通过E2EE进行保护。

@@ -180,6 +180,14 @@ Mullvad Browser 將DuckDuckGo 設置為預設的 [搜索引擎](search-engines.m
 
 這可以防止您無意中連接到純文字 HTTP 網站。 如今，沒有 HTTPS 的網站已很少見，因此這對日常瀏覽幾乎沒有影響。
 
+##### 通過 HTTPS 的 DNS
+
+If you use a [DNS over HTTPS provider](dns.md):
+
+- [x] Select **Max Protection** and choose a suitable provider
+
+Max Protection enforces the use of DNS over HTTPS, and a security warning will show if Firefox can’t connect to your secure DNS resolver, or if your secure DNS resolver says that records for the domain you are trying to access do not exist. This stops the network you're connected to from secretly downgrading your DNS security.
+
 #### 同步
 
 [Firefox Sync](https://hacks.mozilla.org/2018/11/firefox-sync-privacy/) 可以在不同設備之間 E2EE 地傳輸同步瀏覽資料(訪問記錄與書籤等)。

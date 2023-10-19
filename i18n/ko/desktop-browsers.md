@@ -180,6 +180,14 @@ Mullvad 브라우저는 DuckDuckGo가 기본 [검색 엔진](search-engines.md)�
 
 의도치 않게 일반 텍스트 HTTP로 웹사이트에 연결되는 것을 방지합니다. 최근에는 대부분의 사이트가 HTTPS를 지원하므로, 일상적인 웹 탐색에는 크게 영향을 미치지 않습니다.
 
+##### DNS over HTTPS
+
+If you use a [DNS over HTTPS provider](dns.md):
+
+- [x] Select **Max Protection** and choose a suitable provider
+
+Max Protection enforces the use of DNS over HTTPS, and a security warning will show if Firefox can’t connect to your secure DNS resolver, or if your secure DNS resolver says that records for the domain you are trying to access do not exist. This stops the network you're connected to from secretly downgrading your DNS security.
+
 #### Sync
 
 [Firefox Sync](https://hacks.mozilla.org/2018/11/firefox-sync-privacy/)를 이용하면 자신의 모든 기기에서 브라우저 데이터(탐색 기록, 북마크 등)를 동기화할 수 있으며, E2EE로 보호됩니다.

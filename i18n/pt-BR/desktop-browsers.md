@@ -180,6 +180,14 @@ Adicionalmente, o serviço de contas Firefox coleta alguns [dados técnicos](htt
 
 Isso te previne de se conectar sem querer a um site em plain-text HTTP. Sites sem HTTPS são incomuns hoje em dia, então isso deve trazer pouco ou nenhum impacto na sua navegação do dia a dia.
 
+##### DNS sobre HTTPS
+
+If you use a [DNS over HTTPS provider](dns.md):
+
+- [x] Select **Max Protection** and choose a suitable provider
+
+Max Protection enforces the use of DNS over HTTPS, and a security warning will show if Firefox can’t connect to your secure DNS resolver, or if your secure DNS resolver says that records for the domain you are trying to access do not exist. This stops the network you're connected to from secretly downgrading your DNS security.
+
 #### Sync
 
 O [Firefox Sync](https://hacks.mozilla.org/2018/11/firefox-sync-privacy/) permite que seus dados de navegação (histórico, favoritos, etc.) sejam acessíveis em todos os seus dispositivos, além de protegê-los com E2EE.

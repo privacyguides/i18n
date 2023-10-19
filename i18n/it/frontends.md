@@ -79,7 +79,7 @@ Utilizzando un'istanza gestita da altri, assicurati di leggere la politica sulla
         - [:simple-linux: Linux](https://freetubeapp.io/#download)
         - [:simple-flathub: Flathub](https://flathub.org/apps/details/io.freetubeapp.FreeTube)
 
-!!! warning
+!!! warning "Attenzione"
 
     Utilizzando FreeTube, il tuo indirizzo IP potrebbe ancora essere noto a YouTube, [Invidious](https://instances.invidious.io) o [SponsorBlock](https://sponsor.ajay.app/), a seconda della tua configurazione. Considera l'utilizzo di una [VPN](vpn.md) o di [Tor](https://www.torproject.org) se il tuo [modello di minaccia](basics/threat-modeling.md), ti richiede di nascondere il tuo indirizzo IP.
 
@@ -104,7 +104,7 @@ Utilizzando un'istanza gestita da altri, assicurati di leggere la politica sulla
         - [:simple-apple: App Store](https://apps.apple.com/us/app/yattee/id1595136629)
         - [:simple-github: GitHub](https://github.com/yattee/yattee/releases)
 
-!!! warning
+!!! warning "Attenzione"
 
     Utilizzando Yattee, il tuo indirizzo IP potrebbe ancora essere noto a YouTube, [Invidious](https://instances.invidious.io), [Piped](https://github.com/TeamPiped/Piped/wiki/Instances) o [SponsorBlock](https://sponsor.ajay.app/), a seconda della tua configurazione. Considera l'utilizzo di una [VPN](vpn.md) o di [Tor](https://www.torproject.org) se il tuo [modello di minaccia](basics/threat-modeling.md), ti richiede di nascondere il tuo indirizzo IP.
 
@@ -130,7 +130,7 @@ Di default, Yattee blocca tutte le inserzioni di YouTube. Inoltre, Yattee integr
     
         - [:simple-github: GitHub](https://github.com/libre-tube/LibreTube/releases)
 
-!!! warning
+!!! warning "Attenzione"
 
     Utilizzando LibreTube, il tuo indirizzo IP sarà visibile all'istanza di [Piped](https://github.com/TeamPiped/Piped/wiki/Instances) di tua scelta e/o di [SponsorBlock](https://sponsor.ajay.app/), a seconda della tua configurazione. Considera l'utilizzo di una [VPN](vpn.md) o di [Tor](https://www.torproject.org) se il tuo [modello di minaccia](basics/threat-modeling.md), ti richiede di nascondere il tuo indirizzo IP.
 
@@ -158,7 +158,7 @@ Di default, LibreTube blocca tutte le inserzioni di YouTube. Inoltre, Libretube 
 
 1. L'istanza predefinita è [FramaTube](https://framatube.org/), tuttavia, se ne possono aggiungere altre tramite **Impostazioni** → **Contenuti** → **Istanze di PeerTube**
 
-!!! warning
+!!! warning "Attenzione"
 
     Utilizzando NewPipe, il tuo indirizzo IP sarà visibile ai fornitori di video utilizzati. Considera l'utilizzo di una [VPN](vpn.md) o di [Tor](https://www.torproject.org) se il tuo [modello di minaccia](basics/threat-modeling.md), ti richiede di nascondere il tuo indirizzo IP.
 
@@ -179,7 +179,7 @@ Di default, LibreTube blocca tutte le inserzioni di YouTube. Inoltre, Libretube 
     [:octicons-code-16:](https://github.com/iv-org/invidious){ .card-link title="Codice Sorgente" }
     [:octicons-heart-16:](https://invidious.io/donate/){ .card-link title=Contribuisci }
 
-!!! warning
+!!! warning "Attenzione"
 
     Invidious non esegue il proxy dei flussi video, di default. I video guardati tramite Invidious continueranno a effettuare connessioni dirette ai server di Google (es. 'googlevideo.com'); tuttavia, alcune istanze supportano il proxy dei video: basta abilitaare *Proxy dei video* nelle impostazioni delle istanze, o aggiungere '&local=true' all'URL.
 
@@ -211,7 +211,7 @@ Di default, LibreTube blocca tutte le inserzioni di YouTube. Inoltre, Libretube 
 
 **Ti preghiamo di notare che non siamo affiliati con alcun progetto consigliato.** Oltre ai [nostri criteri standard](about/criteria.md), abbiamo sviluppato una serie chiara di requisiti per consentirci di fornire consigli oggettivi. Ti suggeriamo di familiarizzare con questo elenco prima di scegliere di utilizzare un progetto e di condurre le tue ricerche per assicurarti che si tratti della scelta adatta a te.
 
-!!! esempio "Questa sezione è nuova"
+!!! example "Questa sezione è nuova"
 
     Stiamo lavorando per stabilire i criteri definiti per ogni sezione del nostro sito e, questa, potrebbe essere soggetta a modifiche. Se hai qualsiasi domanda sui nostri criteri, ti preghiamo di [chiedere sul nostro forum](https://discuss.privacyguides.net/latest) e di non supporre che non abbiamo considerato qualcosa, formulando i nostri consigli, se non elencato qui. Molti fattori sono presi in considerazione e discussi quando consigliamo un progetto e la documentazione di ognuno è in lavorazione.
 

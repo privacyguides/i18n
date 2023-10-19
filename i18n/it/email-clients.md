@@ -91,7 +91,7 @@ Apple Mail può caricare i contenuti da remoto in background o bloccarli interam
         - [:simple-appstore: App Store](https://apps.apple.com/app/id1236045954)
         - [:simple-windows11: Windows](https://canarymail.io/downloads.html)
 
-!!! warning
+!!! warning "Attenzione"
 
     Canary Mail ha rilasciato soltanto di recente un client per Windows e Android, sebbene non crediamo sia altrettanto stabile, quanto le controparti per iOS e Mac.
 
@@ -155,7 +155,7 @@ Canary Mail è closed-source. Lo consigliamo a causa di alcune scelte per i clie
         - [:simple-googleplay: Google Play](https://play.google.com/store/apps/details?id=com.fsck.k9)
         - [:simple-github: GitHub](https://github.com/k9mail/k-9/releases)
 
-!!! warning
+!!! warning "Attenzione"
 
     Rispondendo a qualcuno in una mailing list, l'opzione "rispondi" potrebbe includere anche la mailing list stessa. Per maggiori informazioni visita il ticket [#3738 di thundernest/k-9](https://github.com/thundernest/k-9/issues/3738).
 

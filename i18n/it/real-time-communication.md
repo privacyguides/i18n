@@ -104,7 +104,7 @@ Briar supporta la Segretezza in Avanti utilizzando l'[Handshake](https://code.br
 
 ## Opzioni Aggiuntive
 
-!!! warning
+!!! warning "Attenzione"
 
     Queste app di messaggistica non dispongono della [Segretezza in Avanti](https://it.wikipedia.org/wiki/Forward_secrecy) e, sebbene soddisfino certe esigenze non soddisfatte dai nostri consigli precedenti, le sconsiglimo per le comunicazioni a lungo termine o sensibili. Qualsiasi compromissione di chiavi tra i destinatari del messaggio, influenzerebbe la confidenzialità di **tutte** le comunicazioni precedenti.
 

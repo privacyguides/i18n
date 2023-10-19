@@ -180,6 +180,14 @@ Daarnaast verzamelt de Firefox Accounts service [enkele technische gegevens](htt
 
 Dit voorkomt dat je onbedoeld verbinding maakt met een website in platte HTTP-tekst. Sites zonder HTTPS zijn tegenwoordig zeldzaam, dus dit zou weinig tot geen impact moeten hebben op jouw dagelijkse browsen.
 
+##### DNS over HTTPS
+
+If you use a [DNS over HTTPS provider](dns.md):
+
+- [x] Select **Max Protection** and choose a suitable provider
+
+Max Protection enforces the use of DNS over HTTPS, and a security warning will show if Firefox can’t connect to your secure DNS resolver, or if your secure DNS resolver says that records for the domain you are trying to access do not exist. This stops the network you're connected to from secretly downgrading your DNS security.
+
 #### Synchronisatie
 
 [Firefox Sync](https://hacks.mozilla.org/2018/11/firefox-sync-privacy/) maakt jouw browsegegevens (geschiedenis, bladwijzers, enz.) toegankelijk op al jouw apparaten en beschermt ze met E2EE.

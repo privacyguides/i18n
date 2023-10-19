@@ -81,7 +81,7 @@ Utilizzando un'istanza di SearXNG, assicurati di leggere la loro politica sulla 
     [:octicons-eye-16:](https://www.startpage.com/en/privacy-policy){ .card-link title="Politica sulla Privacy" }
     [:octicons-info-16:](https://support.startpage.com/hc/en-us/categories/4481917470356-Startpage-Search-Engine){ .card-link title=Documentazione}
 
-!!! warning
+!!! warning "Attenzione"
 
     Startpage limita regolarmente l'accesso al servizio a certi indirizzi IP, come gli IP riservati alle VPN o a Tor. [DuckDuckGo](#duckduckgo) e [Brave Search](#brave-search) sono opzioni più amichevoli se il tuo modello di minaccia ti richiede di nascondere l'indirizzo IP dal fornitore della ricerca.
 

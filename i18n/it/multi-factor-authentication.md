@@ -48,11 +48,11 @@ I modelli di Nitrokey sono configurabili utilizzando l'[app di Nitrokey](https:/
 
 Per i modelli che supportano HOTP e TOTP, ci sono 3 slot per HOTP e 15 per TOTP. Alcune Nitrokey possono fungere da gestori di password. Possono memorizzare fino a 16 credenziali differenti e crittografarle utilizzando la stessa password dell'interfaccia OpenPGP.
 
-!!! warning
+!!! warning "Attenzione"
 
     Sebbene le Nitrokey non rilascino i codici segreti HOTP/TOTP al dispositivo a cui sono collegati, la memoria HOTP e TOTP *non* è crittografata ed è vulnerabile agli attacchi fisici. Se vorresti memorizzare i codici segreti HOTP e TOTP, consigliamo vivamente di utilizzare, piuttosto, una YubiKey.
 
-!!! warning
+!!! warning "Attenzione"
 
     Ripristinare l'interfaccia di OpenPGP su una Nitrokey, inoltre, renderà il database delle password [inaccessibile](https://docs.nitrokey.com/pro/factory-reset.html).
 
@@ -64,7 +64,7 @@ Il firmware di Nitrokey è open source, a differenza di YubiKey. Il firmware dei
 
 **Ti preghiamo di notare che non siamo affiliati con alcun progetto consigliato.** Oltre ai [nostri criteri standard](about/criteria.md), abbiamo sviluppato una serie chiara di requisiti per consentirci di fornire consigli oggettivi. Ti suggeriamo di familiarizzare con questo elenco prima di scegliere di utilizzare un progetto e di condurre le tue ricerche per assicurarti che si tratti della scelta adatta a te.
 
-!!! esempio "Questa sezione è nuova"
+!!! example "Questa sezione è nuova"
 
     Stiamo lavorando per stabilire i criteri definiti per ogni sezione del nostro sito e, questa, potrebbe essere soggetta a modifiche. Se hai qualsiasi domanda sui nostri criteri, ti preghiamo di [chiedere sul nostro forum](https://discuss.privacyguides.net/latest) e di non supporre che non abbiamo considerato qualcosa, formulando i nostri consigli, se non elencato qui. Molti fattori sono presi in considerazione e discussi quando consigliamo un progetto e la documentazione di ognuno è in lavorazione.
 
@@ -113,7 +113,7 @@ Consigliamo vivamente l'utilizzo delle app TOTP mobili, invece delle alternative
 
 **Ti preghiamo di notare che non siamo affiliati con alcun progetto consigliato.** Oltre ai [nostri criteri standard](about/criteria.md), abbiamo sviluppato una serie chiara di requisiti per consentirci di fornire consigli oggettivi. Ti suggeriamo di familiarizzare con questo elenco prima di scegliere di utilizzare un progetto e di condurre le tue ricerche per assicurarti che si tratti della scelta adatta a te.
 
-!!! esempio "Questa sezione è nuova"
+!!! example "Questa sezione è nuova"
 
     Stiamo lavorando per stabilire i criteri definiti per ogni sezione del nostro sito e, questa, potrebbe essere soggetta a modifiche. Se hai qualsiasi domanda sui nostri criteri, ti preghiamo di [chiedere sul nostro forum](https://discuss.privacyguides.net/latest) e di non supporre che non abbiamo considerato qualcosa, formulando i nostri consigli, se non elencato qui. Molti fattori sono presi in considerazione e discussi quando consigliamo un progetto e la documentazione di ognuno è in lavorazione.
 

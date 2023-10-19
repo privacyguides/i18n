@@ -102,7 +102,7 @@ L'applicazione offre diversi modi per cancellare i metadati dalle immagini. Nell
         - [:simple-googleplay: Google Play](https://play.google.com/store/apps/details?id=de.mathema.privacyblur)
         - [:simple-appstore: App Store](https://apps.apple.com/us/app/privacyblur/id1536274106)
 
-!!! warning
+!!! warning "Attenzione"
 
     Non dovresti **mai** utilizzare la sfocatura per nascondere [il testo nelle immagini] (https://bishopfox.com/blog/unredacter-tool-never-pixelation). Se desideri censurare il testo di un'immagine, disegna un riquadro sopra di esso. A questo scopo, suggeriamo applicazioni come [Pocket Paint](https://github.com/Catrobat/Paintroid).
 
@@ -139,7 +139,7 @@ L'applicazione offre diversi modi per cancellare i metadati dalle immagini. Nell
 
 **Ti preghiamo di notare che non siamo affiliati con alcun progetto consigliato.** Oltre ai [nostri criteri standard](about/criteria.md), abbiamo sviluppato una serie chiara di requisiti per consentirci di fornire consigli oggettivi. Ti suggeriamo di familiarizzare con questo elenco prima di scegliere di utilizzare un progetto e di condurre le tue ricerche per assicurarti che si tratti della scelta adatta a te.
 
-!!! esempio "Questa sezione è nuova"
+!!! example "Questa sezione è nuova"
 
     Stiamo lavorando per stabilire i criteri definiti per ogni sezione del nostro sito e, questa, potrebbe essere soggetta a modifiche. Se hai qualsiasi domanda sui nostri criteri, ti preghiamo di [chiedere sul nostro forum](https://discuss.privacyguides.net/latest) e di non supporre che non abbiamo considerato qualcosa, formulando i nostri consigli, se non elencato qui. Molti fattori sono presi in considerazione e discussi quando consigliamo un progetto e la documentazione di ognuno è in lavorazione.
 

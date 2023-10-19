@@ -156,7 +156,7 @@ macOS utilizza la difesa approfondita, affidandosi a svariati livelli di protezi
 
 ### Sicurezza del Software
 
-!!! warning
+!!! warning "Attenzione"
 
     macOS ti consente di installare gli aggiornamenti beta. Questi sono instabili e potrebbero comportare un'ulteriore telemetria, essendo per scopi di test. Per questo, ti consigliamo di evitare i software in beta, in generale.
 
@@ -178,7 +178,7 @@ La Protezione dell'Integrità di Sistema rende le posizioni dei file di sola let
 
 Le app di macOS scaricate dall'App Store devono essere testate utilizzando [App Sandbox](https://developer.apple.com/documentation/security/app_sandbox).
 
-!!! warning
+!!! warning "Attenzione"
 
     I software scaricati al di fuori dell'App Store ufficiale non devono essere testate. Dovresti evitare i software non provenienti dall'App Store, il più possibile.
 
