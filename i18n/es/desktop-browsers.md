@@ -182,11 +182,11 @@ Esto evita que te conectes involuntariamente a un sitio web en texto plano HTTP.
 
 ##### DNS sobre HTTPS
 
-If you use a [DNS over HTTPS provider](dns.md):
+Si utilizas un proveedor de [DNS sobre HTTPS](dns.md):
 
-- [x] Select **Max Protection** and choose a suitable provider
+- [x] Selecciona **Máxima protección** y elige un proveedor adecuado
 
-Max Protection enforces the use of DNS over HTTPS, and a security warning will show if Firefox can’t connect to your secure DNS resolver, or if your secure DNS resolver says that records for the domain you are trying to access do not exist. This stops the network you're connected to from secretly downgrading your DNS security.
+La Protección Máxima impone el uso de DNS sobre HTTPS y una advertencia de seguridad se mostrará si Firefox no se puede conectar a un solucionador seguro de DNS, o si tu solucionador seguro de DNS dice que los registros para el dominio al que se está intentando conectar no existe. Esto impide que la red a la que estás conectado degrade secretamente tu seguridad DNS.
 
 #### Sincronización
 
