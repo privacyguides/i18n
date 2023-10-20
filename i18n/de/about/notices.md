@@ -8,22 +8,22 @@ Privacy Guides ist keine Anwaltskanzlei. Die Privacy Guides-Webseite und die Mit
 
 Der Betrieb dieser Webseite ist wie jedes menschliche Unterfangen mit Ungewissheit und Abwägungen verbunden. Wir hoffen, dass diese Webseite hilfreich ist, aber sie kann Fehler enthalten und nicht alle Situationen abdecken. Wenn du Fragen zu deiner Situation hast, ermutigen wir dich, deine eigenen Nachforschungen anzustellen, andere Experten zu befragen und dich an Diskussionen mit der Privacy Guides Community zu beteiligen. Wenn du rechtliche Fragen hast, solltest du einen Rechtsanwalt konsultieren, ehe du fortfährst.
 
-Privacy Guides is an open source project contributed to under licenses that include terms that, for the protection of the website and its contributors, make clear that the Privacy Guides project and website is offered "as-is", without warranty, and disclaiming liability for damages resulting from using the website or any recommendations contained within. Privacy Guides does not warrant or make any representations concerning the accuracy, likely results, or reliability of the use of the materials on the website or otherwise relating to such materials on the website or on any third-party sites linked on this site.
+Privacy Guides ist ein Open-Source-Projekt, bei dem Beiträge im Rahmen von Lizenzen bereitgestellt werden, die Bedingungen zum Schutz der Webseite und ihrer Mitwirkenden enthalten, die klarstellen, dass das Privacy-Guides-Projekt und die Website "so wie sie sind" angeboten werden, ohne Garantie und unter Ausschluss der Haftung für Schäden, die aus der Nutzung der Website oder der darin enthaltenen Empfehlungen entstehen. Privacy Guides übernimmt keine Gewährleistung für die Richtigkeit, die wahrscheinlichen Ergebnisse oder die Verlässlichkeit der Nutzung des Materials auf der Webseite oder in sonstiger Weise in Bezug auf dieses Material auf der Webseite oder auf den Webseiten Dritter, die auf dieser Webseite verlinkt sind, und macht auch keine diesbezüglichen Zusicherungen.
 
-Privacy Guides additionally does not warrant that this website will be constantly available, or available at all.
+Privacy Guides garantiert außerdem nicht, dass diese Webseite ständig oder überhaupt verfügbar sein wird.
 
-## Licensing Overview
+## Lizenzierungsübersicht
 
-!!! danger ""
+!!! danger "Achtung"
 
-    The following is a human-readable summary of (and not a substitute for) the [license](/license).
+    Das Folgende ist eine für Menschen leicht verständliche Zusammenfassung (und kein Ersatz) der [Lizenz](/license).
 
-Unless otherwise noted, all **content** on this website is made available under the terms of the [Creative Commons Attribution-NoDerivatives 4.0 International Public License](https://github.com/privacyguides/privacyguides.org/blob/main/LICENSE). The underlying **source code** used to generate this website and display that content is released under the [MIT License](https://github.com/privacyguides/privacyguides.org/tree/main/LICENSE-CODE).
+Sofern nicht anders angegeben, wird der gesamte **Inhalt** dieser Webseite unter den Bedingungen der [Creative Commons Attribution-NoDerivatives 4.0 International Public License](https://github.com/privacyguides/privacyguides.org/blob/main/LICENSE) zur Verfügung gestellt. Der zugrunde liegende **Sourcecode**, der für die Erstellung dieser Webseite und die Anzeige der Inhalte verwendet wird, unterliegt der [MIT-Lizenz](https://github.com/privacyguides/privacyguides.org/tree/main/LICENSE-CODE).
 
-This does not include third-party code embedded in this repository, or code where a superseding license is otherwise noted. The following are notable examples, but this list may not be all-inclusive:
+Dies gilt nicht für den in diesem Repository eingebetteten Code von Drittanbietern oder für Code, für den eine abweichende Lizenz angegeben ist. Die folgenden Beispiele sind erwähnenswert, aber diese Liste ist nicht allumfassend:
 
-* [MathJax](https://github.com/privacyguides/privacyguides.org/blob/main/theme/assets/javascripts/mathjax.js) is licensed under the [Apache License 2.0](https://github.com/privacyguides/privacyguides.org/blob/main/docs/assets/javascripts/LICENSE.mathjax.txt).
-* The [Bagnard](https://github.com/privacyguides/brand/tree/main/WOFF/bagnard) heading font is licensed under the [SIL Open Font License 1.1](https://github.com/privacyguides/brand/blob/main/WOFF/bagnard/LICENSE.txt).
+* [MathJax](https://github.com/privacyguides/privacyguides.org/blob/main/theme/assets/javascripts/mathjax.js) unterliegt der [Apache License 2.0](https://github.com/privacyguides/privacyguides.org/blob/main/docs/assets/javascripts/LICENSE.mathjax.txt).
+* Die [Bagnard](https://github.com/privacyguides/brand/tree/main/WOFF/bagnard) Schriftart für Überschriften ist lizenziert unter der [SIL Open Font License 1.1](https://github.com/privacyguides/brand/blob/main/WOFF/bagnard/LICENSE.txt).
 * The [Public Sans](https://github.com/privacyguides/brand/tree/main/WOFF/public_sans) font used for most text on the site is licensed under the terms detailed [here](https://github.com/privacyguides/brand/blob/main/WOFF/public_sans/LICENSE.txt).
 * The [DM Mono](https://github.com/privacyguides/brand/tree/main/WOFF/dm_mono) font used for monospaced text on the site is licensed under the [SIL Open Font License 1.1](https://github.com/privacyguides/brand/blob/main/WOFF/dm_mono/LICENSE.txt).
 
