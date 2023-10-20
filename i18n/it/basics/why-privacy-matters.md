@@ -7,7 +7,7 @@ Nell'era moderna dello sfruttamento dei dati digitali, la tua privacy non è mai
 
 In fin dei conti la privacy riguarda le informazioni umane, ed è importante perché sappiamo che conferiscono potere sugli esseri umani. Se ci interessa della nostra capacità di essere autentici, realizzati e liberi, dobbiamo preoccuparci dellee regole applicate alle informazioni che ci riguardano. Gran parte della nostra società moderna si struttura intorno alle **informazioni**. Quando fai acquisti online, leggi le notizie, cerchi qualcosa, voti, cerchi indicazioni o qualsiasi altra cosa, ti stai basando su delle informazioni. Se viviamo in una società basata sulle informazioni, le nostre informazioni contano e, dunque, la privacy è importante.
 
-## Cos'è la privacy?
+## Cos'è la Privacy?
 
 In molti confondono i concetti di **privacy**, **sicurezza** e **anonimato**. Vedrai persone criticare vari prodotti come "non privati", quando in realtà intendono che non forniscono, ad esempio, anonimato. Su questo sito web, copriamo tutti e tre gli argomenti, ma è importante che tu ne comprenda le differenze, nonché quando ognuno di essi entra in gioco.
 

@@ -124,7 +124,7 @@ I gestori di password ti consentono di memorizzare e gestire in sicurezza le pas
 
 !!! info
 
-    I gestori di password integrati nei software, come i browser e i sistemi operativi, non sono talvolta all'altezza dei software dedicati di gestione delle password. Il vantaggio di un gestore di password integrato è la buona integrazione con il software ma, spesso, possono essere molto semplici e privi di funzionalità per la privacy e la sicurezza, rispetto alle offerte indipendenti.
+    I gestori di password integrati nei software, come i browser e i sistemi operativi, a volte non sono all'altezza di un software di gestione delle password dedicato. Il vantaggio di un gestore di password integrato è la buona integrazione con il software, ma spesso può essere molto semplice e privo di funzionalità per la privacy e la sicurezza rispetto alle alternative indipendenti.
     
     Ad esempio, il gestore di password di Microsoft Edge non offre affatto E2EE. Il gestore di password Google dispone di E2EE [facoltativa](https://support.google.com/accounts/answer/11350823), e quello [di Apple](https://support.apple.com/en-us/HT202303) la offre di default.
 
