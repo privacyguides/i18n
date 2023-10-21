@@ -233,7 +233,7 @@ Arkenfoxは、キャンバスのランダム化やFirefoxの組み込みのフ�
 
 #### 設定
 
-##### Shields
+##### シールド
 
 Braveは[Shields](https://support.brave.com/hc/en-us/articles/360022973471-What-is-Shields-)の機能にいくつかのフィンガープリント対策を盛り込んでいます。 これらのオプションを訪問したすべてのページにおいて[グローバルに](https://support.brave.com/hc/en-us/articles/360023646212-How-do-I-configure-global-and-site-specific-Shields-settings-)設定することをおすすめします。
 
@@ -360,7 +360,7 @@ These are some other [filter lists](https://github.com/gorhill/uBlock/wiki/Dashb
 - 自動更新に対応している。
 - Receives engine updates in 0-1 days from upstream release.
 - Linux、macOS、Windowsで利用できる。
-- Any changes required to make the browser more privacy-respecting should not negatively impact user experience.
+- ブラウザをよりプライバシーを尊重したものにするための変更が、ユーザーエクスペリエンスを損なうものではないこと。
 - デフォルトでサードパーティCookieをブロックしている。
 - Supports [state partitioning](https://developer.mozilla.org/en-US/docs/Web/Privacy/State_Partitioning) to mitigate cross-site tracking.[^1]
 

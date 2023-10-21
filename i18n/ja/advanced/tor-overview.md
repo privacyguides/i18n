@@ -1,16 +1,16 @@
 ---
 title: "Tor Overview"
 icon: 'simple/torproject'
-description: Tor is a free to use, decentralized network designed for using the internet with as much privacy as possible.
+description: Torは、可能な限りプライバシーを守ってインターネットを利用するために設計された、自由に利用できる分散型ネットワークです。
 ---
 
-Tor is a free to use, decentralized network designed for using the internet with as much privacy as possible. If used properly, the network enables private and anonymous browsing and communications.
+Torは、可能な限りプライバシーを守ってインターネットを利用するために設計された、自由に利用できる分散型ネットワークです。 適切に使用すれば、プライベートで匿名のブラウジングや通信を行うことができます。
 
 ## Path Building to Clearnet Services
 
-"Clearnet services" are websites which you can access with any browser, like [privacyguides.org](https://www.privacyguides.org). Tor lets you connect to these websites anonymously by routing your traffic through a network comprised of thousands of volunteer-run servers called nodes (or relays).
+「クリアネット・サービス」とは、 [privacyguides.org](https://www.privacyguides.org)のように、どのブラウザーでもアクセスできるウェブサイトのことです。 Torは、ノード（またはリレー）と呼ばれる、ボランティアが運営する何千ものサーバーで構成されるネットワークを経由してトラフィックをルーティングすることにより、匿名でこれらのウェブサイトに接続することができます。
 
-Every time you [connect to Tor](../tor.md), it will choose three nodes to build a path to the internet—this path is called a "circuit."
+[Tor](../tor.md)に接続するたびに、Torはインターネットへの経路を構築するために3つのノードを選択します。この経路は「サーキット」と呼ばれます。
 
 <figure markdown>
   ![Tor path showing your device connecting to an entry node, middle node, and exit node before reaching the destination website](../assets/img/how-tor-works/tor-path.svg#only-light)
@@ -18,21 +18,21 @@ Every time you [connect to Tor](../tor.md), it will choose three nodes to build 
   <figcaption>Tor circuit pathway</figcaption>
 </figure>
 
-Each of these nodes has its own function:
+それぞれのノードには、以下の独自の機能があります。
 
-### The Entry Node
+### 入力ノード
 
 The entry node, often called the guard node, is the first node to which your Tor client connects. The entry node is able to see your IP address, however it is unable to see what you are connecting to.
 
 Unlike the other nodes, the Tor client will randomly select an entry node and stick with it for two to three months to protect you from certain attacks.[^1]
 
-### The Middle Node
+### 中間ノード
 
 The middle node is the second node to which your Tor client connects. It can see which node the traffic came from—the entry node—and to which node it goes to next. The middle node cannot, see your IP address or the domain you are connecting to.
 
 For each new circuit, the middle node is randomly selected out of all available Tor nodes.
 
-### The Exit Node
+### 出口ノード
 
 The exit node is the point in which your web traffic leaves the Tor network and is forwarded to your desired destination. The exit node is unable to see your IP address, but it does know what site it's connecting to.
 
@@ -50,13 +50,13 @@ Connecting to an Onion Service in Tor works very similarly to connecting to a cl
   <figcaption>Tor circuit pathway with Onion Services. Nodes in the <span class="pg-blue">blue</span> fence belong to your browser, while nodes in the <span class="pg-red">red</span> fence belong to the server, so their identity is hidden from you.</figcaption>
 </figure>
 
-## Encryption
+## 暗号化
 
-Tor encrypts each packet (a block of transmitted data) three times with the keys from the exit, middle, and entry node—in that order.
+Torは、各パケット（送信データのブロック）を、出口ノード、中間ノード、入口ノードの鍵の順に3回暗号化します。
 
-Once Tor has built a circuit, data transmission is done as follows:
+Torが回路を構築すると、データの伝送は以下のように行われます。
 
-1. Firstly: when the packet arrives at the entry node, the first layer of encryption is removed. In this encrypted packet, the entry node will find another encrypted packet with the middle node’s address. The entry node will then forward the packet to the middle node.
+1. まず、パケットが入力ノードに到達すると、暗号化の最初のレイヤーが取り除かれます。 In this encrypted packet, the entry node will find another encrypted packet with the middle node’s address. The entry node will then forward the packet to the middle node.
 
 2. Secondly: when the middle node receives the packet from the entry node, it too will remove a layer of encryption with its key, and this time finds an encrypted packet with the exit node's address. The middle node will then forward the packet to the exit node.
 

@@ -68,27 +68,27 @@ Androidでは、FirefoxはChromiumベースのブラウザよりもまだ安全�
 
 本当に匿名でインターネットを閲覧する唯一の方法は、Tor Browserを使うことです。 Braveを使用する際は、特定の相手からプライバシーを保護するために以下の設定を変更することをお勧めしますが、 [Tor Browser](tor.md#tor-browser) 以外のブラウザについては、*誰か*が何らかの形で追跡することができます。
 
-These options can be found in :material-menu: → **Settings** → **Brave Shields & privacy**
+これらのオプションは、 :material-menu: → **設定** → **Braveシールド & プライバシー**にあります。
 
-##### Shields
+##### シールド
 
-Brave includes some anti-fingerprinting measures in its [Shields](https://support.brave.com/hc/en-us/articles/360022973471-What-is-Shields-) feature. We suggest configuring these options [globally](https://support.brave.com/hc/en-us/articles/360023646212-How-do-I-configure-global-and-site-specific-Shields-settings-) across all pages that you visit.
+Braveには、[シールド](https://support.brave.com/hc/en-us/articles/360022973471-What-is-Shields-)機能にフィンガープリンティングへの対策が備わっています。 訪問する全てのページにおいて、これらのオプションを[グローバル](https://support.brave.com/hc/en-us/articles/360023646212-How-do-I-configure-global-and-site-specific-Shields-settings-)に設定することをお勧めします。
 
 ##### Braveシールドのグローバルデフォルト
 
-Shields' options can be downgraded on a per-site basis as needed, but by default we recommend setting the following:
+シールドのオプションは、必要に応じてサイトごとにダウングレードできますが、デフォルトでは以下の設定をおすすめします。
 
 <div class="annotate" markdown>
 
-- [x] Select **Aggressive** under **Block trackers & ads**
+- [x] **トラッカーと広告をブロック**で**積極的**を選択
 
-    ??? warning "Use default filter lists"
-        Brave allows you to select additional content filters within the internal `brave://adblock` page. We advise against using this feature; instead, keep the default filter lists. Using extra lists will make you stand out from other Brave users and may also increase attack surface if there is an exploit in Brave and a malicious rule is added to one of the lists you use.
+    ??? 注意 "デフォルトのフィルターリストを使用"
+        Braveでは、 `brave://adblock` ページ内で追加のコンテンツフィルターを選択することができます。 この機能は使わず、デフォルトのフィルターの一覧のままにしておくことをお勧めします。 追加のリストを使用すると、他のBraveユーザーから目立つようになり、また、Braveに脆弱性があり、使用するリストに悪意のあるルールが追加された場合、攻撃対象となる領域が増えるおそれがあります。
 
-- [x] Select **Upgrade connections to HTTPS**
-- [x] Select **Always use secure connections**
-- [x] (Optional) Select **Block Scripts** (1)
-- [x] Select **Strict, may break sites** under **Block fingerprinting**
+- [x] **接続をHTTPSにアップグレード**を選択
+- [x] **常に安全な接続を使用**を選択
+- [x] （オプション）**スクリプトをブロック**を選択 (1)
+- [x] **フィンガープリンティング**の下にある**厳格、サイトが適切に機能しなくなる可能性あり**を選択
 
 </div>
 
@@ -120,7 +120,7 @@ Shields' options can be downgraded on a per-site basis as needed, but by default
 
 #### Brave Sync
 
-[Brave Sync](https://support.brave.com/hc/en-us/articles/360059793111-Understanding-Brave-Sync) allows your browsing data (history, bookmarks, etc.) to be accessible on all your devices without requiring an account and protects it with E2EE.
+[Brave Sync](https://support.brave.com/hc/en-us/articles/360059793111-Understanding-Brave-Sync)は、あなたのブラウジングデータ（履歴、ブックマークなど）をすべてのデバイスで利用可能にし、それをE2EE（End-to-End Encryption, 端末間暗号化）で保護します。
 
 ## iOS
 
@@ -172,23 +172,23 @@ Safari's Private Browsing mode offers additional privacy protections. Private Br
 
 Do note that Private Browsing does not save cookies and website data, so it won't be possible to remain signed into sites. This may be an inconvenience.
 
-##### iCloud Sync
+##### iCloud同期
 
-Synchronization of Safari History, Tab Groups, iCloud Tabs and saved passwords are E2EE. However, by default, bookmarks are [not](https://support.apple.com/en-us/HT202303). Apple can decrypt and access them in accordance with their [privacy policy](https://www.apple.com/legal/privacy/en-ww/).
+Safariの履歴、タブグループ、iCloudタブ、保存されたパスワードの同期は端末間暗号化によって行われます。 しかし、デフォルトでは、ブックマークは[そうではありません](https://support.apple.com/en-us/HT202303)。 アップルは、 [プライバシーポリシー](https://www.apple.com/legal/privacy/en-ww/)に従い、ブックマークを復号化して、読み取ることができます。
 
-You can enable E2EE for your Safari bookmarks and downloads by enabling [Advanced Data Protection](https://support.apple.com/en-us/HT212520). Go to your **Apple ID name → iCloud → Advanced Data Protection**.
+[高度なデータ保護](https://support.apple.com/en-us/HT212520)を有効にすることで、Safariのブックマークとダウンロードに対して端末間暗号化を有効にできます。 **Apple ID名 → iCloud → 高度なデータ保護**にアクセスしてください。
 
-- [x] Turn On **Advanced Data Protection**
+- [x] **高度なデータ保護**を有効にする
 
-If you use iCloud with Advanced Data Protection disabled, we also recommend checking to ensure Safari's default download location is set to locally on your device. This option can be found in :gear: **Settings** → **Safari** → **General** → **Downloads**.
+高度なデータ保護を無効にしてiCloudを使用している場合は、Safariのデフォルトのダウンロード場所が、デバイスのローカルに設定されているかどうかを確認することもお勧めします。 This option can be found in :gear: **Settings** → **Safari** → **General** → **Downloads**.
 
 ### AdGuard
 
 !!! recommendation
 
-    ![AdGuard logo](assets/img/browsers/adguard.svg){ align=right }
+    ![AdGuard logo](https://developer.apple.apple.com/documentation/safariservices/creating_a_content_blocker){ align=right }
     
-    **AdGuard for iOS** is a free and open-source content-blocking extension for Safari that uses the native [Content Blocker API](https://developer.apple.com/documentation/safariservices/creating_a_content_blocker).
+    **AdGuard for iOS** はSafariのネイティブの[Content Blocker API](https://developer.apple.com/documentation/safariservices/creating_a_content_blocker)を使用する、フリー（自由）でオープンソースのコンテンツブロック用拡張機能です。
     
     AdGuard for iOS has some premium features; however, standard Safari content blocking is free of charge.
     
@@ -197,11 +197,11 @@ If you use iCloud with Advanced Data Protection disabled, we also recommend chec
     [:octicons-info-16:](https://kb.adguard.com/ios){ .card-link title=Documentation}
     [:octicons-code-16:](https://github.com/AdguardTeam/AdguardForiOS){ .card-link title="Source Code" }
     
-    ??? downloads
+    ??? ダウンロード
     
         - [:simple-appstore: App Store](https://apps.apple.com/app/apple-store/id1047223162)
 
-Additional filter lists do slow things down and may increase your attack surface, so only apply what you need.
+フィルターリストを追加すると動作が遅くなり、攻撃対象が増える可能性があります。そのため、必要なものだけを適用してください。
 
 ## 基準
 
@@ -213,14 +213,14 @@ Additional filter lists do slow things down and may increase your attack surface
 
 ### 最低要件
 
-- Must support automatic updates.
-- Must receive engine updates in 0-1 days from upstream release.
-- Any changes required to make the browser more privacy-respecting should not negatively impact user experience.
-- Android browsers must use the Chromium engine.
-    - Unfortunately, Mozilla GeckoView is still less secure than Chromium on Android.
-    - iOS browsers are limited to WebKit.
+- 自動アップデートに対応していること。
+- アップストリームのリリースから0～1日以内にエンジンアップデートを受けること。
+- ブラウザをよりプライバシーを尊重したものにするための変更が、ユーザーエクスペリエンスを損なうものではないこと。
+- Androidのブラウザーの場合はChromiumエンジンを使用していること。
+    - 残念ながら、Mozilla GeckoViewはAndroidのChromiumよりもまだ安全性が低いです。
+    - iOSブラウザはWebKitに制限されています。
 
 ### 拡張機能の基準
 
 - ブラウザやOSに含まれる機能と重複しないこと。
-- ユーザーのプライバシーに直接影響を与える必要があります。つまり、単に情報を提供するだけではない必要があります。
+- ユーザーのプライバシーに直接影響を与えるものであること。つまり、単に情報を提供するだけではないこと。
