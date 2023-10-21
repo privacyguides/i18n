@@ -181,12 +181,12 @@ While we [recommend against](os/linux-overview.md#release-cycle) "perpetually ou
     [:octicons-code-16:](https://github.com/Kicksecure){ .card-link title="Source Code" }
     [:octicons-heart-16:](https://www.kicksecure.com/wiki/Donate){ .card-link title=Contribute }
 
-## Criteria
+## 基準
 
 Choosing a Linux distro that is right for you will come down to a huge variety of personal preferences, and this page is **not** meant to be an exhaustive list of every viable distribution. Our Linux overview page has some advice on [choosing a distro](os/linux-overview.md#choosing-your-distribution) in more detail. The distros on *this* page do all generally follow the guidelines we covered there, and all meet these standards:
 
-- Free and open-source.
-- Receives regular software and kernel updates.
+- 自由でオープンソースであること。
+- 定期的にソフトウェアとカーネルのアップデートを受け取ること。
 - [Avoids X11](os/linux-overview.md#wayland).
     - The notable exception here is Qubes, but the isolation issues which X11 typically has are avoided by virtualization. This isolation only applies to apps *running in different qubes* (virtual machines), apps running in the *same* qube are not protected from each other.
 - Supports full-disk encryption during installation.
@@ -196,4 +196,4 @@ Choosing a Linux distro that is right for you will come down to a huge variety o
 - Preference towards larger projects.
     - Maintaining an operating system is a major challenge, and smaller projects have a tendency to make more avoidable mistakes, or delay critical updates (or worse, disappear entirely). We lean towards projects which will likely be around 10 years from now (whether that's due to corporate backing or very significant community support), and away from projects which are hand-built or have a small number of maintainers.
 
-In addition, [our standard criteria](about/criteria.md) for recommended projects still applies. **Please note we are not affiliated with any of the projects we recommend.**
+In addition, [our standard criteria](about/criteria.md) for recommended projects still applies. **私たちは、推奨するいずれのプロジェクトとも提携していません。**
