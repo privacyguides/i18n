@@ -10,13 +10,13 @@ The [Domain Name System](https://en.wikipedia.org/wiki/Domain_Name_System) is th
 
 ウェブサイトにアクセスすると、数値のアドレスが返されます。 たとえば、 `privacyguides.org`にアクセスすると、アドレス `192.98.54.105` が返されます。
 
-DNSはインターネットの[初期](https://en.wikipedia.org/wiki/Domain_Name_System#History)から存在しています。 DNS requests made to and from DNS servers are **not** generally encrypted. In a residential setting, a customer is given servers by the ISP via [DHCP](https://en.wikipedia.org/wiki/Dynamic_Host_Configuration_Protocol).
+DNSはインターネットの[初期](https://en.wikipedia.org/wiki/Domain_Name_System#History)から存在しています。 DNSサーバーとの間で行われるDNSリクエストは、一般的には暗号化**されていません**。 In a residential setting, a customer is given servers by the ISP via [DHCP](https://en.wikipedia.org/wiki/Dynamic_Host_Configuration_Protocol).
 
-Unencrypted DNS requests are able to be easily **surveilled** and **modified** in transit. In some parts of the world, ISPs are ordered to do primitive [DNS filtering](https://en.wikipedia.org/wiki/DNS_blocking). When you request the IP address of a domain that is blocked, the server may not respond or may respond with a different IP address. As the DNS protocol is not encrypted, the ISP (or any network operator) can use [DPI](https://en.wikipedia.org/wiki/Deep_packet_inspection) to monitor requests. ISPs can also block requests based on common characteristics, regardless of which DNS server is used. Unencrypted DNS always uses [port](https://en.wikipedia.org/wiki/Port_(computer_networking)) 53 and always uses UDP.
+暗号化されていないDNSリクエストは、転送中簡単に**監視し**、**変更**することができます。 世界のいくつかの地域では、ISPは原始的な[DNSフィルタリング](https://en.wikipedia.org/wiki/DNS_blocking)を行うよう命じられています。 ブロックされているドメインのIPアドレスをリクエストすると、サーバーは応答しないか、別のIPアドレスで応答することがあります。 DNSプロトコルは暗号化されていないため、ISPは（またはどのネットワークオペレーターも） [ディープ・パケット・インスペクション](https://en.wikipedia.org/wiki/Deep_packet_inspection)によって 、リクエストを監視できます。 ISPは、どのDNSサーバーが使われているかに関係なく、共通の特徴に基づいてリクエストをブロックすることもできます。 Unencrypted DNS always uses [port](https://en.wikipedia.org/wiki/Port_(computer_networking)) 53 and always uses UDP.
 
 Below, we discuss and provide a tutorial to prove what an outside observer may see using regular unencrypted DNS and [encrypted DNS](#what-is-encrypted-dns).
 
-### Unencrypted DNS
+### 暗号化されていないDNS
 
 1. Using [`tshark`](https://www.wireshark.org/docs/man-pages/tshark.html) (part of the [Wireshark](https://en.wikipedia.org/wiki/Wireshark) project) we can monitor and record internet packet flow. This command records packets that meet the rules specified:
 
