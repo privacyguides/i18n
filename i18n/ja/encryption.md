@@ -2,15 +2,15 @@
 meta_title: "おすすめの暗号化ソフトウェア: VeraCrypt、Cryptomator、PicoCrypt、OpenPGP - Privacy Guides"
 title: "暗号化ソフトウェア"
 icon: material/file-lock
-description: Encryption of data is the only way to control who can access it. These tools allow you to encrypt your emails and any other files.
+description: データの暗号化は、誰がデータにアクセスできるかをコントロールする唯一の方法です。 これらのツールを使えば、電子メールやその他のファイルを暗号化できます。
 cover: encryption.webp
 ---
 
-Encryption of data is the only way to control who can access it. If you are currently not using encryption software for your hard disk, emails or files, you should pick an option here.
+データの暗号化は、誰がデータにアクセスできるかをコントロールする唯一の方法です。 現在、ハードディスクや電子メール、ファイルの暗号化ソフトウェアを使用していない場合は、以下のツールを使いましょう。
 
-## Multi-platform
+## 複数プラットフォーム
 
-The options listed here are multi-platform and great for creating encrypted backups of your data.
+ここに記載されているオプションは複数のプラットフォームに対応しており、データの暗号化バックアップの作成に適しています。
 
 ### Cryptomator（クラウド）
 
@@ -48,19 +48,19 @@ Cryptomator's documentation details its intended [security target](https://docs.
 
     ![Picocrypt logo](assets/img/encryption-software/picocrypt.svg){ align=right }
     
-    **Picocrypt** is a small and simple encryption tool that provides modern encryption. Picocrypt uses the secure XChaCha20 cipher and the Argon2id key derivation function to provide a high level of security. It uses Go's standard x/crypto modules for its encryption features.
+    **Picocrypt**は小さくシンプルな暗号化ツールで、最新の暗号化を提供します。 Picocryptは、セキュアなXChaCha20暗号とArgon2idキー派生機能を使用し、高レベルのセキュリティを提供します。 暗号化機能には、Go標準のx/cryptoモジュールを使用しています。
     
     [:octicons-repo-16: Repository](https://github.com/HACKERALERT/Picocrypt){ .md-button .md-button--primary }
-    [:octicons-code-16:](https://github.com/HACKERALERT/Picocrypt){ .card-link title="Source Code" }
-    [:octicons-heart-16:](https://opencollective.com/picocrypt){ .card-link title=Contribute }
+    [:octicons-code-16:](https://github.com/HACKERALERT/Picocrypt){ .card-link title="ソースコード" }
+    [:octicons-heart-16:](https://opencollective.com/picocrypt){ .card-link title=貢献 }
     
-    ??? downloads
+    ??? ダウンロード
     
         - [:simple-windows11: Windows](https://github.com/HACKERALERT/Picocrypt/releases)
         - [:simple-apple: macOS](https://github.com/HACKERALERT/Picocrypt/releases)
         - [:simple-linux: Linux](https://github.com/HACKERALERT/Picocrypt/releases)
 
-### VeraCrypt (Disk)
+### VeraCrypt（ディスク）
 
 !!! recommendation
 
@@ -80,9 +80,9 @@ Cryptomator's documentation details its intended [security target](https://docs.
         - [:simple-apple: macOS](https://www.veracrypt.fr/en/Downloads.html)
         - [:simple-linux: Linux](https://www.veracrypt.fr/en/Downloads.html)
 
-VeraCrypt is a fork of the discontinued TrueCrypt project. According to its developers, security improvements have been implemented and issues raised by the initial TrueCrypt code audit have been addressed.
+VeraCryptは、終了したTrueCryptプロジェクトのフォークです。 開発者によると、セキュリティの改善が実装されており、最初のTrueCryptコード監査によって提起された問題が解決されています。
 
-When encrypting with VeraCrypt, you have the option to select from different [hash functions](https://en.wikipedia.org/wiki/VeraCrypt#Encryption_scheme). We suggest you **only** select [SHA-512](https://en.wikipedia.org/wiki/SHA-512) and stick to the [AES](https://en.wikipedia.org/wiki/Advanced_Encryption_Standard) block cipher.
+VeraCryptで暗号化する場合、異なる[ハッシュ関数](https://en.wikipedia.org/wiki/VeraCrypt#Encryption_scheme)から選択できます。 しかし、[SHA-512](https://en.wikipedia.org/wiki/SHA-512)**のみ**を選ぶことを推奨します。[AES](https://en.wikipedia.org/wiki/Advanced_Encryption_Standard)ブロック暗号以外を使うべきではありません。
 
 Truecrypt has been [audited a number of times](https://en.wikipedia.org/wiki/TrueCrypt#Security_audits), and VeraCrypt has also been [audited separately](https://en.wikipedia.org/wiki/VeraCrypt#VeraCrypt_audit).
 

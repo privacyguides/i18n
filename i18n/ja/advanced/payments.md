@@ -7,11 +7,11 @@ There's a reason data about your buying habits is considered the holy grail of a
 
 ## 現金
 
-For centuries, **cash** has functioned as the primary form of private payment. Cash has excellent privacy properties in most cases, is widely accepted in most countries, and is **fungible**, meaning it is non-unique and completely interchangable.
+何世紀にもわたり、 **現金**はプライベートな支払いの主な形態として機能してきました。 現金にはほとんどの場合において優れたプライバシーの特性があり、ほとんどの国で広く受け入れられ、また、**代替可能**、つまり独自性がなく、完全な交換可能性を備えています。
 
-Cash payment laws vary by country. In the United States, special disclosure is required for cash payments over $10,000 to the IRS on [Form 8300](https://www.irs.gov/businesses/small-businesses-self-employed/form-8300-and-reporting-cash-payments-of-over-10000). The receiving business is required to ID verify the payee’s name, address, occupation, date of birth, and Social Security Number or other TIN (with some exceptions). Lower limits without ID such as $3,000 or less exist for exchanges and money transmission. Cash also contains serial numbers. These are almost never tracked by merchants, but they can be used by law enforcement in targeted investigations.
+現金による支払いに関する法律は国によって異なります。 米国では、1万ドルを超える現金支払いについては、[Form 8300](https://www.irs.gov/businesses/small-businesses-self-employed/form-8300-and-reporting-cash-payments-of-over-10000)でIRSに特別な開示を行うことが義務付けられています。 The receiving business is required to ID verify the payee’s name, address, occupation, date of birth, and Social Security Number or other TIN (with some exceptions). Lower limits without ID such as $3,000 or less exist for exchanges and money transmission. Cash also contains serial numbers. These are almost never tracked by merchants, but they can be used by law enforcement in targeted investigations.
 
-Despite this, it’s typically the best option.
+以上の理由はありますが、現金は一般的に最も優れた選択肢です。
 
 ## プリペイドカード & ギフトカード
 
@@ -27,13 +27,13 @@ Cash remains the best option for in-person purchases for most people. Gift cards
 
 ### オンライン マーケットプレイス
 
-If you have [cryptocurrency](../cryptocurrency.md), you can purchase gift cards with an online gift card marketplace. Some of these services offer ID verification options for higher limits, but they also allow accounts with just an email address. Basic limits start at $5,000-10,000 a day for basic accounts, and significantly higher limits for ID verified accounts (if offered).
+[暗号通貨](../cryptocurrency.md)を持っていれば、オンラインのギフトカード販売所でギフトカードを購入できます。 Some of these services offer ID verification options for higher limits, but they also allow accounts with just an email address. Basic limits start at $5,000-10,000 a day for basic accounts, and significantly higher limits for ID verified accounts (if offered).
 
 When buying gift cards online, there is usually a slight discount. Prepaid cards are usually sold online at face value or with a fee. If you buy prepaid cards and gift cards with cryptocurrencies, you should strongly prefer to pay with Monero which provides strong privacy, more on this below. Paying for a gift card with a traceable payment method negates the benefits a gift card can provide when purchased with cash or Monero.
 
 - [Online Gift Card Marketplaces :material-arrow-right-drop-circle:](../financial-services.md#gift-card-marketplaces)
 
-## Virtual Cards
+## 仮想カード
 
 Another way to protect your information from merchants online is to use virtual, single-use cards which mask your actual banking or billing information. This is primarily useful for protecting you from merchant data breaches, less sophisticated tracking or purchase correlation by marketing agencies, and online data theft. They do **not** assist you in making a purchase completely anonymously, nor do they hide any information from the banking institution themselves. Regular financial institutions which offer virtual cards are subject to "Know Your Customer" (KYC) laws, meaning they may require your ID or other identifying information.
 
@@ -61,11 +61,11 @@ Privacy coins have been subject to increasing scrutiny by government agencies. I
 
 ### Other Coins (Bitcoin, Ethereum, etc.)
 
-The vast majority of cryptocurrency projects use a public blockchain, meaning that all transactions are both easily traceable and permanent. As such, we strongly discourage the use of most cryptocurrency for privacy-related reasons.
+大多数の暗号通貨プロジェクトでは公開のブロックチェーンを使用しているため、全ての取引は簡単に追跡でき、かつ永続的です。 そのため、私たちはプライバシーに関する理由から、ほとんどの暗号通貨の使用に対して強く反対します。
 
-Anonymous transactions on a public blockchain are *theoretically* possible, and the Bitcoin wiki [gives one example of a "completely anonymous" transaction](https://en.bitcoin.it/wiki/Privacy#Example_-_A_perfectly_private_donation). However, doing so requires a complicated setup involving Tor and "solo-mining" a block to generate completely independent cryptocurrency, a practice which has not been practical for nearly any enthusiast for many years.
+公開ブロックチェーンにおける匿名のトランザクションは *理論的には* 可能であり、ビットコインのウィキには [「完全に匿名な」トランザクションの一例が示されています](https://en.bitcoin.it/wiki/Privacy#Example_-_A_perfectly_private_donation)。 しかし、そのためには、Torと「ソロマイニング」ブロックを含む複雑な設定によって、完全に独立した暗号通貨を生成することが必要となります。これは、ほとんど全ての熱狂的なユーザーにとっても実用的ではなかった実践です。
 
-==Your best option is to avoid these cryptocurrencies entirely and stick with one which provides privacy by default.== Attempting to use other cryptocurrency is outside the scope of this site and strongly discouraged.
+==最もよい選択肢は、これらの暗号通貨は一切使わず、デフォルトでプライバシーを保証する暗号通貨だけを使うことです。== 他の暗号通貨を使用しようとすることは、本サイトで扱う範囲を超えており、全く推奨されません。
 
 ### Wallet Custody
 
@@ -81,4 +81,4 @@ If you go this route, make sure to purchase Monero at different times and in dif
 
 When you're making a payment in-person with cash, make sure to keep your in-person privacy in mind. Security cameras are ubiquitous. Consider wearing non-distinct clothing and a face mask (such as a surgical mask or N95). Don’t sign up for rewards programs or provide any other information about yourself.
 
-When purchasing online, ideally you should do so over [Tor](tor-overview.md). However, many merchants don’t allow purchases with Tor. You can consider using a [recommended VPN](../vpn.md) (paid for with cash, gift card, or Monero), or making the purchase from a coffee shop or library with free Wi-Fi. If you are ordering a physical item that needs to be delivered, you will need to provide a delivery address. You should consider using a PO box, private mailbox, or work address.
+オンラインで購入する場合は、 [Tor](tor-overview.md)で購入するのが理想的です。 However, many merchants don’t allow purchases with Tor. You can consider using a [recommended VPN](../vpn.md) (paid for with cash, gift card, or Monero), or making the purchase from a coffee shop or library with free Wi-Fi. If you are ordering a physical item that needs to be delivered, you will need to provide a delivery address. 私書箱や勤務先の住所の利用を検討すべきです。

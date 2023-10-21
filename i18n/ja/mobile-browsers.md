@@ -49,7 +49,7 @@ Androidでは、FirefoxはChromiumベースのブラウザよりもまだ安全�
 
     ![Brave logo](assets/img/browsers/brave.svg){ align=right }
     
-    **Brave Browser** includes a built-in content blocker and [privacy features](https://brave.com/privacy-features/), many of which are enabled by default.
+    **Brave Browser**には、コンテンツブロッカーと [プライバシー機能](https://brave.com/privacy-features/) が内蔵されていて、その多くがデフォルトで有効になっています。
     
     Brave is built upon the Chromium web browser project, so it should feel familiar and have minimal website compatibility issues.
     
@@ -59,7 +59,7 @@ Androidでは、FirefoxはChromiumベースのブラウザよりもまだ安全�
     [:octicons-info-16:](https://support.brave.com/hc/en-us/categories/360006507272){ .card-link title=ドキュメント}
     [:octicons-code-16:](https://github.com/brave/brave-browser){ .card-link title="ソースコード" }
     
-    ??? downloads annotate
+    ??? ダウンロード
     
         - [:simple-googleplay: Google Play](https://play.google.com/store/apps/details?id=com.brave.browser)
         - [:simple-github: GitHub](https://github.com/brave/brave-browser/releases)
@@ -74,7 +74,7 @@ These options can be found in :material-menu: → **Settings** → **Brave Shiel
 
 Brave includes some anti-fingerprinting measures in its [Shields](https://support.brave.com/hc/en-us/articles/360022973471-What-is-Shields-) feature. We suggest configuring these options [globally](https://support.brave.com/hc/en-us/articles/360023646212-How-do-I-configure-global-and-site-specific-Shields-settings-) across all pages that you visit.
 
-##### Brave shields global defaults
+##### Braveシールドのグローバルデフォルト
 
 Shields' options can be downgraded on a per-site basis as needed, but by default we recommend setting the following:
 
