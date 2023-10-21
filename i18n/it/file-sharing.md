@@ -139,7 +139,7 @@ ffsend upload --host https://send.vis.ee/ FILE
 
 #### Miglior Caso
 
-I nostri criteri del caso migliore rappresentano cosa vorremmo vedere dal progetto perfetto in questa categoria. I nostri consigli potrebbero non includere tutte o alcune di queste funzionalità, ma quelli che le includono potrebbero essere preferiti ad altri su questa pagina.
+I nostri criteri ottimali rappresentano ciò che vorremmo vedere dal progetto perfetto in questa categoria. I nostri consigli potrebbero non includere tutte o alcune di queste funzionalità, ma quelli che le includono potrebbero essere preferiti ad altri su questa pagina.
 
 - Dispone di client mobile per iOS e Android che, almeno, supportino le anteprime dei documenti.
 - Supporta il backup delle foto da iOS e Android e, facoltativamente, supporta la sincronizzazione dei file/delle cartelle su Android.

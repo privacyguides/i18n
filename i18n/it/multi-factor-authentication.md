@@ -77,7 +77,7 @@ Il firmware di Nitrokey è open source, a differenza di YubiKey. Il firmware dei
 
 #### Miglior Caso
 
-I nostri criteri del caso migliore rappresentano cosa vorremmo vedere dal progetto perfetto in questa categoria. I nostri consigli potrebbero non includere tutte o alcune di queste funzionalità, ma quelli che le includono potrebbero essere preferiti ad altri su questa pagina.
+I nostri criteri ottimali rappresentano ciò che vorremmo vedere dal progetto perfetto in questa categoria. I nostri consigli potrebbero non includere tutte o alcune di queste funzionalità, ma quelli che le includono potrebbero essere preferiti ad altri su questa pagina.
 
 - Dovrebbe essere disponibile in formato USB-C.
 - Dovrebbe essere disponibile con NFC.

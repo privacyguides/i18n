@@ -16,7 +16,7 @@ schema:
     "@type": SoftwareApplication
     name: Mullvad Browser
     image: /assets/img/browsers/mullvad_browser.svg
-    url: https://mullvad.net/en/browser
+    url: https://mullvad.net/it/browser
     applicationCategory: Web Browser
     operatingSystem:
       - Windows
@@ -366,7 +366,7 @@ Ecco alcuni altri [elenchi di filtri](https://github.com/gorhill/uBlock/wiki/Das
 
 ### Miglior Caso
 
-I nostri criteri del caso migliore rappresentano cosa vorremmo vedere dal progetto perfetto in questa categoria. I nostri consigli potrebbero non includere alcuna o tutte queste funzionalità, ma quelli che le presentano, potrebbero essere meglio classificati di altri su questa pagina.
+I nostri criteri ottimali rappresentano ciò che vorremmo vedere dal progetto perfetto in questa categoria. I nostri consigli potrebbero non includere alcuna o tutte queste funzionalità, ma quelli che le presentano, potrebbero essere meglio classificati di altri su questa pagina.
 
 - Include una funzionalità di blocco dei contenuti integrati.
 - Supporta la compartimentazione dei cookie (come nei [Contenitori a Profilo Multiplo](https://support.mozilla.org/en-US/kb/containers)).

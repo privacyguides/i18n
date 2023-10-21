@@ -90,7 +90,7 @@ Inoltre, Proton Mail supporta la scoperta delle chiavi pubbliche tramite HTTP, d
 
 #### :material-information-outline:{ .pg-blue } Chiusura dell'account
 
-Se hai un profilo a pagamento e la tua [fatturazione non viene pagata](https://proton.me/support/delinquency) dopo 14 giorni, non potrai accedere ai tuoi dati. Dopo 30 giorni, il tuo profilo sarà considerato moroso e non riceverà la posta in arrivo. Durante questo periodo, continuerà a essere addebitato.
+Se hai un profilo a pagamento e la tua [fatturazione non viene pagata](https://proton.me/support/delinquency) dopo 14 giorni, non potrai accedere ai tuoi dati. Dopo 30 giorni, il tuo profilo sarà considerato moroso e non riceverà la posta in arrivo. Durante questo periodo, continuerai a essere addebitato.
 
 #### :material-information-outline:{ .pg-blue } Funzionalità aggiuntive
 
@@ -104,7 +104,7 @@ Proton Mail non offre una funzionalità di eredità digitale.
 
     ![Logo di Mailbox.org](assets/img/email/mailboxorg.svg){ align=right }
     
-    **Mailbox.org** è un servizio email incentrato sull'essere sicuro, privo di pubblicità e alimentato privatamente da energia ecologica al 100%. È in operazione dal 2014. Inoltre, ha sede a Berlino, in Germania. I profili partono da 2 GB di archiviazione, aggiornabile se necessario.
+    **Mailbox.org** è un servizio email incentrato sull'essere sicuro, privo di pubblicità e alimentato privatamente da energia ecologica al 100%. Sono operativi dal 2014. Inoltre, ha sede a Berlino, in Germania. I profili partono da 2 GB di archiviazione, aggiornabile se necessario.
     
     [:octicons-home-16: Homepage](https://mailbox.org){ .md-button .md-button--primary }
     [:octicons-eye-16:](https://mailbox.org/en/data-protection-privacy-policy){ .card-link title="Privacy Policy" }

@@ -62,7 +62,7 @@ Per generare una frase segreta Dicewaare utilizzando dadi reali, segui questi pa
 
 !!! warning "Importante"
 
-    **Non** dovresti rigenerare le parole finché non ottieni una combinazione di parole che ti attragga. Il procedimnto dovrebbe essere interamente casuale.
+    **Non** dovresti rigenerare le parole finché non ottieni una combinazione di parole che ti attragga. Il processo dovrebbe essere totalmente casuale.
 
 Se non hai accesso a dadi reali o preferiresti non utilizzarli, puoi utilizzare il generatore di password integrato del gestore di password, poiché molti di essi offrono l'opzione di generare frasi segrete Diceware, oltre alle password regolari.
 
@@ -94,7 +94,7 @@ Ricapitolando, le frasi segrete Diceware sono la tua migliore opzione quando nec
 
 Il miglior modo per memorizzare le tue password è utilizzare un gestore di password. Ti consente di memorizzare le tue password in un file o nel cloud e di proteggerle con un password principale singola. Così, dovrai ricordare soltanto una password forte, che ti consente di accedere al resto di esse.
 
-Esistono molte buone opzioni da cui scegliere, sia basate su cloud che locali. Scegli uno dei nostri gestori di password consigliati e utilizzalo per stabilire le password forti tra tutti i tuoi profili. Consigliamo di proteggere il tuo gestore di password con una [frase segreta Diceware](#diceware-passphrases), che comprenda almeno sette parole.
+Esistono molte buone opzioni da cui scegliere, sia basate su cloud che locali. Scegli uno dei nostri gestori di password consigliati e utilizzalo per stabilire le password forti tra tutti i tuoi profili. Consigliamo di proteggere il tuo gestore di password con una [password diceware](#diceware-passphrases), che comprenda almeno sette parole.
 
 [Elenco dei gestori di password consigliati](../passwords.md ""){.md-button}
 

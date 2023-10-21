@@ -6,7 +6,7 @@ description: Questi motori di ricerca che rispettano la privacy, non costruiscon
 cover: search-engines.webp
 ---
 
-Utilizza un motore di ricerca che non costruisca un profilo pubblicitario secondo le tue ricerche.
+Utilizza un motore di ricerca che non crei un profilo pubblicitario basato sulle tue ricerche.
 
 Le raccomandazioni riportate si basano sui meriti delle privacy policy di ciascun servizio. Non esiste **alcuna garanzia** che tali politiche sulle privacy siano rispettate.
 
