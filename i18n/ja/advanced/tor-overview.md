@@ -1,12 +1,12 @@
 ---
-title: "Tor Overview"
+title: "Torの概要"
 icon: 'simple/torproject'
 description: Torは、可能な限りプライバシーを守ってインターネットを利用するために設計された、自由に利用できる分散型ネットワークです。
 ---
 
 Torは、可能な限りプライバシーを守ってインターネットを利用するために設計された、自由に利用できる分散型ネットワークです。 適切に使用すれば、プライベートで匿名のブラウジングや通信を行うことができます。
 
-## Path Building to Clearnet Services
+## クリアネット・サービスへの通路の構築
 
 「クリアネット・サービス」とは、 [privacyguides.org](https://www.privacyguides.org)のように、どのブラウザーでもアクセスできるウェブサイトのことです。 Torは、ノード（またはリレー）と呼ばれる、ボランティアが運営する何千ものサーバーで構成されるネットワークを経由してトラフィックをルーティングすることにより、匿名でこれらのウェブサイトに接続することができます。
 
@@ -22,9 +22,9 @@ Torは、可能な限りプライバシーを守ってインターネットを�
 
 ### 入力ノード
 
-The entry node, often called the guard node, is the first node to which your Tor client connects. The entry node is able to see your IP address, however it is unable to see what you are connecting to.
+入力ノードはしばしばガードノードと呼ばれ、Torのクライアントが最初に接続するノードです。 入力ノードはあなたのIPアドレスを見ることができますが、あなたが何に接続しているかを見ることはできません。
 
-Unlike the other nodes, the Tor client will randomly select an entry node and stick with it for two to three months to protect you from certain attacks.[^1]
+他のノードとは異なり、Torクライアントはランダムに入力ノードを選択した後、特定の攻撃からあなたを守るため、2～3ヶ月間そのノードを使用します。[^1]
 
 ### 中間ノード
 
@@ -38,9 +38,9 @@ The exit node is the point in which your web traffic leaves the Tor network and 
 
 The exit node will be chosen at random from all available Tor nodes ran with an exit relay flag.[^2]
 
-## Path Building to Onion Services
+## オニオン・サービスへの通路の構築
 
-"Onion Services" (also commonly referred to as "hidden services") are websites which can only be accessed by the Tor browser. These websites have a long randomly generated domain name ending with `.onion`.
+「オニオンサービス」（一般に「隠しサービス」とも呼ばれます）とは、Torブラウザでしかアクセスできないウェブサイトのことです。 These websites have a long randomly generated domain name ending with `.onion`.
 
 Connecting to an Onion Service in Tor works very similarly to connecting to a clearnet service, but your traffic is routed through a total of **six** nodes before reaching the destination server. Just like before however, only three of these nodes are contributing to *your* anonymity, the other three nodes protect *the Onion Service's* anonymity, hiding the website's true IP and location in the same manner that Tor Browser is hiding yours.
 
@@ -56,13 +56,13 @@ Torは、各パケット（送信データのブロック）を、出口ノー�
 
 Torが回路を構築すると、データの伝送は以下のように行われます。
 
-1. まず、パケットが入力ノードに到達すると、暗号化の最初のレイヤーが取り除かれます。 In this encrypted packet, the entry node will find another encrypted packet with the middle node’s address. The entry node will then forward the packet to the middle node.
+1. まず、パケットが入力ノードに到達すると、暗号化の最初のレイヤーが取り除かれます。 この暗号化されたパケットの中から、入力ノードは中間ノードのアドレスを持つ、別の暗号化されたパケットを見つけます。 入力ノードはその後、パケットを中間ノードに転送します。
 
-2. Secondly: when the middle node receives the packet from the entry node, it too will remove a layer of encryption with its key, and this time finds an encrypted packet with the exit node's address. The middle node will then forward the packet to the exit node.
+2. 次に、中間ノードが入力ノードからパケットを受信すると、中間ノードもその鍵で暗号化のレイヤーを取り除き、今度は暗号化されたパケットを出口ノードのアドレスで見つけます。 中間ノードはその後、パケットを出口ノードに転送します。
 
-3. Lastly: when the exit node receives its packet, it will remove the last layer of encryption with its key. The exit node will see the destination address and forward the packet to that address.
+3. 最後に、出口ノードがパケットを受信すると、その鍵で最後の暗号化レイヤーを削除します。 出口ノードは宛先のアドレスを確認し、そのアドレスにパケットを転送します。
 
-Below is an alternative diagram showing the process. Each node removes its own layer of encryption, and when the destination server returns data, the same process happens entirely in reverse. For example, the exit node does not know who you are, but it does know which node it came from, and so it adds its own layer of encryption and sends it back.
+以下はそのプロセスを示す別の図です。 Each node removes its own layer of encryption, and when the destination server returns data, the same process happens entirely in reverse. For example, the exit node does not know who you are, but it does know which node it came from, and so it adds its own layer of encryption and sends it back.
 
 <figure markdown>
   ![Tor encryption](../assets/img/how-tor-works/tor-encryption.svg#only-light)
@@ -70,22 +70,22 @@ Below is an alternative diagram showing the process. Each node removes its own l
   <figcaption>Sending and receiving data through the Tor Network</figcaption>
 </figure>
 
-Tor allows us to connect to a server without any single party knowing the entire path. The entry node knows who you are, but not where you are going; the middle node doesn’t know who you are or where you are going; and the exit node knows where you are going, but not who you are. Because the exit node is what makes the final connection, the destination server will never know your IP address.
+Torを使えば、誰にも全経路を知られることなくサーバーに接続することができます。 入口ノードは、あなたが誰であるかは知っているが、どこへ行こうとしているかは知りません。中間ノードには、あなたが誰であるかも、どこへ行こうとしているかも知ることができません。出口ノードは、あなたがどこへ行こうとしているかは知っていますが、誰であるかは知りません。 最終的な接続を行うのは出口ノードであるため、接続先のサーバーが、あなたのIPアドレスを知ることは決してありません。
 
-## Caveats
+## 注意事項
 
-Though Tor does provide strong privacy guarantees, one must be aware that Tor is not perfect:
+Torはプライバシーを強力に保証していますが、Torが完璧ではないことに注意する必要があります。
 
 - Well-funded adversaries with the capability to passively watch most network traffic over the globe have a chance of deanonymizing Tor users by means of advanced traffic analysis. Nor does Tor protect you from exposing yourself by mistake, such as if you share too much information about your real identity.
 - Tor exit nodes can also monitor traffic that passes through them. This means traffic which is not encrypted, such as plain HTTP traffic, can be recorded and monitored. If such traffic contains personally identifiable information, then it can deanonymize you to that exit node. Thus, we recommend using HTTPS over Tor where possible.
 
 If you wish to use Tor for browsing the web, we only recommend the **official** Tor Browser—it is designed to prevent fingerprinting.
 
-- [Tor Browser :material-arrow-right-drop-circle:](../tor.md#tor-browser)
+- [Torブラウザー :material-arrow-right-drop-circle:](../tor.md#tor-browser)
 
-## Additional Resources
+## その他の資料
 
-- [Tor Browser User Manual](https://tb-manual.torproject.org)
+- [Torブラウザーのユーザーマニュアル](https://tb-manual.torproject.org)
 - [How Tor Works - Computerphile](https://invidious.privacyguides.net/embed/QRYzre4bf7I?local=true) <small>(YouTube)</small>
 - [Tor Onion Services - Computerphile](https://invidious.privacyguides.net/embed/lVcbq_a5N9I?local=true) <small>(YouTube)</small>
 

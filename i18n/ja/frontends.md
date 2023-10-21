@@ -17,21 +17,21 @@ When you are using an instance run by someone else, make sure to read the privac
 
 !!! recommendation
 
-    ![Nitter logo](assets/img/frontends/nitter.svg){ align=right }
+    ![Nitterのロゴ](assets/img/frontends/nitter.svg){ align=right }
     
-    **Nitter** is a free and open-source frontend for [Twitter](https://twitter.com) that is also self-hostable.
+    **Nitter**は、自由でオープンソースの[Twitter](https://twitter.com)用のフロントエンドです。セルフホスティングも可能です。
     
-    There are a number of public instances, with some instances having [Tor](https://www.torproject.org) onion services support.
+    多くの公開インスタンスがあり、いくつかのインスタンスは [Tor](https://www.torproject.org)のオニオン・サービスをサポートしています。
     
-    [:octicons-repo-16: Repository](https://github.com/zedeus/nitter){ .md-button .md-button--primary }
-    [:octicons-server-16:](https://github.com/zedeus/nitter/wiki/Instances){ .card-link title="Public Instances"}
-    [:octicons-info-16:](https://github.com/zedeus/nitter/wiki){ .card-link title=Documentation}
-    [:octicons-code-16:](https://github.com/zedeus/nitter){ .card-link title="Source Code" }
-    [:octicons-heart-16:](https://github.com/zedeus/nitter#nitter){ .card-link title=Contribute }
+    [:octicons-repo-16: レポジトリー](https://github.com/zedeus/nitter){ .md-button .md-button--primary }
+    [:octicons-server-16:](https://github.com/zedeus/nitter/wiki/Instances){ .card-link title="公開インスタンス"}
+    [:octicons-info-16:](https://github.com/zedeus/nitter/wiki){ .card-link title=ドキュメンテーション}
+    [:octicons-code-16:](https://github.com/zedeus/nitter){ .card-link title="ソースコード" }
+    [:octicons-heart-16:](https://github.com/zedeus/nitter#nitter){ .card-link title=貢献 }
 
-!!! tip
+!!! ヒント
 
-    Nitter is useful if you want to browse Twitter content without having to log in and if you want to disable JavaScript in your browser, as is the case with [Tor Browser](https://www.torproject.org/) on the Safest security level. It also allows you to [create RSS feeds for Twitter](news-aggregators.md#twitter).
+    Nitterは、ログインせずにTwitterのコンテンツを閲覧したい場合や、[Tor Browser](https://www.torproject.org/)の最も安全なセキュリティーレベルでJavaScriptを無効にしている場合に便利です。 また、[Twitter用のRSSフィードを作成する](news-aggregators.md#twitter)こともできます。
 
 ## TikTok
 
@@ -43,7 +43,7 @@ When you are using an instance run by someone else, make sure to read the privac
     
     **ProxiTok** is an open source frontend to the [TikTok](https://www.tiktok.com) website that is also self-hostable.
     
-    There are a number of public instances, with some instances having [Tor](https://www.torproject.org) onion services support.
+    多くの公開インスタンスがあり、いくつかのインスタンスは [Tor](https://www.torproject.org)のオニオン・サービスをサポートしています。
     
     [:octicons-repo-16: Repository](https://github.com/pablouser1/ProxiTok){ .md-button .md-button--primary }
     [:octicons-server-16:](https://github.com/pablouser1/ProxiTok/wiki/Public-instances){ .card-link title="Public Instances"}
@@ -99,16 +99,16 @@ When you are using an instance run by someone else, make sure to read the privac
     [:octicons-code-16:](https://github.com/yattee/yattee){ .card-link title="Source Code" }
     [:octicons-heart-16:](https://github.com/yattee/yattee/wiki/Donations){ .card-link title=Contribute }
     
-    ??? downloads
+    ??? ダウンロード
     
         - [:simple-apple: App Store](https://apps.apple.com/us/app/yattee/id1595136629)
         - [:simple-github: GitHub](https://github.com/yattee/yattee/releases)
 
 !!! 警告
 
-    When using Yattee, your IP address may still be known to YouTube, [Invidious](https://instances.invidious.io), [Piped](https://github.com/TeamPiped/Piped/wiki/Instances) or [SponsorBlock](https://sponsor.ajay.app/) depending on your configuration. Consider using a [VPN](vpn.md) or [Tor](https://www.torproject.org) if your [threat model](basics/threat-modeling.md) requires hiding your IP address.
+    Yatteeを使用している場合、あなたのIPアドレスは、設定に応じて、YouTube、[Invidious](https://instances.invidio)、[Piped](https://github.com/TeamPiped/Piped/wiki/Instances)または[SponsorBlock](https://spon.ajay.app/)に通知されます。 Consider using a [VPN](vpn.md) or [Tor](https://www.torproject.org) if your [threat model](basics/threat-modeling.md) requires hiding your IP address.
 
-By default, Yattee blocks all YouTube advertisements. In addition, Yattee optionally integrates with [SponsorBlock](https://sponsor.ajay.app) to help you skip sponsored video segments.
+デフォルトでは、Yatteeは全てのYouTubeの広告をブロックします。 In addition, Yattee optionally integrates with [SponsorBlock](https://sponsor.ajay.app) to help you skip sponsored video segments.
 
 ### LibreTube (Android)
 
@@ -140,27 +140,27 @@ By default, LibreTube blocks all YouTube advertisements. Additionally, Libretube
 
 !!! recommendation annotate
 
-    ![Newpipe logo](assets/img/frontends/newpipe.svg){ align=right }
+    ![Newpipeのロゴ](assets/img/frontends/newpipe.svg){ align=right }
     
-    **NewPipe** is a free and open-source Android application for [YouTube](https://youtube.com), [SoundCloud](https://soundcloud.com), [media.ccc.de](https://media.ccc.de), [Bandcamp](https://bandcamp.com), and [PeerTube](https://joinpeertube.org/) (1).
+    **NewPipe**は、 [YouTube](https://youtube.com)、 [SoundCloud](https://soundcloud.com)、 [media.ccc.de](https://media.ccc.de)、 [Bandcamp](https://bandcamp.com)、 [PeerTube](https://joinpeertube.org/)用の、フリーでオープンソースのAndroidアプリケーションです（1）。
     
-    Your subscription list and playlists are saved locally on your Android device.
+    購読リストとプレイリストは、Android端末にローカル保存されます。
     
-    [:octicons-home-16: Homepage](https://newpipe.net){ .md-button .md-button--primary }
-    [:octicons-eye-16:](https://newpipe.net/legal/privacy){ .card-link title="Privacy Policy" }
-    [:octicons-info-16:](https://teamnewpipe.github.io/documentation/){ .card-link title=Documentation}
-    [:octicons-code-16:](https://github.com/TeamNewPipe/NewPipe){ .card-link title="Source Code" }
-    [:octicons-heart-16:](https://newpipe.net/donate/){ .card-link title=Contribute }
+    [:octicons-home-16: ホームページ](https://newpipe.net){ .md-button .md-button--primary }
+    [:octicons-eye-16:](https://newpipe.net/legal/privacy){ .card-link title="プライバシーポリシー" }
+    [:octicons-info-16:](https://teamnewpipe.github.io/documentation/){ .card-link title=ドキュメンテーション}
+    [:octicons-code-16:](https://github.com/TeamNewPipe/NewPipe){ .card-link title="ソースコード" }
+    [:octicons-heart-16:](https://newpipe.net/donate/){ .card-link title=貢献 }
     
-    ??? downloads
+    ??? ダウンロード
     
         - [:simple-github: GitHub](https://github.com/TeamNewPipe/NewPipe/releases)
 
-1. The default instance is [FramaTube](https://framatube.org/), however more can be added via **Settings** → **Content** → **PeerTube instances**
+1. デフォルトのインスタンスは [FramaTube](https://framatube.org/)ですが、 **設定** → **コンテンツ** → **PeerTubeのインスタンス**から追加できます。
 
 !!! 警告
 
-    When using NewPipe, your IP address will be visible to the video providers used. Consider using a [VPN](vpn.md) or [Tor](https://www.torproject.org) if your [threat model](basics/threat-modeling.md) requires hiding your IP address.
+    NewPipeを使用すると、使用している動画プロバイダーにあなたのIPアドレスが表示されます。 Consider using a [VPN](vpn.md) or [Tor](https://www.torproject.org) if your [threat model](basics/threat-modeling.md) requires hiding your IP address.
 
 ### Invidious
 
@@ -171,7 +171,7 @@ By default, LibreTube blocks all YouTube advertisements. Additionally, Libretube
     
     **Invidious** is a free and open-source frontend for [YouTube](https://youtube.com) that is also self-hostable.
     
-    There are a number of public instances, with some instances having [Tor](https://www.torproject.org) onion services support.
+    多くの公開インスタンスがあり、いくつかのインスタンスは [Tor](https://www.torproject.org)のオニオン・サービスをサポートしています。
     
     [:octicons-home-16: Homepage](https://invidious.io){ .md-button .md-button--primary }
     [:octicons-server-16:](https://instances.invidious.io){ .card-link title="Public Instances"}
@@ -183,7 +183,7 @@ By default, LibreTube blocks all YouTube advertisements. Additionally, Libretube
 
     Invidious does not proxy video streams by default. Videos watched through Invidious will still make direct connections to Google's servers (e.g. `googlevideo.com`); however, some instances support video proxying—simply enable *Proxy videos* within the instances' settings or add `&local=true` to the URL.
 
-!!! tip
+!!! ヒント
 
     Invidious is useful if you want to disable JavaScript in your browser, such as [Tor Browser](https://www.torproject.org/) on the Safest security level. It does not provide privacy by itself, and we don’t recommend logging into any accounts.
 
@@ -207,9 +207,9 @@ By default, LibreTube blocks all YouTube advertisements. Additionally, Libretube
 
     Piped is useful if you want to use [SponsorBlock](https://sponsor.ajay.app) without installing an extension or to access age-restricted content without an account. It does not provide privacy by itself, and we don’t recommend logging into any accounts.
 
-## Criteria
+## 基準
 
-**Please note we are not affiliated with any of the projects we recommend.** In addition to [our standard criteria](about/criteria.md), we have developed a clear set of requirements to allow us to provide objective recommendations. We suggest you familiarize yourself with this list before choosing to use a project, and conduct your own research to ensure it's the right choice for you.
+**私たちは、推薦するどのプロジェクトとも提携していません。**客観的に推薦できるよう、[私たちの一般的な基準](about/criteria.md)に加えて、明確な要件を定めています。 We suggest you familiarize yourself with this list before choosing to use a project, and conduct your own research to ensure it's the right choice for you.
 
 !!! example "この項目は最近作成されました"
 
