@@ -331,7 +331,7 @@ L'app store di GrapheneOS è disponibile su [GitHub](https://github.com/Graphene
 
 Il Google Play Store richiede un profilo Google per l'accesso, il che non è un bene per la privacy. Puoi aggirare tale problema utilizzando un client alternativo, come Aurora Store.
 
-!!! consigli
+!!! consiglio
 
     ![Logo di Aurora Store](assets/img/android/aurora-store.webp){ align=right }
     

@@ -169,7 +169,7 @@ Per ulteriori informazioni sul funzionamento di Qubes, leggi la nostra pagina [P
 
 Sebbene [sconsiglimo](os/linux-overview.md#release-cycle) le distribuzioni "perennemente obsolete" come Debian per l'utilizzo da desktop in gran parte dei casi, Kicksecure è un sistema operativo basato su Debian, rafforzato al punto da essere di molto migliore, di una tipica installazione di Linux.
 
-!!! recommendation
+!!! consiglio
 
     ![Logo di Kicksecure](assets/img/linux-desktop/kicksecure.svg){ align=right }
     
