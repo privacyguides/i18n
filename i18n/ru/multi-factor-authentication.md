@@ -90,13 +90,32 @@ Nitrokey Pro 2, Nitrokey Storage 2 и предстоящий Nitrokey 3 подд
 
 Мы настоятельно рекомендуем вам использовать мобильные приложения TOTP вместо настольных альтернатив, поскольку Android и iOS имеют лучшую безопасность и изоляцию приложений, чем большинство настольных операционных систем.
 
+### ente Auth
+
+!!! recommendation
+
+    ![ente Auth logo](assets/img/multi-factor-authentication/ente-auth.png){ align=right }
+    
+    **ente Auth** is a free and open-source app which stores and generates TOTP tokens on your mobile device. It can be used with an online account to backup and sync your tokens across your devices (and access them via a web interface) in a secure, end-to-end encrypted fashion. It can also be used offline on a single device with no account necessary.
+    
+    [:octicons-home-16: Homepage](https://ente.io/auth){ .md-button .md-button--primary }
+    [:octicons-eye-16:](https://ente.io/privacy){ .card-link title="Privacy Policy" }
+    [:octicons-code-16:](https://github.com/ente-io/auth){ .card-link title="Source Code" }
+    
+    ??? downloads
+    
+        - [:simple-googleplay: Google Play](https://play.google.com/store/apps/details?id=io.ente.auth)
+        - [:simple-appstore: App Store](https://apps.apple.com/us/app/ente-authenticator/id6444121398)
+        - [:simple-github: GitHub](https://github.com/ente-io/auth/releases)
+        - [:octicons-globe-16: Web](https://auth.ente.io)
+
 ### Aegis Authenticator (Android)
 
 !!! recommendation
 
-    ![Логотип Aegis](assets/img/multi-factor-authentication/aegis.png){ align=right }
+    ![Aegis logo](assets/img/multi-factor-authentication/aegis.png){ align=right }
     
-    **Aegis Authenticator** - это бесплатное и безопасное приложение с открытым исходным кодом для управления токенами двухфакторной аутентификации для ваших онлайн-сервисов.
+    **Aegis Authenticator** is a free and open-source app for Android to manage your 2-step verification tokens for your online services. Aegis Authenticator operates completely offline/locally, but includes the option to export your tokens for backup unlike many alternatives.
     
     [:octicons-home-16: Домашняя страница](https://getaegis.app){ .md-button .md-button--primary }
     [:octicons-eye-16:](https://getaegis.app/aegis/privacy.html){ .card-link title="Политика конфиденциальности" }

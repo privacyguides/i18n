@@ -90,13 +90,32 @@ Le App d'Autenticazione implementano uno standard di sicurezza aadottato dalla T
 
 Consigliamo vivamente l'utilizzo delle app TOTP mobili, invece delle alternative desktop, poiché Android e iOS forniscono una migliore sicurezza e isolamento delle app, rispetto a gran parte dei sistemi operativi per desktop.
 
+### ente Auth
+
+!!! recommendation
+
+    ![ente Auth logo](assets/img/multi-factor-authentication/ente-auth.png){ align=right }
+    
+    **ente Auth** è un'app gratuita ed open source che memorizza e genera token TOTP sul tuo dispositivo mobile. Può essere utilizzato con un account online per eseguire il backup e la sincronizzazione dei token tra i dispositivi (e per accedervi tramite un'interfaccia web) in modo sicuro, con crittografia end-to-end. Può essere utilizzato anche offline su un singolo dispositivo senza la necessità di un account.
+    
+    [:octicons-home-16: Homepage](https://ente.io/auth){ .md-button .md-button--primary }
+    [:octicons-eye-16:](https://ente.io/privacy){ .card-link title="Privacy Policy" }
+    [:octicons-code-16:](https://github.com/ente-io/auth){ .card-link title="Source Code" }
+    
+    ??? downloads
+    
+        - [:simple-googleplay: Google Play](https://play.google.com/store/apps/details?id=io.ente.auth)
+        - [:simple-appstore: App Store](https://apps.apple.com/us/app/ente-authenticator/id6444121398)
+        - [:simple-github: GitHub](https://github.com/ente-io/auth/releases)
+        - [:octicons-globe-16: Web](https://auth.ente.io)
+
 ### Aegis Authenticator (Android)
 
 !!! recommendation
 
     ![Logo di Aegis](assets/img/multi-factor-authentication/aegis.png){ align=right }
     
-    **Aegis Authenticator** è un'app gratuita, sicura e open source per gestire i token di verifica a due passaggi per i tuoi servizi online.
+    **Aegis Authenticator** è un'app gratuita ed open source per Android per gestire i token di verifica a due passaggi per i tuoi servizi online. Aegis Authenticator opera completamente offline/localmente, ma include l'opzione di esportare i token per il backup, a differenza di molte alternative.
     
     [:octicons-home-16: Home](https://getaegis.app){ .md-button .md-button--primary }
     [:octicons-eye-16:](https://getaegis.app/aegis/privacy.html){ .card-link title="Politica sulla Privacy" }

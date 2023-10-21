@@ -331,6 +331,7 @@ Kami [merekomendasikan](dns.md#recommended-providers) sejumlah server DNS terenk
 
 - ![YubiKeys](assets/img/multi-factor-authentication/mini/yubico.svg){ .twemoji } [YubiKey](multi-factor-authentication.md#yubikey)
 - ![Nitrokey](assets/img/multi-factor-authentication/mini/nitrokey.svg){ .twemoji } [Nitrokey](multi-factor-authentication.md#nitrokey)
+- ![ente Auth logo](assets/img/multi-factor-authentication/ente-auth.png){ .twemoji } [ente Auth](multi-factor-authentication.md#ente-auth)
 - ![Aegis logo](assets/img/multi-factor-authentication/aegis.png){ .twemoji } [Aegis Authenticator (Android)](multi-factor-authentication.md#aegis-authenticator-android)
 
 </div>

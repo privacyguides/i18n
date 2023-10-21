@@ -90,13 +90,32 @@ Las Aplicaciones de Autenticación implementan un estándar de seguridad adoptad
 
 Recomendamos encarecidamente que utilice aplicaciones TOTP para móviles en lugar de alternativas de escritorio, ya que Android e iOS tienen mejor seguridad y aislamiento de aplicaciones que la mayoría de los sistemas operativos de escritorio.
 
+### ente Auth
+
+!!! recommendation
+
+    ![ente Auth logo](assets/img/multi-factor-authentication/ente-auth.png){ align=right }
+    
+    **ente Auth** is a free and open-source app which stores and generates TOTP tokens on your mobile device. It can be used with an online account to backup and sync your tokens across your devices (and access them via a web interface) in a secure, end-to-end encrypted fashion. It can also be used offline on a single device with no account necessary.
+    
+    [:octicons-home-16: Homepage](https://ente.io/auth){ .md-button .md-button--primary }
+    [:octicons-eye-16:](https://ente.io/privacy){ .card-link title="Privacy Policy" }
+    [:octicons-code-16:](https://github.com/ente-io/auth){ .card-link title="Source Code" }
+    
+    ??? downloads
+    
+        - [:simple-googleplay: Google Play](https://play.google.com/store/apps/details?id=io.ente.auth)
+        - [:simple-appstore: App Store](https://apps.apple.com/us/app/ente-authenticator/id6444121398)
+        - [:simple-github: GitHub](https://github.com/ente-io/auth/releases)
+        - [:octicons-globe-16: Web](https://auth.ente.io)
+
 ### Aegis Authenticator (Android)
 
 !!! recommendation
 
     ![Aegis logo](assets/img/multi-factor-authentication/aegis.png){ align=right }
     
-    **Aegis Authenticator** es una aplicación gratuita, segura y de código abierto para gestionar sus tokens de verificación en 2 pasos para los servicios en línea.
+    **Aegis Authenticator** is a free and open-source app for Android to manage your 2-step verification tokens for your online services. Aegis Authenticator operates completely offline/locally, but includes the option to export your tokens for backup unlike many alternatives.
     
     [:octicons-home-16: Página Principal](https://getaegis.app){ .md-button .md-button--primary }
     [:octicons-eye-16:](https://getaegis.app/aegis/privacy.html){ .card-link title="Política de Privacidad" }
