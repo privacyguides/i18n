@@ -180,13 +180,13 @@ En outre, le service Firefox Accounts collecte [certaines données techniques](h
 
 Cela vous empêche de vous connecter involontairement à un site Web en "clair" HTTP. Les sites sans HTTPS sont rares de nos jours. Cela ne devrait donc avoir que peu ou pas d'impact sur votre navigation quotidienne.
 
-##### DNS sur HTTPS
+##### DNS via HTTPS
 
-If you use a [DNS over HTTPS provider](dns.md):
+Si vous utilisez un [fournisseur de DNS via HTTPS](dns.md) :
 
-- [x] Select **Max Protection** and choose a suitable provider
+- [x] Sélectionnez **Protection maximale** et choisissez un fournisseur approprié
 
-Max Protection enforces the use of DNS over HTTPS, and a security warning will show if Firefox can’t connect to your secure DNS resolver, or if your secure DNS resolver says that records for the domain you are trying to access do not exist. This stops the network you're connected to from secretly downgrading your DNS security.
+Protection maximale impose l'utilisation de DNS via HTTPS, et un avertissement de sécurité s'affichera si Firefox ne peut pas se connecter à votre résolveur DNS sécurisé, ou si votre résolveur DNS sécurisé indique que les enregistrements pour le domaine auquel vous essayez d'accéder n'existent pas. Cela empêche le réseau auquel vous êtes connecté de dégrader secrètement votre sécurité DNS.
 
 #### Synchronisation
 
