@@ -8,7 +8,7 @@
 *[CLI]: コマンドライン インターフェース
 *[CSV]: Comma-Separated Values
 *[CVE]: Common Vulnerabilities and Exposures
-*[digital legacy feature]: デジタル遺産機能とは、あなたが亡くなったときに、他の人にあなたのデータへのアクセスを許可する機能のことです。
+*[デジタルレガシー機能]： デジタルレガシーとは、あなたが亡くなったときに、他の人にあなたのデータへのアクセスを許可する機能のことです。
 *[DNSSEC]: Domain Name System Security Extensions
 *[DNS]: ドメインネームシステム
 *[DoH]: DNS over HTTPS
@@ -17,29 +17,29 @@
 *[DoT]: DNS over TLS
 *[E2EE]: エンドツーエンド暗号化（End-to-End Encryption/Encrypted）
 *[ECS]: EDNS Client Subnet
-*[EEA]: European Economic Area
-*[entropy]: A measurement of how unpredictable something is
+*[EEA]: 欧州経済領域
+*[entropy]： 予測不可能性の尺度
 *[EOL]: サポート終了（End-of-Life）
 *[Exif]: 交換可能な画像ファイル形式（Exchangeable image file format）
 *[FCM]: Firebaseクラウドメッセージング
 *[FDE]: フルディスク暗号化（Full Disk Encryption）
 *[FIDO]: Fast IDentity Online
 *[FS]: 前方秘匿性（Forward Secrecy）
-*[fork]: A new software project created by copying an existing project and adding to it independently
+*[fork]： 既存のプロジェクトをコピーし、追加することにより独立したものとして作成される新しいソフトウェアプロジェクト。
 *[GDPR]: EU一般データ保護規則（General Data Protection Regulation）
 *[GPG]: GNU Privacy Guard（PGPの実装）
 *[GPS]: 全地球測位システム（Global Positioning System）
 *[GUI]: グラフィカルユーザーインターフェース
 *[GnuPG]: GNU Privacy Guard（PGPの実装）
 *[HDD]: ハードディスクドライブ
-*[HOTP]: HMAC (Hash-based Message Authentication Code) based One-Time Password
+*[HOTP]: HMAC（ハッシュベースのメッセージ認証コード）ベースのワンタイムパスワード
 *[HTTPS]: Hypertext Transfer Protocol Secure
 *[HTTP]: ハイパーテキスト転送プロトコル（Hypertext Transfer Protocol）
-*[hypervisor]: Computer software, firmware, or hardware that splits the resources of a CPU among multiple operating systems
+*[hypervisor]： Computer software, firmware, or hardware that splits the resources of a CPU among multiple operating systems
 *[ICCID]: Integrated Circuit Card Identifier
 *[IMAP]: Internet Message Access Protocol
 *[IMEI]: International Mobile Equipment Identity
-*[IMSI]: International Mobile Subscriber Identity
+*[IMSI]: 国際携帯電話加入者識別番号
 *[IP]: Internet Protocol
 *[IPv4]: Internet Protocol version 4
 *[IPv6]: Internet Protocol version 6
@@ -48,7 +48,7 @@
 *[JNI]: Javaネイティブインターフェース
 *[KYC]: Know Your Customer
 *[LUKS]: Linux Unified Key Setup (Full-Disk Encryption)
-*[MAC]: Media Access Control
+*[MAC]: メディア・アクセス・コントロール
 *[MDAG]: Microsoft Defender Application Guard
 *[MEID]: Mobile Equipment Identifier
 *[MFA]: 多要素認証（Multi-Factor Authentication）

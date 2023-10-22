@@ -50,7 +50,7 @@ When you are using an instance run by someone else, make sure to read the privac
     [:octicons-info-16:](https://github.com/pablouser1/ProxiTok/wiki){ .card-link title=Documentation}
     [:octicons-code-16:](https://github.com/pablouser1/ProxiTok){ .card-link title="Source Code" }
 
-!!! tip
+!!! ヒント
 
     ProxiTok is useful if you want to disable JavaScript in your browser, such as [Tor Browser](https://www.torproject.org/) on the Safest security level.
 
@@ -203,7 +203,7 @@ By default, LibreTube blocks all YouTube advertisements. Additionally, Libretube
     [:octicons-code-16:](https://github.com/TeamPiped/Piped){ .card-link title="Source Code" }
     [:octicons-heart-16:](https://github.com/TeamPiped/Piped#donations){ .card-link title=Contribute }
 
-!!! tip
+!!! ヒント
 
     Piped is useful if you want to use [SponsorBlock](https://sponsor.ajay.app) without installing an extension or to access age-restricted content without an account. It does not provide privacy by itself, and we don’t recommend logging into any accounts.
 

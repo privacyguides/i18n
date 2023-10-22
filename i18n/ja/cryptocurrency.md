@@ -11,7 +11,7 @@ Making payments online is one of the biggest challenges to privacy. These crypto
 
 !!! 警告
 
-    ほとんどではないにしても、多くの仮想通貨プロジェクトは詐欺です。 信頼できるプロジェクトとのみ慎重に取引してください。
+    ほとんどではないにしても、多くの暗号通貨プロジェクトは詐欺です。 信頼できるプロジェクトとのみ慎重に取引してください。
 
 ## Monero
 

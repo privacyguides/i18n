@@ -2,11 +2,11 @@
 title: 画像のアップロード
 ---
 
-プライバシーガイドに投稿する際の一般的なルールをいくつか紹介します：
+Privacy Guidesに投稿する際の一般的なルールをいくつか紹介します。
 
 ## 画像
 
-- 私たちはSVG画像を**推奨**しますが、存在しない場合は PNG 画像を使用できます
+- SVG画像を**推奨**しますが、存在しない場合はPNG画像を使用できます
 
 企業ロゴのキャンバスサイズ：
 
@@ -17,7 +17,7 @@ title: 画像のアップロード
 
 ### PNG
 
-[OptiPNG](https://sourceforge.net/projects/optipng/)を使用してPNG画像を最適化します。
+[OptiPNG](https://sourceforge.net/projects/optipng/)を使用してPNG画像を最適化してください。
 
 ```bash
 optipng -o7 file.png
@@ -27,14 +27,14 @@ optipng -o7 file.png
 
 #### Inkscape
 
-すべてのSVG画像に[Scour](https://github.com/scour-project/scour)を使用します。
+すべてのSVG画像に[Scour](https://github.com/scour-project/scour)を使用してください。
 
-Inkscapeで：
+Inkscapeでは、
 
 1. 名前を付けてファイルを保存...
-2. タイプを最適化されたSVG (*.svg)に設定する
+2. 種類を「最適化されたSVG（*.svg）」に設定
 
-**オプション** タブで：
+**オプション**タブでは、
 
 - **座標の有効桁数** > **5**
 - [x] Turn on **Shorten color values**
@@ -69,9 +69,9 @@ In the **IDs** tab:
 - **Preserve the following IDs** > `leave blank`
 - **Preserve IDs starting with** > `leave blank`
 
-#### CLI
+#### コマンドラインツール
 
-同じことが [Scour](https://github.com/scour-project/scour) コマンドでも可能です：
+同じことが[Scour](https://github.com/scour-project/scour)コマンドでも可能です。
 
 ```bash
 scour --set-precision=5 \

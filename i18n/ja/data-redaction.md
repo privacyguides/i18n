@@ -31,7 +31,7 @@ When sharing files, be sure to remove associated metadata. Image files commonly 
         - [:simple-linux: Linux](https://pypi.org/project/mat2)
         - [:octicons-globe-16: Web](https://0xacab.org/jvoisin/mat2#web-interface)
 
-## Mobile
+## モバイル
 
 ### ExifEraser (Android)
 
@@ -135,7 +135,7 @@ The app offers multiple ways to erase metadata from images. Namely:
     exiftool -all= *.file_extension
     ```
 
-## Criteria
+## 基準
 
 **私たちは、推薦するどのプロジェクトとも提携していません。**客観的に推薦できるよう、[標準となる基準](about/criteria.md)に加えて、一連の明確な要件を定めています。 プロジェクトを利用する前に、このリストをよく理解し、ご自身で調査を行って、そのプロジェクトがあなたにとって適切な選択かどうかをご確認ください。
 

@@ -7,7 +7,7 @@ There's a reason data about your buying habits is considered the holy grail of a
 
 ## 現金
 
-何世紀にもわたり、 **現金**はプライベートな支払いの主な形態として機能してきました。 現金にはほとんどの場合において優れたプライバシーの特性があり、ほとんどの国で広く受け入れられ、また、**代替可能**、つまり独自性がなく、完全な交換可能性を備えています。
+何世紀にもわたり、**現金**はプライベートな支払いの主な形態として機能してきました。 現金にはほとんどの場合において優れたプライバシーの特性があり、ほとんどの国で広く受け入れられ、また、**代替可能**、つまり独自性がなく、完全な交換可能性を備えています。
 
 現金による支払いに関する法律は国によって異なります。 米国では、1万ドルを超える現金支払いについては、[Form 8300](https://www.irs.gov/businesses/small-businesses-self-employed/form-8300-and-reporting-cash-payments-of-over-10000)でIRSに特別な開示を行うことが義務付けられています。 The receiving business is required to ID verify the payee’s name, address, occupation, date of birth, and Social Security Number or other TIN (with some exceptions). Lower limits without ID such as $3,000 or less exist for exchanges and money transmission. Cash also contains serial numbers. These are almost never tracked by merchants, but they can be used by law enforcement in targeted investigations.
 
@@ -25,7 +25,7 @@ Prepaid cards don’t allow cash withdrawals from ATMs or “peer-to-peer” pay
 
 Cash remains the best option for in-person purchases for most people. Gift cards can be useful for the savings they bring. Prepaid cards can be useful for places that don’t accept cash. Gift cards and prepaid cards are easier to use online than cash, and they are easier to acquire with cryptocurrencies than cash.
 
-### オンライン マーケットプレイス
+### オンライン・マーケットプレイス
 
 [暗号通貨](../cryptocurrency.md)を持っていれば、オンラインのギフトカード販売所でギフトカードを購入できます。 Some of these services offer ID verification options for higher limits, but they also allow accounts with just an email address. Basic limits start at $5,000-10,000 a day for basic accounts, and significantly higher limits for ID verified accounts (if offered).
 
@@ -41,7 +41,7 @@ Another way to protect your information from merchants online is to use virtual,
 
 These tend to be good options for recurring/subscription payments online, while prepaid gift cards are preferred for one-time transactions.
 
-## 仮想通貨
+## 暗号通貨
 
 Cryptocurrencies are a digital form of currency designed to work without central authorities such as a government or bank. While *some* cryptocurrency projects can allow you to make private transactions online, many use a public blockchain which does not provide any transaction privacy. Cryptocurrencies also tend to be very volatile assets, meaning their value can change rapidly and significantly at any time. As such, we generally don't recommend using cryptocurrency as a long-term store of value. If you decide to use cryptocurrency online, make sure you have a full understanding of its privacy aspects beforehand, and only invest amounts which would not be disastrous to lose.
 
@@ -49,7 +49,7 @@ Cryptocurrencies are a digital form of currency designed to work without central
 
     The vast majority of cryptocurrencies operate on a **public** blockchain, meaning that every transaction is public knowledge. This includes even most well-known cryptocurrencies like Bitcoin and Ethereum. Transactions with these cryptocurrencies should not be considered private and will not protect your anonymity.
     
-    Additionally, many if not most cryptocurrencies are scams. Make transactions carefully with only projects you trust.
+    Additionally, many if not most cryptocurrencies are scams. 信頼できるプロジェクトとのみ慎重に取引してください。
 
 ### プライバシーコイン
 

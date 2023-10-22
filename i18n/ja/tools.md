@@ -368,7 +368,7 @@ We [recommend](dns.md#recommended-providers) a number of encrypted DNS servers b
 
 [詳細 :material-arrow-right-drop-circle:](notebooks.md)
 
-### パスワードマネージャ
+### パスワードマネージャー
 
 <div class="grid cards" markdown>
 

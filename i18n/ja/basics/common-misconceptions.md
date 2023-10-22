@@ -79,7 +79,7 @@ One of the clearest threat models is one where people *know who you are* and one
 
     We don't suggest using a VPN or Tor for any of these things, as your identity is already known through other means.
 
-    !!! tip
+    !!! ヒント
    
         When shopping online, the use of a [parcel locker](https://en.wikipedia.org/wiki/Parcel_locker) can help keep your physical address private.
 

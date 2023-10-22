@@ -1,6 +1,6 @@
 ---
 meta_title: "How Do VPNs Protect Your Privacy? Our VPN Overview - Privacy Guides"
-title: VPN Overview
+title: VPNの概要
 icon: material/vpn
 description: Virtual Private Networks shift risk away from your ISP to a third-party you trust. You should keep these things in mind.
 ---
@@ -19,7 +19,7 @@ VPNs cannot encrypt data outside of the connection between your device and the V
 
 However, they do hide your actual IP from a third-party service, provided that there are no IP leaks. They help you blend in with others and mitigate IP based tracking.
 
-## When shouldn't I use a VPN?
+## VPNを使うべきでない場合
 
 Using a VPN in cases where you're using your [known identity](common-misconceptions.md#complicated-is-better) is unlikely be useful.
 

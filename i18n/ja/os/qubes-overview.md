@@ -49,7 +49,7 @@ To copy and paste files and directories (folders) from one *qube* to another, yo
 
 The [qrexec framework](https://www.qubes-os.org/doc/qrexec/) is a core part of Qubes which allows communication between domains. It is built on top of the Xen library *vchan*, which facilitates [isolation through policies](https://www.qubes-os.org/news/2020/06/22/new-qrexec-policy-system/).
 
-## Additional Resources
+## その他の資料
 
 For additional information we encourage you to consult the extensive Qubes OS documentation pages located on the [Qubes OS Website](https://www.qubes-os.org/doc/). Offline copies can be downloaded from the Qubes OS [documentation repository](https://github.com/QubesOS/qubes-doc).
 

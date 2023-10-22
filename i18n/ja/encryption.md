@@ -136,7 +136,7 @@ BitLocker is [only supported](https://support.microsoft.com/en-us/windows/turn-o
         manage-bde -protectors -get c: > %UserProfile%\Desktop\BitLocker-Recovery-Key.txt
         ```
 
-        !!! tip
+        !!! ヒント
    
         Backup `BitLocker-Recovery-Key.txt` on your Desktop to a separate storage device. Loss of this recovery code may result in loss of data.
 

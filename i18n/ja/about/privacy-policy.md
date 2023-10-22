@@ -39,6 +39,6 @@ For complaints under GDPR more generally, you always have the option to lodge co
 
 ## このポリシーについて
 
-このステートメントに新しいバージョンがあれば、[ここ](privacy-policy.md)に掲載します。 このドキュメントの将来のバージョンでは、変更の発表方法が変更される可能性があります。 それまでの間、変更を告知することなく、いつでも連絡先情報を更新することができます。 最新の連絡先情報については、[プライバシーポリシー](privacy-policy.md)を随時参照してください。
+このステートメントに新しいバージョンがあれば、[ここ](privacy-policy.md)に掲載します。 このドキュメントの将来のバージョンでは、変更の発表方法が変更される可能性があります。 それまでの間、変更を告知することなく、いつでも連絡先の情報を更新する可能性があります。 最新の連絡先情報については、[プライバシーポリシー](privacy-policy.md)を随時参照してください。
 
 このページの完全な改訂[履歴](https://github.com/privacyguides/privacyguides.org/commits/main/docs/about/privacy-policy.md)はGitHubにあります。
