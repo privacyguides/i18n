@@ -126,7 +126,7 @@ Mullvad Browserはデフォルトの[検索エンジン](search-engines.md)と�
 !!! 警告
 FirefoxはMozillaのウェブサイトからのダウンロードにユニークな[ダウンロードトークン](https://bugzilla.mozilla.org/show_bug.cgi?id=1677497#c0)を含み、このトークンを送信するためにFirefox内のテレメトリーを使用します。 このトークンは、[Mozilla FTP](https://ftp.mozilla.org/pub/firefox/releases/)からのリリースには**含まれません**。
 
-### おすすめの設定
+### 推奨する設定
 
 これらのオプションは、:material-menu: → **設定**で見つけることができます。
 

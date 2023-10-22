@@ -188,11 +188,11 @@ We [recommend](dns.md#recommended-providers) a number of encrypted DNS servers b
 
 ??? danger "VPNは匿名性を提供しません"
 
-    VPNを使用しても、ブラウジング習慣の匿名化や、安全でない通信（HTTP）へのセキュリティの追加は**されません**。
+    VPNを使用しても、ブラウジングの仕方を匿名化したり、安全でない通信（HTTP）へのセキュリティーが強化されたりすることは**ありません**。
     
     **匿名性**を確保するには、VPNの**代わりに**Tor Browserを使用してください。
     
-    **セキュリティ**を追加するには、ウェブサイトへの接続に常にHTTPSを使用します。 VPNは、優れたセキュリティの代わりにはなりません。
+    **セキュリティー**を強化するには、ウェブサイトへの接続に常にHTTPSを使用してください。 VPNは、優れたセキュリティーの代わりにはなりません。
     
     [Learn more :material-arrow-right-drop-circle:](vpn.md)
 

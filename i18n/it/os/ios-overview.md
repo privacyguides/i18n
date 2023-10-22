@@ -190,7 +190,7 @@ Le normali telefonate effettuate con l'app Telefono tramite il proprio operatore
 
 ### Evita il Jailbreaking
 
-Il Jailbreak di un'iPhone ne mina la sicurezza e ti rende vulnerabile. Eseguire software non affidabili e di terze parti, potrebbe causare l'infezione del tuo dispositivo da malware.
+Il Jailbreak di un iPhone ne mina la sicurezza e ti rende vulnerabile. Eseguire software non affidabili e di terze parti, potrebbe causare l'infezione del tuo dispositivo da malware.
 
 ### iMessage Crittografata
 
