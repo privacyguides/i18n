@@ -237,7 +237,7 @@ Mullvadは、どのノードを[所有またはレンタル](https://mullvad.net
 
     VPNプロバイダーを利用することで匿名になるわけではありませんが、特定の状況下ではより良いプライバシーが得られることに注意する必要があります。 VPNは違法行為のためのツールではありません。 「ログなし」ポリシーに依存しないでください。
 
-**私たちは、推奨するいずれのプロバイダーとも提携していません。 This allows us to provide completely objective recommendations.** In addition to [our standard criteria](about/criteria.md), we have developed a clear set of requirements for any VPN provider wishing to be recommended, including strong encryption, independent security audits, modern technology, and more. We suggest you familiarize yourself with this list before choosing a VPN provider, and conduct your own research to ensure the VPN provider you choose is as trustworthy as possible.
+**私たちは、推奨するいずれのプロバイダーとも提携していません。 This allows us to provide completely objective recommendations.** In addition to [our standard criteria](about/criteria.md), we have developed a clear set of requirements for any VPN provider wishing to be recommended, including strong encryption, independent security audits, modern technology, and more. プロジェクトを利用する前に、このリストをよく理解し、ご自身で調査を行って、そのプロジェクトがあなたにとって適切な選択かどうかをご確認ください。
 
 ### テクノロジー
 

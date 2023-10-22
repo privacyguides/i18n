@@ -7,7 +7,7 @@ cover: file-sharing.webp
 
 デバイス間、友人や家族、または匿名でオンライン上でファイルをプライベートに共有する方法をご紹介します。
 
-## ファイル共有ソフト
+## ファイル共有
 
 ### Send
 
@@ -15,15 +15,15 @@ cover: file-sharing.webp
 
     ![Send logo](assets/img/file-sharing-sync/send.svg){ align=right }
     
-    **Send**は、Mozillaの廃止されたFirefox Sendサービスのフォークで、リンクを使って他の人にファイルを送ることができます。 ファイルはサーバーから読み取れないようにデバイス上で暗号化され、オプションでパスワードで保護することもできます。 Sendの保守管理者はは[public instance](https://send.vis.ee/)をホストしています。 他の公開インスタンスを使うこともできるし、Sendを自分でホストすることもできます。
+    **Send**は、Mozillaの廃止されたFirefox Sendサービスのフォークで、リンクを使って他の人にファイルを送ることができます。 ファイルはサーバーから読み取れないようにデバイス上で暗号化され、オプションでパスワードで保護することもできます。 Sendの保守管理者は[公開インスタンス](https://send.vis.ee/)をホストしています。 他の公開インスタンスを使うこともできますし、Sendを自分でホストすることもできます。
     
     [:octicons-home-16: Homepage](https://send.vis.ee){ .md-button .md-button--primary }
-    [:octicons-server-16:](https://github.com/timvisee/send-instances){ .card-link title="Public Instances"}
-    [:octicons-info-16:](https://github.com/timvisee/send#readme){ .card-link title=Documentation}
-    [:octicons-code-16:](https://github.com/timvisee/send){ .card-link title="Source Code" }
-    [:octicons-heart-16:](https://github.com/sponsors/timvisee){ .card-link title=Contribute }
+    [:octicons-server-16:](https://github.com/timvisee/send-instances){ .card-link title="公開インスタンス"}
+    [:octicons-info-16:](https://github.com/timvisee/send#readme){ .card-link title=ドキュメンテーション}
+    [:octicons-code-16:](https://github.com/timvisee/send){ .card-link title="ソースコード" }
+    [:octicons-heart-16:](https://github.com/sponsors/timvisee){ .card-link title=貢献 }
 
-SendはWeb上、または[ffsendコマンド](https://github.com/timvisee/ffsend)CLI から使用できる。 コマンドラインに慣れていて頻繁にファイルを送信する場合は、JavaScriptベースの暗号化を避けるためにCLIクライアントを使用することをお勧めします。 `--host` フラグを指定すると、特定のサーバーを使用することができます:
+SendはWebインターフェース上、または[ffsend](https://github.com/timvisee/ffsend)によるコマンドラインインターフェース上で使うことができます。 コマンドラインに慣れており、頻繁にファイルを送信する場合は、JavaScriptベースの暗号化を避けるためにCLIクライアントを使用することを推奨します。 `--host`フラグを指定すると、特定のサーバーを使用することができます。
 
 ```bash
 ffsend upload --host https://send.vis.ee/ FILE
@@ -33,14 +33,14 @@ ffsend upload --host https://send.vis.ee/ FILE
 
 !!! recommendation
 
-    ![OnionShare logo](assets/img/file-sharing-sync/onionshare.svg){ align=right }
+    ![OnionShare ロゴ](assets/img/file-sharing-sync/onionshare.svg){ align=right }
     
-    **OnionShare**は、あらゆるサイズのファイルを安全かつ匿名で共有できるオープンソースツールです。 Torオニオン・サービスとしてアクセス可能なウェブサーバーを起動し、受信者と共有可能な推測不可能なURLでファイルをダウンロードまたは送信することで機能します。
+    **OnionShare**は、あらゆるサイズのファイルを安全かつ匿名で共有できるオープンソースのツールです。 Torオニオン・サービスとしてアクセスできるウェブサーバーを起動し、ファイルのダウンロードまたは送信に用いられる、推測不可能なURLをファイルの受信者と共有するという形で機能します。
     
     [:octicons-home-16: Homepage](https://onionshare.org){ .md-button .md-button--primary }
-    [:simple-torbrowser:](http://lldan5gahapx5k7iafb3s4ikijc4ni7gx5iywdflkba5y2ezyg6sjgyd.onion){ .card-link title="Onion Service" }
-    [:octicons-info-16:](https://docs.onionshare.org){ .card-link title=Documentation}
-    [:octicons-code-16:](https://github.com/onionshare/onionshare){ .card-link title="Source Code" }
+    [:simple-torbrowser:](http://lldan5gahapx5k7iafb3s4ikijc4ni7gx5iywdflkba5y2ezyg6sjgyd.onion){ .card-link title="Onionサービス" }
+    [:octicons-info-16:](https://docs.onionshare.org){ .card-link title=ドキュメンテーション}
+    [:octicons-code-16:](https://github.com/onionshare/onionshare){ .card-link title="ソースコード" }
     
     ??? ダウンロード
     
@@ -50,15 +50,15 @@ ffsend upload --host https://send.vis.ee/ FILE
 
 ### 基準
 
-**私たちは、推薦するどのプロジェクトとも提携していません。**客観的に推薦できるよう、[標準的な基準](about/criteria.md)に加えて、明確な要件を定めています。 プロジェクトを利用する前に、このリストをよく理解し、あなたにとって正しい選択であることを確認するために、ご自身で調査を行うことをお勧めします。
+**私たちは、推薦するどのプロジェクトとも提携していません。**客観的に推薦できるよう、[標準となる基準](about/criteria.md)に加えて、一連の明確な要件を定めています。 プロジェクトを利用する前に、このリストをよく理解し、ご自身で調査を行って、そのプロジェクトがあなたにとって適切な選択かどうかをご確認ください。
 
 !!! example "この項目は最近作成されました"
 
-    私たちは、サイトの各項目に定義された基準を確立することに取り組んでおり、これは変更される可能性があります。 私たちの基準についてご質問がある場合は、[フォーラムでお尋ねください](https://discuss.privacyguides.net/latest)。また、ここに記載されていないものを、私たちが推薦する際に考慮しなかったと決めつけないでください。 プロジェクトをおすすめする際に考慮され、議論される要素は多くあり、すべてを文書化するには時間がかかります。
+    私たちは、サイトの各項目に定義された基準を確立することに取り組んでいます。これは変更される可能性があります。 私たちの基準について質問がある場合は、[フォーラムでお尋ねください](https://discuss.privacyguides.net/latest)。また、ここに記載されていないものを、私たちが推薦する際に考慮しなかったと仮定するのはお止めください。 プロジェクトを推奨する際に考慮され、議論される要素は多くあり、すべてを文書化するのは進行中の作業です。
 
-- 復号化したデータをリモートサーバーに保存してはならない。
+- 復号化したデータをリモートサーバーに保存しないこと。
 - オープンソースのソフトウェアであること。
-- Linux、macOS、Windows用のクライアントを持つか、ウェブインターフェースを持つ必要がある。
+- Linux、macOS、Windows用のクライアントがあるか、ウェブインターフェースが備わっていること。
 
 ## FreedomBox
 
@@ -122,7 +122,7 @@ ffsend upload --host https://send.vis.ee/ FILE
 
 ### 基準
 
-**私たちは、推薦するどのプロジェクトとも提携していません。**客観的に推薦できるよう、[標準的な基準](about/criteria.md)に加えて、明確な要件を定めています。 プロジェクトを利用する前に、このリストをよく理解し、あなたにとって正しい選択であることを確認するために、ご自身で調査を行うことをお勧めします。
+**私たちは、推薦するどのプロジェクトとも提携していません。**客観的に推薦できるよう、[標準となる基準](about/criteria.md)に加えて、一連の明確な要件を定めています。 プロジェクトを利用する前に、このリストをよく理解し、あなたにとって正しい選択であることを確認するために、ご自身で調査を行うことをお勧めします。
 
 !!! example "この項目は最近作成されました"
 
@@ -136,7 +136,7 @@ ffsend upload --host https://send.vis.ee/ FILE
 
 #### 満たされることが望ましい基準
 
-私たちが考える最善の基準は、このカテゴリーの完璧なプロジェクトに私たちが望むものを表しています。 私たちのおすすめは、この機能の一部または全部を含んでいないかもしれませんが、もし含んでいるものがあれば、このページで他のものよりも上位にランクされるかもしれません。
+私たちが考える最善の基準は、このカテゴリーの完璧なプロジェクトに私たちが望むものを示しています。 私たちが推薦するプロジェクトは、この機能の一部または全部を含んでいないかもしれませんが、もし含んでいるものがあれば、このページで他のものよりも上位にランクされるかもしれません。
 
 - iOSとAndroid用のモバイルクライアントがあり、少なくともドキュメントのプレビューをサポートしていること。
 - iOSとAndroidからの写真のバックアップをサポートしており、オプションでAndroid上のファイル/フォルダの同期をサポートしていること。

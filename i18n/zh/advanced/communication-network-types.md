@@ -1,7 +1,7 @@
 ---
 title: "通信网络类型"
 icon: 'material/transit-connection-variant'
-description: An overview of several network architectures commonly used by instant messaging applications.
+description: 即时信息应用程序常用的几种网络架构的概述。
 ---
 
 有几种网络架构常用于人与人之间的信息传递。 这些网络可以提供不同的隐私保证，这就是为什么在决定使用哪种应用程序时，应该考虑你的 [威胁模型](../basics/threat-modeling.md)。

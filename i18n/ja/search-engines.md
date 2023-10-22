@@ -91,7 +91,7 @@ Startpage's majority shareholder is System1 who is an adtech company. We don't b
 
 ## Criteria
 
-**Please note we are not affiliated with any of the projects we recommend.** In addition to [our standard criteria](about/criteria.md), we have developed a clear set of requirements to allow us to provide objective recommendations. We suggest you familiarize yourself with this list before choosing to use a project, and conduct your own research to ensure it's the right choice for you.
+**私たちは、推薦するどのプロジェクトとも提携していません。**客観的に推薦できるよう、[標準となる基準](about/criteria.md)に加えて、一連の明確な要件を定めています。 プロジェクトを利用する前に、このリストをよく理解し、ご自身で調査を行って、そのプロジェクトがあなたにとって適切な選択かどうかをご確認ください。
 
 !!! example "この項目は最近作成されました"
 
@@ -104,7 +104,7 @@ Startpage's majority shareholder is System1 who is an adtech company. We don't b
 
 ### 満たされることが望ましい基準
 
-Our best-case criteria represents what we would like to see from the perfect project in this category. Our recommendations may not include any or all of this functionality, but those which do may rank higher than others on this page.
+私たちが考える最善の基準は、このカテゴリーの完璧なプロジェクトに私たちが望むものを示しています。 私たちが推薦するプロジェクトは、この機能の一部または全部を含んでいないかもしれませんが、もし含んでいるものがあれば、このページで他のものよりも上位にランクされるかもしれません。
 
 - Should be based on open-source software.
 - Should not block Tor exit node IP addresses.

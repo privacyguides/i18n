@@ -3,7 +3,7 @@
 *[AOSP]: Android オープンソース プロジェクト（Android Open Source Project）
 *[ATA]: Advanced Technology Attachment
 *[攻撃対象領域]: システムへ不正にアクセスできる可能性のある侵入口の総数。
-*[AVB]: 確認付きブート(Android Verified Boot)
+*[AVB]: 確認付きブート（Android Verified Boot）
 *[cgroups]: Control Groups
 *[CLI]: コマンドライン インターフェース
 *[CSV]: Comma-Separated Values

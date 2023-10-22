@@ -57,30 +57,30 @@ schema:
       url: "./"
 ---
 
-这些是我们目前推荐的用于标准/非匿名浏览的桌面网络浏览器和配置。 We recommend [Mullvad Browser](#mullvad-browser) if you are focused on strong privacy protections and anti-fingerprinting out of the box, [Firefox](#firefox) for casual internet browsers looking for a good alternative to Google Chrome, and [Brave](#brave) if you need Chromium browser compatibility.
+这些是我们目前推荐的用于标准/非匿名浏览的桌面网络浏览器和配置。 如果你需要强大的隐私保护和开箱即用的防指纹功能，我们推荐 [Mullvad 浏览器](#mullvad-browser) ；如果你需要谷歌 Chrome 浏览器的良好替代品，我们推荐 [Firefox](#firefox) ；如果你需要 Chromium 浏览器的兼容性，我们推荐 [Brave](#brave)。
 
-如果您需要匿名浏览互联网，则应使用 [Tor](tor.md) 。 We make some configuration recommendations on this page, but all browsers other than Tor Browser will be traceable by *somebody* in some manner or another.
+如果您需要匿名浏览互联网，则应使用 [Tor](tor.md) 。 我们在本页会提出一些配置建议，但除 Tor 浏览器之外的所有浏览器都可以通过 *某种方式* 追踪到。
 
-## Mullvad Browser
+## Mullvad 浏览器
 
 !!! recommendation
 
-    ![Mullvad Browser logo](assets/img/browsers/mullvad_browser.svg){ align=right }
+    ![Mullvad浏览器图标](assets/img/browsers/mullvad_browser.svg){ align=right }
     
-    **Mullvad Browser** is a version of [Tor Browser](tor.md#tor-browser) with Tor network integrations removed, aimed at providing Tor Browser's anti-fingerprinting browser technologies to VPN users. It is developed by the Tor Project and distributed by [Mullvad](vpn.md#mullvad), and does **not** require the use of Mullvad's VPN.
+    **Mullvad 浏览器** 是 [Tor 浏览器](tor.md#tor-browser) 去除了 Tor 网络的一个版本，旨在为 VPN 用户提供 Tor 浏览器的反指纹浏览器技术。 它由 Tor 项目开发，由 [Mullvad](vpn.md#mullvad) 发布，**不需要** 使用 Mullvad 的 VPN。
     
-    [:octicons-home-16: Homepage](https://mullvad.net/en/browser){ .md-button .md-button--primary }
-    [:octicons-eye-16:](https://mullvad.net/en/help/privacy-policy/){ .card-link title="Privacy Policy" }
-    [:octicons-info-16:](https://mullvad.net/en/help/tag/mullvad-browser/){ .card-link title=Documentation}
-    [:octicons-code-16:](https://gitlab.torproject.org/tpo/applications/mullvad-browser){ .card-link title="Source Code" }
+    [:octicons-home-16: 主页](https://mullvad.net/en/browser){ .md-button .md-button--primary }
+    [:octicons-eye-16:](https://mullvad.net/en/help/privacy-policy/){ .card-link title="隐私条款" }
+    [:octicons-info-16:](https://mullvad.net/en/help/tag/mullvad-browser/){ .card-link title="文档"}
+    [:octicons-code-16:](https://gitlab.torproject.org/tpo/applications/mullvad-browser){ .card-link title="源代码" }
     
-    ??? downloads
+    ??? 下载
     
         - [:simple-windows11: Windows](https://mullvad.net/en/download/browser/windows)
         - [:simple-apple: macOS](https://mullvad.net/en/download/browser/macos)
         - [:simple-linux: Linux](https://mullvad.net/en/download/browser/linux)
 
-Like [Tor Browser](tor.md), Mullvad Browser is designed to prevent fingerprinting by making your browser fingerprint identical to all other Mullvad Browser users, and it includes default settings and extensions that are automatically configured by the default security levels: *Standard*, *Safer* and *Safest*. Therefore, it is imperative that you do not modify the browser at all outside adjusting the default [security levels](https://tb-manual.torproject.org/security-settings/). Other modifications would make your fingerprint unique, defeating the purpose of using this browser. If you want to configure your browser more heavily and fingerprinting is not a concern for you, we recommend [Firefox](#firefox) instead.
+与 [Tor Browser](tor.md)一样，Mullvad Browser 的设计也是通过使您的浏览器指纹与所有其他 Mullvad Browser 用户完全相来了防止指纹识别。它自带了默认设置和扩展程序，这些会由设置的安全级别自动配置： *标准*, *更安全* 和 *最安全*。 因此，在调整自带的 [安全级别](https://tb-manual.torproject.org/security-settings/) 之外，请务必不要对浏览器进行任何修改。 其他修改会使您的指纹变得独一无二，从而失去使用该浏览器的意义。 如果你想对浏览器进行更多的配置而且不担心指纹识别，我们建议你使用 [Firefox](#firefox)。
 
 ### Anti-Fingerprinting
 
@@ -94,9 +94,9 @@ Mullvad Browser comes with the *uBlock Origin* and *NoScript* browser extensions
 
 ### Private Browsing Mode
 
-Mullvad Browser operates in permanent private browsing mode, meaning your history, cookies, and other site data will always be cleared every time the browser is closed. Your bookmarks, browser settings, and extension settings will still be preserved.
+Mullvad 浏览器一直在无痕浏览模式下运行，这意味着每次关闭浏览器时，你的历史记录、cookies 和其他网站数据都会被清除。 您的书签、浏览器设置和扩展程序设置会被保留。
 
-This is required to prevent advanced forms of tracking, but does come at the cost of convenience and some Firefox features, such as Multi-Account Containers. Remember you can always use multiple browsers, for example, you could consider using Firefox+Arkenfox for a few sites that you want to stay logged in on or otherwise don't work properly in Mullvad Browser, and Mullvad Browser for general browsing.
+这是防止深度跟踪的必要条件，但确实牺牲了一些便利性和一些 Firefox 的功能（如多账户容器）。 当然，您可以同时使用多种浏览器，例如，您可以考虑使用 Firefox+Arkenfox 浏览一些需要保持登录状态或在 Mullvad 浏览器中无法正常运行的网站，并使用 Mullvad 浏览器进行一般浏览。
 
 ### Mullvad Leta
 
@@ -128,9 +128,9 @@ Mullvad 浏览器将 DuckDuckGo 设置为默认的 [搜索引擎](search-engines
 
 ### 推荐配置
 
-These options can be found in :material-menu: → **Settings**
+这些选项可以在 :material-menu: → **设置**中找到。
 
-#### Search
+#### 搜索
 
 - [ ] 取消勾选 **提供搜索建议**
 
@@ -138,7 +138,7 @@ These options can be found in :material-menu: → **Settings**
 
 搜索建议将你在地址栏中输入的所有内容发送到默认的搜索引擎，而不管你是否提交了实际的搜索。 禁用搜索建议可以让你更精确地控制你向搜索引擎供应商发送的数据。
 
-#### Privacy & Security
+#### 隐私与安全
 
 ##### 增强跟踪保护
 
@@ -146,12 +146,12 @@ These options can be found in :material-menu: → **Settings**
 
 这可以通过阻止社交媒体追踪器、指纹脚本（注意，这并不能保护你 *所有* 指纹）、加密器、跨网站追踪cookies和其他一些追踪内容来保护你。 ETP可以防止许多常见的威胁，但它并不阻止所有的跟踪途径，因为它的设计对网站的可用性影响最小甚至没有影响。
 
-##### Firefox Suggest (US only)
+##### Firefox Suggest (仅限美国)
 
-[Firefox Suggest](https://support.mozilla.org/en-US/kb/firefox-suggest) is a feature similar to search suggestions which is only available in the US. We recommend disabling it for the same reason we recommend disabling search suggestions. If you don't see these options under the **Address Bar** header, you do not have the new experience and can ignore these changes.
+[Firefox Suggest](https://support.mozilla.org/en-US/kb/firefox-suggest) 是一项仅在美国可用的类似于搜索建议的功能。 我们建议禁用这个功能，原因与我们建议禁用搜索建议的原因相同。 如果在 **地址栏** 标题下没有看到这些选项，则表示您没有获得这个功能，可以忽略这些设置。
 
-- [ ] Uncheck **Suggestions from the web**
-- [ ] Uncheck **Suggestions from sponsors**
+- [ ] 取消选中 **来自网络的建议**
+- [ ] 取消选中 **来自赞助商的建议**
 
 ##### 关闭时消毒
 
@@ -189,15 +189,15 @@ These options can be found in :material-menu: → **Settings**
 
 ##### DNS over HTTPS
 
-If you use a [DNS over HTTPS provider](dns.md):
+如果您使用一个 [DNS over HTTPS 提供商](dns.md)：
 
-- [x] Select **Max Protection** and choose a suitable provider
+- [x] 选择 **最强保护** 并选择一个合适的提供商
 
-Max Protection enforces the use of DNS over HTTPS, and a security warning will show if Firefox can’t connect to your secure DNS resolver, or if your secure DNS resolver says that records for the domain you are trying to access do not exist. This stops the network you're connected to from secretly downgrading your DNS security.
+最强保护会强制使用 DoH ，如果 Firefox 无法连接到您的 DoH 服务器或者无法解析当前的域名会显示安全警告。 这将避免您所连接的网络秘密地降低您的 DNS 安全性。
 
 
 
-#### Sync
+#### 同步
 
 [火狐浏览器同步](https://hacks.mozilla.org/2018/11/firefox-sync-privacy/) ，使您的浏览数据（历史记录、书签等）可以在您的所有设备上访问，并通过E2EE进行保护。
 
@@ -337,7 +337,7 @@ Brave's Web3 features can potentially add to your browser fingerprint and attack
 
 
 
-#### Sync
+#### 同步
 
 [Brave 同步](https://support.brave.com/hc/en-us/articles/360059793111-Understanding-Brave-Sync) 允许你的浏览数据（历史记录、书签等）在你所有的设备上访问，而不需要账户，并以E2EE进行保护。
 

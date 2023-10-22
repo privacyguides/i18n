@@ -1,25 +1,25 @@
-*[2FA]: 2-Factor Authentication
-*[ADB]: Android Debug Bridge
-*[AOSP]: Android Open Source Project
-*[ATA]: Advanced Technology Attachment
-*[attack surface]: The total number of possible entry points for unauthorized access to a system
-*[AVB]: Android Verified Boot
-*[cgroups]: Control Groups
-*[CLI]: Command Line Interface
-*[CSV]: Comma-Separated Values
-*[CVE]: Common Vulnerabilities and Exposures
-*[digital legacy feature]: Digital Legacy refers to features that allow you to give other people access to your data when you die
-*[DNSSEC]: Domain Name System Security Extensions
-*[DNS]: Domain Name System
+*[2FA]: 双重身份验证
+*[ADB]: 安卓调试桥接器
+*[AOSP]: 安卓开源项目
+*[ATA]: 先进技术附件
+*[攻击面]: 未经授权进入系统的可能窗口总数
+*[AVB]: 安卓验证启动
+*[cgroups]: 控制组
+*[CLI]: 命令行界面
+*[CSV]: 逗号分隔值
+*[CVE]: 常见漏洞和风险
+*[数字遗产功能]: 数字遗产指的是允许您在去世后让其他人访问您的数据的功能
+*[DNSSEC]: 域名系统安全扩展
+*[DNS]: 域名系统
 *[DoH]: DNS over HTTPS
 *[DoQ]: DNS over QUIC
 *[DoH3]: DNS over HTTP/3
 *[DoT]: DNS over TLS
-*[E2EE]: End-to-End Encryption/Encrypted
-*[ECS]: EDNS Client Subnet
-*[EEA]: European Economic Area
-*[entropy]: A measurement of how unpredictable something is
-*[EOL]: End-of-Life
+*[E2EE]: 端到端加密
+*[ECS]: EDNS 客户子网
+*[EEA]: 欧洲经济区
+*[entropy]: 衡量事物的不可预测性的值
+*[EOL]: 服务终止
 *[Exif]: Exchangeable image file format
 *[FCM]: Firebase Cloud Messaging
 *[FDE]: Full Disk Encryption

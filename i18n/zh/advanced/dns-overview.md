@@ -1,7 +1,7 @@
 ---
 title: "DNS简介"
 icon: material/dns
-description: The Domain Name System is the "phonebook of the internet," helping your browser find the website it's looking for.
+description: 域名系统是 “互联网的电话簿”，帮助浏览器找到网站。
 ---
 
 [域名系统](https://en.wikipedia.org/wiki/Domain_Name_System) 是“互联网电话簿”。 DNS将域名转换为IP地址，以便浏览器和其他服务可以通过分散的服务器网络加载互联网资源。
@@ -24,7 +24,7 @@ DNS自互联网的 [早期](https://en.wikipedia.org/wiki/Domain_Name_System#His
     tshark -w /tmp/dns.pcap udp port 53 and host 1.1.1.1 or host 8.8.8.8
     ```
 
-2. We can then use [`dig`](https://en.wikipedia.org/wiki/Dig_(command)) (Linux, MacOS, etc.) or [`nslookup`](https://en.wikipedia.org/wiki/Nslookup) (Windows) to send the DNS lookup to both servers. Web浏览器等软件会自动执行这些查找，除非它们被配置为使用加密的DNS。
+2. 然后我们可以使用 [`dig`](https://en.wikipedia.org/wiki/Dig_(command)) （Linux，macOS等）或 [`nslookup`](https://en.wikipedia.org/wiki/Nslookup) （Windows）将DNS查询发送到两个服务器。 Web浏览器等软件会自动执行这些查找，除非它们被配置为使用加密的DNS。
 
     === "Linux, macOS"
 
@@ -55,12 +55,12 @@ DNS自互联网的 [早期](https://en.wikipedia.org/wiki/Domain_Name_System#His
 
 如果运行上面的Wireshark命令，顶部窗格显示“[帧](https://en.wikipedia.org/wiki/Ethernet_frame)” ，底部窗格显示有关所选帧的所有数据。 企业过滤和监控解决方案（如政府购买的解决方案）可以自动完成这一过程，无需人工干预，并可以汇总多帧数据以产生对网络观察者有用的统计数据。
 
-| No. | Time     | Source    | Destination | Protocol | Length | Info                                                                   |
-| --- | -------- | --------- | ----------- | -------- | ------ | ---------------------------------------------------------------------- |
-| 1   | 0.000000 | 192.0.2.1 | 1.1.1.1     | 云存储      | 104    | Standard query 0x58ba A privacyguides.org OPT                          |
-| 2   | 0.293395 | 1.1.1.1   | 192.0.2.1   | 云存储      | 108    | Standard query response 0x58ba A privacyguides.org A 198.98.54.105 OPT |
-| 3   | 1.682109 | 192.0.2.1 | 8.8.8.8     | 云存储      | 104    | Standard query 0xf1a9 A privacyguides.org OPT                          |
-| 4   | 2.154698 | 8.8.8.8   | 192.0.2.1   | 云存储      | 108    | Standard query response 0xf1a9 A privacyguides.org A 198.98.54.105 OPT |
+| No. | 时间       | 来源        | 目的地       | 协议  | 长度  | 信息                                                                     |
+| --- | -------- | --------- | --------- | --- | --- | ---------------------------------------------------------------------- |
+| 1   | 0.000000 | 192.0.2.1 | 1.1.1.1   | 云存储 | 104 | Standard query 0x58ba A privacyguides.org OPT                          |
+| 2   | 0.293395 | 1.1.1.1   | 192.0.2.1 | 云存储 | 108 | Standard query response 0x58ba A privacyguides.org A 198.98.54.105 OPT |
+| 3   | 1.682109 | 192.0.2.1 | 8.8.8.8   | 云存储 | 104 | Standard query 0xf1a9 A privacyguides.org OPT                          |
+| 4   | 2.154698 | 8.8.8.8   | 192.0.2.1 | 云存储 | 108 | Standard query response 0xf1a9 A privacyguides.org A 198.98.54.105 OPT |
 
 观察者可以修改这些数据包中的任何一个。
 
@@ -118,7 +118,7 @@ DoH的原生实现出现在iOS 14、macOS 11、微软Windows和Android 13中（�
 
 确定浏览活动的最简单方法可能是查看你的设备所访问的IP地址。 例如，如果观察者知道 `privacyguides.org` 在 `198.98.54.105`，而你的设备正在从 `198.98.54.105`请求数据，你很有可能正在访问隐私指南。
 
-这种方法只有在IP地址属于一个只承载少数网站的服务器时才有用。 It's also not very useful if the site is hosted on a shared platform (e.g. Github Pages, Cloudflare Pages, Netlify, WordPress, Blogger, etc.). 如果服务器托管在一个 [反向代理](https://en.wikipedia.org/wiki/Reverse_proxy)，它也不是很有用，这在现代互联网上非常普遍。
+这种方法只有在IP地址属于一个只承载少数网站的服务器时才有用。 如果网站托管在一个共享平台上（如Github Pages、Cloudflare Pages、Netlify、WordPress、Blogger等），这也不是很有用。 如果服务器托管在一个 [反向代理](https://en.wikipedia.org/wiki/Reverse_proxy)，它也不是很有用，这在现代互联网上非常普遍。
 
 ### 服务器名称指示（SNI）
 
@@ -339,26 +339,26 @@ DNSSEC在DNS的所有层面上实现了分层的数字签名政策。 例如，�
 
 ## 什么是QNAME最小化？
 
-A QNAME is a "qualified name", for example `discuss.privacyguides.net`. In the past, when resolving a domain name your DNS resolver would ask every server in the chain to provide any information it has about your full query. In this example below, your request to find the IP address for `discuss.privacyguides.net` gets asked of every DNS server provider:
+合法名是一个 “合法的名字”，例如 `discuss.privacyguides.net`。 过去，在解析域名时，DNS 解析器会要求链中的每台服务器提供有关您完整查询的任何信息。 在下面的示例中，您请求查找 `discuss.privacyguides.net` 的 IP 地址时会向每个 DNS 服务器提供商提出请求：
 
-| Server                 | Question Asked                              | Response                                    |
-| ---------------------- | ------------------------------------------- | ------------------------------------------- |
-| Root server            | What's the IP of discuss.privacyguides.net? | I don't know, ask .net's server...          |
-| .net's server          | What's the IP of discuss.privacyguides.net? | I don't know, ask Privacy Guides' server... |
-| Privacy Guides' server | What's the IP of discuss.privacyguides.net? | 5.161.195.190!                              |
-
-
-With "QNAME minimization," your DNS resolver now only asks for just enough information to find the next server in the chain. In this example, the root server is only asked for enough information to find the appropriate nameserver for the .net TLD, and so on, without ever knowing the full domain you're trying to visit:
-
-| Server                 | Question Asked                                       | Response                          |
-| ---------------------- | ---------------------------------------------------- | --------------------------------- |
-| Root server            | What's the nameserver for .net?                      | *Provides .net's server*          |
-| .net's server          | What's the nameserver for privacyguides.net?         | *Provides Privacy Guides' server* |
-| Privacy Guides' server | What's the nameserver for discuss.privacyguides.net? | This server!                      |
-| Privacy Guides' server | What's the IP of discuss.privacyguides.net?          | 5.161.195.190                     |
+| 服务器                 | 询问                                    | 响应                            |
+| ------------------- | ------------------------------------- | ----------------------------- |
+| 根服务器                | discuss.privacyguides.net 的 IP 地址是什么？ | 我不知道，问 .net 的服务器...           |
+| .net 的服务器           | discuss.privacyguides.net 的 IP 地址是什么？ | 我不知道，问 Privacy Guides 的服务器... |
+| Privacy Guides 的服务器 | discuss.privacyguides.net 的 IP 地址是什么？ | 5.161.195.190!                |
 
 
-While this process can be slightly more inefficient, in this example neither the central root nameservers nor the TLD's nameservers ever receive information about your *full* query, thus reducing the amount of information being transmitted about your browsing habits. 进一步的技术描述在 [RFC 7816](https://datatracker.ietf.org/doc/html/rfc7816)中定义。
+有了 “QNAME 最小化” 技术，DNS 解析器现在只请求能够找到链中的下一个服务器的信息。 在这个例子中，根服务器只要求提供足够的信息，以便能够找到 .net TLD 的名称服务器，以此类推，而不会知道您要访问的完整域名：
+
+| 服务器                 | 询问                                    | 响应                       |
+| ------------------- | ------------------------------------- | ------------------------ |
+| 根服务器                | .net 的名称服务器是什么？                       | *提供 .net 的服务器*           |
+| .net 的服务器           | privacyguides.net 的名称服务器是什么？          | *提供 Privacy Guides 的服务器* |
+| Privacy Guides 的服务器 | discuss.privacyguides.net 的名称服务器是什么？  | 就是此服务器！                  |
+| Privacy Guides 的服务器 | discuss.privacyguides.net 的 IP 地址是什么？ | 5.161.195.190            |
+
+
+虽然这个过程的效率会稍低一些，但在这个例子中，中央根域名服务器和顶级域名的域名服务器都不会收到您的 *完整* 查询的信息，从而减少了有关您的浏览习惯的信息传输量。 进一步的技术描述在 [RFC 7816](https://datatracker.ietf.org/doc/html/rfc7816)中定义。
 
 
 

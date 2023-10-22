@@ -1,20 +1,20 @@
 ---
 title: Androidの概要
 icon: simple/android
-description: Androidは、強力なセキュリティ保護機能を備えたオープンソースのオペレーティングシステムであり、携帯電話に関する最も優れた選択肢です。
+description: Androidは、強力なセキュリティー保護機能を備えたオープンソースのオペレーティングシステムであり、携帯電話に関する最も優れた選択肢です。
 ---
 
 ![Android logo](../assets/img/android/android.svg){ align=right }
 
-**Android オープンソース プロジェクト** [アプリ サンドボックス](https://source.android.com/security/app-sandbox)、[確認付きブート](https://source.android.com/security/verifiedboot) (AVB)、[権限](https://developer.android.com/guide/topics/permissions/overview)管理システムを備えた安全なモバイル オペレーティング システムです。
+**Androidオープンソースプロジェクト**は、[アプリ・サンドボックス](https://source.android.com/security/app-sandbox)、[確認付きブート](https://source.android.com/security/verifiedboot)（AVB）、[権限](https://developer.android.com/guide/topics/permissions/overview)管理システムを備えた安全なモバイル・オペレーティングシステムです。
 
 ## 私たちのアドバイス
 
 ### Androidディストリビューションの選択
 
-Androidの携帯電話を購入すると、その端末に標準で搭載されているOSには、しばしば[Androidオープンソースプロジェクト](https://source.android.com/)に含まれていないアプリやサービスが強制的に統合されています。 例えば、Google Playサービスは、あなたのファイル、連絡先ストレージ、通話ログ、SMSメッセージ、位置情報、カメラ、マイク、ハードウェア識別子などにアクセスする権限を備えており、それらの権限を取り消すことはできません。 これらのアプリやサービスは、あなたのデバイスの攻撃対象を増やし、Androidのプライバシーに関する様々な懸念の原因となっています。
+Androidの携帯電話を購入すると、その端末に標準で搭載されているOSには、多くの場合、[Androidオープンソースプロジェクト](https://source.android.com/)に含まれていないアプリやサービスが強制的に統合されてしまっています。 例えば、Google Playサービスは、あなたのファイル、連絡先ストレージ、通話ログ、SMSメッセージ、位置情報、カメラ、マイク、ハードウェア識別子などにアクセスする権限を備えており、それらの権限を取り消すことはできません。 これらのアプリやサービスは、あなたのデバイスの攻撃対象を増加させ、Androidのプライバシーに関する様々な懸念の原因となっています。
 
-この問題は、そうした強制的な統合を伴わない、カスタムAndroidディストリビューションを使用することで解決できる可能性があります。 残念ながら、多くのカスタムされたAndroidディストリビューションは、AVB、ロールバック保護、ファームウェア・アップデートなどの重要なセキュリティ機能をサポートしておらず、Androidセキュリティ・モデルに違反していることが多いです。 ディストリビューションによっては、[`userdebug`](https://source.android.com/setup/build/building#choose-a-target)ビルドもリリースしています。このビルドは、 [ADB](https://developer.android.com/studio/command-line/adb)経由でrootを公開し、デバッグ機能に対応するために[より寛容な](https://github.com/LineageOS/android_system_sepolicy/search?q=userdebug&type=code)SELinuxポリシーを必要とします。その結果として、攻撃対象がさらに増加し、セキュリティモデルが弱体化することになります。
+この問題は、そうした強制的な統合を伴わない、カスタムAndroidディストリビューションを使用すると解決できる可能性があります。 しかし残念ながら、多くのカスタムAndroidディストリビューションは、AVBや、ロールバック保護、ファームウェア・アップデートなどの重要なセキュリティ機能をサポートしておらず、しばしばAndroidのセキュリティーモデルに違反しています。 ディストリビューションによっては、[`userdebug`](https://source.android.com/setup/build/building#choose-a-target)ビルドもリリースしています。このビルドは、 [ADB](https://developer.android.com/studio/command-line/adb)経由でrootを公開し、デバッグ機能に対応するために[より寛容な](https://github.com/LineageOS/android_system_sepolicy/search?q=userdebug&type=code)SELinuxポリシーを必要とするものです。結果、攻撃対象がさらに増加し、セキュリティモデルが弱体化してしまいます。
 
 Androidのカスタムディストリビューションを選択する場合には、Androidのセキュリティーモデルが維持されていることを確認してください。 少なくとも、製品用ビルド、AVBのサポート、ロールバック保護、適時のファームウェアとオペレーティングシステムのアップデート、および[強制モード](https://source.android.com/security/selinux/concepts#enforcement_levels)のSELinuxを持つべきです。 私たちが推奨するAndroidディストリビューションはすべて、これらの基準を満たしています。
 
@@ -22,7 +22,7 @@ Androidのカスタムディストリビューションを選択する場合に�
 
 ### root化を避ける
 
-[](https://en.wikipedia.org/wiki/Rooting_(Android)) Android携帯のroot化は、完全な[Androidセキュリティモデル](https://en.wikipedia.org/wiki/Android_(operating_system)#Security_and_privacy)を弱めるため、セキュリティを著しく低下させる可能性があります。 これにより、セキュリティが低下し悪用された場合、プライバシーを低下させる可能性があります。 一般的なroot化方法では、ブートパーティションを直接変更してしまうため、確認付きブートを成功させることは不可能になります。 ルートを必要とするアプリはシステムパーティションを変更するため、確認付きブートは無効のままでなければなりません。 また、ユーザーインターフェースで直接rootを露出させると、[デバイスの攻撃面](https://en.wikipedia.org/wiki/Attack_surface)が増加し 、 [権限昇格](https://en.wikipedia.org/wiki/Privilege_escalation)の脆弱性やSELinuxポリシーのバイパス を助長する可能性があります。
+Android携帯電話の[root化](https://en.wikipedia.org/wiki/Rooting_(Android))を行うと、完全な[Androidセキュリティーモデル](https://en.wikipedia.org/wiki/Android_(operating_system)#Security_and_privacy)が弱められ、セキュリティーが著しく低下する可能性があります。 root化によって低下したセキュリティーの脆弱性が悪用されると、プライバシーが損なわれてしまう可能性があります。 一般的な方法でroot化を行うと、ブートパーティションが直接変更されてしまうため、確認付きブートを行うことはできなくなります。 ルートを必要とするアプリはシステムパーティションを変更するため、確認付きブートを無効のままにしておく必要があります。 また、ユーザーインターフェースで直接rootを露出させると、[デバイスの攻撃面](https://en.wikipedia.org/wiki/Attack_surface)が増加し、 [権限昇格](https://en.wikipedia.org/wiki/Privilege_escalation)の脆弱性やSELinuxポリシーのバイパスが助長されるおそれがあります。
 
 Adblockers, which modify the [hosts file](https://en.wikipedia.org/wiki/Hosts_(file)) (AdAway) and firewalls (AFWall+) which require root access persistently are dangerous and should not be used. They are also not the correct way to solve their intended purposes. For Adblocking we suggest encrypted [DNS](../dns.md) or [VPN](../vpn.md) server blocking solutions instead. RethinkDNS, TrackerControl and AdAway in non-root mode will take up the VPN slot (by using a local loopback VPN) preventing you from using privacy enhancing services such as Orbot or a real VPN server.
 

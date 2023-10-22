@@ -209,7 +209,7 @@ By default, LibreTube blocks all YouTube advertisements. Additionally, Libretube
 
 ## 基準
 
-**私たちは、推薦するどのプロジェクトとも提携していません。**客観的に推薦できるよう、[私たちの一般的な基準](about/criteria.md)に加えて、明確な要件を定めています。 We suggest you familiarize yourself with this list before choosing to use a project, and conduct your own research to ensure it's the right choice for you.
+**私たちは、推薦するどのプロジェクトとも提携していません。**客観的に推薦できるよう、[標準となる基準](about/criteria.md)に加えて、一連の明確な要件を定めています。 プロジェクトを利用する前に、このリストをよく理解し、ご自身で調査を行って、そのプロジェクトがあなたにとって適切な選択かどうかをご確認ください。
 
 !!! example "この項目は最近作成されました"
 
