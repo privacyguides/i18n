@@ -16,7 +16,7 @@ icon: 'material/shield-account'
 
 ==プライバシーとは、あなたが許可した人だけがあなたのデータを閲覧できる保証のことです。==例えば、インスタントメッセンジャの場合、あなたと宛先のみがメッセージを閲覧できるようにするエンドツーエンド暗号化がプライバシーを提供します。
 
-**セキュリティ**
+**セキュリティー**
 :
 
 Security is the ability to trust the applications you use—that the parties involved are who they say they are—and keep those applications safe. 例えば、ウェブを閲覧する場合、HTTPS証明書がセキュリティが提供します。

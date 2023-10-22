@@ -2,7 +2,7 @@
 title: ブランドガイドライン
 ---
 
-ウェブサイトの名前は **Privacy Guides** であり、次のように変更**しない**でください：
+ウェブサイトの名前は**Privacy Guides**です。次のように変更**しないでください**：
 
 <div class="pg-red" markdown>
 - PrivacyGuides
@@ -11,9 +11,9 @@ title: ブランドガイドライン
 - PG.org
 </div>
 
-サブレディットの名前は **r/PrivacyGuides** または **the Privacy Guides Subreddit** です。
+Subredditの名前は**r/PrivacyGuides**または**the Privacy Guides Subreddit**です。
 
-その他のブランドガイドラインについては、次のサイトを参照してください。 [github.com/privacyguides/brand](https://github.com/privacyguides/brand)
+その他のブランドガイドラインについては、[github.com/privacyguides/brand](https://github.com/privacyguides/brand)を参照してください。
 
 ## 商標
 

@@ -17,7 +17,7 @@ cover: notebooks.webp
 
     ![Standard Notesのロゴ](assets/img/notebooks/standard-notes.svg){ align=right }
     
-    **Standard Notes**はどこからでも簡単にメモを取れる、シンプルかつプライベートなノートアプリです。 すべてのプラットフォームでエンドツーエンド暗号化を使用し、テーマやカスタムエディタによる強力なデスクトップ環境を提供します。 また、[独立した監査](https://standardnotes.com/help/2/has-standard-notes-completed-a-third-party-security-audit)も受けています。
+    **Standard Notes**はどこでも簡単にメモを取れる、シンプルかつプライベートなノートアプリです。 すべてのプラットフォームでエンドツーエンド暗号化を使用し、テーマやカスタムエディターによる強力なデスクトップ環境を提供します。 また、[独立した監査](https://standardnotes.com/help/2/has-standard-notes-completed-a-third-party-security-audit)も受けています。
     
     [:octicons-home-16: ホームページ](https://standardnotes.com){ .md-button .md-button--primary }
     [:octicons-eye-16:](https://standardnotes.com/privacy){ .card-link title="プライバシーポリシー" }
@@ -117,7 +117,7 @@ Crypteeは100MBのストレージを無料で提供しています。さらに�
 
     ![Org-modeロゴ](assets/img/notebooks/org-mode.svg){ align=right }
     
-    **Org-mode**はGNU Emacsの[主要なモード](https://www.gnu.org/software/emacs/manual/html_node/elisp/Major-Modes.html)です。 Org-mode は、高速かつ効果的なプレーンテキスト システムを使用して、メモの保存、ToDo リストの管理、プロジェクトの計画、およびドキュメントのオーサリングを行うためのものです。 [ファイル同期](file-sharing.md#file-sync) ツールを使えば同期が可能です。
+    **Org-mode**はGNU Emacsの[主要なモード](https://www.gnu.org/software/emacs/manual/html_node/elisp/Major-Modes.html)です。 Org-modeを使うと、高速かつ効果的なプレーンテキスト システムにより、メモの保存、ToDoリストの管理、プロジェクトの計画、およびドキュメントの作成を行うことができます。 [ファイル同期](file-sharing.md#file-sync)ツールを使うと同期が可能です。
     
     [:octicons-home-16: ホームページ](https://orgmode.org){ .md-button .md-button--primary }
     [:octicons-info-16:](https://orgmode.org/manuals.html){ .card-link title=文書 }

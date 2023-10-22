@@ -4,7 +4,7 @@ title: "PrivacyToolsに関するよくある質問"
 
 # PrivacyToolsから移行した理由
 
-2021年9月に、すべてのアクティブな貢献者が PrivacyTools からこのサイト（Privacy Guides）に移行することに全会一致で同意しました この決定は、 PrivacyTools の創設者およびドメインの管理者が長期間失踪し、連絡を取ることができなかったためです。
+2021年9月に、すべてのアクティブな貢献者がPrivacyToolsからこのサイト（Privacy Guides）に移行することに全会一致で同意しました。 この決定は、 PrivacyToolsの創設者およびドメインの管理者が長期間失踪し、連絡を取ることができなかったことによります。
 
 Having built a reputable site and set of services on PrivacyTools.io, this caused grave concerns for the future of PrivacyTools, as any future disruption could wipe out the entire organization with no recovery method. This transition was communicated to the PrivacyTools community many months in advance via a variety of channels including its blog, Twitter, Reddit, and Mastodon to ensure the entire process went as smoothly as possible. We did this to ensure nobody was kept in the dark, which has been our modus operandi since our team was created, and to make sure Privacy Guides was recognized as the same reliable organization that PrivacyTools was before the transition.
 
@@ -73,13 +73,13 @@ Following this, BurungHantu made false accusations about Jonah stealing donation
 
 BurungHantu also made a [twitter post](https://twitter.com/privacytoolsIO/status/1510560676967710728) alleging that an "attorney" had reached out to him on Twitter and was providing advice, in another attempt to bully us into giving him control of our subreddit, and as part of his smear campaign to muddy the waters surrounding the launch of Privacy Guides while pretending to be a victim.
 
-## PrivacyTools.io の現在
+## PrivacyTools.ioの現在
 
 As of September 25th 2022 we are seeing BurungHantu's overall plans come to fruition on privacytools.io, and this is the very reason we decided to create this explainer page today. The website he is operating appears to be a heavily SEO-optimized version of the site which recommends tools in exchange for financial compensation. Very recently, IVPN and Mullvad, two VPN providers near-universally [recommended](../vpn.md) by the privacy community and notable for their stance against affiliate programs were removed from PrivacyTools. In their place? NordVPN, Surfshark, ExpressVPN, and hide.me; Giant VPN corporations with untrustworthy platforms and business practices, notorious for their aggressive marketing and affiliate programs.
 
 ==**PrivacyTools has become exactly the type of site we [warned against](https://web.archive.org/web/20210729205249/https://blog.privacytools.io/the-trouble-with-vpn-and-privacy-reviews/) on the PrivacyTools blog in 2019.**== We've tried to keep our distance from PrivacyTools since the transition, but their continued harassment towards our project and now their absurd abuse of the credibility their brand gained over 6 years of open source contributions is extremely troubling to us. Those of us actually fighting for privacy are not fighting against each other, and are not getting our advice from the highest bidder.
 
-## r/privacytoolsIO の現在
+## r/privacytoolsIOの現在
 
 After the launch of [r/PrivacyGuides](https://www.reddit.com/r/privacyguides), it was impractical for u/trai_dep to continue moderating both subreddits, and with the community on-board with the transition, r/privacytoolsIO was [made](https://www.reddit.com/r/privacytoolsIO/comments/qk7qrj/a_new_era_why_rptio_is_now_a_restricted_sub/) a restricted sub in a post on November 1st, 2021:
 
@@ -95,7 +95,7 @@ In the months since, BurungHantu has threatened and begged for returning subredd
 
 For a community with many thousands of remaining subscribers, we feel that it would be incredibly disrespectful to return control of that massive platform to the person who abandoned it for over a year, and who now operates a website that we feel provides very low-quality information. Preserving the years of past discussions in that community is more important to us, and thus u/trai_dep and the rest of the subreddit moderation team has made the decision to keep r/privacytoolsIO as-is.
 
-## OpenCollective の現在
+## OpenCollectiveの現在
 
 Our fundraising platform, OpenCollective, is another source of contention. Our position is that OpenCollective was put in place by our team and managed by our team to fund services we currently operate and which PrivacyTools no longer does. We [reached out](https://opencollective.com/privacyguides/updates/transitioning-to-privacy-guides) to all of our donors regarding our move to Privacy Guides, and we were unanimously supported by our sponsors and community.
 
@@ -107,12 +107,12 @@ Thus, the funds in OpenCollective belong to Privacy Guides, they were given to o
 
 This topic has been discussed extensively within our communities in various locations, and it seems likely that most people reading this page will already be familiar with the events leading up to the move to Privacy Guides. Some of our previous posts on the matter may have extra detail we omitted here for brevity. They have been linked below for the sake of completion.
 
-- [2021年6月28日 r/privacytoolsIO の管理に関する要請](https://www.reddit.com/r/redditrequest/comments/o9tllh/requesting_rprivacytoolsio_im_only_active_mod_top/)
-- [2021年7月27日 PrivacyTools のブログで移行することを発表](https://web.archive.org/web/20210729184422/https://blog.privacytools.io/the-future-of-privacytools/)
-- [2021年9月13日 r/privacytoolsIO で Privacy Guides への移行の開始についての発表](https://www.reddit.com/r/privacytoolsIO/comments/pnql46/rprivacyguides_privacyguidesorg_what_you_need_to/)
-- [2021年9月17日 Jonahから OpenCollective での発表](https://opencollective.com/privacyguides/updates/transitioning-to-privacy-guides)
-- [2021年9月30日 Twitterのスレッドに、現在このページで説明されているほとんどの出来事の詳細が書かれている。](https://twitter.com/privacy_guides/status/1443633412800225280)
-- [2021年10月1日 u/dng99 によるサブドメインの障害を指摘する投稿](https://www.reddit.com/r/PrivacyGuides/comments/pymthv/comment/hexwrps/)
-- [2022年4月2日 PrivacyTools の非難的なブログ記事に対する u/dng99 の回答](https://www.reddit.com/comments/tuo7mm/comment/i35kw5a/)
-- [2022年5月16日 @TommyTran732 によるTwitterでの反応](https://twitter.com/TommyTran732/status/1526153497984618496)
-- [2022年9月3日 Techloreのフォーラムに @dngray が投稿しました](https://discuss.techlore.tech/t/has-anyone-seen-this-video-wondering-your-thoughts/792/20)
+- [2021年6月28日 r/privacytoolsIOの管理に関する要請](https://www.reddit.com/r/redditrequest/comments/o9tllh/requesting_rprivacytoolsio_im_only_active_mod_top/)
+- [2021年7月27日 PrivacyToolsのブログで、移行に関する意図を発表](https://web.archive.org/web/20210729184422/https://blog.privacytools.io/the-future-of-privacytools/)
+- [2021年9月13日 r/privacytoolsIOでPrivacy Guidesへの移行の開始についての発表](https://www.reddit.com/r/privacytoolsIO/comments/pnql46/rprivacyguides_privacyguidesorg_what_you_need_to/)
+- [2021年9月17日 JonahからOpenCollectiveでの発表](https://opencollective.com/privacyguides/updates/transitioning-to-privacy-guides)
+- [2021年9月30日 現在このページで説明されているほとんどの出来事の詳細を記述したTwitterのスレッド](https://twitter.com/privacy_guides/status/1443633412800225280)
+- [2021年10月1日 u/dng99によるサブドメインの障害を指摘する投稿](https://www.reddit.com/r/PrivacyGuides/comments/pymthv/comment/hexwrps/)
+- [2022年4月2日 PrivacyToolsの非難的なブログ記事に対するu/dng99の回答](https://www.reddit.com/comments/tuo7mm/comment/i35kw5a/)
+- [2022年5月16日 @TommyTran732によるTwitterでの反応](https://twitter.com/TommyTran732/status/1526153497984618496)
+- [2022年9月3日 Techloreのフォーラムへの@dngrayによる投稿](https://discuss.techlore.tech/t/has-anyone-seen-this-video-wondering-your-thoughts/792/20)

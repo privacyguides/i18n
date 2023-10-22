@@ -2,11 +2,11 @@
 title: Gitの推奨事項
 ---
 
-GitHub.comのウェブエディターでこのウェブサイトに直接変更を加える場合は、この心配する必要はありません。 ローカルで開発している場合、および/または長期的なウェブサイトエディタ（おそらくローカルで開発しているはずです！）である場合は、これらの推奨事項を検討してください。
+GitHub.comのウェブエディターでこのウェブサイトに直接変更を加える場合は、このことを心配する必要はありません。 ローカルで開発している場合や、ウェブサイトを長期的に編集している（おそらくローカルで開発しているはずです！）場合は、以下の推奨事項を検討してください。
 
 ## SSHキーのコミット署名を有効にする
 
-署名に既存の SSH キーを使用することも、[新しいSSH キーを作成することもできます。](https://docs.github.com/en/authentication/connecting-to-github-with-ssh/generating-a-new-ssh-key-and-adding-it-to-the-ssh-agent)
+署名に既存の SSH キーを使用することも、[新しいSSH キーを作成することもできます](https://docs.github.com/en/authentication/connecting-to-github-with-ssh/generating-a-new-ssh-key-and-adding-it-to-the-ssh-agent)。
 
 1. デフォルトでコミットとタグに署名するように Git クライアントを設定する (remove `--global` to only sign by default for this repo):
    ```

@@ -1,18 +1,18 @@
 ---
-meta_title: "プライベートVPNサービスの推奨事項と比較、スポンサーや広告なし - Privacy Guides"
+meta_title: "プライベートVPNサービスのおすすめと比較。スポンサーは広告はありません - Privacy Guides"
 title: "VPNサービス"
 icon: material/vpn
-description: これらは、あなたのプライバシーとセキュリティをオンラインで保護するための最高のVPNサービスです。 ここで、あなたを監視しようとしないプロバイダーを見つけてください。
+description: これらは、あなたのプライバシーとセキュリティをオンラインで保護するための最も優れたVPNサービスです。 スパイ目的でないVPNサービスプロパイダーをここで見つけましょう。
 cover: vpn.webp
 ---
 
-ISPや公共Wi-Fiネットワーク、またはファイルのTorrent中の、追加の**プライバシー保護**手段をお探しの場合で、リスクを理解している場合は、VPNはあなたにとっての解決策になるかもしれません。 以下のプロバイダは他のプロバイダと比較して洗練されていると、私たちは考えています。
+ISPや公共Wi-Fiネットワークから**プライバシー**をより一層保護したい場合、またはファイルをTorrentで送受信している際にそうしたい場合、リスクを理解している限りで、VPNはあなたにとっての解決策になる可能性があります。 以下のプロバイダは他のプロバイダと比較して洗練されていると、私たちは考えています。
 
 <div class="grid cards" markdown>
 
-- ![Proton VPN logo](assets/img/vpn/protonvpn.svg){ .twemoji } [Proton VPN](#proton-vpn)
-- ![IVPN logo](assets/img/vpn/mini/ivpn.svg){ .twemoji } [IVPN](#ivpn)
-- ![Mullvad logo](assets/img/vpn/mullvad.svg){ .twemoji } [Mullvad](#mullvad)
+- ![Proton VPN ロゴ](assets/img/vpn/protonvpn.svg){ .twemoji } [Proton VPN](#proton-vpn)
+- ![IVPN ロゴ](assets/img/vpn/mini/ivpn.svg){ .twemoji } [IVPN](#ivpn)
+- ![Mullvad ロゴ](assets/img/vpn/mullvad.svg){ .twemoji } [Mullvad](#mullvad)
 
 </div>
 
@@ -28,7 +28,7 @@ ISPや公共Wi-Fiネットワーク、またはファイルのTorrent中の、�
 
 [VPNの詳細な概要 :material-arrow-right-drop-circle:](basics/vpn-overview.md ""){.md-button}
 
-## 推奨するプロバイダー
+## 推奨するサービスプロバイダー
 
 私たちがおすすめするプロバイダは、暗号化を使用し、Moneroを受け入れ、WireGuardとOpenVPNに対応し、ノーログポリシーを持っています。 詳細については、[基準の完全なリスト](#criteria)をお読みください。
 
@@ -36,9 +36,9 @@ ISPや公共Wi-Fiネットワーク、またはファイルのTorrent中の、�
 
 !!! recommendation annotate
 
-    ![Proton VPN logo](assets/img/vpn/protonvpn.svg){ align=right }
+    ![Proton VPN ロゴ](assets/img/vpn/protonvpn.svg){ align=right }
     
-    **Proton VPN**はVPN分野の強力な候補であり、2016 年から運営されています。 Proton AGはスイスに本社を置き、限定的な無料枠と、より機能的なプレミアムオプションを提供している。
+    **Proton VPN**はVPNの分野において強力なサービスプロバイダーであり、2016年から運営されています。 Proton AGはスイスに本社を置き、機能が限定された無料枠と、より多くの機能を備えたプレミアムオプションを提供しています。
     
     [:octicons-home-16: ホームページ](https://protonvpn.com/){ .md-button .md-button--primary }
     [:octicons-eye-16:](https://protonvpn.com/privacy-policy){ .card-link title="プライバシーポリシー" }
@@ -86,7 +86,7 @@ Proton VPNは現在NAT-PMP経由で、リース時間は60秒の一時的なリ�
 
 #### :material-check:{ .pg-green } モバイルクライアント
 
-標準的なOpenVPN構成ファイルに加えてProton VPNは[App Store](https://apps.apple.com/us/app/protonvpn-fast-secure-vpn/id1437005085)、[Google Play](https://play.google.com/store/apps/details?id=ch.protonvpn.android&hl=en_US)、そして[GitHub](https://github.com/ProtonVPN/android-app/releases)用にモバイルクライアントを用意しており、サーバーへの簡単な接続を可能にしています。
+標準的なOpenVPN構成ファイルに加えて、Proton VPNは[App Store](https://apps.apple.com/us/app/protonvpn-fast-secure-vpn/id1437005085)、[Google Play](https://play.google.com/store/apps/details?id=ch.protonvpn.android&hl=en_US)、そして[GitHub](https://github.com/ProtonVPN/android-app/releases)用にモバイルクライアントを用意しており、サーバーへの簡単な接続を可能にしています。
 
 #### :material-information-outline:{ .pg-blue } 追加機能
 
@@ -161,7 +161,7 @@ IVPN clients support two factor authentication (Mullvad's clients do not). IVPN 
 
 !!! recommendation
 
-    ![Mullvad logo](assets/img/vpn/mullvad.svg){ align=right }
+    ![Mullvad ロゴ](assets/img/vpn/mullvad.svg){ align=right }
     
     **Mullvad**は、透明性とセキュリティに重点を置いた、高速で安価なVPNです。 **2009年**から運営されています。 Mullvadの拠点はスウェーデンで、フリートライアルはありません。
     
@@ -229,13 +229,13 @@ Mullvad has published [App Store](https://apps.apple.com/app/mullvad-vpn/id14884
 
 #### :material-information-outline:{ .pg-blue } 追加機能
 
-Mullvadは、どのノードを[所有またはレンタル](https://mullvad.net/en/servers/)しているのかについて非常に透明性があります。 They use [ShadowSocks](https://shadowsocks.org/) in their ShadowSocks + OpenVPN configuration, making them more resistant against firewalls with [Deep Packet Inspection](https://en.wikipedia.org/wiki/Deep_packet_inspection) trying to block VPNs. Supposedly, [China has to use a different method to block ShadowSocks servers](https://github.com/net4people/bbs/issues/22). Mullvad's website is also accessible via Tor at [o54hon2e2vj6c7m3aqqu6uyece65by3vgoxxhlqlsvkmacw6a7m7kiad.onion](http://o54hon2e2vj6c7m3aqqu6uyece65by3vgoxxhlqlsvkmacw6a7m7kiad.onion).
+Mullvadには、どのノードを[所有またはレンタル](https://mullvad.net/en/servers/)しているのかに関する非常に高い透明性があります。 They use [ShadowSocks](https://shadowsocks.org/) in their ShadowSocks + OpenVPN configuration, making them more resistant against firewalls with [Deep Packet Inspection](https://en.wikipedia.org/wiki/Deep_packet_inspection) trying to block VPNs. Supposedly, [China has to use a different method to block ShadowSocks servers](https://github.com/net4people/bbs/issues/22). Mullvad's website is also accessible via Tor at [o54hon2e2vj6c7m3aqqu6uyece65by3vgoxxhlqlsvkmacw6a7m7kiad.onion](http://o54hon2e2vj6c7m3aqqu6uyece65by3vgoxxhlqlsvkmacw6a7m7kiad.onion).
 
 ## 基準
 
 !!! 危険
 
-    VPNプロバイダーを利用することで匿名になるわけではありませんが、特定の状況下ではより良いプライバシーが得られることに注意する必要があります。 VPNは違法行為のためのツールではありません。 「ログなし」ポリシーに依存しないでください。
+    VPNプロバイダーを利用すると、特定の状況下ではより良いプライバシーが得られますが、VPNプロバイダーは匿名性を与えるものではないことに注意が必要です。 VPNは違法行為のためのツールではありません。 「ログなし」ポリシーに依存しないでください。
 
 **私たちは、推奨するいずれのプロバイダーとも提携していません。 This allows us to provide completely objective recommendations.** In addition to [our standard criteria](about/criteria.md), we have developed a clear set of requirements for any VPN provider wishing to be recommended, including strong encryption, independent security audits, modern technology, and more. プロジェクトを利用する前に、このリストをよく理解し、ご自身で調査を行って、そのプロジェクトがあなたにとって適切な選択かどうかをご確認ください。
 
@@ -243,36 +243,36 @@ Mullvadは、どのノードを[所有またはレンタル](https://mullvad.net
 
 We require all our recommended VPN providers to provide OpenVPN configuration files to be used in any client. **If** a VPN provides their own custom client, we require a killswitch to block network data leaks when disconnected.
 
-**Minimum to Qualify:**
+**最低条件：**
 
 - Support for strong protocols such as WireGuard & OpenVPN.
 - Killswitch built in to clients.
 - Multihop support. Multihopping is important to keep data private in case of a single node compromise.
 - If VPN clients are provided, they should be [open-source](https://en.wikipedia.org/wiki/Open_source), like the VPN software they generally have built into them. We believe that [source code](https://en.wikipedia.org/wiki/Source_code) availability provides greater transparency about what your device is actually doing.
 
-**最良の場合：**
+**満たされることが望ましい基準：**
 
-- WireGuardとOpenVPNをサポート。
-- 高度に構成可能なオプションを備えたキルスイッチ（特定のネットワークや起動時などで有効/無効）
-- 使いやすいVPNクライアント
-- [IPv6](https://en.wikipedia.org/wiki/IPv6)をサポートする。 サーバーがIPv6経由の着信接続を許可し、IPv6アドレスでホストされているサービスにアクセスできるようになることを期待しています。
-- [リモートポート転送](https://en.wikipedia.org/wiki/Port_forwarding#Remote_port_forwarding) 機能はP2P（[Peer-to-Peer](https://en.wikipedia.org/wiki/Peer-to-peer)）ファイル共有ソフトウェアの使用時やサーバー（Mumbleなど）のホスト時に接続を作成するのに役立ちます。
+- WireGuardとOpenVPNをサポートしていること。
+- 高度に構成可能なオプションを備えたキルスイッチ（特定のネットワークや起動時などで有効/無効）があること。
+- 使いやすいVPNクライアントであること。
+- [IPv6](https://en.wikipedia.org/wiki/IPv6)をサポートしていること。 サーバーがIPv6経由の着信接続を許可し、IPv6アドレスでホストされているサービスにアクセスできることが望ましい。
+- [リモートポート転送](https://en.wikipedia.org/wiki/Port_forwarding#Remote_port_forwarding)機能が備わっていること。リモートポート転送機能は、P2P（[Peer-to-Peer](https://en.wikipedia.org/wiki/Peer-to-peer)）ファイル共有ソフトウェアを使用していたり、サーバー（Mumbleなど）をホストしていたりする際に接続を確立することを支援するものです。
 
 ### プライバシー
 
-私たちは、推奨するプロバイダーができるだけデータを収集しないことを望んでいます。 登録時に個人情報を収集しないこと、匿名の支払い方法を受け入れることが求められます。
+推奨するサービスプロバイダーができるだけデータを収集しないことが望ましいです。 登録時に個人情報を収集しないこと、また、匿名の支払い方法を受け入れることが必要です。
 
 **最低条件：**
 
-- [匿名の仮想通貨](cryptocurrency.md)**もしくは**現金支払いオプション。
-- 登録に個人情報が必要ありません。最大でもユーザー名、パスワード、電子メールのみです。
+- [匿名の仮想通貨](cryptocurrency.md)**もしくは**現金支払いオプションがあること。
+- 登録に個人情報を必要としないこと。必要とする場合でもユーザー名、パスワード、電子メールを超えないこと。
 
-**最良の場合：**
+**満たされることが望ましい基準：**
 
-- 複数の[匿名支払いオプション](advanced/payments.md)に対応。
-- 個人情報が一切必要ありません。（自動生成されたユーザー名、電子メールは必要ないなど）
+- 複数の[匿名支払いオプション](advanced/payments.md)に対応していること。
+- 個人情報を一切要求しないこと（ユーザー名の自動生成を行ったり、電子メールを不要としたりすること）。
 
-### セキュリティ
+### セキュリティー
 
 A VPN is pointless if it can't even provide adequate security. We require all our recommended providers to abide by current security standards for their OpenVPN connections. Ideally, they would use more future-proof encryption schemes by default. We also require an independent third-party to audit the provider's security, ideally in a very comprehensive manner and on a repeated (yearly) basis.
 
@@ -282,24 +282,24 @@ A VPN is pointless if it can't even provide adequate security. We require all ou
 - 前方秘匿性
 - 信頼できる第三者機関によるセキュリティ監査を公表
 
-**最良の場合：**
+**満たされることが望ましい基準：**
 
 - 強力な暗号化：RSA-4096
 - 前方秘匿性
-- 評判の良い第三者機関による包括的な公開セキュリティ監査。
-- バグ報奨金プログラムおよび/または協調的な脆弱性開示プロセス。
+- 信頼できる第三者機関による包括的な公開セキュリティ監査。
+- バグ報奨金プログラム、協調的な脆弱性開示プロセス。
 
 ### 信頼
 
-あなたは偽の身分証を持つ人物に自分の財政を託すことはないでしょう、それではなぜインターネットデータではそれらを信頼するのですか？ 推奨されるプロバイダーには、自社の所有権やリーダーシップについて公表することが求められます。 また、特に政府からの要請がどのように処理されるかについて、透明性の高い報告が頻繁に行われることを望んでいます。
+あなたは偽の身分証を持つ人物に自分の財政を託すことはないでしょう。インターネットのデータに関しても、これと同じです。 推奨されるサービスプロバイダーには、自社の所有権やリーダーシップについて公表することが求められます。 また、特に政府からの要請がどのように処理されるかについて、透明性の高い報告が頻繁に行われることを望んでいます。
 
 **最低条件：**
 
-- 公の場でのリーダーシップやオーナーシップ。
+- 公的なリーダーシップまたはオーナーシップ。
 
-**最良の場合：**
+**満たされることが望ましい基準：**
 
-- 公の場でのリーダーシップ。
+- 公的なリーダーシップ。
 - 頻繁な透明性レポート。
 
 ### マーケティング
@@ -318,7 +318,7 @@ A VPN is pointless if it can't even provide adequate security. We require all ou
 - 単一回線のVPNは、定期的に変更される3ホップ以上の回線であるTorよりも「匿名性が高い」と主張する。
 - 責任ある言葉を使用してください：つまり、VPNが「切断されている」または「接続されていない」と言うのは問題ありませんが、誰かが「公開されている」、「脆弱」、または「侵害されている」と主張することは、正しくない可能性のある憂慮すべき言葉を不必要に使用することです。 例えば、その人は単に他のVPNプロバイダーのサービスを利用しているだけかもしれないし、Torを使っているだけかもしれない。
 
-**最良の場合：**
+**満たされることが望ましい基準：**
 
 教育的かつ消費者にとって有用な責任あるマーケティングには以下のものがあります:
 

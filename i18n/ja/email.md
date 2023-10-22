@@ -410,7 +410,7 @@ We regard these features as important in order to provide a safe and optimal ser
 - Allow users to use their own [domain name](https://en.wikipedia.org/wiki/Domain_name). Custom domain names are important to users because it allows them to maintain their agency from the service, should it turn bad or be acquired by another company which doesn't prioritize privacy.
 - Operates on owned infrastructure, i.e. not built upon third-party email service providers.
 
-**最良の場合：**
+**満たされることが望ましい基準：**
 
 - Encrypts all account data (Contacts, Calendars, etc.) at rest with zero-access encryption.
 - Integrated webmail E2EE/PGP encryption provided as a convenience.
@@ -423,7 +423,7 @@ We regard these features as important in order to provide a safe and optimal ser
 
 ### プライバシー
 
-私たちは、推奨するプロバイダーができるだけデータを収集しないことを望んでいます。
+私たちは、推奨するサービスプロバイダーができるだけデータを収集しないことを望んでいます。
 
 **最低条件：**
 
@@ -431,12 +431,12 @@ We regard these features as important in order to provide a safe and optimal ser
 - ユーザー名とパスワード以外に、個人情報(PII)を必要としない。
 - プライバシーポリシーがGDPRの要件を満たしている。
 
-**最良の場合：**
+**満たされることが望ましい基準：**
 
 - [匿名の支払い方法](advanced/payments.md)（[暗号通貨](cryptocurrency.md)、現金、ギフトカードなど）を受け入れること
 - 強固な電子メールのプライバシー保護法の管轄区域でホストされていること
 
-### セキュリティ
+### セキュリティー
 
 メール サーバーは、非常に機密性の高いデータを大量に扱います。 私たちは、プロバイダーが顧客を保護するために業界のベストプラクティスを採用することを期待しています。
 
@@ -458,27 +458,27 @@ We regard these features as important in order to provide a safe and optimal ser
     - [Subresource Integrity](https://en.wikipedia.org/wiki/Subresource_Integrity) if loading things from external domains.
 - Must support viewing of [Message headers](https://en.wikipedia.org/wiki/Email#Message_header), as it is a crucial forensic feature to determine if an email is a phishing attempt.
 
-**最良の場合：**
+**満たされることが望ましい基準：**
 
 - ハードウェア認証のサポート、つまり U2Fと[WebAuthn](https://en.wikipedia.org/wiki/WebAuthn)。 U2F and WebAuthn are more secure as they use a private key stored on a client-side hardware device to authenticate people, as opposed to a shared secret that is stored on the web server and on the client side when using TOTP. Furthermore, U2F and WebAuthn are more resistant to phishing as their authentication response is based on the authenticated [domain name](https://en.wikipedia.org/wiki/Domain_name).
 - [DNS Certification Authority Authorization (CAA) Resource Record](https://tools.ietf.org/html/rfc6844) in addition to DANE support.
 - Implementation of [Authenticated Received Chain (ARC)](https://en.wikipedia.org/wiki/Authenticated_Received_Chain), this is useful for people who post to mailing lists [RFC8617](https://tools.ietf.org/html/rfc8617).
-- バグ報奨金プログラムおよび/または協調的な脆弱性開示プロセス。
+- バグ報奨金プログラム、協調的な脆弱性開示プロセス。
 - 以下のようなウェブサイトのセキュリティ基準：
     - [コンテンツセキュリティポリシー（CSP）](https://en.wikipedia.org/wiki/Content_Security_Policy)
     - [RFC9163 Expect-CT](https://datatracker.ietf.org/doc/rfc9163/)
 
 ### 信頼
 
-あなたは偽の身分証を持つ人物に自分の財政を託すことはないでしょう、それではなぜ電子メールではそれらを信頼するのですか？ 推奨されるプロバイダーには、自社の所有権やリーダーシップについて公表することが求められます。 また、特に政府からの要請がどのように処理されるかについて、透明性の高い報告が頻繁に行われることを望んでいます。
+あなたは偽の身分証を持つ人物に自分の財政を託すことはないでしょう、それではなぜ電子メールではそれらを信頼するのですか？ 推奨されるサービスプロバイダーには、自社の所有権やリーダーシップについて公表することが求められます。 また、特に政府からの要請がどのように処理されるかについて、透明性の高い報告が頻繁に行われることを望んでいます。
 
 **最低条件：**
 
-- 公の場でのリーダーシップやオーナーシップ。
+- 公的なリーダーシップまたはオーナーシップ。
 
-**最良の場合：**
+**満たされることが望ましい基準：**
 
-- 公の場でのリーダーシップ。
+- 公的なリーダーシップ。
 - 頻繁な透明性レポート。
 
 ### マーケティング
@@ -497,7 +497,7 @@ We regard these features as important in order to provide a safe and optimal ser
     - Reusing personal information e.g. (email accounts, unique pseudonyms, etc.) that they accessed without anonymity software (Tor, VPN, etc.)
     - [ブラウザフィンガープリント](https://en.wikipedia.org/wiki/Device_fingerprint#Browser_fingerprint)
 
-**最良の場合：**
+**満たされることが望ましい基準：**
 
 - 明確で読みやすいドキュメント。 これには、2FA のセットアップ、電子メールクライアント、OpenPGP などが含まれます。
 

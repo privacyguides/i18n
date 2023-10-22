@@ -1,7 +1,7 @@
 ---
 title: "DNSリゾルバ"
 icon: material/dns
-description: これらは、ISPのデフォルト設定を置き換えるために推奨する暗号化DNSプロバイダです。
+description: ISPのデフォルト設定を置き換える際に推奨される、暗号化DNSプロバイダーの一覧です。
 cover: dns.webp
 ---
 
