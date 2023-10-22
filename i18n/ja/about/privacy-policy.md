@@ -2,11 +2,11 @@
 title: "プライバシーポリシー"
 ---
 
-Privacy Guidesは、多数の積極的なボランティア貢献者によって運営されているコミュニティプロジェクトです。 チームメンバーの公開リストは[GitHubで確認](https://github.com/orgs/privacyguides/people)できます。
+Privacy Guidesは、多くの積極的なボランティアにより運営されているコミュニティー・プロジェクトです。 チームメンバーの公開リストは[GitHubで確認](https://github.com/orgs/privacyguides/people)できます。
 
 ## 私たちが閲覧者から収集するデータ
 
-私たちは、ウェブサイト閲覧者のプライバシーを重視しているため、各個人を追跡することはありません。 私たちのウェブサイトの訪問者として：
+私たちは、ウェブサイト閲覧者のプライバシーを重視しているため、各個人を追跡することはありません。 私たちのウェブサイトの訪問者に関して、
 
 - No personal information is collected
 - No information such as cookies are stored in the browser
@@ -15,7 +15,7 @@ Privacy Guidesは、多数の積極的なボランティア貢献者によって
 - No information is mined and harvested for personal and behavioral trends
 - No information is monetized
 
-## アカウント所有者から収集するデータ
+## アカウントの所有者から収集するデータ
 
 If you register for an account on one of our services, we may collect any information you provide us (such as your email, password, profile information, etc.) and use that information to provide you with the service. We never share or sell this data.
 
@@ -33,7 +33,7 @@ Jonah Aragon
 jonah@privacyguides.org
 ```
 
-その他すべてのお問い合わせについては、チームのメンバーに連絡することができます。
+その他のお問い合わせは、チームメンバーまでご連絡ください。
 
 For complaints under GDPR more generally, you always have the option to lodge complaints with your local data protection supervisory authorities.
 

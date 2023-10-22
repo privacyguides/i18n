@@ -174,8 +174,8 @@ On Android distributions with privileged Google Play Services (such as stock OSe
 
 You will either be given the option to delete your advertising ID or to *Opt out of interest-based ads*, this varies between OEM distributions of Android. If presented with the option to delete the advertising ID that is preferred. If not, then make sure to opt out and reset your advertising ID.
 
-### SafetyNet と Play Integrity API
+### SafetyNetとPlay Integrity API
 
-[SafetyNet](https://developer.android.com/training/safetynet/attestation) と [Play Integrity API](https://developer.android.com/google/play/integrity) は、一般的に [銀行アプリ](https://grapheneos.org/usage#banking-apps)に使用されます。 サンドボックス化されたPlayサービスを備えたGrapheneOSでは、多くの銀行アプリがうまく動作しますが、一部の非金融アプリには、それ自体の改ざん防止メカニズムがあり、失敗する可能性があります。 GrapheneOSは、 `basicIntegrity` のチェックはパスしますが、 認証チェック `ctsProfileMatch`はパスしません。 Android 8 以降を搭載したデバイスには、ハードウェア認証のサポートがあり、キーの漏洩や深刻な脆弱性がない限りバイパスできません。
+[SafetyNet](https://developer.android.com/training/safetynet/attestation)と[Play Integrity API](https://developer.android.com/google/play/integrity)は、一般的に[銀行アプリ](https://grapheneos.org/usage#banking-apps)に使用されます。 GrapheneOSには、サンドボックス化されたPlayサービスがあり、多くの銀行アプリはうまく動作しますが、一部の非金融アプリには、それ自体の改ざん防止メカニズムが備わっているため、適切に動作しない可能性があります。 GrapheneOSは、 `basicIntegrity` のチェックは通過しますが、 認証チェック `ctsProfileMatch`は通過しません。 Android 8以降を搭載したデバイスには、ハードウェア認証のサポートがあります。これは、キーの漏洩や深刻な脆弱性がない限り回避することはできません。
 
-Google ウォレットについては、[プライバシーポリシー](https://payments.google.com/payments/apis-secure/get_legal_document?ldo=0&ldt=privacynotice&ldl=en)により、信用情報や個人情報をアフィリエイト マーケティング サービスと共有したくない場合は、オプトアウトする必要があると規定されているため、推奨されません。
+Googleウォレットについては、[プライバシーポリシー](https://payments.google.com/payments/apis-secure/get_legal_document?ldo=0&ldt=privacynotice&ldl=en)により、信用情報や個人情報をアフィリエイト・マーケティングサービスと共有したくない場合は、オプトアウトする必要があると規定されているため、推奨されません。
