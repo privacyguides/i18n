@@ -96,11 +96,11 @@ Mullvad Browserには、*uBlock Origin*と*NoScript*のブラウザ拡張機能�
 
 Mullvad Browserは常にプライベートブラウジングモードで動作します。つまり、履歴、クッキー、その他のサイトデータはブラウザを閉じるたびに常にクリアされます。 しかし、ブックマーク、ブラウザ設定、拡張機能の設定は保存され続けます。
 
-これは、高度な形式のトラッキングを防ぐために必要ですが、便利さやFirefoxの一部の機能（例えば、Multi-Account Containersなど）を犠牲にしています。 常に複数のブラウザを使用することができます。例えば、ログインしたままにしたいサイトや、Mullvad Browserでは正しく動作しないサイトについてはFirefox+Arkenfoxを使用し、一般的なブラウジングにはMullvad Browserを使用するといった方法を考えることができます。
+これは、高度な形式のトラッキングを防ぐために必要ですが、便利さやFirefoxの一部の機能（例えば、Multi-Account Containersなど）を犠牲にしています。 常に複数のブラウザを使用できることを覚えておいてください。たとえば、ログインしたままにしたいサイトや、Mullvad Browserでは正しく動作しないサイトについては Firefox + Arkenfox を使用し、一般的なブラウジングには Mullvad Browserを使用するといった方法を考えることができます。
 
 ### Mullvad Leta
 
-Mullvad Browserはデフォルトの[検索エンジン](search-engines.md)としてDuckDuckGoが設定されていますが、Mullvad VPNの有効なサブスクリプションが必要な検索エンジン、**Mullvad Leta**も事前にインストールされています。 Mullvad LetaはGoogleの有料検索APIに直接問い合わせます（そのため、有料加入者に限定されます）。しかし、この制限のため、Mullvadは検索クエリとMullvad VPNのアカウントを相関させることが可能です。 このため、MullvadがVPN加入者について非常に少ない情報しか収集していないにもかかわらず、Mullvad Letaの使用はおすすめしません。
+Mullvad Browserはデフォルトの[検索エンジン](search-engines.md)としてDuckDuckGoが設定されていますが、Mullvad VPNの有効なサブスクリプションが必要な検索エンジン、**Mullvad Leta**も事前にインストールされています。 Mullvad LetaはGoogleの有料検索APIに直接問い合わせますが（そのため、この機能は有料会員に限定されています）、この制限のために、Mullvadは検索クエリーとMullvad VPNアカウントを関連付けることが可能です。 このため、MullvadがVPN加入者について非常に少ない情報しか収集していないにもかかわらず、Mullvad Letaの使用はおすすめしません。
 
 ## Firefox
 
@@ -136,7 +136,7 @@ FirefoxはMozillaのウェブサイトからのダウンロードにユニーク
 
 あなたの地域では検索提案機能の利用はできないかもしれません。
 
-検索候補は、実際に検索を行うかどうかに関わらず、アドレスバーに入力したすべてのものをデフォルトの検索エンジンに送信します。 検索候補を無効にすることで、あなたが検索エンジンプロバイダに送信するデータをより正確に制御することができます。
+検索提案機能は、実際に検索を行うかどうかに関わらず、アドレスバーに入力したすべての文字をデフォルトの検索エンジンに送信します。 検索提案機能を無効にすることで、検索エンジンプロバイダ＝に送信するデータを、より正確に制御することができます。
 
 #### プライバシーとセキュリティ
 
@@ -148,12 +148,12 @@ FirefoxはMozillaのウェブサイトからのダウンロードにユニーク
 
 ##### Firefox Suggest (アメリカのみ)
 
-[Firefox Suggest](https://support.mozilla.org/en-US/kb/firefox-suggest)は、米国のみで利用可能な、検索候補と似た機能です。 私たちは、検索候補を無効にすることを推奨するのと同じ理由で、これを無効にすることを推奨します。 **アドレスバー**のヘッダーの下にこれらのオプションが表示されない場合、新しいエクスペリエンスは持っていないので、これらの変更を無視しても問題ありません。
+[Firefox Suggest](https://support.mozilla.org/en-US/kb/firefox-suggest)は、米国のみで利用可能な、検索提案機能と類似の機能です。 私たちは、検索提案機能の無効化を推奨するのと同じ理由で、これを無効にすることを推奨します。 **アドレスバー**のヘッダーの下にこれらのオプションが表示されない場合、新しいエクスペリエンスは持っていないので、これらの変更を無視しても問題ありません。
 
 - [ ] **ウェブからの提案**のチェックを外します
 - [ ] **スポンサーからの提案**のチェックを外します
 
-##### 終了時にサニタイズ
+##### 終了時のクリーンアップ
 
 特定のサイトにログインしたままにしたい場合は、**Cookie とサイトデータ** → **例外の管理...**で例外を許可することができます。
 
@@ -165,7 +165,7 @@ FirefoxはMozillaのウェブサイトからのダウンロードにユニーク
 
 - [ ] **Firefox が技術的な対話データを Mozilla へ送信することを許可する**のチェックを外す
 - [ ] **Firefox に調査のインストールと実行を許可する**のチェックを外す
-- [ ] **Firefox があなたに代わって未送信のクラッシュレポートを送信することを許可する**のチェックを外します
+- [ ] **Firefox があなたに代わって未送信のクラッシュレポートを送信することを許可する**のチェックを外すこと
 
 > Firefoxは、あなたのFirefoxのバージョンや言語、デバイスのオペレーティングシステムとハードウェア構成、メモリ、クラッシュやエラーに関する基本情報、アップデートやセーフブラウジング、アクティベーションなどの自動化されたプロセスの結果などのデータを私たちに送信します。 Firefoxが私たちにデータを送信するとき、あなたのIPアドレスは一時的に私たちのサーバーログの一部として収集されます。
 
@@ -196,21 +196,21 @@ Max Protection enforces the use of DNS over HTTPS, and a security warning will s
 
 !!! ヒント "高度なフィンガープリンティング対策にはMullvad Browserを使用してください"
 
-    [Mullvad Browser](#mullvad-browser)は、初期設定からArkenfoxと同じフィンガープリンティング対策を提供し、これらの保護を利用するためにMullvadのVPNを使用する必要はありません。 VPNと組み合わせることで、Mullvad BrowserはArkenfoxにはできない、より高度な追跡スクリプトを阻止することができます。 Arkenfoxははるかに柔軟性があり、ログインしたままである必要があるウェブサイトに対してサイトごとの例外を許可するという利点があります。
+    [Mullvad Browser](#mullvad-browser)は、初期設定からArkenfoxと同じフィンガープリンティング対策を提供し、これらの保護を利用するためにMullvadのVPNを使用する必要はありません。 VPNと組み合わせることで、Mullvad BrowserはArkenfoxにはできない仕方で、より高度な追跡スクリプトを阻止することができます。 Arkenfoxははるかに柔軟性があり、ログインしたままである必要があるウェブサイトに対してサイトごとの例外を許可するという利点があります。
 
 [Arkenfoxプロジェクト](https://github.com/arkenfox/user.js)は、Firefoxのための慎重に考えられたオプションのセットを提供しています。 もし[Arkenfoxを使用することを決定した場合](https://github.com/arkenfox/user.js/wiki/1.1-To-Arkenfox-or-Not)、[いくつかのオプション](https://github.com/arkenfox/user.js/wiki/3.2-Overrides-[Common])は主観的に厳格であり、または一部のウェブサイトが正しく動作しない可能性があります - これらは[あなたのニーズに合わせて簡単に変更することができます](https://github.com/arkenfox/user.js/wiki/3.1-Overrides)。 私たちは、彼らの[wiki](https://github.com/arkenfox/user.js/wiki)をすべて読むことを**強くお勧めします**。 Arkenfoxは[コンテナ](https://support.mozilla.org/ja/kb/containers#w_for-advanced-users)のサポートも有効にしています。
 
-Arkenfoxは、キャンバスのランダム化やFirefoxの組み込みのフィンガープリント対策の設定を通じて、基本的または単純なトラッキングスクリプトを阻止することを目指しています。 Arkenfoxは、Mullvad BrowserやTor Browserのように、高度なフィンガープリンティングトラッキングスクリプトを防止する唯一の方法である他の多くのArkenfoxユーザーとブラウザを溶け込ませることを目指していません。 常に複数のブラウザを使用できることを覚えておいてください。たとえば、ログインしたままにするか信頼したいいくつかのサイトには Firefox + Arkenfox を使用し、一般的なブラウジングには Mullvad Browserを使用することを検討できます。
+Arkenfoxは、canvasのランダム化やFirefoxの組み込みのフィンガープリント対策の設定によって、基本的または単純なトラッキングスクリプトを阻止することのみを目指しています。 Arkenfoxは、Mullvad BrowserやTor Browserのように、高度なフィンガープリンティングトラッキングスクリプトを防止する唯一の方法である他の多くのArkenfoxユーザーとブラウザを溶け込ませることを目指していません。 常に複数のブラウザを使用できることを覚えておいてください。たとえば、ログインしたままにしたいサイトや、それとは別の仕方で信頼したいサイトについては Firefox + Arkenfox を使用し、一般的なブラウジングには Mullvad Browserを使用するといった方法を考えることができます。
 
 ## Brave
 
 !!! recommendation
 
-    ![Brave logo](assets/img/browsers/brave.svg){ align=right }
+    ![Brave ロゴ](assets/img/browsers/brave.svg){ align=right }
     
-    **Brave Browser** には、コンテンツブロッカーと [いくつかのプライバシー機能](https://brave.com/privacy-features/) が内蔵されていて、その多くがデフォルトで有効になっています。
+    **Brave Browser**には、コンテンツブロッカーと[いくつかのプライバシー機能](https://brave.com/privacy-features/)が内蔵されており、その多くはデフォルトで有効になっています。
     
-    BraveはChromiumウェブブラウザプロジェクトに基づいて構築されているため、使い慣れた使用感、ウェブサイトの互換性問題が最小限に抑えられます。
+    BraveはChromiumウェブブラウザープロジェクトに基づいて構築されているため、使い慣れた使用感があるほか、ウェブサイトの互換性問題を最小限に抑えられます。
     
     [:octicons-home-16: ホームページ](https://brave.com/ja/){ .md-button .md-button--primary }
     [:simple-torbrowser:](https://brave4u7jddbv7cyviptqjc7jusxh72uik7zt6adtckl5f4nwy2v72qd.onion){ .card-link title="Onion Service" }
@@ -241,15 +241,15 @@ Shieldsのオプションは必要に応じてサイトごとにダウングレ�
 
 <div class="annotate" markdown>
 
-- [x] **言語設定に基づく、サイトのフィンガープリントを禁止** を選択
-- [x] トラッカーと広告をブロックで **積極的** を選択
+- [x] **言語設定に基づく、サイトのフィンガープリントを禁止**を選択
+- [x] 「トラッカーと広告をブロック」で**積極的**を選択
 
-    ??? warning "デフォルトのフィルターリストを使用する"
-        Braveでは、 `brave://adblock` ページ内で追加のコンテンツフィルターを選択することができます。 この機能を使用しないで、デフォルトのフィルターリストを維持することをお勧めします。 追加のリストを使用すると、他の Brave ユーザーより目立つようになり、Brave にエクスプロイトがあり、使用するリストの1つに悪意のあるルールが追加された場合に攻撃対象領域が増加する可能性があります。
+    ??? warning "デフォルトのフィルターリストを使用すること"
+        Braveでは、 `brave://adblock` ページ内で追加のコンテンツフィルターを選択することができます。 この機能は使わず、デフォルトのフィルターリストのままにしておくことを推奨します。 追加のリストを使用すると、他のBraveユーザーから目立つようになり、また、Braveに脆弱性があり、使用するリストに悪意のあるルールが追加された場合、攻撃対象となる領域が増えるおそれがあります。
 
-- [x] **接続をHTTPSにアップグレードする** で **厳格** を選択
-- [x] (オプション) **スクリプトをブロックする** を選択 (1)
-- [x] フィンガープリンティングをブロックで **厳格、サイトの表示が崩れる可能性** を選択
+- [x] **接続をHTTPSにアップグレードする**で**厳格**を選択
+- [x] （オプション）**スクリプトをブロックする**を選択 (1)
+- [x] 「フィンガープリンティングをブロック」で**厳格、サイトの表示が崩れる可能性**を選択
 
 </div>
 
@@ -259,33 +259,33 @@ Shieldsのオプションは必要に応じてサイトごとにダウングレ�
 
 - [ ] すべてのソーシャルメディアコンポーネントのチェックを外す
 
-##### プライバシーとセキュリティ
+##### プライバシーとセキュリティー
 
 <div class="annotate" markdown>
 
-- [x] [WebRTC IP処理ポリシー](https://support.brave.com/hc/en-us/articles/360017989132-How-do-I-change-my-Privacy-Settings-#webrtc) で **非プロキシUDPを無効にする** を選択
-- [ ] **プッシュメッセージングにGoogleサービスを使用** のチェックを外す
-- [ ] **プライバシーを保護したプロダクト分析 (P3A) を許可する** のチェックを外す
-- [ ] **毎日の使用状況のpingをBraveに自動送信する** のチェックを外す
-- [ ] **診断レポートを自動送信する** のチェックを外す
-- [ ] **Tor搭載のプライベートウィンドウ** (1)  のチェックを外す
+- [x] [WebRTC IP処理ポリシー](https://support.brave.com/hc/en-us/articles/360017989132-How-do-I-change-my-Privacy-Settings-#webrtc) で**非プロキシUDPを無効にする**を選択
+- [ ] **プッシュメッセージングにGoogleサービスを使用**のチェックを外す
+- [ ] **プライバシーを保護したプロダクト分析 (P3A) を許可する**のチェックを外す
+- [ ] **毎日の使用状況のpingをBraveに自動送信する**のチェックを外す
+- [ ] **診断レポートを自動送信する**のチェックを外す
+- [ ] **Tor搭載のプライベートウィンドウ** (1) のチェックを外す
 
     !!! tip "終了時のクリーンアップ"
 
-        - [x] *Cookie と他のサイトデータ* メニューから **すべてのウィンドウを閉じるときに Cookie とサイトデータを削除する** を選択
+        - [x] *Cookie と他のサイトデータ* メニューから**すべてのウィンドウを閉じるときに Cookie とサイトデータを削除する**を選択
 
-        頻繁にアクセスする特定のサイトにログインしたままにしたい場合は、 *動作のカスタマイズ* セクションでサイトごとに例外を設定できます。
+        頻繁にアクセスする特定のサイトにログインしたままにしたい場合は、*動作のカスタマイズ*セクションでサイトごとに例外を設定できます。
 
 </div>
 
-1. BraveはTor Browserほどフィンガープリントに対して強く**なく**、BraveでTorを使う人はずっと少ないので目立つでしょう。 [強力な匿名性が必要](https://support.brave.com/hc/en-us/articles/360018121491-What-is-a-Private-Window-with-Tor-Connectivity-)な場合には[Tor Browser](tor.md#tor-browser)を使用してください。
+1. BraveはTor Browserほどフィンガープリントに対して強く**なく**、BraveでTorを使う人はずっと少ないため目立ってしまうでしょう。 [強力な匿名性が必要](https://support.brave.com/hc/en-us/articles/360018121491-What-is-a-Private-Window-with-Tor-Connectivity-)な場合には[Tor Browser](tor.md#tor-browser)を使用してください。
 
 ##### 拡張機能
 
 使わない組み込み**拡張機能**は無効にしてください。
 
-- [ ] **Hangouts** のチェックを外す
-- [ ] **WebTorrent** のチェックを外す
+- [ ] **Hangouts**のチェックを外す
+- [ ] **WebTorrent**のチェックを外す
 
 ##### Web3
 
@@ -308,7 +308,7 @@ BraveのWeb3機能はブラウザのフィンガープリントなど攻撃面�
 
 [Brave Sync](https://support.brave.com/hc/en-us/articles/360059793111-Understanding-Brave-Sync)は、あなたのブラウジングデータ(履歴、ブックマークなど)をアカウント不要ですべてのデバイスで利用可能にし、それをE2EEで保護します。
 
-#### Brave Rewards と Wallet
+#### Brave RewardsとWallet
 
 **Brave Rewards**では、Brave内で特定のアクションを実行することで、Basic Attention Token (BAT)という仮想通貨を受け取ることができます。 It relies on a custodial account and KYC from a select number of providers. We do not recommend BAT as a [private cryptocurrency](cryptocurrency.md), nor do we recommend using a [custodial wallet](advanced/payments.md#other-coins-bitcoin-ethereum-etc), so we would discourage using this feature.
 
@@ -368,14 +368,14 @@ These are some other [filter lists](https://github.com/gorhill/uBlock/wiki/Dashb
 
 満たされることが望ましい基準には、このカテゴリーの完璧なプロジェクトに私たちが望むものを示しています。 私たちが推薦するプロジェクトは、この機能の一部または全部を含んでいないかもしれませんが、もし含んでいれば、このページで他のプロジェクトよりも上位にランクされるかもしれません。
 
-- コンテンツブロック機能が内蔵されている。
+- コンテンツブロック機能を内蔵していること。
 - Supports cookie compartmentalization (à la [Multi-Account Containers](https://support.mozilla.org/en-US/kb/containers)).
 - Supports Progressive Web Apps.  
   PWAs enable you to install certain websites as if they were native apps on your computer. This can have advantages over installing Electron-based apps, because you benefit from your browser's regular security updates.
-- ユーザーのプライバシーに影響を与えないアドオン機能（ブロートウェア）が含まれていない。
-- テレメトリーをデフォルトで収集しない。
-- オープンソースの同期サーバ実装を提供する。
-- デフォルトで、[プライベートな検索エンジン](search-engines.md)が設定されている。
+- ユーザーのプライバシーに影響を与えないアドオン機能（ブロートウェア）が含まれていないこと。
+- テレメトリーをデフォルトでは収集しないこと。
+- オープンソースの同期サーバー実装を提供していること。
+- [プライベートな検索エンジン](search-engines.md)をデフォルトで設定していること。
 
 ### 拡張機能の基準
 

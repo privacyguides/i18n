@@ -150,7 +150,7 @@ DivestOS uses F-Droid as its default app store. Normally, we would recommend avo
     
     Not all of the supported devices have verified boot, and some perform it better than others.
 
-## Android デバイス
+## Androidデバイス
 
 When purchasing a device, we recommend getting one as new as possible. The software and firmware of mobile devices are only supported for a limited time, so buying new extends that lifespan as much as possible.
 

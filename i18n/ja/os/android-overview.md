@@ -20,9 +20,9 @@ Androidのカスタムディストリビューションを選択する場合に�
 
 [私たちが推奨するAndroidシステム :material-arrow-right-drop-circle:](../android.md ""){.md-button}
 
-### root化を避ける
+### root化を避けること
 
-Android携帯電話の[root化](https://en.wikipedia.org/wiki/Rooting_(Android))を行うと、完全な[Androidセキュリティーモデル](https://en.wikipedia.org/wiki/Android_(operating_system)#Security_and_privacy)が弱められ、セキュリティーが著しく低下する可能性があります。 root化によって低下したセキュリティーの脆弱性が悪用されると、プライバシーが損なわれてしまう可能性があります。 一般的な方法でroot化を行うと、ブートパーティションが直接変更されてしまうため、確認付きブートを行うことはできなくなります。 ルートを必要とするアプリはシステムパーティションを変更するため、確認付きブートを無効のままにしておく必要があります。 また、ユーザーインターフェースで直接rootを露出させると、[デバイスの攻撃面](https://en.wikipedia.org/wiki/Attack_surface)が増加し、 [権限昇格](https://en.wikipedia.org/wiki/Privilege_escalation)の脆弱性やSELinuxポリシーのバイパスが助長されるおそれがあります。
+Android携帯電話の[root化](https://en.wikipedia.org/wiki/Rooting_(Android))を行うと、完全な[Androidセキュリティーモデル](https://en.wikipedia.org/wiki/Android_(operating_system)#Security_and_privacy)が弱められ、セキュリティーが著しく低下する可能性があります。 root化によって低下したセキュリティーの脆弱性が悪用されると、プライバシーが損なわれてしまう可能性があります。 一般的な方法でroot化を行うと、ブートパーティションが直接変更されてしまうため、確認付きブートを行うことはできなくなります。 rootを必要とするアプリはシステムパーティションを変更するため、確認付きブートを無効のままにしておく必要があります。 また、ユーザーインターフェースで直接rootを露出させると、[デバイスの攻撃面](https://en.wikipedia.org/wiki/Attack_surface)が増加し、 [権限昇格](https://en.wikipedia.org/wiki/Privilege_escalation)の脆弱性やSELinuxポリシーのバイパスが助長されるおそれがあります。
 
 Adblockers, which modify the [hosts file](https://en.wikipedia.org/wiki/Hosts_(file)) (AdAway) and firewalls (AFWall+) which require root access persistently are dangerous and should not be used. They are also not the correct way to solve their intended purposes. For Adblocking we suggest encrypted [DNS](../dns.md) or [VPN](../vpn.md) server blocking solutions instead. RethinkDNS, TrackerControl and AdAway in non-root mode will take up the VPN slot (by using a local loopback VPN) preventing you from using privacy enhancing services such as Orbot or a real VPN server.
 
@@ -46,7 +46,7 @@ For example, if you want to post a picture to Discord you can open your file man
 
 ### 確認付きブート
 
-[確認付きブート](https://source.android.com/security/verifiedboot) は、Androidのセキュリティー・モデルの重要な部分です。 It provides protection against [evil maid](https://en.wikipedia.org/wiki/Evil_maid_attack) attacks, malware persistence, and ensures security updates cannot be downgraded with [rollback protection](https://source.android.com/security/verifiedboot/verified-boot#rollback-protection).
+[確認付きブート](https://source.android.com/security/verifiedboot)は、Androidのセキュリティー・モデルの重要な部分です。 It provides protection against [evil maid](https://en.wikipedia.org/wiki/Evil_maid_attack) attacks, malware persistence, and ensures security updates cannot be downgraded with [rollback protection](https://source.android.com/security/verifiedboot/verified-boot#rollback-protection).
 
 Android 10 and above has moved away from full-disk encryption to more flexible [file-based encryption](https://source.android.com/security/encryption/file-based). Your data is encrypted using unique encryption keys, and the operating system files are left unencrypted.
 
@@ -109,13 +109,13 @@ An app may request a permission for a specific feature it has. For example, any 
 
 ## プライバシー機能
 
-### ユーザー プロファイル
+### ユーザープロフィール
 
 Multiple user profiles can be found in **Settings** → **System** → **Multiple users** and are the simplest way to isolate in Android.
 
 With user profiles, you can impose restrictions on a specific profile, such as: making calls, using SMS, or installing apps on the device. Each profile is encrypted using its own encryption key and cannot access the data of any other profiles. Even the device owner cannot view the data of other profiles without knowing their password. Multiple user profiles are a more secure method of isolation.
 
-### 仕事用プロファイル
+### 仕事用プロフィール
 
 [Work Profiles](https://support.google.com/work/android/answer/6191949) are another way to isolate individual apps and may be more convenient than separate user profiles.
 
@@ -127,7 +127,7 @@ This method is generally less secure than a secondary user profile; however, it 
 
 ### VPN キルスイッチ
 
-Android 7 以降はVPN キルスイッチをサポートしており、サードパーティのアプリをインストールする必要なく利用できます。 この機能は、VPNが切断された場合に漏洩を防ぐことができます。 It can be found in :gear: **Settings** → **Network & internet** → **VPN** → :gear: → **Block connections without VPN**.
+Android 7以降はVPN キルスイッチをサポートしており、サードパーティーのアプリをインストールする必要なく利用できます。 この機能を使うと、VPNが切断された場合に漏洩を防ぐことができます。 It can be found in :gear: **Settings** → **Network & internet** → **VPN** → :gear: → **Block connections without VPN**.
 
 ### Global Toggles
 
