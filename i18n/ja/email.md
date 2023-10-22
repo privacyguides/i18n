@@ -353,9 +353,9 @@ The number of shared aliases (which end in a shared domain like @addy.io) that y
         - [:simple-microsoftedge: Edge](https://microsoftedge.microsoft.com/addons/detail/simpleloginreceive-sen/diacfpipniklenphgljfkmhinphjlfff)
         - [:simple-safari: Safari](https://apps.apple.com/app/id1494051017)
 
-SimpleLoginは、2022年4月8日付で[Proton AGに買収](https://proton.me/news/proton-and-simplelogin-join-forces)されました。 Proton Mailを第一のメールボックスに使っている場合、SimpleLoginは素晴らしい選択です。 両方の製品が同じ会社によって所有されているので、単一のエンティティのみを信頼するだけです。 また、将来的にはSimpleLoginがProtonの製品とより緊密に統合されることも期待されています。 引き続きSimpleLoginは、希望のメールプロバイダへの転送をサポートします。 Securitum は2022年初めにSimpleLoginを[監査](https://simplelogin.io/blog/security-audit/)し、すべての問題に[対処](https://simplelogin.io/audit2022/web.pdf)しました。
+SimpleLoginは、2022年4月8日付で[Proton AGに買収](https://proton.me/news/proton-and-simplelogin-join-forces)されました。 Proton Mailを第一のメールボックスに使っている場合、SimpleLoginは素晴らしい選択肢です。 いまでは両方の製品が同じ会社によって所有されているので、一つの企業を信頼すれば十分となりました。 また、SimpleLoginは今後、プロトンが提供するサービスとより緊密に統合されるものと期待されています。 引き続きSimpleLoginは、希望のメールプロバイダーへの転送をサポートします。 Securitumは2022年初めにSimpleLoginを[監査](https://simplelogin.io/blog/security-audit/)し、すべての問題は[対処](https://simplelogin.io/audit2022/web.pdf)されました。
 
-設定でSimpleLoginアカウントをProtonアカウントとリンクさせることが可能です。 Proton Unlimited、Business、またはVisionaryプランをお持ちの場合は、SimpleLogin Premium を無料で利用できます。
+設定でSimpleLoginアカウントをProtonアカウントとリンクさせることができます。 Proton Unlimited、Business、またはVisionaryプランをお持ちの場合は、SimpleLogin Premiumを無料で利用できます。
 
 注目すべき無料の機能：
 
@@ -438,7 +438,7 @@ We regard these features as important in order to provide a safe and optimal ser
 
 ### セキュリティー
 
-メール サーバーは、非常に機密性の高いデータを大量に扱います。 私たちは、プロバイダーが顧客を保護するために業界のベストプラクティスを採用することを期待しています。
+メールサーバーは、非常に機密性の高いデータを大量に扱います。 私たちは、プロバイダーがユーザーを保護するために最も優れた業界の慣行を採用することを期待します。
 
 **最低条件：**
 
@@ -453,7 +453,7 @@ We regard these features as important in order to provide a safe and optimal ser
 - Have a proper [DMARC](https://en.wikipedia.org/wiki/DMARC) record and policy or use [ARC](https://en.wikipedia.org/wiki/Authenticated_Received_Chain) for authentication. If DMARC authentication is being used, the policy must be set to `reject` or `quarantine`.
 - A server suite preference of TLS 1.2 or later and a plan for [RFC8996](https://datatracker.ietf.org/doc/rfc8996/).
 - [SMTPS](https://en.wikipedia.org/wiki/SMTPS) submission, assuming SMTP is used.
-- Website security standards such as:
+- 以下のようなウェブサイトのセキュリティ基準：
     - [HTTP Strict Transport Security](https://en.wikipedia.org/wiki/HTTP_Strict_Transport_Security)
     - [Subresource Integrity](https://en.wikipedia.org/wiki/Subresource_Integrity) if loading things from external domains.
 - Must support viewing of [Message headers](https://en.wikipedia.org/wiki/Email#Message_header), as it is a crucial forensic feature to determine if an email is a phishing attempt.
@@ -470,7 +470,7 @@ We regard these features as important in order to provide a safe and optimal ser
 
 ### 信頼
 
-あなたは偽の身分証を持つ人物に自分の財政を託すことはないでしょう、それではなぜ電子メールではそれらを信頼するのですか？ 推奨されるサービスプロバイダーには、自社の所有権やリーダーシップについて公表することが求められます。 また、特に政府からの要請がどのように処理されるかについて、透明性の高い報告が頻繁に行われることを望んでいます。
+あなたは偽の身分証を持つ人物に自分の財政を託すことはないでしょう。電子メールに関しても、同じことが言えるはずです。 推奨されるサービスプロバイダーには、自社の所有権やリーダーシップについて公表することが求められます。 また、特に政府からの要請がどのように処理されるかについて、透明性の高い報告が頻繁に行われることを望んでいます。
 
 **最低条件：**
 
@@ -487,20 +487,20 @@ We regard these features as important in order to provide a safe and optimal ser
 
 **最低条件：**
 
-- アナリティクスを自己ホストする必要があります。（つまり、GoogleアナリティクスやAdobe Analyticsなどは不可） プロバイダーのサイトは、オプトアウトを希望するユーザーのために [DNT (Do Not Track)](https://en.wikipedia.org/wiki/Do_Not_Track) に準拠しなければならない。
+- アナリティクスを自己でホストすること（つまり、GoogleアナリティクスやAdobe Analyticsなどは不可）。 プロバイダーのサイトは、オプトアウトを希望するユーザーのために[DNT（Do Not Track）](https://en.wikipedia.org/wiki/Do_Not_Track)に準拠しなければなりません。
 
-無責任なマーケティングを行わないこと：
+無責任なマーケティングを行わないこと。
 
-- 「破れない暗号化」という主張。 暗号化は、それを解読する技術が存在する将来に、秘密ではなくなるかもしれないという意図のもとに使用される必要があります。
-- 匿名性を100％保証すること。 誰かが何かを100％だと主張するとき、それは失敗の確実性が全く存在しないということを意味します。 私たちは、人々が以下のような多くの方法で簡単に匿名化を解除できることを知っています。
+- 「破れない暗号化」という主張。 暗号化は、その暗号化を破る技術が将来になって現れた際には、それがもはや秘密ではなくなってしまうかもしれないということを念頭に置いて使用されるべきものです。
+- 匿名性を100％保証するという主張。 誰かが何かを100％だと主張するとき、それは失敗の確実性が全く存在しないということを意味します。 私たちは、人々が以下のような多くの方法で簡単に匿名化を解除できることを知っています。
 
     - Reusing personal information e.g. (email accounts, unique pseudonyms, etc.) that they accessed without anonymity software (Tor, VPN, etc.)
     - [ブラウザーのフィンガープリンティングを行うこと。](https://en.wikipedia.org/wiki/Device_fingerprint#Browser_fingerprint)
 
 **満たされることが望ましい基準：**
 
-- 明確で読みやすいドキュメント。 これには、2FA のセットアップ、電子メールクライアント、OpenPGP などが含まれます。
+- 明確で読みやすいドキュメント。 これには、2FAの設定、電子メールクライアント、OpenPGPなどが含まれます。
 
 ### 追加機能
 
-厳密な要件ではありませんが、推奨するプロバイダーを決定する際に考慮した利便性やプライバシーの要素が他にもいくつかあります。
+厳密な要件ではありませんが、推奨するサービスプロバイダーを決定する際に考慮した利便性やプライバシーの要素が他にもいくつかあります。
