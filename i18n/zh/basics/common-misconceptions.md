@@ -1,7 +1,7 @@
 ---
 title: "常见误区"
 icon: 'material/robot-confused'
-description: Privacy isn't a straightforward topic, and it's easy to get caught up in marketing claims and other disinformation.
+description: 隐私并不是一个简单明了的话题，而且很容易被市场宣传和其他虚假信息所迷惑。
 schema:
   - 
     "@context": https://schema.org
@@ -9,33 +9,33 @@ schema:
     mainEntity:
       - 
         "@type": Question
-        name: Is open source software inherently secure?
+        name: 开源软件一定安全吗？
         acceptedAnswer:
           "@type": Answer
           text: |
-            Whether the source code is available and how software is licensed does not inherently affect its security in any way. Open-source software has the potential to be more secure than proprietary software, but there is absolutely no guarantee this is the case. When you evaluate software, you should look at the reputation and security of each tool on an individual basis.
+            源代码是否可用以及软件的许可方式本身并不会对其安全性产生任何影响。 开源软件有可能比专有软件更安全，但不能保证一定如此。 在评估软件时，应逐一查看每个软件的声誉和安全性。
       - 
         "@type": Question
-        name: Can shifting trust to another provider increase privacy?
+        name: 将信任转给另一家服务提供商能否提高隐私保护？
         acceptedAnswer:
           "@type": Answer
           text: |
-            在讨论像VPN这样的解决方案时，我们经常谈到 "转移信任"（它将你对ISP的信任转移到VPN供应商身上）。 While this protects your browsing data from your ISP specifically, the VPN provider you choose still has access to your browsing data: Your data isn't completely secured from all parties.
+            在讨论像VPN这样的解决方案时，我们经常谈到 "转移信任"（它将你对ISP的信任转移到VPN供应商身上）。 虽然这可以保护你的浏览数据不被 ISP 知晓，但你选择的 VPN 供应商仍然可以访问你的浏览数据。你的数据并不是全方位保护的。
       - 
         "@type": Question
-        name: Are privacy-focused solutions inherently trustworthy?
+        name: 注重隐私的解决方案一定可信吗？
         acceptedAnswer:
           "@type": Answer
           text: |
-            仅仅关注一个工具或供应商的隐私政策和营销，会让你看不到它的弱点。 当你在寻找一个更私人的解决方案时，你应该确定根本的问题是什么，并为这个问题找到技术解决方案。 例如，您可能希望避免使用Google云端硬盘，因为它允许Google访问您的所有数据。 The underlying problem in this case is lack of E2EE, so you should make sure that the provider you switch to actually implements E2EE, or use a tool (like Cryptomator) which provides E2EE on any cloud provider. 转换到一个 "注重隐私 "的供应商（不实施E2EE）并不能解决你的问题：它只是将信任从谷歌转移到该供应商。
+            仅仅关注一个工具或供应商的隐私政策和营销，会让你看不到它的弱点。 当你在寻找一个更私人的解决方案时，你应该确定根本的问题是什么，并为这个问题找到技术解决方案。 例如，您可能希望避免使用Google云端硬盘，因为它允许Google访问您的所有数据。 这种情况下的根本问题是缺乏端对端加密，所以你应该确保你切换到的供应商确实实现了端对端加密，或者使用一个工具（如 Cryptomator），在任何云供应商上使用端对端加密。 转换到一个 "注重隐私 "的供应商（不实施E2EE）并不能解决你的问题：它只是将信任从谷歌转移到该供应商。
       - 
         "@type": Question
-        name: How complicated should my threat model be?
+        name: 我的威胁模型应该有多复杂？
         acceptedAnswer:
           "@type": Answer
           text: |
-            我们经常看到人们描述的隐私威胁模型过于复杂。 通常情况下，这些解决方案包括许多不同的电子邮件账户或有许多移动部件和条件的复杂设置等问题。 The replies are usually answers to "What is the best way to do X?"
-            为自己寻找 "最佳 "解决方案并不一定意味着你要追求一个有几十种条件的无懈可击的解决方案--这些解决方案往往难以现实地发挥作用。 正如我们之前所讨论的，安全往往是以便利为代价的。
+            我们经常看到人们描述的隐私威胁模型过于复杂。 通常情况下，这些解决方案包括许多不同的电子邮件账户或有许多移动部件和条件的复杂设置等问题。 答案的问题通常是“达到 × 的最佳方式是什么？”。
+            为自己寻找 "最佳 "解决方案并不一定意味着你要追求一个有几十种条件的无懈可击的解决方案——这些解决方案往往难以现实地发挥作用。 正如我们之前所讨论的，安全往往是以便利为代价的。
 ---
 
 ## “开源软件始终是安全的”或“专有软件更安全”
@@ -65,7 +65,7 @@ schema:
 
 我们经常看到人们描述的隐私威胁模型过于复杂。 通常情况下，这些解决方案包括许多不同的电子邮件账户或有许多移动部件和条件的复杂设置等问题。 答案通常是“做 *×*的最佳方式是什么？”。
 
-为自己寻找 "最佳 "解决方案并不一定意味着你要追求一个有几十种条件的无懈可击的解决方案--这些解决方案往往难以现实地发挥作用。 正如我们之前所讨论的，安全往往是以便利为代价的。 下面，我们提供一些提示。
+为自己寻找 "最佳 "解决方案并不一定意味着你要追求一个有几十种条件的无懈可击的解决方案——这些解决方案往往难以现实地发挥作用。 正如我们之前所讨论的，安全往往是以便利为代价的。 下面，我们提供一些提示。
 
 1. ==行动需要服务于一个特定的目的：==思考如何用最少的行动完成你想要的东西。
 2. ==消除人类的失败点：==我们会失败，会累，会忘记事情。 为了维护安全，避免依赖你必须记住的手动条件和流程。

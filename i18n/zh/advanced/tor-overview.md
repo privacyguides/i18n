@@ -6,16 +6,16 @@ description: Tor是一个免费使用的去中心化网络，专为尽量隐私�
 
 Tor是一个免费使用的去中心化网络，专为尽量隐私地使用互联网而设计。 如果使用得当，该网络可以实现隐私且匿名地浏览和通信。
 
-## Path Building to Clearnet Services
+## 建立通往公开网络服务的链路
 
-"Clearnet services" are websites which you can access with any browser, like [privacyguides.org](https://www.privacyguides.org). Tor lets you connect to these websites anonymously by routing your traffic through a network comprised of thousands of volunteer-run servers called nodes (or relays).
+公开网络服务是您可以使用任何浏览器访问的网站，例如 [privacyguides.org](https://www.privacyguides.org)。 Tor的工作原理是通过一个由数千个志愿者运行的服务器（称为节点或中继）组成的网络路由您的流量。
 
-Every time you [connect to Tor](../tor.md), it will choose three nodes to build a path to the internet—this path is called a "circuit."
+每次你连接到 [Tor](../tor.md)，它都会选择三个节点来建立一条通往互联网的路径——这条路径被称为“链路”。
 
 <figure markdown>
-  ![Tor path showing your device connecting to an entry node, middle node, and exit node before reaching the destination website](../assets/img/how-tor-works/tor-path.svg#only-light)
-  ![Tor path showing your device connecting to an entry node, middle node, and exit node before reaching the destination website](../assets/img/how-tor-works/tor-path-dark.svg#only-dark)
-  <figcaption>Tor circuit pathway</figcaption>
+  ![显示您的设备在到达目的地网站前连接到入口节点、中间节点和出口节点的 Tor 链路](../assets/img/how-tor-works/tor-path.svg#only-light)
+  ![显示您的设备在到达目的地网站前连接到入口节点、中间节点和出口节点的 Tor 链路](../assets/img/how-tor-works/tor-path-dark.svg#only-dark)
+  <figcaption>Tor 链路</figcaption>
 </figure>
 
 每个节点都有自己的功能：
@@ -38,16 +38,16 @@ Every time you [connect to Tor](../tor.md), it will choose three nodes to build 
 
 出口节点将从运行有出口中继标志的所有可用Tor节点中随机选择。[^2]
 
-## Path Building to Onion Services
+## 建立通往暗网网络服务的链路
 
-"Onion Services" (also commonly referred to as "hidden services") are websites which can only be accessed by the Tor browser. These websites have a long randomly generated domain name ending with `.onion`.
+暗网服务是只能通过 Tor 浏览器访问的网站。 这些网站有一个以 `.onion` 结尾的随机生成的长域名。
 
-Connecting to an Onion Service in Tor works very similarly to connecting to a clearnet service, but your traffic is routed through a total of **six** nodes before reaching the destination server. Just like before however, only three of these nodes are contributing to *your* anonymity, the other three nodes protect *the Onion Service's* anonymity, hiding the website's true IP and location in the same manner that Tor Browser is hiding yours.
+在 Tor 中连接到暗网服务的工作原理与连接到公网服务非常相似，但在到达目的地服务器之前，你的流量会经过**六个**节点。 不过，和前面一样，这些节点中只有三个有助于*你*的匿名性，其他三个节点保护*暗网服务*的匿名性，隐藏网站的真实 IP 和位置，就像 Tor 浏览器隐藏你的网站一样。
 
 <figure style="width:100%" markdown>
-  ![Tor path showing your traffic being routed through your three Tor nodes plus three additional Tor nodes which hide the website's identity](../assets/img/how-tor-works/tor-path-hidden-service.svg#only-light)
-  ![Tor path showing your traffic being routed through your three Tor nodes plus three additional Tor nodes which hide the website's identity](../assets/img/how-tor-works/tor-path-hidden-service-dark.svg#only-dark)
-  <figcaption>Tor circuit pathway with Onion Services. Nodes in the <span class="pg-blue">blue</span> fence belong to your browser, while nodes in the <span class="pg-red">red</span> fence belong to the server, so their identity is hidden from you.</figcaption>
+  ![显示您的流量通过三个 Tor 节点以及另外三个隐藏暗网服务身份的 Tor 节点的 Tor 链路](.../assets/img/how-tor-works/tor-path-hidden-service.svg#only-light)
+  ![显示您的流量通过三个 Tor 节点以及另外三个隐藏暗网服务身份的 Tor 节点的 Tor 链路](../assets/img/how-tor-works/tor-path-hidden-service-dark.svg#only-dark)
+  <figcaption>使用暗网服务的 Tor 链路。 <span class="pg-blue">蓝色</span> 方框中的节点属于您的浏览器，而 <span class="pg-red">红色</span> 方框中的节点属于服务器，因此它们的身份对您是隐藏的。</figcaption>
 </figure>
 
 ## 加密
@@ -86,8 +86,8 @@ Tor用出口、中间和入口节点的密钥对每个数据包（一个传输�
 ## 其它资源
 
 - [Tor浏览器用户手册](https://tb-manual.torproject.org)
-- [How Tor Works - Computerphile](https://invidious.privacyguides.net/embed/QRYzre4bf7I?local=true) <small>(YouTube)</small>
-- [Tor Onion Services - Computerphile](https://invidious.privacyguides.net/embed/lVcbq_a5N9I?local=true) <small>(YouTube)</small>
+- [Tor 是如何工作的 - Computerphile](https://invidious.privacyguides.net/embed/QRYzre4bf7I?local=true) <small>(YouTube)</small>
+- [Tor 暗网服务 - Computerphile](https://invidious.privacyguides.net/embed/lVcbq_a5N9I?local=true) <small>(YouTube)</small>
 
 [^1]: 您线路上的第一个中继称为“入口警卫“或“警卫”。 它是一个快速而稳定的中继，会在2-3个月内持续作为你的线路的第一个中继，以防止已知的破坏匿名性的攻击。 你的线路其余部分会随着你访问的每个新网站而改变，所有这些中继器一起提供Tor的全部隐私保护。 关于警卫中继器如何工作的更多信息，请参阅这篇 [博文](https://blog.torproject.org/improving-tors-anonymity-changing-guard-parameters) 和 [关于入口警卫的论文](https://www-users.cs.umn.edu/~hoppernj/single_guard.pdf)。 ([https://support.torproject.org/tbb/tbb-2/](https://support.torproject.org/tbb/tbb-2/))
 

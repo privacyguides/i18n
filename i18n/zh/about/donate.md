@@ -7,7 +7,7 @@ title: 支持我们
 
 如果你想在经济上支持我们，对我们来说，最方便的方法是通过Open Collective捐款，这是一个由我们的财政主机运营的网站。 Open Collective接受通过信用卡/借记卡、PayPal和银行转账付款。
 
-[Donate on OpenCollective.com](https://opencollective.com/privacyguides/donate){ class="md-button md-button--primary" }
+[在 OpenCollective.com 上捐款](https://opencollective.com/privacyguides/donate){ class="md-button md-buttonon--primary" }
 
 在美国，直接捐给我们Open Collective的捐款通常是可以免税的，因为我们的财政主机（Open Collective基金会）是一个注册的501（c）3组织。 捐赠后，你会收到开放集体基金会的收据。 《隐私指南》不提供财务建议，你应该联系你的税务顾问，了解这是否适用于你。
 
@@ -15,9 +15,9 @@ title: 支持我们
 
 [在GitHub上赞助我们](https://github.com/sponsors/privacyguides ""){.md-button}
 
-Another option to support us is by buying our merchandise from HelloTux. We get roughly $4 for every shirt sold, and you get a quality product to show for it.
+另一种支持我们的方式是在 HelloTux 购买我们的商品。 每卖出一件衬衫，我们就能得到大约 4 美元，而你也能得到一件优质产品。
 
-[Buy on HelloTux.com](https://hellotux.com/privacyguides){ class="md-button" }
+[在 HelloTux.com 购买](https://hellotux.com/privacyguides){ class="md-button" }
 
 ## 支持者
 

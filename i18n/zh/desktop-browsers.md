@@ -1,14 +1,14 @@
 ---
-meta_title: "Privacy Respecting Web Browsers for PC and Mac - Privacy Guides"
+meta_title: "尊重隐私的 PC 和 Mac 网络浏览器 - Privacy Guides"
 title: "电脑浏览器"
 icon: material/laptop
-description: These web browsers provide stronger privacy protections than Google Chrome.
+description: 这些浏览器比 Google Chrome 浏览器提供更强的隐私保护。
 cover: desktop-browsers.webp
 schema:
   - 
     "@context": http://schema.org
     "@type": WebPage
-    name: Private Desktop Browser Recommendations
+    name: 隐私桌面浏览器建议
     url: "./"
     relatedLink: "../mobile-browsers/"
   - 
@@ -82,17 +82,17 @@ schema:
 
 与 [Tor Browser](tor.md)一样，Mullvad Browser 的设计也是通过使您的浏览器指纹与所有其他 Mullvad Browser 用户完全相来了防止指纹识别。它自带了默认设置和扩展程序，这些会由设置的安全级别自动配置： *标准*, *更安全* 和 *最安全*。 因此，在调整自带的 [安全级别](https://tb-manual.torproject.org/security-settings/) 之外，请务必不要对浏览器进行任何修改。 其他修改会使您的指纹变得独一无二，从而失去使用该浏览器的意义。 如果你想对浏览器进行更多的配置而且不担心指纹识别，我们建议你使用 [Firefox](#firefox)。
 
-### Anti-Fingerprinting
+### 防指纹
 
-**Without** using a [VPN](vpn.md), Mullvad Browser provides the same protections against [naive fingerprinting scripts](https://github.com/arkenfox/user.js/wiki/3.3-Overrides-%5BTo-RFP-or-Not%5D#-fingerprinting) as other private browsers like Firefox+[Arkenfox](#arkenfox-advanced) or [Brave](#brave). Mullvad Browser provides these protections out of the box, at the expense of some flexibility and convenience that other private browsers can provide.
+在**不使用** [VPN](vpn.md)的情况下，Mullvad 浏览器提供的对 [天真的指纹脚本](https://github.com/arkenfox/user.js/wiki/3.3-Overrides-%5BTo-RFP-or-Not%5D#-fingerprinting) 的保护与其他隐私浏览器（如 Firefox+[Arkenfox](#arkenfox-advanced) 或 [Brave](#brave)）相同。 Mullvad 浏览器自带这些保护，但牺牲了其他隐私浏览器提供的一些灵活性和便利性。
 
-==For the strongest anti-fingerprinting protection, we recommend using Mullvad Browser in conjunction **with** a VPN==, whether that is Mullvad or another recommended VPN provider. When using a VPN with Mullvad Browser, you will share a fingerprint and a pool of IP addresses with many other users, giving you a "crowd" to blend in with. This strategy is the only way to thwart advanced tracking scripts, and is the same anti-fingerprinting technique used by Tor Browser.
+==为了最完善的反指纹保护，我们建议将 Mullvad 浏览器与 **和** VPN== 结合使用，无论是 Mullvad 还是其他推荐的 VPN 提供商。 在使用 Mullvad 浏览器的 VPN 时，你将与许多其他用户共享一个指纹和一个 IP 地址池，使你混入“人群”。 这种策略是挫败进阶跟踪脚本的唯一方法，与 Tor 浏览器使用的反指纹技术相同。
 
-Note that while you can use Mullvad Browser with any VPN provider, other people on that VPN must also be using Mullvad Browser for this "crowd" to exist, something which is more likely on Mullvad VPN compared to other providers, particularly this close to the launch of Mullvad Browser. Mullvad Browser does not have built-in VPN connectivity, nor does it check whether you are using a VPN before browsing; your VPN connection has to be configured and managed separately.
+请注意，虽然您可以和任何 VPN 提供商一起使用 Mullvad 浏览器，但该 VPN 上的其他人也必须使用 Mullvad 浏览器才会有“人群”存在。与其他提供商相比，Mullvad VPN 更有可能保证这种情况，尤其是在 Mullvad 浏览器刚刚发布的当下。 Mullvad 浏览器没有内置 VPN 连接，也不会在浏览前检查你是否在使用 VPN；你的 VPN 连接必须单独配置和管理。
 
-Mullvad Browser comes with the *uBlock Origin* and *NoScript* browser extensions pre-installed. While we typically [don't recommend](#extensions) adding *additional* browser extensions, these extensions that come pre-installed with the browser should **not** be removed or configured outside their default values, because doing so would noticeably make your browser fingerprint distinct from other Mullvad Browser users. It also comes pre-installed with the Mullvad Browser Extension, which *can* be safely removed without impacting your browser fingerprint if you would like, but is also safe to keep even if you don't use Mullvad VPN.
+Mullvad 浏览器预装了 *uBlock Origin* 和 *NoScript* 浏览器扩展程序。 虽然我们通常 [不建议](#extensions) 添加 *额外的* 浏览器扩展程序，但浏览器预装的这些扩展 程序**不应** 删除或配置为默认之外的设置，因为这样做会使您的浏览器指纹明显有别于其他 Mullvad 浏览器用户。 它还预装了 Mullvad 浏览器扩展程序，这个拓展程序*可以* 安全地移除，不会影响你的浏览器指纹，但即使你不使用 Mullvad VPN，保留它也不会有问题。
 
-### Private Browsing Mode
+### 无痕模式
 
 Mullvad 浏览器一直在无痕浏览模式下运行，这意味着每次关闭浏览器时，你的历史记录、cookies 和其他网站数据都会被清除。 您的书签、浏览器设置和扩展程序设置会被保留。
 
@@ -212,7 +212,7 @@ Mullvad 浏览器将 DuckDuckGo 设置为默认的 [搜索引擎](search-engines
 
 [Arkenfox项目](https://github.com/arkenfox/user.js) ，为Firefox提供了一套精心考虑的选项。 如果你 [决定](https://github.com/arkenfox/user.js/wiki/1.1-To-Arkenfox-or-Not) 使用Arkenfox，有几个 [选项](https://github.com/arkenfox/user.js/wiki/3.2-Overrides-[Common]) 是主观严格的和/或可能导致一些网站不能正常工作-- [，你可以很容易地改变](https://github.com/arkenfox/user.js/wiki/3.1-Overrides) 以满足你的需要。 我们 **，强烈建议** ，阅读其完整的 [wiki](https://github.com/arkenfox/user.js/wiki)。 Arkenfox还能支持 [容器](https://support.mozilla.org/en-US/kb/containers#w_for-advanced-users)。
 
-Arkenfox only aims to thwart basic or naive tracking scripts through canvas randomization and Firefox's built-in fingerprint resistance configuration settings. It does not aim to make your browser blend in with a large crowd of other Arkenfox users in the same way Mullvad Browser or Tor Browser do, which is the only way to thwart advanced fingerprint tracking scripts. Remember you can always use multiple browsers, for example, you could consider using Firefox+Arkenfox for a few sites that you want to stay logged in on or otherwise trust, and Mullvad Browser for general browsing.
+Arkenfox 的目标只是通过 canvas 随机化和 Firefox 内置的抗指纹配置设置来挫败基本的或幼稚的跟踪脚本。 它不会像 Mullvad 浏览器或 Tor 浏览器那样，让你的浏览器与一大群其他用户融为一体，所以不会阻挡进阶的指纹跟踪脚本。 当然，您可以同时使用多种浏览器，例如，您可以考虑使用 Firefox+Arkenfox 浏览一些需要保持登录状态或着您信任的网站，并使用 Mullvad 浏览器进行一般浏览。
 
 
 
@@ -268,13 +268,13 @@ Shields的选项可以根据需要在每个站点的基础上进行降级，但�
 ？? warning "Use default filter lists"
         Brave允许你在内部`brave://adblock`页面中选择额外的内容过滤器。 我们建议不要使用这个功能；相反，保留默认的过滤列表。 使用额外的列表会使你从其他Brave用户中脱颖而出，如果Brave中存在漏洞，恶意规则被添加到你使用的列表中，也可能增加攻击面。
 
-- [x] Select **Strict** under **Upgrade connections to HTTPS**
-- [x] (Optional) Select **Block Scripts** (1)
-- [x] Select **Strict, may break sites** under Block fingerprinting
+- [x] 在 “将连接升级到 HTTPS” 下选择 “**严格**”
+- [x] （可选） 选择 “**阻止脚本**” (1)
+- [x] 在 “阻止指纹” 下选择 “**严格，可能会破坏网站**”。
 
 </div>
 
-1. This option provides functionality similar to uBlock Origin's advanced [blocking modes](https://github.com/gorhill/uBlock/wiki/Blocking-mode) or the [NoScript](https://noscript.net/) extension.
+1. 该选项提供的功能类似于 uBlock Origin 的进阶 [拦截模式](https://github.com/gorhill/uBlock/wiki/Blocking-mode) 或着 [NoScript](https://noscript.net/) 扩展。
 
 
 
@@ -303,7 +303,7 @@ Shields的选项可以根据需要在每个站点的基础上进行降级，但�
 
 </div>
 
-1. Brave是 **，而不是** ，对指纹的抵抗力不如Tor浏览器，而且使用Brave和Tor的人要少得多，所以你会脱颖而出。 在需要强大的匿名性的地方 [](https://support.brave.com/hc/en-us/articles/360018121491-What-is-a-Private-Window-with-Tor-Connectivity-) ，使用 [Tor浏览器](tor.md#tor-browser)。
+1. Brave 对指纹的抵抗力**不如** Tor 浏览器，而且使用 Brave 的 Tor 功能的人要少得多，所以你的指纹会突出。 在 [需要强大的匿名性的地方](https://support.brave.com/hc/en-us/articles/360018121491-What-is-a-Private-Window-with-Tor-Connectivity-) ，使用 [Tor 浏览器](tor.md#tor-browser)。
 
 
 
@@ -312,20 +312,20 @@ Shields的选项可以根据需要在每个站点的基础上进行降级，但�
 在 **Extensions**，禁用你不使用的内置扩展程序。
 
 - [ ] 取消勾选 **Hangouts**
-- [] 取消勾选 **WebTorrent**
+- [ ] 取消勾选 **WebTorrent**
 
 
 
 ##### Web3
 
-Brave's Web3 features can potentially add to your browser fingerprint and attack surface. Unless you use any of features, they should be disabled.
+Brave 的 Web3 功能可能会增加浏览器指纹和攻击面。 如果您不使用这些功能，应将其禁用。
 
 - Select **Extensions (no fallback)** under Default Ethereum wallet and Default Solana wallet
 - Set **Method to resolve IPFS resources** to **Disabled**
 
 
 
-##### System
+##### 系统
 
 <div class="annotate" markdown>
 
@@ -413,11 +413,11 @@ These are some other [filter lists](https://github.com/gorhill/uBlock/wiki/Dashb
 
 
 
-### Best-Case
+### 最好情况
 
-Our best-case criteria represents what we would like to see from the perfect project in this category. Our recommendations may not include any or all of this functionality, but those which do may rank higher than others on this page.
+我们的最佳情况代表了我们希望从这个类别中的完美项目中看到的东西。 我们的推荐可能不包括任何或所有这些功能，但那些包含这些功能的推荐可能比本页面上的其他推荐排名更高。
 
-- Includes built-in content blocking functionality.
+- 包括内置的内容拦截功能。
 - Supports cookie compartmentalization (à la [Multi-Account Containers](https://support.mozilla.org/en-US/kb/containers)).
 - Supports Progressive Web Apps.  
   PWAs enable you to install certain websites as if they were native apps on your computer. This can have advantages over installing Electron-based apps, because you benefit from your browser's regular security updates.

@@ -1,11 +1,11 @@
 ---
-meta_title: "Threat Modeling: The First Step on Your Privacy Journey - Privacy Guides"
+meta_title: "威胁模型：隐私之旅的第一步 - Privacy Guides"
 title: "威胁模型"
 icon: '资料/目标账户'
-description: Balancing security, privacy, and usability is one of the first and most difficult tasks you'll face on your privacy journey.
+description: 在安全、隐私和可用性之间取得平衡是你在隐私之路上面临的首要和最困难的任务之一。
 ---
 
-Balancing security, privacy, and usability is one of the first and most difficult tasks you'll face on your privacy journey. 每件事都是一种权衡：越是安全的东西，一般来说限制性越强或越不方便，等等。 人们经常会发现这些推荐的工具最大的问题就是太难于上手使用！
+在安全、隐私和可用性之间取得平衡是你在隐私之路上面临的首要和最困难的任务之一。 每件事都是一种权衡：越是安全的东西，一般来说限制性越强或越不方便，等等。 人们经常会发现这些推荐的工具最大的问题就是太难于上手使用！
 
 如果你想使用**最安全**的工具，你就必须牺牲很多*的可用性*。 即使如此，==没有什么是完全安全的。== 有 **高度**安全 ，但从来没有**完全**安全。 这就是为什么威胁模型很重要。
 

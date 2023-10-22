@@ -1,7 +1,7 @@
 ---
 title: "删除帐户"
 icon: '资料/账户-删除'
-description: It's easy to accumulate a large number of internet accounts, here are some tips on how to prune your collection.
+description: 积累大量互联网账户很容易，这里有一些关于如何控制您的账户数量的小贴士。
 ---
 
 随着时间的推移，很容易积累一些在线账户，其中许多账户你可能不再使用。 删除这些未使用的账户是找回隐私的一个重要步骤，因为休眠账户很容易受到数据泄露的影响。 数据泄露是指一项服务的安全性受到损害，受保护的信息被未经授权的人查看、传输或窃取。 不幸的是，而今数据泄露 [太过于常见](https://haveibeenpwned.com/PwnedWebsites) ，因此保持良好的数字卫生是将它们对你生活的影响降到最低的最好方法。 本指南的目标就是引导您经由令人讨厌的帐户删除过程来优化你的线上生活，这些过程通常采用了 [欺骗性设计](https://www.deceptive.design/)使得其变得更加困难。
@@ -23,9 +23,9 @@ description: It's easy to accumulate a large number of internet accounts, here a
 - Windows [Credential Manager](https://support.microsoft.com/en-us/windows/accessing-credential-manager-1b5c916a-6a16-889f-8581-fc16e8165ac0)
 - macOS [Passwords](https://support.apple.com/en-us/HT211145)
 - iOS [Passwords](https://support.apple.com/en-us/HT211146)
-- Linux, Gnome Keyring, which can be accessed through [Seahorse](https://wiki.gnome.org/Apps/Seahorse) or [KDE Wallet Manager](https://userbase.kde.org/KDE_Wallet_Manager)
+- Linux 上有 Gnome Keyring，可以通过 [Seahorse](https://wiki.gnome.org/Apps/Seahorse) 或 [KDE Wallet Manager](https://userbase.kde.org/KDE_Wallet_Manager) 访问。
 
-### DNS
+### 电子邮箱
 
 如果你过去没有使用密码管理器，或者你认为你有从未被添加到密码管理器的账户，另一个选择是搜索印象里当时注册用的电子邮箱。 在你的电子邮件客户端，搜索关键词，如 "验证 "或 "欢迎"。 几乎每次您创建在线帐户时，注册的服务都会向您的电子邮箱发送验证链接或介绍性消息。 这可能是找到被遗忘的旧账户的一个好方法。
 

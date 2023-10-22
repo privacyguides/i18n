@@ -1,50 +1,50 @@
 ---
-title: "Why Privacy Matters"
+title: "隐私为何重要"
 icon: 'material/shield-account'
 ---
 
-In the modern age of digital data exploitation, your privacy has never been more critical, and yet many believe it is already a lost cause. It is not. ==Your privacy is up for grabs==, and you need to care about it. Privacy is about power, and it is so important that this power ends up in the right hands.
+在数据被大量利用的现代，你的隐私从未这样重要，但许多人却以为这已经是一个无法解决的问题。 事实并非如此。 ===你的隐私正在被腐蚀===，所以你需要在意它。 隐私关乎权力，而这种权力必须掌握在正确的人手中。
 
-Privacy is ultimately about human information, and this is important because we know that human information confers power over human beings. If we care about our ability to be authentic, fulfilled, and free humans, we have to care about the rules that apply to information about us. So much of our modern society is structured around **information**. When you shop online, read the news, look something up, vote, seek directions, or really anything else, you are relying on information. If we live in an information society, our information matters, and therefore privacy matters.
+隐私归根结底与人们的信息有关，这一点很重要，因为我们知道人们的信息会赋予控制他们的权力。 如果我们在意自己能否成为真实、充实和自由的人，我们就必须关心适用于有关我们的信息的规则。 我们现代社会的大部分都是围绕着 **信息** 来构建的。 当你在网上购物、阅读新闻、查找资料、投票、问路或做其他任何事情时，你都依赖于信息。 如果我们生活在一个信息社会，我们的信息就很重要，因此隐私也很重要。
 
-## What is Privacy?
+## 什么是隐私？
 
-Many people get the concepts of **privacy**, **security**, and **anonymity** confused. You'll see people criticize various products as "not private" when really they mean it doesn't provide anonymity, for example. On this website, we cover all three of these topics, but it is important you understand the difference between them, and when each one comes into play.
+许多人会混淆 **隐私**、 **安全**和 **匿名** 的概念。 例如，你会看到有人批评各种产品 "不私密"，但他们的意思其实是这些产品不提供匿名性。 在本网站上，我们这三个主题都会介绍，但重要的是，你要了解它们之间的区别，以及每一个主题何时发挥作用。
 
 **隐私**
 :
 
-==Privacy is the assurance that your data is only seen by the parties you intend to view it.== In the context of an instant messenger, for example, end-to-end encryption provides privacy by keeping your message visible only to yourself and the recipient.
+==隐私是您的数据只会被您想要查看这些数据的当事人看到的保证。== 举个即时通讯软件的例子，端到端加密让只有您本人和收件人才能看到您的消息，从而提供隐私。
 
 **安全性**
 :
 
-Security is the ability to trust the applications you use—that the parties involved are who they say they are—and keep those applications safe. In the context of browsing the web, for example, security can be provided by HTTPS certificates.
+安全是相信你所使用的应用程序的能力，相信相关各方都是真实的，并能够保证这些应用程序的安全。 例如，在浏览网页时，HTTPS 证书就能提供安全保障。
 :
 
-Certificates prove you are talking directly to the website you're visiting, and keep attackers on your network from reading or modifying the data sent to or from the website.
+证书可以证明你是在直接与正在访问的网站对话，并防止网络攻击者读取或修改发送到网站或来自网站的数据。
 
-**Anonymity**
+**匿名性**
 :
 
-Anonymity is the ability to act without a persistent identifier. You might achieve this online with [Tor](../tor.md), which allows you to browse the internet with a random IP address and network connection instead of your own.
+匿名性是在没有持久标识符的情况下采取行动的能力。 在浏览时，您可以通过 [Tor](../tor.md) 实现这一目标，它允许您使用随机 IP 地址和网络连接而不是自己的 IP 地址和网络连接来浏览互联网。
 :
 
-**Pseudonymity** is a similar concept, but it allows you to have a persistent identifier without it being tied to your real identity. If everybody knows you as `@GamerGuy12` online, but nobody knows your real name, that is your pseudonym.
+**假名** 是一个类似的概念，但它允许你拥有一个不与你的真实身份绑定的持久的标识符。 如果你在网上人尽皆知的名字是 `@GamerGuy12` ，但没人知道你的真名，这就是你的假名。
 
-All of these concepts overlap, but it is possible to have any combination of these. The sweet spot for most people is when all three of these concepts overlap. However, it's trickier to achieve than many initially believe. Sometimes, you have to compromise on some of these, and that's okay too. This is where **threat modeling** comes into play, allowing you to make informed decisions about the [software and services](../tools.md) you use.
+所有这些概念都相互重叠，也可以任意组合。 对大多数人来说，这三个概念重叠时才是最佳状态。 然而，要做到这一点比许多人最初认为的要困难得多。 有时，你必须在其中一些方面做出妥协，这也没什么关系。 这就是**威胁模型**发挥作用的地方，它可以让您对您使用的[软件和服务](../tools.md)做出明智的决定。
 
-[:material-book-outline: Learn More About Threat Modeling](threat-modeling.md ""){.md-button}
+[:material-book-outline: 进一步了解威胁建模](threat-modeling.md ""){.md-button}
 
-## Privacy vs. Secrecy
+## 隐私与保密
 
-A common counter-argument to pro-privacy movements is the notion that one doesn't need privacy if they have **"nothing to hide."** This is a dangerous misconception, because it creates a sense that people who demand privacy must be deviant, criminal, or wrong.
+一个反对隐私运动的常见观点是，如果一个人**“没什么可隐瞒的”**，就不需要隐私。这是一种危险的误解，因为它会让人觉得寻求隐私的人一定是离经叛道、犯罪或犯错的人。
 
-==You shouldn't confuse privacy with secrecy.== We know what happens in the bathroom, but you still close the door. That's because you want privacy, not secrecy. There are always certain facts about us—say, personal health information, or sexual behavior—that we wouldn't want the whole world to know, and that's okay. The need for privacy is legitimate, and that's what makes us human. Privacy is about empowering your rights over your own information, not about hiding secrets.
+==不能将隐私与保密混为一谈。== 我们都知道厕所是干什么的，但还是会关门。 那是因为你想要的事隐私，而不是保密。 关于我们自己，总有一些事情（例如个人健康信息或性行为）是我们不希望全世界都知道的，这十分正常。 对隐私的需求是合理的，这是我们的人性所在。 隐私是赋予你对自己信息的权利，而不是隐藏秘密。
 
-## Is Privacy About Control?
+## 隐私与控制有关吗？
 
-A common definition of privacy is that it is the ability to *control* who has access to your data. This is an easy trap to fall into, in fact it is the definition of privacy we operated this website on for a long time. It sounds nice, and it appeals to many people, but in practice it just doesn't work.
+隐私的一个常见定义是，它是*控制*谁能访问您的数据的能力。 This is an easy trap to fall into, in fact it is the definition of privacy we operated this website on for a long time. It sounds nice, and it appeals to many people, but in practice it just doesn't work.
 
 Take cookie consent forms, for example. You may encounter these dozens of times per day on the various websites you visit, with a nice array of checkboxes and sliders which allow you to "curate" your preferences to exactly fit your needs. In the end, we just hit the "I Agree" button, because we just want to read the article or make a purchase. Nobody wants to complete a personal privacy audit on every single website they visit. This is an exercise in [choice architecture](https://en.wikipedia.org/wiki/Choice_architecture), designed to make you take the easy route out instead of delving into a maze of configuration options that don't need to exist in the first place.
 

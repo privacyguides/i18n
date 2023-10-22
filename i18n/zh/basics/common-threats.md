@@ -1,7 +1,7 @@
 ---
 title: "常见威胁"
 icon: '资料/视野'
-description: Your threat model is personal to you, but these are some of the things many visitors to this site care about.
+description: 您的威胁模式是您自己量身定制的，但这些是本网站许多访客都关心的一些问题。
 ---
 
 广义而言，可以将我们有关[威胁](threat-modeling.md) 或者适用于大多数人的目标的建议分为这几类。 ==你可能关注其中零个、 一个、 几个、 或所有这些可能性==， 你应该使用的工具和服务取决于你的目标。 你可能也有这些类别之外的特定威胁，这完全可以！ 重要的是要去了解您选择的这些工具的优缺点，因为也许任何工具都不能够保护您免受所有可以想象到的威胁。
@@ -81,7 +81,7 @@ description: Your threat model is personal to you, but these are some of the thi
 
     如果你想了解更多关于监视方法以及它们在你的城市是如何实施的，你也可以看看[电子前沿基金会](https://atlasofsurveillance.org/)的[监视地图]。
     
-    In France you can take a look at the [Technolopolice website](https://technopolice.fr/villes/) maintained by the non-profit association La Quadrature du Net.
+    在法国，你可以看看由非营利协会 La Quadrature du Net 维护的[Technolopolice 网站](https://technopolice.fr/villes/)。
 
 政府经常为大规模监控项目辩护，认为这是打击恐怖主义和防止犯罪的必要手段。 然而，它侵犯人权，最常被用来不成比例地针对少数群体和持不同政见者等。
 
