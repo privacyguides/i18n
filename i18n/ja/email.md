@@ -1,5 +1,5 @@
 ---
-meta_title: "暗号化プライベートメールの推奨事項 - Privacy Guides"
+meta_title: "暗号化プライベートメールのおすすめ - Privacy Guides"
 title: "メールサービス"
 icon: material/email
 description: これらの電子メールプロバイダはメールを安全に保存するのに最適な場所で、多くは他のプロバイダと相互運用可能なOpenPGP暗号化を提供しています。
@@ -10,7 +10,7 @@ cover: email.webp
 
 [おすすめのインスタントメッセンジャー](real-time-communication.md ""){.md-button}
 
-それ以外のことについては、持続可能なビジネスモデル、組み込まれたセキュリティーとプライバシー機能に基づいて様々な電子メールプロバイダをお勧めします。
+それ以外にも、持続可能なビジネスモデル、組み込まれたセキュリティーとプライバシー機能に基づき、様々な電子メールプロバイダーを推奨します。
 
 - [OpenPGP対応の電子メールプロバイダー :material-arrow-right-drop-circle:](#openpgp-compatible-services)
 - [その他の暗号化プロバイダー :material-arrow-right-drop-circle:](#more-providers)
@@ -152,7 +152,7 @@ Mailbox.orgの全てのプランにはデジタル遺産機能があります。
 
 ## その他のプロバイダ
 
-これらのプロバイダは、あなたの電子メールをゼロ知識暗号化で保存するため、保存されている電子メールを安全に保つのに最適なオプションです。 ただし、異なるプロバイダ間のE2EE通信では、相互運用可能な暗号化規格をサポートしていません。
+これらのプロバイダーは、あなたの電子メールをゼロ知識暗号化で保存するため、電子メールを安全に保つのに最適なオプションです。 ただし、異なるプロバイダー間のE2EE通信では、相互運用可能な暗号化規格がサポートされていません。
 
 <div class="grid cards" markdown>
 
@@ -210,7 +210,7 @@ Skiff Mail accounts do not expire, but unpaid accounts will be prompted to remov
 
 Skiff additionally offers [workspace productivity features](https://discuss.privacyguides.net/t/skiff-pages-drive-productivity-tools/11758/13), but we still prefer [alternative](productivity.md) options for collaborating and file sharing at this time.
 
-Skiff Mailにはデジタル遺産の機能はありません。
+Skiff Mailにはデジタルレガシー機能はありません。
 
 ### Tutanota
 
@@ -353,7 +353,7 @@ The number of shared aliases (which end in a shared domain like @addy.io) that y
         - [:simple-microsoftedge: Edge](https://microsoftedge.microsoft.com/addons/detail/simpleloginreceive-sen/diacfpipniklenphgljfkmhinphjlfff)
         - [:simple-safari: Safari](https://apps.apple.com/app/id1494051017)
 
-SimpleLoginは、2022年4月8日付で[Proton AGに買収](https://proton.me/news/proton-and-simplelogin-join-forces)されました。 Proton Mailをプライマリメールボックスに使っている場合、SimpleLoginは素晴らしい選択です。 両方の製品が同じ会社によって所有されているので、単一のエンティティのみを信頼するだけです。 また、将来的にはSimpleLoginがProtonの製品とより緊密に統合されることも期待されています。 引き続きSimpleLoginは、希望のメールプロバイダへの転送をサポートします。 Securitum は2022年初めにSimpleLoginを[監査](https://simplelogin.io/blog/security-audit/)し、すべての問題に[対処](https://simplelogin.io/audit2022/web.pdf)しました。
+SimpleLoginは、2022年4月8日付で[Proton AGに買収](https://proton.me/news/proton-and-simplelogin-join-forces)されました。 Proton Mailを第一のメールボックスに使っている場合、SimpleLoginは素晴らしい選択です。 両方の製品が同じ会社によって所有されているので、単一のエンティティのみを信頼するだけです。 また、将来的にはSimpleLoginがProtonの製品とより緊密に統合されることも期待されています。 引き続きSimpleLoginは、希望のメールプロバイダへの転送をサポートします。 Securitum は2022年初めにSimpleLoginを[監査](https://simplelogin.io/blog/security-audit/)し、すべての問題に[対処](https://simplelogin.io/audit2022/web.pdf)しました。
 
 設定でSimpleLoginアカウントをProtonアカウントとリンクさせることが可能です。 Proton Unlimited、Business、またはVisionaryプランをお持ちの場合は、SimpleLogin Premium を無料で利用できます。
 
@@ -489,13 +489,13 @@ We regard these features as important in order to provide a safe and optimal ser
 
 - アナリティクスを自己ホストする必要があります。（つまり、GoogleアナリティクスやAdobe Analyticsなどは不可） プロバイダーのサイトは、オプトアウトを希望するユーザーのために [DNT (Do Not Track)](https://en.wikipedia.org/wiki/Do_Not_Track) に準拠しなければならない。
 
-無責任なマーケティングをしてはいけない：
+無責任なマーケティングを行わないこと：
 
 - 「破れない暗号化」という主張。 暗号化は、それを解読する技術が存在する将来に、秘密ではなくなるかもしれないという意図のもとに使用される必要があります。
-- 匿名性を100％保証すること。 誰かが何かを100％だと主張するとき、それは失敗の確実性がないことを意味します。 私たちは、人々が多くの方法で簡単に匿名化を解除できることを知っています：
+- 匿名性を100％保証すること。 誰かが何かを100％だと主張するとき、それは失敗の確実性が全く存在しないということを意味します。 私たちは、人々が以下のような多くの方法で簡単に匿名化を解除できることを知っています。
 
     - Reusing personal information e.g. (email accounts, unique pseudonyms, etc.) that they accessed without anonymity software (Tor, VPN, etc.)
-    - [ブラウザフィンガープリント](https://en.wikipedia.org/wiki/Device_fingerprint#Browser_fingerprint)
+    - [ブラウザーのフィンガープリンティングを行うこと。](https://en.wikipedia.org/wiki/Device_fingerprint#Browser_fingerprint)
 
 **満たされることが望ましい基準：**
 
