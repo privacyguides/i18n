@@ -17,7 +17,7 @@ cover: notebooks.webp
 
     ![Standard Notesのロゴ](assets/img/notebooks/standard-notes.svg){ align=right }
     
-    **Standard Notes**はどこからでも簡単にメモを取れる、シンプルかつプライベートなノートアプリです。 すべてのプラットフォームでエンドツーエンド暗号化を使用し、テーマやカスタムエディタによる強力なデスクトップ環境を提供します。 また、[独立した監査](https://standardnotes.com/help/2/has-standard-notes-completed-a-third-party-security-audit) も受けています。
+    **Standard Notes**はどこからでも簡単にメモを取れる、シンプルかつプライベートなノートアプリです。 すべてのプラットフォームでエンドツーエンド暗号化を使用し、テーマやカスタムエディタによる強力なデスクトップ環境を提供します。 また、[独立した監査](https://standardnotes.com/help/2/has-standard-notes-completed-a-third-party-security-audit)も受けています。
     
     [:octicons-home-16: ホームページ](https://standardnotes.com){ .md-button .md-button--primary }
     [:octicons-eye-16:](https://standardnotes.com/privacy){ .card-link title="プライバシーポリシー" }
@@ -39,9 +39,9 @@ cover: notebooks.webp
 
 !!! recommendation
 
-    ![Notesnook logo](assets/img/notebooks/notesnook.svg){ align=right }
+    ![Notesnook ロゴ](assets/img/notebooks/notesnook.svg){ align=right }
     
-    **Notesnook** は、ユーザーのプライバシーと使いやすさに重点を置いた、フリー (スピーチと同等) のオープンソース ノートアプリです。 外出先でメモを取るための強力な同期機能を備え、すべてのプラットフォームでエンドツーエンドの暗号化を行います。 [公式インポーター](https://importer.notesnook.com/) を使用して、Evernote、OneNote、その他多くのアプリからノートを簡単にインポートできます。
+    **Notesnook** は、ユーザーのプライバシーと使いやすさに重点を置いた、自由（自由な言論の意味で）のオープンソース・ノートアプリです。 外出先でメモを取るための強力な同期機能を備えており、すべてのプラットフォームでエンドツーエンドの暗号化を行います。 [公式インポーター](https://importer.notesnook.com/)を使うと、Evernote、OneNote、その他多くのアプリからノートを簡単にインポートできます。
     
     [:octicons-home-16: ホームページ](https://notesnook.com/){ .md-button .md-button--primary }
     [:octicons-eye-16:](https://notesnook.com/privacy){ .card-link title="プライバシーポリシー" }
@@ -60,7 +60,7 @@ cover: notebooks.webp
         - [:simple-firefoxbrowser: Firefox](https://notesnook.com/notesnook-web-clipper/)
         - [:simple-googlechrome: Chrome](https://chrome.google.com/webstore/detail/notesnook-web-clipper/kljhpemdlcnjohmfmkogahelkcidieaj)
 
-Notesnookは、Web アプリとデスクトップアプリでのパスワード/PIN 保護をサポートしていません。 ただし、個々のメモをロッ​​クすることはでき、データは転送中およびデバイス上でマスター キーを使用して常に暗号化されます。
+Notesnookは、ウェブアプリとデスクトップアプリでのパスワード保護、PIN保護をサポートしていません。 ただし、個々のメモをロッ​​クすることはでき、データは転送中およびデバイス上でマスター キーを使用して常に暗号化されます。
 
 ### Joplin
 
@@ -93,10 +93,10 @@ Joplinは、[アプリケーション自体や個々のノート](https://github
 
 !!! recommendation
 
-    ![Cryptee logo](./assets/img/notebooks/cryptee.svg#only-light){ align=right }
-    ![Cryptee logo](./assets/img/notebooks/cryptee-dark.svg#only-dark){ align=right }
+    ![Cryptee ロゴ](./assets/img/notebooks/cryptee.svg#only-light){ align=right }
+    ![Cryptee ロゴ](./assets/img/notebooks/cryptee-dark.svg#only-dark){ align=right }
     
-    **Cryptee** は、オープンソースの Web ベース E2EE ドキュメント エディターおよび写真ストレージ アプリケーションです。 CrypteeはPWAであり、それぞれのプラットフォームごとにネイティブアプリを必要とせずに、最新のすべてのデバイスでシームレスに動作します。
+    **Cryptee**は、オープンソースでウェブベースの、端末間暗号化に対応したドキュメントエディターおよび写真ストレージのアプリケーションです。 CrypteeはPWAであり、それぞれのプラットフォームのネイティブアプリを必要とせず、最新のすべてのデバイスでシームレスに動作します。
     
     [:octicons-home-16: ホームページ](https://crypt.ee){ .md-button .md-button--primary }
     [:octicons-eye-16:](https://crypt.ee/privacy){ .card-link title="プライバシーポリシー" }
@@ -107,7 +107,7 @@ Joplinは、[アプリケーション自体や個々のノート](https://github
     
         - [:octicons-globe-16: PWA](https://crypt.ee/download)
 
-Cryptee は 100MB のストレージを無料で提供していますが、さらに必要な場合は有料オプションを利用できます。 サインアップには電子メールやその他の個人情報は必要ありません。
+Crypteeは100MBのストレージを無料で提供しています。さらに必要な場合は有料オプションを利用できます。 サインアップには電子メールやその他の個人情報は必要ありません。
 
 ## ローカルノート
 
@@ -115,9 +115,9 @@ Cryptee は 100MB のストレージを無料で提供していますが、さ�
 
 !!! recommendation
 
-    ![Org-mode logo](assets/img/notebooks/org-mode.svg){ align=right }
+    ![Org-modeロゴ](assets/img/notebooks/org-mode.svg){ align=right }
     
-    **Org-mode** はGNU Emacsの [主要なモード](https://www.gnu.org/software/emacs/manual/html_node/elisp/Major-Modes.html) です。 Org-mode は、高速かつ効果的なプレーンテキスト システムを使用して、メモの保存、ToDo リストの管理、プロジェクトの計画、およびドキュメントのオーサリングを行うためのものです。 [ファイル同期](file-sharing.md#file-sync) ツールを使えば同期が可能です。
+    **Org-mode**はGNU Emacsの[主要なモード](https://www.gnu.org/software/emacs/manual/html_node/elisp/Major-Modes.html)です。 Org-mode は、高速かつ効果的なプレーンテキスト システムを使用して、メモの保存、ToDo リストの管理、プロジェクトの計画、およびドキュメントのオーサリングを行うためのものです。 [ファイル同期](file-sharing.md#file-sync) ツールを使えば同期が可能です。
     
     [:octicons-home-16: ホームページ](https://orgmode.org){ .md-button .md-button--primary }
     [:octicons-info-16:](https://orgmode.org/manuals.html){ .card-link title=文書 }

@@ -364,7 +364,7 @@ These are some other [filter lists](https://github.com/gorhill/uBlock/wiki/Dashb
 - デフォルトでサードパーティCookieをブロックしている。
 - Supports [state partitioning](https://developer.mozilla.org/en-US/docs/Web/Privacy/State_Partitioning) to mitigate cross-site tracking.[^1]
 
-### 最良の場合
+### 満たされることが望ましい基準
 
 満たされることが望ましい基準には、このカテゴリーの完璧なプロジェクトに私たちが望むものを示しています。 私たちが推薦するプロジェクトは、この機能の一部または全部を含んでいないかもしれませんが、もし含んでいれば、このページで他のプロジェクトよりも上位にランクされるかもしれません。
 

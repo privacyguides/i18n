@@ -6,7 +6,7 @@ description: Many cloud storage providers require your trust that they will not 
 cover: cloud.webp
 ---
 
-多くのクラウドストレージプロバイダーは、あなたのファイルを見ないことを完全に信頼する必要があります。 以下に示す選択肢は、安全なE2EEを実装することにより、信頼の必要性を排除します。
+多くのクラウドストレージプロバイダーの場合、これを使用する際には、プロバイダーがファイルを閲覧することはないだろうと、プロバイダーを完全に信頼することが求められます。 以下に示す選択肢では、安全なE2EEが実装されているため、サービス提供元を信頼する必要はありません。
 
 If these alternatives do not fit your needs, we suggest you look into using encryption software like [Cryptomator](encryption.md#cryptomator-cloud) with another cloud provider. Using Cryptomator in conjunction with **any** cloud provider (including these) may be a good idea to reduce the risk of encryption flaws in a provider's native clients.
 
@@ -18,9 +18,9 @@ If these alternatives do not fit your needs, we suggest you look into using encr
 
 !!! recommendation
 
-    ![Proton Drive logo](assets/img/cloud/protondrive.svg){ align=right }
+    ![Proton Drive ロゴ](assets/img/cloud/protondrive.svg){ align=right }
     
-    **Proton Drive** は、人気の暗号化電子メール プロバイダーである [Proton Mail](email.md#proton-mail) が提供するスイスの暗号化クラウドストレージ プロバイダーです。
+    **Proton Drive**は、人気の暗号化電子メールプロバイダーである[Proton Mail](email.md#proton-mail)が提供する、スイスの暗号化クラウドストレージ プロバイダーです。
     
     [:octicons-home-16: ホームページ](https://proton.me/drive){ class="md-button md-button--primary" }
     [:octicons-eye-16:](https://proton.me/legal/privacy){ .card-link title="プライバシーポリシー" }
@@ -33,19 +33,19 @@ If these alternatives do not fit your needs, we suggest you look into using encr
         - [:simple-appstore: App Store](https://apps.apple.com/app/id1509667851)
         - [:simple-windows11: Windows](https://proton.me/drive/download)
 
-Proton Drive Webアプリケーションは、 [2021](https://proton.me/blog/security-audit-all-proton-apps)年にSecuritumによって独立して監査されています。 詳細は公開されませんでしたが、Securitumの認証状態は以下のとおりです。
+Proton Driveのウェブアプリケーションは、[2021](https://proton.me/blog/security-audit-all-proton-apps)年にSecuritumにより独立の監査を受けています。完全な詳細は公開されませんでしたが、Securitumの認証状態は以下の通りです。
 
-> 監査人は、2つの深刻度の低い脆弱性を特定しました。 また、5つの一般的な提言が報告された。 同時に、侵入テスト中に重要なセキュリティ上の問題が確認されなかったことを報告しています。
+> 監査人は、2つの深刻度の低い脆弱性を特定しました。 また、5つの一般的な勧告を行いました。 同時に、ペンテストに際して重要なセキュリティ上の問題が特定されなかったことを確認しました。
 
-Proton Driveの新しいモバイル クライアントはまだ第三者による公的な監査を受けていません。
+Proton Driveの新しいモバイルクライアントは、まだ第三者による公的な監査を受けていません。
 
 ## Tresorit
 
 !!! recommendation
 
-    ![Tresorit logo](assets/img/cloud/tresorit.svg){ align=right }
+    ![Tresorit ロゴ](assets/img/cloud/tresorit.svg){ align=right }
     
-    **Tresorit** は、2011年に設立されたスイスとハンガリーの暗号化クラウドストレージ プロバイダーです。 Tresoritはスイスの国営郵便局であるスイスポストが所有している。
+    **Tresorit**は、2011年に設立された、スイスとハンガリーの暗号化クラウドストレージ プロバイダーです。 Tresoritはスイスの国営郵便局であるスイスポストが所有しています。
     
     [:octicons-home-16: Homepage](https://tresorit.com/){ class="md-button md-button--primary" }
     [:octicons-eye-16:](https://tresorit.com/legal/privacy-policy){ .card-link title="Privacy Policy" }
@@ -88,7 +88,7 @@ They have also received the Digital Trust Label, a certification from the [Swiss
 - Must allow for easy exports of all files/documents.
 - Must use standard, audited encryption.
 
-### 最良の場合
+### 満たされることが望ましい基準
 
 満たされることが望ましい基準には、このカテゴリーの完璧なプロジェクトに私たちが望むものを示しています。 私たちが推薦するプロジェクトは、この機能の一部または全部を含んでいないかもしれませんが、もし含んでいれば、このページで他のプロジェクトよりも上位にランクされるかもしれません。
 
