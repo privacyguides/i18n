@@ -428,7 +428,7 @@ Preferiamo che i fornitori consigliati raccolgano il minor numero di dati possib
 **Requisiti minimi:**
 
 - Protezione dell'indirizzo IP del mittente. Filtraggio dello stesso dalla visualizzazione nel campo dell'intestazione `Ricevuto`.
-- Non richiedere informazioni d'identificazione personale, oltre a un nome utente e una password.
+- Non richiedere informazioni d'identificazione personale (PII), tranne un nome utente e una password.
 - Informativa sulla privacy che soddisfi i requisiti definiti dal GDPR.
 
 **Miglior Caso:**

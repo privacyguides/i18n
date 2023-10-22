@@ -19,7 +19,7 @@ config:
     question: Questa pagina è stata utile?
     yes: Questa pagina è stata utile
     yes-note: Grazie per il tuo feedback!
-    no: Questa pagina potrebbe essere migliorata
+    no: Questa pagina può essere migliorata
     no-note: |
       Grazie per il tuo feedback! Aiutaci a migliorare questa pagina aprendo una discussione sul nostro forum.
   theme:

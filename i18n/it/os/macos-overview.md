@@ -174,7 +174,7 @@ La Protezione dell'Integrità di Sistema rende le posizioni dei file di sola let
 
 #### Sicurezza delle Applicazioni
 
-##### App Sandbox
+##### Sandbox delle App
 
 Le app di macOS scaricate dall'App Store devono essere testate utilizzando [App Sandbox](https://developer.apple.com/documentation/security/app_sandbox).
 
