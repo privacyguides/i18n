@@ -186,7 +186,7 @@ Se utilizzi un [fornitore di DNS su HTTPS](dns.md):
 
 - [x] Seleziona **Protezione massima** e scegli un fornitore adatto
 
-Protezione massima impone l'uso del DNS su HTTPS e viene visualizzato un avviso di sicurezza se Firefox non riesce a connettersi al tuo risolutore DNS sicuro o se il tuo risolutore DNS sicuro dice che i record per il dominio a cui stai cercando di accedere non esistono. Questo impedisce alla rete a cui sei connesso di effettuare il declassamento segreto della sicurezza del tuo DNS.
+La Protezione Massima impone l'utilizzo di DNS su HTTPS; un avviso di sicurezza apparirà se Firefox non riesce a connettersi al tuo risolutore DNS sicuro, o se il tuo risolutore DNS sicuro dice che i registri per il dominio cui stai provando ad acceedere, non esistono. Ciò impedisce alla rete cui sei connesso, di ridurre segretameente la sicurezza del tuo DNS.
 
 #### Sincronizzazione
 
