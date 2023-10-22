@@ -1,5 +1,5 @@
 ---
-meta_title: "おすすめの暗号化ソフトウェア: VeraCrypt、Cryptomator、PicoCrypt、OpenPGP - Privacy Guides"
+meta_title: "推奨される暗号化ソフトウェア：VeraCrypt、Cryptomator、PicoCrypt、OpenPGP - Privacy Guides"
 title: "暗号化ソフトウェア"
 icon: material/file-lock
 description: データの暗号化は、誰がデータにアクセスできるかをコントロールする唯一の方法です。 これらのツールを使えば、電子メールやその他のファイルを暗号化できます。
@@ -42,7 +42,7 @@ Some Cryptomator cryptographic libraries have been [audited](https://community.c
 
 Cryptomator's documentation details its intended [security target](https://docs.cryptomator.org/en/latest/security/security-target/), [security architecture](https://docs.cryptomator.org/en/latest/security/architecture/), and [best practices](https://docs.cryptomator.org/en/latest/security/best-practices/) for use in further detail.
 
-### Picocrypt (File)
+### Picocrypt（ファイル）
 
 !!! recommendation
 
@@ -341,18 +341,18 @@ When encrypting with PGP, you have the option to configure different options in 
 
 !!! example "この項目は最近作成されました"
 
-    We are working on establishing defined criteria for every section of our site, and this may be subject to change. If you have any questions about our criteria, please [ask on our forum](https://discuss.privacyguides.net/latest) and don't assume we didn't consider something when making our recommendations if it is not listed here. There are many factors considered and discussed when we recommend a project, and documenting every single one is a work-in-progress.
+    私たちは、サイトの各項目に定義された基準を確立することに取り組んでいます。この基準は変更される可能性があります。 私たちの基準について疑問がある場合は、[フォーラムで質問](https://discuss.privacyguides.net/latest)してください。また、ここに記載されていない場合でも、私たちがプロジェクトを推奨する際に、そうした事柄を考慮しなかったと仮定するのはお止めください。 プロジェクトを推奨する際に考慮され、議論される要素は多くあり、そのすべてを文書化する作業は現在進行中です。
 
-### Minimum Qualifications
+### 最低要件
 
-- Cross-platform encryption apps must be open-source.
-- File encryption apps must support decryption on Linux, macOS, and Windows.
-- External disk encryption apps must support decryption on Linux, macOS, and Windows.
-- Internal (OS) disk encryption apps must be cross-platform or built in to the operating system natively.
+- クロスプラットフォームの暗号化アプリはオープンソースであること。
+- ファイル暗号化アプリは、Linux、macOS、Windowsでの復号化をサポートするものであること。
+- 外部ディスク暗号化アプリは、Linux、macOS、Windowsでの復号化をサポートするものであること。
+- 内部（OS）ディスク暗号化アプリは、クロスプラットフォームであるか、OSにネイティブに組み込まれたものであること。
 
 ### 満たされることが望ましい基準
 
-私たちが考える最善の基準は、このカテゴリーの完璧なプロジェクトに私たちが望むものを示しています。 私たちが推薦するプロジェクトは、この機能の一部または全部を含んでいないかもしれませんが、もし含んでいるものがあれば、このページで他のものよりも上位にランクされるかもしれません。
+満たされることが望ましい基準には、このカテゴリーの完璧なプロジェクトに私たちが望むものを示しています。 私たちが推薦するプロジェクトは、この機能の一部または全部を含んでいないかもしれませんが、もし含んでいれば、このページで他のプロジェクトよりも上位にランクされるかもしれません。
 
 - Operating System (FDE) encryption apps should utilize hardware security such as a TPM or Secure Enclave.
 - File encryption apps should have first- or third-party support for mobile platforms.

@@ -1,6 +1,6 @@
 ---
-meta_title: "プライバシーを尊重するAndroidとiOS向けモバイルウェブブラウザ - Privacy Guides"
-title: "モバイルブラウザ"
+meta_title: "プライバシーを尊重するAndroidとiOS向けモバイルウェブブラウザー - Privacy Guides"
+title: "モバイルブラウザー"
 icon: material/cellphone-information
 description: これらのブラウザは、現在お使いの携帯電話の標準/非匿名のインターネットブラウジングに推奨されています。
 cover: mobile-browsers.webp
@@ -8,7 +8,7 @@ schema:
   - 
     "@context": http://schema.org
     "@type": WebPage
-    name: プライベートモバイルブラウザの推奨事項
+    name: 推奨するプライベートモバイルブラウザー
     url: "./"
     relatedLink: "../desktop-browsers/"
   - 
@@ -37,11 +37,11 @@ schema:
       url: "./"
 ---
 
-以下は、一般的な非匿名のブラウジング用に、現在おすすめされているモバイルウェブブラウザとその設定です。 匿名でインターネットを閲覧するには、[Tor](tor.md)を使用してください。 一般的に、拡張機能は最小限に抑えることをお勧めします。ブラウザ内で特権的なアクセスを持ち、開発者を信頼する必要があり、[あなたを目立たせ](https://en.wikipedia.org/wiki/Device_fingerprint#Browser_fingerprint)、[サイト分離を弱めます](https://groups.google.com/a/chromium.org/g/chromium-extensions/c/0ei-UCHNm34/m/lDaXwQhzBAAJ)。
+以下は、一般的な非匿名のブラウジング用に、現在おすすめされているモバイルウェブブラウザとその設定です。 匿名でインターネットを閲覧するには、[Tor](tor.md)を使用してください。 一般的に、拡張機能は最小限に抑えることをお勧めします。拡張機能は、ブラウザー内で特権的なアクセスを備えており、あなたは開発者を信頼する必要があります。また、[あなたを目立たせたり](https://en.wikipedia.org/wiki/Device_fingerprint#Browser_fingerprint)、サイト分離を[弱めたりする](https://groups.google.com/a/chromium.org/g/chromium-extensions/c/0ei-UCHNm34/m/lDaXwQhzBAAJ)こともあります。
 
 ## Android
 
-Androidでは、FirefoxはChromiumベースのブラウザよりもまだ安全性が低いです。Mozillaのエンジンである[GeckoView](https://mozilla.github.io/geckoview/)は、まだ[サイト分離](https://hacks.mozilla.org/2021/05/introducing-firefox-new-site-isolation-security-architecture)をサポートしておらず、また [分離プロセス](https://bugzilla.mozilla.org/show_bug.cgi?id=1565196)を有効にしていません。
+Androidでは、FirefoxはChromiumベースのブラウザーよりもまだ安全性が低いです。Mozillaのエンジンである[GeckoView](https://mozilla.github.io/geckoview/)は、[サイト分離](https://hacks.mozilla.org/2021/05/introducing-firefox-new-site-isolation-security-architecture)をサポートしておらず、また、[分離プロセス](https://bugzilla.mozilla.org/show_bug.cgi?id=1565196)を有効にしていません。
 
 ### Brave
 
@@ -66,7 +66,7 @@ Androidでは、FirefoxはChromiumベースのブラウザよりもまだ安全�
 
 #### 推奨する設定
 
-本当に匿名でインターネットを閲覧する唯一の方法は、Tor Browserを使うことです。 Braveを使用する際は、特定の相手からプライバシーを保護するために以下の設定を変更することをお勧めしますが、 [Tor Browser](tor.md#tor-browser) 以外のブラウザについては、*誰か*が何らかの形で追跡することができます。
+本当に匿名でインターネットを閲覧する唯一の方法は、Tor Browserを使うことです。 Braveを使用する際は、特定の相手からプライバシーを保護するために以下の設定を変更することをお勧めしますが、 [Tor Browser](tor.md#tor-browser) 以外のブラウザーについては、*誰か*が何らかの形で追跡することができます。
 
 これらのオプションは、 :material-menu: → **設定** → **Braveシールド & プライバシー**にあります。
 
@@ -209,7 +209,7 @@ Safariの履歴、タブグループ、iCloudタブ、保存されたパスワ�
 
 !!! example "この項目は最近作成されました"
 
-    私たちは、サイトの各項目に定義された基準を確立することに取り組んでおり、これは変更される可能性があります。 私たちの基準について疑問がある場合は、[フォーラムで質問](https://discuss.privacyguides.net/latest)してください。また、ここに記載されていない場合でも、私たちが推奨事項を作成する際に考慮しなかったと仮定しないでください。 プロジェクトを推奨する際には多くの要素が考慮され、議論されており、そのすべてを文書化する作業は現在進行中です。
+    私たちは、サイトの各項目に定義された基準を確立することに取り組んでいます。この基準は変更される可能性があります。 私たちの基準について疑問がある場合は、[フォーラムで質問](https://discuss.privacyguides.net/latest)してください。また、ここに記載されていない場合でも、私たちがプロジェクトを推奨する際に、そうした事柄を考慮しなかったと仮定するのはお止めください。 プロジェクトを推奨する際に考慮され、議論される要素は多くあり、そのすべてを文書化する作業は現在進行中です。
 
 ### 最低要件
 

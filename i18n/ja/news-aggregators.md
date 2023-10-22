@@ -129,21 +129,21 @@ A [news aggregator](https://en.wikipedia.org/wiki/News_aggregator) is a way to k
 
 !!! example "この項目は最近作成されました"
 
-    私たちは、サイトの各項目に定義された基準を確立することに取り組んでおり、これは変更される可能性があります。 私たちの基準について疑問がある場合は、[フォーラムで質問](https://discuss.privacyguides.net/latest)してください。また、ここに記載されていない場合でも、私たちが推奨事項を作成する際に考慮しなかったと仮定しないでください。 プロジェクトを推奨する際には多くの要素が考慮され、議論されており、そのすべてを文書化する作業は現在進行中です。
+    私たちは、サイトの各項目に定義された基準を確立することに取り組んでいます。この基準は変更される可能性があります。 私たちの基準について疑問がある場合は、[フォーラムで質問](https://discuss.privacyguides.net/latest)してください。また、ここに記載されていない場合でも、私たちがプロジェクトを推奨する際に、そうした事柄を考慮しなかったと仮定するのはお止めください。 プロジェクトを推奨する際に考慮され、議論される要素は多くあり、そのすべてを文書化する作業は現在進行中です。
 
-- オープンソース ソフトウェアである必要があります。
+- オープンソースのソフトウェアであること。
 - ローカルで動作する必要があります。つまり、クラウド サービスであってはなりません。
 
 ## ソーシャルメディアのRSSサポート
 
-あまり宣伝されていませんが、一部のソーシャルメディア サービスもRSSに対応しています。
+あまり宣伝されていませんが、一部のソーシャルメディア サービスもRSSをサポートしています。
 
 ### Reddit
 
 RedditではRSSでSubredditを購読することができます。
 
 !!! 実例
-    `subreddit_name` を、購読したい subreddit に置き換えます。
+    `subreddit_name` を、購読したいsubredditに置き換えます。
 
     ```text
     https://www.reddit.com/r/{{ subreddit_name }}/new/.rss
@@ -163,11 +163,11 @@ Nitter[インスタンス](https://github.com/zedeus/nitter/wiki/Instances)の�
 
 ### YouTube
 
-Googleアカウントにログインしたり、使用状況情報を関連付けることなく、YouTubeチャンネルを購読できます。
+Googleアカウントにログインしたり、使用状況情報を関連付けたりすることなく、YouTubeチャンネルを購読できます。
 
 !!! 実例
 
-    RSSクライアントでYouTubeチャンネルを購読するには、まず[チャンネル ID](https://support.google.com/youtube/answer/6180214)を探します。 チャンネル IDは、購読したいYouTube チャンネルの概要ページの下にあります: **概要** > **共有** > **チャンネル ID を コピー**. `[CHANNEL ID]` を以下に置き換えます:
+    RSSクライアントでYouTubeチャンネルを購読するには、まず[チャンネルID](https://support.google.com/youtube/answer/6180214)を探します。 チャンネルIDは、購読したいYouTube チャンネルの概要ページの下にあります: **概要** > **共有** > **チャンネルIDをコピー**。 `[CHANNEL ID]`を以下に置き換えてください。
 
     ```text
     https://www.youtube.com/feeds/videos.xml?channel_id=[CHANNEL ID]

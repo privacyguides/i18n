@@ -13,14 +13,15 @@ Most online office suites do not support E2EE, meaning the cloud provider has ac
 
 !!! recommendation
 
-    ![Nextcloud logo](assets/img/productivity/nextcloud.svg){ align=right }
-    **Nextcloud**は、フリーでオープンソースのクライアント・サーバーソフトウェアのスイートです。
+    ![Nextcloud ロゴ](assets/img/productivity/nextcloud.svg){ align=right }
+    
+    **Nextcloud**は、自由でオープンソースのクライアント・サーバーソフトウェアのスイートです。あなた自身が管理する非公開のサーバーでファイルホスティングサービスを構築するのに使用できます。
     
     [:octicons-home-16: Homepage](https://nextcloud.com){ .md-button .md-button--primary }
-    [:octicons-eye-16:](https://nextcloud.com/privacy){ .card-link title="Privacy Policy" }
-    [:octicons-info-16:](https://nextcloud.com/support/){ .card-link title=Documentation}
-    [:octicons-code-16:](https://github.com/nextcloud){ .card-link title="Source Code" }
-    [:octicons-heart-16:](https://nextcloud.com/contribute/){ .card-link title=Contribute } ダウンロード
+    [:octicons-eye-16:](https://nextcloud.com/privacy){ .card-link title="プライバシーポリシー" }
+    [:octicons-info-16:](https://nextcloud.com/support/){ .card-link title=ドキュメンテーション}
+    [:octicons-code-16:](https://github.com/nextcloud){ .card-link title="ソースコード" }
+    [:octicons-heart-16:](https://nextcloud.com/contribute/){ .card-link title=貢献 } ダウンロード
     
         - [:simple-googleplay: Google Play](https://play.google.com/store/apps/details?id=com.nextcloud.client)
         - [:simple-appstore: App Store](https://apps.apple.com/app/id1125420102)
@@ -31,7 +32,7 @@ Most online office suites do not support E2EE, meaning the cloud provider has ac
 
 !!! 警告
 
-    [E2EEアプリ](https://apps.nextcloud.com/apps/end_to_end_encryption) for Nextcloudの使用は、データ損失の可能性があるため、お勧めしません。 For this reason, we don't recommend third-party Nextcloud providers.
+    Nextcloudでの[E2EEアプリ](https://apps.nextcloud.com/apps/end_to_end_encryption)の使用は、データ損失の可能性があるため、推奨されません。 For this reason, we don't recommend third-party Nextcloud providers.
 
 ### CryptPad
 
@@ -53,7 +54,7 @@ Most online office suites do not support E2EE, meaning the cloud provider has ac
 
 !!! example "この項目は最近作成されました"
 
-    We are working on establishing defined criteria for every section of our site, and this may be subject to change. If you have any questions about our criteria, please [ask on our forum](https://discuss.privacyguides.net/latest) and don't assume we didn't consider something when making our recommendations if it is not listed here. There are many factors considered and discussed when we recommend a project, and documenting every single one is a work-in-progress.
+    私たちは、サイトの各項目に定義された基準を確立することに取り組んでいます。この基準は変更される可能性があります。 私たちの基準について疑問がある場合は、[フォーラムで質問](https://discuss.privacyguides.net/latest)してください。また、ここに記載されていない場合でも、私たちがプロジェクトを推奨する際に、そうした事柄を考慮しなかったと仮定するのはお止めください。 プロジェクトを推奨する際に考慮され、議論される要素は多くあり、そのすべてを文書化する作業は現在進行中です。
 
 In general, we define collaboration platforms as full-fledged suites which could reasonably act as a replacement to collaboration platforms like Google Drive.
 
@@ -66,7 +67,7 @@ In general, we define collaboration platforms as full-fledged suites which could
 
 #### 満たされることが望ましい基準
 
-私たちが考える最善の基準は、このカテゴリーの完璧なプロジェクトに私たちが望むものを示しています。 私たちが推薦するプロジェクトは、この機能の一部または全部を含んでいないかもしれませんが、もし含んでいるものがあれば、このページで他のものよりも上位にランクされるかもしれません。
+満たされることが望ましい基準には、このカテゴリーの完璧なプロジェクトに私たちが望むものを示しています。 私たちが推薦するプロジェクトは、この機能の一部または全部を含んでいないかもしれませんが、もし含んでいれば、このページで他のプロジェクトよりも上位にランクされるかもしれません。
 
 - Should store files in a conventional filesystem.
 - Should support TOTP or FIDO2 multi-factor authentication support, or Passkey logins.
@@ -124,12 +125,12 @@ In general, we define collaboration platforms as full-fledged suites which could
 
 !!! example "この項目は最近作成されました"
 
-    We are working on establishing defined criteria for every section of our site, and this may be subject to change. If you have any questions about our criteria, please [ask on our forum](https://discuss.privacyguides.net/latest) and don't assume we didn't consider something when making our recommendations if it is not listed here. There are many factors considered and discussed when we recommend a project, and documenting every single one is a work-in-progress.
+    私たちは、サイトの各項目に定義された基準を確立することに取り組んでいます。この基準は変更される可能性があります。 私たちの基準について疑問がある場合は、[フォーラムで質問](https://discuss.privacyguides.net/latest)してください。また、ここに記載されていない場合でも、私たちがプロジェクトを推奨する際に、そうした事柄を考慮しなかったと仮定するのはお止めください。 プロジェクトを推奨する際に考慮され、議論される要素は多くあり、そのすべてを文書化する作業は現在進行中です。
 
 In general, we define office suites as applications which could reasonably act as a replacement for Microsoft Word for most needs.
 
 - Must be cross-platform.
-- オープンソース ソフトウェアである必要があります。
+- オープンソースのソフトウェアであること。
 - Must function offline.
 - Must support editing documents, spreadsheets, and slideshows.
 - Must export files to standard document formats.
@@ -155,7 +156,7 @@ In general, we define office suites as applications which could reasonably act a
 
 !!! example "この項目は最近作成されました"
 
-    We are working on establishing defined criteria for every section of our site, and this may be subject to change. If you have any questions about our criteria, please [ask on our forum](https://discuss.privacyguides.net/latest) and don't assume we didn't consider something when making our recommendations if it is not listed here. There are many factors considered and discussed when we recommend a project, and documenting every single one is a work-in-progress.
+    私たちは、サイトの各項目に定義された基準を確立することに取り組んでいます。この基準は変更される可能性があります。 私たちの基準について疑問がある場合は、[フォーラムで質問](https://discuss.privacyguides.net/latest)してください。また、ここに記載されていない場合でも、私たちがプロジェクトを推奨する際に、そうした事柄を考慮しなかったと仮定するのはお止めください。 プロジェクトを推奨する際に考慮され、議論される要素は多くあり、そのすべてを文書化する作業は現在進行中です。
 
 #### 最低要件
 
@@ -166,6 +167,6 @@ In general, we define office suites as applications which could reasonably act a
 
 #### 満たされることが望ましい基準
 
-私たちが考える最善の基準は、このカテゴリーの完璧なプロジェクトに私たちが望むものを示しています。 私たちが推薦するプロジェクトは、この機能の一部または全部を含んでいないかもしれませんが、もし含んでいるものがあれば、このページで他のものよりも上位にランクされるかもしれません。
+満たされることが望ましい基準には、このカテゴリーの完璧なプロジェクトに私たちが望むものを示しています。 私たちが推薦するプロジェクトは、この機能の一部または全部を含んでいないかもしれませんが、もし含んでいれば、このページで他のプロジェクトよりも上位にランクされるかもしれません。
 
 - Should have a published audit from a reputable, independent third-party.
