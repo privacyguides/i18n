@@ -189,11 +189,11 @@ Choosing a Linux distro that is right for you will come down to a huge variety o
 - 定期的にソフトウェアとカーネルのアップデートを受け取ること。
 - [Avoids X11](os/linux-overview.md#wayland).
     - The notable exception here is Qubes, but the isolation issues which X11 typically has are avoided by virtualization. This isolation only applies to apps *running in different qubes* (virtual machines), apps running in the *same* qube are not protected from each other.
-- Supports full-disk encryption during installation.
-- Doesn't freeze regular releases for more than 1 year.
+- インストール時にフルディスク暗号化をサポートしていること。
+- 通常のリリースが1年以上凍結されないこと。
     - We [recommend against](os/linux-overview.md#release-cycle) "Long Term Support" or "stable" distro releases for desktop usage.
-- Supports a wide variety of hardware.
+- 多様なハードウェアをサポートしていること。
 - Preference towards larger projects.
     - Maintaining an operating system is a major challenge, and smaller projects have a tendency to make more avoidable mistakes, or delay critical updates (or worse, disappear entirely). We lean towards projects which will likely be around 10 years from now (whether that's due to corporate backing or very significant community support), and away from projects which are hand-built or have a small number of maintainers.
 
-In addition, [our standard criteria](about/criteria.md) for recommended projects still applies. **私たちは、推奨するいずれのプロジェクトとも提携していません。**
+さらに、推奨プロジェクトに関する[標準的な基準](about/criteria.md)も適用されます。 **私たちは、推奨するいずれのプロジェクトとも提携していません。**

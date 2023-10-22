@@ -1,7 +1,7 @@
 ---
 title: Androidの概要
 icon: simple/android
-description: Androidは、強力なセキュリティ保護機能を備えたオープンソースのオペレーティングシステムであり、携帯電話用の私たちの最高の選択肢です。
+description: Androidは、強力なセキュリティ保護機能を備えたオープンソースのオペレーティングシステムであり、携帯電話に関する最も優れた選択肢です。
 ---
 
 ![Android logo](../assets/img/android/android.svg){ align=right }
@@ -12,13 +12,13 @@ description: Androidは、強力なセキュリティ保護機能を備えたオ
 
 ### Androidディストリビューションの選択
 
-Androidの携帯を購入すると、その端末に標準で搭載されているOSには、 [Android オープンソース プロジェクト](https://source.android.com/)に含まれていないアプリやサービスが侵襲的に統合されていることが多いです。 例えば、Google Playサービスは、あなたのファイル、連絡先ストレージ、通話ログ、SMSメッセージ、位置情報、カメラ、マイク、ハードウェア識別子などにアクセスする取り消し不能な権限を持っています。 これらのアプリやサービスは、あなたのデバイスの攻撃対象を増やし、Androidのプライバシーに関する様々な懸念の原因となっています。
+Androidの携帯電話を購入すると、その端末に標準で搭載されているOSには、しばしば[Androidオープンソースプロジェクト](https://source.android.com/)に含まれていないアプリやサービスが強制的に統合されています。 例えば、Google Playサービスは、あなたのファイル、連絡先ストレージ、通話ログ、SMSメッセージ、位置情報、カメラ、マイク、ハードウェア識別子などにアクセスする権限を備えており、それらの権限を取り消すことはできません。 これらのアプリやサービスは、あなたのデバイスの攻撃対象を増やし、Androidのプライバシーに関する様々な懸念の原因となっています。
 
-この問題は、そのような侵襲的な統合を伴わないカスタムされたAndroidディストリビューションを使用することで解決できるかもしれません。 残念ながら、多くのカスタムされたAndroidディストリビューションは、AVB、ロールバック保護、ファームウェア・アップデートなどの重要なセキュリティ機能をサポートしておらず、Androidセキュリティ・モデルに違反していることが多いです。 ディストリビューションによっては、[`userdebug`](https://source.android.com/setup/build/building#choose-a-target)ビルドも出荷しています。このビルドは、 [ADB](https://developer.android.com/studio/command-line/adb) 経由で root を公開し、[より寛容な](https://github.com/LineageOS/android_system_sepolicy/search?q=userdebug&type=code) SELinux ポリシーをデバッグ機能に対応させるために必要とします。その結果、攻撃対象がさらに増加し、セキュリティモデルが弱体化します。
+この問題は、そうした強制的な統合を伴わない、カスタムAndroidディストリビューションを使用することで解決できる可能性があります。 残念ながら、多くのカスタムされたAndroidディストリビューションは、AVB、ロールバック保護、ファームウェア・アップデートなどの重要なセキュリティ機能をサポートしておらず、Androidセキュリティ・モデルに違反していることが多いです。 ディストリビューションによっては、[`userdebug`](https://source.android.com/setup/build/building#choose-a-target)ビルドもリリースしています。このビルドは、 [ADB](https://developer.android.com/studio/command-line/adb)経由でrootを公開し、デバッグ機能に対応するために[より寛容な](https://github.com/LineageOS/android_system_sepolicy/search?q=userdebug&type=code)SELinuxポリシーを必要とします。その結果として、攻撃対象がさらに増加し、セキュリティモデルが弱体化することになります。
 
-Android のカスタムされたディストリビューションを選択する場合、Android のセキュリティモデルが維持されていることを確認してください。 少なくとも、製品用ビルド、AVBのサポート、ロールバック保護、適時のファームウェアとオペレーティングシステムのアップデート、および[強制モード](https://source.android.com/security/selinux/concepts#enforcement_levels)のSELinuxを持つべきです。 私たちが推奨するAndroidディストリビューションはすべて、これらの基準を満たしています。
+Androidのカスタムディストリビューションを選択する場合には、Androidのセキュリティーモデルが維持されていることを確認してください。 少なくとも、製品用ビルド、AVBのサポート、ロールバック保護、適時のファームウェアとオペレーティングシステムのアップデート、および[強制モード](https://source.android.com/security/selinux/concepts#enforcement_levels)のSELinuxを持つべきです。 私たちが推奨するAndroidディストリビューションはすべて、これらの基準を満たしています。
 
-[私たちがお勧めしているAndroidシステム :material-arrow-right-drop-circle:](../android.md ""){.md-button}
+[私たちが推奨するAndroidシステム :material-arrow-right-drop-circle:](../android.md ""){.md-button}
 
 ### root化を避ける
 
@@ -46,7 +46,7 @@ For example, if you want to post a picture to Discord you can open your file man
 
 ### 確認付きブート
 
-[確認付きブート](https://source.android.com/security/verifiedboot) は、Androidのセキュリティ モデルの重要な部分です。 It provides protection against [evil maid](https://en.wikipedia.org/wiki/Evil_maid_attack) attacks, malware persistence, and ensures security updates cannot be downgraded with [rollback protection](https://source.android.com/security/verifiedboot/verified-boot#rollback-protection).
+[確認付きブート](https://source.android.com/security/verifiedboot) は、Androidのセキュリティー・モデルの重要な部分です。 It provides protection against [evil maid](https://en.wikipedia.org/wiki/Evil_maid_attack) attacks, malware persistence, and ensures security updates cannot be downgraded with [rollback protection](https://source.android.com/security/verifiedboot/verified-boot#rollback-protection).
 
 Android 10 and above has moved away from full-disk encryption to more flexible [file-based encryption](https://source.android.com/security/encryption/file-based). Your data is encrypted using unique encryption keys, and the operating system files are left unencrypted.
 
