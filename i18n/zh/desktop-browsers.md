@@ -401,15 +401,15 @@ These are some other [filter lists](https://github.com/gorhill/uBlock/wiki/Dashb
 
 
 
-### Minimum Requirements
+### 最低要求
 
 - 它必须是开源软件。
-- Supports automatic updates.
-- Receives engine updates in 0-1 days from upstream release.
-- Available on Linux, macOS, and Windows.
+- 支持自动更新。
+- 在上游发布后0-1天内收到引擎更新。
+- 可用于Linux、macOS和Windows。
 - 为使浏览器更加尊重隐私所需的任何改变都不应该对用户体验产生负面影响。
-- Blocks third-party cookies by default.
-- Supports [state partitioning](https://developer.mozilla.org/en-US/docs/Web/Privacy/State_Partitioning) to mitigate cross-site tracking.[^1]
+- 默认情况下阻止第三方的cookies。
+- 支持[存储分区](https://developer.mozilla.org/en-US/docs/Web/Privacy/State_Partitioning)，以减轻跨网站追踪。[^1]
 
 
 
@@ -422,11 +422,11 @@ These are some other [filter lists](https://github.com/gorhill/uBlock/wiki/Dashb
 - Supports Progressive Web Apps.  
   PWAs enable you to install certain websites as if they were native apps on your computer. This can have advantages over installing Electron-based apps, because you benefit from your browser's regular security updates.
 
-- Does not include add-on functionality (bloatware) that does not impact user privacy.
+- 不包括不增强用户隐私的累赘功能。
 
-- Does not collect telemetry by default.
-- Provides open-source sync server implementation.
-- Defaults to a [private search engine](search-engines.md).
+- 默认情况下不收集遥测数据。
+- 提供开源的同步服务器实现。
+- 默认为[隐私搜索引擎](search-engines.md)。
 
 
 

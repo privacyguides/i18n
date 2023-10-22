@@ -44,16 +44,16 @@ icon: 'material/shield-account'
 
 ## 隐私与控制有关吗？
 
-隐私的一个常见定义是，它是*控制*谁能访问您的数据的能力。 This is an easy trap to fall into, in fact it is the definition of privacy we operated this website on for a long time. It sounds nice, and it appeals to many people, but in practice it just doesn't work.
+隐私的一个常见定义是，它是*控制*谁能访问您的数据的能力。 这是一个很容易陷入的陷阱，事实上，这曾经我们长期运营本网站时对隐私的定义。 这听起来不错，也吸引了很多人，但在实践中却行不通。
 
-Take cookie consent forms, for example. You may encounter these dozens of times per day on the various websites you visit, with a nice array of checkboxes and sliders which allow you to "curate" your preferences to exactly fit your needs. In the end, we just hit the "I Agree" button, because we just want to read the article or make a purchase. Nobody wants to complete a personal privacy audit on every single website they visit. This is an exercise in [choice architecture](https://en.wikipedia.org/wiki/Choice_architecture), designed to make you take the easy route out instead of delving into a maze of configuration options that don't need to exist in the first place.
+以 cookie 同意表单为例。 在您访问的各种网站上，您可能每天都会遇到几十次这样的表单，可以通过一系列漂亮的复选框和滑块来“调试”您的偏好，以完全满足您的需求。 最后，我们只会直接点击“我同意”按钮，因为我们只是想阅读文章或进行购买。 没有人愿意在访问的每个网站上都彻底地审视一遍自己的隐私。 这是[选择架构](https://en.wikipedia.org/wiki/Choice_architecture)的一个完美体现，目的是让你走捷径，而不是钻进本来就没必要存在的乱七八糟的配置选项。
 
-==Control over your privacy inside most apps is an illusion.== It's a shiny dashboard with all sorts of choices you can make about your data, but rarely the choices you're looking for, like "only use my data to help me." This type of control is meant to make you feel guilty about your choices, that you "had the choice" to make the apps you use more private, and you chose not to.
+==在大多数应用程序中，对隐私的控制都是一种假象。==会有一个闪亮的设置界面，你可以对自己的数据做出各种选择，但很少有你真正想要的选择，比如“只用我的数据来帮助我”。 这种控制的目的是让你对自己的选择感到内疚，你“可以选择”让你使用的应用程序更私密，但你选择了不这么做。
 
-Privacy is something we need to have baked into the [software and services](../tools.md) we use by default, you can't bend most apps into being private on your own.
+隐私是我们使用的[软件和服务](../tools.md)中应该自带的东西，你无法强行让大多数你使用应用程序变得隐私。
 
 ## 资料来源
 
-- [Why Privacy Matters](https://www.amazon.com/Why-Privacy-Matters-Neil-Richards/dp/0190939044) (2021) by Neil Richards
-- [The New Oil: Why Privacy & Security Matter](https://thenewoil.org/en/guides/prologue/why/)
-- [@Thorin-Oakenpants on GitHub](https://github.com/privacytools/privacytools.io/issues/1760#issuecomment-597497298)
+- [隐私为何重要](https://www.amazon.com/Why-Privacy-Matters-Neil-Richards/dp/0190939044) (2021) 作者：Neil Richards
+- [新石油：隐私和安全为何重要](https://thenewoil.org/en/guides/prologue/why/)
+- [GitHub 上的 @Thorin-Oakenpants](https://github.com/privacytools/privacytools.io/issues/1760#issuecomment-597497298)
