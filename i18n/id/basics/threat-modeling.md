@@ -1,13 +1,13 @@
 ---
-meta_title: "Threat Modeling: The First Step on Your Privacy Journey - Privacy Guides"
-title: "Threat Modeling"
+meta_title: "Pemodelan Ancaman: Langkah Pertama dalam Perjalanan Privasi Anda - Privacy Guides"
+title: "Pemodelan Ancaman"
 icon: 'material/target-account'
-description: Balancing security, privacy, and usability is one of the first and most difficult tasks you'll face on your privacy journey.
+description: Menyeimbangkan keamanan, privasi, dan kegunaan adalah salah satu tugas pertama dan paling sulit yang akan Anda hadapi dalam perjalanan privasi Anda.
 ---
 
-Menyeimbangkan keamanan, privasi, dan kegunaan adalah salah satu tugas pertama dan paling sulit yang akan Anda hadapi dalam perjalanan privasi Anda. Everything is a trade-off: The more secure something is, the more restricting or inconvenient it generally is, etc. Sering kali, orang menemukan bahwa masalah dengan alat yang mereka lihat direkomendasikan adalah bahwa alat tersebut terlalu sulit untuk mulai digunakan!
+Menyeimbangkan keamanan, privasi, dan kegunaan adalah salah satu tugas pertama dan paling sulit yang akan Anda hadapi dalam perjalanan privasi Anda. Semua hal memiliki konsekuensi: Semakin aman sesuatu maka semakin membatasi atau susah, dll. Sering kali, orang menemukan bahwa masalah dengan alat yang mereka lihat direkomendasikan adalah bahwa alat tersebut terlalu sulit untuk mulai digunakan!
 
-Jika Anda ingin menggunakan **sebagian besar** alat aman yang tersedia, Anda harus mengorbankan *banyak* kegunaan. And, even then, ==nothing is ever fully secure.== There's **high** security, but never **full** security. Itulah mengapa model ancaman itu penting.
+Jika Anda ingin menggunakan alat **paling** aman yang tersedia, Anda harus mengorbankan *banyak* kegunaan. And, even then, ==nothing is ever fully secure.== There's **high** security, but never **full** security. Itulah mengapa model ancaman itu penting.
 
 **Jadi, apa saja model ancaman ini?**
 
