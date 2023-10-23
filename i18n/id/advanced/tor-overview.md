@@ -42,7 +42,7 @@ Simpul keluar akan dipilih secara acak dari semua simpul Tor yang tersedia, yang
 
 "Layanan Onion" (juga sering disebut sebagai "layanan tersembunyi") adalah situs web yang hanya dapat diakses oleh peramban Tor. Situs web ini memiliki nama domain panjang yang dibuat secara acak yang diakhiri dengan `.onion`.
 
-Connecting to an Onion Service in Tor works very similarly to connecting to a clearnet service, but your traffic is routed through a total of **six** nodes before reaching the destination server. Just like before however, only three of these nodes are contributing to *your* anonymity, the other three nodes protect *the Onion Service's* anonymity, hiding the website's true IP and location in the same manner that Tor Browser is hiding yours.
+Proses penyambungan ke Layanan Onion di Tor berjalan sangat mirip dengan proses penyambungan ke layanan clearnet, tetapi lalu lintas Anda dirutekan melalui total **enam** simpul sebelum mencapai server tujuan. Namun, sama seperti sebelumnya, hanya tiga dari simpul-simpul ini yang berkontribusi pada anonimitas *Anda*, tiga simpul lainnya melindungi anonimitas *Layanan Onion*, menyembunyikan IP dan lokasi situs web yang sebenarnya dengan cara yang sama seperti Tor Browser menyembunyikan IP dan lokasi Anda.
 
 <figure style="width:100%" markdown>
   ![Tor path showing your traffic being routed through your three Tor nodes plus three additional Tor nodes which hide the website's identity](../assets/img/how-tor-works/tor-path-hidden-service.svg#only-light)
