@@ -249,7 +249,7 @@ OpenPGP è talvolta necessario per incarichi specifici, come firmare digitalment
 
 Crittografando con PGP, puoi configurare diverse opzioni nel tuo file `gpg.config`. Ti consigliamo di attenerti con le opzioni standard specificate nelle [Domande Frequenti degli utenti di GnuPG](https://www.gnupg.org/faq/gnupg-faq.html#new_user_gpg_conf).
 
-!!! tip "Utilizzare 'future-default' generando una chiave"
+!!! tip "Utilizzare future-default quando si genera una chiave"
 
     [Generando le chiavi]https://www.gnupg.org/gph/en/manual/c14.html), consigliamo di utilizzare il comando 'future-default', istruendo GnuPG a utilizzare la crittografia moderna come [Curve25519](https://en.wikipedia.org/wiki/Curve25519#History) ed [Ed25519](https://ed25519.cr.yp.to/):
 
