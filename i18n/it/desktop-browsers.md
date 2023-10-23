@@ -155,11 +155,11 @@ Questo ti protegge bloccando i tracciatori dei social, gli script di fingerprint
 
 ##### Eliminazione alla Chiusura
 
-Se desideri mantenere la connessione a siti in particolare, puoi consentire le eccezioni in **Cookie e Dati dei Siti** → **Gestisci Eccezioni...**
+Se vuoi mantenere l'accesso per alcuni siti in particolare, puoi consentire le eccezioni in **Cookie e dati dei siti web** → **Gestisci eccezioni...**
 
 - [x] Spunta **Elimina cookie e dati dei siti web alla chiusura di Firefox**
 
-Ciò ti protegge dai cookie persistenti, ma non dai cookie acquisiti durante qualsiasi singola sessione di navigazione. Quando tale opzione è abilitata, diventa possibile pulire facilmente i cookie del tuo browser, semplicemente riavviando Firefox. Puoi impostare delle eccezioni a seconda del sito, se desideri rimanere connesso a un sito in particolare, che visiti spesso.
+Ciò ti protegge dai cookie persistenti, ma non da quelli acquisiti durante ogni sessione di navigazione. Con questa opzione attiva, è possibile eliminare facilmente i cookie del browser riavviando Firefox. Puoi impostare delle eccezioni a seconda del sito, se desideri rimanere connesso a un sito in particolare, che visiti spesso.
 
 ##### Telemetria
 
@@ -350,7 +350,7 @@ Ecco alcuni altri [elenchi di filtri](https://github.com/gorhill/uBlock/wiki/Das
 
 **Ti preghiamo di notare che non siamo affiliati con alcuno dei progetti consigliati.** Oltre ai [nostri criteri standard](about/criteria.md), abbiamo sviluppato una serie chiara di requisiti per consentirci di fornire consigli oggettivi. Ti suggeriamo di familiarizzare con questi elenchi, prima di scegliere di utilizzare un progetto e di condurre le tue ricerche per assicurarti che si tratti della scelta migliore per te.
 
-!!! esempio "Questa sezione è nuova"
+!!! example "Questa sezione è nuova"
 
     Stiamo lavorando per stabilire i criteri definiti per ogni sezione del nostro sito e, questa, potrebbe essere soggetta a modifiche. Se hai qualsiasi domanda sui nostri criteri, ti preghiamo di [chiedere sul nostro forum](https://discuss.privacyguides.net/latest) e di non supporre che non abbiamo considerato qualcosa, formulando i nostri consigli, se non elencato qui. Molti fattori sono presi in considerazione e discussi quando consigliamo un progetto e la documentazione di ognuno è in lavorazione.
 

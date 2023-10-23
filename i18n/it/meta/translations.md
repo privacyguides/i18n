@@ -20,7 +20,7 @@ Quando sono utilizzati, gli ammonimenti avranno, di default, una stringa in ingl
     !!! warning "Waarschuwing"
     ```
 
-=== "Testo di origine in inglese"
+=== "Testo originale in inglese"
 
     ```text
     !!! warning "Attenzione"
@@ -34,7 +34,7 @@ I download sono [ammonimenti personalizzati](https://squidfunk.github.io/mkdocs-
     ??? downloads "Downloaden"
     ```
 
-=== "Testo di origine in inglese"
+=== "Testo originale in inglese"
 
     ```text
     ??? downloads
@@ -50,13 +50,13 @@ I consigli sono un tipo di ammonimento speciale che **non** necessita di sovrasc
     !!! recommendation
     ```
 
-=== "Testo di origine in inglese"
+=== "Testo originale in inglese"
 
     ```text
     !!! recommendation
     ```
 
-## Risultato di traduzione
+## Risultato traduzione
 
 Il software di traduzione ottiene delle traduzioni abbastanza accurate; tuttavia, devi assicurarti che la stringa tradotta sia corretta.
 

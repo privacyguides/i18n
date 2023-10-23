@@ -14,7 +14,7 @@ Gestiamo una serie di servizi web per testare le nostre funzionalità e promuove
 
 - Dominio: [code.privacyguides.dev](https://code.privacyguides.dev)
 - Disponibilità: Solo su invito  
-  L'accesso può essere concesso su richiesta a qualsiasi team stia lavorando allo sviluppo o ai contenuti di *Privacy Guides*.
+  L'accesso può essere concesso su richiesta a tutti i team che lavorano allo sviluppo o ai contenuti di *Privacy Guides*.
 - Fonte: [snapcraft.io/gitea](https://snapcraft.io/gitea)
 
 ## Matrix

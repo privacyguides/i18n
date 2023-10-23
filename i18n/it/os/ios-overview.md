@@ -73,7 +73,7 @@ Abilitare la **Modalità Aereo** impedisce al tuo telefono di contattare le torr
 
 #### Wi-Fi
 
-Puoi abilitare la casualizzazione dell'indirizzo hardware per proteggerti dl tracciamento sulle reti Wi-Fi. Sulla rete a cui sei attualmente connesso, premi il pulsante :material-information::
+Puoi abilitare la randomizzazione dell'indirizzo hardware per proteggerti dal tracciamento sulle reti Wi-Fi. Sulla rete a cui sei attualmente connesso, premi il pulsante :material-information::
 
 - [x] Attiva l'**Indirizzo Wi-Fi Privato**
 

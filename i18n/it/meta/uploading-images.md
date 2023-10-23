@@ -47,17 +47,17 @@ Nella scheda **Opzioni**:
 
 Nella scheda **Output SVG**, in **Opzioni documento**:
 
-- [ ] Disattiva **Rimuovi la dichiarazione XML**
-- [x] Attiva **Rimuovi i metadati**
-- [x] Attiva **Rimuovi i commenti**
-- [x] Attiva **Immagini raster incorporate**
-- [x] Attiva **Abilita l'anteprima**
+- [ ] Disattiva **Rimuovi dichiarazione XML**
+- [x] Attiva **Rimuovi metadati**
+- [x] Attiva **Rimuovi commenti**
+- [x] Attiva **Incorpora immagini raster**
+- [x] Attiva **Attiva anteprima**
 
 Nella scheda **Output SVG**, in **Formattazione**:
 
 - [ ] Disattiva **Output con a capo e indentazioni**
 - **Caratteri di indentazione** > Seleziona**Spazio**
-- **Profondità d'indentazione** > **1**
+- **Ampiezza indentazione** > **1**
 - [ ] Disattiva **Elimina l'attributo "xml:space" dall'elemento SVG di base**
 
 Nella scheda **ID**:
@@ -65,7 +65,7 @@ Nella scheda **ID**:
 - [x] Attiva **Rimuovi ID non utilizzati**
 - [ ] Disattiva **Abbrevia ID**
 - **Prefissa gli ID abbreviati** > `lascia vuoto`
-- [x] Attiva **Mantieni ID manuali che non finiscono con cifre**
+- [x] Attiva **Mantieni ID manuali che non finiscono per cifra**
 - **Mantieni gli ID seguenti** > `lascia vuoto`
 - **Mantieni gli ID che iniziano con** > `lascia vuoto`
 

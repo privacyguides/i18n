@@ -45,21 +45,21 @@ Queste, tendono a essere buone opzioni per i pagamenti ricorrenti/abbonamenti on
 
 Le criptovalute sono una forma di valuta digitale, progettata per funzionare senza autorità centrale, come un governo o una banca. Mentre *alcuni* progetti di criptovalute possono consentirti di effettuare transazioni private online, molti utilizzano una blockchain pubblica che non fornisce alcuna privacy delle transazioni. Inoltre, le criptovalute tendono a essere risorse molto volatili, a significare che il loro valore può cambiare rapidamente e significativamente, in qualsiasi momento. Per questo, generalmente, sconsigliamo l'utilizzo di criptovalute come riserva di valore a lungo termine. Se decidi di utilizzare le criptovalute online, assicurati prima di avere la piena comprensione degli aspetti relativi alla privacy, e di investire soltanto somme che non sarebbero disastrose da perdere.
 
-!!! danger
+!!! danger "Attenzione"
 
-    La vasta maggioranza delle criptovalute operano su una blockchain **pubblica**, a significare che ogni transazione è di dominio pubblico. Ciò include anche gran parte delle più note criptovalute, come Bitcoin ed Ethereum. Le transazioni con tali criptovalute non dovrebbero essere considerate private e non proteggeranno il tuo anonimato.
+    La maggior parte delle criptovalute operano su una blockchain **pubblica**, il che significa che ogni transazione è di dominio pubblico. Ciò include anche gran parte delle più note criptovalute, come Bitcoin ed Ethereum. Le transazioni con tali criptovalute non dovrebbero essere considerate private e non proteggeranno il tuo anonimato.
     
     Inoltre, molte se non gran parte delle criptovalute, sono truffe. Effettua attentamente le transazioni, soltanto con i progetti di cui ti fidi.
 
-### Valute della Privacy
+### Privacy Coin
 
 Esistono numerosi progetti di criptovalute che pretendono di garantire la privacy, rendendo anonime le transazioni. Consigliamo di utilizzarne uno che fornisca l'anonimato delle transazioni **di default**, per evitare gli errori operativi.
 
 - [Criptovalute consigliate :material-arrow-right-drop-circle:](../cryptocurrency.md#coins)
 
-I privacy coin sono stati soggetti a un crescente scrutinio dalle agenzie governative. Nel 2020, [l'IRS ha pubblicato una taglia di $625.000](https://www.forbes.com/sites/kellyphillipserb/2020/09/14/irs-will-pay-up-to-625000-if-you-can-crack-monero-other-privacy-coins/?sh=2e9808a085cc) per gli strumenti in grado di violare la Rete Lightning di Bitcoin e/o la privacy delle transazioni di Monero. Infine, [hanno pagato due aziende](https://sam.gov/opp/5ab94eae1a8d422e88945b64181c6018/view) (Chinalysis e Integra Fec), per un totale di $1,25 milioni per strumenti che pretendono di farlo (non si sa qule rete di criptovalute sia mirata da tali strumenti). A causa della segretezza che circonda strumenti come questi, ==nessuno di questi metodi di rintracciamento delle criptovalute è stato confermato indipendentemente.== Tuttavia, è molto probabile che gli strumenti che assistono le indagini mirate nelle transazioni private esistano, e che i Privacy Coin siano riusciti soltanto a contrastare la sorveglianza di massa.
+Le Privacy Coins sono state oggetto di un crescente controllo da parte delle agenzie governative. Nel 2020, [l'IRS ha pubblicato una taglia di $625.000](https://www.forbes.com/sites/kellyphillipserb/2020/09/14/irs-will-pay-up-to-625000-if-you-can-crack-monero-other-privacy-coins/?sh=2e9808a085cc) per gli strumenti in grado di violare la Rete Lightning di Bitcoin e/o la privacy delle transazioni di Monero. Infine, [hanno pagato due aziende](https://sam.gov/opp/5ab94eae1a8d422e88945b64181c6018/view) (Chinalysis e Integra Fec), per un totale di $1,25 milioni per strumenti che pretendono di farlo (non si sa qule rete di criptovalute sia mirata da tali strumenti). A causa della segretezza che circonda strumenti come questi, ==nessuno di questi metodi di tracciamento delle criptovalute è stato confermato indipendentemente.== Tuttavia, è molto probabile che esistano strumenti che aiutano le indagini mirate sulle transazioni di monete private, e che le monete private riescano solo a contrastare la sorveglianza di massa.
 
-### Altre Valute (Bitcoin, Ethereum, etc.)
+### Altre Valute (Bitcoin, Ethereum, ecc.)
 
 La vasta maggioranza dei progetti di criptovalute utilizza una blockchain pubblica, a significare che tutte le transazioni sono sia facilmente tracciabili che permanenti. Come tali, scoraggiamo vivamente l'utilizzo di gran parte delle criptovalute, per le motivazioni correlate alla privacy.
 
