@@ -31,15 +31,15 @@ Utilizza [Scour](https://github.com/scour-project/scour) per ripulire tutte le i
 
 Su Inkscape:
 
-1. File Salva con nome..
-2. Seleziona il tipo a Optimized SVG (*.svg)
+1. File Salva come...
+2. Seleziona formato SVG ottimizzato (*.svg)
 
 Nella scheda **Opzioni**:
 
 - **Numero di cifre significative per le coordinate:** > **5**
 - [x] Attiva **Abbrevia i valori dei colori**
-- [x] Attiva **Converti gli attributi CSS in attributi XML**
-- [x] Attiva **Comprimi i gruppi**
+- [x] Attiva **Converte gli attributi CSS in attributi XML**
+- [x] Attiva **Unisci i gruppi**
 - [x] Attiva **Crea gruppi per attributi simili**
 - [ ] Disattiva **Mantieni i dati dell'editor**
 - [ ] Disattiva **Mantieni le definizioni senza riferimenti**

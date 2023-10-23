@@ -68,7 +68,7 @@ Notesnook non supporta la protezione con password/PIN sulle app web e desktop. T
 
     ![Logo di Joplin](assets/img/notebooks/joplin.svg){ align=right }
     
-    **Joplin** è un'applicazione gratuita, open source e completa di appunti e liste, che può gestire molte note in Markdown, organizzate in blocchi note e tag. Offre l'E2EE e può sincronizzarsi con Nextcloud, Dropbox e molto altro. Inoltre, offre l'importazione facile da Evernote e dalle note in testo semplice.
+    **Joplin** è un'applicazione gratuita, open source e completa di appunti e liste, che può gestire molte note in Markdown, organizzate in blocchi note e tag. Offre l'E2EE e può sincronizzarsi con Nextcloud, Dropbox e molto altro. Offre anche la possibilità di importare facilmente note da Evernote e note in testo semplice.
     
     [:octicons-home-16: Home](https://joplinapp.org/){ .md-button .md-button--primary }
     [:octicons-eye-16:](https://joplinapp.org/privacy/){ .card-link title="Politica sulla Privacy" }

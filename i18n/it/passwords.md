@@ -189,9 +189,9 @@ Il codice dal lato del server di Bitwarden è [open source](https://github.com/b
         - [:simple-apple: macOS](https://1password.com/downloads/mac/)
         - [:simple-linux: Linux](https://1password.com/downloads/linux/)
 
-Tradizionalmente, **1Password** ha offerto la migliore esperienza d'uso del gestore di password per chi utilizza macOS e iOS; tuttavia, ora ha raggiunto la parità di funzionalità su tutte le piattaforme. Vanta di molte funzionalità orientate alle famiglie e agli individui meno tecnici, oltre che di funzionalità avanzate.
+Tradizionalmente, **1Password** ha offerto la migliore esperienza d'uso del gestore di password per chi utilizza macOS e iOS; tuttavia, ora ha raggiunto la parità di funzionalità su tutte le piattaforme. Vanta molte caratteristiche orientate alle famiglie e alle persone meno tecniche, oltre a funzionalità avanzate.
 
-La tua cassaforte di 1Password è protetta sia dalla tua password principale che da una chiave di sicurezza casualizzata di 34 caratteri, per crittografare i tuoi dati sui loro server. Tale chiave di sicurezza aggiunge un livello di protezione ai tuoi dati, poiché, essi, sono protetti da un'entropia elevata, indipendentemente dalla tua password principale. Molti altri gestori delle password si affidano interamente alla forza della tua password principale per proteggere i tuoi dati.
+La tua cassaforte di 1Password è protetta sia dalla password principale che da una chiave di sicurezza randomizzata di 34 caratteri per crittografare i tuoi dati sui loro server. Tale chiave di sicurezza aggiunge un livello di protezione ai tuoi dati, poiché, essi, sono protetti da un'entropia elevata, indipendentemente dalla tua password principale. Molti altri gestori delle password si affidano interamente alla forza della tua password principale per proteggere i tuoi dati.
 
 Un vantaggio di 1Password rispetto a Bitwarden è il supporto di prima classe per i client nativi. Mentre Bitwarden relega molti doveri, specialmente le funzionalità di gestione dei profili, all'interfaccia della propria cassaforte web, 1Password rende disponibile quasi ogni funzionalità, nei propri client mobile o desktop nativi. Inoltre, i client di 1Password, dispongono di un'interfaccia utente più intuitiva, che ne semplifica l'utilizzo e la navigazione.
 

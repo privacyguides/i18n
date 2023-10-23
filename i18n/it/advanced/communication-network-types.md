@@ -54,7 +54,7 @@ Quando ospitati autonomamente, i membri di un server federato possono scoprire e
 - I server federati richiedono generalmente di affidarsi all'amministratore del proprio server. Potrebbe essere un hobbista o, comunque, non un "professionista della sicurezza" e potrebbe non fornire documenti standard, come una politica sulla privacy o i termini di servizio, che descrivono come sono utilizzati i tuoi dati.
 - Gli amministratori del server, talvolta, scelgono di bloccare altri server, fonte di abusi non moderati o che infrangono le regole generali di comportamento accettate. Questo ostacolerà la tua abilità di comunicare con i membri di quei server.
 
-## Reti Tra Pari
+## Reti peer-to-peer
 
 ![Diagramma del P2P](../assets/img/layout/network-distributed.svg){ align=left }
 
@@ -74,7 +74,7 @@ Le reti P2P non utilizzano i server, poiché i pari comunicano direttamente tra 
 **Svantaggi:**
 
 - Serie di funzionalità ridotte:
-- I messaggi possono essere inviati soltanto quando entrambi i pari sono online, tuttavia, il tuo client potrebbe memorizzare i messaggi localmente, in attesa del ritorno online del contatto.
+- I messaggi possono essere inviati solo quando entrambi i peer sono online; tuttavia, il client può memorizzare i messaggi in locale per attendere che il contatto torni online.
 - Generalmente, incrementa il consumo di batteria sui dispositivi mobili, poiché il client deve rimanere connesso alla rete distribuita per comprendere chi è online.
 - Alcune funzionalità di messaggistica comuni potrebbero non essere implementate o essere incomplete, come l'eliminazione dei messaggi.
 - Il tuo indirizzo IP e quello dei contatti con cui stai comunicando, potrebbe essere esposto se non utilizzi il software con una [VPN](../vpn.md) o con [Tor](../tor.md). In molti paesi esiste una forma di sorveglianza di massa e/o di conservazione dei metadati.
