@@ -84,13 +84,13 @@ schema:
 
 ### フィンガープリント対策
 
-**[VPN](vpn.md)**を使用しなくても、Mullvad Browserを使えば、Firefox+[Arkenfox](#arkenfox-advanced)や[Brave](#brave)などの他のプライベートブラウザーと同様、[初歩的なフィンガープリントスクリプト](https://github.com/arkenfox/user.js/wiki/3.3-Overrides-%5BTo-RFP-or-Not%5D#-fingerprinting)から身を守ることができます。 Mullvad Browserは、そのままでこれらの保護機能を提供しますが、その一方で、他のプライベートブラウザが提供できる柔軟性と利便性を犠牲にしています。
+**[VPN](vpn.md)**を使用しなくても、Mullvad Browserを使えば、Firefox+[Arkenfox](#arkenfox-advanced)や[Brave](#brave)などの他のプライベートブラウザーと同様、[初歩的なフィンガープリントスクリプト](https://github.com/arkenfox/user.js/wiki/3.3-Overrides-%5BTo-RFP-or-Not%5D#-fingerprinting)から身を守ることができます。 Mullvad Browserは、他のプライベートブラウザーが提供できる柔軟性と利便性を犠牲にしながら、デフォルトでこれらの保護機能を提供しています。
 
-==最強のフィンガープリンティング保護を求めるのであれば、Mullvadであろうと他の推奨されるVPNプロバイダであろうと、VPNと**併用**してMullvad Browserを使用することを推奨します==。 VPNをMullvad Browserと併用すると、多数の他のユーザーと同じフィンガープリントとIPアドレスを共有することになり、あなたは"群衆"の中に溶け込むことができます。 この戦略は高度なトラッキングスクリプトを阻止する唯一の方法であり、Torブラウザが使用しているのと同じ対フィンガープリンティング技術です。
+==最強のフィンガープリンティング保護を求めるならば、Mullvadまたは他の推奨されるVPNプロバイダーと**併せて**、Mullvad Browserを使うことを推奨します==。 VPNをMullvad Browserと併用すると、多数の他のユーザーと同じフィンガープリントとIPアドレスを共有することになり、"群衆"の中に紛れ込むことができます。 この戦略は高度なトラッキングスクリプトを阻止する唯一の方法であり、また、Tor Browserが使用しているのと同じフィンガープリンティング対策技術です。
 
-注意してください。Mullvad BrowserはどのVPNプロバイダとも使用することができますが、そのVPNを使用している他のユーザーもMullvad Browserを使用している必要があります。この"群衆"が存在するためには、Mullvad VPNにおいて他のプロバイダよりも特にMullvad Browserのリリース直前において、それがより可能性が高いです。 Mullvad Browserは、組み込みのVPN接続機能がなく、ブラウジングする前にVPNを使用しているかどうかを確認する機能もありません。VPN接続は別途設定し、管理する必要があります。
+なお、Mullvad BrowserはどのVPNプロバイダーとも併用することができますが、この「群衆」が存在するには、そのVPNを使用している他の人々もまた、Mullvad Browserを使用している必要があります。Mullvad BrowserのローンチとMullvad VPNが非常に近いことを考慮すると、これは他のVPNプロバイダーよりも、Mullvad VPNにおいて見られる可能性が高いです。 Mullvad Browserには、組み込みのVPN接続機能が備わっておりません。また、ブラウザーを使用する前にVPNを使用しているかどうかを確認する機能もありません。VPN接続は別途設定し、管理する必要があります。
 
-Mullvad Browserには、*uBlock Origin*と*NoScript*のブラウザ拡張機能が事前にインストールされています。 通常、*余分な*ブラウザ拡張機能の追加は[推奨していません](#extensions)が、ブラウザに事前にインストールされているこれらの拡張機能は、デフォルトの設定を変更したり削除したりしないでください。それを行うと、あなたのフィンガープリントが他のMullvad Browserユーザーと比べ特有なものになるからです。 また、Mullvad Browser Extensionも事前にインストールされており、必要に応じて安全に削除してもブラウザのフィンガープリントに影響を及ぼしません。Mullvad Vpnを使用しない場合でも保持しておいても安全です。
+Mullvad Browserには、*uBlock Origin*と*NoScript*のブラウザー拡張機能がプリインストールされています。 通常、*余分な*ブラウザ拡張機能の追加は[推奨していません](#extensions)が、ブラウザに事前にインストールされているこれらの拡張機能は、デフォルトの設定を変更したり削除したりしないでください。それを行うと、あなたのフィンガープリントが他のMullvad Browserユーザーと比べ特有なものになるからです。 また、Mullvad Browser Extensionも事前にインストールされており、必要に応じて安全に削除してもブラウザのフィンガープリントに影響を及ぼしません。Mullvad Vpnを使用しない場合でも保持しておいても安全です。
 
 ### プライベートブラウジングモード
 
