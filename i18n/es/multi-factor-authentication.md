@@ -96,13 +96,13 @@ Recomendamos encarecidamente que utilice aplicaciones TOTP para móviles en luga
 
     ![ente Auth logo](assets/img/multi-factor-authentication/ente-auth.png){ align=right }
     
-    **ente Auth** is a free and open-source app which stores and generates TOTP tokens on your mobile device. It can be used with an online account to backup and sync your tokens across your devices (and access them via a web interface) in a secure, end-to-end encrypted fashion. It can also be used offline on a single device with no account necessary.
+    **ente Auth** es una aplicación gratuita y de código abierto que almacena y genera tokens TOTP en su dispositivo móvil. Esta permite utilizar una cuenta en línea para realizar copias de seguridad y sincronizar sus tokens entre sus dispositivos (y accesarlos por medio de una interfaz web) de una manera secura y cifrada de extremo a extremo. También se puede utilizar sin conexión a Internet en un único dispositivo sin la necesidad de una cuenta.
     
-    [:octicons-home-16: Homepage](https://ente.io/auth){ .md-button .md-button--primary }
-    [:octicons-eye-16:](https://ente.io/privacy){ .card-link title="Privacy Policy" }
-    [:octicons-code-16:](https://github.com/ente-io/auth){ .card-link title="Source Code" }
+    [:octicons-home-16: Página principal](https://ente.io/auth){ .md-button .md-button--primary }
+    [:octicons-eye-16:](https://ente.io/privacy){ .card-link title="Política de privacidad" }
+    [:octicons-code-16:](https://github.com/ente-io/auth){ .card-link title="Código fuente" }
     
-    ??? downloads
+    ??? downloads "Descargas"
     
         - [:simple-googleplay: Google Play](https://play.google.com/store/apps/details?id=io.ente.auth)
         - [:simple-appstore: App Store](https://apps.apple.com/us/app/ente-authenticator/id6444121398)
@@ -111,11 +111,11 @@ Recomendamos encarecidamente que utilice aplicaciones TOTP para móviles en luga
 
 ### Aegis Authenticator (Android)
 
-!!! recommendation
+!!! recommendation "Recomendación"
 
     ![Aegis logo](assets/img/multi-factor-authentication/aegis.png){ align=right }
     
-    **Aegis Authenticator** is a free and open-source app for Android to manage your 2-step verification tokens for your online services. Aegis Authenticator operates completely offline/locally, but includes the option to export your tokens for backup unlike many alternatives.
+    **Aegis Authenticator** es una aplicación gratuita y de código abierto para gestionar sus tokens para la verificación de 2 pasos de sus servicios en línea. Aegis Authenticator funciona completamente sin conexión/localmente, pero incluye una opción para exportar sus tokens para respaldarlos, a diferencia de otras alternativas.
     
     [:octicons-home-16: Página Principal](https://getaegis.app){ .md-button .md-button--primary }
     [:octicons-eye-16:](https://getaegis.app/aegis/privacy.html){ .card-link title="Política de Privacidad" }
