@@ -182,7 +182,7 @@ This prevents you from unintentionally connecting to a website in plain-text HTT
 
 ##### DNS over HTTPS
 
-If you use a [DNS over HTTPS provider](dns.md):
+Jika Anda menggunakan [penyedia DNS melalui HTTPS](dns.md):
 
 - [x] Select **Max Protection** and choose a suitable provider
 

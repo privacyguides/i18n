@@ -1,5 +1,5 @@
 ---
-meta_title: "Tor Browser and Network: Anonymous Web Browsing - Privacy Guides"
+meta_title: "Peramban dan Jaringan Tor: Penjelajahan Web Anonim - Privacy Guides"
 title: "Jaringan Tor"
 icon: simple/torproject
 description: Protect your internet browsing from prying eyes by using the Tor network, a secure network which circumvents censorship.
