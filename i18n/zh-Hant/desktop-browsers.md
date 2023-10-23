@@ -182,11 +182,11 @@ Mullvad Browser 將DuckDuckGo 設置為預設的 [搜索引擎](search-engines.m
 
 ##### 通過 HTTPS 的 DNS
 
-If you use a [DNS over HTTPS provider](dns.md):
+如在[HTTPS 底下](dns.md)使用 DNS:
 
-- [x] Select **Max Protection** and choose a suitable provider
+- [x] 選取 **Max Protection** 與合適的供應商。
 
-Max Protection enforces the use of DNS over HTTPS, and a security warning will show if Firefox can’t connect to your secure DNS resolver, or if your secure DNS resolver says that records for the domain you are trying to access do not exist. This stops the network you're connected to from secretly downgrading your DNS security.
+Max Protection 強制使用 HTTPS 上的 DNS，如果 Firefox 無法連線到安全 DNS 解析器，或安全 DNS 解析器表示所嘗試存取的網域的記錄不存在，則會顯示安全性警告。 這可以阻止秘密連接的網路降低了 DNS 安全性。
 
 #### 同步
 

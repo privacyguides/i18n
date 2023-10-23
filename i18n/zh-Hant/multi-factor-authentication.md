@@ -96,13 +96,13 @@ Nitrokey Pro 2、Nitrokey Storage 2 和即將推出的 Nitrokey 3 支持筆記�
 
     ![ente Auth logo](assets/img/multi-factor-authentication/ente-auth.png){ align=right }
     
-    **ente Auth** is a free and open-source app which stores and generates TOTP tokens on your mobile device. It can be used with an online account to backup and sync your tokens across your devices (and access them via a web interface) in a secure, end-to-end encrypted fashion. It can also be used offline on a single device with no account necessary.
+    **ente Auth** 是一款免費的開源應用，可在行動裝置上儲存和產生 TOTP 令牌。 它可以與線上帳戶一起使用，以安全、端對端加密的方式在裝置上備份和同步令牌（並透過網頁介面存取它們）。 它也可在單一設備上離線使用，無需帳戶。
     
     [:octicons-home-16: Homepage](https://ente.io/auth){ .md-button .md-button--primary }
     [:octicons-eye-16:](https://ente.io/privacy){ .card-link title="Privacy Policy" }
     [:octicons-code-16:](https://github.com/ente-io/auth){ .card-link title="Source Code" }
     
-    ??? downloads
+    ??? downloads "下載"
     
         - [:simple-googleplay: Google Play](https://play.google.com/store/apps/details?id=io.ente.auth)
         - [:simple-appstore: App Store](https://apps.apple.com/us/app/ente-authenticator/id6444121398)
@@ -111,11 +111,11 @@ Nitrokey Pro 2、Nitrokey Storage 2 和即將推出的 Nitrokey 3 支持筆記�
 
 ### Aegis Authenticator (Android)
 
-!!! recommendation
+!!! 推薦
 
     ![Aegis logo](assets/img/multi-factor-authentication/aegis.png){ align=right }
     
-    **Aegis Authenticator** is a free and open-source app for Android to manage your 2-step verification tokens for your online services. Aegis Authenticator operates completely offline/locally, but includes the option to export your tokens for backup unlike many alternatives.
+    **Aegis Authenticator** 是一款適用於 Android 的免費開源應用程式，管理線上服務的兩步驟驗證。 Aegis Authenticator 完全離線/本機運行，不同於許多替代方案，它具備匯出令牌以進行備份的選項。
     
     [:octicons-home-16: Homepage](https://getaegis.app){ .md-button .md-button--primary }
     [:octicons-eye-16:](https://getaegis.app/aegis/privacy.html){ .card-link title="Privacy Policy" }

@@ -339,7 +339,7 @@ DNSSEC 在所有 DNS 層中實施分級數位簽名政策。 例如，查詢 `pr
 
 ## 什麼是QNAME最小化？
 
-QNAME 指 "合格域名"，例如 `discuss.privacyguides.net`. In the past, when resolving a domain name your DNS resolver would ask every server in the chain to provide any information it has about your full query. In this example below, your request to find the IP address for `discuss.privacyguides.net` gets asked of every DNS server provider:
+QNAME 指 "合格域名"，例如 `discuss.privacyguides.net`. 過去，在解析網域名稱時， DNS 解析器會要求鏈中各伺服器提供關於此查詢的全部資訊。 在下面範例中，每個 DNS 伺服器提供者都會被詢問尋找 `discuss.privacyguides.net` IP 位址的請求：
 
 | 伺服器                | 問題請求                                | 回應                           |
 | ------------------ | ----------------------------------- | ---------------------------- |
@@ -348,7 +348,7 @@ QNAME 指 "合格域名"，例如 `discuss.privacyguides.net`. In the past, when
 | Privacy Guides 伺服器 | Discuss.privacyguides.net 的 IP 是多少? | 5.161.195.190!               |
 
 
-With "QNAME minimization," your DNS resolver now only asks for just enough information to find the next server in the chain. In this example, the root server is only asked for enough information to find the appropriate nameserver for the .net TLD, and so on, without ever knowing the full domain you're trying to visit:
+透過“QNAME 最小化”，DNS 解析器現在只需要足夠的資訊來尋找鏈中的下一個伺服器。 在範例中，僅要求根伺服器提供足夠的資訊來尋找 .net TLD 的適當名稱伺服器等，而無需知道您嘗試造訪的完整網域：
 
 | 伺服器                | 問題請求                                 | 回應                      |
 | ------------------ | ------------------------------------ | ----------------------- |
@@ -358,7 +358,7 @@ With "QNAME minimization," your DNS resolver now only asks for just enough infor
 | Privacy Guides 伺服器 | discuss.privacyguides.net 的 IP 是多少?  | 5.161.195.190           |
 
 
-While this process can be slightly more inefficient, in this example neither the central root nameservers nor the TLD's nameservers ever receive information about your *full* query, thus reducing the amount of information being transmitted about your browsing habits. 進一步的技術描述在 [RFC 7816](https://datatracker.ietf.org/doc/html/rfc7816)。
+雖然此過程可能稍減低效率低，但中央根網域伺服器和 TLD 網域伺服器都不會收到有關您的*完整*查詢的資訊，從而減少了資訊量傳輸您瀏覽習慣。 進一步的技術描述在 [RFC 7816](https://datatracker.ietf.org/doc/html/rfc7816)。
 
 
 
