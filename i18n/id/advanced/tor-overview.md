@@ -1,46 +1,46 @@
 ---
-title: "Tor Overview"
+title: "Ikhtisar Tor"
 icon: 'simple/torproject'
-description: Tor is a free to use, decentralized network designed for using the internet with as much privacy as possible.
+description: Tor adalah jaringan terdesentralisasi yang gratis untuk digunakan, dan dirancang untuk penggunaan internet seprivat mungkin.
 ---
 
-Tor is a free to use, decentralized network designed for using the internet with as much privacy as possible. If used properly, the network enables private and anonymous browsing and communications.
+Tor adalah jaringan terdesentralisasi yang gratis untuk digunakan, dan dirancang untuk penggunaan internet seprivat mungkin. Jika digunakan dengan benar, jaringan ini memungkinkan penjelajahan dan komunikasi secara privat dan anonim.
 
-## Path Building to Clearnet Services
+## Membangun Jalur ke Layanan Clearnet
 
-"Clearnet services" are websites which you can access with any browser, like [privacyguides.org](https://www.privacyguides.org). Tor lets you connect to these websites anonymously by routing your traffic through a network comprised of thousands of volunteer-run servers called nodes (or relays).
+"Layanan Clearnet" adalah situs web yang dapat Anda akses dengan peramban apa pun, seperti [privacyguides.org](https://www.privacyguides.org). Tor memungkinkan Anda terhubung ke situs-situs web ini secara anonim dengan mengarahkan lalu lintas Anda melalui jaringan yang terdiri dari ribuan server yang dijalankan secara sukarela yang disebut "simpul" (atau "relai").
 
-Every time you [connect to Tor](../tor.md), it will choose three nodes to build a path to the internet—this path is called a "circuit."
+Setiap kali Anda [terhubung ke Tor](../tor.md), Tor akan memilih tiga simpul untuk membangun jalur ke internet—jalur ini disebut "sirkuit".
 
 <figure markdown>
-  ![Tor path showing your device connecting to an entry node, middle node, and exit node before reaching the destination website](../assets/img/how-tor-works/tor-path.svg#only-light)
-  ![Tor path showing your device connecting to an entry node, middle node, and exit node before reaching the destination website](../assets/img/how-tor-works/tor-path-dark.svg#only-dark)
-  <figcaption>Tor circuit pathway</figcaption>
+  ![Jalur Tor yang menunjukkan perangkat Anda menyambung ke simpul masuk, simpul tengah, dan simpul keluar sebelum mencapai situs web tujuan](../assets/img/how-tor-works/tor-path.svg#only-light)
+  ![Jalur Tor yang menunjukkan perangkat Anda menyambung ke simpul masuk, simpul tengah, dan simpul keluar sebelum mencapai situs web tujuan](../assets/img/how-tor-works/tor-path-dark.svg#only-dark)
+  <figcaption>Jalur sirkuit Tor</figcaption>
 </figure>
 
-Each of these nodes has its own function:
+Simpul-simpul berikut ini memiliki fungsinya masing-masing:
 
-### The Entry Node
+### Simpul Masuk
 
-The entry node, often called the guard node, is the first node to which your Tor client connects. The entry node is able to see your IP address, however it is unable to see what you are connecting to.
+Simpul masuk, sering disebut simpul penjaga, adalah simpul pertama yang disambungkan oleh klien Tor Anda. Simpul masuk dapat melihat alamat IP Anda, namun tidak dapat melihat ke mana Anda tersambung.
 
-Unlike the other nodes, the Tor client will randomly select an entry node and stick with it for two to three months to protect you from certain attacks.[^1]
+Tidak seperti simpul lainnya, klien Tor akan memilih simpul entri secara acak dan bertahan dengan simpul tersebut selama dua sampai tiga bulan untuk melindungi Anda dari serangan tertentu.[^1]
 
-### The Middle Node
+### Simpul Tengah
 
-The middle node is the second node to which your Tor client connects. It can see which node the traffic came from—the entry node—and to which node it goes to next. The middle node cannot, see your IP address or the domain you are connecting to.
+Simpul tengah adalah simpul kedua yang disambungkan oleh klien Tor Anda. Simpul ini dapat melihat dari simpul mana lalu lintas berasal—simpul masuk—dan ke simpul mana lalu lintas tersebut menuju. Simpul tengah tidak dapat, melihat alamat IP Anda atau domain yang Anda sambungkan.
 
-For each new circuit, the middle node is randomly selected out of all available Tor nodes.
+Untuk setiap sirkuit baru, simpul tengah dipilih secara acak dari semua simpul Tor yang tersedia.
 
-### The Exit Node
+### Simpul Keluar
 
-The exit node is the point in which your web traffic leaves the Tor network and is forwarded to your desired destination. The exit node is unable to see your IP address, but it does know what site it's connecting to.
+Simpul keluar adalah titik lalu lintas web Anda meninggalkan jaringan Tor dan diteruskan ke tujuan yang Anda inginkan. Simpul keluar tidak dapat melihat alamat IP Anda, tetapi tahu situs apa yang hendak disambungkan.
 
-The exit node will be chosen at random from all available Tor nodes ran with an exit relay flag.[^2]
+Simpul keluar akan dipilih secara acak dari semua simpul Tor yang tersedia, yang ditandai sebagai relai keluar.[^2]
 
-## Path Building to Onion Services
+## Membangun Jalur ke Layanan Onion
 
-"Onion Services" (also commonly referred to as "hidden services") are websites which can only be accessed by the Tor browser. These websites have a long randomly generated domain name ending with `.onion`.
+"Layanan Onion" (juga sering disebut sebagai "layanan tersembunyi") adalah situs web yang hanya dapat diakses oleh peramban Tor. Situs web ini memiliki nama domain panjang yang dibuat secara acak yang diakhiri dengan `.onion`.
 
 Connecting to an Onion Service in Tor works very similarly to connecting to a clearnet service, but your traffic is routed through a total of **six** nodes before reaching the destination server. Just like before however, only three of these nodes are contributing to *your* anonymity, the other three nodes protect *the Onion Service's* anonymity, hiding the website's true IP and location in the same manner that Tor Browser is hiding yours.
 

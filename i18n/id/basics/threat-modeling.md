@@ -5,17 +5,17 @@ icon: 'material/target-account'
 description: Menyeimbangkan keamanan, privasi, dan kegunaan adalah salah satu tugas pertama dan paling sulit yang akan Anda hadapi dalam perjalanan privasi Anda.
 ---
 
-Menyeimbangkan keamanan, privasi, dan kegunaan adalah salah satu tugas pertama dan paling sulit yang akan Anda hadapi dalam perjalanan privasi Anda. Semua hal memiliki konsekuensi: Semakin aman sesuatu maka semakin membatasi atau susah, dll. Sering kali, orang menemukan bahwa masalah dengan alat yang mereka lihat direkomendasikan adalah bahwa alat tersebut terlalu sulit untuk mulai digunakan!
+Menyeimbangkan keamanan, privasi, dan kegunaan adalah salah satu tugas pertama dan paling sulit yang akan Anda hadapi dalam perjalanan privasi Anda. Semua hal memiliki konsekuensi: Semakin aman sesuatu, biasanya semakin membatasi atau sulit pula. Sering kali, orang menemukan bahwa masalah dengan alat yang mereka lihat direkomendasikan adalah bahwa alat tersebut terlalu sulit untuk mulai digunakan!
 
-Jika Anda ingin menggunakan alat **paling** aman yang tersedia, Anda harus mengorbankan *banyak* kegunaan. And, even then, ==nothing is ever fully secure.== There's **high** security, but never **full** security. Itulah mengapa model ancaman itu penting.
+Jika Anda ingin menggunakan alat **paling** aman yang tersedia, Anda harus mengorbankan *banyak* kegunaan. Dan, meskipun demikian, ==tidak ada yang sepenuhnya aman.== Ada keamanan yang **tinggi**, tetapi tidak pernah ada keamanan **penuh**. Itulah mengapa model ancaman itu penting.
 
 **Jadi, apa saja model ancaman ini?**
 
-==A threat model is a list of the most probable threats to your security and privacy endeavors.== Since it's impossible to protect yourself against **every** attack(er), you should focus on the **most probable** threats. Dalam keamanan komputer, ancaman adalah peristiwa yang dapat merusak upaya Anda untuk tetap pribadi dan aman.
+==Model ancaman adalah daftar ancaman yang paling mungkin mengancam upaya keamanan dan privasi Anda.== Karena tidak mungkin melindungi diri Anda sendiri dari **setiap** serangan (atau penyerang), Anda harus fokus pada ancaman yang **paling mungkin terjadi**. Dalam keamanan komputer, ancaman adalah peristiwa yang dapat merusak upaya Anda untuk tetap privat dan aman.
 
-Focusing on the threats that matter to you narrows down your thinking about the protection you need, so you can choose the tools that are right for the job.
+Berfokus pada ancaman yang penting bagi Anda akan mempersempit pemikiran Anda tentang perlindungan yang Anda butuhkan, sehingga Anda bisa memilih alat yang tepat untuk pekerjaan itu.
 
-## Creating Your Threat Model
+## Membuat Model Ancaman Anda
 
 Untuk mengidentifikasi apa yang dapat terjadi pada hal-hal yang Anda hargai dan menentukan siapa yang perlu Anda lindungi, Anda harus menjawab lima pertanyaan berikut:
 
@@ -63,7 +63,7 @@ Perencanaan keamanan melibatkan pemahaman tentang seberapa buruk konsekuensi yan
 
 ==Tidak ada pilihan yang sempurna untuk keamanan.== Tidak semua orang memiliki prioritas, kekhawatiran, atau akses yang sama ke sumber daya. Penilaian risiko Anda akan memungkinkan Anda untuk merencanakan strategi yang tepat untuk Anda, dengan menyeimbangkan kenyamanan, biaya, dan privasi.
 
-For example, an attorney representing a client in a national security case may be willing to go to greater lengths to protect communications about that case, such as using encrypted email, than a mother who regularly emails her daughter funny cat videos.
+Sebagai contoh, seorang pengacara yang mewakili klien dalam kasus keamanan nasional mungkin bersedia melakukan upaya yang lebih besar untuk melindungi komunikasi tentang kasus tersebut, seperti menggunakan surel terenkripsi, daripada seorang ibu yang secara teratur mengirimkan video kucing lucu kepada putrinya melalui surel.
 
 *Tuliskan pilihan apa saja yang tersedia bagi Anda untuk membantu mengurangi ancaman unik Anda. Perhatikan jika Anda memiliki kendala keuangan, kendala teknis, atau kendala sosial.*
 
@@ -108,4 +108,4 @@ Bagi orang-orang yang ingin meningkatkan privasi dan keamanan daring mereka, kam
 
 ## Sumber
 
-- [Ef Surveillance Self Defense: Rencana Keamanan Anda](https://ssd.eff.org/en/module/your-security-plan)
+- [EFF Surveillance Self Defense: Your Security Plan](https://ssd.eff.org/en/module/your-security-plan)
