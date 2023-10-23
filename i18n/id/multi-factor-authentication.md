@@ -98,11 +98,11 @@ We highly recommend that you use mobile TOTP apps instead of desktop alternative
     
     **ente Auth** adalah sebuah aplikasi sumber terbuka dan gratis yang menyimpan dan menghasilkan token TOTP pada perangkat seluler Anda. Aplikasi tersebut dapat digunakan dengan akun daring untuk mencadangkan dan menyinkronkanisasi token Anda di seluruh perangkat Anda (dan mengaksesnya melalui antarmuka web) dengan cara yang aman dan terenkripsi ujung-ke-ujung. Aplikasi ini juga dapat digunakan secara luring pada satu perangkat tanpa perlu akun.
     
-    [:octicons-home-16: Homepage](https://ente.io/auth){ .md-button .md-button--primary }
-    [:octicons-eye-16:](https://ente.io/privacy){ .card-link title="Privacy Policy" }
-    [:octicons-code-16:](https://github.com/ente-io/auth){ .card-link title="Source Code" }
+    [:octicons-home-16: Beranda](https://ente.io/auth){ .md-button .md-button--primary }
+    [:octicons-eye-16:](https://ente.io/privacy){ .card-link title="Kebijakan Privasi" }
+    [:octicons-code-16:](https://github.com/ente-io/auth){ .card-link title="Kode Sumber" }
     
-    ??? downloads
+    ??? unduhan
     
         - [:simple-googleplay: Google Play](https://play.google.com/store/apps/details?id=io.ente.auth)
         - [:simple-appstore: App Store](https://apps.apple.com/us/app/ente-authenticator/id6444121398)
@@ -111,11 +111,11 @@ We highly recommend that you use mobile TOTP apps instead of desktop alternative
 
 ### Aegis Authenticator (Android)
 
-!!! recommendation
+!!! rekomendasi
 
     ![Aegis logo](assets/img/multi-factor-authentication/aegis.png){ align=right }
     
-    **Aegis Authenticator** is a free and open-source app for Android to manage your 2-step verification tokens for your online services. Aegis Authenticator operates completely offline/locally, but includes the option to export your tokens for backup unlike many alternatives.
+    **Aegis Authenticator** adalah aplikasi gratis dan bersumber terbuka untuk Android guna mengelola token verifikasi 2 langkah untuk layanan daring Anda. Aegis Authenticator beroperasi sepenuhnya secara luring/lokal, tetapi menyertakan opsi untuk mengekspor token Anda untuk pencadangan, tidak seperti banyak alternatif lainnya.
     
     [:octicons-home-16: Homepage](https://getaegis.app){ .md-button .md-button--primary }
     [:octicons-eye-16:](https://getaegis.app/aegis/privacy.html){ .card-link title="Privacy Policy" }
