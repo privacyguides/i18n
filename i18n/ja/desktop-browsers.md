@@ -8,7 +8,7 @@ schema:
   - 
     "@context": http://schema.org
     "@type": WebPage
-    name: プライベートデスクトップブラウザの推奨
+    name: 推奨するプライベートブラウザー
     url: "./"
     relatedLink: "../mobile-browsers/"
   - 
@@ -80,11 +80,11 @@ schema:
         - [:simple-apple: macOS](https://mullvad.net/en/download/browser/macos)
         - [:simple-linux: Linux](https://mullvad.net/en/download/browser/linux)
 
-[Torブラウザ](tor.md)と同様に、Mullvadブラウザは、あなたのブラウザのフィンガープリントを他のすべてのMullvadユーザーと同一にすることでフィンガープリントを防ぐように設計されています。また、デフォルトのセキュリティレベル：*Standard（標準）*、*Safer（より安全）*、*Safest（最も安全）*によって自動的に設定されるデフォルトの設定と拡張機能が含まれています。 したがって、[デフォルトのセキュリティレベル](https://tb-manual.torproject.org/security-settings/)を調整する以外の変更をしないことが大事です。 その他の変更は、あなたのフィンガープリントを特有なものにし、このブラウザを使用する目的を失うことになるでしょう。 ブラウザをより詳細に設定し、フィンガープリントも気にならない場合は、代わりに[Firefox](#firefox)を推奨します。
+[Tor Browser](tor.md)と同様に、Mullvad Browserは、あなたのブラウザーのフィンガープリントを他のすべてのMullvadユーザーと同一にすることで、フィンガープリンティングを防ぐよう設計されています。また、*Standard（標準）*、*Safer（より安全）*、*Safest（最も安全）*の3つのデフォルトのセキュリティレベルにより自動的に調整される設定と拡張機能が含まれています。 したがって、デフォルトの[セキュリティーレベル](https://tb-manual.torproject.org/security-settings/)を調整する以外の変更は、決して行うべきではありません。 その他の変更を加えた場合、あなたのブラウザーのフィンガープリントは一意のものとなり、このブラウザを使う意味が無くなってしまいます。 ブラウザーをより詳細に設定したい場合、また、フィンガープリンティングも問題ではない場合は、代わりに[Firefox](#firefox)を推奨します。
 
 ### フィンガープリント対策
 
-**[VPN](vpn.md)**を使用せずとも、MullvadブラウザはFirefox+[Arkenfox](#arkenfox-advanced)や[Brave](#brave)などの他のプライベートブラウザと同様に、[初歩的なフィンガープリントスクリプト](https://github.com/arkenfox/user.js/wiki/3.3-Overrides-%5BTo-RFP-or-Not%5D#-fingerprinting)に対する保護を提供します。 Mullvad Browserは、そのままでこれらの保護機能を提供しますが、その一方で、他のプライベートブラウザが提供できる柔軟性と利便性を犠牲にしています。
+**[VPN](vpn.md)**を使用しなくても、Mullvad Browserを使えば、Firefox+[Arkenfox](#arkenfox-advanced)や[Brave](#brave)などの他のプライベートブラウザーと同様、[初歩的なフィンガープリントスクリプト](https://github.com/arkenfox/user.js/wiki/3.3-Overrides-%5BTo-RFP-or-Not%5D#-fingerprinting)から身を守ることができます。 Mullvad Browserは、そのままでこれらの保護機能を提供しますが、その一方で、他のプライベートブラウザが提供できる柔軟性と利便性を犠牲にしています。
 
 ==最強のフィンガープリンティング保護を求めるのであれば、Mullvadであろうと他の推奨されるVPNプロバイダであろうと、VPNと**併用**してMullvad Browserを使用することを推奨します==。 VPNをMullvad Browserと併用すると、多数の他のユーザーと同じフィンガープリントとIPアドレスを共有することになり、あなたは"群衆"の中に溶け込むことができます。 この戦略は高度なトラッキングスクリプトを阻止する唯一の方法であり、Torブラウザが使用しているのと同じ対フィンガープリンティング技術です。
 
