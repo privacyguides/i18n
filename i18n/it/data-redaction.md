@@ -143,5 +143,5 @@ L'applicazione offre diversi modi per cancellare i metadati dalle immagini. Nell
 
     Stiamo lavorando per stabilire i criteri definiti per ogni sezione del nostro sito e, questa, potrebbe essere soggetta a modifiche. Se hai qualsiasi domanda sui nostri criteri, ti preghiamo di [chiedere sul nostro forum](https://discuss.privacyguides.net/latest) e di non supporre che non abbiamo considerato qualcosa, formulando i nostri consigli, se non elencato qui. Molti fattori sono presi in considerazione e discussi quando consigliamo un progetto e la documentazione di ognuno è in lavorazione.
 
-- Apps developed for open-source operating systems must be open source.
+- Le applicazioni sviluppate per sistemi operativi open source devono essere open source.
 - Le applicazioni devono essere gratuite e non devono includere pubblicità o altre limitazioni.

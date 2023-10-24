@@ -174,7 +174,7 @@ Google Pixel-telefoons zijn de **enige** toestellen die we aanraden om te kopen.
     
     **Google Pixel**-apparaten staan bekend om hun goede beveiliging en goede ondersteuning van [Verified Boot](https://source.android.com/security/verifiedboot), zelfs bij het installeren van aangepaste besturingssystemen.
     
-    Vanaf de **Pixel 6** en **6 Pro** krijgen Pixel-apparaten minimaal 5 jaar lang gegarandeerde beveiligingsupdates, wat een veel langere levensduur garandeert dan de 2-4 jaar die concurrerende OEM's doorgaans bieden.
+    Beginning with the **Pixel 8** and **8 Pro**, Pixel devices receive a minimum of 7 years of guaranteed security updates, ensuring a much longer lifespan compared to the 2-5 years competing OEMs typically offer.
     
     [:material-shopping: Store](https://store.google.com/category/phones){ .md-button .md-button--primary }
 

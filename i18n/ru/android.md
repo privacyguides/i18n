@@ -174,7 +174,7 @@ DivestOS использует F-Droid в качестве магазина пр�
     
     Устройства **Google Pixel** известны хорошей безопасностью и правильной поддержкой [Verified Boot](https://source.android.com/security/verifiedboot), даже при установке сторонних операционных систем.
     
-    Начиная с **Pixel 6** и **6 Pro**, устройства Pixel получают минимум 5 лет гарантированных обновлений безопасности, что обеспечивает гораздо более длительный срок службы по сравнению с 2-4 годами, которые обычно предлагают конкурирующие OEM-производители.
+    Beginning with the **Pixel 8** and **8 Pro**, Pixel devices receive a minimum of 7 years of guaranteed security updates, ensuring a much longer lifespan compared to the 2-5 years competing OEMs typically offer.
     
     [:material-shopping: Магазин](https://store.google.com/category/phones){ .md-button .md-button--primary }
 

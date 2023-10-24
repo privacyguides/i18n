@@ -174,7 +174,7 @@ Google Pixel phones are the **only** devices we recommend for purchase. Pixel ph
     
     众所周知，**谷歌Pixel**设备具有良好的安全性，并适当支持[验证启动](https://source.android.com/security/verifiedboot)，即使在安装自定义操作系统时也是如此。
     
-    从**Pixel 6**和**6 Pro**开始，Pixel设备将获得至少5年的安全更新保证，确保其使用寿命比其他竞争OEM厂商通常提供的2-4年要长得多。
+    Beginning with the **Pixel 8** and **8 Pro**, Pixel devices receive a minimum of 7 years of guaranteed security updates, ensuring a much longer lifespan compared to the 2-5 years competing OEMs typically offer.
     
     [:material-shopping: Store](https://store.google.com/category/phones){ .md-button .md-button--primary }
 

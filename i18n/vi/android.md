@@ -172,7 +172,7 @@ Google Pixel phones are the **only** devices we recommend for purchase. Pixel ph
     
     **Google Pixel** devices are known to have good security and properly support [Verified Boot](https://source.android.com/security/verifiedboot), even when installing custom operating systems.
     
-    Chúng tôi vẫn đề xuất GrapheneOS hoặc CalyxOS tùy thuộc vào khả năng tương thích của thiết bị của bạn.
+    Beginning with the **Pixel 8** and **8 Pro**, Pixel devices receive a minimum of 7 years of guaranteed security updates, ensuring a much longer lifespan compared to the 2-5 years competing OEMs typically offer.
     
     Đối với các thiết bị khác, DivestOS là một lựa chọn thay thế tốt.
 

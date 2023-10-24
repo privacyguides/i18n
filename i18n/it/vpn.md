@@ -133,7 +133,7 @@ IVPN è stata sottoposta a un [controllo di non registrazione da Cure53](https:/
 
 #### :material-check:{ .pg-green } Client Open-Source
 
-As of February 2020 [IVPN applications are now open source](https://www.ivpn.net/blog/ivpn-applications-are-now-open-source). Il codice sorgente è ottenibile dalla loro [organizzazione di GitHub](https://github.com/ivpn).
+A partire da febbraio 2020 [le applicazioni IVPN sono ora open source](https://www.ivpn.net/blog/ivpn-applications-are-now-open-source). Il codice sorgente è ottenibile dalla loro [organizzazione di GitHub](https://github.com/ivpn).
 
 #### :material-check:{ .pg-green } Accetta contanti e Monero
 

@@ -174,7 +174,7 @@ I telefoni Google Pixel sono i **soli** dispositivi che consigliamo di acquistar
     
     I dispositivi **Google Pixel** sono noti per avere una buona sicurezza e per supportare adeguatamente l'[Avvio Verificato](https://source.android.com/security/verifiedboot), anche installando sistemi operativi personalizzati.
     
-    A partire da **Pixel 6** e **6 Pro**, i dispositivi Pixel ricevono un minimo di 5 anni di aggiornamenti di sicurezza garantiti, assicurando una durata molto maggiore, rispetto a 2-4 anni tipicamente offerti dagli OEM concorrenti.
+    Beginning with the **Pixel 8** and **8 Pro**, Pixel devices receive a minimum of 7 years of guaranteed security updates, ensuring a much longer lifespan compared to the 2-5 years competing OEMs typically offer.
     
     [:material-shopping: Store](https://store.google.com/category/phones){ .md-button .md-button--primary }
 

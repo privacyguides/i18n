@@ -345,7 +345,7 @@ Crittografando con PGP, puoi configurare diverse opzioni nel tuo file `gpg.confi
 
 ### Requisiti minimi
 
-- Cross-platform encryption apps must be open source.
+- Le applicazioni di crittografia multipiattaforma devono essere open source.
 - Le app di crittografia dei file devono supportare la decrittografia su Linux, macOS e Windows.
 - Le app per la crittografia del disco esterno devono supportare la decrittografia su Linux, macOS e Windows.
 - Le app di crittografia del disco interno (OS) devono essere multipiattaforma o integrate nativamente al sistema operativo.

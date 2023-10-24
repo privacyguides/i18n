@@ -174,7 +174,7 @@ DivestOS משתמשת ב-F-Droid כחנות האפליקציות המוגדרת 
     
     מכשירי **גוגל פיקסל** ידועים כבעלי אבטחה טובה ותומכים כראוי ב[אתחול מאומת](https://source.android.com/security/verifiedboot), גם בעת התקנת מערכות הפעלה מותאמות אישית.
     
-    החל מ-**Pixel 6** ו-**6 Pro**, מכשירי Pixel מקבלים לפחות 5 שנים של עדכוני אבטחה מובטחים, מה שמבטיח תוחלת חיים ארוכה בהרבה בהשוואה ל-2-4 שנים שמציעות יצרניות OEM מתחרות בדרך כלל.
+    Beginning with the **Pixel 8** and **8 Pro**, Pixel devices receive a minimum of 7 years of guaranteed security updates, ensuring a much longer lifespan compared to the 2-5 years competing OEMs typically offer.
     
     [:material-shopping: חנות](https://store.google.com/category/phones){ .md-button .md-button--primary }
 

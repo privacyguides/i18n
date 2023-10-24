@@ -174,7 +174,7 @@ Google Pixel 是**唯一** 推薦的手機。 由於對第三方作業系統的�
     
     眾所周知，**Google Pixel** 設備具有良好安全性，支持 [Verified Boot](https://source.android.com/security/verifiedboot)，即使安裝自定義作業系統時也是如此。
     
-    從 **Pixel 6**和 **6 Pro** 開始，Pixel 設備至少有 5年的安全更新保證，確保其使用壽命比其他競爭OEM 廠商 2-4年長得多。
+    Beginning with the **Pixel 8** and **8 Pro**, Pixel devices receive a minimum of 7 years of guaranteed security updates, ensuring a much longer lifespan compared to the 2-5 years competing OEMs typically offer.
     
     [:material-shopping: Store](https://store.google.com/category/phones){ .md-button .md-button--primary }
 
