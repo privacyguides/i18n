@@ -227,11 +227,11 @@ Arkenfox mira soltanto a contrastare gli script di tracciamento di base o sempli
 
     1. Sconsigliamo di utilizzare la versione Flatpak di Brave, poiché sostituisce il sandbox di Chromium con Flatpak, che è meno efficace. Inoltre, il pacchetto non è mantenuto da Brave Software, Inc.
 
-**macOS users:** The download for Brave Browser from their official website is a `.pkg` installer which requires admin privileges to run (and may run other unnecessary scripts on your machine). As an alternative, you can download the latest `Brave-Browser-universal.dmg` file from their [GitHub releases](https://github.com/brave/brave-browser/releases/latest) page, which provides a traditional "drag to Applications folder" install.
+**Utenti macOS:** Il download di Brave Browser dal sito ufficiale è un programma d'installazione `.pkg` che richiede i privilegi di amministratore per essere eseguito (e potrebbe eseguire altri script non necessari sul computer). In alternativa, puoi scaricare l'ultimo file `Brave-Browser-universal.dmg` dalla loro pagina [di rilascio di GitHub](https://github.com/brave/brave-browser/releases/latest), che fornisce una tradizionale installazione "trascina nella cartella Applicazioni".
 
 !!! warning "Attenzione"
 
-    Brave adds a "[referral code](https://github.com/brave/brave-browser/wiki/Brave%E2%80%99s-Use-of-Referral-Codes)" to the file name in downloads from the Brave website, which is used to track which source the browser was downloaded from, for example `BRV002` in a download named `Brave-Browser-BRV002.pkg`. The installer will then ping Brave's server with the referral code at the end of the installation process. If you're concerned about this, you can rename the installer file before opening it.
+    Brave aggiunge un "[codice di riferimento](https://github.com/brave/brave-browser/wiki/Brave%E2%80%99s-Use-of-Referral-Codes)" al nome del file nei download dal sito web di Brave, che viene utilizzato per tracciare la fonte da cui è stato scaricato il browser, ad esempio `BRV002` in un download chiamato `Brave-Browser-BRV002.pkg`. Il programma d'installazione invierà un ping al server di Brave con il codice di riferimento al termine del processo d'installazione. Se sei preoccupato per questo motivo, puoi rinominare il file d'installazione prima di aprirlo.
 
 ### Configurazione Consigliata
 
