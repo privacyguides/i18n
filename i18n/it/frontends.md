@@ -39,9 +39,9 @@ Utilizzando un'istanza gestita da altri, assicurati di leggere la politica sulla
 
 !!! recommendation
 
-    ![ProxiTok logo](assets/img/frontends/proxitok.svg){ align=right }
+    ![Logo ProxiTok](assets/img/frontends/proxitok.svg){ align=right }
     
-    **ProxiTok** is an open-source frontend to the [TikTok](https://www.tiktok.com) website that is also self-hostable.
+    **ProxiTok** è un frontend open source per il sito web [TikTok](https://www.tiktok.com), che può anche essere ospitato autonomamente.
     
     Esistono numerose istanze pubbliche, alcune delle quali supportano i servizi onion di [Tor](https://www.torproject.org).
     
