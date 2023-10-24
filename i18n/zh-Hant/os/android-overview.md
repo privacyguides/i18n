@@ -12,7 +12,7 @@ description: Android是一個開源作業系統，具有強大的安全保護，
 
 ### 選擇Android 發佈版本
 
-當購買 Android 手機時，該設備的預設作業系統通常放入非 [Android 開源專案](https://source.android.com/)的應用程式與服務，成為侵入性整合。 例如， Google Play 服務擁有不可撤銷的權限，可存取您的檔案、聯絡人儲存空間、通話記錄、SMS訊息、位置、攝影機、麥克風、硬體識別碼等。 這些應用程式和服務增加了設備的攻擊面，成為 Android 各種隱私問題的來源。
+When you buy an Android phone, the device's default operating system often comes with invasive integration with apps and services that are not part of the [Android Open Source Project](https://source.android.com/). 例如， Google Play 服務擁有不可撤銷的權限，可存取您的檔案、聯絡人儲存空間、通話記錄、SMS訊息、位置、攝影機、麥克風、硬體識別碼等。 這些應用程式和服務增加了設備的攻擊面，成為 Android 各種隱私問題的來源。
 
 這個問題可以通過使用自訂的 Android 發行版來解決，而這些發行版不會附帶這種侵入性整合。 不幸的是，許多自定義 Android 發行版常常違反 Android 安全模式，不支持重要的安全功能，如 AVB 、回滾保護、韌體更新等。 一些發行版還提供了 [`userdebug`](https://source.android.com/setup/build/building#choose-a-target) 版本，這類版本可通過 [ ADB ](https://developer.android.com/studio/command-line/adb) 暴露了根目錄，且要求 [更寬鬆的](https://github.com/LineageOS/android_system_sepolicy/search?q=userdebug&type=code) SELinux政策以適應調試，導致進一步增加攻擊面並削弱安全模型。
 

@@ -160,7 +160,7 @@ Bitwarden har också [Bitwarden Send](https://bitwarden.com/products/send/), vil
 
 Du behöver [Premium Plan](https://bitwarden.com/help/about-bitwarden-plans/#compare-personal-plans) för att kunna dela filer. Gratisabonnemanget tillåter endast textdelning.
 
-Bitwardens kod på serversidan är [öppen källkod](https://github.com/bitwarden/server), så om du inte vill använda Bitwardens moln kan du enkelt vara värd för din egen Bitwarden-synkroniseringsserver.
+Bitwarden's server-side code is [open source](https://github.com/bitwarden/server), so if you don't want to use the Bitwarden cloud, you can easily host your own Bitwarden sync server.
 
 **Vaultwarden** är en alternativ implementering av Bitwardens synkroniseringsserver skriven i Rust och kompatibel med officiella Bitwarden-klienter, perfekt för självhostad distribution där körning av den officiella resurstunga tjänsten kanske inte är idealisk. Om du vill vara värd för Bitwarden på din egen server, vill du nästan säkert använda Vaultwarden över Bitwardens officiella serverkod.
 
@@ -238,7 +238,7 @@ Psono tillhandahåller omfattande dokumentation för sin produkt. Webbklienten f
 Våra kriterier för bästa fall representerar vad vi skulle vilja se av det perfekta projektet i denna kategori. Våra rekommendationer kanske inte innehåller alla eller några av dessa funktioner, men de som gör det kan vara högre rankade än andra på den här sidan.
 
 - Telemetri bör vara opt-in (inaktiverad som standard) eller inte samlas in alls.
-- Den bör ha öppen källkod och vara någorlunda självhanterlig.
+- Should be open source and reasonably self-hostable.
 
 ## Lokal lagring
 

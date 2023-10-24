@@ -29,7 +29,7 @@ Você pode consultar a tabela [de hardware](https://openwrt.org/toh/start) do Op
 
     ![OPNsense logo](assets/img/router/opnsense.svg){ align=right }
     
-    **OPNsense** é uma plataforma de firewall e roteamento de código aberto baseada em FreeBSD que incorpora muitos recursos avançados, como modelagem de tráfego, balanceamento de carga e recursos de VPN, com muitos outros recursos disponíveis na forma de plugins. O OPNsense é comumente implantado como um firewall de perímetro, roteador, ponto de acesso wireless, servidor DHCP, servidor DNS e endpoint de VPN.
+    **OPNsense** is an open-source, FreeBSD-based firewall and routing platform which incorporates many advanced features such as traffic shaping, load balancing, and VPN capabilities, with many more features available in the form of plugins. O OPNsense é comumente implantado como um firewall de perímetro, roteador, ponto de acesso wireless, servidor DHCP, servidor DNS e endpoint de VPN.
     
     [:octicons-home-16: Homepage](https://opnsense.org/){ .md-button .md-button--primary }
     [:octicons-info-16:](https://docs.opnsense.org/index.html){ .card-link title=Documentação}

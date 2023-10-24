@@ -27,10 +27,9 @@ Zapoznaj się z [listą obsługiwanych urządzeń](https://openwrt.org/toh/start
 
 !!! rekomendacja
 
-    ![pfSense logo](assets/img/router/pfsense.svg#only-light){ align=right }
-    ![pfSense logo](assets/img/router/pfsense-dark.svg#only-dark){ align=right }
+    ![OPNsense logo](assets/img/router/opnsense.svg){ align=right }
     
-    pfSense to otwarte oprogramowanie zapory sieciowej/routera bazujące na FreeBSD. Po zainstalowaniu na komputerze pełni rolę dedykowanej zapory sieciowej/routera dla sieci i wyróżnia się niezawodnością oraz oferuje funkcje, które można często znaleźć tylko w drogich zaporach sieciowych.
+    **OPNsense** is an open-source, FreeBSD-based firewall and routing platform which incorporates many advanced features such as traffic shaping, load balancing, and VPN capabilities, with many more features available in the form of plugins. Po zainstalowaniu na komputerze pełni rolę dedykowanej zapory sieciowej/routera dla sieci i wyróżnia się niezawodnością oraz oferuje funkcje, które można często znaleźć tylko w drogich zaporach sieciowych.
     
     [:octicons-home-16: Strona WWW](https://opnsense.org/){ .md-button .md-button--primary }
     [:octicons-info-16:](https://docs.opnsense.org/index.html){ .card-link title=Dokumentacja}

@@ -132,7 +132,7 @@ Cryptee erbjuder 100 Mb lagring gratis, med betalalternativ om du behöver mer. 
 
     Vi arbetar med att fastställa kriterier för varje del av vår webbplats, och detta kan komma att ändras. Om du har några frågor om våra kriterier, vänligen [fråga på vårt forum] (https://discuss.privacyguides.net/latest) och tro inte att vi inte har beaktat något när vi gjorde våra rekommendationer om det inte finns med här. Det finns många faktorer som beaktas och diskuteras när vi rekommenderar ett projekt, och att dokumentera varje enskild faktor är ett pågående arbete.
 
-- Klienterna bör ha öppen källkod.
+- Clients must be open source.
 - Alla funktioner för molnsynkronisering måste vara E2EE.
 - Måste stödja export av dokument till ett standardformat.
 

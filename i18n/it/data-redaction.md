@@ -55,19 +55,19 @@ Condividendo dei file, assicurati di rimuovere i metadati associati. I file imma
 
 I metadati cancellati dipendono dal tipo di file dell'immagine:
 
-* **JPEG**: i metadati del profilo ICC, Exif, Risorse dell'Immagine Photoshop e XMP/ExtendedXMP saranno cancellati se esistenti.
-* **PNG**: i metadati del profilo ICC, Exif e XMP saranno cancellati se esistenti.
-* **WebP**: i metadati del profilo ICC, Exif e XMP saranno cancellati se esistenti.
+- **JPEG**: i metadati del profilo ICC, Exif, Risorse dell'Immagine Photoshop e XMP/ExtendedXMP saranno cancellati se esistenti.
+- **PNG**: i metadati del profilo ICC, Exif e XMP saranno cancellati se esistenti.
+- **WebP**: i metadati del profilo ICC, Exif e XMP saranno cancellati se esistenti.
 
 Dopo l'elaborazione delle immagini, ExifEraser fornisce un rapporto completo su cosa è stato rimosso esattamente da ogni immagine.
 
 L'applicazione offre diversi modi per cancellare i metadati dalle immagini. Nello specifico:
 
-* È possibile condividere un'immagine da un'altra applicazione con ExifEraser.
-* Attraverso l'applicazione stessa, è possibile selezionare una singola immagine, più immagini contemporaneamente o persino un'intera directory.
-* È dotata di un'opzione "Fotocamera" che utilizza l'app fotocamera del sistema operativo per scattare una foto e poi ne rimuove i metadati.
-* Consente di trascinare le foto da un'altra applicazione in ExifEraser quando entrambe sono aperte in modalità split-screen.
-* Infine, consente di incollare un'immagine dagli appunti.
+- È possibile condividere un'immagine da un'altra applicazione con ExifEraser.
+- Attraverso l'applicazione stessa, è possibile selezionare una singola immagine, più immagini contemporaneamente o persino un'intera directory.
+- È dotata di un'opzione "Fotocamera" che utilizza l'app fotocamera del sistema operativo per scattare una foto e poi ne rimuove i metadati.
+- Consente di trascinare le foto da un'altra applicazione in ExifEraser quando entrambe sono aperte in modalità split-screen.
+- Infine, consente di incollare un'immagine dagli appunti.
 
 ### Metapho (iOS)
 
@@ -143,5 +143,5 @@ L'applicazione offre diversi modi per cancellare i metadati dalle immagini. Nell
 
     Stiamo lavorando per stabilire i criteri definiti per ogni sezione del nostro sito e, questa, potrebbe essere soggetta a modifiche. Se hai qualsiasi domanda sui nostri criteri, ti preghiamo di [chiedere sul nostro forum](https://discuss.privacyguides.net/latest) e di non supporre che non abbiamo considerato qualcosa, formulando i nostri consigli, se non elencato qui. Molti fattori sono presi in considerazione e discussi quando consigliamo un progetto e la documentazione di ognuno è in lavorazione.
 
-- Le applicazioni sviluppate per sistemi operativi open-source devono essere open-source.
+- Apps developed for open-source operating systems must be open source.
 - Le applicazioni devono essere gratuite e non devono includere pubblicità o altre limitazioni.

@@ -226,7 +226,7 @@ Canary Mail 源碼為封閉式。 我們推薦它，因為 iOS 電子郵件客�
 
 ### 最低合格要求
 
-- 為開源作業系統開發的應用程式必須是開源的。
+- Apps developed for open-source operating systems must be open source.
 - 必須不收集遙測，或有一個簡單的方法來禁用所有遙測。
 - 必須支援OpenPGP訊息加密。
 
@@ -234,7 +234,7 @@ Canary Mail 源碼為封閉式。 我們推薦它，因為 iOS 電子郵件客�
 
 最佳案例標準代表了我們希望從這個類別的完美項目應具備的功能。 推薦產品可能沒有此功能，但若有這些功能則會讓排名更為提高。
 
-- 應該為開源的。
+- Should be open source.
 - 應為跨平臺。
 - 預設情況下不應收集任何遙測。
 - 應該原生支持OpenPGP ，即沒有擴展。

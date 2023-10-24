@@ -92,7 +92,7 @@ They have also received the Digital Trust Label, a certification from the [Swiss
 
 A legjobb esetben alkalmazott követelményeink azt fejezik ki, hogy mit szeretnénk látni egy tökéletes projekttől ebben a kategóriában. Előfordulhat, hogy ajánlásaink nem tartalmazzák az összes ilyen funkciót, de azok, amelyek igen, magasabb helyen szerepelhetnek, mint mások ezen az oldalon.
 
-- A klienseknek nyílt forráskódúaknak kell lenniük.
+- Clients should be open source.
 - A klienseket teljes egészükben független harmadik félnek kell felülvizsgálnia.
 - Natív klienseket kell kínálnia Linux, Android, Windows, macOS és iOS rendszerekre.
     - Ezeknek a klienseknek integrálódniuk kell natív operációs rendszer eszközökkel, amik felhőtárhely szolgáltatóknak lettek létrehozva, például a Files alkalmazás integrációjával iOS-en, vagy a DocumentsProvider funkcióval Androidon.

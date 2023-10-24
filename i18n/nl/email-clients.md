@@ -226,7 +226,7 @@ Canary Mail is closed-source. We raden het aan omdat er maar weinig keuzes zijn 
 
 ### Minimum kwalificaties
 
-- Apps ontwikkeld voor open-source besturingssystemen moeten open-source zijn.
+- Apps developed for open-source operating systems must be open source.
 - Mag geen telemetrie verzamelen, of een gemakkelijke manier hebben om alle telemetrie uit te schakelen.
 - Moet OpenPGP-berichtversleuteling ondersteunen.
 
@@ -234,7 +234,7 @@ Canary Mail is closed-source. We raden het aan omdat er maar weinig keuzes zijn 
 
 Onze best-case criteria geven aan wat wij zouden willen zien van het perfecte project in deze categorie. Het is mogelijk dat onze aanbevelingen geen of niet alle functies bevatten, maar degene die dat wel doen kunnen hoger gerangschikt worden dan andere op deze pagina.
 
-- Moet open-source zijn.
+- Should be open source.
 - Moet cross-platform zijn.
 - Verzamelt standaard geen telemetrie.
 - Moet OpenPGP native ondersteunen, dat wil zeggen zonder extensies.

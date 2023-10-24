@@ -345,7 +345,7 @@ When encrypting with PGP, you have the option to configure different options in 
 
 ### 最低要件
 
-- クロスプラットフォームの暗号化アプリはオープンソースであること。
+- Cross-platform encryption apps must be open source.
 - ファイル暗号化アプリは、Linux、macOS、Windowsでの復号化をサポートするものであること。
 - 外部ディスク暗号化アプリは、Linux、macOS、Windowsでの復号化をサポートするものであること。
 - 内部（OS）ディスク暗号化アプリは、クロスプラットフォームであるか、OSにネイティブに組み込まれたものであること。

@@ -133,7 +133,7 @@ IVPN has undergone a [no-logging audit from Cure53](https://cure53.de/audit-repo
 
 #### :material-check:{ .pg-green } Open-Source Clients
 
-As of February 2020 [IVPN applications are now open-source](https://www.ivpn.net/blog/ivpn-applications-are-now-open-source). Source code can be obtained from their [GitHub organization](https://github.com/ivpn).
+As of February 2020 [IVPN applications are now open source](https://www.ivpn.net/blog/ivpn-applications-are-now-open-source). Source code can be obtained from their [GitHub organization](https://github.com/ivpn).
 
 #### :material-check:{ .pg-green } Accepts Cash and Monero
 
@@ -248,7 +248,7 @@ Minden általunk ajánlott VPN-szolgáltatótól elvárjuk, hogy biztosítson Op
 - Olyan erős protokollok támogatása, mint a WireGuard és az OpenVPN.
 - Kliensekbe beépített killswitch.
 - Multihop támogatás. Multihopping is important to keep data private in case of a single node compromise.
-- Ha biztosítva vannak VPN-kliensek, akkor azoknak [nyílt forráskódúaknak](https://en.wikipedia.org/wiki/Open_source) kell lenniük, épp mint a VPN-szoftver, ami általában beléjük van építve. Úgy véljük, hogy a [forráskód](https://en.wikipedia.org/wiki/Source_code) elérhetősége nagyobb átláthatóságot biztosít arról, hogy az eszközöd valójában mit csinál.
+- If VPN clients are provided, they should be [open source](https://en.wikipedia.org/wiki/Open_source), like the VPN software they generally have built into them. Úgy véljük, hogy a [forráskód](https://en.wikipedia.org/wiki/Source_code) elérhetősége nagyobb átláthatóságot biztosít arról, hogy az eszközöd valójában mit csinál.
 
 **Legjobb Esetben:**
 

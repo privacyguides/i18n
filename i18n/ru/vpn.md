@@ -133,7 +133,7 @@ IVPN прошла [аудит отсутствия логов от Cure53](https
 
 #### :material-check:{ .pg-green } Клиенты с открытым исходным кодом
 
-Начиная с февраля 2020 года [открыт исходный код приложений IVPN](https://www.ivpn.net/blog/ivpn-applications-are-now-open-source). Исходный код можно получить из их [репозиториев на GitHub](https://github.com/ivpn).
+As of February 2020 [IVPN applications are now open source](https://www.ivpn.net/blog/ivpn-applications-are-now-open-source). Исходный код можно получить из их [репозиториев на GitHub](https://github.com/ivpn).
 
 #### :material-check:{ .pg-green } Принимает наличные и Monero
 
@@ -248,7 +248,7 @@ Mullvad очень прозрачен в отношении того, каким
 - Поддержка надежных протоколов, таких как WireGuard & OpenVPN.
 - Killswitch встроен в приложения.
 - Поддержка Multihop. Multihop важен для сохранения конфиденциальности данных в случае компрометации одного узла.
-- Если предоставляются приложения VPN, они должны быть [с открытым исходным кодом](https://en.wikipedia.org/wiki/Open_source), как и программное обеспечение VPN, которое обычно в них встроено. Мы считаем, что доступность [исходного кода](https://en.wikipedia.org/wiki/Source_code) обеспечивает большую прозрачность в отношении того, что на самом деле делает ваше устройство.
+- If VPN clients are provided, they should be [open source](https://en.wikipedia.org/wiki/Open_source), like the VPN software they generally have built into them. Мы считаем, что доступность [исходного кода](https://en.wikipedia.org/wiki/Source_code) обеспечивает большую прозрачность в отношении того, что на самом деле делает ваше устройство.
 
 **В лучшем случае:**
 

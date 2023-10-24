@@ -162,10 +162,9 @@ In het algemeen definiëren wij kantoorsuites als toepassingen die voor de meest
 
 #### Minimale vereisten
 
-- Moet open-source zijn.
+- Moet open source zijn.
 - End-to-end versleuteling, "zero-trust", moet worden geïmplementeerd.
 - Moet wachtwoordbeveiligde bestanden ondersteunen.
-
 
 #### Beste geval
 

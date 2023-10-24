@@ -55,19 +55,19 @@ Wanneer je bestanden deelt, is het belangrijk om de bijbehorende metadata te ver
 
 De metagegevens die worden gewist, hangen af van het bestandstype van de afbeelding:
 
-* **JPEG**: ICC Profile, Exif, Photoshop Image Resources en XMP/ExtendedXMP metadata worden gewist als ze bestaan.
-* **PNG**: ICC Profile, Exif en XMP metadata worden gewist als ze bestaan.
-* **WebP**: ICC Profile, Exif en XMP metadata zullen worden gewist als ze bestaan.
+- **JPEG**: ICC Profile, Exif, Photoshop Image Resources en XMP/ExtendedXMP metadata worden gewist als ze bestaan.
+- **PNG**: ICC Profile, Exif en XMP metadata worden gewist als ze bestaan.
+- **WebP**: ICC Profile, Exif en XMP metadata zullen worden gewist als ze bestaan.
 
 Na het verwerken van de afbeeldingen, geeft ExifEraser je een volledig overzicht over wat er precies uit elke afbeelding is verwijderd.
 
 De app biedt meerdere manieren om metadata uit afbeeldingen te wissen. Namelijk:
 
-* Je kunt een afbeelding vanuit een andere toepassing delen met ExifEraser.
-* Via de app zelf kan je een enkele afbeelding, meerdere afbeeldingen tegelijk of zelfs een hele map selecteren.
-* Het heeft een "Camera"-optie, die de camera-app van je besturingssysteem gebruikt om een foto te maken, en vervolgens de metadata ervan verwijdert.
-* Het laat je foto's uit een ander programma naar ExifEraser slepen wanneer beide programma's in split-screen modus geopend zijn.
-* Als laatste kan je een afbeelding uit het klembord plakken.
+- Je kunt een afbeelding vanuit een andere toepassing delen met ExifEraser.
+- Via de app zelf kan je een enkele afbeelding, meerdere afbeeldingen tegelijk of zelfs een hele map selecteren.
+- Het heeft een "Camera"-optie, die de camera-app van je besturingssysteem gebruikt om een foto te maken, en vervolgens de metadata ervan verwijdert.
+- Het laat je foto's uit een ander programma naar ExifEraser slepen wanneer beide programma's in split-screen modus geopend zijn.
+- Als laatste kan je een afbeelding uit het klembord plakken.
 
 ### Metapho (iOS)
 
@@ -143,5 +143,5 @@ De app biedt meerdere manieren om metadata uit afbeeldingen te wissen. Namelijk:
 
     We werken aan het vaststellen van gedefinieerde criteria voor elk deel van onze site, en dit kan onderhevig zijn aan verandering. Als je vragen hebt over onze criteria, stel ze dan [op ons forum](https://discuss.privacyguides.net/latest) en neem niet aan dat we iets niet in overweging hebben genomen bij het opstellen van onze aanbevelingen als het hier niet vermeld staat. Er zijn veel factoren die worden overwogen en besproken wanneer wij een project aanbevelen, en het documenteren van elke factor is een werk in uitvoering.
 
-- Apps ontwikkeld voor open-source besturingssystemen moeten open-source zijn.
+- Apps developed for open-source operating systems must be open source.
 - Apps moeten gratis zijn en mogen geen advertenties of andere beperkingen bevatten.

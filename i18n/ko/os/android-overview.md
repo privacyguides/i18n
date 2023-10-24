@@ -12,7 +12,7 @@ description: Android는 강력한 보안 및 보호 기능을 갖춘 오픈 소�
 
 ### Android 배포판 선택
 
-여러분이 Android 휴대폰을 새로 구입하면, 기기의 기본 운영체제 내에 [Android 오픈 소스 프로젝트(AOSP)](https://source.android.com/)에 포함되지 않은 앱, 서비스가 강력히 통합되어 있는 경우가 많습니다. 대표적인 예시로는 Google Play 서비스가 있습니다. Google Play 서비스는 파일, 통화 기록, 연락처, 통화 기록, SMS 메시지, 위치, 카메라, 마이크, 하드웨어 식별자 등에 접근할 수 있으며, 이 권한을 빼앗을 수도 없습니다. 이러한 앱, 서비스는 기기의 공격 표면을 증가시키고 Android의 다양한 프라이버시 문제로 이어집니다.
+When you buy an Android phone, the device's default operating system often comes with invasive integration with apps and services that are not part of the [Android Open Source Project](https://source.android.com/). 대표적인 예시로는 Google Play 서비스가 있습니다. Google Play 서비스는 파일, 통화 기록, 연락처, 통화 기록, SMS 메시지, 위치, 카메라, 마이크, 하드웨어 식별자 등에 접근할 수 있으며, 이 권한을 빼앗을 수도 없습니다. 이러한 앱, 서비스는 기기의 공격 표면을 증가시키고 Android의 다양한 프라이버시 문제로 이어집니다.
 
 이 문제는 강력히 통합된 앱이 아예 포함되지 않은 커스텀 Android 배포판을 사용하면 해결할 수 있습니다. 다만 안타깝게도, 대부분의 커스텀 Android 배포판은 AVB, 롤백 보호, 펌웨어 업데이트 등의 중요한 보안 기능을 지원하지 않음으로써 Android 보안 모델을 위반하는 경우가 많습니다. 일부 배포판은 [ADB](https://developer.android.com/studio/command-line/adb?hl=ko)를 통해 루트 권한을 노출하고, 디버깅 기능을 포함하기 위해 [보다 느슨한](https://github.com/LineageOS/android_system_sepolicy/search?q=userdebug&type=code) SELinux 정책을 선택하여 공격 표면의 증가와 보안 모델의 약화를 일으키는 [`userdebug`](https://source.android.com/docs/setup/build/building?hl=ko#choose-a-target) 빌드를 제공하기도 합니다.
 

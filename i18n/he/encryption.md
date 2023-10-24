@@ -346,7 +346,7 @@ BitLocker [ נתמך רק](https://support.microsoft.com/en-us/windows/turn-on-d
 
 ### כישורים מינימליים
 
-- אפליקציות הצפנה חוצות פלטפורמות חייבות להיות בקוד פתוח.
+- Cross-platform encryption apps must be open source.
 - אפליקציות להצפנת קבצים חייבות לתמוך בפענוח ב-Linux, macOS ו-Windows.
 - אפליקציות להצפנת דיסק חיצוני חייבות לתמוך בפענוח ב-Linux, macOS ו-Windows.
 - אפליקציות להצפנת דיסק פנימי (OS) חייבות להיות חוצות פלטפורמות או מובנות במערכת ההפעלה באופן מקורי.

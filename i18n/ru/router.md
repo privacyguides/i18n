@@ -27,9 +27,9 @@ cover: router.webp
 
 !!! recommendation
 
-    ![Логотип OPNsense](assets/img/router/opnsense.svg){ align=right }
+    ![OPNsense logo](assets/img/router/opnsense.svg){ align=right }
     
-    **OPNsense** - это система для маршрутизации и файервола с открытым исходным кодом на базе FreeBSD, которая включает в себя множество дополнительных функций, таких как формирование трафика, балансировка нагрузки и поддержку VPN, а также множество других функций, доступных в виде плагинов. OPNsense часто используется для файерволов, роутеров, беспроводных точек доступа, серверов DHCP, DNS серверов и конечных точек VPN.
+    **OPNsense** is an open-source, FreeBSD-based firewall and routing platform which incorporates many advanced features such as traffic shaping, load balancing, and VPN capabilities, with many more features available in the form of plugins. OPNsense часто используется для файерволов, роутеров, беспроводных точек доступа, серверов DHCP, DNS серверов и конечных точек VPN.
     
     [:octicons-home-16: Домашняя страница](https://opnsense.org/){ .md-button .md-button--primary }
     [:octicons-info-16:](https://docs.opnsense.org/index.html){ .card-link title=Документация}

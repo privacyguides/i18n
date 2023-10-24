@@ -55,19 +55,19 @@ cover: data-redaction.webp
 
 被删除的元数据取决于图像的文件类型。
 
-* **JPEG**: ICC Profile、Exif、Photoshop Image Resources和XMP/ExtendedXMP元数据如果存在，将被删除。
-* **PNG**：ICC Profile、Exif和XMP元数据如果存在，将被删除。
-* **WebP**：ICC Profile、Exif和XMP元数据如果存在，将被删除。
+- **JPEG**: ICC Profile、Exif、Photoshop Image Resources和XMP/ExtendedXMP元数据如果存在，将被删除。
+- **PNG**：ICC Profile、Exif和XMP元数据如果存在，将被删除。
+- **WebP**：ICC Profile、Exif和XMP元数据如果存在，将被删除。
 
 在处理完图像后，ExifEraser会向你提供一份完整的报告，说明每张图像中到底有哪些被删除。
 
 该应用程序提供多种方法来消除图像中的元数据。 名称：
 
-* 你可以用ExifEraser分享另一个应用程序的图像。
-* 通过应用程序本身，你可以选择一张图片，一次选择多张图片，甚至是整个目录。
-* 它有一个 "相机 "选项，它使用你的操作系统的相机应用程序来拍摄照片，然后它将元数据从照片中删除。
-* 它允许你将照片从另一个应用程序拖入ExifEraser，当它们都以分屏模式打开时。
-* 最后，它允许你从剪贴板上粘贴图片。
+- 你可以用ExifEraser分享另一个应用程序的图像。
+- 通过应用程序本身，你可以选择一张图片，一次选择多张图片，甚至是整个目录。
+- 它有一个 "相机 "选项，它使用你的操作系统的相机应用程序来拍摄照片，然后它将元数据从照片中删除。
+- 它允许你将照片从另一个应用程序拖入ExifEraser，当它们都以分屏模式打开时。
+- 最后，它允许你从剪贴板上粘贴图片。
 
 ### Metapho (iOS)
 
@@ -143,5 +143,5 @@ cover: data-redaction.webp
 
     We are working on establishing defined criteria for every section of our site, and this may be subject to change. If you have any questions about our criteria, please [ask on our forum](https://discuss.privacyguides.net/latest) and don't assume we didn't consider something when making our recommendations if it is not listed here. There are many factors considered and discussed when we recommend a project, and documenting every single one is a work-in-progress.
 
-- 为开源操作系统开发的应用程序必须是开源的。
+- Apps developed for open-source operating systems must be open source.
 - 应用程序必须是免费的，不应包括广告或其他限制。

@@ -17,7 +17,7 @@ title: 通用标准
 我们在考虑新的建议时采用这些优先事项。
 
 - **安全**：工具应该在适用的地方遵循安全的最佳做法。
-- **来源的可用性**: 开放源码项目通常比同等的专有替代品更受欢迎。
+- **Source Availability**: Open-source projects are generally preferred over equivalent proprietary alternatives.
 - **跨平台**：我们通常倾向于建议跨平台，以避免厂商锁定。
 - **积极开发**：我们推荐的工具应该积极开发，未维护的项目在大多数情况下会被删除。
 - **可用性**：工具应该是大多数计算机用户可以使用的，不应该要求有过度的技术背景。

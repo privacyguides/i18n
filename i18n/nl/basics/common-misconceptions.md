@@ -9,7 +9,7 @@ schema:
     mainEntity:
       - 
         "@type": Question
-        name: Is open source software inherent veilig?
+        name: Is open-source software inherently secure?
         acceptedAnswer:
           "@type": Answer
           text: |

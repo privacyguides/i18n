@@ -55,19 +55,19 @@ Lorsque vous partagez des fichiers, veillez à supprimer les métadonnées assoc
 
 Les métadonnées qui sont effacées dépendent du type de fichier de l'image :
 
-* **JPEG**: Les métadonnées ICC Profile, Exif, Photoshop Image Resources et XMP/ExtendedXMP seront effacées si elles existent.
-* **PNG**: Les métadonnées ICC Profile, Exif et XMP seront effacées si elles existent.
-* **WebP**: les métadonnées ICC Profile, Exif et XMP seront effacées si elles existent.
+- **JPEG**: Les métadonnées ICC Profile, Exif, Photoshop Image Resources et XMP/ExtendedXMP seront effacées si elles existent.
+- **PNG**: Les métadonnées ICC Profile, Exif et XMP seront effacées si elles existent.
+- **WebP**: les métadonnées ICC Profile, Exif et XMP seront effacées si elles existent.
 
 Après avoir traité les images, ExifEraser vous fournit un rapport complet sur ce qui a été exactement supprimé de chaque image.
 
 L'application offre plusieurs façons d'effacer les métadonnées des images. À savoir :
 
-* Vous pouvez partager une image depuis une autre application avec ExifEraser.
-* Par l'intermédiaire de l'application elle-même, vous pouvez sélectionner une seule image, plusieurs images à la fois, ou même un répertoire entier.
-* Elle comporte une option "Appareil photo", qui utilise l'application appareil photo de votre système d'exploitation pour prendre une photo, puis en supprime les métadonnées.
-* Elle vous permet de faire glisser des photos d'une autre application dans ExifEraser lorsque les deux sont ouvertes en mode écran partagé.
-* Enfin, elle vous permet de coller une image à partir de votre presse-papiers.
+- Vous pouvez partager une image depuis une autre application avec ExifEraser.
+- Par l'intermédiaire de l'application elle-même, vous pouvez sélectionner une seule image, plusieurs images à la fois, ou même un répertoire entier.
+- Elle comporte une option "Appareil photo", qui utilise l'application appareil photo de votre système d'exploitation pour prendre une photo, puis en supprime les métadonnées.
+- Elle vous permet de faire glisser des photos d'une autre application dans ExifEraser lorsque les deux sont ouvertes en mode écran partagé.
+- Enfin, elle vous permet de coller une image à partir de votre presse-papiers.
 
 ### Metapho (iOS)
 
@@ -143,5 +143,5 @@ L'application offre plusieurs façons d'effacer les métadonnées des images. À
 
     Nous travaillons à l'établissement de critères définis pour chaque section de notre site, et celles-ci peuvent être sujet à changement. Si vous avez des questions sur nos critères, veuillez [poser la question sur notre forum](https://discuss.privacyguides.net/latest) et ne supposez pas que nous n'avons pas pris en compte un élément dans nos recommandations s'il ne figure pas dans la liste. De nombreux facteurs sont pris en compte et discutés lorsque nous recommandons un projet, et la documentation de chacun d'entre eux est en cours.
 
-- Les applications développées pour les systèmes d'exploitation open source doivent être open source.
+- Apps developed for open-source operating systems must be open source.
 - Les applications doivent être gratuites et ne doivent pas comporter de publicités ou d'autres limitations.

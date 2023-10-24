@@ -17,7 +17,7 @@ Belirli ürünleri tavsiye ederek para kazanmıyoruz, bağlı kuruluş bağlant�
 Yeni önerileri değerlendirirken bu öncelikleri uygularız:
 
 - **Güvenli**: Araçlar, uygun olan her yerde en iyi güvenlik uygulamalarını takip etmelidir.
-- **Kaynak Kullanılabilirliği**: Açık kaynak projeleri genellikle eşdeğer tescilli alternatiflere göre tercih edilir.
+- **Source Availability**: Open-source projects are generally preferred over equivalent proprietary alternatives.
 - **Çapraz Platform**: Satıcı kilitlenmesini önlemek için genellikle önerilerin çapraz platform olmasını tercih ederiz.
 - **Aktif Gelişim**: Tavsiye ettiğimiz araçlar aktif olarak geliştirilmeli, çoğu durumda sürdürülmeyen projeler kaldırılacaktır.
 - **Kullanılabilirlik**: Araçlar çoğu bilgisayar kullanıcısı için erişilebilir olmalı, aşırı teknik bir altyapı gerekmemelidir.

@@ -55,19 +55,19 @@ Fájlok megosztásakor ügyelj a kapcsolódó metaadatok eltávolítsára. A ké
 
 A törlésre kerülő metaadat a kép fájltípusától függ:
 
-* **JPEG**: ICC Profil, Exif, Photoshop Image Resources és XMP/ExtendedXMP metaadatok fognak törlődni, ha vannak.
-* **PNG**: ICC Profil, Exif és XMP metaadatok fognak törlődni, ha vannak.
-* **WebP**: ICC Profil, Exif és XMP metaadatok fognak törlődni, ha vannak.
+- **JPEG**: ICC Profil, Exif, Photoshop Image Resources és XMP/ExtendedXMP metaadatok fognak törlődni, ha vannak.
+- **PNG**: ICC Profil, Exif és XMP metaadatok fognak törlődni, ha vannak.
+- **WebP**: ICC Profil, Exif és XMP metaadatok fognak törlődni, ha vannak.
 
 A képek feldolgozása után ExifEraser teljes jelentést ad arról, hogy pontosan mit távolított el egyes képekről.
 
 Az alkalmazás többféle módszert nyújt metaadatokat törléséhez a képekről. Név szerint:
 
-* Az megoszthat egy képet egy másik alkalmazásból az ExifEraser-nek.
-* Magán az alkalmazáson keresztül egyetlen képet, egyszerre több képet vagy akár egy egész könyvtárat is kiválaszthatsz.
-* Rendelkezik egy "Kamera" opcióval, amely az operációs rendszer kameraalkalmazását használja egy fénykép készítéséhez, majd eltávolítja arról a metaadatokat.
-* Lehetővé teszi, hogy fényképeket húzz át egy másik alkalmazásból az ExifEraser-be, ha mindkét app osztott képernyős módban van megnyitva.
-* Végül, lehetővé teszi egy kép beillesztését a vágólapról.
+- Az megoszthat egy képet egy másik alkalmazásból az ExifEraser-nek.
+- Magán az alkalmazáson keresztül egyetlen képet, egyszerre több képet vagy akár egy egész könyvtárat is kiválaszthatsz.
+- Rendelkezik egy "Kamera" opcióval, amely az operációs rendszer kameraalkalmazását használja egy fénykép készítéséhez, majd eltávolítja arról a metaadatokat.
+- Lehetővé teszi, hogy fényképeket húzz át egy másik alkalmazásból az ExifEraser-be, ha mindkét app osztott képernyős módban van megnyitva.
+- Végül, lehetővé teszi egy kép beillesztését a vágólapról.
 
 ### Metapho (iOS)
 
@@ -143,5 +143,5 @@ Az alkalmazás többféle módszert nyújt metaadatokat törléséhez a képekr�
 
     Azon dolgozunk, hogy meghatározott követelményeket állapítsunk meg az oldalunk minden egyes szakaszára vonatkozóan, és ez még változhat. Ha bármilyen kérdésed van a követelményinkkel kapcsolatban, kérjük, [kérdezz a fórumon](https://discuss.privacyguides.net/latest), és ne feltételezd, hogy valamit nem vettünk figyelembe az ajánlásaink elkészítésekor, ha az nem szerepel itt. Számos tényezőt veszünk figyelembe és vitatunk meg, amikor egy projektet ajánlunk, és minden egyes tényező dokumentálása folyamatban lévő munka.
 
-- Nyílt forráskódú operációs rendszerekre fejlesztett alkalmazásoknak nyílt forráskódúnak kell lenniük.
+- Apps developed for open-source operating systems must be open source.
 - Az alkalmazásoknak ingyenesnek kell lenniük, és nem tartalmazhatnak reklámokat vagy egyéb korlátozásokat.

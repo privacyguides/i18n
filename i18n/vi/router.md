@@ -26,10 +26,9 @@ Bạn có thể tham khảo OpenWrt's [table of hardware](https://openwrt.org/to
 
 !!! khuyến nghị
 
-    ![pfSense logo](assets/img/router/pfsense.svg#only-light){ align=right }
-    ![pfSense logo](assets/img/router/pfsense-dark.svg#only-dark){ align=right }
+    ![OPNsense logo](assets/img/router/opnsense.svg){ align=right }
     
-    pfSense là một bản phân phối phần mềm máy tính tường lửa/bộ định tuyến mã nguồn mở dựa trên FreeBSD. Nó được cài đặt trên máy tính để làm tường lửa/bộ định tuyến chuyên dụng cho mạng và được chú ý về độ tin cậy và cung cấp các tính năng thường chỉ có trong các tường lửa thương mại đắt tiền.
+    **OPNsense** is an open-source, FreeBSD-based firewall and routing platform which incorporates many advanced features such as traffic shaping, load balancing, and VPN capabilities, with many more features available in the form of plugins. Nó được cài đặt trên máy tính để làm tường lửa/bộ định tuyến chuyên dụng cho mạng và được chú ý về độ tin cậy và cung cấp các tính năng thường chỉ có trong các tường lửa thương mại đắt tiền.
     
     pfSense thường được triển khai dưới dạng tường lửa vành đai, bộ định tuyến, điểm truy cập không dây, máy chủ DHCP, máy chủ DNS và điểm cuối VPN.
 

@@ -136,7 +136,7 @@ O Cryptee oferece 100MB de armazenamento gratuito, com opções pagas para o cas
 
     Estamos a trabalhar no sentido de estabelecer critérios para cada secção do nosso site, o que pode originar alterações. Se tiver alguma dúvida sobre os critérios utilizados, por favor [pergunte no nosso fórum] (https://discuss.privacyguides.net/latest) e não parta do princípio de que algo foi excluído das nossas recomendações, caso não esteja listado aqui. São muitos os fatores considerados e discutidos quando recomendamos um projeto, e documentar cada um deles é um trabalho em curso.
 
-- Os clientes devem ser de código aberto.
+- Clients must be open source.
 - Qualquer funcionalidade de sincronização na nuvem deve ser E2EE.
 - Devem suportar a exportação de documentos para um formato normalizado.
 

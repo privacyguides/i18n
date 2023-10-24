@@ -133,7 +133,7 @@ IVPN hat sich einem [No-Logging-Audit von Cure53](https://cure53.de/audit-report
 
 #### :material-check:{ .pg-green } Open-Source Anwendungen
 
-Ab Februar 2020 sind [IVPN-Anwendungen quelloffen](https://www.ivpn.net/blog/ivpn-applications-are-now-open-source). Der Quellcode kann von ihrer [GitHub Organisation](https://github.com/ivpn) bezogen werden.
+As of February 2020 [IVPN applications are now open source](https://www.ivpn.net/blog/ivpn-applications-are-now-open-source). Der Quellcode kann von ihrer [GitHub Organisation](https://github.com/ivpn) bezogen werden.
 
 #### :material-check:{ .pg-green } Akzeptiert Bargeld und Monero
 
@@ -248,7 +248,7 @@ Wir setzen von allen von uns empfohlenen VPN-Anbietern voraus, dass sie OpenVPN-
 - Unterstützung von starken Protokollen wie WireGuard & OpenVPN.
 - Notaus ist in den Clients integriert.
 - Multihop-Unterstützung. Multihopping ist wichtig, um Daten im Falle einer Kompromittierung eines einzelnen Knotens geheim zu halten.
-- Wenn VPN-Clients zur Verfügung gestellt werden, sollten sie [Open Source](https://de.wikipedia.org/wiki/Open_Source)sein, wie die VPN-Software, die in der Regel in sie integriert ist. Wir sind der Meinung, dass [Quellcode](https://de.wikipedia.org/wiki/Quelltext) mehr Transparenz darüber bietet, was dein Gerät tatsächlich tut.
+- If VPN clients are provided, they should be [open source](https://en.wikipedia.org/wiki/Open_source), like the VPN software they generally have built into them. Wir sind der Meinung, dass [Quellcode](https://de.wikipedia.org/wiki/Quelltext) mehr Transparenz darüber bietet, was dein Gerät tatsächlich tut.
 
 **Im besten Fall:**
 

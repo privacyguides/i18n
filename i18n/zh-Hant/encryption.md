@@ -416,7 +416,7 @@ OpenPGP 有時需要執行特定任務，例如數位簽署和加密電子郵件
 
 ### 最低合格要求
 
-- 跨平臺加密應用程序必須是開源的。
+- Cross-platform encryption apps must be open source.
 - 檔案加密應用程式必須支援 Linux、macOS 和 Windows 的解密。
 - 外部磁碟加密應用程式必須支援 Linux、macOS 和 Windows 的解密。
 - 作業系統內部磁碟加密應用程式必須是跨平臺或原生內建作業系統。

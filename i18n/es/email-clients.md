@@ -226,7 +226,7 @@ Canary Mail es de código cerrado. Lo recomendamos debido a las pocas opciones q
 
 ### Requisitos Mínimos
 
-- Las aplicaciones desarrolladas para sistemas operativos de código abierto deben ser de código abierto.
+- Apps developed for open-source operating systems must be open source.
 - No debe recolectar telemetría, o debe tener una manera fácil de deshabilitar toda la telemetría.
 - Debe soportar el cifrado de mensajes OpenPGP.
 
@@ -234,7 +234,7 @@ Canary Mail es de código cerrado. Lo recomendamos debido a las pocas opciones q
 
 Nuestro criterio del mejor caso representa lo que nos gustaría ver del proyecto perfecto en esta categoría. Es posible que nuestras recomendaciones no incluyan todas o algunas de estas funciones, pero las que sí las incluyan pueden estar mejor clasificadas que otras en esta página.
 
-- Debe ser de código abierto.
+- Should be open source.
 - Debe ser multiplataforma.
 - No debe recopilar ninguna telemetría por defecto.
 - Debe soportar OpenPGP de forma nativa, es decir, sin extensiones.

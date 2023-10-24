@@ -90,7 +90,7 @@ BurungHantu还在Twitter上发了一篇 [的帖子](https://twitter.com/privacyt
 
 截至2022年9月25日，我们看到BurungHantu的整体计划在privacytools.io上实现，而这正是我们今天决定创建这个解释页的原因。 他运营的网站似乎是该网站的SEO优化版本，该网站推荐工具以换取经济补偿。 [最近，IVPN和Mullvad这两个VPN供应商几乎被隐私社区普遍推荐为](../vpn.md) ，并因其反对联盟计划的立场而备受关注，被从PrivacyTools中删除。 在他们的位置上？ NordVPN、Surfshark、ExpressVPN和hide.me；巨大的VPN公司拥有不值得信赖的平台和商业行为，因其积极的营销和联盟计划而臭名昭著。
 
-==**PrivacyTools正是成为了我们 [，在2019年的PrivacyTools博客上警告过的那种网站](https://web.archive.org/web/20210729205249/https://blog.privacytools.io/the-trouble-with-vpn-and-privacy-reviews/) 。**== 自转型以来，我们一直试图与PrivacyTools保持距离，但他们对我们项目的持续骚扰，以及现在对他们的品牌在6年的开源贡献中获得的信誉的荒谬滥用，令我们感到非常不安。 我们这些真正为隐私而战的人并不是在相互斗争，也不是从出价最高的人那里得到我们的建议。
+==**PrivacyTools has become exactly the type of site we [warned against](https://web.archive.org/web/20210729205249/https://blog.privacytools.io/the-trouble-with-vpn-and-privacy-reviews/) on the PrivacyTools blog in 2019.**== We've tried to keep our distance from PrivacyTools since the transition, but their continued harassment towards our project and now their absurd abuse of the credibility their brand gained over 6 years of open-source contributions is extremely troubling to us. 我们这些真正为隐私而战的人并不是在相互斗争，也不是从出价最高的人那里得到我们的建议。
 
 
 

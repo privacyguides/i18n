@@ -17,7 +17,7 @@ Non guadagniamo denaro consigliando certi prodotti, non utilizziamo i link d'aff
 Applichiamo queste priorità considerando nuovi consigli:
 
 - **Sicuro**: gli strumenti dovrebbero seguire le migliori pratiche di sicurezza, ove applicabile.
-- **Disponibilità della Sorgente**: I progetti open source sono generalmente preferiti alle equivalenti alternative proprietarie.
+- **Source Availability**: Open-source projects are generally preferred over equivalent proprietary alternatives.
 - **Multipiattaforma**: tipicamente, preferiamo che i prodotti consigliati siano multipiattaforma, per evitare il blocco del venditore.
 - **Sviluppo attivo**: Gli strumenti che consigliamo dovrebbero essere mantenuti attivamente; i progetti non mantenuti, in gran parte dei casi, saranno rimossi.
 - **Utilizzabilità**: gli strumenti dovrebbero essere accessibili a gran parte degli utenti, senza richiedere un background eccessivamente tecnico.

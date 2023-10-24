@@ -18,7 +18,7 @@ Es gibt einige Datenschutzprobleme bei Linux, die Sie beachten sollten. Trotz di
 - [Freie Software](https://www.gnu.org/philosophy/free-sw.en.html#four-freedoms) bevorzugen
 - Datenschutzfreundliche Systeme wie [Whonix](https://www.whonix.org) oder [Tails](https://tails.boum.org/) verwenden
 
-### Open-Source Sicherheit
+### Open-Source Security
 
 Es ist ein [verbreiteter Irrglaube](../basics/common-misconceptions.md#open-source-software-is-always-secure-or-proprietary-software-is-more-secure), dass Linux und andere Open-Source-Software von Natur aus sicher ist, nur weil der Quellcode verfügbar ist. Es wird erwartet, dass eine regelmäßige Überprüfung durch die Community erfolgt, aber das ist nicht immer der Fall.
 

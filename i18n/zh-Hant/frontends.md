@@ -41,7 +41,7 @@ cover: frontends.webp
 
     ![ProxiTok logo](assets/img/frontends/proxitok.svg){ align=right }
     
-    **ProxiTok** 是 [TikTok](https://www.tiktok.com)網站的開源前端，也可自主託管。
+    **ProxiTok** is an open-source frontend to the [TikTok](https://www.tiktok.com) website that is also self-hostable.
     
     有許多公共實例，其中一些實例支援 [Tor](https://www.torproject.org) onion 服務。
     

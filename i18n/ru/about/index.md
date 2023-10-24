@@ -81,7 +81,7 @@ Privacy Guides был запущен в сентябре 2021 года как п
     - [:simple-github: GitHub](https://github.com/hook9 "@hook9")
     - [:simple-mastodon: Mastodon](https://mastodon.neat.computer/@oliviablob "@oliviablob@neat.computer"){rel=me}
 
-Кроме них, [множество других людей](https://github.com/privacyguides/privacyguides.org/graphs/contributors) внесли свой вклад в проект. Вы можете тоже, у нас открытый исходный код на GitHub и мы принимаем предложения по переводу на [Crowdin](https://crowdin.com/project/privacyguides).
+Кроме них, [множество других людей](https://github.com/privacyguides/privacyguides.org/graphs/contributors) внесли свой вклад в проект. You can too, we're open source on GitHub, and accepting translation suggestions on [Crowdin](https://crowdin.com/project/privacyguides).
 
 Члены нашей команды проверяют все изменения, вносимые на сайт, и выполняют административные обязанности, такие как веб-хостинг и управление финансами, однако они не получают личной прибыли от этого сайта. Наша финансовая отчетность прозрачно размещена фондом Open Collective Foundation 501(c)(3) по адресу [opencollective.com/privacyguides](https://opencollective.com/privacyguides). Денежные пожертвования для Privacy Guides подлежат налоговым вычетам в США.
 

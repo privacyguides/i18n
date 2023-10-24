@@ -26,10 +26,9 @@ cover: router.webp
 
 !!! рекомендації
 
-    ![pfSense logo](assets/img/router/pfsense.svg#only-light){ align=right }
-    ![pfSense logo](assets/img/router/pfsense-dark.svg#only-dark){ align=right }
+    ![OPNsense logo](assets/img/router/opnsense.svg){ align=right }
     
-    pfSense - це дистрибутив програмного забезпечення для брандмауера / маршрутизатора з відкритим вихідним кодом, заснований на FreeBSD. Він встановлюється на комп'ютер для створення виділеного брандмауера/маршрутизатора для мережі та відомий своєю надійністю і пропонує функції, які часто зустрічаються тільки в дорогих комерційних брандмауерах.
+    **OPNsense** is an open-source, FreeBSD-based firewall and routing platform which incorporates many advanced features such as traffic shaping, load balancing, and VPN capabilities, with many more features available in the form of plugins. Він встановлюється на комп'ютер для створення виділеного брандмауера/маршрутизатора для мережі та відомий своєю надійністю і пропонує функції, які часто зустрічаються тільки в дорогих комерційних брандмауерах.
     
     pfSense зазвичай розгортається як брандмауер по периметру, маршрутизатор, бездротова точка доступу, DHCP-сервер, DNS-сервер і кінцева точка VPN.
 

@@ -12,7 +12,7 @@ The **Android Open Source Project** is a secure mobile operating system featurin
 
 ### 挑选安卓 ROM
 
-你买到的安卓手机多半已经预装了能侵犯隐私的应用与服务，而这些服务并不属于 [AOSP](https://source.android.com/)。 例如 Google Play 服务：它有权访问你的文件、联系人、通话记录、短信、定位、相机、麦克风、硬件身份码等。且这些权限无法收回。 这类应用与服务扩大了你的设备的攻击面，也是安卓系统的各种隐私问题的源头。
+When you buy an Android phone, the device's default operating system often comes with invasive integration with apps and services that are not part of the [Android Open Source Project](https://source.android.com/). 例如 Google Play 服务：它有权访问你的文件、联系人、通话记录、短信、定位、相机、麦克风、硬件身份码等。且这些权限无法收回。 这类应用与服务扩大了你的设备的攻击面，也是安卓系统的各种隐私问题的源头。
 
 换用一个不预装这类软件的安卓 ROM 可以解决这个问题。 不巧，很多安卓 ROM 不支持 AVB、回滚保护、系统更新、等这些关键的安全功能，破坏了安卓的安全模型。 某些 ROM 发布的版本属于 [`userdebug`](https://source.android.com/setup/build/building#choose-a-target) 构建版本。这个版本通过 [ADB](https://developer.android.com/studio/command-line/adb) 来提供 root 访问，并且为了支持调试，[放宽](https://github.com/LineageOS/android_system_sepolicy/search?q=userdebug&type=code)了 SELinux 规则。这进一步扩大了攻击面，弱化了安全模型。
 

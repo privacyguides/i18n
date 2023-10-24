@@ -17,7 +17,7 @@ Não ganhamos dinheiro com a recomendação de determinados produtos, não utili
 Aos considerarmos novas recomendações, aplicamos as seguintes prioridades:
 
 - **Segurança**: as ferramentas devem seguir as melhores práticas de segurança, sempre que aplicável.
-- **Disponibilidade da fonte**: os projetos de fonte aberta são geralmente preferidos às alternativas proprietárias equivalentes.
+- **Source Availability**: Open-source projects are generally preferred over equivalent proprietary alternatives.
 - **Multiplataforma**: normalmente, preferimos que as recomendações sejam multiplataforma, para evitar a dependência do fornecedor.
 - **Desenvolvimento ativo**: as ferramentas que recomendamos devem ser desenvolvidas ativamente. Os projetos que não tenham uma manutenção regular serão removidos, na maioria dos casos.
 - **Usabilidade**: as ferramentas devem ser acessíveis à maioria dos utilizadores de computadores, não devendo ser necessária uma formação ou conhecimento demasiado técnicos.

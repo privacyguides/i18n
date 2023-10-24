@@ -60,7 +60,7 @@ A legtöbb online irodai programcsomag nem támogatja az End-to-End titkosítás
 
 Általános esetben az kollaborációs platformokat olyan teljes értékű csomagokként határozzuk meg, amelyek ésszerűen helyettesíthetik az olyan kollaborációs platformokat, mint a Google Drive.
 
-- Nyílt forráskódú.
+- Open source.
 - WebDAV-on keresztül elérhetővé tesz fájlokat, kivéve, ha az End-to-End titkosítás miatt nem lehetséges.
 - Szinkronizáló kliensekkel rendelkezik Linux, macOS és Windows rendszerekre.
 - Támogat dokumentum- és táblázatkezelést.
@@ -162,10 +162,9 @@ A legjobb esetben alkalmazott követelményeink azt fejezik ki, hogy mit szeretn
 
 #### Alap elvárások
 
-- Must be open-source.
+- Nyílt forráskódúnak kell lennie.
 - Must implement "zero-trust" end-to-end encryption.
 - Must support password-protected files.
-
 
 #### Legjobb esetben
 

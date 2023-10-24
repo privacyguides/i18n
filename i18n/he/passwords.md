@@ -161,7 +161,7 @@ Bitwarden כולל גם [Bitwarden Send](https://bitwarden.com/products/send/), 
 
 אתה צריך [תוכנית פרימיום](https://bitwarden.com/help/about-bitwarden-plans/#compare-personal-plans) כדי להיות מסוגל לשתף קבצים. התוכנית החינמית מאפשרת שיתוף טקסט בלבד.
 
-הקוד בצד השרת של Bitwarden הוא [קוד-פתוח](https://github.com/bitwarden/server), כך שאם אינכם רוצים להשתמש בענן Bitwarden, תוכלו לארח בקלות שרת סינכרון Bitwarden משלכם.
+Bitwarden's server-side code is [open source](https://github.com/bitwarden/server), so if you don't want to use the Bitwarden cloud, you can easily host your own Bitwarden sync server.
 
 **Vaultwarden** הוא יישום חלופי של שרת הסנכרון של Bitwarden שנכתב ב-Rust ותואם ללקוחות רשמיים של Bitwarden, מושלם לפריסה באירוח עצמי שבו הפעלת השירות הרשמי עתיר המשאבים עשויה להיות לא אידיאלית. אם אתם מחפשים לארח את Bitwarden באופן עצמאי בשרת שלכם, קרוב לוודאי שתרצו להשתמש ב-Vaultwarden על פני קוד השרת הרשמי של Bitwarden.
 
@@ -239,7 +239,7 @@ Psono מספקת תיעוד נרחב עבור המוצר שלהם. לקוח הא
 הקריטריונים הטובים ביותר שלנו מייצגים את מה שהיינו רוצים לראות מהפרויקט המושלם בקטגוריה זו. ייתכן שההמלצות שלנו לא יכללו חלק מהפונקציונליות הזו או את כולה, אך אלו שכן כן עשויות לדרג גבוה יותר מאחרות בדף זה.
 
 - יש להצטרף לטלמטריה (מושבת כברירת מחדל) או לא לאסוף כלל.
-- צריך להיות קוד פתוח וניתן לאירוח עצמי סביר.
+- Should be open source and reasonably self-hostable.
 
 ## אחסון מקומי
 

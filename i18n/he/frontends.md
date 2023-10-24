@@ -39,9 +39,9 @@ cover: frontends.webp
 
 !!! recommendation
 
-    ![ProxiTok לוגו](assets/img/frontends/proxitok.svg){ align=right }
+    ![ProxiTok logo](assets/img/frontends/proxitok.svg){ align=right }
     
-    **ProxiTok** הוא ממשק קוד פתוח לאתר [TikTok](https://www.tiktok.com) שגם הוא ניתן לאירוח עצמי.
+    **ProxiTok** is an open-source frontend to the [TikTok](https://www.tiktok.com) website that is also self-hostable.
     
     ישנם מספר מופעים ציבוריים, כאשר בחלק מהמקרים יש תמיכה בשירותי בצל [Tor](https://www.torproject.org).
     

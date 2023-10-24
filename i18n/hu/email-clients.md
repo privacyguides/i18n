@@ -226,7 +226,7 @@ Canary Mail is closed-source. We recommend it due to the few choices there are f
 
 ### Alap minősítések
 
-- Nyílt forráskódú operációs rendszerekre fejlesztett alkalmazásoknak nyílt forráskódúnak kell lenniük.
+- Apps developed for open-source operating systems must be open source.
 - Must not collect telemetry, or have an easy way to disable all telemetry.
 - Must support OpenPGP message encryption.
 
@@ -234,7 +234,7 @@ Canary Mail is closed-source. We recommend it due to the few choices there are f
 
 A legjobb esetben alkalmazott követelményeink azt fejezik ki, hogy mit szeretnénk látni egy kifogástalan projekttől ebben a kategóriában. Előfordulhat, hogy ajánlásaink nem tartalmazzák az összes ilyen funkciót, de azok, amelyek igen, magasabb helyen szerepelhetnek, mint mások ezen az oldalon.
 
-- Should be open-source.
+- Should be open source.
 - Should be cross-platform.
 - Should not collect any telemetry by default.
 - Should support OpenPGP natively, i.e. without extensions.

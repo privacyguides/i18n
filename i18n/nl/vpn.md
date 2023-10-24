@@ -133,7 +133,7 @@ IVPN heeft een [no-logging audit ondergaan van Cure53](https://cure53.de/audit-r
 
 #### :material-check:{ .pg-green } Open-source clients
 
-Vanaf februari 2020 zijn [IVPN-toepassingen nu open-source](https://www.ivpn.net/blog/ivpn-applications-are-now-open-source). Broncode kan worden verkregen van hun [GitHub organisatie](https://github.com/ivpn).
+As of February 2020 [IVPN applications are now open source](https://www.ivpn.net/blog/ivpn-applications-are-now-open-source). Broncode kan worden verkregen van hun [GitHub organisatie](https://github.com/ivpn).
 
 #### :material-check:{ .pg-green } Accepteert contant geld en Monero
 
@@ -248,7 +248,7 @@ Wij eisen dat al onze aanbevolen VPN-providers OpenVPN-configuratiebestanden lev
 - Ondersteuning voor sterke protocollen zoals WireGuard & OpenVPN.
 - Killswitch ingebouwd in clients.
 - Multihop ondersteuning. Multihopping is belangrijk om gegevens privé te houden in het geval van een compromittering door één knooppunt.
-- Als er VPN-clients worden verstrekt, moeten dat [open-source](https://en.wikipedia.org/wiki/Open_source)zijn, zoals de VPN-software die er doorgaans in is ingebouwd. Wij zijn van mening dat de beschikbaarheid van [broncode](https://en.wikipedia.org/wiki/Source_code) meer transparantie biedt over wat uw apparaat feitelijk doet.
+- If VPN clients are provided, they should be [open source](https://en.wikipedia.org/wiki/Open_source), like the VPN software they generally have built into them. Wij zijn van mening dat de beschikbaarheid van [broncode](https://en.wikipedia.org/wiki/Source_code) meer transparantie biedt over wat uw apparaat feitelijk doet.
 
 **Beste geval:**
 

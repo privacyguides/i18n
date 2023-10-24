@@ -161,7 +161,7 @@ Bitwarden은 [종단 간 암호화를 적용해](https://bitwarden.com/help/send
 
 파일 공유 기능은 [프리미엄 요금제](https://bitwarden.com/help/about-bitwarden-plans/#compare-personal-plans)에만 제공됩니다. 무료 플랜은 텍스트 공유만 가능합니다.
 
-Bitwarden 서버 코드는 [오픈 소스](https://github.com/bitwarden/server)이므로, Bitwarden 클라우드를 사용하고 싶지 않은 경우에는 Bitwarden 동기화 서버를 직접 호스팅하는 것도 가능합니다.
+Bitwarden's server-side code is [open source](https://github.com/bitwarden/server), so if you don't want to use the Bitwarden cloud, you can easily host your own Bitwarden sync server.
 
 **Vaultwarden**은 Bitwarden 동기화 서버를 Rust 언어로 구현한 것으로, Bitwarden 공식 클라이언트와 호환됩니다. 공식 서비스에 비해 리소스 사용량이 적으므로 자체 호스팅 용도로 적합합니다. Vaultwarden은 개인 서버에서 Bitwarden을 자체 호스팅하는 경우 공식 Bitwarden 서버 코드보다 선호됩니다.
 
@@ -239,7 +239,7 @@ Psono는 제품에 관련된 문서를 매우 폭넓게 제공합니다. Psono �
 평가 기준에서 '우대 사항'은 해당 부문에서 완벽한 프로젝트에 기대하는 바를 나타냅니다. 다음의 우대 사항에 해당하지 않더라도 권장 목록에 포함될 수 있습니다. 단, 우대 사항에 해당할수록 이 페이지의 다른 항목보다 높은 순위를 갖습니다.
 
 - 원격 분석 데이터 수집 기능은 아예 존재하지 않거나, 기본적으로 비활성화되어 있어야 합니다.
-- 오픈 소스여야 하며, 자체 호스팅이 현실적으로 가능해야 합니다.
+- Should be open source and reasonably self-hostable.
 
 ## 로컬 저장
 

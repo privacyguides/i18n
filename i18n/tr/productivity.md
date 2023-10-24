@@ -59,7 +59,7 @@ cover: productivity.webp
 
 In general, we define collaboration platforms as full-fledged suites which could reasonably act as a replacement to collaboration platforms like Google Drive.
 
-- Açık Kaynak.
+- Open source.
 - Uçtan uca şifreleme nedeniyle imkansız olmadığı sürece dosyaları WebDAV aracılığıyla erişilebilir hale getirir.
 - Linux, macOS ve Windows için senkronizasyon uygulamları sağlar.
 - Belge ve elektronik tablo düzenlemeyi destekler.
@@ -161,10 +161,9 @@ Genel olarak, ofis programlarını çoğu ihtiyaç için Microsoft Word'ün yeri
 
 #### Minimum Gereksinimler
 
-- Açık kaynak olmalıdır.
+- Must be open source.
 - "Sıfır güven" uçtan uca şifreleme uygulamalıdır.
 - Parola korumalı dosyaları desteklemelidir.
-
 
 #### Best-Case
 

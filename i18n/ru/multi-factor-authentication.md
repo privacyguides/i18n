@@ -23,12 +23,12 @@ cover: multi-factor-authentication.webp
 
 [Сравнительная таблица](https://www.yubico.com/store/compare/) показывает особенности и сравнение ключей YubiKey. Мы настоятельно рекомендуем вам выбрать ключи из серии YubiKey 5.
 
-YubiKeys можно запрограммировать с помощью [YubiKey Manager](https://www.yubico.com/support/download/yubikey-manager/) или [YubiKey Personalization Tools](https://www.yubico.com/support/download/yubikey-personalization-tools/). Для управления TOTP-кодами вы можете использовать [Yubico Authenticator](https://www.yubico.com/products/yubico-authenticator/). Все приложения Yubico имеют открытый исходный код.
+YubiKeys можно запрограммировать с помощью [YubiKey Manager](https://www.yubico.com/support/download/yubikey-manager/) или [YubiKey Personalization Tools](https://www.yubico.com/support/download/yubikey-personalization-tools/). Для управления TOTP-кодами вы можете использовать [Yubico Authenticator](https://www.yubico.com/products/yubico-authenticator/). All of Yubico's clients are open source.
 
 Для моделей, поддерживающих HOTP и TOTP, в интерфейсе OTP есть 2 слота, которые можно использовать для HOTP, и 32 слота для хранения секретов TOTP. Эти секреты хранятся в зашифрованном виде на ключе и никогда не раскрывают их для устройств, к которым они подключены. После того как Yubico Authenticator получит семя (общий секрет), он будет выдавать только шестизначные коды. Секрет никогда выдаваться не будет. Эта модель безопасности помогает ограничить возможности злоумышленника, если он скомпрометирует одно из устройств, на которых работает Yubico Authenticator, и делает YubiKey устойчивым к физическому воздействию злоумышленника.
 
-!!! warning "Осторожно"
-    Прошивку YubiKey нельзя обновить и для неё нет открытого исходного кода. Если вам нужны функции, которые доступны только в более новых версиях прошивки или если в используемой вами версии прошивки есть уязвимость, вам нужно будет приобрести новый ключ.
+!!! warning
+    The firmware of YubiKey is not open source and is not updatable. Если вам нужны функции, которые доступны только в более новых версиях прошивки или если в используемой вами версии прошивки есть уязвимость, вам нужно будет приобрести новый ключ.
 
 ### Nitrokey
 
@@ -58,7 +58,7 @@ YubiKeys можно запрограммировать с помощью [YubiKe
 
 Nitrokey Pro 2, Nitrokey Storage 2 и предстоящий Nitrokey 3 поддерживают проверку целостности системы для ноутбуков с прошивкой [Coreboot](https://www.coreboot.org/) + [Heads](https://osresearch.net/).
 
-В отличие от YubiKey, прошивка Nitrokey имеет открытый исходный код. Прошивка современных моделей NitroKey (кроме **NitroKey Pro 2**) является обновляемой.
+Nitrokey's firmware is open source, unlike the YubiKey. Прошивка современных моделей NitroKey (кроме **NitroKey Pro 2**) является обновляемой.
 
 ### Критерии
 

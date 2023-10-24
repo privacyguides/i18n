@@ -161,7 +161,7 @@ Bitwarden juga memiliki fitur [Bitwarden Send](https://bitwarden.com/products/se
 
 Anda memerlukan [Paket Premium](https://bitwarden.com/help/about-bitwarden-plans/#compare-personal-plans) untuk dapat berbagi file. Paket yang gratis hanya bisa berbagi teks saja.
 
-Kode sisi server Bitwarden adalah [open-source](https://github.com/bitwarden/server), jadi jika Anda tidak ingin menggunakan cloud Bitwarden, Anda dapat dengan mudah meng-host server sinkronisasi Bitwarden Anda sendiri.
+Bitwarden's server-side code is [open source](https://github.com/bitwarden/server), so if you don't want to use the Bitwarden cloud, you can easily host your own Bitwarden sync server.
 
 **Vaultwarden** adalah implementasi alternatif dari server sinkronisasi Bitwarden yang ditulis dalam Rust dan kompatibel dengan klien Bitwarden resmi, sempurna untuk penerapan yang dihosting sendiri di mana menjalankan layanan resmi yang penuh sumber daya mungkin tidak ideal. Jika Anda ingin meng-host Bitwarden di server Anda sendiri, Gunakanlah Vaultwarden dan bukan kode server resmi Bitwarden.
 
@@ -239,7 +239,7 @@ Psono menyediakan dokumentasi ekstensif untuk produk mereka. Klien web untuk Pso
 Kriteria kasus terbaik kami mewakili apa yang ingin kami lihat dari proyek yang sempurna dalam kategori ini. Rekomendasi kami mungkin tidak menyertakan salah satu atau semua fungsi ini, tetapi rekomendasi yang menyertakan fungsi ini mungkin memiliki peringkat yang lebih tinggi daripada yang lain di halaman ini.
 
 - Telemetri harus bersifat opsional (dinonaktifkan secara default) atau tidak dikumpulkan sama sekali.
-- Harus bersumber terbuka dan dapat dihosting sendiri.
+- Should be open source and reasonably self-hostable.
 
 ## Penyimpanan Lokal
 

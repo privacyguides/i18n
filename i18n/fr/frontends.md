@@ -39,9 +39,9 @@ Lorsque vous utilisez une instance gérée par quelqu'un d'autre, veillez à lir
 
 !!! recommendation
 
-    ![Logo ProxiTok](assets/img/frontends/proxitok.svg){ align=right }
+    ![ProxiTok logo](assets/img/frontends/proxitok.svg){ align=right }
     
-    **ProxiTok** est une interface client open source du site [TikTok](https://www.tiktok.com) qui est également auto-hébergeable.
+    **ProxiTok** is an open-source frontend to the [TikTok](https://www.tiktok.com) website that is also self-hostable.
     
     Il existe un certain nombre d'instances publiques, dont certaines bénéficient de la prise en charge des services oignon [Tor](https://www.torproject.org).
     

@@ -226,7 +226,7 @@ Canary Mailのソースコードは公開されていません。 We recommend i
 
 ### 最低要件
 
-- Apps developed for open-source operating systems must be open-source.
+- Apps developed for open-source operating systems must be open source.
 - Must not collect telemetry, or have an easy way to disable all telemetry.
 - Must support OpenPGP message encryption.
 
@@ -234,7 +234,7 @@ Canary Mailのソースコードは公開されていません。 We recommend i
 
 満たされることが望ましい基準には、このカテゴリーの完璧なプロジェクトに私たちが望むものを示しています。 私たちが推薦するプロジェクトは、この機能の一部または全部を含んでいないかもしれませんが、もし含んでいれば、このページで他のプロジェクトよりも上位にランクされるかもしれません。
 
-- Should be open-source.
+- Should be open source.
 - Should be cross-platform.
 - Should not collect any telemetry by default.
 - Should support OpenPGP natively, i.e. without extensions.

@@ -39,9 +39,9 @@ cover: frontends.webp
 
 !!! recommendation
 
-    ![Логотип ProxiTok](assets/img/frontends/proxitok.svg){ align=right }
+    ![ProxiTok logo](assets/img/frontends/proxitok.svg){ align=right }
     
-    **ProxiTok** - это фронтенд с открытым исходным кодом для [TikTok](https://www.tiktok.com), который можно самостоятельно хостить.
+    **ProxiTok** is an open-source frontend to the [TikTok](https://www.tiktok.com) website that is also self-hostable.
     
     Существует ряд публичных экземпляров, причем некоторые экземпляры имеют поддержку [Tor](https://www.torproject.org).
     

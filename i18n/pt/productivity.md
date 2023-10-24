@@ -62,7 +62,7 @@ A maioria das suítes de escritório online não suporta E2EE, o que significa q
 
 Em geral, definimos as plataformas de colaboração como suites completas que podem razoavelmente atuar como substitutos de plataformas de colaboração, como o Google Drive.
 
-- Código aberto.
+- Open source.
 - Tornam os ficheiros acessíveis através de WebDAV, a menos que tal seja impossível devido ao E2EE.
 - Têm clientes de sincronização para Linux, macOS e Windows.
 - Suportam a edição de documentos e folhas de cálculo.
@@ -167,10 +167,9 @@ Em geral, definimos suites de escritório como aplicações que podem razoavelme
 
 #### Requisitos mínimos
 
-- Devem ser de código aberto.
+- Deve ser de fonte aberta.
 - Devem implementar uma encriptação de ponta a ponta de "confiança zero".
 - Devem suportar ficheiros protegidos por palavra-passe.
-
 
 #### Melhor caso
 

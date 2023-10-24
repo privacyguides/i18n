@@ -29,7 +29,7 @@ Je kunt OpenWrt's [tabel van hardware](https://openwrt.org/toh/start) raadplegen
 
     ![OPNsense logo](assets/img/router/opnsense.svg){ align=right }
     
-    **OPNsense** is een open source, op FreeBSD gebaseerde firewall en routing platform dat veel geavanceerde functies bevat zoals traffic shaping, load balancing en VPN mogelijkheden, met nog veel meer functies beschikbaar in de vorm van plugins. OPNsense wordt gewoonlijk ingezet als perimeter firewall, router, draadloos toegangspunt, DHCP server, DNS server en VPN eindpunt.
+    **OPNsense** is an open-source, FreeBSD-based firewall and routing platform which incorporates many advanced features such as traffic shaping, load balancing, and VPN capabilities, with many more features available in the form of plugins. OPNsense wordt gewoonlijk ingezet als perimeter firewall, router, draadloos toegangspunt, DHCP server, DNS server en VPN eindpunt.
     
     [:octicons-home-16: Homepage](https://opnsense.org/){ .md-button .md-button--primary }
     [:octicons-info-16:](https://docs.opnsense.org/index.html){ .card-link title=Documentatie}

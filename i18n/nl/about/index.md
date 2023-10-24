@@ -81,7 +81,7 @@ Tot nu toe hebben we in 2023 internationale vertalingen van onze website gelance
     - [:simple-github: GitHub](https://github.com/hook9 "@hook9")
     - [:simple-mastodon: Mastodon](https://mastodon.neat.computer/@oliviablob "@oliviablob@neat.computer"){rel=me}
 
-Bovendien hebben [veel mensen](https://github.com/privacyguides/privacyguides.org/graphs/contributors) bijgedragen aan het project. Jij kunt dat ook, we zijn open source op GitHub, en accepteren vertaalsuggesties op [Crowdin](https://crowdin.com/project/privacyguides).
+Bovendien hebben [veel mensen](https://github.com/privacyguides/privacyguides.org/graphs/contributors) bijgedragen aan het project. You can too, we're open source on GitHub, and accepting translation suggestions on [Crowdin](https://crowdin.com/project/privacyguides).
 
 Onze teamleden bekijken alle wijzigingen aan de website en nemen administratieve taken op zich zoals webhosting en financiën, maar zij profiteren niet persoonlijk van bijdragen aan deze site. Onze financiën worden transparant gehost door de Open Collective Foundation 501(c)(3) op [opencollective.com/privacyguides](https://opencollective.com/privacyguides). Giften aan Privacy Guides zijn in het algemeen aftrekbaar van de belasting in de Verenigde Staten.
 

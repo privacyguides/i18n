@@ -81,7 +81,7 @@ Jusqu'à présent en 2023, nous avons lancé des traductions internationales de 
     - [:simple-github: GitHub](https://github.com/hook9 "@hook9")
     - [:simple-mastodon: Mastodon](https://mastodon.neat.computer/@oliviablob "@oliviablob@neat.computer"){rel=me}
 
-De plus, [de nombreuses personnes](https://github.com/privacyguides/privacyguides.org/graphs/contributors) ont apporté des contributions au projet. Vous pouvez aussi, nous sommes open source sur GitHub, et acceptons les suggestions de traduction sur [Crowdin](https://crowdin.com/project/privacyguides).
+De plus, [de nombreuses personnes](https://github.com/privacyguides/privacyguides.org/graphs/contributors) ont apporté des contributions au projet. You can too, we're open source on GitHub, and accepting translation suggestions on [Crowdin](https://crowdin.com/project/privacyguides).
 
 Les membres de notre équipe examinent toutes les modifications apportées au site et s'occupent des tâches administratives telles que l'hébergement et les finances, mais ils ne profitent pas personnellement des contributions apportées à ce site. Nos finances sont hébergées de manière transparente par la Fondation Open Collective 501(c)(3) sur [opencollective.com/privacyguides](https://opencollective.com/privacyguides). Les dons à Privacy Guides sont généralement déductibles des impôts aux États-Unis.
 

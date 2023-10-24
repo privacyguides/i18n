@@ -81,7 +81,7 @@ schema:
     - [:simple-github: GitHub](https://github.com/hook9 "@hook9")
     - [:simple-mastodon: Mastodon](https://mastodon.neat.computer/@oliviablob "@oliviablob@neat.computer"){rel=me}
 
-בנוסף, [אנשים רבים](https://github.com/privacyguides/privacyguides.org/graphs/contributors) תרמו לפרויקט. גם אתה יכול, אנחנו בקוד פתוח ב-GitHub ומקבלים הצעות תרגום ב-[Crowdin](https://crowdin.com/project/privacyguides).
+בנוסף, [אנשים רבים](https://github.com/privacyguides/privacyguides.org/graphs/contributors) תרמו לפרויקט. You can too, we're open source on GitHub, and accepting translation suggestions on [Crowdin](https://crowdin.com/project/privacyguides).
 
 חברי הצוות שלנו בודקים את כל השינויים שבוצעו באתר ומטפלים בתפקידים אדמיניסטרטיביים כגון אירוח אתרים ופיננסים, אולם הם אינם מרוויחים באופן אישי מכל תרומה כלשהי לאתר זה. הדוחות הכספיים שלנו מתארחים באופן שקוף על ידי Open Collective Foundation 501(c)( 3) בכתובת [opencollective.com/privacyguides](https://opencollective.com/privacyguides). תרומות ל-Privacy Guides ניתנות לניכוי מס בדרך כלל בארצות הברית.
 

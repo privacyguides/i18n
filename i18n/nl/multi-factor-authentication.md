@@ -23,12 +23,12 @@ cover: multi-factor-authentication.webp
 
 Deze [vergelijkingstabel](https://www.yubico.com/store/compare/) toont de kenmerken en hoe de YubiKeys zich tot elkaar verhouden. Wij raden je ten zeerste aan om sleutels uit de YubiKey 5-serie te kiezen.
 
-YubiKeys kunnen worden geprogrammeerd met behulp van de [YubiKey Manager](https://www.yubico.com/support/download/yubikey-manager/) of [YubiKey Personalization Tools](https://www.yubico.com/support/download/yubikey-personalization-tools/). Voor het beheer van TOTP-codes kunt je de [Yubico Authenticator](https://www.yubico.com/products/yubico-authenticator/)gebruiken. Alle Yubico's clients zijn open source.
+YubiKeys kunnen worden geprogrammeerd met behulp van de [YubiKey Manager](https://www.yubico.com/support/download/yubikey-manager/) of [YubiKey Personalization Tools](https://www.yubico.com/support/download/yubikey-personalization-tools/). Voor het beheer van TOTP-codes kunt je de [Yubico Authenticator](https://www.yubico.com/products/yubico-authenticator/)gebruiken. All of Yubico's clients are open source.
 
 Voor modellen die HOTP en TOTP ondersteunen, zijn er 2 slots in de OTP-interface die kunnen worden gebruikt voor HOTP en 32 slots om TOTP geheimen op te slaan. Deze geheimen worden versleuteld opgeslagen op de sleutel en worden nooit blootgesteld aan de apparaten waarop ze zijn aangesloten. Zodra een "seed" ( het gedeeld geheim) aan de Yubico Authenticator is gegeven, zal deze alleen de zescijferige codes geven, maar nooit de seed. Dit beveiligingsmodel beperkt wat een aanvaller kan doen als hij een van de apparaten waarop de Yubico Authenticator draait, in gevaar brengt en maakt de YubiKey bestand tegen een fysieke aanvaller.
 
 !!! warning
-    De firmware van YubiKey is niet open-source en kan niet worden geüpdatet. Als je functies in nieuwere firmwareversies wilt, of als er een kwetsbaarheid is in de firmwareversie die je gebruikt, moet je een nieuwe sleutel kopen.
+    The firmware of YubiKey is not open source and is not updatable. Als je functies in nieuwere firmwareversies wilt, of als er een kwetsbaarheid is in de firmwareversie die je gebruikt, moet je een nieuwe sleutel kopen.
 
 ### Nitrokey
 
@@ -58,7 +58,7 @@ Voor de modellen die HOTP en TOTP ondersteunen, zijn er 3 slots voor HOTP en 15 
 
 De Nitrokey Pro 2, Nitrokey Storage 2 en de komende Nitrokey 3 ondersteunen systeemintegriteitscontrole voor laptops met de [Coreboot](https://www.coreboot.org/) + [Heads](https://osresearch.net/) firmware.
 
-Nitrokey's firmware is open-source, in tegenstelling tot de YubiKey. De firmware op moderne NitroKey-modellen (behalve de **NitroKey Pro 2**) kan worden bijgewerkt.
+Nitrokey's firmware is open source, unlike the YubiKey. De firmware op moderne NitroKey-modellen (behalve de **NitroKey Pro 2**) kan worden bijgewerkt.
 
 ### Criteria
 

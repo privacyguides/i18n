@@ -180,7 +180,7 @@ Google Pixel 是**唯一** 推薦的手機。 由於對第三方作業系統的�
 
 Titan M2 這類安全元件比大多數其他手機處理器的可信執行環境更為有限，因為Titan M2 只用於秘密存儲、硬體證明和速率限制，而不是用於運行 "可信 "程式。 沒有安全元件的手機必須使用 TEE *執行所有這些功能* ，從而導致更大的攻擊面。
 
-Google Pixel 手機使用名為Trusty 的 TEE 作業系統，它是 [開源](https://source.android.com/security/trusty#whyTrusty)，與其他許多手機不同。
+Google Pixel phones use a TEE OS called Trusty which is [open source](https://source.android.com/security/trusty#whyTrusty), unlike many other phones.
 
 Pixel 手機很容易安裝 GrapheneOS 只需依其 [網頁安裝程式](https://grapheneos.org/install/web)即可。 如果不敢自行安裝願意多花一點錢，可以看看 [NitroPhone](https://shop.nitrokey.com/shop) ，它們預裝 GrapheneOS，來自著名的 [Nitrokey](https://www.nitrokey.com/about) 公司。
 

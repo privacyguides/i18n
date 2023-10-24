@@ -92,7 +92,7 @@ They have also received the Digital Trust Label, a certification from the [Swiss
 
 Våra kriterier för bästa fall representerar vad vi skulle vilja se av det perfekta projektet i denna kategori. Våra rekommendationer kanske inte innehåller alla eller några av dessa funktioner, men de som gör det kan vara högre rankade än andra på den här sidan.
 
-- Klienterna bör ha öppen källkod.
+- Clients should be open source.
 - Klienterna bör granskas i sin helhet av en oberoende tredje part.
 - De bör erbjuda inhemska klienter för Linux, Android, Windows, macOS och iOS.
     - Dessa klienter bör integreras med operativsystemets verktyg för leverantörer av molnlagring, t. ex. integrering av Files-appen i iOS eller DocumentsProvider-funktionen i Android.

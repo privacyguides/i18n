@@ -41,7 +41,7 @@ Als je een instantie gebruikt die door iemand anders wordt beheerd, moet je het 
 
     ![ProxiTok logo](assets/img/frontends/proxitok.svg){ align=right }
     
-    **ProxiTok** is een open source frontend voor de [TikTok](https://www.tiktok.com) website die ook zelf te hosten is.
+    **ProxiTok** is an open-source frontend to the [TikTok](https://www.tiktok.com) website that is also self-hostable.
     
     Er zijn een aantal openbare instanties, waarvan sommige instanties [Tor](https://www.torproject.org) .onion diensten ondersteunen.
     

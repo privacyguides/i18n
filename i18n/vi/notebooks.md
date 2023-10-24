@@ -126,7 +126,7 @@ Cryptee offers 100MB of storage for free, with paid options if you need more. Si
         - [:fontawesome-brands-docker: Dockerhub](https://hub.docker.com/r/vaultwarden/server)
         - [:fontawesome-brands-github: Mã nguồn](https://github.com/dani-garcia/vaultwarden)
 
-- Clients must be open-source.
+- Clients must be open source.
 - Any cloud sync functionality must be E2EE.
 - Must support exporting documents into a standard format.
 

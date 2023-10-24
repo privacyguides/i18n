@@ -133,7 +133,7 @@ IVPN telah menjalani [audit tanpa pencatatan dari Cure53](https://cure53.de/audi
 
 #### :material-check:{ .pg-green } Klien Sumber Terbuka
 
-Pada Februari 2020 [aplikasi IVPN sekarang menjadi sumber terbuka](https://www.ivpn.net/blog/ivpn-applications-are-now-open-source). Kode sumber dapat diperoleh dari [organisasi GitHub](https://github.com/ivpn) mereka.
+As of February 2020 [IVPN applications are now open source](https://www.ivpn.net/blog/ivpn-applications-are-now-open-source). Kode sumber dapat diperoleh dari [organisasi GitHub](https://github.com/ivpn) mereka.
 
 #### :material-check:{ .pg-green } Menerima Uang Tunai dan Monero
 
@@ -248,7 +248,7 @@ Kami mewajibkan semua penyedia VPN yang kami rekomendasikan untuk menyediakan be
 - Dukungan untuk protokol yang kuat seperti WireGuard & OpenVPN.
 - Killswitch yang terpasang pada klien.
 - Dukungan multihop. Multihopping penting untuk menjaga kerahasiaan data jika terjadi kompromi pada satu node.
-- Jika klien VPN disediakan, klien tersebut seharusnya [perangkat lunak sumber terbuka](https://id.wikipedia.org/wiki/Perangkat_lunak_sumber_terbuka), seperti perangkat lunak VPN yang umumnya sudah terpasang di dalamnya. Kami percaya bahwa ketersediaan [kode sumber](https://id.wikipedia.org/wiki/Kode_sumber) memberikan transparansi yang lebih besar tentang apa yang sebenarnya dilakukan oleh perangkat Anda.
+- If VPN clients are provided, they should be [open source](https://en.wikipedia.org/wiki/Open_source), like the VPN software they generally have built into them. Kami percaya bahwa ketersediaan [kode sumber](https://id.wikipedia.org/wiki/Kode_sumber) memberikan transparansi yang lebih besar tentang apa yang sebenarnya dilakukan oleh perangkat Anda.
 
 **Kasus Terbaik:**
 

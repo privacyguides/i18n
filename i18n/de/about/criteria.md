@@ -17,7 +17,7 @@ Wir verdienen kein Geld mit Empfehlungen bestimmter Produkte, wir verwenden kein
 Wir wenden diese Prioritäten beim Prüfen neuer Empfehlungen an:
 
 - **Sicher**: Tools sollten, wo möglich, bewährte Sicherheitspraktiken anwenden.
-- **Verfügbarkeit der Quellen**: Open-Source-Projekte werden meist gegenüber gleichwertigen proprietären Alternativen bevorzugt.
+- **Source Availability**: Open-source projects are generally preferred over equivalent proprietary alternatives.
 - **Plattformübergreifend**: Wir bevorzugen Empfehlungen die plattformübergreifend sind, um eine Herstellerbindung zu vermeiden.
 - **Aktive Entwicklung**: Die von uns empfohlenen Tools sollten aktiv weiterentwickelt werden, nicht gewartete Projekte werden in den meisten Fällen entfernt.
 - **Benutzerfreundlichkeit**: Die Tools sollten für die meisten Computerbenutzer zugänglich sein, ein übermäßig technischer Hintergrund sollte nicht erforderlich sein.

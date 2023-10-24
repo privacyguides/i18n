@@ -18,7 +18,7 @@ Esistono alcune notevoli preoccupazioni sulla privacy con Linux, di cui dovresti
 - Mantenere la [libertà del software](https://www.gnu.org/philosophy/free-sw.en.html#four-freedoms)
 - Utilizzare sistemi incentrati sulla privacy come [Whonix](https://www.whonix.org) o [Tails](https://tails.boum.org/)
 
-### Sicurezza Open Source
+### Open-Source Security
 
 È una convinzione [comunemente errata](../basics/common-misconceptions.md#open-source-software-is-always-secure-or-proprietary-software-is-more-secure) che Linux e altri software open-source siano intrinsecamente sicuri semplicemente perché il codice sorgente è disponibile. Ci si aspetta che la verifica della community si verifichi regolarmente, ma ciò non è sempre [il caso](https://seirdy.one/posts/2022/02/02/floss-security/).
 

@@ -8,7 +8,7 @@ Privacy Guides는 법률 회사가 아닙니다. 따라서 Privacy Guides 웹사
 
 본 웹사이트의 운영은 다른 모든 노력과 마찬가지로 불확실성과 장단점을 수반합니다. 본 웹사이트가 도움이 되길 바라지만, 실수가 존재할 수 있으며 모든 상황을 해결할 수는 없습니다. 자신의 상황에 대해 궁금한 점이 있는 경우, 스스로 조사하고, 다른 전문가를 찾아보고, Privacy Guides 커뮤니티에서 논의에 참여할 것을 권장합니다. 법적인 질문이 있는 경우, 나아가기에 앞서 자신의 법률 상담자과 상의해야 합니다.
 
-Privacy Guide는 웹사이트와 기여자를 보호하기 위해 Privacy Guides 프로젝트 및 웹사이트가 보증 없이 "있는 그대로" 제공되며, 웹사이트 이용 또는 웹사이트에 포함된 권장 사항으로 인한 손해에 대한 책임을 부인하는 약관이 포함된 라이선스에 따라 기여한 오픈 소스 프로젝트입니다. Privacy Guides는 웹사이트의 자료 사용에 대한 정확성, 가능한 결과, 또는 신뢰성에 대해 보증하거나 어떠한 진술도 하지 않으며, 웹사이트의 이러한 자료나 본 사이트에 연결된 제3자 사이트와 관련된 어떠한 자료에 대해서도 보증하지 않습니다.
+Privacy Guides is an open-source project contributed to under licenses that include terms that, for the protection of the website and its contributors, make clear that the Privacy Guides project and website is offered "as-is", without warranty, and disclaiming liability for damages resulting from using the website or any recommendations contained within. Privacy Guides는 웹사이트의 자료 사용에 대한 정확성, 가능한 결과, 또는 신뢰성에 대해 보증하거나 어떠한 진술도 하지 않으며, 웹사이트의 이러한 자료나 본 사이트에 연결된 제3자 사이트와 관련된 어떠한 자료에 대해서도 보증하지 않습니다.
 
 또한 Privacy Guides는 본 웹사이트가 지속적으로 이용 가능하거나 전혀 이용 가능하지 않을 수 있음을 보증하지 않습니다.
 

@@ -18,7 +18,7 @@ description: לינוקס היא חלופה למערכת הפעלה שולחני
 - לשמור על [חופש תוכנה](https://www.gnu.org/philosophy/free-sw.en.html#four-freedoms)
 - השתמש במערכות ממוקדות פרטיות כגון [Whonix](https://www.whonix.org) או [Tails](https://tails.boum.org/)
 
-### אבטחת קוד פתוח
+### Open-Source Security
 
 זוהי [תפיסה שגויה נפוצה](../basics/common-misconceptions.md#open-source-software-is-always-secure-or-proprietary-software-is-more-secure) שלינוקס ותוכנות קוד פתוח אחרות מאובטחות מטבען פשוט בגלל שקוד המקור זמין. יש ציפייה שאימות קהילה מתרחש באופן קבוע, אבל זה לא תמיד [המקרה](https://seirdy.one/posts/2022/02/02/floss-security/).
 

@@ -132,7 +132,7 @@ Cryptee offre 100MB di archiviazione gratuiti, con opzioni a pagamento se necess
 
     Stiamo lavorando per stabilire i criteri definiti per ogni sezione del nostro sito e, questa, potrebbe essere soggetta a modifiche. Se hai qualsiasi domanda sui nostri criteri, ti preghiamo di [chiedere sul nostro forum](https://discuss.privacyguides.net/latest) e di non supporre che non abbiamo considerato qualcosa, formulando i nostri consigli, se non elencato qui. Molti fattori sono presi in considerazione e discussi quando consigliamo un progetto e la documentazione di ognuno è in lavorazione.
 
-- I client devono essere open source.
+- Clients must be open source.
 - Qualsiasi funzionalità di sincronizzazione su cloud dev'essere in E2EE.
 - Deve supportare l'esportazione dei documenti in un formato standard.
 

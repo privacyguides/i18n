@@ -9,7 +9,7 @@ schema:
     mainEntity:
       - 
         "@type": Question
-        name: Les logiciels libres sont-ils intrinsèquement sûrs ?
+        name: Is open-source software inherently secure?
         acceptedAnswer:
           "@type": Answer
           text: |

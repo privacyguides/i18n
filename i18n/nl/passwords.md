@@ -161,7 +161,7 @@ Bitwarden beschikt ook over de tool genaamd [Bitwarden Send](https://bitwarden.c
 
 U hebt het [Premium Plan](https://bitwarden.com/help/about-bitwarden-plans/#compare-personal-plans) nodig om bestanden te kunnen delen. Het gratis plan staat alleen het delen van tekst toe.
 
-De server-side code van Bitwarden is [open-source](https://github.com/bitwarden/server), dus als je de Bitwarden-cloud niet wilt gebruiken, kunt je gemakkelijk jouw eigen Bitwarden-synchronisatieserver hosten.
+Bitwarden's server-side code is [open source](https://github.com/bitwarden/server), so if you don't want to use the Bitwarden cloud, you can easily host your own Bitwarden sync server.
 
 **Vaultwarden** is een alternatieve implementatie van de sync-server van Bitwarden, geschreven in Rust en compatibel met de officiële Bitwarden-clients, perfect voor zelf-hosting waar het draaien van de officiële resource-heavy service misschien niet ideaal is. Als je Bitwarden zelf wilt hosten op jouw eigen server, wil je vrijwel zeker Vaultwarden gebruiken in plaats van de officiële servercode van Bitwarden.
 
@@ -239,7 +239,7 @@ Psono biedt uitgebreide documentatie voor hun product. De web-client voor Psono 
 Onze best-case criteria geven aan wat wij zouden willen zien van het perfecte project in deze categorie. Het is mogelijk dat onze aanbevelingen geen of niet alle functies bevatten, maar degene die dat wel doen kunnen hoger gerangschikt worden dan andere op deze pagina.
 
 - Telemetrie moet opt-in zijn (standaard uitgeschakeld) of helemaal niet worden verzameld.
-- Moet open-source zijn en redelijk self-hostable.
+- Should be open source and reasonably self-hostable.
 
 ## Lokale opslag
 

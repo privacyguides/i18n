@@ -132,7 +132,7 @@ A Cryptee 100MB tárhelyet kínál ingyenesen, fizetős lehetőséggel, ha több
 
     Azon dolgozunk, hogy meghatározott követelményeket állapítsunk meg az oldalunk minden egyes szakaszára vonatkozóan, és ez még változhat. Ha bármilyen kérdésed van a követelményinkkel kapcsolatban, kérjük, [kérdezz a fórumon](https://discuss.privacyguides.net/latest), és ne feltételezd, hogy valamit nem vettünk figyelembe az ajánlásaink elkészítésekor, ha az nem szerepel itt. Számos tényezőt veszünk figyelembe és vitatunk meg, amikor egy projektet ajánlunk, és minden egyes tényező dokumentálása folyamatban lévő munka.
 
-- A klienseknek nyílt forráskódúaknak kell lenniük.
+- Clients must be open source.
 - Minden felhőszinkronizálás funkciónak End-to-End titkosítottnak kell lennie.
 - Támogatnia kell dokumentumok szabványos formátumba történő exportálását.
 

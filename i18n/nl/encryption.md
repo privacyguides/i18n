@@ -345,7 +345,7 @@ Bij het versleutelen met PGP, heb je de optie om verschillende opties te configu
 
 ### Minimum kwalificaties
 
-- Cross-platform encryptie apps moeten open-source zijn.
+- Cross-platform encryption apps must be open source.
 - Apps voor bestandsversleuteling moeten ontsleuteling ondersteunen op Linux, macOS en Windows.
 - Apps voor externe schijfversleuteling moeten ontsleuteling ondersteunen op Linux, macOS en Windows.
 - Interne (OS) schijfversleutelingsapps moeten platformonafhankelijk zijn of ingebouwd zijn in het besturingssysteem.

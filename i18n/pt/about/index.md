@@ -81,7 +81,7 @@ Recomendamos armazenar uma chave de recuperação local em um local seguro, em v
     - [:simple-github: GitHub](https://github.com/hook9 "@hook9")
     - [:simple-mastodon: Mastodon](https://mastodon.neat.computer/@oliviablob "@oliviablob@neat.computer"){rel=me}
 
-Além destas pessoas, [muitas outras](https://github.com/privacyguides/privacyguides.org/graphs/contributors) deram o seu contributo para o projeto. Também poderá fazê-lo. O nosso código é aberto no GitHub e estamos a aceitar sugestões de tradução em [Crowdin](https://crowdin.com/project/privacyguides).
+Além destas pessoas, [muitas outras](https://github.com/privacyguides/privacyguides.org/graphs/contributors) deram o seu contributo para o projeto. You can too, we're open source on GitHub, and accepting translation suggestions on [Crowdin](https://crowdin.com/project/privacyguides).
 
 Os membros da nossa equipa analisam todas as alterações feitas ao site e tratam das tarefas administrativas, como o alojamento Web e as finanças, sem que lucrem pessoalmente com quaisquer contribuições financeiras a este site. As nossas finanças podem ser consultadas, de forma transparente, na Open Collective Foundation 501(c)(3) em [opencollective.com/privacyguides](https://opencollective.com/privacyguides). Os donativos para o Privacy Guides são geralmente dedutíveis nos Estados Unidos.
 

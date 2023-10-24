@@ -92,7 +92,7 @@ They have also received the Digital Trust Label, a certification from the [Swiss
 
 Our best-case criteria represents what we would like to see from the perfect project in this category. Our recommendations may not include any or all of this functionality, but those which do may rank higher than others on this page.
 
-- 客户端应是开源的。
+- Clients should be open source.
 - 客户端应由独立的第三方对其进行全面的审计。
 - 应提供Linux、Android、Windows、macOS和iOS的本地客户端。
     - 这些客户端应该与云存储供应商的本地操作系统工具集成，如iOS上的Files应用集成，或Android上的DocumentsProvider功能。

@@ -17,7 +17,7 @@ Kami tidak menghasilkan uang dari merekomendasikan produk tertentu, kami tidak m
 Kami menerapkan prioritas ini ketika mempertimbangkan rekomendasi baru:
 
 - **Aman**: Alat harus mengikuti praktik terbaik keamanan di mana pun berlaku.
-- **Ketersediaan Sumber**: Proyek sumber terbuka umumnya lebih disukai daripada alternatif bersumber tertutup yang setara.
+- **Source Availability**: Open-source projects are generally preferred over equivalent proprietary alternatives.
 - **Lintas Platform**: Kami biasanya lebih memilih rekomendasi yang bersifat lintas platform, untuk menghindari penguncian penyedia.
 - **Pengembangan Aktif**: Alat yang kami rekomendasikan harus dikembangkan secara aktif, proyek yang tidak terpelihara akan dihapus dalam banyak kasus.
 - **Kegunaan**: Alat bantu harus dapat diakses oleh sebagian besar pengguna komputer, latar belakang yang terlalu teknis tidak diperlukan.

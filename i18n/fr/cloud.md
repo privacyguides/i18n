@@ -92,7 +92,7 @@ Ils ont également reçu le Digital Trust Label, une certification de la [Swiss 
 
 Nos critères de cas idéal représentent ce que nous aimerions voir d'un projet parfait dans cette catégorie. Nos recommandations peuvent ne pas inclure tout ou partie de cette fonctionnalité, mais celles qui l'inclus peuvent être mieux classées que les autres sur cette page.
 
-- Les clients doivent être open-source.
+- Clients should be open source.
 - Les clients doivent être audités dans leur intégralité par un tiers indépendant.
 - Doit offrir des clients natifs pour Linux, Android, Windows, macOS et iOS.
     - Ces clients doivent s'intégrer aux outils natifs du système d'exploitation pour les fournisseurs de stockage cloud, comme l'intégration de l'application Fichiers sur iOS, ou la fonctionnalité DocumentsProvider sur Android.

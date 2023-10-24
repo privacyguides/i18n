@@ -133,7 +133,7 @@ IVPN은 [Cure53으로부터 감사](https://cure53.de/audit-report_ivpn.pdf)를 
 
 #### :material-check:{ .pg-green } 오픈 소스 클라이언트
 
-2020년 2월부터, [모든 IVPN 애플리케이션은 오픈 소스로 공개](https://www.ivpn.net/blog/ivpn-applications-are-now-open-source)되었습니다. 소스 코드는 IVPN [GitHub](https://github.com/ivpn)에서 찾아볼 수 있습니다.
+As of February 2020 [IVPN applications are now open source](https://www.ivpn.net/blog/ivpn-applications-are-now-open-source). 소스 코드는 IVPN [GitHub](https://github.com/ivpn)에서 찾아볼 수 있습니다.
 
 #### :material-check:{ .pg-green } 현금 및 Monero 결제 가능
 
@@ -248,7 +248,7 @@ We require all our recommended VPN providers to provide OpenVPN configuration fi
 - WireGuard와 OpenVPN과 같은 강력한 프로토콜을 지원
 - 클라이언트에 킬스위치 (Killswitch)기능이 내장되어 있음
 - 멀티홉을 지원함 멀티홉은 한 노드가 공격당할 경우 데이터를 지키는데에 중요하게 사용됩니다.
-- If VPN clients are provided, they should be [open-source](https://en.wikipedia.org/wiki/Open_source), like the VPN software they generally have built into them. We believe that [source code](https://en.wikipedia.org/wiki/Source_code) availability provides greater transparency about what your device is actually doing.
+- If VPN clients are provided, they should be [open source](https://en.wikipedia.org/wiki/Open_source), like the VPN software they generally have built into them. We believe that [source code](https://en.wikipedia.org/wiki/Source_code) availability provides greater transparency about what your device is actually doing.
 
 **우대 사항:**
 

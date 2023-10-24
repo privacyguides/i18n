@@ -162,10 +162,9 @@ In generale, definiamo suite da ufficio le applicazioni che potrebbero ragionevo
 
 #### Requisiti minimi
 
-- Devono essere open source.
+- Deve essere open source.
 - Deve implementare la crittografia end-to-end "a fiducia zero".
 - Deve supportare i file protetti da password.
-
 
 #### Miglior Caso
 

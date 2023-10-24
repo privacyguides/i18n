@@ -77,7 +77,7 @@ Reddit은 서브레딧에 활동하는 관리자가 존재해야 합니다. 주 
 
 2022년 9월 25일 기준, Privacy Guides는 BurungHantu가 privacytools.io에서 어떤 만행을 저지르고 있는지 파악했고, 이는 보고 계신 설명 페이지를 만들기로 결정한 주된 이유이기도 합니다. BurungHantu가 운영 중인 사이트는 SEO(검색 엔진 최적화)를 매우 신경써서 검색 결과에서 최대한 많은 노출을 노리고 있으며, 금전적 보상을 대가로 받고 특정 서비스를 추천하고 있습니다. 최근에는 IVPN, Mullvad VPN 서비스가 PrivacyTools에서 제거되었습니다. 이 두 서비스는 프라이버시 커뮤니티라면 어디든 보편적으로 [권장하는](../vpn.md) 서비스이며, 제휴 마케팅에 반대하는 입장으로 유명합니다. 대신에 등재된 서비스는 NordVPN, Surfshark, ExpressVPN, hide.me였습니다. 이들은 신뢰할 수 없는 플랫폼과 비즈니스 관행을 가진 거대 VPN 업체로, 공격적인 홍보 및 제휴 마케팅으로 악명 높습니다.
 
-==**PrivacyTools는 2019년 PrivacyTools 블로그에서 저희가 [경고했던](https://web.archive.org/web/20210729205249/https://blog.privacytools.io/the-trouble-with-vpn-and-privacy-reviews/) '나쁜' 사이트가 되어버렸습니다.**== Privacy Guides는 이전이 이루어진 이후 PrivacyTools와는 의도적으로 거리를 두었지만, Privacy Guides 프로젝트에 대한 지속적인 비난과 6년 동안의 오픈 소스 기여로 이뤄낸 브랜드 신뢰도를 터무니없이 악용하는 것은 매우 골치 아픈 문제입니다. 프라이버시를 진지하게 고려하는 사람들은 서로 싸우려 들지 않으며, 누군가에게 큰 돈을 받고 남들을 선동하지 않습니다.
+==**PrivacyTools has become exactly the type of site we [warned against](https://web.archive.org/web/20210729205249/https://blog.privacytools.io/the-trouble-with-vpn-and-privacy-reviews/) on the PrivacyTools blog in 2019.**== We've tried to keep our distance from PrivacyTools since the transition, but their continued harassment towards our project and now their absurd abuse of the credibility their brand gained over 6 years of open-source contributions is extremely troubling to us. 프라이버시를 진지하게 고려하는 사람들은 서로 싸우려 들지 않으며, 누군가에게 큰 돈을 받고 남들을 선동하지 않습니다.
 
 ## r/privacytoolsIO 현황
 

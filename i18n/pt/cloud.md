@@ -96,7 +96,7 @@ They have also received the Digital Trust Label, a certification from the [Swiss
 
 Os nossos melhores critérios representam o que gostaríamos de ver num projeto perfeito desta categoria. As nossas recomendações podem não incluir todas as funcionalidades, mas incluem as que, na nossa opinião, têm um impacto mais elevado.
 
-- Clients should be open-source.
+- Clients should be open source.
 - Clients should be audited in their entirety by an independent third-party.
 - Should offer native clients for Linux, Android, Windows, macOS, and iOS.
     - These clients should integrate with native OS tools for cloud storage providers, such as Files app integration on iOS, or DocumentsProvider functionality on Android.

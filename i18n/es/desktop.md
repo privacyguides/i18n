@@ -185,7 +185,7 @@ Aunque [desaconsejamos](os/linux-overview.md#release-cycle) distribuciones "perp
 
 La elección de una distribución Linux adecuada para usted dependerá de una gran variedad de preferencias personales, y esta página **no** pretende ser una lista exhaustiva de todas las distribuciones viables. En nuestra página de información general sobre Linux encontrará algunos consejos sobre [elegir una distribución](os/linux-overview.md#choosing-your-distribution) con más detalle. Todas las distribuciones que se encuentran en *esta* página siguen, en general, las directrices que cubrimos allí, y todas cumplen estas normas:
 
-- Gratis y de código abierto.
+- Free and open source.
 - Recibe actualizaciones periódicas del software y del kernel.
 - [Evita X11](os/linux-overview.md#wayland).
     - La excepción notable aquí es Qubes, pero los problemas de aislamiento que X11 suele tener se evitan con la virtualización. Este aislamiento sólo se aplica a las aplicaciones *que se ejecutan en qubes diferentes* (máquinas virtuales), las aplicaciones que se ejecutan en el *mismo* qube no están protegidas entre sí.

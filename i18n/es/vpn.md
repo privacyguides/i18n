@@ -135,7 +135,7 @@ IVPN se ha sometido a una auditoría de no-registrar en [por parte de Cure53](ht
 
 #### :material-check:{ .pg-green } Clientes de Código Abierto
 
-A partir de febrero de 2020 [Las aplicaciones IVPN ya son de código abierto](https://www.ivpn.net/blog/ivpn-applications-are-now-open-source). El código fuente puede ser obtenido en su [organización GitHub](https://github.com/ivpn).
+As of February 2020 [IVPN applications are now open source](https://www.ivpn.net/blog/ivpn-applications-are-now-open-source). El código fuente puede ser obtenido en su [organización GitHub](https://github.com/ivpn).
 
 #### :material-check:{ .pg-green } Acepta Efectivo y Monero
 
@@ -250,7 +250,7 @@ Requerimos que todos nuestros proveedores de VPN recomendados proporcionen archi
 - Soporte para protocolos fuertes como WireGuard & OpenVPN.
 - Killswitch integrado en los clientes.
 - Soporte de multisaltos. El multihopping es importante para mantener la privacidad de los datos en caso de que un solo nodo se vea comprometido.
-- Si se proporciona clientes VPN, deben ser [de código abierto](https://en.wikipedia.org/wiki/Open_source), como el software VPN que generalmente llevan incorporado. Creemos que la disponibilidad de [código fuente](https://en.wikipedia.org/wiki/Source_code) proporciona una mayor transparencia sobre lo que su dispositivo está haciendo realmente.
+- If VPN clients are provided, they should be [open source](https://en.wikipedia.org/wiki/Open_source), like the VPN software they generally have built into them. Creemos que la disponibilidad de [código fuente](https://en.wikipedia.org/wiki/Source_code) proporciona una mayor transparencia sobre lo que su dispositivo está haciendo realmente.
 
 **Mejor Caso:**
 

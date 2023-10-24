@@ -12,7 +12,7 @@ description: Androidは、強力なセキュリティー保護機能を備えた
 
 ### Androidディストリビューションの選択
 
-Androidの携帯電話を購入すると、その端末に標準で搭載されているOSには、多くの場合、[Androidオープンソースプロジェクト](https://source.android.com/)に含まれていないアプリやサービスが強制的に統合されてしまっています。 例えば、Google Playサービスは、あなたのファイル、連絡先ストレージ、通話ログ、SMSメッセージ、位置情報、カメラ、マイク、ハードウェア識別子などにアクセスする権限を備えており、それらの権限を取り消すことはできません。 これらのアプリやサービスは、あなたのデバイスの攻撃対象を増加させ、Androidのプライバシーに関する様々な懸念の原因となっています。
+When you buy an Android phone, the device's default operating system often comes with invasive integration with apps and services that are not part of the [Android Open Source Project](https://source.android.com/). 例えば、Google Playサービスは、あなたのファイル、連絡先ストレージ、通話ログ、SMSメッセージ、位置情報、カメラ、マイク、ハードウェア識別子などにアクセスする権限を備えており、それらの権限を取り消すことはできません。 これらのアプリやサービスは、あなたのデバイスの攻撃対象を増加させ、Androidのプライバシーに関する様々な懸念の原因となっています。
 
 この問題は、そうした強制的な統合を伴わない、カスタムAndroidディストリビューションを使用すると解決できる可能性があります。 しかし残念ながら、多くのカスタムAndroidディストリビューションは、AVBや、ロールバック保護、ファームウェア・アップデートなどの重要なセキュリティ機能をサポートしておらず、しばしばAndroidのセキュリティーモデルに違反しています。 ディストリビューションによっては、[`userdebug`](https://source.android.com/setup/build/building#choose-a-target)ビルドもリリースしています。このビルドは、 [ADB](https://developer.android.com/studio/command-line/adb)経由でrootを公開し、デバッグ機能に対応するために[より寛容な](https://github.com/LineageOS/android_system_sepolicy/search?q=userdebug&type=code)SELinuxポリシーを必要とするものです。結果、攻撃対象がさらに増加し、セキュリティモデルが弱体化してしまいます。
 

@@ -161,7 +161,7 @@ Bitwarden還具有 [Bitwarden Send](https://bitwarden.com/products/send/)功能�
 
 您需要使用 [高級付費方案](https://bitwarden.com/help/about-bitwarden-plans/#compare-personal-plans) 才能共享檔案。 免費方案只允許文字分享。
 
-Bitwarden 伺服器端代碼是 [開源](https://github.com/bitwarden/server)，因此如果不想使用 Bitwarden 雲端，可以輕鬆地託管自己的 Bitwarden 同步伺服器。
+Bitwarden's server-side code is [open source](https://github.com/bitwarden/server), so if you don't want to use the Bitwarden cloud, you can easily host your own Bitwarden sync server.
 
 **Vaultwarden** 是以Rust 編寫的Bitwarden 同步伺服器的替代實作，相容官方 Bitwarden 客戶端，非常適合自託管部署取代 Bitwarden  官方資源過載的情況。 如果你想在自己的伺服器上自我託管 Bitwarden ，你幾乎肯定想在 Bitwarden 的官方伺服器代碼上使用 Vaultwarden。
 
@@ -239,7 +239,7 @@ Psono為其產品提供廣泛的文檔。 Psono 的網頁用戶端可以自行�
 最佳案例標準代表了我們希望從這個類別的完美項目應具備的功能。 推薦產品可能沒有此功能，但若有這些功能則會讓排名更為提高。
 
 - 遙測應選擇加入（預設情況下禁用）或根本不收集。
-- 應該是開源的，並且可以合理地自我託管。
+- Should be open source and reasonably self-hostable.
 
 ## 本地儲存
 

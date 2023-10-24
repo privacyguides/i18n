@@ -17,7 +17,7 @@ Vi tjänar inga pengar på att rekommendera vissa produkter, vi använder inga a
 Vi tillämpar dessa prioriteringar när vi överväger nya rekommendationer:
 
 - **Säker**: Verktyg bör följa bästa säkerhetspraxis där det är tillämpligt.
-- **Källa Tillgänglighet**: Projekt med öppen källkod föredras i allmänhet framför likvärdiga proprietära alternativ.
+- **Source Availability**: Open-source projects are generally preferred over equivalent proprietary alternatives.
 - **Plattformsoberoende**: Vi föredrar vanligtvis att rekommendationerna är plattformsoberoende för att undvika leverantörslåsning.
 - **Aktiv utveckling**: De verktyg som vi rekommenderar bör vara aktivt utvecklade, ounderhållna projekt kommer i de flesta fall att tas bort.
 - **Användbarhet**: Verktyg bör vara tillgängliga för de flesta datoranvändare, en alltför teknisk bakgrund bör inte krävas.

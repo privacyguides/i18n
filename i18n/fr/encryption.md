@@ -345,7 +345,7 @@ Lorsque vous chiffrez avec PGP, vous avez la possibilité de configurer différe
 
 ### Qualifications minimales
 
-- Les applications de chiffrement multiplateforme doivent être open-source.
+- Cross-platform encryption apps must be open source.
 - Les applications de chiffrement de fichiers doivent prendre en charge le déchiffrement sur Linux, macOS et Windows.
 - Les applications de chiffrement de disques externes doivent prendre en charge le déchiffrement sur Linux, macOS et Windows.
 - Les applications de chiffrement de disques internes (OS) doivent être multiplateforme ou intégrées nativement au système d'exploitation.

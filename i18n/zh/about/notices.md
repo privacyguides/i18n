@@ -8,7 +8,7 @@ title: "Notices and Disclaimers"
 
 与任何人类努力一样，运行此网站都涉及不确定性和权衡。 我们希望这个网站有所帮助，但它可能包含错误，无法解决所有问题。 如果您对自己的情况有任何疑问，我们建议您自己进行研究，寻求其他专家，并与隐私指南社区进行讨论。 如果您有任何法律问题，请先咨询您自己的法律顾问，然后再继续。
 
-隐私指南是一个开放源码项目，根据许可证做出贡献，其中包括为了保护网站及其贡献者，明确规定隐私指南项目和网站可“按原样”提供，不提供保证，并且不对使用网站或网站中的任何建议所造成的损害承担责任。 此外， 隐私指南不保证、不代表使用本网站、或其他与资料相关，或任何关联本网站的其他网站上资料的准确性，可能导致的结果或可靠性。
+Privacy Guides is an open-source project contributed to under licenses that include terms that, for the protection of the website and its contributors, make clear that the Privacy Guides project and website is offered "as-is", without warranty, and disclaiming liability for damages resulting from using the website or any recommendations contained within. 此外， 隐私指南不保证、不代表使用本网站、或其他与资料相关，或任何关联本网站的其他网站上资料的准确性，可能导致的结果或可靠性。
 
 此外，隐私指南不保证本网站将始终可用或完全可用。
 

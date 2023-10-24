@@ -180,7 +180,7 @@ Google Pixel-telefoons zijn de **enige** toestellen die we aanraden om te kopen.
 
 Secure Elements zoals de Titan M2 zijn beperkter dan de Trusted Execution Environment van de processor die door de meeste andere telefoons gebruikt wordt, omdat ze alleen gebruikt worden voor geheimen opslag, hardware attestatie, en snelheidsbeperking van het invoeren van wachtwoorden, niet voor het draaien van "vertrouwde" programma's. Telefoons zonder een Secure Element moeten de TEE gebruiken voor *alle* van deze functies. Dat leidt tot een groter aanvalsoppervlak.
 
-Google Pixel-telefoons gebruiken een TEE OS genaamd Trusty dat [open-source](https://source.android.com/security/trusty#whyTrusty) is, in tegenstelling tot veel andere telefoons.
+Google Pixel phones use a TEE OS called Trusty which is [open source](https://source.android.com/security/trusty#whyTrusty), unlike many other phones.
 
 De installatie van GrapheneOS op een Pixel telefoon is eenvoudig met hun [web installer](https://grapheneos.org/install/web). Als je zich niet op jouw gemak voelt om het zelf te doen en bereid bent om een beetje extra geld uit te geven, kijk dan eens naar de [NitroPhone](https://shop.nitrokey.com/shop). Deze zijn voorgeladen met GrapheneOS van het gerenommeerde bedrijf [Nitrokey](https://www.nitrokey.com/about).
 

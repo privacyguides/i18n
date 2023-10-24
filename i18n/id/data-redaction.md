@@ -55,19 +55,19 @@ Saat berbagi file, pastikan untuk menghapus metadata terkait. File gambar biasan
 
 Metadata yang dihapus, bergantung pada jenis file gambar:
 
-* **JPEG**: Profil ICC, Exif, Sumber Daya Gambar Photoshop, dan metadata XMP/ExtendedXMP akan dihapus jika ada.
-* **PNG**: Profil ICC, metadata Exif dan XMP akan dihapus jika ada.
-* **WebP**: Profil ICC, Exif dan metadata XMP akan dihapus jika ada.
+- **JPEG**: Profil ICC, Exif, Sumber Daya Gambar Photoshop, dan metadata XMP/ExtendedXMP akan dihapus jika ada.
+- **PNG**: Profil ICC, metadata Exif dan XMP akan dihapus jika ada.
+- **WebP**: Profil ICC, Exif dan metadata XMP akan dihapus jika ada.
 
 Setelah memproses gambar, ExifEraser memberi Anda laporan lengkap mengenai apa yang sesungguhnya dihapus dari tiap gambar.
 
 Aplikasi ini menawarkan beberapa cara untuk menghapus metadata dari gambar. Yaitu:
 
-* Anda dapat berbagi gambar dari aplikasi lain dengan ExifEraser.
-* Melalui aplikasi itu sendiri, Anda dapat memilih satu gambar, beberapa gambar sekaligus, atau bahkan seluruh direktori.
-* Aplikasi ini memiliki opsi "Kamera", yang menggunakan aplikasi kamera sistem operasi Anda untuk mengambil foto, dan kemudian menghapus metadata dari foto tersebut.
-* Anda dapat menyeret foto dari aplikasi lain ke ExifEraser apabila keduanya terbuka dalam mode layar terbagi.
-* Terakhir, Anda dapat menempelkan gambar dari clipboard Anda.
+- Anda dapat berbagi gambar dari aplikasi lain dengan ExifEraser.
+- Melalui aplikasi itu sendiri, Anda dapat memilih satu gambar, beberapa gambar sekaligus, atau bahkan seluruh direktori.
+- Aplikasi ini memiliki opsi "Kamera", yang menggunakan aplikasi kamera sistem operasi Anda untuk mengambil foto, dan kemudian menghapus metadata dari foto tersebut.
+- Anda dapat menyeret foto dari aplikasi lain ke ExifEraser apabila keduanya terbuka dalam mode layar terbagi.
+- Terakhir, Anda dapat menempelkan gambar dari clipboard Anda.
 
 ### Metapho (iOS)
 
@@ -143,5 +143,5 @@ Aplikasi ini menawarkan beberapa cara untuk menghapus metadata dari gambar. Yait
 
     Kami sedang berupaya menetapkan kriteria yang jelas untuk setiap bagian dari situs kami, dan hal ini dapat berubah sewaktu-waktu. Jika Anda memiliki pertanyaan mengenai kriteria kami, silakan [tanyakan di forum](https://discuss.privacyguides.net/latest) dan jangan berasumsi bahwa kami tidak mempertimbangkan sesuatu saat membuat rekomendasi jika tidak tercantum di sini. Ada banyak faktor yang dipertimbangkan dan didiskusikan saat kami merekomendasikan sebuah proyek, dan mendokumentasikan setiap faktor tersebut merupakan sebuah pekerjaan yang sedang berjalan.
 
-- Aplikasi yang dikembangkan untuk sistem operasi sumber terbuka haruslah sumber terbuka.
+- Apps developed for open-source operating systems must be open source.
 - Aplikasi harus gratis dan tidak boleh menyertakan iklan atau batasan lainnya.

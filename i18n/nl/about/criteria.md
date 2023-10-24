@@ -17,7 +17,7 @@ We verdienen geen geld met het aanbevelen van bepaalde producten, we gebruiken g
 We passen deze prioriteiten toe bij het overwegen van nieuwe aanbevelingen:
 
 - **Secure**: Tools moeten de beste beveiligingspraktijken volgen, waar van toepassing.
-- **Bronbeschikbaarheid**: Open source projecten hebben over het algemeen de voorkeur boven gelijkwaardige merkalternatieven.
+- **Source Availability**: Open-source projects are generally preferred over equivalent proprietary alternatives.
 - **Cross-Platform**: We geven er meestal de voorkeur aan dat aanbevelingen cross-platform zijn, om lock-in van leveranciers te voorkomen.
 - **Actieve ontwikkeling**: De hulpmiddelen die wij aanbevelen moeten actief worden ontwikkeld, niet-onderhouden projecten zullen in de meeste gevallen worden verwijderd.
 - **Bruikbaarheid**: Tools moeten toegankelijk zijn voor de meeste computergebruikers, een al te technische achtergrond is niet vereist.

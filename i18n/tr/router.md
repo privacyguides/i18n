@@ -27,10 +27,9 @@ Cihazınızın desteklenip desteklenmediğini kontrol etmek için OpenWrt'nin [d
 
 !!! öneri
 
-    ![pfSense logo](assets/img/router/pfsense.svg#only-light){ align=right }
-    ![pfSense logo](assets/img/router/pfsense-dark.svg#only-dark){ align=right }
+    ![OPNsense logo](assets/img/router/opnsense.svg){ align=right }
     
-    pfSense; FreeBSD tabanlı, açık kaynak kodlu bir güvenlik duvarı/yönlendirici programıdır. Bir ağ için özel bir güvenlik duvarı/yönlendirici yapmak üzere bir bilgisayara kurulmuştur ve güvenilirliği, genellikle, sadece pahalı ticari güvenlik duvarlarında bulunan özellikler sunmasıyla bilinir.
+    **OPNsense** is an open-source, FreeBSD-based firewall and routing platform which incorporates many advanced features such as traffic shaping, load balancing, and VPN capabilities, with many more features available in the form of plugins. Bir ağ için özel bir güvenlik duvarı/yönlendirici yapmak üzere bir bilgisayara kurulmuştur ve güvenilirliği, genellikle, sadece pahalı ticari güvenlik duvarlarında bulunan özellikler sunmasıyla bilinir.
     
     pfSense genellikle çevre güvenlik duvarı, yönlendirici, kablosuz erişim noktası, DHCP sunucusu, DNS sunucusu ve VPN noktası olarak dağıtılır.
 

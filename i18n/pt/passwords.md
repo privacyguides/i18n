@@ -162,7 +162,7 @@ O Bitwarden também inclui [Bitwarden Send](https://bitwarden.com/products/send/
 
 É necessário o [Plano Premium](https://bitwarden.com/help/about-bitwarden-plans/#compare-personal-plans) para poder partilhar ficheiros. O plano gratuito apenas permite a partilha de texto.
 
-O código do lado do servidor do Bitwarden é [open-source](https://github.com/bitwarden/server), por isso, se não quiser utilizar a nuvem Bitwarden, pode facilmente configurar o seu próprio servidor de sincronização Bitwarden.
+Bitwarden's server-side code is [open source](https://github.com/bitwarden/server), so if you don't want to use the Bitwarden cloud, you can easily host your own Bitwarden sync server.
 
 **O Vaultwarden** é uma implementação alternativa do servidor de sincronização do Bitwarden, escrito em Rust, e compatível com os clientes oficiais do Bitwarden. É uma solução perfeita para uma implementação auto-hospedada, onde a execução do serviço oficial com muitos recursos pode não ser ideal. Se você está a pensar auto-hospedar o Bitwarden no seu próprio servidor, vai certamente querer usar o Vaultwarden sobre o código de servidor oficial do Bitwarden.
 
@@ -242,7 +242,7 @@ O Psono disponibiliza uma vasta documentação sobre o seu produto. O cliente We
 Os nossos melhores critérios representam o que gostaríamos de ver num projeto perfeito desta categoria. As nossas recomendações podem não incluir todas as funcionalidades, mas incluem as que, na nossa opinião, têm um impacto mais elevado.
 
 - A telemetria deve ser opcional (desativada por defeito) ou não deve ser recolhida de todo.
-- Devem ser de fonte aberta e razoavelmente auto-hospedáveis.
+- Should be open source and reasonably self-hostable.
 
 ## Armazenamento local
 

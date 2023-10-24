@@ -133,7 +133,7 @@ IVPN foi submetido a uma [auditoria de ausência de registro de dados (no-loggin
 
 #### :material-check:{ .pg-green } Clientes de Código Aberto (Open-Source)
 
-A partir de fevereiro de 2020, [aplicativos IVPN agora são de código aberto](https://www.ivpn.net/blog/ivpn-applications-are-now-open-source). O código-fonte pode ser obtido da sua [organização (GitHub)](https://github.com/ivpn).
+As of February 2020 [IVPN applications are now open source](https://www.ivpn.net/blog/ivpn-applications-are-now-open-source). O código-fonte pode ser obtido da sua [organização (GitHub)](https://github.com/ivpn).
 
 #### :material-check:{ .pg-green } Aceita Dinheiro e Monero
 
@@ -248,7 +248,7 @@ Exigimos que todos os nossos provedores de VPN recomendados forneçam arquivos d
 - Suporte para protocolos fortes, como WireGuard & OpenVPN.
 - Killswitch integrado aos clientes.
 - Suporte a Multihop. O Multihopping é importante para manter os dados privados no caso de comprometimento de um único nó.
-- Se forem fornecidos clientes VPN, eles devem ser de [código aberto](https://en.wikipedia.org/wiki/Open_source), como o software VPN que eles normalmente trazem incorporado. Acreditamos que a disponibilidade do [código-fonte](https://en.wikipedia.org/wiki/Source_code) proporciona maior transparência sobre o que o seu dispositivo está realmente fazendo.
+- If VPN clients are provided, they should be [open source](https://en.wikipedia.org/wiki/Open_source), like the VPN software they generally have built into them. Acreditamos que a disponibilidade do [código-fonte](https://en.wikipedia.org/wiki/Source_code) proporciona maior transparência sobre o que o seu dispositivo está realmente fazendo.
 
 **Melhor Caso:**
 

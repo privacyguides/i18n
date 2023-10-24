@@ -60,7 +60,7 @@ La plupart des suites bureautiques en ligne ne prennent pas en charge l'E2EE, ce
 
 En général, nous définissons les plateformes de collaboration comme des suites complètes qui pourraient raisonnablement remplacer des plateformes de collaboration comme Google Drive.
 
-- Open-source.
+- Open source.
 - Rend les fichiers accessibles via WebDAV, sauf si cela est impossible en raison de l'E2EE.
 - Possède des clients de synchronisation pour Linux, macOS et Windows.
 - Prend en charge l'édition de documents et de feuilles de calcul.
@@ -162,10 +162,9 @@ En général, nous définissons les suites bureautiques comme des applications q
 
 #### Exigences minimales
 
-- Doivent être open-source.
+- Doit être open-source.
 - Doit implémenter le chiffrement de bout en bout "à confiance zéro".
 - Doit prendre en charge les fichiers protégés par un mot de passe.
-
 
 #### Dans le meilleur des cas
 

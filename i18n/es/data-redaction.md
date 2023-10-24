@@ -55,19 +55,19 @@ Cuando compartas archivos, asegúrate de remover los metadatos asociados. Archiv
 
 Los metadatos que son eliminados dependen del tipo de archivo de la imagen:
 
-* **JPEG**: Los metadatos ICC Profile, Exif, Photoshop Image Resources and XMP/ExtendedXMP serán eliminados si existen.
-* **PNG**: Los metadatos ICC Profile, Exif y XMP serán eliminados si existen.
-* **WebP**: Los metadatos ICC Profile, Exif y XMP serán eliminados si existen.
+- **JPEG**: Los metadatos ICC Profile, Exif, Photoshop Image Resources and XMP/ExtendedXMP serán eliminados si existen.
+- **PNG**: Los metadatos ICC Profile, Exif y XMP serán eliminados si existen.
+- **WebP**: Los metadatos ICC Profile, Exif y XMP serán eliminados si existen.
 
 Tras procesar las imágenes, ExifEraser te proporciona un informe completo sobre lo que se ha eliminado exactamente de cada imagen.
 
 La aplicación ofrece múltiples formas de borrar los metadatos de las imágenes. Estas son:
 
-* Puede compartir una imagen de otra aplicación con ExifEraser.
-* A través de la propia aplicación, puedes seleccionar una sola imagen, varias imágenes a la vez o incluso un directorio entero.
-* Cuenta con una opción de "Cámara", que utiliza la aplicación de cámara de tu sistema operativo para tomar una foto, y luego elimina los metadatos de la misma.
-* Te permite arrastrar fotos desde otra aplicación a ExifEraser cuando ambas están abiertas en modo de pantalla dividida.
-* Por último, te permite pegar una imagen desde el portapapeles.
+- Puede compartir una imagen de otra aplicación con ExifEraser.
+- A través de la propia aplicación, puedes seleccionar una sola imagen, varias imágenes a la vez o incluso un directorio entero.
+- Cuenta con una opción de "Cámara", que utiliza la aplicación de cámara de tu sistema operativo para tomar una foto, y luego elimina los metadatos de la misma.
+- Te permite arrastrar fotos desde otra aplicación a ExifEraser cuando ambas están abiertas en modo de pantalla dividida.
+- Por último, te permite pegar una imagen desde el portapapeles.
 
 ### Metapho (iOS)
 
@@ -143,5 +143,5 @@ La aplicación ofrece múltiples formas de borrar los metadatos de las imágenes
 
     Estamos trabajando en establecer criterios definidos para cada sección de nuestra página, y esto puede estar sujeto a cambios. Si tienes alguna duda sobre nuestros criterios, por favor [pregunta en nuestro foro](https://discuss.privacyguides.net/latest) y no asumas que no hemos tenido en cuenta algo a la hora de hacer nuestras recomendaciones si no aparece aquí. Son muchos los factores que se tienen en cuenta y se debaten cuando recomendamos un proyecto, y documentar cada uno de ellos es un trabajo en curso.
 
-- Las aplicaciones desarrolladas para sistemas operativos de código abierto deben ser de código abierto.
+- Apps developed for open-source operating systems must be open source.
 - Las aplicaciones deben ser gratuitas y no incluir anuncios ni otras limitaciones.

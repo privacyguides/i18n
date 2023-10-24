@@ -133,7 +133,7 @@ IVPN a fait l'objet d'un [audit de non-journalisation par Cure53](https://cure53
 
 #### :material-check:{ .pg-green } Clients open source
 
-Depuis février 2020, [les applications IVPN sont désormais open source](https://www.ivpn.net/blog/ivpn-applications-are-now-open-source). Le code source peut être obtenu auprès de leur [organisation GitHub](https://github.com/ivpn).
+As of February 2020 [IVPN applications are now open source](https://www.ivpn.net/blog/ivpn-applications-are-now-open-source). Le code source peut être obtenu auprès de leur [organisation GitHub](https://github.com/ivpn).
 
 #### :material-check:{ .pg-green } Accepte l'argent liquide et le Monero
 
@@ -248,7 +248,7 @@ Nous exigeons de tous nos fournisseurs VPN recommandés qu'ils fournissent des f
 - Prise en charge de protocoles forts tels que WireGuard & OpenVPN.
 - Arrêt d'urgence intégré dans les clients.
 - Prise en charge du multi-sauts. Le multi-sauts est important pour garder les données privées en cas de compromission d'un seul noeud.
-- Si des clients VPN sont fournis, ils doivent être [open source](https://en.wikipedia.org/wiki/Open_source), comme le logiciel VPN qui y est généralement intégré. Nous pensons que la disponibilité du [code source](https://en.wikipedia.org/wiki/Source_code) offre une plus grande transparence sur ce que fait réellement votre appareil.
+- If VPN clients are provided, they should be [open source](https://en.wikipedia.org/wiki/Open_source), like the VPN software they generally have built into them. Nous pensons que la disponibilité du [code source](https://en.wikipedia.org/wiki/Source_code) offre une plus grande transparence sur ce que fait réellement votre appareil.
 
 **Dans le meilleur des cas :**
 

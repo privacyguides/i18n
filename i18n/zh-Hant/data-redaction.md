@@ -55,19 +55,19 @@ cover: data-redaction.webp
 
 被清除的元資料取決於影像的檔案類型：
 
-* **JPEG**：可清除 ICC Profile、Exif、Photoshop Image Resources 和 XMP/ExtendedXMP 等中繼資料。
-* **PNG**：可清除 ICC Profile、Exif和XMP等中繼資料。
-* **WebP**: 可清除 ICC Profile、Exif 和XMP 等中繼資料。
+- **JPEG**：可清除 ICC Profile、Exif、Photoshop Image Resources 和 XMP/ExtendedXMP 等中繼資料。
+- **PNG**：可清除 ICC Profile、Exif和XMP等中繼資料。
+- **WebP**: 可清除 ICC Profile、Exif 和XMP 等中繼資料。
 
 處理完影像後， ExifEraser會為您提供一份完整的報告，說明每張影像中究竟刪除了哪些內容。
 
 該應用程式提供了多種方式來清除圖像中的中繼數據。 亦即:
 
-* 您可以使用 ExifEraser 分享其他應用程序的圖像。
-* 通過應用程序本身，可以一次選擇單個圖像，多個圖像，甚至是整個目錄。
-* 它具有“相機”選項，該選項使用操作系統的相機應用程序拍攝照片，然後從中刪除中繼數據。
-* 在應用分屏模式下，它可以從另一個應用程式拖放圖片到 ExifEraser 。
-* 最後，它允許您從剪貼板黏貼圖像。
+- 您可以使用 ExifEraser 分享其他應用程序的圖像。
+- 通過應用程序本身，可以一次選擇單個圖像，多個圖像，甚至是整個目錄。
+- 它具有“相機”選項，該選項使用操作系統的相機應用程序拍攝照片，然後從中刪除中繼數據。
+- 在應用分屏模式下，它可以從另一個應用程式拖放圖片到 ExifEraser 。
+- 最後，它允許您從剪貼板黏貼圖像。
 
 ### Metapho (iOS)
 
@@ -143,5 +143,5 @@ cover: data-redaction.webp
 
     我們正在努力為我們網站的每個部分建立定義的標準，這可能會有所變化。 如果您對我們的標準有任何疑問，請在 [論壇上提問](https://discuss.privacyguides.net/latest) ，如果沒有列出，請不要認為我們在提出建議時沒有考慮到某些事情。 當我們推薦一個項目時，有許多因素被考慮和討論，記錄每一個項目都是正在進行式。
 
-- 為開源作業系統開發的應用程式必須是開源的。
+- Apps developed for open-source operating systems must be open source.
 - 應用程式必須是免費的，不應包含廣告或其他限制。

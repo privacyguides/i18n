@@ -27,9 +27,9 @@ Di seguito sono elencati alcuni sistemi operativi alternativi, utilizzabili sui 
 
 !!! recommendation
 
-    ![Logo di OPNSense](assets/img/router/opnsense.svg){ align=right }
+    ![OPNsense logo](assets/img/router/opnsense.svg){ align=right }
     
-    **OPNsense** è una piattaforma open source di firewall e instradamento basata su FreeBSD, che incorpora molte funzionalità avanzate come il modellamento del traffico, il bilanciamento del carico e le funzionalità VPN, con molte altre funzionalità disponibili sotto forma di plugin. OPNsense è comunemente distribuito come firewall perimetrale, router, punto d'accesso wireless, server DHCP, server DNS ed endpoint VPN.
+    **OPNsense** is an open-source, FreeBSD-based firewall and routing platform which incorporates many advanced features such as traffic shaping, load balancing, and VPN capabilities, with many more features available in the form of plugins. OPNsense è comunemente distribuito come firewall perimetrale, router, punto d'accesso wireless, server DHCP, server DNS ed endpoint VPN.
     
     [:octicons-home-16: Home](https://opnsense.org/){ .md-button .md-button--primary }
     [:octicons-info-16:](https://docs.opnsense.org/index.html){ .card-link title=Documentazione}

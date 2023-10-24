@@ -55,19 +55,19 @@ När du delar filer ska du se till att ta bort tillhörande metadata. Bildfiler 
 
 Vilka metadata som raderas beror på bildens filtyp:
 
-* **JPEG**: ICC-profil, Exif, Photoshop Image Resources och XMP/ExtendedXMP-metadata raderas om de finns.
-* **PNG**: ICC-profil, Exif- och XMP-metadata raderas om de finns.
-* **PNG**: ICC-profil, Exif- och XMP-metadata raderas om de finns.
+- **JPEG**: ICC-profil, Exif, Photoshop Image Resources och XMP/ExtendedXMP-metadata raderas om de finns.
+- **PNG**: ICC-profil, Exif- och XMP-metadata raderas om de finns.
+- **PNG**: ICC-profil, Exif- och XMP-metadata raderas om de finns.
 
 Efter att ha behandlat bilderna ger ExifEraser dig en fullständig rapport om exakt vad som togs bort från varje bild.
 
 Appen erbjuder flera sätt att radera metadata från bilder. Namn:
 
-* Du kan dela en bild från ett annat program med ExifEraser.
-* I appen kan du välja en enda bild, flera bilder samtidigt eller till och med en hel katalog.
-* Den har ett "kamera"-alternativ som använder operativsystemets kameraapp för att ta ett foto och sedan tar bort metadata från det.
-* Du kan dra foton från en annan app till ExifEraser när båda är öppna i delad skärm.
-* Slutligen kan du klistra in en bild från klippbordet.
+- Du kan dela en bild från ett annat program med ExifEraser.
+- I appen kan du välja en enda bild, flera bilder samtidigt eller till och med en hel katalog.
+- Den har ett "kamera"-alternativ som använder operativsystemets kameraapp för att ta ett foto och sedan tar bort metadata från det.
+- Du kan dra foton från en annan app till ExifEraser när båda är öppna i delad skärm.
+- Slutligen kan du klistra in en bild från klippbordet.
 
 ### Metapho (iOS)
 
@@ -141,5 +141,5 @@ Appen erbjuder flera sätt att radera metadata från bilder. Namn:
 
     Vi arbetar med att fastställa kriterier för varje del av vår webbplats, och detta kan komma att ändras. Om du har några frågor om våra kriterier, vänligen [fråga på vårt forum] (https://discuss.privacyguides.net/latest) och tro inte att vi inte har beaktat något när vi gjorde våra rekommendationer om det inte finns med här. Det finns många faktorer som beaktas och diskuteras när vi rekommenderar ett projekt, och att dokumentera varje enskild faktor är ett pågående arbete.
 
-- Appar som utvecklas för operativsystem med öppen källkod måste vara med öppen källkod.
+- Apps developed for open-source operating systems must be open source.
 - Apparna måste vara gratis och får inte innehålla annonser eller andra begränsningar.

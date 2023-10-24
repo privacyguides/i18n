@@ -41,9 +41,9 @@ Quando estiver a utilizar uma instância gerida por outra pessoa, certifique-se 
 !!! nota
     Consulte o [Tabela de Hardware](https://openwrt.org/toh/start) para verificar se o seu dispositivo é suportado.
 
-    ![Logótipo ProxiTok](assets/img/frontends/proxitok.svg){ align=right }
+    ![ProxiTok logo](assets/img/frontends/proxitok.svg){ align=right }
     
-    O **ProxiTok** é um frontend de código aberto para o site do [TikTok](https://www.tiktok.com) que também é auto-hospedável.
+    **ProxiTok** is an open-source frontend to the [TikTok](https://www.tiktok.com) website that is also self-hostable.
     
     Existem várias instâncias públicas, sendo que algumas instâncias têm suporte para serviços onion [Tor](https://www.torproject.org).
     
