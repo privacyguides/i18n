@@ -50,13 +50,13 @@ Proses penyambungan ke Layanan Onion di Tor berjalan sangat mirip dengan proses 
   <figcaption>Tor circuit pathway with Onion Services. Nodes in the <span class="pg-blue">blue</span> fence belong to your browser, while nodes in the <span class="pg-red">red</span> fence belong to the server, so their identity is hidden from you.</figcaption>
 </figure>
 
-## Encryption
+## Enkripsi
 
-Tor encrypts each packet (a block of transmitted data) three times with the keys from the exit, middle, and entry node—in that order.
+Tor mengenkripsi setiap paket (blok data yang ditransmisikan) tiga kali dengan kunci dari simpul keluar, tengah, dan masuk—dalam urutan tersebut.
 
-Once Tor has built a circuit, data transmission is done as follows:
+Setelah Tor berhasil membuat sirkuit, transmisi data dilakukan sebagai berikut:
 
-1. Firstly: when the packet arrives at the entry node, the first layer of encryption is removed. In this encrypted packet, the entry node will find another encrypted packet with the middle node’s address. The entry node will then forward the packet to the middle node.
+1. Pertama: ketika paket tiba di simpul masuk, lapisan pertama enkripsi dihapus. In this encrypted packet, the entry node will find another encrypted packet with the middle node’s address. The entry node will then forward the packet to the middle node.
 
 2. Secondly: when the middle node receives the packet from the entry node, it too will remove a layer of encryption with its key, and this time finds an encrypted packet with the exit node's address. The middle node will then forward the packet to the exit node.
 
@@ -85,7 +85,7 @@ If you wish to use Tor for browsing the web, we only recommend the **official** 
 
 ## Sumber Daya Tambahan
 
-- [Tor Browser User Manual](https://tb-manual.torproject.org)
+- [Panduan Pengguna Tor Browser](https://tb-manual.torproject.org)
 - [How Tor Works - Computerphile](https://invidious.privacyguides.net/embed/QRYzre4bf7I?local=true) <small>(YouTube)</small>
 - [Tor Onion Services - Computerphile](https://invidious.privacyguides.net/embed/lVcbq_a5N9I?local=true) <small>(YouTube)</small>
 

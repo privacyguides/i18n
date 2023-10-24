@@ -55,7 +55,7 @@ Ada berbagai cara untuk terhubung ke jaringan Tor dari perangkat Anda, yang pali
     [:octicons-code-16:](https://gitweb.torproject.org/tor-browser.git/){ .card-link title="Kode Sumber" }
     [:octicons-heart-16:](https://donate.torproject.org/){ .card-link title=Berkontribusi }
     
-    ??? downloads
+    ??? unduhan
     
         - [:simple-googleplay: Google Play](https://play.google.com/store/apps/details?id=org.torproject.torbrowser)
         - [:simple-android: Android](https://www.torproject.org/download/#android)
@@ -143,4 +143,4 @@ Snowflake tidak meningkatkan privasi Anda dengan cara apa pun, juga tidak diguna
 
 Menjalankan proksi Snowflake berisiko rendah, bahkan lebih rendah daripada menjalankan relai Tor atau jembatan yang sudah tidak terlalu berisiko. Namun, itu masih memproksi lalu lintas melalui jaringan Anda yang dapat berdampak pada beberapa hal, terutama jika jaringan Anda memiliki bandwidth terbatas. Pastikan Anda memahami [cara kerja Snowflake](https://gitlab.torproject.org/tpo/anti-censorship/pluggable-transports/snowflake/-/wikis/home) sebelum memutuskan apakah akan menjalankan proksi.
 
-[^1]: The `IsolateDestAddr` setting is discussed on the [Tor mailing list](https://lists.torproject.org/pipermail/tor-talk/2012-May/024403.html) and [Whonix's Stream Isolation documentation](https://www.whonix.org/wiki/Stream_Isolation), where both projects suggest that it is usually not a good approach for most people.
+[^1]: Pengaturan `IsolateDestAddr` dibahas di [milis Tor](https://lists.torproject.org/pipermail/tor-talk/2012-May/024403.html) dan [dokumentasi Stream Isolation Whonix](https://www.whonix.org/wiki/Stream_Isolation); kedua proyek ini menyarankan bahwa isolasi alamat tujuan biasanya bukan pendekatan yang baik untuk kebanyakan orang.
