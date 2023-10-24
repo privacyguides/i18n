@@ -133,7 +133,7 @@ IVPN telah menjalani [audit tanpa pencatatan dari Cure53](https://cure53.de/audi
 
 #### :material-check:{ .pg-green } Klien Sumber Terbuka
 
-As of February 2020 [IVPN applications are now open source](https://www.ivpn.net/blog/ivpn-applications-are-now-open-source). Kode sumber dapat diperoleh dari [organisasi GitHub](https://github.com/ivpn) mereka.
+Sejak Februari 2020 [aplikasi IVPN menjadi sumber terbuka](https://www.ivpn.net/blog/ivpn-applications-are-now-open-source). Kode sumber dapat diperoleh dari [organisasi GitHub](https://github.com/ivpn) mereka.
 
 #### :material-check:{ .pg-green } Menerima Uang Tunai dan Monero
 

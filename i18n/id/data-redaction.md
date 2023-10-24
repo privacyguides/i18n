@@ -143,5 +143,5 @@ Aplikasi ini menawarkan beberapa cara untuk menghapus metadata dari gambar. Yait
 
     Kami sedang berupaya menetapkan kriteria yang jelas untuk setiap bagian dari situs kami, dan hal ini dapat berubah sewaktu-waktu. Jika Anda memiliki pertanyaan mengenai kriteria kami, silakan [tanyakan di forum](https://discuss.privacyguides.net/latest) dan jangan berasumsi bahwa kami tidak mempertimbangkan sesuatu saat membuat rekomendasi jika tidak tercantum di sini. Ada banyak faktor yang dipertimbangkan dan didiskusikan saat kami merekomendasikan sebuah proyek, dan mendokumentasikan setiap faktor tersebut merupakan sebuah pekerjaan yang sedang berjalan.
 
-- Apps developed for open-source operating systems must be open source.
+- Aplikasi yang dikembangkan untuk sistem operasi sumber terbuka haruslah bersumber terbuka.
 - Aplikasi harus gratis dan tidak boleh menyertakan iklan atau batasan lainnya.
