@@ -27,9 +27,9 @@ You can consult OpenWrt's [table of hardware](https://openwrt.org/toh/start) to 
 
 !!! recommendation
 
-    ![OPNsense logo](assets/img/router/opnsense.svg){ align=right }
+    ![OPNsense Logo](assets/img/router/opnsense.svg){ align=right }
     
-    **OPNsense** is an open-source, FreeBSD-based firewall and routing platform which incorporates many advanced features such as traffic shaping, load balancing, and VPN capabilities, with many more features available in the form of plugins. OPNsense is commonly deployed as a perimeter firewall, router, wireless access point, DHCP server, DNS server, and VPN endpoint.
+    **OPNsense** adalah platform tembok api dan perutean berbasis FreeBSD yang bersumber terbuka, yang menggabungkan banyak fitur canggih seperti pembentukan lalu lintas internet, penyeimbangan beban, dan kemampuan VPN, dengan banyak fitur lain yang tersedia dalam bentuk plugin. OPNsense is commonly deployed as a perimeter firewall, router, wireless access point, DHCP server, DNS server, and VPN endpoint.
     
     [:octicons-home-16: Homepage](https://opnsense.org/){ .md-button .md-button--primary }
     [:octicons-info-16:](https://docs.opnsense.org/index.html){ .card-link title=Documentation}
