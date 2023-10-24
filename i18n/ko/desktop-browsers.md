@@ -227,6 +227,12 @@ Arkenfox는 캔버스 무작위화(Randomization)와 Firefox에 기본 탑재된
 
     1. Flatpak 버전 Brave는 Chromium의 샌드박스 기능을 효과가 떨어지는 Flatpak 샌드박스로 대체하기 때문에, Flatpak 버전은 사용하지 않는 것이 좋습니다. 또한, 해당 패키지는 Brave Software, Inc.에서 직접 관리하는 패키지가 아닙니다.
 
+**macOS users:** The download for Brave Browser from their official website is a `.pkg` installer which requires admin privileges to run (and may run other unnecessary scripts on your machine). As an alternative, you can download the latest `Brave-Browser-universal.dmg` file from their [GitHub releases](https://github.com/brave/brave-browser/releases/latest) page, which provides a traditional "drag to Applications folder" install.
+
+!!! warning "경고"
+
+    Brave adds a "[referral code](https://github.com/brave/brave-browser/wiki/Brave%E2%80%99s-Use-of-Referral-Codes)" to the file name in downloads from the Brave website, which is used to track which source the browser was downloaded from, for example `BRV002` in a download named `Brave-Browser-BRV002.pkg`. The installer will then ping Brave's server with the referral code at the end of the installation process. If you're concerned about this, you can rename the installer file before opening it.
+
 ### 권장 설정
 
 이러한 옵션은 :material-menu: → **설정**에서 확인할 수 있습니다.

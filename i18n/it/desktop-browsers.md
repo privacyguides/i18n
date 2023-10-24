@@ -227,6 +227,12 @@ Arkenfox mira soltanto a contrastare gli script di tracciamento di base o sempli
 
     1. Sconsigliamo di utilizzare la versione Flatpak di Brave, poiché sostituisce il sandbox di Chromium con Flatpak, che è meno efficace. Inoltre, il pacchetto non è mantenuto da Brave Software, Inc.
 
+**macOS users:** The download for Brave Browser from their official website is a `.pkg` installer which requires admin privileges to run (and may run other unnecessary scripts on your machine). As an alternative, you can download the latest `Brave-Browser-universal.dmg` file from their [GitHub releases](https://github.com/brave/brave-browser/releases/latest) page, which provides a traditional "drag to Applications folder" install.
+
+!!! warning "Attenzione"
+
+    Brave adds a "[referral code](https://github.com/brave/brave-browser/wiki/Brave%E2%80%99s-Use-of-Referral-Codes)" to the file name in downloads from the Brave website, which is used to track which source the browser was downloaded from, for example `BRV002` in a download named `Brave-Browser-BRV002.pkg`. The installer will then ping Brave's server with the referral code at the end of the installation process. If you're concerned about this, you can rename the installer file before opening it.
+
 ### Configurazione Consigliata
 
 Queste opzioni si possono trovare in :material-menu: → **Impostazioni**.

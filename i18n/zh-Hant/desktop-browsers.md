@@ -227,6 +227,12 @@ Arkenfox的目標只是通過Canvas隨機化和Firefox內置的指紋阻力配�
 
     1. 我們建議不要使用 Flatpak 版本的Brave ，因為它將 Chromium沙盒替換為 Flatpak 沙盒，後者不太有效。 此外，該套件並非由Brave Software, Inc.維護。
 
+**macOS users:** The download for Brave Browser from their official website is a `.pkg` installer which requires admin privileges to run (and may run other unnecessary scripts on your machine). As an alternative, you can download the latest `Brave-Browser-universal.dmg` file from their [GitHub releases](https://github.com/brave/brave-browser/releases/latest) page, which provides a traditional "drag to Applications folder" install.
+
+!!! warning "警告"
+
+    Brave adds a "[referral code](https://github.com/brave/brave-browser/wiki/Brave%E2%80%99s-Use-of-Referral-Codes)" to the file name in downloads from the Brave website, which is used to track which source the browser was downloaded from, for example `BRV002` in a download named `Brave-Browser-BRV002.pkg`. The installer will then ping Brave's server with the referral code at the end of the installation process. If you're concerned about this, you can rename the installer file before opening it.
+
 ### 建議配置
 
 這些選項可以在 :material-menu: → **設定**中找到。
