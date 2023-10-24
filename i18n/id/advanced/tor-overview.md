@@ -56,30 +56,30 @@ Tor mengenkripsi setiap paket (blok data yang ditransmisikan) tiga kali dengan k
 
 Setelah Tor berhasil membuat sirkuit, transmisi data dilakukan sebagai berikut:
 
-1. Pertama: ketika paket tiba di simpul masuk, lapisan pertama enkripsi dihapus. In this encrypted packet, the entry node will find another encrypted packet with the middle node’s address. The entry node will then forward the packet to the middle node.
+1. Pertama: ketika paket tiba di simpul masuk, lapisan pertama enkripsi dihapus. Dalam paket terenkripsi ini, simpul masuk akan menemukan paket terenkripsi lain dengan alamat simpul tengah. Simpul masuk kemudian akan meneruskan paket ke simpul tengah.
 
-2. Secondly: when the middle node receives the packet from the entry node, it too will remove a layer of encryption with its key, and this time finds an encrypted packet with the exit node's address. The middle node will then forward the packet to the exit node.
+2. Kedua: ketika simpul tengah menerima paket dari simpul masuk, simpul tersebut juga akan menghapus lapisan enkripsi dengan kuncinya, dan kali ini menemukan paket terenkripsi dengan alamat simpul keluar. Simpul tengah kemudian akan meneruskan paket ke simpul keluar.
 
-3. Lastly: when the exit node receives its packet, it will remove the last layer of encryption with its key. The exit node will see the destination address and forward the packet to that address.
+3. Terakhir: ketika simpul keluar menerima paketnya, simpul ini akan menghapus lapisan enkripsi terakhir dengan kuncinya. Simpul keluar akan melihat alamat tujuan dan meneruskan paket ke alamat tersebut.
 
-Below is an alternative diagram showing the process. Each node removes its own layer of encryption, and when the destination server returns data, the same process happens entirely in reverse. For example, the exit node does not know who you are, but it does know which node it came from, and so it adds its own layer of encryption and sends it back.
+Di bawah ini adalah diagram alternatif yang menunjukkan prosesnya. Setiap simpul menghapus lapisan enkripsinya sendiri, dan ketika server tujuan mengembalikan data, proses yang sama terjadi secara terbalik. Sebagai contoh, simpul keluar tidak tahu siapa Anda, tetapi tahu dari simpul mana ia berasal, sehingga ia menambahkan lapisan enkripsinya sendiri dan mengirimkannya kembali.
 
 <figure markdown>
-  ![Tor encryption](../assets/img/how-tor-works/tor-encryption.svg#only-light)
-  ![Tor encryption](../assets/img/how-tor-works/tor-encryption-dark.svg#only-dark)
-  <figcaption>Sending and receiving data through the Tor Network</figcaption>
+  ![enkripsi Tor](../assets/img/how-tor-works/tor-encryption.svg#only-light)
+  ![enkripsi Tor](../assets/img/how-tor-works/tor-encryption-dark.svg#only-dark)
+  <figcaption>Mengirim dan menerima data melalui Jaringan Tor</figcaption>
 </figure>
 
-Tor allows us to connect to a server without any single party knowing the entire path. The entry node knows who you are, but not where you are going; the middle node doesn’t know who you are or where you are going; and the exit node knows where you are going, but not who you are. Because the exit node is what makes the final connection, the destination server will never know your IP address.
+Tor memungkinkan kita untuk terhubung ke sebuah server tanpa ada satu pihak pun yang mengetahui seluruh jalurnya. Simpul masuk mengetahui siapa Anda, tetapi tidak mengetahui ke mana Anda akan pergi; simpul tengah tidak mengetahui siapa Anda atau ke mana Anda akan pergi; dan simpul keluar mengetahui ke mana Anda akan pergi, tetapi tidak mengetahui siapa Anda. Karena simpul keluar adalah yang membuat koneksi akhir, server tujuan tidak akan pernah mengetahui alamat IP Anda.
 
-## Caveats
+## Peringatan
 
-Though Tor does provide strong privacy guarantees, one must be aware that Tor is not perfect:
+Meskipun Tor menyediakan jaminan privasi yang kuat, kita harus menyadari bahwa Tor tidaklah sempurna:
 
-- Well-funded adversaries with the capability to passively watch most network traffic over the globe have a chance of deanonymizing Tor users by means of advanced traffic analysis. Nor does Tor protect you from exposing yourself by mistake, such as if you share too much information about your real identity.
-- Tor exit nodes can also monitor traffic that passes through them. This means traffic which is not encrypted, such as plain HTTP traffic, can be recorded and monitored. If such traffic contains personally identifiable information, then it can deanonymize you to that exit node. Thus, we recommend using HTTPS over Tor where possible.
+- Musuh yang didanai dengan baik dengan kemampuan untuk secara pasif mengawasi sebagian besar lalu lintas jaringan di seluruh dunia memiliki peluang untuk mendeanonimisasi pengguna Tor dengan menggunakan analisis lalu lintas tingkat lanjut. Tor juga tidak melindungi Anda dari mengekspos diri Anda secara tidak sengaja, misalnya jika Anda membagikan terlalu banyak informasi tentang identitas asli Anda.
+- Simpul keluar Tor juga dapat memonitor lalu lintas yang melewatinya. Ini berarti lalu lintas yang tidak dienkripsi, seperti lalu lintas HTTP biasa, dapat direkam dan dipantau. Jika lalu lintas tersebut mengandung informasi yang dapat diidentifikasi secara pribadi, lalu lintas tersebut dapat mendeanonimisasi Anda ke simpul keluar tersebut. Oleh karena itu, kami merekomendasikan penggunaan HTTPS melalui Tor jika memungkinkan.
 
-If you wish to use Tor for browsing the web, we only recommend the **official** Tor Browser—it is designed to prevent fingerprinting.
+Jika Anda ingin menggunakan Tor untuk menjelajah web, kami hanya merekomendasikan Tor Browser **resmi**—peramban ini dirancang untuk mencegah serangan sidik jari.
 
 - [Tor Browser :material-arrow-right-drop-circle:](../tor.md#tor-browser)
 
@@ -89,6 +89,6 @@ If you wish to use Tor for browsing the web, we only recommend the **official** 
 - [How Tor Works - Computerphile](https://invidious.privacyguides.net/embed/QRYzre4bf7I?local=true) <small>(YouTube)</small>
 - [Tor Onion Services - Computerphile](https://invidious.privacyguides.net/embed/lVcbq_a5N9I?local=true) <small>(YouTube)</small>
 
-[^1]: The first relay in your circuit is called an "entry guard" or "guard". It is a fast and stable relay that remains the first one in your circuit for 2-3 months in order to protect against a known anonymity-breaking attack. The rest of your circuit changes with every new website you visit, and all together these relays provide the full privacy protections of Tor. For more information on how guard relays work, see this [blog post](https://blog.torproject.org/improving-tors-anonymity-changing-guard-parameters) and [paper](https://www-users.cs.umn.edu/~hoppernj/single_guard.pdf) on entry guards. ([https://support.torproject.org/tbb/tbb-2/](https://support.torproject.org/tbb/tbb-2/))
+[^1]: Relai pertama di sirkuit Anda disebut "penjaga jalan masuk" atau "penjaga". Relai ini adalah relai yang cepat dan stabil yang tetap menjadi relai pertama di sirkuit Anda selama 2-3 bulan untuk melindungi dari serangan pembobolan anonimitas yang telah diketahui. Sisa sirkuit Anda berubah dengan setiap situs web baru yang Anda kunjungi, dan secara keseluruhan relai ini memberikan perlindungan privasi penuh dari Tor. Untuk informasi lebih lanjut tentang cara kerja relai penjaga, lihat [posting blog](https://blog.torproject.org/improving-tors-anonymity-changing-guard-parameters) ini dan [makalah](https://www-users.cs.umn.edu/~hoppernj/single_guard.pdf) tentang relai penjaga. ([https://support.torproject.org/tbb/tbb-2/](https://support.torproject.org/tbb/tbb-2/))
 
 [^2]: Relay flag: a special (dis-)qualification of relays for circuit positions (for example, "Guard", "Exit", "BadExit"), circuit properties (for example, "Fast", "Stable"), or roles (for example, "Authority", "HSDir"), as assigned by the directory authorities and further defined in the directory protocol specification. ([https://metrics.torproject.org/glossary.html](https://metrics.torproject.org/glossary.html))
