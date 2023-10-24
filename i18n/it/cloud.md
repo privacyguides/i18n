@@ -92,7 +92,7 @@ Hanno anche ricevuto l'Etichetta di Affidabilità Digitale, una certificazione d
 
 I nostri criteri ottimali rappresentano ciò che vorremmo vedere dal progetto perfetto in questa categoria. I nostri consigli potrebbero non includere tutte o alcune di queste funzionalità, ma quelli che le includono potrebbero essere preferiti ad altri su questa pagina.
 
-- Clients should be open source.
+- I client dovrebbero essere open source.
 - I client dovrebbero essere interamente controllati da una terza parte indipendente.
 - Dovrebbero offrire client nativi per Linux, Android, Windows, macOS e iOS.
     - Questi client dovrebbero integrarsi con gli strumenti nativi del sistema operativo per i fornitori dell'archiviazione su cloud, come l'integrazione dell'app Files su iOS o la funzionalità di DocumentsProvider su Android.

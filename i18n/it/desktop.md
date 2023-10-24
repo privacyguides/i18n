@@ -185,7 +185,7 @@ Sebbene [sconsiglimo](os/linux-overview.md#release-cycle) le distribuzioni "pere
 
 Scegliere una distribuzione di Linux adatta a te, diperrà da una vasta gamma di preferenze personali e, questa pagina, **non** è intesa come un elenco esaustiivo di ogni distribuzione fattibile. La nostra pagina panoramica su Linux contiene dei consigli sulla [scelta di una distro](os/linux-overview.md#choosing-your-distribution), in maggiore dettaglio. Le distribuzioni su *questa* pagina, in generale, seguono tutte le linee guida coperte lì e, tutte, soddisfano questi standard:
 
-- Free and open source.
+- Gratuito e open source.
 - Ricevono aggiornamenti regolari del software e del kernel.
 - [Evitano X11](os/linux-overview.md#wayland).
     - L'eccezione notevole, qui, è Qubes, ma i problemi di isolamento tipici di X11, sono evitati dalla virtualizzazione. Questo isolamento si applica esclusivamente alle app *eseguite in qube differenti* (macchine virtuali), le app eseguite nella *stessa* qube non sono protette tra loro.
