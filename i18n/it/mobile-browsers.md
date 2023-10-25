@@ -66,7 +66,7 @@ Per Android, Firefox è meno sicuro delle alternative basate su Chromium: il mot
 
 #### Configurazione consigliata
 
-Il Tor Browser è l'unico che veramente permette di navigare Internet anonimamente. Qundo utilizzi Brave, consigliamo di modificare le seguenti informazioni per proteggere la tua privacy da certe parti, m tutti i browser tranne [Tor Browser](tor.md#tor-browser) saranno tracciabili da *qualcuno*, in un modo o nell'altro.
+Il Tor Browser è l'unico che veramente permette di navigare Internet anonimamente. Quando utilizzi Brave, consigliamo di modificare le seguenti informazioni per proteggere la tua privacy da certe parti, ma tutti i browser tranne [Tor Browser](tor.md#tor-browser) saranno tracciabili da *qualcuno*, in un modo o nell'altro.
 
 Queste opzioni si possono trovare in :material-menu: → **Impostazioni** → **Protezioni Brave e privacy**
 
