@@ -92,11 +92,11 @@ Ils ont également reçu le Digital Trust Label, une certification de la [Swiss 
 
 Nos critères de cas idéal représentent ce que nous aimerions voir d'un projet parfait dans cette catégorie. Nos recommandations peuvent ne pas inclure tout ou partie de cette fonctionnalité, mais celles qui l'inclus peuvent être mieux classées que les autres sur cette page.
 
-- Clients should be open source.
-- Les clients doivent être audités dans leur intégralité par un tiers indépendant.
-- Doit offrir des clients natifs pour Linux, Android, Windows, macOS et iOS.
-    - Ces clients doivent s'intégrer aux outils natifs du système d'exploitation pour les fournisseurs de stockage cloud, comme l'intégration de l'application Fichiers sur iOS, ou la fonctionnalité DocumentsProvider sur Android.
-- Doit permettre de partager facilement des fichiers avec d'autres utilisateurs.
-- Doit offrir au moins une fonctionnalité de base d'aperçu et d'édition de fichiers sur l'interface web.
+- Les clients devraient être open source.
+- Les clients devraient être audités dans leur intégralité par un tiers indépendant.
+- Devrait offrir des clients natifs pour Linux, Android, Windows, macOS et iOS.
+    - Ces clients devraient s'intégrer aux outils natifs du système d'exploitation pour les fournisseurs de stockage cloud, comme l'intégration de l'application Fichiers sur iOS, ou la fonctionnalité DocumentsProvider sur Android.
+- Devrait permettre de partager facilement des fichiers avec d'autres utilisateurs.
+- Devrait offrir au moins une fonctionnalité de base d'aperçu et d'édition de fichiers sur l'interface web.
 
 [^1]: La conformité à la norme [ISO/IEC 27001](https://en.wikipedia.org/wiki/ISO/IEC_27001):2013 concerne le [système de gestion de la sécurité de l'information](https://en.wikipedia.org/wiki/Information_security_management) de l'entreprise et couvre la vente, le développement, la maintenance et le soutien de ses services cloud.

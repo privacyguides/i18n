@@ -41,7 +41,7 @@ Cuando utilices una instancia gestionada por otra persona, asegúrate de leer la
 
     ![ProxiTok logo](assets/img/frontends/proxitok.svg){ align=right }
     
-    **ProxiTok** is an open-source frontend to the [TikTok](https://www.tiktok.com) website that is also self-hostable.
+    *ProxiTok** es una interfaz gratuita y de código abierto para el sitio web [TikTok](https://www.tiktok.com) que también es autoalojable.
     
     Existen varias instancias públicas, algunas de las cuales disponen de soporte para servicios onion [Tor](https://www.torproject.org).
     

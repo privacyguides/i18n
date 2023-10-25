@@ -93,7 +93,7 @@ También han recibido el Sello de Confianza Digital, una certificación de la [I
 
 Nuestro criterio del mejor caso representa lo que nos gustaría ver del proyecto perfecto en esta categoría. Es posible que nuestras recomendaciones no incluyan todas o algunas de estas funciones, pero las que sí las incluyan pueden estar mejor clasificadas que otras en esta página.
 
-- Clients should be open source.
+- Los clientes deben ser de código abierto.
 - Los clientes deben ser auditados en su totalidad por un tercero independiente.
 - Debe ofrecer clientes nativos para Linux, Android, Windows, macOS e iOS.
     - Estos clientes deben integrarse con las herramientas nativas del sistema operativo para los proveedores de almacenamiento en la nube, como la integración de la aplicación Files en iOS, o la funcionalidad DocumentsProvider en Android.

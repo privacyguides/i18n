@@ -23,12 +23,12 @@ cover: multi-factor-authentication.webp
 
 La [tabla de comparación](https://www.yubico.com/store/compare/) muestra las características y cómo se comparan las YubiKeys. Le recomendamos que seleccione las llaves de las YubiKey 5 Series.
 
-Las YubiKeys se pueden programar utilizando [YubiKey Manager](https://www.yubico.com/support/download/yubikey-manager/) o [YubiKey Personalization Tools](https://www.yubico.com/support/download/yubikey-personalization-tools/). Para gestionar los códigos TOTP, puede utilizar [Yubico Authenticator](https://www.yubico.com/products/yubico-authenticator/). All of Yubico's clients are open source.
+Las YubiKeys se pueden programar utilizando [YubiKey Manager](https://www.yubico.com/support/download/yubikey-manager/) o [YubiKey Personalization Tools](https://www.yubico.com/support/download/yubikey-personalization-tools/). Para gestionar los códigos TOTP, puede utilizar [Yubico Authenticator](https://www.yubico.com/products/yubico-authenticator/). Todos los clientes de Yubico son de código abierto.
 
 Para los modelos que soportan HOTP y TOTP, hay 2 ranuras en la interfaz OTP que pueden utilizarse para HOTP y 32 ranuras para almacenar secretos TOTP. Estos secretos se almacenan cifrados en la llave y nunca se exponen a los dispositivos a los que se conectan. Una vez que se ha proporcionado una semilla (secreto compartido) a Yubico Authenticator, éste sólo proporcionará los códigos de seis dígitos, pero nunca la semilla. Este modelo de seguridad ayuda a limitar lo que un atacante puede hacer si compromete uno de los dispositivos que ejecutan Yubico Authenticator y hace que la YubiKey sea resistente a un atacante físico.
 
-!!! warning
-    The firmware of YubiKey is not open source and is not updatable. Si desea características en versiones de firmware más nuevas, o si hay una vulnerabilidad en la versión de firmware que está utilizando, tendría que comprar una nueva llave.
+!!! advertencia
+    El firmware de YubiKey no es de código abierto y no es actualizable. Si desea características en versiones de firmware más nuevas, o si hay una vulnerabilidad en la versión de firmware que está utilizando, tendría que comprar una nueva llave.
 
 ### Nitrokey
 
@@ -58,7 +58,7 @@ Para los modelos que admiten HOTP y TOTP, hay 3 ranuras para HOTP y 15 para TOTP
 
 La Nitrokey Pro 2, la Nitrokey Storage 2 y la próxima Nitrokey 3 admiten la verificación de la integridad del sistema para portátiles con el firmware [Coreboot](https://www.coreboot.org/) + [Heads](https://osresearch.net/).
 
-Nitrokey's firmware is open source, unlike the YubiKey. El firmware de los modelos NitroKey modernos (excepto el de la **NitroKey Pro 2**) se puede actualizar.
+El firmware de Nitrokey es de código abierto, a diferencia del de YubiKey. El firmware de los modelos NitroKey modernos (excepto el de la **NitroKey Pro 2**) se puede actualizar.
 
 ### Criterios
 

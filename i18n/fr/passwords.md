@@ -239,7 +239,7 @@ Psono fournit une documentation complète pour son produit. Le client web de Pso
 Nos critères de cas idéal représentent ce que nous aimerions voir d'un projet parfait dans cette catégorie. Nos recommandations peuvent ne pas inclure tout ou partie de cette fonctionnalité, mais celles qui l'inclus peuvent être mieux classées que les autres sur cette page.
 
 - La télémétrie devrait être optionnelle (désactivée par défaut) ou ne pas être collectée du tout.
-- Should be open source and reasonably self-hostable.
+- Devrait être open source et raisonnablement auto-hébergeable.
 
 ## Stockage local
 

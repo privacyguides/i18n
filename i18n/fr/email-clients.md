@@ -234,8 +234,8 @@ Canary Mail est à source fermée. Nous le recommandons en raison du peu de choi
 
 Nos critères de cas idéal représentent ce que nous aimerions voir d'un projet parfait dans cette catégorie. Nos recommandations peuvent ne pas inclure tout ou partie de cette fonctionnalité, mais celles qui l'inclus peuvent être mieux classées que les autres sur cette page.
 
-- Should be open source.
-- Doit être multiplateforme.
-- Ne doit pas collecter de télémétrie par défaut.
-- Doit prendre en charge OpenPGP nativement, c'est-à-dire sans extensions.
-- Doit prendre en charge le stockage local d'e-mails chiffrés par OpenPGP.
+- Devrait être open source.
+- Devrait être multiplateforme.
+- Ne devrait pas collecter de télémétrie par défaut.
+- Devrait prendre en charge OpenPGP nativement, c'est-à-dire sans extensions.
+- Devrait prendre en charge le stockage local d'e-mails chiffrés par OpenPGP.

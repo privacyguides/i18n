@@ -60,7 +60,7 @@ La mayoría de las paquetes de ofimática en línea no admiten E2EE, lo que sign
 
 En general, definimos las plataformas de colaboración como paquetes completos que podrían actuar razonablemente como un sustituto de plataformas de colaboración como Google Drive.
 
-- Open source.
+- Código abierto.
 - Hace que los archivos sean accesibles a través de WebDAV a menos que sea imposible debido al E2EE.
 - Dispone de clientes de sincronización para Linux, macOS y Windows.
 - Admite la edición de documentos y hojas de cálculo.

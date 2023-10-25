@@ -345,7 +345,7 @@ Al cifrar con PGP, tiene la opción de configurar diferentes opciones en su arch
 
 ### Requisitos Mínimos
 
-- Cross-platform encryption apps must be open source.
+- Las aplicaciones de cifrado multiplataforma deben ser de código abierto.
 - Las aplicaciones de cifrado de archivos deben permitir el descifrado en Linux, macOS y Windows.
 - Las aplicaciones de cifrado de discos externos deben permitir el descifrado en Linux, macOS y Windows.
 - Las aplicaciones de cifrado de disco interno (OS) deben ser multiplataforma o estar integradas en el sistema operativo de forma nativa.

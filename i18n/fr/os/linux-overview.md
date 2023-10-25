@@ -18,9 +18,9 @@ Linux pose quelques problèmes importants en matière de protection de la vie pr
 - Maintenir [la liberté des logiciels](https://www.gnu.org/philosophy/free-sw.en.html#four-freedoms)
 - Utiliser des systèmes axés sur la protection de la vie privée tels que [Whonix](https://www.whonix.org) ou [Tails](https://tails.boum.org/)
 
-### Open-Source Security
+### Sécurité de l'open source
 
-C'est une [idée fausse très répandue](../basics/common-misconceptions.md#open-source-software-is-always-secure-or-proprietary-software-is-more-secure) que Linux et d'autres logiciels open-source sont intrinsèquement sûrs simplement parce que le code source est disponible. On s'attend à ce que la communauté effectue des vérifications régulièrement, mais ce n'est pas toujours [le cas](https://seirdy.one/posts/2022/02/02/floss-security/).
+Une [idée fausse très répandue](../basics/common-misconceptions.md#open-source-software-is-always-secure-or-proprietary-software-is-more-secure) est que Linux et d'autres logiciels open-source sont intrinsèquement sûrs simplement parce que le code source est disponible. On s'attend à ce que la communauté effectue des vérifications régulièrement, mais ce n'est pas toujours [le cas](https://seirdy.one/posts/2022/02/02/floss-security/).
 
 En réalité, la sécurité d'une distribution dépend d'un certain nombre de facteurs, tels que l'activité du projet, l'expérience des développeurs, le niveau de rigueur appliqué aux révisions de code et l'attention portée à des parties spécifiques de la base de code qui peuvent rester non touchées pendant des années.
 

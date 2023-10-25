@@ -174,13 +174,13 @@ Los teléfonos Google Pixel son los **únicos **dispositivos que recomendamos co
     
     **Se sabe que los dispositivos Google Pixel** tienen una buena seguridad y admiten correctamente [Verified Boot](https://source.android.com/security/verifiedboot), incluso al instalar sistemas operativos personalizados.
     
-    Beginning with the **Pixel 8** and **8 Pro**, Pixel devices receive a minimum of 7 years of guaranteed security updates, ensuring a much longer lifespan compared to the 2-5 years competing OEMs typically offer.
+    A partir del **Pixel 8** y el **8 Pro**, los dispositivos Pixel reciben un mínimo de 7 años de actualizaciones de seguridad garantizadas, lo que asegura una vida útil mucho más larga en comparación con los 2-5 años que suelen ofrecer los OEM de la competencia.
     
     [:material-shopping: Tienda](https://store.google.com/category/phones){ .md-button .md-button--primary }
 
 Los elementos seguros como el Titan M2 son más limitados que el entorno de ejecución confiable del procesador utilizado por la mayoría de los otros teléfonos, ya que solo se utilizan para el almacenamiento secreto, la certificación de hardware y la limitación de velocidad, no para ejecutar programas "confiables". Los teléfonos sin un Elemento Seguro tienen que utilizar el TEE para *todas* esas funciones, lo que resulta en una mayor superficie de ataque.
 
-Google Pixel phones use a TEE OS called Trusty which is [open source](https://source.android.com/security/trusty#whyTrusty), unlike many other phones.
+Los teléfonos Google Pixel utilizan un SO TEE llamado Trusty que es de [código abierto](https://source.android.com/security/trusty#whyTrusty), a diferencia de muchos otros teléfonos.
 
 La instalación de GrapheneOS en un teléfono Pixel es fácil con su [instalador web](https://grapheneos.org/install/web). Si no te sientes cómodo haciéndolo tu mismo y estás dispuesto a gastar un poco más de dinero, échale un vistazo a [NitroPhone](https://shop.nitrokey.com/shop), ya que vienen con GrapheneOS, de la reputada empresa [Nitrokey](https://www.nitrokey.com/about).
 

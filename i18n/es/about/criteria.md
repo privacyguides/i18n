@@ -17,7 +17,7 @@ No obtenemos dinero al recomendar ciertos productos, nosotros no utilizamos enla
 Aplicamos estas prioridades al considerar nuevas recomendaciones:
 
 - Herramientas **seguras**: Las herramientas deben seguir las mejores prácticas de seguridad cuando sea necesario.
-- **Source Availability**: Open-source projects are generally preferred over equivalent proprietary alternatives.
+- **Disponibilidad del código**: Proyectos de código abierto son preferibles sobre alternativas similares de código cerrado.
 - **Multiplataforma**: Preferimos que las recomendaciones sean multiplataforma para evitar la dependencia de un sistema.
 - **Desarrollo activo**: Las herramientas que recomendamos deben ser desarrolladas activamente, los proyectos no mantenidos serán eliminados en la mayoría de los casos.
 - **Usabilidad**: Las herramientas deben ser accesibles para la mayoría de los usuarios de ordenador, no debe exigirse una formación demasiado técnica.
