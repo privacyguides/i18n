@@ -174,13 +174,13 @@ Les téléphones Google Pixel sont les **seuls** appareils dont nous recommandon
     
     Les appareils **Google Pixel** sont connus pour avoir une bonne sécurité et prendre correctement en charge le [Démarrage Vérifié](https://source.android.com/security/verifiedboot), même lors de l'installation de systèmes d'exploitation personnalisés.
     
-    Beginning with the **Pixel 8** and **8 Pro**, Pixel devices receive a minimum of 7 years of guaranteed security updates, ensuring a much longer lifespan compared to the 2-5 years competing OEMs typically offer.
+    À partir des **Pixel 8** et **8 Pro**, les appareils Pixel bénéficient d'un minimum de 7 ans de mises à jour de sécurité garanties, ce qui leur assure une durée de vie bien plus longue que les 2 à 5 ans généralement proposés par les constructeurs concurrents.
     
     [:material-shopping: Boutique](https://store.google.com/category/phones){ .md-button .md-button--primary }
 
 Les Eléments Sécurisés comme le Titan M2 sont plus limités que le Trusted Execution Environment du processeur utilisé par la plupart des autres téléphones, car ils ne sont utilisés que pour le stockage des secrets, l'attestation matérielle et la limitation du débit, et non pour exécuter des programmes "de confiance". Les téléphones dépourvus d'un Elément Sécurisé doivent utiliser le TEE pour *toutes* ces fonctions, ce qui élargit la surface d'attaque.
 
-Google Pixel phones use a TEE OS called Trusty which is [open source](https://source.android.com/security/trusty#whyTrusty), unlike many other phones.
+Les téléphones Google Pixel utilisent un OS TEE appelé Trusty qui est [open source](https://source.android.com/security/trusty#whyTrusty), contrairement à de nombreux autres téléphones.
 
 L'installation de GrapheneOS sur un téléphone Pixel est facile avec leur [installateur web](https://grapheneos.org/install/web). Si vous ne vous sentez pas à l'aise pour le faire vous-même et que vous êtes prêt à dépenser un peu plus d'argent, consultez le site [NitroPhone](https://shop.nitrokey.com/shop) car ils sont préchargés avec GrapheneOS et viennent de la société réputée [Nitrokey](https://www.nitrokey.com/about).
 

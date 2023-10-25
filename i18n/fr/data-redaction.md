@@ -143,5 +143,5 @@ L'application offre plusieurs façons d'effacer les métadonnées des images. À
 
     Nous travaillons à l'établissement de critères définis pour chaque section de notre site, et celles-ci peuvent être sujet à changement. Si vous avez des questions sur nos critères, veuillez [poser la question sur notre forum](https://discuss.privacyguides.net/latest) et ne supposez pas que nous n'avons pas pris en compte un élément dans nos recommandations s'il ne figure pas dans la liste. De nombreux facteurs sont pris en compte et discutés lorsque nous recommandons un projet, et la documentation de chacun d'entre eux est en cours.
 
-- Apps developed for open-source operating systems must be open source.
+- Les applications développées pour des systèmes d'exploitation open source doivent être open source.
 - Les applications doivent être gratuites et ne doivent pas comporter de publicités ou d'autres limitations.
