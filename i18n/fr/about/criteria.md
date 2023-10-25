@@ -17,7 +17,7 @@ Nous ne gagnons pas d'argent en recommandant certains produits, nous n'utilisons
 Nous appliquons ces priorités lorsque nous envisageons de nouvelles recommandations :
 
 - **Sécurisé** : les outils doivent respecter les bonnes pratiques en matière de sécurité, le cas échéant.
-- **Source Availability**: Open-source projects are generally preferred over equivalent proprietary alternatives.
+- **Disponibilité des sources** : les projets open source sont généralement préférés aux solutions propriétaires équivalentes.
 - **Multiplateforme** : nous préférons généralement que les recommandations soient multiplateformes, afin d'éviter d'être coincé chez un fournisseur.
 - **Développement actif** : les outils que nous recommandons doivent être activement maintenus. Les projets non maintenus seront, dans la plupart des cas, supprimés.
 - **Facilité d'utilisation** : les outils doivent être accessibles à la plupart des utilisateurs d'ordinateurs, sans qu'un bagage trop technique soit nécessaire.

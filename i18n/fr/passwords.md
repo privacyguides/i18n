@@ -161,7 +161,7 @@ Bitwarden propose également [Bitwarden Send](https://bitwarden.com/products/sen
 
 Vous devez disposer de [l'offre Premium](https://bitwarden.com/help/about-bitwarden-plans/#compare-personal-plans) pour pouvoir partager des fichiers. L'offre gratuite ne permet que le partage de texte.
 
-Bitwarden's server-side code is [open source](https://github.com/bitwarden/server), so if you don't want to use the Bitwarden cloud, you can easily host your own Bitwarden sync server.
+Le code côté serveur de Bitwarden est [open source](https://github.com/bitwarden/server), donc si vous ne voulez pas utiliser le cloud Bitwarden, vous pouvez facilement héberger votre propre serveur de synchronisation Bitwarden.
 
 **Vaultwarden** est une implémentation alternative du serveur de synchronisation de Bitwarden écrite en Rust et compatible avec les clients officiels de Bitwarden. Elle est parfaite pour les déploiements auto-hébergés où l'utilisation du service officiel, lourd en ressources, n'est pas idéale. Si vous cherchez à héberger Bitwarden sur votre propre serveur, vous voudrez certainement utiliser Vaultwarden plutôt que le code serveur officiel de Bitwarden.
 

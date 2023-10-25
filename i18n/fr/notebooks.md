@@ -132,11 +132,11 @@ Cryptee offre 100 Mo de stockage gratuit, avec des options payantes si vous avez
 
     Nous travaillons à l'établissement de critères définis pour chaque section de notre site, et celles-ci peuvent être sujet à changement. Si vous avez des questions sur nos critères, veuillez [poser la question sur notre forum](https://discuss.privacyguides.net/latest) et ne supposez pas que nous n'avons pas pris en compte un élément dans nos recommandations s'il ne figure pas dans la liste. De nombreux facteurs sont pris en compte et discutés lorsque nous recommandons un projet, et la documentation de chacun d'entre eux est en cours.
 
-- Clients must be open source.
+- Les clients doivent être open source.
 - Toute fonctionnalité de synchronisation cloud doit être E2EE.
 - Doit permettre l'export de documents dans un format standard.
 
 ### Dans le meilleur des cas
 
-- La fonctionnalité de sauvegarde/synchronisation locale doit prendre en charge le chiffrement.
-- Les plateformes basées sur le cloud doivent permettre le partage de documents.
+- La fonctionnalité de sauvegarde/synchronisation locale devrait prendre en charge le chiffrement.
+- Les plateformes basées sur le cloud devraient permettre le partage de documents.
