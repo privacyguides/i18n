@@ -8,7 +8,7 @@ Esistono svariate architetture di rete, utilzzate comunemente per trasmettere me
 
 [Messaggistica istantanea consigliata](../real-time-communication.md ""){.md-button}
 
-## Reti centralizzate
+## Reti Centralizzate
 
 ![Diagramma delle reti centralizzate](../assets/img/layout/network-centralized.svg){ align=left }
 
@@ -19,19 +19,19 @@ Alcuni servizi di messaggistica ospitati autonomamente, ti consentono di configu
 **Vantaggi:**
 
 - Implementazione di nuove funzionalità e modifiche più rapida.
-- Maggiore facilità di utilizzo e trovare contatti.
+- È più facile iniziare e trovare contatti.
 - Ecosistemi di funzionalità più mature e stabili, essendo più facili da programmare in un software centralizzato.
 - I problemi di privacy sono riducibili quando ti affidi a un server ospitato autonomamente.
 
 **Svantaggi:**
 
-- Possibile inclusione di [controllo o accesso limitato](https://drewdevault.com/2018/08/08/Signal.html). Ciò può includere cose come:
+- Possono includere [controllo o accesso limitato](https://drewdevault.com/2018/08/08/Signal.html). Questo può includere cose come:
 - [Divieto di connettere client di terze parti](https://github.com/LibreSignal/LibreSignal/issues/37#issuecomment-217211165) alla rete centralizzata, che potrebbero fornire una maggiore personalizzazione o una migliore esperienza. Spesso definito nei Termini e Condizioni di utilizzo.
-- Documentazione scarsa o assente, per gli sviluppatori di terze parti.
+- Documentazione scarsa o assente per gli sviluppatori di terze parti.
 - La [proprietà](https://web.archive.org/web/20210729191953/https://blog.privacytools.io/delisting-wire/), politica sulla privacy e le operazioni del servizio possono cambiare facilmente quando una singola entità lo controlla, potenzialmente compromettendo il servizio in seguito.
 - L'hosting autonomo richiede sforzi e conoscenze sulla configurazione di un servizio.
 
-## Reti federate
+## Reti Federate
 
 ![Diagramma delle reti federate](../assets/img/layout/network-decentralized.svg){ align=left }
 
