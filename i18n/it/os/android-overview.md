@@ -155,7 +155,7 @@ Il Programma di Protezione Avanzata fornisce un migliore monitoraggio delle mina
 - Scansione del dispositivo automatica e obbligatoria con [Play Protect](https://support.google.com/googleplay/answer/2812853?hl=en#zippy=%2Chow-malware-protection-works%2Chow-privacy-alerts-work)
 - Avviso sulle applicazioni non verificate
 
-### Aggiornamnti di Sistema di Google Play
+### Aggiornamenti di Sistema di Google Play
 
 In passato, gli aggiornamenti di sicurezza di Android dovevano essere forniti dal fornitore del sistema operativo. Android è divenuto più modulare a partire da Android 10, e Google può inviare gli aggiornamenti di sicurezza push per **alcuni** componenti di sistema, tramite i Play Services privilegiati.
 
