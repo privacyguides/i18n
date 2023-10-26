@@ -25,7 +25,7 @@ schema:
 
 ![Logo di Tor](assets/img/self-contained-networks/tor.svg){ align=right }
 
-La rete di **Tor** è un gruppo di server gestiti da volontari che ti consente di connettert gratuitamente e migliora la tua privacy e sicurezza su Internet. Individui e organizzazioni possono inoltre condividere le informazioni tramite la rete Tor con i "servizi nascosti .onion", senza comprometterne la privacy. Poiché il traffico di Tor è difficile da bloccare e tracciare, è un efficace strumento di elusione della censura.
+La rete di **Tor** è un gruppo di server gestiti da volontari che ti consente di connetterti gratuitamente e migliora la tua privacy e sicurezza su Internet. Individui e organizzazioni possono inoltre condividere le informazioni tramite la rete Tor con i "servizi nascosti .onion", senza comprometterne la privacy. Poiché il traffico di Tor è difficile da bloccare e tracciare, è un efficace strumento di elusione della censura.
 
 [:octicons-home-16:](https://www.torproject.org){ .card-link title="Pagina principale" }
 [:simple-torbrowser:](http://2gzyxa5ihm7nsggfxnu52rck2vv4rvmdlkiu3zzui5du4xyclen53wid.onion){ .card-link title="Servizio Onion" }
@@ -33,7 +33,7 @@ La rete di **Tor** è un gruppo di server gestiti da volontari che ti consente d
 [:octicons-code-16:](https://gitweb.torproject.org/tor.git){ .card-link title="Codice sorgente" }
 [:octicons-heart-16:](https://donate.torproject.org/){ .card-link title=Contribuisci }
 
-Tor funziona instradando il traffico tramite questi server gestiti da volontari, invece di effettuare una connessione diretta al sito che stai provando a visitare. Ciò offusca la provenienza del traffico e nessun server nel percorso di connesione riesce a visualizzare il percorso completo della provenienza e destinazione del traffico, a significare che nemmeno i server utilizzati per connettersi, possono violarne l'anonimato.
+Tor funziona instradando il traffico tramite questi server gestiti da volontari, invece di effettuare una connessione diretta al sito che stai provando a visitare. In questo modo si offusca la provenienza del traffico e nessun server nel percorso di connessione è in grado di vedere il percorso completo del traffico proveniente e diretto, il che significa che nemmeno i server utilizzati per connettersi possono violare l'anonimato.
 
 [Panoramica dettagliata di Tor :material-arrow-right-drop-circle:](advanced/tor-overview.md ""){.md-button}
 
