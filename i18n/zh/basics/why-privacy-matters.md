@@ -56,4 +56,4 @@ icon: 'material/shield-account'
 
 - [隐私为何重要](https://www.amazon.com/Why-Privacy-Matters-Neil-Richards/dp/0190939044) (2021) 作者：Neil Richards
 - [新石油：隐私和安全为何重要](https://thenewoil.org/en/guides/prologue/why/)
-- [GitHub 上的 @Thorin-Oakenpants](https://github.com/privacytools/privacytools.io/issues/1760#issuecomment-597497298)
+- [@Thorin-Oakenpants on Anonymity vs Privacy vs Security](https://code.privacyguides.dev/privacyguides/privacytools.io/issues/1760#issuecomment-10452)
