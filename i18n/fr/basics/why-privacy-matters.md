@@ -56,4 +56,4 @@ La protection de la vie privée doit être intégrée par défaut dans les [logi
 
 - [Why Privacy Matters](https://www.amazon.com/Why-Privacy-Matters-Neil-Richards/dp/0190939044) (2021) par Neil Richards
 - [The New Oil: Why Privacy & Security Matter](https://thenewoil.org/en/guides/prologue/why/)
-- [@Thorin-Oakenpants on Anonymity vs Privacy vs Security](https://code.privacyguides.dev/privacyguides/privacytools.io/issues/1760#issuecomment-10452)
+- [@Thorin-Oakenpants à propos de l'Anonymat vs Vie Privée vs Sécurité](https://code.privacyguides.dev/privacyguides/privacytools.io/issues/1760#issuecomment-10452)
