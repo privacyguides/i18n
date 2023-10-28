@@ -278,7 +278,7 @@ Le principali funzionalità di privacy includono:
 
     I metadati non sono al momento eliminati dai file video, ma la funzionalità è in fase di sviluppo.
     
-    I metadati dell'orientamento dell'immagine non sono eliminati. Se abiliti la posizione (su Secure Camera), nemmeno questa **sarà** eliminata. Se desideri eliminarla in seguito, dovrai utilizzare un'app esterna come [ExifEraser](data-redaction.md#exiferaser).
+    I metadati sull'orientamento dell'immagine non vengono eliminati. Se abiliti la posizione (su Secure Camera), nemmeno questa **sarà** eliminata. Se desideri eliminarla in seguito, dovrai utilizzare un'app esterna come [ExifEraser](data-redaction.md#exiferaser).
 
 ### Visualizzatore PDF Sicuro
 
@@ -354,7 +354,7 @@ Per le app rilasciate sulle piattaforme come GitHub e GitLab, potresti aggiunger
 
 #### GitHub
 
-Su GitHub, utilizzando come esempio la [Fotocamera Sicura](#secure-camera), dovresti navigare alla sua [pagina di rilascio](https://github.com/GrapheneOS/Camera/releases) e aggiungere `.atom` all'URL:
+Su GitHub, utilizzando come esempio [Secure Camera](#secure-camera), dovresti navigare alla sua [pagina di rilascio](https://github.com/GrapheneOS/Camera/releases) e aggiungere `.atom` all'URL:
 
 `https://github.com/GrapheneOS/Camera/releases.atom`
 
@@ -424,7 +424,7 @@ Detto ciò, i repository di [F-Droid](https://f-droid.org/en/packages/) e [IzzyO
 - Dev'essere un software open source.
 - Deve supportare il blocco del bootloader con supporto alla chiave AVB personalizzato.
 - Deve ricevere gli aggiornamenti principali di Android entro 0-1 mesi dalla pubblicazione.
-- Deve ricevere gli aggiornamenti delle funzionalità di Android (versioni minori) entro 0-14 giorni dalla pubblicazione.
+- Deve ricevere gli aggiornamenti delle funzionalità Android (versione minore) entro 0-14 giorni dalla pubblicazione.
 - Deve ricevere regolarmente le correzioni di sicurezza entro 0-5 giorni dalla pubblicazione.
 - **Non** deve essere preconfigurato con il "root".
 - **Non** deve abilitare Google Play Services di default.
@@ -433,7 +433,7 @@ Detto ciò, i repository di [F-Droid](https://f-droid.org/en/packages/) e [IzzyO
 ### Dispositivi
 
 - Deve supportare almeno uno dei sistemi operativi personalizzati consigliati.
-- Dev'essere al momento venduto nuovo nei negozi.
+- Al momento, deve essere venduto nuovo nei negozi.
 - Deve ricevere un minimo di 5 anni di aggiornamenti di sicurezza.
 - Deve disporre di un hardware Secure Element dedicato.
 

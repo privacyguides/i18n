@@ -47,7 +47,7 @@ Le criptovalute sono una forma di valuta digitale, progettata per funzionare sen
 
 !!! danger "Attenzione"
 
-    La maggior parte delle criptovalute operano su una blockchain **pubblica**, il che significa che ogni transazione è di dominio pubblico. Ciò include anche gran parte delle più note criptovalute, come Bitcoin ed Ethereum. Le transazioni con tali criptovalute non dovrebbero essere considerate private e non proteggeranno il tuo anonimato.
+    La maggior parte delle criptovalute operano su una blockchain **pubblica**, il che significa che ogni transazione è di dominio pubblico. Ciò include anche gran parte delle criptovalute più note, come Bitcoin ed Ethereum. Le transazioni con tali criptovalute non dovrebbero essere considerate private e non proteggeranno il tuo anonimato.
     
     Inoltre, molte se non gran parte delle criptovalute, sono truffe. Effettua attentamente le transazioni, soltanto con i progetti di cui ti fidi.
 

@@ -19,7 +19,7 @@ La privacy dei visitatori del nostro sito web è per noi importante, quindi, non
 
 Se l'utente registra un account su uno dei nostri servizi, possiamo raccogliere tutte le informazioni fornite dall'utente (come l'e-mail, la password, le informazioni sul profilo, ecc.) e utilizzarle per fornirgli il servizio. Non condividiamo né vendiamo mai questi dati.
 
-Alcuni servizi che ospitiamo hanno diverse informative sulla privacy che sostituiscono il presente documento. Ad esempio, l'informativa sulla privacy del nostro forum è disponibile all'indirizzo [discuss.privacyguides.net/privacy](https://discuss.privacyguides.net/privacy).
+Alcuni servizi che ospitiamo hanno politiche sulla privacy separate che sostituiscono il presente documento. Ad esempio, l'informativa sulla privacy del nostro forum è disponibile all'indirizzo [discuss.privacyguides.net/privacy](https://discuss.privacyguides.net/privacy).
 
 ## Contattaci
 

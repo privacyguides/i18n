@@ -1,7 +1,7 @@
 ---
 title: "Risolutori DNS"
 icon: material/dns
-description: Questi sono alcuni dei fornitori DNS crittografati cui consigliamo di passare, per sostituire la configurazione predefinita del tuo ISP.
+description: Questi sono alcuni dei fornitori DNS crittografati a cui consigliamo di passare, per sostituire la configurazione predefinita del tuo ISP.
 cover: dns.webp
 ---
 
