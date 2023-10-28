@@ -6,7 +6,7 @@ description: Questi fornitori di email offrono un luogo ideale per memorizzare i
 cover: email.webp
 ---
 
-L'email è praticamente una necessità per utilizzare qualsiasi servizio online, tuttavia, la sconsigliamo per le conversazioni personali. Piuttosto di utilizzare una e-mail per contattare altre persona, considera un mezzo di messaggistica istantanea che supporti la \['forward secrecy'\](https://it.wikipedia.org/wiki/Forward_secrecy).
+L'email è praticamente una necessità per utilizzare qualsiasi servizio online, tuttavia, la sconsigliamo per le conversazioni personali. Piuttosto che utilizzare l'email per contattare altre persone, considera di utilizzare un mezzo di messaggistica istantanea che supporti la Forward Secrecy, letteralmente, Segretezza in avanti.
 
 [Messaggistica istantanea consigliata](real-time-communication.md ""){.md-button}
 
@@ -405,8 +405,8 @@ Consideriamo queste funzionalità come importanti per poter fornire un servizio 
 
 **Requisiti minimi:**
 
-- Crittografa i dati del profilo email a riposo, con la crittografia ad accesso zero.
-- Possibilità di esportazione come [Mbox](https://en.wikipedia.org/wiki/Mbox) o .eml individuale con lo standard [RFC5322](https://datatracker.ietf.org/doc/rfc5322/).
+- Crittografia dei dati degli account email a riposo con crittografia ad "accesso zero".
+- Possibilità di esportazione come [Mbox](https://en.wikipedia.org/wiki/Mbox) o singoli .eml con lo standard [RFC5322](https://datatracker.ietf.org/doc/rfc5322/) .
 - Consente agli utenti di utilizzare il proprio [nome di dominio](https://en.wikipedia.org/wiki/Domain_name). I nomi di dominio personalizzati sono importanti per gli utenti, poiché consentono loro di mantenere la propria autonomia dal servizio, dovesse diventare negativo o essere acquisito da un'altra azienda che non dà priorità alla privacy.
 - Opera su un'infrastruttura proprietaria, cioè, non basata su fornitori del servizio email di terze parti.
 

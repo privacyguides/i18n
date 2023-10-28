@@ -297,7 +297,7 @@ Crittografando con PGP, puoi configurare diverse opzioni nel tuo file `gpg.confi
 
 ### GPG Suite
 
-!!! note
+!!! note "Nota"
 
     Suggeriamo [Canary Mail](email-clients.md#canary-mail) per utilizzare PGP con le email sui dispositivi iOS.
 

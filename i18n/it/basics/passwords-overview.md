@@ -48,7 +48,7 @@ Un esempio di frase segreta Dicewaare è `visualizzabile velocità riluttante mo
 
 Per generare una frase segreta Dicewaare utilizzando dadi reali, segui questi passaggi:
 
-!!! note
+!!! note "Nota"
 
     Queste istruzioni suppongono che tu stia utilizzando il [grande elenco di parole di EFF](https://www.eff.org/files/2016/07/18/eff_large_wordlist.txt) per generare la frase segreta, che richiede cinque lanci di dadi per parola. Altri elenchi di parole potrebbero richiedere maggiori o minori lanci per parola e potrebbero richiedere una quantità di parole differenti, per ottenere la stessa entropia.
 

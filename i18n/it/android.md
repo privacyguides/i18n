@@ -95,7 +95,7 @@ Questi sono i sistemi operativi, i dispositivi e le app Android che consigliamo,
 
 Consigliamo di installare uno di questi sistemi operativi personalizzati di Android sul tuo dispositivo, elencati per preferenza, a seconda della compatibilità del tuo dispositivo con essi.
 
-!!! note
+!!! note "Nota"
 
     I dispositivi al termine della propria vita (come i dispositivi a "supporto esteso" di GrapheneOS o CalyxOS), non hanno correzioni di sicurezza complete (aggiornamenti del firmware), a causa dell'interruzione del supporto dall'OEM. Questi dispositivi non sono considerabili interamente sicuri, indipendentemente dal software installato.
 
@@ -162,17 +162,17 @@ Altri consigli sui dispositivi Android e sulla compatibilità del sistema operat
 
 - Non acquistare dispositivi che hanno raggiunto o sono prossimi al termine della propria vita, gli aggiornamenti del firmware aggiuntivi devono essere forniti dal produttore.
 - Non acquistare telefoni con LineageOS o /e/ OS preinstallati o qualsiasi dispositivo Android privo dell'adeguato supporto all'[Avvio Verificato](https://source.android.com/security/verifiedboot) e degli aggiornamenti del firmware. Inoltre, questi dispositivi non ti consentono di verificare se sono stati manomessi.
-- In breve, se un dispositivo o una distribuzione Android non sono elencati qui, esiste probabilmente un buon motivo. Consulta il nostro [forum](https://discuss.privacyguides.net/) per ulteriori dettagli!
+- In breve, se un dispositivo o una distribuzione Android non sono elencati qui, probabilmente c'è una buona ragione. Visita il nostro [forum](https://discuss.privacyguides.net/) per ulteriori dettagli!
 
 ### Google Pixel
 
-I telefoni Google Pixel sono i **soli** dispositivi che consigliamo di acquistare. I telefoni Pixel presentano una maggiore sicurezza hardware rispeetto agli altri dispositivi Android al momento sul mercato, grazie all'adeguato supporto ai sistemi operativi di terze parti e ai chip di sicurezza personalizzati '[Titan](https://security.googleblog.com/2021/10/pixel-6-setting-new-standard-for-mobile.html) di Google, che fungono da Elementi Sicuri.
+I telefoni Google Pixel sono i **soli** dispositivi che consigliamo di acquistare. I telefoni Pixel presentano una maggiore sicurezza hardware rispetto agli altri dispositivi Android al momento presenti sul mercato, grazie all'adeguato supporto ai sistemi operativi di terze parti e ai chip di sicurezza personalizzati '[Titan](https://security.googleblog.com/2021/10/pixel-6-setting-new-standard-for-mobile.html) di Google, che fungono da Secure Element.
 
 !!! recommendation
 
     ![Google Pixel 6](assets/img/android/google-pixel.png){ align=right }
     
-    I dispositivi **Google Pixel** sono noti per avere una buona sicurezza e per supportare adeguatamente l'[Avvio Verificato](https://source.android.com/security/verifiedboot), anche installando sistemi operativi personalizzati.
+    I dispositivi **Google Pixel** sono noti per avere una buona sicurezza e per supportare adeguatamente l'[Avvio Verificato](https://source.android.com/docs/security/features/verifiedboot?hl=it), anche installando sistemi operativi personalizzati.
     
     A partire da **Pixel 8** e **8 Pro**, i dispositivi Pixel riceveranno un minimo di 7 anni di aggiornamenti di sicurezza garantiti, assicurando una durata molto maggiore, rispetto a 2-5 anni tipicamente offerti dagli OEM concorrenti.
     
@@ -182,11 +182,11 @@ Gli Elementi Sicuri come Titan M2 sono più limitati dell'Ambiente d'Esecuzione 
 
 I telefoni Google Pixel utilizzano un SO TEE detto Trusty, che è [open source](https://source.android.com/security/trusty#whyTrusty), a differenza di molti altri dispositivi.
 
-L'installazione di GrapheneOS su un telefono Pixel è facile grazie all'[installatore web](https://grapheneos.org/install/web). Se non ti senti a tuo agio a farlo da solo e desideri spendere un po' di denaro in più, consulta [NitroPhone](https://shop.nitrokey.com/shop), preinstallato con GrapheneOS dalla rispettabile azienda [Nitrokey](https://www.nitrokey.com/about).
+L'installazione di GrapheneOS su un telefono Pixel è facile grazie all'[installatore web](https://grapheneos.org/install/web). Se non ti senti a tuo agio a farlo da solo e desideri spendere un po' di denaro in più, consulta il [NitroPhone](https://shop.nitrokey.com/shop), preinstallato con GrapheneOS dalla rispettabile azienda [Nitrokey](https://www.nitrokey.com/about).
 
 Altri suggerimenti per l'acquisto di un Google Pixel:
 
-- Se vuoi fare un affare con un dispositivo Pixel, suggeriamo di acquistare un modello "**A**", poco dopo l'uscita del modello successivo. Solitamente, gli sconti, sono disponibili perché Google cercerà di smaltire le scorte.
+- Se vuoi fare un affare con un dispositivo Pixel, ti consigliamo di acquistare un modello "**A**", poco dopo l'uscita del modello top di gamma successivo. Solitamente, gli sconti, sono disponibili perché Google cercerà di smaltire le scorte.
 - Considera le opzioni di sconto e offerte speciali, nei negozi fisici.
 - Consulta le community di sconti online nel tuo paese. Possono segnalarti le vendite più convenienti.
 - Google fornisce un elenco che mostra il [ciclo di supporto](https://support.google.com/nexus/answer/4457705) per ognuno dei propri dispositivi. Il prezzo giornaliero di un dispositivo è calcolabile come: $\text{Cost} \over \text {EOL Date}-\text{Current Date}$, a significare che maggiore è l'utilizzo del dispositivo, minore è il costo giornaliero.
@@ -209,11 +209,11 @@ Consigliamo un'ampia gamma di app di Android, tramite questo sito. Le app qui el
     [:octicons-code-16:](https://gitea.angry.im/PeterCxy/Shelter){ .card-link title="Codice Sorgente" }
     [:octicons-heart-16:](https://www.patreon.com/PeterCxy){ .card-link title=Contribuisci }
 
-!!! warning
+!!! warning "Attenzione"
 
     Shelter è consigliato rispetto a [Insular](https://secure-system.gitlab.io/Insular/) e [Island](https://github.com/oasisfeng/island), poiché supporta il [blocco della ricerca dei contatti](https://secure-system.gitlab.io/Insular/faq.html).
     
-    Utilizzando Shelter, ti affidi interamente al suo sviluppatore, poiché essaa agisce da [Admin del Dispositivo](https://developer.android.com/guide/topics/admin/device-admin) per creare il Profilo di Lavoro, e ha ampio accesso ai dati memorizzati nel Profilo di Lavoro.
+    Utilizzando Shelter, ti affidi interamente al suo sviluppatore, poiché Shelter agisce da [Admin del Dispositivo](https://developer.android.com/guide/topics/admin/device-admin?hl=it) per creare il Profilo di Lavoro, e ha ampio accesso ai dati memorizzati nel Profilo di Lavoro.
 
 ### Auditor
 
@@ -274,7 +274,7 @@ Le principali funzionalità di privacy includono:
 - Utilizzo della nuova API [Media](https://developer.android.com/training/data-storage/shared/media), dunque le [autorizzazioni d'archiviazione](https://developer.android.com/training/data-storage) non sono necessarie
 - L'autorizzazione del microfono non è necessaria a meno che tu non voglia registrare dei suoni
 
-!!! note
+!!! note "Nota"
 
     I metadati non sono al momento eliminati dai file video, ma la funzionalità è in fase di sviluppo.
     
@@ -407,7 +407,7 @@ Altri repository popolari di terze parti, come [IzzyOnDroid](https://apt.izzysof
 
 Detto ciò, i repository di [F-Droid](https://f-droid.org/en/packages/) e [IzzyOnDroid](https://apt.izzysoft.de/fdroid/) ospitano innumerevoli app, quindi possono essere strumenti utili per ricercare e scoprire app open source, poi scaricabili tramite il Play Store, l'Aurora Store od ottenendo l'APK direttamente dallo sviluppatore. È importante tenere presente che alcune app presenti in questi repository non sono state aggiornate da anni e possono fare affidamento su librerie non supportate, costituendo un potenziale rischio per la sicurezza. Quando cerchi nuove app con questo metodo, è bene utilizzare il tuo miglior giudizio.
 
-!!! note
+!!! note "Nota"
 
     In alcuni rari casi, lo sviluppatore di un'app la distribuirà soltanto tramite F-Droid, ([Gadgetbridge](https://gadgetbridge.org/) ne è un esempio). Se hai davvero bisogno di un'app del genere, ti consigliamo di utilizzare [Neo Store](https://github.com/NeoApplications/Neo-Store/), piuttosto che l'app ufficiale di F-Droid per ottenerla.
 
