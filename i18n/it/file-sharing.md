@@ -98,7 +98,7 @@ ffsend upload --host https://send.vis.ee/ FILE
         - [:simple-apple: macOS](https://nextcloud.com/install/#install-clients)
         - [:simple-linux: Linux](https://nextcloud.com/install/#install-clients)
 
-!!! danger
+!!! danger "Attenzione"
 
     Sconsigliamo di utilizzare l'[App E2EE](https://apps.nextcloud.com/apps/end_to_end_encryption) per Nextcloud, in quanto potrebbe causare la perdita di dati; è altamente sperimentale e non dispone di una qualità di produzione.
 

@@ -362,7 +362,7 @@ Ecco alcuni altri [elenchi di filtri](https://github.com/gorhill/uBlock/wiki/Das
 
 ### Requisiti minimi
 
-- Dev'essere un software open source.
+- Deve essere un software open source.
 - Supporta gli aggiornamenti automatici.
 - Riceve gli aggiornamenti del motore in 0-1 giorni dal rilascio a monte.
 - È disponibile su Linux, macOS e Windows.

@@ -421,7 +421,7 @@ Detto ciò, i repository di [F-Droid](https://f-droid.org/en/packages/) e [IzzyO
 
 ### Sistemi Operativi
 
-- Dev'essere un software open source.
+- Deve essere un software open source.
 - Deve supportare il blocco del bootloader con supporto alla chiave AVB personalizzato.
 - Deve ricevere gli aggiornamenti principali di Android entro 0-1 mesi dalla pubblicazione.
 - Deve ricevere gli aggiornamenti delle funzionalità Android (versione minore) entro 0-14 giorni dalla pubblicazione.
