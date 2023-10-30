@@ -27,12 +27,12 @@ Certificates prove you are talking directly to the website you're visiting, and 
 **익명성**
 :
 
-Anonymity is the ability to act without a persistent identifier. 온라인에서 익명성을 보장하는 대표적인 수단으로는 [Tor](../tor.md)가 있습니다. Tor를 이용하면 자신의 IP 주소나 네트워크 연결망을 사용하지 않고 임의의 IP 주소로 인터넷을 탐색할 수 있습니다.
+'익명성'은 고정된 식별자 없이 활동할 수 있는 능력을 의미합니다. 온라인에서 익명성을 보장하는 대표적인 수단으로는 [Tor](../tor.md)가 있습니다. Tor를 이용하면 자신의 IP 주소나 네트워크 연결망을 사용하지 않고 임의의 IP 주소로 인터넷을 탐색할 수 있습니다.
 :
 
 **'가명'**도 익명과 유사한 개념이지만, 가명은 실제 신원과 연결점이 없는 영구 식별자를 사용한다는 것이 특징입니다. '온라인에서 누구나 나를 `@GamerGuy12`라는 이름으로 찾을 수 있지만, 내 본명을 아는 사람은 아무도 없는 것', 이것이 바로 가명입니다.
 
-All of these concepts overlap, but it is possible to have any combination of these. The sweet spot for most people is when all three of these concepts overlap. However, it's trickier to achieve than many initially believe. 때로는 일부를 타협해야 하겠지만, 괜찮습니다. This is where **threat modeling** comes into play, allowing you to make informed decisions about the [software and services](../tools.md) you use.
+All of these concepts overlap, but it is possible to have any combination of these. 대부분의 사람들에게는 이 세 가지 개념이 모두 충족되는 것이 가장 이상적일 것입니다. 하지만 이는 생각보다 달성하기 어려운 일입니다. 때로는 일부를 타협해야 하겠지만, 괜찮습니다. 여러분은 **위협 모델링**을 통해, 사용하는 [소프트웨어 및 서비스](../tools.md)에 따라 적절한 결정을 내릴 수 있습니다.
 
 [:material-book-outline: 위협 모델링에 대해 자세히 알아보기](threat-modeling.md ""){.md-button}
 
