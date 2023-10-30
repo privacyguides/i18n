@@ -200,7 +200,7 @@ Qubes OS 作業系統將子系統（例如網絡、USB等）和應用程式隔�
 
 選擇適合您的 Linux 發行版取決於個人喜好差異，本頁**並非**是每一款發行版的詳盡列表。 我們在 Linux 介紹頁有更詳細的 [如何選擇發行版本](os/linux-overview.md#choosing-your-distribution) 的說明。 *這個*頁面上的發行版通常都遵循我們介紹的指南，且都滿足以下標準：
 
-- Free and open source.
+- 免費且開放原始碼。
 - 必須定期接收軟體和內核更新。
 - [Avoids X11](os/linux-overview.md#wayland). 
       - 這裡值得注意的例外是 Qubes，但虛擬化可以避免 X11 常發生的隔離問題。 其隔離僅適用於*在不同 qube*（虛擬機）中運行的應用程式，在*同一個* qube 運行的應用程式則無法保護。

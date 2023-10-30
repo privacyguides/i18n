@@ -77,7 +77,7 @@ BurungHantu 還發布一篇 [推特帖子](https://twitter.com/privacytoolsIO/st
 
 截至 2022年9月25日，我們看到 BurungHantu 全部的打算都出現在privacytools.io ，因此我們決定創建這個解釋頁面。 他經營的網站似乎是重度 SEO 優化版本，以推薦工具來換取經濟補償。 最近 IVPN 和 Mullvad，這兩家受到隱私社群近乎一致[推薦](../vpn.md)的 VPN 供應商，因長期反對推薦人優惠回扣而受瞩目，卻遭到 PrivacyTools 的刪除。 在他们的位置上？ NordVPN、Surfshark、ExpressVPN 和 hide.me ；不值得信任的平臺和商業實踐的巨型 VPN 公司，以積極的營銷和推廣折扣而臭名昭著。
 
-==**PrivacyTools has become exactly the type of site we [warned against](https://web.archive.org/web/20210729205249/https://blog.privacytools.io/the-trouble-with-vpn-and-privacy-reviews/) on the PrivacyTools blog in 2019.**== We've tried to keep our distance from PrivacyTools since the transition, but their continued harassment towards our project and now their absurd abuse of the credibility their brand gained over 6 years of open-source contributions is extremely troubling to us. 我們這些為隱私而戰的人並不是在互相爭鬥，也沒有從出價最高者那裡取得建議。
+==**PrivacyTools 已成為我們 [過去 2019年 PrivacyTools 部落格所警告](https://web.archive.org/web/20210729205249/https://blog.privacytools.io/the-trouble-with-vpn-and-privacy-reviews/) 的網站類型。**== 自過渡以來 PrivacyGuides 一直試圖與 PrivacyTools 保持距離，但他們對我們項目持續騷擾，現在他們荒謬地濫用原品牌在6年來獲得的可信度開源貢獻，這實在非常令人不安。 我們這些為隱私而戰的人並不是在互相爭鬥，也沒有從出價最高者那裡取得建議。
 
 ## r/privacytoolsIO Now
 

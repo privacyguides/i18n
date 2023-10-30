@@ -137,7 +137,7 @@ IVPN 通過 Cure53</a> 的
 
 #### :material-check:{ .pg-green } 開源客戶端
 
-As of February 2020 [IVPN applications are now open source](https://www.ivpn.net/blog/ivpn-applications-are-now-open-source). 源代碼可以從他們的 [GitHub組織](https://github.com/ivpn)獲得。
+2020 二月後 [IVPN 應用程式已公開其源代碼](https://www.ivpn.net/blog/ivpn-applications-are-now-open-source)。 源代碼可以從他們的 [GitHub組織](https://github.com/ivpn)獲得。
 
 
 
@@ -293,7 +293,7 @@ Mullvad 對 [自有或租用](https://mullvad.net/en/servers/)的節點非常透
 - 支援強固的協議，如 WireGuard & OpenVPN。
 - 客戶端內建  Killswitch。
 - Multihop支持。 萬一單個節點受損，多跳方式就非常重要，才能保持數據的私密性。
-- If VPN clients are provided, they should be [open source](https://en.wikipedia.org/wiki/Open_source), like the VPN software they generally have built into them. 我們相信， 可取得的[源代碼](https://en.wikipedia.org/wiki/Source_code) 可為用戶設備實際運作提供更高的透明度。
+- 如有提供 VPN 用戶端，則應為 [開源](https://en.wikipedia.org/wiki/Open_source)，一如所內置的 VPN 軟體。 我們相信， 可取得的[源代碼](https://en.wikipedia.org/wiki/Source_code) 可為用戶設備實際運作提供更高的透明度。
 
 **最佳案例：**
 

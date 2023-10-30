@@ -24,7 +24,7 @@
 *[FCM]: Firebase 雲消息
 *[FDE]: 完整磁碟加密
 *[FIDO]: 快速線上身份驗證(FIDO)
-*[FS]: Forward Secrecy
+*[FS]: 前向保密
 *[fork]: 從現有軟體專案複製再另外分隔出來的新獨立專案。
 *[GDPR]: 一般資料保護法規
 *[GPG]: GNU Privacy Guard (PGP 實行)
@@ -53,8 +53,8 @@
 *[MEID]: 行動裝置識別碼
 *[MFA]: 多重身分驗證
 *[NVMe]: NVMe (非揮發性記憶體控制規範)
-*[NAT]: Network address translation
-*[NAT-PMP]: NAT Port Mapping Protocol
+*[NAT]: 網路位址轉譯 (NAT)
+*[NAT-PMP]: NAT 端口映射協議
 *[NTP]: 網絡時間協議
 *[OCI]: Open Container Initiative
 *[OCSP]: 線上憑邆狀態協議

@@ -92,7 +92,7 @@ Tresorit 已獲得多項獨立安全稽核：
 
 最佳案例標準代表了我們希望從這個類別的完美項目應具備的條件。 推薦產品可能沒有此功能，但若有這些功能則會讓排名更為提高。
 
-- Clients should be open source.
+- 客戶端應是開源的。
 - 客戶端軟體應由獨立的第三方進行全面審計。
 - 應提供 Linux、Android、Windows、macOS 和 iOS 的原生客戶端。
     - 這些用戶端應與雲端儲存供應商的原生作業系統工具整合，例如整合 iOS 的 Files app，或 Android 的 DocumentsProvider 功能。

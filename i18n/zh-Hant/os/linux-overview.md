@@ -1,5 +1,5 @@
 ---
-title: Linux概述
+title: Linux 概述
 icon: simple/linux
 description: Linux 為開源、以隱私為中心的桌面作業系統替代選項，但並非所有發行版都一模一樣。
 ---
@@ -18,7 +18,7 @@ description: Linux 為開源、以隱私為中心的桌面作業系統替代選�
 - 保持 [軟體自由](https://www.gnu.org/philosophy/free-sw.en.html#four-freedoms)
 - 有專注隱私保護的作業系統，如 [Whonix](https://www.whonix.org) 或 [Tails](https://tails.boum.org/)
 
-### Open-Source Security
+### 開源安全
 
 人們往往[迷思](../basics/common-misconceptions.md#open-source-software-is-always-secure-or-proprietary-software-is-more-secure)認為 Linux 與其它開源軟體本較安全，因為源代碼可以公開取得。 人們期望定期進行社群驗證；然而這種情況 [並不常見](https://seirdy.one/posts/2022/02/02/floss-security/)。
 

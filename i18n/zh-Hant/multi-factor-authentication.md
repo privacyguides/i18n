@@ -23,12 +23,12 @@ cover: multi-factor-authentication.webp
 
 [比較表](https://www.yubico.com/store/compare/) 顯示了各型號 YubiKeys  功能比較。 我們強烈建議您從YubiKey 5系列中挑選。
 
-YubiKeys可以利用 [YubiKey Manager](https://www.yubico.com/support/download/yubikey-manager/) 或 [YubiKey Personalization Tools](https://www.yubico.com/support/download/yubikey-personalization-tools/)來收授指令。 若要管理 TOTP 代碼，您可以使用 [Yubico Authenticator](https://www.yubico.com/products/yubico-authenticator/)。 All of Yubico's clients are open source.
+YubiKeys可以利用 [YubiKey Manager](https://www.yubico.com/support/download/yubikey-manager/) 或 [YubiKey Personalization Tools](https://www.yubico.com/support/download/yubikey-personalization-tools/)來收授指令。 若要管理 TOTP 代碼，您可以使用 [Yubico Authenticator](https://www.yubico.com/products/yubico-authenticator/)。 Yubico 所有客戶端軟體都是開源。
 
 支持 HOTP 和 TOTP 的機型， OTP 介面中有2個插槽可用於HOTP 和32個插槽來存儲 TOTP 機密。 這些機密經加密後存儲在密鑰上，永遠不會將它們暴露在插入的設備上。 一旦向 Yubico Authenticator 提供種子（共享祕密） ，它將只會給出六位數的代碼，但永遠不會提供種子。 此安全模型有助於限制攻擊者，即便運行 Yubico Authenticator的設備受到破壞，讓受到物理攻擊時 Yubikey 仍具抵抗力。
 
-!!! warning
-    The firmware of YubiKey is not open source and is not updatable. 如果您想要使用較新韌體版本的功能，或者使用中的韌體版本存在漏洞，則需要購買新的金鑰。
+!!! warning "警告"
+    YubiKey 軔體並不開源，無法更新。 如果您想要使用較新韌體版本的功能，或者使用中的韌體版本存在漏洞，則需要購買新的金鑰。
 
 ### Nitrokey
 
@@ -58,7 +58,7 @@ YubiKeys可以利用 [YubiKey Manager](https://www.yubico.com/support/download/y
 
 Nitrokey Pro 2、Nitrokey Storage 2 和即將推出的 Nitrokey 3 支持筆記型電腦的 [Coreboot](https://www.coreboot.org/) + [Heads](https://osresearch.net/) 軔體與系統完整性驗證。
 
-Nitrokey's firmware is open source, unlike the YubiKey. NitroKey 型號可（ **NitroKey Pro 2**除外）可更新軔體。
+不同於 YubiKey，Nitrokey 軔體是開源。 NitroKey 型號可（ **NitroKey Pro 2**除外）可更新軔體。
 
 ### 標準
 

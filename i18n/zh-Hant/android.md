@@ -174,13 +174,13 @@ Google Pixel 是**唯一** 推薦的手機。 由於對第三方作業系統的�
     
     眾所周知，**Google Pixel** 設備具有良好安全性，支持 [Verified Boot](https://source.android.com/security/verifiedboot)，即使安裝自定義作業系統時也是如此。
     
-    Beginning with the **Pixel 8** and **8 Pro**, Pixel devices receive a minimum of 7 years of guaranteed security updates, ensuring a much longer lifespan compared to the 2-5 years competing OEMs typically offer.
+    從 **Pixel 8**和 **8 Pro** 開始，Pixel 設備至少有 7年的安全更新保證，確保其使用壽命比其他競爭OEM 廠商 2-5年長得多。
     
     [:material-shopping: Store](https://store.google.com/category/phones){ .md-button .md-button--primary }
 
 Titan M2 這類安全元件比大多數其他手機處理器的可信執行環境更為有限，因為Titan M2 只用於秘密存儲、硬體證明和速率限制，而不是用於運行 "可信 "程式。 沒有安全元件的手機必須使用 TEE *執行所有這些功能* ，從而導致更大的攻擊面。
 
-Google Pixel phones use a TEE OS called Trusty which is [open source](https://source.android.com/security/trusty#whyTrusty), unlike many other phones.
+Google Pixel 手機使用名為Trusty 的 TEE 作業系統，它是 [開源](https://source.android.com/security/trusty#whyTrusty)，與其他許多手機不同。
 
 Pixel 手機很容易安裝 GrapheneOS 只需依其 [網頁安裝程式](https://grapheneos.org/install/web)即可。 如果不敢自行安裝願意多花一點錢，可以看看 [NitroPhone](https://shop.nitrokey.com/shop) ，它們預裝 GrapheneOS，來自著名的 [Nitrokey](https://www.nitrokey.com/about) 公司。
 

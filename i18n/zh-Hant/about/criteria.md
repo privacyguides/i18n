@@ -17,7 +17,7 @@ title: 通用標準
 我們在考慮新建議時應用這些優先事項：
 
 - **安全**：工具應在合適的地方遵循安全的最佳做法。
-- **Source Availability**: Open-source projects are generally preferred over equivalent proprietary alternatives.
+- **源代碼可取得**：開源專案通常比同等商用替代方案更受歡迎。
 - **跨平臺**：我們通常傾向於建議跨平臺，以避免供應商鎖定。
 - **積極開發**：我們建議的工具應該積極開發，在大多數情況下，未維護的項目將被移除。
 - **可用性**：工具應可讓大多數電腦使用者使用，無需要求過度的技術背景。

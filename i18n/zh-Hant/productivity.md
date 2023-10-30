@@ -60,7 +60,7 @@ cover: productivity.webp
 
 一般來說，我們將協作平臺定義為成熟的套件，可以合理地替代Google Drive 等協作平臺。
 
-- Open source.
+- 開放原始碼
 - 使檔案可透過 WebDAV 訪問，除非因 E2EE 緣故。
 - 具有Linux、macOS和Windows的同步客戶端。
 - 支援文件和試算表編輯。

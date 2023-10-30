@@ -143,5 +143,5 @@ cover: data-redaction.webp
 
     我們正在努力為我們網站的每個部分建立定義的標準，這可能會有所變化。 如果您對我們的標準有任何疑問，請在 [論壇上提問](https://discuss.privacyguides.net/latest) ，如果沒有列出，請不要認為我們在提出建議時沒有考慮到某些事情。 當我們推薦一個項目時，有許多因素被考慮和討論，記錄每一個項目都是正在進行式。
 
-- Apps developed for open-source operating systems must be open source.
+- 為開源作業系統開發的應用程式必須是開源的。
 - 應用程式必須是免費的，不應包含廣告或其他限制。
