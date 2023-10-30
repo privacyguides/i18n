@@ -298,7 +298,7 @@ Brave 브라우저의 [보호](https://support.brave.com/hc/en-us/articles/36002
 Brave의 Web3 기능은 잠재적으로 브라우저의 핑거프린트와 공격 표면을 증가시킬 수 있습니다. 여러분이 해당 기능을 사용하지 않는다면 비활성화해야 합니다.
 
 - Select **Extensions (no fallback)** under Default Ethereum wallet and Default Solana wallet
-- Set **Method to resolve IPFS resources** to **Disabled**
+- **IPFS 리소스 리졸빙에 사용하는 방법**을 **사용 중지**로 설정
 
 ##### 시스템
 
