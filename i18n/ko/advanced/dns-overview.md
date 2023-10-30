@@ -372,23 +372,23 @@ DNSSEC은 DNS의 모든 계층에 걸쳐 계층적(Hierarchical) 디지털 서�
 
 ## QNAME 최소화란 무엇인가요?
 
-A QNAME is a "qualified name", for example `discuss.privacyguides.net`. In the past, when resolving a domain name your DNS resolver would ask every server in the chain to provide any information it has about your full query. In this example below, your request to find the IP address for `discuss.privacyguides.net` gets asked of every DNS server provider:
+QNAME은 '정규화된 이름(Qualified Name)'입니다(예시: `discuss.privacyguides.net`). In the past, when resolving a domain name your DNS resolver would ask every server in the chain to provide any information it has about your full query. In this example below, your request to find the IP address for `discuss.privacyguides.net` gets asked of every DNS server provider:
 
-| Server                 | Question Asked                              | Response                                    |
-| ---------------------- | ------------------------------------------- | ------------------------------------------- |
-| Root server            | What's the IP of discuss.privacyguides.net? | I don't know, ask .net's server...          |
-| .net's server          | What's the IP of discuss.privacyguides.net? | I don't know, ask Privacy Guides' server... |
-| Privacy Guides' server | What's the IP of discuss.privacyguides.net? | 5.161.195.190!                              |
+| Server            | 질문                                    | 응답                                          |
+| ----------------- | ------------------------------------- | ------------------------------------------- |
+| 루트 서버             | discuss.privacyguides.net의 IP는 무엇인가요? | I don't know, ask .net's server...          |
+| .net 서버           | discuss.privacyguides.net의 IP는 무엇인가요? | I don't know, ask Privacy Guides' server... |
+| Privacy Guides 서버 | discuss.privacyguides.net의 IP는 무엇인가요? | 5.161.195.190!                              |
 
 
 With "QNAME minimization," your DNS resolver now only asks for just enough information to find the next server in the chain. In this example, the root server is only asked for enough information to find the appropriate nameserver for the .net TLD, and so on, without ever knowing the full domain you're trying to visit:
 
-| Server                 | Question Asked                                       | Response                          |
-| ---------------------- | ---------------------------------------------------- | --------------------------------- |
-| Root server            | What's the nameserver for .net?                      | *Provides .net's server*          |
-| .net's server          | What's the nameserver for privacyguides.net?         | *Provides Privacy Guides' server* |
-| Privacy Guides' server | What's the nameserver for discuss.privacyguides.net? | This server!                      |
-| Privacy Guides' server | What's the IP of discuss.privacyguides.net?          | 5.161.195.190                     |
+| Server            | 질문                                                   | 응답                                |
+| ----------------- | ---------------------------------------------------- | --------------------------------- |
+| 루트 서버             | What's the nameserver for .net?                      | *Provides .net's server*          |
+| .net 서버           | What's the nameserver for privacyguides.net?         | *Provides Privacy Guides' server* |
+| Privacy Guides 서버 | What's the nameserver for discuss.privacyguides.net? | This server!                      |
+| Privacy Guides 서버 | discuss.privacyguides.net의 IP는 무엇인가요?                | 5.161.195.190                     |
 
 
 While this process can be slightly more inefficient, in this example neither the central root nameservers nor the TLD's nameservers ever receive information about your *full* query, thus reducing the amount of information being transmitted about your browsing habits. 세부 기술 설명은 [RFC 7816](https://datatracker.ietf.org/doc/html/rfc7816)에 정의되어 있습니다.
