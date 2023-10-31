@@ -30,7 +30,7 @@ schema:
 [:octicons-home-16:](https://www.torproject.org){ .card-link title=Homepage }
 [:simple-torbrowser:](http://2gzyxa5ihm7nsggfxnu52rck2vv4rvmdlkiu3zzui5du4xyclen53wid.onion){ .card-link title="Onion Service" }
 [:octicons-info-16:](https://tb-manual.torproject.org/){ .card-link title=Documentation}
-[:octicons-code-16:](https://gitweb.torproject.org/tor.git){ .card-link title="Source Code" }
+[:octicons-code-16:](https://gitlab.torproject.org/tpo/core/tor){ .card-link title="Source Code" }
 [:octicons-heart-16:](https://donate.torproject.org/){ .card-link title=Contribute }
 
 Tor的工作原理是通过这些志愿者操作的服务器路由您的互联网流量，而不是直接连接到您试图访问的网站。 这会混淆流量的来源，并且连接路径中的任何服务器都无法看到流量来自和流向的完整路径，这意味着即使您用于连接的服务器也无法打破您的匿名性。
@@ -52,7 +52,7 @@ Tor的工作原理是通过这些志愿者操作的服务器路由您的互联�
     [:octicons-home-16: Homepage](https://www.torproject.org){ .md-button .md-button--primary }
     [:simple-torbrowser:](http://2gzyxa5ihm7nsggfxnu52rck2vv4rvmdlkiu3zzui5du4xyclen53wid.onion){ .card-link title="Onion Service" }
     [:octicons-info-16:](https://tb-manual.torproject.org/){ .card-link title=Documentation }
-    [:octicons-code-16:](https://gitweb.torproject.org/tor-browser.git/){ .card-link title="Source Code" }
+    [:octicons-code-16:](https://gitlab.torproject.org/tpo/applications/tor-browser){ .card-link title="Source Code" }
     [:octicons-heart-16:](https://donate.torproject.org/){ .card-link title=Contribute }
     
     ??? downloads
@@ -132,7 +132,7 @@ We previously recommended enabling the *Isolate Destination Address* preference 
     
     [:octicons-home-16: Homepage](https://snowflake.torproject.org/){ .md-button .md-button--primary }
     [:octicons-info-16:](https://gitlab.torproject.org/tpo/anti-censorship/pluggable-transports/snowflake/-/wikis/Technical%20Overview){ .card-link title=Documentation}
-    [:octicons-code-16:](https://gitweb.torproject.org/pluggable-transports/snowflake.git/){ .card-link title="Source Code" }
+    [:octicons-code-16:](https://gitlab.torproject.org/tpo/anti-censorship/pluggable-transports/snowflake){ .card-link title="Source Code" }
     [:octicons-heart-16:](https://donate.torproject.org/){ .card-link title=Contribute }
 
 You can enable Snowflake in your browser by opening it in another tab and turning the switch on. You can leave it running in the background while you browse to contribute your connection. We don't recommend installing Snowflake as a browser extension; adding third-party extensions can increase your attack surface.

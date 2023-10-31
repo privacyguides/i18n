@@ -337,8 +337,9 @@ Il Google Play Store richiede un profilo Google per l'accesso, il che non è un 
     
     **Aurora Store** è un client di Google Play Store che non richiede un profilo di Google, Google Play Services o microG per scaricare le app.
     
-    [:octicons-home-16: Home](https://auroraoss.com/){ .md-button .md-button--primary }
-    [:octicons-code-16:](https://gitlab.com/AuroraOSS/AuroraStore){ .card-link title="Codice Sorgente" }
+    [:octicons-home-16: Homepage](https://auroraoss.com/){ .md-button .md-button--primary }
+    [:octicons-eye-16:](https://gitlab.com/AuroraOSS/AuroraStore/-/blob/master/POLICY.md){ .card-link title="Privacy Policy" }
+    [:octicons-code-16:](https://gitlab.com/AuroraOSS/AuroraStore){ .card-link title="Source Code" }
     
     ??? downloads
     

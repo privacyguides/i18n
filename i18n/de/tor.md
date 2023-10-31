@@ -29,9 +29,9 @@ Das **Tor** Netzwerk besteht aus von freiwillig betriebenen Servern, die es erm�
 
 [:octicons-home-16:](https://www.torproject.org){ .card-link title=Homepage }
 [:simple-torbrowser:](http://2gzyxa5ihm7nsggfxnu52rck2vv4rvmdlkiu3zzui5du4xyclen53wid.onion){ .card-link title="Onion Service" }
-[:octicons-info-16:](https://tb-manual.torproject.org/){ .card-link title=Dokumentation}
-[:octicons-code-16:](https://gitweb.torproject.org/tor.git){ .card-link title=Quelltext }
-[:octicons-heart-16:](https://donate.torproject.org/){ .card-link title=Mitwirken }
+[:octicons-info-16:](https://tb-manual.torproject.org/){ .card-link title=Documentation}
+[:octicons-code-16:](https://gitlab.torproject.org/tpo/core/tor){ .card-link title="Source Code" }
+[:octicons-heart-16:](https://donate.torproject.org/){ .card-link title=Contribute }
 
 Tor funktioniert, indem es deinen Internetverkehr über diese von Freiwilligen betriebenen Server leitet, anstatt eine direkte Verbindung zu der Website herzustellen, die du besuchen willst. Dadurch wird verschleiert, woher der Datenverkehr kommt, und kein Server im Verbindungspfad ist in der Lage, den vollständigen Pfad zu sehen, woher der Datenverkehr kommt und wohin er geht, was bedeutet, dass selbst die Server, die du für die Verbindung verwendest, deiner Anonymität nichts anhaben können.
 
@@ -51,9 +51,9 @@ Es gibt eine Vielzahl von Möglichkeiten, sich von deinem Gerät aus mit dem Tor
     
     [:octicons-home-16: Homepage](https://www.torproject.org){ .md-button .md-button--primary }
     [:simple-torbrowser:](http://2gzyxa5ihm7nsggfxnu52rck2vv4rvmdlkiu3zzui5du4xyclen53wid.onion){ .card-link title="Onion Service" }
-    [:octicons-info-16:](https://tb-manual.torproject.org/){ .card-link title=Dokumentation }
-    [:octicons-code-16:](https://gitweb.torproject.org/tor-browser.git/){ .card-link title=Quelltext }
-    [:octicons-heart-16:](https://donate.torproject.org/){ .card-link title=Mitwirken }
+    [:octicons-info-16:](https://tb-manual.torproject.org/){ .card-link title=Documentation }
+    [:octicons-code-16:](https://gitlab.torproject.org/tpo/applications/tor-browser){ .card-link title="Source Code" }
+    [:octicons-heart-16:](https://donate.torproject.org/){ .card-link title=Contribute }
     
     ??? downloads
     
@@ -131,9 +131,9 @@ Wir haben bereits empfohlen, die Einstellung *Isolate Destination Address* in de
     Menschen, die zensiert werden, können Snowflake-Proxys benutzen, um sich mit dem Tor-Netzwerk zu verbinden. Snowflake ist eine großartige Möglichkeit, zum Netzwerk beizutragen, auch wenn du nicht das technische Know-how hast, um einen Tor-Relay oder eine Bridge zu betreiben.
     
     [:octicons-home-16: Homepage](https://snowflake.torproject.org/){ .md-button .md-button--primary }
-    [:octicons-info-16:](https://gitlab.torproject.org/tpo/anti-censorship/pluggable-transports/snowflake/-/wikis/Technical%20Overview){ .card-link title=Dokumentation}
-    [:octicons-code-16:](https://gitweb.torproject.org/pluggable-transports/snowflake.git/){ .card-link title=Quelltext }
-    [:octicons-heart-16:](https://donate.torproject.org/){ .card-link title=Mitwirken }
+    [:octicons-info-16:](https://gitlab.torproject.org/tpo/anti-censorship/pluggable-transports/snowflake/-/wikis/Technical%20Overview){ .card-link title=Documentation}
+    [:octicons-code-16:](https://gitlab.torproject.org/tpo/anti-censorship/pluggable-transports/snowflake){ .card-link title="Source Code" }
+    [:octicons-heart-16:](https://donate.torproject.org/){ .card-link title=Contribute }
 
 Du kannst Snowflake in deinem Browser aktivieren, indem du es in einem anderen Tab öffnest und den Schalter aktivierst. Du kannst es es im Hintergrund laufen lassen, während du surfst, um Ihre Verbindung zu spenden. Wir raten davon ab, Snowflake als Browser-Erweiterung zu installieren; das Hinzufügen von Erweiterungen von Drittanbietern kann deine Angriffsfläche vergrößern.
 

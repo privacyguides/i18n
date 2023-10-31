@@ -27,11 +27,11 @@ schema:
 
 A **Tor** hálózat egy önkéntesek által üzemeltetett szerverekből álló csoport, amely lehetővé teszi, hogy ingyenesen csatlakozhass, és javíts a magánéleteden, valamint a biztonságodon az Interneten. Személyek és szervezetek a Tor-hálózaton keresztül ".onion rejtett szolgáltatásokkal" is megoszthatnak információkat anélkül, hogy veszélyeztetnék a magánéletüket. Mivel a Tor forgalmat nehéz blokkolni és nyomon követni, a Tor egy hatékony cenzúra megkerülő eszköz.
 
-[:octicons-home-16:](https://www.torproject.org){ .card-link title=Honlap }
-[:simple-torbrowser:](http://2gzyxa5ihm7nsggfxnu52rck2vv4rvmdlkiu3zzui5du4xyclen53wid.onion){ .card-link title="Onion Szolgáltatás" }
-[:octicons-info-16:](https://tb-manual.torproject.org/){ .card-link title=Dokumentáció}
-[:octicons-code-16:](https://gitweb.torproject.org/tor.git){ .card-link title="Forráskód" }
-[:octicons-heart-16:](https://donate.torproject.org/){ .card-link title=Közreműküdés }
+[:octicons-home-16:](https://www.torproject.org){ .card-link title=Homepage }
+[:simple-torbrowser:](http://2gzyxa5ihm7nsggfxnu52rck2vv4rvmdlkiu3zzui5du4xyclen53wid.onion){ .card-link title="Onion Service" }
+[:octicons-info-16:](https://tb-manual.torproject.org/){ .card-link title=Documentation}
+[:octicons-code-16:](https://gitlab.torproject.org/tpo/core/tor){ .card-link title="Source Code" }
+[:octicons-heart-16:](https://donate.torproject.org/){ .card-link title=Contribute }
 
 A Tor úgy működik, hogy az internetes forgalmadat ezeken az önkéntesek által üzemeltetett szervereken keresztül irányítja át, ahelyett, hogy közvetlen kapcsolatot létesítene a meglátogatni kívánt oldallal. Ez elrejti, hogy honnan érkezik a forgalom, és a kapcsolat útvonalában egyetlen szerver sem látja a teljes útvonalat, ahonnan a forgalom érkezik és ahová tart, ami azt jelenti, hogy még az általad csatlakozásra használt szerverek sem tudják megtörni az anonimitásodat.
 
@@ -49,11 +49,11 @@ A Tor-hálózathoz többféleképpen is csatlakozni lehet a készülékedről, a
     
     A **Tor Böngésző** a legjobb választás, ha anonimitásra van szükséged, mivel hozzáférést biztosít a Tor-hálózathoz és a Tor-hidakhoz, valamint alapértelmezett beállításokat és bővítményeket tartalmaz, amelyek automatikusan előre beállított biztonsági szintek alapján vannak konfigurálva: *Normál*, *Biztonságosabb* és *Legbiztonságosabb*.
     
-    [:octicons-home-16: Honlap](https://www.torproject.org){ .md-button .md-button--primary }
-    [:simple-torbrowser:](http://2gzyxa5ihm7nsggfxnu52rck2vv4rvmdlkiu3zzui5du4xyclen53wid.onion){ .card-link title="Onion Szolgáltatás" }
-    [:octicons-info-16:](https://tb-manual.torproject.org/){ .card-link title=Dokumentáció }
-    [:octicons-code-16:](https://gitweb.torproject.org/tor-browser.git/){ .card-link title="Forráskód" }
-    [:octicons-heart-16:](https://donate.torproject.org/){ .card-link title=Közreműködés }
+    [:octicons-home-16: Homepage](https://www.torproject.org){ .md-button .md-button--primary }
+    [:simple-torbrowser:](http://2gzyxa5ihm7nsggfxnu52rck2vv4rvmdlkiu3zzui5du4xyclen53wid.onion){ .card-link title="Onion Service" }
+    [:octicons-info-16:](https://tb-manual.torproject.org/){ .card-link title=Documentation }
+    [:octicons-code-16:](https://gitlab.torproject.org/tpo/applications/tor-browser){ .card-link title="Source Code" }
+    [:octicons-heart-16:](https://donate.torproject.org/){ .card-link title=Contribute }
     
     ??? downloads
     
@@ -130,10 +130,10 @@ Korábban ajánlottuk az *Isolate Destination Address* beállítás engedélyez�
     
     Azok, akik cenzúra alatt állnak, Snowflake proxykat tudnak használni a Tor-hálózathoz való csatlakozáshoz. A Snowflake egy nagyszerű módja annak, hogy hozzájárulj a hálózathoz, még akkor is, ha nincs meg a technikai tudásod egy Tor elosztó vagy híd üzemeltetéséhez.
     
-    [:octicons-home-16: Honlap](https://snowflake.torproject.org/){ .md-button .md-button--primary }
-    [:octicons-info-16:](https://gitlab.torproject.org/tpo/anti-censorship/pluggable-transports/snowflake/-/wikis/Technical%20Overview){ .card-link title=Dokumentáció}
-    [:octicons-code-16:](https://gitweb.torproject.org/pluggable-transports/snowflake.git/){ .card-link title="Forráskód" }
-    [:octicons-heart-16:](https://donate.torproject.org/){ .card-link title=Közreműködés }
+    [:octicons-home-16: Homepage](https://snowflake.torproject.org/){ .md-button .md-button--primary }
+    [:octicons-info-16:](https://gitlab.torproject.org/tpo/anti-censorship/pluggable-transports/snowflake/-/wikis/Technical%20Overview){ .card-link title=Documentation}
+    [:octicons-code-16:](https://gitlab.torproject.org/tpo/anti-censorship/pluggable-transports/snowflake){ .card-link title="Source Code" }
+    [:octicons-heart-16:](https://donate.torproject.org/){ .card-link title=Contribute }
 
 A Snowflake-et engedélyezheted a böngésződben úgy, hogy megnyitod azt egy másik lapon, és aktiválod a kapcsolót. Futni hagyhatod a háttérben, hogy hozzájárulj a kapcsolatoddal böngészés közben. Nem javasoljuk a Snowflake böngésző bővítményként való telepítését; harmadik féltől származó bővítmények hozzáadása növelheti a támadási felületet.
 

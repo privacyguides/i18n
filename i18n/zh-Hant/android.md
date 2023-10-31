@@ -338,6 +338,7 @@ Google Play商店需要登錄 Google 帳戶，這對隱私來說不是很好。 
     **Aurora Store** 為 Google Play Store 客戶端，其無須 Google 帳戶 或 microG 即可下戴應用。
     
     [:octicons-home-16: Homepage](https://auroraoss.com/){ .md-button .md-button--primary }
+    [:octicons-eye-16:](https://gitlab.com/AuroraOSS/AuroraStore/-/blob/master/POLICY.md){ .card-link title="Privacy Policy" }
     [:octicons-code-16:](https://gitlab.com/AuroraOSS/AuroraStore){ .card-link title="Source Code" }
     
     ??? downloads "下載"

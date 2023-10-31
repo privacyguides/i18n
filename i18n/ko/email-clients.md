@@ -143,16 +143,16 @@ Canay Mail은 오픈 소스가 아닙니다. iOS에서 PGP E2EE를 지원하는 
     
     K-9 Mail은 [공식적으로 Thunderbird 브랜드에 통합되었으며](https://k9mail.app/2022/06/13/K-9-Mail-and-Thunderbird.html), 추후 Android용 Thunderbird 클라이언트가 될 예정입니다.
     
-    [:octicons-home-16: 홈페이지](https://k9mail.app){ .md-button .md-button--primary }
-    [:octicons-eye-16:](https://k9mail.app/privacy){ .card-link title="프라이버시 정책" }
-    [:octicons-info-16:](https://docs.k9mail.app/){ .card-link title=문서}
-    [:octicons-code-16:](https://github.com/k9mail/k-9){ .card-link title="소스 코드" }
-    [:octicons-heart-16:](https://k9mail.app/contribute){ .card-link title=기여 }
+    [:octicons-home-16: Homepage](https://k9mail.app){ .md-button .md-button--primary }
+    [:octicons-eye-16:](https://k9mail.app/privacy){ .card-link title="Privacy Policy" }
+    [:octicons-info-16:](https://docs.k9mail.app/){ .card-link title=Documentation}
+    [:octicons-code-16:](https://github.com/thundernest/k-9){ .card-link title="Source Code" }
+    [:octicons-heart-16:](https://k9mail.app/contribute){ .card-link title=Contribute }
     
-    ??? downloads "다운로드"
+    ??? downloads
     
         - [:simple-googleplay: Google Play](https://play.google.com/store/apps/details?id=com.fsck.k9)
-        - [:simple-github: GitHub](https://github.com/k9mail/k-9/releases)
+        - [:simple-github: GitHub](https://github.com/thundernest/k-9/releases)
 
 !!! warning "경고"
 

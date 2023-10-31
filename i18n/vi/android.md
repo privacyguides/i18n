@@ -336,6 +336,7 @@ The Google Play Store requires a Google account to login which is not great for 
     Vì CalyxOS bao gồm một bộ điều khiển thiết bị, chúng tôi khuyên bạn nên sử dụng hồ sơ công việc được tích hợp sẵn của chúng để thay thế.
     
     [:octicons-home-16: Homepage](https://auroraoss.com/){ .md-button .md-button--primary }
+    [:octicons-eye-16:](https://gitlab.com/AuroraOSS/AuroraStore/-/blob/master/POLICY.md){ .card-link title="Privacy Policy" }
     [:octicons-code-16:](https://gitlab.com/AuroraOSS/AuroraStore){ .card-link title="Source Code" }
     
     ??? downloads

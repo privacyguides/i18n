@@ -27,11 +27,11 @@ schema:
 
 **Tor** 네트워크는 자원 봉사 형태로 운영되는 서버 그룹으로, 무료로 연결하여 인터넷에서 프라이버시와 보안을 향상시킬 수 있습니다. 개인 및 단체는 'Onion hidden 서비스'를 통해, 프라이버시를 침해받는 일 없이 Tor 네트워크에서 정보를 공유할 수 있습니다. Tor 트래픽은 차단 및 추적이 어렵기 때문에 검열 우회에 효과적입니다.
 
-[:octicons-home-16:](https://www.torproject.org){ .card-link title=홈페이지 }
-[:simple-torbrowser:](http://2gzyxa5ihm7nsggfxnu52rck2vv4rvmdlkiu3zzui5du4xyclen53wid.onion){ .card-link title="Onion 서비스" }
-[:octicons-info-16:](https://tb-manual.torproject.org/){ .card-link title=문서}
-[:octicons-code-16:](https://gitweb.torproject.org/tor.git){ .card-link title="소스 코드" }
-[:octicons-heart-16:](https://donate.torproject.org/){ .card-link title=기부 }
+[:octicons-home-16:](https://www.torproject.org){ .card-link title=Homepage }
+[:simple-torbrowser:](http://2gzyxa5ihm7nsggfxnu52rck2vv4rvmdlkiu3zzui5du4xyclen53wid.onion){ .card-link title="Onion Service" }
+[:octicons-info-16:](https://tb-manual.torproject.org/){ .card-link title=Documentation}
+[:octicons-code-16:](https://gitlab.torproject.org/tpo/core/tor){ .card-link title="Source Code" }
+[:octicons-heart-16:](https://donate.torproject.org/){ .card-link title=Contribute }
 
 Tor는 방문하려는 사이트에 직접 연결하는 방식이 아닌, 자원 봉사자가 운영하는 서버를 통해 인터넷 트래픽을 전송합니다. 이러한 방식을 통해 트래픽의 출처를 알 수 없게 만들고, 연결 경로상의 서버 또한 트래픽의 전체 경로는 볼 수 없으므로, 연결에 사용한 서버조차도 여러분의 익명성을 깨트릴 수 없습니다.
 
@@ -49,11 +49,11 @@ Tor는 방문하려는 사이트에 직접 연결하는 방식이 아닌, 자원
     
     **Tor 브라우저**는 익명성이 필요한 경우 선택해야 할 브라우저입니다. 이 브라우저는 Tor 네트워크와 브릿지에 접근할 수 있도록 해주며, 기본 보안 수준인 Standard, Safer, Safest에 따라 자동으로 구성되는 기본 설정과 확장 기능을 탑재하고 있습니다.
     
-    [:octicons-home-16: 홈페이지](https://www.torproject.org){ .md-button .md-button--primary }
-    [:simple-torbrowser:](http://2gzyxa5ihm7nsggfxnu52rck2vv4rvmdlkiu3zzui5du4xyclen53wid.onion){ .card-link title="Onion 서비스" }
-    [:octicons-info-16:](https://tb-manual.torproject.org/){ .card-link title=문서 }
-    [:octicons-code-16:](https://gitweb.torproject.org/tor-browser.git/){ .card-link title="소스 코드" }
-    [:octicons-heart-16:](https://donate.torproject.org/){ .card-link title=기부 }
+    [:octicons-home-16: Homepage](https://www.torproject.org){ .md-button .md-button--primary }
+    [:simple-torbrowser:](http://2gzyxa5ihm7nsggfxnu52rck2vv4rvmdlkiu3zzui5du4xyclen53wid.onion){ .card-link title="Onion Service" }
+    [:octicons-info-16:](https://tb-manual.torproject.org/){ .card-link title=Documentation }
+    [:octicons-code-16:](https://gitlab.torproject.org/tpo/applications/tor-browser){ .card-link title="Source Code" }
+    [:octicons-heart-16:](https://donate.torproject.org/){ .card-link title=Contribute }
     
     ??? downloads "다운로드"
     
@@ -130,10 +130,10 @@ Tor 브라우저는 핑거프린팅 및 브라우저 설정 기반 사용자 식
     
     검열을 받고 있는 사람들은 Snowflake 프록시를 사용해 Tor 네트워크에 접속할 수 있습니다. Snowflake는 Tor 릴레이나 브리지를 운영할 기술적 노하우가 없더라도 네트워크에 기여할 수 있는 좋은 방법입니다.
     
-    [:octicons-home-16: 홈페이지](https://snowflake.torproject.org/){ .md-button .md-button--primary }
-    [:octicons-info-16:](https://gitlab.torproject.org/tpo/anti-censorship/pluggable-transports/snowflake/-/wikis/Technical%20Overview){ .card-link title=문서}
-    [:octicons-code-16:](https://gitweb.torproject.org/pluggable-transports/snowflake.git/){ .card-link title="소스 코드" }
-    [:octicons-heart-16:](https://donate.torproject.org/){ .card-link title=기부 }
+    [:octicons-home-16: Homepage](https://snowflake.torproject.org/){ .md-button .md-button--primary }
+    [:octicons-info-16:](https://gitlab.torproject.org/tpo/anti-censorship/pluggable-transports/snowflake/-/wikis/Technical%20Overview){ .card-link title=Documentation}
+    [:octicons-code-16:](https://gitlab.torproject.org/tpo/anti-censorship/pluggable-transports/snowflake){ .card-link title="Source Code" }
+    [:octicons-heart-16:](https://donate.torproject.org/){ .card-link title=Contribute }
 
 여러분이 사용하는 브라우저의 다른 탭에 Snowflake를 열고, 활성화 스위치를 켜면 Snowflake를 활성화할 수 있습니다. 브라우저를 사용하는 동안 백그라운드에서 실행시켜 두는 것만으로도 대역폭 기여가 가능합니다. Snowflake 브라우저 확장 프로그램도 존재하지만, Privacy Guides는 여러분의 공격 표면이 늘어날 가능성을 최소화하기 위해 브라우저 확장 프로그램 설치는 권장드리지 않습니다.
 

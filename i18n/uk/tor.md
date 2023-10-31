@@ -27,11 +27,11 @@ schema:
 
 Мережа **Tor** - це група серверів, керованих волонтерами, яка дозволяє вам підключатися безкоштовно і покращувати вашу конфіденційність і безпеку в Інтернеті. Приватні особи та організації також можуть обмінюватися інформацією через мережу Tor з "прихованими сервісами .onion" без шкоди для своєї конфіденційності. Оскільки трафік Tor важко заблокувати і відстежити, Tor є ефективним інструментом обходу цензури.
 
-[:octicons-home-16:](https://www.torproject.org){ .card-link title=Домашня сторінка}
+[:octicons-home-16:](https://www.torproject.org){ .card-link title=Homepage }
 [:simple-torbrowser:](http://2gzyxa5ihm7nsggfxnu52rck2vv4rvmdlkiu3zzui5du4xyclen53wid.onion){ .card-link title="Onion Service" }
-[:octicons-info-16:](https://tb-manual.torproject.org/){ .card-link title=Документація}
-[:octicons-code-16:](https://gitweb.torproject.org/tor.git){ .card-link title="Вихідний код" }
-[:octicons-heart-16:](https://donate.torproject.org/){ .card-link title=Зробити внесок }
+[:octicons-info-16:](https://tb-manual.torproject.org/){ .card-link title=Documentation}
+[:octicons-code-16:](https://gitlab.torproject.org/tpo/core/tor){ .card-link title="Source Code" }
+[:octicons-heart-16:](https://donate.torproject.org/){ .card-link title=Contribute }
 
 Tor працює, спрямовуючи ваш інтернет-трафік через ці волонтерські сервери, замість того, щоб встановлювати пряме з'єднання з сайтом, який ви намагаєтесь відвідати. Це приховує, звідки надходить трафік, і жоден сервер у шляху з 'єднання не може побачити повний шлях, звідки надходить трафік, а це означає, що навіть сервери, які ви використовуєте для з' єднання, не можуть порушити вашу анонімність.
 
@@ -49,11 +49,11 @@ Tor працює, спрямовуючи ваш інтернет-трафік ч
     
     **Tor Browser** — це вибір, якщо вам потрібна анонімність, оскільки він надає доступ до мережі Tor і мостів, а також включає в себе стандартні налаштування і розширення, які автоматично налаштовуються на рівні безпеки за замовчуванням: *Стандартний*, *Безпечніший* і *Найбезпечніший*.
     
-    [:octicons-home-16: Домашня сторінка](https://www.torproject.org){ .md-button .md-button--primary }
+    [:octicons-home-16: Homepage](https://www.torproject.org){ .md-button .md-button--primary }
     [:simple-torbrowser:](http://2gzyxa5ihm7nsggfxnu52rck2vv4rvmdlkiu3zzui5du4xyclen53wid.onion){ .card-link title="Onion Service" }
-    [:octicons-info-16:](https://tb-manual.torproject.org/){ .card-link title=Документація }
-    [:octicons-code-16:](https://gitweb.torproject.org/tor-browser.git/){ .card-link title="Вихідний код" }
-    [:octicons-heart-16:](https://donate.torproject.org/){ .card-link title=Зробити внесок }
+    [:octicons-info-16:](https://tb-manual.torproject.org/){ .card-link title=Documentation }
+    [:octicons-code-16:](https://gitlab.torproject.org/tpo/applications/tor-browser){ .card-link title="Source Code" }
+    [:octicons-heart-16:](https://donate.torproject.org/){ .card-link title=Contribute }
     
     ??? downloads
     
@@ -132,7 +132,7 @@ We previously recommended enabling the *Isolate Destination Address* preference 
     
     [:octicons-home-16: Homepage](https://snowflake.torproject.org/){ .md-button .md-button--primary }
     [:octicons-info-16:](https://gitlab.torproject.org/tpo/anti-censorship/pluggable-transports/snowflake/-/wikis/Technical%20Overview){ .card-link title=Documentation}
-    [:octicons-code-16:](https://gitweb.torproject.org/pluggable-transports/snowflake.git/){ .card-link title="Source Code" }
+    [:octicons-code-16:](https://gitlab.torproject.org/tpo/anti-censorship/pluggable-transports/snowflake){ .card-link title="Source Code" }
     [:octicons-heart-16:](https://donate.torproject.org/){ .card-link title=Contribute }
 
 You can enable Snowflake in your browser by opening it in another tab and turning the switch on. You can leave it running in the background while you browse to contribute your connection. We don't recommend installing Snowflake as a browser extension; adding third-party extensions can increase your attack surface.

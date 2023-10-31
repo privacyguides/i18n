@@ -27,11 +27,11 @@ schema:
 
 Сеть **Tor** - это группа серверов, управляемых волонтёрами, которая позволяет тебе бесплатно подключаться к сети и повышать уровень конфиденциальности и безопасности в интернете. Частные лица и организации также могут делиться информацией через сеть Tor с помощью "скрытых сервисов .onion" без ущерба для своей конфиденциальности. Поскольку трафик Tor сложно заблокировать и отследить, Tor является эффективным инструментом обхода цензуры.
 
-[:octicons-home-16:](https://www.torproject.org){ .card-link title=Домашняя страница }
-[:simple-torbrowser:](http://2gzyxa5ihm7nsggfxnu52rck2vv4rvmdlkiu3zzui5du4xyclen53wid.onion){ .card-link title="Onion Ресурс" }
-[:octicons-info-16:](https://tb-manual.torproject.org/){ .card-link title=Документация }
-[:octicons-code-16:](https://gitweb.torproject.org/tor.git){ .card-link title="Исходный код" }
-[:octicons-heart-16:](https://donate.torproject.org/){ .card-link title=Пожертвовать}
+[:octicons-home-16:](https://www.torproject.org){ .card-link title=Homepage }
+[:simple-torbrowser:](http://2gzyxa5ihm7nsggfxnu52rck2vv4rvmdlkiu3zzui5du4xyclen53wid.onion){ .card-link title="Onion Service" }
+[:octicons-info-16:](https://tb-manual.torproject.org/){ .card-link title=Documentation}
+[:octicons-code-16:](https://gitlab.torproject.org/tpo/core/tor){ .card-link title="Source Code" }
+[:octicons-heart-16:](https://donate.torproject.org/){ .card-link title=Contribute }
 
 Tor работает, направляя твой трафик через эти серверы, управляемые волонтёрами, вместо прямого соединения с сайтом, который ты пытаешься посетить. Это скрывает, откуда идет трафик, и ни один сервер на пути соединения не может увидеть полный путь того, откуда и куда идет трафик, то есть даже серверы, которые ты используешь для подключения, не могут нарушить твою анонимность.
 
@@ -49,11 +49,11 @@ Tor работает, направляя твой трафик через эти
     
     **Tor Browser** - это выбор, если тебе нужна анонимность, поскольку он предоставляет доступ к сети Tor и мостам, а также включает в себя настройки и расширения, которые автоматически конфигурируются по выбранным уровням безопасности: *Обычный*, *Высокий* и *Высший*.
     
-    [:octicons-home-16: Домашняя страница](https://www.torproject.org/ru/){ .md-button .md-button--primary }
-    [:simple-torbrowser:](http://2gzyxa5ihm7nsggfxnu52rck2vv4rvmdlkiu3zzui5du4xyclen53wid.onion){ .card-link title="Onion ресурс" }
-    [:octicons-info-16:](https://tb-manual.torproject.org/ru/){ .card-link title=Документация }
-    [:octicons-code-16:](https://gitweb.torproject.org/tor-browser.git/){ .card-link title="Исходный код" }
-    [:octicons-heart-16:](https://donate.torproject.org/){ .card-link title=Пожертвовать }
+    [:octicons-home-16: Homepage](https://www.torproject.org){ .md-button .md-button--primary }
+    [:simple-torbrowser:](http://2gzyxa5ihm7nsggfxnu52rck2vv4rvmdlkiu3zzui5du4xyclen53wid.onion){ .card-link title="Onion Service" }
+    [:octicons-info-16:](https://tb-manual.torproject.org/){ .card-link title=Documentation }
+    [:octicons-code-16:](https://gitlab.torproject.org/tpo/applications/tor-browser){ .card-link title="Source Code" }
+    [:octicons-heart-16:](https://donate.torproject.org/){ .card-link title=Contribute }
     
     ??? downloads "Скачать"
     
@@ -130,10 +130,10 @@ Tor работает, направляя твой трафик через эти
     
     Люди, подвергающиеся цензуре, могут использовать прокси Snowflake для подключения к сети Tor. Snowflake - это отличный способ внести свой вклад в работу сети Tor, даже если у вас нет технических знаний для запуска ретранслятора или моста Tor.
     
-    [:octicons-home-16: Домашняя страница](https://snowflake.torproject.org/){ .md-button .md-button--primary }
-    [:octicons-info-16:](https://gitlab.torproject.org/tpo/anti-censorship/pluggable-transports/snowflake/-/wikis/Technical%20Overview){ .card-link title=Документация}
-    [:octicons-code-16:](https://gitweb.torproject.org/pluggable-transports/snowflake.git/){ .card-link title="Исходный код" }
-    [:octicons-heart-16:](https://donate.torproject.org/){ .card-link title=Поддержать }
+    [:octicons-home-16: Homepage](https://snowflake.torproject.org/){ .md-button .md-button--primary }
+    [:octicons-info-16:](https://gitlab.torproject.org/tpo/anti-censorship/pluggable-transports/snowflake/-/wikis/Technical%20Overview){ .card-link title=Documentation}
+    [:octicons-code-16:](https://gitlab.torproject.org/tpo/anti-censorship/pluggable-transports/snowflake){ .card-link title="Source Code" }
+    [:octicons-heart-16:](https://donate.torproject.org/){ .card-link title=Contribute }
 
 Вы можете включить Snowflake в своем браузере, открыв его в другой вкладке и включив переключатель. Вы можете оставить его работать в фоновом режиме во время просмотра веб-страниц, чтобы способствовать подключению. Мы не рекомендуем устанавливать Snowflake в качестве расширения браузера; добавление сторонних расширений может увеличить площадь атаки.
 

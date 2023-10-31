@@ -30,7 +30,7 @@ A rede **Tor** é um grupo de servidores operados por voluntários que permite q
 [:octicons-home-16:](https://www.torproject.org){ .card-link title=Homepage }
 [:simple-torbrowser:](http://2gzyxa5ihm7nsggfxnu52rck2vv4rvmdlkiu3zzui5du4xyclen53wid.onion){ .card-link title="Onion Service" }
 [:octicons-info-16:](https://tb-manual.torproject.org/){ .card-link title=Documentation}
-[:octicons-code-16:](https://gitweb.torproject.org/tor.git){ .card-link title="Source Code" }
+[:octicons-code-16:](https://gitlab.torproject.org/tpo/core/tor){ .card-link title="Source Code" }
 [:octicons-heart-16:](https://donate.torproject.org/){ .card-link title=Contribute }
 
 O Tor funciona roteando seu tráfego de internet através desses servidores operados por voluntários, em vez de fazer uma conexão direta com o site que você está tentando visitar. Isto esconde de onde vem o tráfego, e nenhum servidor no caminho de conexão consegue ver toda a trajetória de onde o tráfego vem e para onde vai, isto significa que mesmo os servidores que você está usando para conectar não podem quebrar seu anonimato.
@@ -52,7 +52,7 @@ Existem várias maneiras de se conectar à rede Tor a partir do seu dispositivo,
     [:octicons-home-16: Homepage](https://www.torproject.org){ .md-button .md-button--primary }
     [:simple-torbrowser:](http://2gzyxa5ihm7nsggfxnu52rck2vv4rvmdlkiu3zzui5du4xyclen53wid.onion){ .card-link title="Onion Service" }
     [:octicons-info-16:](https://tb-manual.torproject.org/){ .card-link title=Documentation }
-    [:octicons-code-16:](https://gitweb.torproject.org/tor-browser.git/){ .card-link title="Source Code" }
+    [:octicons-code-16:](https://gitlab.torproject.org/tpo/applications/tor-browser){ .card-link title="Source Code" }
     [:octicons-heart-16:](https://donate.torproject.org/){ .card-link title=Contribute }
     
     ??? downloads
@@ -138,7 +138,7 @@ Antes, recomendávamos habilitar a opção *"Isolar os endereços de destino"* (
     
     [:octicons-home-16: Homepage](https://snowflake.torproject.org/){ .md-button .md-button--primary }
     [:octicons-info-16:](https://gitlab.torproject.org/tpo/anti-censorship/pluggable-transports/snowflake/-/wikis/Technical%20Overview){ .card-link title=Documentation}
-    [:octicons-code-16:](https://gitweb.torproject.org/pluggable-transports/snowflake.git/){ .card-link title="Source Code" }
+    [:octicons-code-16:](https://gitlab.torproject.org/tpo/anti-censorship/pluggable-transports/snowflake){ .card-link title="Source Code" }
     [:octicons-heart-16:](https://donate.torproject.org/){ .card-link title=Contribute }
 
 You can enable Snowflake in your browser by opening it in another tab and turning the switch on. You can leave it running in the background while you browse to contribute your connection. We don't recommend installing Snowflake as a browser extension; adding third-party extensions can increase your attack surface.

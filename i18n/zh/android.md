@@ -335,8 +335,9 @@ The Google Play Store requires a Google account to login which is not great for 
     
     * *Aurora Store* *是Google Play Store客户端，无需Google帐户、Google Play服务或microG即可下载应用程序。
     
-    [:octicons-home-16: 主页](https://auroraoss.com/){ .md-button .md-button--primary }
-    [:octicons-code-16:](https://gitlab.com/AuroraOSS/AuroraStore){ .card-link title="源代码" }
+    [:octicons-home-16: Homepage](https://auroraoss.com/){ .md-button .md-button--primary }
+    [:octicons-eye-16:](https://gitlab.com/AuroraOSS/AuroraStore/-/blob/master/POLICY.md){ .card-link title="Privacy Policy" }
+    [:octicons-code-16:](https://gitlab.com/AuroraOSS/AuroraStore){ .card-link title="Source Code" }
     
     ??? 下载
     

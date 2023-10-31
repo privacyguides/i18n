@@ -337,8 +337,9 @@ Obtainium can also be used to download apps from F-Droid repositories, and may s
     
     **Aurora Store** - это клиент Google Play Store, которому для загрузки приложений не требуется учетная запись Google, службы Google Play Services или microG.
     
-    [:octicons-home-16: Домашняя страница](https://auroraoss.com/){ .md-button .md-button--primary }
-    [:octicons-code-16:](https://gitlab.com/AuroraOSS/AuroraStore){ .card-link title="Исходный код" }
+    [:octicons-home-16: Homepage](https://auroraoss.com/){ .md-button .md-button--primary }
+    [:octicons-eye-16:](https://gitlab.com/AuroraOSS/AuroraStore/-/blob/master/POLICY.md){ .card-link title="Privacy Policy" }
+    [:octicons-code-16:](https://gitlab.com/AuroraOSS/AuroraStore){ .card-link title="Source Code" }
     
     ??? downloads "Скачать"
     

@@ -35,9 +35,9 @@ Un [agrégateur d'actualités](https://en.wikipedia.org/wiki/News_aggregator) es
     
     **Feeder** est un client RSS moderne pour Android qui possède de nombreuses [fonctionnalités](https://gitlab.com/spacecowboy/Feeder#features) et fonctionne bien avec des dossiers de flux RSS. Il prend en charge [RSS](https://fr.wikipedia.org/wiki/RSS), [Atom](https://fr.wikipedia.org/wiki/Atom_Syndication_Format), [RDF](https://fr.wikipedia.org/wiki/RDF/XML) et [JSON Feed](https://en.wikipedia.org/wiki/JSON_Feed).
     
-    [:octicons-repo-16: Dépôt](https://gitlab.com/spacecowboy/Feeder){ .md-button .md-button--primary }
-    [:octicons-code-16:](https://github.com/spacecowboy/Feeder){ .card-link title="Code source" }
-    [:octicons-heart-16:](https://ko-fi.com/spacecowboy){ .card-link title=Contribuer }
+    [:octicons-repo-16: Repository](https://github.com/spacecowboy/Feeder){ .md-button .md-button--primary }
+    [:octicons-code-16:](https://github.com/spacecowboy/Feeder){ .card-link title="Source Code" }
+    [:octicons-heart-16:](https://ko-fi.com/spacecowboy){ .card-link title=Contribute }
     
     ??? downloads "Téléchargements"
     

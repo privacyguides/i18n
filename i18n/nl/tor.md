@@ -29,7 +29,9 @@ Het **Tor** netwerk is een groep servers beheerd door vrijwilligers waarmee je g
 
 [:octicons-home-16:](https://www.torproject.org){ .card-link title=Homepage }
 [:simple-torbrowser:](http://2gzyxa5ihm7nsggfxnu52rck2vv4rvmdlkiu3zzui5du4xyclen53wid.onion){ .card-link title="Onion Service" }
-[:octicons-info-16:](https://tb-manual.torproject.org/){ [:octicons-code-16:](https://gitweb.torproject.org/tor.git){ .card-link title="Broncode" } } [:octicons-heart-16:](https://donate.torproject.org/){ .card-link title=Bijdragen }
+[:octicons-info-16:](https://tb-manual.torproject.org/){ .card-link title=Documentation}
+[:octicons-code-16:](https://gitlab.torproject.org/tpo/core/tor){ .card-link title="Source Code" }
+[:octicons-heart-16:](https://donate.torproject.org/){ .card-link title=Contribute }
 
 Tor werkt door je internetverkeer om te leiden via deze door vrijwilligers beheerde servers, in plaats van een directe verbinding te maken met de site die je probeert te bezoeken. Dit versluiert waar het verkeer vandaan komt, en geen enkele server in het verbindingspad kan het volledige pad zien van waar het verkeer vandaan komt en naartoe gaat, wat betekent dat zelfs de servers die je gebruikt om verbinding te maken jouw anonimiteit niet kunnen doorbreken.
 
@@ -49,9 +51,9 @@ Er zijn verschillende manieren om verbinding te maken met het Tor-netwerk vanaf 
     
     [:octicons-home-16: Homepage](https://www.torproject.org){ .md-button .md-button--primary }
     [:simple-torbrowser:](http://2gzyxa5ihm7nsggfxnu52rck2vv4rvmdlkiu3zzui5du4xyclen53wid.onion){ .card-link title="Onion Service" }
-    [:octicons-info-16:](https://tb-manual.torproject.org/){ .card-link title=Documentatie }
-    [:octicons-code-16:](https://gitweb.torproject.org/tor-browser.git/){ .card-link title="Broncode" }
-    [:octicons-heart-16:](https://donate.torproject.org/){ .card-link title=Bijdragen }
+    [:octicons-info-16:](https://tb-manual.torproject.org/){ .card-link title=Documentation }
+    [:octicons-code-16:](https://gitlab.torproject.org/tpo/applications/tor-browser){ .card-link title="Source Code" }
+    [:octicons-heart-16:](https://donate.torproject.org/){ .card-link title=Contribute }
     
     ??? downloads
     
@@ -130,7 +132,7 @@ Wij hebben eerder aanbevolen *Isolate Destination Address* in de Orbot instellin
     
     [:octicons-home-16: Homepage](https://snowflake.torproject.org/){ .md-button .md-button--primary }
     [:octicons-info-16:](https://gitlab.torproject.org/tpo/anti-censorship/pluggable-transports/snowflake/-/wikis/Technical%20Overview){ .card-link title=Documentation}
-    [:octicons-code-16:](https://gitweb.torproject.org/pluggable-transports/snowflake.git/){ .card-link title="Source Code" }
+    [:octicons-code-16:](https://gitlab.torproject.org/tpo/anti-censorship/pluggable-transports/snowflake){ .card-link title="Source Code" }
     [:octicons-heart-16:](https://donate.torproject.org/){ .card-link title=Contribute }
 
 Je kunt Snowflake inschakelen in je browser door deze in een ander tabblad te openen en de schakelaar aan te zetten. Je kunt het op de achtergrond laten werken tijdens het browsen om een bijdrage te leveren met jouw verbinding. We raden het installeren van Snowflake niet aan als een browserextensie; het toevoegen van extensies van derden kan je aanvalsoppervlak vergroten.

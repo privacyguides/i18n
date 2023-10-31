@@ -337,8 +337,9 @@ Google Play 스토어는 Google 계정 로그인이 필수적이기 때문에 �
     
     **Aurora Store**는 Google 계정, Google Play 서비스, microG 없이 앱을 다운로드할 수 있는 Google Play 스토어 클라이언트입니다.
     
-    [:octicons-home-16: 홈페이지](https://auroraoss.com/){ .md-button .md-button--primary }
-    [:octicons-code-16:](https://gitlab.com/AuroraOSS/AuroraStore){ .card-link title="소스 코드" }
+    [:octicons-home-16: Homepage](https://auroraoss.com/){ .md-button .md-button--primary }
+    [:octicons-eye-16:](https://gitlab.com/AuroraOSS/AuroraStore/-/blob/master/POLICY.md){ .card-link title="Privacy Policy" }
+    [:octicons-code-16:](https://gitlab.com/AuroraOSS/AuroraStore){ .card-link title="Source Code" }
     
     ??? downloads
     

@@ -27,11 +27,11 @@ schema:
 
 شبكة **تور** هي خوادم يديرها متطوِّعون تتيح لك الاتصال بها مجَّانًا وتحسِّن خصوصيتك وأمنك في الإنترنت. ويمكن للأفراد والمؤسسات مشاركة المعلومات عبرها باستخدام «خدمات .onion الخفية»، وذلك دون نهك خصوصيتهم. فكون اتصالات تور صعبة الحظر والتتبع يجعل تور أداةً فعَّالةً لتجاوز الرقابة.
 
-[:octicons-home-16:](https://www.torproject.org){ .card-link title=الصفحة الرئيسة }
-[:simple-torbrowser:](http://2gzyxa5ihm7nsggfxnu52rck2vv4rvmdlkiu3zzui5du4xyclen53wid.onion){ .card-link title="خدمة أَنيِن" }
-[:octicons-info-16:](https://tb-manual.torproject.org/){ .card-link title=التوثيق}
-[:octicons-code-16:](https://gitweb.torproject.org/tor.git){ .card-link title="رمز المصدر" }
-[:octicons-heart-16:](https://donate.torproject.org/){ .card-link title=ساهم }
+[:octicons-home-16:](https://www.torproject.org){ .card-link title=Homepage }
+[:simple-torbrowser:](http://2gzyxa5ihm7nsggfxnu52rck2vv4rvmdlkiu3zzui5du4xyclen53wid.onion){ .card-link title="Onion Service" }
+[:octicons-info-16:](https://tb-manual.torproject.org/){ .card-link title=Documentation}
+[:octicons-code-16:](https://gitlab.torproject.org/tpo/core/tor){ .card-link title="Source Code" }
+[:octicons-heart-16:](https://donate.torproject.org/){ .card-link title=Contribute }
 
 يعمل تور عن طريق توجيه اتصالاتك عبر خوادم المتطوِّعين، وذلك بدلًا من الاتصال بالموقع الذي تريد مباشرةً. يلبِّس هذا أصل الاتصال، وليس بوسع أي خادم في سبيل الاتصال رؤيته من بدايته لمقصده، مما يعني أن حتى الخوادم المستخدمة للاتصال لا تنتهك مجهوليتك.
 
@@ -49,11 +49,11 @@ schema:
     
     **متصفِّح تور** خير خيار إن أردت المجهولية، فهو يمكِّنك من الاتصال بشبكة تور وجسورها، وفيه إعدادات مبدئية تُضبط حسب مستوى الأمن: *قياسي* و*أأمن* و*أشدُّ أمن*.
     
-    [:octicons-home-16: الصفحة الرئيسة](https://www.torproject.org){ .md-button .md-button--primary }
-    [:simple-torbrowser:](http://2gzyxa5ihm7nsggfxnu52rck2vv4rvmdlkiu3zzui5du4xyclen53wid.onion){ .card-link title="خدمة أَنيِن" }
-    [:octicons-info-16:](https://tb-manual.torproject.org/){ .card-link title=التوثيق }
-    [:octicons-code-16:](https://gitweb.torproject.org/tor-browser.git/){ .card-link title="رمز المصدر" }
-    [:octicons-heart-16:](https://donate.torproject.org/){ .card-link title=ساهم }
+    [:octicons-home-16: Homepage](https://www.torproject.org){ .md-button .md-button--primary }
+    [:simple-torbrowser:](http://2gzyxa5ihm7nsggfxnu52rck2vv4rvmdlkiu3zzui5du4xyclen53wid.onion){ .card-link title="Onion Service" }
+    [:octicons-info-16:](https://tb-manual.torproject.org/){ .card-link title=Documentation }
+    [:octicons-code-16:](https://gitlab.torproject.org/tpo/applications/tor-browser){ .card-link title="Source Code" }
+    [:octicons-heart-16:](https://donate.torproject.org/){ .card-link title=Contribute }
     
     ??? downloads
     
@@ -132,7 +132,7 @@ We previously recommended enabling the *Isolate Destination Address* preference 
     
     [:octicons-home-16: Homepage](https://snowflake.torproject.org/){ .md-button .md-button--primary }
     [:octicons-info-16:](https://gitlab.torproject.org/tpo/anti-censorship/pluggable-transports/snowflake/-/wikis/Technical%20Overview){ .card-link title=Documentation}
-    [:octicons-code-16:](https://gitweb.torproject.org/pluggable-transports/snowflake.git/){ .card-link title="Source Code" }
+    [:octicons-code-16:](https://gitlab.torproject.org/tpo/anti-censorship/pluggable-transports/snowflake){ .card-link title="Source Code" }
     [:octicons-heart-16:](https://donate.torproject.org/){ .card-link title=Contribute }
 
 You can enable Snowflake in your browser by opening it in another tab and turning the switch on. You can leave it running in the background while you browse to contribute your connection. We don't recommend installing Snowflake as a browser extension; adding third-party extensions can increase your attack surface.

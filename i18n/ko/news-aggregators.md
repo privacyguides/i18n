@@ -35,7 +35,7 @@ cover: news-aggregators.webp
     
     **Feeder**는 [많은 기능](https://gitlab.com/spacecowboy/Feeder#features)을 제공하고 여러 RSS 피드와 잘 작동하는 Android용 최신 RSS 클라이언트입니다. [RSS](https://ko.wikipedia.org/wiki/RSS), [Atom](https://ko.wikipedia.org/wiki/%EC%95%84%ED%86%B0_(%ED%91%9C%EC%A4%80)), [RDF](https://en.wikipedia.org/wiki/RDF/XML), [JSON Feed](https://en.wikipedia.org/wiki/JSON_Feed)를 지원합니다.
     
-    [:octicons-repo-16: Repository](https://gitlab.com/spacecowboy/Feeder){ .md-button .md-button--primary }
+    [:octicons-repo-16: Repository](https://github.com/spacecowboy/Feeder){ .md-button .md-button--primary }
     [:octicons-code-16:](https://github.com/spacecowboy/Feeder){ .card-link title="Source Code" }
     [:octicons-heart-16:](https://ko-fi.com/spacecowboy){ .card-link title=Contribute }
     

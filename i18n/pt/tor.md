@@ -27,9 +27,11 @@ schema:
 
 A rede **Tor** é um grupo de servidores operados por voluntários que pode utilizar gratuitamente para melhorar a sua privacidade e segurança na Internet. Os indivíduos e as organizações também podem partilhar informações através da rede Tor com os serviços ocultos ".onion", sem comprometer a sua privacidade. O facto do tráfego do Tor ser difícil de bloquear e rastrear, faz dele uma ferramenta eficaz para contornar a censura.
 
-[:octicons-home-16:](https://www.torproject.org){ .card-link title=Página Inicial }
-[:simple-torbrowser:](http://2gzyxa5ihm7nsggfxnu52rck2vv4rvmdlkiu3zzui5du4xyclen53wid.onion){ .card-link title="Serviço Onion" }
-[:octicons-info-16:](https://tb-manual.torproject.org/) [:octicons-code-16:](https://gitweb.torproject.org/tor.git){ .card-link title=Documentação} { .card-link title="Código fonte" } [:octicons-heart-16:](https://donate.torproject.org/){ .card-link title=Contribuir }
+[:octicons-home-16:](https://www.torproject.org){ .card-link title=Homepage }
+[:simple-torbrowser:](http://2gzyxa5ihm7nsggfxnu52rck2vv4rvmdlkiu3zzui5du4xyclen53wid.onion){ .card-link title="Onion Service" }
+[:octicons-info-16:](https://tb-manual.torproject.org/){ .card-link title=Documentation}
+[:octicons-code-16:](https://gitlab.torproject.org/tpo/core/tor){ .card-link title="Source Code" }
+[:octicons-heart-16:](https://donate.torproject.org/){ .card-link title=Contribute }
 
 O Tor encaminha o seu tráfego de Internet através destes servidores operados por voluntários, em vez de estabelecer uma ligação direta ao site que está a tentar visitar. A origem do tráfego fica assim ofuscada e nenhum servidor ao longo do caminho da ligação pode saber o caminho completo, o que significa que mesmo os servidores que utiliza para se ligar não conseguem quebrar o seu anonimato.
 
@@ -48,11 +50,11 @@ Existem várias formas de se ligar à rede Tor a partir do seu dispositivo, send
     
     O **Browser Tor** é a escolha certa se precisar de anonimato, uma vez que lhe dá acesso à rede Tor e às sua bridges, e inclui definições por defeito e extensões que são automaticamente configuradas com níveis de segurança predefinidos: *Standard*, *Seguro* e *Máxima Segurança*.
     
-    [:octicons-home-16: Página Inicial](https://www.torproject.org){ .md-button .md-button--primary }
-    [:simple-torbrowser:](http://2gzyxa5ihm7nsggfxnu52rck2vv4rvmdlkiu3zzui5du4xyclen53wid.onion){ .card-link title="Serviço Onion" }
-    [:octicons-info-16:](https://tb-manual.torproject.org/){ .card-link title=Documentação }
-    [:octicons-code-16:](https://gitweb.torproject.org/tor-browser.git/){ .card-link title="Código fonte" }
-    [:octicons-heart-16:](https://donate.torproject.org/){ .card-link title=Contribuir }
+    [:octicons-home-16: Homepage](https://www.torproject.org){ .md-button .md-button--primary }
+    [:simple-torbrowser:](http://2gzyxa5ihm7nsggfxnu52rck2vv4rvmdlkiu3zzui5du4xyclen53wid.onion){ .card-link title="Onion Service" }
+    [:octicons-info-16:](https://tb-manual.torproject.org/){ .card-link title=Documentation }
+    [:octicons-code-16:](https://gitlab.torproject.org/tpo/applications/tor-browser){ .card-link title="Source Code" }
+    [:octicons-heart-16:](https://donate.torproject.org/){ .card-link title=Contribute }
     
     ??? downloads
     
@@ -138,10 +140,10 @@ Anteriormente, recomendamos ativar a preferência *Isolar endereço de destino* 
     
     As pessoas censuradas podem utilizar proxies Snowflake para se ligarem à rede Tor. Snowflake é uma ótima maneira de contribuir para a rede, mesmo que não tenha o conhecimento técnico para executar um retransmissor ou ponte Tor.
     
-    [:octicons-home-16: Página Inicial](https://snowflake.torproject.org/){ .md-button .md-button--primary }
-    [:octicons-info-16:](https://gitlab.torproject.org/tpo/anti-censorship/pluggable-transports/snowflake/-/wikis/Technical%20Overview){ .card-link title=Documentação}
-    [:octicons-code-16:](https://gitweb.torproject.org/pluggable-transports/snowflake.git/){ .card-link title="Código fonte" }
-    [:octicons-heart-16:](https://donate.torproject.org/){ .card-link title=Contribuir }
+    [:octicons-home-16: Homepage](https://snowflake.torproject.org/){ .md-button .md-button--primary }
+    [:octicons-info-16:](https://gitlab.torproject.org/tpo/anti-censorship/pluggable-transports/snowflake/-/wikis/Technical%20Overview){ .card-link title=Documentation}
+    [:octicons-code-16:](https://gitlab.torproject.org/tpo/anti-censorship/pluggable-transports/snowflake){ .card-link title="Source Code" }
+    [:octicons-heart-16:](https://donate.torproject.org/){ .card-link title=Contribute }
 
 Pode ativar o Snowflake no seu navegador abrindo-o noutro separador e ligando o interrutor. Pode deixá-lo a funcionar em segundo plano enquanto navega para contribuir para a sua ligação. Não recomendamos instalar o Snowflake como uma extensão do navegador; adicionar extensões de terceiros pode aumentar a sua superfície de ataque.
 

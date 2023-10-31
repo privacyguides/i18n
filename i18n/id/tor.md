@@ -27,11 +27,11 @@ schema:
 
 Jaringan **Tor** adalah sekelompok server yang dioperasikan secara sukarela yang memungkinkan Anda terhubung secara gratis dan meningkatkan privasi dan keamanan Anda di Internet. Individu dan organisasi juga dapat berbagi informasi melalui jaringan Tor dengan "layanan tersembunyi .onion" tanpa mengorbankan privasi mereka. Karena lalu lintas Tor sulit diblokir dan dilacak, Tor merupakan alat pengelabuan sensor yang efektif.
 
-[:octicons-home-16:](https://www.torproject.org){ .card-link title="Laman Beranda" }
-[:simple-torbrowser:](http://2gzyxa5ihm7nsggfxnu52rck2vv4rvmdlkiu3zzui5du4xyclen53wid.onion){ .card-link title="Layanan Onion" }
-[:octicons-info-16:](https://tb-manual.torproject.org/){ .card-link title=Dokumentasi}
-[:octicons-code-16:](https://gitweb.torproject.org/tor.git){ .card-link title="Kode Sumber" }
-[:octicons-heart-16:](https://donate.torproject.org/){ .card-link title=Berkontribusi }
+[:octicons-home-16:](https://www.torproject.org){ .card-link title=Homepage }
+[:simple-torbrowser:](http://2gzyxa5ihm7nsggfxnu52rck2vv4rvmdlkiu3zzui5du4xyclen53wid.onion){ .card-link title="Onion Service" }
+[:octicons-info-16:](https://tb-manual.torproject.org/){ .card-link title=Documentation}
+[:octicons-code-16:](https://gitlab.torproject.org/tpo/core/tor){ .card-link title="Source Code" }
+[:octicons-heart-16:](https://donate.torproject.org/){ .card-link title=Contribute }
 
 Tor bekerja dengan merutekan lalu lintas internet Anda melalui server yang dioperasikan secara sukarela, daripada membuat koneksi langsung ke situs yang Anda coba kunjungi. Hal ini mengaburkan dari mana lalu lintas berasal, dan tidak ada server di jalur koneksi yang dapat melihat jalur penuh dari mana lalu lintas berasal dan pergi, yang berarti bahkan server yang Anda gunakan untuk terhubung tidak dapat merusak anonimitas Anda.
 
@@ -49,11 +49,11 @@ Ada berbagai cara untuk terhubung ke jaringan Tor dari perangkat Anda, yang pali
     
     **Tor Browser** adalah pilihan jika Anda membutuhkan anonimitas, dengan menyediakan akses ke jaringan dan jembatan Tor, dan termasuk pengaturan dan ekstensi bawaan yang secara otomatis dikonfigurasikan oleh tingkat keamanan bawaan: *Standar*, *Lebih Aman* dan *Paling Aman*.
     
-    [:octicons-home-16: Beranda](https://www.torproject.org){ .md-button .md-button--primary }
-    [:simple-torbrowser:](http://2gzyxa5ihm7nsggfxnu52rck2vv4rvmdlkiu3zzui5du4xyclen53wid.onion){ .card-link title="Layanan Onion" }
-    [:octicons-info-16:](https://tb-manual.torproject.org/){ .card-link title=Dokumentasi }
-    [:octicons-code-16:](https://gitweb.torproject.org/tor-browser.git/){ .card-link title="Kode Sumber" }
-    [:octicons-heart-16:](https://donate.torproject.org/){ .card-link title=Berkontribusi }
+    [:octicons-home-16: Homepage](https://www.torproject.org){ .md-button .md-button--primary }
+    [:simple-torbrowser:](http://2gzyxa5ihm7nsggfxnu52rck2vv4rvmdlkiu3zzui5du4xyclen53wid.onion){ .card-link title="Onion Service" }
+    [:octicons-info-16:](https://tb-manual.torproject.org/){ .card-link title=Documentation }
+    [:octicons-code-16:](https://gitlab.torproject.org/tpo/applications/tor-browser){ .card-link title="Source Code" }
+    [:octicons-heart-16:](https://donate.torproject.org/){ .card-link title=Contribute }
     
     ??? unduhan
     
@@ -130,10 +130,10 @@ Kami sebelumnya merekomendasikan untuk mengaktifkan preferensi *Isolasi Alamat T
     
     Orang-orang yang disensor bisa menggunakan proksi Snowflake untuk menyambung ke jaringan Tor. Snowflake adalah cara yang bagus untuk berkontribusi pada jaringan bahkan jika Anda tidak memiliki pengetahuan teknis untuk menjalankan relai atau jembatan Tor.
     
-    [:octicons-home-16: Beranda](https://snowflake.torproject.org/){ .md-button .md-button--primary }
-    [:octicons-info-16:](https://gitlab.torproject.org/tpo/anti-censorship/pluggable-transports/snowflake/-/wikis/Technical%20Overview){ .card-link title=Dokumentasi}
-    [:octicons-code-16:](https://gitweb.torproject.org/pluggable-transports/snowflake.git/){ .card-link title="Kode Sumber" }
-    [:octicons-heart-16:](https://donate.torproject.org/){ .card-link title=Berkontribusi }
+    [:octicons-home-16: Homepage](https://snowflake.torproject.org/){ .md-button .md-button--primary }
+    [:octicons-info-16:](https://gitlab.torproject.org/tpo/anti-censorship/pluggable-transports/snowflake/-/wikis/Technical%20Overview){ .card-link title=Documentation}
+    [:octicons-code-16:](https://gitlab.torproject.org/tpo/anti-censorship/pluggable-transports/snowflake){ .card-link title="Source Code" }
+    [:octicons-heart-16:](https://donate.torproject.org/){ .card-link title=Contribute }
 
 Anda dapat mengaktifkan Snowflake di peramban Anda dengan membukanya di tab lain dan mengaktifkan tombolnya. Anda dapat membiarkannya berjalan di latar belakang saat Anda menjelajah untuk menyumbangkan koneksi Anda. Kami tidak menyarankan untuk memasang Snowflake sebagai ekstensi peramban; menambahkan ekstensi pihak ketiga dapat meningkatkan permukaan serangan Anda.
 

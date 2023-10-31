@@ -35,7 +35,7 @@ cover: news-aggregators.webp
     
     **Feeder** הוא קליינט RSS מודרני עבור אנדרואיד שיש לו רבים [features](https://gitlab.com/spacecowboy/Feeder#features) ועובד היטב עם תיקיות של הזנות RSS. הוא תומך ב [RSS](https://en.wikipedia.org/wiki/RSS), [Atom](https://en.wikipedia.org/wiki/Atom_(Web_standard)), [RDF](https://en.wikipedia.org/wiki/RDF%2FXML) and [JSON Feed](https://en.wikipedia.org/wiki/JSON_Feed).
     
-    [:octicons-repo-16: Repository](https://gitlab.com/spacecowboy/Feeder){ .md-button .md-button--primary }
+    [:octicons-repo-16: Repository](https://github.com/spacecowboy/Feeder){ .md-button .md-button--primary }
     [:octicons-code-16:](https://github.com/spacecowboy/Feeder){ .card-link title="Source Code" }
     [:octicons-heart-16:](https://ko-fi.com/spacecowboy){ .card-link title=Contribute }
     

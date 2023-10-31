@@ -35,7 +35,7 @@ cover: news-aggregators.webp
     
     **Feeder** - это современный RSS-клиент для Android, который имеет множество [функций](https://gitlab.com/spacecowboy/Feeder#features) и хорошо работает с группами RSS-лент. Он поддерживает [RSS](https://ru.wikipedia.org/wiki/RSS), [Atom](https://ru.wikipedia.org/wiki/Atom), [RDF](https://ru.wikipedia.org/wiki/RDF/XML) и [JSON Feed](https://ru.wikipedia.org/wiki/JSON_feed).
     
-    [:octicons-repo-16: Repository](https://gitlab.com/spacecowboy/Feeder){ .md-button .md-button--primary }
+    [:octicons-repo-16: Repository](https://github.com/spacecowboy/Feeder){ .md-button .md-button--primary }
     [:octicons-code-16:](https://github.com/spacecowboy/Feeder){ .card-link title="Source Code" }
     [:octicons-heart-16:](https://ko-fi.com/spacecowboy){ .card-link title=Contribute }
     

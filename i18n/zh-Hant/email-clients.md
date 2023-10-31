@@ -146,13 +146,13 @@ Canary Mail 源碼為封閉式。 我們推薦它，因為 iOS 電子郵件客�
     [:octicons-home-16: Homepage](https://k9mail.app){ .md-button .md-button--primary }
     [:octicons-eye-16:](https://k9mail.app/privacy){ .card-link title="Privacy Policy" }
     [:octicons-info-16:](https://docs.k9mail.app/){ .card-link title=Documentation}
-    [:octicons-code-16:](https://github.com/k9mail/k-9){ .card-link title="Source Code" }
+    [:octicons-code-16:](https://github.com/thundernest/k-9){ .card-link title="Source Code" }
     [:octicons-heart-16:](https://k9mail.app/contribute){ .card-link title=Contribute }
     
-    ??? downloads "下載"
+    ??? downloads
     
         - [:simple-googleplay: Google Play](https://play.google.com/store/apps/details?id=com.fsck.k9)
-        - [:simple-github: GitHub](https://github.com/k9mail/k-9/releases)
+        - [:simple-github: GitHub](https://github.com/thundernest/k-9/releases)
 
 !!! warning "警告"
 

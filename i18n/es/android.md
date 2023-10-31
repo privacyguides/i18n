@@ -336,8 +336,9 @@ La tienda de Google Play requiere una cuenta de Google para iniciar sesión, lo 
     
     **Aurora Store** es un cliente de Google Play Store que no requiere de una cuenta de Google, Servicios Google Play, o microG para descargar aplicaciones.
     
-    [:octicons-home-16: Página del proyecto](https://auroraoss.com/){ .md-button .md-button--primary }
-    [:octicons-code-16:](https://gitlab.com/AuroraOSS/AuroraStore){ .card-link title="Código fuente" }
+    [:octicons-home-16: Homepage](https://auroraoss.com/){ .md-button .md-button--primary }
+    [:octicons-eye-16:](https://gitlab.com/AuroraOSS/AuroraStore/-/blob/master/POLICY.md){ .card-link title="Privacy Policy" }
+    [:octicons-code-16:](https://gitlab.com/AuroraOSS/AuroraStore){ .card-link title="Source Code" }
     
     ??? downloads "Descargas"
     
