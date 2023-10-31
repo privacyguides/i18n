@@ -143,13 +143,13 @@ Canary Mail es de código cerrado. Lo recomendamos debido a las pocas opciones q
     
     En el futuro, K-9 Mail será el cliente [de marca oficial](https://k9mail.app/2022/06/13/K-9-Mail-and-Thunderbird.html) Thunderbird para Android.
     
-    [:octicons-home-16: Homepage](https://k9mail.app){ .md-button .md-button--primary }
-    [:octicons-eye-16:](https://k9mail.app/privacy){ .card-link title="Privacy Policy" }
-    [:octicons-info-16:](https://docs.k9mail.app/){ .card-link title=Documentation}
-    [:octicons-code-16:](https://github.com/thundernest/k-9){ .card-link title="Source Code" }
-    [:octicons-heart-16:](https://k9mail.app/contribute){ .card-link title=Contribute }
+    [:octicons-home-16: Página Principal](https://k9mail.app){ .md-button .md-button--primary }
+    [:octicons-eye-16:](https://k9mail.app/privacy){ .card-link title="Política de Privacidad" }
+    [:octicons-info-16:](https://docs.k9mail.app/){ .card-link title=Documentación}
+    [:octicons-code-16:](https://github.com/thundernest/k-9){ .card-link title="Código Fuente" }
+    [:octicons-heart-16:](https://k9mail.app/contribute){ .card-link title=Contribuir }
     
-    ??? downloads
+    ??? downloads "Descargas"
     
         - [:simple-googleplay: Google Play](https://play.google.com/store/apps/details?id=com.fsck.k9)
         - [:simple-github: GitHub](https://github.com/thundernest/k-9/releases)
