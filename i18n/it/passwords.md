@@ -147,15 +147,15 @@ Questi gestori di password, le sincronizzano su un server su cloud per una facil
     
     ??? downloads "Scarica"
     
-        - [:simple-googleplay: Google Play](https://play.google.com/store/apps/details?id=com.x8bit.bitwarden)
-        - [:simple-appstore: App Store](https://apps.apple.com/app/bitwarden-password-manager/id1137397744)
+        - [:simple-googleplay: Google Play](https://play.google.com/store/apps/details?id=com.x8bit.bitwarden&gl=it)
+        - [:simple-appstore: App Store](https://apps.apple.com/it/app/bitwarden/id1137397744)
         - [:simple-github: GitHub](https://github.com/bitwarden/mobile/releases)
         - [:simple-windows11: Windows](https://bitwarden.com/download)
         - [:simple-linux: Linux](https://bitwarden.com/download)
-        - [:simple-flathub: Flathub](https://flathub.org/apps/details/com.bitwarden.desktop)
-        - [:simple-firefoxbrowser: Firefox](https://addons.mozilla.org/firefox/addon/bitwarden-password-manager)
+        - [:simple-flathub: Flathub](https://flathub.org/it/apps/com.bitwarden.desktop)
+        - [:simple-firefoxbrowser: Firefox](https://addons.mozilla.org/it/firefox/addon/bitwarden-password-manager/)
         - [:simple-googlechrome: Chrome](https://chrome.google.com/webstore/detail/bitwarden-free-password-m/nngceckbapebfimnlniiiahkandclblb)
-        - [:simple-microsoftedge: Edge](https://microsoftedge.microsoft.com/addons/detail/jbkfoedolllekgbhcbcoahefnbanhhlh)
+        - [:simple-microsoftedge: Edge](https://microsoftedge.microsoft.com/addons/detail/bitwarden-gestore-di-pa/jbkfoedolllekgbhcbcoahefnbanhhlh)
 
 Inoltre, Bitwarden dispone di [Bitwarden Send](https://bitwarden.com/products/send/), che ti consente di condividere testi e file in sicurezza, con la [crittografia end-to-end](https://bitwarden.com/help/send-encryption). Una [password](https://bitwarden.com/help/send-privacy/#send-passwords) può essere richiesta insieme al link di invio. Bitwarden Send dispone inoltre di funzionalità di [cancellazione automatica](https://bitwarden.com/help/send-lifespan).
 

@@ -25,7 +25,7 @@ Un [aggregatore di notizie](https://en.wikipedia.org/wiki/News_aggregator) conse
     
     ??? downloads "Scarica"
     
-        - [:simple-flathub: Flathub](https://flathub.org/apps/details/org.kde.akregator)
+        - [:simple-flathub: Flathub](https://flathub.org/it/apps/org.kde.akregator)
 
 ### Feeder
 
@@ -60,7 +60,7 @@ Un [aggregatore di notizie](https://en.wikipedia.org/wiki/News_aggregator) conse
     ??? downloads "Scarica"
     
         - [:simple-windows11: Windows](https://hyliu.me/fluent-reader)
-        - [:simple-appstore: App Store](https://apps.apple.com/app/id1520907427)
+        - [:simple-appstore: App Store](https://apps.apple.com/it/app/fluent-reader/id1520907427)
 
 ### GNOME Feeds
 
@@ -108,7 +108,7 @@ Un [aggregatore di notizie](https://en.wikipedia.org/wiki/News_aggregator) conse
     
     ??? downloads "Scarica"
     
-        - [:simple-appstore: App Store](https://apps.apple.com/us/app/netnewswire-rss-reader/id1480640210)
+        - [:simple-appstore: App Store](https://apps.apple.com/it/app/netnewswire-rss-reader/id1480640210)
         - [:simple-apple: macOS](https://netnewswire.com)
 
 ### Newsboat

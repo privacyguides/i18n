@@ -45,10 +45,10 @@ I nostri fornitori consigliati utilizzano la crittografia, accettano Monero, sup
     [:octicons-info-16:](https://protonvpn.com/support/){ .card-link title=Documentation}
     [:octicons-code-16:](https://github.com/ProtonVPN){ .card-link title="Source Code" }
     
-    ??? downloads
+    ??? downloads "Scarica"
     
         - [:simple-googleplay: Google Play](https://play.google.com/store/apps/details?id=ch.protonvpn.android)
-        - [:simple-appstore: App Store](https://apps.apple.com/app/apple-store/id1437005085)
+        - [:simple-appstore: App Store](https://apps.apple.com/it/app/proton-vpn-fast-secure/id1437005085)
         - [:simple-github: GitHub](https://github.com/ProtonVPN/android-app/releases)
         - [:simple-windows11: Windows](https://protonvpn.com/download-windows)
         - [:simple-linux: Linux](https://protonvpn.com/support/linux-vpn-setup/)
@@ -109,11 +109,11 @@ I client di ProtonVPN supportano l'autenticazione a due fattori su tutte le piat
     [:octicons-info-16:](https://www.ivpn.net/knowledgebase/general/){ .card-link title=Documentation}
     [:octicons-code-16:](https://github.com/ivpn){ .card-link title="Source Code" }
     
-    ??? downloads
+    ??? downloads "Scarica"
     
         - [:simple-googleplay: Google Play](https://play.google.com/store/apps/details?id=net.ivpn.client)
         - [:octicons-moon-16: Accrescent](https://accrescent.app/app/net.ivpn.client)
-        - [:simple-appstore: App Store](https://apps.apple.com/app/ivpn-serious-privacy-protection/id1193122683)
+        - [:simple-appstore: App Store](https://apps.apple.com/it/app/ivpn-secure-vpn-for-privacy/id1193122683)
         - [:simple-windows11: Windows](https://www.ivpn.net/apps-windows/)
         - [:simple-apple: macOS](https://www.ivpn.net/apps-macos/)
         - [:simple-linux: Linux](https://www.ivpn.net/apps-linux/)
@@ -171,14 +171,14 @@ I client IVPN supportano l'autenticazione a due fattori (i client Mullvad no). I
     [:octicons-info-16:](https://mullvad.net/en/help/){ .card-link title=Documentation}
     [:octicons-code-16:](https://github.com/mullvad){ .card-link title="Source Code" }
     
-    ??? downloads
+    ??? downloads "Scarica"
     
         - [:simple-googleplay: Google Play](https://play.google.com/store/apps/details?id=net.mullvad.mullvadvpn)
-        - [:simple-appstore: App Store](https://apps.apple.com/app/mullvad-vpn/id1488466513)
+        - [:simple-appstore: App Store](https://apps.apple.com/it/app/mullvad-vpn/id1488466513)
         - [:simple-github: GitHub](https://github.com/mullvad/mullvadvpn-app/releases)
-        - [:simple-windows11: Windows](https://mullvad.net/en/download/windows/)
-        - [:simple-apple: macOS](https://mullvad.net/en/download/macos/)
-        - [:simple-linux: Linux](https://mullvad.net/en/download/linux/)
+        - [:simple-windows11: Windows](https://mullvad.net/it/download/windows/)
+        - [:simple-apple: macOS](https://mullvad.net/it/download/macos/)
+        - [:simple-linux: Linux](https://mullvad.net/it/download/vpn/linux)
 
 #### :material-check:{ .pg-green } 43 Paesi
 

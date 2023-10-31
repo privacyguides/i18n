@@ -74,7 +74,7 @@ Invece, se necessiti di navigare anonimamente su Internet, dovresti utilizzare [
     [:octicons-info-16:](https://mullvad.net/it/help/tag/mullvad-browser/){ .card-link title=Documentazione}
     [:octicons-code-16:](https://gitlab.torproject.org/tpo/applications/mullvad-browser){ .card-link title="Codice sorgente" }
     
-    ??? downloads
+    ??? downloads "Scarica"
     
         - [:simple-windows11: Windows](https://mullvad.net/it/download/browser/windows)
         - [:simple-apple: macOS](https://mullvad.net/it/download/browser/macos)
@@ -116,12 +116,12 @@ Mullvad Browser integra DuckDuckGo come [motore di ricerca](search-engines.md) p
     [:octicons-code-16:](https://hg.mozilla.org/mozilla-central){ .card-link title="Codice Sorgente" }
     [:octicons-heart-16:](https://donate.mozilla.org/it/){ .card-link title=Contribuisci }
     
-    ??? downloads
+    ??? downloads "Scarica"
     
-        - [:simple-windows11: Windows](https://www.mozilla.org/firefox/windows)
-        - [:simple-apple: macOS](https://www.mozilla.org/firefox/mac)
-        - [:simple-linux: Linux](https://www.mozilla.org/firefox/linux)
-        - [:simple-flathub: Flathub](https://flathub.org/apps/details/org.mozilla.firefox)
+        - [:simple-windows11: Windows](https://www.mozilla.org/it/firefox/windows/)
+        - [:simple-apple: macOS](https://www.mozilla.org/it/firefox/mac)
+        - [:simple-linux: Linux](https://www.mozilla.org/it/firefox/linux)
+        - [:simple-flathub: Flathub](https://flathub.org/it/apps/org.mozilla.firefox)
 
 !!! attenzione
     Firefox include un [token di download](https://bugzilla.mozilla.org/show_bug.cgi?id=1677497#c0) univoco nei scaricati dal sito web di Mozilla e utilizza la telemetria su Firefox per inviarlo. Il token **non** è incluso nelle release da [Mozilla FTP](https://ftp.mozilla.org/pub/firefox/releases/).

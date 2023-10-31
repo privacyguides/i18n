@@ -25,10 +25,10 @@ Se stai utilizzando un'applicazione come Evernote, Google Keep o Microsoft OneNo
     [:octicons-code-16:](https://github.com/standardnotes){ .card-link title="Codice Sorgente" }
     [:octicons-heart-16:](https://standardnotes.com/donate){ .card-link title=Contribuisci }
     
-    ??? downloads
+    ??? downloads "Scarica"
     
         - [:simple-googleplay: Google Play](https://play.google.com/store/apps/details?id=com.standardnotes)
-        - [:simple-appstore: App Store](https://apps.apple.com/app/id1285392450)
+        - [:simple-appstore: App Store](https://apps.apple.com/it/app/standard-notes/id1285392450)
         - [:simple-github: GitHub](https://github.com/standardnotes/app/releases)
         - [:simple-windows11: Windows](https://standardnotes.com)
         - [:simple-apple: macOS](https://standardnotes.com)
@@ -57,7 +57,7 @@ Se stai utilizzando un'applicazione come Evernote, Google Keep o Microsoft OneNo
         - [:simple-windows11: Windows](https://joplinapp.org/#desktop-applications)
         - [:simple-apple: macOS](https://joplinapp.org/#desktop-applications)
         - [:simple-linux: Linux](https://joplinapp.org/#desktop-applications)
-        - [:simple-firefoxbrowser: Firefox](https://addons.mozilla.org/firefox/addon/joplin-web-clipper/)
+        - [:simple-firefoxbrowser: Firefox](https://addons.mozilla.org/it/firefox/addon/joplin-web-clipper/)
         - [:simple-googlechrome: Chrome](https://chrome.google.com/webstore/detail/joplin-web-clipper/alofnhikmmkdbbbgpnglcpdollgjjfek)
 
 Notesnook non supporta la protezione con password/PIN sulle app web e desktop. Tuttavia, puoi comunque bloccare le singole note, e i tuoi dati sono sempre crittografati in transito e sul tuo dispositivo, utilizzando la tua chiave principale.
@@ -103,7 +103,7 @@ Joplin non supporta la protezione con password/PIN per [l'applicazione stessa o 
     [:octicons-info-16:](https://crypt.ee/help){ .card-link title=Documentazione}
     [:octicons-code-16:](https://github.com/cryptee){ .card-link title="Codice Sorgente" }
     
-    ??? downloads
+    ??? downloads "Scarica"
     
         - [:octicons-globe-16: PWA](https://crypt.ee/download)
 

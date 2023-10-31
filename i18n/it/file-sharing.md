@@ -92,11 +92,11 @@ ffsend upload --host https://send.vis.ee/ FILE
     ??? downloads "Scarica"
     
         - [:simple-googleplay: Google Play](https://play.google.com/store/apps/details?id=com.nextcloud.client)
-        - [:simple-appstore: App Store](https://apps.apple.com/app/id1125420102)
+        - [:simple-appstore: App Store](https://apps.apple.com/it/app/nextcloud/id1125420102)
         - [:simple-github: GitHub](https://github.com/nextcloud/android/releases)
-        - [:simple-windows11: Windows](https://nextcloud.com/install/#install-clients)
-        - [:simple-apple: macOS](https://nextcloud.com/install/#install-clients)
-        - [:simple-linux: Linux](https://nextcloud.com/install/#install-clients)
+        - [:simple-windows11: Windows](https://nextcloud.com/it/install/)
+        - [:simple-apple: macOS](https://nextcloud.com/it/install/)
+        - [:simple-linux: Linux](https://nextcloud.com/it/install/)
 
 !!! danger "Attenzione"
 

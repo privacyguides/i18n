@@ -113,9 +113,9 @@ Abbiamo precedentemente consiglito di abilitare la preferenza *Isola Indirizzo d
     [:octicons-code-16:](https://github.com/OnionBrowser/OnionBrowser){ .card-link title="Source Code" }
     [:octicons-heart-16:](https://onionbrowser.com/donate){ .card-link title=Contribute }
     
-    ??? downloads
+    ??? downloads "Scarica"
     
-        - [:simple-appstore: App Store](https://apps.apple.com/app/id519296448)
+        - [:simple-appstore: App Store](https://apps.apple.com/it/app/onion-browser/id519296448)
 
 ## Relay e Bridge
 
@@ -130,9 +130,9 @@ Abbiamo precedentemente consiglito di abilitare la preferenza *Isola Indirizzo d
     
     Gli individui sottoposti a censura possono utilizzare i proxy di Snowflake per connettersi alla rete di Tor. Snowflake è un ottimo modo per contribuire alla rete, anche senza le conoscenze tecniche per eseguire un relé o ponte di Tor.
     
-    [:octicons-home-16: Home page](https://snowflake.torproject.org/){ .md-button .md-button--primary }
+    [:octicons-home-16: Pagina Principale](https://snowflake.torproject.org/){ .md-button .md-button--primary }
     [:octicons-info-16:](https://gitlab.torproject.org/tpo/anti-censorship/pluggable-transports/snowflake/-/wikis/Technical%20Overview){ .card-link title=Documentazione}
-    [:octicons-code-16:](https://gitlab.torproject.org/tpo/anti-censorship/pluggable-transports/snowflake){ .card-link title="Codice sorgente" }
+    [:octicons-code-16:](https://gitlab.torproject.org/tpo/anti-censorship/pluggable-transports/snowflake){ .card-link title="Codice Sorgente" }
     [:octicons-heart-16:](https://donate.torproject.org/){ .card-link title=Contribuisci }
 
 Puoi abilitare Snowflake nel tuo browser aprendolo in un'altra scheda e attivando l'interruttore. Puoi lasciarlo in esecuzione in background mentre navighi per contribuire alla tua connessione. Sconsigliamo di installare Snowflake come un'estensione del browser; aggiungere estensioni di terze parti può incrementare la superficie di attacco.

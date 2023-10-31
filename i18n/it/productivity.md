@@ -23,14 +23,14 @@ Gran parte delle suite da ufficio non supportano l'E2EE, a significare che il fo
     [:octicons-code-16:](https://github.com/nextcloud){ .card-link title="Codice Sorgente" }
     [:octicons-heart-16:](https://nextcloud.com/contribute/){ .card-link title=Contribuisci }
     
-    ??? downloads
+    ??? downloads "Scarica"
     
         - [:simple-googleplay: Google Play](https://play.google.com/store/apps/details?id=com.nextcloud.client)
-        - [:simple-appstore: App Store](https://apps.apple.com/app/id1125420102)
+        - [:simple-appstore: App Store](https://apps.apple.com/it/app/nextcloud/id1125420102)
         - [:simple-github: GitHub](https://github.com/nextcloud/android/releases)
-        - [:simple-windows11: Windows](https://nextcloud.com/install/#install-clients)
-        - [:simple-apple: macOS](https://nextcloud.com/install/#install-clients)
-        - [:simple-linux: Linux](https://nextcloud.com/install/#install-clients)
+        - [:simple-windows11: Windows](https://nextcloud.com/it/install/)
+        - [:simple-apple: macOS](https://nextcloud.com/it/install/)
+        - [:simple-linux: Linux](https://nextcloud.com/it/install/)
 
 !!! danger "Attenzione"
 
@@ -90,14 +90,14 @@ I nostri criteri ottimali rappresentano ciò che vorremmo vedere dal progetto pe
     [:octicons-code-16:](https://it.libreoffice.org/chi-siamo/codice-sorgente/){ .card-link title="Codice Sorgente" }
     [:octicons-heart-16:](https://it.libreoffice.org/donazioni/){ .card-link title=Contribuisci }
     
-    ??? downloads
+    ??? downloads "Scarica"
     
         - [:simple-googleplay: Google Play](https://www.libreoffice.org/download/android-and-ios/)
         - [:simple-appstore: App Store](https://www.libreoffice.org/download/android-and-ios/)
-        - [:simple-windows11: Windows](https://www.libreoffice.org/download/download/)
-        - [:simple-apple: macOS](https://www.libreoffice.org/download/download/)
-        - [:simple-linux: Linux](https://www.libreoffice.org/download/download/)
-        - [:simple-flathub: Flathub](https://flathub.org/apps/details/org.libreoffice.LibreOffice)
+        - [:simple-windows11: Windows](https://it.libreoffice.org/download/download/)
+        - [:simple-apple: macOS](https://it.libreoffice.org/download/download/)
+        - [:simple-linux: Linux](https://it.libreoffice.org/download/download/)
+        - [:simple-flathub: Flathub](https://flathub.org/it/apps/org.libreoffice.LibreOffice)
 
 ### OnlyOffice
 
@@ -112,14 +112,14 @@ I nostri criteri ottimali rappresentano ciò che vorremmo vedere dal progetto pe
     [:octicons-info-16:](https://helpcenter.onlyoffice.com/userguides.aspx){ .card-link title=Documentazione}
     [:octicons-code-16:](https://github.com/ONLYOFFICE){ .card-link title="Codice Sorgente" }
     
-    ??? downloads
+    ??? downloads "Scarica"
     
         - [:simple-googleplay: Google Play](https://play.google.com/store/apps/details?id=com.onlyoffice.documents)
-        - [:simple-appstore: App Store](https://apps.apple.com/app/id944896972)
+        - [:simple-appstore: App Store](https://apps.apple.com/it/app/onlyoffice-documents/id944896972)
         - [:simple-windows11: Windows](https://www.onlyoffice.com/download-desktop.aspx)
         - [:simple-apple: macOS](https://www.onlyoffice.com/download-desktop.aspx)
         - [:simple-linux: Linux](https://www.onlyoffice.com/download-desktop.aspx)
-        - [:simple-flathub: Flathub](https://flathub.org/apps/details/org.onlyoffice.desktopeditors)
+        - [:simple-flathub: Flathub](https://flathub.org/it/apps/org.onlyoffice.desktopeditors)
 
 ### Criteri
 

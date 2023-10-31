@@ -30,7 +30,7 @@ Queste app di messaggistica sono ottime per proteggere le tue comunicazioni sens
     [:octicons-code-16:](https://github.com/signalapp){ .card-link title="Codice Sorgente" }
     [:octicons-heart-16:](https://signal.org/donate/){ .card-link title=Contribuisci }
     
-    ??? downloads
+    ??? downloads "Scarica"
     
         - [:simple-googleplay: Google Play](https://play.google.com/store/apps/details?id=org.thoughtcrime.securesms)
         - [:simple-appstore: App Store](https://apps.apple.com/app/id874139669)
@@ -87,7 +87,7 @@ SimpleX Chat supporta le funzionalità di base per le chat di gruppo, messaggi d
     [:octicons-code-16:](https://code.briarproject.org/briar/briar){ .card-link title="Codice Sorgente" }
     [:octicons-heart-16:](https://briarproject.org/){ .card-link title="Le opzioni per donare sono elencate in fondo alla pagina principale" }
     
-    ??? downloads
+    ??? downloads "Scarica"
     
         - [:simple-googleplay: Google Play](https://play.google.com/store/apps/details?id=org.briarproject.briar.android)
         - [:simple-windows11: Windows](https://briarproject.org/download-briar-desktop/)
@@ -123,10 +123,10 @@ Briar supporta la Segretezza in Avanti utilizzando l'[Handshake](https://code.br
     [:octicons-info-16:](https://element.io/help){ .card-link title=Documentazione}
     [:octicons-code-16:](https://github.com/vector-im){ .card-link title="Codice Sorgente" }
     
-    ??? downloads
+    ??? downloads "Scarica"
     
         - [:simple-googleplay: Google Play](https://play.google.com/store/apps/details?id=im.vector.app)
-        - [:simple-appstore: App Store](https://apps.apple.com/app/vector/id1083446067)
+        - [:simple-appstore: App Store](https://apps.apple.com/it/app/element-messenger/id1083446067)
         - [:simple-github: GitHub](https://github.com/vector-im/element-android/releases)
         - [:simple-windows11: Windows](https://element.io/get-started)
         - [:simple-apple: macOS](https://element.io/get-started)
@@ -156,10 +156,10 @@ Il protocollo è stato [controllato](https://matrix.org/blog/2016/11/21/matrixs-
     [:octicons-info-16:](https://getsession.org/faq){ .card-link title=Documentazione}
     [:octicons-code-16:](https://github.com/oxen-io){ .card-link title="Codice Sorgente" }
     
-    ??? downloads
+    ??? downloads "Scarica"
     
         - [:simple-googleplay: Google Play](https://play.google.com/store/apps/details?id=network.loki.messenger)
-        - [:simple-appstore: App Store](https://apps.apple.com/app/id1470168868)
+        - [:simple-appstore: App Store](https://apps.apple.com/it/app/session-private-messenger/id1470168868)
         - [:simple-github: GitHub](https://github.com/oxen-io/session-android/releases)
         - [:simple-windows11: Windows](https://getsession.org/download)
         - [:simple-apple: macOS](https://getsession.org/download)

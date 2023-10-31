@@ -31,7 +31,7 @@ Il nostro elenco di consigli contiene i client email che supportano sia [OpenPGP
     [:octicons-info-16:](https://support.mozilla.org/products/thunderbird){ .card-link title=Documentazione}
     [:octicons-code-16:](https://hg.mozilla.org/comm-central){ .card-link title="Codice Sorgente" }
     
-    ??? downloads
+    ??? downloads "Scarica"
     
         - [:simple-windows11: Windows](https://www.thunderbird.net)
         - [:simple-apple: macOS](https://www.thunderbird.net)
@@ -85,10 +85,10 @@ Apple Mail può caricare i contenuti da remoto in background o bloccarli interam
     [:octicons-eye-16:](https://canarymail.io/privacy.html){ .card-link title="Politica sulla Privacy" }
     [:octicons-info-16:](https://canarymail.zendesk.com/){ .card-link title=Documentazione}
     
-    ??? downloads
+    ??? downloads "Scarica"
     
         - [:simple-googleplay: Google Play](https://play.google.com/store/apps/details?id=io.canarymail.android)
-        - [:simple-appstore: App Store](https://apps.apple.com/app/id1236045954)
+        - [:simple-appstore: App Store](https://apps.apple.com/it/app/canary-mail-app/id1236045954)
         - [:simple-windows11: Windows](https://canarymail.io/downloads.html)
 
 !!! warning "Attenzione"
@@ -111,7 +111,7 @@ Canary Mail è closed-source. Lo consigliamo a causa di alcune scelte per i clie
     [:octicons-code-16:](https://github.com/M66B/FairEmail){ .card-link title="Codice Sorgente" }
     [:octicons-heart-16:](https://email.faircode.eu/donate/){ .card-link title=Contribuisci }
     
-    ??? downloads
+    ??? downloads "Scarica"
     
         - [:simple-googleplay: Google Play](https://play.google.com/store/apps/details?id=eu.faircode.email)
         - [:simple-github: GitHub](https://github.com/M66B/FairEmail/releases)
@@ -130,7 +130,7 @@ Canary Mail è closed-source. Lo consigliamo a causa di alcune scelte per i clie
     [:octicons-code-16:](https://gitlab.gnome.org/GNOME/evolution/){ .card-link title="Codice Sorgente" }
     [:octicons-heart-16:](https://www.gnome.org/donate/){ .card-link title=Contribuisci }
     
-    ??? downloads
+    ??? downloads "Scarica"
     
         - [:simple-flathub: Flathub](https://flathub.org/apps/details/org.gnome.Evolution)
 
@@ -144,13 +144,13 @@ Canary Mail è closed-source. Lo consigliamo a causa di alcune scelte per i clie
     
     In futuro, K-9 Mail sarà il client [ufficiale](https://k9mail.app/2022/06/13/K-9-Mail-and-Thunderbird.html) di Thunderbird per Android.
     
-    [:octicons-home-16: Home page](https://k9mail.app){ .md-button .md-button--primary }
-    [:octicons-eye-16:](https://k9mail.app/privacy){ .card-link title="Informativa sulla Privacy" }
+    [:octicons-home-16: Pagina Principale](https://k9mail.app){ .md-button .md-button--primary }
+    [:octicons-eye-16:](https://k9mail.app/privacy){ .card-link title="Politica sulla Privacy" }
     [:octicons-info-16:](https://docs.k9mail.app/){ .card-link title=Documentazione}
-    [:octicons-code-16:](https://github.com/thundernest/k-9){ .card-link title="Codice sorgente" }
+    [:octicons-code-16:](https://github.com/thundernest/k-9){ .card-link title="Codice Sorgente" }
     [:octicons-heart-16:](https://k9mail.app/contribute){ .card-link title=Contribuisci }
     
-    ??? downloads
+    ??? downloads "Scarica"
     
         - [:simple-googleplay: Google Play](https://play.google.com/store/apps/details?id=com.fsck.k9)
         - [:simple-github: GitHub](https://github.com/thundernest/k-9/releases)
@@ -173,7 +173,7 @@ Canary Mail è closed-source. Lo consigliamo a causa di alcune scelte per i clie
     [:octicons-code-16:](https://invent.kde.org/pim/kmail){ .card-link title="Codice Sorgente" }
     [:octicons-heart-16:](https://kde.org/community/donations/){ .card-link title=Contribuisci }
     
-    ??? downloads
+    ??? downloads "Scarica"
     
         - [:simple-linux: Linux](https://kontact.kde.org/download)
         - [:simple-flathub: Flathub](https://flathub.org/apps/details/org.kde.kontact)
@@ -191,7 +191,7 @@ Canary Mail è closed-source. Lo consigliamo a causa di alcune scelte per i clie
     [:octicons-info-16:](https://mailvelope.com/faq){ .card-link title=Documentazione}
     [:octicons-code-16:](https://github.com/mailvelope/mailvelope){ .card-link title="Codice Sorgente" }
     
-    ??? downloads
+    ??? downloads "Scarica"
     
         - [:simple-firefoxbrowser: Firefox](https://addons.mozilla.org/firefox/addon/mailvelope)
         - [:simple-googlechrome: Chrome](https://chrome.google.com/webstore/detail/mailvelope/kajibbejlbohfaggdiogboambcijhkke)
@@ -212,7 +212,7 @@ Canary Mail è closed-source. Lo consigliamo a causa di alcune scelte per i clie
     [:octicons-code-16:](https://github.com/neomutt/neomutt){ .card-link title="Codice Sorgente" }
     [:octicons-heart-16:](https://www.paypal.com/paypalme/russon/){ .card-link title=Contribuisci }
     
-    ??? downloads
+    ??? downloads "Scarica"
     
         - [:simple-apple: macOS](https://neomutt.org/distro)
         - [:simple-linux: Linux](https://neomutt.org/distro)

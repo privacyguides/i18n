@@ -48,14 +48,14 @@ Questi provider supportano in modo nativo la crittografia/decrittografia OpenPGP
     [:octicons-info-16:](https://proton.me/support/mail){ .card-link title=Documentazione}
     [:octicons-code-16:](https://github.com/ProtonMail){ .card-link title="Codice sorgente" }
     
-    ??? downloads
+    ??? downloads "Scarica"
     
         - [:simple-googleplay: Google Play](https://play.google.com/store/apps/details?id=ch.protonmail.android)
-        - [:simple-appstore: App Store](https://apps.apple.com/app/apple-store/id979659905)
+        - [:simple-appstore: App Store](https://apps.apple.com/it/app/proton-mail-encrypted-email/id979659905)
         - [:simple-github: GitHub](https://github.com/ProtonMail/proton-mail-android/releases)
-        - [:simple-windows11: Windows](https://proton.me/mail/bridge#download)
-        - [:simple-apple: macOS](https://proton.me/mail/bridge#download)
-        - [:simple-linux: Linux](https://proton.me/mail/bridge#download)
+        - [:simple-windows11: Windows](https://proton.me/it/mail/bridge#download)
+        - [:simple-apple: macOS](https://proton.me/it/mail/bridge#download)
+        - [:simple-linux: Linux](https://proton.me/it/mail/bridge#download)
         - [:octicons-browser-16: Web](https://mail.proton.me)
 
 I profili gratuiti presentano delle limitazioni, come l'incapacità di cercare il testo del corpo e l'assenza dell'accesso a [Proton Mail Bridge](https://proton.me/mail/bridge), necessario per utilizzare un [client email desktop consigliato](email-clients.md) (come Thunderbird). I profili a pagamento includono funzionalità come Proton Mail Bridge, archiviazione aggiuntiva e supporto ai domini personalizzati. Una [lettera di attestazione](https://proton.me/blog/security-audit-all-proton-apps) è stata fornita per le applicazioni di Proton Mail il 9 novembre 2021 da [Securitum](https://research.securitum.com).
@@ -226,14 +226,14 @@ Skiff Mail non offre una funzionalità di eredità digitale.
     [:octicons-code-16:](https://github.com/tutao/tutanota){ .card-link title="Codice sorgente" }
     [:octicons-heart-16:](https://tutanota.com/community/){ .card-link title=Contribuisci }
     
-    ??? downloads
+    ??? downloads "Scarica"
     
         - [:simple-googleplay: Google Play](https://play.google.com/store/apps/details?id=de.tutao.tutanota)
-        - [:simple-appstore: App Store](https://apps.apple.com/app/tutanota/id922429609)
+        - [:simple-appstore: App Store](https://apps.apple.com/it/app/tutanota-encrypted-email-app/id922429609)
         - [:simple-github: GitHub](https://github.com/tutao/tutanota/releases)
-        - [:simple-windows11: Windows](https://tutanota.com/#download)
-        - [:simple-apple: macOS](https://tutanota.com/#download)
-        - [:simple-linux: Linux](https://tutanota.com/#download)
+        - [:simple-windows11: Windows](https://tutanota.com/it/#download)
+        - [:simple-apple: macOS](https://tutanota.com/it/#download)
+        - [:simple-linux: Linux](https://tutanota.com/it/#download)
         - [:octicons-browser-16: Web](https://mail.tutanota.com/)
 
 Tutanota non supporta il [protocollo IMAP](https://tutanota.com/faq/#imap) o l'utilizzo di [client email](email-clients.md) di terze parti e, inoltre, non potrai aggiungere [profiili email esterni](https://github.com/tutao/tutanota/issues/544#issuecomment-670473647) all'app di Tutanota. Al momento non sono supportate né l'[Importazione delle email](https://github.com/tutao/tutanota/issues/630) né le [sottocartelle](https://github.com/tutao/tutanota/issues/927), anche se questo [sarà presto modificato](https://tutanota.com/blog/posts/kickoff-import). Le emaiil sono esportabili [singolarmente o in blocco](https://tutanota.com/howto#generalMail) per cartella, il che potrebbe essere scomodo se hai molte cartelle.

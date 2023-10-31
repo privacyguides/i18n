@@ -82,7 +82,7 @@ L'applicazione offre diversi modi per cancellare i metadati dalle immagini. Nell
     
     ??? downloads "Scarica"
     
-        - [:simple-appstore: App Store](https://apps.apple.com/us/app/metapho/id914457352)
+        - [:simple-appstore: App Store](https://apps.apple.com/it/app/metapho/id914457352)
 
 ### PrivacyBlur
 
@@ -99,8 +99,8 @@ L'applicazione offre diversi modi per cancellare i metadati dalle immagini. Nell
     
     ??? downloads "Scarica"
     
-        - [:simple-googleplay: Google Play](https://play.google.com/store/apps/details?id=de.mathema.privacyblur)
-        - [:simple-appstore: App Store](https://apps.apple.com/us/app/privacyblur/id1536274106)
+        - [:simple-googleplay: Google Play](https://play.google.com/store/apps/details?id=de.mathema.privacyblur&gl=it)
+        - [:simple-appstore: App Store](https://apps.apple.com/it/app/privacyblur/id1536274106)
 
 !!! warning "Attenzione"
 

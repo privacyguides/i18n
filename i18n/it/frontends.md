@@ -72,7 +72,7 @@ Utilizzando un'istanza gestita da altri, assicurati di leggere la politica sulla
     [:octicons-code-16:](https://github.com/FreeTubeApp/FreeTube){ .card-link title="Codice Sorgente" }
     [:octicons-heart-16:](https://liberapay.com/FreeTube){ .card-link title=Contribuisci }
     
-    ??? downloads
+    ??? downloads "Scarica"
     
         - [:simple-windows11: Windows](https://freetubeapp.io/#download)
         - [:simple-apple: macOS](https://freetubeapp.io/#download)
@@ -99,9 +99,9 @@ Utilizzando un'istanza gestita da altri, assicurati di leggere la politica sulla
     [:octicons-code-16:](https://github.com/yattee/yattee){ .card-link title="Codice Sorgente" }
     [:octicons-heart-16:](https://github.com/yattee/yattee/wiki/Donations){ .card-link title=Contribuisci }
     
-    ??? downloads
+    ??? downloads "Scarica"
     
-        - [:simple-apple: App Store](https://apps.apple.com/us/app/yattee/id1595136629)
+        - [:simple-apple: App Store](https://apps.apple.com/it/app/yattee/id1595136629)
         - [:simple-github: GitHub](https://github.com/yattee/yattee/releases)
 
 !!! warning "Attenzione"
@@ -126,7 +126,7 @@ Di default, Yattee blocca tutte le inserzioni di YouTube. Inoltre, Yattee integr
     [:octicons-info-16:](https://github.com/libre-tube/LibreTube#readme){ .card-link title=Documentazione}
     [:octicons-code-16:](https://github.com/libre-tube/LibreTube){ .card-link title="Codice Sorgente" }
     
-    ??? downloads
+    ??? downloads "Scarica"
     
         - [:simple-github: GitHub](https://github.com/libre-tube/LibreTube/releases)
 
@@ -152,7 +152,7 @@ Di default, LibreTube blocca tutte le inserzioni di YouTube. Inoltre, Libretube 
     [:octicons-code-16:](https://github.com/TeamNewPipe/NewPipe){ .card-link title="Codice Sorgente" }
     [:octicons-heart-16:](https://newpipe.net/donate/){ .card-link title=Contribuisci }
     
-    ??? downloads
+    ??? downloads "Scarica"
     
         - [:simple-github: GitHub](https://github.com/TeamNewPipe/NewPipe/releases)
 
