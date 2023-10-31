@@ -8,24 +8,24 @@ title: "隐私政策"
 
 網站訪客的隱私對我們很重要，因此我們不會追蹤任何個人。 作為我們網站的訪客：
 
-- No personal information is collected
-- No information such as cookies are stored in the browser
-- No information is shared with, sent to or sold to third-parties
-- No information is shared with advertising companies
-- No information is mined and harvested for personal and behavioral trends
-- No information is monetized
+- 不收集任何個人資訊
+- 瀏覽器中不會儲存 Cookie 等資訊
+- 不會對第三方分享、傳送或出售任何資訊
+- 不會與廣告公司共享任何資訊
+- 不挖掘和收集個人和行為趨勢
+- 未通過任何訪客資訊盈利
 
 ## 我們從帳戶持有人收集的資料
 
-If you register for an account on one of our services, we may collect any information you provide us (such as your email, password, profile information, etc.) and use that information to provide you with the service. We never share or sell this data.
+如果在我們的服務上註冊帳戶，可能會收集您提供給的資訊（例如電子郵件、密碼、個人資料資訊等），並使用這些資訊為您服務。 絕不會分享或販售這些資料。
 
-Some services we host have separate privacy policies which supersede this document. For example, the privacy policy of our forum can be found at [discuss.privacyguides.net/privacy](https://discuss.privacyguides.net/privacy).
+某些託管的服務有單獨的隱私權政策，這些政策將取代本文件。 例如，本站論壇的隱私權政策可在 [discuss.privacyguides.net/privacy](https://discuss.privacyguides.net/privacy) 找到。
 
 ## 聯絡我們
 
-Even in the limited cases where your data is collected, our volunteers and most members of the Privacy Guides team have no access to that information. Some information (such as your email address) may be accessible to moderators via limited control panels for the purposes of moderating our communities.
+即使所收集的資料有限，我們的志工和團隊成員也無法存取該資訊。 為了管理社區，版主可以透過有限的控制面板存取某些資訊（例如電子郵件地址）。
 
-Thus, inquiries regarding your personal information should be sent directly to:
+有關您個人資訊的查詢應直接發送至：
 
 ```text
 Jonah Aragon
@@ -35,7 +35,7 @@ jonah@privacyguides.org
 
 對於所有其他查詢，您可以聯繫我們團隊的任何成員。
 
-For complaints under GDPR more generally, you always have the option to lodge complaints with your local data protection supervisory authorities.
+對於一般 GDPR 投訴，您可以向當個資保護監管機構提出投訴。
 
 ## 關於本政策
 
