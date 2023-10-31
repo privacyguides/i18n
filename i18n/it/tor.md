@@ -27,10 +27,10 @@ schema:
 
 La rete di **Tor** è un gruppo di server gestiti da volontari che ti consente di connetterti gratuitamente e migliora la tua privacy e sicurezza su Internet. Individui e organizzazioni possono inoltre condividere le informazioni tramite la rete Tor con i "servizi nascosti .onion", senza comprometterne la privacy. Poiché il traffico di Tor è difficile da bloccare e tracciare, è un efficace strumento di elusione della censura.
 
-[:octicons-home-16:](https://www.torproject.org){ .card-link title=Home page }
+[:octicons-home-16:](https://www.torproject.org){ .card-link title=Pagina Principale}
 [:simple-torbrowser:](http://2gzyxa5ihm7nsggfxnu52rck2vv4rvmdlkiu3zzui5du4xyclen53wid.onion){ .card-link title="Servizio Onion" }
 [:octicons-info-16:](https://tb-manual.torproject.org/){ .card-link title=Documentazione}
-[:octicons-code-16:](https://gitlab.torproject.org/tpo/core/tor){ .card-link title="Codice sorgente" }
+[:octicons-code-16:](https://gitlab.torproject.org/tpo/core/tor){ .card-link title="Codice Sorgente" }
 [:octicons-heart-16:](https://donate.torproject.org/){ .card-link title=Contribuisci}
 
 Tor funziona instradando il traffico tramite questi server gestiti da volontari, invece di effettuare una connessione diretta al sito che stai provando a visitare. In questo modo si offusca la provenienza del traffico e nessun server nel percorso di connessione è in grado di vedere il percorso completo del traffico proveniente e diretto, il che significa che nemmeno i server utilizzati per connettersi possono violare l'anonimato.
@@ -49,10 +49,10 @@ Esistono svariati modi per connettersi alla rete di Tor dal tuo dispositivo, il 
     
     Il **Tor Browser** è la scelta ideale per l'anonimato, fornendoti accesso alla rete e ai ponti di Tor e include impostazioni ed estensioni predefinite, configurate automaticamente dai livelli di sicurezza predefiniti: *Standard*, *Safer* e *Safest*.
     
-    [:octicons-home-16: Home page](https://www.torproject.org){ .md-button .md-button--primary }
+    [:octicons-home-16: Pagina Principale](https://www.torproject.org){ .md-button .md-button--primary }
     [:simple-torbrowser:](http://2gzyxa5ihm7nsggfxnu52rck2vv4rvmdlkiu3zzui5du4xyclen53wid.onion){ .card-link title="Servizio Onion" }
     [:octicons-info-16:](https://tb-manual.torproject.org/){ .card-link title=Documentazione }
-    [:octicons-code-16:](https://gitlab.torproject.org/tpo/applications/tor-browser){ .card-link title="Codice sorgente" }
+    [:octicons-code-16:](https://gitlab.torproject.org/tpo/applications/tor-browser){ .card-link title="Codice Sorgente" }
     [:octicons-heart-16:](https://donate.torproject.org/){ .card-link title=Contribuisci }
     
     ??? downloads "Scarica"
