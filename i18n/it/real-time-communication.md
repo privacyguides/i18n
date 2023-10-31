@@ -32,12 +32,12 @@ Queste app di messaggistica sono ottime per proteggere le tue comunicazioni sens
     
     ??? downloads "Scarica"
     
-        - [:simple-googleplay: Google Play](https://play.google.com/store/apps/details?id=org.thoughtcrime.securesms)
-        - [:simple-appstore: App Store](https://apps.apple.com/app/id874139669)
-        - [:simple-android: Android](https://signal.org/android/apk/)
-        - [:simple-windows11: Windows](https://signal.org/download/windows)
-        - [:simple-apple: macOS](https://signal.org/download/macos)
-        - [:simple-linux: Linux](https://signal.org/download/linux)
+        - [:simple-googleplay: Google Play](https://play.google.com/store/apps/details?id=org.thoughtcrime.securesms&gl=it)
+        - [:simple-appstore: App Store](https://apps.apple.com/it/app/signal-chat-private-e-sicure/id874139669)
+        - [:simple-android: Android](https://signal.org/it/android/apk/)
+        - [:simple-windows11: Windows](https://signal.org/it/download/windows)
+        - [:simple-apple: macOS](https://signal.org/it/download/macos)
+        - [:simple-linux: Linux](https://signal.org/it/download/linux)
 
 Signal supporta i [gruppi privati](https://signal.org/blog/signal-private-group-system/). Il server non registra le appartenenze ai gruppi, i titoli, gli avatar o gli attributi dei gruppi. Signal ha metadati minimi quando [Mittente sigillato](https://signal.org/blog/sealed-sender/) è abilitato. L'indirizzo del mittente è crittografato insieme al corpo del messaggio e soltanto l'indirizzo del destinatario è visibile al server. Mittente Sigillato è abilitato esclusivamente per i tuoi contatti, ma è abilitabile per tutti i destinatari con il rischio incrementato di ricevere spam. Signal richiede il numero di telefono come identificativo personale.
 

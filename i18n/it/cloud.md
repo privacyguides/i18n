@@ -53,8 +53,8 @@ I nuovi client mobile di Proton Drive non sono ancora stati controllati pubblica
     
     ??? downloads "Scarica"
     
-        - [:simple-googleplay: Google Play](https://play.google.com/store/apps/details?id=com.tresorit.mobile)
-        - [:simple-appstore: App Store](https://apps.apple.com/app/apple-store/id722163232)
+        - [:simple-googleplay: Google Play](https://play.google.com/store/apps/details?id=com.tresorit.mobile&gl=it)
+        - [:simple-appstore: App Store](https://apps.apple.com/it/app/tresorit/id722163232)
         - [:simple-windows11: Windows](https://tresorit.com/download)
         - [:simple-apple: macOS](https://tresorit.com/download)
         - [:simple-linux: Linux](https://tresorit.com/download)

@@ -183,11 +183,11 @@ Il codice utilizzato dai server di Bitwarden è [open-source](https://github.com
     
     ??? downloads "Scarica"
     
-        - [:simple-googleplay: Google Play](https://play.google.com/store/apps/details?id=com.onepassword.android)
-        - [:simple-appstore: App Store](https://apps.apple.com/app/id1511601750?mt=8)
-        - [:simple-windows11: Windows](https://1password.com/downloads/windows/)
-        - [:simple-apple: macOS](https://1password.com/downloads/mac/)
-        - [:simple-linux: Linux](https://1password.com/downloads/linux/)
+        - [:simple-googleplay: Google Play](https://play.google.com/store/apps/details?id=com.onepassword.android&gl=it)
+        - [:simple-appstore: App Store](https://apps.apple.com/it/app/1password-gestore-password/id1511601750)
+        - [:simple-windows11: Windows](https://1password.com/it/downloads/windows/)
+        - [:simple-apple: macOS](https://1password.com/it/downloads/mac/)
+        - [:simple-linux: Linux](https://1password.com/it/downloads/linux/)
 
 Tradizionalmente, **1Password** ha offerto la migliore esperienza d'uso del gestore di password per chi utilizza macOS e iOS; tuttavia, ora ha raggiunto la parità di funzionalità su tutte le piattaforme. Vanta molte caratteristiche orientate alle famiglie e alle persone meno tecniche, oltre a funzionalità avanzate.
 
@@ -210,9 +210,9 @@ Un vantaggio di 1Password rispetto a Bitwarden è il supporto di prima classe pe
     
     ??? downloads "Scarica"
     
-        - [:simple-googleplay: Google Play](https://play.google.com/store/apps/details?id=com.psono.psono)
-        - [:simple-appstore: App Store](https://apps.apple.com/us/app/psono-password-manager/id1545581224)
-        - [:simple-firefoxbrowser: Firefox](https://addons.mozilla.org/firefox/addon/psono-pw-password-manager)
+        - [:simple-googleplay: Google Play](https://play.google.com/store/apps/details?id=com.psono.psono&gl=it)
+        - [:simple-appstore: App Store](https://apps.apple.com/it/app/psono-password-manager/id1545581224)
+        - [:simple-firefoxbrowser: Firefox](https://addons.mozilla.org/it/firefox/addon/psono-pw-password-manager/)
         - [:simple-googlechrome: Chrome](https://chrome.google.com/webstore/detail/psonopw-password-manager/eljmjmgjkbmpmfljlmklcfineebidmlo)
         - [:simple-docker: Docker Hub](https://hub.docker.com/r/psono/psono-client)
 
@@ -304,7 +304,7 @@ KeePassXC memorizza i suoi dati di esportazione come file [CSV](https://en.wikip
     
     ??? downloads "Scarica"
     
-        - [:simple-appstore: App Store](https://apps.apple.com/app/strongbox-keepass-pwsafe/id897283731)
+        - [:simple-appstore: App Store](https://apps.apple.com/it/app/strongbox-password-manager/id897283731)
 
 Inoltre, è offerta una versione esclusivamente offline: [Strongbox Zero](https://apps.apple.com/app/strongbox-keepass-pwsafe/id1581589638). Questa versione è stata ridotta nel tentativo di ridurre la superficie di attacco.
 

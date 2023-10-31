@@ -28,13 +28,13 @@ Le opzioni qui elencate sono multipiattaforma e ottime per creare backup crittog
     
     ??? downloads "Scarica"
     
-        - [:simple-googleplay: Google Play](https://play.google.com/store/apps/details?id=org.cryptomator)
+        - [:simple-googleplay: Google Play](https://play.google.com/store/apps/details?id=org.cryptomator&gl=it)
         - [:simple-appstore: App Store](https://apps.apple.com/it/app/cryptomator-2/id1560822163)
         - [:simple-android: Android](https://cryptomator.org/android)
         - [:simple-windows11: Windows](https://cryptomator.org/downloads)
         - [:simple-apple: macOS](https://cryptomator.org/downloads)
         - [:simple-linux: Linux](https://cryptomator.org/downloads)
-        - [:simple-flathub: Flathub](https://flathub.org/apps/details/org.cryptomator.Cryptomator)
+        - [:simple-flathub: Flathub](https://flathub.org/it/apps/org.cryptomator.Cryptomator)
 
 Cryptomator utilizza la crittografiaa AES-256 per crittografare i file e i loro nomi. Cryptomator non può crittografare i metadati come marche orarie d'accesso, modifica e creazione, né il numero e le dimensioni dei file e delle cartelle.
 

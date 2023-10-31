@@ -26,12 +26,12 @@ I calendari contengono alcuni dei tuoi dati più sensibili; utilizza prodotti ch
     
     ??? downloads "Scarica"
     
-        - [:simple-googleplay: Google Play](https://play.google.com/store/apps/details?id=de.tutao.tutanota)
+        - [:simple-googleplay: Google Play](https://play.google.com/store/apps/details?id=de.tutao.tutanota&gl=it)
         - [:simple-appstore: App Store](https://apps.apple.com/it/app/tutanota/id922429609)
-        - [:simple-windows11: Windows](https://tutanota.com/blog/posts/desktop-clients/)
-        - [:simple-apple: macOS](https://tutanota.com/blog/posts/desktop-clients/)
-        - [:simple-linux: Linux](https://tutanota.com/blog/posts/desktop-clients/)
-        - [:simple-flathub: Flathub](https://flathub.org/apps/details/com.tutanota.Tutanota)
+        - [:simple-windows11: Windows](https://tutanota.com/it/blog/posts/desktop-clients/)
+        - [:simple-apple: macOS](https://tutanota.com/it/blog/posts/desktop-clients/)
+        - [:simple-linux: Linux](https://tutanota.com/it/blog/posts/desktop-clients/)
+        - [:simple-flathub: Flathub](https://flathub.org/it/apps/com.tutanota.Tutanota)
         - [:octicons-browser-16: Web](https://mail.tutanota.com/)
 
 ## Proton Calendar

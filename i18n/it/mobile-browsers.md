@@ -199,7 +199,7 @@ Se utilizzi iCloud con la Protezione Avanzata dei Dati disabilitata, consigliamo
     
     ??? downloads "Scarica"
     
-        - [:simple-appstore: App Store](https://apps.apple.com/app/apple-store/id1047223162)
+        - [:simple-appstore: App Store](https://apps.apple.com/it/app/adguard-adblock-privacy/id1047223162)
 
 Ulteriori elenchi di filtri potrebbero rallentare le prestazioni e incrementare la tua superficie d'attacco, quindi, applica soltanto quelli necessari.
 

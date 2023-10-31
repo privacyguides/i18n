@@ -85,8 +85,8 @@ Tor Browser è progettato per impedire il fingerprinting, o la tua identificazio
     
     ??? downloads "Scarica"
     
-        - [:simple-googleplay: Google Play](https://play.google.com/store/apps/details?id=org.torproject.android)
-        - [:simple-appstore: App Store](https://apps.apple.com/us/app/orbot/id1609461599)
+        - [:simple-googleplay: Google Play](https://play.google.com/store/apps/details?id=org.torproject.android&gl=it)
+        - [:simple-appstore: App Store](https://apps.apple.com/it/app/orbot/id1609461599)
         - [:simple-github: GitHub](https://github.com/guardianproject/orbot/releases)
 
 Abbiamo precedentemente consiglito di abilitare la preferenza *Isola Indirizzo di Destinazione* nelle impostazioni di Orbot. Sebbene quest'impostazione possa teoricamente migliorare la privacy, imponendo l'utilizzo di un circuito differente per ogni indirizzo IP cui ti connetti, non fornisce un vantaggio pratico per gran parte delle applicazioni (specialmente per la navigazione web), può comportare una significativa riduzione delle prestazioni e incrementa il carico sulla rete di Tor. Non consigliamo più la regolazione di quest'impostazione dal suo valore predefinito, a meno che non sia necessario.[^1]
