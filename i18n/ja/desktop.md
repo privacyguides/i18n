@@ -181,7 +181,7 @@ While we [recommend against](os/linux-overview.md#release-cycle) "perpetually ou
     [:octicons-code-16:](https://github.com/Kicksecure){ .card-link title="Source Code" }
     [:octicons-heart-16:](https://www.kicksecure.com/wiki/Donate){ .card-link title=Contribute }
 
-## 基準
+## 規準
 
 Choosing a Linux distro that is right for you will come down to a huge variety of personal preferences, and this page is **not** meant to be an exhaustive list of every viable distribution. Our Linux overview page has some advice on [choosing a distro](os/linux-overview.md#choosing-your-distribution) in more detail. The distros on *this* page do all generally follow the guidelines we covered there, and all meet these standards:
 

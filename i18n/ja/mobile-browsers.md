@@ -120,7 +120,7 @@ Braveには、[シールド](https://support.brave.com/hc/en-us/articles/3600229
 
 #### Brave Sync
 
-[Brave Sync](https://support.brave.com/hc/en-us/articles/360059793111-Understanding-Brave-Sync)は、あなたのブラウジングデータ（履歴、ブックマークなど）をすべてのデバイスで利用可能にし、それをE2EE（End-to-End Encryption, 端末間暗号化）で保護します。
+[Brave Sync](https://support.brave.com/hc/en-us/articles/360059793111-Understanding-Brave-Sync)は、あなたのブラウジングデータ（履歴、ブックマークなど）をすべてのデバイスで利用可能にし、それをE2EE（End-to-End Encryption, 端末間暗号化）で保護します。アカウントは不要です。
 
 ## iOS
 
@@ -203,7 +203,7 @@ Safariの履歴、タブグループ、iCloudタブ、保存されたパスワ�
 
 フィルターリストを追加すると動作が遅くなり、攻撃対象が増える可能性があります。そのため、必要なものだけを適用してください。
 
-## 基準
+## 規準
 
 **私たちは、推薦するどのプロジェクトとも提携していません。**客観的に推薦できるよう、[標準となる基準](about/criteria.md)に加えて、一連の明確な要件を定めています。 プロジェクトを利用する前に、このリストをよく理解し、ご自身で調査を行って、そのプロジェクトがあなたにとって適切な選択かどうかをご確認ください。
 
