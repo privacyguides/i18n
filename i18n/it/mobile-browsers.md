@@ -132,7 +132,7 @@ Su iOS, qualsiasi app che possa navigare sul web è [limitata](https://developer
 
     ![Logo di Safari](assets/img/browsers/safari.svg){ align=right }
     
-    **Safari** è il browser predefinito di iOS. Include [funzionalità per la privacy](https://support.apple.com/guide/iphone/browse-the-web-privately-iphb01fc3c85/15.0/ios/15.0) come la [Prevenzione Intelligente del Tracciamento](https://webkit.org/blog/7675/intelligent-tracking-prevention/), Rapporti sulla Privacy, schede di Navigazione Privaata isolate ed effimere, Trasmissione Privata su iCloud e riduzione del fingerprinting, presentando una versione semplice della configurzione di sistema ai siti web, così che più dispositivi appaiano identici.
+    **Safari** è il browser predefinito di iOS. Include [funzionalità per la privacy](https://support.apple.com/it-it/guide/iphone/iphb01fc3c85/15.0/ios/15.0) come [Prevenzione intelligente del tracciamento](https://webkit.org/blog/7675/intelligent-tracking-prevention/), Report sulla Privacy, schede di navigazione private isolate ed effimere, Relay Privato iCloud e la riduzione delle impronte digitali presentando ai siti web una versione semplificata della configurazione del sistema in modo che più dispositivi sembrino identici.
     
     [:octicons-home-16: Homepage](https://www.apple.com/safari/){ .md-button .md-button--primary }
     [:octicons-eye-16:](https://www.apple.com/legal/privacy/data/en/safari/){ .card-link title="Privacy Policy" }

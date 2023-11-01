@@ -142,7 +142,7 @@ GrapheneOS תומך ב-[Sandboxed Google Play](https://grapheneos.org/usage#sand
 
 DivestOS מיישמת כמה תיקוני הקשחת מערכת שפותחו במקור עבור GrapheneOS. DivestOS 16.0 ומעלה מיישמת את החלפת הרשאות [`אינטרנט`](https://developer.android.com/training/basics/network-ops/connecting) וחיישנים של GrapheneOS, [מקצית זיכרון מוקשחת](https://github.com/GrapheneOS/hardened_malloc), [השרצת מנהלים](https://blog.privacyguides.org/2022/04/21/grapheneos-or-calyxos/#additional-hardening), [קונסטיפיקציה](https://en.wikipedia.org/wiki/Const_(computer_programming)) של [JNI](https://en.wikipedia.org/wiki/Java_Native_Interface) ותיקוני התקשות [ביונית](https://en.wikipedia.org/wiki/Bionic_(software)) חלקית. תכונות 17.1 ומעלה של GrapheneOS לכל רשת [אפשרות אקראיות מלאה של ](https://en.wikipedia.org/wiki/MAC_address#Randomization)MAC, בקרת [`ptrace_scope`](https://www.kernel.org/doc/html/latest/admin-guide/LSM/Yama.html) ואתחול אוטומטי/Wi-Fi/Bluetooth [אפשרויות פסק זמן](https://grapheneos.org/features).
 
-DivestOS משתמשת ב-F-Droid כחנות האפליקציות המוגדרת כברירת מחדל. בדרך כלל, אנו ממליצים להימנע מ-F-Droid עקב [בעיות האבטחה](#f-droid) הרבות שלו. עם זאת, לעשות זאת ב-DivestOS לא כדאי; המפתחים מעדכנים את האפליקציות שלהם באמצעות מאגרי F-Droid משלהם ([DivestOS Official](https://divestos.org/fdroid/official/?fingerprint=E4BE8D6ABFA4D9D4FEEF03CDDA7FF62A73FD64B75566F6DD4E5E577550BE8467) ו- [DivestOS WebView](https://divestos.org/fdroid/webview/?fingerprint=FB426DA1750A53D7724C8A582B4D34174E64A84B38940E5D5A802E1DFF9A40D2)). אנו ממליצים להשבית את אפליקציית F-Droid הרשמית ולהשתמש ב-[Neo Store](https://github.com/NeoApplications/Neo-Store/) עם מאגרי DivestOS מופעלים כדי לשמור על רכיבים אלה מעודכנים. לגבי אפליקציות אחרות, השיטות המומלצות שלנו להשגתן עדיין חלות.
+DivestOS משתמשת ב-F-Droid כחנות האפליקציות המוגדרת כברירת מחדל. We normally [recommend avoiding F-Droid](#f-droid), but doing so on DivestOS isn't viable; the developers update their apps via their own F-Droid repositories ([DivestOS Official](https://divestos.org/fdroid/official/?fingerprint=E4BE8D6ABFA4D9D4FEEF03CDDA7FF62A73FD64B75566F6DD4E5E577550BE8467) and [DivestOS WebView](https://divestos.org/fdroid/webview/?fingerprint=FB426DA1750A53D7724C8A582B4D34174E64A84B38940E5D5A802E1DFF9A40D2)). We recommend disabling the official F-Droid app and using [F-Droid Basic](https://f-droid.org/en/packages/org.fdroid.basic/) **with the DivestOS repositories enabled** to keep those components up to date. לגבי אפליקציות אחרות, השיטות המומלצות שלנו להשגתן עדיין חלות.
 
 !!! warning "אזהרה"
 
@@ -319,9 +319,7 @@ Auditor מבצע אישור וזיהוי חדירה על ידי:
     
         - [:simple-github: GitHub](https://github.com/ImranR98/Obtainium/releases)
 
-Obtainium allows you to download APK installer files from a wide variety of sources, and it is up to you to ensure those sources and apps are legitimate. For example, using Obtainium to install Signal from [Signal's APK landing page](https://signal.org/android/apk/) should be fine, but installing from third-party APK repositories like Aptoide or APKPure may pose additional risks.
-
-Obtainium can also be used to download apps from F-Droid repositories, and may serve as a useful alternative to the official F-Droid clients. However, we generally recommend against apps built by F-Droid or from unofficial F-Droid repositories: Read [our notes on F-Droid](#f-droid) below for more information.
+Obtainium allows you to download APK installer files from a wide variety of sources, and it is up to you to ensure those sources and apps are legitimate. For example, using Obtainium to install Signal from [Signal's APK landing page](https://signal.org/android/apk/) should be fine, but installing from third-party APK repositories like Aptoide or APKPure may pose additional risks. The risk of installing a malicious *update* is lower, because Android itself verifies that all app updates are signed by the same developer as the existing app on your phone before installing them.
 
 ### GrapheneOS App Store
 
@@ -351,7 +349,7 @@ Aurora Store לא מאפשרת להוריד אפליקציות בתשלום עם
 
 עבור אפליקציות שמשוחררות בפלטפורמות כמו GitHub ו-GitLab, ייתכן שתוכל להוסיף עדכון RSS ל[צובר החדשות](/news-aggregators) שלך שיעזור לך לעקוב אחר מהדורות חדשות.
 
-![RSS APK](./assets/img/android/rss-apk-light.png#only-light) ![RSS APK](./assets/img/android/rss-apk-dark.png#only-dark) ![שינויים ב-APK](./assets/img/android/rss-changes-light.png#only-light) ![שינויים ב-APK](./assets/img/android/rss-changes-dark.png#only-dark)
+![RSS APK](./assets/img/android/rss-apk-light.png#only-light) ![RSS APK](./assets/img/android/rss-apk-dark.png#only-dark) ![שינויים ב-APK](./assets/img/android/rss-changes-light.png#only-light) ![APK Changes](./assets/img/android/rss-changes-dark.png#only-dark)
 
 #### Github
 
@@ -400,17 +398,17 @@ Aurora Store לא מאפשרת להוריד אפליקציות בתשלום עם
 
 ![לוגו F-Droid](assets/img/android/f-droid.svg){ align=right width=120px }
 
-==אנחנו **לא** ממליצים כרגע על F-Droid כדרך להשיג אפליקציות.== F-Droid מומלצת לעתים קרובות כחלופה ל-Google Play, במיוחד בפרטיות קהילה. האפשרות להוסיף מאגרי צד שלישי ולא להיות מוגבלים לגן המוקף חומה של גוגל הובילה לפופולריות שלו. ל-F-Droid יש בנוסף [בנייה הניתנת לשחזור](https://f-droid.org/en/docs/Reproducible_Builds/) עבור יישומים מסוימים והוא מוקדש לתוכנות חינמיות וקוד פתוח. עם זאת, ישנן [בעיות בולטות](https://privsec.dev/posts/android/f-droid-security-issues/) עם הלקוח הרשמי של F-Droid, בקרת האיכות שלו והאופן שבו הם בונים, חותמים ומעבירים חבילות.
+==We only recommend F-Droid as a way to obtain apps which cannot be obtained via the means above.== F-Droid is often recommended as an alternative to Google Play, particularly in the privacy community. האפשרות להוסיף מאגרי צד שלישי ולא להיות מוגבלים לגן המוקף חומה של גוגל הובילה לפופולריות שלו. ל-F-Droid יש בנוסף [בנייה הניתנת לשחזור](https://f-droid.org/en/docs/Reproducible_Builds/) עבור יישומים מסוימים והוא מוקדש לתוכנות חינמיות וקוד פתוח. However, there are some security-related downsides to how F-Droid builds, signs, and delivers packages:
 
-בשל תהליך בניית האפליקציות שלהם, אפליקציות במאגר ה-F-Droid הרשמי מפגרות לעתים קרובות בפיגור לגבי עדכונים. מנהלי F-Droid גם עושים שימוש חוזר במזהי חבילה בזמן חתימת אפליקציות עם המפתחות שלהם, וזה לא אידיאלי מכיוון שהוא נותן אמון אולטימטיבי לצוות F-Droid.
+בשל תהליך בניית האפליקציות שלהם, אפליקציות במאגר ה-F-Droid הרשמי מפגרות לעתים קרובות בפיגור לגבי עדכונים. מנהלי F-Droid גם עושים שימוש חוזר במזהי חבילה בזמן חתימת אפליקציות עם המפתחות שלהם, וזה לא אידיאלי מכיוון שהוא נותן אמון אולטימטיבי לצוות F-Droid. Additionally, the requirements for an app to be included in the official F-Droid repo are less strict than other app stores like Google Play, meaning that F-Droid tends to host a lot more apps which are older, unmaintained, or otherwise no longer meet [modern security standards](https://developer.android.com/google/play/requirements/target-sdk).
 
-מאגרים פופולריים אחרים של צד שלישי כגון [IzzyOnDroid](https://apt.izzysoft.de/fdroid/) מקלים על חלק מהחששות הללו. מאגר IzzyOnDroid מושך רכיבים ישירות מ-GitHub והוא הדבר הטוב הבא למאגרים של המפתחים עצמם. עם זאת, זה לא משהו שאנחנו יכולים להמליץ עליו, מכיוון שבדרך כלל אפליקציות [מוסרות](https://github.com/vfsfitvnm/ViMusic/issues/240#issuecomment-1225564446) מהמאגר הזה כשהן מגיעות למאגר F-Droid הראשי. למרות שזה הגיוני (מכיוון שהמטרה של המאגר המסוים הזה היא לארח אפליקציות לפני שהן מתקבלות למאגר ה-F-Droid הראשי), זה יכול להשאיר אותך עם אפליקציות מותקנות שכבר לא מקבלים עדכונים.
+Other popular third-party repositories for F-Droid such as [IzzyOnDroid](https://apt.izzysoft.de/fdroid/) alleviate some of these concerns. מאגר IzzyOnDroid מושך רכיבים ישירות מ-GitHub והוא הדבר הטוב הבא למאגרים של המפתחים עצמם. However, it is not something that we can fully recommend, as apps are typically [removed](https://github.com/vfsfitvnm/ViMusic/issues/240#issuecomment-1225564446) from that repository if they are later added to the main F-Droid repository. למרות שזה הגיוני (מכיוון שהמטרה של המאגר המסוים הזה היא לארח אפליקציות לפני שהן מתקבלות למאגר ה-F-Droid הראשי), זה יכול להשאיר אותך עם אפליקציות מותקנות שכבר לא מקבלים עדכונים.
 
-עם זאת, מאגרי [F-Droid](https://f-droid.org/en/packages/) ו-[IzzyOnDroid](https://apt.izzysoft.de/fdroid/) הם ביתם של אינספור אפליקציות, כך שהם יכולים להיות כלי שימושי לחיפוש ולגלות אפליקציות קוד פתוח שתוכלו לאחר מכן הורד דרך Play Store, Aurora Store, או על ידי קבלת ה-APK ישירות מהמפתח. חשוב לזכור שחלק מהאפליקציות במאגרים אלו לא עודכנו במשך שנים ועשויות להסתמך על ספריות שאינן נתמכות, בין היתר, מהוות סיכון אבטחה פוטנציאלי. אתה צריך להשתמש במיטב שיקול הדעת שלך כשאתה מחפש אפליקציות חדשות בשיטה זו.
+That said, the [F-Droid](https://f-droid.org/en/packages/) and [IzzyOnDroid](https://apt.izzysoft.de/fdroid/) repositories are home to countless apps, so they can be a useful tool to search for and discover open-source apps that you can then download through other means such as the Play Store, Aurora Store, or by getting the APK directly from the developer. You should use your best judgement when looking for new apps via this method, and keep an eye on how frequently the app is updated. Outdated apps may rely on unsupported libraries, among other things, posing a potential security risk.
 
-!!! note "הערה"
+!!! note "F-Droid Basic"
 
-    במקרים נדירים מסוימים, מפתח אפליקציה יפיץ אותה רק באמצעות F-Droid ([Gadgetbridge](https://gadgetbridge.org/) היא דוגמה אחת לכך). אם אתה באמת צריך אפליקציה כזו, אנו ממליצים להשתמש ב-[Neo Store](https://github.com/NeoApplications/Neo-Store/) במקום באפליקציית F-Droid הרשמית כדי להשיג אותה.
+    במקרים נדירים מסוימים, מפתח אפליקציה יפיץ אותה רק באמצעות F-Droid ([Gadgetbridge](https://gadgetbridge.org/) היא דוגמה אחת לכך). If you really need an app like that, we recommend using the newer [F-Droid Basic](https://f-droid.org/en/packages/org.fdroid.basic/) client instead of the original F-Droid app to obtain it. F-Droid Basic can do unattended updates without privileged extension or root, and has a reduced feature set (limiting attack surface).
 
 ## קריטריונים
 
