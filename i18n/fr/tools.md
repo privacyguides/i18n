@@ -429,12 +429,12 @@ Nous [recommandons](dns.md#recommended-providers) un certain nombre de serveurs 
 
 <div class="grid cards" markdown>
 
-- ![Obtainium logo](assets/img/android/obtainium.svg){ .twemoji } [Obtainium (App Manager)](android.md#obtainium)
-- ![Aurora Store logo](assets/img/android/aurora-store.webp){ .twemoji } [Aurora Store (Google Play Client)](android.md#aurora-store)
-- ![Shelter logo](assets/img/android/mini/shelter.svg){ .twemoji } [Shelter (Work Profiles)](android.md#shelter)
-- ![Auditor logo](assets/img/android/auditor.svg#only-light){ .twemoji }![Auditor logo](assets/img/android/auditor-dark.svg#only-dark){ .twemoji } [Auditor (Supported Devices)](android.md#auditor)
-- ![Secure Camera logo](assets/img/android/secure_camera.svg#only-light){ .twemoji }![Secure Camera logo](assets/img/android/secure_camera-dark.svg#only-dark){ .twemoji } [Secure Camera](android.md#secure-camera)
-- ![Secure PDF Viewer logo](assets/img/android/secure_pdf_viewer.svg#only-light){ .twemoji }![Secure PDF Viewer logo](assets/img/android/secure_pdf_viewer-dark.svg#only-dark){ .twemoji } [Secure PDF Viewer](android.md#secure-pdf-viewer)
+- ![logo Obtainium](assets/img/android/obtainium.svg){ .twemoji } [Obtainium (gestionnaire d'applications)](android.md#obtainium)
+- ![logo Aurora Store](assets/img/android/aurora-store.webp){ .twemoji } [Aurora Store (client Google Play)](android.md#aurora-store)
+- ![logo Shelter](assets/img/android/mini/shelter.svg){ .twemoji } [Shelter (profils professionnels)](android.md#shelter)
+- ![logo Auditor](assets/img/android/auditor.svg#only-light){ .twemoji }![logo Auditor](assets/img/android/auditor-dark.svg#only-dark){ .twemoji } [Auditor (appareils pris en charge)](android.md#auditor)
+- ![logo Secure Camera](assets/img/android/secure_camera.svg#only-light){ .twemoji }![logo Secure Camera](assets/img/android/secure_camera-dark.svg#only-dark){ .twemoji } [Secure Camera](android.md#secure-camera)
+- ![logo Secure PDF Viewer](assets/img/android/secure_pdf_viewer.svg#only-light){ .twemoji }![logo Secure PDF Viewer](assets/img/android/secure_pdf_viewer-dark.svg#only-dark){ .twemoji } [Secure PDF Viewer](android.md#secure-pdf-viewer)
 
 </div>
 
