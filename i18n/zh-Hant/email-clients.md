@@ -149,7 +149,7 @@ Canary Mail 源碼為封閉式。 我們推薦它，因為 iOS 電子郵件客�
     [:octicons-code-16:](https://github.com/thundernest/k-9){ .card-link title="Source Code" }
     [:octicons-heart-16:](https://k9mail.app/contribute){ .card-link title=Contribute }
     
-    ??? downloads
+    ??? downloads "下載"
     
         - [:simple-googleplay: Google Play](https://play.google.com/store/apps/details?id=com.fsck.k9)
         - [:simple-github: GitHub](https://github.com/thundernest/k-9/releases)
