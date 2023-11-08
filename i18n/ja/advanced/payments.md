@@ -71,7 +71,7 @@ Privacy coins have been subject to increasing scrutiny by government agencies. I
 
 With cryptocurrency there are two forms of wallets: custodial wallets and noncustodial wallets. Custodial wallets are operated by centralized companies/exchanges, where the private key for your wallet is held by that company, and you can access them anywhere typically with a regular username and password. Noncustodial wallets are wallets where you control and manage the private keys to access it. Assuming you keep your wallet's private keys secured and backed up, noncustodial wallets provide greater security and censorship-resistance over custodial wallets, because your cryptocurrency can't be stolen or frozen by a company with custody over your private keys. Key custody is especially important when it comes to privacy coins: Custodial wallets grant the operating company the ability to view your transactions, negating the privacy benefits of those cryptocurrencies.
 
-### Acquisition
+### 取得
 
 Acquiring [cryptocurrencies](../cryptocurrency.md) like Monero privately can be difficult. P2P marketplaces like [LocalMonero](https://localmonero.co/), a platform which facilitates trades between people, are one option that can be used. If using an exchange which requires KYC is an acceptable risk for you as long as subsequent transactions can't be traced, a much easier option is to purchase Monero on an exchange like [Kraken](https://kraken.com/), or purchase Bitcoin/Litecoin from a KYC exchange which can then be swapped for Monero. Then, you can withdraw the purchased Monero to your own noncustodial wallet to use privately from that point forward.
 

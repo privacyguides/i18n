@@ -187,7 +187,7 @@ We recommend storing a local recovery key in a secure place as opposed to using 
     cryptsetup luksHeaderBackup /dev/device --header-backup-file /mnt/backup/file.img
     ```
 
-## Browser-based
+## ブラウザーベース
 
 Browser-based encryption can be useful when you need to encrypt a file but cannot install software or apps on your device.
 
@@ -297,7 +297,7 @@ When encrypting with PGP, you have the option to configure different options in 
 
 ### GPG Suite
 
-!!! note
+!!! メモ
 
     We suggest [Canary Mail](email-clients.md#canary-mail) for using PGP with email on iOS devices.
 

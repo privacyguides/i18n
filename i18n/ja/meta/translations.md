@@ -1,5 +1,5 @@
 ---
-title: Translations
+title: 翻訳
 ---
 
 Crowdin has good documentation, and we suggest looking at their [Getting Started](https://support.crowdin.com/crowdin-intro/) guide. Our site is largely written in [Markdown](https://en.wikipedia.org/wiki/Markdown), so it should be easy to contribute. This page contains some helpful pointers for translating some specific syntax you may encounter on our site.
@@ -60,7 +60,7 @@ Recommendations are a special type of admonition which do **not** need overridin
 
 Translation software gets the translation quite accurate; however, you need to make sure the translated string is correct.
 
-For example:
+例：
 
 ```text
 ![Software logo](assets/img/path/to/image.svg){ align=right }
@@ -68,7 +68,7 @@ For example:
 
 We have sometimes found that the syntax for inserting an image like above was missing the `![` or an extra space was placed between the text and the path, e.g. `](`. If a translation string is clearly not correct, we encourage you to **delete** it by pressing the trash icon [or vote](https://support.crowdin.com/enterprise/getting-started-for-volunteers/#voting-view) on which one you think sounds best. When invalid strings are deleted, they are removed from the organization's [translation memory](https://support.crowdin.com/enterprise/translation-memory), meaning that when the source string is seen again, it won't suggest the incorrect translation.
 
-## Punctuation
+## 句読点
 
 For examples like the above admonitions, quotation marks, e.g.: `" "` must be used to specify string text. MkDocs will not correctly interpret other symbols i.e., `「 」` or `« »`. Other punctuation marks are fine for marking regular quotations within the text otherwise.
 

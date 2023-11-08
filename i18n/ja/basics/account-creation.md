@@ -37,7 +37,7 @@ You will be responsible for managing your login credentials. For added security,
 
 [Recommended password managers](../passwords.md ""){.md-button}
 
-#### Email aliases
+#### 電子メールのエイリアス
 
 If you don't want to give your real email address to a service, you have the option to use an alias. We described them in more detail on our email services recommendation page. Essentially, alias services allow you to generate new email addresses that forward all emails to your main address. This can help prevent tracking across services and help you manage the marketing emails that sometimes come with the sign up process. Those can be filtered automatically based on the alias they are sent to.
 
@@ -65,7 +65,7 @@ OAuth authentication can be especially useful in those situations where you coul
 
 All the services that use OAuth will be as secure as your underlying provider's account. For example, if you want to secure an account with a hardware key, but that service doesn't support hardware keys, you can secure the account you use with OAuth with a hardware key instead, and now you essentially have hardware MFA on all your accounts. It is worth noting though that weak authentication on your OAuth provider account means that any account tied to that login will also be weak.
 
-### Phone number
+### 電話番号
 
 We recommend avoiding services that require a phone number for sign up. A phone number can identity you across multiple services and depending on data sharing agreements this will make your usage easier to track, particularly if one of those services is breached as the phone number is often **not** encrypted.
 

@@ -122,7 +122,7 @@ Password managers allow you to securely store and manage passwords and other cre
 
 [Introduction to Passwords :material-arrow-right-drop-circle:](./basics/passwords-overview.md)
 
-!!! info
+!!! 詳細
 
     Built-in password managers in software like browsers and operating systems are sometimes not as good as dedicated password manager software. The advantage of a built-in password manager is good integration with the software, but it can often be very simple and lack privacy and security features standalone offerings have.
     
@@ -224,7 +224,7 @@ Psono provides extensive documentation for their product. The web-client for Pso
 
 !!! example "この項目は最近作成されました"
 
-    私たちは、サイトの各項目に定義された基準を確立することに取り組んでいます。この基準は変更される可能性があります。 私たちの基準について疑問がある場合は、[フォーラムで質問](https://discuss.privacyguides.net/latest)してください。また、ここに記載されていない場合でも、私たちがプロジェクトを推奨する際に、そうした事柄を考慮しなかったと仮定するのはお止めください。 プロジェクトを推奨する際に考慮され、議論される要素は多くあり、そのすべてを文書化する作業は現在進行中です。
+    私たちは、サイトの各項目に関して、定義された規準の確立に取り組んでいます。この規準は変更される可能性があります。 規準について疑問がある場合は、[フォーラムで質問](https://discuss.privacyguides.net/latest)してください。また、ここに記載されていない場合でも、私たちがプロジェクトを推奨する際に、そうした事柄を考慮しなかったと仮定するのはお止めください。 プロジェクトを推奨する際に考慮され、議論される要素は多くあり、そのすべてを文書化する作業は現在進行中です。
 
 #### 最低要件
 
@@ -241,7 +241,7 @@ Psono provides extensive documentation for their product. The web-client for Pso
 - Telemetry should be opt-in (disabled by default) or not collected at all.
 - Should be open source and reasonably self-hostable.
 
-## Local Storage
+## ローカルのストレージ
 
 These options allow you to manage an encrypted password database locally.
 
@@ -338,6 +338,6 @@ These products are minimal password managers that can be used within scripting a
 
 !!! example "この項目は最近作成されました"
 
-    私たちは、サイトの各項目に関して、定義された規準の確立に取り組んでいます。この規準は変更される可能性があります。 私たちの基準について疑問がある場合は、[フォーラムで質問](https://discuss.privacyguides.net/latest)してください。また、ここに記載されていない場合でも、私たちがプロジェクトを推奨する際に、そうした事柄を考慮しなかったと仮定するのはお止めください。 プロジェクトを推奨する際に考慮され、議論される要素は多くあり、そのすべてを文書化する作業は現在進行中です。
+    私たちは、サイトの各項目に関して、定義された規準の確立に取り組んでいます。この規準は変更される可能性があります。 規準について疑問がある場合は、[フォーラムで質問](https://discuss.privacyguides.net/latest)してください。また、ここに記載されていない場合でも、私たちがプロジェクトを推奨する際に、そうした事柄を考慮しなかったと仮定するのはお止めください。 プロジェクトを推奨する際に考慮され、議論される要素は多くあり、そのすべてを文書化する作業は現在進行中です。
 
 - Must be cross-platform.

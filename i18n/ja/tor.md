@@ -23,7 +23,7 @@ schema:
       url: "./"
 ---
 
-![Tor logo](assets/img/self-contained-networks/tor.svg){ align=right }
+![Torのロゴ](assets/img/self-contained-networks/tor.svg){ align=right }
 
 **Tor**ネットワークは、ボランティアが運営するサーバ群で、無料で接続でき、インターネット上でのプライバシーとセキュリティの確保に役立ちます。 個人や組織は、プライバシーを損なうことなく、Torネットワーク上で「.onion 秘匿サービス」による情報共有が可能です。 Torトラフィックはブロックや追跡が困難であるため、Torは効果的な検閲回避ツールです。
 

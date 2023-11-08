@@ -1,5 +1,5 @@
 ---
-title: Writing Style
+title: 文章のスタイル
 ---
 
 Privacy Guides is written in American English, and you should refer to [APA Style guidelines](https://apastyle.apa.org/style-grammar-guidelines/grammar) when in doubt.

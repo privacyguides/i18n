@@ -1,5 +1,5 @@
 ---
-title: "Qubes Overview"
+title: "Qubesの概要"
 icon: simple/qubesos
 description: Qubes is an operating system built around isolating apps within *qubes* (formerly "VMs") for heightened security.
 ---
@@ -37,7 +37,7 @@ You can [copy and paste text](https://www.qubes-os.org/doc/how-to-copy-and-paste
 3. Press **Ctrl+Shift+V** in the destination *qube* to make the global clipboard available.
 4. Press **Ctrl+V** in the destination *qube* to paste the contents in the buffer.
 
-### File Exchange
+### ファイルの交換
 
 To copy and paste files and directories (folders) from one *qube* to another, you can use the option **Copy to Other AppVM...** or **Move to Other AppVM...**. The difference is that the **Move** option will delete the original file. Either option will protect your clipboard from being leaked to any other *qubes*. This is more secure than air-gapped file transfer. An air-gapped computer will still be forced to parse partitions or file systems. That is not required with the inter-qube copy system.
 

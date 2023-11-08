@@ -108,7 +108,7 @@ When using TOTP with an authenticator app, be sure to back up your recovery keys
 
 When buying a security key, it is important that you change the default credentials, set up password protection for the key, and enable touch confirmation if your key supports it. Products such as the YubiKey have multiple interfaces with separate credentials for each one of them, so you should go over each interface and set up protection as well.
 
-### Email and SMS
+### 電子メールとSMS
 
 If you have to use email for MFA, make sure that the email account itself is secured with a proper MFA method.
 

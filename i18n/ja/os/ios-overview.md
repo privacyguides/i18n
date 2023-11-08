@@ -1,5 +1,5 @@
 ---
-title: iOS Overview
+title: iOSの概要
 icon: simple/apple
 description: iOS is a mobile operating system developed by Apple for the iPhone.
 ---
@@ -85,7 +85,7 @@ You also have the option to **Limit IP Address Tracking**. This is similar to iC
 
 - [ ] Turn off **Bluetooth**
 
-#### General
+#### 一般
 
 Your iPhone's device name will by default contain your first name, and this will be visible to anyone on networks you connect to. You should change this to something more generic, like "iPhone." Select **About** > **Name** and enter the device name you prefer.
 

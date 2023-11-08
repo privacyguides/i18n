@@ -1,5 +1,5 @@
 ---
-title: Linux Overview
+title: Linuxの概要
 icon: simple/linux
 description: Linux is an open-source, privacy-focused desktop operating system alternative, but not all distribitions are created equal.
 ---
@@ -38,7 +38,7 @@ Additionally, Linux falls behind in implementing [exploit mitigations](https://m
 
 Not all Linux distributions are created equal. Our [Linux recommendation page](../desktop.md) is not meant to be an authoritative source on which distribution you should use, but our recommendations *are* aligned with the following guidelines. These are a few things you should keep in mind when choosing a distribution:
 
-### Release cycle
+### リリースサイクル
 
 We highly recommend that you choose distributions which stay close to the stable upstream software releases, often referred to as rolling release distributions. This is because frozen release cycle distributions often don’t update package versions and fall behind on security updates.
 
@@ -97,7 +97,7 @@ Most Linux distributions have an option within its installer for enabling [LUKS]
 
 - [Secure Data Erasure :material-arrow-right-drop-circle:](https://blog.privacyguides.org/2022/05/25/secure-data-erasure/)
 
-### Swap
+### スワップ
 
 Consider using [ZRAM](https://wiki.archlinux.org/title/Zram#Using_zram-generator) instead of a traditional swap file or partition to avoid writing potentially sensitive memory data to persistent storage (and improve performance). Fedora-based distributions [use ZRAM by default](https://fedoraproject.org/wiki/Changes/SwapOnZRAM).
 
@@ -117,7 +117,7 @@ Some Linux distributions (such as [Linux-libre](https://en.wikipedia.org/wiki/Li
 
 We **highly recommend** that you install microcode updates, as they contain important security patches for the CPU which can not be fully mitigated in software alone. Fedora and openSUSE both have the microcode updates applied by default.
 
-### Updates
+### 更新プログラム
 
 Most Linux distributions will automatically install updates or remind you to do so. It is important to keep your OS up to date so that your software is patched when a vulnerability is found.
 

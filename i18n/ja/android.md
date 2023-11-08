@@ -95,7 +95,7 @@ These are the Android operating systems, devices, and apps we recommend to maxim
 
 We recommend installing one of these custom Android operating systems on your device, listed in order of preference, depending on your device's compatibility with these operating systems.
 
-!!! note
+!!! メモ
 
     End-of-life devices (such as GrapheneOS or CalyxOS's "extended support" devices) do not have full security patches (firmware updates) due to the OEM discontinuing support. These devices cannot be considered completely secure regardless of installed software.
 
@@ -274,7 +274,7 @@ Main privacy features include:
 - Use of the new [Media](https://developer.android.com/training/data-storage/shared/media) API, therefore [storage permissions](https://developer.android.com/training/data-storage) are not required
 - Microphone permission not required unless you want to record sound
 
-!!! note
+!!! メモ
 
     Metadata is not currently deleted from video files but that is planned.
     

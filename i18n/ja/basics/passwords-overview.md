@@ -48,7 +48,7 @@ An example of a diceware passphrase is `viewable fastness reluctant squishy seve
 
 To generate a diceware passphrase using real dice, follow these steps:
 
-!!! note
+!!! メモ
 
     These instructions assume that you are using [EFF's large wordlist](https://www.eff.org/files/2016/07/18/eff_large_wordlist.txt) to generate the passphrase, which requires five dice rolls per word. Other wordlists may require more or less rolls per word, and may require a different amount of words to achieve the same entropy.
 
@@ -88,7 +88,7 @@ We recommend using [EFF's large wordlist](https://www.eff.org/files/2016/07/18/e
 
 To sum it up, diceware passphrases are your best option when you need something that is both easy to remember *and* exceptionally strong.
 
-## Storing Passwords
+## パスワードの保存
 
 ### パスワードマネージャー
 

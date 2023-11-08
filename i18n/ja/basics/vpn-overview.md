@@ -11,7 +11,7 @@ Encryption protocols such as HTTPS are commonly used on the internet, so they ma
 
 A VPN can help as it can shift trust to a server somewhere else in the world. As a result, the ISP then only sees that you are connected to a VPN and nothing about the activity that you're passing into it.
 
-## Should I use a VPN?
+## VPNを使うべきですか？
 
 **Yes**, unless you are already using Tor. A VPN does two things: shifting the risks from your Internet Service Provider to itself and hiding your IP from a third-party service.
 
@@ -25,7 +25,7 @@ Using a VPN in cases where you're using your [known identity](common-misconcepti
 
 Doing so may trigger spam and fraud detection systems, such as if you were to log into your bank's website.
 
-## What about encryption?
+## 暗号化については？
 
 Encryption offered by VPN providers are between your devices and their servers. It guarantees that this specific link is secure. This is a step up from using unencrypted proxies where an adversary on the network can intercept the communications between your devices and said proxies and modify them. However, encryption between your apps or browsers with the service providers are not handled by this encryption.
 
@@ -35,7 +35,7 @@ In order to keep what you actually do on the websites you visit private and secu
 
 Unless your VPN provider hosts the encrypted DNS servers, **no**. Using DOH/DOT (or any other form of encrypted DNS) with third-party servers will simply add more entities to trust and does **absolutely nothing** to improve your privacy/security. Your VPN provider can still see which websites you visit based on the IP addresses and other methods. Instead of just trusting your VPN provider, you are now trusting both the VPN provider and the DNS provider.
 
-A common reason to recommend encrypted DNS is that it helps against DNS spoofing. However, your browser should already be checking for [TLS certificates](https://en.wikipedia.org/wiki/Transport_Layer_Security#Digital_certificates) with **HTTPS** and warn you about it. If you are not using **HTTPS**, then an adversary can still just modify anything other than your DNS queries and the end result will be little different.
+暗号化されたDNSを推奨する一般的な理由は、DNSスプーフィングに役立つためです。 However, your browser should already be checking for [TLS certificates](https://en.wikipedia.org/wiki/Transport_Layer_Security#Digital_certificates) with **HTTPS** and warn you about it. If you are not using **HTTPS**, then an adversary can still just modify anything other than your DNS queries and the end result will be little different.
 
 Needless to say, **you shouldn't use encrypted DNS with Tor**. This would direct all of your DNS requests through a single circuit and would allow the encrypted DNS provider to deanonymize you.
 
@@ -43,7 +43,7 @@ Needless to say, **you shouldn't use encrypted DNS with Tor**. This would direct
 
 By using a VPN with Tor, you're creating essentially a permanent entry node, often with a money trail attached. This provides zero additional benefits to you, while increasing the attack surface of your connection dramatically. If you wish to hide your Tor usage from your ISP or your government, Tor has a built-in solution for that: Tor bridges. [Read more about Tor bridges and why using a VPN is not necessary](../advanced/tor-overview.md).
 
-## What if I need anonymity?
+## 匿名性が必要な場合は？
 
 VPNs cannot provide anonymity. Your VPN provider will still see your real IP address, and often has a money trail that can be linked directly back to you. You cannot rely on "no logging" policies to protect your data. Use [Tor](https://www.torproject.org/) instead.
 
@@ -53,7 +53,7 @@ Do not use that feature. The point of using Tor is that you do not trust your VP
 
 The feature should be viewed as a convenient way to access the Tor Network, not to stay anonymous. For proper anonymity, use the Tor Browser, TorSocks, or a Tor gateway.
 
-## When are VPNs useful?
+## VPNはいつ役に立ちますか？
 
 A VPN may still be useful to you in a variety of scenarios, such as:
 

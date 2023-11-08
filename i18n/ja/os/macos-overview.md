@@ -48,7 +48,7 @@ There are a number of built-in settings you should confirm or change to harden y
 
 - [ ] Uncheck **Bluetooth** (unless you are currently using it)
 
-#### Network
+#### ネットワーク
 
 Depending on if you are using **Wi-Fi** or **Ethernet** (denoted by a green dot and the word "connected"), click on the corresponding icon.
 
@@ -56,7 +56,7 @@ Click on the "Details" button by your network name:
 
 - [x] Check **Limit IP address tracking**
 
-##### Firewall
+##### ファイアウォール
 
 Your firewall blocks unwanted network connections. The stricter your firewall settings are, the more secure your Mac is. However, certain services will be blocked. You should configure your firewall to be as strict as you can without blocking services you use.
 
@@ -68,7 +68,7 @@ Click the **Options** button:
 
 If this configuration is too strict, you can come back and uncheck this. However, macOS will typically prompt you to allow incoming connections for an app if the app requests it.
 
-#### General
+#### 一般
 
 By default, your device name will be something like "[your name]'s iMac". Because this name is publicly broadcast on your network, you'll want to change your device name to something generic like "Mac".
 
@@ -154,7 +154,7 @@ Your MAC address is not the only unique information about your device which is b
 
 macOS employs defense in depth by relying on multiple layers of software and hardware-based protections, with different properties. This ensures that a failure in one layer does not compromise the system's overall security.
 
-### Software Security
+### ソフトウェアのセキュリティー
 
 !!! 警告
 
