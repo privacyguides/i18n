@@ -7,32 +7,31 @@ cover: calendar.webp
 
 行事曆包含一些您最敏感的資料；請使用未存取時執行 E2EE 的產品，以防止供應商讀取這些資料。
 
-## Tutanota
+## Tuta
 
 !!! recommendation
 
-    ![Tutanota 標誌](assets/img/calendar/tutanota.svg#only-light){ align=right }
-    ![Tutanota 標誌](assets/img/calendar/tutanota-dark.svg#only-dark){ align=right }
+    ![Tuta logo](assets/img/calendar/tuta.svg){ align=right }
     
-    **Tutanota** 在其支援的平臺上提供免費和加密的日曆。 功能包括：所有數據的自動E2EE ，共享功能，匯入/匯出功能，多因素驗證和 [more](https://tutanota.com/calendar-app-comparison/)。
+    **Tuta** offers a free and encrypted calendar across their supported platforms. Features include: automatic E2EE of all data, sharing features, import/export functionality, multi-factor authentication, and [more](https://tuta.com/calendar-app-comparison/).
     
     多個行事曆和擴展共享功能僅限於付費訂閱者。
     
-    [:octicons-home-16: Homepage](https://tutanota.com/calendar){ .md-button .md-button--primary }
-    [:octicons-eye-16:](https://tutanota.com/privacy){ .card-link title="Privacy Policy" }
-    [:octicons-info-16:](https://tutanota.com/faq){ .card-link title=Documentation}
+    [:octicons-home-16: Homepage](https://tuta.com/calendar){ .md-button .md-button--primary }
+    [:octicons-eye-16:](https://tuta.com/privacy){ .card-link title="Privacy Policy" }
+    [:octicons-info-16:](https://tuta.com/faq){ .card-link title=Documentation}
     [:octicons-code-16:](https://github.com/tutao/tutanota){ .card-link title="Source Code" }
-    [:octicons-heart-16:](https://tutanota.com/community/){ .card-link title=Contribute }
+    [:octicons-heart-16:](https://tuta.com/community/){ .card-link title=Contribute }
     
-    ??? downloads "下載"
+    ??? downloads
     
         - [:simple-googleplay: Google Play](https://play.google.com/store/apps/details?id=de.tutao.tutanota)
         - [:simple-appstore: App Store](https://apps.apple.com/us/app/tutanota/id922429609)
-        - [:simple-windows11: Windows](https://tutanota.com/blog/posts/desktop-clients/)
-        - [:simple-apple: macOS](https://tutanota.com/blog/posts/desktop-clients/)
-        - [:simple-linux: Linux](https://tutanota.com/blog/posts/desktop-clients/)
-        - [:simple-flathub: Flathub](https://flathub.org/apps/details/com.tutanota.Tutanota)
-        - [:octicons-browser-16: Web](https://mail.tutanota.com/)
+        - [:simple-windows11: Windows](https://tuta.com/blog/posts/desktop-clients/)
+        - [:simple-apple: macOS](https://tuta.com/blog/posts/desktop-clients/)
+        - [:simple-linux: Linux](https://tuta.com/blog/posts/desktop-clients/)
+        - [:simple-flathub: Flathub](https://flathub.org/apps/com.tutanota.Tutanota)
+        - [:octicons-browser-16: Web](https://app.tuta.com/)
 
 ## Proton Calendar
 

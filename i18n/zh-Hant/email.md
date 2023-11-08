@@ -157,7 +157,7 @@ Mailbox.org 所有方案都提供了數位遺產功能。 你可以選擇是否�
 <div class="grid cards" markdown>
 
 - ![Skiff Mail logo](assets/img/email/skiff-mail.svg){ .twemoji } [Skiff Mail](email.md#skiff-mail)
-- ![Tutanota logo](assets/img/email/tutanota.svg){ .twemoji } [Tutanota](email.md#tutanota)
+- ![Tuta logo](assets/img/email/tuta.svg){ .twemoji } [Tuta](email.md#tuta)
 
 </div>
 
@@ -212,63 +212,63 @@ Skiff 額外提供 [工作空間生產效率功能s](https://discuss.privacyguid
 
 Skiff Mail 不提供數位遺產功能。
 
-### Tutanota
+### Tuta
 
 !!! recommendation
 
-    ![Tutanota標誌](assets/img/email/tutanota.svg){ align=right }
+    ![Tuta logo](assets/img/email/tuta.svg){ align=right }
     
-    **Tutanota** 使用加密、關注安全和隱私的電子郵件服務。 Tutanota自 **2011 年** 開始運營，總部位於德國漢諾威。 免費帳戶有 1GB 儲存空間。
+    **Tuta** is an email service with a focus on security and privacy through the use of encryption. Tuta has been in operation since **2011** and is based in Hanover, Germany. 免費帳戶有 1GB 儲存空間。
     
-    [:octicons-home-16: Homepage](https://tutanota.com){ .md-button .md-button--primary }
-    [:octicons-eye-16:](https://tutanota.com/privacy){ .card-link title="Privacy Policy" }
-    [:octicons-info-16:](https://tutanota.com/faq){ .card-link title=Documentation}
+    [:octicons-home-16: Homepage](https://tuta.com){ .md-button .md-button--primary }
+    [:octicons-eye-16:](https://tuta.com/privacy){ .card-link title="Privacy Policy" }
+    [:octicons-info-16:](https://tuta.com/faq){ .card-link title=Documentation}
     [:octicons-code-16:](https://github.com/tutao/tutanota){ .card-link title="Source Code" }
-    [:octicons-heart-16:](https://tutanota.com/community/){ .card-link title=Contribute }
+    [:octicons-heart-16:](https://tuta.com/community/){ .card-link title=Contribute }
     
-    ??? downloads "下載"
+    ??? downloads
     
         - [:simple-googleplay: Google Play](https://play.google.com/store/apps/details?id=de.tutao.tutanota)
         - [:simple-appstore: App Store](https://apps.apple.com/app/tutanota/id922429609)
         - [:simple-github: GitHub](https://github.com/tutao/tutanota/releases)
-        - [:simple-windows11: Windows](https://tutanota.com/#download)
-        - [:simple-apple: macOS](https://tutanota.com/#download)
-        - [:simple-linux: Linux](https://tutanota.com/#download)
-        - [:octicons-browser-16: Web](https://mail.tutanota.com/)
+        - [:simple-windows11: Windows](https://tuta.com/#download)
+        - [:simple-apple: macOS](https://tuta.com/#download)
+        - [:simple-linux: Linux](https://tuta.com/#download)
+        - [:octicons-browser-16: Web](https://app.tuta.com/)
 
-Tutanota 不支援 [ IMAP 協議](https://tutanota.com/faq/#imap) 或使用第三方 [電子郵件客戶端](email-clients.md)，您也無法將 [外部電子郵件帳戶](https://github.com/tutao/tutanota/issues/544#issuecomment-670473647) 添加到 Tutanota應用程式。 目前不支援 [電子郵件匯入](https://github.com/tutao/tutanota/issues/630) 與 [子資料夾](https://github.com/tutao/tutanota/issues/927) ，但很快就 [會改善](https://tutanota.com/blog/posts/kickoff-import)。 電子郵件可以單個 [或選擇資料夾批量](https://tutanota.com/howto#generalMail)匯出 ，但若您有許多資料夾，可能會不方便。
+Tuta doesn't support the [IMAP protocol](https://tuta.com/faq/#imap) or the use of third-party [email clients](email-clients.md), and you also won't be able to add [external email accounts](https://github.com/tutao/tutanota/issues/544#issuecomment-670473647) to the Tuta app. Neither [Email import](https://github.com/tutao/tutanota/issues/630) or [subfolders](https://github.com/tutao/tutanota/issues/927) are currently supported, though this is [due to be changed](https://tuta.com/blog/posts/kickoff-import). Emails can be exported [individually or by bulk selection](https://tuta.com/howto#generalMail) per folder, which may be inconvenient if you have many folders.
 
 #### :material-check:{ .pg-green } Custom Domains and Aliases
 
-付費的 Tutanota 帳戶可使用 15 ~ 30 別名，而 [自定域名](https://tutanota.com/faq#custom-domain)帳戶則無上限。 Tutanota 不能 [子地址（加號 +定址）](https://tutanota.com/faq#plus)，但您可以使用自定義域名的 [通用電于郵件](https://tutanota.com/howto#settings-global)功能 。
+Paid Tuta accounts can use either 15 or 30 aliases depending on their plan and unlimited aliases on [custom domains](https://tuta.com/faq#custom-domain). Tuta doesn't allow for [subaddressing (plus addresses)](https://tuta.com/faq#plus), but you can use a [catch-all](https://tuta.com/howto#settings-global) with a custom domain.
 
 #### :material-information-outline:{ .pg-blue } 私人付款方式
 
-Tutanota 僅接受信用卡和 PayPal ，但 [加密貨幣](cryptocurrency.md) 可用於通過其[ 合作伙伴 Proxystore ](https://tutanota.com/faq/#cryptocurrency) 購買禮品卡。
+Tuta only directly accepts credit cards and PayPal, however [cryptocurrency](cryptocurrency.md) can be used to purchase gift cards via their [partnership](https://tuta.com/faq/#cryptocurrency) with Proxystore.
 
 #### :material-check:{ .pg-green } 帳戶安全
 
-Tutanota支援 TOTP 或 U2F 的 [雙因素驗證](https://tutanota.com/faq#2fa) 。
+Tuta supports [two factor authentication](https://tuta.com/faq#2fa) with either TOTP or U2F.
 
 #### :material-check:{ .pg-green } 資料安全
 
-Tutanota 提供 [未登入零存取](https://tutanota.com/faq#what-encrypted) 支援，其應用在電子郵件、 [通訊錄](https://tutanota.com/faq#encrypted-address-book)以及 [行事曆](https://tutanota.com/faq#calendar)。 這意味著儲存在您帳戶中的訊息和其他資料只有您能讀取。
+Tuta has [zero access encryption at rest](https://tuta.com/faq#what-encrypted) for your emails, [address book contacts](https://tuta.com/faq#encrypted-address-book), and [calendars](https://tuta.com/faq#calendar). 這意味著儲存在您帳戶中的訊息和其他資料只有您能讀取。
 
 #### :material-information-outline:{ .pg-blue } 電子郵件加密
 
-Tutanota [不使用 OpenPGP ](https://www.tutanota.com/faq/#pgp)。 只能透過 [臨時 Tutanota郵箱](https://www.tutanota.com/howto/#encrypted-email-external)，才能接收非Tutanota電子郵件帳戶寄出的加密電子郵件。
+Tuta [does not use OpenPGP](https://tuta.com/support/#pgp). Tuta accounts can only receive encrypted emails from non-Tuta email accounts when sent via a [temporary Tuta mailbox](https://tuta.com/support/#encrypted-email-external).
 
 #### :material-information-outline:{ .pg-blue } 帳戶終止
 
-Tutanota [刪除六個月未登入使用的免費帳戶](https://tutanota.com/faq#inactive-accounts) 。 付費後，可以重用激活已停用的免費帳戶。
+Tuta will [delete inactive free accounts](https://tuta.com/faq#inactive-accounts) after six months. 付費後，可以重用激活已停用的免費帳戶。
 
 #### :material-information-outline:{ .pg-blue } 額外功能
 
-Tutanota 向非營利組織提供免費 [商業版本](https://tutanota.com/blog/posts/secure-email-for-non-profit) 或大幅折扣。
+Tuta offers the business version of [Tuta to non-profit organizations](https://tuta.com/blog/posts/secure-email-for-non-profit) for free or with a heavy discount.
 
-Tutanota  付費版還有一種 [Secure Connect](https://tutanota.com/secure-connect/)功能。 這可以確保客戶的業務聯繫使用 E2EE。 價格爲一年 € 240 歐元。
+Tuta also has a business feature called [Secure Connect](https://tuta.com/secure-connect/). 這可以確保客戶的業務聯繫使用 E2EE。 價格爲一年 € 240 歐元。
 
-Tutanota不提供數字遺產功能。
+Tuta doesn't offer a digital legacy feature.
 
 ## 郵箱別名
 

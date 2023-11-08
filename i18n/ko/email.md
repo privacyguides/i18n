@@ -157,7 +157,7 @@ Mailbox.org는 모든 플랜에 디지털 유산 상속 기능을 제공합니�
 <div class="grid cards" markdown>
 
 - ![Skiff Mail logo](assets/img/email/skiff-mail.svg){ .twemoji } [Skiff Mail](email.md#skiff-mail)
-- ![Tutanota logo](assets/img/email/tutanota.svg){ .twemoji } [Tutanota](email.md#tutanota)
+- ![Tuta logo](assets/img/email/tuta.svg){ .twemoji } [Tuta](email.md#tuta)
 
 </div>
 
@@ -212,63 +212,63 @@ Skiff additionally offers [workspace productivity features](https://discuss.priv
 
 Skiff Mail does not offer a digital legacy feature.
 
-### Tutanota
+### Tuta
 
 !!! recommendation
 
-    ![Tutanota 로고](assets/img/email/tutanota.svg){ align=right }
+    ![Tuta logo](assets/img/email/tuta.svg){ align=right }
     
-    **Tutanota**는 암호화 적용을 통한 보안 및 프라이버시 보호에 중점을 둔 이메일 서비스입니다. Tutanota는 2011년부터 운영되고 있으며 본사는 독일 하노버에 위치하고 있습니다. 무료 플랜 계정은 1GB 저장 공간으로 시작합니다.
+    **Tuta** is an email service with a focus on security and privacy through the use of encryption. Tuta has been in operation since **2011** and is based in Hanover, Germany. 무료 플랜 계정은 1GB 저장 공간으로 시작합니다.
     
-    [:octicons-home-16: 홈페이지](https://tutanota.com){ .md-button .md-button--primary }
-    [:octicons-eye-16:](https://tutanota.com/privacy){ .card-link title="프라이버시 정책" }
-    [:octicons-info-16:](https://tutanota.com/faq){ .card-link title=문서}
-    [:octicons-code-16:](https://github.com/tutao/tutanota){ .card-link title="소스 코드" }
-    [:octicons-heart-16:](https://tutanota.com/community/){ .card-link title=기여 }
+    [:octicons-home-16: Homepage](https://tuta.com){ .md-button .md-button--primary }
+    [:octicons-eye-16:](https://tuta.com/privacy){ .card-link title="Privacy Policy" }
+    [:octicons-info-16:](https://tuta.com/faq){ .card-link title=Documentation}
+    [:octicons-code-16:](https://github.com/tutao/tutanota){ .card-link title="Source Code" }
+    [:octicons-heart-16:](https://tuta.com/community/){ .card-link title=Contribute }
     
-    ??? downloads "다운로드"
+    ??? downloads
     
         - [:simple-googleplay: Google Play](https://play.google.com/store/apps/details?id=de.tutao.tutanota)
         - [:simple-appstore: App Store](https://apps.apple.com/app/tutanota/id922429609)
         - [:simple-github: GitHub](https://github.com/tutao/tutanota/releases)
-        - [:simple-windows11: Windows](https://tutanota.com/#download)
-        - [:simple-apple: macOS](https://tutanota.com/#download)
-        - [:simple-linux: Linux](https://tutanota.com/#download)
-        - [:octicons-browser-16: Web](https://mail.tutanota.com/)
+        - [:simple-windows11: Windows](https://tuta.com/#download)
+        - [:simple-apple: macOS](https://tuta.com/#download)
+        - [:simple-linux: Linux](https://tuta.com/#download)
+        - [:octicons-browser-16: Web](https://app.tuta.com/)
 
-Tutanota는 [IMAP 프로토콜](https://tutanota.com/faq/#imap)이나 외부 [이메일 클라이언트](email-clients.md)를 지원하지 않으며, Tutanota 앱에 [외부 이메일 계정](https://github.com/tutao/tutanota/issues/544#issuecomment-670473647)을 추가하는 것도 불가능합니다. [이메일 가져오기](https://github.com/tutao/tutanota/issues/630)나 [하위 폴더](https://github.com/tutao/tutanota/issues/927)는 현재 지원되지 않지만, [개선 예정입니다](https://tutanota.com/blog/posts/kickoff-import). 이메일은 [개별적으로 혹은 폴더별로 일괄 선택](https://tutanota.com/howto#generalMail)하여 내보낼 수 있으나, 폴더가 많은 경우 불편할 수 있습니다.
+Tuta doesn't support the [IMAP protocol](https://tuta.com/faq/#imap) or the use of third-party [email clients](email-clients.md), and you also won't be able to add [external email accounts](https://github.com/tutao/tutanota/issues/544#issuecomment-670473647) to the Tuta app. Neither [Email import](https://github.com/tutao/tutanota/issues/630) or [subfolders](https://github.com/tutao/tutanota/issues/927) are currently supported, though this is [due to be changed](https://tuta.com/blog/posts/kickoff-import). Emails can be exported [individually or by bulk selection](https://tuta.com/howto#generalMail) per folder, which may be inconvenient if you have many folders.
 
 #### :material-check:{ .pg-green } 사용자 지정 도메인 및 별칭
 
-Paid Tutanota accounts can use either 15 or 30 aliases depending on their plan and unlimited aliases on [custom domains](https://tutanota.com/faq#custom-domain). Tutanota는 [보조 주소(Plus 주소)](https://tutanota.com/faq#plus)를 허용하지 않지만, 사용자 지정 도메인 [Catch-all](https://tutanota.com/howto#settings-global) 기능은 지원합니다.
+Paid Tuta accounts can use either 15 or 30 aliases depending on their plan and unlimited aliases on [custom domains](https://tuta.com/faq#custom-domain). Tuta doesn't allow for [subaddressing (plus addresses)](https://tuta.com/faq#plus), but you can use a [catch-all](https://tuta.com/howto#settings-global) with a custom domain.
 
 #### :material-information-outline:{ .pg-blue } 비공개 결제 수단
 
-Tutanota는 신용카드, Paypal만 직접 결제할 수 있으나, Tutanota와 Proxystore의 [파트너십](https://tutanota.com/faq/#cryptocurrency)을 이용해 [암호화폐](cryptocurrency.md)로 기프트 카드 구입이 가능합니다.
+Tuta only directly accepts credit cards and PayPal, however [cryptocurrency](cryptocurrency.md) can be used to purchase gift cards via their [partnership](https://tuta.com/faq/#cryptocurrency) with Proxystore.
 
 #### :material-check:{ .pg-green } 계정 보안
 
-Tutanota는 TOTP/U2F [이중 인증](https://tutanota.com/faq#2fa)을 지원합니다.
+Tuta supports [two factor authentication](https://tuta.com/faq#2fa) with either TOTP or U2F.
 
 #### :material-check:{ .pg-green } 데이터 보안
 
-Tutanota는 이메일, [주소록 연락처](https://tutanota.com/faq#encrypted-address-book), [캘린더](https://tutanota.com/faq#calendar)에 [Zero Access Encryption을 적용하고 있습니다](https://tutanota.com/faq#what-encrypted). 즉, 계정에 저장된 메시지 및 기타 데이터는 사용자 본인만 읽을 수 있습니다.
+Tuta has [zero access encryption at rest](https://tuta.com/faq#what-encrypted) for your emails, [address book contacts](https://tuta.com/faq#encrypted-address-book), and [calendars](https://tuta.com/faq#calendar). 즉, 계정에 저장된 메시지 및 기타 데이터는 사용자 본인만 읽을 수 있습니다.
 
 #### :material-information-outline:{ .pg-blue } 이메일 암호화
 
-Tutanota는 [OpenPGP를 사용하지 않습니다](https://www.tutanota.com/faq/#pgp). Tutanota 계정이 Tutanota 외의 이메일 계정으로부터 암호화된 이메일을 받는 것은 [임시 Tutanota 메일함](https://www.tutanota.com/howto/#encrypted-email-external)을 통해 전송된 경우에만 가능합니다.
+Tuta [does not use OpenPGP](https://tuta.com/support/#pgp). Tuta accounts can only receive encrypted emails from non-Tuta email accounts when sent via a [temporary Tuta mailbox](https://tuta.com/support/#encrypted-email-external).
 
 #### :material-information-outline:{ .pg-blue } 계정 해지
 
-Tutanota는 6개월 이상 [활동이 없는 무료 계정을 삭제](https://tutanota.com/faq#inactive-accounts)합니다. 돈을 지불하면 비활성화된 계정을 재사용할 수 있습니다.
+Tuta will [delete inactive free accounts](https://tuta.com/faq#inactive-accounts) after six months. 돈을 지불하면 비활성화된 계정을 재사용할 수 있습니다.
 
 #### :material-information-outline:{ .pg-blue } 추가 기능
 
-Tutanota는 [비영리 단체에게 Tutanota 비즈니스 버전을](https://tutanota.com/blog/posts/secure-email-for-non-profit) 무료 혹은 대폭 할인된 가격으로 제공합니다.
+Tuta offers the business version of [Tuta to non-profit organizations](https://tuta.com/blog/posts/secure-email-for-non-profit) for free or with a heavy discount.
 
-Tutanota에는 [Secure Connect](https://tutanota.com/secure-connect/)라는 비즈니스 기능 또한 존재합니다. 이는 고객의 비즈니스 연락에 E2EE 적용을 보장합니다. 해당 기능의 가격은 연간 240유로입니다.
+Tuta also has a business feature called [Secure Connect](https://tuta.com/secure-connect/). 이는 고객의 비즈니스 연락에 E2EE 적용을 보장합니다. 해당 기능의 가격은 연간 240유로입니다.
 
-Tutanota는 디지털 유산 상속 기능을 제공하지 않습니다.
+Tuta doesn't offer a digital legacy feature.
 
 ## 이메일 별칭 서비스
 

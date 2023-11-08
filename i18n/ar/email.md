@@ -157,7 +157,7 @@ These providers natively support OpenPGP encryption/decryption and the [Web Key 
 <div class="grid cards" markdown>
 
 - ![Skiff Mail logo](assets/img/email/skiff-mail.svg){ .twemoji } [Skiff Mail](email.md#skiff-mail)
-- ![Tutanota logo](assets/img/email/tutanota.svg){ .twemoji } [Tutanota](email.md#tutanota)
+- ![Tuta logo](assets/img/email/tuta.svg){ .twemoji } [Tuta](email.md#tuta)
 
 </div>
 
@@ -212,63 +212,63 @@ Skiff additionally offers [workspace productivity features](https://discuss.priv
 
 Skiff Mail does not offer a digital legacy feature.
 
-### توتنوتا
+### Tuta
 
 !!! recommendation
 
-    ![Tutanota logo](assets/img/email/tutanota.svg){ align=left }
+    ![Tuta logo](assets/img/email/tuta.svg){ align=right }
     
-    **توتنوتا** هي خدمة بُرُد إلكترونية تركِّز على الأمن والخصوصية باستخدام التعمية. وهم يعملون منذ ٢٠١١، ومقرُّهم في هانوفر في ألمانيا. تبدأ الحسابات المجانية عندهم بمساحة تخزين ١ ج‌بايت.
+    **Tuta** is an email service with a focus on security and privacy through the use of encryption. Tuta has been in operation since **2011** and is based in Hanover, Germany. تبدأ الحسابات المجانية عندهم بمساحة تخزين ١ ج‌بايت.
     
-    [:octicons-home-16: الصفحة الرئيسة](https://tutanota.com){ .md-button .md-button--primary }
-    [:octicons-eye-16:](https://tutanota.com/privacy){ .card-link title="سياسة الخصوصية" }
-    [:octicons-info-16:](https://tutanota.com/faq){ .card-link title=التوثيق}
-    [:octicons-code-16:](https://github.com/tutao/tutanota){ .card-link title="رمز المصدر" }
-    [:octicons-heart-16:](https://tutanota.com/community/){ .card-link title=ساهم }
+    [:octicons-home-16: Homepage](https://tuta.com){ .md-button .md-button--primary }
+    [:octicons-eye-16:](https://tuta.com/privacy){ .card-link title="Privacy Policy" }
+    [:octicons-info-16:](https://tuta.com/faq){ .card-link title=Documentation}
+    [:octicons-code-16:](https://github.com/tutao/tutanota){ .card-link title="Source Code" }
+    [:octicons-heart-16:](https://tuta.com/community/){ .card-link title=Contribute }
     
-    ??? التنزيلات
+    ??? downloads
     
-        - [:simple-googleplay: متجر بلاي](https://play.google.com/store/apps/details?id=de.tutao.tutanota)
-        - [:simple-appstore: آب ستور](https://apps.apple.com/app/tutanota/id922429609)
-        - [:simple-github: جت‌هب](https://github.com/tutao/tutanota/releases)
-        - [:simple-windows11: ويندوز](https://tutanota.com/#download)
-        - [:simple-apple: ماك‌أو‌إس](https://tutanota.com/#download)
-        - [:simple-linux: لينكس](https://tutanota.com/#download)
-        - [:octicons-browser-16: وِب](https://mail.tutanota.com/)
+        - [:simple-googleplay: Google Play](https://play.google.com/store/apps/details?id=de.tutao.tutanota)
+        - [:simple-appstore: App Store](https://apps.apple.com/app/tutanota/id922429609)
+        - [:simple-github: GitHub](https://github.com/tutao/tutanota/releases)
+        - [:simple-windows11: Windows](https://tuta.com/#download)
+        - [:simple-apple: macOS](https://tuta.com/#download)
+        - [:simple-linux: Linux](https://tuta.com/#download)
+        - [:octicons-browser-16: Web](https://app.tuta.com/)
 
-لا تدعم توتنوتا [ميفاق IMAP](https://tutanota.com/faq/#imap) أو استخدام [تطبيقات البُرُد الإلكترونية](email-clients.md) غير تطبيقهم، ولن تستطيع إضافة [حسابات خارجية](https://github.com/tutao/tutanota/issues/544#issuecomment-670473647) في تطبيقهم. ولا يدعم [استيراد الرسائل](https://github.com/tutao/tutanota/issues/630) ولا [المجلَّدات الفرعية](https://github.com/tutao/tutanota/issues/927) حاليًّا، ولكنَّ هذا [في صدد التغيير](https://tutanota.com/blog/posts/kickoff-import). يمكن تصدير الرسائل [فرادًى أو مجمَّعةً حسب الاختيار](https://tutanota.com/howto#generalMail) لكلِّ مجلَّد، ولعلَّ هذا مزعج إن كانت عندك العديد من المجلَّدات.
+Tuta doesn't support the [IMAP protocol](https://tuta.com/faq/#imap) or the use of third-party [email clients](email-clients.md), and you also won't be able to add [external email accounts](https://github.com/tutao/tutanota/issues/544#issuecomment-670473647) to the Tuta app. Neither [Email import](https://github.com/tutao/tutanota/issues/630) or [subfolders](https://github.com/tutao/tutanota/issues/927) are currently supported, though this is [due to be changed](https://tuta.com/blog/posts/kickoff-import). Emails can be exported [individually or by bulk selection](https://tuta.com/howto#generalMail) per folder, which may be inconvenient if you have many folders.
 
 #### :material-check:{ .pg-green } النطاقات المخصَّصة والكنى
 
-Paid Tutanota accounts can use either 15 or 30 aliases depending on their plan and unlimited aliases on [custom domains](https://tutanota.com/faq#custom-domain). لا تسمح توتنوتا [بالعنونة الفرعية (العنونة الإضافية)](https://tutanota.com/faq#plus)، لكن بوسعك استخدام [مصياد شامل](https://tutanota.com/howto#settings-global)، وذلك باسم نطاق مخصَّص.
+Paid Tuta accounts can use either 15 or 30 aliases depending on their plan and unlimited aliases on [custom domains](https://tuta.com/faq#custom-domain). Tuta doesn't allow for [subaddressing (plus addresses)](https://tuta.com/faq#plus), but you can use a [catch-all](https://tuta.com/howto#settings-global) with a custom domain.
 
 #### :material-information-outline:{ .pg-blue } سُبُل الدفع الخاصَّة
 
-لا تقبل توتنوتا مباشرةً إلى بطاقات الإئتمان وبي‌بال، ولكن يمكنك استخدام [العملات المعمَّاة](cryptocurrency.md) لشراء بطاقات هدايا عن طريق [تعاونهم](https://tutanota.com/faq/#cryptocurrency) مع بروكسيستور.
+Tuta only directly accepts credit cards and PayPal, however [cryptocurrency](cryptocurrency.md) can be used to purchase gift cards via their [partnership](https://tuta.com/faq/#cryptocurrency) with Proxystore.
 
 #### :material-check:{ .pg-green } أمن الحساب
 
-تدعم توتنوتا [الاستيثاق بخطوتين](https://tutanota.com/faq#2fa)، وذلك عبر كلمة مرور لمرَّة واحدة حسب الوقت أو مفتاح أمن المعامل الثاني الشامل.
+Tuta supports [two factor authentication](https://tuta.com/faq#2fa) with either TOTP or U2F.
 
 #### :material-check:{ .pg-green } أمن البيانات
 
-تدعم توتنوتا [التعمية دون وصول](https://tutanota.com/faq#what-encrypted) للرسائل [ودفتر العنواين](https://tutanota.com/faq#encrypted-address-book) [والتقويمات](https://tutanota.com/faq#calendar). ويعني هذا أن الرسائل والبيانات المخزَّنة في حسابك لا يقرؤها إلا أنت.
+Tuta has [zero access encryption at rest](https://tuta.com/faq#what-encrypted) for your emails, [address book contacts](https://tuta.com/faq#encrypted-address-book), and [calendars](https://tuta.com/faq#calendar). ويعني هذا أن الرسائل والبيانات المخزَّنة في حسابك لا يقرؤها إلا أنت.
 
 #### :material-information-outline:{ .pg-blue } Email Encryption
 
-[لا تستعمل توتنوتا أوبن‌بي‌جي‌بي](https://www.tutanota.com/faq/#pgp). تستقبل حسابات توتنوتا الرسائل المعمَّاة من غير حسابات توتنوتا إن أرسلوا من [صندوق بريد توتنوتا مؤقَّت](https://www.tutanota.com/howto/#encrypted-email-external).
+Tuta [does not use OpenPGP](https://tuta.com/support/#pgp). Tuta accounts can only receive encrypted emails from non-Tuta email accounts when sent via a [temporary Tuta mailbox](https://tuta.com/support/#encrypted-email-external).
 
 #### :material-information-outline:{ .pg-blue } إنهاء الحسابات
 
-تحذف توتنوتا [الحسابات الخاملة](https://tutanota.com/faq#inactive-accounts) بعد ستِّ أشهر. ولك إعادة استخدام حساب ألغي تفعليه إن دفعت.
+Tuta will [delete inactive free accounts](https://tuta.com/faq#inactive-accounts) after six months. ولك إعادة استخدام حساب ألغي تفعليه إن دفعت.
 
 #### :material-information-outline:{ .pg-blue } Additional Functionality
 
-توفِّر توتنوتا نسخة الأعمال من [خدمتهم إلى المنظمَّات غير الربحية](https://tutanota.com/blog/posts/secure-email-for-non-profit) مجَّانًا أو بتخفيض كبير.
+Tuta offers the business version of [Tuta to non-profit organizations](https://tuta.com/blog/posts/secure-email-for-non-profit) for free or with a heavy discount.
 
-عند توتنوتا ميزة أعمال اسمها [الاتصال الآمن](https://tutanota.com/secure-connect/). وهي تضمن أن اتصال العميل بعمل معمًّى بين الأطراف. يكلِّف هذا ٢٤٠ يورو لكلِّ سنة.
+Tuta also has a business feature called [Secure Connect](https://tuta.com/secure-connect/). وهي تضمن أن اتصال العميل بعمل معمًّى بين الأطراف. يكلِّف هذا ٢٤٠ يورو لكلِّ سنة.
 
-ليس عند توتنوتا ميزة الإرث الرقميِّ.
+Tuta doesn't offer a digital legacy feature.
 
 ## خدمات تكنية البُرُد الإلكترونية
 

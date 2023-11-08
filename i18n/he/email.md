@@ -156,8 +156,8 @@ Mailbox.org כולל תכונת מורשת דיגיטלית לכל התוכני�
 
 <div class="grid cards" markdown>
 
-- ![Skiff Mail לוגו](assets/img/email/skiff-mail.svg){ .twemoji } [Skiff Mail](email.md#skiff-mail)
-- ![Tutanota לוגו](assets/img/email/tutanota.svg){ .twemoji } [Tutanota](email.md#tutanota)
+- ![Skiff Mail logo](assets/img/email/skiff-mail.svg){ .twemoji } [Skiff Mail](email.md#skiff-mail)
+- ![Tuta logo](assets/img/email/tuta.svg){ .twemoji } [Tuta](email.md#tuta)
 
 </div>
 
@@ -212,63 +212,63 @@ Skiff מציעה בנוסף [תכונות פרודוקטיביות של סביב
 
 Skiff Mail אינו מציע תכונה דיגיטלית מדור קודם.
 
-### Tutanota
+### Tuta
 
 !!! recommendation
 
-    ![Tutanota לוגו](assets/img/email/tutanota.svg){ align=right }
+    ![Tuta logo](assets/img/email/tuta.svg){ align=right }
     
-    **Tutanota** הוא שירות דוא"ל עם דגש על אבטחה ופרטיות באמצעות הצפנה. Tutanota פועלת מאז **2011** ובסיסה בהנובר, גרמניה. חשבונות מתחילים עם שטח אחסון של 1GB עם התוכנית החינמית שלהם.
+    **Tuta** is an email service with a focus on security and privacy through the use of encryption. Tuta has been in operation since **2011** and is based in Hanover, Germany. חשבונות מתחילים עם שטח אחסון של 1GB עם התוכנית החינמית שלהם.
     
-    [:octicons-home-16: Homepage](https://tutanota.com){ .md-button .md-button--primary }
-    [:octicons-eye-16:](https://tutanota.com/privacy){ .card-link title="מדיניות פרטיות" }
-    [:octicons-info-16:](https://tutanota.com/faq){ .card-link title=תיעוד}
-    [:octicons-code-16:](https://github.com/tutao/tutanota){ .card-link title="קוד מקור" }
-    [:octicons-heart-16:](https://tutanota.com/community/){ .card-link title=לתרומה }
+    [:octicons-home-16: Homepage](https://tuta.com){ .md-button .md-button--primary }
+    [:octicons-eye-16:](https://tuta.com/privacy){ .card-link title="Privacy Policy" }
+    [:octicons-info-16:](https://tuta.com/faq){ .card-link title=Documentation}
+    [:octicons-code-16:](https://github.com/tutao/tutanota){ .card-link title="Source Code" }
+    [:octicons-heart-16:](https://tuta.com/community/){ .card-link title=Contribute }
     
-    ??? downloads "הורדות"
+    ??? downloads
     
         - [:simple-googleplay: Google Play](https://play.google.com/store/apps/details?id=de.tutao.tutanota)
         - [:simple-appstore: App Store](https://apps.apple.com/app/tutanota/id922429609)
         - [:simple-github: GitHub](https://github.com/tutao/tutanota/releases)
-        - [:simple-windows11: Windows](https://tutanota.com/#download)
-        - [:simple-apple: macOS](https://tutanota.com/#download)
-        - [:simple-linux: Linux](https://tutanota.com/#download)
-        - [:octicons-browser-16: Web](https://mail.tutanota.com/)
+        - [:simple-windows11: Windows](https://tuta.com/#download)
+        - [:simple-apple: macOS](https://tuta.com/#download)
+        - [:simple-linux: Linux](https://tuta.com/#download)
+        - [:octicons-browser-16: Web](https://app.tuta.com/)
 
-Tutanota אינה משתמשת בפרוטוקול [IMAP](https://tutanota.com/faq/#imap) או בשימוש של [לקוחות דואר אלקטרוני של צד שלישי](email-clients.md), וגם לא תוכל להוסיף [חשבונות דואר אלקטרוני חיצוניים](https://github.com/tutao/tutanota/issues/544#issuecomment-670473647) לאפליקציית Tutanota. לא [ייבוא דוא"ל](https://github.com/tutao/tutanota/issues/630) או [תיקיות משנה](https://github.com/tutao/tutanota/issues/927) נתמכים כעת, אם כי זה [בשל להיות שונה](https://tutanota.com/blog/posts/kickoff-import). הודעות דוא"ל ניתן לייצא [בנפרד או על ידי בחירה בכמות גדולה](https://tutanota.com/howto#generalMail) לכל תיקייה, דבר שעלול להיות לא נוח אם יש לך תיקיות רבות.
+Tuta doesn't support the [IMAP protocol](https://tuta.com/faq/#imap) or the use of third-party [email clients](email-clients.md), and you also won't be able to add [external email accounts](https://github.com/tutao/tutanota/issues/544#issuecomment-670473647) to the Tuta app. Neither [Email import](https://github.com/tutao/tutanota/issues/630) or [subfolders](https://github.com/tutao/tutanota/issues/927) are currently supported, though this is [due to be changed](https://tuta.com/blog/posts/kickoff-import). Emails can be exported [individually or by bulk selection](https://tuta.com/howto#generalMail) per folder, which may be inconvenient if you have many folders.
 
 #### :material-check:{ .pg-green } דומיינים וכינויים מותאמים אישית
 
-Paid Tutanota accounts can use either 15 or 30 aliases depending on their plan and unlimited aliases on [custom domains](https://tutanota.com/faq#custom-domain). Tutanota אינה מאפשרת [כתובת משנה (בתוספת כתובות)](https://tutanota.com/faq#plus), אבל אתה יכול להשתמש ב[תפוס הכל](https://tutanota.com/howto#settings-global) עם דומיין מותאם אישית.
+Paid Tuta accounts can use either 15 or 30 aliases depending on their plan and unlimited aliases on [custom domains](https://tuta.com/faq#custom-domain). Tuta doesn't allow for [subaddressing (plus addresses)](https://tuta.com/faq#plus), but you can use a [catch-all](https://tuta.com/howto#settings-global) with a custom domain.
 
 #### :material-information-outline:{ .pg-blue } שיטות תשלום פרטיות
 
-Tutanota מקבל ישירות כרטיסי אשראי ופייפאל, אולם ניתן להשתמש ב[מטבע קריפטוגרפי](cryptocurrency.md) לרכישת כרטיסי מתנה באמצעות [שותפות](https://tutanota.com/faq/#cryptocurrency) שלהם עם Proxystore.
+Tuta only directly accepts credit cards and PayPal, however [cryptocurrency](cryptocurrency.md) can be used to purchase gift cards via their [partnership](https://tuta.com/faq/#cryptocurrency) with Proxystore.
 
 #### :material-check:{ .pg-green } אבטחת חשבון
 
-Tutanota תומך ב[אימות דו-שלבי](https://tutanota.com/faq#2fa) עם TOTP או U2F.
+Tuta supports [two factor authentication](https://tuta.com/faq#2fa) with either TOTP or U2F.
 
 #### :material-check:{ .pg-green } אבטחת מידע
 
-ל-Tutanota יש [הצפנת גישה אפס בזמן מנוחה](https://tutanota.com/faq#what-encrypted) עבור המיילים, [אנשי הקשר בפנקס](https://tutanota.com/faq#encrypted-address-book) הכתובות ו[היומנים](https://tutanota.com/faq#calendar) שלך. משמעות הדבר היא שההודעות ונתונים אחרים המאוחסנים בחשבונך ניתנים לקריאה רק על ידך.
+Tuta has [zero access encryption at rest](https://tuta.com/faq#what-encrypted) for your emails, [address book contacts](https://tuta.com/faq#encrypted-address-book), and [calendars](https://tuta.com/faq#calendar). משמעות הדבר היא שההודעות ונתונים אחרים המאוחסנים בחשבונך ניתנים לקריאה רק על ידך.
 
 #### :material-information-outline:{ .pg-blue } הצפנת אימייל
 
-Tutanota [אינו משתמש ב-OpenPGP](https://www.tutanota.com/faq/#pgp). חשבונות Tutanota יכולים לקבל אימיילים מוצפנים רק מחשבונות אימייל שאינם של Tutanota כאשר הם נשלחים דרך [תיבת דואר זמנית של Tutanota](https://www.tutanota.com/howto/#encrypted-email-external).
+Tuta [does not use OpenPGP](https://tuta.com/support/#pgp). Tuta accounts can only receive encrypted emails from non-Tuta email accounts when sent via a [temporary Tuta mailbox](https://tuta.com/support/#encrypted-email-external).
 
 #### :material-information-outline:{ .pg-blue } סגירת חשבון
 
-Tutanota [ימחק חשבונות בחינם לא פעילים](https://tutanota.com/faq#inactive-accounts) לאחר שישה חודשים. אם ברצונך לשלם, באפשרותך להשתמש שוב בחשבון חינמי שהושבת.
+Tuta will [delete inactive free accounts](https://tuta.com/faq#inactive-accounts) after six months. אם ברצונך לשלם, באפשרותך להשתמש שוב בחשבון חינמי שהושבת.
 
 #### :material-information-outline:{ .pg-blue } פונקציונליות נוספת
 
-Tutanota מציעה את הגרסה העסקית של [Tutanota לארגונים ללא מטרות רווח](https://tutanota.com/blog/posts/secure-email-for-non-profit) בחינם או בהנחה כבדה.
+Tuta offers the business version of [Tuta to non-profit organizations](https://tuta.com/blog/posts/secure-email-for-non-profit) for free or with a heavy discount.
 
-ל-Tutanota יש גם תכונה עסקית בשם [חיבור מאובטח](https://tutanota.com/secure-connect/). זה מבטיח שיצירת קשר עם הלקוח לעסק משתמשת ב- E2EE. התכונה עולה 240 אירו לשנה.
+Tuta also has a business feature called [Secure Connect](https://tuta.com/secure-connect/). זה מבטיח שיצירת קשר עם הלקוח לעסק משתמשת ב- E2EE. התכונה עולה 240 אירו לשנה.
 
-Tutanota לא מציעה פיצ'ר מורשת דיגיטלית.
+Tuta doesn't offer a digital legacy feature.
 
 ## שירותי כינוי דוא"ל
 

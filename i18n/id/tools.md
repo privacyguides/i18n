@@ -118,10 +118,10 @@ Kami [merekomendasikan](dns.md#recommended-providers) sejumlah server DNS terenk
 
 <div class="grid cards" markdown>
 
-- ![Logo Proton Mail](assets/img/email/protonmail.svg){ .twemoji } [Proton Mail](email.md#proton-mail)
-- ![Logo Mailbox.org](assets/img/email/mailboxorg.svg){ .twemoji } [Mailbox.org](email.md#mailboxorg)
-- ![Logo Skiff Mail](assets/img/email/skiff-mail.svg){ .twemoji } [Skiff Mail](email.md#skiff-mail)
-- ![Logo Tutanota](assets/img/email/tutanota.svg){ .twemoji } [Tutanota](email.md#tutanota)
+- ![Proton Mail logo](assets/img/email/protonmail.svg){ .twemoji } [Proton Mail](email.md#proton-mail)
+- ![Mailbox.org logo](assets/img/email/mailboxorg.svg){ .twemoji } [Mailbox.org](email.md#mailboxorg)
+- ![Skiff Mail logo](assets/img/email/skiff-mail.svg){ .twemoji } [Skiff Mail](email.md#skiff-mail)
+- ![Tuta logo](assets/img/email/tuta.svg){ .twemoji } [Tuta](email.md#tuta)
 
 </div>
 
@@ -212,8 +212,8 @@ Kami [merekomendasikan](dns.md#recommended-providers) sejumlah server DNS terenk
 
 <div class="grid cards" markdown>
 
-- ![Logo Tutanota](assets/img/kalender/tutanota.svg){ .twemoji } [Tutanota](calendar.md#tutanota)
-- ![Logo Kalender Proton](assets/img/kalender/proton-calendar.svg){ .twemoji } [Kalender Proton](calendar.md#proton-calendar)
+- ![Tuta logo](assets/img/calendar/tuta.svg){ .twemoji } [Tuta](calendar.md#tuta)
+- ![Proton Calendar logo](assets/img/calendar/proton-calendar.svg){ .twemoji } [Proton Calendar](calendar.md#proton-calendar)
 
 </div>
 

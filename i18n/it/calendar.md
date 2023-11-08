@@ -7,32 +7,31 @@ cover: calendar.webp
 
 I calendari contengono alcuni dei tuoi dati più sensibili; utilizza prodotti che implementino l'E2EE a riposo, per impedire al fornitore di leggerli.
 
-## Tutanota
+## Tuta
 
 !!! recommendation
 
-    ![Logo di Tutanota](assets/img/calendar/tutanota.svg#only-light){ align=right }
-    ![Logo di Tutanota](assets/img/calendar/tutanota-dark.svg#only-dark){ align=right }
+    ![Tuta logo](assets/img/calendar/tuta.svg){ align=right }
     
-    **Tutanota** offre un calendario gratuito e crittografato su tutte le piattaforme supportate. Le caratteristiche includono: E2EE automatico di tutti i dati, funzionalità di condivisione, importazione/esportazione, autenticazione a più fattori e [altre funzionalità](https://tutanota.com/calendar-app-comparison/).
+    **Tuta** offers a free and encrypted calendar across their supported platforms. Features include: automatic E2EE of all data, sharing features, import/export functionality, multi-factor authentication, and [more](https://tuta.com/calendar-app-comparison/).
     
     Calendari multipli e funzionalità di condivisione estese sono limitate agli abbonati a pagamento.
     
-    [:octicons-home-16: Home](https://tutanota.com/calendar){ .md-button .md-button--primary }
-    [:octicons-eye-16:](https://tutanota.com/privacy){ .card-link title="Politica sulla Privacy" }
-    [:octicons-info-16:](https://tutanota.com/faq){ .card-link title=Documentazione}
-    [:octicons-code-16:](https://github.com/tutao/tutanota){ .card-link title="Codice Sorgente" }
-    [:octicons-heart-16:](https://tutanota.com/community/){ .card-link title=Contribuisci }
+    [:octicons-home-16: Homepage](https://tuta.com/calendar){ .md-button .md-button--primary }
+    [:octicons-eye-16:](https://tuta.com/privacy){ .card-link title="Privacy Policy" }
+    [:octicons-info-16:](https://tuta.com/faq){ .card-link title=Documentation}
+    [:octicons-code-16:](https://github.com/tutao/tutanota){ .card-link title="Source Code" }
+    [:octicons-heart-16:](https://tuta.com/community/){ .card-link title=Contribute }
     
-    ??? downloads "Scarica"
+    ??? downloads
     
-        - [:simple-googleplay: Google Play](https://play.google.com/store/apps/details?id=de.tutao.tutanota&gl=it)
-        - [:simple-appstore: App Store](https://apps.apple.com/it/app/tutanota/id922429609)
-        - [:simple-windows11: Windows](https://tutanota.com/it/blog/posts/desktop-clients/)
-        - [:simple-apple: macOS](https://tutanota.com/it/blog/posts/desktop-clients/)
-        - [:simple-linux: Linux](https://tutanota.com/it/blog/posts/desktop-clients/)
-        - [:simple-flathub: Flathub](https://flathub.org/it/apps/com.tutanota.Tutanota)
-        - [:octicons-browser-16: Web](https://mail.tutanota.com/)
+        - [:simple-googleplay: Google Play](https://play.google.com/store/apps/details?id=de.tutao.tutanota)
+        - [:simple-appstore: App Store](https://apps.apple.com/us/app/tutanota/id922429609)
+        - [:simple-windows11: Windows](https://tuta.com/blog/posts/desktop-clients/)
+        - [:simple-apple: macOS](https://tuta.com/blog/posts/desktop-clients/)
+        - [:simple-linux: Linux](https://tuta.com/blog/posts/desktop-clients/)
+        - [:simple-flathub: Flathub](https://flathub.org/apps/com.tutanota.Tutanota)
+        - [:octicons-browser-16: Web](https://app.tuta.com/)
 
 ## Proton Calendar
 

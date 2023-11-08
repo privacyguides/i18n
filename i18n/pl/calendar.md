@@ -7,33 +7,31 @@ cover: calendar.webp
 
 Calendars contain some of your most sensitive data; use products that implement E2EE at rest to prevent a provider from reading them.
 
-## Tutanota
+## Tuta
 
 !!! rekomendacja
 
-    ![Tutanota logo](assets/img/calendar/tutanota.svg#only-light){ align=right }
-    ![Tutanota logo](assets/img/calendar/tutanota-dark.svg#only-dark){ align=right }
+    ![Tuta logo](assets/img/calendar/tuta.svg){ align=right }
     
-    **Tutanota** offers a free and encrypted calendar across their supported platforms. Funkcje obejmują: automatyczne szyfrowanie E2E wszystkich danych, funkcje udostępniania, importowanie/eksportowanie, uwierzytelnianie wieloskładnikowe i [więcej](https://tutanota.com/calendar-app-comparison/).
+    **Tuta** offers a free and encrypted calendar across their supported platforms. Features include: automatic E2EE of all data, sharing features, import/export functionality, multi-factor authentication, and [more](https://tuta.com/calendar-app-comparison/).
     
     Wiele kalendarzy oraz rozszerzone funkcje udostępniania są ograniczone do płatnych subskrybentów.
     
-    [:octicons-home-16: Strona WWW](https://tutanota.com/calendar){ .md-button .md-button--primary }
-    [:octicons-eye-16:](https://tutanota.com/privacy){ .card-link title="Polityka prywatności" }
-    [:octicons-info-16:](https://tutanota.com/faq){ .card-link title=Dokumentacja}
-    [:octicons-code-16:](https://github.com/tutao/tutanota){ .card-link title="Kod źródłowy" }
-    [:octicons-heart-16:](https://tutanota.com/community/){ .card-link title=Darowizna }
+    [:octicons-home-16: Homepage](https://tuta.com/calendar){ .md-button .md-button--primary }
+    [:octicons-eye-16:](https://tuta.com/privacy){ .card-link title="Privacy Policy" }
+    [:octicons-info-16:](https://tuta.com/faq){ .card-link title=Documentation}
+    [:octicons-code-16:](https://github.com/tutao/tutanota){ .card-link title="Source Code" }
+    [:octicons-heart-16:](https://tuta.com/community/){ .card-link title=Contribute }
     
-    ??? do pobrania
+    ??? downloads
     
-        - [:octicons-browser-16: Internet](https://mail.tutanota.com/)
-        - [:fontawesome-brands-windows: Windows](https://tutanota.com/blog/posts/desktop-clients/)
-        - [:fontawesome-brands-apple: macOS](https://tutanota.com/blog/posts/desktop-clients/)
-        - [:fontawesome-brands-linux: Linux](https://tutanota.com/blog/posts/desktop-clients/)
-        - [:pg-flathub: Flatpak](https://flathub.org/apps/details/com.tutanota.Tutanota)
-        - [:fontawesome-brands-google-play: Sklep Play](https://play.google.com/store/apps/details?id=de.tutao.tutanota)
-        - [:pg-f-droid: F-Droid](https://f-droid.org/en/packages/de.tutao.tutanota)
-        - [:fontawesome-brands-app-store-ios: App Store](https://apps.apple.com/us/app/tutanota/id922429609)
+        - [:simple-googleplay: Google Play](https://play.google.com/store/apps/details?id=de.tutao.tutanota)
+        - [:simple-appstore: App Store](https://apps.apple.com/us/app/tutanota/id922429609)
+        - [:simple-windows11: Windows](https://tuta.com/blog/posts/desktop-clients/)
+        - [:simple-apple: macOS](https://tuta.com/blog/posts/desktop-clients/)
+        - [:simple-linux: Linux](https://tuta.com/blog/posts/desktop-clients/)
+        - [:simple-flathub: Flathub](https://flathub.org/apps/com.tutanota.Tutanota)
+        - [:octicons-browser-16: Web](https://app.tuta.com/)
 
 ## Proton Calendar
 

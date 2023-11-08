@@ -157,7 +157,7 @@ Estos proveedores almacenan tus correos electrónicos con cifrado de cero-conoci
 <div class="grid cards" markdown>
 
 - ![Skiff Mail logo](assets/img/email/skiff-mail.svg){ .twemoji } [Skiff Mail](email.md#skiff-mail)
-- ![Tutanota logo](assets/img/email/tutanota.svg){ .twemoji } [Tutanota](email.md#tutanota)
+- ![Tuta logo](assets/img/email/tuta.svg){ .twemoji } [Tuta](email.md#tuta)
 
 </div>
 
@@ -212,63 +212,63 @@ Skiff ofrece además [funciones de productividad en el espacio de trabajo](https
 
 StartMail no ofrece una función de legado digital.
 
-### Tutanota
+### Tuta
 
 !!! recommendation
 
-    ![Logo de Tutanota](assets/img/email/tutanota.svg){ align=right }
+    ![Tuta logo](assets/img/email/tuta.svg){ align=right }
     
-    **Tutanota** es un servicio de correo electrónico centrado en la seguridad y la privacidad mediante el uso de cifrado. Tutanota lleva en funcionamiento desde **2011** y tiene su sede en Hannover, Alemania. Las cuentas empiezan con 1Gb de almacenamiento con su plan gratuito.
+    **Tuta** is an email service with a focus on security and privacy through the use of encryption. Tuta has been in operation since **2011** and is based in Hanover, Germany. Las cuentas empiezan con 1Gb de almacenamiento con su plan gratuito.
     
-    [:octicons-home-16: Página Principal](https://tutanota.com){ .md-button .md-button--primary }
-    [:octicons-eye-16:](https://tutanota.com/privacy){ .card-link title="Politica de Privacidad" }
-    [:octicons-info-16:](https://tutanota.com/faq){ .card-link title=Documentación}
-    [:octicons-code-16:](https://github.com/tutao/tutanota){ .card-link title="Código Fuente" }
-    [:octicons-heart-16:](https://tutanota.com/community/){ .card-link title=Contribuir }
+    [:octicons-home-16: Homepage](https://tuta.com){ .md-button .md-button--primary }
+    [:octicons-eye-16:](https://tuta.com/privacy){ .card-link title="Privacy Policy" }
+    [:octicons-info-16:](https://tuta.com/faq){ .card-link title=Documentation}
+    [:octicons-code-16:](https://github.com/tutao/tutanota){ .card-link title="Source Code" }
+    [:octicons-heart-16:](https://tuta.com/community/){ .card-link title=Contribute }
     
-    ??? downloads "Descargas"
+    ??? downloads
     
         - [:simple-googleplay: Google Play](https://play.google.com/store/apps/details?id=de.tutao.tutanota)
         - [:simple-appstore: App Store](https://apps.apple.com/app/tutanota/id922429609)
         - [:simple-github: GitHub](https://github.com/tutao/tutanota/releases)
-        - [:simple-windows11: Windows](https://tutanota.com/#download)
-        - [:simple-apple: macOS](https://tutanota.com/#download)
-        - [:simple-linux: Linux](https://tutanota.com/#download)
-        - [:octicons-browser-16: Web](https://mail.tutanota.com/)
+        - [:simple-windows11: Windows](https://tuta.com/#download)
+        - [:simple-apple: macOS](https://tuta.com/#download)
+        - [:simple-linux: Linux](https://tuta.com/#download)
+        - [:octicons-browser-16: Web](https://app.tuta.com/)
 
-Tutanota no es compatible con el[protocolo IMAP](https://tutanota.com/faq/#imap) ni con el uso de[clientes de correo electrónico](email-clients.md)de terceros, y tampoco podrás añadir [cuentas de correo electrónico externas](https://github.com/tutao/tutanota/issues/544#issuecomment-670473647) a la aplicación Tutanota. Ni [importación de correo electrónico](https://github.com/tutao/tutanota/issues/630) ni [subcarpetas](https://github.com/tutao/tutanota/issues/927) son actualmente compatibles, aunque esto [está previsto que se cambie](https://tutanota.com/blog/posts/kickoff-import). Los correos electrónicos se pueden exportar [individualmente o por selección masiva](https://tutanota.com/howto#generalMail) por carpeta, lo que puede resultar incómodo si tiene muchas carpetas.
+Tuta doesn't support the [IMAP protocol](https://tuta.com/faq/#imap) or the use of third-party [email clients](email-clients.md), and you also won't be able to add [external email accounts](https://github.com/tutao/tutanota/issues/544#issuecomment-670473647) to the Tuta app. Neither [Email import](https://github.com/tutao/tutanota/issues/630) or [subfolders](https://github.com/tutao/tutanota/issues/927) are currently supported, though this is [due to be changed](https://tuta.com/blog/posts/kickoff-import). Emails can be exported [individually or by bulk selection](https://tuta.com/howto#generalMail) per folder, which may be inconvenient if you have many folders.
 
 #### :material-check:{ .pg-green } Dominios Personalizados y Alias
 
-Las cuentas de pago de Tutanota permiten crear 15 o 30 alias dependiendo del plan, y alias ilimitados en [dominios personalizados](https://tutanota.com/faq#custom-domain). Tutanota no permite la [subdirección (más direcciones)](https://tutanota.com/faq#plus), pero puede utilizar un [catch-all](https://tutanota.com/howto#settings-global) con un dominio personalizado.
+Paid Tuta accounts can use either 15 or 30 aliases depending on their plan and unlimited aliases on [custom domains](https://tuta.com/faq#custom-domain). Tuta doesn't allow for [subaddressing (plus addresses)](https://tuta.com/faq#plus), but you can use a [catch-all](https://tuta.com/howto#settings-global) with a custom domain.
 
 #### :material-information-outline:{ .pg-blue } Métodos de pago privados
 
-Tutanota solo acepta directamente tarjetas de crédito y PayPal, sin embargo, la [criptomoneda](cryptocurrency.md) se puede usar para comprar tarjetas de regalo a través de su [asociación](https://tutanota.com/faq/#cryptocurrency) con Proxystore.
+Tuta only directly accepts credit cards and PayPal, however [cryptocurrency](cryptocurrency.md) can be used to purchase gift cards via their [partnership](https://tuta.com/faq/#cryptocurrency) with Proxystore.
 
 #### :material-check:{ .pg-green } Seguridad de Cuenta
 
-Tutanota soporta [autenticación de dosble factor](https://tutanota.com/faq#2fa) con TOTP o U2F.
+Tuta supports [two factor authentication](https://tuta.com/faq#2fa) with either TOTP or U2F.
 
 #### :material-check:{ .pg-green } Seguridad de Datos
 
-Tutanota dispone de [cifrado de acceso cero en reposo](https://tutanota.com/faq#what-encrypted) para sus correos electrónicos, [contactos de la libreta de direcciones](https://tutanota.com/faq#encrypted-address-book), y [calendarios](https://tutanota.com/faq#calendar). Esto significa que sólo tú puedes leer los mensajes y otros datos almacenados en tu cuenta.
+Tuta has [zero access encryption at rest](https://tuta.com/faq#what-encrypted) for your emails, [address book contacts](https://tuta.com/faq#encrypted-address-book), and [calendars](https://tuta.com/faq#calendar). Esto significa que sólo tú puedes leer los mensajes y otros datos almacenados en tu cuenta.
 
 #### :material-information-outline:{ .pg-blue } Cifrado de correo electrónico
 
-Tutanota [no utiliza OpenPGP](https://www.tutanota.com/faq/#pgp). Las cuentas de Tutanota sólo pueden recibir correos electrónicos cifrados de cuentas de correo electrónico que no son de tutanota cuando se envían a través de un [buzón temporal de Tutanota](https://www.tutanota.com/howto/#encrypted-email-external).
+Tuta [does not use OpenPGP](https://tuta.com/support/#pgp). Tuta accounts can only receive encrypted emails from non-Tuta email accounts when sent via a [temporary Tuta mailbox](https://tuta.com/support/#encrypted-email-external).
 
 #### :material-information-outline:{ .pg-blue } Cancelación de Cuenta
 
-Tutanota eliminará [las cuentas gratuitas inactivas](https://tutanota.com/faq#inactive-accounts) después de seis meses. Puedes reutilizar una cuenta gratuita desactivada si pagas.
+Tuta will [delete inactive free accounts](https://tuta.com/faq#inactive-accounts) after six months. Puedes reutilizar una cuenta gratuita desactivada si pagas.
 
 #### :material-information-outline:{ .pg-blue } Funcionalidad Adicional
 
-Tutanota ofrece la versión empresarial [a las organizaciones sin ánimo de lucro](https://tutanota.com/blog/posts/secure-email-for-non-profit) de forma gratuita o con un importante descuento.
+Tuta offers the business version of [Tuta to non-profit organizations](https://tuta.com/blog/posts/secure-email-for-non-profit) for free or with a heavy discount.
 
-Tutanota también tiene una función para empresas llamada [Secure Connect](https://tutanota.com/secure-connect/). Esto garantiza que el contacto del cliente con la empresa utilice E2EE. La función cuesta 240 €/año.
+Tuta also has a business feature called [Secure Connect](https://tuta.com/secure-connect/). Esto garantiza que el contacto del cliente con la empresa utilice E2EE. La función cuesta 240 €/año.
 
-Tutanota no ofrece la función de legado digital.
+Tuta doesn't offer a digital legacy feature.
 
 ## Servicios de alias de correo
 
