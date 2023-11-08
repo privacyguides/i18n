@@ -218,25 +218,25 @@ Skiff Mail non offre una funzionalità di eredità digitale.
 
     ![Logo di Tuta](assets/img/email/tuta.svg){ align=right }
     
-    **Tuta** è un servizio di posta elettronica incentrato sulla sicurezza e sulla privacy attraverso l'uso della crittografia. Tuta has been in operation since **2011** and is based in Hanover, Germany. I profili partono da 1GB di archiviazione, con il loro piano gratuito.
+    **Tuta** è un servizio di posta elettronica incentrato sulla sicurezza e sulla privacy attraverso l'uso della crittografia. Tuta è operativo dal **2011** e ha sede ad Hannover, in Germania. I profili partono da 1GB di archiviazione, con il loro piano gratuito.
     
-    [:octicons-home-16: Homepage](https://tuta.com){ .md-button .md-button--primary }
-    [:octicons-eye-16:](https://tuta.com/privacy){ .card-link title="Privacy Policy" }
-    [:octicons-info-16:](https://tuta.com/faq){ .card-link title=Documentation}
-    [:octicons-code-16:](https://github.com/tutao/tutanota){ .card-link title="Source Code" }
-    [:octicons-heart-16:](https://tuta.com/community/){ .card-link title=Contribute }
+    [:octicons-home-16: Pagina Principale](https://tuta.com/it/){ .md-button .md-button--primary }
+    [:octicons-eye-16:](https://tuta.com/it/privacy){ .card-link title="Politica sulla Privacy" }
+    [:octicons-info-16:](https://tuta.com/faq){ .card-link title=Documentazione}
+    [:octicons-code-16:](https://github.com/tutao/tutanota){ .card-link title="Codice Sorgente" }
+    [:octicons-heart-16:](https://tuta.com/it/community){ .card-link title=Contribuisci }
     
-    ??? downloads
+    ??? downloads "Scarica"
     
-        - [:simple-googleplay: Google Play](https://play.google.com/store/apps/details?id=de.tutao.tutanota)
-        - [:simple-appstore: App Store](https://apps.apple.com/app/tutanota/id922429609)
+        - [:simple-googleplay: Google Play](https://play.google.com/store/apps/details?id=de.tutao.tutanota&gl=It)
+        - [:simple-appstore: App Store](https://apps.apple.com/it/app/tutanota-encrypted-email-app/id922429609)
         - [:simple-github: GitHub](https://github.com/tutao/tutanota/releases)
-        - [:simple-windows11: Windows](https://tuta.com/#download)
-        - [:simple-apple: macOS](https://tuta.com/#download)
-        - [:simple-linux: Linux](https://tuta.com/#download)
+        - [:simple-windows11: Windows](https://tuta.com/it/#download)
+        - [:simple-apple: macOS](https://tuta.com/it/#download)
+        - [:simple-linux: Linux](https://tuta.com/it/#download)
         - [:octicons-browser-16: Web](https://app.tuta.com/)
 
-Tuta doesn't support the [IMAP protocol](https://tuta.com/faq/#imap) or the use of third-party [email clients](email-clients.md), and you also won't be able to add [external email accounts](https://github.com/tutao/tutanota/issues/544#issuecomment-670473647) to the Tuta app. Neither [Email import](https://github.com/tutao/tutanota/issues/630) or [subfolders](https://github.com/tutao/tutanota/issues/927) are currently supported, though this is [due to be changed](https://tuta.com/blog/posts/kickoff-import). Emails can be exported [individually or by bulk selection](https://tuta.com/howto#generalMail) per folder, which may be inconvenient if you have many folders.
+Tuta non supporta il [protocollo IMAP](https://tuta.com/faq/#imap) o l'utilizzo di [client email](email-clients.md) di terze parti e, inoltre, non potrai aggiungere [account email esterni](https://github.com/tutao/tutanota/issues/544#issuecomment-670473647) all'app di Tuta. Neither [Email import](https://github.com/tutao/tutanota/issues/630) or [subfolders](https://github.com/tutao/tutanota/issues/927) are currently supported, though this is [due to be changed](https://tuta.com/blog/posts/kickoff-import). Le email possono essere esportate [singolarmente o tramite selezione in blocco](https://tuta.com/howto#generalMail) per cartella, il che può risultare scomodo se hai molte cartelle.
 
 #### :material-check:{ .pg-green } Domini e Alias Personalizzati
 

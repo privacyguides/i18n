@@ -17,7 +17,7 @@ I calendari contengono alcuni dei tuoi dati più sensibili; utilizza prodotti ch
     
     Calendari multipli e funzionalità di condivisione estese sono limitate agli abbonati a pagamento.
     
-    [:octicons-home-16: Home](https://tuta.com/it/calendar){ .md-button .md-button--primary }
+    [:octicons-home-16: Pagina Principale](https://tuta.com/it/calendar){ .md-button .md-button--primary }
     [:octicons-eye-16:](https://tuta.com/it/privacy){ .card-link title="Politica sulla Privacy" }
     [:octicons-info-16:](https://tuta.com/faq){ .card-link title=Documentazione}
     [:octicons-code-16:](https://github.com/tutao/tutanota){ .card-link title="Codice Sorgente" }
