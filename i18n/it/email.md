@@ -216,9 +216,9 @@ Skiff Mail non offre una funzionalità di eredità digitale.
 
 !!! recommendation
 
-    ![Tuta logo](assets/img/email/tuta.svg){ align=right }
+    ![Logo di Tuta](assets/img/email/tuta.svg){ align=right }
     
-    **Tuta** is an email service with a focus on security and privacy through the use of encryption. Tuta has been in operation since **2011** and is based in Hanover, Germany. I profili partono da 1GB di archiviazione, con il loro piano gratuito.
+    **Tuta** è un servizio di posta elettronica incentrato sulla sicurezza e sulla privacy attraverso l'uso della crittografia. Tuta has been in operation since **2011** and is based in Hanover, Germany. I profili partono da 1GB di archiviazione, con il loro piano gratuito.
     
     [:octicons-home-16: Homepage](https://tuta.com){ .md-button .md-button--primary }
     [:octicons-eye-16:](https://tuta.com/privacy){ .card-link title="Privacy Policy" }
