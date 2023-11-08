@@ -236,39 +236,39 @@ Skiff Mail non offre una funzionalità di eredità digitale.
         - [:simple-linux: Linux](https://tuta.com/it/#download)
         - [:octicons-browser-16: Web](https://app.tuta.com/)
 
-Tuta non supporta il [protocollo IMAP](https://tuta.com/faq/#imap) o l'utilizzo di [client email](email-clients.md) di terze parti e, inoltre, non potrai aggiungere [account email esterni](https://github.com/tutao/tutanota/issues/544#issuecomment-670473647) all'app di Tuta. Neither [Email import](https://github.com/tutao/tutanota/issues/630) or [subfolders](https://github.com/tutao/tutanota/issues/927) are currently supported, though this is [due to be changed](https://tuta.com/blog/posts/kickoff-import). Le email possono essere esportate [singolarmente o tramite selezione in blocco](https://tuta.com/howto#generalMail) per cartella, il che può risultare scomodo se hai molte cartelle.
+Tuta non supporta il [protocollo IMAP](https://tuta.com/faq/#imap) o l'utilizzo di [client email](email-clients.md) di terze parti e, inoltre, non potrai aggiungere [account email esterni](https://github.com/tutao/tutanota/issues/544#issuecomment-670473647) all'app di Tuta. Al momento non sono supportate né l'[importazione delle email](https://github.com/tutao/tutanota/issues/630) né le [sottocartelle](https://github.com/tutao/tutanota/issues/927), anche se questo [verrà presto modificato](https://tuta.com/blog/posts/kickoff-import). Le email possono essere esportate [singolarmente o tramite selezione in blocco](https://tuta.com/howto#generalMail) per cartella, il che può risultare scomodo se hai molte cartelle.
 
 #### :material-check:{ .pg-green } Domini e Alias Personalizzati
 
-Paid Tuta accounts can use either 15 or 30 aliases depending on their plan and unlimited aliases on [custom domains](https://tuta.com/faq#custom-domain). Tuta doesn't allow for [subaddressing (plus addresses)](https://tuta.com/faq#plus), but you can use a [catch-all](https://tuta.com/howto#settings-global) with a custom domain.
+Gli account di Tuta a pagamento possono utilizzare 15 o 30 alias a seconda del piano e alias illimitati sui [domini personalizzati](https://tuta.com/faq#custom-domain). Tuta non consente il [sottoindirizzamento (più indirizzi)](https://tuta.com/faq#plus), ma puoi utilizzare un [catch-all](https://tuta.com/howto#settings-global) con un dominio personalizzato.
 
 #### :material-information-outline:{ .pg-blue } Metodi di pagamento privati
 
-Tuta only directly accepts credit cards and PayPal, however [cryptocurrency](cryptocurrency.md) can be used to purchase gift cards via their [partnership](https://tuta.com/faq/#cryptocurrency) with Proxystore.
+Tuta accetta diretti soltanto carte di credito e PayPal, tuttavia, le [criptovalute](cryptocurrency.md) sono utilizzabili per acquistare carte regalo tramite la loro [collaborazione](https://tuta.com/faq/#cryptocurrency) con Proxystore.
 
 #### :material-check:{ .pg-green } Sicurezza dell'account
 
-Tuta supports [two factor authentication](https://tuta.com/faq#2fa) with either TOTP or U2F.
+Tuta supporta [l'autenticazione a due fattori](https://tuta.com/faq#2fa) con TOTP o U2F.
 
 #### :material-check:{ .pg-green } Sicurezza dei dati
 
-Tuta has [zero access encryption at rest](https://tuta.com/faq#what-encrypted) for your emails, [address book contacts](https://tuta.com/faq#encrypted-address-book), and [calendars](https://tuta.com/faq#calendar). Ciò significa che messaggi e altri dati memorizzati nel tuo profilo, sono leggibili soltanto da te.
+Tuta dispone di [crittografia ad accesso zero a riposo](https://tuta.com/faq#what-encrypted) per le tue email, [i tuoi contatti della rubrica](https://tuta.com/faq#encrypted-address-book) e [i tuoi calendari](https://tuta.com/faq#calendar). Ciò significa che messaggi e altri dati memorizzati nel tuo profilo, sono leggibili soltanto da te.
 
 #### :material-information-outline:{ .pg-blue } Crittografia Email
 
-Tuta [does not use OpenPGP](https://tuta.com/support/#pgp). Tuta accounts can only receive encrypted emails from non-Tuta email accounts when sent via a [temporary Tuta mailbox](https://tuta.com/support/#encrypted-email-external).
+Tuta [non utilizza OpenPGP](https://tuta.com/support/#pgp). Gli account Tuta possono ricevere email criptate da account email non Tuta solo se inviate tramite una [casella di posta Tuta temporanea](https://tuta.com/support/#encrypted-email-external).
 
 #### :material-information-outline:{ .pg-blue } Chiusura dell'account
 
-Tuta will [delete inactive free accounts](https://tuta.com/faq#inactive-accounts) after six months. Puoi riutilizzare un profilo gratuito disattivato, previo pagamento.
+Tuta [eliminerà gli account gratuiti inattivi](https://tuta.com/faq#inactive-accounts) dopo sei mesi. Puoi riutilizzare un profilo gratuito disattivato, previo pagamento.
 
 #### :material-information-outline:{ .pg-blue } Funzionalità aggiuntive
 
-Tuta offers the business version of [Tuta to non-profit organizations](https://tuta.com/blog/posts/secure-email-for-non-profit) for free or with a heavy discount.
+Tuta offre la versione aziendale di [Tuta alle organizzazioni non profit](https://tuta.com/blog/posts/secure-email-for-non-profit) gratuitamente o con un ottimo sconto.
 
-Tuta also has a business feature called [Secure Connect](https://tuta.com/secure-connect/). Questa, garantisce che il contatto del cliente con l'azienda utilizzi l'E2EE. La funzionalità costa €240 all'anno.
+Tuta ha anche una funzionalità aziendale, chiamata [Secure Connect](https://tuta.com/secure-connect/). Questa, garantisce che il contatto del cliente con l'azienda utilizzi l'E2EE. La funzionalità costa €240 all'anno.
 
-Tuta doesn't offer a digital legacy feature.
+Tuta non offre una funzionalità di eredità digitale.
 
 ## Servizi di Alias per Email
 

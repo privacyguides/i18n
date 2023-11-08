@@ -26,7 +26,7 @@ Encrypted DNS with third-party servers should only be used to get around basic [
 
 !!! example "この項目は最近作成されました"
 
-    私たちは、サイトの各項目に定義された基準を確立することに取り組んでいます。この基準は変更される可能性があります。 私たちの基準について疑問がある場合は、[フォーラムで質問](https://discuss.privacyguides.net/latest)してください。また、ここに記載されていない場合でも、私たちがプロジェクトを推奨する際に、そうした事柄を考慮しなかったと仮定するのはお止めください。 プロジェクトを推奨する際に考慮され、議論される要素は多くあり、そのすべてを文書化する作業は現在進行中です。
+    私たちは、サイトの各項目に関して、定義された規準の確立に取り組んでいます。この規準は変更される可能性があります。 規準について疑問がある場合は、[フォーラムで質問](https://discuss.privacyguides.net/latest)してください。また、ここに記載されていない場合でも、私たちがプロジェクトを推奨する際に、そうした事柄を考慮しなかったと仮定するのはお止めください。 プロジェクトを推奨する際に考慮され、議論される要素は多くあり、そのすべてを文書化する作業は現在進行中です。
 
 - [DNSSEC](advanced/dns-overview.md#what-is-dnssec)のサポートを必須とする。
 - [QNAMEの最小化](advanced/dns-overview.md#what-is-qname-minimization)。
