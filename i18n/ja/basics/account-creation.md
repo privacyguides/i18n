@@ -56,7 +56,7 @@ The main advantages are:
 - **Security**: no risk of being involved in a [data breach](https://en.wikipedia.org/wiki/Data_breach) because the website does not store your credentials.
 - **Ease of use**: multiple accounts are managed by a single login.
 
-But there are disadvantages:
+しかし、以下のデメリットもあります。
 
 - **Privacy**: the OAuth provider you log in with will know the services you use.
 - **Centralization**: if the account you use for OAuth is compromised or you aren't able to login to it, all other accounts connected to it are affected.

@@ -22,7 +22,7 @@ These messengers are great for securing your sensitive communications.
     
     **Signal** is a mobile app developed by Signal Messenger LLC. The app provides instant messaging, as well as voice and video calling.
     
-    All communications are E2EE. Contact lists are encrypted using your Signal PIN and the server does not have access to them. Personal profiles are also encrypted and only shared with contacts you chat with.
+    全ての通信はE2EEで行われます。 Contact lists are encrypted using your Signal PIN and the server does not have access to them. Personal profiles are also encrypted and only shared with contacts you chat with.
     
     [:octicons-home-16: Homepage](https://signal.org/){ .md-button .md-button--primary }
     [:octicons-eye-16:](https://signal.org/legal/#privacy-policy){ .card-link title="Privacy Policy" }

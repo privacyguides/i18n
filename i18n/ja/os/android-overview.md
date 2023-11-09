@@ -42,7 +42,7 @@ You can avoid giving many apps permission to access your media with Android's bu
 
 For example, if you want to post a picture to Discord you can open your file manager or gallery and share that picture with the Discord app, instead of granting Discord full access to your media and photos.
 
-## セキュリティ保護
+## セキュリティーの保護
 
 ### 確認付きブート
 

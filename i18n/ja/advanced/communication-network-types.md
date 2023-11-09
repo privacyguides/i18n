@@ -25,7 +25,7 @@ Some self-hosted messengers allow you to set up your own server. Self-hosting ca
 
 **Disadvantages:**
 
-- Can include [restricted control or access](https://drewdevault.com/2018/08/08/Signal.html). This can include things like:
+- Can include [restricted control or access](https://drewdevault.com/2018/08/08/Signal.html). これは次のようなものも含みます。
 - Being [forbidden from connecting third-party clients](https://github.com/LibreSignal/LibreSignal/issues/37#issuecomment-217211165) to the centralized network that might provide for greater customization or a better experience. Often defined in Terms and Conditions of usage.
 - Poor or no documentation for third-party developers.
 - The [ownership](https://web.archive.org/web/20210729191953/https://blog.privacytools.io/delisting-wire/), privacy policy, and operations of the service can change easily when a single entity controls it, potentially compromising the service later on.

@@ -45,7 +45,7 @@ By using a VPN with Tor, you're creating essentially a permanent entry node, oft
 
 ## 匿名性が必要な場合は？
 
-VPNs cannot provide anonymity. Your VPN provider will still see your real IP address, and often has a money trail that can be linked directly back to you. You cannot rely on "no logging" policies to protect your data. Use [Tor](https://www.torproject.org/) instead.
+VPNを使用しても匿名性は手に入りません。 Your VPN provider will still see your real IP address, and often has a money trail that can be linked directly back to you. You cannot rely on "no logging" policies to protect your data. Use [Tor](https://www.torproject.org/) instead.
 
 ## What about VPN providers that provide Tor nodes?
 

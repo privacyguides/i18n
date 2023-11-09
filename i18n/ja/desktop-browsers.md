@@ -259,11 +259,11 @@ Braveには、[シールド](https://support.brave.com/hc/en-us/articles/3600229
 
 </div>
 
-1. このオプションはuBlock Originの高度な[ブロックモード](https://github.com/gorhill/uBlock/wiki/Blocking-mode)や[NoScript](https://noscript.net/)拡張機能に似た機能を提供します。
+1. このオプションでは、uBlock Originの高度な[ブロックモード](https://github.com/gorhill/uBlock/wiki/Blocking-mode)や[NoScript](https://noscript.net/)拡張機能と同様の機能が有効になります。
 
 ##### ソーシャルメディアのブロック
 
-- [ ] すべてのソーシャルメディアコンポーネントのチェックを外す
+- [ ] すべてのソーシャルメディアコンポーネントのチェックを外すこと
 
 ##### プライバシーとセキュリティー
 

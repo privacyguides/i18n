@@ -40,7 +40,7 @@ All of these concepts overlap, but it is possible to have any combination of the
 
 A common counter-argument to pro-privacy movements is the notion that one doesn't need privacy if they have **"nothing to hide."** This is a dangerous misconception, because it creates a sense that people who demand privacy must be deviant, criminal, or wrong.
 
-==プライバシーと秘密を混同しないでください。==私たちは浴室で何をするかを知っていますが、浴室を使うときにはドアを閉めます。 これは裸になり体を洗っているという事実を秘密にするためではなく、プライバシーを守るためにドアを閉めているのです。 私たちには、公開したくないと考える様々な事実（例えば、個人の健康に関する情報、性行動）があります。これは正常であり、良いことです。 プライバシーを求めるのは正当なことであり、プライバシーが私たちを人間たらしめているのです。 プライバシーとは、秘密を隠すことではなく、自分の情報に権利を与えることです。
+==プライバシーと秘密を混同しないでください。==私たちは浴室で何をするかを知っていますが、浴室を使うときにはドアを閉めます。 それは、秘密をではなく、プライバシーを守りたいと思っているからです。 私たちには、公開したくないと考える様々な事実（例えば、個人の健康に関する情報、性行動）があります。これは正常であり、良いことです。 プライバシーを求めるのは正当なことであり、プライバシーが私たちを人間たらしめているのです。 プライバシーとは、秘密を隠すことではなく、自分の情報に権利を与えることです。
 
 ## Is Privacy About Control?
 
