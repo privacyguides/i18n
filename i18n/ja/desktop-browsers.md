@@ -241,9 +241,9 @@ Arkenfoxでは、canvasのランダム化やFirefoxの組み込みのフィン�
 
 ##### シールド
 
-Braveは[Shields](https://support.brave.com/hc/en-us/articles/360022973471-What-is-Shields-)の機能にいくつかのフィンガープリント対策を盛り込んでいます。 これらのオプションを訪問したすべてのページにおいて[グローバルに](https://support.brave.com/hc/en-us/articles/360023646212-How-do-I-configure-global-and-site-specific-Shields-settings-)設定することをおすすめします。
+Braveには、[シールド](https://support.brave.com/hc/en-us/articles/360022973471-What-is-Shields-)機能にフィンガープリンティングへの対策が備わっています。 訪問する全てのページにおいて、これらのオプションを[グローバル](https://support.brave.com/hc/en-us/articles/360023646212-How-do-I-configure-global-and-site-specific-Shields-settings-)に設定することをお勧めします。
 
-Shieldsのオプションは必要に応じてサイトごとにダウングレードできますが、デフォルトでは以下の設定をおすすめします。
+シールドのオプションは、必要に応じてサイトごとにダウングレードできますが、デフォルトでは以下の設定をおすすめします。
 
 <div class="annotate" markdown>
 

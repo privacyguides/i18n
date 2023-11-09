@@ -182,7 +182,7 @@ Disable **Personalized Ads** if you don't want targeted ads. Select **Apple Adve
 
 - [x] Select **Turn On Lockdown Mode**
 
-## Additional Advice
+## その他のアドバイス
 
 ### E2EE Calls
 

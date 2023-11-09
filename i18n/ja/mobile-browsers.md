@@ -47,11 +47,11 @@ Androidでは、FirefoxはChromiumベースのブラウザーよりもまだ安�
 
 !!! recommendation
 
-    ![Brave logo](assets/img/browsers/brave.svg){ align=right }
+    ![Brave ロゴ](assets/img/browsers/brave.svg){ align=right }
     
-    **Brave Browser**には、コンテンツブロッカーと [プライバシー機能](https://brave.com/privacy-features/) が内蔵されていて、その多くがデフォルトで有効になっています。
+    **Brave Browser**には、コンテンツブロッカーと[いくつかのプライバシー機能](https://brave.com/privacy-features/)が内蔵されており、その多くはデフォルトで有効になっています。
     
-    Brave is built upon the Chromium web browser project, so it should feel familiar and have minimal website compatibility issues.
+    BraveはChromiumウェブブラウザープロジェクトに基づいて構築されているため、使い慣れた使用感があるほか、ウェブサイトの互換性問題を最小限に抑えられます。
     
     [:octicons-home-16: ホームページ](https://brave.com/ja/){ .md-button .md-button--primary }
     [:simple-torbrowser:](https://brave4u7jddbv7cyviptqjc7jusxh72uik7zt6adtckl5f4nwy2v72qd.onion){ .card-link title="Onion Service" }
@@ -82,7 +82,7 @@ Braveには、[シールド](https://support.brave.com/hc/en-us/articles/3600229
 
 - [x] **トラッカーと広告をブロック**で**積極的**を選択
 
-    ??? 注意 "デフォルトのフィルターリストを使用"
+    ??? warning "デフォルトのフィルターリストを使用すること"
         Braveでは、 `brave://adblock` ページ内で追加のコンテンツフィルターを選択することができます。 この機能は使わず、デフォルトのフィルターの一覧のままにしておくことをお勧めします。 追加のリストを使用すると、他のBraveユーザーから目立つようになり、また、Braveに脆弱性があり、使用するリストに悪意のあるルールが追加された場合、攻撃対象となる領域が増えるおそれがあります。
 
 - [x] **接続をHTTPSにアップグレード**を選択

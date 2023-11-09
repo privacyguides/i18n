@@ -1,5 +1,5 @@
 ---
-title: General Criteria
+title: 一般的な規準
 ---
 
 !!! example "Work in Progress"
@@ -12,7 +12,7 @@ Below are some things that must apply to all submissions to Privacy Guides. Each
 
 We do not make money from recommending certain products, we do not use affiliate links, and we do not provide special consideration to project donors.
 
-## General Guidelines
+## 一般的なガイドライン
 
 We apply these priorities when considering new recommendations:
 

@@ -295,7 +295,7 @@ DNSSEC implements a hierarchical digital signing policy across all layers of DNS
 
 A QNAME is a "qualified name", for example `discuss.privacyguides.net`. In the past, when resolving a domain name your DNS resolver would ask every server in the chain to provide any information it has about your full query. In this example below, your request to find the IP address for `discuss.privacyguides.net` gets asked of every DNS server provider:
 
-| サーバー                   | Question Asked                              | Response                                    |
+| サーバー                   | Question Asked                              | 回答                                          |
 | ---------------------- | ------------------------------------------- | ------------------------------------------- |
 | Root server            | What's the IP of discuss.privacyguides.net? | I don't know, ask .net's server...          |
 | .netのサーバー              | What's the IP of discuss.privacyguides.net? | I don't know, ask Privacy Guides' server... |
@@ -303,7 +303,7 @@ A QNAME is a "qualified name", for example `discuss.privacyguides.net`. In the p
 
 With "QNAME minimization," your DNS resolver now only asks for just enough information to find the next server in the chain. In this example, the root server is only asked for enough information to find the appropriate nameserver for the .net TLD, and so on, without ever knowing the full domain you're trying to visit:
 
-| サーバー                   | Question Asked                                       | Response                          |
+| サーバー                   | Question Asked                                       | 回答                                |
 | ---------------------- | ---------------------------------------------------- | --------------------------------- |
 | Root server            | What's the nameserver for .net?                      | *Provides .net's server*          |
 | .netのサーバー              | What's the nameserver for privacyguides.net?         | *Provides Privacy Guides' server* |

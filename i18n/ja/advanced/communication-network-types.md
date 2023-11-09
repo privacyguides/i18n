@@ -54,7 +54,7 @@ When self-hosted, members of a federated server can discover and communicate wit
 - Federated servers generally require trusting your server's administrator. They may be a hobbyist or otherwise not a "security professional," and may not serve standard documents like a privacy policy or terms of service detailing how your data is used.
 - Server administrators sometimes choose to block other servers, which are a source of unmoderated abuse or break general rules of accepted behavior. This will hinder your ability to communicate with members of those servers.
 
-## Peer-to-Peer Networks
+## ピアツーピアネットワーク
 
 ![P2P diagram](../assets/img/layout/network-distributed.svg){ align=left }
 

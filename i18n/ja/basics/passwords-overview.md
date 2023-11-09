@@ -32,7 +32,7 @@ When it comes to passwords that you don't have to remember (such as passwords st
 
 ## Creating strong passwords
 
-### Passwords
+### パスワード
 
 A lot of services impose certain criteria when it comes to passwords, including a minimum or maximum length, as well as which special characters, if any, can be used. You should use your password manager's built-in password generator to create passwords that are as long and complex as the service will allow by including capitalized and lowercase letters, numbers and special characters.
 

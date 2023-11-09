@@ -1,6 +1,6 @@
 ---
 meta_title: "How to Create Internet Accounts Privately - Privacy Guides"
-title: "Account Creation"
+title: "アカウントの作成"
 icon: 'material/account-plus'
 description: Creating accounts online is practically an internet necessity, take these steps to make sure you stay private.
 ---
@@ -73,6 +73,6 @@ You should avoid giving out your real phone number if you can. Some services wil
 
 In many cases you will need to provide a number that you can receive SMS or calls from, particularly when shopping internationally, in case there is a problem with your order at border screening. It's common for services to use your number as a verification method; don't let yourself get locked out of an important account because you wanted to be clever and give a fake number!
 
-### Username and password
+### ユーザー名とパスワード
 
 Some services allow you to register without using an email address and only require you to set a username and password. These services may provide increased anonymity when combined with a VPN or Tor. Keep in mind that for these accounts there will most likely be **no way to recover your account** in the event you forget your username or password.
