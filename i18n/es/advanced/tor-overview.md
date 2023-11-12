@@ -6,22 +6,22 @@ description: Tor es una red descentralizada y gratuita diseñada para utilizar I
 
 Tor es una red descentralizada y gratuita diseñada para utilizar Internet con la mayor privacidad posible. Si se utiliza correctamente, la red permite la navegación y las comunicaciones privadas y anónimas.
 
-## Safely Connecting to Tor
+## Conectarse a Tor de Forma Segura
 
-Before connecting to [Tor](../tor.md), you should carefully consider what you're looking to accomplish by using Tor in the first place, and who you're trying to hide your network activity from.
+Antes de conectarte a [Tor](../tor.md), deberías considerar cuidadosamente qué estás buscando conseguir usando Tor en primer lugar, y a quién estás intentando ocultar tu actividad en la red.
 
-If you live in a free country, are accessing mundane content via Tor, aren't worried about your ISP or local network administrators having the knowledge that you're using Tor, and want to help [de-stigmatize](https://2019.www.torproject.org/about/torusers.html.en) Tor usage, you can likely connect to Tor directly via standard means like [Tor Browser](../tor.md) without worry.
+Si vives en un país libre, accedes a contenido mundano a través de Tor, no te preocupa que tu ISP o los administradores de tu red local sepan que estás usando Tor, y quieres ayudar a [a desestigmatizar](https://2019.www.torproject.org/about/torusers.html.en) el uso de Tor, probablemente puedes conectarte a Tor directamente a través de medios estándar como [Tor Browser](../tor.md) sin preocuparte.
 
-If you have the ability to access a trusted VPN provider and **any** of the following are true, you almost certainly should connect to Tor through a VPN:
+Si tienes la posibilidad de acceder a un proveedor VPN de confianza y **cualquiera** de los siguientes es cierto, casi seguro que deberías conectarte a Tor a través de una VPN:
 
-- You already use a [trusted VPN provider](../vpn.md)
-- Your threat model includes an adversary which is capable of extracting information from your ISP
-- Your threat model includes your ISP itself as an adversary
-- Your threat model includes local network administrators before your ISP as an adversary
+- Ya utilizas un [proveedor VPN de confianza](../vpn.md)
+- Tu modelo de amenaza incluye un adversario capaz de extraer información de tu ISP
+- Tu modelo de amenaza incluye al propio ISP como adversario
+- Tu modelo de amenaza incluye a los administradores de la red local antes que a tu ISP como adversario
 
-Because we already [generally recommend](../basics/vpn-overview.md) that the vast majority of people use a trusted VPN provider for a variety of reasons, the following recommendation about connecting to Tor via a VPN likely applies to you. <mark>There is no need to disable your VPN before connecting to Tor</mark>, as some online resources would lead you to believe.
+Como ya [generalmente recomendamos](../basics/vpn-overview.md) que la gran mayoría de la gente use un proveedor VPN de confianza por una variedad de razones, la siguiente recomendación sobre conectarse a Tor a través de una VPN probablemente se aplique a ti. <mark>No hay necesidad de desactivar tu VPN antes de conectarte a Tor</mark>, como algunos recursos en línea te hacen creer.
 
-Connecting directly to Tor will make your connection stand out to any local network administrators or your ISP. Detecting and correlating this traffic [has been done](https://edition.cnn.com/2013/12/17/justice/massachusetts-harvard-hoax/) in the past by network administrators to identify and deanonymize specific Tor users on their network. On the other hand, connecting to a VPN is almost always less suspicious, because commercial VPN providers are used by everyday consumers for a variety of mundane tasks like bypassing geo-restrictions, even in countries with heavy internet restrictions.
+Conectarse directamente a Tor hará que tu conexión destaque ante cualquier administrador de red local o tu ISP. Detectar y correlacionar este tráfico [se ha hecho](https://edition.cnn.com/2013/12/17/justice/massachusetts-harvard-hoax/) en el pasado por administradores de red para identificar y desanonimizar usuarios Tor específicos en su red. Por otra parte, conectarse a una VPN es casi siempre menos sospechoso, porque los proveedores comerciales de VPN son utilizados por los consumidores cotidianos para una variedad de tareas mundanas como eludir las restricciones geográficas, incluso en países con fuertes restricciones de Internet.
 
 Therefore, you should make an effort to hide your IP address **before** connecting to the Tor network. You can do this by simply connecting to a VPN (through a client installed on your computer) and then accessing [Tor](../tor.md) as normal, through Tor Browser for example. This creates a connection chain like:
 

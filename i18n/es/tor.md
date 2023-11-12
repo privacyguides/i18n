@@ -41,13 +41,13 @@ Tor funciona enrutando tu tráfico de Internet a través de esos servidores oper
 
 !!! tip "Consejo"
 
-    Before connecting to Tor, please ensure you've read our [overview](advanced/tor-overview.md) on what Tor is and how to connect to it safely. We often recommend connecting to Tor through a trusted [VPN provider](vpn.md), but you have to do so **properly** to avoid decreasing your anonymity.
+    Antes de conectarte a Tor, por favor, asegúrate de haber leído nuestro [overview](advanced/tor-overview.md) sobre qué es Tor y cómo conectarse a él de forma segura. A menudo recomendamos conectarse a Tor a través de un [proveedor VPN] de confianza(vpn.md), pero tienes que hacerlo **propiamente** para evitar disminuir tu anonimato.
 
 Hay varias maneras de conectarte a la red Tor desde tu dispositivo, la más utilizada es **Tor Browser**, un fork de Firefox diseñado para la navegación anónima para computadoras y Android.
 
-Some of these apps are better than others, and again making a determination comes down to your threat model. If you are a casual Tor user who is not worried about your ISP collecting evidence against you, using apps like [Orbot](#orbot) or mobile browser apps to access the Tor network is probably fine. Increasing the number of people who use Tor on an everyday basis helps reduce the bad stigma of Tor, and lowers the quality of "lists of Tor users" that ISPs and governments may compile.
+Algunas de estas aplicaciones son mejores que otras y, una vez más, la decisión depende de tu modelo de amenazas. Si eres un usuario ocasional de Tor que no está preocupado porque tu ISP recopile pruebas contra ti, usar aplicaciones como [Orbot](#orbot) o aplicaciones de navegador móvil para acceder a la red Tor probablemente esté bien. Aumentar el número de personas que usan Tor a diario ayuda a reducir el mal estigma de Tor, y disminuye la calidad de las "listas de usuarios de Tor" que los ISP y los gobiernos pueden compilar.
 
-If more complete anonymity is paramount to your situation, you should **only** be using the desktop Tor Browser client, ideally in a [Whonix](desktop.md#whonix) + [Qubes](desktop.md#qubes-os) configuration. Mobile browsers are less common on Tor (and more fingerprintable as a result), and other configurations are not as rigorously tested against deanonymization.
+Si un anonimato más completo es primordial para tu situación, deberías **solo** usar el cliente de escritorio de Tor Browser, idealmente en una configuración [Whonix](desktop.md#whonix) + [Qubes](desktop.md#qubes-os). Los navegadores móviles son menos comunes en Tor (y más susceptibles de huellas digitales como resultado), y otras configuraciones no se prueban tan rigurosamente contra la desanonimización.
 
 ### Tor Browser
 
@@ -77,7 +77,7 @@ If more complete anonymity is paramount to your situation, you should **only** b
 
 El navegador Tor está diseñado para evitar la toma de huellas digirtales o tu identificación debido a la configuración de tu navegador. Por lo tanto, es imperativo que **no** modifiques el navegador más allá de los [niveles de seguridad](https://tb-manual.torproject.org/security-settings/) predeterminados.
 
-In addition to installing Tor Browser on your computer directly, there are also operating systems designed specifically to connect to the Tor network such as [Whonix](desktop.md#whonix) on [Qubes OS](desktop.md#qubes-os), which provide even greater security and protections than the standard Tor Browser alone.
+Además de instalar Tor Browser en tu ordenador directamente, también hay sistemas operativos diseñados específicamente para conectarse a la red Tor como [Whonix](desktop.md#whonix) en [Qubes OS](desktop.md#qubes-os), que proporcionan incluso mayor seguridad y protecciones que el Navegador Tor estándar por sí solo.
 
 ### Orbot
 

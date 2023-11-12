@@ -6,7 +6,7 @@ description: Tor è una rete decentralizzata e libera, progettata per utilizzare
 
 Tor è una rete decentralizzata e libera, progettata per utilizzare Internet con quanta più privacy possibile. Se utilizzata adeguatamente, la rete consente navigazione e comunicazioni private e anonime.
 
-## Safely Connecting to Tor
+## Connettersi in sicurezza a Tor
 
 Before connecting to [Tor](../tor.md), you should carefully consider what you're looking to accomplish by using Tor in the first place, and who you're trying to hide your network activity from.
 
