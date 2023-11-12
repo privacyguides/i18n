@@ -78,7 +78,7 @@ You should also be wary that many VPN review sites are merely advertising vehicl
 
 [Our VPN Recommendations](../vpn.md ""){.md-button}
 
-## Modern VPN Alternatives
+## Alternative VPN Moderne
 
 Recently, some attempts have been made by various organizations to address some issues which centralized VPNs have. These technologies are relatively new, but worth keeping an eye on as the field develops.
 
