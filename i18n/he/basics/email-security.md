@@ -35,7 +35,7 @@ If you use a shared domain from a provider which doesn't support WKD, like @gmai
 
 כרטיס חכם (כגון [Yubikey](https://support.yubico.com/hc/en-us/articles/360013790259-Using-Your-YubiKey-with-OpenPGP) or [Nitrokey](https://www.nitrokey.com)) עובד על ידי קבלת הודעת אימייל מוצפנת ממכשיר (טלפון, טאבלט, מחשב וכו') המריץ לקוח אימייל/מייל אינטרנט. לאחר מכן, ההודעה מפוענחת על ידי הכרטיס החכם והתוכן המפוענח נשלח חזרה למכשיר.
 
-It is advantageous for the decryption to occur on the smartcard to avoid possibly exposing your private key to a compromised device.
+זה יתרון שהפענוח יתרחש בכרטיס החכם כדי למנוע חשיפת המפתח הפרטי שלך למכשיר שנפגע.
 
 ## סקירה כללית של מטא נתונים בדוא"ל
 

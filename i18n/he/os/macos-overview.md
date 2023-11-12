@@ -124,13 +124,13 @@ macOS מבצעת בדיקות מקוונות כאשר אתה פותח אפליק
 
 במחשבי Mac ישנים יותר מבוססי אינטל, FileVault היא הצורה היחידה של הצפנת דיסקים הזמינה כברירת מחדל, וצריכה להיות מופעלת תמיד.
 
-- [x] Click **Turn On**
+- [x] לחץ על **הפעל**
 
 ##### מצב נעילה
 
 [מצב נעילה](https://blog.privacyguides.org/2022/10/27/macos-ventura-privacy-security-updates/#lockdown-mode) משבית תכונות מסוימות כדי לשפר בִּטָחוֹן. אפליקציות או תכונות מסוימות לא יפעלו כמו שהם פועלים כשהם כבויים, לדוגמה, [JIT](https://hacks.mozilla.org/2017/02/a-crash-course-in-just-in -time-jit-compilers/) ו-[WASM](https://developer.mozilla.org/en-US/docs/WebAssembly) מושבתים ב-Safari עם נעילה מצב מופעל. אנו ממליצים להפעיל את מצב הנעילה ולראות אם זה משפיע באופן משמעותי על השימוש שלך, הרבה מהשינויים שהוא עושה קלים לחיות איתם.
 
-- [x] Click **Turn On**
+- [x] לחץ על **הפעל**
 
 ### כתובת MAC אקראית
 

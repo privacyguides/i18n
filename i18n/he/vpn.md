@@ -133,7 +133,7 @@ IVPN [עבר ביקורת ללא רישום מ-](https://cure53.de/audit-report_
 
 #### :material-check:{ .pg-green } לקוחות קוד פתוח
 
-As of February 2020 [IVPN applications are now open source](https://www.ivpn.net/blog/ivpn-applications-are-now-open-source). קוד המקור ניתן לקבל מ[ארגון GitHub שלהם](https://github.com/ivpn).
+החל מפברואר 2020 [יישומי IVPN הם כעת קוד פתוח](https://www.ivpn.net/blog/ivpn-applications-are-now-open-source). קוד המקור ניתן לקבל מ[ארגון GitHub שלהם](https://github.com/ivpn).
 
 #### :material-check:{ .pg-green } מקבל מזומן ומונרו
 
@@ -248,7 +248,7 @@ Mullvad מאוד שקוף לגבי אילו צמתים הם [בעלים או ש�
 - תמיכה בפרוטוקולים חזקים כגון WireGuard & OpenVPN.
 - Killswitch מובנה בקליינטים.
 - תמיכה Multihop. Multihopping חשוב לשמור על נתונים פרטיים במקרה של פשרה צומת אחת.
-- If VPN clients are provided, they should be [open source](https://en.wikipedia.org/wiki/Open_source), like the VPN software they generally have built into them. אנחנו מאמינים שזמינות של [קוד מקור](https://en.wikipedia.org/wiki/Source_code) מספקת שקיפות רבה יותר לגבי מה שהמכשיר שלך עושה בפועל.
+- אם מסופקים לקוחות VPN, הם צריכים להיות [קוד פתוח](https://en.wikipedia.org/wiki/Open_source), כמו תוכנת ה-VPN שהם בדרך כלל מובנים בהם. אנחנו מאמינים שזמינות של [קוד מקור](https://en.wikipedia.org/wiki/Source_code) מספקת שקיפות רבה יותר לגבי מה שהמכשיר שלך עושה בפועל.
 
 **המקרה הטוב ביותר:**
 

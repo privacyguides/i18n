@@ -182,11 +182,11 @@ Mullvad Browser מגיע עם DuckDuckGo מוגדר כ[מנוע החיפוש](se
 
 ##### DNS דרך HTTPS
 
-If you use a [DNS over HTTPS provider](dns.md):
+אם אתה משתמש ב[ספק DNS דרך HTTPS](dns.md):
 
-- [x] Select **Max Protection** and choose a suitable provider
+- [x] בחר **Max Protection** ובחר ספק מתאים
 
-Max Protection enforces the use of DNS over HTTPS, and a security warning will show if Firefox can’t connect to your secure DNS resolver, or if your secure DNS resolver says that records for the domain you are trying to access do not exist. This stops the network you're connected to from secretly downgrading your DNS security.
+Max Protection אוכפת את השימוש ב-DNS על HTTPS, ואזהרת אבטחה תראה אם Firefox לא יכול להתחבר לפותר ה-DNS המאובטח שלך, או אם פותר ה-DNS המאובטח שלך אומר שרשומות עבור הדומיין שאליו אתה מנסה לגשת אינן קיימות. זה מונע מהרשת שאליה אתה מחובר לשדרג לאחור בסתר את אבטחת ה-DNS שלך.
 
 #### סנכרון
 
@@ -227,11 +227,11 @@ Arkenfox שואפת רק לסכל תסריטי מעקב בסיסיים או נא
 
     1. אנו ממליצים לא להשתמש בגרסת Flatpak של Brave, מכיוון שהיא מחליפה את ארגז החול של Chromium ב-Flatpak, שהוא פחות יעיל. בנוסף, החבילה אינה מתוחזקת על ידי Brave Software, Inc.
 
-**macOS users:** The download for Brave Browser from their official website is a `.pkg` installer which requires admin privileges to run (and may run other unnecessary scripts on your machine). As an alternative, you can download the latest `Brave-Browser-universal.dmg` file from their [GitHub releases](https://github.com/brave/brave-browser/releases/latest) page, which provides a traditional "drag to Applications folder" install.
+**משתמשי macOS:** ההורדה של Brave Browser מהאתר הרשמי שלהם היא מתקין `.pkg` הדורש הרשאות מנהל כדי לפעול (ועשוי להפעיל סקריפטים מיותרים אחרים במחשב שלך). כחלופה, אתה יכול להוריד את הקובץ האחרון `Brave-Browser-universal.dmg` מעמוד[ההפצות גיטהאב ](https://github.com/brave/brave-browser/releases/latest)שלהם, המספק התקנה מסורתית של "גרור לתיקיית יישומים".
 
 !!! warning "אזהרה"
 
-    Brave adds a "[referral code](https://github.com/brave/brave-browser/wiki/Brave%E2%80%99s-Use-of-Referral-Codes)" to the file name in downloads from the Brave website, which is used to track which source the browser was downloaded from, for example `BRV002` in a download named `Brave-Browser-BRV002.pkg`. The installer will then ping Brave's server with the referral code at the end of the installation process. If you're concerned about this, you can rename the installer file before opening it.
+    Brave מוסיף "[קוד הפניה](https://github.com/brave/brave-browser/wiki/Brave%E2%80%99s-Use-of-Referral-Codes)" לשם הקובץ בהורדות מהאתר Brave, המשמש למעקב מאיזה מקור הורדת הדפדפן, למשל `BRV002` בהורדה בשם `Brave-Browser-BRV002.pkg`. לאחר מכן, המתקין יבצע פינג לשרת של Brave עם קוד ההפניה בסוף תהליך ההתקנה. אם אתה מודאג מכך, אתה יכול לשנות את שם קובץ ההתקנה לפני פתיחתו.
 
 ### תצורה מומלצת
 

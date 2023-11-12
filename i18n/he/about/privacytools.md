@@ -77,7 +77,7 @@ BurungHantu גם עשה פוסט טוויטר בטענה כי "עורך דין" 
 
 נכון ל -25 בספטמבר 2022, אנו רואים שהתוכניות הכוללות של BurungHantu מתגשמות ב - privacytools.io, וזו בדיוק הסיבה שהחלטנו ליצור את הדף המסביר את זה היום. האתר שהוא מפעיל נראה כגרסה מותאמת SEO של האתר שממליצה על כלים בתמורה לפיצוי כספי. לאחרונה, IVPN ו - Mullvad, שני ספקי VPN כמעט - באופן אוניברסלי [המומלצים](../vpn.md) על ידי קהילת הפרטיות וראוי לציון על עמדתם נגד תוכניות שותפים הוסרו מ PrivacyTools. במקומם? NordVPN, ‏ Surfshark, ‏ Express_end} ו - hide.me; תאגידי VPN ענקיים עם פלטפורמות ונהלים עסקיים לא אמינים, הידועים לשמצה בזכות השיווק האגרסיבי שלהם ותוכניות השותפים שלהם.
 
-==**PrivacyTools has become exactly the type of site we [warned against](https://web.archive.org/web/20210729205249/https://blog.privacytools.io/the-trouble-with-vpn-and-privacy-reviews/) on the PrivacyTools blog in 2019.**== We've tried to keep our distance from PrivacyTools since the transition, but their continued harassment towards our project and now their absurd abuse of the credibility their brand gained over 6 years of open-source contributions is extremely troubling to us. אלה מאיתנו שנלחמים למען הפרטיות לא נלחמים אחד נגד השני, ולא מקבלים את עצתנו מהמציע הגבוה ביותר.
+==**PrivacyTools הפך בדיוק לסוג האתר [שהזהרנו מפניו](https://web.archive.org/web/20210729205249/https://blog.privacytools.io/the-trouble-with-vpn-and-privacy-reviews/) בבלוג PrivacyTools ב-2019 blog in 2019.**== ניסינו לשמור על מרחק מ-PrivacyTools מאז המעבר, אבל ההטרדה המתמשכת שלהם כלפי הפרויקט שלנו ועכשיו הניצול האבסורדי שלהם את האמינות שהמותג שלהם זכה לה במשך 6 שנים של תרומות קוד פתוח מטריד אותנו מאוד. אלה מאיתנו שנלחמים למען הפרטיות לא נלחמים אחד נגד השני, ולא מקבלים את עצתנו מהמציע הגבוה ביותר.
 
 ## r/privacytoolsIO עכשיו
 

@@ -27,9 +27,9 @@ cover: router.webp
 
 !!! recommendation
 
-    ![OPNsense logo](assets/img/router/opnsense.svg){ align=right }
+    ![OPNsense לוגו](assets/img/router/opnsense.svg){ align=right }
     
-    **OPNsense** is an open-source, FreeBSD-based firewall and routing platform which incorporates many advanced features such as traffic shaping, load balancing, and VPN capabilities, with many more features available in the form of plugins. OPNsense נפוץ כחומת אש היקפית, נתב, נקודת גישה אלחוטית, שרת DHCP, שרת DNS ונקודת קצה VPN.
+    **OPNsense** היא חומת אש ופלטפורמת ניתוב מבוססת קוד פתוח, מבוססת FreeBSD, המשלבת תכונות מתקדמות רבות כגון עיצוב תעבורה, איזון עומסים ויכולות VPN, עם תכונות רבות נוספות הזמינות בצורה של תוספים. OPNsense נפוץ כחומת אש היקפית, נתב, נקודת גישה אלחוטית, שרת DHCP, שרת DNS ונקודת קצה VPN.
     
     [:octicons-home-16: דף הבית](https://opnsense.org/){ .md-button .md-button--primary }
     [:octicons-info-16:](https://docs.opnsense.org/index.html){ .card-link title=תיעוד}

@@ -8,7 +8,7 @@ Privacy Guides אינו משרד עורכי דין. ככזה, אתר Privacy Gui
 
 הפעלת אתר זה, כמו כל מאמץ אנושי, כרוכה בחוסר ודאות ובפשרות. אנו מקווים שהאתר הזה יעזור, אבל הוא עשוי לכלול טעויות ולא יכול לטפל בכל מצב. אם יש לך שאלות כלשהן לגבי מצבך, אנו ממליצים לך לעשות מחקר משלך, לחפש מומחים אחרים ולהשתתף בדיונים עם קהילת Privacy Guides. אם יש לך שאלות משפטיות, עליך להתייעץ עם היועץ המשפטי שלך לפני שתמשיך הלאה.
 
-Privacy Guides is an open-source project contributed to under licenses that include terms that, for the protection of the website and its contributors, make clear that the Privacy Guides project and website is offered "as-is", without warranty, and disclaiming liability for damages resulting from using the website or any recommendations contained within. Privacy Guides אינם מתחייבים או מציגים מצגים כלשהם בנוגע לדיוק, התוצאות הסבירות או המהימנות של השימוש בחומרים באתר או הקשורים אחרת לחומרים כאלה באתר או באתרי צד שלישי כלשהם המקושרים באתר זה.
+Privacy Guides הוא פרויקט קוד פתוח שנתרם לו תחת רישיונות הכוללים תנאים לצורך הגנה על האתר והתורמים לו, מבהירים שהפרויקט ואתר Privacy Guides מוצע "כמות שהוא", ללא אחריות, ומתנערים מאחריות בגין נזקים הנובעים משימוש באתר או כל המלצות הכלולות בו. Privacy Guides אינם מתחייבים או מציגים מצגים כלשהם בנוגע לדיוק, התוצאות הסבירות או המהימנות של השימוש בחומרים באתר או הקשורים אחרת לחומרים כאלה באתר או באתרי צד שלישי כלשהם המקושרים באתר זה.
 
 Privacy Guides בנוסף אינם מתחייבים כי אתר זה יהיה זמין כל הזמן, או זמין בכלל.
 

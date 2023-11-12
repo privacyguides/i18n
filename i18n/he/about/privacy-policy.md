@@ -8,24 +8,24 @@ Privacy Guides הוא פרויקט קהילתי המופעל על ידי מספ�
 
 הפרטיות של המבקרים באתר שלנו חשובה לנו, לכן איננו עוקבים אחר אנשים בודדים. כמבקר באתר שלנו:
 
-- No personal information is collected
-- No information such as cookies are stored in the browser
-- No information is shared with, sent to or sold to third-parties
-- No information is shared with advertising companies
-- No information is mined and harvested for personal and behavioral trends
-- No information is monetized
+- לא נאסף מידע אישי
+- בדפדפן לא מאוחסנים מידע כגון קובצי Cookie
+- שום מידע אינו משותף עם, נשלח או נמכר לצדדים שלישיים
+- אין שיתוף מידע עם חברות פרסום
+- לא נכרה ונקצר מידע עבור מגמות אישיות והתנהגותיות
+- שום מידע אינו מפיק רווחים
 
 ## נתונים שאנו אוספים מבעלי חשבונות
 
-If you register for an account on one of our services, we may collect any information you provide us (such as your email, password, profile information, etc.) and use that information to provide you with the service. We never share or sell this data.
+אם תירשם לחשבון באחד מהשירותים שלנו, אנו עשויים לאסוף כל מידע שתספק לנו (כגון האימייל, הסיסמה, פרטי הפרופיל שלך וכו') ולהשתמש במידע זה כדי לספק לך את השירות. אנחנו לעולם לא חולקים או מוכרים נתונים אלה.
 
-Some services we host have separate privacy policies which supersede this document. For example, the privacy policy of our forum can be found at [discuss.privacyguides.net/privacy](https://discuss.privacyguides.net/privacy).
+לחלק מהשירותים שאנו מארחים יש מדיניות פרטיות נפרדת שמחליפה מסמך זה. לדוגמה, ניתן למצוא את מדיניות הפרטיות של הפורום שלנו בכתובת [discuss.privacyguides.net/privacy](https://discuss.privacyguides.net/privacy).
 
 ## יצירת קשר
 
-Even in the limited cases where your data is collected, our volunteers and most members of the Privacy Guides team have no access to that information. Some information (such as your email address) may be accessible to moderators via limited control panels for the purposes of moderating our communities.
+אפילו במקרים מוגבלים שבהם הנתונים שלך נאספים, למתנדבים שלנו ולרוב חברי צוות Privacy Guides אין גישה למידע זה. מידע מסוים (כגון כתובת האימייל שלך) עשוי להיות נגיש למנחים באמצעות לוחות בקרה מוגבלים למטרות ניהול הקהילות שלנו.
 
-Thus, inquiries regarding your personal information should be sent directly to:
+לפיכך, יש לשלוח פניות בנוגע למידע האישי שלך ישירות אל:
 
 ```text
 Jonah Aragon
@@ -35,7 +35,7 @@ jonah@privacyguides.org
 
 לכל השאלות האחרות, ניתן ליצור קשר עם כל חבר בצוות שלנו.
 
-For complaints under GDPR more generally, you always have the option to lodge complaints with your local data protection supervisory authorities.
+עבור תלונות במסגרת GDPR באופן כללי יותר, תמיד יש לך את האפשרות להגיש תלונות לרשויות הפיקוח המקומיות על הגנת הנתונים.
 
 ## אודות מדיניות זו
 

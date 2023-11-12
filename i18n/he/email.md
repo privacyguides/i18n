@@ -19,7 +19,7 @@ cover: email.webp
 
 ## ספקי אימייל מומלצים
 
-These providers natively support OpenPGP encryption/decryption and the [Web Key Directory standard](basics/email-security.md#what-is-the-web-key-directory-standard), allowing for provider-agnostic E2EE emails. לדוגמה, משתמש Proton Mail יכול לשלוח הודעת E2EE למשתמש Mailbox.org, או שאתה יכול לקבל התראות מוצפנות OpenPGP משירותי אינטרנט התומכים בכך.
+ספקים אלה תומכים באופן מקורי בהצפנה/פענוח של OpenPGP וב[תקן מדריך מפתחות אינטרנט](basics/email-security.md#what-is-the-web-key-directory-standard), המאפשר לספק -אימיילים אגנוסטיים של E2EE. לדוגמה, משתמש Proton Mail יכול לשלוח הודעת E2EE למשתמש Mailbox.org, או שאתה יכול לקבל התראות מוצפנות OpenPGP משירותי אינטרנט התומכים בכך.
 
 <div class="grid cards" markdown>
 
@@ -86,7 +86,7 @@ Proton Mail תומך באימות TOTP ב[שני גורמים](https://proton.me
 
 Proton Mail [שילבה הצפנת OpenPGP](https://proton.me/support/how-to-use-pgp) בדואר האינטרנט שלהם. אימיילים לחשבונות Proton Mail אחרים מוצפנים באופן אוטומטי, וניתן להפעיל הצפנה לכתובות שאינן פרוטון מייל עם מפתח OpenPGP בקלות בהגדרות החשבון שלך. הם גם מאפשרים לך [להצפין הודעות לכתובות שאינן Proton Mail](https://proton.me/support/password-protected-emails) מבלי להזדקק להן להירשם לחשבון Proton Mail או להשתמש בתוכנה כמו OpenPGP.
 
-Proton Mail תומך גם בגילוי מפתחות ציבוריים באמצעות HTTP מ[ספריית מפתחות האינטרנט (WKD)](https://wiki.gnupg.org/WKD) שלהם. זה מאפשר לאנשים שאינם משתמשים ב-Proton Mail למצוא בקלות את מפתחות OpenPGP של חשבונות Proton Mail, עבור E2EE חוצה ספקים. This only applies to email addresses ending in one of Proton's own domains, like @proton.me. If you use a custom domain, you must [configure WKD](./basics/email-security.md#what-is-the-web-key-directory-standard) separately.
+Proton Mail תומך גם בגילוי מפתחות ציבוריים באמצעות HTTP מ[ספריית מפתחות האינטרנט (WKD)](https://wiki.gnupg.org/WKD) שלהם. זה מאפשר לאנשים שאינם משתמשים ב-Proton Mail למצוא בקלות את מפתחות OpenPGP של חשבונות Proton Mail, עבור E2EE חוצה ספקים. זה חל רק על כתובות אימיילים המסתיימות באחד מהדומיינים של פרוטון עצמו, כמו proton.me@. אם אתה משתמש בדומיין מותאם אישית, עליך [להגדיר את WKD](./basics/email-security.md#what-is-the-web-key-directory-standard) בנפרד.
 
 #### :material-information-outline:{ .pg-blue } סגירת חשבון
 
@@ -136,7 +136,7 @@ Mailbox.org מאפשר הצפנה של דואר נכנס באמצעות [תיב�
 
 ל-Mailbox.org יש [הצפנה משולבת](https://kb.mailbox.org/display/MBOKBEN/Send+encrypted+e-mails+with+Guard) בדואר האינטרנט שלהם, מה שמקל על שליחת הודעות לאנשים עם מפתחות OpenPGP ציבוריים. הם גם מאפשרים [לנמענים מרוחקים לפענח אימייל בשרתים](https://kb.mailbox.org/display/MBOKBEN/My+recipient+does+not+use+PGP) של Mailbox.org. תכונה זו שימושית כאשר לנמען המרוחק אין OpenPGP ואין באפשרותו לפענח עותק של הדואר האלקטרוני בתיבת הדואר שלו.
 
-Mailbox.org תומך גם בגילוי מפתחות ציבוריים באמצעות HTTP מ-[Web Key Directory (WKD)](https://wiki.gnupg.org/WKD) שלהם. זה מאפשר לאנשים מחוץ Mailbox.org למצוא את מפתחות OpenPGP של חשבונות Mailbox.org בקלות, עבור E2EE חוצה ספקים. This only applies to email addresses ending in one of Mailbox.org's own domains, like @mailbox.org. If you use a custom domain, you must [configure WKD](./basics/email-security.md#what-is-the-web-key-directory-standard) separately.
+Mailbox.org תומך גם בגילוי מפתחות ציבוריים באמצעות HTTP מ-[Web Key Directory (WKD)](https://wiki.gnupg.org/WKD) שלהם. זה מאפשר לאנשים מחוץ Mailbox.org למצוא את מפתחות OpenPGP של חשבונות Mailbox.org בקלות, עבור E2EE חוצה ספקים. זה חל רק על כתובות אימיילים המסתיימות באחד מהדומיינים של Mailbox.org עצמו, כמו mailbox.org@. אם אתה משתמש בדומיין מותאם אישית, עליך [להגדיר את WKD](./basics/email-security.md#what-is-the-web-key-directory-standard) בנפרד.
 
 #### :material-information-outline:{ .pg-blue } סגירת חשבון
 
@@ -156,8 +156,8 @@ Mailbox.org כולל תכונת מורשת דיגיטלית לכל התוכני�
 
 <div class="grid cards" markdown>
 
-- ![Skiff Mail logo](assets/img/email/skiff-mail.svg){ .twemoji } [Skiff Mail](email.md#skiff-mail)
-- ![Tuta logo](assets/img/email/tuta.svg){ .twemoji } [Tuta](email.md#tuta)
+- ![Skiff Mail לוגו](assets/img/email/skiff-mail.svg){ .twemoji } [Skiff Mail](email.md#skiff-mail)
+- ![Tuta לוגו](assets/img/email/tuta.svg){ .twemoji } [Tuta](email.md#tuta)
 
 </div>
 
@@ -216,21 +216,21 @@ Skiff Mail אינו מציע תכונה דיגיטלית מדור קודם.
 
 !!! recommendation
 
-    ![Tuta logo](assets/img/email/tuta.svg){ align=right }
+    ![Tuta לוגו](assets/img/email/tuta.svg){ align=right }
     
-    **Tuta** is an email service with a focus on security and privacy through the use of encryption. Tuta has been in operation since **2011** and is based in Hanover, Germany. חשבונות מתחילים עם שטח אחסון של 1GB עם התוכנית החינמית שלהם.
+    **Tuta** הוא שירות דואר אלקטרוני עם התמקדות באבטחה ופרטיות באמצעות שימוש בהצפנה. Tuta פועלת מאז **2011** ובסיסה בהאנובר, גרמניה. חשבונות מתחילים עם שטח אחסון של 1GB עם התוכנית החינמית שלהם.
     
-    [:octicons-home-16: Homepage](https://tuta.com){ .md-button .md-button--primary }
-    [:octicons-eye-16:](https://tuta.com/privacy){ .card-link title="Privacy Policy" }
-    [:octicons-info-16:](https://tuta.com/faq){ .card-link title=Documentation}
-    [:octicons-code-16:](https://github.com/tutao/tutanota){ .card-link title="Source Code" }
-    [:octicons-heart-16:](https://tuta.com/community/){ .card-link title=Contribute }
+    [:octicons-home-16: דף הבית](https://tuta.com){ .md-button .md-button--primary }
+    [:octicons-eye-16:](https://tuta.com/privacy){ .card-link title="מדיניות הפרטיות" }
+    [:octicons-info-16:](https://tuta.com/faq){ .card-link title=תיעוד}
+    [:octicons-code-16:](https://github.com/tutao/tutanota){ .card-link title="קוד מקור" }
+    [:octicons-heart-16:](https://tuta.com/community/){ .card-link title=לתרומה }
     
-    ??? downloads
+    ??? downloads "הורדות"
     
         - [:simple-googleplay: Google Play](https://play.google.com/store/apps/details?id=de.tutao.tutanota)
         - [:simple-appstore: App Store](https://apps.apple.com/app/tutanota/id922429609)
-        - [:simple-github: GitHub](https://github.com/tutao/tutanota/releases)
+        - [:simple-github: גיטהאב](https://github.com/tutao/tutanota/releases)
         - [:simple-windows11: Windows](https://tuta.com/#download)
         - [:simple-apple: macOS](https://tuta.com/#download)
         - [:simple-linux: Linux](https://tuta.com/#download)
