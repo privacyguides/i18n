@@ -143,13 +143,13 @@ Canary Mail הוא קוד סגור. אנו ממליצים על זה בגלל ה�
     
     בעתיד, K-9 Mail יהיה [המותג הרשמי](https://k9mail.app/2022/06/13/K-9-Mail-and-Thunderbird.html) לקוח Thunderbird עבור אנדרואיד.
     
-    [:octicons-home-16: Homepage](https://k9mail.app){ .md-button .md-button--primary }
-    [:octicons-eye-16:](https://k9mail.app/privacy){ .card-link title="Privacy Policy" }
-    [:octicons-info-16:](https://docs.k9mail.app/){ .card-link title=Documentation}
-    [:octicons-code-16:](https://github.com/thundernest/k-9){ .card-link title="Source Code" }
-    [:octicons-heart-16:](https://k9mail.app/contribute){ .card-link title=Contribute }
+    [:octicons-home-16: דף הבית](https://k9mail.app){ .md-button .md-button--primary }
+    [:octicons-eye-16:](https://k9mail.app/privacy){ .card-link title="מדיניות הפרטיות" }
+    [:octicons-info-16:](https://docs.k9mail.app/){ .card-link title=תיעוד}
+    [:octicons-code-16:](https://github.com/thundernest/k-9){ .card-link title="קוד מקור" }
+    [:octicons-heart-16:](https://k9mail.app/contribute){ .card-link title=לתרומה }
     
-    ??? downloads
+    ??? downloads "הורדות"
     
         - [:simple-googleplay: Google Play](https://play.google.com/store/apps/details?id=com.fsck.k9)
         - [:simple-github: GitHub](https://github.com/thundernest/k-9/releases)
@@ -226,7 +226,7 @@ Canary Mail הוא קוד סגור. אנו ממליצים על זה בגלל ה�
 
 ### כישורים מינימליים
 
-- Apps developed for open-source operating systems must be open source.
+- אפליקציות שפותחו עבור מערכות הפעלה בקוד פתוח חייבות להיות בקוד פתוח.
 - לא יכול לאסוף טלמטריה, או שיש דרך קלה להפוך את כל הטלמטריה ללא זמינה.
 - חייב לתמוך בהצפנת הודעות OpenPGP.
 
@@ -234,7 +234,7 @@ Canary Mail הוא קוד סגור. אנו ממליצים על זה בגלל ה�
 
 הקריטריונים הטובים ביותר שלנו מייצגים את מה שהיינו רוצים לראות מהפרויקט המושלם בקטגוריה זו. ייתכן שההמלצות שלנו לא יכללו חלק מהפונקציונליות הזו או את כולה, אך אלו שכן כן עשויות לדרג גבוה יותר מאחרות בדף זה.
 
-- Should be open source.
+- צריך להיות קוד פתוח.
 - צריך להיות חוצה פלטפורמות.
 - אינו אוסף טלמטריה כברירת מחדל.
 - צריך לתמוך ב - OpenPGP באופן מקורי, כלומר ללא הרחבות.

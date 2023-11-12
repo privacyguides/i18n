@@ -39,7 +39,15 @@ Tor працює, спрямовуючи ваш інтернет-трафік ч
 
 ## Підключення до Tor
 
-Існує безліч способів під'єднатися до мережі Tor з вашого пристрою, найпоширенішим з яких є **Tor Browser**, форк Firefox, призначений для анонімного перегляду веб-сторінок на настільних комп'ютерах і Android. На додаток до перелічених нижче програм, існують також операційні системи, розроблені спеціально для підключення до мережі Tor, такі як [Whonix](desktop.md#whonix) або [Qubes OS](desktop.md#qubes-os), які забезпечують ще більшу безпеку і захист, ніж стандартний Tor Browser.
+!!! tip
+
+    Before connecting to Tor, please ensure you've read our [overview](advanced/tor-overview.md) on what Tor is and how to connect to it safely. We often recommend connecting to Tor through a trusted [VPN provider](vpn.md), but you have to do so **properly** to avoid decreasing your anonymity.
+
+Існує безліч способів під'єднатися до мережі Tor з вашого пристрою, найпоширенішим з яких є **Tor Browser**, форк Firefox, призначений для анонімного перегляду веб-сторінок на настільних комп'ютерах і Android.
+
+Some of these apps are better than others, and again making a determination comes down to your threat model. If you are a casual Tor user who is not worried about your ISP collecting evidence against you, using apps like [Orbot](#orbot) or mobile browser apps to access the Tor network is probably fine. Increasing the number of people who use Tor on an everyday basis helps reduce the bad stigma of Tor, and lowers the quality of "lists of Tor users" that ISPs and governments may compile.
+
+If more complete anonymity is paramount to your situation, you should **only** be using the desktop Tor Browser client, ideally in a [Whonix](desktop.md#whonix) + [Qubes](desktop.md#qubes-os) configuration. Mobile browsers are less common on Tor (and more fingerprintable as a result), and other configurations are not as rigorously tested against deanonymization.
 
 ### Tor Browser
 
@@ -68,6 +76,8 @@ Tor працює, спрямовуючи ваш інтернет-трафік ч
     Ви **ніколи** не повинні встановлювати додаткові розширення для браузера Tor або змінювати налаштування `about:config`, включаючи ті, які ми рекомендуємо для Firefox. Розширення браузера і нестандартні налаштування виділяють вас серед інших користувачів мережі Tor, тим самим полегшуючи доступ до [fingerprint](https://support.torproject.org/glossary/browser-fingerprinting).
 
 Браузер Tor розроблений таким чином, щоб запобігти зняттю відбитків або ідентифікації вас на основі конфігурації вашого браузера. Тому вкрай важливо, щоб ви **не** модифікували браузер поза межами стандартних [рівнів безпеки](https://tb-manual.torproject.org/security-settings/).
+
+In addition to installing Tor Browser on your computer directly, there are also operating systems designed specifically to connect to the Tor network such as [Whonix](desktop.md#whonix) on [Qubes OS](desktop.md#qubes-os), which provide even greater security and protections than the standard Tor Browser alone.
 
 ### Orbot
 

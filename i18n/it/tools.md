@@ -157,6 +157,7 @@ Per ulteriori dettagli su ogni progetto, perché è stato scelto e ulteriori con
 
 - ![Logo di Privacy.com](assets/img/financial-services/privacy_com.svg#only-light){ .twemoji }![Logo di Privacy.com](assets/img/financial-services/privacy_com-dark.svg#only-dark){ .twemoji } [Privacy.com](financial-services.md#privacycom-us)
 - ![Logo di MySudo](assets/img/financial-services/mysudo.svg#only-light){ .twemoji }![Logo di MySudo](assets/img/financial-services/mysudo-dark.svg#only-dark){ .twemoji } [MySudo](financial-services.md#mysudo-us-paid)
+
 </div>
 
 [Scopri di più :material-arrow-right-drop-circle:](financial-services.md#payment-masking-services)
@@ -429,12 +430,11 @@ Per ulteriori dettagli su ogni progetto, perché è stato scelto e ulteriori con
 
 <div class="grid cards" markdown>
 
-- ![Logo di Obtainium](assets/img/android/obtainium.svg){ .twemoji } [Obtainium (Gestore di app)](android.md#obtainium)
-- ![Logo di Aurora Store](assets/img/android/aurora-store.webp){ .twemoji } [Aurora Store (Client di Google Play)](android.md#aurora-store)
-- ![Logo di Shelter](assets/img/android/mini/shelter.svg){ .twemoji } [Shelter (Profili di lavoro)](android.md#shelter)
-- ![Logo di Auditor](assets/img/android/auditor.svg#only-light){ .twemoji }![Logo di Auditor](assets/img/android/auditor-dark.svg#only-dark){ .twemoji } [Auditor (Dispositivi Supportati)](android.md#auditor)
-- ![Logo di Secure Camera](assets/img/android/secure_camera.svg#only-light){ .twemoji }![Logo di Secure Camera](assets/img/android/secure_camera-dark.svg#only-dark){ .twemoji } [Secure Camera](android.md#secure-camera)
-- ![Logo di Secure PDF Viewer](assets/img/android/secure_pdf_viewer.svg#only-light){ .twemoji }![Logo di Secure PDF Viewer](assets/img/android/secure_pdf_viewer-dark.svg#only-dark){ .twemoji } [Secure PDF Viewer](android.md#secure-pdf-viewer)
+- ![Obtainium logo](assets/img/android/obtainium.svg){ .twemoji } [Obtainium (App Manager)](android.md#obtainium)
+- ![Aurora Store logo](assets/img/android/aurora-store.webp){ .twemoji } [Aurora Store (Google Play Client)](android.md#aurora-store)
+- ![Shelter logo](assets/img/android/mini/shelter.svg){ .twemoji } [Shelter (Work Profiles)](android.md#shelter)
+- ![Secure Camera logo](assets/img/android/secure_camera.svg#only-light){ .twemoji }![Secure Camera logo](assets/img/android/secure_camera-dark.svg#only-dark){ .twemoji } [Secure Camera](android.md#secure-camera)
+- ![Secure PDF Viewer logo](assets/img/android/secure_pdf_viewer.svg#only-light){ .twemoji }![Secure PDF Viewer logo](assets/img/android/secure_pdf_viewer-dark.svg#only-dark){ .twemoji } [Secure PDF Viewer](android.md#secure-pdf-viewer)
 
 </div>
 
@@ -468,3 +468,21 @@ Per ulteriori dettagli su ogni progetto, perché è stato scelto e ulteriori con
 </div>
 
 [Scopri di più :material-arrow-right-drop-circle:](router.md)
+
+## Advanced Tools
+
+These tools may provide utility for certain individuals. They provide functionality which most people do not need to worry about, and often require more in-depth technical knowledge to utilize effectively.
+
+### Device Integrity Verification
+
+<div class="grid cards" markdown>
+
+- ![MVT logo](assets/img/device-integrity/mvt.webp){ .twemoji } [Mobile Verification Toolkit](device-integrity.md#mobile-verification-toolkit)
+- ![iMazing logo](assets/img/device-integrity/imazing.png){ .twemoji } [iMazing (iOS)](device-integrity.md#imazing-ios)
+- ![Auditor logo](assets/img/device-integrity/auditor.svg#only-light){ .twemoji }![Auditor logo](assets/img/device-integrity/auditor-dark.svg#only-dark){ .twemoji } [Auditor (Android)](device-integrity.md#auditor-android)
+- ![Hypatia logo](assets/img/device-integrity/hypatia.svg#only-light){ .twemoji }![Hypatia logo](assets/img/device-integrity/hypatia-dark.svg#only-dark){ .twemoji } [Hypatia (Android)](device-integrity.md#hypatia-android)
+- ![iVerify logo](assets/img/device-integrity/iverify.webp){ .twemoji } [iVerify (iOS)](device-integrity.md#iverify-ios)
+
+</div>
+
+[Scopri di più :material-arrow-right-drop-circle:](device-integrity.md)

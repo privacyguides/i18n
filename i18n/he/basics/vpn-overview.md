@@ -5,70 +5,106 @@ icon: material/vpn
 description: רשתות וירטואליות פרטיות מעבירות את הסיכון מספק שירותי האינטרנט שלך לצד שלישי שאתה סומך עליו. כדאי לזכור את הדברים האלה.
 ---
 
-רשתות וירטואליות פרטיות הן דרך להרחיב את הקצה של הרשת שלך ליציאה למקום אחר בעולם. ספק שירותי אינטרנט יכול לראות את זרימת תעבורת האינטרנט הנכנסת ויוצאת ממכשיר סיום הרשת שלך (כלומר מודם).
+רשתות וירטואליות פרטיות הן דרך להרחיב את הקצה של הרשת שלך ליציאה למקום אחר בעולם.
 
-פרוטוקולי הצפנה כגון HTTPS נמצאים בשימוש נפוץ באינטרנט, כך שהם אולי לא יוכלו לראות בדיוק מה אתה מפרסם או קורא, אבל הם יכולים לקבל מושג על [הדומיינים שאתה מבקש](../advanced/dns-overview.md#why-shouldnt-i-use-encrypted-dns).
+בדרך כלל, ספק שירותי אינטרנט יכול לראות את זרימת תעבורת האינטרנט הנכנסת ויוצאת ממכשיר סיום הרשת שלך (כלומר מודם). Encryption protocols such as HTTPS are commonly used on the internet, so they may not be able to see exactly what you're posting or reading, but they can get an idea of the [domains you request](../advanced/dns-overview.md#why-shouldnt-i-use-encrypted-dns).
 
-VPN יכול לעזור מכיוון שהוא יכול להעביר אמון לשרת במקום אחר בעולם. כתוצאה מכך, ספק שירותי האינטרנט רואה רק שאתה מחובר ל-VPN ושום דבר לגבי הפעילות שאתה מעביר אליו.
+Using a VPN hides even this information from your ISP, by shifting the trust you place in your network to a server somewhere else in the world. As a result, the ISP then only sees that you are connected to a VPN and nothing about the activity that you're passing through it.
+
+!!! note "הערה"
+
+    When we refer to "Virtual Private Networks" on this website, we are usually referring to **commercial** [VPN providers](../vpn.md), who you pay a monthly fee to in exchange for routing your internet traffic securely through their public servers. There are many other forms of VPN, such as ones you host yourself or ones operated by workplaces which allow you to securely connect to internal/employee network resources, however, these VPNs are usually designed for accessing remote networks securely, rather than protecting the privacy of your internet connection.
+
+## How does a VPN work?
+
+VPNs encrypt your traffic between your device and a server owned by your VPN provider. From the perspective of anyone between you and the VPN server, it looks like you're connecting to the VPN server. From the perspective of anyone between the VPN server and your destination site, all they can see is the VPN server connecting to the website.
+
+``` mermaid
+flowchart LR
+ 763931["Your Device<div>(with VPN Client)</div>"] ===|"VPN Encryption"| 404512{"VPN Server"}
+ 404512 -.-|"No VPN Encryption"| 593753((("The Internet\n(Your Destination)")))
+ subgraph 763931["Your Device<div>(with VPN Client)</div>"]
+ end
+```
+
+Note that a VPN does not add any security or encryption to your traffic between the VPN server and your destination on the internet. To access a website securely you **must** still ensure HTTPS is in use regardless of whether you use a VPN.
 
 ## האם כדאי להשתמש ב - VPN?
 
-**כן**, אלא אם אתה כבר משתמש ב-Tor. VPN עושה שני דברים: מעביר את הסיכונים מספק שירותי האינטרנט שלך לעצמו והסתרת ה-IP שלך משירות של צד שלישי.
-
-VPNs אינם יכולים להצפין נתונים מחוץ לחיבור בין המכשיר שלך לשרת VPN. ספקי VPN יכולים לראות ולשנות את התעבורה שלך באותו אופן שבו ספק שירותי האינטרנט שלך יכול לראות. ואין דרך לאמת את מדיניות "ללא רישום" של ספק VPN בשום אופן.
-
-עם זאת, הם מסתירים את ה-IP האמיתי שלך משירות של צד שלישי, בתנאי שאין דליפות IP. הם עוזרים לך להשתלב עם אחרים ולהפחית מעקב מבוסס IP.
-
-## מתי לא כדאי להשתמש ב - VPN?
-
-Using a VPN in cases where you're using your [known identity](common-misconceptions.md#complicated-is-better) is unlikely be useful.
-
-פעולה זו עלולה להפעיל מערכות זיהוי דואר זבל והונאות, כגון אם היית נכנס לאתר האינטרנט של הבנק שלך.
-
-## מה לגבי הצפנה?
-
-ההצפנה המוצעת על ידי ספקי VPN נמצאת בין המכשירים שלך לשרתים שלהם. זה מבטיח שהקישור הספציפי הזה מאובטח. זהו שלב עלייה משימוש בפרוקסי לא מוצפנים שבהם יריב ברשת יכול ליירט את התקשורת בין המכשירים שלך לפרוקסי האמורים ולשנות אותם. עם זאת, הצפנה בין האפליקציות או הדפדפנים שלך עם ספקי השירות אינה מטופלת על ידי הצפנה זו.
-
-על מנת לשמור על פרטיות ומאובטחת מה שאתה עושה באתרים שבהם אתה מבקר, עליך להשתמש ב-HTTPS. זה ישמור על הסיסמאות, אסימוני הפגישה והשאילתות שלך בטוחים מספק ה-VPN. שקול להפעיל "HTTPS בכל מקום" בדפדפן שלך כדי למתן התקפות שדרוג לאחור כמו [רצועת SSL](https://www.blackhat.com/presentations/bh-dc-09/Marlinspike/BlackHat-DC-09-Marlinspike-Defeating-SSL.pdf).
-
-## האם עלי להשתמש ב-DNS מוצפן עם VPN?
-
-אלא אם כן ספק ה-VPN שלך מארח את שרתי ה-DNS המוצפנים, **לא**. שימוש ב-DOH/DOT (או כל צורה אחרת של DNS מוצפן) עם שרתי צד שלישי פשוט יוסיף עוד ישויות למתן אמון ו**לא עושה כלום** לשיפור הפרטיות/אבטחתך. ספק ה-VPN שלך עדיין יכול לראות באילו אתרים אתה מבקר בהתבסס על כתובות ה-IP ושיטות אחרות. במקום לסמוך רק על ספק ה-VPN שלך, אתה בוטח כעת גם בספק ה-VPN וגם בספק ה-DNS.
-
-סיבה נפוצה להמליץ על DNS מוצפן היא שהוא עוזר נגד זיוף DNS. עם זאת, הדפדפן שלך כבר אמור לבדוק [אישורי TLS](https://en.wikipedia.org/wiki/Transport_Layer_Security#Digital_certificates) עם **HTTPS** ולהזהיר אותך לגבי זה. אם אינך משתמש ב**HTTPS**, יריב עדיין יכול פשוט לשנות כל דבר מלבד שאילתות ה-DNS שלך והתוצאה הסופית תהיה מעט שונה.
-
-מיותר לציין ש**לא כדאי להשתמש ב-DNS מוצפן עם Tor**. זה יפנה את כל בקשות ה-DNS שלך דרך מעגל יחיד ויאפשר לספק ה-DNS המוצפן לעשות לך דה-אנוניזציה.
-
-## האם עלי להשתמש ב- Tor *וגם*-VPN?
-
-על ידי שימוש ב-VPN עם Tor, אתה יוצר בעצם צומת כניסה קבוע, לעתים קרובות עם שביל כסף מחובר. זה מספק אפס יתרונות נוספים לך, תוך הגדלת משטח ההתקפה של החיבור שלך באופן דרמטי. אם אתה רוצה להסתיר את השימוש שלך ב-Tor מ-ISP שלך או מהממשלה שלך, ל-Tor יש פתרון מובנה לכך: גשרי Tor. [קרא עוד על גשרי Tor ומדוע אין צורך להשתמש ב-VPN](../advanced/tor-overview.md).
-
-## מה אם אני צריך אנונימיות?
-
-רשתות VPN לא יכולות לספק אנונימיות. ספק ה-VPN שלך עדיין יראה את כתובת ה-IP האמיתית שלך, ולעתים קרובות יש לו שובל כסף שניתן לקשר ישירות אליך. אינך יכול להסתמך על מדיניות "ללא רישום" כדי להגן על הנתונים שלך. השתמש [ב Tor](https://www.torproject.org/) במקום.
-
-## מה לגבי ספקי VPN המספקים צמתי Tor?
-
-אל תשתמש בתכונה זו. הנקודה בשימוש ב-Tor היא שאינך סומך על ספק ה-VPN שלך. נכון לעכשיו Tor תומך רק בפרוטוקול [TCP](https://en.wikipedia.org/wiki/Transmission_Control_Protocol). [UDP](https://en.wikipedia.org/wiki/User_Datagram_Protocol) (בשימוש [WebRTC](https://en.wikipedia.org/wiki/WebRTC) לשיתוף קול ווידאו, פרוטוקול [HTTP3/QUIC](https://en.wikipedia.org/wiki/HTTP/3) החדש וכו'), [ICMP](https://en.wikipedia.org/wiki/Internet_Control_Message_Protocol) וחבילות אחרות יוסרו. כדי לפצות על כך, ספקי VPN בדרך כלל ינתבו את כל החבילות שאינן TCP דרך שרת ה-VPN שלהם (הקפיצה הראשונה שלך). זה המקרה עם [ProtonVPN](https://protonvpn.com/support/tor-vpn/). בנוסף, בעת שימוש בהגדרת Tor over VPN זו, אין לך שליטה על תכונות Tor חשובות אחרות כגון [כתובת יעד מבודדת](https://www.whonix.org/wiki/Stream_Isolation) (באמצעות מעגל Tor שונה עבור כל דומיין שאתה מבקר בו).
-
-יש לראות את התכונה כדרך נוחה לגשת לרשת Tor, לא להישאר אנונימית. לאנונימיות נאותה, השתמש בדפדפן TorSocks, Tor או שער Tor.
-
-## מתי רשתות VPN שימושיות?
-
-VPN עדיין עשוי להיות שימושי עבורך במגוון תרחישים, כגון:
+**Yes**, almost certainly. A VPN has many advantages, including:
 
 1. הסתרת התנועה שלך **רק** מספק האינטרנט שלך.
 1. הסתרת ההורדות שלך (כגון טורנטים) מספק האינטרנט שלך וארגונים נגד פיראטיות.
-1. הסתרת ה-IP שלך מאתרי אינטרנט ושירותים של צד שלישי, מניעת מעקב מבוסס IP.
+1. Hiding your IP from third-party websites and services, helping you blend in and preventing IP based tracking.
+1. Allowing you to bypass geo-restrictions on certain content.
 
-במצבים כאלה, או אם יש לך סיבה משכנעת אחרת, ספקי רשתות ה-VPN שציינו לעיל הם אלו שאנו חושבים שהם הכי אמינים. עם זאת, שימוש בספק VPN עדיין אומר שאתה *סומך* על הספק. כמעט בכל תרחיש אחר אתה אמור להשתמש בכלי מאובטח **לפי-העיצוב** כגון Tor.
+VPNs can provide *some* of the same benefits Tor provides, such as hiding your IP from the websites you visit and geographically shifting your network traffic, and good VPN providers will not cooperate with e.g. legal authorities from oppressive regimes, especially if you choose a VPN provider outside your own jurisdiction.
 
-## מקורות וקריאה נוספת
+VPNs cannot encrypt data outside the connection between your device and the VPN server. VPN providers can also see and modify your traffic the same way your ISP could, so there is still a level of trust you are placing in them. ואין דרך לאמת את מדיניות "ללא רישום" של ספק VPN בשום אופן.
 
-1. [VPN - נרטיב מאוד מעורער](https://schub.io/blog/2019/04/08/very-precarious-narrative.html) מאת Dennis Schubert
-1. [סקירה כללית של רשת Tor](../advanced/tor-overview.md)
-1. [IVPN Privacy Guides](https://www.ivpn.net/privacy-guides)
-1. ["האם אני צריך VPN?"](https://www.doineedavpn.com), כלי שפותח על ידי IVPN כדי לאתגר שיווק VPN אגרסיבי על ידי סיוע לאנשים להחליט אם VPN מתאים להם.
+## When isn't a VPN suitable?
+
+Using a VPN in cases where you're using your [real-life or well-known identity](common-misconceptions.md#complicated-is-better) online is unlikely be useful. פעולה זו עלולה להפעיל מערכות זיהוי דואר זבל והונאות, כגון אם היית נכנס לאתר האינטרנט של הבנק שלך.
+
+It's important to remember that a VPN will not provide you with absolute anonymity, because the VPN provider itself will still see your real IP address, destination website information, and often has a money trail that can be linked directly back to you. You can't rely on "no logging" policies to protect your data from anyone who is able to protect. If you need complete safety from the network itself, consider using [Tor](../advanced/tor-overview.md) in addition to or instead of a VPN.
+
+You also should not trust a VPN to secure your connection to an unencrypted, HTTP destination. על מנת לשמור על פרטיות ומאובטחת מה שאתה עושה באתרים שבהם אתה מבקר, עליך להשתמש ב-HTTPS. This will keep your passwords, session tokens, and queries safe from the VPN provider and other potential adversaries in between the VPN server and your destination. You should enable HTTPS-only mode in your browser (if it's supported) to mitigate attacks which try to downgrade your connection from HTTPS to HTTP.
+
+## האם עלי להשתמש ב-DNS מוצפן עם VPN?
+
+Unless your VPN provider hosts the encrypted DNS servers themselves, **probably not**. Using DOH/DOT (or any other form of encrypted DNS) with third-party servers will simply add more entities to trust. ספק ה-VPN שלך עדיין יכול לראות באילו אתרים אתה מבקר בהתבסס על כתובות ה-IP ושיטות אחרות. All this being said, there may be some advantages to enabling encrypted DNS in order to enable other security features in your browser, such as ECH. Browser technologies which are reliant on in-browser encrypted DNS are relatively new and not yet widespread, so whether they are relevant to you in particular is an exercise we will leave to you to research independently.
+
+Another common reason encrypted DNS is recommended is that it prevents DNS spoofing. עם זאת, הדפדפן שלך כבר אמור לבדוק [אישורי TLS](https://en.wikipedia.org/wiki/Transport_Layer_Security#Digital_certificates) עם **HTTPS** ולהזהיר אותך לגבי זה. אם אינך משתמש ב**HTTPS**, יריב עדיין יכול פשוט לשנות כל דבר מלבד שאילתות ה-DNS שלך והתוצאה הסופית תהיה מעט שונה.
+
+## האם עלי להשתמש ב- Tor *וגם*-VPN?
+
+Maybe, Tor is not necessarily suitable for everybody in the first place. Consider your [threat model](threat-modeling.md), because if your adversary is not capable of extracting information from your VPN provider, using a VPN alone may provide enough protection.
+
+If you do use Tor then you are *probably* best off connecting to the Tor network via a commercial VPN provider. However, this is a complex subject which we've written more about on our [Tor overview](../advanced/tor-overview.md) page.
+
+## Should I access Tor through VPN providers that provide "Tor nodes"?
+
+You should not use that feature: The primary advantage of using Tor is that you do not trust your VPN provider, which is negated when you use Tor nodes hosted by your VPN instead of connecting directly to Tor from your computer.
+
+Currently, Tor only supports the TCP protocol. UDP (used by [WebRTC](https://en.wikipedia.org/wiki/WebRTC), [HTTP3/QUIC](https://en.wikipedia.org/wiki/HTTP/3), and other protocols), [ICMP](https://en.wikipedia.org/wiki/Internet_Control_Message_Protocol), and other packets will be dropped. כדי לפצות על כך, ספקי VPN בדרך כלל ינתבו את כל החבילות שאינן TCP דרך שרת ה-VPN שלהם (הקפיצה הראשונה שלך). זה המקרה עם [ProtonVPN](https://protonvpn.com/support/tor-vpn/). בנוסף, בעת שימוש בהגדרת Tor over VPN זו, אין לך שליטה על תכונות Tor חשובות אחרות כגון [כתובת יעד מבודדת](https://www.whonix.org/wiki/Stream_Isolation) (באמצעות מעגל Tor שונה עבור כל דומיין שאתה מבקר בו).
+
+The feature should be viewed as a *convenient* way to access hidden services on Tor, not to stay anonymous. For proper anonymity, use the actual [Tor Browser](../tor.md).
+
+## Commercial VPN Ownership
+
+Most VPN services are owned by the same [few companies](https://vpnpro.com/blog/hidden-vpn-owners-unveiled-97-vpns-23-companies/). These shady companies run lots of smaller VPN services to create the illusion that you have more choice than you actually do and to maximize profit. Typically, these providers that feed into their shell company have terrible privacy policies and shouldn't be trusted with your internet traffic. You should be very strict about which provider you decide to use.
+
+You should also be wary that many VPN review sites are merely advertising vehicles open to the highest bidder. ==Privacy Guides does not make money from recommending external products, and never uses affiliate programs.==
+
+[Our VPN Recommendations](../vpn.md ""){.md-button}
+
+## Modern VPN Alternatives
+
+Recently, some attempts have been made by various organizations to address some issues which centralized VPNs have. These technologies are relatively new, but worth keeping an eye on as the field develops.
+
+### Multi-Party Relays
+
+Multi-Party Relays (MPRs) use multiple nodes owned by different parties, such that no individual party knows both who you are and what you're connecting to. This is the basic idea behind Tor, but now there are some paid services that try to emulate this model.
+
+MPRs seek to solve a problem inherent to VPNs: the fact that you must trust them completely. They accomplish this goal by segmenting the responsibilities between two or more different companies. For example, Apple's iCloud+ Private Relay routes your traffic through two servers:
+
+1. Firstly, a server operated by Apple.
+
+    This server is able to see your device's IP when you connect to it, and has knowledge of your payment information and Apple ID tied to your iCloud subscription. However, it is unable to see what website you are connecting to.
+
+2. Secondly, a server operated by a partner CDN, such as Cloudflare or Fastly.
+
+    This server actually makes the connection to your destination website, but has no knowledge of your device. The only IP address it knows about is Apple's server's.
+
+Other MPRs run by different companies like Google or INVISV operate in a very similar manner. This protection by segmentation only exists if you trust the two companies to not collude with each other to deanonymize you.
+
+### Decentralized VPNs
+
+Another attempt at solving the issues with centralized VPN services are dVPNs. These are based on blockchain technology and claim to eliminate trust in a single party by distributing the nodes across lots of different people. However, many times a dVPN will default to a single node, meaning you need to trust that node completely, just like a traditional VPN. Unlike a traditional VPN, this one node that can see all your traffic is a random person instead of your VPN provider that can be audited and has legal responsibilities to uphold their privacy policy. Multi-hop is needed to solve this, but that comes with a stability and performance cost.
+
+Another consideration is legal liability. The exit node will need to deal with legal problems from misuse of the network, an issue that the Tor network has contended with for its entire existence. This discourages regular people from running nodes and makes it more attractive for a malicious actor with lots of resources to host one. This is a big problem if the service is single-node, as the potentially malicious exit node can see who you are and what you're connecting to.
+
+Many dVPNs are used to push a cryptocurrency rather than to make the best service. They also tend to be smaller networks with fewer nodes, making them more vulnerable to [Sybil attacks](https://en.wikipedia.org/wiki/Sybil_attack).
 
 ## מידע שקשור ל VPN
 
@@ -76,3 +112,4 @@ VPN עדיין עשוי להיות שימושי עבורך במגוון תרחי
 - [חקירת אפליקציית VPN בחינם](https://www.top10vpn.com/free-vpn-app-investigation/)
 - [בעלי VPN מוסתרים חשפו: 101 מוצרי VPN המנוהלים על ידי 23 חברות בלבד](https://vpnpro.com/blog/hidden-vpn-owners-unveiled-97-vpns-23-companies/)
 - [החברה הסינית הזו עומדת בסתר מאחורי 24 אפליקציות פופולריות שמחפשות הרשאות מסוכנות](https://vpnpro.com/blog/chinese-company-secretly-behind-popular-apps-seeking-dangerous-permissions/)
+- [VPN - נרטיב מאוד מעורער](https://schub.io/blog/2019/04/08/very-precarious-narrative.html) מאת Dennis Schubert

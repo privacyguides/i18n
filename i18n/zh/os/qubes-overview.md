@@ -52,6 +52,25 @@ The [qrexec framework](https://www.qubes-os.org/doc/qrexec/) is a core part of Q
 
 
 
+## Connecting to Tor via a VPN
+
+We [recommend](../advanced/tor-overview.md) connecting to the Tor network via a [VPN](../vpn.md) provider, and luckily Qubes makes this easy to do with a combination of ProxyVMs and Whonix.
+
+After [creating a new ProxyVM](https://github.com/Qubes-Community/Contents/blob/master/docs/configuration/vpn.md) which connects to the VPN of your choice, you can chain your Whonix qubes to that ProxyVM **before** they connect to the Tor network, by setting the NetVM of your Whonix **Gateway** (`sys-whonix`) to the newly-created ProxyVM.
+
+Your qubes should be configured in a manner similar to this:
+
+| Qube name       | Qube description                                                                                                 | NetVM           |
+| --------------- | ---------------------------------------------------------------------------------------------------------------- | --------------- |
+| sys-net         | *Your default network qube (pre-installed)*                                                                      | *n/a*           |
+| sys-firewall    | *Your default firewall qube (pre-installed)*                                                                     | sys-net         |
+| ==sys-proxyvm== | The VPN ProxyVM you [created](https://github.com/Qubes-Community/Contents/blob/master/docs/configuration/vpn.md) | sys-firewall    |
+| sys-whonix      | Your Whonix Gateway VM                                                                                           | ==sys-proxyvm== |
+| anon-whonix     | Your Whonix Workstation VM                                                                                       | sys-whonix      |
+
+
+
+
 ## 其它资源
 
 关于其他信息，我们鼓励你查阅位于 [Qubes OS网站上的大量Qubes OS文档页面](https://www.qubes-os.org/doc/)。 离线拷贝可以从Qubes OS [文档库中下载](https://github.com/QubesOS/qubes-doc)。

@@ -39,7 +39,15 @@ O Tor funciona roteando seu tráfego de internet através desses servidores oper
 
 ## Conectando-se ao Tor
 
-Existem várias maneiras de se conectar à rede Tor a partir do seu dispositivo, a mais usada é o **Navegador Tor**, um garfo do Firefox projetado para navegação anônima em computadores e em celulares Android. Além dos aplicativos listados abaixo, também existem sistemas operacionais projetados especificamente para se conectar à rede Tor, como [Whonix](desktop.md#whonix) no [Qubes OS](desktop.md#qubes-os), que proporcionam ainda mais segurança e proteção do que o tradicional Navegador Tor.
+!!! tip
+
+    Before connecting to Tor, please ensure you've read our [overview](advanced/tor-overview.md) on what Tor is and how to connect to it safely. We often recommend connecting to Tor through a trusted [VPN provider](vpn.md), but you have to do so **properly** to avoid decreasing your anonymity.
+
+Existem várias maneiras de se conectar à rede Tor a partir do seu dispositivo, a mais usada é o **Navegador Tor**, um garfo do Firefox projetado para navegação anônima em computadores e em celulares Android.
+
+Some of these apps are better than others, and again making a determination comes down to your threat model. If you are a casual Tor user who is not worried about your ISP collecting evidence against you, using apps like [Orbot](#orbot) or mobile browser apps to access the Tor network is probably fine. Increasing the number of people who use Tor on an everyday basis helps reduce the bad stigma of Tor, and lowers the quality of "lists of Tor users" that ISPs and governments may compile.
+
+If more complete anonymity is paramount to your situation, you should **only** be using the desktop Tor Browser client, ideally in a [Whonix](desktop.md#whonix) + [Qubes](desktop.md#qubes-os) configuration. Mobile browsers are less common on Tor (and more fingerprintable as a result), and other configurations are not as rigorously tested against deanonymization.
 
 ### Navegador Tor
 
@@ -74,6 +82,8 @@ Existem várias maneiras de se conectar à rede Tor a partir do seu dispositivo,
         - [:fontawesome-brands-git: Fonte](https://hg.mozilla.org/mozilla-central)
 
 Este navegador dá acesso às Pontes Tor (Tor Bridges) e a \[Rede Tor\](https://en.wikipedia.org/wiki/Tor_(rede)), juntamente com extensões que podem ser configuradas automaticamente para se adaptarem aos três níveis de segurança propostos - *Standard*, *Safer* e *Safest*. Portanto, é importante que você **não** modifique o navegador fora dos [níveis de segurança disponíveis](https://tb-manual.torproject.org/security-settings/).
+
+In addition to installing Tor Browser on your computer directly, there are also operating systems designed specifically to connect to the Tor network such as [Whonix](desktop.md#whonix) on [Qubes OS](desktop.md#qubes-os), which provide even greater security and protections than the standard Tor Browser alone.
 
 ### Orbot
 

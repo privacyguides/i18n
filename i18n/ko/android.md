@@ -215,39 +215,6 @@ We recommend a wide variety of Android apps throughout this site. The apps liste
     
     When using Shelter, you are placing complete trust in its developer, as Shelter acts as a [Device Admin](https://developer.android.com/guide/topics/admin/device-admin) to create the Work Profile, and it has extensive access to the data stored within the Work Profile.
 
-### Auditor
-
-!!! recommendation
-
-    ![Auditor logo](assets/img/android/auditor.svg#only-light){ align=right }
-    ![Auditor logo](assets/img/android/auditor-dark.svg#only-dark){ align=right }
-    
-    **Auditor** is an app which leverages hardware security features to provide device integrity monitoring by actively validating the identity of a device and the integrity of its operating system. Currently, it only works with GrapheneOS or the stock operating system for [supported devices](https://attestation.app/about#device-support).
-    
-    [:octicons-home-16: 홈페이지](https://attestation.app){ .md-button .md-button--primary }
-    [:octicons-eye-16:](https://attestation.app/privacy-policy){ .card-link title="프라이버시 정책" }
-    [:octicons-info-16:](https://attestation.app/about){ .card-link title=문서}
-    [:octicons-code-16:](https://attestation.app/source){ .card-link title="소스 코드" }
-    [:octicons-heart-16:](https://attestation.app/donate){ .card-link title=기부 }
-    
-    ??? downloads "다운로드"
-    
-        - [:simple-googleplay: Google Play](https://play.google.com/store/apps/details?id=app.attestation.auditor.play)
-        - [:simple-github: GitHub](https://github.com/GrapheneOS/Auditor/releases)
-        - [:material-cube-outline: GrapheneOS App Store](https://github.com/GrapheneOS/Apps/releases)
-
-Auditor performs attestation and intrusion detection by:
-
-- Using a [Trust On First Use (TOFU)](https://en.wikipedia.org/wiki/Trust_on_first_use) model between an *auditor* and *auditee*, the pair establish a private key in the [hardware-backed keystore](https://source.android.com/security/keystore/) of the *Auditor*.
-- The *auditor* can either be another instance of the Auditor app or the [Remote Attestation Service](https://attestation.app).
-- The *auditor* records the current state and configuration of the *auditee*.
-- Should tampering with the operating system of the *auditee* happen after the pairing is complete, the auditor will be aware of the change in the device state and configurations.
-- You will be alerted to the change.
-
-No personally identifiable information is submitted to the attestation service. We recommend that you sign up with an anonymous account and enable remote attestation for continuous monitoring.
-
-If your [threat model](basics/threat-modeling.md) requires privacy, you could consider using [Orbot](tor.md#orbot) or a VPN to hide your IP address from the attestation service. To make sure that your hardware and operating system is genuine, [perform local attestation](https://grapheneos.org/install/web#verifying-installation) immediately after the device has been installed and prior to any internet connection.
-
 ### Secure Camera
 
 !!! recommendation
@@ -347,7 +314,7 @@ Aurora Store에서는 익명 계정 기능을 사용해 유료 앱은 다운로�
 
 ### Manually with RSS Notifications
 
-GitHub, GitLab 등의 플랫폼에서 릴리즈되는 앱은 [뉴스 애그리게이터](/news-aggregators)에 RSS 피드를 추가해 새로운 릴리즈를 확인할 수 있습니다.
+For apps that are released on platforms like GitHub and GitLab, you may be able to add an RSS feed to your [news aggregator](news-aggregators.md) that will help you keep track of new releases.
 
 ![RSS APK](./assets/img/android/rss-apk-light.png#only-light) ![RSS APK](./assets/img/android/rss-apk-dark.png#only-dark) ![APK Changes](./assets/img/android/rss-changes-light.png#only-light) ![APK Changes](./assets/img/android/rss-changes-dark.png#only-dark)
 

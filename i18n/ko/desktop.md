@@ -120,11 +120,9 @@ Nix is a source-based package manager; if there’s no pre-built available in th
 
 Whonix는 'Workstation'과 Tor 'Gateway'라는 두 개의 가상 머신으로 구성되어 실행됩니다. Workstation 에서 발생하는 모든 통신은 반드시 Tor Gateway를 통과합니다. 즉, Workstation이 만약 멀웨어에 의해 손상된다 할지라도, 실제 IP 주소는 노출되지 않습니다.
 
-Whonix는 다양한 기능을 제공합니다. 예시로는 Tor 스트림 격리, [키 입력 익명화](https://www.whonix.org/wiki/Keystroke_Deanonymization#Kloak), [암호화 Swap](https://github.com/Whonix/swap-file-creator), 메모리 할당 보안 강화 등이 있습니다.
+Some of its features include Tor Stream Isolation, [keystroke anonymization](https://www.whonix.org/wiki/Keystroke_Deanonymization#Kloak), [encrypted swap](https://github.com/Whonix/swap-file-creator), and a hardened memory allocator. Future versions of Whonix will likely include [full system AppArmor policies](https://github.com/Whonix/apparmor-profile-everything) and a [sandbox app launcher](https://www.whonix.org/wiki/Sandbox-app-launcher) to fully confine all processes on the system.
 
-Whonix 향후 버전에서는 [전체 시스템 AppArmor 정책](https://github.com/Whonix/apparmor-profile-everything), [샌드박스 앱 런처](https://www.whonix.org/wiki/Sandbox-app-launcher) 등 시스템 내 모든 프로세스의 완전한 격리가 추가될 예정입니다.
-
-Whonix는 [Qubes와 결합해 사용하는 것이 가장 뛰어납니다](https://www.whonix.org/wiki/Qubes/Why_use_Qubes_over_other_Virtualizers). 하지만, Qubes-Whonix는 다른 하이퍼바이저와 비교했을 때 [여러 단점](https://forums.whonix.org/t/qubes-whonix-security-disadvantages-help-wanted/8581) 또한 가지고 있습니다.
+Whonix is best used [in conjunction with Qubes](https://www.whonix.org/wiki/Qubes/Why_use_Qubes_over_other_Virtualizers). We have a [recommended guide](os/qubes-overview.md#connecting-to-tor-via-a-vpn) on configuring Whonix in conjunction with a VPN ProxyVM in Qubes to hide your Tor activities from your ISP.
 
 ### Tails
 

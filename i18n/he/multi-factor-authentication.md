@@ -23,12 +23,12 @@ cover: multi-factor-authentication.webp
 
 [טבלת ההשוואה](https://www.yubico.com/store/compare/) מציגה את התכונות ואת אופן ההשוואה של YubiKeys. אנו ממליצים בחום לבחור במפתחות מסדרת YubiKey 5.
 
-ניתן לתכנת את [YubiKey מנהל](https://www.yubico.com/support/download/yubikey-manager/) או [YubiKey כלי התאמה אישית](https://www.yubico.com/support/download/yubikey-personalization-tools/). לניהול קודי TOTP, תוכל להשתמש ב - [Yubico Authenticator](https://www.yubico.com/products/yubico-authenticator/). All of Yubico's clients are open source.
+ניתן לתכנת את [YubiKey מנהל](https://www.yubico.com/support/download/yubikey-manager/) או [YubiKey כלי התאמה אישית](https://www.yubico.com/support/download/yubikey-personalization-tools/). לניהול קודי TOTP, תוכל להשתמש ב - [Yubico Authenticator](https://www.yubico.com/products/yubico-authenticator/). כל הלקוחות של Yubico הם קוד פתוח.
 
 עבור דגמים התומכים ב - HOTP וב - TOTP, ישנם 2 חריצים בממשק ה - OTP שניתן להשתמש בהם עבור HOTP ו -32 חריצים לאחסון סודות TOTP. סודות אלה מאוחסנים מוצפנים על המפתח ואף פעם לא לחשוף אותם למכשירים הם מחוברים. ברגע שזרע (סוד משותף) ניתן למאמת Yubico, הוא ייתן רק את הקודים בני שש הספרות, אך לעולם לא את הזרע. מודל אבטחה זה עוזר להגביל את מה שתוקף יכול לעשות אם הוא מסכן את אחד המכשירים המריצים את המאמת של Yubico והופך את ה - YubiKey לעמיד בפני תוקף פיזי.
 
-!!! warning
-    The firmware of YubiKey is not open source and is not updatable. אם אתה רוצה תכונות בגרסאות קושחה חדשות יותר, או אם ישנה פגיעות בגרסת הקושחה שבה אתה משתמש, תצטרך לרכוש מפתח חדש.
+!!! warning "אזהרה"
+     הקושחה של YubiKey אינה קוד פתוח ואינה ניתנת לעדכון. אם אתה רוצה תכונות בגרסאות קושחה חדשות יותר, או אם ישנה פגיעות בגרסת הקושחה שבה אתה משתמש, תצטרך לרכוש מפתח חדש.
 
 ### Nitrokey
 
@@ -58,7 +58,7 @@ cover: multi-factor-authentication.webp
 
 ה-Nitrokey Pro 2, Nitrokey Storage 2 וה-Nitrokey 3 הקרובים תומכים באימות שלמות המערכת עבור מחשבים ניידים עם קושחת [Coreboot](https://www.coreboot.org/) + [Heads](https://osresearch.net/).
 
-Nitrokey's firmware is open source, unlike the YubiKey. הקושחה בדגמי NitroKey המודרניים (למעט ה**NitroKey Pro 2**) ניתנת לעדכון.
+הקושחה של Nitrokey היא קוד פתוח, שלא כמו YubiKey. הקושחה בדגמי NitroKey המודרניים (למעט ה**NitroKey Pro 2**) ניתנת לעדכון.
 
 ### קריטריונים
 
@@ -94,15 +94,15 @@ Nitrokey's firmware is open source, unlike the YubiKey. הקושחה בדגמי 
 
 !!! recommendation
 
-    ![ente Auth logo](assets/img/multi-factor-authentication/ente-auth.png){ align=right }
+    ![ente Auth לוגו](assets/img/multi-factor-authentication/ente-auth.png){ align=right }
     
-    **ente Auth** is a free and open-source app which stores and generates TOTP tokens on your mobile device. It can be used with an online account to backup and sync your tokens across your devices (and access them via a web interface) in a secure, end-to-end encrypted fashion. It can also be used offline on a single device with no account necessary.
+    **ente Auth** היא אפליקציה חינמית וקוד פתוח המאחסנת ויוצרת אסימוני TOTP במכשיר הנייד שלך. ניתן להשתמש בו עם חשבון מקוון כדי לגבות ולסנכרן את האסימונים שלך בין המכשירים שלך (ולגשת אליהם דרך ממשק אינטרנט) בצורה מאובטחת ומוצפנת מקצה לקצה. ניתן להשתמש בו גם במצב לא מקוון במכשיר בודד ללא צורך בחשבון.
     
-    [:octicons-home-16: Homepage](https://ente.io/auth){ .md-button .md-button--primary }
-    [:octicons-eye-16:](https://ente.io/privacy){ .card-link title="Privacy Policy" }
-    [:octicons-code-16:](https://github.com/ente-io/auth){ .card-link title="Source Code" }
+    [:octicons-home-16: דף הבית](https://ente.io/auth){ .md-button .md-button--primary }
+    [:octicons-eye-16:](https://ente.io/privacy){ .card-link title="מדיניות הפרטיות" }
+    [:octicons-code-16:](https://github.com/ente-io/auth){ .card-link title="קוד מקור" }
     
-    ??? downloads
+    ??? downloads "הורדות"
     
         - [:simple-googleplay: Google Play](https://play.google.com/store/apps/details?id=io.ente.auth)
         - [:simple-appstore: App Store](https://apps.apple.com/us/app/ente-authenticator/id6444121398)
@@ -113,9 +113,9 @@ Nitrokey's firmware is open source, unlike the YubiKey. הקושחה בדגמי 
 
 !!! recommendation
 
-    ![Aegis logo](assets/img/multi-factor-authentication/aegis.png){ align=right }
+    ![Aegis לוגו](assets/img/multi-factor-authentication/aegis.png){ align=right }
     
-    **Aegis Authenticator** is a free and open-source app for Android to manage your 2-step verification tokens for your online services. Aegis Authenticator operates completely offline/locally, but includes the option to export your tokens for backup unlike many alternatives.
+    **Aegis Authenticator** היא אפליקציה חינמית וקוד פתוח עבור אנדרואיד לניהול אסימוני האימות הדו-שלביים שלך עבור השירותים המקוונים שלך. Aegis Authenticator פועל באופן לא מקוון/מקומי לחלוטין, אך כולל אפשרות לייצא את האסימונים שלך לגיבוי בניגוד לחלופות רבות.
     
     [:octicons-home-16: דף הבית](https://getaegis.app){ .md-button .md-button--primary }
     [:octicons-eye-16:](https://getaegis.app/aegis/privacy.html){ .card-link title="מדיניות פרטיות" }

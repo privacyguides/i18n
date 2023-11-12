@@ -120,11 +120,9 @@ Nix - это менеджер пакетов на основе исходных 
 
 Whonix предназначен для запуска в виде двух виртуальных машин: "Рабочая" и "Шлюз Tor." Все соединения рабочей станции должны проходить через шлюз Tor. Это означает, даже если рабочая станция будет скомпрометирована каким-либо вредоносным ПО, настоящий IP-адрес останется скрытым.
 
-Некоторые из его возможностей включают изоляцию потока Tor, [анонимизацию нажатия клавиш](https://www.whonix.org/wiki/Keystroke_Deanonymization#Kloak), [зашифрованный swap](https://github.com/Whonix/swap-file-creator), а также усиленный распределитель памяти.
+Some of its features include Tor Stream Isolation, [keystroke anonymization](https://www.whonix.org/wiki/Keystroke_Deanonymization#Kloak), [encrypted swap](https://github.com/Whonix/swap-file-creator), and a hardened memory allocator. Future versions of Whonix will likely include [full system AppArmor policies](https://github.com/Whonix/apparmor-profile-everything) and a [sandbox app launcher](https://www.whonix.org/wiki/Sandbox-app-launcher) to fully confine all processes on the system.
 
-Будущие версии Whonix, вероятно, будут включать [полные системные политики AppArmor](https://github.com/Whonix/apparmor-profile-everything) и [программу запуска приложений в песочнице](https://www.whonix.org/wiki/Sandbox-app-launcher) для полного ограничения всех процессов в системе.
-
-Whonix лучше всего использовать [в сочетании с Qubes](https://www.whonix.org/wiki/Qubes/Why_use_Qubes_over_other_Virtualizers), Qubes-Whonix имеет различные [недостатки](https://forums.whonix.org/t/qubes-whonix-security-disadvantages-help-wanted/8581) по сравнению с другими гипервизорами.
+Whonix is best used [in conjunction with Qubes](https://www.whonix.org/wiki/Qubes/Why_use_Qubes_over_other_Virtualizers). We have a [recommended guide](os/qubes-overview.md#connecting-to-tor-via-a-vpn) on configuring Whonix in conjunction with a VPN ProxyVM in Qubes to hide your Tor activities from your ISP.
 
 ### Tails
 

@@ -5,70 +5,106 @@ icon: 资料/vpn
 description: Virtual Private Networks shift risk away from your ISP to a third-party you trust. You should keep these things in mind.
 ---
 
-虚拟专用网络是一种将你的网络末端延伸到世界其他地方的方式。 ISP可以看到进入和离开你的网络终端设备（即调制解调器）的互联网流量。
+Virtual Private Networks are a way of extending the end of your network to exit somewhere else in the world.
 
-Encryption protocols such as HTTPS are commonly used on the internet, so they may not be able to see exactly what you're posting or reading, but they can get an idea of the [domains you request](../advanced/dns-overview.md#why-shouldnt-i-use-encrypted-dns).
+Normally, an ISP can see the flow of internet traffic entering and exiting your network termination device (i.e. modem). Encryption protocols such as HTTPS are commonly used on the internet, so they may not be able to see exactly what you're posting or reading, but they can get an idea of the [domains you request](../advanced/dns-overview.md#why-shouldnt-i-use-encrypted-dns).
 
-VPN可以提供帮助，因为它可以将信任转移到世界其他地方的服务器上。 因此，ISP只看到你连接到了VPN，而对你传入的活动一无所知。
+Using a VPN hides even this information from your ISP, by shifting the trust you place in your network to a server somewhere else in the world. As a result, the ISP then only sees that you are connected to a VPN and nothing about the activity that you're passing through it.
+
+!!! note
+
+    When we refer to "Virtual Private Networks" on this website, we are usually referring to **commercial** [VPN providers](../vpn.md), who you pay a monthly fee to in exchange for routing your internet traffic securely through their public servers. There are many other forms of VPN, such as ones you host yourself or ones operated by workplaces which allow you to securely connect to internal/employee network resources, however, these VPNs are usually designed for accessing remote networks securely, rather than protecting the privacy of your internet connection.
+
+## How does a VPN work?
+
+VPNs encrypt your traffic between your device and a server owned by your VPN provider. From the perspective of anyone between you and the VPN server, it looks like you're connecting to the VPN server. From the perspective of anyone between the VPN server and your destination site, all they can see is the VPN server connecting to the website.
+
+``` mermaid
+flowchart LR
+ 763931["Your Device<div>(with VPN Client)</div>"] ===|"VPN Encryption"| 404512{"VPN Server"}
+ 404512 -.-|"No VPN Encryption"| 593753((("The Internet\n(Your Destination)")))
+ subgraph 763931["Your Device<div>(with VPN Client)</div>"]
+ end
+```
+
+Note that a VPN does not add any security or encryption to your traffic between the VPN server and your destination on the internet. To access a website securely you **must** still ensure HTTPS is in use regardless of whether you use a VPN.
 
 ## 我应该使用VPN吗？
 
-**是的**，除非你已经在使用Tor。 VPN做两件事：将风险从你的互联网服务提供商转移到vpn本身，并从第三方服务中隐藏你的IP。
-
-VPN不能对你的设备和VPN服务器之间连接之外的数据进行加密。 VPN供应商可以像你的ISP一样看到并修改你的流量。 而且，没有办法以任何方式验证VPN供应商的 "无记录 "政策。
-
-然而，假如IP没有泄露，他们的确可以向第三方服务隐藏您的实际IP。 它们可以帮助您融入其他人并减轻基于IP的跟踪。
-
-## 什么时候我不应该使用VPN？
-
-Using a VPN in cases where you're using your [known identity](common-misconceptions.md#complicated-is-better) is unlikely be useful.
-
-这样做可能会触发垃圾邮件和欺诈检测系统，例如，如果你要登录银行的网站。
-
-## 那加密呢？
-
-VPN供应商提供的加密是在你的设备和他们的服务器之间。 它保证这个特定的链接是安全的。 这比使用未加密的代理更上一层楼，因为网络上的对手可以截获你的设备和上述代理之间的通信，并修改它们。 然而，你的应用程序或浏览器与服务提供商之间的加密并不由这种加密处理。
-
-为了保持你在你访问的网站上的实际操作的私密性和安全性，你必须使用HTTPS。 这将使你的密码、会话令牌和查询不被VPN供应商发现。 考虑在你的浏览器中启用 "HTTPS everywhere"，以减轻降级攻击，如 [SSL Strip](https://www.blackhat.com/presentations/bh-dc-09/Marlinspike/BlackHat-DC-09-Marlinspike-Defeating-SSL.pdf)。
-
-## 我是否应该使用带有VPN的加密DNS？
-
-除非你的VPN供应商托管加密的DNS服务器，否则 **，不要用**。 使用DOH/DOT（或任何其他形式的加密DNS）与第三方服务器将只是增加了更多的实体信任，对改善你的隐私/安全 **根本没用**。 你的VPN供应商仍然可以根据IP地址和其他方法看到你访问的网站。 你现在不是只信任你的VPN供应商，而是同时信任VPN供应商和DNS供应商。
-
-推荐加密DNS的一个常见原因是，它有助于防止DNS欺骗。 然而，你的浏览器应该已经在检查 [TLS证书](https://en.wikipedia.org/wiki/Transport_Layer_Security#Digital_certificates) 与 **HTTPS** ，并警告你。 如果你没有使用 **HTTPS**，那么对手仍然可以直接修改你的DNS查询以外的任何东西，最终结果将没有什么不同。
-
-更不必说， **，你不应该共用Tor和加密DNS**。 这将把你所有的DNS请求定向到某个单一连接，并允许加密DNS提供商对你进行去匿名化。
-
-## 我应该共用Tor *和* VPN吗？
-
-通过将Vpn与Tor一起使用，您基本上创建了一个永久的入口节点，而且还通常附有资金相关的跟踪线索。 这没有为你带来额外的好处，同时大大增加了连接的攻击面。 如果您希望向ISP或政府隐藏Tor使用情况， Tor有内置的解决方案： Tor桥。 [阅读更多关于Tor桥和为什么使用VPN是没有必要的](tor-overview.md)。
-
-## 那如果我需要匿名呢？
-
-VPN不能提供匿名性。 你的VPN供应商仍然会看到你的真实IP地址，而且往往有一个可以直接关联到你的资金线索。 您不能依赖“无日志记录”策略来保护您的数据。 使用 [Tor](https://www.torproject.org/) 来代替。
-
-## 提供Tor节点的VPN供应商怎么样？
-
-不要使用该功能。 使用Tor的意义在于，你无需信任你的VPN供应商。 目前Tor只支持 [TCP](https://en.wikipedia.org/wiki/Transmission_Control_Protocol) 协议。 [UDP](https://en.wikipedia.org/wiki/User_Datagram_Protocol) (used in [WebRTC](https://en.wikipedia.org/wiki/WebRTC) for voice and video sharing, the new [HTTP3/QUIC](https://en.wikipedia.org/wiki/HTTP/3) protocol, etc.), [ICMP](https://en.wikipedia.org/wiki/Internet_Control_Message_Protocol) and other packets will be dropped. 为了弥补这一点，VPN供应商通常会将所有非TCP数据包通过其VPN服务器（你的第一跳）进行路由。 [ProtonVPN](https://protonvpn.com/support/tor-vpn/)就是这种情况。 此外，在使用这种Tor over VPN设置时， 您无法控制其他重要的Tor功能，例如 [目的地址隔离](https://www.whonix.org/wiki/Stream_Isolation) (对您访问的每个域名使用不同的Tor线路)。
-
-该功能应被视为访问Tor网络的一种便捷方式，而不是为了保持匿名。 为了获得适当的匿名性，请使用Tor浏览器、TorSocks或Tor网关。
-
-## VPN何时有用？
-
-VPN在各种情况下仍可能对您有用，例如:
+**Yes**, almost certainly. A VPN has many advantages, including:
 
 1. **仅仅** 向您的Internet服务提供商隐藏流量。
 1. 向你的ISP和反盗版组织隐藏你的下载（如torrent）。
-1. 向第三方网站和服务隐藏你的IP，防止基于IP的跟踪。
+1. Hiding your IP from third-party websites and services, helping you blend in and preventing IP based tracking.
+1. Allowing you to bypass geo-restrictions on certain content.
 
-对于这样的情况，或者如果你有其他令人信服的理由，我们上面列出的VPN供应商是我们认为最值得信赖的人。 然而，使用VPN供应商仍然意味着你在 *信任* 该供应商。 几乎在任何其他情况下，你都应该使用一个**由设计保证的** 安全工具，如Tor。
+VPNs can provide *some* of the same benefits Tor provides, such as hiding your IP from the websites you visit and geographically shifting your network traffic, and good VPN providers will not cooperate with e.g. legal authorities from oppressive regimes, especially if you choose a VPN provider outside your own jurisdiction.
 
-## 资料来源及延伸阅读
+VPNs cannot encrypt data outside the connection between your device and the VPN server. VPN providers can also see and modify your traffic the same way your ISP could, so there is still a level of trust you are placing in them. 而且，没有办法以任何方式验证VPN供应商的 "无记录 "政策。
 
-1. [VPN -一个非常危险的叙事 ](https://schub.io/blog/2019/04/08/very-precarious-narrative.html)作者：丹尼斯·舒伯特（ Dennis Schubert ）
-1. [Tor网络概述](../advanced/tor-overview.md)
-1. [IVPN隐私指南](https://www.ivpn.net/privacy-guides)
-1. ["我需要一个VPN吗？"](https://www.doineedavpn.com)这是由IVPN开发的一个工具，通过帮助个人决定VPN是否适合他们，来挑战咄咄逼人的VPN营销。
+## When isn't a VPN suitable?
+
+Using a VPN in cases where you're using your [real-life or well-known identity](common-misconceptions.md#complicated-is-better) online is unlikely be useful. 这样做可能会触发垃圾邮件和欺诈检测系统，例如，如果你要登录银行的网站。
+
+It's important to remember that a VPN will not provide you with absolute anonymity, because the VPN provider itself will still see your real IP address, destination website information, and often has a money trail that can be linked directly back to you. You can't rely on "no logging" policies to protect your data from anyone who is able to protect. If you need complete safety from the network itself, consider using [Tor](../advanced/tor-overview.md) in addition to or instead of a VPN.
+
+You also should not trust a VPN to secure your connection to an unencrypted, HTTP destination. 为了保持你在你访问的网站上的实际操作的私密性和安全性，你必须使用HTTPS。 This will keep your passwords, session tokens, and queries safe from the VPN provider and other potential adversaries in between the VPN server and your destination. You should enable HTTPS-only mode in your browser (if it's supported) to mitigate attacks which try to downgrade your connection from HTTPS to HTTP.
+
+## 我是否应该使用带有VPN的加密DNS？
+
+Unless your VPN provider hosts the encrypted DNS servers themselves, **probably not**. Using DOH/DOT (or any other form of encrypted DNS) with third-party servers will simply add more entities to trust. 你的VPN供应商仍然可以根据IP地址和其他方法看到你访问的网站。 All this being said, there may be some advantages to enabling encrypted DNS in order to enable other security features in your browser, such as ECH. Browser technologies which are reliant on in-browser encrypted DNS are relatively new and not yet widespread, so whether they are relevant to you in particular is an exercise we will leave to you to research independently.
+
+Another common reason encrypted DNS is recommended is that it prevents DNS spoofing. 然而，你的浏览器应该已经在检查 [TLS证书](https://en.wikipedia.org/wiki/Transport_Layer_Security#Digital_certificates) 与 **HTTPS** ，并警告你。 如果你没有使用 **HTTPS**，那么对手仍然可以直接修改你的DNS查询以外的任何东西，最终结果将没有什么不同。
+
+## 我应该共用Tor *和* VPN吗？
+
+Maybe, Tor is not necessarily suitable for everybody in the first place. Consider your [threat model](threat-modeling.md), because if your adversary is not capable of extracting information from your VPN provider, using a VPN alone may provide enough protection.
+
+If you do use Tor then you are *probably* best off connecting to the Tor network via a commercial VPN provider. However, this is a complex subject which we've written more about on our [Tor overview](../advanced/tor-overview.md) page.
+
+## Should I access Tor through VPN providers that provide "Tor nodes"?
+
+You should not use that feature: The primary advantage of using Tor is that you do not trust your VPN provider, which is negated when you use Tor nodes hosted by your VPN instead of connecting directly to Tor from your computer.
+
+Currently, Tor only supports the TCP protocol. UDP (used by [WebRTC](https://en.wikipedia.org/wiki/WebRTC), [HTTP3/QUIC](https://en.wikipedia.org/wiki/HTTP/3), and other protocols), [ICMP](https://en.wikipedia.org/wiki/Internet_Control_Message_Protocol), and other packets will be dropped. 为了弥补这一点，VPN供应商通常会将所有非TCP数据包通过其VPN服务器（你的第一跳）进行路由。 [ProtonVPN](https://protonvpn.com/support/tor-vpn/)就是这种情况。 此外，在使用这种Tor over VPN设置时， 您无法控制其他重要的Tor功能，例如 [目的地址隔离](https://www.whonix.org/wiki/Stream_Isolation) (对您访问的每个域名使用不同的Tor线路)。
+
+The feature should be viewed as a *convenient* way to access hidden services on Tor, not to stay anonymous. For proper anonymity, use the actual [Tor Browser](../tor.md).
+
+## Commercial VPN Ownership
+
+Most VPN services are owned by the same [few companies](https://vpnpro.com/blog/hidden-vpn-owners-unveiled-97-vpns-23-companies/). These shady companies run lots of smaller VPN services to create the illusion that you have more choice than you actually do and to maximize profit. Typically, these providers that feed into their shell company have terrible privacy policies and shouldn't be trusted with your internet traffic. You should be very strict about which provider you decide to use.
+
+You should also be wary that many VPN review sites are merely advertising vehicles open to the highest bidder. ==Privacy Guides does not make money from recommending external products, and never uses affiliate programs.==
+
+[Our VPN Recommendations](../vpn.md ""){.md-button}
+
+## Modern VPN Alternatives
+
+Recently, some attempts have been made by various organizations to address some issues which centralized VPNs have. These technologies are relatively new, but worth keeping an eye on as the field develops.
+
+### Multi-Party Relays
+
+Multi-Party Relays (MPRs) use multiple nodes owned by different parties, such that no individual party knows both who you are and what you're connecting to. This is the basic idea behind Tor, but now there are some paid services that try to emulate this model.
+
+MPRs seek to solve a problem inherent to VPNs: the fact that you must trust them completely. They accomplish this goal by segmenting the responsibilities between two or more different companies. For example, Apple's iCloud+ Private Relay routes your traffic through two servers:
+
+1. Firstly, a server operated by Apple.
+
+    This server is able to see your device's IP when you connect to it, and has knowledge of your payment information and Apple ID tied to your iCloud subscription. However, it is unable to see what website you are connecting to.
+
+2. Secondly, a server operated by a partner CDN, such as Cloudflare or Fastly.
+
+    This server actually makes the connection to your destination website, but has no knowledge of your device. The only IP address it knows about is Apple's server's.
+
+Other MPRs run by different companies like Google or INVISV operate in a very similar manner. This protection by segmentation only exists if you trust the two companies to not collude with each other to deanonymize you.
+
+### Decentralized VPNs
+
+Another attempt at solving the issues with centralized VPN services are dVPNs. These are based on blockchain technology and claim to eliminate trust in a single party by distributing the nodes across lots of different people. However, many times a dVPN will default to a single node, meaning you need to trust that node completely, just like a traditional VPN. Unlike a traditional VPN, this one node that can see all your traffic is a random person instead of your VPN provider that can be audited and has legal responsibilities to uphold their privacy policy. Multi-hop is needed to solve this, but that comes with a stability and performance cost.
+
+Another consideration is legal liability. The exit node will need to deal with legal problems from misuse of the network, an issue that the Tor network has contended with for its entire existence. This discourages regular people from running nodes and makes it more attractive for a malicious actor with lots of resources to host one. This is a big problem if the service is single-node, as the potentially malicious exit node can see who you are and what you're connecting to.
+
+Many dVPNs are used to push a cryptocurrency rather than to make the best service. They also tend to be smaller networks with fewer nodes, making them more vulnerable to [Sybil attacks](https://en.wikipedia.org/wiki/Sybil_attack).
 
 ## VPN的相关信息
 
@@ -76,3 +112,4 @@ VPN在各种情况下仍可能对您有用，例如:
 - [免费VPN应用调查](https://www.top10vpn.com/free-vpn-app-investigation/)
 - [揭开隐蔽VPN所有者的面纱：101个VPN产品仅由23家公司运营](https://vpnpro.com/blog/hidden-vpn-owners-unveiled-97-vpns-23-companies/)
 - [这家中国公司秘密地在24个流行的应用程序背后寻求危险的权限](https://vpnpro.com/blog/chinese-company-secretly-behind-popular-apps-seeking-dangerous-permissions/)
+- [VPN -一个非常危险的叙事 ](https://schub.io/blog/2019/04/08/very-precarious-narrative.html)作者：丹尼斯·舒伯特（ Dennis Schubert ）

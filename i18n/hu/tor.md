@@ -39,7 +39,15 @@ A Tor úgy működik, hogy az internetes forgalmadat ezeken az önkéntesek ált
 
 ## Csatlakozás a Torhoz
 
-A Tor-hálózathoz többféleképpen is csatlakozni lehet a készülékedről, a leggyakrabban használt módszer a **Tor Böngésző**, a Firefox egy asztali számítógépekre és Androidra tervezett forkja, ami alkalmas anonim böngészésre. Az alább felsorolt alkalmazásokon kívül léteznek olyan operációs rendszerek is, amelyeket kifejezetten a Tor-hálózathoz való csatlakozásra terveztek, mint például a [Whonix](desktop.md#whonix) [Qubes OS](desktop.md#qubes-os)-en, melyek még nagyobb biztonságot és védelmet nyújtanak, mint a hagyományos Tor böngésző.
+!!! tip
+
+    Before connecting to Tor, please ensure you've read our [overview](advanced/tor-overview.md) on what Tor is and how to connect to it safely. We often recommend connecting to Tor through a trusted [VPN provider](vpn.md), but you have to do so **properly** to avoid decreasing your anonymity.
+
+A Tor-hálózathoz többféleképpen is csatlakozni lehet a készülékedről, a leggyakrabban használt módszer a **Tor Böngésző**, a Firefox egy asztali számítógépekre és Androidra tervezett forkja, ami alkalmas anonim böngészésre.
+
+Some of these apps are better than others, and again making a determination comes down to your threat model. If you are a casual Tor user who is not worried about your ISP collecting evidence against you, using apps like [Orbot](#orbot) or mobile browser apps to access the Tor network is probably fine. Increasing the number of people who use Tor on an everyday basis helps reduce the bad stigma of Tor, and lowers the quality of "lists of Tor users" that ISPs and governments may compile.
+
+If more complete anonymity is paramount to your situation, you should **only** be using the desktop Tor Browser client, ideally in a [Whonix](desktop.md#whonix) + [Qubes](desktop.md#qubes-os) configuration. Mobile browsers are less common on Tor (and more fingerprintable as a result), and other configurations are not as rigorously tested against deanonymization.
 
 ### Tor Böngésző
 
@@ -68,6 +76,8 @@ A Tor-hálózathoz többféleképpen is csatlakozni lehet a készülékedről, a
     **Soha** nem telepíts semmilyen további bővítményt a Tor Böngészőre vagy szerkeszd az `about:config` beállításokat, beleértve azokat is, amelyeket a Firefoxhoz javasolunk. A böngésző bővítmények és a nem alap beállítások miatt kitűnsz a Tor-hálózat többi felhasználója közül, így téve a böngésződ könnyebben [fingerprintelhetővé](https://support.torproject.org/glossary/browser-fingerprinting).
 
 A Tor böngészőt úgy tervezték, hogy megakadályozza az fingerprintelést, vagyis a beazonosításodat a böngésző konfigurációja alapján. Ezért elengedhetetlen, hogy **ne** módosítsd a böngészőt az alapértelmezett [biztonsági szinteken](https://tb-manual.torproject.org/security-settings/) túl.
+
+In addition to installing Tor Browser on your computer directly, there are also operating systems designed specifically to connect to the Tor network such as [Whonix](desktop.md#whonix) on [Qubes OS](desktop.md#qubes-os), which provide even greater security and protections than the standard Tor Browser alone.
 
 ### Orbot
 

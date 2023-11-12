@@ -39,7 +39,15 @@ schema:
 
 ## الاتصال بتور
 
-عندك الكثير من السُّبُل للتتَّصل بشبكة تور من جهازك، وأشيعها **متصفِّح تور**، وهو تشعُّب من فيرفكس مصمَّم للتصفُّح المستور، ويُتاح في أجهزة سطح المكتب ونظام أندرويد. وزيادةً على التطبيقات المذكورة أدناه فهناك أنظمة تشغيل مصمَّمة للتتَّصل بشبكة تور، مثل [وونكس](desktop.md#whonix) في [كيوبس أو‌إس](desktop.md#qubes-os)، وأمانه أأمن متصفِّح تور العاديِّ.
+!!! tip
+
+    Before connecting to Tor, please ensure you've read our [overview](advanced/tor-overview.md) on what Tor is and how to connect to it safely. We often recommend connecting to Tor through a trusted [VPN provider](vpn.md), but you have to do so **properly** to avoid decreasing your anonymity.
+
+عندك الكثير من السُّبُل للتتَّصل بشبكة تور من جهازك، وأشيعها **متصفِّح تور**، وهو تشعُّب من فيرفكس مصمَّم للتصفُّح المستور، ويُتاح في أجهزة سطح المكتب ونظام أندرويد.
+
+Some of these apps are better than others, and again making a determination comes down to your threat model. If you are a casual Tor user who is not worried about your ISP collecting evidence against you, using apps like [Orbot](#orbot) or mobile browser apps to access the Tor network is probably fine. Increasing the number of people who use Tor on an everyday basis helps reduce the bad stigma of Tor, and lowers the quality of "lists of Tor users" that ISPs and governments may compile.
+
+If more complete anonymity is paramount to your situation, you should **only** be using the desktop Tor Browser client, ideally in a [Whonix](desktop.md#whonix) + [Qubes](desktop.md#qubes-os) configuration. Mobile browsers are less common on Tor (and more fingerprintable as a result), and other configurations are not as rigorously tested against deanonymization.
 
 ### متصفِّح تور
 
@@ -68,6 +76,8 @@ schema:
     لا تثبِّت أيَّ إضافات في متصفِّح تور **أبدًا**، ولا تحرِّر إعدادات ‹about:config›، ويشمل ذلك ما نقترحه في فيرفكس. تميِّزك الإضافات والإعدادات المختلفة عن البقية في شبكة تور، وهذه يسهِّل تبصيم [fingerprint](https://support.torproject.org/glossary/browser-fingerprinting) متصفِّحك.
 
 صمِّم متصفِّح تور لمكافحة التبصيم، أو كشف هويَّتك حسب ضبط متصفِّحك. وزبدة القول أنه عليك **ألا** تعدِّل المتصفِّح خلا [مستويات الأمن](https://tb-manual.torproject.org/security-settings/) المبدئية.
+
+In addition to installing Tor Browser on your computer directly, there are also operating systems designed specifically to connect to the Tor network such as [Whonix](desktop.md#whonix) on [Qubes OS](desktop.md#qubes-os), which provide even greater security and protections than the standard Tor Browser alone.
 
 ### أُربوت
 

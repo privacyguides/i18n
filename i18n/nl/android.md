@@ -215,39 +215,6 @@ Wij bevelen op deze site een groot aantal Android-apps aan. De hier vermelde app
     
     Wanneer je Shelter gebruikt, stelt je jouw volledige vertrouwen in de ontwikkelaar, aangezien Shelter optreedt als [Device Admin](https://developer.android.com/guide/topics/admin/device-admin) voor het werkprofiel en uitgebreide toegang heeft tot de gegevens die erin zijn opgeslagen.
 
-### Auditor
-
-!!! recommendation
-
-    ![Auditor logo](assets/img/android/auditor.svg#only-light){ align=right }
-    ![Auditor logo](assets/img/android/auditor-dark.svg#only-dark){ align=right }
-    
-    **Auditor** is een app die hardwarebeveiligingsfuncties gebruikt om de integriteit van het apparaat te bewaken voor [ondersteunde apparaten. Momenteel werkt het alleen met GrapheneOS of het standaard besturingssysteem voor [ondersteunde apparaten](https://attestation.app/about#device-support).
-    
-    [:octicons-home-16: Homepage](https://attestation.app){ .md-button .md-button--primary }
-    [:octicons-eye-16:](https://attestation.app/privacy-policy){ .card-link title="Privacybeleid" }
-    [:octicons-info-16:](https://attestation.app/about){ .card-link title=Documentatie}
-    [:octicons-code-16:](https://attestation.app/source){ .card-link title="Broncode" }
-    [:octicons-heart-16:](https://attestation.app/donate){ .card-link title=Bijdragen }
-    
-    ??? downloads "Downloaden"
-    
-        - [:simple-googleplay: Google Play](https://play.google.com/store/apps/details?id=app.attestation.auditor.play)
-        - [:simple-github: GitHub](https://github.com/GrapheneOS/Auditor/releases)
-        - [:material-cube-outline: GrapheneOS App Store](https://github.com/GrapheneOS/Apps/releases)
-
-Auditor voert attest en inbraakdetectie uit door:
-
-- Door gebruik te maken van een [Trust On First Use (TOFU)](https://en.wikipedia.org/wiki/Trust_on_first_use) model tussen een *auditor* en *audittee*, stelt het paar een private sleutel op in de [hardwaregebaseerde sleutelbewaarplaats](https://source.android.com/security/keystore/) van de *auditor*.
-- De *auditor* kan een ander exemplaar van de Auditor app zijn of de [Remote Attestation Service](https://attestation.app).
-- De *auditor* registreert de huidige toestand en configuratie van de *auditee*.
-- Mocht er met het besturingssysteem van de *auditee worden geknoeid* nadat de koppeling is voltooid, dan zal de auditor op de hoogte zijn van de verandering in de toestand en de configuraties van het apparaat.
-- Je zult op de hoogte worden gebracht van de wijziging.
-
-Er wordt geen persoonlijk identificeerbare informatie aan de attestatiedienst verstrekt. Wij raden je aan je aan te melden met een anonieme account en attestatie op afstand in te schakelen voor voortdurende controle.
-
-Als jouw [bedreigingsmodel](basics/threat-modeling.md) privacy vereist, kunt je overwegen [Orbot](tor.md#orbot) of een VPN te gebruiken om jouw IP-adres voor de attestatiedienst te verbergen. Om er zeker van te zijn dat jouw hardware en besturingssysteem echt zijn, voert [onmiddellijk na de installatie van het apparaat en vóór elke internetverbinding een lokale attestatie uit:](https://grapheneos.org/install/web#verifying-installation).
-
 ### Secure Camera
 
 !!! recommendation
@@ -347,7 +314,7 @@ Met de Aurora Store kun je geen betaalde apps downloaden met hun anonieme accoun
 
 ### Handmatig met RSS-meldingen
 
-Voor apps die worden uitgebracht op platforms als GitHub en GitLab, kun je misschien een RSS-feed toevoegen aan je [nieuwsaggregator](/news-aggregators) waarmee je nieuwe releases kunt volgen.
+For apps that are released on platforms like GitHub and GitLab, you may be able to add an RSS feed to your [news aggregator](news-aggregators.md) that will help you keep track of new releases.
 
 ![RSS APK](./assets/img/android/rss-apk-light.png#only-light) ![RSS APK](./assets/img/android/rss-apk-dark.png#only-dark) ![APK Changes](./assets/img/android/rss-changes-light.png#only-light) ![APK Changes](./assets/img/android/rss-changes-dark.png#only-dark)
 

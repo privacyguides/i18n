@@ -120,15 +120,9 @@ Nix是一個基於源的套件管理器；如果二進位快取中沒有預先�
 
 Whonix 運行兩個虛擬機器：一個“工作站”和一個 Tor “閘道”。 來自工作站的所有通訊都必須通過 Tor 閘道。 這意味著，即使工作站受到某種惡意軟體的破壞，真實的IP地址仍然隱藏。
 
-它的一些功能包括 Tor Stream Isolation ， [按鍵匿名](https://www.whonix.org/wiki/Keystroke_Deanonymization#Kloak)， [加密交換](https://github.com/Whonix/swap-file-creator)以及加固的記憶體分配器。
+Some of its features include Tor Stream Isolation, [keystroke anonymization](https://www.whonix.org/wiki/Keystroke_Deanonymization#Kloak), [encrypted swap](https://github.com/Whonix/swap-file-creator), and a hardened memory allocator. Future versions of Whonix will likely include [full system AppArmor policies](https://github.com/Whonix/apparmor-profile-everything) and a [sandbox app launcher](https://www.whonix.org/wiki/Sandbox-app-launcher) to fully confine all processes on the system.
 
-Whonix 未來版本可能包括 [完整系統 AppArmor](https://github.com/Whonix/apparmor-profile-everything) 和 [個沙盒應用程式啟動器](https://www.whonix.org/wiki/Sandbox-app-launcher) ，以完全限制系統上的所有進程。
-
-Whonix 最好與 Qubes</a>一起使用
-
-，與其他 hypervisor相比， Qubes-Whonix 有不同 [缺點](https://forums.whonix.org/t/qubes-whonix-security-disadvantages-help-wanted/8581) 。</p> 
-
-
+Whonix is best used [in conjunction with Qubes](https://www.whonix.org/wiki/Qubes/Why_use_Qubes_over_other_Virtualizers). We have a [recommended guide](os/qubes-overview.md#connecting-to-tor-via-a-vpn) on configuring Whonix in conjunction with a VPN ProxyVM in Qubes to hide your Tor activities from your ISP.
 
 ### Tails
 
@@ -141,7 +135,6 @@ Whonix 最好與 Qubes</a>一起使用
     [:octicons-home-16: Homepage](https://tails.boum.org/){ .md-button .md-button--primary }
     [:octicons-info-16:](https://tails.boum.org/doc/index.en.html){ .card-link title=Documentation}
     [:octicons-heart-16:](https://tails.boum.org/donate/){ .card-link title=Contribute }
-    
 
 由於失憶功能(意指沒有寫入磁碟)，Tails 非常適合對抗資料探集；然而，它不像 Whonix 那樣是硬化發行版。 它缺乏 Whonix 的許多匿名和安全功能，並且更新頻率較低（每六周一次）。 被惡意軟體入侵的 Tails 系統可能會繞過透明代理，使用戶去匿名化。
 
@@ -149,11 +142,7 @@ Tails Tor 瀏覽器預設包含 [uBlock Origin](desktop-browsers.md#ublock-origi
 
 設計上， Tails 每次重新啟動後意謂將完全重置。 加密 [永久存儲](https://tails.boum.org/doc/persistent_storage/index.en.html) 可以配置來存儲一些資料。
 
-
-
 ## 以安全爲重點的發行版
-
-
 
 ### Qubes OS
 
@@ -169,13 +158,10 @@ Tails Tor 瀏覽器預設包含 [uBlock Origin](desktop-browsers.md#ublock-origi
     [:octicons-info-16:](https://www.qubes-os.org/doc/){ .card-link title=Documentation }
     [:octicons-code-16:](https://github.com/QubesOS/){ .card-link title="Source Code" }
     [:octicons-heart-16:](https://www.qubes-os.org/donate/){ .card-link title=Contribute }
-    
 
 Qubes OS 作業系統將子系統（例如網絡、USB等）和應用程式隔離在個別的 *qubes*以保護電腦。 如果系統的一部分被破壞，其餘的 *qubes*與核心系統仍受到保護。
 
 有關 Oubes 運作的進一步資訊，請參考我們完整的 [Qubes OS 介紹](os/qubes-overview.md) 頁面。
-
-
 
 ### Kicksecure
 
@@ -192,9 +178,6 @@ Qubes OS 作業系統將子系統（例如網絡、USB等）和應用程式隔�
     [:octicons-info-16:](https://www.kicksecure.com/wiki/Documentation){ .card-link title=Documentation }
     [:octicons-code-16:](https://github.com/Kicksecure){ .card-link title="Source Code" }
     [:octicons-heart-16:](https://www.kicksecure.com/wiki/Donate){ .card-link title=Contribute }
-    
-
-
 
 ## 標準
 
@@ -202,13 +185,13 @@ Qubes OS 作業系統將子系統（例如網絡、USB等）和應用程式隔�
 
 - 免費且開放原始碼。
 - 必須定期接收軟體和內核更新。
-- [Avoids X11](os/linux-overview.md#wayland). 
-      - 這裡值得注意的例外是 Qubes，但虛擬化可以避免 X11 常發生的隔離問題。 其隔離僅適用於*在不同 qube*（虛擬機）中運行的應用程式，在*同一個* qube 運行的應用程式則無法保護。
+- [Avoids X11](os/linux-overview.md#wayland).
+    - 這裡值得注意的例外是 Qubes，但虛擬化可以避免 X11 常發生的隔離問題。 其隔離僅適用於*在不同 qube*（虛擬機）中運行的應用程式，在*同一個* qube 運行的應用程式則無法保護。
 - 安裝時必須支援全磁碟加密。
-- 不可將定期更新發佈凍結超過1年。 
-      - 我們 [不建議](os/linux-overview.md#release-cycle) 桌機使用“長期支援”或“穩定”發行版。
+- 不可將定期更新發佈凍結超過1年。
+    - 我們 [不建議](os/linux-overview.md#release-cycle) 桌機使用“長期支援”或“穩定”發行版。
 - 需要支持各種各樣的硬體。
-- 偏好較大型的專案。 
-      - 維護作業系統是一項大挑戰，小型專案往往會犯更多可避免的錯誤，或延遲重大更新（或更糟糕的是，很快就完全消失）。 我們傾向於至少可維持10 年的專案（無論是由於公司支持還是非常重要的社區支持），而不是手工構建或只有少數維護人員的專案。
+- 偏好較大型的專案。
+    - 維護作業系統是一項大挑戰，小型專案往往會犯更多可避免的錯誤，或延遲重大更新（或更糟糕的是，很快就完全消失）。 我們傾向於至少可維持10 年的專案（無論是由於公司支持還是非常重要的社區支持），而不是手工構建或只有少數維護人員的專案。
 
 此外，[我們推薦專案的一般準則](about/criteria.md) 仍然適用。 **請注意我們和所推薦的服務商沒有任何利害關係。**

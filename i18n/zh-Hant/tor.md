@@ -39,7 +39,15 @@ Tor 的工作原理是通過志願者運營的服務器來引導您的網際網�
 
 ## 正在連接到Tor
 
-有多種方式可以從您的設備連上  Tor 網絡，最常用的是 ** Tor 瀏覽器**，這是 Firefox 的一個分支，專為桌面電腦和 Android 的匿名瀏覽而設計。 除了下面列出的應用程序外，還有專門設計用於連接到 Tor 網絡的操作系統，例如 [Qubes OS 作業系統](desktop.md#qubes-os) [Whonix](desktop.md#whonix)，它們提供比標準 Tor 瀏覽器更高的安全性和保護。
+!!! tip "訣竅"
+
+    Before connecting to Tor, please ensure you've read our [overview](advanced/tor-overview.md) on what Tor is and how to connect to it safely. We often recommend connecting to Tor through a trusted [VPN provider](vpn.md), but you have to do so **properly** to avoid decreasing your anonymity.
+
+有多種方式可以從您的設備連上  Tor 網絡，最常用的是 ** Tor 瀏覽器**，這是 Firefox 的一個分支，專為桌面電腦和 Android 的匿名瀏覽而設計。
+
+Some of these apps are better than others, and again making a determination comes down to your threat model. If you are a casual Tor user who is not worried about your ISP collecting evidence against you, using apps like [Orbot](#orbot) or mobile browser apps to access the Tor network is probably fine. Increasing the number of people who use Tor on an everyday basis helps reduce the bad stigma of Tor, and lowers the quality of "lists of Tor users" that ISPs and governments may compile.
+
+If more complete anonymity is paramount to your situation, you should **only** be using the desktop Tor Browser client, ideally in a [Whonix](desktop.md#whonix) + [Qubes](desktop.md#qubes-os) configuration. Mobile browsers are less common on Tor (and more fingerprintable as a result), and other configurations are not as rigorously tested against deanonymization.
 
 ### Tor 瀏覽器
 
@@ -68,6 +76,8 @@ Tor 的工作原理是通過志願者運營的服務器來引導您的網際網�
     您應該 **永遠不要** 在Tor瀏覽器上安裝任何其他擴充功能，或編輯「關於：配置」設定，包括我們為Firefox建議的設定。 瀏覽器擴充套件和非標準設置會使您在 Tor 網絡上突顯出來，從而使您的瀏覽器更容易變成 [fingerprint](https://support.torproject.org/glossary/browser-fingerprinting)。
 
 Tor 瀏覽器旨在防止指紋識別----根據您的瀏覽器配置識別您。 因此，您 **不應** 修改瀏覽器超出預設 [安全級別](https://tb-manual.torproject.org/security-settings/)。
+
+In addition to installing Tor Browser on your computer directly, there are also operating systems designed specifically to connect to the Tor network such as [Whonix](desktop.md#whonix) on [Qubes OS](desktop.md#qubes-os), which provide even greater security and protections than the standard Tor Browser alone.
 
 ### Orbot
 

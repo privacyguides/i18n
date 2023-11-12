@@ -39,7 +39,15 @@ Tor는 방문하려는 사이트에 직접 연결하는 방식이 아닌, 자원
 
 ## Tor 연결하기
 
-기기에서 Tor 네트워크에 연결하는 방법은 다양합니다. 가장 일반적으로 사용하는 방법은 데스크톱 PC와 Android 용으로 만들어진 **Tor 브라우저**(익명 브라우징을 위해 설계된 Firefox 포크)입니다. 여기에 나열된 앱 외에도, 표준 Tor 브라우저보다 훨씬 더 강력한 보안 및 보호 기능을 제공하는 [Whonix](desktop.md#whonix) + [Qubes OS](desktop.md#qubes-os) 처럼 Tor 네트워크에 연결하도록 특별히 설계된 운영 체제도 존재합니다.
+!!! tip "도움말"
+
+    Before connecting to Tor, please ensure you've read our [overview](advanced/tor-overview.md) on what Tor is and how to connect to it safely. We often recommend connecting to Tor through a trusted [VPN provider](vpn.md), but you have to do so **properly** to avoid decreasing your anonymity.
+
+기기에서 Tor 네트워크에 연결하는 방법은 다양합니다. 가장 일반적으로 사용하는 방법은 데스크톱 PC와 Android 용으로 만들어진 **Tor 브라우저**(익명 브라우징을 위해 설계된 Firefox 포크)입니다.
+
+Some of these apps are better than others, and again making a determination comes down to your threat model. If you are a casual Tor user who is not worried about your ISP collecting evidence against you, using apps like [Orbot](#orbot) or mobile browser apps to access the Tor network is probably fine. Increasing the number of people who use Tor on an everyday basis helps reduce the bad stigma of Tor, and lowers the quality of "lists of Tor users" that ISPs and governments may compile.
+
+If more complete anonymity is paramount to your situation, you should **only** be using the desktop Tor Browser client, ideally in a [Whonix](desktop.md#whonix) + [Qubes](desktop.md#qubes-os) configuration. Mobile browsers are less common on Tor (and more fingerprintable as a result), and other configurations are not as rigorously tested against deanonymization.
 
 ### Tor 브라우저
 
@@ -68,6 +76,8 @@ Tor는 방문하려는 사이트에 직접 연결하는 방식이 아닌, 자원
     Tor 브라우저에서는 **절대로** 추가 확장 프로그램을 설치하거나, (Firefox 관련 내용에서 권장드린 설정을 포함해) `about:config` 설정을 수정해서는 안 됩니다. 브라우저 확장 프로그램 및 별도 설정을 사용할 경우, Tor 네트워크상의 다른 사용자들 사이에서 여러분은 차별화됩니다. 이는 여러분의 브라우저가 [핑거프린팅](https://support.torproject.org/glossary/browser-fingerprinting)하기 쉬워짐을 의미합니다.
 
 Tor 브라우저는 핑거프린팅 및 브라우저 설정 기반 사용자 식별을 방지하도록 설계되었습니다. 따라서, 브라우저를 기본 [보안 수준](https://tb-manual.torproject.org/security-settings/)을 벗어나는 수정을 해서는 **안 됩니다**.
+
+In addition to installing Tor Browser on your computer directly, there are also operating systems designed specifically to connect to the Tor network such as [Whonix](desktop.md#whonix) on [Qubes OS](desktop.md#qubes-os), which provide even greater security and protections than the standard Tor Browser alone.
 
 ### Orbot
 

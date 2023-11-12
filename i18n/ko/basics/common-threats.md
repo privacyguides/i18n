@@ -39,7 +39,7 @@ description: 위협 모델은 개개인마다 다르지만, 이 사이트의 방
 
     일반적으로 모바일 운영 체제는 데스크톱 운영 체제보다 애플리케이션 샌드박스 기능이 뛰어납니다. 모바일 운영체제에서는 앱이 루트 권한을 얻을 수 없고, 시스템 리소스에 접근하려면 권한이 필요합니다.
     
-    데스크톱 운영 체제는 보통 적절한 샌드박스 기능 면에서 뒤처집니다. ChromeOS는 Android와 유사한 샌드박스 기능을 제공하며, macOS는 전체 시스템 권한 제어 기능을 제공합니다(개발자는 애플리케이션의 샌드박스를 적용 여부를 선택할 수 있습니다). 하지만 이러한 운영 체제는 식별 정보를 각 OEM에 전송합니다. Linux는 대체로 시스템 공급 업체에 정보를 보내지 않지만, 취약점 및 악성 앱으로부터의 보호 기능은 미흡합니다. 이 문제는 [Qubes OS](../../desktop/#qubes-os) 등, 가상 머신/컨테이너를 적극적으로 사용하도록 특화된 배포판에서는 완화될 수 있습니다.
+    데스크톱 운영 체제는 보통 적절한 샌드박스 기능 면에서 뒤처집니다. ChromeOS는 Android와 유사한 샌드박스 기능을 제공하며, macOS는 전체 시스템 권한 제어 기능을 제공합니다(개발자는 애플리케이션의 샌드박스를 적용 여부를 선택할 수 있습니다). 하지만 이러한 운영 체제는 식별 정보를 각 OEM에 전송합니다. Linux는 대체로 시스템 공급 업체에 정보를 보내지 않지만, 취약점 및 악성 앱으로부터의 보호 기능은 미흡합니다. This can be mitigated somewhat with specialized distributions which make significant use of virtual machines or containers, such as [Qubes OS](../desktop.md#qubes-os).
 
 <span class="pg-red">:material-target-account: 표적 공격(Targeted Attacks)</span>
 

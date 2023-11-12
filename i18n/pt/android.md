@@ -219,40 +219,6 @@ Nós recomendamos uma grande variedade de aplicações Android neste sítio web.
     
     Ao utilizar o Shelter, deposita a total confiança no seu programador, uma vez que o Shelter atua como [Device Admin] (https://developer.android.com/guide/topics/admin/device-admin) para criar o Perfil de Trabalho com um acesso alargado aos dados armazenados no Perfil de Trabalho.
 
-### Auditor
-
-!!! nota
-    Consulte o [Tabela de Hardware](https://openwrt.org/toh/start) para verificar se o seu dispositivo é suportado.
-
-    ![Logótipo do Auditor](assets/img/android/auditor.svg#only-light){ align=right }
-    ![Logótipo do auditor](assets/img/android/auditor-dark.svg#only-dark){ align=right }
-    
-    **Auditor** é uma aplicação que tira partido das funcionalidades de segurança do hardware para fornecer monitorização da integridade do dispositivo, validando ativamente a identidade de um dispositivo e a integridade do seu sistema operativo. Atualmente, só funciona com o GrapheneOS ou com o sistema operativo de stock para [dispositivos suportados] (https://attestation.app/about#device-support).
-    
-    [:octicons-home-16: Página Inicial](https://attestation.app){ .md-button .md-button--primary }
-    [:octicons-eye-16:](https://attestation.app/privacy-policy){ .card-link title="Política de Privacidade" }
-    [:octicons-info-16:](https://attestation.app/about){ .card-link title=Documentação}
-    [:octicons-code-16:](https://attestation.app/source){ .card-link title="Código fonte" }
-    [:octicons-heart-16:](https://attestation.app/donate){ .card-link title=Contribuir }
-    
-    ??? downloads
-    
-        - [:simple-googleplay: Google Play](https://play.google.com/store/apps/details?id=app.attestation.auditor.play)
-        - [:simple-github: GitHub](https://github.com/GrapheneOS/Auditor/releases)
-        - [:material-cube-outline: GrapheneOS App Store](https://github.com/GrapheneOS/Apps/releases)
-
-O Auditor efetua a certificação e a deteção de intrusões por:
-
-- Usar um modelo [Trust On First Use (TOFU)](https://en.wikipedia.org/wiki/Trust_on_first_use) entre um auditor ** e um auditado **, o par estabelece uma chave privada no [keystore suportado por hardware](https://source.android.com/security/keystore/) do *Auditor*.
-- O *auditor* pode ser outra instância da aplicação Auditor ou o [Serviço de Certificação Remota](https://attestation.app).
-- O *auditor* regista o estado e a configuração atuais do *auditado*.
-- Caso ocorra uma adulteração do sistema operativo da entidade *auditada* após a conclusão do emparelhamento, o auditor terá conhecimento da alteração do estado e das configurações do dispositivo.
-- Será alertado para a alteração.
-
-Não são transmitidas ao serviço de atestação quaisquer informações pessoais identificáveis. Recomendamos que se registe com uma conta anónima e que ative o atestado remoto para uma monitorização contínua.
-
-Se o seu [modelo de ameaça](basics/threat-modeling.md) requer privacidade, pode considerar a utilização do [Orbot](tor.md#orbot) ou de uma VPN para ocultar o seu endereço IP do serviço de atestação. Para se certificar de que o seu hardware e sistema operativo são genuínos, realize [uma certificação local](https://grapheneos.org/install/web#verifying-installation) imediatamente após a instalação do dispositivo e antes de qualquer ligação à Internet.
-
 ### Câmara Segura
 
 !!! nota
@@ -356,7 +322,7 @@ A Aurora Store não permite descarregar aplicações pagas com a sua funcionalid
 
 ### Manualmente com notificações RSS
 
-Para aplicações que são lançadas em plataformas como o GitHub e o GitLab, poderá ser possível adicionar um feed RSS ao seu [agregador de notícias](/news-aggregators) que o ajudará a acompanhar os novos lançamentos.
+For apps that are released on platforms like GitHub and GitLab, you may be able to add an RSS feed to your [news aggregator](news-aggregators.md) that will help you keep track of new releases.
 
 ![APK do RSS](./assets/img/android/rss-apk-light.png#only-light) ![RSS APK](./assets/img/android/rss-apk-dark.png#only-dark) ![Alterações de APK](./assets/img/android/rss-changes-light.png#only-light) ![APK Changes](./assets/img/android/rss-changes-dark.png#only-dark)
 

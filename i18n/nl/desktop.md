@@ -120,11 +120,9 @@ Nix is een source-based package manager; als er geen pre-built beschikbaar is in
 
 Whonix is bedoeld om te draaien als twee virtuele machines: een "Workstation" en een Tor "Gateway" Alle communicatie van het werkstation moet via de Tor-gateway gaan. Dit betekent dat zelfs als het werkstation wordt gecompromitteerd door malware, het ware IP-adres verborgen blijft.
 
-Enkele van de functies zijn Tor Stream Isolation, [keystroke anonymization](https://www.whonix.org/wiki/Keystroke_Deanonymization#Kloak), [encrypted swap](https://github.com/Whonix/swap-file-creator), en een hardened memory allocator.
+Some of its features include Tor Stream Isolation, [keystroke anonymization](https://www.whonix.org/wiki/Keystroke_Deanonymization#Kloak), [encrypted swap](https://github.com/Whonix/swap-file-creator), and a hardened memory allocator. Future versions of Whonix will likely include [full system AppArmor policies](https://github.com/Whonix/apparmor-profile-everything) and a [sandbox app launcher](https://www.whonix.org/wiki/Sandbox-app-launcher) to fully confine all processes on the system.
 
-Toekomstige versies van Whonix zullen waarschijnlijk [full system AppArmor policies](https://github.com/Whonix/apparmor-profile-everything) en een [sandbox app launcher](https://www.whonix.org/wiki/Sandbox-app-launcher) bevatten om alle processen op het systeem volledig in te perken.
-
-Whonix wordt het best gebruikt [in combinatie met Qubes](https://www.whonix.org/wiki/Qubes/Why_use_Qubes_over_other_Virtualizers), Qubes-Whonix heeft diverse [nadelen](https://forums.whonix.org/t/qubes-whonix-security-disadvantages-help-wanted/8581) in vergelijking met andere hypervisors.
+Whonix is best used [in conjunction with Qubes](https://www.whonix.org/wiki/Qubes/Why_use_Qubes_over_other_Virtualizers). We have a [recommended guide](os/qubes-overview.md#connecting-to-tor-via-a-vpn) on configuring Whonix in conjunction with a VPN ProxyVM in Qubes to hide your Tor activities from your ISP.
 
 ### Tails
 

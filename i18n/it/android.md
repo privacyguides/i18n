@@ -215,39 +215,6 @@ Consigliamo un'ampia gamma di app di Android, tramite questo sito. Le app qui el
     
     Utilizzando Shelter, ti affidi interamente al suo sviluppatore, poiché Shelter agisce da [Admin del Dispositivo](https://developer.android.com/guide/topics/admin/device-admin?hl=it) per creare il Profilo di Lavoro, e ha ampio accesso ai dati memorizzati nel Profilo di Lavoro.
 
-### Auditor
-
-!!! recommendation
-
-    ![Logo di Auditor](assets/img/android/auditor.svg#only-light){ align=right }
-    ![Logo di Auditor](assets/img/android/auditor-dark.svg#only-dark){ align=right }
-    
-    **Auditor * * è un'app che sfrutta le funzionalità di sicurezza hardware per fornire il monitoraggio dell'integrità del dispositivo, convalidando attivamente l'identità di un dispositivo e l'integrità del suo sistema operativo. Al momento, funziona soltanto con GrapheneOS o con il sistema operativo di fabbrica per i [dispositivi supportati](https://attestation.app/about#device-support).
-    
-    [:octicons-home-16: Home](https://attestation.app){ .md-button .md-button--primary }
-    [:octicons-eye-16:](https://attestation.app/privacy-policy){ .card-link title="Politica sulla Privacy" }
-    [:octicons-info-16:](https://attestation.app/about){ .card-link title=Documentazione}
-    [:octicons-code-16:](https://attestation.app/source){ .card-link title="Codice Sorgente" }
-    [:octicons-heart-16:](https://attestation.app/donate){ .card-link title=Contribuisci }
-    
-    ??? downloads
-    
-        - [:simple-googleplay: Google Play](https://play.google.com/store/apps/details?id=app.attestation.auditor.play)
-        - [:simple-github: GitHub](https://github.com/GrapheneOS/Auditor/releases)
-        - [:material-cube-outline: GrapheneOS App Store](https://github.com/GrapheneOS/Apps/releases)
-
-Auditor esegue l'attestazione e il rilevamento delle intrusioni:
-
-- Utilizzando un modello di [Fiducia Al Primo Utilizzo (TOFU)](https://en.wikipedia.org/wiki/Trust_on_first_use) tra un *revisore* e un *revisionato*, la coppia stabilisce una chiave privata nel [keystore del hardware](https://source.android.com/security/keystore/) del *Revisore*.
-- Il *revisore* può essere un'altra istanza dell'app Auditor o del [Servizio di Attestazione Remoto](https://attestation.app).
-- Il *revisore* registra lo stato corrente e la configurazione del *revisionato*.
-- In caso di manomissione del sistema operativo del *revisore* in seguito al completamento dell'associazione, il revisore sarà a conoscenza della modifica allo stato e le configurazioni del dispositivo.
-- Sarai avvisato della modifica.
-
-Nessun'informazione personalmente identificabile è inviata al servizio d'attestazione. Ti consigliamo di iscriverti con un profilo anonimo e di consentire l'attestazione da remoto per il monitoraggio continuo.
-
-Se il tuo [modello di minaccia](basics/threat-modeling.md) richiede la privacy, potresti considerare l'utilizzo di [Orbot](tor.md#orbot) o di una VPN per nascondere il tuo indirizzo IP dal servizio d'attestazione. Per assicurarti che il tuo hardware e sistema operativo siano autentici, [esegui l'attestazione locale](https://grapheneos.org/install/web#verifying-installation) immediatamente dopo l'installazione del dispositivo e prima di qualsiasi connessione a Internet.
-
 ### Fotocamera Sicura
 
 !!! recommendation
@@ -329,7 +296,7 @@ L'app store di GrapheneOS è disponibile su [GitHub](https://github.com/Graphene
 
 Il Google Play Store richiede un profilo Google per l'accesso, il che non è un bene per la privacy. Puoi aggirare tale problema utilizzando un client alternativo, come Aurora Store.
 
-!!! consiglio
+!!! recommendation
 
     ![Logo di Aurora Store](assets/img/android/aurora-store.webp){ align=right }
     
@@ -347,7 +314,7 @@ Aurora Store non consente di scaricare app a pagamento con la propria funzione d
 
 ### Manualmente con le notifiche RSS
 
-Per le app rilasciate sulle piattaforme come GitHub e GitLab, potresti aggiungere un feed SS al tuo [aggregatore di notizie](/news-aggregators), che ti aiuterà a tenere traccia delle nuove versioni.
+For apps that are released on platforms like GitHub and GitLab, you may be able to add an RSS feed to your [news aggregator](news-aggregators.md) that will help you keep track of new releases.
 
 ![APK di RSS](./assets/img/android/rss-apk-light.png#only-light) ![RSS APK](./assets/img/android/rss-apk-dark.png#only-dark) ![Modifiche APK](./assets/img/android/rss-changes-light.png#only-light) ![Modifiche APK](./assets/img/android/rss-changes-dark.png#only-dark)
 

@@ -49,6 +49,22 @@ Per copiare e incollare file e cartelle da una *qube* a un'altra, puoi usare l'o
 
 Il [framework qrexec](https://www.qubes-os.org/doc/qrexec/) è una parte fondamentale di Qubes che consente la comunicazione tra i domini. Si basa sulla libreria di Xen *vchan*, che facilita l'[isolamento tramite politiche](https://www.qubes-os.org/news/2020/06/22/new-qrexec-policy-system/).
 
+## Connecting to Tor via a VPN
+
+We [recommend](../advanced/tor-overview.md) connecting to the Tor network via a [VPN](../vpn.md) provider, and luckily Qubes makes this easy to do with a combination of ProxyVMs and Whonix.
+
+After [creating a new ProxyVM](https://github.com/Qubes-Community/Contents/blob/master/docs/configuration/vpn.md) which connects to the VPN of your choice, you can chain your Whonix qubes to that ProxyVM **before** they connect to the Tor network, by setting the NetVM of your Whonix **Gateway** (`sys-whonix`) to the newly-created ProxyVM.
+
+Your qubes should be configured in a manner similar to this:
+
+| Qube name       | Qube description                                                                                                 | NetVM           |
+| --------------- | ---------------------------------------------------------------------------------------------------------------- | --------------- |
+| sys-net         | *Your default network qube (pre-installed)*                                                                      | *n/a*           |
+| sys-firewall    | *Your default firewall qube (pre-installed)*                                                                     | sys-net         |
+| ==sys-proxyvm== | The VPN ProxyVM you [created](https://github.com/Qubes-Community/Contents/blob/master/docs/configuration/vpn.md) | sys-firewall    |
+| sys-whonix      | Your Whonix Gateway VM                                                                                           | ==sys-proxyvm== |
+| anon-whonix     | Your Whonix Workstation VM                                                                                       | sys-whonix      |
+
 ## Risorse aggiuntive
 
 Per ulteriori informazioni si consiglia di consultare le ampie pagine di documentazione di Qubes OS presenti sul [sito web di Qubes OS](https://www.qubes-os.org/doc/). Le copie offline sono scaricabili dal [repository della documentazione](https://github.com/QubesOS/qubes-doc) di Qubes OS.

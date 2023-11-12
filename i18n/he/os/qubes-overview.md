@@ -49,6 +49,22 @@ Qubes OS משתמשת ב-[דום0](https://wiki.xenproject.org/wiki/Dom0)Xen VM 
 
 [מסגרת qrexec](https://www.qubes-os.org/doc/qrexec/) היא חלק מרכזי ב-Qubes המאפשר תקשורת בין דומיינים. הוא בנוי על גבי ספריית Xen *vchan*, המאפשרת [בידוד באמצעות מדיניות](https://www.qubes-os.org/news/2020/06/22/new-qrexec-policy-system/).
 
+## Connecting to Tor via a VPN
+
+We [recommend](../advanced/tor-overview.md) connecting to the Tor network via a [VPN](../vpn.md) provider, and luckily Qubes makes this easy to do with a combination of ProxyVMs and Whonix.
+
+After [creating a new ProxyVM](https://github.com/Qubes-Community/Contents/blob/master/docs/configuration/vpn.md) which connects to the VPN of your choice, you can chain your Whonix qubes to that ProxyVM **before** they connect to the Tor network, by setting the NetVM of your Whonix **Gateway** (`sys-whonix`) to the newly-created ProxyVM.
+
+Your qubes should be configured in a manner similar to this:
+
+| Qube name       | Qube description                                                                                                 | NetVM           |
+| --------------- | ---------------------------------------------------------------------------------------------------------------- | --------------- |
+| sys-net         | *Your default network qube (pre-installed)*                                                                      | *n/a*           |
+| sys-firewall    | *Your default firewall qube (pre-installed)*                                                                     | sys-net         |
+| ==sys-proxyvm== | The VPN ProxyVM you [created](https://github.com/Qubes-Community/Contents/blob/master/docs/configuration/vpn.md) | sys-firewall    |
+| sys-whonix      | Your Whonix Gateway VM                                                                                           | ==sys-proxyvm== |
+| anon-whonix     | Your Whonix Workstation VM                                                                                       | sys-whonix      |
+
 ## מקורות נוספים
 
 למידע נוסף, אנו ממליצים לך לעיין בדפי התיעוד הנרחבים של Qubes OS הממוקמים ב[אתר האינטרנט של Qubes OS](https://www.qubes-os.org/doc/). ניתן להוריד עותקים לא מקוונים מ[מאגר התיעוד](https://github.com/QubesOS/qubes-doc) של Qubes OS.

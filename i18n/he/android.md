@@ -142,7 +142,7 @@ GrapheneOS תומך ב-[Sandboxed Google Play](https://grapheneos.org/usage#sand
 
 DivestOS מיישמת כמה תיקוני הקשחת מערכת שפותחו במקור עבור GrapheneOS. DivestOS 16.0 ומעלה מיישמת את החלפת הרשאות [`אינטרנט`](https://developer.android.com/training/basics/network-ops/connecting) וחיישנים של GrapheneOS, [מקצית זיכרון מוקשחת](https://github.com/GrapheneOS/hardened_malloc), [השרצת מנהלים](https://blog.privacyguides.org/2022/04/21/grapheneos-or-calyxos/#additional-hardening), [קונסטיפיקציה](https://en.wikipedia.org/wiki/Const_(computer_programming)) של [JNI](https://en.wikipedia.org/wiki/Java_Native_Interface) ותיקוני התקשות [ביונית](https://en.wikipedia.org/wiki/Bionic_(software)) חלקית. תכונות 17.1 ומעלה של GrapheneOS לכל רשת [אפשרות אקראיות מלאה של ](https://en.wikipedia.org/wiki/MAC_address#Randomization)MAC, בקרת [`ptrace_scope`](https://www.kernel.org/doc/html/latest/admin-guide/LSM/Yama.html) ואתחול אוטומטי/Wi-Fi/Bluetooth [אפשרויות פסק זמן](https://grapheneos.org/features).
 
-DivestOS משתמשת ב-F-Droid כחנות האפליקציות המוגדרת כברירת מחדל. We normally [recommend avoiding F-Droid](#f-droid), but doing so on DivestOS isn't viable; the developers update their apps via their own F-Droid repositories ([DivestOS Official](https://divestos.org/fdroid/official/?fingerprint=E4BE8D6ABFA4D9D4FEEF03CDDA7FF62A73FD64B75566F6DD4E5E577550BE8467) and [DivestOS WebView](https://divestos.org/fdroid/webview/?fingerprint=FB426DA1750A53D7724C8A582B4D34174E64A84B38940E5D5A802E1DFF9A40D2)). We recommend disabling the official F-Droid app and using [F-Droid Basic](https://f-droid.org/en/packages/org.fdroid.basic/) **with the DivestOS repositories enabled** to keep those components up to date. לגבי אפליקציות אחרות, השיטות המומלצות שלנו להשגתן עדיין חלות.
+DivestOS משתמשת ב-F-Droid כחנות האפליקציות המוגדרת כברירת מחדל. בדרך כלל אנו [ממליצים להימנע מ-F-Droid](#f-droid), אך אין לעשות זאת ב-DivestOS; המפתחים מעדכנים את האפליקציות שלהם באמצעות מאגרי F-Droid משלהם ([DivestOS Official](https://divestos.org/fdroid/official/?fingerprint=E4BE8D6ABFA4D9D4FEEF03CDDA7FF62A73FD64B75566F6DD4E5E577550BE8467) and [DivestOS WebView](https://divestos.org/fdroid/webview/?fingerprint=FB426DA1750A53D7724C8A582B4D34174E64A84B38940E5D5A802E1DFF9A40D2)). אנו ממליצים להשבית את אפליקציית F-Droid הרשמית ולהשתמש ב- [F-Droid Basic](https://f-droid.org/en/packages/org.fdroid.basic/) **עם מאגרי DivestOS מופעלים** כדי לשמור על רכיבים אלה מעודכנים. לגבי אפליקציות אחרות, השיטות המומלצות שלנו להשגתן עדיין חלות.
 
 !!! warning "אזהרה"
 
@@ -174,13 +174,13 @@ DivestOS משתמשת ב-F-Droid כחנות האפליקציות המוגדרת 
     
     מכשירי **גוגל פיקסל** ידועים כבעלי אבטחה טובה ותומכים כראוי ב[אתחול מאומת](https://source.android.com/security/verifiedboot), גם בעת התקנת מערכות הפעלה מותאמות אישית.
     
-    Beginning with the **Pixel 8** and **8 Pro**, Pixel devices receive a minimum of 7 years of guaranteed security updates, ensuring a much longer lifespan compared to the 2-5 years competing OEMs typically offer.
+    החל מ-**Pixel 8** ו-**8 Pro**, מכשירי Pixel מקבלים לפחות 7 שנים של עדכוני אבטחה מובטחים, מה שמבטיח תוחלת חיים ארוכה בהרבה בהשוואה ל-2-5 שנים שמציעות בדרך כלל יצרני OEM מתחרים.
     
     [:material-shopping: חנות](https://store.google.com/category/phones){ .md-button .md-button--primary }
 
 רכיבים מאובטחים כמו Titan M2 מוגבלים יותר מסביבת הביצוע המהימנה של המעבד המשמשת את רוב הטלפונים האחרים מכיוון שהם משמשים רק לאחסון סודות, הוכחת חומרה והגבלת קצב, לא להפעלת תוכניות "מהימנות". טלפונים ללא Secure Element חייבים להשתמש ב-TEE עבור *כל* הפונקציות הללו, וכתוצאה מכך משטח התקפה גדול יותר.
 
-Google Pixel phones use a TEE OS called Trusty which is [open source](https://source.android.com/security/trusty#whyTrusty), unlike many other phones.
+טלפונים של Google Pixel משתמשים במערכת הפעלה TEE בשם Trusty שהיא [קוד פתוח](https://source.android.com/security/trusty#whyTrusty), בניגוד לטלפונים רבים אחרים.
 
 ההתקנה של GrapheneOS בטלפון Pixel קלה עם [מתקין האינטרנט שלהם](https://grapheneos.org/install/web). אם אתה לא מרגיש בנוח לעשות את זה בעצמך ומוכן להוציא קצת כסף נוסף, בדוק את ה-[NitroPhone](https://shop.nitrokey.com/shop) מכיוון שהם נטענים מראש עם GrapheneOS של חברת [Nitrokey](https://www.nitrokey.com/about) המכובדת.
 
@@ -214,39 +214,6 @@ Google Pixel phones use a TEE OS called Trusty which is [open source](https://so
     Shelter מומלץ מעל [Insular](https://secure-system.gitlab.io/Insular/) ו-[Island](https://github.com/oasisfeng/island) מכיוון שהוא תומך ב[חסימת חיפוש אנשי קשר](https://secure-system.gitlab.io/Insular/faq.html).
     
     כשאתה משתמש ב-Shelter, אתה נותן אמון מלא במפתח שלו, שכן Shelter פועל כ[מנהל מכשיר](https://developer.android.com/guide/topics/admin/device-admin) כדי ליצור את פרופיל העבודה, וכן יש לו גישה נרחבת לנתונים המאוחסנים בפרופיל העבודה.
-
-### Auditor
-
-!!! recommendation
-
-    ![Auditor לוגו](assets/img/android/auditor.svg#only-light){ align=right }
-    ![Auditor לוגו](assets/img/android/auditor-dark.svg#only-dark){ align=right }
-    
-    **Auditor** היא אפליקציה הממנפת תכונות אבטחת חומרה כדי לספק ניטור שלמות המכשיר על ידי אימות אקטיבי של זהות המכשיר ושלמות מערכת ההפעלה שלו. נכון לעכשיו, זה עובד רק עם GrapheneOS או מערכת ההפעלה המניות עבור [מכשירים נתמכים](https://attestation.app/about#device-support).
-    
-    [:octicons-home-16: דף הבית](https://attestation.app){ .md-button .md-button--primary }
-    [:octicons-eye-16:](https://attestation.app/privacy-policy){ .card-link title="מדיניות פרטיות" }
-    [:octicons-info-16:](https://attestation.app/about){ .card-link title=תיעוד}
-    [:octicons-code-16:](https://attestation.app/source){ .card-link title="קוד מקור" }
-    [:octicons-heart-16:](https://attestation.app/donate){ .card-link title=לתרומה }
-    
-    ??? downloads "הורדות"
-    
-        - [:simple-googleplay: Google Play](https://play.google.com/store/apps/details?id=app.attestation.auditor.play)
-        - [:simple-github: GitHub](https://github.com/GrapheneOS/Auditor/releases)
-        - [:material-cube-outline: GrapheneOS App Store](https://github.com/GrapheneOS/Apps/releases)
-
-Auditor מבצע אישור וזיהוי חדירה על ידי:
-
-- באמצעות מודל [Trust On First Use (TOFU)](https://en.wikipedia.org/wiki/Trust_on_first_use) בין *מבקר* ל*מבוקר*, הזוג יוצר מפתח פרטי ב[מאגר המפתחות המגובה בחומרה](https://source.android.com/security/keystore/) של ה*מבקר*.
-- *auditor* יכול להיות מופע אחר של אפליקציית Auditor או [שירות אישור מרחוק](https://attestation.app).
-- המבקר רושם את המצב הנוכחי ואת התצורה של המבוקר. ה*auditor* מתעד את המצב והתצורה הנוכחיים של ה*auditee*.
-- אם התעסקות במערכת ההפעלה של ה*auditee* תתרחש לאחר השלמת ההתאמה, המבקר יהיה מודע לשינוי במצב המכשיר ובתצורות.
-- תקבל התראה על השינוי.
-
-לא נמסר מידע מזהה אישי לשירות האישורים. אנו ממליצים להירשם עם חשבון אנונימי ולאפשר אישור מרחוק לניטור רציף.
-
-אם [מודל האיומים](basics/threat-modeling.md) שלך דורש פרטיות, תוכל לשקול להשתמש ב-[Orbot](tor.md#orbot)או ב-VPN כדי להסתיר את כתובת ה-IP שלך משירות האישורים. כדי לוודא שהחומרה ומערכת ההפעלה שלך מקוריות, [בצע אישור מקומי](https://grapheneos.org/install/web#verifying-installation) מיד לאחר התקנת המכשיר ולפני כל חיבור לאינטרנט.
 
 ### Secure Camera
 
@@ -307,19 +274,19 @@ Auditor מבצע אישור וזיהוי חדירה על ידי:
 
 !!! recommendation
 
-    ![Obtainium logo](assets/img/android/obtainium.svg){ align=right }
+    ![Obtainium לוגו](assets/img/android/obtainium.svg){ align=right }
     
-    **Obtainium** is an app manager which allows you to install and update apps directly from the developer's own releases page (i.e. GitHub, GitLab, the developer's website, etc.), rather than a centralized app store/repository. It supports automatic background updates on Android 12 and higher.
+    **Obtainium** הוא מנהל אפליקציות המאפשר לך להתקין ולעדכן אפליקציות ישירות מדף ההפצות של המפתח עצמו (כלומר. GitHub, GitLab, אתר האינטרנט של המפתח וכו'), במקום חנות/מאגר אפליקציות מרכזי. הוא תומך בעדכוני רקע אוטומטיים באנדרואיד 12 ומעלה.
     
-    [:octicons-repo-16: Repository](https://github.com/ImranR98/Obtainium#readme){ .md-button .md-button--primary }
-    [:octicons-code-16:](https://github.com/ImranR98/Obtainium){ .card-link title="Source Code" }
-    [:octicons-heart-16:](https://github.com/sponsors/ImranR98){ .card-link title=Contribute }
+    [:octicons-repo-16: מאגר](https://github.com/ImranR98/Obtainium#readme){ .md-button .md-button--primary }
+    [:octicons-code-16:](https://github.com/ImranR98/Obtainium){ .card-link title="קוד מקור" }
+    [:octicons-heart-16:](https://github.com/sponsors/ImranR98){ .card-link title=לתרומה }
     
-    ??? downloads
+    ??? downloads "הורדות"
     
         - [:simple-github: GitHub](https://github.com/ImranR98/Obtainium/releases)
 
-Obtainium allows you to download APK installer files from a wide variety of sources, and it is up to you to ensure those sources and apps are legitimate. For example, using Obtainium to install Signal from [Signal's APK landing page](https://signal.org/android/apk/) should be fine, but installing from third-party APK repositories like Aptoide or APKPure may pose additional risks. The risk of installing a malicious *update* is lower, because Android itself verifies that all app updates are signed by the same developer as the existing app on your phone before installing them.
+Obtainium מאפשר לך להוריד קבצי התקנת APK ממגוון רחב של מקורות, וזה תלוי בך לוודא שהמקורות והאפליקציות האלה לגיטימיים. לדוגמה, השימוש ב-Obtainium כדי להתקין את Signal מ[דף הנחיתה של סיגנל APK](https://signal.org/android/apk/) אמור להיות בסדר, אבל התקנה ממאגרי APK של צד שלישי כמו Aptoide או APKPure עלולים להוות סיכונים נוספים. הסיכון של התקנת *עדכון* זדוני נמוך יותר, מכיוון שאנדרואיד עצמו מוודא שכל עדכוני האפליקציה חתומים על ידי אותו מפתח כמו האפליקציה הקיימת בטלפון שלך לפני התקנתם.
 
 ### GrapheneOS App Store
 
@@ -335,9 +302,9 @@ Obtainium allows you to download APK installer files from a wide variety of sour
     
     **Aurora Store** היא לקוח של חנות Google Play שאינה דורשת חשבון Google, שירותי Google Play או microG כדי להוריד אפליקציות.
     
-    [:octicons-home-16: Homepage](https://auroraoss.com/){ .md-button .md-button--primary }
-    [:octicons-eye-16:](https://gitlab.com/AuroraOSS/AuroraStore/-/blob/master/POLICY.md){ .card-link title="Privacy Policy" }
-    [:octicons-code-16:](https://gitlab.com/AuroraOSS/AuroraStore){ .card-link title="Source Code" }
+    [:octicons-home-16: דף הבית](https://auroraoss.com/){ .md-button .md-button--primary }
+    [:octicons-eye-16:](https://gitlab.com/AuroraOSS/AuroraStore/-/blob/master/POLICY.md){ .card-link title="מדיניות הפרטיות" }
+    [:octicons-code-16:](https://gitlab.com/AuroraOSS/AuroraStore){ .card-link title="קוד מקור" }
     
     ??? downloads "הורדות"
     
@@ -347,9 +314,9 @@ Aurora Store לא מאפשרת להוריד אפליקציות בתשלום עם
 
 ### התראות RSS באופן ידני
 
-עבור אפליקציות שמשוחררות בפלטפורמות כמו GitHub ו-GitLab, ייתכן שתוכל להוסיף עדכון RSS ל[צובר החדשות](/news-aggregators) שלך שיעזור לך לעקוב אחר מהדורות חדשות.
+For apps that are released on platforms like GitHub and GitLab, you may be able to add an RSS feed to your [news aggregator](news-aggregators.md) that will help you keep track of new releases.
 
-![RSS APK](./assets/img/android/rss-apk-light.png#only-light) ![RSS APK](./assets/img/android/rss-apk-dark.png#only-dark) ![שינויים ב-APK](./assets/img/android/rss-changes-light.png#only-light) ![APK Changes](./assets/img/android/rss-changes-dark.png#only-dark)
+![RSS APK](./assets/img/android/rss-apk-light.png#only-light) ![RSS APK](./assets/img/android/rss-apk-dark.png#only-dark) ![שינויים ב-APK](./assets/img/android/rss-changes-light.png#only-light) ![שינויים ב-APK](./assets/img/android/rss-changes-dark.png#only-dark)
 
 #### Github
 
@@ -398,17 +365,17 @@ Aurora Store לא מאפשרת להוריד אפליקציות בתשלום עם
 
 ![לוגו F-Droid](assets/img/android/f-droid.svg){ align=right width=120px }
 
-==We only recommend F-Droid as a way to obtain apps which cannot be obtained via the means above.== F-Droid is often recommended as an alternative to Google Play, particularly in the privacy community. האפשרות להוסיף מאגרי צד שלישי ולא להיות מוגבלים לגן המוקף חומה של גוגל הובילה לפופולריות שלו. ל-F-Droid יש בנוסף [בנייה הניתנת לשחזור](https://f-droid.org/en/docs/Reproducible_Builds/) עבור יישומים מסוימים והוא מוקדש לתוכנות חינמיות וקוד פתוח. However, there are some security-related downsides to how F-Droid builds, signs, and delivers packages:
+==אנו ממליצים רק על F-Droid כדרך להשיג אפליקציות שלא ניתן להשיג באמצעים שלמעלה.== F-Droid מומלצת לעתים קרובות כחלופה ל-Google Play, במיוחד בקהילת הפרטיות. האפשרות להוסיף מאגרי צד שלישי ולא להיות מוגבלים לגן המוקף חומה של גוגל הובילה לפופולריות שלו. ל-F-Droid יש בנוסף [בנייה הניתנת לשחזור](https://f-droid.org/en/docs/Reproducible_Builds/) עבור יישומים מסוימים והוא מוקדש לתוכנות חינמיות וקוד פתוח. עם זאת, ישנם כמה חסרונות הקשורים לאבטחה באופן שבו F-Droid בונה, חותם ומספק חבילות:
 
-בשל תהליך בניית האפליקציות שלהם, אפליקציות במאגר ה-F-Droid הרשמי מפגרות לעתים קרובות בפיגור לגבי עדכונים. מנהלי F-Droid גם עושים שימוש חוזר במזהי חבילה בזמן חתימת אפליקציות עם המפתחות שלהם, וזה לא אידיאלי מכיוון שהוא נותן אמון אולטימטיבי לצוות F-Droid. Additionally, the requirements for an app to be included in the official F-Droid repo are less strict than other app stores like Google Play, meaning that F-Droid tends to host a lot more apps which are older, unmaintained, or otherwise no longer meet [modern security standards](https://developer.android.com/google/play/requirements/target-sdk).
+בשל תהליך בניית האפליקציות שלהם, אפליקציות במאגר ה-F-Droid הרשמי מפגרות לעתים קרובות בפיגור לגבי עדכונים. מנהלי F-Droid גם עושים שימוש חוזר במזהי חבילה בזמן חתימת אפליקציות עם המפתחות שלהם, וזה לא אידיאלי מכיוון שהוא נותן אמון אולטימטיבי לצוות F-Droid. בנוסף, הדרישות להכללת אפליקציה במאגר ה-F-Droid הרשמי הן פחות מחמירות מחנויות אפליקציות אחרות כמו Google Play, כלומר F-Droid נוטה לארח הרבה יותר אפליקציות ישנות יותר, לא מתוחזקות או לא יותר לעמוד ב[תקני אבטחה מודרניים](https://developer.android.com/google/play/requirements/target-sdk).
 
-Other popular third-party repositories for F-Droid such as [IzzyOnDroid](https://apt.izzysoft.de/fdroid/) alleviate some of these concerns. מאגר IzzyOnDroid מושך רכיבים ישירות מ-GitHub והוא הדבר הטוב הבא למאגרים של המפתחים עצמם. However, it is not something that we can fully recommend, as apps are typically [removed](https://github.com/vfsfitvnm/ViMusic/issues/240#issuecomment-1225564446) from that repository if they are later added to the main F-Droid repository. למרות שזה הגיוני (מכיוון שהמטרה של המאגר המסוים הזה היא לארח אפליקציות לפני שהן מתקבלות למאגר ה-F-Droid הראשי), זה יכול להשאיר אותך עם אפליקציות מותקנות שכבר לא מקבלים עדכונים.
+מאגרי צד שלישי פופולריים אחרים עבור F-Droid כגון [IzzyOnDroid](https://apt.izzysoft.de/fdroid/) מקלים על חלק מהחששות הללו. מאגר IzzyOnDroid מושך רכיבים ישירות מ-GitHub והוא הדבר הטוב הבא למאגרים של המפתחים עצמם. עם זאת, זה לא משהו שאנחנו יכולים להמליץ עליו באופן מלא, מכיוון שאפליקציות בדרך כלל [מוסרות](https://github.com/vfsfitvnm/ViMusic/issues/240#issuecomment-1225564446) מהמאגר הזה אם הם יתווספו מאוחר יותר למאגר F-Droid הראשי. למרות שזה הגיוני (מכיוון שהמטרה של המאגר המסוים הזה היא לארח אפליקציות לפני שהן מתקבלות למאגר ה-F-Droid הראשי), זה יכול להשאיר אותך עם אפליקציות מותקנות שכבר לא מקבלים עדכונים.
 
-That said, the [F-Droid](https://f-droid.org/en/packages/) and [IzzyOnDroid](https://apt.izzysoft.de/fdroid/) repositories are home to countless apps, so they can be a useful tool to search for and discover open-source apps that you can then download through other means such as the Play Store, Aurora Store, or by getting the APK directly from the developer. You should use your best judgement when looking for new apps via this method, and keep an eye on how frequently the app is updated. Outdated apps may rely on unsupported libraries, among other things, posing a potential security risk.
+עם זאת, [F-Droid](https://f-droid.org/en/packages/) ו-[IzzyOnDroid](https://apt.izzysoft.de/fdroid/) הם ביתם של אינספור אפליקציות, כך שהם יכולים להוות כלי שימושי לחיפוש ולגלות אפליקציות קוד פתוח שתוכל להוריד באמצעים אחרים כגון Play Store, Aurora Store, או על ידי קבלת ה-APK ישירות מהמפתח. כדאי להשתמש במיטב שיקול הדעת כשאתה מחפש אפליקציות חדשות בשיטה זו, ולעקוב אחר התדירות שבה האפליקציה מתעדכנת. אפליקציות מיושנות עשויות להסתמך על ספריות שאינן נתמכות, בין היתר, מהוות סיכון אבטחה פוטנציאלי.
 
 !!! note "F-Droid Basic"
 
-    במקרים נדירים מסוימים, מפתח אפליקציה יפיץ אותה רק באמצעות F-Droid ([Gadgetbridge](https://gadgetbridge.org/) היא דוגמה אחת לכך). If you really need an app like that, we recommend using the newer [F-Droid Basic](https://f-droid.org/en/packages/org.fdroid.basic/) client instead of the original F-Droid app to obtain it. F-Droid Basic can do unattended updates without privileged extension or root, and has a reduced feature set (limiting attack surface).
+    במקרים נדירים מסוימים, מפתח אפליקציה יפיץ אותה רק באמצעות F-Droid ([Gadgetbridge](https://gadgetbridge.org/) היא דוגמה אחת לכך). אם אתה באמת צריך אפליקציה כזו, אנו ממליצים להשתמש בלקוח החדש יותר [F-Droid Basic](https://f-droid.org/en/packages/org.fdroid.basic/) במקום ב-F-Droid המקורי אפליקציה כדי להשיג אותו. F-Droid Basic יכול לבצע עדכונים ללא השגחה ללא הרחבה או שורש מורשים, ויש לו מערך תכונות מופחת (הגבלת משטח ההתקפה).
 
 ## קריטריונים
 

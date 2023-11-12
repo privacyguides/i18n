@@ -39,7 +39,7 @@ För att minimera den skada som en skadlig programvara ** kan orsaka bör du anv
 
     Mobila operativsystem har i allmänhet bättre applikationssandlåda än stationära operativsystem: Appar kan inte få root-åtkomst och kräver tillstånd för åtkomst till systemresurser.
     
-    Skrivbordsoperativsystem släpar i allmänhet efter vid korrekt sandlåda. ChromeOS har liknande sandlådor som Android och macOS har fullständig kontroll över systembehörigheter (och utvecklare kan välja att sandlådor ska användas för program). Dessa operativsystem överför dock identifieringsinformation till sina respektive OEM-tillverkare. Linux tenderar att inte lämna information till systemleverantörer, men har dåligt skydd mot exploateringar och skadliga program. Detta kan mildras något med specialiserade distributioner som i stor utsträckning använder sig av virtuella maskiner eller behållare, såsom [Qubes OS](../../desktop/#qubes-os).
+    Skrivbordsoperativsystem släpar i allmänhet efter vid korrekt sandlåda. ChromeOS har liknande sandlådor som Android och macOS har fullständig kontroll över systembehörigheter (och utvecklare kan välja att sandlådor ska användas för program). Dessa operativsystem överför dock identifieringsinformation till sina respektive OEM-tillverkare. Linux tenderar att inte lämna information till systemleverantörer, men har dåligt skydd mot exploateringar och skadliga program. This can be mitigated somewhat with specialized distributions which make significant use of virtual machines or containers, such as [Qubes OS](../desktop.md#qubes-os).
 
 <span class="pg-red">:material-target-account: Riktade attacker</span>
 

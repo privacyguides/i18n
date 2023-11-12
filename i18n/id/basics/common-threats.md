@@ -39,7 +39,7 @@ Untuk meminimalkan kerusakan *yang dapat* dilakukan oleh perangkat lunak berbaha
 
     Sistem operasi seluler umumnya memiliki kotak pasir aplikasi yang lebih baik daripada sistem operasi desktop: Aplikasi tidak dapat memperoleh akses akar, dan memerlukan izin untuk mengakses sumber daya sistem.
     
-    Sistem operasi desktop umumnya tertinggal dalam hal kotak pasir yang tepat. ChromeOS memiliki kemampuan kotak pasir yang mirip dengan Android, dan macOS memiliki kontrol izin sistem penuh (dan pengembang dapat memilih untuk ikut serta dalam kotak pasir untuk aplikasi). Namun demikian, sistem operasi ini mengirimkan informasi identifikasi ke OEM masing-masing. Linux cenderung tidak menyerahkan informasi kepada vendor sistem, tetapi memiliki perlindungan yang buruk terhadap eksploitasi dan aplikasi jahat. Hal ini dapat dikurangi dengan distribusi khusus yang memanfaatkan mesin virtual atau kontainer secara signifikan, seperti [Qubes OS](../../desktop/#qubes-os).
+    Sistem operasi desktop umumnya tertinggal dalam hal kotak pasir yang tepat. ChromeOS memiliki kemampuan kotak pasir yang mirip dengan Android, dan macOS memiliki kontrol izin sistem penuh (dan pengembang dapat memilih untuk ikut serta dalam kotak pasir untuk aplikasi). Namun demikian, sistem operasi ini mengirimkan informasi identifikasi ke OEM masing-masing. Linux cenderung tidak menyerahkan informasi kepada vendor sistem, tetapi memiliki perlindungan yang buruk terhadap eksploitasi dan aplikasi jahat. This can be mitigated somewhat with specialized distributions which make significant use of virtual machines or containers, such as [Qubes OS](../desktop.md#qubes-os).
 
 <span class="pg-red">:material-target-account: Serangan Bertarget</span>
 

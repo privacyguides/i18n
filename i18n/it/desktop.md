@@ -120,11 +120,9 @@ Nix è un gestore di pacchetti basato sul codice sorgente; se non ne esiste alcu
 
 Whonix è pensato per operare come due macchine virtuali: una "Workstation" e un "Gateway" di Tor. Tutte le comunicazioni dalla Workstation devono passare per il gateway di Tor. Ciò significa che, anche se la Workstation fosse compromessa da un malware di qualche tipo, il vero indirizzo IP rimarrebbe nascosto.
 
-Alcune delle sue funzionalità includono l'Isolamento del Flusso di Tor, l'[anonimato di battitura](https://www.whonix.org/wiki/Keystroke_Deanonymization#Kloak), lo [swap crittografato](https://github.com/Whonix/swap-file-creator) e un allocatore di memoria rafforzato.
+Some of its features include Tor Stream Isolation, [keystroke anonymization](https://www.whonix.org/wiki/Keystroke_Deanonymization#Kloak), [encrypted swap](https://github.com/Whonix/swap-file-creator), and a hardened memory allocator. Future versions of Whonix will likely include [full system AppArmor policies](https://github.com/Whonix/apparmor-profile-everything) and a [sandbox app launcher](https://www.whonix.org/wiki/Sandbox-app-launcher) to fully confine all processes on the system.
 
-Le versioni future di Whonix potrebbero includere [politiche di sistema complete di AppArmor](https://github.com/Whonix/apparmor-profile-everything) e un [launcher di app sandbox](https://www.whonix.org/wiki/Sandbox-app-launcher), per confinare completamente tutti i processi sul sistema.
-
-Whonix è meglio utilizzato [insieme a Qubes](https://www.whonix.org/wiki/Qubes/Why_use_Qubes_over_other_Virtualizers), Qubes-Whonix presenta svariati [svantaggi](https://forums.whonix.org/t/qubes-whonix-security-disadvantages-help-wanted/8581) rispetto ad altri hypervisor.
+Whonix is best used [in conjunction with Qubes](https://www.whonix.org/wiki/Qubes/Why_use_Qubes_over_other_Virtualizers). We have a [recommended guide](os/qubes-overview.md#connecting-to-tor-via-a-vpn) on configuring Whonix in conjunction with a VPN ProxyVM in Qubes to hide your Tor activities from your ISP.
 
 ### Tails
 

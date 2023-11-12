@@ -119,11 +119,9 @@ Nix est un gestionnaire de paquets basé sur les sources ; s'il n'y a pas de paq
 
 Whonix est conçu pour fonctionner sous la forme de deux machines virtuelles : une "Station de Travail" et une "Passerelle" Tor. Toutes les communications de la station de travail doivent passer par la passerelle Tor, et seront acheminées par le réseau Tor. Cela signifie que même si la "Station de Travail" est compromise par un logiciel malveillant quelconque, la véritable adresse IP reste cachée.
 
-Parmi ses fonctionnalités, citons l'isolation des Flux Tor, [l'anonymisation des frappes de clavier](https://www.whonix.org/wiki/Keystroke_Deanonymization#Kloak), [un swap chiffré](https://github.com/Whonix/swap-file-creator), et un allocateur de mémoire renforcé.
+Some of its features include Tor Stream Isolation, [keystroke anonymization](https://www.whonix.org/wiki/Keystroke_Deanonymization#Kloak), [encrypted swap](https://github.com/Whonix/swap-file-creator), and a hardened memory allocator. Future versions of Whonix will likely include [full system AppArmor policies](https://github.com/Whonix/apparmor-profile-everything) and a [sandbox app launcher](https://www.whonix.org/wiki/Sandbox-app-launcher) to fully confine all processes on the system.
 
-Les futures versions de Whonix incluront probablement [des politiques AppArmor système complètes](https://github.com/Whonix/apparmor-profile-everything) et [un lanceur d'apps bac à sable](https://www.whonix.org/wiki/Sandbox-app-launcher) pour confiner complètement tous les processus sur le système.
-
-Il est préférable d'utiliser Whonix [en conjonction avec Qubes](https://www.whonix.org/wiki/Qubes/Why_use_Qubes_over_other_Virtualizers).
+Whonix is best used [in conjunction with Qubes](https://www.whonix.org/wiki/Qubes/Why_use_Qubes_over_other_Virtualizers). We have a [recommended guide](os/qubes-overview.md#connecting-to-tor-via-a-vpn) on configuring Whonix in conjunction with a VPN ProxyVM in Qubes to hide your Tor activities from your ISP.
 
 ### Tails
 

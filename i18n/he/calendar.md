@@ -11,21 +11,21 @@ cover: calendar.webp
 
 !!! recommendation
 
-    ![Tuta logo](assets/img/calendar/tuta.svg){ align=right }
+    ![Tuta לוגו](assets/img/calendar/tuta.svg){ align=right }
     
-    **Tuta** offers a free and encrypted calendar across their supported platforms. Features include: automatic E2EE of all data, sharing features, import/export functionality, multi-factor authentication, and [more](https://tuta.com/calendar-app-comparison/).
+    **Tuta** מציעה לוח שנה בחינם ומוצפן על פני הפלטפורמות הנתמכות שלהם. התכונות כוללות: E2EE אוטומטי של כל הנתונים, תכונות שיתוף, פונקציונליות ייבוא/ייצוא, אימות רב-גורמי ו-[עוד](https://tuta.com/calendar-app-comparison/).
     
     מספר לוחות שנה ופונקציונליות שיתוף מורחבת מוגבלים למנויים בתשלום.
     
-    [:octicons-home-16: Homepage](https://tuta.com/calendar){ .md-button .md-button--primary }
-    [:octicons-eye-16:](https://tuta.com/privacy){ .card-link title="Privacy Policy" }
-    [:octicons-info-16:](https://tuta.com/faq){ .card-link title=Documentation}
-    [:octicons-code-16:](https://github.com/tutao/tutanota){ .card-link title="Source Code" }
-    [:octicons-heart-16:](https://tuta.com/community/){ .card-link title=Contribute }
+    [:octicons-home-16: דף הבית](https://tuta.com/calendar){ .md-button .md-button--primary }
+    [:octicons-eye-16:](https://tuta.com/privacy){ .card-link title="מדיניות הפרטיות" }
+    [:octicons-info-16:](https://tuta.com/faq){ .card-link title=תיעוד}
+    [:octicons-code-16:](https://github.com/tutao/tutanota){ .card-link title="קוד מקור" }
+    [:octicons-heart-16:](https://tuta.com/community/){ .card-link title=לתרומה }
     
-    ??? downloads
+    ??? downloads "הורדות"
     
-        - [:simple-googleplay: Google Play](https://play.google.com/store/apps/details?id=de.tutao.tutanota)
+    - [:simple-googleplay: Google Play](https://play.google.com/store/apps/details?id=de.tutao.tutanota)
         - [:simple-appstore: App Store](https://apps.apple.com/us/app/tutanota/id922429609)
         - [:simple-windows11: Windows](https://tuta.com/blog/posts/desktop-clients/)
         - [:simple-apple: macOS](https://tuta.com/blog/posts/desktop-clients/)
@@ -46,7 +46,7 @@ cover: calendar.webp
     [:octicons-info-16:](https://proton.me/support/proton-calendar-guide){ .card-link title=תיעוד}
     [:octicons-code-16:](https://github.com/ProtonMail/WebClients){ .card-link title="קוד מקור" }
     
-    ??? downloads
+    ??? downloads "הורדות"
     
         - [:simple-googleplay: Google Play](https://play.google.com/store/apps/details?id=me.proton.android.calendar)
         - [:simple-appstore: App Store](https://apps.apple.com/app/apple-store/id1514709943)

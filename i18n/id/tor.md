@@ -39,7 +39,15 @@ Tor bekerja dengan merutekan lalu lintas internet Anda melalui server yang diope
 
 ## Menghubungkan ke Tor
 
-Ada berbagai cara untuk terhubung ke jaringan Tor dari perangkat Anda, yang paling umum digunakan adalah **Tor Browser**, sebuah fork dari Firefox yang dirancang untuk penjelajahan anonim untuk komputer desktop dan Android. Selain aplikasi yang tercantum di bawah ini, ada juga sistem operasi yang dirancang khusus untuk terhubung ke jaringan Tor seperti [Whonix](desktop.md#whonix) di [Qubes OS](desktop.md#qubes-os), yang menyediakan keamanan dan perlindungan yang lebih besar daripada Tor Browser standar.
+!!! tip
+
+    Before connecting to Tor, please ensure you've read our [overview](advanced/tor-overview.md) on what Tor is and how to connect to it safely. We often recommend connecting to Tor through a trusted [VPN provider](vpn.md), but you have to do so **properly** to avoid decreasing your anonymity.
+
+Ada berbagai cara untuk terhubung ke jaringan Tor dari perangkat Anda, yang paling umum digunakan adalah **Tor Browser**, sebuah fork dari Firefox yang dirancang untuk penjelajahan anonim untuk komputer desktop dan Android.
+
+Some of these apps are better than others, and again making a determination comes down to your threat model. If you are a casual Tor user who is not worried about your ISP collecting evidence against you, using apps like [Orbot](#orbot) or mobile browser apps to access the Tor network is probably fine. Increasing the number of people who use Tor on an everyday basis helps reduce the bad stigma of Tor, and lowers the quality of "lists of Tor users" that ISPs and governments may compile.
+
+If more complete anonymity is paramount to your situation, you should **only** be using the desktop Tor Browser client, ideally in a [Whonix](desktop.md#whonix) + [Qubes](desktop.md#qubes-os) configuration. Mobile browsers are less common on Tor (and more fingerprintable as a result), and other configurations are not as rigorously tested against deanonymization.
 
 ### Tor Browser
 
@@ -68,6 +76,8 @@ Ada berbagai cara untuk terhubung ke jaringan Tor dari perangkat Anda, yang pali
     Anda sebaiknya **jangan pernah** memasang ekstensi tambahan apa pun pada Tor Browser atau menyunting pengaturan `about:config`, termasuk yang kami sarankan untuk Firefox. Ekstensi browser dan pengaturan nonstandar membuat Anda menonjol dari orang lain di jaringan Tor, sehingga membuat peramban Anda lebih mudah untuk [disidik jari](https://support.torproject.org/glossary/browser-fingerprinting).
 
 Tor Browser dirancang untuk mencegah sidik jari, atau mengidentifikasi Anda berdasarkan konfigurasi peramban Anda. Oleh karena itu, sangat penting bagi Anda untuk tidak **tidak** memodifikasi peramban di luar [tingkat keamanan](https://tb-manual.torproject.org/security-settings/) bawaan.
+
+In addition to installing Tor Browser on your computer directly, there are also operating systems designed specifically to connect to the Tor network such as [Whonix](desktop.md#whonix) on [Qubes OS](desktop.md#qubes-os), which provide even greater security and protections than the standard Tor Browser alone.
 
 ### Orbot
 

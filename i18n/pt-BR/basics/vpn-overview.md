@@ -5,70 +5,106 @@ icon: material/vpn
 description: As Redes Privadas Virtuais transferem o risco do seu ISP para um terceiro em quem você confia. Você deve ter isso em mente.
 ---
 
-Redes Privadas Virtuais são uma forma de estender o fim da sua conexão para sair de outro lugar do mundo. Um provedor de serviços de internet (ISP) pode ver o fluxo de tráfego da Internet que entra e sai do seu dispositivo de terminação de rede (por exemplo, o modem).
+Virtual Private Networks are a way of extending the end of your network to exit somewhere else in the world.
 
-Protocolos de criptografia, como o HTTPS, são frequentemente usados na Internet, de modo que eles não consigam ver exatamente o que você está postando ou lendo, mas eles podem ter uma ideia dos [domínios que você solicita](../advanced/dns-overview.md#why-shouldnt-i-use-encrypted-dns).
+Normally, an ISP can see the flow of internet traffic entering and exiting your network termination device (i.e. modem). Encryption protocols such as HTTPS are commonly used on the internet, so they may not be able to see exactly what you're posting or reading, but they can get an idea of the [domains you request](../advanced/dns-overview.md#why-shouldnt-i-use-encrypted-dns).
 
-Uma VPN pode ajudar, visto que transfere a confiança para um servidor em outro lugar do mundo. Como resultado, seu provedor de Internet só vê que você está conectado a uma VPN e nada sobre a atividade que você está transmitindo através dela.
+Using a VPN hides even this information from your ISP, by shifting the trust you place in your network to a server somewhere else in the world. As a result, the ISP then only sees that you are connected to a VPN and nothing about the activity that you're passing through it.
+
+!!! note
+
+    When we refer to "Virtual Private Networks" on this website, we are usually referring to **commercial** [VPN providers](../vpn.md), who you pay a monthly fee to in exchange for routing your internet traffic securely through their public servers. There are many other forms of VPN, such as ones you host yourself or ones operated by workplaces which allow you to securely connect to internal/employee network resources, however, these VPNs are usually designed for accessing remote networks securely, rather than protecting the privacy of your internet connection.
+
+## How does a VPN work?
+
+VPNs encrypt your traffic between your device and a server owned by your VPN provider. From the perspective of anyone between you and the VPN server, it looks like you're connecting to the VPN server. From the perspective of anyone between the VPN server and your destination site, all they can see is the VPN server connecting to the website.
+
+``` mermaid
+flowchart LR
+ 763931["Your Device<div>(with VPN Client)</div>"] ===|"VPN Encryption"| 404512{"VPN Server"}
+ 404512 -.-|"No VPN Encryption"| 593753((("The Internet\n(Your Destination)")))
+ subgraph 763931["Your Device<div>(with VPN Client)</div>"]
+ end
+```
+
+Note that a VPN does not add any security or encryption to your traffic between the VPN server and your destination on the internet. To access a website securely you **must** still ensure HTTPS is in use regardless of whether you use a VPN.
 
 ## Devo Usar Uma VPN?
 
-**Sim**, a menos que você já esteja usando o Tor. Uma VPN faz duas coisas: transfere os riscos do seu Provedor de Serviços de Internet para você mesmo e oculta seu IP de um serviço de terceiros.
-
-VPNs não podem criptografar dados fora da conexão entre o seu dispositivo e o servidor VPN. Provedores de VPN podem ver e modificar seu tráfego da mesma forma que seu provedor de internet pode. E não há nenhuma maneira de verificar as políticas de "não registro" dos provedores de VPN.
-
-No entanto, eles ocultam seu IP real de um serviço de terceiros, desde que não haja vazamentos de IP. Ajudam a misturar-se com os outros e a diminuir o rastreio baseado no IP.
-
-## Quando não deveria usar uma VPN?
-
-Using a VPN in cases where you're using your [known identity](common-misconceptions.md#complicated-is-better) is unlikely be useful.
-
-Fazê-lo pode acionar sistemas de detecção de fraude e “spam”, como se você logasse no site do seu banco.
-
-## E Quanto à Criptografia?
-
-A criptografia oferecida por provedores de VPN está presente entre seus dispositivos e os servidores deles. Isso garante que esse link específico entre cliente-servidor é seguro. Isso já é um avanço em relação a utilizar “proxies” descriptografados onde um adversário na rede pode interceptar as comunicações entre seus dispositivos e os respectivos “proxies”, modificando-as. No entanto, a criptografia entre seus aplicativos e navegadores com os provedores de serviço não é tratada por essa criptografia.
-
-Para manter realmente privado e seguro o que você faz nos sites que visita, você precisa utilizar HTTPS. Isso irá manter suas senhas, “tokens” de seção, e consultas seguras do seu provedor de VPN. Considere habilitar a opção “HTTPS automático” no seu navegador para mitigar ataques de “downgrade” como o [SSL Strip](https://www.blackhat.com/presentations/bh-dc-09/Marlinspike/BlackHat-DC-09-Marlinspike-Defeating-SSL.pdf).
-
-## Devo usar DNS criptografado com uma VPN?
-
-A menos que seu próprio provedor de VPN hospede os servidores de DNS criptografados, **não**. Usar “DOH/DOT” (ou qualquer outra forma de DNS criptografado) com um servidor terceiro irá simplesmente adicionar mais entidades para confiar e não faz **absolutamente nada** para melhorar sua privacidade/segurança. Seu provedor VPN ainda pode ver quais sites você visita baseado nos seus endereços IP e outros métodos. Ao invés de confiar apenas no seu provedor VPN, você agora estará confiando nele e no provedor DNS escolhido.
-
-Uma razão comum para recomendar DNS criptografado é que ajuda contra a falsificação de DNS (ou “DNS spoofing”). No entanto, seu navegador já deve estar checando por [certificados TLS](https://en.wikipedia.org/wiki/Transport_Layer_Security#Digital_certificates) com **HTTPS** e te informar sobre. Se você não está usando **HTTPS**, então um adversário pode simplesmente modificar qualquer coisa diferente das suas consultas DNS e o resultado será pouco diferente.
-
-Needless to say, **you shouldn't use encrypted DNS with Tor**. This would direct all of your DNS requests through a single circuit and would allow the encrypted DNS provider to deanonymize you.
-
-## Devo usar Tor *e* uma VPN?
-
-Ao usar uma VPN com Tor, você cria essencialmente um node de entrada permanente, geralmente com um rastro de dinheiro anexado. Isso não oferece nenhum benefício adicional para você, enquanto aumenta drasticamente a superfície de ataque da sua conexão. Se você deseja ocultar o uso do Tor do seu ISP ou do governo, o Tor tem uma solução integrada para isso: Tor bridges. [Leia mais sobre Tor bridges e por que não é necessário usar uma VPN](../advanced/tor-overview.md).
-
-## E se eu precisar de anonimato?
-
-As VPNs não podem fornecer anonimato. Seu provedor de VPN ainda verá seu endereço IP real e geralmente possui um rastro de dinheiro que pode ser vinculado diretamente a você. Você não pode confiar em políticas de “no logging” para proteger seus dados. Use [Tor](https://www.torproject.org/) em vez disso.
-
-## E os provedores de VPN que fornecem nós Tor?
-
-Não use esse recurso. O objetivo de usar o Tor é que você não confia no seu provedor de VPN. Currently Tor only supports the [TCP](https://en.wikipedia.org/wiki/Transmission_Control_Protocol) protocol. [UDP](https://en.wikipedia.org/wiki/User_Datagram_Protocol) (used in [WebRTC](https://en.wikipedia.org/wiki/WebRTC) for voice and video sharing, the new [HTTP3/QUIC](https://en.wikipedia.org/wiki/HTTP/3) protocol, etc.), [ICMP](https://en.wikipedia.org/wiki/Internet_Control_Message_Protocol) and other packets will be dropped. To compensate for this, VPN providers typically will route all non-TCP packets through their VPN server (your first hop). This is the case with [ProtonVPN](https://protonvpn.com/support/tor-vpn/). Additionally, when using this Tor over VPN setup, you do not have control over other important Tor features such as [Isolated Destination Address](https://www.whonix.org/wiki/Stream_Isolation) (using a different Tor circuit for every domain you visit).
-
-The feature should be viewed as a convenient way to access the Tor Network, not to stay anonymous. For proper anonymity, use the Tor Browser, TorSocks, or a Tor gateway.
-
-## Quando VPNs são úteis?
-
-A VPN may still be useful to you in a variety of scenarios, such as:
+**Yes**, almost certainly. A VPN has many advantages, including:
 
 1. Hiding your traffic from **only** your Internet Service Provider.
 1. Hiding your downloads (such as torrents) from your ISP and anti-piracy organizations.
-1. Hiding your IP from third-party websites and services, preventing IP based tracking.
+1. Hiding your IP from third-party websites and services, helping you blend in and preventing IP based tracking.
+1. Allowing you to bypass geo-restrictions on certain content.
 
-For situations like these, or if you have another compelling reason, the VPN providers we listed above are who we think are the most trustworthy. However, using a VPN provider still means you're *trusting* the provider. In pretty much any other scenario you should be using a secure**-by-design** tool such as Tor.
+VPNs can provide *some* of the same benefits Tor provides, such as hiding your IP from the websites you visit and geographically shifting your network traffic, and good VPN providers will not cooperate with e.g. legal authorities from oppressive regimes, especially if you choose a VPN provider outside your own jurisdiction.
 
-## Fontes e Leituras Adicionais
+VPNs cannot encrypt data outside the connection between your device and the VPN server. VPN providers can also see and modify your traffic the same way your ISP could, so there is still a level of trust you are placing in them. E não há nenhuma maneira de verificar as políticas de "não registro" dos provedores de VPN.
 
-1. [VPN - a Very Precarious Narrative](https://schub.io/blog/2019/04/08/very-precarious-narrative.html) by Dennis Schubert
-1. [Tor Network Overview](../advanced/tor-overview.md)
-1. [IVPN Privacy Guides](https://www.ivpn.net/privacy-guides)
-1. ["Do I need a VPN?"](https://www.doineedavpn.com), a tool developed by IVPN to challenge aggressive VPN marketing by helping individuals decide if a VPN is right for them.
+## When isn't a VPN suitable?
+
+Using a VPN in cases where you're using your [real-life or well-known identity](common-misconceptions.md#complicated-is-better) online is unlikely be useful. Fazê-lo pode acionar sistemas de detecção de fraude e “spam”, como se você logasse no site do seu banco.
+
+It's important to remember that a VPN will not provide you with absolute anonymity, because the VPN provider itself will still see your real IP address, destination website information, and often has a money trail that can be linked directly back to you. You can't rely on "no logging" policies to protect your data from anyone who is able to protect. If you need complete safety from the network itself, consider using [Tor](../advanced/tor-overview.md) in addition to or instead of a VPN.
+
+You also should not trust a VPN to secure your connection to an unencrypted, HTTP destination. Para manter realmente privado e seguro o que você faz nos sites que visita, você precisa utilizar HTTPS. This will keep your passwords, session tokens, and queries safe from the VPN provider and other potential adversaries in between the VPN server and your destination. You should enable HTTPS-only mode in your browser (if it's supported) to mitigate attacks which try to downgrade your connection from HTTPS to HTTP.
+
+## Devo usar DNS criptografado com uma VPN?
+
+Unless your VPN provider hosts the encrypted DNS servers themselves, **probably not**. Using DOH/DOT (or any other form of encrypted DNS) with third-party servers will simply add more entities to trust. Seu provedor VPN ainda pode ver quais sites você visita baseado nos seus endereços IP e outros métodos. All this being said, there may be some advantages to enabling encrypted DNS in order to enable other security features in your browser, such as ECH. Browser technologies which are reliant on in-browser encrypted DNS are relatively new and not yet widespread, so whether they are relevant to you in particular is an exercise we will leave to you to research independently.
+
+Another common reason encrypted DNS is recommended is that it prevents DNS spoofing. No entanto, seu navegador já deve estar checando por [certificados TLS](https://en.wikipedia.org/wiki/Transport_Layer_Security#Digital_certificates) com **HTTPS** e te informar sobre. Se você não está usando **HTTPS**, então um adversário pode simplesmente modificar qualquer coisa diferente das suas consultas DNS e o resultado será pouco diferente.
+
+## Devo usar Tor *e* uma VPN?
+
+Maybe, Tor is not necessarily suitable for everybody in the first place. Consider your [threat model](threat-modeling.md), because if your adversary is not capable of extracting information from your VPN provider, using a VPN alone may provide enough protection.
+
+If you do use Tor then you are *probably* best off connecting to the Tor network via a commercial VPN provider. However, this is a complex subject which we've written more about on our [Tor overview](../advanced/tor-overview.md) page.
+
+## Should I access Tor through VPN providers that provide "Tor nodes"?
+
+You should not use that feature: The primary advantage of using Tor is that you do not trust your VPN provider, which is negated when you use Tor nodes hosted by your VPN instead of connecting directly to Tor from your computer.
+
+Currently, Tor only supports the TCP protocol. UDP (used by [WebRTC](https://en.wikipedia.org/wiki/WebRTC), [HTTP3/QUIC](https://en.wikipedia.org/wiki/HTTP/3), and other protocols), [ICMP](https://en.wikipedia.org/wiki/Internet_Control_Message_Protocol), and other packets will be dropped. To compensate for this, VPN providers typically will route all non-TCP packets through their VPN server (your first hop). This is the case with [ProtonVPN](https://protonvpn.com/support/tor-vpn/). Additionally, when using this Tor over VPN setup, you do not have control over other important Tor features such as [Isolated Destination Address](https://www.whonix.org/wiki/Stream_Isolation) (using a different Tor circuit for every domain you visit).
+
+The feature should be viewed as a *convenient* way to access hidden services on Tor, not to stay anonymous. For proper anonymity, use the actual [Tor Browser](../tor.md).
+
+## Commercial VPN Ownership
+
+Most VPN services are owned by the same [few companies](https://vpnpro.com/blog/hidden-vpn-owners-unveiled-97-vpns-23-companies/). These shady companies run lots of smaller VPN services to create the illusion that you have more choice than you actually do and to maximize profit. Typically, these providers that feed into their shell company have terrible privacy policies and shouldn't be trusted with your internet traffic. You should be very strict about which provider you decide to use.
+
+You should also be wary that many VPN review sites are merely advertising vehicles open to the highest bidder. ==Privacy Guides does not make money from recommending external products, and never uses affiliate programs.==
+
+[Our VPN Recommendations](../vpn.md ""){.md-button}
+
+## Modern VPN Alternatives
+
+Recently, some attempts have been made by various organizations to address some issues which centralized VPNs have. These technologies are relatively new, but worth keeping an eye on as the field develops.
+
+### Multi-Party Relays
+
+Multi-Party Relays (MPRs) use multiple nodes owned by different parties, such that no individual party knows both who you are and what you're connecting to. This is the basic idea behind Tor, but now there are some paid services that try to emulate this model.
+
+MPRs seek to solve a problem inherent to VPNs: the fact that you must trust them completely. They accomplish this goal by segmenting the responsibilities between two or more different companies. For example, Apple's iCloud+ Private Relay routes your traffic through two servers:
+
+1. Firstly, a server operated by Apple.
+
+    This server is able to see your device's IP when you connect to it, and has knowledge of your payment information and Apple ID tied to your iCloud subscription. However, it is unable to see what website you are connecting to.
+
+2. Secondly, a server operated by a partner CDN, such as Cloudflare or Fastly.
+
+    This server actually makes the connection to your destination website, but has no knowledge of your device. The only IP address it knows about is Apple's server's.
+
+Other MPRs run by different companies like Google or INVISV operate in a very similar manner. This protection by segmentation only exists if you trust the two companies to not collude with each other to deanonymize you.
+
+### Decentralized VPNs
+
+Another attempt at solving the issues with centralized VPN services are dVPNs. These are based on blockchain technology and claim to eliminate trust in a single party by distributing the nodes across lots of different people. However, many times a dVPN will default to a single node, meaning you need to trust that node completely, just like a traditional VPN. Unlike a traditional VPN, this one node that can see all your traffic is a random person instead of your VPN provider that can be audited and has legal responsibilities to uphold their privacy policy. Multi-hop is needed to solve this, but that comes with a stability and performance cost.
+
+Another consideration is legal liability. The exit node will need to deal with legal problems from misuse of the network, an issue that the Tor network has contended with for its entire existence. This discourages regular people from running nodes and makes it more attractive for a malicious actor with lots of resources to host one. This is a big problem if the service is single-node, as the potentially malicious exit node can see who you are and what you're connecting to.
+
+Many dVPNs are used to push a cryptocurrency rather than to make the best service. They also tend to be smaller networks with fewer nodes, making them more vulnerable to [Sybil attacks](https://en.wikipedia.org/wiki/Sybil_attack).
 
 ## Informações Relacionadas a VPN
 
@@ -76,3 +112,4 @@ For situations like these, or if you have another compelling reason, the VPN pro
 - [Investigação de Aplicativos VPN Gratuitos](https://www.top10vpn.com/free-vpn-app-investigation/)
 - [Proprietários Secretos de VPN revelados: 101 produtos VPN operados por apenas 23 empresas](https://vpnpro.com/blog/hidden-vpn-owners-unveiled-97-vpns-23-companies/)
 - [Esta empresa chinesa está secretamente por trás de 24 aplicativos populares que pedem permissões perigosas](https://vpnpro.com/blog/chinese-company-secretly-behind-popular-apps-seeking-dangerous-permissions/)
+- [VPN - a Very Precarious Narrative](https://schub.io/blog/2019/04/08/very-precarious-narrative.html) by Dennis Schubert

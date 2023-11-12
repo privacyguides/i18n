@@ -39,7 +39,15 @@ Tor werkt door je internetverkeer om te leiden via deze door vrijwilligers behee
 
 ## Verbinding maken met Tor
 
-Er zijn verschillende manieren om verbinding te maken met het Tor-netwerk vanaf je apparaat. De meest gebruikte is de **Tor Browser**, een fork van Firefox ontworpen voor anoniem browsen voor desktop computers en Android. Naast de onderstaande apps zijn er ook besturingssystemen die speciaal zijn ontworpen om verbinding te maken met het Tor-netwerk, zoals [Whonix](desktop.md#whonix) op [Qubes OS](desktop.md#qubes-os), die nog meer veiligheid en bescherming bieden dan de standaard Tor Browser.
+!!! tip
+
+    Before connecting to Tor, please ensure you've read our [overview](advanced/tor-overview.md) on what Tor is and how to connect to it safely. We often recommend connecting to Tor through a trusted [VPN provider](vpn.md), but you have to do so **properly** to avoid decreasing your anonymity.
+
+Er zijn verschillende manieren om verbinding te maken met het Tor-netwerk vanaf je apparaat. De meest gebruikte is de **Tor Browser**, een fork van Firefox ontworpen voor anoniem browsen voor desktop computers en Android.
+
+Some of these apps are better than others, and again making a determination comes down to your threat model. If you are a casual Tor user who is not worried about your ISP collecting evidence against you, using apps like [Orbot](#orbot) or mobile browser apps to access the Tor network is probably fine. Increasing the number of people who use Tor on an everyday basis helps reduce the bad stigma of Tor, and lowers the quality of "lists of Tor users" that ISPs and governments may compile.
+
+If more complete anonymity is paramount to your situation, you should **only** be using the desktop Tor Browser client, ideally in a [Whonix](desktop.md#whonix) + [Qubes](desktop.md#qubes-os) configuration. Mobile browsers are less common on Tor (and more fingerprintable as a result), and other configurations are not as rigorously tested against deanonymization.
 
 ### Tor Browser
 
@@ -68,6 +76,8 @@ Er zijn verschillende manieren om verbinding te maken met het Tor-netwerk vanaf 
     Je moet **nooit** extra extensies installeren op Tor Browser of `about:config` instellingen bewerken, inclusief de extensies die we voorstellen voor Firefox. Browserextensies en niet-standaardinstellingen zorgen ervoor dat je je onderscheidt van anderen op het Tor-netwerk, waardoor je browser gemakkelijker te vinden is op [fingerprint](https://support.torproject.org/glossary/browser-fingerprinting).
 
 De Tor Browser is ontworpen om fingerprinting, of het identificeren van jou op basis van je browserconfiguratie, te voorkomen. **Daarom is het absoluut noodzakelijk dat je** de browser niet wijzigt buiten de standaard [beveiligingsniveaus](https://tb-manual.torproject.org/security-settings/).
+
+In addition to installing Tor Browser on your computer directly, there are also operating systems designed specifically to connect to the Tor network such as [Whonix](desktop.md#whonix) on [Qubes OS](desktop.md#qubes-os), which provide even greater security and protections than the standard Tor Browser alone.
 
 ### Orbot
 

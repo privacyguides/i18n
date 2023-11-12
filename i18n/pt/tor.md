@@ -39,7 +39,16 @@ O Tor encaminha o seu tráfego de Internet através destes servidores operados p
 
 ## Ligar ao Tor
 
-Existem várias formas de se ligar à rede Tor a partir do seu dispositivo, sendo a mais utilizada o **Navegador Tor**, um fork do Firefox concebido para navegação anónima em computadores desktop e em dispositivos Android. Para além das aplicações abaixo listadas, existem também sistemas operativos concebidos especificamente para se ligarem à rede Tor, como o [Whonix](desktop.md#whonix) em [Qubes OS](desktop.md#qubes-os), que fornecem ainda mais segurança e proteções do que o browser Tor padrão.
+!!! aviso
+     Backup `BitLocker-Recovery-Key.txt` em um dispositivo de armazenamento separado.
+
+    Before connecting to Tor, please ensure you've read our [overview](advanced/tor-overview.md) on what Tor is and how to connect to it safely. We often recommend connecting to Tor through a trusted [VPN provider](vpn.md), but you have to do so **properly** to avoid decreasing your anonymity.
+
+Existem várias formas de se ligar à rede Tor a partir do seu dispositivo, sendo a mais utilizada o **Navegador Tor**, um fork do Firefox concebido para navegação anónima em computadores desktop e em dispositivos Android.
+
+Some of these apps are better than others, and again making a determination comes down to your threat model. If you are a casual Tor user who is not worried about your ISP collecting evidence against you, using apps like [Orbot](#orbot) or mobile browser apps to access the Tor network is probably fine. Increasing the number of people who use Tor on an everyday basis helps reduce the bad stigma of Tor, and lowers the quality of "lists of Tor users" that ISPs and governments may compile.
+
+If more complete anonymity is paramount to your situation, you should **only** be using the desktop Tor Browser client, ideally in a [Whonix](desktop.md#whonix) + [Qubes](desktop.md#qubes-os) configuration. Mobile browsers are less common on Tor (and more fingerprintable as a result), and other configurations are not as rigorously tested against deanonymization.
 
 ### Browser Tor
 
@@ -69,6 +78,8 @@ Existem várias formas de se ligar à rede Tor a partir do seu dispositivo, send
     **Nunca** devem ser instaladas quaisquer extensões adicionais no Tor ou editadas as configurações `about:config`, incluindo as que sugerimos para o Firefox. Extensões e configurações não-padrão fazem com que se destaque dos outros utilizadores da rede Tor, tornando o seu browser mais suscetível a identificação de [fingerprint](https://support.torproject.org/glossary/browser-fingerprinting).
 
 O Tor foi concebido para evitar a recolha de impressões digitais, ou a sua identificação com base na configuração. Por esse motivo, é imperativo que **não** modifique o browser para além dos níveis de segurança predefinidos [](https://tb-manual.torproject.org/security-settings/).
+
+In addition to installing Tor Browser on your computer directly, there are also operating systems designed specifically to connect to the Tor network such as [Whonix](desktop.md#whonix) on [Qubes OS](desktop.md#qubes-os), which provide even greater security and protections than the standard Tor Browser alone.
 
 ### Orbot
 

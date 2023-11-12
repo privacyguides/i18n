@@ -157,6 +157,7 @@ Para obtener más información sobre cada proyecto, por qué han sido elegidos y
 
 - ![Privacy.com logo](assets/img/financial-services/privacy_com.svg#only-light){ .twemoji }![Privacy.com logo](assets/img/financial-services/privacy_com-dark.svg#only-dark){ .twemoji } [Privacy.com](financial-services.md#privacycom-us)
 - ![MySudo logo](assets/img/financial-services/mysudo.svg#only-light){ .twemoji }![MySudo logo](assets/img/financial-services/mysudo-dark.svg#only-dark){ .twemoji } [MySudo](financial-services.md#mysudo-us-paid)
+
 </div>
 
 [Más información :material-arrow-right-drop-circle:](financial-services.md#payment-masking-services)
@@ -429,12 +430,11 @@ Para obtener más información sobre cada proyecto, por qué han sido elegidos y
 
 <div class="grid cards" markdown>
 
-- ![logotipo de Obtainium](assets/img/android/obtainium.svg){ .twemoji } [Obtainium (gestor de aplicaciones)](android.md#obtainium)
-- ![logotipo de Aurora Store](assets/img/android/aurora-store.webp){ .twemoji } [Aurora Store (cliente de Google Play)](android.md#aurora-store)
-- ![logotipo de Shelter](assets/img/android/mini/shelter.svg){ .twemoji } [Shelter (Work Profiles)](android.md#shelter)
-- ![logotipo de Auditor](assets/img/android/auditor.svg#only-light){ .twemoji }![Auditor logo](assets/img/android/auditor-dark.svg#only-dark){ .twemoji } [Auditor (Supported Devices)](android.md#auditor)
-- ![logotipo de Secure Camera](assets/img/android/secure_camera.svg#only-light){ .twemoji }![logotipo de Secure Camera](assets/img/android/secure_camera-dark.svg#only-dark){ .twemoji } [Secure Camera](android.md#secure-camera)
-- ![logotipo de Secure PDF Viewer](assets/img/android/secure_pdf_viewer.svg#only-light){ .twemoji }![logotipo de Secure PDF Viewer](assets/img/android/secure_pdf_viewer-dark.svg#only-dark){ .twemoji } [Secure PDF Viewer](android.md#secure-pdf-viewer)
+- ![Obtainium logo](assets/img/android/obtainium.svg){ .twemoji } [Obtainium (App Manager)](android.md#obtainium)
+- ![Aurora Store logo](assets/img/android/aurora-store.webp){ .twemoji } [Aurora Store (Google Play Client)](android.md#aurora-store)
+- ![Shelter logo](assets/img/android/mini/shelter.svg){ .twemoji } [Shelter (Work Profiles)](android.md#shelter)
+- ![Secure Camera logo](assets/img/android/secure_camera.svg#only-light){ .twemoji }![Secure Camera logo](assets/img/android/secure_camera-dark.svg#only-dark){ .twemoji } [Secure Camera](android.md#secure-camera)
+- ![Secure PDF Viewer logo](assets/img/android/secure_pdf_viewer.svg#only-light){ .twemoji }![Secure PDF Viewer logo](assets/img/android/secure_pdf_viewer-dark.svg#only-dark){ .twemoji } [Secure PDF Viewer](android.md#secure-pdf-viewer)
 
 </div>
 
@@ -468,3 +468,21 @@ Para obtener más información sobre cada proyecto, por qué han sido elegidos y
 </div>
 
 [Más información :material-arrow-right-drop-circle:](router.md)
+
+## Advanced Tools
+
+These tools may provide utility for certain individuals. They provide functionality which most people do not need to worry about, and often require more in-depth technical knowledge to utilize effectively.
+
+### Device Integrity Verification
+
+<div class="grid cards" markdown>
+
+- ![MVT logo](assets/img/device-integrity/mvt.webp){ .twemoji } [Mobile Verification Toolkit](device-integrity.md#mobile-verification-toolkit)
+- ![iMazing logo](assets/img/device-integrity/imazing.png){ .twemoji } [iMazing (iOS)](device-integrity.md#imazing-ios)
+- ![Auditor logo](assets/img/device-integrity/auditor.svg#only-light){ .twemoji }![Auditor logo](assets/img/device-integrity/auditor-dark.svg#only-dark){ .twemoji } [Auditor (Android)](device-integrity.md#auditor-android)
+- ![Hypatia logo](assets/img/device-integrity/hypatia.svg#only-light){ .twemoji }![Hypatia logo](assets/img/device-integrity/hypatia-dark.svg#only-dark){ .twemoji } [Hypatia (Android)](device-integrity.md#hypatia-android)
+- ![iVerify logo](assets/img/device-integrity/iverify.webp){ .twemoji } [iVerify (iOS)](device-integrity.md#iverify-ios)
+
+</div>
+
+[Más información :material-arrow-right-drop-circle:](device-integrity.md)

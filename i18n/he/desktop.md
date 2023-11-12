@@ -120,11 +120,9 @@ Nix הוא מנהל חבילות מבוסס מקור; אם אין מוכן מר�
 
 Whonix אמור לפעול כמו שתי מכונות וירטואליות: "תחנת עבודה" ו "שער" Tor כל התקשורת מתחנת העבודה חייבת לעבור דרך שער טור. משמעות הדבר היא כי גם אם תחנת העבודה נפגעת על ידי תוכנות זדוניות מסוג כלשהו, כתובת ה - IP האמיתית נשארת מוסתרת.
 
-חלק מהתכונות כוללות בידוד Tor Stream, אנונימיזציה של [הקשות](https://www.whonix.org/wiki/Keystroke_Deanonymization#Kloak), [החלפה מוצפנת](https://github.com/Whonix/swap-file-creator), והקצאת זיכרון מוקשה.
+Some of its features include Tor Stream Isolation, [keystroke anonymization](https://www.whonix.org/wiki/Keystroke_Deanonymization#Kloak), [encrypted swap](https://github.com/Whonix/swap-file-creator), and a hardened memory allocator. Future versions of Whonix will likely include [full system AppArmor policies](https://github.com/Whonix/apparmor-profile-everything) and a [sandbox app launcher](https://www.whonix.org/wiki/Sandbox-app-launcher) to fully confine all processes on the system.
 
-גירסאות עתידיות של Whonix יכללו ככל הנראה [מדיניות AppArmor מערכת מלאה](https://github.com/Whonix/apparmor-profile-everything) ו [משגר יישום ארגז חול](https://www.whonix.org/wiki/Sandbox-app-launcher) כדי להגביל באופן מלא את כל התהליכים במערכת.
-
-Whonix הוא הטוב ביותר בשימוש [בשילוב עם Qubes](https://www.whonix.org/wiki/Qubes/Why_use_Qubes_over_other_Virtualizers), Qubes - Whonix יש [חסרונות שונים](https://forums.whonix.org/t/qubes-whonix-security-disadvantages-help-wanted/8581) בהשוואה hypervisors אחרים.
+Whonix is best used [in conjunction with Qubes](https://www.whonix.org/wiki/Qubes/Why_use_Qubes_over_other_Virtualizers). We have a [recommended guide](os/qubes-overview.md#connecting-to-tor-via-a-vpn) on configuring Whonix in conjunction with a VPN ProxyVM in Qubes to hide your Tor activities from your ISP.
 
 ### Tails
 

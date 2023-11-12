@@ -39,7 +39,7 @@ description: 您的威胁模式是您自己量身定制的，但这些是本网�
 
     在应用程序沙盒方面，移动操作系统通常比桌面操作系统更安全。
     
-    应用程序无法获得根访问权限，只能访问您授予它们访问权限的系统资源。 桌面操作系统在成熟的沙箱方面通常比较落后。 ChromeOS具有与安卓类似的沙盒属性，而macOS具有完整的系统权限控制和（针对开发者）可选的应用程序沙盒，然而这些操作系统的确会将识别信息传输给各自的OEM。 Linux倾向于不向系统供应商提交信息，但它对漏洞和恶意应用程序的保护很差。 这一点可以通过大量使用虚拟机或容器的专门发行版（如Qubes OS）得到一定程度的缓解。
+    应用程序无法获得根访问权限，只能访问您授予它们访问权限的系统资源。 桌面操作系统在成熟的沙箱方面通常比较落后。 ChromeOS具有与安卓类似的沙盒属性，而macOS具有完整的系统权限控制和（针对开发者）可选的应用程序沙盒，然而这些操作系统的确会将识别信息传输给各自的OEM。 Linux倾向于不向系统供应商提交信息，但它对漏洞和恶意应用程序的保护很差。 This can be mitigated somewhat with specialized distributions which make significant use of virtual machines or containers, such as [Qubes OS](../desktop.md#qubes-os).
 
 <span class="pg-red">:material-target-account: 定向攻击</span>
 

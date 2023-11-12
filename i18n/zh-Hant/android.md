@@ -215,39 +215,6 @@ Pixel 手機很容易安裝 GrapheneOS 只需依其 [網頁安裝程式](https:/
     
     當使用 Shelter 時，將信任置於其開發者，Shelter 作為[設備管理員](https://developer.android.com/guide/topics/admin/device-admin)來創建工作設定檔，它有大量權限訪問存儲在工作設定檔的資料。
 
-### Auditor
-
-!!! recommendation
-
-    ![Auditor logo](assets/img/android/auditor.svg#only-light){ align=right }
-    ![Auditor logo](assets/img/android/auditor-dark.svg#only-dark){ align=right }
-    
-    **Auditor** 是一款利用硬體安全功能通過主動驗證設備身份及其作業系統的完整性來進行完整性監控的應用程式。 目前僅在 GrapheneOS 或 [支援設備](https://attestation.app/about#device-support)的庫存作業系統運行。
-    
-    [:octicons-home-16: Homepage](https://attestation.app){ .md-button .md-button--primary }
-    [:octicons-eye-16:](https://attestation.app/privacy-policy){ .card-link title="Privacy Policy" }
-    [:octicons-info-16:](https://attestation.app/about){ .card-link title=Documentation}
-    [:octicons-code-16:](https://attestation.app/source){ .card-link title="Source Code" }
-    [:octicons-heart-16:](https://attestation.app/donate){ .card-link title=Contribute }
-    
-    ??? downloads "下載"
-    
-        - [:simple-googleplay: Google Play](https://play.google.com/store/apps/details?id=app.attestation.auditor.play)
-        - [:simple-github: GitHub](https://github.com/GrapheneOS/Auditor/releases)
-        - [:material-cube-outline: GrapheneOS App Store](https://github.com/GrapheneOS/Apps/releases)
-
-Auditor 通過下列方式鑑證和入侵檢測。
-
-- *審計者 * 和 *被審計對象*之間使用 [首次使用信任（TOFU）](https://en.wikipedia.org/wiki/Trust_on_first_use) 模式， Auditor *的硬體支援密鑰庫</a> 中對配建立私鑰。
-- *審計者* 可以是 Auditor 應用程式的另一個實例，或是 [遠程認證服務](https://attestation.app)。
-- *審計者* 記錄 *審計對象*當前的狀態和配置。
-- 如果在配對完成後發生篡改 *審計對象的作業系統* ，審計人員將意識到設備狀態和配置的變化。
-- 您會被提醒注意此一變化。
-
-沒有個人識別資料被提交給證明服務。 建議使用匿名帳戶註冊，並啟用遠程認證，以進行持續監控。
-
-如果您的 [威脅模型](basics/threat-modeling.md) 需要隱私，可以考慮使用 [Orbot](tor.md#orbot) 或VPN，從證明服務中隱藏 IP地址。 為了確保硬體和作業系統真實， [，在設備安裝後連上網際網路之前，立即進行本地認證](https://grapheneos.org/install/web#verifying-installation)。
-
 ### 安全相機
 
 !!! recommendation
@@ -329,7 +296,7 @@ GrapheneOS 應用商店可在 [GitHub](https://github.com/GrapheneOS/Apps/releas
 
 Google Play商店需要登錄 Google 帳戶，這對隱私來說不是很好。 可以使用替代客戶端，如 Aurora Store 來解決這個問題。
 
-!!! 推薦
+!!! recommendation
 
     ![Aurora Store logo](assets/img/android/aurora-store.webp){ align=right }
     
@@ -347,7 +314,7 @@ Aurora Store不允許其匿名帳戶下載付費應用程式。 您可以選擇�
 
 ### 手動使用 RSS 通知
 
-在GitHub和GitLab 等平台上發布的應用程式，也可在 [新聞聚合器](/news-aggregators) ，添加一個 RSS源，有助於追踪新版本消息。
+For apps that are released on platforms like GitHub and GitLab, you may be able to add an RSS feed to your [news aggregator](news-aggregators.md) that will help you keep track of new releases.
 
 ![RSS APK](./assets/img/android/rss-apk-light.png#only-light) ![RSS APK](./assets/img/android/rss-apk-dark.png#only-dark) ![APK Changes](./assets/img/android/rss-changes-light.png#only-light) ![APK Changes](./assets/img/android/rss-changes-dark.png#only-dark)
 

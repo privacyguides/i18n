@@ -120,11 +120,9 @@ Nix是一个基于源代码的软件包管理器；如果在二进制缓存中�
 
 Whonix旨在作为两个虚拟机运行：一个 "工作站 "和一个Tor "网关"。 工作站的所有通信都必须通过Tor网关。 这意味着，即使工作站被某种恶意软件入侵，真实的IP地址仍然是隐藏的。
 
-它的一些功能包括Tor流隔离， [按键匿名化](https://www.whonix.org/wiki/Keystroke_Deanonymization#Kloak)， [加密的交换](https://github.com/Whonix/swap-file-creator)，以及一个加固的内存分配器。
+Some of its features include Tor Stream Isolation, [keystroke anonymization](https://www.whonix.org/wiki/Keystroke_Deanonymization#Kloak), [encrypted swap](https://github.com/Whonix/swap-file-creator), and a hardened memory allocator. Future versions of Whonix will likely include [full system AppArmor policies](https://github.com/Whonix/apparmor-profile-everything) and a [sandbox app launcher](https://www.whonix.org/wiki/Sandbox-app-launcher) to fully confine all processes on the system.
 
-Whonix的未来版本可能包括 [全系统AppArmor策略](https://github.com/Whonix/apparmor-profile-everything) 和 [沙盒应用程序启动器](https://www.whonix.org/wiki/Sandbox-app-launcher) ，以完全限制系统上的所有进程。
-
-[Whonix最好与Qubes](https://www.whonix.org/wiki/Qubes/Why_use_Qubes_over_other_Virtualizers)，Qubes-Whonix与其他管理程序相比有各种 [，缺点](https://forums.whonix.org/t/qubes-whonix-security-disadvantages-help-wanted/8581)。
+Whonix is best used [in conjunction with Qubes](https://www.whonix.org/wiki/Qubes/Why_use_Qubes_over_other_Virtualizers). We have a [recommended guide](os/qubes-overview.md#connecting-to-tor-via-a-vpn) on configuring Whonix in conjunction with a VPN ProxyVM in Qubes to hide your Tor activities from your ISP.
 
 ### Tails
 

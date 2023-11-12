@@ -17,10 +17,10 @@ description: Privacy Guides הוא האתר השקוף והאמין ביותר �
 
 <div class="grid cards annotate" markdown>
 
-- ![Tor Browser logo](assets/img/browsers/tor.svg){ .twemoji } [Tor Browser](tor.md#tor-browser)
-- ![Orbot logo](assets/img/self-contained-networks/orbot.svg){ .twemoji } [Orbot (Smartphone Tor Proxy)](tor.md#orbot)
-- ![Onion Browser logo](assets/img/self-contained-networks/onion_browser.svg){ .twemoji } [Onion Browser (Tor for iOS)](tor.md#onion-browser)
-- ![Snowflake logo](assets/img/browsers/snowflake.svg#only-light){ .twemoji }![Snowflake logo](assets/img/browsers/snowflake-dark.svg#only-dark){ .twemoji } [Snowflake](tor.md#snowflake) (1)
+- ![Tor Browser לוגו](assets/img/browsers/tor.svg){ .twemoji } [Tor Browser](tor.md#tor-browser)
+- ![Orbot לוגו](assets/img/self-contained-networks/orbot.svg){ .twemoji } [Orbot (Smartphone Tor Proxy)](tor.md#orbot)
+- ![Onion Browser לוגו](assets/img/self-contained-networks/onion_browser.svg){ .twemoji } [Onion Browser (Tor for iOS)](tor.md#onion-browser)
+- ![Snowflake לוגו](assets/img/browsers/snowflake.svg#only-light){ .twemoji }![Snowflake logo](assets/img/browsers/snowflake-dark.svg#only-dark){ .twemoji } [Snowflake](tor.md#snowflake) (1)
 
 </div>
 
@@ -118,10 +118,10 @@ description: Privacy Guides הוא האתר השקוף והאמין ביותר �
 
 <div class="grid cards" markdown>
 
-- ![Proton Mail logo](assets/img/email/protonmail.svg){ .twemoji } [Proton Mail](email.md#proton-mail)
-- ![Mailbox.org logo](assets/img/email/mailboxorg.svg){ .twemoji } [Mailbox.org](email.md#mailboxorg)
-- ![Skiff Mail logo](assets/img/email/skiff-mail.svg){ .twemoji } [Skiff Mail](email.md#skiff-mail)
-- ![Tuta logo](assets/img/email/tuta.svg){ .twemoji } [Tuta](email.md#tuta)
+- ![Proton Mail לוגו](assets/img/email/protonmail.svg){ .twemoji } [Proton Mail](email.md#proton-mail)
+- ![Mailbox.org לוגו](assets/img/email/mailboxorg.svg){ .twemoji } [Mailbox.org](email.md#mailboxorg)
+- ![Skiff Mail לוגו](assets/img/email/skiff-mail.svg){ .twemoji } [Skiff Mail](email.md#skiff-mail)
+- ![Tuta לוגו](assets/img/email/tuta.svg){ .twemoji } [Tuta](email.md#tuta)
 
 </div>
 
@@ -157,6 +157,7 @@ description: Privacy Guides הוא האתר השקוף והאמין ביותר �
 
 ![Privacy.com לוגו](assets/img/financial-services/privacy_com.svg#only-light){ .twemoji }![Privacy.com לוגו](assets/img/financial-services/privacy_com-dark.svg#only-dark){ .twemoji } [Privacy.com](financial-services.md#privacycom-us)
 - ![MySudo לוגו](assets/img/financial-services/mysudo.svg#only-light){ .twemoji }![MySudo לוגו](assets/img/financial-services/mysudo-dark.svg#only-dark){ .twemoji } [MySudo](financial-services.md#mysudo-us-paid)
+
 </div>
 
 [למד עוד :material-arrow-right-drop-circle:](financial-services.md#payment-masking-services)
@@ -212,8 +213,8 @@ description: Privacy Guides הוא האתר השקוף והאמין ביותר �
 
 <div class="grid cards" markdown>
 
-- ![Tuta logo](assets/img/calendar/tuta.svg){ .twemoji } [Tuta](calendar.md#tuta)
-- ![Proton Calendar logo](assets/img/calendar/proton-calendar.svg){ .twemoji } [Proton Calendar](calendar.md#proton-calendar)
+- ![Tuta לוגו](assets/img/calendar/tuta.svg){ .twemoji } [Tuta](calendar.md#tuta)
+- ![Proton Calendar לוגו](assets/img/calendar/proton-calendar.svg){ .twemoji } [Proton Calendar](calendar.md#proton-calendar)
 
 </div>
 
@@ -432,7 +433,6 @@ description: Privacy Guides הוא האתר השקוף והאמין ביותר �
 - ![Obtainium logo](assets/img/android/obtainium.svg){ .twemoji } [Obtainium (App Manager)](android.md#obtainium)
 - ![Aurora Store logo](assets/img/android/aurora-store.webp){ .twemoji } [Aurora Store (Google Play Client)](android.md#aurora-store)
 - ![Shelter logo](assets/img/android/mini/shelter.svg){ .twemoji } [Shelter (Work Profiles)](android.md#shelter)
-- ![Auditor logo](assets/img/android/auditor.svg#only-light){ .twemoji }![Auditor logo](assets/img/android/auditor-dark.svg#only-dark){ .twemoji } [Auditor (Supported Devices)](android.md#auditor)
 - ![Secure Camera logo](assets/img/android/secure_camera.svg#only-light){ .twemoji }![Secure Camera logo](assets/img/android/secure_camera-dark.svg#only-dark){ .twemoji } [Secure Camera](android.md#secure-camera)
 - ![Secure PDF Viewer logo](assets/img/android/secure_pdf_viewer.svg#only-light){ .twemoji }![Secure PDF Viewer logo](assets/img/android/secure_pdf_viewer-dark.svg#only-dark){ .twemoji } [Secure PDF Viewer](android.md#secure-pdf-viewer)
 
@@ -468,3 +468,21 @@ description: Privacy Guides הוא האתר השקוף והאמין ביותר �
 </div>
 
 [למד עוד :material-arrow-right-drop-circle:](router.md)
+
+## כלים מתקדמים
+
+כלים אלה עשויים לספק שימוש עבור אנשים מסוימים. הם מספקים פונקציונליות שרוב האנשים לא צריכים לדאוג לגביה, ולעתים קרובות דורשים ידע טכני מעמיק יותר כדי לנצל ביעילות.
+
+### אימות תקינות המכשיר
+
+<div class="grid cards" markdown>
+
+- ![MVT logo](assets/img/device-integrity/mvt.webp){ .twemoji } [Mobile Verification Toolkit](device-integrity.md#mobile-verification-toolkit)
+- ![iMazing logo](assets/img/device-integrity/imazing.png){ .twemoji } [iMazing (iOS)](device-integrity.md#imazing-ios)
+- ![Auditor logo](assets/img/device-integrity/auditor.svg#only-light){ .twemoji }![Auditor logo](assets/img/device-integrity/auditor-dark.svg#only-dark){ .twemoji } [Auditor (Android)](device-integrity.md#auditor-android)
+- ![Hypatia logo](assets/img/device-integrity/hypatia.svg#only-light){ .twemoji }![Hypatia logo](assets/img/device-integrity/hypatia-dark.svg#only-dark){ .twemoji } [Hypatia (Android)](device-integrity.md#hypatia-android)
+- ![iVerify logo](assets/img/device-integrity/iverify.webp){ .twemoji } [iVerify (iOS)](device-integrity.md#iverify-ios)
+
+</div>
+
+[למד עוד :material-arrow-right-drop-circle:](device-integrity.md)

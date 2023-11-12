@@ -39,7 +39,15 @@ Tor的工作原理是通过这些志愿者操作的服务器路由您的互联�
 
 ## 连接到Tor
 
-有多种方法可以从您的设备连接到Tor网络，最常用的是 **Tor浏览器**，这是Firefox的一个分支，专为桌面计算机和Android的匿名浏览而设计。 除了下面列出的应用程序，还有专门设计用于连接到Tor网络的操作系统，例如 [Whonix](desktop.md#whonix) on [Qubes OS](desktop.md#qubes-os)，它提供了比标准Tor浏览器更高的安全性和保护。
+!!! tip
+
+    Before connecting to Tor, please ensure you've read our [overview](advanced/tor-overview.md) on what Tor is and how to connect to it safely. We often recommend connecting to Tor through a trusted [VPN provider](vpn.md), but you have to do so **properly** to avoid decreasing your anonymity.
+
+有多种方法可以从您的设备连接到Tor网络，最常用的是 **Tor浏览器**，这是Firefox的一个分支，专为桌面计算机和Android的匿名浏览而设计。
+
+Some of these apps are better than others, and again making a determination comes down to your threat model. If you are a casual Tor user who is not worried about your ISP collecting evidence against you, using apps like [Orbot](#orbot) or mobile browser apps to access the Tor network is probably fine. Increasing the number of people who use Tor on an everyday basis helps reduce the bad stigma of Tor, and lowers the quality of "lists of Tor users" that ISPs and governments may compile.
+
+If more complete anonymity is paramount to your situation, you should **only** be using the desktop Tor Browser client, ideally in a [Whonix](desktop.md#whonix) + [Qubes](desktop.md#qubes-os) configuration. Mobile browsers are less common on Tor (and more fingerprintable as a result), and other configurations are not as rigorously tested against deanonymization.
 
 ### Tor浏览器
 
@@ -68,6 +76,8 @@ Tor的工作原理是通过这些志愿者操作的服务器路由您的互联�
     You should **never** install any additional extensions on Tor Browser or edit `about:config` settings, including the ones we suggest for Firefox. Browser extensions and non-standard settings make you stand out from others on the Tor network, thus making your browser easier to [fingerprint](https://support.torproject.org/glossary/browser-fingerprinting).
 
 Tor浏览器旨在防止指纹识别，或根据您的浏览器配置识别您。 Therefore, it is imperative that you do **not** modify the browser beyond the default [security levels](https://tb-manual.torproject.org/security-settings/).
+
+In addition to installing Tor Browser on your computer directly, there are also operating systems designed specifically to connect to the Tor network such as [Whonix](desktop.md#whonix) on [Qubes OS](desktop.md#qubes-os), which provide even greater security and protections than the standard Tor Browser alone.
 
 ### Orbot
 

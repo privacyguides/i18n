@@ -88,7 +88,7 @@ Truecrypt [נבדק מספר פעמים](https://en.wikipedia.org/wiki/TrueCrypt
 
 ## הצפנת דיסק מלא של מערכת ההפעלה
 
-For encrypting the drive your operating system boots from, we generally recommend enabling the encryption software that comes with your operating system rather than using a third-party tool. This is because your operating system's native encryption tools often make use of OS and hardware-specific features like the [secure cryptoprocessor](https://en.wikipedia.org/wiki/Secure_cryptoprocessor) in your device to protect your computer against more advanced physical attacks. For secondary drives and external drives which you *don't* boot from, we still recommend using open-source tools like [VeraCrypt](#veracrypt-disk) over the tools below, because they offer additional flexibility and let you avoid vendor lock-in.
+להצפנת הכונן שמערכת ההפעלה שלך מאתחלת ממנו, אנו ממליצים בדרך כלל להפעיל את תוכנת ההצפנה שמגיעה עם מערכת ההפעלה שלך במקום להשתמש בכלי של צד שלישי. הסיבה לכך היא שכלי ההצפנה המקוריים של מערכת ההפעלה שלך עושים לעתים קרובות שימוש בתכונות ספציפיות למערכת ההפעלה ולחומרה כמו [מעבד ההצפנה המאובטח](https://en.wikipedia.org/wiki/Secure_cryptoprocessor) במכשיר שלך כדי להגן על המחשב שלך מפני התקפות פיזיות מתקדמות יותר. עבור כוננים משניים וכוננים חיצוניים שאתה *אינך* מאתחל מהם, אנו עדיין ממליצים להשתמש בכלי קוד פתוח כמו [VeraCrypt](#veracrypt-disk) על הכלים שלהלן, מכיוון שהם מציעים גמישות נוספת ומאפשרים לך להימנע מנעילת ספקים.
 
 ### BitLocker
 
@@ -96,7 +96,7 @@ For encrypting the drive your operating system boots from, we generally recommen
 
     ![BitLocker לוגו](assets/img/encryption-software/bitlocker.png){ align=right }
     
-    **BitLocker** הוא פתרון ההצפנה המלא המצורף ל-Microsoft Windows. The main reason we recommend it for encrypting your boot drive is because of its [use of TPM](https://docs.microsoft.com/en-us/windows/security/information-protection/tpm/how-windows-uses-the-tpm). ElcomSoft, a forensics company, has written about this feature in [Understanding BitLocker TPM Protection](https://blog.elcomsoft.com/2021/01/understanding-BitLocker-tpm-protection/).
+    **BitLocker** הוא פתרון ההצפנה המלא המצורף ל-Microsoft Windows. הסיבה העיקרית שאנו ממליצים עליה להצפנת כונן האתחול שלך היא בגלל [השימוש ב-TPM](https://docs.microsoft.com/en-us/windows/security/information-protection/tpm/how-windows-uses-the-tpm). ElcomSoft, חברה לזיהוי פלילי, כתבה על תכונה זו ב-[הבנת BitLocker TPM Protection](https://blog.elcomsoft.com/2021/01/understanding-BitLocker-tpm-protection/).
     
     [:octicons-info-16:](https://docs.microsoft.com/en-us/windows/security/information-protection/BitLocker/BitLocker-overview){ .card-link title=תיעוד}
 
@@ -104,7 +104,7 @@ BitLocker [ נתמך רק](https://support.microsoft.com/en-us/windows/turn-on-d
 
 ??? example "הפעלת BitLocker ב-Windows Home""
 
-    כדי להפעיל את BitLocker במהדורות "בית" של Windows, חייבות להיות לך מחיצות מעוצבות עם [טבלת מחיצות GUID](https://en.wikipedia.org/wiki/GUID_Partition_Table) ובעלות TPM ייעודי (v1.2, 2.0+) מודול. You may need to [disable the non-Bitlocker "Device encryption" functionality](https://discuss.privacyguides.net/t/enabling-bitlocker-on-the-windows-11-home-edition/13303/5) (which is inferior because it sends your recovery key to Microsoft's servers) if it is enabled on your device already before following this guide.
+    כדי להפעיל את BitLocker במהדורות "בית" של Windows, חייבות להיות לך מחיצות מעוצבות עם [טבלת מחיצות GUID](https://en.wikipedia.org/wiki/GUID_Partition_Table) ובעלות TPM ייעודי (v1.2, 2.0+) מודול. ייתכן שיהיה עליך [להשבית את הפונקציונליות של "הצפנת מכשיר" שאינה של Bitlocker](https://discuss.privacyguides.net/t/enabling-bitlocker-on-the-windows-11-home-edition/13303/5) ( שהוא נחות מכיוון שהוא שולח את מפתח השחזור שלך לשרתים של מיקרוסופט) אם הוא מופעל במכשיר שלך כבר לפני ביצוע המדריך הזה.
 
     1. פתח שורת פקודה ובדוק את תבנית טבלת המחיצות של הכונן באמצעות הפקודה הבאה. אתה אמור לראות את "**GPT**" ברשימה תחת "סגנון מחיצה":
 
@@ -346,7 +346,7 @@ BitLocker [ נתמך רק](https://support.microsoft.com/en-us/windows/turn-on-d
 
 ### כישורים מינימליים
 
-- Cross-platform encryption apps must be open source.
+- אפליקציות הצפנה חוצות פלטפורמות חייבות להיות בקוד פתוח.
 - אפליקציות להצפנת קבצים חייבות לתמוך בפענוח ב-Linux, macOS ו-Windows.
 - אפליקציות להצפנת דיסק חיצוני חייבות לתמוך בפענוח ב-Linux, macOS ו-Windows.
 - אפליקציות להצפנת דיסק פנימי (OS) חייבות להיות חוצות פלטפורמות או מובנות במערכת ההפעלה באופן מקורי.

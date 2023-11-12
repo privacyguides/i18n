@@ -236,7 +236,7 @@ Skiff Mail אינו מציע תכונה דיגיטלית מדור קודם.
         - [:simple-linux: Linux](https://tuta.com/#download)
         - [:octicons-browser-16: Web](https://app.tuta.com/)
 
-Tuta doesn't support the [IMAP protocol](https://tuta.com/faq/#imap) or the use of third-party [email clients](email-clients.md), and you also won't be able to add [external email accounts](https://github.com/tutao/tutanota/issues/544#issuecomment-670473647) to the Tuta app. Neither [Email import](https://github.com/tutao/tutanota/issues/630) or [subfolders](https://github.com/tutao/tutanota/issues/927) are currently supported, though this is [due to be changed](https://tuta.com/blog/posts/kickoff-import). Emails can be exported [individually or by bulk selection](https://tuta.com/howto#generalMail) per folder, which may be inconvenient if you have many folders.
+Tuta אינו תומך ב[פרוטוקול IMAP](https://tuta.com/faq/#imap) או בשימוש ב[ של צד שלישי לקוחות אימייל](email-clients.md), וגם לא תוכל להוסיף [חשבונות אימייל חיצוניים](https://github.com/tutao/tutanota/issues/544#issuecomment-670473647) לאפליקציית Tuta. Neither [Email import](https://github.com/tutao/tutanota/issues/630) or [subfolders](https://github.com/tutao/tutanota/issues/927) are currently supported, though this is [due to be changed](https://tuta.com/blog/posts/kickoff-import). Emails can be exported [individually or by bulk selection](https://tuta.com/howto#generalMail) per folder, which may be inconvenient if you have many folders.
 
 #### :material-check:{ .pg-green } דומיינים וכינויים מותאמים אישית
 
@@ -260,15 +260,15 @@ Tuta [does not use OpenPGP](https://tuta.com/support/#pgp). Tuta accounts can on
 
 #### :material-information-outline:{ .pg-blue } סגירת חשבון
 
-Tuta will [delete inactive free accounts](https://tuta.com/faq#inactive-accounts) after six months. אם ברצונך לשלם, באפשרותך להשתמש שוב בחשבון חינמי שהושבת.
+Tuta [ימחק חשבונות בחינם לא פעילים](https://tuta.com/faq#inactive-accounts) לאחר שישה חודשים. אם ברצונך לשלם, באפשרותך להשתמש שוב בחשבון חינמי שהושבת.
 
 #### :material-information-outline:{ .pg-blue } פונקציונליות נוספת
 
-Tuta offers the business version of [Tuta to non-profit organizations](https://tuta.com/blog/posts/secure-email-for-non-profit) for free or with a heavy discount.
+Tuta מציעה את הגרסה העסקית של [Tuta לארגונים ללא מטרות רווח](https://tuta.com/blog/posts/secure-email-for-non-profit) בחינם או בהנחה כבדה.
 
-Tuta also has a business feature called [Secure Connect](https://tuta.com/secure-connect/). זה מבטיח שיצירת קשר עם הלקוח לעסק משתמשת ב- E2EE. התכונה עולה 240 אירו לשנה.
+ל-Tuta יש גם תכונה עסקית בשם [חיבור מאובטח](https://tuta.com/secure-connect/). זה מבטיח שיצירת קשר עם הלקוח לעסק משתמשת ב- E2EE. התכונה עולה 240 אירו לשנה.
 
-Tuta doesn't offer a digital legacy feature.
+Tuta אינו מציע תכונה מורשת דיגיטלית.
 
 ## שירותי כינוי דוא"ל
 
@@ -494,7 +494,7 @@ SimpleLogin [נרכשה על ידי Proton AG](https://proton.me/news/proton-and
 - טענות של "הצפנה בלתי שבירה " יש להשתמש בהצפנה מתוך כוונה שהיא לא תהיה סודית בעתיד כאשר הטכנולוגיה קיימת כדי לפצח אותה.
 - ביצוע ערבויות של הגנה על 100% אנונימיות. כשמישהו טוען שמשהו הוא 100% זה אומר שאין ודאות לכישלון. אנחנו יודעים שאנשים יכולים בקלות להפוך את עצמם לאיאנונימיים במספר דרכים, למשל.:
 
-    - Reusing personal information e.g. (email accounts, unique pseudonyms, etc.) that they accessed without anonymity software (Tor, VPN, etc.)
+    - שימוש חוזר במידע אישי, למשל. (חשבונות אימיילים, שמות בדויים ייחודיים וכו') שאליהם הם ניגשו ללא תוכנת אנונימיות (Tor, VPN וכו')
     - [טביעת אצבע של דפדפן](https://en.wikipedia.org/wiki/Device_fingerprint#Browser_fingerprint)
 
 **המקרה הטוב ביותר:**
