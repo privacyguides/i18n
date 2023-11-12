@@ -23,53 +23,53 @@ Como ya [generalmente recomendamos](../basics/vpn-overview.md) que la gran mayor
 
 Conectarse directamente a Tor hará que tu conexión destaque ante cualquier administrador de red local o tu ISP. Detectar y correlacionar este tráfico [se ha hecho](https://edition.cnn.com/2013/12/17/justice/massachusetts-harvard-hoax/) en el pasado por administradores de red para identificar y desanonimizar usuarios Tor específicos en su red. Por otra parte, conectarse a una VPN es casi siempre menos sospechoso, porque los proveedores comerciales de VPN son utilizados por los consumidores cotidianos para una variedad de tareas mundanas como eludir las restricciones geográficas, incluso en países con fuertes restricciones de Internet.
 
-Therefore, you should make an effort to hide your IP address **before** connecting to the Tor network. You can do this by simply connecting to a VPN (through a client installed on your computer) and then accessing [Tor](../tor.md) as normal, through Tor Browser for example. This creates a connection chain like:
+Por lo tanto, debes hacer un esfuerzo para ocultar tu dirección IP **antes de** conectarte a la red Tor. Puedes hacerlo simplemente conectándote a una VPN (a través de un cliente instalado en tu ordenador) y luego accediendo a [Tor](../tor.md) de forma normal, a través de Tor Browser, por ejemplo. Esto crea una cadena de conexión como:
 
-- [x] You → VPN → Tor → Internet
+- [x] Tú → VPN → Tor → Internet
 
-From your ISP's perspective, it looks like you're accessing a VPN normally (with the associated cover that provides you). From your VPN's perspective, they can see that you are connecting to the Tor network, but nothing about what websites you're accessing. From Tor's perspective, you're connecting normally, but in the unlikely event of some sort of Tor network compromise, only your VPN's IP would be exposed, and your VPN would *additionally* have to be compromised to deanonymize you.
+Desde la perspectiva de tu ISP, parece que estás accediendo normalmente a una VPN (con la cobertura asociada que te proporciona). Desde la perspectiva de tu VPN, pueden ver que te estás conectando a la red Tor, pero nada sobre a qué sitios web estás accediendo. Desde la perspectiva de Tor, te estás conectando normalmente, pero en el improbable caso de algún tipo de compromiso de la red Tor, sólo la IP de tu VPN estaría expuesta, y tu VPN *adicionalmente* tendría que ser comprometida para desanonimizarte.
 
-This is **not** censorship circumvention advice, because if Tor is blocked entirely by your ISP, your VPN likely is as well. Rather, this recommendation aims to make your traffic blend in better with commonplace VPN user traffic, and provide you with some level of plausible deniability by obscuring the fact that you're connecting to Tor from your ISP.
-
----
-
-We **very strongly discourage** combining Tor with a VPN in any other manner. Do not configure your connection in a way which resembles any of the following:
-
-- You → Tor → VPN → Internet
-- You → VPN → Tor → VPN → Internet
-- Any other configuration
-
-Some VPN providers and other publications will occasionally recommend these **bad** configurations to evade Tor bans (exit nodes being blocked by websites) in some places. [Normally](https://support.torproject.org/#about_change-paths), Tor frequently changes your circuit path through the network. When you choose a permanent *destination* VPN (connecting to a VPN server *after* Tor), you're eliminating this advantage and drastically harming your anonymity.
-
-Setting up bad configurations like these is difficult to do accidentally, because it usually involves either setting up custom proxy settings inside Tor Browser, or setting up custom proxy settings inside your VPN client which routes your VPN traffic through the Tor Browser. As long as you avoid these non-default configurations, you're probably fine.
+Esto **no** es un consejo para eludir la censura, porque si Tor está bloqueado completamente por tu ISP, tu VPN probablemente también lo esté. Más bien, esta recomendación tiene como objetivo hacer que tu tráfico se mezcle mejor con el tráfico común de usuarios VPN, y proporcionarte un cierto nivel de negación plausible ocultando el hecho de que se está conectando a Tor a tu ISP.
 
 ---
 
-!!! info "VPN/SSH Fingerprinting"
+Nosotros **desaconsejamos encarecidamente** combinar Tor con una VPN de cualquier otra manera. No configures tu conexión de forma que se parezca a ninguna de las siguientes:
 
-    The Tor Project [notes](https://gitlab.torproject.org/legacy/trac/-/wikis/doc/TorPlusVPN#vpnssh-fingerprinting) that *theoretically* using a VPN to hide Tor activities from your ISP may not be foolproof. VPNs have been found to be vulnerable to website traffic fingerprinting, where an adversary can still guess what website is being visited, because all websites have specific traffic patterns.
+- Tú → Tor → VPN → Internet
+- Tú → VPN → Tor → VPN → Internet
+- Cualquier otra configuración
+
+Algunos proveedores de VPN y otras publicaciones recomendarán ocasionalmente estas **malas** configuraciones para evadir las prohibiciones de Tor (nodos de salida bloqueados por sitios web) en algunos lugares. [Normalmente](https://support.torproject.org/#about_change-paths), Tor cambia frecuentemente la ruta de tu circuito a través de la red. Cuando eliges una VPN de *destino* permanente (conectándote a un servidor VPN *después de* Tor), estás eliminando esta ventaja y perjudicando drásticamente tu anonimato.
+
+Es difícil establecer malas configuraciones como estas accidentalmente, porque normalmente implica establecer configuraciones proxy personalizadas dentro del Navegador Tor, o establecer configuraciones proxy personalizadas dentro de tu cliente VPN que enruta tu tráfico VPN a través de Tor Browser. Mientras evites estas configuraciones no predeterminadas, probablemente estarás bien.
+
+---
+
+!!! info "Huella digital VPN/SSH"
+
+    El Proyecto Tor [notes](https://gitlab.torproject.org/legacy/trac/-/wikis/doc/TorPlusVPN#vpnssh-fingerprinting) que *teóricamente* usar una VPN para ocultar las actividades Tor de tu ISP puede no ser infalible. Se ha descubierto que las VPN son vulnerables a las huellas digitales de tráfico de sitios web, en las que un adversario puede adivinar qué sitio web se está visitando, ya que todos los sitios web tienen patrones de tráfico específicos.
     
-    Therefore, it's not unreasonable to believe that encrypted Tor traffic hidden by a VPN could also be detected via similar methods. There are no research papers on this subject, and we still consider the benefits of using a VPN to far outweigh these risks, but it is something to keep in mind.
+    Por lo tanto, no es descabellado creer que el tráfico Tor encriptado oculto por una VPN también podría ser detectado mediante métodos similares. No existen trabajos de investigación sobre este tema, y seguimos considerando que las ventajas de utilizar una VPN superan con creces estos riesgos, pero es algo a tener en cuenta.
     
-    If you still believe that pluggable transports (bridges) provide additional protection against website traffic fingerprinting that a VPN does not, you always have the option to use a bridge **and** a VPN in conjunction.
+    Si todavía crees que los "pluggable transports" (puentes) proporcionan una protección adicional contra la huella digital del tráfico del sitio web que una VPN no proporciona, siempre tienes la opción de utilizar un puente **y** una VPN conjuntamente.
 
-Determining whether you should first use a VPN to connect to the Tor network will require some common sense and knowledge of your own government's and ISP's policies relating to what you're connecting to. However, again in most cases you will be better off being seen as connecting to a commercial VPN network than directly to the Tor network. If VPN providers are censored in your area, then you can also consider using Tor pluggable transports (e.g. Snowflake or meek bridges) as an alternative, but using these bridges may arouse more suspicion than standard WireGuard/OpenVPN tunnels.
+Determinar si deberías usar primero una VPN para conectarte a la red Tor requerirá algo de sentido común y conocimiento de las políticas de tu propio gobierno e ISP en relación a lo que te estás conectando. Sin embargo, de nuevo, en la mayoría de los casos será mejor que te vean conectándose a una red VPN comercial que directamente a la red Tor. Si los proveedores VPN están censurados en tu área, entonces también puedes considerar usar "pluggable transports" Tor (p.e. Snowflake o meek bridges) como alternativa, pero usar estos puentes puede levantar más sospechas que los túneles estándar WireGuard/OpenVPN.
 
-## What Tor is Not
+## Qué No es Tor
 
-The Tor network is not the perfect privacy protection tool in all cases, and has a number of drawbacks which should be carefully considered. These things should not discourage you from using Tor if it is appropriate for your needs, but they are still things to think about when deciding which solution is most appropriate for you.
+La red Tor no es la herramienta perfecta de protección de la privacidad en todos los casos, y tiene una serie de inconvenientes que deben ser considerados cuidadosamente. Estas cosas no deberían disuadirte de usar Tor si es apropiado para tus necesidades, pero siguen siendo cosas en las que pensar cuando decidas qué solución es la más apropiada para ti.
 
-### Tor is not a free VPN
+### Tor no es una VPN gratuita
 
-The release of the *Orbot* mobile app has lead many people to describe Tor as a "free VPN" for all of your device traffic. However, treating Tor like this poses some dangers compared to a typical VPN.
+El lanzamiento de la aplicación móvil *Orbot* ha llevado a mucha gente a describir Tor como una "VPN gratuita" para todo el tráfico de su dispositivo. Sin embargo, tratar Tor de esta manera plantea algunos peligros en comparación con una VPN típica.
 
-Unlike Tor exit nodes, VPN providers are usually not *actively* [malicious](#caveats). Because Tor exit nodes can be created by anybody, they are hotspots for network logging and modification. In 2020, many Tor exit nodes were documented to be downgrading HTTPS traffic to HTTP in order to [hijack cryptocurrency transactions](https://therecord.media/thousands-of-tor-exit-nodes-attacked-cryptocurrency-users-over-the-past-year). Other exit node attacks such as replacing downloads via unencrypted channels with malware have also been observed. HTTPS does mitigate these threats to an extent.
+A diferencia de los nodos de salida de Tor, los proveedores de VPN no suelen ser *activamente* [maliciosos](#caveats). Dado que los nodos de salida de Tor pueden ser creados por cualquiera, son puntos calientes para el registro y modificación de la red. En 2020, se documentó que muchos nodos de salida de Tor degradaban el tráfico HTTPS a HTTP para [secuestrar transacciones de criptomonedas](https://therecord.media/thousands-of-tor-exit-nodes-attacked-cryptocurrency-users-over-the-past-year). También se han observado otros ataques a nodos de salida, como la sustitución de descargas a través de canales no cifrados por malware. HTTPS mitiga estas amenazas hasta cierto punto.
 
-As we've alluded to already, Tor is also easily identifiable on the network. Unlike an actual VPN provider, using Tor will make you stick out as a person likely attempting to evade authorities. In a perfect world, Tor would be seen by network administrators and authorities as a tool with many uses (like how VPNs are viewed), but in reality the perception of Tor is still far less legitimate than the perception of commercial VPNs, so using a real VPN provides you with plausible deniability, e.g. "I was just using it to watch Netflix," etc.
+Como ya hemos aludido, Tor también es fácilmente identificable en la red. A diferencia de un proveedor VPN real, usar Tor te hará destacar como una persona que probablemente intenta evadir a las autoridades. En un mundo perfecto, Tor sería visto por los administradores de red y las autoridades como una herramienta con muchos usos (como se ven las VPN), pero en realidad la percepción de Tor sigue siendo mucho menos legítima que la percepción de las VPN comerciales, por lo que usar una VPN real te proporciona una negación plausible, por ejemplo, "solo la estaba usando para ver Netflix", etc.
 
-### Tor usage is not undetectable
+### El uso de Tor no es indetectable
 
-**Even if you use bridges and pluggable transports,** the Tor Project provides no tools to hide the fact that you are using Tor from your ISP. Even using obfuscated "pluggable transports" or non-public bridges do not hide the fact that you are using a private communications channel. The most popular pluggable transports like obfs4 (which obfuscates your traffic to "look like nothing") and meek (which uses domain fronting to camouflage your traffic) can be [detected](https://www.hackerfactor.com/blog/index.php?/archives/889-Tor-0day-Burning-Bridges.html) with fairly standard traffic analysis techniques. Snowflake has similar issues, and can be [easily detected](https://www.hackerfactor.com/blog/index.php?/archives/944-Tor-0day-Snowflake.html) *before* a Tor connection is even established.
+**Incluso si usas puentes y transportes conectables (pluggable transports),** el Proyecto Tor no proporciona herramientas para ocultar a tu ISP el hecho de que estás usando Tor. Ni siquiera el uso de "transportes conectables" ofuscados o puentes no públicos ocultan el hecho de que se está utilizando un canal de comunicaciones privado. Los transportes conectables más populares como obfs4 (que ofusca tu tráfico para que "parezca nada") y meek (que utiliza "domain fronting" para camuflar tu tráfico) pueden ser [detectados](https://www.hackerfactor.com/blog/index.php?/archives/889-Tor-0day-Burning-Bridges.html) con técnicas de análisis de tráfico bastante estándar. Snowflake tiene problemas similares, y puede ser [fácilmente detectado](https://www.hackerfactor.com/blog/index.php?/archives/944-Tor-0day-Snowflake.html) *antes de que* se establezca una conexión Tor.
 
 Pluggable transports other than these three do exist, but typically rely on security through obscurity to evade detection. They aren't impossible to detect, they are just used by so few people that it's not worth the effort building detectors for them. They shouldn't be relied upon if you specifically are being monitored.
 
