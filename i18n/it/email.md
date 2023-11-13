@@ -276,8 +276,8 @@ Un servizio di alias dell'email ti consente di generare facilmente un nuovo indi
 
 <div class="grid cards" markdown>
 
-- ![logo di addy.io](assets/img/email/mini/addy.svg){ .twemoji } [addy.io](email.md#addyio)
-- ![logo di SimpleLogin](assets/img/email/simplelogin.svg){ .twemoji } [SimpleLogin](email.md#simplelogin)
+- ![Logo di addy.io](assets/img/email/mini/addy.svg){ .twemoji } [addy.io](email.md#addyio)
+- ![Logo di SimpleLogin](assets/img/email/simplelogin.svg){ .twemoji } [SimpleLogin](email.md#simplelogin)
 
 </div>
 
@@ -302,8 +302,8 @@ Utilizzare un servizio di alias richiede di affidare i tuoi messaggi crittografa
 
 !!! recommendation
 
-    ![logo di addy.io](assets/img/email/addy.svg#only-light){ align=right }
-    ![logo di addy.io](assets/img/email/addy-dark.svg#only-dark){ align=right }
+    ![Logo di addy.io](assets/img/email/addy.svg#only-light){ align=right }
+    ![Logo di addy.io](assets/img/email/addy-dark.svg#only-dark){ align=right }
     
     **addy.io** ti consente di creare gratuitamente 10 alias di dominio su un dominio condiviso, oppure alias "standard" illimitati, meno anonimi.
     
@@ -327,7 +327,7 @@ Funzionalità gratuite degne di nota:
 - [x] 10 alias condivisi
 - [x] Alias standard illimitati
 - [ ] Non sono possibili le risposte in uscita
-- [x] 1 Caselle email dei destinatari
+- [x] 1 Casella email del destinatario
 - [x] Crittografia automatica PGP
 
 ### SimpleLogin
@@ -338,10 +338,10 @@ Funzionalità gratuite degne di nota:
     
     **SimpleLogin** è un servizio gratuito che fornisce alias email su numerosi nomi di dominio condivisi e, facoltativamente, fornisce funzionalità a pagamento quali alias illimitati e domini personalizzati.
     
-    [:octicons-home-16: Homepage](https://simplelogin.io){ .md-button .md-button--primary }
-    [:octicons-eye-16:](https://simplelogin.io/privacy/){ .card-link title="Privacy Policy" }
-    [:octicons-info-16:](https://simplelogin.io/docs/){ .card-link title=Documentation}
-    [:octicons-code-16:](https://github.com/simple-login){ .card-link title="Source Code" }
+    [:octicons-home-16: Pagina Principale](https://simplelogin.io){ .md-button .md-button--primary }
+    [:octicons-eye-16:](https://simplelogin.io/privacy/){ .card-link title="Politica sulla Privacy" }
+    [:octicons-info-16:](https://simplelogin.io/docs/){ .card-link title=Documentazione}
+    [:octicons-code-16:](https://github.com/simple-login){ .card-link title="Codice sorgente" }
     
     ??? downloads "Scarica"
     
@@ -353,7 +353,7 @@ Funzionalità gratuite degne di nota:
         - [:simple-microsoftedge: Edge](https://microsoftedge.microsoft.com/addons/detail/simpleloginreceive-sen/diacfpipniklenphgljfkmhinphjlfff)
         - [:simple-safari: Safari](https://apps.apple.com/it/app/id1494051017)
 
-SimpleLogin è stata [acquisita da Proton AG](https://proton.me/news/proton-and-simplelogin-join-forces) l'8 aprile del 2022. Se utiliizzi Proton Mail per la tua casella principale, SimpleLogin è un'ottima scelta. Poiché entrambi i prodotti sono ora posseduti dalla stessa azienda, devi ora affidarti a una singola entità. Inoltre, prevediamo che SimpleLogin sarà maggiormente integrato con le offerte future di Proton. SimpleLogin continua a supportare l'inoltro a qualsiasi fornitore di email di tua scelta. Securitum ha [controllato](https://simplelogin.io/blog/security-audit/) SimpleLogin a inizio 2022 e tuttii i problemi [sono stati affrontati](https://simplelogin.io/audit2022/web.pdf).
+SimpleLogin è stata [acquisita da Proton AG](https://proton.me/news/proton-and-simplelogin-join-forces) l'8 aprile del 2022. Se utilizzi Proton Mail come tua casella di posta principale, SimpleLogin è un'ottima scelta. Poiché entrambi i prodotti sono ora posseduti dalla stessa azienda, devi ora affidarti a una singola entità. Inoltre, prevediamo che SimpleLogin sarà maggiormente integrato con le offerte future di Proton. SimpleLogin continua a supportare l'inoltro a qualsiasi fornitore di email di tua scelta. Securitum [ha revisionato](https://simplelogin.io/blog/security-audit/) SimpleLogin all'inizio del 2022 e tutti i problemi [sono stati risolti](https://simplelogin.io/audit2022/web.pdf).
 
 Puoi collegare il tuo profilo di SimpleLogin con quello di Proton nelle impostazioni. Se hai il Piano Unlimited, Business o Visionary di Proton, avrai SimpleLogin Premium gratuitamente.
 
@@ -361,7 +361,7 @@ Caratteristiche gratuite degne di nota:
 
 - [x] 10 alias condivisi
 - [x] Risposte illimitate
-- [x] 1 casella del destinatario
+- [x] 1 Casella email del destinatario
 
 ## Auto-Hosting Email
 
@@ -375,29 +375,29 @@ Gli amministratori di sistema avanzati potrebbero considerare la configurazione 
     
     **Mailcow** è un server email più avanzato, perfetto per chi ha un po' più d'esperienza con Linux. Ha tutto il necessario in un contenitore Docker: Un server email con supporto DKIM, antivirus e monitoraggio dello spam, webmail e ActiveSync con SOGo e amministrazione basata sul web con supporto A2F.
     
-    [:octicons-home-16: Homepage](https://mailcow.email){ .md-button .md-button--primary }
-    [:octicons-info-16:](https://mailcow.github.io/mailcow-dockerized-docs/){ .card-link title=Documentation}
-    [:octicons-code-16:](https://github.com/mailcow/mailcow-dockerized){ .card-link title="Source Code" }
-    [:octicons-heart-16:](https://www.servercow.de/mailcow?lang=en#sal){ .card-link title=Contribute }
+    [:octicons-home-16: Pagina Principale](https://mailcow.email){ .md-button .md-button--primary }
+    [:octicons-info-16:](https://mailcow.github.io/mailcow-dockerized-docs/){ .card-link title=Documentazione}
+    [:octicons-code-16:](https://github.com/mailcow/mailcow-dockerized){ .card-link title="Codice sorgente" }
+    [:octicons-heart-16:](https://www.servercow.de/mailcow?lang=en#sal){ .card-link title=Contribuisci }
 
-!!! consiglio
+!!! recommendation "consiglio"
 
     ![Logo di Mail-in-a-Box](assets/img/email/mail-in-a-box.svg){ align=right }
     
     **Mail-in-a-Box** è uno script di configurazione automatica per la distribuzione di un server email su Ubuntu. Il suo obiettivo è semplificare la configurazione del proprio server email alle persone.
     
-    [:octicons-home-16: Homepage](https://mailinabox.email){ .md-button .md-button--primary }
-    [:octicons-info-16:](https://mailinabox.email/guide.html){ .card-link title=Documentation}
-    [:octicons-code-16:](https://github.com/mail-in-a-box/mailinabox){ .card-link title="Source Code" }
+    [:octicons-home-16: Pagina Principale](https://mailinabox.email){ .md-button .md-button--primary }
+    [:octicons-info-16:](https://mailinabox.email/guide.html){ .card-link title=Documentazione}
+    [:octicons-code-16:](https://github.com/mail-in-a-box/mailinabox){ .card-link title="Codice sorgente" }
 
 Per un approccio più manuale, abbiamo scelto questi due articoli:
 
-- [Impostare un server di posta elettronica con OpenSMTPD, Dovecot e Rspamd](https://poolp.org/posts/2019-09-14/setting-up-a-mail-server-with-opensmtpd-dovecot-and-rspamd/) (2019)
-- [Come gestire il propio server di posta elettronica](https://www.c0ffee.net/blog/mail-server-guide/) (August 2017)
+- [Configurare un server email con OpenSMTPD, Dovecot e Rspamd](https://poolp.org/posts/2019-09-14/setting-up-a-mail-server-with-opensmtpd-dovecot-and-rspamd/) (2019)
+- [Come Gestire il Tuo Server Email](https://www.c0ffee.net/blog/mail-server-guide/) (Agosto 2017)
 
 ## Criteri
 
-**Si prega di notare che non siamo affiliati con alcun fornitore consigliato.** Oltre ai [nostri criteri standard](about/criteria.md), abbiamo sviluppato una chiara serie di requisiti per qualsiasi fornitore email che desideri essere consigliato, inclusa l'implementazione delle migliori pratiche del settore, tecnologia moderna e altro. Ti suggeriamo di familiarizzare con questo elenco prima di scegliere un fornitore email e di condurre le tue ricerche per assicurarti che il fornitore email scelto sia la scelta adeguata per te.
+**Si prega di notare che non siamo affiliati con alcun fornitore consigliato.** Oltre ai [nostri criteri standard](about/criteria.md), abbiamo sviluppato una chiara serie di requisiti per qualsiasi fornitore email che desideri essere consigliato, inclusa l'implementazione delle migliori pratiche del settore, tecnologia moderna e altro. Ti consigliamo di familiarizzare con questo elenco prima di scegliere un provider di posta elettronica e condurre le tue ricerche per assicurarti che il provider di posta elettronica che scegli sia la scelta giusta per te.
 
 ### Tecnologia
 
@@ -417,7 +417,7 @@ Consideriamo queste funzionalità come importanti per poter fornire un servizio 
 - Supporto per [WKD](https://wiki.gnupg.org/WKD) per consentire la scoperta migliorata delle chiavi pubbliche di OpenPGP tramite HTTP. Gli utenti di GnuPG possono ottenere una chiave digitando: `gpg --locate-key example_user@example.com`
 - Supporto per una casella temporanea per gli utenti esterni. Questo è utile quando desideri inviare un'email crittografata, senza inviare una copia effettiva al tuo destinatario. Queste email, solitamente, hanno una durata limitata, prima di essere eliminate automaticamente. Inoltre, non richiedono al destinatario di configurare alcuna crittografia, come OpenPGP.
 - Disponibilità dei servizi del fornitore email tramite un [servizio onion](https://en.wikipedia.org/wiki/.onion).
-- Supporto al [sottoindirizzamento](https://en.wikipedia.org/wiki/Email_address#Subaddressing).
+- Supporto del [sottoindirizzamento](https://en.wikipedia.org/wiki/Email_address#Subaddressing).
 - Funzionalità di catch-all o alias per coloro che possiedono i propri domini.
 - Utilizzo di protocolli d'accesso email standard, quali IMAP, SMTP o [JMAP](https://en.wikipedia.org/wiki/JSON_Meta_Application_Protocol). I protocolli d'accesso standard assicurano ai clienti di scaricare facilmente tutte le proprie email, qualora dovessero passare a un altro fornitore.
 
@@ -429,7 +429,7 @@ Preferiamo che i fornitori consigliati raccolgano il minor numero di dati possib
 
 - Protezione dell'indirizzo IP del mittente. Filtraggio dello stesso dalla visualizzazione nel campo dell'intestazione `Ricevuto`.
 - Non richiedere informazioni d'identificazione personale (PII), tranne un nome utente e una password.
-- Informativa sulla privacy che soddisfi i requisiti definiti dal GDPR.
+- Politica sulla privacy che soddisfi i requisiti definiti dal GDPR.
 
 **Miglior Caso:**
 
@@ -503,4 +503,4 @@ Non deve avere alcun marketing irresponsabile:
 
 ### Funzionalità aggiuntive
 
-Sebbene non siano strettamente necessari, esistono ulteriori fattori di comodità o privacy che abbimo analizzato, determinando quali fornitori consigliare.
+Sebbene non siano strettamente necessari, esistono ulteriori fattori di comodità o privacy che abbiamo analizzato, determinando quali fornitori consigliare.
