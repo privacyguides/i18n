@@ -5,7 +5,7 @@ description: Questi strumenti sono utilizzabili per verificare che i tuoi dispos
 cover: device-integrity.webp
 ---
 
-Questi strumenti sono utilizzabili per convalidare l'integrità dei tuoi dispositivi mobili, e verificare la presenza di indicatori di compromissione da parte di spyware e malware, quali Pegasus, Predator o KingsPawn. Questa pagina affronta la **sicurezza mobile**, poiché i dispositivi mobili hanno tipicamente sistemi di sola lettura, con configurazioni ben note, quindi, rilevare modifiche dannose è più facile che con i sistemi desktop tradizionali. In futuro, potremmo espandere l'ambito di questa pagina.
+Questi strumenti possono essere utilizzati per convalidare l'integrità dei tuoi dispositivi mobile e verificare la presenza di indicatori di compromissione da parte di spyware e malware come Pegasus, Predator o KingsPawn. Questa pagina affronta la **sicurezza mobile**, poiché i dispositivi mobili hanno tipicamente sistemi di sola lettura, con configurazioni ben note, quindi, rilevare modifiche dannose è più facile che con i sistemi desktop tradizionali. In futuro, potremmo espandere l'ambito di questa pagina.
 
 !!! note "Questo è un argomento avanzato"
 
@@ -161,7 +161,7 @@ Auditor esegue l'attestazione e il rilevamento delle intrusioni con **due** disp
 - Dovesse verificarsi la manomissione del sistema operativo del _controllato_ dopo il completamento dell'associazione, il controllore sarà a conoscenza del cambiamento nello stato e nelle configurazioni del dispositivo.
 - Riceverai un avviso del cambiamento.
 
-È importante notare che il Controllore può effettivamente rilevare i cambiamenti soltanto **dopo** l'associazione iniziale, non necessariamente durante o prima, a causa del suo modello TOFU. Peer assicurarsi che il proprio hardwar e sistema operativo siano autentici, [esegui l'attestazione locale](https://grapheneos.org/install/web#verifying-installation) immediatamente dopo l'installazione del dispositivo e prima di qualsiasi connessione a Internet.
+È importante notare che il Controllore può effettivamente rilevare i cambiamenti soltanto **dopo** l'associazione iniziale, non necessariamente durante o prima, a causa del suo modello TOFU. Per assicurarti che il tuo hardware e sistema operativo siano autentici, [esegui l'attestazione locale](https://grapheneos.org/install/web#verifying-installation) immediatamente dopo l'installazione del dispositivo e prima di qualsiasi connessione a Internet.
 
 Nessuna informazione personalmente identificabile è inviata al servizio di attestazione. Ti consigliamo di iscriverti con un profilo anonimo e di abilitare l'attestazione da remoto per il monitoraggio costante.
 
@@ -185,14 +185,14 @@ L'utilizzo di queste app non è sufficiente per determinare che un dispositivo s
 ![Logo di Hypatia](assets/img/device-integrity/hypatia.svg#only-light){ align=right }
 ![Logo di Hypatia](assets/img/device-integrity/hypatia-dark.svg#only-dark){ align=right }
 
-**Hypatia** è uno scanner di malware open source e in tempo reale per Android, dallo sviluppatore di [DivestOS](android.md#divestos). Accede a Internet per scaricare gli aggiornamenti del database delle firme, ma non carica i tuoi file o alcun metadato sul cloud (le scansioni sono eseguite interamente localmente).
+**Hypatia** è uno scanner di malware in tempo reale open source per Android, realizzato dallo sviluppatore di [DivestOS](android.md#divestos). Accede a Internet per scaricare gli aggiornamenti del database delle firme, ma non carica i tuoi file o i tuoi metadati sul cloud (le scansioni vengono eseguite interamente in locale).
 
-[:octicons-home-16: Homepage](https://divestos.org/pages/our_apps#hypatia){ .md-button .md-button--primary }
+[:octicons-home-16: Pagina Principale](https://divestos.org/pages/our_apps#hypatia){ .md-button .md-button--primary }
 [:octicons-eye-16:](https://divestos.org/pages/privacy_policy#hypatia){ .card-link title="Politica sulla Privacy" }
 [:octicons-code-16:](https://github.com/divested-mobile/hypatia){ .card-link title="Codice Sorgente" }
 [:octicons-heart-16:](https://divested.dev/pages/donate){ .card-link title=Contribuisci }
 
-??? downloads
+??? downloads "Scarica"
 
     - [:simple-android: F-Droid](https://f-droid.org/packages/us.spotco.malwarescanner/)
 ```
@@ -208,13 +208,13 @@ Hypatia è particolarmente abile nel rilevare gli stalkerware più comuni: se so
 
 **iVerify** è un'app per iOS che scansiona automaticamente il tuo dispositivo per verificarne le impostazioni di configurazione, il livello di correzione e altre aree di sicurezza. Inoltre, verifica la presenza di indicatori di compromissione del tuo dispositivo, da parte di strumenti per jailbreak o spyware, come Pegasus.
 
-[:octicons-home-16: Homepage](https://www.iverify.io/consumer){ .md-button .md-button--primary }
+[:octicons-home-16: Pagina Principale](https://www.iverify.io/consumer){ .md-button .md-button--primary }
 [:octicons-eye-16:](https://www.iverify.io/privacy-policy){ .card-link title="Politica sulla Privacy" }
 [:octicons-info-16:](https://www.iverify.io/frequently-asked-questions#iVerify-General){ .card-link title=Documentazione}
 
-??? downloads
+??? downloads "Scarica"
 
-    - [:simple-appstore: App Store](https://apps.apple.com/us/app/iverify/id1466120520)
+    - [:simple-appstore: App Store](https://apps.apple.com/it/app/iverify-secure-your-phone/id1466120520)
 ```
 
 Come tutte le app per iOS, iVerify è limitata in ciò che può osservare sul tuo dispositivo, dalla Sandbox delle app di iOS. Non fornirà un'analisi robusta come quella di uno strumento di analisi dell'intero sistema come [MVT](#mobile-verification-toolkit). La sua funzione principale è rilevare se il tuo dispositivo ha subito il jailbreak, cosa in cui è efficiente, tuttavia, una minaccia ipotetica progettata _specificamente_ per superare i controlli di iVerify, potebbe riuscire nel proprio intento.

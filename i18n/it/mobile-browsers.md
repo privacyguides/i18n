@@ -37,7 +37,7 @@ schema:
       url: "./"
 ---
 
-Questi sono i web browser consigliati al momento e le configurazioni per la navigazione standard/non anonima su Interrnet. Se hai bisogno di navigare in Internet in modo anonimo, dovresti invece usare [Tor](tor.md). In generale, consigliamo di mantenere al minimo il numero delle estensioni; hanno accesso privilegiato al tuo browser, ti richiedono di fidarti degli sviluppatori, possono [distinguerti](https://en.wikipedia.org/wiki/Device_fingerprint#Browser_fingerprint) e [indebolire](https://groups.google.com/a/chromium.org/g/chromium-extensions/c/0ei-UCHNm34/m/lDaXwQhzBAAJ) l'isolamento del sito.
+Questi sono i browser e le configurazioni che attualmente consigliamo per la navigazione standard/non anonima. Se hai bisogno di navigare in Internet in modo anonimo, dovresti invece usare [Tor](tor.md). In generale, consigliamo di mantenere al minimo il numero delle estensioni; hanno accesso privilegiato al tuo browser, ti richiedono di fidarti degli sviluppatori, possono [distinguerti](https://en.wikipedia.org/wiki/Device_fingerprint#Browser_fingerprint) e [indebolire](https://groups.google.com/a/chromium.org/g/chromium-extensions/c/0ei-UCHNm34/m/lDaXwQhzBAAJ) l'isolamento del sito.
 
 ## Android
 
@@ -76,19 +76,19 @@ Brave include alcune misure contro il fingerprinting nella sua funzionalità [Sh
 
 ##### Valori predefiniti globali di Brave Shields
 
-Le opzioni di Shields sono riducibili a seconda del sito come necessrio ma, di default, consigliamo impostarle come segue:
+Le funzionalità di Shields possono essere ridotte per ogni sito se necessario; ciò nonostante, raccomandiamo le seguenti impostazioni:
 
 <div class="annotate" markdown>
 
 - [x] Seleziona **Aggressivo** sotto **Blocca tracker e annunci**
 
 ??? warning "Usa gli elenchi di filtri predefiniti"
-        Brave ti consente di selezionare ulteriori filtri di contenuti mediante la pagina interna `brave://adblock`. Sconsigliamo di utilizzare questa funzionalità; piuttosto, mantieni gli elenchi di filtri predefiniti. Utilzzare ulteriori elenchi ti distinguerà dagli altri utenti di Brave e potrebbe inoltre incrementare la superficie di attacco, se è presente un exploit su Brave e una regola dannosa viene aggiunta a uno degli elenchi che utilizzi.
+        Brave ti consente di selezionare ulteriori filtri di contenuti mediante la pagina interna `brave://adblock`. Sconsigliamo di utilizzare questa funzionalità; piuttosto, mantieni gli elenchi di filtri predefiniti. Utilizzare ulteriori elenchi ti distinguerà dagli altri utenti di Brave e potrebbe inoltre incrementare la superficie di attacco, se è presente un exploit su Brave e una regola dannosa viene aggiunta a uno degli elenchi che utilizzi.
 
 - [x] Seleziona **Aggiorna le connessioni a HTTPS**
 - [x] Seleziona **Utilizza sempre connessioni sicure**
 - [x] (Facoltativo) Seleziona **Blocca gli Script** (1)
-- [x] Seleziona **Rigido, potrebbe corrompere alcuni siti** in **Blocca il fingerprinting**
+- [x] Seleziona **rigido, potrebbe non far funzionare alcuni siti** in **Blocca le impronte digitali**
 
 </div>
 
@@ -146,7 +146,7 @@ Queste opzioni si possono trovare in :gear: **Impostazioni** → **Safari** → 
 
 - [x] Abilita **Impedisci Tracciamento Tra Siti**
 
-Ciò abilita la [Protezione Intelligente dal Tracciamento](https://webkit.org/tracking-prevention/#intelligent-tracking-prevention-itp) di WebKit. La funzionalità iuta a proteggere dal tracciamento indesiderato utilizzndo l'apprendimento automatico su dispositivo per bloccare i tracciatori. ITP protegge da molte minacce comuni, ma non blocca tutte le vie di tracciamento, poiché è progettta per non interferire con l'utilizzabilità del sito web.
+Ciò abilita la [Protezione Intelligente dal Tracciamento](https://webkit.org/tracking-prevention/#intelligent-tracking-prevention-itp) di WebKit. La funzionalità iuta a proteggere dal tracciamento indesiderato utilizzando l'apprendimento automatico su dispositivo per bloccare i tracciatori. ITP protegge da molte minacce comuni, ma non blocca tutte le vie di tracciamento, poiché è progettata per non interferire con l'utilizzabilità del sito web.
 
 ##### Rapporto sulla Privacy
 
@@ -168,13 +168,13 @@ Apri Safari e tocca sul pulsante Schede, nell'angolo inferiore destro. Quindi, e
 
 - [x] Seleziona **Privata**
 
-La modalità di Navigazione Privata di Safri offre ulteriori protezioni della privacy. La Navigazione Privata utilizza una nuova sessione [effimera](https://developer.apple.com/documentation/foundation/urlsessionconfiguration/1410529-ephemeral) per ogni scheda, a significare che le schede sono isolate l'una dall'altra. Inoltre, la Navigazione Privata, presenta altri piccoli benefici per la privacy, come il mancato invio dell'indirizzo di una pagina web ad Apple, utilizzando la funzionalità di traduzione di Safari.
+La modalità di Navigazione Privata di Safari offre ulteriori protezioni della privacy. La Navigazione Privata utilizza una nuova sessione [effimera](https://developer.apple.com/documentation/foundation/urlsessionconfiguration/1410529-ephemeral) per ogni scheda, a significare che le schede sono isolate l'una dall'altra. Inoltre, la Navigazione Privata, presenta altri piccoli benefici per la privacy, come il mancato invio dell'indirizzo di una pagina web ad Apple, utilizzando la funzionalità di traduzione di Safari.
 
-Nota che la Navigazione Privata non salva i cookie e dati dei siti web, quindi, non sarà possibile rimanere connesso ai siti. Ciò potrebbe creare disturbo.
+Nota che la Navigazione Privata non salva i cookie e dati dei siti web, quindi, non sarà possibile rimanere connesso ai siti. Ciò può essere sconveniente.
 
 ##### Sincronizzazione iCloud
 
-La sincronizzazione della Cronologia di Safari, dei Gruppi di Schede, delle Schede di iCloud e delle password salvate, avviene in E2EE. Tuttavia, di default, i segnalibri [non](https://support.apple.com/en-us/HT202303) la prevedono. Apple può decrittografarli e accedervi, in conformità con la sua [politica sulla privacy](https://www.apple.com/legal/privacy/en-ww/).
+La sincronizzazione della Cronologia di Safari, dei Gruppi di Schede, delle Schede di iCloud e delle password salvate, avviene E2EE. Tuttavia, di default, i segnalibri [non](https://support.apple.com/en-us/HT202303) la prevedono. Apple può decriptarli e accedervi, in conformità con la sua [politica sulla privacy](https://www.apple.com/legal/privacy/en-ww/).
 
 Puoi abilitare la E2EE per i tuoi segnalibri e i download di Safari attivando la [Protezione avanzata dei dati](https://support.apple.com/it-it/HT212520). Vai al tuo **nome ID Apple → iCloud → Protezione Avanzata dei Dati**.
 
