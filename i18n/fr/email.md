@@ -236,7 +236,7 @@ Skiff Mail ne propose pas de fonction d'héritage numérique.
         - [:simple-linux: Linux](https://tuta.com/#download)
         - [:octicons-browser-16: Web](https://app.tuta.com/)
 
-Tuta ne prend pas en charge le [protocole IMAP](https://tuta.com/faq/#imap) ni l'utilisation de [clients d'e-mail](email-clients.md) tiers, et vous ne pourrez pas non plus ajouter [des comptes e-mail externes](https://github.com/tutao/tutanota/issues/544#issuecomment-670473647) à l'application Tuta. Ni [l'import d'e-mails](https://github.com/tutao/tutanota/issues/630) ni [les sous-dossiers](https://github.com/tutao/tutanota/issues/927) ne sont actuellement pris en charge, bien que cela soit [amené à changer](https://tuta.com/blog/posts/kickoff-import). Les e-mails peuvent être exportés [individuellement ou par sélection groupée](https://tuta.com/howto#generalMail) par dossier, ce qui peut s'avérer peu pratique si vous avez de nombreux dossiers.
+Tuta ne prend pas en charge le [protocole IMAP](https://tuta.com/faq/#imap) ni l'utilisation de [clients d'e-mail](email-clients.md) tiers, et vous ne pourrez pas non plus ajouter [des comptes e-mail externes](https://github.com/tutao/tutanota/issues/544#issuecomment-670473647) à l'application Tuta. [Email import](https://github.com/tutao/tutanota/issues/630) is not currently supported either, though this is [due to be changed](https://tuta.com/blog/posts/kickoff-import). Les e-mails peuvent être exportés [individuellement ou par sélection groupée](https://tuta.com/howto#generalMail) par dossier, ce qui peut s'avérer peu pratique si vous avez de nombreux dossiers.
 
 #### :material-check:{ .pg-green } Domaines personnalisés et alias
 

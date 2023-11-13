@@ -12,7 +12,7 @@ The **Android Open Source Project** is a secure mobile operating system featurin
 
 ### Het kiezen van een Android distributie
 
-When you buy an Android phone, the device's default operating system often comes with invasive integration with apps and services that are not part of the [Android Open Source Project](https://source.android.com/). Een voorbeeld hiervan zijn Google Play Services, die onherroepelijke rechten heeft om toegang te krijgen tot jouw bestanden, contactenopslag, oproeplogs, sms-berichten, locatie, camera, microfoon, hardware-identificaties, enzovoort. Deze apps en diensten vergroten het aanvalsoppervlak van jouw toestel en zijn de bron van diverse privacyproblemen met Android.
+When you buy an Android phone, the default operating system comes bundled with apps and functionality that are not part of the Android Open Source Project. Many of these apps—even apps like the dialer which provide basic system functionality—require invasive integrations with Google Play Services, which in turn asks for privileges to access your files, contacts storage, call logs, SMS messages, location, camera, microphone, and numerous other things on your device in order for those basic system apps and many other apps to function in the first place. Frameworks like Google Play Services increase the attack surface of your device and are the source of various privacy concerns with Android.
 
 Dit probleem kan worden opgelost door een aangepaste Android-distributie te gebruiken die niet met een dergelijke invasieve integratie komt. Helaas schenden veel aangepaste Android-distributies vaak het Android-beveiligingsmodel door cruciale beveiligingsfuncties zoals AVB, terugdraaibeveiliging, firmware-updates, enzovoort, niet te ondersteunen. Sommige distributies leveren ook [`userdebug`](https://source.android.com/setup/build/building#choose-a-target) builds die root blootstellen via [ADB](https://developer.android.com/studio/command-line/adb) en [meer permissieve](https://github.com/LineageOS/android_system_sepolicy/search?q=userdebug&type=code) SELinux policies vereisen om debug-functies te accommoderen, wat resulteert in een verder verhoogd aanvalsoppervlak en een verzwakt beveiligingsmodel.
 
@@ -60,11 +60,11 @@ Veel OEM's hebben ook een gebroken uitvoering van Verified Boot waar je je bewus
 
 Firmware-updates zijn van cruciaal belang voor het behoud van de veiligheid en zonder deze updates kan uw toestel niet veilig zijn. OEM's hebben ondersteuningsovereenkomsten met hun partners om de closed-source componenten voor een beperkte ondersteuningsperiode te leveren. Deze worden gedetailleerd beschreven in de maandelijkse [Android Security Bulletins](https://source.android.com/security/bulletin).
 
-Aangezien de onderdelen van de telefoon, zoals de processor en de radiotechnologieën, afhankelijk zijn van closed-source componenten, moeten de updates door de respectieve fabrikanten worden verstrekt. Daarom is het belangrijk dat u een toestel koopt binnen een actieve ondersteuningscyclus. [Qualcomm](https://www.qualcomm.com/news/releases/2020/12/16/qualcomm-and-google-announce-collaboration-extend-android-os-support-and) en [Samsung](https://news.samsung.com/us/samsung-galaxy-security-extending-updates-knox/) ondersteunen hun toestellen gedurende 4 jaar, terwijl goedkopere producten vaak kortere ondersteuningscycli hebben. Met de introductie van de [Pixel 6](https://support.google.com/pixelphone/answer/4457705) maakt Google nu hun eigen SoC en zullen ze minimaal 5 jaar ondersteuning bieden.
+Aangezien de onderdelen van de telefoon, zoals de processor en de radiotechnologieën, afhankelijk zijn van closed-source componenten, moeten de updates door de respectieve fabrikanten worden verstrekt. Daarom is het belangrijk dat u een toestel koopt binnen een actieve ondersteuningscyclus. [Qualcomm](https://www.qualcomm.com/news/releases/2020/12/16/qualcomm-and-google-announce-collaboration-extend-android-os-support-and) en [Samsung](https://news.samsung.com/us/samsung-galaxy-security-extending-updates-knox/) ondersteunen hun toestellen gedurende 4 jaar, terwijl goedkopere producten vaak kortere ondersteuningscycli hebben. With the introduction of the [Pixel 6](https://support.google.com/pixelphone/answer/4457705), Google now makes their own SoC, and they will provide a minimum of 5 years of support. With the introduction of the Pixel 8 series, Google increased that support window to 7 years.
 
 EOL-apparaten die niet langer door de SoC-fabrikant worden ondersteund, kunnen geen firmware-updates ontvangen van OEM-verkopers of aftermarket-distributeurs van Android. Dit betekent dat beveiligingsproblemen met die apparaten onopgelost zullen blijven.
 
-Fairphone, bijvoorbeeld, brengt hun toestellen op de markt met een ondersteuning van 6 jaar. De SoC (Qualcomm Snapdragon 750G op de Fairphone 4) heeft echter een aanzienlijk kortere EOL-datum. Dit betekent dat de firmware-beveiligingsupdates van Qualcomm voor de Fairphone 4 in september 2023 aflopen, ongeacht of Fairphone doorgaat met het uitbrengen van software-beveiligingsupdates.
+Fairphone, for example, markets their Fairphone 4 device as receiving 6 years of support. De SoC (Qualcomm Snapdragon 750G op de Fairphone 4) heeft echter een aanzienlijk kortere EOL-datum. Dit betekent dat de firmware-beveiligingsupdates van Qualcomm voor de Fairphone 4 in september 2023 aflopen, ongeacht of Fairphone doorgaat met het uitbrengen van software-beveiligingsupdates.
 
 ### Android-machtigingen
 
@@ -91,7 +91,7 @@ Android 12:
 
 Android 13:
 
-- Een permissie voor [nabijgelegen wifi toegang](https://developer.android.com/about/versions/13/behavior-changes-13#nearby-wifi-devices-permission). De MAC-adressen van WiFi-toegangspunten in de buurt waren een populaire manier voor apps om de locatie van een gebruiker te traceren.
+- A permission for [nearby Wi-Fi access](https://developer.android.com/about/versions/13/behavior-changes-13#nearby-wifi-devices-permission). The MAC addresses of nearby Wi-Fi access points was a popular way for apps to track a user's location.
 - Een meer [granulaire mediatoestemmingen](https://developer.android.com/about/versions/13/behavior-changes-13#granular-media-permissions), wat betekent dat je alleen toegang kan verlenen tot afbeeldingen, video's of audiobestanden.
 - Achtergrondgebruik van sensoren vereist nu de toestemming [`BODY_SENSORS`](https://developer.android.com/about/versions/13/behavior-changes-13#body-sensors-background-permission).
 
@@ -121,13 +121,13 @@ Met gebruikersprofielen kun je beperkingen opleggen aan een specifiek profiel, z
 
 Een **apparaatcontroller** zoals [Shelter](../android.md#shelter) is vereist, tenzij je CalyxOS gebruikt die er een bevat.
 
-Het werkprofiel is afhankelijk van een apparaatcontroller om te kunnen functioneren. Functies zoals *File Shuttle* en *contact zoeken blokkeren* of enige vorm van isolatiefuncties moeten door de controller worden geïmplementeerd. Je moet de apparaatcontroller-app ook volledig vertrouwen, aangezien deze volledige toegang heeft tot jouw gegevens binnen het werkprofiel.
+Het werkprofiel is afhankelijk van een apparaatcontroller om te kunnen functioneren. Functies zoals *File Shuttle* en *contact zoeken blokkeren* of enige vorm van isolatiefuncties moeten door de controller worden geïmplementeerd. You must also fully trust the device controller app, as it has full access to your data inside the work profile.
 
 Deze methode is over het algemeen minder veilig dan een secundair gebruikersprofiel; het biedt je echter wel het gemak dat je tegelijkertijd apps kunt uitvoeren in zowel het werk- als het persoonlijke profiel.
 
 ### VPN Killswitch
 
-Android 7 en hoger ondersteunt een VPN killswitch en het is beschikbaar zonder de noodzaak om apps van derden te installeren. Deze functie kan lekken voorkomen als de VPN wordt verbroken. Het kan gevonden worden in :gear: **Instellingen** → **Netwerk & internet** → **VPN** → :gear: → **Blokkeer verbindingen zonder VPN**.
+Android 7 and above supports a VPN kill switch, and it is available without the need to install third-party apps. Deze functie kan lekken voorkomen als de VPN wordt verbroken. Het kan gevonden worden in :gear: **Instellingen** → **Netwerk & internet** → **VPN** → :gear: → **Blokkeer verbindingen zonder VPN**.
 
 ### Globale schakelaars
 
@@ -143,7 +143,7 @@ Als je een Google-account hebt, raden wij je aan je in te schrijven voor het [Ad
 
 Het geavanceerde beschermingsprogramma biedt verbeterde controle op bedreigingen en maakt het mogelijk:
 
-- Strengere tweefactorauthenticatie; bv. dat [FIDO](../basics/multi-factor-authentication.md#fido-fast-identity-online) **moet worden gebruikt** en dat het gebruik van [SMS OTP's](../basics/multi-factor-authentication.md#sms-or-email-mfa), [TOTP](../basics/multi-factor-authentication.md#time-based-one-time-password-totp) en [OAuth](https://en.wikipedia.org/wiki/OAuth)niet is toegestaan
+- Stricter two-factor authentication; e.g. that [FIDO](../basics/multi-factor-authentication.md#fido-fast-identity-online) **must** be used and disallows the use of [SMS OTPs](../basics/multi-factor-authentication.md#sms-or-email-mfa), [TOTP](../basics/multi-factor-authentication.md#time-based-one-time-password-totp) and [OAuth](https://en.wikipedia.org/wiki/OAuth)
 - Alleen Google en geverifieerde apps van derden hebben toegang tot accountgegevens
 - Scannen van inkomende e-mails op Gmail-accounts voor [phishing](https://en.wikipedia.org/wiki/Phishing#Email_phishing) pogingen
 - Strengere [veilige browser scannen](https://www.google.com/chrome/privacy/whitepaper.html#malware) met Google Chrome
@@ -151,7 +151,7 @@ Het geavanceerde beschermingsprogramma biedt verbeterde controle op bedreigingen
 
  Als je gebruikmaakt van niet-sandboxed Google Play Services (gebruikelijk op standaard besturingssystemen), wordt het Advanced Protection Program ook geleverd met [extra voordelen](https://support.google.com/accounts/answer/9764949?hl=en), zoals:
 
-- Installatie van apps buiten de Google Play Store, de app-winkel van de leverancier van het besturingssysteem of via [`adb`](https://en.wikipedia.org/wiki/Android_Debug_Bridge)is niet toegestaan
+- Not allowing app installation outside the Google Play Store, the OS vendor's app store, or via [`adb`](https://en.wikipedia.org/wiki/Android_Debug_Bridge)
 - Verplichte automatische apparaatscan met [Play Protect](https://support.google.com/googleplay/answer/2812853?hl=en#zippy=%2Chow-malware-protection-works%2Chow-privacy-alerts-work)
 - Je waarschuwt voor niet geverifieerde toepassingen
 
@@ -178,4 +178,4 @@ Je krijgt de optie om jouw advertentie-ID te verwijderen of om *af te melden voo
 
 [SafetyNet](https://developer.android.com/training/safetynet/attestation) en de [Play Integrity API's](https://developer.android.com/google/play/integrity) worden over het algemeen gebruikt voor [bankapps](https://grapheneos.org/usage#banking-apps). Veel bank apps zullen prima werken in GrapheneOS met sandboxed Play services, maar sommige niet-financiële apps hebben hun eigen grove anti-tampering mechanismen die kunnen falen. GrapheneOS doorstaat de `basicIntegrity` check, maar niet de certificeringscheck `ctsProfileMatch`. Toestellen met Android 8 of later hebben hardware-attestondersteuning die niet kan worden omzeild zonder gelekte sleutels of ernstige kwetsbaarheden.
 
-Wat Google Wallet betreft, wij raden dit niet aan vanwege hun [privacybeleid](https://payments.google.com/payments/apis-secure/get_legal_document?ldo=0&ldt=privacynotice&ldl=en), waarin staat dat je zich moet afmelden als je niet wilt dat jouw kredietwaardigheid en persoonlijke gegevens worden gedeeld met affiliate marketingdiensten.
+As for Google Wallet, we don't recommend this due to their [privacy policy](https://payments.google.com/payments/apis-secure/get_legal_document?ldo=0&ldt=privacynotice&ldl=en), which states you must opt out if you don't want your credit rating and personal information shared with affiliate marketing services.

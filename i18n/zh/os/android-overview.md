@@ -12,7 +12,7 @@ The **Android Open Source Project** is a secure mobile operating system featurin
 
 ### 挑选安卓 ROM
 
-When you buy an Android phone, the device's default operating system often comes with invasive integration with apps and services that are not part of the [Android Open Source Project](https://source.android.com/). 例如 Google Play 服务：它有权访问你的文件、联系人、通话记录、短信、定位、相机、麦克风、硬件身份码等。且这些权限无法收回。 这类应用与服务扩大了你的设备的攻击面，也是安卓系统的各种隐私问题的源头。
+When you buy an Android phone, the default operating system comes bundled with apps and functionality that are not part of the Android Open Source Project. Many of these apps—even apps like the dialer which provide basic system functionality—require invasive integrations with Google Play Services, which in turn asks for privileges to access your files, contacts storage, call logs, SMS messages, location, camera, microphone, and numerous other things on your device in order for those basic system apps and many other apps to function in the first place. Frameworks like Google Play Services increase the attack surface of your device and are the source of various privacy concerns with Android.
 
 换用一个不预装这类软件的安卓 ROM 可以解决这个问题。 不巧，很多安卓 ROM 不支持 AVB、回滚保护、系统更新、等这些关键的安全功能，破坏了安卓的安全模型。 某些 ROM 发布的版本属于 [`userdebug`](https://source.android.com/setup/build/building#choose-a-target) 构建版本。这个版本通过 [ADB](https://developer.android.com/studio/command-line/adb) 来提供 root 访问，并且为了支持调试，[放宽](https://github.com/LineageOS/android_system_sepolicy/search?q=userdebug&type=code)了 SELinux 规则。这进一步扩大了攻击面，弱化了安全模型。
 
@@ -60,11 +60,11 @@ For example, if you want to post a picture to Discord you can open your file man
 
 固件更新是维护安全的关键，没有它们，你的设备就不可能是安全的。 原始设备制造商与他们的合作伙伴有支持协议，在有限的支持期内提供闭源组件。 这些内容详见每月的 [Android安全公告](https://source.android.com/security/bulletin)。
 
-由于手机的组件，如处理器和无线电技术依赖于闭源组件，更新必须由各自的制造商提供。 因此，重要的是，你要在一个有效的支持周期内购买设备。 [高通公司](https://www.qualcomm.com/news/releases/2020/12/16/qualcomm-and-google-announce-collaboration-extend-android-os-support-and) 和 [三星](https://news.samsung.com/us/samsung-galaxy-security-extending-updates-knox/) ，对其设备的支持期为4年，而便宜的产品往往支持周期更短。 随着 [Pixel 6](https://support.google.com/pixelphone/answer/4457705)的推出，谷歌现在制造自己的SoC，他们将提供至少5年的支持。
+由于手机的组件，如处理器和无线电技术依赖于闭源组件，更新必须由各自的制造商提供。 因此，重要的是，你要在一个有效的支持周期内购买设备。 [高通公司](https://www.qualcomm.com/news/releases/2020/12/16/qualcomm-and-google-announce-collaboration-extend-android-os-support-and) 和 [三星](https://news.samsung.com/us/samsung-galaxy-security-extending-updates-knox/) ，对其设备的支持期为4年，而便宜的产品往往支持周期更短。 With the introduction of the [Pixel 6](https://support.google.com/pixelphone/answer/4457705), Google now makes their own SoC, and they will provide a minimum of 5 years of support. With the introduction of the Pixel 8 series, Google increased that support window to 7 years.
 
 不再受SoC制造商支持的EOL设备无法从OEM供应商或后市场Android分销商处获得固件更新。 这意味着这些设备的安全问题将继续得不到解决。
 
-例如，Fairphone在市场上宣传他们的设备可以获得6年的支持。 然而，SoC（Fairphone 4上的高通骁龙750G）的EOL日期要短得多。 这意味着高通公司为Fairphone 4提供的固件安全更新将在2023年9月结束，无论Fairphone是否继续发布软件安全更新。
+Fairphone, for example, markets their Fairphone 4 device as receiving 6 years of support. 然而，SoC（Fairphone 4上的高通骁龙750G）的EOL日期要短得多。 这意味着高通公司为Fairphone 4提供的固件安全更新将在2023年9月结束，无论Fairphone是否继续发布软件安全更新。
 
 ### Android 权限
 
@@ -91,7 +91,7 @@ Android 12:
 
 Android 13:
 
-- A permission for [nearby wifi access](https://developer.android.com/about/versions/13/behavior-changes-13#nearby-wifi-devices-permission). The MAC addresses of nearby WiFi access points was a popular way for apps to track a user's location.
+- A permission for [nearby Wi-Fi access](https://developer.android.com/about/versions/13/behavior-changes-13#nearby-wifi-devices-permission). The MAC addresses of nearby Wi-Fi access points was a popular way for apps to track a user's location.
 - More [granular media permissions](https://developer.android.com/about/versions/13/behavior-changes-13#granular-media-permissions), meaning you can grant access to images, videos or audio files only.
 - Background use of sensors now requires the [`BODY_SENSORS`](https://developer.android.com/about/versions/13/behavior-changes-13#body-sensors-background-permission) permission.
 
@@ -121,13 +121,13 @@ An app may request a permission for a specific feature it has. For example, any 
 
 A **device controller** app such as [Shelter](../android.md#shelter) is required to create a Work Profile without an enterprise MDM, unless you're using a custom Android OS which includes one.
 
-该工作档案依赖于设备控制器来运作。 诸如 *文件穿梭* 和 *接触搜索封锁* 或任何种类的隔离功能必须由控制器实现。 你还必须完全信任设备控制器应用程序，因为它可以完全访问你在工作档案中的数据。
+该工作档案依赖于设备控制器来运作。 诸如 *文件穿梭* 和 *接触搜索封锁* 或任何种类的隔离功能必须由控制器实现。 You must also fully trust the device controller app, as it has full access to your data inside the work profile.
 
 这种方法通常不如二级用户配置文件安全；但是，它确实允许你在工作和个人配置文件中同时运行应用程序的便利。
 
 ### VPN Killswitch
 
-Android 7及更高版本支持VPN killswitch ，无需安装第三方应用程序即可使用。 如果VPN断开连接，此功能可以防止泄漏。 可以在 :gear: **设置** → **网络 & 互联网** → **VPN** → :gear: → **阻止没有VPN的连接**。
+Android 7 and above supports a VPN kill switch, and it is available without the need to install third-party apps. 如果VPN断开连接，此功能可以防止泄漏。 可以在 :gear: **设置** → **网络 & 互联网** → **VPN** → :gear: → **阻止没有VPN的连接**。
 
 ### 全局切换
 
@@ -143,7 +143,7 @@ Android 7及更高版本支持VPN killswitch ，无需安装第三方应用程�
 
 高级保护计划提供增强的威胁监控，并支持：
 
-- </strong> 更严格的双因素认证；例如，必须使用 [FIDO](../basics/multi-factor-authentication.md#fido-fast-identity-online) **，不允许使用 [SMS OTPs](../basics/multi-factor-authentication.md#sms-or-email-mfa), [TOTP](../basics/multi-factor-authentication.md#time-based-one-time-password-totp) 和 [OAuth](https://en.wikipedia.org/wiki/OAuth)。</li>
+- Stricter two-factor authentication; e.g. that [FIDO](../basics/multi-factor-authentication.md#fido-fast-identity-online) **must** be used and disallows the use of [SMS OTPs](../basics/multi-factor-authentication.md#sms-or-email-mfa), [TOTP](../basics/multi-factor-authentication.md#time-based-one-time-password-totp) and [OAuth](https://en.wikipedia.org/wiki/OAuth)
 - 只有谷歌和经过验证的第三方应用程序可以访问账户数据
 - 在 Gmail 帐户上扫描收到的邮件以进行 [钓鱼](https://en.wikipedia.org/wiki/Phishing#Email_phishing) 尝试
 - 更严格的 [安全的浏览器扫描](https://www.google.com/chrome/privacy/whitepaper.html#malware) 与谷歌浏览器
@@ -151,9 +151,9 @@ Android 7及更高版本支持VPN killswitch ，无需安装第三方应用程�
 
  如果你使用非沙盒式的Google Play服务（在股票操作系统上很常见），高级保护计划还带有 [额外的好处](https://support.google.com/accounts/answer/9764949?hl=en) ，例如。
 
-- 不允许在Google Play商店、操作系统供应商的应用程序商店之外安装应用程序，或通过 [`adb`](https://en.wikipedia.org/wiki/Android_Debug_Bridge)
+- Not allowing app installation outside the Google Play Store, the OS vendor's app store, or via [`adb`](https://en.wikipedia.org/wiki/Android_Debug_Bridge)
 - 强制性的自动设备扫描与 [Play Protect](https://support.google.com/googleplay/answer/2812853?hl=en#zippy=%2Chow-malware-protection-works%2Chow-privacy-alerts-work)
-- 警告你有未经验证的应用程序</ul>
+- 警告你有未经验证的应用程序
 
 ### Google Play 系统更新
 
@@ -178,4 +178,4 @@ Android 7及更高版本支持VPN killswitch ，无需安装第三方应用程�
 
 [安全网](https://developer.android.com/training/safetynet/attestation) 和 [Play Integrity APIs](https://developer.android.com/google/play/integrity) ，一般用于 [银行应用程序](https://grapheneos.org/usage#banking-apps)。 许多银行应用程序在GrapheneOS中使用沙盒游戏服务可以正常工作，但是一些非金融应用程序有自己的粗略防篡改机制，可能会失败。 GrapheneOS通过了 `basicIntegrity` 检查，但没有通过认证检查 `ctsProfileMatch`。 安卓8或更高版本的设备有硬件认证支持，如果没有泄露的密钥或严重的漏洞，就无法绕过。
 
-至于谷歌钱包，我们不推荐这样做，因为他们的 [隐私政策](https://payments.google.com/payments/apis-secure/get_legal_document?ldo=0&ldt=privacynotice&ldl=en)，其中规定如果你不希望你的信用等级和个人信息与联盟营销服务共享，你必须选择退出。
+As for Google Wallet, we don't recommend this due to their [privacy policy](https://payments.google.com/payments/apis-secure/get_legal_document?ldo=0&ldt=privacynotice&ldl=en), which states you must opt out if you don't want your credit rating and personal information shared with affiliate marketing services.

@@ -5,21 +5,21 @@ description: Questi strumenti possono essere utilizzati per verificare che i tuo
 cover: device-integrity.webp
 ---
 
-Questi strumenti possono essere utilizzati per convalidare l'integrità dei tuoi dispositivi mobile e verificare la presenza di indicatori di compromissione da parte di spyware e malware come Pegasus, Predator o KingsPawn. This page focuses on **mobile security**, because mobile devices typically have read-only systems with well-known configurations, so detecting malicious modifications is easier than on traditional desktop systems. We may expand the focus of this page in the future.
+Questi strumenti possono essere utilizzati per convalidare l'integrità dei tuoi dispositivi mobile e verificare la presenza di indicatori di compromissione da parte di spyware e malware come Pegasus, Predator o KingsPawn. Questa pagina si concentra sulla **sicurezza mobile**, poiché i dispositivi mobile hanno in genere sistemi di sola lettura con configurazioni ben note, quindi il rilevamento di modifiche dannose è più facile che sui sistemi desktop tradizionali. Potremmo espandere il focus di questa pagina in futuro.
 
-!!! note "This is an advanced topic"
+!!! note "Questo è un argomento avanzato"
 
 ```
-These tools may provide utility for certain individuals. They provide functionality which most people do not need to worry about, and often require more in-depth technical knowledge to use effectively.
+Questi strumenti possono essere utili per alcuni individui. Forniscono funzionalità di cui la maggior parte delle persone non deve preoccuparsi e spesso richiedono conoscenze tecniche più approfondite per essere utilizzate in modo efficace.
 ```
 
-It is **critical** to understand that scanning your device for public indicators of compromise is **not sufficient** to determine that a device is "clean", and not targeted with a particular spyware tool. Reliance on these publicly-available scanning tools can miss recent security developments and give you a false sense of security.
+È **critico** capire che la scansione del tuo dispositivo alla ricerca di indicatori pubblici di compromissione non è **sufficiente** per determinare che un dispositivo è "pulito" e non è stato preso di mira da un particolare strumento spyware. Affidarsi a questi strumenti di scansione pubblicamente disponibili può far perdere di vista i recenti sviluppi della sicurezza e darti un falso senso di sicurezza.
 
 ## Consigli Generali
 
-The majority of system-level exploits on modern mobile devices—especially zero-click compromises—are non-persistent, meaning they will not remain or run automatically after a reboot. For this reason, we highly recommend rebooting your device regularly. We recommend everybody reboot their devices once a week at minimum, but if non-persistent malware is of particular concern for you, we and many security experts recommend a daily reboot schedule.
+La maggior parte degli exploit a livello di sistema sui moderni dispositivi mobili, in particolare le compromissioni zero-click, non sono persistenti, ovvero non rimangono o non vengono eseguiti automaticamente dopo un riavvio. Per questo motivo, ti consigliamo di riavviare regolarmente il tuo dispositivo. Consigliamo a tutti di riavviare i dispositivi almeno una volta alla settimana, ma se i malware non persistenti ti preoccupano particolarmente, noi e molti esperti di sicurezza consigliamo un programma di riavvio quotidiano.
 
-This means an attacker would have to regularly re-infect your device to retain access, although we'll note this is not impossible. Rebooting your device also will not protect you against _persistent_ malware, but this is less common on mobile devices due to modern security features like secure/verified boot.
+Ciò significa che un aggressore dovrebbe reinfettare regolarmente il tuo dispositivo per mantenere l'accesso, anche se sappiamo che non è impossibile. Inoltre, il riavvio del tuo dispositivo non ti protegge da malware _persistenti_, ma questo è meno comune sui dispositivi mobile grazie alle moderne funzioni di sicurezza come l'avvio sicuro/verificato.
 
 ## Post-Compromise Information & Disclaimer
 
@@ -42,9 +42,9 @@ These tools provide analysis based on the information they have the ability to a
 1. Indicators of compromise are just that: _indicators_. They are not a definitive finding, and may occasionally be **false positives**. If an indicator of compromise is detected, it means you should do additional research into the _potential_ threat.
 2. The indicators of compromise these tools look for are published by threat research organizations, but not all indicators are made available to the public! This means that these tools can present a **false negative**, if your device is infected with spyware which is not detected by any of the public indicators. Reliable and comprehensive digital forensic support and triage requires access to non-public indicators, research and threat intelligence.
 
-## External Verification Tools
+## Strumenti di verifica esterni
 
-External verification tools run on your computer and scan your mobile device for forensic traces which are helpful to identify potential compromise.
+Gli strumenti di verifica esterni vengono eseguiti sul tuo computer e scansionano il tuo dispositivo mobile alla ricerca di tracce forensi utili per identificare potenziali compromissioni.
 
 !!! danger "Attenzione"
 
@@ -60,17 +60,17 @@ These tools can trigger false-positives. If any of these tools finds indicators 
 
 ### Mobile Verification Toolkit
 
-!!! recommendation
+!!! recommendation "consiglio"
 
 ```
-![MVT logo](assets/img/device-integrity/mvt.webp){ align=right }
+![Logo di MVT](assets/img/device-integrity/mvt.webp){ align=right }
 
-**Mobile Verification Toolkit** (**MVT**) is a collection of utilities which simplifies and automates the process of scanning mobile devices for potential traces of targeting or infection by known spyware campaigns. MVT was developed by Amnesty International and released in 2021 in the context of the [Pegasus Project](https://forbiddenstories.org/about-the-pegasus-project/).
+Il **Mobile Verification Toolkit** (**MVT**) è una raccolta di strumenti che semplifica e automatizza il processo di scansione dei dispositivi mobile alla ricerca di potenziali tracce di bersaglio o infezione da parte di campagne spyware note. MVT è stato sviluppato da Amnesty International e rilasciato nel 2021 nell'ambito del [Progetto Pegasus](https://forbiddenstories.org/about-the-pegasus-project/).
 
-[:octicons-home-16: Homepage](https://mvt.re/){ .md-button .md-button--primary }
-[:octicons-code-16:](https://github.com/mvt-project/mvt){ .card-link title="Source Code" }
+[:octicons-home-16: Pagina Principale](https://mvt.re/){ .md-button .md-button--primary }
+[:octicons-code-16:](https://github.com/mvt-project/mvt){ .card-link title="Codice Sorgente" }
 
-??? downloads
+??? downloads "Scarica"
 
     - [:simple-apple: macOS](https://docs.mvt.re/en/latest/install/)
     - [:simple-linux: Linux](https://docs.mvt.re/en/latest/install/)
@@ -79,10 +79,10 @@ These tools can trigger false-positives. If any of these tools finds indicators 
 !!! warning "Attenzione"
 
 ```
-Using MVT is insufficient to determine that a device is "clean", and not targeted with a particular spyware tool.
+L'utilizzo di MVT non è sufficiente per determinare se un dispositivo sia "pulito" e non sia stato preso di mira da un particolare strumento spyware.
 ```
 
-MVT is _most_ useful for scanning iOS devices. Android stores very little diagnostic information useful to triage potential compromises, and because of this `mvt-android` capabilities are limited as well. On the other hand, encrypted iOS iTunes backups provide a large enough subset of files stored on the device to detect suspicious artifacts in many cases. This being said, MVT does still provide fairly useful tools for both iOS and Android analysis.
+MVT è _più_ utile per la scansione dei dispositivi iOS. Android stores very little diagnostic information useful to triage potential compromises, and because of this `mvt-android` capabilities are limited as well. On the other hand, encrypted iOS iTunes backups provide a large enough subset of files stored on the device to detect suspicious artifacts in many cases. This being said, MVT does still provide fairly useful tools for both iOS and Android analysis.
 
 If you use iOS and are at high-risk, we have three additional suggestions for you:
 
@@ -98,7 +98,7 @@ MVT allows you to perform deeper scans/analysis if your device is jailbroken. Un
 
 ### iMazing (iOS)
 
-!!! recommendation
+!!! recommendation "consiglio"
 
 ```
 ![iMazing logo](assets/img/device-integrity/imazing.png){ align=right }
@@ -117,7 +117,7 @@ MVT allows you to perform deeper scans/analysis if your device is jailbroken. Un
 
 iMazing automates and interactively guides you through the process of using [MVT](#mobile-verification-toolkit) to scan your device for publicly-accessible indicators of compromise published by various threat researchers. All of the information and warnings which apply to MVT apply to this tool as well, so we suggest you also familiarize yourself with the notes on MVT in the sections above.
 
-## On-Device Verification
+## Verifica On-Device
 
 These are apps you can install which check your device and operating system for signs of tampering, and validate the identity of your device.
 
@@ -129,7 +129,7 @@ Using these apps is insufficient to determine that a device is "clean", and not 
 
 ### Auditor (Android)
 
-!!! recommendation
+!!! recommendation "consiglio"
 
 ```
 ![Auditor logo](assets/img/device-integrity/auditor.svg#only-light){ align=right }
@@ -166,7 +166,7 @@ No personally identifiable information is submitted to the attestation service. 
 
 If your [threat model](basics/threat-modeling.md) requires privacy, you could consider using [Orbot](tor.md#orbot) or a VPN to hide your IP address from the attestation service.
 
-## On-Device Scanners
+## Scanner On-Device
 
 These are apps you can install on your device which scan your device for signs of compromise.
 
@@ -178,46 +178,46 @@ Using these apps is insufficient to determine that a device is "clean", and not 
 
 ### Hypatia (Android)
 
-!!! recommendation
+!!! recommendation "consiglio"
 
 ```
-![Hypatia logo](assets/img/device-integrity/hypatia.svg#only-light){ align=right }
-![Hypatia logo](assets/img/device-integrity/hypatia-dark.svg#only-dark){ align=right }
+![Logo di Hypatia](assets/img/device-integrity/hypatia.svg#only-light){ align=right }
+![Logo di Hypatia](assets/img/device-integrity/hypatia-dark.svg#only-dark){ align=right }
 
-**Hypatia** is an open source real-time malware scanner for Android, from the developer of [DivestOS](android.md#divestos). It accesses the internet to download signature database updates, but does not upload your files or any metadata to the cloud (scans are performed entirely locally).
+**Hypatia** è uno scanner di malware in tempo reale open source per Android, realizzato dallo sviluppatore di [DivestOS](android.md#divestos). Accede a Internet per scaricare gli aggiornamenti del database delle firme, ma non carica i tuoi file o i tuoi metadati sul cloud (le scansioni vengono eseguite interamente in locale).
 
-[:octicons-home-16: Homepage](https://divestos.org/pages/our_apps#hypatia){ .md-button .md-button--primary }
-[:octicons-eye-16:](https://divestos.org/pages/privacy_policy#hypatia){ .card-link title="Privacy Policy" }
-[:octicons-code-16:](https://github.com/divested-mobile/hypatia){ .card-link title="Source Code" }
-[:octicons-heart-16:](https://divested.dev/pages/donate){ .card-link title=Contribute }
+[:octicons-home-16: Pagina Principale](https://divestos.org/pages/our_apps#hypatia){ .md-button .md-button--primary }
+[:octicons-eye-16:](https://divestos.org/pages/privacy_policy#hypatia){ .card-link title="Politica sulla Privacy" }
+[:octicons-code-16:](https://github.com/divested-mobile/hypatia){ .card-link title="Codice Sorgente" }
+[:octicons-heart-16:](https://divested.dev/pages/donate){ .card-link title=Contribuisci }
 
-??? downloads
+??? downloads "Scarica"
 
     - [:simple-android: F-Droid](https://f-droid.org/packages/us.spotco.malwarescanner/)
 ```
 
-Hypatia is particularly good at detecting common stalkerware: If you suspect you are a victim of stalkerware, you should [visit this page](https://stopstalkerware.org/information-for-survivors/) for advice.
+Hypatia è particolarmente abile nel rilevare gli stalkerware più comuni: se sospetti di essere vittima di stalkerware, dovresti [visitare questa pagina](https://stopstalkerware.org/it/informazioni-per-le-vittime/) per consigli.
 
 ### iVerify (iOS)
 
-!!! recommendation
+!!! recommendation "consiglio"
 
 ```
-![iVerify logo](assets/img/device-integrity/iverify.webp){ align=right }
+![Logo di iVerify](assets/img/device-integrity/iverify.webp){ align=right }
 
-**iVerify** is an iOS app which automatically scans your device to check configuration settings, patch level, and other areas of security. It also checks your device for indicators of compromise by jailbreak tools or spyware such as Pegasus.
+**iVerify** è un'applicazione per iOS che esegue una scansione automatica del tuo dispositivo per verificare le impostazioni di configurazione, il livello delle patch e altre aree di sicurezza. Controlla inoltre che il tuo dispositivo non presenti indicatori di compromissione da parte di strumenti di jailbreak o spyware come Pegasus.
 
-[:octicons-home-16: Homepage](https://www.iverify.io/consumer){ .md-button .md-button--primary }
-[:octicons-eye-16:](https://www.iverify.io/privacy-policy){ .card-link title="Privacy Policy" }
-[:octicons-info-16:](https://www.iverify.io/frequently-asked-questions#iVerify-General){ .card-link title=Documentation}
+[:octicons-home-16: Pagina Principale](https://www.iverify.io/consumer){ .md-button .md-button--primary }
+[:octicons-eye-16:](https://www.iverify.io/privacy-policy){ .card-link title="Politica sulla Privacy" }
+[:octicons-info-16:](https://www.iverify.io/frequently-asked-questions#iVerify-General){ .card-link title=Documentazione}
 
-??? downloads
+??? downloads "Scarica"
 
-    - [:simple-appstore: App Store](https://apps.apple.com/us/app/iverify/id1466120520)
+    - [:simple-appstore: App Store](https://apps.apple.com/it/app/iverify-secure-your-phone/id1466120520)
 ```
 
-Like all iOS apps, iVerify is restricted to what it can observe about your device from within the iOS App Sandbox. It will not provide nearly as robust analysis as a full-system analysis tool like [MVT](#mobile-verification-toolkit). Its primary function is to detect whether your device is jailbroken, which it is effective at, however a hypothetical threat which is _specifically_ designed to bypass iVerify's checks would likely succeed at doing so.
+Come tutte le app iOS, iVerify è limitata a ciò che può osservare sul tuo dispositivo dall'interno della Sandbox delle app iOS. Non fornirà un'analisi robusta come uno strumento di analisi del sistema completo come [MVT](#mobile-verification-toolkit). La sua funzione principale è quella di rilevare se al tuo dispositivo è stato effettuato il jailbroken, cosa che è efficace nell'individuare, tuttavia un'ipotetica minaccia progettata _specificamente_ per aggirare i controlli di iVerify probabilmente riuscirebbe a farlo.
 
-iVerify is **not** an "antivirus" tool, and will not detect non-system-level malware such as malicious custom keyboards or malicious Wi-Fi Sync configurations, for example.
+iVerify **non** è uno strumento "antivirus" e non è in grado di rilevare malware non a livello di sistema, come ad esempio tastiere personalizzate o configurazioni Wi-Fi Sync dannose.
 
-In addition to device scanning, iVerify also includes a number of additional security utilities which you may find useful, including device reboot reminders, iOS update notifications (which are often faster than Apple's staggered update notification rollout), some basic privacy and security guides, and a DNS over HTTPS tool which can connect your device's [DNS](dns.md) queries securely to Quad9, Cloudflare, or Google.
+Oltre alla scansione del dispositivo, iVerify include anche una serie di strumenti di sicurezza aggiuntivi che potrebbero risultarti utili, tra cui i promemoria per il riavvio del dispositivo, notifiche di aggiornamento di iOS (spesso più rapide rispetto al rilascio scaglionato degli aggiornamenti di Apple), alcune guide di base sulla privacy e sulla sicurezza e uno strumento DNS su HTTPS in grado di connettere le query [DNS](dns.md) del tuo dispositivo in modo sicuro a Quad9, Cloudflare o Google.

@@ -12,7 +12,7 @@ description: Android는 강력한 보안 및 보호 기능을 갖춘 오픈 소�
 
 ### Android 배포판 선택
 
-When you buy an Android phone, the device's default operating system often comes with invasive integration with apps and services that are not part of the [Android Open Source Project](https://source.android.com/). 대표적인 예시로는 Google Play 서비스가 있습니다. Google Play 서비스는 파일, 통화 기록, 연락처, 통화 기록, SMS 메시지, 위치, 카메라, 마이크, 하드웨어 식별자 등에 접근할 수 있으며, 이 권한을 빼앗을 수도 없습니다. 이러한 앱, 서비스는 기기의 공격 표면을 증가시키고 Android의 다양한 프라이버시 문제로 이어집니다.
+When you buy an Android phone, the default operating system comes bundled with apps and functionality that are not part of the Android Open Source Project. Many of these apps—even apps like the dialer which provide basic system functionality—require invasive integrations with Google Play Services, which in turn asks for privileges to access your files, contacts storage, call logs, SMS messages, location, camera, microphone, and numerous other things on your device in order for those basic system apps and many other apps to function in the first place. Frameworks like Google Play Services increase the attack surface of your device and are the source of various privacy concerns with Android.
 
 이 문제는 강력히 통합된 앱이 아예 포함되지 않은 커스텀 Android 배포판을 사용하면 해결할 수 있습니다. 다만 안타깝게도, 대부분의 커스텀 Android 배포판은 AVB, 롤백 보호, 펌웨어 업데이트 등의 중요한 보안 기능을 지원하지 않음으로써 Android 보안 모델을 위반하는 경우가 많습니다. 일부 배포판은 [ADB](https://developer.android.com/studio/command-line/adb?hl=ko)를 통해 루트 권한을 노출하고, 디버깅 기능을 포함하기 위해 [보다 느슨한](https://github.com/LineageOS/android_system_sepolicy/search?q=userdebug&type=code) SELinux 정책을 선택하여 공격 표면의 증가와 보안 모델의 약화를 일으키는 [`userdebug`](https://source.android.com/docs/setup/build/building?hl=ko#choose-a-target) 빌드를 제공하기도 합니다.
 
@@ -60,11 +60,11 @@ Android 10 이상부터는 기존의 전체 디스크 암호화보다 유연한 
 
 펌웨어 업데이트는 보안에 있어 매우 중요합니다. 펌웨어 업데이트가 없으면 기기 보안을 유지할 수 없습니다. OEM은 자신들의 협력체와 지원 계약을 맺고 제한된 기간 동안 비공개 소스로 된 구성 요소를 제공합니다. 관련 내용은 [Android 보안 게시판](https://source.android.com/security/bulletin)에 자세히 설명되어 있습니다.
 
-휴대폰을 구성하는 요소(프로세서, 무선 기술 등)은 비공개 소스로 된 구성 요소에 의존하기 때문에, 업데이트는 각각의 제조업체로부터 제공받아야 합니다. 지원 기간 내의 기기를 구매해야 하는 이유가 바로 이것입니다. [Qualcomm](https://www.qualcomm.com/news/releases/2020/12/16/qualcomm-and-google-announce-collaboration-extend-android-os-support-and), [Samsung](https://news.samsung.com/kr/%EC%82%BC%EC%84%B1%EC%A0%84%EC%9E%90-%EA%B0%A4%EB%9F%AD%EC%8B%9C-%EB%AA%A8%EB%B0%94%EC%9D%BC-%EA%B8%B0%EA%B8%B0-%EB%B3%B4%EC%95%88-%EC%97%85%EB%8D%B0%EC%9D%B4%ED%8A%B8-%EC%B5%9C%EC%86%8C-4%EB%85%84)은 4년 이상의 기기 지원 기간을 가지고 있습니다. 지원 기간은 업체, 제품마다 다르지만, 저렴한 제품일수록 지원 기간이 짧은 경향이 있습니다. Google은 [Pixel 6](https://support.google.com/pixelphone/answer/4457705) 출시 이후로 자체 SoC를 제작하며, 최소 5년 이상의 지원 기간을 제공합니다.
+휴대폰을 구성하는 요소(프로세서, 무선 기술 등)은 비공개 소스로 된 구성 요소에 의존하기 때문에, 업데이트는 각각의 제조업체로부터 제공받아야 합니다. 지원 기간 내의 기기를 구매해야 하는 이유가 바로 이것입니다. [Qualcomm](https://www.qualcomm.com/news/releases/2020/12/16/qualcomm-and-google-announce-collaboration-extend-android-os-support-and), [Samsung](https://news.samsung.com/kr/%EC%82%BC%EC%84%B1%EC%A0%84%EC%9E%90-%EA%B0%A4%EB%9F%AD%EC%8B%9C-%EB%AA%A8%EB%B0%94%EC%9D%BC-%EA%B8%B0%EA%B8%B0-%EB%B3%B4%EC%95%88-%EC%97%85%EB%8D%B0%EC%9D%B4%ED%8A%B8-%EC%B5%9C%EC%86%8C-4%EB%85%84)은 4년 이상의 기기 지원 기간을 가지고 있습니다. 지원 기간은 업체, 제품마다 다르지만, 저렴한 제품일수록 지원 기간이 짧은 경향이 있습니다. With the introduction of the [Pixel 6](https://support.google.com/pixelphone/answer/4457705), Google now makes their own SoC, and they will provide a minimum of 5 years of support. With the introduction of the Pixel 8 series, Google increased that support window to 7 years.
 
 SoC 제조업체에서 더 이상 지원하지 않는 EOL 기기는 OEM 업체나 애프터 마켓 Android 배포자로부터 펌웨어 업데이트를 받는 것이 불가능합니다. 즉, 해당 기기의 보안 문제는 해결될 일이 없습니다.
 
-예시로, Fairphone은 6년의 지원 기간을 제공하는 것으로 홍보합니다. 하지만 SoC(Fairphone 4의 Qualcomm Snapdragon 750G)는 훨씬 짧은 EOL 날짜를 가지고 있습니다. 즉, Fairphone이 계속 소프트웨어 보안 업데이트를 릴리스하더라도, Fairphone 4에 대한 Qualcomm의 펌웨어 보안 업데이트는 2023년 9월에 종료됩니다.
+Fairphone, for example, markets their Fairphone 4 device as receiving 6 years of support. 하지만 SoC(Fairphone 4의 Qualcomm Snapdragon 750G)는 훨씬 짧은 EOL 날짜를 가지고 있습니다. 즉, Fairphone이 계속 소프트웨어 보안 업데이트를 릴리스하더라도, Fairphone 4에 대한 Qualcomm의 펌웨어 보안 업데이트는 2023년 9월에 종료됩니다.
 
 ### Android 권한
 
@@ -91,7 +91,7 @@ Android 12:
 
 Android 13:
 
-- [근처 Wi-Fi 접근](https://developer.android.com/about/versions/13/behavior-changes-13#nearby-wifi-devices-permission) 권한이 도입됩니다. Wi-Fi 액세스 포인트의 MAC 주소는 앱이 사용자의 위치를 추적하는 용도로 흔히 사용되어 왔습니다.
+- A permission for [nearby Wi-Fi access](https://developer.android.com/about/versions/13/behavior-changes-13#nearby-wifi-devices-permission). The MAC addresses of nearby Wi-Fi access points was a popular way for apps to track a user's location.
 - [세분화된 미디어 권한](https://developer.android.com/about/versions/13/behavior-changes-13?hl=ko#granular-media-permissions)이 도입되어, 이미지, 동영상, 오디오 파일에만 접근 가능한 권한을 부여할 수 있습니다.
 - [`BODY_SENSORS`](https://developer.android.com/about/versions/13/behavior-changes-13?hl=ko#body-sensors-background-permission) 권한이 없으면 백그라운드에서 센서를 사용할 수 없습니다.
 
@@ -121,13 +121,13 @@ Android 13:
 
 A **device controller** app such as [Shelter](../android.md#shelter) is required to create a Work Profile without an enterprise MDM, unless you're using a custom Android OS which includes one.
 
-직장 프로필은 기기 컨트롤러에 따라 작동 방식이 달라집니다. *File Shuttle*, *연락처 검색 차단*을 비롯한 모든 격리 기능은 컨트롤러에서 구현됩니다. 기기 컨트롤러는 직장 프로필 내부 데이터의 전체 접근 권한을 가지고 있으므로, 믿을 수 있는 기기 컨트롤러 앱을 사용해야 합니다.
+직장 프로필은 기기 컨트롤러에 따라 작동 방식이 달라집니다. *File Shuttle*, *연락처 검색 차단*을 비롯한 모든 격리 기능은 컨트롤러에서 구현됩니다. You must also fully trust the device controller app, as it has full access to your data inside the work profile.
 
 직장 프로필은 보조 사용자 프로필에 비해 보안성은 떨어집니다. 하지만 개인 프로필과 직장 프로필에서 동시에 앱을 실행할 수 있다는 편리함이 존재합니다.
 
 ### VPN 킬 스위치
 
-Android 7 이상은 외부 앱을 설치할 필요 없이 VPN 킬 스위치를 자체적으로 지원합니다. 해당 기능은 VPN 연결이 끊어졌을 때 유출이 발생하지 않도록 방지할 수 있습니다. :gear: **설정** → **네트워크 및 인터넷** → **VPN** → :gear: → **연결 차단(VPN 제외)**에서 확인할 수 있습니다.
+Android 7 and above supports a VPN kill switch, and it is available without the need to install third-party apps. 해당 기능은 VPN 연결이 끊어졌을 때 유출이 발생하지 않도록 방지할 수 있습니다. :gear: **설정** → **네트워크 및 인터넷** → **VPN** → :gear: → **연결 차단(VPN 제외)**에서 확인할 수 있습니다.
 
 ### 전역 제어
 
@@ -143,7 +143,7 @@ Google 계정을 가지고 있다면 [고급 보호 프로그램](https://landin
 
 고급 보호 프로그램은 향상된 위협 모니터링 기능을 제공합니다.
 
-- 더 엄격한 이중 인증([SMS OTP](../basics/multi-factor-authentication.md#sms-or-email-mfa), [TOTP](../basics/multi-factor-authentication.md#time-based-one-time-password-totp), [OAuth](https://ko.wikipedia.org/wiki/OAuth) 사용이 불가능하고 **반드시** [FIDO](../basics/multi-factor-authentication.md#fido-fast-identity-online)를 사용해야 함)
+- Stricter two-factor authentication; e.g. that [FIDO](../basics/multi-factor-authentication.md#fido-fast-identity-online) **must** be used and disallows the use of [SMS OTPs](../basics/multi-factor-authentication.md#sms-or-email-mfa), [TOTP](../basics/multi-factor-authentication.md#time-based-one-time-password-totp) and [OAuth](https://en.wikipedia.org/wiki/OAuth)
 - Google 및 인증된 제3자 앱만이 계정 데이터에 접근 가능
 - Google 계정의 받은 편지함에서 [피싱](https://en.wikipedia.org/wiki/Phishing#Email_phishing) 시도 스캔
 - Google Chrome의 더 엄격한 [세이프 브라우징 검사](https://www.google.com/chrome/privacy/whitepaper.html#malware)
@@ -151,7 +151,7 @@ Google 계정을 가지고 있다면 [고급 보호 프로그램](https://landin
 
  Google Play에 샌드박스가 적용되지 않은 환경의 경우(기본 운영 체제는 대부분 이 경우입니다), 고급 보호 프로그램은 다음과 같은 [추가 이점](https://support.google.com/accounts/answer/9764949?hl=ko)을 제공합니다.
 
-- Google Play 스토어, OS 공급 업체 앱 스토어, [`adb`](https://en.wikipedia.org/wiki/Android_Debug_Bridge) 외 경로의 앱 설치 비허용
+- Not allowing app installation outside the Google Play Store, the OS vendor's app store, or via [`adb`](https://en.wikipedia.org/wiki/Android_Debug_Bridge)
 - [Play 프로텍트](https://support.google.com/googleplay/answer/2812853?hl=ko#zippy=%2Chow-malware-protection-works%2Chow-privacy-alerts-work%2C%EA%B0%9C%EC%9D%B8%EC%A0%95%EB%B3%B4-%EB%B3%B4%ED%98%B8-%EC%95%8C%EB%A6%BC-%EC%9E%91%EB%8F%99-%EB%B0%A9%EC%8B%9D)에 의한 필수적인 자동 기기 스캔
 - 검증되지 않은 애플리케이션에 대한 경고 표시
 
@@ -178,4 +178,4 @@ Google Play 서비스가 설치된 모든 기기는 타겟 광고에 사용되�
 
 [SafetyNet](https://developer.android.com/training/safetynet/attestation?hl=ko), [Play Integrity API](https://developer.android.com/google/play/integrity?hl=ko)는 일반적으로 [뱅킹 앱](https://grapheneos.org/usage#banking-apps)에서 사용됩니다. 대부분의 뱅킹 앱은 샌드박스가 적용된 Play 서비스를 통해 GrapheneOS에서 정상적으로 작동하지만, 자체적으로 조잡한 변조 방지 메커니즘을 사용하는 일부 비금융 앱은 제대로 작동하지 않을 수 있습니다. GrapheneOS는 `basicIntegrity`(관대한 기기 무결성) 검사를 통과했지만, `ctsProfileMatch`(엄격한 기기 무결성) 인증 검사는 통과하지 못했습니다. Android 8 이상의 기기는 키 유출이나 심각한 취약점이 발생하지 않고서는 우회 불가능한 하드웨어 증명이 지원됩니다.
 
-Google Wallet의 경우, [프라이버시 정책](https://payments.google.com/payments/apis-secure/get_legal_document?ldo=0&ldt=privacynotice&ldl=en)을 이유로 사용을 권장드리지 않습니다. Google Wallet 직접 동의 사항을 찾아서 거부하지 않는 이상 기본적으로 신용 등급 및 개인 정보를 제휴 마케팅 서비스와 공유합니다.
+As for Google Wallet, we don't recommend this due to their [privacy policy](https://payments.google.com/payments/apis-secure/get_legal_document?ldo=0&ldt=privacynotice&ldl=en), which states you must opt out if you don't want your credit rating and personal information shared with affiliate marketing services.

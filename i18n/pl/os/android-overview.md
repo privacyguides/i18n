@@ -12,7 +12,7 @@ The **Android Open Source Project** is a secure mobile operating system featurin
 
 ### Wybór dystrybucji Androida
 
-When you buy an Android phone, the device's default operating system often comes with invasive integration with apps and services that are not part of the [Android Open Source Project](https://source.android.com/). Jedną z nich są Usługi Google Play, która ma niezbywalne uprawnienia dostępu do Twoich plików, magazynu kontaktów, rejestru połączeń, wiadomości SMS, lokalizacji, aparatu, mikrofonu, identyfikatorów sprzętowych oraz wiele więcej. Te aplikacje i usługi zwiększają możliwości ataku na Twoje urządzenie oraz są źródłem wielu obaw związanych z prywatnością systemu Android.
+When you buy an Android phone, the default operating system comes bundled with apps and functionality that are not part of the Android Open Source Project. Many of these apps—even apps like the dialer which provide basic system functionality—require invasive integrations with Google Play Services, which in turn asks for privileges to access your files, contacts storage, call logs, SMS messages, location, camera, microphone, and numerous other things on your device in order for those basic system apps and many other apps to function in the first place. Frameworks like Google Play Services increase the attack surface of your device and are the source of various privacy concerns with Android.
 
 Ten problem można rozwiązać instalując niestandardową dystrybucję Androida, która nie zawiera tak inwazyjnej integracji. Niestety, ale wiele niestandardowych dystrybucji Androida narusza model bezpieczeństwa systemu nie wspierając funkcji bezpieczeństwa, takich jak AVB, ochrona przed cofnięciem aktualizacji, aktualizacje oprogramowania i innych. Some distributions also ship [`userdebug`](https://source.android.com/setup/build/building#choose-a-target) builds which expose root via [ADB](https://developer.android.com/studio/command-line/adb) and require [more permissive](https://github.com/LineageOS/android_system_sepolicy/search?q=userdebug&type=code) SELinux policies to accommodate debugging features, resulting in a further increased attack surface and weakened security model.
 
@@ -60,11 +60,11 @@ Aktualizacje oprogramowania mają kluczowe znaczenie dla zachowania bezpieczeńs
 
 Firmware updates are critical for maintaining security and without them your device cannot be secure. Dlatego ważne jest, aby zakupić urządzenie, które jest nadal wspierane. [Qualcomm](https://www.qualcomm.com/news/releases/2020/12/16/qualcomm-and-google-announce-collaboration-extend-android-os-support-and) oraz [Samsung](https://news.samsung.com/us/samsung-galaxy-security-extending-updates-knox/) oferując wsparcie dla swoich urządzeń przez 4 lata, podczas gdy tańsze produkty często mają krótszy okres wsparcia.
 
-Urządzenia bez aktywnego wsparcia producenta układów nie otrzymują już aktualizacji oprogramowania od producentów urządzeń lub niestandardowych dystrybucji Androida. Oznacza to, że luki bezpieczeństwa w tych urządzeniach nie zostaną naprawione. [Qualcomm](https://www.qualcomm.com/news/releases/2020/12/16/qualcomm-and-google-announce-collaboration-extend-android-os-support-and) and [Samsung](https://news.samsung.com/us/samsung-galaxy-security-extending-updates-knox/) support their devices for 4 years, while cheaper products often have shorter support cycles. With the introduction of the [Pixel 6](https://support.google.com/pixelphone/answer/4457705), Google now makes their own SoC and they will provide a minimum of 5 years of support.
+Urządzenia bez aktywnego wsparcia producenta układów nie otrzymują już aktualizacji oprogramowania od producentów urządzeń lub niestandardowych dystrybucji Androida. Oznacza to, że luki bezpieczeństwa w tych urządzeniach nie zostaną naprawione. [Qualcomm](https://www.qualcomm.com/news/releases/2020/12/16/qualcomm-and-google-announce-collaboration-extend-android-os-support-and) and [Samsung](https://news.samsung.com/us/samsung-galaxy-security-extending-updates-knox/) support their devices for 4 years, while cheaper products often have shorter support cycles. With the introduction of the [Pixel 6](https://support.google.com/pixelphone/answer/4457705), Google now makes their own SoC, and they will provide a minimum of 5 years of support. With the introduction of the Pixel 8 series, Google increased that support window to 7 years.
 
 Ważne jest, aby nie korzystać z [niewspieranej](https://endoflife.date/android) wersji Androida. Nowsze wersje Androida nie tylko otrzymują poprawki bezpieczeństwa dla systemu operacyjnego, ale także ważne aktualizacje poprawiające prywatność.
 
-[Uprawnienia systemu Android](https://developer.android.com/guide/topics/permissions/overview) umożliwiają Ci kontrolę nad tym, do czego mają dostęp Twoje aplikacje. Firma Google regularnie wprowadza [poprawki](https://developer.android.com/about/versions/11/privacy/permissions) do systemu zabezpieczeń z każdą kolejną wersją. Wszystkie instalowane przez Ciebie aplikacje są ściśle [izolowane](https://source.android.com/security/app-sandbox), więc nie ma potrzeby instalowania żadnych aplikacji antywirusowych.
+Fairphone, for example, markets their Fairphone 4 device as receiving 6 years of support. Firma Google regularnie wprowadza [poprawki](https://developer.android.com/about/versions/11/privacy/permissions) do systemu zabezpieczeń z każdą kolejną wersją. Wszystkie instalowane przez Ciebie aplikacje są ściśle [izolowane](https://source.android.com/security/app-sandbox), więc nie ma potrzeby instalowania żadnych aplikacji antywirusowych.
 
 ### Uprawnienia systemu Android
 
@@ -91,7 +91,7 @@ Android 12:
 
 Android 13:
 
-- A permission for [nearby wifi access](https://developer.android.com/about/versions/13/behavior-changes-13#nearby-wifi-devices-permission). The MAC addresses of nearby WiFi access points was a popular way for apps to track a user's location.
+- A permission for [nearby Wi-Fi access](https://developer.android.com/about/versions/13/behavior-changes-13#nearby-wifi-devices-permission). The MAC addresses of nearby Wi-Fi access points was a popular way for apps to track a user's location.
 - More [granular media permissions](https://developer.android.com/about/versions/13/behavior-changes-13#granular-media-permissions), meaning you can grant access to images, videos or audio files only.
 - Background use of sensors now requires the [`BODY_SENSORS`](https://developer.android.com/about/versions/13/behavior-changes-13#body-sensors-background-permission) permission.
 
@@ -121,13 +121,13 @@ With user profiles, you can impose restrictions on a specific profile, such as: 
 
 A **device controller** app such as [Shelter](../android.md#shelter) is required to create a Work Profile without an enterprise MDM, unless you're using a custom Android OS which includes one.
 
-The work profile is dependent on a device controller to function. Features such as *File Shuttle* and *contact search blocking* or any kind of isolation features must be implemented by the controller. Jeśli w danej chwili z nich nie korzystasz, zalecamy wyłączenie tych funkcji.
+The work profile is dependent on a device controller to function. Features such as *File Shuttle* and *contact search blocking* or any kind of isolation features must be implemented by the controller. You must also fully trust the device controller app, as it has full access to your data inside the work profile.
 
 This method is generally less secure than a secondary user profile; however, it does allow you the convenience of running apps in both the work and personal profiles simultaneously.
 
 ### VPN Killswitch
 
-Android 7 and above supports a VPN killswitch and it is available without the need to install third-party apps. This feature can prevent leaks if the VPN is disconnected. It can be found in :gear: **Settings** → **Network & internet** → **VPN** → :gear: → **Block connections without VPN**.
+Android 7 and above supports a VPN kill switch, and it is available without the need to install third-party apps. This feature can prevent leaks if the VPN is disconnected. It can be found in :gear: **Settings** → **Network & internet** → **VPN** → :gear: → **Block connections without VPN**.
 
 ### Global Toggles
 
@@ -143,7 +143,7 @@ If you have a Google account we suggest enrolling in the [Advanced Protection Pr
 
 The Advanced Protection Program provides enhanced threat monitoring and enables:
 
-- Stricter two factor authentication; e.g. that [FIDO](../basics/multi-factor-authentication.md#fido-fast-identity-online) **must** be used and disallows the use of [SMS OTPs](../basics/multi-factor-authentication.md#sms-or-email-mfa), [TOTP](../basics/multi-factor-authentication.md#time-based-one-time-password-totp) and [OAuth](https://en.wikipedia.org/wiki/OAuth)
+- Stricter two-factor authentication; e.g. that [FIDO](../basics/multi-factor-authentication.md#fido-fast-identity-online) **must** be used and disallows the use of [SMS OTPs](../basics/multi-factor-authentication.md#sms-or-email-mfa), [TOTP](../basics/multi-factor-authentication.md#time-based-one-time-password-totp) and [OAuth](https://en.wikipedia.org/wiki/OAuth)
 - Only Google and verified third-party apps can access account data
 - Scanning of incoming emails on Gmail accounts for [phishing](https://en.wikipedia.org/wiki/Phishing#Email_phishing) attempts
 - Stricter [safe browser scanning](https://www.google.com/chrome/privacy/whitepaper.html#malware) with Google Chrome
@@ -151,7 +151,7 @@ The Advanced Protection Program provides enhanced threat monitoring and enables:
 
  If you use non-sandboxed Google Play Services (common on stock operating systems), the Advanced Protection Program also comes with [additional benefits](https://support.google.com/accounts/answer/9764949?hl=en) such as:
 
-- Not allowing app installation outside of the Google Play Store, the OS vendor's app store, or via [`adb`](https://en.wikipedia.org/wiki/Android_Debug_Bridge)
+- Not allowing app installation outside the Google Play Store, the OS vendor's app store, or via [`adb`](https://en.wikipedia.org/wiki/Android_Debug_Bridge)
 - Mandatory automatic device scanning with [Play Protect](https://support.google.com/googleplay/answer/2812853?hl=en#zippy=%2Chow-malware-protection-works%2Chow-privacy-alerts-work)
 - Warning you about unverified applications
 
@@ -178,4 +178,4 @@ You will either be given the option to delete your advertising ID or to *Opt out
 
 [SafetyNet](https://developer.android.com/training/safetynet/attestation) and the [Play Integrity APIs](https://developer.android.com/google/play/integrity) are generally used for [banking apps](https://grapheneos.org/usage#banking-apps). Many banking apps will work fine in GrapheneOS with sandboxed Play services, however some non-financial apps have their own crude anti-tampering mechanisms which might fail. GrapheneOS passes the `basicIntegrity` check, but not the certification check `ctsProfileMatch`. Devices with Android 8 or later have hardware attestation support which cannot be bypassed without leaked keys or serious vulnerabilities.
 
-As for Google Wallet, we don't recommend this due to their [privacy policy](https://payments.google.com/payments/apis-secure/get_legal_document?ldo=0&ldt=privacynotice&ldl=en), which states you must opt-out if you don't want your credit rating and personal information shared with affiliate marketing services.
+As for Google Wallet, we don't recommend this due to their [privacy policy](https://payments.google.com/payments/apis-secure/get_legal_document?ldo=0&ldt=privacynotice&ldl=en), which states you must opt out if you don't want your credit rating and personal information shared with affiliate marketing services.

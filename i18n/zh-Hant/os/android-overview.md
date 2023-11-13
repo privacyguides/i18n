@@ -12,7 +12,7 @@ description: Android是一個開源作業系統，具有強大的安全保護，
 
 ### 選擇Android 發佈版本
 
-購買 Android 手機時，該設備的預設作業系統通常放入非 [Android 開源專案](https://source.android.com/)的應用程式與服務，成為侵入性整合。 例如， Google Play 服務擁有不可撤銷的權限，可存取您的檔案、聯絡人儲存空間、通話記錄、SMS訊息、位置、攝影機、麥克風、硬體識別碼等。 這些應用程式和服務增加了設備的攻擊面，成為 Android 各種隱私問題的來源。
+When you buy an Android phone, the default operating system comes bundled with apps and functionality that are not part of the Android Open Source Project. Many of these apps—even apps like the dialer which provide basic system functionality—require invasive integrations with Google Play Services, which in turn asks for privileges to access your files, contacts storage, call logs, SMS messages, location, camera, microphone, and numerous other things on your device in order for those basic system apps and many other apps to function in the first place. Frameworks like Google Play Services increase the attack surface of your device and are the source of various privacy concerns with Android.
 
 這個問題可以通過使用自訂的 Android 發行版來解決，而這些發行版不會附帶這種侵入性整合。 不幸的是，許多自定義 Android 發行版常常違反 Android 安全模式，不支持重要的安全功能，如 AVB 、回滾保護、韌體更新等。 一些發行版還提供了 [`userdebug`](https://source.android.com/setup/build/building#choose-a-target) 版本，這類版本可通過 [ ADB ](https://developer.android.com/studio/command-line/adb) 暴露了根目錄，且要求 [更寬鬆的](https://github.com/LineageOS/android_system_sepolicy/search?q=userdebug&type=code) SELinux政策以適應調試，導致進一步增加攻擊面並削弱安全模型。
 
@@ -60,11 +60,11 @@ Verified Boot確保作業系統檔案的完整性，從而防止具有物理訪�
 
 韌體更新對於維護安全性至關重要，沒有它們，您的設備就無法安全。 OEM 與其合作夥伴簽訂了支援協議，在有限的支持期內提供封閉式元件。 詳情請參閱每月 [Android 安全公告](https://source.android.com/security/bulletin)。
 
-由於手機的元件（例如處理器和無線電技術）依賴於閉源元件，因此更新必須由各自的製造商提供。 因此，您的購買裝置必須在有效的支援週期內。 [高通](https://www.qualcomm.com/news/releases/2020/12/16/qualcomm-and-google-announce-collaboration-extend-android-os-support-and) 和 [三星](https://news.samsung.com/us/samsung-galaxy-security-extending-updates-knox/) 設備支援年限為 4年，而較便宜產品的支援週期通常更短。 隨著 [Pixel 6](https://support.google.com/pixelphone/answer/4457705)的推出， Google 現在製造自己的 SoC ，他們將提供至少 5年的支持。
+由於手機的元件（例如處理器和無線電技術）依賴於閉源元件，因此更新必須由各自的製造商提供。 因此，您的購買裝置必須在有效的支援週期內。 [高通](https://www.qualcomm.com/news/releases/2020/12/16/qualcomm-and-google-announce-collaboration-extend-android-os-support-and) 和 [三星](https://news.samsung.com/us/samsung-galaxy-security-extending-updates-knox/) 設備支援年限為 4年，而較便宜產品的支援週期通常更短。 With the introduction of the [Pixel 6](https://support.google.com/pixelphone/answer/4457705), Google now makes their own SoC, and they will provide a minimum of 5 years of support. With the introduction of the Pixel 8 series, Google increased that support window to 7 years.
 
 對於 OEM 供應商或市場經銷商不提供韌體更新的 EOL 裝置，SoC 製造商不再支援。 這意味著這些設備的安全問題將得不到解決。
 
-例如， Fairphone 推銷其設備有 6年的支持。 然而， SoC （ Fairphone 4上的Qualcomm Snapdragon 750G ）的EOL日期要短得多。 這意味著，無論 Fairphone 是否繼續發布軟體安全更新， Qualcomm Fairphone 4 固件安全更新將於 2023年9月結束。
+Fairphone, for example, markets their Fairphone 4 device as receiving 6 years of support. 然而， SoC （ Fairphone 4上的Qualcomm Snapdragon 750G ）的EOL日期要短得多。 這意味著，無論 Fairphone 是否繼續發布軟體安全更新， Qualcomm Fairphone 4 固件安全更新將於 2023年9月結束。
 
 ### Android權限
 
@@ -94,7 +94,7 @@ Android 12:
 
 Android 13:
 
-- 同意 [鄰近的 wifi 訪問](https://developer.android.com/about/versions/13/behavior-changes-13#nearby-wifi-devices-permission). 附近 WiFi 接入點的 MAC地址是應用程式跟蹤用戶位置的常用方式。
+- A permission for [nearby Wi-Fi access](https://developer.android.com/about/versions/13/behavior-changes-13#nearby-wifi-devices-permission). The MAC addresses of nearby Wi-Fi access points was a popular way for apps to track a user's location.
 - 更多 [細微媒體權限](https://developer.android.com/about/versions/13/behavior-changes-13#granular-media-permissions)，這意味著您只能授予對圖像，視頻或音頻文件的存取權限。
 - 傳感器的背景使用需要 [`BODY_SENSORS`](https://developer.android.com/about/versions/13/behavior-changes-13#body-sensors-background-permission) 權限。
 
@@ -132,7 +132,7 @@ Android 13:
 
 **設備控制器**應用例如 [Shelter](../android.md#shelter) 需要建立不用企業 行動裝置管理(MDM) 工作設定檔，除非使用自定的Android 作業系統已包括。
 
-工作配置檔需靠裝置控制器才能運作。 控制器必須實現 *File Shuttle* 和 *Contact Search Blocking* 等功能或任何類型的隔離功能。 您還必須完全信任設備控制器應用程序，因為它可以完全訪問工作配置文件中的數據。
+工作配置檔需靠裝置控制器才能運作。 控制器必須實現 *File Shuttle* 和 *Contact Search Blocking* 等功能或任何類型的隔離功能。 You must also fully trust the device controller app, as it has full access to your data inside the work profile.
 
 此方法通常不如次要用戶配置檔安全，然而它確實允許您在工作和個人配置檔之間同時執行應用程式。
 
@@ -140,7 +140,7 @@ Android 13:
 
 ### VPN Killswitch
 
-Android 7以上版本支援VPN killswitch ，無需安裝第三方應用程式即可使用。 此功能可以防止VPN中斷連線時的洩漏。 它可以在 :gear: **設置** → **網路 & 網際網路** → **VPN** → :gear: → **區塊連接沒有 VPN**中找到。
+Android 7 and above supports a VPN kill switch, and it is available without the need to install third-party apps. 此功能可以防止VPN中斷連線時的洩漏。 它可以在 :gear: **設置** → **網路 & 網際網路** → **VPN** → :gear: → **區塊連接沒有 VPN**中找到。
 
 
 
@@ -162,7 +162,7 @@ Android 7以上版本支援VPN killswitch ，無需安裝第三方應用程式�
 
 進階防護計劃提供強化的威脅監控，並能夠：
 
-- 更嚴格的雙因素驗證；例如 **必須**使用 [FIDO](../basics/multi-factor-authentication.md#fido-fast-identity-online) ，禁用 [SMS OTP](../basics/multi-factor-authentication.md#sms-or-email-mfa)， [TOTP](../basics/multi-factor-authentication.md#time-based-one-time-password-totp) 和 [OAuth](https://en.wikipedia.org/wiki/OAuth)
+- Stricter two-factor authentication; e.g. that [FIDO](../basics/multi-factor-authentication.md#fido-fast-identity-online) **must** be used and disallows the use of [SMS OTPs](../basics/multi-factor-authentication.md#sms-or-email-mfa), [TOTP](../basics/multi-factor-authentication.md#time-based-one-time-password-totp) and [OAuth](https://en.wikipedia.org/wiki/OAuth)
 - 只有Google 和經過驗證的第三方應用程式才能存取帳戶資料
 - 掃描Gmail帳戶上的傳入電子郵件進行 [次網絡釣魚](https://en.wikipedia.org/wiki/Phishing#Email_phishing) 次嘗試
 - 使用 Google Chrome 進行更嚴格的 [安全瀏覽器掃描](https://www.google.com/chrome/privacy/whitepaper.html#malware)
@@ -170,7 +170,7 @@ Android 7以上版本支援VPN killswitch ，無需安裝第三方應用程式�
   
   如果您使用非沙盒 Google Play 服務（在庫存作業系統上很常見） ，進階保護計劃還附帶 [額外優惠](https://support.google.com/accounts/answer/9764949?hl=en) ，例如：
 
-- 不允許在Google Play 商店、作業系統供應商的應用程式商店之外安裝應用程式，或透過 [`adb`](https://en.wikipedia.org/wiki/Android_Debug_Bridge)安裝應用程式
+- Not allowing app installation outside the Google Play Store, the OS vendor's app store, or via [`adb`](https://en.wikipedia.org/wiki/Android_Debug_Bridge)
 
 - 強制自動裝置掃描與 [播放保護](https://support.google.com/googleplay/answer/2812853?hl=en#zippy=%2Chow-malware-protection-works%2Chow-privacy-alerts-work)
 - 警告您未經驗證的應用程式
@@ -204,4 +204,4 @@ Android 7以上版本支援VPN killswitch ，無需安裝第三方應用程式�
 
 [SafetyNet](https://developer.android.com/training/safetynet/attestation) 和 [Play Integrity API](https://developer.android.com/google/play/integrity) 通常用於 [銀行應用程式](https://grapheneos.org/usage#banking-apps)。 許多銀行應用程式在 GrapheneOS 使用沙盒Play服務可以正常運作，但一些非金融應用程式有自己的防篡改機制，這可能會失敗。 GrapheneOS 通過了 `basicIntegrity` 檢查，但沒有`ctsProfileMatch` 證明檢查。 Android 8 以上版本的裝置支援硬體認證，如果沒有洩漏金鑰或嚴重漏洞，則無法繞過。
 
-至於 Google 錢包，我們不建議您這樣做，因為他們的 [隱私政策](https://payments.google.com/payments/apis-secure/get_legal_document?ldo=0&ldt=privacynotice&ldl=en)規定，如果您不想與結盟行銷服務共享您的信用評級和個人信息，必須選擇退出。
+As for Google Wallet, we don't recommend this due to their [privacy policy](https://payments.google.com/payments/apis-secure/get_legal_document?ldo=0&ldt=privacynotice&ldl=en), which states you must opt out if you don't want your credit rating and personal information shared with affiliate marketing services.

@@ -12,7 +12,7 @@ description: אנדרואיד היא מערכת הפעלה בקוד פתוח ע�
 
 ### בחירת הפצת אנדרואיד
 
-כאשר אתה קונה טלפון אנדרואיד, מערכת ההפעלה המוגדרת כברירת מחדל של המכשיר מגיעה לרוב עם אינטגרציה פולשנית עם אפליקציות ושירותים שאינם חלק מ[פרויקט הקוד הפתוח של אנדרואיד](https://source.android.com/). דוגמה כזו היא שירותי Google Play, שיש לו הרשאות בלתי חוזרות לגשת לקבצים שלך, אחסון אנשי הקשר, יומני שיחות, הודעות SMS, מיקום, מצלמה, מיקרופון, מזהי חומרה וכו'. אפליקציות ושירותים אלו מגדילים את משטח ההתקפה של המכשיר שלך ומהווים מקור לחששות פרטיות שונים עם אנדרואיד.
+When you buy an Android phone, the default operating system comes bundled with apps and functionality that are not part of the Android Open Source Project. Many of these apps—even apps like the dialer which provide basic system functionality—require invasive integrations with Google Play Services, which in turn asks for privileges to access your files, contacts storage, call logs, SMS messages, location, camera, microphone, and numerous other things on your device in order for those basic system apps and many other apps to function in the first place. Frameworks like Google Play Services increase the attack surface of your device and are the source of various privacy concerns with Android.
 
 ניתן לפתור בעיה זו באמצעות הפצת אנדרואיד מותאמת אישית שאינה מגיעה עם אינטגרציה פולשנית כזו. לרוע המזל, הפצות רבות של אנדרואיד מותאמות אישית מפרות לעתים קרובות את מודל האבטחה של אנדרואיד בכך שאינן תומכות בתכונות אבטחה קריטיות כגון AVB, הגנה לאחור, עדכוני קושחה וכן הלאה. חלק מההפצות מספקות גם רכיבי [`userdebug`](https://source.android.com/setup/build/building#choose-a-target) אשר חושפים שורש באמצעות [ADB](https://developer.android.com/studio/command-line/adb) ודורשים [מדיניות](https://github.com/LineageOS/android_system_sepolicy/search?q=userdebug&type=code) SELinux מתירנית יותר כדי להתאים לתכונות ניפוי באגים, וכתוצאה מכך משטח התקפה מוגדל נוסף ומודל אבטחה מוחלש.
 
@@ -60,11 +60,11 @@ AFWall+ פועל על בסיס גישת [סינון חבילות](https://en.wik
 
 עדכוני קושחה הם קריטיים לשמירה על האבטחה ובלעדיהם המכשיר שלך לא יכול להיות מאובטח. ליצרני ציוד מקורי יש הסכמי תמיכה עם השותפים שלהם כדי לספק את רכיבי הקוד הסגור לתקופת תמיכה מוגבלת. אלה מפורטים ב[עלוני האבטחה של אנדרואיד](https://source.android.com/security/bulletin) החודשיים.
 
-מכיוון שרכיבי הטלפון, כגון טכנולוגיות המעבד והרדיו, מסתמכים על רכיבי קוד סגור, העדכונים חייבים להיות מסופקים על ידי היצרנים המתאימים. לכן, חשוב שתרכוש מכשיר בתוך מחזור תמיכה פעיל. [קוואלקום](https://www.qualcomm.com/news/releases/2020/12/16/qualcomm-and-google-announce-collaboration-extend-android-os-support-and) ו[סמסונג](https://news.samsung.com/us/samsung-galaxy-security-extending-updates-knox/) תומכות במכשירים שלהן במשך 4 שנים, בעוד שלמוצרים זולים יותר יש לרוב מחזורי תמיכה קצרים יותר. עם ההשקה של [פיקסל 6](https://support.google.com/pixelphone/answer/4457705), גוגל מייצרת כעת את ה-SoC שלהם והם יספקו לפחות 5 שנים של תמיכה.
+מכיוון שרכיבי הטלפון, כגון טכנולוגיות המעבד והרדיו, מסתמכים על רכיבי קוד סגור, העדכונים חייבים להיות מסופקים על ידי היצרנים המתאימים. לכן, חשוב שתרכוש מכשיר בתוך מחזור תמיכה פעיל. [קוואלקום](https://www.qualcomm.com/news/releases/2020/12/16/qualcomm-and-google-announce-collaboration-extend-android-os-support-and) ו[סמסונג](https://news.samsung.com/us/samsung-galaxy-security-extending-updates-knox/) תומכות במכשירים שלהן במשך 4 שנים, בעוד שלמוצרים זולים יותר יש לרוב מחזורי תמיכה קצרים יותר. With the introduction of the [Pixel 6](https://support.google.com/pixelphone/answer/4457705), Google now makes their own SoC, and they will provide a minimum of 5 years of support. With the introduction of the Pixel 8 series, Google increased that support window to 7 years.
 
 מכשירי EOL שאינם נתמכים עוד על ידי יצרן ה-SoC אינם יכולים לקבל עדכוני קושחה מספקי OEM או מפיצי אנדרואיד לאחר השוק. משמעות הדבר היא שבעיות אבטחה במכשירים אלה יישארו ללא תיקון.
 
-Fairphone, למשל, משווקת את המכשירים שלהם כמקבלים 6 שנות תמיכה. עם זאת, ל-SoC (Qualcomm Snapdragon 750G ב-Fairphone 4) יש תאריך EOL קצר בהרבה. המשמעות היא שעדכוני אבטחת קושחה מ-Qualcomm עבור Fairphone 4 יסתיימו בספטמבר 2023, ללא קשר לשאלה אם Fairphone תמשיך לשחרר עדכוני אבטחה תוכנה.
+Fairphone, for example, markets their Fairphone 4 device as receiving 6 years of support. עם זאת, ל-SoC (Qualcomm Snapdragon 750G ב-Fairphone 4) יש תאריך EOL קצר בהרבה. המשמעות היא שעדכוני אבטחת קושחה מ-Qualcomm עבור Fairphone 4 יסתיימו בספטמבר 2023, ללא קשר לשאלה אם Fairphone תמשיך לשחרר עדכוני אבטחה תוכנה.
 
 ### הרשאות אנדרואיד
 
@@ -91,7 +91,7 @@ Fairphone, למשל, משווקת את המכשירים שלהם כמקבלים 
 
 אנדרואיד 13:
 
-- הרשאה ל[גישה לאינטרנט אלחוטי בקרבת מקום](https://developer.android.com/about/versions/13/behavior-changes-13#nearby-wifi-devices-permission). כתובות ה-MAC של נקודות גישה אלחוטיות סמוכות היו דרך פופולרית עבור אפליקציות לעקוב אחר מיקומו של משתמש.
+- A permission for [nearby Wi-Fi access](https://developer.android.com/about/versions/13/behavior-changes-13#nearby-wifi-devices-permission). The MAC addresses of nearby Wi-Fi access points was a popular way for apps to track a user's location.
 - [הרשאות מדיה מפורטות](https://developer.android.com/about/versions/13/behavior-changes-13#granular-media-permissions) יותר, כלומר אתה יכול להעניק גישה לתמונות, סרטונים או קבצי אודיו בלבד.
 - שימוש ברקע בחיישנים מחייב כעת את הרשאת [`BODY_SENSORS`](https://developer.android.com/about/versions/13/behavior-changes-13#body-sensors-background-permission).
 
@@ -121,13 +121,13 @@ Fairphone, למשל, משווקת את המכשירים שלהם כמקבלים 
 
 יישום **בקר מכשיר** כגון [Shelter](../android.md#shelter) נדרש ליצירת פרופיל עבודה ללא ארגון MDM, אלא אם אתה משתמש במערכת הפעלה אנדרואיד מותאמת אישית הכוללת אחת.
 
-פרופיל העבודה תלוי בבקר התקן כדי לתפקד. תכונות כגון *מעבורת קבצים* ו*חסימת חיפוש אנשי קשר* או כל סוג של תכונות בידוד חייבות להיות מיושמות על ידי הבקר. עליך גם לסמוך באופן מלא על אפליקציית בקר המכשיר, מכיוון שיש לה גישה מלאה לנתונים שלך בתוך פרופיל העבודה.
+פרופיל העבודה תלוי בבקר התקן כדי לתפקד. תכונות כגון *מעבורת קבצים* ו*חסימת חיפוש אנשי קשר* או כל סוג של תכונות בידוד חייבות להיות מיושמות על ידי הבקר. You must also fully trust the device controller app, as it has full access to your data inside the work profile.
 
 שיטה זו בדרך כלל פחות מאובטחת מפרופיל משתמש משני; עם זאת, זה כן מאפשר לך את הנוחות של הפעלת אפליקציות בפרופיל העבודה וגם בפרופיל האישי בו-זמנית.
 
 ### מתג הרג VPN
 
-אנדרואיד 7 ומעלה תומך ב-VPN Killswitch והוא זמין ללא צורך בהתקנת אפליקציות של צד שלישי. תכונה זו יכולה למנוע דליפות אם ה-VPN מנותק. ניתן למצוא אותו ב:gear: **הגדרות** ← **רשת & אינטרנט** ← **VPN** ← :gear: ← **חסום חיבורים ללא VPN**.
+Android 7 and above supports a VPN kill switch, and it is available without the need to install third-party apps. תכונה זו יכולה למנוע דליפות אם ה-VPN מנותק. ניתן למצוא אותו ב:gear: **הגדרות** ← **רשת & אינטרנט** ← **VPN** ← :gear: ← **חסום חיבורים ללא VPN**.
 
 ### בוררים גלובליים
 
@@ -143,7 +143,7 @@ Fairphone, למשל, משווקת את המכשירים שלהם כמקבלים 
 
 תוכנית ההגנה המתקדמת מספקת ניטור איומים משופר ומאפשרת:
 
-- אימות דו-גורמי מחמיר יותר; למשל שחייבים להשתמש ב-[FIDO](../basics/multi-factor-authentication.md#fido-fast-identity-online) **** ואוסר את השימוש ב- [SMS OTPs](../basics/multi-factor-authentication.md#sms-or-email-mfa), [TOTP](../basics/multi-factor-authentication.md#time-based-one-time-password-totp) ו [OAuth](https://en.wikipedia.org/wiki/OAuth)
+- Stricter two-factor authentication; e.g. that [FIDO](../basics/multi-factor-authentication.md#fido-fast-identity-online) **must** be used and disallows the use of [SMS OTPs](../basics/multi-factor-authentication.md#sms-or-email-mfa), [TOTP](../basics/multi-factor-authentication.md#time-based-one-time-password-totp) and [OAuth](https://en.wikipedia.org/wiki/OAuth)
 - רק גוגל ואפליקציות צד שלישי מאומתות יכולות לגשת לנתוני החשבון
 - סריקה של הודעות אימייל נכנסות בחשבונות Gmail עבור ניסיונות [דיוג](https://en.wikipedia.org/wiki/Phishing#Email_phishing)
 - [סריקת דפדפן בטוחה](https://www.google.com/chrome/privacy/whitepaper.html#malware) מחמירה יותר עם Google Chrome
@@ -151,7 +151,7 @@ Fairphone, למשל, משווקת את המכשירים שלהם כמקבלים 
 
  אם אתה משתמש בשירותי Google Play שאינם בארגז חול (נפוצים במערכות הפעלה במלאי), תוכנית ההגנה המתקדמת מגיעה גם עם [הטבות נוספות](https://support.google.com/accounts/answer/9764949?hl=en) כגון:
 
-- לא מאפשר התקנת אפליקציה מחוץ לחנות Google Play, לחנות האפליקציות של ספק מערכת ההפעלה או דרך [`adb`](https://en.wikipedia.org/wiki/Android_Debug_Bridge)
+- Not allowing app installation outside the Google Play Store, the OS vendor's app store, or via [`adb`](https://en.wikipedia.org/wiki/Android_Debug_Bridge)
 - סריקת מכשיר אוטומטי חובה עם [Play Protect](https://support.google.com/googleplay/answer/2812853?hl=en#zippy=%2Chow-malware-protection-works%2Chow-privacy-alerts-work)
 - מזהיר אותך לגבי יישומים לא מאומתים
 
@@ -178,4 +178,4 @@ Fairphone, למשל, משווקת את המכשירים שלהם כמקבלים 
 
 [SafetyNet](https://developer.android.com/training/safetynet/attestation) וה[ממשק API של Play Integrity](https://developer.android.com/google/play/integrity) משמשים בדרך כלל עבור [אפליקציות בנקאיות](https://grapheneos.org/usage#banking-apps). אפליקציות בנקאות רבות יעבדו מצוין ב-GrapheneOS עם שירותי Play בארגז חול, אולם לחלק מהאפליקציות הלא פיננסיות יש מנגנוני אנטי-שיבוש גולמיים משלהם שעלולים להיכשל. GrapheneOS עובר את בדיקת `basicIntegrity`, אך לא את בדיקת האישור `ctsProfileMatch`. למכשירים עם אנדרואיד 8 ואילך יש תמיכה באישורי חומרה שלא ניתן לעקוף ללא מפתחות דלופים או פגיעויות חמורות.
 
-לגבי ארנק Google, אנו לא ממליצים על כך בשל [ מדיניות הפרטיות שלהם](https://payments.google.com/payments/apis-secure/get_legal_document?ldo=0&ldt=privacynotice&ldl=en), הקובעת שעליך לבטל את הסכמתך אם אינך רוצה שדירוג האשראי והמידע האישי שלך ישותפו עם שירותי שיווק שותפים.
+As for Google Wallet, we don't recommend this due to their [privacy policy](https://payments.google.com/payments/apis-secure/get_legal_document?ldo=0&ldt=privacynotice&ldl=en), which states you must opt out if you don't want your credit rating and personal information shared with affiliate marketing services.
