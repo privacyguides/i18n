@@ -110,7 +110,7 @@ Può essere molto più facile da eseguire rispetto allo stesso MVT, uno strument
 [:octicons-eye-16:](https://imazing.com/privacy-policy){ .card-link title="Politica sulla Privacy" }
 [:octicons-info-16:](https://imazing.com/spyware-analyzer){ .card-link title=Documentazione}
 
-??? downloads
+??? downloads "Scarica"
 
     - [:simple-windows11: Windows](https://imazing.com/download)
     - [:simple-apple: macOS](https://imazing.com/download)
@@ -120,12 +120,12 @@ iMazing automatizza e ti guida interattivamente al procedimento di utilizzo di [
 
 ## Verifica su dispositivo
 
-These are apps you can install which check your device and operating system for signs of tampering, and validate the identity of your device.
+Si tratta di app installabili che controllano il tuo dispositivo e il sistema operativo, in cerca di segni di manomissione, convalidandone l'identità.
 
 !!! warning "Attenzione"
 
 ```
-L'uso di queste applicazioni non è sufficiente a determinare che un dispositivo sia "pulito" e non sia stato preso di mira da un particolare strumento spyware.
+L'utilizzo di queste app non è sufficiente per determinarre che un dispositivo sia "pulito" e non preso di mira da uno strumento spyware in particolare.
 ```
 
 ### Auditor (Android)
@@ -133,48 +133,48 @@ L'uso di queste applicazioni non è sufficiente a determinare che un dispositivo
 !!! recommendation "consiglio"
 
 ```
-![Auditor logo](assets/img/device-integrity/auditor.svg#only-light){ align=right }
-![Auditor logo](assets/img/device-integrity/auditor-dark.svg#only-dark){ align=right }
+![Logo di Auditor](assets/img/device-integrity/auditor.svg#only-light){ align=right }
+![Logo di Auditor](assets/img/device-integrity/auditor-dark.svg#only-dark){ align=right }
 
-**Auditor** è un app che sfrutta le caratteristiche di sicurezza dell'hardware per fornire un monitoraggio dell'integrità del dispositivo, convalidando attivatemnte l'identità di un dispositivo e l'integrità del suo sistema operativo. Attualmente funziona solo con GrapheneOS o con il sistema operativo stock per i [dispositivi supportati](https://attestation.app/about#device-support).
+**Auditor** è un'app che sfrutta le funzionalità di sicurezza hardware per fornire il monitoraggio dell'integrità del dispositivo, convalidando attivamente l'integrità di un dispositivo e l'iintegrità del suo sistema operativo. Al momento, funziona soltanto con GrapheneOS o il sistema operativo di fabbrica per i [dispositivi supportati](https://attestation.app/about#device-support).
 
 [:octicons-home-16: Homepage](https://attestation.app){ .md-button .md-button--primary }
-[:octicons-eye-16:](https://attestation.app/privacy-policy){ .card-link title="Informativa sulla Privacy" }
+[:octicons-eye-16:](https://attestation.app/privacy-policy){ .card-link title="Politica sulla Privacy" }
 [:octicons-info-16:](https://attestation.app/about){ .card-link title=Documentazione}
-[:octicons-code-16:](https://attestation.app/source){ .card-link title="Codice sorgente" }
+[:octicons-code-16:](https://attestation.app/source){ .card-link title="Codice Sorgente" }
 [:octicons-heart-16:](https://attestation.app/donate){ .card-link title=Contribuisci }
 
-??? downloads
+??? downloads "Scarica"
 
-    - [:simple-googleplay: Google Play](https://play.google.com/store/apps/details?id=app.attestation.auditor.play)
+    - [:simple-googleplay: Google Play](https://play.google.com/store/apps/details?id=app.attestation.auditor.play&gl=It)
     - [:simple-github: GitHub](https://github.com/GrapheneOS/Auditor/releases)
     - [:material-cube-outline: GrapheneOS App Store](https://github.com/GrapheneOS/Apps/releases)
 ```
 
-Auditor is not a scanning/analysis tool like some other tools on this page, rather it uses your device's hardware-backed keystore to allow you to verify the identity of your device and gain assurance that the operating system itself hasn't been tampered with or downgraded via verified boot. This provides a very robust integrity check of your device itself, but doesn't necessarily check whether the user-level apps running on your device are malicious.
+Auditor non è uno strumento di scansione/analisi come altri elencati su questa pagina, piuttosto, utilizza il keystore supportato dal hardware del tuo dispositivo, per consentirti di verificarne l'identità e avere la certezza che il sistema operativo stesso non sia stato manomesso o declassato, tramite l'avvio verificato. Ciò fornisce un controllo d'integrità molto robusto del tuo stesso dispositivo, ma non verifica necessariamente che le app a livello utente, eseguite sul tuo dispositivo, siano dannose.
 
-Auditor performs attestation and intrusion detection with **two** devices, an _auditee_ (the device being verified) and an _auditor_ (the device performing the verification). The auditor can be any Android 10+ device (or a remote web service operated by [GrapheneOS](android.md#grapheneos)), while the auditee must be a specifically [supported device](https://attestation.app/about#device-support). Auditor works by:
+Auditor esegue l'attestazione e il rilevamento delle intrusioni con **due** dispositivi, un **controllato** (il dispositivo da verificare) e un **controllore** (il dispositivo che esegue la verifica). Il controllore può essere qualsiasi dispositivo con Android 10+ (o un servizio web da remoto operato da [GrapheneOS](android.md#grapheneos)), mentre il controllato dev'essere, nello specifico, un [dispositivo supportato](https://attestation.app/about#device-support). Auditor opera:
 
-- Using a [Trust On First Use (TOFU)](https://en.wikipedia.org/wiki/Trust_on_first_use) model between an _auditor_ and _auditee_, the pair establish a private key in the [hardware-backed keystore](https://source.android.com/security/keystore/) of the _Auditor_.
-- The _auditor_ can either be another instance of the Auditor app or the [Remote Attestation Service](https://attestation.app).
-- The _auditor_ records the current state and configuration of the _auditee_.
-- Should tampering with the operating system of the _auditee_ happen after the pairing is complete, the auditor will be aware of the change in the device state and configurations.
-- You will be alerted to the change.
+- Utilizzando un modello di [Fiducia al primo uso (TOFU)](https://en.wikipedia.org/wiki/Trust_on_first_use) tra un _controllore_ e un _controllato_; la coppia stabilisce una chiave privata nel [keystore supportato dal hardware](https://source.android.com/docs/security/features/keystore?hl=it) del _Controllore_.
+- Il _controllore_ può essere un'altra istanza dell'app di Auditor o il [Servizio di Attestazione da Remoto](https://attestation.app).
+- Il _controllore_ registra lo stato corrente e la configurazione del _controllato_.
+- Dovesse verificarsi la manomissione del sistema operativo del _controllato_ dopo il completamento dell'associazione, il controllore sarà a conoscenza del cambiamento nello stato e nelle configurazioni del dispositivo.
+- Riceverai un avviso del cambiamento.
 
-It is important to note that Auditor can only effectively detect changes **after** the initial pairing, not necessarily during or before due to its TOFU model. To make sure that your hardware and operating system is genuine, [perform local attestation](https://grapheneos.org/install/web#verifying-installation) immediately after the device has been installed and prior to any internet connection.
+È importante notare che il Controllore può effettivamente rilevare i cambiamenti soltanto **dopo** l'associazione iniziale, non necessariamente durante o prima, a causa del suo modello TOFU. Peer assicurarsi che il proprio hardwar e sistema operativo siano autentici, [esegui l'attestazione locale](https://grapheneos.org/install/web#verifying-installation) immediatamente dopo l'installazione del dispositivo e prima di qualsiasi connessione a Internet.
 
-No personally identifiable information is submitted to the attestation service. We recommend that you sign up with an anonymous account and enable remote attestation for continuous monitoring.
+Nessuna informazione personalmente identificabile è inviata al servizio di attestazione. Ti consigliamo di iscriverti con un profilo anonimo e di abilitare l'attestazione da remoto per il monitoraggio costante.
 
-If your [threat model](basics/threat-modeling.md) requires privacy, you could consider using [Orbot](tor.md#orbot) or a VPN to hide your IP address from the attestation service.
+Se il tuo [modello di minaccia](basics/threat-modeling.md) richiede la privacy, potresti considerare l'utilizzo di [Orbot](tor.md#orbot) o di una VPN, per nascondere il tuo indirizzo IP dal servizio di attestazione.
 
-## Scanner On-Device
+## Scanner su dispositivo
 
-These are apps you can install on your device which scan your device for signs of compromise.
+Si tratta di app che puoi installare sul tuo dispositivo, che lo scansionano in cerca di segni di compromissione.
 
 !!! warning "Attenzione"
 
 ```
-L'uso di queste applicazioni non è sufficiente a determinare che un dispositivo sia "pulito" e non sia stato preso di mira da un particolare strumento spyware.
+L'utilizzo di queste app non è sufficiente per determinare che un dispositivo sia "pulito" e non preso di mira da uno strumento spyware in particolare.
 ```
 
 ### Hypatia (Android)
@@ -185,19 +185,19 @@ L'uso di queste applicazioni non è sufficiente a determinare che un dispositivo
 ![Logo di Hypatia](assets/img/device-integrity/hypatia.svg#only-light){ align=right }
 ![Logo di Hypatia](assets/img/device-integrity/hypatia-dark.svg#only-dark){ align=right }
 
-**Hypatia** è uno scanner di malware in tempo reale open source per Android, realizzato dallo sviluppatore di [DivestOS](android.md#divestos). Accede a Internet per scaricare gli aggiornamenti del database delle firme, ma non carica i tuoi file o i tuoi metadati sul cloud (le scansioni vengono eseguite interamente in locale).
+**Hypatia** è uno scanner di malware open source e in tempo reale per Android, dallo sviluppatore di [DivestOS](android.md#divestos). Accede a Internet per scaricare gli aggiornamenti del database delle firme, ma non carica i tuoi file o alcun metadato sul cloud (le scansioni sono eseguite interamente localmente).
 
-[:octicons-home-16: Pagina Principale](https://divestos.org/pages/our_apps#hypatia){ .md-button .md-button--primary }
+[:octicons-home-16: Homepage](https://divestos.org/pages/our_apps#hypatia){ .md-button .md-button--primary }
 [:octicons-eye-16:](https://divestos.org/pages/privacy_policy#hypatia){ .card-link title="Politica sulla Privacy" }
 [:octicons-code-16:](https://github.com/divested-mobile/hypatia){ .card-link title="Codice Sorgente" }
 [:octicons-heart-16:](https://divested.dev/pages/donate){ .card-link title=Contribuisci }
 
-??? downloads "Scarica"
+??? downloads
 
     - [:simple-android: F-Droid](https://f-droid.org/packages/us.spotco.malwarescanner/)
 ```
 
-Hypatia è particolarmente abile nel rilevare gli stalkerware più comuni: se sospetti di essere vittima di stalkerware, dovresti [visitare questa pagina](https://stopstalkerware.org/it/informazioni-per-le-vittime/) per consigli.
+Hypatia è particolarmente abile nel rilevare gli stalkerware più comuni: se sospetti di esserne vittima, dovresti [visitare questa pagina](https://stopstalkerware.org/information-for-survivors/) per ricevere consigli a riguardo.
 
 ### iVerify (iOS)
 
@@ -206,19 +206,19 @@ Hypatia è particolarmente abile nel rilevare gli stalkerware più comuni: se so
 ```
 ![Logo di iVerify](assets/img/device-integrity/iverify.webp){ align=right }
 
-**iVerify** è un'applicazione per iOS che esegue una scansione automatica del tuo dispositivo per verificare le impostazioni di configurazione, il livello delle patch e altre aree di sicurezza. Controlla inoltre che il tuo dispositivo non presenti indicatori di compromissione da parte di strumenti di jailbreak o spyware come Pegasus.
+**iVerify** è un'app per iOS che scansiona automaticamente il tuo dispositivo per verificarne le impostazioni di configurazione, il livello di correzione e altre aree di sicurezza. Inoltre, verifica la presenza di indicatori di compromissione del tuo dispositivo, da parte di strumenti per jailbreak o spyware, come Pegasus.
 
-[:octicons-home-16: Pagina Principale](https://www.iverify.io/consumer){ .md-button .md-button--primary }
+[:octicons-home-16: Homepage](https://www.iverify.io/consumer){ .md-button .md-button--primary }
 [:octicons-eye-16:](https://www.iverify.io/privacy-policy){ .card-link title="Politica sulla Privacy" }
 [:octicons-info-16:](https://www.iverify.io/frequently-asked-questions#iVerify-General){ .card-link title=Documentazione}
 
-??? downloads "Scarica"
+??? downloads
 
-    - [:simple-appstore: App Store](https://apps.apple.com/it/app/iverify-secure-your-phone/id1466120520)
+    - [:simple-appstore: App Store](https://apps.apple.com/us/app/iverify/id1466120520)
 ```
 
-Come tutte le app iOS, iVerify è limitata a ciò che può osservare sul tuo dispositivo dall'interno della Sandbox delle app iOS. Non fornirà un'analisi robusta come uno strumento di analisi del sistema completo come [MVT](#mobile-verification-toolkit). La sua funzione principale è quella di rilevare se al tuo dispositivo è stato effettuato il jailbroken, cosa che è efficace nell'individuare, tuttavia un'ipotetica minaccia progettata _specificamente_ per aggirare i controlli di iVerify probabilmente riuscirebbe a farlo.
+Come tutte le app per iOS, iVerify è limitata in ciò che può osservare sul tuo dispositivo, dalla Sandbox delle app di iOS. Non fornirà un'analisi robusta come quella di uno strumento di analisi dell'intero sistema come [MVT](#mobile-verification-toolkit). La sua funzione principale è rilevare se il tuo dispositivo ha subito il jailbreak, cosa in cui è efficiente, tuttavia, una minaccia ipotetica progettata _specificamente_ per superare i controlli di iVerify, potebbe riuscire nel proprio intento.
 
-iVerify **non** è uno strumento "antivirus" e non è in grado di rilevare malware non a livello di sistema, come ad esempio tastiere personalizzate o configurazioni Wi-Fi Sync dannose.
+iVerify **non** è un "antivirus" e non rileverà malware non di sistema, come ad esempio, tastiere personalizzate o configurazioni di sincronizzazione Wi-Fi dannose.
 
-Oltre alla scansione del dispositivo, iVerify include anche una serie di strumenti di sicurezza aggiuntivi che potrebbero risultarti utili, tra cui i promemoria per il riavvio del dispositivo, notifiche di aggiornamento di iOS (spesso più rapide rispetto al rilascio scaglionato degli aggiornamenti di Apple), alcune guide di base sulla privacy e sulla sicurezza e uno strumento DNS su HTTPS in grado di connettere le query [DNS](dns.md) del tuo dispositivo in modo sicuro a Quad9, Cloudflare o Google.
+Oltre a scansionare il dispositivo, inoltre, iVerify include una serie di utilità di sicurezza aggiuntive che potresti trovare utili, inclusi promemoria sul riavvio del dispositivo, notifiche di aggiornamento di iOS (spesso più rapide del sistema scaglionato di notifiche sugli aggiornamenti di Apple), alcune guide essenziali su privacy e sicurezza e uno strumento DNS over HTTPS che può connettere le richieste [DNS](dns.md) del tuo dispositivo in sicurezza, con Quad9, Cloudflare o Google.

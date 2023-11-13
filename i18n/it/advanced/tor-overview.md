@@ -63,30 +63,30 @@ La rete Tor non è uno strumento di protezione della privacy perfetto in tutti i
 
 Il rilascio dell'applicazione mobile *Orbot* ha portato molte persone a descrivere Tor come una "VPN gratuita" per tutto il traffico del tuo dispositivo. Tuttavia, trattare Tor in questo modo comporta alcuni pericoli rispetto a una tipica VPN.
 
-A differenza dei nodi di uscita di Tor, i fornitori di VPN di solito non sono *attivamente* [malintenzionati](#caveats). Poiché i nodi di uscita Tor possono essere creati da chiunque, sono punti caldi per il monitoraggio della rete e per le modifiche. Nel 2020, è stato documentato che molti nodi di uscita Tor effettuavano il downgrade del traffico HTTPS in HTTP al fine di [dirottare le transazioni in criptovaluta](https://therecord.media/thousands-of-tor-exit-nodes-attacked-cryptocurrency-users-over-the-past-year). Sono stati osservati anche altri attacchi ai nodi di uscita, come la sostituzione dei download tramite canali non crittografati con malware. HTTPS attenua in una certa misura queste minacce.
+A differenza dei nodi di uscita di Tor, i fornitori di VPN di solito non sono *attivamente* [malevoli](#caveats). Poiché i nodi di uscita Tor possono essere creati da chiunque, sono punti caldi per il monitoraggio della rete e per le modifiche. Nel 2020, è stato documentato che molti nodi di uscita Tor effettuavano il downgrade del traffico HTTPS in HTTP al fine di [dirottare le transazioni in criptovaluta](https://therecord.media/thousands-of-tor-exit-nodes-attacked-cryptocurrency-users-over-the-past-year). Sono stati osservati anche altri attacchi ai nodi di uscita, come la sostituzione dei download tramite canali non crittografati con malware. HTTPS attenua in una certa misura queste minacce.
 
 Come abbiamo già accennato, Tor è anche facilmente identificabile sulla rete. A differenza di un vero e proprio provider VPN, l'utilizzo di Tor ti farà passare per una persona che probabilmente sta cercando di eludere le autorità. In un mondo perfetto, Tor sarebbe visto dagli amministratori di rete e dalle autorità come uno strumento dai molteplici usi (come vengono viste le VPN), ma in realtà la percezione di Tor è ancora molto meno legittima di quella delle VPN commerciali, per cui l'uso di una VPN vera e propria fornisce una plausibile negazione, ad esempio "la stavo usando solo per guardare Netflix", ecc.
 
-### L'utilizzo di Tor non è irrivelabile
+### L'utilizzo di Tor non è irrilevabile
 
-**Even if you use bridges and pluggable transports,** the Tor Project provides no tools to hide the fact that you are using Tor from your ISP. Even using obfuscated "pluggable transports" or non-public bridges do not hide the fact that you are using a private communications channel. The most popular pluggable transports like obfs4 (which obfuscates your traffic to "look like nothing") and meek (which uses domain fronting to camouflage your traffic) can be [detected](https://www.hackerfactor.com/blog/index.php?/archives/889-Tor-0day-Burning-Bridges.html) with fairly standard traffic analysis techniques. Snowflake has similar issues, and can be [easily detected](https://www.hackerfactor.com/blog/index.php?/archives/944-Tor-0day-Snowflake.html) *before* a Tor connection is even established.
+**Anche se utilizzi ponti e trasporti collegabili**, Tor Project non fornisce alcuno strumento per nascondere che tu stia utilizzando Tor dal tuo ISP. Nemmeno l'utilizzo di "trasporti collegabili" o di ponti non pubblici, nasconde il fatto che tu stia utilizzando un canale privato di comunicazione. I trasporti collegabili più popolari, come obfs4 (che offusca il tuo traffico affinché "non sembri niente") e meek (che utilizza la falsificazione del dominio per camuffare il tuo traffico), sono [rilevabili](https://www.hackerfactor.com/blog/index.php?/archives/889-Tor-0day-Burning-Bridges.html) con tecniche di analisi del traffico abbastanza standard. Snowflake ha problemi simili ed è [facilmente rilevabile](https://www.hackerfactor.com/blog/index.php?/archives/944-Tor-0day-Snowflake.html), persino *prima* che una connessione a Tor sia stabilita.
 
-Pluggable transports other than these three do exist, but typically rely on security through obscurity to evade detection. They aren't impossible to detect, they are just used by so few people that it's not worth the effort building detectors for them. They shouldn't be relied upon if you specifically are being monitored.
+Esistono altri trasporti collegabili oltre questi tre, ma si affidano tipicamente alla sicurezza tramite l'oscuramento per eludere il rilevamento. Non sono impossibili da rilevare, sono semplicemente utilizzati da così poche persone, che non vale la pena creare dei rilevatori specifici. Non ci si dovrebbe affidare, specificamente se si è monitorati.
 
-It is critical to understand the difference between bypassing censorship and evading detection. It is easier to accomplish the former because of the many real-world limitations on what network censors can realistically do en masse, but these techniques do not hide the fact that you—*specifically* you—are using Tor from an interested party monitoring your network.
+È fondamentale comprendere la differenza tra l'aggiramento della censura e l'elusione del rilevamento. È più facile compiere la prima a causa delle molte limitazioni reali su ciò che i censori della rete possano realmente compiere in massa, ma tali tecniche non nascondono che tu, tu *nello specifico*, stai utilizzando Tor, da una parte interessata che monitora la tua rete.
 
-### Tor Browser is not the most *secure* browser
+### Il Browser Tor non è il browser più *sicuro*
 
-Anonymity can often be at odds with security: Tor's anonymity requires every user to be identical, which creates a monoculture (the same bugs are present across all Tor Browser users). As a cybersecurity rule of thumb, monocultures are generally regarded as bad: Security through diversity (which Tor lacks) provides natural segmentation by limiting vulnerabilities to smaller groups, and is therefore usually desirable, but this diversity is also less good for anonymity.
+L'anonimato può spesso essere in contrasto con la sicurezza: l'anonimato di Tor richiede che ogni utente sia identico, creando una monocultura (gli stessi bug sono presenti per tutti gli utenti del Tor Browser). Come regola generale di cybersicurezza, le monoculture sono generalmente considerate come negative: la sicurezza tramite la diversità (che manca a Tor), fornisce la segmentazione naturale, limitando le vulnerabilità dei gruppi più piccoli, ed è dunque più desiderabile, pur essendo a costo dell'anonimato.
 
-Additionally, Tor Browser is based on Firefox's Extended Support Release builds, which only receives patches for vulnerabilities considered *Critical* and *High* (not *Medium* and *Low*). This means that attackers could (for example):
+Inoltre, Tor Browser si basa sulle build delle Versioni di Supporto Esteso di Firefox, che ricevono correzioni soltanto per le vulnerabilità considerate *Critiche* ed *Elevate* (non *Medie* e *Basse*). Ciò significa che dei malintenzionati potrebbero, ad esempio:
 
-1. Look for new Critical/High vulnerabilities in Firefox nightly or beta builds, then check if they are exploitable in Tor Browser (this vulnerability period can last weeks).
-2. Chain *multiple* Medium/Low vulnerabilities together until they get the level of access they're looking for (this vulnerability period can last months or longer).
+1. Cercare delle vulnerabilità Critiche/Alte sulle build nightly o beta, quindi controllare se possano essere sfruttate su Tor Browser (questo periodo di vulnerabilità può durare settimane).
+2. Incatenare tra loro *svariate* vulnerabilità Medie/Basse, fino all'ottenimento del livello d'accesso desiderato (questo periodo di vulnerabilità può durare mesi o più).
 
-Those at risk of browser vulnerabilities should consider additional protections to defend against Tor Browser exploits, such as using Whonix in [Qubes](../os/qubes-overview.md) to contain your Tor browsing in a secure VM and protect against leaks.
+Coloro che sono a rischio di vulnerabilità del browser dovrebbero considerare ulteriori protezioni per difendersi dagli exploit di Tor Browser, come l'utilizzo di Whonix su [Qubes](../os/qubes-overview.md) per contenere la propria navigazione su Tor in una VM sicura e proteggersi dalle fughe di dati.
 
-## Costruzione del percorso verso i servizi Clearnet
+## Creazione del percorso verso i servizi Clearnet
 
 I "servizi Clearnet" sono siti web accessibili da qualsiasi browser, come [privacyguides.org](https://www.privacyguides.org). Tor ti consente di collegarti anonimamente a questi siti web indirizzando il tuo traffico attraverso una rete composta da migliaia di server gestiti da volontari, detti nodi (o relay).
 
@@ -156,25 +156,25 @@ Tor consente di connetterci a un server senza che alcuna signola parte conosca l
 
 Sebbene Tor fornisca forti garanzie per la privacy, devi essere consapevole che Tor non è perfetto:
 
-- Tor never protects you from exposing yourself by mistake, such as if you share too much information about your real identity.
-- Tor exit nodes can **modify** unencrypted traffic which passes through them. This means traffic which is not encrypted, such as plain HTTP traffic, can be changed by a malicious exit node. **Never** download files from an unencrypted `http://` website over Tor, and ensure your browser is set to always upgrade HTTP traffic to HTTPS.
-- I nodi d'uscita di Tor, inoltre, possono monitorare il traffico che li attraversa. Unencrypted traffic which contains personally identifiable information can deanonymize you to that exit node. Again, we recommend only using HTTPS over Tor.
-- Powerful adversaries with the capability to passively watch *all* network traffic around the globe ("Global Passive Adversaries") are **not** something that Tor protects you against (and using Tor [with a VPN](#safely-connecting-to-tor) doesn't change this fact).
-- Well-funded adversaries with the capability to passively watch *most* network traffic around the globe still have a *chance* of deanonymizing Tor users by means of advanced traffic analysis.
+- Tor non ti protegge mai dall'esporti per errore, ad esempio, se condividi troppe informazioni sulla tua identità reale.
+- I nodi d'uscita di Tor possono **modificare** il traffico non crittografato che li attraversa. Ciò significa che il traffico non crittografato, come il traffico HTTP semplice, è modificabile da un nodo d'uscita malintenzionato. Non scaricare **mai** i file da un sito web `http://` non crittografato tramite Tor e assicurati che il tuo browser sia impostato per aggiornare sempre il traffico HTTP in HTTPS.
+- I nodi d'uscita di Tor, inoltre, possono monitorare il traffico che li attraversa. Il traffico non crittografato contenente informazioni personali identificative, può deanonimizzarti a quel nodo d'uscita. Ancora, consigliamo di utilizzare soltanto HTTPS su Tor.
+- Tor **non** ti protegge da potenti avversari ("Avversari Passivi Globali"), capaci di osservare passivamente *tutto* il traffico di rete in tutto il mondo; e utilizzare Tor [con una VPN](#safely-connecting-to-tor) non cambia tale fatto.
+- Gli avversari ben finanziati e capaci di osservare passivamente *gran parrte* del traffico di rete nel mondo, hanno comunque la *possibilità* di deanonimizzare gli utenti di Tor, tramite l'analisi avanzata del traffico.
 
 Se desideri utilizzare Tor per navigare sul web, consigliamo soltanto il Tor Browser **ufficiale**, progettato per evitare il fingerprinting.
 
 - [Tor Browser :material-arrow-right-drop-circle:](../tor.md#tor-browser)
 
-### Protections provided by bridges
+### Protezione fornita dai ponti
 
-Tor bridges are commonly touted as an alternative method to hiding Tor usage from an ISP, instead of a VPN (as we suggest using if possible). Something to consider is that while bridges may provide adequate censorship circumvention, this is only a *transient* benefit. They do not adequately protect you from your ISP discovering you connected to Tor in the *past* with historical traffic log analysis.
+I ponti di Tor sono comunemente indicati come un metodo alternativo per nascondere l'utilizzo di Tor da un ISP, piuttosto che una VPN (che suggeriamo di utilizzare, se possibile). Va considerato che, sebbene i ponti potrebbero fornire un'adeguata elusione della censura, questo è soltanto un vantaggio *transitorio*. Non ti proteggono adeguatamente dal fatto che il tuo ISP scopra che tu ti sia *precedentemente* connesso a Tor, tramite un'analisi dello storico del traffico.
 
-To illustrate this point, consider the following scenario: You connect to Tor via a bridge, and your ISP doesn’t detect it because they are not doing sophisticated analysis of your traffic, so things are working as intended. Now, 4 months go by, and the IP of your bridge has been made public. This is a very common occurrence with bridges, they are discovered and blocked relatively frequently, just not immediately.
+Per illustrare tale punto, considera il seguente scenario: ti connetti a Tor tramite un ponte e il tuo ISP non lo rileva, perché non sta svolgendo un'analisi sofisticata del tuo traffico, quindi, tutto va come previsto. Ora, passano 4 mesi, e l'IP del tuo ponte è stato reso pubblico. Questo è un'evenienza molto comune nei ponti, scoperti e bloccati in modo relativamente frequente, ma non immediatamente.
 
-Your ISP wants to identify Tor users 4 months ago, and with their limited metadata logging they can see that you connected to an IP address which was later revealed to be a Tor bridge. You have virtually no other excuse to be making such a connection, so the ISP can say with very high confidence that you were a Tor user at that time.
+Il tuo ISP desidera identificare gli utenti di Tor di 4 mesi fa e, tramite la registrazione limitata dei metadati, può scoprire che ti sei connesso a un indirizzo IP, che in seguito si è rivelato essere un ponte di Tor. Non hai praticamente nessun'altra scusa per effettuare una simile connessione, quindi l'ISP può dire con estrema sicurezza che, al tempo, tu fossi un utente di Tor.
 
-Contrast this with our recommended scenario, where you connect to Tor via a VPN. Say that 4 months later your ISP again wants to identify anybody who used Tor 4 months ago. Their logs almost certainly can identify your traffic 4 months ago, but all they would likely be able to see is that you connected to a VPN’s IP address. This is because most ISPs only retain metadata over long periods of time, not the full contents of the traffic you request. Storing the entirety of your traffic data would require a massive quantity of storage which nearly all threat actors wouldn't possess.
+Confront ciò con il nostro scenario consigliato, in cui ti connetti a Tor tramite una VPN. Diciamo che, ancora una volta, 4 mesi dopo, il tuo ISP desidera identificare chiunque abbia utilizzato Tor 4 mesi fa. I loro registri sono quasi certamente capaci di identificare il tuo traffico 4 mesi fa, ma tutto ciò che potrebbero visualizzare, è la tua connessione all'indirizzo IP di una VPN. Questo perché, gran parte degli ISP, trattengono per lunghi periodi soltanto i metadati, non i contenuti completi del traffico che richiedi. Storing the entirety of your traffic data would require a massive quantity of storage which nearly all threat actors wouldn't possess.
 
 Because your ISP almost certainly is not capturing all packet-level data and storing it forever, they have no way of determining what you connected to with that VPN *after* the fact with an advanced technique like deep packet inspection, and therefore you have plausible deniability.
 
