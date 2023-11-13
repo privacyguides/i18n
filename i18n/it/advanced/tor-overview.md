@@ -10,7 +10,7 @@ Tor è una rete decentralizzata e libera, progettata per utilizzare Internet con
 
 Prima di connettersi a [Tor](../tor.md), è necessario considerare attentamente cosa si vuole ottenere utilizzando Tor e a chi si vuole nascondere la propria attività in rete.
 
-If you live in a free country, are accessing mundane content via Tor, aren't worried about your ISP or local network administrators having the knowledge that you're using Tor, and want to help [de-stigmatize](https://2019.www.torproject.org/about/torusers.html.en) Tor usage, you can likely connect to Tor directly via standard means like [Tor Browser](../tor.md) without worry.
+Se vivi in un Paese libero, accedi a contenuti banali tramite Tor, non sei preoccupato che il tuo ISP o gli amministratori della rete locale sappiano che stai usando Tor e vuoi aiutare [a de-stigmatizzare](https://2019.www.torproject.org/about/torusers.html.en) l'uso di Tor, puoi probabilmente connetterti a Tor direttamente tramite mezzi standard come [Tor Browser](../tor.md) senza preoccupazioni.
 
 Se hai la possibilità di accedere a un provider VPN affidabile e **qualsiasi** dei seguenti punti è vero, quasi certamente dovresti connetterti a Tor attraverso una VPN:
 
@@ -55,11 +55,11 @@ Alcuni provider di VPN e altre pubblicazioni raccomandano occasionalmente queste
 
 Determining whether you should first use a VPN to connect to the Tor network will require some common sense and knowledge of your own government's and ISP's policies relating to what you're connecting to. However, again in most cases you will be better off being seen as connecting to a commercial VPN network than directly to the Tor network. If VPN providers are censored in your area, then you can also consider using Tor pluggable transports (e.g. Snowflake or meek bridges) as an alternative, but using these bridges may arouse more suspicion than standard WireGuard/OpenVPN tunnels.
 
-## What Tor is Not
+## Cosa NON è Tor
 
 The Tor network is not the perfect privacy protection tool in all cases, and has a number of drawbacks which should be carefully considered. These things should not discourage you from using Tor if it is appropriate for your needs, but they are still things to think about when deciding which solution is most appropriate for you.
 
-### Tor is not a free VPN
+### Tor non è una VPN gratuita
 
 The release of the *Orbot* mobile app has lead many people to describe Tor as a "free VPN" for all of your device traffic. However, treating Tor like this poses some dangers compared to a typical VPN.
 
@@ -67,7 +67,7 @@ Unlike Tor exit nodes, VPN providers are usually not *actively* [malicious](#cav
 
 As we've alluded to already, Tor is also easily identifiable on the network. Unlike an actual VPN provider, using Tor will make you stick out as a person likely attempting to evade authorities. In a perfect world, Tor would be seen by network administrators and authorities as a tool with many uses (like how VPNs are viewed), but in reality the perception of Tor is still far less legitimate than the perception of commercial VPNs, so using a real VPN provides you with plausible deniability, e.g. "I was just using it to watch Netflix," etc.
 
-### Tor usage is not undetectable
+### L'utilizzo di Tor non è irrivelabile
 
 **Even if you use bridges and pluggable transports,** the Tor Project provides no tools to hide the fact that you are using Tor from your ISP. Even using obfuscated "pluggable transports" or non-public bridges do not hide the fact that you are using a private communications channel. The most popular pluggable transports like obfs4 (which obfuscates your traffic to "look like nothing") and meek (which uses domain fronting to camouflage your traffic) can be [detected](https://www.hackerfactor.com/blog/index.php?/archives/889-Tor-0day-Burning-Bridges.html) with fairly standard traffic analysis techniques. Snowflake has similar issues, and can be [easily detected](https://www.hackerfactor.com/blog/index.php?/archives/944-Tor-0day-Snowflake.html) *before* a Tor connection is even established.
 

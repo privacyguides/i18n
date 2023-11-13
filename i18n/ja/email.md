@@ -200,7 +200,7 @@ Skiff Mail has zero access encryption at rest for all of your data. This means t
 
 #### :material-information-outline:{ .pg-blue } メールの暗号化
 
-Skiff Mail does not use OpenPGP. Emails are only encrypted with E2EE to other Skiff Mail users. Skiff does not have a "temporary inbox" or "passworded email" feature like some other providers have, so that external users cannot receive or reply to messages with E2EE.
+Skiff MailはOpenPGPを使用していません。 Emails are only encrypted with E2EE to other Skiff Mail users. Skiff does not have a "temporary inbox" or "passworded email" feature like some other providers have, so that external users cannot receive or reply to messages with E2EE.
 
 #### :material-information-outline:{ .pg-blue } アカウントの停止
 
