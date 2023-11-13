@@ -1,62 +1,62 @@
 ---
-title: Integrità del Dispositivo
+title: Integrità del dispositivo
 icon: material/security
-description: Questi strumenti possono essere utilizzati per verificare che i tuoi dispositivi non siano stati compromessi.
+description: Questi strumenti sono utilizzabili per verificare che i tuoi dispositivi non siano stati compromessi.
 cover: device-integrity.webp
 ---
 
-Questi strumenti possono essere utilizzati per convalidare l'integrità dei tuoi dispositivi mobile e verificare la presenza di indicatori di compromissione da parte di spyware e malware come Pegasus, Predator o KingsPawn. Questa pagina si concentra sulla **sicurezza mobile**, poiché i dispositivi mobile hanno in genere sistemi di sola lettura con configurazioni ben note, quindi il rilevamento di modifiche dannose è più facile che sui sistemi desktop tradizionali. Potremmo espandere il focus di questa pagina in futuro.
+Questi strumenti sono utilizzabili per convalidare l'integrità dei tuoi dispositivi mobili, e verificare la presenza di indicatori di compromissione da parte di spyware e malware, quali Pegasus, Predator o KingsPawn. Questa pagina affronta la **sicurezza mobile**, poiché i dispositivi mobili hanno tipicamente sistemi di sola lettura, con configurazioni ben note, quindi, rilevare modifiche dannose è più facile che con i sistemi desktop tradizionali. In futuro, potremmo espandere l'ambito di questa pagina.
 
 !!! note "Questo è un argomento avanzato"
 
 ```
-Questi strumenti possono essere utili per alcuni individui. Forniscono funzionalità di cui la maggior parte delle persone non deve preoccuparsi e spesso richiedono conoscenze tecniche più approfondite per essere utilizzate in modo efficace.
+Questi strumenti potrebbero fornire utilità per certi individui. Forniscono funzionalità di cui gran parte delle persone non necessitano di preoccuparsi e, spesso, richiedono una conoscenza tecnica più approfondita, per l'utilizzo efficiente.
 ```
 
-È **critico** capire che la scansione del tuo dispositivo alla ricerca di indicatori pubblici di compromissione non è **sufficiente** per determinare che un dispositivo è "pulito" e non è stato preso di mira da un particolare strumento spyware. Affidarsi a questi strumenti di scansione pubblicamente disponibili può far perdere di vista i recenti sviluppi della sicurezza e darti un falso senso di sicurezza.
+È **essenziale** comprendere che la scansione del tuo dispositivo, in cerca di indicatori pubblici di compromissione, **non è sufficiente** per determinare che un dispositivo sia "pulito", e non sia stato preso di mira da uno strumento spyware in particolare. L'affidamento a tali strumenti di scansione pubblicamente disponibili, può far perdere di vista gli sviluppi recenti in materia di sicurezza, dandoti un falso senso di sicurezza.
 
 ## Consigli Generali
 
-La maggior parte degli exploit a livello di sistema sui moderni dispositivi mobili, in particolare le compromissioni zero-click, non sono persistenti, ovvero non rimangono o non vengono eseguiti automaticamente dopo un riavvio. Per questo motivo, ti consigliamo di riavviare regolarmente il tuo dispositivo. Consigliamo a tutti di riavviare i dispositivi almeno una volta alla settimana, ma se i malware non persistenti ti preoccupano particolarmente, noi e molti esperti di sicurezza consigliamo un programma di riavvio quotidiano.
+Gran parte degli exploit di sistema sui dispositivi mobili moderni, specialmente le compromissioni senza click, non sono persistenti, a significare che non resteranno, né saranno eseguiti automaticamente, dopo un riavvio. Per questo, ti consigliamo vivamente di riavviare regolarmente il tuo dispositivo. Consigliamo a tutti di riavviare il proprio dispositivo almeno una volta a settimana, ma se i malware non persistenti ti preoccupano particolarmente, noi e molti esperti in sicurezza, consigliamo di pianificare dei riavvii quotidiani.
 
-Ciò significa che un aggressore dovrebbe reinfettare regolarmente il tuo dispositivo per mantenere l'accesso, anche se sappiamo che non è impossibile. Inoltre, il riavvio del tuo dispositivo non ti protegge da malware _persistenti_, ma questo è meno comune sui dispositivi mobile grazie alle moderne funzioni di sicurezza come l'avvio sicuro/verificato.
+Ciò significa che un malintenzionato dovrebbe reinfettare regolarmente il tuo dispositivo per mantenere l'accesso, sebbene noteremo che non sia possibile. Inoltre, riavviare il tuo dispositivo non ti proteggerà dai malware **permanenti**, ma questi sono meno comuni sui dispositivi mobili, a causa di funzionalità di sicurezza moderne come l'avvio sicuro/verificato.
 
-## Post-Compromise Information & Disclaimer
+## Informazioni ed esonero di responsabilità post-compromissione
 
-If any of the following tools indicate a potential compromise by spyware such as Pegasus, Predator, or KingsPawn, we advise that you contact:
+Se uno dei seguenti strumenti indica una potenziale compromissione da spyware, come Pegasus, Predator, o KingsPawn, ti consigliamo di contattare:
 
-- If you are a human rights defender, journalist, or from a civil society organization: [Amnesty International's Security Lab](https://securitylab.amnesty.org/contact-us/)
-- If a business or government device is compromised: Contact the appropriate security liason at your enterprise, department, or agency
-- Local law enforcement
+- Se ti occupi della difesa dei diritti umani, di giornalismo o fai parte di un'organizzazione della società civile: [Laboratorio sulla sicurezza di Amnesty International](https://securitylab.amnesty.org/contact-us/)
+- Se un dispositivo aziendale o governativo è compromesso: contatta il responsabile della sicurezza della tua azienda, dipartimento o agenzia
+- Forze dell'ordine locali
 
-**We are unable to help you directly beyond this.** We are happy to discuss your specific situation or circumstances and review your results in our [community](https://discuss.privacyguides.net) spaces, but it is unlikely we can assist you beyond what is written on this page.
+**Non possiamo aiutarti più di così in maniera diretta.** Siamo lieti di discutere della tua situazione o delle circostanze specifiche e di revisionare i tuoi risultati negli spazi della nostra [community](https://discuss.privacyguides.net), ma è improbabile che potremo aiutarti più di quanto è scritto su questa pagina.
 
-The tools on this page are only capable of detecting indicators of compromise, not removing them. If you are concerned about having been compromised, we advise that you:
+Gli strumenti su questa pagina possono esclusivamente rilevare gli indicatori di compromissione, non rimuoverli. Se temi di esser stato compromesso, ti consigliamo di:
 
-- Consider replacing the device completely
-- Consider changing your SIM/eSIM number
-- Not restore from a backup, because that backup may be compromised
+- Considerare la completa sostituzione del dispositivo
+- Considerare di cambiare il tuo numero SIM/eSIM
+- Non ripristinare da un backup, poiché, questo, potrebbe essere compromesso
 
-These tools provide analysis based on the information they have the ability to access from your device, and publicly-accessible indicators of compromise. It is important to keep in mind two things:
+Questi strumenti forniscono analisi basate sulle informazioni cui possono accedere dal tuo dispositivo, nonché sugli indicatori di compromissione pubblicamente accessibili. È importante tenere a mente due cose:
 
-1. Indicators of compromise are just that: _indicators_. They are not a definitive finding, and may occasionally be **false positives**. If an indicator of compromise is detected, it means you should do additional research into the _potential_ threat.
-2. The indicators of compromise these tools look for are published by threat research organizations, but not all indicators are made available to the public! This means that these tools can present a **false negative**, if your device is infected with spyware which is not detected by any of the public indicators. Reliable and comprehensive digital forensic support and triage requires access to non-public indicators, research and threat intelligence.
+1. Gli indicatori di compromesso sono semplicemente **indicatori**. Non sono un risultato definitivo e potrebbero occasionalmente rappresentare dei **falsi positivi**. Se viene rilevato un indicatore di compromissione, significa che dovresti svolgere ulteriori ricerche sulla minaccia **potenziale**.
+2. Gli indicatori di compromissione cercati da questi strumenti, sono pubblicati dalle organizzazioni di ricerca sulle minacce, ma non tutti sono resi disponibili al pubblico! Ciò significa che questi strumenti possono generare un **falso negativo**, se il tuo dispositivo è infettato da spyware non rilevati da alcun indicatore pubblico. Un supporto e triage forense digitale affidabile e completo, richiedono l'accesso a indicatori, ricerca e informazioni sulle minacce non pubblici.
 
 ## Strumenti di verifica esterni
 
-Gli strumenti di verifica esterni vengono eseguiti sul tuo computer e scansionano il tuo dispositivo mobile alla ricerca di tracce forensi utili per identificare potenziali compromissioni.
+Gli strumenti di verifica esterni operano sul tuo computer, scansionando il tuo dispositivo mobile, in cerca di tracce forensi che siano utili a identificare le potenziali compromissioni.
 
 !!! danger "Attenzione"
 
 ```
-Public indicators of compromise are insufficient to determine that a device is "clean", and not targeted with a particular spyware tool. Reliance on public indicators alone can miss recent forensic traces and give a false sense of security.
+Gli indicatori pubblici di compromissione non sono sufficienti per determinare che un dispositivo sia "pulito" e non preso di mira da uno strumento spyware in particolare. L'affidamento ai soli indicatori pubblici, può non tenere conto delle tracce forensi recenti e dare un falso senso di sicurezza.
 
-Reliable and comprehensive digital forensic support and triage requires access to non-public indicators, research and threat intelligence.
+Un supporto e triage forense digitale affidabile e completo richiede l'accesso a indicatori, ricerca e informazioni sulle minacce non pubblici.
 
-Such support is available to civil society through [Amnesty International's Security Lab](https://www.amnesty.org/en/tech/) or [Access Now’s Digital Security Helpline](https://www.accessnow.org/help/).
+Tale supporto è disponibile alla società civile tramite il [Laboratorio sulla sicurezza di Amnesty International](https://www.amnesty.org/en/tech) o il [Telesoccorso sulla sicurezza digitale di Access Now](https://www.accessnow.org/help/).
 ```
 
-These tools can trigger false-positives. If any of these tools finds indicators of compromise, you need to dig deeper to determine your actual risk. Some reports may be false positives based on websites you've visited in the past, and findings which are many years old are likely either false-positives or indicate previous (and no longer active) compromise.
+Questi strumenti possono causare dei falsi positivi. Se uno di questi strumenti rileva degli indicatori di compromissione, devi approfondire per determinare i rischi effettivi. Alcuni rapporti potrebberro essere falsi positivi basati sui siti web che hai visitato in passato, e i risultati risalenti a molti anni fa, potrebbero essere falsi positivi, o indicare compromissioni precedenti (e non più attive).
 
 ### Mobile Verification Toolkit
 
@@ -65,12 +65,12 @@ These tools can trigger false-positives. If any of these tools finds indicators 
 ```
 ![Logo di MVT](assets/img/device-integrity/mvt.webp){ align=right }
 
-Il **Mobile Verification Toolkit** (**MVT**) è una raccolta di strumenti che semplifica e automatizza il processo di scansione dei dispositivi mobile alla ricerca di potenziali tracce di bersaglio o infezione da parte di campagne spyware note. MVT è stato sviluppato da Amnesty International e rilasciato nel 2021 nell'ambito del [Progetto Pegasus](https://forbiddenstories.org/about-the-pegasus-project/).
+**Mobile Verification Toolkit** (**MVT**) è una raccolta di utilità che semplificano e automatizzano il processo di scansione dei dispositivi mobili, alla ricerca di potenziali tracce di violazione o infezione, da campagne note di spyware. MVT è stata sviluppata da Amnesty International e rilasciata nel 2021, nel contesto del [Progetto Pegasus](https://forbiddenstories.org/about-the-pegasus-project/).
 
-[:octicons-home-16: Pagina Principale](https://mvt.re/){ .md-button .md-button--primary }
+[:octicons-home-16: Homepage](https://mvt.re/){ .md-button .md-button--primary }
 [:octicons-code-16:](https://github.com/mvt-project/mvt){ .card-link title="Codice Sorgente" }
 
-??? downloads "Scarica"
+??? downloads
 
     - [:simple-apple: macOS](https://docs.mvt.re/en/latest/install/)
     - [:simple-linux: Linux](https://docs.mvt.re/en/latest/install/)
@@ -79,35 +79,36 @@ Il **Mobile Verification Toolkit** (**MVT**) è una raccolta di strumenti che se
 !!! warning "Attenzione"
 
 ```
-L'utilizzo di MVT non è sufficiente per determinare se un dispositivo sia "pulito" e non sia stato preso di mira da un particolare strumento spyware.
+Utilizzare MVT non è sufficiente per determinare che un dispositivo sia "pulito" e non preso di mira da uno strumento spyware in particolare.
 ```
 
-MVT è _più_ utile per la scansione dei dispositivi iOS. Android stores very little diagnostic information useful to triage potential compromises, and because of this `mvt-android` capabilities are limited as well. On the other hand, encrypted iOS iTunes backups provide a large enough subset of files stored on the device to detect suspicious artifacts in many cases. This being said, MVT does still provide fairly useful tools for both iOS and Android analysis.
+MVT è _più_ utile per scansionare i dispositivi iOS. Android memorizza pochissime informazioni diagnostiche utili per il triage delle potenziali compromissioni e, per questo, anche le capacità di `mvt-android` sono limitate. D'altra parte, in molti casi, i backup crittografati di iTunes per iOS forniscono un sottoinsieme di file memorizzati sul dispositivo abbastanza ampio, per rilevare gli artefatti sospetti. Detto ciò, MTV fornisce comunque strumenti abbastanza utili per l'analisi sia su iOS che su Android.
 
-If you use iOS and are at high-risk, we have three additional suggestions for you:
+Se utilizzi iOS e sei ad alto rischio, abbiamo altri tre suggerimenti per te:
 
-1. Create and keep regular (monthly) iTunes backups. This allows you to find and diagnose past infections later with MVT, if new threats are discovered in the future.
+1. Crea e conserva regolarmente (mensilmente) i backup di iTunes. Ciò ti consente di trovare e diagnosticare le infezioni passate con MVT, se sono scoperte delle nuove minacce in futuro.
 
-2. Trigger _sysdiagnose_ logs often and back them up externally. These logs can provide invaluable data to future forensic investigators if need be.
+2. Attiva spesso i registri di _sysdiagnose_ ed eseguine il backup esternamente. Questi, possono fornire dati preziosi ai futuri investigatori forensi, se necessario.
 
-   The process to do so varies by model, but you can trigger it on newer phones by holding down _Power_ + _Volume Up_ + _Volume Down_ until you feel a brief vibration. After a few minutes, the timestamped _sysdiagnose_ log will appear in **Settings** > **Privacy & Security** > **Analytics & Improvements** > **Analytics Data**.
+   Il procedimento per farlo varia a seconda del modello, ma puoi attivarlo sui telefoni più nuovi tenendo premuti _Accensione_ + _Volume Su_ + _Volume Giù_, finché non avverti una breve vibrazione. Dopo qualche minuto, il registro _sysdiagnose_ con data e ora, apparirà in **Impostazioni** > **Privacy e Sicurezza** > **Analisi e Miglioramenti** > **Dati Analitici**.
 
-3. Enable [Lockdown Mode](https://blog.privacyguides.org/2022/10/27/macos-ventura-privacy-security-updates/#lockdown-mode).
+3. Abilita la [Modalità di Blocco](https://blog.privacyguides.org/2022/10/27/macos-ventura-privacy-security-updates/#lockdown-mode).
 
-MVT allows you to perform deeper scans/analysis if your device is jailbroken. Unless you know what you are doing, **do not jailbreak or root your device.** Jailbreaking your device exposes it to considerable security risks.
+MVT ti consente di eseguire scansioni/analisi più approfondite, se il tuo dispositivo è stato sottoposto a jailbreak. A meno che tu non sappia cosa stai facendo, **non eseguire il jailbreak o il root del tuo dispositivo**. Il jailbreak del tuo dispositivo lo espone a considerevoli rischi di sicurrezza.
 
 ### iMazing (iOS)
 
 !!! recommendation "consiglio"
 
 ```
-![iMazing logo](assets/img/device-integrity/imazing.png){ align=right }
+![Logo di iMazing](assets/img/device-integrity/imazing.png){ align=right }
 
-**iMazing** provides a free spyware analyzer tool for iOS devices which acts as a GUI-wrapper for [MVT](#mobile-verification-toolkit). This can be much easier to run compared to MVT itself, which is a command-line tool designed for technologists and forensic investigators.
+**iMazing** fornisce uno strumento gratuito di analisi degli spyware per i dispositivi iOS, che agisce da GUI-wrapper per [MVT](#mobile-verification-toolkit).
+Può essere molto più facile da eseguire rispetto allo stesso MVT, uno strumento a riga di comando progettato per esperti di tecnologia e investigatori forensi.
 
 [:octicons-home-16: Homepage](https://imazing.com/){ .md-button .md-button--primary }
-[:octicons-eye-16:](https://imazing.com/privacy-policy){ .card-link title="Privacy Policy" }
-[:octicons-info-16:](https://imazing.com/spyware-analyzer){ .card-link title=Documentation}
+[:octicons-eye-16:](https://imazing.com/privacy-policy){ .card-link title="Politica sulla Privacy" }
+[:octicons-info-16:](https://imazing.com/spyware-analyzer){ .card-link title=Documentazione}
 
 ??? downloads
 
@@ -115,9 +116,9 @@ MVT allows you to perform deeper scans/analysis if your device is jailbroken. Un
     - [:simple-apple: macOS](https://imazing.com/download)
 ```
 
-iMazing automates and interactively guides you through the process of using [MVT](#mobile-verification-toolkit) to scan your device for publicly-accessible indicators of compromise published by various threat researchers. All of the information and warnings which apply to MVT apply to this tool as well, so we suggest you also familiarize yourself with the notes on MVT in the sections above.
+iMazing automatizza e ti guida interattivamente al procedimento di utilizzo di [MVT](#mobile-verification-toolkit) per scansionare il tuo dispositivo, in cerca di indicatori pubblicamente accessibili di compromissione, pubblicati da vari ricercatori delle minacce. Tutte le informazioni e gli avvisi che si applicano a MVT, si applicano anche a questo strumento, quindi, ti suggeriamo di familiarizzare con le note su MVT, nelle sezioni precedenti.
 
-## Verifica On-Device
+## Verifica su dispositivo
 
 These are apps you can install which check your device and operating system for signs of tampering, and validate the identity of your device.
 
