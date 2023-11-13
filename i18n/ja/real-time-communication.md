@@ -10,7 +10,7 @@ These are our recommendations for encrypted real-time communication.
 
 [Types of Communication Networks :material-arrow-right-drop-circle:](./advanced/communication-network-types.md)
 
-## Encrypted Messengers
+## 暗号化されたメッセンジャー
 
 These messengers are great for securing your sensitive communications.
 

@@ -94,7 +94,7 @@ Braveには、[シールド](https://support.brave.com/hc/en-us/articles/3600229
 
 1. このオプションでは、uBlock Originの高度な[ブロックモード](https://github.com/gorhill/uBlock/wiki/Blocking-mode)や[NoScript](https://noscript.net/)拡張機能と同様の機能が有効になります。
 
-##### Clear browsing data
+##### ブラウジングデータを消去
 
 - [x] Select **Clear data on exit**
 
@@ -102,7 +102,7 @@ Braveには、[シールド](https://support.brave.com/hc/en-us/articles/3600229
 
 - [ ] すべてのソーシャルメディアコンポーネントのチェックを外すこと
 
-##### Other privacy settings
+##### その他のプライバシーの設定
 
 <div class="annotate" markdown>
 

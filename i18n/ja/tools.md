@@ -131,8 +131,8 @@ We [recommend](dns.md#recommended-providers) a number of encrypted DNS servers b
 
 <div class="grid cards" markdown>
 
-- ![addy.io logo](assets/img/email/mini/addy.svg){ .twemoji } [addy.io](email.md#addyio)
-- ![SimpleLogin logo](assets/img/email/simplelogin.svg){ .twemoji } [SimpleLogin](email.md#simplelogin)
+- ![addy.ioのロゴ](assets/img/email/mini/addy.svg){ .twemoji } [addy.io](email.md#addyio)
+- ![SimpleLoginのロゴ](assets/img/email/simplelogin.svg){ .twemoji } [SimpleLogin](email.md#simplelogin)
 
 </div>
 
@@ -166,7 +166,7 @@ We [recommend](dns.md#recommended-providers) a number of encrypted DNS servers b
 
 <div class="grid cards" markdown>
 
-- ![CoinCards logo](assets/img/financial-services/coincards.svg){ .twemoji } [CoinCards](financial-services.md#coincards)
+- ![CoinCardsのロゴ](assets/img/financial-services/coincards.svg){ .twemoji } [CoinCards](financial-services.md#coincards)
 
 </div>
 
@@ -425,7 +425,7 @@ We [recommend](dns.md#recommended-providers) a number of encrypted DNS servers b
 
 [詳細 :material-arrow-right-drop-circle:](real-time-communication.md)
 
-## Operating Systems
+## オペレーティングシステム
 
 ### モバイル
 
@@ -470,7 +470,7 @@ We [recommend](dns.md#recommended-providers) a number of encrypted DNS servers b
 
 [詳細 :material-arrow-right-drop-circle:](desktop.md)
 
-### Router Firmware
+### ルーターのファームウェア
 
 <div class="grid cards" markdown>
 

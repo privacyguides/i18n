@@ -6,7 +6,7 @@ Privacy Guides is written in American English, and you should refer to [APA Styl
 
 In general the [United States federal plain language guidelines](https://www.plainlanguage.gov/guidelines/) provide a good overview of how to write clearly and concisely. We highlight a few important notes from these guidelines below.
 
-## Writing for our audience
+## 読者のために書くこと
 
 Privacy Guides' intended [audience](https://www.plainlanguage.gov/guidelines/audience/) is primarily average, technology using adults. Don't dumb down content as if you are addressing a middle-school class, but don't overuse complicated terminology about concepts average computer users wouldn't be familiar with.
 
@@ -16,7 +16,7 @@ People don't need overly complex articles with little relevance to them. Figure 
 
 > Tell your audience why the material is important to them. Say, “If you want a research grant, here’s what you have to do.” Or, “If you want to mine federal coal, here’s what you should know.” Or, “If you’re planning a trip to Rwanda, read this first.”
 
-### Address people directly
+### 人々に直接語りかけること
 
 We're writing *for* a wide variety of people, but we are writing *to* the person who is actually reading it. Use "you" to address the reader directly.
 
@@ -69,13 +69,13 @@ Source: [plainlanguage.gov](https://www.plainlanguage.gov/guidelines/concise/)
 
 ## Keep text conversational
 
-> Verbs are the fuel of writing. They give your sentences power and direction. They enliven your writing and make it more interesting.
+> 動詞は文章の燃料です。 They give your sentences power and direction. They enliven your writing and make it more interesting.
 > 
 > Verbs tell your audience what to do. Make sure it’s clear who does what.
 
 ### 能動態を使うこと
 
-> Active voice makes it clear who is supposed to do what. It eliminates ambiguity about responsibilities. Not “It must be done,” but “You must do it.”
+> Active voice makes it clear who is supposed to do what. It eliminates ambiguity about responsibilities. 「それがされなければならない」ではなく、「あなたはそれをしなければならない」とすること。
 
 Source: [plainlanguage.gov](https://www.plainlanguage.gov/guidelines/conversational/use-active-voice/)
 

@@ -158,7 +158,7 @@ macOS employs defense in depth by relying on multiple layers of software and har
 
 !!! 警告
 
-    macOS allows you to install beta updates. These are unstable and may come with extra telemetry since they're for testing purposes. Because of this, we recommend you avoid beta software in general.
+    macOSではベータ版アップデートをインストールできます。 These are unstable and may come with extra telemetry since they're for testing purposes. Because of this, we recommend you avoid beta software in general.
 
 #### Signed System Volume
 
@@ -239,7 +239,7 @@ When it is necessary to use one of these processors, Apple works with the vendor
 
 - runs verified firmware from the primary CPU on startup
 - has its own Secure Boot chain
-- follows minimum cryptographic standards
+- 最低限の暗号標準に従っていること
 - ensures known bad firmware is properly revoked
 - has its debug interfaces disabled
 - is signed with Apple's cryptographic keys

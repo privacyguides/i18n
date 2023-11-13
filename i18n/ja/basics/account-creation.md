@@ -21,11 +21,11 @@ We recommend looking for particular terms such as "data collection", "data analy
 
 Keep in mind you're also placing your trust in the company or organization and that they will comply with their own privacy policy.
 
-## Authentication methods
+## 認証方法
 
 There are usually multiple ways to sign up for an account, each with their own benefits and drawbacks.
 
-### Email and password
+### メールアドレスとパスワード
 
 The most common way to create a new account is by an email address and password. When using this method, you should use a password manager and follow [best practices](passwords-overview.md) regarding passwords.
 

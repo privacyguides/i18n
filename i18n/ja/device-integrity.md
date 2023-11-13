@@ -166,7 +166,7 @@ No personally identifiable information is submitted to the attestation service. 
 
 If your [threat model](basics/threat-modeling.md) requires privacy, you could consider using [Orbot](tor.md#orbot) or a VPN to hide your IP address from the attestation service.
 
-## On-Device Scanners
+## オンデバイス・スキャナー
 
 These are apps you can install on your device which scan your device for signs of compromise.
 

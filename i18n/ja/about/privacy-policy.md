@@ -17,7 +17,7 @@ Privacy Guidesは、多くの積極的なボランティアにより運営され
 
 ## アカウントの所有者から収集するデータ
 
-If you register for an account on one of our services, we may collect any information you provide us (such as your email, password, profile information, etc.) and use that information to provide you with the service. We never share or sell this data.
+If you register for an account on one of our services, we may collect any information you provide us (such as your email, password, profile information, etc.) and use that information to provide you with the service. このデータを共有したり、販売したりすることは決してありません。
 
 Some services we host have separate privacy policies which supersede this document. For example, the privacy policy of our forum can be found at [discuss.privacyguides.net/privacy](https://discuss.privacyguides.net/privacy).
 

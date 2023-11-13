@@ -268,7 +268,7 @@ Tuta offers the business version of [Tuta to non-profit organizations](https://t
 
 Tuta also has a business feature called [Secure Connect](https://tuta.com/secure-connect/). This ensures customer contact to the business uses E2EE. The feature costs €240/y.
 
-Tuta doesn't offer a digital legacy feature.
+Tutaにはデジタルレガシー機能はありません。
 
 ## メールエイリアスサービス
 
@@ -276,8 +276,8 @@ An email aliasing service allows you to easily generate a new email address for 
 
 <div class="grid cards" markdown>
 
-- ![addy.io logo](assets/img/email/mini/addy.svg){ .twemoji } [addy.io](email.md#addyio)
-- ![SimpleLogin logo](assets/img/email/simplelogin.svg){ .twemoji } [SimpleLogin](email.md#simplelogin)
+- ![addy.ioのロゴ](assets/img/email/mini/addy.svg){ .twemoji } [addy.io](email.md#addyio)
+- ![SimpleLoginのロゴ](assets/img/email/simplelogin.svg){ .twemoji } [SimpleLogin](email.md#simplelogin)
 
 </div>
 

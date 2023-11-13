@@ -1,13 +1,13 @@
 ---
 title: "生産性向上ツール"
 icon: material/file-sign
-description: Most online office suites do not support E2EE, meaning the cloud provider has access to everything you do.
+description: ほとんどのオンラインオフィススイートは端末間暗号化をサポートしていません。クラウドプロバイダーは、あなたが行う全てのこと、全てのファイルにアクセスできます。
 cover: productivity.webp
 ---
 
-Most online office suites do not support E2EE, meaning the cloud provider has access to everything you do. The privacy policy may legally protect your rights, but it does not provide technical access constraints.
+ほとんどのオンラインオフィススイートは端末間暗号化をサポートしていません。クラウドプロバイダーは、あなたが行う全てのこと、全てのファイルにアクセスできます。 プライバシーポリシーは、法的にあなたの権利を保護するかもしれませんが、技術的にアクセス制限を行うものではありません。
 
-## Collaboration Platforms
+## コラボレーションプラットフォーム
 
 ### Nextcloud
 
@@ -38,15 +38,15 @@ Most online office suites do not support E2EE, meaning the cloud provider has ac
 
 !!! recommendation
 
-    ![CryptPad logo](assets/img/productivity/cryptpad.svg){ align=right }
+    ![CryptPadのロゴ](assets/img/productivity/cryptpad.svg){ align=right }
     
-    **CryptPad** is a private-by-design alternative to popular office tools. All content on this web service is end-to-end encrypted and can be shared with other users easily.
+    **CryptPad**は、一般的なオフィスツールのプライベートな代替ツールです。 このウェブサービス上のコンテンツはすべてエンドツーエンドで暗号化されており、他のユーザーと簡単に共有することができます。
     
     [:octicons-home-16: Homepage](https://cryptpad.fr){ .md-button .md-button--primary }
-    [:octicons-eye-16:](https://cryptpad.fr/pad/#/2/pad/view/GcNjAWmK6YDB3EO2IipRZ0fUe89j43Ryqeb4fjkjehE/){ .card-link title="Privacy Policy" }
-    [:octicons-info-16:](https://docs.cryptpad.fr/){ .card-link title=Documentation}
-    [:octicons-code-16:](https://github.com/xwiki-labs/cryptpad){ .card-link title="Source Code" }
-    [:octicons-heart-16:](https://opencollective.com/cryptpad){ .card-link title=Contribute }
+    [:octicons-eye-16:](https://cryptpad.fr/pad/#/2/pad/view/GcNjAWmK6YDB3EO2IipRZ0fUe89j43Ryqeb4fjkjehE/){ .card-link title="プライバシーポリシー" }
+    [:octicons-info-16:](https://docs.cryptpad.fr/){ .card-link title=ドキュメンテーション}
+    [:octicons-code-16:](https://github.com/xwiki-labs/cryptpad){ .card-link title="ソースコード" }
+    [:octicons-heart-16:](https://opencollective.com/cryptpad){ .card-link title=貢献 }
 
 ### 規準
 
@@ -61,8 +61,8 @@ In general, we define collaboration platforms as full-fledged suites which could
 - オープンソースであること。
 - Makes files accessible via WebDAV unless it is impossible due to E2EE.
 - Has sync clients for Linux, macOS, and Windows.
-- Supports document and spreadsheet editing.
-- Supports real-time document collaboration.
+- ドキュメントやスプレッドシートの編集をサポート。
+- リアルタイムのドキュメントコラボレーションをサポート。
 - Supports exporting documents to standard document formats (e.g. ODF).
 
 #### 満たされることが望ましい基準
@@ -129,13 +129,13 @@ In general, we define collaboration platforms as full-fledged suites which could
 
 In general, we define office suites as applications which could reasonably act as a replacement for Microsoft Word for most needs.
 
-- Must be cross-platform.
+- クロスプラットフォームであること。
 - オープンソースのソフトウェアであること。
-- Must function offline.
-- Must support editing documents, spreadsheets, and slideshows.
+- オフラインで機能すること。
+- ドキュメント、スプレッドシート、プレゼンテーションの編集をサポートすること。
 - Must export files to standard document formats.
 
-## Paste services
+## 貼り付け用サービス
 
 ### PrivateBin
 
@@ -160,9 +160,9 @@ In general, we define office suites as applications which could reasonably act a
 
 #### 最低要件
 
-- Must be open source.
+- オープンソースであること。
 - Must implement "zero-trust" end-to-end encryption.
-- Must support password-protected files.
+- パスワードで保護されたファイルをサポートすること。
 
 #### 満たされることが望ましい基準
 

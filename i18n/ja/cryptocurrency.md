@@ -1,5 +1,5 @@
 ---
-meta_title: "Private Cryptocurrency Blockchains - Privacy Guides"
+meta_title: "プライベートな暗号通貨のブロックチェーン - Privacy Guides"
 title: 暗号通貨
 icon: material/bank-circle
 cover: cryptocurrency.webp

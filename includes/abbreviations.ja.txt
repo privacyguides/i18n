@@ -37,7 +37,7 @@
 *[HTTP]: ハイパーテキスト転送プロトコル（Hypertext Transfer Protocol）
 *[hypervisor]： Computer software, firmware, or hardware that splits the resources of a CPU among multiple operating systems
 *[ICCID]: Integrated Circuit Card Identifier
-*[IMAP]: Internet Message Access Protocol
+*[IMAP]: Internet Message Access Protocol（インターネットメッセージアクセスプロトコル）
 *[IMEI]: International Mobile Equipment Identity
 *[IMSI]: 国際携帯電話加入者識別番号
 *[IP]: Internet Protocol

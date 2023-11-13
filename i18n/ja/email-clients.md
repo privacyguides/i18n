@@ -228,7 +228,7 @@ Canary Mailのソースコードは公開されていません。 We recommend i
 
 - Apps developed for open-source operating systems must be open source.
 - Must not collect telemetry, or have an easy way to disable all telemetry.
-- Must support OpenPGP message encryption.
+- OpenPGPメッセージ暗号化をサポートすること。
 
 ### 満たされることが望ましい基準
 

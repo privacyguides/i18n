@@ -9,7 +9,7 @@ Linux distributions are commonly recommended for privacy protection and software
 
 - [General Linux Overview :material-arrow-right-drop-circle:](os/linux-overview.md)
 
-## Traditional Distributions
+## 伝統的なディストリビューション
 
 ### Fedoraワークステーション
 

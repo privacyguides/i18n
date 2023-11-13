@@ -8,7 +8,7 @@ There are several network architectures commonly used to relay messages between 
 
 [おすすめのインスタントメッセンジャー](../real-time-communication.md ""){.md-button}
 
-## Centralized Networks
+## 中央集権型ネットワーク
 
 ![Centralized networks diagram](../assets/img/layout/network-centralized.svg){ align=left }
 

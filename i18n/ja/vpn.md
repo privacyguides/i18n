@@ -141,7 +141,7 @@ In addition to accepting credit/debit cards and PayPal, IVPN accepts Bitcoin, **
 
 #### :material-check:{ .pg-green } WireGuard対応
 
-IVPN supports the WireGuard® protocol. [WireGuard](https://www.wireguard.com)は最先端の[暗号化](https://www.wireguard.com/protocol/)を使用する新しいプロトコルです。 加えて、WireGuardはよりシンプルかつより高性能であることを目指しています。
+IVPNはWireGuard®️プロトコルをサポートしています。 [WireGuard](https://www.wireguard.com)は最先端の[暗号化](https://www.wireguard.com/protocol/)を使用する新しいプロトコルです。 加えて、WireGuardはよりシンプルかつより高性能であることを目指しています。
 
 IVPN [recommends](https://www.ivpn.net/wireguard/) the use of WireGuard with their service and, as such, the protocol is the default on all of IVPN's apps. IVPN also offers a WireGuard configuration generator for use with the official WireGuard [apps](https://www.wireguard.com/install/).
 
@@ -211,7 +211,7 @@ Mullvad, in addition to accepting credit/debit cards and PayPal, accepts Bitcoin
 
 #### :material-check:{ .pg-green } WireGuard対応
 
-Mullvad supports the WireGuard® protocol. [WireGuard](https://www.wireguard.com)は最先端の[暗号化](https://www.wireguard.com/protocol/)を使用する新しいプロトコルです。 加えて、WireGuardはよりシンプルかつより高性能であることを目指しています。
+MullvadはWireGuard®️プロトコルをサポートしています。 [WireGuard](https://www.wireguard.com)は最先端の[暗号化](https://www.wireguard.com/protocol/)を使用する新しいプロトコルです。 加えて、WireGuardはよりシンプルかつより高性能であることを目指しています。
 
 Mullvad [recommends](https://mullvad.net/en/help/why-wireguard/) the use of WireGuard with their service. It is the default or only protocol on Mullvad's Android, iOS, macOS, and Linux apps, but on Windows you have to [manually enable](https://mullvad.net/en/help/how-turn-wireguard-mullvad-app/) WireGuard. Mullvad also offers a WireGuard configuration generator for use with the official WireGuard [apps](https://www.wireguard.com/install/).
 

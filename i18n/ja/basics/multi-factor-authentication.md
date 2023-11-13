@@ -38,7 +38,7 @@ An adversary could set up a website to imitate an official service in an attempt
 
 Although not perfect, TOTP is secure enough for most people, and when [hardware security keys](../multi-factor-authentication.md#hardware-security-keys) are not supported [authenticator apps](../multi-factor-authentication.md#authenticator-apps) are still a good option.
 
-### Hardware security keys
+### ハードウェアのセキュリティキー
 
 The YubiKey stores data on a tamper-resistant solid-state chip which is [impossible to access](https://security.stackexchange.com/a/245772) non-destructively without an expensive process and a forensics laboratory.
 

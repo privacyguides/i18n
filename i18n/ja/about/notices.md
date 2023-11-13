@@ -4,7 +4,7 @@ title: "Notices and Disclaimers"
 
 ## 法的免責事項
 
-Privacy Guides is not a law firm. As such, the Privacy Guides website and contributors are not providing legal advice. The material and recommendations in our website and guides do not constitute legal advice nor does contributing to the website or communicating with Privacy Guides or other contributors about our website create an attorney-client relationship.
+Privacy Guidesは法律事務所ではありません。 As such, the Privacy Guides website and contributors are not providing legal advice. The material and recommendations in our website and guides do not constitute legal advice nor does contributing to the website or communicating with Privacy Guides or other contributors about our website create an attorney-client relationship.
 
 Running this website, like any human endeavor, involves uncertainty and trade-offs. We hope this website helps, but it may include mistakes and can’t address every situation. If you have any questions about your situation, we encourage you to do your own research, seek out other experts, and engage in discussions with the Privacy Guides community. If you have any legal questions, you should consult with your own legal counsel before moving forward.
 
@@ -41,7 +41,7 @@ You must not conduct any systematic or automated data collection activities on o
 
 * Excessive Automated Scans
 * Denial of Service Attacks
-* Scraping
+* スクレイピング
 * データマイニング
 * 'Framing' (IFrames)
 

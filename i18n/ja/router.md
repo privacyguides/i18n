@@ -1,5 +1,5 @@
 ---
-title: "Router Firmware"
+title: "ルーターのファームウェア"
 icon: material/router-wireless
 description: These alternative operating systems can be used to secure your router or Wi-Fi access point.
 cover: router.webp
@@ -46,6 +46,6 @@ OPNsense was originally developed as a fork of [pfSense](https://en.wikipedia.or
 
     私たちは、サイトの各項目に関して、定義された規準の確立に取り組んでいます。この規準は変更される可能性があります。 規準について疑問がある場合は、[フォーラムで質問](https://discuss.privacyguides.net/latest)してください。また、ここに記載されていない場合でも、私たちがプロジェクトを推奨する際に、そうした事柄を考慮しなかったと仮定するのはお止めください。 プロジェクトを推奨する際に考慮され、議論される要素は多くあり、そのすべてを文書化する作業は現在進行中です。
 
-- Must be open source.
-- Must receive regular updates.
-- Must support a wide variety of hardware.
+- オープンソースであること。
+- 定期的にアップデートが行われること。
+- 多様なハードウェアをサポートしていること。

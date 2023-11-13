@@ -59,7 +59,7 @@ There are a number of cryptocurrency projects which purport to provide privacy b
 
 Privacy coins have been subject to increasing scrutiny by government agencies. In 2020, [the IRS published a $625,000 bounty](https://www.forbes.com/sites/kellyphillipserb/2020/09/14/irs-will-pay-up-to-625000-if-you-can-crack-monero-other-privacy-coins/?sh=2e9808a085cc) for tools which can break Bitcoin Lightning Network and/or Monero's transaction privacy. They ultimately [paid two companies](https://sam.gov/opp/5ab94eae1a8d422e88945b64181c6018/view) (Chainalysis and Integra Fec) a combined $1.25 million for tools which purport to do so (it is unknown which cryptocurrency network these tools target). Due to the secrecy surrounding tools like these, ==none of these methods of tracing cryptocurrencies have been independently confirmed.== However, it is quite likely that tools which assist targeted investigations into private coin transactions exist, and that privacy coins only succeed in thwarting mass surveillance.
 
-### Other Coins (Bitcoin, Ethereum, etc.)
+### その他のコイン（ビットコイン、イーサリアムなど）
 
 大多数の暗号通貨プロジェクトでは公開のブロックチェーンを使用しているため、全ての取引は簡単に追跡でき、かつ永続的です。 そのため、私たちはプライバシーに関する理由から、ほとんどの暗号通貨の使用に対して強く反対します。
 

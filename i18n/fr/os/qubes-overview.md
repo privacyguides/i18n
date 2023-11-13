@@ -63,7 +63,7 @@ Vos qubes devraient être configurés de la manière suivante :
 | sys-firewall    | *Votre qube pare-feu par défaut (pré-installé)*                                                                        | sys-net         |
 | ==sys-proxyvm== | Le ProxyVM VPN que vous [avez créé](https://github.com/Qubes-Community/Contents/blob/master/docs/configuration/vpn.md) | sys-firewall    |
 | sys-whonix      | Votre VM passerelle Whonix                                                                                             | ==sys-proxyvm== |
-| anon-whonix     | Your Whonix Workstation VM                                                                                             | sys-whonix      |
+| anon-whonix     | Votre VM station de travail Whonix                                                                                     | sys-whonix      |
 
 ## Ressources supplémentaires
 

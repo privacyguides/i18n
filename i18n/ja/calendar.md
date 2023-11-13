@@ -33,7 +33,7 @@ Calendars contain some of your most sensitive data; use products that implement 
         - [:simple-flathub: Flathub](https://flathub.org/apps/com.tutanota.Tutanota)
         - [:octicons-browser-16: Web](https://app.tuta.com/)
 
-## Proton Calendar
+## Protonカレンダー
 
 !!! recommendation
 

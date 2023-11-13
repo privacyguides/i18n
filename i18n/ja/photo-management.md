@@ -94,7 +94,7 @@ We are working on establishing defined criteria for every section of our site, a
 - Must offer a web interface which supports basic file management functionality.
 - Must allow for easy exports of all files/documents.
 - 標準的な監査済みの暗号化を使用すること。
-- Must be open source.
+- オープンソースであること。
 
 ### 満たされることが望ましい基準
 

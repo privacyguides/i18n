@@ -26,7 +26,7 @@ Below, we discuss and provide a tutorial to prove what an outside observer may s
 
 2. We can then use [`dig`](https://en.wikipedia.org/wiki/Dig_(command)) (Linux, MacOS, etc.) or [`nslookup`](https://en.wikipedia.org/wiki/Nslookup) (Windows) to send the DNS lookup to both servers. Software such as web browsers do these lookups automatically, unless they are configured to use encrypted DNS.
 
-    === "Linux, macOS"
+    === "LinuxとmacOS"
 
         ```
         dig +noall +answer privacyguides.org @1.1.1.1
@@ -64,7 +64,7 @@ If you run the Wireshark command above, the top pane shows the "[frames](https:/
 
 An observer could modify any of these packets.
 
-## What is "encrypted DNS"?
+## 「暗号化されたDNS」とは？
 
 Encrypted DNS can refer to one of a number of protocols, the most common ones being:
 
@@ -297,7 +297,7 @@ A QNAME is a "qualified name", for example `discuss.privacyguides.net`. In the p
 
 | サーバー                | 質問                                          | 回答                                          |
 | ------------------- | ------------------------------------------- | ------------------------------------------- |
-| Root server         | What's the IP of discuss.privacyguides.net? | I don't know, ask .net's server...          |
+| ルートサーバー             | What's the IP of discuss.privacyguides.net? | わかりません。.netのサーバーに聞いてみてください。                 |
 | .netのサーバー           | What's the IP of discuss.privacyguides.net? | I don't know, ask Privacy Guides' server... |
 | Privacy Guidesのサーバー | What's the IP of discuss.privacyguides.net? | 5.161.195.190!                              |
 
@@ -305,7 +305,7 @@ With "QNAME minimization," your DNS resolver now only asks for just enough infor
 
 | サーバー                | 質問                                                   | 回答                                |
 | ------------------- | ---------------------------------------------------- | --------------------------------- |
-| Root server         | What's the nameserver for .net?                      | *Provides .net's server*          |
+| ルートサーバー             | What's the nameserver for .net?                      | *Provides .net's server*          |
 | .netのサーバー           | What's the nameserver for privacyguides.net?         | *Provides Privacy Guides' server* |
 | Privacy Guidesのサーバー | What's the nameserver for discuss.privacyguides.net? | This server!                      |
 | Privacy Guidesのサーバー | What's the IP of discuss.privacyguides.net?          | 5.161.195.190                     |

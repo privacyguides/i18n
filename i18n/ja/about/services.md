@@ -1,4 +1,4 @@
-# Privacy Guides Services
+# Privacy Guidesのサービス
 
 We run a number of web services to test out features and promote cool decentralized, federated, and/or open-source projects. Many of these services are available to the public and are detailed below.
 

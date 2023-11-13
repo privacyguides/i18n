@@ -31,7 +31,7 @@ schema:
 
 > If you're looking for a new VPN, you can go to the discount code of just about any podcast. If you are looking for a **good** VPN, you need professional help. The same goes for email clients, browsers, operating systems and password managers. How do you know which of these is the best, most privacy-friendly option? For that there is **Privacy Guides**, a platform on which a number of volunteers search day in, day out for the best privacy-friendly tools to use on the internet.
 
-— [Tweakers.net](https://tweakers.net/reviews/10568/op-zoek-naar-privacyvriendelijke-tools-niek-de-wilde-van-privacy-guides.html) [Translated from Dutch]
+- [Tweakers.net](https://tweakers.net/reviews/10568/op-zoek-naar-privacyvriendelijke-tools-niek-de-wilde-van-privacy-guides.html)［オランダ語からの翻訳］
 
 Also featured on: [Ars Technica](https://arstechnica.com/gadgets/2022/02/is-firefox-ok/), [Wirecutter](https://www.nytimes.com/wirecutter/guides/practical-guide-to-securing-windows-pc/) [[2](https://www.nytimes.com/wirecutter/guides/practical-guide-to-securing-your-mac/)], [NPO Radio 1](https://www.nporadio1.nl/nieuws/binnenland/8eaff3a2-8b29-4f63-9b74-36d2b28b1fe1/ooit-online-eens-wat-doms-geplaatst-ga-jezelf-eens-googlen-en-kijk-dan-wat-je-tegenkomt), and [Wired](https://www.wired.com/story/firefox-mozilla-2022/).
 
@@ -52,28 +52,28 @@ So far in 2023 we've launched international translations of our website in [Fren
     - [:simple-discourse: Discourse](https://discuss.privacyguides.net/u/jonah)
     - [:simple-github: GitHub](https://github.com/jonaharagon "@jonaharagon")
     - [:simple-mastodon: Mastodon](https://mastodon.neat.computer/@jonah "@jonah@neat.computer"){rel=me}
-    - [:fontawesome-solid-house: Homepage](https://www.jonaharagon.com)
+    - [:fontawesome-solid-house: ホームページ](https://www.jonaharagon.com)
 
 ??? person "@niek-de-wilde"
 
     - [:simple-discourse: Discourse](https://discuss.privacyguides.net/u/Niek-de-Wilde)
     - [:simple-github: GitHub](https://github.com/blacklight447 "@blacklight447")
     - [:simple-mastodon: Mastodon](https://mastodon.social/@blacklight447 "@blacklight447@mastodon.social"){rel=me}
-    - [:fontawesome-solid-envelope: Email](mailto:niekdewilde@privacyguides.org)
+    - [:fontawesome-solid-envelope: メール](mailto:niekdewilde@privacyguides.org)
 
 ??? person "@dngray"
 
     - [:simple-discourse: Discourse](https://discuss.privacyguides.net/u/dngray)
     - [:simple-github: GitHub](https://github.com/dngray "@dngray")
     - [:simple-mastodon: Mastodon](https://mastodon.social/@dngray "@dngray@mastodon.social"){rel=me}
-    - [:fontawesome-solid-envelope: Email](mailto:dngray@privacyguides.org)
+    - [:fontawesome-solid-envelope: メール](mailto:dngray@privacyguides.org)
 
 ??? person "@freddy"
 
     - [:simple-discourse: Discourse](https://discuss.privacyguides.net/u/freddy)
     - [:simple-github: GitHub](https://github.com/freddy-m "@freddy-m")
     - [:simple-mastodon: Mastodon](https://social.lol/@freddy "@freddy@social.lol"){rel=me}
-    - [:fontawesome-solid-house: Homepage](https://freddy.lol)
+    - [:fontawesome-solid-house: ホームページ](https://freddy.lol)
 
 ??? person "@olivia"
 
@@ -85,7 +85,7 @@ Additionally, [many people](https://github.com/privacyguides/privacyguides.org/g
 
 Our team members review all changes made to the website and handle administrative duties such as web hosting and financials, however they do not personally profit from any contributions made to this site. Our financials are transparently hosted by the Open Collective Foundation 501(c)(3) at [opencollective.com/privacyguides](https://opencollective.com/privacyguides). Donations to Privacy Guides are generally tax-deductible in the United States.
 
-## Site License
+## サイトのライセンス
 
 !!! danger ""
 
