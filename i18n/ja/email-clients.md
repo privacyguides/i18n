@@ -43,7 +43,7 @@ We recommend changing some of these settings to make Thunderbird a little more p
 
 These options can be found in :material-menu: → **Settings** → **Privacy & Security**.
 
-##### Web Content
+##### ウェブコンテンツ
 
 - [ ] Uncheck  **Remember websites and links I've visited**
 - [ ] Uncheck  **Accept cookies from sites**
@@ -177,7 +177,7 @@ Canary Mailのソースコードは公開されていません。 We recommend i
         - [:simple-linux: Linux](https://kontact.kde.org/download)
         - [:simple-flathub: Flathub](https://flathub.org/apps/details/org.kde.kontact)
 
-### Mailvelope (Browser)
+### Mailvlope（ブラウザー）
 
 !!! recommendation
 

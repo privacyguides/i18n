@@ -206,7 +206,7 @@ Browser-based encryption can be useful when you need to encrypt a file but canno
     [:octicons-code-16:](https://github.com/sh-dv/hat.sh){ .card-link title="Source Code" }
     [:octicons-heart-16:](https://github.com/sh-dv/hat.sh#donations){ .card-link title="Donations methods can be found at the bottom of the website" }
 
-## Command-line
+## コマンドライン
 
 Tools with command-line interfaces are useful for integrating [shell scripts](https://en.wikipedia.org/wiki/Shell_script).
 

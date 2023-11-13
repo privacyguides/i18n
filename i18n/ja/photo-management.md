@@ -1,5 +1,5 @@
 ---
-title: Photo Management
+title: 写真管理
 icon: material/image
 description: Photo management tools to keep your personal photos safe from the prying eyes of cloud storage providers and other unauthorized access.
 cover: photo-management.webp
@@ -9,7 +9,7 @@ Most cloud photo management solutions like Google Photos, Flickr, and Amazon Pho
 
 ## ente
 
-!!! recommendation
+!!! 推奨事項
 
 ```
 ![ente logo](assets/img/photo-management/ente.svg#only-light){ align=right }
@@ -36,7 +36,7 @@ Most cloud photo management solutions like Google Photos, Flickr, and Amazon Pho
 
 ## Stingle
 
-!!! recommendation
+!!! 推奨事項
 
 ```
 ![Stingle logo](assets/img/photo-management/stingle.png#only-light){ align=right }
@@ -59,7 +59,7 @@ Most cloud photo management solutions like Google Photos, Flickr, and Amazon Pho
 
 ## PhotoPrism
 
-!!! recommendation
+!!! 推奨事項
 
 ```
 ![PhotoPrism logo](assets/img/photo-management/photoprism.svg){ align=right }
@@ -78,7 +78,7 @@ Most cloud photo management solutions like Google Photos, Flickr, and Amazon Pho
 
 ## 規準
 
-**Please note we are not affiliated with any of the projects we recommend.** In addition to [our standard criteria](about/criteria.md), we have developed a clear set of requirements to allow us to provide objective recommendations. プロジェクトを利用する前に、このリストをよく理解し、ご自身で調査を行って、そのプロジェクトがあなたにとって適切な選択かどうかをご確認ください。
+\*\*私たちは、推薦するどのプロジェクトとも提携していません。\*\*客観的に推薦できるよう、[標準となる規準](about/criteria.md)に加えて、一連の明確な要件を定めています。 プロジェクトを利用する前に、このリストをよく理解し、ご自身で調査を行って、そのプロジェクトがあなたにとって適切な選択かどうかをご確認ください。
 
 !!! example "この項目は最近作成されました"
 

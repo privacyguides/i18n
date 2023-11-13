@@ -16,7 +16,7 @@ Centralized messengers are those where all participants are on the same server o
 
 Some self-hosted messengers allow you to set up your own server. Self-hosting can provide additional privacy guarantees, such as no usage logs or limited access to metadata (data about who is talking to whom). Self-hosted centralized messengers are isolated and everyone must be on the same server to communicate.
 
-**Advantages:**
+**メリット：**
 
 - New features and changes can be implemented more quickly.
 - Easier to get started with and to find contacts.
@@ -39,7 +39,7 @@ Federated messengers use multiple, independent, decentralized servers that are a
 
 When self-hosted, members of a federated server can discover and communicate with members of other servers, although some servers may choose to remain private by being non-federated (e.g., work team server).
 
-**Advantages:**
+**メリット：**
 
 - Allows for greater control over your own data when running your own server.
 - Allows you to choose whom to trust your data with by choosing between multiple "public" servers.
@@ -56,7 +56,7 @@ When self-hosted, members of a federated server can discover and communicate wit
 
 ## ピアツーピアネットワーク
 
-![P2P diagram](../assets/img/layout/network-distributed.svg){ align=left }
+![P2Pの図](../assets/img/layout/network-distributed.svg){ align=left }
 
 P2P messengers connect to a [distributed network](https://en.wikipedia.org/wiki/Distributed_networking) of nodes to relay a message to the recipient without a third-party server.
 
@@ -66,7 +66,7 @@ Once a peer has found a route to its contact via any of these methods, a direct 
 
 P2P networks do not use servers, as peers communicate directly between each other and hence cannot be self-hosted. However, some additional services may rely on centralized servers, such as user discovery or relaying offline messages, which can benefit from self-hosting.
 
-**Advantages:**
+**メリット：**
 
 - Minimal information is exposed to third-parties.
 - Modern P2P platforms implement E2EE by default. There are no servers that could potentially intercept and decrypt your transmissions, unlike centralized and federated models.
@@ -89,7 +89,7 @@ There are [many](https://doi.org/10.1145/3182658) different ways to implement an
 
 Self-hosting a node in an anonymous routing network does not provide the hoster with additional privacy benefits, but rather contributes to the whole network's resilience against identification attacks for everyone's benefit.
 
-**Advantages:**
+**メリット：**
 
 - Minimal to no information is exposed to other parties.
 - Messages can be relayed in a decentralized manner even if one of the parties is offline.

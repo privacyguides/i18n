@@ -123,7 +123,7 @@ On sites where you do share information, checking the privacy settings of your a
 
 If you've already submitted your real information to sites which shouldn't have it, consider using disinformation tactics, like submitting fictitious information related to that online identity. This makes your real information indistinguishable from the false information.
 
-## Avoiding Censorship
+## 検閲の回避
 
 <span class="pg-blue-gray">:material-close-outline: Censorship</span>
 

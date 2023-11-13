@@ -40,7 +40,7 @@ The majority of privacy and security concerns with Apple products are related to
 
 Therefore, if you use iCloud you should [enable **Advanced Data Protection**](https://support.apple.com/HT212520). This encrypts nearly all of your iCloud data with keys stored on your devices (end-to-end encryption), rather than Apple's servers, so that your iCloud data is secured in the event of a data breach, and otherwise hidden from Apple.
 
-### System Settings
+### システムの設定
 
 There are a number of built-in settings you should confirm or change to harden your system. Open the **Settings** app:
 
@@ -74,7 +74,7 @@ By default, your device name will be something like "[your name]'s iMac". Becaus
 
 Click on **About** and type your desired device name into the **Name** field.
 
-##### Software Updates
+##### ソフトウェアの更新
 
 You should automatically install all available updates to make sure your Mac has the latest security fixes.
 
@@ -174,7 +174,7 @@ System Integrity Protection makes critical file locations read-only to protect a
 
 #### Application Security
 
-##### App Sandbox
+##### アプリのサンドボックス
 
 macOS apps downloaded from the App Store are required to be sandboxed usng the [App Sandbox](https://developer.apple.com/documentation/security/app_sandbox).
 
@@ -182,7 +182,7 @@ macOS apps downloaded from the App Store are required to be sandboxed usng the [
 
     Software downloaded from outside the official App Store is not required to be sandboxed. You should avoid non-App Store software as much as possible.
 
-##### Antivirus
+##### アンチウィルス
 
 macOS comes with two forms of malware defense:
 
@@ -205,7 +205,7 @@ If you use Bluetooth accessories such as a keyboard, we recommend that you use o
 
 Apple's SoCs focus on minimizing attack surface by relegating security functions to dedicated hardware with limited functionality.
 
-#### Boot ROM
+#### ブートROM
 
 macOS prevents malware persistence by only allowing official Apple software to run at boot time; this is known as secure boot. Mac computers verify this with a bit of read-only memory on the SoC called the boot ROM, which is laid down during the manufacturing of the chip.
 

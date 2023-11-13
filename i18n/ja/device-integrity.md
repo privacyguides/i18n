@@ -15,7 +15,7 @@ These tools may provide utility for certain individuals. They provide functional
 
 It is **critical** to understand that scanning your device for public indicators of compromise is **not sufficient** to determine that a device is "clean", and not targeted with a particular spyware tool. Reliance on these publicly-available scanning tools can miss recent security developments and give you a false sense of security.
 
-## General Advice
+## 一般的なアドバイス
 
 The majority of system-level exploits on modern mobile devices—especially zero-click compromises—are non-persistent, meaning they will not remain or run automatically after a reboot. For this reason, we highly recommend rebooting your device regularly. We recommend everybody reboot their devices once a week at minimum, but if non-persistent malware is of particular concern for you, we and many security experts recommend a daily reboot schedule.
 
@@ -42,7 +42,7 @@ These tools provide analysis based on the information they have the ability to a
 1. Indicators of compromise are just that: _indicators_. They are not a definitive finding, and may occasionally be **false positives**. If an indicator of compromise is detected, it means you should do additional research into the _potential_ threat.
 2. The indicators of compromise these tools look for are published by threat research organizations, but not all indicators are made available to the public! This means that these tools can present a **false negative**, if your device is infected with spyware which is not detected by any of the public indicators. Reliable and comprehensive digital forensic support and triage requires access to non-public indicators, research and threat intelligence.
 
-## External Verification Tools
+## 外部検証ツール
 
 External verification tools run on your computer and scan your mobile device for forensic traces which are helpful to identify potential compromise.
 
@@ -58,9 +58,9 @@ Such support is available to civil society through [Amnesty International's Secu
 
 These tools can trigger false-positives. If any of these tools finds indicators of compromise, you need to dig deeper to determine your actual risk. Some reports may be false positives based on websites you've visited in the past, and findings which are many years old are likely either false-positives or indicate previous (and no longer active) compromise.
 
-### Mobile Verification Toolkit
+### モバイル検証ツールキット
 
-!!! recommendation
+!!! 推奨事項
 
 ```
 ![MVT logo](assets/img/device-integrity/mvt.webp){ align=right }
@@ -98,7 +98,7 @@ MVT allows you to perform deeper scans/analysis if your device is jailbroken. Un
 
 ### iMazing (iOS)
 
-!!! recommendation
+!!! 推奨事項
 
 ```
 ![iMazing logo](assets/img/device-integrity/imazing.png){ align=right }
@@ -129,7 +129,7 @@ Using these apps is insufficient to determine that a device is "clean", and not 
 
 ### Auditor (Android)
 
-!!! recommendation
+!!! 推奨事項
 
 ```
 ![Auditor logo](assets/img/device-integrity/auditor.svg#only-light){ align=right }
@@ -178,7 +178,7 @@ Using these apps is insufficient to determine that a device is "clean", and not 
 
 ### Hypatia (Android)
 
-!!! recommendation
+!!! 推奨事項
 
 ```
 ![Hypatia logo](assets/img/device-integrity/hypatia.svg#only-light){ align=right }
@@ -200,7 +200,7 @@ Hypatia is particularly good at detecting common stalkerware: If you suspect you
 
 ### iVerify (iOS)
 
-!!! recommendation
+!!! 推奨事項
 
 ```
 ![iVerify logo](assets/img/device-integrity/iverify.webp){ align=right }

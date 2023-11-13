@@ -35,7 +35,7 @@ The most common way to create a new account is by an email address and password.
 
 You will be responsible for managing your login credentials. For added security, you can set up [MFA](multi-factor-authentication.md) on your accounts.
 
-[Recommended password managers](../passwords.md ""){.md-button}
+[推奨のパスワードマネージャー](../passwords.md ""){.md-button}
 
 #### 電子メールのエイリアス
 

@@ -111,7 +111,7 @@ We highly recommend that you use mobile TOTP apps instead of desktop alternative
 
 ### Aegis Authenticator (Android)
 
-!!! recommendation
+!!! 推奨事項
 
     ![Aegis logo](assets/img/multi-factor-authentication/aegis.png){ align=right }
     

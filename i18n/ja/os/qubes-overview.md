@@ -14,7 +14,7 @@ Qubesは、 [区画化（コンパートメンタリゼーション）](https://
 
     Some of the information here and on the Qubes OS documentation may contain conflicting language as the "appVM" term is gradually being changed to "qube". Qubes are not entire virtual machines, but maintain similar functionalities to VMs.
 
-![Qubes architecture](../assets/img/qubes/qubes-trust-level-architecture.png)
+![Qubesのアーキテクチャー](../assets/img/qubes/qubes-trust-level-architecture.png)
 <figcaption>Qubes Architecture, Credit: What is Qubes OS Intro</figcaption>
 
 Each qube has a [colored border](https://www.qubes-os.org/screenshots/) that can help you keep track of the domain in which it runs. You could, for example, use a specific color for your banking browser, while using a different color for a general untrusted browser.
@@ -22,7 +22,7 @@ Each qube has a [colored border](https://www.qubes-os.org/screenshots/) that can
 ![Colored border](../assets/img/qubes/r4.0-xfce-three-domains-at-work.png)
 <figcaption>Qubes window borders, Credit: Qubes Screenshots</figcaption>
 
-## Why Should I use Qubes?
+## Qubesを使うべき理由
 
 Qubes OS is useful if your [threat model](../basics/threat-modeling.md) requires strong security and isolation, such as if you think you'll be opening untrusted files from untrusted sources. A typical reason for using Qubes OS is to open documents from unknown sources, but the idea is that if a single qube is compromised it won't affect the rest of the system.
 
@@ -49,7 +49,7 @@ To copy and paste files and directories (folders) from one *qube* to another, yo
 
 The [qrexec framework](https://www.qubes-os.org/doc/qrexec/) is a core part of Qubes which allows communication between domains. It is built on top of the Xen library *vchan*, which facilitates [isolation through policies](https://www.qubes-os.org/news/2020/06/22/new-qrexec-policy-system/).
 
-## Connecting to Tor via a VPN
+## VPN経由でTorに接続
 
 We [recommend](../advanced/tor-overview.md) connecting to the Tor network via a [VPN](../vpn.md) provider, and luckily Qubes makes this easy to do with a combination of ProxyVMs and Whonix.
 

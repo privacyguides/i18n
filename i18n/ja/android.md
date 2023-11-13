@@ -249,7 +249,7 @@ Main privacy features include:
 
 ### Secure PDF Viewer
 
-!!! recommendation
+!!! 推奨事項
 
     ![Secure PDF Viewer logo](assets/img/android/secure_pdf_viewer.svg#only-light){ align=right }
     ![Secure PDF Viewer logo](assets/img/android/secure_pdf_viewer-dark.svg#only-dark){ align=right }

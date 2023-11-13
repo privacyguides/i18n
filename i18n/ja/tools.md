@@ -172,7 +172,7 @@ We [recommend](dns.md#recommended-providers) a number of encrypted DNS servers b
 
 [詳細 :material-arrow-right-drop-circle:](financial-services.md#gift-card-marketplaces)
 
-### Photo Management
+### 写真管理
 
 <div class="grid cards" markdown>
 

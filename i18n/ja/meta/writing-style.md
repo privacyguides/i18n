@@ -26,7 +26,7 @@ We're writing *for* a wide variety of people, but we are writing *to* the person
 
 Source: [plainlanguage.gov](https://www.plainlanguage.gov/guidelines/audience/address-the-user/)
 
-### Avoid "users"
+### 「ユーザー」を避けること
 
 Avoid calling people "users", in favor of "people", or a more specific description of the group of people you are writing for.
 
@@ -73,7 +73,7 @@ Source: [plainlanguage.gov](https://www.plainlanguage.gov/guidelines/concise/)
 > 
 > Verbs tell your audience what to do. Make sure it’s clear who does what.
 
-### Use active voice
+### 能動態を使うこと
 
 > Active voice makes it clear who is supposed to do what. It eliminates ambiguity about responsibilities. Not “It must be done,” but “You must do it.”
 

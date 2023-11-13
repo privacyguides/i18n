@@ -131,7 +131,7 @@ We previously recommended enabling the *Isolate Destination Address* preference 
 
 ### Snowflake
 
-!!! recommendation
+!!! 推奨事項
 
     ![Snowflake logo](assets/img/browsers/snowflake.svg#only-light){ align=right }
     ![Snowflake logo](assets/img/browsers/snowflake-dark.svg#only-dark){ align=right }

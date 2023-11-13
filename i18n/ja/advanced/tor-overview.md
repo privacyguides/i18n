@@ -25,7 +25,7 @@ Connecting directly to Tor will make your connection stand out to any local netw
 
 Therefore, you should make an effort to hide your IP address **before** connecting to the Tor network. You can do this by simply connecting to a VPN (through a client installed on your computer) and then accessing [Tor](../tor.md) as normal, through Tor Browser for example. This creates a connection chain like:
 
-- [x] You → VPN → Tor → Internet
+- [x] あなた → VPN → Tor → インターネット
 
 From your ISP's perspective, it looks like you're accessing a VPN normally (with the associated cover that provides you). From your VPN's perspective, they can see that you are connecting to the Tor network, but nothing about what websites you're accessing. From Tor's perspective, you're connecting normally, but in the unlikely event of some sort of Tor network compromise, only your VPN's IP would be exposed, and your VPN would *additionally* have to be compromised to deanonymize you.
 
@@ -35,8 +35,8 @@ This is **not** censorship circumvention advice, because if Tor is blocked entir
 
 We **very strongly discourage** combining Tor with a VPN in any other manner. Do not configure your connection in a way which resembles any of the following:
 
-- You → Tor → VPN → Internet
-- You → VPN → Tor → VPN → Internet
+- あなた → Tor → VPN → インターネット
+- あなた → VPN → Tor → VPN → インターネット
 - Any other configuration
 
 Some VPN providers and other publications will occasionally recommend these **bad** configurations to evade Tor bans (exit nodes being blocked by websites) in some places. [Normally](https://support.torproject.org/#about_change-paths), Tor frequently changes your circuit path through the network. When you choose a permanent *destination* VPN (connecting to a VPN server *after* Tor), you're eliminating this advantage and drastically harming your anonymity.
@@ -45,7 +45,7 @@ Setting up bad configurations like these is difficult to do accidentally, becaus
 
 ---
 
-!!! info "VPN/SSH Fingerprinting"
+!!! info "VPN/SSHフィンガープリンティング"
 
     The Tor Project [notes](https://gitlab.torproject.org/legacy/trac/-/wikis/doc/TorPlusVPN#vpnssh-fingerprinting) that *theoretically* using a VPN to hide Tor activities from your ISP may not be foolproof. VPNs have been found to be vulnerable to website traffic fingerprinting, where an adversary can still guess what website is being visited, because all websites have specific traffic patterns.
     

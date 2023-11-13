@@ -16,7 +16,7 @@ MFA methods vary in security, but are based on the premise that the more difficu
 
 Receiving OTP codes via SMS or email are one of the weaker ways to secure your accounts with MFA. Obtaining a code by email or SMS takes away from the "something you *have*" idea, because there are a variety of ways a hacker could [take over your phone number](https://en.wikipedia.org/wiki/SIM_swap_scam) or gain access to your email without having physical access to any of your devices at all. If an unauthorized person gained access to your email, they would be able to use that access to both reset your password and receive the authentication code, giving them full access to your account.
 
-### Push Notifications
+### プッシュ通知
 
 Push notification MFA takes the form of a message being sent to an app on your phone asking you to confirm new account logins. This method is a lot better than SMS or email, since an attacker typically wouldn't be able to get these push notifications without having an already logged-in device, which means they would need to compromise one of your other devices first.
 
@@ -90,7 +90,7 @@ Unlike Yubico OTP, WebAuthn does not use any public ID, so the key is **not** id
 
 If a website or service supports WebAuthn for the authentication, it is highly recommended that you use it over any other form of MFA.
 
-## General Recommendations
+## 一般的な推奨事項
 
 We have these general recommendations:
 
@@ -104,7 +104,7 @@ You should always have backups for your MFA method. Hardware security keys can g
 
 When using TOTP with an authenticator app, be sure to back up your recovery keys or the app itself, or copy the "shared secrets" to another instance of the app on a different phone or to an encrypted container (e.g. [VeraCrypt](../encryption.md#veracrypt)).
 
-### Initial Set Up
+### 初期設定
 
 When buying a security key, it is important that you change the default credentials, set up password protection for the key, and enable touch confirmation if your key supports it. Products such as the YubiKey have multiple interfaces with separate credentials for each one of them, so you should go over each interface and set up protection as well.
 
@@ -114,7 +114,7 @@ If you have to use email for MFA, make sure that the email account itself is sec
 
 If you use SMS MFA, use a carrier who will not switch your phone number to a new SIM card without account access, or use a dedicated VoIP number from a provider with similar security to avoid a [SIM swap attack](https://en.wikipedia.org/wiki/SIM_swap_scam).
 
-[MFA tools we recommend](../multi-factor-authentication.md ""){.md-button}
+[推奨するMFAツール](../multi-factor-authentication.md ""){.md-button}
 
 ## More Places to Set Up MFA
 
@@ -160,6 +160,6 @@ SSH MFA could be set up using multiple different authentication methods that are
 
 SSH MFA can also be set up using TOTP. DigitalOcean has provided a tutorial [How To Set Up Multi-Factor Authentication for SSH on Ubuntu 20.04](https://www.digitalocean.com/community/tutorials/how-to-set-up-multi-factor-authentication-for-ssh-on-ubuntu-20-04). Most things should be the same regardless of distribution, however the package manager commands—such as `apt-get`—and package names may differ.
 
-### KeePass (and KeePassXC)
+### KeePass（およびKeePassXC）
 
 KeePass and KeePassXC databases can be secured using Challenge-Response or HOTP as a second-factor authentication. Yubico has provided a document for KeePass [Using Your YubiKey with KeePass](https://support.yubico.com/hc/en-us/articles/360013779759-Using-Your-YubiKey-with-KeePass) and there is also one on the [KeePassXC](https://keepassxc.org/docs/#faq-yubikey-2fa) website.

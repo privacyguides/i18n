@@ -1,5 +1,5 @@
 ---
-title: "About Privacy Guides"
+title: "Privacy Guidesについて"
 description: Privacy Guides is a socially motivated website that provides information for protecting your data security and privacy.
 schema:
   "@context": https://schema.org
@@ -17,7 +17,7 @@ schema:
     - https://mastodon.neat.computer/@privacyguides
 ---
 
-![Privacy Guides logo](../assets/brand/PNG/Square/pg-yellow.png){ align=right }
+![Privacy Guidesのロゴ](../assets/brand/PNG/Square/pg-yellow.png){ align=right }
 
 **Privacy Guides** is a socially motivated website that provides [information](/kb) for protecting your data security and privacy. Our mission is to inform the public about the value of digital privacy, and global government initiatives which aim to monitor your online activity. We are a non-profit collective operated entirely by volunteer [team members](https://discuss.privacyguides.net/g/team) and contributors. Our website is free of advertisements and not affiliated with any of the listed providers.
 

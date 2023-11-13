@@ -2,7 +2,7 @@
 title: "Notices and Disclaimers"
 ---
 
-## Legal Disclaimer
+## 法的免責事項
 
 Privacy Guides is not a law firm. As such, the Privacy Guides website and contributors are not providing legal advice. The material and recommendations in our website and guides do not constitute legal advice nor does contributing to the website or communicating with Privacy Guides or other contributors about our website create an attorney-client relationship.
 
@@ -33,7 +33,7 @@ We believe that the logos and other images in `assets` obtained from third-party
 
 When you contribute to our website you are doing so under the above licenses, and you are granting Privacy Guides a perpetual, worldwide, non-exclusive, transferable, royalty-free, irrevocable license with the right to sublicense such rights through multiple tiers of sublicensees, to reproduce, modify, display, perform and distribute your contribution as part of our project.
 
-## Acceptable Use
+## 許容される使用
 
 You may not use this website in any way that causes or may cause damage to the website or impairment of the availability or accessibility of Privacy Guides, or in any way which is unlawful, illegal, fraudulent, harmful, or in connection with any unlawful, illegal, fraudulent, or harmful purpose or activity.
 
@@ -42,7 +42,7 @@ You must not conduct any systematic or automated data collection activities on o
 * Excessive Automated Scans
 * Denial of Service Attacks
 * Scraping
-* Data Mining
+* データマイニング
 * 'Framing' (IFrames)
 
 ---

@@ -78,17 +78,17 @@ Download
 
 ## Criteri
 
-**Please note we are not affiliated with any of the projects we recommend.** In addition to [our standard criteria](about/criteria.md), we have developed a clear set of requirements to allow us to provide objective recommendations. Ti suggeriamo di familiarizzare con questo elenco prima di scegliere di utilizzare un progetto e di condurre le tue ricerche per assicurarti che si tratti della scelta adatta a te.
+**Ti preghiamo di notare che non siamo affiliati con alcun progetto consigliato.** Oltre ai [nostri criteri standard](about/criteria.md), abbiamo sviluppato una serie chiara di requisiti per consentirci di fornire consigli oggettivi. Ti suggeriamo di familiarizzare con questo elenco prima di scegliere di utilizzare un progetto e di condurre le tue ricerche per assicurarti che si tratti della scelta adatta a te.
 
 !!! example "Questa sezione è nuova"
 
 ```
-We are working on establishing defined criteria for every section of our site, and this may be subject to change. If you have any questions about our criteria, please [ask on our forum](https://discuss.privacyguides.net/latest) and don't assume we didn't consider something when making our recommendations if it is not listed here. There are many factors considered and discussed when we recommend a project, and documenting every single one is a work-in-progress.
+Stiamo lavorando per stabilire dei criteri definiti per ogni sezione del nostro sito e ciò potrebbe essere soggetto a modifiche. Se hai domande sui nostri criteri, per favore [chiedi sul nostro forum](https://discuss.privacyguides.net/latest) e non dare per scontato che non abbiamo preso in considerazione qualcosa quando abbiamo fatto le nostre raccomandazioni se non è elencato qui. Sono molti i fattori presi in considerazione e discussi quando raccomandiamo un progetto, e documentare ogni singolo fattore è un lavoro in corso.
 ```
 
 ### Requisiti minimi
 
-- Cloud-hosted providers must enforce end-to-end encryption.
+- I provider ospitati in cloud devono applicare la crittografia end-to-end.
 - Deve offrire un piano gratuito o un periodo di prova per testarlo.
 - Deve supportare l'autenticazione a più fattori TOTP o FIDO2, o gli accessi tramite Passkey.
 - Deve offrire un'interfaccia web che supporti le funzionalità di base per la gestione dei file.

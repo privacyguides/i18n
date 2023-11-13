@@ -106,7 +106,7 @@ The app offers multiple ways to erase metadata from images. Namely:
 
     You should **never** use blur to redact [text in images](https://bishopfox.com/blog/unredacter-tool-never-pixelation). If you want to redact text in an image, draw a box over the text. For this, we suggest apps like [Pocket Paint](https://github.com/Catrobat/Paintroid).
 
-## Command-line
+## コマンドライン
 
 ### ExifTool
 
