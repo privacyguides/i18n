@@ -172,7 +172,7 @@ Para obtener más información sobre cada proyecto, por qué han sido elegidos y
 
 [Más información :material-arrow-right-drop-circle:](financial-services.md#gift-card-marketplaces)
 
-### Photo Management
+### Gestión de Fotografías
 
 <div class="grid cards" markdown>
 
@@ -481,11 +481,11 @@ Para obtener más información sobre cada proyecto, por qué han sido elegidos y
 
 [Más información :material-arrow-right-drop-circle:](router.md)
 
-## Advanced Tools
+## Herramientas Avanzadas
 
-These tools may provide utility for certain individuals. They provide functionality which most people do not need to worry about, and often require more in-depth technical knowledge to utilize effectively.
+Estas herramientas pueden ser útiles para determinadas personas. Proporcionan funcionalidades de las que la mayoría de la gente no necesita preocuparse, y a menudo requieren conocimientos técnicos más profundos para utilizarlas con eficacia.
 
-### Device Integrity Verification
+### Verificación de Integridad del Dispositivo
 
 <div class="grid cards" markdown>
 

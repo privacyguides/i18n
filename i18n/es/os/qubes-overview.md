@@ -49,21 +49,21 @@ Para copiar y pegar archivos y directorios (carpetas) entre un *qube* y otro, pu
 
 El [framework qrexec](https://www.qubes-os.org/doc/qrexec/) es una parte central de Qubes que permite la comunicación entre dominios. Está construido sobre la librería Xen *vchan*, que facilita el [aislamiento a través de políticas](https://www.qubes-os.org/news/2020/06/22/new-qrexec-policy-system/).
 
-## Connecting to Tor via a VPN
+## Conectarse a Tor a través de una VPN
 
-We [recommend](../advanced/tor-overview.md) connecting to the Tor network via a [VPN](../vpn.md) provider, and luckily Qubes makes this easy to do with a combination of ProxyVMs and Whonix.
+Nosotros [recomendamos](../advanced/tor-overview.md) conectarse a la red Tor a través de un proveedor de [VPN](../vpn.md), y, por suerte, Qubes hace que esto sea fácil de hacer con una combinación de ProxyVMs y Whonix.
 
-After [creating a new ProxyVM](https://github.com/Qubes-Community/Contents/blob/master/docs/configuration/vpn.md) which connects to the VPN of your choice, you can chain your Whonix qubes to that ProxyVM **before** they connect to the Tor network, by setting the NetVM of your Whonix **Gateway** (`sys-whonix`) to the newly-created ProxyVM.
+Después de [crear una nueva ProxyVM](https://github.com/Qubes-Community/Contents/blob/master/docs/configuration/vpn.md) que se conecte a la VPN de tu elección, puedes encadenar tus qubes Whonix a ese ProxyVM **antes de** que se conecten a la red Tor, configurando la NetVM de tu Whonix **Gateway** (`sys-whonix`) a la ProxyVM recién creada.
 
-Your qubes should be configured in a manner similar to this:
+Tus qubes deberían estar configurados de forma similar a esta:
 
-| Qube name       | Qube description                                                                                                 | NetVM           |
-| --------------- | ---------------------------------------------------------------------------------------------------------------- | --------------- |
-| sys-net         | *Your default network qube (pre-installed)*                                                                      | *n/a*           |
-| sys-firewall    | *Your default firewall qube (pre-installed)*                                                                     | sys-net         |
-| ==sys-proxyvm== | The VPN ProxyVM you [created](https://github.com/Qubes-Community/Contents/blob/master/docs/configuration/vpn.md) | sys-firewall    |
-| sys-whonix      | Your Whonix Gateway VM                                                                                           | ==sys-proxyvm== |
-| anon-whonix     | Your Whonix Workstation VM                                                                                       | sys-whonix      |
+| Nombre Qube     | Descripción Qube                                                                                                   | NetVM           |
+| --------------- | ------------------------------------------------------------------------------------------------------------------ | --------------- |
+| sys-net         | *Tu qube de red por defecto (preinstalado)*                                                                        | *n/a*           |
+| sys-firewall    | *Tu qube de red por defecto (preinstalado)*                                                                        | sys-net         |
+| ==sys-proxyvm== | La VPN ProxyVM que has [creado](https://github.com/Qubes-Community/Contents/blob/master/docs/configuration/vpn.md) | sys-firewall    |
+| sys-whonix      | Tu MV Whonix Gateway                                                                                               | ==sys-proxyvm== |
+| anon-whonix     | Tu MV Whonix Workstation                                                                                           | sys-whonix      |
 
 ## Recursos Adicionales
 

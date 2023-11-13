@@ -172,13 +172,13 @@ Nous [recommandons](dns.md#recommended-providers) un certain nombre de serveurs 
 
 [En savoir plus :material-arrow-right-drop-circle:](financial-services.md#gift-card-marketplaces)
 
-### Photo Management
+### Gestion des photos
 
 <div class="grid cards" markdown>
 
-- ![Ente logo](assets/img/photo-management/ente.svg#only-light){ .twemoji }![Ente logo](assets/img/photo-management/ente.svg#only-dark){ .twemoji } [Ente](photo-management.md#ente)
-- ![Stingle logo](assets/img/photo-management/stingle.png#only-light){ .twemoji }![Stingle logo](assets/img/photo-management/stingle-dark.png#only-dark){ .twemoji } [Stingle](photo-management.md#stingle)
-- ![PhotoPrism logo](assets/img/photo-management/photoprism.svg){ .twemoji } [PhotoPrism](photo-management.md#photoprism)
+- ![logo Ente](assets/img/photo-management/ente.svg#only-light){ .twemoji }![logo Ente](assets/img/photo-management/ente.svg#only-dark){ .twemoji } [Ente](photo-management.md#ente)
+- ![logo Stingle](assets/img/photo-management/stingle.png#only-light){ .twemoji }![logo Stingle](assets/img/photo-management/stingle-dark.png#only-dark){ .twemoji } [Stingle](photo-management.md#stingle)
+- ![logo PhotoPrism](assets/img/photo-management/photoprism.svg){ .twemoji } [PhotoPrism](photo-management.md#photoprism)
 
 </div>
 
@@ -442,11 +442,11 @@ Nous [recommandons](dns.md#recommended-providers) un certain nombre de serveurs 
 
 <div class="grid cards" markdown>
 
-- ![Obtainium logo](assets/img/android/obtainium.svg){ .twemoji } [Obtainium (App Manager)](android.md#obtainium)
-- ![Aurora Store logo](assets/img/android/aurora-store.webp){ .twemoji } [Aurora Store (Google Play Client)](android.md#aurora-store)
-- ![Shelter logo](assets/img/android/mini/shelter.svg){ .twemoji } [Shelter (Work Profiles)](android.md#shelter)
-- ![Secure Camera logo](assets/img/android/secure_camera.svg#only-light){ .twemoji }![Secure Camera logo](assets/img/android/secure_camera-dark.svg#only-dark){ .twemoji } [Secure Camera](android.md#secure-camera)
-- ![Secure PDF Viewer logo](assets/img/android/secure_pdf_viewer.svg#only-light){ .twemoji }![Secure PDF Viewer logo](assets/img/android/secure_pdf_viewer-dark.svg#only-dark){ .twemoji } [Secure PDF Viewer](android.md#secure-pdf-viewer)
+- ![logo Obtainium](assets/img/android/obtainium.svg){ .twemoji } [Obtainium (gestionnaire d'applications)](android.md#obtainium)
+- ![logo Aurora Store](assets/img/android/aurora-store.webp){ .twemoji } [Aurora Store (client Google Play)](android.md#aurora-store)
+- ![logo Shelter](assets/img/android/mini/shelter.svg){ .twemoji } [Shelter (profils professionnels)](android.md#shelter)
+- ![logo Secure Camera](assets/img/android/secure_camera.svg#only-light){ .twemoji }![logo Secure Camera](assets/img/android/secure_camera-dark.svg#only-dark){ .twemoji } [Secure Camera](android.md#secure-camera)
+- ![logo Secure PDF Viewer](assets/img/android/secure_pdf_viewer.svg#only-light){ .twemoji }![logo Secure PDF Viewer](assets/img/android/secure_pdf_viewer-dark.svg#only-dark){ .twemoji } [Secure PDF Viewer](android.md#secure-pdf-viewer)
 
 </div>
 
@@ -481,19 +481,19 @@ Nous [recommandons](dns.md#recommended-providers) un certain nombre de serveurs 
 
 [En savoir plus :material-arrow-right-drop-circle:](router.md)
 
-## Advanced Tools
+## Outils avancés
 
-These tools may provide utility for certain individuals. They provide functionality which most people do not need to worry about, and often require more in-depth technical knowledge to utilize effectively.
+Ces outils peuvent être utiles à certaines personnes. Ils offrent des fonctionnalités dont la plupart des gens n'ont pas besoin de se préoccuper, et nécessitent souvent des connaissances techniques plus approfondies pour être utilisés efficacement.
 
-### Device Integrity Verification
+### Vérification de l'intégrité d'un appareil
 
 <div class="grid cards" markdown>
 
-- ![MVT logo](assets/img/device-integrity/mvt.webp){ .twemoji } [Mobile Verification Toolkit](device-integrity.md#mobile-verification-toolkit)
-- ![iMazing logo](assets/img/device-integrity/imazing.png){ .twemoji } [iMazing (iOS)](device-integrity.md#imazing-ios)
-- ![Auditor logo](assets/img/device-integrity/auditor.svg#only-light){ .twemoji }![Auditor logo](assets/img/device-integrity/auditor-dark.svg#only-dark){ .twemoji } [Auditor (Android)](device-integrity.md#auditor-android)
-- ![Hypatia logo](assets/img/device-integrity/hypatia.svg#only-light){ .twemoji }![Hypatia logo](assets/img/device-integrity/hypatia-dark.svg#only-dark){ .twemoji } [Hypatia (Android)](device-integrity.md#hypatia-android)
-- ![iVerify logo](assets/img/device-integrity/iverify.webp){ .twemoji } [iVerify (iOS)](device-integrity.md#iverify-ios)
+- ![logo MVT](assets/img/device-integrity/mvt.webp){ .twemoji } [Mobile Verification Toolkit](device-integrity.md#mobile-verification-toolkit)
+- ![logo iMazing](assets/img/device-integrity/imazing.png){ .twemoji } [iMazing (iOS)](device-integrity.md#imazing-ios)
+- ![logo Auditor](assets/img/device-integrity/auditor.svg#only-light){ .twemoji }![logo Auditor](assets/img/device-integrity/auditor-dark.svg#only-dark){ .twemoji } [Auditor (Android)](device-integrity.md#auditor-android)
+- ![logo Hypatia](assets/img/device-integrity/hypatia.svg#only-light){ .twemoji }![logo Hypatia](assets/img/device-integrity/hypatia-dark.svg#only-dark){ .twemoji } [Hypatia (Android)](device-integrity.md#hypatia-android)
+- ![logo iVerify](assets/img/device-integrity/iverify.webp){ .twemoji } [iVerify (iOS)](device-integrity.md#iverify-ios)
 
 </div>
 

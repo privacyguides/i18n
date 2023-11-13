@@ -249,7 +249,7 @@ Las principales características de privacidad incluyen:
 
 ### Visor seguro de PDF
 
-!!! recommendation
+!!! recommendation "Recomendación"
 
     ![Secure PDF Viewer logo](assets/img/android/secure_pdf_viewer.svg#only-light){ align=right }
     ![Secure PDF Viewer logo](assets/img/android/secure_pdf_viewer-dark.svg#only-dark){ align=right }
@@ -313,7 +313,7 @@ Aurora Store no te permite descargar aplicaciones de pago con su función de cue
 
 ### Manualmente con notificaciones RSS
 
-For apps that are released on platforms like GitHub and GitLab, you may be able to add an RSS feed to your [news aggregator](news-aggregators.md) that will help you keep track of new releases.
+Para las aplicaciones que se publican en plataformas como GitHub y GitLab, puedes añadir un canal RSS a tu [agregador de noticias](news-aggregators.md) que te ayudará a estar al tanto de las nuevas versiones.
 
 ![RSS APK](./assets/img/android/rss-apk-light.png#only-light) ![RSS APK](./assets/img/android/rss-apk-dark.png#only-dark) ![Cambios en APKs](./assets/img/android/rss-changes-light.png#only-light) ![Cambios en el APK](./assets/img/android/rss-changes-dark.png#only-dark)
 

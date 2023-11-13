@@ -93,7 +93,7 @@ We are working on establishing defined criteria for every section of our site, a
 - Must support TOTP or FIDO2 multi-factor authentication, or Passkey logins.
 - Must offer a web interface which supports basic file management functionality.
 - Must allow for easy exports of all files/documents.
-- Must use standard, audited encryption.
+- 標準的な監査済みの暗号化を使用すること。
 - Must be open source.
 
 ### 満たされることが望ましい基準

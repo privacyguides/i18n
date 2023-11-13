@@ -1,5 +1,5 @@
 ---
-title: Photo Management
+title: Gestión de Fotografías
 icon: material/image
 description: Photo management tools to keep your personal photos safe from the prying eyes of cloud storage providers and other unauthorized access.
 cover: photo-management.webp

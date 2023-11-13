@@ -346,7 +346,7 @@ If you download APK files to install manually, you can verify their signature wi
     ./bin/sdkmanager --sdk_root=./ "build-tools;29.0.3"
     ```
 
-4. Run the signature verification command:
+4. 署名検証コマンドを実行：
 
     ```bash
     ./build-tools/29.0.3/apksigner verify --print-certs ../Camera-37.apk

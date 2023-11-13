@@ -236,7 +236,7 @@ StartMail no ofrece una función de legado digital.
         - [:simple-linux: Linux](https://tuta.com/#download)
         - [:octicons-browser-16: Web](https://app.tuta.com/)
 
-Tuta no admite el [protocolo IMAP](https://tuta.com/faq/#imap) ni el uso de [clientes de correo electrónico](email-clients.md) de terceros, y tampoco podrás añadir [cuentas de correo electrónico externas](https://github.com/tutao/tutanota/issues/544#issuecomment-670473647) a la aplicación Tuta. [Email import](https://github.com/tutao/tutanota/issues/630) is not currently supported either, though this is [due to be changed](https://tuta.com/blog/posts/kickoff-import). Los correos electrónicos se pueden exportar [individualmente o por selección masiva](https://tuta.com/howto#generalMail) por carpeta, lo que puede resultar incómodo si tiene muchas carpetas.
+Tuta no admite el [protocolo IMAP](https://tuta.com/faq/#imap) ni el uso de [clientes de correo electrónico](email-clients.md) de terceros, y tampoco podrás añadir [cuentas de correo electrónico externas](https://github.com/tutao/tutanota/issues/544#issuecomment-670473647) a la aplicación Tuta. [La importación de correo electrónico](https://github.com/tutao/tutanota/issues/630) tampoco es compatible en la actualidad, aunque está [previsto que se modifique](https://tuta.com/blog/posts/kickoff-import). Los correos electrónicos se pueden exportar [individualmente o por selección masiva](https://tuta.com/howto#generalMail) por carpeta, lo que puede resultar incómodo si tiene muchas carpetas.
 
 #### :material-check:{ .pg-green } Dominios Personalizados y Alias
 
