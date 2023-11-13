@@ -53,10 +53,10 @@ Gli indicatori pubblici di compromissione non sono sufficienti per determinare c
 
 Un supporto e triage forense digitale affidabile e completo richiede l'accesso a indicatori, ricerca e informazioni sulle minacce non pubblici.
 
-Tale supporto è disponibile alla società civile tramite il [Laboratorio sulla sicurezza di Amnesty International](https://www.amnesty.org/en/tech) o il [Telesoccorso sulla sicurezza digitale di Access Now](https://www.accessnow.org/help/).
+Tale supporto è disponibile alla società civile tramite il [Laboratorio sulla sicurezza di Amnesty International](https://www.amnesty.org/en/tech) o il [Telesoccorso sulla sicurezza digitale di Access Now](https://www.accessnow.org/help-it/).
 ```
 
-Questi strumenti possono causare dei falsi positivi. Se uno di questi strumenti rileva degli indicatori di compromissione, devi approfondire per determinare i rischi effettivi. Alcuni rapporti potrebberro essere falsi positivi basati sui siti web che hai visitato in passato, e i risultati risalenti a molti anni fa, potrebbero essere falsi positivi, o indicare compromissioni precedenti (e non più attive).
+Questi strumenti possono causare dei falsi positivi. Se uno di questi strumenti rileva degli indicatori di compromissione, devi approfondire per determinare i rischi effettivi. Alcuni rapporti potrebbero essere falsi positivi basati sui siti web che hai visitato in passato, e i risultati risalenti a molti anni fa, potrebbero essere falsi positivi, o indicare compromissioni precedenti (e non più attive).
 
 ### Mobile Verification Toolkit
 
@@ -94,7 +94,7 @@ Se utilizzi iOS e sei ad alto rischio, abbiamo altri tre suggerimenti per te:
 
 3. Abilita la [Modalità di Blocco](https://blog.privacyguides.org/2022/10/27/macos-ventura-privacy-security-updates/#lockdown-mode).
 
-MVT ti consente di eseguire scansioni/analisi più approfondite, se il tuo dispositivo è stato sottoposto a jailbreak. A meno che tu non sappia cosa stai facendo, **non eseguire il jailbreak o il root del tuo dispositivo**. Il jailbreak del tuo dispositivo lo espone a considerevoli rischi di sicurrezza.
+MVT ti consente di eseguire scansioni/analisi più approfondite, se il tuo dispositivo è stato sottoposto a jailbreak. A meno che tu non sappia cosa stai facendo, **non eseguire il jailbreak o il root del tuo dispositivo**. Il jailbreak del tuo dispositivo lo espone a considerevoli rischi di sicurezza.
 
 ### iMazing (iOS)
 
