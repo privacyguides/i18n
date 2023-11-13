@@ -172,6 +172,18 @@ Kami [merekomendasikan](dns.md#recommended-providers) sejumlah server DNS terenk
 
 [Pelajari lebih lanjut :material-arrow-right-drop-circle:](financial-services.md#gift-card-marketplaces)
 
+### Photo Management
+
+<div class="grid cards" markdown>
+
+- ![Ente logo](assets/img/photo-management/ente.svg#only-light){ .twemoji }![Ente logo](assets/img/photo-management/ente.svg#only-dark){ .twemoji } [Ente](photo-management.md#ente)
+- ![Stingle logo](assets/img/photo-management/stingle.png#only-light){ .twemoji }![Stingle logo](assets/img/photo-management/stingle-dark.png#only-dark){ .twemoji } [Stingle](photo-management.md#stingle)
+- ![PhotoPrism logo](assets/img/photo-management/photoprism.svg){ .twemoji } [PhotoPrism](photo-management.md#photoprism)
+
+</div>
+
+[Pelajari lebih lanjut :material-arrow-right-drop-circle:](photo-management.md)
+
 ### Mesin Pencari
 
 <div class="grid cards" markdown>

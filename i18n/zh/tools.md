@@ -178,6 +178,18 @@ We [recommend](dns.md#recommended-providers) a number of encrypted DNS servers b
 
 [了解更多 :hero-arrow-circle-right-fill:](financial-services.md#gift-card-marketplaces)
 
+### Photo Management
+
+<div class="grid cards" markdown>
+
+- ![Ente logo](assets/img/photo-management/ente.svg#only-light){ .twemoji }![Ente logo](assets/img/photo-management/ente.svg#only-dark){ .twemoji } [Ente](photo-management.md#ente)
+- ![Stingle logo](assets/img/photo-management/stingle.png#only-light){ .twemoji }![Stingle logo](assets/img/photo-management/stingle-dark.png#only-dark){ .twemoji } [Stingle](photo-management.md#stingle)
+- ![PhotoPrism logo](assets/img/photo-management/photoprism.svg){ .twemoji } [PhotoPrism](photo-management.md#photoprism)
+
+</div>
+
+[了解更多 :hero-arrow-circle-right-fill:](photo-management.md)
+
 ### Search Engines
 
 <div class="grid cards" markdown>
