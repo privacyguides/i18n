@@ -314,7 +314,7 @@ Aurora Store ne vous permet pas de télécharger des applications payantes grâc
 
 ### Manuellement avec les notifications RSS
 
-For apps that are released on platforms like GitHub and GitLab, you may be able to add an RSS feed to your [news aggregator](news-aggregators.md) that will help you keep track of new releases.
+Pour les applications publiées sur des plateformes telles que GitHub et GitLab, vous pouvez ajouter un flux RSS à votre [agrégateur d'actualités](news-aggregators.md) qui vous aidera à suivre les nouvelles versions.
 
 ![APK RSS](./assets/img/android/rss-apk-light.png#only-light) ![APK RSS](./assets/img/android/rss-apk-dark.png#only-dark) ![Notes de version APK](./assets/img/android/rss-changes-light.png#only-light) ![Notes de version APK](./assets/img/android/rss-changes-dark.png#only-dark)
 
