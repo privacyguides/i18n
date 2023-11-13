@@ -1,11 +1,11 @@
 ---
-title: Photo Management
+title: Gestione delle foto
 icon: material/image
-description: Photo management tools to keep your personal photos safe from the prying eyes of cloud storage providers and other unauthorized access.
+description: Strumenti di gestione delle foto per tenere le foto personali al sicuro da occhi indiscreti dei provider di cloud storage e da altri accessi non autorizzati.
 cover: photo-management.webp
 ---
 
-Most cloud photo management solutions like Google Photos, Flickr, and Amazon Photos don't secure your photos against being accessed by the cloud storage provider themselves. These options keep your personal photos private, while allowing you to share them only with family and trusted people.
+La maggior parte delle soluzioni di gestione delle foto cloud, come Google Photos, Flickr e Amazon Photos, non proteggono le foto dall'accesso da parte dei provider di cloud storage. Queste opzioni mantengono le foto personali private, consentendo di condividerle solo con i familiari e le persone fidate.
 
 ## ente
 
@@ -15,12 +15,12 @@ Most cloud photo management solutions like Google Photos, Flickr, and Amazon Pho
 ![ente logo](assets/img/photo-management/ente.svg#only-light){ align=right }
 ![ente logo](assets/img/photo-management/ente-dark.svg#only-dark){ align=right }
 
-**ente** is an end-to-end encrypted photo backup service which supports automatic backups on iOS and Android. It underwent an [audit by Cure53](https://ente.io/blog/cryptography-audit/) in March 2023.
+**ente** è un servizio di backup foto crittografato end-to-end che supporta backup automatici su iOS ed Android. È stato sottoposto ad un [audit da Cure53](https://ente.io/blog/cryptography-audit/) a marzo 2023.
 
 [:octicons-home-16: Homepage](https://ente.io/){ .md-button .md-button--primary }
-[:octicons-eye-16:](https://ente.io/privacy){ .card-link title="Privacy Policy" }
-[:octicons-info-16:](https://ente.io/faq){ .card-link title=Documentation}
-[:octicons-code-16:](https://github.com/ente-io){ .card-link title="Source Code" }
+[:octicons-eye-16:](https://ente.io/privacy){ .card-link title="Informativa sulla Privacy" }
+[:octicons-info-16:](https://ente.io/faq){ .card-link title=Documentazione}
+[:octicons-code-16:](https://github.com/ente-io){ .card-link title="Codice sorgente" }
 
 ??? downloads
 
@@ -42,14 +42,14 @@ Most cloud photo management solutions like Google Photos, Flickr, and Amazon Pho
 ![Stingle logo](assets/img/photo-management/stingle.png#only-light){ align=right }
 ![Stingle logo](assets/img/photo-management/stingle-dark.png#only-dark){ align=right }
 
-**Stingle** is a gallery and camera application with built-in, end-to-end encrypted backup and sync functionality for your photos and videos. Storage starts at 1GB for free accounts on their cloud, or you can host your own Stingle API server for total independence.
+**Stingle** è un'applicazione per gallerie e fotocamere con funzionalità integrate di backup e sincronizzazione crittografata end-to-end per foto e video. Lo spazio di archiviazione parte da 1 GB per gli account gratuiti sul loro cloud, oppure è possibile ospitare il proprio server API Stingle per una totale indipendenza.
 
 [:octicons-home-16: Homepage](https://stingle.org/){ .md-button .md-button--primary }
-[:octicons-eye-16:](https://stingle.org/privacy/){ .card-link title="Privacy Policy" }
-[:octicons-info-16:](https://stingle.org/faq/){ .card-link title=Documentation}
-[:octicons-code-16:](https://github.com/stingle){ .card-link title="Source Code" }
+[:octicons-eye-16:](https://stingle.org/privacy/){ .card-link title="Informativa sulla Privacy" }
+[:octicons-info-16:](https://stingle.org/faq/){ .card-link title=Documentazione}
+[:octicons-code-16:](https://github.com/stingle){ .card-link title="Codice sorgente" }
 
-??? downloads
+Download
 
     - [:simple-googleplay: Google Play](https://play.google.com/store/apps/details?id=io.ente.photos)
     - [:simple-android: Android](https://play.google.com/store/apps/details?id=org.stingle.photos)
@@ -62,16 +62,16 @@ Most cloud photo management solutions like Google Photos, Flickr, and Amazon Pho
 !!! recommendation
 
 ```
-![PhotoPrism logo](assets/img/photo-management/photoprism.svg){ align=right }
+![Logo PhotoPrism](assets/img/gestione foto/photoprism.svg){ align=right }
 
-**PhotoPrism** is a self-hostable platform for managing photos. It supports album syncing and sharing as well as a variety of other [features](https://www.photoprism.app/features). It does not include E2EE, so it's best hosted on a server that you trust and is under your control.
+**PhotoPrism** è una piattaforma self-hostable per la gestione delle foto. Supporta la sincronizzazione e la condivisione degli album e una serie di altre [features](https://www.photoprism.app/features). Non include E2EE, quindi è consigliabile ospitarlo su un server di cui ci si fida e che è sotto il proprio controllo.
 
 [:octicons-home-16: Homepage](https://www.photoprism.app){ .md-button .md-button--primary }
-[:octicons-eye-16:](https://www.photoprism.app/privacy){ .card-link title="Privacy Policy" }
-[:octicons-info-16:](https://www.photoprism.app/kb){ .card-link title=Documentation}
-[:octicons-code-16:](https://github.com/photoprism){ .card-link title="Source Code" }
+[:octicons-eye-16:](https://www.photoprism.app/privacy){ .card-link title="Informativa sulla Privacy" }
+[:octicons-info-16:](https://www.photoprism.app/kb){ .card-link title=Documentazione}
+[:octicons-code-16:](https://github.com/photoprism){ .card-link title="Codice sorgente" }
 
-??? downloads
+Download
 
     - [:simple-github: GitHub](https://github.com/photoprism)
 ```

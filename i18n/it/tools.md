@@ -172,7 +172,7 @@ Per ulteriori dettagli su ogni progetto, perché è stato scelto e ulteriori con
 
 [Scopri di più :material-arrow-right-drop-circle:](financial-services.md#gift-card-marketplaces)
 
-### Photo Management
+### Gestione delle foto
 
 <div class="grid cards" markdown>
 
