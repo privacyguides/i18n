@@ -481,7 +481,7 @@ We [recommend](dns.md#recommended-providers) a number of encrypted DNS servers b
 
 [詳細 :material-arrow-right-drop-circle:](router.md)
 
-## Advanced Tools
+## 高度なツール
 
 These tools may provide utility for certain individuals. They provide functionality which most people do not need to worry about, and often require more in-depth technical knowledge to utilize effectively.
 

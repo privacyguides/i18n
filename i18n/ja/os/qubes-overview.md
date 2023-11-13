@@ -57,13 +57,13 @@ After [creating a new ProxyVM](https://github.com/Qubes-Community/Contents/blob/
 
 Your qubes should be configured in a manner similar to this:
 
-| Qube name       | Qube description                                                                                                 | NetVM           |
+| キューブ名           | キューブの説明                                                                                                          | NetVM           |
 | --------------- | ---------------------------------------------------------------------------------------------------------------- | --------------- |
-| sys-net         | *Your default network qube (pre-installed)*                                                                      | *n/a*           |
-| sys-firewall    | *Your default firewall qube (pre-installed)*                                                                     | sys-net         |
+| sys-net         | *デフォルトのネットワークキューブ（プリインストール済み）*                                                                                   | *なし*            |
+| sys-firewall    | *デフォルトのファイアウォールキューブ（プリインストール済み）*                                                                                 | sys-net         |
 | ==sys-proxyvm== | The VPN ProxyVM you [created](https://github.com/Qubes-Community/Contents/blob/master/docs/configuration/vpn.md) | sys-firewall    |
-| sys-whonix      | Your Whonix Gateway VM                                                                                           | ==sys-proxyvm== |
-| anon-whonix     | Your Whonix Workstation VM                                                                                       | sys-whonix      |
+| sys-whonix      | WhonixゲートウェイのVM                                                                                                  | ==sys-proxyvm== |
+| anon-whonix     | WhonixワークステーションのVM                                                                                               | sys-whonix      |
 
 ## その他の資料
 

@@ -8,7 +8,7 @@
 *[CLI]: コマンドライン インターフェース
 *[CSV]: Comma-Separated Values
 *[CVE]: Common Vulnerabilities and Exposures
-*[デジタルレガシー機能]： デジタルレガシーとは、あなたが亡くなったときに、他の人にあなたのデータへのアクセスを許可する機能のことです。
+*[デジタルレガシー機能]： あなたが亡くなったときに、他の人にあなたのデータへのアクセスを許可する機能。
 *[DNSSEC]: Domain Name System Security Extensions
 *[DNS]: ドメインネームシステム
 *[DoH]: DNS over HTTPS
@@ -94,6 +94,6 @@
 *[UDP]: ユーザーデータグラムプロトコル（User Datagram Protocol）
 *[VPN]: 仮想プライベートネットワーク（Virtual Private Network）
 *[VoIP]: Voice over IP
-*[W3C]: World Wide Web Consortium
+*[W3C]: ワールド・ワイド・ウェブ・コンソーシアム（World Wide Web Consortium）
 *[XMPP]: Extensible Messaging and Presence Protocol
 *[PWA]: プログレッシブウェブアプリ（Progressive Web App）

@@ -15,9 +15,9 @@ Using a VPN hides even this information from your ISP, by shifting the trust you
 
     When we refer to "Virtual Private Networks" on this website, we are usually referring to **commercial** [VPN providers](../vpn.md), who you pay a monthly fee to in exchange for routing your internet traffic securely through their public servers. There are many other forms of VPN, such as ones you host yourself or ones operated by workplaces which allow you to securely connect to internal/employee network resources, however, these VPNs are usually designed for accessing remote networks securely, rather than protecting the privacy of your internet connection.
 
-## How does a VPN work?
+## VPNの仕組み
 
-VPNs encrypt your traffic between your device and a server owned by your VPN provider. From the perspective of anyone between you and the VPN server, it looks like you're connecting to the VPN server. From the perspective of anyone between the VPN server and your destination site, all they can see is the VPN server connecting to the website.
+VPNは、あなたのデバイスとVPNプロバイダーが所有するサーバー間のトラフィックを暗号化します。 From the perspective of anyone between you and the VPN server, it looks like you're connecting to the VPN server. From the perspective of anyone between the VPN server and your destination site, all they can see is the VPN server connecting to the website.
 
 ``` mermaid
 flowchart LR
@@ -42,7 +42,7 @@ VPNs can provide *some* of the same benefits Tor provides, such as hiding your I
 
 VPNs cannot encrypt data outside the connection between your device and the VPN server. VPN providers can also see and modify your traffic the same way your ISP could, so there is still a level of trust you are placing in them. And there is no way to verify a VPN provider's "no logging" policies in any way.
 
-## When isn't a VPN suitable?
+## VPNが適していない場合
 
 Using a VPN in cases where you're using your [real-life or well-known identity](common-misconceptions.md#complicated-is-better) online is unlikely be useful. Doing so may trigger spam and fraud detection systems, such as if you were to log into your bank's website.
 
@@ -72,11 +72,11 @@ The feature should be viewed as a *convenient* way to access hidden services on 
 
 ## Commercial VPN Ownership
 
-Most VPN services are owned by the same [few companies](https://vpnpro.com/blog/hidden-vpn-owners-unveiled-97-vpns-23-companies/). These shady companies run lots of smaller VPN services to create the illusion that you have more choice than you actually do and to maximize profit. Typically, these providers that feed into their shell company have terrible privacy policies and shouldn't be trusted with your internet traffic. You should be very strict about which provider you decide to use.
+ほとんどのVPNサービスは、同じ[少数の企業](https://vpnpro.com/blog/hidden-vpn-owners-unveiled-97-vpns-23-companies/)が所有しています。 These shady companies run lots of smaller VPN services to create the illusion that you have more choice than you actually do and to maximize profit. Typically, these providers that feed into their shell company have terrible privacy policies and shouldn't be trusted with your internet traffic. You should be very strict about which provider you decide to use.
 
 You should also be wary that many VPN review sites are merely advertising vehicles open to the highest bidder. ==Privacy Guides does not make money from recommending external products, and never uses affiliate programs.==
 
-[Our VPN Recommendations](../vpn.md ""){.md-button}
+[推奨されるVPN](../vpn.md ""){.md-button}
 
 ## Modern VPN Alternatives
 
