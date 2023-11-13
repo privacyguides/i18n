@@ -57,7 +57,7 @@ schema:
       url: "./"
 ---
 
-Questi sono al momento i browser web consigliati per desktop e configurazioni per la navigazione standard e non anonima. Consigliamo [Mullvad Browser](#mullvad-browser) se sei interessato a una forte protezione della privacy e all'anti-fingerprinting pronti all'uso, [Firefox](#firefox) per i navigatori occasionali di Internet alla ricerca di una buona alternativa a Google Chrome e [Brave](#brave), se necessiti della compatibilità del browser con Chromium.
+Questi sono al momento i browser web consigliati per desktop e le configurazioni per la navigazione standard e non anonima. Consigliamo [Mullvad Browser](#mullvad-browser) se sei interessato a una forte protezione della privacy e all'anti-fingerprinting pronti all'uso, [Firefox](#firefox) per i navigatori occasionali di Internet alla ricerca di una buona alternativa a Google Chrome e [Brave](#brave), se necessiti della compatibilità del browser con Chromium.
 
 Invece, se necessiti di navigare anonimamente su Internet, dovresti utilizzare [Tor](tor.md). In questa pagina forniamo alcune raccomandazioni sulla configurazione, ma tutti i browser diversi da Tor Browser saranno rintracciabili da *qualcuno* in un modo o nell'altro.
 
@@ -69,10 +69,10 @@ Invece, se necessiti di navigare anonimamente su Internet, dovresti utilizzare [
     
     **Mullvad Browser** è una versione di [Tor Browser](tor.md#tor-browser) con le integrazioni della rete Tor rimosse, con l'obiettivo di fornire le tecnologie anti-fingerprinting di Tor Browser agli utenti che usano una VPN. Sviluppato dal Tor Project e distribuito da [Mullvad](vpn.md#mullvad), **non** richiede l'utilizzo della VPN di Mullvad.
     
-    [:octicons-home-16: Home Page](https://mullvad.net/it/browser){ .md-button .md-button--primary }
-    [:octicons-eye-16:](https://mullvad.net/it/help/privacy-policy/){ .card-link title="Informativa sulla privacy" }
+    [:octicons-home-16: Pagina Principale](https://mullvad.net/it/browser){ .md-button .md-button--primary }
+    [:octicons-eye-16:](https://mullvad.net/it/help/privacy-policy/){ .card-link title="Politica sulla Privacy" }
     [:octicons-info-16:](https://mullvad.net/it/help/tag/mullvad-browser/){ .card-link title=Documentazione}
-    [:octicons-code-16:](https://gitlab.torproject.org/tpo/applications/mullvad-browser){ .card-link title="Codice sorgente" }
+    [:octicons-code-16:](https://gitlab.torproject.org/tpo/applications/mullvad-browser){ .card-link title="Codice Sorgente" }
     
     ??? downloads "Scarica"
     
@@ -110,8 +110,8 @@ Mullvad Browser integra DuckDuckGo come [motore di ricerca](search-engines.md) p
     
     **Firefox** offre robuste impostazioni di privacy, come la [protezione antitracciamento avanzata](https://support.mozilla.org/it/kb/protezione-antitracciamento-avanzata-firefox-desktop), che aiuta a bloccare varie [tipologie di tracciamento](https://support.mozilla.org/it/kb/protezione-antitracciamento-avanzata-firefox-desktop#w_che-cosa-viene-bloccato-con-la-protezione-antitracciamento-avanzata).
     
-    [:octicons-home-16: Home page](https://www.mozilla.org/it/firefox/new){ .md-button .md-button--primary }
-    [:octicons-eye-16:](https://www.mozilla.org/it/privacy/firefox/){ .card-link title="Informativa sulla Privacy" }
+    [:octicons-home-16: Pagina Principale](https://www.mozilla.org/it/firefox/new){ .md-button .md-button--primary }
+    [:octicons-eye-16:](https://www.mozilla.org/it/privacy/firefox/){ .card-link title="Politica sulla Privacy" }
     [:octicons-info-16:](https://firefox-source-docs.mozilla.org/){ .card-link title=Documentatione}
     [:octicons-code-16:](https://hg.mozilla.org/mozilla-central){ .card-link title="Codice Sorgente" }
     [:octicons-heart-16:](https://donate.mozilla.org/it/){ .card-link title=Contribuisci }

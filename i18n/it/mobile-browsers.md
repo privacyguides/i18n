@@ -192,10 +192,10 @@ Se utilizzi iCloud con la Protezione Avanzata dei Dati disabilitata, consigliamo
     
     AdGuard per iOS presenta delle funzionalità premium; tuttavia, il blocco di contenuti standard di Safari è gratuito.
     
-    [:octicons-home-16: Homepage](https://adguard.com/en/adguard-ios/overview.html){ .md-button .md-button--primary }
-    [:octicons-eye-16:](https://adguard.com/privacy/ios.html){ .card-link title="Privacy Policy" }
-    [:octicons-info-16:](https://kb.adguard.com/ios){ .card-link title=Documentation}
-    [:octicons-code-16:](https://github.com/AdguardTeam/AdguardForiOS){ .card-link title="Source Code" }
+    [:octicons-home-16: Pagina Principale](https://adguard.com/it/adguard-ios/overview.html){ .md-button .md-button--primary }
+    [:octicons-eye-16:](https://adguard.com/it/privacy/ios.html){ .card-link title="Politica sulla Privacy" }
+    [:octicons-info-16:](https://adguard.com/kb/it/adguard-for-ios/overview/){ .card-link title=Documentazione}
+    [:octicons-code-16:](https://github.com/AdguardTeam/AdguardForiOS){ .card-link title="Codice Sorgente" }
     
     ??? downloads "Scarica"
     

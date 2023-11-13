@@ -13,7 +13,7 @@ L'email è praticamente una necessità per utilizzare qualsiasi servizio online,
 Per tutto il resto, consigliamo una varietà di provider di posta elettronica basati su modelli di business sostenibile e funzioni di sicurezza integrate.
 
 - [Fornitori Email Compatibili con OpenPGP :material-arrow-right-drop-circle:](#openpgp-compatible-services)
-- [Altri Fornitori Cifrati :material-arrow-right-drop-circle:](#more-providers)
+- [Altri Fornitori Criptati :material-arrow-right-drop-circle:](#more-providers)
 - [Servizi di Aliasing Email :material-arrow-right-drop-circle:](#email-aliasing-services)
 - [Opzioni Self-Hosted :material-arrow-right-drop-circle:](#self-hosting-email)
 
@@ -42,10 +42,10 @@ Questi provider supportano in modo nativo la crittografia/decrittografia OpenPGP
     
     **Proton Mail** è un servizio di posta elettronica incentrato su privacy, crittografia, sicurezza e facilità d'uso. Operano dal **2013**. Proton AG ha sede a Ginevra, Svizzera. Gli account partono da 500MB di spazio di archiviazione con il piano gratuito.
     
-    [:octicons-home-16: Pagina principale](https://proton.me/mail){ .md-button .md-button--primary }
+    [:octicons-home-16: Pagina Principale](https://proton.me/it/maill){ .md-button .md-button--primary }
     [:simple-torbrowser:](https://protonmailrmez3lotccipshtkleegetolb73fuirgj7r4o4vfu7ozyd.onion){ .card-link title="Servizio Onion" }
-    [:octicons-eye-16:](https://proton.me/legal/privacy){ .card-link title="Informativa sulla Privacy" }
-    [:octicons-info-16:](https://proton.me/support/mail){ .card-link title=Documentazione}
+    [:octicons-eye-16:](https://proton.me/legal/privacy){ .card-link title="Politica sulla Privacy" }
+    [:octicons-info-16:](https://proton.me/support/it/mail){ .card-link title=Documentazione}
     [:octicons-code-16:](https://github.com/ProtonMail){ .card-link title="Codice sorgente" }
     
     ??? downloads "Scarica"
@@ -58,7 +58,7 @@ Questi provider supportano in modo nativo la crittografia/decrittografia OpenPGP
         - [:simple-linux: Linux](https://proton.me/it/mail/bridge#download)
         - [:octicons-browser-16: Web](https://mail.proton.me)
 
-I profili gratuiti presentano delle limitazioni, come l'incapacità di cercare il testo del corpo e l'assenza dell'accesso a [Proton Mail Bridge](https://proton.me/mail/bridge), necessario per utilizzare un [client email desktop consigliato](email-clients.md) (come Thunderbird). I profili a pagamento includono funzionalità come Proton Mail Bridge, archiviazione aggiuntiva e supporto ai domini personalizzati. Una [lettera di attestazione](https://proton.me/blog/security-audit-all-proton-apps) è stata fornita per le applicazioni di Proton Mail il 9 novembre 2021 da [Securitum](https://research.securitum.com).
+Gli account gratuiti presentano delle limitazioni, come l'incapacità di cercare il testo del corpo e l'assenza dell'accesso a [Proton Mail Bridge](https://proton.me/mail/bridge), necessario per utilizzare un [client email desktop consigliato](email-clients.md) (come Thunderbird). I profili a pagamento includono funzionalità come Proton Mail Bridge, archiviazione aggiuntiva e supporto ai domini personalizzati. Una [lettera di attestazione](https://proton.me/blog/security-audit-all-proton-apps) è stata fornita per le applicazioni di Proton Mail il 9 novembre 2021 da [Securitum](https://research.securitum.com).
 
 Se hai il piano Proton Unlimited, Business o Visionary, inoltre, ottieni [SimpleLogin](#simplelogin) Premium, gratuitamente.
 
@@ -86,15 +86,15 @@ Certe informazioni memorizzate su [Proton Contact](https://proton.me/support/pro
 
 Proton Mail ha una [crittografia OpenPGP integrata](https://proton.me/support/how-to-use-pgp) nella propria webmail. Le e-mail inviate ad altri account Proton Mail vengono crittografate automaticamente, e la crittografia verso indirizzi non Proton Mail con una chiave OpenPGP può essere abilitata nelle impostazioni dell'account. Inoltre, ti consentono di [crittografare i messaggi agli indirizzi non di Proton Mail](https://proton.me/support/password-protected-emails), senza che debbano iscriversi a un profilo di Proton Mail o utilizzare software, come OpenPGP.
 
-Inoltre, Proton Mail supporta la scoperta delle chiavi pubbliche tramite HTTP, dalla loro [Web Key Directory (WKD)](https://wiki.gnupg.org/WKD). Ciò permette a coloro che non utiilizzano Proton Mail, di trovare facilmente le chiavi OpenPGP dei profili di Proton Mail, per un'E2EE tra fornitori. Questo vale solo per gli indirizzi e-mail che terminano con uno dei domini di proprietà di Proton, come @proton.me. Se si utilizza un dominio personalizzato, è necessario [configurare il WKD](./basics/email-security.md#what-is-the-web-key-directory-standard) separatamente.
+Inoltre, Proton Mail supporta la scoperta delle chiavi pubbliche tramite HTTP, dalla loro [Web Key Directory (WKD)](https://wiki.gnupg.org/WKD). Ciò permette a coloro che non utilizzano Proton Mail, di trovare facilmente le chiavi OpenPGP dei profili di Proton Mail, per un'E2EE tra fornitori. Questo vale solo per gli indirizzi e-mail che terminano con uno dei domini di proprietà di Proton, come @proton.me. Se si utilizza un dominio personalizzato, è necessario [configurare il WKD](./basics/email-security.md#what-is-the-web-key-directory-standard) separatamente.
 
 #### :material-information-outline:{ .pg-blue } Chiusura dell'account
 
-Se hai un profilo a pagamento e la tua [fatturazione non viene pagata](https://proton.me/support/delinquency) dopo 14 giorni, non potrai accedere ai tuoi dati. Dopo 30 giorni, il tuo profilo sarà considerato moroso e non riceverà la posta in arrivo. Durante questo periodo, continuerai a essere addebitato.
+Se hai un account a pagamento e il tuo [abbonamento non viene pagato](https://proton.me/support/delinquency) dopo 14 giorni, non potrai accedere ai tuoi dati. Dopo 30 giorni, il tuo account sarà considerato moroso e non riceverà la posta in arrivo. Durante questo periodo, continuerai a essere addebitato.
 
 #### :material-information-outline:{ .pg-blue } Funzionalità aggiuntive
 
-Proton Mail offre un profilo "Unlimited" per €9,99/Mese, che consente inoltre l'accesso a Proton VPN, oltre a fornire multipli profili, domini, aliasi e 500GB di archiviazione.
+Proton Mail offre un profilo "Unlimited" per €9,99/Mese, che consente inoltre l'accesso a Proton VPN, oltre a fornire multipli profili, domini, alias e 500GB di archiviazione.
 
 Proton Mail non offre una funzionalità di eredità digitale.
 
@@ -106,9 +106,9 @@ Proton Mail non offre una funzionalità di eredità digitale.
     
     **Mailbox.org** è un servizio email incentrato sull'essere sicuro, privo di pubblicità e alimentato privatamente da energia ecologica al 100%. Sono operativi dal 2014. Mailbox.org ha sede a Berlino, in Germania. I profili partono da 2 GB di archiviazione, aggiornabile se necessario.
     
-    [:octicons-home-16: Homepage](https://mailbox.org){ .md-button .md-button--primary }
-    [:octicons-eye-16:](https://mailbox.org/en/data-protection-privacy-policy){ .card-link title="Privacy Policy" }
-    [:octicons-info-16:](https://kb.mailbox.org/en/private){ .card-link title=Documentation}
+    [:octicons-home-16: Pagina Principale](https://mailbox.org){ .md-button .md-button--primary }
+    [:octicons-eye-16:](https://mailbox.org/en/data-protection-privacy-policy){ .card-link title="Politica sulla Privacy" }
+    [:octicons-info-16:](https://kb.mailbox.org/en/private){ .card-link title=Documentazione}
     
     ??? downloads "Scarica"
     
@@ -169,10 +169,10 @@ Questi fornitori memorizzano le tue email con la crittografia a conoscenza zero,
     
     **Skiff Mail** è un servizio email basato sul web con E2EE, nato nel 2020 con sede a San Francisco e sviluppatori da tutto il mondo. I profili partono da 10GB di archiviazione gratuita.
     
-    [:octicons-home-16: Homepage](https://skiff.com/mail){ .md-button .md-button--primary }
-    [:octicons-eye-16:](https://app.skiff.com/docs/db93c237-84c2-4b2b-9588-19a7cd2cd45a#tyGksN9rkqbo2uGYASxsA6HVLjUoly/wTYK8tncTto8=){ .card-link title="Privacy Policy" }
-    [:octicons-info-16:](https://skiff.com/help){ .card-link title=Documentation}
-    [:octicons-code-16:](https://github.com/skiff-org/skiff-apps){ .card-link title="Source Code" }
+    [:octicons-home-16: Pagina Principale](https://skiff.com/mail){ .md-button .md-button--primary }
+    [:octicons-eye-16:](https://app.skiff.com/docs/db93c237-84c2-4b2b-9588-19a7cd2cd45a#tyGksN9rkqbo2uGYASxsA6HVLjUoly/wTYK8tncTto8=){ .card-link title="Politica sulla Privacy" }
+    [:octicons-info-16:](https://skiff.com/help){ .card-link title=Documentazione}
+    [:octicons-code-16:](https://github.com/skiff-org/skiff-apps){ .card-link title="Codice Sorgente" }
     
     ??? downloads "Scarica"
     
@@ -192,7 +192,7 @@ Skiff Mail accetta i pagamenti in criptovalute tramite Coinbase Commerce, tra cu
 
 #### :material-check:{ .pg-green } Sicurezza dell'account
 
-Skiff Mail supporta l'autenticazione a due fattori TOTP e le chiavi di sicurezza hardware, utilizzando gli standard FIDO2 o U2F. L'utiilizzo di una chiave di sicurezza hardware richiede la configurazione precedente dell'autenticazione a due fattori TOTP.
+Skiff Mail supporta l'autenticazione a due fattori TOTP e le chiavi di sicurezza hardware, utilizzando gli standard FIDO2 o U2F. L'utilizzo di una chiave di sicurezza hardware richiede prima l'impostazione dell'autenticazione a due fattori TOTP.
 
 #### :material-check:{ .pg-green } Sicurezza dei dati
 
