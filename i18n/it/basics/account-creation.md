@@ -53,17 +53,21 @@ Quando accedi con OAuth, si aprirà una pgina d'accesso con il fornitore di tua 
 
 I principali vantaggi sono:
 
-- **Sicurezza**: nessun rischio di essere coinvolti in una [violazione dei dati](https://en.wikipedia.org/wiki/Data_breach), poiché il sito non memorizza le tue credenziali.
+- **Sicurezza**: non è necessario fidarsi delle pratiche di sicurezza del servizio a cui si accede quando si tratta di memorizzare le credenziali di accesso, perché queste vengono memorizzate presso il provider esterno di OAuth, che quando si tratta di servizi come Apple e Google di solito seguono le migliori pratiche di sicurezza, effettuando audit continui dei propri sistemi di autenticazione e non memorizzano le credenziali in modo inappropriato (ad esempio in testo in chiaro).
 - **Facilità d'uso**: i profili multipli sono gestiti da un unico accesso.
 
 Ma esistono degli svantaggi:
 
 - **Privacy**: il fornitore di OAuth con cui effettui l'accesso conoscerà i servizi che utilizzi.
-- **Centralizzazione**: se il profilo utilizzato per OAuth viene compromesso o non riesci ad effettuare l'accesso, tutti gli altri profili a esso collegati saranno a influenzati.
+- **Centralizzazione**: se l'account utilizzato per OAuth è compromesso o non si è in grado di accedervi, tutti gli altri account a esso collegati ne saranno interessati.
 
-L'autenticazione OAuth può essere specialmente utile in quelle situazioni in cui potresti beneficiare da una migliore integrazione tra servizi. Il nostro consiglio è quello di limitare l'utilizzo di OAuth soltanto laddove necessario e di proteggere sempre il profilo principale con l'[AFM](multi-factor-authentication.md).
+OAuth può essere particolarmente utile nelle situazioni in cui puoi beneficiare di un'integrazione più profonda tra i servizi. Il nostro consiglio è quello di limitare l'utilizzo di OAuth soltanto laddove necessario e di proteggere sempre il profilo principale con l'[AFM](multi-factor-authentication.md).
 
-Tutti i servizi che utilizzano OAuth saranno sicuri tanto quanto il profilo del tuo fornitore principale. Ad esempio, se desideri proteggere un profilo con una chiave hardware, ma tale servizio non le supporta, puoi proteggerlo con OAuth e una chiave hardware e, ora, hai essenzialmente l'AFM su tutti i tuoi profili. Tuttavia, vale la pena di notare che un'autenticazione debole sul profilo del tuo fornitore OAuth, implica che qualsiasi profilo collegato a tale accesso, sarà anch'esso debole.
+Tutti i servizi che utilizzano OAuth saranno sicuri quanto l'account del provider OAuth sottostante. Ad esempio, se desideri proteggere un profilo con una chiave hardware, ma tale servizio non le supporta, puoi proteggerlo con OAuth e una chiave hardware e, ora, hai essenzialmente l'AFM su tutti i tuoi profili. Tuttavia, vale la pena di notare che un'autenticazione debole sul profilo del tuo fornitore OAuth, implica che qualsiasi profilo collegato a tale accesso, sarà anch'esso debole.
+
+C'è un ulteriore pericolo quando si utilizza *Accedi con Google*, *Facebook*, o un altro servizio, e cioè che di solito il processo OAuth consente la condivisione *bidirezionale* dei dati. Ad esempio, l'accesso a un forum con il proprio account Twitter potrebbe garantire a tale forum l'accesso a operazioni sul tuo account Twitter, come la pubblicazione di post, la lettura di messaggi o l'accesso ad altri dati personali. I provider OAuth di solito presentano un elenco di cose a cui si concede l'accesso al servizio esterno e bisogna sempre assicurarsi di leggere l'elenco e di non concedere inavvertitamente al servizio esterno l'accesso a qualcosa che non è necessario.
+
+Anche le applicazioni dannose, in particolare sui dispositivi mobile dove l'applicazione ha accesso alla sessione WebView utilizzata per l'accesso al provider OAuth, possono abusare di questo processo, dirottando la sessione dell'utente con il provider OAuth e ottenendo l'accesso al suo account OAuth attraverso questi mezzi. L'uso dell'opzione *Accedi con* con qualsiasi provider dovrebbe essere considerato una questione di convenienza da utilizzare solo con i servizi di cui ci si fida che non siano attivamente dannosi.
 
 ### Numero telefonico
 

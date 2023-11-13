@@ -53,17 +53,21 @@ Cuando inicies sesión con OAuth, se abrirá una página de inicio de sesión co
 
 Las principales ventajas son:
 
-- **Seguridad**: no hay riesgo de verse implicado en una [violación de datos ](https://en.wikipedia.org/wiki/Data_breach) porque el sitio web no almacena tus credenciales.
+- **Seguridad**: no tienes que confiar en las prácticas de seguridad del servicio al que te conectas cuando se trata de almacenar tus credenciales de inicio de sesión, porque se almacenan con el proveedor externo de OAuth, que cuando se trata de servicios como Apple y Google suelen seguir las mejores prácticas de seguridad, auditan continuamente sus sistemas de autenticación y no almacenan credenciales de forma inapropiada (como en texto plano).
 - **Facilidad de uso**: varias cuentas se gestionan con un solo inicio de sesión.
 
 Pero hay desventajas:
 
 - **Privacidad**: el proveedor de OAuth con el que te conectes sabrá los servicios que utilizas.
-- **Centralización**: si la cuenta que utilizas para OAuth se ve comprometida o no puedes iniciar sesión en ella, todas las demás cuentas conectadas a ella se verán afectadas.
+- **Centralización**: si la cuenta que utilizas para OAuth se ve comprometida, o no eres capaz de iniciar sesión en ella, todas las demás cuentas conectadas a ella se verán afectadas.
 
-La autenticación OAuth puede ser especialmente útil en situaciones en las que podrías beneficiarte de una integración más profunda entre servicios. Nuestra recomendación es limitar el uso de OAuth solamente donde lo necesites, y proteger siempre la cuenta principal con [MFA](multi-factor-authentication.md).
+OAuth puede ser especialmente útil en aquellas situaciones en las que podrías beneficiarte de una integración más profunda entre servicios. Nuestra recomendación es limitar el uso de OAuth solamente donde lo necesites, y proteger siempre la cuenta principal con [MFA](multi-factor-authentication.md).
 
-Todos los servicios que utilicen OAuth serán tan seguros como la cuenta de tu proveedor subyacente. Por ejemplo, si quieres proteger una cuenta con una llave de hardware, pero ese servicio no admite llaves de hardware, puedes proteger la cuenta que utilizas con OAuth con una llave de hardware en su lugar, y ahora básicamente tienes MFA por hardware en todas tus cuentas. Vale la pena señalar, sin embargo, que una autenticación débil en su cuenta de proveedor de OAuth significa que cualquier cuenta vinculada a ese inicio de sesión también será débil.
+Todos los servicios que utilicen OAuth serán tan seguros como la cuenta de tu proveedor de OAuth subyacente. Por ejemplo, si quieres proteger una cuenta con una llave de hardware, pero ese servicio no admite llaves de hardware, puedes proteger la cuenta que utilizas con OAuth con una llave de hardware en su lugar, y ahora básicamente tienes MFA por hardware en todas tus cuentas. Vale la pena señalar, sin embargo, que una autenticación débil en su cuenta de proveedor de OAuth significa que cualquier cuenta vinculada a ese inicio de sesión también será débil.
+
+Existe un peligro adicional cuando se utiliza *Iniciar sesión con Google*, *Facebook*, u otro servicio, y es que normalmente el proceso OAuth permite una compartición de datos *bidireccional*. Por ejemplo, iniciar sesión en un foro con tu cuenta de Twitter podría conceder a ese foro acceso para hacer cosas en tu cuenta de Twitter como publicar, leer tus mensajes o acceder a otros datos personales. Los proveedores de OAuth normalmente te presentarán una lista de cosas a las que estás concediendo acceso al servicio externo, y siempre debes asegurarte de que lees esa lista y no concedes inadvertidamente al servicio externo acceso a algo que no necesita.
+
+Las aplicaciones maliciosas, especialmente en dispositivos móviles en los que la aplicación tiene acceso a la sesión WebView utilizada para iniciar sesión en el proveedor OAuth, también pueden abusar de este proceso secuestrando tu sesión con el proveedor OAuth y obteniendo acceso a tu cuenta OAuth a través de esos medios. El uso de la opción *Iniciar sesión con* con cualquier proveedor debe considerarse normalmente una cuestión de comodidad que solo se utiliza con servicios en los que se confía que no son activamente maliciosos.
 
 ### Número de teléfono
 

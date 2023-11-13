@@ -67,7 +67,7 @@ Privacy coins have been subject to increasing scrutiny by government agencies. I
 
 ==最もよい選択肢は、これらの暗号通貨は一切使わず、デフォルトでプライバシーを保証する暗号通貨だけを使うことです。== 他の暗号通貨を使用しようとすることは、本サイトで扱う範囲を超えており、全く推奨されません。
 
-### Wallet Custody
+### ウォレットのカストディー
 
 With cryptocurrency there are two forms of wallets: custodial wallets and noncustodial wallets. Custodial wallets are operated by centralized companies/exchanges, where the private key for your wallet is held by that company, and you can access them anywhere typically with a regular username and password. Noncustodial wallets are wallets where you control and manage the private keys to access it. Assuming you keep your wallet's private keys secured and backed up, noncustodial wallets provide greater security and censorship-resistance over custodial wallets, because your cryptocurrency can't be stolen or frozen by a company with custody over your private keys. Key custody is especially important when it comes to privacy coins: Custodial wallets grant the operating company the ability to view your transactions, negating the privacy benefits of those cryptocurrencies.
 

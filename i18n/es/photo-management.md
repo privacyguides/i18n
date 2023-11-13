@@ -1,28 +1,28 @@
 ---
 title: Gestión de Fotografías
 icon: material/image
-description: Photo management tools to keep your personal photos safe from the prying eyes of cloud storage providers and other unauthorized access.
+description: Herramientas de gestión de fotos para mantener tus fotos personales a salvo de las miradas indiscretas de los proveedores de almacenamiento en la nube y de otros accesos no autorizados.
 cover: photo-management.webp
 ---
 
-Most cloud photo management solutions like Google Photos, Flickr, and Amazon Photos don't secure your photos against being accessed by the cloud storage provider themselves. These options keep your personal photos private, while allowing you to share them only with family and trusted people.
+La mayoría de las soluciones de gestión de fotos en la nube, como Google Photos, Flickr y Amazon Photos, no protegen tus fotos contra el acceso del propio proveedor de almacenamiento en la nube. Estas opciones mantienen la privacidad de tus fotos personales y te permiten compartirlas solo con familiares y personas de confianza.
 
 ## ente
 
-!!! recommendation
+!!! recommendation "Recomendación"
 
 ```
 ![ente logo](assets/img/photo-management/ente.svg#only-light){ align=right }
 ![ente logo](assets/img/photo-management/ente-dark.svg#only-dark){ align=right }
 
-**ente** is an end-to-end encrypted photo backup service which supports automatic backups on iOS and Android. It underwent an [audit by Cure53](https://ente.io/blog/cryptography-audit/) in March 2023.
+**ente** es un servicio de copia de seguridad de fotos cifrado de extremo a extremo que permite realizar copias de seguridad automáticas en iOS y Android. Se sometió a una [auditoría por parte de Cure53](https://ente.io/blog/cryptography-audit/) en marzo de 2023.
 
-[:octicons-home-16: Homepage](https://ente.io/){ .md-button .md-button--primary }
-[:octicons-eye-16:](https://ente.io/privacy){ .card-link title="Privacy Policy" }
-[:octicons-info-16:](https://ente.io/faq){ .card-link title=Documentation}
-[:octicons-code-16:](https://github.com/ente-io){ .card-link title="Source Code" }
+[:octicons-home-16: Página Principal](https://ente.io/){ .md-button .md-button--primary }
+[:octicons-eye-16:](https://ente.io/privacy){ .card-link title="Política de Privacidad" }
+[:octicons-info-16:](https://ente.io/faq){ .card-link title=Documentación}
+[:octicons-code-16:](https://github.com/ente-io){ .card-link title="Código Fuente" }
 
-??? downloads
+??? downloads "Descargas"
 
     - [:simple-googleplay: Google Play](https://play.google.com/store/apps/details?id=io.ente.photos)
     - [:simple-android: Android](https://ente.io/download)
@@ -36,18 +36,18 @@ Most cloud photo management solutions like Google Photos, Flickr, and Amazon Pho
 
 ## Stingle
 
-!!! recommendation
+!!! recommendation "Recomendación"
 
 ```
 ![Stingle logo](assets/img/photo-management/stingle.png#only-light){ align=right }
 ![Stingle logo](assets/img/photo-management/stingle-dark.png#only-dark){ align=right }
 
-**Stingle** is a gallery and camera application with built-in, end-to-end encrypted backup and sync functionality for your photos and videos. Storage starts at 1GB for free accounts on their cloud, or you can host your own Stingle API server for total independence.
+**Stingle** es una aplicación de galería y cámara con funciones integradas de copia de seguridad cifrada de extremo a extremo y sincronización de fotos y vídeos. El almacenamiento comienza en 1GB para cuentas gratuitas en su nube, o puedes alojar tu propio servidor API Stingle para una independencia total.
 
-[:octicons-home-16: Homepage](https://stingle.org/){ .md-button .md-button--primary }
-[:octicons-eye-16:](https://stingle.org/privacy/){ .card-link title="Privacy Policy" }
-[:octicons-info-16:](https://stingle.org/faq/){ .card-link title=Documentation}
-[:octicons-code-16:](https://github.com/stingle){ .card-link title="Source Code" }
+[:octicons-home-16: Página Principal](https://stingle.org/){ .md-button .md-button--primary }
+[:octicons-eye-16:](https://stingle.org/privacy/){ .card-link title="Política de Privacidad" }
+[:octicons-info-16:](https://stingle.org/faq/){ .card-link title=Documentación}
+[:octicons-code-16:](https://github.com/stingle){ .card-link title="Código Fuente" }
 
 ??? downloads
 
@@ -59,36 +59,36 @@ Most cloud photo management solutions like Google Photos, Flickr, and Amazon Pho
 
 ## PhotoPrism
 
-!!! recommendation
+!!! recommendation "Recomendación"
 
 ```
 ![PhotoPrism logo](assets/img/photo-management/photoprism.svg){ align=right }
 
-**PhotoPrism** is a self-hostable platform for managing photos. It supports album syncing and sharing as well as a variety of other [features](https://www.photoprism.app/features). It does not include E2EE, so it's best hosted on a server that you trust and is under your control.
+**PhotoPrism** es una plataforma autoalojable para la gestión de fotos. Admite la sincronización y compartición de álbumes, así como una variedad de otras [features](https://www.photoprism.app/features). No incluye E2EE, por lo que es mejor alojarlo en un servidor en el que confíes y que esté bajo tu control.
 
-[:octicons-home-16: Homepage](https://www.photoprism.app){ .md-button .md-button--primary }
-[:octicons-eye-16:](https://www.photoprism.app/privacy){ .card-link title="Privacy Policy" }
-[:octicons-info-16:](https://www.photoprism.app/kb){ .card-link title=Documentation}
-[:octicons-code-16:](https://github.com/photoprism){ .card-link title="Source Code" }
+[:octicons-home-16: Página Principal](https://www.photoprism.app){ .md-button .md-button--primary }
+[:octicons-eye-16:](https://www.photoprism.app/privacy){ .card-link title="Política de Privacidad" }
+[:octicons-info-16:](https://www.photoprism.app/kb){ .card-link title=Documentación}
+[:octicons-code-16:](https://github.com/photoprism){ .card-link title="Código Fuente" }
 
-??? downloads
+??? downloads "Descargas"
 
     - [:simple-github: GitHub](https://github.com/photoprism)
 ```
 
 ## Criterios
 
-**Please note we are not affiliated with any of the projects we recommend.** In addition to [our standard criteria](about/criteria.md), we have developed a clear set of requirements to allow us to provide objective recommendations. Sugerimos que te familiarices con esta lista, antes de decidir utilizar un proyecto y realizar tu propia investigación para asegurarte de que es la elección ideal para ti.
+**Por favor, ten en cuenta que no estamos afiliados con ninguno de los proyectos que recomendamos.** Además de [nuestros criterios estándar](about/criteria.md), hemos desarrollado un conjunto claro de requisitos que nos permiten ofrecer recomendaciones objetivas. Sugerimos que te familiarices con esta lista, antes de decidir utilizar un proyecto y realizar tu propia investigación para asegurarte de que es la elección ideal para ti.
 
 !!! example "Esta sección es nueva"
 
 ```
-We are working on establishing defined criteria for every section of our site, and this may be subject to change. If you have any questions about our criteria, please [ask on our forum](https://discuss.privacyguides.net/latest) and don't assume we didn't consider something when making our recommendations if it is not listed here. There are many factors considered and discussed when we recommend a project, and documenting every single one is a work-in-progress.
+Estamos trabajando para establecer criterios definidos para cada sección de nuestro sitio, y esto puede estar sujeto a cambios. Si tienes alguna pregunta sobre nuestros criterios, por favor [pregunta en nuestro foro](https://discuss.privacyguides.net/latest) y no asumas que no hemos tenido en cuenta algo al hacer nuestras recomendaciones si no aparece aquí. Son muchos los factores que se tienen en cuenta y se discuten cuando recomendamos un proyecto, y documentar cada uno de ellos es un trabajo en curso.
 ```
 
 ### Requisitos Mínimos
 
-- Cloud-hosted providers must enforce end-to-end encryption.
+- Los proveedores alojados en la nube deben aplicar cifrado de extremo a extremo.
 - Debe ofrecer un plan gratuito o un periodo de prueba.
 - Debe ser compatible con la autenticación multifactor TOTP o FIDO2, o con los inicios de sesión Passkey.
 - Debe ofrecer una interfaz web que admita funciones básicas de gestión de archivos.

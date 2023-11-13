@@ -94,7 +94,7 @@ Click the small :material-information-outline: icon next to **Automatic Updates*
 
 Whenever an application requests a permission, it will show up here. You can decide which applications you want to allow or deny specific permissions.
 
-##### Location Services
+##### 位置情報サービス
 
 You can individually allow location services per-app. If you don't need apps to use your location, turning off location services entirely is the most private option.
 

@@ -53,17 +53,21 @@ Oauth 로그인을 선택할 경우, OAuth 제공 업체의 로그인 페이지�
 
 주요 장점은 다음과 같습니다:
 
-- **보안**: 웹사이트에 여러분의 자격 증명이 저장되지 않으므로, [데이터 유출](https://en.wikipedia.org/wiki/Data_breach) 위험성이 없습니다.
+- **Security**: you don't have to trust the security practices of the service you're logging into when it comes to storing your login credentials, because they are stored with the external OAuth provider, which when it comes to services like Apple and Google typically follow the best security practices, continuously audit their authentication systems, and don't store credentials inappropriately (such as in plain text).
 - **사용 편의성**: 하나의 로그인으로 여러 계정을 관리할 수 있습니다.
 
 단점은 다음과 같습니다:
 
 - **프라이버시**: OAuth 제공 업체는 사용자가 어떤 서비스를 사용하는지 알 수 있습니다.
-- **중앙 집중화**: OAuth 계정이 손상되거나 로그인할 수 없는 경우, 해당 계정에 연결된 계정도 전부 영향을 받습니다.
+- **Centralization**: if the account you use for OAuth is compromised, or you aren't able to log in to it, all other accounts connected to it are affected.
 
-OAuth 인증은 서비스 간 연동을 통해 이점을 얻을 수 있는 경우 특히 유용합니다. 되도록 OAuth는 필요한 경우에만 사용하고, 주요 계정은 [MFA](multi-factor-authentication.md)로 보호할 것을 권장드립니다.
+OAuth can be especially useful in those situations where you could benefit from deeper integration between services. 되도록 OAuth는 필요한 경우에만 사용하고, 주요 계정은 [MFA](multi-factor-authentication.md)로 보호할 것을 권장드립니다.
 
-OAuth를 사용하는 모든 서비스는 OAuth 계정과 동일한 보안 수준을 갖습니다. 예를 들어, 하드웨어 키를 사용해 계정을 보호하고 싶은데 해당 서비스는 하드웨어 키를 지원하지 않는 경우, OAuth 계정을 하드웨어 키로 보호하면 결과적으로 모든 계정을 하드웨어 키로 보호하는 효과를 얻습니다. 하지만 동시에, OAuth 계정 인증이 취약할 경우에는 해당 계정에 연결된 모든 계정의 인증 또한 취약해진다는 점을 명심해야합니다.
+All the services that use OAuth will be as secure as your underlying OAuth provider's account. 예를 들어, 하드웨어 키를 사용해 계정을 보호하고 싶은데 해당 서비스는 하드웨어 키를 지원하지 않는 경우, OAuth 계정을 하드웨어 키로 보호하면 결과적으로 모든 계정을 하드웨어 키로 보호하는 효과를 얻습니다. 하지만 동시에, OAuth 계정 인증이 취약할 경우에는 해당 계정에 연결된 모든 계정의 인증 또한 취약해진다는 점을 명심해야합니다.
+
+There is an additional danger when using *Sign in with Google*, *Facebook*, or another service, which is that typically the OAuth process allows for *bidirectional* data sharing. For example, logging in to a forum with your Twitter account could grant that forum access to do things on your Twitter account such as post, read your messages, or access other personal data. OAuth providers will typically present you with a list of things you are granting the external service access to, and you should always ensure that you read through that list and don't inadvertently grant the external service access to anything it doesn't require.
+
+Malicious applications, particularly on mobile devices where the application has access to the WebView session used for logging in to the OAuth provider, can also abuse this process by hijacking your session with the OAuth provider and gaining access to your OAuth account through those means. Using the *Sign in with* option with any provider should usually be considered a matter of convenience that you only use with services you trust to not be actively malicious.
 
 ### 전화번호
 

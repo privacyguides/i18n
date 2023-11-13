@@ -23,7 +23,7 @@ Some self-hosted messengers allow you to set up your own server. Self-hosting ca
 - Most mature and stable features ecosystems, as they are easier to program in a centralized software.
 - Privacy issues may be reduced when you trust a server that you're self-hosting.
 
-**Disadvantages:**
+**デメリット：**
 
 - Can include [restricted control or access](https://drewdevault.com/2018/08/08/Signal.html). これは次のようなものも含みます。
 - Being [forbidden from connecting third-party clients](https://github.com/LibreSignal/LibreSignal/issues/37#issuecomment-217211165) to the centralized network that might provide for greater customization or a better experience. Often defined in Terms and Conditions of usage.
@@ -46,7 +46,7 @@ When self-hosted, members of a federated server can discover and communicate wit
 - Often allows for third-party clients which can provide a more native, customized, or accessible experience.
 - Server software can be verified that it matches public source code, assuming you have access to the server or you trust the person who does (e.g., a family member).
 
-**Disadvantages:**
+**デメリット：**
 
 - Adding new features is more complex because these features need to be standardized and tested to ensure they work with all servers on the network.
 - Due to the previous point, features can be lacking, or incomplete or working in unexpected ways compared to centralized platforms, such as message relay when offline or message deletion.
@@ -71,7 +71,7 @@ P2P networks do not use servers, as peers communicate directly between each othe
 - Minimal information is exposed to third-parties.
 - Modern P2P platforms implement E2EE by default. There are no servers that could potentially intercept and decrypt your transmissions, unlike centralized and federated models.
 
-**Disadvantages:**
+**デメリット：**
 
 - Reduced feature set:
 - Messages can only be sent when both peers are online, however, your client may store messages locally to wait for the contact to return online.
@@ -94,7 +94,7 @@ Self-hosting a node in an anonymous routing network does not provide the hoster 
 - Minimal to no information is exposed to other parties.
 - Messages can be relayed in a decentralized manner even if one of the parties is offline.
 
-**Disadvantages:**
+**デメリット：**
 
 - Slow message propagation.
 - Often limited to fewer media types, mostly text, since the network is slow.

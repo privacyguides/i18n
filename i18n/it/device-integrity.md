@@ -124,7 +124,7 @@ These are apps you can install which check your device and operating system for 
 !!! warning "Attenzione"
 
 ```
-Using these apps is insufficient to determine that a device is "clean", and not targeted with a particular spyware tool.
+L'uso di queste applicazioni non è sufficiente a determinare che un dispositivo sia "pulito" e non sia stato preso di mira da un particolare strumento spyware.
 ```
 
 ### Auditor (Android)
@@ -135,13 +135,13 @@ Using these apps is insufficient to determine that a device is "clean", and not 
 ![Auditor logo](assets/img/device-integrity/auditor.svg#only-light){ align=right }
 ![Auditor logo](assets/img/device-integrity/auditor-dark.svg#only-dark){ align=right }
 
-**Auditor** is an app which leverages hardware security features to provide device integrity monitoring by actively validating the identity of a device and the integrity of its operating system. Currently, it only works with GrapheneOS or the stock operating system for [supported devices](https://attestation.app/about#device-support).
+**Auditor** è un app che sfrutta le caratteristiche di sicurezza dell'hardware per fornire un monitoraggio dell'integrità del dispositivo, convalidando attivatemnte l'identità di un dispositivo e l'integrità del suo sistema operativo. Attualmente funziona solo con GrapheneOS o con il sistema operativo stock per i [dispositivi supportati](https://attestation.app/about#device-support).
 
 [:octicons-home-16: Homepage](https://attestation.app){ .md-button .md-button--primary }
-[:octicons-eye-16:](https://attestation.app/privacy-policy){ .card-link title="Privacy Policy" }
-[:octicons-info-16:](https://attestation.app/about){ .card-link title=Documentation}
-[:octicons-code-16:](https://attestation.app/source){ .card-link title="Source Code" }
-[:octicons-heart-16:](https://attestation.app/donate){ .card-link title=Contribute }
+[:octicons-eye-16:](https://attestation.app/privacy-policy){ .card-link title="Informativa sulla Privacy" }
+[:octicons-info-16:](https://attestation.app/about){ .card-link title=Documentazione}
+[:octicons-code-16:](https://attestation.app/source){ .card-link title="Codice sorgente" }
+[:octicons-heart-16:](https://attestation.app/donate){ .card-link title=Contribuisci }
 
 ??? downloads
 
@@ -173,7 +173,7 @@ These are apps you can install on your device which scan your device for signs o
 !!! warning "Attenzione"
 
 ```
-Using these apps is insufficient to determine that a device is "clean", and not targeted with a particular spyware tool.
+L'uso di queste applicazioni non è sufficiente a determinare che un dispositivo sia "pulito" e non sia stato preso di mira da un particolare strumento spyware.
 ```
 
 ### Hypatia (Android)

@@ -40,7 +40,7 @@ You may not use this website in any way that causes or may cause damage to the w
 You must not conduct any systematic or automated data collection activities on or in relation to this website without express written consent, including:
 
 * Excessive Automated Scans
-* Denial of Service Attacks
+* サービス拒否（DoS）攻撃
 * スクレイピング
 * データマイニング
 * 'Framing' (IFrames)

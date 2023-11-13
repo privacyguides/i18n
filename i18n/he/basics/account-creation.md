@@ -53,17 +53,21 @@ OAuth הוא פרוטוקול אימות המאפשר לך להירשם לשיר
 
 היתרונות העיקריים הם:
 
-- **אבטחה**: אין סיכון להיות מעורב ב[הפרת נתונים](https://en.wikipedia.org/wiki/Data_breach) מכיוון האתר אינו שומר את האישורים שלך.
+- **Security**: you don't have to trust the security practices of the service you're logging into when it comes to storing your login credentials, because they are stored with the external OAuth provider, which when it comes to services like Apple and Google typically follow the best security practices, continuously audit their authentication systems, and don't store credentials inappropriately (such as in plain text).
 - **קלות שימוש**: מספר חשבונות מנוהלים על ידי התחברות אחת.
 
 אבל יש חסרונות:
 
 - **פרטיות**: ספק ה-OAuth שאיתו אתה מתחבר יידע באילו שירותים אתה משתמש.
-- **ריכוזיות**: אם החשבון שבו אתה משתמש עבור OAuth נפגע או שאינך יכול להתחבר אליו, כל שאר החשבונות המחוברים אליו מושפעים.
+- **Centralization**: if the account you use for OAuth is compromised, or you aren't able to log in to it, all other accounts connected to it are affected.
 
-אימות OAuth יכול להיות שימושי במיוחד במצבים שבהם תוכל להפיק תועלת מאינטגרציה עמוקה יותר בין שירותים. ההמלצה שלנו היא להגביל את השימוש ב-OAuth רק למקום שבו אתה זקוק לו, ולהגן תמיד על החשבון הראשי באמצעות [MFA](multi-factor-authentication.md).
+OAuth can be especially useful in those situations where you could benefit from deeper integration between services. ההמלצה שלנו היא להגביל את השימוש ב-OAuth רק למקום שבו אתה זקוק לו, ולהגן תמיד על החשבון הראשי באמצעות [MFA](multi-factor-authentication.md).
 
-כל השירותים המשתמשים ב-OAuth יהיו מאובטחים כמו החשבון של הספק הבסיסי שלך. לדוגמה, אם אתה רוצה לאבטח חשבון עם מפתח חומרה, אבל השירות הזה לא תומך במפתחות חומרה, אתה יכול לאבטח את החשבון שבו אתה משתמש עם OAuth עם מפתח חומרה במקום, ועכשיו יש לך בעצם MFA חומרה בכל חשבונות. עם זאת, ראוי לציין שאימות חלש בחשבון ספק ה-OAuth שלך אומר שכל חשבון הקשור לכניסה זו יהיה גם חלש.
+All the services that use OAuth will be as secure as your underlying OAuth provider's account. לדוגמה, אם אתה רוצה לאבטח חשבון עם מפתח חומרה, אבל השירות הזה לא תומך במפתחות חומרה, אתה יכול לאבטח את החשבון שבו אתה משתמש עם OAuth עם מפתח חומרה במקום, ועכשיו יש לך בעצם MFA חומרה בכל חשבונות. עם זאת, ראוי לציין שאימות חלש בחשבון ספק ה-OAuth שלך אומר שכל חשבון הקשור לכניסה זו יהיה גם חלש.
+
+There is an additional danger when using *Sign in with Google*, *Facebook*, or another service, which is that typically the OAuth process allows for *bidirectional* data sharing. For example, logging in to a forum with your Twitter account could grant that forum access to do things on your Twitter account such as post, read your messages, or access other personal data. OAuth providers will typically present you with a list of things you are granting the external service access to, and you should always ensure that you read through that list and don't inadvertently grant the external service access to anything it doesn't require.
+
+Malicious applications, particularly on mobile devices where the application has access to the WebView session used for logging in to the OAuth provider, can also abuse this process by hijacking your session with the OAuth provider and gaining access to your OAuth account through those means. Using the *Sign in with* option with any provider should usually be considered a matter of convenience that you only use with services you trust to not be actively malicious.
 
 ### מספר טלפון
 

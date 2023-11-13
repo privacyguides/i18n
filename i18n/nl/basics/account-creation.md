@@ -53,17 +53,21 @@ Wanneer je met OAuth inlogt, wordt een inlogpagina geopend met de aanbieder die 
 
 De belangrijkste voordelen zijn:
 
-- **Beveiliging**: geen risico om betrokken te raken bij een [datalek](https://en.wikipedia.org/wiki/Data_breach) omdat de website uw inlog gegevens niet opslaat.
+- **Security**: you don't have to trust the security practices of the service you're logging into when it comes to storing your login credentials, because they are stored with the external OAuth provider, which when it comes to services like Apple and Google typically follow the best security practices, continuously audit their authentication systems, and don't store credentials inappropriately (such as in plain text).
 - **Gebruiksgemak**: meerdere accounts worden beheerd door één enkele login.
 
 Maar er zijn ook nadelen:
 
 - **Privacy**: de OAuth provider waarmee je je aanmeldt kent de diensten die je gebruikt.
-- **Centralisatie**: als het account dat je voor OAuth gebruikt, gecompromitteerd is of je niet kunt inloggen alle andere accounts die ermee verbonden zijn worden beïnvloed.
+- **Centralization**: if the account you use for OAuth is compromised, or you aren't able to log in to it, all other accounts connected to it are affected.
 
-OAuth authenticatie kan vooral nuttig zijn in situaties waarin je zou kunnen profiteren van een diepere integratie tussen services. Onze aanbeveling is om OAuth alleen te gebruiken waar je het nodig hebt, en altijd de hoofdaccount te beschermen met [MFA](multi-factor-authentication.md).
+OAuth can be especially useful in those situations where you could benefit from deeper integration between services. Onze aanbeveling is om OAuth alleen te gebruiken waar je het nodig hebt, en altijd de hoofdaccount te beschermen met [MFA](multi-factor-authentication.md).
 
-Alle diensten die OAuth gebruiken zijn net zo veilig als jouw onderliggende account van de aanbieder. Als je bijvoorbeeld een account wilt beveiligen met een hardwaresleutel, maar die dienst ondersteunt geen hardwaresleutels, dan kun je jouw OAuth account beveiligen met een hardwaresleutel en nu hebt je in wezen hardware-MFA op al jouw accounts. Het is de moeite waard om op te merken dat zwakke authenticatie op jouw OAuth provider-account betekent dat elke account gekoppeld aan die login ook zwak zal zijn.
+All the services that use OAuth will be as secure as your underlying OAuth provider's account. Als je bijvoorbeeld een account wilt beveiligen met een hardwaresleutel, maar die dienst ondersteunt geen hardwaresleutels, dan kun je jouw OAuth account beveiligen met een hardwaresleutel en nu hebt je in wezen hardware-MFA op al jouw accounts. Het is de moeite waard om op te merken dat zwakke authenticatie op jouw OAuth provider-account betekent dat elke account gekoppeld aan die login ook zwak zal zijn.
+
+There is an additional danger when using *Sign in with Google*, *Facebook*, or another service, which is that typically the OAuth process allows for *bidirectional* data sharing. For example, logging in to a forum with your Twitter account could grant that forum access to do things on your Twitter account such as post, read your messages, or access other personal data. OAuth providers will typically present you with a list of things you are granting the external service access to, and you should always ensure that you read through that list and don't inadvertently grant the external service access to anything it doesn't require.
+
+Malicious applications, particularly on mobile devices where the application has access to the WebView session used for logging in to the OAuth provider, can also abuse this process by hijacking your session with the OAuth provider and gaining access to your OAuth account through those means. Using the *Sign in with* option with any provider should usually be considered a matter of convenience that you only use with services you trust to not be actively malicious.
 
 ### Telefoonnummer
 

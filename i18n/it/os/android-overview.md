@@ -12,7 +12,7 @@ Il **Progetto Open Source di Androd** è un sistema operativo mobile sicuro, che
 
 ### Scegliere una distribuzione di Android
 
-When you buy an Android phone, the default operating system comes bundled with apps and functionality that are not part of the Android Open Source Project. Many of these apps—even apps like the dialer which provide basic system functionality—require invasive integrations with Google Play Services, which in turn asks for privileges to access your files, contacts storage, call logs, SMS messages, location, camera, microphone, and numerous other things on your device in order for those basic system apps and many other apps to function in the first place. Frameworks like Google Play Services increase the attack surface of your device and are the source of various privacy concerns with Android.
+Quando acquisti un telefono Android, il sistema operativo predefinito viene fornito con applicazioni e funzionalità che non fanno parte dell'Android Open Source Project. Molte di queste app, anche quelle come il dialer che forniscono le funzionalità di base del sistema, richiedono integrazioni invasive con Google Play Services, che a sua volta richiede i privilegi di accesso ai file, all'archiviazione dei contatti, ai registri delle chiamate, ai messaggi SMS, alla posizione, alla fotocamera, al microfono e a numerosi altri elementi del dispositivo per far funzionare le app di base del sistema e molte altre applicazioni. Framework come Google Play Services aumentano la superficie di attacco del dispositivo e sono all'origine di vari problemi di privacy con Android.
 
 Questo problema potrebbe essere risolto utilizzando una distribuzione modificata di Android che non preveda un'integrazione così invasiva. Purtroppo, molte distribuzioni di Android personalizzate spesso violano il modello di sicurezza di Android, non supportando funzioni di sicurezza critiche come AVB, protezione rollback, aggiornamenti del firmware e così via. Alcune distribuzioni forniscono anche build [`userdebug`](https://source.android.com/setup/build/building#choose-a-target) che espongono root tramite [ADB](https://developer.android.com/studio/command-line/adb) e richiedono politiche SELinux [più permissive](https://github.com/LineageOS/android_system_sepolicy/search?q=userdebug&type=code) per ospitare le funzionalità di debug, con conseguente ulteriore aumento della superficie di attacco e indebolimento del modello di sicurezza.
 
@@ -60,11 +60,11 @@ Inoltre, molti OEM dispongono di un'implementazione corrotta dell'Avvio Verifica
 
 Gli aggiornamenti del firmware sono fondamentali per mantenere la sicurezza e, senza di essi, il tuo dispositivo non può essere sicuro. Gli OEM stipulano accordi di supporto coi propri partner per fornire i componenti closed-source per un periodo di supporto limitato. Questi sono mensilmente riportati nei [Bollettini di Sicurezza di Android](https://source.android.com/security/bulletin).
 
-Poiché i componenti del telefono, come il processore e le tecnologie radio, si affidano a componenti closed-source, gli aggiornamenti devono essere forniti dai rispettivi produttori. Dunque, è importante che tu acquisti un dispositivo entro un ciclo di supporto attivo. [Qualcomm](https://www.qualcomm.com/news/releases/2020/12/16/qualcomm-and-google-announce-collaboration-extend-android-os-support-and) e [Samsung](https://news.samsung.com/us/samsung-galaxy-security-extending-updates-knox/) supportano i propri dispositivi per 4 anni, mentre i prodotti più economici prevedono spesso cicli di supporto più brevi. With the introduction of the [Pixel 6](https://support.google.com/pixelphone/answer/4457705), Google now makes their own SoC, and they will provide a minimum of 5 years of support. With the introduction of the Pixel 8 series, Google increased that support window to 7 years.
+Poiché i componenti del telefono, come il processore e le tecnologie radio, si affidano a componenti closed-source, gli aggiornamenti devono essere forniti dai rispettivi produttori. Dunque, è importante che tu acquisti un dispositivo entro un ciclo di supporto attivo. [Qualcomm](https://www.qualcomm.com/news/releases/2020/12/16/qualcomm-and-google-announce-collaboration-extend-android-os-support-and) e [Samsung](https://news.samsung.com/us/samsung-galaxy-security-extending-updates-knox/) supportano i propri dispositivi per 4 anni, mentre i prodotti più economici prevedono spesso cicli di supporto più brevi. Con l'introduzione del [Pixel 6](https://support.google.com/pixelphone/answer/4457705), Google produce ora il proprio SoC e fornirà un supporto di almeno 5 anni. Con l'introduzione della serie Pixel 8, Google ha aumentato la finestra di supporto a 7 anni.
 
 I dispositivi EOL, non più supportati dal produttore del SoC, non possono ricevere aggiornamenti del firmware dai fornitori OEM o dai distributori di ricambi per Android. Ciò significa che i problemi di sicurezza di questi dispositivi non saranno risolti.
 
-Fairphone, for example, markets their Fairphone 4 device as receiving 6 years of support. Tuttavia, il SoC (Qualcomm Snapdragon 750G sul Fairphone 4), ha una data di scadenza considerevolmente più breve. Ciò significa che gli aggiornamenti di sicurezza di quel firmware da Qualcomm per il Fairphone 4 termineranno a settembre 2023, indipendentemente dal fatto che Fairphone continui a rilasciare aggiornamenti di sicurezza del software.
+Fairphone, ad esempio, commercializza il proprio dispositivo Fairphone 4 con 6 anni di assistenza. Tuttavia, il SoC (Qualcomm Snapdragon 750G sul Fairphone 4), ha una data di scadenza considerevolmente più breve. Ciò significa che gli aggiornamenti di sicurezza di quel firmware da Qualcomm per il Fairphone 4 termineranno a settembre 2023, indipendentemente dal fatto che Fairphone continui a rilasciare aggiornamenti di sicurezza del software.
 
 ### Autorizzazioni di Android
 
@@ -91,7 +91,7 @@ Android 12:
 
 Android 13:
 
-- A permission for [nearby Wi-Fi access](https://developer.android.com/about/versions/13/behavior-changes-13#nearby-wifi-devices-permission). The MAC addresses of nearby Wi-Fi access points was a popular way for apps to track a user's location.
+- Un'autorizzazione per l'[accesso alle Wi-Fi nelle vicinanze](https://developer.android.com/about/versions/13/behavior-changes-13#nearby-wifi-devices-permission). Gli indirizzi MAC dei punti di accesso Wi-Fi nelle vicinanze erano un modo molto diffuso per le app di tracciare la posizione di un utente.
 - Ulteriori [autorizzazioni multimediali granulari](https://developer.android.com/about/versions/13/behavior-changes-13#granular-media-permissions), a significare che puoi concedere l'accesso aai soli filee immagine, video o audio.
 - L'utilizzo in background dei sensori richiede adesso l'autorizzazione [`BODY_SENSORS`](https://developer.android.com/about/versions/13/behavior-changes-13#body-sensors-background-permission).
 
@@ -121,13 +121,13 @@ I [Profili di Lavoro](https://support.google.com/work/android/answer/6191949) so
 
 Un'app di **controllo del dispositivo**, come [Shelter](../android.md#shelter), è necessaria per creare un Profilo di Lavoro senza un MDM imprenditoriale, a meno che tu non stia utilizzando un OS personalizzato di Android che ne includa uno.
 
-Il profilo di lavoro dipende da un controllore del dispositivo per funzionare. Le funzionalità come *File Shuttle* e *blocco della ricerca dei contatti* o qualsiasi tipo di funzionalità d'isolamento, devono essere implementate dal controllore. You must also fully trust the device controller app, as it has full access to your data inside the work profile.
+Il profilo di lavoro dipende da un controllore del dispositivo per funzionare. Le funzionalità come *File Shuttle* e *blocco della ricerca dei contatti* o qualsiasi tipo di funzionalità d'isolamento, devono essere implementate dal controllore. È inoltre necessario fidarsi completamente dell'app di controllo del dispositivo, che ha pieno accesso ai dati dell'utente all'interno del profilo di lavoro.
 
 Questo metodo, generalmente, è meno sicuro di un profilo utente secondario; tuttavia, ti consente la comodità di eseguire le app nei profili lavorativi e personali, simultaneamente.
 
-### Interruttore d'Emergenza per VPN
+### Killswitch per VPN
 
-Android 7 and above supports a VPN kill switch, and it is available without the need to install third-party apps. Questa funzionalità può prevenire fughe, se la VPN è disconnessa. Si trova in :gear: **Impostazioni** → **Rete e Internet** → **VPN** → :gear: → **Blocca connessioni senza VPN**.
+Android 7 e successivi supporta un kill switch VPN, disponibile senza la necessità d'installare applicazioni di terze parti. Questa funzionalità può prevenire fughe, se la VPN è disconnessa. Si trova in :gear: **Impostazioni** → **Rete e Internet** → **VPN** → :gear: → **Blocca connessioni senza VPN**.
 
 ### Interruttori globali
 
@@ -143,7 +143,7 @@ Se possiedi un profilo Google, ti suggeriamo di iscriverti al [Programma di Prot
 
 Il Programma di Protezione Avanzata fornisce un migliore monitoraggio delle minacce, e consente:
 
-- Stricter two-factor authentication; e.g. that [FIDO](../basics/multi-factor-authentication.md#fido-fast-identity-online) **must** be used and disallows the use of [SMS OTPs](../basics/multi-factor-authentication.md#sms-or-email-mfa), [TOTP](../basics/multi-factor-authentication.md#time-based-one-time-password-totp) and [OAuth](https://en.wikipedia.org/wiki/OAuth)
+- Autenticazione a due fattori più rigida; ad esempio, [FIDO](../basics/multi-factor-authentication.md#fido-fast-identity-online) **deve** essere utilizzato e non è consentito l'uso di [SMS OTP](../basics/multi-factor-authentication.md#sms-or-email-mfa), [TOTP](../basics/multi-factor-authentication.md#time-based-one-time-password-totp) e [OAuth](https://en.wikipedia.org/wiki/OAuth)
 - L'accesso ai dati del profilo soltanto a Google e alle app verificate di terze parti
 - Scansione delle email in entrata sui profili Gmail, in cerca di tentativi di [phishing](https://en.wikipedia.org/wiki/Phishing#Email_phishing)
 - [Scansione del browser sicura](https://www.google.com/chrome/privacy/whitepaper.html#malware) e più rigida, con Google Chrome
@@ -151,7 +151,7 @@ Il Programma di Protezione Avanzata fornisce un migliore monitoraggio delle mina
 
  Se utilizzi Google Play Services non 'sandboxed' (comune sui sistemi operativi di fabbrica), il Programma di Protezione Avanzata fornisce anche dei [benefici aggiuntivi](https://support.google.com/accounts/answer/9764949?hl=en), come:
 
-- Not allowing app installation outside the Google Play Store, the OS vendor's app store, or via [`adb`](https://en.wikipedia.org/wiki/Android_Debug_Bridge)
+- Non permette l'installazione di app al di fuori del Google Play Store, dell'app store del fornitore del sistema operativo o tramite [`adb`](https://en.wikipedia.org/wiki/Android_Debug_Bridge)
 - Scansione del dispositivo automatica e obbligatoria con [Play Protect](https://support.google.com/googleplay/answer/2812853?hl=en#zippy=%2Chow-malware-protection-works%2Chow-privacy-alerts-work)
 - Avviso sulle applicazioni non verificate
 
@@ -178,4 +178,4 @@ Potrai eliminare il tuo ID pubblicitario o *Rinunciare agli annunci basati sugli
 
 [SafetyNet](https://developer.android.com/training/safetynet/attestation) e le [API di Play Integrity](https://developer.android.com/google/play/integrity) sono generalmente utilizzati per le [app bancarie](https://grapheneos.org/usage#banking-apps). Molte app bancarie funzioneranno bene su GrapheneOS con i servizi Play in modalità sandbox, tuttavia, alcune app non finanziarie dispongono di meccanismi anti-manomissione che potrebbero fallire. GrapheneOS supera il controllo `basicIntegrity`, ma non il controllo del certificato `ctsProfileMatch`. I dispositivi con Android 8 o successive, dispongono di supporto dell'attestazione del hardware, non superabile con chiavi trapelate o gravi vulnerabilità.
 
-As for Google Wallet, we don't recommend this due to their [privacy policy](https://payments.google.com/payments/apis-secure/get_legal_document?ldo=0&ldt=privacynotice&ldl=en), which states you must opt out if you don't want your credit rating and personal information shared with affiliate marketing services.
+Per quanto riguarda Google Wallet, lo sconsigliamo a causa della loro [informativa sulla privacy](https://payments.google.com/payments/apis-secure/get_legal_document?ldo=0&ldt=privacynotice&ldl=en), che prevede che l'utente debba rinunciare se non vuole che il suo rating creditizio e le sue informazioni personali siano condivise con i servizi di marketing affiliati.

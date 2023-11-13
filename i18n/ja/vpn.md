@@ -135,7 +135,7 @@ IVPN has undergone a [no-logging audit from Cure53](https://cure53.de/audit-repo
 
 As of February 2020 [IVPN applications are now open source](https://www.ivpn.net/blog/ivpn-applications-are-now-open-source). Source code can be obtained from their [GitHub organization](https://github.com/ivpn).
 
-#### :material-check:{ .pg-green } Accepts Cash and Monero
+#### :material-check:{ .pg-green } 現金とMoneroが利用可能
 
 In addition to accepting credit/debit cards and PayPal, IVPN accepts Bitcoin, **Monero** and **cash/local currency** (on annual plans) as anonymous forms of payment.
 
@@ -205,7 +205,7 @@ In 2021 an infrastructure audit [was announced](https://mullvad.net/en/blog/2021
 
 Mullvad provides the source code for their desktop and mobile clients in their [GitHub organization](https://github.com/mullvad/mullvadvpn-app).
 
-#### :material-check:{ .pg-green } Accepts Cash and Monero
+#### :material-check:{ .pg-green } 現金とMoneroが利用可能
 
 Mullvad, in addition to accepting credit/debit cards and PayPal, accepts Bitcoin, Bitcoin Cash, **Monero** and **cash/local currency** as anonymous forms of payment. They also accept Swish and bank wire transfers.
 
@@ -215,7 +215,7 @@ MullvadはWireGuard®️プロトコルをサポートしています。 [WireGu
 
 Mullvad [recommends](https://mullvad.net/en/help/why-wireguard/) the use of WireGuard with their service. It is the default or only protocol on Mullvad's Android, iOS, macOS, and Linux apps, but on Windows you have to [manually enable](https://mullvad.net/en/help/how-turn-wireguard-mullvad-app/) WireGuard. Mullvad also offers a WireGuard configuration generator for use with the official WireGuard [apps](https://www.wireguard.com/install/).
 
-#### :material-check:{ .pg-green } IPv6 Support
+#### :material-check:{ .pg-green } IPv6のサポート
 
 Mullvad allows you to [access services hosted on IPv6](https://mullvad.net/en/blog/2014/9/15/ipv6-support/), as opposed to other providers which block IPv6 connections.
 

@@ -27,7 +27,7 @@ Whistleblowers and journalists, for example, can have a much more extreme threat
 
 ## セキュリティーとプライバシー
 
-<span class="pg-orange">:material-bug-outline: Passive Attacks</span>
+<span class="pg-orange">:material-bug-outline: パッシブ攻撃</span>
 
 Security and privacy are also often confused, because you need security to obtain any semblance of privacy: Using tools—even if they're private by design—is futile if they could be easily exploited by attackers who later release your data. However, the inverse isn't necessarily true: The most secure service in the world *isn't necessarily* private. The best example of this is trusting data to Google who, given their scale, have had few security incidents by employing industry-leading security experts to secure their infrastructure. Even though Google provides very secure services, very few people would consider their data private in Google's free consumer products (Gmail, YouTube, etc.)
 
@@ -125,7 +125,7 @@ If you've already submitted your real information to sites which shouldn't have 
 
 ## 検閲の回避
 
-<span class="pg-blue-gray">:material-close-outline: Censorship</span>
+<span class="pg-blue-gray">:material-close-outline: 検閲</span>
 
 Censorship online can be carried out (to varying degrees) by actors including totalitarian governments, network administrators, and service providers. These efforts to control communication and restrict access to information will always be incompatible with the human right to Freedom of Expression.[^5]
 
