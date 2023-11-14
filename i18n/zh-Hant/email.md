@@ -218,7 +218,7 @@ Skiff Mail 不提供數位遺產功能。
 
     ![Tuta logo](assets/img/email/tuta.svg){ align=right }
     
-    **Tuta** is an email service with a focus on security and privacy through the use of encryption. Tuta has been in operation since **2011** and is based in Hanover, Germany. 免費帳戶有 1GB 儲存空間。
+    **Tuta** 使用加密、關注安全和隱私的電子郵件服務。 Tuta 自 **2011 年** 開始運營，總部位於德國漢諾威。 免費帳戶有 1GB 儲存空間。
     
     [:octicons-home-16: Homepage](https://tuta.com){ .md-button .md-button--primary }
     [:octicons-eye-16:](https://tuta.com/privacy){ .card-link title="Privacy Policy" }
@@ -226,7 +226,7 @@ Skiff Mail 不提供數位遺產功能。
     [:octicons-code-16:](https://github.com/tutao/tutanota){ .card-link title="Source Code" }
     [:octicons-heart-16:](https://tuta.com/community/){ .card-link title=Contribute }
     
-    ??? downloads
+    ??? downloads "下載"
     
         - [:simple-googleplay: Google Play](https://play.google.com/store/apps/details?id=de.tutao.tutanota)
         - [:simple-appstore: App Store](https://apps.apple.com/app/tutanota/id922429609)
@@ -236,15 +236,15 @@ Skiff Mail 不提供數位遺產功能。
         - [:simple-linux: Linux](https://tuta.com/#download)
         - [:octicons-browser-16: Web](https://app.tuta.com/)
 
-Tuta doesn't support the [IMAP protocol](https://tuta.com/faq/#imap) or the use of third-party [email clients](email-clients.md), and you also won't be able to add [external email accounts](https://github.com/tutao/tutanota/issues/544#issuecomment-670473647) to the Tuta app. [Email import](https://github.com/tutao/tutanota/issues/630) is not currently supported either, though this is [due to be changed](https://tuta.com/blog/posts/kickoff-import). Emails can be exported [individually or by bulk selection](https://tuta.com/howto#generalMail) per folder, which may be inconvenient if you have many folders.
+Tuta 不支援 [ IMAP 協議](https://tuta.com/faq/#imap) 或使用第三方 [電子郵件客戶端](email-clients.md)，您也無法將 [外部電子郵件帳戶](https://github.com/tutao/tutanota/issues/544#issuecomment-670473647) 添加到 Tuta 應用程式。 目前不支援 [電子郵件匯入](https://github.com/tutao/tutanota/issues/630) ，但這點很快就 [會改善](https://tuta.com/blog/posts/kickoff-import)。 電子郵件可以單個 [或選擇資料夾批量](https://tuta.com/howto#generalMail)匯出 ，但若您有許多資料夾，可能會不方便。
 
 #### :material-check:{ .pg-green } Custom Domains and Aliases
 
-Paid Tuta accounts can use either 15 or 30 aliases depending on their plan and unlimited aliases on [custom domains](https://tuta.com/faq#custom-domain). Tuta doesn't allow for [subaddressing (plus addresses)](https://tuta.com/faq#plus), but you can use a [catch-all](https://tuta.com/howto#settings-global) with a custom domain.
+付費的 Tuta 帳戶可使用 15 ~ 30 別名，而 [自定域名](https://tuta.com/faq#custom-domain)帳戶則無上限。 Tuta 不能 [子地址（加號 +定址）](https://tuta.com/faq#plus)，但您可以使用自定義域名的 [通用電于郵件](https://tuta.com/howto#settings-global)功能 。
 
 #### :material-information-outline:{ .pg-blue } 私人付款方式
 
-Tuta only directly accepts credit cards and PayPal, however [cryptocurrency](cryptocurrency.md) can be used to purchase gift cards via their [partnership](https://tuta.com/faq/#cryptocurrency) with Proxystore.
+Tutanota 僅接受信用卡和 PayPal ，但 [加密貨幣](cryptocurrency.md) 可用於通過其[ 合作伙伴 Proxystore ](https://tuta.com/faq/#cryptocurrency) 購買禮品卡。
 
 #### :material-check:{ .pg-green } 帳戶安全
 

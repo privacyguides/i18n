@@ -39,7 +39,7 @@ description: 您的威脅模型雖說是個人的事，但它也是本站許多�
 
     行動作業系統通常具有比桌面作業系統具備更好的應用程式沙盒：應用程式沒有根存取權限，且需要存取系統資源的權限。
     
-    桌面操作系統通常在適當的沙盒化上落後。 ChromeOS 具備與 Android 相似的沙盒功能， macOS 具有完整的系統權限控制（開發人員可以選擇為應用程式加入沙盒）。 然而，這些作業系統確實會將識別資料傳回給各自的原始設備製造商。 Linux 傾向於不對系統供應商提交資料，但它在漏洞和惡意應用程式的保護很差。 This can be mitigated somewhat with specialized distributions which make significant use of virtual machines or containers, such as [Qubes OS](../desktop.md#qubes-os).
+    桌面操作系統通常在適當的沙盒化上落後。 ChromeOS 具備與 Android 相似的沙盒功能， macOS 具有完整的系統權限控制（開發人員可以選擇為應用程式加入沙盒）。 然而，這些作業系統確實會將識別資料傳回給各自的原始設備製造商。 Linux 傾向於不對系統供應商提交資料，但它在漏洞和惡意應用程式的保護很差。 這可以通過專門的發行版來緩解，這些發行版大量使用虛擬器或容器，例如 [Qubes OS](../desktop.md#qubes-os).。
 
 <span class="pg-red">:material-target-account: 目標攻擊</span>
 

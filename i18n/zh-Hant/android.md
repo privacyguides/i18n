@@ -249,7 +249,7 @@ Pixel 手機很容易安裝 GrapheneOS 只需依其 [網頁安裝程式](https:/
 
 ### 安全的 PDF 檢視器
 
-!!! recommendation
+!!! 推薦
 
     ![Secure PDF Viewer logo](assets/img/android/secure_pdf_viewer.svg#only-light){ align=right }
     ![Secure PDF Viewer logo](assets/img/android/secure_pdf_viewer-dark.svg#only-dark){ align=right }
@@ -314,7 +314,7 @@ Aurora Store不允許其匿名帳戶下載付費應用程式。 您可以選擇�
 
 ### 手動使用 RSS 通知
 
-For apps that are released on platforms like GitHub and GitLab, you may be able to add an RSS feed to your [news aggregator](news-aggregators.md) that will help you keep track of new releases.
+在GitHub和GitLab 等平台上發布的應用程式，也可在 [新聞聚合器](news-aggregators.md) 下添加 RSS 源，有助於追踪新版本消息。
 
 ![RSS APK](./assets/img/android/rss-apk-light.png#only-light) ![RSS APK](./assets/img/android/rss-apk-dark.png#only-dark) ![APK Changes](./assets/img/android/rss-changes-light.png#only-light) ![APK Changes](./assets/img/android/rss-changes-dark.png#only-dark)
 
