@@ -22,12 +22,12 @@ Per identificare cosa potrebbe accadere alle cose che valorizzi e determinare da
 1. Cosa voglio proteggere?
 2. Da chi voglio proteggerle?
 3. Quanto è probabile che io debba proteggerle?
-4. Quanto sono negative le conseguenze se fallisco?
+4. Quanto sono catastrofiche le conseguenze se fallisco?
 5. Quanti problemi sono disposto ad affrontare per provare a prevenire le potenziali conseguenze?
 
 ### Cosa voglio proteggere?
 
-Una risorsa è qualcosa che valorizzi e desideri proteggere. Nel contesto della sicurezz digitale, ==una risorsa è solitamente qualche tipo di informazione.== Ad esempio, le tue email, rubriche, messaggi istantanei, posizioni e file, sono tutti possibili risorse. Anche gli stessi dispositivi potrebbero essere considerati tali.
+Una "risorsa" è qualcosa che valorizzi e desideri proteggere. Nel contesto della sicurezza digitale, ==una risorsa è solitamente qualche tipo di informazione.== Ad esempio, le tue email, rubriche, messaggi istantanei, posizioni e file, sono tutti possibili risorse. Anche gli stessi dispositivi potrebbero essere considerati tali.
 
 *Stila un elenco delle tue risorse: dati che conservi, dove li mantieni, chi vi ha accesso e cosa impedisce ad altri di accedervi.*
 
@@ -49,7 +49,7 @@ La valutazione dei rischi è un procedimento personale e soggettivo. Molte perso
 
 *Annota quali minacce prenderai sul serio e quali potrebbero essere troppo rare o innocue (o troppo difficili da combattere) per preoccuparsene.*
 
-### Quanto sono negative le conseguenze se fallisco?
+### Quanto sono catastrofiche le conseguenze se fallisco?
 
 Esistono molti modi in cui un avversario potrebbe ottenere l'accesso ai tuoi dati. Ad esempio, un avversario può leggere le tue comunicazioni private mentre passano per la rete, o può eliminare o corrompere i tuoi dati.
 
@@ -71,12 +71,12 @@ Ad esempio, un procuratore rappresentante un cliente in un caso di sicurezza naz
 
 Queste domande possono applicarsi a un'ampia varietà di situazioni, online e offline. Come dimostrazione generica del funzionamento di queste domande, creiamo un piano per mantenere al sicuro la tua casa e i tuoi averi.
 
-**Cosa voglio proteggere? (Oppure, *cosa possiedi che valga la pena di proteggere?*)**
+**Cosa vuoi proteggere? (Oppure, *cosa possiedi che valga la pena di proteggere?*)**
 :
 
 I tuoi beni potrebbero includere gioielli, elettronica, documenti o foto importanti.
 
-**Da chi voglio proteggerli?**
+**Da chi le vuoi proteggerle?**
 :
 
 I tuoi avversari potrebbero includere ladri, coinquilini od ospiti.
@@ -86,7 +86,7 @@ I tuoi avversari potrebbero includere ladri, coinquilini od ospiti.
 
 Nel tuo vicinato si sono verificati furti precedenti? Quanto sono affidabili i tuoi coinquilini od ospiti? Quali sono le capacità dei tuoi avversari? Quali rischi dovresti considerare?
 
-**Quanto sono negative le conseguenze se fallisci?**
+**Quanto sono catastrofiche le conseguenze se fallisci?**
 :
 
 In casa, hai qualcosa che non puoi sostituire? Hai il tempo o il denaro per sostituire quelle cose? Hai un'assicurazione che copre i beni rubati dalla tua abitazione?
