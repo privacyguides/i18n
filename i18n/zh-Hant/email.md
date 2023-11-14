@@ -244,31 +244,31 @@ Tuta 不支援 [ IMAP 協議](https://tuta.com/faq/#imap) 或使用第三方 [�
 
 #### :material-information-outline:{ .pg-blue } 私人付款方式
 
-Tutanota 僅接受信用卡和 PayPal ，但 [加密貨幣](cryptocurrency.md) 可用於通過其[ 合作伙伴 Proxystore ](https://tuta.com/faq/#cryptocurrency) 購買禮品卡。
+Tuta 僅接受信用卡和 PayPal ，但 [加密貨幣](cryptocurrency.md) 可用於通過其[ 合作伙伴 Proxystore ](https://tuta.com/faq/#cryptocurrency) 購買禮品卡。
 
 #### :material-check:{ .pg-green } 帳戶安全
 
-Tuta supports [two factor authentication](https://tuta.com/faq#2fa) with either TOTP or U2F.
+Tuta 支援 TOTP 或 U2F 的 [雙因素驗證](https://tuta.com/faq#2fa) 。
 
 #### :material-check:{ .pg-green } 資料安全
 
-Tuta has [zero access encryption at rest](https://tuta.com/faq#what-encrypted) for your emails, [address book contacts](https://tuta.com/faq#encrypted-address-book), and [calendars](https://tuta.com/faq#calendar). 這意味著儲存在您帳戶中的訊息和其他資料只有您能讀取。
+Tutanota 提供 [未登入零存取](https://tuta.com/faq#what-encrypted) 支援，其應用在電子郵件、 [通訊錄](https://tuta.com/faq#encrypted-address-book)以及 [行事曆](https://tuta.com/faq#calendar)。 這意味著儲存在您帳戶中的訊息和其他資料只有您能讀取。
 
 #### :material-information-outline:{ .pg-blue } 電子郵件加密
 
-Tuta [does not use OpenPGP](https://tuta.com/support/#pgp). Tuta accounts can only receive encrypted emails from non-Tuta email accounts when sent via a [temporary Tuta mailbox](https://tuta.com/support/#encrypted-email-external).
+Tuta [不使用 OpenPGP ](https://tuta.com/support/#pgp)。 只能透過 [臨時 Tuta 郵箱](https://tuta.com/support/#encrypted-email-external)，才能接收非Tuta 電子郵件帳戶寄出的加密電子郵件。
 
 #### :material-information-outline:{ .pg-blue } 帳戶終止
 
-Tuta will [delete inactive free accounts](https://tuta.com/faq#inactive-accounts) after six months. 付費後，可以重用激活已停用的免費帳戶。
+Tuta [刪除六個月未登入使用的免費帳戶](https://tuta.com/faq#inactive-accounts) 。 付費後，可以重用激活已停用的免費帳戶。
 
 #### :material-information-outline:{ .pg-blue } 額外功能
 
-Tuta offers the business version of [Tuta to non-profit organizations](https://tuta.com/blog/posts/secure-email-for-non-profit) for free or with a heavy discount.
+Tuta 向非營利組織提供免費 [商業版本](https://tuta.com/blog/posts/secure-email-for-non-profit) 或大幅折扣。
 
-Tuta also has a business feature called [Secure Connect](https://tuta.com/secure-connect/). 這可以確保客戶的業務聯繫使用 E2EE。 價格爲一年 € 240 歐元。
+Tuta 付費版還有一種 [Secure Connect](https://tuta.com/secure-connect/)功能。 這可以確保客戶的業務聯繫使用 E2EE。 價格爲一年 € 240 歐元。
 
-Tuta doesn't offer a digital legacy feature.
+Tuta 不提供數位遺產功能。
 
 ## 郵箱別名
 
