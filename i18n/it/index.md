@@ -42,7 +42,7 @@ schema:
 
 ##### “Non ho nulla da nascondere. Perché dovrei preoccuparmi della mia privacy?"
 
-Proprio come il diritto al matrimonio interrazile, il suffragio femminile, la libertà di parola e molti altri, il nostro diritto alla privacy non è sempre stato sostenuto. In diverse dittature non lo è ancora. Le vecchie generazioni hanno lottato per il nostro diritto alla privacy. ==La privacy è un diritto umano, inerente a tutti noi,== che ci spetta (senza discriminazione).
+Proprio come il diritto al matrimonio Interrazziale, il suffragio femminile, la libertà di parola e molti altri, il nostro diritto alla privacy non è sempre stato sostenuto. In diverse dittature non lo è ancora. Le vecchie generazioni hanno lottato per il nostro diritto alla privacy. ==La privacy è un diritto umano, inerente a tutti noi,== che ci spetta (senza discriminazione).
 
 Non dovresti confondere la privacy con la segretezza. Sappiamo che succede in bagno, ma chiudi comunque la porta. Questo perché vuoi privacy, non segretezza. **Tutti** hanno qualcosa da proteggere. La privacy è qualcosa che ci rende umani.
 
@@ -52,7 +52,7 @@ Non dovresti confondere la privacy con la segretezza. Sappiamo che succede in ba
 
 ##### Per prima cosa, devi avere un piano
 
-Provare a proteggere tutti i tuoi dati da chiunque e in ogni momento, è poco pratico, costoso ed estenuante. Ma non preoccuparti! La sicurezza è un processo e, pensandoci in anticipo, puoi studiare un piano adatto a te. La sicurezza non riguarda soltanto gli strumenti che utilizzi o i software che scarichi. Piuttosto, parte dalla comprensione delle minacce uniche che affronti e di come puoi mitigarle.
+Provare a proteggere tutti i tuoi dati da chiunque e in ogni momento, è poco pratico, costoso ed estenuante. Ma non preoccuparti! La sicurezza è un processo e, pensando in anticipo, puoi mettere a punto un piano adatto a te. La sicurezza non riguarda soltanto gli strumenti che utilizzi o i software che scarichi. Piuttosto, parte dalla comprensione delle minacce uniche che affronti e di come puoi mitigarle.
 
 ==Questo procedimento d'identificazione e definizione delle contromisure è detto **Threat Modeling** (modello di minaccia)== e plasma le basi di ogni buon piano di sicurezza e privacy.
 

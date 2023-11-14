@@ -4,7 +4,7 @@ icon: 'material/eye-outline'
 description: Il tuo modello di minaccia è personale, ma queste sono alcuni aspetti che stanno a cuore a molti visitatori di questo sito web.
 ---
 
-In linea di massima, le nostre raccomandazioni sono suddivise in [minacce](threat-modeling.md) o obiettivi che si applicano alla maggior parte delle persone. ==Potete essere interessati a nessuna, una, alcune o tutte queste possibilità== e gli strumenti e i servizi che utilizzate dipendono dai vostri obiettivi. Potresti anche avere minacce specifiche al di fuori di queste categorie, il che è perfettamente normale! La parte importante è lo sviluppo di una comprensione dei benefici e difetti deegli strumenti che scegli di utilizzare, poiché virtualmente nessuno di essi ti proteggerà da ogni minaccia.
+In linea di massima, le nostre raccomandazioni sono suddivise in [minacce](threat-modeling.md) o obiettivi che si applicano alla maggior parte delle persone. ==Potresti essere interessato a nessuna, una, alcune o tutte queste possibilità==, e gli strumenti e servizi che utilizzi dipendono dai tuoi obiettivi. Potreste avere minacce specifiche anche al di fuori di queste categorie, il che è perfettamente normale! La parte importante è lo sviluppo di una comprensione dei benefici e difetti degli strumenti che scegli di utilizzare, poiché virtualmente nessuno di essi ti proteggerà da ogni minaccia.
 
 - <span class="pg-purple">:material-incognito: Anonimato</span> - Proteggono la tua attività online dalla tua identità reale, proteggendoti da persone che mirano a scoprire la *tua* identità nello specifico.
 - <span class="pg-red">:material-target-account: Attacchi mirati</span> - Protezione da hacker o altri malintenzionati, che mirano ad accedere ai *tuoi* dati o dispositivi, nello specifico.
@@ -25,13 +25,13 @@ L'anonimato viene spesso confuso con la privacy, ma si tratta di concetti distin
 
 Informatori e giornalisti, ad esempio, possono avere un modello di minaccia molto più estremo, che richiede il totale anonimato. Questo non prevede soltanto il nascondere ciò che fanno, quali dati possiedono e non subire violazioni da malintenzionati o governi, ma anche nascondere interamente chi sono. Spesso, sacrificheranno qualsiasi tipo di comodità per proteggere il proprio anonimato, la propria privacy o sicurezza, poiché le loro vite potrebbero dipendere da ciò. Gran parte delle persone non necessitano di così tanto.
 
-## Sicurezza e privacy
+## Sicurezza e Privacy
 
 <span class="pg-orange">:material-bug-outline: Attacchi Passivi</span>
 
 La sicurezza e la privacy sono spesso confuse, poiché necessiti di sicurezza per ottenere qualsiasi parvenza di privacy: utilizzare strumenti, anche se privati di design, è futile se, questi, potrebbero essere facilmente sfruttati dai malintenzionati che, in seguito, rilasceranno i tuoi dati. Tuttavia, l'opposto non è necessariamente vero: il servizio più sicuro al mondo *non è necessariamente* privato. Il migliore esempio è affidare i dati a Google che, date le sue dimensioni, ha subito pochi incidenti di sicurezza, assumendo esperti di sicurezza leader del settore, per proteggere la propria infrastruttura. Sebbene Google offra servizi molto sicuri, pochissime persone considererebbero privati i propri dati nei prodotti gratuiti di Google per i clienti (Gmail, YouTube, etc.)
 
-Per quanto riguarda la sicurezza delle applicazioni, generalmente, non sappiaamo (e talvolta non possiamo sapere) se il software che utilizziamo è dannoso, o se potrebbe un giorno diventarlo. Anche con gli sviluppatori più affidabili, generalmente non esiste alcuna garanzia che il loro software non presenti una grave vulnerabilità, che potrebbe essere successivamente sfruttata.
+Per quanto riguarda la sicurezza delle applicazioni, generalmente, non sappiamo (e talvolta non possiamo sapere) se il software che utilizziamo è dannoso, o se potrebbe un giorno diventarlo. Anche con gli sviluppatori più affidabili, generalmente non esiste alcuna garanzia che il loro software non presenti una grave vulnerabilità, che potrebbe essere successivamente sfruttata.
 
 Per minimizzare i danni che un software malevolo *potrebbe* causare, dovresti utilizzare la sicurezza per la compartimentazione. Ad esempio, ciò potrebbe presentarsi nell'utilizzo di computer differenti per lavori differenti, utilizzando macchine virtuali per separare i gruppi differenti di applicazioni correlate, o utilizzando un sistema operativo sicuro con una forte attenzione al sandboxing delle applicazioni e il controllo obbligatorio degli accessi.
 
@@ -41,7 +41,7 @@ Per minimizzare i danni che un software malevolo *potrebbe* causare, dovresti ut
     
     Generalmente, i sistemi operativi per desktop sono in ritardo, per l'adeguato sandboxing. ChromeOS ha funzionalità di sandboxing simili ad Android e macOS ha il pieno controllo delle autorizzazioni di sistema (e gli sviluppatori possono optare per il sandboxing delle applicazioni). Tuttavia, questi sistemi operativi trasmettono le informazioni identificativi ai rispettivi OEM. Linux tende a non inviare le informazioni ai fornitori del sistema, ma presenta una scarsa protezione da exploit e applicazioni dannose. Ciò si può in qualche modo mitigare con distribuzioni specializzate che fanno significativo utilizzo di macchine virtuali o contenitori, come [Qubes OS](../desktop.md#qubes-os).
 
-<span class="pg-red">:material-target-account: Attacchi mirati</span>
+<span class="pg-red">:material-target-account: Attacchi Mirati</span>
 
 Gli attacchi mirati contro una persona specifica sono più problematici da affrontare. Gli attacchi comuni includono l'invio di documenti dannosi via email, lo sfruttamento delle vulnerabilità (es., nei browser e nei sistemi operativi) e gli attacchi fisici. Se per voi queste sono preoccupazioni, dovresti impiegare strategie di mitigazione delle minacce più avanzate.
 
@@ -79,7 +79,7 @@ La sorveglianza di massa consiste nell'intricato sforzo di monitorare il "compor
 
 !!! abstract "Atlas of Surveillance"
 
-    Se desideri scoprire di più sui metodi di sorveglianza e su come sono implementati nella tua città, puoi anche consultare l'[Atlante di Sorveglianza](https://atlasofsurveillance.org/), della [Electronic Frontier Foundation](https://www.eff.org/).
+    Se vuoi saperne di più sui metodi di sorveglianza e su come vengono attuati nella tua città, puoi anche dare un'occhiata all'[Atlas of Surveillance](https://atlasofsurveillance.org/) della [Electronic Frontier Foundation](https://www.eff.org/).
     
     In Francia puoi consultare il [sito web della Technopolice](https://technopolice.fr/villes), mantenuto dall'associazione senza scopi di lucro 'La Quadrature du Net'.
 
@@ -117,7 +117,7 @@ Inoltre, anche le aziende esterne al settore *AdTech* o di tracciamento, possono
 
 Il modo migliore per mantenere privati i tuoi dati è, semplicemente, non renderli pubblici. Eliminare le informazioni indesiderate che trovi su di te online è uno dei migliori primi passi che puoi compiere per recuperare la tua privacy.
 
-- [Visualizza la nostra guida sull'eliminazione dei profiili :material-arrow-right-drop-circle:](account-deletion.md)
+- [Visualizza la nostra guida sull'eliminazione degli account :material-arrow-right-drop-circle:](account-deletion.md)
 
 Sui siti dove condividi informazioni, è molto importante controllare le impostazioni sulla privacy del tuo profilo, per limitare quanto ampiamente siano diffusi tali dati. Ad esempio, abilitare la "modalità privata" sui tuoi profili se possibile, assicurando che il tuo profilo non sia indicizzato dai motori di ricerca e che non sia visualizzabile senza la tua autorizzazione.
 
