@@ -142,7 +142,7 @@ On iOS, any app that can browse the web is [restricted](https://developer.apple.
 
 These options can be found in :gear: **Settings** → **Safari** → **Privacy and Security**.
 
-##### Cross-Site Tracking Prevention
+##### クロスサイト・トラッキングの防止
 
 - [x] Enable **Prevent Cross-Site Tracking**
 

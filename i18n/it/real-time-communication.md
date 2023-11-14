@@ -22,7 +22,7 @@ Queste app di messaggistica sono ottime per proteggere le tue comunicazioni sens
     
     **Signal** è un'app per dispositivi mobili sviluppata da Signal Messenger LLC. L'app offre messaggistica istantanea, oltre che chiamate e videochiamate.
     
-    Tutte le comunicazioni sono E2EE. Gli elenchi di contatti sono crittografati utilizzando il tuo PIN di Signal e il server non vi ha accesso. Inoltre, i profili personali sono crittografati e condivisi esclusivmente con i contatti con cui parli.
+    Tutte le comunicazioni sono E2EE. Gli elenchi di contatti sono crittografati utilizzando il tuo PIN di Signal e il server non vi ha accesso. Inoltre, i profili personali sono crittografati e condivisi esclusivamente con i contatti con cui parli.
     
     [:octicons-home-16: Home](https://signal.org/){ .md-button .md-button--primary }
     [:octicons-eye-16:](https://signal.org/legal/#privacy-policy){ .card-link title="Politica sulla Privacy" }
@@ -39,7 +39,7 @@ Queste app di messaggistica sono ottime per proteggere le tue comunicazioni sens
         - [:simple-apple: macOS](https://signal.org/it/download/macos)
         - [:simple-linux: Linux](https://signal.org/it/download/linux)
 
-Signal supporta i [gruppi privati](https://signal.org/blog/signal-private-group-system/). Il server non registra le appartenenze ai gruppi, i titoli, gli avatar o gli attributi dei gruppi. Signal ha metadati minimi quando [Mittente sigillato](https://signal.org/blog/sealed-sender/) è abilitato. L'indirizzo del mittente è crittografato insieme al corpo del messaggio e soltanto l'indirizzo del destinatario è visibile al server. Mittente Sigillato è abilitato esclusivamente per i tuoi contatti, ma è abilitabile per tutti i destinatari con il rischio incrementato di ricevere spam. Signal richiede il numero di telefono come identificativo personale.
+Signal supporta i [gruppi privati](https://signal.org/blog/signal-private-group-system/). Il server non registra le appartenenze ai gruppi, i titoli, gli avatar o gli attributi dei gruppi. Signal ha metadati minimi quando [Mittente sigillato](https://signal.org/blog/sealed-sender/) è abilitato. L'indirizzo del mittente è crittografato insieme al corpo del messaggio e soltanto l'indirizzo del destinatario è visibile al server. Mittente Sigillato è abilitato esclusivamente per i tuoi contatti, ma è attivabile per tutti i destinatari con il rischio incrementato di ricevere spam. Signal richiede il numero di telefono come identificativo personale.
 
 Il protocollo è stato [controllato](https://eprint.iacr.org/2016/1013.pdf) indipendentemente nel 2016. Le specifiche per il protocollo di Signal si possono trovare nella sua [documentazione](https://signal.org/docs/).
 
@@ -106,7 +106,7 @@ Briar supporta la Segretezza in Avanti utilizzando l'[Handshake](https://code.br
 
 !!! warning "Attenzione"
 
-    Queste app di messaggistica non dispongono della [Segretezza in Avanti](https://it.wikipedia.org/wiki/Forward_secrecy) e, sebbene soddisfino certe esigenze non soddisfatte dai nostri consigli precedenti, le sconsiglimo per le comunicazioni a lungo termine o sensibili. Qualsiasi compromissione di chiavi tra i destinatari del messaggio, influenzerebbe la confidenzialità di **tutte** le comunicazioni precedenti.
+    Queste app di messaggistica non dispongono della [Segretezza in Avanti](https://it.wikipedia.org/wiki/Forward_secrecy) e, sebbene soddisfino certe esigenze non soddisfatte dai nostri consigli precedenti, le sconsigliamo per le comunicazioni a lungo termine o sensibili. Qualsiasi compromissione di chiavi tra i destinatari del messaggio, influenzerebbe la confidenzialità di **tutte** le comunicazioni precedenti.
 
 ### Element
 
@@ -177,7 +177,7 @@ Session ha un [whitepaper](https://arxiv.org/pdf/2002.04609.pdf) che descrive le
 
 **Ti preghiamo di notare che non siamo affiliati con alcun progetto consigliato.** Oltre ai [nostri criteri standard](about/criteria.md), abbiamo sviluppato una serie chiara di requisiti per consentirci di fornire consigli oggettivi. Ti suggeriamo di familiarizzare con questo elenco prima di scegliere di utilizzare un progetto e di condurre le tue ricerche per assicurarti che si tratti della scelta adatta a te.
 
-!!! esempio "Questa sezione è nuova"
+!!! example "Questa sezione è nuova"
 
     Stiamo lavorando per stabilire i criteri definiti per ogni sezione del nostro sito e, questa, potrebbe essere soggetta a modifiche. Se hai qualsiasi domanda sui nostri criteri, ti preghiamo di [chiedere sul nostro forum](https://discuss.privacyguides.net/latest) e di non supporre che non abbiamo considerato qualcosa, formulando i nostri consigli, se non elencato qui. Molti fattori sono presi in considerazione e discussi quando consigliamo un progetto e la documentazione di ognuno è in lavorazione.
 

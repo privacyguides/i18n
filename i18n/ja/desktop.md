@@ -53,7 +53,7 @@ Tumbleweed follows a rolling release model where each update is released as a sn
     [:octicons-info-16:](https://wiki.archlinux.org/){ .card-link title=ドキュメンテーション}
     [:octicons-heart-16:](https://archlinux.org/donate/){ .card-link title=貢献 }
 
-Arch Linux has a rolling release cycle. There is no fixed release schedule and packages are updated very frequently.
+Arch Linuxには、ローリングリリースサイクルがあります。 There is no fixed release schedule and packages are updated very frequently.
 
 Being a DIY distribution, you are [expected to set up and maintain](os/linux-overview.md#arch-based-distributions) your system on your own. Arch has an [official installer](https://wiki.archlinux.org/title/Archinstall) to make the installation process a little easier.
 

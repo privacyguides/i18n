@@ -86,7 +86,7 @@ Native implementation of DoH showed up in iOS 14, macOS 11, Microsoft Windows, a
 
 In this example we will record what happens when we make a DoH request:
 
-1. First, start `tshark`:
+1. まず、 `tshark`を起動：
 
     ```bash
     tshark -w /tmp/dns_doh.pcap -f "tcp port https and host 1.1.1.1"
@@ -100,7 +100,7 @@ In this example we will record what happens when we make a DoH request:
 
 3. After making the request, we can stop the packet capture with <kbd>CTRL</kbd> + <kbd>C</kbd>.
 
-4. Analyse the results in Wireshark:
+4. Wiresharkで結果を分析：
 
     ```bash
     wireshark -r /tmp/dns_doh.pcap
@@ -177,7 +177,7 @@ We can simulate what a browser would do using the [`openssl`](https://en.wikiped
         sed -n '/^-*BEGIN/,/^-*END/p' > /tmp/pg_server.cert
     ```
 
-2. Get the intermediate certificate. [Certificate Authorities (CA)](https://en.wikipedia.org/wiki/Certificate_authority) normally don't sign a certificate directly; they use what is known as an "intermediate" certificate.
+2. 中間証明書を取得。 [Certificate Authorities (CA)](https://en.wikipedia.org/wiki/Certificate_authority) normally don't sign a certificate directly; they use what is known as an "intermediate" certificate.
 
     ```bash
     openssl s_client -showcerts -connect privacyguides.org:443 < /dev/null 2>&1 |
