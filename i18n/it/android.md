@@ -23,7 +23,7 @@ schema:
     name: GrapheneOS
     image: /assets/img/android/grapheneos.svg
     url: https://grapheneos.org/
-    sameAs: https://en.wikipedia.org/wiki/GrapheneOS
+    sameAs: https://it.wikipedia.org/wiki/GrapheneOS
     subjectOf:
       "@context": http://schema.org
       "@type": WebPage
