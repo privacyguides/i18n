@@ -6,50 +6,50 @@ description: Tor est un réseau décentralisé, gratuit, conçu pour utiliser In
 
 Tor est un réseau décentralisé, gratuit, conçu pour utiliser Internet avec le plus de confidentialité possible. S'il est utilisé correctement, le réseau permet une navigation et des communications privées et anonymes.
 
-## Safely Connecting to Tor
+## Se connecter en toute sécurité à Tor
 
-Before connecting to [Tor](../tor.md), you should carefully consider what you're looking to accomplish by using Tor in the first place, and who you're trying to hide your network activity from.
+Avant de vous connecter à [Tor](../tor.md), vous devriez soigneusement réfléchir à ce que vous cherchez à accomplir en utilisant Tor, et à qui vous essayez de cacher votre activité sur le réseau.
 
-If you live in a free country, are accessing mundane content via Tor, aren't worried about your ISP or local network administrators having the knowledge that you're using Tor, and want to help [de-stigmatize](https://2019.www.torproject.org/about/torusers.html.en) Tor usage, you can likely connect to Tor directly via standard means like [Tor Browser](../tor.md) without worry.
+Si vous vivez dans un pays libre, que vous accédez à du contenu banal via Tor, que vous ne craignez pas que votre FAI ou vos administrateurs de réseau local sachent que vous utilisez Tor, et que vous voulez aider [à déstigmatiser](https://2019.www.torproject.org/about/torusers.html.en) l'utilisation de Tor, vous pouvez probablement vous connecter à Tor directement via des moyens standards comme le [Navigateur Tor](../tor.md) sans inquiétude.
 
-If you have the ability to access a trusted VPN provider and **any** of the following are true, you almost certainly should connect to Tor through a VPN:
+Si vous avez la possibilité d'accéder à un fournisseur de VPN de confiance et que **l'un** des éléments suivants est vrai, vous devriez presque certainement vous connecter à Tor par le biais d'un VPN :
 
-- You already use a [trusted VPN provider](../vpn.md)
-- Your threat model includes an adversary which is capable of extracting information from your ISP
-- Your threat model includes your ISP itself as an adversary
-- Your threat model includes local network administrators before your ISP as an adversary
+- Vous utilisez déjà un [fournisseur VPN de confiance](../vpn.md)
+- Votre modèle de menace inclut un adversaire capable d'extraire des informations de votre FAI
+- Votre modèle de menace inclut votre FAI lui-même en tant qu'adversaire
+- Votre modèle de menace inclut les administrateurs de réseaux locaux avant votre FAI en tant qu'adversaire
 
-Because we already [generally recommend](../basics/vpn-overview.md) that the vast majority of people use a trusted VPN provider for a variety of reasons, the following recommendation about connecting to Tor via a VPN likely applies to you. <mark>There is no need to disable your VPN before connecting to Tor</mark>, as some online resources would lead you to believe.
+Parce que nous [recommandons généralement](../basics/vpn-overview.md) déjà que la grande majorité des gens utilisent un fournisseur de VPN de confiance pour diverses raisons, la recommandation suivante concernant la connexion à Tor via un VPN s'applique probablement à vous. <mark>Il n'est pas nécessaire de désactiver votre VPN avant de vous connecter à Tor</mark>, comme certaines ressources en ligne pourraient vous le faire croire.
 
-Connecting directly to Tor will make your connection stand out to any local network administrators or your ISP. Detecting and correlating this traffic [has been done](https://edition.cnn.com/2013/12/17/justice/massachusetts-harvard-hoax/) in the past by network administrators to identify and deanonymize specific Tor users on their network. On the other hand, connecting to a VPN is almost always less suspicious, because commercial VPN providers are used by everyday consumers for a variety of mundane tasks like bypassing geo-restrictions, even in countries with heavy internet restrictions.
+En vous connectant directement à Tor, vous vous distinguerez auprès des administrateurs de réseaux locaux ou de votre FAI. Detecting and correlating this traffic [has been done](https://edition.cnn.com/2013/12/17/justice/massachusetts-harvard-hoax/) in the past by network administrators to identify and deanonymize specific Tor users on their network. D'un autre côté, se connecter à un VPN est presque toujours moins suspect, parce que les fournisseurs de VPN commerciaux sont utilisés par les consommateurs de tous les jours pour une variété de tâches courantes telles que contourner les géo-restrictions, même dans les pays avec de lourdes restrictions d'Internet.
 
-Therefore, you should make an effort to hide your IP address **before** connecting to the Tor network. You can do this by simply connecting to a VPN (through a client installed on your computer) and then accessing [Tor](../tor.md) as normal, through Tor Browser for example. This creates a connection chain like:
+Par conséquent, vous devriez faire un effort pour cacher votre adresse IP **avant** de vous connecter au réseau Tor. Vous pouvez le faire simplement en vous connectant à un VPN (par le biais d'un client installé sur votre ordinateur) et en accédant à [Tor](../tor.md) comme d'habitude, par exemple via le Navigateur Tor. Cela crée une chaîne de connexion comme :
 
-- [x] You → VPN → Tor → Internet
+- [x] Vous → VPN → Tor → Internet
 
-From your ISP's perspective, it looks like you're accessing a VPN normally (with the associated cover that provides you). From your VPN's perspective, they can see that you are connecting to the Tor network, but nothing about what websites you're accessing. From Tor's perspective, you're connecting normally, but in the unlikely event of some sort of Tor network compromise, only your VPN's IP would be exposed, and your VPN would *additionally* have to be compromised to deanonymize you.
+Du point de vue de votre FAI, il semble que vous accédez à un VPN normalement (avec la protection associée que cela vous fourni). Du point de vue de votre VPN, il peut voir que vous vous connectez au réseau Tor, mais rien sur les sites web auxquels vous accédez. Du point de vue de Tor, vous vous connectez normalement, mais dans le cas improbable d'une compromission du réseau Tor, seule l'IP de votre VPN serait exposée, et votre VPN devrait être compromis *également* pour vous désanonymiser.
 
-This is **not** censorship circumvention advice, because if Tor is blocked entirely by your ISP, your VPN likely is as well. Rather, this recommendation aims to make your traffic blend in better with commonplace VPN user traffic, and provide you with some level of plausible deniability by obscuring the fact that you're connecting to Tor from your ISP.
-
----
-
-We **very strongly discourage** combining Tor with a VPN in any other manner. Do not configure your connection in a way which resembles any of the following:
-
-- You → Tor → VPN → Internet
-- You → VPN → Tor → VPN → Internet
-- Any other configuration
-
-Some VPN providers and other publications will occasionally recommend these **bad** configurations to evade Tor bans (exit nodes being blocked by websites) in some places. [Normally](https://support.torproject.org/#about_change-paths), Tor frequently changes your circuit path through the network. When you choose a permanent *destination* VPN (connecting to a VPN server *after* Tor), you're eliminating this advantage and drastically harming your anonymity.
-
-Setting up bad configurations like these is difficult to do accidentally, because it usually involves either setting up custom proxy settings inside Tor Browser, or setting up custom proxy settings inside your VPN client which routes your VPN traffic through the Tor Browser. As long as you avoid these non-default configurations, you're probably fine.
+Il ne s'agit **pas** de conseils de contournement de la censure, car si Tor est entièrement bloqué par votre FAI, votre VPN le sera probablement aussi. Cette recommandation vise plutôt à faire en sorte que votre trafic se fonde mieux dans le trafic banal des utilisateurs de VPN, et à vous fournir un certain niveau de déni plausible en masquant à votre FAI le fait que vous vous connectez à Tor.
 
 ---
 
-!!! info "VPN/SSH Fingerprinting"
+Nous **déconseillons fortement** de combiner Tor avec un VPN de toute autre manière. Ne configurez pas votre connexion d'une manière qui ressemble à l'une des suivantes :
 
-    The Tor Project [notes](https://gitlab.torproject.org/legacy/trac/-/wikis/doc/TorPlusVPN#vpnssh-fingerprinting) that *theoretically* using a VPN to hide Tor activities from your ISP may not be foolproof. VPNs have been found to be vulnerable to website traffic fingerprinting, where an adversary can still guess what website is being visited, because all websites have specific traffic patterns.
+- Vous → Tor → VPN → Internet
+- Vous → VPN → Tor → VPN → Internet
+- Toute autre configuration
+
+Certains fournisseurs de VPN et d'autres publications recommandent parfois ces **mauvaises configurations** pour éviter les interdictions de Tor (les nœuds de sortie étant bloqués par des sites web) dans certains endroits. [Normalement](https://support.torproject.org/#about_change-paths), Tor change fréquemment le chemin de votre circuit à travers le réseau. Lorsque vous choisissez un VPN comme *destination* permanente (en vous connectant à un serveur VPN *après* Tor), vous éliminez cet avantage et nuisez considérablement à votre anonymat.
+
+Il est difficile de mettre en place de mauvaises configurations comme celles-ci par accident, parce qu'elles impliquent généralement soit la mise en place de paramètres de proxy personnalisés dans le Navigateur Tor, soit la mise en place de paramètres de proxy personnalisés dans votre client VPN qui achemine votre trafic VPN à travers le Navigateur Tor. Tant que vous évitez ces configurations autres que celles par défaut, tout va bien.
+
+---
+
+!!! info "Empreinte numérique VPN/SSH"
+
+    Le Tor Project [mentionne](https://gitlab.torproject.org/legacy/trac/-/wikis/doc/TorPlusVPN#vpnssh-fingerprinting) que *théoriquement* l'utilisation d'un VPN pour cacher à votre FAI les activités Tor n'est pas forcément infaillible. Les VPNs se sont révélés vulnérables à la prise d'empreinte numérique du trafic des sites web, un adversaire pouvant toujours deviner quel site web est visité, car tous les sites web ont des schémas de trafic spécifiques.
     
-    Therefore, it's not unreasonable to believe that encrypted Tor traffic hidden by a VPN could also be detected via similar methods. There are no research papers on this subject, and we still consider the benefits of using a VPN to far outweigh these risks, but it is something to keep in mind.
+    Il n'est donc pas déraisonnable de penser que le trafic Tor chiffré caché par un VPN pourrait également être détecté par des méthodes similaires. Il n'existe aucun document de recherche sur ce sujet, et nous considérons toujours que les avantages de l'utilisation d'un VPN l'emportent largement sur ces risques, mais il s'agit d'un élément à garder à l'esprit.
     
     If you still believe that pluggable transports (bridges) provide additional protection against website traffic fingerprinting that a VPN does not, you always have the option to use a bridge **and** a VPN in conjunction.
 
