@@ -172,7 +172,7 @@ description: Privacy Guides 是最透明和可靠的網站，用於尋找保護�
 
 [了解更多 :material-arrow-right-drop-circle:](financial-services.md#gift-card-marketplaces)
 
-### Photo Management
+### 照片管理
 
 <div class="grid cards" markdown>
 
@@ -481,11 +481,11 @@ description: Privacy Guides 是最透明和可靠的網站，用於尋找保護�
 
 [了解更多 :material-arrow-right-drop-circle:](router.md)
 
-## Advanced Tools
+## 進階工具
 
-These tools may provide utility for certain individuals. They provide functionality which most people do not need to worry about, and often require more in-depth technical knowledge to utilize effectively.
+這些工具可能對某些人很實用。 它們提供了多數人用不到的功能，通常需要更深入的技術知識才能有效地利用。
 
-### Device Integrity Verification
+### 設備完整性驗證
 
 <div class="grid cards" markdown>
 

@@ -13,7 +13,7 @@ cover: calendar.webp
 
     ![Tuta logo](assets/img/calendar/tuta.svg){ align=right }
     
-    **Tuta** offers a free and encrypted calendar across their supported platforms. Features include: automatic E2EE of all data, sharing features, import/export functionality, multi-factor authentication, and [more](https://tuta.com/calendar-app-comparison/).
+    **Tuta** 在其支援平台上提供免費加密的行事曆。 功能包括：所有數據的自動E2EE ，共享功能，匯入/匯出功能，多因素驗證和 [more](https://tuta.com/calendar-app-comparison/)。
     
     多個行事曆和擴展共享功能僅限於付費訂閱者。
     
@@ -23,7 +23,7 @@ cover: calendar.webp
     [:octicons-code-16:](https://github.com/tutao/tutanota){ .card-link title="Source Code" }
     [:octicons-heart-16:](https://tuta.com/community/){ .card-link title=Contribute }
     
-    ??? downloads
+    ??? downloads "下載"
     
         - [:simple-googleplay: Google Play](https://play.google.com/store/apps/details?id=de.tutao.tutanota)
         - [:simple-appstore: App Store](https://apps.apple.com/us/app/tutanota/id922429609)

@@ -53,21 +53,21 @@ OAuth 是一種驗證協定可在註冊服務時無須對供應商分享註冊�
 
 主要優勢是：
 
-- **Security**: you don't have to trust the security practices of the service you're logging into when it comes to storing your login credentials, because they are stored with the external OAuth provider, which when it comes to services like Apple and Google typically follow the best security practices, continuously audit their authentication systems, and don't store credentials inappropriately (such as in plain text).
+- **安全性**: 在儲存登入憑證時，無須信任所登入服務的安全實踐，因為它們是儲存在外部OAuth 提供者。使用 Apple 和 Google 等服務時，通常會遵循最佳安全實踐，持續審核其身份驗證系統，妥當儲存憑證（例如不會以純文字形式）。
 - **易用性**：多個帳戶由單一登入管理。
 
 但也有一些缺陷：
 
 - **隱私**: OAuth 讓您利用已註冊的服務作登入新服務。
-- **Centralization**: if the account you use for OAuth is compromised, or you aren't able to log in to it, all other accounts connected to it are affected.
+- **集中化**: 如果您使用的 OAuth 帳戶被駭或是無法利用它登入，與之連結的其它帳戶也會受到影響。
 
-OAuth can be especially useful in those situations where you could benefit from deeper integration between services. 我們建議將 OAuth 限制在需要的地方，用 [MFA](multi-factor-authentication.md)來保護主帳戶。
+OAuth 在那些服務之間深度整合情況下，可以特別有用。 我們建議將 OAuth 限制在需要的地方，用 [MFA](multi-factor-authentication.md)來保護主帳戶。
 
-All the services that use OAuth will be as secure as your underlying OAuth provider's account. 例如，想用硬體密鑰保護某個帳戶，但該服務不支持硬體密鑰，則可用硬體密鑰保護您的 OAuth 帳戶，現在您所有帳戶基本上都有硬體 MFA。 但值得注意的是，OAuth 帳戶的弱認證意味著與該登入方式相關的其它帳戶也會很弱。
+所有使用 OAuth 的服務都將與您的基礎提供商帳戶一樣安全。 例如，想用硬體密鑰保護某個帳戶，但該服務不支持硬體密鑰，則可用硬體密鑰保護您的 OAuth 帳戶，現在您所有帳戶基本上都有硬體 MFA。 但值得注意的是，OAuth 帳戶的弱認證意味著與該登入方式相關的其它帳戶也會很弱。
 
-There is an additional danger when using *Sign in with Google*, *Facebook*, or another service, which is that typically the OAuth process allows for *bidirectional* data sharing. For example, logging in to a forum with your Twitter account could grant that forum access to do things on your Twitter account such as post, read your messages, or access other personal data. OAuth providers will typically present you with a list of things you are granting the external service access to, and you should always ensure that you read through that list and don't inadvertently grant the external service access to anything it doesn't require.
+使用* Google 登入*、*Facebook* 或其他服務時還有額外的危險，通常是OAuth 流程允許*雙向*資料共享。 例如，使用 Twitter 帳戶登入論壇可授予該論壇存取權限，以便在您的 Twitter 帳戶上執行操作，例如發佈、閱讀您的訊息或存取其他個人資料。 OAuth providers will typically present you with a list of things you are granting the external service access to, and you should always ensure that you read through that list and don't inadvertently grant the external service access to anything it doesn't require.
 
-Malicious applications, particularly on mobile devices where the application has access to the WebView session used for logging in to the OAuth provider, can also abuse this process by hijacking your session with the OAuth provider and gaining access to your OAuth account through those means. Using the *Sign in with* option with any provider should usually be considered a matter of convenience that you only use with services you trust to not be actively malicious.
+惡意應用程式（特別是行動裝置，它們可以用來存取登入OAuth 提供者的WebView 會話）也可以透過劫持與 OAuth 提供者的會話來取得對 OAuth 帳戶的存取權限。 Using the *Sign in with* option with any provider should usually be considered a matter of convenience that you only use with services you trust to not be actively malicious.
 
 ### 電話號碼
 

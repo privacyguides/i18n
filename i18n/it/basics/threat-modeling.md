@@ -53,7 +53,7 @@ La valutazione dei rischi è un procedimento personale e soggettivo. Molte perso
 
 Esistono molti modi in cui un avversario potrebbe ottenere l'accesso ai tuoi dati. Ad esempio, un avversario può leggere le tue comunicazioni private mentre passano per la rete, o può eliminare o corrompere i tuoi dati.
 
-==Le motivazioni degli avversari differiscono ampiamente, come le loro tattiche.== Un governo che prova a impedire la diffusione di un video che mostra la violenza della polizia, potrebbe essere contenuto, oppure potrebbe semplicemente essere eliminato o ridotto in disponibilità. Al contrario, un rivale politico potrebbe desiderare di ottenere accesso al contenuto segreto e pubblicarlo senza che tu lo sappia.
+==Le motivazioni degli avversari sono molto diverse, così come le loro tattiche.== Un governo che cerca di impedire la diffusione di un video che mostra la violenza della polizia può accontentarsi di cancellare o ridurre la disponibilità di quel video. Al contrario, un rivale politico potrebbe desiderare di ottenere accesso al contenuto segreto e pubblicarlo senza che tu lo sappia.
 
 La pianificazione della sicurezza comporta la comprensione di quanto negative potrebbero essere le conseguenze, se un avversario ottenesse l'accesso a una delle tue risorse. Per determinarle, dovresti considerare le capacità del tuo avversario. Ad esempio, il tuo fornitore di telefonia mobile ha accesso a tutti i tuoi registri telefonici. Un hacker su una rete Wi-Fi può accedere alle tue comunicazioni non crittografate. Il tuo governo potrebbe avere capacità maggiori.
 
