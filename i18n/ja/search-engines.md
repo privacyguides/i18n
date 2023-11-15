@@ -29,7 +29,7 @@ Consider using a [VPN](vpn.md) or [Tor](https://www.torproject.org/) if your thr
     [:octicons-eye-16:](https://search.brave.com/help/privacy-policy){ .card-link title="Privacy Policy" }
     [:octicons-info-16:](https://search.brave.com/help){ .card-link title=Documentation}
 
-Brave Search is based in the United States. Their [privacy policy](https://search.brave.com/help/privacy-policy) states they collect aggregated usage metrics, which includes the operating system and browser in use, however no personally identifiable information is collected. IP addresses are temporarily processed, but are not retained.
+Brave Searchは米国に拠点を置いています。 Their [privacy policy](https://search.brave.com/help/privacy-policy) states they collect aggregated usage metrics, which includes the operating system and browser in use, however no personally identifiable information is collected. IP addresses are temporarily processed, but are not retained.
 
 ## DuckDuckGo
 

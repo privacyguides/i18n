@@ -171,7 +171,7 @@ While we [recommend against](os/linux-overview.md#release-cycle) "perpetually ou
 
     ![Kicksecure logo](assets/img/linux-desktop/kicksecure.svg){ align=right }
     
-    **Kicksecure**—in oversimplified terms—is a set of scripts, configurations, and packages that substantially reduce the attack surface of Debian. It covers a lot of privacy and hardening recommendations by default. It also serves as the base OS for [Whonix](#whonix).
+    **Kicksecure**—in oversimplified terms—is a set of scripts, configurations, and packages that substantially reduce the attack surface of Debian. It covers a lot of privacy and hardening recommendations by default. また、 [Whonix](#whonix) のもとのOSとしても機能しています。
     
     [:octicons-home-16: Homepage](https://www.kicksecure.com/){ .md-button .md-button--primary }
     [:octicons-eye-16:](https://www.kicksecure.com/wiki/Privacy_Policy){ .card-link title="Privacy Policy" }

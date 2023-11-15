@@ -96,7 +96,7 @@ Whenever an application requests a permission, it will show up here. You can dec
 
 ##### 位置情報サービス
 
-You can individually allow location services per-app. If you don't need apps to use your location, turning off location services entirely is the most private option.
+位置情報サービスは、アプリごとに個別に許可できます。 If you don't need apps to use your location, turning off location services entirely is the most private option.
 
 - [ ] Uncheck **Location Services**
 
@@ -184,7 +184,7 @@ macOS apps downloaded from the App Store are required to be sandboxed usng the [
 
 ##### アンチウィルス
 
-macOS comes with two forms of malware defense:
+macOSには、2種類のマルウェア防御機能が付属しています。
 
 1. Protection against launching malware in the first place is provided by the App Store's review process for App Store applications, or *Notarization* (part of *Gatekeeper*), a process where third-party apps are scanned for known malware by Apple before they are allowed to run.
 2. Protection against other malware and remediation from existing malware on your system is provided by *XProtect*, a more traditional antivirus software built-in to macOS.

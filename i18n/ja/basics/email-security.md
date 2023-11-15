@@ -9,7 +9,7 @@ Email is an insecure form of communication by default. You can improve your emai
 
 As a result, email is best used for receiving transactional emails (like notifications, verification emails, password resets, etc.) from the services you sign up for online, not for communicating with others.
 
-## Email Encryption Overview
+## 電子メールの暗号化の概要
 
 The standard way to add E2EE to emails between different email providers is by using OpenPGP. There are different implementations of the OpenPGP standard, the most common being [GnuPG](https://en.wikipedia.org/wiki/GNU_Privacy_Guard) and [OpenPGP.js](https://openpgpjs.org).
 
@@ -37,7 +37,7 @@ A smartcard (such as a [YubiKey](https://support.yubico.com/hc/en-us/articles/36
 
 It is advantageous for the decryption to occur on the smartcard to avoid possibly exposing your private key to a compromised device.
 
-## Email Metadata Overview
+## 電子メールのメタデータの概要
 
 Email metadata is stored in the [message header](https://en.wikipedia.org/wiki/Email#Message_header) of the email message and includes some visible headers that you may have seen such as: `To`, `From`, `Cc`, `Date`, `Subject`. There are also a number of hidden headers included by many email clients and providers that can reveal information about your account.
 

@@ -260,7 +260,7 @@ Tuta [does not use OpenPGP](https://tuta.com/support/#pgp). Tuta accounts can on
 
 #### :material-information-outline:{ .pg-blue } アカウントの停止
 
-Tuta will [delete inactive free accounts](https://tuta.com/faq#inactive-accounts) after six months. You can reuse a deactivated free account if you pay.
+Tuta will [delete inactive free accounts](https://tuta.com/faq#inactive-accounts) after six months. 料金を払えば、停止された無料アカウントを再利用できます。
 
 #### :material-information-outline:{ .pg-blue } 追加機能
 

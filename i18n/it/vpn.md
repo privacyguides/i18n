@@ -233,11 +233,11 @@ Mullvad è molto trasparente su quali nodi [possiede o affitta](https://mullvad.
 
 ## Criteri
 
-!!! danger
+!!! danger "Attenzione"
 
     È importante notare che l'utilizzo di una VPN non ti rende anonimo, ma può migliorare la tua privacy in alcune situazioni. Una VPN non è uno strumento per attività illegali. Non affidarti ad una politica "no log".
 
-**Si prega di notare che non siamo affiliati a nessuno dei fornitori che raccomandiamo. Questo ci permette di fornire raccomandazioni completamente oggettive.** Abbiamo sviluppato un insieme di requisti chiari per ogni provider di VPN, tra cui una forte crittografia, controlli sulla sicurezza indipendenti, tecnologia moderna e altro. Ti suggeriamo di familiarizzare con questo elenco prima di scegliere un fornitore VPN e di condurre la tua ricerca per assicurarsi che il fornitore VPN che scegli sia il più affidabile possibile.
+**Si prega di notare che non siamo affiliati a nessuno dei fornitori che raccomandiamo. Ciò ci consente di fornire consigli completamente oggettivi.** Oltre ai [nostri criteri standard](about/criteria.md), abbiamo sviluppato una chiara serie di requisiti per qualsiasi fornitore di VPN che desideri essere consiglito, inclusi crittografia forte, controlli di sicurezza indipendenti, tecnologia moderna e altro. Ti suggeriamo di familiarizzare con questo elenco prima di scegliere un fornitore VPN e di condurre la tua ricerca per assicurarsi che il fornitore VPN che scegli sia il più affidabile possibile.
 
 ### Tecnologia
 
@@ -245,7 +245,7 @@ Richiediamo a tutti i nostri fornitori di VPN consigliati di fornire i file di c
 
 **Requisiti minimi:**
 
-- Supporto a protocolli forti, come WireGuard e OpenVPN.
+- Supporto per protocolli forti come WireGuard & OpenVPN.
 - Killswitch integrato nei client.
 - Supporto multihop. Il multihopping è importante per mantenere i dati privati nel caso in cui un nodo venisse compromesso.
 - Se vengono forniti client VPN, devono essere [open source](https://en.wikipedia.org/wiki/Open_source), come il software VPN che generalmente hanno incorporato. Crediamo che la disponibilità del [codice sorgente](https://en.wikipedia.org/wiki/Source_code) fornisca maggiore trasparenza su ciò che il dispositivo sta effettivamente facendo.
@@ -280,7 +280,7 @@ Una VPN è inutile se non è nemmeno in grado di fornire una sicurezza adeguata.
 
 - Schemi di crittografia forti: OpenVPN con autenticazione SHA-256; handshake RSA-2048 o migliore; crittografia dei dati AES-256-GCM o AES-256-CBC.
 - Segretezza in Avanti.
-- Audit sulla sicurezza pubblicati da un'azienda terza affidabile.
+- Controlli di sicurezza pubblicati da uno studio di terze parti affidabile.
 
 **Caso migliore:**
 
@@ -312,11 +312,11 @@ Con i fornitori VPN che consigliamo, vorremmo vedere del marketing responsabile.
 
 Non deve avere alcun marketing irresponsabile:
 
-- Garantire al 100% la protezione dell'anonimato. Quando qualcuno afferma che qualcosa è al 100% significa che non esiste fallimento. Sappiamo che le persone possono deanonimizzarsi facilmente in vari modi, ad es.:
+- Garantire al 100% la protezione dell'anonimato. Quando qualcuno afferma che qualcosa è al 100%, significa che non vi è certezza di fallimento. Sappiamo che le persone possono deanonimizzarsi facilmente in vari modi, ad es.:
     - Riutilizzo di informazioni personali, es. (profili email, pseudonimi univoci, etc.), accessibili senza software di anonimato (Tor, VPN, etc.)
     - [Browser fingerprinting](https://en.wikipedia.org/wiki/Device_fingerprint#Browser_fingerprint)
 - Sostenere che una VPN a circuito singolo sia "più anonima" di Tor, che è un circuito di tre o più salti, che cambiano regolarmente.
-- Utilizzare linguaggio responsabile: per esempio, è accettabile dire che la VPN è "disconnessa" o "non connessa", tuttavia affermare che un utente è "esposto", "vulnerabile" o "compromesso" può creare allarmismi incorretti e inutili. Ad esempio, quella persona potrebbe semplicemente scegliere un altro servizio VPN o utlizzare Tor.
+- Utilizzare linguaggio responsabile: per esempio, è accettabile dire che la VPN è "disconnessa" o "non connessa", tuttavia affermare che un utente è "esposto", "vulnerabile" o "compromesso" può creare allarmismi incorretti e inutili. Ad esempio, quella persona potrebbe semplicemente scegliere un altro servizio VPN o utilizzare Tor.
 
 **Caso migliore:**
 
@@ -327,4 +327,4 @@ Il marketing responsabile, che è sia educativo che utile per il consumatore, po
 
 ### Funzionalità aggiuntive
 
-Anche se non requisiti rigidi, ci sono alcuni fattori che abbiamo considerato nel determinare quali servizi consigliare. Questi includono la funzionalità di blocco degli annunci/tracciatori, Warrant Canary, connessioni a salto multiiplo, supporto clienti eccellente, il numero di connessioni simultanee consentite, etc.
+Anche se non requisiti rigidi, ci sono alcuni fattori che abbiamo considerato nel determinare quali servizi consigliare. Questi includono la funzionalità di blocco degli annunci/tracciatori, Warrant Canary, connessioni a salto multiplo, supporto clienti eccellente, il numero di connessioni simultanee consentite, etc.

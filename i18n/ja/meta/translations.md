@@ -14,13 +14,13 @@ Throughout the site we use MkDocs's [admonitions](https://squidfunk.github.io/mk
 
 When admonitions are used they will have an English string on the site by default. This can be [customized](https://squidfunk.github.io/mkdocs-material/reference/admonitions/#changing-the-title), without too much effort. For example, if you were translating an admonition of type [`warning`](https://squidfunk.github.io/mkdocs-material/reference/admonitions/#type:warning) to Dutch, this is how you would write it:
 
-=== "Dutch translation"
+=== "オランダ語翻訳"
 
     ```text
     !!! warning "Waarschuwing"
     ```
 
-=== "English source text"
+=== "英語の原文"
 
     ```text
     !!! 警告
@@ -28,13 +28,13 @@ When admonitions are used they will have an English string on the site by defaul
 
 Downloads are a [custom admonition](https://squidfunk.github.io/mkdocs-material/reference/admonitions/#custom-admonitions) which is written as follows:
 
-=== "Dutch translation"
+=== "オランダ語翻訳"
 
     ```text
     ??? downloads "Downloaden"
     ```
 
-=== "English source text"
+=== "英語の原文"
 
     ```text
     ??? downloads
@@ -44,13 +44,13 @@ The same goes for other types, such as `tip`, `example`, `warning`, `danger` etc
 
 Recommendations are a special type of admonition which do **not** need overriding as they have no visible text, so they are never changed:
 
-=== "Dutch translation"
+=== "オランダ語翻訳"
 
     ```text
     !!! recommendation
     ```
 
-=== "English source text"
+=== "英語の原文"
 
     ```text
     !!! recommendation

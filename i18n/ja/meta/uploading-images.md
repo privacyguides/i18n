@@ -60,7 +60,7 @@ In the **SVG Output** under **Pretty-printing**:
 - **Depth of indentation** > **1**
 - [ ] Turn off **Strip the "xml:space" attribute from the root SVG element**
 
-In the **IDs** tab:
+**ID**タブでは、
 
 - [x] Turn on **Remove unused IDs**
 - [ ] Turn off **Shorten IDs**

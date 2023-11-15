@@ -1,5 +1,5 @@
 ---
-meta_title: "The Best Private Instant Messengers - Privacy Guides"
+meta_title: "最高のプライベートインスタントメッセンジャー - Privacy Guides"
 title: "リアルタイムコミュニケーション"
 icon: material/chat-processing
 description: Other instant messengers make all of your private conversations available to the company that runs them.

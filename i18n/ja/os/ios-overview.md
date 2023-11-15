@@ -67,7 +67,7 @@ At the top of the **Settings** app, you'll see your name and profile picture if 
 
 Many other privacy-related settings can be found in the **Settings** app.
 
-#### Airplane Mode
+#### 機内モード
 
 Enabling **Airplane Mode** stops your phone from contacting cell towers. You will still be able to connect to Wi-Fi and Bluetooth, so whenever you are connected to Wi-Fi you can turn this setting on.
 

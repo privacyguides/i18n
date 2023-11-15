@@ -30,7 +30,7 @@ schema:
             Focusing solely on the privacy policies and marketing of a tool or provider can blind you to its weaknesses. When you're looking for a more private solution, you should determine what the underlying problem is and find technical solutions to that problem. For example, you may want to avoid Google Drive, which gives Google access to all of your data. The underlying problem in this case is lack of E2EE, so you should make sure that the provider you switch to actually implements E2EE, or use a tool (like Cryptomator) which provides E2EE on any cloud provider. Switching to a "privacy-focused" provider (that doesn't implement E2EE) doesn't solve your problem: it just shifts trust from Google to that provider.
       - 
         "@type": Question
-        name: How complicated should my threat model be?
+        name: 脅威モデルが複雑であるべき程度
         acceptedAnswer:
           "@type": Answer
           text: |

@@ -152,7 +152,7 @@ This enables WebKit's [Intelligent Tracking Protection](https://webkit.org/track
 
 Privacy Report provides a snapshot of cross-site trackers currently prevented from profiling you on the website you're visiting. It can also display a weekly report to show which trackers have been blocked over time.
 
-Privacy Report is accessible via the Page Settings menu.
+プライバシーレポートには、ページ設定メニューからアクセスできます。
 
 ##### Privacy Preserving Ad Measurement
 
