@@ -158,7 +158,7 @@ Bien que Tor offre de solides garanties de confidentialité, il faut être consc
 
 - Tor ne vous protège jamais contre le risque de vous exposer par erreur, par exemple si vous partagez trop d'informations sur votre identité réelle.
 - Les nœuds de sortie de Tor peuvent **modifier** le trafic non chiffré qui passe par eux. Cela signifie que le trafic non chiffré, tel que le trafic HTTP ordinaire, peut être modifié par un nœud de sortie malveillant. Ne téléchargez **jamais** des fichiers à partir d'un site web non chiffré `http://` via Tor, et assurez-vous que votre navigateur est configuré de manière à toujours mettre à niveau le trafic HTTP vers HTTPS.
-- Les nœuds de sortie de Tor peuvent également surveiller le trafic qui passe par eux. Le trafic non chiffré qui contient des informations personnellement identifiables peut vous désanonymiser jusqu'à ce nœud de sortie. Again, we recommend only using HTTPS over Tor.
+- Les nœuds de sortie de Tor peuvent également surveiller le trafic qui passe par eux. Le trafic non chiffré qui contient des informations personnellement identifiables peut vous désanonymiser jusqu'à ce nœud de sortie. Encore une fois, nous recommandons de n'utiliser que HTTPS via Tor.
 - Powerful adversaries with the capability to passively watch *all* network traffic around the globe ("Global Passive Adversaries") are **not** something that Tor protects you against (and using Tor [with a VPN](#safely-connecting-to-tor) doesn't change this fact).
 - Well-funded adversaries with the capability to passively watch *most* network traffic around the globe still have a *chance* of deanonymizing Tor users by means of advanced traffic analysis.
 
