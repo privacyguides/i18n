@@ -79,12 +79,12 @@ Il est essentiel de comprendre la différence entre contourner la censure et éc
 
 L'anonymat est souvent en contradiction avec la sécurité : L'anonymat de Tor exige que chaque utilisateur soit identique, ce qui crée une monoculture (les mêmes bugs sont présents chez tous les utilisateurs du navigateur Tor). En matière de cybersécurité, les monocultures sont généralement considérées comme mauvaises : la sécurité par la diversité (qui fait défaut à Tor) permet une segmentation naturelle en limitant les vulnérabilités à des groupes plus restreints, et est donc généralement souhaitable, mais cette diversité est également moins bonne pour l'anonymat.
 
-Additionally, Tor Browser is based on Firefox's Extended Support Release builds, which only receives patches for vulnerabilities considered *Critical* and *High* (not *Medium* and *Low*). This means that attackers could (for example):
+En outre, le Navigateur Tor est basé sur les versions Extended Support Release de Firefox, qui ne reçoivent des correctifs que pour les vulnérabilités considérées comme *Critique* et *Élevée* (et non pour celles *Moyenne* et *Faible*). Cela signifie que les attaquants pourraient (par exemple) :
 
-1. Look for new Critical/High vulnerabilities in Firefox nightly or beta builds, then check if they are exploitable in Tor Browser (this vulnerability period can last weeks).
-2. Chain *multiple* Medium/Low vulnerabilities together until they get the level of access they're looking for (this vulnerability period can last months or longer).
+1. Rechercher les nouvelles vulnérabilités Critique/Élevée dans les versions nightly ou bêta de Firefox, puis vérifier si elles sont exploitables dans le navigateur Tor (cette période de vulnérabilité peut durer des semaines).
+2. Enchaîner *plusieurs * vulnérabilités Moyenne/Faible jusqu'à ce qu'ils obtiennent le niveau d'accès qu'ils recherchent (cette période de vulnérabilité peut durer des mois ou plus).
 
-Those at risk of browser vulnerabilities should consider additional protections to defend against Tor Browser exploits, such as using Whonix in [Qubes](../os/qubes-overview.md) to contain your Tor browsing in a secure VM and protect against leaks.
+Les personnes exposées aux vulnérabilités des navigateurs devraient envisager des protections supplémentaires pour se défendre contre les exploits du Navigateur Tor, comme l'utilisation de Whonix dans [Qubes](../os/qubes-overview.md) pour contenir votre navigation Tor dans une VM sécurisée et la protéger contre les fuites.
 
 ## Création de chemins vers les services de surface
 
@@ -156,9 +156,9 @@ Tor nous permet de nous connecter à un serveur sans que personne ne connaisse l
 
 Bien que Tor offre de solides garanties de confidentialité, il faut être conscient que Tor n'est pas parfait:
 
-- Tor never protects you from exposing yourself by mistake, such as if you share too much information about your real identity.
-- Tor exit nodes can **modify** unencrypted traffic which passes through them. This means traffic which is not encrypted, such as plain HTTP traffic, can be changed by a malicious exit node. **Never** download files from an unencrypted `http://` website over Tor, and ensure your browser is set to always upgrade HTTP traffic to HTTPS.
-- Les nœuds de sortie de Tor peuvent également surveiller le trafic qui passe par eux. Unencrypted traffic which contains personally identifiable information can deanonymize you to that exit node. Again, we recommend only using HTTPS over Tor.
+- Tor ne vous protège jamais contre le risque de vous exposer par erreur, par exemple si vous partagez trop d'informations sur votre identité réelle.
+- Les nœuds de sortie de Tor peuvent **modifier** le trafic non chiffré qui passe par eux. Cela signifie que le trafic non chiffré, tel que le trafic HTTP ordinaire, peut être modifié par un nœud de sortie malveillant. Ne téléchargez **jamais** des fichiers à partir d'un site web non chiffré `http://` via Tor, et assurez-vous que votre navigateur est configuré de manière à toujours mettre à niveau le trafic HTTP vers HTTPS.
+- Les nœuds de sortie de Tor peuvent également surveiller le trafic qui passe par eux. Le trafic non chiffré qui contient des informations personnellement identifiables peut vous désanonymiser jusqu'à ce nœud de sortie. Again, we recommend only using HTTPS over Tor.
 - Powerful adversaries with the capability to passively watch *all* network traffic around the globe ("Global Passive Adversaries") are **not** something that Tor protects you against (and using Tor [with a VPN](#safely-connecting-to-tor) doesn't change this fact).
 - Well-funded adversaries with the capability to passively watch *most* network traffic around the globe still have a *chance* of deanonymizing Tor users by means of advanced traffic analysis.
 
