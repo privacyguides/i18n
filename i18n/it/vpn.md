@@ -2,7 +2,7 @@
 meta_title: "Consigli e confronto sui servizi VPN privati, senza sponsor o pubblicità - Privacy Guides"
 title: "Servizi VPN"
 icon: material/vpn
-description: Questi sono i migliori servizi VPN per proteggere la tua privacy e sicurezza online. Trovate un fornitore che non ti spii.
+description: Questi sono i migliori servizi VPN per proteggere la tua privacy e sicurezza online. Trova qui un fornitore che non ti spii.
 cover: vpn.webp
 ---
 
@@ -40,10 +40,10 @@ I nostri fornitori consigliati utilizzano la crittografia, accettano Monero, sup
     
     **Proton VPN** è un forte concorrente nel settore delle VPN, ed è operativo dal 2016. Proton AG ha sede in Svizzera e offre un livello gratuito limitato, così come un'opzione premium più ricca di funzioni.
     
-    [:octicons-home-16: Homepage](https://protonvpn.com/){ .md-button .md-button--primary }
-    [:octicons-eye-16:](https://protonvpn.com/privacy-policy){ .card-link title="Privacy Policy" }
-    [:octicons-info-16:](https://protonvpn.com/support/){ .card-link title=Documentation}
-    [:octicons-code-16:](https://github.com/ProtonVPN){ .card-link title="Source Code" }
+    [:octicons-home-16: Pagina Principale](https://protonvpn.com/){ .md-button .md-button--primary }
+    [:octicons-eye-16:](https://protonvpn.com/privacy-policy){ .card-link title="Politica sulla Privacy " }
+    [:octicons-info-16:](https://protonvpn.com/support/){ .card-link title=Documentazione}
+    [:octicons-code-16:](https://github.com/ProtonVPN){ .card-link title="Codice Sorgente" }
     
     ??? downloads "Scarica"
     
@@ -62,11 +62,11 @@ Proton VPN ha [server in 68 paesi](https://protonvpn.com/vpn-servers).(1) Selezi
 
 Riteniamo inoltre che sia meglio per la sicurezza delle chiavi private del provider VPN utilizzare [server dedicati](https://en.wikipedia.org/wiki/Dedicated_hosting_service), invece di soluzioni condivise più economiche (con altri clienti) come [server privati virtuali](https://en.wikipedia.org/wiki/Virtual_private_server).
 
-#### :material-check:{ .pg-green } Audit indipendente
+#### :material-check:{ .pg-green } Controllato Indipendentemente
 
-Nel mese di gennaio del 2020, Proton VPN è stato sottoposto ad un audit indipendente da parte di SEC Consult. SEC Consult ha trovato alcune vulnerabilità di rischio basso e medio nelle appliczioni Windows, Android e iOS di Proton VPN, tutti "corretti adeguatamente" da Proton VPN prima della pubblicazione dei rapporti. Nessuno dei problemi identificati avrebbe fornito a un malintenzionato l'accesso remoto al tuo dispositivo o traffico. Puoi visualizzare i rapporti singoli per ogni piattaforma su [protonvpn.com](https://protonvpn.com/blog/open-source/). Ad aprile 2022, Proton VPN è stato sottoposto a [un altro controllo](https://protonvpn.com/blog/no-logs-audit/) e il rapporto è stato [prodotto da Securitum](https://protonvpn.com/blog/wp-content/uploads/2022/04/securitum-protonvpn-nologs-20220330.pdf). Una [lettera di attestazione](https://proton.me/blog/security-audit-all-proton-apps) è stata fornita per le app di Proton VPN, il 9 novembre 2021, da [Securitum](https://research.securitum.com).
+A gennaio 2020, Proton VPN è stato sottoposto a un controllo indipendente da SEC Consult. SEC Consult ha trovato alcune vulnerabilità di rischio basso e medio nelle applicazioni Windows, Android e iOS di Proton VPN, tutti "corretti adeguatamente" da Proton VPN prima della pubblicazione dei rapporti. Nessuno dei problemi identificati avrebbe fornito a un malintenzionato l'accesso remoto al tuo dispositivo o traffico. Puoi visualizzare i rapporti singoli per ogni piattaforma su [protonvpn.com](https://protonvpn.com/blog/open-source/). Ad aprile 2022, Proton VPN è stato sottoposto a [un altro controllo](https://protonvpn.com/blog/no-logs-audit/) e il rapporto è stato [prodotto da Securitum](https://protonvpn.com/blog/wp-content/uploads/2022/04/securitum-protonvpn-nologs-20220330.pdf). Una [lettera di attestazione](https://proton.me/blog/security-audit-all-proton-apps) è stata fornita per le app di Proton VPN, il 9 novembre 2021, da [Securitum](https://research.securitum.com).
 
-#### :material-check:{ .pg-green } Client Open-Source
+#### :material-check:{ .pg-green } Client Open Source
 
 Proton VPN fornisce il codice sorgente per i propri client desktop e mobile, nella loro [organizzazione di GitHub](https://github.com/ProtonVPN).
 
@@ -92,9 +92,9 @@ Oltre a fornire i file di configurazione standard di OpenVPN, ProtonVPN ha clien
 
 I client di ProtonVPN supportano l'autenticazione a due fattori su tutte le piattaforme, tranne Linux, al momento. Proton VPN ha i propri server e datacenter in Svizzera, Islanda e Svezia. Offrono il blocco delle pubblicità e dei domini malware noti mediante il loro servizio DNS. Inoltre, Proton VPN offre anche server "Tor" che consentono di connettersi facilmente ai siti onion, ma consigliamo comunque di utilizzare [il browser Tor ufficiale](https://www.torproject.org/) per questo scopo.
 
-#### :material-alert-outline:{ .pg-orange } La funzionalità di Interruttore d'Emergenza non funziona sui Mac basati su Intel
+#### :material-alert-outline:{ .pg-orange } La funzione Killswitch non funziona sui Mac basati su Intel
 
-[Potrebbero verificarsi](https://protonvpn.com/support/macos-t2-chip-kill-switch/) degli arresti anomali sui Mac basati su Intel, utilizzando l'Interruttore d'Emergenza della VPN. Se necessiti di questa funzionalità e stai utilizzando un Mac con chipset Intel, dovresti considerare l'utilizzo di un altro servizio VPN.
+Arresti anomali del sistema [potrebbero verificarsi](https://protonvpn.com/support/macos-t2-chip-kill-switch/) sui Mac basati su Intel quando si utilizza la funzionalità killswitch VPN. Se necessiti di questa funzionalità e stai utilizzando un Mac con chipset Intel, dovresti considerare l'utilizzo di un altro servizio VPN.
 
 ### IVPN
 
@@ -104,10 +104,10 @@ I client di ProtonVPN supportano l'autenticazione a due fattori su tutte le piat
     
     **IVPN** è un altro fornitore di VPN premium, in operazione dal 2009. IVPN ha sede in Gibilterra.
     
-    [:octicons-home-16: Homepage](https://www.ivpn.net/){ .md-button .md-button--primary }
-    [:octicons-eye-16:](https://www.ivpn.net/privacy/){ .card-link title="Privacy Policy" }
-    [:octicons-info-16:](https://www.ivpn.net/knowledgebase/general/){ .card-link title=Documentation}
-    [:octicons-code-16:](https://github.com/ivpn){ .card-link title="Source Code" }
+    [:octicons-home-16: Pagina principale](https://crypt.ee){ .md-button .md-button--primary }
+    [:octicons-eye-16:](https://crypt.ee/privacy){ .card-link title="Politica sulla privacy" }
+    [:octicons-info-16:](https://www.ivpn.net/knowledgebase/general){ .card-link title=Documentazione}
+    [:octicons-code-16:](https://github.com/ivpn){ .card-link title="Codice sorgente" }
     
     ??? downloads "Scarica"
     
@@ -131,7 +131,7 @@ Riteniamo inoltre che sia meglio per la sicurezza delle chiavi private del provi
 
 IVPN è stata sottoposta a un [controllo di non registrazione da Cure53](https://cure53.de/audit-report_ivpn.pdf), che si è concluso in accordo con la dichiarazione di non registrazione di IVPN. Inoltre, IVPN ha completato un [rapporto di cinque test completi di Cure53](https://cure53.de/summary-report_ivpn_2019.pdf) a gennaio 2020. IVPN ha inoltre dichiarato di avere in programma per il futuro dei [rapporti annuali](https://www.ivpn.net/blog/independent-security-audit-concluded). Un'ulteriore revisione è stata condotta [ad aprile 2022](https://www.ivpn.net/blog/ivpn-apps-security-audit-2022-concluded/) ed è stata prodotta da Cure53 [sul loro sito web](https://cure53.de/pentest-report_IVPN_2022.pdf).
 
-#### :material-check:{ .pg-green } Client Open-Source
+#### :material-check:{ .pg-green } Client Open Source
 
 A partire da febbraio 2020 [le applicazioni IVPN sono ora open source](https://www.ivpn.net/blog/ivpn-applications-are-now-open-source). Il codice sorgente è ottenibile dalla loro [organizzazione di GitHub](https://github.com/ivpn).
 
@@ -189,7 +189,7 @@ Mullvad ha [server in 43 paesi](https://mullvad.net/servers/).(1) Selezionare un
 
 Riteniamo inoltre che sia meglio per la sicurezza delle chiavi private del provider VPN se utilizzano [server dedicati](https://en.wikipedia.org/wiki/Dedicated_hosting_service), invece di soluzioni condivise più economiche (con altri clienti) come [server privati virtuali](https://en.wikipedia.org/wiki/Virtual_private_server).
 
-#### :material-check:{ .pg-green } Audit indipendente
+#### :material-check:{ .pg-green } Controllato Indipendentemente
 
 I client VPN di Mullvad sono stati controllati da Cure53 e Assured AB in un rapporto da cinque test, [pubblicato su cure53.de](https://cure53.de/pentest-report_mullvad_v2.pdf). I ricercatori della sicurezza hanno dichiarato:
 
@@ -197,11 +197,11 @@ I client VPN di Mullvad sono stati controllati da Cure53 e Assured AB in un rapp
 
 Nel 2020 [è stato annunciato](https://mullvad.net/blog/2020/6/25/results-available-audit-mullvad-app/) un secondo controllo e il [rapporto di controllo finale](https://cure53.de/pentest-report_mullvad_2020_v2.pdf) è stato reso disponibile sul sito web di Cure53:
 
-> I risultati di questo progetto di maggio-giugno 2020, rivolto al complesso di Mullvad, sono abbastanza positivi. [...] L'ecosistema applicativo complessivo utilizzato da Mullvad lascia un'impressione solida e strutturata. La struttura generale dell'applicazione semplifica l'introduzione di patch e correzioni, in un modo strutturato. Più di ogni altra cosa, i risultati individuati da Cure53 rivelano l'importanza di controllare e rivalutare costantamente i vettori di fuga di notizie attuali, per poter sempre assicurare la privacy degli utenti finali. Detto questo, Mullvad fa un ottimo lavoro nel proteggere l'utente finale dalle comuni perdite di informazioni d'identificazione personale e i relativi rischi legati alla privacy.
+> I risultati di questo progetto di maggio-giugno 2020, rivolto al complesso di Mullvad, sono abbastanza positivi. [...] L'ecosistema applicativo complessivo utilizzato da Mullvad lascia un'impressione solida e strutturata. La struttura generale dell'applicazione semplifica l'introduzione di patch e correzioni, in un modo strutturato. Più di ogni altra cosa, i risultati individuati da Cure53 rivelano l'importanza di controllare e rivalutare costantemente i vettori di fuga di notizie attuali, per poter sempre assicurare la privacy degli utenti finali. Detto questo, Mullvad fa un ottimo lavoro nel proteggere l'utente finale dalle comuni perdite di informazioni d'identificazione personale e i relativi rischi legati alla privacy.
 
 Nel 2021, [è stato annunciato](https://mullvad.net/en/blog/2021/1/20/no-pii-or-privacy-leaks-found-cure53s-infrastructure-audit/) un controllo dell'infrastrutturaa e il [rapporto finale del controllo](https://cure53.de/pentest-report_mullvad_2021_v1.pdf)è staato reso disponibile sul sito web di Cure53. Un altro rapporto è stato commissionato [a giugno 2022](https://mullvad.net/en/blog/2022/6/22/vpn-server-audit-found-no-information-leakage-or-logging-of-customer-data/) ed è disponibile sul [sito web di Assured](https://www.assured.se/publications/Assured_Mullvad_relay_server_audit_report_2022.pdf).
 
-#### :material-check:{ .pg-green } Client Open-Source
+#### :material-check:{ .pg-green } Client Open Source
 
 Mullvad fornisce il codice sorgente per i propri client desktop e mobili nella loro [organizzazione di GitHub](https://github.com/mullvad/mullvadvpn-app).
 
@@ -217,7 +217,7 @@ Mullvad [consiglia](https://mullvad.net/en/help/why-wireguard/) l'utilizzo di Wi
 
 #### :material-check:{ .pg-green } Supporto IPv6
 
-Mullvad ti consente di [accedeere ai servizi ospitati su IPv6](https://mullvad.net/en/blog/2014/9/15/ipv6-support/), a differenza di altri fornitori che bloccano le connessioni IPv6.
+Mullvad ti consente di [accedere ai servizi ospitati su IPv6](https://mullvad.net/en/blog/2014/9/15/ipv6-support/), a differenza di altri fornitori che bloccano le connessioni IPv6.
 
 #### :material-alert-outline:{ .pg-orange } Port Forwarding Remoto
 
@@ -248,7 +248,7 @@ Richiediamo a tutti i nostri fornitori di VPN consigliati di fornire i file di c
 - Supporto a protocolli forti, come WireGuard e OpenVPN.
 - Killswitch integrato nei client.
 - Supporto multihop. Il multihopping è importante per mantenere i dati privati nel caso in cui un nodo venisse compromesso.
-- Se vengono forniti client VPN, devono essere [open-source](https://en.wikipedia.org/wiki/Open_source), come il software VPN che generalmente hanno incorporato. Crediamo che la disponibilità del [codice sorgente](https://en.wikipedia.org/wiki/Source_code) fornisca maggiore trasparenza su ciò che il dispositivo sta effettivamente facendo.
+- Se vengono forniti client VPN, devono essere [open source](https://en.wikipedia.org/wiki/Open_source), come il software VPN che generalmente hanno incorporato. Crediamo che la disponibilità del [codice sorgente](https://en.wikipedia.org/wiki/Source_code) fornisca maggiore trasparenza su ciò che il dispositivo sta effettivamente facendo.
 
 **Caso migliore:**
 

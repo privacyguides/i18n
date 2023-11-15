@@ -17,14 +17,14 @@ Per ulteriori dettagli su ogni progetto, perché è stato scelto e ulteriori con
 
 <div class="grid cards annotate" markdown>
 
-- ![Tor Browser logo](assets/img/browsers/tor.svg){ .twemoji } [Tor Browser](tor.md#tor-browser)
-- ![Orbot logo](assets/img/self-contained-networks/orbot.svg){ .twemoji } [Orbot (Smartphone Tor Proxy)](tor.md#orbot)
-- ![Onion Browser logo](assets/img/self-contained-networks/onion_browser.svg){ .twemoji } [Onion Browser (Tor per iOS)](tor.md#onion-browser)
-- ![LogoSnowflake logo](assets/img/browsers/snowflake.svg#only-light){ .twemoji }![Snowflake logo](assets/img/browsers/snowflake-dark.svg#only-dark){ .twemoji } [Snowflake](tor.md#snowflake) (1)
+- ![Logo di Tor Browser](assets/img/browsers/tor.svg){ .twemoji } [Tor Browser](tor.md#tor-browser)
+- ![Logo di Orbot](assets/img/self-contained-networks/orbot.svg){ .twemoji } [Orbot (Proxy Tor per Smartphone)](tor.md#orbot)
+- ![Logo di Onion Browser](assets/img/self-contained-networks/onion_browser.svg){ .twemoji } [Onion Browser (Tor per iOS)](tor.md#onion-browser)
+- ![Logo di Snowflake](assets/img/browsers/snowflake.svg#only-light){ .twemoji }![Logo di Snowflake](assets/img/browsers/snowflake-dark.svg#only-dark){ .twemoji } [Snowflake](tor.md#snowflake) (1)
 
 </div>
 
-1. Snowflake non incrementa la privacy, tuttavia, ti consente di contribuire facilmente alla rete di Tor e di aiutaare persone su reti censurate, a ottenere una migliore privacy.
+1. Snowflake non incrementa la privacy, tuttavia, ti consente di contribuire facilmente alla rete di Tor e di aiutare persone su reti censurate, a ottenere una migliore privacy.
 
 [Scopri di più :material-arrow-right-drop-circle:](tor.md)
 
@@ -131,8 +131,8 @@ Per ulteriori dettagli su ogni progetto, perché è stato scelto e ulteriori con
 
 <div class="grid cards" markdown>
 
-- ![logo di addy.io](assets/img/email/mini/addy.svg){ .twemoji } [addy.io](email.md#addyio)
-- ![logo di SimpleLogin](assets/img/email/simplelogin.svg){ .twemoji } [SimpleLogin](email.md#simplelogin)
+- ![Logo di addy.io](assets/img/email/mini/addy.svg){ .twemoji } [addy.io](email.md#addyio)
+- ![Logo di SimpleLogin](assets/img/email/simplelogin.svg){ .twemoji } [SimpleLogin](email.md#simplelogin)
 
 </div>
 
@@ -176,9 +176,9 @@ Per ulteriori dettagli su ogni progetto, perché è stato scelto e ulteriori con
 
 <div class="grid cards" markdown>
 
-- ![Ente logo](assets/img/photo-management/ente.svg#only-light){ .twemoji }![Ente logo](assets/img/photo-management/ente.svg#only-dark){ .twemoji } [Ente](photo-management.md#ente)
-- ![Stingle logo](assets/img/photo-management/stingle.png#only-light){ .twemoji }![Stingle logo](assets/img/photo-management/stingle-dark.png#only-dark){ .twemoji } [Stingle](photo-management.md#stingle)
-- ![PhotoPrism logo](assets/img/photo-management/photoprism.svg){ .twemoji } [PhotoPrism](photo-management.md#photoprism)
+- ![Logo di Ente](assets/img/photo-management/ente.svg#only-light){ .twemoji }![Logo di Ente](assets/img/photo-management/ente.svg#only-dark){ .twemoji } [Ente](photo-management.md#ente)
+- ![Logo di Stingle](assets/img/photo-management/stingle.png#only-light){ .twemoji }![Logo di Stingle](assets/img/photo-management/stingle-dark.png#only-dark){ .twemoji } [Stingle](photo-management.md#stingle)
+- ![Logo di PhotoPrism](assets/img/photo-management/photoprism.svg){ .twemoji } [PhotoPrism](photo-management.md#photoprism)
 
 </div>
 
@@ -221,7 +221,7 @@ Per ulteriori dettagli su ogni progetto, perché è stato scelto e ulteriori con
 
 ## Software
 
-### Sincronizzazione del Calendario
+### Sincronizzazione Calendario
 
 <div class="grid cards" markdown>
 
@@ -280,7 +280,7 @@ Per ulteriori dettagli su ogni progetto, perché è stato scelto e ulteriori con
 
     Per crittografare l'unità del tuo sistema operativo, tipicamente, consigliamo di utilizzare qualsiasi strumento crittografico sia fornito dal tuo sistema operativo, che sia **BitLocker** su Windows, **FileVault** su macOS, o **LUKS** su Linux. Questi strumenti sono inclusi con il sistema operativo e, tipicamente, utilizzano elementi crittografici hardware come TPM, a differenza di altri software crittografici a disco intero, come VeraCrypt. VeraCrypt è comunque adatto a dischi senza sistema operativo come le unità esterne, in particolare quelle a cui si può accedere da più sistemi operativi.
     
-    [Maggiori informazioni :material-arrow-right-drop-circle:](encryption.md##operating-system-included-full-disk-encryption-fde)
+    [Scopri di più :material-arrow-right-drop-circle:](encryption.md##operating-system-included-full-disk-encryption-fde)
 
 <div class="grid cards" markdown>
 
@@ -425,7 +425,7 @@ Per ulteriori dettagli su ogni progetto, perché è stato scelto e ulteriori con
 
 [Scopri di più :material-arrow-right-drop-circle:](real-time-communication.md)
 
-## Sistemi operativi
+## Sistemi Operativi
 
 ### Mobile
 
@@ -442,11 +442,11 @@ Per ulteriori dettagli su ogni progetto, perché è stato scelto e ulteriori con
 
 <div class="grid cards" markdown>
 
-- ![Logo di Obtainium](assets/img/android/obtainium.svg){ .twemoji } [Obtainium (App Manager)](android.md#obtainium)
-- ![Logo di Aurora Store](assets/img/android/aurora-store.webp){ .twemoji } [Aurora Store (Google Play Client)](android.md#aurora-store)
-- ![Logo di Shelter](assets/img/android/mini/shelter.svg){ .twemoji } [Shelter (Work Profiles)](android.md#shelter)
-- ![Logo di Secure Camera](assets/img/android/secure_camera.svg#only-light){ .twemoji }![Secure Camera logo](assets/img/android/secure_camera-dark.svg#only-dark){ .twemoji } [Secure Camera](android.md#secure-camera)
-- ![Logo di Secure PDF Viewer](assets/img/android/secure_pdf_viewer.svg#only-light){ .twemoji }![Secure PDF Viewer logo](assets/img/android/secure_pdf_viewer-dark.svg#only-dark){ .twemoji } [Secure PDF Viewer](android.md#secure-pdf-viewer)
+- ![Logo di Obtainium](assets/img/android/obtainium.svg){ .twemoji } [Obtainium (Gestore di App)](android.md#obtainium)
+- ![Logo di Aurora Store](assets/img/android/aurora-store.webp){ .twemoji } [Aurora Store (Client di Google Play)](android.md#aurora-store)
+- ![Logo di Shelter](assets/img/android/mini/shelter.svg){ .twemoji } [Shelter (Profili di Lavoro)](android.md#shelter)
+- ![Logo di Secure Camera](assets/img/android/secure_camera.svg#only-light){ .twemoji }![Logo di Secure Camera](assets/img/android/secure_camera-dark.svg#only-dark){ .twemoji } [Secure Camera](android.md#secure-camera)
+- ![Logo di Secure PDF Viewer](assets/img/android/secure_pdf_viewer.svg#only-light){ .twemoji }![Logo di Secure PDF Viewer](assets/img/android/secure_pdf_viewer-dark.svg#only-dark){ .twemoji } [Secure PDF Viewer](android.md#secure-pdf-viewer)
 
 </div>
 
@@ -470,7 +470,7 @@ Per ulteriori dettagli su ogni progetto, perché è stato scelto e ulteriori con
 
 [Scopri di più :material-arrow-right-drop-circle:](desktop.md)
 
-### Firmware del Router
+### Firmware per Router
 
 <div class="grid cards" markdown>
 
@@ -491,8 +491,8 @@ Questi strumenti potrebbero fornire utilità per certi individui. Forniscono fun
 
 - ![Logo di MVT](assets/img/device-integrity/mvt.webp){ .twemoji } [Mobile Verification Toolkit](device-integrity.md#mobile-verification-toolkit)
 - ![Logo di iMazing](assets/img/device-integrity/imazing.png){ .twemoji } [iMazing (iOS)](device-integrity.md#imazing-ios)
-- ![Logo di Auditor](assets/img/device-integrity/auditor.svg#only-light){ .twemoji }![Auditor logo](assets/img/device-integrity/auditor-dark.svg#only-dark){ .twemoji } [Auditor (Android)](device-integrity.md#auditor-android)
-- ![Logo di Hypatia](assets/img/device-integrity/hypatia.svg#only-light){ .twemoji }![Hypatia logo](assets/img/device-integrity/hypatia-dark.svg#only-dark){ .twemoji } [Hypatia (Android)](device-integrity.md#hypatia-android)
+- ![Logo di Auditor](assets/img/device-integrity/auditor.svg#only-light){ .twemoji }![Logo di Auditor](assets/img/device-integrity/auditor-dark.svg#only-dark){ .twemoji } [Auditor (Android)](device-integrity.md#auditor-android)
+- ![Logo di Hypatia](assets/img/device-integrity/hypatia.svg#only-light){ .twemoji }![Logo di Hypatia](assets/img/device-integrity/hypatia-dark.svg#only-dark){ .twemoji } [Hypatia (Android)](device-integrity.md#hypatia-android)
 - ![Logo di iVerify](assets/img/device-integrity/iverify.webp){ .twemoji } [iVerify (iOS)](device-integrity.md#iverify-ios)
 
 </div>
