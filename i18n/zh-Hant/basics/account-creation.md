@@ -65,9 +65,9 @@ OAuth 在那些服務之間深度整合情況下，可以特別有用。 我們�
 
 所有使用 OAuth 的服務都將與您的基礎提供商帳戶一樣安全。 例如，想用硬體密鑰保護某個帳戶，但該服務不支持硬體密鑰，則可用硬體密鑰保護您的 OAuth 帳戶，現在您所有帳戶基本上都有硬體 MFA。 但值得注意的是，OAuth 帳戶的弱認證意味著與該登入方式相關的其它帳戶也會很弱。
 
-使用* Google 登入*、*Facebook* 或其他服務時還有額外的危險，通常是OAuth 流程允許*雙向*資料共享。 例如，使用 Twitter 帳戶登入論壇可授予該論壇存取權限，以便在您的 Twitter 帳戶上執行操作，例如發佈、閱讀您的訊息或存取其他個人資料。 OAuth providers will typically present you with a list of things you are granting the external service access to, and you should always ensure that you read through that list and don't inadvertently grant the external service access to anything it doesn't require.
+使用* Google 登入*、*Facebook* 或其他服務時還有額外的危險，通常是OAuth 流程允許*雙向*資料共享。 例如，使用 Twitter 帳戶登入論壇可授予該論壇存取權限，以便在您的 Twitter 帳戶上執行操作，例如發佈、閱讀您的訊息或存取其他個人資料。 OAuth 提供者通常會向您提供要授予外部服務存取權限的內容列表，應確保仔細閱讀該列表，不會無意中授予外部服務存取不需要的任何內容的權限。
 
-惡意應用程式（特別是行動裝置，它們可以用來存取登入OAuth 提供者的WebView 會話）也可以透過劫持與 OAuth 提供者的會話來取得對 OAuth 帳戶的存取權限。 Using the *Sign in with* option with any provider should usually be considered a matter of convenience that you only use with services you trust to not be actively malicious.
+惡意應用程式（特別是行動裝置，它們可以用來存取登入OAuth 提供者的WebView 會話）也可以透過劫持與 OAuth 提供者的會話來取得對 OAuth 帳戶的存取權限。 使用任何提供者的*登入方式*選項通常是為了方便，最好只用於相信不會主動惡意的服務。
 
 ### 電話號碼
 
