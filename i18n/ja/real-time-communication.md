@@ -71,7 +71,7 @@ We have some additional tips on configuring and hardening your Signal installati
 
 SimpleX Chat [was audited](https://simplex.chat/blog/20221108-simplex-chat-v4.2-security-audit-new-website.html) by Trail of Bits in October 2022.
 
-SimpleX Chat supports basic group chatting functionality, direct messaging, and editing of messages and markdown. E2EE Audio and Video calls are also supported. Your data can be exported, and imported onto another device, as there are no central servers where this is backed up.
+SimpleX Chat supports basic group chatting functionality, direct messaging, and editing of messages and markdown. E2EEのオーディオおよびビデオ通話もサポートしています。 Your data can be exported, and imported onto another device, as there are no central servers where this is backed up.
 
 ### Briar
 
@@ -182,7 +182,7 @@ Session has a [whitepaper](https://arxiv.org/pdf/2002.04609.pdf) describing the 
     私たちは、サイトの各項目に関して、定義された規準の確立に取り組んでいます。この規準は変更される可能性があります。 規準について疑問がある場合は、[フォーラムで質問](https://discuss.privacyguides.net/latest)してください。また、ここに記載されていない場合でも、私たちがプロジェクトを推奨する際に、そうした事柄を考慮しなかったと仮定するのはお止めください。 プロジェクトを推奨する際に考慮され、議論される要素は多くあり、そのすべてを文書化する作業は現在進行中です。
 
 - Must have open-source clients.
-- Must use E2EE for private messages by default.
+- プライベートメッセージにデフォルトでE2EEを使用していること。
 - Must support E2EE for all messages.
 - Must have been independently audited.
 

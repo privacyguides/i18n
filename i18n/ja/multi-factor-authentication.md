@@ -46,7 +46,7 @@ The [comparison table](https://www.nitrokey.com/#comparison) shows the features 
 
 Nitrokey models can be configured using the [Nitrokey app](https://www.nitrokey.com/download).
 
-For the models which support HOTP and TOTP, there are 3 slots for HOTP and 15 for TOTP. Some Nitrokeys can act as a password manager. They can store 16 different credentials and encrypt them using the same password as the OpenPGP interface.
+For the models which support HOTP and TOTP, there are 3 slots for HOTP and 15 for TOTP. Nitrokeyの中には、パスワードマネージャーとして機能するものもあります。 They can store 16 different credentials and encrypt them using the same password as the OpenPGP interface.
 
 !!! 警告
 

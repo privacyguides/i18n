@@ -75,7 +75,7 @@ Source: [plainlanguage.gov](https://www.plainlanguage.gov/guidelines/concise/)
 
 ### 能動態を使うこと
 
-> Active voice makes it clear who is supposed to do what. It eliminates ambiguity about responsibilities. 「それがされなければならない」ではなく、「あなたはそれをしなければならない」とすること。
+> 能動態で書くと、誰が何をすべきかが明確になります。 It eliminates ambiguity about responsibilities. 「それがされなければならない」ではなく、「あなたはそれをしなければならない」とすること。
 
 Source: [plainlanguage.gov](https://www.plainlanguage.gov/guidelines/conversational/use-active-voice/)
 

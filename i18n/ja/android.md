@@ -184,7 +184,7 @@ Google Pixel phones use a TEE OS called Trusty which is [open source](https://so
 
 The installation of GrapheneOS on a Pixel phone is easy with their [web installer](https://grapheneos.org/install/web). If you don't feel comfortable doing it yourself and are willing to spend a bit of extra money, check out the [NitroPhone](https://shop.nitrokey.com/shop) as they come preloaded with GrapheneOS from the reputable [Nitrokey](https://www.nitrokey.com/about) company.
 
-A few more tips for purchasing a Google Pixel:
+以下、Google Pixelを購入する際のいくつかのヒントを示します。
 
 - If you're after a bargain on a Pixel device, we suggest buying an "**a**" model, just after the next flagship is released. Discounts are usually available because Google will be trying to clear their stock.
 - Consider price beating options and specials offered at physical stores.

@@ -68,7 +68,7 @@ A [news aggregator](https://en.wikipedia.org/wiki/News_aggregator) is a way to k
 
     ![GNOME Feeds logo](assets/img/news-aggregators/gfeeds.svg){ align=right }
     
-    **GNOME Feeds** is an [RSS](https://en.wikipedia.org/wiki/RSS) and [Atom](https://en.wikipedia.org/wiki/Atom_(Web_standard)) news reader for [GNOME](https://www.gnome.org). It has a simple interface and is quite fast.
+    **GNOME Feeds** is an [RSS](https://en.wikipedia.org/wiki/RSS) and [Atom](https://en.wikipedia.org/wiki/Atom_(Web_standard)) news reader for [GNOME](https://www.gnome.org). シンプルなインターフェースを備えており、非常に高速です。
     
     [:octicons-home-16: Homepage](https://gfeeds.gabmus.org){ .md-button .md-button--primary }
     [:octicons-code-16:](https://gitlab.gnome.org/World/gfeeds){ .card-link title="Source Code" }

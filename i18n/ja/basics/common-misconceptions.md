@@ -23,7 +23,7 @@ schema:
             We talk about "shifting trust" a lot when discussing solutions like VPNs (which shift the trust you place in your ISP to the VPN provider). While this protects your browsing data from your ISP specifically, the VPN provider you choose still has access to your browsing data: Your data isn't completely secured from all parties.
       - 
         "@type": Question
-        name: Are privacy-focused solutions inherently trustworthy?
+        name: プライバシー重視のソリューションは本来的に信頼できますか？
         acceptedAnswer:
           "@type": Answer
           text: |
