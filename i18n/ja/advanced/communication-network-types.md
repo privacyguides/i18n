@@ -31,7 +31,7 @@ Some self-hosted messengers allow you to set up your own server. Self-hosting ca
 - The [ownership](https://web.archive.org/web/20210729191953/https://blog.privacytools.io/delisting-wire/), privacy policy, and operations of the service can change easily when a single entity controls it, potentially compromising the service later on.
 - Self-hosting requires effort and knowledge of how to set up a service.
 
-## Federated Networks
+## フェデレーション（連合）型ネットワーク
 
 ![Federated networks diagram](../assets/img/layout/network-decentralized.svg){ align=left }
 

@@ -88,7 +88,7 @@ We are working on establishing defined criteria for every section of our site, a
 
 ### 最低要件
 
-- Cloud-hosted providers must enforce end-to-end encryption.
+- クラウドホスティングプロバイダーが、エンド・ツー・エンドの暗号化を実施していること。
 - Must offer a free plan or trial period for testing.
 - Must support TOTP or FIDO2 multi-factor authentication, or Passkey logins.
 - Must offer a web interface which supports basic file management functionality.

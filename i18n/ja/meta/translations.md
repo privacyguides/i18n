@@ -56,7 +56,7 @@ Recommendations are a special type of admonition which do **not** need overridin
     !!! recommendation
     ```
 
-## Translation output
+## 翻訳の出力
 
 Translation software gets the translation quite accurate; however, you need to make sure the translated string is correct.
 

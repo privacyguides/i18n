@@ -182,7 +182,7 @@ FirefoxはMozillaのウェブサイトからのダウンロードに一意の[�
 
 ##### DNS over HTTPS
 
-If you use a [DNS over HTTPS provider](dns.md):
+[DNS over HTTPSプロバイダー](dns.md)を使用している場合は、
 
 - [x] Select **Max Protection** and choose a suitable provider
 

@@ -6,7 +6,7 @@ cover: financial-services.webp
 
 Making payments online is one of the biggest challenges to privacy. These services can assist you in protecting your privacy from merchants and other trackers, provided you have a strong understanding of how to make private payments effectively. We strongly encourage you first read our payments overview article before making any purchases:
 
-[Making Private Payments :material-arrow-right-drop-circle:](advanced/payments.md ""){.md-button}
+[プライベートな支払い :material-arrow-right-drop-circle:](advanced/payments.md ""){.md-button}
 
 ## 支払いマスキングサービス
 

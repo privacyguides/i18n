@@ -204,7 +204,7 @@ If you need to hide information in a photo, you can use Apple's built-in tools t
 
 ### iOSのベータ版
 
-Apple always makes beta versions of iOS available early for those that wish to help find and report bugs. We don't recommend installing beta software on your phone. Beta releases are potentially unstable and could have undiscovered security vulnerabilities.
+Apple always makes beta versions of iOS available early for those that wish to help find and report bugs. お使いの電話にベータ版ソフトウェアをインストールすることはお勧めしません。 Beta releases are potentially unstable and could have undiscovered security vulnerabilities.
 
 ## Security Highlights
 
