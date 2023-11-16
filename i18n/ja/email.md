@@ -256,7 +256,7 @@ Tuta has [zero access encryption at rest](https://tuta.com/faq#what-encrypted) f
 
 #### :material-information-outline:{ .pg-blue } メールの暗号化
 
-Tuta [does not use OpenPGP](https://tuta.com/support/#pgp). Tuta accounts can only receive encrypted emails from non-Tuta email accounts when sent via a [temporary Tuta mailbox](https://tuta.com/support/#encrypted-email-external).
+Tutaは[OpenPGPを使用していません](https://tuta.com/support/#pgp)。 Tuta accounts can only receive encrypted emails from non-Tuta email accounts when sent via a [temporary Tuta mailbox](https://tuta.com/support/#encrypted-email-external).
 
 #### :material-information-outline:{ .pg-blue } アカウントの停止
 

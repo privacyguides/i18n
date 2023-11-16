@@ -24,7 +24,7 @@ It is a [common misconception](../basics/common-misconceptions.md#open-source-so
 
 In reality, distro security depends on a number of factors, such as project activity, developer experience, the level of rigor applied to code reviews, and how often attention is given to specific parts of the codebase that may go untouched for years.
 
-### Missing Security Features
+### 欠けているセキュリティーの機能
 
 At the moment, desktop Linux [falls behind alternatives](https://discussion.fedoraproject.org/t/fedora-strategy-2028-proposal-fedora-linux-is-as-secure-as-macos/46899/9) like macOS or Android when it comes to certain security features. We hope to see improvements in these areas in the future.
 
@@ -127,7 +127,7 @@ Additionally, some distributions will not download firmware updates automaticall
 
 ## Privacy Tweaks
 
-### MAC Address Randomization
+### MACアドレスのランダム化
 
 Many desktop Linux distributions (Fedora, openSUSE, etc.) come with [NetworkManager](https://en.wikipedia.org/wiki/NetworkManager) to configure Ethernet and Wi-Fi settings.
 

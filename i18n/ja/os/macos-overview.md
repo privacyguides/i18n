@@ -132,7 +132,7 @@ On older Intel-based Mac computers, FileVault is the only form of disk encryptio
 
 - [x] Click **Turn On**
 
-### MAC Address Randomization
+### MACアドレスのランダム化
 
 macOS uses a randomized MAC address when performing Wi-Fi scans while disconnected from a network. However, when you connect to a preferred Wi-Fi network, the MAC address used is never randomized. Full MAC address randomization is an advanced topic, and most people don't need to worry about performing the following steps.
 

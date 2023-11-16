@@ -6,13 +6,13 @@ description: Other instant messengers make all of your private conversations ava
 cover: real-time-communication.webp
 ---
 
-These are our recommendations for encrypted real-time communication.
+以下は、暗号化されたリアルタイム通信に関する推奨事項です。
 
 [Types of Communication Networks :material-arrow-right-drop-circle:](./advanced/communication-network-types.md)
 
 ## 暗号化されたメッセンジャー
 
-These messengers are great for securing your sensitive communications.
+以下のメッセンジャーは、機密性の高い通信を保護するのに適しています。
 
 ### Signal
 
