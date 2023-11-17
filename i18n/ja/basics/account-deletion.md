@@ -27,7 +27,7 @@ Desktop platforms also often have a password manager which may help you recover 
 
 ### メール
 
-If you didn't use a password manager in the past or you think you have accounts that were never added to your password manager, another option is to search the email account(s) that you believe you signed up on. On your email client, search for keywords such as "verify" or "welcome." Almost every time you make an online account, the service will send a verification link or an introductory message to your email. This can be a good way to find old, forgotten accounts.
+If you didn't use a password manager in the past or you think you have accounts that were never added to your password manager, another option is to search the email account(s) that you believe you signed up on. メールクライアントで、「認証」や「ようこそ」などのキーワードを検索してみてください。 Almost every time you make an online account, the service will send a verification link or an introductory message to your email. This can be a good way to find old, forgotten accounts.
 
 ## 古いアカウントを削除
 

@@ -155,7 +155,7 @@ In addition to providing standard OpenVPN configuration files, IVPN has mobile c
 
 #### :material-information-outline:{ .pg-blue } 追加機能
 
-IVPN clients support two factor authentication (Mullvad's clients do not). IVPN also provides "[AntiTracker](https://www.ivpn.net/antitracker)" functionality, which blocks advertising networks and trackers from the network level.
+IVPNのクライアントは2要素認証をサポートしています（Mullvadのクライアントはサポートしていません）。 IVPN also provides "[AntiTracker](https://www.ivpn.net/antitracker)" functionality, which blocks advertising networks and trackers from the network level.
 
 ### Mullvad
 
