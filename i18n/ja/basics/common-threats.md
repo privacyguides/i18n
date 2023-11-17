@@ -21,7 +21,7 @@ Some of these threats may be more important to you than others, depending on you
 
 <span class="pg-purple">:material-incognito: 匿名性</span>
 
-Anonymity is often confused with privacy, but they're distinct concepts. While privacy is a set of choices you make about how your data is used and shared, anonymity is the complete disassociation of your online activities from your real identity.
+匿名性はしばしばプライバシーと混同されますが、それらは異なる概念です。 While privacy is a set of choices you make about how your data is used and shared, anonymity is the complete disassociation of your online activities from your real identity.
 
 Whistleblowers and journalists, for example, can have a much more extreme threat model which requires total anonymity. That's not only hiding what they do, what data they have, and not getting hacked by malicious actors or governments, but also hiding who they are entirely. They will often sacrifice any kind of convenience if it means protecting their anonymity, privacy, or security, because their lives could depend on it. ほとんどの人はそこまでする必要はありません。
 

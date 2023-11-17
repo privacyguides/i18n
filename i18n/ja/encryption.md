@@ -36,7 +36,7 @@ cover: encryption.webp
         - [:simple-linux: Linux](https://cryptomator.org/downloads)
         - [:simple-flathub: Flathub](https://flathub.org/apps/details/org.cryptomator.Cryptomator)
 
-Cryptomator uses AES-256 encryption to encrypt both files and filenames. Cryptomator cannot encrypt metadata such as access, modification, and creation timestamps, nor the number and size of files and folders.
+Cryptomatorは、AES-256を用いて、ファイルとファイル名の両方を暗号化します。 Cryptomator cannot encrypt metadata such as access, modification, and creation timestamps, nor the number and size of files and folders.
 
 Some Cryptomator cryptographic libraries have been [audited](https://community.cryptomator.org/t/has-there-been-a-security-review-audit-of-cryptomator/44) by Cure53. The scope of the audited libraries includes: [cryptolib](https://github.com/cryptomator/cryptolib), [cryptofs](https://github.com/cryptomator/cryptofs), [siv-mode](https://github.com/cryptomator/siv-mode) and [cryptomator-objc-cryptor](https://github.com/cryptomator/cryptomator-objc-cryptor). The audit did not extend to [cryptolib-swift](https://github.com/cryptomator/cryptolib-swift), which is a library used by Cryptomator for iOS.
 
@@ -112,7 +112,7 @@ BitLocker is [only supported](https://support.microsoft.com/en-us/windows/turn-o
         powershell Get-Disk
         ```
 
-    2. Run this command (in an admin command prompt) to check your TPM version. You should see `2.0` or `1.2` listed next to `SpecVersion`:
+    2. このコマンドを（管理者コマンドプロンプトで）実行し、TPMのバージョンを確認してください。 You should see `2.0` or `1.2` listed next to `SpecVersion`:
 
         ```
         powershell Get-WmiObject -Namespace "root/cimv2/security/microsofttpm" -Class WIN32_tpm
