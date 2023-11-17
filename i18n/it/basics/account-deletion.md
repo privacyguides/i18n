@@ -27,7 +27,7 @@ Le piattaforme desktop dispongono spesso di un gestore di password che può aiut
 
 ### Email
 
-Se non hai mai utilizzato un gestore di password in passato, o pensi di possedere profili mai aggiunti a esso, un'altra opzione è cercre i profili email con cui credi di esserti iscritto. Sul tuo client email, cerca parole chiave come "verifica" o "benvenuto." Quasi ogni volta che crei un profilo online, il servizio ti invierà un collegmento di verifica o un messaggio introduttivo, alla tua email. Questo può essere un ottimo modo per trovare vecchi profili dimenticati.
+Se non hai mai utilizzato un gestore di password in passato, o pensi di possedere account mai aggiunti a esso, un'altra opzione è cercare gli account email con cui credi di esserti iscritto. Sul tuo client email, cerca parole chiave come "verifica" o "benvenuto." Quasi ogni volta che create un account online, il servizio vi manderà un link di verifica o un messaggio introduttivo alla vostra email. Questo può essere un ottimo modo per trovare vecchi profili dimenticati.
 
 ## Eliminazione dei vecchi profili
 
@@ -35,7 +35,7 @@ Se non hai mai utilizzato un gestore di password in passato, o pensi di posseder
 
 Per eliminare i tuoi vecchi profili, dovrai prima assicurarti di potervi accedere. Ancora, se il profilo era nel tuo gestore di password, questo passaggio è facile. Altrimenti, puoi provare a indovinare la password. Altrimenti, tipicamente, esistono delle opzioni per riottenere l'accesso al tuo profilo, disponibili comunemente tramite un collegamento "password dimenticata", sulla pagina d'accesso. Inoltre, è possibile che i profili che hai abbandonato siano già stati eliminati: talvolta, i servizi eliminano tutti i vecchi profili.
 
-Tentando di recuperare l'accesso, se il sito restituisce un messaggio d'errore che indica che l'email non è associata a un profilo, o se ricevi un collegamento di ripristino dopo svariati tentaativi, non hai un profilo sotto tale indirizzo email e dovresti provare con uno differente. Se non riesci a capire quale indirizzo email hai utilizzato, o non hai più accesso aa tale email, puoi provare a contattare il supporto clienti del servizio. Purtroppo, non vi è alcuna garanzia di poter riottenere l'accesso al profilo.
+Quando tenti di recuperare l'account, se il sito restituisce un messaggio di errore che indica che l'e-mail non è associata a nessun account, o se non ricevi un link di recupero dopo svariati tentativi, allora non hai nessun account con quell'indirizzo e-mail e devi riprovare con un altro. Se non riesci a capire quale email hai utilizzato, o non ne hai più accesso, puoi provare a contattare l'assistenza clienti del servizio in questione. Purtroppo, non vi è alcuna garanzia di poter riottenere l'accesso al profilo.
 
 ### GDPR (solo per i residenti nello SEE)
 
@@ -53,10 +53,10 @@ Puoi consultare [JustDeleteMe](https://justdeleteme.xyz) per le istruzioni su co
 
 Per i servizi che non permettono l'eliminazione del profilo, la cosa migliore da fare è quella di falsificare tutte le informazioni (come detto in precedenza) e di rafforzare la sicurezza del profilo. Per farlo, abilita l'[AFM](multi-factor-authentication.md) e qualsiasi altra funzionalità offerta dal sito. Inoltre, cambia la password con una generata casualmente che sia della lunghezza massima consentita (un [gestore di password](../passwords.md) può esserti utile per farlo).
 
-Se sei soddisfatto della rimozione di tutte le informazioni che ti, puoii tranquillamente dimenticarti di questo profilo. Altrimenti, potrebbe essere una buona idea conservare le credenziali con le altre tue password, accedendo nuovamente in modo occasionale, per ripristinare la password.
+Se sei soddisfatto della rimozione di tutte le informazioni che ti interessano, puoi tranquillamente dimenticarti di questo account. Altrimenti, potrebbe essere una buona idea conservare le credenziali con le altre tue password, accedendo nuovamente in modo occasionale, per ripristinare la password.
 
 Anche quando riesci a eliminare un profilo, non vi è alcuna garanzia che tutte le tue informazioni siano rimosse. Infatti, alcune aziende sono tenute per legge a conservare certe informazioni, in particolare quando si tratta di operazioni finanziarie. È per lo più fuori dal tuo controllo ciò che accade ai tuoi dati quando si tratta di siti Web e servizi su cloud.
 
 ## Evita i nuovi profili
 
-Come dice il vecchio detto, "un grammo di prevenzione è sempre meglio di un chilo di cura." Ogni volta che ti senti tentato di registrare un nuovo profilo, chiediti: "Ne ho davvero bisogno? Posso realizzare ciò che mi serve senza un profilo?" Spesso è molto più difficile eliminare un profilo, piuttosto che crearne uno. E anche dopo averne eliminate o modificate le informaazioni, potrebbe esserci una versione nella cache da una terza parte, come [Internet Archive](https://archive.org/). Quando possibile, evita la tentazione: il te stesso del futuro ti ringrazierà!
+Come dice il vecchio detto, "un grammo di prevenzione vale un chilo di cura." Ogni volta che ti senti tentato di registrare un nuovo profilo, chiediti: "Ne ho davvero bisogno? Posso realizzare ciò che mi serve senza un profilo?" Spesso è molto più difficile eliminare un profilo, piuttosto che crearne uno. E anche dopo aver eliminato o modificato le informazioni del tuo account, potrebbe esserci una versione nella cache di qualche sito di terze parti, come [Internet Archive](https://archive.org/). Quando possibile, evita la tentazione: il te stesso del futuro ti ringrazierà!

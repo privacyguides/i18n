@@ -13,7 +13,7 @@ Di conseguenza, l'email è utilizzata meglio per ricevere email di transazione (
 
 Il metodo standard per aggiungere l'E2EE alle email tra diversi fornitori email è utilizzando OpenPGP. Esistono svariate implementazioni dello standard OpenPGP; le più comuni sono [GnuPG](https://en.wikipedia.org/wiki/GNU_Privacy_Guard) e [OpenPGP.js](https://openpgpjs.org).
 
-Esiste un altro standard popolare tra le aziende, detto [S/MIME](https://en.wikipedia.org/wiki/S/MIME), tuttavia, richiede un certificato emesso da un'[Autorità di Certificazione](https://en.wikipedia.org/wiki/Certificate_authority) (non tutte emettono certificati S/MIME). Inoltre, è supportato su [Google Workplace](https://support.google.com/a/topic/9061730?hl=en&ref_topic=9061731) e su [Outlook per Web o Exchaaange Seerver 2016, 2019](https://support.office.com/en-us/article/encrypt-messages-by-using-s-mime-in-outlook-on-the-web-878c79fc-7088-4b39-966f-14512658f480).
+Esiste un altro standard popolare tra le aziende, detto [S/MIME](https://en.wikipedia.org/wiki/S/MIME), tuttavia, richiede un certificato emesso da un'[Autorità di Certificazione](https://en.wikipedia.org/wiki/Certificate_authority) (non tutte emettono certificati S/MIME). Inoltre, è supportato su [Google Workplace](https://support.google.com/a/topic/9061730?hl=en&ref_topic=9061731) e su [Outlook per Web o Exchange Server 2016, 2019](https://support.office.com/en-us/article/encrypt-messages-by-using-s-mime-in-outlook-on-the-web-878c79fc-7088-4b39-966f-14512658f480).
 
 Anche se utilizzi OpenPGP, non supporta la [segretezza in avanti](https://en.wikipedia.org/wiki/Forward_secrecy), il che significa che se la chiave privata tua o del destinatario viene rubata, tutti i messaggi precedentemente crittografati saranno esposti. Ecco perché consigliamo la [messaggistica istantanea](../real-time-communication.md), che implementa la segretezza in avanti via email, per le comunicazioni personali, quando possibile.
 
@@ -29,19 +29,19 @@ Se utilizzi un dominio condiviso da un fornitore che non supporta WKD, come @gma
 
 ### Quali client email supportano E2EE?
 
-I fornitori email che ti conseentono di utilizzare i protocolli d'accesso standard come IMAP e SMTP, sono utilizzabili con qualsiasi [client email che consigliamo](../email-clients.md). In base al metodo d'autenticazione, ciò potrebbe comportare una riduzione della sicurezza se il fornitore o il client email non supportano OATH o un'applicazione di collegamento (bridge), poiché l'[autenticazione a più fattori](multi-factor-authentication.md) non è possibile con l'autenticazione con password semplice.
+I fornitori email che ti consentono di utilizzare i protocolli d'accesso standard come IMAP e SMTP, sono utilizzabili con qualsiasi [client email che consigliamo](../email-clients.md). In base al metodo d'autenticazione, ciò potrebbe comportare una riduzione della sicurezza se il fornitore o il client email non supportano OATH o un'applicazione di collegamento (bridge), poiché l'[autenticazione a più fattori](multi-factor-authentication.md) non è possibile con l'autenticazione con password semplice.
 
 ### Come proteggo le mie chiavi private?
 
-Una smartcard (come [YubiKey](https://support.yubico.com/hc/en-us/articles/360013790259-Using-Your-YubiKey-with-OpenPGP) o [Nitrokey](https://www.nitrokey.com)) opera ricevendo un messaggio email crittografato da un dispositivo (telefono, tablet, computer, etc.), che esegue un client email/webmail. Il messaggio, quindi, viene decrittografato dalla smartcart e il contenuto decrittografato è reinviato al dispositivo.
+Una smartcard (come [YubiKey](https://support.yubico.com/hc/en-us/articles/360013790259-Using-Your-YubiKey-with-OpenPGP) o [Nitrokey](https://www.nitrokey.com)) opera ricevendo un messaggio email crittografato da un dispositivo (telefono, tablet, computer, etc.), che esegue un client email/webmail. Il messaggio viene quindi decifrato dalla smartcard e il contenuto decifrato viene inviato al dispositivo.
 
-È preferibile che la decodifica avvenga sulla smartcard per evitare di esporre la chiave privata a un dispositivo compromesso.
+È preferibile che la decodifica avvenga sulla smartcard per evitare di esporre la tua chiave privata a un dispositivo compromesso.
 
 ## Panoramica sui metadati email
 
 I metadati dell'email sono memorizzati nell'[intestazione del messaggio](https://en.wikipedia.org/wiki/Email#Message_header) email e includono alcune intestazioni visibili che potresti aver visto, come: `A`, `Da`, `Cc`, `Data`, `Oggetto`. Esistono anche numerose intestazioni nascoste, incluse da molti client e fornitori email, che possono rivelare informazioni sul tuo profilo.
 
-Il software client potrebbe utilizzare i metadati email per mostrare da chi proviene un messaggo e a che ora è stato ricevuto. I server potrebbero utilizzarlo per determinare dove dev'essere inviato un messaggio email, tra [gli altri scopi](https://en.wikipedia.org/wiki/Email#Message_header) non sempre trasparenti.
+Il software client potrebbe utilizzare i metadati email per mostrare da chi proviene un messaggio e a che ora è stato ricevuto. I server potrebbero utilizzarlo per determinare dove dev'essere inviato un messaggio email, tra [gli altri scopi](https://en.wikipedia.org/wiki/Email#Message_header) non sempre trasparenti.
 
 ### Chi può visualizzare i metadati delle email?
 
