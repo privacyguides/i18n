@@ -4,9 +4,9 @@ icon: 'material/account-remove'
 description: È facile accumulare un numerosi profili su Internet, ecco alcuni consigli su come sfoltirli.
 ---
 
-Con il tempo, può essere facile accumulare numerosi profili online, molti dei quali non sono più utilizzati. L'eliminazione di tali profili inutilizzati è un passaggio importante per rivendicare la propria privacy, poiché i profili inattivi sono vulnerabili alle violazioni di dati. Una violazione di dati si verifica quando la sicurezzaa di un servizio è compromessa, e le informazioni protette sono visualizzate, trasmesse o rubate da utenti non autorizzati. Le violazioni dei dati, oggi, sono sfortunatamente tutte [troppo comuni](https://haveibeenpwned.com/PwnedWebsites); quindi, praticare una buona igiene digitale è il metodo migliore per minimizzarne l'impatto sulla tua vita. Lo scopo di questa guida, quindi, è aiutarti a superare il fastidioso processo di eliminazione dei profili, spesso reso difficile dal [design ingannevole](https://www.deceptive.design/), per migliorare la propria presenza online.
+Con il tempo, può essere facile accumulare numerosi profili online, molti dei quali non sono più utilizzati. L'eliminazione di tali profili inutilizzati è un passaggio importante per rivendicare la propria privacy, poiché i profili inattivi sono vulnerabili alle violazioni di dati. Una violazione dei dati si verifica quando la sicurezza di un servizio viene compromessa, e le informazioni protette vengono visualizzate, trasmesse o rubate da utenti non autorizzati. Le violazioni dei dati, oggi, sono sfortunatamente tutte [troppo comuni](https://haveibeenpwned.com/PwnedWebsites); quindi, praticare una buona igiene digitale è il metodo migliore per minimizzarne l'impatto sulla tua vita. Lo scopo di questa guida, quindi, è aiutarti a superare il fastidioso processo di eliminazione dei profili, spesso reso difficile dal [design ingannevole](https://www.deceptive.design/), per migliorare la propria presenza online.
 
-## Trovare i vecchi profili
+## Trovare i vecchi account
 
 ### Gestore di password
 

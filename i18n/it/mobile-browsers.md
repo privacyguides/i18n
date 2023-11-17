@@ -8,7 +8,7 @@ schema:
   - 
     "@context": http://schema.org
     "@type": WebPage
-    name: Consigli sui browser privati per cellulare
+    name: Consigli sui browser privati per mobile
     url: "./"
     relatedLink: "../desktop-browsers/"
   - 
