@@ -33,10 +33,10 @@ Note that a VPN does not add any security or encryption to your traffic between 
 
 **Yes**, almost certainly. VPNには、次のような多くの利点があります。
 
-1. Hiding your traffic from **only** your Internet Service Provider.
+1. インターネットサービスプロバイダ**のみ**からトラフィックを隠します。
 1. Hiding your downloads (such as torrents) from your ISP and anti-piracy organizations.
 1. Hiding your IP from third-party websites and services, helping you blend in and preventing IP based tracking.
-1. Allowing you to bypass geo-restrictions on certain content.
+1. 特定のコンテンツの地理的制限の解除が行える。
 
 VPNs can provide *some* of the same benefits Tor provides, such as hiding your IP from the websites you visit and geographically shifting your network traffic, and good VPN providers will not cooperate with e.g. legal authorities from oppressive regimes, especially if you choose a VPN provider outside your own jurisdiction.
 
@@ -48,7 +48,7 @@ Using a VPN in cases where you're using your [real-life or well-known identity](
 
 It's important to remember that a VPN will not provide you with absolute anonymity, because the VPN provider itself will still see your real IP address, destination website information, and often has a money trail that can be linked directly back to you. You can't rely on "no logging" policies to protect your data from anyone who is able to protect. If you need complete safety from the network itself, consider using [Tor](../advanced/tor-overview.md) in addition to or instead of a VPN.
 
-You also should not trust a VPN to secure your connection to an unencrypted, HTTP destination. In order to keep what you actually do on the websites you visit private and secure, you must use HTTPS. This will keep your passwords, session tokens, and queries safe from the VPN provider and other potential adversaries in between the VPN server and your destination. You should enable HTTPS-only mode in your browser (if it's supported) to mitigate attacks which try to downgrade your connection from HTTPS to HTTP.
+You also should not trust a VPN to secure your connection to an unencrypted, HTTP destination. In order to keep what you actually do on the websites you visit private and secure, you must use HTTPS. This will keep your passwords, session tokens, and queries safe from the VPN provider and other potential adversaries in between the VPN server and your destination. 対応している場合、ブラウザのHTTPS-Onlyモードを有効にすることで、接続をHTTPSからHTTPにダウングレードしようとする攻撃を緩和できます。
 
 ## VPNで暗号化DNSを使うべきでしょうか？
 
