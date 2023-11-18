@@ -16,7 +16,7 @@ Condividendo dei file, assicurati di rimuovere i metadati associati. I file imma
 
     ![Logo di MAT2](assets/img/data-redaction/mat2.svg){ align=right }
     
-    **MAT2** è un software gratuito che consente la rimozione dei metadati da file immagine, audio, torrent e documenti. It provides both a command line tool and a graphical user interface via an extension for [Dolphin](https://0xacab.org/jvoisin/mat2/-/tree/master/dolphin), the default file manager of [KDE](https://kde.org).
+    **MAT2** è un software gratuito che consente la rimozione dei metadati da file immagine, audio, torrent e documenti. Fornisce sia uno strumento a riga di comando che un'interfaccia utente grafica tramite un'estensione per [Dolphin](https://0xacab.org/jvoisin/mat2/-/tree/master/dolphin), il gestore file predefinito di [KDE](https://kde.org/it/).
     
     Su Linux, esiste uno strumento grafico di terze parti [Metadata Cleaner](https://gitlab.com/rmnvgr/metadata-cleaner) basato su MAT2 ed è [disponibile su Flathub](https://flathub.org/apps/details/fr.romainvigier.MetadataCleaner).
     
