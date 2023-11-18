@@ -16,7 +16,7 @@ Wanneer je bestanden deelt, is het belangrijk om de bijbehorende metadata te ver
 
     ![MAT2 logo](assets/img/data-redaction/mat2.svg){ align=right }
     
-    **MAT2** is vrije software, waarmee de metadata uit beeld-, audio-, torrent- en documentbestanden kan worden verwijderd. Het biedt zowel een opdrachtregelprogramma als een grafische gebruikersinterface via een [extensie voor Nautilus](https://0xacab.org/jvoisin/mat2/-/tree/master/nautilus), de standaard bestandsbeheerder van [GNOME](https://www.gnome.org), en [Dolphin](https://0xacab.org/jvoisin/mat2/-/tree/master/dolphin), de standaard bestandsbeheerder van [KDE](https://kde.org).
+    **MAT2** is vrije software, waarmee de metadata uit beeld-, audio-, torrent- en documentbestanden kan worden verwijderd. It provides both a command line tool and a graphical user interface via an extension for [Dolphin](https://0xacab.org/jvoisin/mat2/-/tree/master/dolphin), the default file manager of [KDE](https://kde.org).
     
     Voor Linux bestaat een grafisch hulpprogramma van derden [Metadata Cleaner](https://gitlab.com/rmnvgr/metadata-cleaner) op basis van MAT2, dat [beschikbaar is op Flathub](https://flathub.org/apps/details/fr.romainvigier.MetadataCleaner).
     

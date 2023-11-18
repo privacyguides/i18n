@@ -16,7 +16,7 @@ Fájlok megosztásakor ügyelj a kapcsolódó metaadatok eltávolítsára. A ké
 
     ![MAT2 logo](assets/img/data-redaction/mat2.svg){ align=right }
     
-    A **MAT2** szabad szoftver, amely lehetővé teszi a metaadatok eltávolítását kép, hang, torrent és dokumentum fájltípusokból. Egy parancssor eszközt és egy grafilus felhasználói felületet is biztosít egy [Nautilus](https://0xacab.org/jvoisin/mat2/-/tree/master/nautilus) és [Dolphin](https://0xacab.org/jvoisin/mat2/-/tree/master/dolphin) bővítményen keresztül, amik közül az előbbi a [GNOME](https://www.gnome.org), az utóbbi a [KDE](https://kde.org) alapértelmezett fájlkezelője.
+    A **MAT2** szabad szoftver, amely lehetővé teszi a metaadatok eltávolítását kép, hang, torrent és dokumentum fájltípusokból. It provides both a command line tool and a graphical user interface via an extension for [Dolphin](https://0xacab.org/jvoisin/mat2/-/tree/master/dolphin), the default file manager of [KDE](https://kde.org).
     
     Linuxon létezik egy harmadik féltől származó grafikus eszköz, a [Metadata Cleaner](https://gitlab.com/rmnvgr/metadata-cleaner), amely alapját a MAT2 adja, és ez [el is érhető a Flathubon](https://flathub.org/apps/details/fr.romainvigier.MetadataCleaner).
     

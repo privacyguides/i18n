@@ -16,7 +16,7 @@ Saat berbagi file, pastikan untuk menghapus metadata terkait. File gambar biasan
 
     ![Logo MAT2](assets/img/data-redaksi/mat2.svg){ align=right }
     
-    **MAT2** adalah perangkat lunak gratis, yang memungkinkan metadata dihapus dari jenis file gambar, audio, torrent, dan dokumen. Nautilus menyediakan alat bantu baris perintah dan antarmuka pengguna grafis melalui [ekstensi untuk Nautilus] (https://0xacab.org/jvoisin/mat2/-/tree/master/nautilus), pengelola berkas default dari [GNOME](https://www.gnome.org), dan [Dolphin](https://0xacab.org/jvoisin/mat2/-/tree/master/dolphin), pengelola berkas default dari [KDE](https://kde.org).
+    **MAT2** adalah perangkat lunak gratis, yang memungkinkan metadata dihapus dari jenis file gambar, audio, torrent, dan dokumen. It provides both a command line tool and a graphical user interface via an extension for [Dolphin](https://0xacab.org/jvoisin/mat2/-/tree/master/dolphin), the default file manager of [KDE](https://kde.org).
     
     Di Linux, alat grafis pihak ketiga [Metadata Cleaner] (https://gitlab.com/rmnvgr/metadata-cleaner) yang didukung oleh MAT2 ada dan [tersedia di Flathub] (https://flathub.org/apps/details/fr.romainvigier.MetadataCleaner).
     

@@ -16,7 +16,7 @@ När du delar filer ska du se till att ta bort tillhörande metadata. Bildfiler 
 
     ![MAT2-logotyp](assets/img/data-redaction/mat2.svg){ align=right }
     
-    **MAT2** är en gratis programvara som gör det möjligt att ta bort metadata från bild-, ljud-, torrent- och dokumentfiler. Den tillhandahåller både ett kommandoradsverktyg och ett grafiskt användargränssnitt via ett [tillägg för Nautilus] (https://0xacab.org/jvoisin/mat2/-/tree/master/nautilus), standardfilhanteraren för [GNOME](https://www.gnome.org), och [Dolphin](https://0xacab.org/jvoisin/mat2/-/tree/master/dolphin), standardfilhanteraren för [KDE](https://kde.org).
+    **MAT2** är en gratis programvara som gör det möjligt att ta bort metadata från bild-, ljud-, torrent- och dokumentfiler. It provides both a command line tool and a graphical user interface via an extension for [Dolphin](https://0xacab.org/jvoisin/mat2/-/tree/master/dolphin), the default file manager of [KDE](https://kde.org).
     
     På Linux finns ett grafiskt verktyg från tredje part [Metadata Cleaner] (https://gitlab.com/rmnvgr/metadata-cleaner) som drivs av MAT2 och är [tillgängligt på Flathub] (https://flathub.org/apps/details/fr.romainvigier.MetadataCleaner).
     

@@ -16,7 +16,7 @@ cover: data-redaction.webp
 
     ![MAT2 로고](assets/img/data-redaction/mat2.svg){ align=right }
     
-    **MAT2**는 이미지, 오디오, 토렌트, 문서 파일 형식에서 메타데이터를 제거할 수 있는 자유 소프트웨어입니다. CLI, GUI로 모두 사용 가능합니다. GUI로는 [GNOME](https://www.gnome.org) 기본 파일 관리자인 [Nautilus용 확장 프로그램](https://0xacab.org/jvoisin/mat2/-/tree/master/nautilus)과 [KDE](https://kde.org) 기본 파일 관리자인 [Dolphin용 확장 프로그램](https://0xacab.org/jvoisin/mat2/-/tree/master/dolphin)으로 제공됩니다.
+    **MAT2**는 이미지, 오디오, 토렌트, 문서 파일 형식에서 메타데이터를 제거할 수 있는 자유 소프트웨어입니다. It provides both a command line tool and a graphical user interface via an extension for [Dolphin](https://0xacab.org/jvoisin/mat2/-/tree/master/dolphin), the default file manager of [KDE](https://kde.org).
     
     Linux에서는 MAT2를 기반으로 제3자가 제작한 GUI 프로그램인 [Metadata Cleaner](https://gitlab.com/rmnvgr/metadata-cleaner)를 [Flathub](https://flathub.org/apps/details/fr.romainvigier.MetadataCleaner)에서 설치할 수 있습니다.
     

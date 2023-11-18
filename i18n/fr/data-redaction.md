@@ -16,7 +16,7 @@ Lorsque vous partagez des fichiers, veillez à supprimer les métadonnées assoc
 
     ![Logo MAT2](assets/img/data-redaction/mat2.svg){ align=right }
     
-    **MAT2** est un logiciel gratuit, qui permet de supprimer les métadonnées des types de fichiers image, audio, torrent et document. Il fournit à la fois un outil en ligne de commande et une interface utilisateur graphique via une [extension pour Nautilus](https://0xacab.org/jvoisin/mat2/-/tree/master/nautilus), le gestionnaire de fichiers par défaut de [GNOME](https://www.gnome.org), et [Dolphin](https://0xacab.org/jvoisin/mat2/-/tree/master/dolphin), le gestionnaire de fichiers par défaut de [KDE](https://kde.org).
+    **MAT2** est un logiciel gratuit, qui permet de supprimer les métadonnées des types de fichiers image, audio, torrent et document. It provides both a command line tool and a graphical user interface via an extension for [Dolphin](https://0xacab.org/jvoisin/mat2/-/tree/master/dolphin), the default file manager of [KDE](https://kde.org).
     
     Sous Linux, un outil graphique tiers [Metadata Cleaner](https://gitlab.com/rmnvgr/metadata-cleaner) fonctionnant avec MAT2 existe et est [disponible sur Flathub](https://flathub.org/apps/details/fr.romainvigier.MetadataCleaner).
     

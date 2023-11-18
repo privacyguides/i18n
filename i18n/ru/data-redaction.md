@@ -16,7 +16,7 @@ cover: data-redaction.webp
 
     ![Логотип MAT2](assets/img/data-redaction/mat2.svg){ align=right }
     
-    **MAT2** - это бесплатное программное обеспечение, которое позволяет удалять метаданные из изображений, аудио, торрентов и документов. Оно предоставляет как инструмент командной строки, так и графический интерфейс пользователя через [расширение для Nautilus](https://0xacab.org/jvoisin/mat2/-/tree/master/nautilus) (файловый менеджер по умолчанию в [GNOME](https://www.gnome.org)), и [Dolphin](https://0xacab.org/jvoisin/mat2/-/tree/master/dolphin) (файловый менеджер по умолчанию в [KDE](https://kde.org)).
+    **MAT2** - это бесплатное программное обеспечение, которое позволяет удалять метаданные из изображений, аудио, торрентов и документов. It provides both a command line tool and a graphical user interface via an extension for [Dolphin](https://0xacab.org/jvoisin/mat2/-/tree/master/dolphin), the default file manager of [KDE](https://kde.org).
     
     В Linux существует сторонний графический инструмент [Metadata Cleaner](https://gitlab.com/rmnvgr/metadata-cleaner) на базе MAT2, который [доступен на Flathub](https://flathub.org/apps/details/fr.romainvigier.MetadataCleaner).
     

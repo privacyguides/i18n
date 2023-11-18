@@ -16,7 +16,7 @@ cover: data-redaction.webp
 
     ![MAT2标志](assets/img/data-redaction/mat2.svg){ align=right }
     
-    **MAT2**是免费软件，它允许从图像、音频、洪流和文件类型中删除元数据。 [KDE]它通过[Nautilus的扩展](https://0xacab.org/jvoisin/mat2/-/tree/master/nautilus)提供命令行工具和图形用户界面， [GNOME](https://www.gnome.org)的默认文件管理器和 [Dolphin](https://0xacab.org/jvoisin/mat2/-/tree/master/dolphin)的默认文件管理器(https://kde.org)。
+    **MAT2**是免费软件，它允许从图像、音频、洪流和文件类型中删除元数据。 It provides both a command line tool and a graphical user interface via an extension for [Dolphin](https://0xacab.org/jvoisin/mat2/-/tree/master/dolphin), the default file manager of [KDE](https://kde.org).
     
     在Linux上，存在一个由MAT2驱动的第三方图形工具[Metadata Cleaner](https://gitlab.com/rmnvgr/metadata-cleaner)，并[在Flathub上提供](https://flathub.org/apps/details/fr.romainvigier.MetadataCleaner)。
     

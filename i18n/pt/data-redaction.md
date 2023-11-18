@@ -17,7 +17,7 @@ Ao partilhar ficheiros, certifique-se de que remove os metadados associados. Os 
 
     ![MAT2 logo](assets/img/data-redaction/mat2.svg){ align=right }
     
-    **MAT2** is free software, which allows the metadata to be removed from image, audio, torrent, and document file types. Ele suporta processamento em lote de vários núcleos e modo escuro.
+    **MAT2** is free software, which allows the metadata to be removed from image, audio, torrent, and document file types. It provides both a command line tool and a graphical user interface via an extension for [Dolphin](https://0xacab.org/jvoisin/mat2/-/tree/master/dolphin), the default file manager of [KDE](https://kde.org).
     
     [Visite exifcleaner.com](https://exifcleaner.com){ .md-button .md-button--primary }
     

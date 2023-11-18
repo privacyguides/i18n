@@ -16,7 +16,7 @@ cover: data-redaction.webp
 
     ![MAT2 לוגו](assets/img/data-redaction/mat2.svg){ align=right }
     
-    **MAT2** היא תוכנה חופשית, המאפשרת להסיר את המטא נתונים מסוגים של תמונות, אודיו, טורנטים ומסמכים. הוא מספק גם כלי שורת פקודה וגם ממשק משתמש גרפי באמצעות [הרחבה עבור Nautilus](https://0xacab.org/jvoisin/mat2/-/tree/master/nautilus), מנהל הקבצים המוגדר כברירת מחדל של [GNOME](https://www.gnome.org), ו-[Dolphin](https://0xacab.org/jvoisin/mat2/-/tree/master/dolphin), מנהל הקבצים המוגדר כברירת מחדל של [KDE](https://kde.org).
+    **MAT2** היא תוכנה חופשית, המאפשרת להסיר את המטא נתונים מסוגים של תמונות, אודיו, טורנטים ומסמכים. It provides both a command line tool and a graphical user interface via an extension for [Dolphin](https://0xacab.org/jvoisin/mat2/-/tree/master/dolphin), the default file manager of [KDE](https://kde.org).
     
     בלינקוס, קיים כלי גרפי של צד שלישי [Metadata Cleaner](https://gitlab.com/rmnvgr/metadata-cleaner) המופעל על ידי MAT2 והוא [זמין ב-Flathub](https://flathub.org/apps/details/fr.romainvigier.MetadataCleaner).
     
