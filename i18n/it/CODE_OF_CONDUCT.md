@@ -28,7 +28,7 @@ Cosa ci aspettiamo dai membri delle nostre community:
       - Giving and gracefully accepting constructive feedback within' our community while growing and improving.
       - Operating with a communal mindset at all times.
 
-## Comportamento inaccettabile
+## Comportamento Inaccettabile
 
 I seguenti comportamenti sono considerati molestie e non sono accettati nella nostra community:
 
@@ -44,9 +44,9 @@ Il nostro Codice di Condotta si applica a tutti gli spazi del progetto, nonché 
 
 We are responsible for clarifying the standards of our community and have the right to remove or alter the comments of those participating within our community, as necessary and at our discretion.
 
-## Contact
+## Contatti
 
-If you observe a problem on a platform like Matrix or Reddit, please contact our moderators on that platform via chat, direct message, or any designated "Modmail" system.
+Se noti un problema su una piattaforma come Matrix o Reddit, ti preghiamo di contattare i nostri moderatori su quella piattaforma tramite chat, messaggio diretto o qualsiasi sistema "Modmail" designato.
 
 If you have a problem elsewhere, or a problem that our community moderators are unable to resolve, reach out to `jonah@privacyguides.org` and/or `dngray@privacyguides.org`.
 
