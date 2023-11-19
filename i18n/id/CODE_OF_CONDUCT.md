@@ -10,44 +10,44 @@
 
 Apa yang kami harapkan dari para anggota komunitas kami:
 
-1. **Jangan menyebarkan informasi yang salah**
+1. **Do not spread misinformation**
 
-      Kami menciptakan komunitas edukasi berbasis bukti seputar privasi dan keamanan informasi, bukan rumah bagi teori konspirasi. Misalnya, ketika membuat klaim bahwa perangkat lunak tertentu berbahaya atau data telemetri tertentu melanggar privasi, jelaskan secara rinci apa yang dikumpulkan dan bagaimana cara pengumpulannya. Klaim semacam ini harus didukung oleh bukti teknis.
+      We are creating an evidence-based educational community around information privacy and security, not an information home for conspiracy theories. For example, when making a claim that a certain piece of software is malicious or that certain telemetry data is privacy invasive; explain in detail what is collected and how it collected. Klaim semacam ini harus didukung oleh bukti teknis.
 
-1. **Jangan menyalahgunakan kesediaan kita untuk membantu**
+2. **Do not abuse our willingness to help**
 
-      Anggota komunitas kami bukanlah dukungan teknis gratis bagi Anda. Kami dengan senang hati membantu Anda dengan langkah-langkah spesifik dalam perjalanan privasi Anda jika Anda bersedia untuk berusaha. Kami tidak bersedia menjawab pertanyaan yang berulang-ulang tentang masalah komputer umum yang dapat Anda jawab sendiri dengan pencarian internet selama 30 detik. Jangan menjadi [vampir bantuan](https://slash7.com/2006/12/22/vampires/).
+      Our community members are not free tech support. We are happy to help with specific steps for individual's, privacy journey, if they are willing to put in effort. We are not obligated to answer endless, repetitive questions, about general computer problems solvable with a simple internet search. **Do not** become a [help vampire](https://slash7.com/2006/12/22/vampires/).
 
-1. **Berperilaku dengan cara yang positif dan konstruktif**
+3. **Berperilaku dengan cara yang positif dan konstruktif**
 
       Contoh perilaku yang berkontribusi pada lingkungan positif bagi komunitas kita meliputi:
 
-      - Menunjukkan kepedulian dan kebaikan terhadap orang lain
-      - Menghormati opini, pandangan, dan pengalaman yang berbeda
-      - Memberikan dan menerima umpan balik yang konstruktif secara sopan
-      - Menerima tanggung jawab dan meminta maaf kepada yang terdampak dari kesalahan kita, dan belajar dari pengalaman
-      - Berfokus pada apa yang terbaik, bukan hanya untuk kita sebagai individu, tetapi juga untuk komunitas secara keseluruhan
+      - Being respectful of differing opinions, viewpoints, and experiences.
+      - Demonstrating empathy and kindness toward others.
+      - Focusing on what is best not just for us as overseers, but for the overall community.
+      - Giving and gracefully accepting constructive feedback within' our community while growing and improving.
+      - Operating with a communal mindset at all times.
 
-### Perilaku yang Tidak Dapat Diterima
+## Unacceptable Behavior
 
 Perilaku berikut ini dianggap sebagai pelecehan dan tidak dapat diterima dalam komunitas kami:
 
-- Penggunaan bahasa atau gambar yang berbau seksual, dan perhatian atau rayuan seksual dalam bentuk apa pun
-- Komentar yang bersifat mengganggu, menghina atau merendahkan, dan serangan pribadi atau politik
-- Pelecehan publik atau pribadi
-- Mempublikasikan informasi pribadi orang lain, seperti alamat fisik atau surel, tanpa izin eksplisit dari mereka
-- Perilaku lain yang secara wajar dapat dianggap tidak pantas dalam lingkungan profesional
+- Any other conduct which would reasonably be considered inappropriate in a professional setting.
+- Public and/or private harassment of any kind.
+- Publishing others' private information, such as a physical address and/or email address, without a persons explicit permission.
+- The use of sexualized language or imagery, and sexual attention or advances of any kind.
+- Trolling, insulting and/or derogatory comments, including personal or political attacks.
 
-## Jangkauan
+## Scope
 
 Kode Etik kami berlaku di semua ruang proyek, serta ketika seseorang mewakili proyek Privacy Guides di komunitas lain.
 
-Kami bertanggung jawab untuk mengklarifikasi standar komunitas kami, dan memiliki hak untuk menghapus atau mengubah komentar mereka yang berpartisipasi dalam komunitas kami, jika diperlukan dan atas kebijakan kami.
+We are responsible for clarifying the standards of our community and have the right to remove or alter the comments of those participating within our community, as necessary and at our discretion.
 
-### Kontak
+## Contact
 
-Jika Anda menemukan masalah di platform seperti Matrix atau Reddit, silakan hubungi moderator kami di platform tersebut dalam obrolan, melalui pesan langsung, atau melalui sistem "Modmail" yang telah ditentukan.
+If you observe a problem on a platform like Matrix or Reddit, please contact our moderators on that platform via chat, direct message, or any designated "Modmail" system.
 
-Jika Anda memiliki masalah di tempat lain, atau masalah yang tidak dapat diselesaikan oleh moderator komunitas kami, hubungi `jonah@privacyguides.org` dan/atau `dngray@privacyguides.org`.
+If you have a problem elsewhere, or a problem that our community moderators are unable to resolve, reach out to `jonah@privacyguides.org` and/or `dngray@privacyguides.org`.
 
-Semua tokoh masyarakat berkewajiban untuk menghormati privasi dan keamanan pelapor insiden apa pun.
+All community leaders are obligated to respect the privacy and security of reporters for all incidents.

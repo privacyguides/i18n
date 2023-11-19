@@ -10,44 +10,44 @@
 
 Wat we verwachten van leden van onze community:
 
-1. **Verspreid geen verkeerde informatie**
+1. **Do not spread misinformation**
 
-      Wij creëren een op feiten gebaseerde onderwijsgemeenschap rond informatieprivacy en -beveiliging, geen huis voor complottheorieën. Als u bijvoorbeeld beweert dat een bepaald stuk software kwaadaardig is of dat bepaalde telemetriegegevens inbreuk maken op de privacy, leg dan in detail uit wat er wordt verzameld en hoe dat gebeurt. Dergelijke beweringen moeten met technische bewijzen worden gestaafd.
+      We are creating an evidence-based educational community around information privacy and security, not an information home for conspiracy theories. For example, when making a claim that a certain piece of software is malicious or that certain telemetry data is privacy invasive; explain in detail what is collected and how it collected. Dergelijke beweringen moeten met technische bewijzen worden gestaafd.
 
-1. **Maak geen misbruik van onze bereidheid om te helpen**
+2. **Do not abuse our willingness to help**
 
-      Onze gemeenschapsleden zijn niet uw gratis technische ondersteuning. Wij helpen je graag met specifieke stappen op jouw privacyreis als je bereid bent er zelf moeite voor te doen. Wij zijn niet bereid eindeloos herhaalde vragen te beantwoorden over algemene computerproblemen die je zelf had kunnen beantwoorden met een 30 seconden durende zoektocht op internet. Wees geen [help vampier](https://slash7.com/2006/12/22/vampires/).
+      Our community members are not free tech support. We are happy to help with specific steps for individual's, privacy journey, if they are willing to put in effort. We are not obligated to answer endless, repetitive questions, about general computer problems solvable with a simple internet search. **Do not** become a [help vampire](https://slash7.com/2006/12/22/vampires/).
 
-1. **Gedraag je op een positieve en constructieve manier**
+3. **Gedraag je op een positieve en constructieve manier**
 
       Voorbeelden van gedrag dat bijdraagt aan een positieve omgeving voor onze gemeenschap zijn:
 
-      - Empathie en vriendelijkheid tonen ten opzichte van andere mensen
-      - Respect hebben voor verschillende meningen, standpunten en ervaringen
-      - Op een elegante manier constructieve feedback geven en accepteren
-      - Verantwoordelijkheid nemen en excuses aanbieden aan degenen die getroffen zijn door onze fouten, en leren van de ervaring
-      - Focussen op wat het beste is, niet alleen voor ons als individuen, maar voor de hele gemeenschap
+      - Being respectful of differing opinions, viewpoints, and experiences.
+      - Demonstrating empathy and kindness toward others.
+      - Focusing on what is best not just for us as overseers, but for the overall community.
+      - Giving and gracefully accepting constructive feedback within' our community while growing and improving.
+      - Operating with a communal mindset at all times.
 
-### Onaanvaardbaar gedrag
+## Unacceptable Behavior
 
 De volgende gedragingen worden beschouwd als intimidatie en zijn onaanvaardbaar binnen onze gemeenschap:
 
-- Het gebruik van geseksualiseerde taal of beelden, en seksuele aandacht of vooruitgang van welke aard dan ook
-- Trollen, beledigen of denigrerende opmerkingen, en persoonlijke of politieke aanvallen
-- Openbare of particuliere intimidatie
-- Publiceren van persoonlijke informatie van anderen, zoals een fysiek of e-mailadres, zonder hun uitdrukkelijke toestemming
-- Ander gedrag dat redelijkerwijs als ongepast kan worden beschouwd in een professionele omgeving
+- Any other conduct which would reasonably be considered inappropriate in a professional setting.
+- Public and/or private harassment of any kind.
+- Publishing others' private information, such as a physical address and/or email address, without a persons explicit permission.
+- The use of sexualized language or imagery, and sexual attention or advances of any kind.
+- Trolling, insulting and/or derogatory comments, including personal or political attacks.
 
-## Toepassingsgebied
+## Scope
 
 Onze Gedragscode is van toepassing binnen alle projectruimten, evenals wanneer een persoon het project Privacy Guides in andere gemeenschappen vertegenwoordigt.
 
-Wij zijn verantwoordelijk voor het verduidelijken van de normen van onze community en hebben het recht om de opmerkingen van degenen die deelnemen aan onze community te verwijderen of te wijzigen, indien nodig en naar eigen goeddunken.
+We are responsible for clarifying the standards of our community and have the right to remove or alter the comments of those participating within our community, as necessary and at our discretion.
 
-### Contact
+## Contact
 
-Als u een probleem opmerkt op een platform zoals Matrix of Reddit, neem dan contact op met onze moderators op dat platform in de chat, via DM of via een aangewezen "Modmail" -systeem.
+If you observe a problem on a platform like Matrix or Reddit, please contact our moderators on that platform via chat, direct message, or any designated "Modmail" system.
 
-Als je ergens anders een probleem hebt of een probleem dat onze communitymoderators niet kunnen oplossen, neem dan contact op met `jonah@privacyguides.org` en/of `dngray@privacyguides.org`.
+If you have a problem elsewhere, or a problem that our community moderators are unable to resolve, reach out to `jonah@privacyguides.org` and/or `dngray@privacyguides.org`.
 
-Alle gemeenschapsleiders zijn verplicht om de privacy en veiligheid van de melder van een incident te respecteren.
+All community leaders are obligated to respect the privacy and security of reporters for all incidents.

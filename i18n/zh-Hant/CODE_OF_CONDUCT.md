@@ -10,44 +10,44 @@
 
 我們對社區成員的期許:
 
-1. **不要散佈不實消息**
+1. **Do not spread misinformation**
 
-      我們欲打造一個以證據為基石的教育社區，用來討論資訊隱私與安全，而不是陰謀論的溫床。 例如，聲稱某個軟體是惡意軟體或某些遙測資訊侵犯隱私時，請詳細解釋收集的內容和收集方式。 宣稱的本質必須有技術證據支撐。
+      We are creating an evidence-based educational community around information privacy and security, not an information home for conspiracy theories. For example, when making a claim that a certain piece of software is malicious or that certain telemetry data is privacy invasive; explain in detail what is collected and how it collected. 宣稱的本質必須有技術證據支撐。
 
-1. **請勿濫用別人幫忙的善意**
+2. **Do not abuse our willingness to help**
 
-      社區成員並不是免費的技術支援者 如果您願意為此付出努力，我們很樂意幫助您完成隱私之旅的具體步驟。 我們不願回答一再重複的電腦常見問題，它們只需花 30 秒網路搜尋即可找到答案。 不要 [助紂為虐](https://slash7.com/2006/12/22/vampires/)。
+      Our community members are not free tech support. We are happy to help with specific steps for individual's, privacy journey, if they are willing to put in effort. We are not obligated to answer endless, repetitive questions, about general computer problems solvable with a simple internet search. **Do not** become a [help vampire](https://slash7.com/2006/12/22/vampires/).
 
-1. **舉止要積極正向**
+3. **舉止要積極正向**
 
       有助於為社區創造積極環境的行為示例包括：
 
-      - 表現出對他人的同情和友善
-      - 尊重各種不同的觀點和經驗
-      - 給予並優雅地接受建設性反饋
-      - 承擔責任並向因我們錯誤而受影響的人道歉，從經驗中吸取教訓
-      - 專注於不僅對個人也對整個社區最有利的事情
+      - Being respectful of differing opinions, viewpoints, and experiences.
+      - Demonstrating empathy and kindness toward others.
+      - Focusing on what is best not just for us as overseers, but for the overall community.
+      - Giving and gracefully accepting constructive feedback within' our community while growing and improving.
+      - Operating with a communal mindset at all times.
 
-### 不允許的行為
+## Unacceptable Behavior
 
 以下行為被視為騷擾，本社區不認可這些行為:
 
-- 使用帶有性暗示的言語或圖像或不受歡迎的性關注
-- 惡意破壞、貶損他人評論與人身攻擊
-- 公開或私下場合騷擾他人
-- 未經許可的公開其他人的個資，如住址、電郵
-- 任何在一個專業的場合下被合理的認為不應出現的行為
+- Any other conduct which would reasonably be considered inappropriate in a professional setting.
+- Public and/or private harassment of any kind.
+- Publishing others' private information, such as a physical address and/or email address, without a persons explicit permission.
+- The use of sexualized language or imagery, and sexual attention or advances of any kind.
+- Trolling, insulting and/or derogatory comments, including personal or political attacks.
 
-## 範圍
+## Scope
 
 我們的行為守則適用在專案的各個面向，也適用於在外代表 Privacy Guides 的個人。
 
-我們有責任闡明社區標準，並有權在必要時自行決定刪除或更改社區參與者的評論。
+We are responsible for clarifying the standards of our community and have the right to remove or alter the comments of those participating within our community, as necessary and at our discretion.
 
-### 聯絡
+## Contact
 
-如果在 Matrix 或 Reddit 等平台上發現問題，請通過聊天、DM 或任何指定的“Modmail”系統聯繫我們在該平台上的版主。
+If you observe a problem on a platform like Matrix or Reddit, please contact our moderators on that platform via chat, direct message, or any designated "Modmail" system.
 
-如果您有其它問題或困難而本社區的版主管理員無法處理， 請聯絡: `jonah@privacyguides.org` 或`dngray@privacyguides.org`.
+If you have a problem elsewhere, or a problem that our community moderators are unable to resolve, reach out to `jonah@privacyguides.org` and/or `dngray@privacyguides.org`.
 
-所有社區領導人有義務尊重事件申報人的隱私與安全。
+All community leaders are obligated to respect the privacy and security of reporters for all incidents.

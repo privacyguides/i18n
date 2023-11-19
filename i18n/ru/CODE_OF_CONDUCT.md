@@ -10,44 +10,44 @@
 
 Что мы ожидаем от участников наших сообществ:
 
-1. **Не распространяйте дезинформацию**
+1. **Do not spread misinformation**
 
-      Мы создаем основанное на фактах образовательное сообщество по вопросам конфиденциальности и безопасности информации, а не дом для теорий заговора. Например, утверждая, что определенное программное обеспечение является вредоносным или что определенные телеметрические данные нарушают неприкосновенность частной жизни, подробно объясните, что и как собирается. Заявления такого рода должны быть подкреплены техническими доказательствами.
+      We are creating an evidence-based educational community around information privacy and security, not an information home for conspiracy theories. For example, when making a claim that a certain piece of software is malicious or that certain telemetry data is privacy invasive; explain in detail what is collected and how it collected. Заявления такого рода должны быть подкреплены техническими доказательствами.
 
-1. **Не злоупотребляйте нашей готовностью помочь**
+2. **Do not abuse our willingness to help**
 
-      Члены нашего сообщества - это не бесплатная техническая поддержка. Мы будем рады помочь вам с конкретными шагами на пути к конфиденциальности, если вы готовы приложить усилия со своей стороны. Мы не готовы отвечать на бесконечно повторяющиеся вопросы об общих компьютерных проблемах, на которые вы могли бы ответить сами, проведя 30-ти секундный поиск в интернете. Не будьте [вампиром, ищущим помощь](https://slash7.com/2006/12/22/vampires/).
+      Our community members are not free tech support. We are happy to help with specific steps for individual's, privacy journey, if they are willing to put in effort. We are not obligated to answer endless, repetitive questions, about general computer problems solvable with a simple internet search. **Do not** become a [help vampire](https://slash7.com/2006/12/22/vampires/).
 
-1. **Ведите себя позитивно и конструктивно**
+3. **Ведите себя позитивно и конструктивно**
 
       Примеры поведения, которые способствуют созданию благоприятной среды для нашего сообщества, включают:
 
-      - Демонстрация сочувствия и доброты по отношению к другим людям
-      - Уважительное отношение к различным мнениям, точкам зрения и опыту
-      - Давать и вежливо принимать конструктивный фидбэк
-      - Брать ответственность и приносить извинения тем, кого затронули наши ошибки, и учиться на этом опыте
-      - Сосредоточение внимания на том, что лучше не только для нас, но и для всего сообщества
+      - Being respectful of differing opinions, viewpoints, and experiences.
+      - Demonstrating empathy and kindness toward others.
+      - Focusing on what is best not just for us as overseers, but for the overall community.
+      - Giving and gracefully accepting constructive feedback within' our community while growing and improving.
+      - Operating with a communal mindset at all times.
 
-### Неприемлемое поведение
+## Unacceptable Behavior
 
 Следующие виды поведения считаются харасментом и являются неприемлемыми в нашем сообществе:
 
-- Использование сексуализированного языка или образов, а также сексуальное внимание или приставания любого рода
-- Издевательства, оскорбительные или уничижительные комментарии, а также личные или политические нападки
-- Публичный или личный харасмент
-- Публикация личной информации других людей, такой как физический адрес или адрес электронной почты, без их явного разрешения
-- Другие действия, которые можно обоснованно считать неуместными в профессиональной среде
+- Any other conduct which would reasonably be considered inappropriate in a professional setting.
+- Public and/or private harassment of any kind.
+- Publishing others' private information, such as a physical address and/or email address, without a persons explicit permission.
+- The use of sexualized language or imagery, and sexual attention or advances of any kind.
+- Trolling, insulting and/or derogatory comments, including personal or political attacks.
 
-## Область применения
+## Scope
 
 Наш кодекс поведения действует во всех областях проекта, а также в тех случаях, когда человек представляет проект Privacy Guides в других сообществах.
 
-Мы несем ответственность за разъяснение стандартов нашего сообщества и имеем право удалять или изменять комментарии участников нашего сообщества по мере необходимости и по нашему усмотрению.
+We are responsible for clarifying the standards of our community and have the right to remove or alter the comments of those participating within our community, as necessary and at our discretion.
 
-### Обратная связь
+## Contact
 
-Если вы заметили проблему на такой платформе, как Matrix или Reddit, пожалуйста, свяжитесь с нашими модераторами на этой платформе в чате, через DM или через любую специальную систему "Modmail".
+If you observe a problem on a platform like Matrix or Reddit, please contact our moderators on that platform via chat, direct message, or any designated "Modmail" system.
 
-Если у вас возникла проблема в другом месте или проблема, которую не могут решить наши модераторы сообщества, обращайтесь на `jonah@privacyguides.org` и/или `dngray@privacyguides.org`.
+If you have a problem elsewhere, or a problem that our community moderators are unable to resolve, reach out to `jonah@privacyguides.org` and/or `dngray@privacyguides.org`.
 
-Все лидеры сообщества обязуются уважать конфиденциальность и безопасность сообщившего о любом инциденте.
+All community leaders are obligated to respect the privacy and security of reporters for all incidents.
