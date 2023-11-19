@@ -10,11 +10,11 @@
 
 Cosa ci aspettiamo dai membri delle nostre community:
 
-1. **Do not spread misinformation**
+1. **Non diffondere disinformazione**
 
       We are creating an evidence-based educational community around information privacy and security, not an information home for conspiracy theories. For example, when making a claim that a certain piece of software is malicious or that certain telemetry data is privacy invasive; explain in detail what is collected and how it collected. Affermazioni di questo tipo devono essere supportate da prove tecniche.
 
-2. **Do not abuse our willingness to help**
+2. **Non abusare della nostra disponibilità ad aiutare**
 
       Our community members are not free tech support. We are happy to help with specific steps for individual's, privacy journey, if they are willing to put in effort. We are not obligated to answer endless, repetitive questions, about general computer problems solvable with a simple internet search. **Do not** become a [help vampire](https://slash7.com/2006/12/22/vampires/).
 
@@ -28,15 +28,15 @@ Cosa ci aspettiamo dai membri delle nostre community:
       - Giving and gracefully accepting constructive feedback within' our community while growing and improving.
       - Operating with a communal mindset at all times.
 
-## Unacceptable Behavior
+## Comportamento inaccettabile
 
 I seguenti comportamenti sono considerati molestie e non sono accettati nella nostra community:
 
-- Any other conduct which would reasonably be considered inappropriate in a professional setting.
-- Public and/or private harassment of any kind.
-- Publishing others' private information, such as a physical address and/or email address, without a persons explicit permission.
-- The use of sexualized language or imagery, and sexual attention or advances of any kind.
-- Trolling, insulting and/or derogatory comments, including personal or political attacks.
+- Qualsiasi altro comportamento che potrebbe ragionevolmente essere considerato inappropriato in un contesto professionale.
+- Molestie pubbliche e/o private di qualsiasi tipo.
+- Pubblicare informazioni private altrui, come indirizzo fisico e/o indirizzo e-mail, senza l'esplicito permesso di una persona.
+- L'uso di un linguaggio o di immagini sessuali e di attenzioni o avance sessuali di qualsiasi tipo.
+- Trolling, commenti offensivi e/o sprezzanti, compresi attacchi personali o politici.
 
 ## Scope
 
