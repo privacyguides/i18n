@@ -23,7 +23,7 @@ Cosa ci aspettiamo dai membri delle nostre community:
       Esempi di comportamenti che contribuiscono a creare un ambiente positivo per la nostra community sono:
 
       - Being respectful of differing opinions, viewpoints, and experiences.
-      - Demonstrating empathy and kindness toward others.
+      - Dimostrare empatia e gentilezza verso gli altri.
       - Focusing on what is best not just for us as overseers, but for the overall community.
       - Giving and gracefully accepting constructive feedback within' our community while growing and improving.
       - Operating with a communal mindset at all times.
