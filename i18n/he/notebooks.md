@@ -60,7 +60,7 @@ cover: notebooks.webp
         - [:simple-firefoxbrowser: Firefox](https://notesnook.com/notesnook-web-clipper/)
         - [:simple-googlechrome: כרום](https://chrome.google.com/webstore/detail/notesnook-web-clipper/kljhpemdlcnjohmfmkogahelkcidieaj)
 
-Notesnook אינו תומך בהגנה על סיסמה/קוד באינטרנט & אפליקציות לשולחן העבודה. עם זאת, אתה עדיין יכול לנעול הערות בודדות, והנתונים שלך תמיד מוצפנים במעבר ובמכשיר שלך באמצעות המפתח הראשי שלך.
+Notesnook only allows local note encryption with the [private vault](https://help.notesnook.com/lock-notes-with-private-vault) feature on their pro plan, otherwise your notes are not stored encrypted on your device. Your notes are always encrypted before being synced to their servers with keys which only you have access to.
 
 ### Joplin
 

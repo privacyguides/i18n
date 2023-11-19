@@ -62,7 +62,7 @@ Se estiver a utilizar atualmente uma aplicação como o Evernote, o Google Keep 
         - [:simple-firefoxbrowser: Firefox](https://notesnook.com/notesnook-web-clipper/)
         - [:simple-googlechrome: Chrome](https://chrome.google.com/webstore/detail/notesnook-web-clipper/kljhpemdlcnjohmfmkogahelkcidieaj)
 
-O Notesnook não suporta proteção por palavra-passe/PIN de proteção na web e aplicações de ambiente de trabalho. No entanto, poderá continuar a bloquear notas individuais e os seus dados são sempre encriptados em trânsito e no seu dispositivo, utilizando a sua chave mestra.
+Notesnook only allows local note encryption with the [private vault](https://help.notesnook.com/lock-notes-with-private-vault) feature on their pro plan, otherwise your notes are not stored encrypted on your device. Your notes are always encrypted before being synced to their servers with keys which only you have access to.
 
 ### Joplin
 

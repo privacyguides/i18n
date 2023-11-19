@@ -60,7 +60,7 @@ Si vous utilisez actuellement une application comme Evernote, Google Keep, ou Mi
         - [:simple-firefoxbrowser: Firefox](https://notesnook.com/notesnook-web-clipper/)
         - [:simple-googlechrome: Chrome](https://chrome.google.com/webstore/detail/notesnook-web-clipper/kljhpemdlcnjohmfmkogahelkcidieaj)
 
-Notesnook ne prend pas en charge la protection par mot de passe/PIN sur les applications web & bureau. Cependant, vous pouvez toujours verrouiller des notes individuelles, et vos données sont toujours chiffrées en transit et sur votre appareil à l'aide de votre clé principale.
+Notesnook only allows local note encryption with the [private vault](https://help.notesnook.com/lock-notes-with-private-vault) feature on their pro plan, otherwise your notes are not stored encrypted on your device. Your notes are always encrypted before being synced to their servers with keys which only you have access to.
 
 ### Joplin
 
