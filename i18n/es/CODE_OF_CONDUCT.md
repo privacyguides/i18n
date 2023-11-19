@@ -10,44 +10,44 @@
 
 Lo que esperamos de los miembros de nuestras comunidades:
 
-1. **Do not spread misinformation**
+1. **No difundas información incorrecta**
 
-      We are creating an evidence-based educational community around information privacy and security, not an information home for conspiracy theories. For example, when making a claim that a certain piece of software is malicious or that certain telemetry data is privacy invasive; explain in detail what is collected and how it collected. Las afirmaciones de esta naturaleza deben estar respaldadas por pruebas técnicas.
+      Estamos creando una comunidad educativa basada en pruebas en torno a la privacidad y la seguridad de la información, no un hogar informativo para teorías conspirativas. Por ejemplo, al afirmar que un determinado programa informático es malicioso o que ciertos datos telemétricos invaden la intimidad, explica detalladamente qué se recoge y cómo se recoge. Las afirmaciones de esta naturaleza deben estar respaldadas por pruebas técnicas.
 
-2. **Do not abuse our willingness to help**
+2. **No abuses de nuestra voluntad a ayudar**
 
-      Our community members are not free tech support. We are happy to help with specific steps for individual's, privacy journey, if they are willing to put in effort. We are not obligated to answer endless, repetitive questions, about general computer problems solvable with a simple internet search. **Do not** become a [help vampire](https://slash7.com/2006/12/22/vampires/).
+      Los miembros de nuestra comunidad no son un servicio técnico gratuito. Estamos encantados de ayudarte con pasos específicos en tu camino hacia la privacidad si estás dispuesto a poner esfuerzo de tu parte. No estamos obligados a responder a preguntas interminables y repetitivas sobre problemas informáticos generales que pueden resolverse con una simple búsqueda en Internet. **No** te conviertas en un [vampiro de ayuda](https://slash7.com/2006/12/22/vampires/).
 
 3. **Compórtate de manera positiva y constructiva**
 
       Ejemplos de comportamiento que contribuye a un ambiente positivo incluye:
 
-      - Being respectful of differing opinions, viewpoints, and experiences.
-      - Demonstrating empathy and kindness toward others.
-      - Focusing on what is best not just for us as overseers, but for the overall community.
-      - Giving and gracefully accepting constructive feedback within' our community while growing and improving.
-      - Operating with a communal mindset at all times.
+      - Respetar las opiniones, puntos de vista y experiencias divergentes.
+      - Demostrar empatía y amabilidad hacia los demás.
+      - Centrarse en lo que es mejor no solo para nosotros como supervisores, sino para la comunidad en general.
+      - Dar y aceptar elegantemente comentarios constructivos dentro de nuestra comunidad mientras crecemos y mejoramos.
+      - Actuar con mentalidad comunitaria en todo momento.
 
-## Unacceptable Behavior
+## Comportamiento Inaceptable
 
 Los siguientes comportamientos se consideran acoso y son inaceptables dentro de nuestra comunidad:
 
-- Any other conduct which would reasonably be considered inappropriate in a professional setting.
-- Public and/or private harassment of any kind.
-- Publishing others' private information, such as a physical address and/or email address, without a persons explicit permission.
-- The use of sexualized language or imagery, and sexual attention or advances of any kind.
-- Trolling, insulting and/or derogatory comments, including personal or political attacks.
+- Cualquier otra conducta que razonablemente pudiera considerarse inapropiada en un entorno profesional.
+- Acoso público y/o privado de cualquier tipo.
+- Publicar información privada de otras personas, como una dirección física y/o una dirección de correo electrónico, sin su permiso explícito.
+- El uso de lenguaje o imágenes sexualizados, y las atenciones o insinuaciones sexuales de cualquier tipo.
+- Trollear, insultar y/o escribir comentarios despectivos, incluidos ataques personales o políticos.
 
-## Scope
+## Alcance
 
 Nuestro Código de Conducta se aplica en todos los espacios del proyecto, también cuando una persona representa al proyecto de Privacy Guides en otras comunidades.
 
-We are responsible for clarifying the standards of our community and have the right to remove or alter the comments of those participating within our community, as necessary and at our discretion.
+Somos responsables de aclarar las normas de nuestra comunidad y tenemos derecho a eliminar o modificar los comentarios de quienes participan en ella, según sea necesario y a nuestra discreción.
 
-## Contact
+## Contacto
 
-If you observe a problem on a platform like Matrix or Reddit, please contact our moderators on that platform via chat, direct message, or any designated "Modmail" system.
+Si observas un problema en una plataforma como Matrix o Reddit, ponte en contacto con nuestros moderadores en esa plataforma a través del chat, mensaje directo o cualquier sistema designado de "Modmail".
 
-If you have a problem elsewhere, or a problem that our community moderators are unable to resolve, reach out to `jonah@privacyguides.org` and/or `dngray@privacyguides.org`.
+Si tienes algún problema en otro sitio, o algún problema que los moderadores de nuestra comunidad no puedan resolver, ponte en contacto con `jonah@privacyguides.org` y/o `dngray@privacyguides.org`.
 
-All community leaders are obligated to respect the privacy and security of reporters for all incidents.
+Todos los líderes comunitarios están obligados a respetar la privacidad y seguridad de los informadores de todos los incidentes.

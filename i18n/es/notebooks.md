@@ -60,7 +60,7 @@ Si actualmente utilizas una aplicación como Evernote, Google Keep o Microsoft O
         - [:simple-firefoxbrowser: Firefox](https://notesnook.com/notesnook-web-clipper/)
         - [:simple-googlechrome: Chrome](https://chrome.google.com/webstore/detail/notesnook-web-clipper/kljhpemdlcnjohmfmkogahelkcidieaj)
 
-Notesnook only allows local note encryption with the [private vault](https://help.notesnook.com/lock-notes-with-private-vault) feature on their pro plan, otherwise your notes are not stored encrypted on your device. Your notes are always encrypted before being synced to their servers with keys which only you have access to.
+Notesnook solo permite el cifrado local de notas con la función [private vault](https://help.notesnook.com/lock-notes-with-private-vault) en su plan pro, de lo contrario tus notas no se almacenan cifradas en tu dispositivo. Tus notas se cifran siempre antes de sincronizarse con sus servidores mediante claves a las que solo tú tienes acceso.
 
 ### Joplin
 
