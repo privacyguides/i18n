@@ -5,17 +5,17 @@ icon: material/vpn
 description: 虛擬私用網路將風險從您的ISP 轉移到您信任的第三方。 你應該記住這些事情。
 ---
 
-Virtual Private Networks are a way of extending the end of your network to exit somewhere else in the world.
+虛擬專用網路是將您的網路末端延伸到世界其它地方的一種方式。
 
-Normally, an ISP can see the flow of internet traffic entering and exiting your network termination device (i.e. modem). Encryption protocols such as HTTPS are commonly used on the internet, so they may not be able to see exactly what you're posting or reading, but they can get an idea of the [domains you request](../advanced/dns-overview.md#why-shouldnt-i-use-encrypted-dns).
+ISP 可以看到網路終端設備（例如數據機）的網際網路進出流量。 HTTPS 等加密協議通常應用在網際網路，因此雖無法確切地知道您發布或閱讀的內容，但還是可以了解您所請求訪問的 [網域名](../advanced/dns-overview.md#why-shouldnt-i-use-encrypted-dns)。
 
-Using a VPN hides even this information from your ISP, by shifting the trust you place in your network to a server somewhere else in the world. As a result, the ISP then only sees that you are connected to a VPN and nothing about the activity that you're passing through it.
+Using a VPN hides even this information from your ISP, by shifting the trust you place in your network to a server somewhere else in the world. 因此， ISP只會看到您已連接到VPN ，而不會看到您正在傳遞的活動。
 
 !!! note "備註"
 
     When we refer to "Virtual Private Networks" on this website, we are usually referring to **commercial** [VPN providers](../vpn.md), who you pay a monthly fee to in exchange for routing your internet traffic securely through their public servers. There are many other forms of VPN, such as ones you host yourself or ones operated by workplaces which allow you to securely connect to internal/employee network resources, however, these VPNs are usually designed for accessing remote networks securely, rather than protecting the privacy of your internet connection.
 
-## How does a VPN work?
+## VPN工作原理
 
 VPNs encrypt your traffic between your device and a server owned by your VPN provider. From the perspective of anyone between you and the VPN server, it looks like you're connecting to the VPN server. From the perspective of anyone between the VPN server and your destination site, all they can see is the VPN server connecting to the website.
 
@@ -40,7 +40,7 @@ Note that a VPN does not add any security or encryption to your traffic between 
 
 VPNs can provide *some* of the same benefits Tor provides, such as hiding your IP from the websites you visit and geographically shifting your network traffic, and good VPN providers will not cooperate with e.g. legal authorities from oppressive regimes, especially if you choose a VPN provider outside your own jurisdiction.
 
-VPNs cannot encrypt data outside the connection between your device and the VPN server. VPN providers can also see and modify your traffic the same way your ISP could, so there is still a level of trust you are placing in them. 而且沒有方式可以驗證 VPN 提供商的“無記錄”政策是否貫徹。
+VPN 無法加密裝置與 VPN 伺服器之間連線以外的資料。 VPN providers can also see and modify your traffic the same way your ISP could, so there is still a level of trust you are placing in them. 而且沒有方式可以驗證 VPN 提供商的“無記錄”政策是否貫徹。
 
 ## When isn't a VPN suitable?
 

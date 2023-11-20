@@ -60,7 +60,7 @@ cover: notebooks.webp
         - [:simple-firefoxbrowser: Firefox](https://notesnook.com/notesnook-web-clipper/)
         - [:simple-googlechrome: Chrome](https://chrome.google.com/webstore/detail/notesnook-web-clipper/kljhpemdlcnjohmfmkogahelkcidieaj)
 
-Notesnook only allows local note encryption with the [private vault](https://help.notesnook.com/lock-notes-with-private-vault) feature on their pro plan, otherwise your notes are not stored encrypted on your device. Your notes are always encrypted before being synced to their servers with keys which only you have access to.
+Notesnook 僅允許使用其付費昇級方案使用本地筆記加密[私人保管庫](https://help.notesnook.com/lock-notes-with-private-vault)功能，不然筆記則以未加密方式儲存在裝置上。 筆記本在同步到伺服器之前會使用僅您可以存取的金鑰作加密。
 
 ### Joplin
 
