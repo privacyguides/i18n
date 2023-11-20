@@ -20,24 +20,24 @@ Bu alternatifler ihtiyaçlarınızı karşılamıyorsa, başka bir bulut sağlay
 
     ![Proton Drive logo](assets/img/cloud/protondrive.svg){ align=right }
     
-    **Proton Drive** is a Swiss encrypted cloud storage provider from the popular encrypted email provider [Proton Mail](email.md#proton-mail).
+    **Proton Drive** popüler şifrelenmiş e-posta sağlayıcısı [Proton Mail]'in isviçre tabanlı şifrelenmiş bulut depolama aracıdır.(email.md#proton-mail).
     
     [:octicons-home-16: Homepage](https://proton.me/drive){ class="md-button md-button--primary" }
     [:octicons-eye-16:](https://proton.me/legal/privacy){ .card-link title="Privacy Policy" }
     [:octicons-info-16:](https://proton.me/support/drive){ .card-link title=Documentation}
     [:octicons-code-16:](https://github.com/ProtonMail/WebClients){ .card-link title="Source Code" }
     
-    ??? downloads
+    ??? indirmeler
     
         - [:simple-googleplay: Google Play](https://play.google.com/store/apps/details?id=me.proton.android.drive)
         - [:simple-appstore: App Store](https://apps.apple.com/app/id1509667851)
         - [:simple-windows11: Windows](https://proton.me/drive/download)
 
-The Proton Drive web application has been independently audited by Securitum in [2021](https://proton.me/blog/security-audit-all-proton-apps), full details were not made available, but Securitum's letter of attestation states:
+Proton Drive web uygulaması [2021](https://proton.me/blog/security-audit-all-proton-apps)yılında Securitum tarafından bağımsız olarak denetlenmiştir, tüm ayrıntılar mevcut değildir, ancak Securitum'un tasdik mektubunda şunlar belirtilmiştir:
 
-> Auditors identified two low-severity vulnerabilities. Additionally, five general recommendations were reported. At the same time, we confirm that no important security issues were identified during the pentest.
+> Denetçiler iki adet düşük şiddette güvenlik açığı tespit etmiştir. Ek olarak, 5 genel tavsiye raporu verilmiştir. Bununla birlikte, penetrasyon testi sırasında önemli bir güvenlik sorunu olmadığını teyit ediyoruz.
 
-Proton Drive's brand new mobile clients have not yet been publicly audited by a third-party.
+Proton Drive'ın yeni mobil uygulamaları henüz herhangi bir üçüncü tarafça denetlenmedi.
 
 ## Tresorit
 
@@ -45,13 +45,13 @@ Proton Drive's brand new mobile clients have not yet been publicly audited by a 
 
     ![Tresorit logo](assets/img/cloud/tresorit.svg){ align=right }
     
-    **Tresorit** is a Swiss-Hungarian encrypted cloud storage provider founded in 2011. Tresorit is owned by the Swiss Post, the national postal service of Switzerland.
+    **Tresorit** İsviçre-Macaristan tabanlı, 2011 yılında kurulmuş bir bulut depolama sağlayıcısıdır. Tresorit is owned by the Swiss Post, the national postal service of Switzerland.
     
     [:octicons-home-16: Homepage](https://tresorit.com/){ class="md-button md-button--primary" }
     [:octicons-eye-16:](https://tresorit.com/legal/privacy-policy){ .card-link title="Privacy Policy" }
     [:octicons-info-16:](https://support.tresorit.com/hc/en-us){ .card-link title=Documentation}
     
-    ??? downloads
+    ??? indirmeler
     
         - [:simple-googleplay: Google Play](https://play.google.com/store/apps/details?id=com.tresorit.mobile)
         - [:simple-appstore: App Store](https://apps.apple.com/app/apple-store/id722163232)
