@@ -3,7 +3,7 @@ title: Pagamenti privati
 icon: material/hand-coin
 ---
 
-C'è un motivo per cui i dati sulle tue abitudini d'acquisto siano considerti il Sacro Graal del targeting pubblicitario: i tuoi acquisti possono far trapelare un vero e proprio tesoro di dati su di te. Sfortunatamente, il sistema finanziario del momento è anti-privacy di design, consentendo a banche, altre aziende e governi di tracciare facilmente le transazioni. Tuttavia, disponi di molte opzioni, per quanto riguarda effettuare pagamenti in modo privato.
+C'è un motivo per cui i dati sulle tue abitudini d'acquisto siano considerati il Sacro Graal del targeting pubblicitario: i tuoi acquisti possono far trapelare un vero e proprio tesoro di dati su di te. Sfortunatamente, il sistema finanziario del momento è anti-privacy di design, consentendo a banche, altre aziende e governi di tracciare facilmente le transazioni. Tuttavia, disponi di molte opzioni, per quanto riguarda effettuare pagamenti in modo privato.
 
 ## Contanti
 
@@ -37,7 +37,7 @@ Acquistando le carte regalo online, solitamente è offerto un lieve sconto. Le c
 
 Un altro modo per proteggere le tue informazioni dai commercianti online è utilizzare carte virtuali e a uso singolo, che mascherano le tue informazioni bancarie o di fatturazione. Ciò è soprattutto utile per proteggerti dalle violazioni di dati dei venditori, ridurre il tracciamento sofisticato o la correlazione degli acquisti da parte delle agenzie di marketing, nonché il furto di dati online. **Non** ti assistono nell'effettuare un pagamento completamente autonomo, né nascondono alcuna informazione allo stesso istituto bancario. Le istituzioni finanziarie regolari che offrono le carte virtuali sono soggette a leggi di "Conoscenza del Cliente" (KYC), a significare che potrebbero richiedere il tuo ID o altre informazioni identificative.
 
-- [Servizi di Mascheramento dei Pagamenti Consigliti :material-arrow-right-drop-circle:](../financial-services.md#payment-masking-services)
+- [Servizi di Mascheramento dei Pagamenti Consigliati :material-arrow-right-drop-circle:](../financial-services.md#payment-masking-services)
 
 Queste, tendono a essere buone opzioni per i pagamenti ricorrenti/abbonamenti online, mentre le carte regalo prepagate sono preferite per le transazioni una tantum.
 
@@ -49,7 +49,7 @@ Le criptovalute sono una forma di valuta digitale, progettata per funzionare sen
 
     La maggior parte delle criptovalute operano su una blockchain **pubblica**, il che significa che ogni transazione è di dominio pubblico. Ciò include anche gran parte delle criptovalute più note, come Bitcoin ed Ethereum. Le transazioni con tali criptovalute non dovrebbero essere considerate private e non proteggeranno il tuo anonimato.
     
-    Inoltre, molte se non gran parte delle criptovalute, sono truffe. Effettua attentamente le transazioni, soltanto con i progetti di cui ti fidi.
+    Inoltre, molte, se non la maggior parte, delle criptovalute sono truffe. Effettua attentamente le transazioni, soltanto con i progetti di cui ti fidi.
 
 ### Privacy Coin
 
@@ -57,7 +57,7 @@ Esistono numerosi progetti di criptovalute che pretendono di garantire la privac
 
 - [Criptovalute consigliate :material-arrow-right-drop-circle:](../cryptocurrency.md#coins)
 
-Le Privacy Coins sono state oggetto di un crescente controllo da parte delle agenzie governative. Nel 2020, [l'IRS ha pubblicato una taglia di $625.000](https://www.forbes.com/sites/kellyphillipserb/2020/09/14/irs-will-pay-up-to-625000-if-you-can-crack-monero-other-privacy-coins/?sh=2e9808a085cc) per gli strumenti in grado di violare la Rete Lightning di Bitcoin e/o la privacy delle transazioni di Monero. Infine, [hanno pagato due aziende](https://sam.gov/opp/5ab94eae1a8d422e88945b64181c6018/view) (Chinalysis e Integra Fec), per un totale di $1,25 milioni per strumenti che pretendono di farlo (non si sa qule rete di criptovalute sia mirata da tali strumenti). A causa della segretezza che circonda strumenti come questi, ==nessuno di questi metodi di tracciamento delle criptovalute è stato confermato indipendentemente.== Tuttavia, è molto probabile che esistano strumenti che aiutano le indagini mirate sulle transazioni di monete private, e che le monete private riescano solo a contrastare la sorveglianza di massa.
+Le Privacy Coins sono state oggetto di un crescente controllo da parte delle agenzie governative. Nel 2020, [l'IRS ha pubblicato una taglia di $625.000](https://www.forbes.com/sites/kellyphillipserb/2020/09/14/irs-will-pay-up-to-625000-if-you-can-crack-monero-other-privacy-coins/?sh=2e9808a085cc) per gli strumenti in grado di violare la Rete Lightning di Bitcoin e/o la privacy delle transazioni di Monero. Infine, [hanno pagato due aziende](https://sam.gov/opp/5ab94eae1a8d422e88945b64181c6018/view) (Chinalysis e Integra Fec), per un totale di $1,25 milioni per strumenti che pretendono di farlo (non si sa quale rete di criptovalute sia mirata da tali strumenti). A causa della segretezza che circonda strumenti come questi, ==nessuno di questi metodi di tracciamento delle criptovalute è stato confermato indipendentemente.== Tuttavia, è molto probabile che esistano strumenti che aiutano le indagini mirate sulle transazioni di monete private, e che le monete private riescano solo a contrastare la sorveglianza di massa.
 
 ### Altre Valute (Bitcoin, Ethereum, ecc.)
 
@@ -79,6 +79,6 @@ Se scegli di procedere così, assicurati di acquistare Monero in momenti differe
 
 ## Ulteriori Considerazioni
 
-Effettuando un pagamento di persona in contanti, assicurati di tenere a mente la tua privacy personale. Le telecamere di sicurezza sono onnipresenti. Considera di indossare abiti non distinti e una mascherinaa (come una mascherina chirurgica o N95). Non iscriverti a programmi a premi, e non fornire alcuna altra informazione su di te.
+Effettuando un pagamento di persona in contanti, assicurati di tenere a mente la tua privacy personale. Le telecamere di sicurezza sono onnipresenti. Considera di indossare abiti non distinti e una mascherina (come una mascherina chirurgica o N95). Non iscriverti a programmi a premi, e non fornire alcuna altra informazione su di te.
 
-Acquistando online, idealmente, dovresti farlo su [Tor](tor-overview.md). Tuttavia, molti commercianti non consentono gli acquisti con Tor. Puoi prendere in considerazione l'utilizzo di una [VPN consigliata](../vpn.md) (pagata in contanti, carte regalo o Monero), o di effettuare l'acquisto dda un bar o da una libreria, con una Wi-Fi gratuita. Se stai ordinando un articolo fisico che dev'essere consegnato, dovrai fornire un indirizzo di consegna. Dovresti considerare l'utilizzo di una casella postale, casella privata o indirizzo di lavoro.
+Acquistando online, idealmente, dovresti farlo su [Tor](tor-overview.md). Tuttavia, molti commercianti non consentono gli acquisti con Tor. Puoi prendere in considerazione l'utilizzo di una [VPN consigliata](../vpn.md) (pagata in contanti, carte regalo o Monero), o di effettuare l'acquisto da un bar o da una libreria, con una Wi-Fi gratuita. Se stai ordinando un articolo fisico che dev'essere consegnato, dovrai fornire un indirizzo di consegna. Dovresti considerare l'utilizzo di una casella postale, casella privata o indirizzo di lavoro.
