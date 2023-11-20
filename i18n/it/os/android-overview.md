@@ -48,19 +48,19 @@ Ad esempio, se desideri pubblicare un'immagine su Discord, puoi aprire il tuo ge
 
 L'[Avvio Verificato](https://source.android.com/security/verifiedboot) è una parte importante del modello di sicurezza di Android. Fornisce protezione dagli attacchi di [evil maid](https://en.wikipedia.org/wiki/Evil_maid_attack), la persistenza del malware e assicura che gli aggiornamenti di sicurezza non siano rimuovibili con la [protezione da rollback](https://source.android.com/security/verifiedboot/verified-boot#rollback-protection).
 
-Android 10 e superiori si sono allontanati dalla crittografia dell'intero disco, verso una [crittografia basata sui file](https://source.android.com/security/encryption/file-based) più sicura. I tuoi dati sono crittografati utilizzando chiavi crittografiche univoce e il file del sistema operativo sono lasciati non crittografati.
+Android 10 e superiori si sono allontanati dalla crittografia dell'intero disco, verso una [crittografia basata sui file](https://source.android.com/security/encryption/file-based) più sicura. I tuoi dati sono crittografati utilizzando chiavi crittografiche univoche e il file del sistema operativo sono lasciati non crittografati.
 
 L'Avvio Verificato assicurare l'integrità dei file del sistema operativo, dunque impedendo a un avversario con l'accesso fisico, di manomettere o installare malware sul dispositivo. Nell'improbabile caso in cui il malware possa sfruttare altre parti del sistema e ottenere accesso privilegiato superiore, l'Avvio Verificato impedirà e ripristinerà le modifiche alla partizione di sistema, al riavvio del dispositivo.
 
-Sfortunatamente, gli OEM devono supportare l'Avvio Verificato sulla propria distribuzione Android stock. Solo alcuni OEM, come Google, supportano la registrazione di chiavi AVB personalizzate sui propri dispositivi. Inoltre, alcuni AOSP derivati come LineageOS o /e/ OS, non supportano l'Avvio Verificato anche su hardware che lo supporta, per i sistemi operativi di terze parti. Ti consigliamo di verificare il supporto **prima** di acquistare un nuovo dispositivo. I derivati AOSP che non supportano l'Avvio Verificto **non** sono consigliati.
+Sfortunatamente, gli OEM devono supportare l'Avvio Verificato sulla propria distribuzione Android stock. Solo alcuni OEM, come Google, supportano la registrazione di chiavi AVB personalizzate sui propri dispositivi. Inoltre, alcuni AOSP derivati come LineageOS o /e/ OS, non supportano l'Avvio Verificato anche su hardware che lo supporta, per i sistemi operativi di terze parti. Ti consigliamo di verificare il supporto **prima** di acquistare un nuovo dispositivo. I derivati AOSP che non supportano l'Avvio Verificato **non** sono consigliati.
 
 Inoltre, molti OEM dispongono di un'implementazione corrotta dell'Avvio Verificato, di cui devi essere consapevole, al di là del loro marketing. Ad esempio, i Fairphone 3 e 4 non sono sicuri di default, poiché il [bootloader di fabbrica si fida della chiave di firma AVB pubblica](https://forum.fairphone.com/t/bootloader-avb-keys-used-in-roms-for-fairphone-3-4/83448/11). Ciò invalida l'avvio verificato su un dispositivo di fabbrica Fairphone, poiché il sistema avvierà i sistempi operativi Android alternativi (come /e/) [senza alcun avviso](https://source.android.com/security/verifiedboot/boot-flow#locked-devices-with-custom-root-of-trust) sull'utilizzo del sistema operativo personalizzato.
 
 ### Aggiornamenti del firmware
 
-Gli aggiornamenti del firmware sono fondamentali per mantenere la sicurezza e, senza di essi, il tuo dispositivo non può essere sicuro. Gli OEM stipulano accordi di supporto coi propri partner per fornire i componenti closed-source per un periodo di supporto limitato. Questi sono mensilmente riportati nei [Bollettini di Sicurezza di Android](https://source.android.com/security/bulletin).
+Gli aggiornamenti del firmware sono fondamentali per mantenere la sicurezza e, senza di essi, il tuo dispositivo non può essere sicuro. Gli OEM stipulano accordi di supporto coi propri partner per fornire i componenti closed source per un periodo di supporto limitato. Questi sono mensilmente riportati nei [Bollettini di Sicurezza di Android](https://source.android.com/security/bulletin).
 
-Poiché i componenti del telefono, come il processore e le tecnologie radio, si affidano a componenti closed-source, gli aggiornamenti devono essere forniti dai rispettivi produttori. Dunque, è importante che tu acquisti un dispositivo entro un ciclo di supporto attivo. [Qualcomm](https://www.qualcomm.com/news/releases/2020/12/16/qualcomm-and-google-announce-collaboration-extend-android-os-support-and) e [Samsung](https://news.samsung.com/us/samsung-galaxy-security-extending-updates-knox/) supportano i propri dispositivi per 4 anni, mentre i prodotti più economici prevedono spesso cicli di supporto più brevi. Con l'introduzione del [Pixel 6](https://support.google.com/pixelphone/answer/4457705), Google produce ora il proprio SoC e fornirà un supporto di almeno 5 anni. Con l'introduzione della serie Pixel 8, Google ha aumentato la finestra di supporto a 7 anni.
+Poiché i componenti del telefono, come il processore e le tecnologie radio, si affidano a componenti closed source, gli aggiornamenti devono essere forniti dai rispettivi produttori. Dunque, è importante che tu acquisti un dispositivo entro un ciclo di supporto attivo. [Qualcomm](https://www.qualcomm.com/news/releases/2020/12/16/qualcomm-and-google-announce-collaboration-extend-android-os-support-and) e [Samsung](https://news.samsung.com/us/samsung-galaxy-security-extending-updates-knox/) supportano i propri dispositivi per 4 anni, mentre i prodotti più economici prevedono spesso cicli di supporto più brevi. Con l'introduzione del [Pixel 6](https://support.google.com/pixelphone/answer/4457705), Google produce ora il proprio SoC e fornirà un supporto di almeno 5 anni. Con l'introduzione della serie Pixel 8, Google ha aumentato la finestra di supporto a 7 anni.
 
 I dispositivi EOL, non più supportati dal produttore del SoC, non possono ricevere aggiornamenti del firmware dai fornitori OEM o dai distributori di ricambi per Android. Ciò significa che i problemi di sicurezza di questi dispositivi non saranno risolti.
 
@@ -81,7 +81,7 @@ Android 11:
 
 - [Autorizzazioni una tantum](https://developer.android.com/about/versions/11/privacy/permissions#one-time), che ti consentono di concedere un'autorizzazione a un'app, una singola volta.
 - [Ripristino automatico delle autorizzazioni](https://developer.android.com/about/versions/11/privacy/permissions#auto-reset), che ripristina i [permessi in esecuzione](https://developer.android.com/guide/topics/permissions/overview#runtime), concessi all'apertura dell'app.
-- Autorizzazioni granulari pre accedere alle funzionalità correlate al [numero telefonico](https://developer.android.com/about/versions/11/privacy/permissions#phone-numbers).
+- Autorizzazioni granulari per accedere alle funzioni relative al [ numero di telefono](https://developer.android.com/about/versions/11/privacy/permissions#phone-numbers).
 
 Android 12:
 
@@ -92,14 +92,14 @@ Android 12:
 Android 13:
 
 - Un'autorizzazione per l'[accesso alle Wi-Fi nelle vicinanze](https://developer.android.com/about/versions/13/behavior-changes-13#nearby-wifi-devices-permission). Gli indirizzi MAC dei punti di accesso Wi-Fi nelle vicinanze erano un modo molto diffuso per le app di tracciare la posizione di un utente.
-- Ulteriori [autorizzazioni multimediali granulari](https://developer.android.com/about/versions/13/behavior-changes-13#granular-media-permissions), a significare che puoi concedere l'accesso aai soli filee immagine, video o audio.
+- Ulteriori [autorizzazioni multimediali granulari](https://developer.android.com/about/versions/13/behavior-changes-13#granular-media-permissions), a significare che puoi concedere l'accesso ai soli file immagine, video o audio.
 - L'utilizzo in background dei sensori richiede adesso l'autorizzazione [`BODY_SENSORS`](https://developer.android.com/about/versions/13/behavior-changes-13#body-sensors-background-permission).
 
 Un'app potrebbe richiedere un'autorizzazione per una sua funzionalità specifica. Ad esempio, ogni app capace di scansionare i codici QR, richiederà l'autorizzazione all'utilizzo della fotocamera. Alcune app possono richiedere più autorizzazioni di quelle necessarie.
 
 [Exodus](https://exodus-privacy.eu.org/) può essere utile se devi confrontare app con scopi simili. Se un'app richiede molte autorizzazioni e contiene molti annunci e analisi, è probabilmente un brutto segno. Consigliamo di esaminare i singoli tracker e di leggerne le descrizioni piuttosto che limitarsi a **contarne il totale** e supporre che tutte le voci elencate siano uguali.
 
-!!! warning
+!!! warning "Attenzione"
 
     Se un'app è prevalentemente un servizio basato su web, il tracciamento potrebbe verificarsi dal lato del server. [Facebook](https://reports.exodus-privacy.eu.org/it/reports/com.facebook.katana/latest/) mostra "nessun tracciatore", ma traccia sicuramente gli interessi e comportamenti degli utenti sul sito. Le app potrebbero eludere il rilevamento non utilizzando le librerie di codice standard prodotte dall'industria pubblicitaria, sebbene sia improbabile.
 
@@ -131,7 +131,7 @@ Android 7 e successivi supporta un kill switch VPN, disponibile senza la necessi
 
 ### Interruttori globali
 
-I dispositivi Androiid moderni dispongono di interruttori globali per disabilitare i servizi Bluetooth e della posizione. Android 12 ha introdotto gli interruttori per la fotocamera e il microfono. Quando non sono iin uso, consigliamo di disabilitare queste funzionalità. Le app non possono utilizzare le funzionalità disabilitate (anche se la singola autorizzazione è concessa), finché non sono riabilitate.
+I dispositivi Android moderni dispongono di interruttori globali per disabilitare i servizi Bluetooth e della posizione. Android 12 ha introdotto gli interruttori per la fotocamera e il microfono. Quando non sono in uso, consigliamo di disabilitare queste funzionalità. Le app non possono utilizzare le funzionalità disabilitate (anche se la singola autorizzazione è concessa), finché non sono riabilitate.
 
 ## Servizi di Google
 
