@@ -6,11 +6,11 @@ description: Many cloud storage providers require your trust that they will not 
 cover: cloud.webp
 ---
 
-Many cloud storage providers require your full trust that they will not look at your files. Aşağıda listelenen alternatifler güvenli uçtan uca şifreleme uygulayarak güven ihtiyacını ortadan kaldırır.
+Birçok bulut depolama sağlayıcısı, dosyalarınıza bakmayacaklarına dair sizin onlara güvenmenizi ister. Aşağıda listelenen alternatifler güvenli uçtan uca şifreleme uygulayarak güven ihtiyacını ortadan kaldırır.
 
-If these alternatives do not fit your needs, we suggest you look into using encryption software like [Cryptomator](encryption.md#cryptomator-cloud) with another cloud provider. Using Cryptomator in conjunction with **any** cloud provider (including these) may be a good idea to reduce the risk of encryption flaws in a provider's native clients.
+Bu alternatifler ihtiyaçlarınızı karşılamıyorsa, başka bir bulut sağlayıcısıyla birlikte [Cryptomator](encryption.md#cryptomator-cloud) gibi bir şifreleme yazılımı kullanmanızı öneririz. Cryptomator'ı **herhangi bir ** bulut sağlayıcısıyla kullanmak (listenenenler dahil) sağlayıcının yerel istemcilerindeki şifreleme kusurlarını azaltmak için iyi bir fikir olabilir.
 
-??? question "Looking for Nextcloud?"
+??? question "Nextcloud'u mu arıyorsunuz?"
 
     Nextcloud is [still a recommended tool](productivity.md) for self-hosting a file management suite, however we do not recommend third-party Nextcloud storage providers at the moment, because we do [not recommend](https://discuss.privacyguides.net/t/dont-recommend-nextcloud-e2ee/10352/29) Nextcloud's built-in E2EE functionality for home users.
 
