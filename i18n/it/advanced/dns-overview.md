@@ -8,7 +8,7 @@ Il [Sistema dei Nomi di Dominio](https://en.wikipedia.org/wiki/Domain_Name_Syste
 
 ## Cos'è il DNS?
 
-Quando visiti un sito web, è restituito un indirizzo numerico. Ad esempio, quando visiti `privacyguides.com`, è restituito l'indirizzo `192.98.54.105`.
+Quando visiti un sito web, è restituito un indirizzo numerico. Ad esempio, quando visiti `privacyguides.org`, viene restituito l'indirizzo `192.98.54.105`.
 
 Il DNS esiste dagli [albori](https://en.wikipedia.org/wiki/Domain_Name_System#History) di Internet. Le richieste DNS da e verso i server DNS **non** sono generalmente crittografate. In un ambiente residenziale, un cliente riceve dei server dall'ISP tramite [DHCP](https://en.wikipedia.org/wiki/Dynamic_Host_Configuration_Protocol).
 
@@ -132,7 +132,7 @@ L'Indicazione del Nome del Server è tipicamente utilizzata quando un indirizzo 
 
 2. Quindi, visitiamo [https://privacyguides.org](https://privacyguides.org).
 
-3. Dopo aver visitato il sito web, vogliamo interrrompere la cattura dei pacchetti, con <kbd>CTRL</kbd> + <kbd>C</kbd>.
+3. Dopo aver visitato il sito web, vogliamo interrompere la cattura dei pacchetti con <kbd>CTRL</kbd> + <kbd>C</kbd>.
 
 4. Poi, vogliamo analizzare i risultati:
 
@@ -158,7 +158,7 @@ L'Indicazione del Nome del Server è tipicamente utilizzata quando un indirizzo 
     tshark -r /tmp/pg.pcap -Tfields -Y tls.handshake.extensions_server_name -e tls.handshake.extensions_server_name
     ```
 
-Ciò significa che, anche se stiamo utilizzando dei server "DNS Crittografati", il dominio sarà probabilmente divulgato tramite SNI. Il protocollo [TLS v1.3](https://en.wikipedia.org/wiki/Transport_Layer_Security#TLS_1.3) porta iil [Saluto Crittografato del Client](https://blog.cloudflare.com/encrypted-client-hello/), che impedisce questo genere di fughe di dati.
+Ciò significa che, anche se stiamo utilizzando dei server "DNS Crittografati", il dominio sarà probabilmente divulgato tramite SNI. Il protocollo [TLS v1.3](https://en.wikipedia.org/wiki/Transport_Layer_Security#TLS_1.3) porta con sé [Encrypted Client Hello](https://blog.cloudflare.com/encrypted-client-hello/), che impedisce questo tipo di fuga d'informazioni.
 
 I governi, in particolare la [Cina](https://www.zdnet.com/article/china-is-now-blocking-all-encrypted-https-traffic-using-tls-1-3-and-esni/) e la [Russia](https://www.zdnet.com/article/russia-wants-to-ban-the-use-of-secure-protocols-such-as-tls-1-3-doh-dot-esni/), hanno già [iniziato a bloccarlo](https://en.wikipedia.org/wiki/Server_Name_Indication#Encrypted_Client_Hello) o espresso il desiderio di volerlo fare. Di recente, la Russia ha [iniziato a bloccare i siti web stranieri](https://github.com/net4people/bbs/issues/108), che utilizzano lo standard [HTTP/3](https://en.wikipedia.org/wiki/HTTP/3). Questo perché il protocollo [QUIC](https://en.wikipedia.org/wiki/QUIC), parte di HTTP/3, richiede che anche `ClientHello` sia crittografato.
 
@@ -224,7 +224,7 @@ Possiamo simulare ciò che un browser farebbe, utilizzando il comando [`openssl`
     wireshark -r /tmp/pg_ocsp.pcap
     ```
 
-    Ci sarranno due pacchetti con il protocollo "OCSP": una "Richiesta" e una "Risposta". Per la "Richiesta", possiamo visualizzare il "numero di serie" espandendo il triangolo &#9656; affianco a ogni campo:
+    Ci saranno due pacchetti con il protocollo "OCSP": una "Richiesta" e una "Risposta". Per la "Richiesta", possiamo visualizzare il "numero di serie" espandendo il triangolo &#9656; affianco a ogni campo:
 
     ```bash
     ▸ Online Certificate Status Protocol
@@ -287,7 +287,7 @@ In altre parole, le DNSSEC firmano digitalmente i dati, per aiutare ad assicurar
 
 Il processo di firma delle DNSSEC è simile a quello di firma di un documento legale, con una penna; il firmatario utilizza una firma univoca, che nessun altro può creare e un esperto del tribunale può osservare tale firma e verificare che il documento sia stato firmato da una data persona. Queste firme digitali garantiscono che i dati non siano stati manomessi.
 
-Le DNSSEC implementano una politica di firma digitale gerarchica, tra tutti i livelli del DNS. Ad esempio, nel caso di una ricerca di `privacyguides.com`, un server DNS di radice firmerebbe una chiave per il nome del server `.org`, e il nome del server `.org`, dunque, firmerebbe un chiave per quello autoritativo di `privacyguides.org`.
+Le DNSSEC implementano una politica di firma digitale gerarchica, tra tutti i livelli del DNS. Ad esempio, nel caso di una ricerca di `privacyguides.org`, un server DNS di radice firmerebbe una chiave per il nome del server `.org`, e il nome del server `.org`, dunque, firmerebbe un chiave per quello autoritativo di `privacyguides.org`.
 
 <small>Adattato dalla [panoramica sulle Estensioni di Sicurezza DNS (DNSSEC)](https://cloud.google.com/dns/docs/dnssec) by Google and [DNSSEC: Un'introduzione](https://blog.cloudflare.com/dnssec-an-introduction/), di Cloudflare, entrambi sotto licenza [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/).</small>
 

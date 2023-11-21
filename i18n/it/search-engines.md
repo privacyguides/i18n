@@ -87,7 +87,7 @@ Utilizzando un'istanza di SearXNG, assicurati di leggere la loro politica sulla 
 
 Startpage ha sede nei Paesi Bassi. Secondo la loro [politica sulla privacy](https://www.startpage.com/en/privacy-policy/), registrano dettagli come: sistema operativo, tipo di browser e lingua. Non registrano il tuo indirizzo IP, le richieste di ricerca o altre informazioni personalmente identificabili.
 
-L'azionista di maggioranza di Startpage è System1, un'azienda di tecnologie inserzionistiche. Non crediamo che ciò sia un problema, dato che seguono una [politica sull privacy](https://system1.com/terms/privacy-policy) distintamente separata. Il team di Privacy Guide ha contattato Startpage [nel 2020](https://web.archive.org/web/20210118031008/https://blog.privacytools.io/relisting-startpage/), per chiarire le preoccupazioni con l'investimento considerevole di System1 nel servizio. Siamo stati soddisfatti dalle risposte ricevute.
+L'azionista di maggioranza di Startpage è System1, un'azienda di tecnologie inserzionistiche. Non crediamo che ciò sia un problema, dato che seguono una [politica sull privacy](https://system1.com/terms/privacy-policy) distintamente separata. Il team di Privacy Guides ha contattato Startpage [nel 2020](https://web.archive.org/web/20210118031008/https://blog.privacytools.io/relisting-startpage/), per chiarire le preoccupazioni con l'investimento considerevole di System1 nel servizio. Siamo stati soddisfatti dalle risposte ricevute.
 
 ## Criteri
 
