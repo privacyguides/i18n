@@ -4,7 +4,7 @@ title: "Domande Frequenti su PrivacyTools"
 
 # Perché abbiamo abbandonato PrivacyTools
 
-A settembre 2021, ogni collaboratore attivo ha acconsentito unanimamente a passare da PrivacyTools a questo sito: Privacy Guides. Questa decisione è stata presa poiché il fondatore e controllore del nome di dominio di PrivacyTools, è scomparso per un lungo periodo di tempo e non è stato possibile contattarlo.
+A settembre 2021, ogni collaboratore attivo ha acconsentito unanimemente a passare da PrivacyTools a questo sito: Privacy Guides. Questa decisione è stata presa poiché il fondatore e controllore del nome di dominio di PrivacyTools, è scomparso per un lungo periodo di tempo e non è stato possibile contattarlo.
 
 Avendo costruito un sito e una serie di servizi affidabili su PrivacyTools.io, ciò ha causato gravi preoccupazioni per il futuro di PrivacyTools, poiché qualsiasi futura interruzione avrebbe potuto spazzare via l'intera organizzazione, senza alcun metodo di recupero. Questa transizione è stata comunicata alla community di PrivacyTools con molti mesi in anticipo, tramite svariati canali tra cui il suo blog, Twitter, Reddit e Mastodon, per assicurarsi che l'intero processo si svolgesse nel più semplice modo possibile. Lo abbiamo fatto per assicurarci che nessuno rimanesse all'oscuro, quello che è stato il nostro modus operandi dalla creazione del nostro team, e per assicurarci che Privacy Guides fosse riconosciuto come la stessa organizzazione affidabile, che era PrivacyTools prima della transizione.
 
@@ -50,7 +50,7 @@ Reddit richiede che i subreddit abbiano dei moderatori attivi. Se il moderatore 
 
 Il 14 settembre 2021, abbiamo [annunciato](https://www.privacyguides.org/blog/2021/09/14/welcome-to-privacy-guides/) l'inizio della nostra migrazione a questo nuovo dominio:
 
-> [...] abbiamo ritenuto necessario effettuare questo passaggio prima, piuttosto che dopo, per assicurarci che le persone ne venisseero a conoscenza il prima possibile. Ciò ci concede un tempo adeguato per passare al nome di dominio, che reindirizza al momento a www.privacyguides.org, nella speranza che tutti abbiano abbastanza tempo per notare il cambimento, aggiornare segnalibri e siti web, etc.
+> [...] abbiamo ritenuto necessario effettuare questo passaggio prima, piuttosto che dopo, per assicurarci che le persone ne venisseero a conoscenza il prima possibile. Ciò ci concede un tempo adeguato per passare al nome di dominio, che reindirizza al momento a www.privacyguides.org, nella speranza che tutti abbiano abbastanza tempo per notare il cambiamento, aggiornare segnalibri e siti web, etc.
 
 Questo cambiamento [ha comportato:](https://www.reddit.com/r/PrivacyGuides/comments/pnhn4a/rprivacyguides_privacyguidesorg_what_you_need_to/)
 

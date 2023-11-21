@@ -6,7 +6,7 @@ title: Criteri Generali
 
     La seguente pagina è in costruzione e non riflette i criteri completi dei nostri consigli, al momento. Discussione precedente su questo argomento: [#24](https://github.com/privacyguides/privacyguides.org/discussions/24)
 
-Seguono alcune cose che devono applicaarsi a tutti gli articoli di Privacy Guides. Ogni categoria avrà requisiti aggiuntivi per l'inclusione.
+Seguono alcune cose che devono applicarsi a tutti gli articoli di Privacy Guides. Ogni categoria avrà requisiti aggiuntivi per l'inclusione.
 
 ## Comunicazione Finanziaria
 

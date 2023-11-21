@@ -18,7 +18,7 @@ Tutti i dispositivi iOS devono essere confrontati con i server di Activation Loc
 
 ### App Store Obbligatorio
 
-La sola fonte di app su iOS è l'App Store di Apple, che richiede un Apple ID per accedervi. Ciò significa che Apple detiene un registro di qualsiasi app tu installi sul tuo dispositivo e, probabilmente, potrebbe collegare tali informazoni alla tua identità reale, se fornisci un metodo di pagamento all'App Store.
+La sola fonte di app su iOS è l'App Store di Apple, che richiede un Apple ID per accedervi. Ciò significa che Apple detiene un registro di qualsiasi app tu installi sul tuo dispositivo e, probabilmente, potrebbe collegare tali informazioni alla tua identità reale, se fornisci un metodo di pagamento all'App Store.
 
 ### Telemetria Invadente
 
@@ -36,7 +36,7 @@ Dunque, se utilizzi iCloud, dovresti [abilitare la **Protezione Avanzata dei Dat
 
 La crittografa utilizzata dalla Protezione Avanzata dei Dati, sebbene forte, [non è *altrettanto* robusta](https://discuss.privacyguides.net/t/apple-advances-user-security-with-powerful-new-data-protections/10778/4), quanto quella offerta da altri [servizi su cloud](../cloud.md), in particolare per quanto riguarda iCloud Drive. Sebbene incoraggiamo vivamente all'utilizzo della Protezione Avanzata dei Dati se utilizzi iCloud, suggeriremmo anche di considerare di trovare un'alternativa a iCloud, da un [fornitore del servizio più orientato alla privacy](../tools.md), sebbene sia improbabile che, gran parte delle persone, sarebbero influenzate da queste stranezze crittografiche.
 
-Inoltre, in primo luogo, puoi proteggere i tuoi dati limitando ciò che sincronizzi su iCloud. In cima all'app delle **Impostazioni**, visualizzerai il tuo nome e la tua foto di profilo, se sei iscritto su iCloud. Selezonali, **iCloud**, quindi disattiva gli interruttori per qualsiasi servizio tu desideri non sia sincronizzato con iCloud. Potresti visualizzare delle app di terze parti, elencate in **Mostra tutto**, se si sincronizzano con iCloud, che potrai disabilitare da qui.
+Inoltre, in primo luogo, puoi proteggere i tuoi dati limitando ciò che sincronizzi su iCloud. In cima all'app delle **Impostazioni**, visualizzerai il tuo nome e la tua foto di profilo, se sei iscritto su iCloud. Selezionalo, poi **iCloud**, quindi disattiva gli interruttori per qualsiasi servizio tu desideri non sia sincronizzato con iCloud. Potresti visualizzare delle app di terze parti, elencate in **Mostra tutto**, se si sincronizzano con iCloud, che potrai disabilitare da qui.
 
 #### iCloud+
 
@@ -61,7 +61,7 @@ In cima all'app delle **Impostazioni**, visualizzerai il tuo nome e la tua foto 
 
 I tuoi dati sulla posizione non sono E2EE quando il tuo dispositivo è online e utilizzi Find My iPhone da remoto, per individuare il tuo dispositivo. Dovrai decidere se mantenere questi compromessi valga i vantaggi antifurto del Blocco di Attivazione.
 
-In cima all'app delle **Impostazioni**, visualizzerai il tuo nome e la tua foto di profilo, se hai un Apple ID. Selezionalo, quindi seleziona **Find My**. Qui puoi scegliere se abilitare o disabiltare le funzionalità di posizione di Find My.
+In cima all'app delle **Impostazioni**, visualizzerai il tuo nome e la tua foto di profilo, se hai un Apple ID. Selezionalo, quindi seleziona **Find My**. Qui puoi scegliere se abilitare o disabilitare le funzionalità di posizione di Find My.
 
 ### Impostazioni
 
@@ -117,15 +117,15 @@ Se non desideri che qualcuno possa controllare il tuo telefono con Siri, quando 
 
 Impostare una password forte sul tuo telefono è il passo più importante che puoi intraprendere per la sicurezza fisica del dispositivo. In questo caso dovrai trovare un compromesso tra la sicurezza e la comodità: una password più lunga sarà noiosa da digitare ogni volta, ma una password o un PIN più breve sarà più facile da indovinare. Configurare Face ID o TouchID insieme a una password forte, può costituire un buon compromesso tra utilizzabilità e sicurezza.
 
-Seleziona **Attiva Passcode** o **Modifica Passcode** > **Opzioni Passcode** > **Codice Alfanumerico Personalizzto**. Assicurati di creare una [password sicura](https://www.privacyguides.org/basics/passwords-overview/).
+Seleziona **Attiva Passcode** o **Modifica Passcode** > **Opzioni Passcode** > **Codice Alfanumerico Personalizzato**. Assicurati di creare una [password sicura](https://www.privacyguides.org/basics/passwords-overview/).
 
 Se desideri utilizzare Face ID o Touch ID, puoi ora procedere alla configurazione. Il tuo telefono utilizzerà la password configurata in precedenza come ripiego, nel caso in cui la tua verifica biometrica dovesse fallire. I metodi biometrici di sblocco sono principalmente una comodità, sebbene impediscano alle telecamere di sicurezza o alle persone alle tue spalle di guardarti inserire il tuo codice d'accesso.
 
-Se utilizzi la biometria, dovrestii sapere come disattivarla rapidamente in caso d'emergenza. Tenere premuto il tasto laterale o di accensione e *uno dei* tasti del volume, finché non visualizzi il cursore Scorri per Spegnere, disabiliterà la biometria, richiedendo il codice d'accesso per sbloccare. Inoltre, il tuo codice di sicurezza sarà richiesto al riavvio del dispositivo.
+Se utilizzi la biometria, dovresti sapere come disattivarla rapidamente in caso d'emergenza. Tenere premuto il tasto laterale o di accensione e *uno dei* tasti del volume, finché non visualizzi il cursore Scorri per Spegnere, disabiliterà la biometria, richiedendo il codice d'accesso per sbloccare. Inoltre, il tuo codice di sicurezza sarà richiesto al riavvio del dispositivo.
 
-Su alcuni dispositivi precedenti, potresti dover premere cinque volte il tasto di accensione per disabiltare la biometria o, per i dispositivi con Touch ID, potresti dover soltanto tenere premuto il tasto d'accensione e nient'altro. Assicurati di provare in anticipo, così da sapere quale metodo funziona per il tuo dispositivo.
+Su alcuni dispositivi precedenti, potresti dover premere cinque volte il tasto di accensione per disabilitare la biometria o, per i dispositivi con Touch ID, potresti dover soltanto tenere premuto il tasto d'accensione e nient'altro. Assicurati di provare in anticipo, così da sapere quale metodo funziona per il tuo dispositivo.
 
-**Consenti Accesso Da Bloccato** ti offre delle opzioni per consentire l'accesso quando il telefono è bloccato. Più di queste opzioni disabiliti, minori saranno le azioni disponibli a qualcuno senza la tua password, ma meno comodo sarà per te. Seleziona e scegli quali di queste non desideri siano accessibili a qualcuno, qualora dovesse impossessarsi del tuo telefono.
+**Consenti Accesso Da Bloccato** ti offre delle opzioni per consentire l'accesso quando il telefono è bloccato. Più di queste opzioni disabiliti, minori saranno le azioni disponibili a qualcuno senza la tua password, ma meno comodo sarà per te. Seleziona e scegli quali di queste non desideri siano accessibili a qualcuno, qualora dovesse impossessarsi del tuo telefono.
 
 - [ ] Disattiva **Oggi e Ricerca**
 - [ ] Disattiva **Centro Notifiche**
@@ -152,7 +152,7 @@ I **Servizi di Posizione** ti consentono di utilizzare funzionalità come Find M
 
 - [ ] Disattiva i **Servizi di Posizione**
 
-Puoi decidere di consentire alle app di richiedere di **tracciarti**, qui. Disabilitarlo impedisce a tutte le app di traccarti, con l'ID pubblicitario del tuo telefono. Seleziona **Tracciamento**:
+Puoi decidere di consentire alle app di richiedere di **tracciarti**, qui. Disabilitarlo impedisce a tutte le app di tracciarti, con l'ID pubblicitario del tuo telefono. Seleziona **Tracciamento**:
 
 - [ ] Disattiva **Consenti alle App di Richiedere di Tracciare**
 
@@ -178,9 +178,9 @@ Disabilita gli **Annunci Personalizzati**, se non desideri ricevere annunci mira
 
 - [x] Seleziona **Attiva Rapporto sulla Privacy delle App**
 
-La [Modalità Lockdown](https://blog.privacyguides.org/2022/10/27/macos-ventura-privacy-security-updates/#lockdown-mode) è un'impostazione di sicurezza che puoi abiltare per rendere il tuo telefono più resistente agli attacchi. Sappi che certe app e funzionalità [non funzioneranno](https://support.apple.com/en-us/HT212650) come di norma.
+La [Modalità Lockdown](https://blog.privacyguides.org/2022/10/27/macos-ventura-privacy-security-updates/#lockdown-mode) è un'impostazione di sicurezza che puoi abilitare per rendere il tuo telefono più resistente agli attacchi. Sappi che certe app e funzionalità [non funzioneranno](https://support.apple.com/en-us/HT212650) come di norma.
 
-- [x] Selezion **Attiva Modalità Lockdown**
+- [x] Seleziona **Attiva Modalità Lockdown**
 
 ## Ulteriori Consigli
 

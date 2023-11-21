@@ -29,7 +29,7 @@ schema:
 
 — [New York Times](https://www.nytimes.com/wirecutter/guides/online-security-social-media-privacy/)
 
-> Se stai cercando una nuova VPN, puoi utilizzare il codice sconto di praticamente qualsiasi podcast. Se stai cercando una **buona** VPN, necessiti di aiuto da parte dei professionisti. Lo stesso vale per i client email, browser, sistemi operativi e gestori di password. Come fate a sapere qual è l'opzione migliore e più rispettosa della privacy? Per questo c'è **Privacy Guides**, una piattaforma su cui tantissimi volontri ricercano i migliori strumenti rispettosi della privacy, da utilizzare su Internet.
+> Se stai cercando una nuova VPN, puoi utilizzare il codice sconto di praticamente qualsiasi podcast. Se stai cercando una **buona** VPN, necessiti di aiuto da parte dei professionisti. Lo stesso vale per i client email, browser, sistemi operativi e gestori di password. Come fate a sapere qual è l'opzione migliore e più rispettosa della privacy? Per questo c'è **Privacy Guides**, una piattaforma su cui tantissimi volontari ricercano i migliori strumenti rispettosi della privacy, da utilizzare su Internet.
 
 — [Tweakers.net](https://tweakers.net/reviews/10568/op-zoek-naar-privacyvriendelijke-tools-niek-de-wilde-van-privacy-guides.html) [Tradotto dall'olandese]
 
@@ -83,7 +83,7 @@ Finora, nel 2023, abbiamo lanciato le traduzioni internazionali del nostro sito 
 
 Inoltre, [molte persone](https://github.com/privacyguides/privacyguides.org/graphs/contributors) hanno contribuito al progetto. Puoi farlo anche tu, siamo open source su GitHub e accettiamo suggerimenti per la traduzione su [Crowdin](https://crowdin.com/project/privacyguides).
 
-I membri del nostro team revisionano tutte le modifiche effettuate al sito web e gestiscono i doveri amministrativi, come l'hosting web e le finanze; tuttavia, non traggono alcun profitto personale da alcun contributo effettuato a questo sito. I nostri dati finanziari sono ospitati trasparentemente dalla Open Collective Foundation 501(c)(3), su [opencollective.com/privacyguides](https://opencollective.com/privacyguides). Le donazioni a Privacy Guides sono generalmente fiscalmente detraibili negli Stati Uniti.
+I membri del nostro team revisionano tutte le modifiche effettuate al sito web e gestiscono i doveri amministrativi, come l'hosting web e le finanze; tuttavia, non traggono alcun profitto personale da alcun contributo effettuato a questo sito. I nostri dati finanziari sono ospitati trasparentemente dalla Open Collective Foundation 501(c)(3), su [opencollective.com/privacyguides](https://opencollective.com/privacyguides). Le donazioni a Privacy Guides sono generalmente deducibili dalle tasse negli Stati Uniti.
 
 ## Licenza del sito
 
