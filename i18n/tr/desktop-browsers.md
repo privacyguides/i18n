@@ -138,9 +138,9 @@ Search suggestion features may not be available in your region.
 
 Search suggestions send everything you type in the address bar to the default search engine, regardless of whether you submit an actual search. Disabling search suggestions allows you to more precisely control what data you send to your search engine provider.
 
-#### Privacy & Security
+#### Gizlilik & Güvenlik
 
-##### Enhanced Tracking Protection
+##### Gelişmiş izleme koruması
 
 - [x] Select **Strict** Enhanced Tracking Protection
 

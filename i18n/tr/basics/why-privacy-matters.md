@@ -9,25 +9,25 @@ Mahremiyet nihayetinde insan bilgisiyle ilgilidir ve bu önemlidir çünkü insa
 
 ## Gizlilik nedir?
 
-Many people get the concepts of **privacy**, **security**, and **anonymity** confused. You'll see people criticize various products as "not private" when really they mean it doesn't provide anonymity, for example. On this website, we cover all three of these topics, but it is important you understand the difference between them, and when each one comes into play.
+Birçok kişi **gizlilik**, **güvenlik**ve **anonimlik** kavramlarını birbiriyle karıştırmaktadır. Örneğin, insanların çeşitli ürünleri "gizli olmadığı" gerekçesi ile eleştirdiğini görürsünüz, oysaki demek istedikleri anonim sağlamadıklarıdır. Bu sitede üç konuyu da ele alıyoruz, ancak bunların arasındaki farkı ve her birinin ne zaman devreye girdiğini anlamanız önemlidir.
 
-**Privacy**
+**Gizlilik**
 :
 
-==Privacy is the assurance that your data is only seen by the parties you intend to view it.== In the context of an instant messenger, for example, end-to-end encryption provides privacy by keeping your message visible only to yourself and the recipient.
+==Gizlilik, verilerinizin sadece sizin izin verdiğiniz taraflarca görünmesinin güvencesidir.== Örneğin bir anlık mesajlaşma uygulaması için, uçtan uca şifreleme, mesajlarınızı sadece size ve alıcıya görünür tutarak gizlilik sağlar.
 
-**Security**
+**Güvenlik**
 :
 
-Security is the ability to trust the applications you use—that the parties involved are who they say they are—and keep those applications safe. In the context of browsing the web, for example, security can be provided by HTTPS certificates.
+Güvenlik, kullandığınız uygulamalara - ilgili tarafların söyledikleri kişiler olduklarına - ve onların bu uygulamaları güvende tutacaklarına inanma becerisidir. Örneğin internette gezinirken, güvenlik HTTPS sertifikalarıyla sağlanabilir.
 :
 
-Certificates prove you are talking directly to the website you're visiting, and keep attackers on your network from reading or modifying the data sent to or from the website.
+Sertifikalar ziyaret ettiğiniz siteyle doğrudan konuştuğunuzu kanıtlar ve ağınızdaki saldırganların web sitesine gönderilen veya web sitesinden gelen verileri okumasını veya değiştirmesini engeller.
 
-**Anonymity**
+**Anonimlik**
 :
 
-Anonymity is the ability to act without a persistent identifier. You might achieve this online with [Tor](../tor.md), which allows you to browse the internet with a random IP address and network connection instead of your own.
+Anonimlik, kalıcı bir tanımlayıcı olmadan hareket edebilme yeteneğidir. You might achieve this online with [Tor](../tor.md), which allows you to browse the internet with a random IP address and network connection instead of your own.
 :
 
 **Pseudonymity** is a similar concept, but it allows you to have a persistent identifier without it being tied to your real identity. If everybody knows you as `@GamerGuy12` online, but nobody knows your real name, that is your pseudonym.
@@ -42,11 +42,11 @@ A common counter-argument to pro-privacy movements is the notion that one doesn'
 
 ==You shouldn't confuse privacy with secrecy.== We know what happens in the bathroom, but you still close the door. Çünkü gizlilik değil, mahremiyet istiyorsunuz. There are always certain facts about us—say, personal health information, or sexual behavior—that we wouldn't want the whole world to know, and that's okay. The need for privacy is legitimate, and that's what makes us human. Privacy is about empowering your rights over your own information, not about hiding secrets.
 
-## Is Privacy About Control?
+## Gizlilik Kontrolle mi İlgili?
 
-A common definition of privacy is that it is the ability to *control* who has access to your data. This is an easy trap to fall into, in fact it is the definition of privacy we operated this website on for a long time. It sounds nice, and it appeals to many people, but in practice it just doesn't work.
+Gizililiğin yaygın tanımlarından birisi verilerinize kimin erişebileceğini *kontrol edebilme* yeteneğidir. Bu içine düşmesi kolay bir tuzaktır, ve hatta biz de gizliliği bu sitede uzun bir sürede böyle tanımladık. Kulağa hoş geliyor ve birçok insana hitap ediyor, ancak pratikte işe yaramıyor.
 
-Take cookie consent forms, for example. You may encounter these dozens of times per day on the various websites you visit, with a nice array of checkboxes and sliders which allow you to "curate" your preferences to exactly fit your needs. In the end, we just hit the "I Agree" button, because we just want to read the article or make a purchase. Nobody wants to complete a personal privacy audit on every single website they visit. This is an exercise in [choice architecture](https://en.wikipedia.org/wiki/Choice_architecture), designed to make you take the easy route out instead of delving into a maze of configuration options that don't need to exist in the first place.
+Örneğin çerez onay formlarını ele alalım. You may encounter these dozens of times per day on the various websites you visit, with a nice array of checkboxes and sliders which allow you to "curate" your preferences to exactly fit your needs. In the end, we just hit the "I Agree" button, because we just want to read the article or make a purchase. Nobody wants to complete a personal privacy audit on every single website they visit. This is an exercise in [choice architecture](https://en.wikipedia.org/wiki/Choice_architecture), designed to make you take the easy route out instead of delving into a maze of configuration options that don't need to exist in the first place.
 
 ==Control over your privacy inside most apps is an illusion.== It's a shiny dashboard with all sorts of choices you can make about your data, but rarely the choices you're looking for, like "only use my data to help me." This type of control is meant to make you feel guilty about your choices, that you "had the choice" to make the apps you use more private, and you chose not to.
 
