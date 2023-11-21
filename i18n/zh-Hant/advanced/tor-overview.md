@@ -8,28 +8,32 @@ Tor 是一個免費使用的去中心化網路，其讓用戶在使用網際網�
 
 ## 正在連接到Tor
 
-Before connecting to [Tor](../tor.md), you should carefully consider what you're looking to accomplish by using Tor in the first place, and who you're trying to hide your network activity from.
+在連接到 [Tor](../tor.md) 之前，應先仔細考慮想透過 Tor 實現什麼目的，想要對誰隱藏網路活動資訊。
 
-If you live in a free country, are accessing mundane content via Tor, aren't worried about your ISP or local network administrators having the knowledge that you're using Tor, and want to help [de-stigmatize](https://2019.www.torproject.org/about/torusers.html.en) Tor usage, you can likely connect to Tor directly via standard means like [Tor Browser](../tor.md) without worry.
+在自由的國家，透過 Tor 存取普通內容，無需擔心 ISP 或本地網路管理員知道您正在使用 Tor，反而可能會幫助 [消除Tor 使用污名化](https://2019 .www.torproject. org/about/torusers.html.en)，您可以透過標準方式直接連接到Tor，例如
 
-If you have the ability to access a trusted VPN provider and **any** of the following are true, you almost certainly should connect to Tor through a VPN:
+ Tor 瀏覽器< /a>。</p> 
 
-- You already use a [trusted VPN provider](../vpn.md)
-- Your threat model includes an adversary which is capable of extracting information from your ISP
-- Your threat model includes your ISP itself as an adversary
-- Your threat model includes local network administrators before your ISP as an adversary
+如果您有能力使用可信任的 VPN 供應商，且有**以下任一情況**，那麼最好應透過 VPN 連接 Tor：
 
-Because we already [generally recommend](../basics/vpn-overview.md) that the vast majority of people use a trusted VPN provider for a variety of reasons, the following recommendation about connecting to Tor via a VPN likely applies to you. <mark>There is no need to disable your VPN before connecting to Tor</mark>, as some online resources would lead you to believe.
+- 已使用[可信任的 VPN 服務](../vpn.md)
+- 威脅模型包括能夠從 ISP 提取資訊的對手。
+- 您的威脅模型將 ISP 作為對手
+- 您的威脅模型包括本地網路管理員，再來是您的 ISP 成為敵對方
 
-Connecting directly to Tor will make your connection stand out to any local network administrators or your ISP. Detecting and correlating this traffic [has been done](https://edition.cnn.com/2013/12/17/justice/massachusetts-harvard-hoax/) in the past by network administrators to identify and deanonymize specific Tor users on their network. On the other hand, connecting to a VPN is almost always less suspicious, because commercial VPN providers are used by everyday consumers for a variety of mundane tasks like bypassing geo-restrictions, even in countries with heavy internet restrictions.
+由於各種原因，我們已[一般建議](../basics/vpn-overview.md)絕大多數人使用值得信賴的VPN 提供商，以下有關透過 VPN 連接到Tor的建議可能適用。 <mark>在連接到 Tor 之前無需停用 VPN</mark>，某些線上資源讓您相信這一點。
 
-Therefore, you should make an effort to hide your IP address **before** connecting to the Tor network. You can do this by simply connecting to a VPN (through a client installed on your computer) and then accessing [Tor](../tor.md) as normal, through Tor Browser for example. This creates a connection chain like:
+直接連接到 Tor 將使您的連接在任何本地網路管理員或 ISP 面前脫穎突出。 Detecting and correlating this traffic [has been done](https://edition.cnn.com/2013/12/17/justice/massachusetts-harvard-hoax/) in the past by network administrators to identify and deanonymize specific Tor users on their network. 另一方面，連接 VPN 並不會太可疑，因為日常消費者使用商業 VPN 服務來執行各種日常任務例如繞過地理限制，即使在網路限制嚴格的國家也是如此。
+
+所以應在**在**連接到 Tor 網路之前盡力隱藏自己的 IP 位址。 只需連接到VPN（透過電腦上安裝的客戶端），然後正常存取[Tor](../tor.md)（例如透過Tor 瀏覽器）即可做到這一點。 這將建立一個連接鏈，例如：
 
 - [x] You → VPN → Tor → Internet
 
-From your ISP's perspective, it looks like you're accessing a VPN normally (with the associated cover that provides you). From your VPN's perspective, they can see that you are connecting to the Tor network, but nothing about what websites you're accessing. From Tor's perspective, you're connecting normally, but in the unlikely event of some sort of Tor network compromise, only your VPN's IP would be exposed, and your VPN would *additionally* have to be compromised to deanonymize you.
+從 ISP 的角度來看，用戶似乎正在存取 VPN（提供的相關保護）。 從 VPN 角度，他們可以看到您正在連接到 Tor 網絡，但看不到您訪問哪些網站。 From Tor's perspective, you're connecting normally, but in the unlikely event of some sort of Tor network compromise, only your VPN's IP would be exposed, and your VPN would *additionally* have to be compromised to deanonymize you.
 
 This is **not** censorship circumvention advice, because if Tor is blocked entirely by your ISP, your VPN likely is as well. Rather, this recommendation aims to make your traffic blend in better with commonplace VPN user traffic, and provide you with some level of plausible deniability by obscuring the fact that you're connecting to Tor from your ISP.
+
+
 
 ---
 
@@ -37,11 +41,13 @@ We **very strongly discourage** combining Tor with a VPN in any other manner. Do
 
 - You → Tor → VPN → Internet
 - You → VPN → Tor → VPN → Internet
-- Any other configuration
+- 任何其它設定
 
 Some VPN providers and other publications will occasionally recommend these **bad** configurations to evade Tor bans (exit nodes being blocked by websites) in some places. [Normally](https://support.torproject.org/#about_change-paths), Tor frequently changes your circuit path through the network. When you choose a permanent *destination* VPN (connecting to a VPN server *after* Tor), you're eliminating this advantage and drastically harming your anonymity.
 
 Setting up bad configurations like these is difficult to do accidentally, because it usually involves either setting up custom proxy settings inside Tor Browser, or setting up custom proxy settings inside your VPN client which routes your VPN traffic through the Tor Browser. As long as you avoid these non-default configurations, you're probably fine.
+
+
 
 ---
 
@@ -52,12 +58,17 @@ Setting up bad configurations like these is difficult to do accidentally, becaus
     Therefore, it's not unreasonable to believe that encrypted Tor traffic hidden by a VPN could also be detected via similar methods. There are no research papers on this subject, and we still consider the benefits of using a VPN to far outweigh these risks, but it is something to keep in mind.
     
     If you still believe that pluggable transports (bridges) provide additional protection against website traffic fingerprinting that a VPN does not, you always have the option to use a bridge **and** a VPN in conjunction.
+    
 
-Determining whether you should first use a VPN to connect to the Tor network will require some common sense and knowledge of your own government's and ISP's policies relating to what you're connecting to. However, again in most cases you will be better off being seen as connecting to a commercial VPN network than directly to the Tor network. If VPN providers are censored in your area, then you can also consider using Tor pluggable transports (e.g. Snowflake or meek bridges) as an alternative, but using these bridges may arouse more suspicion than standard WireGuard/OpenVPN tunnels.
+Determining whether you should first use a VPN to connect to the Tor network will require some common sense and knowledge of your own government's and ISP's policies relating to what you're connecting to. 然而在多數情況下，最好被視為連接到商業 VPN 網絡，而不是直接連到 Tor 網路。 如果VPN 服務商在您的地區受到審查，那麼也可以考慮使用Tor 可插拔傳輸（例如 Snowflake 或 meek ）作為替代方案，但使用這些橋接器可能比標準WireGuard/OpenVPN 隧道引起更多懷疑。
+
+
 
 ## Tor 並非是
 
 The Tor network is not the perfect privacy protection tool in all cases, and has a number of drawbacks which should be carefully considered. These things should not discourage you from using Tor if it is appropriate for your needs, but they are still things to think about when deciding which solution is most appropriate for you.
+
+
 
 ### Tor 不是免費的 VPN
 
@@ -67,6 +78,8 @@ The Tor network is not the perfect privacy protection tool in all cases, and has
 
 As we've alluded to already, Tor is also easily identifiable on the network. Unlike an actual VPN provider, using Tor will make you stick out as a person likely attempting to evade authorities. In a perfect world, Tor would be seen by network administrators and authorities as a tool with many uses (like how VPNs are viewed), but in reality the perception of Tor is still far less legitimate than the perception of commercial VPNs, so using a real VPN provides you with plausible deniability, e.g. "I was just using it to watch Netflix," etc.
 
+
+
 ### Tor usage is not undetectable
 
 **Even if you use bridges and pluggable transports,** the Tor Project provides no tools to hide the fact that you are using Tor from your ISP. Even using obfuscated "pluggable transports" or non-public bridges do not hide the fact that you are using a private communications channel. The most popular pluggable transports like obfs4 (which obfuscates your traffic to "look like nothing") and meek (which uses domain fronting to camouflage your traffic) can be [detected](https://www.hackerfactor.com/blog/index.php?/archives/889-Tor-0day-Burning-Bridges.html) with fairly standard traffic analysis techniques. Snowflake has similar issues, and can be [easily detected](https://www.hackerfactor.com/blog/index.php?/archives/944-Tor-0day-Snowflake.html) *before* a Tor connection is even established.
@@ -74,6 +87,8 @@ As we've alluded to already, Tor is also easily identifiable on the network. Unl
 還有這三種以外的可插拔傳輸，但通常依賴透過隱蔽性來逃避偵測的安全性。 它們不是不可能被檢測，只是使用者太少，以至於不值得為它們建立檢測器。 如果特別遭受監控，則不應依賴它們。
 
 了解繞過審查和逃避檢測兩者的差異很重要。 要實現前者更容易，因為網路審查員實際上存在許多現實限制，但這些技術並沒有掩蓋這個事實：監視網路使用的相關單位知道您——*的確在* — —使用Tor 。
+
+
 
 ### Tor 瀏覽器不是最*安全*的瀏覽器
 
@@ -85,6 +100,8 @@ Additionally, Tor Browser is based on Firefox's Extended Support Release builds,
 2. Chain *multiple* Medium/Low vulnerabilities together until they get the level of access they're looking for (this vulnerability period can last months or longer).
 
 Those at risk of browser vulnerabilities should consider additional protections to defend against Tor Browser exploits, such as using Whonix in [Qubes](../os/qubes-overview.md) to contain your Tor browsing in a secure VM and protect against leaks.
+
+
 
 ## 連接明網服務的路徑建立
 
@@ -100,11 +117,15 @@ Those at risk of browser vulnerabilities should consider additional protections 
 
 每個節點都有自己的功能：
 
+
+
 ### 入口節點
 
 入口節點，通常稱為守護節點，是 Tor 客戶端連接的第一個節點。 入口節點能夠看到您的 IP 位址，但無法看到您正在連接的內容。
 
 不像其它節點 Tor 客戶端會隨機地選取入口節點後持續使用二~三個月以防護某些外部攻擊 [^1]
+
+
 
 ### 中間節點
 
@@ -112,11 +133,15 @@ Those at risk of browser vulnerabilities should consider additional protections 
 
 對於每個新迴路，中間節點是隨機從所有可用的 Tor 節點中選出。
 
+
+
 ### 出口節點
 
 出口節點是您的 Web 流量離開 Tor 網路並轉發到所需目的地的點。 出口節點無法看到您的 IP 位址，但它知道將連接到哪個網站。
 
 出口節點將從所有可用的 Tor 節點中隨機選擇，並使用退出中繼標記。[^ 2]
+
+
 
 ## Onion 服務的路徑建立
 
@@ -152,6 +177,8 @@ Tor 使用來自出口，中間和入口節點的密鑰對每個封包（傳輸�
 
 Tor 允許我們連接到伺服器，而不讓任何一方知道完整路徑。 入口節點知道你是誰，但不知道你要去哪裡；中間節點不知道你是誰或你要去哪裡；出口節點知道你要去哪裡，但不知道你是誰。 由於出口節點負責了最終連線，目的地伺服器永遠不會知道您的 IP 位址。
 
+
+
 ## 注意事項
 
 雖然 Tor 確實提供了強大的隱私保證，但必須意識到它並不完美：
@@ -165,6 +192,8 @@ Tor 允許我們連接到伺服器，而不讓任何一方知道完整路徑。 
 如果您希望使用 Tor 瀏覽網頁，我們只建議使用 **官方** Tor 瀏覽器：它旨在防止指紋。
 
 - [Tor 瀏覽器 :material-arrow-right-drop-circle:](../tor.md#tor-browser)
+
+
 
 ### 橋接器提供的保護
 
@@ -184,12 +213,20 @@ Therefore, bridges provide the most benefit when circumventing internet censorsh
 
 It is [possible](https://discuss.privacyguides.net/t/clarify-tors-weaknesses-with-respect-to-observability/3676/16) that the [WebTunnel](https://forum.torproject.org/t/tor-relays-announcement-webtunnel-a-new-pluggable-transport-for-bridges-now-available-for-deployment/8180) pluggable transport currently being trialed may mitigate some of these concerns. 我們將繼續關注這項技術的發展。
 
+
+
 ## 其他資源
 
 - [Tor 瀏覽器用戶手冊](https://tb-manual.torproject.org)
 - [ Tor 如何運作 - Computerphile](https://invidious.privacyguides.net/embed/QRYzre4bf7I?local=true) <small>(YouTube)</small>
 - [Tor O洋蔥服務- Computerphile](https://invidious.privacyguides.net/embed/lVcbq_a5N9I?local=true) <small>(YouTube)</small>
 
-[^1]: 迴路中的第一個節點被稱為“入口守衛”或“守衛”。 它是一個快速和穩定的中繼站，作迴路中的第一個入口通常會維持 2~3個月，以防止已知的匿名破壞攻擊。 其餘的迴路則會依每次訪問網站而變化，這些中繼節點共同提供Tor  完整隱私保護。 了解更多關於守衛中繼的運作，請參考 [部落格文章](https://blog.torproject.org/improving-tors-anonymity-changing-guard-parameters) 和 [入口守衛論文paper](https://www-users.cs.umn.edu/~hoppernj/single_guard.pdf)。 ([https://support.torproject.org/tbb/tbb-2/](https://support.torproject.org/tbb/tbb-2/))
 
-[^2]: 中繼標記：迴路位置（例如， “Guard” ， “Exit” ， “BadExit” ） ，迴路屬性（例如， “Fast” ， “Stable” ）或角色（例如， “Authority” ， “HSDir” ）這些中繼節點的特殊（ dis- ）資格，是由目錄機構分配並在目錄協議規範中進一步定義。 ([https://metrics.torproject.org/glossary.html](https://metrics.torproject.org/glossary.html))
+
+[^1]:    
+    迴路中的第一個節點被稱為“入口守衛”或“守衛”。 它是一個快速和穩定的中繼站，作迴路中的第一個入口通常會維持 2~3個月，以防止已知的匿名破壞攻擊。 其餘的迴路則會依每次訪問網站而變化，這些中繼節點共同提供Tor  完整隱私保護。 了解更多關於守衛中繼的運作，請參考 [部落格文章](https://blog.torproject.org/improving-tors-anonymity-changing-guard-parameters) 和 [入口守衛論文paper](https://www-users.cs.umn.edu/~hoppernj/single_guard.pdf)。 ([https://support.torproject.org/tbb/tbb-2/](https://support.torproject.org/tbb/tbb-2/))
+
+
+
+[^2]:    
+    中繼標記：迴路位置（例如， “Guard” ， “Exit” ， “BadExit” ） ，迴路屬性（例如， “Fast” ， “Stable” ）或角色（例如， “Authority” ， “HSDir” ）這些中繼節點的特殊（ dis- ）資格，是由目錄機構分配並在目錄協議規範中進一步定義。 ([https://metrics.torproject.org/glossary.html](https://metrics.torproject.org/glossary.html))
