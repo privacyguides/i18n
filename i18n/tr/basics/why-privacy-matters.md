@@ -5,9 +5,9 @@ icon: 'material/shield-account'
 
 İçinde bulunduğumuz dijital veri sömürüsü çağında, gizliliğiniz daha önce hiç bu kadar önemli olmamıştı, yine de birçok bunun kaybedilmiş bir dava olduğuna inanıyor. Ancak değil. ==Gizliliğiniz kapanın elinde== ve bunu önemsemeniz gerekiyor. Gizlilik güçle ilgilidir ve bu gücün doğru ellerde olması çok önemlidir.
 
-Mahremiyet nihayetinde insan bilgisiyle ilgilidir ve bu önemlidir çünkü insan bilgisinin insanlar üzerinde güç sağladığını biliyoruz. Özgün ve özgür insanlar olmayı önemsiyorsak, hakkımızdaki bilgiler için geçerli olan kuralları dikkate almalıyız. Modern toplumumuzun büyük bir kısmı **bilgi** etrafında yapılandırılmıştır. When you shop online, read the news, look something up, vote, seek directions, or really anything else, you are relying on information. If we live in an information society, our information matters, and therefore privacy matters.
+Mahremiyet nihayetinde insan bilgisiyle ilgilidir ve bu önemlidir çünkü insan bilgisinin insanlar üzerinde güç sağladığını biliyoruz. Özgün ve özgür insanlar olmayı önemsiyorsak, hakkımızdaki bilgiler için geçerli olan kuralları dikkate almalıyız. Modern toplumumuzun büyük bir kısmı **bilgi** etrafında yapılandırılmıştır. İnternetten alışveriş yaptığınızda, haberleri okuduğunuzda, birşeyi araştırdığınızda, oy verdiğinizde... bilgiye güvenirsiniz. Eğer bir bilgi toplumunda yaşıyorsak, bilgilerimiz önemlidir ve dolayısıyla gizlilik de önemlidir.
 
-## What is Privacy?
+## Gizlilik nedir?
 
 Many people get the concepts of **privacy**, **security**, and **anonymity** confused. You'll see people criticize various products as "not private" when really they mean it doesn't provide anonymity, for example. On this website, we cover all three of these topics, but it is important you understand the difference between them, and when each one comes into play.
 
