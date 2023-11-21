@@ -71,7 +71,7 @@ As we've alluded to already, Tor is also easily identifiable on the network. Unl
 
 **Even if you use bridges and pluggable transports,** the Tor Project provides no tools to hide the fact that you are using Tor from your ISP. Even using obfuscated "pluggable transports" or non-public bridges do not hide the fact that you are using a private communications channel. The most popular pluggable transports like obfs4 (which obfuscates your traffic to "look like nothing") and meek (which uses domain fronting to camouflage your traffic) can be [detected](https://www.hackerfactor.com/blog/index.php?/archives/889-Tor-0day-Burning-Bridges.html) with fairly standard traffic analysis techniques. Snowflake has similar issues, and can be [easily detected](https://www.hackerfactor.com/blog/index.php?/archives/944-Tor-0day-Snowflake.html) *before* a Tor connection is even established.
 
-還有這三種以外的可插拔傳輸，但通常依賴透過隱蔽性來逃避偵測的安全性。 They aren't impossible to detect, they are just used by so few people that it's not worth the effort building detectors for them. 如果特別遭受監控，則不應依賴它們。
+還有這三種以外的可插拔傳輸，但通常依賴透過隱蔽性來逃避偵測的安全性。 它們不是不可能被檢測，只是使用者太少，以至於不值得為它們建立檢測器。 如果特別遭受監控，則不應依賴它們。
 
 了解繞過審查和逃避檢測兩者的差異很重要。 要實現前者更容易，因為網路審查員實際上存在許多現實限制，但這些技術並沒有掩蓋這個事實：監視網路使用的相關單位知道您——*的確在* — —使用Tor 。
 
@@ -81,7 +81,7 @@ As we've alluded to already, Tor is also easily identifiable on the network. Unl
 
 Additionally, Tor Browser is based on Firefox's Extended Support Release builds, which only receives patches for vulnerabilities considered *Critical* and *High* (not *Medium* and *Low*). This means that attackers could (for example):
 
-1. Look for new Critical/High vulnerabilities in Firefox nightly or beta builds, then check if they are exploitable in Tor Browser (this vulnerability period can last weeks).
+1. 在 Firefox nightly 或 beta 版本中尋找新的嚴重/高危險漏洞，然後檢查它們可否利用在 Tor 瀏覽器（此漏洞週期可能會持續數週）。
 2. Chain *multiple* Medium/Low vulnerabilities together until they get the level of access they're looking for (this vulnerability period can last months or longer).
 
 Those at risk of browser vulnerabilities should consider additional protections to defend against Tor Browser exploits, such as using Whonix in [Qubes](../os/qubes-overview.md) to contain your Tor browsing in a secure VM and protect against leaks.
@@ -156,9 +156,9 @@ Tor 允許我們連接到伺服器，而不讓任何一方知道完整路徑。 
 
 雖然 Tor 確實提供了強大的隱私保證，但必須意識到它並不完美：
 
-- Tor never protects you from exposing yourself by mistake, such as if you share too much information about your real identity.
-- Tor exit nodes can **modify** unencrypted traffic which passes through them. This means traffic which is not encrypted, such as plain HTTP traffic, can be changed by a malicious exit node. **Never** download files from an unencrypted `http://` website over Tor, and ensure your browser is set to always upgrade HTTP traffic to HTTPS.
-- Tor 出口節點還可以監控通過它們的流量。 Unencrypted traffic which contains personally identifiable information can deanonymize you to that exit node. Again, we recommend only using HTTPS over Tor.
+- Tor 不會保護您免於錯誤地暴露自己，例如分享了太多有關自身真實身份的資訊。
+- Tor 出口節點可以**修改**通過的未加密流量。 這意味著未加密的流量（例如純 HTTP 流量）可能會被惡意出口節點變更。 **Never** download files from an unencrypted `http://` website over Tor, and ensure your browser is set to always upgrade HTTP traffic to HTTPS.
+- Tor 出口節點還可以監控通過它們的流量。 包含個人識別資訊的未加密流量可能會讓您在該出口節點被消除匿名。 再次強調，建議僅透過 Tor 使用 HTTPS。
 - Powerful adversaries with the capability to passively watch *all* network traffic around the globe ("Global Passive Adversaries") are **not** something that Tor protects you against (and using Tor [with a VPN](#safely-connecting-to-tor) doesn't change this fact).
 - Well-funded adversaries with the capability to passively watch *most* network traffic around the globe still have a *chance* of deanonymizing Tor users by means of advanced traffic analysis.
 
@@ -166,19 +166,19 @@ Tor 允許我們連接到伺服器，而不讓任何一方知道完整路徑。 
 
 - [Tor 瀏覽器 :material-arrow-right-drop-circle:](../tor.md#tor-browser)
 
-### Protections provided by bridges
+### 橋接器提供的保護
 
-Tor bridges are commonly touted as an alternative method to hiding Tor usage from an ISP, instead of a VPN (as we suggest using if possible). Something to consider is that while bridges may provide adequate censorship circumvention, this is only a *transient* benefit. They do not adequately protect you from your ISP discovering you connected to Tor in the *past* with historical traffic log analysis.
+Tor 橋接器通常被認為是向 ISP 隱藏 Tor 使用情況的替代方法，而不是 VPN（我們建議盡可能使用後者 ）。 需要考慮的是，雖然橋接器可以提供足夠的審查規避，但這只是*暫時*的好處。 它們無法充分保護您，防止 ISP 透過歷史流量日誌分析發現您*過去*連接 Tor。
 
-To illustrate this point, consider the following scenario: You connect to Tor via a bridge, and your ISP doesn’t detect it because they are not doing sophisticated analysis of your traffic, so things are working as intended. Now, 4 months go by, and the IP of your bridge has been made public. This is a very common occurrence with bridges, they are discovered and blocked relatively frequently, just not immediately.
+請考慮以下場景來理解：透過橋接器連接到 Tor，而 ISP 沒有偵測到它，因為他們沒有對流量進行複雜分析，因此一切都按預期進行。 現在，4個月過去，橋接器 IP 已經公開了。 這種情況在橋接器中很常見，它們被發現並被封鎖的頻率相對較高，但不是立即發生。
 
-Your ISP wants to identify Tor users 4 months ago, and with their limited metadata logging they can see that you connected to an IP address which was later revealed to be a Tor bridge. You have virtually no other excuse to be making such a connection, so the ISP can say with very high confidence that you were a Tor user at that time.
+您的 ISP 想要辨識出 4 個月前 Tor 用戶，透過其有限的元資料記錄，他們可以看到您連接到的 IP 位址其實是 Tor 橋接器。 您幾乎沒有其他藉口進行此類連接，因此 ISP 可以非常有信心地說您當時是 Tor 用戶。
 
-Contrast this with our recommended scenario, where you connect to Tor via a VPN. Say that 4 months later your ISP again wants to identify anybody who used Tor 4 months ago. Their logs almost certainly can identify your traffic 4 months ago, but all they would likely be able to see is that you connected to a VPN’s IP address. This is because most ISPs only retain metadata over long periods of time, not the full contents of the traffic you request. Storing the entirety of your traffic data would require a massive quantity of storage which nearly all threat actors wouldn't possess.
+對比我們所推薦的場景，透過 VPN 連接到 Tor。 假設 4 個月後，您的 ISP 再次想要識別 4 個月前使用過 Tor 的任何人。 他們的日誌幾乎肯定可以識別 4 個月前的流量，他們可能僅能看到所連接的 VPN IP 位址。 大多數 ISP 僅長期保留元數據，而不是您要求的流量完整內容。 儲存全部流量資料需要大量空間，而幾乎所有威脅行為者都不具備這種能力。
 
 Because your ISP almost certainly is not capturing all packet-level data and storing it forever, they have no way of determining what you connected to with that VPN *after* the fact with an advanced technique like deep packet inspection, and therefore you have plausible deniability.
 
-Therefore, bridges provide the most benefit when circumventing internet censorship *in the moment*, but they are not an adequate substitute for **all** the benefits that using a VPN alongside Tor can provide. Again, this is not advice *against* using Tor bridges, you should just be aware of these limitations while making your decision. In some cases bridges may be the *only* option (if all VPN providers are blocked, for instance), so you can still use them in those circumstances with this limitation in mind.
+Therefore, bridges provide the most benefit when circumventing internet censorship *in the moment*, but they are not an adequate substitute for **all** the benefits that using a VPN alongside Tor can provide. 再次強調，這並不是*反對*使用 Tor 橋接器，但在做出決定時應該了解其限制。 在某些情況下，橋接器可能是*唯一*選項（例如，如果所有VPN 提供者都被封鎖），因此您仍然可以在這些情況下使用它們，但請記住此限制。
 
 如果認為橋接器比 VPN 的加密隧道更能幫助防禦指紋識別或其他進階網路分析，那麼可以一直選擇將橋接器與 VPN 結合使用。 這樣，即使對手取得對 VPN 隧道某程度的可見性，您仍然受到可插拔傳輸混淆技術的保護。 如果決定走這條路，建議您連接到 VPN 後面的 obfs4 橋，以獲得最佳的指紋識別保護，而不是 meek 或 Snowflake。
 
