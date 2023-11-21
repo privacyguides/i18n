@@ -131,7 +131,7 @@ Abbiamo precedentemente consiglito di abilitare la preferenza *Isola Indirizzo d
 
 ### Snowflake
 
-!!! consiglio
+!!! recommendation "consiglio"
 
     ![Logo di Snowflake](assets/img/browsers/snowflake.svg#only-light){ align=right }
     ![Logo di Snowflake](assets/img/browsers/snowflake-dark.svg#only-dark){ align=right }

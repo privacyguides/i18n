@@ -140,7 +140,7 @@ Il comando impedirà ai malintenzionati di aggirare l'AFM, all'avvio del compute
 
 ### Linux
 
-!!! warning
+!!! warning "Attenzione"
 
     Se il nome del host del tuo sistema cambia (ad esempio, a causa del DHCP), non potrai accedere. È fondamentale che tu configuri un nome del host adeguato per il tuo computer, prima di seguire questa guida.
 

@@ -144,7 +144,7 @@ DivestOS implementa alcune correzioni di rafforzamento del sistema, sviluppate i
 
 DivestOS utilizza F-Droid come app store predefinito. Normalmente [consigliamo di evitare F-Droid](#f-droid), ma su DivestOS non è possibile farlo; gli sviluppatori aggiornano le loro applicazioni tramite i propri repository di F-Droid ([DivestOS Official](https://divestos.org/fdroid/official/?fingerprint=E4BE8D6ABFA4D9D4FEEF03CDDA7FF62A73FD64B75566F6DD4E5E577550BE8467) e [DivestOS WebView](https://divestos.org/fdroid/webview/?fingerprint=FB426DA1750A53D7724C8A582B4D34174E64A84B38940E5D5A802E1DFF9A40D2)). Consigliamo di disabilitare l'applicazione ufficiale F-Droid e di utilizzare [F-Droid Basic](https://f-droid.org/en/packages/org.fdroid.basic/) **con i repository di DivestOS abilitati** per mantenere questi componenti aggiornati. Per le altre app, sono ancora validi i nostri metodi consigliati per ottenerle.
 
-!!! warning
+!!! warning "Attenzione"
 
     Lo [stato](https://gitlab.com/divested-mobile/firmware-empty/-/blob/master/STATUS) di aggiornamento del firmware di DivestOS e il controllo della qualiità variano tra i dispositivi supportati. Continuiamo a consigliare GrapheneOS a seconda della compatibilità con il tuo dispositivo. Per altri dispositivi, DivestOS è una buona alternativa.
     
@@ -249,7 +249,7 @@ Le principali funzionalità di privacy includono:
 
 ### Visualizzatore PDF Sicuro
 
-!!! consiglio
+!!! recommendation "consiglio"
 
     ![Logo di Secure PDF Viewer](assets/img/android/secure_pdf_viewer.svg#only-light){ align=right }
     ![Logo di Secure PDF Viewer](assets/img/android/secure_pdf_viewer-dark.svg#only-dark){ align=right }

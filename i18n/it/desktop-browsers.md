@@ -123,7 +123,7 @@ Mullvad Browser integra DuckDuckGo come [motore di ricerca](search-engines.md) p
         - [:simple-linux: Linux](https://www.mozilla.org/it/firefox/linux)
         - [:simple-flathub: Flathub](https://flathub.org/it/apps/org.mozilla.firefox)
 
-!!! attenzione
+!!! warning "attenzione"
     Firefox include un [token di download](https://bugzilla.mozilla.org/show_bug.cgi?id=1677497#c0) univoco nei scaricati dal sito web di Mozilla e utilizza la telemetria su Firefox per inviarlo. Il token **non** è incluso nelle release da [Mozilla FTP](https://ftp.mozilla.org/pub/firefox/releases/).
 
 ### Configurazione Consigliata
@@ -250,7 +250,7 @@ Le opzioni di Protezioni sono regolabili per ogni sito ma consigliamo di imposta
 - [x] Seleziona **Impedisci ai siti di tracciarmi in base alle mie preferenze linguistiche**
 - [x] Seleziona **Aggressivo** in Blocco di tracker e annunci
 
-    ??? attenzione "Utilizza elenchi di filtraggio predefiniti"
+    ??? warning "Utilizza elenchi di filtraggio predefiniti"
         Brave ti consente di selezionare ulteriori filtri dei contenuti sulla pagina interna `brave://adblock`. Sconsigliamo questa funzionalità; piuttosto, mantieni gli elenchi di filtri predefiniti. Utilzzare ulteriori elenchi ti distinguerà dagli altri utenti di Brave e potrebbe inoltre incrementare la superficie di attacco, se è presente un exploit su Brave e una regola dannosa viene aggiunta a uno degli elenchi che utilizzi.
 
 - [x] Seleziona **Restrittivo** in **Aggiorna le connessioni a HTTPS**
