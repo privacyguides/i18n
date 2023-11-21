@@ -1,5 +1,5 @@
 ---
-title: Device Integrity
+title: 設備一致性
 icon: material/security
 description: These tools can be used to check your devices for compromise.
 cover: device-integrity.webp
@@ -15,7 +15,7 @@ These tools may provide utility for certain individuals. They provide functional
 
 It is **critical** to understand that scanning your device for public indicators of compromise is **not sufficient** to determine that a device is "clean", and not targeted with a particular spyware tool. Reliance on these publicly-available scanning tools can miss recent security developments and give you a false sense of security.
 
-## General Advice
+## 一般建議
 
 The majority of system-level exploits on modern mobile devices—especially zero-click compromises—are non-persistent, meaning they will not remain or run automatically after a reboot. For this reason, we highly recommend rebooting your device regularly. We recommend everybody reboot their devices once a week at minimum, but if non-persistent malware is of particular concern for you, we and many security experts recommend a daily reboot schedule.
 
@@ -60,7 +60,7 @@ These tools can trigger false-positives. If any of these tools finds indicators 
 
 ### Mobile Verification Toolkit
 
-!!! recommendation
+!!! 推薦
 
 ```
 ![MVT logo](assets/img/device-integrity/mvt.webp){ align=right }
@@ -98,7 +98,7 @@ MVT allows you to perform deeper scans/analysis if your device is jailbroken. Un
 
 ### iMazing (iOS)
 
-!!! recommendation
+!!! 推薦
 
 ```
 ![iMazing logo](assets/img/device-integrity/imazing.png){ align=right }
@@ -117,7 +117,7 @@ MVT allows you to perform deeper scans/analysis if your device is jailbroken. Un
 
 iMazing automates and interactively guides you through the process of using [MVT](#mobile-verification-toolkit) to scan your device for publicly-accessible indicators of compromise published by various threat researchers. All of the information and warnings which apply to MVT apply to this tool as well, so we suggest you also familiarize yourself with the notes on MVT in the sections above.
 
-## On-Device Verification
+## 裝置驗證
 
 These are apps you can install which check your device and operating system for signs of tampering, and validate the identity of your device.
 
@@ -129,7 +129,7 @@ Using these apps is insufficient to determine that a device is "clean", and not 
 
 ### Auditor (Android)
 
-!!! recommendation
+!!! 推薦
 
 ```
 ![Auditor logo](assets/img/device-integrity/auditor.svg#only-light){ align=right }
@@ -152,7 +152,7 @@ Using these apps is insufficient to determine that a device is "clean", and not 
 
 Auditor is not a scanning/analysis tool like some other tools on this page, rather it uses your device's hardware-backed keystore to allow you to verify the identity of your device and gain assurance that the operating system itself hasn't been tampered with or downgraded via verified boot. This provides a very robust integrity check of your device itself, but doesn't necessarily check whether the user-level apps running on your device are malicious.
 
-Auditor performs attestation and intrusion detection with **two** devices, an _auditee_ (the device being verified) and an _auditor_ (the device performing the verification). The auditor can be any Android 10+ device (or a remote web service operated by [GrapheneOS](android.md#grapheneos)), while the auditee must be a specifically [supported device](https://attestation.app/about#device-support). Auditor works by:
+Auditor performs attestation and intrusion detection with **two** devices, an _auditee_ (the device being verified) and an _auditor_ (the device performing the verification). The auditor can be any Android 10+ device (or a remote web service operated by [GrapheneOS](android.md#grapheneos)), while the auditee must be a specifically [supported device](https://attestation.app/about#device-support). Auditor 適用於:
 
 - Using a [Trust On First Use (TOFU)](https://en.wikipedia.org/wiki/Trust_on_first_use) model between an _auditor_ and _auditee_, the pair establish a private key in the [hardware-backed keystore](https://source.android.com/security/keystore/) of the _Auditor_.
 - The _auditor_ can either be another instance of the Auditor app or the [Remote Attestation Service](https://attestation.app).
@@ -166,7 +166,7 @@ No personally identifiable information is submitted to the attestation service. 
 
 If your [threat model](basics/threat-modeling.md) requires privacy, you could consider using [Orbot](tor.md#orbot) or a VPN to hide your IP address from the attestation service.
 
-## On-Device Scanners
+## 設備掃瞄器
 
 These are apps you can install on your device which scan your device for signs of compromise.
 
@@ -178,7 +178,7 @@ Using these apps is insufficient to determine that a device is "clean", and not 
 
 ### Hypatia (Android)
 
-!!! recommendation
+!!! 推薦
 
 ```
 ![Hypatia logo](assets/img/device-integrity/hypatia.svg#only-light){ align=right }
@@ -200,7 +200,7 @@ Hypatia is particularly good at detecting common stalkerware: If you suspect you
 
 ### iVerify (iOS)
 
-!!! recommendation
+!!! 推薦
 
 ```
 ![iVerify logo](assets/img/device-integrity/iverify.webp){ align=right }
