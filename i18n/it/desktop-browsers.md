@@ -218,11 +218,11 @@ Arkenfox mira soltanto a contrastare gli script di tracciamento di base o sempli
     [:octicons-info-16:](https://support.brave.com/){ .card-link title=Documentation}
     [:octicons-code-16:](https://github.com/brave/brave-browser){ .card-link title="Codice Sorgente" }
     
-    ??? downloads annotate
+    ??? downloads annotate "Scarica"
     
         - [:simple-github: GitHub](https://github.com/brave/brave-browser/releases)
-        - [:simple-windows11: Windows](https://brave.com/it/download/)
-        - [:simple-apple: macOS](https://brave.com/it/download/)
+        - [:simple-windows11: Windows](https://brave.com/download/)
+        - [:simple-apple: macOS](https://brave.com/download/)
         - [:simple-linux: Linux](https://brave.com/linux/) (1)
 
     1. Sconsigliamo di utilizzare la versione Flatpak di Brave, poiché sostituisce il sandbox di Chromium con Flatpak, che è meno efficace. Inoltre, il pacchetto non è mantenuto da Brave Software, Inc.

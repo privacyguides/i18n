@@ -23,7 +23,7 @@ Le distribuzioni di Linux sono comunemente consigliate per la protezione della p
     [:octicons-info-16:](https://docs.fedoraproject.org/en-US/docs/){ .card-link title=Documentazione}
     [:octicons-heart-16:](https://whatcanidoforfedora.org/){ .card-link title=Contribuisci }
 
-Fedora ha un ciclo di rilascio semi continuo. Mentre alcuni pacchetti come [GNOME](https://www.gnome.org) sono congelati fino alla prossima versione di Fedora, la maggior parte dei pacchetti (incluso il kernel) sono aggiornati frequentemente durante il ciclo di vita della versione.  Ogni versione di Fedora è supportata per un anno, con una nuova versione rilasciata ogni 6 mesi.
+Fedora ha un ciclo di rilascio semi continuo. Mentre alcuni pacchetti come [GNOME](https://www.gnome.org) sono ibernati fino alla versione successiva di Fedora, gran parte di essi (incluso il kernel) sono aggiornati frequentemente durante il ciclo di vita della versione. Ogni versione di Fedora è supportata per un anno, con una nuova versione rilasciata ogni 6 mesi.
 
 ### openSUSE Tumbleweed
 

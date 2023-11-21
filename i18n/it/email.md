@@ -32,7 +32,7 @@ Questi provider supportano in modo nativo la crittografia/decrittografia OpenPGP
 
     Utilizzando la tecnologia E2EE come OpenPGP, le email conterranno dei metadati non crittografati, nell'intestazione dell'email. Per saperne di più sui metadata della [posta elettronica](basics/email-security.md#email-metadata-overview).
     
-    Inoltre, OpenPGP non supporta la ['Forward secrecy'](https://it.wikipedia.org/wiki/Forward_secrecy), il che significa che se la tua chiave privata o quella del destinatario viene rubata, tutti i messaggi precedenti crittografati con essa saranno esposti. [Come proteggo le mie chiavi private?](basics/email-security.md#how-do-i-protect-my-private-keys)
+    Inoltre, OpenPGP non supporta la Forward Secrecy, a significare che se la chiave privata tua o del destinatario viene rubata, tutti i messaggi precedenti crittografati con essa, saranno esposti. [Come proteggo le mie chiavi private?](basics/email-security.md#how-do-i-protect-my-private-keys)
 
 ### Proton Mail
 
