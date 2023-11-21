@@ -194,7 +194,7 @@ Il Jailbreak di un iPhone ne mina la sicurezza e ti rende vulnerabile. Eseguire 
 
 ### iMessage Crittografata
 
-Il colore della bolla del messaggo nell'app dei Messaggi indica se i tuoi messaggi sono E2EE o no. Una bolla blu indica che stai utilizzando iMessage con E2EE, mentre una bolla verde indica che stai utilizzando i protocolli obsoleti di SMS e MMS. Al momento, il solo modo per ottenere l'E2EE sui Messaggi è che entrambe le parti utilizzino iMessage sui dispositivi Apple.
+Il colore della bolla del messaggio nell'app dei Messaggi indica se i tuoi messaggi sono E2EE o no. Una bolla blu indica che stai utilizzando iMessage con E2EE, mentre una bolla verde indica che stai utilizzando i protocolli obsoleti di SMS e MMS. Al momento, il solo modo per ottenere l'E2EE sui Messaggi è che entrambe le parti utilizzino iMessage sui dispositivi Apple.
 
 Se tu o il tuo partner di messaggistica avete abilitato iCloud Backup senza la Protezione Avanzata dei Dati, la chiave crittografica sarà memorizzata sui server di Apple, a significare che potrà accedere ai tuoi messaggi. Inoltre, lo scambio di chiavi di iMessage non è sicuro quanto le implementazioni alternative, come Signal (che ti consente di visualizzare la chiave del destinatario e di verificare tramite Codice QR), quindi non ci si dovrebbe affidare per le comunicazioni particolarmente sensibili.
 
