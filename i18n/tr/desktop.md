@@ -1,25 +1,25 @@
 ---
-title: "Desktop/PC"
+title: "Masaüstü/PC"
 icon: simple/linux
 description: Linux distributions are commonly recommended for privacy protection and software freedom.
 cover: desktop.webp
 ---
 
-Linux distributions are commonly recommended for privacy protection and software freedom. If you don't already use Linux, below are some distributions we suggest trying out, as well as some general privacy and security improvement tips that are applicable to many Linux distributions.
+Linux distributions are commonly recommended for privacy protection and software freedom. Eğer linux kullanmıyorsanız, aşağıda denemenizi önerdiğimiz dağıtımların yanı sıra birçok linux dağıtımı için geçerli bazı genel gizlilik ve güvenlik ipuçları bulabilirsiniz.
 
-- [General Linux Overview :material-arrow-right-drop-circle:](os/linux-overview.md)
+- [Linux'a Genel Bakış :material-arrow-right-drop-circle:](os/linux-overview.md)
 
-## Traditional Distributions
+## Geleneksel Dağıtımlar
 
 ### Fedora Workstation
 
 !!! öneri
 
-    ![Fedora logo](assets/img/linux-desktop/fedora-workstation.svg){ align=right }
+    ![Fedora logosu](assets/img/linux-desktop/fedora-workstation.svg){ align=right }
     
-    **Fedora Workstation** is our recommended distribution for people new to Linux. Fedora generally adopts newer technologies before other distributions e.g., [Wayland](https://wayland.freedesktop.org/), [PipeWire](https://pipewire.org). These new technologies often come with improvements in security, privacy, and usability in general.
+    **Fedora Workstation** Linux'a yeni başlayanlar için önerdiğimiz bir dağıtımdır. Fedora genellikle yeni teknolojileri diğer dağıtımlardan önce benimser, örneğin [Wayland](https://wayland.freedesktop.org/), [PipeWire](https://pipewire.org). Bu yeni teknolojiler genellik güvenlik, gizlilik ve kullanılabilirlik iyileştirmeleriyle gelir.
     
-    [:octicons-home-16: Homepage](https://fedoraproject.org/workstation/){ .md-button .md-button--primary }
+    [:octicons-home-16: Anasayfa](https://fedoraproject.org/workstation/){ .md-button .md-button--primary }
     [:octicons-info-16:](https://docs.fedoraproject.org/en-US/docs/){ .card-link title=Documentation}
     [:octicons-heart-16:](https://whatcanidoforfedora.org/){ .card-link title=Contribute }
 

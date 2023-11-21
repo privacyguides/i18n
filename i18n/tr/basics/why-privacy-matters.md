@@ -3,9 +3,9 @@ title: "Gizlilik Neden Önemlidir"
 icon: 'material/shield-account'
 ---
 
-In the modern age of digital data exploitation, your privacy has never been more critical, and yet many believe it is already a lost cause. It is not. ==Your privacy is up for grabs==, and you need to care about it. Privacy is about power, and it is so important that this power ends up in the right hands.
+İçinde bulunduğumuz dijital veri sömürüsü çağında, gizliliğiniz daha önce hiç bu kadar önemli olmamıştı, yine de birçok bunun kaybedilmiş bir dava olduğuna inanıyor. Ancak değil. ==Gizliliğiniz kapanın elinde== ve bunu önemsemeniz gerekiyor. Gizlilik güçle ilgilidir ve bu gücün doğru ellerde olması çok önemlidir.
 
-Privacy is ultimately about human information, and this is important because we know that human information confers power over human beings. If we care about our ability to be authentic, fulfilled, and free humans, we have to care about the rules that apply to information about us. So much of our modern society is structured around **information**. When you shop online, read the news, look something up, vote, seek directions, or really anything else, you are relying on information. If we live in an information society, our information matters, and therefore privacy matters.
+Mahremiyet nihayetinde insan bilgisiyle ilgilidir ve bu önemlidir çünkü insan bilgisinin insanlar üzerinde güç sağladığını biliyoruz. Özgün ve özgür insanlar olmayı önemsiyorsak, hakkımızdaki bilgiler için geçerli olan kuralları dikkate almalıyız. Modern toplumumuzun büyük bir kısmı **bilgi** etrafında yapılandırılmıştır. When you shop online, read the news, look something up, vote, seek directions, or really anything else, you are relying on information. If we live in an information society, our information matters, and therefore privacy matters.
 
 ## What is Privacy?
 
