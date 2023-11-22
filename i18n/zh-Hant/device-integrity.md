@@ -1,5 +1,5 @@
 ---
-title: 設備一致性
+title: 設備一致完整
 icon: material/security
 description: 這些工具可用於檢查裝置是否受到攻擊。
 cover: device-integrity.webp
@@ -10,39 +10,39 @@ cover: device-integrity.webp
 !!! 注意“這是進階主題”
 
 ```
-These tools may provide utility for certain individuals. They provide functionality which most people do not need to worry about, and often require more in-depth technical knowledge to use effectively.
+這些工具可能為某些人提供實用性，但大多數人無需擔心也用不上的功能，通常需要更深入的技術知識才能有效使用。
 ```
 
-It is **critical** to understand that scanning your device for public indicators of compromise is **not sufficient** to determine that a device is "clean", and not targeted with a particular spyware tool. Reliance on these publicly-available scanning tools can miss recent security developments and give you a false sense of security.
+**至關重要**是了解，掃描設備是否存在公共危害跡象**不足以**確定設備是“乾淨的”、是否為特定間諜軟體工具的目標。 依賴這些公開可用的掃描工具可能會錯過最新的安全發展，帶來錯誤的安全感。
 
 ## 一般建議
 
-The majority of system-level exploits on modern mobile devices—especially zero-click compromises—are non-persistent, meaning they will not remain or run automatically after a reboot. For this reason, we highly recommend rebooting your device regularly. We recommend everybody reboot their devices once a week at minimum, but if non-persistent malware is of particular concern for you, we and many security experts recommend a daily reboot schedule.
+現代行動裝置上的大多數系統級漏洞（尤其是零點擊攻擊）都是非持久性的，這意味著它們在重新啟動後不會保留或自動運行。 因此，強烈建議定期重新啟動裝置。 我們建議每個設備至少每週重新啟動一次，但如果特別關注非持久性惡意軟體，我們和許多安全專家建議每日重新啟動計劃。
 
-This means an attacker would have to regularly re-infect your device to retain access, although we'll note this is not impossible. Rebooting your device also will not protect you against _persistent_ malware, but this is less common on mobile devices due to modern security features like secure/verified boot.
+這意味著攻擊者必須定期重新感染裝置才能保留存取權限，儘管我們指出這並非不可能。 重新啟動裝置也無法確保免受「持久性」惡意軟體的侵害，但由於安全/驗證啟動等現代安全功能，這種情況在行動裝置上不太常見。
 
-## Post-Compromise Information & Disclaimer
+## 駭漏後資訊和免責聲明
 
-If any of the following tools indicate a potential compromise by spyware such as Pegasus, Predator, or KingsPawn, we advise that you contact:
+如果以下任何工具表明可能有 Pegasus、Predator 或 KingsPawn 等間諜軟體危害，建議聯絡：
 
-- If you are a human rights defender, journalist, or from a civil society organization: [Amnesty International's Security Lab](https://securitylab.amnesty.org/contact-us/)
-- If a business or government device is compromised: Contact the appropriate security liason at your enterprise, department, or agency
-- Local law enforcement
+- 如果您是人權捍衛者、記者或來自民間團體：[國際特赦組織安全實驗室](https://securitylab.amnesty.org/contact-us/)
+- 如果企業或政府設備受到威脅：請聯絡企業、部門或機構的相應安全聯絡員
+- 本地執法單位
 
-**We are unable to help you directly beyond this.** We are happy to discuss your specific situation or circumstances and review your results in our [community](https://discuss.privacyguides.net) spaces, but it is unlikely we can assist you beyond what is written on this page.
+**除此之外，我們無法直接為您提供幫助。** 我們很樂意在我們的[社區](https://discuss.privacyguides.net)空間中討論您的具體情況或情況並檢查結果，但不太可能提供本頁所述之外的協助。
 
-The tools on this page are only capable of detecting indicators of compromise, not removing them. If you are concerned about having been compromised, we advise that you:
+此頁面上的工具只能偵測破壞跡象，而不能刪除它們。 如果擔心受到威脅，我們建議：
 
-- Consider replacing the device completely
-- Consider changing your SIM/eSIM number
-- Not restore from a backup, because that backup may be compromised
+- 考慮完全更換設備
+- 考慮更改 SIM/eSIM 號碼
+- 不要從備份重置，因為該備份可能已受到損害
 
-These tools provide analysis based on the information they have the ability to access from your device, and publicly-accessible indicators of compromise. It is important to keep in mind two things:
+這些工具根據他們能夠從裝置存取的資訊以及可公開存取的破壞指標提供分析。 重要的是記住兩件事：
 
-1. Indicators of compromise are just that: _indicators_. They are not a definitive finding, and may occasionally be **false positives**. If an indicator of compromise is detected, it means you should do additional research into the _potential_ threat.
-2. The indicators of compromise these tools look for are published by threat research organizations, but not all indicators are made available to the public! This means that these tools can present a **false negative**, if your device is infected with spyware which is not detected by any of the public indicators. Reliable and comprehensive digital forensic support and triage requires access to non-public indicators, research and threat intelligence.
+1. 破壞指標就僅是：_指標_。 它們不是明確的發現，有時可能是**誤報**。 如果偵測到有侵駭跡象，則表示應對「潛在」威脅進行更多研究。
+2. 這些工具尋找的侵駭指標由威脅研究組織發布，但並非所有指標都對外開放！ 這意味著，如果裝置感染了任何公共指標都未偵測到的間諜軟體，則工具可能會**漏報**。 可靠且全面的數位鑑識支援和分類需要存取非公開指標、研究和威脅情報。
 
-## External Verification Tools
+## 外部驗證工具
 
 External verification tools run on your computer and scan your mobile device for forensic traces which are helpful to identify potential compromise.
 
