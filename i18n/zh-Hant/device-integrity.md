@@ -1,13 +1,13 @@
 ---
 title: 設備一致性
 icon: material/security
-description: These tools can be used to check your devices for compromise.
+description: 這些工具可用於檢查裝置是否受到攻擊。
 cover: device-integrity.webp
 ---
 
-These tools can be used to validate the integrity of your mobile devices and check them for indicators of compromise by spyware and malware such as Pegasus, Predator, or KingsPawn. This page focuses on **mobile security**, because mobile devices typically have read-only systems with well-known configurations, so detecting malicious modifications is easier than on traditional desktop systems. We may expand the focus of this page in the future.
+這些工具可用於驗證行動裝置的完整性，檢查它們是否有間諜軟體和惡意軟體（例如 Pegasus、Predator 或 KingsPawn）的危害跡象。 本頁重點關注**行動安全性**，因為行動裝置通常具有為人所知配置的唯讀系統，檢測惡意修改比傳統桌面系統更容易。 將來可能會再擴展此頁面的重點。
 
-!!! note "This is an advanced topic"
+!!! 注意“這是進階主題”
 
 ```
 These tools may provide utility for certain individuals. They provide functionality which most people do not need to worry about, and often require more in-depth technical knowledge to use effectively.
