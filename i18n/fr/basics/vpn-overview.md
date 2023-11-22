@@ -21,22 +21,22 @@ Les VPNs chiffrent votre trafic entre votre appareil et un serveur appartenant �
 
 ``` mermaid
 flowchart LR
- 763931["Your Device<div>(with VPN Client)</div>"] ===|"VPN Encryption"| 404512{"VPN Server"}
- 404512 -.-|"No VPN Encryption"| 593753((("The Internet\n(Your Destination)")))
- subgraph 763931["Your Device<div>(with VPN Client)</div>"]
+ 763931["Votre appareil<div>(avec client VPN)</div>"] ===|"chiffrement VPN"| 404512{"serveur VPN"}
+ 404512 -.-|"pas de chiffrement VPN"| 593753((("Internet\n(votre destination)")))
+ subgraph 763931["Votre appareil<div>(avec client VPN)</div>"]
  end
 ```
 
-Note that a VPN does not add any security or encryption to your traffic between the VPN server and your destination on the internet. To access a website securely you **must** still ensure HTTPS is in use regardless of whether you use a VPN.
+Notez qu'un VPN n'ajoute pas de sécurité ou de chiffrement à votre trafic entre le serveur VPN et votre destination sur Internet. Pour accéder à un site Web en toute sécurité vous **devez** toujours vous assurer que HTTPS est utilisé, que vous utilisiez ou non un VPN.
 
-## Devrais-je utiliser un VPN ?
+## Dois-je utiliser un VPN ?
 
-**Yes**, almost certainly. A VPN has many advantages, including:
+**Oui**, presque certainement. Un VPN a de nombreux avantages, y compris :
 
 1. Cacher votre trafic de **seulement** votre Fournisseur d'Accès Internet.
 1. Cacher vos téléchargements (tels que les torrents) à votre FAI et aux organisations anti-piratage.
-1. Hiding your IP from third-party websites and services, helping you blend in and preventing IP based tracking.
-1. Allowing you to bypass geo-restrictions on certain content.
+1. Cacher votre adresse IP des sites et services tiers, et ce faisant vous aider à vous fondre dans le traffic et à prévenir le suivi basé sur l'adresse IP.
+1. Permettre de contourner les restrictions géographiques sur certains contenus.
 
 VPNs can provide *some* of the same benefits Tor provides, such as hiding your IP from the websites you visit and geographically shifting your network traffic, and good VPN providers will not cooperate with e.g. legal authorities from oppressive regimes, especially if you choose a VPN provider outside your own jurisdiction.
 
@@ -106,10 +106,10 @@ Another consideration is legal liability. The exit node will need to deal with l
 
 Many dVPNs are used to push a cryptocurrency rather than to make the best service. They also tend to be smaller networks with fewer nodes, making them more vulnerable to [Sybil attacks](https://en.wikipedia.org/wiki/Sybil_attack).
 
-## Informations VPN Liées
+## Informations VPN liées
 
-- [Le Problème avec les sites d'évaluation des VPNs et de la Vie Privée](https://blog.privacyguides.org/2019/11/20/the-trouble-with-vpn-and-privacy-review-sites/)
-- [Enquête sur les Applications VPN Gratuites](https://www.top10vpn.com/free-vpn-app-investigation/)
+- [Le problème avec les sites d'évaluation des VPNs et de la vie privée](https://blog.privacyguides.org/2019/11/20/the-trouble-with-vpn-and-privacy-review-sites/)
+- [Enquête sur les applications VPN gratuites](https://www.top10vpn.com/free-vpn-app-investigation/)
 - [Les propriétaires inconnus des VPNs dévoilés : 101 produits VPN gérés par seulement 23 sociétés](https://vpnpro.com/blog/hidden-vpn-owners-unveiled-97-vpns-23-companies/)
 - [Cette société chinoise est secrètement à l'origine de 24 applications populaires qui cherchent à obtenir des autorisations dangereuses](https://vpnpro.com/blog/chinese-company-secretly-behind-popular-apps-seeking-dangerous-permissions/)
-- [VPN - un Récit Très Précaire](https://schub.io/blog/2019/04/08/very-precarious-narrative.html) par Dennis Schubert
+- [VPN - un récit très précaire](https://schub.io/blog/2019/04/08/very-precarious-narrative.html) par Dennis Schubert
