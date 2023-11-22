@@ -23,29 +23,29 @@ Tor 是一個免費使用的去中心化網路，其讓用戶在使用網際網�
 
 由於各種原因，我們已[一般建議](../basics/vpn-overview.md)絕大多數人使用值得信賴的VPN 提供商，以下有關透過 VPN 連接到Tor的建議可能適用。 <mark>在連接到 Tor 之前無需停用 VPN</mark>，某些線上資源讓您相信這一點。
 
-直接連接到 Tor 將使您的連接在任何本地網路管理員或 ISP 面前脫穎突出。 Detecting and correlating this traffic [has been done](https://edition.cnn.com/2013/12/17/justice/massachusetts-harvard-hoax/) in the past by network administrators to identify and deanonymize specific Tor users on their network. 另一方面，連接 VPN 並不會太可疑，因為日常消費者使用商業 VPN 服務來執行各種日常任務例如繞過地理限制，即使在網路限制嚴格的國家也是如此。
+直接連接到 Tor 將使您的連接在任何本地網路管理員或 ISP 面前脫穎突出。 網路管理員過去已[偵測並將此類流量作關聯性](https://edition.cnn.com/2013/12/17/justice/massachusetts-harvard-hoax/)，以識別網路上的特定 Tor 使用者並對其進行去匿名化。 另一方面，連接 VPN 並不會太可疑，因為日常消費者使用商業 VPN 服務來執行各種日常任務例如繞過地理限制，即使在網路限制嚴格的國家也是如此。
 
 所以應在**在**連接到 Tor 網路之前盡力隱藏自己的 IP 位址。 只需連接到VPN（透過電腦上安裝的客戶端），然後正常存取[Tor](../tor.md)（例如透過Tor 瀏覽器）即可做到這一點。 這將建立一個連接鏈，例如：
 
-- [x] You → VPN → Tor → Internet
+- [x] 你 → VPN → Tor → 網際網路
 
-從 ISP 的角度來看，用戶似乎正在存取 VPN（提供的相關保護）。 從 VPN 角度，他們可以看到您正在連接到 Tor 網絡，但看不到您訪問哪些網站。 From Tor's perspective, you're connecting normally, but in the unlikely event of some sort of Tor network compromise, only your VPN's IP would be exposed, and your VPN would *additionally* have to be compromised to deanonymize you.
+從 ISP 的角度來看，用戶似乎正在存取 VPN（提供的相關保護）。 從 VPN 角度，他們可以看到您正在連接到 Tor 網絡，但看不到您訪問哪些網站。 從Tor 角度，可以正常連接，但萬一發生某種 Tor 網路洩露的情況（不太可能發生），只有 VPN 的IP 會被暴露，且所用的VPN 也會*額外*妥協才能使您去匿名化。
 
-This is **not** censorship circumvention advice, because if Tor is blocked entirely by your ISP, your VPN likely is as well. Rather, this recommendation aims to make your traffic blend in better with commonplace VPN user traffic, and provide you with some level of plausible deniability by obscuring the fact that you're connecting to Tor from your ISP.
+這**不是**規避審查的建議，如 Tor 被 ISP 完全封鎖， VPN 也可能遭封鎖。 相反，此建議旨在使流量與常見 VPN 用戶流量更好地融合，透過掩蓋從 ISP 連接到 Tor 的事實來提供某種程度的合理推諉。
 
 
 
 ---
 
-We **very strongly discourage** combining Tor with a VPN in any other manner. Do not configure your connection in a way which resembles any of the following:
+我們**強烈反對**以任何其他方式將 Tor 與 VPN 結合。 不要以下任何相似方式配置連接：
 
-- You → Tor → VPN → Internet
-- You → VPN → Tor → VPN → Internet
+- 你 → Tor → VPN → 網際網路
+- 你 → VPN → Tor → VPN → 網際網路
 - 任何其它設定
 
-Some VPN providers and other publications will occasionally recommend these **bad** configurations to evade Tor bans (exit nodes being blocked by websites) in some places. [Normally](https://support.torproject.org/#about_change-paths), Tor frequently changes your circuit path through the network. When you choose a permanent *destination* VPN (connecting to a VPN server *after* Tor), you're eliminating this advantage and drastically harming your anonymity.
+有些 VPN 提供者和其他出版物會推薦這些**不良**配置，以逃避某些地區的 Tor 禁令（出口節點被網站阻止）。 [通常](https://support.torproject.org/#about_change-paths)，Tor 會經常更改通過網路的迴路路徑。 當選擇永久*目的地* VPN（在*Tor 之後*連接到VPN 伺服器）時，就消除了此番優勢且嚴重損害匿名性。
 
-Setting up bad configurations like these is difficult to do accidentally, because it usually involves either setting up custom proxy settings inside Tor Browser, or setting up custom proxy settings inside your VPN client which routes your VPN traffic through the Tor Browser. As long as you avoid these non-default configurations, you're probably fine.
+此類不良配置很難無意中完成，因為它通常涉及在 Tor 瀏覽器內設置自訂代理設置，或在 VPN 用戶端內設置自訂代理設定（透過 Tor 瀏覽器路由 VPN 流量）。 只要避免這些非預設配置，可能就沒問題。
 
 
 
@@ -53,20 +53,20 @@ Setting up bad configurations like these is difficult to do accidentally, becaus
 
 !!! info "VPN/SSH Fingerprinting"
 
-    The Tor Project [notes](https://gitlab.torproject.org/legacy/trac/-/wikis/doc/TorPlusVPN#vpnssh-fingerprinting) that *theoretically* using a VPN to hide Tor activities from your ISP may not be foolproof. VPNs have been found to be vulnerable to website traffic fingerprinting, where an adversary can still guess what website is being visited, because all websites have specific traffic patterns.
+    Tor 專案 [註](https://gitlab.torproject.org/legacy/trac/-/wikis/doc/TorPlusVPN#vpnssh-fingerprinting) *理論上*使用 VPN 隱藏 Tor 活動到 ISP 可能不容易。 人們發現 VPN 很容易受到網站流量指紋辨識的影響，攻擊者仍然可猜測正在造訪哪個網站，因為所有網站都有特定的流量模式。
     
-    Therefore, it's not unreasonable to believe that encrypted Tor traffic hidden by a VPN could also be detected via similar methods. There are no research papers on this subject, and we still consider the benefits of using a VPN to far outweigh these risks, but it is something to keep in mind.
+    因此，相信 VPN 隱藏的加密 Tor 流量也可以透過類似的方法被偵測，這並非沒道理。 沒有這個主題的研究論文，我們仍然認為使用 VPN 的好處遠遠超過這些風險，但需要記住這點。
     
-    If you still believe that pluggable transports (bridges) provide additional protection against website traffic fingerprinting that a VPN does not, you always have the option to use a bridge **and** a VPN in conjunction.
+    如果仍認為可插拔傳輸（橋接器）可以針對網站流量指紋識別提供 VPN 無法提供的額外保護，那麼可以選擇結合使用橋接器**和** VPN。
     
 
-Determining whether you should first use a VPN to connect to the Tor network will require some common sense and knowledge of your own government's and ISP's policies relating to what you're connecting to. 然而在多數情況下，最好被視為連接到商業 VPN 網絡，而不是直接連到 Tor 網路。 如果VPN 服務商在您的地區受到審查，那麼也可以考慮使用Tor 可插拔傳輸（例如 Snowflake 或 meek ）作為替代方案，但使用這些橋接器可能比標準WireGuard/OpenVPN 隧道引起更多懷疑。
+確定是否應該先使用 VPN 連接到 Tor 網絡需要一些常識和了解當地政府和 ISP 與所連接內容的政策。 然而在多數情況下，最好被視為連接到商業 VPN 網絡，而不是直接連到 Tor 網路。 如果VPN 服務商在您的地區受到審查，那麼也可以考慮使用Tor 可插拔傳輸（例如 Snowflake 或 meek ）作為替代方案，但使用這些橋接器可能比標準WireGuard/OpenVPN 隧道引起更多懷疑。
 
 
 
 ## Tor 並非是
 
-The Tor network is not the perfect privacy protection tool in all cases, and has a number of drawbacks which should be carefully considered. These things should not discourage you from using Tor if it is appropriate for your needs, but they are still things to think about when deciding which solution is most appropriate for you.
+Tor 網路並非在任何情況下都是完美的隱私保護工具，其存在一些應仔細考慮的缺點。 如果 Tor 適合您的需求，則這些缺點不應阻止 Tor 使用，但在決定哪種解決方案最適合時仍然需要考慮這些問題。
 
 
 
@@ -74,15 +74,15 @@ The Tor network is not the perfect privacy protection tool in all cases, and has
 
 *Orbot* 行動應用，讓許多人誤將 Tor 描述為適用所有裝置流量的「免費 VPN」。 然而，與典型的 VPN 相比，這樣使用 Tor 會有某些危險。
 
-不同於 Tor 出口節點，VPN 服務商通常不會*主動*[惡意](#caveats)。 Tor 出口節點可由任何人創建，它們是網路日誌記錄和修改的熱點。 2020 年許多 Tor 出口節點被記錄將 HTTPS 流量降級為 HTTP，以便[「劫持」加密貨幣交易](https://therecord.media/thousands-of-tor-exit-nodes-attacked-cryptocurrency-users-over-the-past-year)。 Other exit node attacks such as replacing downloads via unencrypted channels with malware have also been observed. HTTPS does mitigate these threats to an extent.
+不同於 Tor 出口節點，VPN 服務商通常不會*主動*[惡意](#caveats)。 Tor 出口節點可由任何人創建，它們是網路日誌記錄和修改的熱點。 2020 年許多 Tor 出口節點被記錄將 HTTPS 流量降級為 HTTP，以便[「劫持」加密貨幣交易](https://therecord.media/thousands-of-tor-exit-nodes-attacked-cryptocurrency-users-over-the-past-year)。 其他出口節點攻擊，例如用惡意軟體替換通過未加密通道的下載。 HTTPS 確實某程度緩解了這些威脅。
 
-As we've alluded to already, Tor is also easily identifiable on the network. Unlike an actual VPN provider, using Tor will make you stick out as a person likely attempting to evade authorities. In a perfect world, Tor would be seen by network administrators and authorities as a tool with many uses (like how VPNs are viewed), but in reality the perception of Tor is still far less legitimate than the perception of commercial VPNs, so using a real VPN provides you with plausible deniability, e.g. "I was just using it to watch Netflix," etc.
+正如我們已提過的，Tor 在網路上很容易識別。 與實際的 VPN 服務不同，使用 Tor 會讓您成為可能試圖逃避當局的人。 在理想的世界中，Tor 會被網路管理員和當局視為一種多種用途的工具（就像如何看待VPN）。但現實中，Tor 的認知仍然遠不如承認商業 VPN 的正當性，因此使用真正的 VPN 提供看似合理的推諉，例如 「我只是用它來觀看 Netflix，」等等。
 
 
 
 ### Tor usage is not undetectable
 
-**Even if you use bridges and pluggable transports,** the Tor Project provides no tools to hide the fact that you are using Tor from your ISP. Even using obfuscated "pluggable transports" or non-public bridges do not hide the fact that you are using a private communications channel. The most popular pluggable transports like obfs4 (which obfuscates your traffic to "look like nothing") and meek (which uses domain fronting to camouflage your traffic) can be [detected](https://www.hackerfactor.com/blog/index.php?/archives/889-Tor-0day-Burning-Bridges.html) with fairly standard traffic analysis techniques. Snowflake has similar issues, and can be [easily detected](https://www.hackerfactor.com/blog/index.php?/archives/944-Tor-0day-Snowflake.html) *before* a Tor connection is even established.
+**即便使用橋接器和可插拔傳輸，**Tor 專案並未提供任何工具來對ISP 隱藏正在使用 Tor 的事實。 即使使用模糊的「可插拔傳輸」或非公共橋接器也不能隱藏正在使用私人通訊通道的事實。 最受歡迎的可插拔傳輸，例如obfs4（將流量混淆為「看起來沒什麼」）和meek（使用網域前置來偽裝流量）可以是[使用相當標準的流量分析技術檢測](https://www.hackerfactor.com/blog/ index.php?/archives/889-Tor-0day-Burning-Bridges.html)。 Snowflake 也有類似的問題，< em x-id="3">在 Tor 連線建立前</em>，[很容易偵測到](https://www.hackerfactor.com/blog/index.php?/archives/944-Tor-0day-Snowflake.html) 。
 
 還有這三種以外的可插拔傳輸，但通常依賴透過隱蔽性來逃避偵測的安全性。 它們不是不可能被檢測，只是使用者太少，以至於不值得為它們建立檢測器。 如果特別遭受監控，則不應依賴它們。
 
@@ -92,14 +92,14 @@ As we've alluded to already, Tor is also easily identifiable on the network. Unl
 
 ### Tor 瀏覽器不是最*安全*的瀏覽器
 
-匿名性常常與安全性相矛盾：Tor 的匿名性要求每個使用者都是相同的，這會造成單一文化（所有 Tor 瀏覽器使用者都存在相同的錯誤）。 As a cybersecurity rule of thumb, monocultures are generally regarded as bad: Security through diversity (which Tor lacks) provides natural segmentation by limiting vulnerabilities to smaller groups, and is therefore usually desirable, but this diversity is also less good for anonymity.
+匿名性常常與安全性相矛盾：Tor 的匿名性要求每個使用者都是相同的，這會造成單一文化（所有 Tor 瀏覽器使用者都存在相同的錯誤）。 依網路安全的經驗法則，單一文化通常認為不好：透過多樣性（Tor 所缺乏的）實現安全性，透過將漏洞限制在較小的群體中，提供了自然隔離通常是可取的，但這種多樣性對於匿名性來說也不太有利。
 
-Additionally, Tor Browser is based on Firefox's Extended Support Release builds, which only receives patches for vulnerabilities considered *Critical* and *High* (not *Medium* and *Low*). This means that attackers could (for example):
+此外，Tor 瀏覽器是 Firefox 的擴展支援版本，僅接收被視為*嚴重*和*高*漏洞的補丁>（不是*中*和*低*）。 這意味著攻擊者可以（例如）：
 
 1. 在 Firefox nightly 或 beta 版本中尋找新的嚴重/高危險漏洞，然後檢查它們可否利用在 Tor 瀏覽器（此漏洞週期可能會持續數週）。
-2. Chain *multiple* Medium/Low vulnerabilities together until they get the level of access they're looking for (this vulnerability period can last months or longer).
+2. 將*多個*中/低漏洞連結在一起，直到它們獲得所需的存取等級（此漏洞週期可能會持續數月或更長時間）。
 
-Those at risk of browser vulnerabilities should consider additional protections to defend against Tor Browser exploits, such as using Whonix in [Qubes](../os/qubes-overview.md) to contain your Tor browsing in a secure VM and protect against leaks.
+面臨瀏覽器漏洞風險者應考慮採取額外的保護措施來防禦Tor 瀏覽器漏洞，例如在[Qubes](../os/qubes-overview.md) 使用Whonix 來限制 Tor 瀏覽安全的虛擬器並防止洩漏。
 
 
 
@@ -184,10 +184,10 @@ Tor 允許我們連接到伺服器，而不讓任何一方知道完整路徑。 
 雖然 Tor 確實提供了強大的隱私保證，但必須意識到它並不完美：
 
 - Tor 不會保護您免於錯誤地暴露自己，例如分享了太多有關自身真實身份的資訊。
-- Tor 出口節點可以**修改**通過的未加密流量。 這意味著未加密的流量（例如純 HTTP 流量）可能會被惡意出口節點變更。 **Never** download files from an unencrypted `http://` website over Tor, and ensure your browser is set to always upgrade HTTP traffic to HTTPS.
+- Tor 出口節點可以**修改**通過的未加密流量。 這意味著未加密的流量（例如純 HTTP 流量）可能會被惡意出口節點變更。 **切勿**透過Tor 從未加密的`http://` 網站下載文件，確保瀏覽器設定為始終將HTTP 流量升級為HTTPS。
 - Tor 出口節點還可以監控通過它們的流量。 包含個人識別資訊的未加密流量可能會讓您在該出口節點被消除匿名。 再次強調，建議僅透過 Tor 使用 HTTPS。
-- Powerful adversaries with the capability to passively watch *all* network traffic around the globe ("Global Passive Adversaries") are **not** something that Tor protects you against (and using Tor [with a VPN](#safely-connecting-to-tor) doesn't change this fact).
-- Well-funded adversaries with the capability to passively watch *most* network traffic around the globe still have a *chance* of deanonymizing Tor users by means of advanced traffic analysis.
+- 能被動監視全球*所有*網路流量的強大對手（「全球被動對手」）**並不是** Tor 所能防禦的對手（即便將​​Tor [與VPN](#safely-connecting-to-tor) 也無法改變此一事實）。
+- 資金雄厚、能夠被動監視全球*大多數*網路流量的對手仍然有*機會*通過進階流量分析去匿名化Tor 用戶。
 
 如果您希望使用 Tor 瀏覽網頁，我們只建議使用 **官方** Tor 瀏覽器：它旨在防止指紋。
 
@@ -205,13 +205,13 @@ Tor 橋接器通常被認為是向 ISP 隱藏 Tor 使用情況的替代方法，
 
 對比我們所推薦的場景，透過 VPN 連接到 Tor。 假設 4 個月後，您的 ISP 再次想要識別 4 個月前使用過 Tor 的任何人。 他們的日誌幾乎肯定可以識別 4 個月前的流量，他們可能僅能看到所連接的 VPN IP 位址。 大多數 ISP 僅長期保留元數據，而不是您要求的流量完整內容。 儲存全部流量資料需要大量空間，而幾乎所有威脅行為者都不具備這種能力。
 
-Because your ISP almost certainly is not capturing all packet-level data and storing it forever, they have no way of determining what you connected to with that VPN *after* the fact with an advanced technique like deep packet inspection, and therefore you have plausible deniability.
+ISP 肯定不會截取所有資料包級資料與將其永久存儲，他們*無法利用深度資料包檢查等先進技術* 來確認通過VPN 連接的內容，因此你有合理的推諉能力。
 
-Therefore, bridges provide the most benefit when circumventing internet censorship *in the moment*, but they are not an adequate substitute for **all** the benefits that using a VPN alongside Tor can provide. 再次強調，這並不是*反對*使用 Tor 橋接器，但在做出決定時應該了解其限制。 在某些情況下，橋接器可能是*唯一*選項（例如，如果所有VPN 提供者都被封鎖），因此您仍然可以在這些情況下使用它們，但請記住此限制。
+因此，橋接器在規避網路審查時提供了最大的好處，但*目前*它們還未能充分取代**所有</em >結合使用 VPN 和 Tor 的好處。 再次強調，這並不是*反對*使用 Tor 橋接器，但在做出決定時應該了解其限制。 在某些情況下，橋接器可能是*唯一*選項（例如，如果所有VPN 提供者都被封鎖），因此您仍然可以在這些情況下使用它們，但請記住此限制。</p> 
 
 如果認為橋接器比 VPN 的加密隧道更能幫助防禦指紋識別或其他進階網路分析，那麼可以一直選擇將橋接器與 VPN 結合使用。 這樣，即使對手取得對 VPN 隧道某程度的可見性，您仍然受到可插拔傳輸混淆技術的保護。 如果決定走這條路，建議您連接到 VPN 後面的 obfs4 橋，以獲得最佳的指紋識別保護，而不是 meek 或 Snowflake。
 
-It is [possible](https://discuss.privacyguides.net/t/clarify-tors-weaknesses-with-respect-to-observability/3676/16) that the [WebTunnel](https://forum.torproject.org/t/tor-relays-announcement-webtunnel-a-new-pluggable-transport-for-bridges-now-available-for-deployment/8180) pluggable transport currently being trialed may mitigate some of these concerns. 我們將繼續關注這項技術的發展。
+[可能](https://discuss.privacyguides.net/t/clarify-tors-weaknesses-with-respect-to-observability/3676/16)目前正在試驗中的[WebTunnel](https:// forum.torproject.org/t/tor-relays-announcement-webtunnel-a-new-pluggable-transport-for-bridges-now-available-for-deployment/8180) 可插拔傳輸可以減輕其中一些擔憂。 我們將繼續關注這項技術的發展。
 
 
 
