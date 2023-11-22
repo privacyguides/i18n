@@ -4,7 +4,7 @@ icon: simple/linux
 description: Linux è un sistema operativo desktop, open source, incentrato sulla privacy e alternativo, ma non tutte le distribuzioni sono uguali.
 ---
 
-**Linux** è un sistema operativo per desktop open-source, alternativo e incentrato sulla privacy. Di fronte alla telemetria pervasiva e altre tecnologie che violano la privacy nei sistemi operativi tradizionali, i desktop Linux sono rimasti la scelta migliore per coloro che vorrebbero il pieno controllo sui propri computer, da cima a fondo.
+**Linux** è un sistema operativo per desktop open source, alternativo e incentrato sulla privacy. Di fronte alla telemetria pervasiva e altre tecnologie che violano la privacy nei sistemi operativi tradizionali, i desktop Linux sono rimasti la scelta migliore per coloro che vorrebbero il pieno controllo sui propri computer, da cima a fondo.
 
 Il nostro sito web utilizza generalmente il termine "Linux" per descrivere le distribuzioni Linux per **desktop**. Altri sistemi operativi che utilizzano anch'essi il kernel di Linux, come ChromeOS, Android e Qubes OS non sono discussi su questa pagina.
 
@@ -20,7 +20,7 @@ Esistono alcune notevoli preoccupazioni sulla privacy con Linux, di cui dovresti
 
 ### Sicurezza Open Source
 
-È una convinzione [comunemente errata](../basics/common-misconceptions.md#open-source-software-is-always-secure-or-proprietary-software-is-more-secure) che Linux e altri software open-source siano intrinsecamente sicuri semplicemente perché il codice sorgente è disponibile. Ci si aspetta che la verifica della community si verifichi regolarmente, ma ciò non è sempre [il caso](https://seirdy.one/posts/2022/02/02/floss-security/).
+È una convinzione [comunemente errata](../basics/common-misconceptions.md#open-source-software-is-always-secure-or-proprietary-software-is-more-secure) che Linux e altri software open source siano intrinsecamente sicuri semplicemente perché il codice sorgente è disponibile. Ci si aspetta che la verifica della community si verifichi regolarmente, ma ciò non è sempre [il caso](https://seirdy.one/posts/2022/02/02/floss-security/).
 
 In realtà, la sicurezza della distribuzione dipende da numerosi fattori, come l'attività del progetto, l'esperienza dello sviluppatore, il livello di rigore applicato alle revisioni del codice e quanto spesso è data attenzione a parti specifiche della base di codice, che potrebbero non essere toccate per anni.
 
@@ -32,7 +32,7 @@ Al momento, il desktop Linux [è indietro rispetto alle alternative](https://dis
 
 - Il **sandboxing forte** per le app su Linux è fortemente carente, anche con app containerizzate, come Flatpaks, o le soluzioni di sandbox, come Firejail. Flatpak è l'utlità di sandboxing più promettente per Linux finora, ma è ancora carente in molte aree e consente [valori predefiniti non sicuri](https://flatkill.org/2020/), che consentono a gran parte delle app di superare banalmente tale sandbox.
 
-Inoltre, Linux è in ritardo nell'implementazione delle [mitigazioni di exploit](https://madaidans-insecurities.github.io/linux.html#exploit-mitigations), che sono ora lo standard sugli altri sistemi operativi, come Arbitrary Code Guard su Windows o Hardened Runtime su macOS. Inoltre, gran parte dei programmi per Linux e Linux stesso sono programmati in linguaggi non sicuri per la memoria. I bug di corruzione della memoria sono responsabili per [gran parte delle vulnerabilità](https://msrc.microsoft.com/blog/2019/07/a-proactive-approach-to-more-secure-code/) risolte e cui è stato assegnato un CVE. Sebbene ciò sia vero anche per Windows e per macOS, stanno rapidamente facendo progressi nell'adottare linguaggi sicuri per la memoria, come Rust e Swift, rispttivamente, mentre non sembra esistere un simile sforzo per la riscrittura di Linux in un linguaggo sicuro per la memoria, come Rust.
+Inoltre, Linux è in ritardo nell'implementazione delle [mitigazioni di exploit](https://madaidans-insecurities.github.io/linux.html#exploit-mitigations), che sono ora lo standard sugli altri sistemi operativi, come Arbitrary Code Guard su Windows o Hardened Runtime su macOS. Inoltre, gran parte dei programmi per Linux e Linux stesso sono programmati in linguaggi non sicuri per la memoria. I bug di corruzione della memoria sono responsabili per [gran parte delle vulnerabilità](https://msrc.microsoft.com/blog/2019/07/a-proactive-approach-to-more-secure-code/) risolte e cui è stato assegnato un CVE. Sebbene ciò sia vero anche per Windows e per macOS, stanno rapidamente facendo progressi nell'adottare linguaggi sicuri per la memoria, come Rust e Swift, rispettivamente, mentre non sembra esistere un simile sforzo per la riscrittura di Linux in un linguaggio sicuro per la memoria, come Rust.
 
 ## Scegliere la tua distribuzione
 
@@ -82,7 +82,7 @@ Se sei esperto con Linux e vorresti utilizzare una distribuzione basata su Arch,
 
 Inoltre, **sconsigliamo**, nello specifico, questi due derivati di Arch:
 
-- **Manjaro**: Questa distribuzione trattiene i pacchetti per 2 settimane per assicurarsi che le proprie modifiche non si corrrompano, non per assicurarsi che, tutto sia stabile a monte. Utilizzando i pacchetti AUR, sono spesso compilati con le [librerie](https://en.wikipedia.org/wiki/Library_(computing)) più recenti dai repository di Arch.
+- **Manjaro**: Questa distribuzione trattiene i pacchetti per 2 settimane per assicurarsi che le proprie modifiche non si corrompano, non per assicurarsi che, tutto sia stabile a monte. Utilizzando i pacchetti AUR, sono spesso compilati con le [librerie](https://en.wikipedia.org/wiki/Library_(computing)) più recenti dai repository di Arch.
 - **Garuda**: Utilizza [Chaotic-AUR](https://aur.chaotic.cx/) che compila automaticamente e alla cieca i pacchetti da AUR. Non esiste alcun processo di verifica per assicurarsi che i pacchetti di AUR non subiscano attacchi alla catena di distribuzione del software.
 
 ### Distribuzioni del kernel libero di Linux e "Libre"
@@ -99,7 +99,7 @@ Molte delle distribuzioni Linux offrono un opzione nel proprio programma d'insta
 
 ### Swap
 
-Considera l'utilizzo della [ZRAM](https://wiki.archlinux.org/title/Zram#Using_zram-generator), invece di un file di swap tradizionale o di una partizione, per evitare di scrvere dati della memoria potenzialmente sensibili, sull'archiviazione persistente (e migliorare le prestazioni). Le distribuzioni basate su Fedora [utilzzano la ZRAM di default](https://fedoraproject.org/wiki/Changes/SwapOnZRAM).
+Considera l'utilizzo della [ZRAM](https://wiki.archlinux.org/title/Zram#Using_zram-generator), invece di un file di swap tradizionale o di una partizione, per evitare di scrivere dati della memoria potenzialmente sensibili, sull'archiviazione persistente (e migliorare le prestazioni). Le distribuzioni basate su Fedora [utilzzano la ZRAM di default](https://fedoraproject.org/wiki/Changes/SwapOnZRAM).
 
 Se richiedi la funzionalità di sospensione su disco (ibernazione), dovresti comunque utilizzare un file di swap o una partizione tradizionale. Assicurati che qualsiasi spazio di swap che possiedi disponga di un dispositivo di archiviazione persistente, come minimo [crittografato](https://wiki.archlinux.org/title/Dm-crypt/Swap_encryption), per mitigare alcune di queste minacce.
 
@@ -119,7 +119,7 @@ Alcune distribuzioni di Linux (come le distribuzioni fai da te o basate su [Linu
 
 ### Aggiornamenti
 
-Molte distribuzioni di Linux installano automaticamente gli aggiornamenti o ti ricordano di farlo. È importante mantenere aggiornato il sistema operativo in modo che il tuo software venga subito corretto quando viene individuata una vulnerabilità.
+Molte distribuzioni di Linux installano automaticamente gli aggiornamenti o ti ricordano di farlo. È importante mantenere aggiornato il sistema operativo, così che il tuo software sia subito corretto, all'individuazione di una vulnerabilità.
 
 Alcune distribuzioni (in particolare quelle rivolte agli utenti avanzati) sono più scarne e si aspettano che tu faccia le cose da solo (ad esempio Arch o Debian). Per ricevere gli aggiornamenti di sicurezza importanti su queste distribuzioni è necessario eseguire manualmente il "gestore di pacchetti" (`apt`, `pacman`, `dnf`, ecc.).
 
@@ -137,7 +137,7 @@ Consigliamo di modificare l'impostazione a **casuale**, invece che a **stabile**
 
 Se stai utilizzando [systemd-networkd](https://en.wikipedia.org/wiki/Systemd#Ancillary_components), dovrai impostare [`MACAddressPolicy=random`](https://www.freedesktop.org/software/systemd/man/systemd.link.html#MACAddressPolicy=), che abiliterà [RFC 7844 (Profili Anonimi per i Client DHCP)](https://www.freedesktop.org/software/systemd/man/systemd.network.html#Anonymize=).
 
-La randomizzazione dell'indirizzo MAC è utile soprattutto per le connessioni Wi-Fi. Per le connessioni Ethernet, la randomizzazione dell'indirizzo MAC offre pochi vantaggi (o addirittura nessuno), perché un amministratore di rete può facilmente identificare il tuo dispositivo con altri mezzi (ad esempio ispezionando la porta a cui sei connesso sullo switch di rete). La casualizzazione degli indirizzi MAC della Wi-Fi, dipende dal supporto dal firmware della Wi-Fi.
+La randomizzazione dell'indirizzo MAC è utile soprattutto per le connessioni Wi-Fi. Per le connessioni Ethernet, la randomizzazione dell'indirizzo MAC offre pochi vantaggi (o addirittura nessuno), perché un amministratore di rete può facilmente identificare il tuo dispositivo con altri mezzi (ad esempio ispezionando la porta a cui sei connesso sullo switch di rete). La randomizzazione degli indirizzi MAC del Wi-Fi dipende dal supporto del firmware del Wi-Fi.
 
 ### Altri identificatori
 

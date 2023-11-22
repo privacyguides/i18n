@@ -120,7 +120,7 @@ Decidi se desideri annunci personalizzati secondo il tuo utilizzo.
 
 ##### FileVault
 
-Sui dispositivi moderni con una Zona Franca Sicura (Chip di Sicurezza Apple T2, Apple silicon), i tuoi dati sono sempre crittografati, ma sono automaticamente decrittografati da una chiave hardware, se il tuo dispositivo non rileva di esser stato manomesso. Abilitare FileVault richiede inoltre la tua password per decrittografare i tuoi dati, migliorando ampiamente la sicurezza, specialmente quando spento o prima del primo accesso all'accensione.
+Sui dispositivi moderni con un Secure Enclave (Chip di Sicurezza Apple T2, Apple silicon), i tuoi dati sono sempre crittografati, ma sono automaticamente decrittografati da una chiave hardware, se il tuo dispositivo non rileva di esser stato manomesso. Abilitare FileVault richiede inoltre la tua password per decrittografare i tuoi dati, migliorando ampiamente la sicurezza, specialmente quando spento o prima del primo accesso all'accensione.
 
 Sui vecchi computer Mac basati su Intel, FileVault è la sola forma di crittografia del disco disponibile di default, e dovrebbe sempre essere abilitata.
 
@@ -207,7 +207,7 @@ I Sistemi su Chip di Apple mirano a minimizzare la superficie di attacco relegan
 
 #### ROM di Avvio
 
-macOS impedisce la persistenza dei malware, consntendo soltanto ai software Apple ufficiali di essere eseguiti all'avvio; ciò è noto come avvio di sicurezza. I computer Mac verificano ciò con un po' di memoria di sola lettura sul Sistema su Chip, detta ROM di avvio, stabilita durante la produzione del chip.
+macOS impedisce la persistenza dei malware, consentendo soltanto ai software Apple ufficiali di essere eseguiti all'avvio; ciò è noto come avvio di sicurezza. I computer Mac verificano ciò con un po' di memoria di sola lettura sul Sistema su Chip, detta ROM di avvio, stabilita durante la produzione del chip.
 
 La ROM di avvio forma la radice di fiducia del hardware. Ciò assicura che i malware non possano manomettere il processo di avvio. Quando il tuo Mac si avvia, la ROM di avvio è la prima cosa eseguita, formando il primo collegamento nella catena di fiducia.
 
