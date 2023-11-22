@@ -8,7 +8,7 @@ cover: search-engines.webp
 
 Utilizza un motore di ricerca che non crei un profilo pubblicitario basato sulle tue ricerche.
 
-Le raccomandazioni riportate si basano sui meriti delle privacy policy di ciascun servizio. Non esiste **alcuna garanzia** che tali politiche sulle privacy siano rispettate.
+Questi consigli si basano sui meriti delle politiche sulla privacy di ogni servizio. Non esiste **alcuna garanzia** che tali politiche sulle privacy siano rispettate.
 
 Considera di utilizzare un [VPN](vpn.md) o [Tor](https://www.torproject.org/), se il tuo modello di minaccia richiede di nascondere il tuo indirizzo IP dal fornitore di ricerca.
 
@@ -56,7 +56,7 @@ DuckDuckGo offre [altre due versioni](https://help.duckduckgo.com/features/non-j
 
     ![Logo di SearXNG](assets/img/search-engines/searxng.svg){ align=right }
     
-    **SearXNG** è un motore di meta-ricerca open source e ospitabile autonomamente, che aggrega i risultati di altri motori di ricerca, non memorizzando alcuna informazione. È una biforcazione attivamente mantenuta di [SearX](https://github.com/searx/searx).
+    **SearXNG** è un motore di meta-ricerca open source e ospitabile autonomamente, che aggrega i risultati di altri motori di ricerca, non memorizzando alcuna informazione. È un fork attivamente mantenuto di [SearX](https://github.com/searx/searx).
     
     [:octicons-home-16: Home](https://searxng.org){ .md-button .md-button--primary }
     [:octicons-server-16:](https://searx.space/){ .card-link title="Istanze Pubbliche"}

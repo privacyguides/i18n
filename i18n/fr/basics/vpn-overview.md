@@ -7,17 +7,17 @@ description: Les réseaux privés virtuels déplacent le risque de votre FAI à 
 
 Les Réseaux Privés Virtuels sont un moyen d'étendre l'extrémité de votre réseau avec une sortie située ailleurs dans le monde.
 
-Normally, an ISP can see the flow of internet traffic entering and exiting your network termination device (i.e. modem). Encryption protocols such as HTTPS are commonly used on the internet, so they may not be able to see exactly what you're posting or reading, but they can get an idea of the [domains you request](../advanced/dns-overview.md#why-shouldnt-i-use-encrypted-dns).
+Normalement, un FAI peut voir le flux de trafic internet qui entre et sort de votre dispositif de terminaison de réseau (c'est-à-dire votre box/modem). Les protocoles de chiffrement tels que HTTPS sont couramment utilisés sur internet, ils se peut donc qu'ils ne soient pas en mesure de voir exactement ce que vous publiez ou lisez, mais ils peuvent avoir une idée [des domaines que vous visitez](../advanced/dns-overview.md#why-shouldnt-i-use-encrypted-dns).
 
-Using a VPN hides even this information from your ISP, by shifting the trust you place in your network to a server somewhere else in the world. As a result, the ISP then only sees that you are connected to a VPN and nothing about the activity that you're passing through it.
+L'utilisation d'un VPN permet de dissimuler ces informations à votre FAI, en transférant la confiance que vous accordez à votre réseau vers un serveur situé ailleurs dans le monde. Par conséquent, le FAI ne voit que le fait que vous êtes connecté à un VPN et rien sur l'activité que vous lui transmettez.
 
 !!! note "À noter"
 
-    When we refer to "Virtual Private Networks" on this website, we are usually referring to **commercial** [VPN providers](../vpn.md), who you pay a monthly fee to in exchange for routing your internet traffic securely through their public servers. There are many other forms of VPN, such as ones you host yourself or ones operated by workplaces which allow you to securely connect to internal/employee network resources, however, these VPNs are usually designed for accessing remote networks securely, rather than protecting the privacy of your internet connection.
+    Lorsque nous faisons référence aux "Réseaux Privés Virtuels" sur ce site, nous faisons généralement référence à [des fournisseurs VPN](.. vpn.md) **commerciaux**, à qui vous payez des frais mensuels en échange de l'acheminement sécurisé de votre trafic Internet à travers leurs serveurs publics. Il existe de nombreuses autres formes de VPN, tels que ceux que vous hébergez vous-même ou ceux gérés par des lieux de travail qui vous permettent de vous connecter en toute sécurité à des ressources réseau internes/employés, Cependant, ces VPNs sont généralement conçus pour accéder à des réseaux distants en toute sécurité, plutôt que pour protéger la confidentialité de votre connexion Internet.
 
-## How does a VPN work?
+## Comment fonctionne un VPN ?
 
-VPNs encrypt your traffic between your device and a server owned by your VPN provider. From the perspective of anyone between you and the VPN server, it looks like you're connecting to the VPN server. From the perspective of anyone between the VPN server and your destination site, all they can see is the VPN server connecting to the website.
+Les VPNs chiffrent votre trafic entre votre appareil et un serveur appartenant à votre fournisseur VPN. Du point de vue de n'importe qui entre vous et le serveur VPN, il semble que vous vous connectiez au serveur VPN. Du point de vue de n'importe qui entre le serveur VPN et votre site de destination, tout ce qu'il peut voir est le serveur VPN se connectant au site Web.
 
 ``` mermaid
 flowchart LR
