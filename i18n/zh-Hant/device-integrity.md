@@ -44,21 +44,17 @@ cover: device-integrity.webp
 
 ## 外部驗證工具
 
-External verification tools run on your computer and scan your mobile device for forensic traces which are helpful to identify potential compromise.
+外部驗證工具在電腦上運行，掃描行動裝置以查找取證痕跡，這有助於識別潛在的危害。
 
 !!! danger "危險"
 
 ```
-Public indicators of compromise are insufficient to determine that a device is "clean", and not targeted with a particular spyware tool. Reliance on public indicators alone can miss recent forensic traces and give a false sense of security.
-
-Reliable and comprehensive digital forensic support and triage requires access to non-public indicators, research and threat intelligence.
-
-Such support is available to civil society through [Amnesty International's Security Lab](https://www.amnesty.org/en/tech/) or [Access Now’s Digital Security Helpline](https://www.accessnow.org/help/).
+公開的侵駭指標不足以確定設備是“乾淨的”，且不是特定間諜軟體工具的目標。 僅依賴公開指標可能會錯過最近的鑑證痕跡並給人一種錯誤的安全感。
 ```
 
-These tools can trigger false-positives. If any of these tools finds indicators of compromise, you need to dig deeper to determine your actual risk. Some reports may be false positives based on websites you've visited in the past, and findings which are many years old are likely either false-positives or indicate previous (and no longer active) compromise.
+這些工具可能會引發誤報。 如果這些工具中的任何一個發現侵入破壞跡象，需要更深入地挖掘以確定實際風險。 一些報告可能是基於過去訪問過網站的誤報，而多年以前的發現可能是誤報或表明以前（且不再活躍）的問題。
 
-### Mobile Verification Toolkit
+### 行動設備驗證工具包
 
 !!! 推薦
 
@@ -158,7 +154,7 @@ Auditor performs attestation and intrusion detection with **two** devices, an _a
 - The _auditor_ can either be another instance of the Auditor app or the [Remote Attestation Service](https://attestation.app).
 - The _auditor_ records the current state and configuration of the _auditee_.
 - Should tampering with the operating system of the _auditee_ happen after the pairing is complete, the auditor will be aware of the change in the device state and configurations.
-- You will be alerted to the change.
+- 您將收到更改的提醒。
 
 It is important to note that Auditor can only effectively detect changes **after** the initial pairing, not necessarily during or before due to its TOFU model. To make sure that your hardware and operating system is genuine, [perform local attestation](https://grapheneos.org/install/web#verifying-installation) immediately after the device has been installed and prior to any internet connection.
 
