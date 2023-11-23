@@ -4,7 +4,7 @@ icon: 'material/transit-connection-variant'
 description: Una panoramica delle diverse architetture di rete, comunemente utilizzate dalle applicazioni di messaggistica istantanea.
 ---
 
-Esistono svariate architetture di rete, utilzzate comunemente per trasmettere messaggi tra persone. Queste reti possono fornire diverse garanzie per la privacy, per cui vale la pena considerare il tuo [modello di minaccia](../basics/threat-modeling.md), decidendo quale app utilizzare.
+Esistono svariate architetture di rete, utilizzate comunemente per trasmettere messaggi tra persone. Queste reti possono fornire diverse garanzie per la privacy, per cui vale la pena considerare il tuo [modello di minaccia](../basics/threat-modeling.md), decidendo quale app utilizzare.
 
 [Messaggistica istantanea consigliata](../real-time-communication.md ""){.md-button}
 
