@@ -9,15 +9,15 @@ description: 虛擬私用網路將風險從您的ISP 轉移到您信任的第三
 
 ISP 可以看到網路終端設備（例如數據機）的網際網路進出流量。 HTTPS 等加密協議通常應用在網際網路，因此雖無法確切地知道您發布或閱讀的內容，但還是可以了解您所請求訪問的 [網域名](../advanced/dns-overview.md#why-shouldnt-i-use-encrypted-dns)。
 
-Using a VPN hides even this information from your ISP, by shifting the trust you place in your network to a server somewhere else in the world. 因此， ISP只會看到您已連接到VPN ，而不會看到您正在傳遞的活動。
+使用 VPN 將您對網路的信任轉移到世界上某處的伺服器，甚至可以向 ISP 隱藏這些資訊。 因此， ISP只會看到您已連接到VPN ，而不會看到您正在傳遞的活動。
 
 !!! note "備註"
 
-    When we refer to "Virtual Private Networks" on this website, we are usually referring to **commercial** [VPN providers](../vpn.md), who you pay a monthly fee to in exchange for routing your internet traffic securely through their public servers. There are many other forms of VPN, such as ones you host yourself or ones operated by workplaces which allow you to securely connect to internal/employee network resources, however, these VPNs are usually designed for accessing remote networks securely, rather than protecting the privacy of your internet connection.
+    我們在本站提到「虛擬私人網路」時，通常指的是**商業** [VPN 服務商](../vpn.md)，每月向其支付費用以換取路由網路流量安全地通過他們的公共伺服器。 還有許多其他形式的VPN，例如自行託管的 VPN 或由工作場所運營的VPN，它們允許安全地連接到內部/員工網絡資源，但是，這類VPN 通常旨在安全地訪問遠端網絡，而不是保護隱私的網路連線。
 
 ## VPN工作原理
 
-VPNs encrypt your traffic between your device and a server owned by your VPN provider. From the perspective of anyone between you and the VPN server, it looks like you're connecting to the VPN server. From the perspective of anyone between the VPN server and your destination site, all they can see is the VPN server connecting to the website.
+VPN 會對裝置和 VPN 提供者擁有的伺服器之間流量進行加密。 在您和 VPN 伺服器之間從任何人的角度來看，似乎是正在連接 VPN 伺服器。 VPN 伺服器和目標網站之間的任何人，他們只能看到連接到網站的 VPN 伺服器。
 
 ``` mermaid
 flowchart LR
@@ -27,32 +27,32 @@ flowchart LR
  end
 ```
 
-Note that a VPN does not add any security or encryption to your traffic between the VPN server and your destination on the internet. To access a website securely you **must** still ensure HTTPS is in use regardless of whether you use a VPN.
+請注意，VPN 不會為 VPN 伺服器與網際網路的目的地之間的流量新增任何安全性或加密。 要安全地訪問網站，無論是否使用 VPN，都**必須**確保使用 HTTPS。
 
 ## 我應該使用 VPN 嗎？
 
-**Yes**, almost certainly. A VPN has many advantages, including:
+**是的**，幾乎可以肯定。 VPN 有很多優點，包括：
 
 1. **僅需**對網路連線服務商隱藏您的流量 。
 1. 對 ISP 和反盜版組織隱藏您的下載（如 torrents）。
-1. Hiding your IP from third-party websites and services, helping you blend in and preventing IP based tracking.
-1. Allowing you to bypass geo-restrictions on certain content.
+1. 向第三方網站和服務隱藏 IP，幫助您混入防止基於 IP 的追蹤。
+1. 可繞過某些內容的地理限制。
 
-VPNs can provide *some* of the same benefits Tor provides, such as hiding your IP from the websites you visit and geographically shifting your network traffic, and good VPN providers will not cooperate with e.g. legal authorities from oppressive regimes, especially if you choose a VPN provider outside your own jurisdiction.
+VPN 可以提供 Tor 一些相同好處，例如對造訪的網站隱藏 IP 以及在地理位置上轉移您的網路流量，而優秀的 VPN 服務通常不會與壓迫政權的法律當局合作，特別是選擇自身司法管轄範圍之外的 VPN 服務商。
 
-VPN 無法加密裝置與 VPN 伺服器之間連線以外的資料。 VPN providers can also see and modify your traffic the same way your ISP could, so there is still a level of trust you are placing in them. 而且沒有方式可以驗證 VPN 提供商的“無記錄”政策是否貫徹。
+VPN 無法加密裝置與 VPN 伺服器之間連線以外的資料。 VPN 服務商可以像 ISP 一樣查看和修改您的流量，因此最好對他們要有一定程度的信任。 而且沒有方式可以驗證 VPN 提供商的“無記錄”政策是否貫徹。
 
-## When isn't a VPN suitable?
+## 何時不適合用 VPN？
 
-Using a VPN in cases where you're using your [real-life or well-known identity](common-misconceptions.md#complicated-is-better) online is unlikely be useful. 這樣做可能會觸發垃圾郵件和欺詐偵測系統，例如您正試圖登入銀行網站。
+如果在線上使用[現實生活或眾所周知的身份](common-misconceptions.md#complicated-is-better)，那麼 VPN 不太可能有用。 這樣做可能會觸發垃圾郵件和欺詐偵測系統，例如您正試圖登入銀行網站。
 
-It's important to remember that a VPN will not provide you with absolute anonymity, because the VPN provider itself will still see your real IP address, destination website information, and often has a money trail that can be linked directly back to you. You can't rely on "no logging" policies to protect your data from anyone who is able to protect. If you need complete safety from the network itself, consider using [Tor](../advanced/tor-overview.md) in addition to or instead of a VPN.
+重要的是請記住，VPN 不會提供絕對的匿名性，因為 VPN 提供者本身仍然會看到用戶的真實 IP 位址、目的地網站資訊，並且通常有可以直接連結回用戶的資金軌跡。 不能僅靠「不記錄」政策指望任何有能力者來保護資料。 如果需要網路本身的完全安全，請考慮使用 [Tor](../advanced/tor-overview.md) 作為 VPN 的補充或替代。
 
-You also should not trust a VPN to secure your connection to an unencrypted, HTTP destination. 為了保持所瀏覽網站活動的私密和安全，您必須使用 HTTPS。 This will keep your passwords, session tokens, and queries safe from the VPN provider and other potential adversaries in between the VPN server and your destination. You should enable HTTPS-only mode in your browser (if it's supported) to mitigate attacks which try to downgrade your connection from HTTPS to HTTP.
+也不該信任 VPN 來保護您與未加密的 HTTP 目標的連線。 為了保持所瀏覽網站活動的私密和安全，您必須使用 HTTPS。 這將確保密碼、會話令牌和查詢免受 VPN 提供者以及 VPN 伺服器和目的地之間其他潛在對手的攻擊。 應在瀏覽器中啟用純 HTTPS 模式（如果支援），以減輕嘗試將連線從 HTTPS 降級為 HTTP 的攻擊。
 
 ## 我應該將加密 DNS 與 VPN 一起使用嗎？
 
-Unless your VPN provider hosts the encrypted DNS servers themselves, **probably not**. Using DOH/DOT (or any other form of encrypted DNS) with third-party servers will simply add more entities to trust. 您的 VPN 提供商仍可以根據 IP 地址和其他方法查看您訪問的網站。 All this being said, there may be some advantages to enabling encrypted DNS in order to enable other security features in your browser, such as ECH. Browser technologies which are reliant on in-browser encrypted DNS are relatively new and not yet widespread, so whether they are relevant to you in particular is an exercise we will leave to you to research independently.
+除非 VPN 提供者本身託管加密的 DNS 伺服器，否則**可能不會**。 將 DOH/DOT（或任何其他形式的加密 DNS）與第三方伺服器一起使用只會添加更多值得信任的實體。 您的 VPN 提供商仍可以根據 IP 地址和其他方法查看您訪問的網站。 話雖如此，啟用加密 DNS 以便啟用瀏覽器中的其他安全功能（例如 ECH）可能會有一些優點。 依賴瀏覽器內加密 DNS 的瀏覽器技術相對較新，尚未普及，因此它們是否與您特別相關，留給您自行研究。
 
 Another common reason encrypted DNS is recommended is that it prevents DNS spoofing. 您的瀏覽器應該已經檢查了 [TLS 憑證](https://en.wikipedia.org/wiki/Transport_Layer_Security#Digital_certificates) 和 **HTTPS** ，並警告您。 如果沒用 **HTTPS**，則對手可以修改您的 DNS 查詢之外的任何東西，最終結果將沒太大差異。
 

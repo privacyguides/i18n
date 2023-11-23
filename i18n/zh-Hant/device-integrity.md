@@ -158,18 +158,18 @@ Auditor performs attestation and intrusion detection with **two** devices, an _a
 
 It is important to note that Auditor can only effectively detect changes **after** the initial pairing, not necessarily during or before due to its TOFU model. To make sure that your hardware and operating system is genuine, [perform local attestation](https://grapheneos.org/install/web#verifying-installation) immediately after the device has been installed and prior to any internet connection.
 
-No personally identifiable information is submitted to the attestation service. We recommend that you sign up with an anonymous account and enable remote attestation for continuous monitoring.
+沒有個人識別資料被提交給證明服務。 建議使用匿名帳戶註冊，並啟用遠程認證，以進行持續監控。
 
-If your [threat model](basics/threat-modeling.md) requires privacy, you could consider using [Orbot](tor.md#orbot) or a VPN to hide your IP address from the attestation service.
+如果您的 [威脅模型](basics/threat-modeling.md) 需要隱私，可以考慮使用[Orbot](tor.md#orbot) 或VPN，從證明服務中隱藏 IP地址。
 
 ## 設備掃瞄器
 
-These are apps you can install on your device which scan your device for signs of compromise.
+可在設備上安裝這些應用程序，這些應用程式會掃描裝置是否有遭駭洩漏跡象。
 
 !!! warning "警告"
 
 ```
-Using these apps is insufficient to determine that a device is "clean", and not targeted with a particular spyware tool.
+使用這些應用程式不足以確定設備是“乾淨的”，並不是特定間諜軟體工具的目標。
 ```
 
 ### Hypatia (Android)
@@ -212,8 +212,8 @@ Hypatia is particularly good at detecting common stalkerware: If you suspect you
     - [:simple-appstore: App Store](https://apps.apple.com/us/app/iverify/id1466120520)
 ```
 
-Like all iOS apps, iVerify is restricted to what it can observe about your device from within the iOS App Sandbox. It will not provide nearly as robust analysis as a full-system analysis tool like [MVT](#mobile-verification-toolkit). Its primary function is to detect whether your device is jailbroken, which it is effective at, however a hypothetical threat which is _specifically_ designed to bypass iVerify's checks would likely succeed at doing so.
+Like all iOS apps, iVerify is restricted to what it can observe about your device from within the iOS App Sandbox. 它無法提供像 [MVT](#mobile-verification-toolkit) 全系統分析工具的強大分析。 它的主要功能是檢測設備是否 jailbroken，但是「專門」設計用於繞過 iVerify 檢查的假設威脅很可能會成功做到這一點。
 
-iVerify is **not** an "antivirus" tool, and will not detect non-system-level malware such as malicious custom keyboards or malicious Wi-Fi Sync configurations, for example.
+iVerify 不是「防毒」工具，不會偵測非系統級惡意軟體，例如惡意自訂鍵盤或惡意 Wi-Fi 同步設定。
 
-In addition to device scanning, iVerify also includes a number of additional security utilities which you may find useful, including device reboot reminders, iOS update notifications (which are often faster than Apple's staggered update notification rollout), some basic privacy and security guides, and a DNS over HTTPS tool which can connect your device's [DNS](dns.md) queries securely to Quad9, Cloudflare, or Google.
+除了裝置掃描之外，iVerify 還包括許多有用的附加安全實用程序，包括裝置重新啟動提醒、iOS 更新通知（通常比Apple 的交錯更新通知更快）、一些基本的隱私和安全指南，以及一款基於 HTTPS 的 DNS 工具，可將裝置的 [DNS](dns.md) 查詢安全地連接到 Quad9、Cloudflare 或 Google。
