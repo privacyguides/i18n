@@ -181,7 +181,7 @@ Di default, LibreTube blocca tutte le inserzioni di YouTube. Inoltre, Libretube 
 
 !!! warning "Attenzione"
 
-    Invidious non esegue il proxy dei flussi video, di default. I video guardati tramite Invidious continueranno a effettuare connessioni dirette ai server di Google (es. 'googlevideo.com'); tuttavia, alcune istanze supportano il proxy dei video: basta abilitaare *Proxy dei video* nelle impostazioni delle istanze, o aggiungere '&local=true' all'URL.
+    Invidious non esegue il proxy dei flussi video, di default. I video guardati tramite Invidious continueranno a effettuare connessioni dirette ai server di Google (es. 'googlevideo.com'); tuttavia, alcune istanze supportano il proxy dei video: basta abilitare *Proxy dei video* nelle impostazioni delle istanze, o aggiungere '&local=true' all'URL.
 
 !!! tip "Suggerimento"
 

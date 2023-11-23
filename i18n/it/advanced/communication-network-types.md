@@ -83,7 +83,7 @@ Le reti P2P non utilizzano i server, poiché i pari comunicano direttamente tra 
 
 ![Diagramma dell'instradamento anonimo](../assets/img/layout/network-anonymous-routing.svg){ align=left }
 
-La messaggistica che utilizza l'[instradamento anonimo](https://doi.org/10.1007/978-1-4419-5906-5_628) nasconde l'identità del mittente, del destinatario o le prove che stesseero comunicando. Idealmente, un servizio di messaggistica dovrebbe nascondere tutte e tre le cose.
+La messaggistica che utilizza l'[instradamento anonimo](https://doi.org/10.1007/978-1-4419-5906-5_628) nasconde l'identità del mittente, del destinatario o le prove che stessero comunicando. Idealmente, un servizio di messaggistica dovrebbe nascondere tutte e tre le cose.
 
 Esistono [molti](https://doi.org/10.1145/3182658) modi differenti per implementare l'instradamento autonomo. Uno dei più famosi è l'[instradamento onion](https://en.wikipedia.org/wiki/Onion_routing) (cioè, [Tor](tor-overview.md)), che comunic i messaggi crittografati attraverso una [rete di copertura](https://en.wikipedia.org/wiki/Overlay_network), che nasconde la posizione di ogni nodo, oltre che il mittente e destinatario di ogni messaggio. Il mittente e il destinatario non interagiscono mai direttamente e si incontrano esclusivamente tramite un nodo di incontro segreto, così che non si verifichi alcuna fuga di indirizzi IP, o di posizioni fisiche. I nodi non possono decrittografare i messaggi, né la destinazione finale; soltanto il destinatario può farlo. Ogni nodo intermedio può decrittografare soltanto una parte, che indica dove inviare il messaggio ancora crittografato, finché non raggiunge il destinatario, che può decrittografarlo interamente, da cui gli "strati a cipolla."
 
