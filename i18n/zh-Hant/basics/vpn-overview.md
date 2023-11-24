@@ -54,19 +54,19 @@ VPN 無法加密裝置與 VPN 伺服器之間連線以外的資料。 VPN 服務
 
 除非 VPN 提供者本身託管加密的 DNS 伺服器，否則**可能不會**。 將 DOH/DOT（或任何其他形式的加密 DNS）與第三方伺服器一起使用只會添加更多值得信任的實體。 您的 VPN 提供商仍可以根據 IP 地址和其他方法查看您訪問的網站。 話雖如此，啟用加密 DNS 以便啟用瀏覽器中的其他安全功能（例如 ECH）可能會有一些優點。 依賴瀏覽器內加密 DNS 的瀏覽器技術相對較新，尚未普及，因此它們是否與您特別相關，留給您自行研究。
 
-Another common reason encrypted DNS is recommended is that it prevents DNS spoofing. 您的瀏覽器應該已經檢查了 [TLS 憑證](https://en.wikipedia.org/wiki/Transport_Layer_Security#Digital_certificates) 和 **HTTPS** ，並警告您。 如果沒用 **HTTPS**，則對手可以修改您的 DNS 查詢之外的任何東西，最終結果將沒太大差異。
+建議使用加密 DNS 的另一個常見原因是它可以防止 DNS 欺騙。 您的瀏覽器應該已經檢查了 [TLS 憑證](https://en.wikipedia.org/wiki/Transport_Layer_Security#Digital_certificates) 和 **HTTPS** ，並警告您。 如果沒用 **HTTPS**，則對手可以修改您的 DNS 查詢之外的任何東西，最終結果將沒太大差異。
 
 ## 我應該*同時* 使用 Tor 與 VPN 嗎？
 
-Maybe, Tor is not necessarily suitable for everybody in the first place. Consider your [threat model](threat-modeling.md), because if your adversary is not capable of extracting information from your VPN provider, using a VPN alone may provide enough protection.
+也許，Tor 從一開始就不一定適合所有人。 考慮[威脅模型](threat-modeling.md)，如果對手無法從 VPN 提供者提取資訊，則單獨使用 VPN 可能就有足夠保護。
 
-If you do use Tor then you are *probably* best off connecting to the Tor network via a commercial VPN provider. However, this is a complex subject which we've written more about on our [Tor overview](../advanced/tor-overview.md) page.
+如果使用 Tor，那麼*可能*最好透過商業 VPN 提供者連接到 Tor 網絡。 不過這是一個複雜的主題，在 [Tor 概述](../advanced/tor-overview.md) 頁面有更多介紹。
 
-## Should I access Tor through VPN providers that provide "Tor nodes"?
+## 應該透過提供「Tor 節點」的 VPN 提供者來存取 Tor 嗎？
 
-You should not use that feature: The primary advantage of using Tor is that you do not trust your VPN provider, which is negated when you use Tor nodes hosted by your VPN instead of connecting directly to Tor from your computer.
+不應該使用該功能：使用 Tor 的主要優點是不信任 VPN 提供者，當使用 VPN 託管的 Tor 節點而不是從電腦直接連接到 Tor 時，這一點就被否定了。
 
-Currently, Tor only supports the TCP protocol. UDP (used by [WebRTC](https://en.wikipedia.org/wiki/WebRTC), [HTTP3/QUIC](https://en.wikipedia.org/wiki/HTTP/3), and other protocols), [ICMP](https://en.wikipedia.org/wiki/Internet_Control_Message_Protocol), and other packets will be dropped. 為了彌補這一點， VPN 提供商通常會引導全部的non-TCP 封包通過他們的 VPN 伺服器（您的第一個跳）。 [ProtonVPN ](https://protonvpn.com/support/tor-vpn/)的情況就是如此。 此外，使用此 Tor over VPN 設定時，您無法控制 Tor 其他重要的功能，例如 [隔離目標位址](https://www.whonix.org/wiki/Stream_Isolation) （為您訪問不同網域使用不同的Tor 迴路）。
+目前Tor 僅支援 TCP 協定。 UDP（由 [WebRTC](https://en.wikipedia.org/wiki/WebRTC) 使用，[HTTP3/QUIC](https://en.wikipedia.org/wiki/HTTP/3) 和其他協定）、[ICMP](https://en.wikipedia.org/wiki/Internet_Control_Message_Protocol) 和其他資料封包將被丟棄。 為了彌補這一點， VPN 提供商通常會引導全部的non-TCP 封包通過他們的 VPN 伺服器（您的第一個跳）。 [ProtonVPN ](https://protonvpn.com/support/tor-vpn/)的情況就是如此。 此外，使用此 Tor over VPN 設定時，您無法控制 Tor 其他重要的功能，例如 [隔離目標位址](https://www.whonix.org/wiki/Stream_Isolation) （為您訪問不同網域使用不同的Tor 迴路）。
 
 The feature should be viewed as a *convenient* way to access hidden services on Tor, not to stay anonymous. For proper anonymity, use the actual [Tor Browser](../tor.md).
 
