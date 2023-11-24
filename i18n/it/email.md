@@ -42,7 +42,7 @@ Questi provider supportano in modo nativo la crittografia/decrittografia OpenPGP
     
     **Proton Mail** è un servizio di posta elettronica incentrato su privacy, crittografia, sicurezza e facilità d'uso. Operano dal **2013**. Proton AG ha sede a Ginevra, Svizzera. Gli account partono da 500MB di spazio di archiviazione con il piano gratuito.
     
-    [:octicons-home-16: Pagina Principale](https://proton.me/it/maill){ .md-button .md-button--primary }
+    [:octicons-home-16: Pagina Principale](https://proton.me/it/mail){ .md-button .md-button--primary }
     [:simple-torbrowser:](https://protonmailrmez3lotccipshtkleegetolb73fuirgj7r4o4vfu7ozyd.onion){ .card-link title="Servizio Onion" }
     [:octicons-eye-16:](https://proton.me/legal/privacy){ .card-link title="Politica sulla Privacy" }
     [:octicons-info-16:](https://proton.me/support/it/mail){ .card-link title=Documentazione}
