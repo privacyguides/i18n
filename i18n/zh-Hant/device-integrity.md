@@ -61,12 +61,12 @@ cover: device-integrity.webp
 ```
 ![MVT logo](assets/img/device-integrity/mvt.webp){ align=right }
 
-**Mobile Verification Toolkit** (**MVT**) is a collection of utilities which simplifies and automates the process of scanning mobile devices for potential traces of targeting or infection by known spyware campaigns. MVT was developed by Amnesty International and released in 2021 in the context of the [Pegasus Project](https://forbiddenstories.org/about-the-pegasus-project/).
+**移動驗證工具包** (**MVT**) 是一組實用程式，可簡化和自動化掃描移動設備的過程，查找已知間諜軟體活動的潛在目標或感染痕跡。 MVT 由國際特赦組織開發， 2021 年在 [Pegasus 專案](https://forbiddenstories.org/about-the-pegasus-project/) 背景下發布。
 
 [:octicons-home-16: Homepage](https://mvt.re/){ .md-button .md-button--primary }
 [:octicons-code-16:](https://github.com/mvt-project/mvt){ .card-link title="Source Code" }
 
-??? downloads
+??? downloads "下載"
 
     - [:simple-apple: macOS](https://docs.mvt.re/en/latest/install/)
     - [:simple-linux: Linux](https://docs.mvt.re/en/latest/install/)
@@ -75,22 +75,22 @@ cover: device-integrity.webp
 !!! warning "警告"
 
 ```
-Using MVT is insufficient to determine that a device is "clean", and not targeted with a particular spyware tool.
+使用 MVT 應用程式不足以確定設備是“乾淨的”，不是特定間諜軟體工具的目標。
 ```
 
-MVT is _most_ useful for scanning iOS devices. Android stores very little diagnostic information useful to triage potential compromises, and because of this `mvt-android` capabilities are limited as well. On the other hand, encrypted iOS iTunes backups provide a large enough subset of files stored on the device to detect suspicious artifacts in many cases. This being said, MVT does still provide fairly useful tools for both iOS and Android analysis.
+MVT 對掃描 iOS 裝置「最」有用。 Android 儲存可用於分類潛在危害的診斷資訊非常少，因此「mvt-android」功能也受到限制。 另一方面，加密的 iOS iTunes 備份提供儲存在裝置上足夠大的檔案子集，可在許多情況下偵測可疑工件。 話雖這麼說，MVT 仍為 iOS 和 Android 分析相當有用的工具。
 
-If you use iOS and are at high-risk, we have three additional suggestions for you:
+如果使用 iOS 且處於高風險狀態，我們有三個額外建議：
 
-1. Create and keep regular (monthly) iTunes backups. This allows you to find and diagnose past infections later with MVT, if new threats are discovered in the future.
+1. 建立並保留定期（每月）iTunes 備份。 如果將來發現新的威脅，可使用 MVT 來尋找和診斷過去的感染。
 
-2. Trigger _sysdiagnose_ logs often and back them up externally. These logs can provide invaluable data to future forensic investigators if need be.
+2. 經常觸發 _sysdiagnose_ 記錄日誌並在外部備份。 如果需要，這些日誌可為鑑識調查人員提供寶貴的資料。
 
-   The process to do so varies by model, but you can trigger it on newer phones by holding down _Power_ + _Volume Up_ + _Volume Down_ until you feel a brief vibration. After a few minutes, the timestamped _sysdiagnose_ log will appear in **Settings** > **Privacy & Security** > **Analytics & Improvements** > **Analytics Data**.
+   執行操作過程因型號而異，但可以在較新的手機上按住_電源_ + _音量調高_ + _音量調低_直到感覺到短暫的振動來觸發。 幾分鐘後，帶有時間戳記的 _sysdiagnose_ 日誌將出現在 **設定** > **隱私和安全性** > **分析和改進** > **分析資料** 中。
 
-3. Enable [Lockdown Mode](https://blog.privacyguides.org/2022/10/27/macos-ventura-privacy-security-updates/#lockdown-mode).
+3. 啟用[鎖定模式](https://blog.privacyguides.org/2022/10/27/macos-ventura-privacy-security-updates/#lockdown-mode)。
 
-MVT allows you to perform deeper scans/analysis if your device is jailbroken. Unless you know what you are doing, **do not jailbreak or root your device.** Jailbreaking your device exposes it to considerable security risks.
+如果裝置已 jailbroken 越獄，MVT 可執行更深入的掃描/分析。 除非明確知道在做什麼，否則\*\*不要 Jailbreaking 或root 裝置。\*\*Jailbreaking 裝置會使其面臨相當大的安全風險。
 
 ### iMazing (iOS)
 
@@ -99,28 +99,28 @@ MVT allows you to perform deeper scans/analysis if your device is jailbroken. Un
 ```
 ![iMazing logo](assets/img/device-integrity/imazing.png){ align=right }
 
-**iMazing** provides a free spyware analyzer tool for iOS devices which acts as a GUI-wrapper for [MVT](#mobile-verification-toolkit). This can be much easier to run compared to MVT itself, which is a command-line tool designed for technologists and forensic investigators.
+**iMazing** 為 iOS 裝置提供免費的間諜軟體分析，充當 [MVT](#mobile-verification-toolkit) 的 GUI 包裝器。 與 MVT 本身相比，這更容易運行，MVT 是專為技術人員和鑑識調查人員設計的命令列工具。
 
 [:octicons-home-16: Homepage](https://imazing.com/){ .md-button .md-button--primary }
 [:octicons-eye-16:](https://imazing.com/privacy-policy){ .card-link title="Privacy Policy" }
 [:octicons-info-16:](https://imazing.com/spyware-analyzer){ .card-link title=Documentation}
 
-??? downloads
+??? downloads "下載"
 
     - [:simple-windows11: Windows](https://imazing.com/download)
     - [:simple-apple: macOS](https://imazing.com/download)
 ```
 
-iMazing automates and interactively guides you through the process of using [MVT](#mobile-verification-toolkit) to scan your device for publicly-accessible indicators of compromise published by various threat researchers. All of the information and warnings which apply to MVT apply to this tool as well, so we suggest you also familiarize yourself with the notes on MVT in the sections above.
+iMazing 會自動並以互動方式引導完成使用 [MVT](#mobile-verification-toolkit) 掃描裝置，尋找由各種威脅研究人員發布的可公開存取的入侵指標。 適用於 MVT 的所有資訊和警告也適用於此工具，因此建議熟悉上述部分中有關 MVT 的說明。
 
 ## 裝置驗證
 
-These are apps you can install which check your device and operating system for signs of tampering, and validate the identity of your device.
+可安裝這些應用程式來檢查裝置和作業系統是否有篡改跡象，並驗證裝置的身份。
 
 !!! warning "警告"
 
 ```
-Using these apps is insufficient to determine that a device is "clean", and not targeted with a particular spyware tool.
+使用這些應用程式不足以確定設備是“乾淨的”，並不是特定間諜軟體工具的目標。
 ```
 
 ### Auditor (Android)
@@ -131,7 +131,7 @@ Using these apps is insufficient to determine that a device is "clean", and not 
 ![Auditor logo](assets/img/device-integrity/auditor.svg#only-light){ align=right }
 ![Auditor logo](assets/img/device-integrity/auditor-dark.svg#only-dark){ align=right }
 
-**Auditor** is an app which leverages hardware security features to provide device integrity monitoring by actively validating the identity of a device and the integrity of its operating system. Currently, it only works with GrapheneOS or the stock operating system for [supported devices](https://attestation.app/about#device-support).
+**Auditor** 利用硬體安全功能透過主動驗證裝置身分及其作業系統完整性來提供裝置完整性監控。 目前僅適用於 GrapheneOS 或[支援的設備](https://attestation.app/about#device-support) 的庫存作業系統。
 
 [:octicons-home-16: Homepage](https://attestation.app){ .md-button .md-button--primary }
 [:octicons-eye-16:](https://attestation.app/privacy-policy){ .card-link title="Privacy Policy" }
@@ -139,24 +139,24 @@ Using these apps is insufficient to determine that a device is "clean", and not 
 [:octicons-code-16:](https://attestation.app/source){ .card-link title="Source Code" }
 [:octicons-heart-16:](https://attestation.app/donate){ .card-link title=Contribute }
 
-??? downloads
+??? downloads "下載"
 
     - [:simple-googleplay: Google Play](https://play.google.com/store/apps/details?id=app.attestation.auditor.play)
     - [:simple-github: GitHub](https://github.com/GrapheneOS/Auditor/releases)
     - [:material-cube-outline: GrapheneOS App Store](https://github.com/GrapheneOS/Apps/releases)
 ```
 
-Auditor is not a scanning/analysis tool like some other tools on this page, rather it uses your device's hardware-backed keystore to allow you to verify the identity of your device and gain assurance that the operating system itself hasn't been tampered with or downgraded via verified boot. This provides a very robust integrity check of your device itself, but doesn't necessarily check whether the user-level apps running on your device are malicious.
+Auditor 不像本頁的其他某些掃描/分析工具，而是使用裝置的硬體支援金鑰庫來允許驗證裝置的身份並確保作業系統本身沒有被篡改或透過驗證啟動降級。 這為裝置本身提供了非常強大的完整性檢查，但不一定檢查裝置上執行的使用者級應用程式是否是惡意的。
 
-Auditor performs attestation and intrusion detection with **two** devices, an _auditee_ (the device being verified) and an _auditor_ (the device performing the verification). The auditor can be any Android 10+ device (or a remote web service operated by [GrapheneOS](android.md#grapheneos)), while the auditee must be a specifically [supported device](https://attestation.app/about#device-support). Auditor 適用於:
+審核員使用**兩個**設備執行證明和入侵檢測，即一個_被審核者_（正在驗證的設備）和一個_審核員_（執行驗證的設備）。 審核者可以是任何Android 10+ 裝置（或由[GrapheneOS](android.md#grapheneos) 運行的遠端Web 服務），而受審核者必須是專門的\[支援的裝置]\(https\://attestation.app /about #device-support）。 Auditor 適用於:
 
-- Using a [Trust On First Use (TOFU)](https://en.wikipedia.org/wiki/Trust_on_first_use) model between an _auditor_ and _auditee_, the pair establish a private key in the [hardware-backed keystore](https://source.android.com/security/keystore/) of the _Auditor_.
-- The _auditor_ can either be another instance of the Auditor app or the [Remote Attestation Service](https://attestation.app).
-- The _auditor_ records the current state and configuration of the _auditee_.
-- Should tampering with the operating system of the _auditee_ happen after the pairing is complete, the auditor will be aware of the change in the device state and configurations.
+- 在_審核員_和_被審核者_之間使用 [Trust On First Use (TOFU)](https://en.wikipedia.org/wiki/Trust_on_first_use) 模式，雙方在兩人在[硬體支援的金鑰庫](https://source.android.com/security/keystore/)the pair establish a private key in the [hardware-backed keystore](https://source.android.com/security/keystore/)中建立 _審計員_私鑰。
+- _審核員_可以是審核員應用程式的另一個實例，也可以是[遠端憑證服務](https://attestation.app)。
+- _審計者_ 記錄 _審計對象_ 當前的狀態和配置。
+- 如果在配對完成後發生篡改 審計對象的作業系統 ，審計人員將意識到設備狀態和配置的變化。
 - 您將收到更改的提醒。
 
-It is important to note that Auditor can only effectively detect changes **after** the initial pairing, not necessarily during or before due to its TOFU model. To make sure that your hardware and operating system is genuine, [perform local attestation](https://grapheneos.org/install/web#verifying-installation) immediately after the device has been installed and prior to any internet connection.
+要注意的是，Auditor 只能在初始配對之後有效檢測變化，而由於其 TOFU 模型，不一定在配對期間或之前檢測到變化。 為了確保硬體和作業系統真實， 在設備安裝後連上網際網路之前，立即 [進行本地認證](https://grapheneos.org/install/web#verifying-installation) 。
 
 沒有個人識別資料被提交給證明服務。 建議使用匿名帳戶註冊，並啟用遠程認證，以進行持續監控。
 
@@ -180,19 +180,19 @@ It is important to note that Auditor can only effectively detect changes **after
 ![Hypatia logo](assets/img/device-integrity/hypatia.svg#only-light){ align=right }
 ![Hypatia logo](assets/img/device-integrity/hypatia-dark.svg#only-dark){ align=right }
 
-**Hypatia** is an open source real-time malware scanner for Android, from the developer of [DivestOS](android.md#divestos). It accesses the internet to download signature database updates, but does not upload your files or any metadata to the cloud (scans are performed entirely locally).
+**Hypatia** 是一款用於 Android 的開源即時惡意軟體掃描程式，由 [DivestOS](android.md#divestos) 開發。 它訪問網際網路下載簽名資料庫更新，但不會將您的檔案或任何元資料上傳到雲端（掃描完全在本地執行）。
 
 [:octicons-home-16: Homepage](https://divestos.org/pages/our_apps#hypatia){ .md-button .md-button--primary }
 [:octicons-eye-16:](https://divestos.org/pages/privacy_policy#hypatia){ .card-link title="Privacy Policy" }
 [:octicons-code-16:](https://github.com/divested-mobile/hypatia){ .card-link title="Source Code" }
 [:octicons-heart-16:](https://divested.dev/pages/donate){ .card-link title=Contribute }
 
-??? downloads
+??? downloads "下載"
 
     - [:simple-android: F-Droid](https://f-droid.org/packages/us.spotco.malwarescanner/)
 ```
 
-Hypatia is particularly good at detecting common stalkerware: If you suspect you are a victim of stalkerware, you should [visit this page](https://stopstalkerware.org/information-for-survivors/) for advice.
+Hypatia 特別擅長偵測常見的追蹤軟體：如果懷疑自己是追蹤軟體的受害者，請[造訪此頁面](https://stopstalkerware.org/information-for-survivors/) 尋求建議。
 
 ### iVerify (iOS)
 
@@ -201,18 +201,18 @@ Hypatia is particularly good at detecting common stalkerware: If you suspect you
 ```
 ![iVerify logo](assets/img/device-integrity/iverify.webp){ align=right }
 
-**iVerify** is an iOS app which automatically scans your device to check configuration settings, patch level, and other areas of security. It also checks your device for indicators of compromise by jailbreak tools or spyware such as Pegasus.
+**iVerify** 是一款 iOS 應用程式，會自動掃描裝置以檢查配置設定、修補程式等級和其他安全性領域。 它還會檢查裝置是否有被  jailbreak 工具或間諜軟體（例如 Pegasus）入侵的跡象。
 
 [:octicons-home-16: Homepage](https://www.iverify.io/consumer){ .md-button .md-button--primary }
 [:octicons-eye-16:](https://www.iverify.io/privacy-policy){ .card-link title="Privacy Policy" }
 [:octicons-info-16:](https://www.iverify.io/frequently-asked-questions#iVerify-General){ .card-link title=Documentation}
 
-??? downloads
+??? downloads "下載"
 
     - [:simple-appstore: App Store](https://apps.apple.com/us/app/iverify/id1466120520)
 ```
 
-Like all iOS apps, iVerify is restricted to what it can observe about your device from within the iOS App Sandbox. 它無法提供像 [MVT](#mobile-verification-toolkit) 全系統分析工具的強大分析。 它的主要功能是檢測設備是否 jailbroken，但是「專門」設計用於繞過 iVerify 檢查的假設威脅很可能會成功做到這一點。
+與所有 iOS 應用程式一樣，iVerify 僅限於從 iOS 應用程式沙箱內觀察裝置。 它無法提供像 [MVT](#mobile-verification-toolkit) 全系統分析工具的強大分析。 它的主要功能是檢測設備是否 jailbroken，但是「專門」設計用於繞過 iVerify 檢查的假設威脅很可能會成功做到這一點。
 
 iVerify 不是「防毒」工具，不會偵測非系統級惡意軟體，例如惡意自訂鍵盤或惡意 Wi-Fi 同步設定。
 
