@@ -16,7 +16,7 @@
 *[DoH3]: DNS over HTTP/3
 *[DoT]: DNS over TLS
 *[E2EE]: エンドツーエンド暗号化（End-to-End Encryption/Encrypted）
-*[ECS]: EDNS Client Subnet
+*[ECS]: EDNSクライアントサブネット（EDNS Client Subnet）
 *[EEA]: 欧州経済領域
 *[entropy]： 予測不可能性の尺度
 *[EOL]: サポート終了（End-of-Life）
@@ -35,7 +35,7 @@
 *[HOTP]: HMAC（ハッシュベースのメッセージ認証コード）ベースのワンタイムパスワード
 *[HTTPS]: Hypertext Transfer Protocol Secure
 *[HTTP]: ハイパーテキスト転送プロトコル（Hypertext Transfer Protocol）
-*[hypervisor]： Computer software, firmware, or hardware that splits the resources of a CPU among multiple operating systems
+*[hypervisor]： CPUのリソースを複数のオペレーティングシステムに分割するコンピュータソフトウェア、ファームウェア、またはハードウェア
 *[ICCID]: Integrated Circuit Card Identifier
 *[IMAP]: Internet Message Access Protocol（インターネットメッセージアクセスプロトコル）
 *[IMEI]: International Mobile Equipment Identity
@@ -70,7 +70,7 @@
 *[PGP]: プリティグッドプライバシー(OpenPGPを参照)
 *[PII]: 個人を特定できる情報（Personally Identifiable Information）
 *[QNAME]: Qualified Name
-*[rolling release]: Updates which are released frequently rather than set intervals
+*[ローリング・リリース]： Updates which are released frequently rather than set intervals
 *[RSS]: Really Simple Syndication
 *[SELinux]: Security-Enhanced Linux
 *[SIM]: 加入者識別モジュール
