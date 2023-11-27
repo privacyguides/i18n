@@ -87,7 +87,7 @@ I membri del nostro team revisionano tutte le modifiche effettuate al sito web e
 
 ## Licenza del sito
 
-!!! danger ""
+!!! danger "Attenzione"
 
     Quanto segue è un riepilogo leggibile dall'uomo (e non sostituto della) della [licenza](/license).
 

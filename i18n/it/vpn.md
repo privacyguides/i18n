@@ -16,7 +16,7 @@ Se desideri ulteriore **privacy** dal tuo ISP, su una rete Wi-Fi pubblica, o dur
 
 </div>
 
-!!! attenzione "Le VPN non forniscono anonimato"
+!!! danger "Le VPN non forniscono anonimato"
 
     L'utilizzo di una VPN **non** manterrà anonime le tue abitudini di navigazione, né aggiungerà ulteriore sicurezza al traffico non sicuro (HTTP).
     

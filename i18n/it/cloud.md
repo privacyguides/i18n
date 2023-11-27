@@ -35,7 +35,7 @@ Se queste alternative non soddisfano le tue esigenze, ti suggeriamo di utilizzar
 
 L'applicazione web di Proton Drive è stata controllata indipendentemente da Securitum nel [2021](https://proton.me/blog/security-audit-all-proton-apps); i dettagli completi non sono stati resi disponibili, ma la lettera di attestazione di Securitum afferma che:
 
-> I revisori hanno identificato due vulnerabilità di bassa gravità. Inoltre, sono stati segnalati cinque suggerimenti generali. Al contempo, confermiamo che non è stato identificaato alcun problema di sicurezza importante, durante il pentest.
+> I revisori hanno identificato due vulnerabilità di bassa gravità. Inoltre, sono stati segnalati cinque suggerimenti generali. Al contempo, confermiamo che non è stato identificato alcun problema di sicurezza importante, durante il pentest.
 
 I nuovi client mobile di Proton Drive non sono ancora stati controllati pubblicamente da una terza parte.
 
@@ -75,7 +75,7 @@ Hanno anche ricevuto l'Etichetta di Affidabilità Digitale, una certificazione d
 
 **Ti preghiamo di notare che non siamo affiliati con alcun progetto consigliato.** Oltre ai [nostri criteri standard](about/criteria.md), abbiamo sviluppato una serie chiara di requisiti per consentirci di fornire consigli oggettivi. Ti suggeriamo di familiarizzare con questo elenco prima di scegliere di utilizzare un progetto e di condurre le tue ricerche per assicurarti che si tratti della scelta adatta a te.
 
-!!! esempio "Questa sezione è nuova"
+!!! example "Questa sezione è nuova"
 
     Stiamo lavorando per stabilire i criteri definiti per ogni sezione del nostro sito e, questa, potrebbe essere soggetta a modifiche. Se hai qualsiasi domanda sui nostri criteri, ti preghiamo di [chiedere sul nostro forum](https://discuss.privacyguides.net/latest) e di non supporre che non abbiamo considerato qualcosa, formulando i nostri consigli, se non elencato qui. Molti fattori sono presi in considerazione e discussi quando consigliamo un progetto e la documentazione di ognuno è in lavorazione.
 

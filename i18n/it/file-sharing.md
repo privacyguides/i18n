@@ -13,9 +13,9 @@ Scopri come condividere privatamente i tuoi file tra i tuoi dispositivi, con i t
 
 !!! recommendation
 
-    ![Logo Send](assets/img/file-sharing-sync/send.svg){ align=right }
+    ![Logo di Send](assets/img/file-sharing-sync/send.svg){ align=right }
     
-    **Send** è un fork del servizio Firefox Send di Mozilla, ormai dismesso, che consente di inviare file ad altri con un link. I file sono crittografati sul tuo dispositivo così che non possano esser letti dal server e, facoltativamente, possono essere anche protetti da password. Il manutentore di Send ospita un'[istanza pubblica](https://send.vis.ee/). Puoi utilizzare altre istanze pubbliche, o puoi ospitare Send autonomamente.
+    **Send** è un fork del servizio, ormai dismesso, di Firefox Send di Mozilla, che consente di inviare file ad altri con un link. I file sono crittografati sul tuo dispositivo così che non possano esser letti dal server e, facoltativamente, possono essere anche protetti da password. Il manutentore di Send ospita un'[istanza pubblica](https://send.vis.ee/). Puoi utilizzare altre istanze pubbliche, o puoi ospitare Send autonomamente.
     
     [:octicons-home-16: Home](https://send.vis.ee){ .md-button .md-button--primary }
     [:octicons-server-16:](https://github.com/timvisee/send-instances){ .card-link title="Istanze Pubbliche"}
@@ -35,7 +35,7 @@ ffsend upload --host https://send.vis.ee/ FILE
 
     ![Logo di OnionShare](assets/img/file-sharing-sync/onionshare.svg){ align=right }
     
-    **OnionShare** è uno strumento open-source che consente di condividere in modo sicuro e anonimo file di qualsiasi dimensione. Funziona avviando un server web accessibile come servizio Tor onion, con un URL inesplicabile che si può condividere con i destinatari per scaricare o inviare file.
+    **OnionShare** è uno strumento open source che consente di condividere in modo sicuro e anonimo file di qualsiasi dimensione. Funziona avviando un server web accessibile come servizio Tor onion, con un URL inesplicabile che si può condividere con i destinatari per scaricare o inviare file.
     
     [:octicons-home-16: Home](https://onionshare.org){ .md-button .md-button--primary }
     [:simple-torbrowser:](http://lldan5gahapx5k7iafb3s4ikijc4ni7gx5iywdflkba5y2ezyg6sjgyd.onion){ .card-link title="Servizio Onion" }
@@ -108,7 +108,7 @@ ffsend upload --host https://send.vis.ee/ FILE
 
     ![Logo di Syncthing](assets/img/file-sharing-sync/syncthing.svg){ align=right }
     
-    **Syncthing** è un'utility open source tra pari di sincronizzazione continua dei file. È utiliizzata per sincronizzare i file tra due o più dispositivi, sulla rete locale o su Internet. Syncthing non utilizza un server centralizzato; utilizza il [Protocollo di Scambio dei Blocchi](https://docs.syncthing.net/specs/bep-v1.html#bep-v1) per trasferire i dati tra dispositivi. Tutti i dati sono crittografati utilizzando TLS.
+    **Syncthing** è un'utility open source tra peer di sincronizzazione continua dei file. Viene utilizzata per sincronizzare i file tra due o più dispositivi sulla rete locale o su Internet. Syncthing non utilizza un server centralizzato; utilizza il [Protocollo di Scambio dei Blocchi](https://docs.syncthing.net/specs/bep-v1.html#bep-v1) per trasferire i dati tra dispositivi. Tutti i dati sono crittografati utilizzando TLS.
     
     [:octicons-home-16: Home](https://syncthing.net){ .md-button .md-button--primary }
     [:octicons-info-16:](https://docs.syncthing.net){ .card-link title=Documentazione}

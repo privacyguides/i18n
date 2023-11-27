@@ -28,7 +28,7 @@ Questi provider supportano in modo nativo la crittografia/decrittografia OpenPGP
 
 </div>
 
-!!! warning "Avviso"
+!!! warning "Attenzione"
 
     Utilizzando la tecnologia E2EE come OpenPGP, le email conterranno dei metadati non crittografati, nell'intestazione dell'email. Per saperne di più sui metadata della [posta elettronica](basics/email-security.md#email-metadata-overview).
     

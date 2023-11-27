@@ -165,7 +165,7 @@ Utilizzando qualsiasi [istanza](https://github.com/zedeus/nitter/wiki/Instances)
 
 Puoi iscriverti ai canali di YouTube senza accedere e associare le informazioni di utilizzo al tuo Profilo Google.
 
-!!! example
+!!! example "Esempio"
 
     Per iscriverti a un canale YouTube con un client RSS, cerca innanzitutto il [codice del canale](https://support.google.com/youtube/answer6180214). Il codice del canale si può trovare sulla pagina delle informazioni del canale di YouTube cui desideri iscriverti, in: **Informazioni** > **Condividi** > **Copia ID Canale**. Sostituisci `[CHANNEL ID]` di seguito:
 

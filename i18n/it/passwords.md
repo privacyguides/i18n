@@ -236,7 +236,7 @@ Psono fornisce un'ampia documentazione sul proprio prodotto. Il client web per P
 
 #### Caso migliore
 
-I nostri criteri del caso migliore rappresentano cosa vorremmo vedere dal progetto perfetto in questa categoria. I nostri consigli potrebbero non includere tutte o alcune di queste funzionalità, ma quelli che le includono potrebbero essere preferiti ad altri su questa pagina.
+I nostri criteri ottimali rappresentano ciò che vorremmo vedere dal progetto perfetto in questa categoria. I nostri consigli potrebbero non includere tutte o alcune di queste funzionalità, ma quelli che le includono potrebbero essere preferiti ad altri su questa pagina.
 
 - La telemetria dovrebbe essere su richiesta (disabilitata di default) o non raccolta affatto.
 - Dovrebbe essere open source e ragionevolmente auto-ospitabile.

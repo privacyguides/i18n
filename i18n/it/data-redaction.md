@@ -6,7 +6,7 @@ description: Utilizza questi strumenti per rimuovere metadati come la posizione 
 cover: data-redaction.webp
 ---
 
-Condividendo dei file, assicurati di rimuovere i metadati associati. I file immagine includono comunemente dati [Exif](https://en.wikipedia.org/wiki/Exif). I metadata delle foto, a volte, includono anche le coordinate GPS.
+Condividendo dei file, assicurati di rimuovere i metadati associati. I file immagine includono comunemente dati [Exif](https://en.wikipedia.org/wiki/Exif). Talvolta, le foto, includono persino le coordinate GPS nei metadati del file.
 
 ## Desktop
 
@@ -73,12 +73,12 @@ L'applicazione offre diversi modi per cancellare i metadati dalle immagini. Nell
 
 !!! recommendation
 
-    ![Logo Metapho](assets/img/data-redaction/metapho.jpg){ align=right }
+    ![Logo di Metapho](assets/img/data-redaction/metapho.jpg){ align=right }
     
-    **Metapho** è un visualizzatore semplice e pulito per i metadati delle foto, come data, nome del file, dimensioni, modello di fotocamera, velocità dell'otturatore e posizione.
+    **Metapho** è un visualizzatore semplice e pulito per i metadati delle foto, quali data, nome del file, dimensioni, modello della fotocamera, velocità dell'otturatore e posizione.
     
-    [:octicons-home-16: Homee](https://zininworks.com/metapho){ .md-button .md-button--primary }
-    [:octicons-eye-16:](https://zininworks.com/privacy/){ .card-link title="Politica sulla Privacy" }
+    [:octicons-home-16: Pagina principale](https://zininworks.com/metapho){ .md-button .md-button--primary }
+    [:octicons-eye-16:](https://zininworks.com/privacy/){ .card-link title="Politica sulla privacy" }
     
     ??? downloads "Scarica"
     
@@ -88,14 +88,14 @@ L'applicazione offre diversi modi per cancellare i metadati dalle immagini. Nell
 
 !!! recommendation
 
-    ![PrivacyBlur logo](assets/img/data-redaction/privacyblur.svg){ align=right }
+    ![Logo di PrivacyBlur](assets/img/data-redaction/privacyblur.svg){ align=right }
     
-    **PrivacyBlur** è un'applicazione gratuita che consente di sfocare le parti sensibili delle immagini prima di condividerle online.
+    **PrivacyBlur** è un'app gratuita che consente di sfocare le parti sensibili delle immagini, prima di condividerle online.
     
-    [:octicons-home-16: Pagina principale](https://privacyblur.app/){ .md-button .md-button--primary }
-    [:octicons-eye-16:](https://privacyblur.app/privacy.html){ .card-link title="Informativa sulla privacy" }
+    [:octicons-home-16: Home](https://privacyblur.app/){ .md-button .md-button--primary }
+    [:octicons-eye-16:](https://privacyblur.app/privacy.html){ .card-link title="Politica sulla Privacy" }
     [:octicons-info-16:](https://github.com/MATHEMA-GmbH/privacyblur#readme){ .card-link title=Documentazione}
-    [:octicons-code-16:](https://github.com/MATHEMA-GmbH/privacyblur){ .card-link title="Codice sorgente" }
+    [:octicons-code-16:](https://github.com/MATHEMA-GmbH/privacyblur){ .card-link title="Codice Sorgente" }
     
     ??? downloads "Scarica"
     
@@ -118,16 +118,16 @@ L'applicazione offre diversi modi per cancellare i metadati dalle immagini. Nell
     
     Spesso è usato come un componente di altre applicazioni di rimozione Exif ed è presente nei repository della maggior parte delle distribuzioni Linux.
     
-    [:octicons-home-16: Pagina principale](https://exiftool.org){ .md-button .md-button--primary }
+    [:octicons-home-16: Home](https://exiftool.org){ .md-button .md-button--primary }
     [:octicons-info-16:](https://exiftool.org/faq.html){ .card-link title=Documentazione}
-    [:octicons-code-16:](https://github.com/exiftool/exiftool){ .card-link title="Codice sorgente" }
+    [:octicons-code-16:](https://github.com/exiftool/exiftool){ .card-link title="Codice Sorgente" }
     [:octicons-heart-16:](https://exiftool.org/#donate){ .card-link title=Contribuisci }
     
     ??? downloads "Scarica"
     
         - [:simple-windows11: Windows](https://exiftool.org)
         - [:simple-apple: macOS](https://exiftool.org)
-        - [:simple-linux: Linux](https://exiftool.org)downloads annotate "Scaricare"
+        - [:simple-linux: Linux](https://exiftool.org)
 
 !!! example "Rimozione dei metadati da una cartella di file"
 

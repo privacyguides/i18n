@@ -104,7 +104,7 @@ L'azionista di maggioranza di Startpage è System1, un'azienda di tecnologie ins
 
 ### Miglior Caso
 
-I nostri criteri del caso migliore rappresentano cosa vorremmo vedere dal progetto perfetto in questa categoria. I nostri consigli potrebbero non includere tutte o alcune di queste funzionalità, ma quelli che le includono potrebbero essere preferiti ad altri su questa pagina.
+I nostri criteri ottimali rappresentano ciò che vorremmo vedere dal progetto perfetto in questa categoria. I nostri consigli potrebbero non includere tutte o alcune di queste funzionalità, ma quelli che le includono potrebbero essere preferiti ad altri su questa pagina.
 
 - Dovrebbe basarsi su software open source.
 - Non dovrebbe bloccare gli indirizzi IP del nodo d'uscita di Tor.
