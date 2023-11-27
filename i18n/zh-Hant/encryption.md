@@ -223,30 +223,6 @@ BitLocker [僅支援](https://support.microsoft.com/en-us/windows/turn-on-device
 
 
 
-## 瀏覽器端
-
-當您需要加密檔案但無法在裝置上安裝軟體或應用程式時，透過瀏覽器來加密可能很有用。
-
-
-
-### hat.sh
-
-!!! recommendation
-
-    ![hat.sh logo](assets/img/encryption-software/hat-sh.png#only-light){ align=right }
-    ![hat.sh logo](assets/img/encryption-software/hat-sh-dark.png#only-dark){ align=right }
-    
-    **Hat.sh** 是一款在瀏覽器中提供安全用戶端檔案加密的網頁應用程式。 它也可以是自行託管，如果您需要加密文件，但由於組織政策無法在設備上安裝任何軟件，這個方法將非常有用。
-    
-    [:octicons-globe-16: Website](https://hat.sh){ .md-button .md-button--primary }
-    [:octicons-eye-16:](https://hat.sh/about/){ .card-link title="Privacy Policy" }
-    [:octicons-info-16:](https://hat.sh/about/){ .card-link title=Documentation}
-    [:octicons-code-16:](https://github.com/sh-dv/hat.sh){ .card-link title="Source Code" }
-    [:octicons-heart-16:](https://github.com/sh-dv/hat.sh#donations){ .card-link title="Donations methods can be found at the bottom of the website" }
-    
-
-
-
 ## 命令列
 
 命令行界面的工具可用於集成 [shell 腳本](https://en.wikipedia.org/wiki/Shell_script)。

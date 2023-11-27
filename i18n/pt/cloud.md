@@ -33,6 +33,7 @@ Recomendamos armazenar uma chave de recuperação local em um local seguro, em v
         - [:simple-googleplay: Google Play](https://play.google.com/store/apps/details?id=me.proton.android.drive)
         - [:simple-appstore: App Store](https://apps.apple.com/app/id1509667851)
         - [:simple-windows11: Windows](https://proton.me/drive/download)
+        - [:simple-apple: macOS](https://proton.me/drive/download)
 
 The Proton Drive web application has been independently audited by Securitum in [2021](https://proton.me/blog/security-audit-all-proton-apps), full details were not made available, but Securitum's letter of attestation states:
 

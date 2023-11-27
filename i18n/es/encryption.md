@@ -187,25 +187,6 @@ Recomendamos almacenar una clave de recuperación local en un lugar seguro en lu
     cryptsetup luksHeaderBackup /dev/device --header-backup-file /mnt/backup/file.img
     ```
 
-## Basado en Navegador
-
-El cifrado basado en navegador puede ser útil cuando necesita cifrar un archivo pero no puede instalar software o aplicaciones en su dispositivo.
-
-### hat.sh
-
-!!! recommendation
-
-    ![hat.sh logo](assets/img/encryption-software/hat-sh.png#only-light){ align=right }
-    ![hat.sh logo](assets/img/encryption-software/hat-sh-dark.png#only-dark){ align=right }
-    
-    **Hat.sh** es una aplicación web que proporciona cifrado seguro de archivos del lado del cliente en su navegador. También puede ser autoalojado y es útil si necesita cifrar un archivo pero no puede instalar ningún software en su dispositivo debido a políticas organizativas.
-    
-    [:octicons-globe-16: Sitio Web](https://hat.sh){ .md-button .md-button--primary }
-    [:octicons-eye-16:](https://hat.sh/about/){ .card-link title="Politica de Privacidad" }
-    [:octicons-info-16:](https://hat.sh/about/){ .card-link title=Documentación}
-    [:octicons-code-16:](https://github.com/sh-dv/hat.sh){ .card-link title="Código Fuente" }
-    [:octicons-heart-16:](https://github.com/sh-dv/hat.sh#donations){ .card-link title="Puede encontrar los métodos de donación en la parte inferior del sitio web" }
-
 ## Línea de Comandos
 
 Las herramientas con interfaces de línea de comandos son útiles para integrar <a href=https://es.wikipedia.org/wiki/Script_de_shell">scripts de shell</a>.

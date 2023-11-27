@@ -139,7 +139,7 @@ Briar תומך ב-Forward Secrecy באמצעות תומך ב-Forward Secrecy ב�
 
 פרוטוקול Matrix עצמו [תומך תיאורטית ב-PFS](https://gitlab.matrix.org/matrix-org/olm/blob/master/docs/megolm.md#partial-forward-secrecy), עם זאת, זה [לא נתמך כרגע ב-Element](https://github.com/vector-im/element-web/issues/7101) בגלל שהוא שובר היבטים מסוימים של חוויית המשתמש, כגון גיבויי מפתח והיסטוריית הודעות משותפת.
 
-הפרוטוקול היה מבוקר [באופן עצמאי](https://matrix.org/blog/2016/11/21/matrixs-olm-end-to-end-encryption-security-assessment-released-and-implemented-cross-platform-on-riot-at-last) בשנת 2016. את המפרט לפרוטוקול מטריקס ניתן למצוא [בתיעוד שלהם](https://spec.matrix.org/latest/). מחגר ההצפנה [Olm](https://matrix.org/docs/projects/other/olm) המשמש את Matrix הוא יישום של [אלגוריתם ה-Double Ratchet](https://signal.org/docs/specifications/doubleratchet/) של Signal.
+הפרוטוקול היה מבוקר [באופן עצמאי](https://matrix.org/blog/2016/11/21/matrixs-olm-end-to-end-encryption-security-assessment-released-and-implemented-cross-platform-on-riot-at-last) בשנת 2016. את המפרט לפרוטוקול מטריקס ניתן למצוא [בתיעוד שלהם](https://spec.matrix.org/latest/). The [Olm cryptographic ratchet](https://matrix.org/docs/matrix-concepts/end-to-end-encryption/) used by Matrix is an implementation of Signal’s [Double Ratchet algorithm](https://signal.org/docs/specifications/doubleratchet/).
 
 ### Session
 

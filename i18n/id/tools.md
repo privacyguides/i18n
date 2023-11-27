@@ -284,12 +284,11 @@ Kami [merekomendasikan](dns.md#recommended-providers) sejumlah server DNS terenk
 
 <div class="grid cards" markdown>
 
-- ![Cryptomator logo](assets/img/enkripsi-perangkat-lunak/cryptomator.svg){ .twemoji } [Cryptomator](enkripsi.md#cryptomator-cloud)
-- ![Picocrypt logo](assets/img/enkripsi-perangkat-lunak/picocrypt.svg){ .twemoji } [Picocrypt](enkripsi.md#picocrypt-file)
-- ![VeraCrypt logo](assets/img/enkripsi-perangkat lunak/veracrypt.svg#only-light){ .twemoji }![VeraCrypt logo](assets/img/enkripsi-perangkat lunak/veracrypt-dark.svg#only-dark){ .twemoji } [VeraCrypt (FDE)](enkripsi.md#veracrypt-disk)
-- ![Hat.sh logo](assets/img/enkripsi-perangkat-lunak/hat-sh.png#only-light){ .twemoji }![Hat.sh logo](assets/img/enkripsi-perangkat-lunak/hat-sh-dark.png#only-dark){ .twemoji } [Hat.sh (Berbasis peramban)](enkripsi.md#hatsh)
-- ![Kryptor logo](assets/img/enkripsi-perangkat lunak/kryptor.png){ .twemoji } [Kryptor](enkripsi.md#kryptor)
-- ![Tomb logo](assets/img/enkripsi-perangkat lunak/tomb.png){ .twemoji } [Tomb](enkripsi.md#tomb)
+- ![Cryptomator logo](assets/img/encryption-software/cryptomator.svg){ .twemoji } [Cryptomator](encryption.md#cryptomator-cloud)
+- ![Picocrypt logo](assets/img/encryption-software/picocrypt.svg){ .twemoji } [Picocrypt](encryption.md#picocrypt-file)
+- ![VeraCrypt logo](assets/img/encryption-software/veracrypt.svg#only-light){ .twemoji }![VeraCrypt logo](assets/img/encryption-software/veracrypt-dark.svg#only-dark){ .twemoji } [VeraCrypt (FDE)](encryption.md#veracrypt-disk)
+- ![Kryptor logo](assets/img/encryption-software/kryptor.png){ .twemoji } [Kryptor](encryption.md#kryptor)
+- ![Tomb logo](assets/img/encryption-software/tomb.png){ .twemoji } [Tomb](encryption.md#tomb)
 
 </div>
 

@@ -185,25 +185,6 @@ Vi rekommenderar att du lagrar en lokal återställningsnyckel på en säker pla
     cryptsetup luksHeaderBackup /dev/device --header-backup-file /mnt/backup/file.img
     ```
 
-## Webbläsarbaserad
-
-Webbläsarbaserad kryptering kan vara användbar när du behöver kryptera en fil men inte kan installera programvara eller appar på enheten.
-
-### hat.sh
-
-!!! recommendation
-
-    ![VeraCrypt logo](assets/img/encryption-software/veracrypt.svg#only-light){ align=right }
-    ![VeraCrypt logo](assets/img/encryption-software/veracrypt-dark.svg#only-dark){ align=right }
-    
-    **VeraCrypt** är ett källkod-tillgängligt freeware-verktyg som används för on-the-fly kryptering. Det kan också vara värd för sig själv och är användbart om du behöver kryptera en fil men inte kan installera någon programvara på din enhet på grund av organisationspolicyer.
-    
-    [:octicons-globe-16: Startsida](https://cryptomator.org){ .md-button .md-button--primary }
-    [:octicons-eye-16:](https://cryptomator.org/privacy){ .card-link title="Privacy Policy" }
-    [:octicons-info-16:](https://hat.sh/about/){ .card-link title=Dokumentation}
-    [:octicons-code-16:](https://github.com/sh-dv/hat.sh){ .card-link title="Källkod" }
-    [:octicons-heart-16:](https://github.com/sh-dv/hat.sh#donations/){ .card-link title=Contribute" }
-
 ## Kommandorad
 
 Verktyg med kommandoradsgränssnitt är användbara för att integrera [skalskript](https://en.wikipedia.org/wiki/Shell_script).

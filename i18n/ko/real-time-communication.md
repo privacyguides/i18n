@@ -139,7 +139,7 @@ Briar supports Forward Secrecy by using the Bramble [Handshake](https://code.bri
 
 Matrix 프로토콜 자체는 [이론적으로 PFS를 지원하지만](https://gitlab.matrix.org/matrix-org/olm/blob/master/docs/megolm.md#partial-forward-secrecy), 키 백업 및 사용자 간 메시지 기록 공유 등의 사용자 경험을 해치기 때문에 [현시점에서 Element는 PFS를 지원하지 않습니다](https://github.com/vector-im/element-web/issues/7101).
 
-Matrix 프로토콜은 2016년에 독립적으로 [감사를 받았습니다](https://matrix.org/blog/2016/11/21/matrixs-olm-end-to-end-encryption-security-assessment-released-and-implemented-cross-platform-on-riot-at-last). Matirx 프로토콜 사양은 [문서](https://spec.matrix.org/latest/)에서 확인할 수 있습니다. Matrix에서 사용하는 [Olm](https://matrix.org/docs/projects/other/olm) 암호화 래칫(Cryptographic Ratchet)은 Signal의 [더블 래칫 알고리즘(Double Ratchet algorithm)](https://signal.org/docs/specifications/doubleratchet/)을 구현한 것입니다.
+Matrix 프로토콜은 2016년에 독립적으로 [감사를 받았습니다](https://matrix.org/blog/2016/11/21/matrixs-olm-end-to-end-encryption-security-assessment-released-and-implemented-cross-platform-on-riot-at-last). Matirx 프로토콜 사양은 [문서](https://spec.matrix.org/latest/)에서 확인할 수 있습니다. The [Olm cryptographic ratchet](https://matrix.org/docs/matrix-concepts/end-to-end-encryption/) used by Matrix is an implementation of Signal’s [Double Ratchet algorithm](https://signal.org/docs/specifications/doubleratchet/).
 
 ### Session
 

@@ -139,7 +139,7 @@ Groepsgesprekken voor spraak en video zijn [niet](https://github.com/vector-im/e
 
 Het Matrix-protocol zelf [ondersteunt in theorie PFS](https://gitlab.matrix.org/matrix-org/olm/blob/master/docs/megolm.md#partial-forward-secrecy), maar dit wordt [momenteel niet ondersteund in Element](https://github.com/vector-im/element-web/issues/7101) omdat het sommige aspecten van de gebruikerservaring, zoals sleutelback-ups en gedeelde berichtgeschiedenis, hierdoor niet naar behoren functioneerd.
 
-Het protocol is in 2016 onafhankelijk [gecontroleerd](https://matrix.org/blog/2016/11/21/matrixs-olm-end-to-end-encryption-security-assessment-released-and-implemented-cross-platform-on-riot-at-last). De specificatie van het Matrix-protocol is te vinden in hun [documentatie](https://spec.matrix.org/latest/). De [Olm](https://matrix.org/docs/projects/other/olm) cryptografische ratel die door Matrix wordt gebruikt, is een implementatie van het [Double Ratchet-algoritme van Signal](https://signal.org/docs/specifications/doubleratchet/).
+Het protocol is in 2016 onafhankelijk [gecontroleerd](https://matrix.org/blog/2016/11/21/matrixs-olm-end-to-end-encryption-security-assessment-released-and-implemented-cross-platform-on-riot-at-last). De specificatie van het Matrix-protocol is te vinden in hun [documentatie](https://spec.matrix.org/latest/). The [Olm cryptographic ratchet](https://matrix.org/docs/matrix-concepts/end-to-end-encryption/) used by Matrix is an implementation of Signal’s [Double Ratchet algorithm](https://signal.org/docs/specifications/doubleratchet/).
 
 ### Session
 

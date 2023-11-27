@@ -199,25 +199,6 @@ Recomendamos armazenar uma chave de recuperação local em um local seguro, em v
     cryptsetup luksHeaderBackup /device/device --header-backup-file /mnt/backup/file.img
     ```
 
-## Navegador baseado em
-
-Ferramentas com interfaces de linha de comando são úteis para intergrating [shell scripts](https://en.wikipedia.org/wiki/Shell_script).
-
-### chapéu.sh
-
-!!! nota
-    Consulte o [Tabela de Hardware](https://openwrt.org/toh/start) para verificar se o seu dispositivo é suportado.
-
-    ![hat.sh logo](/assets/img/encryption-software/hat-sh.png#only-light){ align=right }
-    ![hat.sh logo](/assets/img/encryption-software/hat-sh-dark.png#only-dark){ align=right }
-    
-    **Hat.sh*** é uma aplicação web que fornece criptografia segura de arquivos do lado do cliente no seu navegador. Também pode ser auto-hospedado e é útil se você precisar criptografar um arquivo, mas não pode instalar qualquer software no seu dispositivo, devido às políticas organizacionais.
-    
-    [Visite hat.sh](https://hat.sh){ .md-button .md-button--primary }
-    
-    **Downloads***
-    - [:fontawesome-brands-github: Fonte](https://github.com/sh-dv/hat.sh)
-
 ## Linha de comando
 
 Tools with command-line interfaces are useful for integrating [shell scripts](https://en.wikipedia.org/wiki/Shell_script).

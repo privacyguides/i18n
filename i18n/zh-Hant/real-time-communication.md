@@ -140,7 +140,7 @@ Briar 使用 Bramble [Handshake](https://code.briarproject.org/briar/briar-spec/
 Matrix 協議本身 [理論上支援 PFS](https://gitlab.matrix.org/matrix-org/olm/blob/master/docs/megolm.md#partial-forward-secrecy)，但目前Element </a> 不支援 PFS
 ，因為它破壞一些使用者體驗，例如密鑰備份和共享訊息歷史記錄。</p> 
 
-其協議在 2016年獨立進行了 [審計](https://matrix.org/blog/2016/11/21/matrixs-olm-end-to-end-encryption-security-assessment-released-and-implemented-cross-platform-on-riot-at-last) 。 Matrix 協議的規範可以在他們的 [文檔](https://spec.matrix.org/latest/)中找到。 Matrix 使用的 [Olm](https://matrix.org/docs/projects/other/olm) 加密棘輪是Signal [Double Ratchet 演算法](https://signal.org/docs/specifications/doubleratchet/)的實現。
+其協議在 2016年獨立進行了 [審計](https://matrix.org/blog/2016/11/21/matrixs-olm-end-to-end-encryption-security-assessment-released-and-implemented-cross-platform-on-riot-at-last) 。 Matrix 協議的規範可以在他們的 [文檔](https://spec.matrix.org/latest/)中找到。 The [Olm cryptographic ratchet](https://matrix.org/docs/matrix-concepts/end-to-end-encryption/) used by Matrix is an implementation of Signal’s [Double Ratchet algorithm](https://signal.org/docs/specifications/doubleratchet/).
 
 
 

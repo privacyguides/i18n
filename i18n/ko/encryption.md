@@ -186,25 +186,6 @@ BitLocker is [only supported](https://support.microsoft.com/en-us/windows/turn-o
     cryptsetup luksHeaderBackup /dev/device --header-backup-file /mnt/backup/file.img
     ```
 
-## 브라우저 기반
-
-Browser-based encryption can be useful when you need to encrypt a file but cannot install software or apps on your device.
-
-### hat.sh
-
-!!! recommendation
-
-    ![hat.sh logo](assets/img/encryption-software/hat-sh.png#only-light){ align=right }
-    ![hat.sh logo](assets/img/encryption-software/hat-sh-dark.png#only-dark){ align=right }
-    
-    **Hat.sh** is a web application that provides secure client-side file encryption in your browser. It can also be self-hosted and is useful if you need to encrypt a file but cannot install any software on your device due to organizational policies.
-    
-    [:octicons-globe-16: 웹사이트](https://hat.sh){ .md-button .md-button--primary }
-    [:octicons-eye-16:](https://hat.sh/about/){ .card-link title="프라이버시 정책" }
-    [:octicons-info-16:](https://hat.sh/about/){ .card-link title=문서}
-    [:octicons-code-16:](https://github.com/sh-dv/hat.sh){ .card-link title="소스 코드" }
-    [:octicons-heart-16:](https://github.com/sh-dv/hat.sh#donations){ .card-link title="기부 방법은 홈페이지 하단에서 확인하실 수 있습니다" }
-
 ## 커맨드라인
 
 커맨드라인 인터페이스가 존재하는 툴은 [Shell 스크립트](https://ko.wikipedia.org/wiki/%EC%85%B8_%EC%8A%A4%ED%81%AC%EB%A6%BD%ED%8A%B8)에 통합하는 용도로 유용합니다.

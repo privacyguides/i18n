@@ -187,25 +187,6 @@ Wij raden je aan een lokale herstelsleutel op een veilige plaats op te slaan in 
     cryptsetup luksHeaderBackup /dev/device --header-backup-file /mnt/backup/file.img
     ```
 
-## Browser-gebaseerd
-
-Versleuteling via de browser kan handig zijn als je een bestand moet versleutelen, maar geen software of apps op jouw apparaat kunt installeren.
-
-### hat.sh
-
-!!! recommendation
-
-    ![hat.sh logo](assets/img/encryption-software/hat-sh.png#only-light){ align=right }
-    ![hat.sh logo](assets/img/encryption-software/hat-sh-dark.png#only-dark){ align=right }
-    
-    **Hat.sh** is een webapplicatie die veilige client-side versleuteling van bestanden in jouw browser biedt. Het kan ook zelf worden gehost en is handig als je een bestand moet versleutelen, maar geen software op jouw apparaat kunt installeren vanwege organisatorisch beleid.
-    
-    [:octicons-globe-16: Website](https://hat.sh){ .md-button .md-button--primary }
-    [:octicons-eye-16:](https://hat.sh/about/){ .card-link title="Privacybeleid" }
-    [:octicons-info-16:](https://hat.sh/about/){ .card-link title=Documentatie}
-    [:octicons-code-16:](https://github.com/sh-dv/hat.sh){ .card-link title="Broncode" }
-    [:octicons-heart-16:](https://github.com/sh-dv/hat.sh#donations){ .card-link title="Donatiemogelijkheden vindt u onderaan de website" }
-
 ## Command-line
 
 Tools met command-line interfaces zijn handig voor het integreren van [shell scripts](https://en.wikipedia.org/wiki/Shell_script).

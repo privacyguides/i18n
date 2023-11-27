@@ -87,7 +87,7 @@ Notesnook only allows local note encryption with the [private vault](https://hel
         - [:simple-firefoxbrowser: Firefox](https://addons.mozilla.org/firefox/addon/joplin-web-clipper/)
         - [:simple-googlechrome: Chrome](https://chrome.google.com/webstore/detail/joplin-web-clipper/alofnhikmmkdbbbgpnglcpdollgjjfek)
 
-Joplin ondersteunt geen wachtwoord/PIN beveiliging voor de [applicatie zelf of individuele notities en notebooks](https://github.com/laurent22/joplin/issues/289). Gegevens worden nog steeds versleuteld tijdens het transport en op de synchronisatielocatie met behulp van jouw hoofdsleutel. Sinds januari 2023 ondersteunt Joplin biometrische app-vergrendeling voor [Android](https://joplinapp.org/changelog_android/#android-v2-10-3-https-github-com-laurent22-joplin-releases-tag-android-v2-10-3-pre-release-2023-01-05t11-29-06z) en [iOS](https://joplinapp.org/changelog_ios/#ios-v12-10-2-https-github-com-laurent22-joplin-releases-tag-ios-v12-10-2-2023-01-20t17-41-13z).
+Joplin does not [support](https://github.com/laurent22/joplin/issues/289) password/PIN protection for the application itself or individual notes and notebooks. Gegevens worden nog steeds versleuteld tijdens het transport en op de synchronisatielocatie met behulp van jouw hoofdsleutel. Since January 2023, Joplin [supports biometrics](https://github.com/laurent22/joplin/commit/f10d9f75b055d84416053fab7e35438f598753e9) app lock for Android and iOS.
 
 ### Cryptee
 

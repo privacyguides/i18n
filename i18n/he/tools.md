@@ -284,12 +284,11 @@ description: Privacy Guides הוא האתר השקוף והאמין ביותר �
 
 <div class="grid cards" markdown>
 
-- ![Cryptomator לוגו](assets/img/encryption-software/cryptomator.svg){ .twemoji } [Cryptomator](encryption.md#cryptomator-cloud)
-- ![Picocrypt לוגו](assets/img/encryption-software/picocrypt.svg){ .twemoji } [Picocrypt](encryption.md#picocrypt-file)
-- ![VeraCrypt לוגו](assets/img/encryption-software/veracrypt.svg#only-light){ .twemoji }![VeraCrypt לוגו](assets/img/encryption-software/veracrypt-dark.svg#only-dark){ .twemoji } [VeraCrypt (FDE)](encryption.md#veracrypt-disk)
-- ![Hat.sh לוגו](assets/img/encryption-software/hat-sh.png#only-light){ .twemoji }![Hat.sh לוגו](assets/img/encryption-software/hat-sh-dark.png#only-dark){ .twemoji } [Hat.sh (Browser-based)](encryption.md#hatsh)
-- ![Kryptor לוגו](assets/img/encryption-software/kryptor.png){ .twemoji } [Kryptor](encryption.md#kryptor)
-- ![Tomb לוגו](assets/img/encryption-software/tomb.png){ .twemoji } [Tomb](encryption.md#tomb)
+- ![Cryptomator logo](assets/img/encryption-software/cryptomator.svg){ .twemoji } [Cryptomator](encryption.md#cryptomator-cloud)
+- ![Picocrypt logo](assets/img/encryption-software/picocrypt.svg){ .twemoji } [Picocrypt](encryption.md#picocrypt-file)
+- ![VeraCrypt logo](assets/img/encryption-software/veracrypt.svg#only-light){ .twemoji }![VeraCrypt logo](assets/img/encryption-software/veracrypt-dark.svg#only-dark){ .twemoji } [VeraCrypt (FDE)](encryption.md#veracrypt-disk)
+- ![Kryptor logo](assets/img/encryption-software/kryptor.png){ .twemoji } [Kryptor](encryption.md#kryptor)
+- ![Tomb logo](assets/img/encryption-software/tomb.png){ .twemoji } [Tomb](encryption.md#tomb)
 
 </div>
 

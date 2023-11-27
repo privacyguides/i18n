@@ -187,25 +187,6 @@ BitLocker [ נתמך רק](https://support.microsoft.com/en-us/windows/turn-on-d
     cryptsetup luksHeaderBackup /dev/device --header-backup-file /mnt/backup/קובץ.img
     ```
 
-## מבוסס-דפדפן
-
-הצפנה מבוססת דפדפן יכולה להיות שימושית כאשר אתה צריך להצפין קובץ אבל לא יכול להתקין תוכנות או אפליקציות במכשיר שלך.
-
-### hat.sh
-
-!!! recommendation
-
-    ![hat.sh לוגו](assets/img/encryption-software/hat-sh.png#only-light){ align=right }
-    ![hat.sh לוגו](assets/img/encryption-software/hat-sh-dark.png#only-dark){ align=right }
-    
-    **Hat.sh** הוא יישום אינטרנט המספק הצפנת קבצים מאובטחת בצד הלקוח בדפדפן שלך. הוא גם יכול להיות באחסון עצמי והוא שימושי אם אתה צריך להצפין קובץ אבל לא יכול להתקין שום תוכנה במכשיר שלך בגלל מדיניות ארגונית.
-    
-    [:octicons-globe-16: אתר](https://hat.sh){ .md-button .md-button--primary }
-    [:octicons-eye-16:](https://hat.sh/about/){ .card-link title="מדיניות פרטיות" }
-    [:octicons-info-16:](https://hat.sh/about/){ .card-link title=תיעוד}
-    [:octicons-code-16:](https://github.com/sh-dv/hat.sh){ .card-link title="קוד מקור" }
-    :octicons-heart-16:{ .card-link title="ניתן למצוא את שיטות התרומות בתחתית האתר" }
-
 ## שורת הפקודה
 
 כלים עם ממשקי שורת פקודה שימושיים לשילוב [סקריפטים של מעטפת](https://en.wikipedia.org/wiki/Shell_script).

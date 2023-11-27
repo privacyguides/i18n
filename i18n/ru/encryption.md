@@ -187,25 +187,6 @@ BitLocker [поддерживается только](https://support.microsoft.
     cryptsetup luksHeaderBackup /dev/device --header-backup-file /mnt/backup/file.img
     ```
 
-## Шифрование через браузер
-
-Шифрование через браузер может быть полезным, если вам нужно зашифровать файл, но вы не можете установить программу для шифрования на свое устройство.
-
-### hat.sh
-
-!!! recommendation
-
-    ![Логотип hat.sh](assets/img/encryption-software/hat-sh.png#only-light){ align=right }
-    ![Логотип hat.sh](assets/img/encryption-software/hat-sh-dark.png#only-dark){ align=right }
-    
-    **Hat.sh** - это сайт, который безопасно зашифровывает данные через браузер. Сайт может быть полезен, если вам нужно зашифровать файл, но вы не можете установить какое-либо программное обеспечение на свое устройство из-за политики организации.
-    
-    [:octicons-globe-16: Сайт](https://hat.sh){ .md-button .md-button--primary }
-    [:octicons-eye-16:](https://hat.sh/about/){ .card-link title="Политика конфиденциальности" }
-    [:octicons-info-16:](https://hat.sh/about/){ .card-link title=Документация}
-    [:octicons-code-16:](https://github.com/sh-dv/hat.sh){ .card-link title="Исходный код" }
-    [:octicons-heart-16:](https://github.com/sh-dv/hat.sh#donations){ .card-link title="Способы донатов можно найти внизу сайта" }
-
 ## Для командной строки
 
 Инструменты с интерфейсом командной строки полезны для интеграции [shell scripts](https://en.wikipedia.org/wiki/Shell_script).

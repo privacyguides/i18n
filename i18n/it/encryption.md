@@ -187,25 +187,6 @@ Consigliamo di memorizzare una chiave di recupero locale in un luogo sicuro, inv
     cryptsetup luksHeaderBackup /dev/device --header-backup-file /mnt/backup/file.img
     ```
 
-## Basati sul browser
-
-La crittografia basata sul browser può essere utile quando devi crittografare un file, ma non puoi installare software o app sul tuo dispositivo.
-
-### hat.sh
-
-!!! recommendation
-
-    ![Logo di hat.sh](assets/img/encryption-software/hat-sh.png#only-light){ align=right }
-    ![Logo di hat.sh](assets/img/encryption-software/hat-sh-dark.png#only-dark){ align=right }
-    
-    **Hat.sh** è un'applicazione web che fornisce una crittografia dei file dal lato del client nel browser. Può anche essere ospitata autonomamente ed è utile se devi crittografare un file ma non puoi installare alcun software sul tuo dispositivo, a causa di politiche organizzative.
-    
-    [:octicons-globe-16: Sito web](https://hat.sh){ .md-button .md-button--primary }
-    [:octicons-eye-16:](https://hat.sh/about/){ .card-link title="Politica sulla Privacy" }
-    [:octicons-info-16:](https://hat.sh/about/){ .card-link title=Documentazione}
-    [:octicons-code-16:](https://github.com/sh-dv/hat.sh){ .card-link title="Codice Sorgente" }
-    :octicons-heart-16:{ .card-link title="I metodi di donazione si possono trovare in fondo al sito web" }
-
 ## Riga di comando
 
 Gli strumenti con interfacce di riga di comando sono utili per integrare gli [script della shell](https://en.wikipedia.org/wiki/Shell_script).

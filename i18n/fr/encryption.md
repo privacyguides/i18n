@@ -187,25 +187,6 @@ Nous recommandons de stocker une clé de récupération locale dans un endroit s
     cryptsetup luksHeaderBackup /dev/device --header-backup-file /mnt/backup/file.img
     ```
 
-## Basé sur le navigateur
-
-Le chiffrement basé sur le navigateur peut être utile lorsque vous avez besoin de chiffrer un fichier, mais que vous ne pouvez pas installer de logiciel ou d'applications sur votre appareil.
-
-### hat.sh
-
-!!! recommendation
-
-    ![logo hat.sh](assets/img/encryption-software/hat-sh.png#only-light){ align=right }
-    ![logo hat.sh](assets/img/encryption-software/hat-sh-dark.png#only-dark){ align=right }
-    
-    **Hat.sh** est une application web qui fournit un chiffrement sécurisé des fichiers dans votre navigateur. Il peut également être auto-hébergé et est utile si vous devez chiffrer un fichier mais que vous ne pouvez pas installer de logiciel sur votre appareil en raison de politiques d'entreprises.
-    
-    [:octicons-globe-16: Page d'accueil](https://hat.sh){ .md-button .md-button--primary }
-    [:octicons-eye-16:](https://hat.sh/about/){ .card-link title="Politique de confidentialité" }
-    [:octicons-info-16:](https://hat.sh/about/){ .card-link title=Documentation}
-    [:octicons-code-16:](https://github.com/sh-dv/hat.sh){ .card-link title="Code source" }
-    [:octicons-heart-16:](https://github.com/sh-dv/hat.sh#donations){ .card-link title="Les méthodes de dons se trouvent au bas du site web" }
-
 ## Ligne de commande
 
 Les outils dotés d'une interface de ligne de commande sont utiles pour intégrer des [scripts shell](https://fr.wikipedia.org/wiki/Script_shell).

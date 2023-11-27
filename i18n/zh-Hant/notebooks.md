@@ -87,7 +87,7 @@ Notesnook 僅允許使用其付費昇級方案使用本地筆記加密[私人保
         - [:simple-firefoxbrowser: Firefox](https://addons.mozilla.org/firefox/addon/joplin-web-clipper/)
         - [:simple-googlechrome: Chrome](https://chrome.google.com/webstore/detail/joplin-web-clipper/alofnhikmmkdbbbgpnglcpdollgjjfek)
 
-Joplin 不支援 [應用程式本身或個別筆記和筆記本](https://github.com/laurent22/joplin/issues/289)的密碼/PIN保護。 但是您的資料在傳輸與同步位置中仍會使用主密鑰加密。 自2023年1月起， Joplin 支援 [Android](https://joplinapp.org/changelog_android/#android-v2-10-3-https-github-com-laurent22-joplin-releases-tag-android-v2-10-3-pre-release-2023-01-05t11-29-06z) 和 [iOS](https://joplinapp.org/changelog_ios/#ios-v12-10-2-https-github-com-laurent22-joplin-releases-tag-ios-v12-10-2-2023-01-20t17-41-13z)的生物識別應用程式鎖定功能。
+Joplin does not [support](https://github.com/laurent22/joplin/issues/289) password/PIN protection for the application itself or individual notes and notebooks. 但是您的資料在傳輸與同步位置中仍會使用主密鑰加密。 Since January 2023, Joplin [supports biometrics](https://github.com/laurent22/joplin/commit/f10d9f75b055d84416053fab7e35438f598753e9) app lock for Android and iOS.
 
 ### Cryptee
 
