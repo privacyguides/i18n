@@ -68,43 +68,43 @@ VPN 無法加密裝置與 VPN 伺服器之間連線以外的資料。 VPN 服務
 
 目前Tor 僅支援 TCP 協定。 UDP（由 [WebRTC](https://en.wikipedia.org/wiki/WebRTC) 使用，[HTTP3/QUIC](https://en.wikipedia.org/wiki/HTTP/3) 和其他協定）、[ICMP](https://en.wikipedia.org/wiki/Internet_Control_Message_Protocol) 和其他資料封包將被丟棄。 為了彌補這一點， VPN 提供商通常會引導全部的non-TCP 封包通過他們的 VPN 伺服器（您的第一個跳）。 [ProtonVPN ](https://protonvpn.com/support/tor-vpn/)的情況就是如此。 此外，使用此 Tor over VPN 設定時，您無法控制 Tor 其他重要的功能，例如 [隔離目標位址](https://www.whonix.org/wiki/Stream_Isolation) （為您訪問不同網域使用不同的Tor 迴路）。
 
-The feature should be viewed as a *convenient* way to access hidden services on Tor, not to stay anonymous. For proper anonymity, use the actual [Tor Browser](../tor.md).
+此功能應被視為*便捷*訪問 Tor 隱藏服務的方式，而不是保持匿名。 為了獲得妥適的匿名性，請使用 [Tor 瀏覽器](../tor.md)。
 
-## Commercial VPN Ownership
+## 商業 VPN 所有權
 
-Most VPN services are owned by the same [few companies](https://vpnpro.com/blog/hidden-vpn-owners-unveiled-97-vpns-23-companies/). These shady companies run lots of smaller VPN services to create the illusion that you have more choice than you actually do and to maximize profit. Typically, these providers that feed into their shell company have terrible privacy policies and shouldn't be trusted with your internet traffic. You should be very strict about which provider you decide to use.
+大多數 VPN 服務由[少數的同一家公司](https://vpnpro.com/blog/hidden-vpn-owners-unveiled-97-vpns-23-companies/)擁有。 這些可疑的公司運行許多小型 VPN 服務，製造出一種擁有比實際更多選擇的假象，來實現利潤最大化。 通常這些為空殼公司提供服務的供應商都有糟糕的隱私權政策，不應信任。 請非常嚴格地決定使用哪個提供者。
 
-You should also be wary that many VPN review sites are merely advertising vehicles open to the highest bidder. ==Privacy Guides does not make money from recommending external products, and never uses affiliate programs.==
+還應警惕：許多 VPN 評論網站只是向最高出價者開放的廣告工具。 == Privacy Guides 不會透過推薦外部產品賺錢，且從不使用推廣方案。==
 
-[Our VPN Recommendations](../vpn.md ""){.md-button}
+[VPN 建議](../vpn.md ""){.md-button}
 
-## Modern VPN Alternatives
+## 現代 VPN 替代方案
 
-Recently, some attempts have been made by various organizations to address some issues which centralized VPNs have. These technologies are relatively new, but worth keeping an eye on as the field develops.
+近來各組織做了一些嘗試來解決集中式 VPN 的一些問題。 這些技術相對較新，但隨著該領域的發展值得關注。
 
-### Multi-Party Relays
+### 多方中繼
 
-Multi-Party Relays (MPRs) use multiple nodes owned by different parties, such that no individual party knows both who you are and what you're connecting to. This is the basic idea behind Tor, but now there are some paid services that try to emulate this model.
+多方中繼 (MPR) 使用不同方的多個節點，這樣任何一方都不知道您是誰以及連接到什麼。 這是 Tor 背後的基本思想，現在有一些付費服務試圖模仿這種模式。
 
-MPRs seek to solve a problem inherent to VPNs: the fact that you must trust them completely. They accomplish this goal by segmenting the responsibilities between two or more different companies. For example, Apple's iCloud+ Private Relay routes your traffic through two servers:
+MPR 試圖解決 VPN 固有的問題：用戶必須完全信任它們。 他們透過劃分兩個或多個不同公司間的責任來實現此目標。 例如，Apple 的 iCloud+ Private Relay 透過兩個伺服器路由流量：
 
-1. Firstly, a server operated by Apple.
+1. 首先是 Apple 營運的伺服器。
 
-    This server is able to see your device's IP when you connect to it, and has knowledge of your payment information and Apple ID tied to your iCloud subscription. However, it is unable to see what website you are connecting to.
+    當連接到裝置時，伺服器能夠查看裝置的 IP，並了解付款資訊以及與 iCloud 訂閱相關的 Apple ID。 但是，它無法查看您連接到哪個網站。
 
-2. Secondly, a server operated by a partner CDN, such as Cloudflare or Fastly.
+2. 其次，由合作夥伴 CDN 營運的伺服器，例如 Cloudflare 或 Fastly。
 
-    This server actually makes the connection to your destination website, but has no knowledge of your device. The only IP address it knows about is Apple's server's.
+    該伺服器實際上會連接到您的目標網站，但不知道您的裝置。 它知道的唯一 IP 位址是 Apple 伺服器 IP 位址。
 
-Other MPRs run by different companies like Google or INVISV operate in a very similar manner. This protection by segmentation only exists if you trust the two companies to not collude with each other to deanonymize you.
+其他由 Google 或 INVISV 等公司經營的 MPR 運作也非常相似。 只有當相信這兩家公司不會串通對用戶進行去匿名化時，這種分段保護才存在。
 
-### Decentralized VPNs
+### 去中心化 VPN
 
-Another attempt at solving the issues with centralized VPN services are dVPNs. These are based on blockchain technology and claim to eliminate trust in a single party by distributing the nodes across lots of different people. However, many times a dVPN will default to a single node, meaning you need to trust that node completely, just like a traditional VPN. Unlike a traditional VPN, this one node that can see all your traffic is a random person instead of your VPN provider that can be audited and has legal responsibilities to uphold their privacy policy. Multi-hop is needed to solve this, but that comes with a stability and performance cost.
+解決集中式 VPN 問題的另一個嘗試是 dVPN。 它們基於區塊鏈技術，聲稱透過將節點分佈在許多不同的人身上來消除對單一方的信任。 然而，很多時候 dVPN 預設為單一節點，這意味著需要完全信任該節點，就像傳統 VPN 一樣。 與傳統的 VPN 不同，這個可看到您所有流量的節點是隨機的而不是 VPN 提供者，後者可以被審核且承擔維護其隱私權政策的法律責任。 需要多跳來解決這個問題，但會帶來穩定性和效能成本問題。
 
-Another consideration is legal liability. The exit node will need to deal with legal problems from misuse of the network, an issue that the Tor network has contended with for its entire existence. This discourages regular people from running nodes and makes it more attractive for a malicious actor with lots of resources to host one. This is a big problem if the service is single-node, as the potentially malicious exit node can see who you are and what you're connecting to.
+另一個考慮因素是法律責任。 出口節點需要處理網路濫用帶來的法律問題，這是 Tor 網絡自誕生以來一直在處理的問題。 這會阻止一般人運行節點，並使擁有大量資源來託管節點的惡意行為者更具吸引力。 如果服務是單節點的，將是個大問題，因為潛在的惡意出口節點可以看到您是誰以及正在連接到什麼。
 
-Many dVPNs are used to push a cryptocurrency rather than to make the best service. They also tend to be smaller networks with fewer nodes, making them more vulnerable to [Sybil attacks](https://en.wikipedia.org/wiki/Sybil_attack).
+許多 dVPN 被用在推送加密貨幣，而不是提供最好的服務。 它們往往是節點少的小型網絡，更容易受到[女巫攻擊](https://en.wikipedia.org/wiki/Sybil_attack)。
 
 ## VPN 相關資訊
 
