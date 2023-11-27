@@ -4,7 +4,7 @@ title: Consigli per Git
 
 Se apporti modifiche a questo sito web direttamente sull'editor web di GitHub.com, non te ne saresti dovuto preoccupare. Se stai sviluppando localmente e/o sei un editore di siti web a lungo termine (che dovrebbe probabilmente sviluppare localmente!), considera questi consigli.
 
-## Abilitaa la Firma dei Commit con Chiave SSH
+## Abilita la Firma dei Commit con Chiave SSH
 
 Puoi utilizzare una chiave SSH esistente per firmare, o [crearne una nuova](https://docs.github.com/en/authentication/connecting-to-github-with-ssh/generating-a-new-ssh-key-and-adding-it-to-the-ssh-agent).
 
@@ -23,7 +23,7 @@ Assicurati di [aggiungere la tua chiave SSH al tuo profilo di GitHub](https://do
 
 ## Rebase on Git pull
 
-Utilizza `git pull --rebase`, invece di `git pull`, estrando le modifiche da GitHub alla tua macchina locale. In questo modo, le tue modifiche locali saranno sempre "in cima" alle modifiche più recenti su GitHub e potrai evitare i commit di unione (non consentiti in questo repository).
+Utilizza `git pull --rebase`, invece di `git pull`, estraendo le modifiche da GitHub alla tua macchina locale. In questo modo, le tue modifiche locali saranno sempre "in cima" alle modifiche più recenti su GitHub e potrai evitare i commit di unione (non consentiti in questo repository).
 
 Puoi impostarlo come comportamento predefinito:
 
@@ -33,7 +33,7 @@ git config --global pull.rebase true
 
 ## Rebase da `main` prima di inviare una PR
 
-Se stai lavorando al tuo ramo, esegui questi comandi prima di inviare un PR:
+Se stai lavorando sulla tua branch, esegui questi comandi prima di inviare una PR:
 
 ```
 git fetch origin
