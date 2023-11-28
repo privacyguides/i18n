@@ -139,7 +139,7 @@ Las llamadas de voz y vídeo en grupo [no](https://github.com/vector-im/element-
 
 El propio protocolo Matrix [soporta teóricamente PFS](https://gitlab.matrix.org/matrix-org/olm/blob/master/docs/megolm.md#partial-forward-secrecy), sin embargo [no está soportado actualmente en Element](https://github.com/vector-im/element-web/issues/7101) debido a que rompe algunos aspectos de la experiencia del usuario como las copias de seguridad de claves y el historial de mensajes compartidos.
 
-El protocolo fue [auditado](https://matrix.org/blog/2016/11/21/matrixs-olm-end-to-end-encryption-security-assessment-released-and-implemented-cross-platform-on-riot-at-last) de forma independiente en 2016. La especificación del protocolo Matrix puede encontrarse en su [documentación](https://spec.matrix.org/latest/). The [Olm cryptographic ratchet](https://matrix.org/docs/matrix-concepts/end-to-end-encryption/) used by Matrix is an implementation of Signal’s [Double Ratchet algorithm](https://signal.org/docs/specifications/doubleratchet/).
+El protocolo fue [auditado](https://matrix.org/blog/2016/11/21/matrixs-olm-end-to-end-encryption-security-assessment-released-and-implemented-cross-platform-on-riot-at-last) de forma independiente en 2016. La especificación del protocolo Matrix puede encontrarse en su [documentación](https://spec.matrix.org/latest/). El [trinquete criptográfico Olm](https://matrix.org/docs/matrix-concepts/end-to-end-encryption/) utilizado por Matrix es una implementación del algoritmo [Double Ratchet](https://signal.org/docs/specifications/doubleratchet/) de Signal.
 
 ### Session
 
