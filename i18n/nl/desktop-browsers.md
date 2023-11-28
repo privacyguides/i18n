@@ -1,5 +1,5 @@
 ---
-meta_title: "Privacy respecterende webbrowsers voor PC en Mac - Privacy Guides"
+meta_title: "Privacy respecterende webbrowsers voor PC en Mac - Privacy Handleidingen"
 title: "Desktop Browsers"
 icon: material/laptop
 description: Deze webbrowsers bieden sterkere privacybescherming dan Google Chrome.
@@ -182,11 +182,11 @@ Dit voorkomt dat je onbedoeld verbinding maakt met een website in platte HTTP-te
 
 ##### DNS over HTTPS
 
-If you use a [DNS over HTTPS provider](dns.md):
+Als u een [DNS boven HTTPS provider](dns.md) gebruikt:
 
-- [x] Select **Max Protection** and choose a suitable provider
+- [x] Selecteer **Maximale Bescherming** en kies een geschikte provider
 
-Max Protection enforces the use of DNS over HTTPS, and a security warning will show if Firefox can’t connect to your secure DNS resolver, or if your secure DNS resolver says that records for the domain you are trying to access do not exist. This stops the network you're connected to from secretly downgrading your DNS security.
+Max Bescherming forceert het gebruik van DNS via HTTPS. Een beveiligingswaarschuwing wordt weergegeven als Firefox geen verbinding kan maken met uw beveiligde DNS resolver, of als uw beveiligde DNS resolver zegt dat records voor het domein dat u probeert te openen, niet bestaan. Hiermee stopt het netwerk waarmee u bent verbonden om uw DNS-beveiliging stiekem te verlagen.
 
 #### Synchronisatie
 
@@ -227,13 +227,13 @@ Arkenfox wil alleen elementaire of naïeve volgscripts dwarsbomen via canvas ran
 
     1. We raden af om de Flatpak-versie van Brave te gebruiken, omdat die de sandbox van Chromium vervangt door die van Flatpak, wat minder effectief is. Bovendien wordt het pakket niet onderhouden door Brave Software, Inc.
 
-**macOS users:** The download for Brave Browser from their official website is a `.pkg` installer which requires admin privileges to run (and may run other unnecessary scripts on your machine). As an alternative, you can download the latest `Brave-Browser-universal.dmg` file from their [GitHub releases](https://github.com/brave/brave-browser/releases/latest) page, which provides a traditional "drag to Applications folder" install.
+**macOS-gebruikers:** De download van Brave Browser van hun officiële website is een `.pkg` installatieprogramma dat beheerdersrechten vereist om uit te voeren (en het kan andere onnodige scripts uitvoeren op uw machine). Als een alternatief kunt u de laatste `Brave-Browser-universal.dmg` file downloaden van hun [GitHub releases](https://github.com/brave/brave-browser/releases/latest) pagina, die een traditionele "Sleep naar Applicaties map" installatie biedt.
 
-!!! warning
+!!! waarschuwing
 
-    Brave adds a "[referral code](https://github.com/brave/brave-browser/wiki/Brave%E2%80%99s-Use-of-Referral-Codes)" to the file name in downloads from the Brave website, which is used to track which source the browser was downloaded from, for example `BRV002` in a download named `Brave-Browser-BRV002.pkg`. The installer will then ping Brave's server with the referral code at the end of the installation process. If you're concerned about this, you can rename the installer file before opening it.
+    Brave voegt een "[referral code](https://github.com/brave/brave-browser/wiki/Brave%E2%80%99s-Use-of-Referral-Codes)" toe aan de file naam in downloads van de Brave website, die wordt gebruikt om te volgen van welke bron de browser heeft gedownload. Als voorbeeld `BRV002` in een download genaamd `Brave-Browser-BRV002.pkg`. Het installatieprogramma zal aan het eind van het installatieproces de server van Brave pingen met de verwijzingscode. Als u zich hier zorgen om maakt kunt u de naam van de installer veranderen voor het openen.
 
-### Aanbevolen configuratie
+### Aanbevolen Configuratie
 
 Deze opties zijn te vinden in :material-menu: → **Instellingen**.
 
@@ -382,7 +382,7 @@ Onze best-case criteria geven aan wat wij zouden willen zien van het perfecte pr
 - Omvat geen add-on functionaliteit (bloatware) die geen invloed heeft op de privacy van gebruikers.
 - Verzamelt standaard geen telemetrie.
 - Biedt een open-source sync-server implementatie.
-- Standaard ingesteld op een [privézoekmachine](search-engines.md).
+- Standaard ingesteld op een [privé zoekmachine](search-engines.md).
 
 ### Uitgebreide criteria
 

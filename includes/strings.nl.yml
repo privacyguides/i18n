@@ -36,7 +36,7 @@ nav:
   Internet Browsing: Surfen op het internet
   Providers: Providers
   Software: Software
-  Advanced: Advanced
+  Advanced: Geavanceerd
   About: Over ons
   Community: Gemeenschap
   Online Services: Online diensten
@@ -49,6 +49,6 @@ nav:
   Blog: Blog
 site:
   homepage_card: |
-    A socially motivated website which provides information about protecting your online data privacy and security.
+    Een sociaal gemotiveerde website die informatie biedt over het beschermen van uw online data privacy en veiligheid.
   translation: |
-    You're viewing the English copy of Privacy Guides, translated by our fantastic language team on Crowdin. If you notice an error, or see any untranslated sections on this page, please consider helping out! For more information and tips see our translation guide.
+    U bekijkt de Nederlandse versie van de Privacy Handleidingen, vertaald door ons fantastische taalteam op Crowdin. Als u een foutmelding, of onvertaalde secties op deze pagina ziet, overweeg dan alstublieft om te helpen! Voor meer informatie en tips zie onze vertaalhandleiding.
