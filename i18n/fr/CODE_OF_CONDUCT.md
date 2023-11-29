@@ -12,23 +12,23 @@ Ce que nous attendons des membres de nos communautés :
 
 1. **Ne diffusez pas de fausses informations**
 
-      We are creating an evidence-based educational community around information privacy and security, not an information home for conspiracy theories. For example, when making a claim that a certain piece of software is malicious or that certain telemetry data is privacy invasive; explain in detail what is collected and how it collected. Les affirmations de cette nature doivent être étayées par des preuves techniques.
+      Nous créons une communauté éducative en matière de confidentialité et de sécurité de l'information fondée sur des preuves, et non un foyer d'information pour les théories conspirationnistes. Par exemple, lorsque vous affirmez qu'un certain logiciel est malveillant ou que certaines données de télémétrie portent atteinte à la vie privée ; expliquez en détail ce qui est collecté et comment. Les affirmations de cette nature doivent être étayées par des preuves techniques.
 
-2. **Do not abuse our willingness to help**
+2. **N'abusez pas de notre volonté d'aider**
 
-      Our community members are not free tech support. We are happy to help with specific steps for individual's, privacy journey, if they are willing to put in effort. We are not obligated to answer endless, repetitive questions, about general computer problems solvable with a simple internet search. **Do not** become a [help vampire](https://slash7.com/2006/12/22/vampires/).
+      Les membres de notre communauté ne sont pas un support technique gratuit. Nous sommes heureux de vous aider sur des étapes spécifiques de votre parcours personnel vers la protection de la vie privée, si vous êtes prêt à faire des efforts. Nous ne sommes pas obligés de répondre à des questions interminables et répétitives, sur des problèmes informatiques généraux résolus par une simple recherche sur Internet. Ne soyez **pas** un [vampire de l'aide](https://slash7.com/2006/12/22/vampires/).
 
 3. **Comportez-vous de manière positive et constructive**
 
       Voici quelques exemples de comportements qui contribuent à un environnement positif pour notre communauté :
 
-      - Being respectful of differing opinions, viewpoints, and experiences.
-      - Demonstrating empathy and kindness toward others.
-      - Focusing on what is best not just for us as overseers, but for the overall community.
-      - Giving and gracefully accepting constructive feedback within' our community while growing and improving.
-      - Operating with a communal mindset at all times.
+      - Être respectueux des différentes opinions, points de vue et expériences.
+      - Faire preuve d'empathie et de bienveillance les uns envers les autres.
+      - Se concentrer sur ce qui est le mieux non seulement pour nous en tant qu'individus, mais aussi pour l'ensemble de la communauté.
+      - Donner et accepter gracieusement des commentaires constructifs dans notre communauté tout en grandissant et en s'améliorant.
+      - Fonctionner avec un état d'esprit communautaire en tout temps.
 
-## Unacceptable Behavior
+## Comportement inacceptable
 
 Les comportements suivants sont considérés comme du harcèlement et sont inacceptables au sein de notre communauté :
 
