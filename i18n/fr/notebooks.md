@@ -60,7 +60,7 @@ Si vous utilisez actuellement une application comme Evernote, Google Keep, ou Mi
         - [:simple-firefoxbrowser: Firefox](https://notesnook.com/notesnook-web-clipper/)
         - [:simple-googlechrome: Chrome](https://chrome.google.com/webstore/detail/notesnook-web-clipper/kljhpemdlcnjohmfmkogahelkcidieaj)
 
-Notesnook only allows local note encryption with the [private vault](https://help.notesnook.com/lock-notes-with-private-vault) feature on their pro plan, otherwise your notes are not stored encrypted on your device. Your notes are always encrypted before being synced to their servers with keys which only you have access to.
+Notesnook autorise le chiffrement de notes locales seulement avec la fonctionnalité [coffre privé](https://help.notesnook.com/lock-notes-with-private-vault) sur leur offre pro, dans les autres cas vos notes ne sont pas stockées chiffrées sur votre appareil. Vos notes sont toujours chiffrées avant d'être synchronisées avec leurs serveurs avec des clés auxquelles vous seul avez accès.
 
 ### Joplin
 
@@ -87,7 +87,7 @@ Notesnook only allows local note encryption with the [private vault](https://hel
         - [:simple-firefoxbrowser: Firefox](https://addons.mozilla.org/firefox/addon/joplin-web-clipper/)
         - [:simple-googlechrome: Chrome](https://chrome.google.com/webstore/detail/joplin-web-clipper/alofnhikmmkdbbbgpnglcpdollgjjfek)
 
-Joplin does not [support](https://github.com/laurent22/joplin/issues/289) password/PIN protection for the application itself or individual notes and notebooks. Les données sont toujours chiffrées en transit et à l'emplacement de la synchronisation à l'aide de votre clé principale. Since January 2023, Joplin [supports biometrics](https://github.com/laurent22/joplin/commit/f10d9f75b055d84416053fab7e35438f598753e9) app lock for Android and iOS.
+Joplin ne [prend pas en charge](https://github.com/laurent22/joplin/issues/289) la protection par mot de passe/PIN de l'application elle-même ou des notes et carnets individuels. Les données sont toujours chiffrées en transit et à l'emplacement de la synchronisation à l'aide de votre clé principale. Depuis Janvier 2023, Joplin [prend en charge le verrouillage biométrique](https://github.com/laurent22/joplin/commit/f10d9f75b055d84416053fab7e35438f598753e9) de l'application sur Android et iOS.
 
 ### Cryptee
 

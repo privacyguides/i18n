@@ -10,7 +10,7 @@
 
 Ce que nous attendons des membres de nos communautés :
 
-1. **Do not spread misinformation**
+1. **Ne diffusez pas de fausses informations**
 
       We are creating an evidence-based educational community around information privacy and security, not an information home for conspiracy theories. For example, when making a claim that a certain piece of software is malicious or that certain telemetry data is privacy invasive; explain in detail what is collected and how it collected. Les affirmations de cette nature doivent être étayées par des preuves techniques.
 
