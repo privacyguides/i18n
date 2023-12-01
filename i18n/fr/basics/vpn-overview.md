@@ -66,7 +66,7 @@ If you do use Tor then you are *probably* best off connecting to the Tor network
 
 You should not use that feature: The primary advantage of using Tor is that you do not trust your VPN provider, which is negated when you use Tor nodes hosted by your VPN instead of connecting directly to Tor from your computer.
 
-Currently, Tor only supports the TCP protocol. UDP (used by [WebRTC](https://en.wikipedia.org/wiki/WebRTC), [HTTP3/QUIC](https://en.wikipedia.org/wiki/HTTP/3), and other protocols), [ICMP](https://en.wikipedia.org/wiki/Internet_Control_Message_Protocol), and other packets will be dropped. Pour compenser cela, les fournisseurs de VPN acheminent généralement tous les paquets non TCP par leur serveur VPN (votre premier saut). C'est le cas de [Proton VPN](https://protonvpn.com/support/tor-vpn/). De plus, lorsque vous utilisez cette configuration Tor par VPN, vous n'avez pas le contrôle sur d'autres fonctionnalités importantes de Tor telles que [Adresse de Destination Isolée](https://www.whonix.org/wiki/Stream_Isolation) (utilisation d'un circuit Tor différent pour chaque domaine que vous visitez).
+Actuellement, Tor supporte seulement le protocole TCP. UDP (used by [WebRTC](https://en.wikipedia.org/wiki/WebRTC), [HTTP3/QUIC](https://en.wikipedia.org/wiki/HTTP/3), and other protocols), [ICMP](https://en.wikipedia.org/wiki/Internet_Control_Message_Protocol), and other packets will be dropped. Pour compenser cela, les fournisseurs de VPN acheminent généralement tous les paquets non TCP par leur serveur VPN (votre premier saut). C'est le cas de [Proton VPN](https://protonvpn.com/support/tor-vpn/). De plus, lorsque vous utilisez cette configuration Tor par VPN, vous n'avez pas le contrôle sur d'autres fonctionnalités importantes de Tor telles que [Adresse de Destination Isolée](https://www.whonix.org/wiki/Stream_Isolation) (utilisation d'un circuit Tor différent pour chaque domaine que vous visitez).
 
 The feature should be viewed as a *convenient* way to access hidden services on Tor, not to stay anonymous. For proper anonymity, use the actual [Tor Browser](../tor.md).
 
@@ -76,9 +76,9 @@ Most VPN services are owned by the same [few companies](https://vpnpro.com/blog/
 
 You should also be wary that many VPN review sites are merely advertising vehicles open to the highest bidder. ==Privacy Guides does not make money from recommending external products, and never uses affiliate programs.==
 
-[Our VPN Recommendations](../vpn.md ""){.md-button}
+[Nos recommandations VPN](../vpn.md ""){.md-button}
 
-## Modern VPN Alternatives
+## Alternatives VPN modernes
 
 Recently, some attempts have been made by various organizations to address some issues which centralized VPNs have. These technologies are relatively new, but worth keeping an eye on as the field develops.
 
