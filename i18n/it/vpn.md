@@ -30,7 +30,7 @@ Se desideri ulteriore **privacy** dal tuo ISP, su una rete Wi-Fi pubblica, o dur
 
 ## Fornitori consigliati
 
-I nostri fornitori consigliati utilizzano la crittografia, accettano Monero, supportano WireGuard e OpenVPN e non hanno alcuna politica di registrazione. Leggi il nostro [elenco completo di criteri](#criteria) per ulteriori informazioni.
+I nostri fornitori consigliati utilizzano la crittografia, accettano Monero, supportano WireGuard e OpenVPN e non hanno alcuna politica di registrazione. Leggi il nostro \[elenco completo di criteri\](#criteri) per ulteriori informazioni.
 
 ### Proton VPN
 

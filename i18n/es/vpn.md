@@ -30,7 +30,7 @@ Si buscas **privacidad** adicional de tu proveedor de servicios de internet, en 
 
 ## Proveedores Recomendados
 
-Nuestros proveedores recomendados usan encriptación, aceptan Monero, soportan WireGuard & OpenVPN, y tienen una política de no registro. Lee nuestra [lista completa de criterios](#criteria) para más información.
+Nuestros proveedores recomendados usan encriptación, aceptan Monero, soportan WireGuard & OpenVPN, y tienen una política de no registro. Lee nuestra \[lista completa de criterios\](#criterios) para más información.
 
 ### Proton VPN
 
