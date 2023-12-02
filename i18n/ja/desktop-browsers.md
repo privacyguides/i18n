@@ -332,12 +332,12 @@ In general, we recommend keeping your browser extensions to a minimum to decreas
     
     **uBlock Origin**は、広告、トラッカー、フィンガープリントスクリプトのブロックに役立つ人気のコンテンツブロッカーです。
     
-    [:octicons-repo-16: Repository](https://github.com/gorhill/uBlock#readme){ .md-button .md-button--primary }
-    [:octicons-eye-16:](https://github.com/gorhill/uBlock/wiki/Privacy-policy){ .card-link title="Privacy Policy" }
-    [:octicons-info-16:](https://github.com/gorhill/uBlock/wiki){ .card-link title=Documentation}
-    [:octicons-code-16:](https://github.com/gorhill/uBlock){ .card-link title="Source Code" }
+    [:octicons-repo-16: リポジトリ](https://github.com/gorhill/uBlock#readme){ .md-button .md-button--primary }
+    [:octicons-eye-16:](https://github.com/gorhill/uBlock/wiki/Privacy-policy){ .card-link title="プライバシーポリシー" }
+    [:octicons-info-16:](https://github.com/gorhill/uBlock/wiki){ .card-link title="ドキュメント" }
+    [:octicons-code-16:](https://github.com/gorhill/uBlock){ .card-link title="ソースコード" }
     
-    ??? downloads
+    ??? ダウンロード
     
         - [:simple-firefoxbrowser: Firefox](https://addons.mozilla.org/firefox/addon/ublock-origin/)
         - [:simple-googlechrome: Chrome](https://chrome.google.com/webstore/detail/ublock-origin/cjpalhdlnbpafiamejdnhcphjbkeiagm)
@@ -364,7 +364,7 @@ These are some other [filter lists](https://github.com/gorhill/uBlock/wiki/Dashb
 
 - オープンソースのソフトウェアであること。
 - 自動更新に対応している。
-- Receives engine updates in 0-1 days from upstream release.
+- アップストリームのリリースから0～1日以内にエンジンアップデートを受けること。
 - Linux、macOS、Windowsで利用できる。
 - ブラウザをよりプライバシーを尊重したものにするための変更が、ユーザーエクスペリエンスを損なうものではないこと。
 - デフォルトでサードパーティCookieをブロックしている。
