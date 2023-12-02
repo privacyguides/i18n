@@ -30,7 +30,7 @@ Si vous recherchez à protéger votre **vie privée** vis-à-vis de votre FAI, s
 
 ## Fournisseurs recommandés
 
-Les fournisseurs que nous recommandons utilisent le chiffrement, acceptent le Monero, prennent en charge WireGuard & OpenVPN, et ont une politique de non journalisation. Lisez notre [liste complète de critères](#criteria) pour plus d'informations.
+Les fournisseurs que nous recommandons utilisent le chiffrement, acceptent le Monero, prennent en charge WireGuard & OpenVPN, et ont une politique de non journalisation. Lisez notre \[liste complète de critères\](#criteres) pour plus d'informations.
 
 ### Proton VPN
 
