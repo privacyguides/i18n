@@ -1,8 +1,8 @@
 ---
-meta_title: "How Do VPNs Protect Your Privacy? Our VPN Overview - Privacy Guides"
-title: VPN Overview
+meta_title: "VPN'ler Gizliliğinizi Nasıl Korur? VPN'e Genel Bakış - Privacy Guides"
+title: VPN'e Genel Bakış
 icon: material/vpn
-description: Virtual Private Networks shift risk away from your ISP to a third-party you trust. You should keep these things in mind.
+description: Sanal Özel Ağlar, riski İnternet Sağlayıcınızdan alıp güvendiğiniz bir üçüncü tarafa aktarır. Bunları aklınızda tutmalısınız.
 ---
 
 Virtual Private Networks are a way of extending the end of your network to exit somewhere else in the world.
