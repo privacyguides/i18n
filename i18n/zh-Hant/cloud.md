@@ -27,7 +27,7 @@ cover: cloud.webp
     [:octicons-info-16:](https://proton.me/support/drive){ .card-link title=Documentation}
     [:octicons-code-16:](https://github.com/ProtonMail/WebClients){ .card-link title="Source Code" }
     
-    ??? downloads
+    ??? downloads "下載"
     
         - [:simple-googleplay: Google Play](https://play.google.com/store/apps/details?id=me.proton.android.drive)
         - [:simple-appstore: App Store](https://apps.apple.com/app/id1509667851)
