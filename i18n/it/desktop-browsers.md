@@ -352,7 +352,7 @@ Ecco alcuni altri [elenchi di filtri](https://github.com/gorhill/uBlock/wiki/Das
 
 ### uBlock Origin Lite
 
-uBlock Origin ha anche una versione "Lite" della loro estensione, che offre un set di funzionalità molto limitato rispetto all'estensione originale. Tuttavia, presenta alcuni vantaggi distinti rispetto al suo omologo più completo, quindi potresti volerlo prendere in considerazione se...
+uBlock Origin ha anche una versione "Lite" dell'estensione, che offre un set di funzionalità molto limitato rispetto all'estensione originale. Tuttavia, presenta alcuni vantaggi distinti rispetto al suo omologo più completo, quindi potresti volerlo prendere in considerazione se...
 
 - ...non vuoi concedere i permessi completi di "lettura/modifica dei dati del sito web" a qualsiasi estensione (anche quella attendibile come uBlock Origin)
 - ...vuoi un blocco di contenuti più efficiente in termini di risorse (memoria/CPU)[^1]
@@ -376,9 +376,9 @@ uBlock Origin ha anche una versione "Lite" della loro estensione, che offre un s
 
 Consigliamo questa versione di uBlock Origin solo se non vuoi mai apportare modifiche alle tue liste filtri, perché supporta solo alcune liste pre-selezionate e non offre ulteriori opzioni di personalizzazione, inclusa la possibilità di selezionare gli elementi da bloccare manualmente. Queste restrizioni sono dovute a limitazioni nella progettazione di Manifest V3.
 
-Questa versione offre tre livelli di blocco: "Basic" funziona senza richiedere alcun privilegio speciale per visualizzare e modificare il contenuto del sito, mentre i livelli "Ottimale" e "Completo" richiedono un ampio permesso, ma offrono una migliore esperienza di filtering con ulteriori regole cosmetiche e iniezioni di scriptlet.
+Questa versione offre tre livelli di blocco: "di Base" funziona senza richiedere alcun privilegio speciale per visualizzare e modificare il contenuto del sito, mentre i livelli "Ottimale" e "Completo" richiedono un ampio permesso, ma offrono una migliore esperienza di filtering con ulteriori regole cosmetiche e iniezioni di scriptlet.
 
-Se si imposta la modalità di filtraggio predefinita su "Ottimale" o "Completa" l'estensione richiederà di leggere/modificare l'accesso a **tutti** i siti visitati. Tuttavia, hai anche la possibilità di cambiare l'impostazione a "Ottimale" o "Completa" **per ogni sito** regolando il cursore nel pannello pop-up dell'estensione su un dato sito. Quando lo fai, l'estensione richiederà di leggere/modificare l'accesso solo a quel sito. Pertanto, se desideri sfruttare la configurazione "senza permesso" di uBlock Origin Lite, dovresti probabilmente lasciare l'impostazione di default come "Basic" e impostarlo più alto nei siti in cui tale livello non è adeguato.
+Se imposti la modalità di filtraggio predefinita su "Ottimale" o "Completa" l'estensione richiederà di leggere/modificare l'accesso a **tutti** i siti che visiti. Tuttavia, hai anche la possibilità di cambiare l'impostazione a "Ottimale" o "Completa" **per ogni sito** regolando il cursore nel pannello pop-up dell'estensione su un dato sito. Quando lo fai, l'estensione richiederà di leggere/modificare l'accesso solo a quel sito. Pertanto, se desideri sfruttare la configurazione "senza permesso" di uBlock Origin Lite, dovresti probabilmente lasciare l'impostazione di default come "di Base" e impostarlo più alto nei siti in cui tale livello non è adeguato.
 
 uBlock Origin Lite riceve solo gli aggiornamenti della lista di blocco ogni volta che l'estensione viene aggiornata dal marketplace delle estensioni del browser, a differenza degli aggiornamenti su richiesta. Questo significa che potresti non essere protetto dalle nuove minacce per settimane, fino alla pubblicazione di una nuova versione completa dell'estensione.
 
