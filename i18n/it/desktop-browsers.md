@@ -358,21 +358,21 @@ uBlock Origin ha anche una versione "Lite" della loro estensione, che offre un s
 - ...vuoi un blocco di contenuti più efficiente in termini di risorse (memoria/CPU)[^1]
 - ...il tuo browser supporta solo estensioni Manifest V3
 
-!!! recommendation
+!!! recommendation "consiglio"
 
     ![uBlock Origin Lite logo](assets/img/browsers/ublock_origin_lite.svg){ align=right }
     
     **uBlock Origin Lite** è un content blocker compatibile con Manifest V3. Rispetto all'originale *uBlock Origin*, questa estensione non richiede ampi permessi di "lettura/modifica dati" per funzionare.
     
     [:octicons-repo-16: Repository](https://github.com/uBlockOrigin/uBOL-home#readme){ .md-button .md-button--primary }
-    [:octicons-eye-16:](https://github.com/gorhill/uBlock/wiki/Privacy-policy){ .card-link title="Informativa sulla Privacy" }
+    [:octicons-eye-16:](https://github.com/gorhill/uBlock/wiki/Privacy-policy){ .card-link title="Politica sulla Privacy" }
     [:octicons-info-16:](https://github.com/uBlockOrigin/uBOL-home/wiki){ .card-link title=Documentazione}
-    [:octicons-code-16:](https://github.com/gorhill/uBlock/tree/master/platform/mv3){ .card-link title="Codice sorgente" }
+    [:octicons-code-16:](https://github.com/gorhill/uBlock/tree/master/platform/mv3){ .card-link title="Codice Sorgente" }
     
-    ??? downloads
+    ??? downloads "Scarica"
     
-        - [:simple-firefoxbrowser: Firefox](https://addons.mozilla.org/addon/ublock-origin-lite/)
-        - [:simple-googlechrome: Chrome](https://chrome.google.com/webstore/detail/ublock-origin-lite/ddkjiahejlhfcafbddmgiahcphecmpfh)
+        - [:simple-firefoxbrowser: Firefox](https://addons.mozilla.org/it/firefox/addon/ublock-origin-lite/)
+        - [:simple-googlechrome: Chrome](https://chromewebstore.google.com/detail/ublock-origin-lite/ddkjiahejlhfcafbddmgiahcphecmpfh?hl=it)
 
 Consigliamo questa versione di uBlock Origin solo se non vuoi mai apportare modifiche alle tue liste filtri, perché supporta solo alcune liste pre-selezionate e non offre ulteriori opzioni di personalizzazione, inclusa la possibilità di selezionare gli elementi da bloccare manualmente. Queste restrizioni sono dovute a limitazioni nella progettazione di Manifest V3.
 
