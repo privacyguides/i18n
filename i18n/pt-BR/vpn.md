@@ -90,7 +90,7 @@ Além de fornecer arquivos de configuração padronizados para o OpenVPN, o Prot
 
 #### :material-information-outline:{ .pg-blue } Funcionalidades Adicionais
 
-Os clientes Proton VPN suportam a autenticação de dois fatores em todas as plataformas, exceto no Linux, no momento. Proton VPN tem seus próprios servidores e centros de dados na Suíça, Islândia e Suécia. Eles oferecem bloqueio de anúncios e bloqueio de domínios de vírus (malware) conhecidos com seu serviço DNS. Além disso, Proton VPN também oferece servidores "Tor" que permitem que você se conecte facilmente a sites onion, mas ainda recomendamos fortemente o uso do [Navegador Tor oficial](https://www.torproject.org/) para essa finalidade.
+Os clientes Proton VPN suportam a autenticação de dois fatores em todas as plataformas, exceto no Linux, no momento. Proton VPN tem seus próprios servidores e centros de dados na Suíça, Islândia e Suécia. They offer content blocking and known-malware blocking with their DNS service. Além disso, Proton VPN também oferece servidores "Tor" que permitem que você se conecte facilmente a sites onion, mas ainda recomendamos fortemente o uso do [Navegador Tor oficial](https://www.torproject.org/) para essa finalidade.
 
 #### :material-alert-outline:{ .pg-orange } O recurso Killswitch não funciona em Macs baseados em Intel
 
@@ -327,4 +327,4 @@ O marketing responsável que é educativo e útil para o consumidor pode incluir
 
 ### Funções Adicionais
 
-Embora não sejam requisitos estritos, há alguns fatores que consideramos ao determinar quais provedores recomendar. Isso inclui a funcionalidade de bloqueio de anúncios/rastreadores, canários de garantia, conexões multihop, excelente suporte ao cliente, o número de conexões simultâneas permitidas, etc.
+Embora não sejam requisitos estritos, há alguns fatores que consideramos ao determinar quais provedores recomendar. These include content blocking functionality, warrant canaries, multihop connections, excellent customer support, the number of allowed simultaneous connections, etc.

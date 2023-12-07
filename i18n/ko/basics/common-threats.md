@@ -144,5 +144,5 @@ Twitter, Facebook 같은 플랫폼이 대중의 요구, 시장의 압력, 정부
 [^1]: Wikipedia: [*Mass Surveillance*](https://en.wikipedia.org/wiki/Mass_surveillance) and [*Surveillance*](https://en.wikipedia.org/wiki/Surveillance).
 [^2]: 미국 프라이버시 및 시민 자유 감독 위원회: [*215조항에 따라 수행된 전화 통화 기록 프로그램에 대한 보고서*](https://documents.pclob.gov/prod/Documents/OversightReport/ec542143-1079-424a-84b3-acc354698560/215-Report_on_the_Telephone_Records_Program.pdf)
 [^3]: Wikipedia: [*Surveillance capitalism*](https://en.wikipedia.org/wiki/Surveillance_capitalism)
-[^4]: 대부분의 광고 차단기 및 백신 프로그램의 [Enumeratiog Badness](https://www.ranum.com/security/computer_security/editorials/dumb/)(알려진 모든 악성 목록) 방식은 '새로 나타나거나 아직 알려지지 않아 필터 목록에 추가되지 않은 위협'으로부터 사용자를 적절하게 보호할 수 없습니다. 다른 완화 기술도 추가로 사용해야 합니다.
+[^4]: "[Enumerating badness](https://www.ranum.com/security/computer_security/editorials/dumb/)" (or, "listing all the bad things that we know about"), as many content blockers and antivirus programs do, fails to adequately protect you from new and unknown threats because they have not yet been added to the filter list. 다른 완화 기술도 추가로 사용해야 합니다.
 [^5]: UN: [*세계 인권 선언*](https://www.un.org/en/about-us/universal-declaration-of-human-rights)

@@ -90,7 +90,7 @@ Naast het leveren van standaard OpenVPN-configuratiebestanden, heeft Proton VPN 
 
 #### :material-information-outline:{ .pg-blue } Aanvullende functionaliteit
 
-Proton VPN heeft eigen servers en datacenters in Zwitserland, IJsland en Zweden. Ze bieden adblocking en het blokkeren van bekende malware domeinen met hun DNS service. Ze bieden adblocking en blokkering van bekende malwaredomeinen met hun DNS-dienst. Bovendien biedt Proton VPN ook "Tor" -servers waarmee je eenvoudig verbinding kunt maken met. onion sites, maar we raden je nog steeds ten zeerste aan om hiervoor [de officiële Tor Browser](https://www.torproject.org/) te gebruiken.
+Proton VPN heeft eigen servers en datacenters in Zwitserland, IJsland en Zweden. Ze bieden adblocking en het blokkeren van bekende malware domeinen met hun DNS service. They offer content blocking and known-malware blocking with their DNS service. Bovendien biedt Proton VPN ook "Tor" -servers waarmee je eenvoudig verbinding kunt maken met. onion sites, maar we raden je nog steeds ten zeerste aan om hiervoor [de officiële Tor Browser](https://www.torproject.org/) te gebruiken.
 
 #### :material-alert-outline:{ .pg-orange } Killswitch-functie is kapot op Intel-gebaseerde Macs
 
@@ -327,4 +327,4 @@ Verantwoorde marketing die zowel educatief als nuttig is voor de consument zou k
 
 ### Extra functionaliteit
 
-Hoewel het geen strikte vereisten zijn, zijn er enkele factoren die wij in aanmerking hebben genomen bij het bepalen van de aanbieders die wij aanbevelen. Deze omvatten adblocking/tracker-blocking-functionaliteit, warrant canaries, multihop-verbindingen, uitstekende klantenondersteuning, het aantal toegestane gelijktijdige verbindingen, enz.
+Hoewel het geen strikte vereisten zijn, zijn er enkele factoren die wij in aanmerking hebben genomen bij het bepalen van de aanbieders die wij aanbevelen. These include content blocking functionality, warrant canaries, multihop connections, excellent customer support, the number of allowed simultaneous connections, etc.

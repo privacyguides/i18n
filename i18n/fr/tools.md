@@ -44,7 +44,8 @@ Pour plus de détails sur chaque projet, les raisons pour lesquelles ils ont ét
 
 <div class="grid cards" markdown>
 
-- ![Logo uBlock Origin](assets/img/browsers/ublock_origin.svg){ .twemoji } [uBlock Origin](desktop-browsers.md#ublock-origin)
+- ![uBlock Origin logo](assets/img/browsers/ublock_origin.svg){ .twemoji } [uBlock Origin](desktop-browsers.md#ublock-origin)
+- ![uBlock Origin Lite logo](assets/img/browsers/ublock_origin_lite.svg){ .twemoji } [uBlock Origin Lite](desktop-browsers.md#ublock-origin-lite)
 
 </div>
 

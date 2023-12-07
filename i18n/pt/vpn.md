@@ -90,7 +90,7 @@ Para além de fornecer ficheiros de configuração OpenVPN padrão, o Proton VPN
 
 #### :material-information-outline:{ .pg-blue } Funcionalidade adicional
 
-Os clientes Proton VPN suportam a autenticação de dois fatores em todas as plataformas, exceto no Linux, de momento. O Proton VPN tem os seus próprios servidores e centros de dados na Suíça, Islândia e Suécia. Oferecem bloqueio de anúncios e bloqueio de domínios de malware conhecidos, através do seu serviço DNS. Adicionalmente, o Proton VPN também oferece servidores "Tor" que lhe permitem ligar-se facilmente a sites onion. Contudo, para esse feito, recomendamos vivamente a utilização do [, browser Tor oficial](https://www.torproject.org/).
+Os clientes Proton VPN suportam a autenticação de dois fatores em todas as plataformas, exceto no Linux, de momento. O Proton VPN tem os seus próprios servidores e centros de dados na Suíça, Islândia e Suécia. They offer content blocking and known-malware blocking with their DNS service. Adicionalmente, o Proton VPN também oferece servidores "Tor" que lhe permitem ligar-se facilmente a sites onion. Contudo, para esse feito, recomendamos vivamente a utilização do [, browser Tor oficial](https://www.torproject.org/).
 
 #### :material-alert-outline:{ .pg-orange } A funcionalidade Killswitch não funciona nos Macs baseados em Intel
 
@@ -329,4 +329,4 @@ O marketing responsável, que é simultaneamente educativo e útil para o consum
 
 ### Funcionalidade adicional
 
-Embora não sejam requisitos obrigatórios, existem alguns fatores que valorizamos, quando determinamos quais os fornecedores a recomendar. Estes incluem a existência de uma funcionalidade de bloqueio de anúncios/rastreadores, informações sobre possíveis mandados de autorização, possibilidade de ligações multihop, um apoio ao cliente excelente, possibilidade de várias ligações simultâneas, etc.
+Embora não sejam requisitos obrigatórios, existem alguns fatores que valorizamos, quando determinamos quais os fornecedores a recomendar. These include content blocking functionality, warrant canaries, multihop connections, excellent customer support, the number of allowed simultaneous connections, etc.

@@ -90,7 +90,7 @@ Oltre a fornire i file di configurazione standard di OpenVPN, ProtonVPN ha clien
 
 #### :material-information-outline:{ .pg-blue } Funzionalità aggiuntive
 
-I client di ProtonVPN supportano l'autenticazione a due fattori su tutte le piattaforme, tranne Linux, al momento. Proton VPN ha i propri server e datacenter in Svizzera, Islanda e Svezia. Offrono il blocco delle pubblicità e dei domini malware noti mediante il loro servizio DNS. Inoltre, Proton VPN offre anche server "Tor" che consentono di connettersi facilmente ai siti onion, ma consigliamo comunque di utilizzare [il browser Tor ufficiale](https://www.torproject.org/) per questo scopo.
+I client di ProtonVPN supportano l'autenticazione a due fattori su tutte le piattaforme, tranne Linux, al momento. Proton VPN ha i propri server e datacenter in Svizzera, Islanda e Svezia. Offrono il blocco dei contenuti e il blocco di malware noti con il loro servizio DNS. Inoltre, Proton VPN offre anche server "Tor" che consentono di connettersi facilmente ai siti onion, ma consigliamo comunque di utilizzare [il browser Tor ufficiale](https://www.torproject.org/) per questo scopo.
 
 #### :material-alert-outline:{ .pg-orange } La funzione Killswitch non funziona sui Mac basati su Intel
 
@@ -327,4 +327,4 @@ Il marketing responsabile, che è sia educativo che utile per il consumatore, po
 
 ### Funzionalità aggiuntive
 
-Anche se non requisiti rigidi, ci sono alcuni fattori che abbiamo considerato nel determinare quali servizi consigliare. Questi includono la funzionalità di blocco degli annunci/tracciatori, Warrant Canary, connessioni a salto multiplo, supporto clienti eccellente, il numero di connessioni simultanee consentite, etc.
+Anche se non requisiti rigidi, ci sono alcuni fattori che abbiamo considerato nel determinare quali servizi consigliare. Questi includono funzionalità di blocco dei contenuti, warrant canaries, connessioni multihop, eccellente supporto clienti, il numero di connessioni simultanee consentite, ecc.

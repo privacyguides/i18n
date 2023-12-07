@@ -45,6 +45,7 @@ description: Privacy Guides 是最透明和可靠的網站，用於尋找保護�
 <div class="grid cards" markdown>
 
 - ![uBlock Origin logo](assets/img/browsers/ublock_origin.svg){ .twemoji } [uBlock Origin](desktop-browsers.md#ublock-origin)
+- ![uBlock Origin Lite logo](assets/img/browsers/ublock_origin_lite.svg){ .twemoji } [uBlock Origin Lite](desktop-browsers.md#ublock-origin-lite)
 
 </div>
 

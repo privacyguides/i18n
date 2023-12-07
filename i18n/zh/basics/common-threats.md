@@ -144,5 +144,5 @@ description: 您的威胁模式是您自己量身定制的，但这些是本网�
 [^1]: 美国隐私和公民自由监督委员会。 [关于根据第215条进行的电话记录计划的报告](https://documents.pclob.gov/prod/Documents/OversightReport/ec542143-1079-424a-84b3-acc354698560/215-Report_on_the_Telephone_Records_Program.pdf)
 [^2]: 维基百科： [监控资本主义](https://en.wikipedia.org/wiki/Surveillance_capitalism)
 [^3]: 维基百科。 [*监视资本主义*](https://en.wikipedia.org/wiki/Surveillance_capitalism)
-[^4]: "[列举坏事](https://www.ranum.com/security/computer_security/editorials/dumb/)"（或 "列出我们知道的所有坏事"），正如许多广告拦截器和防病毒程序所做的那样，无法充分保护你免受新的和未知的威胁，因为它们还没有被添加到过滤器列表中。 你还应该采用其他缓解技术。
+[^4]: "[Enumerating badness](https://www.ranum.com/security/computer_security/editorials/dumb/)" (or, "listing all the bad things that we know about"), as many content blockers and antivirus programs do, fails to adequately protect you from new and unknown threats because they have not yet been added to the filter list. 你还应该采用其他缓解技术。
 [^5]: 联合国。 [*世界人权宣言》*](https://www.un.org/en/about-us/universal-declaration-of-human-rights)。

@@ -24,7 +24,7 @@ When you buy an Android phone, the default operating system comes bundled with a
 
 [Rooting](https://en.wikipedia.org/wiki/Rooting_(Android)) 安卓手机会大大降低安全性，因为它削弱了完整的 [安卓安全模型](https://en.wikipedia.org/wiki/Android_(operating_system)#Security_and_privacy)。 如果有一个被降低的安全性所帮助的漏洞，这可能会减少隐私。 常见的root方法涉及直接篡改启动分区，使得它不可能成功地进行验证性启动。 需要root的应用程序也会修改系统分区，这意味着验证启动将不得不保持禁用。 在用户界面上直接暴露root也增加了你的设备的 [攻击面](https://en.wikipedia.org/wiki/Attack_surface) ，并可能有助于 [特权升级](https://en.wikipedia.org/wiki/Privilege_escalation) 漏洞和SELinux政策的绕过。
 
-广告拦截器，修改 [hosts文件](https://en.wikipedia.org/wiki/Hosts_(file)) （AdAway）和防火墙（AFWall+），需要持续的根访问是危险的，不应该被使用。 它们也不是解决其预期目的的正确方法。 对于广告屏蔽，我们建议采用加密的 [DNS](../dns.md) 或 [VPN](../vpn.md) 服务器屏蔽解决方案。 RethinkDNS、TrackerControl和AdAway在非root模式下将占用VPN插槽（通过使用本地环回VPN），使你无法使用增强隐私的服务，如Orbot或真正的VPN服务器。
+Content blockers which modify the [hosts file](https://en.wikipedia.org/wiki/Hosts_(file)) (AdAway) and firewalls (AFWall+) which require root access persistently are dangerous and should not be used. 它们也不是解决其预期目的的正确方法。 For content blocking we suggest encrypted [DNS](../dns.md) or [VPN](../vpn.md) server blocking solutions instead. RethinkDNS、TrackerControl和AdAway在非root模式下将占用VPN插槽（通过使用本地环回VPN），使你无法使用增强隐私的服务，如Orbot或真正的VPN服务器。
 
 AFWall+基于 [包过滤](https://en.wikipedia.org/wiki/Firewall_(computing)#Packet_filter) 方法工作，在某些情况下可能会被绕过。
 

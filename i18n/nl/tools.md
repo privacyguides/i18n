@@ -45,6 +45,7 @@ Voor meer details over elk project, waarom ze werden gekozen, en extra tips of t
 <div class="grid cards" markdown>
 
 - ![uBlock Origin logo](assets/img/browsers/ublock_origin.svg){ .twemoji } [uBlock Origin](desktop-browsers.md#ublock-origin)
+- ![uBlock Origin Lite logo](assets/img/browsers/ublock_origin_lite.svg){ .twemoji } [uBlock Origin Lite](desktop-browsers.md#ublock-origin-lite)
 
 </div>
 

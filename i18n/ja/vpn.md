@@ -90,7 +90,7 @@ Proton VPNは現在NAT-PMP経由で、リース時間は60秒の一時的なリ�
 
 #### :material-information-outline:{ .pg-blue } 追加機能
 
-Proton VPNクライアントは現時点でLinuxを除くすべてのプラットフォームで2要素認証をサポートしています。 Proton VPNはスイス、アイスランド、スウェーデンに独自のサーバーとデータセンターを持っています。 Proton VPNはDNSサービスで広告ブロックと既知のマルウェアドメインブロックを提供しています。 さらに、Proton VPNは「Tor」サーバーも提供しており、簡単にonionサイトへ接続することができますが、それには[公式Tor Browser](https://www.torproject.org/)の使用を強くおすすめします。
+Proton VPNクライアントは現時点でLinuxを除くすべてのプラットフォームで2要素認証をサポートしています。 Proton VPNはスイス、アイスランド、スウェーデンに独自のサーバーとデータセンターを持っています。 They offer content blocking and known-malware blocking with their DNS service. さらに、Proton VPNは「Tor」サーバーも提供しており、簡単にonionサイトへ接続することができますが、それには[公式Tor Browser](https://www.torproject.org/)の使用を強くおすすめします。
 
 #### :material-alert-outline:{ .pg-orange } IntelベースのMacではキルスイッチ機能が正常に動作しません。
 
@@ -327,4 +327,4 @@ A VPN is pointless if it can't even provide adequate security. We require all ou
 
 ### 追加機能
 
-厳密な要件ではありませんが、推奨するサービスプロバイダーを決定する際に考慮した要素がいくつかあります。 これらには、広告ブロックやトラッカーブロッキングの機能、令状のカナリア、マルチホップ接続、優れたカスタマーサポート、許可される同時接続数などが含まれます。
+厳密な要件ではありませんが、推奨するサービスプロバイダーを決定する際に考慮した要素がいくつかあります。 These include content blocking functionality, warrant canaries, multihop connections, excellent customer support, the number of allowed simultaneous connections, etc.

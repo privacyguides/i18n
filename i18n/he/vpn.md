@@ -90,7 +90,7 @@ Proton VPN תומך כרגע רק ב[העברת פורטים](https://protonvpn.
 
 #### :material-information-outline:{ .pg-blue } פונקציונליות נוספת
 
-תוכנות Proton VPN תומכים באימות דו-שלבי בכל הפלטפורמות מלבד לינוקס כרגע. ל - Proton VPN יש שרתים ומרכזי נתונים משלו בשוויץ, איסלנד ושוודיה. הם מציעים חסימת מודעות ודומיינים ידועים של תוכנות זדוניות שחוסמים באמצעות שירות ה - DNS שלהם. בנוסף, Proton VPN מציע גם שרתי "Tor" המאפשרים לך להתחבר בקלות לאתרי בצל, אך אנו עדיין ממליצים בחום להשתמש ב[דפדפן Tor הרשמי](https://www.torproject.org/) למטרה זו.
+תוכנות Proton VPN תומכים באימות דו-שלבי בכל הפלטפורמות מלבד לינוקס כרגע. ל - Proton VPN יש שרתים ומרכזי נתונים משלו בשוויץ, איסלנד ושוודיה. They offer content blocking and known-malware blocking with their DNS service. בנוסף, Proton VPN מציע גם שרתי "Tor" המאפשרים לך להתחבר בקלות לאתרי בצל, אך אנו עדיין ממליצים בחום להשתמש ב[דפדפן Tor הרשמי](https://www.torproject.org/) למטרה זו.
 
 #### :material-alert-outline:{ .pg-orange } תכונת Killswitch שבורה במחשבי Mac מבוססי אינטל
 
@@ -327,4 +327,4 @@ VPN הוא חסר טעם אם הוא אפילו לא יכול לספק אבטח�
 
 ### פונקציונליות נוספת
 
-אמנם לא דרישות קפדניות, אך ישנם כמה גורמים שבדקנו בעת קביעה על אילו ספקים להמליץ. אלה כוללים פונקציונליות של חסימת מודעות/חסימת מעקב, כנריות, חיבורי מולטי-הופ, תמיכת לקוחות מצוינת, מספר החיבורים המותרים בו זמנית וכו'.
+אמנם לא דרישות קפדניות, אך ישנם כמה גורמים שבדקנו בעת קביעה על אילו ספקים להמליץ. These include content blocking functionality, warrant canaries, multihop connections, excellent customer support, the number of allowed simultaneous connections, etc.

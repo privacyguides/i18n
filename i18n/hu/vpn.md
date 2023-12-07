@@ -90,7 +90,7 @@ In addition to providing standard OpenVPN configuration files, Proton VPN has mo
 
 #### :material-information-outline:{ .pg-blue } Additional Functionality
 
-A Proton VPN kliensek jelenleg a Linux kivételével minden platformon támogatják a kétlépcsős hitelesítést. A Proton VPN saját szerverekkel és adatközpontokkal rendelkezik Svájcban, Izlandon és Svédországban. A DNS-szolgáltatásukkal együtt reklámblokkolást és ismert kártékony szoftverek domainjeinek blokkolását is kínálják. Additionally, Proton VPN also offers "Tor" servers allowing you to easily connect to onion sites, but we still strongly recommend using [the official Tor Browser](https://www.torproject.org/) for this purpose.
+A Proton VPN kliensek jelenleg a Linux kivételével minden platformon támogatják a kétlépcsős hitelesítést. A Proton VPN saját szerverekkel és adatközpontokkal rendelkezik Svájcban, Izlandon és Svédországban. They offer content blocking and known-malware blocking with their DNS service. Additionally, Proton VPN also offers "Tor" servers allowing you to easily connect to onion sites, but we still strongly recommend using [the official Tor Browser](https://www.torproject.org/) for this purpose.
 
 #### :material-alert-outline:{ .pg-orange } Killswitch feature is broken on Intel-based Macs
 
@@ -327,4 +327,4 @@ A felelős marketing, amely egyszerre oktató és hasznos a fogyasztó számára
 
 ### További Funkciók
 
-Bár nem szigorúan követelmények, van néhány tényező, amelyet figyelembe vettünk, amikor eldöntöttük, hogy mely szolgáltatókat ajánljuk. Ezek közé tartozik a reklámblokkoló/tracker-blokkoló funkció, warrant canary-k, multihop kapcsolatok, kiváló ügyfélszolgálat, engedélyezett egyidejű kapcsolatok száma, stb.
+Bár nem szigorúan követelmények, van néhány tényező, amelyet figyelembe vettünk, amikor eldöntöttük, hogy mely szolgáltatókat ajánljuk. These include content blocking functionality, warrant canaries, multihop connections, excellent customer support, the number of allowed simultaneous connections, etc.

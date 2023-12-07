@@ -90,7 +90,7 @@ Selain menyediakan file konfigurasi OpenVPN standar, Proton VPN memiliki klien s
 
 #### :material-information-outline:{ .pg-blue } Fungsionalitas Tambahan
 
-Klien Proton VPN mendukung autentikasi dua faktor di semua platform kecuali Linux saat ini. Proton VPN memiliki server dan pusat data mereka sendiri di Swiss, Islandia, dan Swedia. Mereka menawarkan pemblokiran iklan dan pemblokiran domain malware yang dikenal dengan layanan DNS mereka. Selain itu, Proton VPN juga menawarkan server "Tor" yang memungkinkan Anda untuk dengan mudah terhubung ke situs-situs onion, tetapi kami masih sangat menyarankan untuk menggunakan [Tor Browser resmi](https://www.torproject.org/) untuk tujuan ini.
+Klien Proton VPN mendukung autentikasi dua faktor di semua platform kecuali Linux saat ini. Proton VPN memiliki server dan pusat data mereka sendiri di Swiss, Islandia, dan Swedia. They offer content blocking and known-malware blocking with their DNS service. Selain itu, Proton VPN juga menawarkan server "Tor" yang memungkinkan Anda untuk dengan mudah terhubung ke situs-situs onion, tetapi kami masih sangat menyarankan untuk menggunakan [Tor Browser resmi](https://www.torproject.org/) untuk tujuan ini.
 
 #### :material-alert-outline:{ .pg-orange } Fitur killswitch rusak pada Mac berbasis Intel
 
@@ -327,4 +327,4 @@ Pemasaran yang bertanggung jawab yang mendidik dan bermanfaat bagi konsumen dapa
 
 ### Fungsionalitas Tambahan
 
-Meskipun tidak sepenuhnya merupakan persyaratan, ada beberapa faktor yang kami pertimbangkan ketika menentukan penyedia mana yang akan direkomendasikan. Ini termasuk fungsionalitas pemblokiran iklan/pelacak, kenari surat perintah, koneksi multihop, dukungan pelanggan yang luar biasa, jumlah koneksi simultan yang diizinkan, dll.
+Meskipun tidak sepenuhnya merupakan persyaratan, ada beberapa faktor yang kami pertimbangkan ketika menentukan penyedia mana yang akan direkomendasikan. These include content blocking functionality, warrant canaries, multihop connections, excellent customer support, the number of allowed simultaneous connections, etc.

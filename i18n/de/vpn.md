@@ -90,7 +90,7 @@ Zusätzlich zu den Standard-OpenVPN-Konfigurationsdateien bietet Proton VPN mobi
 
 #### :material-information-outline:{ .pg-blue } Zusätzliche Funktionalität
 
-Proton VPN Clients unterstützen Zwei-Faktor-Authentifizierung auf allen Plattformen außer Linux. Proton VPN hat eigene Server und Rechenzentren in der Schweiz, Island und Schweden. Sie bieten mit ihrem DNS-Dienst die Möglichkeit, Werbung und Schadware zu blockieren. Darüber hinaus bietet Proton VPN auch "Tor"-Server an, die es dir ermöglichen, sich problemlos mit Onion-Seiten zu verbinden. Wir empfehlen jedoch dringend, zu diesem Zweck [den offiziellen Tor-Browser](https://www.torproject.org/) zu verwenden.
+Proton VPN Clients unterstützen Zwei-Faktor-Authentifizierung auf allen Plattformen außer Linux. Proton VPN hat eigene Server und Rechenzentren in der Schweiz, Island und Schweden. They offer content blocking and known-malware blocking with their DNS service. Darüber hinaus bietet Proton VPN auch "Tor"-Server an, die es dir ermöglichen, sich problemlos mit Onion-Seiten zu verbinden. Wir empfehlen jedoch dringend, zu diesem Zweck [den offiziellen Tor-Browser](https://www.torproject.org/) zu verwenden.
 
 #### :material-alert-outline:{ .pg-orange } Killswitch-Funktion ist auf Intel-basierten Macs defekt
 
@@ -327,4 +327,4 @@ Verantwortungsbewusstes Marketing, das sowohl lehrreich als auch nützlich für 
 
 ### Zusätzliche Funktionalitäten
 
-Obwohl es dafür keine strikten Anforderungen gibt, gibt es einige Faktoren, die wir geprüft haben, um zu ermitteln, welche Anbieter zu empfehlen sind. Dazu gehören Ad-/Tracker-Blocking-Funktionen, Warrant Canaries, Multihop-Verbindungen, ein ausgezeichneter Kundendienst, die Anzahl der zulässigen gleichzeitigen Verbindungen usw.
+Obwohl es dafür keine strikten Anforderungen gibt, gibt es einige Faktoren, die wir geprüft haben, um zu ermitteln, welche Anbieter zu empfehlen sind. These include content blocking functionality, warrant canaries, multihop connections, excellent customer support, the number of allowed simultaneous connections, etc.

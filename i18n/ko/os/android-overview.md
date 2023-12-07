@@ -24,7 +24,7 @@ When you buy an Android phone, the default operating system comes bundled with a
 
 Android 휴대폰을 [루팅](https://ko.wikipedia.org/wiki/%EB%A3%A8%ED%8C%85_(%EC%95%88%EB%93%9C%EB%A1%9C%EC%9D%B4%EB%93%9C))할 경우, [전체 Android 보안 모델](https://en.wikipedia.org/wiki/Android_(operating_system)#Security_and_privacy)이 약화되므로 보안 수준이 크게 저하됩니다. 보안 수준이 낮아져 취약점의 발생으로 이어질 경우 프라이버시 또한 저해됩니다. 루팅은 일반적으로 부팅 파티션을 직접 조작하는 방식으로 이루어지므로, 자체 검사 부팅을 제대로 수행할 수 없습니다. 루트 권한을 요구하는 앱 또한 시스템 파티션을 수정하므로 자체 검사 부팅을 활성화할 수 없습니다. 사용자 인터페이스에서 루트 권한이 직접 노출될 경우 기기의 [공격 표면](https://en.wikipedia.org/wiki/Attack_surface)이 증가하고 [권한 에스컬레이션](https://en.wikipedia.org/wiki/Privilege_escalation) 취약성과 SELinux 정책 우회 문제가 발생할 수 있습니다.
 
-광고 차단기의 경우, [호스트 파일](https://ko.wikipedia.org/wiki/Hosts)을 수정하는 광고 차단기(AdAway)나 지속적으로 루트 권한 접근을 요구하는 방화벽(AFWall+)은 위험하므로 사용해서는 안 됩니다. 이러한 방식은 광고 차단기의 본래 목적 면에서도 적절한 방식이 아닙니다. 광고 차단기는 [암호화 DNS](../dns.md) 혹은 [VPN](../vpn.md) 서버 차단 솔루션을 권장드립니다. RethinkDNS, TrackerControl, AdAway는 루트 권한 없이 사용할 경우에는 (로컬 루프백 VPN을 이용하기 때문에) 시스템의 VPN 슬롯을 차지하게 되어버리므로, Orbot이나 실제 VPN 서버 등의 프라이버시 강화 서비스를 사용할 수 없다는 문제가 있습니다.
+Content blockers which modify the [hosts file](https://en.wikipedia.org/wiki/Hosts_(file)) (AdAway) and firewalls (AFWall+) which require root access persistently are dangerous and should not be used. 이러한 방식은 광고 차단기의 본래 목적 면에서도 적절한 방식이 아닙니다. For content blocking we suggest encrypted [DNS](../dns.md) or [VPN](../vpn.md) server blocking solutions instead. RethinkDNS, TrackerControl, AdAway는 루트 권한 없이 사용할 경우에는 (로컬 루프백 VPN을 이용하기 때문에) 시스템의 VPN 슬롯을 차지하게 되어버리므로, Orbot이나 실제 VPN 서버 등의 프라이버시 강화 서비스를 사용할 수 없다는 문제가 있습니다.
 
 AFWall+는 [패킷 필터링](https://en.wikipedia.org/wiki/Firewall_(computing)#Packet_filter) 접근법을 기반으로 작동하며, 일부 상황에서는 우회될 수 있습니다.
 

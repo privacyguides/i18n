@@ -20,24 +20,24 @@
 *[EEA]: 欧洲经济区
 *[entropy]: 衡量事物的不可预测性的值
 *[EOL]: 服务终止
-*[Exif]: Exchangeable image file format
-*[FCM]: Firebase Cloud Messaging
-*[FDE]: Full Disk Encryption
-*[FIDO]: Fast IDentity Online
-*[FS]: Forward Secrecy
-*[fork]: A new software project created by copying an existing project and adding to it independently
-*[GDPR]: General Data Protection Regulation
-*[GPG]: GNU Privacy Guard (PGP implementation)
-*[GPS]: Global Positioning System
-*[GUI]: Graphical User Interface
-*[GnuPG]: GNU Privacy Guard (PGP implementation)
+*[Exif]: 可交换图片文件格式
+*[FCM]: Firebase云消息
+*[FDE]: 全盘加密
+*[FIDO]: 快速在线身份认证
+*[FS]: 前向保密
+*[fork]: 通过复制现有项目创建的新的软件项目，可以在其上进行独立的开发
+*[GDPR]: 通用数据保护条例（欧盟）
+*[GPG]: GNU Privacy Guard (PGP 实现)
+*[GPS]: 全球定位系统
+*[GUI]: 图形用户界面
+*[GnuPG]: GNU Privacy Guard (PGP 实现)
 *[HDD]: Hard Disk Drive
-*[HOTP]: HMAC (Hash-based Message Authentication Code) based One-Time Password
-*[HTTPS]: Hypertext Transfer Protocol Secure
-*[HTTP]: Hypertext Transfer Protocol
-*[hypervisor]: Computer software, firmware, or hardware that splits the resources of a CPU among multiple operating systems
-*[ICCID]: Integrated Circuit Card Identifier
-*[IMAP]: Internet Message Access Protocol
+*[HOTP]: 基于HMAC (基于散列的信息认证码) 的一次性密码
+*[HTTPS]: 安全超文本传输协议
+*[HTTP]: 超文本传输协议
+*[hypervisor]: 负责在多个操作系统之间分配CPU资源的软件，固件或者硬件
+*[ICCID]: 集成电路卡标识符
+*[IMAP]: 互联网消息访问协议
 *[IMEI]: International Mobile Equipment Identity
 *[IMSI]: International Mobile Subscriber Identity
 *[IP]: Internet Protocol
