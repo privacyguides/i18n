@@ -193,6 +193,7 @@ Mais algumas dicas para comprar um Google Pixel:
 - Considere as opções de redução de preços e as promoções oferecidas nas lojas físicas.
 - Consulte os sítios de pechinchas da comunidade em linha no seu país. Estes podem alertá-lo para boas vendas.
 - A Google fornece uma lista com o [ciclo de suporte](https://support.google.com/nexus/answer/4457705) para cada um dos seus dispositivos. O preço por dia de um dispositivo pode ser calculado da seguinte forma: $\text{Cost} \over \text {EOL Date}-\text{Current Date}$, o que significa que quanto maior for o tempo de utilização do dispositivo, menor será o custo por dia.
+- If the Pixel is unavailable in your region, the [NitroPhone](https://shop.nitrokey.com/shop) can be shipped globally.
 
 ## Aplicações Gerais
 

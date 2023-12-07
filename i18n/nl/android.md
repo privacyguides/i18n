@@ -190,6 +190,7 @@ Nog een paar tips voor de aanschaf van een Google Pixel:
 - Overweeg de mogelijkheden om de prijzen te verlagen en de speciale aanbiedingen van de fysieke winkels.
 - Kijk naar online naar de koopjes sites in jouw land. Deze kunnen je waarschuwen voor goede uitverkopen.
 - Google geeft een lijst met de [ondersteuningscyclus](https://support.google.com/nexus/answer/4457705) voor elk van hun toestellen. De prijs per dag voor een apparaat kan worden berekend als: $\text{Kosten} \over \text {Datum einde levensduur}-\text{Huidige datum}$, wat betekent dat hoe langer het apparaat wordt gebruikt, hoe lager de kosten per dag zijn.
+- If the Pixel is unavailable in your region, the [NitroPhone](https://shop.nitrokey.com/shop) can be shipped globally.
 
 ## Algemene toepassingen
 

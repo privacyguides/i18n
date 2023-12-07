@@ -354,9 +354,9 @@ Voici d'autres [listes de filtres](https://github.com/gorhill/uBlock/wiki/Dashbo
 
 uBlock Origin possède également une version "Lite" de leur extension, qui offre un ensemble de fonctionnalités très limité par rapport à l'extension originale. Cependant, elle a quelques avantages distincts par rapport à sa grande soeur, donc vous pouvez l'envisager si...
 
-- ...you don't want to grant full "read/modify website data" permissions to any extensions (even a trusted one like uBlock Origin)
-- ...you want a more resource (memory/CPU) efficient content blocker[^1]
-- ...your browser only supports Manifest V3 extensions
+- ...vous ne voulez pas accorder les autorisations complètes de "lecture/modification des données de sites web" à une extension (même une de confiance comme uBlock Origin)
+- ...vous voulez un bloqueur de contenu plus efficace en ressources (mémoire/CPU)[^1]
+- ...votre navigateur ne prend en charge que les extensions Manifest V3
 
 !!! recommendation
 

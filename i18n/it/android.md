@@ -190,6 +190,7 @@ Altri suggerimenti per l'acquisto di un Google Pixel:
 - Considera le opzioni di sconto e offerte speciali, nei negozi fisici.
 - Consulta le community di sconti online nel tuo paese. Possono segnalarti le vendite più convenienti.
 - Google fornisce un elenco che mostra il [ciclo di supporto](https://support.google.com/nexus/answer/4457705) per ognuno dei propri dispositivi. Il prezzo giornaliero di un dispositivo è calcolabile come: $\text{Cost} \over \text {EOL Date}-\text{Current Date}$, a significare che maggiore è l'utilizzo del dispositivo, minore è il costo giornaliero.
+- If the Pixel is unavailable in your region, the [NitroPhone](https://shop.nitrokey.com/shop) can be shipped globally.
 
 ## App generali
 
