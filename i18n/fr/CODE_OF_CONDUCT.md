@@ -32,22 +32,22 @@ Ce que nous attendons des membres de nos communautés :
 
 Les comportements suivants sont considérés comme du harcèlement et sont inacceptables au sein de notre communauté :
 
-- Any other conduct which would reasonably be considered inappropriate in a professional setting.
-- Public and/or private harassment of any kind.
-- Publishing others' private information, such as a physical address and/or email address, without a persons explicit permission.
-- The use of sexualized language or imagery, and sexual attention or advances of any kind.
-- Trolling, insulting and/or derogatory comments, including personal or political attacks.
+- Tout autre comportement qui pourrait raisonnablement être considéré comme inapproprié dans un cadre professionnel.
+- Le harcèlement public et/ou privé de quelque nature que ce soit.
+- Publier des informations privées d'autrui, telles qu'une adresse physique ou e-mail, sans leur permission explicite.
+- L'utilisation d'un langage ou d'images à caractère sexuel, ainsi que des attentions ou des avances sexuelles de quelque nature que ce soit.
+- Le "trolling", les commentaires insultants ou désobligeants, y compris les attaques personnelles ou d’ordre politique.
 
-## Scope
+## Périmètre d’application
 
 Notre code de conduite s'applique dans tous les espaces du projet, ainsi que lorsqu'une personne représente le projet Privacy Guides dans d'autres communautés.
 
-We are responsible for clarifying the standards of our community and have the right to remove or alter the comments of those participating within our community, as necessary and at our discretion.
+Nous sommes responsables de la clarification des normes de notre communauté, et nous avons le droit de supprimer ou de modifier les commentaires de ceux qui participent à notre communauté, si nécessaire et à notre discrétion.
 
 ## Contact
 
-If you observe a problem on a platform like Matrix or Reddit, please contact our moderators on that platform via chat, direct message, or any designated "Modmail" system.
+Si vous observez un problème sur une plateforme comme Matrix ou Reddit, veuillez contacter nos modérateurs sur cette plateforme via chat, message direct, ou tout système désigné "Modmail".
 
-If you have a problem elsewhere, or a problem that our community moderators are unable to resolve, reach out to `jonah@privacyguides.org` and/or `dngray@privacyguides.org`.
+Si vous avez un problème ailleurs, ou un problème que nos modérateurs de communauté ne sont pas en mesure de résoudre, adressez-vous à `jonah@privacyguides.org` et/ou `dngray@privacyguides.org`.
 
-All community leaders are obligated to respect the privacy and security of reporters for all incidents.
+Tous les dirigeants de la communauté sont tenus de respecter la vie privée et la sécurité des rapporteurs des incidents.
