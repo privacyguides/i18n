@@ -352,7 +352,7 @@ Voici d'autres [listes de filtres](https://github.com/gorhill/uBlock/wiki/Dashbo
 
 ### uBlock Origin Lite
 
-uBlock Origin also has a "Lite" version of their extension, which offers a very limited feature-set compared to the original extension. However, it has a few distinct advantages over its full-fledged sibling, so you may want to consider it if...
+uBlock Origin possède également une version "Lite" de leur extension, qui offre un ensemble de fonctionnalités très limité par rapport à l'extension originale. Cependant, elle a quelques avantages distincts par rapport à sa grande soeur, donc vous pouvez l'envisager si...
 
 - ...you don't want to grant full "read/modify website data" permissions to any extensions (even a trusted one like uBlock Origin)
 - ...you want a more resource (memory/CPU) efficient content blocker[^1]
