@@ -1,8 +1,8 @@
 ---
-meta_title: "How to Create Internet Accounts Privately - Privacy Guides"
+meta_title: "如何私密地创建互联网账户 - 隐私指南"
 title: "账户创建"
 icon: 'material/account-plus'
-description: Creating accounts online is practically an internet necessity, take these steps to make sure you stay private.
+description: 在网上创建账户几乎是网络生活的必需，采取这些步骤确保你的隐私安全。
 ---
 
 人们经常不假思索地注册服务。 也许它是一个流媒体服务，这样你就可以看到每个人都在谈论的新节目，或者一个为你最喜欢的快餐店提供折扣的账户。 无论情况如何，你应该考虑现在和以后对你的数据的影响。
@@ -29,9 +29,9 @@ description: Creating accounts online is practically an internet necessity, take
 
 创建新账户最常见的方式是通过电子邮件地址和密码。 当使用这种方法时，你应该使用一个密码管理器，并遵循 [有关密码的最佳实践](passwords-overview.md)。
 
-!!! tip
+!!! 提示
 
-    You can use your password manager to organize other authentication methods too! Just add the new entry and fill the appropriate fields, you can add notes for things like security questions or a backup key.
+    你还可以使用密码管理器来组织其他验证方法！ 只需添加新条目并填写相应字段，你可以为诸如安全问题或备用密钥之类的事物添加注释。
 
 你将负责管理你的登录凭证。 为了增加安全性，你可以在你的账户上设置 [MFA](multi-factor-authentication.md)。
 
@@ -45,29 +45,29 @@ description: Creating accounts online is practically an internet necessity, take
 
 [推荐的电子邮件别名服务](../email.md#email-aliasing-services ""){.md-button}
 
-### "Sign in with..." (OAuth)
+### “通过……登录” (OAuth)
 
-OAuth is an authentication protocol that allows you to register for a service without sharing much information with the service provider, if any, by using an existing account you have with another service instead. Whenever you see something along the lines of "Sign in with *provider name*" on a registration form, it's typically using OAuth.
+OAuth是一种认证协议，它允许你在不与服务提供商共享太多信息的情况下（如果有的话），通过使用你在另一项服务中已有的账户来注册新服务。 每当你在注册表单上看到类似“通过*提供商名称*登录”的内容时，通常就是在使用OAuth。
 
-When you sign in with OAuth, it will open a login page with the provider you choose, and your existing account and new account will be connected. Your password won't be shared, but some basic information typically will (you can review it during the login request). 每次你想登录同一个账户时，都需要这个过程。
+当你通过OAuth登录时，它会打开一个登录页面，你选择的提供商和你现有的账户以及新账户将会被连接起来。 你的密码不会共享，但一些基本信息通常会共享（你可以在登录请求期间审查它） 每次你想登录同一个账户时，都需要这个过程。
 
 主要的优点是:
 
-- **Security**: you don't have to trust the security practices of the service you're logging into when it comes to storing your login credentials, because they are stored with the external OAuth provider, which when it comes to services like Apple and Google typically follow the best security practices, continuously audit their authentication systems, and don't store credentials inappropriately (such as in plain text).
+- **安全性**：当涉及到存储登录凭证时，你不必信任你正在登录的服务的安全实践，因为这些凭证是存储在外部OAuth提供商那里的。对于像苹果和谷歌这样的服务来说，它们通常遵循最佳的安全实践，持续审计其认证系统，并且不会不适当地存储凭证（例如以明文形式）。
 - **易用性**：多个账户由一个登录账号管理。
 
 但也有弊端:
 
-- **Privacy**: the OAuth provider you log in with will know the services you use.
-- **Centralization**: if the account you use for OAuth is compromised, or you aren't able to log in to it, all other accounts connected to it are affected.
+- **隐私**：你使用的OAuth提供商将知道你使用的服务。
+- **集中化**：如果你用于OAuth的账户被泄露，或者你无法登录该账户，所有与之连接的其他账户都会受到影响。
 
-OAuth can be especially useful in those situations where you could benefit from deeper integration between services. Our recommendation is to limit using OAuth to only where you need it, and always protect the main account with [MFA](multi-factor-authentication.md).
+OAuth在需要服务之间更深入整合的情况下特别有用。 我们的建议是仅在需要时使用OAuth，并始终使用多因素认证 [MFA](multi-factor-authentication.md) 保护主账户。
 
-All the services that use OAuth will be as secure as your underlying OAuth provider's account. For example, if you want to secure an account with a hardware key, but that service doesn't support hardware keys, you can secure the account you use with OAuth with a hardware key instead, and now you essentially have hardware MFA on all your accounts. It is worth noting though that weak authentication on your OAuth provider account means that any account tied to that login will also be weak.
+使用OAuth的所有服务的安全性将与你的底层OAuth提供商账户的安全性一样。 例如，如果你想用硬件密钥保护一个账户，但该服务不支持硬件密钥，你可以改用硬件密钥保护你用于OAuth的账户，现在你基本上在所有账户上都有硬件MFA。 不过，值得注意的是，如果你的OAuth提供商账户的认证较弱，那么与该登录绑定的任何账户也将是脆弱的。
 
-There is an additional danger when using *Sign in with Google*, *Facebook*, or another service, which is that typically the OAuth process allows for *bidirectional* data sharing. For example, logging in to a forum with your Twitter account could grant that forum access to do things on your Twitter account such as post, read your messages, or access other personal data. OAuth providers will typically present you with a list of things you are granting the external service access to, and you should always ensure that you read through that list and don't inadvertently grant the external service access to anything it doesn't require.
+使用 *Google登录*、*Facebook登录* 或其他服务时还有一个额外的危险，那就是通常OAuth过程允许 *双向* 数据共享。 例如，使用你的Twitter账户登录论坛可能会授权该论坛在你的Twitter账户上进行操作，如发布、阅读你的消息或访问其他个人数据。 OAuth提供商通常会向你展示一个列表，列出你授权外部服务访问的内容，你应该始终确保阅读该列表，并且不要无意中授权外部服务访问它不需要的任何内容。
 
-Malicious applications, particularly on mobile devices where the application has access to the WebView session used for logging in to the OAuth provider, can also abuse this process by hijacking your session with the OAuth provider and gaining access to your OAuth account through those means. Using the *Sign in with* option with any provider should usually be considered a matter of convenience that you only use with services you trust to not be actively malicious.
+恶意应用程序，尤其是在移动设备上，这些应用程序可以访问用于登录OAuth提供商的WebView会话，也可以通过劫持你与OAuth提供商的会话并通过这些方式获得对你的OAuth账户的访问来滥用这个过程。 使用任何提供商的 *通过……登录* 选项通常应该被视为一种便利性选择，你只会在信任不会主动恶意行为的服务时使用。
 
 ### 手机号
 

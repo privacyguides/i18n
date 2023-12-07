@@ -31,7 +31,7 @@
 *[GPS]: 全球定位系统
 *[GUI]: 图形用户界面
 *[GnuPG]: GNU Privacy Guard (PGP 实现)
-*[HDD]: Hard Disk Drive
+*[HDD]: 机械硬盘
 *[HOTP]: 基于HMAC (基于散列的信息认证码) 的一次性密码
 *[HTTPS]: 安全超文本传输协议
 *[HTTP]: 超文本传输协议
