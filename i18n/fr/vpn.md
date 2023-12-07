@@ -90,7 +90,7 @@ En plus de fournir des fichiers de configuration OpenVPN standard, Proton VPN a 
 
 #### :material-information-outline:{ .pg-blue } Fonctionnalités supplémentaires
 
-Les clients VPN de Proton prennent en charge l'authentification à deux facteurs sur toutes les plateformes, sauf Linux pour le moment. Proton VPN possède ses propres serveurs et centres de données en Suisse, en Islande et en Suède. They offer content blocking and known-malware blocking with their DNS service. En outre, Proton VPN propose également des serveurs "Tor" vous permettant de vous connecter facilement aux sites onion, mais nous recommandons fortement d'utiliser [le navigateur officiel Tor](https://www.torproject.org/) à cette fin.
+Les clients VPN de Proton prennent en charge l'authentification à deux facteurs sur toutes les plateformes, sauf Linux pour le moment. Proton VPN possède ses propres serveurs et centres de données en Suisse, en Islande et en Suède. Ils proposent le blocage des contenus et des domaines de logiciels malveillants connus avec leur service DNS. En outre, Proton VPN propose également des serveurs "Tor" vous permettant de vous connecter facilement aux sites onion, mais nous recommandons fortement d'utiliser [le navigateur officiel Tor](https://www.torproject.org/) à cette fin.
 
 #### :material-alert-outline:{ .pg-orange } La fonction d'arrêt d'urgence ne fonctionne pas sur les Macs à processeur Intel
 

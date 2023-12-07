@@ -360,27 +360,27 @@ uBlock Origin possède également une version "Lite" de leur extension, qui offr
 
 !!! recommendation
 
-    ![uBlock Origin Lite logo](assets/img/browsers/ublock_origin_lite.svg){ align=right }
+    ![logo uBlock Origin Lite](assets/img/browsers/ublock_origin_lite.svg){ align=right }
     
-    **uBlock Origin Lite** is a Manifest V3 compatible content blocker. Compared to the original *uBlock Origin*, this extension does not require broad "read/modify data" permissions to function.
+    **uBlock Origin Lite** est un bloqueur de contenu compatible Manifest V3. Comparée à l'original *uBlock Origin*, cette extension ne nécessite pas de larges autorisations "lecture/modification des données" pour fonctionner.
     
-    [:octicons-repo-16: Repository](https://github.com/uBlockOrigin/uBOL-home#readme){ .md-button .md-button--primary }
-    [:octicons-eye-16:](https://github.com/gorhill/uBlock/wiki/Privacy-policy){ .card-link title="Privacy Policy" }
+    [:octicons-repo-16: Dépôt](https://github.com/uBlockOrigin/uBOL-home#readme){ .md-button .md-button--primary }
+    [:octicons-eye-16:](https://github.com/gorhill/uBlock/wiki/Privacy-policy){ .card-link title="Politique de confidentialité" }
     [:octicons-info-16:](https://github.com/uBlockOrigin/uBOL-home/wiki){ .card-link title=Documentation}
-    [:octicons-code-16:](https://github.com/gorhill/uBlock/tree/master/platform/mv3){ .card-link title="Source Code" }
+    [:octicons-code-16:](https://github.com/gorhill/uBlock/tree/master/platform/mv3){ .card-link title="Code source" }
     
-    ??? downloads
+    ??? downloads "Téléchargements"
     
         - [:simple-firefoxbrowser: Firefox](https://addons.mozilla.org/addon/ublock-origin-lite/)
         - [:simple-googlechrome: Chrome](https://chrome.google.com/webstore/detail/ublock-origin-lite/ddkjiahejlhfcafbddmgiahcphecmpfh)
 
-We only recommend this version of uBlock Origin if you never want to make any changes to your filter lists, because it only supports a few pre-selected lists and offers no additional customization options, including the ability to select elements to block manually. These restrictions are due to limitations in Manifest V3's design.
+Nous ne recommandons cette version d'uBlock Origin que si vous ne voulez jamais apporter de modifications à vos listes de filtres, parce qu'elle ne prend en charge que quelques listes présélectionnées et n'offre aucune option de personnalisation supplémentaire, y compris la possibilité de sélectionner des éléments à bloquer manuellement. Ces restrictions sont dues à des limitations dans la conception du manifeste V3.
 
-This version offers three levels of blocking: "Basic" works without requiring any special privileges to view and modify site content, while the "Optimal" and "Complete" levels do require that broad permission, but offer a better filtering experience with additional cosmetic rules and scriptlet injections.
+Cette version offre trois niveaux de blocage : "Basique" fonctionne sans avoir besoin de privilèges spéciaux pour afficher et modifier le contenu du site, tandis que les niveaux "Optimal" et "Complet" requièrent cette large autorisation, mais offrent une meilleure expérience de filtrage avec des règles cosmétiques supplémentaires et des injections de scriptlet.
 
-If you set the default filtering mode to "Optimal" or "Complete" the extension will request read/modify access to **all** websites you visit. However, you also have the option to change the setting to "Optimal" or "Complete" on a **per-site** basis by adjusting the slider in the extension's pop-up panel on any given site. When you do so, the extension will request read/modify access to that site only. Therefore, if you want to take advantage of uBlock Origin Lite's "permission-less" configuration, you should probably leave the default setting as "Basic" and only adjust it higher on sites where that level is not adequate.
+Si vous définissez le mode de filtrage par défaut à "Optimal" ou "Complet", l'extension demandera l'accès en lecture/modification à **tous** les sites Web que vous visitez. Cependant, vous avez également la possibilité de changer le réglage à "Optimal" ou "Complet" **par site** en ajustant le curseur dans le panneau pop-up de l'extension sur un site donné. Lorsque vous le faites, l'extension ne demandera qu'un accès en lecture/modification de ce site. Par conséquent, si vous voulez profiter de la configuration "sans autorisation" d'uBlock Origin Lite, vous devriez probablement laisser le paramètre par défaut sur "Basique" et ne l'augmenter que sur les sites où ce niveau n'est pas adéquat.
 
-uBlock Origin Lite only receives block list updates whenever the extension is updated from your browser's extension marketplace, as opposed to on demand. This means that you may miss out on new threats being blocked for weeks until a full extension release is published.
+uBlock Origin Lite ne reçoit les mises à jour de la liste de blocage que lorsque l'extension est mise à jour depuis le marché des extensions de votre navigateur, et non pas sur demande. Cela signifie que vous risquez de manquer les nouvelles menaces bloquées pendant des semaines jusqu'à ce qu'une version complète de l'extension soit publiée.
 
 ## Critères
 
@@ -398,7 +398,7 @@ uBlock Origin Lite only receives block list updates whenever the extension is up
 - Disponible sur Linux, macOS et Windows.
 - Les modifications nécessaires pour rendre le navigateur plus respectueux de la vie privée ne devraient pas avoir d'impact négatif sur l'expérience des utilisateurs.
 - Bloque les cookies tiers par défaut.
-- Supports [state partitioning](https://developer.mozilla.org/en-US/docs/Web/Privacy/State_Partitioning) to mitigate cross-site tracking.[^2]
+- Prend en charge le [cloisonnement des états](https://developer.mozilla.org/en-US/docs/Web/Privacy/State_Partitioning) pour atténuer le suivi intersite.[^2]
 
 
 ### Dans le meilleur des cas
@@ -419,5 +419,5 @@ Nos critères de cas idéal représentent ce que nous aimerions voir d'un projet
 - Ne doit pas dupliquer une fonctionnalité intégrée dans le navigateur ou dans le système d'exploitation.
 - Doit avoir un impact direct sur la vie privée des utilisateurs, c'est-à-dire qu'il ne doit pas simplement fournir des informations.
 
-[^1]: uBlock Origin Lite *itself* will consume no resources, because it uses newer APIs which make the browser process the filter lists natively, instead of running JavaScript code within the extension to handle the filtering. However, this resource advantage is only [theoretical](https://github.com/uBlockOrigin/uBOL-home/wiki/Frequently-asked-questions-(FAQ)#is-ubol-more-efficient-cpu--and-memory-wise-than-ubo), because it's possible that standard uBlock Origin's filtering code is more efficient than your browser's native filtering code. This has not yet been benchmarked.
-[^2]: Brave's implementation is detailed at [Brave Privacy Updates: Partitioning network-state for privacy](https://brave.com/privacy-updates/14-partitioning-network-state/).
+[^1]: uBlock Origin Lite *lui-même* ne consommera aucune ressource, parce qu'il utilise des APIs plus récentes qui permettent au navigateur de traiter nativement les listes de filtres, au lieu d'exécuter du code JavaScript dans l'extension pour gérer le filtrage. Cependant, cet avantage de ressource est seulement [théorique](https://github.com/uBlockOrigin/uBOL-home/wiki/Frequently-asked-questions-(FAQ)#is-ubol-more-efficient-cpu--and-memory-wise-than-ubo), parce qu'il est possible que le code de filtrage standard d'uBlock Origin soit plus efficace que le code de filtrage natif de votre navigateur. Cela n'a pas encore été comparé.
+[^2]: L'implémentation de Brave est détaillée dans [Mises à jour de la confidentialité de Brave : partitionnement de l'état du réseau pour la confidentialité](https://brave.com/privacy-updates/14-partitioning-network-state/).
