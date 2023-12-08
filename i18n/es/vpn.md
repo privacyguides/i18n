@@ -92,7 +92,7 @@ Además de proporcionar archivos de configuración estándar de OpenVPN, Proton 
 
 #### :material-information-outline:{ .pg-blue } Funcionalidad Adicional
 
-Mullvad ha publicado su cliente en la \[App Store\](https://apps.apple.com/app/mullvad-vpn/id1488466513) y en \[Google Play\](https://play.google.com/store/apps/details?id=net.mullvad.mullvadvpn), ambos con una interfaz fácil de usar en lugar de requerir la configuración manual de la conexión de WireGuard. El cliente móvil en Android también está disponible en \[F-Droid\](https://f-droid.org/packages/net.mullvad.mullvadvpn), lo que garantiza que se compila con \[builds reproducibles\](https://www.f-droid.org/en/2019/05/05/trust-privacy-and-free-software.html). They offer content blocking and known-malware blocking with their DNS service. Además, Proton VPN también ofrece servidores "Tor" que te permiten conectarte fácilmente a sitios.onion, pero seguimos recomendando encarecidamente utilizar [el Navegador Tor oficial](https://www.torproject.org/) para este propósito.
+Mullvad ha publicado su cliente en la \[App Store\](https://apps.apple.com/app/mullvad-vpn/id1488466513) y en \[Google Play\](https://play.google.com/store/apps/details?id=net.mullvad.mullvadvpn), ambos con una interfaz fácil de usar en lugar de requerir la configuración manual de la conexión de WireGuard. El cliente móvil en Android también está disponible en \[F-Droid\](https://f-droid.org/packages/net.mullvad.mullvadvpn), lo que garantiza que se compila con \[builds reproducibles\](https://www.f-droid.org/en/2019/05/05/trust-privacy-and-free-software.html). Ofrecen bloqueo de contenidos y bloqueo de malware conocido con su servicio DNS. Además, Proton VPN también ofrece servidores "Tor" que te permiten conectarte fácilmente a sitios.onion, pero seguimos recomendando encarecidamente utilizar [el Navegador Tor oficial](https://www.torproject.org/) para este propósito.
 
 #### :material-alert-outline:{ .pg-orange } La función Killswitch no funciona en los Macs basados en Intel
 
@@ -329,4 +329,4 @@ El marketing responsable que es a la vez educativo y útil para el consumidor po
 
 ### Funcionalidad Adicional
 
-Aunque no son estrictamente requisitos, hay algunos factores en los que nos fijamos a la hora de determinar qué proveedores recomendar. These include content blocking functionality, warrant canaries, multihop connections, excellent customer support, the number of allowed simultaneous connections, etc.
+Aunque no son estrictamente requisitos, hay algunos factores en los que nos fijamos a la hora de determinar qué proveedores recomendar. Entre ellas se incluyen la funcionalidad de bloqueo de contenidos, los canarios de garantía, las conexiones multisalto, la excelente atención al cliente, el número de conexiones simultáneas permitidas, etc.

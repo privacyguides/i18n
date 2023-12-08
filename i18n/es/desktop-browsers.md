@@ -378,9 +378,9 @@ Solo recomendamos esta versión de uBlock Origin si nunca quieres hacer cambios 
 
 Esta versión ofrece tres niveles de bloqueo: "Básico" funciona sin requerir ningún privilegio especial para ver y modificar el contenido del sitio, mientras que los niveles "Óptimo" y "Completo" sí requieren ese amplio permiso, pero ofrecen una mejor experiencia de filtrado con reglas cosméticas adicionales e inyecciones de scriptlet.
 
-If you set the default filtering mode to "Optimal" or "Complete" the extension will request read/modify access to **all** websites you visit. However, you also have the option to change the setting to "Optimal" or "Complete" on a **per-site** basis by adjusting the slider in the extension's pop-up panel on any given site. When you do so, the extension will request read/modify access to that site only. Therefore, if you want to take advantage of uBlock Origin Lite's "permission-less" configuration, you should probably leave the default setting as "Basic" and only adjust it higher on sites where that level is not adequate.
+Si configuras el modo de filtrado predeterminado como "Óptimo" o "Completo", la extensión solicitará acceso de lectura/modificación a **todos** los sitios web que visites. Sin embargo, también tienes la opción de cambiar la configuración a "Óptima" o "Completa" en una base **por sitio** ajustando el control deslizante en el panel emergente de la extensión en cualquier sitio dado. Al hacerlo, la extensión solicitará acceso de lectura/modificación únicamente a ese sitio. Por lo tanto, si deseas aprovechar la configuración "sin permisos" de uBlock Origin Lite, probablemente deberías dejar la configuración predeterminada como "Básica" y sólo ajustarla a un nivel superior en los sitios en los que ese nivel no sea adecuado.
 
-uBlock Origin Lite only receives block list updates whenever the extension is updated from your browser's extension marketplace, as opposed to on demand. This means that you may miss out on new threats being blocked for weeks until a full extension release is published.
+uBlock Origin Lite solo recibe actualizaciones de la lista de bloqueos cada vez que se actualiza la extensión desde el mercado de extensiones de su navegador, en lugar de bajo demanda. Esto significa que puedes perderte el bloqueo de nuevas amenazas durante semanas hasta que se publique una extensión completa.
 
 ## Criterios
 
@@ -398,7 +398,7 @@ uBlock Origin Lite only receives block list updates whenever the extension is up
 - Disponible para iOS, macOS y Windows.
 - Cualquier cambio necesario para que el navegador respete más la privacidad no debería afectar negativamente a la experiencia del usuario.
 - Bloquea las cookies de terceros por defecto.
-- Supports [state partitioning](https://developer.mozilla.org/en-US/docs/Web/Privacy/State_Partitioning) to mitigate cross-site tracking.[^2]
+- Admite [partición de estados](https://developer.mozilla.org/en-US/docs/Web/Privacy/State_Partitioning) para mitigar el rastreo entre sitios.[^2]
 
 
 ### Mejor Caso
@@ -419,5 +419,5 @@ Nuestro criterio del mejor caso representa lo que nos gustaría ver del proyecto
 - No debe replicar la funcionalidad integrada del navegador o del sistema operativo.
 - Debe afectar directamente a la privacidad del usuario, es decir, no debe limitarse a proporcionar información.
 
-[^1]: uBlock Origin Lite *itself* will consume no resources, because it uses newer APIs which make the browser process the filter lists natively, instead of running JavaScript code within the extension to handle the filtering. However, this resource advantage is only [theoretical](https://github.com/uBlockOrigin/uBOL-home/wiki/Frequently-asked-questions-(FAQ)#is-ubol-more-efficient-cpu--and-memory-wise-than-ubo), because it's possible that standard uBlock Origin's filtering code is more efficient than your browser's native filtering code. This has not yet been benchmarked.
-[^2]: Brave's implementation is detailed at [Brave Privacy Updates: Partitioning network-state for privacy](https://brave.com/privacy-updates/14-partitioning-network-state/).
+[^1]: uBlock Origin Lite *en sí* no consumirá recursos, ya que utiliza APIs más recientes que hacen que el navegador procese las listas de filtros de forma nativa, en lugar de ejecutar código JavaScript dentro de la extensión para gestionar el filtrado. Sin embargo, esta ventaja de recursos es solo [teórica](https://github.com/uBlockOrigin/uBOL-home/wiki/Frequently-asked-questions-(FAQ)#is-ubol-more-efficient-cpu--and-memory-wise-than-ubo), porque es posible que el código de filtrado estándar de uBlock Origin sea más eficiente que el código de filtrado nativo de tu navegador. Aún no se ha evaluado comparativamente.
+[^2]: La implementación de Brave se detalla en [Brave Privacy Updates: Partitioning network-state for privacy](https://brave.com/privacy-updates/14-partitioning-network-state/).
