@@ -86,17 +86,17 @@ Récemment, plusieurs organisations ont tenté de résoudre certains problèmes 
 
 Les relais multipartites (MPR) utilisent plusieurs nœuds appartenant à différentes parties, de sorte qu'aucune partie ne sait à la fois qui vous êtes et à quoi vous vous connectez. C'est l'idée de base de Tor, mais il existe aujourd'hui des services payants qui tentent d'imiter ce modèle.
 
-MPRs seek to solve a problem inherent to VPNs: the fact that you must trust them completely. They accomplish this goal by segmenting the responsibilities between two or more different companies. For example, Apple's iCloud+ Private Relay routes your traffic through two servers:
+Les MPRs cherchent à résoudre un problème inhérent aux VPN: le fait que vous devez leur faire entièrement confiance. Elles atteignent cet objectif en segmentant les responsabilités entre deux ou plusieurs entreprises différentes. Par exemple, le relais privé iCloud+ d'Apple achemine votre trafic à travers deux serveurs :
 
-1. Firstly, a server operated by Apple.
+1. Premièrement, un serveur géré par Apple.
 
-    This server is able to see your device's IP when you connect to it, and has knowledge of your payment information and Apple ID tied to your iCloud subscription. However, it is unable to see what website you are connecting to.
+    Ce serveur est capable de voir l'adresse IP de votre appareil lorsque vous vous connectez, et a connaissance de vos informations de paiement et de l'identifiant Apple lié à votre abonnement iCloud. Cependant, il est incapable de voir sur quel site vous vous connectez.
 
-2. Secondly, a server operated by a partner CDN, such as Cloudflare or Fastly.
+2. Deuxièmement, un serveur géré par un partenaire CDN, tel que Cloudflare ou Fastly.
 
-    This server actually makes the connection to your destination website, but has no knowledge of your device. The only IP address it knows about is Apple's server's.
+    Ce serveur établit la connexion avec votre site web de destination, mais n'a aucune connaissance de votre appareil. La seule adresse IP qu'il connaît est celle du serveur d'Apple.
 
-Other MPRs run by different companies like Google or INVISV operate in a very similar manner. This protection by segmentation only exists if you trust the two companies to not collude with each other to deanonymize you.
+D'autres MPRs gérés par différentes entreprises comme Google ou INVISV fonctionnent de manière très similaire. This protection by segmentation only exists if you trust the two companies to not collude with each other to deanonymize you.
 
 ### Decentralized VPNs
 
