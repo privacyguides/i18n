@@ -74,17 +74,17 @@ La fonctionnalité doit être vue comme un moyen *pratique* pour accéder aux se
 
 La plupart des services VPN sont détenus par les mêmes [quelques sociétés](https://vpnpro.com/blog/hidden-vpn-owners-unveiled-97-vpns-23-companies/). Ces sociétés douteuses gèrent un grand nombre de petits services VPN afin de créer l'illusion que vous avez plus de choix qu'il n'y en a en réalité et de maximiser leurs profits. En règle générale, ces fournisseurs qui alimentent leur société écran ont des politiques de protection de la vie privée déplorables et il ne faut pas leur confier votre trafic internet. Vous devriez être très strict quant au fournisseur que vous décidez d'utiliser.
 
-You should also be wary that many VPN review sites are merely advertising vehicles open to the highest bidder. ==Privacy Guides does not make money from recommending external products, and never uses affiliate programs.==
+Vous devez également vous méfier du fait que de nombreux sites d'évaluation de VPN ne sont que des véhicules publicitaires ouverts au plus offrant. ==Privacy Guides ne gagne pas d'argent en recommandant des produits externes et n'utilise jamais de programmes d'affiliation.==
 
 [Nos recommandations VPN](../vpn.md ""){.md-button}
 
 ## Alternatives VPN modernes
 
-Recently, some attempts have been made by various organizations to address some issues which centralized VPNs have. These technologies are relatively new, but worth keeping an eye on as the field develops.
+Récemment, plusieurs organisations ont tenté de résoudre certains problèmes posés par les VPN centralisés. Ces technologies sont relativement nouvelles, mais elles méritent d'être suivies de près au fur et à mesure que le domaine se développe.
 
-### Multi-Party Relays
+### Relais multipartites
 
-Multi-Party Relays (MPRs) use multiple nodes owned by different parties, such that no individual party knows both who you are and what you're connecting to. This is the basic idea behind Tor, but now there are some paid services that try to emulate this model.
+Les relais multipartites (MPR) utilisent plusieurs nœuds appartenant à différentes parties, de sorte qu'aucune partie ne sait à la fois qui vous êtes et à quoi vous vous connectez. C'est l'idée de base de Tor, mais il existe aujourd'hui des services payants qui tentent d'imiter ce modèle.
 
 MPRs seek to solve a problem inherent to VPNs: the fact that you must trust them completely. They accomplish this goal by segmenting the responsibilities between two or more different companies. For example, Apple's iCloud+ Private Relay routes your traffic through two servers:
 
