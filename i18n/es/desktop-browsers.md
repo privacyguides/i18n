@@ -352,31 +352,31 @@ Estas son algunas otras [listas de filtros](https://github.com/gorhill/uBlock/wi
 
 ### uBlock Origin Lite
 
-uBlock Origin also has a "Lite" version of their extension, which offers a very limited feature-set compared to the original extension. However, it has a few distinct advantages over its full-fledged sibling, so you may want to consider it if...
+uBlock Origin también tiene una versión "Lite" de su extensión, que ofrece un conjunto de características muy limitado en comparación con la extensión original. Sin embargo, tiene algunas ventajas distintas sobre su hermana de pleno derecho, así que puede que quieras considerarlo si...
 
-- ...you don't want to grant full "read/modify website data" permissions to any extensions (even a trusted one like uBlock Origin)
-- ...you want a more resource (memory/CPU) efficient content blocker[^1]
-- ...your browser only supports Manifest V3 extensions
+- ...no quieres conceder permisos completos para "leer/modificar datos del sitio web" a ninguna extensión (incluso una de confianza como uBlock Origin)
+- ...quieres un bloqueador de contenido más eficiente eficiente con los recursos (memoria/CPU)[^1]
+- ...tu navegador solo soporta extensiones Manifest V3
 
-!!! recommendation
+!!! recommendation "Recomendación"
 
     ![uBlock Origin Lite logo](assets/img/browsers/ublock_origin_lite.svg){ align=right }
     
-    **uBlock Origin Lite** is a Manifest V3 compatible content blocker. Compared to the original *uBlock Origin*, this extension does not require broad "read/modify data" permissions to function.
+    **uBlock Origin Lite** es un bloqueador de contenido compatible con Manifest V3. En comparación con el *uBlock Origin* original, esta extensión no requiere amplios permisos de "lectura/modificación de datos" para funcionar.
     
-    [:octicons-repo-16: Repository](https://github.com/uBlockOrigin/uBOL-home#readme){ .md-button .md-button--primary }
-    [:octicons-eye-16:](https://github.com/gorhill/uBlock/wiki/Privacy-policy){ .card-link title="Privacy Policy" }
-    [:octicons-info-16:](https://github.com/uBlockOrigin/uBOL-home/wiki){ .card-link title=Documentation}
-    [:octicons-code-16:](https://github.com/gorhill/uBlock/tree/master/platform/mv3){ .card-link title="Source Code" }
+    [:octicons-repo-16: Repositorio](https://github.com/uBlockOrigin/uBOL-home#readme){ .md-button .md-button--primary }
+    [:octicons-eye-16:](https://github.com/gorhill/uBlock/wiki/Privacy-policy){ .card-link title="Política de Privacidad" }
+    [:octicons-info-16:](https://github.com/uBlockOrigin/uBOL-home/wiki){ .card-link title=Documentación}
+    [:octicons-code-16:](https://github.com/gorhill/uBlock/tree/master/platform/mv3){ .card-link title="Código Fuente" }
     
-    ??? downloads
+    ??? downloads "Descargas"
     
         - [:simple-firefoxbrowser: Firefox](https://addons.mozilla.org/addon/ublock-origin-lite/)
         - [:simple-googlechrome: Chrome](https://chrome.google.com/webstore/detail/ublock-origin-lite/ddkjiahejlhfcafbddmgiahcphecmpfh)
 
-We only recommend this version of uBlock Origin if you never want to make any changes to your filter lists, because it only supports a few pre-selected lists and offers no additional customization options, including the ability to select elements to block manually. These restrictions are due to limitations in Manifest V3's design.
+Solo recomendamos esta versión de uBlock Origin si nunca quieres hacer cambios en tus listas de filtros, porque solo soporta unas pocas listas preseleccionadas y no ofrece opciones de personalización adicionales, incluyendo la capacidad de seleccionar elementos para bloquear manualmente. Estas restricciones se deben a limitaciones en el diseño de Manifest V3.
 
-This version offers three levels of blocking: "Basic" works without requiring any special privileges to view and modify site content, while the "Optimal" and "Complete" levels do require that broad permission, but offer a better filtering experience with additional cosmetic rules and scriptlet injections.
+Esta versión ofrece tres niveles de bloqueo: "Básico" funciona sin requerir ningún privilegio especial para ver y modificar el contenido del sitio, mientras que los niveles "Óptimo" y "Completo" sí requieren ese amplio permiso, pero ofrecen una mejor experiencia de filtrado con reglas cosméticas adicionales e inyecciones de scriptlet.
 
 If you set the default filtering mode to "Optimal" or "Complete" the extension will request read/modify access to **all** websites you visit. However, you also have the option to change the setting to "Optimal" or "Complete" on a **per-site** basis by adjusting the slider in the extension's pop-up panel on any given site. When you do so, the extension will request read/modify access to that site only. Therefore, if you want to take advantage of uBlock Origin Lite's "permission-less" configuration, you should probably leave the default setting as "Basic" and only adjust it higher on sites where that level is not adequate.
 
