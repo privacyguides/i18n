@@ -182,11 +182,11 @@ Mullvad Browser поставляется с включенной по умолч
 
 ##### DNS через HTTPS
 
-If you use a [DNS over HTTPS provider](dns.md):
+Если вы используете [провайдера DNS через HTTPS](dns.md):
 
-- [x] Select **Max Protection** and choose a suitable provider
+- [x] Включите **Максимальная защита** и выберите подходящего поставщика
 
-Max Protection enforces the use of DNS over HTTPS, and a security warning will show if Firefox can’t connect to your secure DNS resolver, or if your secure DNS resolver says that records for the domain you are trying to access do not exist. This stops the network you're connected to from secretly downgrading your DNS security.
+Максимальная защита разрешает только DNS через HTTPS запросы. Если Firefox не сможет подключиться к вашему безопасному провайдеру DNS или если ваш безопасный провайдер DNS не найдёт записи для нужного домена, появится предупреждение безопасности. Это остановит сеть, к которой вы подключены, от секретного понижения безопасности DNS.
 
 #### Синхронизация
 
@@ -227,11 +227,11 @@ Arkenfox нацелен только на предотвращение осно�
 
     1. Мы не рекомендуем использовать Flatpak-версию Brave, поскольку она заменяет песочницу Chromium песочницей Flatpak, что менее эффективно. Кроме того, компания Brave Software, Inc. не распространяет этот установочный пакет.
 
-**macOS users:** The download for Brave Browser from their official website is a `.pkg` installer which requires admin privileges to run (and may run other unnecessary scripts on your machine). As an alternative, you can download the latest `Brave-Browser-universal.dmg` file from their [GitHub releases](https://github.com/brave/brave-browser/releases/latest) page, which provides a traditional "drag to Applications folder" install.
+**Пользователям macOS:** При скачивании Brave Browser с их официального сайта вы получаете установщик `.pkg`, который требует прав администратора для запуска (и может запускать другие ненужные скрипты на вашем устройстве). В качестве альтернативы, вы можете скачать последнюю версию файла `Brave-Browser-universal.dmg` из их [GitHub releases](https://github.com/brave/brave-browser/releases/latest), которая предоставляет традиционную установку "перетащить в папку Программы".
 
 !!! warning "Осторожно"
 
-    Brave adds a "[referral code](https://github.com/brave/brave-browser/wiki/Brave%E2%80%99s-Use-of-Referral-Codes)" to the file name in downloads from the Brave website, which is used to track which source the browser was downloaded from, for example `BRV002` in a download named `Brave-Browser-BRV002.pkg`. The installer will then ping Brave's server with the referral code at the end of the installation process. If you're concerned about this, you can rename the installer file before opening it.
+    Brave добавляет "[реферальный код](https://github. om/brave/brave-browser/wiki/Brave%E2%80%99s-Use-of-Referral-Codes)" к имени файла при загрузке с веб-сайта Brave. Этот код используется для отслеживания источника, из которого код был загружен браузер, например `BRV002` в загрузках с именем `Brave-Browser-BRV002.pkg`. The installer will then ping Brave's server with the referral code at the end of the installation process. If you're concerned about this, you can rename the installer file before opening it.
 
 ### Рекомендованные настройки
 
@@ -362,14 +362,14 @@ uBlock Origin also has a "Lite" version of their extension, which offers a very 
 
     ![uBlock Origin Lite logo](assets/img/browsers/ublock_origin_lite.svg){ align=right }
     
-    **uBlock Origin Lite** is a Manifest V3 compatible content blocker. Compared to the original *uBlock Origin*, this extension does not require broad "read/modify data" permissions to function.
+    **uBlock Origin Lite** это блокировщик контента совместимый с Manifest V3. По сравнению с оригинальным *uBlock Origin*, это расширение не требует широких прав на "чтение/изменение данных" для функционирования.
     
-    [:octicons-repo-16: Repository](https://github.com/uBlockOrigin/uBOL-home#readme){ .md-button .md-button--primary }
-    [:octicons-eye-16:](https://github.com/gorhill/uBlock/wiki/Privacy-policy){ .card-link title="Privacy Policy" }
-    [:octicons-info-16:](https://github.com/uBlockOrigin/uBOL-home/wiki){ .card-link title=Documentation}
-    [:octicons-code-16:](https://github.com/gorhill/uBlock/tree/master/platform/mv3){ .card-link title="Source Code" }
+    [:octicons-repo-16: Репозиторий](https://github.com/uBlockOrigin/uBOL-home#readme){ .md-button .md-button--primary }
+    [:octicons-eye-16:](https://github.com/gorhill/uBlock/wiki/Privacy-policy){ .card-link title="Политика конфиденциальности" }
+    [:octicons-info-16:](https://github.com/uBlockOrigin/uBOL-home/wiki){ .card-link title=Документация}
+    [:octicons-code-16:](https://github.com/gorhill/uBlock/tree/master/platform/mv3){ .card-link title="Исходный код" }
     
-    ??? downloads
+    ??? downloads "Скачать"
     
         - [:simple-firefoxbrowser: Firefox](https://addons.mozilla.org/addon/ublock-origin-lite/)
         - [:simple-googlechrome: Chrome](https://chrome.google.com/webstore/detail/ublock-origin-lite/ddkjiahejlhfcafbddmgiahcphecmpfh)
@@ -398,7 +398,7 @@ uBlock Origin Lite only receives block list updates whenever the extension is up
 - Доступен для Linux, macOS и Windows.
 - Любые изменения, необходимые для того, чтобы браузер больше соблюдал конфиденциальность, не должны негативно влиять на опыт использования.
 - По умолчанию блокирует сторонние файлы куки.
-- Supports [state partitioning](https://developer.mozilla.org/en-US/docs/Web/Privacy/State_Partitioning) to mitigate cross-site tracking.[^2]
+- Поддерживает [state partitioning](https://developer.mozilla.org/en-US/docs/Web/Privacy/State_Partitioning) для уменьшения межсайтового отслеживания.[^2]
 
 
 ### В лучшем случае
