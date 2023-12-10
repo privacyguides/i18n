@@ -185,7 +185,7 @@ Par défaut, LibreTube bloque toutes les publicités YouTube. En outre, Libretub
 
 !!! tip "Conseil"
 
-    Invidious est utile si vous souhaitez désactiver JavaScript dans votre navigateur, comme c'est le cas avec [le navigateur Tor](https://www.torproject.org/) au niveau de sécurité le plus sûr. Il ne garantit pas la vie privée en soi, et nous ne recommandons pas de vous connecter à un compte quelconque.
+    Invidious est utile si vous souhaitez désactiver JavaScript dans votre navigateur, comme c'est le cas avec [le navigateur Tor](https://www.torproject.org/) au niveau de sécurité le plus sûr. Il n'assure pas à lui seul la protection de la vie privée, et nous ne recommandons pas de se connecter à des comptes.
 
 ### Piped
 
@@ -205,7 +205,7 @@ Par défaut, LibreTube bloque toutes les publicités YouTube. En outre, Libretub
 
 !!! tip "Conseil"
 
-    Piped est utile si vous souhaitez utiliser [SponsorBlock](https://sponsor.ajay.app) sans installer d'extension ou pour accéder à des contenus limités en âge sans compte. Il ne garantit pas la vie privée en soi, et nous ne recommandons pas de vous connecter à un compte quelconque.
+    Piped est utile si vous souhaitez utiliser [SponsorBlock](https://sponsor.ajay.app) sans installer d'extension ou pour accéder à des contenus limités en âge sans compte. Il n'assure pas à lui seul la protection de la vie privée, et nous ne recommandons pas de se connecter à des comptes.
 
 ## Critères
 
