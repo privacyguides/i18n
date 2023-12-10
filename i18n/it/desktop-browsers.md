@@ -253,10 +253,10 @@ Le opzioni di Protezioni sono regolabili per ogni sito ma consigliamo di imposta
     ??? warning "Utilizza elenchi di filtraggio predefiniti"
         Brave ti consente di selezionare ulteriori filtri dei contenuti sulla pagina interna `brave://adblock`. Sconsigliamo questa funzionalità; piuttosto, mantieni gli elenchi di filtri predefiniti. Utilzzare ulteriori elenchi ti distinguerà dagli altri utenti di Brave e potrebbe inoltre incrementare la superficie di attacco, se è presente un exploit su Brave e una regola dannosa viene aggiunta a uno degli elenchi che utilizzi.
 
-- [x] Select **Strict** under **Upgrade connections to HTTPS**
-- [x] (Optional) Select **Block Scripts** (1)
-- [x] Select **Strict, may break sites** under Block fingerprinting
-- [x] Check **Forget me when I close this site** (2)
+- [x] Seleziona **Restrittivo** in **Aggiorna le connessioni a HTTPS**
+- [x] (facoltativo) Seleziona **Blocco degli Script** (1)
+- [x] Seleziona **Rigido, potrebbe non far funzionare alcuni siti** sotto Blocca il fingerprinting
+- [x] Controlla **Dimenticami quando chiudo questo sito** (2)
 
 </div>
 
