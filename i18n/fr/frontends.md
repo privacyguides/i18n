@@ -31,7 +31,7 @@ Lorsque vous utilisez une instance gérée par quelqu'un d'autre, veillez à lir
 
 !!! tip "Conseil"
 
-    Nitter est utile si vous souhaitez naviguer sur le contenu de Twitter sans avoir à vous connecter et si vous souhaitez désactiver JavaScript dans votre navigateur, comme c'est le cas avec [Tor Browser](https://www.torproject.org/) au niveau de sécurité le plus sûr. Il vous permet également de [créer des flux RSS pour Twitter] (news-aggregators.md#twitter).
+    Nitter est utile si vous souhaitez naviguer sur le contenu de Twitter sans avoir à vous connecter et si vous souhaitez désactiver JavaScript dans votre navigateur, comme c'est le cas avec [Tor Browser](https://www.torproject.org/) au niveau de sécurité le plus sûr. Il vous permet également de [créer des flux RSS pour Twitter](news-aggregators.md#twitter).
 
 ## TikTok
 
