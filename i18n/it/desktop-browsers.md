@@ -260,8 +260,8 @@ Le opzioni di Protezioni sono regolabili per ogni sito ma consigliamo di imposta
 
 </div>
 
-1. Quest'opzione fornisce una funzionalità simile alle [modalità di blocco](https://github.com/gorhill/uBlock/wiki/Blocking-mode) avanzata di uBlock Origin o all'estensione [NoScript](https://noscript.net/).
-2. If you wish to stay logged in to a particular site you visit often, you can set exceptions on a per-site basis by clicking on the Shield icon in the address bar.
+1. Quest'opzione fornisce una funzionalità simile alle [modalità di blocco](https://github.com/gorhill/uBlock/wiki/Blocking-mode) avanzate di uBlock Origin o all'estensione [NoScript](https://noscript.net/).
+2. Se desideri mantenere l'accesso in un particolare sito che visiti spesso, puoi selezionare le eccezioni per ogni sito cliccando sull'icona dello scudo sulla barra degli indirizzi.
 
 ##### Blocco social
 
