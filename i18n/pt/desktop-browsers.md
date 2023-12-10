@@ -255,10 +255,12 @@ As opções de proteção podem ser revogadas por cada site, de acordo com as ne
 - [x] Select **Strict** under **Upgrade connections to HTTPS**
 - [x] (Optional) Select **Block Scripts** (1)
 - [x] Select **Strict, may break sites** under Block fingerprinting
+- [x] Check **Forget me when I close this site** (2)
 
 </div>
 
 1. Esta opção disponibiliza uma funcionalidade semelhante aos modos de bloqueio avançados do uBlock Origin [](https://github.com/gorhill/uBlock/wiki/Blocking-mode) ou à extensão [NoScript](https://noscript.net/).
+2. If you wish to stay logged in to a particular site you visit often, you can set exceptions on a per-site basis by clicking on the Shield icon in the address bar.
 
 ##### Bloqueio das redes sociais
 

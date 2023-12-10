@@ -253,13 +253,15 @@ De opties van Shields kunnen naar behoefte per site worden gedowngrade, maar sta
     ??? warning "Gebruik standaard filter lijsten"
         Brave staat je toe om extra inhoud filters te selecteren binnen de interne `brave://adblock` pagina. Wij raden het gebruik van deze functie af; houd in plaats daarvan de standaardfilterlijsten aan. Het gebruik van extra lijsten zorgt ervoor dat u zich onderscheidt van andere Brave gebruikers en kan ook het aanvalsoppervlak vergroten als er een exploit in Brave is en een kwaadaardige regel wordt toegevoegd aan één van de lijsten die je gebruikt.
 
-- [x] Selecteer **Upgrade verbindingen naar HTTPS**
-- [x] (Optioneel) Selecteer **Block Scripts** (1)
-- [x] Selecteer **Streng, kan sites breken** onder **Block fingerprinting
+- [x] Select **Strict** under **Upgrade connections to HTTPS**
+- [x] (Optional) Select **Block Scripts** (1)
+- [x] Select **Strict, may break sites** under Block fingerprinting
+- [x] Check **Forget me when I close this site** (2)
 
 </div>
 
 1. Deze optie biedt functionaliteit die vergelijkbaar is met uBlock Origin's geavanceerde [blokkeringsmodes](https://github.com/gorhill/uBlock/wiki/Blocking-mode) of de [NoScript](https://noscript.net/) extensie.
+2. If you wish to stay logged in to a particular site you visit often, you can set exceptions on a per-site basis by clicking on the Shield icon in the address bar.
 
 ##### Sociale media blokkeren
 

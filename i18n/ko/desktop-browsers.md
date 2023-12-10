@@ -256,10 +256,12 @@ Brave 브라우저의 [보호](https://support.brave.com/hc/en-us/articles/36002
 - [x] Select **Strict** under **Upgrade connections to HTTPS**
 - [x] (Optional) Select **Block Scripts** (1)
 - [x] Select **Strict, may break sites** under Block fingerprinting
+- [x] Check **Forget me when I close this site** (2)
 
 </div>
 
 1. 해당 옵션은 uBlock Origin의 고급 [차단 모드](https://github.com/gorhill/uBlock/wiki/Blocking-mode)나 [NoScript](https://noscript.net/) 확장 프로그램과 유사한 기능을 제공합니다.
+2. If you wish to stay logged in to a particular site you visit often, you can set exceptions on a per-site basis by clicking on the Shield icon in the address bar.
 
 ##### 소셜 미디어 차단
 

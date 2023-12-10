@@ -253,13 +253,15 @@ Brave содержит несколько инструментов защиты 
     ??? предупреждение «Дополнительные фильтры»
         Brave позволяет тебе выбрать дополнительные фильтры на внутренней странице `brave://adblock`. Мы не рекомендуем использовать эту функцию; вместо этого оставь списки фильтров по умолчанию. Использование дополнительных фильтров выделит тебя среди других пользователей Brave, а также может увеличить площадь атаки в том случае, если в Brave есть эксплойт и вредоносное правило будет добавлено в один из используемых тобой списков.
 
-- [x] Выберите **Обязательно** в **Переключаться на HTTPS**
-- [x] (Опционально) Выберите**Блокировать скрипты** (1)
-- [x] Выберите **Строгий, Может нарушить работу сайтов** в Блокировка цифровых отпечатков
+- [x] Select **Strict** under **Upgrade connections to HTTPS**
+- [x] (Optional) Select **Block Scripts** (1)
+- [x] Select **Strict, may break sites** under Block fingerprinting
+- [x] Check **Forget me when I close this site** (2)
 
 </div>
 
 1. Эта опция обеспечивает функциональность, аналогичную расширенным [режимам блокировки](https://github.com/gorhill/uBlock/wiki/Blocking-mode) uBlock Origin или расширения [NoScript](https://noscript.net/).
+2. If you wish to stay logged in to a particular site you visit often, you can set exceptions on a per-site basis by clicking on the Shield icon in the address bar.
 
 ##### Блокировка социальных сетей
 

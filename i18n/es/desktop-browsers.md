@@ -253,13 +253,15 @@ Las opciones de los escudos pueden reducirse según las necesidades de cada siti
     ??? advertencia "Usa listas de filtros predeterminadas"
         Brave te permite seleccionar filtros de contenido adicionales dentro de la página interna `brave://adblock`. Te aconsejamos que no utilices esta función; en su lugar, mantén las listas de filtros predeterminadas. El uso de listas adicionales te hará destacar entre los demás usuarios de Brave y también puede aumentar la superficie de ataque si hay un exploit en Brave y se añade una regla maliciosa a una de las listas que utilizas.
 
-- [x] Selecciona **Estricto** en **Mejorar conexiones a HTTPS**
-- [x] (Opcional) Selecciona **Bloquear ccripts** (1)
-- [x] Selecciona **Estricto, puede dañar los sitios** en Bloquear huellas digitales
+- [x] Select **Strict** under **Upgrade connections to HTTPS**
+- [x] (Optional) Select **Block Scripts** (1)
+- [x] Select **Strict, may break sites** under Block fingerprinting
+- [x] Check **Forget me when I close this site** (2)
 
 </div>
 
 1. Esta opción proporciona una funcionalidad similar a los [modos de bloqueo ](https://github.com/gorhill/uBlock/wiki/Blocking-mode)avanzados de uBlock Origin o la extensión [NoScript](https://noscript.net/).
+2. If you wish to stay logged in to a particular site you visit often, you can set exceptions on a per-site basis by clicking on the Shield icon in the address bar.
 
 ##### Bloqueo de RRSS
 

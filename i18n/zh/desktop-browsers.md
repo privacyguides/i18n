@@ -274,13 +274,15 @@ Shields的选项可以根据需要在每个站点的基础上进行降级，但�
 ？? warning "Use default filter lists"
         Brave允许你在内部`brave://adblock`页面中选择额外的内容过滤器。 我们建议不要使用这个功能；相反，保留默认的过滤列表。 使用额外的列表会使你从其他Brave用户中脱颖而出，如果Brave中存在漏洞，恶意规则被添加到你使用的列表中，也可能增加攻击面。
 
-- [x] 在 “将连接升级到 HTTPS” 下选择 “**严格**”
-- [x] （可选） 选择 “**阻止脚本**” (1)
-- [x] 在 “阻止指纹” 下选择 “**严格，可能会破坏网站**”。
+- [x] Select **Strict** under **Upgrade connections to HTTPS**
+- [x] (Optional) Select **Block Scripts** (1)
+- [x] Select **Strict, may break sites** under Block fingerprinting
+- [x] Check **Forget me when I close this site** (2)
 
 </div>
 
-1. 该选项提供的功能类似于 uBlock Origin 的进阶 [拦截模式](https://github.com/gorhill/uBlock/wiki/Blocking-mode) 或着 [NoScript](https://noscript.net/) 扩展。
+1. This option provides functionality similar to uBlock Origin's advanced [blocking modes](https://github.com/gorhill/uBlock/wiki/Blocking-mode) or the [NoScript](https://noscript.net/) extension.
+2. If you wish to stay logged in to a particular site you visit often, you can set exceptions on a per-site basis by clicking on the Shield icon in the address bar.
 
 
 

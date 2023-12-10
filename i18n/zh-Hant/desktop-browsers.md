@@ -253,13 +253,15 @@ Shields 可以選擇根據需要依各網站情況降級，但我們建議預設
     ??? warning "使用預設過濾器列表"
         Brave允許您在內部`brave://adblock`頁面中選擇其他內容過濾器。 我們建議您不要使用此功能；請保留預設的篩選條件清單。 使用額外清單將使您在一般 Brave 用戶中被突顯出來，如果Brave有漏洞，並將惡意規則添加到您使用的清單中，也可能會增加攻擊面。
 
-- [x] 選擇 **嚴格** 位於**升級至 HTTPS 連線**選項底下
-- [x] (可選的) 選取 **屏蔽 Scripts** (1)
-- [x] 選取 **嚴格, 可能會破壞網站** 屏蔽瀏覽器識別指紋底下
+- [x] Select **Strict** under **Upgrade connections to HTTPS**
+- [x] (Optional) Select **Block Scripts** (1)
+- [x] Select **Strict, may break sites** under Block fingerprinting
+- [x] Check **Forget me when I close this site** (2)
 
 </div>
 
 1. 此選項提供的功能類似uBlock Origin 進階 [封鎖模式](https://github.com/gorhill/uBlock/wiki/Blocking-mode) 或 [NoScript](https://noscript.net/) 擴展。
+2. If you wish to stay logged in to a particular site you visit often, you can set exceptions on a per-site basis by clicking on the Shield icon in the address bar.
 
 ##### 阻擋社群媒體
 

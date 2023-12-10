@@ -253,13 +253,15 @@ Les options Shields peuvent être réduites par site selon les besoins, mais par
     ??? warning "Utiliser les listes de filtres par défaut"
         Brave vous permet de sélectionner des filtres de contenu supplémentaires dans la page interne `brave://adblock`. Nous vous déconseillons d'utiliser cette fonctionnalité ; conservez plutôt les listes de filtres par défaut. L'utilisation de listes supplémentaires vous distinguera des autres utilisateurs de Brave et peut également augmenter la surface d'attaque s'il y a une faille dans Brave et qu'une règle malveillante est ajoutée à l'une des listes que vous utilisez.
 
-- [x] Sélectionnez **Strict** sous **Mise à niveau des connexions vers HTTPS**
-- [x] (Facultatif) Sélectionnez **Bloquer les scripts** (1)
-- [x] Sélectionnez **Strict, peut endommager les sites** sous Bloquer les empreintes digitales
+- [x] Select **Strict** under **Upgrade connections to HTTPS**
+- [x] (Optional) Select **Block Scripts** (1)
+- [x] Select **Strict, may break sites** under Block fingerprinting
+- [x] Check **Forget me when I close this site** (2)
 
 </div>
 
 1. Cette option fournit une fonctionnalité similaire aux [modes de blocage](https://github.com/gorhill/uBlock/wiki/Blocking-mode) avancés de uBlock Origin ou l'extension [NoScript](https://noscript.net/).
+2. If you wish to stay logged in to a particular site you visit often, you can set exceptions on a per-site basis by clicking on the Shield icon in the address bar.
 
 ##### Blocage des médias sociaux
 

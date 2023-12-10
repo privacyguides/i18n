@@ -253,13 +253,15 @@ Le opzioni di Protezioni sono regolabili per ogni sito ma consigliamo di imposta
     ??? warning "Utilizza elenchi di filtraggio predefiniti"
         Brave ti consente di selezionare ulteriori filtri dei contenuti sulla pagina interna `brave://adblock`. Sconsigliamo questa funzionalità; piuttosto, mantieni gli elenchi di filtri predefiniti. Utilzzare ulteriori elenchi ti distinguerà dagli altri utenti di Brave e potrebbe inoltre incrementare la superficie di attacco, se è presente un exploit su Brave e una regola dannosa viene aggiunta a uno degli elenchi che utilizzi.
 
-- [x] Seleziona **Restrittivo** in **Aggiorna le connessioni a HTTPS**
-- [x] (Opzionale) Seleziona **Blocco degli script** (1)
-- [x] Seleziona **Rigido, potrebbe non far funzionare alcuni siti** in Blocca il fingerprinting
+- [x] Select **Strict** under **Upgrade connections to HTTPS**
+- [x] (Optional) Select **Block Scripts** (1)
+- [x] Select **Strict, may break sites** under Block fingerprinting
+- [x] Check **Forget me when I close this site** (2)
 
 </div>
 
-1. Quest'opzione fornisce una funzionalità simile alle [modalità di blocco](https://github.com/gorhill/uBlock/wiki/Blocking-mode) avanzate di uBlock Origin o all'estensione [NoScript](https://noscript.net/).
+1. Quest'opzione fornisce una funzionalità simile alle [modalità di blocco](https://github.com/gorhill/uBlock/wiki/Blocking-mode) avanzata di uBlock Origin o all'estensione [NoScript](https://noscript.net/).
+2. If you wish to stay logged in to a particular site you visit often, you can set exceptions on a per-site basis by clicking on the Shield icon in the address bar.
 
 ##### Blocco social
 

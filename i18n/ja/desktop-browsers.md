@@ -253,13 +253,15 @@ Braveには、[シールド](https://support.brave.com/hc/en-us/articles/3600229
     ??? warning "デフォルトのフィルターリストを使用すること"
         Braveでは、 `brave://adblock` ページ内で追加のコンテンツフィルターを選択することができます。 この機能は使わず、デフォルトのフィルターの一覧のままにしておくことをお勧めします。 追加のリストを使用すると、他のBraveユーザーから目立つようになり、また、Braveの脆弱性によってリストに悪意のあるルールが追加された場合、攻撃対象となる領域が増えるおそれがあります。
 
-- [x] **接続をHTTPSにアップグレードする**で**厳格**を選択
-- [x] （オプション）**スクリプトをブロックする**を選択 (1)
-- [x] 「フィンガープリンティングをブロック」で**厳格、サイトの表示が崩れる可能性**を選択
+- [x] Select **Strict** under **Upgrade connections to HTTPS**
+- [x] (Optional) Select **Block Scripts** (1)
+- [x] Select **Strict, may break sites** under Block fingerprinting
+- [x] Check **Forget me when I close this site** (2)
 
 </div>
 
 1. このオプションでは、uBlock Originの高度な[ブロックモード](https://github.com/gorhill/uBlock/wiki/Blocking-mode)や[NoScript](https://noscript.net/)拡張機能と同様の機能が有効になります。
+2. If you wish to stay logged in to a particular site you visit often, you can set exceptions on a per-site basis by clicking on the Shield icon in the address bar.
 
 ##### ソーシャルメディアのブロック
 

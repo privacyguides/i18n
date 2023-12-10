@@ -253,13 +253,15 @@ Brave כולל כמה אמצעים נגד טביעת אצבע בתכונת [Shie
     ??? warning "השתמש ברשימות סינון ברירת מחדל"
          Brave מאפשר לך לבחור מסנני תוכן נוספים בדף הפנימי `brave://adblock`. אנו ממליצים לא להשתמש בתכונה זו; במקום זאת, שמור על רשימות הסינון המוגדרות כברירת מחדל. שימוש ברשימות נוספות יגרום לך להתבלט ממשתמשי Brave אחרים ועלול גם להגדיל את שטח ההתקפה אם יש ניצול ב-Brave וכלל זדוני יתווסף לאחת הרשימות שבהן אתה משתמש.
 
-- [x] בחר **קפדנית** תחת **שדרג חיבורים ל-HTTPS**
-- [x] (אופציונלי) בחר **חסום סקריפטים** (1)
-- [x] בחר **קפדני, עלול לשבור אתרים** תחת חסום טביעת אצבע
+- [x] Select **Strict** under **Upgrade connections to HTTPS**
+- [x] (Optional) Select **Block Scripts** (1)
+- [x] Select **Strict, may break sites** under Block fingerprinting
+- [x] Check **Forget me when I close this site** (2)
 
 </div>
 
-1. אפשרות זו מספקת פונקציונליות דומה ל[מצבי החסימה](https://github.com/gorhill/uBlock/wiki/Blocking-mode) המתקדמים של uBlock Origin או לסיומת [NoScript](https://noscript.net/).
+1. אפשרות זו מספקת פונקציונליות דומה ל [blocking modes](https://github.com/gorhill/uBlock/wiki/Blocking-mode) המתקדמים של uBlock Origin או ל [NoScript](https://noscript.net/) extension.
+2. If you wish to stay logged in to a particular site you visit often, you can set exceptions on a per-site basis by clicking on the Shield icon in the address bar.
 
 ##### חסימת מדיה חברתית
 
