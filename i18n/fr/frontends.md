@@ -19,7 +19,7 @@ Lorsque vous utilisez une instance gérée par quelqu'un d'autre, veillez à lir
 
     ![Logo Nitter](assets/img/frontends/nitter.svg){ align=right }
     
-    **Nitter** est un frontal libre et open-source pour [Twitter](https://twitter.com) qui est également auto-hébergeable.
+    **Nitter** est un client applicatif libre et open-source pour [Twitter](https://twitter.com) qui est également auto-hébergeable.
     
     Il existe un certain nombre d'instances publiques, dont certaines bénéficient de la prise en charge des services oignon [Tor](https://www.torproject.org).
     
@@ -81,7 +81,7 @@ Lorsque vous utilisez une instance gérée par quelqu'un d'autre, veillez à lir
 
 !!! warning "Avertissement"
 
-    Lorsque vous utilisez FreeTube, votre adresse IP peut encore être connue de YouTube, [Invidious](https://instances.invidious.io) ou [SponsorBlock](https://sponsor.ajay.app/) selon votre configuration. Il utilise un réseau de type [BitTorrent](https://wikipedia.org/wiki/BitTorrent) pour stocker le contenu vidéo, et une [blockchain](https://wikipedia.org/wiki/Blockchain) pour stocker les index de ces vidéos.
+    Lorsque vous utilisez FreeTube, votre adresse IP peut encore être connue de YouTube, [Invidious](https://instances.invidious.io) ou [SponsorBlock](https://sponsor.ajay.app/) selon votre configuration. Envisagez d'utiliser un [VPN](vpn.md) ou [Tor](https://www.torproject.org) si votre [modèle de menace](basics/threat-modeling.md) nécessite de masquer votre adresse IP.
 
 ### Yattee
 
@@ -106,7 +106,7 @@ Lorsque vous utilisez une instance gérée par quelqu'un d'autre, veillez à lir
 
 !!! warning "Avertissement"
 
-    Lorsque vous utilisez Yattee, votre adresse IP peut encore être connue de YouTube, [Invidious](https://instances.invidious.io), [Piped](https://github.com/TeamPiped/Piped/wiki/Instances) ou [SponsorBlock](https://sponsor.ajay.app/) selon votre configuration. Il utilise un réseau de type [BitTorrent](https://wikipedia.org/wiki/BitTorrent) pour stocker le contenu vidéo, et une [blockchain](https://wikipedia.org/wiki/Blockchain) pour stocker les index de ces vidéos.
+    Lorsque vous utilisez Yattee, votre adresse IP peut encore être connue de YouTube, [Invidious](https://instances.invidious.io), [Piped](https://github.com/TeamPiped/Piped/wiki/Instances) ou [SponsorBlock](https://sponsor.ajay.app/) selon votre configuration. Envisagez d'utiliser un [VPN](vpn.md) ou [Tor](https://www.torproject.org) si votre [modèle de menace](basics/threat-modeling.md) nécessite de masquer votre adresse IP.
 
 Par défaut, Yattee bloque toutes les publicités YouTube. En outre, Yattee s'intègre en option à [SponsorBlock](https://sponsor.ajay.app) pour vous aider à sauter les segments vidéo sponsorisés.
 
@@ -121,10 +121,10 @@ Par défaut, Yattee bloque toutes les publicités YouTube. En outre, Yattee s'in
     
     LibreTube vous permet de stocker votre liste d'abonnement et vos listes de lecture localement sur votre appareil Android, ou dans un compte sur l'instance Piped de votre choix, ce qui vous permet d'y accéder de manière transparente sur d'autres appareils également.
     
-    [:octicons-home-16: Homepage ](https://libre-tube.github.io){ .md-button .md-button--primary }
-    [:octicons-eye-16:](https://github.com/libre-tube/LibreTube#privacy-policy-and-disclaimer){ .card-link title="Privacy Policy" }
+    [:octicons-home-16: Page d'accueil](https://libre-tube.github.io){ .md-button .md-button--primary }
+    [:octicons-eye-16:](https://github.com/libre-tube/LibreTube#privacy-policy-and-disclaimer){ .card-link title="Politique de confidentialité" }
     [:octicons-info-16:](https://github.com/libre-tube/LibreTube#readme){ .card-link title=Documentation}
-    [:octicons-code-16:](https://github.com/libre-tube/LibreTube){ .card-link title="Code source" }
+    [:octicons-code-16:](https://github.com/libre-tube/LibreTube){ .card-link title="Source code" }
     
     ??? downloads "Téléchargements"
     
@@ -132,7 +132,7 @@ Par défaut, Yattee bloque toutes les publicités YouTube. En outre, Yattee s'in
 
 !!! warning "Avertissement"
 
-    Lorsque vous utilisez LibreTube, votre adresse IP sera visible par l'instance [Piped](https://github.com/TeamPiped/Piped/wiki/Instances) que vous avez choisie et/ou [SponsorBlock](https://sponsor.ajay.app/) en fonction de votre configuration. Il utilise un réseau de type [BitTorrent](https://wikipedia.org/wiki/BitTorrent) pour stocker le contenu vidéo, et une [blockchain](https://wikipedia.org/wiki/Blockchain) pour stocker les index de ces vidéos.
+    Lorsque vous utilisez LibreTube, votre adresse IP sera visible par l'instance [Piped](https://github.com/TeamPiped/Piped/wiki/Instances) que vous avez choisie et/ou [SponsorBlock](https://sponsor.ajay.app/) en fonction de votre configuration. Envisagez d'utiliser un [VPN](vpn.md) ou [Tor](https://www.torproject.org) si votre [modèle de menace](basics/threat-modeling.md) nécessite de masquer votre adresse IP.
 
 Par défaut, LibreTube bloque toutes les publicités YouTube. En outre, Libretube utilise [SponsorBlock](https://sponsor.ajay.app) pour vous aider à sauter les segments vidéo sponsorisés. Vous pouvez configurer entièrement les types de segments que SponsorBlock va ignorer, ou le désactiver complètement. Il existe également un bouton sur le lecteur vidéo lui-même pour le désactiver pour une vidéo spécifique si vous le souhaitez.
 
@@ -160,7 +160,7 @@ Par défaut, LibreTube bloque toutes les publicités YouTube. En outre, Libretub
 
 !!! warning "Avertissement"
 
-    Lorsque vous utilisez NewPipe, votre adresse IP sera visible par les fournisseurs vidéo utilisés. Il utilise un réseau de type [BitTorrent](https://wikipedia.org/wiki/BitTorrent) pour stocker le contenu vidéo, et une [blockchain](https://wikipedia.org/wiki/Blockchain) pour stocker les index de ces vidéos.
+    Lorsque vous utilisez NewPipe, votre adresse IP sera visible par les fournisseurs vidéo utilisés. Envisagez d'utiliser un [VPN](vpn.md) ou [Tor](https://www.torproject.org) si votre [modèle de menace](basics/threat-modeling.md) nécessite de masquer votre adresse IP.
 
 ### Invidious
 

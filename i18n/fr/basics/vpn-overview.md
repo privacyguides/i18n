@@ -78,7 +78,7 @@ Vous devez également vous méfier du fait que de nombreux sites d'évaluation d
 
 [Nos recommandations VPN](../vpn.md ""){.md-button}
 
-## Alternatives VPN modernes
+## Alternatives modernes aux VPN
 
 Récemment, plusieurs organisations ont tenté de résoudre certains problèmes posés par les VPN centralisés. Ces technologies sont relativement nouvelles, mais elles méritent d'être suivies de près au fur et à mesure que le domaine se développe.
 
@@ -96,11 +96,11 @@ Les MPRs cherchent à résoudre un problème inhérent aux VPN: le fait que vous
 
     Ce serveur établit la connexion avec votre site web de destination, mais n'a aucune connaissance de votre appareil. La seule adresse IP qu'il connaît est celle du serveur d'Apple.
 
-D'autres MPRs gérés par différentes entreprises comme Google ou INVISV fonctionnent de manière très similaire. This protection by segmentation only exists if you trust the two companies to not collude with each other to deanonymize you.
+D'autres MPRs gérés par différentes entreprises comme Google ou INVISV fonctionnent de manière très similaire. Cette protection par segmentation n'existe que si vous avez confiance dans le fait que les deux entreprises ne s'entendent pas pour vous désanonymiser.
 
-### Decentralized VPNs
+### VPNs décentralisés
 
-Another attempt at solving the issues with centralized VPN services are dVPNs. These are based on blockchain technology and claim to eliminate trust in a single party by distributing the nodes across lots of different people. However, many times a dVPN will default to a single node, meaning you need to trust that node completely, just like a traditional VPN. Unlike a traditional VPN, this one node that can see all your traffic is a random person instead of your VPN provider that can be audited and has legal responsibilities to uphold their privacy policy. Multi-hop is needed to solve this, but that comes with a stability and performance cost.
+Les dVPNs constituent une autre tentative de résoudre les problèmes posés par les services VPN centralisés. Ils sont basés sur la technologie blockchain et prétendent éliminer la confiance en une seule partie en répartissant les nœuds entre un grand nombre de personnes différentes. However, many times a dVPN will default to a single node, meaning you need to trust that node completely, just like a traditional VPN. Unlike a traditional VPN, this one node that can see all your traffic is a random person instead of your VPN provider that can be audited and has legal responsibilities to uphold their privacy policy. Multi-hop is needed to solve this, but that comes with a stability and performance cost.
 
 Another consideration is legal liability. The exit node will need to deal with legal problems from misuse of the network, an issue that the Tor network has contended with for its entire existence. This discourages regular people from running nodes and makes it more attractive for a malicious actor with lots of resources to host one. This is a big problem if the service is single-node, as the potentially malicious exit node can see who you are and what you're connecting to.
 
