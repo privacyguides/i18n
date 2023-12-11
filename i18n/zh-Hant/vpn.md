@@ -90,7 +90,7 @@ Proton VPN 目前僅支援暫寺性NAT-PMP遠方 [連接埠轉發](https://proto
 
 #### :material-information-outline:{ .pg-blue } 額外功能
 
-除 Linux 以外，Proton VPN 客戶端目前支持所有平臺上的雙因素身份驗證。 在瑞士、冰島和瑞典，Proton VPN 擁有自己的伺服器和資料中心。 They offer content blocking and known-malware blocking with their DNS service. 此外， Proton VPN 還提供“Tor”伺服器，讓您可輕鬆連接到洋蔥網站，但我們仍然強烈建議這類目的，最好還是使用 [官方 Tor 瀏覽器](https://www.torproject.org/) 。
+除 Linux 以外，Proton VPN 客戶端目前支持所有平臺上的雙因素身份驗證。 在瑞士、冰島和瑞典，Proton VPN 擁有自己的伺服器和資料中心。 他們透過自己的 DNS 服務，提供內容封鎖和已知的惡意軟體網域。 此外， Proton VPN 還提供“Tor”伺服器，讓您可輕鬆連接到洋蔥網站，但我們仍然強烈建議這類目的，最好還是使用 [官方 Tor 瀏覽器](https://www.torproject.org/) 。
 
 #### :material-alert-outline:{ .pg-orange } Killswitch 無法用在  Intel 處理器的 Mac 電腦
 
@@ -382,4 +382,4 @@ Mullvad 對 [自有或租用](https://mullvad.net/en/servers/)的節點非常透
 
 ### 附加功能
 
-雖不是嚴格要求，在決定推薦哪些服務商時我們還會考慮其他一些便利或隱私因素。 These include content blocking functionality, warrant canaries, multihop connections, excellent customer support, the number of allowed simultaneous connections, etc.
+雖不是嚴格要求，在決定推薦哪些服務商時我們還會考慮其他一些便利或隱私因素。 其中包括內容封鎖功能、warrant canaries、多跳連接、出色的客戶支持、允許同時連接的數量等。

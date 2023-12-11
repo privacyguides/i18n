@@ -24,7 +24,7 @@ description: Android是一個開源作業系統，具有強大的安全保護，
 
 [Rooting](https://en.wikipedia.org/wiki/Rooting_(Android)) 安卓手机会大大降低安全性，因为它削弱了完整的 [安卓安全模型](https://en.wikipedia.org/wiki/Android_(operating_system)#Security_and_privacy)。 這可能會降低隱私，如果有一個漏洞被降低的安全性所輔助。 常見的 root 方法涉及直接篡改開機分割區，以至於造成無法成功執行Verified Boot。 需要 root 的應用程式也會修改系統分割區，這意味著 Verified Boot 必須維持停用。 直接在使用者介面中暴露 root 也會增加裝置的 [攻擊面](https://en.wikipedia.org/wiki/Attack_surface) ，助長 [特權升級](https://en.wikipedia.org/wiki/Privilege_escalation) 漏洞和 SELinux 政策繞過。
 
-Content blockers which modify the [hosts file](https://en.wikipedia.org/wiki/Hosts_(file)) (AdAway) and firewalls (AFWall+) which require root access persistently are dangerous and should not be used. 它們也不是解決其預期目的的正確方法。 For content blocking we suggest encrypted [DNS](../dns.md) or [VPN](../vpn.md) server blocking solutions instead. RethinkDNS,  TrackerControl 和 AdAway 在非根模式下將佔用VPN 插槽（通過使用本地環回 VPN)，阻止您使用隱私增強服務，如 Orbot 或真正的 VPN 伺服器。
+內容封鎖器會修改 [hosts file](https://en.wikipedia.org/wiki/Hosts_(file)) (AdAway)和需要 root 長期存取的防火牆(AFWall +)是危險的，不應該使用。 它們也不是解決其預期目的的正確方法。 對於內容封鎖，建議採加密 [DNS](../dns.md) 或 [VPN](../vpn.md) 伺服器的封鎖解決方案。 RethinkDNS,  TrackerControl 和 AdAway 在非根模式下將佔用VPN 插槽（通過使用本地環回 VPN)，阻止您使用隱私增強服務，如 Orbot 或真正的 VPN 伺服器。
 
 AFWall+ 基於 [封包過濾](https://en.wikipedia.org/wiki/Firewall_(computing)#Packet_filter) 的方法，在某些情況下可能繞過。
 

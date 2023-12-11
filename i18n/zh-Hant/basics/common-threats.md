@@ -144,5 +144,5 @@ description: 您的威脅模型雖說是個人的事，但它也是本站許多�
 [^1]: 維基百科: [*大型監控*](https://en.wikipedia.org/wiki/Mass_surveillance) 與 [*監控*](https://en.wikipedia.org/wiki/Surveillance).
 [^2]: 美國隱私和公民自由監督委員會： [*根據第 215 條進行的電話記錄計劃的報告*](https://documents.pclob.gov/prod/Documents/OversightReport/ec542143-1079-424a-84b3-acc354698560/215-Report_on_the_Telephone_Records_Program.pdf)
 [^3]: 維基百科: [*監控資本主義*](https://en.wikipedia.org/wiki/Surveillance_capitalism)
-[^4]: "[Enumerating badness](https://www.ranum.com/security/computer_security/editorials/dumb/)" (or, "listing all the bad things that we know about"), as many content blockers and antivirus programs do, fails to adequately protect you from new and unknown threats because they have not yet been added to the filter list. 您還應採用其他緩解技術。
+[^4]: “[枚舉壞處](https://www.ranum.com/security/computer_security/editorials/dumb/)” （或“列出所知的全部壞事” ），未能充分保護您免受新的和未知的威脅，因為許多內容攔截程式和防病毒程式尚未被添加到過濾器列表。 您還應採用其他緩解技術。
 [^5]: 聯合國： [*《世界人權宣言》*](https://www.un.org/en/about-us/universal-declaration-of-human-rights).
