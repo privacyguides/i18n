@@ -243,7 +243,7 @@ Ces options se trouvent dans :material-menu: → **Paramètres**.
 
 Brave inclut certaines mesures contre la prise d'empreinte numérique dans sa fonction [Shields](https://support.brave.com/hc/en-us/articles/360022973471-What-is-Shields-). Nous vous suggérons de configurer ces options [de manière globale](https://support.brave.com/hc/en-us/articles/360023646212-How-do-I-configure-global-and-site-specific-Shields-settings-) sur toutes les pages que vous visitez.
 
-Les options Shields peuvent être réduites par site selon les besoins, mais par défaut, nous recommandons de définir les paramètres suivants:
+Les options "Boucliers" peuvent être réduites par site selon les besoins, mais par défaut, nous recommandons de définir les paramètres suivants:
 
 <div class="annotate" markdown>
 
@@ -253,15 +253,15 @@ Les options Shields peuvent être réduites par site selon les besoins, mais par
     ??? warning "Utiliser les listes de filtres par défaut"
         Brave vous permet de sélectionner des filtres de contenu supplémentaires dans la page interne `brave://adblock`. Nous vous déconseillons d'utiliser cette fonctionnalité ; conservez plutôt les listes de filtres par défaut. L'utilisation de listes supplémentaires vous distinguera des autres utilisateurs de Brave et peut également augmenter la surface d'attaque s'il y a une faille dans Brave et qu'une règle malveillante est ajoutée à l'une des listes que vous utilisez.
 
-- [x] Select **Strict** under **Upgrade connections to HTTPS**
-- [x] (Optional) Select **Block Scripts** (1)
-- [x] Select **Strict, may break sites** under Block fingerprinting
-- [x] Check **Forget me when I close this site** (2)
+- [x] Sélectionnez **Strict** sous **Mettre à niveau des connexions vers HTTPS**
+- [x] (facultatif) Sélectionnez **Bloquer les scripts** (1)
+- [x] Sélectionnez **Strict, peut casser les sites** sous Bloquer la capture d'empreinte numérique
+- [x] Cochez **M'oublier quand je ferme ce site** (2)
 
 </div>
 
 1. Cette option fournit une fonctionnalité similaire aux [modes de blocage](https://github.com/gorhill/uBlock/wiki/Blocking-mode) avancés de uBlock Origin ou l'extension [NoScript](https://noscript.net/).
-2. If you wish to stay logged in to a particular site you visit often, you can set exceptions on a per-site basis by clicking on the Shield icon in the address bar.
+2. Si vous souhaitez rester connecté à un site particulier que vous visitez souvent, vous pouvez définir des exceptions pour chaque site en cliquant sur l'icône Bouclier dans la barre d'adresse.
 
 ##### Blocage des médias sociaux
 

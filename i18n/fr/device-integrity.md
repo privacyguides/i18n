@@ -1,7 +1,7 @@
 ---
-title: Device Integrity
+title: Intégrité de l'appareil
 icon: material/security
-description: These tools can be used to check your devices for compromise.
+description: Ces outils peuvent être utilisés pour vérifier que vos appareils ne sont pas compromis.
 cover: device-integrity.webp
 ---
 

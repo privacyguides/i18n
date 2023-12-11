@@ -76,7 +76,7 @@ Brave inclut certaines mesures contre la prise d'empreinte numérique dans sa fo
 
 ##### Les valeurs par défaut de Brave Shields
 
-Les options Shields peuvent être réduites par site selon les besoins, mais par défaut, nous recommandons de définir les paramètres suivants:
+Les options "Boucliers" peuvent être réduites par site selon les besoins, mais par défaut, nous recommandons de définir les paramètres suivants:
 
 <div class="annotate" markdown>
 
