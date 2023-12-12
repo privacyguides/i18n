@@ -43,7 +43,7 @@ Pour copier et coller des fichiers et des répertoires (dossiers) d'un *qube* à
 
 ??? "Les Qubes n'ont pas leur propre système de fichiers."
 
-    Vous pouvez [copier et déplacer des fichiers] (https://www.qubes-os.org/doc/how-to-copy-and-move-files/) entre *qubes*. Ce faisant, les changements ne sont pas immédiats et peuvent être facilement annulés en cas d'accident. Lorsque vous exécutez un *qube*, il ne dispose pas d'un système de fichiers persistant. Vous pouvez créer et supprimer des fichiers, mais ces modifications sont éphémères.
+    Vous pouvez [copier et déplacer des fichiers](https://www.qubes-os.org/doc/how-to-copy-and-move-files/) entre *qubes*. Ce faisant, les changements ne sont pas immédiats et peuvent être facilement annulés en cas d'accident. Lorsque vous exécutez un *qube*, il ne dispose pas d'un système de fichiers persistant. Vous pouvez créer et supprimer des fichiers, mais ces modifications sont éphémères.
 
 ### Interactions inter-VM
 

@@ -5,12 +5,12 @@ description: Ces outils peuvent être utilisés pour vérifier que vos appareils
 cover: device-integrity.webp
 ---
 
-These tools can be used to validate the integrity of your mobile devices and check them for indicators of compromise by spyware and malware such as Pegasus, Predator, or KingsPawn. This page focuses on **mobile security**, because mobile devices typically have read-only systems with well-known configurations, so detecting malicious modifications is easier than on traditional desktop systems. We may expand the focus of this page in the future.
+Ces outils peuvent être utilisés pour valider l'intégrité de vos appareils mobiles et vérifier s'ils présentent des indicateurs de compromission par des logiciels espions et malveillants tels que Pegasus, Predator ou KingsPawn. Cette page se concentre sur la **sécurité mobile**, car les appareils mobiles ont généralement des systèmes en lecture seule avec des configurations bien connues, de sorte que la détection de modifications malveillantes est plus facile que sur les systèmes de bureau traditionnels. Nous pourrions élargir la portée de cette page dans le futur.
 
-!!! note "This is an advanced topic"
+!!! note "Ceci est un sujet avancé"
 
 ```
-These tools may provide utility for certain individuals. They provide functionality which most people do not need to worry about, and often require more in-depth technical knowledge to use effectively.
+Ces outils peuvent être utiles à certaines personnes. Ils fournissent des fonctionnalités dont la plupart des gens n'ont pas besoin de s'inquiéter, et nécessitent souvent des connaissances techniques plus approfondies pour être utilisés efficacement.
 ```
 
 It is **critical** to understand that scanning your device for public indicators of compromise is **not sufficient** to determine that a device is "clean", and not targeted with a particular spyware tool. Reliance on these publicly-available scanning tools can miss recent security developments and give you a false sense of security.
