@@ -101,30 +101,30 @@ MVT vous permet d'effectuer des analyses plus approfondies si votre appareil est
 !!! recommendation
 
 ```
-![iMazing logo](assets/img/device-integrity/imazing.png){ align=right }
+![logo iMazing](assets/img/device-integrity/imazing.png){ align=right }
 
-**iMazing** provides a free spyware analyzer tool for iOS devices which acts as a GUI-wrapper for [MVT](#mobile-verification-toolkit). This can be much easier to run compared to MVT itself, which is a command-line tool designed for technologists and forensic investigators.
+**iMazing** fournit un outil gratuit d'analyse des logiciels espions pour les appareils iOS qui agit comme une interface graphique pour [MVT](#mobile-verification-toolkit). Il peut être beaucoup plus facile à utiliser que MVT lui-même, qui est un outil en ligne de commande conçu pour les technologues et les enquêteurs criminalistiques.
 
-[:octicons-home-16: Homepage](https://imazing.com/){ .md-button .md-button--primary }
-[:octicons-eye-16:](https://imazing.com/privacy-policy){ .card-link title="Privacy Policy" }
+[:octicons-home-16: Page d'accueil](https://imazing.com/){ .md-button .md-button--primary }
+[:octicons-eye-16:](https://imazing.com/privacy-policy){ .card-link title="Politique de confidentialité" }
 [:octicons-info-16:](https://imazing.com/spyware-analyzer){ .card-link title=Documentation}
 
-??? downloads
+??? downloads "Téléchargements"
 
     - [:simple-windows11: Windows](https://imazing.com/download)
     - [:simple-apple: macOS](https://imazing.com/download)
 ```
 
-iMazing automates and interactively guides you through the process of using [MVT](#mobile-verification-toolkit) to scan your device for publicly-accessible indicators of compromise published by various threat researchers. All of the information and warnings which apply to MVT apply to this tool as well, so we suggest you also familiarize yourself with the notes on MVT in the sections above.
+iMazing automatise et vous guide de manière interactive tout au long du processus d'utilisation de [MVT](#mobile-verification-toolkit) pour analyser votre appareil à la recherche d'indicateurs de compromission accessibles au public et publiés par divers chercheurs en menaces. Toutes les informations et tous les avertissements qui s'appliquent à MVT s'appliquent également à cet outil. Nous vous conseillons donc de vous familiariser également avec les notes sur MVT dans les sections ci-dessus.
 
-## On-Device Verification
+## Vérification sur l'appareil
 
-These are apps you can install which check your device and operating system for signs of tampering, and validate the identity of your device.
+Il s'agit d'applications que vous pouvez installer et qui vérifient que votre appareil et votre système d'exploitation ne présentent pas de signes d'altération et qui valident l'identité de votre appareil.
 
 !!! warning "Avertissement"
 
 ```
-Using these apps is insufficient to determine that a device is "clean", and not targeted with a particular spyware tool.
+L'utilisation de ces applications ne suffit pas à déterminer qu'un appareil est "propre" et qu'il n'est pas la cible d'un logiciel espion particulier.
 ```
 
 ### Auditor (Android)
@@ -132,22 +132,21 @@ Using these apps is insufficient to determine that a device is "clean", and not 
 !!! recommendation
 
 ```
-![Auditor logo](assets/img/device-integrity/auditor.svg#only-light){ align=right }
-![Auditor logo](assets/img/device-integrity/auditor-dark.svg#only-dark){ align=right }
+![logo Auditor](assets/img/device-integrity/auditor.svg#only-light){ align=right } ![logo Auditor](assets/img/device-integrity/auditor-dark.svg#only-dark){ align=right }
 
-**Auditor** is an app which leverages hardware security features to provide device integrity monitoring by actively validating the identity of a device and the integrity of its operating system. Currently, it only works with GrapheneOS or the stock operating system for [supported devices](https://attestation.app/about#device-support).
+**Auditor** est une application qui exploite les fonctions de sécurité matérielle pour assurer la surveillance de l'intégrité des appareils en validant activement l'identité d'un appareil et l'intégrité de son système d'exploitation. Actuellement, elle ne fonctionne qu'avec GrapheneOS ou le système d'exploitation d'origine sur les [appareils pris en charge](https://attestation.app/about#device-support).
 
-[:octicons-home-16: Homepage](https://attestation.app){ .md-button .md-button--primary }
-[:octicons-eye-16:](https://attestation.app/privacy-policy){ .card-link title="Privacy Policy" }
+[:octicons-home-16: Page d'accueil](https://attestation.app){ .md-button .md-button--primary }
+[:octicons-eye-16:](https://attestation.app/privacy-policy){ .card-link title="Politique de confidentialité" }
 [:octicons-info-16:](https://attestation.app/about){ .card-link title=Documentation}
-[:octicons-code-16:](https://attestation.app/source){ .card-link title="Source Code" }
-[:octicons-heart-16:](https://attestation.app/donate){ .card-link title=Contribute }
+[:octicons-code-16:](https://attestation.app/source){ .card-link title="Code source" }
+[:octicons-heart-16:](https://attestation.app/donate){ .card-link title=Contribuer }
 
-??? downloads
+??? downloads "Téléchargements"
 
     - [:simple-googleplay: Google Play](https://play.google.com/store/apps/details?id=app.attestation.auditor.play)
     - [:simple-github: GitHub](https://github.com/GrapheneOS/Auditor/releases)
-    - [:material-cube-outline: GrapheneOS App Store](https://github.com/GrapheneOS/Apps/releases)
+    - [:material-cube-outline: Magasin d'applications GrapheneOS](https://github.com/GrapheneOS/Apps/releases)
 ```
 
 Auditor is not a scanning/analysis tool like some other tools on this page, rather it uses your device's hardware-backed keystore to allow you to verify the identity of your device and gain assurance that the operating system itself hasn't been tampered with or downgraded via verified boot. This provides a very robust integrity check of your device itself, but doesn't necessarily check whether the user-level apps running on your device are malicious.
@@ -173,7 +172,7 @@ These are apps you can install on your device which scan your device for signs o
 !!! warning "Avertissement"
 
 ```
-Using these apps is insufficient to determine that a device is "clean", and not targeted with a particular spyware tool.
+L'utilisation de ces applications ne suffit pas à déterminer qu'un appareil est "propre" et qu'il n'est pas la cible d'un logiciel espion particulier.
 ```
 
 ### Hypatia (Android)
