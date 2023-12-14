@@ -49,28 +49,28 @@ Les outils de vérification externes s'exécutent sur votre ordinateur et analys
 !!! danger "Danger"
 
 ```
-Public indicators of compromise are insufficient to determine that a device is "clean", and not targeted with a particular spyware tool. Reliance on public indicators alone can miss recent forensic traces and give a false sense of security.
+Les indicateurs publics de compromission ne suffisent pas à déterminer qu'un appareil est "propre" et qu'il n'a pas été ciblé par un logiciel espion particulier. En se fiant uniquement aux indicateurs publics, on peut passer à côté de traces criminalistiques récentes et donner un faux sentiment de sécurité.
 
-Reliable and comprehensive digital forensic support and triage requires access to non-public indicators, research and threat intelligence.
+Une prise en charge et un triage fiables et complets en matière de criminalistique numérique nécessitent l'accès à des indicateurs non publics, à des recherches et à des renseignements sur les menaces.
 
-Such support is available to civil society through [Amnesty International's Security Lab](https://www.amnesty.org/en/tech/) or [Access Now’s Digital Security Helpline](https://www.accessnow.org/help/).
+La société civile peut bénéficier d'une prise en charge par l'intermédiaire du [laboratoire de sécurité d'Amnesty International](https://www.amnesty.org/en/tech/) ou de la [ligne d'assistance sur la sécurité numérique d'Access Now](https://www.accessnow.org/help/).
 ```
 
-These tools can trigger false-positives. If any of these tools finds indicators of compromise, you need to dig deeper to determine your actual risk. Some reports may be false positives based on websites you've visited in the past, and findings which are many years old are likely either false-positives or indicate previous (and no longer active) compromise.
+Ces outils peuvent déclencher des faux positifs. Si l'un de ces outils détecte des indicateurs de compromission, vous devez approfondir la question pour déterminer le risque réel. Certains rapports peuvent être des faux positifs basés sur des sites web que vous avez visités dans le passé, et les résultats qui datent de plusieurs années sont probablement soit des faux positifs, soit le signe d'une compromission antérieure (qui n'est plus active).
 
 ### Mobile Verification Toolkit
 
 !!! recommendation
 
 ```
-![MVT logo](assets/img/device-integrity/mvt.webp){ align=right }
+![logo MVT](assets/img/device-integrity/mvt.webp){ align=right }
 
-**Mobile Verification Toolkit** (**MVT**) is a collection of utilities which simplifies and automates the process of scanning mobile devices for potential traces of targeting or infection by known spyware campaigns. MVT was developed by Amnesty International and released in 2021 in the context of the [Pegasus Project](https://forbiddenstories.org/about-the-pegasus-project/).
+**Mobile Verification Toolkit** (**MVT**) est une collection d'utilitaires qui simplifie et automatise le processus d'analyse des appareils mobiles à la recherche de traces potentielles de ciblage ou d'infection par des campagnes de logiciels espions connues. MVT a été développé par Amnesty International et publié en 2021 dans le cadre du [Projet Pegasus](https://forbiddenstories.org/about-the-pegasus-project/).
 
-[:octicons-home-16: Homepage](https://mvt.re/){ .md-button .md-button--primary }
-[:octicons-code-16:](https://github.com/mvt-project/mvt){ .card-link title="Source Code" }
+[:octicons-home-16: Page d'accueil](https://mvt.re/){ .md-button .md-button--primary }
+[:octicons-code-16:](https://github.com/mvt-project/mvt){ .card-link title="Code source" }
 
-??? downloads
+??? downloads "Téléchargements"
 
     - [:simple-apple: macOS](https://docs.mvt.re/en/latest/install/)
     - [:simple-linux: Linux](https://docs.mvt.re/en/latest/install/)
