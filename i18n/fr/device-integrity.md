@@ -79,22 +79,22 @@ Ces outils peuvent déclencher des faux positifs. Si l'un de ces outils détecte
 !!! warning "Avertissement"
 
 ```
-Using MVT is insufficient to determine that a device is "clean", and not targeted with a particular spyware tool.
+L'utilisation de MVT ne suffit pas à déterminer qu'un appareil est "propre" et qu'il n'est pas la cible d'un logiciel espion particulier.
 ```
 
-MVT is _most_ useful for scanning iOS devices. Android stores very little diagnostic information useful to triage potential compromises, and because of this `mvt-android` capabilities are limited as well. On the other hand, encrypted iOS iTunes backups provide a large enough subset of files stored on the device to detect suspicious artifacts in many cases. This being said, MVT does still provide fairly useful tools for both iOS and Android analysis.
+MVT est _plus_ utile pour scanner les appareils iOS. Android stocke très peu d'informations de diagnostic utiles pour trier les compromissions potentielles, et pour cette raison, les capacités de `mvt-android` sont également limitées. Par contre, les sauvegardes iTunes iOS chiffrées fournissent un sous-ensemble suffisamment important de fichiers stockés sur l'appareil pour détecter les artefacts suspects dans de nombreux cas. Ceci étant dit, MVT fournit tout de même des outils assez utiles pour l'analyse des systèmes iOS et Android.
 
-If you use iOS and are at high-risk, we have three additional suggestions for you:
+Si vous utilisez iOS et que vous présentez un risque élevé, nous avons trois suggestions supplémentaires à vous faire :
 
-1. Create and keep regular (monthly) iTunes backups. This allows you to find and diagnose past infections later with MVT, if new threats are discovered in the future.
+1. Créez et conservez des sauvegardes iTunes régulières (mensuelles). Cela vous permet de trouver et de diagnostiquer les infections passées plus tard avec MVT, si de nouvelles menaces sont découvertes dans le futur.
 
-2. Trigger _sysdiagnose_ logs often and back them up externally. These logs can provide invaluable data to future forensic investigators if need be.
+2. Déclenchez souvent des journaux _sysdiagnose_ et sauvegardez-les en externe. Ces journaux peuvent fournir des données inestimables aux futurs enquêteurs criminalistiques si nécessaire.
 
-   The process to do so varies by model, but you can trigger it on newer phones by holding down _Power_ + _Volume Up_ + _Volume Down_ until you feel a brief vibration. After a few minutes, the timestamped _sysdiagnose_ log will appear in **Settings** > **Privacy & Security** > **Analytics & Improvements** > **Analytics Data**.
+   La procédure à suivre varie selon le modèle, mais vous pouvez la déclencher sur les téléphones récents en maintenant enfoncées les touches _Alimentation_ + _Volume haut_ + _Volume bas_ jusqu'à ce que vous sentiez une brève vibration. Après quelques minutes, le journal _sysdiagnose_ horodaté apparaîtra dans **Paramètres** > **Confidentialité et sécurité** > **Analytiques et améliorations** > **Données analytiques**.
 
-3. Enable [Lockdown Mode](https://blog.privacyguides.org/2022/10/27/macos-ventura-privacy-security-updates/#lockdown-mode).
+3. Activer le [mode Isolement](https://blog.privacyguides.org/2022/10/27/macos-ventura-privacy-security-updates/#lockdown-mode).
 
-MVT allows you to perform deeper scans/analysis if your device is jailbroken. Unless you know what you are doing, **do not jailbreak or root your device.** Jailbreaking your device exposes it to considerable security risks.
+MVT vous permet d'effectuer des analyses plus approfondies si votre appareil est jailbreaké. À moins que vous ne sachiez ce que vous faites, **ne jailbreakez pas et ne rootez pas votre appareil.** Le jailbreaking de votre appareil l'expose à des risques de sécurité considérables.
 
 ### iMazing (iOS)
 
