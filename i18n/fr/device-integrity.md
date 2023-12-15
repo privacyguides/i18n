@@ -149,25 +149,25 @@ L'utilisation de ces applications ne suffit pas à déterminer qu'un appareil es
     - [:material-cube-outline: Magasin d'applications GrapheneOS](https://github.com/GrapheneOS/Apps/releases)
 ```
 
-Auditor is not a scanning/analysis tool like some other tools on this page, rather it uses your device's hardware-backed keystore to allow you to verify the identity of your device and gain assurance that the operating system itself hasn't been tampered with or downgraded via verified boot. This provides a very robust integrity check of your device itself, but doesn't necessarily check whether the user-level apps running on your device are malicious.
+Auditor n'est pas un outil de scan/analyse comme d'autres outils sur cette page, mais il utilise le magasin de clés s'appuyant sur le materiel de votre appareil pour vous permettre de vérifier l'identité de votre appareil et de vous assurer que le système d'exploitation lui-même n'a pas été altéré ou dégradé par le biais d'un démarrage vérifié. Cela fournit un contrôle d'intégrité très solide de l'appareil lui-même, mais qui ne permet pas nécessairement de vérifier si les applications utilisateur exécutées sur l'appareil sont malveillantes.
 
-Auditor performs attestation and intrusion detection with **two** devices, an _auditee_ (the device being verified) and an _auditor_ (the device performing the verification). The auditor can be any Android 10+ device (or a remote web service operated by [GrapheneOS](android.md#grapheneos)), while the auditee must be a specifically [supported device](https://attestation.app/about#device-support). Auditor works by:
+Auditor effectue l'attestation et la détection d'intrusion avec **deux** appareils, un _audité_ (l'appareil vérifié) et un _auditeur_ (l'appareil effectuant la vérification). L'auditeur peut être n'importe quel appareil Android 10+ (ou un service web distant géré par [GrapheneOS](android.md#grapheneos)), tandis que l'audité doit être un [appareil pris en charge](https://attestation.app/about#device-support) spécifique. Auditor fonctionne comme tel :
 
-- Using a [Trust On First Use (TOFU)](https://en.wikipedia.org/wiki/Trust_on_first_use) model between an _auditor_ and _auditee_, the pair establish a private key in the [hardware-backed keystore](https://source.android.com/security/keystore/) of the _Auditor_.
-- The _auditor_ can either be another instance of the Auditor app or the [Remote Attestation Service](https://attestation.app).
-- The _auditor_ records the current state and configuration of the _auditee_.
-- Should tampering with the operating system of the _auditee_ happen after the pairing is complete, the auditor will be aware of the change in the device state and configurations.
-- You will be alerted to the change.
+- En utilisant un modèle de [confiance à la première utilisation (TOFU)](https://en.wikipedia.org/wiki/Trust_on_first_use) entre un _auditeur_ et un _audité_, la paire établit une clé privée dans le [magasin de clés s'appuyant sur le matériel](https://source.android.com/security/keystore/) de l'_auditeur_.
+- L'_auditeur_ peut être une autre instance de l'application Auditor ou le [service d'attestation à distance](https://attestation.app).
+- L'_auditeur_ enregistre l'état et la configuration actuels de l'_audité_.
+- Si le système d'exploitation de l'_audité_ est altéré après l'appairage, l'auditeur sera informé de la modification de l'état et de la configuration de l'appareil.
+- Vous serez alerté de ce changement.
 
-It is important to note that Auditor can only effectively detect changes **after** the initial pairing, not necessarily during or before due to its TOFU model. To make sure that your hardware and operating system is genuine, [perform local attestation](https://grapheneos.org/install/web#verifying-installation) immediately after the device has been installed and prior to any internet connection.
+Il est important de noter que l'auditeur ne peut détecter efficacement les changements _qu'après_ l'appairage initial, et pas nécessairement pendant ou avant, en raison de son modèle TOFU. Pour vous assurer que votre matériel et votre système d'exploitation sont authentiques, [effectuez une attestation locale](https://grapheneos.org/install/web#verifying-installation) immédiatement après l'installation de l'appareil et avant toute connexion à l'internet.
 
-No personally identifiable information is submitted to the attestation service. We recommend that you sign up with an anonymous account and enable remote attestation for continuous monitoring.
+Aucune donnée à charactère personnel n'est soumise au service d'attestation. Nous vous recommandons de vous inscrire avec un compte anonyme et d'activer l'attestation à distance pour un contrôle continu.
 
-If your [threat model](basics/threat-modeling.md) requires privacy, you could consider using [Orbot](tor.md#orbot) or a VPN to hide your IP address from the attestation service.
+Si votre [modèle de menace](basics/threat-modeling.md) nécessite une certaine confidentialité, vous pouvez envisager d'utiliser [Orbot](tor.md#orbot) ou un VPN pour cacher votre adresse IP au service d'attestation.
 
-## On-Device Scanners
+## Scanners embarqués
 
-These are apps you can install on your device which scan your device for signs of compromise.
+Il s'agit d'applications que vous pouvez installer sur votre appareil et qui l'analysent pour détecter des signes de compromission.
 
 !!! warning "Avertissement"
 
@@ -180,22 +180,21 @@ L'utilisation de ces applications ne suffit pas à déterminer qu'un appareil es
 !!! recommendation
 
 ```
-![Hypatia logo](assets/img/device-integrity/hypatia.svg#only-light){ align=right }
-![Hypatia logo](assets/img/device-integrity/hypatia-dark.svg#only-dark){ align=right }
+![Logo Hypatia](assets/img/device-integrity/hypatia.svg#only-light){ align=right } ![Logo Hypatia](assets/img/device-integrity/hypatia-dark.svg#only-dark){ align=right }
 
-**Hypatia** is an open source real-time malware scanner for Android, from the developer of [DivestOS](android.md#divestos). It accesses the internet to download signature database updates, but does not upload your files or any metadata to the cloud (scans are performed entirely locally).
+**Hypatia** est un scanner de logiciels malveillants en temps réel pour Android, développé par le développeur de [DivestOS](android.md#divestos). Il accède à Internet pour télécharger les mises à jour de la base de signatures, mais n'envoie pas vos fichiers ni aucune métadonnée sur le cloud (les analyses sont entièrement effectuées localement).
 
-[:octicons-home-16: Homepage](https://divestos.org/pages/our_apps#hypatia){ .md-button .md-button--primary }
-[:octicons-eye-16:](https://divestos.org/pages/privacy_policy#hypatia){ .card-link title="Privacy Policy" }
-[:octicons-code-16:](https://github.com/divested-mobile/hypatia){ .card-link title="Source Code" }
-[:octicons-heart-16:](https://divested.dev/pages/donate){ .card-link title=Contribute }
+[:octicons-home-16: Page d'accueil](https://divestos.org/pages/our_apps#hypatia){ .md-button .md-button--primary }
+[:octicons-eye-16:](https://divestos.org/pages/privacy_policy#hypatia){ .card-link title="Politique de confidentialité" }
+[:octicons-code-16:](https://github.com/divested-mobile/hypatia){ .card-link title="Code source" }
+[:octicons-heart-16:](https://divested.dev/pages/donate){ .card-link title=Contribuer }
 
-??? downloads
+??? downloads "Téléchargements"
 
     - [:simple-android: F-Droid](https://f-droid.org/packages/us.spotco.malwarescanner/)
 ```
 
-Hypatia is particularly good at detecting common stalkerware: If you suspect you are a victim of stalkerware, you should [visit this page](https://stopstalkerware.org/information-for-survivors/) for advice.
+Hypatia est particulièrement efficace pour détecter les logiciels de harcèlement : si vous pensez être victime d'un logiciel de harcèlement, vous devriez [visiter cette page](https://stopstalkerware.org/information-for-survivors/) pour obtenir des conseils.
 
 ### iVerify (iOS)
 
