@@ -201,21 +201,21 @@ Hypatia est particulièrement efficace pour détecter les logiciels de harcèlem
 !!! recommendation
 
 ```
-![iVerify logo](assets/img/device-integrity/iverify.webp){ align=right }
+![logo iVerify](assets/img/device-integrity/iverify.webp){ align=right }
 
-**iVerify** is an iOS app which automatically scans your device to check configuration settings, patch level, and other areas of security. It also checks your device for indicators of compromise by jailbreak tools or spyware such as Pegasus.
+**iVerify** est une application iOS qui analyse automatiquement votre appareil pour vérifier les paramètres de configuration, le niveau des correctifs et d'autres aspects de la sécurité. Elle vérifie également que votre appareil ne présente pas d'indicateurs de compromission par des outils de jailbreak ou des logiciels espions tels que Pegasus.
 
-[:octicons-home-16: Homepage](https://www.iverify.io/consumer){ .md-button .md-button--primary }
-[:octicons-eye-16:](https://www.iverify.io/privacy-policy){ .card-link title="Privacy Policy" }
+[:octicons-home-16: Page d'accueik](https://www.iverify.io/consumer){ .md-button .md-button--primary }
+[:octicons-eye-16:](https://www.iverify.io/privacy-policy){ .card-link title="Politique de confidentialité" }
 [:octicons-info-16:](https://www.iverify.io/frequently-asked-questions#iVerify-General){ .card-link title=Documentation}
 
-??? downloads
+??? downloads *Téléchargements*
 
     - [:simple-appstore: App Store](https://apps.apple.com/us/app/iverify/id1466120520)
 ```
 
-Like all iOS apps, iVerify is restricted to what it can observe about your device from within the iOS App Sandbox. It will not provide nearly as robust analysis as a full-system analysis tool like [MVT](#mobile-verification-toolkit). Its primary function is to detect whether your device is jailbroken, which it is effective at, however a hypothetical threat which is _specifically_ designed to bypass iVerify's checks would likely succeed at doing so.
+Comme toutes les applications iOS, iVerify est limité à ce qu'il peut observer sur votre appareil depuis l'iOS App Sandbox. Elle ne fournira pas une analyse aussi solide qu'un outil d'analyse de système complet tel que [MVT](#mobile-verification-toolkit). Sa fonction première est de détecter si votre appareil est jailbreaké, ce qu'elle fait efficacement, mais une menace hypothétique conçue _spécifiquement_ pour contourner les contrôles d'iVerify y parviendrait probablement.
 
-iVerify is **not** an "antivirus" tool, and will not detect non-system-level malware such as malicious custom keyboards or malicious Wi-Fi Sync configurations, for example.
+iVerify n'est **pas** un outil "antivirus" et ne détectera pas les logiciels malveillants non liés au système, tels que les claviers personnalisés malveillants ou les synchronisations de configurations Wi-Fi malveillantes, par exemple.
 
-In addition to device scanning, iVerify also includes a number of additional security utilities which you may find useful, including device reboot reminders, iOS update notifications (which are often faster than Apple's staggered update notification rollout), some basic privacy and security guides, and a DNS over HTTPS tool which can connect your device's [DNS](dns.md) queries securely to Quad9, Cloudflare, or Google.
+Outre l'analyse de l'appareil, iVerify comprend également un certain nombre d'utilitaires de sécurité supplémentaires qui peuvent s'avérer utiles, notamment des rappels de redémarrage de l'appareil, des notifications de mise à jour iOS (qui sont souvent plus rapides que les notifications de mise à jour échelonnées d'Apple), des guides de base sur la confidentialité et la sécurité, et un outil DNS over HTTPS qui peut connecter les requêtes [DNS](dns.md) de votre appareil de manière sécurisée à Quad9, Cloudflare, ou Google.
