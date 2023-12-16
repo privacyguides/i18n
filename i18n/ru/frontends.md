@@ -223,4 +223,4 @@ cover: frontends.webp
 
 Мы рассматриваем фронтенды только для сайтов, которые...
 
-- Обычно недоступны без JavaScript.
+- Not normally accessible without JavaScript.

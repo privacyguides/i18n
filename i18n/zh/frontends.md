@@ -223,4 +223,4 @@ By default, LibreTube blocks all YouTube advertisements. Additionally, Libretube
 
 We only consider frontends for websites which are...
 
-- 不启用Javascript就不能正常访问。
+- Not normally accessible without JavaScript.

@@ -223,4 +223,4 @@ cover: frontends.webp
 
 我們只考慮網站的前端是...
 
-- 沒 JavaScript 無法正常存取。
+- Not normally accessible without JavaScript.
