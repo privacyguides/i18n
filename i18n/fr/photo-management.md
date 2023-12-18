@@ -12,7 +12,7 @@ La plupart des solutions cloud de gestion de photos, telles que Google Photos, F
 !!! recommendation
 
 ```
-![logo ente ](assets/img/photo-management/ente.svg#only-light){ align=right }
+![logo ente](assets/img/photo-management/ente.svg#only-light){ align=right }
 ![logo ente](assets/img/photo-management/ente-dark.svg#only-dark){ align=right }
 
 **ente** est un service de sauvegarde de photos chiffré de bout en bout qui prend en charge les sauvegardes automatiques sur iOS et Android. Il a fait l'objet d'un [audit par Cure53](https://ente.io/blog/cryptography-audit/) en mars 2023.
