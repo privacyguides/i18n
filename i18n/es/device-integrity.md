@@ -29,7 +29,7 @@ Si alguna de las siguientes herramientas indica un posible compromiso por parte 
 - Si un dispositivo empresarial o gubernamental se ve comprometido: Ponte en contacto con el responsable de seguridad de tu empresa, departamento o agencia
 - Fuerzas y cuerpos de seguridad locales
 
-**No podemos ayudarte directamente más allá de esto.** Estamos encantados de discutir tu situación específica o circunstancias y de revisar tus resultados en nuestros espacios de \[community]\(https\://discuss. rivacyguides.net), pero es poco probable que podamos ayudarte más allá de lo que está escrito en esta página.
+**No podemos ayudarte directamente más allá de esto.** Estamos encantados de discutir tu situación específica o circunstancias y de revisar tus resultados en nuestros espacios de [community](https\://discuss. rivacyguides.net), pero es poco probable que podamos ayudarte más allá de lo que está escrito en esta página.
 
 Las herramientas de esta página solo son capaces de detectar indicadores de compromiso, no de eliminarlos. Si te preocupa haber sido comprometido, te aconsejamos que:
 
