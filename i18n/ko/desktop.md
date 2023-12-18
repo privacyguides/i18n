@@ -67,13 +67,13 @@ DIY 배포판이므로 여러분은 자신의 시스템을 여러분 자신이 [
 
     ![Fedora Silverblue logo](assets/img/linux-desktop/fedora-silverblue.svg){ align=right }
     
-    **Fedora Silverblue** and **Fedora Kinoite** are immutable variants of Fedora with a strong focus on container workflows. Silverblue comes with the [GNOME](https://www.gnome.org/) desktop environment while Kinoite comes with [KDE](https://kde.org/). Silverblue and Kinoite follow the same release schedule as Fedora Workstation, benefiting from the same fast updates and staying very close to upstream.
+    **Fedora Silverblue** is an immutable variant of Fedora with a strong focus on container workflows and the [GNOME](https://www.gnome.org/) desktop environment. If you prefer an environment other than GNOME, there are also other variants including [Kinoite](https://fedoraproject.org/kinoite/) (which comes with [KDE](https://kde.org/)) and [Sericea](https://fedoraproject.org/sericea/) (which comes with [Sway](https://swaywm.org/), a [Wayland](https://wayland.freedesktop.org)-only tiling window manager). We don't recommend [Onyx](https://fedoraproject.org/onyx/) at this time as it still [requires X11](https://buddiesofbudgie.org/blog/wayland). All of these variants follow the same release schedule as Fedora Workstation, benefiting from the same fast updates and staying very close to upstream.
     
     [:octicons-home-16: Homepage](https://fedoraproject.org/silverblue/){ .md-button .md-button--primary }
     [:octicons-info-16:](https://docs.fedoraproject.org/en-US/fedora-silverblue/){ .card-link title=Documentation}
     [:octicons-heart-16:](https://whatcanidoforfedora.org/){ .card-link title=Contribute }
 
-Silverblue (and Kinoite) differ from Fedora Workstation as they replace the [DNF](https://docs.fedoraproject.org/en-US/quick-docs/dnf/) package manager with a much more advanced alternative called [`rpm-ostree`](https://docs.fedoraproject.org/en-US/fedora/latest/system-administrators-guide/package-management/rpm-ostree/). `rpm-ostree` 패키지 관리자는 시스템의 베이스 이미지를 다운로드한 이후 [git](https://en.wikipedia.org/wiki/Git)과 유사한 커밋 트리에서 패키지를 오버레이하는 방식으로 작동합니다. 시스템을 업데이트하는 경우, 새로운 베이스 이미지를 다운로드하고 해당 이미지에 오버레이합니다.
+Silverblue and its variants differ from Fedora Workstation as they replace the [DNF](https://docs.fedoraproject.org/en-US/quick-docs/dnf/) package manager with a much more advanced alternative called [`rpm-ostree`](https://docs.fedoraproject.org/en-US/fedora/latest/system-administrators-guide/package-management/rpm-ostree/). `rpm-ostree` 패키지 관리자는 시스템의 베이스 이미지를 다운로드한 이후 [git](https://en.wikipedia.org/wiki/Git)과 유사한 커밋 트리에서 패키지를 오버레이하는 방식으로 작동합니다. 시스템을 업데이트하는 경우, 새로운 베이스 이미지를 다운로드하고 해당 이미지에 오버레이합니다.
 
 업데이트가 완료되면 새로 만들어진 시스템으로 재부팅합니다. `rpm-ostree`는 두 개의 시스템을 모두 유지하므로, 새로 배포된 시스템에서 문제가 발생하는 경우 간단히 롤백할 수 있습니다. 필요에 따라 유지할 시스템 수를 더 늘리는 옵션도 존재합니다.
 

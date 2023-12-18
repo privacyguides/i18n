@@ -11,7 +11,7 @@ Les distributions Linux sont généralement recommandées pour la protection de 
 
 ## Distributions traditionnelles
 
-### Station de travail Fedora
+### Fedora Workstation
 
 !!! recommendation
 
@@ -65,15 +65,15 @@ Une grande partie des [paquets d'Arch Linux](https://reproducible.archlinux.org)
 
 !!! recommendation
 
-    ![Logo Fedora Silverblue](assets/img/linux-desktop/fedora-silverblue.svg){ align=right }
+    ![logo Fedora Silverblue](assets/img/linux-desktop/fedora-silverblue.svg){ align=right }
     
-    **Fedora Silverblue** et **Fedora Kinoite** sont des variantes immuables de Fedora qui mettent l'accent sur les flux de travail en conteneur. Silverblue est livré avec l'environnement de bureau [GNOME](https://www.gnome.org/) tandis que Kinoite est livré avec [KDE](https://kde.org/fr/). Silverblue et Kinoite suivent le même calendrier de publication que Fedora Workstation, bénéficiant des mêmes mises à jour rapides et restant très proches de l'original.
+    **Fedora Silverblue** est une variante immuable de Fedora qui met l'accent sur les flux de travail en conteneur et l'environnement de bureau [GNOME](https://www.gnome.org/). Si vous préférez un environnement autre que GNOME, il existe d'autres variantes, notamment [Kinoite](https://fedoraproject.org/kinoite/) (qui inclut [KDE](https://kde.org/)) et [Sericea](https://fedoraproject.org/sericea/) (qui inclut [Sway](https://swaywm.org/), un gestionnaire de fenêtres en mosaïque exclusif à [Wayland](https://wayland.freedesktop.org)). Nous ne recommandons pas [Onyx](https://fedoraproject.org/onyx/) pour l'instant car il [nécessite toujours X11](https://buddiesofbudgie.org/blog/wayland). Toutes ces variantes suivent le même calendrier de publication que Fedora Workstation, bénéficiant des mêmes mises à jour rapides et restant très proches de l'original.
     
     [:octicons-home-16: Page d'accueil](https://fedoraproject.org/silverblue/){ .md-button .md-button--primary }
     [:octicons-info-16:](https://docs.fedoraproject.org/en-US/fedora-silverblue/){ .card-link title=Documentation}
     [:octicons-heart-16:](https://whatcanidoforfedora.org/){ .card-link title=Contribuer }
 
-Silverblue (et Kinoite) diffèrent de la station de travail Fedora car ils remplacent le gestionnaire de paquets [DNF](https://docs.fedoraproject.org/en-US/quick-docs/dnf/) par une alternative beaucoup plus avancée appelée [`rpm-ostree`](https://docs.fedoraproject.org/en-US/fedora/latest/system-administrators-guide/package-management/rpm-ostree/). Le gestionnaire de paquets `rpm-ostree` fonctionne en téléchargeant une image de base pour le système, puis en superposant des paquets par-dessus dans un arbre de commit semblable à [git](https://fr.wikipedia.org/wiki/Git). Lorsque le système est mis à jour, une nouvelle image de base est téléchargée et les surcouches seront appliquées à cette nouvelle image.
+Silverblue et ses variantes diffèrent de Fedora Workstation car ils remplacent le gestionnaire de paquets [DNF](https://docs.fedoraproject.org/en-US/quick-docs/dnf/) par une alternative beaucoup plus avancée appelée [`rpm-ostree`](https://docs.fedoraproject.org/en-US/fedora/latest/system-administrators-guide/package-management/rpm-ostree/). Le gestionnaire de paquets `rpm-ostree` fonctionne en téléchargeant une image de base pour le système, puis en superposant des paquets par-dessus dans un arbre de commit semblable à [git](https://fr.wikipedia.org/wiki/Git). Lorsque le système est mis à jour, une nouvelle image de base est téléchargée et les surcouches seront appliquées à cette nouvelle image.
 
 Une fois la mise à jour terminée, vous redémarrez le système dans le nouveau déploiement. `rpm-ostree` conserve deux déploiements du système afin que vous puissiez facilement revenir en arrière si quelque chose se casse dans le nouveau déploiement. Il est également possible d'épingler plus de déploiements selon les besoins.
 

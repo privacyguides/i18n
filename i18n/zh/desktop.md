@@ -65,15 +65,15 @@ Arch Linux有一个滚动的发布周期。 没有固定的发布时间表，软
 
 !!! recommendation
 
-    ![Fedora Silverblue logo](assets/img/linux-desktop/fedora-silverblue.svg){ align=right }。
+    ![Fedora Silverblue logo](assets/img/linux-desktop/fedora-silverblue.svg){ align=right }
     
-    **Fedora Silverblue**和**Fedora Kinoite**是Fedora的不可改变的变体，非常注重容器工作流程。 Silverblue配有 [GNOME]（https://www.gnome.org/）桌面环境，而Kinoite配有 [KDE]（https://kde.org/）。 Silverblue和Kinoite遵循与Fedora Workstation相同的发布时间表，受益于同样的快速更新，并与上游保持非常紧密的联系。
+    **Fedora Silverblue** is an immutable variant of Fedora with a strong focus on container workflows and the [GNOME](https://www.gnome.org/) desktop environment. If you prefer an environment other than GNOME, there are also other variants including [Kinoite](https://fedoraproject.org/kinoite/) (which comes with [KDE](https://kde.org/)) and [Sericea](https://fedoraproject.org/sericea/) (which comes with [Sway](https://swaywm.org/), a [Wayland](https://wayland.freedesktop.org)-only tiling window manager). We don't recommend [Onyx](https://fedoraproject.org/onyx/) at this time as it still [requires X11](https://buddiesofbudgie.org/blog/wayland). All of these variants follow the same release schedule as Fedora Workstation, benefiting from the same fast updates and staying very close to upstream.
     
     [:octicons-home-16: Homepage](https://fedoraproject.org/silverblue/){ .md-button .md-button--primary }
     [:octicons-info-16:](https://docs.fedoraproject.org/en-US/fedora-silverblue/){ .card-link title=Documentation}
     [:octicons-heart-16:](https://whatcanidoforfedora.org/){ .card-link title=Contribute }
 
-Silverblue (and Kinoite) differ from Fedora Workstation as they replace the [DNF](https://docs.fedoraproject.org/en-US/quick-docs/dnf/) package manager with a much more advanced alternative called [`rpm-ostree`](https://docs.fedoraproject.org/en-US/fedora/latest/system-administrators-guide/package-management/rpm-ostree/). `rpm-ostree` 软件包管理器的工作方式是为系统下载一个基本镜像，然后在一个 [git](https://en.wikipedia.org/wiki/Git)-like commit tree中叠加软件包。 当系统更新时，会下载一个新的基本图像，覆盖物将被应用于该新图像。
+Silverblue and its variants differ from Fedora Workstation as they replace the [DNF](https://docs.fedoraproject.org/en-US/quick-docs/dnf/) package manager with a much more advanced alternative called [`rpm-ostree`](https://docs.fedoraproject.org/en-US/fedora/latest/system-administrators-guide/package-management/rpm-ostree/). `rpm-ostree` 软件包管理器的工作方式是为系统下载一个基本镜像，然后在一个 [git](https://en.wikipedia.org/wiki/Git)-like commit tree中叠加软件包。 当系统更新时，会下载一个新的基本图像，覆盖物将被应用于该新图像。
 
 更新完成后，你将重新启动系统进入新的部署。 `rpm-ostree` 保持系统的两个部署，这样如果在新的部署中出现问题，你可以很容易地回滚。 还可以根据需要选择钉更多的部署。
 
