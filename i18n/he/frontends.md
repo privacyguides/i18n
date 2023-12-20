@@ -223,4 +223,4 @@ cover: frontends.webp
 
 אנו מתייחסים רק לחזיתות עבור אתרים שהם...
 
-- Not normally accessible without JavaScript.
+- Normally accessible without JavaScript.

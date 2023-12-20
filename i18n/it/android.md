@@ -68,7 +68,7 @@ schema:
   - 
     "@context": http://schema.org
     "@type": MobileApplication
-    name: Fotocamera Sicura
+    name: Secure Camera
     applicationCategory: Utilities
     operatingSystem: Android
   - 
@@ -126,9 +126,9 @@ I telefoni Google Pixel sono i soli dispositivi che, al momento, soddisfano i [r
 
 !!! recommendation
 
-    ![Logo di DivestOS](assets/img/android/divestos.svg){ align=right }
+    ![DivestOS logo](assets/img/android/divestos.svg){ align=right }
     
-    **DivestOS** è una biforcazione morbida di [LineageOS](https://lineageos.org/).
+    **DivestOS** è un soft-fork di [LineageOS](https://lineageos.org/).
     DivestOS eredita molti [dispositivi supportati](https://divestos.org/index.php?page=devices&base=LineageOS) da LineageOS. Dispone di build firmate, rendendo possibile l'[avvio verificato](https://source.android.com/security/verifiedboot) su alcuni dispositivi non Pixel.
     
     [:octicons-home-16: Home](https://divestos.org){ .md-button .md-button--primary }
@@ -216,7 +216,7 @@ Consigliamo un'ampia gamma di app di Android, tramite questo sito. Le app qui el
     
     Utilizzando Shelter, ti affidi interamente al suo sviluppatore, poiché Shelter agisce da [Admin del Dispositivo](https://developer.android.com/guide/topics/admin/device-admin?hl=it) per creare il Profilo di Lavoro, e ha ampio accesso ai dati memorizzati nel Profilo di Lavoro.
 
-### Fotocamera Sicura
+### Secure Camera
 
 !!! recommendation
 
