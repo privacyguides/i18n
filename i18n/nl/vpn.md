@@ -53,12 +53,12 @@ Onze aanbevolen providers gebruiken encryptie, accepteren Monero, ondersteunen W
         - [:simple-windows11: Windows](https://protonvpn.com/download-windows)
         - [:simple-linux: Linux](https://protonvpn.com/support/linux-vpn-setup/)
 
-#### :material-check:{ .pg-green } 68 Countries
+#### :material-check:{ .pg-green } 71 Countries
 
-Proton VPN has [servers in 68 countries](https://protonvpn.com/vpn-servers).(1) Picking a VPN provider with a server nearest to you will reduce latency of the network traffic you send. Dit komt door een kortere route (minder hops) naar de bestemming.
+Proton VPN has [servers in 71 countries](https://protonvpn.com/vpn-servers).(1) Picking a VPN provider with a server nearest to you will reduce latency of the network traffic you send. Dit komt door een kortere route (minder hops) naar de bestemming.
 { .annotate }
 
-1. Last checked: 2023-07-28
+1. Last checked: 2023-12-21
 
 Wij denken ook dat het beter is voor de veiligheid van de privésleutels van de VPN-provider als ze [dedicated servers](https://en.wikipedia.org/wiki/Dedicated_hosting_service) gebruiken, in plaats van goedkopere gedeelde servers (met andere klanten) zoals [virtual private servers](https://en.wikipedia.org/wiki/Virtual_private_server).
 
@@ -118,12 +118,12 @@ Systeemcrashes [kunnen optreden](https://protonvpn.com/support/macos-t2-chip-kil
         - [:simple-apple: macOS](https://www.ivpn.net/apps-macos/)
         - [:simple-linux: Linux](https://www.ivpn.net/apps-linux/)
 
-#### :material-check:{ .pg-green } 35 Landen
+#### :material-check:{ .pg-green } 37 Countries
 
-IVPN heeft [servers in 35 landen](https://www.ivpn.net/server-locations).(1) Door een VPN-provider te kiezen met een server die het dichtst bij je in de buurt staat, verminder je de vertraging van het netwerkverkeer die je verstuurt. Dit komt door een kortere route (minder hops) naar de bestemming.
+IVPN has [servers in 37 countries](https://www.ivpn.net/server-locations).(1) Picking a VPN provider with a server nearest to you will reduce latency of the network traffic you send. Dit komt door een kortere route (minder hops) naar de bestemming.
 { .annotate }
 
-1. Last checked: 2023-07-28
+1. Last checked: 2023-12-21
 
 Wij denken ook dat het beter is voor de veiligheid van de privésleutels van de VPN-provider als ze [dedicated servers](https://en.wikipedia.org/wiki/Dedicated_hosting_service) gebruiken, in plaats van goedkopere gedeelde servers (met andere klanten) zoals [virtual private servers](https://en.wikipedia.org/wiki/Virtual_private_server).
 
@@ -180,12 +180,12 @@ IVPN-clients ondersteunen tweefactorauthenticatie (de clients van Mullvad niet).
         - [:simple-apple: macOS](https://mullvad.net/en/download/macos/)
         - [:simple-linux: Linux](https://mullvad.net/en/download/linux/)
 
-#### :material-check:{ .pg-green } 43 Countries
+#### :material-check:{ .pg-green } 40 Countries
 
-Mullvad has [servers in 43 countries](https://mullvad.net/servers/).(1) Picking a VPN provider with a server nearest to you will reduce latency of the network traffic you send. Dit komt door een kortere route (minder hops) naar de bestemming.
+Mullvad has [servers in 40 countries](https://mullvad.net/servers/).(1) Picking a VPN provider with a server nearest to you will reduce latency of the network traffic you send. Dit komt door een kortere route (minder hops) naar de bestemming.
 { .annotate }
 
-1. Last checked: 2023-07-28
+1. Last checked: 2023-12-21
 
 Wij denken ook dat het beter is voor de veiligheid van de privésleutels van de VPN-provider als ze [dedicated servers](https://en.wikipedia.org/wiki/Dedicated_hosting_service) gebruiken, in plaats van goedkopere gedeelde servers (met andere klanten) zoals [virtual private servers](https://en.wikipedia.org/wiki/Virtual_private_server).
 

@@ -53,12 +53,12 @@ Os nossos fornecedores recomendados usam encriptação, aceitam Monero, suportam
         - [:simple-windows11: Windows](https://protonvpn.com/download-windows)
         - [:simple-linux: Linux](https://protonvpn.com/support/linux-vpn-setup/)
 
-#### :material-check:{ .pg-green } 68 Countries
+#### :material-check:{ .pg-green } 71 Countries
 
-Proton VPN has [servers in 68 countries](https://protonvpn.com/vpn-servers).(1) Picking a VPN provider with a server nearest to you will reduce latency of the network traffic you send. Isto deve-se ao facto do percurso até ao destino ser mais curto (menos saltos).
+Proton VPN has [servers in 71 countries](https://protonvpn.com/vpn-servers).(1) Picking a VPN provider with a server nearest to you will reduce latency of the network traffic you send. Isto deve-se ao facto do percurso até ao destino ser mais curto (menos saltos).
 { .annotate }
 
-1. Last checked: 2023-07-28
+1. Last checked: 2023-12-21
 
 Também achamos que é melhor para a segurança das chaves privadas do fornecedor de VPN a utilização de servidores dedicados [](https://en.wikipedia.org/wiki/Dedicated_hosting_service), em vez de soluções partilhadas mais baratas (com outros clientes), como os servidores privados virtuais [](https://en.wikipedia.org/wiki/Virtual_private_server).
 
@@ -119,12 +119,12 @@ Falhas do sistema [podem ocorrer](https://protonvpn.com/support/macos-t2-chip-ki
         - [:simple-apple: macOS](https://www.ivpn.net/apps-macos/)
         - [:simple-linux: Linux](https://www.ivpn.net/apps-linux/)
 
-#### :material-check:{ .pg-green } 35 países
+#### :material-check:{ .pg-green } 37 Countries
 
-O IVPN tem [servidores em 35 países](https://www.ivpn.net/server-locations).(1) A escolha de um fornecedor de VPN com servidores geograficamente mais próximos da sua localização reduzirá a latência do tráfego de rede que envia. Isto deve-se ao facto do percurso até ao destino ser mais curto (menos saltos).
+IVPN has [servers in 37 countries](https://www.ivpn.net/server-locations).(1) Picking a VPN provider with a server nearest to you will reduce latency of the network traffic you send. Isto deve-se ao facto do percurso até ao destino ser mais curto (menos saltos).
 { .annotate }
 
-1. Last checked: 2023-07-28
+1. Last checked: 2023-12-21
 
 Também achamos que é melhor para a segurança das chaves privadas do fornecedor de VPN a utilização de servidores dedicados [](https://en.wikipedia.org/wiki/Dedicated_hosting_service), em vez de soluções partilhadas mais baratas (com outros clientes), como os servidores privados virtuais [](https://en.wikipedia.org/wiki/Virtual_private_server).
 
@@ -182,12 +182,12 @@ Os clientes IVPN suportam autenticação de dois fatores (os clientes da Mullvad
         - [:simple-apple: macOS](https://mullvad.net/en/download/macos/)
         - [:simple-linux: Linux](https://mullvad.net/en/download/linux/)
 
-#### :material-check:{ .pg-green } 43 Countries
+#### :material-check:{ .pg-green } 40 Countries
 
-Mullvad has [servers in 43 countries](https://mullvad.net/servers/).(1) Picking a VPN provider with a server nearest to you will reduce latency of the network traffic you send. Isto deve-se ao facto do percurso até ao destino ser mais curto (menos saltos).
+Mullvad has [servers in 40 countries](https://mullvad.net/servers/).(1) Picking a VPN provider with a server nearest to you will reduce latency of the network traffic you send. Isto deve-se ao facto do percurso até ao destino ser mais curto (menos saltos).
 { .annotate }
 
-1. Last checked: 2023-07-28
+1. Last checked: 2023-12-21
 
 Também achamos que é melhor para a segurança das chaves privadas do fornecedor de VPN a utilização de servidores dedicados [](https://en.wikipedia.org/wiki/Dedicated_hosting_service), em vez de soluções partilhadas mais baratas (com outros clientes), como os servidores privados virtuais [](https://en.wikipedia.org/wiki/Virtual_private_server).
 

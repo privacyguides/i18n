@@ -53,12 +53,12 @@ cover: vpn.webp
         - [:simple-windows11: Windows](https://protonvpn.com/download-windows)
         - [:simple-linux: Linux](https://protonvpn.com/support/linux-vpn-setup/)
 
-#### :material-check:{ .pg-green } 68 מדינות
+#### :material-check:{ .pg-green } 71 Countries
 
-ל- Proton VPN יש [ שרתים ב -68 מדינות ](https://protonvpn.com/vpn-servers). (1) בחירת ספק VPN עם שרת הקרוב אליך תפחית את זמן האחזור של תעבורת הרשת שאתה שולח. הסיבה לכך היא מסלול קצר יותר (פחות דילוגים) ליעד.
+Proton VPN has [servers in 71 countries](https://protonvpn.com/vpn-servers).(1) Picking a VPN provider with a server nearest to you will reduce latency of the network traffic you send. הסיבה לכך היא מסלול קצר יותר (פחות דילוגים) ליעד.
 { .annotate }
 
-1. נבדק לאחרונה: 2023-07-28
+1. Last checked: 2023-12-21
 
 אנחנו גם חושבים שעדיף לאבטחת המפתחות הפרטיים של ספק ה-VPN אם הם משתמשים ב[שרתים ייעודיים](https://en.wikipedia.org/wiki/Dedicated_hosting_service), במקום פתרונות משותפים זולים יותר (עם לקוחות אחרים) כמו [שרתים פרטיים וירטואליים](https://en.wikipedia.org/wiki/Virtual_private_server).
 
@@ -118,12 +118,12 @@ Proton VPN תומך כרגע רק ב[העברת פורטים](https://protonvpn.
         - [:simple-apple: macOS](https://www.ivpn.net/apps-macos/)
         - [:simple-linux: Linux](https://www.ivpn.net/apps-linux/)
 
-#### :material-check:{ .pg-green } 35 מדינות
+#### :material-check:{ .pg-green } 37 Countries
 
-ל-IVPN יש [שרתים ב-35 מדינות](https://www.ivpn.net/server-locations).(1) בחירת ספק VPN עם שרת הקרוב אליך תפחית את זמן האחזור של תעבורת הרשת שאתה שולח. הסיבה לכך היא מסלול קצר יותר (פחות דילוגים) ליעד.
+IVPN has [servers in 37 countries](https://www.ivpn.net/server-locations).(1) Picking a VPN provider with a server nearest to you will reduce latency of the network traffic you send. הסיבה לכך היא מסלול קצר יותר (פחות דילוגים) ליעד.
 { .annotate }
 
-1. נבדק לאחרונה: 2023-07-28
+1. Last checked: 2023-12-21
 
 אנחנו גם חושבים שעדיף לאבטחת המפתחות הפרטיים של ספק ה-VPN אם הם משתמשים ב[שרתים ייעודיים](https://en.wikipedia.org/wiki/Dedicated_hosting_service), במקום פתרונות משותפים זולים יותר (עם לקוחות אחרים) כמו [שרתים פרטיים וירטואליים](https://en.wikipedia.org/wiki/Virtual_private_server).
 
@@ -180,12 +180,12 @@ IVPN תמך בעבר בהעברת יציאות, אך הסיר את האפשרו�
         - [:simple-apple: macOS](https://mullvad.net/en/download/macos/)
         - [:simple-linux: Linux](https://mullvad.net/en/download/linux/)
 
-#### :material-check:{ .pg-green } 43 מדינות
+#### :material-check:{ .pg-green } 40 Countries
 
-ל- mullvad יש [ שרתים ב 43 מדינות ](https://mullvad.net/servers/). (1) בחירת ספק VPN עם שרת הקרוב לך, תפחית את זמן האחזור של תנועת הרשת שאתה שולח. הסיבה לכך היא מסלול קצר יותר (פחות דילוגים) ליעד.
+Mullvad has [servers in 40 countries](https://mullvad.net/servers/).(1) Picking a VPN provider with a server nearest to you will reduce latency of the network traffic you send. הסיבה לכך היא מסלול קצר יותר (פחות דילוגים) ליעד.
 { .annotate }
 
-1. נבדק לאחרונה: 2023-07-28
+1. Last checked: 2023-12-21
 
 אנחנו גם חושבים שעדיף לאבטחת המפתחות הפרטיים של ספק ה-VPN אם הם משתמשים ב[שרתים ייעודיים](https://en.wikipedia.org/wiki/Dedicated_hosting_service), במקום פתרונות משותפים זולים יותר (עם לקוחות אחרים) כמו [שרתים פרטיים וירטואליים](https://en.wikipedia.org/wiki/Virtual_private_server).
 

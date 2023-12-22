@@ -53,12 +53,12 @@ ISPや公共Wi-Fiネットワークから**プライバシー**をより一層�
         - [:simple-windows11: Windows](https://protonvpn.com/download-windows)
         - [:simple-linux: Linux](https://protonvpn.com/support/linux-vpn-setup/)
 
-#### :material-check:{ .pg-green } 68か国
+#### :material-check:{ .pg-green } 71 Countries
 
-Proton VPNは[68カ国にサーバー](https://protonvpn.com/vpn-servers)を所有しており、(1) VPNプロバイダを最寄りのサーバに選択することで送信するネットワークトラフィックのレイテンシが軽減されます。 これは目的地までのルートが短い(ホップが少ない) ことによります。
+Proton VPN has [servers in 71 countries](https://protonvpn.com/vpn-servers).(1) Picking a VPN provider with a server nearest to you will reduce latency of the network traffic you send. これは目的地までのルートが短い(ホップが少ない) ことによります。
 { .annotate }
 
-1. 最終確認: 2023-07-28
+1. Last checked: 2023-12-21
 
 また、VPNプロバイダの秘密鍵のセキュリティを考えると、できれば[バーチャルプライベートサーバー](https://en.wikipedia.org/wiki/Virtual_private_server)のような安価な(他の顧客との)共有ソリューションではなく[専用サーバー](https://en.wikipedia.org/wiki/Dedicated_hosting_service)を使用したほうがいいと考えています。
 
@@ -118,12 +118,12 @@ VPNキルスイッチを使用しているとき、IntelベースのMacではシ
         - [:simple-apple: macOS](https://www.ivpn.net/apps-macos/)
         - [:simple-linux: Linux](https://www.ivpn.net/apps-linux/)
 
-#### :material-check:{ .pg-green } 35か国
+#### :material-check:{ .pg-green } 37 Countries
 
-IVPNは[35カ国にサーバー](https://www.ivpn.net/server-locations)を所有しており、(1) VPNプロバイダを最寄りのサーバに選択することで送信するネットワークトラフィックのレイテンシが軽減されます。 これは目的地までのルートが短い(ホップが少ない) ことによります。
+IVPN has [servers in 37 countries](https://www.ivpn.net/server-locations).(1) Picking a VPN provider with a server nearest to you will reduce latency of the network traffic you send. これは目的地までのルートが短い(ホップが少ない) ことによります。
 { .annotate }
 
-1. 最終確認: 2023-07-28
+1. Last checked: 2023-12-21
 
 また、VPNプロバイダの秘密鍵のセキュリティを考えると、できれば[バーチャルプライベートサーバー](https://en.wikipedia.org/wiki/Virtual_private_server)のような安価な(他の顧客との)共有ソリューションではなく[専用サーバー](https://en.wikipedia.org/wiki/Dedicated_hosting_service)を使用したほうがいいと考えています。
 
@@ -180,12 +180,12 @@ IVPNのクライアントは2要素認証をサポートしています（Mullva
         - [:simple-apple: macOS](https://mullvad.net/ja/download/vpn/macos)
         - [:simple-linux: Linux](https://mullvad.net/ja/download/vpn/linux)
 
-#### :material-check:{ .pg-green } 43か国
+#### :material-check:{ .pg-green } 40 Countries
 
-Mullvadは[43カ国にサーバー](https://mullvad.net/servers/)を所有しており、(1) VPNプロバイダを最寄りのサーバに選択することで送信するネットワークトラフィックのレイテンシが軽減されます。 これは目的地までのルートが短い(ホップが少ない) ことによります。
+Mullvad has [servers in 40 countries](https://mullvad.net/servers/).(1) Picking a VPN provider with a server nearest to you will reduce latency of the network traffic you send. これは目的地までのルートが短い(ホップが少ない) ことによります。
 { .annotate }
 
-1. 最終確認: 2023-07-28
+1. Last checked: 2023-12-21
 
 また、VPNプロバイダの秘密鍵のセキュリティを考えると、できれば[バーチャルプライベートサーバー](https://en.wikipedia.org/wiki/Virtual_private_server)のような安価な(他の顧客との)共有ソリューションではなく[専用サーバー](https://en.wikipedia.org/wiki/Dedicated_hosting_service)を使用したほうがいいと考えています。
 

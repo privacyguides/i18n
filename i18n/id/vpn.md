@@ -53,12 +53,12 @@ Penyedia yang kami rekomendasikan menggunakan enkripsi, menerima Monero, menduku
         - [:simple-windows11: Windows](https://protonvpn.com/download-windows)
         - [:simple-linux: Linux](https://protonvpn.com/support/linux-vpn-setup/)
 
-#### :material-check:{ .pg-green } 68 Countries
+#### :material-check:{ .pg-green } 71 Countries
 
-Proton VPN has [servers in 68 countries](https://protonvpn.com/vpn-servers).(1) Picking a VPN provider with a server nearest to you will reduce latency of the network traffic you send. Ini karena rute yang lebih pendek (lebih sedikit loncatan) ke tempat tujuan.
+Proton VPN has [servers in 71 countries](https://protonvpn.com/vpn-servers).(1) Picking a VPN provider with a server nearest to you will reduce latency of the network traffic you send. Ini karena rute yang lebih pendek (lebih sedikit loncatan) ke tempat tujuan.
 { .annotate }
 
-1. Last checked: 2023-07-28
+1. Last checked: 2023-12-21
 
 Kami juga berpikir akan lebih baik untuk keamanan kunci pribadi penyedia VPN jika mereka menggunakan [server khusus](https://en.wikipedia.org/wiki/Dedicated_hosting_service), daripada solusi berbagi pakai yang lebih murah (dengan pelanggan lain) seperti [peladen pribadi virtual](https://id.wikipedia.org/wiki/Peladen_pribadi_virtual).
 
@@ -118,12 +118,12 @@ Kerusakan sistem [dapat terjadi](https://protonvpn.com/support/macos-t2-chip-kil
         - [:simple-apple: macOS](https://www.ivpn.net/apps-macos/)
         - [:simple-linux: Linux](https://www.ivpn.net/apps-linux/)
 
-#### :material-check:{ .pg-green } 35 Negara
+#### :material-check:{ .pg-green } 37 Countries
 
-IVPN memiliki server [di 35 negara](https://www.ivpn.net/server-locations).(1) Memilih penyedia VPN dengan server terdekat dengan Anda akan mengurangi latensi lalu lintas jaringan yang Anda kirim. Ini karena rute yang lebih pendek (lebih sedikit loncatan) ke tempat tujuan.
+IVPN has [servers in 37 countries](https://www.ivpn.net/server-locations).(1) Picking a VPN provider with a server nearest to you will reduce latency of the network traffic you send. Ini karena rute yang lebih pendek (lebih sedikit loncatan) ke tempat tujuan.
 { .annotate }
 
-1. Last checked: 2023-07-28
+1. Last checked: 2023-12-21
 
 Kami juga berpikir akan lebih baik untuk keamanan kunci pribadi penyedia VPN jika mereka menggunakan [server khusus](https://en.wikipedia.org/wiki/Dedicated_hosting_service), daripada solusi berbagi pakai yang lebih murah (dengan pelanggan lain) seperti [peladen pribadi virtual](https://id.wikipedia.org/wiki/Peladen_pribadi_virtual).
 
@@ -180,12 +180,12 @@ Klien IVPN mendukung autentikasi dua faktor (klien Mullvad tidak). IVPN juga men
         - [:simple-apple: macOS](https://mullvad.net/en/download/macos/)
         - [:simple-linux: Linux](https://mullvad.net/en/download/linux/)
 
-#### :material-check:{ .pg-green } 43 Countries
+#### :material-check:{ .pg-green } 40 Countries
 
-Mullvad has [servers in 43 countries](https://mullvad.net/servers/).(1) Picking a VPN provider with a server nearest to you will reduce latency of the network traffic you send. Ini karena rute yang lebih pendek (lebih sedikit loncatan) ke tempat tujuan.
+Mullvad has [servers in 40 countries](https://mullvad.net/servers/).(1) Picking a VPN provider with a server nearest to you will reduce latency of the network traffic you send. Ini karena rute yang lebih pendek (lebih sedikit loncatan) ke tempat tujuan.
 { .annotate }
 
-1. Last checked: 2023-07-28
+1. Last checked: 2023-12-21
 
 Kami juga berpikir akan lebih baik untuk keamanan kunci pribadi penyedia VPN jika mereka menggunakan [server khusus](https://en.wikipedia.org/wiki/Dedicated_hosting_service), daripada solusi berbagi pakai yang lebih murah (dengan pelanggan lain) seperti [peladen pribadi virtual](https://id.wikipedia.org/wiki/Peladen_pribadi_virtual).
 
