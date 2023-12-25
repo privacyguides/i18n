@@ -54,7 +54,7 @@ If you're looking for additional **privacy** from your ISP, on a public Wi-Fi ne
 
 #### :material-check:{ .pg-green } 71 Countries
 
-Proton VPN has [servers in 71 countries](https://protonvpn.com/vpn-servers).(1) Picking a VPN provider with a server nearest to you will reduce latency of the network traffic you send. Bunun nedeni hedefe giden rotanın daha kısa olmasıdır (daha az atlama).
+Proton VPN has [servers in 71 countries](https://protonvpn.com/vpn-servers) [or 3 if you use their free plan](https://protonvpn.com/free-vpn).(1) Picking a VPN provider with a server nearest to you will reduce latency of the network traffic you send. Bunun nedeni hedefe giden rotanın daha kısa olmasıdır (daha az atlama).
 { .annotate }
 
 1. Last checked: 2023-12-21

@@ -55,7 +55,7 @@ Nossos provedores recomendados usam criptografia, aceitam Monero, suportam WireG
 
 #### :material-check:{ .pg-green } 71 Countries
 
-Proton VPN has [servers in 71 countries](https://protonvpn.com/vpn-servers).(1) Picking a VPN provider with a server nearest to you will reduce latency of the network traffic you send. Isto deve-se a um caminho mais curto (menos pulos) até ao destino.
+Proton VPN has [servers in 71 countries](https://protonvpn.com/vpn-servers) [or 3 if you use their free plan](https://protonvpn.com/free-vpn).(1) Picking a VPN provider with a server nearest to you will reduce latency of the network traffic you send. Isto deve-se a um caminho mais curto (menos pulos) até ao destino.
 { .annotate }
 
 1. Last checked: 2023-12-21

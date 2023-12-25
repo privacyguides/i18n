@@ -55,7 +55,7 @@ cover: vpn.webp
 
 #### :material-check:{ .pg-green } 71 Countries
 
-Proton VPN has [servers in 71 countries](https://protonvpn.com/vpn-servers).(1) Picking a VPN provider with a server nearest to you will reduce latency of the network traffic you send. 這是因為到目的地的路線較短（跳數較少）。
+Proton VPN has [servers in 71 countries](https://protonvpn.com/vpn-servers) [or 3 if you use their free plan](https://protonvpn.com/free-vpn).(1) Picking a VPN provider with a server nearest to you will reduce latency of the network traffic you send. 這是因為到目的地的路線較短（跳數較少）。
 { .annotate }
 
 1. Last checked: 2023-12-21
