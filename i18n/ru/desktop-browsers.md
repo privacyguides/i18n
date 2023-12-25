@@ -231,7 +231,7 @@ Arkenfox нацелен только на предотвращение осно�
 
 !!! warning "Осторожно"
 
-    Brave добавляет "[реферальный код](https://github. om/brave/brave-browser/wiki/Brave%E2%80%99s-Use-of-Referral-Codes)" к имени файла при загрузке с веб-сайта Brave. Этот код используется для отслеживания источника, из которого код был загружен браузер, например `BRV002` в загрузках с именем `Brave-Browser-BRV002.pkg`. The installer will then ping Brave's server with the referral code at the end of the installation process. If you're concerned about this, you can rename the installer file before opening it.
+    Brave добавляет "[реферальный код](https://github. om/brave/brave-browser/wiki/Brave%E2%80%99s-Use-of-Referral-Codes)" к имени файла при загрузке с веб-сайта Brave. Этот код используется для отслеживания источника, из которого код был загружен браузер, например `BRV002` в загрузках с именем `Brave-Browser-BRV002.pkg`. В конце процесса установки программа установки отправит на сервер Brave реферальный код. Если вас это беспокоит, вы можете переименовать установочный файл перед его открытием.
 
 ### Рекомендованные настройки
 
@@ -253,15 +253,15 @@ Brave содержит несколько инструментов защиты 
     ??? предупреждение «Дополнительные фильтры»
         Brave позволяет тебе выбрать дополнительные фильтры на внутренней странице `brave://adblock`. Мы не рекомендуем использовать эту функцию; вместо этого оставь списки фильтров по умолчанию. Использование дополнительных фильтров выделит тебя среди других пользователей Brave, а также может увеличить площадь атаки в том случае, если в Brave есть эксплойт и вредоносное правило будет добавлено в один из используемых тобой списков.
 
-- [x] Select **Strict** under **Upgrade connections to HTTPS**
-- [x] (Optional) Select **Block Scripts** (1)
-- [x] Select **Strict, may break sites** under Block fingerprinting
-- [x] Check **Forget me when I close this site** (2)
+- [x] Выберите **Обязательно** в пункте **Переключаться на HTTPS**
+- [x] (Опционально) Выберите **Блокировать скрипты** (1)
+- [x] Выберите **Строгий, может нарушить работу сайтов** в пункте "Блокировка цифровых отпечатков"
+- [x] Включите **Удалять данные о посещении этого сайта** (2)
 
 </div>
 
 1. Эта опция обеспечивает функциональность, аналогичную расширенным [режимам блокировки](https://github.com/gorhill/uBlock/wiki/Blocking-mode) uBlock Origin или расширения [NoScript](https://noscript.net/).
-2. If you wish to stay logged in to a particular site you visit often, you can set exceptions on a per-site basis by clicking on the Shield icon in the address bar.
+2. Если вы хотите оставаться залогиненными на определенном сайте, который вы часто посещаете, вы можете установить исключения для каждого сайта, нажав на значок щита в адресной строке.
 
 ##### Блокировка социальных сетей
 
@@ -354,11 +354,11 @@ Brave содержит несколько инструментов защиты 
 
 ### uBlock Origin Lite
 
-uBlock Origin also has a "Lite" version of their extension, which offers a very limited feature-set compared to the original extension. However, it has a few distinct advantages over its full-fledged sibling, so you may want to consider it if...
+У uBlock Origin также есть "Lite" версия расширения, которая предлагает очень ограниченный набор функций по сравнению с оригинальным расширением. Однако у него есть несколько преимуществ перед своим полнофункциональным собратом, поэтому вы можете использовать его, если...
 
-- ...you don't want to grant full "read/modify website data" permissions to any extensions (even a trusted one like uBlock Origin)
-- ...you want a more resource (memory/CPU) efficient content blocker[^1]
-- ...your browser only supports Manifest V3 extensions
+- ...вы не хотите предоставлять полные права на "чтение/изменение данных сайта" никаким расширениям (даже таким надежным, как uBlock Origin)
+- ...вы хотите более ресурсоэффективный (память/ЦПУ) блокировщик контента[^1]
+- ...ваш браузер поддерживает только расширения Manifest V3
 
 !!! recommendation
 
@@ -376,13 +376,13 @@ uBlock Origin also has a "Lite" version of their extension, which offers a very 
         - [:simple-firefoxbrowser: Firefox](https://addons.mozilla.org/addon/ublock-origin-lite/)
         - [:simple-googlechrome: Chrome](https://chrome.google.com/webstore/detail/ublock-origin-lite/ddkjiahejlhfcafbddmgiahcphecmpfh)
 
-We only recommend this version of uBlock Origin if you never want to make any changes to your filter lists, because it only supports a few pre-selected lists and offers no additional customization options, including the ability to select elements to block manually. These restrictions are due to limitations in Manifest V3's design.
+Мы рекомендуем эту версию uBlock Origin только в том случае, если вы никогда не хотите вносить изменения в списки фильтров, поскольку она поддерживает только несколько предварительно выбранных списков и не предлагает никаких дополнительных возможностей настройки, включая возможность выбора элементов для блокировки вручную. Эти ограничения связаны с дизайном Manifest V3.
 
-This version offers three levels of blocking: "Basic" works without requiring any special privileges to view and modify site content, while the "Optimal" and "Complete" levels do require that broad permission, but offer a better filtering experience with additional cosmetic rules and scriptlet injections.
+Эта версия предлагает три уровня блокировки: "Базовый" работает, не требуя особых привилегий для просмотра и изменения содержимого сайта, в то время как уровни "Оптимальный" и "Полный" требуют таких широких полномочий, но предлагают более качественную фильтрацию с помощью дополнительных косметических правил и скриптов.
 
-If you set the default filtering mode to "Optimal" or "Complete" the extension will request read/modify access to **all** websites you visit. However, you also have the option to change the setting to "Optimal" or "Complete" on a **per-site** basis by adjusting the slider in the extension's pop-up panel on any given site. When you do so, the extension will request read/modify access to that site only. Therefore, if you want to take advantage of uBlock Origin Lite's "permission-less" configuration, you should probably leave the default setting as "Basic" and only adjust it higher on sites where that level is not adequate.
+Если вы установите режим фильтрации по умолчанию как "Оптимальный" или "Полный", расширение будет запрашивать доступ для чтения/изменения **всех** сайтов, которые вы посещаете. Однако у вас также есть возможность изменить настройки на "Оптимальные" или "Полные" **для каждого сайта**, регулируя ползунок во всплывающей панели расширения на каждом конкретном сайте. Когда вы это сделаете, расширение запросит доступ для чтения/изменения только этого сайта. Поэтому, если вы хотите воспользоваться преимуществами uBlock Origin Lite и не выдавать ему разрешения, вам следует оставить значение по умолчанию "Базовое" и повышать его только на тех сайтах, где этот уровень не является достаточным.
 
-uBlock Origin Lite only receives block list updates whenever the extension is updated from your browser's extension marketplace, as opposed to on demand. This means that you may miss out on new threats being blocked for weeks until a full extension release is published.
+uBlock Origin Lite получает обновления списка блокировок только при обновлении расширения из магазина расширений вашего браузера, а не по требованию. Это означает, что вы можете не заметить новые угрозы, которые будут блокироваться в течение нескольких недель, пока не будет опубликован полный выпуск расширения.
 
 ## Критерии
 
@@ -421,5 +421,5 @@ uBlock Origin Lite only receives block list updates whenever the extension is up
 - Не должно копировать встроенную функциональность браузера или ОС.
 - Должно непосредственно влиять на конфиденциальность пользователя, т.е. не просто предоставлять информацию.
 
-[^1]: uBlock Origin Lite *itself* will consume no resources, because it uses newer APIs which make the browser process the filter lists natively, instead of running JavaScript code within the extension to handle the filtering. However, this resource advantage is only [theoretical](https://github.com/uBlockOrigin/uBOL-home/wiki/Frequently-asked-questions-(FAQ)#is-ubol-more-efficient-cpu--and-memory-wise-than-ubo), because it's possible that standard uBlock Origin's filtering code is more efficient than your browser's native filtering code. This has not yet been benchmarked.
-[^2]: Brave's implementation is detailed at [Brave Privacy Updates: Partitioning network-state for privacy](https://brave.com/privacy-updates/14-partitioning-network-state/).
+[^1]: uBlock Origin Lite *сам* не потребляет никаких ресурсов, поскольку использует новые API, благодаря которым браузер обрабатывает списки фильтров нативно, а не выполняет JavaScript-код внутри расширения для фильтрации. Однако это преимущество в ресурсах является лишь [теоретическим](https://github.com/uBlockOrigin/uBOL-home/wiki/Frequently-asked-questions-(FAQ)#is-ubol-more-efficient-cpu--and-memory-wise-than-ubo), поскольку возможно, что стандартный код фильтрации uBlock Origin более эффективен, чем собственный код фильтрации вашего браузера. Этот показатель еще не был протестирован.
+[^2]: Реализация Brave подробно описана в [Brave Privacy Updates: Partitioning network-state for privacy](https://brave.com/privacy-updates/14-partitioning-network-state/).
