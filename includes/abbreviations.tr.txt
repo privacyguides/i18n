@@ -14,7 +14,7 @@
 *[DoH]: HTTPS üzerinden DNS
 *[DoQ]: QUIC üzerinden DNS
 *[DoH3]: HTTP/3 üzerinden DNS
-*[DoT]: DNS over TLS
+*[DoT]: TLS üzerinden DNS
 *[E2EE]: Uçtan Uca Şifreleme/Şifreli
 *[ECS]: EDNS Client Subnet
 *[AEA]: Avrupa Ekonomik Alanı
@@ -64,18 +64,18 @@
 *[OTP]: Tek Seferlik Parola
 *[OTP'ler]: Tek Seferlik Parolalar
 *[OpenPGP]: Pretty Good Privacy'nin (PGP) açık kaynak uygulaması
-*[P2P]: Peer-to-Peer
-*[PAM]: Linux Pluggable Authentication Modules
-*[POP3]: Post Office Protocol 3
-*[PGP]: Pretty Good Privacy (see OpenPGP)
-*[PII]: Personally Identifiable Information
-*[QNAME]: Qualified Name
-*[rolling release]: Updates which are released frequently rather than set intervals
-*[RSS]: Really Simple Syndication
-*[SELinux]: Security-Enhanced Linux
-*[SIM]: Subscriber Identity Module
-*[SMS]: Short Message Service (standard text messaging)
-*[SMTP]: Simple Mail Transfer Protocol
+*[P2P]: Eşler Arası
+*[PAM]: Linux Takılabilir Kimlik Doğrulama Modülleri
+*[POP3]: Postane Protokolü 3
+*[PGP]: Pretty Good Privacy (bkz. OpenPGP)
+*[PII]: Kişiyi Tanımlamak İçin Kullanılan Bilgiler
+*[QNAME]: Nitelikli Ad
+*[yuvarlanan sürüm]: Sabit aralıklar yerine sık sık yayınlanan güncellemeler
+*[RSS]: Gerçekten Basit Dağıtım
+*[SELinux]: Güvenliği Geliştirilmiş Linux
+*[SIM]: Abone Kimlik Modülü
+*[SMS]: Kısa Mesaj Hizmeti (standart metin mesajlaşma)
+*[SMTP]: Basit Posta Aktarım Protokolü
 *[SNI]: Server Name Indication
 *[SSD]: Solid-State Drive
 *[SSH]: Secure Shell
