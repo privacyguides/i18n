@@ -1,5 +1,5 @@
 ---
-title: "Multi-Factor Authentication"
+title: "Çok Faktörlü Kimlik Doğrulama"
 icon: 'material/two-factor-authentication'
 description: MFA is a critical security mechanism for securing your online accounts, but some methods are stronger than others.
 ---

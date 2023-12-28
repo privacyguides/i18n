@@ -2,21 +2,21 @@
 *[ADB]: Android Hata Ayıklama Köprüsü
 *[AOSP]: Android Açık Kaynak Projesi
 *[ATA]: İleri Teknoloji Eklentisi
-*[attack surface]: Bir sisteme yetkisiz erişim için olası giriş noktalarının toplam sayısı
+*[saldırı yüzeyi]: Bir sisteme yetkisiz erişim için olası giriş noktalarının toplam sayısı
 *[AVB]: Android Onaylanmış Önyükleme
 *[cgroups]: Kontrol Grupları
-*[CLI]: Komut satırı arayüzü
+*[CLI]: Komut Satırı Arayüzü
 *[CSV]: CSV Dosyası
 *[CVE]: Yaygın Güvenlik Açıkları ve Maruziyetler
-*[digital legacy feature]: Digital Legacy refers to features that allow you to give other people access to your data when you die
-*[DNSSEC]: Domain Name System Security Extensions
-*[DNS]: Domain Name System
+*[dijital miras özelliği]: Dijital Miras, öldüğünüzde başkalarının bilgilerinize erişmesine izin vermenizi sağlayan özelliklere denir
+*[DNSSEC]: Alan Adı Sistemi Güvenlik Eklentileri
+*[DNS]: Alan Adı Sistemi
 *[DoH]: HTTPS üzerinden DNS
 *[DoQ]: QUIC üzerinden DNS
 *[DoH3]: HTTP/3 üzerinden DNS
 *[DoT]: TLS üzerinden DNS
 *[E2EE]: Uçtan Uca Şifreleme/Şifreli
-*[ECS]: EDNS Client Subnet
+*[ECS]: EDNS İstemci Alt Ağı
 *[AEA]: Avrupa Ekonomik Alanı
 *[entropi]: Bir şeyin ne kadar öngörülemez olduğunun ölçümü
 *[EOL]: Kullanım Ömrü Sonu
@@ -32,26 +32,26 @@
 *[GKA]: Grafik Kullanıcı Arayüzü
 *[GnuPG]: GNU Privacy Guard (PGP uygulaması)
 *[HDD]: Sabit Disk Sürücüsü
-*[HOTP]: HMAC (Hash-based Message Authentication Code) based One-Time Password
+*[HOTP]: HMAC (Karma Tabanlı Mesaj Doğrulama Kodu) Tabanlı Tek Seferlik Parola
 *[HTTPS]: Güvenli Hiper Metin Transfer Protokolü
 *[HTTP]: Hiper Metin Transfer Protokolü
-*[hypervisor]: Computer software, firmware, or hardware that splits the resources of a CPU among multiple operating systems
-*[ICCID]: Integrated Circuit Card Identifier
-*[IMAP]: Internet Message Access Protocol
-*[IMEI]: International Mobile Equipment Identity
-*[IMSI]: International Mobile Subscriber Identity
+*[hipervizör]: Bir CPU'nun kaynaklarını birden fazla işletim sistemi arasında paylaştıran bilgisayar yazılımı, bellenimi veya donanımı
+*[ICCID]: Entegre Devre Kartı Tanımlayıcısı
+*[IMAP]: İnternet Mesaj Erişim Protokolü
+*[IMEI]: Uluslararası Mobil Ekipman Kimliği
+*[IMSI]: Uluslararası Mobil Abone Kimliği
 *[IP]: İnternet Protokol
 *[IPv4]: İnternet Protokol Versiyon 4
 *[IPv6]: İnternet Protokol Versiyon 6
 *[İSS]: İnternet Servis Sağlayıcısı
 *[İSS'ler]: İnternet Servis Sağlayıcıları
-*[JNI]: Java Native Interface
+*[JNI]: Java Yerel Arayüzü
 *[KYC]: Müşterini Tanı
 *[LUKS]: Linux Birleşik Anahtar Kurulumu (Tam Disk Şifreleme)
 *[MAC]: Ortam Erişim Yönetimi
 *[MDAG]: Microsoft Defender Application Guard
-*[MEID]: Mobile Equipment Identifier
-*[MFA]: Multi-Factor Authentication
+*[MEID]: Mobil Ekipman Tanımlayıcı
+*[MFA]: Çok Faktörlü Kimlik Doğrulama
 *[NVMe]: Nonvolatile Memory Express
 *[NAT]: Network address translation
 *[NAT-PMP]: NAT Port Mapping Protocol
@@ -94,6 +94,6 @@
 *[UDP]: User Datagram Protocol
 *[VPN]: Virtual Private Network
 *[VoIP]: Voice over IP (Internet Protocol)
-*[W3C]: World Wide Web Consortium
+*[W3C]: Dünya Çapında Ağ Konsorsiyumu
 *[XMPP]: Extensible Messaging and Presence Protocol
 *[PWA]: Progressive Web App
