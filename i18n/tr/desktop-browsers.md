@@ -180,7 +180,7 @@ Additionally, the Firefox Accounts service collects [some technical data](https:
 
 This prevents you from unintentionally connecting to a website in plain-text HTTP. Sites without HTTPS are uncommon nowadays, so this should have little to no impact on your day to day browsing.
 
-##### DNS over HTTPS
+##### HTTPS üzerinden DNS
 
 If you use a [DNS over HTTPS provider](dns.md):
 

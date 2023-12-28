@@ -11,9 +11,9 @@
 *[digital legacy feature]: Digital Legacy refers to features that allow you to give other people access to your data when you die
 *[DNSSEC]: Domain Name System Security Extensions
 *[DNS]: Domain Name System
-*[DoH]: DNS over HTTPS
-*[DoQ]: DNS over QUIC
-*[DoH3]: DNS over HTTP/3
+*[DoH]: HTTPS üzerinden DNS
+*[DoQ]: QUIC üzerinden DNS
+*[DoH3]: HTTP/3 üzerinden DNS
 *[DoT]: DNS over TLS
 *[E2EE]: Uçtan Uca Şifreleme/Şifreli
 *[ECS]: EDNS Client Subnet
@@ -22,13 +22,13 @@
 *[EOL]: Kullanım Ömrü Sonu
 *[Exif]: Exchangeable image file format
 *[FCM]: Firebase Cloud Messaging
-*[FDE]: Full Disk Encryption
+*[FDE]: Tam Disk Şifreleme
 *[FIDO]: Fast IDentity Online
 *[FS]: Forward Secrecy
-*[fork]: A new software project created by copying an existing project and adding to it independently
-*[GDPR]: General Data Protection Regulation
+*[çatal]: A new software project created by copying an existing project and adding to it independently
+*[GDPR]: Genel Veri Koruma Tüzüğü
 *[GPG]: GNU Privacy Guard (PGP implementation)
-*[GPS]: Global Positioning System
+*[GPS]: Küresel Konumlama Sistemi
 *[GUI]: Graphical User Interface
 *[GnuPG]: GNU Privacy Guard (PGP implementation)
 *[HDD]: Hard Disk Drive
