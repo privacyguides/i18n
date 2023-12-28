@@ -52,14 +52,14 @@
 *[MDAG]: Microsoft Defender Application Guard
 *[MEID]: Mobil Ekipman Tanımlayıcı
 *[MFA]: Çok Faktörlü Kimlik Doğrulama
-*[NVMe]: Nonvolatile Memory Express
-*[NAT]: Network address translation
-*[NAT-PMP]: NAT Port Mapping Protocol
-*[NTP]: Network Time Protocol
-*[OCI]: Open Container Initiative
-*[OCSP]: Online Certificate Status Protocol
-*[OEM]: Original Equipment Manufacturer
-*[OEMs]: Original Equipment Manufacturers
+*[NVMe]: Uçucu Olmayan Bellek Ekspresi
+*[NAT]: Ağ Adresi Çevirisi
+*[NAT-PMP]: NAT Bağlantı Noktası Eşleme Protokolü
+*[NTP]: Ağ Zaman Protokolü
+*[OCI]: Açık Konteyner Girişimi
+*[OCSP]: Çevrimiçi Sertifika Durum Protokolü
+*[OEM]: Orijinal Ürün Üreticisi
+*[OEM'ler]: Orijinal Ürün Üreticiler
 *[İS]: İşletim Sistemi
 *[OTP]: Tek Seferlik Parola
 *[OTP'ler]: Tek Seferlik Parolalar
@@ -76,24 +76,24 @@
 *[SIM]: Abone Kimlik Modülü
 *[SMS]: Kısa Mesaj Hizmeti (standart metin mesajlaşma)
 *[SMTP]: Basit Posta Aktarım Protokolü
-*[SNI]: Server Name Indication
-*[SSD]: Solid-State Drive
-*[SSH]: Secure Shell
-*[SUID]: Set Owner User ID
-*[SaaS]: Software as a Service (cloud software)
-*[SoC]: System on Chip
-*[SSO]: Single sign-on
-*[TCP]: Transmission Control Protocol
-*[TEE]: Trusted Execution Environment
-*[TLS]: Transport Layer Security
-*[ToS]: Terms of Service
-*[TOTP]: Time-based One-Time Password
-*[TPM]: Trusted Platform Module
-*[U2F]: Universal 2nd Factor
-*[UEFI]: Unified Extensible Firmware Interface
-*[UDP]: User Datagram Protocol
-*[VPN]: Virtual Private Network
-*[VoIP]: Voice over IP (Internet Protocol)
+*[SNI]: Sunucu Adı Göstergesi
+*[SSD]: Katı Hâl Sürücüsü
+*[SSH]: Güvenli Kabuk
+*[SUID]: Kayıtlı Kullanıcı Kimliği
+*[SaaS]: Hizmet Olarak Yazılım (bulut yazılım)
+*[SoC]: Yongada Sistem
+*[TOA]: Tek Oturum Açma
+*[TCP]: İletim Kontrol Protokolü
+*[TEE]: Güvenilir Yürütme Ortamı
+*[TLS]: Taşıma Katmanı Güvenliği
+*[ToS]: Hizmet Şartları
+*[TOTP]: Zaman Tabanlı Tek Seferlik Parola
+*[TPM]: Güvenilir Platform Modülü
+*[U2F]: Evrensel İkinci Faktör
+*[UEFI]: Birleşik Genişletilebilir Üretici Yazılımı Arabirimi
+*[UDP]: Kullanıcı Veri Birimi Protokolü
+*[VPN]: Sanal Özel Ağ
+*[VoIP]: IP üzerinden Ses (İnternet Protokolü)
 *[W3C]: Dünya Çapında Ağ Konsorsiyumu
-*[XMPP]: Extensible Messaging and Presence Protocol
-*[PWA]: Progressive Web App
+*[XMPP]: Genişletilebilir Mesajlaşma ve Varlık Protokolü
+*[PWA]: İleri Web Uygulaması
