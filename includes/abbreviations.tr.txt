@@ -17,38 +17,38 @@
 *[DoT]: DNS over TLS
 *[E2EE]: Uçtan Uca Şifreleme/Şifreli
 *[ECS]: EDNS Client Subnet
-*[EEA]: European Economic Area
-*[entropy]: A measurement of how unpredictable something is
+*[AEA]: Avrupa Ekonomik Alanı
+*[entropi]: Bir şeyin ne kadar öngörülemez olduğunun ölçümü
 *[EOL]: Kullanım Ömrü Sonu
-*[Exif]: Exchangeable image file format
+*[Exif]: Değişebilir görüntü dosyası biçimi
 *[FCM]: Firebase Cloud Messaging
 *[FDE]: Tam Disk Şifreleme
 *[FIDO]: Fast IDentity Online
-*[FS]: Forward Secrecy
-*[çatal]: A new software project created by copying an existing project and adding to it independently
+*[FS]: İleri Güvenlik
+*[çatal]: Mevcut bir projenin kopyalanması ve ona bağımsız olarak ekleme yapılmasıyla oluşturulan yeni bir yazılım projesi
 *[GDPR]: Genel Veri Koruma Tüzüğü
-*[GPG]: GNU Privacy Guard (PGP implementation)
+*[GPG]: GNU Privacy Guard (PGP uygulaması)
 *[GPS]: Küresel Konumlama Sistemi
-*[GUI]: Graphical User Interface
-*[GnuPG]: GNU Privacy Guard (PGP implementation)
-*[HDD]: Hard Disk Drive
+*[GKA]: Grafik Kullanıcı Arayüzü
+*[GnuPG]: GNU Privacy Guard (PGP uygulaması)
+*[HDD]: Sabit Disk Sürücüsü
 *[HOTP]: HMAC (Hash-based Message Authentication Code) based One-Time Password
-*[HTTPS]: Hypertext Transfer Protocol Secure
-*[HTTP]: Hypertext Transfer Protocol
+*[HTTPS]: Güvenli Hiper Metin Transfer Protokolü
+*[HTTP]: Hiper Metin Transfer Protokolü
 *[hypervisor]: Computer software, firmware, or hardware that splits the resources of a CPU among multiple operating systems
 *[ICCID]: Integrated Circuit Card Identifier
 *[IMAP]: Internet Message Access Protocol
 *[IMEI]: International Mobile Equipment Identity
 *[IMSI]: International Mobile Subscriber Identity
-*[IP]: Internet Protocol
-*[IPv4]: Internet Protocol version 4
-*[IPv6]: Internet Protocol version 6
-*[ISP]: Internet Service Provider
-*[ISPs]: Internet Service Providers
+*[IP]: İnternet Protokol
+*[IPv4]: İnternet Protokol Versiyon 4
+*[IPv6]: İnternet Protokol Versiyon 6
+*[İSS]: İnternet Servis Sağlayıcısı
+*[İSS'ler]: İnternet Servis Sağlayıcıları
 *[JNI]: Java Native Interface
-*[KYC]: Know Your Customer
-*[LUKS]: Linux Unified Key Setup (Full-Disk Encryption)
-*[MAC]: Media Access Control
+*[KYC]: Müşterini Tanı
+*[LUKS]: Linux Birleşik Anahtar Kurulumu (Tam Disk Şifreleme)
+*[MAC]: Ortam Erişim Yönetimi
 *[MDAG]: Microsoft Defender Application Guard
 *[MEID]: Mobile Equipment Identifier
 *[MFA]: Multi-Factor Authentication
@@ -60,10 +60,10 @@
 *[OCSP]: Online Certificate Status Protocol
 *[OEM]: Original Equipment Manufacturer
 *[OEMs]: Original Equipment Manufacturers
-*[OS]: Operating System
-*[OTP]: One-Time Password
-*[OTPs]: One-Time Passwords
-*[OpenPGP]: Open-source implementation of Pretty Good Privacy (PGP)
+*[İS]: İşletim Sistemi
+*[OTP]: Tek Seferlik Parola
+*[OTP'ler]: Tek Seferlik Parolalar
+*[OpenPGP]: Pretty Good Privacy'nin (PGP) açık kaynak uygulaması
 *[P2P]: Peer-to-Peer
 *[PAM]: Linux Pluggable Authentication Modules
 *[POP3]: Post Office Protocol 3
