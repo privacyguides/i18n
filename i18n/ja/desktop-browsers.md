@@ -253,10 +253,10 @@ Braveには、[シールド](https://support.brave.com/hc/en-us/articles/3600229
     ??? warning "デフォルトのフィルターリストを使用すること"
         Braveでは、 `brave://adblock` ページ内で追加のコンテンツフィルターを選択することができます。 この機能は使わず、デフォルトのフィルターの一覧のままにしておくことをお勧めします。 追加のリストを使用すると、他のBraveユーザーから目立つようになり、また、Braveの脆弱性によってリストに悪意のあるルールが追加された場合、攻撃対象となる領域が増えるおそれがあります。
 
-- [x] Select **Strict** under **Upgrade connections to HTTPS**
-- [x] (Optional) Select **Block Scripts** (1)
-- [x] Select **Strict, may break sites** under Block fingerprinting
-- [x] Check **Forget me when I close this site** (2)
+- [x] **接続をHTTPSにアップグレードする**の**厳格**を選択
+- [x] (任意) **スクリプトをブロックする**を選択 (1)
+- [x] フィンガープリンティングをブロックの**厳格、サイトの表示が崩れる可能性**を選択
+- [x] **Forget me when I close this site**を選択 (2)
 
 </div>
 
