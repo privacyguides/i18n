@@ -84,6 +84,10 @@ Proton VPN은 자신들의 서비스에서 WireGuard 사용을 [권장](https://
 
 Proton VPN은 현재 NAT-PMP를 통한 임시적인 원격 [포트포워딩](https://protonvpn.com/support/port-forwarding/)만을 허용하며, 이는 60초동안 유지됩니다. Windows 앱은 쉽게 접근할 수 있는 옵션을 제공하지만, 다른 운영체제의 경우에는 직접 [NAT-PMP 클라이언트](https://protonvpn.com/support/port-forwarding-manual-setup/)를 실행해야 합니다. 토렌트 애플리케이션은 대부분 NAT-PMP를 지원합니다.
 
+#### :material-check:{ .pg-green } Censorship Circumvention
+
+Proton VPN has their [Stealth](https://protonvpn.com/blog/stealth-vpn-protocol/) protocol which helps in situations where VPN protocols like OpenVPN or Wireguard are blocked. Stealth works by using an obfuscated TLS tunnel over TCP making it more difficult for deep packet inspection (DPI) to block.
+
 #### :material-check:{ .pg-green } 모바일 클라이언트
 
 Proton VPN은 표준 OpenVPN 설정 파일 외에도, 간편하게 Proton VPN 서버와 연결 가능한 모바일 클라이언트를 [App Store](https://apps.apple.com/us/app/protonvpn-fast-secure-vpn/id1437005085), [Google Play](https://play.google.com/store/apps/details?id=ch.protonvpn.android&hl=en_US), [GitHub](https://github.com/ProtonVPN/android-app/releases)에서 제공하고 있습니다.
@@ -148,6 +152,10 @@ IVPN은 자신들의 서비스에서 WireGuard 사용을 [권장](https://www.iv
 #### :material-alert-outline:{ .pg-orange } 원격 포트 포워딩
 
 IVPN은 이전에 포트포워딩을 지원했지만, [2023년 6월](https://www.ivpn.net/blog/gradual-removal-of-port-forwarding) 이후로 해당 기능이 삭제되었습니다. 이 기능이 없을 경우 토렌트 클라이언트와 같은 P2P 앱을 사용하는 데에 문제가 발생할 수 있습니다.
+
+#### :material-check:{ .pg-green } Censorship Circumvention
+
+IVPN has obfuscation modes using the [v2ray](https://www.v2ray.com/en/index.html) project which helps in situations where VPN protocols like OpenVPN or Wireguard are blocked. Currently this feature is only available on Desktop and [iOS](https://www.ivpn.net/knowledgebase/ios/v2ray/). It has two modes where it can use [VMess](https://guide.v2fly.org/en_US/basics/vmess.html) over QUIC or TCP connections. QUIC is a modern protocol with better congestion control and therefore may be faster with reduced latency. The TCP mode makes your data appear as regular HTTP traffic.
 
 #### :material-check:{ .pg-green } 모바일 클라이언트
 
@@ -222,6 +230,10 @@ Mullvad는 다른 VPN 제공자들과 달리 [IPv6에 호스팅된 서비스](ht
 #### :material-alert-outline:{ .pg-orange } 원격 포트 포워딩
 
 Mullvad는 이전에 포트포워딩 기능을 지원했지만, [2023년 5월](https://mullvad.net/en/blog/2023/5/29/removing-the-support-for-forwarded-ports/) 이후로는 사용할 수 없습니다. 이 기능이 없을 경우 토렌트 클라이언트와 같은 P2P 앱을 사용하는 데에 문제가 발생할 수 있습니다.
+
+#### :material-check:{ .pg-green } Censorship Circumvention
+
+Mullvad has obfuscation an mode using [Shadowsocks with v2ray](https://mullvad.net/en/help/shadowsocks-with-v2ray) which may be useful in situations where VPN protocols like OpenVPN or Wireguard are blocked.
 
 #### :material-check:{ .pg-green } 모바일 클라이언트
 

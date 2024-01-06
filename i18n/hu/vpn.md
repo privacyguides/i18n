@@ -84,6 +84,10 @@ Proton VPN [recommends](https://protonvpn.com/blog/wireguard/) the use of WireGu
 
 Proton VPN currently only supports ephemeral remote [port forwarding](https://protonvpn.com/support/port-forwarding/) via NAT-PMP, with 60 second lease times. The Windows app provides an easy to access option for it, while on other operating systems you'll need to run your own [NAT-PMP client](https://protonvpn.com/support/port-forwarding-manual-setup/). Torrent applications often support NAT-PMP natively.
 
+#### :material-check:{ .pg-green } Censorship Circumvention
+
+Proton VPN has their [Stealth](https://protonvpn.com/blog/stealth-vpn-protocol/) protocol which helps in situations where VPN protocols like OpenVPN or Wireguard are blocked. Stealth works by using an obfuscated TLS tunnel over TCP making it more difficult for deep packet inspection (DPI) to block.
+
 #### :material-check:{ .pg-green } Mobile Clients
 
 In addition to providing standard OpenVPN configuration files, Proton VPN has mobile clients for [App Store](https://apps.apple.com/us/app/protonvpn-fast-secure-vpn/id1437005085), [Google Play](https://play.google.com/store/apps/details?id=ch.protonvpn.android&hl=en_US), and [GitHub](https://github.com/ProtonVPN/android-app/releases) allowing for easy connections to their servers.
@@ -148,6 +152,10 @@ IVPN [recommends](https://www.ivpn.net/wireguard/) the use of WireGuard with the
 #### :material-alert-outline:{ .pg-orange } Remote Port Forwarding
 
 IVPN previously supported port forwarding, but removed the option in [June 2023](https://www.ivpn.net/blog/gradual-removal-of-port-forwarding). Missing this feature could negatively impact certain applications, especially peer-to-peer applications like torrent clients.
+
+#### :material-check:{ .pg-green } Censorship Circumvention
+
+IVPN has obfuscation modes using the [v2ray](https://www.v2ray.com/en/index.html) project which helps in situations where VPN protocols like OpenVPN or Wireguard are blocked. Currently this feature is only available on Desktop and [iOS](https://www.ivpn.net/knowledgebase/ios/v2ray/). It has two modes where it can use [VMess](https://guide.v2fly.org/en_US/basics/vmess.html) over QUIC or TCP connections. QUIC is a modern protocol with better congestion control and therefore may be faster with reduced latency. The TCP mode makes your data appear as regular HTTP traffic.
 
 #### :material-check:{ .pg-green } Mobile Clients
 
@@ -223,6 +231,10 @@ Mullvad allows you to [access services hosted on IPv6](https://mullvad.net/en/bl
 
 Mullvad previously supported port forwarding, but removed the option in [May 2023](https://mullvad.net/en/blog/2023/5/29/removing-the-support-for-forwarded-ports/). Missing this feature could negatively impact certain applications, especially peer-to-peer applications like torrent clients.
 
+#### :material-check:{ .pg-green } Censorship Circumvention
+
+Mullvad has obfuscation an mode using [Shadowsocks with v2ray](https://mullvad.net/en/help/shadowsocks-with-v2ray) which may be useful in situations where VPN protocols like OpenVPN or Wireguard are blocked.
+
 #### :material-check:{ .pg-green } Mobile Clients
 
 Mullvad has published [App Store](https://apps.apple.com/app/mullvad-vpn/id1488466513) and [Google Play](https://play.google.com/store/apps/details?id=net.mullvad.mullvadvpn) clients, both supporting an easy-to-use interface as opposed to requiring you to manually configure your WireGuard connection. The Android client is also available on [GitHub](https://github.com/mullvad/mullvadvpn-app/releases).
@@ -282,7 +294,7 @@ Egy VPN értelmetlen, ha még megfelelő biztonságot sem tud nyújtani. Minden 
 - Forward Secrecy.
 - Közzétett biztonsági felülvizsgálatok egy megbízható harmadik feles cégtől.
 
-**Legjobb esetben:**
+**Legjobb Esetben:**
 
 - Legerősebb Titkosítás: RSA-4096.
 - Forward Secrecy.
@@ -297,7 +309,7 @@ A pénzügyeidet sem bíznád egy hamis személyazonosságú valakire, miért b�
 
 - Nyilvános vezetés vagy tulajdonlás.
 
-**Legjobb Esetben:**
+**Legjobb esetben:**
 
 - Nyilvános vezetés.
 - Gyakori átláthatósági jelentések.

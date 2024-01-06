@@ -84,6 +84,10 @@ Proton VPN [ממליץ](https://protonvpn.com/blog/wireguard/) על השימוש
 
 Proton VPN תומך כרגע רק ב[העברת פורטים](https://protonvpn.com/support/port-forwarding/) מרחוק ארעיים באמצעות NAT-PMP, עם זמני חכירה של 60 שניות. אפליקציית Windows מספקת אפשרות קלה לגישה עבורה, בעוד שבמערכות הפעלה אחרות תצטרך להפעיל [ משלך לקוח NAT-PMP](https://protonvpn.com/support/port-forwarding-manual-setup/). יישומי טורנט תומכים לעתים קרובות ב-NAT-PMP באופן מקורי.
 
+#### :material-check:{ .pg-green } Censorship Circumvention
+
+Proton VPN has their [Stealth](https://protonvpn.com/blog/stealth-vpn-protocol/) protocol which helps in situations where VPN protocols like OpenVPN or Wireguard are blocked. Stealth works by using an obfuscated TLS tunnel over TCP making it more difficult for deep packet inspection (DPI) to block.
+
 #### :material-check:{ .pg-green } לקוחות ניידים
 
 בנוסף לאספקת קובצי תצורה סטנדרטיים של OpenVPN, ל-Proton VPN יש לקוחות ניידים עבור [App Store](https://apps.apple.com/us/app/protonvpn-fast-secure-vpn/id1437005085), [Google Play](https://play.google.com/store/apps/details?id=ch.protonvpn.android&hl=en_US), ו- [GitHub](https://github.com/ProtonVPN/android-app/releases) המאפשרים חיבורים קלים לשרתים שלהם.
@@ -148,6 +152,10 @@ IVPN [ממליצה](https://www.ivpn.net/wireguard/) להשתמש ב-WireGuard �
 #### :material-alert-outline:{ .pg-orange } העברת פורטים מרחוק
 
 IVPN תמך בעבר בהעברת יציאות, אך הסיר את האפשרות ב[יוני 2023](https://www.ivpn.net/blog/gradual-removal-of-port-forwarding). חיסרון של תכונה זו עלולה להשפיע לרעה על יישומים מסוימים, במיוחד יישומי עמית לעמית כמו לקוחות טורנט.
+
+#### :material-check:{ .pg-green } Censorship Circumvention
+
+IVPN has obfuscation modes using the [v2ray](https://www.v2ray.com/en/index.html) project which helps in situations where VPN protocols like OpenVPN or Wireguard are blocked. Currently this feature is only available on Desktop and [iOS](https://www.ivpn.net/knowledgebase/ios/v2ray/). It has two modes where it can use [VMess](https://guide.v2fly.org/en_US/basics/vmess.html) over QUIC or TCP connections. QUIC is a modern protocol with better congestion control and therefore may be faster with reduced latency. The TCP mode makes your data appear as regular HTTP traffic.
 
 #### :material-check:{ .pg-green } לקוחות ניידים
 
@@ -222,6 +230,10 @@ Mullvad מאפשרת לך [ גישה לשירותים המתארחים ב-IPv6](
 #### :material-alert-outline:{ .pg-orange } העברת פורטים מרחוק
 
 Mullvad תמך בעבר בהעברת יציאות, אך הסיר את האפשרות ב [מאי 2023](https://mullvad.net/en/blog/2023/5/29/removing-the-support-for-forwarded-ports/). חיסרון של תכונה זו עלולה להשפיע לרעה על יישומים מסוימים, במיוחד יישומי עמית לעמית כמו לקוחות טורנט.
+
+#### :material-check:{ .pg-green } Censorship Circumvention
+
+Mullvad has obfuscation an mode using [Shadowsocks with v2ray](https://mullvad.net/en/help/shadowsocks-with-v2ray) which may be useful in situations where VPN protocols like OpenVPN or Wireguard are blocked.
 
 #### :material-check:{ .pg-green } לקוחות ניידים
 

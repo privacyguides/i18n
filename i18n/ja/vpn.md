@@ -84,6 +84,10 @@ Proton VPNはそのサービスでWireGuardを使用することを[推奨](http
 
 Proton VPNは現在NAT-PMP経由で、リース時間は60秒の一時的なリモート[ポートフォワーディング](https://protonvpn.com/support/port-forwarding/)のみをサポートしています。 Windowsアプリにはそれに簡単にアクセスできるオプションがありますが、他のオペレーティングシステムでは独自の[NAT-PMPクライアント](https://protonvpn.com/support/port-forwarding-manual-setup/)を実行する必要があります。 Torrentアプリは多くの場合NAT-PMPをネイティブサポートしています。
 
+#### :material-check:{ .pg-green } Censorship Circumvention
+
+Proton VPN has their [Stealth](https://protonvpn.com/blog/stealth-vpn-protocol/) protocol which helps in situations where VPN protocols like OpenVPN or Wireguard are blocked. Stealth works by using an obfuscated TLS tunnel over TCP making it more difficult for deep packet inspection (DPI) to block.
+
 #### :material-check:{ .pg-green } モバイルクライアント
 
 標準的なOpenVPN構成ファイルに加えて、Proton VPNは[App Store](https://apps.apple.com/us/app/protonvpn-fast-secure-vpn/id1437005085)、[Google Play](https://play.google.com/store/apps/details?id=ch.protonvpn.android&hl=en_US)、そして[GitHub](https://github.com/ProtonVPN/android-app/releases)用にモバイルクライアントを用意しており、サーバーへの簡単な接続を可能にしています。
@@ -148,6 +152,10 @@ IVPN [recommends](https://www.ivpn.net/wireguard/) the use of WireGuard with the
 #### :material-alert-outline:{ .pg-orange } リモートポートフォワーディング
 
 IVPN previously supported port forwarding, but removed the option in [June 2023](https://www.ivpn.net/blog/gradual-removal-of-port-forwarding). Missing this feature could negatively impact certain applications, especially peer-to-peer applications like torrent clients.
+
+#### :material-check:{ .pg-green } Censorship Circumvention
+
+IVPN has obfuscation modes using the [v2ray](https://www.v2ray.com/en/index.html) project which helps in situations where VPN protocols like OpenVPN or Wireguard are blocked. Currently this feature is only available on Desktop and [iOS](https://www.ivpn.net/knowledgebase/ios/v2ray/). It has two modes where it can use [VMess](https://guide.v2fly.org/en_US/basics/vmess.html) over QUIC or TCP connections. QUIC is a modern protocol with better congestion control and therefore may be faster with reduced latency. The TCP mode makes your data appear as regular HTTP traffic.
 
 #### :material-check:{ .pg-green } モバイルクライアント
 
@@ -222,6 +230,10 @@ Mullvad allows you to [access services hosted on IPv6](https://mullvad.net/en/bl
 #### :material-alert-outline:{ .pg-orange } リモートポートフォワーディング
 
 Mullvad previously supported port forwarding, but removed the option in [May 2023](https://mullvad.net/en/blog/2023/5/29/removing-the-support-for-forwarded-ports/). Missing this feature could negatively impact certain applications, especially peer-to-peer applications like torrent clients.
+
+#### :material-check:{ .pg-green } Censorship Circumvention
+
+Mullvad has obfuscation an mode using [Shadowsocks with v2ray](https://mullvad.net/en/help/shadowsocks-with-v2ray) which may be useful in situations where VPN protocols like OpenVPN or Wireguard are blocked.
 
 #### :material-check:{ .pg-green } モバイルクライアント
 

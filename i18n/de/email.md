@@ -24,13 +24,14 @@ These providers natively support OpenPGP encryption/decryption and the [Web Key 
 <div class="grid cards" markdown>
 
 - ![Proton Mail logo](assets/img/email/protonmail.svg){ .twemoji } [Proton Mail](email.md#proton-mail)
+- ![Skiff Mail logo](assets/img/email/skiff-mail.svg){ .twemoji } [Skiff Mail](email.md#skiff-mail)
 - ![Mailbox.org logo](assets/img/email/mailboxorg.svg){ .twemoji } [Mailbox.org](email.md#mailboxorg)
 
 </div>
 
 !!! warning
 
-    Bei der Verwendung von E2EE-Technologien wie OpenPGP enthalten E-Mails immer noch einige Metadaten in der Kopfzeile der E-Mail die nicht verschlüsselt sind. Mehr über [E-Mail Metadaten](basics/email-security.md#email-metadata-overview).
+    When using E2EE technology like OpenPGP your email will still have some metadata that is not encrypted in the header of the email, generally including the subject line! Mehr über [E-Mail Metadaten](basics/email-security.md#email-metadata-overview).
     
     OpenPGP unterstützt auch keine Perfect Forward Secrecy, d. h. wenn entweder dein eigener privater Schlüssel oder der deines Kommunikationspartners gestohlen wird, sind alle vorher damit verschlüsselten Nachrichten offengelegt. [Wie schütze ich meine privaten Schlüssel?](basics/email-security.md#how-do-i-protect-my-private-keys)
 
@@ -85,9 +86,9 @@ Bestimmte Informationen, die in [Proton Contacts](https://proton.me/support/prot
 
 #### :material-check:{ .pg-green } E-Mail-Verschlüsselung
 
-Proton Mail hat [die OpenPGP-Verschlüsselung](https://proton.me/support/how-to-use-pgp) in sein Webmail integriert. E-Mails an andere Proton Mail-Konten werden automatisch verschlüsselt. Die Verschlüsselung an Nicht-Proton Mail-Adressen mit einem OpenPGP-Schlüssel kannst du ganz einfach in deinen Kontoeinstellungen aktivieren. Es ist auch möglich, [Nachrichten an Nicht-Proton-Mail-Adressen](https://proton.me/de/support/password-protected-emails) zu verschlüsseln, ohne dass diese sich für ein Proton-Mail-Konto anmelden oder Software wie OpenPGP verwenden müssen.
+Proton Mail hat [die OpenPGP-Verschlüsselung](https://proton.me/support/how-to-use-pgp) in sein Webmail integriert. E-Mails an andere Proton Mail-Konten werden automatisch verschlüsselt. Die Verschlüsselung an Nicht-Proton Mail-Adressen mit einem OpenPGP-Schlüssel kannst du ganz einfach in deinen Kontoeinstellungen aktivieren. Proton also supports automatic external key discovery with [Web Key Directory (WKD)](https://wiki.gnupg.org/WKD). This means that emails sent to other providers which use WKD, such as Skiff Mail, will be automatically encrypted with OpenPGP as well, without the need to manually exchange public PGP keys with your contacts. They also allow you to [encrypt messages to non-Proton Mail addresses without OpenPGP](https://proton.me/support/password-protected-emails), without the need for them to sign up for a Proton Mail account.
 
-Proton Mail unterstützt auch die Suche nach öffentlichen Schlüsseln über HTTP in ihrem [Web Key Directory (WKD)](https://wiki.gnupg.org/WKD). Dies ermöglicht es Personen, die Proton Mail nicht verwenden, die OpenPGP-Schlüssel von Proton Mail-Konten für anbieterübergreifende E2EE leicht zu finden. This only applies to email addresses ending in one of Proton's own domains, like @proton.me. If you use a custom domain, you must [configure WKD](./basics/email-security.md#what-is-the-web-key-directory-standard) separately.
+Proton Mail also publishes the public keys of Proton accounts via HTTP from their WKD. Dies ermöglicht es Personen, die Proton Mail nicht verwenden, die OpenPGP-Schlüssel von Proton Mail-Konten für anbieterübergreifende E2EE leicht zu finden. This only applies to email addresses ending in one of Proton's own domains, like @proton.me. If you use a custom domain, you must [configure WKD](./basics/email-security.md#what-is-the-web-key-directory-standard) separately.
 
 #### :material-information-outline:{ .pg-blue } Kontokündigung
 
@@ -98,6 +99,61 @@ Wenn du ein kostenpflichtiges Konto hast und deine Rechnung [nach 14 Tagen noch 
 Proton Mail bietet einen "Unlimited"-Tarif für 9,99 €/Monat an, der zusätzlich zu mehreren Konten, Domains, Aliasen und 500 GB Speicherplatz auch den Zugang zu Proton VPN ermöglicht.
 
 Proton Mail bietet keine Funktion für deinen digitalen Nachlass.
+
+### Skiff Mail
+
+!!! recommendation
+
+    ![Skiff Mail logo](assets/img/email/skiff-mail.svg){ align=right }
+    
+    **Skiff Mail** ist ein Ende zu Ende verschlüsselter E-Mail Anbieter, welcher seit 2020 mit Sitz in San Francisco und Entwicklern weltweit aktiv ist. Konten sind mit 10GB Speicher gratis verfügbar.
+    
+    [:octicons-home-16: Homepage](https://skiff.com/mail){ .md-button .md-button--primary }
+    [:octicons-eye-16:](https://app.skiff.com/docs/db93c237-84c2-4b2b-9588-19a7cd2cd45a#tyGksN9rkqbo2uGYASxsA6HVLjUoly/wTYK8tncTto8=){ .card-link title="Datenschutzhinweise" }
+    [:octicons-info-16:](https://skiff.com/help){ .card-link title=Dokumentation}
+    [:octicons-code-16:](https://github.com/skiff-org/skiff-apps){ .card-link title="Quellcode" }
+    
+    ??? downloads
+    
+        - [:simple-android: Android](https://play.google.com/store/apps/details?id=com.skemailmobileapp&pli=1)
+        - [:simple-appstore: iOS](https://apps.apple.com/us/app/skiff-mail/id1619168801)
+        - [:octicons-browser-16: Web](https://app.skiff.com/mail)
+
+Skiff wurde während seiner Entwicklung einigen [Audits](https://skiff.com/transparency) unterzogen.
+
+#### :material-check:{ .pg-green } Eigene Domains und Aliase
+
+Zusätzlich zu der primären E-Mail Adresse stellt Skiff in der Gratis-Version drei zusätzliche @skiff.com E-Mail Aliase zur Verfügung. Gratis Konten können eine [benutzerdefinierte Domäne](https://skiff.com/blog/custom-domain-setup) hinzufügen. Mit einem Abonnement stehen 15 Domänen zur Verfügung. Für die benutzerdefinierte Domäne können entweder unendlich viele oder ein ["catch-all"](https://skiff.com/blog/catch-all-email-alias)-Alias erstellt werden.
+
+#### :material-alert-outline:{ .pg-orange } Private Zahlungsmethoden
+
+Skiff Mail akzeptiert Zahlungen über Coinbase Commerce, z.B. mit Bitcoin oder Etherium, allerdings wird die von uns empfohlene [Kryptowährung](cryptocurrency.md), Monero, nicht unterstützt. Über Stripe werden außerdem Kreditkartenzahlungen akzeptiert.
+
+#### :material-check:{ .pg-green } Kontosicherheit
+
+Skiff Mail unterstützt TOTP Zwei-Faktor Authentifizierung und physische Sicherheitsschlüssel über die FIDO2 oder U2F Standards. Um einen physischen Sicherheitsschlüssel zu nutzen muss zuerst ein TOTP Code eingerichtet sein.
+
+#### :material-check:{ .pg-green } Datensicherheit
+
+Skiff Mail nutzt eine Nullzugriffsverschlüsselung für alle Ihre Daten. Das bedeutet, dass die in Ihrem Konto gespeicherten Nachrichten und anderen Daten nur von dir gelesen werden können.
+
+#### :material-check:{ .pg-green } E-Mail-Verschlüsselung
+
+Skiff Mail encrypts messages to other Skiff mailboxes automatically with E2EE. On December 18th, 2023, Skiff added support for PGP and automatic public key discovery via Web Key Directory (WKD). This means that emails sent to other providers which use WKD, such as Proton Mail, will be automatically encrypted with OpenPGP as well without the need to exchange public PGP keys with your contacts. New Skiff Mail accounts should have a PGP key automatically generated, while accounts from before this feature was introduced need to generate a new PGP key for their address (or upload an existing private key) in the account's address settings. Skiff Mail only has support for reading messages encrypted with PGP/MIME, not the older PGP/Inline standard. Sending messages with PGP/MIME is the [recommended approach](https://www.gnupg.org/faq/gnupg-faq.html#use_pgpmime), but may pose compatibility issues in some edge cases.
+
+Skiff Mail also publishes the public keys of Skiff Mail accounts via HTTP from their [Web Key Directory (WKD)](https://wiki.gnupg.org/WKD). This allows people who don't use Skiff Mail to find the OpenPGP keys of Skiff Mail accounts easily, for cross-provider E2EE. This only applies to email addresses ending in one of Skiff's own domains, like @skiff.com. If you use a custom domain, you must [configure WKD](./basics/email-security.md#what-is-the-web-key-directory-standard) separately.
+
+Skiff does not have a "temporary inbox" or "passworded email" feature like some other providers have, so that external users without OpenPGP cannot receive or reply to messages with E2EE.
+
+#### :material-information-outline:{ .pg-blue } Kontokündigung
+
+Skiff Mail Accounts können nach Ende des Abos nicht gelöscht werden, allerdings müssen nicht zahlende Nutzer alle kostenpflichtigen Features (z.B. zusätzliche Aliase) deaktivieren, bevor der Account wieder genutzt werden kann.
+
+#### :material-information-outline:{ .pg-blue } Zusätzliche Funktionen
+
+Skiff wirbt zudem noch mit [Produktivitäts-Features](https://discuss.privacyguides.net/t/skiff-pages-drive-productivity-tools/11758/13) im Arbeitsbereich, allerdings empfehlen wir [alternative](productivity.md) Lösungen für Kollaboration und File Sharing.
+
+Skiff Mail bietet keine "Digitaler Nachlass"-Funktion an.
 
 ### Mailbox.org
 
@@ -157,61 +213,9 @@ Diese Anbieter speichern deine E-Mails mit Zero-Knowledge-Verschlüsselung und s
 
 <div class="grid cards" markdown>
 
-- ![Skiff Mail logo](assets/img/email/skiff-mail.svg){ .twemoji } [Skiff Mail](email.md#skiff-mail)
 - ![Tuta logo](assets/img/email/tuta.svg){ .twemoji } [Tuta](email.md#tuta)
 
 </div>
-
-### Skiff Mail
-
-!!! recommendation
-
-    ![Skiff Mail logo](assets/img/email/skiff-mail.svg){ align=right }
-    
-    **Skiff Mail** ist ein Ende zu Ende verschlüsselter E-Mail Anbieter, welcher seit 2020 mit Sitz in San Francisco und Entwicklern weltweit aktiv ist. Konten sind mit 10GB Speicher gratis verfügbar.
-    
-    [:octicons-home-16: Homepage](https://skiff.com/mail){ .md-button .md-button--primary }
-    [:octicons-eye-16:](https://app.skiff.com/docs/db93c237-84c2-4b2b-9588-19a7cd2cd45a#tyGksN9rkqbo2uGYASxsA6HVLjUoly/wTYK8tncTto8=){ .card-link title="Datenschutzhinweise" }
-    [:octicons-info-16:](https://skiff.com/help){ .card-link title=Dokumentation}
-    [:octicons-code-16:](https://github.com/skiff-org/skiff-apps){ .card-link title="Quellcode" }
-    
-    ??? downloads
-    
-        - [:simple-android: Android](https://play.google.com/store/apps/details?id=com.skemailmobileapp&pli=1)
-        - [:simple-appstore: iOS](https://apps.apple.com/us/app/skiff-mail/id1619168801)
-        - [:octicons-browser-16: Web](https://app.skiff.com/mail)
-
-Skiff wurde während seiner Entwicklung einigen [Audits](https://skiff.com/transparency) unterzogen.
-
-#### :material-check:{ .pg-green } Eigene Domains und Aliase
-
-Zusätzlich zu der primären E-Mail Adresse stellt Skiff in der Gratis-Version drei zusätzliche @skiff.com E-Mail Aliase zur Verfügung. Gratis Konten können eine [benutzerdefinierte Domäne](https://skiff.com/blog/custom-domain-setup) hinzufügen. Mit einem Abonnement stehen 15 Domänen zur Verfügung. Für die benutzerdefinierte Domäne können entweder unendlich viele oder ein ["catch-all"](https://skiff.com/blog/catch-all-email-alias)-Alias erstellt werden.
-
-#### :material-alert-outline:{ .pg-orange } Private Zahlungsmethoden
-
-Skiff Mail akzeptiert Zahlungen über Coinbase Commerce, z.B. mit Bitcoin oder Etherium, allerdings wird die von uns empfohlene [Kryptowährung](cryptocurrency.md), Monero, nicht unterstützt. Über Stripe werden außerdem Kreditkartenzahlungen akzeptiert.
-
-#### :material-check:{ .pg-green } Kontosicherheit
-
-Skiff Mail unterstützt TOTP Zwei-Faktor Authentifizierung und physische Sicherheitsschlüssel über die FIDO2 oder U2F Standards. Um einen physischen Sicherheitsschlüssel zu nutzen muss zuerst ein TOTP Code eingerichtet sein.
-
-#### :material-check:{ .pg-green } Datensicherheit
-
-Skiff Mail nutzt eine Nullzugriffsverschlüsselung für alle Ihre Daten. Das bedeutet, dass die in Ihrem Konto gespeicherten Nachrichten und anderen Daten nur von dir gelesen werden können.
-
-#### :material-information-outline:{ .pg-blue } E-Mail-Verschlüsselung
-
-Skiff Mail unterstützt kein OpenPGP. E-Mails sind nur im Schriftverkehr mit anderen Skiff Mail Nutzern Ende zu Ende verschlüsselt. Im Gegensatz zu anderen Anbietern verfügt Skiff Mail über keine "Temporäre Inbox" oder "Passwortgeschützte E-Mail". Diese würden den Versand von verschlüsselten Schriftverkehr mit externen Adressen ermöglichen.
-
-#### :material-information-outline:{ .pg-blue } Kontokündigung
-
-Skiff Mail Accounts können nach Ende des Abos nicht gelöscht werden, allerdings müssen nicht zahlende Nutzer alle kostenpflichtigen Features (z.B. zusätzliche Aliase) deaktivieren, bevor der Account wieder genutzt werden kann.
-
-#### :material-information-outline:{ .pg-blue } Zusätzliche Funktionen
-
-Skiff wirbt zudem noch mit [Produktivitäts-Features](https://discuss.privacyguides.net/t/skiff-pages-drive-productivity-tools/11758/13) im Arbeitsbereich, allerdings empfehlen wir [alternative](productivity.md) Lösungen für Kollaboration und File Sharing.
-
-Skiff Mail bietet keine "Digitaler Nachlass"-Funktion an.
 
 ### Tuta
 

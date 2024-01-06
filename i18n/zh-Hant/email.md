@@ -24,13 +24,14 @@ cover: email.webp
 <div class="grid cards" markdown>
 
 - ![Proton Mail logo](assets/img/email/protonmail.svg){ .twemoji } [Proton Mail](email.md#proton-mail)
+- ![Skiff Mail logo](assets/img/email/skiff-mail.svg){ .twemoji } [Skiff Mail](email.md#skiff-mail)
 - ![Mailbox.org logo](assets/img/email/mailboxorg.svg){ .twemoji } [Mailbox.org](email.md#mailboxorg)
 
 </div>
 
 !!! warning "警告"
 
-    當使用像 OpenPGP 這類 E2EE 技術時，電子郵件仍然會有一些未加密的元數據。 閱讀更多有關[電子郵件元數據](basics/email-security.md#email-metadata-overview)的資訊。
+    When using E2EE technology like OpenPGP your email will still have some metadata that is not encrypted in the header of the email, generally including the subject line! 閱讀更多有關[電子郵件元數據](basics/email-security.md#email-metadata-overview)的資訊。
     
     OpenPGP 也不支持前向保密，這意味著如果你或收件人的私鑰被盜，所有以前用它加密的消息都會洩露。 [如何保護我的私鑰？](basics/email-security.md#how-do-i-protect-my-private-keys)
 
@@ -84,9 +85,9 @@ Proton Mail 支援使用 FIDO2 或 U2F標準 的 TOTP [雙因素驗證](https://
 
 #### :material-check:{ .pg-green }電子郵件加密
 
-Proton Mail 網頁郵件整合了 [OpenPGP 加密](https://proton.me/support/how-to-use-pgp) 。 發送到其他 Proton Mai l帳戶的電子郵件會自動加密，並且可以在您的帳戶設置中輕鬆啟用使用 OpenPGP 金鑰對非 Proton Mail 地址進行加密。 它可以 [加密非 Proton Mail 郵件地址的訊息](https://proton.me/support/password-protected-emails)，不必非得使用 Proton Mail 帳戶或  OpenPGP 之類的軟體。
+Proton Mail 網頁郵件整合了 [OpenPGP 加密](https://proton.me/support/how-to-use-pgp) 。 發送到其他 Proton Mai l帳戶的電子郵件會自動加密，並且可以在您的帳戶設置中輕鬆啟用使用 OpenPGP 金鑰對非 Proton Mail 地址進行加密。 Proton also supports automatic external key discovery with [Web Key Directory (WKD)](https://wiki.gnupg.org/WKD). This means that emails sent to other providers which use WKD, such as Skiff Mail, will be automatically encrypted with OpenPGP as well, without the need to manually exchange public PGP keys with your contacts. They also allow you to [encrypt messages to non-Proton Mail addresses without OpenPGP](https://proton.me/support/password-protected-emails), without the need for them to sign up for a Proton Mail account.
 
-Proton Mail 還支持通過 HTTP 的 [Web 密鑰目錄（ WKD ）](https://wiki.gnupg.org/WKD)發現公鑰。 這可讓非 Proton Mail 用戶可以輕鬆找到 Proton Mail 帳戶的 OpenPGP 金鑰，以利跨供應商進行 E2EE 。 這僅限於使用 Proton's 自身網域別名(例如 @proton.me) 的電子郵件。 如果使用自定域名，則須另行 [設定WKD](./basics/email-security.md#what-is-the-web-key-directory-standard) 。
+Proton Mail also publishes the public keys of Proton accounts via HTTP from their WKD. 這可讓非 Proton Mail 用戶可以輕鬆找到 Proton Mail 帳戶的 OpenPGP 金鑰，以利跨供應商進行 E2EE 。 這僅限於使用 Proton's 自身網域別名(例如 @proton.me) 的電子郵件。 如果使用自定域名，則須另行 [設定WKD](./basics/email-security.md#what-is-the-web-key-directory-standard) 。
 
 #### :material-information-outline:{ .pg-blue } 帳戶終止
 
@@ -97,6 +98,61 @@ Proton Mail 還支持通過 HTTP 的 [Web 密鑰目錄（ WKD ）](https://wiki.
 Proton Mail 提供每月 9.99 歐元的“無限 Unlimited”帳戶，除了提供多個帳戶、域名、別名和 500GB 儲存空間外，還可以使用 Proton VPN。
 
 Proton Mail不提供數字遺產功能。
+
+### Skiff Mail
+
+!!! recommendation
+
+    ![Skiff Mail logo](assets/img/email/skiff-mail.svg){ align=right }
+    
+    **Skiff Mail**為 E2EE 網頁版電子郵件服務，它們從 2020 年以美國舊金山為基地推廣給全世界的開發者。 免費帳戶提供 10GB 容量。
+    
+    [:octicons-home-16: Homepage](https://skiff.com/mail){ .md-button .md-button--primary }
+    [:octicons-eye-16:](https://app.skiff.com/docs/db93c237-84c2-4b2b-9588-19a7cd2cd45a#tyGksN9rkqbo2uGYASxsA6HVLjUoly/wTYK8tncTto8=){ .card-link title="Privacy Policy" }
+    [:octicons-info-16:](https://skiff.com/help){ .card-link title=Documentation}
+    [:octicons-code-16:](https://github.com/skiff-org/skiff-apps){ .card-link title="Source Code" }
+    
+    ??? downloads "下載"
+    
+        - [:simple-android: Android](https://play.google.com/store/apps/details?id=com.skemailmobileapp&pli=1)
+        - [:simple-appstore: iOS](https://apps.apple.com/us/app/skiff-mail/id1619168801)
+        - [:octicons-browser-16: Web](https://app.skiff.com/mail)
+
+Skiff 在其開發期間曾進行多次[審計](https://skiff.com/transparency) 。
+
+#### :material-check:{ .pg-green } Custom Domains and Aliases
+
+免費方案中，用戶可在主帳戶外，建立另外 3 個 @skiff.com 別名。 免費帳戶可使用 1個 [自定域名](https://skiff.com/blog/custom-domain-setup)，而付費帳戶則最多可以設定至 15個域名。 使用自定域名者，可建立無限制的別名數量或 [catch-all](https://skiff.com/blog/catch-all-email-alias) 別名。
+
+#### :material-alert-outline:{ .pg-orange } 私密付款方式
+
+Skiff Mail 可利用 Coinbase Commerce 收取加密貨幣付款，包括比特幣和乙太幣， 他們並未接受我們所推薦的 [加密貨幣](cryptocurrency.md): Monero。 他們也接受 Stripe 的信用卡付款。
+
+#### :material-check:{ .pg-green } 帳戶安全
+
+Skiff Mail 支援 TOTP 雙因子驗證與使用 FIDO2 或 U2F 標準的硬體安全金鑰。 使用硬體安全金鑰需要先設定 TOTP 雙因素驗證。
+
+#### :material-check:{ .pg-green } 資料安全
+
+Skiff Mail 對用戶資料提供全程零存取加密。 這意味著儲存在您帳戶中的訊息和其他資料只有您能讀取。
+
+#### :material-check:{ .pg-green }電子郵件加密
+
+Skiff Mail encrypts messages to other Skiff mailboxes automatically with E2EE. On December 18th, 2023, Skiff added support for PGP and automatic public key discovery via Web Key Directory (WKD). This means that emails sent to other providers which use WKD, such as Proton Mail, will be automatically encrypted with OpenPGP as well without the need to exchange public PGP keys with your contacts. New Skiff Mail accounts should have a PGP key automatically generated, while accounts from before this feature was introduced need to generate a new PGP key for their address (or upload an existing private key) in the account's address settings. Skiff Mail only has support for reading messages encrypted with PGP/MIME, not the older PGP/Inline standard. Sending messages with PGP/MIME is the [recommended approach](https://www.gnupg.org/faq/gnupg-faq.html#use_pgpmime), but may pose compatibility issues in some edge cases.
+
+Skiff Mail also publishes the public keys of Skiff Mail accounts via HTTP from their [Web Key Directory (WKD)](https://wiki.gnupg.org/WKD). This allows people who don't use Skiff Mail to find the OpenPGP keys of Skiff Mail accounts easily, for cross-provider E2EE. This only applies to email addresses ending in one of Skiff's own domains, like @skiff.com. 如果使用自定域名，則須另行 [設定WKD](./basics/email-security.md#what-is-the-web-key-directory-standard) 。
+
+Skiff does not have a "temporary inbox" or "passworded email" feature like some other providers have, so that external users without OpenPGP cannot receive or reply to messages with E2EE.
+
+#### :material-information-outline:{ .pg-blue } 帳戶終止
+
+Skiff Mail 帳戶不會過期，但免費版將會提醒將移除某些啟用的付費功能(例如額外的別) 或更新帳戶升級。
+
+#### :material-information-outline:{ .pg-blue } 額外功能
+
+Skiff 額外提供 [工作空間生產效率功能s](https://discuss.privacyguides.net/t/skiff-pages-drive-productivity-tools/11758/13)，不過我們還是更偏好 [a替代](productivity.md)選項來進行協作與分享。
+
+Skiff Mail 不提供數位遺產功能。
 
 ### Mailbox.org
 
@@ -156,61 +212,9 @@ Mailbox.org 所有方案都提供了數位遺產功能。 你可以選擇是否�
 
 <div class="grid cards" markdown>
 
-- ![Skiff Mail logo](assets/img/email/skiff-mail.svg){ .twemoji } [Skiff Mail](email.md#skiff-mail)
 - ![Tuta logo](assets/img/email/tuta.svg){ .twemoji } [Tuta](email.md#tuta)
 
 </div>
-
-### Skiff Mail
-
-!!! recommendation
-
-    ![Skiff Mail logo](assets/img/email/skiff-mail.svg){ align=right }
-    
-    **Skiff Mail**為 E2EE 網頁版電子郵件服務，它們從 2020 年以美國舊金山為基地推廣給全世界的開發者。 免費帳戶提供 10GB 容量。
-    
-    [:octicons-home-16: Homepage](https://skiff.com/mail){ .md-button .md-button--primary }
-    [:octicons-eye-16:](https://app.skiff.com/docs/db93c237-84c2-4b2b-9588-19a7cd2cd45a#tyGksN9rkqbo2uGYASxsA6HVLjUoly/wTYK8tncTto8=){ .card-link title="Privacy Policy" }
-    [:octicons-info-16:](https://skiff.com/help){ .card-link title=Documentation}
-    [:octicons-code-16:](https://github.com/skiff-org/skiff-apps){ .card-link title="Source Code" }
-    
-    ??? downloads "下載"
-    
-        - [:simple-android: Android](https://play.google.com/store/apps/details?id=com.skemailmobileapp&pli=1)
-        - [:simple-appstore: iOS](https://apps.apple.com/us/app/skiff-mail/id1619168801)
-        - [:octicons-browser-16: Web](https://app.skiff.com/mail)
-
-Skiff 在其開發期間曾進行多次[審計](https://skiff.com/transparency) 。
-
-#### :material-check:{ .pg-green } Custom Domains and Aliases
-
-免費方案中，用戶可在主帳戶外，建立另外 3 個 @skiff.com 別名。 免費帳戶可使用 1個 [自定域名](https://skiff.com/blog/custom-domain-setup)，而付費帳戶則最多可以設定至 15個域名。 使用自定域名者，可建立無限制的別名數量或 [catch-all](https://skiff.com/blog/catch-all-email-alias) 別名。
-
-#### :material-alert-outline:{ .pg-orange } 私密付款方式
-
-Skiff Mail 可利用 Coinbase Commerce 收取加密貨幣付款，包括比特幣和乙太幣， 他們並未接受我們所推薦的 [加密貨幣](cryptocurrency.md): Monero。 他們也接受 Stripe 的信用卡付款。
-
-#### :material-check:{ .pg-green } 帳戶安全
-
-Skiff Mail 支援 TOTP 雙因子驗證與使用 FIDO2 或 U2F 標準的硬體安全金鑰。 使用硬體安全金鑰需要先設定 TOTP 雙因素驗證。
-
-#### :material-check:{ .pg-green } 資料安全
-
-Skiff Mail 對用戶資料提供全程零存取加密。 這意味著儲存在您帳戶中的訊息和其他資料只有您能讀取。
-
-#### :material-information-outline:{ .pg-blue } 電子郵件加密
-
-Skiff Mail 不用 OpenPGP。 電子郵件僅 利用E2EE 加密給其它的 Skiff Mail 用戶。 Skiff 沒有 "臨時信箱" 或 "郵件密碼保護" 功能，因此外部非 Skiff 用戶無法收取或回覆 E2EE 的訊息。
-
-#### :material-information-outline:{ .pg-blue } 帳戶終止
-
-Skiff Mail 帳戶不會過期，但免費版將會提醒將移除某些啟用的付費功能(例如額外的別) 或更新帳戶升級。
-
-#### :material-information-outline:{ .pg-blue } 額外功能
-
-Skiff 額外提供 [工作空間生產效率功能s](https://discuss.privacyguides.net/t/skiff-pages-drive-productivity-tools/11758/13)，不過我們還是更偏好 [a替代](productivity.md)選項來進行協作與分享。
-
-Skiff Mail 不提供數位遺產功能。
 
 ### Tuta
 

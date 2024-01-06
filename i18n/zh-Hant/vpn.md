@@ -84,6 +84,10 @@ Proton VPN [建議](https://protonvpn.com/blog/wireguard/) 搭配 WireGuard 使�
 
 Proton VPN 目前僅支援暫寺性NAT-PMP遠方 [連接埠轉發](https://protonvpn.com/support/port-forwarding/)期間為 60 秒。 Windows 應用提供簡易使用選項，而其它作業系統則需運行 [NAT-PMP 客戶端](https://protonvpn.com/support/port-forwarding-manual-setup/)。 Torrent 應用往往支援 NAT-PMP 原生。
 
+#### :material-check:{ .pg-green } Censorship Circumvention
+
+Proton VPN has their [Stealth](https://protonvpn.com/blog/stealth-vpn-protocol/) protocol which helps in situations where VPN protocols like OpenVPN or Wireguard are blocked. Stealth works by using an obfuscated TLS tunnel over TCP making it more difficult for deep packet inspection (DPI) to block.
+
 #### :material-check:{ .pg-green } 手機客戶端
 
 除了提供標準的 OpenVPN 配置檔案外， Proton VPN 還有 [ App Store](https://apps.apple.com/us/app/protonvpn-fast-secure-vpn/id1437005085)、 [ Google Play](https://play.google.com/store/apps/details?id=ch.protonvpn.android&hl=en_US)和 [個GitHub](https://github.com/ProtonVPN/android-app/releases) 的移動客戶端，可以輕鬆連接到其伺服器。
@@ -158,6 +162,12 @@ IVPN [建議](https://www.ivpn.net/wireguard/)搭配 WireGuard 一起使用， I
 #### :material-alert-outline:{ .pg-orange } 遠端端口轉發
 
 IVPN 之前支援向前轉發，但於[2023年6月](https://www.ivpn.net/blog/gradual-removal-of-port-forwarding)移除此功能選項。 失去此功能將對應用程式造成負面影響，尤其是點對點的應用如 torrent 客戶端軟體。
+
+
+
+#### :material-check:{ .pg-green } Censorship Circumvention
+
+IVPN has obfuscation modes using the [v2ray](https://www.v2ray.com/en/index.html) project which helps in situations where VPN protocols like OpenVPN or Wireguard are blocked. Currently this feature is only available on Desktop and [iOS](https://www.ivpn.net/knowledgebase/ios/v2ray/). It has two modes where it can use [VMess](https://guide.v2fly.org/en_US/basics/vmess.html) over QUIC or TCP connections. QUIC is a modern protocol with better congestion control and therefore may be faster with reduced latency. The TCP mode makes your data appear as regular HTTP traffic.
 
 
 
@@ -258,6 +268,12 @@ Mullvad 可 [存取託管在 IPv6](https://mullvad.net/en/blog/2014/9/15/ipv6-su
 #### :material-alert-outline:{ .pg-orange } 遠端端口轉發
 
 Mullvad 之前支援向前轉發，但於[2023年5月](https://mullvad.net/en/blog/2023/5/29/removing-the-support-for-forwarded-ports/)移除此功能選項。 失去此功能將對應用程式造成負面影響，尤其是點對點的應用如 torrent 客戶端軟體。
+
+
+
+#### :material-check:{ .pg-green } Censorship Circumvention
+
+Mullvad has obfuscation an mode using [Shadowsocks with v2ray](https://mullvad.net/en/help/shadowsocks-with-v2ray) which may be useful in situations where VPN protocols like OpenVPN or Wireguard are blocked.
 
 
 

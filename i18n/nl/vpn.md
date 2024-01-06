@@ -84,6 +84,10 @@ Proton VPN [adviseert](https://protonvpn.com/blog/wireguard/) het gebruik van Wi
 
 Proton VPN ondersteunt momenteel alleen ephemeral remote [port forwarding](https://protonvpn.com/support/port-forwarding/) via NAT-PMP, met een leasetijd van 60 seconden. De Windows-app biedt hiervoor een gemakkelijk toegankelijke optie, terwijl je op andere besturingssystemen je eigen [NAT-PMP-client](https://protonvpn.com/support/port-forwarding-manual-setup/)moet draaien. Torrent toepassingen ondersteunen vaak de NAT-PMP volledig.
 
+#### :material-check:{ .pg-green } Censorship Circumvention
+
+Proton VPN has their [Stealth](https://protonvpn.com/blog/stealth-vpn-protocol/) protocol which helps in situations where VPN protocols like OpenVPN or Wireguard are blocked. Stealth works by using an obfuscated TLS tunnel over TCP making it more difficult for deep packet inspection (DPI) to block.
+
 #### :material-check:{ .pg-green } Mobiele Clients
 
 Naast het leveren van standaard OpenVPN-configuratiebestanden, heeft Proton VPN mobiele clients voor [App Store](https://apps.apple.com/us/app/protonvpn-fast-secure-vpn/id1437005085), [Google Play](https://play.google.com/store/apps/details?id=ch.protonvpn.android&hl=en_US), en [GitHub](https://github.com/ProtonVPN/android-app/releases) die eenvoudige verbindingen met hun servers mogelijk maken.
@@ -148,6 +152,10 @@ IVPN [adviseert](https://www.ivpn.net/wireguard/) het gebruik van WireGuard met 
 #### :material-alert-outline:{ .pg-orange } Remote Port Forwarding
 
 Mullvad ondersteunde voorheen port forwarding, maar heeft deze optie verwijderd in [Mei 2023](https://www.ivpn.net/blog/gradual-removal-of-port-forwarding). Het ontbreken van deze functie kan bepaalde toepassingen negatief beïnvloeden, met name peer-to-peer applicaties zoals torrent clients.
+
+#### :material-check:{ .pg-green } Censorship Circumvention
+
+IVPN has obfuscation modes using the [v2ray](https://www.v2ray.com/en/index.html) project which helps in situations where VPN protocols like OpenVPN or Wireguard are blocked. Currently this feature is only available on Desktop and [iOS](https://www.ivpn.net/knowledgebase/ios/v2ray/). It has two modes where it can use [VMess](https://guide.v2fly.org/en_US/basics/vmess.html) over QUIC or TCP connections. QUIC is a modern protocol with better congestion control and therefore may be faster with reduced latency. The TCP mode makes your data appear as regular HTTP traffic.
 
 #### :material-check:{ .pg-green } Mobiele Clients
 
@@ -222,6 +230,10 @@ Met Mullvad heb je via [toegang tot services die gehost worden op IPv6](https://
 #### :material-alert-outline:{ .pg-orange } Remote Port Forwarding
 
 Mullvad ondersteunde voorheen port forwarding, maar heeft deze optie verwijderd in [Mei 2023](https://mullvad.net/en/blog/2023/5/29/removing-the-support-for-forwarded-ports/). Het ontbreken van deze functie kan bepaalde toepassingen negatief beïnvloeden, met name peer-to-peer applicaties zoals torrent clients.
+
+#### :material-check:{ .pg-green } Censorship Circumvention
+
+Mullvad has obfuscation an mode using [Shadowsocks with v2ray](https://mullvad.net/en/help/shadowsocks-with-v2ray) which may be useful in situations where VPN protocols like OpenVPN or Wireguard are blocked.
 
 #### :material-check:{ .pg-green } Mobiele Clients
 
