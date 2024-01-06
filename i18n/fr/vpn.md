@@ -20,7 +20,7 @@ Si vous recherchez à protéger votre **vie privée** vis-à-vis de votre FAI, s
 
     L'utilisation d'un VPN ne rendra **pas** votre navigation anonyme et n'ajoutera pas de sécurité supplémentaire à un trafic non sécurisé (HTTP).
     
-    Si vous recherchez l'**anonymat**, vous devriez utiliser le navigateur Tor **au lieu** d'un VPN.
+    If you are looking for **anonymity**, you should use the Tor Browser.
     
     Si vous recherchez plus de **sécurité**, vous devez toujours vous assurer que vous vous connectez aux sites web en utilisant HTTPS. Un VPN ne remplace pas les bonnes pratiques de sécurité.
     

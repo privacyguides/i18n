@@ -20,7 +20,7 @@ Se você está procurando mais **privacidade** do seu provedor de internet (ISP)
 
     Usar uma VPN **não** manterá seus hábitos de navegação anônimos, nem adicionará segurança ao tráfego não seguro (HTTP).
     
-    Se você está procurando por **anonimato**, você deve usar o Navegador Tor **ao invés de ** de uma VPN.
+    If you are looking for **anonymity**, you should use the Tor Browser.
     
     Se você está procurando por * * segurança * * adicional, você sempre deve verificar se está se conectando a sites que usam HTTPS. Uma VPN não substitui boas práticas de segurança.
     

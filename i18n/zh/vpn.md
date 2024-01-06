@@ -20,7 +20,7 @@ If you're looking for additional **privacy** from your ISP, on a public Wi-Fi ne
 
     使用VPN **不** 会隐藏你的浏览习惯, 它也不会为不安全(HTTP) 流量额外增加安全性。
     
-    如果你在寻求**匿名**, 你应该使用Tor 浏览器 **而不是** VPN。
+    If you are looking for **anonymity**, you should use the Tor Browser.
     
     如果你在寻求增进**安全**, 你应该始终确保在使用 HTTPS连接到网站。 VPN不是良好安全实践的替代品。
     

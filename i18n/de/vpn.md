@@ -20,7 +20,7 @@ Wenn du auf der Suche nach zusätzlicher **Privatsphäre** vor deinem ISP, in ei
 
     Mit einem VPN bleiben deine Surfgewohnheiten **nicht** anonym, und es bietet auch keine zusätzliche Sicherheit für unsicheren (HTTP) Verkehr.
     
-    Wenn du auf der Suche nach **Anonymität** bist, solltest du den Tor-Browser **anstelle** eines VPNs verwenden.
+    If you are looking for **anonymity**, you should use the Tor Browser.
     
     Wenn du auf der Suche nach zusätzlicher **Sicherheit** bist, solltest du immer sicherstellen, dass du eine Verbindung zu Websites über HTTPS herstellst. Ein VPN ist kein Ersatz für gute Sicherheitspraktiken.
     

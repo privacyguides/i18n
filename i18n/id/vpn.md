@@ -20,7 +20,7 @@ Jika Anda mencari **privasi tambahan** dari ISP Anda, pada jaringan Wi-Fi publik
 
     Menggunakan VPN **tidak** akan menjaga kebiasaan jelajah Anda tetap anonim, dan juga tidak akan menambah keamanan tambahan pada lalu lintas yang tidak aman (HTTP).
     
-    Jika Anda membutuhkan **anonimitas**, Anda sebaiknya menggunakan Tor Browser **daripada** menggunakan VPN.
+    If you are looking for **anonymity**, you should use the Tor Browser.
     
     Jika Anda membutuhkan **keamanan** tambahan, Anda harus selalu memastikan bahwa Anda terhubung ke situs web menggunakan HTTPS. VPN bukanlah pengganti praktik keamanan yang baik.
     

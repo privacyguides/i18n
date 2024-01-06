@@ -20,7 +20,7 @@ If you're looking for additional **privacy** from your ISP, on a public Wi-Fi ne
 
     Egy VPN használata **nem** fogja anonimizálni a böngészési szokásaidat, és nem biztosít további védelmet nem biztonságos (HTTP) forgalomnak.
     
-    Ha **anonimitást** keresel, akkor a Tor böngészőt érdemes használnod egy VPN **helyett**.
+    If you are looking for **anonymity**, you should use the Tor Browser.
     
     Ha több **biztonságot** keresel, mindig győződj meg arról, hogy a weboldalakhoz HTTPS használatával csatlakozol. Egy VPN nem helyettesít helyes biztonsági gyakorlatokat.
     

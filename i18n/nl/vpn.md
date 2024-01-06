@@ -20,7 +20,7 @@ Als je op zoek bent naar extra **privacy** van uw ISP, op een openbaar Wi-Fi-net
 
     Het gebruik van een VPN houdt jouw surfgedrag niet anoniem, ook voegt het geen extra beveiliging toe aan niet-beveiligd (HTTP) verkeer.
     
-    Als je op zoek bent naar **anonimiteit**, moet je de Tor Browser gebruiken **in plaats** van een VPN.
+    If you are looking for **anonymity**, you should use the Tor Browser.
     
     Als je op zoek bent naar extra **veiligheid**, moet je er altijd voor zorgen dat je verbinding maakt met websites via HTTPS. Een VPN is geen vervanging voor goede beveiligingspraktijken.
     

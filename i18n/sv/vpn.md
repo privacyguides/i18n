@@ -20,7 +20,7 @@ If you're looking for additional **privacy** from your ISP, on a public Wi-Fi ne
 
     En VPN kommer **inte** att hålla dina surfvanor anonyma, och inte heller kommer den att lägga till ytterligare säkerhet för icke-säker (HTTP) trafik.
     
-    Om du är ute efter **anonymitet** bör du använda Tor Browser **i stället** för en VPN.
+    If you are looking for **anonymity**, you should use the Tor Browser.
     
     Om du vill öka **säkerheten** bör du alltid se till att du ansluter till webbplatser med HTTPS. En VPN är inte en ersättning för goda säkerhetsrutiner.
     

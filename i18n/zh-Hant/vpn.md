@@ -20,7 +20,7 @@ cover: vpn.webp
 
     使用 VPN 將 **不會** 讓您的瀏覽習慣被匿名，也不會替不安全（ HTTP ）流量增加額外的安全性。
     
-    如果您追求的是 **匿名性** ，應該使用 Tor 瀏覽器 **代替** VPN。
+    If you are looking for **anonymity**, you should use the Tor Browser.
     
     如果要的是更多 **安全性** ，您應該確保您全程使用 HTTPS 連接到網站。 VPN 不能取代良好的安全措施。
     

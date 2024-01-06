@@ -20,7 +20,7 @@ Se desideri ulteriore **privacy** dal tuo ISP, su una rete Wi-Fi pubblica, o dur
 
     L'utilizzo di una VPN **non** manterrà anonime le tue abitudini di navigazione, né aggiungerà ulteriore sicurezza al traffico non sicuro (HTTP).
     
-    Se stai cercando l'**anonimato**, dovresti utilizzare Tor Browser **invece** di una VPN.
+    If you are looking for **anonymity**, you should use the Tor Browser.
     
     Se stai cercando maggiore **sicurezza**, dovresti sempre assicurarti di connetterti a siti web che utilizzano HTTPS. Una VPN non è un sostituto per buone pratiche di sicurezza.
     
