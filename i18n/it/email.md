@@ -85,9 +85,9 @@ Certe informazioni memorizzate su [Proton Contact](https://proton.me/support/pro
 
 #### :material-check:{ .pg-green } Crittografia Email
 
-Proton Mail ha una [crittografia OpenPGP integrata](https://proton.me/support/how-to-use-pgp) nella propria webmail. Le e-mail inviate ad altri account Proton Mail vengono crittografate automaticamente, e la crittografia verso indirizzi non Proton Mail con una chiave OpenPGP può essere abilitata nelle impostazioni dell'account. Proton also supports automatic external key discovery with [Web Key Directory (WKD)](https://wiki.gnupg.org/WKD). This means that emails sent to other providers which use WKD, such as Skiff Mail, will be automatically encrypted with OpenPGP as well, without the need to manually exchange public PGP keys with your contacts. They also allow you to [encrypt messages to non-Proton Mail addresses without OpenPGP](https://proton.me/support/password-protected-emails), without the need for them to sign up for a Proton Mail account.
+Proton Mail ha una [crittografia OpenPGP integrata](https://proton.me/support/how-to-use-pgp) nella propria webmail. Le e-mail inviate ad altri account Proton Mail vengono crittografate automaticamente, e la crittografia verso indirizzi non Proton Mail con una chiave OpenPGP può essere abilitata nelle impostazioni dell'account. Proton supporta anche il rilevamento automatico di chiavi esterne con [Web Key Directory (WKD)](https://wiki.gnupg.org/WKD). Ciò significa che anche le e-mail inviate ad altri provider che utilizzano WKD, come Skiff Mail, saranno automaticamente crittografate con OpenPGP, senza la necessità di scambiare manualmente le chiavi PGP pubbliche con i tuoi contatti. Consentono inoltre di [crittografare i messaggi inviati a indirizzi non Proton Mail senza OpenPGP](https://proton.me/support/password-protected-emails), senza la necessità di aprire un account Proton Mail.
 
-Proton Mail also publishes the public keys of Proton accounts via HTTP from their WKD. Ciò permette a coloro che non utilizzano Proton Mail, di trovare facilmente le chiavi OpenPGP dei profili di Proton Mail, per un'E2EE tra fornitori. Questo vale solo per gli indirizzi e-mail che terminano con uno dei domini di proprietà di Proton, come @proton.me. Se si utilizza un dominio personalizzato, è necessario [configurare il WKD](./basics/email-security.md#what-is-the-web-key-directory-standard) separatamente.
+Proton Mail pubblica anche le chiavi pubbliche degli account Proton via HTTP dal loro WKD. Ciò permette a coloro che non utilizzano Proton Mail, di trovare facilmente le chiavi OpenPGP dei profili di Proton Mail, per un'E2EE tra fornitori. Questo vale solo per gli indirizzi e-mail che terminano con uno dei domini di proprietà di Proton, come @proton.me. Se si utilizza un dominio personalizzato, è necessario [configurare il WKD](./basics/email-security.md#what-is-the-web-key-directory-standard) separatamente.
 
 #### :material-information-outline:{ .pg-blue } Chiusura dell'account
 
@@ -138,11 +138,11 @@ Skiff Mail ha una crittografia ad accesso zero a riposo per tutti i tuoi dati. C
 
 #### :material-check:{ .pg-green } Crittografia Email
 
-Skiff Mail encrypts messages to other Skiff mailboxes automatically with E2EE. On December 18th, 2023, Skiff added support for PGP and automatic public key discovery via Web Key Directory (WKD). This means that emails sent to other providers which use WKD, such as Proton Mail, will be automatically encrypted with OpenPGP as well without the need to exchange public PGP keys with your contacts. New Skiff Mail accounts should have a PGP key automatically generated, while accounts from before this feature was introduced need to generate a new PGP key for their address (or upload an existing private key) in the account's address settings. Skiff Mail only has support for reading messages encrypted with PGP/MIME, not the older PGP/Inline standard. Sending messages with PGP/MIME is the [recommended approach](https://www.gnupg.org/faq/gnupg-faq.html#use_pgpmime), but may pose compatibility issues in some edge cases.
+Skiff Mail cifra automaticamente i messaggi verso altre caselle di posta Skiff con E2EE. Il 18 dicembre 2023, Skiff ha aggiunto il supporto per PGP e il rilevamento automatico delle chiavi pubbliche tramite Web Key Directory (WKD). Ciò significa che le e-mail inviate ad altri provider che utilizzano WKD, come Proton Mail, saranno automaticamente crittografate anche con OpenPGP senza dover scambiare chiavi PGP pubbliche con i tuoi contatti. I nuovi account Skiff Mail dovrebbero avere una chiave PGP generata automaticamente, mentre gli account precedenti all'introduzione di questa funzione devono generare una nuova chiave PGP per il loro indirizzo (o caricare una chiave privata esistente) nelle impostazioni dell'indirizzo dell'account. Skiff Mail supporta solo la lettura di messaggi crittografati con PGP/MIME, non con il vecchio standard PGP/Inline. L'invio di messaggi con PGP/MIME è [l'approccio consigliato](https://www.gnupg.org/faq/gnupg-faq.html#use_pgpmime), ma può presentare problemi di compatibilità in alcuni casi limite.
 
-Skiff Mail also publishes the public keys of Skiff Mail accounts via HTTP from their [Web Key Directory (WKD)](https://wiki.gnupg.org/WKD). This allows people who don't use Skiff Mail to find the OpenPGP keys of Skiff Mail accounts easily, for cross-provider E2EE. This only applies to email addresses ending in one of Skiff's own domains, like @skiff.com. Se si utilizza un dominio personalizzato, è necessario [configurare il WKD](./basics/email-security.md#what-is-the-web-key-directory-standard) separatamente.
+Anche Skiff Mail pubblica le chiavi pubbliche degli account Skiff Mail via HTTP dal proprio [Web Key Directory (WKD)](https://wiki.gnupg.org/WKD). Questo permette a chi non usa Skiff Mail di trovare facilmente le chiavi OpenPGP degli account Skiff Mail, per un E2EE cross-provider. Questo vale solo per gli indirizzi e-mail che terminano con uno dei domini di Skiff, come @skiff.com. Se si utilizza un dominio personalizzato, è necessario [configurare il WKD](./basics/email-security.md#what-is-the-web-key-directory-standard) separatamente.
 
-Skiff does not have a "temporary inbox" or "passworded email" feature like some other providers have, so that external users without OpenPGP cannot receive or reply to messages with E2EE.
+Skiff non dispone di una funzione di "casella di posta temporanea" o di "e-mail con password" come altri provider, per cui gli utenti esterni senza OpenPGP non possono ricevere o rispondere ai messaggi con E2EE.
 
 #### :material-information-outline:{ .pg-blue } Chiusura dell'account
 
@@ -212,7 +212,7 @@ Questi fornitori memorizzano le tue email con la crittografia a conoscenza zero,
 
 <div class="grid cards" markdown>
 
-- ![Tuta logo](assets/img/email/tuta.svg){ .twemoji } [Tuta](email.md#tuta)
+- ![Logo Tuta](assets/img/email/tuta.svg){ .twemoji } [Tuta](email.md#tuta)
 
 </div>
 
