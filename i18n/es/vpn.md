@@ -20,7 +20,7 @@ Si buscas **privacidad** adicional de tu proveedor de servicios de internet, en 
 
     El uso de una VPN **no** mantendrá sus hábitos de navegación en el anonimato, ni añadirá seguridad adicional al tráfico no seguro (HTTP).
     
-    If you are looking for **anonymity**, you should use the Tor Browser.
+    Si buscas **anonimato**, deberías usar el navegador Tor.
     
     Si busca mayor **seguridad**, debería asegurarse siempre de que se conecta a sitios web que utilicen HTTPS. Una VPN no sustituye las buenas prácticas de seguridad.
     
@@ -86,9 +86,9 @@ Proton VPN [recomienda](https://protonvpn.com/blog/wireguard/) el uso de WireGua
 
 Actualmente, Proton VPN solo admite el [ reenvío del puerto](https://protonvpn.com/support/port-forwarding/) remoto y efímero a través de NAT-PMP, con tiempos de arrendamiento de 60 segundos. La aplicación de Windows ofrece una opción de fácil acceso para ello, mientras que en otros sistemas operativos tendrás que ejecutar tu propio cliente [NAT-PMP](https://protonvpn.com/support/port-forwarding-manual-setup/). Las aplicaciones de torrents suelen soportar NAT-PMP de forma nativa.
 
-#### :material-check:{ .pg-green } Censorship Circumvention
+#### :material-check:{ .pg-green } Evasión de la censura
 
-Proton VPN has their [Stealth](https://protonvpn.com/blog/stealth-vpn-protocol/) protocol which helps in situations where VPN protocols like OpenVPN or Wireguard are blocked. Stealth works by using an obfuscated TLS tunnel over TCP making it more difficult for deep packet inspection (DPI) to block.
+Proton VPN tiene su protocolo [Stealth](https://protonvpn.com/blog/stealth-vpn-protocol/), que ayuda en situaciones donde los protocolos VPN como OpenVPN o Wireguard están bloqueados. Stealth funciona utilizando un túnel TLS ofuscado sobre TCP, dificultando el bloqueo por parte de la inspección profunda de paquetes (DPI).
 
 #### :material-check:{ .pg-green } Clientes Móviles
 
@@ -155,9 +155,9 @@ IVPN [recomienda](https://www.ivpn.net/wireguard/) el uso de WireGuard con su se
 
 Anteriormente, IVPN admitía el reenvío de puertos, pero eliminó la opción en [junio de 2023](https://www.ivpn.net/blog/gradual-removal-of-port-forwarding). La ausencia de esta característica podría afectar negativamente a ciertas aplicaciones, especialmente a las aplicaciones peer-to-peer como los clientes torrent.
 
-#### :material-check:{ .pg-green } Censorship Circumvention
+#### :material-check:{ .pg-green } Evasión de la censura
 
-IVPN has obfuscation modes using the [v2ray](https://www.v2ray.com/en/index.html) project which helps in situations where VPN protocols like OpenVPN or Wireguard are blocked. Currently this feature is only available on Desktop and [iOS](https://www.ivpn.net/knowledgebase/ios/v2ray/). It has two modes where it can use [VMess](https://guide.v2fly.org/en_US/basics/vmess.html) over QUIC or TCP connections. QUIC is a modern protocol with better congestion control and therefore may be faster with reduced latency. The TCP mode makes your data appear as regular HTTP traffic.
+IVPN tiene modos de ofuscación usando el proyecto [v2ray](https://www.v2ray.com/en/index.html) que ayuda en situaciones donde los protocolos VPN como OpenVPN o Wireguard están bloqueados. Actualmente, esta característica sólo está disponible en la versión para escritorio y [iOS](https://www.ivpn.net/knowledgebase/ios/v2ray/). Este cuenta con dos modos donde puede usar [VMess](https://guide.v2fly.org/en_US/basics/vmess.html) sobre QUIC o conexiones TCP. QUIC es un moderno protocolo con mejor control de la congestión y puede ser más rápido con menor latencia. El modo TCP ayuda para que tus datos aparezcan como tráfico HTTP regular.
 
 #### :material-check:{ .pg-green } Clientes Móviles
 
@@ -233,7 +233,7 @@ Mullvad te permite acceder a [a servicios alojados en IPv6](https://mullvad.net/
 
 Anteriormente, Mullvad admitía el reenvío de puertos, pero eliminó la opción en [Mayo de 2023](https://mullvad.net/en/blog/2023/5/29/removing-the-support-for-forwarded-ports/). La ausencia de esta característica podría afectar negativamente a ciertas aplicaciones, especialmente a las aplicaciones peer-to-peer como los clientes torrent.
 
-#### :material-check:{ .pg-green } Censorship Circumvention
+#### :material-check:{ .pg-green } Evasión de la censura
 
 Mullvad has obfuscation an mode using [Shadowsocks with v2ray](https://mullvad.net/en/help/shadowsocks-with-v2ray) which may be useful in situations where VPN protocols like OpenVPN or Wireguard are blocked.
 
