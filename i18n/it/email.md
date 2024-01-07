@@ -31,7 +31,7 @@ Questi provider supportano in modo nativo la crittografia/decrittografia OpenPGP
 
 !!! warning "Attenzione"
 
-    When using E2EE technology like OpenPGP your email will still have some metadata that is not encrypted in the header of the email, generally including the subject line! Per saperne di più sui metadata della [posta elettronica](basics/email-security.md#email-metadata-overview).
+    Quando si utilizza una tecnologia E2EE come OpenPGP, l'e-mail presenta ancora alcuni metadati non crittografati nell'intestazione dell'e-mail, tra cui generalmente l'oggetto! Per saperne di più sui metadata della [posta elettronica](basics/email-security.md#email-metadata-overview).
     
     Inoltre, OpenPGP non supporta la Forward Secrecy, a significare che se la chiave privata tua o del destinatario viene rubata, tutti i messaggi precedenti crittografati con essa, saranno esposti. [Come proteggo le mie chiavi private?](basics/email-security.md#how-do-i-protect-my-private-keys)
 
