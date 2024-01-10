@@ -235,7 +235,7 @@ Anteriormente, Mullvad admitía el reenvío de puertos, pero eliminó la opción
 
 #### :material-check:{ .pg-green } Evasión de la censura
 
-Mullvad has obfuscation an mode using [Shadowsocks with v2ray](https://mullvad.net/en/help/shadowsocks-with-v2ray) which may be useful in situations where VPN protocols like OpenVPN or Wireguard are blocked.
+Mullvad tiene un modo de ofuscación usando [Shadowsocks con v2ray](https://mullvad.net/en/help/shadowsocks-with-v2ray) que puede ser útil en situaciones donde los protocolos VPN como OpenVPN o Wireguard están bloqueados.
 
 #### :material-check:{ .pg-green } Clientes Móviles
 
