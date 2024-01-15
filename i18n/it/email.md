@@ -30,7 +30,7 @@ Questi provider supportano in modo nativo la crittografia/decrittografia OpenPGP
 </div>
 
 <div class="admonition warning" markdown>
-<p class="admonition-title">Warning</p>
+<p class="admonition-title">Warning "Avviso"</p>
 
 When using E2EE technology like OpenPGP your email will still have some metadata that is not encrypted in the header of the email, generally including the subject line! Read more about [email metadata](basics/email-security.md#email-metadata-overview).
 
