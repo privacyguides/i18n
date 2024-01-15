@@ -7,80 +7,86 @@ cover: device-integrity.webp
 
 Ces outils peuvent être utilisés pour valider l'intégrité de vos appareils mobiles et vérifier s'ils présentent des indicateurs de compromission par des logiciels espions et malveillants tels que Pegasus, Predator ou KingsPawn. Cette page se concentre sur la **sécurité mobile**, car les appareils mobiles ont généralement des systèmes en lecture seule avec des configurations bien connues, de sorte que la détection de modifications malveillantes est plus facile que sur les systèmes de bureau traditionnels. Nous pourrions élargir la portée de cette page dans le futur.
 
-!!! note "Ceci est un sujet avancé"
+<div class="admonition note" markdown>
+<p class="admonition-title">This is an advanced topic</p>
 
-```
-Ces outils peuvent être utiles à certaines personnes. Ils fournissent des fonctionnalités dont la plupart des gens n'ont pas besoin de s'inquiéter, et nécessitent souvent des connaissances techniques plus approfondies pour être utilisés efficacement.
-```
+Ces outils peuvent être utiles à certaines personnes. They provide functionality which most people do not need to worry about, and often require more in-depth technical knowledge to use effectively.
 
-Il est **critique** de comprendre que l'analyse de votre appareil à la recherche d'indicateurs publics de compromission n'est **pas suffisante** pour déterminer qu'un appareil est "propre" et qu'il n'est pas la cible d'un logiciel espion particulier. En vous fiant à ces outils d'analyse accessibles au public, vous risquez de passer à côté d'évolutions récentes en matière de sécurité et de vous donner un faux sentiment de sécurité.
+</div>
 
-## Conseil général
+It is **critical** to understand that scanning your device for public indicators of compromise is **not sufficient** to determine that a device is "clean", and not targeted with a particular spyware tool. Reliance on these publicly-available scanning tools can miss recent security developments and give you a false sense of security.
 
-La majorité des exploits au niveau du système sur les appareils mobiles modernes - en particulier les compromissions en zéro clic - sont non persistants, ce qui signifie qu'ils ne resteront pas ou ne s'exécuteront pas automatiquement après un redémarrage. C'est pourquoi nous vous recommandons vivement de redémarrer votre appareil régulièrement. Nous recommandons à chacun de redémarrer son appareil au moins une fois par semaine, mais si les logiciels malveillants non persistants vous préoccupent particulièrement, nous recommandons, comme de nombreux experts en sécurité, de procéder à un redémarrage quotidien.
+## General Advice
 
-Cela signifie qu'un attaquant devrait régulièrement réinfecter votre appareil pour en conserver l'accès, bien que cela ne soit pas impossible. Le redémarrage de votre appareil ne vous protège pas non plus contre les logiciels malveillants _persistants_, mais cela est moins fréquent sur les appareils mobiles en raison des fonctions de sécurité modernes telles que le démarrage sécurisé/vérifié.
+The majority of system-level exploits on modern mobile devices—especially zero-click compromises—are non-persistent, meaning they will not remain or run automatically after a reboot. For this reason, we highly recommend rebooting your device regularly. We recommend everybody reboot their devices once a week at minimum, but if non-persistent malware is of particular concern for you, we and many security experts recommend a daily reboot schedule.
 
-## Information post-compromission et avertissement
+This means an attacker would have to regularly re-infect your device to retain access, although we'll note this is not impossible. Rebooting your device also will not protect you against _persistent_ malware, but this is less common on mobile devices due to modern security features like secure/verified boot.
 
-Si l'un des outils suivants indique une compromission potentielle par un logiciel espion tel que Pegasus, Predator ou KingsPawn, nous vous conseillons de contacter :
+## Post-Compromise Information & Disclaimer
 
-- Si vous êtes défenseur des droits de l'homme, journaliste ou membre d'une organisation de la société civile : le [laboratoire de sécurité d'Amnesty International](https://securitylab.amnesty.org/contact-us/)
-- Si un appareil professionnel ou gouvernemental est compromis : contactez le responsable de la sécurité de votre entreprise, de votre département ou de votre agence
-- Les forces de l'ordre locales
+If any of the following tools indicate a potential compromise by spyware such as Pegasus, Predator, or KingsPawn, we advise that you contact:
 
-**Nous ne sommes pas en mesure de vous aider directement au-delà de ces conseils.** Nous sommes disposés à discuter de votre situation ou de vos circonstances particulières et à examiner vos résultats dans nos espaces [communautaires](https://discuss.privacyguides.net), mais il est peu probable que nous puissions vous aider au-delà de ce qui est écrit sur cette page.
+- If you are a human rights defender, journalist, or from a civil society organization: [Amnesty International's Security Lab](https://securitylab.amnesty.org/contact-us/)
+- If a business or government device is compromised: Contact the appropriate security liason at your enterprise, department, or agency
+- Local law enforcement
 
-Les outils présentés sur cette page sont uniquement capables de détecter les indicateurs de compromission, et non de les supprimer. Si vous craignez d'avoir été compromis, nous vous conseillons de procéder comme suit :
+**We are unable to help you directly beyond this.** We are happy to discuss your specific situation or circumstances and review your results in our [community](https://discuss.privacyguides.net) spaces, but it is unlikely we can assist you beyond what is written on this page.
 
-- Envisager le remplacement complet de l'appareil
-- Envisagez de changer de numéro SIM/eSIM
-- Ne pas restaurer à partir d'une sauvegarde, car cette dernière peut être compromise
+The tools on this page are only capable of detecting indicators of compromise, not removing them. If you are concerned about having been compromised, we advise that you:
 
-Ces outils fournissent une analyse basée sur les informations auxquelles ils ont accès à partir de votre appareil et sur les indicateurs de compromission accessibles au public. Il est important de garder à l'esprit deux choses :
+- Consider replacing the device completely
+- Consider changing your SIM/eSIM number
+- Not restore from a backup, because that backup may be compromised
 
-1. Les indicateurs de compromissions ne sont que cela : des _indicateurs_. Ils ne constituent pas un résultat définitif et peuvent parfois être des **faux positifs**. Si un indicateur de compromission est détecté, cela signifie que vous devez effectuer des recherches supplémentaires sur la menace _potentielle_.
-2. Les indicateurs de compromission recherchés par ces outils sont publiés par des organismes de recherche sur les menaces, mais tous les indicateurs ne sont pas mis à la disposition du public ! Cela signifie que ces outils peuvent présenter un **faux négatif**, si votre appareil est infecté par un logiciel espion qui n'est détecté par aucun des indicateurs publics. Une prise en charge et un triage fiables et complets en matière de criminalistique numérique nécessitent l'accès à des indicateurs non publics, à des recherches et à des renseignements sur les menaces.
+These tools provide analysis based on the information they have the ability to access from your device, and publicly-accessible indicators of compromise. It is important to keep in mind two things:
 
-## Outils de vérification externes
+1. Indicators of compromise are just that: _indicators_. They are not a definitive finding, and may occasionally be **false positives**. If an indicator of compromise is detected, it means you should do additional research into the _potential_ threat.
+2. The indicators of compromise these tools look for are published by threat research organizations, but not all indicators are made available to the public! This means that these tools can present a **false negative**, if your device is infected with spyware which is not detected by any of the public indicators. Reliable and comprehensive digital forensic support and triage requires access to non-public indicators, research and threat intelligence.
 
-Les outils de vérification externes s'exécutent sur votre ordinateur et analysent votre appareil mobile à la recherche de traces criminalistiques qui permettent d'identifier les compromissions potentielles.
+## External Verification Tools
 
-!!! danger "Danger"
+External verification tools run on your computer and scan your mobile device for forensic traces which are helpful to identify potential compromise.
 
-```
-Les indicateurs publics de compromission ne suffisent pas à déterminer qu'un appareil est "propre" et qu'il n'a pas été ciblé par un logiciel espion particulier. En se fiant uniquement aux indicateurs publics, on peut passer à côté de traces criminalistiques récentes et donner un faux sentiment de sécurité.
+<div class="admonition danger" markdown>
+<p class="admonition-title">Danger</p>
 
-Une prise en charge et un triage fiables et complets en matière de criminalistique numérique nécessitent l'accès à des indicateurs non publics, à des recherches et à des renseignements sur les menaces.
+Public indicators of compromise are insufficient to determine that a device is "clean", and not targeted with a particular spyware tool. Reliance on public indicators alone can miss recent forensic traces and give a false sense of security.
 
-La société civile peut bénéficier d'une prise en charge par l'intermédiaire du [laboratoire de sécurité d'Amnesty International](https://www.amnesty.org/en/tech/) ou de la [ligne d'assistance sur la sécurité numérique d'Access Now](https://www.accessnow.org/help/).
-```
+Reliable and comprehensive digital forensic support and triage requires access to non-public indicators, research and threat intelligence.
+
+Such support is available to civil society through [Amnesty International's Security Lab](https://www.amnesty.org/en/tech/) or [Access Now’s Digital Security Helpline](https://www.accessnow.org/help/).
+
+</div>
 
 Ces outils peuvent déclencher des faux positifs. Si l'un de ces outils détecte des indicateurs de compromission, vous devez approfondir la question pour déterminer le risque réel. Certains rapports peuvent être des faux positifs basés sur des sites web que vous avez visités dans le passé, et les résultats qui datent de plusieurs années sont probablement soit des faux positifs, soit le signe d'une compromission antérieure (qui n'est plus active).
 
 ### Mobile Verification Toolkit
 
-!!! recommendation
+<div class="admonition recommendation" markdown>
 
-```
-![logo MVT](assets/img/device-integrity/mvt.webp){ align=right }
+![MVT logo](assets/img/device-integrity/mvt.webp){ align=right }
 
-**Mobile Verification Toolkit** (**MVT**) est une collection d'utilitaires qui simplifie et automatise le processus d'analyse des appareils mobiles à la recherche de traces potentielles de ciblage ou d'infection par des campagnes de logiciels espions connues. MVT a été développé par Amnesty International et publié en 2021 dans le cadre du [Projet Pegasus](https://forbiddenstories.org/about-the-pegasus-project/).
+**Mobile Verification Toolkit** (**MVT**) is a collection of utilities which simplifies and automates the process of scanning mobile devices for potential traces of targeting or infection by known spyware campaigns. MVT was developed by Amnesty International and released in 2021 in the context of the [Pegasus Project](https://forbiddenstories.org/about-the-pegasus-project/).
 
-[:octicons-home-16: Page d'accueil](https://mvt.re/){ .md-button .md-button--primary }
-[:octicons-code-16:](https://github.com/mvt-project/mvt){ .card-link title="Code source" }
+[:octicons-home-16: Homepage](https://mvt.re/){ .md-button .md-button--primary }
+[:octicons-code-16:](https://github.com/mvt-project/mvt){ .card-link title="Source Code" }
 
-??? downloads "Téléchargements"
+<details class="downloads" markdown>
+<summary>Téléchargements</summary>
 
-    - [:simple-apple: macOS](https://docs.mvt.re/en/latest/install/)
-    - [:simple-linux: Linux](https://docs.mvt.re/en/latest/install/)
-```
+- [:simple-apple: macOS](https://docs.mvt.re/en/latest/install/)
+- [:simple-linux: Linux](https://docs.mvt.re/en/latest/install/)
 
-!!! warning "Avertissement"
+</details>
 
-```
+</div>
+
+<div class="admonition warning" markdown>
+<p class="admonition-title">Avertissement</p>
+
 L'utilisation de MVT ne suffit pas à déterminer qu'un appareil est "propre" et qu'il n'est pas la cible d'un logiciel espion particulier.
-```
+
+</div>
 
 MVT est _plus_ utile pour scanner les appareils iOS. Android stocke très peu d'informations de diagnostic utiles pour trier les compromissions potentielles, et pour cette raison, les capacités de `mvt-android` sont également limitées. Par contre, les sauvegardes iTunes iOS chiffrées fournissent un sous-ensemble suffisamment important de fichiers stockés sur l'appareil pour détecter les artefacts suspects dans de nombreux cas. Ceci étant dit, MVT fournit tout de même des outils assez utiles pour l'analyse des systèmes iOS et Android.
 
@@ -98,22 +104,25 @@ MVT vous permet d'effectuer des analyses plus approfondies si votre appareil est
 
 ### iMazing (iOS)
 
-!!! recommendation
+<div class="admonition recommendation" markdown>
 
-```
-![logo iMazing](assets/img/device-integrity/imazing.png){ align=right }
+![iMazing logo](assets/img/device-integrity/imazing.png){ align=right }
 
-**iMazing** fournit un outil gratuit d'analyse des logiciels espions pour les appareils iOS qui agit comme une interface graphique pour [MVT](#mobile-verification-toolkit). Il peut être beaucoup plus facile à utiliser que MVT lui-même, qui est un outil en ligne de commande conçu pour les technologues et les enquêteurs criminalistiques.
+**iMazing** provides a free spyware analyzer tool for iOS devices which acts as a GUI-wrapper for [MVT](#mobile-verification-toolkit). This can be much easier to run compared to MVT itself, which is a command-line tool designed for technologists and forensic investigators.
 
-[:octicons-home-16: Page d'accueil](https://imazing.com/){ .md-button .md-button--primary }
-[:octicons-eye-16:](https://imazing.com/privacy-policy){ .card-link title="Politique de confidentialité" }
+[:octicons-home-16: Homepage](https://imazing.com/){ .md-button .md-button--primary }
+[:octicons-eye-16:](https://imazing.com/privacy-policy){ .card-link title="Privacy Policy" }
 [:octicons-info-16:](https://imazing.com/spyware-analyzer){ .card-link title=Documentation}
 
-??? downloads "Téléchargements"
+<details class="downloads" markdown>
+<summary>Téléchargements</summary>
 
-    - [:simple-windows11: Windows](https://imazing.com/download)
-    - [:simple-apple: macOS](https://imazing.com/download)
-```
+- [:simple-windows11: Windows](https://imazing.com/download)
+- [:simple-apple: macOS](https://imazing.com/download)
+
+</details>
+
+</div>
 
 iMazing automatise et vous guide de manière interactive tout au long du processus d'utilisation de [MVT](#mobile-verification-toolkit) pour analyser votre appareil à la recherche d'indicateurs de compromission accessibles au public et publiés par divers chercheurs en menaces. Toutes les informations et tous les avertissements qui s'appliquent à MVT s'appliquent également à cet outil. Nous vous conseillons donc de vous familiariser également avec les notes sur MVT dans les sections ci-dessus.
 
@@ -121,33 +130,38 @@ iMazing automatise et vous guide de manière interactive tout au long du process
 
 Il s'agit d'applications que vous pouvez installer et qui vérifient que votre appareil et votre système d'exploitation ne présentent pas de signes d'altération et qui valident l'identité de votre appareil.
 
-!!! warning "Avertissement"
+<div class="admonition warning" markdown>
+<p class="admonition-title">Avertissement</p>
 
-```
 L'utilisation de ces applications ne suffit pas à déterminer qu'un appareil est "propre" et qu'il n'est pas la cible d'un logiciel espion particulier.
-```
+
+</div>
 
 ### Auditor (Android)
 
-!!! recommendation
+<div class="admonition recommendation" markdown>
 
-```
-![logo Auditor](assets/img/device-integrity/auditor.svg#only-light){ align=right } ![logo Auditor](assets/img/device-integrity/auditor-dark.svg#only-dark){ align=right }
+![Auditor logo](assets/img/device-integrity/auditor.svg#only-light){ align=right }
+![Auditor logo](assets/img/device-integrity/auditor-dark.svg#only-dark){ align=right }
 
-**Auditor** est une application qui exploite les fonctions de sécurité matérielle pour assurer la surveillance de l'intégrité des appareils en validant activement l'identité d'un appareil et l'intégrité de son système d'exploitation. Actuellement, elle ne fonctionne qu'avec GrapheneOS ou le système d'exploitation d'origine sur les [appareils pris en charge](https://attestation.app/about#device-support).
+**Auditor** is an app which leverages hardware security features to provide device integrity monitoring by actively validating the identity of a device and the integrity of its operating system. Currently, it only works with GrapheneOS or the stock operating system for [supported devices](https://attestation.app/about#device-support).
 
-[:octicons-home-16: Page d'accueil](https://attestation.app){ .md-button .md-button--primary }
-[:octicons-eye-16:](https://attestation.app/privacy-policy){ .card-link title="Politique de confidentialité" }
+[:octicons-home-16: Homepage](https://attestation.app){ .md-button .md-button--primary }
+[:octicons-eye-16:](https://attestation.app/privacy-policy){ .card-link title="Privacy Policy" }
 [:octicons-info-16:](https://attestation.app/about){ .card-link title=Documentation}
-[:octicons-code-16:](https://attestation.app/source){ .card-link title="Code source" }
-[:octicons-heart-16:](https://attestation.app/donate){ .card-link title=Contribuer }
+[:octicons-code-16:](https://attestation.app/source){ .card-link title="Source Code" }
+[:octicons-heart-16:](https://attestation.app/donate){ .card-link title=Contribute }
 
-??? downloads "Téléchargements"
+<details class="downloads" markdown>
+<summary>Téléchargements</summary>
 
-    - [:simple-googleplay: Google Play](https://play.google.com/store/apps/details?id=app.attestation.auditor.play)
-    - [:simple-github: GitHub](https://github.com/GrapheneOS/Auditor/releases)
-    - [:material-cube-outline: Magasin d'applications GrapheneOS](https://github.com/GrapheneOS/Apps/releases)
-```
+- [:simple-googleplay: Google Play](https://play.google.com/store/apps/details?id=app.attestation.auditor.play)
+- [:simple-github: GitHub](https://github.com/GrapheneOS/Auditor/releases)
+- [:material-cube-outline: GrapheneOS App Store](https://github.com/GrapheneOS/Apps/releases)
+
+</details>
+
+</div>
 
 Auditor n'est pas un outil de scan/analyse comme d'autres outils sur cette page, mais il utilise le magasin de clés s'appuyant sur le materiel de votre appareil pour vous permettre de vérifier l'identité de votre appareil et de vous assurer que le système d'exploitation lui-même n'a pas été altéré ou dégradé par le biais d'un démarrage vérifié. Cela fournit un contrôle d'intégrité très solide de l'appareil lui-même, mais qui ne permet pas nécessairement de vérifier si les applications utilisateur exécutées sur l'appareil sont malveillantes.
 
@@ -169,50 +183,58 @@ Si votre [modèle de menace](basics/threat-modeling.md) nécessite une certaine 
 
 Il s'agit d'applications que vous pouvez installer sur votre appareil et qui l'analysent pour détecter des signes de compromission.
 
-!!! warning "Avertissement"
+<div class="admonition warning" markdown>
+<p class="admonition-title">Avertissement</p>
 
-```
 L'utilisation de ces applications ne suffit pas à déterminer qu'un appareil est "propre" et qu'il n'est pas la cible d'un logiciel espion particulier.
-```
+
+</div>
 
 ### Hypatia (Android)
 
-!!! recommendation
+<div class="admonition recommendation" markdown>
 
-```
-![Logo Hypatia](assets/img/device-integrity/hypatia.svg#only-light){ align=right } ![Logo Hypatia](assets/img/device-integrity/hypatia-dark.svg#only-dark){ align=right }
+![Hypatia logo](assets/img/device-integrity/hypatia.svg#only-light){ align=right }
+![Hypatia logo](assets/img/device-integrity/hypatia-dark.svg#only-dark){ align=right }
 
-**Hypatia** est un scanner de logiciels malveillants en temps réel pour Android, développé par le développeur de [DivestOS](android.md#divestos). Il accède à Internet pour télécharger les mises à jour de la base de signatures, mais n'envoie pas vos fichiers ni aucune métadonnée sur le cloud (les analyses sont entièrement effectuées localement).
+**Hypatia** is an open source real-time malware scanner for Android, from the developer of [DivestOS](android.md#divestos). It accesses the internet to download signature database updates, but does not upload your files or any metadata to the cloud (scans are performed entirely locally).
 
-[:octicons-home-16: Page d'accueil](https://divestos.org/pages/our_apps#hypatia){ .md-button .md-button--primary }
-[:octicons-eye-16:](https://divestos.org/pages/privacy_policy#hypatia){ .card-link title="Politique de confidentialité" }
-[:octicons-code-16:](https://github.com/divested-mobile/hypatia){ .card-link title="Code source" }
-[:octicons-heart-16:](https://divested.dev/pages/donate){ .card-link title=Contribuer }
+[:octicons-home-16: Homepage](https://divestos.org/pages/our_apps#hypatia){ .md-button .md-button--primary }
+[:octicons-eye-16:](https://divestos.org/pages/privacy_policy#hypatia){ .card-link title="Privacy Policy" }
+[:octicons-code-16:](https://github.com/divested-mobile/hypatia){ .card-link title="Source Code" }
+[:octicons-heart-16:](https://divested.dev/pages/donate){ .card-link title=Contribute }
 
-??? downloads "Téléchargements"
+<details class="downloads" markdown>
+<summary>Téléchargements</summary>
 
-    - [:simple-android: F-Droid](https://f-droid.org/packages/us.spotco.malwarescanner/)
-```
+- [:simple-android: F-Droid](https://f-droid.org/packages/us.spotco.malwarescanner/)
+
+</details>
+
+</div>
 
 Hypatia est particulièrement efficace pour détecter les logiciels de harcèlement : si vous pensez être victime d'un logiciel de harcèlement, vous devriez [visiter cette page](https://stopstalkerware.org/information-for-survivors/) pour obtenir des conseils.
 
 ### iVerify (iOS)
 
-!!! recommendation
+<div class="admonition recommendation" markdown>
 
-```
-![logo iVerify](assets/img/device-integrity/iverify.webp){ align=right }
+![iVerify logo](assets/img/device-integrity/iverify.webp){ align=right }
 
-**iVerify** est une application iOS qui analyse automatiquement votre appareil pour vérifier les paramètres de configuration, le niveau des correctifs et d'autres aspects de la sécurité. Elle vérifie également que votre appareil ne présente pas d'indicateurs de compromission par des outils de jailbreak ou des logiciels espions tels que Pegasus.
+**iVerify** is an iOS app which automatically scans your device to check configuration settings, patch level, and other areas of security. It also checks your device for indicators of compromise by jailbreak tools or spyware such as Pegasus.
 
-[:octicons-home-16: Page d'accueik](https://www.iverify.io/consumer){ .md-button .md-button--primary }
-[:octicons-eye-16:](https://www.iverify.io/privacy-policy){ .card-link title="Politique de confidentialité" }
+[:octicons-home-16: Homepage](https://www.iverify.io/consumer){ .md-button .md-button--primary }
+[:octicons-eye-16:](https://www.iverify.io/privacy-policy){ .card-link title="Privacy Policy" }
 [:octicons-info-16:](https://www.iverify.io/frequently-asked-questions#iVerify-General){ .card-link title=Documentation}
 
-??? downloads *Téléchargements*
+<details class="downloads" markdown>
+<summary>Téléchargements</summary>
 
-    - [:simple-appstore: App Store](https://apps.apple.com/us/app/iverify/id1466120520)
-```
+- [:simple-appstore: App Store](https://apps.apple.com/us/app/iverify/id1466120520)
+
+</details>
+
+</div>
 
 Comme toutes les applications iOS, iVerify est limité à ce qu'il peut observer sur votre appareil depuis l'iOS App Sandbox. Elle ne fournira pas une analyse aussi solide qu'un outil d'analyse de système complet tel que [MVT](#mobile-verification-toolkit). Sa fonction première est de détecter si votre appareil est jailbreaké, ce qu'elle fait efficacement, mais une menace hypothétique conçue _spécifiquement_ pour contourner les contrôles d'iVerify y parviendrait probablement.
 
