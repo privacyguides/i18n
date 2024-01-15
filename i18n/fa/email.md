@@ -31,34 +31,37 @@ These providers natively support OpenPGP encryption/decryption and the [Web Key 
 
 !!! هشدار
 
-    When using E2EE technology like OpenPGP your email will still have some metadata that is not encrypted in the header of the email, generally including the subject line! بیشتر بخوانید در مورد [فراداده ایمیل](basics/email-security.md#email-metadata-overview).
+    When using E2EE technology like OpenPGP your email will still have some metadata that is not encrypted in the header of the email, generally including the subject line! Read more about [email metadata](basics/email-security.md#email-metadata-overview).
     
-    OpenPGP همچنین از Forward secrecy پشتیبانی نمی کند، به این معنی که اگر کلید خصوصی شما یا گیرنده به سرقت رفته باشد، همه پیام های قبلی رمزگذاری شده با آن قابل بازگشایی خواهد بود. [چگونه از کلید خصوصی خود محافظت کنم؟](basics/email-security.md#how-do-i-protect-my-private-keys)
+    OpenPGP also does not support Forward secrecy, which means if either your or the recipient's private key is ever stolen, all previous messages encrypted with it will be exposed. [How do I protect my private keys?](basics/email-security.md#how-do-i-protect-my-private-keys)
 
 ### Proton Mail
 
-!!! recommendation
+<div class="admonition recommendation" markdown>
 
-    ![Proton Mail logo](assets/img/email/protonmail.svg){ align=right }
-    
-    **Proton Mail** یک سرویس ایمیل با تمرکز بر حریم خصوصی، رمزگذاری، امنیت و سهولت استفاده است. آن‌ها از **2013** شروع به کار کرده‌اند. شرکت Proton AG در ژنو سوئیس قرار دارد. طرح رایگان شامل ۵۰۰ مگابایت فضای ذخیره‌سازی است.
-    
-    [:octicons-home-16: Homepage](https://proton.me/mail){ .md-button .md-button--primary }
-    [:simple-torbrowser:](https://protonmailrmez3lotccipshtkleegetolb73fuirgj7r4o4vfu7ozyd.onion){ .card-link title="Onion Service" }
-    [:octicons-eye-16:](https://proton.me/legal/privacy){ .card-link title="Privacy Policy" }
-    [:octicons-info-16:](https://proton.me/support/mail){ .card-link title=Documentation}
-    [:octicons-code-16:](https://github.com/ProtonMail){ .card-link title="Source Code" }
-    
-    ؟؟؟ دانلودها
-    
-    
-        - [:simple-googleplay: Google Play](https://play.google.com/store/apps/details?id=ch.protonmail.android)
-        - [:simple-appstore: App Store](https://apps.apple.com/app/apple-store/id979659905)
-        - [:simple-github: GitHub](https://github.com/ProtonMail/proton-mail-android/releases)
-        - [:simple-windows11: Windows](https://proton.me/mail/bridge#download)
-        - [:simple-apple: macOS](https://proton.me/mail/bridge#download)
-        - [:simple-linux: Linux](https://proton.me/mail/bridge#download)
-        - [:octicons-browser-16: Web](https://mail.proton.me)
+![Proton Mail logo](assets/img/email/protonmail.svg){ align=right }
+
+**Proton Mail** یک سرویس ایمیل با تمرکز بر حریم خصوصی، رمزگذاری، امنیت و سهولت استفاده است. آن‌ها از **2013** شروع به کار کرده‌اند. شرکت Proton AG در ژنو سوئیس قرار دارد. طرح رایگان شامل ۵۰۰ مگابایت فضای ذخیره‌سازی است.
+
+[:octicons-home-16: Homepage](https://proton.me/mail){ .md-button .md-button--primary }
+[:simple-torbrowser:](https://protonmailrmez3lotccipshtkleegetolb73fuirgj7r4o4vfu7ozyd.onion){ .card-link title="Onion Service" }
+[:octicons-eye-16:](https://proton.me/legal/privacy){ .card-link title="Privacy Policy" }
+[:octicons-info-16:](https://proton.me/support/mail){ .card-link title=Documentation}
+[:octicons-code-16:](https://github.com/ProtonMail){ .card-link title="Source Code" }
+
+<details class="downloads" markdown><summary>Downloads</summary>
+
+- [:simple-googleplay: Google Play](https://play.google.com/store/apps/details?id=ch.protonmail.android)
+- [:simple-appstore: App Store](https://apps.apple.com/app/apple-store/id979659905)
+- [:simple-github: GitHub](https://github.com/ProtonMail/proton-mail-android/releases)
+- [:simple-windows11: Windows](https://proton.me/mail/bridge#download)
+- [:simple-apple: macOS](https://proton.me/mail/bridge#download)
+- [:simple-linux: Linux](https://proton.me/mail/bridge#download)
+- [:octicons-browser-16: Web](https://mail.proton.me)
+
+</details>
+
+</div>
 
 حساب‌های رایگان دارای محدودیت‌هایی هستند، مانند عدم امکان جستجوی متن اصلی و عدم دسترسی به [Proton Mail Bridge](https://proton.me/mail/bridge)، که برای استفاده از [نرم افزار ایمیل دسک‌تاپ (ویندوزی) توصیه‌شده](email-clients.md) لازم است (به عنوان مثال. Thunderbird). حساب‌های پولی شامل ویژگی‌هایی مانند Proton Mail Bridge، فضای ذخیره‌سازی اضافی و پشتیبانی از دامنه سفارشی است. A [letter of attestation](https://proton.me/blog/security-audit-all-proton-apps) was provided for Proton Mail's apps on 9th November 2021 by [Securitum](https://research.securitum.com).
 
@@ -102,20 +105,26 @@ Proton Mail امکان به ارث بردن اطلاعات برای وراث ر�
 
 ### Skiff Mail
 
-!!! recommendation
+<div class="admonition recommendation" markdown>
 
-    ![Skiff Mail logo](assets/img/email/skiff-mail.svg){ align=right }
-    
-    **Skiff Mail** یک سرویس ایمیل مبتنی بر وب با E2EE است که در سال 2020 آغاز شد و در سانفرانسیسکو مستقر است و توسعه دهندگان آن در سرتاسر جهان هستند. حساب‌ها با 10 گیگابایت فضای ذخیره‌سازی رایگان شروع می‌شوند.
-    
-    [:octicons-home-16: Homepage](https://skiff.com/mail){ .md-button .md-button--primary }
-    [:octicons-eye-16:](https://app.skiff.com/docs/db93c237-84c2-4b2b-9588-19a7cd2cd45a#tyGksN9rkqbo2uGYASxsA6HVLjUoly/wTYK8tncTto8=){ .card-link title="Privacy Policy" }
-    [:octicons-info-16:](https://skiff.com/help){ .card-link title=Documentation}
-    [:octicons-code-16:](https://github.com/skiff-org/skiff-apps){ .card-link title="Source Code" }
-    
-    ???     - [:simple-android: Android](https://play.google.com/store/apps/details?id=com.skemailmobileapp&pli=1)
-        - [:simple-appstore: iOS](https://apps.apple.com/us/app/skiff-mail/id1619168801)
-        - [:octicons-browser-16: Web](https://app.skiff.com/mail)
+![Skiff Mail logo](assets/img/email/skiff-mail.svg){ align=right }
+
+**Skiff Mail** یک سرویس ایمیل مبتنی بر وب با E2EE است که در سال 2020 آغاز شد و در سانفرانسیسکو مستقر است و توسعه دهندگان آن در سرتاسر جهان هستند. حساب‌ها با 10 گیگابایت فضای ذخیره‌سازی رایگان شروع می‌شوند.
+
+[:octicons-home-16: Homepage](https://skiff.com/mail){ .md-button .md-button--primary }
+[:octicons-eye-16:](https://app.skiff.com/docs/db93c237-84c2-4b2b-9588-19a7cd2cd45a#tyGksN9rkqbo2uGYASxsA6HVLjUoly/wTYK8tncTto8=){ .card-link title="Privacy Policy" }
+[:octicons-info-16:](https://skiff.com/help){ .card-link title=Documentation}
+[:octicons-code-16:](https://github.com/skiff-org/skiff-apps){ .card-link title="Source Code" }
+
+<details class="downloads" markdown><summary>Downloads</summary>
+
+- [:simple-android: Android](https://play.google.com/store/apps/details?id=com.skemailmobileapp&pli=1)
+- [:simple-appstore: iOS](https://apps.apple.com/us/app/skiff-mail/id1619168801)
+- [:octicons-browser-16: Web](https://app.skiff.com/mail)
+
+</details>
+
+</div>
 
 Skiff در طول توسعه خود تحت چند [ممیزی (Audit)](https://skiff.com/transparency) قرار گرفته است.
 
@@ -155,17 +164,23 @@ Skiff Mail امکان به ارث بردن اطلاعات برای وراث را
 
 ### Mailbox.org
 
-!!! recommendation
+<div class="admonition recommendation" markdown>
 
-    ![Mailbox.org logo](assets/img/email/mailboxorg.svg){ align=right }
-    
-    **Mailbox.org** یک سرویس ایمیل با تمرکز بر ایمن بودن، بدون آگهی و خصوصی بودن با مصرف انرژی 100% سازگار با محیط زیست است. آنها از سال 2014 شروع به کار کرده‌اند. Mailbox.org در برلین آلمان مستقر است. حساب‌ها با ۲ گیگابایت فضای ذخیره‌سازی شروع می‌شوند که در صورت نیاز می‌توان آن را ارتقا داد.
-    
-    [:octicons-home-16: Homepage](https://mailbox.org){ .md-button .md-button--primary }
-    [:octicons-eye-16:](https://mailbox.org/en/data-protection-privacy-policy){ .card-link title="Privacy Policy" }
-    [:octicons-info-16:](https://kb.mailbox.org/en/private){ .card-link title=Documentation}
-    
-    ???     - [:octicons-browser-16: Web](https://login.mailbox.org)
+![Mailbox.org logo](assets/img/email/mailboxorg.svg){ align=right }
+
+**Mailbox.org** یک سرویس ایمیل با تمرکز بر ایمن بودن، بدون آگهی و خصوصی بودن با مصرف انرژی 100% سازگار با محیط زیست است. آنها از سال 2014 شروع به کار کرده‌اند. Mailbox.org در برلین آلمان مستقر است. حساب‌ها با ۲ گیگابایت فضای ذخیره‌سازی شروع می‌شوند که در صورت نیاز می‌توان آن را ارتقا داد.
+
+[:octicons-home-16: Homepage](https://mailbox.org){ .md-button .md-button--primary }
+[:octicons-eye-16:](https://mailbox.org/en/data-protection-privacy-policy){ .card-link title="Privacy Policy" }
+[:octicons-info-16:](https://kb.mailbox.org/en/private){ .card-link title=Documentation}
+
+<details class="downloads" markdown><summary>Downloads</summary>
+
+- [:octicons-browser-16: Web](https://login.mailbox.org)
+
+</details>
+
+</div>
 
 #### :material-check:{ .pg-green } دامنه ها و نام های مستعار (Aliases) سفارشی
 
@@ -225,28 +240,31 @@ Mailbox.org امکان به ارث بردن اطلاعات برای همه طر�
 
 ### Tuta
 
-!!! recommendation
+<div class="admonition recommendation" markdown>
 
-    ![Tuta logo](assets/img/email/tuta.svg){ align=right }
-    
-    **Tuta** is an email service with a focus on security and privacy through the use of encryption. Tuta has been in operation since **2011** and is based in Hanover, Germany. طرح رایگان شامل ۱ گیگابایت فضای ذخیره‌سازی است.
-    
-    [:octicons-home-16: Homepage](https://tuta.com){ .md-button .md-button--primary }
-    [:octicons-eye-16:](https://tuta.com/privacy){ .card-link title="Privacy Policy" }
-    [:octicons-info-16:](https://tuta.com/faq){ .card-link title=Documentation}
-    [:octicons-code-16:](https://github.com/tutao/tutanota){ .card-link title="Source Code" }
-    [:octicons-heart-16:](https://tuta.com/community/){ .card-link title=Contribute }
-    
-    ??? downloads
-    
-        - [:simple-googleplay: Google Play](https://play.google.com/store/apps/details?id=de.tutao.tutanota)
-        - [:simple-appstore: App Store](https://apps.apple.com/app/tutanota/id922429609)
-        - [:simple-github: GitHub](https://github.com/tutao/tutanota/releases)
-        - [:simple-windows11: Windows](https://tuta.com/#download)
-        - [:simple-apple: macOS](https://tuta.com/#download)
-        - [:simple-linux: Linux](https://tuta.com/#download)
-        - [:octicons-browser-16: Web](https://app.tuta.com/)
-    
+![Tuta logo](assets/img/email/tuta.svg){ align=right }
+
+**Tuta** is an email service with a focus on security and privacy through the use of encryption. Tuta has been in operation since **2011** and is based in Hanover, Germany. طرح رایگان شامل ۱ گیگابایت فضای ذخیره‌سازی است.
+
+[:octicons-home-16: Homepage](https://tuta.com){ .md-button .md-button--primary }
+[:octicons-eye-16:](https://tuta.com/privacy){ .card-link title="Privacy Policy" }
+[:octicons-info-16:](https://tuta.com/faq){ .card-link title=Documentation}
+[:octicons-code-16:](https://github.com/tutao/tutanota){ .card-link title="Source Code" }
+[:octicons-heart-16:](https://tuta.com/community/){ .card-link title=Contribute }
+
+<details class="downloads" markdown><summary>Downloads</summary>
+
+- [:simple-googleplay: Google Play](https://play.google.com/store/apps/details?id=de.tutao.tutanota)
+- [:simple-appstore: App Store](https://apps.apple.com/app/tutanota/id922429609)
+- [:simple-github: GitHub](https://github.com/tutao/tutanota/releases)
+- [:simple-windows11: Windows](https://tuta.com/#download)
+- [:simple-apple: macOS](https://tuta.com/#download)
+- [:simple-linux: Linux](https://tuta.com/#download)
+- [:octicons-browser-16: Web](https://app.tuta.com/)
+
+</details>
+
+</div>
 
 Tuta doesn't support the [IMAP protocol](https://tuta.com/faq/#imap) or the use of third-party [email clients](email-clients.md), and you also won't be able to add [external email accounts](https://github.com/tutao/tutanota/issues/544#issuecomment-670473647) to the Tuta app. [Email import](https://github.com/tutao/tutanota/issues/630) is not currently supported either, though this is [due to be changed](https://tuta.com/blog/posts/kickoff-import). Emails can be exported [individually or by bulk selection](https://tuta.com/howto#generalMail) per folder, which may be inconvenient if you have many folders.
 
@@ -330,26 +348,29 @@ Using an aliasing service requires trusting both your email provider and your al
 
 ### addy.io
 
-!!! recommendation
+<div class="admonition recommendation" markdown>
 
-    ![addy.io logo](assets/img/email/addy.svg#only-light){ align=right }
-    ![addy.io logo](assets/img/email/addy-dark.svg#only-dark){ align=right }
-    
-    **addy.io** lets you create 10 domain aliases on a shared domain for free, or unlimited "standard" aliases which are less anonymous.
-    
-    [:octicons-home-16: Homepage](https://addy.io){ .md-button .md-button--primary }
-    [:octicons-eye-16:](https://addy.io/privacy){ .card-link title="Privacy Policy" }
-    [:octicons-info-16:](https://app.addy.io/docs){ .card-link title=Documentation}
-    [:octicons-code-16:](https://github.com/anonaddy){ .card-link title="Source Code" }
-    [:octicons-heart-16:](https://addy.io/donate){ .card-link title=Contribute }
-    
-    ??? downloads
-    
-        - [:simple-android: Android](https://addy.io/faq/#is-there-an-android-app)
-        - [:material-apple-ios: iOS](https://addy.io/faq/#is-there-an-ios-app)
-        - [:simple-firefoxbrowser: Firefox](https://addons.mozilla.org/firefox/addon/addy_io/)
-        - [:simple-googlechrome: Chrome](https://chrome.google.com/webstore/detail/addyio-anonymous-email-fo/iadbdpnoknmbdeolbapdackdcogdmjpe)
-    
+![addy.io logo](assets/img/email/addy.svg#only-light){ align=right }
+![addy.io logo](assets/img/email/addy-dark.svg#only-dark){ align=right }
+
+**addy.io** lets you create 10 domain aliases on a shared domain for free, or unlimited "standard" aliases which are less anonymous.
+
+[:octicons-home-16: Homepage](https://addy.io){ .md-button .md-button--primary }
+[:octicons-eye-16:](https://addy.io/privacy){ .card-link title="Privacy Policy" }
+[:octicons-info-16:](https://app.addy.io/docs){ .card-link title=Documentation}
+[:octicons-code-16:](https://github.com/anonaddy){ .card-link title="Source Code" }
+[:octicons-heart-16:](https://addy.io/donate){ .card-link title=Contribute }
+
+<details class="downloads" markdown><summary>Downloads</summary>
+
+- [:simple-android: Android](https://addy.io/faq/#is-there-an-android-app)
+- [:material-apple-ios: iOS](https://addy.io/faq/#is-there-an-ios-app)
+- [:simple-firefoxbrowser: Firefox](https://addons.mozilla.org/firefox/addon/addy_io/)
+- [:simple-googlechrome: Chrome](https://chrome.google.com/webstore/detail/addyio-anonymous-email-fo/iadbdpnoknmbdeolbapdackdcogdmjpe)
+
+</details>
+
+</div>
 
 The number of shared aliases (which end in a shared domain like @addy.io) that you can create is limited to 10 on addy.io's free plan, 50 on their $1/month plan and unlimited on the $4/month plan (billed $3 for a year). You can create unlimited standard aliases (which end in a domain like @[username].addy.io or a custom domain on paid plans), however, as previously mentioned, this can be detrimental to privacy because people can trivially tie your standard aliases together based on the domain name alone. They are useful where a shared domain might be blocked by a service. Securitum [audited](https://addy.io/blog/addy-io-passes-independent-security-audit/) addy.io in September 2023 and no significant vulnerabilities [were identified](https://addy.io/addy-io-security-audit.pdf).
 
@@ -365,27 +386,30 @@ Notable free features:
 
 ### SimpleLogin
 
-!!! recommendation
+<div class="admonition recommendation" markdown>
 
-    ![Simplelogin logo](assets/img/email/simplelogin.svg){ align=right }
-    
-    **SimpleLogin** is a free service which provides email aliases on a variety of shared domain names, and optionally provides paid features like unlimited aliases and custom domains.
-    
-    [:octicons-home-16: Homepage](https://simplelogin.io){ .md-button .md-button--primary }
-    [:octicons-eye-16:](https://simplelogin.io/privacy/){ .card-link title="Privacy Policy" }
-    [:octicons-info-16:](https://simplelogin.io/docs/){ .card-link title=Documentation}
-    [:octicons-code-16:](https://github.com/simple-login){ .card-link title="Source Code" }
-    
-    ??? downloads
-    
-        - [:simple-googleplay: Google Play](https://play.google.com/store/apps/details?id=io.simplelogin.android)
-        - [:simple-appstore: App Store](https://apps.apple.com/app/id1494359858)
-        - [:simple-github: GitHub](https://github.com/simple-login/Simple-Login-Android/releases)
-        - [:simple-firefoxbrowser: Firefox](https://addons.mozilla.org/firefox/addon/simplelogin/)
-        - [:simple-googlechrome: Chrome](https://chrome.google.com/webstore/detail/dphilobhebphkdjbpfohgikllaljmgbn)
-        - [:simple-microsoftedge: Edge](https://microsoftedge.microsoft.com/addons/detail/simpleloginreceive-sen/diacfpipniklenphgljfkmhinphjlfff)
-        - [:simple-safari: Safari](https://apps.apple.com/app/id1494051017)
-    
+![Simplelogin logo](assets/img/email/simplelogin.svg){ align=right }
+
+**SimpleLogin** is a free service which provides email aliases on a variety of shared domain names, and optionally provides paid features like unlimited aliases and custom domains.
+
+[:octicons-home-16: Homepage](https://simplelogin.io){ .md-button .md-button--primary }
+[:octicons-eye-16:](https://simplelogin.io/privacy/){ .card-link title="Privacy Policy" }
+[:octicons-info-16:](https://simplelogin.io/docs/){ .card-link title=Documentation}
+[:octicons-code-16:](https://github.com/simple-login){ .card-link title="Source Code" }
+
+<details class="downloads" markdown><summary>Downloads</summary>
+
+- [:simple-googleplay: Google Play](https://play.google.com/store/apps/details?id=io.simplelogin.android)
+- [:simple-appstore: App Store](https://apps.apple.com/app/id1494359858)
+- [:simple-github: GitHub](https://github.com/simple-login/Simple-Login-Android/releases)
+- [:simple-firefoxbrowser: Firefox](https://addons.mozilla.org/firefox/addon/simplelogin/)
+- [:simple-googlechrome: Chrome](https://chrome.google.com/webstore/detail/dphilobhebphkdjbpfohgikllaljmgbn)
+- [:simple-microsoftedge: Edge](https://microsoftedge.microsoft.com/addons/detail/simpleloginreceive-sen/diacfpipniklenphgljfkmhinphjlfff)
+- [:simple-safari: Safari](https://apps.apple.com/app/id1494051017)
+
+</details>
+
+</div>
 
 SimpleLogin was [acquired by Proton AG](https://proton.me/news/proton-and-simplelogin-join-forces) as of April 8, 2022. If you use Proton Mail for your primary mailbox, SimpleLogin is a great choice. As both products are now owned by the same company you now only have to trust a single entity. We also expect that SimpleLogin will be more tightly integrated with Proton's offerings in the future. SimpleLogin continues to support forwarding to any email provider of your choosing. Securitum [audited](https://simplelogin.io/blog/security-audit/) SimpleLogin in early 2022 and all issues [were addressed](https://simplelogin.io/audit2022/web.pdf).
 
@@ -407,28 +431,30 @@ Notable free features:
 
 ### راه‌حل های نرم‌افزاری ترکیبی
 
-!!! recommendation
+<div class="admonition recommendation" markdown>
 
-    ![Mailcow logo](assets/img/email/mailcow.svg){ align=right }
-    
-     **Mailcow** سرور ایمیل پیشرفته‌تری است که برای کسانی که تجربه لینوکس به نسبت بالایی دارند عالی است. هر آنچه را که در یک Docker Container نیاز دارید را شامل می‌شود: سرور ایمیل با پشتیبانی از DKIM، آنتی ویروس و نظارت بر هرزنامه، webmail و ActiveSync با SOGo، و مدیریت مبتنی بر وب با پشتیبانی 2FA.
-    
-    [:octicons-home-16: Homepage](https://mailcow.email){ .md-button .md-button--primary }
-    [:octicons-info-16:](https://mailcow.github.io/mailcow-dockerized-docs/){ .card-link title=Documentation}
-    [:octicons-code-16:](https://github.com/mailcow/mailcow-dockerized){ .card-link title="Source Code" }
-    [:octicons-heart-16:](https://www.servercow.de/mailcow?lang=en#sal){ .card-link title=Contribute }
-    
+![Mailcow logo](assets/img/email/mailcow.svg){ align=right }
 
-!!! توصیه شده
+ **Mailcow** سرور ایمیل پیشرفته‌تری است که برای کسانی که تجربه لینوکس به نسبت بالایی دارند عالی است. هر آنچه را که در یک Docker Container نیاز دارید را شامل می‌شود: سرور ایمیل با پشتیبانی از DKIM، آنتی ویروس و نظارت بر هرزنامه، webmail و ActiveSync با SOGo، و مدیریت مبتنی بر وب با پشتیبانی 2FA.
 
-    ![Mail-in-a-Box logo](assets/img/email/mail-in-a-box.svg){ align=right }
-    
-    **Mail-in-a-Box** یک اسکریپت تنظیم خودکار برای پیاده‌سازی یک سرور ایمیل در اوبونتو است. هدف آن این است که راه اندازی سرور ایمیل شخصی را برای افراد آسان‌تر کند.
-    
-    [:octicons-home-16: Homepage](https://mailinabox.email){ .md-button .md-button--primary }
-    [:octicons-info-16:](https://mailinabox.email/guide.html){ .card-link title=Documentation}
-    [:octicons-code-16:](https://github.com/mail-in-a-box/mailinabox){ .card-link title="Source Code" }
-    
+[:octicons-home-16: Homepage](https://mailcow.email){ .md-button .md-button--primary }
+[:octicons-info-16:](https://mailcow.github.io/mailcow-dockerized-docs/){ .card-link title=Documentation}
+[:octicons-code-16:](https://github.com/mailcow/mailcow-dockerized){ .card-link title="Source Code" }
+[:octicons-heart-16:](https://www.servercow.de/mailcow?lang=en#sal){ .card-link title=Contribute }
+
+</div>
+
+<div class="admonition recommendation" markdown>
+
+![Mail-in-a-Box logo](assets/img/email/mail-in-a-box.svg){ align=right }
+
+**Mail-in-a-Box** یک اسکریپت تنظیم خودکار برای پیاده‌سازی یک سرور ایمیل در اوبونتو است. هدف آن این است که راه اندازی سرور ایمیل شخصی را برای افراد آسان‌تر کند.
+
+[:octicons-home-16: Homepage](https://mailinabox.email){ .md-button .md-button--primary }
+[:octicons-info-16:](https://mailinabox.email/guide.html){ .card-link title=Documentation}
+[:octicons-code-16:](https://github.com/mail-in-a-box/mailinabox){ .card-link title="Source Code" }
+
+</div>
 
 برای یک رویکرد دستی‌تر، این دو مقاله را انتخاب کرده‌ایم:
 

@@ -31,33 +31,37 @@ cover: email.webp
 
 !!! warning "אזהרה"
 
-    When using E2EE technology like OpenPGP your email will still have some metadata that is not encrypted in the header of the email, generally including the subject line! קרא עוד על [email metadata](basics/email-security.md#email-metadata-overview).
+    When using E2EE technology like OpenPGP your email will still have some metadata that is not encrypted in the header of the email, generally including the subject line! Read more about [email metadata](basics/email-security.md#email-metadata-overview).
     
-    OpenPGP גם אינו תומך בסודיות קדימה, מה שאומר שאם המפתח הפרטי שלך או של הנמען ייגנב אי פעם, כל ההודעות הקודמות שהוצפנו באמצעותו ייחשפו. [איך אני מגן על המפתחות הפרטיים שלי?](basics/email-security.md#how-do-i-protect-my-private-keys)
+    OpenPGP also does not support Forward secrecy, which means if either your or the recipient's private key is ever stolen, all previous messages encrypted with it will be exposed. [How do I protect my private keys?](basics/email-security.md#how-do-i-protect-my-private-keys)
 
 ### Proton Mail
 
-!!! recommendation
+<div class="admonition recommendation" markdown>
 
-    ![Proton Mail לוגו](assets/img/email/protonmail.svg){ align=right }
-    
-    **Proton Mail** הוא שירות דואר אלקטרוני עם התמקדות בפרטיות, הצפנה, אבטחה וקלות שימוש. הם פועלים מאז **2013**. Proton AG מבוססת בז'נב, שוויץ. חשבונות מתחילים עם 500 MB אחסון עם התוכנית החינמית שלהם.
-    
-    [:octicons-home-16: דף הבית](https://proton.me/mail){ .md-button .md-button--primary }
-    [:simple-torbrowser:](https://protonmailrmez3lotccipshtkleegetolb73fuirgj7r4o4vfu7ozyd.onion){ .card-link title="Onion Service" }
-    [:octicons-eye-16:](https://proton.me/legal/privacy){ .card-link title="מדיניות פרטיות" }
-    [:octicons-info-16:](https://proton.me/support/mail){ .card-link title=תיעוד}
-    [:octicons-code-16:](https://github.com/ProtonMail){ .card-link title="קוד מקור" }
-    
-    ??? downloads "הורדות"
-    
-        - [:simple-googleplay: Google Play](https://play.google.com/store/apps/details?id=ch.protonmail.android)
-        - [:simple-appstore: App Store](https://apps.apple.com/app/apple-store/id979659905)
-        - [:simple-github: GitHub](https://github.com/ProtonMail/proton-mail-android/releases)
-        - [:simple-windows11: Windows](https://proton.me/mail/bridge#download)
-        - [:simple-apple: macOS](https://proton.me/mail/bridge#download)
-        - [:simple-linux: Linux](https://proton.me/mail/bridge#download)
-        - [:octicons-browser-16: Web](https://mail.proton.me)
+![Proton Mail לוגו](assets/img/email/protonmail.svg){ align=right }
+
+**Proton Mail** הוא שירות דואר אלקטרוני עם התמקדות בפרטיות, הצפנה, אבטחה וקלות שימוש. הם פועלים מאז **2013**. Proton AG מבוססת בז'נב, שוויץ. חשבונות מתחילים עם 500 MB אחסון עם התוכנית החינמית שלהם.
+
+[:octicons-home-16: Homepage](https://proton.me/mail){ .md-button .md-button--primary }
+[:simple-torbrowser:](https://protonmailrmez3lotccipshtkleegetolb73fuirgj7r4o4vfu7ozyd.onion){ .card-link title="Onion Service" }
+[:octicons-eye-16:](https://proton.me/legal/privacy){ .card-link title="Privacy Policy" }
+[:octicons-info-16:](https://proton.me/support/mail){ .card-link title=Documentation}
+[:octicons-code-16:](https://github.com/ProtonMail){ .card-link title="Source Code" }
+
+<details class="downloads" markdown><summary>Downloads</summary>
+
+- [:simple-googleplay: Google Play](https://play.google.com/store/apps/details?id=ch.protonmail.android)
+- [:simple-appstore: App Store](https://apps.apple.com/app/apple-store/id979659905)
+- [:simple-github: GitHub](https://github.com/ProtonMail/proton-mail-android/releases)
+- [:simple-windows11: Windows](https://proton.me/mail/bridge#download)
+- [:simple-apple: macOS](https://proton.me/mail/bridge#download)
+- [:simple-linux: Linux](https://proton.me/mail/bridge#download)
+- [:octicons-browser-16: Web](https://mail.proton.me)
+
+</details>
+
+</div>
 
 לחשבונות חינמיים יש מגבלות מסוימות, כגון חוסר היכולת לחפש גוף טקסט ואי גישה ל[Proton Mail Bridge](https://proton.me/mail/bridge), אשר נדרש כדי השתמש ב[לקוח אימייל שולחן העבודה המומלץ](email-clients.md) (למשל Thunderbird). חשבונות בתשלום כוללים תכונות כגון Proton Mail Bridge, אחסון נוסף ותמיכה בתחומים מותאמים אישית. [מכתב אישור](https://proton.me/blog/security-audit-all-proton-apps) סופק עבור האפליקציות של Proton Mail ב-9 בנובמבר 2021 על ידי [Securitum](https://research.securitum.com).
 
@@ -101,22 +105,26 @@ Proton Mail אינו מציע תכונה מורשת דיגיטלית.
 
 ### Skiff Mail
 
-!!! recommendation
+<div class="admonition recommendation" markdown>
 
-    ![Skiff Mail לוגו](assets/img/email/skiff-mail.svg){ align=right }
-    
-    **Skiff Mail** הוא שירות אימייל מבוסס אינטרנט עם E2EE שהחל ב-2020 שבסיסו בסן פרנסיסקו עם מפתחים ברחבי העולם. חשבונות מתחילים עם 10GB של אחסון בחינם.
-    
-    [:octicons-home-16: דף הבית](https://skiff.com/mail){ .md-button .md-button--primary }
-    [:octicons-eye-16:](https://app.skiff.com/docs/db93c237-84c2-4b2b-9588-19a7cd2cd45a#tyGksN9rkqbo2uGYASxsA6HVLjUoly/wTYK8tncTto8=){ .card-link title="מדיניות פרטיות" }
-    [:octicons-info-16:](https://skiff.com/help){ .card-link title=תיעוד}
-    [:octicons-code-16:](https://github.com/skiff-org/skiff-apps){ .card-link title="קוד מקור" }
-    
-    ??? downloads "הורדות"
-    
-        - [:simple-android: אנדרואיד](https://play.google.com/store/apps/details?id=com.skemailmobileapp&pli=1)
-        - [:simple-appstore: iOS](https://apps.apple.com/us/app/skiff-mail/id1619168801)
-        - [:octicons-browser-16: Web](https://app.skiff.com/mail)
+![Skiff Mail לוגו](assets/img/email/skiff-mail.svg){ align=right }
+
+**Skiff Mail** הוא שירות אימייל מבוסס אינטרנט עם E2EE שהחל ב-2020 שבסיסו בסן פרנסיסקו עם מפתחים ברחבי העולם. חשבונות מתחילים עם 10GB של אחסון בחינם.
+
+[:octicons-home-16: Homepage](https://skiff.com/mail){ .md-button .md-button--primary }
+[:octicons-eye-16:](https://app.skiff.com/docs/db93c237-84c2-4b2b-9588-19a7cd2cd45a#tyGksN9rkqbo2uGYASxsA6HVLjUoly/wTYK8tncTto8=){ .card-link title="Privacy Policy" }
+[:octicons-info-16:](https://skiff.com/help){ .card-link title=Documentation}
+[:octicons-code-16:](https://github.com/skiff-org/skiff-apps){ .card-link title="Source Code" }
+
+<details class="downloads" markdown><summary>Downloads</summary>
+
+- [:simple-android: Android](https://play.google.com/store/apps/details?id=com.skemailmobileapp&pli=1)
+- [:simple-appstore: iOS](https://apps.apple.com/us/app/skiff-mail/id1619168801)
+- [:octicons-browser-16: Web](https://app.skiff.com/mail)
+
+</details>
+
+</div>
 
 Skiff עברה כמה [ביקורות](https://skiff.com/transparency) במהלך הפיתוח שלה.
 
@@ -156,19 +164,23 @@ Skiff Mail אינו מציע תכונה דיגיטלית מדור קודם.
 
 ### Mailbox.org
 
-!!! recommendation
+<div class="admonition recommendation" markdown>
 
-    ![Mailbox.org לוגו](assets/img/email/mailboxorg.svg){ align=right }
-    
-    **Mailbox.org** הוא שירות דוא"ל עם התמקדות בלהיות מאובטח, ללא פרסומות ומופעל באופן פרטי על ידי 100% אנרגיה ידידותית לסביבה. הם פועלים מאז 2014. Mailbox.org ממוקם בברלין, גרמניה. חשבונות מתחילים בנפח אחסון של 2 ג'יגה-בייט, שניתן לשדרג לפי הצורך.
-    
-    [:octicons-home-16: דף הבית](https://mailbox.org){ .md-button .md-button--primary }
-    [:octicons-eye-16:](https://mailbox.org/en/data-protection-privacy-policy){ .card-link title="מדיניות פרטיות" }
-    [:octicons-info-16:](https://kb.mailbox.org/en/private){ .card-link title=תיעוד}
-    
-    ??? downloads "הורדות"
-    
-        - [:octicons-browser-16: Web](https://login.mailbox.org)
+![Mailbox.org לוגו](assets/img/email/mailboxorg.svg){ align=right }
+
+**Mailbox.org** הוא שירות דוא"ל עם התמקדות בלהיות מאובטח, ללא פרסומות ומופעל באופן פרטי על ידי 100% אנרגיה ידידותית לסביבה. הם פועלים מאז 2014. Mailbox.org ממוקם בברלין, גרמניה. חשבונות מתחילים בנפח אחסון של 2 ג'יגה-בייט, שניתן לשדרג לפי הצורך.
+
+[:octicons-home-16: Homepage](https://mailbox.org){ .md-button .md-button--primary }
+[:octicons-eye-16:](https://mailbox.org/en/data-protection-privacy-policy){ .card-link title="Privacy Policy" }
+[:octicons-info-16:](https://kb.mailbox.org/en/private){ .card-link title=Documentation}
+
+<details class="downloads" markdown><summary>Downloads</summary>
+
+- [:octicons-browser-16: Web](https://login.mailbox.org)
+
+</details>
+
+</div>
 
 #### :material-check:{ .pg-green } דומיינים וכינויים מותאמים אישית
 
@@ -218,27 +230,31 @@ Mailbox.org כולל תכונת מורשת דיגיטלית לכל התוכני�
 
 ### Tuta
 
-!!! recommendation
+<div class="admonition recommendation" markdown>
 
-    ![Tuta לוגו](assets/img/email/tuta.svg){ align=right }
-    
-    **Tuta** הוא שירות דואר אלקטרוני עם התמקדות באבטחה ופרטיות באמצעות שימוש בהצפנה. Tuta פועלת מאז **2011** ובסיסה בהאנובר, גרמניה. חשבונות מתחילים עם שטח אחסון של 1GB עם התוכנית החינמית שלהם.
-    
-    [:octicons-home-16: דף הבית](https://tuta.com){ .md-button .md-button--primary }
-    [:octicons-eye-16:](https://tuta.com/privacy){ .card-link title="מדיניות הפרטיות" }
-    [:octicons-info-16:](https://tuta.com/faq){ .card-link title=תיעוד}
-    [:octicons-code-16:](https://github.com/tutao/tutanota){ .card-link title="קוד מקור" }
-    [:octicons-heart-16:](https://tuta.com/community/){ .card-link title=לתרומה }
-    
-    ??? downloads "הורדות"
-    
-        - [:simple-googleplay: Google Play](https://play.google.com/store/apps/details?id=de.tutao.tutanota)
-        - [:simple-appstore: App Store](https://apps.apple.com/app/tutanota/id922429609)
-        - [:simple-github: גיטהאב](https://github.com/tutao/tutanota/releases)
-        - [:simple-windows11: Windows](https://tuta.com/#download)
-        - [:simple-apple: macOS](https://tuta.com/#download)
-        - [:simple-linux: Linux](https://tuta.com/#download)
-        - [:octicons-browser-16: Web](https://app.tuta.com/)
+![Tuta לוגו](assets/img/email/tuta.svg){ align=right }
+
+**Tuta** הוא שירות דואר אלקטרוני עם התמקדות באבטחה ופרטיות באמצעות שימוש בהצפנה. Tuta פועלת מאז **2011** ובסיסה בהאנובר, גרמניה. חשבונות מתחילים עם שטח אחסון של 1GB עם התוכנית החינמית שלהם.
+
+[:octicons-home-16: Homepage](https://tuta.com){ .md-button .md-button--primary }
+[:octicons-eye-16:](https://tuta.com/privacy){ .card-link title="Privacy Policy" }
+[:octicons-info-16:](https://tuta.com/faq){ .card-link title=Documentation}
+[:octicons-code-16:](https://github.com/tutao/tutanota){ .card-link title="Source Code" }
+[:octicons-heart-16:](https://tuta.com/community/){ .card-link title=Contribute }
+
+<details class="downloads" markdown><summary>Downloads</summary>
+
+- [:simple-googleplay: Google Play](https://play.google.com/store/apps/details?id=de.tutao.tutanota)
+- [:simple-appstore: App Store](https://apps.apple.com/app/tutanota/id922429609)
+- [:simple-github: GitHub](https://github.com/tutao/tutanota/releases)
+- [:simple-windows11: Windows](https://tuta.com/#download)
+- [:simple-apple: macOS](https://tuta.com/#download)
+- [:simple-linux: Linux](https://tuta.com/#download)
+- [:octicons-browser-16: Web](https://app.tuta.com/)
+
+</details>
+
+</div>
 
 Tuta אינו תומך ב[פרוטוקול IMAP](https://tuta.com/faq/#imap) או בשימוש ב[ של צד שלישי לקוחות אימייל](email-clients.md), וגם לא תוכל להוסיף [חשבונות אימייל חיצוניים](https://github.com/tutao/tutanota/issues/544#issuecomment-670473647) לאפליקציית Tuta. [Email import](https://github.com/tutao/tutanota/issues/630) is not currently supported either, though this is [due to be changed](https://tuta.com/blog/posts/kickoff-import). Emails can be exported [individually or by bulk selection](https://tuta.com/howto#generalMail) per folder, which may be inconvenient if you have many folders.
 
@@ -304,25 +320,29 @@ Tuta אינו מציע תכונה מורשת דיגיטלית.
 
 ### addy.io
 
-!!! recommendation
+<div class="admonition recommendation" markdown>
 
-    ![addy.io לוגו](assets/img/email/addy.svg#only-light){ align=right }
-    ![addy.io לוגו](assets/img/email/addy-dark.svg#only-dark){ align=right }
-    
-    **addy.io** מאפשר לך ליצור 10 כינויים של דומיין בדומיין משותף בחינם, או כינויים "סטנדרטיים" ללא הגבלה שהם פחות אנונימיים.
-    
-    [:octicons-home-16: דף הבית](https://addy.io){ .md-button .md-button--primary }
-    [:octicons-eye-16:](https://addy.io/privacy){ .card-link title="מדיניות פרטיות" }
-    [:octicons-info-16:](https://app.addy.io/docs){ .card-link title=תיעוד}
-    [:octicons-code-16:](https://github.com/anonaddy){ .card-link title="קוד מקור" }
-    [:octicons-heart-16:](https://addy.io/donate){ .card-link title=לתרומה }
-    
-    ??? downloads "הורדות"
-    
-        - [:simple-android: אנדרואיד](https://addy.io/faq/#is-there-an-android-app)
-        - [:material-apple-ios: iOS](https://addy.io/faq/#is-there-an-ios-app)
-        - [:simple-firefoxbrowser: Firefox](https://addons.mozilla.org/firefox/addon/addy_io/)
-        - [:simple-googlechrome: כרום](https://chrome.google.com/webstore/detail/addyio-anonymous-email-fo/iadbdpnoknmbdeolbapdackdcogdmjpe)
+![addy.io לוגו](assets/img/email/addy.svg#only-light){ align=right }
+![addy.io לוגו](assets/img/email/addy-dark.svg#only-dark){ align=right }
+
+**addy.io** מאפשר לך ליצור 10 כינויים של דומיין בדומיין משותף בחינם, או כינויים "סטנדרטיים" ללא הגבלה שהם פחות אנונימיים.
+
+[:octicons-home-16: Homepage](https://addy.io){ .md-button .md-button--primary }
+[:octicons-eye-16:](https://addy.io/privacy){ .card-link title="Privacy Policy" }
+[:octicons-info-16:](https://app.addy.io/docs){ .card-link title=Documentation}
+[:octicons-code-16:](https://github.com/anonaddy){ .card-link title="Source Code" }
+[:octicons-heart-16:](https://addy.io/donate){ .card-link title=Contribute }
+
+<details class="downloads" markdown><summary>Downloads</summary>
+
+- [:simple-android: Android](https://addy.io/faq/#is-there-an-android-app)
+- [:material-apple-ios: iOS](https://addy.io/faq/#is-there-an-ios-app)
+- [:simple-firefoxbrowser: Firefox](https://addons.mozilla.org/firefox/addon/addy_io/)
+- [:simple-googlechrome: Chrome](https://chrome.google.com/webstore/detail/addyio-anonymous-email-fo/iadbdpnoknmbdeolbapdackdcogdmjpe)
+
+</details>
+
+</div>
 
 מספר הכינויים המשותפים (שמסתיימים בדומיין משותף כמו @addy.io) שאתה יכול ליצור מוגבל ל-10 בתוכנית החינמית של addy.io, 50 בתוכנית של $1 לחודש וללא הגבלה בתוכנית של $4 לחודש (החיוב 3 דולר לשנה). אתה יכול ליצור כינויים סטנדרטיים ללא הגבלה (שמסתיימים בדומיין כמו @[username].addy.io או דומיין מותאם אישית בתוכניות בתשלום), עם זאת, כפי שצוין קודם לכן, זה יכול להזיק לפרטיות מכיוון שאנשים יכולים לקשור באופן טריוויאלי את הכינויים הסטנדרטיים שלך יחד על סמך שם הדומיין בלבד. הם שימושיים כאשר דומיין משותף עשוי להיות חסום על ידי שירות. Securitum [audited](https://addy.io/blog/addy-io-passes-independent-security-audit/) addy.io in September 2023 and no significant vulnerabilities [were identified](https://addy.io/addy-io-security-audit.pdf).
 
@@ -336,26 +356,30 @@ Tuta אינו מציע תכונה מורשת דיגיטלית.
 
 ### SimpleLogin
 
-!!! recommendation
+<div class="admonition recommendation" markdown>
 
-    ![Simplelogin לוגו](assets/img/email/simplelogin.svg){ align=right }
-    
-    **SimpleLogin** הוא שירות חינמי המספק כינויי דוא"ל על מגוון שמות דומיין משותפים, ובאופן אופציונלי מספק תכונות בתשלום כמו כינויים בלתי מוגבלים ודומיינים מותאמים אישית.
-    
-    [:octicons-home-16: דף הבית](https://simplelogin.io){ .md-button .md-button--primary }
-    [:octicons-eye-16:](https://simplelogin.io/privacy/){ .card-link title="מדיניות פרטיות" }
-    [:octicons-info-16:](https://simplelogin.io/docs/){ .card-link title=תיעוד}
-    [:octicons-code-16:](https://github.com/simple-login){ .card-link title="קוד מקור" }
-    
-    ??? downloads "הורדות"
-    
-        - [:simple-googleplay: Google Play](https://play.google.com/store/apps/details?id=io.simplelogin.android)
-        - [:simple-appstore: App Store](https://apps.apple.com/app/id1494359858)
-        - [:simple-github: גיטהאב](https://github.com/simple-login/Simple-Login-Android/releases)
-        - [:simple-firefoxbrowser: Firefox](https://addons.mozilla.org/firefox/addon/simplelogin/)
-        - [:simple-googlechrome: כרום](https://chrome.google.com/webstore/detail/dphilobhebphkdjbpfohgikllaljmgbn)
-        - [:simple-microsoftedge: אדג'](https://microsoftedge.microsoft.com/addons/detail/simpleloginreceive-sen/diacfpipniklenphgljfkmhinphjlfff)
-        - [:simple-safari: סאפרי](https://apps.apple.com/app/id1494051017)
+![Simplelogin לוגו](assets/img/email/simplelogin.svg){ align=right }
+
+**SimpleLogin** הוא שירות חינמי המספק כינויי דוא"ל על מגוון שמות דומיין משותפים, ובאופן אופציונלי מספק תכונות בתשלום כמו כינויים בלתי מוגבלים ודומיינים מותאמים אישית.
+
+[:octicons-home-16: Homepage](https://simplelogin.io){ .md-button .md-button--primary }
+[:octicons-eye-16:](https://simplelogin.io/privacy/){ .card-link title="Privacy Policy" }
+[:octicons-info-16:](https://simplelogin.io/docs/){ .card-link title=Documentation}
+[:octicons-code-16:](https://github.com/simple-login){ .card-link title="Source Code" }
+
+<details class="downloads" markdown><summary>Downloads</summary>
+
+- [:simple-googleplay: Google Play](https://play.google.com/store/apps/details?id=io.simplelogin.android)
+- [:simple-appstore: App Store](https://apps.apple.com/app/id1494359858)
+- [:simple-github: GitHub](https://github.com/simple-login/Simple-Login-Android/releases)
+- [:simple-firefoxbrowser: Firefox](https://addons.mozilla.org/firefox/addon/simplelogin/)
+- [:simple-googlechrome: Chrome](https://chrome.google.com/webstore/detail/dphilobhebphkdjbpfohgikllaljmgbn)
+- [:simple-microsoftedge: Edge](https://microsoftedge.microsoft.com/addons/detail/simpleloginreceive-sen/diacfpipniklenphgljfkmhinphjlfff)
+- [:simple-safari: Safari](https://apps.apple.com/app/id1494051017)
+
+</details>
+
+</div>
 
 SimpleLogin [נרכשה על ידי Proton AG](https://proton.me/news/proton-and-simplelogin-join-forces) נכון ל-8 באפריל 2022. אם אתה משתמש ב-Proton Mail עבור תיבת הדואר הראשית שלך, SimpleLogin היא בחירה מצוינת. מכיוון ששני המוצרים נמצאים כעת בבעלות אותה חברה, כעת עליך לסמוך רק על ישות אחת. אנו גם מצפים ש-SimpleLogin תשתלב בצורה הדוקה יותר עם ההיצע של Proton בעתיד. SimpleLogin ממשיכה לתמוך בהעברה לכל ספק דוא"ל שתבחרו. Securitum [ביקרה את SimpleLogin](https://simplelogin.io/blog/security-audit/) בתחילת 2022 וכל הבעיות [טופלו](https://simplelogin.io/audit2022/web.pdf).
 
@@ -373,26 +397,30 @@ SimpleLogin [נרכשה על ידי Proton AG](https://proton.me/news/proton-and
 
 ### פתרונות תוכנה משולבים
 
-!!! recommendation
+<div class="admonition recommendation" markdown>
 
-    ![Mailcow לוגו](assets/img/email/mailcow.svg){ align=right }
-    
-    **Mailcow** הוא שרת דואר מתקדם יותר המושלם עבור אלה עם קצת יותר ניסיון בלינוקס. יש לו את כל מה שאתה צריך במיכל Docker: שרת דואר עם תמיכה ב- DKIM, ניטור אנטי וירוס וספאם, דואר אינטרנט ו- ActiveSync עם SOGo, וניהול מבוסס אינטרנט עם תמיכה ב- 2FA.
-    
-    [:octicons-home-16: Homepage](https://mailcow.email){ .md-button .md-button--primary }
-    [:octicons-info-16:](https://mailcow.github.io/mailcow-dockerized-docs/){ .card-link title=תיעוד}
-    [:octicons-code-16:](https://github.com/mailcow/mailcow-dockerized){ .card-link title="קוד מקור" }
-    [:octicons-heart-16:](https://www.servercow.de/mailcow?lang=en#sal){ .card-link title=לתרומה }
+![Mailcow לוגו](assets/img/email/mailcow.svg){ align=right }
 
-!!! המלצה
+**Mailcow** הוא שרת דואר מתקדם יותר המושלם עבור אלה עם קצת יותר ניסיון בלינוקס. יש לו את כל מה שאתה צריך במיכל Docker: שרת דואר עם תמיכה ב- DKIM, ניטור אנטי וירוס וספאם, דואר אינטרנט ו- ActiveSync עם SOGo, וניהול מבוסס אינטרנט עם תמיכה ב- 2FA.
 
-    ![Mail-in-a-Box לוגו](assets/img/email/mail-in-a-box.svg){ align=right }
-    
-    **Mail-in-a-Box** הוא סקריפט התקנה אוטומטי לפריסת שרת דואר באובונטו. מטרתו היא להקל על אנשים להגדיר שרת דואר משלהם.
-    
-    [:octicons-home-16: דף הבית](https://mailinabox.email){ .md-button .md-button--primary }
-    [:octicons-info-16:](https://mailinabox.email/guide.html){ .card-link title=תיעוד}
-    [:octicons-code-16:](https://github.com/mail-in-a-box/mailinabox){ .card-link title="קוד מקור" }
+[:octicons-home-16: Homepage](https://mailcow.email){ .md-button .md-button--primary }
+[:octicons-info-16:](https://mailcow.github.io/mailcow-dockerized-docs/){ .card-link title=תיעוד}
+[:octicons-code-16:](https://github.com/mailcow/mailcow-dockerized){ .card-link title="קוד מקור" }
+[:octicons-heart-16:](https://www.servercow.de/mailcow?lang=en#sal){ .card-link title=לתרומה }
+
+</div>
+
+<div class="admonition recommendation" markdown>
+
+![Mail-in-a-Box לוגו](assets/img/email/mail-in-a-box.svg){ align=right }
+
+**Mail-in-a-Box** הוא סקריפט התקנה אוטומטי לפריסת שרת דואר באובונטו. מטרתו היא להקל על אנשים להגדיר שרת דואר משלהם.
+
+[:octicons-home-16: דף הבית](https://mailinabox.email){ .md-button .md-button--primary }
+[:octicons-info-16:](https://mailinabox.email/guide.html){ .card-link title=תיעוד}
+[:octicons-code-16:](https://github.com/mail-in-a-box/mailinabox){ .card-link title="קוד מקור" }
+
+</div>
 
 לגישה ידנית יותר בחרנו את שני המאמרים הבאים:
 

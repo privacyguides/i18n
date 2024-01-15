@@ -31,33 +31,37 @@ Questi provider supportano in modo nativo la crittografia/decrittografia OpenPGP
 
 !!! warning "Attenzione"
 
-    Quando si utilizza una tecnologia E2EE come OpenPGP, l'e-mail presenta ancora alcuni metadati non crittografati nell'intestazione dell'e-mail, tra cui generalmente l'oggetto! Per saperne di più sui metadata della [posta elettronica](basics/email-security.md#email-metadata-overview).
+    When using E2EE technology like OpenPGP your email will still have some metadata that is not encrypted in the header of the email, generally including the subject line! Read more about [email metadata](basics/email-security.md#email-metadata-overview).
     
-    Inoltre, OpenPGP non supporta la Forward Secrecy, a significare che se la chiave privata tua o del destinatario viene rubata, tutti i messaggi precedenti crittografati con essa, saranno esposti. [Come proteggo le mie chiavi private?](basics/email-security.md#how-do-i-protect-my-private-keys)
+    OpenPGP also does not support Forward secrecy, which means if either your or the recipient's private key is ever stolen, all previous messages encrypted with it will be exposed. [How do I protect my private keys?](basics/email-security.md#how-do-i-protect-my-private-keys)
 
 ### Proton Mail
 
-!!! recommendation
+<div class="admonition recommendation" markdown>
 
-    ![Proton Mail logo](assets/img/email/protonmail.svg){ align=right }
-    
-    **Proton Mail** è un servizio di posta elettronica incentrato su privacy, crittografia, sicurezza e facilità d'uso. Operano dal **2013**. Proton AG ha sede a Ginevra, Svizzera. Gli account partono da 500MB di spazio di archiviazione con il piano gratuito.
-    
-    [:octicons-home-16: Pagina Principale](https://proton.me/it/mail){ .md-button .md-button--primary }
-    [:simple-torbrowser:](https://protonmailrmez3lotccipshtkleegetolb73fuirgj7r4o4vfu7ozyd.onion){ .card-link title="Servizio Onion" }
-    [:octicons-eye-16:](https://proton.me/legal/privacy){ .card-link title="Politica sulla Privacy" }
-    [:octicons-info-16:](https://proton.me/support/it/mail){ .card-link title=Documentazione}
-    [:octicons-code-16:](https://github.com/ProtonMail){ .card-link title="Codice sorgente" }
-    
-    ??? downloads "Scarica"
-    
-        - [:simple-googleplay: Google Play](https://play.google.com/store/apps/details?id=ch.protonmail.android)
-        - [:simple-appstore: App Store](https://apps.apple.com/it/app/proton-mail-encrypted-email/id979659905)
-        - [:simple-github: GitHub](https://github.com/ProtonMail/proton-mail-android/releases)
-        - [:simple-windows11: Windows](https://proton.me/it/mail/bridge#download)
-        - [:simple-apple: macOS](https://proton.me/it/mail/bridge#download)
-        - [:simple-linux: Linux](https://proton.me/it/mail/bridge#download)
-        - [:octicons-browser-16: Web](https://mail.proton.me)
+![Proton Mail logo](assets/img/email/protonmail.svg){ align=right }
+
+**Proton Mail** è un servizio di posta elettronica incentrato su privacy, crittografia, sicurezza e facilità d'uso. Operano dal **2013**. Proton AG ha sede a Ginevra, Svizzera. Gli account partono da 500MB di spazio di archiviazione con il piano gratuito.
+
+[:octicons-home-16: Homepage](https://proton.me/mail){ .md-button .md-button--primary }
+[:simple-torbrowser:](https://protonmailrmez3lotccipshtkleegetolb73fuirgj7r4o4vfu7ozyd.onion){ .card-link title="Onion Service" }
+[:octicons-eye-16:](https://proton.me/legal/privacy){ .card-link title="Privacy Policy" }
+[:octicons-info-16:](https://proton.me/support/mail){ .card-link title=Documentation}
+[:octicons-code-16:](https://github.com/ProtonMail){ .card-link title="Source Code" }
+
+<details class="downloads" markdown><summary>Downloads</summary>
+
+- [:simple-googleplay: Google Play](https://play.google.com/store/apps/details?id=ch.protonmail.android)
+- [:simple-appstore: App Store](https://apps.apple.com/app/apple-store/id979659905)
+- [:simple-github: GitHub](https://github.com/ProtonMail/proton-mail-android/releases)
+- [:simple-windows11: Windows](https://proton.me/mail/bridge#download)
+- [:simple-apple: macOS](https://proton.me/mail/bridge#download)
+- [:simple-linux: Linux](https://proton.me/mail/bridge#download)
+- [:octicons-browser-16: Web](https://mail.proton.me)
+
+</details>
+
+</div>
 
 Gli account gratuiti presentano delle limitazioni, come l'incapacità di cercare il testo del corpo e l'assenza dell'accesso a [Proton Mail Bridge](https://proton.me/mail/bridge), necessario per utilizzare un [client email desktop consigliato](email-clients.md) (come Thunderbird). I profili a pagamento includono funzionalità come Proton Mail Bridge, archiviazione aggiuntiva e supporto ai domini personalizzati. Una [lettera di attestazione](https://proton.me/blog/security-audit-all-proton-apps) è stata fornita per le applicazioni di Proton Mail il 9 novembre 2021 da [Securitum](https://research.securitum.com).
 
@@ -101,22 +105,26 @@ Proton Mail non offre una funzionalità di eredità digitale.
 
 ### Skiff Mail
 
-!!! recommendation
+<div class="admonition recommendation" markdown>
 
-    ![Logo di Skiff Mail](assets/img/email/skiff-mail.svg){ align=right }
-    
-    **Skiff Mail** è un servizio email basato sul web con E2EE, nato nel 2020 con sede a San Francisco e sviluppatori da tutto il mondo. I profili partono da 10GB di archiviazione gratuita.
-    
-    [:octicons-home-16: Pagina Principale](https://skiff.com/mail){ .md-button .md-button--primary }
-    [:octicons-eye-16:](https://app.skiff.com/docs/db93c237-84c2-4b2b-9588-19a7cd2cd45a#tyGksN9rkqbo2uGYASxsA6HVLjUoly/wTYK8tncTto8=){ .card-link title="Politica sulla Privacy" }
-    [:octicons-info-16:](https://skiff.com/help){ .card-link title=Documentazione}
-    [:octicons-code-16:](https://github.com/skiff-org/skiff-apps){ .card-link title="Codice Sorgente" }
-    
-    ??? downloads "Scarica"
-    
-        - [:simple-android: Android](https://play.google.com/store/apps/details?id=com.skemailmobileapp&pli=1)
-        - [:simple-appstore: iOS](https://apps.apple.com/it/app/skiff-mail/id1619168801)
-        - [:octicons-browser-16: Web](https://app.skiff.com/mail)
+![Logo di Skiff Mail](assets/img/email/skiff-mail.svg){ align=right }
+
+**Skiff Mail** è un servizio email basato sul web con E2EE, nato nel 2020 con sede a San Francisco e sviluppatori da tutto il mondo. I profili partono da 10GB di archiviazione gratuita.
+
+[:octicons-home-16: Homepage](https://skiff.com/mail){ .md-button .md-button--primary }
+[:octicons-eye-16:](https://app.skiff.com/docs/db93c237-84c2-4b2b-9588-19a7cd2cd45a#tyGksN9rkqbo2uGYASxsA6HVLjUoly/wTYK8tncTto8=){ .card-link title="Privacy Policy" }
+[:octicons-info-16:](https://skiff.com/help){ .card-link title=Documentation}
+[:octicons-code-16:](https://github.com/skiff-org/skiff-apps){ .card-link title="Source Code" }
+
+<details class="downloads" markdown><summary>Downloads</summary>
+
+- [:simple-android: Android](https://play.google.com/store/apps/details?id=com.skemailmobileapp&pli=1)
+- [:simple-appstore: iOS](https://apps.apple.com/us/app/skiff-mail/id1619168801)
+- [:octicons-browser-16: Web](https://app.skiff.com/mail)
+
+</details>
+
+</div>
 
 Durante lo sviluppo, Skiff è stato sottoposto ad alcuni [controlli](https://skiff.com/transparency).
 
@@ -156,19 +164,23 @@ Skiff Mail non offre una funzionalità di eredità digitale.
 
 ### Mailbox.org
 
-!!! recommendation
+<div class="admonition recommendation" markdown>
 
-    ![Logo di Mailbox.org](assets/img/email/mailboxorg.svg){ align=right }
-    
-    **Mailbox.org** è un servizio email incentrato sull'essere sicuro, privo di pubblicità e alimentato privatamente da energia ecologica al 100%. Sono operativi dal 2014. Mailbox.org ha sede a Berlino, in Germania. I profili partono da 2 GB di archiviazione, aggiornabile se necessario.
-    
-    [:octicons-home-16: Pagina Principale](https://mailbox.org){ .md-button .md-button--primary }
-    [:octicons-eye-16:](https://mailbox.org/en/data-protection-privacy-policy){ .card-link title="Politica sulla Privacy" }
-    [:octicons-info-16:](https://kb.mailbox.org/en/private){ .card-link title=Documentazione}
-    
-    ??? downloads "Scarica"
-    
-        - [:octicons-browser-16: Web](https://login.mailbox.org)
+![Logo di Mailbox.org](assets/img/email/mailboxorg.svg){ align=right }
+
+**Mailbox.org** è un servizio email incentrato sull'essere sicuro, privo di pubblicità e alimentato privatamente da energia ecologica al 100%. Sono operativi dal 2014. Mailbox.org ha sede a Berlino, in Germania. I profili partono da 2 GB di archiviazione, aggiornabile se necessario.
+
+[:octicons-home-16: Homepage](https://mailbox.org){ .md-button .md-button--primary }
+[:octicons-eye-16:](https://mailbox.org/en/data-protection-privacy-policy){ .card-link title="Privacy Policy" }
+[:octicons-info-16:](https://kb.mailbox.org/en/private){ .card-link title=Documentation}
+
+<details class="downloads" markdown><summary>Downloads</summary>
+
+- [:octicons-browser-16: Web](https://login.mailbox.org)
+
+</details>
+
+</div>
 
 #### :material-check:{ .pg-green } Domini e Alias personalizzati
 
@@ -218,27 +230,31 @@ Questi fornitori memorizzano le tue email con la crittografia a conoscenza zero,
 
 ### Tuta
 
-!!! recommendation
+<div class="admonition recommendation" markdown>
 
-    ![Logo di Tuta](assets/img/email/tuta.svg){ align=right }
-    
-    **Tuta** è un servizio di posta elettronica incentrato sulla sicurezza e sulla privacy attraverso l'uso della crittografia. Tuta è operativo dal **2011** e ha sede ad Hannover, in Germania. I profili partono da 1GB di archiviazione, con il loro piano gratuito.
-    
-    [:octicons-home-16: Pagina Principale](https://tuta.com/it/){ .md-button .md-button--primary }
-    [:octicons-eye-16:](https://tuta.com/it/privacy){ .card-link title="Politica sulla Privacy" }
-    [:octicons-info-16:](https://tuta.com/faq){ .card-link title=Documentazione}
-    [:octicons-code-16:](https://github.com/tutao/tutanota){ .card-link title="Codice Sorgente" }
-    [:octicons-heart-16:](https://tuta.com/it/community){ .card-link title=Contribuisci }
-    
-    ??? downloads "Scarica"
-    
-        - [:simple-googleplay: Google Play](https://play.google.com/store/apps/details?id=de.tutao.tutanota&gl=It)
-        - [:simple-appstore: App Store](https://apps.apple.com/it/app/tutanota-encrypted-email-app/id922429609)
-        - [:simple-github: GitHub](https://github.com/tutao/tutanota/releases)
-        - [:simple-windows11: Windows](https://tuta.com/it/#download)
-        - [:simple-apple: macOS](https://tuta.com/it/#download)
-        - [:simple-linux: Linux](https://tuta.com/it/#download)
-        - [:octicons-browser-16: Web](https://app.tuta.com/)
+![Logo di Tuta](assets/img/email/tuta.svg){ align=right }
+
+**Tuta** è un servizio di posta elettronica incentrato sulla sicurezza e sulla privacy attraverso l'uso della crittografia. Tuta è operativo dal **2011** e ha sede ad Hannover, in Germania. I profili partono da 1GB di archiviazione, con il loro piano gratuito.
+
+[:octicons-home-16: Homepage](https://tuta.com){ .md-button .md-button--primary }
+[:octicons-eye-16:](https://tuta.com/privacy){ .card-link title="Privacy Policy" }
+[:octicons-info-16:](https://tuta.com/faq){ .card-link title=Documentation}
+[:octicons-code-16:](https://github.com/tutao/tutanota){ .card-link title="Source Code" }
+[:octicons-heart-16:](https://tuta.com/community/){ .card-link title=Contribute }
+
+<details class="downloads" markdown><summary>Downloads</summary>
+
+- [:simple-googleplay: Google Play](https://play.google.com/store/apps/details?id=de.tutao.tutanota)
+- [:simple-appstore: App Store](https://apps.apple.com/app/tutanota/id922429609)
+- [:simple-github: GitHub](https://github.com/tutao/tutanota/releases)
+- [:simple-windows11: Windows](https://tuta.com/#download)
+- [:simple-apple: macOS](https://tuta.com/#download)
+- [:simple-linux: Linux](https://tuta.com/#download)
+- [:octicons-browser-16: Web](https://app.tuta.com/)
+
+</details>
+
+</div>
 
 Tuta non supporta il [protocollo IMAP](https://tuta.com/faq/#imap) o l'utilizzo di [client email](email-clients.md) di terze parti e, inoltre, non potrai aggiungere [account email esterni](https://github.com/tutao/tutanota/issues/544#issuecomment-670473647) all'app di Tuta. [L'importazione di email](https://github.com/tutao/tutanota/issues/630) non è attualmente supportata, anche se questo aspetto è destinato ad [essere modificato](https://tuta.com/blog/posts/kickoff-import). Le email possono essere esportate [singolarmente o tramite selezione in blocco](https://tuta.com/howto#generalMail) per cartella, il che può risultare scomodo se hai molte cartelle.
 
@@ -304,25 +320,29 @@ Utilizzare un servizio di alias richiede di affidare i tuoi messaggi crittografa
 
 ### addy.io
 
-!!! recommendation
+<div class="admonition recommendation" markdown>
 
-    ![Logo di addy.io](assets/img/email/addy.svg#only-light){ align=right }
-    ![Logo di addy.io](assets/img/email/addy-dark.svg#only-dark){ align=right }
-    
-    **addy.io** ti consente di creare gratuitamente 10 alias di dominio su un dominio condiviso, oppure alias "standard" illimitati, meno anonimi.
-    
-    [:octicons-home-16: Pagina Principale](https://addy.io){ .md-button .md-button--primary }
-    [:octicons-eye-16:](https://addy.io/privacy){ .card-link title="Politica sulla Privacy" }
-    [:octicons-info-16:](https://app.addy.io/docs){ .card-link title=Documentazione}
-    [:octicons-code-16:](https://github.com/anonaddy){ .card-link title="Codice Sorgente" }
-    [:octicons-heart-16:](https://addy.io/donate){ .card-link title=Contribuisci }
-    
-    ??? downloads "Scarica"
-    
-        - [:simple-android: Android](https://addy.io/faq/#is-there-an-android-app)
-        - [:material-apple-ios: iOS](https://addy.io/faq/#is-there-an-ios-app)
-        - [:simple-firefoxbrowser: Firefox](https://addons.mozilla.org/it/firefox/addon/addy_io/)
-        - [:simple-googlechrome: Chrome](https://chrome.google.com/webstore/detail/addyio-anonymous-email-fo/iadbdpnoknmbdeolbapdackdcogdmjpe)
+![Logo di addy.io](assets/img/email/addy.svg#only-light){ align=right }
+![Logo di addy.io](assets/img/email/addy-dark.svg#only-dark){ align=right }
+
+**addy.io** ti consente di creare gratuitamente 10 alias di dominio su un dominio condiviso, oppure alias "standard" illimitati, meno anonimi.
+
+[:octicons-home-16: Homepage](https://addy.io){ .md-button .md-button--primary }
+[:octicons-eye-16:](https://addy.io/privacy){ .card-link title="Privacy Policy" }
+[:octicons-info-16:](https://app.addy.io/docs){ .card-link title=Documentation}
+[:octicons-code-16:](https://github.com/anonaddy){ .card-link title="Source Code" }
+[:octicons-heart-16:](https://addy.io/donate){ .card-link title=Contribute }
+
+<details class="downloads" markdown><summary>Downloads</summary>
+
+- [:simple-android: Android](https://addy.io/faq/#is-there-an-android-app)
+- [:material-apple-ios: iOS](https://addy.io/faq/#is-there-an-ios-app)
+- [:simple-firefoxbrowser: Firefox](https://addons.mozilla.org/firefox/addon/addy_io/)
+- [:simple-googlechrome: Chrome](https://chrome.google.com/webstore/detail/addyio-anonymous-email-fo/iadbdpnoknmbdeolbapdackdcogdmjpe)
+
+</details>
+
+</div>
 
 Il numero di alias condivisi (che terminano con un dominio condiviso come @addy.io) che puoi creare è limitato a 10 sul piano gratuito di addy.io, 50 sul piano da €1/mese e illimitato sul piano da €4/mese (fatturato €3 per un anno). Puoi creare un numero illimitato di alias standard (che terminano con un dominio come @[username].addy.io o con un dominio personalizzato nei piani a pagamento), tuttavia, come detto in precedenza, questo può essere dannoso per la privacy poichè le persone possono banalmente collegare i tuoi alias standard basandosi unicamente sul nome del dominio. Sono utili quando un dominio condiviso potrebbe essere bloccato da un servizio. Securitum [ha effettuato un audit](https://addy.io/blog/addy-io-passes-independent-security-audit/) su addy.io nel settembre 2023 e non sono state identificate [vulnerabilità significative](https://addy.io/addy-io-security-audit.pdf).
 
@@ -336,26 +356,30 @@ Funzionalità gratuite degne di nota:
 
 ### SimpleLogin
 
-!!! recommendation
+<div class="admonition recommendation" markdown>
 
-    ![Logo di Simplelogin](assets/img/email/simplelogin.svg){ align=right }
-    
-    **SimpleLogin** è un servizio gratuito che fornisce alias email su numerosi nomi di dominio condivisi e, facoltativamente, fornisce funzionalità a pagamento quali alias illimitati e domini personalizzati.
-    
-    [:octicons-home-16: Pagina Principale](https://simplelogin.io){ .md-button .md-button--primary }
-    [:octicons-eye-16:](https://simplelogin.io/privacy/){ .card-link title="Politica sulla Privacy" }
-    [:octicons-info-16:](https://simplelogin.io/docs/){ .card-link title=Documentazione}
-    [:octicons-code-16:](https://github.com/simple-login){ .card-link title="Codice sorgente" }
-    
-    ??? downloads "Scarica"
-    
-        - [:simple-googleplay: Google Play](https://play.google.com/store/apps/details?id=io.simplelogin.android)
-        - [:simple-appstore: App Store](https://apps.apple.com/it/app/simplelogin-email-alias/id1494359858)
-        - [:simple-github: GitHub](https://github.com/simple-login/Simple-Login-Android/releases)
-        - [:simple-firefoxbrowser: Firefox](https://addons.mozilla.org/it/firefox/addon/simplelogin/)
-        - [:simple-googlechrome: Chrome](https://chrome.google.com/webstore/detail/dphilobhebphkdjbpfohgikllaljmgbn)
-        - [:simple-microsoftedge: Edge](https://microsoftedge.microsoft.com/addons/detail/simpleloginreceive-sen/diacfpipniklenphgljfkmhinphjlfff)
-        - [:simple-safari: Safari](https://apps.apple.com/it/app/id1494051017)
+![Logo di Simplelogin](assets/img/email/simplelogin.svg){ align=right }
+
+**SimpleLogin** è un servizio gratuito che fornisce alias email su numerosi nomi di dominio condivisi e, facoltativamente, fornisce funzionalità a pagamento quali alias illimitati e domini personalizzati.
+
+[:octicons-home-16: Homepage](https://simplelogin.io){ .md-button .md-button--primary }
+[:octicons-eye-16:](https://simplelogin.io/privacy/){ .card-link title="Privacy Policy" }
+[:octicons-info-16:](https://simplelogin.io/docs/){ .card-link title=Documentation}
+[:octicons-code-16:](https://github.com/simple-login){ .card-link title="Source Code" }
+
+<details class="downloads" markdown><summary>Downloads</summary>
+
+- [:simple-googleplay: Google Play](https://play.google.com/store/apps/details?id=io.simplelogin.android)
+- [:simple-appstore: App Store](https://apps.apple.com/app/id1494359858)
+- [:simple-github: GitHub](https://github.com/simple-login/Simple-Login-Android/releases)
+- [:simple-firefoxbrowser: Firefox](https://addons.mozilla.org/firefox/addon/simplelogin/)
+- [:simple-googlechrome: Chrome](https://chrome.google.com/webstore/detail/dphilobhebphkdjbpfohgikllaljmgbn)
+- [:simple-microsoftedge: Edge](https://microsoftedge.microsoft.com/addons/detail/simpleloginreceive-sen/diacfpipniklenphgljfkmhinphjlfff)
+- [:simple-safari: Safari](https://apps.apple.com/app/id1494051017)
+
+</details>
+
+</div>
 
 SimpleLogin è stata [acquisita da Proton AG](https://proton.me/news/proton-and-simplelogin-join-forces) l'8 aprile del 2022. Se utilizzi Proton Mail come tua casella di posta principale, SimpleLogin è un'ottima scelta. Poiché entrambi i prodotti sono ora posseduti dalla stessa azienda, devi ora affidarti a una singola entità. Inoltre, prevediamo che SimpleLogin sarà maggiormente integrato con le offerte future di Proton. SimpleLogin continua a supportare l'inoltro a qualsiasi fornitore di email di tua scelta. Securitum [ha revisionato](https://simplelogin.io/blog/security-audit/) SimpleLogin all'inizio del 2022 e tutti i problemi [sono stati risolti](https://simplelogin.io/audit2022/web.pdf).
 
@@ -373,26 +397,30 @@ Gli amministratori di sistema avanzati potrebbero considerare la configurazione 
 
 ### Soluzioni software combinate
 
-!!! recommendation
+<div class="admonition recommendation" markdown>
 
-    ![Logo di Mailcow](assets/img/email/mailcow.svg){ align=right }
-    
-    **Mailcow** è un server email più avanzato, perfetto per chi ha un po' più d'esperienza con Linux. Ha tutto il necessario in un contenitore Docker: Un server email con supporto DKIM, antivirus e monitoraggio dello spam, webmail e ActiveSync con SOGo e amministrazione basata sul web con supporto A2F.
-    
-    [:octicons-home-16: Pagina Principale](https://mailcow.email){ .md-button .md-button--primary }
-    [:octicons-info-16:](https://mailcow.github.io/mailcow-dockerized-docs/){ .card-link title=Documentazione}
-    [:octicons-code-16:](https://github.com/mailcow/mailcow-dockerized){ .card-link title="Codice sorgente" }
-    [:octicons-heart-16:](https://www.servercow.de/mailcow?lang=en#sal){ .card-link title=Contribuisci }
+![Logo di Mailcow](assets/img/email/mailcow.svg){ align=right }
 
-!!! recommendation "consiglio"
+**Mailcow** è un server email più avanzato, perfetto per chi ha un po' più d'esperienza con Linux. Ha tutto il necessario in un contenitore Docker: Un server email con supporto DKIM, antivirus e monitoraggio dello spam, webmail e ActiveSync con SOGo e amministrazione basata sul web con supporto A2F.
 
-    ![Logo di Mail-in-a-Box](assets/img/email/mail-in-a-box.svg){ align=right }
-    
-    **Mail-in-a-Box** è uno script di configurazione automatica per la distribuzione di un server email su Ubuntu. Il suo obiettivo è semplificare la configurazione del proprio server email alle persone.
-    
-    [:octicons-home-16: Pagina Principale](https://mailinabox.email){ .md-button .md-button--primary }
-    [:octicons-info-16:](https://mailinabox.email/guide.html){ .card-link title=Documentazione}
-    [:octicons-code-16:](https://github.com/mail-in-a-box/mailinabox){ .card-link title="Codice sorgente" }
+[:octicons-home-16: Pagina Principale](https://mailcow.email){ .md-button .md-button--primary }
+[:octicons-info-16:](https://mailcow.github.io/mailcow-dockerized-docs/){ .card-link title=Documentazione}
+[:octicons-code-16:](https://github.com/mailcow/mailcow-dockerized){ .card-link title="Codice sorgente" }
+[:octicons-heart-16:](https://www.servercow.de/mailcow?lang=en#sal){ .card-link title=Contribuisci }
+
+</div>
+
+<div class="admonition recommendation" markdown>
+
+![Logo di Mail-in-a-Box](assets/img/email/mail-in-a-box.svg){ align=right }
+
+**Mail-in-a-Box** è uno script di configurazione automatica per la distribuzione di un server email su Ubuntu. Il suo obiettivo è semplificare la configurazione del proprio server email alle persone.
+
+[:octicons-home-16: Pagina Principale](https://mailinabox.email){ .md-button .md-button--primary }
+[:octicons-info-16:](https://mailinabox.email/guide.html){ .card-link title=Documentazione}
+[:octicons-code-16:](https://github.com/mail-in-a-box/mailinabox){ .card-link title="Codice sorgente" }
+
+</div>
 
 Per un approccio più manuale, abbiamo scelto questi due articoli:
 

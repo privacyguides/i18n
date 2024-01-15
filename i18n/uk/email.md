@@ -31,33 +31,37 @@ These providers natively support OpenPGP encryption/decryption and the [Web Key 
 
 !!! warning
 
-    When using E2EE technology like OpenPGP your email will still have some metadata that is not encrypted in the header of the email, generally including the subject line! Дізнайтеся більше про [метадані електронної пошти](basics/email-security.md#email-metadata-oview).
+    When using E2EE technology like OpenPGP your email will still have some metadata that is not encrypted in the header of the email, generally including the subject line! Read more about [email metadata](basics/email-security.md#email-metadata-overview).
     
-    OpenPGP також не підтримує пряму секретність, що означає, що якщо ваш або одержувача закритий ключ буде викрадено, всі попередні повідомлення, зашифровані за допомогою цього ключа, будуть відкриті. [Як захистити свої приватні ключі?](basics/email-security.md#how-do-i-protect-my-private-keys)
+    OpenPGP also does not support Forward secrecy, which means if either your or the recipient's private key is ever stolen, all previous messages encrypted with it will be exposed. [How do I protect my private keys?](basics/email-security.md#how-do-i-protect-my-private-keys)
 
 ### Proton Mail
 
-!!! рекомендації
+<div class="admonition recommendation" markdown>
 
-    ![Логотип Proton Mail](assets/img/email/protonmail.svg){ align=right }
-    
-    **Proton Mail — це поштовий сервіс з акцентом на конфіденційності, шифруванні, безпеці та простоті використання. Вони працюють з **2013 року**. Компанія Proton AG базується в Женеві, Швейцарія. Облікові записи починаються з 500 МБ пам'яті в безкоштовному тарифному плані.
-    
-    [:octicons-home-16: Домашня сторінка](https://proton.me/mail){ .md-button .md-button--primary }
-    [:simple-torbrowser:](https://protonmailrmez3lotccipshtkleegetolb73fuirgj7r4o4vfu7ozyd.onion){ .card-link title="Onion Service" }
-    [:octicons-eye-16:](https://proton.me/legal/privacy){ .card-link title="Політика конфіденційності" }
-    [:octicons-info-16:](https://proton.me/support/mail){ .card-link title=Документація}
-    [:octicons-code-16:](https://github.com/ProtonMail){ .card-link title="Вихідний код" }
-    
-    ??? downloads
-    
-        - [:simple-googleplay: Google Play](https://play.google.com/store/apps/details?id=ch.protonmail.android)
-        - [:simple-appstore: App Store](https://apps.apple.com/app/apple-store/id979659905)
-        - [:simple-github: GitHub](https://github.com/ProtonMail/proton-mail-android/releases)
-        - [:simple-windows11: Windows](https://proton.me/mail/bridge#download)
-        - [:simple-apple: macOS](https://proton.me/mail/bridge#download)
-        - [:simple-linux: Linux](https://proton.me/mail/bridge#download)
-        - [:octicons-browser-16: Web](https://mail.proton.me)
+![Логотип Proton Mail](assets/img/email/protonmail.svg){ align=right }
+
+**Proton Mail — це поштовий сервіс з акцентом на конфіденційності, шифруванні, безпеці та простоті використання. Вони працюють з **2013 року**. Компанія Proton AG базується в Женеві, Швейцарія. Облікові записи починаються з 500 МБ пам'яті в безкоштовному тарифному плані.
+
+[:octicons-home-16: Homepage](https://proton.me/mail){ .md-button .md-button--primary }
+[:simple-torbrowser:](https://protonmailrmez3lotccipshtkleegetolb73fuirgj7r4o4vfu7ozyd.onion){ .card-link title="Onion Service" }
+[:octicons-eye-16:](https://proton.me/legal/privacy){ .card-link title="Privacy Policy" }
+[:octicons-info-16:](https://proton.me/support/mail){ .card-link title=Documentation}
+[:octicons-code-16:](https://github.com/ProtonMail){ .card-link title="Source Code" }
+
+<details class="downloads" markdown><summary>Downloads</summary>
+
+- [:simple-googleplay: Google Play](https://play.google.com/store/apps/details?id=ch.protonmail.android)
+- [:simple-appstore: App Store](https://apps.apple.com/app/apple-store/id979659905)
+- [:simple-github: GitHub](https://github.com/ProtonMail/proton-mail-android/releases)
+- [:simple-windows11: Windows](https://proton.me/mail/bridge#download)
+- [:simple-apple: macOS](https://proton.me/mail/bridge#download)
+- [:simple-linux: Linux](https://proton.me/mail/bridge#download)
+- [:octicons-browser-16: Web](https://mail.proton.me)
+
+</details>
+
+</div>
 
 Безкоштовні акаунти мають деякі обмеження, такі як відсутність можливості пошуку в основному тексті та доступу до [Proton Mail Bridge](https://proton.me/mail/bridge), який необхідний для використання [рекомендованого десктопного поштового клієнта](email-clients.md) (наприклад, Thunderbird). Платні акаунти включають такі функції, як Proton Mail Bridge, додаткове сховище та підтримку власних доменів. [Атестаційний лист](https://proton.me/blog/security-audit-all-proton-apps) для додатків Proton Mail було надано 9 листопада 2021 року компанією [Securitum](https://research.securitum.com).
 
@@ -101,22 +105,26 @@ Proton Mail не пропонує функцію цифрової спадщин
 
 ### Skiff Mail
 
-!!! рекомендації
+<div class="admonition recommendation" markdown>
 
-    ![Skiff Mail logo](assets/img/email/skiff-mail.svg){ align=right }
-    
-    **Skiff Mail** is a web based email service with E2EE that began in 2020 that is based in San Francisco with developers worldwide. Accounts start with 10GB of free storage.
-    
-    [:octicons-home-16: Homepage](https://skiff.com/mail){ .md-button .md-button--primary }
-    [:octicons-eye-16:](https://app.skiff.com/docs/db93c237-84c2-4b2b-9588-19a7cd2cd45a#tyGksN9rkqbo2uGYASxsA6HVLjUoly/wTYK8tncTto8=){ .card-link title="Privacy Policy" }
-    [:octicons-info-16:](https://skiff.com/help){ .card-link title=Documentation}
-    [:octicons-code-16:](https://github.com/skiff-org/skiff-apps){ .card-link title="Source Code" }
-    
-    ??? downloads
-    
-        - [:simple-android: Android](https://play.google.com/store/apps/details?id=com.skemailmobileapp&pli=1)
-        - [:simple-appstore: iOS](https://apps.apple.com/us/app/skiff-mail/id1619168801)
-        - [:octicons-browser-16: Web](https://app.skiff.com/mail)
+![Skiff Mail logo](assets/img/email/skiff-mail.svg){ align=right }
+
+**Skiff Mail** is a web based email service with E2EE that began in 2020 that is based in San Francisco with developers worldwide. Accounts start with 10GB of free storage.
+
+[:octicons-home-16: Homepage](https://skiff.com/mail){ .md-button .md-button--primary }
+[:octicons-eye-16:](https://app.skiff.com/docs/db93c237-84c2-4b2b-9588-19a7cd2cd45a#tyGksN9rkqbo2uGYASxsA6HVLjUoly/wTYK8tncTto8=){ .card-link title="Privacy Policy" }
+[:octicons-info-16:](https://skiff.com/help){ .card-link title=Documentation}
+[:octicons-code-16:](https://github.com/skiff-org/skiff-apps){ .card-link title="Source Code" }
+
+<details class="downloads" markdown><summary>Downloads</summary>
+
+- [:simple-android: Android](https://play.google.com/store/apps/details?id=com.skemailmobileapp&pli=1)
+- [:simple-appstore: iOS](https://apps.apple.com/us/app/skiff-mail/id1619168801)
+- [:octicons-browser-16: Web](https://app.skiff.com/mail)
+
+</details>
+
+</div>
 
 Skiff has undergone a few [audits](https://skiff.com/transparency) during its development.
 
@@ -156,19 +164,23 @@ Skiff Mail does not offer a digital legacy feature.
 
 ### Mailbox.org
 
-!!! рекомендації
+<div class="admonition recommendation" markdown>
 
-    ![Логотип Mailbox.org](assets/img/email/mailboxorg.svg){ align=right }
-    
-    **Mailbox.org** — це поштовий сервіс, який прагне бути безпечним, не містить реклами та працює на 100% екологічно чистій енергії. Вони працюють з 2014 року. Mailbox.org базується в Берліні, Німеччина. Облікові записи починаються з 2 ГБ сховища, яке можна збільшити за потреби.
-    
-    [:octicons-home-16: Домашня сторінка](https://mailbox.org){ .md-button .md-button--primary }
-    [:octicons-eye-16:](https://mailbox.org/en/data-protection-privacy-policy){ .card-link title="Політика конфіденційності" }
-    [:octicons-info-16:](https://kb.mailbox.org/en/private){ .card-link title=Документація}
-    
-    ??? downloads
-    
-        - [:octicons-browser-16: Web](https://login.mailbox.org)
+![Логотип Mailbox.org](assets/img/email/mailboxorg.svg){ align=right }
+
+**Mailbox.org** — це поштовий сервіс, який прагне бути безпечним, не містить реклами та працює на 100% екологічно чистій енергії. Вони працюють з 2014 року. Mailbox.org базується в Берліні, Німеччина. Облікові записи починаються з 2 ГБ сховища, яке можна збільшити за потреби.
+
+[:octicons-home-16: Homepage](https://mailbox.org){ .md-button .md-button--primary }
+[:octicons-eye-16:](https://mailbox.org/en/data-protection-privacy-policy){ .card-link title="Privacy Policy" }
+[:octicons-info-16:](https://kb.mailbox.org/en/private){ .card-link title=Documentation}
+
+<details class="downloads" markdown><summary>Downloads</summary>
+
+- [:octicons-browser-16: Web](https://login.mailbox.org)
+
+</details>
+
+</div>
 
 #### :material-check:{ .pg-green } Користувацькі домени та аліаси
 
@@ -218,27 +230,31 @@ Mailbox.org має функцію цифрової спадщини для вс�
 
 ### Tuta
 
-!!! рекомендації
+<div class="admonition recommendation" markdown>
 
-    ![Tuta logo](assets/img/email/tuta.svg){ align=right }
-    
-    **Tuta** is an email service with a focus on security and privacy through the use of encryption. Tuta has been in operation since **2011** and is based in Hanover, Germany. Облікові записи починаються з 1 ГБ пам'яті в безкоштовному тарифному плані.
-    
-    [:octicons-home-16: Homepage](https://tuta.com){ .md-button .md-button--primary }
-    [:octicons-eye-16:](https://tuta.com/privacy){ .card-link title="Privacy Policy" }
-    [:octicons-info-16:](https://tuta.com/faq){ .card-link title=Documentation}
-    [:octicons-code-16:](https://github.com/tutao/tutanota){ .card-link title="Source Code" }
-    [:octicons-heart-16:](https://tuta.com/community/){ .card-link title=Contribute }
-    
-    ??? downloads
-    
-        - [:simple-googleplay: Google Play](https://play.google.com/store/apps/details?id=de.tutao.tutanota)
-        - [:simple-appstore: App Store](https://apps.apple.com/app/tutanota/id922429609)
-        - [:simple-github: GitHub](https://github.com/tutao/tutanota/releases)
-        - [:simple-windows11: Windows](https://tuta.com/#download)
-        - [:simple-apple: macOS](https://tuta.com/#download)
-        - [:simple-linux: Linux](https://tuta.com/#download)
-        - [:octicons-browser-16: Web](https://app.tuta.com/)
+![Tuta logo](assets/img/email/tuta.svg){ align=right }
+
+**Tuta** is an email service with a focus on security and privacy through the use of encryption. Tuta has been in operation since **2011** and is based in Hanover, Germany. Облікові записи починаються з 1 ГБ пам'яті в безкоштовному тарифному плані.
+
+[:octicons-home-16: Homepage](https://tuta.com){ .md-button .md-button--primary }
+[:octicons-eye-16:](https://tuta.com/privacy){ .card-link title="Privacy Policy" }
+[:octicons-info-16:](https://tuta.com/faq){ .card-link title=Documentation}
+[:octicons-code-16:](https://github.com/tutao/tutanota){ .card-link title="Source Code" }
+[:octicons-heart-16:](https://tuta.com/community/){ .card-link title=Contribute }
+
+<details class="downloads" markdown><summary>Downloads</summary>
+
+- [:simple-googleplay: Google Play](https://play.google.com/store/apps/details?id=de.tutao.tutanota)
+- [:simple-appstore: App Store](https://apps.apple.com/app/tutanota/id922429609)
+- [:simple-github: GitHub](https://github.com/tutao/tutanota/releases)
+- [:simple-windows11: Windows](https://tuta.com/#download)
+- [:simple-apple: macOS](https://tuta.com/#download)
+- [:simple-linux: Linux](https://tuta.com/#download)
+- [:octicons-browser-16: Web](https://app.tuta.com/)
+
+</details>
+
+</div>
 
 Tuta doesn't support the [IMAP protocol](https://tuta.com/faq/#imap) or the use of third-party [email clients](email-clients.md), and you also won't be able to add [external email accounts](https://github.com/tutao/tutanota/issues/544#issuecomment-670473647) to the Tuta app. [Email import](https://github.com/tutao/tutanota/issues/630) is not currently supported either, though this is [due to be changed](https://tuta.com/blog/posts/kickoff-import). Emails can be exported [individually or by bulk selection](https://tuta.com/howto#generalMail) per folder, which may be inconvenient if you have many folders.
 
@@ -304,25 +320,29 @@ Tuta doesn't offer a digital legacy feature.
 
 ### addy.io
 
-!!! рекомендації
+<div class="admonition recommendation" markdown>
 
-    ![addy.io logo](assets/img/email/addy.svg#only-light){ align=right }
-    ![addy.io logo](assets/img/email/addy-dark.svg#only-dark){ align=right }
-    
-    **addy.io** lets you create 10 domain aliases on a shared domain for free, or unlimited "standard" aliases which are less anonymous.
-    
-    [:octicons-home-16: Homepage](https://addy.io){ .md-button .md-button--primary }
-    [:octicons-eye-16:](https://addy.io/privacy){ .card-link title="Privacy Policy" }
-    [:octicons-info-16:](https://app.addy.io/docs){ .card-link title=Documentation}
-    [:octicons-code-16:](https://github.com/anonaddy){ .card-link title="Source Code" }
-    [:octicons-heart-16:](https://addy.io/donate){ .card-link title=Contribute }
-    
-    ??? downloads
-    
-        - [:simple-android: Android](https://addy.io/faq/#is-there-an-android-app)
-        - [:material-apple-ios: iOS](https://addy.io/faq/#is-there-an-ios-app)
-        - [:simple-firefoxbrowser: Firefox](https://addons.mozilla.org/firefox/addon/addy_io/)
-        - [:simple-googlechrome: Chrome](https://chrome.google.com/webstore/detail/addyio-anonymous-email-fo/iadbdpnoknmbdeolbapdackdcogdmjpe)
+![addy.io logo](assets/img/email/addy.svg#only-light){ align=right }
+![addy.io logo](assets/img/email/addy-dark.svg#only-dark){ align=right }
+
+**addy.io** lets you create 10 domain aliases on a shared domain for free, or unlimited "standard" aliases which are less anonymous.
+
+[:octicons-home-16: Homepage](https://addy.io){ .md-button .md-button--primary }
+[:octicons-eye-16:](https://addy.io/privacy){ .card-link title="Privacy Policy" }
+[:octicons-info-16:](https://app.addy.io/docs){ .card-link title=Documentation}
+[:octicons-code-16:](https://github.com/anonaddy){ .card-link title="Source Code" }
+[:octicons-heart-16:](https://addy.io/donate){ .card-link title=Contribute }
+
+<details class="downloads" markdown><summary>Downloads</summary>
+
+- [:simple-android: Android](https://addy.io/faq/#is-there-an-android-app)
+- [:material-apple-ios: iOS](https://addy.io/faq/#is-there-an-ios-app)
+- [:simple-firefoxbrowser: Firefox](https://addons.mozilla.org/firefox/addon/addy_io/)
+- [:simple-googlechrome: Chrome](https://chrome.google.com/webstore/detail/addyio-anonymous-email-fo/iadbdpnoknmbdeolbapdackdcogdmjpe)
+
+</details>
+
+</div>
 
 The number of shared aliases (which end in a shared domain like @addy.io) that you can create is limited to 10 on addy.io's free plan, 50 on their $1/month plan and unlimited on the $4/month plan (billed $3 for a year). You can create unlimited standard aliases (which end in a domain like @[username].addy.io or a custom domain on paid plans), however, as previously mentioned, this can be detrimental to privacy because people can trivially tie your standard aliases together based on the domain name alone. They are useful where a shared domain might be blocked by a service. Securitum [audited](https://addy.io/blog/addy-io-passes-independent-security-audit/) addy.io in September 2023 and no significant vulnerabilities [were identified](https://addy.io/addy-io-security-audit.pdf).
 
@@ -336,26 +356,30 @@ The number of shared aliases (which end in a shared domain like @addy.io) that y
 
 ### SimpleLogin
 
-!!! рекомендації
+<div class="admonition recommendation" markdown>
 
-    ![Логотип Simplelogin](assets/img/email/simplelogin.svg){ align=right }
-    
-    **SimpleLogin — це безкоштовний сервіс, який надає аліаси для електронної пошти на низці загальних доменних імен, а також опціонально надає платні функції, такі як необмежена кількість псевдонімів та власні домени.
-    
-    [:octicons-home-16: Домашня сторінка](https://simplelogin.io){ .md-button .md-button--primary }
-    [:octicons-eye-16:](https://simplelogin.io/privacy/){ .card-link title="Політика конфіденційності" }
-    [:octicons-info-16:](https://simplelogin.io/docs/){ .card-link title=Документація}
-    [:octicons-code-16:](https://github.com/simple-login){ .card-link title="Вихідний код" }
-    
-    ??? downloads
-    
-        - [:simple-googleplay: Google Play](https://play.google.com/store/apps/details?id=io.simplelogin.android)
-        - [:simple-appstore: App Store](https://apps.apple.com/app/id1494359858)
-        - [:simple-github: GitHub](https://github.com/simple-login/Simple-Login-Android/releases)
-        - [:simple-firefoxbrowser: Firefox](https://addons.mozilla.org/firefox/addon/simplelogin/)
-        - [:simple-googlechrome: Chrome](https://chrome.google.com/webstore/detail/dphilobhebphkdjbpfohgikllaljmgbn)
-        - [:simple-microsoftedge: Edge](https://microsoftedge.microsoft.com/addons/detail/simpleloginreceive-sen/diacfpipniklenphgljfkmhinphjlfff)
-        - [:simple-safari: Safari](https://apps.apple.com/app/id1494051017)
+![Логотип Simplelogin](assets/img/email/simplelogin.svg){ align=right }
+
+**SimpleLogin — це безкоштовний сервіс, який надає аліаси для електронної пошти на низці загальних доменних імен, а також опціонально надає платні функції, такі як необмежена кількість псевдонімів та власні домени.
+
+[:octicons-home-16: Homepage](https://simplelogin.io){ .md-button .md-button--primary }
+[:octicons-eye-16:](https://simplelogin.io/privacy/){ .card-link title="Privacy Policy" }
+[:octicons-info-16:](https://simplelogin.io/docs/){ .card-link title=Documentation}
+[:octicons-code-16:](https://github.com/simple-login){ .card-link title="Source Code" }
+
+<details class="downloads" markdown><summary>Downloads</summary>
+
+- [:simple-googleplay: Google Play](https://play.google.com/store/apps/details?id=io.simplelogin.android)
+- [:simple-appstore: App Store](https://apps.apple.com/app/id1494359858)
+- [:simple-github: GitHub](https://github.com/simple-login/Simple-Login-Android/releases)
+- [:simple-firefoxbrowser: Firefox](https://addons.mozilla.org/firefox/addon/simplelogin/)
+- [:simple-googlechrome: Chrome](https://chrome.google.com/webstore/detail/dphilobhebphkdjbpfohgikllaljmgbn)
+- [:simple-microsoftedge: Edge](https://microsoftedge.microsoft.com/addons/detail/simpleloginreceive-sen/diacfpipniklenphgljfkmhinphjlfff)
+- [:simple-safari: Safari](https://apps.apple.com/app/id1494051017)
+
+</details>
+
+</div>
 
 SimpleLogin був [придбаний компанією Proton AG](https://proton.me/news/proton-and-simplelogin-join-forces) 8 квітня 2022 року. Якщо ви використовуєте Proton Mail як основну поштову скриньку, SimpleLogin — чудовий вибір. Оскільки обидва продукти тепер належать одній компанії, вам достатньо довіряти лише одному суб'єкту. Ми також очікуємо, що в майбутньому SimpleLogin буде більш тісно інтегрований з пропозиціями Proton. SimpleLogin продовжує підтримувати переадресацію до будь-якого провайдера електронної пошти на ваш вибір. Securitum [провела аудит](https://simplelogin.io/blog/security-audit/) SimpleLogin на початку 2022 року, і всі проблеми [були вирішені](https://simplelogin.io/audit2022/web.pdf).
 
@@ -373,26 +397,30 @@ SimpleLogin був [придбаний компанією Proton AG](https://pro
 
 ### Комбіновані програмні рішення
 
-!!! рекомендації
+<div class="admonition recommendation" markdown>
 
-    ![Логотип Mailcow](assets/img/email/mailcow.svg){ align=right }
-    
-    **Mailcow** — це більш просунутий поштовий сервер, який ідеально підходить для тих, хто має трохи більше досвіду роботи з Linux. У ньому є все необхідне в Docker-контейнері: Поштовий сервер з підтримкою DKIM, антивірус та спам-моніторинг, електронна пошта та ActiveSync з SOGo, а також веб-адміністрування з підтримкою 2FA.
-    
-    [:octicons-home-16: Домашня сторінка](https://mailcow.email){ .md-button .md-button--primary }
-    [:octicons-info-16:](https://mailcow.github.io/mailcow-dockerized-docs/){ .card-link title=Документація}
-    [:octicons-code-16:](https://github.com/mailcow/mailcow-dockerized){ .card-link title="Вихідний код" }
-    [:octicons-heart-16:](https://www.servercow.de/mailcow?lang=en#sal){ .card-link title=Зробити внесок}
+![Логотип Mailcow](assets/img/email/mailcow.svg){ align=right }
 
-!!! рекомендації
+**Mailcow** — це більш просунутий поштовий сервер, який ідеально підходить для тих, хто має трохи більше досвіду роботи з Linux. У ньому є все необхідне в Docker-контейнері: Поштовий сервер з підтримкою DKIM, антивірус та спам-моніторинг, електронна пошта та ActiveSync з SOGo, а також веб-адміністрування з підтримкою 2FA.
 
-    ![Логотип Mail-in-a-Box](assets/img/email/mail-in-a-box.svg){ align=right }
-    
-    **Mail-in-a-Box** — це автоматизований скрипт для розгортання поштового сервера на Ubuntu. Його мета — полегшити людям створення власного поштового сервера.
-    
-    [:octicons-home-16: Домашня сторінка](https://mailinabox.email){ .md-button .md-button--primary }
-    [:octicons-info-16:](https://mailinabox.email/guide.html){ .card-link title=Документація}
-    [:octicons-code-16:](https://github.com/mail-in-a-box/mailinabox){ .card-link title="Вихідний код" }
+[:octicons-home-16: Домашня сторінка](https://mailcow.email){ .md-button .md-button--primary }
+[:octicons-info-16:](https://mailcow.github.io/mailcow-dockerized-docs/){ .card-link title=Документація}
+[:octicons-code-16:](https://github.com/mailcow/mailcow-dockerized){ .card-link title="Вихідний код" }
+[:octicons-heart-16:](https://www.servercow.de/mailcow?lang=en#sal){ .card-link title=Зробити внесок}
+
+</div>
+
+<div class="admonition recommendation" markdown>
+
+![Логотип Mail-in-a-Box](assets/img/email/mail-in-a-box.svg){ align=right }
+
+**Mail-in-a-Box** — це автоматизований скрипт для розгортання поштового сервера на Ubuntu. Його мета — полегшити людям створення власного поштового сервера.
+
+[:octicons-home-16: Домашня сторінка](https://mailinabox.email){ .md-button .md-button--primary }
+[:octicons-info-16:](https://mailinabox.email/guide.html){ .card-link title=Документація}
+[:octicons-code-16:](https://github.com/mail-in-a-box/mailinabox){ .card-link title="Вихідний код" }
+
+</div>
 
 Для більш ручного підходу ми вибрали ці дві статті:
 
