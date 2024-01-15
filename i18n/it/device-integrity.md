@@ -36,25 +36,25 @@ Gli strumenti su questa pagina possono esclusivamente rilevare gli indicatori di
 
 - Considerare la completa sostituzione del dispositivo
 - Considerare di cambiare il tuo numero SIM/eSIM
-- Not restore from a backup, because that backup may be compromised
+- Non ripristinare da un backup, poiché, questo, potrebbe essere compromesso
 
-These tools provide analysis based on the information they have the ability to access from your device, and publicly-accessible indicators of compromise. It is important to keep in mind two things:
+Questi strumenti forniscono analisi basate sulle informazioni a cui possono accedere dal tuo dispositivo e sugli indicatori di compromissione accessibili pubblicamente. È importante tenere a mente due cose:
 
-1. Indicators of compromise are just that: _indicators_. They are not a definitive finding, and may occasionally be **false positives**. If an indicator of compromise is detected, it means you should do additional research into the _potential_ threat.
-2. The indicators of compromise these tools look for are published by threat research organizations, but not all indicators are made available to the public! This means that these tools can present a **false negative**, if your device is infected with spyware which is not detected by any of the public indicators. Reliable and comprehensive digital forensic support and triage requires access to non-public indicators, research and threat intelligence.
+1. Gli indicatori di compromissione sono semplicemente _indicatori_. Non sono un risultato definitivo e potrebbero occasionalmente rappresentare dei **falsi positivi**. Se viene rilevato un indicatore di compromissione, significa che dovresti svolgere ulteriori ricerche sulla minaccia _potenziale_.
+2. Gli indicatori di compromissione cercati da questi strumenti, sono pubblicati dalle organizzazioni di ricerca sulle minacce, ma non tutti gli indicatori sono resi disponibili al pubblico! Ciò significa che questi strumenti possono generare un **falso negativo**, se il tuo dispositivo è infettato da spyware non rilevati da alcun indicatore pubblico. Un supporto e triage forense digitale affidabile e completo, richiedono l'accesso a indicatori, ricerca e informazioni sulle minacce non pubblici.
 
-## External Verification Tools
+## Strumenti di verifica esterni
 
-External verification tools run on your computer and scan your mobile device for forensic traces which are helpful to identify potential compromise.
+Gli strumenti di verifica esterni operano sul tuo computer, scansionando il tuo dispositivo mobile, in cerca di tracce forensi che siano utili a identificare le potenziali compromissioni.
 
 <div class="admonition danger" markdown>
-<p class="admonition-title">Danger</p>
+<p class="admonition-title">Danger "Attenzione"</p>
 
-Public indicators of compromise are insufficient to determine that a device is "clean", and not targeted with a particular spyware tool. Reliance on public indicators alone can miss recent forensic traces and give a false sense of security.
+Gli indicatori pubblici di compromissione non sono sufficienti a determinare che un dispositivo sia "pulito" e non sia stato preso di mira da un particolare strumento spyware. Affidarsi ai soli indicatori pubblici può far perdere tracce forensi recenti e dare un falso senso di sicurezza.
 
-Reliable and comprehensive digital forensic support and triage requires access to non-public indicators, research and threat intelligence.
+Un supporto e triage forense digitale affidabile e completo, richiedono l'accesso a indicatori, ricerca e informazioni sulle minacce non pubblici.
 
-Such support is available to civil society through [Amnesty International's Security Lab](https://www.amnesty.org/en/tech/) or [Access Now’s Digital Security Helpline](https://www.accessnow.org/help/).
+Tale supporto è disponibile per società civili attraverso il [Security Lab di Amnesty International] (https\://www\.amnesty.org/en/tech/) o la [Digital Security Helpline di Access Now] (https\://www\.accessnow\.org/help/).
 
 </div>
 
@@ -64,15 +64,15 @@ Questi strumenti possono causare dei falsi positivi. Se uno di questi strumenti 
 
 <div class="admonition recommendation" markdown>
 
-![MVT logo](assets/img/device-integrity/mvt.webp){ align=right }
+![Logo MVT](assets/img/device-integrity/mvt.webp){ align=right }
 
-**Mobile Verification Toolkit** (**MVT**) is a collection of utilities which simplifies and automates the process of scanning mobile devices for potential traces of targeting or infection by known spyware campaigns. MVT was developed by Amnesty International and released in 2021 in the context of the [Pegasus Project](https://forbiddenstories.org/about-the-pegasus-project/).
+Il **Mobile Verification Toolkit** (**MVT**) è una raccolta di utility che semplifica e automatizza il processo di scansione dei dispositivi mobile alla ricerca di potenziali tracce di bersaglio o di infezione da parte di campagne spyware note. MVT è stato sviluppato da Amnesty International e rilasciato nel 2021 nel contesto del [Progetto Pegasus](https://forbiddenstories.org/about-the-pegasus-project/).
 
 [:octicons-home-16: Homepage](https://mvt.re/){ .md-button .md-button--primary }
-[:octicons-code-16:](https://github.com/mvt-project/mvt){ .card-link title="Source Code" }
+[:octicons-code-16:](https://github.com/mvt-project/mvt){ .card-link title="Codice Sorgente" }
 
 <details class="downloads" markdown>
-<summary>Downloads</summary>
+<summary>Download</summary>
 
 - [:simple-apple: macOS](https://docs.mvt.re/en/latest/install/)
 - [:simple-linux: Linux](https://docs.mvt.re/en/latest/install/)
@@ -82,7 +82,7 @@ Questi strumenti possono causare dei falsi positivi. Se uno di questi strumenti 
 </div>
 
 <div class="admonition warning" markdown>
-<p class="admonition-title">Warning</p>
+<p class="admonition-title">Warning "Avviso"</p>
 
 Utilizzare MVT non è sufficiente per determinare che un dispositivo sia "pulito" e non preso di mira da uno strumento spyware in particolare.
 
@@ -106,16 +106,16 @@ MVT ti consente di eseguire scansioni/analisi più approfondite, se il tuo dispo
 
 <div class="admonition recommendation" markdown>
 
-![iMazing logo](assets/img/device-integrity/imazing.png){ align=right }
+![logo iMazing](assets/img/device-integrity/imazing.png){ align=right }
 
-**iMazing** provides a free spyware analyzer tool for iOS devices which acts as a GUI-wrapper for [MVT](#mobile-verification-toolkit). This can be much easier to run compared to MVT itself, which is a command-line tool designed for technologists and forensic investigators.
+**iMazing** fornisce uno strumento di analisi spyware gratuito per dispositivi iOS che funge da interfaccia grafica per [MVT](#mobile-verification-toolkit). Questo può essere molto più semplice da eseguire rispetto allo stesso MVT, che è uno strumento a riga di comando progettato per tecnologi e investigatori forensi.
 
 [:octicons-home-16: Homepage](https://imazing.com/){ .md-button .md-button--primary }
-[:octicons-eye-16:](https://imazing.com/privacy-policy){ .card-link title="Privacy Policy" }
-[:octicons-info-16:](https://imazing.com/spyware-analyzer){ .card-link title=Documentation}
+[:octicons-eye-16:](https://imazing.com/privacy-policy){ .card-link title="Informativa sulla Privacy" }
+[:octicons-info-16:](https://imazing.com/spyware-analyzer){ .card-link title=Documentazione}
 
 <details class="downloads" markdown>
-<summary>Downloads</summary>
+<summary>Download</summary>
 
 - [:simple-windows11: Windows](https://imazing.com/download)
 - [:simple-apple: macOS](https://imazing.com/download)
@@ -131,7 +131,7 @@ iMazing automatizza e ti guida interattivamente al procedimento di utilizzo di [
 Si tratta di app installabili che controllano il tuo dispositivo e il sistema operativo, in cerca di segni di manomissione, convalidandone l'identità.
 
 <div class="admonition warning" markdown>
-<p class="admonition-title">Warning</p>
+<p class="admonition-title">Warning "Avviso"</p>
 
 L'utilizzo di queste app non è sufficiente per determinarre che un dispositivo sia "pulito" e non preso di mira da uno strumento spyware in particolare.
 
@@ -141,19 +141,19 @@ L'utilizzo di queste app non è sufficiente per determinarre che un dispositivo 
 
 <div class="admonition recommendation" markdown>
 
-![Auditor logo](assets/img/device-integrity/auditor.svg#only-light){ align=right }
-![Auditor logo](assets/img/device-integrity/auditor-dark.svg#only-dark){ align=right }
+![Logo Auditor](assets/img/device-integrity/auditor.svg#only-light){ align=right }
+![Logo Auditor](assets/img/device-integrity/auditor-dark.svg#only-dark){ align=right }
 
-**Auditor** is an app which leverages hardware security features to provide device integrity monitoring by actively validating the identity of a device and the integrity of its operating system. Currently, it only works with GrapheneOS or the stock operating system for [supported devices](https://attestation.app/about#device-support).
+**Auditor** è un'applicazione che sfrutta le caratteristiche di sicurezza hardware per fornire un monitoraggio dell'integrità del dispositivo, convalidando attivamente l'identità di un dispositivo e l'integrità del suo sistema operativo. Al momento, funziona soltanto con GrapheneOS o con il sistema operativo di fabbrica per i [dispositivi supportati](https://attestation.app/about#device-support).
 
 [:octicons-home-16: Homepage](https://attestation.app){ .md-button .md-button--primary }
-[:octicons-eye-16:](https://attestation.app/privacy-policy){ .card-link title="Privacy Policy" }
-[:octicons-info-16:](https://attestation.app/about){ .card-link title=Documentation}
-[:octicons-code-16:](https://attestation.app/source){ .card-link title="Source Code" }
-[:octicons-heart-16:](https://attestation.app/donate){ .card-link title=Contribute }
+[:octicons-eye-16:](https://attestation.app/privacy-policy){ .card-link title="Informativa sulla Privacy" }
+[:octicons-info-16:](https://attestation.app/about){ .card-link title=Documentazione}
+[:octicons-code-16:](https://attestation.app/source){ .card-link title="Codice Sorgente" }
+[:octicons-heart-16:](https://attestation.app/donate){ .card-link title=Contribuisci }
 
 <details class="downloads" markdown>
-<summary>Downloads</summary>
+<summary>Download</summary>
 
 - [:simple-googleplay: Google Play](https://play.google.com/store/apps/details?id=app.attestation.auditor.play)
 - [:simple-github: GitHub](https://github.com/GrapheneOS/Auditor/releases)
@@ -184,7 +184,7 @@ Se il tuo [modello di minaccia](basics/threat-modeling.md) richiede la privacy, 
 Si tratta di app che puoi installare sul tuo dispositivo, che lo scansionano in cerca di segni di compromissione.
 
 <div class="admonition warning" markdown>
-<p class="admonition-title">Warning</p>
+<p class="admonition-title">Warning "Avviso"</p>
 
 L'utilizzo di queste app non è sufficiente per determinare che un dispositivo sia "pulito" e non preso di mira da uno strumento spyware in particolare.
 
@@ -194,18 +194,18 @@ L'utilizzo di queste app non è sufficiente per determinare che un dispositivo s
 
 <div class="admonition recommendation" markdown>
 
-![Hypatia logo](assets/img/device-integrity/hypatia.svg#only-light){ align=right }
-![Hypatia logo](assets/img/device-integrity/hypatia-dark.svg#only-dark){ align=right }
+![Logo Hypatia](assets/img/device-integrity/hypatia.svg#only-light){ align=right }
+![Logo Hypatia](assets/img/device-integrity/hypatia-dark.svg#only-dark){ align=right }
 
-**Hypatia** is an open source real-time malware scanner for Android, from the developer of [DivestOS](android.md#divestos). It accesses the internet to download signature database updates, but does not upload your files or any metadata to the cloud (scans are performed entirely locally).
+**Hypatia** è uno scanner di malware real-time open source per Android, realizzato dallo sviluppatore di [DivestOS](android.md#divestos). Accede a Internet per scaricare gli aggiornamenti del database delle firme, ma non carica i file o i metadati nel cloud (le scansioni vengono eseguite interamente in locale).
 
 [:octicons-home-16: Homepage](https://divestos.org/pages/our_apps#hypatia){ .md-button .md-button--primary }
-[:octicons-eye-16:](https://divestos.org/pages/privacy_policy#hypatia){ .card-link title="Privacy Policy" }
-[:octicons-code-16:](https://github.com/divested-mobile/hypatia){ .card-link title="Source Code" }
-[:octicons-heart-16:](https://divested.dev/pages/donate){ .card-link title=Contribute }
+[:octicons-eye-16:](https://divestos.org/pages/privacy_policy#hypatia){ .card-link title="Informativa sulla Privacy" }
+[:octicons-code-16:](https://github.com/divested-mobile/hypatia){ .card-link title="Codice Sorgente" }
+[:octicons-heart-16:](https://divested.dev/pages/donate){ .card-link title=Contribuisci }
 
 <details class="downloads" markdown>
-<summary>Downloads</summary>
+<summary>Download</summary>
 
 - [:simple-android: F-Droid](https://f-droid.org/packages/us.spotco.malwarescanner/)
 
@@ -219,16 +219,16 @@ Hypatia è particolarmente abile nel rilevare gli stalkerware più comuni: se so
 
 <div class="admonition recommendation" markdown>
 
-![iVerify logo](assets/img/device-integrity/iverify.webp){ align=right }
+![Logo iVerify](assets/img/device-integrity/iverify.webp){ align=right }
 
-**iVerify** is an iOS app which automatically scans your device to check configuration settings, patch level, and other areas of security. It also checks your device for indicators of compromise by jailbreak tools or spyware such as Pegasus.
+**iVerify** è un'applicazione per iOS che esegue una scansione automatica del dispositivo per verificare le impostazioni di configurazione, il livello delle patch e altre aree di sicurezza. Inoltre, controlla il dispositivo alla ricerca di indicatori di compromissione da parte di strumenti di jailbreak o spyware come Pegasus.
 
 [:octicons-home-16: Homepage](https://www.iverify.io/consumer){ .md-button .md-button--primary }
-[:octicons-eye-16:](https://www.iverify.io/privacy-policy){ .card-link title="Privacy Policy" }
-[:octicons-info-16:](https://www.iverify.io/frequently-asked-questions#iVerify-General){ .card-link title=Documentation}
+[:octicons-eye-16:](https://www.iverify.io/privacy-policy){ .card-link title="Informativa sulla Privacy" }
+[:octicons-info-16:](https://www.iverify.io/frequently-asked-questions#iVerify-General){ .card-link title=Documentazione}
 
 <details class="downloads" markdown>
-<summary>Downloads</summary>
+<summary>Download</summary>
 
 - [:simple-appstore: App Store](https://apps.apple.com/us/app/iverify/id1466120520)
 
