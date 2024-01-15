@@ -29,11 +29,14 @@ Ces fournisseurs prennent en charge nativement le chiffrement/déchiffrement Ope
 
 </div>
 
-!!! warning "Avertissement"
+<div class="admonition warning" markdown>
+<p class="admonition-title">Avertissement</p>
 
-    Lors de l'utilisation d'une technologie E2EE telle que OpenPGP, votre e-mail contiendra toujours certaines métadonnées non chiffrées dans l'en-tête, y compris généralement la ligne d'objet ! Read more about [email metadata](basics/email-security.md#email-metadata-overview).
-    
-    OpenPGP also does not support Forward secrecy, which means if either your or the recipient's private key is ever stolen, all previous messages encrypted with it will be exposed. [How do I protect my private keys?](basics/email-security.md#how-do-i-protect-my-private-keys)
+Lors de l'utilisation d'une technologie E2EE telle que OpenPGP, votre e-mail contiendra toujours certaines métadonnées non chiffrées dans l'en-tête, y compris généralement la ligne d'objet ! En savoir plus sur les [métadonnées des e-mails](basics/email-security.md#email-metadata-overview).
+
+OpenPGP ne prend pas non plus en charge la confidentialité persistante, ce qui signifie que si votre clé privée ou celle du destinataire est volée, tous les messages précédents chiffrés avec elle seront exposés. [Comment protéger mes clés privées ?](basics/email-security.md#how-do-i-protect-my-private-keys)
+
+</div>
 
 ### Proton Mail
 
@@ -43,13 +46,14 @@ Ces fournisseurs prennent en charge nativement le chiffrement/déchiffrement Ope
 
 **Proton Mail** est un service d'e-mail qui met l'accent sur la confidentialité, le chiffrement, la sécurité et la facilité d'utilisation. Il est en activité depuis **2013**. Proton AG a son siège à Genève, en Suisse. Les comptes commencent avec 500 Mo de stockage avec leur offre gratuite.
 
-[:octicons-home-16: Homepage](https://proton.me/mail){ .md-button .md-button--primary }
-[:simple-torbrowser:](https://protonmailrmez3lotccipshtkleegetolb73fuirgj7r4o4vfu7ozyd.onion){ .card-link title="Onion Service" }
-[:octicons-eye-16:](https://proton.me/legal/privacy){ .card-link title="Privacy Policy" }
+[:octicons-home-16: Page d'accueil](https://proton.me/mail){ .md-button .md-button--primary }
+[:simple-torbrowser:](https://protonmailrmez3lotccipshtkleegetolb73fuirgj7r4o4vfu7ozyd.onion){ .card-link title="Service onion" }
+[:octicons-eye-16:](https://proton.me/legal/privacy){ .card-link title="Politique de confidentialité" }
 [:octicons-info-16:](https://proton.me/support/mail){ .card-link title=Documentation}
-[:octicons-code-16:](https://github.com/ProtonMail){ .card-link title="Source Code" }
+[:octicons-code-16:](https://github.com/ProtonMail){ .card-link title="Code source" }
 
-<details class="downloads" markdown><summary>Downloads</summary>
+<details class="downloads" markdown>
+<summary>Téléchargements</summary>
 
 - [:simple-googleplay: Google Play](https://play.google.com/store/apps/details?id=ch.protonmail.android)
 - [:simple-appstore: App Store](https://apps.apple.com/app/apple-store/id979659905)
@@ -111,12 +115,13 @@ Proton Mail ne propose pas de fonction d'héritage numérique.
 
 **Skiff Mail** est un service d'e-mail web avec E2EE qui a vu le jour en 2020. Il est basé à San Francisco avec des développeurs dans le monde entier. Les comptes commencent avec 10 Go de stockage gratuit.
 
-[:octicons-home-16: Homepage](https://skiff.com/mail){ .md-button .md-button--primary }
-[:octicons-eye-16:](https://app.skiff.com/docs/db93c237-84c2-4b2b-9588-19a7cd2cd45a#tyGksN9rkqbo2uGYASxsA6HVLjUoly/wTYK8tncTto8=){ .card-link title="Privacy Policy" }
+[:octicons-home-16: Page d'accueil](https://skiff.com/mail){ .md-button .md-button--primary }
+[:octicons-eye-16:](https://app.skiff.com/docs/db93c237-84c2-4b2b-9588-19a7cd2cd45a#tyGksN9rkqbo2uGYASxsA6HVLjUoly/wTYK8tncTto8=){ .card-link title="Politique de confidentialité" }
 [:octicons-info-16:](https://skiff.com/help){ .card-link title=Documentation}
-[:octicons-code-16:](https://github.com/skiff-org/skiff-apps){ .card-link title="Source Code" }
+[:octicons-code-16:](https://github.com/skiff-org/skiff-apps){ .card-link title="Code source" }
 
-<details class="downloads" markdown><summary>Downloads</summary>
+<details class="downloads" markdown>
+<summary>Downloads</summary>
 
 - [:simple-android: Android](https://play.google.com/store/apps/details?id=com.skemailmobileapp&pli=1)
 - [:simple-appstore: iOS](https://apps.apple.com/us/app/skiff-mail/id1619168801)
@@ -170,11 +175,12 @@ Skiff Mail ne propose pas de fonction d'héritage numérique.
 
 **Mailbox.org** est un service d'e-mail qui se veut sécurisé, sans publicité et alimenté par une énergie 100% écologique. Il est en activité depuis 2014. Mailbox.org est basé à Berlin, en Allemagne. Les comptes commencent avec 2 Go de stockage, qui peuvent être mis à niveau si nécessaire.
 
-[:octicons-home-16: Homepage](https://mailbox.org){ .md-button .md-button--primary }
-[:octicons-eye-16:](https://mailbox.org/en/data-protection-privacy-policy){ .card-link title="Privacy Policy" }
+[:octicons-home-16: Page d'accueil](https://mailbox.org){ .md-button .md-button--primary }
+[:octicons-eye-16:](https://mailbox.org/en/data-protection-privacy-policy){ .card-link title="Politique de confidentialité" }
 [:octicons-info-16:](https://kb.mailbox.org/en/private){ .card-link title=Documentation}
 
-<details class="downloads" markdown><summary>Downloads</summary>
+<details class="downloads" markdown>
+<summary>Téléchargements</summary>
 
 - [:octicons-browser-16: Web](https://login.mailbox.org)
 
@@ -224,7 +230,7 @@ Ces fournisseurs stockent vos e-mails avec un chiffrement à connaissance zéro,
 
 <div class="grid cards" markdown>
 
-- ![Tuta logo](assets/img/email/tuta.svg){ .twemoji } [Tuta](email.md#tuta)
+- ![Logo Tuta](assets/img/email/tuta.svg){ .twemoji } [Tuta](email.md#tuta)
 
 </div>
 
@@ -236,13 +242,14 @@ Ces fournisseurs stockent vos e-mails avec un chiffrement à connaissance zéro,
 
 **Tuta** est un service d'e-mail qui met l'accent sur la sécurité et la confidentialité grâce à l'utilisation du chiffrement. Tuta est en activité depuis **2011** et est basée à Hanovre, en Allemagne. Les comptes commencent avec 1 Go de stockage avec leur offre gratuite.
 
-[:octicons-home-16: Homepage](https://tuta.com){ .md-button .md-button--primary }
-[:octicons-eye-16:](https://tuta.com/privacy){ .card-link title="Privacy Policy" }
+[:octicons-home-16: Page d'accueil](https://tuta.com){ .md-button .md-button--primary }
+[:octicons-eye-16:](https://tuta.com/privacy){ .card-link title="Politique de confidentialité" }
 [:octicons-info-16:](https://tuta.com/faq){ .card-link title=Documentation}
-[:octicons-code-16:](https://github.com/tutao/tutanota){ .card-link title="Source Code" }
-[:octicons-heart-16:](https://tuta.com/community/){ .card-link title=Contribute }
+[:octicons-code-16:](https://github.com/tutao/tutanota){ .card-link title="Code source" }
+[:octicons-heart-16:](https://tuta.com/community/){ .card-link title=Contribuer }
 
-<details class="downloads" markdown><summary>Downloads</summary>
+<details class="downloads" markdown>
+<summary>Downloads</summary>
 
 - [:simple-googleplay: Google Play](https://play.google.com/store/apps/details?id=de.tutao.tutanota)
 - [:simple-appstore: App Store](https://apps.apple.com/app/tutanota/id922429609)
@@ -327,13 +334,14 @@ L'utilisation d'un service d'alias nécessite de faire confiance à la fois à v
 
 **addy.io** vous permet de créer gratuitement 10 alias de domaine sur un domaine partagé, ou un nombre illimité d'alias "standard" qui sont moins anonymes.
 
-[:octicons-home-16: Homepage](https://addy.io){ .md-button .md-button--primary }
-[:octicons-eye-16:](https://addy.io/privacy){ .card-link title="Privacy Policy" }
+[:octicons-home-16: Page d'accueil](https://addy.io){ .md-button .md-button--primary }
+[:octicons-eye-16:](https://addy.io/privacy){ .card-link title="Politique de confidentialité" }
 [:octicons-info-16:](https://app.addy.io/docs){ .card-link title=Documentation}
-[:octicons-code-16:](https://github.com/anonaddy){ .card-link title="Source Code" }
-[:octicons-heart-16:](https://addy.io/donate){ .card-link title=Contribute }
+[:octicons-code-16:](https://github.com/anonaddy){ .card-link title="Code source" }
+[:octicons-heart-16:](https://addy.io/donate){ .card-link title=Contribuer }
 
-<details class="downloads" markdown><summary>Downloads</summary>
+<details class="downloads" markdown>
+<summary>Downloads</summary>
 
 - [:simple-android: Android](https://addy.io/faq/#is-there-an-android-app)
 - [:material-apple-ios: iOS](https://addy.io/faq/#is-there-an-ios-app)
@@ -362,12 +370,13 @@ Fonctions gratuites notables :
 
 **SimpleLogin** est un service gratuit qui fournit des alias d'e-mail sur une variété de noms de domaine partagés, et offre en option des fonctionnalités payantes comme des alias illimités et des domaines personnalisés.
 
-[:octicons-home-16: Homepage](https://simplelogin.io){ .md-button .md-button--primary }
-[:octicons-eye-16:](https://simplelogin.io/privacy/){ .card-link title="Privacy Policy" }
+[:octicons-home-16: Page d'accueil](https://simplelogin.io/fr/){ .md-button .md-button--primary }
+[:octicons-eye-16:](https://simplelogin.io/privacy/){ .card-link title="Politique de confidentialité" }
 [:octicons-info-16:](https://simplelogin.io/docs/){ .card-link title=Documentation}
-[:octicons-code-16:](https://github.com/simple-login){ .card-link title="Source Code" }
+[:octicons-code-16:](https://github.com/simple-login){ .card-link title="Code source" }
 
-<details class="downloads" markdown><summary>Downloads</summary>
+<details class="downloads" markdown>
+<summary>Downloads</summary>
 
 - [:simple-googleplay: Google Play](https://play.google.com/store/apps/details?id=io.simplelogin.android)
 - [:simple-appstore: App Store](https://apps.apple.com/app/id1494359858)

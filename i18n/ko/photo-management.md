@@ -9,9 +9,8 @@ Most cloud photo management solutions like Google Photos, Flickr, and Amazon Pho
 
 ## ente
 
-!!! recommendation
+<div class="admonition recommendation" markdown>
 
-```
 ![ente logo](assets/img/photo-management/ente.svg#only-light){ align=right }
 ![ente logo](assets/img/photo-management/ente-dark.svg#only-dark){ align=right }
 
@@ -22,23 +21,26 @@ Most cloud photo management solutions like Google Photos, Flickr, and Amazon Pho
 [:octicons-info-16:](https://ente.io/faq){ .card-link title=Documentation}
 [:octicons-code-16:](https://github.com/ente-io){ .card-link title="Source Code" }
 
-??? downloads
+<details class="downloads" markdown>
+<summary>Downloads</summary>
 
-    - [:simple-googleplay: Google Play](https://play.google.com/store/apps/details?id=io.ente.photos)
-    - [:simple-android: Android](https://ente.io/download)
-    - [:simple-appstore: App Store](https://apps.apple.com/app/id1542026904)
-    - [:simple-github: GitHub](https://github.com/ente-io/photos-app/releases)
-    - [:simple-windows11: Windows](https://ente.io/download)
-    - [:simple-apple: macOS](https://ente.io/download)
-    - [:simple-linux: Linux](https://ente.io/download)
-    - [:octicons-globe-16: Web](https://web.ente.io)
-```
+- [:simple-googleplay: Google Play](https://play.google.com/store/apps/details?id=io.ente.photos)
+- [:simple-android: Android](https://ente.io/download)
+- [:simple-appstore: App Store](https://apps.apple.com/app/id1542026904)
+- [:simple-github: GitHub](https://github.com/ente-io/photos-app/releases)
+- [:simple-windows11: Windows](https://ente.io/download)
+- [:simple-apple: macOS](https://ente.io/download)
+- [:simple-linux: Linux](https://ente.io/download)
+- [:octicons-globe-16: Web](https://web.ente.io)
+
+</details>
+
+</div>
 
 ## Stingle
 
-!!! recommendation
+<div class="admonition recommendation" markdown>
 
-```
 ![Stingle logo](assets/img/photo-management/stingle.png#only-light){ align=right }
 ![Stingle logo](assets/img/photo-management/stingle-dark.png#only-dark){ align=right }
 
@@ -49,19 +51,22 @@ Most cloud photo management solutions like Google Photos, Flickr, and Amazon Pho
 [:octicons-info-16:](https://stingle.org/faq/){ .card-link title=Documentation}
 [:octicons-code-16:](https://github.com/stingle){ .card-link title="Source Code" }
 
-??? downloads
+<details class="downloads" markdown>
+<summary>Downloads</summary>
 
-    - [:simple-googleplay: Google Play](https://play.google.com/store/apps/details?id=io.ente.photos)
-    - [:simple-android: Android](https://play.google.com/store/apps/details?id=org.stingle.photos)
-    - [:simple-appstore: App Store](https://apps.apple.com/in/app/stingle-photos/id1582535448)
-    - [:simple-github: GitHub](https://github.com/stingle)
-```
+- [:simple-googleplay: Google Play](https://play.google.com/store/apps/details?id=io.ente.photos)
+- [:simple-android: Android](https://play.google.com/store/apps/details?id=org.stingle.photos)
+- [:simple-appstore: App Store](https://apps.apple.com/in/app/stingle-photos/id1582535448)
+- [:simple-github: GitHub](https://github.com/stingle)
+
+</details>
+
+</div>
 
 ## PhotoPrism
 
-!!! recommendation
+<div class="admonition recommendation" markdown>
 
-```
 ![PhotoPrism logo](assets/img/photo-management/photoprism.svg){ align=right }
 
 **PhotoPrism** is a self-hostable platform for managing photos. It supports album syncing and sharing as well as a variety of other [features](https://www.photoprism.app/features). It does not include E2EE, so it's best hosted on a server that you trust and is under your control.
@@ -71,20 +76,25 @@ Most cloud photo management solutions like Google Photos, Flickr, and Amazon Pho
 [:octicons-info-16:](https://www.photoprism.app/kb){ .card-link title=Documentation}
 [:octicons-code-16:](https://github.com/photoprism){ .card-link title="Source Code" }
 
-??? downloads
+<details class="downloads" markdown>
+<summary>Downloads</summary>
 
-    - [:simple-github: GitHub](https://github.com/photoprism)
-```
+- [:simple-github: GitHub](https://github.com/photoprism)
+
+</details>
+
+</div>
 
 ## 평가 기준
 
 **Please note we are not affiliated with any of the projects we recommend.** In addition to [our standard criteria](about/criteria.md), we have developed a clear set of requirements to allow us to provide objective recommendations. 어떠한 프로젝트를 선택해 사용하기 전에, 이러한 요구 사항들을 숙지하고 여러분 스스로 조사하는 과정을 거쳐 적절한 선택을 하시기 바랍니다.
 
-!!! example "이 단락은 최근에 만들어졌습니다"
+<div class="admonition example" markdown>
+<p class="admonition-title">This section is new</p>
 
-```
-We are working on establishing defined criteria for every section of our site, and this may be subject to change. If you have any questions about our criteria, please [ask on our forum](https://discuss.privacyguides.net/latest) and don't assume we didn't consider something when making our recommendations if it is not listed here. There are many factors considered and discussed when we recommend a project, and documenting every single one is a work-in-progress.
-```
+Privacy Guides 팀은 사이트의 모든 항목마다 명확한 평가 기준을 정립하는 중이며, 따라서 세부 내용은 변경될 수 있습니다. 평가 기준에 대해서 질문이 있다면 [포럼에서 문의](https://discuss.privacyguides.net/latest)하시기 바랍니다. (무언가가 목록에 존재하지 않다고 해서 권장 목록을 작성할 때 고려한 적이 없을 것으로 단정 짓지 마세요.) 권장 목록에 어떤 프로젝트를 추가할 때 고려하고 논의해야 할 요소는 매우 많으며, 모든 요소를 문서화하는 것은 현재 진행 중인 작업입니다.
+
+</div>
 
 ### 최소 요구 사항
 

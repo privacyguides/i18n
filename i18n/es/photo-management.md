@@ -9,82 +9,92 @@ La mayoría de las soluciones de gestión de fotos en la nube, como Google Photo
 
 ## ente
 
-!!! recommendation "Recomendación"
+<div class="admonition recommendation" markdown>
 
-```
 ![ente logo](assets/img/photo-management/ente.svg#only-light){ align=right }
 ![ente logo](assets/img/photo-management/ente-dark.svg#only-dark){ align=right }
 
-**ente** es un servicio de copia de seguridad de fotos cifrado de extremo a extremo que permite realizar copias de seguridad automáticas en iOS y Android. Se sometió a una [auditoría por parte de Cure53](https://ente.io/blog/cryptography-audit/) en marzo de 2023.
+**ente** is an end-to-end encrypted photo backup service which supports automatic backups on iOS and Android. It underwent an [audit by Cure53](https://ente.io/blog/cryptography-audit/) in March 2023.
 
-[:octicons-home-16: Página Principal](https://ente.io/){ .md-button .md-button--primary }
-[:octicons-eye-16:](https://ente.io/privacy){ .card-link title="Política de Privacidad" }
-[:octicons-info-16:](https://ente.io/faq){ .card-link title=Documentación}
-[:octicons-code-16:](https://github.com/ente-io){ .card-link title="Código Fuente" }
+[:octicons-home-16: Homepage](https://ente.io/){ .md-button .md-button--primary }
+[:octicons-eye-16:](https://ente.io/privacy){ .card-link title="Privacy Policy" }
+[:octicons-info-16:](https://ente.io/faq){ .card-link title=Documentation}
+[:octicons-code-16:](https://github.com/ente-io){ .card-link title="Source Code" }
 
-??? downloads "Descargas"
+<details class="downloads" markdown>
+<summary>Downloads</summary>
 
-    - [:simple-googleplay: Google Play](https://play.google.com/store/apps/details?id=io.ente.photos)
-    - [:simple-android: Android](https://ente.io/download)
-    - [:simple-appstore: App Store](https://apps.apple.com/app/id1542026904)
-    - [:simple-github: GitHub](https://github.com/ente-io/photos-app/releases)
-    - [:simple-windows11: Windows](https://ente.io/download)
-    - [:simple-apple: macOS](https://ente.io/download)
-    - [:simple-linux: Linux](https://ente.io/download)
-    - [:octicons-globe-16: Web](https://web.ente.io)
-```
+- [:simple-googleplay: Google Play](https://play.google.com/store/apps/details?id=io.ente.photos)
+- [:simple-android: Android](https://ente.io/download)
+- [:simple-appstore: App Store](https://apps.apple.com/app/id1542026904)
+- [:simple-github: GitHub](https://github.com/ente-io/photos-app/releases)
+- [:simple-windows11: Windows](https://ente.io/download)
+- [:simple-apple: macOS](https://ente.io/download)
+- [:simple-linux: Linux](https://ente.io/download)
+- [:octicons-globe-16: Web](https://web.ente.io)
+
+</details>
+
+</div>
 
 ## Stingle
 
-!!! recommendation "Recomendación"
+<div class="admonition recommendation" markdown>
 
-```
 ![Stingle logo](assets/img/photo-management/stingle.png#only-light){ align=right }
 ![Stingle logo](assets/img/photo-management/stingle-dark.png#only-dark){ align=right }
 
-**Stingle** es una aplicación de galería y cámara con funciones integradas de copia de seguridad cifrada de extremo a extremo y sincronización de fotos y vídeos. El almacenamiento comienza en 1GB para cuentas gratuitas en su nube, o puedes alojar tu propio servidor API Stingle para una independencia total.
+**Stingle** is a gallery and camera application with built-in, end-to-end encrypted backup and sync functionality for your photos and videos. Storage starts at 1GB for free accounts on their cloud, or you can host your own Stingle API server for total independence.
 
-[:octicons-home-16: Página Principal](https://stingle.org/){ .md-button .md-button--primary }
-[:octicons-eye-16:](https://stingle.org/privacy/){ .card-link title="Política de Privacidad" }
-[:octicons-info-16:](https://stingle.org/faq/){ .card-link title=Documentación}
-[:octicons-code-16:](https://github.com/stingle){ .card-link title="Código Fuente" }
+[:octicons-home-16: Homepage](https://stingle.org/){ .md-button .md-button--primary }
+[:octicons-eye-16:](https://stingle.org/privacy/){ .card-link title="Privacy Policy" }
+[:octicons-info-16:](https://stingle.org/faq/){ .card-link title=Documentation}
+[:octicons-code-16:](https://github.com/stingle){ .card-link title="Source Code" }
 
-??? downloads
+<details class="downloads" markdown>
+<summary>Downloads</summary>
 
-    - [:simple-googleplay: Google Play](https://play.google.com/store/apps/details?id=io.ente.photos)
-    - [:simple-android: Android](https://play.google.com/store/apps/details?id=org.stingle.photos)
-    - [:simple-appstore: App Store](https://apps.apple.com/in/app/stingle-photos/id1582535448)
-    - [:simple-github: GitHub](https://github.com/stingle)
-```
+- [:simple-googleplay: Google Play](https://play.google.com/store/apps/details?id=io.ente.photos)
+- [:simple-android: Android](https://play.google.com/store/apps/details?id=org.stingle.photos)
+- [:simple-appstore: App Store](https://apps.apple.com/in/app/stingle-photos/id1582535448)
+- [:simple-github: GitHub](https://github.com/stingle)
+
+</details>
+
+</div>
 
 ## PhotoPrism
 
-!!! recommendation "Recomendación"
+<div class="admonition recommendation" markdown>
 
-```
 ![PhotoPrism logo](assets/img/photo-management/photoprism.svg){ align=right }
 
-**PhotoPrism** es una plataforma autoalojable para la gestión de fotos. Admite la sincronización y compartición de álbumes, así como una variedad de otras [features](https://www.photoprism.app/features). No incluye E2EE, por lo que es mejor alojarlo en un servidor en el que confíes y que esté bajo tu control.
+**PhotoPrism** is a self-hostable platform for managing photos. It supports album syncing and sharing as well as a variety of other [features](https://www.photoprism.app/features). It does not include E2EE, so it's best hosted on a server that you trust and is under your control.
 
-[:octicons-home-16: Página Principal](https://www.photoprism.app){ .md-button .md-button--primary }
-[:octicons-eye-16:](https://www.photoprism.app/privacy){ .card-link title="Política de Privacidad" }
-[:octicons-info-16:](https://www.photoprism.app/kb){ .card-link title=Documentación}
-[:octicons-code-16:](https://github.com/photoprism){ .card-link title="Código Fuente" }
+[:octicons-home-16: Homepage](https://www.photoprism.app){ .md-button .md-button--primary }
+[:octicons-eye-16:](https://www.photoprism.app/privacy){ .card-link title="Privacy Policy" }
+[:octicons-info-16:](https://www.photoprism.app/kb){ .card-link title=Documentation}
+[:octicons-code-16:](https://github.com/photoprism){ .card-link title="Source Code" }
 
-??? downloads "Descargas"
+<details class="downloads" markdown>
+<summary>Downloads</summary>
 
-    - [:simple-github: GitHub](https://github.com/photoprism)
-```
+- [:simple-github: GitHub](https://github.com/photoprism)
+
+</details>
+
+</div>
 
 ## Criterios
 
 **Por favor, ten en cuenta que no estamos afiliados con ninguno de los proyectos que recomendamos.** Además de [nuestros criterios estándar](about/criteria.md), hemos desarrollado un conjunto claro de requisitos que nos permiten ofrecer recomendaciones objetivas. Sugerimos que te familiarices con esta lista, antes de decidir utilizar un proyecto y realizar tu propia investigación para asegurarte de que es la elección ideal para ti.
 
-!!! example "Esta sección es nueva"
+<div class="admonition example" markdown>
+<p class="admonition-title">This section is new</p>
 
-```
-Estamos trabajando para establecer criterios definidos para cada sección de nuestro sitio, y esto puede estar sujeto a cambios. Si tienes alguna pregunta sobre nuestros criterios, por favor [pregunta en nuestro foro](https://discuss.privacyguides.net/latest) y no asumas que no hemos tenido en cuenta algo al hacer nuestras recomendaciones si no aparece aquí. Son muchos los factores que se tienen en cuenta y se discuten cuando recomendamos un proyecto, y documentar cada uno de ellos es un trabajo en curso.
-```
+Estamos trabajando en establecer criterios definidos para cada sección de nuestra página, y esto puede estar sujeto a cambios. Si tienes alguna duda sobre nuestros criterios, por favor [pregunta en nuestro foro](https://discuss.privacyguides.net/latest) y no asumas que no hemos tenido en cuenta algo a la hora de hacer nuestras recomendaciones si no aparece aquí. Son muchos los factores que se tienen en cuenta y se debaten cuando recomendamos un proyecto, y documentar cada uno de ellos es un trabajo en curso.
+
+</div>
 
 ### Requisitos Mínimos
 

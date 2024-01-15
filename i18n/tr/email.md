@@ -29,11 +29,14 @@ These providers natively support OpenPGP encryption/decryption and the [Web Key 
 
 </div>
 
-!!! uyarı
+<div class="admonition warning" markdown>
+<p class="admonition-title">Warning</p>
 
-    When using E2EE technology like OpenPGP your email will still have some metadata that is not encrypted in the header of the email, generally including the subject line! Read more about [email metadata](basics/email-security.md#email-metadata-overview).
-    
-    OpenPGP also does not support Forward secrecy, which means if either your or the recipient's private key is ever stolen, all previous messages encrypted with it will be exposed. [How do I protect my private keys?](basics/email-security.md#how-do-i-protect-my-private-keys)
+When using E2EE technology like OpenPGP your email will still have some metadata that is not encrypted in the header of the email, generally including the subject line! Read more about [email metadata](basics/email-security.md#email-metadata-overview).
+
+OpenPGP also does not support Forward secrecy, which means if either your or the recipient's private key is ever stolen, all previous messages encrypted with it will be exposed. [How do I protect my private keys?](basics/email-security.md#how-do-i-protect-my-private-keys)
+
+</div>
 
 ### Proton Mail
 
@@ -49,7 +52,8 @@ These providers natively support OpenPGP encryption/decryption and the [Web Key 
 [:octicons-info-16:](https://proton.me/support/mail){ .card-link title=Documentation}
 [:octicons-code-16:](https://github.com/ProtonMail){ .card-link title="Source Code" }
 
-<details class="downloads" markdown><summary>Downloads</summary>
+<details class="downloads" markdown>
+<summary>Downloads</summary>
 
 - [:simple-googleplay: Google Play](https://play.google.com/store/apps/details?id=ch.protonmail.android)
 - [:simple-appstore: App Store](https://apps.apple.com/app/apple-store/id979659905)
@@ -116,7 +120,8 @@ Proton Mail dijital miras özelliği sunmuyor.
 [:octicons-info-16:](https://skiff.com/help){ .card-link title=Documentation}
 [:octicons-code-16:](https://github.com/skiff-org/skiff-apps){ .card-link title="Source Code" }
 
-<details class="downloads" markdown><summary>Downloads</summary>
+<details class="downloads" markdown>
+<summary>Downloads</summary>
 
 - [:simple-android: Android](https://play.google.com/store/apps/details?id=com.skemailmobileapp&pli=1)
 - [:simple-appstore: iOS](https://apps.apple.com/us/app/skiff-mail/id1619168801)
@@ -174,7 +179,8 @@ Skiff Mail does not offer a digital legacy feature.
 [:octicons-eye-16:](https://mailbox.org/en/data-protection-privacy-policy){ .card-link title="Privacy Policy" }
 [:octicons-info-16:](https://kb.mailbox.org/en/private){ .card-link title=Documentation}
 
-<details class="downloads" markdown><summary>Downloads</summary>
+<details class="downloads" markdown>
+<summary>Downloads</summary>
 
 - [:octicons-browser-16: Web](https://login.mailbox.org)
 
@@ -242,7 +248,8 @@ These providers store your emails with zero-knowledge encryption, making them gr
 [:octicons-code-16:](https://github.com/tutao/tutanota){ .card-link title="Source Code" }
 [:octicons-heart-16:](https://tuta.com/community/){ .card-link title=Contribute }
 
-<details class="downloads" markdown><summary>Downloads</summary>
+<details class="downloads" markdown>
+<summary>Downloads</summary>
 
 - [:simple-googleplay: Google Play](https://play.google.com/store/apps/details?id=de.tutao.tutanota)
 - [:simple-appstore: App Store](https://apps.apple.com/app/tutanota/id922429609)
@@ -333,7 +340,8 @@ Using an aliasing service requires trusting both your email provider and your al
 [:octicons-code-16:](https://github.com/anonaddy){ .card-link title="Source Code" }
 [:octicons-heart-16:](https://addy.io/donate){ .card-link title=Contribute }
 
-<details class="downloads" markdown><summary>Downloads</summary>
+<details class="downloads" markdown>
+<summary>Downloads</summary>
 
 - [:simple-android: Android](https://addy.io/faq/#is-there-an-android-app)
 - [:material-apple-ios: iOS](https://addy.io/faq/#is-there-an-ios-app)
@@ -367,7 +375,8 @@ Notable free features:
 [:octicons-info-16:](https://simplelogin.io/docs/){ .card-link title=Documentation}
 [:octicons-code-16:](https://github.com/simple-login){ .card-link title="Source Code" }
 
-<details class="downloads" markdown><summary>Downloads</summary>
+<details class="downloads" markdown>
+<summary>Downloads</summary>
 
 - [:simple-googleplay: Google Play](https://play.google.com/store/apps/details?id=io.simplelogin.android)
 - [:simple-appstore: App Store](https://apps.apple.com/app/id1494359858)
