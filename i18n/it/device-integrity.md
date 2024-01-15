@@ -48,7 +48,7 @@ Questi strumenti forniscono analisi basate sulle informazioni a cui possono acce
 Gli strumenti di verifica esterni operano sul tuo computer, scansionando il tuo dispositivo mobile, in cerca di tracce forensi che siano utili a identificare le potenziali compromissioni.
 
 <div class="admonition danger" markdown>
-<p class="admonition-title">Danger "Attenzione"</p>
+<p class="admonition-title">Attenzione</p>
 
 Gli indicatori pubblici di compromissione non sono sufficienti a determinare che un dispositivo sia "pulito" e non sia stato preso di mira da un particolare strumento spyware. Affidarsi ai soli indicatori pubblici può far perdere tracce forensi recenti e dare un falso senso di sicurezza.
 
@@ -82,7 +82,7 @@ Il **Mobile Verification Toolkit** (**MVT**) è una raccolta di utility che semp
 </div>
 
 <div class="admonition warning" markdown>
-<p class="admonition-title">Warning "Avviso"</p>
+<p class="admonition-title">Avviso</p>
 
 Utilizzare MVT non è sufficiente per determinare che un dispositivo sia "pulito" e non preso di mira da uno strumento spyware in particolare.
 
@@ -131,7 +131,7 @@ iMazing automatizza e ti guida interattivamente al procedimento di utilizzo di [
 Si tratta di app installabili che controllano il tuo dispositivo e il sistema operativo, in cerca di segni di manomissione, convalidandone l'identità.
 
 <div class="admonition warning" markdown>
-<p class="admonition-title">Warning "Avviso"</p>
+<p class="admonition-title">Avviso</p>
 
 L'utilizzo di queste app non è sufficiente per determinarre che un dispositivo sia "pulito" e non preso di mira da uno strumento spyware in particolare.
 
@@ -184,7 +184,7 @@ Se il tuo [modello di minaccia](basics/threat-modeling.md) richiede la privacy, 
 Si tratta di app che puoi installare sul tuo dispositivo, che lo scansionano in cerca di segni di compromissione.
 
 <div class="admonition warning" markdown>
-<p class="admonition-title">Warning "Avviso"</p>
+<p class="admonition-title">Avviso</p>
 
 L'utilizzo di queste app non è sufficiente per determinare che un dispositivo sia "pulito" e non preso di mira da uno strumento spyware in particolare.
 
