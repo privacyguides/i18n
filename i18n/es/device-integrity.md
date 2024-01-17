@@ -82,7 +82,7 @@ Estas herramientas pueden desencadenar falsos positivos. Si alguna de estas herr
 </div>
 
 <div class="admonition warning" markdown>
-<p class="admonition-title">Warning</p>
+<p class="admonition-title">Advertencia</p>
 
 El uso de MVT no es suficiente para determinar que un dispositivo está "limpio" y no es objetivo de una herramienta espía concreta.
 
@@ -131,7 +131,7 @@ iMazing automatiza y te guía de forma interactiva a través del proceso de uso 
 Se trata de aplicaciones que puedes instalar y que comprueban el dispositivo y el sistema operativo en busca de signos de manipulación y validan la identidad del dispositivo.
 
 <div class="admonition warning" markdown>
-<p class="admonition-title">Warning</p>
+<p class="admonition-title">Advertencia</p>
 
 El uso de estas aplicaciones no basta para determinar que un dispositivo está "limpio" y no es objetivo de una herramienta de spyware concreta.
 
@@ -184,7 +184,7 @@ Si tu [modelo de amenaza](basics/threat-modeling.md) requiere privacidad, podrí
 Se trata de aplicaciones que puedes instalar en tu dispositivo y que lo escanean en busca de señales de peligro.
 
 <div class="admonition warning" markdown>
-<p class="admonition-title">Warning</p>
+<p class="admonition-title">Advertencia</p>
 
 El uso de estas aplicaciones no basta para determinar que un dispositivo está "limpio" y no es objetivo de una herramienta de spyware concreta.
 

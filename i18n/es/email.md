@@ -30,11 +30,11 @@ Estos proveedores soportan de manera nativa el cifrado/descifrado de OpenPGP y e
 </div>
 
 <div class="admonition warning" markdown>
-<p class="admonition-title">Warning</p>
+<p class="admonition-title">Advertencia</p>
 
-When using E2EE technology like OpenPGP your email will still have some metadata that is not encrypted in the header of the email, generally including the subject line! Read more about [email metadata](basics/email-security.md#email-metadata-overview).
+¡Al usar tecnologías de cifrado de extremo a extremo como OpenPGP, tu correo electrónico aún tendrá algunos metadatos que no son encriptados en el encabezado, por lo general incluyendo la línea del asunto! Lee más sobre los [metadatos de correo electrónico](basics/email-security.md#email-metadata-overview).
 
-OpenPGP also does not support Forward secrecy, which means if either your or the recipient's private key is ever stolen, all previous messages encrypted with it will be exposed. [How do I protect my private keys?](basics/email-security.md#how-do-i-protect-my-private-keys)
+OpenPGP tampoco soporta Forward secrecy, lo que significa que si tu clave privada o la del destinatario es robada, todos los mensajes cifrados previamente con esta, estarán expuestos. [¿Cómo protejo mis claves privadas?](basics/email-security.md#how-do-i-protect-my-private-keys)
 
 </div>
 
@@ -46,11 +46,11 @@ OpenPGP also does not support Forward secrecy, which means if either your or the
 
 **Proton Mail** es un servicio de correo electrónico con un enfoque en privacidad, encriptación, seguridad, y la facilidad de uso. Han estado en operación desde **2013**. Proton AG tiene su sede en Ginebra, Suiza. Cuentas inician con 500 MB de almacenamiento en su plan gratuito.
 
-[:octicons-home-16: Homepage](https://proton.me/mail){ .md-button .md-button--primary }
-[:simple-torbrowser:](https://protonmailrmez3lotccipshtkleegetolb73fuirgj7r4o4vfu7ozyd.onion){ .card-link title="Onion Service" }
-[:octicons-eye-16:](https://proton.me/legal/privacy){ .card-link title="Privacy Policy" }
-[:octicons-info-16:](https://proton.me/support/mail){ .card-link title=Documentation}
-[:octicons-code-16:](https://github.com/ProtonMail){ .card-link title="Source Code" }
+[:octicons-home-16: Página principal](https://proton.me/mail){ .md-button .md-button--primary }
+[:simple-torbrowser:](https://protonmailrmez3lotccipshtkleegetolb73fuirgj7r4o4vfu7ozyd.onion){ .card-link title="Servicio Onion" }
+[:octicons-eye-16:](https://proton.me/legal/privacy){ .card-link title="Política de privacidad" }
+[:octicons-info-16:](https://proton.me/support/mail){ .card-link title=Documentación}
+[:octicons-code-16:](https://github.com/ProtonMail){ .card-link title="Código fuente" }
 
 <details class="downloads" markdown>
 <summary>Downloads</summary>
