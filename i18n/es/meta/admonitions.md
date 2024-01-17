@@ -121,7 +121,7 @@ Lorem ipsum dolor sit amet, consectetur adipiscing elit.
 #### `danger`
 
 <div class="admonition danger" markdown>
-<p class="admonition-title">Danger</p>
+<p class="admonition-title">Peligro</p>
 
 Lorem ipsum dolor sit amet, consectetur adipiscing elit.
 

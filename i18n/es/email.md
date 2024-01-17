@@ -115,10 +115,10 @@ Proton Mail no ofrece la función de legado digital.
 
 **Skiff Mail** es un servicio de correo electrónico basado en web con E2EE con sede en San Francisco y desarrolladores en todo el mundo, que comenzó en 2020. Las cuentas comienzan con 10 GB de almacenamiento gratuito.
 
-[:octicons-home-16: Homepage](https://skiff.com/mail){ .md-button .md-button--primary }
-[:octicons-eye-16:](https://app.skiff.com/docs/db93c237-84c2-4b2b-9588-19a7cd2cd45a#tyGksN9rkqbo2uGYASxsA6HVLjUoly/wTYK8tncTto8=){ .card-link title="Privacy Policy" }
-[:octicons-info-16:](https://skiff.com/help){ .card-link title=Documentation}
-[:octicons-code-16:](https://github.com/skiff-org/skiff-apps){ .card-link title="Source Code" }
+[:octicons-home-16: Página principal](https://skiff.com/mail){ .md-button .md-button--primary }
+[:octicons-eye-16:](https://app.skiff.com/docs/db93c237-84c2-4b2b-9588-19a7cd2cd45a#tyGksN9rkqbo2uGYASxsA6HVLjUoly/wTYK8tncTto8=){ .card-link title="Política de privacidad" }
+[:octicons-info-16:](https://skiff.com/help){ .card-link title="Documentación"}
+[:octicons-code-16:](https://github.com/skiff-org/skiff-apps){ .card-link title="Código fuente" }
 
 <details class="downloads" markdown>
 <summary>Downloads</summary>
