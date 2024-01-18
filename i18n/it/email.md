@@ -115,16 +115,16 @@ Proton Mail non offre una funzionalità di eredità digitale.
 
 **Skiff Mail** è un servizio email basato sul web con E2EE, nato nel 2020 con sede a San Francisco e sviluppatori da tutto il mondo. I profili partono da 10GB di archiviazione gratuita.
 
-[:octicons-home-16: Homepage](https://skiff.com/mail){ .md-button .md-button--primary }
-[:octicons-eye-16:](https://app.skiff.com/docs/db93c237-84c2-4b2b-9588-19a7cd2cd45a#tyGksN9rkqbo2uGYASxsA6HVLjUoly/wTYK8tncTto8=){ .card-link title="Privacy Policy" }
-[:octicons-info-16:](https://skiff.com/help){ .card-link title=Documentation}
-[:octicons-code-16:](https://github.com/skiff-org/skiff-apps){ .card-link title="Source Code" }
+[:octicons-home-16: Pagina Principale](https://skiff.com/mail){ .md-button .md-button--primary }
+[:octicons-eye-16:](https://app.skiff.com/docs/db93c237-84c2-4b2b-9588-19a7cd2cd45a#tyGksN9rkqbo2uGYASxsA6HVLjUoly/wTYK8tncTto8=){ .card-link title="Politica sulla Privacy" }
+[:octicons-info-16:](https://skiff.com/help){ .card-link title=Documentazione}
+[:octicons-code-16:](https://github.com/skiff-org/skiff-apps){ .card-link title="Codice Sorgente" }
 
 <details class="downloads" markdown>
-<summary>Downloads</summary>
+<summary>Scarica</summary>
 
-- [:simple-android: Android](https://play.google.com/store/apps/details?id=com.skemailmobileapp&pli=1)
-- [:simple-appstore: iOS](https://apps.apple.com/us/app/skiff-mail/id1619168801)
+- [:simple-android: Android](https://play.google.com/store/apps/details?id=com.skemailmobileapp&gl=IT)
+- [:simple-appstore: iOS](https://apps.apple.com/it/app/skiff-mail-private-email/id1619168801)
 - [:octicons-browser-16: Web](https://app.skiff.com/mail)
 
 </details>
@@ -242,21 +242,21 @@ Questi fornitori memorizzano le tue email con la crittografia a conoscenza zero,
 
 **Tuta** è un servizio di posta elettronica incentrato sulla sicurezza e sulla privacy attraverso l'uso della crittografia. Tuta è operativo dal **2011** e ha sede ad Hannover, in Germania. I profili partono da 1GB di archiviazione, con il loro piano gratuito.
 
-[:octicons-home-16: Homepage](https://tuta.com){ .md-button .md-button--primary }
-[:octicons-eye-16:](https://tuta.com/privacy){ .card-link title="Privacy Policy" }
-[:octicons-info-16:](https://tuta.com/faq){ .card-link title=Documentation}
-[:octicons-code-16:](https://github.com/tutao/tutanota){ .card-link title="Source Code" }
-[:octicons-heart-16:](https://tuta.com/community/){ .card-link title=Contribute }
+[:octicons-home-16: Pagina Principale](https://tuta.com/it/){ .md-button .md-button--primary }
+[:octicons-eye-16:](https://tuta.com/it/privacy){ .card-link title="Politica sulla Privacy" }
+[:octicons-info-16:](https://tuta.com/faq){ .card-link title=Documentazione}
+[:octicons-code-16:](https://github.com/tutao/tutanota){ .card-link title="Codice Sorgente" }
+[:octicons-heart-16:](https://tuta.com/it/community/){ .card-link title=Contribuisci }
 
 <details class="downloads" markdown>
-<summary>Downloads</summary>
+<summary>Scarica</summary>
 
-- [:simple-googleplay: Google Play](https://play.google.com/store/apps/details?id=de.tutao.tutanota)
-- [:simple-appstore: App Store](https://apps.apple.com/app/tutanota/id922429609)
+- [:simple-googleplay: Google Play](https://play.google.com/store/apps/details?id=de.tutao.tutanota&gl=IT)
+- [:simple-appstore: App Store](https://apps.apple.com/it/app/tuta-encrypted-email-app/id922429609)
 - [:simple-github: GitHub](https://github.com/tutao/tutanota/releases)
-- [:simple-windows11: Windows](https://tuta.com/#download)
-- [:simple-apple: macOS](https://tuta.com/#download)
-- [:simple-linux: Linux](https://tuta.com/#download)
+- [:simple-windows11: Windows](https://tuta.com/it/#download)
+- [:simple-apple: macOS](https://tuta.com/it/#download)
+- [:simple-linux: Linux](https://tuta.com/it/#download)
 - [:octicons-browser-16: Web](https://app.tuta.com/)
 
 </details>
@@ -334,19 +334,19 @@ Utilizzare un servizio di alias richiede di affidare i tuoi messaggi crittografa
 
 **addy.io** ti consente di creare gratuitamente 10 alias di dominio su un dominio condiviso, oppure alias "standard" illimitati, meno anonimi.
 
-[:octicons-home-16: Homepage](https://addy.io){ .md-button .md-button--primary }
-[:octicons-eye-16:](https://addy.io/privacy){ .card-link title="Privacy Policy" }
-[:octicons-info-16:](https://app.addy.io/docs){ .card-link title=Documentation}
-[:octicons-code-16:](https://github.com/anonaddy){ .card-link title="Source Code" }
-[:octicons-heart-16:](https://addy.io/donate){ .card-link title=Contribute }
+[:octicons-home-16: Pagina Principale](https://addy.io){ .md-button .md-button--primary }
+[:octicons-eye-16:](https://addy.io/privacy){ .card-link title="Politica sulla Privacy" }
+[:octicons-info-16:](https://app.addy.io/docs){ .card-link title=Documentazione}
+[:octicons-code-16:](https://github.com/anonaddy){ .card-link title="Codice Sorgente" }
+[:octicons-heart-16:](https://addy.io/donate){ .card-link title=Contribuisci }
 
 <details class="downloads" markdown>
-<summary>Downloads</summary>
+<summary>Scarica</summary>
 
 - [:simple-android: Android](https://addy.io/faq/#is-there-an-android-app)
 - [:material-apple-ios: iOS](https://addy.io/faq/#is-there-an-ios-app)
-- [:simple-firefoxbrowser: Firefox](https://addons.mozilla.org/firefox/addon/addy_io/)
-- [:simple-googlechrome: Chrome](https://chrome.google.com/webstore/detail/addyio-anonymous-email-fo/iadbdpnoknmbdeolbapdackdcogdmjpe)
+- [:simple-firefoxbrowser: Firefox](https://addons.mozilla.org/it/firefox/addon/addy_io/)
+- [:simple-googlechrome: Chrome](https://chrome.google.com/webstore/detail/addyio-anonymous-email-fo/iadbdpnoknmbdeolbapdackdcogdmjpe?hl=it)
 
 </details>
 
@@ -370,20 +370,20 @@ Funzionalità gratuite degne di nota:
 
 **SimpleLogin** è un servizio gratuito che fornisce alias email su numerosi nomi di dominio condivisi e, facoltativamente, fornisce funzionalità a pagamento quali alias illimitati e domini personalizzati.
 
-[:octicons-home-16: Homepage](https://simplelogin.io){ .md-button .md-button--primary }
-[:octicons-eye-16:](https://simplelogin.io/privacy/){ .card-link title="Privacy Policy" }
-[:octicons-info-16:](https://simplelogin.io/docs/){ .card-link title=Documentation}
-[:octicons-code-16:](https://github.com/simple-login){ .card-link title="Source Code" }
+[:octicons-home-16: Pagina Principale](https://simplelogin.io){ .md-button .md-button--primary }
+[:octicons-eye-16:](https://simplelogin.io/privacy/){ .card-link title="Politica sulla Privacy" }
+[:octicons-info-16:](https://simplelogin.io/docs/){ .card-link title=Documentazione}
+[:octicons-code-16:](https://github.com/simple-login){ .card-link title="Codice Sorgente" }
 
 <details class="downloads" markdown>
-<summary>Downloads</summary>
+<summary>Scarica</summary>
 
-- [:simple-googleplay: Google Play](https://play.google.com/store/apps/details?id=io.simplelogin.android)
-- [:simple-appstore: App Store](https://apps.apple.com/app/id1494359858)
+- [:simple-googleplay: Google Play](https://play.google.com/store/apps/details?id=io.simplelogin.android&gl=IT)
+- [:simple-appstore: App Store](https://apps.apple.com/it/app/simplelogin-email-alias/id1494359858)
 - [:simple-github: GitHub](https://github.com/simple-login/Simple-Login-Android/releases)
-- [:simple-firefoxbrowser: Firefox](https://addons.mozilla.org/firefox/addon/simplelogin/)
-- [:simple-googlechrome: Chrome](https://chrome.google.com/webstore/detail/dphilobhebphkdjbpfohgikllaljmgbn)
-- [:simple-microsoftedge: Edge](https://microsoftedge.microsoft.com/addons/detail/simpleloginreceive-sen/diacfpipniklenphgljfkmhinphjlfff)
+- [:simple-firefoxbrowser: Firefox](https://addons.mozilla.org/it/firefox/addon/simplelogin/)
+- [:simple-googlechrome: Chrome](https://chrome.google.com/webstore/detail/dphilobhebphkdjbpfohgikllaljmgbn?hl=it)
+- [:simple-microsoftedge: Edge](https://microsoftedge.microsoft.com/addons/detail/simpleloginreceive-sen/diacfpipniklenphgljfkmhinphjlfff?hl=it-IT&gl=IT)
 - [:simple-safari: Safari](https://apps.apple.com/app/id1494051017)
 
 </details>
