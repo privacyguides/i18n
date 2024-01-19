@@ -69,7 +69,7 @@ La mayoría de las soluciones de gestión de fotos en la nube, como Google Photo
 
 ![PhotoPrism logo](assets/img/photo-management/photoprism.svg){ align=right }
 
-**PhotoPrism** es una plataforma autoalojable para la gestión de fotos. It supports album syncing and sharing as well as a variety of other [features](https://www.photoprism.app/features). It does not include E2EE, so it's best hosted on a server that you trust and is under your control.
+**PhotoPrism** es una plataforma autoalojable para la gestión de fotos. Permite sincronizar y compartir álbumes, así como otras muchas [funciones](https://www.photoprism.app/features). No incluye E2EE, por lo que es mejor alojarlo en un servidor en el que confíes y que esté bajo tu control.
 
 [:octicons-home-16: Homepage](https://www.photoprism.app){ .md-button .md-button--primary }
 [:octicons-eye-16:](https://www.photoprism.app/privacy){ .card-link title="Política de Privacidad" }
