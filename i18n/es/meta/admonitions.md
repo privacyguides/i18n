@@ -188,15 +188,15 @@ This format is used to generate recommendation cards. Notably it is missing the 
 
 ![PhotoPrism logo](../assets/img/photo-management/photoprism.svg){ align=right }
 
-**PhotoPrism** is a self-hostable platform for managing photos. It supports album syncing and sharing as well as a variety of other [features](https://www.photoprism.app/features). It does not include E2EE, so it's best hosted on a server that you trust and is under your control.
+**PhotoPrism** es una plataforma autoalojable para la gestión de fotos. It supports album syncing and sharing as well as a variety of other [features](https://www.photoprism.app/features). It does not include E2EE, so it's best hosted on a server that you trust and is under your control.
 
 [:octicons-home-16: Homepage](https://www.photoprism.app){ .md-button .md-button--primary }
-[:octicons-eye-16:](https://www.photoprism.app/privacy){ .card-link title="Privacy Policy" }
-[:octicons-info-16:](https://www.photoprism.app/kb){ .card-link title=Documentation}
-[:octicons-code-16:](https://github.com/photoprism){ .card-link title="Source Code" }
+[:octicons-eye-16:](https://www.photoprism.app/privacy){ .card-link title="Política de Privacidad" }
+[:octicons-info-16:](https://www.photoprism.app/kb){ .card-link title=Documentación}
+[:octicons-code-16:](https://github.com/photoprism){ .card-link title="Código Fuente" }
 
 <details class="downloads" markdown>
-<summary>Downloads</summary>
+<summary>Downloads "Descargas"</summary>
 
 - [:simple-github: GitHub](https://github.com/photoprism)
 
@@ -228,7 +228,7 @@ This is a special type of collapsible admonition, used to generate the download 
 <div class="result" markdown>
 
 <details class="downloads" markdown>
-<summary>Downloads</summary>
+<summary>Downloads "Descargas"</summary>
 
 - [:simple-googleplay: Google Play](https://play.google.com/store/apps/details?id=ch.protonmail.android)
 - [:simple-appstore: App Store](https://apps.apple.com/app/apple-store/id979659905)

@@ -72,7 +72,7 @@ Estas herramientas pueden desencadenar falsos positivos. Si alguna de estas herr
 [:octicons-code-16:](https://github.com/mvt-project/mvt){ .card-link title="Código fuente" }
 
 <details class="downloads" markdown>
-<summary>Downloads</summary>
+<summary>Downloads "Descargas"</summary>
 
 - [:simple-apple: macOS](https://docs.mvt.re/en/latest/install/)
 - [:simple-linux: Linux](https://docs.mvt.re/en/latest/install/)
@@ -115,7 +115,7 @@ MVT te permite realizar escaneos/análisis más profundos si tu dispositivo tien
 [:octicons-info-16:](https://imazing.com/spyware-analyzer){ .card-link title="Documentación"}
 
 <details class="downloads" markdown>
-<summary>Downloads</summary>
+<summary>Downloads "Descargas"</summary>
 
 - [:simple-windows11: Windows](https://imazing.com/download)
 - [:simple-apple: macOS](https://imazing.com/download)
@@ -153,7 +153,7 @@ El uso de estas aplicaciones no basta para determinar que un dispositivo está "
 [:octicons-heart-16:](https://attestation.app/donate){ .card-link title="Contribuir"}
 
 <details class="downloads" markdown>
-<summary>Downloads</summary>
+<summary>Downloads "Descargas"</summary>
 
 - [:simple-googleplay: Google Play](https://play.google.com/store/apps/details?id=app.attestation.auditor.play)
 - [:simple-github: GitHub](https://github.com/GrapheneOS/Auditor/releases)
@@ -205,7 +205,7 @@ El uso de estas aplicaciones no basta para determinar que un dispositivo está "
 [:octicons-heart-16:](https://divested.dev/pages/donate){ .card-link title="Contribuir"}
 
 <details class="downloads" markdown>
-<summary>Downloads</summary>
+<summary>Downloads "Descargas"</summary>
 
 - [:simple-android: F-Droid](https://f-droid.org/packages/us.spotco.malwarescanner/)
 
@@ -228,7 +228,7 @@ Hypatia es especialmente bueno en la detección de stalkerware común: Si sospec
 [:octicons-info-16:](https://www.iverify.io/frequently-asked-questions#iVerify-General){ .card-link title="Documentación"}
 
 <details class="downloads" markdown>
-<summary>Downloads</summary>
+<summary>Downloads "Descargas"</summary>
 
 - [:simple-appstore: App Store](https://apps.apple.com/us/app/iverify/id1466120520)
 

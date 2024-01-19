@@ -53,7 +53,7 @@ OpenPGP tampoco soporta Forward secrecy, lo que significa que si tu clave privad
 [:octicons-code-16:](https://github.com/ProtonMail){ .card-link title="Código fuente" }
 
 <details class="downloads" markdown>
-<summary>Downloads</summary>
+<summary>Downloads "Descargas"</summary>
 
 - [:simple-googleplay: Google Play](https://play.google.com/store/apps/details?id=ch.protonmail.android)
 - [:simple-appstore: App Store](https://apps.apple.com/app/apple-store/id979659905)
@@ -121,7 +121,7 @@ Proton Mail no ofrece la función de legado digital.
 [:octicons-code-16:](https://github.com/skiff-org/skiff-apps){ .card-link title="Código fuente" }
 
 <details class="downloads" markdown>
-<summary>Downloads</summary>
+<summary>Downloads "Descargas"</summary>
 
 - [:simple-android: Android](https://play.google.com/store/apps/details?id=com.skemailmobileapp&pli=1)
 - [:simple-appstore: iOS](https://apps.apple.com/us/app/skiff-mail/id1619168801)
@@ -175,12 +175,12 @@ StartMail no ofrece una función de legado digital.
 
 **Mailbox.org** es un servicio de correo electrónico centrado en ser seguro, sin publicidad, y alimentado de forma privada con energía 100% ecológica. Han estado en operación desde 2014. Mailbox.org tiene su sede en Berlín, Alemania. Cuentas empiezan con 2 GB de almacenamiento, que se puede ampliar según sea necesario.
 
-[:octicons-home-16: Homepage](https://mailbox.org){ .md-button .md-button--primary }
-[:octicons-eye-16:](https://mailbox.org/en/data-protection-privacy-policy){ .card-link title="Privacy Policy" }
-[:octicons-info-16:](https://kb.mailbox.org/en/private){ .card-link title=Documentation}
+[:octicons-home-16: Página Principal](https://mailbox.org){ .md-button .md-button--primary }
+[:octicons-eye-16:](https://mailbox.org/en/data-protection-privacy-policy){ .card-link title="Politica de Privacidad" }
+[:octicons-info-16:](https://kb.mailbox.org/en/private){ .card-link title=Documentación}
 
 <details class="downloads" markdown>
-<summary>Downloads</summary>
+<summary>Downloads "Descargas"</summary>
 
 - [:octicons-browser-16: Web](https://login.mailbox.org)
 
@@ -242,14 +242,14 @@ Estos proveedores almacenan tus correos electrónicos con cifrado de cero-conoci
 
 **Tuta** es un servicio de correo electrónico centrado en la seguridad y la privacidad mediante el uso de cifrado. Tuta lleva en funcionamiento desde **2011** y tiene su sede en Hanóver, Alemania. Las cuentas empiezan con 1Gb de almacenamiento con su plan gratuito.
 
-[:octicons-home-16: Homepage](https://tuta.com){ .md-button .md-button--primary }
-[:octicons-eye-16:](https://tuta.com/privacy){ .card-link title="Privacy Policy" }
-[:octicons-info-16:](https://tuta.com/faq){ .card-link title=Documentation}
-[:octicons-code-16:](https://github.com/tutao/tutanota){ .card-link title="Source Code" }
-[:octicons-heart-16:](https://tuta.com/community/){ .card-link title=Contribute }
+[:octicons-home-16: Página Principal](https://tuta.com){ .md-button .md-button--primary }
+[:octicons-eye-16:](https://tuta.com/privacy){ .card-link title="Política de Privacidad" }
+[:octicons-info-16:](https://tuta.com/faq){ .card-link title=Documentación}
+[:octicons-code-16:](https://github.com/tutao/tutanota){ .card-link title="Código Fuente" }
+[:octicons-heart-16:](https://tuta.com/community/){ .card-link title=Contribuir }
 
 <details class="downloads" markdown>
-<summary>Downloads</summary>
+<summary>Downloads "Descargas"</summary>
 
 - [:simple-googleplay: Google Play](https://play.google.com/store/apps/details?id=de.tutao.tutanota)
 - [:simple-appstore: App Store](https://apps.apple.com/app/tutanota/id922429609)
@@ -334,14 +334,14 @@ Utilizar un servicio de alias requiere confiar, tanto a tu proveedor de correo e
 
 **addy.io** te permite crear 10 alias gratuitos en un dominio compartido, o o alias "estándar" ilimitados que son menos anónimos.
 
-[:octicons-home-16: Homepage](https://addy.io){ .md-button .md-button--primary }
-[:octicons-eye-16:](https://addy.io/privacy){ .card-link title="Privacy Policy" }
-[:octicons-info-16:](https://app.addy.io/docs){ .card-link title=Documentation}
-[:octicons-code-16:](https://github.com/anonaddy){ .card-link title="Source Code" }
-[:octicons-heart-16:](https://addy.io/donate){ .card-link title=Contribute }
+[:octicons-home-16: Página Principal](https://addy.io){ .md-button .md-button--primary }
+[:octicons-eye-16:](https://addy.io/privacy){ .card-link title="Politica de Privacidad" }
+[:octicons-info-16:](https://app.addy.io/docs){ .card-link title=Documentación}
+[:octicons-code-16:](https://github.com/anonaddy){ .card-link title="Código Fuente" }
+[:octicons-heart-16:](https://addy.io/donate){ .card-link title=Contribuir }
 
 <details class="downloads" markdown>
-<summary>Downloads</summary>
+<summary>Downloads "Descargas"</summary>
 
 - [:simple-android: Android](https://addy.io/faq/#is-there-an-android-app)
 - [:material-apple-ios: iOS](https://addy.io/faq/#is-there-an-ios-app)
@@ -370,13 +370,13 @@ Funciones gratuitas destacables:
 
 **SimpleLogin** es un servicio gratuito que proporciona alias de correo electrónico en una variedad de nombres de dominio compartidos, y opcionalmente proporciona características de pago como alias ilimitados y dominios personalizados.
 
-[:octicons-home-16: Homepage](https://simplelogin.io){ .md-button .md-button--primary }
-[:octicons-eye-16:](https://simplelogin.io/privacy/){ .card-link title="Privacy Policy" }
-[:octicons-info-16:](https://simplelogin.io/docs/){ .card-link title=Documentation}
-[:octicons-code-16:](https://github.com/simple-login){ .card-link title="Source Code" }
+[:octicons-home-16: Página Principal](https://simplelogin.io){ .md-button .md-button--primary }
+[:octicons-eye-16:](https://simplelogin.io/privacy/){ .card-link title="Politica de Privacidad" }
+[:octicons-info-16:](https://simplelogin.io/docs/){ .card-link title=Documentación}
+[:octicons-code-16:](https://github.com/simple-login){ .card-link title="Código Fuente" }
 
 <details class="downloads" markdown>
-<summary>Downloads</summary>
+<summary>Downloads "Descargas"</summary>
 
 - [:simple-googleplay: Google Play](https://play.google.com/store/apps/details?id=io.simplelogin.android)
 - [:simple-appstore: App Store](https://apps.apple.com/app/id1494359858)
