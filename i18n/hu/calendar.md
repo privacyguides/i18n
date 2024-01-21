@@ -52,6 +52,8 @@ A naptárak a legérzékenyebb adataidat tartalmazzák; használj at rest End-to
         - [:simple-appstore: App Store](https://apps.apple.com/app/apple-store/id1514709943)
         - [:octicons-browser-16: Web](https://calendar.proton.me)
 
+Unfortunately, as of January 2024 Proton has [still](https://discuss.privacyguides.net/t/proton-calendar-is-not-open-source-mobile/14656/8) not released the source code for their mobile Calendar app on Android or iOS. Proton Calendar's web client is open source.
+
 ## Követelmények
 
 **Tartsd figyelemben, hogy nem állunk kapcsolatban az általunk ajánlott projektek egyikével sem.** Az [alap kritériumaink mellett](about/criteria.md), egyértelmű követelményrendszert dolgoztunk ki, hogy objektív ajánlásokat tudjunk tenni. Javasoljuk, hogy ismerkedj meg ezzel a listával, mielőtt kiválasztanál egy projektet, és végezz saját kutatásokat, hogy megbizonyosodj arról, hogy ez a megfelelő választás számodra.

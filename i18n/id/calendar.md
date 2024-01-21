@@ -52,6 +52,8 @@ Calendars contain some of your most sensitive data; use products that implement 
         - [:simple-appstore: App Store](https://apps.apple.com/app/apple-store/id1514709943)
         - [:octicons-browser-16: Web](https://calendar.proton.me)
 
+Unfortunately, as of January 2024 Proton has [still](https://discuss.privacyguides.net/t/proton-calendar-is-not-open-source-mobile/14656/8) not released the source code for their mobile Calendar app on Android or iOS. Proton Calendar's web client is open source.
+
 ## Kriteria
 
 **Harap diperhatikan bahwa kami tidak berafiliasi dengan proyek-proyek yang kami rekomendasikan.** Selain [kriteria standar kami](about/criteria.md), kami telah mengembangkan serangkaian persyaratan yang jelas untuk memungkinkan kami memberikan rekomendasi yang objektif. Kami sarankan Anda membiasakan diri dengan daftar ini sebelum memilih untuk menggunakan sebuah proyek, dan melakukan penelitian sendiri untuk memastikan bahwa itu adalah pilihan yang tepat untuk Anda.
