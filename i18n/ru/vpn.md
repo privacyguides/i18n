@@ -84,9 +84,9 @@ Proton VPN [рекомендует](https://protonvpn.com/blog/wireguard/) ис�
 
 В настоящее время Proton VPN поддерживает только эфемерную удаленную [переадресацию портов](https://protonvpn.com/support/port-forwarding/) через NAT-PMP, со временем аренды на 60 секунд. Приложение для Windows обеспечивает легкий доступ к нему, в то время как в других операционных системах вам придется запустить собственное [приложение NAT-PMP](https://protonvpn.com/support/port-forwarding-manual-setup/). Торрент приложения часто поддерживают NAT-PMP нативно.
 
-#### :material-check:{ .pg-green } Censorship Circumvention
+#### :material-information-outline:{ .pg-blue } Censorship Circumvention
 
-Proton VPN has their [Stealth](https://protonvpn.com/blog/stealth-vpn-protocol/) protocol which helps in situations where VPN protocols like OpenVPN or Wireguard are blocked. Stealth works by using an obfuscated TLS tunnel over TCP making it more difficult for deep packet inspection (DPI) to block.
+Proton VPN has their [Stealth](https://protonvpn.com/blog/stealth-vpn-protocol/) protocol which helps in situations where VPN protocols like OpenVPN or Wireguard are blocked. Stealth works by using an obfuscated TLS tunnel over TCP making it more difficult for deep packet inspection (DPI) to block. Unfortunately, Stealth is not yet available on Windows or Linux.
 
 #### :material-check:{ .pg-green } Приложения для смартфонов
 

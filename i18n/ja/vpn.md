@@ -84,9 +84,9 @@ Proton VPNはそのサービスでWireGuardを使用することを[推奨](http
 
 Proton VPNは現在NAT-PMP経由で、リース時間は60秒の一時的なリモート[ポートフォワーディング](https://protonvpn.com/support/port-forwarding/)のみをサポートしています。 Windowsアプリにはそれに簡単にアクセスできるオプションがありますが、他のオペレーティングシステムでは独自の[NAT-PMPクライアント](https://protonvpn.com/support/port-forwarding-manual-setup/)を実行する必要があります。 Torrentアプリは多くの場合NAT-PMPをネイティブサポートしています。
 
-#### :material-check:{ .pg-green } Censorship Circumvention
+#### :material-information-outline:{ .pg-blue } Censorship Circumvention
 
-Proton VPN has their [Stealth](https://protonvpn.com/blog/stealth-vpn-protocol/) protocol which helps in situations where VPN protocols like OpenVPN or Wireguard are blocked. Stealth works by using an obfuscated TLS tunnel over TCP making it more difficult for deep packet inspection (DPI) to block.
+Proton VPN has their [Stealth](https://protonvpn.com/blog/stealth-vpn-protocol/) protocol which helps in situations where VPN protocols like OpenVPN or Wireguard are blocked. Stealth works by using an obfuscated TLS tunnel over TCP making it more difficult for deep packet inspection (DPI) to block. Unfortunately, Stealth is not yet available on Windows or Linux.
 
 #### :material-check:{ .pg-green } モバイルクライアント
 

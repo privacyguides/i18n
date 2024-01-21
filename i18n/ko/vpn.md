@@ -84,9 +84,9 @@ Proton VPN은 자신들의 서비스에서 WireGuard 사용을 [권장](https://
 
 Proton VPN은 현재 NAT-PMP를 통한 임시적인 원격 [포트포워딩](https://protonvpn.com/support/port-forwarding/)만을 허용하며, 이는 60초동안 유지됩니다. Windows 앱은 쉽게 접근할 수 있는 옵션을 제공하지만, 다른 운영체제의 경우에는 직접 [NAT-PMP 클라이언트](https://protonvpn.com/support/port-forwarding-manual-setup/)를 실행해야 합니다. 토렌트 애플리케이션은 대부분 NAT-PMP를 지원합니다.
 
-#### :material-check:{ .pg-green } Censorship Circumvention
+#### :material-information-outline:{ .pg-blue } Censorship Circumvention
 
-Proton VPN has their [Stealth](https://protonvpn.com/blog/stealth-vpn-protocol/) protocol which helps in situations where VPN protocols like OpenVPN or Wireguard are blocked. Stealth works by using an obfuscated TLS tunnel over TCP making it more difficult for deep packet inspection (DPI) to block.
+Proton VPN has their [Stealth](https://protonvpn.com/blog/stealth-vpn-protocol/) protocol which helps in situations where VPN protocols like OpenVPN or Wireguard are blocked. Stealth works by using an obfuscated TLS tunnel over TCP making it more difficult for deep packet inspection (DPI) to block. Unfortunately, Stealth is not yet available on Windows or Linux.
 
 #### :material-check:{ .pg-green } 모바일 클라이언트
 

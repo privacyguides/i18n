@@ -84,9 +84,9 @@ Proton VPN [adviseert](https://protonvpn.com/blog/wireguard/) het gebruik van Wi
 
 Proton VPN ondersteunt momenteel alleen ephemeral remote [port forwarding](https://protonvpn.com/support/port-forwarding/) via NAT-PMP, met een leasetijd van 60 seconden. De Windows-app biedt hiervoor een gemakkelijk toegankelijke optie, terwijl je op andere besturingssystemen je eigen [NAT-PMP-client](https://protonvpn.com/support/port-forwarding-manual-setup/)moet draaien. Torrent toepassingen ondersteunen vaak de NAT-PMP volledig.
 
-#### :material-check:{ .pg-green } Censorship Circumvention
+#### :material-information-outline:{ .pg-blue } Censorship Circumvention
 
-Proton VPN has their [Stealth](https://protonvpn.com/blog/stealth-vpn-protocol/) protocol which helps in situations where VPN protocols like OpenVPN or Wireguard are blocked. Stealth works by using an obfuscated TLS tunnel over TCP making it more difficult for deep packet inspection (DPI) to block.
+Proton VPN has their [Stealth](https://protonvpn.com/blog/stealth-vpn-protocol/) protocol which helps in situations where VPN protocols like OpenVPN or Wireguard are blocked. Stealth works by using an obfuscated TLS tunnel over TCP making it more difficult for deep packet inspection (DPI) to block. Unfortunately, Stealth is not yet available on Windows or Linux.
 
 #### :material-check:{ .pg-green } Mobiele Clients
 

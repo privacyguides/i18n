@@ -84,9 +84,9 @@ Proton VPN [ממליץ](https://protonvpn.com/blog/wireguard/) על השימוש
 
 Proton VPN תומך כרגע רק ב[העברת פורטים](https://protonvpn.com/support/port-forwarding/) מרחוק ארעיים באמצעות NAT-PMP, עם זמני חכירה של 60 שניות. אפליקציית Windows מספקת אפשרות קלה לגישה עבורה, בעוד שבמערכות הפעלה אחרות תצטרך להפעיל [ משלך לקוח NAT-PMP](https://protonvpn.com/support/port-forwarding-manual-setup/). יישומי טורנט תומכים לעתים קרובות ב-NAT-PMP באופן מקורי.
 
-#### :material-check:{ .pg-green } Censorship Circumvention
+#### :material-information-outline:{ .pg-blue } Censorship Circumvention
 
-Proton VPN has their [Stealth](https://protonvpn.com/blog/stealth-vpn-protocol/) protocol which helps in situations where VPN protocols like OpenVPN or Wireguard are blocked. Stealth works by using an obfuscated TLS tunnel over TCP making it more difficult for deep packet inspection (DPI) to block.
+Proton VPN has their [Stealth](https://protonvpn.com/blog/stealth-vpn-protocol/) protocol which helps in situations where VPN protocols like OpenVPN or Wireguard are blocked. Stealth works by using an obfuscated TLS tunnel over TCP making it more difficult for deep packet inspection (DPI) to block. Unfortunately, Stealth is not yet available on Windows or Linux.
 
 #### :material-check:{ .pg-green } לקוחות ניידים
 

@@ -84,9 +84,9 @@ Proton VPN [建議](https://protonvpn.com/blog/wireguard/) 搭配 WireGuard 使�
 
 Proton VPN 目前僅支援暫寺性NAT-PMP遠方 [連接埠轉發](https://protonvpn.com/support/port-forwarding/)期間為 60 秒。 Windows 應用提供簡易使用選項，而其它作業系統則需運行 [NAT-PMP 客戶端](https://protonvpn.com/support/port-forwarding-manual-setup/)。 Torrent 應用往往支援 NAT-PMP 原生。
 
-#### :material-check:{ .pg-green } Censorship Circumvention
+#### :material-information-outline:{ .pg-blue } Censorship Circumvention
 
-Proton VPN has their [Stealth](https://protonvpn.com/blog/stealth-vpn-protocol/) protocol which helps in situations where VPN protocols like OpenVPN or Wireguard are blocked. Stealth works by using an obfuscated TLS tunnel over TCP making it more difficult for deep packet inspection (DPI) to block.
+Proton VPN has their [Stealth](https://protonvpn.com/blog/stealth-vpn-protocol/) protocol which helps in situations where VPN protocols like OpenVPN or Wireguard are blocked. Stealth works by using an obfuscated TLS tunnel over TCP making it more difficult for deep packet inspection (DPI) to block. Unfortunately, Stealth is not yet available on Windows or Linux.
 
 #### :material-check:{ .pg-green } 手機客戶端
 
