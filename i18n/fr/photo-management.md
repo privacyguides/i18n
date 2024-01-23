@@ -41,15 +41,15 @@ La plupart des solutions cloud de gestion de photos, telles que Google Photos, F
 
 <div class="admonition recommendation" markdown>
 
-![Stingle logo](assets/img/photo-management/stingle.png#only-light){ align=right }
-![Stingle logo](assets/img/photo-management/stingle-dark.png#only-dark){ align=right }
+![logo Stingle](assets/img/photo-management/stingle.png#only-light){ align=right }
+![logo Stingle](assets/img/photo-management/stingle-dark.png#only-dark){ align=right }
 
-**Stingle** is a gallery and camera application with built-in, end-to-end encrypted backup and sync functionality for your photos and videos. Storage starts at 1GB for free accounts on their cloud, or you can host your own Stingle API server for total independence.
+**Stingle** est une application de galerie et d'appareil photo avec une fonctionnalité intégrée de sauvegarde et de synchronisation chiffrée de bout en bout pour vos photos et vos vidéos. Le stockage commence à 1 Go pour les comptes gratuits sur leur cloud, ou vous pouvez héberger votre propre serveur API Stingle pour une indépendance totale.
 
-[:octicons-home-16: Homepage](https://stingle.org/){ .md-button .md-button--primary }
-[:octicons-eye-16:](https://stingle.org/privacy/){ .card-link title="Privacy Policy" }
+[:octicons-home-16: Page d'accueil](https://stingle.org/){ .md-button .md-button--primary }
+[:octicons-eye-16:](https://stingle.org/privacy/){ .card-link title="Politique de confidentialité" }
 [:octicons-info-16:](https://stingle.org/faq/){ .card-link title=Documentation}
-[:octicons-code-16:](https://github.com/stingle){ .card-link title="Source Code" }
+[:octicons-code-16:](https://github.com/stingle){ .card-link title="Code source" }
 
 <details class="downloads" markdown>
 <summary>Téléchargements</summary>
@@ -67,14 +67,14 @@ La plupart des solutions cloud de gestion de photos, telles que Google Photos, F
 
 <div class="admonition recommendation" markdown>
 
-![PhotoPrism logo](assets/img/photo-management/photoprism.svg){ align=right }
+![logo PhotoPrism](assets/img/photo-management/photoprism.svg){ align=right }
 
-**PhotoPrism** is a self-hostable platform for managing photos. It supports album syncing and sharing as well as a variety of other [features](https://www.photoprism.app/features). It does not include E2EE, so it's best hosted on a server that you trust and is under your control.
+**PhotoPrism** est une plateforme auto-hébergée pour la gestion des photos. Elle prend en charge la synchronisation et le partage d'albums ainsi qu'une variété d'autres [fonctionnalités](https://www.photoprism.app/features). Elle n'inclut pas l'E2EE, il est donc préférable de l'héberger sur un serveur en lequel vous avez confiance et que vous contrôlez.
 
-[:octicons-home-16: Homepage](https://www.photoprism.app){ .md-button .md-button--primary }
-[:octicons-eye-16:](https://www.photoprism.app/privacy){ .card-link title="Privacy Policy" }
+[:octicons-home-16: Page d'accueil](https://www.photoprism.app){ .md-button .md-button--primary }
+[:octicons-eye-16:](https://www.photoprism.app/privacy){ .card-link title="Politique de confidentialité" }
 [:octicons-info-16:](https://www.photoprism.app/kb){ .card-link title=Documentation}
-[:octicons-code-16:](https://github.com/photoprism){ .card-link title="Source Code" }
+[:octicons-code-16:](https://github.com/photoprism){ .card-link title="Code source" }
 
 <details class="downloads" markdown>
 <summary>Téléchargements</summary>
@@ -90,7 +90,7 @@ La plupart des solutions cloud de gestion de photos, telles que Google Photos, F
 **Veuillez noter que nous ne sommes affiliés à aucun des projets que nous recommandons.** En plus de [nos critères de base](about/criteria.md), nous avons développé un ensemble d'exigences claires pour nous permettre de fournir des recommandations objectives. Nous vous suggérons de vous familiariser avec cette liste avant de choisir d'utiliser un projet, et de mener vos propres recherches pour vous assurer que c'est le bon choix pour vous.
 
 <div class="admonition example" markdown>
-<p class="admonition-title">This section is new</p>
+<p class="admonition-title">Cette section est nouvelle</p>
 
 Nous travaillons à l'établissement de critères définis pour chaque section de notre site, et celles-ci peuvent être sujet à changement. Si vous avez des questions sur nos critères, veuillez [poser la question sur notre forum](https://discuss.privacyguides.net/latest) et ne supposez pas que nous n'avons pas pris en compte un élément dans nos recommandations s'il ne figure pas dans la liste. De nombreux facteurs sont pris en compte et discutés lorsque nous recommandons un projet, et la documentation de chacun d'entre eux est en cours.
 
