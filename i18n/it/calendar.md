@@ -52,7 +52,7 @@ I calendari contengono alcuni dei tuoi dati più sensibili; utilizza prodotti ch
         - [:simple-appstore: App Store](https://apps.apple.com/it/app/proton-calendar-agenda-sicura/id1514709943)
         - [:octicons-browser-16: Web](https://calendar.proton.me)
 
-Unfortunately, as of January 2024 Proton has [still](https://discuss.privacyguides.net/t/proton-calendar-is-not-open-source-mobile/14656/8) not released the source code for their mobile Calendar app on Android or iOS. Proton Calendar's web client is open source.
+Sfortunatamente, a Gennaio 2024, Proton non ha [ancora](https://discuss.privacyguides.net/t/proton-calendar-is-not-open-source-mobile/14656/8) rilasciato il codice sorgente per la propria app del Calendariio su Android o iOS. Il client web di Proton Calendar è open source.
 
 ## Criteri
 
