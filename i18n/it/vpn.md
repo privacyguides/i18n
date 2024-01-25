@@ -84,9 +84,9 @@ Proton VPN [consiglia](https://protonvpn.com/blog/wireguard/) l'uso di WireGuard
 
 Al momento, Proton VPN supporta soltanto il [port forwarding](https://protonvpn.com/support/port-forwarding/) remoto ed effimero, tramite NAT-PMP, con 60 secondi di tempo di noleggio. L'app per Windows fornisce un'opzione facilmente accessibile, mentre su altri sistemi operativi dovrai eseguire il tuo [client NAT-PMP](https://protonvpn.com/support/port-forwarding-manual-setup/). Le applicazioni torrent supportano spesso NAT-PMP in modo nativo.
 
-#### :material-information-outline:{ .pg-blue } Censorship Circumvention
+#### :material-information-outline:{ .pg-blue } Elusione della censura
 
-Proton VPN ha il suo protocollo [Stealth](https://protonvpn.com/blog/stealth-vpn-protocol/) che aiuta nelle situazioni in cui i protocolli VPN come OpenVPN o Wireguard sono bloccati. Il protocollo Stealth funziona utilizzando un tunnel TLS offuscato su TCP, rendendo più difficile il blocco da parte della Deep Packet Inspection (DPI). Unfortunately, Stealth is not yet available on Windows or Linux.
+Proton VPN ha il suo protocollo [Stealth](https://protonvpn.com/blog/stealth-vpn-protocol/) che aiuta nelle situazioni in cui i protocolli VPN come OpenVPN o Wireguard sono bloccati. Il protocollo Stealth funziona utilizzando un tunnel TLS offuscato su TCP, rendendo più difficile il blocco da parte della Deep Packet Inspection (DPI). Purtroppo, Stealth non è ancora disponibile su Windows o Linux.
 
 #### :material-check:{ .pg-green } Client Mobile
 
