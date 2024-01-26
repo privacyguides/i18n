@@ -52,7 +52,11 @@ cover: calendar.webp
         - [:simple-appstore: App Store](https://apps.apple.com/app/apple-store/id1514709943)
         - [:octicons-browser-16: Web](https://calendar.proton.me)
 
-Unfortunately, as of January 2024 Proton has [still](https://discuss.privacyguides.net/t/proton-calendar-is-not-open-source-mobile/14656/8) not released the source code for their mobile Calendar app on Android or iOS. Proton Calendar's web client is open source.
+但截至2024 年1 月，Proton
+
+仍然</ a>未發布 Android 或 iOS 上的行動日曆應用程式的源代碼。 Proton Calendar's web client is open source.</p> 
+
+
 
 ## 標準
 
@@ -61,10 +65,15 @@ Unfortunately, as of January 2024 Proton has [still](https://discuss.privacyguid
 !!! example "此部分是新的"
 
     我們正在努力為我們網站的每個部分建立定義的標準，這可能會有所變化。 如果您對我們的標準有任何疑問，請在 [論壇上提問](https://discuss.privacyguides.net/latest) ，如果沒有列出，請不要認為我們在提出建議時沒有考慮到某些事情。 當我們推薦一個項目時，有許多因素被考慮和討論，記錄每一個項目都是正在進行式。
+    
+
+
 
 ### 最低合格
 
 - 同步與儲存資訊必須使用 E2EE，以確保服務供應商無法看到。
+
+
 
 ### 最好的情况
 
