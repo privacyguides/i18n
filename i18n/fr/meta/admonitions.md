@@ -1,41 +1,41 @@
 ---
-title: Admonitions
+title: Avertissements
 ---
 
-**Admonitions** (or "call-outs") are a choice writers can use to include side content in an article without interrupting the document flow.
+**Les avertissements** (ou conseils) sont un choix que les rédacteurs peuvent utiliser pour inclure un contenu annexe dans un article sans interrompre le flux du document.
 
 <div class="admonition example" markdown>
-<p class="admonition-title">Example Admonition</p>
+<p class="admonition-title">Exemple d'avertissement</p>
 
-This is an example of an admonition. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla et euismod nulla. Curabitur feugiat, tortor non consequat finibus, justo purus auctor massa, nec semper lorem quam in massa.
+Ceci est un exemple d'avertissement. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla et euismod nulla. Curabitur feugiat, tortor non consequat finibus, justo purus auctor massa, nec semper lorem quam in massa.
 
 </div>
 
 <details class="example" markdown>
-<summary>Example Collapsible Admonition</summary>
+<summary>Exemple d'avertissement réduisible</summary>
 
-This is an example of a collapsible admonition. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla et euismod nulla. Curabitur feugiat, tortor non consequat finibus, justo purus auctor massa, nec semper lorem quam in massa.
+Ceci est un exemple d'avertissement réduisible. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla et euismod nulla. Curabitur feugiat, tortor non consequat finibus, justo purus auctor massa, nec semper lorem quam in massa.
 
 </details>
 
-## Formatting
+## Mise en forme
 
-To add an admonition to a page, you can use the following code:
+Pour ajouter un avertissement à une page, vous pouvez utiliser le code suivant :
 
 ```markdown title="Admonition"
 <div class="admonition TYPE" markdown>
-<p class="admonition-title">TITLE</p>
+<p class="admonition-title">TITRE</p>
 
-ENCLOSED TEXT
+TEXTE JOINT
 
 </div>
 ```
 
 ```markdown title="Collapsible Admonition"
 <details class="TYPE" markdown>
-<summary>TITLE</summary>
+<summary>TITRE</summary>
 
-ENCLOSED TEXT
+TEXTE JOINT
 
 </details>
 ```
