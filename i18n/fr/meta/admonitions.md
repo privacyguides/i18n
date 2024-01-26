@@ -12,9 +12,9 @@ Ceci est un exemple d'avertissement. Lorem ipsum dolor sit amet, consectetur adi
 </div>
 
 <details class="example" markdown>
-<summary>Exemple d'avertissement réduisible</summary>
+<summary>Exemple d'avertissement repliable</summary>
 
-Ceci est un exemple d'avertissement réduisible. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla et euismod nulla. Curabitur feugiat, tortor non consequat finibus, justo purus auctor massa, nec semper lorem quam in massa.
+Ceci est un exemple d'avertissement repliable. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla et euismod nulla. Curabitur feugiat, tortor non consequat finibus, justo purus auctor massa, nec semper lorem quam in massa.
 
 </details>
 
@@ -40,11 +40,11 @@ TEXTE JOINT
 </details>
 ```
 
-The `TITLE` must be specified, if you don't want a specific title you can set it to the same text as the `TYPE` (see below) in title case, e.g. `Note`. The `ENCLOSED TEXT` should be Markdown formatted.
+Le `TITRE` doit être spécifié, si vous ne voulez pas de titre spécifique, vous pouvez mettre le même texte que le `TYPE` (voir ci-dessous) en majuscule, par exemple `Note`. `TEXTE JOINT` doit être formaté en Markdown.
 
-### Regular types
+### Types ordinaires
 
-Replace `TYPE` in the examples above with one of the following:
+Remplacez `TYPE` dans les exemples ci-dessus par l'un des éléments suivants :
 
 #### `note`
 
@@ -154,26 +154,26 @@ Lorem ipsum dolor sit amet, consectetur adipiscing elit.
 
 </div>
 
-### Special Types
+### Type spéciaux
 
 #### `recommendation`
 
-This format is used to generate recommendation cards. Notably it is missing the `<p class="admonition-title">` element.
+Ce format est utilisé pour générer des cartes de recommandation. Il manque notamment l'élément `<p class="admonition-title">`.
 
 ```markdown title="Recommendation Card"
 <div class="admonition recommendation" markdown>
 
-![PhotoPrism logo](assets/img/photo-management/photoprism.svg){ align=right }
+![logo PhotoPrism](assets/img/photo-management/photoprism.svg){ align=right }
 
-**PhotoPrism** is a self-hostable platform for managing photos. It supports album syncing and sharing as well as a variety of other [features](https://www.photoprism.app/features). It does not include E2EE, so it's best hosted on a server that you trust and is under your control.
+**PhotoPrism** est une plateforme auto-hébergeable pour la gestion des photos. Elle prend en charge la synchronisation et le partage d'albums ainsi qu'une variété d'autres [fonctionnalités](https://www.photoprism.app/features). Elle ne fournit pas de E2EE, donc il est préférable de l'héberger sur un serveur de confiance et que vous contrôler.
 
-[:octicons-home-16: Homepage](https://www.photoprism.app){ .md-button .md-button--primary }
-[:octicons-eye-16:](https://www.photoprism.app/privacy){ .card-link title="Privacy Policy" }
+[:octicons-home-16: Page d'accueil](https://www.photoprism.app){ .md-button .md-button--primary }
+[:octicons-eye-16:](https://www.photoprism.app/privacy){ .card-link title="Politique de confidentialité" }
 [:octicons-info-16:](https://www.photoprism.app/kb){ .card-link title=Documentation}
-[:octicons-code-16:](https://github.com/photoprism){ .card-link title="Source Code" }
+[:octicons-code-16:](https://github.com/photoprism){ .card-link title="Code source" }
 
 <details class="downloads" markdown>
-<summary>Downloads</summary>
+<summary>Téléchargements</summary>
 
 - [:simple-github: GitHub](https://github.com/photoprism)
 
@@ -186,7 +186,7 @@ This format is used to generate recommendation cards. Notably it is missing the 
 
 <div class="admonition recommendation" markdown>
 
-![PhotoPrism logo](../assets/img/photo-management/photoprism.svg){ align=right }
+![logo PhotoPrism](../assets/img/photo-management/photoprism.svg){ align=right }
 
 **PhotoPrism** est une plateforme auto-hébergée pour la gestion des photos. Elle prend en charge la synchronisation et le partage d'albums ainsi qu'une variété d'autres [fonctionnalités](https://www.photoprism.app/features). Elle n'inclut pas l'E2EE, il est donc préférable de l'héberger sur un serveur en lequel vous avez confiance et que vous contrôlez.
 
@@ -208,11 +208,11 @@ This format is used to generate recommendation cards. Notably it is missing the 
 
 #### `downloads`
 
-This is a special type of collapsible admonition, used to generate the download links section. It is only used within recommendation cards, as shown in the example above.
+Il s'agit d'un type spécial d'avertissement repliable, utilisé pour générer la section des liens de téléchargement. Il n'est utilisé qu'à l'intérieur des cartes de recommandation, comme le montre l'exemple ci-dessus.
 
 ```markdown title="Downloads Section"
 <details class="downloads" markdown>
-<summary>Downloads</summary>
+<summary>Téléchargements</summary>
 
 - [:simple-googleplay: Google Play](https://play.google.com/store/apps/details?id=ch.protonmail.android)
 - [:simple-appstore: App Store](https://apps.apple.com/app/apple-store/id979659905)
@@ -242,9 +242,9 @@ This is a special type of collapsible admonition, used to generate the download 
 
 </div>
 
-## Old Format
+## Ancien format
 
-Throughout the site, you may see some admonitions formatted similarly to these examples:
+Tout au long du site, vous verrez peut-être des avertissements formatés de manière similaire à ces exemples :
 
 ```markdown title="Admonition"
 !!! note
@@ -268,7 +268,7 @@ massa, nec semper lorem quam in massa.
 </div>
 
 ```markdown title="Collapsible Admonition"
-??? example "Custom Title"
+??? example "Titre personnalisé"
 
     Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla et euismod
     nulla. Curabitur feugiat, tortor non consequat finibus, justo purus auctor
@@ -278,7 +278,7 @@ massa, nec semper lorem quam in massa.
 <div class="result" markdown>
 
 <details class="example" markdown>
-<summary>Custom Title</summary>
+<summary>Titre personnalisé</summary>
 
 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla et euismod
 nulla. Curabitur feugiat, tortor non consequat finibus, justo purus auctor
@@ -288,6 +288,6 @@ massa, nec semper lorem quam in massa.
 
 </div>
 
-**This format is no longer used going forward,** because it is incompatible with newer versions of our translation software at Crowdin. When adding a new page to the site, only the newer HTML-based format should be used.
+**Ce format n'est désormais plus utilisé**, car il est incompatible avec les nouvelles versions de notre logiciel de traduction chez Crowdin. Lors de l'ajout d'une nouvelle page sur le site, seul le format HTML le plus récent doit être utilisé.
 
-There is no rush to convert admonitions with the old format to the new format. Pages currently using this formatting should continue to work, but we will be updating them to use the newer HTML-based format above over time as we continue to update the site.
+Il n'y a pas d'urgence à convertir les avertissements de l'ancien format au nouveau format. Les pages qui utilisent actuellement ce format devraient continuer à fonctionner, mais nous les mettrons à jour pour utiliser le nouveau format HTML ci-dessus au fur et à mesure que nous continuerons à mettre le site à jour.
