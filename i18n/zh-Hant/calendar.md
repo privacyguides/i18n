@@ -54,7 +54,7 @@ cover: calendar.webp
 
 但截至2024 年1 月，Proton
 
-仍然</ a>未發布 Android 或 iOS 上的行動日曆應用程式的源代碼。 Proton Calendar's web client is open source.</p> 
+仍然</ a>未發布 Android 或 iOS 上的行動日曆應用程式的源代碼。 Proton Calendar's 網頁用戶端為開源碼。</p> 
 
 
 
