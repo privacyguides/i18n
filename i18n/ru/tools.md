@@ -355,13 +355,13 @@ description: Privacy Guides - это самый прозрачный и наде
 
 <div class="grid cards" markdown>
 
-- ![Логотип Akregator](assets/img/news-aggregators/akregator.svg){ .twemoji } [Akregator](news-aggregators.md#akregator)
-- ![Логотип Feeder](assets/img/news-aggregators/feeder.png){ .twemoji} [Feeder (Android)](news-aggregators.md#feeder)
-- ![Логотип Fluent Reader](assets/img/news-aggregators/fluent-reader.svg){ .twemoji } [Fluent Reader](news-aggregators.md#fluent-reader)
-- ![Логотип GNOME Feeds](assets/img/news-aggregators/gfeeds.svg){ .twemoji } [GNOME Feeds](news-aggregators.md#gnome-feeds)
-- ![Логотип Miniflux](assets/img/news-aggregators/miniflux.svg#only-light){ .twemoji }![Логотип Miniflux](assets/img/news-aggregators/miniflux-dark.svg#only-dark){ .twemoji } [Miniflux](news-aggregators.md#miniflux)
-- ![Логотип NetNewsWire](assets/img/news-aggregators/netnewswire.png){ .twemoji } [NetNewsWire](news-aggregators.md#netnewswire)
-- ![Логотип Newsboat](assets/img/news-aggregators/newsboat.svg){ .twemoji } [Newsboat](news-aggregators.md#newsboat)
+- ![Akregator logo](assets/img/news-aggregators/akregator.svg){ .twemoji } [Akregator](news-aggregators.md#akregator)
+- ![NewsFlash logo](assets/img/news-aggregators/newsflash.png){ .twemoji } [NewsFlash](news-aggregators.md#newsflash)
+- ![Feeder logo](assets/img/news-aggregators/feeder.png){ .twemoji} [Feeder (Android)](news-aggregators.md#feeder)
+- ![Fluent Reader logo](assets/img/news-aggregators/fluent-reader.svg){ .twemoji } [Fluent Reader](news-aggregators.md#fluent-reader)
+- ![Miniflux logo](assets/img/news-aggregators/miniflux.svg#only-light){ .twemoji }![Miniflux logo](assets/img/news-aggregators/miniflux-dark.svg#only-dark){ .twemoji } [Miniflux](news-aggregators.md#miniflux)
+- ![NetNewsWire logo](assets/img/news-aggregators/netnewswire.png){ .twemoji } [NetNewsWire](news-aggregators.md#netnewswire)
+- ![Newsboat logo](assets/img/news-aggregators/newsboat.svg){ .twemoji } [Newsboat](news-aggregators.md#newsboat)
 
 </div>
 

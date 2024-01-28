@@ -27,6 +27,21 @@ cover: news-aggregators.webp
     
         - [:simple-flathub: Flathub](https://flathub.org/apps/details/org.kde.akregator)
 
+### NewsFlash
+
+!!! recommendation
+
+    ![NewsFlash logo](assets/img/news-aggregators/newsflash.png){ align=right }
+    
+    **NewsFlash** is an open-source, modern, simple and easy to use GTK4 news feed reader for Linux. It can be used offline or used with services like [NextCloud News](https://apps.nextcloud.com/apps/news) or [Inoreader](https://inoreader.com). It has a search feature and even a pre-defined list of sources like [TechCrunch](https://techcrunch.com) that you can add directly. It is only available as a Flatpak (on the Flathub repository).
+    
+    [:octicons-repo-16: Repository](https://gitlab.com/news-flash/news_flash_gtk){ .md-button .md-button--primary }
+    [:octicons-code-16:](https://gitlab.com/news-flash/news_flash_gtk){ .card-link title="Source Code" }
+    
+    ??? downloads
+    
+        - [:simple-flathub: Flathub](https://flathub.org/apps/io.gitlab.news_flash.NewsFlash)
+
 ### Feeder
 
 !!! recommendation
@@ -61,23 +76,6 @@ cover: news-aggregators.webp
     
         - [:simple-windows11: Windows](https://hyliu.me/fluent-reader)
         - [:simple-appstore: App Store](https://apps.apple.com/app/id1520907427)
-
-### Umpan GNOME
-
-!!! recommendation
-
-    ![Logo GNOME Feeds](assets/img/news-aggregators/gfeeds.svg){ align=right }
-    
-    **GNOME Feeds** adalah pembaca berita [RSS](https://en.wikipedia.org/wiki/RSS) dan [Atom](https://en.wikipedia.org/wiki/Atom_(Web_standard)) untuk [GNOME](https://www.gnome.org). Memiliki antarmuka yang sederhana dan cukup cepat.
-    
-    [:octicons-home-16: Homepage](https://gfeeds.gabmus.org){ .md-button .md-button--primary }
-    [:octicons-code-16:](https://gitlab.gnome.org/World/gfeeds){ .card-link title="Kode Sumber" }
-    [:octicons-heart-16:](https://liberapay.com/gabmus/){ .card-link title=Kontribusi }
-    
-    ??? downloads
-    
-        - [:simple-linux: Linux](https://gfeeds.gabmus.org/#install)
-        - [:simple-flathub: Flathub](https://flathub.org/apps/details/org.gabmus.gfeeds)
 
 ### Miniflux
 
@@ -165,7 +163,7 @@ Dengan menggunakan salah satu Nitter [server](https://github.com/zedeus/nitter/w
 
 Anda dapat berlangganan saluran YouTube tanpa masuk dan mengaitkan informasi penggunaan dengan Akun Google Anda.
 
-!!! contoh
+!!! example
 
     Untuk berlangganan saluran YouTube dengan klien RSS, pertama-tama cari [kode saluran](https://support.google.com/youtube/answer/6180214). Kode saluran dapat ditemukan di halaman tentang saluran YouTube yang ingin Anda langgani, di bawah: **Tentang** > **Bagikan** > **Salin ID saluran**. Ganti `[CHANNEL ID]` di bawah ini:
 

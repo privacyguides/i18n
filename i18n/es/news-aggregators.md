@@ -27,6 +27,21 @@ Un [lector de noticias](https://en.wikipedia.org/wiki/News_aggregator) es una ma
     
         - [:simple-flathub: Flathub](https://flathub.org/apps/details/org.kde.akregator)
 
+### NewsFlash
+
+!!! recommendation
+
+    ![NewsFlash logo](assets/img/news-aggregators/newsflash.png){ align=right }
+    
+    **NewsFlash** is an open-source, modern, simple and easy to use GTK4 news feed reader for Linux. It can be used offline or used with services like [NextCloud News](https://apps.nextcloud.com/apps/news) or [Inoreader](https://inoreader.com). It has a search feature and even a pre-defined list of sources like [TechCrunch](https://techcrunch.com) that you can add directly. It is only available as a Flatpak (on the Flathub repository).
+    
+    [:octicons-repo-16: Repository](https://gitlab.com/news-flash/news_flash_gtk){ .md-button .md-button--primary }
+    [:octicons-code-16:](https://gitlab.com/news-flash/news_flash_gtk){ .card-link title="Source Code" }
+    
+    ??? downloads
+    
+        - [:simple-flathub: Flathub](https://flathub.org/apps/io.gitlab.news_flash.NewsFlash)
+
 ### Feeder
 
 !!! recommendation
@@ -61,23 +76,6 @@ Un [lector de noticias](https://en.wikipedia.org/wiki/News_aggregator) es una ma
     
         - [:simple-windows11: Windows](https://hyliu.me/fluent-reader)
         - [:simple-appstore: App Store](https://apps.apple.com/app/id1520907427)
-
-### GNOME Feeds
-
-!!! recommendation
-
-    ![GNOME Feeds logo](assets/img/news-aggregators/gfeeds.svg){ align=right }
-    
-    **GNOME Feeds** es un lector de noticias de [RSS](https://es.wikipedia.org/wiki/RSS) y [Atom](https://es.wikipedia.org/wiki/Atom_(formato_de_redifusi%C3%B3n)) para [GNOME](https://www.gnome.org). Tiene una interfaz sencilla y es bastante rápido.
-    
-    [:octicons-home-16: Página Principal](https://gfeeds.gabmus.org){ .md-button .md-button--primary }
-    [:octicons-code-16:](https://gitlab.gnome.org/World/gfeeds){ .card-link title="Código Fuente" }
-    [:octicons-heart-16:](https://liberapay.com/gabmus/){ .card-link title=Contribuir }
-    
-    ??? downloads "Descargas"
-    
-        - [:simple-linux: Linux](https://gfeeds.gabmus.org/#install)
-        - [:simple-flathub: Flathub](https://flathub.org/apps/details/org.gabmus.gfeeds)
 
 ### Miniflux
 
@@ -153,7 +151,7 @@ Reddit le permite suscribirse a subreddits a través de RSS.
 
 Utilizando cualquiera de las [instancias](https://github.com/zedeus/nitter/wiki/Instances) de Nitter puede suscribirse fácilmente mediante RSS.
 
-!!! example "Ejemplo"
+!!! example
     1. Elija una instancia y ponga `nitter_instance`.
     2. Sustituya `twitter_account` por el nombre de la cuenta.
 
@@ -165,7 +163,7 @@ Utilizando cualquiera de las [instancias](https://github.com/zedeus/nitter/wiki/
 
 Puede suscribirse a los canales de YouTube sin iniciar sesión ni asociar la información de uso con su cuenta de Google.
 
-!!! example "Ejemplo"
+!!! example
 
     Para suscribirse a un canal de YouTube con un cliente RSS, busque primero su [código de canal](https://support.google.com/youtube/answer/6180214). El código del canal se encuentra en la página "Acerca de" del canal de YouTube al que desea suscribirse: **Información** > **Compartir** > **Copiar ID de canal**. Sustituya el `[ID DE CANAL]` a continuación:
 

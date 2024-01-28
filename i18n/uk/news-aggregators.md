@@ -27,6 +27,21 @@ A [news aggregator](https://en.wikipedia.org/wiki/News_aggregator) is a way to k
     
         - [:simple-flathub: Flathub](https://flathub.org/apps/details/org.kde.akregator)
 
+### NewsFlash
+
+!!! рекомендації
+
+    ![NewsFlash logo](assets/img/news-aggregators/newsflash.png){ align=right }
+    
+    **NewsFlash** is an open-source, modern, simple and easy to use GTK4 news feed reader for Linux. It can be used offline or used with services like [NextCloud News](https://apps.nextcloud.com/apps/news) or [Inoreader](https://inoreader.com). It has a search feature and even a pre-defined list of sources like [TechCrunch](https://techcrunch.com) that you can add directly. It is only available as a Flatpak (on the Flathub repository).
+    
+    [:octicons-repo-16: Repository](https://gitlab.com/news-flash/news_flash_gtk){ .md-button .md-button--primary }
+    [:octicons-code-16:](https://gitlab.com/news-flash/news_flash_gtk){ .card-link title="Source Code" }
+    
+    ??? downloads
+    
+        - [:simple-flathub: Flathub](https://flathub.org/apps/io.gitlab.news_flash.NewsFlash)
+
 ### Feeder
 
 !!! рекомендації
@@ -61,23 +76,6 @@ A [news aggregator](https://en.wikipedia.org/wiki/News_aggregator) is a way to k
     
         - [:simple-windows11: Windows](https://hyliu.me/fluent-reader)
         - [:simple-appstore: App Store](https://apps.apple.com/app/id1520907427)
-
-### GNOME Feeds
-
-!!! рекомендації
-
-    ![GNOME Feeds logo](assets/img/news-aggregators/gfeeds.svg){ align=right }
-    
-    **GNOME Feeds** is an [RSS](https://en.wikipedia.org/wiki/RSS) and [Atom](https://en.wikipedia.org/wiki/Atom_(Web_standard)) news reader for [GNOME](https://www.gnome.org). It has a simple interface and is quite fast.
-    
-    [:octicons-home-16: Homepage](https://gfeeds.gabmus.org){ .md-button .md-button--primary }
-    [:octicons-code-16:](https://gitlab.gnome.org/World/gfeeds){ .card-link title="Source Code" }
-    [:octicons-heart-16:](https://liberapay.com/gabmus/){ .card-link title=Contribute }
-    
-    ??? downloads
-    
-        - [:simple-linux: Linux](https://gfeeds.gabmus.org/#install)
-        - [:simple-flathub: Flathub](https://flathub.org/apps/details/org.gabmus.gfeeds)
 
 ### Miniflux
 

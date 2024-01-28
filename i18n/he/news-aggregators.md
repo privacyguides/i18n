@@ -27,6 +27,21 @@ cover: news-aggregators.webp
     
         - [:simple-flathub: Flathub](https://flathub.org/apps/details/org.kde.akregator)
 
+### NewsFlash
+
+!!! recommendation
+
+    ![NewsFlash logo](assets/img/news-aggregators/newsflash.png){ align=right }
+    
+    **NewsFlash** is an open-source, modern, simple and easy to use GTK4 news feed reader for Linux. It can be used offline or used with services like [NextCloud News](https://apps.nextcloud.com/apps/news) or [Inoreader](https://inoreader.com). It has a search feature and even a pre-defined list of sources like [TechCrunch](https://techcrunch.com) that you can add directly. It is only available as a Flatpak (on the Flathub repository).
+    
+    [:octicons-repo-16: Repository](https://gitlab.com/news-flash/news_flash_gtk){ .md-button .md-button--primary }
+    [:octicons-code-16:](https://gitlab.com/news-flash/news_flash_gtk){ .card-link title="Source Code" }
+    
+    ??? downloads
+    
+        - [:simple-flathub: Flathub](https://flathub.org/apps/io.gitlab.news_flash.NewsFlash)
+
 ### Feeder
 
 !!! recommendation
@@ -61,23 +76,6 @@ cover: news-aggregators.webp
     
         - [:simple-windows11: Windows](https://hyliu.me/fluent-reader)
         - [:simple-appstore: App Store](https://apps.apple.com/app/id1520907427)
-
-### GNOME Feeds
-
-!!! recommendation
-
-    ![GNOME Feeds לוגו](assets/img/news-aggregators/gfeeds.svg){ align=right }
-    
-    **Feeds GNOME** הם [RSS](https://en.wikipedia.org/wiki/RSS) ו-[Atom](https://en.wikipedia.org/wiki/Atom_(Web_standard)) קורא חדשות עבור [GNOME](https://www.gnome.org). יש לו ממשק פשוט והוא די מהיר.
-    
-    [:octicons-home-16: Homepage](https://gfeeds.gabmus.org){ .md-button .md-button--primary }
-    [:octicons-code-16:](https://gitlab.gnome.org/World/gfeeds){ .card-link title="Source Code" }
-    [:octicons-heart-16:](https://liberapay.com/gabmus/){ .card-link title=Contribute }
-    
-    ??? downloads "הורדות"
-    
-        - [:simple-linux: Linux](https://gfeeds.gabmus.org/#install)
-        - [:simple-flathub: Flathub](https://flathub.org/apps/details/org.gabmus.gfeeds)
 
 ### Miniflux
 
@@ -153,7 +151,7 @@ Reddit מאפשר לך להירשם ל subreddits באמצעות RSS.
 
 באמצעות כל אחד מ[מופעים](https://github.com/zedeus/nitter/wiki/Instances) של Nitter תוכל להירשם בקלות באמצעות RSS.
 
-!!! example "דוגמא"
+!!! example
     1. בחר מופע והגדר `nitter_instance`.
     2. החלף את `twitter_account` בשם החשבון.
 
@@ -165,7 +163,7 @@ Reddit מאפשר לך להירשם ל subreddits באמצעות RSS.
 
 אתה יכול להירשם לערוצי יוטיוב מבלי להתחבר ולשייך פרטי שימוש לחשבון גוגל שלך.
 
-!!! example "דוגמא"
+!!! example
 
     כדי להירשם לערוץ יוטיוב עם לקוח RSS, חפש תחילה את [קוד הערוץ] שלו (https://support.google.com/youtube/answer/6180214). ניתן למצוא את קוד הערוץ בדף אודות של ערוץ יוטיוב שאליו ברצונך להירשם, תחת: **אודות** > **שתף** > **העתקת מזהה ערוץ**. החלף את `[מזהה ערוץ]` למטה:
 

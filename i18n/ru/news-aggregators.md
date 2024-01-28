@@ -27,6 +27,21 @@ cover: news-aggregators.webp
     
         - [:simple-flathub: Flathub](https://flathub.org/apps/details/org.kde.akregator)
 
+### NewsFlash
+
+!!! recommendation
+
+    ![NewsFlash logo](assets/img/news-aggregators/newsflash.png){ align=right }
+    
+    **NewsFlash** is an open-source, modern, simple and easy to use GTK4 news feed reader for Linux. It can be used offline or used with services like [NextCloud News](https://apps.nextcloud.com/apps/news) or [Inoreader](https://inoreader.com). It has a search feature and even a pre-defined list of sources like [TechCrunch](https://techcrunch.com) that you can add directly. It is only available as a Flatpak (on the Flathub repository).
+    
+    [:octicons-repo-16: Repository](https://gitlab.com/news-flash/news_flash_gtk){ .md-button .md-button--primary }
+    [:octicons-code-16:](https://gitlab.com/news-flash/news_flash_gtk){ .card-link title="Source Code" }
+    
+    ??? downloads
+    
+        - [:simple-flathub: Flathub](https://flathub.org/apps/io.gitlab.news_flash.NewsFlash)
+
 ### Feeder
 
 !!! recommendation
@@ -61,23 +76,6 @@ cover: news-aggregators.webp
     
         - [:simple-windows11: Windows](https://hyliu.me/fluent-reader)
         - [:simple-appstore: App Store](https://apps.apple.com/app/id1520907427)
-
-### GNOME Feeds
-
-!!! recommendation
-
-    ![Логотип GNOME Feeds](assets/img/news-aggregators/gfeeds.svg){ align=right }
-    
-    **GNOME Feeds** - это программа для чтения новостей [RSS](https://ru.wikipedia.org/wiki/RSS) и [Atom](https://ru.wikipedia.org/wiki/Atom) для [GNOME](https://www.gnome.org). Он имеет простой интерфейс и работает довольно быстро.
-    
-    [:octicons-home-16: Домашняя страница](https://gfeeds.gabmus.org){ .md-button .md-button--primary }
-    [:octicons-code-16:](https://gitlab.gnome.org/World/gfeeds){ .card-link title="Исходный код" }
-    [:octicons-heart-16:](https://liberapay.com/gabmus/){ .card-link title=Поддержать }
-    
-    ??? downloads "Скачать"
-    
-        - [:simple-linux: Linux](https://gfeeds.gabmus.org/#install)
-        - [:simple-flathub: Flathub](https://flathub.org/apps/details/org.gabmus.gfeeds)
 
 ### Miniflux
 
@@ -165,7 +163,7 @@ Reddit позволяет подписываться на сабреддиты �
 
 Вы можете подписаться на каналы YouTube, не входя в систему и не связывая информацию об использовании с вашей учетной записью Google.
 
-!!! example "Пример"
+!!! example
 
     Чтобы подписаться на YouTube-канал с помощью RSS-клиента, сначала найдите [идентификатор канала](https://support.google.com/youtube/answer/6180214?hl=ru). Идентификатор канала можно найти на странице YouTube-канала, на который вы хотите подписаться, в разделе: **О канале** > **Кнопка поделиться** > **Скопировать идентификатор канала**. Замените `[Идентификатор канала]` ниже:
 

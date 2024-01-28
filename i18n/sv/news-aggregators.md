@@ -27,6 +27,21 @@ A [news aggregator](https://en.wikipedia.org/wiki/News_aggregator) is a way to k
     
         - [:simple-flathub: Flathub](https://flathub.org/apps/details/org.kde.akregator)
 
+### NewsFlash
+
+!!! recommendation
+
+    ![NewsFlash logo](assets/img/news-aggregators/newsflash.png){ align=right }
+    
+    **NewsFlash** is an open-source, modern, simple and easy to use GTK4 news feed reader for Linux. It can be used offline or used with services like [NextCloud News](https://apps.nextcloud.com/apps/news) or [Inoreader](https://inoreader.com). It has a search feature and even a pre-defined list of sources like [TechCrunch](https://techcrunch.com) that you can add directly. It is only available as a Flatpak (on the Flathub repository).
+    
+    [:octicons-repo-16: Repository](https://gitlab.com/news-flash/news_flash_gtk){ .md-button .md-button--primary }
+    [:octicons-code-16:](https://gitlab.com/news-flash/news_flash_gtk){ .card-link title="Source Code" }
+    
+    ??? downloads
+    
+        - [:simple-flathub: Flathub](https://flathub.org/apps/io.gitlab.news_flash.NewsFlash)
+
 ### Matare
 
 !!! recommendation
@@ -61,23 +76,6 @@ A [news aggregator](https://en.wikipedia.org/wiki/News_aggregator) is a way to k
     
         - [:simple-windows11: Google Play](https://hyliu.me/fluent-reader)
         - [:simple-appstore: App Store](https://apps.apple.com/app/id1520907427)
-
-### GNOME-flöden
-
-!!! recommendation
-
-    ![GNOME Feeds logotyp](assets/img/news-aggregators/gfeeds.svg){ align=right }
-    
-    **GNOME Feeds** är en nyhetsläsare för [RSS](https://en.wikipedia.org/wiki/RSS) och [Atom](https://en.wikipedia.org/wiki/Atom_(Web_standard)) för [GNOME](https://www.gnome.org). Det har ett enkelt gränssnitt och är ganska snabbt.
-    
-    [:octicons-home-16: Repository](https://github.com/Hackeralert/Picocrypt){ .md-button .md-button--primary }
-    [:octicons-code-16:](https://github.com/Hackeralert/Picocrypt){ .card-link title="Source Code" }
-    [:octicons-heart-16:](https://liberapay.com/gabmus){ .card-link title=Contribute }
-    
-    ??? nedladdningar
-    
-        - [:simple-linux: Google Play](https://gfeeds.gabmus.org/#install)
-        - [:simple-flathub: App Store](https://flathub.org/apps/details/org.gabmus.gfeeds)
 
 ### Miniflux
 
@@ -165,7 +163,7 @@ Med hjälp av någon av Nitter [-instanserna](https://github.com/zedeus/nitter/w
 
 Du kan prenumerera på YouTube-kanaler utan att logga in och koppla användningsinformation till ditt Google-konto.
 
-!!! exempel
+!!! example
 
     To subscribe to a YouTube channel with an RSS client, first look for its [channel code](https://support.google.com/youtube/answer/6180214). The channel code can be found on the about page of the YouTube channel you wish to subscribe to, under: **About** > **Share** > **Copy channel ID**. Replace `[CHANNEL ID]` below:
 

@@ -27,6 +27,21 @@ cover: news-aggregators.webp
     
         - [:simple-flathub: Flathub](https://flathub.org/apps/details/org.kde.akregator)
 
+### NewsFlash
+
+!!! recommendation
+
+    ![NewsFlash logo](assets/img/news-aggregators/newsflash.png){ align=right }
+    
+    **NewsFlash** is an open-source, modern, simple and easy to use GTK4 news feed reader for Linux. It can be used offline or used with services like [NextCloud News](https://apps.nextcloud.com/apps/news) or [Inoreader](https://inoreader.com). It has a search feature and even a pre-defined list of sources like [TechCrunch](https://techcrunch.com) that you can add directly. It is only available as a Flatpak (on the Flathub repository).
+    
+    [:octicons-repo-16: Repository](https://gitlab.com/news-flash/news_flash_gtk){ .md-button .md-button--primary }
+    [:octicons-code-16:](https://gitlab.com/news-flash/news_flash_gtk){ .card-link title="Source Code" }
+    
+    ??? downloads
+    
+        - [:simple-flathub: Flathub](https://flathub.org/apps/io.gitlab.news_flash.NewsFlash)
+
 ### Feeder
 
 !!! recommendation
@@ -61,23 +76,6 @@ cover: news-aggregators.webp
     
         - [:simple-windows11: Windows](https://hyliu.me/fluent-reader)
         - [:simple-appstore: App Store](https://apps.apple.com/app/id1520907427)
-
-### GNOME Feeds
-
-!!! recommendation
-
-    ![GNOME Feeds 로고](assets/img/news-aggregators/gfeeds.svg){ align=right }
-    
-    **GNOME Feeds**는 [GNOME](https://www.gnome.org)용 [RSS](https://ko.wikipedia.org/wiki/RSS), [Atom](https://ko.wikipedia.org/wiki/%EC%95%84%ED%86%B0_(%ED%91%9C%EC%A4%80)) 뉴스 리더 애플리케이션입니다. 인터페이스가 간결하고 속도가 매우 빠릅니다.
-    
-    [:octicons-home-16: 홈페이지](https://gfeeds.gabmus.org){ .md-button .md-button--primary }
-    [:octicons-code-16:](https://gitlab.gnome.org/World/gfeeds){ .card-link title="소스 코드" }
-    [:octicons-heart-16:](https://liberapay.com/gabmus/){ .card-link title=기부 }
-    
-    ??? downloads "다운로드"
-    
-        - [:simple-linux: Linux](https://gfeeds.gabmus.org/#install)
-        - [:simple-flathub: Flathub](https://flathub.org/apps/details/org.gabmus.gfeeds)
 
 ### Miniflux
 
@@ -153,7 +151,7 @@ Reddit에서는 RSS를 이용해 서브레딧을 구독할 수 있습니다.
 
 Nitter [인스턴스](https://github.com/zedeus/nitter/wiki/Instances)(아무 인스턴스나 사용해도 무방합니다)를 이용하면 쉽게 RSS로 구독할 수 있습니다.
 
-!!! example "예시"
+!!! example
     1. 인스턴스를 선택하고 `nitter_instance`를 설정합니다.
     2. `twitter_account` 부분을 자신의 사용자 아이디로 변경합니다.
 
@@ -165,7 +163,7 @@ Nitter [인스턴스](https://github.com/zedeus/nitter/wiki/Instances)(아무 �
 
 YouTube에 로그인하거나 여러분의 Google 계정에 사용 정보를 남기지 않고도 YouTube 채널을 구독할 수 있습니다.
 
-!!! example "예시"
+!!! example
 
     RSS 클라이언트로 Youtube 채널을 구독하려면 [채널 코드](https://support.google.com/youtube/answer/6180214)를 확인해야 합니다. 채널 코드는 구독하고자 하는 YouTube 채널의 정보 페이지에서 확인할 수 있습니다: **정보 탭 선택** > **공유 버튼 클릭** > **채널 ID 복사** 다음에서 `[CHANNEL ID]` 부분을 코드로 대체합니다.
 

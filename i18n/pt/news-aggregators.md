@@ -28,6 +28,22 @@ Um [agregador de notícias](https://en.wikipedia.org/wiki/News_aggregator) é um
     
         - [:simple-flathub: Flathub](https://flathub.org/apps/details/org.kde.akregator)
 
+### NewsFlash
+
+!!! nota
+    Consulte o [Tabela de Hardware](https://openwrt.org/toh/start) para verificar se o seu dispositivo é suportado.
+
+    ![NewsFlash logo](assets/img/news-aggregators/newsflash.png){ align=right }
+    
+    **NewsFlash** is an open-source, modern, simple and easy to use GTK4 news feed reader for Linux. It can be used offline or used with services like [NextCloud News](https://apps.nextcloud.com/apps/news) or [Inoreader](https://inoreader.com). It has a search feature and even a pre-defined list of sources like [TechCrunch](https://techcrunch.com) that you can add directly. It is only available as a Flatpak (on the Flathub repository).
+    
+    [:octicons-repo-16: Repository](https://gitlab.com/news-flash/news_flash_gtk){ .md-button .md-button--primary }
+    [:octicons-code-16:](https://gitlab.com/news-flash/news_flash_gtk){ .card-link title="Source Code" }
+    
+    ??? downloads
+    
+        - [:simple-flathub: Flathub](https://flathub.org/apps/io.gitlab.news_flash.NewsFlash)
+
 ### Feeder
 
 !!! nota
@@ -64,24 +80,6 @@ Um [agregador de notícias](https://en.wikipedia.org/wiki/News_aggregator) é um
     
         - [:simple-windows11: Windows](https://hyliu.me/fluent-reader)
         - [:simple-appstore: App Store](https://apps.apple.com/app/id1520907427)
-
-### GNOME Feeds
-
-!!! nota
-    Consulte o [Tabela de Hardware](https://openwrt.org/toh/start) para verificar se o seu dispositivo é suportado.
-
-    ![Logotipo GNOME Feeds](assets/img/news-aggregators/gfeeds.svg){ align=right }
-    
-    O **GNOME Feeds** é um leitor de notícias [RSS](https://en.wikipedia.org/wiki/RSS) e [Atom](https://en.wikipedia.org/wiki/Atom_(Web_standard)) para [GNOME](https://www.gnome.org). Tem uma interface simples e é bastante rápida.
-    
-    [:octicons-home-16: Homepage](https://gfeeds.gabmus.org){ .md-button .md-button--primary }
-    [:octicons-code-16:](https://gitlab.gnome.org/World/gfeeds){ .card-link title="Código-fonte" }
-    [:octicons-heart-16:](https://liberapay.com/gabmus/){ .card-link title=Contribuir }
-    
-    ??? downloads
-    
-        - [:simple-linux: Linux](https://gfeeds.gabmus.org/#install)
-        - [:simple-flathub: Flathub](https://flathub.org/apps/details/org.gabmus.gfeeds)
 
 ### Miniflux
 
@@ -172,7 +170,7 @@ Utilizando qualquer uma das [instâncias do Nitter](https://github.com/zedeus/ni
 
 Pode subscrever canais do YouTube sem iniciar sessão e associar informações de utilização à sua conta Google.
 
-!!! exemplo
+!!! example
 
     To subscribe to a YouTube channel with an RSS client, first look for its [channel code](https://support.google.com/youtube/answer/6180214). The channel code can be found on the about page of the YouTube channel you wish to subscribe to, under: **About** > **Share** > **Copy channel ID**. Replace `[CHANNEL ID]` below:
 

@@ -27,6 +27,21 @@ cover: news-aggregators.webp
     
         - [:simple-flathub: Flathub](https://flathub.org/apps/details/org.kde.akregator)
 
+### NewsFlash
+
+!!! recommendation
+
+    ![NewsFlash logo](assets/img/news-aggregators/newsflash.png){ align=right }
+    
+    **NewsFlash** is an open-source, modern, simple and easy to use GTK4 news feed reader for Linux. It can be used offline or used with services like [NextCloud News](https://apps.nextcloud.com/apps/news) or [Inoreader](https://inoreader.com). It has a search feature and even a pre-defined list of sources like [TechCrunch](https://techcrunch.com) that you can add directly. It is only available as a Flatpak (on the Flathub repository).
+    
+    [:octicons-repo-16: Repository](https://gitlab.com/news-flash/news_flash_gtk){ .md-button .md-button--primary }
+    [:octicons-code-16:](https://gitlab.com/news-flash/news_flash_gtk){ .card-link title="Source Code" }
+    
+    ??? downloads
+    
+        - [:simple-flathub: Flathub](https://flathub.org/apps/io.gitlab.news_flash.NewsFlash)
+
 ### Feeder
 
 !!! recommendation
@@ -61,23 +76,6 @@ cover: news-aggregators.webp
     
         - [:simple-windows11: Windows](https://hyliu.me/fluent-reader)
         - [:simple-appstore: App Store](https://apps.apple.com/app/id1520907427)
-
-### GNOME Feeds
-
-!!! recommendation
-
-    ![GNOME Feeds logo](assets/img/news-aggregators/gfeeds.svg){ align=right }
-    
-    **GNOME Feeds** 是 [RSS](https://en.wikipedia.org/wiki/RSS)和 [Atom](https://en.wikipedia.org/wiki/Atom_(Web_standard)) 新聞閱讀器，適用於 [GNOME](https://www.gnome.org)。 它的界面很簡單，執行快速。
-    
-    [:octicons-home-16: Homepage](https://gfeeds.gabmus.org){ .md-button .md-button--primary }
-    [:octicons-code-16:](https://gitlab.gnome.org/World/gfeeds){ .card-link title="Source Code" }
-    [:octicons-heart-16:](https://liberapay.com/gabmus/){ .card-link title=Contribute }
-    
-    ??? downloads "下載"
-    
-        - [:simple-linux: Linux](https://gfeeds.gabmus.org/#install)
-        - [:simple-flathub: Flathub](https://flathub.org/apps/details/org.gabmus.gfeeds)
 
 ### Miniflux
 
@@ -165,7 +163,7 @@ Reddit 允許您通過 RSS 訂閱 subreddits。
 
 您可以訂閱  YouTube頻道而無需登入，不會把使用情況資訊與Google 帳戶關聯。
 
-!!! example "例子"
+!!! example
 
     欲透過 RSS 軟體訂閱 YouTube 頻，首先檢查該頻道的 [頻道代號](https://support.google.com/youtube/answer/6180214). 頻道代號可在其"關於"頁面找到，請到: **關於** > **分享** > **複製頻道 ID**. 替換下方 `[CHANNEL ID]`:
 
