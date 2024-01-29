@@ -20,7 +20,7 @@ cover: vpn.webp
 
     使用 VPN 將 **不會** 讓您的瀏覽習慣被匿名，也不會替不安全（ HTTP ）流量增加額外的安全性。
     
-    If you are looking for **anonymity**, you should use the Tor Browser.
+    如果追求的是 **匿名性** ，應該使用 Tor 瀏覽器。
     
     如果要的是更多 **安全性** ，您應該確保您全程使用 HTTPS 連接到網站。 VPN 不能取代良好的安全措施。
     
@@ -53,12 +53,12 @@ cover: vpn.webp
         - [:simple-windows11: Windows](https://protonvpn.com/download-windows)
         - [:simple-linux: Linux](https://protonvpn.com/support/linux-vpn-setup/)
 
-#### :material-check:{ .pg-green } 71 Countries
+#### :material-check:{ .pg-green } 71 個國家
 
-Proton VPN has [servers in 71 countries](https://protonvpn.com/vpn-servers) [or 3 if you use their free plan](https://protonvpn.com/free-vpn).(1) Picking a VPN provider with a server nearest to you will reduce latency of the network traffic you send. 這是因為到目的地的路線較短（跳數較少）。
+Proton VPN 在73個國家/地區設有 [伺服器](https://protonvpn.com/vpn-servers). (1)選擇距離您最近的伺服器的VPN供應商，將減少您網路流量的延遲。 這是因為到目的地的路線較短（跳數較少）。
 { .annotate }
 
-1. Last checked: 2023-12-21
+1. 上次檢查日期： 2023-12-21
 
 我們認為，如果 VPN 提供商使用 [專用伺服器](https://en.wikipedia.org/wiki/Dedicated_hosting_service)，而不是更便宜（與其他客戶共享)的解決方案 ，例如 [虛擬專用服務器](https://en.wikipedia.org/wiki/Virtual_private_server)，則 VPN提供商的私鑰更安全。
 
@@ -84,9 +84,9 @@ Proton VPN [建議](https://protonvpn.com/blog/wireguard/) 搭配 WireGuard 使�
 
 Proton VPN 目前僅支援暫寺性NAT-PMP遠方 [連接埠轉發](https://protonvpn.com/support/port-forwarding/)期間為 60 秒。 Windows 應用提供簡易使用選項，而其它作業系統則需運行 [NAT-PMP 客戶端](https://protonvpn.com/support/port-forwarding-manual-setup/)。 Torrent 應用往往支援 NAT-PMP 原生。
 
-#### :material-information-outline:{ .pg-blue } Censorship Circumvention
+#### :material-information-outline:{ .pg-blue } 審查規避
 
-Proton VPN has their [Stealth](https://protonvpn.com/blog/stealth-vpn-protocol/) protocol which helps in situations where VPN protocols like OpenVPN or Wireguard are blocked. Stealth works by using an obfuscated TLS tunnel over TCP making it more difficult for deep packet inspection (DPI) to block. Unfortunately, Stealth is not yet available on Windows or Linux.
+Proton VPN 有自己的[Stealth](https://protonvpn.com/blog/stealth-vpn-protocol/) 協定，在其它 VPN 協定如 OpenVPN, Wireguard 遭封鎖時可協助。 Stealth 使用混淆的 TLS 隧道而不是TCP 因此不易進行深度封包檢查 (DPI)的封鎖方法。 可惜 Stealth 尚無法用在 Windows 與 Linux。
 
 #### :material-check:{ .pg-green } 手機客戶端
 
@@ -122,12 +122,12 @@ Intel 處理器的 Mac 電腦 若用 VPN killswitch 會發生 [系統崩潰](htt
         - [:simple-apple: macOS](https://www.ivpn.net/apps-macos/)
         - [:simple-linux: Linux](https://www.ivpn.net/apps-linux/)
 
-#### :material-check:{ .pg-green } 37 Countries
+#### :material-check:{ .pg-green } 37 個國家
 
-IVPN has [servers in 37 countries](https://www.ivpn.net/server-locations).(1) Picking a VPN provider with a server nearest to you will reduce latency of the network traffic you send. 這是因為到目的地的路線較短（跳數較少）。
+IVPN 在 37 個國家/地區擁有 [伺服器](https://www.ivpn.net/server-locations)。 (1)選擇離最近的伺服器 VPN 供應商，將減少發送網路流量的延遲。 這是因為到目的地的路線較短（跳數較少）。
 { .annotate }
 
-1. Last checked: 2023-12-21
+1. 上次檢查日期： 2023-12-21
 
 我們認為，如果 VPN 提供商使用 [專用伺服器](https://en.wikipedia.org/wiki/Dedicated_hosting_service)，而不是更便宜（與其他客戶共享)的解決方案 ，例如 [虛擬專用服務器](https://en.wikipedia.org/wiki/Virtual_private_server)，則 VPN提供商的私鑰更安全。
 
@@ -165,9 +165,9 @@ IVPN 之前支援向前轉發，但於[2023年6月](https://www.ivpn.net/blog/gr
 
 
 
-#### :material-check:{ .pg-green } Censorship Circumvention
+#### :material-check:{ .pg-green } 審查規避
 
-IVPN has obfuscation modes using the [v2ray](https://www.v2ray.com/en/index.html) project which helps in situations where VPN protocols like OpenVPN or Wireguard are blocked. Currently this feature is only available on Desktop and [iOS](https://www.ivpn.net/knowledgebase/ios/v2ray/). It has two modes where it can use [VMess](https://guide.v2fly.org/en_US/basics/vmess.html) over QUIC or TCP connections. QUIC is a modern protocol with better congestion control and therefore may be faster with reduced latency. The TCP mode makes your data appear as regular HTTP traffic.
+IVPN 混淆模式採[v2ray](https://www.v2ray.com/en/index.html) 專案，它 在其它 VPN 協定如 OpenVPN, Wireguard 遭封鎖時可予協助。 此功能目前僅支援桌機版與 [iOS](https://www.ivpn.net/knowledgebase/ios/v2ray/)。 有兩種模式可運用: [VMess](https://guide.v2fly.org/en_US/basics/vmess.html) 取代 QUIC 或 TCP 連接。 QUIC 為新版的協定具有更佳的擁塞控制，減少延遲速度更快。 TCP 模式的數據呈現為一般的 HTTP 流量。
 
 
 
@@ -209,13 +209,13 @@ IVPN 客戶端支援雙因素驗證（Mullvad 客戶端不支援）。 IVPN 有"
 
 
 
-#### :material-check:{ .pg-green } 40 Countries
+#### :material-check:{ .pg-green } 40 個國家
 
-Mullvad has [servers in 40 countries](https://mullvad.net/servers/).(1) Picking a VPN provider with a server nearest to you will reduce latency of the network traffic you send. 這是因為到目的地的路線較短（跳數較少）。 
+Mullvad 在 40 個國家/地區設有 [伺服器](https://mullvad.net/servers/)。(1) 選擇離最近伺服器，這將減少網路流量的延遲。 這是因為到目的地的路線較短（跳數較少）。 
 
 { .annotate }
 
-1. Last checked: 2023-12-21
+1. 上次檢查日期： 2023-12-21
 
 我們認為，如果 VPN 提供商使用 [專用伺服器](https://en.wikipedia.org/wiki/Dedicated_hosting_service)，而不是更便宜（與其他客戶共享)的解決方案 ，例如 [虛擬專用服務器](https://en.wikipedia.org/wiki/Virtual_private_server)，則 VPN提供商的私鑰更安全。
 
@@ -271,9 +271,9 @@ Mullvad 之前支援向前轉發，但於[2023年5月](https://mullvad.net/en/bl
 
 
 
-#### :material-check:{ .pg-green } Censorship Circumvention
+#### :material-check:{ .pg-green } 審查規避
 
-Mullvad has obfuscation an mode using [Shadowsocks with v2ray](https://mullvad.net/en/help/shadowsocks-with-v2ray) which may be useful in situations where VPN protocols like OpenVPN or Wireguard are blocked.
+Mullvad 混淆模式採用 [Shadowsocks with v2ray](https://mullvad.net/en/help/shadowsocks-with-v2ray) ， 當其它 VPN 協定如 OpenVPN, Wireguard 遭封鎖時派得上用場。
 
 
 

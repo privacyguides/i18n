@@ -38,7 +38,7 @@ cover: news-aggregators.webp
     [:octicons-repo-16: Repository](https://gitlab.com/news-flash/news_flash_gtk){ .md-button .md-button--primary }
     [:octicons-code-16:](https://gitlab.com/news-flash/news_flash_gtk){ .card-link title="Source Code" }
     
-    ??? downloads
+    ??? downloads "下載"
     
         - [:simple-flathub: Flathub](https://flathub.org/apps/io.gitlab.news_flash.NewsFlash)
 
@@ -163,7 +163,7 @@ Reddit 允許您通過 RSS 訂閱 subreddits。
 
 您可以訂閱  YouTube頻道而無需登入，不會把使用情況資訊與Google 帳戶關聯。
 
-!!! example
+!!! example "例子"
 
     欲透過 RSS 軟體訂閱 YouTube 頻，首先檢查該頻道的 [頻道代號](https://support.google.com/youtube/answer/6180214). 頻道代號可在其"關於"頁面找到，請到: **關於** > **分享** > **複製頻道 ID**. 替換下方 `[CHANNEL ID]`:
 
