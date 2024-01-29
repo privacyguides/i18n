@@ -31,12 +31,12 @@ Un [aggregatore di notizie](https://en.wikipedia.org/wiki/News_aggregator) conse
 
 !!! recommendation
 
-    ![NewsFlash logo](assets/img/news-aggregators/newsflash.png){ align=right }
+    ![Logo di NewsFlash](assets/img/news-aggregators/newsflash.png){ align=right }
     
-    **NewsFlash** is an open-source, modern, simple and easy to use GTK4 news feed reader for Linux. It can be used offline or used with services like [NextCloud News](https://apps.nextcloud.com/apps/news) or [Inoreader](https://inoreader.com). It has a search feature and even a pre-defined list of sources like [TechCrunch](https://techcrunch.com) that you can add directly. It is only available as a Flatpak (on the Flathub repository).
+    **NewsFlash** è un lettore del feed delle notizie GTK4 open source, moderno, semplice e facile da utilizzare per Linux. È utilizzabile offline o con servizi come [NextCloud News](https://apps.nextcloud.com/apps/news) o [Inoreader](https://inoreader.com). Dispone di una funzionalità di ricerca e persino di un elenco predefinito di fonti come [TechCrunch](https://techcrunch.com), che puoi aggiungere direttamente. È disponibile soltanto come Flatpak (sulla repository di Flathub).
     
     [:octicons-repo-16: Repository](https://gitlab.com/news-flash/news_flash_gtk){ .md-button .md-button--primary }
-    [:octicons-code-16:](https://gitlab.com/news-flash/news_flash_gtk){ .card-link title="Source Code" }
+    [:octicons-code-16:](https://gitlab.com/news-flash/news_flash_gtk){ .card-link title="Codice Sorgente" }
     
     ??? downloads
     
@@ -163,7 +163,7 @@ Utilizzando qualsiasi [istanza](https://github.com/zedeus/nitter/wiki/Instances)
 
 Puoi iscriverti ai canali di YouTube senza accedere e associare le informazioni di utilizzo al tuo Profilo Google.
 
-!!! example
+!!! esempio
 
     Per iscriverti a un canale YouTube con un client RSS, cerca innanzitutto il [codice del canale](https://support.google.com/youtube/answer6180214). Il codice del canale si può trovare sulla pagina delle informazioni del canale di YouTube cui desideri iscriverti, in: **Informazioni** > **Condividi** > **Copia ID Canale**. Sostituisci `[CHANNEL ID]` di seguito:
 
