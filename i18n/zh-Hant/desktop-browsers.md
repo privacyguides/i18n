@@ -253,15 +253,15 @@ Shields 可以選擇根據需要依各網站情況降級，但我們建議預設
     ??? warning "使用預設過濾器列表"
         Brave允許您在內部`brave://adblock`頁面中選擇其他內容過濾器。 我們建議您不要使用此功能；請保留預設的篩選條件清單。 使用額外清單將使您在一般 Brave 用戶中被突顯出來，如果Brave有漏洞，並將惡意規則添加到您使用的清單中，也可能會增加攻擊面。
 
-- [x] Select **Strict** under **Upgrade connections to HTTPS**
-- [x] (Optional) Select **Block Scripts** (1)
-- [x] Select **Strict, may break sites** under Block fingerprinting
-- [x] Check **Forget me when I close this site** (2)
+- [x] 選擇 **嚴格** 位於**升級至 HTTPS 連線**選項底下
+- [x] (可選的) 選取 **屏蔽 Scripts** (1)
+- [x] 選取 **嚴格, 可能會破壞網站** 屏蔽瀏覽器識別指紋底下
+- [x] 勾選**關閉此站後即遺忘** (2)
 
 </div>
 
 1. 此選項提供的功能類似uBlock Origin 進階 [封鎖模式](https://github.com/gorhill/uBlock/wiki/Blocking-mode) 或 [NoScript](https://noscript.net/) 擴展。
-2. If you wish to stay logged in to a particular site you visit often, you can set exceptions on a per-site basis by clicking on the Shield icon in the address bar.
+2. 若想在經常造訪的特定站點保持登入，則可以透過網址列中的盾牌圖示來為每個站點設定例外。
 
 ##### 阻擋社群媒體
 
@@ -354,31 +354,31 @@ Brave Web3 功能可能會增加瀏覽器指紋和攻擊面。 除非有用到�
 
 ### uBlock Origin Lite
 
-uBlock Origin also has a "Lite" version of their extension, which offers a very limited feature-set compared to the original extension. However, it has a few distinct advantages over its full-fledged sibling, so you may want to consider it if...
+uBlock Origin 還有一個「Lite」版本，與原始版相比，其功能集非常有限。 但比之成熟的姊妹產品它具有一些明顯優勢值得考慮，如果...
 
-- ...you don't want to grant full "read/modify website data" permissions to any extensions (even a trusted one like uBlock Origin)
-- ...you want a more resource (memory/CPU) efficient content blocker[^1]
-- ...your browser only supports Manifest V3 extensions
+- ...不想對擴充功能授予完整的「讀取/修改網站資料」權限（即使是像 uBlock Origin 這樣受信任的擴充功能）
+- ....想要一個資源（記憶體/CPU）更有效率的內容攔截器[^1]
+- ...瀏覽器只能支援 Manifest V3 擴展。
 
-!!! recommendation
+!!! 推薦
 
     ![uBlock Origin Lite logo](assets/img/browsers/ublock_origin_lite.svg){ align=right }
     
-    **uBlock Origin Lite** is a Manifest V3 compatible content blocker. Compared to the original *uBlock Origin*, this extension does not require broad "read/modify data" permissions to function.
+    **uBlock Origin Lite** 為相容 Manifest V3 的內容封鎖器。 Compared to the original *uBlock Origin*, this extension does not require broad "read/modify data" permissions to function.
     
     [:octicons-repo-16: Repository](https://github.com/uBlockOrigin/uBOL-home#readme){ .md-button .md-button--primary }
     [:octicons-eye-16:](https://github.com/gorhill/uBlock/wiki/Privacy-policy){ .card-link title="Privacy Policy" }
     [:octicons-info-16:](https://github.com/uBlockOrigin/uBOL-home/wiki){ .card-link title=Documentation}
     [:octicons-code-16:](https://github.com/gorhill/uBlock/tree/master/platform/mv3){ .card-link title="Source Code" }
     
-    ??? downloads
+    ??? downloads "下載"
     
         - [:simple-firefoxbrowser: Firefox](https://addons.mozilla.org/addon/ublock-origin-lite/)
         - [:simple-googlechrome: Chrome](https://chrome.google.com/webstore/detail/ublock-origin-lite/ddkjiahejlhfcafbddmgiahcphecmpfh)
 
-We only recommend this version of uBlock Origin if you never want to make any changes to your filter lists, because it only supports a few pre-selected lists and offers no additional customization options, including the ability to select elements to block manually. These restrictions are due to limitations in Manifest V3's design.
+若不想更改濾器列表，我們僅推薦此版本的 uBlock Origin，因為它僅支援一些預先選擇的列表，且不提供其他自訂選項，包括手動選擇要封鎖的元素的功能。 這些限制是由於 Manifest V3 設計之故。
 
-This version offers three levels of blocking: "Basic" works without requiring any special privileges to view and modify site content, while the "Optimal" and "Complete" levels do require that broad permission, but offer a better filtering experience with additional cosmetic rules and scriptlet injections.
+此版本提供三種封鎖等級：「基本」等級不需要任何特殊權限即可查看和修改網站內容，而「最佳」和「完整」等級確實需要廣泛的權限，但透過附加裝飾規則提供更好的過濾體驗和腳本注入。
 
 If you set the default filtering mode to "Optimal" or "Complete" the extension will request read/modify access to **all** websites you visit. However, you also have the option to change the setting to "Optimal" or "Complete" on a **per-site** basis by adjusting the slider in the extension's pop-up panel on any given site. When you do so, the extension will request read/modify access to that site only. Therefore, if you want to take advantage of uBlock Origin Lite's "permission-less" configuration, you should probably leave the default setting as "Basic" and only adjust it higher on sites where that level is not adequate.
 

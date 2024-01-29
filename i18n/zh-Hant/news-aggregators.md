@@ -33,7 +33,7 @@ cover: news-aggregators.webp
 
     ![NewsFlash logo](assets/img/news-aggregators/newsflash.png){ align=right }
     
-    **NewsFlash** is an open-source, modern, simple and easy to use GTK4 news feed reader for Linux. It can be used offline or used with services like [NextCloud News](https://apps.nextcloud.com/apps/news) or [Inoreader](https://inoreader.com). It has a search feature and even a pre-defined list of sources like [TechCrunch](https://techcrunch.com) that you can add directly. It is only available as a Flatpak (on the Flathub repository).
+    **NewsFlash** 開源、現代化、簡單好用的Linux GTK4 新聞推送閱讀器。 可離線使用或搭配 [NextCloud News](https://apps.nextcloud.com/apps/news) 或[Inoreader](https://inoreader.com)等服務使用。 具備搜尋功能以及預先準備的新聞來源清單如 [TechCrunch](https://techcrunch.com) 方便直接加入。 只能透過 Flatpak 取得 ( Flathub 檔案庫)。
     
     [:octicons-repo-16: Repository](https://gitlab.com/news-flash/news_flash_gtk){ .md-button .md-button--primary }
     [:octicons-code-16:](https://gitlab.com/news-flash/news_flash_gtk){ .card-link title="Source Code" }
