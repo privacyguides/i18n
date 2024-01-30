@@ -364,7 +364,7 @@ uBlock Origin 還有一個「Lite」版本，與原始版相比，其功能集�
 
     ![uBlock Origin Lite logo](assets/img/browsers/ublock_origin_lite.svg){ align=right }
     
-    **uBlock Origin Lite** 為相容 Manifest V3 的內容封鎖器。 Compared to the original *uBlock Origin*, this extension does not require broad "read/modify data" permissions to function.
+    **uBlock Origin Lite** 為相容 Manifest V3 的內容封鎖器。 相較於 *uBlock Origin* ，此附加元件不需要廣泛的「讀取/修改資料」權限即可運作。
     
     [:octicons-repo-16: Repository](https://github.com/uBlockOrigin/uBOL-home#readme){ .md-button .md-button--primary }
     [:octicons-eye-16:](https://github.com/gorhill/uBlock/wiki/Privacy-policy){ .card-link title="Privacy Policy" }
@@ -380,9 +380,9 @@ uBlock Origin 還有一個「Lite」版本，與原始版相比，其功能集�
 
 此版本提供三種封鎖等級：「基本」等級不需要任何特殊權限即可查看和修改網站內容，而「最佳」和「完整」等級確實需要廣泛的權限，但透過附加裝飾規則提供更好的過濾體驗和腳本注入。
 
-If you set the default filtering mode to "Optimal" or "Complete" the extension will request read/modify access to **all** websites you visit. However, you also have the option to change the setting to "Optimal" or "Complete" on a **per-site** basis by adjusting the slider in the extension's pop-up panel on any given site. When you do so, the extension will request read/modify access to that site only. Therefore, if you want to take advantage of uBlock Origin Lite's "permission-less" configuration, you should probably leave the default setting as "Basic" and only adjust it higher on sites where that level is not adequate.
+如將預設過濾模式設為“最佳”或“完整”，則擴充功能將要求讀取/修改**所有**造訪網站的存取權限。 不過也可以透過調整擴充功能彈出面板中的滑桿，將設定變更為**每個網站**的「最佳」或「完整」在任何指定網站。 當這樣，擴充功能將僅請求對該網站的讀取/修改存取權限。 因此，如想利用 uBlock Origin Lite 的“無權限”配置，應將預設保留為“基本”，並且僅在該級別不夠的網站上將其調整得更高。
 
-uBlock Origin Lite only receives block list updates whenever the extension is updated from your browser's extension marketplace, as opposed to on demand. This means that you may miss out on new threats being blocked for weeks until a full extension release is published.
+uBlock Origin Lite 僅在擴充功能從瀏覽器的附加元件市場更新時接收封鎖清單更新，而不是按需求接收。 此意味著可能會錯過被封鎖數週的新威脅，直到附加元件發布完整的版本。
 
 ## 標準
 
@@ -400,7 +400,7 @@ uBlock Origin Lite only receives block list updates whenever the extension is up
 - 適用於Linux、macOS和Windows。
 - 為了使瀏覽器更尊重隱私權而作的任何變動都不應對用戶體驗產生負面影響。
 - 預設情況下會封鎖第三方Cookie。
-- Supports [state partitioning](https://developer.mozilla.org/en-US/docs/Web/Privacy/State_Partitioning) to mitigate cross-site tracking.[^2]
+- 支援 [state partitioning](https://developer.mozilla.org/en-US/docs/Web/Privacy/State_Partitioning) 以降低跨站追蹤[^2]
 
 
 ### 最佳案例
@@ -421,5 +421,5 @@ uBlock Origin Lite only receives block list updates whenever the extension is up
 - 不得複製內建瀏覽器或作業系統功能。
 - 必須直接影響用戶隱私，即不得簡單地提供資訊。
 
-[^1]: uBlock Origin Lite *itself* will consume no resources, because it uses newer APIs which make the browser process the filter lists natively, instead of running JavaScript code within the extension to handle the filtering. However, this resource advantage is only [theoretical](https://github.com/uBlockOrigin/uBOL-home/wiki/Frequently-asked-questions-(FAQ)#is-ubol-more-efficient-cpu--and-memory-wise-than-ubo), because it's possible that standard uBlock Origin's filtering code is more efficient than your browser's native filtering code. This has not yet been benchmarked.
-[^2]: Brave's implementation is detailed at [Brave Privacy Updates: Partitioning network-state for privacy](https://brave.com/privacy-updates/14-partitioning-network-state/).
+[^1]: uBlock Origin Lite*本身*不會消耗任何資源，因為它使用更新的API，瀏覽器能夠本地處理過濾器列表，而不是在擴充功能中執行JavaScript 程式碼來處理過濾。 然而，這種資源優勢僅止於[理論](https://github.com/uBlockOrigin/uBOL-home/wiki/Frequently-asked-questions-(FAQ)#is-ubol-more-efficient-cpu--and-memory-wise-than-ubo)，因為標準uBlock Origin 的過濾程式碼可能比瀏覽器的本機過濾程式碼更有效。 這尚未進行基準測試.
+[^2]: Brave 執行細節在 [Brave 隱私政策更新: Partitioning network-state for privacy](https://brave.com/privacy-updates/14-partitioning-network-state/).

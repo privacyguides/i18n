@@ -82,7 +82,7 @@ Such support is available to civil society through [Amnesty International's Secu
 </div>
 
 <div class="admonition warning" markdown>
-<p class="admonition-title">Warning</p>
+<p class="admonition-title">Warning "警告"</p>
 
 使用 MVT 應用程式不足以確定設備是“乾淨的”，不是特定間諜軟體工具的目標。
 
@@ -131,7 +131,7 @@ iMazing 會自動並以互動方式引導完成使用 [MVT](#mobile-verification
 可安裝這些應用程式來檢查裝置和作業系統是否有篡改跡象，並驗證裝置的身份。
 
 <div class="admonition warning" markdown>
-<p class="admonition-title">Warning</p>
+<p class="admonition-title">Warning "警告"</p>
 
 使用這些應用程式不足以確定設備是“乾淨的”，並不是特定間諜軟體工具的目標。
 
@@ -184,7 +184,7 @@ Auditor 不像本頁的其他某些掃描/分析工具，而是使用裝置的�
 可在設備上安裝這些應用程序，這些應用程式會掃描裝置是否有遭駭洩漏跡象。
 
 <div class="admonition warning" markdown>
-<p class="admonition-title">Warning</p>
+<p class="admonition-title">Warning "警告"</p>
 
 使用這些應用程式不足以確定設備是“乾淨的”，並不是特定間諜軟體工具的目標。
 

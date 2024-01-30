@@ -30,11 +30,11 @@ cover: email.webp
 </div>
 
 <div class="admonition warning" markdown>
-<p class="admonition-title">Warning</p>
+<p class="admonition-title">Warning "警告"</p>
 
-When using E2EE technology like OpenPGP your email will still have some metadata that is not encrypted in the header of the email, generally including the subject line! Read more about [email metadata](basics/email-security.md#email-metadata-overview).
+當使用像 OpenPGP 這類 E2EE 技術時，電子郵件仍然會有一些元數據無法加密如主旨列。 了解更多[電子郵件元數據](basics/email-security.md#email-metadata-overview).
 
-OpenPGP also does not support Forward secrecy, which means if either your or the recipient's private key is ever stolen, all previous messages encrypted with it will be exposed. [How do I protect my private keys?](basics/email-security.md#how-do-i-protect-my-private-keys)
+OpenPGP 也不支持前向保密，這意味著如果你或收件人的私鑰被盜，所有以前用它加密的消息都會洩露。 [[如何保護我的私鑰？](basics/email-security.md#how-do-i-protect-my-private-keys)
 
 </div>
 
@@ -53,7 +53,7 @@ OpenPGP also does not support Forward secrecy, which means if either your or the
 [:octicons-code-16:](https://github.com/ProtonMail){ .card-link title="Source Code" }
 
 <details class="downloads" markdown>
-<summary>Downloads</summary>
+<summary>Downloads "下載"</summary>
 
 - [:simple-googleplay: Google Play](https://play.google.com/store/apps/details?id=ch.protonmail.android)
 - [:simple-appstore: App Store](https://apps.apple.com/app/apple-store/id979659905)
@@ -93,9 +93,9 @@ Proton Mail 支援使用 FIDO2 或 U2F標準 的 TOTP [雙因素驗證](https://
 
 #### :material-check:{ .pg-green }電子郵件加密
 
-Proton Mail 網頁郵件整合了 [OpenPGP 加密](https://proton.me/support/how-to-use-pgp) 。 發送到其他 Proton Mai l帳戶的電子郵件會自動加密，並且可以在您的帳戶設置中輕鬆啟用使用 OpenPGP 金鑰對非 Proton Mail 地址進行加密。 Proton also supports automatic external key discovery with [Web Key Directory (WKD)](https://wiki.gnupg.org/WKD). This means that emails sent to other providers which use WKD, such as Skiff Mail, will be automatically encrypted with OpenPGP as well, without the need to manually exchange public PGP keys with your contacts. They also allow you to [encrypt messages to non-Proton Mail addresses without OpenPGP](https://proton.me/support/password-protected-emails), without the need for them to sign up for a Proton Mail account.
+Proton Mail 網頁郵件整合了 [OpenPGP 加密](https://proton.me/support/how-to-use-pgp) 。 發送到其他 Proton Mai l帳戶的電子郵件會自動加密，並且可以在您的帳戶設置中輕鬆啟用使用 OpenPGP 金鑰對非 Proton Mail 地址進行加密。 Proton 也支援透過 [Web 金鑰目錄 (WKD)](https://wiki.gnupg.org/WKD) 自動發現外部金鑰。 因此發送到使用 WKD 的其他供應商（例如 Skiff Mail）的電子郵件也將使用 OpenPGP 自動加密，無需與聯絡人手動交換公共 PGP 金鑰。 它可以 [加密非 Proton Mail 郵件地址的訊息](https://proton.me/support/password-protected-emails)，不必非得使用帶OpenPGP 的 Proton Mail 帳戶。
 
-Proton Mail also publishes the public keys of Proton accounts via HTTP from their WKD. 這可讓非 Proton Mail 用戶可以輕鬆找到 Proton Mail 帳戶的 OpenPGP 金鑰，以利跨供應商進行 E2EE 。 這僅限於使用 Proton's 自身網域別名(例如 @proton.me) 的電子郵件。 如果使用自定域名，則須另行 [設定WKD](./basics/email-security.md#what-is-the-web-key-directory-standard) 。
+Proton Mail 也透過 HTTP 從其 WKD 發布 Proton 帳戶的公鑰。 這可讓非 Proton Mail 用戶可以輕鬆找到 Proton Mail 帳戶的 OpenPGP 金鑰，以利跨供應商進行 E2EE 。 這僅限於使用 Proton's 自身網域別名(例如 @proton.me) 的電子郵件。 如果使用自定域名，則須另行 [設定WKD](./basics/email-security.md#what-is-the-web-key-directory-standard) 。
 
 #### :material-information-outline:{ .pg-blue } 帳戶終止
 
@@ -121,7 +121,7 @@ Proton Mail不提供數字遺產功能。
 [:octicons-code-16:](https://github.com/skiff-org/skiff-apps){ .card-link title="Source Code" }
 
 <details class="downloads" markdown>
-<summary>Downloads</summary>
+<summary>Downloads "下載"</summary>
 
 - [:simple-android: Android](https://play.google.com/store/apps/details?id=com.skemailmobileapp&pli=1)
 - [:simple-appstore: iOS](https://apps.apple.com/us/app/skiff-mail/id1619168801)
@@ -151,11 +151,11 @@ Skiff Mail 對用戶資料提供全程零存取加密。 這意味著儲存在�
 
 #### :material-check:{ .pg-green }電子郵件加密
 
-Skiff Mail encrypts messages to other Skiff mailboxes automatically with E2EE. On December 18th, 2023, Skiff added support for PGP and automatic public key discovery via Web Key Directory (WKD). This means that emails sent to other providers which use WKD, such as Proton Mail, will be automatically encrypted with OpenPGP as well without the need to exchange public PGP keys with your contacts. New Skiff Mail accounts should have a PGP key automatically generated, while accounts from before this feature was introduced need to generate a new PGP key for their address (or upload an existing private key) in the account's address settings. Skiff Mail only has support for reading messages encrypted with PGP/MIME, not the older PGP/Inline standard. Sending messages with PGP/MIME is the [recommended approach](https://www.gnupg.org/faq/gnupg-faq.html#use_pgpmime), but may pose compatibility issues in some edge cases.
+Skiff Mail 使用 E2EE 自動加密傳送到其他 Skiff 信箱的郵件。 2023 年 12 月 18 日後Skiff 新增了對 PGP 和透過 Web 金鑰目錄 (WKD) 自動公鑰發現的功能。 因此發送到使用 WKD 的其他供應商（例如 Proton Mail）的電子郵件也將使用 OpenPGP 自動加密，無需與聯絡人交換公共 PGP 金鑰。 新的 Skiff Mail 帳戶會自動產生 PGP 金鑰，而引入此功能之前的帳戶需要在帳戶的地址設定中為其地址產生新的 PGP 金鑰（或上傳現有私鑰）。 Skiff Mail 僅支援讀取使用 PGP/MIME 加密的郵件，而不支援較舊的 PGP/Inline 標準。 使用PGP/MIME 發送訊息是[推薦作法](https://www.gnupg.org/faq/gnupg-faq.html#use_pgpmime)，但在某些邊緣情況下可能會帶來相容性問題。
 
-Skiff Mail also publishes the public keys of Skiff Mail accounts via HTTP from their [Web Key Directory (WKD)](https://wiki.gnupg.org/WKD). This allows people who don't use Skiff Mail to find the OpenPGP keys of Skiff Mail accounts easily, for cross-provider E2EE. This only applies to email addresses ending in one of Skiff's own domains, like @skiff.com. 如果使用自定域名，則須另行 [設定WKD](./basics/email-security.md#what-is-the-web-key-directory-standard) 。
+Skiff Mail 也透過 HTTP 從其 [Web 金鑰目錄 (WKD)](https://wiki.gnupg.org/WKD) 發佈 Skiff Mail 帳號的公鑰。 這可讓非 Proton Mail 用戶可以輕鬆找到 Proton Mail 帳戶的 OpenPGP 金鑰，以利跨供應商進行 E2EE 。 這僅限於使用 Skiff 自身網域別名(例如 @skiff.com) 的電子郵件。 如果使用自定域名，則須另行 [設定WKD](./basics/email-security.md#what-is-the-web-key-directory-standard) 。
 
-Skiff does not have a "temporary inbox" or "passworded email" feature like some other providers have, so that external users without OpenPGP cannot receive or reply to messages with E2EE.
+Skiff 沒有 "臨時信箱" 或 "郵件密碼保護" 功能，因此外部非 Skiff 用戶沒有 OpenPGP 無法收取或回覆 E2EE 的訊息。
 
 #### :material-information-outline:{ .pg-blue } 帳戶終止
 
@@ -180,7 +180,7 @@ Skiff Mail 不提供數位遺產功能。
 [:octicons-info-16:](https://kb.mailbox.org/en/private){ .card-link title=Documentation}
 
 <details class="downloads" markdown>
-<summary>Downloads</summary>
+<summary>Downloads "下載"</summary>
 
 - [:octicons-browser-16: Web](https://login.mailbox.org)
 
@@ -249,7 +249,7 @@ Mailbox.org 所有方案都提供了數位遺產功能。 你可以選擇是否�
 [:octicons-heart-16:](https://tuta.com/community/){ .card-link title=Contribute }
 
 <details class="downloads" markdown>
-<summary>Downloads</summary>
+<summary>Downloads "下載"</summary>
 
 - [:simple-googleplay: Google Play](https://play.google.com/store/apps/details?id=de.tutao.tutanota)
 - [:simple-appstore: App Store](https://apps.apple.com/app/tutanota/id922429609)
@@ -341,7 +341,7 @@ Tuta 不提供數位遺產功能。
 [:octicons-heart-16:](https://addy.io/donate){ .card-link title=Contribute }
 
 <details class="downloads" markdown>
-<summary>Downloads</summary>
+<summary>Downloads "下載"</summary>
 
 - [:simple-android: Android](https://addy.io/faq/#is-there-an-android-app)
 - [:material-apple-ios: iOS](https://addy.io/faq/#is-there-an-ios-app)
@@ -376,7 +376,7 @@ Tuta 不提供數位遺產功能。
 [:octicons-code-16:](https://github.com/simple-login){ .card-link title="Source Code" }
 
 <details class="downloads" markdown>
-<summary>Downloads</summary>
+<summary>Downloads "下載"</summary>
 
 - [:simple-googleplay: Google Play](https://play.google.com/store/apps/details?id=io.simplelogin.android)
 - [:simple-appstore: App Store](https://apps.apple.com/app/id1494359858)
