@@ -33,12 +33,12 @@ Un [lector de noticias](https://en.wikipedia.org/wiki/News_aggregator) es una ma
 
     ![NewsFlash logo](assets/img/news-aggregators/newsflash.png){ align=right }
     
-    **NewsFlash** is an open-source, modern, simple and easy to use GTK4 news feed reader for Linux. It can be used offline or used with services like [NextCloud News](https://apps.nextcloud.com/apps/news) or [Inoreader](https://inoreader.com). It has a search feature and even a pre-defined list of sources like [TechCrunch](https://techcrunch.com) that you can add directly. It is only available as a Flatpak (on the Flathub repository).
+    **NewsFlash** es un lector de noticias GTK4 de código abierto, moderno, sencillo y fácil de usar para Linux. Puede utilizarse sin conexión o con servicios como [NextCloud News](https://apps.nextcloud.com/apps/news) o [Inoreader](https://inoreader.com). Tiene una función de búsqueda e incluso una lista predefinida de fuentes como [TechCrunch](https://techcrunch.com) que puedes añadir directamente. Solo está disponible como un Flatpak (en el repositorio Flathub).
     
-    [:octicons-repo-16: Repository](https://gitlab.com/news-flash/news_flash_gtk){ .md-button .md-button--primary }
-    [:octicons-code-16:](https://gitlab.com/news-flash/news_flash_gtk){ .card-link title="Source Code" }
+    [:octicons-repo-16: Repositorio](https://gitlab.com/news-flash/news_flash_gtk){ .md-button .md-button--primary }
+    [:octicons-code-16:](https://gitlab.com/news-flash/news_flash_gtk){ .card-link title="Código Fuente" }
     
-    ??? downloads
+    ??? downloads "Descargas"
     
         - [:simple-flathub: Flathub](https://flathub.org/apps/io.gitlab.news_flash.NewsFlash)
 
@@ -151,7 +151,7 @@ Reddit le permite suscribirse a subreddits a través de RSS.
 
 Utilizando cualquiera de las [instancias](https://github.com/zedeus/nitter/wiki/Instances) de Nitter puede suscribirse fácilmente mediante RSS.
 
-!!! example
+!!! example "Ejemplo"
     1. Elija una instancia y ponga `nitter_instance`.
     2. Sustituya `twitter_account` por el nombre de la cuenta.
 
@@ -163,7 +163,7 @@ Utilizando cualquiera de las [instancias](https://github.com/zedeus/nitter/wiki/
 
 Puede suscribirse a los canales de YouTube sin iniciar sesión ni asociar la información de uso con su cuenta de Google.
 
-!!! example
+!!! example "Ejemplo"
 
     Para suscribirse a un canal de YouTube con un cliente RSS, busque primero su [código de canal](https://support.google.com/youtube/answer/6180214). El código del canal se encuentra en la página "Acerca de" del canal de YouTube al que desea suscribirse: **Información** > **Compartir** > **Copiar ID de canal**. Sustituya el `[ID DE CANAL]` a continuación:
 
