@@ -141,7 +141,7 @@ Anche alcuni servizi social supportano RSS, sebbene, spesso, ciò non sia pubbli
 Reddit consente d'iscriverti ai subreddit tramite RSS.
 
 !!! example
-    Replace `[SUBREDDIT]` with the subreddit you wish to subscribe to.
+    Sostituisci `[SUBREDDIT]` con il subreddit a cui desideri iscriverti.
 
     ```text
     https://www.reddit.com/r/[SUBREDDIT]/new/.rss
