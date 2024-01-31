@@ -84,9 +84,11 @@ Proton VPN [adviseert](https://protonvpn.com/blog/wireguard/) het gebruik van Wi
 
 Proton VPN ondersteunt momenteel alleen ephemeral remote [port forwarding](https://protonvpn.com/support/port-forwarding/) via NAT-PMP, met een leasetijd van 60 seconden. De Windows-app biedt hiervoor een gemakkelijk toegankelijke optie, terwijl je op andere besturingssystemen je eigen [NAT-PMP-client](https://protonvpn.com/support/port-forwarding-manual-setup/)moet draaien. Torrent toepassingen ondersteunen vaak de NAT-PMP volledig.
 
-#### :material-information-outline:{ .pg-blue } Censorship Circumvention
+#### :material-information-outline:{ .pg-orange } Censorship Circumvention
 
-Proton VPN has their [Stealth](https://protonvpn.com/blog/stealth-vpn-protocol/) protocol which helps in situations where VPN protocols like OpenVPN or Wireguard are blocked. Stealth works by using an obfuscated TLS tunnel over TCP making it more difficult for deep packet inspection (DPI) to block. Unfortunately, Stealth is not yet available on Windows or Linux.
+Proton VPN has their [Stealth](https://protonvpn.com/blog/stealth-vpn-protocol/) protocol which *may* help in situations where VPN protocols like OpenVPN or Wireguard are blocked with various rudimentary techniques. Stealth encapsulates the VPN tunnel in TLS session in order to look like more generic internet traffic.
+
+Unfortunately it does not work very well in countries where sophisticated filters are deployed that analyze all outgoing traffic in an attempt to discover encrypted tunnels. Stealth is also not yet available on [Windows](https://github.com/ProtonVPN/win-app/issues/64) or Linux.
 
 #### :material-check:{ .pg-green } Mobiele Clients
 
@@ -269,6 +271,7 @@ Wij eisen dat al onze aanbevolen VPN-providers OpenVPN-configuratiebestanden lev
 - Gemakkelijk te gebruiken VPN-clients
 - Ondersteunt [IPv6](https://en.wikipedia.org/wiki/IPv6). Wij verwachten dat servers inkomende verbindingen via IPv6 zullen toestaan en u toegang zullen verschaffen tot diensten die op IPv6-adressen worden gehost.
 - De mogelijkheid van [remote port forwarding](https://en.wikipedia.org/wiki/Port_forwarding#Remote_port_forwarding) helpt bij het maken van verbindingen bij het gebruik van P2P ([Peer-to-Peer](https://en.wikipedia.org/wiki/Peer-to-peer)) file sharing software, Freenet, of het hosten van een server (bv. Mumble).
+- Obfuscation technology which pads data packets with random data to circumvent internet censorship.
 
 ### Privacy
 

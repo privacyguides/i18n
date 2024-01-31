@@ -140,11 +140,11 @@ cover: news-aggregators.webp
 
 Reddit에서는 RSS를 이용해 서브레딧을 구독할 수 있습니다.
 
-!!! example "예시"
-    `subreddit_name` 부분을 구독하고자 하는 서브레딧으로 변경합니다.
+!!! example
+    Replace `[SUBREDDIT]` with the subreddit you wish to subscribe to.
 
     ```text
-    https://www.reddit.com/r/{{ subreddit_name }}/new/.rss
+    https://www.reddit.com/r/[SUBREDDIT]/new/.rss
     ```
 
 ### Twitter

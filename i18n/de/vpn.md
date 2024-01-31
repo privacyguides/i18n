@@ -84,9 +84,11 @@ Proton VPN [empfiehlt](https://protonvpn.com/blog/wireguard/) die Verwendung von
 
 Proton VPN unterstützt derzeit nur vorrübergehende [Remote-Port-Weiterleitung](https://protonvpn.com/support/port-forwarding/) über NAT-PMP, mit 60 Sekunden Bestandszeit. Die Windows-App bietet eine leicht zugängliche Option dafür, während Sie auf anderen Betriebssystemen Ihren eigenen [NAT-PMP-Klient](https://protonvpn.com/support/port-forwarding-manual-setup/)ausführen müssen. Torrent-Anwendungen unterstützen oft NAT-PMP von Haus aus.
 
-#### :material-information-outline:{ .pg-blue } Censorship Circumvention
+#### :material-information-outline:{ .pg-orange } Censorship Circumvention
 
-Proton VPN has their [Stealth](https://protonvpn.com/blog/stealth-vpn-protocol/) protocol which helps in situations where VPN protocols like OpenVPN or Wireguard are blocked. Stealth works by using an obfuscated TLS tunnel over TCP making it more difficult for deep packet inspection (DPI) to block. Unfortunately, Stealth is not yet available on Windows or Linux.
+Proton VPN has their [Stealth](https://protonvpn.com/blog/stealth-vpn-protocol/) protocol which *may* help in situations where VPN protocols like OpenVPN or Wireguard are blocked with various rudimentary techniques. Stealth encapsulates the VPN tunnel in TLS session in order to look like more generic internet traffic.
+
+Unfortunately it does not work very well in countries where sophisticated filters are deployed that analyze all outgoing traffic in an attempt to discover encrypted tunnels. Stealth is also not yet available on [Windows](https://github.com/ProtonVPN/win-app/issues/64) or Linux.
 
 #### :material-check:{ .pg-green } Mobile Anwendungen
 
@@ -269,6 +271,7 @@ Wir setzen von allen von uns empfohlenen VPN-Anbietern voraus, dass sie OpenVPN-
 - Einfach zu bedienende VPN-Clients
 - Unterstützt [IPv6](https://de.wikipedia.org/wiki/IPv6). Wir erwarten, dass die Server eingehende Verbindungen über IPv6 zulassen und dir den Zugang zu Diensten ermöglichen, die auf IPv6-Adressen gehostet werden.
 - Die Möglichkeit der [Remote-Port-Weiterleitung](https://en.wikipedia.org/wiki/Port_forwarding#Remote_port_forwarding) hilft bei der Herstellung von Verbindungen bei der Verwendung von P2P ([Peer-to-Peer](https://en.wikipedia.org/wiki/Peer-to-peer)) Dateitauschbörsen-Software zum Austausch von Dateien oder zum Hosten eines Servers (z. B. Mumble).
+- Obfuscation technology which pads data packets with random data to circumvent internet censorship.
 
 ### Datenschutz
 

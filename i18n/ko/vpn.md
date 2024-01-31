@@ -84,9 +84,11 @@ Proton VPN은 자신들의 서비스에서 WireGuard 사용을 [권장](https://
 
 Proton VPN은 현재 NAT-PMP를 통한 임시적인 원격 [포트포워딩](https://protonvpn.com/support/port-forwarding/)만을 허용하며, 이는 60초동안 유지됩니다. Windows 앱은 쉽게 접근할 수 있는 옵션을 제공하지만, 다른 운영체제의 경우에는 직접 [NAT-PMP 클라이언트](https://protonvpn.com/support/port-forwarding-manual-setup/)를 실행해야 합니다. 토렌트 애플리케이션은 대부분 NAT-PMP를 지원합니다.
 
-#### :material-information-outline:{ .pg-blue } Censorship Circumvention
+#### :material-information-outline:{ .pg-orange } Censorship Circumvention
 
-Proton VPN has their [Stealth](https://protonvpn.com/blog/stealth-vpn-protocol/) protocol which helps in situations where VPN protocols like OpenVPN or Wireguard are blocked. Stealth works by using an obfuscated TLS tunnel over TCP making it more difficult for deep packet inspection (DPI) to block. Unfortunately, Stealth is not yet available on Windows or Linux.
+Proton VPN has their [Stealth](https://protonvpn.com/blog/stealth-vpn-protocol/) protocol which *may* help in situations where VPN protocols like OpenVPN or Wireguard are blocked with various rudimentary techniques. Stealth encapsulates the VPN tunnel in TLS session in order to look like more generic internet traffic.
+
+Unfortunately it does not work very well in countries where sophisticated filters are deployed that analyze all outgoing traffic in an attempt to discover encrypted tunnels. Stealth is also not yet available on [Windows](https://github.com/ProtonVPN/win-app/issues/64) or Linux.
 
 #### :material-check:{ .pg-green } 모바일 클라이언트
 
@@ -269,6 +271,7 @@ We require all our recommended VPN providers to provide OpenVPN configuration fi
 - 사용하기 쉬운 VPN 클라이언트
 - [IPv6](https://en.wikipedia.org/wiki/IPv6) 지원: 서버들은 IPv6를 통한 연결을 허용하고, IPv6 주소에 호스팅되는 서비스에 접속할 수 있도록 해야 합니다.
 - [원격 포트포워딩](https://en.wikipedia.org/wiki/Port_forwarding#Remote_port_forwarding)을 지원하여 P2P ([Peer-to-Peer](https://en.wikipedia.org/wiki/Peer-to-peer)) 파일 공유와 Mumble과 같은 서비스 호스팅할 수 있음
+- Obfuscation technology which pads data packets with random data to circumvent internet censorship.
 
 ### 프라이버시
 

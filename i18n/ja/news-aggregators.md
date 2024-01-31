@@ -140,11 +140,11 @@ A [news aggregator](https://en.wikipedia.org/wiki/News_aggregator) is a way to k
 
 RedditではRSSでSubredditを購読することができます。
 
-!!! 実例
-    `subreddit_name` を、購読したいsubredditに置き換えます。
+!!! example
+    Replace `[SUBREDDIT]` with the subreddit you wish to subscribe to.
 
     ```text
-    https://www.reddit.com/r/{{ subreddit_name }}/new/.rss
+    https://www.reddit.com/r/[SUBREDDIT]/new/.rss
     ```
 
 ### Twitter

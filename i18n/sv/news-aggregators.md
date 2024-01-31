@@ -140,11 +140,11 @@ Vissa sociala medietjänster har också stöd för RSS, även om det inte ofta a
 
 På Reddit kan du prenumerera på subreddits via RSS.
 
-!!! exempel
-    Ersätt `subreddit_name` med det subreddit du vill prenumerera på.
+!!! example
+    Replace `[SUBREDDIT]` with the subreddit you wish to subscribe to.
 
     ```text
-    https://www.reddit.com/r/{{ subreddit_name }}/new/.rss
+    https://www.reddit.com/r/[SUBREDDIT]/new/.rss
     ```
 
 ### Twitter

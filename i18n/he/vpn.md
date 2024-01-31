@@ -84,9 +84,11 @@ Proton VPN [ממליץ](https://protonvpn.com/blog/wireguard/) על השימוש
 
 Proton VPN תומך כרגע רק ב[העברת פורטים](https://protonvpn.com/support/port-forwarding/) מרחוק ארעיים באמצעות NAT-PMP, עם זמני חכירה של 60 שניות. אפליקציית Windows מספקת אפשרות קלה לגישה עבורה, בעוד שבמערכות הפעלה אחרות תצטרך להפעיל [ משלך לקוח NAT-PMP](https://protonvpn.com/support/port-forwarding-manual-setup/). יישומי טורנט תומכים לעתים קרובות ב-NAT-PMP באופן מקורי.
 
-#### :material-information-outline:{ .pg-blue } Censorship Circumvention
+#### :material-information-outline:{ .pg-orange } Censorship Circumvention
 
-Proton VPN has their [Stealth](https://protonvpn.com/blog/stealth-vpn-protocol/) protocol which helps in situations where VPN protocols like OpenVPN or Wireguard are blocked. Stealth works by using an obfuscated TLS tunnel over TCP making it more difficult for deep packet inspection (DPI) to block. Unfortunately, Stealth is not yet available on Windows or Linux.
+Proton VPN has their [Stealth](https://protonvpn.com/blog/stealth-vpn-protocol/) protocol which *may* help in situations where VPN protocols like OpenVPN or Wireguard are blocked with various rudimentary techniques. Stealth encapsulates the VPN tunnel in TLS session in order to look like more generic internet traffic.
+
+Unfortunately it does not work very well in countries where sophisticated filters are deployed that analyze all outgoing traffic in an attempt to discover encrypted tunnels. Stealth is also not yet available on [Windows](https://github.com/ProtonVPN/win-app/issues/64) or Linux.
 
 #### :material-check:{ .pg-green } לקוחות ניידים
 
@@ -269,6 +271,7 @@ Mullvad מאוד שקוף לגבי אילו צמתים הם [בעלים או ש�
 - קליינטים VPN קלים לשימוש
 - תומך [IPv6](https://en.wikipedia.org/wiki/IPv6). אנו מצפים כי שרתים יאפשרו חיבורים נכנסים באמצעות IPv6 ויאפשרו לך לגשת לשירותים המתארחים בכתובות IPv6.
 - היכולת של [העברת יציאות מרחוק](https://en.wikipedia.org/wiki/Port_forwarding#Remote_port_forwarding) מסייעת ביצירת חיבורים בעת שימוש בתוכנת שיתוף קבצים P2P ([Peer-to-Peer](https://en.wikipedia.org/wiki/Peer-to-peer))או בעת אירוח שרת (לדוגמה, Mumble).
+- Obfuscation technology which pads data packets with random data to circumvent internet censorship.
 
 ### פרטיות
 

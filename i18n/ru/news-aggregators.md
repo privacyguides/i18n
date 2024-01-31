@@ -140,11 +140,11 @@ cover: news-aggregators.webp
 
 Reddit позволяет подписываться на сабреддиты через RSS.
 
-!!! example "Пример"
-    Замените `subreddit_name` названием сабреддита, на который вы хотите подписаться.
+!!! example
+    Replace `[SUBREDDIT]` with the subreddit you wish to subscribe to.
 
     ```text
-    https://www.reddit.com/r/{{ subreddit_name }}/new/.rss
+    https://www.reddit.com/r/[SUBREDDIT]/new/.rss
     ```
 
 ### Twitter

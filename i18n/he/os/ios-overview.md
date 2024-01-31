@@ -125,6 +125,12 @@ description: iOS היא מערכת הפעלה ניידת שפותחה על יד�
 
 בחלק מהמכשירים הישנים יותר, ייתכן שתצטרך ללחוץ על כפתור ההפעלה חמש פעמים כדי להשבית את הביומטרי במקום זאת, או עבור מכשירים עם Touch ID ייתכן שתצטרך ללחוץ על כפתור ההפעלה ותו לא. הקפד לנסות זאת מראש כדי שתדע איזו שיטה עובדת עבור המכשיר שלך.
 
+**Stolen Data Protection** is a new feature in iOS 17.3 which adds additional security intended to protect your personal data if your device is stolen while unlocked. If you use biometrics and the Find My Device feature in your Apple ID settings, we recommend enabling this new protection:
+
+- [x] Select **Turn On Protection**
+
+After enabling stolen data protection, [certain actions](https://support.apple.com/en-us/HT212510) will require biometric authentication without a password fallback (in the event that a shoulder surfer has obtained your PIN), such as using password autofill, accessing payment information, and disabling lost mode. It also adds a security delay to certain actions performed away from your home or other "familiar location," such as requiring a 1-hour timer to reset your Apple ID password or sign out of your Apple ID. This delay is intended to give you time to enable Lost Mode and secure your account before a thief can reset your device.
+
 **אפשר גישה כאשר הוא נעול** נותן לך אפשרויות למה שאתה יכול לאפשר כשהטלפון שלך נעול. ככל שתבטל יותר מהאפשרויות האלה, כך מישהו ללא הסיסמה שלך יכול לעשות פחות, אבל זה יהיה פחות נוח עבורך. תברר ובחר לאילו מבין אלה אינך רוצה שלמישהו תהיה גישה אם הוא ישים את ידו על הטלפון שלך.
 
 - [ ] כבה את **היום הצג וחיפוש**

@@ -125,6 +125,12 @@ Apple 產品的大多數隱私和安全問題與其雲服務有關，而不是�
 
 在某些較舊的設備上，可能需要按電源按鈕五次才能禁用生物識別功能，或者具有 Touch ID 的設備，可能只需按住電源按鈕即可。 請事先嘗試此操作，以便知道哪種方法適用您的設備。
 
+**Stolen Data Protection** is a new feature in iOS 17.3 which adds additional security intended to protect your personal data if your device is stolen while unlocked. If you use biometrics and the Find My Device feature in your Apple ID settings, we recommend enabling this new protection:
+
+- [x] Select **Turn On Protection**
+
+After enabling stolen data protection, [certain actions](https://support.apple.com/en-us/HT212510) will require biometric authentication without a password fallback (in the event that a shoulder surfer has obtained your PIN), such as using password autofill, accessing payment information, and disabling lost mode. It also adds a security delay to certain actions performed away from your home or other "familiar location," such as requiring a 1-hour timer to reset your Apple ID password or sign out of your Apple ID. This delay is intended to give you time to enable Lost Mode and secure your account before a thief can reset your device.
+
 **鎖定時允許存取** 提供您在手機鎖定時可以允許的選項。 禁用的這些選項越多，沒有密碼者可做的事情就越少，但對您來說也就更不方便。 選擇不希望其他人接觸您的手機後訪問其中哪些內容。
 
 - [ ] 關閉 **今日檢視與搜尋**

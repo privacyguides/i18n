@@ -140,11 +140,11 @@ Sommige socialemediadiensten ondersteunen ook RSS, hoewel dat niet vaak wordt ge
 
 Met Reddit kun je je abonneren op subreddits via RSS.
 
-!!! Voorbeeld
-    Vervang `subreddit_name` door de subreddit waarop je je wilt abonneren.
+!!! example
+    Replace `[SUBREDDIT]` with the subreddit you wish to subscribe to.
 
     ```text
-    https://www.reddit.com/r/{{ subreddit_name }}/new/.rss
+    https://www.reddit.com/r/[SUBREDDIT]/new/.rss
     ```
 
 ### Twitter

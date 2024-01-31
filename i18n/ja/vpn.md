@@ -84,9 +84,11 @@ Proton VPNはそのサービスでWireGuardを使用することを[推奨](http
 
 Proton VPNは現在NAT-PMP経由で、リース時間は60秒の一時的なリモート[ポートフォワーディング](https://protonvpn.com/support/port-forwarding/)のみをサポートしています。 Windowsアプリにはそれに簡単にアクセスできるオプションがありますが、他のオペレーティングシステムでは独自の[NAT-PMPクライアント](https://protonvpn.com/support/port-forwarding-manual-setup/)を実行する必要があります。 Torrentアプリは多くの場合NAT-PMPをネイティブサポートしています。
 
-#### :material-information-outline:{ .pg-blue } Censorship Circumvention
+#### :material-information-outline:{ .pg-orange } Censorship Circumvention
 
-Proton VPN has their [Stealth](https://protonvpn.com/blog/stealth-vpn-protocol/) protocol which helps in situations where VPN protocols like OpenVPN or Wireguard are blocked. Stealth works by using an obfuscated TLS tunnel over TCP making it more difficult for deep packet inspection (DPI) to block. Unfortunately, Stealth is not yet available on Windows or Linux.
+Proton VPN has their [Stealth](https://protonvpn.com/blog/stealth-vpn-protocol/) protocol which *may* help in situations where VPN protocols like OpenVPN or Wireguard are blocked with various rudimentary techniques. Stealth encapsulates the VPN tunnel in TLS session in order to look like more generic internet traffic.
+
+Unfortunately it does not work very well in countries where sophisticated filters are deployed that analyze all outgoing traffic in an attempt to discover encrypted tunnels. Stealth is also not yet available on [Windows](https://github.com/ProtonVPN/win-app/issues/64) or Linux.
 
 #### :material-check:{ .pg-green } モバイルクライアント
 
@@ -269,6 +271,7 @@ We require all our recommended VPN providers to provide OpenVPN configuration fi
 - 使いやすいVPNクライアントであること。
 - [IPv6](https://en.wikipedia.org/wiki/IPv6)をサポートしていること。 サーバーがIPv6経由の着信接続を許可し、IPv6アドレスでホストされているサービスにアクセスできることが望ましい。
 - [リモートポート転送](https://en.wikipedia.org/wiki/Port_forwarding#Remote_port_forwarding)機能が備わっていること。リモートポート転送機能は、P2P（[Peer-to-Peer](https://en.wikipedia.org/wiki/Peer-to-peer)）ファイル共有ソフトウェアを使用していたり、サーバー（Mumbleなど）をホストしていたりする際に接続を確立することを支援するものです。
+- Obfuscation technology which pads data packets with random data to circumvent internet censorship.
 
 ### プライバシー
 

@@ -84,9 +84,11 @@ Proton VPN [consiglia](https://protonvpn.com/blog/wireguard/) l'uso di WireGuard
 
 Al momento, Proton VPN supporta soltanto il [port forwarding](https://protonvpn.com/support/port-forwarding/) remoto ed effimero, tramite NAT-PMP, con 60 secondi di tempo di noleggio. L'app per Windows fornisce un'opzione facilmente accessibile, mentre su altri sistemi operativi dovrai eseguire il tuo [client NAT-PMP](https://protonvpn.com/support/port-forwarding-manual-setup/). Le applicazioni torrent supportano spesso NAT-PMP in modo nativo.
 
-#### :material-information-outline:{ .pg-blue } Elusione della censura
+#### :material-information-outline:{ .pg-orange } Censorship Circumvention
 
-Proton VPN ha il suo protocollo [Stealth](https://protonvpn.com/blog/stealth-vpn-protocol/) che aiuta nelle situazioni in cui i protocolli VPN come OpenVPN o Wireguard sono bloccati. Il protocollo Stealth funziona utilizzando un tunnel TLS offuscato su TCP, rendendo più difficile il blocco da parte della Deep Packet Inspection (DPI). Purtroppo, Stealth non è ancora disponibile su Windows o Linux.
+Proton VPN has their [Stealth](https://protonvpn.com/blog/stealth-vpn-protocol/) protocol which *may* help in situations where VPN protocols like OpenVPN or Wireguard are blocked with various rudimentary techniques. Stealth encapsulates the VPN tunnel in TLS session in order to look like more generic internet traffic.
+
+Unfortunately it does not work very well in countries where sophisticated filters are deployed that analyze all outgoing traffic in an attempt to discover encrypted tunnels. Stealth is also not yet available on [Windows](https://github.com/ProtonVPN/win-app/issues/64) or Linux.
 
 #### :material-check:{ .pg-green } Client Mobile
 
@@ -269,6 +271,7 @@ Richiediamo a tutti i nostri fornitori di VPN consigliati di fornire i file di c
 - Client VPN facili da usare
 - Supporto per [IPv6](https://en.wikipedia.org/wiki/IPv6). Ci aspettiamo che i server accettino connessioni in arrivo via IPv6 e che ti permettano di accedere a servizi su indirizzi IPv6.
 - La capacità di [port forwarding remoto](https://en.wikipedia.org/wiki/Port_forwarding#Remote_port_forwarding) assiste nel creare connessioni, utilizzando software di condivisione di file P2P ([Peer-to-Peer](https://en.wikipedia.org/wiki/Peer-to-peer)) od ospitando un server (es. Mumble).
+- Obfuscation technology which pads data packets with random data to circumvent internet censorship.
 
 ### Privacy
 

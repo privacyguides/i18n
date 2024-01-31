@@ -1,8 +1,8 @@
 ---
-meta_title: "As melhores aplicações de mensagens instantâneas com foco na privacidade - Privacy Guides"
+meta_title: "The Best Private Instant Messengers - Privacy Guides"
 title: "Comunicação em tempo real"
 icon: material/chat-processing
-description: Outras aplicações de mensagens instantâneas disponibilizam todas as suas conversas privadas à empresa que as gere.
+description: Other instant messengers make all of your private conversations available to the company that runs them.
 cover: real-time-communication.webp
 ---
 
@@ -16,29 +16,33 @@ Estas aplicações de mensagens são ótimas para proteger as suas comunicaçõe
 
 ### Signal
 
-!!! nota
-    Consulte o [Tabela de Hardware](https://openwrt.org/toh/start) para verificar se o seu dispositivo é suportado.
+<div class="admonition recommendation" markdown>
 
-    ![Logótipo Signal](assets/img/messengers/signal.svg){ align=right }
-    
-    **Signal** é uma aplicação para dispositivos móveis desenvolvida pela Signal Messenger LLC. A aplicação permite o envio de mensagens instantâneas, bem como chamadas de voz e vídeo.
-    
-    Todas as comunicações são E2EE. As listas de contactos são encriptadas utilizando o PIN do Signal e o servidor não tem acesso a elas. Os perfis pessoais também são encriptados e apenas são partilhados com os contactos com quem conversa.
-    
-    [:octicons-home-16: Homepage](https://signal.org/){ .md-button .md-button--primary }
-    [:octicons-eye-16:](https://signal.org/legal/#privacy-policy){ .card-link title="Política de Privacidade" }
-    [:octicons-info-16:](https://support.signal.org/hc/en-us){ .card-link title=Documentação}
-    [:octicons-code-16:](https://github.com/signalapp){ .card-link title="Código-fonte" }
-    [:octicons-heart-16:](https://signal.org/donate/){ .card-link title=Contribuir }
-    
-    ??? downloads
-    
-        - [:simple-googleplay: Google Play](https://play.google.com/store/apps/details?id=org.thoughtcrime.securesms)
-        - [:simple-appstore: App Store](https://apps.apple.com/app/id874139669)
-        - [:simple-android: Android](https://signal.org/android/apk/)
-        - [:simple-windows11: Windows](https://signal.org/download/windows)
-        - [:simple-apple: macOS](https://signal.org/download/macos)
-        - [:simple-linux: Linux](https://signal.org/download/linux)
+![Logótipo Signal](assets/img/messengers/signal.svg){ align=right }
+
+**Signal** é uma aplicação para dispositivos móveis desenvolvida pela Signal Messenger LLC. A aplicação permite o envio de mensagens instantâneas, bem como chamadas de voz e vídeo.
+
+Todas as comunicações são E2EE. As listas de contactos são encriptadas utilizando o PIN do Signal e o servidor não tem acesso a elas. Os perfis pessoais também são encriptados e apenas são partilhados com os contactos com quem conversa.
+
+[:octicons-home-16: Homepage](https://signal.org/){ .md-button .md-button--primary }
+[:octicons-eye-16:](https://signal.org/legal/#privacy-policy){ .card-link title="Privacy Policy" }
+[:octicons-info-16:](https://support.signal.org/hc/en-us){ .card-link title=Documentation}
+[:octicons-code-16:](https://github.com/signalapp){ .card-link title="Source Code" }
+[:octicons-heart-16:](https://signal.org/donate/){ .card-link title=Contribute }
+
+<details class="downloads" markdown>
+<summary>Downloads</summary>
+
+- [:simple-googleplay: Google Play](https://play.google.com/store/apps/details?id=org.thoughtcrime.securesms)
+- [:simple-appstore: App Store](https://apps.apple.com/app/id874139669)
+- [:simple-android: Android](https://signal.org/android/apk/)
+- [:simple-windows11: Windows](https://signal.org/download/windows)
+- [:simple-apple: macOS](https://signal.org/download/macos)
+- [:simple-linux: Linux](https://signal.org/download/linux)
+
+</details>
+
+</div>
 
 O Signal suporta [grupos privados](https://signal.org/blog/signal-private-group-system/). O servidor não tem qualquer registo dos grupos a que pertence, títulos de grupo, avatares de grupo ou atributos de grupo. O Signal tem metadados mínimos quando se ativa o[Sealed Sender](https://signal.org/blog/sealed-sender/). O endereço do remetente é encriptado juntamente com o corpo da mensagem e apenas o endereço do destinatário é visível para o servidor. O Sealed Sender só está ativado para as pessoas da sua lista de contactos, mas pode ser ativado para todos os destinatários, com o risco acrescido de poder receber spam. O Signal requer o seu número de telefone como identificador pessoal.
 
@@ -50,26 +54,30 @@ Temos algumas dicas adicionais sobre como configurar e fortalecer a sua instala�
 
 ### SimpleX Chat
 
-!!! nota
-    Consulte o [Tabela de Hardware](https://openwrt.org/toh/start) para verificar se o seu dispositivo é suportado.
+<div class="admonition recommendation" markdown>
 
-    ![Logótipo Simplex](assets/img/messengers/simplex.svg){ align=right }
-    
-    O **SimpleX** Chat é uma aplicação descentralizada de mensagens instantâneas e não depende de quaisquer identificadores únicos, tais como números de telefone ou nomes de utilizador. Os utilizadores do SimpleX Chat podem fazer scan a um código QR ou clicar numa ligação de convite para participar em conversas de grupo.
-    
-    [:octicons-home-16: Homepage](https://simplex.chat){ .md-button .md-button--primary }
-    [:octicons-eye-16:](https://github.com/simplex-chat/simplex-chat/blob/stable/PRIVACY.md){ .card-link title="Política de Privacidade" }
-    [:octicons-info-16:](https://github.com/simplex-chat/simplex-chat/tree/stable/docs){ .card-link title=Documentação}
-    [:octicons-code-16:](https://github.com/simplex-chat){ .card-link title="Código-fonte" }
-    
-    ??? downloads
-    
-        - [:simple-googleplay: Google Play](https://play.google.com/store/apps/details?id=chat.simplex.app)
-        - [:simple-appstore: App Store](https://apps.apple.com/us/app/simplex-chat/id1605771084)
-        - [:simple-github: GitHub](https://github.com/simplex-chat/simplex-chat/releases)
-        - [:simple-windows11: Windows](https://simplex.chat/downloads/#desktop-app)
-        - [:simple-apple: macOS](https://simplex.chat/downloads/#desktop-app)
-        - [:simple-linux: Linux](https://simplex.chat/downloads/#desktop-app)
+![Logótipo Simplex](assets/img/messengers/simplex.svg){ align=right }
+
+O **SimpleX** Chat é uma aplicação descentralizada de mensagens instantâneas e não depende de quaisquer identificadores únicos, tais como números de telefone ou nomes de utilizador. Os utilizadores do SimpleX Chat podem fazer scan a um código QR ou clicar numa ligação de convite para participar em conversas de grupo.
+
+[:octicons-home-16: Homepage](https://simplex.chat){ .md-button .md-button--primary }
+[:octicons-eye-16:](https://github.com/simplex-chat/simplex-chat/blob/stable/PRIVACY.md){ .card-link title="Privacy Policy" }
+[:octicons-info-16:](https://github.com/simplex-chat/simplex-chat/tree/stable/docs){ .card-link title=Documentation}
+[:octicons-code-16:](https://github.com/simplex-chat){ .card-link title="Source Code" }
+
+<details class="downloads" markdown>
+<summary>Downloads</summary>
+
+- [:simple-googleplay: Google Play](https://play.google.com/store/apps/details?id=chat.simplex.app)
+- [:simple-appstore: App Store](https://apps.apple.com/us/app/simplex-chat/id1605771084)
+- [:simple-github: GitHub](https://github.com/simplex-chat/simplex-chat/releases)
+- [:simple-windows11: Windows](https://simplex.chat/downloads/#desktop-app)
+- [:simple-apple: macOS](https://simplex.chat/downloads/#desktop-app)
+- [:simple-linux: Linux](https://simplex.chat/downloads/#desktop-app)
+
+</details>
+
+</div>
 
 O SimpleX Chat [foi auditado](https://simplex.chat/blog/20221108-simplex-chat-v4.2-security-audit-new-website.html) por Trail of Bits, em outubro de 2022.
 
@@ -77,25 +85,29 @@ SimpleX Chat supports basic group chatting functionality, direct messaging, and 
 
 ### Briar
 
-!!! nota
-    Consulte o [Tabela de Hardware](https://openwrt.org/toh/start) para verificar se o seu dispositivo é suportado.
+<div class="admonition recommendation" markdown>
 
-    ![Logótipo Briar](assets/img/messengers/briar.svg){ align=right }
-    
-    O **Briar** é uma aplicação de mensagens instantâneas encriptada que [connects](https://briarproject.org/how-it-works/) a outros clientes, usando a rede Tor. O Briar pode ligar-se através de Wi-Fi ou Bluetooth. O modo de rede local do Briar pode ser útil, quando não estiver garantida a disponibilidade da Internet.
-    
-    [:octicons-home-16: Homepage](https://briarproject.org/){ .md-button .md-button--primary }
-    [:octicons-eye-16:](https://briarproject.org/privacy-policy/){ .card-link title="Política de Privacidade" }
-    [:octicons-info-16:](https://code.briarproject.org/briar/briar/-/wikis/home){ .card-link title=Documentação}
-    [:octicons-code-16:](https://code.briarproject.org/briar/briar){ .card-link title="Código-fonte" }
-    [:octicons-heart-16:](https://briarproject.org/){ .card-link title="As opções de donativos estão listadas na parte inferior da página inicial" }
-    
-    ??? downloads
-    
-        - [:simple-googleplay: Google Play](https://play.google.com/store/apps/details?id=org.briarproject.briar.android)
-        - [:simple-windows11: Windows](https://briarproject.org/download-briar-desktop/)
-        - [:simple-linux: Linux](https://briarproject.org/download-briar-desktop/)
-        - [:simple-flathub: Flathub](https://flathub.org/apps/details/org.briarproject.Briar)
+![Logótipo Briar](assets/img/messengers/briar.svg){ align=right }
+
+O **Briar** é uma aplicação de mensagens instantâneas encriptada que [connects](https://briarproject.org/how-it-works/) a outros clientes, usando a rede Tor. O Briar pode ligar-se através de Wi-Fi ou Bluetooth. O modo de rede local do Briar pode ser útil, quando não estiver garantida a disponibilidade da Internet.
+
+[:octicons-home-16: Homepage](https://briarproject.org/){ .md-button .md-button--primary }
+[:octicons-eye-16:](https://briarproject.org/privacy-policy/){ .card-link title="Privacy Policy" }
+[:octicons-info-16:](https://code.briarproject.org/briar/briar/-/wikis/home){ .card-link title=Documentation}
+[:octicons-code-16:](https://code.briarproject.org/briar/briar){ .card-link title="Source Code" }
+[:octicons-heart-16:](https://briarproject.org/){ .card-link title="Donation options are listed on the bottom of the homepage" }
+
+<details class="downloads" markdown>
+<summary>Downloads</summary>
+
+- [:simple-googleplay: Google Play](https://play.google.com/store/apps/details?id=org.briarproject.briar.android)
+- [:simple-windows11: Windows](https://briarproject.org/download-briar-desktop/)
+- [:simple-linux: Linux](https://briarproject.org/download-briar-desktop/)
+- [:simple-flathub: Flathub](https://flathub.org/apps/details/org.briarproject.Briar)
+
+</details>
+
+</div>
 
 Para adicionar um contacto no Briar, é necessário que você e o contacto se adicionem mutuamente. Pode trocar links `briar://` ou digitalizar o código QR de um contacto, se este estiver próximo.
 
@@ -107,35 +119,42 @@ O Briar suporta Forward Secrecy, através do Bramble [Handshake](https://code.br
 
 ## Opções adicionais
 
-!!! aviso
+<div class="admonition warning" markdown>
+<p class="admonition-title">Warning</p>
 
-    Estas aplicações de mensagens instantâneas não têm [Forward Secrecy] (https://en.wikipedia.org/wiki/Forward_secrecy) e, embora satisfaçam certas necessidades que as nossas recomendações anteriores não podem satisfazer, não os recomendamos para comunicações de longo prazo ou sensíveis. Qualquer comprometimento da chave entre os destinatários da mensagem afetará a confidencialidade de **todas** as comunicações anteriores.
+Estas aplicações de mensagens instantâneas não têm [Forward Secrecy] (https://en.wikipedia.org/wiki/Forward_secrecy) e, embora satisfaçam certas necessidades que as nossas recomendações anteriores não podem satisfazer, não os recomendamos para comunicações de longo prazo ou sensíveis. Qualquer comprometimento da chave entre os destinatários da mensagem afetará a confidencialidade de **todas** as comunicações anteriores.
+
+</div>
 
 ### Element
 
-!!! nota
-    Consulte o [Tabela de Hardware](https://openwrt.org/toh/start) para verificar se o seu dispositivo é suportado.
+<div class="admonition recommendation" markdown>
 
-    ![Logótipo Element](assets/img/messengers/element.svg){ align=right }
-    
-    **Element** é o cliente de referência para o protocolo [Matrix](https://matrix.org/docs/guides/introduction), uma [norma aberta](https://matrix.org/docs/spec) para comunicação segura e descentralizada, em tempo real.
-    
-    As mensagens e os ficheiros partilhados em salas privadas (que requerem um convite) são, por defeito, E2EE, tal como as chamadas de voz e de vídeo, de um para um.
-    
-    [:octicons-home-16: Homepage](https://element.io/){ .md-button .md-button--primary }
-    [:octicons-eye-16:](https://element.io/privacy){ .card-link title="Política de Privacidade" }
-    [:octicons-info-16:](https://element.io/help){ .card-link title=Documentação}
-    [:octicons-code-16:](https://github.com/vetor-im){ .card-link title="Código-fonte" }
-    
-    ??? downloads
-    
-        - [:simple-googleplay: Google Play](https://play.google.com/store/apps/details?id=im.vector.app)
-        - [:simple-appstore: App Store](https://apps.apple.com/app/vector/id1083446067)
-        - [:simple-github: GitHub](https://github.com/vector-im/element-android/releases)
-        - [:simple-windows11: Windows](https://element.io/get-started)
-        - [:simple-apple: macOS](https://element.io/get-started)
-        - [:simple-linux: Linux](https://element.io/get-started)
-        - [:octicons-globe-16: Web](https://app.element.io)
+![Logótipo Element](assets/img/messengers/element.svg){ align=right }
+
+**Element** é o cliente de referência para o protocolo [Matrix](https://matrix.org/docs/guides/introduction), uma [norma aberta](https://matrix.org/docs/spec) para comunicação segura e descentralizada, em tempo real.
+
+As mensagens e os ficheiros partilhados em salas privadas (que requerem um convite) são, por defeito, E2EE, tal como as chamadas de voz e de vídeo, de um para um.
+
+[:octicons-home-16: Homepage](https://element.io/){ .md-button .md-button--primary }
+[:octicons-eye-16:](https://element.io/privacy){ .card-link title="Privacy Policy" }
+[:octicons-info-16:](https://element.io/help){ .card-link title=Documentation}
+[:octicons-code-16:](https://github.com/vector-im){ .card-link title="Source Code" }
+
+<details class="downloads" markdown>
+<summary>Downloads</summary>
+
+- [:simple-googleplay: Google Play](https://play.google.com/store/apps/details?id=im.vector.app)
+- [:simple-appstore: App Store](https://apps.apple.com/app/vector/id1083446067)
+- [:simple-github: GitHub](https://github.com/vector-im/element-android/releases)
+- [:simple-windows11: Windows](https://element.io/get-started)
+- [:simple-apple: macOS](https://element.io/get-started)
+- [:simple-linux: Linux](https://element.io/get-started)
+- [:octicons-globe-16: Web](https://app.element.io)
+
+</details>
+
+</div>
 
 As imagens de perfil, as reações e os nicknames não são encriptados.
 
@@ -147,28 +166,32 @@ O protocolo foi objeto de uma [auditoria independente](https://matrix.org/blog/2
 
 ### Session
 
-!!! nota
-    Consulte o [Tabela de Hardware](https://openwrt.org/toh/start) para verificar se o seu dispositivo é suportado.
+<div class="admonition recommendation" markdown>
 
-    ![Logótipo Session](assets/img/messengers/session.svg){ align=right }
-    
-    **Session** é uma aplicação descentralizada de mensagens instantâneas com foco em comunicações privadas, seguras e anónimas. A sessão oferece suporte para mensagens diretas, conversas de grupo e chamadas de voz.
-    
-    O Session utiliza a rede descentralizada [Oxen Service Node Network] (https://oxen.io/) para armazenar e encaminhar mensagens. Cada mensagem encriptada é encaminhada através de três nós na Oxen Service Node Network, tornando virtualmente impossível que os nós compilem informação significativa sobre aqueles que utilizam a rede.
-    
-    [:octicons-home-16: Homepage](https://getsession.org/){ .md-button .md-button--primary }
-    [:octicons-eye-16:](https://getsession.org/privacy-policy){ .card-link title="Política de Privacidade" }
-    [:octicons-info-16:](https://getsession.org/faq){ .card-link title=Documentação}
-    [:octicons-code-16:](https://github.com/oxen-io){ .card-link title="Código-fonte" }
-    
-    ??? downloads
-    
-        - [:simple-googleplay: Google Play](https://play.google.com/store/apps/details?id=network.loki.messenger)
-        - [:simple-appstore: App Store](https://apps.apple.com/app/id1470168868)
-        - [:simple-github: GitHub](https://github.com/oxen-io/session-android/releases)
-        - [:simple-windows11: Windows](https://getsession.org/download)
-        - [:simple-apple: macOS](https://getsession.org/download)
-        - [:simple-linux: Linux](https://getsession.org/download)
+![Logótipo Session](assets/img/messengers/session.svg){ align=right }
+
+**Session** é uma aplicação descentralizada de mensagens instantâneas com foco em comunicações privadas, seguras e anónimas. A sessão oferece suporte para mensagens diretas, conversas de grupo e chamadas de voz.
+
+O Session utiliza a rede descentralizada [Oxen Service Node Network] (https://oxen.io/) para armazenar e encaminhar mensagens. Cada mensagem encriptada é encaminhada através de três nós na Oxen Service Node Network, tornando virtualmente impossível que os nós compilem informação significativa sobre aqueles que utilizam a rede.
+
+[:octicons-home-16: Homepage](https://getsession.org/){ .md-button .md-button--primary }
+[:octicons-eye-16:](https://getsession.org/privacy-policy){ .card-link title="Privacy Policy" }
+[:octicons-info-16:](https://getsession.org/faq){ .card-link title=Documentation}
+[:octicons-code-16:](https://github.com/oxen-io){ .card-link title="Source Code" }
+
+<details class="downloads" markdown>
+<summary>Downloads</summary>
+
+- [:simple-googleplay: Google Play](https://play.google.com/store/apps/details?id=network.loki.messenger)
+- [:simple-appstore: App Store](https://apps.apple.com/app/id1470168868)
+- [:simple-github: GitHub](https://github.com/oxen-io/session-android/releases)
+- [:simple-windows11: Windows](https://getsession.org/download)
+- [:simple-apple: macOS](https://getsession.org/download)
+- [:simple-linux: Linux](https://getsession.org/download)
+
+</details>
+
+</div>
 
 O Session permite E2EE em conversas individuais ou em grupos fechados com um máximo de 100 membros. Os grupos abertos não têm restrições quanto ao número de membros, mas são abertos por definição.
 
@@ -182,9 +205,12 @@ O Session tem um [whitepaper](https://arxiv.org/pdf/2002.04609.pdf) que descreve
 
 **Note que não estamos associados a nenhum dos projetos que recomendamos.** Para além dos [nossos critérios padrão](about/criteria.md), temos um conjunto claro de requisitos que nos permitem fornecer recomendações objetivas. Sugerimos que se familiarize com esta lista antes de optar por um projeto e que desenvolva a sua própria investigação para garantir que se trata da escolha certa para si.
 
-!!! exemplo "Esta secção é nova"
+<div class="admonition example" markdown>
+<p class="admonition-title">This section is new</p>
 
-    Estamos a trabalhar no sentido de estabelecer critérios para cada secção do nosso site, o que pode originar alterações. Se tiver alguma dúvida sobre os critérios utilizados, por favor [pergunte no nosso fórum] (https://discuss.privacyguides.net/latest) e não parta do princípio de que algo foi excluído das nossas recomendações, caso não esteja listado aqui. São muitos os fatores considerados e discutidos quando recomendamos um projeto, e documentar cada um deles é um trabalho em curso.
+Estamos a trabalhar no sentido de estabelecer critérios para cada secção do nosso site, o que pode originar alterações. Se tiver alguma dúvida sobre os critérios utilizados, por favor [pergunte no nosso fórum] (https://discuss.privacyguides.net/latest) e não parta do princípio de que algo foi excluído das nossas recomendações, caso não esteja listado aqui. São muitos os fatores considerados e discutidos quando recomendamos um projeto, e documentar cada um deles é um trabalho em curso.
+
+</div>
 
 - Deve ter clientes de código aberto.
 - Deve utilizar o E2EE para mensagens privadas por defeito.

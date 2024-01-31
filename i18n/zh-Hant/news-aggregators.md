@@ -140,11 +140,11 @@ cover: news-aggregators.webp
 
 Reddit 允許您通過 RSS 訂閱 subreddits。
 
-!!! example "案例"
-    替換 `subreddit_name` 改為所要訂閱的 subreddit
+!!! example
+    Replace `[SUBREDDIT]` with the subreddit you wish to subscribe to.
 
     ```text
-    https://www.reddit.com/r/{{ subreddit_name }}/new/.rss
+    https://www.reddit.com/r/[SUBREDDIT]/new/.rss
     ```
 
 ### Twitter

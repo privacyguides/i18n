@@ -140,11 +140,11 @@ Beberapa layanan media sosial juga mendukung RSS meskipun tidak sering diiklanka
 
 Reddit memungkinkan Anda untuk berlangganan subreddit melalui RSS.
 
-!!! contoh
-    Ganti `subreddit_name` dengan subreddit yang ingin Anda berlangganan.
+!!! example
+    Replace `[SUBREDDIT]` with the subreddit you wish to subscribe to.
 
     ```text
-    https://www.reddit.com/r/{{ subreddit_name }}/new/.rss
+    https://www.reddit.com/r/[SUBREDDIT]/new/.rss
     ```
 
 ### Twitter

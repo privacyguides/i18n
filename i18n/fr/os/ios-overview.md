@@ -125,6 +125,12 @@ Si vous utilisez les déverouillages biométriques, vous devez savoir comment le
 
 Sur certains appareils plus anciens, vous devrez peut-être appuyer cinq fois sur le bouton d'alimentation pour désactiver la biométrie ou, pour les appareils dotés de Touch ID, il vous suffira de maintenir le bouton d'alimentation enfoncé, sans rien d'autre. Veillez à faire un essai préalable afin de savoir quelle méthode fonctionne pour votre appareil.
 
+**Stolen Data Protection** is a new feature in iOS 17.3 which adds additional security intended to protect your personal data if your device is stolen while unlocked. If you use biometrics and the Find My Device feature in your Apple ID settings, we recommend enabling this new protection:
+
+- [x] Select **Turn On Protection**
+
+After enabling stolen data protection, [certain actions](https://support.apple.com/en-us/HT212510) will require biometric authentication without a password fallback (in the event that a shoulder surfer has obtained your PIN), such as using password autofill, accessing payment information, and disabling lost mode. It also adds a security delay to certain actions performed away from your home or other "familiar location," such as requiring a 1-hour timer to reset your Apple ID password or sign out of your Apple ID. This delay is intended to give you time to enable Lost Mode and secure your account before a thief can reset your device.
+
 **Autoriser l'accès lorsque le téléphone est verrouillé** vous offre des options pour définir ce que vous pouvez autoriser lorsque votre téléphone est verrouillé. Plus vous désactivez d'options, moins quelqu'un qui n'a pas votre mot de passe peut faire de choses, mais moins c'est pratique pour vous. Choisissez les éléments auxquels vous ne voulez pas que quelqu'un ait accès s'il met la main sur votre téléphone.
 
 - [ ] Désactivez **Aujourd'hui et recherche**

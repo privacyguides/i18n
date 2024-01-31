@@ -1,8 +1,8 @@
 ---
-meta_title: "最好的私人即時通訊軟體 - Privacy Guides"
+meta_title: "The Best Private Instant Messengers - Privacy Guides"
 title: "即時通訊軟體"
 icon: material/chat-processing
-description: 其他即時通訊則會讓您所有的私人對話被該軟體公司取得。
+description: Other instant messengers make all of your private conversations available to the company that runs them.
 cover: real-time-communication.webp
 ---
 
@@ -16,28 +16,33 @@ cover: real-time-communication.webp
 
 ### Signal
 
-!!! recommendation
+<div class="admonition recommendation" markdown>
 
-    ![Signal logo](assets/img/messengers/signal.svg){ align=right }
-    
-    **Signal** 是由Signal Messenger LLC開發的行動應用程式。 該應用程式提供即時消息，以及語音和視頻通話。
-    
-    所有通信都是E2EE。 連絡人清單會使用您的 Signal PIN 加密，而伺服器無法存取。 個人帳號也會加密，並僅與您聊天的聯絡人分享。
-    
-    [:octicons-home-16: Homepage](https://signal.org/){ .md-button .md-button--primary }
-    [:octicons-eye-16:](https://signal.org/legal/#privacy-policy){ .card-link title="Privacy Policy" }
-    [:octicons-info-16:](https://support.signal.org/hc/en-us){ .card-link title=Documentation}
-    [:octicons-code-16:](https://github.com/signalapp){ .card-link title="Source Code" }
-    [:octicons-heart-16:](https://signal.org/donate/){ .card-link title=Contribute }
-    
-    ??? downloads "下載"
-    
-        - [:simple-googleplay: Google Play](https://play.google.com/store/apps/details?id=org.thoughtcrime.securesms)
-        - [:simple-appstore: App Store](https://apps.apple.com/app/id874139669)
-        - [:simple-android: Android](https://signal.org/android/apk/)
-        - [:simple-windows11: Windows](https://signal.org/download/windows)
-        - [:simple-apple: macOS](https://signal.org/download/macos)
-        - [:simple-linux: Linux](https://signal.org/download/linux)
+![Signal logo](assets/img/messengers/signal.svg){ align=right }
+
+**Signal** 是由Signal Messenger LLC開發的行動應用程式。 該應用程式提供即時消息，以及語音和視頻通話。
+
+所有通信都是E2EE。 連絡人清單會使用您的 Signal PIN 加密，而伺服器無法存取。 個人帳號也會加密，並僅與您聊天的聯絡人分享。
+
+[:octicons-home-16: Homepage](https://signal.org/){ .md-button .md-button--primary }
+[:octicons-eye-16:](https://signal.org/legal/#privacy-policy){ .card-link title="Privacy Policy" }
+[:octicons-info-16:](https://support.signal.org/hc/en-us){ .card-link title=Documentation}
+[:octicons-code-16:](https://github.com/signalapp){ .card-link title="Source Code" }
+[:octicons-heart-16:](https://signal.org/donate/){ .card-link title=Contribute }
+
+<details class="downloads" markdown>
+<summary>Downloads</summary>
+
+- [:simple-googleplay: Google Play](https://play.google.com/store/apps/details?id=org.thoughtcrime.securesms)
+- [:simple-appstore: App Store](https://apps.apple.com/app/id874139669)
+- [:simple-android: Android](https://signal.org/android/apk/)
+- [:simple-windows11: Windows](https://signal.org/download/windows)
+- [:simple-apple: macOS](https://signal.org/download/macos)
+- [:simple-linux: Linux](https://signal.org/download/linux)
+
+</details>
+
+</div>
 
 Signal支持 [私人羣組](https://signal.org/blog/signal-private-group-system/)。 伺服器不會記錄羣組成員資格、羣組標題、羣組頭像或羣組屬性。 當啓用 [Sealed Sender](https://signal.org/blog/sealed-sender/) 時， Signal具有最小元數據。 發件人地址與訊息內文一起加密，伺服器只可見到收件人地址。 Sealed Sender 功能僅適用於聯絡人清單的成員，但在收訊時也可啟用以防止接收垃圾郵件增加的風險。 Signal 需要您的電話號碼作為個人識別碼。
 
@@ -49,25 +54,30 @@ Signal支持 [私人羣組](https://signal.org/blog/signal-private-group-system/
 
 ### SimpleX Chat
 
-!!! recommendation
+<div class="admonition recommendation" markdown>
 
-    ![Simplex logo](assets/img/messengers/simplex.svg){ align=right }
-    
-    **SimpleX** Chat 是一個分散的即時通訊工具，不依賴任何獨有識別碼，如電話號碼或用戶名。 SimpleX Chat 使用者可以掃描二維碼或點擊邀請連結以參與羣組對話。
-    
-    [:octicons-home-16: Homepage](https://simplex.chat){ .md-button .md-button--primary }
-    [:octicons-eye-16:](https://github.com/simplex-chat/simplex-chat/blob/stable/PRIVACY.md){ .card-link title="Privacy Policy" }
-    [:octicons-info-16:](https://github.com/simplex-chat/simplex-chat/tree/stable/docs){ .card-link title=Documentation}
-    [:octicons-code-16:](https://github.com/simplex-chat){ .card-link title="Source Code" }
-    
-    ??? downloads "下載"
-    
-        - [:simple-googleplay: Google Play](https://play.google.com/store/apps/details?id=chat.simplex.app)
-        - [:simple-appstore: App Store](https://apps.apple.com/us/app/simplex-chat/id1605771084)
-        - [:simple-github: GitHub](https://github.com/simplex-chat/simplex-chat/releases)
-        - [:simple-windows11: Windows](https://simplex.chat/downloads/#desktop-app)
-        - [:simple-apple: macOS](https://simplex.chat/downloads/#desktop-app)
-        - [:simple-linux: Linux](https://simplex.chat/downloads/#desktop-app)
+![Simplex logo](assets/img/messengers/simplex.svg){ align=right }
+
+**SimpleX** Chat 是一個分散的即時通訊工具，不依賴任何獨有識別碼，如電話號碼或用戶名。 SimpleX Chat 使用者可以掃描二維碼或點擊邀請連結以參與羣組對話。
+
+[:octicons-home-16: Homepage](https://simplex.chat){ .md-button .md-button--primary }
+[:octicons-eye-16:](https://github.com/simplex-chat/simplex-chat/blob/stable/PRIVACY.md){ .card-link title="Privacy Policy" }
+[:octicons-info-16:](https://github.com/simplex-chat/simplex-chat/tree/stable/docs){ .card-link title=Documentation}
+[:octicons-code-16:](https://github.com/simplex-chat){ .card-link title="Source Code" }
+
+<details class="downloads" markdown>
+<summary>Downloads</summary>
+
+- [:simple-googleplay: Google Play](https://play.google.com/store/apps/details?id=chat.simplex.app)
+- [:simple-appstore: App Store](https://apps.apple.com/us/app/simplex-chat/id1605771084)
+- [:simple-github: GitHub](https://github.com/simplex-chat/simplex-chat/releases)
+- [:simple-windows11: Windows](https://simplex.chat/downloads/#desktop-app)
+- [:simple-apple: macOS](https://simplex.chat/downloads/#desktop-app)
+- [:simple-linux: Linux](https://simplex.chat/downloads/#desktop-app)
+
+</details>
+
+</div>
 
 SimpleX Chat 於2022年10月接受 Trail of Bits [審計](https://simplex.chat/blog/20221108-simplex-chat-v4.2-security-audit-new-website.html) 。
 
@@ -75,24 +85,29 @@ SimpleX Chat 提供基本的小組聊天功能、直接傳訊與 markdown 格式
 
 ### Briar
 
-!!! recommendation
+<div class="admonition recommendation" markdown>
 
-    ![Briar logo](assets/img/messengers/briar.svg){ align=right }
-    
-    **Briar** 是 [連接](https://briarproject.org/how-it-works/)其他使用 Tor網路客戶端的加密即時通訊工具。 Briar 還可以在本地附近通過 Wi-Fi 或藍牙連接。 當無法使用網際網路時， Briar 的本地網格(mesh)模式可能很有用。
-    
-    [:octicons-home-16: Homepage](https://briarproject.org/){ .md-button .md-button--primary }
-    [:octicons-eye-16:](https://briarproject.org/privacy-policy/){ .card-link title="Privacy Policy" }
-    [:octicons-info-16:](https://code.briarproject.org/briar/briar/-/wikis/home){ .card-link title=Documentation}
-    [:octicons-code-16:](https://code.briarproject.org/briar/briar){ .card-link title="Source Code" }
-    [:octicons-heart-16:](https://briarproject.org/){ .card-link title="Donation options are listed on the bottom of the homepage" }
-    
-    ??? downloads "下載"
-    
-        - [:simple-googleplay: Google Play](https://play.google.com/store/apps/details?id=org.briarproject.briar.android)
-        - [:simple-windows11: Windows](https://briarproject.org/download-briar-desktop/)
-        - [:simple-linux: Linux](https://briarproject.org/download-briar-desktop/)
-        - [:simple-flathub: Flathub](https://flathub.org/apps/details/org.briarproject.Briar)
+![Briar logo](assets/img/messengers/briar.svg){ align=right }
+
+**Briar** 是 [連接](https://briarproject.org/how-it-works/)其他使用 Tor網路客戶端的加密即時通訊工具。 Briar 還可以在本地附近通過 Wi-Fi 或藍牙連接。 當無法使用網際網路時， Briar 的本地網格(mesh)模式可能很有用。
+
+[:octicons-home-16: Homepage](https://briarproject.org/){ .md-button .md-button--primary }
+[:octicons-eye-16:](https://briarproject.org/privacy-policy/){ .card-link title="Privacy Policy" }
+[:octicons-info-16:](https://code.briarproject.org/briar/briar/-/wikis/home){ .card-link title=Documentation}
+[:octicons-code-16:](https://code.briarproject.org/briar/briar){ .card-link title="Source Code" }
+[:octicons-heart-16:](https://briarproject.org/){ .card-link title="Donation options are listed on the bottom of the homepage" }
+
+<details class="downloads" markdown>
+<summary>Downloads</summary>
+
+- [:simple-googleplay: Google Play](https://play.google.com/store/apps/details?id=org.briarproject.briar.android)
+- [:simple-windows11: Windows](https://briarproject.org/download-briar-desktop/)
+- [:simple-linux: Linux](https://briarproject.org/download-briar-desktop/)
+- [:simple-flathub: Flathub](https://flathub.org/apps/details/org.briarproject.Briar)
+
+</details>
+
+</div>
 
 Briar 要新增聯絡人，必須先彼此互加。 您可以交換 `briar://` 鏈結或是掃瞄對方的二維碼。
 
@@ -104,34 +119,42 @@ Briar 使用 Bramble [Handshake](https://code.briarproject.org/briar/briar-spec/
 
 ## 額外選項
 
-!!! warning "警告"
+<div class="admonition warning" markdown>
+<p class="admonition-title">Warning "警告"</p>
 
-    這些通訊軟體無 [向前保密](https://en.wikipedia.org/wiki/Forward_secrecy) 雖然它們達成我們之前建議的某些需求，但不推薦將其用於長期或敏感通信。 訊息收件人之間的任何密鑰洩露都會影響* *所有* *過去通信的機密性。
+這些通訊軟體無 [向前保密](https://en.wikipedia.org/wiki/Forward_secrecy) 雖然它們達成我們之前建議的某些需求，但不推薦將其用於長期或敏感通信。 訊息收件人之間的任何密鑰洩露都會影響* *所有* *過去通信的機密性。
+
+</div>
 
 ### Element
 
-!!! recommendation
+<div class="admonition recommendation" markdown>
 
-    ![Element logo](assets/img/messengers/element.svg){ align=right }
-    
-    **Element** 是 [Matrix](https://matrix.org/docs/guides/introduction) 協議的參考用戶端，這是一個 [開放標準](https://matrix.org/docs/spec) 、安全去中心化實時通訊。
-    
-    在私人聊天室（需透過邀請加入）共享的訊息和文件預設為 E2EE ，一對一的語音和視訊通話也是如此。
-    
-    [:octicons-home-16: Homepage](https://element.io/){ .md-button .md-button--primary }
-    [:octicons-eye-16:](https://element.io/privacy){ .card-link title="Privacy Policy" }
-    [:octicons-info-16:](https://element.io/help){ .card-link title=Documentation}
-    [:octicons-code-16:](https://github.com/vector-im){ .card-link title="Source Code" }
-    
-    ??? downloads "下載"
-    
-        - [:simple-googleplay: Google Play](https://play.google.com/store/apps/details?id=im.vector.app)
-        - [:simple-appstore: App Store](https://apps.apple.com/app/vector/id1083446067)
-        - [:simple-github: GitHub](https://github.com/vector-im/element-android/releases)
-        - [:simple-windows11: Windows](https://element.io/get-started)
-        - [:simple-apple: macOS](https://element.io/get-started)
-        - [:simple-linux: Linux](https://element.io/get-started)
-        - [:octicons-globe-16: Web](https://app.element.io)
+![Element logo](assets/img/messengers/element.svg){ align=right }
+
+**Element** 是 [Matrix](https://matrix.org/docs/guides/introduction) 協議的參考用戶端，這是一個 [開放標準](https://matrix.org/docs/spec) 、安全去中心化實時通訊。
+
+在私人聊天室（需透過邀請加入）共享的訊息和文件預設為 E2EE ，一對一的語音和視訊通話也是如此。
+
+[:octicons-home-16: Homepage](https://element.io/){ .md-button .md-button--primary }
+[:octicons-eye-16:](https://element.io/privacy){ .card-link title="Privacy Policy" }
+[:octicons-info-16:](https://element.io/help){ .card-link title=Documentation}
+[:octicons-code-16:](https://github.com/vector-im){ .card-link title="Source Code" }
+
+<details class="downloads" markdown>
+<summary>Downloads</summary>
+
+- [:simple-googleplay: Google Play](https://play.google.com/store/apps/details?id=im.vector.app)
+- [:simple-appstore: App Store](https://apps.apple.com/app/vector/id1083446067)
+- [:simple-github: GitHub](https://github.com/vector-im/element-android/releases)
+- [:simple-windows11: Windows](https://element.io/get-started)
+- [:simple-apple: macOS](https://element.io/get-started)
+- [:simple-linux: Linux](https://element.io/get-started)
+- [:octicons-globe-16: Web](https://app.element.io)
+
+</details>
+
+</div>
 
 個人資料圖片、反應和暱稱不會加密。
 
@@ -146,28 +169,32 @@ Matrix 協議本身 [理論上支援 PFS](https://gitlab.matrix.org/matrix-org/o
 
 ### Session
 
-!!! recommendation
+<div class="admonition recommendation" markdown>
 
-    ![Session logo](assets/img/messengers/session.svg){ align=right }
-    
-    **Session** 是一款分散式通訊軟體，專注於私密、安全和匿名。 Session 支援直接訊息、羣組聊天和語音通話。
-    
-    Session使用去中心化的 [Oxen Service Node Network](https://oxen.io/) 來儲存和路由訊息。 每條加密訊息都通過 Oxen Service Node Network 中三個節點路由，使得節點幾乎不可能編譯有意義信息給此網路的使用者。
-    
-    [:octicons-home-16: Homepage](https://getsession.org/){ .md-button .md-button--primary }
-    [:octicons-eye-16:](https://getsession.org/privacy-policy){ .card-link title="Privacy Policy" }
-    [:octicons-info-16:](https://getsession.org/faq){ .card-link title=Documentation}
-    [:octicons-code-16:](https://github.com/oxen-io){ .card-link title="Source Code" }
-    
-    ??? downloads "下載"
-    
-        - [:simple-googleplay: Google Play](https://play.google.com/store/apps/details?id=network.loki.messenger)
-        - [:simple-appstore: App Store](https://apps.apple.com/app/id1470168868)
-        - [:simple-github: GitHub](https://github.com/oxen-io/session-android/releases)
-        - [:simple-windows11: Windows](https://getsession.org/download)
-        - [:simple-apple: macOS](https://getsession.org/download)
-        - [:simple-linux: Linux](https://getsession.org/download)
-    
+![Session logo](assets/img/messengers/session.svg){ align=right }
+
+**Session** 是一款分散式通訊軟體，專注於私密、安全和匿名。 Session 支援直接訊息、羣組聊天和語音通話。
+
+Session使用去中心化的 [Oxen Service Node Network](https://oxen.io/) 來儲存和路由訊息。 每條加密訊息都通過 Oxen Service Node Network 中三個節點路由，使得節點幾乎不可能編譯有意義信息給此網路的使用者。
+
+[:octicons-home-16: Homepage](https://getsession.org/){ .md-button .md-button--primary }
+[:octicons-eye-16:](https://getsession.org/privacy-policy){ .card-link title="Privacy Policy" }
+[:octicons-info-16:](https://getsession.org/faq){ .card-link title=Documentation}
+[:octicons-code-16:](https://github.com/oxen-io){ .card-link title="Source Code" }
+
+<details class="downloads" markdown>
+<summary>Downloads</summary>
+
+- [:simple-googleplay: Google Play](https://play.google.com/store/apps/details?id=network.loki.messenger)
+- [:simple-appstore: App Store](https://apps.apple.com/app/id1470168868)
+- [:simple-github: GitHub](https://github.com/oxen-io/session-android/releases)
+- [:simple-windows11: Windows](https://getsession.org/download)
+- [:simple-apple: macOS](https://getsession.org/download)
+- [:simple-linux: Linux](https://getsession.org/download)
+
+</details>
+
+</div>
 
 會話允許E2EE在一對一聊天或封閉羣組中，最多可容納100名成員。 開放羣組對成員數量沒有限制，從設計上來說是開放的。
 
@@ -183,10 +210,12 @@ Session [白皮書](https://arxiv.org/pdf/2002.04609.pdf) ，描述了應用程�
 
 **請注意，我們所推薦專案沒有任何瓜葛。 ** 除了 [標準準則](about/criteria.md)外，我們還發展出一套明確要求以提出客觀建議。 我們建議您在選擇使用項目之前先熟悉此列表，並進行自己的研究，以確保它是您的正確選擇。
 
-!!! example "此部分是新的"
+<div class="admonition example" markdown>
+<p class="admonition-title">此部份新增</p>
 
-    我們正在努力為我們網站的每個部分建立定義的標準，這可能會有所變化。 如果您對我們的標準有任何疑問，請在 [論壇上提問](https://discuss.privacyguides.net/latest) ，如果沒有列出，請不要認為我們在提出建議時沒有考慮到某些事情。 當我們推薦一個項目時，有許多因素被考慮和討論，記錄每一個項目都是正在進行式。
-    
+我們正在努力為我們網站的每個部分建立定義的標準，這可能會有所變化。 如果您對我們的標準有任何疑問，請在 [論壇上提問](https://discuss.privacyguides.net/latest) ，如果沒有列出，請不要認為我們在提出建議時沒有考慮到某些事情。 當我們推薦一個項目時，有許多因素被考慮和討論，記錄每一個項目都是正在進行式。
+
+</div>
 
 - 一定要有開源客戶端。
 - 預設情況下，私人訊息必須使用E2EE。

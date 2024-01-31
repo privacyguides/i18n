@@ -84,9 +84,11 @@ O Proton VPN [recomenda](https://protonvpn.com/blog/wireguard/) a utilização d
 
 Atualmente, o Proton VPN apenas suporta o reencaminhamento efémero de porta remota [](https://protonvpn.com/support/port-forwarding/) via NAT-PMP, com tempos de reserva (lease) de 60 segundos. A aplicação para Windows oferece uma opção de acesso fácil, enquanto noutros sistemas operativos terá de executar o seu próprio cliente [NAT-PMP](https://protonvpn.com/support/port-forwarding-manual-setup/). As aplicações torrent suportam frequentemente NAT-PMP de forma nativa.
 
-#### :material-information-outline:{ .pg-blue } Censorship Circumvention
+#### :material-information-outline:{ .pg-orange } Censorship Circumvention
 
-Proton VPN has their [Stealth](https://protonvpn.com/blog/stealth-vpn-protocol/) protocol which helps in situations where VPN protocols like OpenVPN or Wireguard are blocked. Stealth works by using an obfuscated TLS tunnel over TCP making it more difficult for deep packet inspection (DPI) to block. Unfortunately, Stealth is not yet available on Windows or Linux.
+Proton VPN has their [Stealth](https://protonvpn.com/blog/stealth-vpn-protocol/) protocol which *may* help in situations where VPN protocols like OpenVPN or Wireguard are blocked with various rudimentary techniques. Stealth encapsulates the VPN tunnel in TLS session in order to look like more generic internet traffic.
+
+Unfortunately it does not work very well in countries where sophisticated filters are deployed that analyze all outgoing traffic in an attempt to discover encrypted tunnels. Stealth is also not yet available on [Windows](https://github.com/ProtonVPN/win-app/issues/64) or Linux.
 
 #### :material-check:{ .pg-green } Clientes para dispositivos móveis
 
@@ -271,6 +273,7 @@ Exigimos que todos os nossos fornecedores de VPN recomendados forneçam ficheiro
 - Clientes VPN fáceis de utilizar
 - Suporte [IPv6](https://en.wikipedia.org/wiki/IPv6). É suposto que os servidores permitam ligações de entrada através do IPv6 e que lhe permitam aceder a serviços alojados em endereços IPv6.
 - A capacidade de [reencaminhamento de portas remotas](https://en.wikipedia.org/wiki/Port_forwarding#Remote_port_forwarding) ajuda a criar ligações quando se utiliza software de partilha de ficheiros P2P ([Peer-to-Peer](https://en.wikipedia.org/wiki/Peer-to-peer)) ou se aloja um servidor (por exemplo, Mumble).
+- Obfuscation technology which pads data packets with random data to circumvent internet censorship.
 
 ### Privacidade
 

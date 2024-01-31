@@ -84,9 +84,11 @@ Proton VPN [recommends](https://protonvpn.com/blog/wireguard/) the use of WireGu
 
 Proton VPN currently only supports ephemeral remote [port forwarding](https://protonvpn.com/support/port-forwarding/) via NAT-PMP, with 60 second lease times. The Windows app provides an easy to access option for it, while on other operating systems you'll need to run your own [NAT-PMP client](https://protonvpn.com/support/port-forwarding-manual-setup/). Torrent applications often support NAT-PMP natively.
 
-#### :material-information-outline:{ .pg-blue } Censorship Circumvention
+#### :material-information-outline:{ .pg-orange } Censorship Circumvention
 
-Proton VPN has their [Stealth](https://protonvpn.com/blog/stealth-vpn-protocol/) protocol which helps in situations where VPN protocols like OpenVPN or Wireguard are blocked. Stealth works by using an obfuscated TLS tunnel over TCP making it more difficult for deep packet inspection (DPI) to block. Unfortunately, Stealth is not yet available on Windows or Linux.
+Proton VPN has their [Stealth](https://protonvpn.com/blog/stealth-vpn-protocol/) protocol which *may* help in situations where VPN protocols like OpenVPN or Wireguard are blocked with various rudimentary techniques. Stealth encapsulates the VPN tunnel in TLS session in order to look like more generic internet traffic.
+
+Unfortunately it does not work very well in countries where sophisticated filters are deployed that analyze all outgoing traffic in an attempt to discover encrypted tunnels. Stealth is also not yet available on [Windows](https://github.com/ProtonVPN/win-app/issues/64) or Linux.
 
 #### :material-check:{ .pg-green } Mobile Clients
 
@@ -258,6 +260,7 @@ Mullvad is very transparent about which nodes they [own or rent](https://mullvad
 - 易于使用的VPN客户端
 - 支持 [IPv6](https://en.wikipedia.org/wiki/IPv6)。 我们希望服务器将允许通过IPv6的传入连接，并允许你访问IPv6地址上托管的服务。
 - [远程端口转发的能力](https://en.wikipedia.org/wiki/Port_forwarding#Remote_port_forwarding) 在使用P2P ([Peer-to-Peer](https://en.wikipedia.org/wiki/Peer-to-peer)) 文件共享软件或托管服务器（如Mumble）时，有助于创建连接。
+- Obfuscation technology which pads data packets with random data to circumvent internet censorship.
 
 ### 隐私
 

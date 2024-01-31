@@ -140,11 +140,11 @@ Certains services de médias sociaux prennent également en charge le RSS, bien 
 
 Reddit prend également en charge l'abonnement via RSS.
 
-!!! example "Exemple"
-    Remplacez `nom_du_subbreddit` par le subreddit auquel vous souhaitez vous abonner.
+!!! example
+    Replace `[SUBREDDIT]` with the subreddit you wish to subscribe to.
 
     ```text
-    https://www.reddit.com/r/{{ nom_du_subbreddit }}/new/.rss
+    https://www.reddit.com/r/[SUBREDDIT]/new/.rss
     ```
 
 ### Twitter
