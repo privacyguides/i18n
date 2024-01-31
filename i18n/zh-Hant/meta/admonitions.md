@@ -121,7 +121,7 @@ Lorem ipsum dolor sit amet, consectetur adipiscing elit.
 #### `danger`
 
 <div class="admonition danger" markdown>
-<p class="admonition-title">Danger</p>
+<p class="admonition-title">Danger "危險"</p>
 
 Lorem ipsum dolor sit amet, consectetur adipiscing elit.
 
@@ -196,7 +196,7 @@ This format is used to generate recommendation cards. Notably it is missing the 
 [:octicons-code-16:](https://github.com/photoprism){ .card-link title="Source Code" }
 
 <details class="downloads" markdown>
-<summary>Downloads</summary>
+<summary>Downloads "下載"</summary>
 
 - [:simple-github: GitHub](https://github.com/photoprism)
 
@@ -228,7 +228,7 @@ This is a special type of collapsible admonition, used to generate the download 
 <div class="result" markdown>
 
 <details class="downloads" markdown>
-<summary>Downloads</summary>
+<summary>Downloads "下載"</summary>
 
 - [:simple-googleplay: Google Play](https://play.google.com/store/apps/details?id=ch.protonmail.android)
 - [:simple-appstore: App Store](https://apps.apple.com/app/apple-store/id979659905)

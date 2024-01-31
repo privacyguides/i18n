@@ -8,51 +8,51 @@ cover: device-integrity.webp
 這些工具可用於驗證行動裝置的完整性，檢查它們是否有間諜軟體和惡意軟體（例如 Pegasus、Predator 或 KingsPawn）的危害跡象。 本頁重點關注**行動安全性**，因為行動裝置通常具有為人所知配置的唯讀系統，檢測惡意修改比傳統桌面系統更容易。 將來可能會再擴展此頁面的重點。
 
 <div class="admonition note" markdown>
-<p class="admonition-title">This is an advanced topic</p>
+<p class="admonition-title">進階主題</p>
 
-這些工具可能對某些人很實用。 They provide functionality which most people do not need to worry about, and often require more in-depth technical knowledge to use effectively.
+這些工具可能對某些人很實用。 它們提供了多數人用不到的功能，通常需要更深入的技術知識才能有效地利用。
 
 </div>
 
-It is **critical** to understand that scanning your device for public indicators of compromise is **not sufficient** to determine that a device is "clean", and not targeted with a particular spyware tool. Reliance on these publicly-available scanning tools can miss recent security developments and give you a false sense of security.
+**至關重要**是了解：掃描設備是否存在公共危害跡象**不足以**確定設備是“乾淨的”、是否為特定間諜軟體工具的目標。 依賴這些公開可用的掃描工具可能會錯過最新的安全發展，帶來錯誤的安全感。
 
-## General Advice
+## 一般建議
 
-The majority of system-level exploits on modern mobile devices—especially zero-click compromises—are non-persistent, meaning they will not remain or run automatically after a reboot. For this reason, we highly recommend rebooting your device regularly. We recommend everybody reboot their devices once a week at minimum, but if non-persistent malware is of particular concern for you, we and many security experts recommend a daily reboot schedule.
+現代行動裝置上的大多數系統級漏洞（尤其是零點擊攻擊）都是非持久性的，這意味著它們在重新啟動後不會保留或自動運行。 因此，強烈建議定期重新啟動裝置。 我們建議每個設備至少每週重新啟動一次，但如果特別關注非持久性惡意軟體，我們和許多安全專家建議每日重新啟動計劃。
 
-This means an attacker would have to regularly re-infect your device to retain access, although we'll note this is not impossible. Rebooting your device also will not protect you against _persistent_ malware, but this is less common on mobile devices due to modern security features like secure/verified boot.
+這意味著攻擊者必須定期重新感染裝置才能保留存取權限，儘管我們指出這並非不可能。 重新啟動裝置也無法確保免受「持久性」惡意軟體的侵害，但由於安全/驗證啟動等現代安全功能，這種情況在行動裝置上不太常見。
 
-## Post-Compromise Information & Disclaimer
+## 駭漏後資訊和免責聲明
 
-If any of the following tools indicate a potential compromise by spyware such as Pegasus, Predator, or KingsPawn, we advise that you contact:
+如果以下任何工具表明可能有 Pegasus、Predator 或 KingsPawn 等間諜軟體危害，建議聯絡：
 
-- If you are a human rights defender, journalist, or from a civil society organization: [Amnesty International's Security Lab](https://securitylab.amnesty.org/contact-us/)
-- If a business or government device is compromised: Contact the appropriate security liason at your enterprise, department, or agency
-- Local law enforcement
+- 如果您是人權捍衛者、記者或來自民間團體：[國際特赦組織安全實驗室](https://securitylab.amnesty.org/contact-us/)
+- 如果企業或政府設備受到威脅：請聯絡企業、部門或機構的相應安全聯絡員
+- 本地執法單位
 
-**We are unable to help you directly beyond this.** We are happy to discuss your specific situation or circumstances and review your results in our [community](https://discuss.privacyguides.net) spaces, but it is unlikely we can assist you beyond what is written on this page.
+**除此之外，我們無法直接為您提供幫助。** 我們很樂意在我們的[社區](https://discuss.privacyguides.net)空間中討論您的具體情況或情況並檢查結果，但不太可能提供本頁所述之外的協助。
 
-The tools on this page are only capable of detecting indicators of compromise, not removing them. If you are concerned about having been compromised, we advise that you:
+此頁面上的工具只能偵測破壞跡象，而不能刪除它們。 如果擔心受到威脅，我們建議：
 
-- Consider replacing the device completely
-- Consider changing your SIM/eSIM number
-- Not restore from a backup, because that backup may be compromised
+- 考慮完全更換設備
+- 考慮更改 SIM/eSIM 號碼
+- 不要從備份重置，因為該備份可能已受到損害
 
-These tools provide analysis based on the information they have the ability to access from your device, and publicly-accessible indicators of compromise. It is important to keep in mind two things:
+這些工具根據他們能夠從裝置存取的資訊以及可公開存取的破壞指標提供分析。 重要的是記住兩件事：
 
-1. Indicators of compromise are just that: _indicators_. They are not a definitive finding, and may occasionally be **false positives**. If an indicator of compromise is detected, it means you should do additional research into the _potential_ threat.
-2. The indicators of compromise these tools look for are published by threat research organizations, but not all indicators are made available to the public! This means that these tools can present a **false negative**, if your device is infected with spyware which is not detected by any of the public indicators. Reliable and comprehensive digital forensic support and triage requires access to non-public indicators, research and threat intelligence.
+1. 破壞指標就僅是：_指標_。 它們不是明確的發現，有時可能是**誤報**。 如果偵測到有侵駭跡象，則表示應對「潛在」威脅進行更多研究。
+2. 這些工具尋找的侵駭指標由威脅研究組織發布，但並非所有指標都對外開放！ 這意味著，如果裝置感染了任何公共指標都未偵測到的間諜軟體，則工具可能會**漏報**。 可靠且全面的數位鑑識支援和分類需要存取非公開指標、研究和威脅情報。
 
-## External Verification Tools
+## 外部驗證工具
 
-External verification tools run on your computer and scan your mobile device for forensic traces which are helpful to identify potential compromise.
+外部驗證工具在電腦上運行，掃描行動裝置以查找取證痕跡，這有助於識別潛在的危害。
 
 <div class="admonition danger" markdown>
-<p class="admonition-title">Danger</p>
+<p class="admonition-title">Danger "危險"</p>
 
-Public indicators of compromise are insufficient to determine that a device is "clean", and not targeted with a particular spyware tool. Reliance on public indicators alone can miss recent forensic traces and give a false sense of security.
+公開的損壞指標不足以確定設備是“乾淨的”、非特定間諜軟體工具的目標。 Reliance on public indicators alone can miss recent forensic traces and give a false sense of security.
 
-Reliable and comprehensive digital forensic support and triage requires access to non-public indicators, research and threat intelligence.
+可靠且全面的數位鑑識支援和分類需要存取非公開指標、研究和威脅情報。
 
 Such support is available to civil society through [Amnesty International's Security Lab](https://www.amnesty.org/en/tech/) or [Access Now’s Digital Security Helpline](https://www.accessnow.org/help/).
 
@@ -72,7 +72,7 @@ Such support is available to civil society through [Amnesty International's Secu
 [:octicons-code-16:](https://github.com/mvt-project/mvt){ .card-link title="Source Code" }
 
 <details class="downloads" markdown>
-<summary>Downloads</summary>
+<summary>Downloads "下載"</summary>
 
 - [:simple-apple: macOS](https://docs.mvt.re/en/latest/install/)
 - [:simple-linux: Linux](https://docs.mvt.re/en/latest/install/)
@@ -115,7 +115,7 @@ MVT 對掃描 iOS 裝置「最」有用。 Android 儲存可用於分類潛在�
 [:octicons-info-16:](https://imazing.com/spyware-analyzer){ .card-link title=Documentation}
 
 <details class="downloads" markdown>
-<summary>Downloads</summary>
+<summary>Downloads "下載"</summary>
 
 - [:simple-windows11: Windows](https://imazing.com/download)
 - [:simple-apple: macOS](https://imazing.com/download)
@@ -144,7 +144,7 @@ iMazing 會自動並以互動方式引導完成使用 [MVT](#mobile-verification
 ![Auditor logo](assets/img/device-integrity/auditor.svg#only-light){ align=right }
 ![Auditor logo](assets/img/device-integrity/auditor-dark.svg#only-dark){ align=right }
 
-**Auditor** is an app which leverages hardware security features to provide device integrity monitoring by actively validating the identity of a device and the integrity of its operating system. Currently, it only works with GrapheneOS or the stock operating system for [supported devices](https://attestation.app/about#device-support).
+**Auditor** 是一款利用硬體安全功能通過主動驗證設備身份及其作業系統的完整性來進行完整性監控的應用程式。 目前僅在 GrapheneOS 或 [支援設備](https://attestation.app/about#device-support)的庫存作業系統運行。
 
 [:octicons-home-16: Homepage](https://attestation.app){ .md-button .md-button--primary }
 [:octicons-eye-16:](https://attestation.app/privacy-policy){ .card-link title="Privacy Policy" }
@@ -153,7 +153,7 @@ iMazing 會自動並以互動方式引導完成使用 [MVT](#mobile-verification
 [:octicons-heart-16:](https://attestation.app/donate){ .card-link title=Contribute }
 
 <details class="downloads" markdown>
-<summary>Downloads</summary>
+<summary>Downloads "下載"</summary>
 
 - [:simple-googleplay: Google Play](https://play.google.com/store/apps/details?id=app.attestation.auditor.play)
 - [:simple-github: GitHub](https://github.com/GrapheneOS/Auditor/releases)
@@ -205,7 +205,7 @@ Auditor 不像本頁的其他某些掃描/分析工具，而是使用裝置的�
 [:octicons-heart-16:](https://divested.dev/pages/donate){ .card-link title=Contribute }
 
 <details class="downloads" markdown>
-<summary>Downloads</summary>
+<summary>Downloads "下載"</summary>
 
 - [:simple-android: F-Droid](https://f-droid.org/packages/us.spotco.malwarescanner/)
 
@@ -228,7 +228,7 @@ Hypatia 特別擅長偵測常見的追蹤軟體：如果懷疑自己是追蹤軟
 [:octicons-info-16:](https://www.iverify.io/frequently-asked-questions#iVerify-General){ .card-link title=Documentation}
 
 <details class="downloads" markdown>
-<summary>Downloads</summary>
+<summary>Downloads "下載"</summary>
 
 - [:simple-appstore: App Store](https://apps.apple.com/us/app/iverify/id1466120520)
 
