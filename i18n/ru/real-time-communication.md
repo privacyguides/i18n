@@ -130,9 +130,9 @@ Briar поддерживает прямую секретность пересы�
 
 <div class="admonition recommendation" markdown>
 
-![Логотип Element](assets/img/messengers/element.svg){ align=right }
+![Element logo](assets/img/messengers/element.svg){ align=right }
 
-**Element** является эталонным клиентом для протокола [Matrix](https://matrix.org/docs/guides/introduction), [открытого стандарта](https://matrix.org/docs/spec) для безопасного децентрализованного общения в реальном времени.
+**Element** is the reference [client](https://matrix.org/ecosystem/clients/) for the [Matrix](https://matrix.org/docs/guides/introduction) protocol, an [open standard](https://matrix.org/docs/spec) for secure decentralized real-time communication.
 
 Сообщения, файлы, голосовые и видео звонки между двумя людьми, которые обмениваются ими в приватных комнатах (для которых требуется приглашение), по умолчанию являются E2EE.
 

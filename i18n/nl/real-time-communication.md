@@ -132,7 +132,7 @@ Deze messengers hebben geen Perfect [Forward Secrecy](https://en.wikipedia.org/w
 
 ![Element logo](assets/img/messengers/element.svg){ align=right }
 
-**Element** is de referentieclient voor het [Matrix](https://matrix.org/docs/guides/introduction) protocol, een [open standaard](https://matrix.org/docs/spec) voor veilige gedecentraliseerde real-time communicatie.
+**Element** is the reference [client](https://matrix.org/ecosystem/clients/) for the [Matrix](https://matrix.org/docs/guides/introduction) protocol, an [open standard](https://matrix.org/docs/spec) for secure decentralized real-time communication.
 
 Berichten en bestanden die in privéruimten worden gedeeld (waarvoor een uitnodiging nodig is) zijn standaard E2EE, net als één-op-één spraak- en videogesprekken.
 

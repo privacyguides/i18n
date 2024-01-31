@@ -132,7 +132,7 @@ Briar 使用 Bramble [Handshake](https://code.briarproject.org/briar/briar-spec/
 
 ![Element logo](assets/img/messengers/element.svg){ align=right }
 
-**Element** 是 [Matrix](https://matrix.org/docs/guides/introduction) 協議的參考用戶端，這是一個 [開放標準](https://matrix.org/docs/spec) 、安全去中心化實時通訊。
+**Element** is the reference [client](https://matrix.org/ecosystem/clients/) for the [Matrix](https://matrix.org/docs/guides/introduction) protocol, an [open standard](https://matrix.org/docs/spec) for secure decentralized real-time communication.
 
 在私人聊天室（需透過邀請加入）共享的訊息和文件預設為 E2EE ，一對一的語音和視訊通話也是如此。
 

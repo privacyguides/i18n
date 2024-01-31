@@ -130,9 +130,9 @@ Briar תומך ב-Forward Secrecy באמצעות תומך ב-Forward Secrecy ב�
 
 <div class="admonition recommendation" markdown>
 
-![לוגו אלמנט](assets/img/messengers/element.svg){ align=right }
+![Element logo](assets/img/messengers/element.svg){ align=right }
 
-**Element** הוא לקוח הייחוס עבור פרוטוקול [Matrix](https://matrix.org/docs/guides/introduction), [תקן פתוח](https://matrix.org/docs/spec) עבור תקשורת מבוזרת מאובטחת בזמן אמת.
+**Element** is the reference [client](https://matrix.org/ecosystem/clients/) for the [Matrix](https://matrix.org/docs/guides/introduction) protocol, an [open standard](https://matrix.org/docs/spec) for secure decentralized real-time communication.
 
 הודעות וקבצים המשותפים בחדרים פרטיים (אלו הדורשים הזמנה) הם כברירת מחדל E2EE וכך גם שיחות קול ווידאו אחד לאחד.
 

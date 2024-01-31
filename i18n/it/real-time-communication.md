@@ -130,9 +130,9 @@ Queste app di messaggistica non dispongono della [Segretezza in Avanti](https://
 
 <div class="admonition recommendation" markdown>
 
-![Logo di Element](assets/img/messengers/element.svg){ align=right }
+![Element logo](assets/img/messengers/element.svg){ align=right }
 
-**Element** è il client di riferimento per il protocollo [Matrix](https://matrix.org/docs/guides/introduction), uno [standard aperto](https://matrix.org/docs/spec) per le comunicazioni decentralizzate e sicure in tempo reale.
+**Element** is the reference [client](https://matrix.org/ecosystem/clients/) for the [Matrix](https://matrix.org/docs/guides/introduction) protocol, an [open standard](https://matrix.org/docs/spec) for secure decentralized real-time communication.
 
 I messaggi e i file condivisi nelle stanze private (che richiedono un invito), sono di default in E2EE, così come le chiamate e videochiamate tra due persone.
 

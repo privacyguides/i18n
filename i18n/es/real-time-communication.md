@@ -132,7 +132,7 @@ Estos servicios de mensajería no tienen [Secreto Hacia Adelante](https://es.wik
 
 ![Element logo](assets/img/messengers/element.svg){ align=right }
 
-**Element** es el cliente de referencia para el protocolo [Matrix](https://matrix.org/docs/guides/introduction), un [estándar abierto](https://matrix.org/docs/spec) para la comunicación segura descentralizada en tiempo real.
+**Element** is the reference [client](https://matrix.org/ecosystem/clients/) for the [Matrix](https://matrix.org/docs/guides/introduction) protocol, an [open standard](https://matrix.org/docs/spec) for secure decentralized real-time communication.
 
 Los mensajes y los archivos compartidos en las salas privadas (las que requieren una invitación) son por defecto E2EE, al igual que las llamadas de voz y vídeo uno a uno.
 

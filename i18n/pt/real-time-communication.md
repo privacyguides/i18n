@@ -130,9 +130,9 @@ Estas aplicações de mensagens instantâneas não têm [Forward Secrecy] (https
 
 <div class="admonition recommendation" markdown>
 
-![Logótipo Element](assets/img/messengers/element.svg){ align=right }
+![Element logo](assets/img/messengers/element.svg){ align=right }
 
-**Element** é o cliente de referência para o protocolo [Matrix](https://matrix.org/docs/guides/introduction), uma [norma aberta](https://matrix.org/docs/spec) para comunicação segura e descentralizada, em tempo real.
+**Element** is the reference [client](https://matrix.org/ecosystem/clients/) for the [Matrix](https://matrix.org/docs/guides/introduction) protocol, an [open standard](https://matrix.org/docs/spec) for secure decentralized real-time communication.
 
 As mensagens e os ficheiros partilhados em salas privadas (que requerem um convite) são, por defeito, E2EE, tal como as chamadas de voz e de vídeo, de um para um.
 

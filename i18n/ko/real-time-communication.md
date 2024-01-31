@@ -130,9 +130,9 @@ These messengers do not have [Forward Secrecy](https://en.wikipedia.org/wiki/For
 
 <div class="admonition recommendation" markdown>
 
-![Element 로고](assets/img/messengers/element.svg){ align=right }
+![Element logo](assets/img/messengers/element.svg){ align=right }
 
-**Element**는 [Matrix](https://matrix.org/docs/guides/introduction)라는 안전한 탈중앙화 실시간 통신 [개방형 표준](https://matrix.org/docs/spec) 프로토콜의 레퍼런스 클라이언트입니다.
+**Element** is the reference [client](https://matrix.org/ecosystem/clients/) for the [Matrix](https://matrix.org/docs/guides/introduction) protocol, an [open standard](https://matrix.org/docs/spec) for secure decentralized real-time communication.
 
 비공개 대화방(초대가 필요한 대화방)에서 이루어지는 메시지 및 파일 공유는 기본적으로 E2EE가 적용되며, 일대일 음성 및 영상 통화도 마찬가지입니다.
 
