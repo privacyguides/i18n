@@ -58,7 +58,7 @@ Lorem ipsum dolor sit amet, consectetur adipiscing elit.
 #### `abstract`
 
 <div class="admonition abstract" markdown>
-<p class="admonition-title">Abstract</p>
+<p class="admonition-title">Sommario</p>
 
 Lorem ipsum dolor sit amet, consectetur adipiscing elit.
 
@@ -290,4 +290,4 @@ massa, nec semper lorem quam in massa.
 
 \*\*Questo formato non verrà più utilizzato in futuro \*\*perché incompatibile con le nuove versioni del software di traduzione Crowdin. Quando si aggiunge una nuova pagina al sito, si deve utilizzare solo il formato HTML più recente.
 
-There is no rush to convert admonitions with the old format to the new format. Pages currently using this formatting should continue to work, but we will be updating them to use the newer HTML-based format above over time as we continue to update the site.
+Non c'è fretta di convertire i moniti con il vecchio formato in quello nuovo. Le pagine che attualmente utilizzano questa formattazione dovrebbero continuare a funzionare, ma le aggiorneremo per utilizzare il nuovo formato basato su HTML di cui sopra nel corso del tempo, man mano che continueremo ad aggiornare il sito.
