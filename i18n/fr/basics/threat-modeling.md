@@ -37,7 +37,7 @@ Pour répondre à cette question, il est important d'identifier qui pourrait vou
 
 *Dressez une liste de vos adversaires, ou de ceux qui pourraient vouloir s'emparer de vos actifs. Votre liste peut comprendre des particuliers, une agence gouvernementale ou des sociétés.*
 
-Depending on who your adversaries are, this list might be something you want to destroy after you've finished developing your threat model.
+En fonction de l'identité de vos adversaires, vous souhaiterez peut-être détruire cette liste une fois que vous avez terminé l'élaboration de votre modèle de menace.
 
 ### Quelle est la probabilité que je doive le protéger ?
 
