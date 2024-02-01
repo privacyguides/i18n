@@ -125,11 +125,11 @@ Si utilizas datos biométricos, debes saber cómo desactivarlos rápidamente en 
 
 En algunos dispositivos antiguos, puede que tengas que pulsar el botón de encendido cinco veces para desactivar la biometría en su lugar, o para los dispositivos con Touch ID puede que sólo tengas que mantener pulsado el botón de encendido y nada más. Asegúrate de probarlo con antelación para saber qué método funciona con tu dispositivo.
 
-**Stolen Data Protection** is a new feature in iOS 17.3 which adds additional security intended to protect your personal data if your device is stolen while unlocked. If you use biometrics and the Find My Device feature in your Apple ID settings, we recommend enabling this new protection:
+**Protección de Datos Robados** es una nueva función de iOS 17.3 que añade seguridad adicional destinada a proteger tus datos personales si te roban el dispositivo mientras está desbloqueado. Si utilizas la biometría y la función Buscar Mi Dispositivo en la configuración de tu ID de Apple, te recomendamos que actives esta nueva protección:
 
-- [x] Select **Turn On Protection**
+- [x] Selecciona **Activar Protección**
 
-Después de activar la protección de datos robados, [ciertas acciones](https://support.apple.com/en-us/HT212510) requerirán autenticación biométrica sin una contraseña de respaldo (en el caso de que un shoulder surfer haya obtenido tu PIN), tales como el uso de autorrelleno de contraseña, el acceso a la información de pago, y la desactivación del modo perdido. It also adds a security delay to certain actions performed away from your home or other "familiar location," such as requiring a 1-hour timer to reset your Apple ID password or sign out of your Apple ID. This delay is intended to give you time to enable Lost Mode and secure your account before a thief can reset your device.
+Después de activar la protección de datos robados, [ciertas acciones](https://support.apple.com/en-us/HT212510) requerirán autenticación biométrica sin una contraseña de respaldo (en el caso de que un shoulder surfer haya obtenido tu PIN), tales como el uso de autorrelleno de contraseña, el acceso a la información de pago, y la desactivación del modo perdido. También añade un retardo de seguridad a ciertas acciones realizadas fuera de casa o de otro "lugar familiar", como el requerimiento de un temporizador de 1 hora para restablecer la contraseña de tu ID de Apple o cerrar sesión en tu ID de Apple. Este retraso pretende darte tiempo para activar el Modo Perdido y asegurar tu cuenta antes de que un ladrón pueda reiniciar tu dispositivo.
 
 **Permitir Acceso al Estar Bloqueado** te da opciones para lo que puedes permitir cuando tu teléfono está bloqueado. Cuantas más de estas opciones deshabilites, menos podrá hacer alguien sin tu contraseña, pero menos cómodo será para ti. Elige a cuáles de ellos no quieres que alguien tenga acceso si llega a poner sus manos en tu teléfono.
 

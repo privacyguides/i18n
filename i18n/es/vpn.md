@@ -86,11 +86,11 @@ Proton VPN [recomienda](https://protonvpn.com/blog/wireguard/) el uso de WireGua
 
 Actualmente, Proton VPN solo admite el [ reenvío del puerto](https://protonvpn.com/support/port-forwarding/) remoto y efímero a través de NAT-PMP, con tiempos de arrendamiento de 60 segundos. La aplicación de Windows ofrece una opción de fácil acceso para ello, mientras que en otros sistemas operativos tendrás que ejecutar tu propio cliente [NAT-PMP](https://protonvpn.com/support/port-forwarding-manual-setup/). Las aplicaciones de torrents suelen soportar NAT-PMP de forma nativa.
 
-#### :material-information-outline:{ .pg-orange } Censorship Circumvention
+#### :material-information-outline:{ .pg-orange } Evasión de la Censura
 
-Proton VPN has their [Stealth](https://protonvpn.com/blog/stealth-vpn-protocol/) protocol which *may* help in situations where VPN protocols like OpenVPN or Wireguard are blocked with various rudimentary techniques. Stealth encapsulates the VPN tunnel in TLS session in order to look like more generic internet traffic.
+Proton VPN tiene su protocolo [Stealth](https://protonvpn.com/blog/stealth-vpn-protocol/) que *puede* ayudar en situaciones en las que los protocolos VPN como OpenVPN o Wireguard están bloqueados con varias técnicas rudimentarias. Stealth encapsula el túnel VPN en una sesión TLS para que parezca tráfico de Internet más genérico.
 
-Unfortunately it does not work very well in countries where sophisticated filters are deployed that analyze all outgoing traffic in an attempt to discover encrypted tunnels. Stealth is also not yet available on [Windows](https://github.com/ProtonVPN/win-app/issues/64) or Linux.
+Por desgracia, no funciona muy bien en países donde se despliegan sofisticados filtros que analizan todo el tráfico saliente en un intento de descubrir túneles cifrados. Stealth tampoco está disponible aún en [Windows](https://github.com/ProtonVPN/win-app/issues/64) ni Linux.
 
 #### :material-check:{ .pg-green } Clientes Móviles
 
@@ -273,7 +273,7 @@ Requerimos que todos nuestros proveedores de VPN recomendados proporcionen archi
 - Clientes VPN fáciles de usar
 - Admite [IPv6](https://en.wikipedia.org/wiki/IPv6). Esperamos que los servidores permitan las conexiones entrantes a través de IPv6 y le permitan acceder a los servicios alojados en direcciones IPv6.
 - La capacidad de [redirección de puertos](https://en.wikipedia.org/wiki/Port_forwarding#Remote_port_forwarding) ayuda a crear conexiones cuando se utiliza software de intercambio de archivos P2P ([Peer-to-Peer](https://en.wikipedia.org/wiki/Peer-to-peer)), Freenet, o se aloja un servidor (por ejemplo, Mumble).
-- Obfuscation technology which pads data packets with random data to circumvent internet censorship.
+- Tecnología de ofuscación que rellena los paquetes de datos con datos aleatorios para eludir la censura en Internet.
 
 ### Privacidad
 
