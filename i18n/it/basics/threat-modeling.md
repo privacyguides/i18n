@@ -37,7 +37,7 @@ Per rispondere a questa domanda, è importante identificare chi potrebbe voler p
 
 *Crea un elenco dei tuoi avversari o di coloro che potrebbero voler entrare in possesso delle tue risorse. Il tuo elenco può includere individui, agenzie governative o aziende.*
 
-Depending on who your adversaries are, this list might be something you want to destroy after you've finished developing your threat model.
+A seconda di chi sono i tuoi avversari, questo elenco potrebbe essere qualcosa che vorrai distruggere dopo aver finito di sviluppare il tuo modello di minaccia.
 
 ### Quanto è probabile che io debba proteggerle?
 

@@ -18,7 +18,7 @@ This is an example of a collapsible admonition. Lorem ipsum dolor sit amet, cons
 
 </details>
 
-## Formatting
+## Formattazione
 
 To add an admonition to a page, you can use the following code:
 
