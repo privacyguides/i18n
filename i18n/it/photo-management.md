@@ -22,7 +22,7 @@ La maggior parte delle soluzioni di gestione delle foto cloud, come Google Photo
 [:octicons-code-16:](https://github.com/ente-io){ .card-link title="Codice sorgente" }
 
 <details class="downloads" markdown>
-<summary>Download</summary>
+<summary>Downloads</summary>
 
 - [:simple-googleplay: Google Play](https://play.google.com/store/apps/details?id=io.ente.photos)
 - [:simple-android: Android](https://ente.io/download)
@@ -52,7 +52,7 @@ La maggior parte delle soluzioni di gestione delle foto cloud, come Google Photo
 [:octicons-code-16:](https://github.com/stingle){ .card-link title="Codice sorgente" }
 
 <details class="downloads" markdown>
-<summary>Download</summary>
+<summary>Downloads</summary>
 
 - [:simple-googleplay: Google Play](https://play.google.com/store/apps/details?id=org.stingle.photos)
 - [:simple-android: Android](https://f-droid.org/en/packages/org.stingle.photos/)
@@ -77,7 +77,7 @@ La maggior parte delle soluzioni di gestione delle foto cloud, come Google Photo
 [:octicons-code-16:](https://github.com/photoprism){ .card-link title="Codice sorgente" }
 
 <details class="downloads" markdown>
-<summary>Download</summary>
+<summary>Downloads</summary>
 
 - [:simple-github: GitHub](https://github.com/photoprism)
 
