@@ -54,8 +54,8 @@ La mayoría de las soluciones de gestión de fotos en la nube, como Google Photo
 <details class="downloads" markdown>
 <summary>Downloads "Descargas"</summary>
 
-- [:simple-googleplay: Google Play](https://play.google.com/store/apps/details?id=io.ente.photos)
-- [:simple-android: Android](https://play.google.com/store/apps/details?id=org.stingle.photos)
+- [:simple-googleplay: Google Play](https://play.google.com/store/apps/details?id=org.stingle.photos)
+- [:simple-android: Android](https://f-droid.org/en/packages/org.stingle.photos/)
 - [:simple-appstore: App Store](https://apps.apple.com/in/app/stingle-photos/id1582535448)
 - [:simple-github: GitHub](https://github.com/stingle)
 

@@ -37,7 +37,7 @@ Para responder a esta pregunta, es importante identificar quién podría querer 
 
 *Haz una lista de tus adversarios o de aquellos que podrían querer apoderarse de tus activos. Su lista puede incluir individuos, una agencia gubernamental o empresas.*
 
-Dependiendo de quiénes sean tus adversarios, en algunas circunstancias, esta lista podría ser algo que quisieras destruir después de que hayas terminado de planificar la seguridad.
+Depending on who your adversaries are, this list might be something you want to destroy after you've finished developing your threat model.
 
 ### ¿Qué tan probable será que necesite protegerlo?
 

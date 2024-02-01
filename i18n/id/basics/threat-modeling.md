@@ -37,7 +37,7 @@ Untuk menjawab pertanyaan ini, penting untuk mengidentifikasi siapa yang mungkin
 
 *Buatlah daftar musuh Anda atau mereka yang mungkin ingin mendapatkan aset Anda. Daftar Anda dapat mencakup individu, lembaga pemerintah, atau perusahaan.*
 
-Tergantung pada siapa musuh Anda, dalam beberapa keadaan, daftar ini mungkin sesuatu yang ingin Anda hancurkan setelah Anda selesai merencanakan keamanan.
+Depending on who your adversaries are, this list might be something you want to destroy after you've finished developing your threat model.
 
 ### Seberapa besar kemungkinan saya perlu melindunginya?
 

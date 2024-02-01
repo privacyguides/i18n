@@ -37,7 +37,7 @@ description: セキュリティ、プライバシー、使いやすさのバラ�
 
 *あなたの敵対者やあなたの資産を手に入れたいと考える人の一覧を作成します。 一覧には個人、政府機関、企業が含まれる可能性があります。*
 
-敵対者の種類によっては、この一覧は、セキュリティ計画作成後に破棄した方がよいかもしれません。
+Depending on who your adversaries are, this list might be something you want to destroy after you've finished developing your threat model.
 
 ### 守る必要がどの程度あるか？
 

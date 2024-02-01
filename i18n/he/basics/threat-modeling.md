@@ -37,7 +37,7 @@ description: איזון בין אבטחה, פרטיות ושימושיות הי�
 
 *ערוך רשימה של היריבים שלך או של אלה שאולי ירצו להשיג את הנכסים שלך. הרשימה עשויה לכלול אנשים פרטיים, סוכנות ממשלתית או תאגידים.*
 
-תלוי מי הם היריבים שלך, בנסיבות מסוימות, רשימה זו עשויה להיות משהו שאתה רוצה להרוס אחרי שתסיים את התכנון ביטחוני.
+Depending on who your adversaries are, this list might be something you want to destroy after you've finished developing your threat model.
 
 ### עד כמה סביר שאצטרך להגן עליו?
 

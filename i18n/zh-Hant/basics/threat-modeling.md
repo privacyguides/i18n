@@ -37,7 +37,7 @@ description: 安全性、隱私權和可用性之間取得平衡是隱私權之�
 
 *列出對手或那些可能想要獲取您的資產的敵人。 您的名單可能包括個人、政府機構或公司。*
 
-根據對手是誰，在某些情況下，這份清單可能是在完成安全計劃後必須鎖毀的東西。
+Depending on who your adversaries are, this list might be something you want to destroy after you've finished developing your threat model.
 
 ### 它需要被保護的可能性有多大？
 

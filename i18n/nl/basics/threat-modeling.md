@@ -37,7 +37,7 @@ Om deze vraag te beantwoorden, is het belangrijk na te gaan wie je of jouw infor
 
 *Maak een lijst van jouw tegenstanders, of van degenen die jouw bezittingen in handen zouden willen krijgen. Jouw lijst kan personen, een overheidsinstantie of bedrijven omvatten.*
 
-Afhankelijk van wie ujouw tegenstanders zijn, kan deze lijst onder bepaalde omstandigheden iets zijn dat je wilt vernietigen nadat je klaar bent met de beveiligingsplanning.
+Depending on who your adversaries are, this list might be something you want to destroy after you've finished developing your threat model.
 
 ### Hoe groot is de kans dat ik het zal moeten beschermen?
 

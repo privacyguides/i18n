@@ -37,7 +37,7 @@ description: 보안, 프라이버시, 사용성 간의 균형 조절은 프라�
 
 *공격자 또는 여러분의 자산을 손에 넣으려는 사람들의 목록을 정리하세요. 목록에는 개인, 정부 기관, 법인 등이 포함될 수 있습니다.*
 
-공격자가 누구인지, 그리고 상황에 따라 이 목록은 보안 계획을 세우고 나면 삭제해야 하는 항목일 수도 있습니다.
+Depending on who your adversaries are, this list might be something you want to destroy after you've finished developing your threat model.
 
 ### 실제 위협이 발생할 가능성이 얼마나 되나요?
 

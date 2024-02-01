@@ -37,7 +37,7 @@ Przed odpowiedzeniem na te pytania warto ustalić, kto może chcieć próbować 
 
 *Make a list of your adversaries or those who might want to get ahold of your assets. Twoja lista może zawierać osoby fizyczne, agencje rządowe lub korporacje.*
 
-Depending on who your adversaries are, under some circumstances, this list might be something you want to destroy after you're done security planning.
+Depending on who your adversaries are, this list might be something you want to destroy after you've finished developing your threat model.
 
 ### Na ile prawdopodobne jest to, że zajdzie potrzeba to chronić?
 

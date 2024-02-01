@@ -37,7 +37,7 @@ Para responder a esta pergunta, é importante identificar quem pode querer ter c
 
 *Faça uma lista dos seus adversários ou daqueles que podem querer apropriar-se dos seus ativos. A sua lista pode incluir indivíduos, agências governamentais ou corporações.*
 
-Dependendo de quem são os seus adversários, em algumas circunstâncias, essa lista pode ser algo que vai querer destruir depois de concluir o planeamento de segurança.
+Depending on who your adversaries are, this list might be something you want to destroy after you've finished developing your threat model.
 
 ### Qual é a probabilidade de eu precisar de o proteger?
 

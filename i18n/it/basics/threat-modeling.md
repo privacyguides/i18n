@@ -37,7 +37,7 @@ Per rispondere a questa domanda, è importante identificare chi potrebbe voler p
 
 *Crea un elenco dei tuoi avversari o di coloro che potrebbero voler entrare in possesso delle tue risorse. Il tuo elenco può includere individui, agenzie governative o aziende.*
 
-A seconda di chi siano i tuoi avversari, sotto certe circostanze, questo elenco potrebbe essere qualcosa da distruggere, in seguito al completamento della pianificazione sulla sicurezza.
+Depending on who your adversaries are, this list might be something you want to destroy after you've finished developing your threat model.
 
 ### Quanto è probabile che io debba proteggerle?
 
