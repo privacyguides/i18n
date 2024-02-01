@@ -1,8 +1,8 @@
 ---
-meta_title: "The Best Private Instant Messengers - Privacy Guides"
+meta_title: "Los Mejores Servicios de Mensajería Instantánea Privados - Privacy Guides"
 title: "Comunicación en Tiempo Real"
 icon: material/chat-processing
-description: Other instant messengers make all of your private conversations available to the company that runs them.
+description: Otros servicios de mensajería instantánea ponen todas sus conversaciones privadas a disposición de la empresa que los gestiona.
 cover: real-time-communication.webp
 ---
 
@@ -24,14 +24,14 @@ Estos servicios de mensajería son ideales para proteger sus comunicaciones conf
 
 Todas las comunicaciones son E2EE. Las listas de contactos se encriptan con su PIN de Signal y el servidor no tiene acceso a ellas. Los perfiles personales también están encriptados y sólo se comparten con los contactos con los que chatea.
 
-[:octicons-home-16: Homepage](https://signal.org/){ .md-button .md-button--primary }
-[:octicons-eye-16:](https://signal.org/legal/#privacy-policy){ .card-link title="Privacy Policy" }
-[:octicons-info-16:](https://support.signal.org/hc/en-us){ .card-link title=Documentation}
-[:octicons-code-16:](https://github.com/signalapp){ .card-link title="Source Code" }
-[:octicons-heart-16:](https://signal.org/donate/){ .card-link title=Contribute }
+[:octicons-home-16: Página Principal](https://signal.org/){ .md-button .md-button--primary }
+[:octicons-eye-16:](https://signal.org/legal/#privacy-policy){ .card-link title="Política de Privacidad" }
+[:octicons-info-16:](https://support.signal.org/hc/en-us){ .card-link title=Documentación}
+[:octicons-code-16:](https://github.com/signalapp){ .card-link title="Código Fuente" }
+[:octicons-heart-16:](https://signal.org/donate/){ .card-link title=Contribuir }
 
 <details class="downloads" markdown>
-<summary>Downloads</summary>
+<summary>Downloads "Descargas"</summary>
 
 - [:simple-googleplay: Google Play](https://play.google.com/store/apps/details?id=org.thoughtcrime.securesms)
 - [:simple-appstore: App Store](https://apps.apple.com/app/id874139669)
@@ -60,13 +60,13 @@ Tenemos algunos consejos adicionales para configurar y endurecer su instalación
 
 **SimpleX** Chat es un servicio de mensajería instantánea descentralizado que no depende de ningún identificador único, como números de teléfono o nombres de usuario. Los usuarios de SimpleX Chat pueden escanear un código QR o hacer clic en un enlace de invitación para participar en conversaciones de grupo.
 
-[:octicons-home-16: Homepage](https://simplex.chat){ .md-button .md-button--primary }
-[:octicons-eye-16:](https://github.com/simplex-chat/simplex-chat/blob/stable/PRIVACY.md){ .card-link title="Privacy Policy" }
-[:octicons-info-16:](https://github.com/simplex-chat/simplex-chat/tree/stable/docs){ .card-link title=Documentation}
-[:octicons-code-16:](https://github.com/simplex-chat){ .card-link title="Source Code" }
+[:octicons-home-16: Página Principal](https://simplex.chat){ .md-button .md-button--primary }
+[:octicons-eye-16:](https://github.com/simplex-chat/simplex-chat/blob/stable/PRIVACY.md){ .card-link title="Politica de Privacidad" }
+[:octicons-info-16:](https://github.com/simplex-chat/simplex-chat/tree/stable/docs){ .card-link title=Documentación}
+[:octicons-code-16:](https://github.com/simplex-chat){ .card-link title="Código Fuente"" }
 
 <details class="downloads" markdown>
-<summary>Downloads</summary>
+<summary>Downloads "Descargas"</summary>
 
 - [:simple-googleplay: Google Play](https://play.google.com/store/apps/details?id=chat.simplex.app)
 - [:simple-appstore: App Store](https://apps.apple.com/us/app/simplex-chat/id1605771084)
@@ -91,14 +91,14 @@ SimpleX Chat soporta funcionalidades básicas de chat en grupo, mensajería dire
 
 **Briar** es un servicio de mensajería instantánea encriptado que [connects](https://briarproject.org/how-it-works/) a otros clientes usando la Red Tor. Briar también puede conectarse a través de Wi-Fi o Bluetooth si está cerca. El modo de malla local de Briar puede ser útil cuando la disponibilidad de Internet es un problema.
 
-[:octicons-home-16: Homepage](https://briarproject.org/){ .md-button .md-button--primary }
-[:octicons-eye-16:](https://briarproject.org/privacy-policy/){ .card-link title="Privacy Policy" }
-[:octicons-info-16:](https://code.briarproject.org/briar/briar/-/wikis/home){ .card-link title=Documentation}
-[:octicons-code-16:](https://code.briarproject.org/briar/briar){ .card-link title="Source Code" }
-[:octicons-heart-16:](https://briarproject.org/){ .card-link title="Donation options are listed on the bottom of the homepage" }
+[:octicons-home-16: Página Principal](https://briarproject.org/){ .md-button .md-button--primary }
+[:octicons-eye-16:](https://briarproject.org/privacy-policy/){ .card-link title="Política de Privacidad" }
+[:octicons-info-16:](https://code.briarproject.org/briar/briar/-/wikis/home){ .card-link title=Documentación}
+[:octicons-code-16:](https://code.briarproject.org/briar/briar){ .card-link title="Código Fuente" }
+[:octicons-heart-16:](https://briarproject.org/){ .card-link title="Las opciones de donación están listadas en la parte inferior de la página principal" }
 
 <details class="downloads" markdown>
-<summary>Downloads</summary>
+<summary>Downloads "Descargas"</summary>
 
 - [:simple-googleplay: Google Play](https://play.google.com/store/apps/details?id=org.briarproject.briar.android)
 - [:simple-windows11: Windows](https://briarproject.org/download-briar-desktop/)
@@ -132,17 +132,17 @@ Estos servicios de mensajería no tienen [Secreto Hacia Adelante](https://es.wik
 
 ![Element logo](assets/img/messengers/element.svg){ align=right }
 
-**Element** is the reference [client](https://matrix.org/ecosystem/clients/) for the [Matrix](https://matrix.org/docs/guides/introduction) protocol, an [open standard](https://matrix.org/docs/spec) for secure decentralized real-time communication.
+**Element** es el [cliente](https://matrix.org/ecosystem/clients/) de referencia para el protocolo [Matrix](https://matrix.org/docs/guides/introduction), un [estándar abierto](https://matrix.org/docs/spec) para la comunicación descentralizada segura en tiempo real.
 
 Los mensajes y los archivos compartidos en las salas privadas (las que requieren una invitación) son por defecto E2EE, al igual que las llamadas de voz y vídeo uno a uno.
 
-[:octicons-home-16: Homepage](https://element.io/){ .md-button .md-button--primary }
-[:octicons-eye-16:](https://element.io/privacy){ .card-link title="Privacy Policy" }
-[:octicons-info-16:](https://element.io/help){ .card-link title=Documentation}
-[:octicons-code-16:](https://github.com/vector-im){ .card-link title="Source Code" }
+[:octicons-home-16: Página Principal](https://element.io/){ .md-button .md-button--primary }
+[:octicons-eye-16:](https://element.io/privacy){ .card-link title="Política de Privacidad" }
+[:octicons-info-16:](https://element.io/help){ .card-link title=Documentación}
+[:octicons-code-16:](https://github.com/vector-im){ .card-link title="Código Fuente" }
 
 <details class="downloads" markdown>
-<summary>Downloads</summary>
+<summary>Downloads "Descargas"</summary>
 
 - [:simple-googleplay: Google Play](https://play.google.com/store/apps/details?id=im.vector.app)
 - [:simple-appstore: App Store](https://apps.apple.com/app/vector/id1083446067)
@@ -174,13 +174,13 @@ El protocolo fue [auditado](https://matrix.org/blog/2016/11/21/matrixs-olm-end-t
 
 Session utiliza la red descentralizada [Oxen Service Node Network](https://oxen.io/) para almacenar y enrutar los mensajes. Cada mensaje encriptado pasa por tres nodos de la Oxen Service Node Network, lo que hace prácticamente imposible que los nodos recopilen información significativa sobre quienes utilizan la red.
 
-[:octicons-home-16: Homepage](https://getsession.org/){ .md-button .md-button--primary }
-[:octicons-eye-16:](https://getsession.org/privacy-policy){ .card-link title="Privacy Policy" }
-[:octicons-info-16:](https://getsession.org/faq){ .card-link title=Documentation}
-[:octicons-code-16:](https://github.com/oxen-io){ .card-link title="Source Code" }
+[:octicons-home-16: Página Principal](https://getsession.org/){ .md-button .md-button--primary }
+[:octicons-eye-16:](https://getsession.org/privacy-policy){ .card-link title="Política de Privacidad" }
+[:octicons-info-16:](https://getsession.org/faq){ .card-link title=Documentación}
+[:octicons-code-16:](https://github.com/oxen-io){ .card-link title="Código Fuente" }
 
 <details class="downloads" markdown>
-<summary>Downloads</summary>
+<summary>Downloads "Descargas"</summary>
 
 - [:simple-googleplay: Google Play](https://play.google.com/store/apps/details?id=network.loki.messenger)
 - [:simple-appstore: App Store](https://apps.apple.com/app/id1470168868)
