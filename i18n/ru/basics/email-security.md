@@ -17,25 +17,25 @@ description: Электронная почта по своей природе н
 
 Даже если вы используете OpenPGP, он не поддерживает [прямую секретность](https://ru.wikipedia.org/wiki/Perfect_forward_secrecy), что означает, что если ваш закрытый ключ или закрытый ключ получателя когда-либо будет украден, все предыдущие сообщения, зашифрованные с его помощью, могут быть расшифрованы. Именно поэтому мы рекомендуем использовать для общения между людьми [мессенджеры](../real-time-communication.md), которые обеспечивают прямую секретность, а не электронную почту.
 
-## What is the Web Key Directory standard?
+## Что такое стандарт Web Key Directory?
 
-The Web Key Directory (WKD) standard allows email clients to discover the OpenPGP key for other mailboxes, even those hosted on a different provider. Email clients which support WKD will ask the recipient's server for a key based on the email address' domain name. For example, if you emailed `jonah@privacyguides.org`, your email client would ask `privacyguides.org` for Jonah's OpenPGP key, and if `privacyguides.org` has a key for that account, your message would be automatically encrypted.
+Стандарт Web Key Directory (WKD) позволяет почтовым клиентам находить OpenPGP-ключи для почтовых ящиков, даже расположенных у других провайдеров. Почтовые клиенты, поддерживающие WKD, запрашивают ключ у сервера получателя, основываясь на доменном имени его адреса. Например, когда вы пишете на `jonah@privacyguides.org`, ваш почтовый клиент запрашивает у `privacyguides.org` OpenPGP-ключ Джона, и если `privacyguides.org` имеет соответствующий ключ, ваше сообщение будет автоматически зашифровано.
 
-In addition to the [email clients we recommend](../email-clients.md) which support WKD, some webmail providers also support WKD. Whether *your own* key is published to WKD for others to use depends on your domain configuration. If you use an [email provider](../email.md#openpgp-compatible-services) which supports WKD, such as Proton Mail or Mailbox.org, they can publish your OpenPGP key on their domain for you.
+В дополнение к [рекомендованным почтовым клиентам](../email-clients.md), поддерживающим WKD, некоторые браузерные почтовые интерфейсы также поддерживают WKD. Будет ли *ваш личный* ключ опубликован в WKD для других пользователей, зависит от конфигурации вашего домена. Если вы пользуетесь [почтовым провайдером](../email.md#openpgp-compatible-services), поддерживающим WKD, таким как Proton Mail или Mailbox.org, они опубликуют ваш OpenPGP-ключ на своем домене.
 
-If you use your own custom domain, you will need to configure WKD separately. If you control your domain name, you can set up WKD regardless of your email provider. One easy way to do this is to use the "[WKD as a Service](https://keys.openpgp.org/about/usage#wkd-as-a-service)" feature from keys.openpgp.org, by setting a CNAME record on the `openpgpkey` subdomain of your domain pointed to `wkd.keys.openpgp.org`, then uploading your key to [keys.openpgp.org](https://keys.openpgp.org/). Alternatively, you can [self-host WKD on your own web server](https://wiki.gnupg.org/WKDHosting).
+Если же вы используете свой собственный домен, вам потребуется настроить WKD отдельно. Если вы контролируете доменное имя, вы можете настроить WKD независимо от почтового провайдера. Это можно легко сделать при помощи [сервиса WKD](https://keys.openpgp.org/about/usage#wkd-as-a-service), предоставляемого keys.openpgp.org, установив CNAME-запись для поддомена `openpgpkey`, направляющего на `wkd.keys.openpgp.org`, а затем загрузив свой ключ на [keys.openpgp.org](https://keys.openpgp.org/). Кроме того, можно [запустить WKD на собственном сервере](https://wiki.gnupg.org/WKDHosting).
 
-If you use a shared domain from a provider which doesn't support WKD, like @gmail.com, you won't be able to share your OpenPGP key with others via this method.
+Если вы используете общий домен от провайдера, не поддерживающего WKD, например @gmail.com, вы не сможете поделиться своим OpenPGP-ключом с другими при помощи данного метода.
 
 ### Какие почтовые клиенты поддерживают E2EE?
 
 Провайдеры электронной почты, позволяющие использовать стандартные протоколы доступа, такие как IMAP и SMTP, можно использовать с любым [ почтовым клиентом, которые мы рекомендуем](../email-clients.md). В зависимости от метода аутентификации, это может привести к снижению безопасности, если провайдер или почтовый клиент не поддерживает OATH или приложение-мост, поскольку [многофакторная аутентификация](multi-factor-authentication.md) невозможна при аутентификации по простому паролю.
 
-### Как я могу защитить мои приватные ключи?
+### Как я могу защитить свои приватные ключи?
 
 Смарт-карта (например, [YubiKey](https://support.yubico.com/hc/en-us/articles/360013790259-Using-Your-YubiKey-with-OpenPGP) или [Nitrokey](https://www.nitrokey.com)) работает путем получения зашифрованного сообщения электронной почты с устройства (телефона, планшета, компьютера и т.д.), на котором установлен почтовый клиент. Затем сообщение расшифровывается смарт-картой, и расшифрованное содержимое отправляется обратно на устройство.
 
-It is advantageous for the decryption to occur on the smartcard to avoid possibly exposing your private key to a compromised device.
+Расшифровку лучше производить на смарт-карте, чтобы избежать возможное раскрытие приватного ключа на скомпрометированном устройстве.
 
 ## Обзор метаданных электронной почты
 
