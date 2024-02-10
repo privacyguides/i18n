@@ -73,25 +73,26 @@ DIY 배포판이므로 여러분은 자신의 시스템을 여러분 자신이 [
 
 ## 변경 불가능한 배포판
 
-### Fedora Silverblue
+### Fedora Atomic Desktops
 
 <div class="admonition recommendation" markdown>
 
-![Fedora Silverblue logo](assets/img/linux-desktop/fedora-silverblue.svg){ align=right }
+![Fedora logo](assets/img/linux-desktop/fedora.svg){ align=right }
 
-**Fedora Silverblue** is an immutable variant of Fedora with a strong focus on container workflows and the [GNOME](https://www.gnome.org/) desktop environment. If you prefer an environment other than GNOME, there are also other variants including [Kinoite](https://fedoraproject.org/kinoite/) (which comes with [KDE](https://kde.org/)) and [Sericea](https://fedoraproject.org/sericea/) (which comes with [Sway](https://swaywm.org/), a [Wayland](https://wayland.freedesktop.org)-only tiling window manager). We don't recommend [Onyx](https://fedoraproject.org/onyx/) at this time as it still [requires X11](https://buddiesofbudgie.org/blog/wayland). All of these variants follow the same release schedule as Fedora Workstation, benefiting from the same fast updates and staying very close to upstream.
+**Fedora Atomic Desktops** are the immutable variants of Fedora with a strong focus on containerized workflows and Flatpak for desktop applications. All of these variants follow the same release schedule as Fedora Workstation, benefiting from the same fast updates and staying very close to upstream.
 
-[:octicons-home-16: Homepage](https://fedoraproject.org/silverblue/){ .md-button .md-button--primary }
-[:octicons-info-16:](https://docs.fedoraproject.org/en-US/fedora-silverblue/){ .card-link title=Documentation}
+[:octicons-home-16: Homepage](https://fedoraproject.org/atomic-desktops/){ .md-button .md-button--primary }
 [:octicons-heart-16:](https://whatcanidoforfedora.org/){ .card-link title=Contribute }
 
 </details>
 
 </div>
 
-Silverblue and its variants differ from Fedora Workstation as they replace the [DNF](https://docs.fedoraproject.org/en-US/quick-docs/dnf/) package manager with a much more advanced alternative called [`rpm-ostree`](https://docs.fedoraproject.org/en-US/fedora/latest/system-administrators-guide/package-management/rpm-ostree/). `rpm-ostree` 패키지 관리자는 시스템의 베이스 이미지를 다운로드한 이후 [git](https://en.wikipedia.org/wiki/Git)과 유사한 커밋 트리에서 패키지를 오버레이하는 방식으로 작동합니다. 시스템을 업데이트하는 경우, 새로운 베이스 이미지를 다운로드하고 해당 이미지에 오버레이합니다.
+The [Fedora Atomic Desktops](https://fedoramagazine.org/introducing-fedora-atomic-desktops/) come in a variety of flavors depending on the desktop environment you prefer, such as **Fedora Silverblue** (which comes with [GNOME](https://www.gnome.org/)), **Fedora Kinoite**, (which comes with [KDE](https://kde.org/)), **Fedora Sway Atomic**, or **Fedora Budgie Atomic**. However, we don't recommend the last of these as the Budgie desktop environment [still requires X11](https://buddiesofbudgie.org/blog/wayland).
 
-업데이트가 완료되면 새로 만들어진 시스템으로 재부팅합니다. `rpm-ostree`는 두 개의 시스템을 모두 유지하므로, 새로 배포된 시스템에서 문제가 발생하는 경우 간단히 롤백할 수 있습니다. 필요에 따라 유지할 시스템 수를 더 늘리는 옵션도 존재합니다.
+These operating systems differ from Fedora Workstation as they replace the [DNF](https://docs.fedoraproject.org/en-US/quick-docs/dnf/) package manager with a much more advanced alternative called [`rpm-ostree`](https://docs.fedoraproject.org/en-US/fedora/latest/system-administrators-guide/package-management/rpm-ostree/). The `rpm-ostree` package manager works by downloading a base image for the system, then overlaying packages over it in a [git](https://en.wikipedia.org/wiki/Git)-like commit tree. When the system is updated, a new base image is downloaded and the overlays will be applied to that new image.
+
+After the update is complete you will reboot the system into the new deployment. `rpm-ostree` keeps two deployments of the system so that you can easily rollback if something breaks in the new deployment. There is also the option to pin more deployments as needed.
 
 [Flatpak](https://www.flatpak.org) is the primary package installation method on these distributions, as `rpm-ostree` is only meant to overlay packages that cannot stay inside of a container on top of the base image.
 
@@ -113,7 +114,7 @@ NixOS는 재현성과 안전성에 중점을 둔 Nix 패키지 관리자를 기�
 
 </div>
 
-NixOS 패키지 매니저는 모든 패키지의 모든 버전을 **Nix Store**의 폴더에 따로 보관합니다. 따라서, 동일한 하나의 패키지를 시스템에 여러 버전으로 설치할 수 있습니다. 패키지 내용이 폴더에 작성되면 해당 폴더는 읽기 전용으로 설정됩니다.
+NixOS’s package manager keeps every version of every package in a different folder in the **Nix store**. Due to this you can have different versions of the same package installed on your system. After the package contents have been written to the folder, the folder is made read-only.
 
 NixOS also provides atomic updates; first it downloads (or builds) the packages and files for the new system generation and then switches to it. There are different ways to switch to a new generation; you can tell NixOS to activate it after reboot or you can switch to it at runtime. You can also *test* the new generation by switching to it at runtime, but not setting it as the current system generation. If something in the update process breaks, you can just reboot and automatically and return to a working version of your system.
 
@@ -142,7 +143,7 @@ Nix is a source-based package manager; if there’s no pre-built available in th
 
 </div>
 
-Whonix는 'Workstation'과 Tor 'Gateway'라는 두 개의 가상 머신으로 구성되어 실행됩니다. Workstation 에서 발생하는 모든 통신은 반드시 Tor Gateway를 통과합니다. 즉, Workstation이 만약 멀웨어에 의해 손상된다 할지라도, 실제 IP 주소는 노출되지 않습니다.
+Whonix is meant to run as two virtual machines: a “Workstation” and a Tor “Gateway.” All communications from the Workstation must go through the Tor gateway. This means that even if the Workstation is compromised by malware of some kind, the true IP address remains hidden.
 
 Some of its features include Tor Stream Isolation, [keystroke anonymization](https://www.whonix.org/wiki/Keystroke_Deanonymization#Kloak), [encrypted swap](https://github.com/Whonix/swap-file-creator), and a hardened memory allocator. Future versions of Whonix will likely include [full system AppArmor policies](https://github.com/Whonix/apparmor-profile-everything) and a [sandbox app launcher](https://www.whonix.org/wiki/Sandbox-app-launcher) to fully confine all processes on the system.
 
@@ -164,11 +165,11 @@ Whonix is best used [in conjunction with Qubes](https://www.whonix.org/wiki/Qube
 
 </div>
 
-Tails는 휘발성(디스크에 아무것도 기록되지 않음) 특성으로 인해 포렌식 방어에 적합하지만, Whonix 처럼 특별히 보안이 강화된 배포판은 아닙니다. Whonix에 비해 많은 익명성, 보안 기능이 부족하며, 업데이트 빈도 또한 훨씬 낮습니다(Tails는 6주에 한 번 업데이트가 제공됩니다). A Tails system that is compromised by malware may potentially bypass the transparent proxy allowing for the user to be deanonymized.
+Tails is great for counter forensics due to amnesia (meaning nothing is written to the disk); however, it is not a hardened distribution like Whonix. It lacks many anonymity and security features that Whonix has and gets updated much less often (only once every six weeks). A Tails system that is compromised by malware may potentially bypass the transparent proxy allowing for the user to be deanonymized.
 
-Tails는 Tor 브라우저에 [uBlock Origin](desktop-browsers.md#ublock-origin)을 기본 탑재하고 있습니다. 이는 공격자가 Tails 사용자를 핑거프린팅하는 용도로 쓰일 수 있습니다. [Whonix](desktop.md#whonix) 가상 머신은 유출 방지 면에서는 더 뛰어나지만, 휘발성 특성이 없으므로 저장 장치에서 데이터를 복구하는 것이 가능할 수도 있습니다.
+Tails includes [uBlock Origin](desktop-browsers.md#ublock-origin) in Tor Browser by default, which may potentially make it easier for adversaries to fingerprint Tails users. [Whonix](desktop.md#whonix) virtual machines may be more leak-proof, however they are not amnesic, meaning data may be recovered from your storage device.
 
-Tails는 재부팅 시마다 완전히 초기화되도록 설계되었습니다. 재부팅 시에도 특정 데이터를 유지하려면 암호화 [영구 저장소](https://tails.boum.org/doc/persistent_storage/index.en.html)를 설정해야 합니다.
+By design, Tails is meant to completely reset itself after each reboot. Encrypted [persistent storage](https://tails.boum.org/doc/persistent_storage/index.en.html) can be configured to store some data between reboots.
 
 ## 보안성 중점 배포판
 

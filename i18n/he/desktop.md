@@ -73,29 +73,30 @@ Tumbleweed עוקב אחר מודל מהדורה מתגלגל שבו כל עדכ
 
 ## הפצות בלתי ניתנות לשינוי
 
-### Fedora Silverblue
+### Fedora Atomic Desktops
 
 <div class="admonition recommendation" markdown>
 
-![Fedora Silverblue logo](assets/img/linux-desktop/fedora-silverblue.svg){ align=right }
+![Fedora logo](assets/img/linux-desktop/fedora.svg){ align=right }
 
-**Fedora Silverblue** is an immutable variant of Fedora with a strong focus on container workflows and the [GNOME](https://www.gnome.org/) desktop environment. If you prefer an environment other than GNOME, there are also other variants including [Kinoite](https://fedoraproject.org/kinoite/) (which comes with [KDE](https://kde.org/)) and [Sericea](https://fedoraproject.org/sericea/) (which comes with [Sway](https://swaywm.org/), a [Wayland](https://wayland.freedesktop.org)-only tiling window manager). We don't recommend [Onyx](https://fedoraproject.org/onyx/) at this time as it still [requires X11](https://buddiesofbudgie.org/blog/wayland). All of these variants follow the same release schedule as Fedora Workstation, benefiting from the same fast updates and staying very close to upstream.
+**Fedora Atomic Desktops** are the immutable variants of Fedora with a strong focus on containerized workflows and Flatpak for desktop applications. All of these variants follow the same release schedule as Fedora Workstation, benefiting from the same fast updates and staying very close to upstream.
 
-[:octicons-home-16: דף הבית](https://fedoraproject.org/silverblue/){ .md-button .md-button--primary }
-[:octicons-info-16:](https://docs.fedoraproject.org/en-US/fedora-silverblue/){ .card-link title=תיעוד}
-[:octicons-heart-16:](https://whatcanidoforfedora.org/){ .card-link title=לתרומה }
+[:octicons-home-16: Homepage](https://fedoraproject.org/atomic-desktops/){ .md-button .md-button--primary }
+[:octicons-heart-16:](https://whatcanidoforfedora.org/){ .card-link title=Contribute }
 
 </details>
 
 </div>
 
-Silverblue and its variants differ from Fedora Workstation as they replace the [DNF](https://docs.fedoraproject.org/en-US/quick-docs/dnf/) package manager with a much more advanced alternative called [`rpm-ostree`](https://docs.fedoraproject.org/en-US/fedora/latest/system-administrators-guide/package-management/rpm-ostree/). מנהל החבילות `rpm - ostree` עובד על ידי הורדת תמונת בסיס עבור המערכת, ולאחר מכן שכבת חבילות מעליה ב [git](https://en.wikipedia.org/wiki/Git)- כמו להתחייב עץ. כאשר המערכת מתעדכנת, מורידים תמונת בסיס חדשה ושכבות העל יוחלו על תמונה חדשה זו.
+The [Fedora Atomic Desktops](https://fedoramagazine.org/introducing-fedora-atomic-desktops/) come in a variety of flavors depending on the desktop environment you prefer, such as **Fedora Silverblue** (which comes with [GNOME](https://www.gnome.org/)), **Fedora Kinoite**, (which comes with [KDE](https://kde.org/)), **Fedora Sway Atomic**, or **Fedora Budgie Atomic**. However, we don't recommend the last of these as the Budgie desktop environment [still requires X11](https://buddiesofbudgie.org/blog/wayland).
 
-לאחר השלמת העדכון, תאתחל מחדש את המערכת לפריסה החדשה. `rpm - ostree` שומר שתי פריסות של המערכת, כך שתוכל בקלות לחזור לאחור אם משהו נשבר בפריסה החדשה. יש גם אפשרות להצמיד יותר פריסות לפי הצורך.
+These operating systems differ from Fedora Workstation as they replace the [DNF](https://docs.fedoraproject.org/en-US/quick-docs/dnf/) package manager with a much more advanced alternative called [`rpm-ostree`](https://docs.fedoraproject.org/en-US/fedora/latest/system-administrators-guide/package-management/rpm-ostree/). The `rpm-ostree` package manager works by downloading a base image for the system, then overlaying packages over it in a [git](https://en.wikipedia.org/wiki/Git)-like commit tree. When the system is updated, a new base image is downloaded and the overlays will be applied to that new image.
 
-[Flatpak](https://www.flatpak.org) היא שיטת התקנת החבילה העיקרית בהפצות אלה, מכיוון ש-`rpm-ostree` נועדה רק לכיסוי חבילות שאינן יכולות להישאר בתוך מיכל על גבי תמונת הבסיס.
+After the update is complete you will reboot the system into the new deployment. `rpm-ostree` keeps two deployments of the system so that you can easily rollback if something breaks in the new deployment. There is also the option to pin more deployments as needed.
 
-כחלופה Flatpaks, יש את האפשרות של[Toolbox](https://docs.fedoraproject.org/en-US/fedora-silverblue/toolbox/) כדי ליצור [Podman](https://podman.io) עם ספריית בית משותפת עם מערכת ההפעלה המארח לחקות סביבת פדורה מסורתית, המהווה [תכונה שימושית](https://containertoolbx.org) עבור מפתח הבחנה.
+[Flatpak](https://www.flatpak.org) is the primary package installation method on these distributions, as `rpm-ostree` is only meant to overlay packages that cannot stay inside of a container on top of the base image.
+
+As an alternative to Flatpaks, there is the option of [Toolbox](https://docs.fedoraproject.org/en-US/fedora-silverblue/toolbox/) to create [Podman](https://podman.io) containers with a shared home directory with the host operating system and mimic a traditional Fedora environment, which is a [useful feature](https://containertoolbx.org) for the discerning developer.
 
 ### NixOS
 
@@ -113,15 +114,15 @@ NixOS היא הפצה עצמאית המבוססת על מנהל החבילות �
 
 </div>
 
-מנהל החבילות של NixOS שומר כל גרסה של כל חבילה בתיקיה אחרת בחנות **Nix store**. בשל כך אתה יכול לקבל גירסאות שונות של אותה חבילה מותקנת על המערכת שלך. לאחר שתוכן החבילה נכתב לתיקייה, התיקייה נעשית לקריאה בלבד.
+NixOS’s package manager keeps every version of every package in a different folder in the **Nix store**. Due to this you can have different versions of the same package installed on your system. After the package contents have been written to the folder, the folder is made read-only.
 
-NixOS מספקת גם עדכונים אטומיים; תחילה היא מורידה (או בונה) את החבילות והקבצים עבור דור המערכת החדש ולאחר מכן עוברת אליו. ישנן דרכים שונות לעבור לדור חדש; באפשרותך להורות ל - NixOS להפעיל אותו לאחר אתחול מחדש או לעבור אליו בזמן ריצה. אתה יכול גם *לבדוק* הדור החדש על ידי מעבר אליו בזמן ריצה, אבל לא הגדרת אותו כמו הדור הנוכחי של המערכת. אם משהו בתהליך העדכון נשבר, אתה יכול פשוט לאתחל באופן אוטומטי ולחזור לגירסה עובדת של המערכת שלך.
+NixOS also provides atomic updates; first it downloads (or builds) the packages and files for the new system generation and then switches to it. There are different ways to switch to a new generation; you can tell NixOS to activate it after reboot or you can switch to it at runtime. You can also *test* the new generation by switching to it at runtime, but not setting it as the current system generation. If something in the update process breaks, you can just reboot and automatically and return to a working version of your system.
 
-Nix מנהל החבילות משתמש בשפה פונקציונלית טהורה - הנקראת גם Nix - כדי להגדיר חבילות.
+Nix the package manager uses a purely functional language - which is also called Nix - to define packages.
 
-[Nixpkgs](https://github.com/nixos/nixpkgs)(המקור העיקרי של חבילות) נמצאים במאגר אחד של GitHub. אתה יכול גם להגדיר חבילות משלך באותה שפה ולאחר מכן בקלות לכלול אותם בתצורה שלך.
+[Nixpkgs](https://github.com/nixos/nixpkgs) (the main source of packages) are contained in a single GitHub repository. You can also define your own packages in the same language and then easily include them in your config.
 
-Nix הוא מנהל חבילות מבוסס מקור; אם אין מוכן מראש זמין במטמון הבינארי, ניקס פשוט יבנה את החבילה מהמקור באמצעות ההגדרה שלו. הוא בונה כל חבילה בסביבה *טהורה* בארגז חול, שאינה תלויה ככל האפשר במערכת המארחת, ובכך הופכת את הקבצים הבינאריים לניתנים לשחזור.
+Nix is a source-based package manager; if there’s no pre-built available in the binary cache, Nix will just build the package from source using its definition. It builds each package in a sandboxed *pure* environment, which is as independent of the host system as possible, thus making binaries reproducible.
 
 ## הפצות ממוקדות אנונימיות
 
@@ -142,7 +143,7 @@ Nix הוא מנהל חבילות מבוסס מקור; אם אין מוכן מר�
 
 </div>
 
-Whonix אמור לפעול כמו שתי מכונות וירטואליות: "תחנת עבודה" ו "שער" Tor כל התקשורת מתחנת העבודה חייבת לעבור דרך שער טור. משמעות הדבר היא כי גם אם תחנת העבודה נפגעת על ידי תוכנות זדוניות מסוג כלשהו, כתובת ה - IP האמיתית נשארת מוסתרת.
+Whonix is meant to run as two virtual machines: a “Workstation” and a Tor “Gateway.” All communications from the Workstation must go through the Tor gateway. This means that even if the Workstation is compromised by malware of some kind, the true IP address remains hidden.
 
 Some of its features include Tor Stream Isolation, [keystroke anonymization](https://www.whonix.org/wiki/Keystroke_Deanonymization#Kloak), [encrypted swap](https://github.com/Whonix/swap-file-creator), and a hardened memory allocator. Future versions of Whonix will likely include [full system AppArmor policies](https://github.com/Whonix/apparmor-profile-everything) and a [sandbox app launcher](https://www.whonix.org/wiki/Sandbox-app-launcher) to fully confine all processes on the system.
 
@@ -164,11 +165,11 @@ Whonix is best used [in conjunction with Qubes](https://www.whonix.org/wiki/Qube
 
 </div>
 
-Tails הוא נהדר עבור זיהוי פלילי נגדי עקב אמנזיה (כלומר שום דבר לא נכתב לדיסק); עם זאת, זו אינה התפלגות קשוחה כמו ווניקס. היא חסרה תכונות אנונימיות ואבטחה רבות שיש ל - Whonix ומתעדכנת בתדירות נמוכה בהרבה (רק אחת לשישה שבועות). מערכת Tails כי הוא נפגע על ידי תוכנות זדוניות עשוי לעקוף את פרוקסי שקוף המאפשר למשתמש להיות deanonymized.
+Tails is great for counter forensics due to amnesia (meaning nothing is written to the disk); however, it is not a hardened distribution like Whonix. It lacks many anonymity and security features that Whonix has and gets updated much less often (only once every six weeks). A Tails system that is compromised by malware may potentially bypass the transparent proxy allowing for the user to be deanonymized.
 
-Tailsכולל[uBlock Origin](desktop-browsers.md#ublock-origin) בדפדפן Tor כברירת מחדל, מה שעשוי להקל על יריבים למשתמשים בזנבות טביעות אצבע. [Whonix](desktop.md#whonix) מכונות וירטואליות עשויות להיות יותר חסינות מפני דליפות, אך הן אינן אמנזיה, כלומר ניתן לשחזר נתונים ממכשיר האחסון שלך.
+Tails includes [uBlock Origin](desktop-browsers.md#ublock-origin) in Tor Browser by default, which may potentially make it easier for adversaries to fingerprint Tails users. [Whonix](desktop.md#whonix) virtual machines may be more leak-proof, however they are not amnesic, meaning data may be recovered from your storage device.
 
-על ידי עיצוב, Tails נועד לאפס את עצמו לחלוטין לאחר כל אתחול מחדש. ניתן להגדיר [אחסון קבוע](https://tails.boum.org/doc/first_steps/persistence/index.en.html) מוצפן כדי לאחסן נתונים מסוימים בין אתחולים מחדש.
+By design, Tails is meant to completely reset itself after each reboot. Encrypted [persistent storage](https://tails.boum.org/doc/persistent_storage/index.en.html) can be configured to store some data between reboots.
 
 ## הפצות ממוקדות אבטחה
 
@@ -191,13 +192,13 @@ Tailsכולל[uBlock Origin](desktop-browsers.md#ublock-origin) בדפדפן Tor
 
 </div>
 
-Qubes OS מאבטחת את המחשב על ידי בידוד תת-מערכות (למשל, רשת, USB וכו') ויישומים ב*qubes* נפרדים. אם חלק אחד של המערכת ייפגע, סביר שהבידוד הנוסף יגן על שאר ה*qubes* ועל מערכת הליבה.
+Qubes OS secures the computer by isolating subsystems (e.g., networking, USB, etc.) and applications in separate *qubes*. Should one part of the system be compromised, the extra isolation is likely to protect the rest of the *qubes* and the core system.
 
-למידע נוסף על אופן הפעולה של Qubes, קרא את הדף המלא שלנו [סקירת מערכת ההפעלה Qubes](os/qubes-overview.md).
+For further information about how Qubes works, read our full [Qubes OS overview](os/qubes-overview.md) page.
 
 ### Kicksecure
 
-בעוד שאנו [ממליצים נגד](os/linux-overview.md#release-cycle) הפצות "מיושנות מתמיד" כמו שימוש בדביאן לשולחן העבודה ברוב המקרים, Kicksecure היא מערכת הפעלה מבוססת דביאן שיש לה הוקשחה להיות הרבה יותר מהתקנת לינוקס טיפוסית.
+While we [recommend against](os/linux-overview.md#release-cycle) "perpetually outdated" distributions like Debian for Desktop use in most cases, Kicksecure is a Debian-based operating system which has been hardened to be much more than a typical Linux install.
 
 <div class="admonition recommendation" markdown>
 
@@ -217,7 +218,7 @@ Qubes OS מאבטחת את המחשב על ידי בידוד תת-מערכות (
 
 ## קריטריונים
 
-בחירת הפצת לינוקס המתאימה לך תסתכם במגוון עצום של העדפות אישיות, ודף זה **לא** נועד להיות רשימה ממצה של כל הפצה בת קיימא. בדף הסקירה הכללית של לינוקס שלנו יש כמה עצות לגבי [בחירת הפצה](os/linux-overview.md#choosing-your-distribution) ביתר פירוט. ההפצות ב*דף זה* עוקבות בדרך כלל אחר ההנחיות שסיקרנו שם, וכולן עומדות בסטנדרטים הבאים:
+Choosing a Linux distro that is right for you will come down to a huge variety of personal preferences, and this page is **not** meant to be an exhaustive list of every viable distribution. Our Linux overview page has some advice on [choosing a distro](os/linux-overview.md#choosing-your-distribution) in more detail. The distros on *this* page do all generally follow the guidelines we covered there, and all meet these standards:
 
 - Free and open source.
 - מקבל עדכוני תוכנה וליבה קבועים.
@@ -230,4 +231,4 @@ Qubes OS מאבטחת את המחשב על ידי בידוד תת-מערכות (
 - העדפה לפרויקטים גדולים יותר.
     - שמירה על מערכת הפעלה היא אתגר מרכזי, ולפרויקטים קטנים יותר יש נטייה לטעויות נמנעות יותר, או לעכב עדכונים קריטיים (או גרוע מכך, להיעלם לחלוטין). אנו נשענים לעבר פרויקטים אשר ככל הנראה יהיו בערך 10 שנים מהיום (בין אם זה נובע מגיבוי תאגידי או תמיכה קהילתית משמעותית מאוד), והרחק מפרויקטים שנבנו בעבודת יד או שיש להם מספר מצומצם של מתחזקים.
 
-בנוסף, [ הקריטריונים הסטנדרטיים שלנו ](about/criteria.md) לפרויקטים מומלצים עדיין חלים. ** אנא שימו לב שאיננו קשורים לאף אחד מהפרויקטים שאנו ממליצים עליהם. **
+In addition, [our standard criteria](about/criteria.md) for recommended projects still applies. **Please note we are not affiliated with any of the projects we recommend.**

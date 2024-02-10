@@ -73,29 +73,30 @@ Arch Linux有一个滚动的发布周期。 没有固定的发布时间表，软
 
 ## 不变的发行版
 
-### Fedora Silverblue
+### Fedora Atomic Desktops
 
 <div class="admonition recommendation" markdown>
 
-![Fedora Silverblue logo](assets/img/linux-desktop/fedora-silverblue.svg){ align=right }
+![Fedora logo](assets/img/linux-desktop/fedora.svg){ align=right }
 
-**Fedora Silverblue** is an immutable variant of Fedora with a strong focus on container workflows and the [GNOME](https://www.gnome.org/) desktop environment. If you prefer an environment other than GNOME, there are also other variants including [Kinoite](https://fedoraproject.org/kinoite/) (which comes with [KDE](https://kde.org/)) and [Sericea](https://fedoraproject.org/sericea/) (which comes with [Sway](https://swaywm.org/), a [Wayland](https://wayland.freedesktop.org)-only tiling window manager). We don't recommend [Onyx](https://fedoraproject.org/onyx/) at this time as it still [requires X11](https://buddiesofbudgie.org/blog/wayland). All of these variants follow the same release schedule as Fedora Workstation, benefiting from the same fast updates and staying very close to upstream.
+**Fedora Atomic Desktops** are the immutable variants of Fedora with a strong focus on containerized workflows and Flatpak for desktop applications. All of these variants follow the same release schedule as Fedora Workstation, benefiting from the same fast updates and staying very close to upstream.
 
-[:octicons-home-16: Homepage](https://fedoraproject.org/silverblue/){ .md-button .md-button--primary }
-[:octicons-info-16:](https://docs.fedoraproject.org/en-US/fedora-silverblue/){ .card-link title=Documentation}
+[:octicons-home-16: Homepage](https://fedoraproject.org/atomic-desktops/){ .md-button .md-button--primary }
 [:octicons-heart-16:](https://whatcanidoforfedora.org/){ .card-link title=Contribute }
 
 </details>
 
 </div>
 
-Silverblue and its variants differ from Fedora Workstation as they replace the [DNF](https://docs.fedoraproject.org/en-US/quick-docs/dnf/) package manager with a much more advanced alternative called [`rpm-ostree`](https://docs.fedoraproject.org/en-US/fedora/latest/system-administrators-guide/package-management/rpm-ostree/). `rpm-ostree` 软件包管理器的工作方式是为系统下载一个基本镜像，然后在一个 [git](https://en.wikipedia.org/wiki/Git)-like commit tree中叠加软件包。 当系统更新时，会下载一个新的基本图像，覆盖物将被应用于该新图像。
+The [Fedora Atomic Desktops](https://fedoramagazine.org/introducing-fedora-atomic-desktops/) come in a variety of flavors depending on the desktop environment you prefer, such as **Fedora Silverblue** (which comes with [GNOME](https://www.gnome.org/)), **Fedora Kinoite**, (which comes with [KDE](https://kde.org/)), **Fedora Sway Atomic**, or **Fedora Budgie Atomic**. However, we don't recommend the last of these as the Budgie desktop environment [still requires X11](https://buddiesofbudgie.org/blog/wayland).
 
-更新完成后，你将重新启动系统进入新的部署。 `rpm-ostree` 保持系统的两个部署，这样如果在新的部署中出现问题，你可以很容易地回滚。 还可以根据需要选择钉更多的部署。
+These operating systems differ from Fedora Workstation as they replace the [DNF](https://docs.fedoraproject.org/en-US/quick-docs/dnf/) package manager with a much more advanced alternative called [`rpm-ostree`](https://docs.fedoraproject.org/en-US/fedora/latest/system-administrators-guide/package-management/rpm-ostree/). The `rpm-ostree` package manager works by downloading a base image for the system, then overlaying packages over it in a [git](https://en.wikipedia.org/wiki/Git)-like commit tree. When the system is updated, a new base image is downloaded and the overlays will be applied to that new image.
 
-[Flatpak](https://www.flatpak.org) 是这些发行版上的主要软件包安装方法，因为 `rpm-ostree` 只是为了在基础镜像上叠加那些不能留在容器内的软件包。
+After the update is complete you will reboot the system into the new deployment. `rpm-ostree` keeps two deployments of the system so that you can easily rollback if something breaks in the new deployment. There is also the option to pin more deployments as needed.
 
-作为Flatpaks的替代方案，可以选择 [Toolbox](https://docs.fedoraproject.org/en-US/fedora-silverblue/toolbox/) ，创建 [Podman](https://podman.io) 容器，与主机操作系统共享主目录，模仿传统的Fedora环境，这对有眼光的开发者来说是一个 [有用的功能](https://containertoolbx.org)。
+[Flatpak](https://www.flatpak.org) is the primary package installation method on these distributions, as `rpm-ostree` is only meant to overlay packages that cannot stay inside of a container on top of the base image.
+
+As an alternative to Flatpaks, there is the option of [Toolbox](https://docs.fedoraproject.org/en-US/fedora-silverblue/toolbox/) to create [Podman](https://podman.io) containers with a shared home directory with the host operating system and mimic a traditional Fedora environment, which is a [useful feature](https://containertoolbx.org) for the discerning developer.
 
 ### NixOS
 
@@ -113,15 +114,15 @@ NixOS是一个基于Nix软件包管理器的独立发行版，注重可重复性
 
 </div>
 
-NixOS的软件包管理器将每个软件包的每个版本保存在 **Nix商店的不同文件夹中**。 由于这个原因，你可以在你的系统上安装同一软件包的不同版本。 在包的内容被写入文件夹后，该文件夹被变成只读。
+NixOS’s package manager keeps every version of every package in a different folder in the **Nix store**. Due to this you can have different versions of the same package installed on your system. After the package contents have been written to the folder, the folder is made read-only.
 
-NixOS还提供了原子式更新；首先它下载（或构建）新一代系统的软件包和文件，然后切换到它。 有不同的方法来切换到新一代；你可以告诉NixOS在重启后激活它，或者你可以在运行时切换到它。 你也可以 *测试* ，在运行时切换到新的一代，但不把它设置为当前系统的一代。 如果在更新过程中出现了什么问题，你可以直接重新启动，并自动返回到你的系统的工作版本。
+NixOS also provides atomic updates; first it downloads (or builds) the packages and files for the new system generation and then switches to it. There are different ways to switch to a new generation; you can tell NixOS to activate it after reboot or you can switch to it at runtime. You can also *test* the new generation by switching to it at runtime, but not setting it as the current system generation. If something in the update process breaks, you can just reboot and automatically and return to a working version of your system.
 
-Nix软件包管理器使用一种纯粹的函数式语言--它也被称为Nix--来定义软件包。
+Nix the package manager uses a purely functional language - which is also called Nix - to define packages.
 
-[Nixpkgs](https://github.com/nixos/nixpkgs) （软件包的主要来源）包含在一个GitHub仓库中。 你也可以用同样的语言定义你自己的包，然后轻松地将它们纳入你的配置中。
+[Nixpkgs](https://github.com/nixos/nixpkgs) (the main source of packages) are contained in a single GitHub repository. You can also define your own packages in the same language and then easily include them in your config.
 
-Nix是一个基于源代码的软件包管理器；如果在二进制缓存中没有预置的可用软件包，Nix将直接使用其定义从源代码中构建软件包。 它在一个沙盒式的 *纯* 环境中构建每个软件包，该环境尽可能地独立于主机系统，从而使二进制文件可以重现。
+Nix is a source-based package manager; if there’s no pre-built available in the binary cache, Nix will just build the package from source using its definition. It builds each package in a sandboxed *pure* environment, which is as independent of the host system as possible, thus making binaries reproducible.
 
 ## 以匿名为重点的发行版
 
@@ -142,7 +143,7 @@ Nix是一个基于源代码的软件包管理器；如果在二进制缓存中�
 
 </div>
 
-Whonix旨在作为两个虚拟机运行：一个 "工作站 "和一个Tor "网关"。 工作站的所有通信都必须通过Tor网关。 这意味着，即使工作站被某种恶意软件入侵，真实的IP地址仍然是隐藏的。
+Whonix is meant to run as two virtual machines: a “Workstation” and a Tor “Gateway.” All communications from the Workstation must go through the Tor gateway. This means that even if the Workstation is compromised by malware of some kind, the true IP address remains hidden.
 
 Some of its features include Tor Stream Isolation, [keystroke anonymization](https://www.whonix.org/wiki/Keystroke_Deanonymization#Kloak), [encrypted swap](https://github.com/Whonix/swap-file-creator), and a hardened memory allocator. Future versions of Whonix will likely include [full system AppArmor policies](https://github.com/Whonix/apparmor-profile-everything) and a [sandbox app launcher](https://www.whonix.org/wiki/Sandbox-app-launcher) to fully confine all processes on the system.
 
@@ -164,11 +165,11 @@ Whonix is best used [in conjunction with Qubes](https://www.whonix.org/wiki/Qube
 
 </div>
 
-Tails由于具有失忆功能（意味着没有任何东西被写入磁盘），对于反取证来说是非常好的；然而，它并不是像Whonix那样的加固发行版。 它缺乏Whonix所具有的许多匿名和安全功能，而且更新频率更低（每六周才更新一次）。 被恶意软件入侵的Tails系统可能会绕过透明代理，允许用户去匿名化。
+Tails is great for counter forensics due to amnesia (meaning nothing is written to the disk); however, it is not a hardened distribution like Whonix. It lacks many anonymity and security features that Whonix has and gets updated much less often (only once every six weeks). A Tails system that is compromised by malware may potentially bypass the transparent proxy allowing for the user to be deanonymized.
 
-Tails默认在Tor浏览器中包括 [uBlock Origin](desktop-browsers.md#ublock-origin) ，这有可能使对手更容易对Tails用户进行指纹识别。 [Whonix](desktop.md#whonix) 虚拟机可能更加防漏，然而它们不是失忆的，这意味着数据可能会从你的存储设备中恢复。
+Tails includes [uBlock Origin](desktop-browsers.md#ublock-origin) in Tor Browser by default, which may potentially make it easier for adversaries to fingerprint Tails users. [Whonix](desktop.md#whonix) virtual machines may be more leak-proof, however they are not amnesic, meaning data may be recovered from your storage device.
 
-在设计上，Tails是为了在每次重启后完全重置自己。 加密的 [持久性存储](https://tails.boum.org/doc/persistent_storage/index.en.html) ，可以配置为在重启之间存储一些数据。
+By design, Tails is meant to completely reset itself after each reboot. Encrypted [persistent storage](https://tails.boum.org/doc/persistent_storage/index.en.html) can be configured to store some data between reboots.
 
 ## 以安全为重点的发行版
 

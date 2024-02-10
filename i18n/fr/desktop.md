@@ -73,29 +73,30 @@ Une grande partie des [paquets d'Arch Linux](https://reproducible.archlinux.org)
 
 ## Distributions immuables
 
-### Fedora Silverblue
+### Fedora Atomic Desktops
 
 <div class="admonition recommendation" markdown>
 
-![logo Fedora Silverblue](assets/img/linux-desktop/fedora-silverblue.svg){ align=right }
+![Fedora logo](assets/img/linux-desktop/fedora.svg){ align=right }
 
-**Fedora Silverblue** est une variante immuable de Fedora qui met l'accent sur les flux de travail en conteneur et l'environnement de bureau [GNOME](https://www.gnome.org/). Si vous préférez un environnement autre que GNOME, il existe d'autres variantes, notamment [Kinoite](https://fedoraproject.org/kinoite/) (qui inclut [KDE](https://kde.org/)) et [Sericea](https://fedoraproject.org/sericea/) (qui inclut [Sway](https://swaywm.org/), un gestionnaire de fenêtres en mosaïque exclusif à [Wayland](https://wayland.freedesktop.org)). Nous ne recommandons pas [Onyx](https://fedoraproject.org/onyx/) pour l'instant car il [nécessite toujours X11](https://buddiesofbudgie.org/blog/wayland). Toutes ces variantes suivent le même calendrier de publication que Fedora Workstation, bénéficiant des mêmes mises à jour rapides et restant très proches de l'original.
+**Fedora Atomic Desktops** are the immutable variants of Fedora with a strong focus on containerized workflows and Flatpak for desktop applications. Toutes ces variantes suivent le même calendrier de publication que Fedora Workstation, bénéficiant des mêmes mises à jour rapides et restant très proches de l'original.
 
-[:octicons-home-16: Page d'accueil](https://fedoraproject.org/silverblue/){ .md-button .md-button--primary }
-[:octicons-info-16:](https://docs.fedoraproject.org/en-US/fedora-silverblue/){ .card-link title=Documentation}
-[:octicons-heart-16:](https://whatcanidoforfedora.org/){ .card-link title=Contribuer }
+[:octicons-home-16: Homepage](https://fedoraproject.org/atomic-desktops/){ .md-button .md-button--primary }
+[:octicons-heart-16:](https://whatcanidoforfedora.org/){ .card-link title=Contribute }
 
 </details>
 
 </div>
 
-Silverblue et ses variantes diffèrent de Fedora Workstation car ils remplacent le gestionnaire de paquets [DNF](https://docs.fedoraproject.org/en-US/quick-docs/dnf/) par une alternative beaucoup plus avancée appelée [`rpm-ostree`](https://docs.fedoraproject.org/en-US/fedora/latest/system-administrators-guide/package-management/rpm-ostree/). Le gestionnaire de paquets `rpm-ostree` fonctionne en téléchargeant une image de base pour le système, puis en superposant des paquets par-dessus dans un arbre de commit semblable à [git](https://fr.wikipedia.org/wiki/Git). Lorsque le système est mis à jour, une nouvelle image de base est téléchargée et les surcouches seront appliquées à cette nouvelle image.
+The [Fedora Atomic Desktops](https://fedoramagazine.org/introducing-fedora-atomic-desktops/) come in a variety of flavors depending on the desktop environment you prefer, such as **Fedora Silverblue** (which comes with [GNOME](https://www.gnome.org/)), **Fedora Kinoite**, (which comes with [KDE](https://kde.org/)), **Fedora Sway Atomic**, or **Fedora Budgie Atomic**. However, we don't recommend the last of these as the Budgie desktop environment [still requires X11](https://buddiesofbudgie.org/blog/wayland).
 
-Une fois la mise à jour terminée, vous redémarrez le système dans le nouveau déploiement. `rpm-ostree` conserve deux déploiements du système afin que vous puissiez facilement revenir en arrière si quelque chose se casse dans le nouveau déploiement. Il est également possible d'épingler plus de déploiements selon les besoins.
+These operating systems differ from Fedora Workstation as they replace the [DNF](https://docs.fedoraproject.org/en-US/quick-docs/dnf/) package manager with a much more advanced alternative called [`rpm-ostree`](https://docs.fedoraproject.org/en-US/fedora/latest/system-administrators-guide/package-management/rpm-ostree/). The `rpm-ostree` package manager works by downloading a base image for the system, then overlaying packages over it in a [git](https://en.wikipedia.org/wiki/Git)-like commit tree. When the system is updated, a new base image is downloaded and the overlays will be applied to that new image.
 
-[Flatpak](https://www.flatpak.org) est la méthode principale d'installation des paquets sur ces distributions, car `rpm-ostree` n'est destiné qu'à superposer les paquets qui ne peuvent pas rester à l'intérieur d'un conteneur sur l'image de base.
+After the update is complete you will reboot the system into the new deployment. `rpm-ostree` keeps two deployments of the system so that you can easily rollback if something breaks in the new deployment. There is also the option to pin more deployments as needed.
 
-Comme alternative aux Flatpaks, il y a l'option de [Toolbox](https://docs.fedoraproject.org/fr/fedora-silverblue/toolbox/) pour créer des conteneurs [Podman](https://podman.io) avec un répertoire de base partagé avec le système d'exploitation hôte et imiter un environnement Fedora traditionnel, ce qui est une [fonctionnalité utile](https://containertoolbx.org) pour le développeur averti.
+[Flatpak](https://www.flatpak.org) is the primary package installation method on these distributions, as `rpm-ostree` is only meant to overlay packages that cannot stay inside of a container on top of the base image.
+
+As an alternative to Flatpaks, there is the option of [Toolbox](https://docs.fedoraproject.org/en-US/fedora-silverblue/toolbox/) to create [Podman](https://podman.io) containers with a shared home directory with the host operating system and mimic a traditional Fedora environment, which is a [useful feature](https://containertoolbx.org) for the discerning developer.
 
 ### NixOS
 
@@ -113,15 +114,15 @@ NixOS est une distribution indépendante basée sur le gestionnaire de paquets N
 
 </div>
 
-Le gestionnaire de paquets de NixOS conserve chaque version de chaque paquet dans un dossier différent dans le **magasin Nix**. De ce fait, vous pouvez avoir différentes versions d'un même paquet installé sur votre système. Une fois que le contenu du paquet a été écrit dans le dossier, ce dernier est mis en lecture seule.
+NixOS’s package manager keeps every version of every package in a different folder in the **Nix store**. Due to this you can have different versions of the same package installed on your system. After the package contents have been written to the folder, the folder is made read-only.
 
-NixOS fournit également des mises à jour atomiques ; il télécharge d'abord (ou construit) les paquets et les fichiers pour la nouvelle génération de système et ensuite y bascule. Il y a différentes façons de passer à une nouvelle génération ; vous pouvez dire à NixOS de l'activer après le redémarrage ou vous pouvez basculer sur celle-ci pendant l'exécution. Vous pouvez également *tester* la nouvelle génération en basculant sur celle-ci pendant l'exécution, mais sans la définir comme la génération actuelle du système. Si quelque chose se casse pendant le processus de mise à jour, vous pouvez simplement redémarrer et revenir automatiquement à une version fonctionnelle de votre système.
+NixOS also provides atomic updates; first it downloads (or builds) the packages and files for the new system generation and then switches to it. There are different ways to switch to a new generation; you can tell NixOS to activate it after reboot or you can switch to it at runtime. You can also *test* the new generation by switching to it at runtime, but not setting it as the current system generation. If something in the update process breaks, you can just reboot and automatically and return to a working version of your system.
 
-Nix, le gestionnaire de paquets, utilise un langage purement fonctionnel - qui s'appelle aussi Nix - pour définir les paquets.
+Nix the package manager uses a purely functional language - which is also called Nix - to define packages.
 
-[Nixpkgs](https://github.com/nixos/nixpkgs) (la source principale des paquets) sont contenus dans un seul dépôt GitHub. Vous pouvez également définir vos propres paquets dans le même langage, puis les inclure facilement dans votre configuration.
+[Nixpkgs](https://github.com/nixos/nixpkgs) (the main source of packages) are contained in a single GitHub repository. You can also define your own packages in the same language and then easily include them in your config.
 
-Nix est un gestionnaire de paquets basé sur les sources ; s'il n'y a pas de paquet pré-construit disponible dans le cache binaire, Nix construira simplement le paquet à partir des sources en utilisant sa définition. Il construit chaque paquet dans un environnement *pur* en bac à sable, qui est aussi indépendant que possible du système hôte, ce qui rend les binaires reproductibles.
+Nix is a source-based package manager; if there’s no pre-built available in the binary cache, Nix will just build the package from source using its definition. It builds each package in a sandboxed *pure* environment, which is as independent of the host system as possible, thus making binaries reproducible.
 
 ## Distributions axées sur l'anonymat
 
@@ -141,11 +142,11 @@ Nix est un gestionnaire de paquets basé sur les sources ; s'il n'y a pas de paq
 
 </div>
 
-Whonix est conçu pour fonctionner sous la forme de deux machines virtuelles : une "Station de Travail" et une "Passerelle" Tor. Toutes les communications de la station de travail doivent passer par la passerelle Tor, et seront acheminées par le réseau Tor. Cela signifie que même si la "Station de Travail" est compromise par un logiciel malveillant quelconque, la véritable adresse IP reste cachée.
+Whonix is meant to run as two virtual machines: a “Workstation” and a Tor “Gateway.” All communications from the Workstation must go through the Tor gateway. This means that even if the Workstation is compromised by malware of some kind, the true IP address remains hidden.
 
-Parmi ses fonctionnalités, citons l'isolation des Flux Tor, [l'anonymisation des frappes de clavier](https://www.whonix.org/wiki/Keystroke_Deanonymization#Kloak), [un swap chiffré](https://github.com/Whonix/swap-file-creator), et un allocateur de mémoire renforcé. Les futures versions de Whonix incluront probablement [des politiques AppArmor système complètes](https://github.com/Whonix/apparmor-profile-everything) et [un lanceur d'apps bac à sable](https://www.whonix.org/wiki/Sandbox-app-launcher) pour confiner complètement tous les processus sur le système.
+Some of its features include Tor Stream Isolation, [keystroke anonymization](https://www.whonix.org/wiki/Keystroke_Deanonymization#Kloak), [encrypted swap](https://github.com/Whonix/swap-file-creator), and a hardened memory allocator. Future versions of Whonix will likely include [full system AppArmor policies](https://github.com/Whonix/apparmor-profile-everything) and a [sandbox app launcher](https://www.whonix.org/wiki/Sandbox-app-launcher) to fully confine all processes on the system.
 
-Il est préférable d'utiliser Whonix [en conjonction avec Qubes](https://www.whonix.org/wiki/Qubes/Why_use_Qubes_over_other_Virtualizers). Nous avons un [guide recommandé](os/qubes-overview.md#connecting-to-tor-via-a-vpn) sur la configuration de Whonix en conjonction avec une ProxyVM VPN dans Qubes pour cacher vos activités Tor à votre FAI.
+Whonix is best used [in conjunction with Qubes](https://www.whonix.org/wiki/Qubes/Why_use_Qubes_over_other_Virtualizers). We have a [recommended guide](os/qubes-overview.md#connecting-to-tor-via-a-vpn) on configuring Whonix in conjunction with a VPN ProxyVM in Qubes to hide your Tor activities from your ISP.
 
 ### Tails
 
@@ -163,11 +164,11 @@ Il est préférable d'utiliser Whonix [en conjonction avec Qubes](https://www.wh
 
 </div>
 
-Tails est excellent pour contrer l'analyse scientifique en raison de son amnésie (ce qui signifie que rien n'est écrit sur le disque) ; cependant, ce n'est pas une distribution renforcée comme Whonix. Il ne dispose pas de nombreuses fonctions d'anonymat et de sécurité comme Whonix et est mis à jour beaucoup moins souvent (seulement une fois toutes les six semaines). Un système Tails compromis par un logiciel malveillant peut potentiellement contourner le proxy transparent et permettre à l'utilisateur d'être désanonymisé.
+Tails is great for counter forensics due to amnesia (meaning nothing is written to the disk); however, it is not a hardened distribution like Whonix. It lacks many anonymity and security features that Whonix has and gets updated much less often (only once every six weeks). A Tails system that is compromised by malware may potentially bypass the transparent proxy allowing for the user to be deanonymized.
 
-Tails inclut [uBlock Origin](desktop-browsers.md#ublock-origin) dans le Navigateur Tor par défaut, ce qui peut potentiellement faciliter la tâche des adversaires pour identifier l'empreinte numérique des utilisateurs de Tails. Les machines virtuelles [Whonix](desktop.md#whonix) sont peut-être plus étanches, mais elles ne sont pas amnésiques, ce qui signifie que les données peuvent être récupérées sur votre périphérique de stockage.
+Tails includes [uBlock Origin](desktop-browsers.md#ublock-origin) in Tor Browser by default, which may potentially make it easier for adversaries to fingerprint Tails users. [Whonix](desktop.md#whonix) virtual machines may be more leak-proof, however they are not amnesic, meaning data may be recovered from your storage device.
 
-Par conception, Tails est censé se réinitialiser complètement après chaque redémarrage. Le [stockage persistant](https://tails.boum.org/doc/first_steps/persistence/index.fr.html) chiffré peut être configuré pour stocker certaines données entre les redémarrages.
+By design, Tails is meant to completely reset itself after each reboot. Encrypted [persistent storage](https://tails.boum.org/doc/persistent_storage/index.en.html) can be configured to store some data between reboots.
 
 ## Distributions axées sur la sécurité
 
@@ -190,13 +191,13 @@ Par conception, Tails est censé se réinitialiser complètement après chaque r
 
 </div>
 
-Qubes OS sécurise l'ordinateur en isolant les sous-systèmes (par exemple, le réseau, l'USB, etc.) et les applications dans des *qubes* distincts. Si une partie du système est compromise, l'isolation supplémentaire est susceptible de protéger le reste des *qubes* et le système central.
+Qubes OS secures the computer by isolating subsystems (e.g., networking, USB, etc.) and applications in separate *qubes*. Should one part of the system be compromised, the extra isolation is likely to protect the rest of the *qubes* and the core system.
 
-Pour plus d'informations sur le fonctionnement de Qubes, lisez notre page [Introduction à Qubes](os/qubes-overview.md) .
+For further information about how Qubes works, read our full [Qubes OS overview](os/qubes-overview.md) page.
 
 ### Kicksecure
 
-Bien que nous [déconseillions](os/linux-overview.md#release-cycle) d'utiliser des distributions "perpétuellement dépassées" comme Debian pour un usage bureautique dans la plupart des cas, Kicksecure est un système d'exploitation basé sur Debian qui a été renforcé pour être bien plus qu'une installation Linux classique.
+While we [recommend against](os/linux-overview.md#release-cycle) "perpetually outdated" distributions like Debian for Desktop use in most cases, Kicksecure is a Debian-based operating system which has been hardened to be much more than a typical Linux install.
 
 <div class="admonition recommendation" markdown>
 
@@ -216,7 +217,7 @@ Bien que nous [déconseillions](os/linux-overview.md#release-cycle) d'utiliser d
 
 ## Critères
 
-Le choix d'une distribution Linux qui vous convient dépend d'une grande variété de préférences personnelles, et cette page n'est **pas** une liste exhaustive de toutes les distributions viables. Notre page de présentation de Linux contient des conseils sur [le choix d'une distribution](os/linux-overview.md#choosing-your-distribution). Les distributions sur *cette page* suivent généralement les lignes directrices que nous avons abordées dans cette page, et respectent toutes ces normes :
+Choosing a Linux distro that is right for you will come down to a huge variety of personal preferences, and this page is **not** meant to be an exhaustive list of every viable distribution. Our Linux overview page has some advice on [choosing a distro](os/linux-overview.md#choosing-your-distribution) in more detail. The distros on *this* page do all generally follow the guidelines we covered there, and all meet these standards:
 
 - Gratuites et open source.
 - Reçoivent régulièrement des mises à jour des logiciels et du noyau.
@@ -229,4 +230,4 @@ Le choix d'une distribution Linux qui vous convient dépend d'une grande variét
 - Préférence pour les projets de plus grande envergure.
     - La maintenance d'un système d'exploitation est un défi majeur, et les petits projets ont tendance à faire plus d'erreurs évitables ou à retarder les mises à jour critiques (ou pire, à disparaître complètement). Nous privilégions les projets qui seront probablement toujours présents dans 10 ans (que ce soit grâce au soutien d'une entreprise ou à un soutien communautaire très important), et nous évitons les projets qui sont construits de zéro ou qui ont un petit nombre de mainteneurs.
 
-En outre, [nos critères standards](about/criteria.md) pour les projets recommandés s'appliquent toujours. **Veuillez noter que nous ne sommes affiliés à aucun des projets que nous recommandons.**
+In addition, [our standard criteria](about/criteria.md) for recommended projects still applies. **Please note we are not affiliated with any of the projects we recommend.**
