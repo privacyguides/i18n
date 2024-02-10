@@ -63,22 +63,27 @@ schema:
 
 ## דפדפן Mullvad
 
-!!! recommendation
+<div class="admonition recommendation" markdown>
 
-    ![Mullvad Browser לוגו](assets/img/browsers/mullvad_browser.svg){ align=right }
-    
-    **Mullvad Browser** הוא גרסה של [דפדפן Tor](tor.md#tor-browser) עם שילובי רשת Tor שהוסרו, שמטרתה לספק את טכנולוגיות הדפדפן נגד טביעת אצבע של Tor Browser למשתמשי VPN. הוא פותח על ידי Tor Project ומופץ על ידי [Mullvad](vpn.md#mullvad), ו**לא** דורש שימוש ב-VPN של Mullvad.
-    
-    [:octicons-home-16: דף הבית](https://mullvad.net/en/browser){ .md-button .md-button--primary }
-    [:octicons-eye-16:](https://mullvad.net/en/help/privacy-policy/){ .card-link title="מדיניות פרטיות" }
-    [:octicons-info-16:](https://mullvad.net/en/help/tag/mullvad-browser/){ .card-link title=תיעוד}
-    [:octicons-code-16:](https://gitlab.torproject.org/tpo/applications/mullvad-browser){ .card-link title="קוד מקןר" }
-    
-    ??? downloads "הורדות"
-    
-        - [:simple-windows11: ווינדוס](https://mullvad.net/en/download/browser/windows)
-        - [:simple-apple: מאק](https://mullvad.net/en/download/browser/macos)
-        - [:simple-linux: לינקוס](https://mullvad.net/en/download/browser/linux)
+![Mullvad Browser לוגו](assets/img/browsers/mullvad_browser.svg){ align=right }
+
+**Mullvad Browser** הוא גרסה של [דפדפן Tor](tor.md#tor-browser) עם שילובי רשת Tor שהוסרו, שמטרתה לספק את טכנולוגיות הדפדפן נגד טביעת אצבע של Tor Browser למשתמשי VPN. הוא פותח על ידי Tor Project ומופץ על ידי [Mullvad](vpn.md#mullvad), ו**לא** דורש שימוש ב-VPN של Mullvad.
+
+[:octicons-home-16: Homepage](https://mullvad.net/en/browser){ .md-button .md-button--primary }
+[:octicons-eye-16:](https://mullvad.net/en/help/privacy-policy/){ .card-link title="Privacy Policy" }
+[:octicons-info-16:](https://mullvad.net/en/help/tag/mullvad-browser/){ .card-link title=Documentation}
+[:octicons-code-16:](https://gitlab.torproject.org/tpo/applications/mullvad-browser){ .card-link title="Source Code" }
+
+<details class="downloads" markdown>
+<summary>Downloads</summary>
+
+- [:simple-windows11: Windows](https://mullvad.net/en/download/browser/windows)
+- [:simple-apple: macOS](https://mullvad.net/en/download/browser/macos)
+- [:simple-linux: Linux](https://mullvad.net/en/download/browser/linux)
+
+</details>
+
+</div>
 
 בדומה ל[דפדפן תור](tor.md), Mullvad Browser נועד למנוע טביעת אצבע על ידי הפיכת טביעת האצבע של הדפדפן שלך לזהות לכל שאר משתמשי Mullvad Browser, והוא כולל הגדרות ברירת מחדל והרחבות המוגדרות אוטומטית לפי רמות האבטחה המוגדרות כברירת מחדל: *Standard*, *Safer* ו- *Safest*. לכן, הכרחי שלא תשנה את הדפדפן כלל בחוץ תוך התאמת [רמות האבטחה](https://tb-manual.torproject.org/security-settings/) המוגדרות כברירת מחדל. שינויים אחרים יהפכו את טביעת האצבע שלך לייחודית, ויביסו את מטרת השימוש בדפדפן זה. אם אתה רוצה להגדיר את הדפדפן שלך בצורה כבדה יותר וטביעת אצבע אינה מדאיגה אותך, אנו ממליצים במקום זאת על [Firefox](#firefox).
 
@@ -104,27 +109,36 @@ Mullvad Browser מגיע עם DuckDuckGo מוגדר כ[מנוע החיפוש](se
 
 ## Firefox
 
-!!! recommendation
+<div class="admonition recommendation" markdown>
 
-    ![לוגו Firefox](assets/img/browsers/firefox.svg){ align=right }
-    
-    **Firefox** מספק הגדרות פרטיות חזקות כגון [Enhanced Tracking Protection](https://support.mozilla.org/kb/enhanced-tracking-protection-firefox-desktop), שיכול לעזור לחסום שונים [סוגי מעקב](https://support.mozilla.org/kb/enhanced-tracking-protection-firefox-desktop#w_what-enhanced-tracking-protection-protection-blocks).
-    
-    [:octicons-home-16: דף הבית](https://firefox.com){ .md-button .md-button--primary }
-    [:octicons-eye-16:](https://www.mozilla.org/privacy/firefox/){ .card-link title="מדיניות פרטיות" }
-    [:octicons-info-16:](https://firefox-source-docs.mozilla.org/){ .card-link title=תיעוד}
-    [:octicons-code-16:](https://hg.mozilla.org/mozilla-central){ .card-link title="קוד מקור" }
-    [:octicons-heart-16:](https://donate.mozilla.org/){ .card-link title=לתרומה }
-    
-    ??? downloads "הורדות"
-    
-        - [:simple-windows11: Windows](https://www.mozilla.org/firefox/windows)
-        - [:simple-apple: macOS](https://www.mozilla.org/firefox/mac)
-        - [:simple-linux: Linux](https://www.mozilla.org/firefox/linux)
-        - [:simple-flathub: Flathub](https://flathub.org/apps/details/org.mozilla.firefox)
+![לוגו Firefox](assets/img/browsers/firefox.svg){ align=right }
 
-!!! warning "אזהרה"
-    Firefox כולל [אסימון הורדה](https://bugzilla.mozilla.org/show_bug.cgi?id=1677497#c0) ייחודי בהורדות מאתר האינטרנט של מוזילה ומשתמש בטלמטריה ב-Firefox כדי לשלוח את האסימון. האסימון **לא** כלול במהדורות מ-[Mozilla FTP](https://ftp.mozilla.org/pub/firefox/releases/).
+**Firefox** מספק הגדרות פרטיות חזקות כגון [Enhanced Tracking Protection](https://support.mozilla.org/kb/enhanced-tracking-protection-firefox-desktop), שיכול לעזור לחסום שונים [סוגי מעקב](https://support.mozilla.org/kb/enhanced-tracking-protection-firefox-desktop#w_what-enhanced-tracking-protection-protection-blocks).
+
+[:octicons-home-16: Homepage](https://firefox.com){ .md-button .md-button--primary }
+[:octicons-eye-16:](https://www.mozilla.org/privacy/firefox/){ .card-link title="Privacy Policy" }
+[:octicons-info-16:](https://firefox-source-docs.mozilla.org/){ .card-link title=Documentation}
+[:octicons-code-16:](https://hg.mozilla.org/mozilla-central){ .card-link title="Source Code" }
+[:octicons-heart-16:](https://donate.mozilla.org/){ .card-link title=Contribute }
+
+<details class="downloads" markdown>
+<summary>Downloads</summary>
+
+- [:simple-windows11: Windows](https://www.mozilla.org/firefox/windows)
+- [:simple-apple: macOS](https://www.mozilla.org/firefox/mac)
+- [:simple-linux: Linux](https://www.mozilla.org/firefox/linux)
+- [:simple-flathub: Flathub](https://flathub.org/apps/details/org.mozilla.firefox)
+
+</details>
+
+</div>
+
+<div class="admonition warning" markdown>
+<p class="admonition-title">Warning</p>
+
+Firefox includes a unique [download token](https://bugzilla.mozilla.org/show_bug.cgi?id=1677497#c0) in downloads from Mozilla's website and uses telemetry in Firefox to send the token. The token is **not** included in releases from the [Mozilla FTP](https://ftp.mozilla.org/pub/firefox/releases/).
+
+</div>
 
 ### תצורה מומלצת
 
@@ -194,9 +208,12 @@ Max Protection אוכפת את השימוש ב-DNS על HTTPS, ואזהרת אב
 
 ### Arkenfox (מתקדם)
 
-!!! tip "השתמש בדפדפן Mullvad למניעת טביעת אצבע מתקדמת"
+<div class="admonition tip" markdown>
+<p class="admonition-title">Use Mullvad Browser for advanced anti-fingerprinting</p>
 
-    [דפדפן Mullvad](#mullvad-browser) מספק את אותן הגנות נגד טביעת אצבע כמו Arkenfox מחוץ לקופסה, ואינו מצריך שימוש ב-VPN של Mullvad כדי ליהנות מההגנות הללו. יחד עם VPN, דפדפן Mullvad יכול לסכל סקריפטים מתקדמים יותר למעקב ש-Arkenfox לא יכול. ל-Arkenfox עדיין יש את היתרון להיות הרבה יותר גמיש, ולאפשר חריגים לכל אתר עבור אתרים שאתה צריך להישאר מחובר אליהם.
+[דפדפן Mullvad](#mullvad-browser) מספק את אותן הגנות נגד טביעת אצבע כמו Arkenfox מחוץ לקופסה, ואינו מצריך שימוש ב-VPN של Mullvad כדי ליהנות מההגנות הללו. יחד עם VPN, דפדפן Mullvad יכול לסכל סקריפטים מתקדמים יותר למעקב ש-Arkenfox לא יכול. ל-Arkenfox עדיין יש את היתרון להיות הרבה יותר גמיש, ולאפשר חריגים לכל אתר עבור אתרים שאתה צריך להישאר מחובר אליהם.
+
+</div>
 
 פרויקט [Arkenfox](https://github.com/arkenfox/user.js) מספק קבוצה של אפשרויות שנשקלו בקפידה עבור Firefox. אם אתה [מחליט](https://github.com/arkenfox/user.js/wiki/1.1-To-Arkenfox-or-Not) להשתמש ב-Arkenfox, [כמה אפשרויות](https://github.com/arkenfox/user.js/wiki/3.2-Overrides-[Common]) הן קפדניות סובייקטיבית ו/או עלולות לגרום לאתרים מסוימים לא לעבוד כראוי [שאותן תוכל לשנות בקלות](https://github.com/arkenfox/user.js/wiki/3.1-Overrides) כדי להתאים לצרכים שלך. אנו **ממליצים בחום** לקרוא את [הויקי](https://github.com/arkenfox/user.js/wiki) המלא שלהם. Arkenfox גם מאפשר תמיכה ב[מכולות](https://support.mozilla.org/en-US/kb/containers#w_for-advanced-users).
 
@@ -204,34 +221,42 @@ Arkenfox שואפת רק לסכל תסריטי מעקב בסיסיים או נא
 
 ## Brave
 
-!!! recommendation
+<div class="admonition recommendation annotate" markdown>
 
-    ![Brave לוגו](assets/img/browsers/brave.svg){ align=right }
-    
-    **דפדפן Brave** כולל חוסם תוכן מובנה ו [תכונות פרטיות ]( https://brave.com/privacy-features/), רבים מהם מופעלים כברירת מחדל.
-    
-    Brave בנוי על פרויקט דפדפן Chromium, כך שהוא אמור להרגיש מוכר ושיהיו לו בעיות תאימות מינימליות לאתר.
-    
-    [:octicons-home-16: דף הבית](https://brave.com/){ .md-button .md-button--primary }
-    [:simple-torbrowser:](https://brave4u7jddbv7cyviptqjc7jusxh72uik7zt6adtckl5f4nwy2v72qd.onion){ .card-link title="שירות בצל" }
-    [:octicons-eye-16:](https://brave.com/privacy/browser/){ .card-link title="מדיניות פרטיות" }
-    [:octicons-info-16:](https://support.brave.com/){ .card-link title=תיעוד}
-    [:octicons-code-16:](https://github.com/brave/brave-browser){ .card-link title="קוד פתוח" }
-    
-    ??? downloads annotate "הורדות"
-    
-        - [:simple-github: GitHub](https://github.com/brave/brave-browser/releases)
-        - [:simple-windows11: Windows](https://brave.com/download/)
-        - [:simple-apple: macOS](https://brave.com/download/)
-        - [:simple-linux: Linux](https://brave.com/linux/) (1)
+![Brave לוגו](assets/img/browsers/brave.svg){ align=right }
 
-    1. אנו ממליצים לא להשתמש בגרסת Flatpak של Brave, מכיוון שהיא מחליפה את ארגז החול של Chromium ב-Flatpak, שהוא פחות יעיל. בנוסף, החבילה אינה מתוחזקת על ידי Brave Software, Inc.
+**דפדפן Brave** כולל חוסם תוכן מובנה ו [תכונות פרטיות ]( https://brave.com/privacy-features/), רבים מהם מופעלים כברירת מחדל.
+
+Brave בנוי על פרויקט דפדפן Chromium, כך שהוא אמור להרגיש מוכר ושיהיו לו בעיות תאימות מינימליות לאתר.
+
+[:octicons-home-16: Homepage](https://brave.com/){ .md-button .md-button--primary }
+[:simple-torbrowser:](https://brave4u7jddbv7cyviptqjc7jusxh72uik7zt6adtckl5f4nwy2v72qd.onion){ .card-link title="Onion Service" }
+[:octicons-eye-16:](https://brave.com/privacy/browser/){ .card-link title="Privacy Policy" }
+[:octicons-info-16:](https://support.brave.com/){ .card-link title=Documentation}
+[:octicons-code-16:](https://github.com/brave/brave-browser){ .card-link title="Source Code" }
+
+<details class="downloads" markdown>
+<summary>Downloads</summary>
+
+- [:simple-github: GitHub](https://github.com/brave/brave-browser/releases)
+- [:simple-windows11: Windows](https://brave.com/download/)
+- [:simple-apple: macOS](https://brave.com/download/)
+- [:simple-linux: Linux](https://brave.com/linux/) (1)
+
+</details>
+
+</div>
+
+1. אנו ממליצים לא להשתמש בגרסת Flatpak של Brave, מכיוון שהיא מחליפה את ארגז החול של Chromium ב-Flatpak, שהוא פחות יעיל. בנוסף, החבילה אינה מתוחזקת על ידי Brave Software, Inc.
 
 **משתמשי macOS:** ההורדה של Brave Browser מהאתר הרשמי שלהם היא מתקין `.pkg` הדורש הרשאות מנהל כדי לפעול (ועשוי להפעיל סקריפטים מיותרים אחרים במחשב שלך). כחלופה, אתה יכול להוריד את הקובץ האחרון `Brave-Browser-universal.dmg` מעמוד[ההפצות גיטהאב ](https://github.com/brave/brave-browser/releases/latest)שלהם, המספק התקנה מסורתית של "גרור לתיקיית יישומים".
 
-!!! warning "אזהרה"
+<div class="admonition warning" markdown>
+<p class="admonition-title">Warning</p>
 
-    Brave מוסיף "[קוד הפניה](https://github.com/brave/brave-browser/wiki/Brave%E2%80%99s-Use-of-Referral-Codes)" לשם הקובץ בהורדות מהאתר Brave, המשמש למעקב מאיזה מקור הורדת הדפדפן, למשל `BRV002` בהורדה בשם `Brave-Browser-BRV002.pkg`. לאחר מכן, המתקין יבצע פינג לשרת של Brave עם קוד ההפניה בסוף תהליך ההתקנה. אם אתה מודאג מכך, אתה יכול לשנות את שם קובץ ההתקנה לפני פתיחתו.
+Brave מוסיף "[קוד הפניה](https://github.com/brave/brave-browser/wiki/Brave%E2%80%99s-Use-of-Referral-Codes)" לשם הקובץ בהורדות מהאתר Brave, המשמש למעקב מאיזה מקור הורדת הדפדפן, למשל `BRV002` בהורדה בשם `Brave-Browser-BRV002.pkg`. לאחר מכן, המתקין יבצע פינג לשרת של Brave עם קוד ההפניה בסוף תהליך ההתקנה. אם אתה מודאג מכך, אתה יכול לשנות את שם קובץ ההתקנה לפני פתיחתו.
+
+</div>
 
 ### תצורה מומלצת
 
@@ -247,11 +272,15 @@ Brave כולל כמה אמצעים נגד טביעת אצבע בתכונת [Shie
 
 <div class="annotate" markdown>
 
-- [x] בחר **מנע מאתרים לקחת ממני טביעות אצבע בהתבסס על העדפות השפה שלי**
-- [x] בחר **אגרסיבי** תחת חסימת עוקבים ומודעות
+- [x] Select **Prevent sites from fingerprinting me based on my language preferences**
+- [x] Select **Aggressive** under Trackers & ads blocking
 
-    ??? warning "השתמש ברשימות סינון ברירת מחדל"
-         Brave מאפשר לך לבחור מסנני תוכן נוספים בדף הפנימי `brave://adblock`. אנו ממליצים לא להשתמש בתכונה זו; במקום זאת, שמור על רשימות הסינון המוגדרות כברירת מחדל. שימוש ברשימות נוספות יגרום לך להתבלט ממשתמשי Brave אחרים ועלול גם להגדיל את שטח ההתקפה אם יש ניצול ב-Brave וכלל זדוני יתווסף לאחת הרשימות שבהן אתה משתמש.
+<details class="warning" markdown>
+<summary>Use default filter lists</summary>
+
+Brave allows you to select additional content filters within the internal `brave://adblock` page. אנו ממליצים לא להשתמש בתכונה זו; במקום זאת, שמור על רשימות הסינון המוגדרות כברירת מחדל. שימוש ברשימות נוספות יגרום לך להתבלט ממשתמשי Brave אחרים ועלול גם להגדיל את שטח ההתקפה אם יש ניצול ב-Brave וכלל זדוני יתווסף לאחת הרשימות שבהן אתה משתמש.
+
+</details>
 
 - [x] Select **Strict** under **Upgrade connections to HTTPS**
 - [x] (Optional) Select **Block Scripts** (1)
@@ -271,22 +300,25 @@ Brave כולל כמה אמצעים נגד טביעת אצבע בתכונת [Shie
 
 <div class="annotate" markdown>
 
-- [x] בחר **השבת UDP ללא פרוקסי** ב-[WebRTC IP Handling Policy](https://support.brave.com/hc/en-us/articles/360017989132-How-do-I-change-my-Privacy-Settings-#webrtc)
-- [ ] בטל את הסימון של **השתמש בשירותי Google להעברת הודעות דחיפה**
-- [ ] בטל את הסימון של **אפשר ניתוח מוצר לשמירה על הפרטיות (P3A)**
-- [ ] בטל את הסימון **שלח אוטומטית פינג שימוש יומי אל Brave**
-- [ ] בטל את הסימון **שלח דוחות אבחון אוטומטית**
-- [ ] בטל את הסימון של **חלון פרטי עם Tor** (1)
-
-     !!! חשוב"חיטוי בסגירה"
-
-        - [x] בחר**נקה קבצי עוגיות ונתוני אתר בעת סגירת כל החלונות**בתפריט *עוגיות ונתוני אתר אחרים*
-
-        אם ברצונך להישאר מחובר לאתר מסוים שבו אתה מבקר לעתים קרובות, באפשרותך להגדיר חריגים על בסיס לכל אתר תחת הסעיף *התנהגויות מותאמות אישית*.
+- [x] Select **Disable non-proxied UDP** under [WebRTC IP Handling Policy](https://support.brave.com/hc/en-us/articles/360017989132-How-do-I-change-my-Privacy-Settings-#webrtc)
+- [ ] Uncheck **Use Google services for push messaging**
+- [ ] Uncheck **Allow privacy-preserving product analytics (P3A)**
+- [ ] Uncheck **Automatically send daily usage ping to Brave**
+- [ ] Uncheck **Automatically send diagnostic reports**
+- [ ] Uncheck **Private window with Tor** (1)
 
 </div>
 
 1. Brave הוא **לא** עמיד בפני טביעת אצבע כמו דפדפן Tor והרבה פחות אנשים משתמשים אמיץ עם Tor, כך תוכל להתבלט. כאשר [נדרשת אנונימיות חזקה](https://support.brave.com/hc/en-us/articles/360018121491-What-is-a-Private-Window-with-Tor-Connectivity-) השתמש בדפדפן [Tor](tor.md#tor-browser).
+
+<div class="admonition tip" markdown>
+<p class="admonition-title">Sanitizing on close</p>
+
+- [x] Select **Clear cookies and site data when you close all windows** in the *Cookies and other site data* menu
+
+If you wish to stay logged in to a particular site you visit often, you can set exceptions on a per-site basis under the *Customized behaviors* section.
+
+</div>
 
 ##### הרחבות
 
@@ -328,22 +360,27 @@ Brave כולל כמה אמצעים נגד טביעת אצבע בתכונת [Shie
 
 ### uBlock Origin
 
-!!! recommendation
+<div class="admonition recommendation" markdown>
 
-    ![הלוגו של uBlock Origin](assets/img/browsers/ublock_origin.svg){ align=right }
-    
-    **uBlock Origin** הוא חוסם תוכן פופולרי שיכול לעזור לך לחסום מודעות, עוקבים וסקריפטים של טביעות אצבע.
-    
-    [:octicons-repo-16: מאגר](https://github.com/gorhill/uBlock#readme){ .md-button .md-button--primary }
-    [:octicons-eye-16:](https://github.com/gorhill/uBlock/wiki/Privacy-policy){ .card-link title="מדיניות פרטיות" }
-    [:octicons-info-16:](https://github.com/gorhill/uBlock/wiki){ .card-link title=תיעוד}
-    [:octicons-code-16:](https://github.com/gorhill/uBlock){ .card-link title="קוד מקור" }
-    
-    ??? הורדות
-    
-        - [:simple-firefoxbrowser: Firefox](https://addons.mozilla.org/firefox/addon/ublock-origin/)
-        - [:simple-googlechrome: Chrome](https://chrome.google.com/webstore/detail/ublock-origin/cjpalhdlnbpafiamejdnhcphjbkeiagm)
-        - [:simple-microsoftedge: Edge](https://microsoftedge.microsoft.com/addons/detail/ublock-origin/odfafepnkmbhccpbejgmiehpchacaeak)
+![הלוגו של uBlock Origin](assets/img/browsers/ublock_origin.svg){ align=right }
+
+**uBlock Origin** הוא חוסם תוכן פופולרי שיכול לעזור לך לחסום מודעות, עוקבים וסקריפטים של טביעות אצבע.
+
+[:octicons-repo-16: Repository](https://github.com/gorhill/uBlock#readme){ .md-button .md-button--primary }
+[:octicons-eye-16:](https://github.com/gorhill/uBlock/wiki/Privacy-policy){ .card-link title="Privacy Policy" }
+[:octicons-info-16:](https://github.com/gorhill/uBlock/wiki){ .card-link title=Documentation}
+[:octicons-code-16:](https://github.com/gorhill/uBlock){ .card-link title="Source Code" }
+
+<details class="downloads" markdown>
+<summary>Downloads</summary>
+
+- [:simple-firefoxbrowser: Firefox](https://addons.mozilla.org/firefox/addon/ublock-origin/)
+- [:simple-googlechrome: Chrome](https://chrome.google.com/webstore/detail/ublock-origin/cjpalhdlnbpafiamejdnhcphjbkeiagm)
+- [:simple-microsoftedge: Edge](https://microsoftedge.microsoft.com/addons/detail/ublock-origin/odfafepnkmbhccpbejgmiehpchacaeak)
+
+</details>
+
+</div>
 
 אנו ממליצים לעקוב אחר התיעוד של [היזם](https://github.com/gorhill/uBlock/wiki/Blocking-mode) ולבחור אחד מה"מצבים ". רשימות מסננים נוספות [עלולות להשפיע על הביצועים ולהגדיל את שטח התקיפה](https://portswigger.net/research/ublock-i-exfiltrate-exploiting-ad-blockers-with-css).
 
@@ -360,21 +397,26 @@ uBlock Origin also has a "Lite" version of their extension, which offers a very 
 - ...you want a more resource (memory/CPU) efficient content blocker[^1]
 - ...your browser only supports Manifest V3 extensions
 
-!!! recommendation
+<div class="admonition recommendation" markdown>
 
-    ![uBlock Origin Lite logo](assets/img/browsers/ublock_origin_lite.svg){ align=right }
-    
-    **uBlock Origin Lite** is a Manifest V3 compatible content blocker. Compared to the original *uBlock Origin*, this extension does not require broad "read/modify data" permissions to function.
-    
-    [:octicons-repo-16: Repository](https://github.com/uBlockOrigin/uBOL-home#readme){ .md-button .md-button--primary }
-    [:octicons-eye-16:](https://github.com/gorhill/uBlock/wiki/Privacy-policy){ .card-link title="Privacy Policy" }
-    [:octicons-info-16:](https://github.com/uBlockOrigin/uBOL-home/wiki){ .card-link title=Documentation}
-    [:octicons-code-16:](https://github.com/gorhill/uBlock/tree/master/platform/mv3){ .card-link title="Source Code" }
-    
-    ??? downloads
-    
-        - [:simple-firefoxbrowser: Firefox](https://addons.mozilla.org/addon/ublock-origin-lite/)
-        - [:simple-googlechrome: Chrome](https://chrome.google.com/webstore/detail/ublock-origin-lite/ddkjiahejlhfcafbddmgiahcphecmpfh)
+![uBlock Origin Lite logo](assets/img/browsers/ublock_origin_lite.svg){ align=right }
+
+**uBlock Origin Lite** is a Manifest V3 compatible content blocker. Compared to the original *uBlock Origin*, this extension does not require broad "read/modify data" permissions to function.
+
+[:octicons-repo-16: Repository](https://github.com/uBlockOrigin/uBOL-home#readme){ .md-button .md-button--primary }
+[:octicons-eye-16:](https://github.com/gorhill/uBlock/wiki/Privacy-policy){ .card-link title="Privacy Policy" }
+[:octicons-info-16:](https://github.com/uBlockOrigin/uBOL-home/wiki){ .card-link title=Documentation}
+[:octicons-code-16:](https://github.com/gorhill/uBlock/tree/master/platform/mv3){ .card-link title="Source Code" }
+
+<details class="downloads" markdown>
+<summary>Downloads</summary>
+
+- [:simple-firefoxbrowser: Firefox](https://addons.mozilla.org/addon/ublock-origin-lite/)
+- [:simple-googlechrome: Chrome](https://chrome.google.com/webstore/detail/ublock-origin-lite/ddkjiahejlhfcafbddmgiahcphecmpfh)
+
+</details>
+
+</div>
 
 We only recommend this version of uBlock Origin if you never want to make any changes to your filter lists, because it only supports a few pre-selected lists and offers no additional customization options, including the ability to select elements to block manually. These restrictions are due to limitations in Manifest V3's design.
 
@@ -388,9 +430,12 @@ uBlock Origin Lite only receives block list updates whenever the extension is up
 
 **שים לב שאיננו קשורים לאף אחד מהפרויקטים שאנו ממליצים עליהם.** בנוסף ל [הקריטריונים הסטנדרטיים שלנו](about/criteria.md), פיתחנו סט ברור של דרישות כדי לאפשר לנו לספק המלצות אובייקטיביות. אנו מציעים לך להכיר את הרשימה הזו לפני שתבחר להשתמש בפרויקט, ולערוך מחקר משלך כדי להבטיח שזו הבחירה הנכונה עבורך.
 
-!!! example "חלק זה הוא חדש"
+<div class="admonition example" markdown>
+<p class="admonition-title">This section is new</p>
 
-    אנו עובדים על קביעת קריטריונים מוגדרים לכל קטע באתר שלנו, והדבר עשוי להשתנות. אם יש לך שאלות כלשהן לגבי הקריטריונים שלנו, אנא [שאל בפורום שלנו](https://discuss.privacyguides.net/latest) ואל תניח שלא שקלנו משהו כשהצענו את ההמלצות שלנו אם הוא לא רשום כאן. ישנם גורמים רבים שנחשבים ונדונים כאשר אנו ממליצים על פרויקט, ותיעוד כל אחד מהם הוא עבודה בתהליך.
+אנו עובדים על קביעת קריטריונים מוגדרים לכל קטע באתר שלנו, והדבר עשוי להשתנות. אם יש לך שאלות כלשהן לגבי הקריטריונים שלנו, אנא [שאל בפורום שלנו](https://discuss.privacyguides.net/latest) ואל תניח שלא שקלנו משהו כשהצענו את ההמלצות שלנו אם הוא לא רשום כאן. ישנם גורמים רבים שנחשבים ונדונים כאשר אנו ממליצים על פרויקט, ותיעוד כל אחד מהם הוא עבודה בתהליך.
+
+</div>
 
 ### דרישות מינימליות
 
@@ -402,15 +447,13 @@ uBlock Origin Lite only receives block list updates whenever the extension is up
 - חוסם קובצי עוגיות של צד שלישי כברירת מחדל.
 - Supports [state partitioning](https://developer.mozilla.org/en-US/docs/Web/Privacy/State_Partitioning) to mitigate cross-site tracking.[^2]
 
-
 ### המקרה הטוב ביותר
 
 הקריטריונים הטובים ביותר שלנו מייצגים את מה שהיינו רוצים לראות מהפרויקט המושלם בקטגוריה זו. ייתכן שההמלצות שלנו לא יכללו חלק מהפונקציונליות הזו או את כולה, אך אלו שכן כן עשויות לדרג גבוה יותר מאחרות בדף זה.
 
 - כולל פונקציונליות מובנית לחסימת תוכן.
 - תומך מידור עוגיות ([מכולות מרובות חשבון](https://support.mozilla.org/en-US/kb/containers)).
-- תומך באפליקציות אינטרנט פרוגרסיביות.  
-  PWAs מאפשרים לך להתקין אתרים מסוימים כאילו היו אפליקציות מקוריות במחשב שלך. זה יכול להיות בעל יתרונות על פני התקנת אפליקציות מבוססות-אלקטרון, מכיוון שאתה נהנה מעדכוני האבטחה הרגילים של הדפדפן שלך.
+- Supports Progressive Web Apps. PWAs enable you to install certain websites as if they were native apps on your computer. זה יכול להיות בעל יתרונות על פני התקנת אפליקציות מבוססות-אלקטרון, מכיוון שאתה נהנה מעדכוני האבטחה הרגילים של הדפדפן שלך.
 - לא כולל פונקציונליות הרחבה (bloatware) שאינה משפיעה על פרטיות המשתמש.
 - אינו אוסף טלמטריה כברירת מחדל.
 - מספק יישום שרת סינכרון בקוד פתוח.

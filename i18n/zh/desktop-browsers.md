@@ -63,22 +63,27 @@ schema:
 
 ## Mullvad 浏览器
 
-!!! recommendation
+<div class="admonition recommendation" markdown>
 
-    ![Mullvad浏览器图标](assets/img/browsers/mullvad_browser.svg){ align=right }
-    
-    **Mullvad 浏览器** 是 [Tor 浏览器](tor.md#tor-browser) 去除了 Tor 网络的一个版本，旨在为 VPN 用户提供 Tor 浏览器的反指纹浏览器技术。 它由 Tor 项目开发，由 [Mullvad](vpn.md#mullvad) 发布，**不需要** 使用 Mullvad 的 VPN。
-    
-    [:octicons-home-16: 主页](https://mullvad.net/en/browser){ .md-button .md-button--primary }
-    [:octicons-eye-16:](https://mullvad.net/en/help/privacy-policy/){ .card-link title="隐私条款" }
-    [:octicons-info-16:](https://mullvad.net/en/help/tag/mullvad-browser/){ .card-link title="文档"}
-    [:octicons-code-16:](https://gitlab.torproject.org/tpo/applications/mullvad-browser){ .card-link title="源代码" }
-    
-    ??? 下载
-    
-        - [:simple-windows11: Windows](https://mullvad.net/en/download/browser/windows)
-        - [:simple-apple: macOS](https://mullvad.net/en/download/browser/macos)
-        - [:simple-linux: Linux](https://mullvad.net/en/download/browser/linux)
+![Mullvad浏览器图标](assets/img/browsers/mullvad_browser.svg){ align=right }
+
+**Mullvad 浏览器** 是 [Tor 浏览器](tor.md#tor-browser) 去除了 Tor 网络的一个版本，旨在为 VPN 用户提供 Tor 浏览器的反指纹浏览器技术。 它由 Tor 项目开发，由 [Mullvad](vpn.md#mullvad) 发布，**不需要** 使用 Mullvad 的 VPN。
+
+[:octicons-home-16: Homepage](https://mullvad.net/en/browser){ .md-button .md-button--primary }
+[:octicons-eye-16:](https://mullvad.net/en/help/privacy-policy/){ .card-link title="Privacy Policy" }
+[:octicons-info-16:](https://mullvad.net/en/help/tag/mullvad-browser/){ .card-link title=Documentation}
+[:octicons-code-16:](https://gitlab.torproject.org/tpo/applications/mullvad-browser){ .card-link title="Source Code" }
+
+<details class="downloads" markdown>
+<summary>Downloads</summary>
+
+- [:simple-windows11: Windows](https://mullvad.net/en/download/browser/windows)
+- [:simple-apple: macOS](https://mullvad.net/en/download/browser/macos)
+- [:simple-linux: Linux](https://mullvad.net/en/download/browser/linux)
+
+</details>
+
+</div>
 
 与 [Tor Browser](tor.md)一样，Mullvad Browser 的设计也是通过使您的浏览器指纹与所有其他 Mullvad Browser 用户完全相来了防止指纹识别。它自带了默认设置和扩展程序，这些会由设置的安全级别自动配置： *标准*, *更安全* 和 *最安全*。 因此，在调整自带的 [安全级别](https://tb-manual.torproject.org/security-settings/) 之外，请务必不要对浏览器进行任何修改。 其他修改会使您的指纹变得独一无二，从而失去使用该浏览器的意义。 如果你想对浏览器进行更多的配置而且不担心指纹识别，我们建议你使用 [Firefox](#firefox)。
 
@@ -104,27 +109,36 @@ Mullvad 浏览器将 DuckDuckGo 设置为默认的 [搜索引擎](search-engines
 
 ## Firefox（火狐浏览器）
 
-!!! recommendation
+<div class="admonition recommendation" markdown>
 
-    ![火狐标志](assets/img/browsers/firefox.svg){ align=right }
-    
-    **火狐浏览器**提供强大的隐私设置，如[增强型跟踪保护](https://support.mozilla.org/kb/enhanced-tracking-protection-firefox-desktop)，它可以帮助阻止各种[类型的跟踪](https://support.mozilla.org/kb/enhanced-tracking-protection-firefox-desktop#w_what-enhanced-tracking-protection-blocks)。
-    
-    [:octicons-home-16: 主页](https://firefox.com){ .md-button .md-button--primary }
-    [:octicons-eye-16:](https://www.mozilla.org/privacy/firefox/){ .card-link title="隐私政策" }
-    [:octicons-info-16:](https://firefox-source-docs.mozilla.org/){ .card-link title=文档}
-    [:octicons-code-16:](https://hg.mozilla.org/mozilla-central){ .card-link title="源代码" }
-    [:octicons-heart-16:](https://donate.mozilla.org/){ .card-link title="贡献" }
-    
-    ??? 下载
-    
-        - [:simple-windows11: Windows](https://www.mozilla.org/firefox/windows)
-        - [:simple-apple: macOS](https://www.mozilla.org/firefox/mac)
-        - [:simple-linux: Linux](https://www.mozilla.org/firefox/linux)
-        - [:simple-flathub: Flathub](https://flathub.org/apps/details/org.mozilla.firefox)
+![火狐标志](assets/img/browsers/firefox.svg){ align=right }
 
-!!! 警告
-    Firefox在从Mozilla网站的下载中包括一个独特的 [下载令牌](https://bugzilla.mozilla.org/show_bug.cgi?id=1677497#c0) ，并使用Firefox中的遥测技术来发送该令牌。 </strong> 该令牌是 **，不包括在 [Mozilla FTP](https://ftp.mozilla.org/pub/firefox/releases/)的版本中。</p>
+**火狐浏览器**提供强大的隐私设置，如[增强型跟踪保护](https://support.mozilla.org/kb/enhanced-tracking-protection-firefox-desktop)，它可以帮助阻止各种[类型的跟踪](https://support.mozilla.org/kb/enhanced-tracking-protection-firefox-desktop#w_what-enhanced-tracking-protection-blocks)。
+
+[:octicons-home-16: Homepage](https://firefox.com){ .md-button .md-button--primary }
+[:octicons-eye-16:](https://www.mozilla.org/privacy/firefox/){ .card-link title="Privacy Policy" }
+[:octicons-info-16:](https://firefox-source-docs.mozilla.org/){ .card-link title=Documentation}
+[:octicons-code-16:](https://hg.mozilla.org/mozilla-central){ .card-link title="Source Code" }
+[:octicons-heart-16:](https://donate.mozilla.org/){ .card-link title=Contribute }
+
+<details class="downloads" markdown>
+<summary>Downloads</summary>
+
+- [:simple-windows11: Windows](https://www.mozilla.org/firefox/windows)
+- [:simple-apple: macOS](https://www.mozilla.org/firefox/mac)
+- [:simple-linux: Linux](https://www.mozilla.org/firefox/linux)
+- [:simple-flathub: Flathub](https://flathub.org/apps/details/org.mozilla.firefox)
+
+</details>
+
+</div>
+
+<div class="admonition warning" markdown>
+<p class="admonition-title">Warning</p>
+
+Firefox includes a unique [download token](https://bugzilla.mozilla.org/show_bug.cgi?id=1677497#c0) in downloads from Mozilla's website and uses telemetry in Firefox to send the token. The token is **not** included in releases from the [Mozilla FTP](https://ftp.mozilla.org/pub/firefox/releases/).
+
+</div>
 
 ### 推荐配置
 
@@ -204,10 +218,12 @@ Mullvad 浏览器将 DuckDuckGo 设置为默认的 [搜索引擎](search-engines
 
 ### Arkenfox (advanced)
 
-!!! tip "Use Mullvad Browser for advanced anti-fingerprinting"
+<div class="admonition tip" markdown>
+<p class="admonition-title">Use Mullvad Browser for advanced anti-fingerprinting</p>
 
-    [Mullvad Browser](#mullvad-browser) provides the same anti-fingerprinting protections as Arkenfox out of the box, and does not require the use of Mullvad's VPN to benefit from these protections. Coupled with a VPN, Mullvad Browser can thwart more advanced tracking scripts which Arkenfox cannot. Arkenfox still has the advantage of being much more flexible, and allowing per-site exceptions for websites which you need to stay logged in to.
-    
+[Mullvad Browser](#mullvad-browser) provides the same anti-fingerprinting protections as Arkenfox out of the box, and does not require the use of Mullvad's VPN to benefit from these protections. Coupled with a VPN, Mullvad Browser can thwart more advanced tracking scripts which Arkenfox cannot. Arkenfox still has the advantage of being much more flexible, and allowing per-site exceptions for websites which you need to stay logged in to.
+
+</div>
 
 [Arkenfox项目](https://github.com/arkenfox/user.js) ，为Firefox提供了一套精心考虑的选项。 如果你 [决定](https://github.com/arkenfox/user.js/wiki/1.1-To-Arkenfox-or-Not) 使用Arkenfox，有几个 [选项](https://github.com/arkenfox/user.js/wiki/3.2-Overrides-[Common]) 是主观严格的和/或可能导致一些网站不能正常工作-- [，你可以很容易地改变](https://github.com/arkenfox/user.js/wiki/3.1-Overrides) 以满足你的需要。 我们 **，强烈建议** ，阅读其完整的 [wiki](https://github.com/arkenfox/user.js/wiki)。 Arkenfox还能支持 [容器](https://support.mozilla.org/en-US/kb/containers#w_for-advanced-users)。
 
@@ -217,38 +233,42 @@ Arkenfox 的目标只是通过 canvas 随机化和 Firefox 内置的抗指纹配
 
 ## Brave
 
-!!! recommendation
+<div class="admonition recommendation annotate" markdown>
 
-    ![Brave标识](assets/img/browsers/brave.svg){ align=right }
-    
-    **Brave浏览器**包括一个内置的内容拦截器和[隐私功能](https://brave.com/privacy-features/)，其中许多功能都是默认启用的。
-    
-    Brave是建立在Chromium网络浏览器项目之上的，所以它应该有熟悉的感觉，而且网站兼容性问题最小。
-    
-    [:octicons-home-16: 首页](https://brave.com/){ .md-button .md-button--primary }
-    [:simple-torbrowser:](https://brave4u7jddbv7cyviptqjc7jusxh72uik7zt6adtckl5f4nwy2v72qd.onion){ .card-link title="洋葱服务" }
-    [:octicons-eye-16:](https://brave.com/privacy/browser/){ .card-link title="隐私政策" }
-    [:octicons-info-16:](https://support.brave.com/){ .card-link title="文档"}
-    [:octicons-code-16:](https://github.com/brave/brave-browser){ .card-link title="源代码" }
-    
-    ??? 下载注释
-    
-        - [:simple-github: GitHub](https://github.com/brave/brave-browser/releases)
-        - [:simple-windows11: Windows](https://brave.com/download/)
-        - [:simple-apple: macOS](https://brave.com/download/)
-        - [:simple-linux: Linux](https://brave.com/linux/) (1)
-    
+![Brave标识](assets/img/browsers/brave.svg){ align=right }
 
-    1. 我们建议不要使用Flatpak版本的Brave，因为它用Flatpak的沙箱代替了Chromium的沙箱，效果较差。 此外，该软件包并非由Brave Software, Inc.维护。
+**Brave浏览器**包括一个内置的内容拦截器和[隐私功能](https://brave.com/privacy-features/)，其中许多功能都是默认启用的。
+
+Brave是建立在Chromium网络浏览器项目之上的，所以它应该有熟悉的感觉，而且网站兼容性问题最小。
+
+[:octicons-home-16: Homepage](https://brave.com/){ .md-button .md-button--primary }
+[:simple-torbrowser:](https://brave4u7jddbv7cyviptqjc7jusxh72uik7zt6adtckl5f4nwy2v72qd.onion){ .card-link title="Onion Service" }
+[:octicons-eye-16:](https://brave.com/privacy/browser/){ .card-link title="Privacy Policy" }
+[:octicons-info-16:](https://support.brave.com/){ .card-link title=Documentation}
+[:octicons-code-16:](https://github.com/brave/brave-browser){ .card-link title="Source Code" }
+
+<details class="downloads" markdown>
+<summary>Downloads</summary>
+
+- [:simple-github: GitHub](https://github.com/brave/brave-browser/releases)
+- [:simple-windows11: Windows](https://brave.com/download/)
+- [:simple-apple: macOS](https://brave.com/download/)
+- [:simple-linux: Linux](https://brave.com/linux/) (1)
+
+</details>
+
+</div>
+
+1. 我们建议不要使用Flatpak版本的Brave，因为它用Flatpak的沙箱代替了Chromium的沙箱，效果较差。 此外，该软件包并非由Brave Software, Inc.维护。
 
 **macOS users:** The download for Brave Browser from their official website is a `.pkg` installer which requires admin privileges to run (and may run other unnecessary scripts on your machine). As an alternative, you can download the latest `Brave-Browser-universal.dmg` file from their [GitHub releases](https://github.com/brave/brave-browser/releases/latest) page, which provides a traditional "drag to Applications folder" install.
 
-!!! 推荐
+<div class="admonition warning" markdown>
+<p class="admonition-title">Warning</p>
 
-    Brave adds a "[referral code](https://github.com/brave/brave-browser/wiki/Brave%E2%80%99s-Use-of-Referral-Codes)" to the file name in downloads from the Brave website, which is used to track which source the browser was downloaded from, for example `BRV002` in a download named `Brave-Browser-BRV002.pkg`. The installer will then ping Brave's server with the referral code at the end of the installation process. If you're concerned about this, you can rename the installer file before opening it.
-    
+Brave adds a "[referral code](https://github.com/brave/brave-browser/wiki/Brave%E2%80%99s-Use-of-Referral-Codes)" to the file name in downloads from the Brave website, which is used to track which source the browser was downloaded from, for example `BRV002` in a download named `Brave-Browser-BRV002.pkg`. The installer will then ping Brave's server with the referral code at the end of the installation process. If you're concerned about this, you can rename the installer file before opening it.
 
-
+</div>
 
 ### 推荐配置
 
@@ -268,11 +288,15 @@ Shields的选项可以根据需要在每个站点的基础上进行降级，但�
 
 <div class="annotate" markdown>
 
-- [x] 选择**防止网站根据我的语言偏好对我进行指纹识别**
-- [x] 选择跟踪器和广告拦截下的**攻击性**
+- [x] Select **Prevent sites from fingerprinting me based on my language preferences**
+- [x] Select **Aggressive** under Trackers & ads blocking
 
-？? warning "Use default filter lists"
-        Brave允许你在内部`brave://adblock`页面中选择额外的内容过滤器。 我们建议不要使用这个功能；相反，保留默认的过滤列表。 使用额外的列表会使你从其他Brave用户中脱颖而出，如果Brave中存在漏洞，恶意规则被添加到你使用的列表中，也可能增加攻击面。
+<details class="warning" markdown>
+<summary>Use default filter lists</summary>
+
+Brave allows you to select additional content filters within the internal `brave://adblock` page. 我们建议不要使用这个功能；相反，保留默认的过滤列表。 使用额外的列表会使你从其他Brave用户中脱颖而出，如果Brave中存在漏洞，恶意规则被添加到你使用的列表中，也可能增加攻击面。
+
+</details>
 
 - [x] Select **Strict** under **Upgrade connections to HTTPS**
 - [x] (Optional) Select **Block Scripts** (1)
@@ -303,17 +327,18 @@ Shields的选项可以根据需要在每个站点的基础上进行降级，但�
 - [ ] Uncheck **Automatically send diagnostic reports**
 - [ ] Uncheck **Private window with Tor** (1)
 
-    !!! tip "Sanitizing on Close"
-
-        - [x] Select **Clear cookies and site data when you close all windows** in the *Cookies and other site data* menu
-
-        If you wish to stay logged in to a particular site you visit often, you can set exceptions on a per-site basis under the *Customized behaviors* section.
-
 </div>
 
 1. Brave 对指纹的抵抗力**不如** Tor 浏览器，而且使用 Brave 的 Tor 功能的人要少得多，所以你的指纹会突出。 在 [需要强大的匿名性的地方](https://support.brave.com/hc/en-us/articles/360018121491-What-is-a-Private-Window-with-Tor-Connectivity-) ，使用 [Tor 浏览器](tor.md#tor-browser)。
 
+<div class="admonition tip" markdown>
+<p class="admonition-title">Sanitizing on close</p>
 
+- [x] Select **Clear cookies and site data when you close all windows** in the *Cookies and other site data* menu
+
+If you wish to stay logged in to a particular site you visit often, you can set exceptions on a per-site basis under the *Customized behaviors* section.
+
+</div>
 
 ##### 扩展程序
 
@@ -367,23 +392,27 @@ In general, we recommend keeping your browser extensions to a minimum to decreas
 
 ### uBlock Origin
 
-!!! recommendation
+<div class="admonition recommendation" markdown>
 
-    ![uBlock Origin标识](assets/img/browsers/ublock_origin.svg){ align=right }
-    
-    **uBlock Origin**是一个流行的内容阻止器，可以帮助你阻止广告、跟踪器和指纹脚本。
-    
-    [:octicons-repo-16: Repository](https://github.com/gorhill/uBlock#readme){ .md-button .md-button--primary }
-    [:octicons-eye-16:](https://github.com/gorhill/uBlock/wiki/Privacy-policy){ .card-link title="隐私政策" }
-    [:octicons-info-16:](https://github.com/gorhill/uBlock/wiki){ .card-link title="文档"}
-    [:octicons-code-16:](https://github.com/gorhill/uBlock){ .card-link title="源代码" }
-    
-    ??? 下载
-    
-        - [:simple-firefoxbrowser: Firefox](https://addons.mozilla.org/firefox/addon/ublock-origin/)
-        - [:simple-googlechrome: Chrome](https://chrome.google.com/webstore/detail/ublock-origin/cjpalhdlnbpafiamejdnhcphjbkeiagm)
-        - [:simple-microsoftedge: Edge](https://microsoftedge.microsoft.com/addons/detail/ublock-origin/odfafepnkmbhccpbejgmiehpchacaeak)
-    
+![uBlock Origin标识](assets/img/browsers/ublock_origin.svg){ align=right }
+
+**uBlock Origin**是一个流行的内容阻止器，可以帮助你阻止广告、跟踪器和指纹脚本。
+
+[:octicons-repo-16: Repository](https://github.com/gorhill/uBlock#readme){ .md-button .md-button--primary }
+[:octicons-eye-16:](https://github.com/gorhill/uBlock/wiki/Privacy-policy){ .card-link title="Privacy Policy" }
+[:octicons-info-16:](https://github.com/gorhill/uBlock/wiki){ .card-link title=Documentation}
+[:octicons-code-16:](https://github.com/gorhill/uBlock){ .card-link title="Source Code" }
+
+<details class="downloads" markdown>
+<summary>Downloads</summary>
+
+- [:simple-firefoxbrowser: Firefox](https://addons.mozilla.org/firefox/addon/ublock-origin/)
+- [:simple-googlechrome: Chrome](https://chrome.google.com/webstore/detail/ublock-origin/cjpalhdlnbpafiamejdnhcphjbkeiagm)
+- [:simple-microsoftedge: Edge](https://microsoftedge.microsoft.com/addons/detail/ublock-origin/odfafepnkmbhccpbejgmiehpchacaeak)
+
+</details>
+
+</div>
 
 We suggest following the [developer's documentation](https://github.com/gorhill/uBlock/wiki/Blocking-mode) and picking one of the "modes". Additional filter lists can impact performance and [may increase attack surface](https://portswigger.net/research/ublock-i-exfiltrate-exploiting-ad-blockers-with-css).
 
@@ -402,22 +431,26 @@ uBlock Origin also has a "Lite" version of their extension, which offers a very 
 - ...you want a more resource (memory/CPU) efficient content blocker[^1]
 - ...your browser only supports Manifest V3 extensions
 
-!!! recommendation
+<div class="admonition recommendation" markdown>
 
-    ![uBlock Origin Lite logo](assets/img/browsers/ublock_origin_lite.svg){ align=right }
-    
-    **uBlock Origin Lite** is a Manifest V3 compatible content blocker. Compared to the original *uBlock Origin*, this extension does not require broad "read/modify data" permissions to function.
-    
-    [:octicons-repo-16: Repository](https://github.com/uBlockOrigin/uBOL-home#readme){ .md-button .md-button--primary }
-    [:octicons-eye-16:](https://github.com/gorhill/uBlock/wiki/Privacy-policy){ .card-link title="Privacy Policy" }
-    [:octicons-info-16:](https://github.com/uBlockOrigin/uBOL-home/wiki){ .card-link title=Documentation}
-    [:octicons-code-16:](https://github.com/gorhill/uBlock/tree/master/platform/mv3){ .card-link title="Source Code" }
-    
-    ??? downloads
-    
-        - [:simple-firefoxbrowser: Firefox](https://addons.mozilla.org/addon/ublock-origin-lite/)
-        - [:simple-googlechrome: Chrome](https://chrome.google.com/webstore/detail/ublock-origin-lite/ddkjiahejlhfcafbddmgiahcphecmpfh)
-    
+![uBlock Origin Lite logo](assets/img/browsers/ublock_origin_lite.svg){ align=right }
+
+**uBlock Origin Lite** is a Manifest V3 compatible content blocker. Compared to the original *uBlock Origin*, this extension does not require broad "read/modify data" permissions to function.
+
+[:octicons-repo-16: Repository](https://github.com/uBlockOrigin/uBOL-home#readme){ .md-button .md-button--primary }
+[:octicons-eye-16:](https://github.com/gorhill/uBlock/wiki/Privacy-policy){ .card-link title="Privacy Policy" }
+[:octicons-info-16:](https://github.com/uBlockOrigin/uBOL-home/wiki){ .card-link title=Documentation}
+[:octicons-code-16:](https://github.com/gorhill/uBlock/tree/master/platform/mv3){ .card-link title="Source Code" }
+
+<details class="downloads" markdown>
+<summary>Downloads</summary>
+
+- [:simple-firefoxbrowser: Firefox](https://addons.mozilla.org/addon/ublock-origin-lite/)
+- [:simple-googlechrome: Chrome](https://chrome.google.com/webstore/detail/ublock-origin-lite/ddkjiahejlhfcafbddmgiahcphecmpfh)
+
+</details>
+
+</div>
 
 We only recommend this version of uBlock Origin if you never want to make any changes to your filter lists, because it only supports a few pre-selected lists and offers no additional customization options, including the ability to select elements to block manually. These restrictions are due to limitations in Manifest V3's design.
 
@@ -433,12 +466,12 @@ uBlock Origin Lite only receives block list updates whenever the extension is up
 
 **Please note we are not affiliated with any of the projects we recommend.** In addition to [our standard criteria](about/criteria.md), we have developed a clear set of requirements to allow us to provide objective recommendations. We suggest you familiarize yourself with this list before choosing to use a project, and conduct your own research to ensure it's the right choice for you.
 
-!!! example "This section is new"
+<div class="admonition example" markdown>
+<p class="admonition-title">This section is new</p>
 
-    We are working on establishing defined criteria for every section of our site, and this may be subject to change. If you have any questions about our criteria, please [ask on our forum](https://discuss.privacyguides.net/latest) and don't assume we didn't consider something when making our recommendations if it is not listed here. There are many factors considered and discussed when we recommend a project, and documenting every single one is a work-in-progress.
-    
+We are working on establishing defined criteria for every section of our site, and this may be subject to change. If you have any questions about our criteria, please [ask on our forum](https://discuss.privacyguides.net/latest) and don't assume we didn't consider something when making our recommendations if it is not listed here. There are many factors considered and discussed when we recommend a project, and documenting every single one is a work-in-progress.
 
-
+</div>
 
 ### 最低要求
 
@@ -452,15 +485,13 @@ uBlock Origin Lite only receives block list updates whenever the extension is up
 
 
 
-
 ### 最好情况
 
 我们的最佳情况代表了我们希望从这个类别中的完美项目中看到的东西。 我们的推荐可能不包括任何或所有这些功能，但那些包含这些功能的推荐可能比本页面上的其他推荐排名更高。
 
 - 包括内置的内容拦截功能。
 - Supports cookie compartmentalization (à la [Multi-Account Containers](https://support.mozilla.org/en-US/kb/containers)).
-- Supports Progressive Web Apps.  
-  PWAs enable you to install certain websites as if they were native apps on your computer. This can have advantages over installing Electron-based apps, because you benefit from your browser's regular security updates.
+- Supports Progressive Web Apps. PWAs enable you to install certain websites as if they were native apps on your computer. This can have advantages over installing Electron-based apps, because you benefit from your browser's regular security updates.
 
 - 不包括不增强用户隐私的累赘功能。
 

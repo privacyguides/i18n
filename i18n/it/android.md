@@ -1,14 +1,14 @@
 ---
-meta_title: "Android Recommendations: GrapheneOS and DivestOS - Privacy Guides"
+meta_title: "Consigli su Android: GrapheneOS e DivestOS - Privacy Guides"
 title: "Android"
 icon: 'simple/android'
-description: You can replace the operating system on your Android phone with these secure and privacy-respecting alternatives.
+description: Puoi sostituire il sistema operativo sul tuo telefono Android con queste alternative sicure e rispettose della privacy.
 cover: android.webp
 schema:
   - 
     "@context": http://schema.org
     "@type": WebPage
-    name: Private Android Operating Systems
+    name: Sistemi operativi Android privati
     url: "./"
   - 
     "@context": http://schema.org
@@ -16,14 +16,14 @@ schema:
     name: Android
     image: /assets/img/android/android.svg
     url: https://source.android.com/
-    sameAs: https://en.wikipedia.org/wiki/Android_(operating_system)
+    sameAs: https://it.wikipedia.org/wiki/Android
   - 
     "@context": http://schema.org
     "@type": CreativeWork
     name: GrapheneOS
     image: /assets/img/android/grapheneos.svg
     url: https://grapheneos.org/
-    sameAs: https://en.wikipedia.org/wiki/GrapheneOS
+    sameAs: https://it.wikipedia.org/wiki/GrapheneOS
     subjectOf:
       "@context": http://schema.org
       "@type": WebPage
@@ -47,7 +47,7 @@ schema:
       "@type": Brand
       name: Google
     image: /assets/img/android/google-pixel.png
-    sameAs: https://en.wikipedia.org/wiki/Google_Pixel
+    sameAs: https://it.wikipedia.org/wiki/Google_Pixel
     review:
       "@type": Review
       author:
@@ -339,8 +339,8 @@ Il Google Play Store richiede un profilo Google per l'accesso, il che non è un 
 **Aurora Store** è un client di Google Play Store che non richiede un profilo di Google, Google Play Services o microG per scaricare le app.
 
 [:octicons-home-16: Homepage](https://auroraoss.com/){ .md-button .md-button--primary }
-[:octicons-eye-16:](https://gitlab.com/AuroraOSS/AuroraStore/-/blob/master/POLICY.md){ .card-link title="Privacy Policy" }
-[:octicons-code-16:](https://gitlab.com/AuroraOSS/AuroraStore){ .card-link title="Source Code" }
+[:octicons-eye-16:](https://gitlab.com/AuroraOSS/AuroraStore/-/blob/master/POLICY.md){ .card-link title="Informativa sulla Privacy" }
+[:octicons-code-16:](https://gitlab.com/AuroraOSS/AuroraStore){ .card-link title="Codice sorgente" }
 
 <details class="downloads" markdown>
 <summary>Downloads</summary>

@@ -63,22 +63,27 @@ schema:
 
 ## Mullvad Browser
 
-!!! recommendation
+<div class="admonition recommendation" markdown>
 
-    ![Логотип Mullvad Browser](assets/img/browsers/mullvad_browser.svg){ align=right }
-    
-    **Mullvad Browser** - это версия [Tor Browser](tor.md#tor-browser) с удаленными интеграциями сети Tor, предназначенная для предоставления пользователям VPN браузерных технологий Tor Browser по борьбе с цифровыми отпечатками. Он разработан проектом Tor и распространяется [Mullvad](vpn.md#mullvad), и **не** требует использования VPN Mullvad.
-    
-    [:octicons-home-16: Домашняя страница](https://mullvad.net/en/browser){ .md-button .md-button--primary }
-    [:octicons-eye-16:](https://mullvad.net/en/help/privacy-policy/){ .card-link title="Политика конфиденциальности" }
-    [:octicons-info-16:](https://mullvad.net/en/help/tag/mullvad-browser/){ .card-link title=Документация}
-    [:octicons-code-16:](https://gitlab.torproject.org/tpo/applications/mullvad-browser){ .card-link title="Исходный код" }
-    
-    ??? downloads "Скачать"
-    
-        - [:simple-windows11: Windows](https://mullvad.net/en/download/browser/windows)
-        - [:simple-apple: macOS](https://mullvad.net/en/download/browser/macos)
-        - [:simple-linux: Linux](https://mullvad.net/en/download/browser/linux)
+![Логотип Mullvad Browser](assets/img/browsers/mullvad_browser.svg){ align=right }
+
+**Mullvad Browser** - это версия [Tor Browser](tor.md#tor-browser) с удаленными интеграциями сети Tor, предназначенная для предоставления пользователям VPN браузерных технологий Tor Browser по борьбе с цифровыми отпечатками. Он разработан проектом Tor и распространяется [Mullvad](vpn.md#mullvad), и **не** требует использования VPN Mullvad.
+
+[:octicons-home-16: Homepage](https://mullvad.net/en/browser){ .md-button .md-button--primary }
+[:octicons-eye-16:](https://mullvad.net/en/help/privacy-policy/){ .card-link title="Privacy Policy" }
+[:octicons-info-16:](https://mullvad.net/en/help/tag/mullvad-browser/){ .card-link title=Documentation}
+[:octicons-code-16:](https://gitlab.torproject.org/tpo/applications/mullvad-browser){ .card-link title="Source Code" }
+
+<details class="downloads" markdown>
+<summary>Downloads</summary>
+
+- [:simple-windows11: Windows](https://mullvad.net/en/download/browser/windows)
+- [:simple-apple: macOS](https://mullvad.net/en/download/browser/macos)
+- [:simple-linux: Linux](https://mullvad.net/en/download/browser/linux)
+
+</details>
+
+</div>
 
 Как и [Tor Browser](tor.md), Mullvad Browser разработан для предотвращения цифровых отпечатков, делая цифровые отпечатки вашего браузера идентичными цифровым отпечаткам всех других пользователей Mullvad Browser. Также он содержит настройки и расширения по умолчанию, которые автоматически конфигурируются выбранным уровнем безопасности: *Standart*, *Safe* и *Safest*. Поэтому крайне важно, чтобы ты **не изменял** браузер, помимо установленных по умолчанию [уровней безопасности](https://tb-manual.torproject.org/ru/security-settings/). Другие модификации сделают твой цифровой отпечаток браузера уникальным, что лишает смысла использование этого браузера. Если ты хочешь более комплексно настроить браузер и цифровые отпечатки тебя не волнуют, то мы рекомендуем использовать [Firefox](#firefox).
 
@@ -104,27 +109,36 @@ Mullvad Browser поставляется с включенной по умолч
 
 ## Firefox
 
-!!! recommendation
+<div class="admonition recommendation" markdown>
 
-    ![Логотип Firefox](assets/img/browsers/firefox.svg){ align=right }
-    
-    **Firefox** предоставляет сильные настройки конфиденциальности, такие как [Улучшенная защита от отслеживания](https://support.mozilla.org/ru/kb/uluchshennaya-zashita-ot-otslezhivaniya-firefox-dlya-kompyutera), которые могут помочь блокировать различные [типы отслеживания](https://support.mozilla.org/ru/kb/uluchshennaya-zashita-ot-otslezhivaniya-firefox-dlya-kompyutera#w_chto-blokiruet-uluchshennaia-zashchita-ot-otslezhivaniia).
-    
-    [:octicons-home-16: Домашняя страница](https://firefox.com/ru/){ .md-button .md-button--primary }
-    [:octicons-eye-16:](https://www.mozilla.org/ru/privacy/firefox/){ .card-link title="Политика конфиденциальности" }
-    [:octicons-info-16:](https://firefox-source-docs.mozilla.org/){ .card-link title=Документация}
-    [:octicons-code-16:](https://hg.mozilla.org/mozilla-central){ .card-link title="Исходный код" }
-    [:octicons-heart-16:](https://donate.mozilla.org/){ .card-link title=Пожертвовать }
-    
-    ??? downloads "Скачать"
-    
-        - [:simple-windows11: Windows](https://www.mozilla.org/ru/firefox/windows)
-        - [:simple-apple: macOS](https://www.mozilla.org/ru/firefox/mac/)
-        - [:simple-linux: Linux](https://www.mozilla.org/ru/firefox/linux/)
-        - [:simple-flathub: Flathub](https://flathub.org/apps/details/org.mozilla.firefox)
+![Логотип Firefox](assets/img/browsers/firefox.svg){ align=right }
 
-!!! warning "внимание"
-    Каждый установщик Firefox с сайта Mozilla содержит уникальный [идентификатор](https://bugzilla.mozilla.org/show_bug.cgi?id=1677497#c0) и использует телеметрию в Firefox, чтобы отправить этот идентификатор. Идентификатор **не** включен в релизы на [Mozilla FTP](https://ftp.mozilla.org/pub/firefox/releases/).
+**Firefox** предоставляет сильные настройки конфиденциальности, такие как [Улучшенная защита от отслеживания](https://support.mozilla.org/ru/kb/uluchshennaya-zashita-ot-otslezhivaniya-firefox-dlya-kompyutera), которые могут помочь блокировать различные [типы отслеживания](https://support.mozilla.org/ru/kb/uluchshennaya-zashita-ot-otslezhivaniya-firefox-dlya-kompyutera#w_chto-blokiruet-uluchshennaia-zashchita-ot-otslezhivaniia).
+
+[:octicons-home-16: Homepage](https://firefox.com){ .md-button .md-button--primary }
+[:octicons-eye-16:](https://www.mozilla.org/privacy/firefox/){ .card-link title="Privacy Policy" }
+[:octicons-info-16:](https://firefox-source-docs.mozilla.org/){ .card-link title=Documentation}
+[:octicons-code-16:](https://hg.mozilla.org/mozilla-central){ .card-link title="Source Code" }
+[:octicons-heart-16:](https://donate.mozilla.org/){ .card-link title=Contribute }
+
+<details class="downloads" markdown>
+<summary>Downloads</summary>
+
+- [:simple-windows11: Windows](https://www.mozilla.org/firefox/windows)
+- [:simple-apple: macOS](https://www.mozilla.org/firefox/mac)
+- [:simple-linux: Linux](https://www.mozilla.org/firefox/linux)
+- [:simple-flathub: Flathub](https://flathub.org/apps/details/org.mozilla.firefox)
+
+</details>
+
+</div>
+
+<div class="admonition warning" markdown>
+<p class="admonition-title">Предупреждение</p>
+
+Firefox includes a unique [download token](https://bugzilla.mozilla.org/show_bug.cgi?id=1677497#c0) in downloads from Mozilla's website and uses telemetry in Firefox to send the token. The token is **not** included in releases from the [Mozilla FTP](https://ftp.mozilla.org/pub/firefox/releases/).
+
+</div>
 
 ### Рекомендованные настройки
 
@@ -194,9 +208,12 @@ Mullvad Browser поставляется с включенной по умолч
 
 ### Arkenfox (дополнительно)
 
-!!! tip "Используйте Mullvad Browser для продвинутой защиты от цифровых отпечатков"
+<div class="admonition tip" markdown>
+<p class="admonition-title">Use Mullvad Browser for advanced anti-fingerprinting</p>
 
-    [Mullvad Browser](#mullvad-browser) обеспечивает ту же защиту от цифровых отпечатков, что и Arkenfox, и не требует использования VPN Mullvad, чтобы воспользоваться этой защитой. В сочетании с VPN, Mullvad Browser может предотвратить более продвинутые скрипты отслеживания, которые Arkenfox не может. Преимущество Arkenfox в том, что он гораздо более гибкий и позволяет делать исключения для отдельных сайтов, на которых вам необходимо оставаться залогиненными.
+[Mullvad Browser](#mullvad-browser) обеспечивает ту же защиту от цифровых отпечатков, что и Arkenfox, и не требует использования VPN Mullvad, чтобы воспользоваться этой защитой. В сочетании с VPN, Mullvad Browser может предотвратить более продвинутые скрипты отслеживания, которые Arkenfox не может. Преимущество Arkenfox в том, что он гораздо более гибкий и позволяет делать исключения для отдельных сайтов, на которых вам необходимо оставаться залогиненными.
+
+</div>
 
 [Проект Arkenfox](https://github.com/arkenfox/user.js) предоставляет набор тщательно подобранных настроек для Firefox. Если ты [решишь](https://github.com/arkenfox/user.js/wiki/1.1-To-Arkenfox-or-Not) использовать Arkenfox, то [несколько опций](https://github.com/arkenfox/user.js/wiki/3.2-Overrides-[Common]) являются субъективно строгими и/или могут привести к неправильной работе некоторых сайтов. [Эти настройки ты можешь легко изменить](https://github.com/arkenfox/user.js/wiki/3.1-Overrides) в соответствии с твоими потребностями. Мы **настоятельно рекомендуем** ознакомиться с их [вики](https://github.com/arkenfox/user.js/wiki). Arkenfox также включает поддержку [контейнеров](https://support.mozilla.org/ru/kb/kontejnery).
 
@@ -204,34 +221,42 @@ Arkenfox нацелен только на предотвращение осно�
 
 ## Brave
 
-!!! recommendation
+<div class="admonition recommendation annotate" markdown>
 
-    ![Логотип Brave](assets/img/browsers/brave.svg){ align=right }
-    
-    **Brave Browser** включает встроенный блокировщик контента и [инструменты конфиденциальности](https://brave.com/privacy-features/), многие из которых включены по умолчанию.
-    
-    Brave основан на Chromium, поэтому он покажется тебе знакомым, а также у него не должно быть проблем совместимости с вебсайтами.
-    
-    [:octicons-home-16: Домашняя страница](https://brave.com/ru/){ .md-button .md-button--primary }
-    [:simple-torbrowser:](https://brave4u7jddbv7cyviptqjc7jusxh72uik7zt6adtckl5f4nwy2v72qd.onion){ .card-link title="Onion-сайт" }
-    [:octicons-eye-16:](https://brave.com/privacy/browser/){ .card-link title="Политика конфиденциальности" }
-    [:octicons-info-16:](https://support.brave.com/){ .card-link title=Документация}
-    [:octicons-code-16:](https://github.com/brave/brave-browser){ .card-link title="Исходный код" }
-    
-    ??? downloads annotate "Скачать"
-    
-        - [:simple-github: GitHub](https://github.com/brave/brave-browser/releases)
-        - [:simple-windows11: Windows](https://brave.com/download/)
-        - [:simple-apple: macOS](https://brave.com/download/)
-        - [:simple-linux: Linux](https://brave.com/linux/) (1)
+![Логотип Brave](assets/img/browsers/brave.svg){ align=right }
 
-    1. Мы не рекомендуем использовать Flatpak-версию Brave, поскольку она заменяет песочницу Chromium песочницей Flatpak, что менее эффективно. Кроме того, компания Brave Software, Inc. не распространяет этот установочный пакет.
+**Brave Browser** включает встроенный блокировщик контента и [инструменты конфиденциальности](https://brave.com/privacy-features/), многие из которых включены по умолчанию.
+
+Brave основан на Chromium, поэтому он покажется тебе знакомым, а также у него не должно быть проблем совместимости с вебсайтами.
+
+[:octicons-home-16: Homepage](https://brave.com/){ .md-button .md-button--primary }
+[:simple-torbrowser:](https://brave4u7jddbv7cyviptqjc7jusxh72uik7zt6adtckl5f4nwy2v72qd.onion){ .card-link title="Onion Service" }
+[:octicons-eye-16:](https://brave.com/privacy/browser/){ .card-link title="Privacy Policy" }
+[:octicons-info-16:](https://support.brave.com/){ .card-link title=Documentation}
+[:octicons-code-16:](https://github.com/brave/brave-browser){ .card-link title="Source Code" }
+
+<details class="downloads" markdown>
+<summary>Downloads</summary>
+
+- [:simple-github: GitHub](https://github.com/brave/brave-browser/releases)
+- [:simple-windows11: Windows](https://brave.com/download/)
+- [:simple-apple: macOS](https://brave.com/download/)
+- [:simple-linux: Linux](https://brave.com/linux/) (1)
+
+</details>
+
+</div>
+
+1. Мы не рекомендуем использовать Flatpak-версию Brave, поскольку она заменяет песочницу Chromium песочницей Flatpak, что менее эффективно. Кроме того, компания Brave Software, Inc. не распространяет этот установочный пакет.
 
 **Пользователям macOS:** При скачивании Brave Browser с их официального сайта вы получаете установщик `.pkg`, который требует прав администратора для запуска (и может запускать другие ненужные скрипты на вашем устройстве). В качестве альтернативы, вы можете скачать последнюю версию файла `Brave-Browser-universal.dmg` из их [GitHub releases](https://github.com/brave/brave-browser/releases/latest), которая предоставляет традиционную установку "перетащить в папку Программы".
 
-!!! warning "Осторожно"
+<div class="admonition warning" markdown>
+<p class="admonition-title">Предупреждение</p>
 
-    Brave добавляет "[реферальный код](https://github. om/brave/brave-browser/wiki/Brave%E2%80%99s-Use-of-Referral-Codes)" к имени файла при загрузке с веб-сайта Brave. Этот код используется для отслеживания источника, из которого код был загружен браузер, например `BRV002` в загрузках с именем `Brave-Browser-BRV002.pkg`. В конце процесса установки программа установки отправит на сервер Brave реферальный код. Если вас это беспокоит, вы можете переименовать установочный файл перед его открытием.
+Brave добавляет "[реферальный код](https://github. om/brave/brave-browser/wiki/Brave%E2%80%99s-Use-of-Referral-Codes)" к имени файла при загрузке с веб-сайта Brave. Этот код используется для отслеживания источника, из которого код был загружен браузер, например `BRV002` в загрузках с именем `Brave-Browser-BRV002.pkg`. В конце процесса установки программа установки отправит на сервер Brave реферальный код. Если вас это беспокоит, вы можете переименовать установочный файл перед его открытием.
+
+</div>
 
 ### Рекомендованные настройки
 
@@ -247,11 +272,15 @@ Brave содержит несколько инструментов защиты 
 
 <div class="annotate" markdown>
 
-- [x] Выбери **Запрещать сайтам использовать цифровые отпечатки для выбора языка**
-- [x] Выбери **Агрессивный** в разделе: Блокировка трекеров и рекламы
+- [x] Select **Prevent sites from fingerprinting me based on my language preferences**
+- [x] Select **Aggressive** under Trackers & ads blocking
 
-    ??? предупреждение «Дополнительные фильтры»
-        Brave позволяет тебе выбрать дополнительные фильтры на внутренней странице `brave://adblock`. Мы не рекомендуем использовать эту функцию; вместо этого оставь списки фильтров по умолчанию. Использование дополнительных фильтров выделит тебя среди других пользователей Brave, а также может увеличить площадь атаки в том случае, если в Brave есть эксплойт и вредоносное правило будет добавлено в один из используемых тобой списков.
+<details class="warning" markdown>
+<summary>Use default filter lists</summary>
+
+Brave allows you to select additional content filters within the internal `brave://adblock` page. Мы не рекомендуем использовать эту функцию; вместо этого оставь списки фильтров по умолчанию. Использование дополнительных фильтров выделит тебя среди других пользователей Brave, а также может увеличить площадь атаки в том случае, если в Brave есть эксплойт и вредоносное правило будет добавлено в один из используемых тобой списков.
+
+</details>
 
 - [x] Выберите **Обязательно** в пункте **Переключаться на HTTPS**
 - [x] (Опционально) Выберите **Блокировать скрипты** (1)
@@ -271,22 +300,25 @@ Brave содержит несколько инструментов защиты 
 
 <div class="annotate" markdown>
 
-- [x] Выберите **Отключить непроксируемый протокол UDP** в [Политика обработки IP WebRTC](https://support.brave.com/hc/en-us/articles/360017989132-How-do-I-change-my-Privacy-Settings-#webrtc)
-- [ ] Отключите **Использовать сервисы Google для обмена push-сообщениями**
-- [ ] Отключите **Разрешить выполнение аналитики продукта, не нарушающей коныиденциальности**
-- [ ] Отключите **Автоматически отправлять ежедневные данные PING в Brave**
-- [ ] Отключите **Автоматически отправлять данные диагностики**
-- [ ] Отключите **Приватное окно с Tor** (1)
-
-    !!! tip "Отчистка при закрытии"
-
-        - [x] Выбери **Удалять файлы cookie и данные сайтов при закрытии всех окон** в подразделе *Файлы cookie и другие данные сайтов*
-
-        Если ты хочешь оставать залогинеными на сайтах, которые ты часто посещаешь, то ты можешь установить исключения в разделе: Специальные настройки.
+- [x] Select **Disable non-proxied UDP** under [WebRTC IP Handling Policy](https://support.brave.com/hc/en-us/articles/360017989132-How-do-I-change-my-Privacy-Settings-#webrtc)
+- [ ] Uncheck **Use Google services for push messaging**
+- [ ] Uncheck **Allow privacy-preserving product analytics (P3A)**
+- [ ] Uncheck **Automatically send daily usage ping to Brave**
+- [ ] Uncheck **Automatically send diagnostic reports**
+- [ ] Uncheck **Private window with Tor** (1)
 
 </div>
 
 1. Brave **не так устойчив** к цифровым отпечаткам, как Tor Browser, и гораздо меньше людей используют Brave вместе с Tor, поэтому ты будешь выделяться. Там, где тебе [нужна сильная анонимность](https://support.brave.com/hc/en-us/articles/360018121491-What-is-a-Private-Window-with-Tor-Connectivity-) используй [Tor Browser](tor.md#tor-browser).
+
+<div class="admonition tip" markdown>
+<p class="admonition-title">Sanitizing on close</p>
+
+- [x] Select **Clear cookies and site data when you close all windows** in the *Cookies and other site data* menu
+
+If you wish to stay logged in to a particular site you visit often, you can set exceptions on a per-site basis under the *Customized behaviors* section.
+
+</div>
 
 ##### Расширения
 
@@ -328,22 +360,27 @@ Brave содержит несколько инструментов защиты 
 
 ### uBlock Origin
 
-!!! recommendation
+<div class="admonition recommendation" markdown>
 
-    ![Логотип uBlock Origin](assets/img/browsers/ublock_origin.svg){ align=right }
-    
-    **uBlock Origin** это популярный блокировщик контента, который может помочь тебе блокировать рекламу, трекеры и скрипты цифровых отпечатков.
-    
-    [:octicons-repo-16: Репозиторий](https://github.com/gorhill/uBlock#readme){ .md-button .md-button--primary }
-    [:octicons-eye-16:](https://github.com/gorhill/uBlock/wiki/Privacy-policy){ .card-link title="Политика конфиденциальности" }
-    [:octicons-info-16:](https://github.com/gorhill/uBlock/wiki){ .card-link title=Документация}
-    [:octicons-code-16:](https://github.com/gorhill/uBlock){ .card-link title="Исходный код" }
-    
-    ??? downloads "Скачать"
-    
-        - [:simple-firefoxbrowser: Firefox](https://addons.mozilla.org/firefox/addon/ublock-origin/)
-        - [:simple-googlechrome: Chrome](https://chrome.google.com/webstore/detail/ublock-origin/cjpalhdlnbpafiamejdnhcphjbkeiagm)
-        - [:simple-microsoftedge: Edge](https://microsoftedge.microsoft.com/addons/detail/ublock-origin/odfafepnkmbhccpbejgmiehpchacaeak)
+![Логотип uBlock Origin](assets/img/browsers/ublock_origin.svg){ align=right }
+
+**uBlock Origin** это популярный блокировщик контента, который может помочь тебе блокировать рекламу, трекеры и скрипты цифровых отпечатков.
+
+[:octicons-repo-16: Repository](https://github.com/gorhill/uBlock#readme){ .md-button .md-button--primary }
+[:octicons-eye-16:](https://github.com/gorhill/uBlock/wiki/Privacy-policy){ .card-link title="Privacy Policy" }
+[:octicons-info-16:](https://github.com/gorhill/uBlock/wiki){ .card-link title=Documentation}
+[:octicons-code-16:](https://github.com/gorhill/uBlock){ .card-link title="Source Code" }
+
+<details class="downloads" markdown>
+<summary>Downloads</summary>
+
+- [:simple-firefoxbrowser: Firefox](https://addons.mozilla.org/firefox/addon/ublock-origin/)
+- [:simple-googlechrome: Chrome](https://chrome.google.com/webstore/detail/ublock-origin/cjpalhdlnbpafiamejdnhcphjbkeiagm)
+- [:simple-microsoftedge: Edge](https://microsoftedge.microsoft.com/addons/detail/ublock-origin/odfafepnkmbhccpbejgmiehpchacaeak)
+
+</details>
+
+</div>
 
 Мы рекомендуем следовать [документации разработчика](https://github.com/gorhill/uBlock/wiki/Blocking-mode) и выбрать один из "режимов". Дополнительные списки фильтров могут повлиять на производительность и [могут увеличить площадь атаки](https://portswigger.net/research/ublock-i-exfiltrate-exploiting-ad-blockers-with-css).
 
@@ -360,21 +397,26 @@ Brave содержит несколько инструментов защиты 
 - ...вы хотите более ресурсоэффективный (память/ЦПУ) блокировщик контента[^1]
 - ...ваш браузер поддерживает только расширения Manifest V3
 
-!!! recommendation
+<div class="admonition recommendation" markdown>
 
-    ![uBlock Origin Lite logo](assets/img/browsers/ublock_origin_lite.svg){ align=right }
-    
-    **uBlock Origin Lite** это блокировщик контента совместимый с Manifest V3. По сравнению с оригинальным *uBlock Origin*, это расширение не требует широких прав на "чтение/изменение данных" для функционирования.
-    
-    [:octicons-repo-16: Репозиторий](https://github.com/uBlockOrigin/uBOL-home#readme){ .md-button .md-button--primary }
-    [:octicons-eye-16:](https://github.com/gorhill/uBlock/wiki/Privacy-policy){ .card-link title="Политика конфиденциальности" }
-    [:octicons-info-16:](https://github.com/uBlockOrigin/uBOL-home/wiki){ .card-link title=Документация}
-    [:octicons-code-16:](https://github.com/gorhill/uBlock/tree/master/platform/mv3){ .card-link title="Исходный код" }
-    
-    ??? downloads "Скачать"
-    
-        - [:simple-firefoxbrowser: Firefox](https://addons.mozilla.org/addon/ublock-origin-lite/)
-        - [:simple-googlechrome: Chrome](https://chrome.google.com/webstore/detail/ublock-origin-lite/ddkjiahejlhfcafbddmgiahcphecmpfh)
+![uBlock Origin Lite logo](assets/img/browsers/ublock_origin_lite.svg){ align=right }
+
+**uBlock Origin Lite** это блокировщик контента совместимый с Manifest V3. По сравнению с оригинальным *uBlock Origin*, это расширение не требует широких прав на "чтение/изменение данных" для функционирования.
+
+[:octicons-repo-16: Repository](https://github.com/uBlockOrigin/uBOL-home#readme){ .md-button .md-button--primary }
+[:octicons-eye-16:](https://github.com/gorhill/uBlock/wiki/Privacy-policy){ .card-link title="Privacy Policy" }
+[:octicons-info-16:](https://github.com/uBlockOrigin/uBOL-home/wiki){ .card-link title=Documentation}
+[:octicons-code-16:](https://github.com/gorhill/uBlock/tree/master/platform/mv3){ .card-link title="Source Code" }
+
+<details class="downloads" markdown>
+<summary>Downloads</summary>
+
+- [:simple-firefoxbrowser: Firefox](https://addons.mozilla.org/addon/ublock-origin-lite/)
+- [:simple-googlechrome: Chrome](https://chrome.google.com/webstore/detail/ublock-origin-lite/ddkjiahejlhfcafbddmgiahcphecmpfh)
+
+</details>
+
+</div>
 
 Мы рекомендуем эту версию uBlock Origin только в том случае, если вы никогда не хотите вносить изменения в списки фильтров, поскольку она поддерживает только несколько предварительно выбранных списков и не предлагает никаких дополнительных возможностей настройки, включая возможность выбора элементов для блокировки вручную. Эти ограничения связаны с дизайном Manifest V3.
 
@@ -388,9 +430,12 @@ uBlock Origin Lite получает обновления списка блоки
 
 **Обрати внимание, что у нас нет связей ни с одним проектом, который мы рекомендуем.** В дополнение к [нашим стандартным критериям](about/criteria.md) мы разработали четкий набор требований, позволяющий давать объективные рекомендации. Мы рекомендуем тебе ознакомиться с этим списком, прежде чем выбрать продукт, и провести собственное исследование, чтобы убедиться в правильности своего выбора.
 
-!!! example "Это новый раздел"
+<div class="admonition example" markdown>
+<p class="admonition-title">This section is new</p>
 
-    Мы сейчас работаем над установлением точных критериев для каждого раздела нашего сайта, поэтому они могут поменяться в будущем. Если у тебя есть вопросы относительно наших критериев, [задай вопрос на нашем форуме](https://discuss.privacyguides.net/latest). Не делай вывод, что мы что-то не учли при составлении наших рекомендаций, если это здесь не указано. Перед тем, как рекомендовать какой-либо проект мы учитываем и обсуждаем множество факторов. Документирование этих факторов ещё не завершено.
+Мы сейчас работаем над установлением точных критериев для каждого раздела нашего сайта, поэтому они могут поменяться в будущем. Если у тебя есть вопросы относительно наших критериев, [задай вопрос на нашем форуме](https://discuss.privacyguides.net/latest). Не делай вывод, что мы что-то не учли при составлении наших рекомендаций, если это здесь не указано. Перед тем, как рекомендовать какой-либо проект мы учитываем и обсуждаем множество факторов. Документирование этих факторов ещё не завершено.
+
+</div>
 
 ### Минимальные требования
 
@@ -402,15 +447,13 @@ uBlock Origin Lite получает обновления списка блоки
 - По умолчанию блокирует сторонние файлы куки.
 - Поддерживает [state partitioning](https://developer.mozilla.org/en-US/docs/Web/Privacy/State_Partitioning) для уменьшения межсайтового отслеживания.[^2]
 
-
 ### В лучшем случае
 
 Эти критерии представляют собой то, что мы хотели бы видеть от идеального проекта в этой категории. Наши рекомендации могут не соответствовать всем или нескольким из этих критериев, но проекты, которые им соответствуют, расположены выше остальных.
 
 - Включает в себя встроенную функцию блокировки контента.
 - Поддерживает разделение файлов куки (как [Multi-Account Контейнеры](https://support.mozilla.org/en-US/kb/containers)).
-- Поддерживает Прогрессивные веб приложения.  
-  PWA позволяют устанавливать на компьютер определенные веб-сайты, как будто это нативные приложения. Это может иметь преимущества перед установкой приложений на базе Electron, поскольку вы получаете преимущества от регулярных обновлений безопасности вашего браузера.
+- Supports Progressive Web Apps. PWAs enable you to install certain websites as if they were native apps on your computer. Это может иметь преимущества перед установкой приложений на базе Electron, поскольку вы получаете преимущества от регулярных обновлений безопасности вашего браузера.
 - Не включает дополнительные функции (bloatware), которые не влияют на конфиденциальность пользователя.
 - По умолчанию не собирает телеметрию.
 - Предоставляет реализацию сервера синхронизации с открытым исходным кодом.

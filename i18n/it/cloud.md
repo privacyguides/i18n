@@ -11,9 +11,9 @@ Molti fornitori di spazio di archiviazione su cloud richiedono la tua totale fid
 Se queste alternative non soddisfano le tue esigenze, ti suggeriamo di utilizzare un software di crittografia come [Cryptomator](encryption.md#cryptomator-cloud), con un altro fornitore su cloud. L'utilizzo di Cryptomator insieme a **qualsiasi** fornitore su cloud (compresi questi), può essere una buona idea per ridurre il rischio di vulnerabilità di crittografia nei client nativi di un fornitore.
 
 <details class="TYPE" markdown>
-<summary>Looking for Nextcloud?</summary>
+<summary>Stai cercando Nextcloud?</summary>
 
-Nextcloud is [still a recommended tool](productivity.md) for self-hosting a file management suite, however we do not recommend third-party Nextcloud storage providers at the moment, because we do [not recommend](https://discuss.privacyguides.net/t/dont-recommend-nextcloud-e2ee/10352/29) Nextcloud's built-in E2EE functionality for home users.
+Nextcloud è [ancora uno strumento consigliato](productivity.md) per il self-hosting di una suite di gestione dei file, tuttavia al momento non raccomandiamo fornitori di storage Nextcloud di terze parti, perché [non raccomandiamo](https://discuss.privacyguides.net/t/dont-recommend-nextcloud-e2ee/10352/29) la funzionalità E2EE integrata di Nextcloud per gli utenti privati.
 
 </details>
 
@@ -26,12 +26,12 @@ Nextcloud is [still a recommended tool](productivity.md) for self-hosting a file
 **Proton Drive** è un fornitore svizzero di spazio d'archiviazione crittografato su cloud, del popolare fornitore di email crittografate, [Proton Mail](email.md#proton-mail).
 
 [:octicons-home-16: Homepage](https://proton.me/drive){ class="md-button md-button--primary" }
-[:octicons-eye-16:](https://proton.me/legal/privacy){ .card-link title="Privacy Policy" }
-[:octicons-info-16:](https://proton.me/support/drive){ .card-link title=Documentation}
-[:octicons-code-16:](https://github.com/ProtonMail/WebClients){ .card-link title="Source Code" }
+[:octicons-eye-16:](https://proton.me/legal/privacy){ .card-link title="Informativa sulla Privacy" }
+[:octicons-info-16:](https://proton.me/support/drive){ .card-link title=Documentazione}
+[:octicons-code-16:](https://github.com/ProtonMail/WebClients){ .card-link title="Codice sorgente" }
 
 <details class="downloads" markdown>
-<summary>Downloads</summary>
+<summary>Scarica</summary>
 
 - [:simple-googleplay: Google Play](https://play.google.com/store/apps/details?id=me.proton.android.drive)
 - [:simple-appstore: App Store](https://apps.apple.com/app/id1509667851)
@@ -57,11 +57,11 @@ I nuovi client mobile di Proton Drive non sono ancora stati controllati pubblica
 **Tresorit** è un fornitore svizzero-ungherese di archiviazione crittografata su cloud, fondato nel 2011. Tresorit è di proprietà di Swiss Post, il servizio postale nazionale della Svizzera.
 
 [:octicons-home-16: Homepage](https://tresorit.com/){ class="md-button md-button--primary" }
-[:octicons-eye-16:](https://tresorit.com/legal/privacy-policy){ .card-link title="Privacy Policy" }
-[:octicons-info-16:](https://support.tresorit.com/hc/en-us){ .card-link title=Documentation}
+[:octicons-eye-16:](https://tresorit.com/legal/privacy-policy){ .card-link title="Informativa sulla Privacy" }
+[:octicons-info-16:](https://support.tresorit.com/hc/en-us){ .card-link title=Documentazione}
 
 <details class="downloads" markdown>
-<summary>Downloads</summary>
+<summary>Scarica</summary>
 
 - [:simple-googleplay: Google Play](https://play.google.com/store/apps/details?id=com.tresorit.mobile)
 - [:simple-appstore: App Store](https://apps.apple.com/app/apple-store/id722163232)

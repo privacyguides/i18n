@@ -63,22 +63,27 @@ schema:
 
 ## Mullvad Browser
 
-!!! recommendation
+<div class="admonition recommendation" markdown>
 
-    ![Mullvad Browser 로고](assets/img/browsers/mullvad_browser.svg){ align=right }
-    
-    **Mullvad Browser**는 [Tor 브라우저](tor.md#tor-browser)에서 Tor 네트워크 통합을 제거한 버전입니다. Tor 브라우저의 핑거프린팅 방지 브라우저 기술을 VPN 사용자에게 제공하는 것을 주된 목적으로 합니다. Tor 프로젝트에서 개발하고 [Mullvad](vpn.md#mullvad)에서 배포합니다. Mullvad VPN 사용이 필수적이지 **않습니다**.
-    
-    [:octicons-home-16: 홈페이지](https://mullvad.net/en/browser){ .md-button .md-button--primary }
-    [:octicons-eye-16:](https://mullvad.net/en/help/privacy-policy/){ .card-link title="프라이버시 정책" }
-    [:octicons-info-16:](https://mullvad.net/en/help/tag/mullvad-browser/){ .card-link title=문서}
-    [:octicons-code-16:](https://gitlab.torproject.org/tpo/applications/mullvad-browser){ .card-link title="소스 코드" }
-    
-    ??? downloads "다운로드"
-    
-        - [:simple-windows11: Windows](https://mullvad.net/en/download/browser/windows)
-        - [:simple-apple: macOS](https://mullvad.net/en/download/browser/macos)
-        - [:simple-linux: Linux](https://mullvad.net/en/download/browser/linux)
+![Mullvad Browser 로고](assets/img/browsers/mullvad_browser.svg){ align=right }
+
+**Mullvad Browser**는 [Tor 브라우저](tor.md#tor-browser)에서 Tor 네트워크 통합을 제거한 버전입니다. Tor 브라우저의 핑거프린팅 방지 브라우저 기술을 VPN 사용자에게 제공하는 것을 주된 목적으로 합니다. Tor 프로젝트에서 개발하고 [Mullvad](vpn.md#mullvad)에서 배포합니다. Mullvad VPN 사용이 필수적이지 **않습니다**.
+
+[:octicons-home-16: Homepage](https://mullvad.net/en/browser){ .md-button .md-button--primary }
+[:octicons-eye-16:](https://mullvad.net/en/help/privacy-policy/){ .card-link title="Privacy Policy" }
+[:octicons-info-16:](https://mullvad.net/en/help/tag/mullvad-browser/){ .card-link title=Documentation}
+[:octicons-code-16:](https://gitlab.torproject.org/tpo/applications/mullvad-browser){ .card-link title="Source Code" }
+
+<details class="downloads" markdown>
+<summary>Downloads</summary>
+
+- [:simple-windows11: Windows](https://mullvad.net/en/download/browser/windows)
+- [:simple-apple: macOS](https://mullvad.net/en/download/browser/macos)
+- [:simple-linux: Linux](https://mullvad.net/en/download/browser/linux)
+
+</details>
+
+</div>
 
 [Tor 브라우저](tor.md)와 마찬가지로, Mullvad Browser는 브라우저 핑거프린트를 모든 Mullvad Browser 사용자끼리 동일하게 만들어 핑거프린팅을 방지하도록 설계되었습니다. 기본 보안 등급(*Standard*, *Safer*, *Safest*)에 따라 자동으로 설정되는 기본 설정 및 확장 프로그램을 포함하고 있습니다. 여러분은 브라우저의 기본 [보안 등급](https://tb-manual.torproject.org/security-settings/) 외에 추가적인 수정을 해서는 안 됩니다. 추가적인 수정을 할 경우 고유한 핑거프린트를 갖게 됩니다. 즉 이 브라우저를 쓰는 의미가 사라집니다. 만약 핑거프린팅을 신경 쓰지 않고 자유로운 브라우저 설정을 원하실 경우, [Firefox](#firefox)를 추천드립니다.
 
@@ -104,27 +109,36 @@ Mullvad 브라우저는 DuckDuckGo가 기본 [검색 엔진](search-engines.md)�
 
 ## Firefox
 
-!!! recommendation
+<div class="admonition recommendation" markdown>
 
-    ![Firefox 로고](assets/img/browsers/firefox.svg){ align=right }
-    
-    **Firefox**는 [다양한 추적](https://support.mozilla.org/ko/kb/enhanced-tracking-protection-firefox-desktop#w_hyangsangdoen-cujeog-bangji-gineungi-cadanhaneun-geos)을 방지하는 [향상된 추적 방지 기능](https://support.mozilla.org/ko/kb/enhanced-tracking-protection-firefox-desktop) 등 강력한 프라이버시 설정을 제공합니다.
-    
-    [:octicons-home-16: 홈페이지](https://firefox.com){ .md-button .md-button--primary }
-    [:octicons-eye-16:](https://www.mozilla.org/privacy/firefox/){ .card-link title="프라이버시 정책" }
-    [:octicons-info-16:](https://firefox-source-docs.mozilla.org/){ .card-link title=문서}
-    [:octicons-code-16:](https://hg.mozilla.org/mozilla-central){ .card-link title="소스 코드" }
-    [:octicons-heart-16:](https://donate.mozilla.org/){ .card-link title=기부 }
-    
-    ??? downloads "다운로드"
-    
-        - [:simple-windows11: Windows](https://www.mozilla.org/firefox/windows)
-        - [:simple-apple: macOS](https://www.mozilla.org/firefox/mac)
-        - [:simple-linux: Linux](https://www.mozilla.org/firefox/linux)
-        - [:simple-flathub: Flathub](https://flathub.org/apps/details/org.mozilla.firefox)
+![Firefox 로고](assets/img/browsers/firefox.svg){ align=right }
 
-!!! warning "경고"
-    Firefox는 Mozilla 웹사이트에서 다운로드할 경우 고유한 [다운로드 토큰](https://bugzilla.mozilla.org/show_bug.cgi?id=1677497#c0)이 포함되며, 해당 토큰은 Firefox 원격 분석 데이터 전송 시에 함께 전송됩니다. 고유 다운로드 토큰은 [Mozilla FTP](https://ftp.mozilla.org/pub/firefox/releases/) 릴리스에는 포함되어 있지 **않습니다**.
+**Firefox**는 [다양한 추적](https://support.mozilla.org/ko/kb/enhanced-tracking-protection-firefox-desktop#w_hyangsangdoen-cujeog-bangji-gineungi-cadanhaneun-geos)을 방지하는 [향상된 추적 방지 기능](https://support.mozilla.org/ko/kb/enhanced-tracking-protection-firefox-desktop) 등 강력한 프라이버시 설정을 제공합니다.
+
+[:octicons-home-16: Homepage](https://firefox.com){ .md-button .md-button--primary }
+[:octicons-eye-16:](https://www.mozilla.org/privacy/firefox/){ .card-link title="Privacy Policy" }
+[:octicons-info-16:](https://firefox-source-docs.mozilla.org/){ .card-link title=Documentation}
+[:octicons-code-16:](https://hg.mozilla.org/mozilla-central){ .card-link title="Source Code" }
+[:octicons-heart-16:](https://donate.mozilla.org/){ .card-link title=Contribute }
+
+<details class="downloads" markdown>
+<summary>Downloads</summary>
+
+- [:simple-windows11: Windows](https://www.mozilla.org/firefox/windows)
+- [:simple-apple: macOS](https://www.mozilla.org/firefox/mac)
+- [:simple-linux: Linux](https://www.mozilla.org/firefox/linux)
+- [:simple-flathub: Flathub](https://flathub.org/apps/details/org.mozilla.firefox)
+
+</details>
+
+</div>
+
+<div class="admonition warning" markdown>
+<p class="admonition-title">Warning</p>
+
+Firefox includes a unique [download token](https://bugzilla.mozilla.org/show_bug.cgi?id=1677497#c0) in downloads from Mozilla's website and uses telemetry in Firefox to send the token. The token is **not** included in releases from the [Mozilla FTP](https://ftp.mozilla.org/pub/firefox/releases/).
+
+</div>
 
 ### 권장 설정
 
@@ -194,9 +208,12 @@ Max Protection enforces the use of DNS over HTTPS, and a security warning will s
 
 ### Arkenfox (고급)
 
-!!! tip "고급 핑거프린팅 방지 기능을 원하신다면 Mullvad 브라우저를 사용하세요"
+<div class="admonition tip" markdown>
+<p class="admonition-title">Use Mullvad Browser for advanced anti-fingerprinting</p>
 
-    [Mullvad 브라우저](#mullvad-browser)는 Arkenfox와 동일한 핑거프린팅 방지 보호 기능을 기본으로 제공합니다(이러한 보호 기능은 Mullvad VPN을 사용하지 않더라도 그대로 누릴 수 있습니다). VPN을 함께 사용할 경우, Mullvad 브라우저는 Arkenfox가 차단하지 못하는 고급 추적 스크립트까지 차단할 수 있습니다. 단, Arkenfox는 훨씬 더 유연성 있고, 사이트별 예외를 통해 특정 웹사이트에서 로그인 유지 등이 가능하다는 장점이 있습니다.
+[Mullvad 브라우저](#mullvad-browser)는 Arkenfox와 동일한 핑거프린팅 방지 보호 기능을 기본으로 제공합니다(이러한 보호 기능은 Mullvad VPN을 사용하지 않더라도 그대로 누릴 수 있습니다). VPN을 함께 사용할 경우, Mullvad 브라우저는 Arkenfox가 차단하지 못하는 고급 추적 스크립트까지 차단할 수 있습니다. 단, Arkenfox는 훨씬 더 유연성 있고, 사이트별 예외를 통해 특정 웹사이트에서 로그인 유지 등이 가능하다는 장점이 있습니다.
+
+</div>
 
 [Arkenfox 프로젝트](https://github.com/arkenfox/user.js)는 신중하게 고려된 Firefox용 옵션 모음을 제공합니다. Arkenfox를 [사용하기로 결정한](https://github.com/arkenfox/user.js/wiki/1.1-To-Arkenfox-or-Not) 경우, [일부 옵션](https://github.com/arkenfox/user.js/wiki/3.2-Overrides-[Common])은 주관적으로 판단했을 때 지나치게 엄격하거나 웹사이트가 올바르게 작동하지 않을 수 있습니다. 옵션은 필요한 경우 [손쉽게 변경 가능합니다](https://github.com/arkenfox/user.js/wiki/3.1-Overrides). 저희는 전체 [위키](https://github.com/arkenfox/user.js/wiki) 내용을 읽어보실 것을 **강력히 권장드립니다**. Arkenfox에는 [컨테이너](https://support.mozilla.org/ko/kb/containers) 지원 활성화 또한 포함되어 있습니다.
 
@@ -204,34 +221,42 @@ Arkenfox는 캔버스 무작위화(Randomization)와 Firefox에 기본 탑재된
 
 ## Brave
 
-!!! recommendation
+<div class="admonition recommendation annotate" markdown>
 
-    ![Brave 로고](assets/img/browsers/brave.svg){ align=right }
-    
-    **Brave 브라우저**에는 콘텐츠 차단기와 [프라이버시 기능](https://brave.com/privacy-features/)이 내장되어 있으며, 이 중 상당수가 기본적으로 활성화되어 있습니다.
-    
-    Brace는 Chromium 웹 브라우저 프로젝트 기반으로 구축되었으므로, 친숙하며 웹사이트 호환성 문제가 적습니다.
-    
-    [:octicons-home-16: 홈페이지](https://brave.com/){ .md-button .md-button--primary }
-    [:simple-torbrowser:](https://brave4u7jddbv7cyviptqjc7jusxh72uik7zt6adtckl5f4nwy2v72qd.onion){ .card-link title="Onion Service" }
-    [:octicons-eye-16:](https://brave.com/privacy/browser/){ .card-link title="프라이버시 정책" }
-    [:octicons-info-16:](https://support.brave.com/){ .card-link title=문서}
-    [:octicons-code-16:](https://github.com/brave/brave-browser){ .card-link title="소스 코드" }
-    
-    ??? downloads annotate "다운로드"
-    
-        - [:simple-github: GitHub](https://github.com/brave/brave-browser/releases)
-        - [:simple-windows11: Windows](https://brave.com/download/)
-        - [:simple-apple: macOS](https://brave.com/download/)
-        - [:simple-linux: Linux](https://brave.com/linux/) (1)
+![Brave 로고](assets/img/browsers/brave.svg){ align=right }
 
-    1. Flatpak 버전 Brave는 Chromium의 샌드박스 기능을 효과가 떨어지는 Flatpak 샌드박스로 대체하기 때문에, Flatpak 버전은 사용하지 않는 것이 좋습니다. 또한, 해당 패키지는 Brave Software, Inc.에서 직접 관리하는 패키지가 아닙니다.
+**Brave 브라우저**에는 콘텐츠 차단기와 [프라이버시 기능](https://brave.com/privacy-features/)이 내장되어 있으며, 이 중 상당수가 기본적으로 활성화되어 있습니다.
+
+Brace는 Chromium 웹 브라우저 프로젝트 기반으로 구축되었으므로, 친숙하며 웹사이트 호환성 문제가 적습니다.
+
+[:octicons-home-16: Homepage](https://brave.com/){ .md-button .md-button--primary }
+[:simple-torbrowser:](https://brave4u7jddbv7cyviptqjc7jusxh72uik7zt6adtckl5f4nwy2v72qd.onion){ .card-link title="Onion Service" }
+[:octicons-eye-16:](https://brave.com/privacy/browser/){ .card-link title="Privacy Policy" }
+[:octicons-info-16:](https://support.brave.com/){ .card-link title=Documentation}
+[:octicons-code-16:](https://github.com/brave/brave-browser){ .card-link title="Source Code" }
+
+<details class="downloads" markdown>
+<summary>Downloads</summary>
+
+- [:simple-github: GitHub](https://github.com/brave/brave-browser/releases)
+- [:simple-windows11: Windows](https://brave.com/download/)
+- [:simple-apple: macOS](https://brave.com/download/)
+- [:simple-linux: Linux](https://brave.com/linux/) (1)
+
+</details>
+
+</div>
+
+1. Flatpak 버전 Brave는 Chromium의 샌드박스 기능을 효과가 떨어지는 Flatpak 샌드박스로 대체하기 때문에, Flatpak 버전은 사용하지 않는 것이 좋습니다. 또한, 해당 패키지는 Brave Software, Inc.에서 직접 관리하는 패키지가 아닙니다.
 
 **macOS users:** The download for Brave Browser from their official website is a `.pkg` installer which requires admin privileges to run (and may run other unnecessary scripts on your machine). As an alternative, you can download the latest `Brave-Browser-universal.dmg` file from their [GitHub releases](https://github.com/brave/brave-browser/releases/latest) page, which provides a traditional "drag to Applications folder" install.
 
-!!! warning "경고"
+<div class="admonition warning" markdown>
+<p class="admonition-title">Warning</p>
 
-    Brave adds a "[referral code](https://github.com/brave/brave-browser/wiki/Brave%E2%80%99s-Use-of-Referral-Codes)" to the file name in downloads from the Brave website, which is used to track which source the browser was downloaded from, for example `BRV002` in a download named `Brave-Browser-BRV002.pkg`. The installer will then ping Brave's server with the referral code at the end of the installation process. If you're concerned about this, you can rename the installer file before opening it.
+Brave adds a "[referral code](https://github.com/brave/brave-browser/wiki/Brave%E2%80%99s-Use-of-Referral-Codes)" to the file name in downloads from the Brave website, which is used to track which source the browser was downloaded from, for example `BRV002` in a download named `Brave-Browser-BRV002.pkg`. The installer will then ping Brave's server with the referral code at the end of the installation process. If you're concerned about this, you can rename the installer file before opening it.
+
+</div>
 
 ### 권장 설정
 
@@ -247,11 +272,15 @@ Brave 브라우저의 [보호](https://support.brave.com/hc/en-us/articles/36002
 
 <div class="annotate" markdown>
 
-- [x] **언어 환경 설정을 기반으로 사이트가 지문을 남기지 못하게 합니다** 활성화
-- [x] 추적기 & 광고 차단을 **공격적**으로 설정
+- [x] Select **Prevent sites from fingerprinting me based on my language preferences**
+- [x] Select **Aggressive** under Trackers & ads blocking
 
-    ??? warning "기본 필터 목록을 사용하세요"
-        Brave 브라우저는 `brave://adblock` 내부 페이지에서 추가적인 콘텐츠 필터를 선택할 수 있습니다. 이 기능을 사용하지 말고 기본 필터 목록을 유지할 것을 권장드립니다. 추가적인 목록을 사용하면 다른 Brave 사용자에 비해 더 눈에 띄게 되며, 만약 Brave에 취약점이 존재하고 여러분이 사용하는 규칙 목록에 악성 규칙이 포함될 경우 공격 표면을 증가시킬 수도 있습니다.
+<details class="warning" markdown>
+<summary>Use default filter lists</summary>
+
+Brave allows you to select additional content filters within the internal `brave://adblock` page. 이 기능을 사용하지 말고 기본 필터 목록을 유지할 것을 권장드립니다. 추가적인 목록을 사용하면 다른 Brave 사용자에 비해 더 눈에 띄게 되며, 만약 Brave에 취약점이 존재하고 여러분이 사용하는 규칙 목록에 악성 규칙이 포함될 경우 공격 표면을 증가시킬 수도 있습니다.
+
+</details>
 
 - [x] Select **Strict** under **Upgrade connections to HTTPS**
 - [x] (Optional) Select **Block Scripts** (1)
@@ -271,22 +300,25 @@ Brave 브라우저의 [보호](https://support.brave.com/hc/en-us/articles/36002
 
 <div class="annotate" markdown>
 
-- [x] [WebRTC IP 처리 방침](https://support.brave.com/hc/en-us/articles/360017989132-How-do-I-change-my-Privacy-Settings-#webrtc)에서 **프록시가 아닌 UDP 비활성화하기** 선택
-- [ ] **푸시 메시지에 Google 서비스 사용** 비활성화
-- [ ] **프라이버시 보호 제품 분석(P3A) 허용** 비활성화
-- [ ] **일일 사용 Ping을 Brave에 자동으로 보내기** 비활성화
-- [ ] **진단 보고서 자동 전송** 비활성화
-- [ ] **Tor와 함께하는 개인정보 보호 창** 비활성화 (1)
-
-    !!! tip "종료 시 데이터 정리"
-
-        - [x] **쿠키 및 기타 사이트 데이터** 메뉴에서 **모든 창이 닫히면 쿠키 및 사이트 데이터 삭제** 활성화
-
-        자주 방문하는 특정 사이트의 로그인을 유지하려면 **맞춤설정된 동작** 부분에서 사이트별 예외를 지정할 수 있습니다.
+- [x] Select **Disable non-proxied UDP** under [WebRTC IP Handling Policy](https://support.brave.com/hc/en-us/articles/360017989132-How-do-I-change-my-Privacy-Settings-#webrtc)
+- [ ] Uncheck **Use Google services for push messaging**
+- [ ] Uncheck **Allow privacy-preserving product analytics (P3A)**
+- [ ] Uncheck **Automatically send daily usage ping to Brave**
+- [ ] Uncheck **Automatically send diagnostic reports**
+- [ ] Uncheck **Private window with Tor** (1)
 
 </div>
 
 1. Brave 브라우저의 핑거프린팅 방지 기능은 Tor 브라우저만큼 강력하지 **않습니다**. 또한 Brave에서 Tor를 사용하는 사람은 훨씬 적기 때문에, 더욱 눈에 띄게 됩니다. [강력한 익명성이 필요한 경우라면](https://support.brave.com/hc/en-us/articles/360018121491-What-is-a-Private-Window-with-Tor-Connectivity-) [Tor 브라우저](tor.md#tor-browser)를 사용해야 합니다.
+
+<div class="admonition tip" markdown>
+<p class="admonition-title">Sanitizing on close</p>
+
+- [x] Select **Clear cookies and site data when you close all windows** in the *Cookies and other site data* menu
+
+If you wish to stay logged in to a particular site you visit often, you can set exceptions on a per-site basis under the *Customized behaviors* section.
+
+</div>
 
 ##### 확장 프로그램
 
@@ -328,22 +360,27 @@ Brave의 Web3 기능은 잠재적으로 브라우저의 핑거프린트와 공�
 
 ### uBlock Origin
 
-!!! recommendation
+<div class="admonition recommendation" markdown>
 
-    ![uBlock Origin 로고](assets/img/browsers/ublock_origin.svg){ align=right }
-    
-    **uBlock Origin**은 많은 사람들이 사용하는 콘텐츠 차단기입니다. 광고, 추적기, 핑거프린팅 스크립트를 차단하는 용도로 유용합니다.
-    
-    [:octicons-repo-16: 저장소](https://github.com/gorhill/uBlock#readme){ .md-button .md-button--primary }
-    [:octicons-eye-16:](https://github.com/gorhill/uBlock/wiki/Privacy-policy){ .card-link title="프라이버시 정책" }
-    [:octicons-info-16:](https://github.com/gorhill/uBlock/wiki){ .card-link title=문서}
-    [:octicons-code-16:](https://github.com/gorhill/uBlock){ .card-link title="소스 코드" }
-    
-    ??? downloads "다운로드"
-    
-        - [:simple-firefoxbrowser: Firefox](https://addons.mozilla.org/firefox/addon/ublock-origin/)
-        - [:simple-googlechrome: Chrome](https://chrome.google.com/webstore/detail/ublock-origin/cjpalhdlnbpafiamejdnhcphjbkeiagm)
-        - [:simple-microsoftedge: Edge](https://microsoftedge.microsoft.com/addons/detail/ublock-origin/odfafepnkmbhccpbejgmiehpchacaeak)
+![uBlock Origin 로고](assets/img/browsers/ublock_origin.svg){ align=right }
+
+**uBlock Origin**은 많은 사람들이 사용하는 콘텐츠 차단기입니다. 광고, 추적기, 핑거프린팅 스크립트를 차단하는 용도로 유용합니다.
+
+[:octicons-repo-16: Repository](https://github.com/gorhill/uBlock#readme){ .md-button .md-button--primary }
+[:octicons-eye-16:](https://github.com/gorhill/uBlock/wiki/Privacy-policy){ .card-link title="Privacy Policy" }
+[:octicons-info-16:](https://github.com/gorhill/uBlock/wiki){ .card-link title=Documentation}
+[:octicons-code-16:](https://github.com/gorhill/uBlock){ .card-link title="Source Code" }
+
+<details class="downloads" markdown>
+<summary>Downloads</summary>
+
+- [:simple-firefoxbrowser: Firefox](https://addons.mozilla.org/firefox/addon/ublock-origin/)
+- [:simple-googlechrome: Chrome](https://chrome.google.com/webstore/detail/ublock-origin/cjpalhdlnbpafiamejdnhcphjbkeiagm)
+- [:simple-microsoftedge: Edge](https://microsoftedge.microsoft.com/addons/detail/ublock-origin/odfafepnkmbhccpbejgmiehpchacaeak)
+
+</details>
+
+</div>
 
 [개발자가 작성한 문서](https://github.com/gorhill/uBlock/wiki/Blocking-mode)를 참고하여 모드 중 하나를 선택할 것을 권장드립니다. 필터 목록 추가는 성능에 영향을 미칠 수 있으며, [공격 표면을 증가시킬 수도 있습니다](https://portswigger.net/research/ublock-i-exfiltrate-exploiting-ad-blockers-with-css).
 
@@ -360,21 +397,26 @@ uBlock Origin also has a "Lite" version of their extension, which offers a very 
 - ...you want a more resource (memory/CPU) efficient content blocker[^1]
 - ...your browser only supports Manifest V3 extensions
 
-!!! recommendation
+<div class="admonition recommendation" markdown>
 
-    ![uBlock Origin Lite logo](assets/img/browsers/ublock_origin_lite.svg){ align=right }
-    
-    **uBlock Origin Lite** is a Manifest V3 compatible content blocker. Compared to the original *uBlock Origin*, this extension does not require broad "read/modify data" permissions to function.
-    
-    [:octicons-repo-16: Repository](https://github.com/uBlockOrigin/uBOL-home#readme){ .md-button .md-button--primary }
-    [:octicons-eye-16:](https://github.com/gorhill/uBlock/wiki/Privacy-policy){ .card-link title="Privacy Policy" }
-    [:octicons-info-16:](https://github.com/uBlockOrigin/uBOL-home/wiki){ .card-link title=Documentation}
-    [:octicons-code-16:](https://github.com/gorhill/uBlock/tree/master/platform/mv3){ .card-link title="Source Code" }
-    
-    ??? downloads
-    
-        - [:simple-firefoxbrowser: Firefox](https://addons.mozilla.org/addon/ublock-origin-lite/)
-        - [:simple-googlechrome: Chrome](https://chrome.google.com/webstore/detail/ublock-origin-lite/ddkjiahejlhfcafbddmgiahcphecmpfh)
+![uBlock Origin Lite logo](assets/img/browsers/ublock_origin_lite.svg){ align=right }
+
+**uBlock Origin Lite** is a Manifest V3 compatible content blocker. Compared to the original *uBlock Origin*, this extension does not require broad "read/modify data" permissions to function.
+
+[:octicons-repo-16: Repository](https://github.com/uBlockOrigin/uBOL-home#readme){ .md-button .md-button--primary }
+[:octicons-eye-16:](https://github.com/gorhill/uBlock/wiki/Privacy-policy){ .card-link title="Privacy Policy" }
+[:octicons-info-16:](https://github.com/uBlockOrigin/uBOL-home/wiki){ .card-link title=Documentation}
+[:octicons-code-16:](https://github.com/gorhill/uBlock/tree/master/platform/mv3){ .card-link title="Source Code" }
+
+<details class="downloads" markdown>
+<summary>Downloads</summary>
+
+- [:simple-firefoxbrowser: Firefox](https://addons.mozilla.org/addon/ublock-origin-lite/)
+- [:simple-googlechrome: Chrome](https://chrome.google.com/webstore/detail/ublock-origin-lite/ddkjiahejlhfcafbddmgiahcphecmpfh)
+
+</details>
+
+</div>
 
 We only recommend this version of uBlock Origin if you never want to make any changes to your filter lists, because it only supports a few pre-selected lists and offers no additional customization options, including the ability to select elements to block manually. These restrictions are due to limitations in Manifest V3's design.
 
@@ -388,9 +430,12 @@ uBlock Origin Lite only receives block list updates whenever the extension is up
 
 **Privacy Guides는 권장 목록의 어떠한 프로젝트와도 제휴를 맺지 않았습니다.** 객관적인 권장 목록을 제공하기 위해, [일반적인 평가 기준](about/criteria.md)에 더해 명확한 요구 사항을 정립하였습니다. 어떠한 프로젝트를 선택해 사용하기 전에, 이러한 요구 사항들을 숙지하고 여러분 스스로 조사하는 과정을 거쳐 적절한 선택을 하시기 바랍니다.
 
-!!! example "이 단락은 최근에 만들어졌습니다"
+<div class="admonition example" markdown>
+<p class="admonition-title">This section is new</p>
 
-    Privacy Guides 팀은 사이트의 모든 항목마다 명확한 평가 기준을 정립하는 중이며, 따라서 세부 내용은 변경될 수 있습니다. 평가 기준에 대해서 질문이 있다면 [포럼에서 문의](https://discuss.privacyguides.net/latest)하시기 바랍니다. (무언가가 목록에 존재하지 않다고 해서 권장 목록을 작성할 때 고려한 적이 없을 것으로 단정 짓지 마세요.) 권장 목록에 어떤 프로젝트를 추가할 때 고려하고 논의해야 할 요소는 매우 많으며, 모든 요소를 문서화하는 것은 현재 진행 중인 작업입니다.
+Privacy Guides 팀은 사이트의 모든 항목마다 명확한 평가 기준을 정립하는 중이며, 따라서 세부 내용은 변경될 수 있습니다. 평가 기준에 대해서 질문이 있다면 [포럼에서 문의](https://discuss.privacyguides.net/latest)하시기 바랍니다. (무언가가 목록에 존재하지 않다고 해서 권장 목록을 작성할 때 고려한 적이 없을 것으로 단정 짓지 마세요.) 권장 목록에 어떤 프로젝트를 추가할 때 고려하고 논의해야 할 요소는 매우 많으며, 모든 요소를 문서화하는 것은 현재 진행 중인 작업입니다.
+
+</div>
 
 ### 최소 요구 사항
 
@@ -402,15 +447,13 @@ uBlock Origin Lite only receives block list updates whenever the extension is up
 - 타사 쿠키를 기본적으로 차단해야 합니다.
 - Supports [state partitioning](https://developer.mozilla.org/en-US/docs/Web/Privacy/State_Partitioning) to mitigate cross-site tracking.[^2]
 
-
 ### 우대 사항
 
 평가 기준에서 '우대 사항'은 해당 부문에서 완벽한 프로젝트에 기대하는 바를 나타냅니다. 다음의 우대 사항에 해당하지 않더라도 권장 목록에 포함될 수 있습니다. 단, 우대 사항에 해당할수록 이 페이지의 다른 항목보다 높은 순위를 갖습니다.
 
 - 콘텐츠 차단 기능을 내장해야 합니다.
 - 쿠키 구획화를 지원해야 합니다. (예시: [멀티 컨테이너](https://support.mozilla.org/ko/kb/containers))
-- PWA(Progressive Web App)를 지원해야 합니다.  
-  PWA를 사용하면 특정 웹사이트를 마치 네이티브 앱인 것처럼 컴퓨터에 설치할 수 있습니다. 브라우저의 정기적인 보안 업데이트 혜택을 받을 수 있으므로 Electron 기반 앱보다 유리한 점이 있습니다.
+- Supports Progressive Web Apps. PWAs enable you to install certain websites as if they were native apps on your computer. 브라우저의 정기적인 보안 업데이트 혜택을 받을 수 있으므로 Electron 기반 앱보다 유리한 점이 있습니다.
 - 사용자 프라이버시에 이점을 주지 않는 애드온 기능(블로트웨어)을 포함하지 않아야 합니다.
 - 원격 분석 데이터를 기본적으로 수집하지 않아야 합니다.
 - 오픈 소스 동기화 서버 구현체를 제공해야 합니다.

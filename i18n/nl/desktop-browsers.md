@@ -63,22 +63,27 @@ In het algemeen raden we aan om extensies tot een minimum te beperken: ze hebben
 
 ## Mullvad Browser
 
-!!! recommendation
+<div class="admonition recommendation" markdown>
 
-    Mullvad Browser logo](assets/img/browsers/mullvad_browser.svg){ align=right }
-    
-    **Mullvad Browser** is een versie van [Tor Browser](tor.md#tor-browser) met zonder Tor netwerk integraties, gericht op het aanbieden van Tor Browser's anti-vingerafdruk browser technologieën aan VPN gebruikers. Het is ontwikkeld door het Tor Project en gedistribueerd door [Mullvad](vpn.md#mullvad), en vereist **niet** het gebruik van Mullvad's VPN.
-    
-    [:octicons-home-16: Homepage](https://mullvad.net/en/browser){ .md-button .md-button--primary }
-    [:octicons-eye-16:](https://mullvad.net/en/help/privacy-policy/){ .card-link title="Privacy Policy" }
-    [:octicons-info-16:](https://mullvad.net/en/help/tag/mullvad-browser/){ .card-link title=Documentation}
-    [:octicons-code-16:](https://gitlab.torproject.org/tpo/applications/mullvad-browser){ .card-link title="Source Code" }
-    
-    ??? downloads
-    
-        - [:simple-windows11: Windows](https://mullvad.net/en/download/browser/windows)
-        - [:simple-apple: macOS](https://mullvad.net/en/download/browser/macos)
-        - [:simple-linux: Linux](https://mullvad.net/en/download/browser/linux)
+Mullvad Browser logo](assets/img/browsers/mullvad_browser.svg){ align=right }
+
+**Mullvad Browser** is een versie van [Tor Browser](tor.md#tor-browser) met zonder Tor netwerk integraties, gericht op het aanbieden van Tor Browser's anti-vingerafdruk browser technologieën aan VPN gebruikers. Het is ontwikkeld door het Tor Project en gedistribueerd door [Mullvad](vpn.md#mullvad), en vereist **niet** het gebruik van Mullvad's VPN.
+
+[:octicons-home-16: Homepage](https://mullvad.net/en/browser){ .md-button .md-button--primary }
+[:octicons-eye-16:](https://mullvad.net/en/help/privacy-policy/){ .card-link title="Privacy Policy" }
+[:octicons-info-16:](https://mullvad.net/en/help/tag/mullvad-browser/){ .card-link title=Documentation}
+[:octicons-code-16:](https://gitlab.torproject.org/tpo/applications/mullvad-browser){ .card-link title="Source Code" }
+
+<details class="downloads" markdown>
+<summary>Downloads</summary>
+
+- [:simple-windows11: Windows](https://mullvad.net/en/download/browser/windows)
+- [:simple-apple: macOS](https://mullvad.net/en/download/browser/macos)
+- [:simple-linux: Linux](https://mullvad.net/en/download/browser/linux)
+
+</details>
+
+</div>
 
 Net als [Tor Browser](tor.md), is Mullvad Browser ontworpen om fingerprinting te voorkomen door jouw browser fingerprint identiek te maken aan alle andere Mullvad Browser gebruikers, en het bevat standaard instellingen en extensies die automatisch worden geconfigureerd door de standaard beveiligingsniveaus: *Standaard*, *Veiliger* en *Veiligst*. Daarom is het noodzakelijk dat je de browser helemaal niet aanpast buiten het aanpassen van de standaard [beveiligingsniveaus](https://tb-manual.torproject.org/security-settings/). Andere wijzigingen zouden jouw vingerafdruk uniek maken, wat het doel van het gebruik van deze browser tenietdoet. Als je jouw browser zwaarder wilt configureren en fingerprinting voor jou geen probleem is, raden wij in plaats daarvan [Firefox](#firefox) aan.
 
@@ -104,27 +109,36 @@ Mullvad Browser wordt geleverd met DuckDuckGo ingesteld als de standaard [zoekma
 
 ## Firefox
 
-!!! recommendation
+<div class="admonition recommendation" markdown>
 
-    ![Firefox-logo](assets/img/browsers/firefox.svg){ align=right }
-    
-    **Firefox** biedt krachtige privacy-instellingen zoals [Enhanced Tracking Protection](https://support.mozilla.org/kb/enhanced-tracking-protection-firefox-desktop), die kunnen helpen bij het blokkeren van verschillende [soorten tracking](https://support.mozilla.org/kb/enhanced-tracking-protection-firefox-desktop#w_what-enhanced-tracking-protection-blocks).
-    
-    [:octicons-home-16: Homepage](https://firefox.com){ .md-button .md-button--primary }
-    [:octicons-eye-16:](https://www.mozilla.org/privacy/firefox/){ .card-link title="Privacybeleid" }
-    [:octicons-info-16:](https://firefox-source-docs.mozilla.org/){ .card-link title=Documentatie}
-    [:octicons-code-16:](https://hg.mozilla.org/mozilla-central){ .card-link title="Broncode" }
-    [:octicons-heart-16:](https://donate.mozilla.org/){ .card-link title=Bijdragen }
-    
-    ??? downloads "Downloaden"
-    
-        - [:simple-windows11: Windows](https://www.mozilla.org/firefox/windows)
-        - [:simple-apple: macOS](https://www.mozilla.org/firefox/mac)
-        - [:simple-linux: Linux](https://www.mozilla.org/firefox/linux)
-        - [:simple-flathub: Flathub](https://flathub.org/apps/details/org.mozilla.firefox)
+![Firefox-logo](assets/img/browsers/firefox.svg){ align=right }
 
-!!! warning
-    Firefox bevat een uniek [downloadtoken](https://bugzilla.mozilla.org/show_bug.cgi?id=1677497#c0) in downloads van Mozilla's website en gebruikt telemetrie in Firefox om het token te verzenden. Het token is **niet** opgenomen in uitgaven van de [Mozilla FTP](https://ftp.mozilla.org/pub/firefox/releases/).
+**Firefox** biedt krachtige privacy-instellingen zoals [Enhanced Tracking Protection](https://support.mozilla.org/kb/enhanced-tracking-protection-firefox-desktop), die kunnen helpen bij het blokkeren van verschillende [soorten tracking](https://support.mozilla.org/kb/enhanced-tracking-protection-firefox-desktop#w_what-enhanced-tracking-protection-blocks).
+
+[:octicons-home-16: Homepage](https://firefox.com){ .md-button .md-button--primary }
+[:octicons-eye-16:](https://www.mozilla.org/privacy/firefox/){ .card-link title="Privacy Policy" }
+[:octicons-info-16:](https://firefox-source-docs.mozilla.org/){ .card-link title=Documentation}
+[:octicons-code-16:](https://hg.mozilla.org/mozilla-central){ .card-link title="Source Code" }
+[:octicons-heart-16:](https://donate.mozilla.org/){ .card-link title=Contribute }
+
+<details class="downloads" markdown>
+<summary>Downloads</summary>
+
+- [:simple-windows11: Windows](https://www.mozilla.org/firefox/windows)
+- [:simple-apple: macOS](https://www.mozilla.org/firefox/mac)
+- [:simple-linux: Linux](https://www.mozilla.org/firefox/linux)
+- [:simple-flathub: Flathub](https://flathub.org/apps/details/org.mozilla.firefox)
+
+</details>
+
+</div>
+
+<div class="admonition warning" markdown>
+<p class="admonition-title">Warning</p>
+
+Firefox includes a unique [download token](https://bugzilla.mozilla.org/show_bug.cgi?id=1677497#c0) in downloads from Mozilla's website and uses telemetry in Firefox to send the token. The token is **not** included in releases from the [Mozilla FTP](https://ftp.mozilla.org/pub/firefox/releases/).
+
+</div>
 
 ### Aanbevolen configuratie
 
@@ -194,9 +208,12 @@ Max Bescherming forceert het gebruik van DNS via HTTPS. Een beveiligingswaarschu
 
 ### Arkenfox (gevorderd)
 
-!!! tip "Gebruik Mullvad Browser voor geavanceerde anti-fingerprinting"
+<div class="admonition tip" markdown>
+<p class="admonition-title">Use Mullvad Browser for advanced anti-fingerprinting</p>
 
-    [Mullvad Browser](#mullvad-browser) biedt dezelfde anti-fingeprint bescherming als Arkenfox out of the box, en vereist niet het gebruik van Mullvad's VPN om van deze bescherming te profiteren. In combinatie met een VPN kan Mullvad Browser meer geavanceerde tracking scripts dwarsbomen dan Arkenfox. Arkenfox heeft nog steeds het voordeel dat het veel flexibeler is, en uitzonderingen per site toestaat voor websites waarop je ingelogd moet blijven.
+[Mullvad Browser](#mullvad-browser) biedt dezelfde anti-fingeprint bescherming als Arkenfox out of the box, en vereist niet het gebruik van Mullvad's VPN om van deze bescherming te profiteren. In combinatie met een VPN kan Mullvad Browser meer geavanceerde tracking scripts dwarsbomen dan Arkenfox. Arkenfox heeft nog steeds het voordeel dat het veel flexibeler is, en uitzonderingen per site toestaat voor websites waarop je ingelogd moet blijven.
+
+</div>
 
 Het [Arkenfox-project](https://github.com/arkenfox/user.js) biedt een reeks zorgvuldig overwogen opties voor Firefox. Als je [besluit](https://github.com/arkenfox/user.js/wiki/1.1-To-Arkenfox-or-Not) om Arkenfox te gebruiken, zijn er een [paar opties](https://github.com/arkenfox/user.js/wiki/3.2-Overrides-[Common]) die subjectief streng zijn en/of ervoor kunnen zorgen dat sommige websites niet goed werken - [die je gemakkelijk kunt wijzigen](https://github.com/arkenfox/user.js/wiki/3.1-Overrides) om aan jouw behoeften te voldoen. Wij **raden je ten zeerste aan** hun volledige [wiki](https://github.com/arkenfox/user.js/wiki)door te lezen. Arkenfox biedt ook ondersteuning voor [container](https://support.mozilla.org/en-US/kb/containers#w_for-advanced-users).
 
@@ -204,34 +221,42 @@ Arkenfox wil alleen elementaire of naïeve volgscripts dwarsbomen via canvas ran
 
 ## Brave
 
-!!! recommendation
+<div class="admonition recommendation annotate" markdown>
 
-    ![Brave-logo](assets/img/browsers/brave.svg){ align=right }
-    
-    **Brave Browser** bevat een ingebouwde inhoudsblokker en [privacyfuncties](https://brave.com/privacy-features/), waarvan vele standaard zijn ingeschakeld.
-    
-    Brave is gebouwd op het Chromium webbrowser project, dus het zou vertrouwd moeten aanvoelen en minimale website compatibiliteitsproblemen moeten hebben.
-    
-    [:octicons-home-16: Homepage](https://brave.com/){ .md-button .md-button--primary }
-    [:simple-torbrowser:](https://brave4u7jddbv7cyviptqjc7jusxh72uik7zt6adtckl5f4nwy2v72qd.onion){ .card-link title="Onion Service" }
-    [:octicons-eye-16:](https://brave.com/privacy/browser/){ .card-link title="Privacy Policy" }.
-    [:octicons-info-16:](https://support.brave.com/){ .card-link title=Documentatie}
-    [:octicons-code-16:](https://github.com/brave/brave-browser){ .card-link title="Broncode" }
-    
-    ??? downloads annotate "Downloaden"
-    
-        - [:simple-github: GitHub](https://github.com/brave/brave-browser/releases)
-        - [:simple-windows11: Windows](https://brave.com/download/)
-        - [:simple-apple: macOS](https://brave.com/download/)
-        - [:simple-linux: Linux](https://brave.com/linux/) (1)
+![Brave-logo](assets/img/browsers/brave.svg){ align=right }
 
-    1. We raden af om de Flatpak-versie van Brave te gebruiken, omdat die de sandbox van Chromium vervangt door die van Flatpak, wat minder effectief is. Bovendien wordt het pakket niet onderhouden door Brave Software, Inc.
+**Brave Browser** bevat een ingebouwde inhoudsblokker en [privacyfuncties](https://brave.com/privacy-features/), waarvan vele standaard zijn ingeschakeld.
+
+Brave is gebouwd op het Chromium webbrowser project, dus het zou vertrouwd moeten aanvoelen en minimale website compatibiliteitsproblemen moeten hebben.
+
+[:octicons-home-16: Homepage](https://brave.com/){ .md-button .md-button--primary }
+[:simple-torbrowser:](https://brave4u7jddbv7cyviptqjc7jusxh72uik7zt6adtckl5f4nwy2v72qd.onion){ .card-link title="Onion Service" }
+[:octicons-eye-16:](https://brave.com/privacy/browser/){ .card-link title="Privacy Policy" }
+[:octicons-info-16:](https://support.brave.com/){ .card-link title=Documentation}
+[:octicons-code-16:](https://github.com/brave/brave-browser){ .card-link title="Source Code" }
+
+<details class="downloads" markdown>
+<summary>Downloads</summary>
+
+- [:simple-github: GitHub](https://github.com/brave/brave-browser/releases)
+- [:simple-windows11: Windows](https://brave.com/download/)
+- [:simple-apple: macOS](https://brave.com/download/)
+- [:simple-linux: Linux](https://brave.com/linux/) (1)
+
+</details>
+
+</div>
+
+1. We raden af om de Flatpak-versie van Brave te gebruiken, omdat die de sandbox van Chromium vervangt door die van Flatpak, wat minder effectief is. Bovendien wordt het pakket niet onderhouden door Brave Software, Inc.
 
 **macOS-gebruikers:** De download van Brave Browser van hun officiële website is een `.pkg` installatieprogramma dat beheerdersrechten vereist om uit te voeren (en het kan andere onnodige scripts uitvoeren op uw machine). Als een alternatief kunt u de laatste `Brave-Browser-universal.dmg` file downloaden van hun [GitHub releases](https://github.com/brave/brave-browser/releases/latest) pagina, die een traditionele "Sleep naar Applicaties map" installatie biedt.
 
-!!! waarschuwing
+<div class="admonition warning" markdown>
+<p class="admonition-title">Warning</p>
 
-    Brave voegt een "[referral code](https://github.com/brave/brave-browser/wiki/Brave%E2%80%99s-Use-of-Referral-Codes)" toe aan de file naam in downloads van de Brave website, die wordt gebruikt om te volgen van welke bron de browser heeft gedownload. Als voorbeeld `BRV002` in een download genaamd `Brave-Browser-BRV002.pkg`. Het installatieprogramma zal aan het eind van het installatieproces de server van Brave pingen met de verwijzingscode. Als u zich hier zorgen om maakt kunt u de naam van de installer veranderen voor het openen.
+Brave voegt een "[referral code](https://github.com/brave/brave-browser/wiki/Brave%E2%80%99s-Use-of-Referral-Codes)" toe aan de file naam in downloads van de Brave website, die wordt gebruikt om te volgen van welke bron de browser heeft gedownload. Als voorbeeld `BRV002` in een download genaamd `Brave-Browser-BRV002.pkg`. Het installatieprogramma zal aan het eind van het installatieproces de server van Brave pingen met de verwijzingscode. Als u zich hier zorgen om maakt kunt u de naam van de installer veranderen voor het openen.
+
+</div>
 
 ### Aanbevolen Configuratie
 
@@ -247,11 +272,15 @@ De opties van Shields kunnen naar behoefte per site worden gedowngrade, maar sta
 
 <div class="annotate" markdown>
 
-- [x] Select **Voorkom dat sites vingerafdrukken van mij nemen op basis van mijn taalvoorkeuren**
-- [x] Select **Aggressief** onder Trackers & advertentieblokkering
+- [x] Select **Prevent sites from fingerprinting me based on my language preferences**
+- [x] Select **Aggressive** under Trackers & ads blocking
 
-    ??? warning "Gebruik standaard filter lijsten"
-        Brave staat je toe om extra inhoud filters te selecteren binnen de interne `brave://adblock` pagina. Wij raden het gebruik van deze functie af; houd in plaats daarvan de standaardfilterlijsten aan. Het gebruik van extra lijsten zorgt ervoor dat u zich onderscheidt van andere Brave gebruikers en kan ook het aanvalsoppervlak vergroten als er een exploit in Brave is en een kwaadaardige regel wordt toegevoegd aan één van de lijsten die je gebruikt.
+<details class="warning" markdown>
+<summary>Use default filter lists</summary>
+
+Brave allows you to select additional content filters within the internal `brave://adblock` page. Wij raden het gebruik van deze functie af; houd in plaats daarvan de standaardfilterlijsten aan. Het gebruik van extra lijsten zorgt ervoor dat u zich onderscheidt van andere Brave gebruikers en kan ook het aanvalsoppervlak vergroten als er een exploit in Brave is en een kwaadaardige regel wordt toegevoegd aan één van de lijsten die je gebruikt.
+
+</details>
 
 - [x] Select **Strict** under **Upgrade connections to HTTPS**
 - [x] (Optional) Select **Block Scripts** (1)
@@ -271,23 +300,25 @@ De opties van Shields kunnen naar behoefte per site worden gedowngrade, maar sta
 
 <div class="annotate" markdown>
 
-- [x] Selecteer **Deactiveer non-proxied UDP** onder [WebRTC IP-verwerkingsbeleid](https://support.brave.com/hc/nl-us/articles/360017989132-How-do-I-change-my-Privacy-Settings-#webrtc)
-- [ ] Zet **Google-diensten gebruiken voor pushberichten** uit
-- [ ] Zet **Productanalyse met privacybescherming (P3A) toestaan** uit
-- [ ] Zet **Dagelijks automatisch gebruiksping verzenden naar Brave** uit
-- [ ] Zet **Diagnostische rapporten automatisch verzenden** uit
-- [x] Selecteer **Altijd beveiligde verbindingen gebruiken** onder het menu **Beveiliging**
-- [ ] Zet **Privéscherm met Tor** uit (1)
-
-    !!! tip "Saneren bij sluiten"
-
-        - [x] Select **Cookies en sitegegevens wissen bij het sluiten van alle vensters** in het menu *Cookies en andere sitegegevens*
-
-        Als je ingelogd wilt blijven bij een bepaalde site die je vaak bezoekt, kun je per site uitzonderingen instellen in het gedeelte *Aangepast gedrag*.
+- [x] Select **Disable non-proxied UDP** under [WebRTC IP Handling Policy](https://support.brave.com/hc/en-us/articles/360017989132-How-do-I-change-my-Privacy-Settings-#webrtc)
+- [ ] Uncheck **Use Google services for push messaging**
+- [ ] Uncheck **Allow privacy-preserving product analytics (P3A)**
+- [ ] Uncheck **Automatically send daily usage ping to Brave**
+- [ ] Uncheck **Automatically send diagnostic reports**
+- [ ] Uncheck **Private window with Tor** (1)
 
 </div>
 
 1. Brave is **niet** zo resistent tegen vingerafdrukken als de Tor Browser en veel minder mensen gebruiken Brave met Tor, dus zal je opvallen. Wanneer [sterke anonimiteit vereist is](https://support.brave.com/hc/en-us/articles/360018121491-What-is-a-Private-Window-with-Tor-Connectivity-) gebruik dan de [Tor Browser](tor.md#tor-browser).
+
+<div class="admonition tip" markdown>
+<p class="admonition-title">Sanitizing on close</p>
+
+- [x] Select **Clear cookies and site data when you close all windows** in the *Cookies and other site data* menu
+
+If you wish to stay logged in to a particular site you visit often, you can set exceptions on a per-site basis under the *Customized behaviors* section.
+
+</div>
 
 ##### Extensies
 
@@ -329,22 +360,27 @@ In het algemeen raden wij aan jouw browserextensies tot een minimum te beperken;
 
 ### uBlock Origin
 
-!!! recommendation
+<div class="admonition recommendation" markdown>
 
-    ![uBlock Origin logo](assets/img/browsers/ublock_origin.svg){ align=right }
-    
-    **uBlock Origin** is een populaire inhoudsblokker die je kan helpen bij het blokkeren van advertenties, trackers en vingerafdrukscripts.
-    
-    [:octicons-repo-16: Repository](https://github.com/gorhill/uBlock#readme){ .md-button .md-button--primary }
-    [:octicons-eye-16:](https://github.com/gorhill/uBlock/wiki/Privacy-policy){ .card-link title="Privacybeleid" }
-    [:octicons-info-16:](https://github.com/gorhill/uBlock/wiki){ .card-link title=Documentatie}
-    [:octicons-code-16:](https://github.com/gorhill/uBlock){ .card-link title="Broncode" }
-    
-    ??? downloads "Downloaden"
-    
-        - [:simple-firefoxbrowser: Firefox](https://addons.mozilla.org/firefox/addon/ublock-origin/)
-        - [:simple-googlechrome: Chrome](https://chrome.google.com/webstore/detail/ublock-origin/cjpalhdlnbpafiamejdnhcphjbkeiagm)
-        - [:simple-microsoftedge: Edge](https://microsoftedge.microsoft.com/addons/detail/ublock-origin/odfafepnkmbhccpbejgmiehpchacaeak)
+![uBlock Origin logo](assets/img/browsers/ublock_origin.svg){ align=right }
+
+**uBlock Origin** is een populaire inhoudsblokker die je kan helpen bij het blokkeren van advertenties, trackers en vingerafdrukscripts.
+
+[:octicons-repo-16: Repository](https://github.com/gorhill/uBlock#readme){ .md-button .md-button--primary }
+[:octicons-eye-16:](https://github.com/gorhill/uBlock/wiki/Privacy-policy){ .card-link title="Privacy Policy" }
+[:octicons-info-16:](https://github.com/gorhill/uBlock/wiki){ .card-link title=Documentation}
+[:octicons-code-16:](https://github.com/gorhill/uBlock){ .card-link title="Source Code" }
+
+<details class="downloads" markdown>
+<summary>Downloads</summary>
+
+- [:simple-firefoxbrowser: Firefox](https://addons.mozilla.org/firefox/addon/ublock-origin/)
+- [:simple-googlechrome: Chrome](https://chrome.google.com/webstore/detail/ublock-origin/cjpalhdlnbpafiamejdnhcphjbkeiagm)
+- [:simple-microsoftedge: Edge](https://microsoftedge.microsoft.com/addons/detail/ublock-origin/odfafepnkmbhccpbejgmiehpchacaeak)
+
+</details>
+
+</div>
 
 Wij raden aan om de documentatie van de [ontwikkelaar te volgen](https://github.com/gorhill/uBlock/wiki/Blocking-mode) en een van de "modes" te kiezen. Extra filterlijsten kunnen de prestaties beïnvloeden en [kan het aanvalsoppervlak vergroten](https://portswigger.net/research/ublock-i-exfiltrate-exploiting-ad-blockers-with-css).
 
@@ -361,21 +397,26 @@ uBlock Origin also has a "Lite" version of their extension, which offers a very 
 - ...you want a more resource (memory/CPU) efficient content blocker[^1]
 - ...your browser only supports Manifest V3 extensions
 
-!!! recommendation
+<div class="admonition recommendation" markdown>
 
-    ![uBlock Origin Lite logo](assets/img/browsers/ublock_origin_lite.svg){ align=right }
-    
-    **uBlock Origin Lite** is a Manifest V3 compatible content blocker. Compared to the original *uBlock Origin*, this extension does not require broad "read/modify data" permissions to function.
-    
-    [:octicons-repo-16: Repository](https://github.com/uBlockOrigin/uBOL-home#readme){ .md-button .md-button--primary }
-    [:octicons-eye-16:](https://github.com/gorhill/uBlock/wiki/Privacy-policy){ .card-link title="Privacy Policy" }
-    [:octicons-info-16:](https://github.com/uBlockOrigin/uBOL-home/wiki){ .card-link title=Documentation}
-    [:octicons-code-16:](https://github.com/gorhill/uBlock/tree/master/platform/mv3){ .card-link title="Source Code" }
-    
-    ??? downloads
-    
-        - [:simple-firefoxbrowser: Firefox](https://addons.mozilla.org/addon/ublock-origin-lite/)
-        - [:simple-googlechrome: Chrome](https://chrome.google.com/webstore/detail/ublock-origin-lite/ddkjiahejlhfcafbddmgiahcphecmpfh)
+![uBlock Origin Lite logo](assets/img/browsers/ublock_origin_lite.svg){ align=right }
+
+**uBlock Origin Lite** is a Manifest V3 compatible content blocker. Compared to the original *uBlock Origin*, this extension does not require broad "read/modify data" permissions to function.
+
+[:octicons-repo-16: Repository](https://github.com/uBlockOrigin/uBOL-home#readme){ .md-button .md-button--primary }
+[:octicons-eye-16:](https://github.com/gorhill/uBlock/wiki/Privacy-policy){ .card-link title="Privacy Policy" }
+[:octicons-info-16:](https://github.com/uBlockOrigin/uBOL-home/wiki){ .card-link title=Documentation}
+[:octicons-code-16:](https://github.com/gorhill/uBlock/tree/master/platform/mv3){ .card-link title="Source Code" }
+
+<details class="downloads" markdown>
+<summary>Downloads</summary>
+
+- [:simple-firefoxbrowser: Firefox](https://addons.mozilla.org/addon/ublock-origin-lite/)
+- [:simple-googlechrome: Chrome](https://chrome.google.com/webstore/detail/ublock-origin-lite/ddkjiahejlhfcafbddmgiahcphecmpfh)
+
+</details>
+
+</div>
 
 We only recommend this version of uBlock Origin if you never want to make any changes to your filter lists, because it only supports a few pre-selected lists and offers no additional customization options, including the ability to select elements to block manually. These restrictions are due to limitations in Manifest V3's design.
 
@@ -389,9 +430,12 @@ uBlock Origin Lite only receives block list updates whenever the extension is up
 
 **Wij zijn niet verbonden aan de projecten die wij aanbevelen.** Naast [onze standaardcriteria](about/criteria.md)hebben wij een duidelijke reeks eisen ontwikkeld om objectieve aanbevelingen te kunnen doen. Wij stellen voor dat je jezelf vertrouwd maakt met deze lijst voordat je een project kiest, en jouw eigen onderzoek uitvoert om er zeker van te zijn dat je de juiste keuze maakt.
 
-!!! example "Deze sectie is nieuw"
+<div class="admonition example" markdown>
+<p class="admonition-title">This section is new</p>
 
-    We werken aan het vaststellen van gedefinieerde criteria voor elk deel van onze site, en dit kan onderhevig zijn aan verandering. Als je vragen hebt over onze criteria, stel ze dan [op ons forum](https://discuss.privacyguides.net/latest) en neem niet aan dat we iets niet in overweging hebben genomen bij het opstellen van onze aanbevelingen als het hier niet vermeld staat. Er zijn veel factoren die worden overwogen en besproken wanneer wij een project aanbevelen, en het documenteren van elke factor is een werk in uitvoering.
+We werken aan het vaststellen van gedefinieerde criteria voor elk deel van onze site, en dit kan onderhevig zijn aan verandering. Als je vragen hebt over onze criteria, stel ze dan [op ons forum](https://discuss.privacyguides.net/latest) en neem niet aan dat we iets niet in overweging hebben genomen bij het opstellen van onze aanbevelingen als het hier niet vermeld staat. Er zijn veel factoren die worden overwogen en besproken wanneer wij een project aanbevelen, en het documenteren van elke factor is een werk in uitvoering.
+
+</div>
 
 ### Minimumvereisten
 
@@ -403,15 +447,13 @@ uBlock Origin Lite only receives block list updates whenever the extension is up
 - Blokkeert standaard cookies van derden.
 - Supports [state partitioning](https://developer.mozilla.org/en-US/docs/Web/Privacy/State_Partitioning) to mitigate cross-site tracking.[^2]
 
-
 ### Beste geval
 
 Onze best-case criteria geven aan wat wij zouden willen zien van het perfecte project in deze categorie. Het is mogelijk dat onze aanbevelingen geen of niet alle functies bevatten, maar degene die dat wel doen kunnen hoger gerangschikt worden dan andere op deze pagina.
 
 - Beschikt over ingebouwde functionaliteit voor het blokkeren van inhoud.
 - Ondersteunt cookie Compartimentalisatie ( à la [Multi-Account Containers](https://support.mozilla.org/en-US/kb/containers)).
-- Ondersteunt Progressive Web Apps.  
-  PWA 's stellen je in staat om bepaalde websites te installeren alsof het native apps op jouw computer zijn. Dit kan voordelen hebben ten opzichte van het installeren van op electron gebaseerde apps, omdat je profiteert van de regelmatige beveiligingsupdates van jouw browser.
+- Supports Progressive Web Apps. PWAs enable you to install certain websites as if they were native apps on your computer. Dit kan voordelen hebben ten opzichte van het installeren van op electron gebaseerde apps, omdat je profiteert van de regelmatige beveiligingsupdates van jouw browser.
 - Omvat geen add-on functionaliteit (bloatware) die geen invloed heeft op de privacy van gebruikers.
 - Verzamelt standaard geen telemetrie.
 - Biedt een open-source sync-server implementatie.

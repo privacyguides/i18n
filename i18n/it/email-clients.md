@@ -1,20 +1,20 @@
 ---
 title: "Client Email"
 icon: material/email-open
-description: These email clients are privacy-respecting and support OpenPGP email encryption.
+description: Questi client di posta elettronica rispettano la privacy e supportano la crittografia OpenPGP.
 cover: email-clients.webp
 ---
 
 Il nostro elenco di consigli contiene i client email che supportano sia [OpenPGP](encryption.md#openpgp) che l'autenticazione forte, come [Open Authorization (OAuth)](https://en.wikipedia.org/wiki/OAuth). OAuth consente di utilizzare l'[autenticazione a più fattori](basics/multi-factor-authentication.md) e di prevenire il furto del profilo.
 
 <details class="warning" markdown>
-<summary>Email does not provide forward secrecy</summary>
+<summary>L'email non fornisce la forward secrecy</summary>
 
-When using end-to-end encryption (E2EE) technology like OpenPGP, email will still have [some metadata](email.md#email-metadata-overview) that is not encrypted in the header of the email.
+Quando si utilizza una tecnologia di crittografia end-to-end (E2EE) come OpenPGP, le e-mail avranno ancora [alcuni metadati](email.md#email-metadata-overview) non crittografati nell'intestazione dell'e-mail.
 
-OpenPGP also does not support [forward secrecy](https://en.wikipedia.org/wiki/Forward_secrecy), which means if either your or the recipient's private key is ever stolen, all previous messages encrypted with it will be exposed: [How do I protect my private keys?](basics/email-security.md) Consider using a medium that provides forward secrecy:
+OpenPGP non supporta inoltre la [forward secrecy](https://en.wikipedia.org/wiki/Forward_secrecy), il che significa che se la tua chiave privata o quella del destinatario viene rubata, tutti i messaggi precedenti crittografati con essa saranno esposti: [Come posso proteggere le mie chiavi private?](basics/email-security.md) Considera la possibilità di utilizzare un mezzo di comunicazione che garantisca la forward secrecy:
 
-[Real-time Communication](real-time-communication.md ""){.md-button}
+[Comunicazione in tempo reale](real-time-communication.md ""){.md-button}
 
 </details>
 
@@ -29,12 +29,12 @@ OpenPGP also does not support [forward secrecy](https://en.wikipedia.org/wiki/Fo
 **Thunderbird** è un client email, newsgroup, feed di notizie e chat (XMPP, IRC, Twitter) gratuito, open source e multipiattaforma, sviluppato dalla community di Thunderbird e precedentemente dalla Mozilla Foundation.
 
 [:octicons-home-16: Homepage](https://www.thunderbird.net){ .md-button .md-button--primary }
-[:octicons-eye-16:](https://www.mozilla.org/privacy/thunderbird){ .card-link title="Privacy Policy" }
-[:octicons-info-16:](https://support.mozilla.org/products/thunderbird){ .card-link title=Documentation}
-[:octicons-code-16:](https://hg.mozilla.org/comm-central){ .card-link title="Source Code" }
+[:octicons-eye-16:](https://www.mozilla.org/privacy/thunderbird){ .card-link title="Informativa sulla Privacy" }
+[:octicons-info-16:](https://support.mozilla.org/products/thunderbird){ .card-link title=Documentazione}
+[:octicons-code-16:](https://hg.mozilla.org/comm-central){ .card-link title="Codice sorgente" }
 
 <details class="downloads" markdown>
-<summary>Downloads</summary>
+<summary>Scarica</summary>
 
 - [:simple-windows11: Windows](https://www.thunderbird.net)
 - [:simple-apple: macOS](https://www.thunderbird.net)
@@ -93,11 +93,11 @@ Apple Mail può caricare i contenuti da remoto in background o bloccarli interam
 **Canary Mail** è un client email a pagamento progettato per semplificare la crittografia end-to-end con funzionaalità di sicurezza come il blocco biometrico dell'app.
 
 [:octicons-home-16: Homepage](https://canarymail.io){ .md-button .md-button--primary }
-[:octicons-eye-16:](https://canarymail.io/privacy.html){ .card-link title="Privacy Policy" }
-[:octicons-info-16:](https://canarymail.zendesk.com/){ .card-link title=Documentation}
+[:octicons-eye-16:](https://canarymail.io/privacy.html){ .card-link title="Informativa sulla Privacy" }
+[:octicons-info-16:](https://canarymail.zendesk.com/){ .card-link title=Documentazione}
 
 <details class="downloads" markdown>
-<summary>Downloads</summary>
+<summary>Scarica</summary>
 
 - [:simple-googleplay: Google Play](https://play.google.com/store/apps/details?id=io.canarymail.android)
 - [:simple-appstore: App Store](https://apps.apple.com/app/id1236045954)
@@ -125,13 +125,13 @@ Canary Mail è closed-source. Lo consigliamo a causa di alcune scelte per i clie
 **FairEmail** è un'app di email minimale e open source che utilizza gli standard apeerti (IMAP, SMTP, OpenPGP), con un basso consumo di dati e batteria.
 
 [:octicons-home-16: Homepage](https://email.faircode.eu){ .md-button .md-button--primary }
-[:octicons-eye-16:](https://github.com/M66B/FairEmail/blob/master/PRIVACY.md){ .card-link title="Privacy Policy" }
-[:octicons-info-16:](https://github.com/M66B/FairEmail/blob/master/FAQ.md){ .card-link title=Documentation}
-[:octicons-code-16:](https://github.com/M66B/FairEmail){ .card-link title="Source Code" }
-[:octicons-heart-16:](https://email.faircode.eu/donate/){ .card-link title=Contribute }
+[:octicons-eye-16:](https://github.com/M66B/FairEmail/blob/master/PRIVACY.md){ .card-link title="Informativa sulla Privacy" }
+[:octicons-info-16:](https://github.com/M66B/FairEmail/blob/master/FAQ.md){ .card-link title=Documentazione}
+[:octicons-code-16:](https://github.com/M66B/FairEmail){ .card-link title="Codice sorgente" }
+[:octicons-heart-16:](https://email.faircode.eu/donate/){ .card-link title=Contribuisci }
 
 <details class="downloads" markdown>
-<summary>Downloads</summary>
+<summary>Scarica</summary>
 
 - [:simple-googleplay: Google Play](https://play.google.com/store/apps/details?id=eu.faircode.email)
 - [:simple-github: GitHub](https://github.com/M66B/FairEmail/releases)
@@ -149,13 +149,13 @@ Canary Mail è closed-source. Lo consigliamo a causa di alcune scelte per i clie
 **Evolution** è un'applicazione per la gestione delle informazioni personali che fornisce funzionalità integrate di email, calendario e rubrica. Evolution dispone di un'ampia [documentazione](https://help.gnome.org/users/evolution/stable/) per aiutarti a iniziare.
 
 [:octicons-home-16: Homepage](https://wiki.gnome.org/Apps/Evolution){ .md-button .md-button--primary }
-[:octicons-eye-16:](https://wiki.gnome.org/Apps/Evolution/PrivacyPolicy){ .card-link title="Privacy Policy" }
-[:octicons-info-16:](https://help.gnome.org/users/evolution/stable/){ .card-link title=Documentation}
-[:octicons-code-16:](https://gitlab.gnome.org/GNOME/evolution/){ .card-link title="Source Code" }
-[:octicons-heart-16:](https://www.gnome.org/donate/){ .card-link title=Contribute }
+[:octicons-eye-16:](https://wiki.gnome.org/Apps/Evolution/PrivacyPolicy){ .card-link title="Informativa sulla Privacy" }
+[:octicons-info-16:](https://help.gnome.org/users/evolution/stable/){ .card-link title=Documentazione}
+[:octicons-code-16:](https://gitlab.gnome.org/GNOME/evolution/){ .card-link title="Codice sorgente" }
+[:octicons-heart-16:](https://www.gnome.org/donate/){ .card-link title=Contribuisci }
 
 <details class="downloads" markdown>
-<summary>Downloads</summary>
+<summary>Scarica</summary>
 
 - [:simple-flathub: Flathub](https://flathub.org/apps/details/org.gnome.Evolution)
 
@@ -174,13 +174,13 @@ Canary Mail è closed-source. Lo consigliamo a causa di alcune scelte per i clie
 In futuro, K-9 Mail sarà il client [ufficiale](https://k9mail.app/2022/06/13/K-9-Mail-and-Thunderbird.html) di Thunderbird per Android.
 
 [:octicons-home-16: Homepage](https://k9mail.app){ .md-button .md-button--primary }
-[:octicons-eye-16:](https://k9mail.app/privacy){ .card-link title="Privacy Policy" }
-[:octicons-info-16:](https://docs.k9mail.app/){ .card-link title=Documentation}
-[:octicons-code-16:](https://github.com/thundernest/k-9){ .card-link title="Source Code" }
-[:octicons-heart-16:](https://k9mail.app/contribute){ .card-link title=Contribute }
+[:octicons-eye-16:](https://k9mail.app/privacy){ .card-link title="Informativa sulla Privacy" }
+[:octicons-info-16:](https://docs.k9mail.app/){ .card-link title=Documentazione}
+[:octicons-code-16:](https://github.com/thundernest/k-9){ .card-link title="Codice sorgente" }
+[:octicons-heart-16:](https://k9mail.app/contribute){ .card-link title=Contribuisci }
 
 <details class="downloads" markdown>
-<summary>Downloads</summary>
+<summary>Scarica</summary>
 
 - [:simple-googleplay: Google Play](https://play.google.com/store/apps/details?id=com.fsck.k9)
 - [:simple-github: GitHub](https://github.com/thundernest/k-9/releases)
@@ -205,13 +205,13 @@ Rispondendo a qualcuno in una mailing list, l'opzione "rispondi" potrebbe includ
 **Kontact** è un'applicazione di gestione delle informazioni personali (PIM), dal progetto [KDE](https://dke.org). Fornisce un client email, rubrica, un'agenda e un client RSS.
 
 [:octicons-home-16: Homepage](https://kontact.kde.org){ .md-button .md-button--primary }
-[:octicons-eye-16:](https://kde.org/privacypolicy-apps){ .card-link title="Privacy Policy" }
-[:octicons-info-16:](https://kontact.kde.org/users/){ .card-link title=Documentation}
-[:octicons-code-16:](https://invent.kde.org/pim/kmail){ .card-link title="Source Code" }
-[:octicons-heart-16:](https://kde.org/community/donations/){ .card-link title=Contribute }
+[:octicons-eye-16:](https://kde.org/privacypolicy-apps){ .card-link title="Informativa sulla Privacy" }
+[:octicons-info-16:](https://kontact.kde.org/users/){ .card-link title=Documentazione}
+[:octicons-code-16:](https://invent.kde.org/pim/kmail){ .card-link title="Codice sorgente" }
+[:octicons-heart-16:](https://kde.org/community/donations/){ .card-link title=Contribuisci }
 
 <details class="downloads" markdown>
-<summary>Downloads</summary>
+<summary>Scarica</summary>
 
 - [:simple-linux: Linux](https://kontact.kde.org/download)
 - [:simple-flathub: Flathub](https://flathub.org/apps/details/org.kde.kontact)
@@ -229,12 +229,12 @@ Rispondendo a qualcuno in una mailing list, l'opzione "rispondi" potrebbe includ
 **Mailvelope** è un'estensione del browser che consente lo scambio di email crittografate secondo lo standard di crittografia OpenPGP.
 
 [:octicons-home-16: Homepage](https://www.mailvelope.com){ .md-button .md-button--primary }
-[:octicons-eye-16:](https://www.mailvelope.com/en/privacy-policy){ .card-link title="Privacy Policy" }
-[:octicons-info-16:](https://mailvelope.com/faq){ .card-link title=Documentation}
-[:octicons-code-16:](https://github.com/mailvelope/mailvelope){ .card-link title="Source Code" }
+[:octicons-eye-16:](https://www.mailvelope.com/en/privacy-policy){ .card-link title="Informativa sulla Privacy" }
+[:octicons-info-16:](https://mailvelope.com/faq){ .card-link title=Documentazione}
+[:octicons-code-16:](https://github.com/mailvelope/mailvelope){ .card-link title="Codice sorgente" }
 
 <details class="downloads" markdown>
-<summary>Downloads</summary>
+<summary>Scarica</summary>
 
 - [:simple-firefoxbrowser: Firefox](https://addons.mozilla.org/firefox/addon/mailvelope)
 - [:simple-googlechrome: Chrome](https://chrome.google.com/webstore/detail/mailvelope/kajibbejlbohfaggdiogboambcijhkke)
@@ -255,12 +255,12 @@ Rispondendo a qualcuno in una mailing list, l'opzione "rispondi" potrebbe includ
 NeoMutt è un client basato su testo con una curva d'apprendimento molto rapida. Tuttavia, è molto personalizzabile.
 
 [:octicons-home-16: Homepage](https://neomutt.org){ .md-button .md-button--primary }
-[:octicons-info-16:](https://neomutt.org/guide/){ .card-link title=Documentation}
-[:octicons-code-16:](https://github.com/neomutt/neomutt){ .card-link title="Source Code" }
-[:octicons-heart-16:](https://www.paypal.com/paypalme/russon/){ .card-link title=Contribute }
+[:octicons-info-16:](https://neomutt.org/guide/){ .card-link title=Documentazione}
+[:octicons-code-16:](https://github.com/neomutt/neomutt){ .card-link title="Codice sorgente"}
+[:octicons-heart-16:](https://www.paypal.com/paypalme/russon/){ .card-link title=Contribuisci }
 
 <details class="downloads" markdown>
-<summary>Downloads</summary>
+<summary>Scarica</summary>
 
 - [:simple-apple: macOS](https://neomutt.org/distro)
 - [:simple-linux: Linux](https://neomutt.org/distro)

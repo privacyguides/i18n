@@ -63,22 +63,27 @@ Invece, se necessiti di navigare anonimamente su Internet, dovresti utilizzare [
 
 ## Mullvad Browser
 
-!!! recommendation
+<div class="admonition recommendation" markdown>
 
-    ![Mullvad Browser logo](assets/img/browsers/mullvad_browser.svg){ align=right }
-    
-    **Mullvad Browser** è una versione di [Tor Browser](tor.md#tor-browser) con le integrazioni della rete Tor rimosse, con l'obiettivo di fornire le tecnologie anti-fingerprinting di Tor Browser agli utenti che usano una VPN. Sviluppato dal Tor Project e distribuito da [Mullvad](vpn.md#mullvad), **non** richiede l'utilizzo della VPN di Mullvad.
-    
-    [:octicons-home-16: Pagina Principale](https://mullvad.net/it/browser){ .md-button .md-button--primary }
-    [:octicons-eye-16:](https://mullvad.net/it/help/privacy-policy/){ .card-link title="Politica sulla Privacy" }
-    [:octicons-info-16:](https://mullvad.net/it/help/tag/mullvad-browser/){ .card-link title=Documentazione}
-    [:octicons-code-16:](https://gitlab.torproject.org/tpo/applications/mullvad-browser){ .card-link title="Codice Sorgente" }
-    
-    ??? downloads "Scarica"
-    
-        - [:simple-windows11: Windows](https://mullvad.net/it/download/browser/windows)
-        - [:simple-apple: macOS](https://mullvad.net/it/download/browser/macos)
-        - [:simple-linux: Linux](https://mullvad.net/it/download/browser/linux)
+![Mullvad Browser logo](assets/img/browsers/mullvad_browser.svg){ align=right }
+
+**Mullvad Browser** è una versione di [Tor Browser](tor.md#tor-browser) con le integrazioni della rete Tor rimosse, con l'obiettivo di fornire le tecnologie anti-fingerprinting di Tor Browser agli utenti che usano una VPN. Sviluppato dal Tor Project e distribuito da [Mullvad](vpn.md#mullvad), **non** richiede l'utilizzo della VPN di Mullvad.
+
+[:octicons-home-16: Homepage](https://mullvad.net/en/browser){ .md-button .md-button--primary }
+[:octicons-eye-16:](https://mullvad.net/en/help/privacy-policy/){ .card-link title="Privacy Policy" }
+[:octicons-info-16:](https://mullvad.net/en/help/tag/mullvad-browser/){ .card-link title=Documentation}
+[:octicons-code-16:](https://gitlab.torproject.org/tpo/applications/mullvad-browser){ .card-link title="Source Code" }
+
+<details class="downloads" markdown>
+<summary>Downloads</summary>
+
+- [:simple-windows11: Windows](https://mullvad.net/en/download/browser/windows)
+- [:simple-apple: macOS](https://mullvad.net/en/download/browser/macos)
+- [:simple-linux: Linux](https://mullvad.net/en/download/browser/linux)
+
+</details>
+
+</div>
 
 Come [Tor Browser](tor.md), Mullvad Browser è progettato per impedire il fingerprinting, rendendo l'impronta digitale del tuo browser identica a quella di tutti gli altri suoi utenti, e include impostazioni ed estensioni predefinite, configurate automaticamente dai livelli di sicurezza predefiniti: *Standard*, *Safer* e *Safest*. Dunque, è essenziale che tu non modifichi affatto il browser, tranne che per regolare i [livelli di sicurezza](https://tb-manual.torproject.org/security-settings/) predefiniti. Altre modifiche renderebbero la tua impronta digitale univoca, vanificando lo scopo di utilizzare tale browser. Se desideri configurare il tuo browser in modo più completo e il fingerprinting non ti preoccupa, consigliamo invece [Firefox](#firefox).
 
@@ -104,27 +109,36 @@ Mullvad Browser integra DuckDuckGo come [motore di ricerca](search-engines.md) p
 
 ## Firefox
 
-!!! recommendation
+<div class="admonition recommendation" markdown>
 
-    ![Firefox logo](assets/img/browsers/firefox.svg){ align=right }
-    
-    **Firefox** offre robuste impostazioni di privacy, come la [protezione antitracciamento avanzata](https://support.mozilla.org/it/kb/protezione-antitracciamento-avanzata-firefox-desktop), che aiuta a bloccare varie [tipologie di tracciamento](https://support.mozilla.org/it/kb/protezione-antitracciamento-avanzata-firefox-desktop#w_che-cosa-viene-bloccato-con-la-protezione-antitracciamento-avanzata).
-    
-    [:octicons-home-16: Pagina Principale](https://www.mozilla.org/it/firefox/new){ .md-button .md-button--primary }
-    [:octicons-eye-16:](https://www.mozilla.org/it/privacy/firefox/){ .card-link title="Politica sulla Privacy" }
-    [:octicons-info-16:](https://firefox-source-docs.mozilla.org/){ .card-link title=Documentatione}
-    [:octicons-code-16:](https://hg.mozilla.org/mozilla-central){ .card-link title="Codice Sorgente" }
-    [:octicons-heart-16:](https://donate.mozilla.org/it/){ .card-link title=Contribuisci }
-    
-    ??? downloads "Scarica"
-    
-        - [:simple-windows11: Windows](https://www.mozilla.org/it/firefox/windows/)
-        - [:simple-apple: macOS](https://www.mozilla.org/it/firefox/mac)
-        - [:simple-linux: Linux](https://www.mozilla.org/it/firefox/linux)
-        - [:simple-flathub: Flathub](https://flathub.org/it/apps/org.mozilla.firefox)
+![Firefox logo](assets/img/browsers/firefox.svg){ align=right }
 
-!!! warning "attenzione"
-    Firefox include un [token di download](https://bugzilla.mozilla.org/show_bug.cgi?id=1677497#c0) univoco nei scaricati dal sito web di Mozilla e utilizza la telemetria su Firefox per inviarlo. Il token **non** è incluso nelle release da [Mozilla FTP](https://ftp.mozilla.org/pub/firefox/releases/).
+**Firefox** offre robuste impostazioni di privacy, come la [protezione antitracciamento avanzata](https://support.mozilla.org/it/kb/protezione-antitracciamento-avanzata-firefox-desktop), che aiuta a bloccare varie [tipologie di tracciamento](https://support.mozilla.org/it/kb/protezione-antitracciamento-avanzata-firefox-desktop#w_che-cosa-viene-bloccato-con-la-protezione-antitracciamento-avanzata).
+
+[:octicons-home-16: Homepage](https://firefox.com){ .md-button .md-button--primary }
+[:octicons-eye-16:](https://www.mozilla.org/privacy/firefox/){ .card-link title="Privacy Policy" }
+[:octicons-info-16:](https://firefox-source-docs.mozilla.org/){ .card-link title=Documentation}
+[:octicons-code-16:](https://hg.mozilla.org/mozilla-central){ .card-link title="Source Code" }
+[:octicons-heart-16:](https://donate.mozilla.org/){ .card-link title=Contribute }
+
+<details class="downloads" markdown>
+<summary>Downloads</summary>
+
+- [:simple-windows11: Windows](https://www.mozilla.org/firefox/windows)
+- [:simple-apple: macOS](https://www.mozilla.org/firefox/mac)
+- [:simple-linux: Linux](https://www.mozilla.org/firefox/linux)
+- [:simple-flathub: Flathub](https://flathub.org/apps/details/org.mozilla.firefox)
+
+</details>
+
+</div>
+
+<div class="admonition warning" markdown>
+<p class="admonition-title">Avviso</p>
+
+Firefox includes a unique [download token](https://bugzilla.mozilla.org/show_bug.cgi?id=1677497#c0) in downloads from Mozilla's website and uses telemetry in Firefox to send the token. The token is **not** included in releases from the [Mozilla FTP](https://ftp.mozilla.org/pub/firefox/releases/).
+
+</div>
 
 ### Configurazione Consigliata
 
@@ -194,9 +208,12 @@ La Protezione Massima impone l'utilizzo di DNS su HTTPS; un avviso di sicurezza 
 
 ### Arkenfox (avanzato)
 
-!!! consiglio "Utilizza Mullvad Browser per l'anti-fingerprinting avanzato"
+<div class="admonition tip" markdown>
+<p class="admonition-title">Use Mullvad Browser for advanced anti-fingerprinting</p>
 
-    [Mullvad Browser](#mullvad-browser) fornisce le stesse protezioni anti-fingerprinting di Arkenfox pronte all'uso e non richiede l'utilizzo della VPN di Mullvad per beneficiarne. Insieme a una VPN, Mullvad Browser può contrastare gli script di tracciamento più avanzati, a differenza di Arkenfox. Tuttavia, Arkenfox presenta il vantaggio di essere molto più flessibile e di consentire eccezioni specifiche per i siti web a cui necessiti di rimanere connesso.
+[Mullvad Browser](#mullvad-browser) fornisce le stesse protezioni anti-fingerprinting di Arkenfox pronte all'uso e non richiede l'utilizzo della VPN di Mullvad per beneficiarne. Insieme a una VPN, Mullvad Browser può contrastare gli script di tracciamento più avanzati, a differenza di Arkenfox. Tuttavia, Arkenfox presenta il vantaggio di essere molto più flessibile e di consentire eccezioni specifiche per i siti web a cui necessiti di rimanere connesso.
+
+</div>
 
 Il [progetto Arkenfox](https://github.com/arkenfox/user.js) fornisce una serie di opzioni attentamente selezionate per Firefox. Se [decidi](https://github.com/arkenfox/user.js/wiki/1.1-To-Arkenfox-or-Not) di utilizzarlo, [alcune opzioni](https://github.com/arkenfox/user.js/wiki/3.2-Overrides-[Common]) sono soggettivamente più stringenti di altre e/o potrrebbero causare il malfunzionamento di alcuni siti web, [che puoi modificare facilmente](https://github.com/arkenfox/user.js/wiki/3.1-Overrides) affinché si adeguino alle tue esigenze. **Consigliamo vivamente** di leggere la loro [wiki](https://github.com/arkenfox/user.js/wiki) completa. Inoltre, Arkenfox consente il supporto ai [contenitori](https://support.mozilla.org/en-US/kb/containers#w_for-advanced-users).
 
@@ -204,34 +221,42 @@ Arkenfox mira soltanto a contrastare gli script di tracciamento di base o sempli
 
 ## Brave
 
-!!! recommendation
+<div class="admonition recommendation annotate" markdown>
 
-    ![Brave logo](assets/img/browsers/brave.svg){ align=right }
-    
-    **Brave Browser** include un blocco di contenuti integrato e delle [funzionalità per la privacy](https://brave.com/privacy-features/), molte delle quali sono abilitate di default.
-    
-    Brave è basato sul progetto del browser web di Chromium, quindi, dovrebbe risultare familiare e avere problemi minimi di compatibilità con i siti web.
-    
-    [:octicons-home-16: Home page](https://brave.com/it/){ .md-button .md-button--primary }
-    [:simple-torbrowser:](https://brave4u7jddbv7cyviptqjc7jusxh72uik7zt6adtckl5f4nwy2v72qd.onion){ .card-link title="Servizio Onion" }
-    [:octicons-eye-16:](https://brave.com/privacy/browser/){ .card-link title="Informativa sulla Privacy" }
-    [:octicons-info-16:](https://support.brave.com/){ .card-link title=Documentation}
-    [:octicons-code-16:](https://github.com/brave/brave-browser){ .card-link title="Codice Sorgente" }
-    
-    ??? downloads annotate "Scarica"
-    
-        - [:simple-github: GitHub](https://github.com/brave/brave-browser/releases)
-        - [:simple-windows11: Windows](https://brave.com/download/)
-        - [:simple-apple: macOS](https://brave.com/download/)
-        - [:simple-linux: Linux](https://brave.com/linux/) (1)
+![Brave logo](assets/img/browsers/brave.svg){ align=right }
 
-    1. Sconsigliamo di utilizzare la versione Flatpak di Brave, poiché sostituisce il sandbox di Chromium con Flatpak, che è meno efficace. Inoltre, il pacchetto non è mantenuto da Brave Software, Inc.
+**Brave Browser** include un blocco di contenuti integrato e delle [funzionalità per la privacy](https://brave.com/privacy-features/), molte delle quali sono abilitate di default.
+
+Brave è basato sul progetto del browser web di Chromium, quindi, dovrebbe risultare familiare e avere problemi minimi di compatibilità con i siti web.
+
+[:octicons-home-16: Homepage](https://brave.com/){ .md-button .md-button--primary }
+[:simple-torbrowser:](https://brave4u7jddbv7cyviptqjc7jusxh72uik7zt6adtckl5f4nwy2v72qd.onion){ .card-link title="Onion Service" }
+[:octicons-eye-16:](https://brave.com/privacy/browser/){ .card-link title="Privacy Policy" }
+[:octicons-info-16:](https://support.brave.com/){ .card-link title=Documentation}
+[:octicons-code-16:](https://github.com/brave/brave-browser){ .card-link title="Source Code" }
+
+<details class="downloads" markdown>
+<summary>Downloads</summary>
+
+- [:simple-github: GitHub](https://github.com/brave/brave-browser/releases)
+- [:simple-windows11: Windows](https://brave.com/download/)
+- [:simple-apple: macOS](https://brave.com/download/)
+- [:simple-linux: Linux](https://brave.com/linux/) (1)
+
+</details>
+
+</div>
+
+1. Sconsigliamo di utilizzare la versione Flatpak di Brave, poiché sostituisce il sandbox di Chromium con Flatpak, che è meno efficace. Inoltre, il pacchetto non è mantenuto da Brave Software, Inc.
 
 **Utenti macOS:** Il download di Brave Browser dal sito ufficiale è un programma d'installazione `.pkg` che richiede i privilegi di amministratore per essere eseguito (e potrebbe eseguire altri script non necessari sul computer). In alternativa, puoi scaricare l'ultimo file `Brave-Browser-universal.dmg` dalla loro pagina [di rilascio di GitHub](https://github.com/brave/brave-browser/releases/latest), che fornisce una tradizionale installazione "trascina nella cartella Applicazioni".
 
-!!! warning "Attenzione"
+<div class="admonition warning" markdown>
+<p class="admonition-title">Avviso</p>
 
-    Brave aggiunge un "[codice di riferimento](https://github.com/brave/brave-browser/wiki/Brave%E2%80%99s-Use-of-Referral-Codes)" al nome del file nei download dal sito web di Brave, che viene utilizzato per tracciare la fonte da cui è stato scaricato il browser, ad esempio `BRV002` in un download chiamato `Brave-Browser-BRV002.pkg`. Il programma d'installazione invierà un ping al server di Brave con il codice di riferimento al termine del processo d'installazione. Se sei preoccupato per questo motivo, puoi rinominare il file d'installazione prima di aprirlo.
+Brave aggiunge un "[codice di riferimento](https://github.com/brave/brave-browser/wiki/Brave%E2%80%99s-Use-of-Referral-Codes)" al nome del file nei download dal sito web di Brave, che viene utilizzato per tracciare la fonte da cui è stato scaricato il browser, ad esempio `BRV002` in un download chiamato `Brave-Browser-BRV002.pkg`. Il programma d'installazione invierà un ping al server di Brave con il codice di riferimento al termine del processo d'installazione. Se sei preoccupato per questo motivo, puoi rinominare il file d'installazione prima di aprirlo.
+
+</div>
 
 ### Configurazione Consigliata
 
@@ -247,11 +272,15 @@ Le opzioni di Protezioni sono regolabili per ogni sito ma consigliamo di imposta
 
 <div class="annotate" markdown>
 
-- [x] Seleziona **Impedisci ai siti di tracciarmi in base alle mie preferenze linguistiche**
-- [x] Seleziona **Aggressivo** in Blocco di tracker e annunci
+- [x] Select **Prevent sites from fingerprinting me based on my language preferences**
+- [x] Select **Aggressive** under Trackers & ads blocking
 
-    ??? warning "Utilizza elenchi di filtraggio predefiniti"
-        Brave ti consente di selezionare ulteriori filtri dei contenuti sulla pagina interna `brave://adblock`. Sconsigliamo questa funzionalità; piuttosto, mantieni gli elenchi di filtri predefiniti. Utilzzare ulteriori elenchi ti distinguerà dagli altri utenti di Brave e potrebbe inoltre incrementare la superficie di attacco, se è presente un exploit su Brave e una regola dannosa viene aggiunta a uno degli elenchi che utilizzi.
+<details class="warning" markdown>
+<summary>Use default filter lists</summary>
+
+Brave allows you to select additional content filters within the internal `brave://adblock` page. Sconsigliamo questa funzionalità; piuttosto, mantieni gli elenchi di filtri predefiniti. Utilzzare ulteriori elenchi ti distinguerà dagli altri utenti di Brave e potrebbe inoltre incrementare la superficie di attacco, se è presente un exploit su Brave e una regola dannosa viene aggiunta a uno degli elenchi che utilizzi.
+
+</details>
 
 - [x] Seleziona **Restrittivo** in **Aggiorna le connessioni a HTTPS**
 - [x] (facoltativo) Seleziona **Blocco degli Script** (1)
@@ -271,22 +300,25 @@ Le opzioni di Protezioni sono regolabili per ogni sito ma consigliamo di imposta
 
 <div class="annotate" markdown>
 
-- [x] Seleziona **Disabilita UDP senza proxy** in [Gestione politica IP WebRTC](https://support.brave.com/hc/en-us/articles/360017989132-How-do-I-change-my-Privacy-Settings-#webrtc)
-- [ ] Rimuovi la spunta da **Utilizza i servizi Google per la messaggistica push**
-- [ ] Rimuovi la spunta da **Acconsenti all'analisi dei prodotti di tutela della privacy (P3A).**
-- [ ] Rimuovi la spunta da **Invia automaticamente un ping di utilizzo giornaliero a Brave**
-- [ ] Rimuovi la spunta da **Invia automaticamente i rapporti di diagnostica**
-- [ ] Rimuovi la spunta da **Finestra in Incognito con Tor** (1)
-
-    !!! tip "Pulizia alla chiusura"
-
-        - [x] Selezionare **Cancella i cookie e i dati del sito alla chiusura di tutte le finestre** nel menu *Cookies e altri dati del sito*
-
-        Se si desidera rimanere connessi a un particolare sito che si visita spesso, è possibile impostare eccezioni su base individuale nella sezione *Comportamenti personalizzati*.
+- [x] Select **Disable non-proxied UDP** under [WebRTC IP Handling Policy](https://support.brave.com/hc/en-us/articles/360017989132-How-do-I-change-my-Privacy-Settings-#webrtc)
+- [ ] Uncheck **Use Google services for push messaging**
+- [ ] Uncheck **Allow privacy-preserving product analytics (P3A)**
+- [ ] Uncheck **Automatically send daily usage ping to Brave**
+- [ ] Uncheck **Automatically send diagnostic reports**
+- [ ] Uncheck **Private window with Tor** (1)
 
 </div>
 
 1. Brave **non è** resistente al fingerprinting come il Tor Browser e molte meno persone utilizzano Brave con Tor, facendoti quindi distinguere. Quando [è necessario un forte anonimato](https://support.brave.com/hc/en-us/articles/360018121491-What-is-a-Private-Window-with-Tor-Connectivity-) utilizzare il [Tor Browser](tor.md#tor-browser).
+
+<div class="admonition tip" markdown>
+<p class="admonition-title">Sanitizing on close</p>
+
+- [x] Select **Clear cookies and site data when you close all windows** in the *Cookies and other site data* menu
+
+If you wish to stay logged in to a particular site you visit often, you can set exceptions on a per-site basis under the *Customized behaviors* section.
+
+</div>
 
 ##### Estensioni
 
@@ -328,22 +360,27 @@ In generale, consigliamo di mantenere al minimo le estensioni del tuo browser pe
 
 ### uBlock Origin
 
-!!! recommendation
+<div class="admonition recommendation" markdown>
 
-    ![Logo di uBlock Origin](assets/img/browsers/ublock_origin.svg){ align=right }
-    
-    **uBlock Origin** è un popolare blocco di contenuti che potrebbe aiutarti a bloccare annunci, tracciatori e script di fingerprinting.
-    
-    [:octicons-repo-16: Repository](https://github.com/gorhill/uBlock#readme){ .md-button .md-button--primary }
-    [:octicons-eye-16:](https://github.com/gorhill/uBlock/wiki/Privacy-policy){ .card-link title="Politica sulla privacy" }
-    [:octicons-info-16:](https://github.com/gorhill/uBlock/wiki){ .card-link title=Documentazione}
-    [:octicons-code-16:](https://github.com/gorhill/uBlock){ .card-link title="Codice sorgente" }
-    
-    ??? downloads
-    
-        - [:simple-firefoxbrowser: Firefox](https://addons.mozilla.org/firefox/addon/ublock-origin/)
-        - [:simple-googlechrome: Chrome](https://chrome.google.com/webstore/detail/ublock-origin/cjpalhdlnbpafiamejdnhcphjbkeiagm)
-        - [:simple-microsoftedge: Edge](https://microsoftedge.microsoft.com/addons/detail/ublock-origin/odfafepnkmbhccpbejgmiehpchacaeak)
+![Logo di uBlock Origin](assets/img/browsers/ublock_origin.svg){ align=right }
+
+**uBlock Origin** è un popolare blocco di contenuti che potrebbe aiutarti a bloccare annunci, tracciatori e script di fingerprinting.
+
+[:octicons-repo-16: Repository](https://github.com/gorhill/uBlock#readme){ .md-button .md-button--primary }
+[:octicons-eye-16:](https://github.com/gorhill/uBlock/wiki/Privacy-policy){ .card-link title="Privacy Policy" }
+[:octicons-info-16:](https://github.com/gorhill/uBlock/wiki){ .card-link title=Documentation}
+[:octicons-code-16:](https://github.com/gorhill/uBlock){ .card-link title="Source Code" }
+
+<details class="downloads" markdown>
+<summary>Downloads</summary>
+
+- [:simple-firefoxbrowser: Firefox](https://addons.mozilla.org/firefox/addon/ublock-origin/)
+- [:simple-googlechrome: Chrome](https://chrome.google.com/webstore/detail/ublock-origin/cjpalhdlnbpafiamejdnhcphjbkeiagm)
+- [:simple-microsoftedge: Edge](https://microsoftedge.microsoft.com/addons/detail/ublock-origin/odfafepnkmbhccpbejgmiehpchacaeak)
+
+</details>
+
+</div>
 
 Suggeriamo di seguire la [documentazione per sviluppatori](https://github.com/gorhill/uBlock/wiki/Blocking-mode) e di selezionare una delle "modalità". Ulteriori elenchi di filtri possono influenzare le prestazioni e [potrebbero incrementare la superficie di attacco](https://portswigger.net/research/ublock-i-exfiltrate-exploiting-ad-blockers-with-css).
 
@@ -360,21 +397,26 @@ uBlock Origin ha anche una versione "Lite" dell'estensione, che offre un set di 
 - ...vuoi un blocco di contenuti più efficiente in termini di risorse (memoria/CPU)[^1]
 - ...il tuo browser supporta solo estensioni Manifest V3
 
-!!! recommendation "consiglio"
+<div class="admonition recommendation" markdown>
 
-    ![uBlock Origin Lite logo](assets/img/browsers/ublock_origin_lite.svg){ align=right }
-    
-    **uBlock Origin Lite** è un content blocker compatibile con Manifest V3. Rispetto all'originale *uBlock Origin*, questa estensione non richiede ampi permessi di "lettura/modifica dati" per funzionare.
-    
-    [:octicons-repo-16: Repository](https://github.com/uBlockOrigin/uBOL-home#readme){ .md-button .md-button--primary }
-    [:octicons-eye-16:](https://github.com/gorhill/uBlock/wiki/Privacy-policy){ .card-link title="Politica sulla Privacy" }
-    [:octicons-info-16:](https://github.com/uBlockOrigin/uBOL-home/wiki){ .card-link title=Documentazione}
-    [:octicons-code-16:](https://github.com/gorhill/uBlock/tree/master/platform/mv3){ .card-link title="Codice Sorgente" }
-    
-    ??? downloads "Scarica"
-    
-        - [:simple-firefoxbrowser: Firefox](https://addons.mozilla.org/it/firefox/addon/ublock-origin-lite/)
-        - [:simple-googlechrome: Chrome](https://chromewebstore.google.com/detail/ublock-origin-lite/ddkjiahejlhfcafbddmgiahcphecmpfh?hl=it)
+![uBlock Origin Lite logo](assets/img/browsers/ublock_origin_lite.svg){ align=right }
+
+**uBlock Origin Lite** è un content blocker compatibile con Manifest V3. Rispetto all'originale *uBlock Origin*, questa estensione non richiede ampi permessi di "lettura/modifica dati" per funzionare.
+
+[:octicons-repo-16: Repository](https://github.com/uBlockOrigin/uBOL-home#readme){ .md-button .md-button--primary }
+[:octicons-eye-16:](https://github.com/gorhill/uBlock/wiki/Privacy-policy){ .card-link title="Privacy Policy" }
+[:octicons-info-16:](https://github.com/uBlockOrigin/uBOL-home/wiki){ .card-link title=Documentation}
+[:octicons-code-16:](https://github.com/gorhill/uBlock/tree/master/platform/mv3){ .card-link title="Source Code" }
+
+<details class="downloads" markdown>
+<summary>Downloads</summary>
+
+- [:simple-firefoxbrowser: Firefox](https://addons.mozilla.org/addon/ublock-origin-lite/)
+- [:simple-googlechrome: Chrome](https://chrome.google.com/webstore/detail/ublock-origin-lite/ddkjiahejlhfcafbddmgiahcphecmpfh)
+
+</details>
+
+</div>
 
 Consigliamo questa versione di uBlock Origin solo se non vuoi mai apportare modifiche alle tue liste filtri, perché supporta solo alcune liste pre-selezionate e non offre ulteriori opzioni di personalizzazione, inclusa la possibilità di selezionare gli elementi da bloccare manualmente. Queste restrizioni sono dovute a limitazioni nella progettazione di Manifest V3.
 
@@ -388,9 +430,12 @@ uBlock Origin Lite riceve solo gli aggiornamenti della lista di blocco ogni volt
 
 **Ti preghiamo di notare che non siamo affiliati con alcuno dei progetti consigliati.** Oltre ai [nostri criteri standard](about/criteria.md), abbiamo sviluppato una serie chiara di requisiti per consentirci di fornire consigli oggettivi. Ti suggeriamo di familiarizzare con questi elenchi, prima di scegliere di utilizzare un progetto e di condurre le tue ricerche per assicurarti che si tratti della scelta migliore per te.
 
-!!! example "Questa sezione è nuova"
+<div class="admonition example" markdown>
+<p class="admonition-title">Questa sezione è nuova</p>
 
-    Stiamo lavorando per stabilire i criteri definiti per ogni sezione del nostro sito e, questa, potrebbe essere soggetta a modifiche. Se hai qualsiasi domanda sui nostri criteri, ti preghiamo di [chiedere sul nostro forum](https://discuss.privacyguides.net/latest) e di non supporre che non abbiamo considerato qualcosa, formulando i nostri consigli, se non elencato qui. Molti fattori sono presi in considerazione e discussi quando consigliamo un progetto e la documentazione di ognuno è in lavorazione.
+Stiamo lavorando per stabilire i criteri definiti per ogni sezione del nostro sito e, questa, potrebbe essere soggetta a modifiche. Se hai qualsiasi domanda sui nostri criteri, ti preghiamo di [chiedere sul nostro forum](https://discuss.privacyguides.net/latest) e di non supporre che non abbiamo considerato qualcosa, formulando i nostri consigli, se non elencato qui. Molti fattori sono presi in considerazione e discussi quando consigliamo un progetto e la documentazione di ognuno è in lavorazione.
+
+</div>
 
 ### Requisiti minimi
 
@@ -402,15 +447,13 @@ uBlock Origin Lite riceve solo gli aggiornamenti della lista di blocco ogni volt
 - Blocca i cookie di terze parti di default.
 - Supporta la [partizione dello stato](https://developer.mozilla.org/en-US/docs/Web/Privacy/State_Partitioning) per mitigare il tracciamento tra siti.[^2]
 
-
 ### Miglior Caso
 
 I nostri criteri ottimali rappresentano ciò che vorremmo vedere dal progetto perfetto in questa categoria. I nostri consigli potrebbero non includere alcuna o tutte queste funzionalità, ma quelli che le presentano, potrebbero essere meglio classificati di altri su questa pagina.
 
 - Include una funzionalità di blocco dei contenuti integrati.
 - Supporta la compartimentazione dei cookie (come nei [Contenitori a Profilo Multiplo](https://support.mozilla.org/en-US/kb/containers)).
-- Supporta le App Web Progressiive.  
-  PWA ti consente di installare certi siti web come fossero app native sul tuo computer. Ciò può comportare vantaggi rispetto all'installazione di app basate su Electron, poiché benefici degli aggiornamenti di sicurezza regolari del tuo browser.
+- Supports Progressive Web Apps. PWAs enable you to install certain websites as if they were native apps on your computer. Ciò può comportare vantaggi rispetto all'installazione di app basate su Electron, poiché benefici degli aggiornamenti di sicurezza regolari del tuo browser.
 - Non include funzionalità aggiuntive (bloatware) che non influiscono sulla privacy dell'utente.
 - Non raccoglie la telemetria di default.
 - Fornisce un'implementazione open source del server di sincronizzazione.

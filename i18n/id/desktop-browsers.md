@@ -63,22 +63,27 @@ Jika Anda perlu menjelajah internet secara anonim, Anda sebaiknya menggunakan [T
 
 ## Mullvad Browser
 
-!!! recommendation
+<div class="admonition recommendation" markdown>
 
-    ![Mullvad Browser logo](assets/img/browsers/mullvad_browser.svg){ align=right }
-    
-    **Mullvad Browser** adalah versi dari [Tor Browser](tor.md#tor-browser) dengan integrasi jaringan Tor yang telah dihilangkan. Mullvad Browser bertujuan untuk menyediakan teknologi peramban anti-fingerprinting yang ada di Peramban Tor kepada pengguna VPN. It is developed by the Tor Project and distributed by [Mullvad](vpn.md#mullvad), and does **not** require the use of Mullvad's VPN.
-    
-    [:octicons-home-16: Homepage](https://mullvad.net/en/browser){ .md-button .md-button--primary }
-    [:octicons-eye-16:](https://mullvad.net/en/help/privacy-policy/){ .card-link title="Privacy Policy" }
-    [:octicons-info-16:](https://mullvad.net/en/help/tag/mullvad-browser/){ .card-link title=Documentation}
-    [:octicons-code-16:](https://gitlab.torproject.org/tpo/applications/mullvad-browser){ .card-link title="Kode Sumber" }
-    
-    ??? unduhan
-    
-        - [:simple-windows11: Windows](https://mullvad.net/en/download/browser/windows)
-        - [:simple-apple: macOS](https://mullvad.net/en/download/browser/macos)
-        - [:simple-linux: Linux](https://mullvad.net/en/download/browser/linux)
+![Mullvad Browser logo](assets/img/browsers/mullvad_browser.svg){ align=right }
+
+**Mullvad Browser** adalah versi dari [Tor Browser](tor.md#tor-browser) dengan integrasi jaringan Tor yang telah dihilangkan. Mullvad Browser bertujuan untuk menyediakan teknologi peramban anti-fingerprinting yang ada di Peramban Tor kepada pengguna VPN. It is developed by the Tor Project and distributed by [Mullvad](vpn.md#mullvad), and does **not** require the use of Mullvad's VPN.
+
+[:octicons-home-16: Homepage](https://mullvad.net/en/browser){ .md-button .md-button--primary }
+[:octicons-eye-16:](https://mullvad.net/en/help/privacy-policy/){ .card-link title="Privacy Policy" }
+[:octicons-info-16:](https://mullvad.net/en/help/tag/mullvad-browser/){ .card-link title=Documentation}
+[:octicons-code-16:](https://gitlab.torproject.org/tpo/applications/mullvad-browser){ .card-link title="Source Code" }
+
+<details class="downloads" markdown>
+<summary>Downloads</summary>
+
+- [:simple-windows11: Windows](https://mullvad.net/en/download/browser/windows)
+- [:simple-apple: macOS](https://mullvad.net/en/download/browser/macos)
+- [:simple-linux: Linux](https://mullvad.net/en/download/browser/linux)
+
+</details>
+
+</div>
 
 Seperti [Tor Browser](tor.md), Mullvad Browser dirancang untuk mencegah fingerprinting dengan membuat fingerprint di browser Anda identik dengan semua pengguna Mullvad Browser lainnya, serta mencakup pengaturan default dan ekstensi yang secara otomatis dikonfigurasi oleh tingkat keamanan default seperti: *Standar*, *Lebih Aman* dan *Paling Aman*. Oleh karena itu, sangat penting bagi Anda untuk tidak memodifikasi pengaturan browser sama sekali kecuali penyesuaian [tingkat keamanan](https://tb-manual.torproject.org/security-settings/). Melakukan modifikasi akan membuat fingerprint pada browser ini menjadi unik, sehingga mengubah tujuan penggunaan dari browser ini. Jika Anda ingin merubah pengaturan browser Anda dengan sesuai dengan keinginan Anda dan fingerprint bukan menjadi masalah bagi Anda, kami sarankan untuk menggunakan [Firefox](#firefox) sebagai gantinya.
 
@@ -104,27 +109,36 @@ Mullvad Browser hadir dengan DuckDuckGo yang ditetapkan sebagai [mesin pencari](
 
 ## Firefox
 
-!!! recommendation
+<div class="admonition recommendation" markdown>
 
-    ![Logo Firefox](assets/img/browsers/firefox.svg){ align=right }
-    
-    **Firefox** menyediakan pengaturan privasi yang kuat seperti [Perlindungan Pelacakan yang Ditingkatkan](https://support.mozilla.org/kb/enhanced-tracking-protection-firefox-desktop), yang dapat membantu memblokir berbagai [jenis pelacakan](https://support.mozilla.org/kb/enhanced-tracking-protection-firefox-desktop#w_what-enhanced-tracking-protection-blocks).
-    
-    [:octicons-home-16: Beranda](https://firefox.com){ .md-button .md-button--primary }
-    [:octicons-eye-16:](https://www.mozilla.org/privacy/firefox/){ .card-link title="Kebijakan Privasi" }
-    [:octicons-info-16:](https://firefox-source-docs.mozilla.org/){ .card-link title=Dokumentasi}
-    [:octicons-code-16:](https://hg.mozilla.org/mozilla-central){ .card-link title="Kode Sumber" }
-    [:octicons-heart-16:](https://donate.mozilla.org/){ .card-link title=Kontribusi }
-    
-    ??? unduhan
-    
-        - [:simple-windows11: Windows](https://www.mozilla.org/firefox/windows)
-        - [:simple-apple: macOS](https://www.mozilla.org/firefox/mac)
-        - [:simple-linux: Linux](https://www.mozilla.org/firefox/linux)
-        - [:simple-flathub: Flathub](https://flathub.org/apps/details/org.mozilla.firefox)
+![Logo Firefox](assets/img/browsers/firefox.svg){ align=right }
 
-!!! warning
-    Firefox includes a unique [download token](https://bugzilla.mozilla.org/show_bug.cgi?id=1677497#c0) in downloads from Mozilla's website and uses telemetry in Firefox to send the token. Tokennya **tidak** disertakan dalam rilis dari [Mozilla FTP](https://ftp.mozilla.org/pub/firefox/releases/).
+**Firefox** menyediakan pengaturan privasi yang kuat seperti [Perlindungan Pelacakan yang Ditingkatkan](https://support.mozilla.org/kb/enhanced-tracking-protection-firefox-desktop), yang dapat membantu memblokir berbagai [jenis pelacakan](https://support.mozilla.org/kb/enhanced-tracking-protection-firefox-desktop#w_what-enhanced-tracking-protection-blocks).
+
+[:octicons-home-16: Homepage](https://firefox.com){ .md-button .md-button--primary }
+[:octicons-eye-16:](https://www.mozilla.org/privacy/firefox/){ .card-link title="Privacy Policy" }
+[:octicons-info-16:](https://firefox-source-docs.mozilla.org/){ .card-link title=Documentation}
+[:octicons-code-16:](https://hg.mozilla.org/mozilla-central){ .card-link title="Source Code" }
+[:octicons-heart-16:](https://donate.mozilla.org/){ .card-link title=Contribute }
+
+<details class="downloads" markdown>
+<summary>Downloads</summary>
+
+- [:simple-windows11: Windows](https://www.mozilla.org/firefox/windows)
+- [:simple-apple: macOS](https://www.mozilla.org/firefox/mac)
+- [:simple-linux: Linux](https://www.mozilla.org/firefox/linux)
+- [:simple-flathub: Flathub](https://flathub.org/apps/details/org.mozilla.firefox)
+
+</details>
+
+</div>
+
+<div class="admonition warning" markdown>
+<p class="admonition-title">Warning</p>
+
+Firefox includes a unique [download token](https://bugzilla.mozilla.org/show_bug.cgi?id=1677497#c0) in downloads from Mozilla's website and uses telemetry in Firefox to send the token. The token is **not** included in releases from the [Mozilla FTP](https://ftp.mozilla.org/pub/firefox/releases/).
+
+</div>
 
 ### Konfigurasi yang Disarankan
 
@@ -194,9 +208,12 @@ Max Protection enforces the use of DNS over HTTPS, and a security warning will s
 
 ### Arkenfox (advanced)
 
-!!! tip "Use Mullvad Browser for advanced anti-fingerprinting"
+<div class="admonition tip" markdown>
+<p class="admonition-title">Use Mullvad Browser for advanced anti-fingerprinting</p>
 
-    [Mullvad Browser](#mullvad-browser) provides the same anti-fingerprinting protections as Arkenfox out of the box, and does not require the use of Mullvad's VPN to benefit from these protections. Coupled with a VPN, Mullvad Browser can thwart more advanced tracking scripts which Arkenfox cannot. Arkenfox still has the advantage of being much more flexible, and allowing per-site exceptions for websites which you need to stay logged in to.
+[Mullvad Browser](#mullvad-browser) provides the same anti-fingerprinting protections as Arkenfox out of the box, and does not require the use of Mullvad's VPN to benefit from these protections. Coupled with a VPN, Mullvad Browser can thwart more advanced tracking scripts which Arkenfox cannot. Arkenfox still has the advantage of being much more flexible, and allowing per-site exceptions for websites which you need to stay logged in to.
+
+</div>
 
 The [Arkenfox project](https://github.com/arkenfox/user.js) provides a set of carefully considered options for Firefox. If you [decide](https://github.com/arkenfox/user.js/wiki/1.1-To-Arkenfox-or-Not) to use Arkenfox, a [few options](https://github.com/arkenfox/user.js/wiki/3.2-Overrides-[Common]) are subjectively strict and/or may cause some websites to not work properly - [which you can easily change](https://github.com/arkenfox/user.js/wiki/3.1-Overrides) to suit your needs. We **strongly recommend** reading through their full [wiki](https://github.com/arkenfox/user.js/wiki). Arkenfox also enables [container](https://support.mozilla.org/en-US/kb/containers#w_for-advanced-users) support.
 
@@ -204,34 +221,42 @@ Arkenfox only aims to thwart basic or naive tracking scripts through canvas rand
 
 ## Brave
 
-!!! recommendation
+<div class="admonition recommendation annotate" markdown>
 
-    ![Brave logo](assets/img/browsers/brave.svg){ align=right }
-    
-    **Brave Browser** includes a built-in content blocker and [privacy features](https://brave.com/privacy-features/), many of which are enabled by default.
-    
-    Brave dibuat berdasarkan proyek peramban web Chromium, sehingga seharusnya terasa familier dan memiliki masalah kompatibilitas situs web yang minimal.
-    
-    [:octicons-home-16: Beranda](https://mullvad.net){ .md-button .md-button--primary }
-    [:simple-torbrowser:](http://o54hon2e2vj6c7m3aqqu6uyece65by3vgoxxhlqlsvkmacw6a7m7kiad.onion){ .card-link title="Layanan Onion" }
-    [:octicons-eye-16:](https://brave.com/privacy/browser/){ .card-link title="Kebijakan Privasi" }
-    [:octicons-info-16:](https://support.brave.com/){ .card-link title=Dokumentasi}
-    [:octicons-code-16:](https://github.com/brave/brave-browser){ .card-link title="Kode Sumber" }
-    
-    ??? downloads annotate
-    
-        - [:simple-github: GitHub](https://github.com/brave/brave-browser/releases)
-        - [:simple-windows11: Windows](https://brave.com/download/)
-        - [:simple-apple: macOS](https://brave.com/download/)
-        - [:simple-linux: Linux](https://brave.com/linux/) (1)
+![Brave logo](assets/img/browsers/brave.svg){ align=right }
 
-    1. We advise against using the Flatpak version of Brave, as it replaces Chromium's sandbox with Flatpak's, which is less effective. Additionally, the package is not maintained by Brave Software, Inc.
+**Brave Browser** includes a built-in content blocker and [privacy features](https://brave.com/privacy-features/), many of which are enabled by default.
+
+Brave dibuat berdasarkan proyek peramban web Chromium, sehingga seharusnya terasa familier dan memiliki masalah kompatibilitas situs web yang minimal.
+
+[:octicons-home-16: Homepage](https://brave.com/){ .md-button .md-button--primary }
+[:simple-torbrowser:](https://brave4u7jddbv7cyviptqjc7jusxh72uik7zt6adtckl5f4nwy2v72qd.onion){ .card-link title="Onion Service" }
+[:octicons-eye-16:](https://brave.com/privacy/browser/){ .card-link title="Privacy Policy" }
+[:octicons-info-16:](https://support.brave.com/){ .card-link title=Documentation}
+[:octicons-code-16:](https://github.com/brave/brave-browser){ .card-link title="Source Code" }
+
+<details class="downloads" markdown>
+<summary>Downloads</summary>
+
+- [:simple-github: GitHub](https://github.com/brave/brave-browser/releases)
+- [:simple-windows11: Windows](https://brave.com/download/)
+- [:simple-apple: macOS](https://brave.com/download/)
+- [:simple-linux: Linux](https://brave.com/linux/) (1)
+
+</details>
+
+</div>
+
+1. We advise against using the Flatpak version of Brave, as it replaces Chromium's sandbox with Flatpak's, which is less effective. Additionally, the package is not maintained by Brave Software, Inc.
 
 **pengguna macOS:** Unduhan untuk Brave Browser dari situs web resmi mereka adalah penginstal `.pkg` yang membutuhkan hak akses admin untuk menjalankannya (dan mungkin menjalankan skrip lain yang tidak perlu di komputer Anda). Sebagai alternatif, Anda bisa mengunduh file `Brave-Browser-universal.dmg` terbaru dari laman [rilis GitHub](https://github.com/brave/brave-browser/releases/latest), yang menyediakan instalasi "seret ke folder Aplikasi".
 
-!!! peringatan
+<div class="admonition warning" markdown>
+<p class="admonition-title">Warning</p>
 
-    Brave menambahkan "[kode rujukan](https://github.com/brave/brave-browser/wiki/Brave%E2%80%99s-Use-of-Referral-Codes)" pada nama berkas dalam unduhan dari situs web Brave, yang digunakan untuk melacak dari sumber mana peramban tersebut diunduh, misalnya `BRV002` dalam unduhan yang bernama `Brave-Browser-BRV002.pkg`. Penginstal kemudian akan melakukan ping ke server Brave dengan kode rujukan di akhir proses instalasi. Jika Anda khawatir tentang hal ini, Anda dapat mengganti nama berkas penginstal sebelum membukanya.
+Brave menambahkan "[kode rujukan](https://github.com/brave/brave-browser/wiki/Brave%E2%80%99s-Use-of-Referral-Codes)" pada nama berkas dalam unduhan dari situs web Brave, yang digunakan untuk melacak dari sumber mana peramban tersebut diunduh, misalnya `BRV002` dalam unduhan yang bernama `Brave-Browser-BRV002.pkg`. Penginstal kemudian akan melakukan ping ke server Brave dengan kode rujukan di akhir proses instalasi. Jika Anda khawatir tentang hal ini, Anda dapat mengganti nama berkas penginstal sebelum membukanya.
+
+</div>
 
 ### Konfigurasi yang Disarankan
 
@@ -250,8 +275,12 @@ Shields' options can be downgraded on a per-site basis as needed, but by default
 - [x] Select **Prevent sites from fingerprinting me based on my language preferences**
 - [x] Select **Aggressive** under Trackers & ads blocking
 
-    ??? warning "Use default filter lists"
-        Brave allows you to select additional content filters within the internal `brave://adblock` page. We advise against using this feature; instead, keep the default filter lists. Using extra lists will make you stand out from other Brave users and may also increase attack surface if there is an exploit in Brave and a malicious rule is added to one of the lists you use.
+<details class="warning" markdown>
+<summary>Use default filter lists</summary>
+
+Brave allows you to select additional content filters within the internal `brave://adblock` page. We advise against using this feature; instead, keep the default filter lists. Using extra lists will make you stand out from other Brave users and may also increase attack surface if there is an exploit in Brave and a malicious rule is added to one of the lists you use.
+
+</details>
 
 - [x] Select **Strict** under **Upgrade connections to HTTPS**
 - [x] (Optional) Select **Block Scripts** (1)
@@ -278,15 +307,18 @@ Shields' options can be downgraded on a per-site basis as needed, but by default
 - [ ] Uncheck **Automatically send diagnostic reports**
 - [ ] Uncheck **Private window with Tor** (1)
 
-    !!! tip "Sanitizing on Close"
-
-        - [x] Select **Clear cookies and site data when you close all windows** in the *Cookies and other site data* menu
-
-        If you wish to stay logged in to a particular site you visit often, you can set exceptions on a per-site basis under the *Customized behaviors* section.
-
 </div>
 
 1. Brave is **not** as resistant to fingerprinting as the Tor Browser and far fewer people use Brave with Tor, so you will stand out. Where [strong anonymity is required](https://support.brave.com/hc/en-us/articles/360018121491-What-is-a-Private-Window-with-Tor-Connectivity-) use the [Tor Browser](tor.md#tor-browser).
+
+<div class="admonition tip" markdown>
+<p class="admonition-title">Sanitizing on close</p>
+
+- [x] Select **Clear cookies and site data when you close all windows** in the *Cookies and other site data* menu
+
+If you wish to stay logged in to a particular site you visit often, you can set exceptions on a per-site basis under the *Customized behaviors* section.
+
+</div>
 
 ##### Extensions
 
@@ -328,22 +360,27 @@ Secara umum, kami menyarankan untuk menjaga ekstensi seminimal mungkin; ekstensi
 
 ### uBlock Origin
 
-!!! recommendation
+<div class="admonition recommendation" markdown>
 
-    ![logo uBlock Origin](assets/img/browsers/ublock_origin.svg){ align=right }
-    
-    **uBlock Origin** adalah pemblokir konten populer yang dapat membantu Anda memblokir iklan, pelacak, dan skrip sidik jari.
-    
-    [:octicons-repo-16: Repositori](https://github.com/gorhill/uBlock#readme){ .md-button .md-button--primary }
-    [:octicons-eye-16:](https://github.com/gorhill/uBlock/wiki/Privacy-policy){ .card-link title="Kebijakan Privasi" }
-    [:octicons-info-16:](https://github.com/gorhill/uBlock/wiki){ .card-link title=Dokumentasi}
-    [:octicons-code-16:](https://github.com/gorhill/uBlock){ .card-link title="Kode Sumber" }
-    
-    ??? unduh
-    
-        - [:simple-firefoxbrowser: Firefox](https://addons.mozilla.org/firefox/addon/ublock-origin/)
-        - [:simple-googlechrome: Chrome](https://chrome.google.com/webstore/detail/ublock-origin/cjpalhdlnbpafiamejdnhcphjbkeiagm)
-        - [:simple-microsoftedge: Edge](https://microsoftedge.microsoft.com/addons/detail/ublock-origin/odfafepnkmbhccpbejgmiehpchacaeak)
+![logo uBlock Origin](assets/img/browsers/ublock_origin.svg){ align=right }
+
+**uBlock Origin** adalah pemblokir konten populer yang dapat membantu Anda memblokir iklan, pelacak, dan skrip sidik jari.
+
+[:octicons-repo-16: Repository](https://github.com/gorhill/uBlock#readme){ .md-button .md-button--primary }
+[:octicons-eye-16:](https://github.com/gorhill/uBlock/wiki/Privacy-policy){ .card-link title="Privacy Policy" }
+[:octicons-info-16:](https://github.com/gorhill/uBlock/wiki){ .card-link title=Documentation}
+[:octicons-code-16:](https://github.com/gorhill/uBlock){ .card-link title="Source Code" }
+
+<details class="downloads" markdown>
+<summary>Downloads</summary>
+
+- [:simple-firefoxbrowser: Firefox](https://addons.mozilla.org/firefox/addon/ublock-origin/)
+- [:simple-googlechrome: Chrome](https://chrome.google.com/webstore/detail/ublock-origin/cjpalhdlnbpafiamejdnhcphjbkeiagm)
+- [:simple-microsoftedge: Edge](https://microsoftedge.microsoft.com/addons/detail/ublock-origin/odfafepnkmbhccpbejgmiehpchacaeak)
+
+</details>
+
+</div>
 
 Kami sarankan untuk mengikuti [dokumentasi pengembang](https://github.com/gorhill/uBlock/wiki/Blocking-mode) dan memilih salah satu "mode". Daftar filter tambahan dapat memengaruhi kinerja dan [dapat meningkatkan permukaan serangan](https://portswigger.net/research/ublock-i-exfiltrate-exploiting-ad-blockers-with-css).
 
@@ -360,21 +397,26 @@ uBlock Origin also has a "Lite" version of their extension, which offers a very 
 - ...you want a more resource (memory/CPU) efficient content blocker[^1]
 - ...your browser only supports Manifest V3 extensions
 
-!!! recommendation
+<div class="admonition recommendation" markdown>
 
-    ![uBlock Origin Lite logo](assets/img/browsers/ublock_origin_lite.svg){ align=right }
-    
-    **uBlock Origin Lite** is a Manifest V3 compatible content blocker. Compared to the original *uBlock Origin*, this extension does not require broad "read/modify data" permissions to function.
-    
-    [:octicons-repo-16: Repository](https://github.com/uBlockOrigin/uBOL-home#readme){ .md-button .md-button--primary }
-    [:octicons-eye-16:](https://github.com/gorhill/uBlock/wiki/Privacy-policy){ .card-link title="Privacy Policy" }
-    [:octicons-info-16:](https://github.com/uBlockOrigin/uBOL-home/wiki){ .card-link title=Documentation}
-    [:octicons-code-16:](https://github.com/gorhill/uBlock/tree/master/platform/mv3){ .card-link title="Source Code" }
-    
-    ??? downloads
-    
-        - [:simple-firefoxbrowser: Firefox](https://addons.mozilla.org/addon/ublock-origin-lite/)
-        - [:simple-googlechrome: Chrome](https://chrome.google.com/webstore/detail/ublock-origin-lite/ddkjiahejlhfcafbddmgiahcphecmpfh)
+![uBlock Origin Lite logo](assets/img/browsers/ublock_origin_lite.svg){ align=right }
+
+**uBlock Origin Lite** is a Manifest V3 compatible content blocker. Compared to the original *uBlock Origin*, this extension does not require broad "read/modify data" permissions to function.
+
+[:octicons-repo-16: Repository](https://github.com/uBlockOrigin/uBOL-home#readme){ .md-button .md-button--primary }
+[:octicons-eye-16:](https://github.com/gorhill/uBlock/wiki/Privacy-policy){ .card-link title="Privacy Policy" }
+[:octicons-info-16:](https://github.com/uBlockOrigin/uBOL-home/wiki){ .card-link title=Documentation}
+[:octicons-code-16:](https://github.com/gorhill/uBlock/tree/master/platform/mv3){ .card-link title="Source Code" }
+
+<details class="downloads" markdown>
+<summary>Downloads</summary>
+
+- [:simple-firefoxbrowser: Firefox](https://addons.mozilla.org/addon/ublock-origin-lite/)
+- [:simple-googlechrome: Chrome](https://chrome.google.com/webstore/detail/ublock-origin-lite/ddkjiahejlhfcafbddmgiahcphecmpfh)
+
+</details>
+
+</div>
 
 We only recommend this version of uBlock Origin if you never want to make any changes to your filter lists, because it only supports a few pre-selected lists and offers no additional customization options, including the ability to select elements to block manually. These restrictions are due to limitations in Manifest V3's design.
 
@@ -388,9 +430,12 @@ uBlock Origin Lite only receives block list updates whenever the extension is up
 
 **Harap diperhatikan bahwa kami tidak berafiliasi dengan proyek-proyek yang kami rekomendasikan.** Selain [kriteria standar kami](about/criteria.md), kami telah mengembangkan serangkaian persyaratan yang jelas untuk memungkinkan kami memberikan rekomendasi yang objektif. Kami sarankan Anda membiasakan diri dengan daftar ini sebelum memilih untuk menggunakan sebuah proyek, dan melakukan penelitian sendiri untuk memastikan bahwa itu adalah pilihan yang tepat untuk Anda.
 
-!!! contoh "Bagian ini baru"
+<div class="admonition example" markdown>
+<p class="admonition-title">This section is new</p>
 
-    Kami sedang berupaya menetapkan kriteria yang jelas untuk setiap bagian dari situs kami, dan hal ini dapat berubah sewaktu-waktu. Jika Anda memiliki pertanyaan mengenai kriteria kami, silakan [tanyakan di forum](https://discuss.privacyguides.net/latest) dan jangan berasumsi bahwa kami tidak mempertimbangkan sesuatu saat membuat rekomendasi jika tidak tercantum di sini. Ada banyak faktor yang dipertimbangkan dan didiskusikan saat kami merekomendasikan sebuah proyek, dan mendokumentasikan setiap faktor tersebut merupakan sebuah pekerjaan yang sedang berjalan.
+Kami sedang berupaya menetapkan kriteria yang jelas untuk setiap bagian dari situs kami, dan hal ini dapat berubah sewaktu-waktu. Jika Anda memiliki pertanyaan mengenai kriteria kami, silakan [tanyakan di forum](https://discuss.privacyguides.net/latest) dan jangan berasumsi bahwa kami tidak mempertimbangkan sesuatu saat membuat rekomendasi jika tidak tercantum di sini. Ada banyak faktor yang dipertimbangkan dan didiskusikan saat kami merekomendasikan sebuah proyek, dan mendokumentasikan setiap faktor tersebut merupakan sebuah pekerjaan yang sedang berjalan.
+
+</div>
 
 ### Persyaratan Minimum
 
@@ -402,15 +447,13 @@ uBlock Origin Lite only receives block list updates whenever the extension is up
 - Memblokir kuki pihak ketiga secara bawaan.
 - Supports [state partitioning](https://developer.mozilla.org/en-US/docs/Web/Privacy/State_Partitioning) to mitigate cross-site tracking.[^2]
 
-
 ### Kasus Terbaik
 
 Kriteria kasus terbaik kami mewakili apa yang ingin kami lihat dari proyek yang sempurna dalam kategori ini. Rekomendasi kami mungkin tidak menyertakan salah satu atau semua fungsi ini, tetapi rekomendasi yang menyertakan fungsi ini mungkin memiliki peringkat yang lebih tinggi daripada yang lain di halaman ini.
 
 - Mencantumkan fungsionalitas pemblokiran konten bawaan.
 - Mendukung kompartementalisasi kuki (ala [Multi-Account Containers](https://support.mozilla.org/en-US/kb/containers)).
-- Mendukung Progressive Web App.  
-  PWA memungkinkan Anda menginstal situs web tertentu seolah-olah itu adalah aplikasi asli di komputer Anda. Hal ini dapat memberikan keuntungan dibandingkan memasang aplikasi berbasis Electron, karena Anda mendapatkan manfaat dari pembaruan keamanan reguler peramban Anda.
+- Supports Progressive Web Apps. PWAs enable you to install certain websites as if they were native apps on your computer. Hal ini dapat memberikan keuntungan dibandingkan memasang aplikasi berbasis Electron, karena Anda mendapatkan manfaat dari pembaruan keamanan reguler peramban Anda.
 - Tidak mencantumkan fungsionalitas tambahan (bloatware) yang tidak memengaruhi privasi pengguna.
 - Tidak mengumpulkan telemetri secara bawaan.
 - Menyediakan implementasi server sinkronisasi sumber terbuka.
